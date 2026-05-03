@@ -21,8 +21,11 @@ jobs:
     # silent hang 6 小時才被 default 360 min timeout 殺掉。加上限避免重演。
     # 2026-05-02 γ: 35 → 60 — article volume grew (641 zh × 6 langs ≈ 3800 pages)
     # 加 OG generation，到 2411/2520 才被 35 min timeout 砍。
-    # If this hits 60 again, profile build (likely OG generation tail).
-    timeout-minutes: 60
+    # 2026-05-03 cross-lang-baseline: 60 → 120 — PR #797 rename 902 lang files
+    # cache miss 全 regen ~4500 OG images = 40 min OG step + 20 min Build = 60 min hit。
+    # og-rename-sync.mjs (PR #805) + jpg mtime touch (PR #806) 修補後預期回 ~21 min，
+    # 但 timeout cushion 加倍給穩定性緩衝（避免再撞 cache miss 場景 timeout 又 cancel）。
+    timeout-minutes: 120
     env:
       # 防 apt-get 互動 prompt（Playwright --with-deps 會呼叫 sudo apt-get）
       DEBIAN_FRONTEND: noninteractive
@@ -113,7 +116,33 @@ jobs:
       - name: Sync OG cache for renamed articles
         timeout-minutes: 2
         run: node scripts/tools/og-rename-sync.mjs --since '30 days ago'
+      # OG generation skip optimization (2026-05-03)：detect if any content/template
+      # change since last commit; if not, skip the entire dev-server-boot + Playwright
+      # launch (~30-60s saved on memory/diary-only PRs to main).
+      - name: Detect OG-relevant changes
+        id: og-changes
+        run: |
+          # Check if any md content or OG template changed since last commit
+          # (HEAD~1 to HEAD on main) — else cache is already correct, no regen needed.
+          CHANGED=$(git diff --name-only HEAD~1 HEAD -- 'knowledge/**/*.md' \
+            'src/pages/[category]/[slug].astro' \
+            'src/pages/**/[category]/[slug].astro' \
+            'src/components/ArticleHero.astro' \
+            'src/layouts/Layout.astro' \
+            'src/styles/shot-mode.css' 2>/dev/null | head -1)
+          if [ -n "$CHANGED" ]; then
+            echo "needed=true" >> $GITHUB_OUTPUT
+            echo "✓ Content/template change detected — running OG generation"
+          else
+            echo "needed=false" >> $GITHUB_OUTPUT
+            echo "⏭️  No OG-relevant change — skipping dev server boot + Playwright launch (saves ~30-60s)"
+          fi
       - name: Generate OG images (incremental via ?shot=1)
+        if: steps.og-changes.outputs.needed == 'true'
+        # 4-core ubuntu-latest free runner: OG_WORKERS=4 (default) optimal.
+        # Set explicit env for clarity + future runner upgrade tuning.
+        env:
+          OG_WORKERS: 4
         run: |
           set -o pipefail
           # 背景啟 Astro dev server（產圖來源頁面）
