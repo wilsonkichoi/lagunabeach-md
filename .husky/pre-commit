@@ -85,6 +85,23 @@ if [ -n "$staged_md" ]; then
   fi
 fi
 
+# ═══ CJK 半形標點檢查（2026-05-04 新增）═══
+# 抓 zh-TW 段落裡半形 `,:;?!()` 應為全形 `，：；？！（）`
+# 為什麼：2026-05-04 黃魚鴞 PR review 抓出 title + body 大量半形標點，整篇
+# 讀起來像翻譯軟體機翻；search snippets / 社群 preview 一眼出戲。canonical
+# 檢查器：scripts/tools/check-cjk-punct.py
+# 智慧排除：fenced code / inline code / URL / HTML attr / 1,800 等 intra-number
+# 修法：python3 scripts/tools/check-cjk-punct.py --fix <file> （自動轉換）
+if [ -n "$staged_md" ]; then
+  if ! python3 scripts/tools/check-cjk-punct.py --staged --quiet; then
+    echo ""
+    echo "💡 自動修復：python3 scripts/tools/check-cjk-punct.py --fix knowledge/...md"
+    echo "   逐項看明細：python3 scripts/tools/check-cjk-punct.py knowledge/...md"
+    echo "   跳過此檢查（緊急修復）: git commit --no-verify"
+    exit 1
+  fi
+fi
+
 # ═══ MANIFESTO §11 書寫節制檢查（2026-04-23 β 新增）═══
 # 抓 9 種「不是X是Y」變體 + 破折號密度，擋在 commit 前
 # 為什麼：原 quality-scan.sh 只抓 3 種常見 pattern，2026-04-23 認知作戰
