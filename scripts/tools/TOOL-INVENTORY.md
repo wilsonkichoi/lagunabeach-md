@@ -2,7 +2,52 @@
 
 > 相關：[docs/semiont/DNA.md](../../docs/semiont/DNA.md)（工具基因）| [UNKNOWNS.md](../../docs/semiont/UNKNOWNS.md)（已知未知）
 
-18 個工具。它們檢查什麼維度、互相怎麼配合、哪裡有重疊、哪裡有缺口。
+> **2026-05-04 SSOT migration update**: 27+ scattered tools 收攏成 8 plugin SSOT
+> entry point `scripts/tools/article-health.py`. 詳見 `reports/article-health-ssot-design-2026-05-04.md`.
+> 此 doc 的 SSOT plugin 部分由 `article-health.py --inventory` auto-generate（下方第二個矩陣），
+> legacy 工具的部分仍手寫紀錄重疊備註與 deprecation 狀態。
+
+---
+
+## SSOT plugin matrix（auto-gen，don't edit by hand）
+
+由 `scripts/tools/article-health.py --inventory` 自動產生：
+
+| Check               | Dimension     | Default Severity | Editorial Ref                                 | Auto-fix? |
+| ------------------- | ------------- | ---------------- | --------------------------------------------- | --------- |
+| `cjk-punct`         | punctuation   | hard             | EDITORIAL.md §半形標點禁用                    | ✓         |
+| `footnote-density`  | citation      | warn             | footnote-scan.sh A-F grading                  | —         |
+| `footnote-format`   | citation      | hard             | .husky/pre-commit footnote format gate        | —         |
+| `format-structure`  | structure     | warn             | format-check.sh + EDITORIAL.md §三            | —         |
+| `frontmatter-title` | frontmatter   | warn             | EDITORIAL.md §Title 五原則                    | —         |
+| `image-health`      | media         | hard             | REWRITE-PIPELINE Stage 4.5f / DNA #30         | —         |
+| `prose-health`      | prose-quality | warn             | EDITORIAL.md §quality-scan + MANIFESTO.md §11 | —         |
+| `wikilink-target`   | structure     | hard             | wikilink-validate.sh                          | —         |
+
+CLI entry：
+
+```bash
+# 單檔全 profile
+python3 scripts/tools/article-health.py knowledge/Nature/黃魚鴞.md
+
+# 特定 profile (pre-commit / rewrite-stage-3 / release-pr / dashboard)
+python3 scripts/tools/article-health.py file.md --profile=pre-commit
+
+# 單 check
+python3 scripts/tools/article-health.py file.md --check=cjk-punct
+
+# 全 zh-TW sweep + JSON
+python3 scripts/tools/article-health.py --all --output=json
+```
+
+7 stage profiles 對應到 REWRITE-PIPELINE Stage 1-5 + pre-commit + release + dashboard。
+
+---
+
+## Legacy tool matrix
+
+下方表格紀錄原始 27+ 工具中**未被 SSOT 涵蓋**的部分 + facade 狀態。SSOT-already-covered 的工具在
+`scripts/tools/lib/article_health/checks/` 找對應 plugin。
 
 ---
 
@@ -79,5 +124,6 @@
 
 ---
 
-_v1.0 | 2026-04-04_
-_建立原因：session η 發現 wikilink-validate 跟 format-check 部分重疊，但沒有機制盤點。「造新工具時不知道跟現有工具重疊嗎？」是結構性盲點_
+_v1.0 | 2026-04-04_ — original 18-tool matrix
+_v2.0 | 2026-05-04_ — SSOT migration; 8 plugins consolidated into article-health.py
+_v2.0 建立原因_：session η 留下的 27 工具實情已 drift 9 個未列、3-way duplication（quality-scan / check-manifesto-11 / review-pr.sh L2）。SSOT migration 把規則 canonical 收攏到 plugin + TOML config，未來新工具加 plugin 一個指令 inventory 自動更新。詳見 `reports/article-health-ssot-design-2026-05-04.md`.

@@ -35,7 +35,9 @@ from collections import defaultdict
 # ──────────────────────────────────────────────
 # 設定
 # ──────────────────────────────────────────────
-BASE_DIR = Path("/Users/cheyuwu/taiwan-md")
+# BASE_DIR derives from script location (was hardcoded `/Users/cheyuwu/taiwan-md`,
+# 2026-05-04 audit O5 fixed the latent bug for non-cheyuwu / worktree contexts).
+BASE_DIR = Path(__file__).resolve().parents[2]
 TERMINOLOGY_DIR = BASE_DIR / "data" / "terminology"
 REVIEW_OUTPUT = Path("/tmp/terminology-audit-review.md")
 DRY_RUN = "--dry-run" in sys.argv
