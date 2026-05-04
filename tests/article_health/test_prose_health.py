@@ -54,7 +54,7 @@ def _score(violations) -> int:
 
 
 def test_short_file_skipped(tmp_path):
-    """File < 20 lines is skipped (matches quality-scan.sh early-exit)."""
+    """File < 20 lines is skipped (matches legacy quality-scan early-exit semantics)."""
     f = tmp_path / "knowledge" / "Nature" / "stub.md"
     f.parent.mkdir(parents=True)
     f.write_text("---\ntitle: x\n---\n\nshort content\n", encoding="utf-8")

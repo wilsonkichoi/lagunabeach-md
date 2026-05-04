@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """
-terminology-dedup.py — 全域跨來源術語去重檢查
+terminology-yaml-dedup.py — 全域跨來源術語去重檢查
+（2026-05-04 audit O5 從 terminology-dedup.py 改名 — scope 是 YAML 詞庫資料）
 
 掃描 data/terminology/ 中所有 YAML，找出 (display.taiwan, display.china)
 配對完全相同的重複條目，不論來源為何。
 
 用法：
-  python3 scripts/tools/terminology-dedup.py           # 報告 + exit 1 若有重複
-  python3 scripts/tools/terminology-dedup.py --fix     # 自動合併：刪重複、補 sources
+  python3 scripts/tools/terminology-yaml-dedup.py           # 報告 + exit 1 若有重複
+  python3 scripts/tools/terminology-yaml-dedup.py --fix     # 自動合併：刪重複、補 sources
 
 Exit code：
   0 — 無重複

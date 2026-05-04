@@ -24,7 +24,7 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "terminology"
 DIMENSION = "language"
 DEFAULT_SEVERITY = Severity.HARD
-EDITORIAL_REF = "TERMINOLOGY.md + quality-scan §15"
+EDITORIAL_REF = "TERMINOLOGY.md + EDITORIAL.md §兩岸用語"
 APPLIES_TO = ["zh-TW"]
 
 

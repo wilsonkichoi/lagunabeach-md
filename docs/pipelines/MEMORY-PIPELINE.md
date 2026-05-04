@@ -230,11 +230,8 @@ date "+%Y-%m-%d %H:%M:%S %z"
 ### Stage 4 — 自檢（指標化，跟 DIARY-PIPELINE / REWRITE-PIPELINE 共用）
 
 ```bash
-# 主工具：對位句型 9 變體 + 破折號 + Tier 2 AI metaphor + Tier 3 儀式語
-bash scripts/tools/check-manifesto-11.sh --strict docs/semiont/memory/{file}.md
-
-# 副工具：塑膠句檢測
-bash scripts/tools/quality-scan.sh docs/semiont/memory/{file}.md
+# 一個工具兩種維度（SSOT prose-health plugin 整合 manifesto-11 Tier 1-3 + quality-scan 12 dim）
+python3 scripts/tools/article-health.py docs/semiont/memory/{file}.md --check=prose-health
 ```
 
 工具自檢 + 三題人眼自檢：

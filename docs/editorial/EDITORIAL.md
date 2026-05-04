@@ -918,9 +918,9 @@ Taiwan.md 大量使用 AI 輔助寫作，但 AI 是工具，不是作者。
 
 ### quality-scan 偵測指標 (v5.5+ unified into prose-health plugin)
 
-**SSOT 化（2026-05-04）**：原本 16 維 `tools/quality-scan.sh` + 3 tier
-`tools/check-manifesto-11.sh` consolidated 到 `prose-health` plugin。
-canonical 規則跑：
+**SSOT 化（2026-05-04）**：原本 16 維 quality-scan + 3 tier manifesto-11 兩個
+獨立 shell script 已 consolidated 到 SSOT `prose-health` plugin（兩 .sh 在
+2026-05-04 cleanup-1-4 中刪除）。canonical 規則跑：
 
 ```bash
 python3 scripts/tools/article-health.py file.md --check=prose-health

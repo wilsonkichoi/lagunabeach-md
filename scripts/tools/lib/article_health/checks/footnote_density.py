@@ -23,7 +23,7 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "footnote-density"
 DIMENSION = "citation"
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "footnote-scan.sh A-F grading"
+EDITORIAL_REF = "EDITORIAL.md §引用密度 A-F grading"
 APPLIES_TO = ["*"]
 
 _RE_DEF = re.compile(r"^\[\^[0-9a-zA-Z_-]+\]:", re.MULTILINE)

@@ -15,9 +15,10 @@ import pytest
 
 
 SCRIPTS = [
-    "scripts/tools/terminology-audit.py",
-    "scripts/tools/terminology-clean.py",
-    "scripts/tools/terminology-fix.py",
+    "scripts/tools/terminology-yaml-audit.py",
+    "scripts/tools/terminology-yaml-clean.py",
+    "scripts/tools/terminology-yaml-dedup.py",
+    "scripts/tools/terminology-prose-fix.py",
 ]
 
 
@@ -45,7 +46,7 @@ def test_terminology_audit_imports_cleanly():
             (
                 "import sys; sys.path.insert(0, 'scripts/tools'); "
                 "import importlib.util; "
-                "spec = importlib.util.spec_from_file_location('m', 'scripts/tools/terminology-audit.py'); "
+                "spec = importlib.util.spec_from_file_location('m', 'scripts/tools/terminology-yaml-audit.py'); "
                 "mod = importlib.util.module_from_spec(spec); "
                 "spec.loader.exec_module(mod); "
                 "print(str(mod.BASE_DIR))"

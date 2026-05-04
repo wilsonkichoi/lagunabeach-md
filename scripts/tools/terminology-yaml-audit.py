@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-terminology-audit.py
+terminology-yaml-audit.py
 Taiwan.md 用語詞庫交叉驗證工具 (Issue #288 Step 3)
+（2026-05-04 audit O5 從 terminology-audit.py 改名 — 強調 scope 是 YAML 詞庫資料）
 
 處理範圍：只處理 sources 僅有 ThunderKO / 大陸用語檢索手冊 的條目
 
@@ -14,13 +15,13 @@ Taiwan.md 用語詞庫交叉驗證工具 (Issue #288 Step 3)
 第 2 層：高可信度保留（自動標記，不動）
   L2.  經典公認兩岸差異詞對
 
-第 3 層：可疑需人工審查（輸出到 /tmp/terminology-audit-review.md）
+第 3 層：可疑需人工審查（輸出到 /tmp/terminology-yaml-audit-review.md）
   L3a. category 與詞語語義明顯不符
   L3b. taiwan 值看起來台灣不常用
   L3c. 差異太微小（只差一個字，或僅簡繁差異）
 
 使用方式：
-  python3 scripts/tools/terminology-audit.py [--dry-run]
+  python3 scripts/tools/terminology-yaml-audit.py [--dry-run]
   --dry-run : 只報告，不刪除檔案
 """
 
@@ -39,7 +40,7 @@ from collections import defaultdict
 # 2026-05-04 audit O5 fixed the latent bug for non-cheyuwu / worktree contexts).
 BASE_DIR = Path(__file__).resolve().parents[2]
 TERMINOLOGY_DIR = BASE_DIR / "data" / "terminology"
-REVIEW_OUTPUT = Path("/tmp/terminology-audit-review.md")
+REVIEW_OUTPUT = Path("/tmp/terminology-yaml-audit-review.md")
 DRY_RUN = "--dry-run" in sys.argv
 
 THUNDERKO_MARKERS = ["ThunderKO", "大陸用語檢索手冊"]
@@ -628,7 +629,7 @@ def write_review_file(review_items: list):
     lines = [
         "# Taiwan.md 用語詞庫人工審查清單",
         "",
-        "> 由 `terminology-audit.py` 自動生成（Issue #288 Step 3）",
+        "> 由 `terminology-yaml-audit.py` 自動生成（Issue #288 Step 3）",
         "> 這些條目都是 ThunderKO-only 來源，且有可疑之處，需要人工確認是否保留。",
         "",
         f"共 {len(review_items)} 個待審條目",

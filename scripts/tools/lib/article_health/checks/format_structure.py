@@ -27,7 +27,7 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "format-structure"
 DIMENSION = "structure"
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "format-check.sh + EDITORIAL.md §三"
+EDITORIAL_REF = "EDITORIAL.md §三 + REWRITE-PIPELINE Stage 4"
 APPLIES_TO = ["zh-TW"]
 
 # 延伸閱讀 markers (canonical accepted): `## 延伸閱讀` or `**延伸閱讀**：`

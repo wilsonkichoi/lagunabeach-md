@@ -342,13 +342,13 @@ Every `.md` file in the root directory is an organ of this organism. Together, t
 
 The organism has an automated immune system that detects and fights "hollow AI content" — articles that look polished but carry no real substance:
 
-| Tool                                                        | Function                                                                                                                                                                                                                                                                                                  |
-| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `tools/quality-scan.sh`                                     | Scans all articles for **14 quality dimensions**: bullet padding, missing dates, no sources, empty modifiers, repetitive structure, thin paragraphs, no human review, plastic phrases, dash abuse, textbook openings, cliché endings, template H2s, **list-dump detection**, **quality decay** (虎頭蛇尾) |
-| `tools/quality-scan.sh --diff`                              | Compares against baseline to show which articles improved or degraded since last scan                                                                                                                                                                                                                     |
-| `tools/quality-scan.sh --sort`                              | Outputs worst-scoring articles first for triage                                                                                                                                                                                                                                                           |
-| [EDITORIAL.md §塑膠偵測](./docs/editorial/EDITORIAL.md)     | Human-readable guide to detecting "plastic" writing — five species of hollow sentences that AI loves to generate                                                                                                                                                                                          |
-| [REWRITE-PIPELINE.md](./docs/editorial/REWRITE-PIPELINE.md) | Four-file orchestration pipeline that prevents quality collapse: Pipeline (flow) → RESEARCH-TEMPLATE (research) → EDITORIAL (writing) → QUALITY-CHECKLIST (verification)                                                                                                                                  |
+| Tool                                                        | Function                                                                                                                                                                                                              |
+| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `python3 scripts/tools/article-health.py --all`             | SSOT 健檢入口（11 plugins）— scans articles for plastic phrases, dash abuse, list-dump, quality decay, citation health, wikilink resolution, format structure, image health, terminology, cross-reference reciprocity |
+| `--profile=release-pr`                                      | Strictest profile — fail on warn, all plugins active                                                                                                                                                                  |
+| `--check=prose-health` / `--check=footnote-density` / etc.  | Run a single plugin only. List all: `--list-checks`                                                                                                                                                                   |
+| [EDITORIAL.md §塑膠偵測](./docs/editorial/EDITORIAL.md)     | Human-readable guide to detecting "plastic" writing — five species of hollow sentences that AI loves to generate                                                                                                      |
+| [REWRITE-PIPELINE.md](./docs/editorial/REWRITE-PIPELINE.md) | Four-file orchestration pipeline that prevents quality collapse: Pipeline (flow) → RESEARCH-TEMPLATE (research) → EDITORIAL (writing) → QUALITY-CHECKLIST (verification)                                              |
 
 ### 🌱 How the Organism Evolves
 
@@ -364,7 +364,7 @@ New knowledge discovered
        │     → 五種開場、因果鏈、塑膠偵測、結尾模式庫、邊寫邊插 [^n] footnote
        │
        └─ Stage 3: docs/editorial/QUALITY-CHECKLIST.md (verification)
-             → 五指檢測 → 結構驗證 → 來源引用密度 → 塑膠掃描 → quality-scan.sh
+             → 五指檢測 → 結構驗證 → 來源引用密度 → 塑膠掃描 → article-health.py --check=prose-health
                     ↓
               docs/community/REVIEWERS.md (human review)
                     ↓
