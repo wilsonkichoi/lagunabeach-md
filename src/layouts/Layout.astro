@@ -47,7 +47,16 @@ const {
 
 // Search index now loaded via /api/search-index.json (fetch API)
 const isEn = lang === 'en';
-const categorySlug = category?.toLowerCase() || '';
+// categorySlug: prefer the English URL slug passed explicitly (e.g. 'food',
+// 'history') so the body's `jf-{slug}` class matches the English selectors
+// the justfont SDK config below uses (`.jf-food h1`, `.jf-history h1`).
+// Pre-2026-05-04 this took `category?.toLowerCase()` which ALSO captured the
+// localized display name (`自然`, `美食`) and produced classes like `jf-自然`
+// that no SDK selector matched — the category-specific font rules were dead
+// in production. Falling back to the old behavior for callers that don't
+// pass categorySlug (utility pages still get `jf-${category}` like before).
+const categorySlug =
+  propCategorySlug?.toLowerCase() || category?.toLowerCase() || '';
 const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
 const isHome = currentPath === '/' || currentPath === '/en';
 
@@ -200,14 +209,29 @@ const jfClass = [
       _jf.push(['_setFont', 'jf-kamabit', 'css', '.jf-food h1']);
       _jf.push(['_setFont', 'jf-kamabit', 'alias', 'jf-kamabit']);
       _jf.push(['_setFont', 'jf-kamabit', 'weight', 700]);
-      // rixingsong-semibold removed 2026-05-04: justfont CDN serves a
-      // malformed woff (valid wOFF magic bytes but FontFace API rejects
-      // with "Invalid font data"). Confirmed via `new FontFace().load()`
-      // probe across all 6 site fonts — only rixingsong fails to parse,
-      // 5 others load cleanly. Until justfont rebuilds the binary,
-      // .hero-title falls through to the `h1` → jf-lanyanghei-extraheavy
-      // rule above, and `.jf-history h1`'s static CSS fallback chain
-      // (rixingsong → Noto Serif TC) takes over.
+      // rixingsong-semibold scoped to `.jf-history h1` ONLY (no .hero-title)
+      // 2026-05-04: justfont's rixingsong subsetter is **character-set
+      // dependent broken** — same project, same CDN, same wOFF magic, but:
+      //   ✅ /history/二二八事件 → loaded
+      //   ✅ /history/19世紀的樟腦戰爭：世界要的香氣，藏在原住民的山 → loaded
+      //   ❌ /nature/黃魚鴞:六公里溪流養一對,1,800 公尺烏心石上的夜行猛禽
+      //      → FontFace `Invalid font data` (probable trigger: rare
+      //      glyph like `鴞` missing from rixingsong master font, or
+      //      ASCII `:` `,` punctuation breaking the subsetter).
+      // Other 5 site fonts (jinxuanlatte / lanyanghei × 2 / lanyangming /
+      // kamabit) parse cleanly across all subsets tested.
+      // Scoped to `.jf-history h1` so history pages remain canary; rest of
+      // site uses jf-lanyanghei-extraheavy via the `h1` rule above. Once
+      // justfont fixes the rixingsong pipeline, restore `.hero-title` to the
+      // selector to bring brand consistency back to all hero titles.
+      _jf.push(['_setFont', 'rixingsong-semibold', 'css', '.jf-history h1']);
+      _jf.push([
+        '_setFont',
+        'rixingsong-semibold',
+        'alias',
+        'rixingsong-semibold',
+      ]);
+      _jf.push(['_setFont', 'rixingsong-semibold', 'weight', 600]);
       (function (A, p, c, m, l, q, r, h, B, D) {
         var b = A._jf;
         if (b.constructor !== Object) {
