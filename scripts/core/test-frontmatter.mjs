@@ -84,6 +84,89 @@ function isArrayOfStrings(val) {
   return Array.isArray(val) && val.every((v) => typeof v === 'string');
 }
 
+// ── Title format rules (zh-TW only — translations have their own conventions)
+//
+// 觸發：2026-05-04 黃魚鴞 PR review session — title 用半形 `:` `,` 跑進去
+// 沒被擋。canonical：docs/editorial/EDITORIAL.md §Title 五原則 + 半形標點禁用。
+//
+// Three checks:
+//   1. Vague adjectives blacklist (per EDITORIAL §原則 3)
+//   2. CJK-context half-width punctuation in title
+//   3. People category: must have colon sandwich (per EDITORIAL §原則 5)
+
+// EDITORIAL §原則 3 canonical 禁用清單。其他「神話 / 不朽 / 永恆」等
+// 沒列在這裡的詞可能是文章本身的 subject (如《原住民神話》、《不朽記憶》)，
+// 不算空泛形容詞。要擴充先讀 docs/editorial/EDITORIAL.md §原則 3。
+const TITLE_VAGUE_ADJECTIVES = ['傳奇', '偉大', '優秀', '最強', '國民', '天后'];
+
+// CJK char range used for context-aware checks
+const CJK_RE = /[一-鿿㐀-䶿]/;
+
+function checkTitleFormat(title, category, label, lang, report, errors) {
+  if (!title || typeof title !== 'string') return;
+  // Skip non-zh-TW: translations follow source-lang punct conventions
+  if (lang) return;
+
+  // 1. Vague adjectives — warn (some articles like 蔡英文 might be exempt
+  //    if used as quote in scare-quotes; agent decides)
+  for (const adj of TITLE_VAGUE_ADJECTIVES) {
+    if (title.includes(adj)) {
+      report(
+        `${label}: title 含空泛形容詞「${adj}」(EDITORIAL §原則 3 禁止「傳奇/偉大/最強/國民」等空泛詞)`,
+      );
+    }
+  }
+
+  // 2. Half-width punctuation in CJK context (hard error — silent rendering issue)
+  const halfWidthPunct = [
+    [/(?<=[一-鿿㐀-䶿]):(?=[一-鿿㐀-䶿]|[0-9])/, ':', '：'],
+    [/(?<=[一-鿿㐀-䶿]),(?=[一-鿿㐀-䶿]|[0-9])/, ',', '，'],
+    [/(?<=[一-鿿㐀-䶿]);(?=[一-鿿㐀-䶿])/, ';', '；'],
+    [/(?<=[一-鿿㐀-䶿])\?(?=[一-鿿㐀-䶿])/, '?', '？'],
+    [/(?<=[一-鿿㐀-䶿])!(?=[一-鿿㐀-䶿])/, '!', '！'],
+  ];
+  for (const [re, half, full] of halfWidthPunct) {
+    if (re.test(title)) {
+      errors.push(
+        `${label}: title 含半形「${half}」(中文段落應用「${full}」) — 建議跑 \`python3 scripts/tools/check-cjk-punct.py --fix\``,
+      );
+    }
+  }
+
+  // 3. People category requires colon sandwich (人名：弧線)
+  if (category === 'People') {
+    const hasColon = /[:：]/.test(title);
+    if (!hasColon) {
+      report(
+        `${label}: People title 缺冒號三明治結構 (EDITORIAL §原則 5「人名：代表性弧線」格式必填)`,
+      );
+    } else {
+      // Check the post-colon part is non-trivial (≥ 8 CJK chars roughly)
+      const m = title.match(/^[^:：]+[:：]\s*(.+)$/);
+      if (m) {
+        const afterColon = m[1].trim();
+        // Count "weight": each CJK char = 1, ASCII char = 0.5
+        let weight = 0;
+        for (const ch of afterColon) weight += CJK_RE.test(ch) ? 1 : 0.5;
+        if (weight < 8) {
+          report(
+            `${label}: People title 冒號後敘述太短 ("${afterColon}", weight ${weight.toFixed(1)} < 8) — 副標應能單獨成立 (EDITORIAL §原則 4)`,
+          );
+        }
+      }
+    }
+  }
+
+  // 4. Length sanity (CJK chars + half-width chars at 0.5 weight)
+  let len = 0;
+  for (const ch of title) len += CJK_RE.test(ch) ? 1 : 0.5;
+  if (len > 35) {
+    report(
+      `${label}: title 過長 (effective length ${len.toFixed(1)} > 35) — EDITORIAL 建議 ≤ 30`,
+    );
+  }
+}
+
 // ── Scan ──
 
 for (const lang of LANGS) {
@@ -132,6 +215,9 @@ for (const lang of LANGS) {
       const report = STRICT ? (m) => errors.push(m) : (m) => warnings.push(m);
       if (!fm.title || typeof fm.title !== 'string') {
         report(`${label}: missing or invalid 'title'`);
+      } else {
+        // Title format checks (zh-TW only — see checkTitleFormat docstring)
+        checkTitleFormat(fm.title, cat, label, lang, report, errors);
       }
       if (!fm.description || typeof fm.description !== 'string') {
         report(`${label}: missing or invalid 'description'`);
