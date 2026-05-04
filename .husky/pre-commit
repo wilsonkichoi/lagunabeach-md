@@ -34,84 +34,23 @@ if [ -n "$staged_translations" ]; then
   fi
 fi
 
-# Validate format (延伸閱讀格式 + [[wikilink]] 殘留 + 斷連結) on staged knowledge/*.md
-# 為什麼：「規則在文件裡」≠「規則被執行」。2026-04-04 session η 的教訓。
+# ═══ article-health SSOT — pre-commit hard gate (2026-05-04 Phase 10) ═══
+# 11-plugin SSOT 入口跑 staged zh-TW knowledge/*.md.
+# Plugins covered (per scripts/tools/article-health.config.toml `pre-commit`
+# profile): cjk-punct / frontmatter-title / footnote-format /
+# wikilink-target / format-structure.
+# 取代了原本散在各處的 inline checks (wikilink list-residual / wikilink-validate /
+# footnote-format regex / cjk-punct.py). Per SSOT design (reports/
+# article-health-ssot-design-2026-05-04.md), promotes the 30-day shadow-run
+# observation period to canonical hard gate.
 staged_md=$(git diff --cached --name-only --diff-filter=ACM | grep '^knowledge/.*\.md$' | grep -vE '^knowledge/(en|ja|ko|es|fr)/' || true)
 if [ -n "$staged_md" ]; then
-  format_fail=0
-  link_fail=0
-  fn_fail=0
-  for f in $staged_md; do
-    # 忽略 _Hub 檔案
-    [[ "$(basename "$f")" == _* ]] && continue
-    # 檢查列表項目中的 [[wikilink]] 殘留（Astro 不渲染）
-    if grep -n '^\s*- \[\[' "$f" > /dev/null 2>&1; then
-      echo "❌ $f: 列表中有 [[wikilink]] 殘留（Astro 不渲染）"
-      grep -n '^\s*- \[\[' "$f" | head -3
-      echo "   修正: [[X]] → [X](/category/slug)"
-      format_fail=1
-    fi
-    # 驗證所有 [[wikilink]] 目標存在
-    broken=$(bash scripts/tools/wikilink-validate.sh "$f" 2>&1 | grep -c '❌' || true)
-    if [ "$broken" -gt 0 ]; then
-      echo "❌ $f: $broken 個斷裂 wikilink（目標不存在）"
-      bash scripts/tools/wikilink-validate.sh "$f" 2>&1 | grep '❌' | head -3
-      link_fail=1
-    fi
-    # ─── 腳註格式檢查（2026-04-14 η 新增）───
-    # 規範：[^N]: [Name](URL) — desc(10+ chars)
-    # 為什麼：format-check 顯示 bad_fn_format 從 342→382（兩天 +40）。
-    # 修舊文不解決，堵新文章才能讓數字停止增長。
-    # MANIFESTO §造橋鋪路「新細胞天生健康 > 回頭修舊細胞」。
-    fn_total=$(grep -cE '^\[\^[0-9a-zA-Z_-]+\]:' "$f" 2>/dev/null || echo 0)
-    fn_total=${fn_total//[[:space:]]/}
-    if [ "$fn_total" -gt 0 ]; then
-      fn_good=$(grep -cE '^\[\^[0-9a-zA-Z_-]+\]: \[.+\]\(https?://.+\) — .{10,}' "$f" 2>/dev/null || echo 0)
-      fn_good=${fn_good//[[:space:]]/}
-      fn_bad=$((fn_total - fn_good))
-      if [ "$fn_bad" -gt 0 ]; then
-        echo "❌ $f: $fn_bad/$fn_total 個腳註格式不合規"
-        echo "   規範: [^N]: [Name](URL) — description（破折號後至少 10 字描述）"
-        echo "   不合規範例:"
-        grep -nE '^\[\^[0-9a-zA-Z_-]+\]:' "$f" | grep -vE '\[\^[0-9a-zA-Z_-]+\]: \[.+\]\(https?://.+\) — .{10,}' | head -3
-        fn_fail=1
-      fi
-    fi
-  done
-  if [ "$format_fail" = "1" ] || [ "$link_fail" = "1" ] || [ "$fn_fail" = "1" ]; then
+  if ! python3 scripts/tools/article-health.py --staged --profile=pre-commit --quiet; then
     echo ""
-    echo "💡 跳過此檢查（緊急修復）: git commit --no-verify"
-    exit 1
-  fi
-fi
-
-# ═══ CJK 半形標點檢查（2026-05-04 新增）═══
-# 抓 zh-TW 段落裡半形 `,:;?!()` 應為全形 `，：；？！（）`
-# 為什麼：2026-05-04 黃魚鴞 PR review 抓出 title + body 大量半形標點，整篇
-# 讀起來像翻譯軟體機翻；search snippets / 社群 preview 一眼出戲。canonical
-# 檢查器：scripts/tools/check-cjk-punct.py
-# 智慧排除：fenced code / inline code / URL / HTML attr / 1,800 等 intra-number
-# 修法：python3 scripts/tools/check-cjk-punct.py --fix <file> （自動轉換）
-# ═══ article-health SSOT shadow run（2026-05-04 Phase 7 新增）═══
-# 8 個 plugin 統一入口跑 staged zh-TW knowledge .md，warn-only 不擋 commit.
-# Phase 8+ 觀察 30 天再考慮 promote 成 hard gate（取代下面這些 legacy 步驟）.
-# 詳見 reports/article-health-ssot-design-2026-05-04.md.
-if [ -n "$staged_md" ]; then
-  if ! python3 scripts/tools/article-health.py --staged --profile=pre-commit --quiet 2>/dev/null; then
-    # SSOT 偵測到的 hard violation — INFORMATIONAL 顯示，不擋 commit
-    echo ""
-    echo "ℹ️  SSOT (article-health) 報告 hard violation — 此階段為 shadow run，"
-    echo "   仍會由下方 legacy 檢查正式 gate。要看明細："
-    echo "   python3 scripts/tools/article-health.py --staged --profile=pre-commit"
-  fi
-fi
-
-if [ -n "$staged_md" ]; then
-  if ! python3 scripts/tools/check-cjk-punct.py --staged --quiet; then
-    echo ""
-    echo "💡 自動修復：python3 scripts/tools/check-cjk-punct.py --fix knowledge/...md"
-    echo "   逐項看明細：python3 scripts/tools/check-cjk-punct.py knowledge/...md"
-    echo "   跳過此檢查（緊急修復）: git commit --no-verify"
+    echo "💡 看明細：python3 scripts/tools/article-health.py --staged --profile=pre-commit"
+    echo "   單檢查：python3 scripts/tools/article-health.py --staged --check=<name>"
+    echo "   自動修復 (cjk-punct only)：python3 scripts/tools/check-cjk-punct.py --fix knowledge/...md"
+    echo "   跳過此檢查（緊急修復）：git commit --no-verify"
     exit 1
   fi
 fi

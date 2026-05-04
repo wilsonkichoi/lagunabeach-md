@@ -13,6 +13,12 @@
 #
 # 造橋鋪路原則：這個腳本讓每次心跳都能自動掃描引用健康度，
 # 而不是一篇篇手動檢查 448 篇文章。
+#
+# DEPRECATED 2026-05-04 SSOT Phase 10: canonical logic moved to
+#   `python3 scripts/tools/article-health.py <file> --check=footnote-density`
+# This shell script remains functional for back-compat. Will be removed
+# 30 days after Phase 10 lands. See reports/article-health-ssot-design-2026-05-04.md.
+#
 
 set -uo pipefail
 cd "$(dirname "$0")/../.."
