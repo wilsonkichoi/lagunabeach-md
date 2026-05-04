@@ -13,7 +13,8 @@ from collections import defaultdict
 # 設定
 # ──────────────────────────────────────────────
 
-BASE_DIR = Path("/Users/cheyuwu/taiwan-md")
+# BASE_DIR derives from script location (was hardcoded, fixed 2026-05-04 audit O5).
+BASE_DIR = Path(__file__).resolve().parents[2]
 
 SCAN_DIRS = [
     BASE_DIR / "knowledge",

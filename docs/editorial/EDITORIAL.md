@@ -916,19 +916,46 @@ Taiwan.md 大量使用 AI 輔助寫作，但 AI 是工具，不是作者。
 6. **塑膠會變種**。AI 把被禁的句式微調成看似不同的版本（見上方變種偵測）。人工清洗不可省
 7. **Build 驗證不能省**。Sub-agent 的 YAML frontmatter 偶爾會壞掉，一篇壞 = 整個 category 炸
 
-### quality-scan.sh 偵測指標
+### quality-scan 偵測指標 (v5.5+ unified into prose-health plugin)
 
-腳本位於 `tools/quality-scan.sh`，7 個偵測指標：
+**SSOT 化（2026-05-04）**：原本 16 維 `tools/quality-scan.sh` + 3 tier
+`tools/check-manifesto-11.sh` consolidated 到 `prose-health` plugin。
+canonical 規則跑：
 
-1. Bullet 密度 >30%
-2. 具體年份 <2 個
-3. 無 URL 來源
-4. 空洞修飾詞密度
-5. 散文段落 <5 行
-6. lastHumanReview: false
-7. 連續相同格式 bullet ≥4 行
+```bash
+python3 scripts/tools/article-health.py file.md --check=prose-health
+```
 
-**目標：所有文章分數 ≤ 3（通過）**
+12 個 quality-scan 維度（已 port 到 prose_health plugin）：
+
+1. Bullet 密度 >30% / >20%
+2. 具體年份 <2 / <5
+3. URL 來源 0 / <3
+4. 空洞修飾詞密度 (>4 / >8 / >15)
+5. lastHumanReview: false
+6. 連續相同格式 bullet ≥4 / ≥6 行
+7. 塑膠句式 (5 品種 + 變種，≥1)
+8. 破折號 `——` 密度 (>4 / >8 / >15)
+9. 教科書開場（「台灣的 X 是 Y」/「X 是台灣 Y」等）
+10. 套路結尾（「總之 / 綜上所述 / 展望未來」等）
+11. 萬用 H2 模板（歷史/現況/未來展望/結語/挑戰與展望）
+12. 引用荒漠（>500 字無腳註且無 URL）
+
+3 個 manifesto-11 tier（已 port 到 prose_health plugin）：
+
+13. Tier 1: 11「不是 X 是 Y」對位句型 variants
+14. Tier 2: 30+ AI 抽象 metaphor 詞 (≥2 occurrences)
+15. Tier 3: 17 AI ritual 句 (≥1)
+
+4 個 quality-scan 維度（**deferred to Phase 4b/9**，待 file-half 結構解析）：
+
+16. LIST-DUMP — 後半段清單堆砌
+17. THIN — H2 區塊內散文行 <3
+18. QUALITY-DECAY — 前後半 prose 比率衰退
+19. CHINA-TERM — 中國用語偵測（terminology plugin 處理）
+
+**目標：所有文章分數 ≤ 3（通過）** — 仍是 canonical 通過閾值，per
+QUALITY-CHECKLIST §四 + REWRITE-PIPELINE Stage 3.
 
 ---
 

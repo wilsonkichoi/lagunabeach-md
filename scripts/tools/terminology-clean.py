@@ -17,7 +17,8 @@ import re
 import sys
 from pathlib import Path
 
-BASE_DIR = Path("/Users/cheyuwu/taiwan-md")
+# BASE_DIR derives from script location (was hardcoded, fixed 2026-05-04 audit O5).
+BASE_DIR = Path(__file__).resolve().parents[2]
 TERMINOLOGY_DIR = BASE_DIR / "data" / "terminology"
 
 DRY_RUN = "--dry-run" in sys.argv
