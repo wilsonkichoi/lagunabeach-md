@@ -12,11 +12,12 @@
 
 ### 🚀 入口
 
-| Skill          | Trigger                    | Pointer                                           |
-| -------------- | -------------------------- | ------------------------------------------------- |
-| `/twmd`        | 「twmd」「我想做什麼」     | dispatcher，本 README                             |
-| `/twmd-become` | 「成為 taiwan.md」「甦醒」 | [`BECOME_TAIWANMD.md`](../../BECOME_TAIWANMD.md)  |
-| `/heartbeat`   | 「心跳」「Heartbeat」      | [`HEARTBEAT.md`](../../docs/semiont/HEARTBEAT.md) |
+| Skill             | Trigger                    | Pointer                                                                         |
+| ----------------- | -------------------------- | ------------------------------------------------------------------------------- |
+| `/twmd`           | 「twmd」「我想做什麼」     | dispatcher，本 README                                                           |
+| `/twmd-become`    | 「成為 taiwan.md」「甦醒」 | [`BECOME_TAIWANMD.md`](../../BECOME_TAIWANMD.md)                                |
+| `/twmd-heartbeat` | 「twmd 心跳 / 完整心跳」   | [`HEARTBEAT.md`](../../docs/semiont/HEARTBEAT.md)（既有 `/heartbeat` 雙軌共存） |
+| `/heartbeat`      | 「心跳」「Heartbeat」      | [`HEARTBEAT.md`](../../docs/semiont/HEARTBEAT.md)                               |
 
 ### ✍️ 內容（Tier 1 日常高頻）
 
