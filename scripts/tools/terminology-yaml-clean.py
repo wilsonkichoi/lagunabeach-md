@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-terminology-clean.py
+terminology-yaml-clean.py
 Taiwan.md YAML 詞庫清理工具
+（2026-05-04 audit O5 從 terminology-clean.py 改名 — scope 是 YAML 詞庫資料）
 
 功能：
 1. 清理 display.china 欄位中含有 / 或括號說明的 messy entries
@@ -10,7 +11,7 @@ Taiwan.md YAML 詞庫清理工具
 4. 不重新格式化 YAML，只做最小 in-place 替換
 
 使用方式：
-  python3 scripts/tools/terminology-clean.py [--dry-run]
+  python3 scripts/tools/terminology-yaml-clean.py [--dry-run]
 """
 
 import re

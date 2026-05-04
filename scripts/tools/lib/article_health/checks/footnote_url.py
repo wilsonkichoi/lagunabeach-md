@@ -25,7 +25,7 @@ from ..types import FileTarget, Severity, Violation
 CHECK_NAME = "footnote-url"
 DIMENSION = "citation"
 DEFAULT_SEVERITY = Severity.WARN
-EDITORIAL_REF = "check-footnote-urls.sh"
+EDITORIAL_REF = "FACTCHECK-PIPELINE Phase 3 SOURCE AUTHORITY"
 APPLIES_TO = ["*"]
 
 _RE_FOOTNOTE_URL = re.compile(

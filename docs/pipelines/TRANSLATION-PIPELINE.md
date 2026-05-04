@@ -599,7 +599,7 @@ bash scripts/tools/translation-ratio-check.sh knowledge/ko/Music/mayday.md
 # 通過：≥ 0.55；不通過：TRUNCATED 警告
 
 # 2. 格式檢查
-bash scripts/tools/format-check.sh --json | grep mayday
+python3 scripts/tools/article-health.py knowledge/ko/Music/mayday.md --check=format-structure
 # 通過：no fatal errors
 
 # 3. 翻譯來源同步檢查
@@ -903,7 +903,7 @@ for f in Path('knowledge/ko').rglob('*.md'):
 | [`category-check.sh`](../../scripts/tools/category-check.sh)                             | frontmatter category vs 檔案路徑一致性                                          | Stage 6                   |
 | [`translation-ratio-check.sh`](../../scripts/tools/translation-ratio-check.sh)           | 字數比 ≥ 0.55，防 AI 摘要式翻譯                                                 | Stage 6                   |
 | [`verify-internal-links.sh`](../../scripts/tools/verify-internal-links.sh)               | 內部連結 broken ratio < 1%                                                      | Stage 5, 8                |
-| [`format-check.sh`](../../scripts/tools/format-check.sh)                                 | 7 維度格式檢查（30 秒概覽、腳註格式、wikilink 殘留⋯⋯）                          | Stage 6                   |
+| `article-health.py --check=format-structure` (SSOT)                                      | 7 維度格式檢查（30 秒概覽、腳註格式、wikilink 殘留⋯⋯）                          | Stage 6                   |
 | [`bulk-pr-analyze.sh`](../../scripts/tools/bulk-pr-analyze.sh)                           | 一指令看完所有 open PR 全景（作者/語言/分類）                                   | Maintainer 批次合併步驟 1 |
 | [`review-pr.sh`](../../scripts/tools/review-pr.sh)                                       | 五層免疫審核 PR（含未 merge 模式）                                              | Maintainer PR review      |
 | `/tmp/local-merge-prs.sh`                                                                | active 語言批次 local merge（git merge with union）                             | 步驟 3a                   |

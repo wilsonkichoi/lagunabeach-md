@@ -91,8 +91,8 @@ for i, a in enumerate(good[:10], 1):
 # 1. CLI 品質檢查
 cd cli && node src/index.js validate <slug>
 
-# 2. quality-scan 空洞偵測（hollow score > 3 = 直接淘汰）
-bash scripts/tools/quality-scan.sh knowledge/<Category>/<slug>.md
+# 2. SSOT prose-health 空洞偵測（HARD 0 / WARN > 3 = 直接淘汰）
+python3 scripts/tools/article-health.py knowledge/<Category>/<slug>.md --check=prose-health
 ```
 
 **自動淘汰規則：**
@@ -704,7 +704,7 @@ Step 3c 寫完 prose → 不 output 給觀察者
 
 ### 3c.7 MANIFESTO §11 書寫節制閘（HARD GATE，v2.5 新增，2026-04-23 β）
 
-> **鐵律**：孢子 draft 寫完後，**不得直接交給觀察者**。必須先跑 `check-manifesto-11.sh` 抓三層 AI 文體訊號：(1) Tier 1 「不是X是Y」對位變體 + 破折號密度（HARD，必改）(2) Tier 2 AI 抽象 metaphor 密度（重量／縮影／軌跡／DNA／基因／土壤／養分／血液／縫隙／肌理／織就／指紋／神經末梢／肌肉記憶／基底／底色／張力／光譜／鏡子／弧線／承載著／形塑／鬆動／展演／召喚／凝視／直面／直擊／鋪陳／醞釀／沈澱 — 同篇 ≥ 2 次 = 偷懶 reach）(3) Tier 3 AI 罐頭片語（在這個意義上／不可或缺／並非偶然／不言而喻／影響深遠／拭目以待／耐人尋味／... — ≥ 1 次即警告）。Tier 2/3 預設 warning（exit 0），加 `--strict` 變 hard fail。任何 Tier 1 違反都要改寫或顯式確認保留（引語、特殊場景除外）。Context-aware 已自動排除：frontmatter / footnote def / code block / 「直引」內容。
+> **鐵律**：孢子 draft 寫完後，**不得直接交給觀察者**。必須先跑 `article-health.py --check=prose-health` 抓三層 AI 文體訊號（SSOT prose-health plugin 整合 manifesto-11 Tier 1-3 + quality-scan 12 dim）：(1) Tier 1 「不是X是Y」對位變體 + 破折號密度（HARD，必改）(2) Tier 2 AI 抽象 metaphor 密度（重量／縮影／軌跡／DNA／基因／土壤／養分／血液／縫隙／肌理／織就／指紋／神經末梢／肌肉記憶／基底／底色／張力／光譜／鏡子／弧線／承載著／形塑／鬆動／展演／召喚／凝視／直面／直擊／鋪陳／醞釀／沈澱 — 同篇 ≥ 2 次 = 偷懶 reach）(3) Tier 3 AI 罐頭片語（在這個意義上／不可或缺／並非偶然／不言而喻／影響深遠／拭目以待／耐人尋味／... — ≥ 1 次即警告）。任何 Tier 1 violation 都要改寫或顯式確認保留（引語、特殊場景除外）。Context-aware 已自動排除：frontmatter / footnote def / code block / 「直引」內容。
 
 **為什麼孢子層特別需要這層**：
 
@@ -715,16 +715,18 @@ Step 3c 寫完 prose → 不 output 給觀察者
 **執行方式**：
 
 ```bash
-# Option A: stdin（最常用，整段貼進去）
-cat <<'EOF' | bash scripts/tools/check-manifesto-11.sh -
+# Option A: 寫進檔案（BLUEPRINT 或 HARVESTS）— SSOT 預期 file 輸入
+python3 scripts/tools/article-health.py docs/factory/SPORE-BLUEPRINTS/<slug>-<n>.md --check=prose-health
+
+# Option B: stdin / 短句快檢（暫存到 /tmp 然後跑 SSOT）
+cat > /tmp/spore-draft.md <<'EOF'
+---
+title: spore-draft
+description: stub
+---
 <你的孢子 draft prose 全文貼這裡>
 EOF
-
-# Option B: 短句快檢
-bash scripts/tools/check-manifesto-11.sh --text "那不是九牛一毛。是把三分之一的存款掏出去。"
-
-# Option C: 寫進檔案（BLUEPRINT 或 HARVESTS）
-bash scripts/tools/check-manifesto-11.sh docs/factory/SPORE-BLUEPRINTS/<slug>-<n>.md
+python3 scripts/tools/article-health.py /tmp/spore-draft.md --check=prose-health
 ```
 
 **Tier 1（HARD，11 種變體）**：
@@ -1260,7 +1262,7 @@ echo "https://taiwan.md/en/{category}/{english-slug}/"
 │
 ├─ Step 2: 品質關卡
 │   ├─ 跑 `taiwanmd validate <slug>`
-│   ├─ 跑 `quality-scan.sh`
+│   ├─ 跑 `article-health.py --check=prose-health`
 │   ├─ 檢查 frontmatter lastVerified
 │   ├─ 合格 → Step 3
 │   └─ 不合格 → rewrite-pipeline → 回到 Step 2

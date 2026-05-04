@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-terminology-fix.py
+terminology-prose-fix.py
 Taiwan.md 用語全站修正：A 類中國用語 → 台灣用語
+（2026-05-04 audit O5 從 terminology-fix.py 改名 — scope 是文章 prose，不是 YAML 詞庫資料）
 """
 
 import os

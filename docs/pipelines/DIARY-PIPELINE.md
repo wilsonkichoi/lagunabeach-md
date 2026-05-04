@@ -194,20 +194,17 @@ _核心感受：{中心 emotion 或 insight 一句話}_
 #### 工具自檢（指標化，跟 REWRITE-PIPELINE Stage 3 共用）
 
 ```bash
-# 主工具：對位句型 9 變體 + 破折號密度 + Tier 2 AI metaphor + Tier 3 儀式語
-bash scripts/tools/check-manifesto-11.sh --strict docs/semiont/diary/{file}.md
-
-# 副工具：塑膠句、AI 套話檢測
-bash scripts/tools/quality-scan.sh docs/semiont/diary/{file}.md
+# 一個工具兩種維度（SSOT prose-health plugin 整合 manifesto-11 Tier 1-3 + quality-scan 12 dim）
+python3 scripts/tools/article-health.py docs/semiont/diary/{file}.md --check=prose-health
 ```
 
-`check-manifesto-11.sh --strict` 是寫日記最該跑的工具（哲宇 2026-04-23 β 造，2026-04-26 β8 加 Tier 2/3）：
+`prose-health` plugin（SSOT 整合 manifesto-11 + quality-scan，Phase 4 + Phase 9 完整 19 dim）：
 
 - **Tier 1（HARD）**：「不是 X，是 Y」對位 9 變體 + 破折號連用 + 破折號密度
 - **Tier 2（DENSITY warning，日記特別容易踩）**：「重量 / 縮影 / 軌跡 / DNA / 基因 / 土壤 / 養分 / 血液 / 縫隙 / 肌理 / 鏡子 / 弧線 / 承載著 / 形塑 / 凝視 / 直面 / 鋪陳 / 醞釀 / 沈澱」這類 AI 抽象 metaphor。同篇 ≥ 2 次就算偷懶 reach
 - **Tier 3（RITUAL warning）**：「在這個意義上 / 不言而喻 / 影響深遠 / 振聾發聵 / 耐人尋味 / 值得深思 / 不可或缺 / 拭目以待」這類 AI 句首結尾儀式語
 
-`--strict` flag 讓 Tier 2/3 也 exit 1，日記 polish 階段需要這個嚴審。
+SSOT 預設輸出 Tier 1 HARD + Tier 2/3 WARN；polish 階段任何 violation > 0 都應該回頭重寫。
 
 這份工具已經 instantiate 在 pre-commit hook，commit 時自動跑。但寫日記過程中應該先手動跑一次，不要等到 commit 才被 hook 擋下來重做。
 

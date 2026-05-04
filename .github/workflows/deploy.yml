@@ -57,11 +57,12 @@ jobs:
       - name: Validate frontmatter (changed files)
         run: node scripts/core/test-frontmatter.mjs --ci
 
-      # SSOT article-health validation (Phase 10 — replaces inline title-format
-      # checks that were ripped from test-frontmatter.mjs). Full sweep on CI.
+      # SSOT article-health validation — full sweep on CI.
+      # Phase 10 promoted from shadow → hard gate. 2026-05-04 cleanup-1-4 promoted
+      # CI to hard fail (no observation period needed; pre-commit gate already
+      # caught drift, full sweep on main is the final safety net).
       - name: Validate article health (SSOT, full sweep)
         run: python3 scripts/tools/article-health.py --all --profile=release-pr --quiet
-        continue-on-error: true  # 30-day observation period; promote to hard fail later
 
       # ── Tier 1-3: Astro content collection parse cache ─────────────────
       # .astro/ 放 Astro 6 的 content collection 解析結果（frontmatter 標準化
