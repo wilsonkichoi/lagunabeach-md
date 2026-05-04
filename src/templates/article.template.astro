@@ -69,10 +69,12 @@ const {
 const langPath = lang === 'zh-TW' ? '' : `${lang}/`;
 const langUrlPrefix = lang === 'zh-TW' ? '' : `/${lang}`;
 
-// Per-lang prose font (Tailwind utility tokens used in template body).
-// Latin langs (en/es/fr) use Inter; CJK langs use Noto Serif {TC,JP,KR}.
+// Per-lang prose font (wired into <style define:vars> below as --prose-font).
+// zh-TW uses jf-jinxuanlatte (justfont 金萱拿鐵) to match site body cascade
+// — restored 2026-05-04 after Tailwind migration silently flipped it to
+// Noto Serif TC. en/es/fr use Inter; ja/ko use Noto Serif JP/KR.
 const proseFontMap: Record<string, string> = {
-  'zh-TW': "'Noto Serif TC',serif",
+  'zh-TW': "'jf-jinxuanlatte','Noto Sans TC','Source Han Sans TC',sans-serif",
   en: "'Inter',system-ui,sans-serif",
   ja: "'Noto Serif JP',serif",
   ko: "'Noto Serif KR',serif",
@@ -348,7 +350,7 @@ const encodedTitle = encodeURIComponent(title);
       category={category}
       categoryName={categoryInfo.name}
       categoryColor={categoryInfo.color}
-      coverImage={categoryInfo.cover}
+      coverImage={frontmatter.image || categoryInfo.cover}
       slug={slug}
       lang={lang}
     />
@@ -946,6 +948,7 @@ const encodedTitle = encodeURIComponent(title);
   define:vars={{
     catColor: categoryInfo.color,
     catColorLight: categoryInfo.colorLight,
+    proseFont,
   }}
 >
   /* ── Screenshot mode (?shot=1) global overrides moved to <style is:global>
@@ -971,7 +974,7 @@ const encodedTitle = encodeURIComponent(title);
      — these `:global()` rules are essential because the markdown
      elements can't be reached by Tailwind classes) ─────────────── */
   .prose {
-    font-family: 'Noto Serif TC', serif;
+    font-family: var(--proseFont);
     font-size: 1.05rem;
     line-height: 1.72;
     color: #2c2c2c;

@@ -197,22 +197,17 @@ const jfClass = [
       _jf.push(['_setFont', 'jf-lanyangming-book', 'css', 'main blockquote']);
       _jf.push(['_setFont', 'jf-lanyangming-book', 'alias', 'jf-lanyangming']);
       _jf.push(['_setFont', 'jf-lanyangming-book', 'weight', 300]);
-      _jf.push(['_setFont', 'jf-kamabit', 'css', '.jf-food h1, .hero-title']);
+      _jf.push(['_setFont', 'jf-kamabit', 'css', '.jf-food h1']);
       _jf.push(['_setFont', 'jf-kamabit', 'alias', 'jf-kamabit']);
       _jf.push(['_setFont', 'jf-kamabit', 'weight', 700]);
-      _jf.push([
-        '_setFont',
-        'rixingsong-semibold',
-        'css',
-        '.jf-history h1, .hero-title',
-      ]);
-      _jf.push([
-        '_setFont',
-        'rixingsong-semibold',
-        'alias',
-        'rixingsong-semibold',
-      ]);
-      _jf.push(['_setFont', 'rixingsong-semibold', 'weight', 600]);
+      // rixingsong-semibold removed 2026-05-04: justfont CDN serves a
+      // malformed woff (valid wOFF magic bytes but FontFace API rejects
+      // with "Invalid font data"). Confirmed via `new FontFace().load()`
+      // probe across all 6 site fonts — only rixingsong fails to parse,
+      // 5 others load cleanly. Until justfont rebuilds the binary,
+      // .hero-title falls through to the `h1` → jf-lanyanghei-extraheavy
+      // rule above, and `.jf-history h1`'s static CSS fallback chain
+      // (rixingsong → Noto Serif TC) takes over.
       (function (A, p, c, m, l, q, r, h, B, D) {
         var b = A._jf;
         if (b.constructor !== Object) {
