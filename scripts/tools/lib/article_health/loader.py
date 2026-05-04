@@ -24,7 +24,11 @@ _LANG_DIRS = {"en", "ja", "ko", "es", "fr"}
 # Protected region patterns
 _RE_FENCED_CODE = re.compile(r"```[\s\S]*?```", re.MULTILINE)
 _RE_INLINE_CODE = re.compile(r"`[^`\n]+`")
-_RE_MD_LINK_URL = re.compile(r"\]\([^)]+\)")
+# Link URL: `](...)` — exclude `)` AND newlines so a malformed link with
+# fullwidth `）` instead of `)` doesn't eat across lines into the next link.
+# 2026-05-04 黃魚鴞 incident showed `[^)]+` was running until the FAR-AWAY
+# next halfwidth `)`, swallowing 5 lines and corrupting protected_regions.
+_RE_MD_LINK_URL = re.compile(r"\]\([^)\n]+\)")
 _RE_HTML_TAG = re.compile(r"<[^>\n]+>")
 # Frontmatter delimiter
 _RE_FRONTMATTER = re.compile(

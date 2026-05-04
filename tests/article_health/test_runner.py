@@ -44,14 +44,14 @@ def _register_synthetic_plugin(check_name: str, n_violations: int = 1):
     return FakeMod
 
 
-def test_runner_empty_registry(tmp_path):
+def test_runner_disabled_via_profile_filter(tmp_path):
+    """Runner with profile.checks=[] should run nothing even if plugins exist."""
     registry.reset_registry()
     target = _make_target(tmp_path)
     cfg = Config()
-    report = run_checks(target, cfg)
+    cfg.profiles["empty"] = ProfileConfig(name="empty", checks=[])
+    report = run_checks(target, cfg, profile_name="empty")
     assert report.results == []
-    assert report.passed
-    assert report.hard_count == 0
 
 
 def test_runner_single_plugin_yields_violations(tmp_path):

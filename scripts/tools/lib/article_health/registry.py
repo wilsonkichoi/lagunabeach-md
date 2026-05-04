@@ -71,18 +71,32 @@ def discover_checks(reload: bool = False) -> dict[str, Any]:
     if not pkg_path.exists():
         _DISCOVERED = True
         return _REGISTRY
-    # Import each .py under checks/ as a submodule
-    pkg_name = "scripts.tools.lib.article_health.checks"
-    for finder, name, ispkg in pkgutil.iter_modules([str(pkg_path)]):
+    # Try multiple import-path candidates because this lib gets called from
+    # different sys.path contexts (script vs. test vs. installed package).
+    pkg_candidates = [
+        # When this module's __package__ is set, use it (most robust).
+        __package__ + ".checks" if __package__ else None,
+        "scripts.tools.lib.article_health.checks",
+        "lib.article_health.checks",
+        "article_health.checks",
+    ]
+    pkg_candidates = [p for p in pkg_candidates if p]
+
+    for _finder, name, _ispkg in pkgutil.iter_modules([str(pkg_path)]):
         if name.startswith("_"):
             continue
-        try:
-            mod = importlib.import_module(f"{pkg_name}.{name}")
-        except Exception:
-            # If running outside the project's namespace package context,
-            # fall back to file-loader.
+        mod = None
+        # Try regular import via each candidate package path
+        for pkg_name in pkg_candidates:
+            try:
+                mod = importlib.import_module(f"{pkg_name}.{name}")
+                break
+            except Exception:
+                continue
+        # File-loader fallback if no package import worked
+        if mod is None:
             spec = importlib.util.spec_from_file_location(
-                name, pkg_path / f"{name}.py"
+                f"_article_health_check_{name}", pkg_path / f"{name}.py"
             )
             if spec is None or spec.loader is None:
                 continue

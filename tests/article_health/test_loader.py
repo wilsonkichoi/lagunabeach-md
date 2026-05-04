@@ -72,6 +72,29 @@ def test_path_derives_translation(tmp_path):
     assert target.is_translation
 
 
+def test_link_url_does_not_eat_across_newlines(tmp_path):
+    """REGRESSION: malformed link `](/url）` (fullwidth ）) must not cause
+    `[^)]+` to eat across newlines into the next link's `)`.
+
+    2026-05-04 黃魚鴞 incident discovered this: 5 lines of content got
+    swallowed into a single 'protected' region.
+    """
+    body = (
+        "- [文章 A](/cat/x） — desc one\n"
+        "- [文章 B](/cat/y) — desc two\n"
+        "- [文章 C](/cat/z) — desc three\n"
+    )
+    f = _write_tmp(tmp_path, body)
+    target = load_target(f)
+    # Each protected region must NOT contain newlines
+    for start, end, kind in target.protected_regions:
+        if kind == "link-url":
+            seg = target.body[start:end]
+            assert "\n" not in seg, (
+                f"link-url region eats newlines: {seg!r}"
+            )
+
+
 def test_protected_regions_includes_md_link_url(tmp_path):
     """CRITICAL — regression test for 黃魚鴞 wikilink incident.
 
