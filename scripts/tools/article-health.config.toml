@@ -1,0 +1,64 @@
+# article-health.config.toml — SSOT 文章健檢工具的 declarative config.
+#
+# 設計提案：reports/article-health-ssot-design-2026-05-04.md
+# Canonical 寫作品質規則：docs/editorial/EDITORIAL.md
+#
+# Phase 1（this commit）：infrastructure 進場，registry 是空的，所以 profile
+# 跑出來都是 0 violations。Phase 2+ 會逐個 migrate plugin 進來，每個 commit
+# 觀察既有行為不變。
+
+[meta]
+version = 1
+canonical_doc = "docs/editorial/EDITORIAL.md"
+phase = "1-infrastructure"
+
+# ── Per-check severity / options ─────────────────────────────────────────────
+# 留空（[]）— Phase 1 沒有 plugin 需要 config。Phase 2 開始會逐個加。
+
+# Phase 2 will add:
+# [checks.cjk-punct]
+# severity = "hard"
+# options = { skip_protected_regions = true }
+
+# Phase 3 will add:
+# [checks.frontmatter-title-format]
+# severity = "warn"
+# [checks.frontmatter-title-halfwidth-punct]
+# severity = "hard"
+
+# ── Stage profiles ───────────────────────────────────────────────────────────
+
+[profiles.pre-commit]
+# pre-commit hook 用：擋 commit 的 hard checks
+checks = []  # Phase 2+ 會填
+fail_on = "hard"
+
+[profiles."rewrite-stage-3"]
+# REWRITE-PIPELINE Stage 3 (Verify): quality-scan ≤ 3 budget
+checks = []
+fail_on = "score-budget"
+
+[profiles."rewrite-stage-3-5"]
+# Stage 3.5 FactCheck
+checks = []
+fail_on = "hard"
+
+[profiles."rewrite-stage-4"]
+# Stage 4 Format
+checks = []
+fail_on = "hard"
+
+[profiles."rewrite-stage-4-5"]
+# Stage 4.5 Media
+checks = []
+fail_on = "hard"
+
+[profiles.release-pr]
+# 全跑、嚴格
+checks = "*"
+fail_on = "warn"
+
+[profiles.dashboard]
+# 全跑、不擋、JSON output
+checks = "*"
+fail_on = "never"

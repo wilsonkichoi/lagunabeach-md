@@ -1,0 +1,222 @@
+#!/usr/bin/env python3
+"""article-health.py — SSOT 文章健檢工具 (Phase 1 entry point).
+
+設計提案：reports/article-health-ssot-design-2026-05-04.md
+規則 canonical：docs/editorial/EDITORIAL.md
+
+Phase 1 status:
+  - Infrastructure 進場（types / loader / registry / config / runner）
+  - 0 plugins migrated（registry 是空的，跑出來都 0 violations）
+  - 接下來 Phase 2 開始把 27 個工具 migrate 進來
+
+用法：
+  article-health <files> [--profile=NAME] [--check=NAME] [--output=FORMAT]
+  article-health --staged [--profile=pre-commit]
+  article-health --all [--profile=dashboard --output=json]
+  article-health --list-checks
+  article-health --inventory   # auto-gen TOOL-INVENTORY-style markdown
+"""
+
+from __future__ import annotations
+import argparse
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+# Make `lib.article_health` importable when running this file directly.
+_THIS = Path(__file__).resolve()
+_TOOLS_DIR = _THIS.parent
+sys.path.insert(0, str(_TOOLS_DIR))
+
+from lib.article_health import (  # noqa: E402
+    FileTarget,
+    HealthReport,
+    Severity,
+    load_config,
+    load_target,
+    list_checks,
+    run_checks,
+)
+
+
+def _get_staged_md() -> list[Path]:
+    """staged knowledge/*.md (zh-TW only — translations have own conventions)."""
+    try:
+        out = subprocess.check_output(
+            ["git", "diff", "--cached", "--name-only", "--diff-filter=ACM"],
+            text=True,
+        )
+    except subprocess.CalledProcessError:
+        return []
+    files = []
+    for line in out.splitlines():
+        if not line.startswith("knowledge/"):
+            continue
+        if line.startswith(("knowledge/en/", "knowledge/ja/", "knowledge/ko/",
+                            "knowledge/es/", "knowledge/fr/")):
+            continue
+        if not line.endswith(".md"):
+            continue
+        if Path(line).name.startswith("_"):
+            continue
+        files.append(Path(line))
+    return files
+
+
+def _get_all_zh() -> list[Path]:
+    root = Path("knowledge")
+    if not root.exists():
+        return []
+    files = []
+    for cat in root.iterdir():
+        if not cat.is_dir() or cat.name in ("en", "ja", "ko", "es", "fr"):
+            continue
+        for md in cat.glob("*.md"):
+            if not md.name.startswith("_"):
+                files.append(md)
+    return files
+
+
+def _format_human(report: HealthReport) -> str:
+    lines = []
+    lines.append(f"🧬 {report.target.path}")
+    lines.append(
+        f"   lang={report.target.lang}  category={report.target.category}  "
+        f"slug={report.target.slug}"
+    )
+    if not report.results:
+        lines.append("   (no checks ran — Phase 1 has empty registry)")
+        return "\n".join(lines)
+    for r in report.results:
+        if r.skipped:
+            lines.append(f"   ⊘ {r.check}  skipped: {r.skip_reason}")
+            continue
+        icon = "✅" if r.passed else ("🔴" if r.hard_count else "⚠️ ")
+        counts = f"hard={r.hard_count} warn={r.warn_count}"
+        lines.append(f"   {icon} {r.check}  {counts}")
+        for v in r.violations[:5]:
+            loc = f"L{v.line}" if v.line else ""
+            lines.append(f"      {v.severity.value} {loc}: {v.message}")
+        if len(r.violations) > 5:
+            lines.append(f"      ... and {len(r.violations) - 5} more")
+    lines.append(
+        f"\nSummary: hard={report.hard_count}  warn={report.warn_count}  "
+        f"info={report.info_count}  passed={report.passed}"
+    )
+    return "\n".join(lines)
+
+
+def cmd_list_checks() -> int:
+    items = list_checks()
+    if not items:
+        print("(no plugins registered yet — Phase 1 ships empty registry)")
+        return 0
+    print(f"{'NAME':<30} {'DIM':<20} {'SEV':<6} {'EDITORIAL':<40} FIX?")
+    print("-" * 110)
+    for it in items:
+        fix = "✓" if it["fix_supported"] else " "
+        print(
+            f"{it['name']:<30} {it['dimension']:<20} "
+            f"{it['default_severity']:<6} {it['editorial_ref'][:38]:<40} {fix}"
+        )
+    return 0
+
+
+def cmd_inventory() -> int:
+    """Auto-gen markdown inventory (replaces hand-maintained TOOL-INVENTORY)."""
+    items = list_checks()
+    print("# Article Health — Auto-generated check inventory\n")
+    print("> Auto-gen by `scripts/tools/article-health.py --inventory`. Do not edit by hand.\n")
+    print(f"Total checks: {len(items)}\n")
+    print("| Check | Dimension | Default Severity | Editorial Ref | Auto-fix? |")
+    print("|---|---|---|---|---|")
+    for it in items:
+        fix = "✓" if it["fix_supported"] else "—"
+        print(
+            f"| `{it['name']}` | {it['dimension']} | "
+            f"{it['default_severity']} | {it['editorial_ref']} | {fix} |"
+        )
+    return 0
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(
+        description="SSOT 文章健檢工具 (Phase 1 entry point)",
+    )
+    parser.add_argument("files", nargs="*", type=Path, help="Files to check")
+    parser.add_argument("--profile", default="release-pr", help="Profile name from config")
+    parser.add_argument("--check", default=None, help="Run only this single check")
+    parser.add_argument(
+        "--output", choices=["human", "json"], default="human", help="Output format"
+    )
+    parser.add_argument("--staged", action="store_true", help="Use git staged files")
+    parser.add_argument("--all", action="store_true", help="Sweep all zh-TW knowledge/*.md")
+    parser.add_argument("--list-checks", action="store_true", help="List registered plugins")
+    parser.add_argument("--inventory", action="store_true", help="Auto-gen markdown inventory")
+    parser.add_argument("--config", default=None, help="Path to config.toml")
+    parser.add_argument(
+        "--quiet", action="store_true", help="Only summary, no per-violation lines"
+    )
+    args = parser.parse_args()
+
+    if args.list_checks:
+        return cmd_list_checks()
+    if args.inventory:
+        return cmd_inventory()
+
+    # Resolve file list
+    if args.staged:
+        files = _get_staged_md()
+        if not files:
+            print("🔍 staged: no zh-TW knowledge/*.md staged, skipping.")
+            return 0
+    elif args.all:
+        files = _get_all_zh()
+    elif args.files:
+        files = [Path(f) for f in args.files]
+    else:
+        parser.print_help()
+        return 0
+
+    config = load_config(args.config)
+    reports: list[HealthReport] = []
+    for f in files:
+        if not f.exists():
+            print(f"⚠️  {f}: not found", file=sys.stderr)
+            continue
+        target = load_target(f)
+        report = run_checks(
+            target, config, profile_name=args.profile, check_name=args.check
+        )
+        reports.append(report)
+
+    # Output
+    if args.output == "json":
+        payload = {"reports": [r.as_dict() for r in reports]}
+        print(json.dumps(payload, ensure_ascii=False, indent=2))
+    else:
+        for r in reports:
+            print(_format_human(r))
+            if r is not reports[-1]:
+                print()
+
+    # Exit code
+    profile = config.get_profile(args.profile)
+    fail_on = profile.fail_on if profile else "hard"
+    if fail_on == "never":
+        return 0
+    total_hard = sum(r.hard_count for r in reports)
+    total_warn = sum(r.warn_count for r in reports)
+    if fail_on == "hard":
+        return 1 if total_hard else 0
+    if fail_on == "warn":
+        return 1 if (total_hard or total_warn) else 0
+    if fail_on == "score-budget":
+        # Reserved for prose-health ≤ 3 budget — Phase 4+ wires this up
+        return 1 if total_hard else 0
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
