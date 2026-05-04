@@ -36,6 +36,12 @@
 #   scripts/tools/check-manifesto-11.sh knowledge/**/*.md
 #   echo "$SPORE_TEXT" | scripts/tools/check-manifesto-11.sh -
 #   scripts/tools/check-manifesto-11.sh --text "不是A，而是B"
+#
+# DEPRECATED 2026-05-04 SSOT Phase 10: canonical logic moved to
+#   `python3 scripts/tools/article-health.py <file> --check=prose-health` (Tier 1-3 inside)
+# This shell script remains functional for back-compat. Will be removed
+# 30 days after Phase 10 lands. See reports/article-health-ssot-design-2026-05-04.md.
+#
 
 set -e
 

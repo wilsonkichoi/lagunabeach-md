@@ -29,6 +29,12 @@
 #  14. 🆕 QUALITY-DECAY：前後半品質衰退（後段散文比例 < 前段 70%）
 #  15. 🆕 CHINA-TERM：中國用語偵測（視頻/質量/軟件/博主/算法等 30+ 詞）
 #  16. 🆕 CITATION-DESERT：引用荒漠偵測（正式腳註 [^N]: 為零且字數 > 500）
+#
+# DEPRECATED 2026-05-04 SSOT Phase 10: canonical logic moved to
+#   `python3 scripts/tools/article-health.py <file> --check=prose-health` (16 dims inside)
+# This shell script remains functional for back-compat. Will be removed
+# 30 days after Phase 10 lands. See reports/article-health-ssot-design-2026-05-04.md.
+#
 
 set -uo pipefail
 cd "$(dirname "$0")/../.."

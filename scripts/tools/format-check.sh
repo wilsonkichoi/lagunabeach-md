@@ -20,6 +20,12 @@
 #   7. 反向連結缺失（延伸閱讀雙向性）
 #
 # 造橋鋪路：手動走 Stage 4 & 5 → 腳本化 → 每次心跳自動帶格式健康度
+#
+# DEPRECATED 2026-05-04 SSOT Phase 10: canonical logic moved to
+#   `python3 scripts/tools/article-health.py <file> --check=format-structure`
+# This shell script remains functional for back-compat. Will be removed
+# 30 days after Phase 10 lands. See reports/article-health-ssot-design-2026-05-04.md.
+#
 
 set -uo pipefail
 cd "$(dirname "$0")/../.."

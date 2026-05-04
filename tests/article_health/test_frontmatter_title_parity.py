@@ -1,14 +1,19 @@
-"""Parity tests — Python plugin must agree with JS test-frontmatter.mjs.
+"""Parity tests — historical (Phases 3-9 guard) + post-rip Python sanity.
 
-During Phase 3, we ship the Python plugin alongside the existing JS
-checkTitleFormat in `scripts/core/test-frontmatter.mjs`. Both must behave
-identically for representative inputs so Phase 7 cleanup can safely rip
-the JS.
+Phase 3 shipped these tests to guard JS↔Python parity during the SSOT
+deprecation window. **Phase 10 ripped the JS title-format logic** from
+`scripts/core/test-frontmatter.mjs` (the JS now does only structural
+frontmatter validation; title-format is Python-only).
 
-This test launches the JS validator in --strict mode against a temp
-knowledge/ tree containing canonical fixture titles, captures the
-violations, and compares the violation count to the Python plugin's
-count over the same titles.
+Post-rip behavior:
+  - `test_python_plugin_matches_expected` — STILL active, asserts
+    Python plugin matches canonical fixture counts (regression guard
+    for the migrated rules)
+  - `test_js_validator_agrees_with_python` — SKIPPED (no longer
+    meaningful since JS no longer does title content checks)
+
+The fixture table is kept as documentation of the canonical title-format
+rules — useful when reviewing this plugin or extending the rule set.
 """
 
 import json
@@ -141,15 +146,14 @@ def test_python_plugin_matches_expected(
     )
 
 
+@pytest.mark.skip(reason="Phase 10 ripped JS title-format logic from test-frontmatter.mjs; Python is sole canonical")
 @pytest.mark.parametrize(
     "title,category,expected_hard,expected_warn,label", FIXTURES
 )
 def test_js_validator_agrees_with_python(
     tmp_path, title, category, expected_hard, expected_warn, label
 ):
-    """Cross-check: the legacy JS validator agrees with our Python plugin
-    on every fixture. If this fails, drift has happened — fix one or
-    the other before merging."""
+    """Historical parity test — disabled after Phase 10 JS rip."""
     py_hard, py_warn = _check_via_python(title, category, tmp_path)
     # Reset tmp dir between python and JS runs to avoid sharing state
     import shutil

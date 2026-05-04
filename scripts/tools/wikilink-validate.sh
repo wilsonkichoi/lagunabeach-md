@@ -9,6 +9,12 @@
 #   bash scripts/tools/wikilink-validate.sh <file.md>          # 單檔
 #   bash scripts/tools/wikilink-validate.sh --json             # JSON 輸出
 #   bash scripts/tools/wikilink-validate.sh --fix-suggestions  # 顯示修正建議
+#
+# DEPRECATED 2026-05-04 SSOT Phase 10: canonical logic moved to
+#   `python3 scripts/tools/article-health.py <file> --check=wikilink-target`
+# This shell script remains functional for back-compat. Will be removed
+# 30 days after Phase 10 lands. See reports/article-health-ssot-design-2026-05-04.md.
+#
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'

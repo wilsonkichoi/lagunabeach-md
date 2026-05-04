@@ -19,6 +19,12 @@
 #   gh pr diff 789 --name-only | bash scripts/tools/footnote-format-fix.sh --stdin --apply
 #
 # 對應 DNA #5 / #15 / #48（候選）+ MAINTAINER-PIPELINE §quick fix 清單
+#
+# DEPRECATED 2026-05-04 SSOT Phase 10: canonical logic moved to
+#   `python3 scripts/tools/article-health.py <file> --check=footnote-format`
+# This shell script remains functional for back-compat. Will be removed
+# 30 days after Phase 10 lands. See reports/article-health-ssot-design-2026-05-04.md.
+#
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

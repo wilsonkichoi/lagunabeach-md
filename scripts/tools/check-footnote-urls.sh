@@ -27,6 +27,12 @@
 #
 # 對應：FACTCHECK-PIPELINE.md §工具化路徑 P0
 # 設計：DNA #5 pre-commit hook 朋友 / DNA #15 反覆浮現要儀器化
+#
+# DEPRECATED 2026-05-04 SSOT Phase 10: canonical logic moved to
+#   `python3 scripts/tools/article-health.py <file> --check=footnote-url` (network opt-in)
+# This shell script remains functional for back-compat. Will be removed
+# 30 days after Phase 10 lands. See reports/article-health-ssot-design-2026-05-04.md.
+#
 
 set -uo pipefail
 shopt -s lastpipe 2>/dev/null || true
