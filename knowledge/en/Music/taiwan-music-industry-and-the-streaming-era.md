@@ -43,7 +43,7 @@ Taiwan's experience with digital transformation in the music industry is a pione
 
 The 1990s were the golden era of Taiwan's record industry. There were over 3,000 record stores across Taiwan — chains like Rose Records (玫瑰大眾) and Jia Jia Records (佳佳), along with smaller neighborhood shops at street corners and in alleyways — forming a dense network of music consumption. Every Friday was "new release day"; fans would make special trips to the record store to purchase the latest albums, and the sales staff were thoroughly familiar with every album's distinct qualities.
 
-In those years, it was entirely normal for a single album to sell hundreds of thousands of copies. [Jay Chou](/en/People/jay-chou/)'s debut album Jay (2000) sold over 300,000 copies in Taiwan alone. [Mayday](/en/Music/mayday-band/)'s Second Life (第二人生, 2001) set a record of 500,000 copies sold. Record stores were not just places to buy music — they were social spaces for music lovers.
+In those years, it was entirely normal for a single album to sell hundreds of thousands of copies. [Jay Chou](/en/people/jay-chou/)'s debut album Jay (2000) sold over 300,000 copies in Taiwan alone. [Mayday](/en/music/mayday-band/)'s Second Life (第二人生, 2001) set a record of 500,000 copies sold. Record stores were not just places to buy music — they were social spaces for music lovers.
 
 ### The Complete Ecology of the Industry Structure
 
@@ -151,7 +151,7 @@ Independent musicians have developed multiple revenue streams:
 
 The streaming era has made the music industry far more data-driven. Metrics such as play counts, completion rates, and the rate at which listeners add songs to playlists have become key indicators of a song's success.
 
-[Jay Chou](/en/People/jay-chou/)'s "Blue and White Porcelain" (青花瓷) has accumulated over 100 million streams in Spotify Taiwan; [Mayday](/en/Music/mayday-band/)'s "Stubborn" (倔強) has over 80 million streams — data that reflects the enduring vitality of classic songs in the digital era.
+[Jay Chou](/en/people/jay-chou/)'s "Blue and White Porcelain" (青花瓷) has accumulated over 100 million streams in Spotify Taiwan; [Mayday](/en/music/mayday-band/)'s "Stubborn" (倔強) has over 80 million streams — data that reflects the enduring vitality of classic songs in the digital era.
 
 ### The Impact of Personalized Recommendation
 
@@ -169,7 +169,7 @@ The COVID-19 pandemic in 2020 devastated the live music industry but dramaticall
 
 ### The Rise of Online Concerts
 
-During the pandemic, many artists began experimenting with online concerts. [Mayday](/en/Music/mayday-band/)'s 2020 online concert attracted over 30 million simultaneous online viewers, setting a record for Mandopop live streaming.
+During the pandemic, many artists began experimenting with online concerts. [Mayday](/en/music/mayday-band/)'s 2020 online concert attracted over 30 million simultaneous online viewers, setting a record for Mandopop live streaming.
 
 ### The Rise of Podcasts
 

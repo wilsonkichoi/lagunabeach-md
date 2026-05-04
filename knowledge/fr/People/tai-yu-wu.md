@@ -62,8 +62,8 @@ En janvier 2000, Wu Da-You décéda à San Francisco, à l'âge de 93 ans[^7]. D
 
 **Pour aller plus loin :**
 
-- [Lee Yuan-Tseh](/fr/People/lee-yuan-tseh/) — Un autre scientifique formé à Taïwan, lauréat du prix Nobel de chimie, représentant l'accumulation continue de Taïwan en sciences fondamentales
-- [Industrie des semi-conducteurs](/fr/Technology/semiconductor-industry/) — Les années 1980, lorsque Wu Da-You présidait l'Academia Sinica, furent précisément la période décisive de l'essor de l'industrie taïwanaise des semi-conducteurs
+- [Lee Yuan-Tseh](/fr/people/lee-yuan-tseh/) — Un autre scientifique formé à Taïwan, lauréat du prix Nobel de chimie, représentant l'accumulation continue de Taïwan en sciences fondamentales
+- [Industrie des semi-conducteurs](/fr/technology/semiconductor-industry/) — Les années 1980, lorsque Wu Da-You présidait l'Academia Sinica, furent précisément la période décisive de l'essor de l'industrie taïwanaise des semi-conducteurs
 - [Audrey Tang](/people/唐鳳) — De la science à la technologie, une autre voie d'engagement des élites intellectuelles taïwanaises dans les affaires publiques
 - [Kjell Lindgren](/people/林琪兒) — Astronaute de la NASA et docteur en médecine né à Taïpei, poursuivant la trajectoire des scientifiques d'origine taïwanaise ayant émergé dans le système académique américain d'après-guerre
 

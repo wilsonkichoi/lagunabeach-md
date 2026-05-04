@@ -40,7 +40,7 @@ En 2005, Chen Chien-jen asumió la dirección del Instituto Nacional de Investig
 
 ## Contribuciones políticas durante su mandato como vicepresidente
 
-En 2016, Chen Chien-jen aceptó la invitación de la presidenta [Tsai Ing-wen](/es/People/tsai-ing-wen/) para desempeñarse como vicepresidente. Esta fue la primera vez que una persona de origen académico ocupaba el cargo de vicepresidente en Taiwán, simbolizando la importancia de la gobernanza basada en la profesionalidad. Durante su mandato, supervisó múltiples políticas importantes, incluyendo el establecimiento del sistema de atención a largo plazo, el desarrollo de la medicina de precisión y el impulso de la industria biotecnológica.
+En 2016, Chen Chien-jen aceptó la invitación de la presidenta [Tsai Ing-wen](/es/people/tsai-ing-wen/) para desempeñarse como vicepresidente. Esta fue la primera vez que una persona de origen académico ocupaba el cargo de vicepresidente en Taiwán, simbolizando la importancia de la gobernanza basada en la profesionalidad. Durante su mandato, supervisó múltiples políticas importantes, incluyendo el establecimiento del sistema de atención a largo plazo, el desarrollo de la medicina de precisión y el impulso de la industria biotecnológica.
 
 Chen Chien-jen otorgó especial importancia a la participación de Taiwán en asuntos internacionales de salud, promoviendo activamente la cooperación médica y sanitaria dentro de la "Nueva Política hacia el Sur" (新南向政策), estableciendo relaciones más estrechas de intercambio en salud pública con los países del sudeste asiático. También prestó continua atención a los temas de higiene ambiental, impulsando políticas de control de la contaminación por PM2.5 y gestión de la seguridad alimentaria.
 
@@ -48,7 +48,7 @@ Chen Chien-jen otorgó especial importancia a la participación de Taiwán en as
 
 Tras el estallido de la pandemia de COVID-19 a finales de 2019, Chen Chien-jen demostró nuevamente su capacidad profesional. En su calidad de vicepresidente, participó en el proceso de toma de decisiones del Centro de Comando Central de Epidemias, asistiendo en la formulación de medidas clave de prevención como el control fronterizo, la cuarentena domiciliaria y la distribución de mascarillas. El destacado desempeño de Taiwán en las primeras etapas de la pandemia se debió en gran medida a su criterio profesional y sus recomendaciones políticas.
 
-En 2023, convocado por la presidenta [Tsai Ing-wen](/es/People/tsai-ing-wen/), Chen Chien-jen asumió la presidencia del Yuan Ejecutivo, encargándose de gestionar los trabajos de recuperación en la fase posterior a la pandemia. Impulsó el presupuesto especial post-pandemia, planes de recuperación económica y otras políticas importantes, demostrando su capacidad de liderazgo político como académico convertido en dirigente.
+En 2023, convocado por la presidenta [Tsai Ing-wen](/es/people/tsai-ing-wen/), Chen Chien-jen asumió la presidencia del Yuan Ejecutivo, encargándose de gestionar los trabajos de recuperación en la fase posterior a la pandemia. Impulsó el presupuesto especial post-pandemia, planes de recuperación económica y otras políticas importantes, demostrando su capacidad de liderazgo político como académico convertido en dirigente.
 
 ## Fe católica y compromiso social
 

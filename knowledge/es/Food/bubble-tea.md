@@ -57,7 +57,7 @@ Según datos del Ministerio de Hacienda de Taiwán, en abril de 2022 el número 
 
 El tamaño del mercado global es aún más impresionante. Varias firmas de investigación de mercado estimaron en 2024 que el mercado mundial del bubble tea rondaba los **3.500 millones de dólares** (aproximadamente 112.000 millones de dólares taiwaneses), con previsiones de crecimiento hasta los 6.000-7.000 millones para 2034. Las marcas taiwanesas son el origen de este mercado: CoCo tiene más de 5.000 locales en todo el mundo, Gong Cha supera los 2.000, y cadenas como The Alley y Chatime siguen expandiendo sus sucursales en el extranjero. Chun Shui Tang sigue vendiendo más de dos millones de tazas de bubble tea al año solo en Taiwán.
 
-Este proceso de globalización siguió una ruta interesante: no fue una diplomacia cultural impulsada por el gobierno ni una estrategia de expansión de mercado diseñada por una gran marca. El primer paso del bubble tea hacia el mundo lo dio la nostalgia de los inmigrantes: taiwaneses en Los Ángeles, taiwaneses en Vancouver, que querían beber un sabor de su tierra natal, abrieron tiendas locales y acabaron haciendo que sus vecinos también se enamoraran de la bebida. Esta es la ruta más típica de difusión de la [comida callejera taiwanesa](/es/Food/taiwanese-street-food/) hacia el exterior: no es exportación, es difusión; no es estrategia, es vida cotidiana.
+Este proceso de globalización siguió una ruta interesante: no fue una diplomacia cultural impulsada por el gobierno ni una estrategia de expansión de mercado diseñada por una gran marca. El primer paso del bubble tea hacia el mundo lo dio la nostalgia de los inmigrantes: taiwaneses en Los Ángeles, taiwaneses en Vancouver, que querían beber un sabor de su tierra natal, abrieron tiendas locales y acabaron haciendo que sus vecinos también se enamoraran de la bebida. Esta es la ruta más típica de difusión de la [comida callejera taiwanesa](/es/food/taiwanese-street-food/) hacia el exterior: no es exportación, es difusión; no es estrategia, es vida cotidiana.
 
 > 📊 **Cifras clave**
 > Tamaño del mercado global de bubble tea (2024): aprox. 3.500 millones de dólares (unos 112.000 millones de TWD)
@@ -89,7 +89,7 @@ El té con leche se convirtió en una especie de código de estilo de vida: té 
 Ese mismo año, Unicode 13.0 incorporó oficialmente el emoji 🧋 del bubble tea, otorgándole un rostro propio en cada teléfono del mundo.
 
 > 📝 **Nota del comisario**
-> La "Alianza del Té con Leche" tradujo la geopolítica al lenguaje de los stickers del móvil usando el detalle mínimo de añadir leche. Quizá este sea el momento más absurdo y más verdadero en la historia del bubble tea: una bebida popular nacida en la [cultura de los mercados nocturnos](/es/Food/night-market-culture/) que se convirtió, sin proponérselo, en símbolo de solidaridad democrática transnacional. Ni siquiera lo intentó.
+> La "Alianza del Té con Leche" tradujo la geopolítica al lenguaje de los stickers del móvil usando el detalle mínimo de añadir leche. Quizá este sea el momento más absurdo y más verdadero en la historia del bubble tea: una bebida popular nacida en la [cultura de los mercados nocturnos](/es/food/night-market-culture/) que se convirtió, sin proponérselo, en símbolo de solidaridad democrática transnacional. Ni siquiera lo intentó.
 
 ## 500 kilocalorías por taza, y un problema de salud que nadie quiere oír
 
@@ -132,4 +132,4 @@ Aquella mujer, por supuesto, no sabía lo que estaba haciendo. Los grandes accid
 - [PubMed: 2011 Taiwan food scandal — plasticizer contamination](https://pubmed.ncbi.nlm.nih.gov/23684997/) (fuente académica primaria, datos sobre la contaminación de 965 productos)
 - [National University Hospital Singapore: What happens if you drink too much bubble tea?](https://www.nuhsplus.edu.sg/article/what-happens-if-you-drink-too-much-bubble-tea) (fuente de las declaraciones del Dr. Martin Lee)
 
-Temas relacionados con esta entrada: [cultura de los mercados nocturnos](/es/Food/night-market-culture/), [comida callejera taiwanesa](/es/Food/taiwanese-street-food/), cultura alimentaria taiwanesa (台灣飲食文化).
+Temas relacionados con esta entrada: [cultura de los mercados nocturnos](/es/food/night-market-culture/), [comida callejera taiwanesa](/es/food/taiwanese-street-food/), cultura alimentaria taiwanesa (台灣飲食文化).

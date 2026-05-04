@@ -19,7 +19,7 @@ translatedAt: '2026-05-01T12:53:58+08:00'
 
 # Mini Taiwan Pulse — Taiwan Transportation Real-Time 3D Visualization
 
-> **In-depth version:** This resource has been upgraded to a full civic tech article. For the complete piece, see [Mini Taiwan Pulse: How One Data Analyst Turned Taiwan's Traffic Pulse into Breathing 3D Light Trails](/en/Technology/mini-taiwan-pulse-civic-tech/) (2026-04-19). This page is retained as an index entry in the resource list.
+> **In-depth version:** This resource has been upgraded to a full civic tech article. For the complete piece, see [Mini Taiwan Pulse: How One Data Analyst Turned Taiwan's Traffic Pulse into Breathing 3D Light Trails](/en/technology/mini-taiwan-pulse-civic-tech/) (2026-04-19). This page is retained as an index entry in the resource list.
 
 > **30-second overview:** An open-source project that visualizes Taiwan's real-time transportation dynamics as 3D light spheres and light trails. Flights trace arcs through the sky, ships leave trails across the sea, trains race along rails — 23 toggleable layers let you "see" Taiwan's pulse.
 

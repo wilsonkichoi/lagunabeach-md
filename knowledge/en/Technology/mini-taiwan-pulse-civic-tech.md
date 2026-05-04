@@ -171,11 +171,11 @@ This is one face of civic tech in 2026.
 
 ## Further Reading
 
-- [Open Source and g0v](/en/Technology/open-source-and-g0v/) — the ten-year arc from forking the government in 2012 to the mask map in 2020
-- [Taiwan's Open Source Spirit](/en/Technology/taiwan-open-source-spirit/) — the cultural context and contribution patterns of Taiwan's open source community
-- [Digital ID and Digital Government](/en/Technology/digital-id-and-digital-government/) — the policy layer of government digital infrastructure
-- [PTT](/en/Technology/ptt-bulletin-board-system/) — another root of Taiwan's internet collaboration culture
-- [Che-Yu Wu](/en/People/che-yu-wu/) — another form of civic tech: a new media artist building a SSOT for Taiwan's knowledge sovereignty with Markdown and GitHub
+- [Open Source and g0v](/en/technology/open-source-and-g0v/) — the ten-year arc from forking the government in 2012 to the mask map in 2020
+- [Taiwan's Open Source Spirit](/en/technology/taiwan-open-source-spirit/) — the cultural context and contribution patterns of Taiwan's open source community
+- [Digital ID and Digital Government](/en/technology/digital-id-and-digital-government/) — the policy layer of government digital infrastructure
+- [PTT](/en/technology/ptt-bulletin-board-system/) — another root of Taiwan's internet collaboration culture
+- [Che-Yu Wu](/en/people/che-yu-wu/) — another form of civic tech: a new media artist building a SSOT for Taiwan's knowledge sovereignty with Markdown and GitHub
 
 ---
 

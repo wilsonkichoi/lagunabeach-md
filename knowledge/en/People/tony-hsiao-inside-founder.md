@@ -112,8 +112,8 @@ Tony Hsiao is still here. The observation continues. He has turned "keeping obse
 
 - [INSIDE 硬塞的網路趨勢觀察](https://www.inside.com.tw/) — the tech media Tony Hsiao co-founded, now part of The News Lens Media Group, continuing to report on Taiwan and global tech industries
 - [iCook](https://icook.tw/) — the recipe platform Tony Hsiao co-founded, now part of The News Lens Media Group
-- [Audrey Tang](/en/People/audrey-tang/) — Taiwan's first Minister of Digital Affairs, another figure who has defined their career by "crossing multiple domains"
-- [Taiwan Startup Ecosystem](/en/Technology/taiwan-startup-ecosystem/) — the broader context of Taiwan internet entrepreneurship; INSIDE and iCook are representative cases
+- [Audrey Tang](/en/people/audrey-tang/) — Taiwan's first Minister of Digital Affairs, another figure who has defined their career by "crossing multiple domains"
+- [Taiwan Startup Ecosystem](/en/technology/taiwan-startup-ecosystem/) — the broader context of Taiwan internet entrepreneurship; INSIDE and iCook are representative cases
 
 ## References
 

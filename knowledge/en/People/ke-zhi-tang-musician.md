@@ -132,8 +132,8 @@ From the university student self-accompanying Coldplay at the 2013 Hai Xian Awar
 
 ## Further Reading
 
-- **[Wei Ru-Xuan](/en/People/waa-wei-singer)** — Ke Zhi-Tang's cousin, one of the queens of independent music, also produced by Chen Chien-Chi
-- **[Chen Chien-Chi](/en/People/chen-chien-chi-music-producer)** — Producer of all three of Ke Zhi-Tang's albums; a core backstage figure in Mandarin pop
+- **[Wei Ru-Xuan](/en/people/waa-wei-singer)** — Ke Zhi-Tang's cousin, one of the queens of independent music, also produced by Chen Chien-Chi
+- **[Chen Chien-Chi](/en/people/chen-chien-chi-music-producer)** — Producer of all three of Ke Zhi-Tang's albums; a core backstage figure in Mandarin pop
 
 ## References
 

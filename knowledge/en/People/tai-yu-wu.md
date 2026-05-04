@@ -47,7 +47,7 @@ In 1983, Wu Ta-you took office as president of Academia Sinica at the age of sev
 
 He often said: "Without basic science, there is no true applied science." In the atmosphere of the 1980s, when Taiwan was racing to develop the [semiconductor industry](/en/taiwan-semiconductor-industry/) and information technology, that statement took some backbone to say. He also valued public communication of science, promoting Academia Sinica's hosting of public science lectures and summer camps to ensure science wasn't happening only inside research institutes.
 
-The effects of these reforms were not immediate, but they provided an institutional foundation for the accumulation of Taiwan's subsequent scientific research capacity. When [Lee Yuan-tseh](/en/People/lee-yuan-tseh/) succeeded him as president (1994–2006), he stood on the institutional groundwork that Wu Ta-you had laid and further advanced Academia Sinica's internationalization.
+The effects of these reforms were not immediate, but they provided an institutional foundation for the accumulation of Taiwan's subsequent scientific research capacity. When [Lee Yuan-tseh](/en/people/lee-yuan-tseh/) succeeded him as president (1994–2006), he stood on the institutional groundwork that Wu Ta-you had laid and further advanced Academia Sinica's internationalization.
 
 ## An Awkward Title
 
@@ -61,7 +61,7 @@ In January 2000, Wu Ta-you passed away in San Francisco at the age of ninety-thr
 
 **Further Reading:**
 
-- [Lee Yuan-tseh](/en/People/lee-yuan-tseh/) — Another scientist who grew up in Taiwan and later received the Nobel Prize in Chemistry, representing Taiwan's continued accumulation in basic science
+- [Lee Yuan-tseh](/en/people/lee-yuan-tseh/) — Another scientist who grew up in Taiwan and later received the Nobel Prize in Chemistry, representing Taiwan's continued accumulation in basic science
 - [Taiwan Semiconductor Industry](/en/taiwan-semiconductor-industry/) — The 1980s when Wu Ta-you served as president of Academia Sinica was the critical period for Taiwan's semiconductor industry takeoff
 - Audrey Tang — From science to technology: another path for Taiwan's intellectual elite to participate in public affairs
 - Lin Chi-er — A NASA astronaut and MD born in Taipei, continuing the lineage of Taiwan-born scientists accumulating in the postwar American academic system that Wu Ta-you's generation established

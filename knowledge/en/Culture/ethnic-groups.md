@@ -122,7 +122,7 @@ Mainlanders constitute approximately 7.5% of the population, but their influence
 
 ## Language: The Last Line of Defense
 
-Taiwan's [linguistic diversity and mother tongue culture](/en/Culture/linguistic-diversity-and-mother-tongue-culture/) crisis cuts across all ethnic groups as a shared problem.
+Taiwan's [linguistic diversity and mother tongue culture](/en/culture/linguistic-diversity-and-mother-tongue-culture/) crisis cuts across all ethnic groups as a shared problem.
 
 The 1988 Return Our Mother Tongue movement took to the streets partly because, before that, speaking a mother tongue in public could result in a fine. After the lifting of martial law, prohibitions were gradually removed; the 2019 National Language Development Act made Hokkien, Hakka, and all indigenous languages "national languages" and incorporated them into school curricula.
 
@@ -130,7 +130,7 @@ But the law moves slower than reality. The younger generation fluent in Hokkien 
 
 Language death does not happen suddenly on a single day — it is the sum of individual family decisions: "Let's just speak Mandarin with the kids; it'll be more convenient for them in the future." Each of those decisions is rational in isolation. Their aggregate is irreversible.
 
-Historically, ethnic classifications were enforced with swords and laws. Today's language loss is accomplished through convenience and choice. Compared with the violent suppression of the martial law era following the [228 Incident](/en/History/228-incident/), this kind of loss is quieter — and harder to see.
+Historically, ethnic classifications were enforced with swords and laws. Today's language loss is accomplished through convenience and choice. Compared with the violent suppression of the martial law era following the [228 Incident](/en/history/228-incident/), this kind of loss is quieter — and harder to see.
 
 ## What Can an Apology Do?
 
@@ -146,11 +146,11 @@ These numbers are still in motion.
 
 **Further reading:**
 
-- [Linguistic Diversity and Mother Tongue Culture](/en/Culture/linguistic-diversity-and-mother-tongue-culture/) — The rate of decline and revitalization movements for Hokkien, Hakka, and indigenous languages
+- [Linguistic Diversity and Mother Tongue Culture](/en/culture/linguistic-diversity-and-mother-tongue-culture/) — The rate of decline and revitalization movements for Hokkien, Hakka, and indigenous languages
 - Taiwan Indigenous Peoples' History and Name Rectification Movement (zh only: 台灣原住民族歷史與正名運動) — The ten-year name rectification struggle from "mountain compatriots" to "indigenous peoples"
 - Cultural Map of Taiwan's 16 Indigenous Nations (zh only: 台灣原住民族16族文化地圖) — Distribution, languages, and cultural characteristics of the 16 nations
 - Hakka Culture and Language (zh only: 客家文化與語言) — The historical migrations and cultural preservation of the Hakka community
-- [228 Incident](/en/History/228-incident/) — The historical origin point of postwar ethnic conflict
+- [228 Incident](/en/history/228-incident/) — The historical origin point of postwar ethnic conflict
 
 ## References
 

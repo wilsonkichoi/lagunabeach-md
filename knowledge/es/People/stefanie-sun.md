@@ -145,7 +145,7 @@ El ascenso de Stefanie Sun es un microcosmo del apogeo de la industria musical p
 
 - [Música pop taiwanesa](/music/台灣流行音樂/) — El contexto industrial del debut de Stefanie Sun y el apogeo de la industria discográfica taiwanesa en la década de 2000
 - [Música pop y Premios Golden Melody](/music/流行音樂與金曲獎/) — Cómo los Premios Golden Melody pasaron de ser un mecanismo de jurado a convertirse en una coordenada cultural que define el gusto
-- [Jay Chou](/es/People/jay-chou/) — Nominado en la misma categoría de Mejor Artista Novel en la 12.ª edición, definió otra pista de la música pop en chino
+- [Jay Chou](/es/people/jay-chou/) — Nominado en la misma categoría de Mejor Artista Novel en la 12.ª edición, definió otra pista de la música pop en chino
 - [Cultura del karaoke en Taiwán](/music/台灣KTV文化/) — Por qué las canciones de Stefanie Sun perduran en las listas de reproducción de karaoke
 - [Tanya Chua](/people/蔡健雅/) — El panorama de estrellas femeninas de la música en chino de Singapur en la misma época; Tanya Chua escribió «Di Liu Gan» (Sexto sentido) para Stefanie Sun (2003)
 

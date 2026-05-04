@@ -30,7 +30,7 @@ lastHumanReview: false
 
 ## 30-Second Overview
 
-Taiwan's screen scoring began building its own aesthetic language in the 1980s. The cross-boundary collaboration between director [Hou Hsiao-hsien](/en/People/hou-hsiao-hsien/) and Lim Giong (林強, zh only) opened a new chapter in Taiwanese film music. [Wei Te-sheng](/en/People/wei-te-sheng-taiwanese-epic-filmmaker/) and Fan Tsung-pei (范宗沛, zh only) brought epic scores to an international production standard, while [Rayark Games](/en/Technology/rayark-games/) earned high acclaim in the global gaming community for its game soundtracks. The establishment of the Golden Horse Award for Best Original Film Score further drove the professionalization of Taiwan's screen scoring.
+Taiwan's screen scoring began building its own aesthetic language in the 1980s. The cross-boundary collaboration between director [Hou Hsiao-hsien](/en/people/hou-hsiao-hsien/) and Lim Giong (林強, zh only) opened a new chapter in Taiwanese film music. [Wei Te-sheng](/en/people/wei-te-sheng-taiwanese-epic-filmmaker/) and Fan Tsung-pei (范宗沛, zh only) brought epic scores to an international production standard, while [Rayark Games](/en/technology/rayark-games/) earned high acclaim in the global gaming community for its game soundtracks. The establishment of the Golden Horse Award for Best Original Film Score further drove the professionalization of Taiwan's screen scoring.
 
 **Keywords:** film scoring, Hou Hsiao-hsien, Lim Giong, Fan Tsung-pei, Rayark Games, Golden Horse Awards, Taiwanese cinema
 
@@ -54,7 +54,7 @@ The 1982 film _In Our Time_ marked the beginning of Taiwan's New Cinema movement
 
 ### The Epoch-Making Significance of _Goodbye South, Goodbye_
 
-In 1996, [Hou Hsiao-hsien](/en/People/hou-hsiao-hsien/) invited Lim Giong (林強, zh only) to score _Goodbye South, Goodbye_ — a collaboration that opened a new era in Taiwanese film music. Lim Giong was originally a Taiwanese-language pop singer known for songs like "Walk Forward" (向前走), and crossing over into film scoring was a bold experiment.
+In 1996, [Hou Hsiao-hsien](/en/people/hou-hsiao-hsien/) invited Lim Giong (林強, zh only) to score _Goodbye South, Goodbye_ — a collaboration that opened a new era in Taiwanese film music. Lim Giong was originally a Taiwanese-language pop singer known for songs like "Walk Forward" (向前走), and crossing over into film scoring was a bold experiment.
 
 The score Lim Giong created for the film blended electronic music, ambient sound design, and Taiwanese indigenous music elements to evoke a distinctive southern Taiwanese atmosphere. This experimental approach to scoring perfectly complemented Hou Hsiao-hsien's long-take aesthetic, creating an unprecedented audiovisual experience.
 
@@ -79,13 +79,13 @@ The successful partnership between Lim Giong and Hou Hsiao-hsien encouraged more
 
 ### The Music Miracle of _Cape No. 7_
 
-In 2008, [Wei Te-sheng's](/en/People/wei-te-sheng-taiwanese-epic-filmmaker/) _Cape No. 7_ created a box-office miracle in Taiwanese film history, thanks in large part to its moving score. Composer Fan Tsung-pei (范宗沛, zh only) created a score that combined classical orchestration, Taiwanese folk music, and Japanese musical elements.
+In 2008, [Wei Te-sheng's](/en/people/wei-te-sheng-taiwanese-epic-filmmaker/) _Cape No. 7_ created a box-office miracle in Taiwanese film history, thanks in large part to its moving score. Composer Fan Tsung-pei (范宗沛, zh only) created a score that combined classical orchestration, Taiwanese folk music, and Japanese musical elements.
 
 The film's theme was performed by Nakamori Kosuke (中孝介, zh only), whose tender melody, matched with the film's emotional thread, became one of that year's most beloved film songs. The score not only enhanced the drama but became a beloved independent musical work.
 
 ### The Epic Score of _Warriors of the Rainbow: Seediq Bale_
 
-[Wei Te-sheng's](/en/People/wei-te-sheng-taiwanese-epic-filmmaker/) other landmark film, _Warriors of the Rainbow: Seediq Bale_ (2011), was even more ambitious in its scoring. Fan Tsung-pei (范宗沛, zh only) created a large-scale score for this epic film, deploying a full symphony orchestra and chorus.
+[Wei Te-sheng's](/en/people/wei-te-sheng-taiwanese-epic-filmmaker/) other landmark film, _Warriors of the Rainbow: Seediq Bale_ (2011), was even more ambitious in its scoring. Fan Tsung-pei (范宗沛, zh only) created a large-scale score for this epic film, deploying a full symphony orchestra and chorus.
 
 The score blended multiple elements:
 
@@ -143,7 +143,7 @@ In recent years, Taiwanese television dramas have placed greater emphasis on pro
 
 ### Rayark Games' Music Revolution
 
-Taiwanese game company [Rayark Games](/en/Technology/rayark-games/) has earned international acclaim in game music. The soundtracks of its flagship titles _Cytus_, _Deemo_, and _Voez_ attain the production quality of professional music albums.
+Taiwanese game company [Rayark Games](/en/technology/rayark-games/) has earned international acclaim in game music. The soundtracks of its flagship titles _Cytus_, _Deemo_, and _Voez_ attain the production quality of professional music albums.
 
 ### _Deemo_'s Fusion of Classical and Electronic
 
@@ -159,7 +159,7 @@ This localized scoring approach not only served the game's narrative but also pr
 
 ### OPUS Series' Experimental Spirit
 
-[Rayark Games'](/en/Technology/rayark-games/) OPUS series is known for its distinctive musical aesthetic. The scores of _OPUS: Rocket of Whispers_ (2015) and _OPUS: Echo of Starsong_ (2019) both possess a strong cinematic quality, evoking the solitude of the cosmos in keeping with the games' science fiction themes.
+[Rayark Games'](/en/technology/rayark-games/) OPUS series is known for its distinctive musical aesthetic. The scores of _OPUS: Rocket of Whispers_ (2015) and _OPUS: Echo of Starsong_ (2019) both possess a strong cinematic quality, evoking the solitude of the cosmos in keeping with the games' science fiction themes.
 
 ## Technical Innovation and Production Processes (2010–Present)
 
@@ -219,11 +219,11 @@ Many Taiwanese composers are active throughout the Chinese-language film world, 
 
 ### Global Recognition of Game Music
 
-The success of companies like [Rayark Games](/en/Technology/rayark-games/) has given Taiwan a prominent place in the international game music world, demonstrating Taiwan's competitiveness in digital entertainment content creation.
+The success of companies like [Rayark Games](/en/technology/rayark-games/) has given Taiwan a prominent place in the international game music world, demonstrating Taiwan's competitiveness in digital entertainment content creation.
 
 ## Conclusion: Taiwan's Sonic Identity
 
-From [Hou Hsiao-hsien's](/en/People/hou-hsiao-hsien/) and Lim Giong's (林強, zh only) cross-boundary experiments to [Rayark Games'](/en/Technology/rayark-games/) international success, Taiwan's screen scoring has found its own path over three decades. This development has not been merely a matter of technical progress — it has been the building of cultural self-confidence.
+From [Hou Hsiao-hsien's](/en/people/hou-hsiao-hsien/) and Lim Giong's (林強, zh only) cross-boundary experiments to [Rayark Games'](/en/technology/rayark-games/) international success, Taiwan's screen scoring has found its own path over three decades. This development has not been merely a matter of technical progress — it has been the building of cultural self-confidence.
 
 Taiwan's composers have learned to tell Taiwan's stories in sound, whether the languid afternoons of southern Taiwan, the ancient chants of indigenous peoples, or the anxieties and dreams of urban youth. These sounds have formed a distinctive "Taiwan Impression" that speaks for Taiwan on the international stage.
 

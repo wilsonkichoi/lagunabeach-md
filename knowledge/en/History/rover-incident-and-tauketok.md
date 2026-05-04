@@ -25,7 +25,7 @@ translatedAt: '2026-05-01T01:46:13+08:00'
 
 # The Rover Incident: A Battle 181 Soldiers Couldn't Win, Settled by Tauketok in 45 Minutes
 
-> **30-second overview:** In March 1867, the American merchant ship Rover ran aground at the southern tip of the Hengchun Peninsula. The captain, his wife, and twelve crew members came ashore and were killed by members of the Koalut (龜仔甪) Paiwan community. An American naval force of 181 soldiers attempted a punitive landing — they were repelled, and their commanding officer was killed. Three months later, Tauketok, paramount chief of the Eighteen Paiwan Tribes of Liangqiao (瑯嶠十八社), sat down with American consul Charles Le Gendre (李仙得) at a place called Chuhuo (出火) and negotiated for 45 minutes — producing the Treaty of South Cape, a diplomatic agreement that existed entirely outside the [Qing administration's](/en/History/qing-dynasty-rule/) line of sight. The agreement protected his people — but seven years later, the other signatory brought every piece of intelligence he had accumulated about southern Taiwan to the Japanese Empire.
+> **30-second overview:** In March 1867, the American merchant ship Rover ran aground at the southern tip of the Hengchun Peninsula. The captain, his wife, and twelve crew members came ashore and were killed by members of the Koalut (龜仔甪) Paiwan community. An American naval force of 181 soldiers attempted a punitive landing — they were repelled, and their commanding officer was killed. Three months later, Tauketok, paramount chief of the Eighteen Paiwan Tribes of Liangqiao (瑯嶠十八社), sat down with American consul Charles Le Gendre (李仙得) at a place called Chuhuo (出火) and negotiated for 45 minutes — producing the Treaty of South Cape, a diplomatic agreement that existed entirely outside the [Qing administration's](/en/history/qing-dynasty-rule/) line of sight. The agreement protected his people — but seven years later, the other signatory brought every piece of intelligence he had accumulated about southern Taiwan to the Japanese Empire.
 
 ---
 
@@ -82,7 +82,7 @@ The verbal agreement of October 10, 1867 was reduced to a written memorandum on 
 - **Supplies require procedure:** Foreigners needing supplies must follow procedure and contact headmen; they may not enter villages directly
 - **No entering mountain territory:** Foreigners may not enter the mountain village territories of the Paiwan
 
-This agreement existed entirely outside the [Qing dynasty's](/en/History/qing-dynasty-rule/) administrative reach. The two signatories were Tauketok and Le Gendre, representing the Liangqiao (瑯嶠) Eighteen-Tribe chiefdom and the American consulate — not a formal treaty between Taiwan and the United States; the Qing court was absent from start to finish.
+This agreement existed entirely outside the [Qing dynasty's](/en/history/qing-dynasty-rule/) administrative reach. The two signatories were Tauketok and Le Gendre, representing the Liangqiao (瑯嶠) Eighteen-Tribe chiefdom and the American consulate — not a formal treaty between Taiwan and the United States; the Qing court was absent from start to finish.
 
 The three clauses are written with extreme concision, yet they cover the scenarios where outsiders and tribal members were most likely to come into direct conflict: the identification signal for survivors of shipwrecks, the boundary conditions for obtaining supplies, the principle of non-entry into mountain territories. Each clause reads like a concrete lesson drawn from the Rover incident itself.
 
@@ -110,9 +110,9 @@ When the time came to part, Tauketok said: "We have talked enough. It is time to
 
 ## The Other Half of the Agreement
 
-In 1874, the Japanese Empire landed on the Hengchun Peninsula by sea — an event known as the [Mudan Incident (牡丹社事件)](/en/History/indigenous-peoples-history-and-naming-movement/).
+In 1874, the Japanese Empire landed on the Hengchun Peninsula by sea — an event known as the [Mudan Incident (牡丹社事件)](/en/history/indigenous-peoples-history-and-naming-movement/).
 
-Standing on Japan's side as an advisor was Charles Le Gendre (李仙得). What he brought with him was everything he had accumulated over seven years on the Hengchun Peninsula: roads, village locations, the names of each chief, the terrain of the mountain territories. And the legal argument he had already worked out: that the "aboriginal lands" (番地) were outside [Qing](/en/History/qing-dynasty-rule/) jurisdiction — what he called _terra nullius_, or unclaimed land. This argument later became the legal basis for Japan's military expedition.[^10]
+Standing on Japan's side as an advisor was Charles Le Gendre (李仙得). What he brought with him was everything he had accumulated over seven years on the Hengchun Peninsula: roads, village locations, the names of each chief, the terrain of the mountain territories. And the legal argument he had already worked out: that the "aboriginal lands" (番地) were outside [Qing](/en/history/qing-dynasty-rule/) jurisdiction — what he called _terra nullius_, or unclaimed land. This argument later became the legal basis for Japan's military expedition.[^10]
 
 The Treaty of South Cape protected Tauketok's people and spared them from American military retaliation. But the agreement's force was bound to the person who signed it. Once Le Gendre departed, the agreement went with him. The knowledge he carried away had no binding force whatsoever — it simply followed the highest bidder.
 
@@ -134,9 +134,9 @@ This article focuses on Tauketok's perspective, but each thread extends elsewher
 
 The following entries each illuminate a different angle on this article:
 
-- [Charles Le Gendre](/en/People/charles-le-gendre/): the American consul who made the treaty with Tauketok, who later defected to the Japanese government as an advisor. The C-1 series examines the same history from Le Gendre's perspective.
-- [Qing Dynasty Rule](/en/History/qing-dynasty-rule/): the Governor-General's "outside the registers" response in the Rover Incident carries deeper meaning in the context of Qing Taiwan's border ambiguities.
-- [Taiwan's Indigenous Peoples: History and the Naming Movement](/en/History/indigenous-peoples-history-and-naming-movement/): the contemporary Seqalu identity diverges sharply from the Qing-era category of "raw savages" (生番); both narratives unfold at the same location.
+- [Charles Le Gendre](/en/people/charles-le-gendre/): the American consul who made the treaty with Tauketok, who later defected to the Japanese government as an advisor. The C-1 series examines the same history from Le Gendre's perspective.
+- [Qing Dynasty Rule](/en/history/qing-dynasty-rule/): the Governor-General's "outside the registers" response in the Rover Incident carries deeper meaning in the context of Qing Taiwan's border ambiguities.
+- [Taiwan's Indigenous Peoples: History and the Naming Movement](/en/history/indigenous-peoples-history-and-naming-movement/): the contemporary Seqalu identity diverges sharply from the Qing-era category of "raw savages" (生番); both narratives unfold at the same location.
 
 ## References
 

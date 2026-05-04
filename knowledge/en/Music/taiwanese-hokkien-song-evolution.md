@@ -77,11 +77,11 @@ Chiang’s artistry proved that Hokkien songs could be **mass‑market and deepl
 
 ## 5) The youth renaissance (2010–present)
 
-### [EggPlantEgg](/en/Music/eggplant-egg-band/): rock with local soul
+### [EggPlantEgg](/en/music/eggplant-egg-band/): rock with local soul
 
 The breakout hit **”浪子回頭”** gave Hokkien rock a new mainstream identity. The band combined classic Taiwanese sentiment with modern rock arrangements, making Hokkien suddenly **cool** for young listeners.
 
-### [Sorry Youth](/en/Music/sorry-youth-band/): indie with literary texture
+### [Sorry Youth](/en/music/sorry-youth-band/): indie with literary texture
 
 Sorry Youth infused Hokkien with indie aesthetics and poetic lyricism. Their audience—often urban, educated, and culturally curious—represents the so‑called **”literati wave”** in Hokkien music.
 

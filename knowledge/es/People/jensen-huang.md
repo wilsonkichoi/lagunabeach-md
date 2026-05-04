@@ -89,7 +89,7 @@ En junio de 2024, Huang apareció en la Computex de Taipéi. No estaba en la lis
 
 Con su emblemática chaqueta de cuero negro, comía aperitivos en los mercados nocturnos (夜市, _night markets_), hablaba en taiwanés con los vendedores y se tomaba fotos con los transeúntes. Mark Zuckerberg publicó en Instagram una foto de ambos interchando sus chaquetas icónicas, con el comentario: "Es como el Taylor Swift de la tecnología"[^8].
 
-Pero la importancia de Huang para Taiwán va mucho más allá del efecto celebridad. Los chips más avanzados de NVIDIA son fabricados por 台灣企業：台積電 (TSMC) (zh). Huang y [Morris Chang](/es/People/tsmc-morris-chang/) tienen una relación de más de treinta años. En su discurso en Computex, desplegó un mapa de Taiwán señalando a todos los socios de la cadena de suministro de NVIDIA en la isla y declaró: "Taiwan is a world hero".
+Pero la importancia de Huang para Taiwán va mucho más allá del efecto celebridad. Los chips más avanzados de NVIDIA son fabricados por 台灣企業：台積電 (TSMC) (zh). Huang y [Morris Chang](/es/people/tsmc-morris-chang/) tienen una relación de más de treinta años. En su discurso en Computex, desplegó un mapa de Taiwán señalando a todos los socios de la cadena de suministro de NVIDIA en la isla y declaró: "Taiwan is a world hero".
 
 No eran palabras vacías. Los chips de IA de NVIDIA necesitan los procesos avanzados de fabricación de TSMC, y TSMC necesita los pedidos de NVIDIA para mantener sus líneas de producción más avanzadas a plena capacidad. Los destinos de ambas empresas están entrelazados, y ese vínculo está anclado en una isla que sufre un promedio de 3,7 terremotos al año y es azotada regularmente por tifones.
 
@@ -123,7 +123,7 @@ Jensen Huang lleva ahora el logotipo de una corporación tatuado en el brazo. Su
 
 **Lecturas complementarias**
 
-- [Morris Chang](/es/People/tsmc-morris-chang/) — El socio más importante de NVIDIA, fundador de TSMC, cuya relación de más de treinta años con Huang sostiene la cadena global de suministro de IA.
+- [Morris Chang](/es/people/tsmc-morris-chang/) — El socio más importante de NVIDIA, fundador de TSMC, cuya relación de más de treinta años con Huang sostiene la cadena global de suministro de IA.
 - 台灣企業：台積電 (TSMC) (zh) — La empresa taiwanesa que fabrica los chips más avanzados de NVIDIA, a quien Huang llamó "héroe mundial".
 - Industria de semiconductores de Taiwán — Los chips de Huang y Su se fabrican en esta isla; es el escudo de silicio de Taiwán.
 

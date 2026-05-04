@@ -25,7 +25,7 @@ translatedAt: 2026-05-01T22:19:10+08:00
 
 # El incidente del Rover: una batalla que 181 hombres no pudieron ganar, resuelta por Tauketok en 45 minutos
 
-> **Panorama en 30 segundos:** En marzo de 1867, el mercante estadounidense Rover encalló en el extremo sur de la península de Hengchun. El capitán, su esposa y 12 tripulantes desembarcaron, pero fueron muertos por la comunidad paiwan de Kulaljuc. 181 soldados estadounidenses intentaron una represalia militar, fueron repelidos y su comandante murió. Tres meses después, Tauketok, gran jefe de las Dieciocho Comunidades de Langqiao, se sentó en un claro llamado Chuhuo con el cónsul estadounidense [Charles Le Gendre](/es/People/charles-le-gendre/) y negoció el Tratado del Cabo Sur en 45 minutos: un acuerdo diplomático que existió fuera de la mirada de la [dinastía Qing](/es/History/qing-dynasty-rule/). Este acuerdo protegió a su pueblo, pero la otra parte del tratado, siete años después, llevó todo lo que sabía del sur de Taiwán al Imperio de Japón.
+> **Panorama en 30 segundos:** En marzo de 1867, el mercante estadounidense Rover encalló en el extremo sur de la península de Hengchun. El capitán, su esposa y 12 tripulantes desembarcaron, pero fueron muertos por la comunidad paiwan de Kulaljuc. 181 soldados estadounidenses intentaron una represalia militar, fueron repelidos y su comandante murió. Tres meses después, Tauketok, gran jefe de las Dieciocho Comunidades de Langqiao, se sentó en un claro llamado Chuhuo con el cónsul estadounidense [Charles Le Gendre](/es/people/charles-le-gendre/) y negoció el Tratado del Cabo Sur en 45 minutos: un acuerdo diplomático que existió fuera de la mirada de la [dinastía Qing](/es/history/qing-dynasty-rule/). Este acuerdo protegió a su pueblo, pero la otra parte del tratado, siete años después, llevó todo lo que sabía del sur de Taiwán al Imperio de Japón.
 
 ---
 
@@ -37,7 +37,7 @@ No sabían de quién era el territorio que había detrás de aquella playa.
 
 Los que desembarcaron no regresaron. Catorce tripulantes, incluidos el capitán y su esposa, fueron muertos en Kulaljuc (Kulaljuc, hoy la comunidad de Sheanding en el municipio de Hengchun, condado de Pingtung). Solo un marinero de origen cantonés logró escapar desde el borde de la jungla y llevó la noticia a Takao[^2].
 
-La noticia llegó a Xiamen y llegó a oídos del cónsul estadounidense en Xiamen, [Charles Le Gendre](/es/People/charles-le-gendre/).
+La noticia llegó a Xiamen y llegó a oídos del cónsul estadounidense en Xiamen, [Charles Le Gendre](/es/people/charles-le-gendre/).
 
 ## El ejército estadounidense entra en la jungla
 
@@ -82,7 +82,7 @@ El acuerdo verbal del 10 de octubre de 1867 se formalizó en un memorándum escr
 - **Procedimiento para provisiones**: Si un extranjero necesitara provisiones, debía seguir un procedimiento para contactar con el jefe, y no podía entrar directamente en la aldea.
 - **No entrada a las montañas**: Los extranjeros no podían entrar en el territorio de las aldeas paiwan en la montaña.
 
-Este acuerdo existió fuera del alcance administrativo de la [dinastía Qing](/es/History/qing-dynasty-rule/). Las dos partes firmantes fueron Tauketok y Le Gosten, representando respectivamente la confederación de las Dieciocho Comunidades de Langqiao y el consulado estadounidense; no fue un tratado formal entre Taiwán y Estados Unidos, y la corte Qing nunca estuvo presente.
+Este acuerdo existió fuera del alcance administrativo de la [dinastía Qing](/es/history/qing-dynasty-rule/). Las dos partes firmantes fueron Tauketok y Le Gosten, representando respectivamente la confederación de las Dieciocho Comunidades de Langqiao y el consulado estadounidense; no fue un tratado formal entre Taiwán y Estados Unidos, y la corte Qing nunca estuvo presente.
 
 Las tres cláusulas eran extremadamente concisas en su redacción, pero cubrían los escenarios de conflicto más probables entre forasteros y la comunidad: desde la señal de identificación en un naufragio hasta el establecimiento de límites para el aprovisionamiento, y el principio de no entrada en el territorio montañoso. Cada una parecía una lección concreta extraída del incidente del Rover.
 
@@ -110,9 +110,9 @@ Cuando terminaron de hablar y se disponían a despedirse, Tauketok dijo: «Ya he
 
 ## La otra mitad del acuerdo
 
-En 1874, el Imperio de Japón desembarcó por mar en la península de Hengchun, en lo que se conoce como el [Incidente de Botan (台灣原住民族歷史與正名運動)](/es/History/qing-dynasty-rule/).
+En 1874, el Imperio de Japón desembarcó por mar en la península de Hengchun, en lo que se conoce como el [Incidente de Botan (台灣原住民族歷史與正名運動)](/es/history/qing-dynasty-rule/).
 
-Uno de los asesores del lado japonés fue [Charles Le Gendre](/es/People/charles-le-gendre/). Lo que llevó consigo fue toda la información acumulada durante siete años en la península de Hengchun: caminos, ubicación de las comunidades, nombres de cada jefe, orografía de las montañas. Además, el argumento jurídico que ya tenía preparado: el «territorio bárbaro» no estaba bajo jurisdicción de la [dinastía Qing](/es/History/qing-dynasty-rule/), era lo que se denomina terra nullius (tierra de nadie). Este argumento se convirtió después en la base legal de la expedición japonesa[^10].
+Uno de los asesores del lado japonés fue [Charles Le Gendre](/es/people/charles-le-gendre/). Lo que llevó consigo fue toda la información acumulada durante siete años en la península de Hengchun: caminos, ubicación de las comunidades, nombres de cada jefe, orografía de las montañas. Además, el argumento jurídico que ya tenía preparado: el «territorio bárbaro» no estaba bajo jurisdicción de la [dinastía Qing](/es/history/qing-dynasty-rule/), era lo que se denomina terra nullius (tierra de nadie). Este argumento se convirtió después en la base legal de la expedición japonesa[^10].
 
 El Tratado del Cabo Sur permitió a Tauketok proteger a su pueblo de la represalia estadounidense. Pero la validez del acuerdo solo estaba vinculada a quienes lo firmaron. Una vez que Le Gosten se fue, el acuerdo quedó anulado. El conocimiento que se llevó no tenía ninguna obligación asociada; solo seguía al mejor postor.
 
@@ -134,9 +134,9 @@ La narrativa de este artículo se centra en la perspectiva de Tauketok, pero cad
 
 Las siguientes entradas complementan este artículo desde sus respectivas perspectivas:
 
-- [Charles Le Gendre](/es/People/charles-le-gendre/): El cónsul estadounidense que firmó el tratado con Tauketok y que después se incorporó al gobierno japonés como asesor. Los artículos de la serie C-1 examinan el mismo período histórico desde la perspectiva de Le Gosten.
-- [Dinastía Qing](/es/History/qing-dynasty-rule/): La respuesta del gobernador general de Fujian y Zhejiang —«no figuran en los registros territoriales»— durante el incidente del Rover adquiere mayor significado en el contexto de las cuestiones fronterizas de Taiwán bajo el dominio Qing.
-- [Historia y movimiento de rectificación de nombres de los pueblos indígenas de Taiwán (台灣原住民族歷史與正名運動)](/es/History/qing-dynasty-rule/): La identidad contemporánea del pueblo Seqaru difiere radicalmente de la clasificación de «bárbaros» de la era Qing; ambas narrativas se despliegan en el mismo lugar.
+- [Charles Le Gendre](/es/people/charles-le-gendre/): El cónsul estadounidense que firmó el tratado con Tauketok y que después se incorporó al gobierno japonés como asesor. Los artículos de la serie C-1 examinan el mismo período histórico desde la perspectiva de Le Gosten.
+- [Dinastía Qing](/es/history/qing-dynasty-rule/): La respuesta del gobernador general de Fujian y Zhejiang —«no figuran en los registros territoriales»— durante el incidente del Rover adquiere mayor significado en el contexto de las cuestiones fronterizas de Taiwán bajo el dominio Qing.
+- [Historia y movimiento de rectificación de nombres de los pueblos indígenas de Taiwán (台灣原住民族歷史與正名運動)](/es/history/qing-dynasty-rule/): La identidad contemporánea del pueblo Seqaru difiere radicalmente de la clasificación de «bárbaros» de la era Qing; ambas narrativas se despliegan en el mismo lugar.
 
 ## Referencias
 

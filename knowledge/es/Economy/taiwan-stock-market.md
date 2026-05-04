@@ -2,7 +2,16 @@
 title: 'El mercado bursátil y de capitales de Taiwán: del colapso de los 10.000 puntos en 1990 al sexto lugar mundial en 2026, una isla donde el 44% del patrimonio depende de una sola acción'
 description: 'El 28 de abril de 2026, Bloomberg publicó el titular "Taiwan Overtakes Canada". Una isla que en 1990 vio cómo el colapso bursátil de los 10.000 puntos se llevó los ahorros de jubilación de ciento sesenta mil personas, treinta y seis años después escaló hasta convertirse en el sexto mercado bursátil más grande del mundo — pero de sus 4,47 billones de dólares en capitalización, casi la mitad recae sobre una sola empresa de semiconductores.'
 date: 2026-05-03
-tags: ['mercado bursátil taiwanés', 'bolsa de valores', 'mercado de capitales', 'ETF', 'TSMC', 'inversores minoristas', 'IA']
+tags:
+  [
+    'mercado bursátil taiwanés',
+    'bolsa de valores',
+    'mercado de capitales',
+    'ETF',
+    'TSMC',
+    'inversores minoristas',
+    'IA',
+  ]
 subcategory: 'Economy'
 category: 'Economy'
 author: 'Taiwan.md'
@@ -61,7 +70,7 @@ El segundo fueron los ETF. En junio de 2003, Yuanta Asset Management lanzó el 0
 
 El tercer factor, mayor que los dos anteriores juntos: TSMC.
 
-Hablar del mercado bursátil taiwanés en 2026 es inseparable de hablar de [TSMC](/es/Economy/tsmc-taiwan-semiconductor/). El mercado taiwanés es como un sistema solar, y TSMC es ese sol. **Al 10 de marzo de 2026, la ponderación de TSMC en el índice ponderado alcanzó el 45,0041%**[^PonderacionTWSE]. Con el precio de la acción rondando los 2.265 dólares taiwaneses, cada variación de un dólar en esta acción individual mueve el índice general aproximadamente 8 puntos[^PonderacionTWSE].
+Hablar del mercado bursátil taiwanés en 2026 es inseparable de hablar de [TSMC](/es/economy/tsmc-taiwan-semiconductor/). El mercado taiwanés es como un sistema solar, y TSMC es ese sol. **Al 10 de marzo de 2026, la ponderación de TSMC en el índice ponderado alcanzó el 45,0041%**[^PonderacionTWSE]. Con el precio de la acción rondando los 2.265 dólares taiwaneses, cada variación de un dólar en esta acción individual mueve el índice general aproximadamente 8 puntos[^PonderacionTWSE].
 
 Describir esta proporción como «una acción importante del índice» sería un grave eufemismo. Es el propio índice.
 
@@ -138,13 +147,13 @@ Más reveladora aún es la estructura: los inversores menores de 30 años repres
 
 De «las acciones son juego» en los años 90 a «no invertir es el riesgo» en los años 2020, la actitud de la sociedad taiwanesa hacia el mercado de capitales tardó treinta años en dar un giro completo.
 
-| 1990                        | 2026                        |
-| --------------------------- | --------------------------- |
-| 4,6 millones de cuentas activas | 13,93 millones de cuentas acumuladas |
-| Minoristas: 90% del volumen | Institucionales + ETF en crecimiento |
-| Órdenes por teléfono en correduría, pantalla de cotizaciones | Móvil, aportaciones periódicas fijas |
-| Hung Yuan captando con 4% mensual | 0050 con rentabilidad anual del 5-8% |
-| Una empresa que quiebra arruina a 160.000 personas | Una sola acción determina la posición del índice general |
+| 1990                                                         | 2026                                                     |
+| ------------------------------------------------------------ | -------------------------------------------------------- |
+| 4,6 millones de cuentas activas                              | 13,93 millones de cuentas acumuladas                     |
+| Minoristas: 90% del volumen                                  | Institucionales + ETF en crecimiento                     |
+| Órdenes por teléfono en correduría, pantalla de cotizaciones | Móvil, aportaciones periódicas fijas                     |
+| Hung Yuan captando con 4% mensual                            | 0050 con rentabilidad anual del 5-8%                     |
+| Una empresa que quiebra arruina a 160.000 personas           | Una sola acción determina la posición del índice general |
 
 El lado izquierdo de esta tabla es memoria traumática; el lado derecho, dividendo de IA. En medio hay treinta y seis años — pero la línea del medio no subió en línea recta.
 
@@ -168,7 +177,7 @@ Esta cima, compartida por 13,93 millones de cuentas, tiene un 45% de sus cimient
 
 **Lecturas complementarias**
 
-- [TSMC](/es/Economy/tsmc-taiwan-semiconductor/) — Ese sol que representa el 45% de la ponderación del mercado taiwanés, y la historia detrás del término «montaña sagrada que protege a la nación»
+- [TSMC](/es/economy/tsmc-taiwan-semiconductor/) — Ese sol que representa el 45% de la ponderación del mercado taiwanés, y la historia detrás del término «montaña sagrada que protege a la nación»
 - [Industria de semiconductores](/technology/半導體產業) — Todo el ecosistema de cadena de suministro que sostiene la sexta posición del mercado taiwanés
 - [Foxconn](/economy/台灣企業：鴻海精密) — Otro gran peso en la lista de 25 acciones de Goldman, de gigante del ensamblaje por encargo a transformador en servidores de IA
 - [Transformación y mejora industrial de Taiwán](/economy/台灣產業轉型升級) — La trayectoria desde el ensamblaje por encargo en los años 80 hasta el dividendo de IA en 2026

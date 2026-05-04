@@ -63,7 +63,7 @@ Taipei Zoo is the old tree of Taiwan's zoo system. It opened at Yuanshan in 1914
 
 Its most famous animals are the giant pandas. Tuan Tuan (團團) and Yuan Yuan (圓圓) arrived from China in 2008, their names carrying a cross-strait message of reunion. Yuan Zai's 2013 birth turned the zoo into a stage for politics, media and city affection.
 
-But Taipei Zoo is not only pandas. Formosan black bears, pangolins, leopard cats and conservation research are where it connects to [Taiwan's biodiversity hotspots](/en/Geography/taiwan-biodiversity-hotspots/).
+But Taipei Zoo is not only pandas. Formosan black bears, pangolins, leopard cats and conservation research are where it connects to [Taiwan's biodiversity hotspots](/en/geography/taiwan-biodiversity-hotspots/).
 
 Hsinchu Zoo works in miniature. It is only about 2.7 hectares, yet it has stayed in Hsinchu Park since 1936. After closing in 2017, it reopened in 2019 as "Zoo Reborn," focused less on star animals than on removing iron cages from the visitor's view.
 
@@ -81,7 +81,7 @@ Its signature is a viewing system: a steam train through herbivores, a bus into 
 
 Wanpi World Safari Zoo in Xuejia, Tainan, opened in 1994. It says it now keeps more than 300 species and more than 2,000 animals in a semi-open setting. Social media remembers its capybaras, giraffes, alpacas, meerkats, servals and encounters.
 
-Wanpi's value and risk both sit in "closeness." It brings children near animals, but it also makes welfare, feeding rules and encounter boundaries daily management. The full debate belongs in [zoo and exhibition animal ethics](/en/Society/zoo-and-exhibition-animal-ethics/); the directory point is that private parks often sell a distance public zoos avoid.
+Wanpi's value and risk both sit in "closeness." It brings children near animals, but it also makes welfare, feeding rules and encounter boundaries daily management. The full debate belongs in [zoo and exhibition animal ethics](/en/society/zoo-and-exhibition-animal-ethics/); the directory point is that private parks often sell a distance public zoos avoid.
 
 ## Aquariums and Ocean Parks
 

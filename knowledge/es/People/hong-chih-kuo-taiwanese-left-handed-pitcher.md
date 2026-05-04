@@ -54,7 +54,7 @@ Tras su retiro, Kuo se involucró activamente en la enseñanza y promoción del 
 
 ## Pionero del béisbol taiwanés
 
-La contribución de Hong-chih Kuo al béisbol taiwanés no se limita a sus logros competitivos; su mayor legado es haber abierto el camino a las generaciones posteriores. Demostró que un lanzador taiwanés podía competir en MLB, lo que tuvo un significado importante para elevar la visibilidad internacional del béisbol taiwanés. Muchos lanzadores taiwanés posteriores, como [Chien-Ming Wang](/es/People/chien-ming-wang-mlb-sinker-ace/) y [Chen Wei-Yin](/es/People/chen-wei-yin-mlb-pitcher/), se vieron motivados e inspirados por su trayectoria.
+La contribución de Hong-chih Kuo al béisbol taiwanés no se limita a sus logros competitivos; su mayor legado es haber abierto el camino a las generaciones posteriores. Demostró que un lanzador taiwanés podía competir en MLB, lo que tuvo un significado importante para elevar la visibilidad internacional del béisbol taiwanés. Muchos lanzadores taiwanés posteriores, como [Chien-Ming Wang](/es/people/chien-ming-wang-mlb-sinker-ace/) y [Chen Wei-Yin](/es/people/chen-wei-yin-mlb-pitcher/), se vieron motivados e inspirados por su trayectoria.
 
 Su experiencia con los Dodgers también hizo que los aficionados taiwanés prestaran más atención a MLB, fomentando la conexión entre la cultura beisbolera taiwanés y la escena internacional. Muchos jóvenes jugadores taiwanés tomaron su ejemplo como meta, aspirando a subir algún día al montículo de MLB para glorificar el béisbol taiwanés.
 

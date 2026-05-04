@@ -93,15 +93,15 @@ At the same time, a new generation of anime fans is redefining what "otaku" mean
 
 The development of Taiwan's anime culture offers an important insight: cultural influence is not unidirectionally imported — it is bidirectionally transformed. Taiwan imported animation from Japan, but over 40 years, we transformed it through Mandarin dubbing, fan conventions, cosplay, and VTubers into "Taiwanese anime culture." This culture is not entirely the same as Japan's, and not entirely the same as China's — it has its own vocabulary, its own communities, and its own creative pathways.
 
-This runs along a different axis from [Taiwanese comics and illustration](/en/Art/taiwanese-comics-and-illustration/), but the two are interwoven. Comics focus on "who created the work"; anime culture focuses on "who watched the work, how they watched it, and what they did after watching." One is the creation side, the other the consumption side; one is a handful of masters, the other is the collective behavior of hundreds of thousands of enthusiasts.
+This runs along a different axis from [Taiwanese comics and illustration](/en/art/taiwanese-comics-and-illustration/), but the two are interwoven. Comics focus on "who created the work"; anime culture focuses on "who watched the work, how they watched it, and what they did after watching." One is the creation side, the other the consumption side; one is a handful of masters, the other is the collective behavior of hundreds of thousands of enthusiasts.
 
 The two axes together complete the picture of Taiwan's anime ecosystem.
 
 ## Further Reading
 
-- [Taiwanese Comics and Illustration](/en/Art/taiwanese-comics-and-illustration/) — the creation side: the complete genealogy of Zheng Wen, Tsai Chih-chung, Liu Hsing-chin, Ao You-hsiang, and CCC Creative's collections
-- [Taiwan's Online Community Migration History](/en/Technology/taiwan-online-community-migration/) — the migration axis of anime fans through BBS, Wretch, Facebook, and Discord
-- [Threads in Taiwan](/en/Technology/threads-in-taiwan/) — how 2D communities gather on new platforms
+- [Taiwanese Comics and Illustration](/en/art/taiwanese-comics-and-illustration/) — the creation side: the complete genealogy of Zheng Wen, Tsai Chih-chung, Liu Hsing-chin, Ao You-hsiang, and CCC Creative's collections
+- [Taiwan's Online Community Migration History](/en/technology/taiwan-online-community-migration/) — the migration axis of anime fans through BBS, Wretch, Facebook, and Discord
+- [Threads in Taiwan](/en/technology/threads-in-taiwan/) — how 2D communities gather on new platforms
 
 ## References
 
@@ -111,4 +111,4 @@ The two axes together complete the picture of Taiwan's anime ecosystem.
 
 ---
 
-_Last verified: 2026-04-19 (Issue #556, suggested by @idlccp1984 to separate anime culture; manga main content moved to [Taiwanese Comics and Illustration](/en/Art/taiwanese-comics-and-illustration/))_
+_Last verified: 2026-04-19 (Issue #556, suggested by @idlccp1984 to separate anime culture; manga main content moved to [Taiwanese Comics and Illustration](/en/art/taiwanese-comics-and-illustration/))_

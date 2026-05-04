@@ -15,7 +15,7 @@ translatedAt: 2026-05-02T02:50:54+08:00
 category: People
 ---
 
-> **30-second overview:** On March 25, 1947, in front of Chiayi Railway Station, a man who wielded a paintbrush was bound with wire and shot dead in the street. His name was Chen Cheng-po — the first Taiwanese artist to break into Japan's Imperial Art Exhibition with oil paintings, and the one who went to negotiate during the [228 Incident](/en/History/228-incident/) and never came back.
+> **30-second overview:** On March 25, 1947, in front of Chiayi Railway Station, a man who wielded a paintbrush was bound with wire and shot dead in the street. His name was Chen Cheng-po — the first Taiwanese artist to break into Japan's Imperial Art Exhibition with oil paintings, and the one who went to negotiate during the [228 Incident](/en/history/228-incident/) and never came back.
 > After his death, his wife Chang Chieh hid several hundred paintings in the attic, burned the picture frames in front of their house, and told the watchers that "the paintings have been destroyed." They stayed hidden for thirty years.
 > _Sunset over Tamsui_ sold for approximately NT$220 million at auction in Hong Kong in 2007, still the highest auction price for an oil painting by a Taiwanese artist.
 
@@ -91,7 +91,7 @@ Some later called these choices naive, some called them enthusiastic, and some s
 
 ## Shuishang Airport, March 1947
 
-After the outbreak of the [228 Incident](/en/History/228-incident/), the conflict in Chiayi was particularly intense.
+After the outbreak of the [228 Incident](/en/history/228-incident/), the conflict in Chiayi was particularly intense.
 
 Nationalist troops retreated to Shuishang Airport and were besieged by civilian militias. The Chiayi City "228 Incident Settlement Committee" accepted the military's request for negotiations and decided to send representatives. Chen Cheng-po, who spoke Mandarin and had lived on the mainland, was chosen as one of the representatives (some accounts say he volunteered), along with Chen Fu-chih, Pan Mu-chih, Lu Ping-chin, Ko Lin, and others — twelve people in total.
 
@@ -103,7 +103,7 @@ Afterward, the military forbade the family from collecting the body immediately.
 
 It was not until four or five in the evening that the Chen family was notified to retrieve the body.
 
-For a more complete historical account of the [228 Incident](/en/History/228-incident/), including the persecution of elites across Taiwan, see the dedicated entry.
+For a more complete historical account of the [228 Incident](/en/history/228-incident/), including the persecution of elites across Taiwan, see the dedicated entry.
 
 ---
 
@@ -137,7 +137,7 @@ Chen Cheng-po's name transformed from a taboo into a cultural legacy. His painti
 
 In 1993, _Dusk over Tamsui_ sold at Sotheby's for NT$11 million, setting a record at the time for the highest price for a Chinese oil painting at Sotheby's. In 2006, _Tamsui_ sold at Sotheby's Hong Kong for HK$34.84 million (approximately NT$144 million). In 2007, _Sunset over Tamsui_ sold at Christie's Hong Kong for approximately HK$50.73 million including buyer's premium (approximately NT$220 million), still the highest auction price for an oil painting by a Taiwanese artist.
 
-The advancement of [transitional justice in Taiwan](/en/History/taiwan-transitional-justice/) has ensured that Chen Cheng-po is no longer just a name — there are exhibitions, a former residence cultural center, and a complete research archive.
+The advancement of [transitional justice in Taiwan](/en/history/taiwan-transitional-justice/) has ensured that Chen Cheng-po is no longer just a name — there are exhibitions, a former residence cultural center, and a complete research archive.
 
 On March 25, 2025 — the anniversary of his death — his grandson Chen Li-pai signed an agreement to donate nearly all of the more than 2,000 works that had survived in the attic, including oil paintings, sketches, and manuscripts, to the preparatory office of the National Museum of Fine Arts in Tainan. "It's like marrying off a daughter," he said, "and I believe she's marrying into a good family, so I feel relieved, as if a wish has been fulfilled." (United Daily News, 2025)
 

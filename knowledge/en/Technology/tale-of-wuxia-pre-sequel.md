@@ -117,7 +117,7 @@ Bear once wrote: "Mortals are not the mediocre." The line works just as well as 
 
 - Softstar Twin Classics (大宇雙劍) — the starting point of Taiwanese wuxia games thirty years earlier
 - Red Candle Games (赤燭遊戲) — the other path of Taiwanese indie games
-- [Taiwan Gaming Industry](/en/Technology/taiwan-gaming-industry/) — the full panorama, from licensing to original IP
+- [Taiwan Gaming Industry](/en/technology/taiwan-gaming-industry/) — the full panorama, from licensing to original IP
 
 ---
 

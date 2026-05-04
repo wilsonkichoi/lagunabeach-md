@@ -247,4 +247,4 @@ In an era of rapid development in AI, Web3, and sustainable development, Taiwan'
 
 _Further reading:_
 
-- [Economic Miracle](/en/Economy/economic-miracle/) (zh only: 經濟奇蹟)
+- [Economic Miracle](/en/economy/economic-miracle/) (zh only: 經濟奇蹟)

@@ -116,7 +116,7 @@ Francia obtuvo Vietnam. La corte Qing conservó Taiwán. 600 soldados franceses 
 
 **Lecturas complementarias**:
 
-- [Período de dominio Qing](/es/History/qing-dynasty-rule/) — El contexto histórico en el que se produjo la guerra sino-francesa: la apertura de puertos, el comercio y el panorama completo de la entrada de fuerzas extranjeras en Formosa
+- [Período de dominio Qing](/es/history/qing-dynasty-rule/) — El contexto histórico en el que se produjo la guerra sino-francesa: la apertura de puertos, el comercio y el panorama completo de la entrada de fuerzas extranjeras en Formosa
 - [Historia del ferrocarril de Taiwán] (台灣鐵道史) — El ferrocarril de Keelung a Hsinchu construido por Liu Mingchuan tras la guerra, el origen del ferrocarril taiwanés
 - [Charles Le Gendre](/people/李仙得) — Otro diplomático extranjero que dejó huella en Formosa durante el mismo período, cuya inteligencia fue utilizada posteriormente por Japón para invadir Taiwán
 - [Robert Swinhoe](/people/史溫侯) — Veinte años antes de la guerra sino-francesa, el primer cónsul británico en Taiwán hacía cosas completamente distintas en la misma tierra

@@ -104,7 +104,7 @@ A su lado estaba una diva que él mismo había creado, y él ya no estaba.
 ## Lecturas complementarias
 
 - [張惠妹 (Chang Hui-mei)](/people/張惠妹) — Chang Yu-sheng produjo tras bambalinas los álbumes _Hermanas_ y _Bad Boy_, impulsándola al trono de diva del mundo sinófono; aquella canción en el escenario de los Golden Melody de 2017 fue el homenaje más profundo.
-- [[Música pop taiwanesa]](/es/Music/golden-melodies-legacy-taiwan-pop-music/) — El contexto de la industria musical sinófona de los años 1980-90, y la posición histórica de la obra experimental de Chang Yu-sheng dentro de ella.
+- [[Música pop taiwanesa]](/es/music/golden-melodies-legacy-taiwan-pop-music/) — El contexto de la industria musical sinófona de los años 1980-90, y la posición histórica de la obra experimental de Chang Yu-sheng dentro de ella.
 - [魏如萱 (Waa Wei)](/people/魏如萱) — Otro camino de tensión entre el ídolo mainstream y la identidad de autora: una trayectoria distinta de negociación entre el mercado y la creación.
 - [林宥嘉 (Yoga Lin)](/people/林宥嘉) — Otra versión generacional del tira y afloja entre ídolo y músico: de campeón de _Superstar_ en 2007 a productor de sí mismo en 2024, con 17 años de carta de renuncia.
 

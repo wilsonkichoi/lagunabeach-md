@@ -112,11 +112,11 @@ Her next "disappearance" may not be a disappearance either. Just another change 
 
 **Further Reading:**
 
-- [Yang Cheng-lin](/en/Art/wang-lien-cheng-artist/) — another Taiwanese female singer who turned from the idol path, reclaiming definition one inch at a time over 25 years, until she could put her own name in the producer column
-- [Wei Ju-hsuan](/en/People/waa-wei-singer/) — a similar trajectory retreating from mainstream visibility to indie music in the second half of the 2000s, making her voice more recognizable than her face
-- [Chen Chien-chi](/en/People/chen-chien-chi-music-producer/) — a producer active at the same time as Lin Noisy's studio, related context for the _Is There Any Other Way?_ period
-- [Cheng Yi-nung](/en/People/cheng-i-nung/) — another creator who publicly wrote their own breakdown, then used the work to take care of others who had similarly broken down
-- [Ko Chih-tang](/en/People/ke-zhi-tang-musician/) — another singer-songwriter who has long worked at the edge between mainstream and indie, working at their own pace
+- [Yang Cheng-lin](/en/art/wang-lien-cheng-artist/) — another Taiwanese female singer who turned from the idol path, reclaiming definition one inch at a time over 25 years, until she could put her own name in the producer column
+- [Wei Ju-hsuan](/en/people/waa-wei-singer/) — a similar trajectory retreating from mainstream visibility to indie music in the second half of the 2000s, making her voice more recognizable than her face
+- [Chen Chien-chi](/en/people/chen-chien-chi-music-producer/) — a producer active at the same time as Lin Noisy's studio, related context for the _Is There Any Other Way?_ period
+- [Cheng Yi-nung](/en/people/cheng-i-nung/) — another creator who publicly wrote their own breakdown, then used the work to take care of others who had similarly broken down
+- [Ko Chih-tang](/en/people/ke-zhi-tang-musician/) — another singer-songwriter who has long worked at the edge between mainstream and indie, working at their own pace
 
 ---
 

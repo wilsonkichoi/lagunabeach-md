@@ -174,4 +174,4 @@ translatedAt: 2026-05-01T18:02:56+08:00
 
 ---
 
-**関連記事**：[戒厳時期](/ja/History/martial-law-era/)、白色恐怖（白色恐怖）、[二二八事件](/ja/History/228-incident/)、[台湾経済奇跡](/ja/History/economic-miracle/)
+**関連記事**：[戒厳時期](/ja/history/martial-law-era/)、白色恐怖（白色恐怖）、[二二八事件](/ja/history/228-incident/)、[台湾経済奇跡](/ja/history/economic-miracle/)

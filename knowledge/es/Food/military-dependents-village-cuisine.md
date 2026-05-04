@@ -52,7 +52,7 @@ El uso de condimentos también era muy característico. Al no poder costear cond
 
 ## Origen de la sopa de fideos con ternera al estilo braseado en los pueblos de dependientes militares
 
-Al hablar de la cocina de los pueblos de dependientes militares, es imposible no mencionar la [Sopa de fideos con ternera](/es/Food/beef-noodle-soup/). Aunque hoy en día se considera un plato nacional de Taiwán, su origen se remonta precisamente a la cultura de los pueblos de dependientes militares.
+Al hablar de la cocina de los pueblos de dependientes militares, es imposible no mencionar la [Sopa de fideos con ternera](/es/food/beef-noodle-soup/). Aunque hoy en día se considera un plato nacional de Taiwán, su origen se remonta precisamente a la cultura de los pueblos de dependientes militares.
 
 La sopa de fideos con ternera original fue creada por militares oriundos de Sichuan y Hunan. Combinaron las técnicas de ternera braseada de sus hogares con ingredientes fácilmente disponibles en Taiwán para crear este plato clásico. La técnica de braseado rojo proviene de la cocina de Sichuan, pero el sazonamiento se ajustó al paladar taiwanés.
 

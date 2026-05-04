@@ -146,4 +146,4 @@ El diario del calendario agrícola lunar de Xue Qingji, con cada página llena, 
 - [最有人情味的「辦桌」文化大揭密！宴席菜單、出菜順序及總鋪師的好手路](https://lifestyle.heho.com.tw/archives/60486) (Heho Lifestyle, 2023)
 - [2023 餐飲業外燴及團膳承包業分析](https://www.twtrend.com/trend-detail/food-and-beverage-service-activities-2023/) (TW Trend, datos estadísticos)
 
-Temas relacionados con esta entrada: [Cultura de los mercados nocturnos](/es/Food/night-market-culture/), [Callejeros taiwaneses](/es/Food/taiwanese-street-food/), Cultura gastronómica taiwanesa (台灣飲食文化).
+Temas relacionados con esta entrada: [Cultura de los mercados nocturnos](/es/food/night-market-culture/), [Callejeros taiwaneses](/es/food/taiwanese-street-food/), Cultura gastronómica taiwanesa (台灣飲食文化).

@@ -55,7 +55,7 @@ To understand Penghu folk culture, you must first understand the wind.
 
 From October through the following March, the northeast monsoon channels through the Taiwan Strait and intensifies. Penghu's monthly average wind speed reaches 8.4 meters per second in November and December.[^6] Winter days with wind speeds exceeding 10 meters per second account for 56% of the total.[^6] This is not a breeze — this is wind that bends people sideways, kills crops, and drives waves three stories high.
 
-Wind determines the Penghu calendar. Winter forecloses fishing and farming; most of the year's earnings depend on the few summer months. Wind also determined the shape of faith: [Penghu temples](/en/Culture/taiwan-religion-and-temple-culture/) have the highest density of any place in Taiwan, because every voyage out to sea might be the last, and every village needs its own deity.
+Wind determines the Penghu calendar. Winter forecloses fishing and farming; most of the year's earnings depend on the few summer months. Wind also determined the shape of faith: [Penghu temples](/en/culture/taiwan-religion-and-temple-culture/) have the highest density of any place in Taiwan, because every voyage out to sea might be the last, and every village needs its own deity.
 
 Wind lion statues (風獅爺) crouch at village entrances, facing northeast. Stone inscriptions to ward off evil (石敢當) are carved at lane corners. Temples are built from old coral limestone (咾咕石) — coral reef rock resistant to wind and salt. These are not decoration; they are survival equipment. Penghu people do not worship wind, but all their beliefs are the wind's byproducts.
 
@@ -138,7 +138,7 @@ Next year — let those who went out to sea come home.
 
 **Further reading:**
 
-- [Taiwan Religion and Temple Culture](/en/Culture/taiwan-religion-and-temple-culture/) — The social functions of Taiwan's temple density and folk faith
+- [Taiwan Religion and Temple Culture](/en/culture/taiwan-religion-and-temple-culture/) — The social functions of Taiwan's temple density and folk faith
 - [Taiwan Temple Festivals and Performance Troupes](/culture/台灣廟會與陣頭文化) — From performance troupes to electric-sound Third Prince, how temple festivals transform in modern society
 - [Traditional Festivals and Celebrations](/culture/傳統節慶與慶典) — A panorama of Taiwan's festivals including Lantern Festival, Ghost Festival, and Mazu pilgrimage
 - [Jiutian Xuannu Belief](/culture/九天玄女信仰) — Female deities and local protector gods in Taiwan's folk faith

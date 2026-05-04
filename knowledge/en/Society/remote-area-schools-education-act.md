@@ -247,9 +247,9 @@ When the Act was written in 2016, probably no one anticipated that 18 primary sc
 
 - Rural education in Taiwan (台灣偏鄉教育) — The narrative layer behind this Act: TFT's concentric-circles framework (child, school, community, society) and the full picture of a six-year learning gap.
 - Indigenous education and language revitalization in Taiwan (台灣原住民族教育與語言復振的交界) — The specific tensions this Act creates in indigenous education: Article 5's six-year transfer restriction and the 1/3 indigenous teacher target in Article 34 of the Indigenous Peoples Education Act operate simultaneously in the field, often in conflict.
-- [Teach For Taiwan (TFT)](/en/Society/taiwan-slash-generation/) — After Article 16 authorized NGOs to formally enter schools, TFT was among the earliest and largest cases. 2017 Act + 2014 TFT founding by Stephanie Liu = a timeline of public-private partnership. The Pingtung Education Innovation Base, opened in 2022, is where the two converge concretely.
+- [Teach For Taiwan (TFT)](/en/society/taiwan-slash-generation/) — After Article 16 authorized NGOs to formally enter schools, TFT was among the earliest and largest cases. 2017 Act + 2014 TFT founding by Stephanie Liu = a timeline of public-private partnership. The Pingtung Education Innovation Base, opened in 2022, is where the two converge concretely.
 - Declining birth-rate crisis in Taiwan (台灣少子化危機) — The drop in remote school numbers from 1,233 → 1,177 → minus 18 in Academic Year 113 is a downstream effect of demographic structure. The upstream force — declining birth rates — is what the Act cannot stop.
-- [Education system and admissions culture](/en/Society/education-system-and-admissions-culture/) — The Act addresses remote education, but the urban exam-culture actually pushes rural children toward cities. The two systems operate simultaneously.
+- [Education system and admissions culture](/en/society/education-system-and-admissions-culture/) — The Act addresses remote education, but the urban exam-culture actually pushes rural children toward cities. The two systems operate simultaneously.
 
 ## References
 

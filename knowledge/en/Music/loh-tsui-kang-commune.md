@@ -87,7 +87,7 @@ In 2016, rapper Yen Guan-hsi JY sampled this song to create "Nong-Chun Bu Tai-Ch
 
 In 2001, the documentary _Rotten Head_ (爛頭殼) was completed, recording Loh-Tsui-Kang Commune's most turbulent year.[^8] That film later became one of the important historical documents of Taiwan's underground music scene.
 
-Throughout the 2000s and 2010s, Loh-Tsui-Kang Commune was a fixture at Taipei's underground venues. [The Wall](/en/Music/indie-music-scene/) was a key node in Taiwan's indie music scene for thirty years; when it faced closure in 2013, [Fire EX.](/en/Music/fire-ex/) (滅火器樂團), Mayday, 1976, and other independent musicians rallied in support — the closure made an entire generation of musicians aware of the fragility of underground performance spaces.
+Throughout the 2000s and 2010s, Loh-Tsui-Kang Commune was a fixture at Taipei's underground venues. [The Wall](/en/music/indie-music-scene/) was a key node in Taiwan's indie music scene for thirty years; when it faced closure in 2013, [Fire EX.](/en/music/fire-ex/) (滅火器樂團), Mayday, 1976, and other independent musicians rallied in support — the closure made an entire generation of musicians aware of the fragility of underground performance spaces.
 
 📝 **Curator's Note:** How does a band that never received mainstream media coverage for thirty years spread? Through a group of people who carried the music into every protest, every underground show, every privately shared old album. This kind of transmission has no algorithm — only people.
 
@@ -117,8 +117,8 @@ You can call it a tragedy. You can also call it the most punk ending of all: the
 
 ## Further Reading
 
-- [Taiwan Indie Music Scene](/en/Music/indie-music-scene/) — Thirty years of context from Crystal Records to The Wall to the streaming era
-- [Fire EX.](/en/Music/fire-ex/) — Also recording their era in Taiwanese punk, twenty-five years starting from southern Taiwan's Kaohsiung
+- [Taiwan Indie Music Scene](/en/music/indie-music-scene/) — Thirty years of context from Crystal Records to The Wall to the streaming era
+- [Fire EX.](/en/music/fire-ex/) — Also recording their era in Taiwanese punk, twenty-five years starting from southern Taiwan's Kaohsiung
 - [History of Taiwan Rock Music](/music/台灣搖滾樂發展史) — The complete history of Taiwan rock from underground to above ground
 - [Pop Music and the Golden Melody Awards](/music/流行音樂與金曲獎) — Forty years of the Golden Melody Awards, the annual mirror of Taiwan's music industry
 

@@ -47,7 +47,7 @@ In late 1979, the Formosa Incident (美麗島事件) shook Taiwan. Dangwai activ
 
 Chen was 29 at the time, already a respected attorney. When defense counsel Chang Te-ming came to him asking whether he would join the defense team for Huang Hsin-chieh, he understood the implications: standing up for "political prisoners" under martial law meant staking his career and safety.
 
-He chose to join. That decision was what turned him from a lawyer into a politician — and through the defense team, he got to know [Shih Ming-te](/en/People/shih-ming-te/), [Frank Hsieh](謝長廷, Frank Hsieh Chiang-ting), [Su Tseng-chang](蘇貞昌) and others — all of whom became pivotal figures in the democracy movement. Among the 15 lawyers on the defense team, he was not the only central figure, but the shared experience pushed him out of maritime law entirely and into the dangwai movement.
+He chose to join. That decision was what turned him from a lawyer into a politician — and through the defense team, he got to know [Shih Ming-te](/en/people/shih-ming-te/), [Frank Hsieh](謝長廷, Frank Hsieh Chiang-ting), [Su Tseng-chang](蘇貞昌) and others — all of whom became pivotal figures in the democracy movement. Among the 15 lawyers on the defense team, he was not the only central figure, but the shared experience pushed him out of maritime law entirely and into the dangwai movement.
 
 In 1981, Chen Shui-bian won the highest vote total in the Taipei City Council election. In 1986, he became a founding member of the Democratic Progressive Party (民主進步黨).
 
@@ -71,7 +71,7 @@ To root out loafing and desertion of post, he personally led journalists on surp
 >
 > **Social Welfare Innovation:** Welfare services for vulnerable groups, including in-community services for the elderly and people with disabilities.
 
-In 1998, Chen Shui-bian sought re-election with 80% citizen satisfaction — and lost with 45.91% to challenger [Ma Ying-jeou](/en/People/ma-ying-jeou-cross-strait-reconciliation-leader/). Under normal electoral logic, an incumbent with 80% satisfaction should not lose. Political scientists later pointed to the structural blue-green gap in Taipei's voter composition — not a failure of his governance, but structural reality.
+In 1998, Chen Shui-bian sought re-election with 80% citizen satisfaction — and lost with 45.91% to challenger [Ma Ying-jeou](/en/people/ma-ying-jeou-cross-strait-reconciliation-leader/). Under normal electoral logic, an incumbent with 80% satisfaction should not lose. Political scientists later pointed to the structural blue-green gap in Taipei's voter composition — not a failure of his governance, but structural reality.
 
 Losing Taipei did not stop him from winning all of Taiwan two years later.
 
@@ -79,7 +79,7 @@ Losing Taipei did not stop him from winning all of Taiwan two years later.
 
 The 2000 presidential election was the most dramatic contest in Taiwan's democratic history.
 
-The KMT fractured internally: nominated candidate Lien Chan and defector Soong Chu-yu both ran, splitting the pan-blue vote in two. Chen Shui-bian, with running mate Vice President candidate [Annette Lu (Lu Hsiu-lien)](/en/People/annette-lu/), won a three-way contest with 39.3% — from the DPP's founding to its first presidency, just fourteen years.[^3]
+The KMT fractured internally: nominated candidate Lien Chan and defector Soong Chu-yu both ran, splitting the pan-blue vote in two. Chen Shui-bian, with running mate Vice President candidate [Annette Lu (Lu Hsiu-lien)](/en/people/annette-lu/), won a three-way contest with 39.3% — from the DPP's founding to its first presidency, just fourteen years.[^3]
 
 > **2000 Presidential Election Results**
 >
@@ -146,7 +146,7 @@ In 2002, Chen Shui-bian stated in a videoconference speech that "Taiwan and Chin
 
 In his late second term, he further proposed "Four Wants and One Without": wanting independence, wanting name rectification, wanting a new constitution, wanting development, and no question of left or right. He simultaneously pushed a "UN for Taiwan referendum." On the diplomatic front there was controversy over the "lost diplomacy" of detoured transit flights; arrangements for transiting the United States also created tensions with Washington.
 
-His cross-strait approach — centered on Taiwan's subjectivity, emphasizing Taiwan's independent international existence — stands in the sharpest possible contrast with successor [Ma Ying-jeou](/en/People/ma-ying-jeou-cross-strait-reconciliation-leader/)'s "1992 Consensus" approach. Different voters evaluate this period of history in diametrically opposed ways, reflecting the reality that Taiwan society has not yet fully coalesced around a consensus on the foundational question "What is Taiwan?"
+His cross-strait approach — centered on Taiwan's subjectivity, emphasizing Taiwan's independent international existence — stands in the sharpest possible contrast with successor [Ma Ying-jeou](/en/people/ma-ying-jeou-cross-strait-reconciliation-leader/)'s "1992 Consensus" approach. Different voters evaluate this period of history in diametrically opposed ways, reflecting the reality that Taiwan society has not yet fully coalesced around a consensus on the foundational question "What is Taiwan?"
 
 ## 2004 Re-election: Gunshots Before the Vote
 
@@ -156,7 +156,7 @@ The investigation of the shooting was contentious throughout, and has never been
 
 ## Second Term: Political Storms
 
-2006 was the turning point of the second term. Questions arose about how state affairs funds were spent; corruption scandals involving close associates began surfacing (including the SOGO case and the Lungtan land deal). Former DPP chairman [Shih Ming-te](/en/People/shih-ming-te/) launched the "Million People Depose Bian" demonstration movement, gathering over weeks on Ketagalan Boulevard and demanding Chen's resignation.
+2006 was the turning point of the second term. Questions arose about how state affairs funds were spent; corruption scandals involving close associates began surfacing (including the SOGO case and the Lungtan land deal). Former DPP chairman [Shih Ming-te](/en/people/shih-ming-te/) launched the "Million People Depose Bian" demonstration movement, gathering over weeks on Ketagalan Boulevard and demanding Chen's resignation.
 
 This political storm brought Chen's governance capacity to near-paralysis and left deep marks of social division in Taiwan. During the same period, the sealing of the Peace Hospital during the 2003 SARS epidemic was another crisis management landmark that spanned terms.
 
@@ -201,9 +201,9 @@ In that year, the Taiwanese people learned for the first time that this was real
 
 - [Su Tseng-chang](蘇貞昌) — Formosa Incident defense team partner, later Premier
 - [Frank Hsieh](謝長廷) — Formosa Incident defense team partner, later Premier
-- [Annette Lu](/en/People/annette-lu/) — 2000/2004 Vice President
-- [Shih Ming-te](/en/People/shih-ming-te/) — Central figure in the Formosa Incident, later DPP chairman and organizer of the 2006 Depose Bian movement
-- [Ma Ying-jeou](/en/People/ma-ying-jeou-cross-strait-reconciliation-leader/) — Defeated Chen in the 1998 Taipei mayoral race; succeeded him as president in 2008
+- [Annette Lu](/en/people/annette-lu/) — 2000/2004 Vice President
+- [Shih Ming-te](/en/people/shih-ming-te/) — Central figure in the Formosa Incident, later DPP chairman and organizer of the 2006 Depose Bian movement
+- [Ma Ying-jeou](/en/people/ma-ying-jeou-cross-strait-reconciliation-leader/) — Defeated Chen in the 1998 Taipei mayoral race; succeeded him as president in 2008
 - The Formosa Incident (美麗島事件) — The 1979 trials that launched a new generation of political figures
 - Democratic Progressive Party (民主進步黨) — Founding member; first DPP president
 - Taiwan's Democratization Process (台灣民主化進程) — Party rotation as the critical consolidation node in democratic history

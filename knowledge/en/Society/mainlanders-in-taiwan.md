@@ -70,9 +70,9 @@ For third-generation descendants, "Mainlander" is often only a marker from their
 
 ## Further Reading
 
-- [Ethnic Groups (Hoklo, Hakka, Indigenous, Mainlanders, New Immigrants)](/en/Culture/ethnic-groups/) — understand Mainlanders' interactions with other groups in the larger ethnic-classification framework.
-- [Taiwan Military Dependents Villages History](/en/History/taiwan-military-dependents-villages-history/) — fills in the housing space, community networks, and cultural memory of Mainlander migrants after settlement.
-- [Taiwan White Terror](/en/History/taiwan-white-terror/) — connects Mainlanders' suffering experience under authoritarian rule and political cases.
+- [Ethnic Groups (Hoklo, Hakka, Indigenous, Mainlanders, New Immigrants)](/en/culture/ethnic-groups/) — understand Mainlanders' interactions with other groups in the larger ethnic-classification framework.
+- [Taiwan Military Dependents Villages History](/en/history/taiwan-military-dependents-villages-history/) — fills in the housing space, community networks, and cultural memory of Mainlander migrants after settlement.
+- [Taiwan White Terror](/en/history/taiwan-white-terror/) — connects Mainlanders' suffering experience under authoritarian rule and political cases.
 
 ## References
 

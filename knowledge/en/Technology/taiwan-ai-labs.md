@@ -28,7 +28,7 @@ translatedAt: '2026-04-29T23:37:20+08:00'
 
 ## 30-Second Overview
 
-Taiwan AI Labs is a non-profit-oriented research institute founded in 2017 by [Ethan Tu (杜奕瑾)](/en/People/ethan-tu/), the creator of PTT (Taiwan's largest online bulletin board system) and former Microsoft AI Research Director for Asia-Pacific. Combining Taiwan's semiconductor hardware strengths with its healthcare data advantages, the lab focuses on smart healthcare, smart cities, human-machine interfaces, and cognitive warfare defense, championing "Tech for Good" and open-source principles.
+Taiwan AI Labs is a non-profit-oriented research institute founded in 2017 by [Ethan Tu (杜奕瑾)](/en/people/ethan-tu/), the creator of PTT (Taiwan's largest online bulletin board system) and former Microsoft AI Research Director for Asia-Pacific. Combining Taiwan's semiconductor hardware strengths with its healthcare data advantages, the lab focuses on smart healthcare, smart cities, human-machine interfaces, and cognitive warfare defense, championing "Tech for Good" and open-source principles.
 
 ---
 

@@ -176,4 +176,4 @@ Si en 2050 alguien quiere saber qué les importaba a los taiwaneses en 1949, qui
 
 ---
 
-**Lectura complementaria:** [Período de ley marcial](/es/History/martial-law-era/), Terror Blanco (白色恐怖), [Incidente del 228](/es/History/228-incident/), Milagro económico de Taiwán (台灣經濟奇蹟)
+**Lectura complementaria:** [Período de ley marcial](/es/history/martial-law-era/), Terror Blanco (白色恐怖), [Incidente del 228](/es/history/228-incident/), Milagro económico de Taiwán (台灣經濟奇蹟)

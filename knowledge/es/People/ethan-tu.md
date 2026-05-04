@@ -155,4 +155,4 @@ La contradicción no es su debilidad. La contradicción podría ser su retrato c
 
 ## Lectura relacionada
 
-Temas relacionados con esta entrada: [[唐鳳]] (Audrey Tang), 太陽花學運 (Movimiento Girasol), 台灣網路歷史 (historia de internet en Taiwán), [industria de semiconductores](/es/Technology/semiconductor-industry/)
+Temas relacionados con esta entrada: [[唐鳳]] (Audrey Tang), 太陽花學運 (Movimiento Girasol), 台灣網路歷史 (historia de internet en Taiwán), [industria de semiconductores](/es/technology/semiconductor-industry/)

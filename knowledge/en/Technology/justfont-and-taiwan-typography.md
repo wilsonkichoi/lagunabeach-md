@@ -187,8 +187,8 @@ When the act of drawing characters becomes visible, **only then does someone els
 
 - Taiwan new media art (台灣新媒體藝術) — another case driven by the design community, growing across disciplines, and reopening dialogue with Taiwan's manufacturing tradition
 - The Reporter: a decade of rescuing investigative reporting from a line item to a public good (報導者) — another public-good ecosystem sustained by strangers' payments
-- Social movements and civic participation ([社會運動與公民參與](/en/Society/social-movements-and-civic-participation/)) — the larger context for crowdfunding as a new tool for civil society
-- [Submarine cables: visible above the silicon shield, the lifeline invisible below](/en/Technology/submarine-cables-taiwan-lifeline/) — typography is visible cultural infrastructure, submarine cables are invisible communications infrastructure; together they form the dual axis of Taiwan's "cultural sovereignty"
+- Social movements and civic participation ([社會運動與公民參與](/en/society/social-movements-and-civic-participation/)) — the larger context for crowdfunding as a new tool for civil society
+- [Submarine cables: visible above the silicon shield, the lifeline invisible below](/en/technology/submarine-cables-taiwan-lifeline/) — typography is visible cultural infrastructure, submarine cables are invisible communications infrastructure; together they form the dual axis of Taiwan's "cultural sovereignty"
 
 ## References
 

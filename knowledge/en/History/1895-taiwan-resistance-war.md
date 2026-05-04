@@ -48,7 +48,7 @@ The story begins four months earlier.
 
 On April 17, 1895, Li Hung-chang signed the Treaty of Shimonoseki at Shimonoseki, Japan, permanently ceding Taiwan and the Pescadores to Japan.[^3] When news reached Beijing, the court was shaken. When it reached Taiwan, there was widespread panic.
 
-The [Qing court](/en/History/qing-dynasty-rule/) had governed Taiwan for over two hundred years. Liu Ming-chuan had elevated it to provincial status ten years earlier, building railways and telegraph lines. Now, a single treaty had given all of this away.
+The [Qing court](/en/history/qing-dynasty-rule/) had governed Taiwan for over two hundred years. Liu Ming-chuan had elevated it to provincial status ten years earlier, building railways and telegraph lines. Now, a single treaty had given all of this away.
 
 Taiwan Governor Tang Ching-sung had submitted memorials opposing the cession before the treaty was signed. Taiwanese-born licentiate Chiu Feng-chia in Beijing also organized a petition campaign, protesting in unison. But the Qing court had already decided.[^4] Chiu Feng-chia composed the verse later endlessly quoted by posterity: "The prime minister holds power enough to cede lands; this lone official lacks the strength to turn back heaven."
 
@@ -73,7 +73,7 @@ In the chaos, soldiers looted and set fires. Order within the city collapsed. On
 
 Was Ku Hsien-jung a "collaborator" or a "pragmatist"? This debate has lasted a hundred and thirty years. His logic was simple: the city was already being looted; if Japanese forces didn't enter soon, what would be destroyed were Taipei residents' property and lives. But he later became one of the most powerful Taiwanese figures of the Japanese colonial era, and the Ku family of Lukang rose from that moment.[^13]
 
-On June 17, Japan held the "Inauguration Ceremony" in Taipei, and the Taiwan Governor-General's Office officially began operations. The [Japanese colonial era](/en/History/japanese-colonial-era/) had begun.
+On June 17, Japan held the "Inauguration Ceremony" in Taipei, and the Taiwan Governor-General's Office officially began operations. The [Japanese colonial era](/en/history/japanese-colonial-era/) had begun.
 
 ## The War in the Mountains
 

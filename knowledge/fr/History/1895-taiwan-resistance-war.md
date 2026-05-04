@@ -1,5 +1,5 @@
 ---
-title: 'La Guerre de l'Année Yiwei : les 148 jours de la République de Taïwan'
+title: "La Guerre de l'Année Yiwei : les 148 jours de la République de Taïwan"
 description: "En 1895, la cour Qing céda Taïwan au Japon. Les fonctionnaires de l'île proclamèrent la première république d'Asie, mais le président s'enfuit en dix jours, le poète en quatre. Ceux qui restèrent vraiment pour se battre furent un jeune Hakka de dix-neve ans et les miliciens qu'il avait levés en dilapidant sa fortune. Après 148 jours, la république disparut et la domination japonaise commença."
 date: 2026-04-12
 author: Taiwan.md
@@ -7,14 +7,14 @@ category: History
 subcategory: 殖民與帝國
 tags:
   - "Guerre de l'Année Yiwei"
-  - "République de Taïwan"
-  - "Traité de Shimonoseki"
-  - "Période coloniale japonaise"
-  - "Hakka"
-  - "1895"
-  - "Liu Yongfu"
-  - "Tang Jingsong"
-  - "Qiu Fengjia"
+  - 'République de Taïwan'
+  - 'Traité de Shimonoseki'
+  - 'Période coloniale japonaise'
+  - 'Hakka'
+  - '1895'
+  - 'Liu Yongfu'
+  - 'Tang Jingsong'
+  - 'Qiu Fengjia'
 lastVerified: 2026-04-12
 lastHumanReview: false
 featured: true
@@ -72,7 +72,7 @@ Dans le chaos, les soldats pillèrent et mirent le feu. L'ordre public s'effondr
 
 Gu Xianrong était-il un « traître chinois » ou un « pragmatique » ? Ce débat dure depuis cent trente ans. Sa logique était simple : la ville était déjà en train d'être pillée ; si l'armée japonaise n'entrait pas, ce seraient les biens et les vies des habitants de Taipei qui seraient détruits. Mais il devint par la suite l'un des Taïwanais les plus puissants de la période coloniale japonaise, et la famille Gu de Lukang s'éleva dès lors[^13].
 
-Le 17 juin, le Japon organisa à Taipei la « cérémonie de début de gouvernement », et le Gouvernement général de Taïwan entra officiellement en fonction. La [période coloniale japonaise](/fr/History/japanese-colonial-era/) commença.
+Le 17 juin, le Japon organisa à Taipei la « cérémonie de début de gouvernement », et le Gouvernement général de Taïwan entra officiellement en fonction. La [période coloniale japonaise](/fr/history/japanese-colonial-era/) commença.
 
 ## La guerre dans les montagnes
 
@@ -118,8 +118,8 @@ Ce drapeau au tigre jaune se trouve dans une vitrine de musée. Il est silencieu
 **Pour aller plus loin** :
 
 - [Trois étrangers face à la Guerre de Yiwei : l'album du photographe, les notes du journaliste, le journal du pasteur](/history/三個外國人看乙未) — Série D-2. Le photographe japonais Endo Makoto, le journaliste américain Davidson, le pasteur japonais Hosokawa Shūhei — trois des témoignages oculaires en langue étrangère les plus importants de la Guerre de Yiwei, ainsi que les limites de perspective propres à chacun de ces documents
-- [Période Qing](/fr/History/qing-dynasty-era/) — La Guerre de Yiwei marqua la fin de la période Qing ; comprendre deux siècles d'administration de Taïwan
-- [Période coloniale japonaise](/fr/History/japanese-colonial-era/) — Après la disparition de la République, le début de cinquante ans de domination japonaise sur Taïwan
+- [Période Qing](/fr/history/qing-dynasty-era/) — La Guerre de Yiwei marqua la fin de la période Qing ; comprendre deux siècles d'administration de Taïwan
+- [Période coloniale japonaise](/fr/history/japanese-colonial-era/) — Après la disparition de la République, le début de cinquante ans de domination japonaise sur Taïwan
 - [Guerre franco-chinoise](/history/清法戰爭) — Dix ans plus tôt, l'armée française attaqua Taïwan, Liu Mingchuan défendit Keelung. Dix ans plus tard, la province qu'il avait fondée fut cédée
 - [Robert Swinhoe](/people/史溫侯) — Trente ans auparavant, un consul britannique documentait l'histoire naturelle sur cette même île ; au moment de la Guerre de Yiwei, ce monde avait déjà pris fin
 

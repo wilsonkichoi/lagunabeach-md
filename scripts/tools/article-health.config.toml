@@ -3,9 +3,16 @@
 # 設計提案：reports/article-health-ssot-design-2026-05-04.md
 # Canonical 寫作品質規則：docs/editorial/EDITORIAL.md
 #
-# Phases 1-7 shipped 2026-05-04. 8 plugins registered:
+# Phases 1-7 shipped 2026-05-04. 9 plugins registered:
 #   cjk-punct / frontmatter-title / prose-health / footnote-format /
-#   footnote-density / wikilink-target / format-structure / image-health
+#   footnote-density / wikilink-target / link-target / format-structure /
+#   image-health
+#
+# link-target added 2026-05-04 jovial-feistel session — Phase 1 (casing,
+# HARD, auto-fix) caught 649 `]( /lang/UpperCase/...)` broken-routing
+# violations across 209 files; Phase 2 (existence, WARN) cross-checks
+# every link target against `knowledge/{lang}/{Category}/*.md` filesystem.
+# Source-layer counterpart of post-build `verify-internal-links.sh`.
 
 [meta]
 version = 1
@@ -26,6 +33,7 @@ checks = [
   "frontmatter-title",
   "footnote-format",
   "wikilink-target",
+  "link-target",
   "format-structure",
 ]
 fail_on = "hard"
@@ -42,7 +50,7 @@ fail_on = "hard"
 
 [profiles."rewrite-stage-4"]
 # Stage 4 Format.
-checks = ["format-structure", "wikilink-target", "cjk-punct"]
+checks = ["format-structure", "wikilink-target", "link-target", "cjk-punct"]
 fail_on = "hard"
 
 [profiles."rewrite-stage-4-5"]

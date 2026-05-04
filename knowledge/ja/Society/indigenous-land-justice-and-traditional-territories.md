@@ -158,4 +158,4 @@ translatedAt: '2026-05-01T18:02:56+08:00'
 
 ---
 
-_関連記事：[台湾先住民族の歴史と正名運動](/ja/History/indigenous-peoples-history-and-renaming/) · [台湾先住民族16族文化地図](/ja/Culture/taiwan-indigenous-16-peoples-cultural-map/) · [台湾先住民言語復興運動](/ja/Culture/indigenous-language-revitalization/) · [台湾先住民食文化](/ja/Food/taiwan-indigenous-food-culture/) · 台湾先住民族の生態学的知恵と環境保全（zh） · 台湾先住民族の現代芸術（zh）_
+_関連記事：[台湾先住民族の歴史と正名運動](/ja/history/indigenous-peoples-history-and-renaming/) · [台湾先住民族16族文化地図](/ja/culture/taiwan-indigenous-16-peoples-cultural-map/) · [台湾先住民言語復興運動](/ja/culture/indigenous-language-revitalization/) · [台湾先住民食文化](/ja/food/taiwan-indigenous-food-culture/) · 台湾先住民族の生態学的知恵と環境保全（zh） · 台湾先住民族の現代芸術（zh）_

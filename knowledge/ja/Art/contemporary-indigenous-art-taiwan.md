@@ -160,4 +160,4 @@ translatedAt: 2026-05-01T18:02:56+08:00
 
 ---
 
-_関連記事：[台湾原住民の歴史と正名運動](/ja/History/indigenous-peoples-history-and-renaming/) · [台湾原住民の土地正義と伝統領域](/ja/Society/indigenous-land-rights/) · [台湾原住民16族文化マップ](/ja/Culture/taiwan-indigenous-16-peoples-cultural-map/) · [台湾原住民言語復興運動](/ja/Culture/indigenous-language-revitalization/) · [台湾原住民の食文化](/ja/Food/taiwan-indigenous-food-culture/) · [台湾原住民の生態知恵と環境保全](/ja/Society/indigenous-land-rights/)（zh only — 台湾原住民生態智慧と環境保育）_
+_関連記事：[台湾原住民の歴史と正名運動](/ja/history/indigenous-peoples-history-and-renaming/) · [台湾原住民の土地正義と伝統領域](/ja/society/indigenous-land-rights/) · [台湾原住民16族文化マップ](/ja/culture/taiwan-indigenous-16-peoples-cultural-map/) · [台湾原住民言語復興運動](/ja/culture/indigenous-language-revitalization/) · [台湾原住民の食文化](/ja/food/taiwan-indigenous-food-culture/) · [台湾原住民の生態知恵と環境保全](/ja/society/indigenous-land-rights/)（zh only — 台湾原住民生態智慧と環境保育）_

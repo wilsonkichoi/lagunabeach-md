@@ -58,7 +58,7 @@ From the late 1980s through the 1990s, she produced a series of "everyman" telev
 In 1992, she co-founded **Rice Film Studio** with her creative partner Huang Liming (黃黎明), and from then on produced primarily for public television. The name "Rice Film" captured her lifelong creative attitude — not reaching for the stars, but planting rice.
 
 > **📝 Curator's Note**
-> She studied film, and director [Tsai Ming-liang](/en/People/tsai-ming-liang/) has said Wang Shaudi was his film mentor. Yet she consistently chose television over film. Why? "With film, you have creative freedom. But making television is a social movement — the moment the TV turns on, it enters every household, and the impact is far greater." That sentence explains everything.
+> She studied film, and director [Tsai Ming-liang](/en/people/tsai-ming-liang/) has said Wang Shaudi was his film mentor. Yet she consistently chose television over film. Why? "With film, you have creative freedom. But making television is a social movement — the moment the TV turns on, it enters every household, and the impact is far greater." That sentence explains everything.
 
 ## The PTS Era: Pioneer of the Workplace Drama
 
@@ -80,7 +80,7 @@ In 2014, Wang Shaudi received the **18th National Award for Arts** in recognitio
 
 In 2016, Wang Shaudi launched her most ambitious project yet.
 
-She saw Taiwan's production environment in decline, dramatic genres flattened, and a generational gap among actors. So she joined forces with eight directors — including [Tsai Ming-liang](/en/People/tsai-ming-liang/) and [Chen Yu-hsun](/en/People/chen-yu-hsun-taiwan-comedy-film-magician/) — to co-found "**Qseries (植劇場)**" — an experimental platform for nurturing new actors and expanding dramatic genres. Four genres (romance and coming-of-age, suspense and mystery, supernatural horror, literary adaptation), eight productions, spanning an entire year.
+She saw Taiwan's production environment in decline, dramatic genres flattened, and a generational gap among actors. So she joined forces with eight directors — including [Tsai Ming-liang](/en/people/tsai-ming-liang/) and [Chen Yu-hsun](/en/people/chen-yu-hsun-taiwan-comedy-film-magician/) — to co-found "**Qseries (植劇場)**" — an experimental platform for nurturing new actors and expanding dramatic genres. Four genres (romance and coming-of-age, suspense and mystery, supernatural horror, literary adaptation), eight productions, spanning an entire year.
 
 At the 2017 Golden Bell Awards, Qseries' _Close Your Eyes Before It's Dark_ won five major awards including Best Drama. At the ceremony, the name thanked most often was Wang Shaudi. But at the celebration party, she gave the stage to the nominees who hadn't won so they could give speeches, while she cheered and applauded from the side, happier than anyone.
 
@@ -99,7 +99,7 @@ She dislikes being referred to with the female-gendered "她" in press coverage.
 
 After returning to Taiwan, she decided not to discuss her gender and not to pretend: "If you're at ease with yourself, others will be at ease too."
 
-Past sixty, a boy still lives inside her heart. Screenwriter Wen Yufang recalls that in 2005, while filming the story of Lien Chia-en, _45°C Under the Sky_, and flying to Africa, Wang Shaudi could play video games for 20 hours straight on the plane, until her thumb blistered. She loves [Jay Chou](/en/People/jay-chou/), and on location scouting trips would listen to "Secret Code" on repeat. A boyish heart — and so _Doctors in a Big Hospital_, _Police Etiquette_, _The Hedgehog Boy_: line up her works and they are all stories of boys growing up.
+Past sixty, a boy still lives inside her heart. Screenwriter Wen Yufang recalls that in 2005, while filming the story of Lien Chia-en, _45°C Under the Sky_, and flying to Africa, Wang Shaudi could play video games for 20 hours straight on the plane, until her thumb blistered. She loves [Jay Chou](/en/people/jay-chou/), and on location scouting trips would listen to "Secret Code" on repeat. A boyish heart — and so _Doctors in a Big Hospital_, _Police Etiquette_, _The Hedgehog Boy_: line up her works and they are all stories of boys growing up.
 
 > **✦** "I don't want to be a teacher either. I just want to help others the way I was helped during my own growing up."
 

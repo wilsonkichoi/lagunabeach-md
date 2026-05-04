@@ -160,10 +160,10 @@ The next forty-two years were for someone else to write.
 
 ## Further Reading
 
-- [Post-Martial-Law Taiwanese Literature](/en/Art/post-martial-law-taiwanese-literature/) — The explosion of 1987-2000: nativization, gender, mother-tongue pluralism
-- [Contemporary Taiwanese Literature](/en/Art/contemporary-taiwanese-literature/) — 21st century: Wu Ming-yi's internationalization, Lin Yi-han, and the digital wave
-- [Taiwanese Literature during Japanese Rule](/en/Art/taiwanese-literature-during-japanese-rule/) — Lai Ho, Lu Ho-jo, Chang Wen-huan, Yang Kuei: the Japanese-era starting point that is the other end of postwar aphasia
-- [White Terror](/en/History/taiwan-white-terror/) — Political context for Yeh Shih-tao's imprisonment, Yang Kuei on Green Island, Lu Ho-jo at Luku
+- [Post-Martial-Law Taiwanese Literature](/en/art/post-martial-law-taiwanese-literature/) — The explosion of 1987-2000: nativization, gender, mother-tongue pluralism
+- [Contemporary Taiwanese Literature](/en/art/contemporary-taiwanese-literature/) — 21st century: Wu Ming-yi's internationalization, Lin Yi-han, and the digital wave
+- [Taiwanese Literature during Japanese Rule](/en/art/taiwanese-literature-during-japanese-rule/) — Lai Ho, Lu Ho-jo, Chang Wen-huan, Yang Kuei: the Japanese-era starting point that is the other end of postwar aphasia
+- [White Terror](/en/history/taiwan-white-terror/) — Political context for Yeh Shih-tao's imprisonment, Yang Kuei on Green Island, Lu Ho-jo at Luku
 
 ---
 

@@ -61,8 +61,8 @@ Today, eldest son Chuang Chi-hsiung formally founded the "Kaohsiung City Chuang 
 
 ## Further reading
 
-- Volunteer culture and civic charity in Taiwan ([台灣志工文化與公益參與](/en/Society/volunteering-and-civic-charity-in-taiwan/)) — situating Taiwanese civic charity within a longer institutional and grassroots context.
-- Military dependents' village cuisine ([台灣眷村菜](/en/Food/military-dependents-village-cuisine/)) — for a parallel reading of how everyday food carried memories of migration, poverty, and community mutual aid.
+- Volunteer culture and civic charity in Taiwan ([台灣志工文化與公益參與](/en/society/volunteering-and-civic-charity-in-taiwan/)) — situating Taiwanese civic charity within a longer institutional and grassroots context.
+- Military dependents' village cuisine ([台灣眷村菜](/en/food/military-dependents-village-cuisine/)) — for a parallel reading of how everyday food carried memories of migration, poverty, and community mutual aid.
 
 ## References
 

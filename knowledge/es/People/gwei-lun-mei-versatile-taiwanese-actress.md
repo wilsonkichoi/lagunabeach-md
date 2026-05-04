@@ -16,7 +16,7 @@ category: People
 
 # Gwei Lun-mei: una actriz de talento discreto y tenaz
 
-Gwei Lun-mei es una de las actrices más talentosas de la nueva generación de Taiwán, reconocida por su interpretación natural y sincera, así como por su estilo personal discreto. En 2007 alcanzó la fama gracias a _Secret_, dirigida por [Jay Chou](/es/People/jay-chou/), y posteriormente demostró su depurada actuación en obras como _Blue Gate Crossing_ y _Girlfriend, Boyfriend_. Es una presencia habitual en festivales internacionales de cine, ha sido nominada en múltiples ocasiones a los Premios Golden Horse y está considerada un activo invaluable del cine taiwanés.
+Gwei Lun-mei es una de las actrices más talentosas de la nueva generación de Taiwán, reconocida por su interpretación natural y sincera, así como por su estilo personal discreto. En 2007 alcanzó la fama gracias a _Secret_, dirigida por [Jay Chou](/es/people/jay-chou/), y posteriormente demostró su depurada actuación en obras como _Blue Gate Crossing_ y _Girlfriend, Boyfriend_. Es una presencia habitual en festivales internacionales de cine, ha sido nominada en múltiples ocasiones a los Premios Golden Horse y está considerada un activo invaluable del cine taiwanés.
 
 ## La niña del _juancun_ y su despertar artístico
 
@@ -36,7 +36,7 @@ La película atrajo la atención de festivales internacionales de cine y la actu
 
 ## El gran salto con _Secret_
 
-En 2007, Gwei Lun-mei protagonizó _Secret_, dirigida por [Jay Chou](/es/People/jay-chou/), un punto de inflexión decisivo en su carrera. En la película interpretó a Lu Xiaoyu, una misteriosa estudiante con quien Jay Chou vive un amor que trasciende el tiempo y el espacio.
+En 2007, Gwei Lun-mei protagonizó _Secret_, dirigida por [Jay Chou](/es/people/jay-chou/), un punto de inflexión decisivo en su carrera. En la película interpretó a Lu Xiaoyu, una misteriosa estudiante con quien Jay Chou vive un amor que trasciende el tiempo y el espacio.
 
 La cinta combina elementos románticos, fantásticos y musicales, y Gwei Lun-mei tuvo que expresar capas emocionales complejas. Su actuación fue delicada y conmovedora; en particular, las escenas de piano pusieron de manifiesto su versatilidad.
 

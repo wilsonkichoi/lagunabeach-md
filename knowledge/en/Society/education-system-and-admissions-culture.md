@@ -353,7 +353,7 @@ Education is not only the transmission of knowledge — it is also the shaping o
 **Further reading:**
 
 - Taiwan's Remote Area Education — If you want to see educational inequality in full — from children to schools to family and community to societal conceptions of success — that article offers the larger panorama.
-- [Teach For Taiwan (TFT)](/en/Society/taiwan-slash-generation) — This article focuses on one organization actually responding to the remote education gap, adding the dimension of actors and controversy.
+- [Teach For Taiwan (TFT)](/en/society/taiwan-slash-generation) — This article focuses on one organization actually responding to the remote education gap, adding the dimension of actors and controversy.
 - Taiwan's Low Birth Rate Crisis — Beyond the admissions system and competitive culture, the declining birth rate is also rewriting school survival and the distribution of educational resources.
 
 ## References

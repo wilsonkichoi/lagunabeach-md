@@ -99,7 +99,7 @@ Quatorze ans, trois personnes, du lycée Zhongzheng à aujourd'hui. Ils disent n
 
 **Pour aller plus loin** :
 
-- [Musique indépendante taiwanaise](/fr/Music/indie-music/) — De Natural Q à No Party For Cao Dong en passant par le post-hardcore de Fish Stick, les évolutions de la musique indépendante taiwanaise
+- [Musique indépendante taiwanaise](/fr/music/indie-music/) — De Natural Q à No Party For Cao Dong en passant par le post-hardcore de Fish Stick, les évolutions de la musique indépendante taiwanaise
 - [No Party For Cao Dong](/people/草東沒有派對) — Autre groupe formé par des camarades de lycée à Taipei, deux fois meilleur groupe aux Golden Melody Awards, en post-rock
 - [?te](/people/壞特) — Autre figure de la musique indépendante taiwanaise de la même période, sur une trajectoire radicalement différente en R&B bedroom-pop
 - [Cosmos People](/people/康士坦的變化球) — Scène rock indépendante de Taipei, une référence sur la voie narrative du chant

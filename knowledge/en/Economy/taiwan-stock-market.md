@@ -2,9 +2,9 @@
 title: "Taiwan's Stock Market and Capital Markets: From the 1990 10,000-Point Crash to the World's 6th Largest in 2026, an Island with 44% of Its Wealth Riding on a Single Stock"
 description: "On April 28, 2026, Bloomberg flashed 'Taiwan Overtakes Canada.' An island whose 1990 10,000-point crash wiped out the retirement savings of 160,000 people climbed to become the world's 6th largest stock market thirty-six years later—but of its US$4.47 trillion market cap, nearly half sits on a single semiconductor company."
 date: 2026-05-03
-author: "Taiwan.md"
-category: "Economy"
-subcategory: "Economy"
+author: 'Taiwan.md'
+category: 'Economy'
+subcategory: 'Economy'
 tags: ['台股', '證券交易所', '資本市場', 'ETF', '台積電', '散戶', 'AI']
 readingTime: 16
 lastVerified: 2026-05-03
@@ -61,7 +61,7 @@ The second was ETFs. In June 2003, Yuanta Financial Holdings launched 0050 (Yuan
 
 The third—bigger than the first two combined—was TSMC.
 
-Any discussion of the 2026 Taiwan stock market must address [Taiwan Enterprise: TSMC](/en/Economy/tsmc-taiwan-semiconductor/). The Taiwan stock market is like a solar system, and TSMC is the sun. **As of March 10, 2026, TSMC's weight in the TAIEX reached 45.0041%**[^TWSE權重]. With its share price around NT$2,265, every NT$1 move in this single stock moves the broader index by approximately 8 points[^TWSE權重].
+Any discussion of the 2026 Taiwan stock market must address [Taiwan Enterprise: TSMC](/en/economy/tsmc-taiwan-semiconductor/). The Taiwan stock market is like a solar system, and TSMC is the sun. **As of March 10, 2026, TSMC's weight in the TAIEX reached 45.0041%**[^TWSE權重]. With its share price around NT$2,265, every NT$1 move in this single stock moves the broader index by approximately 8 points[^TWSE權重].
 
 Describing this proportion as "a significant constituent" would be a serious understatement. It has become the market itself.
 
@@ -83,21 +83,21 @@ Around April 15, Taiwan's total stock market cap surged to US$4.14 trillion, ove
 
 On April 24, the Financial Supervisory Commission officially finalized the "TSMC Clause": the cap on a fund's holding of a single stock was relaxed from 10% to 25%. The next day, TSMC's share price gapped up to a new all-time high[^台積電條款].
 
-At 9:25 a.m. on April 27, the TAIEX jumped to 40,194.92 points—the first time in history it touched 40,000. Although the index gave back some gains by the close, settling at 39,616.63, trading volume surged to NT$1.18 trillion[^taipeitimes]. Adam Lin, an analyst at摩尔投顧 (Moore Investment Advisory), told the *Taipei Times*: "TSMC was the major driver of the Taiex's gains today." He added that he was not worried about the index's ability to hold—"I expect TSMC will continue to move higher on its sound fundamentals." (Quoted from [Taipei Times 2026-04-28](https://www.taipeitimes.com/News/biz/archives/2026/04/28/2003856343)).
+At 9:25 a.m. on April 27, the TAIEX jumped to 40,194.92 points—the first time in history it touched 40,000. Although the index gave back some gains by the close, settling at 39,616.63, trading volume surged to NT$1.18 trillion[^taipeitimes]. Adam Lin, an analyst at摩尔投顧 (Moore Investment Advisory), told the _Taipei Times_: "TSMC was the major driver of the Taiex's gains today." He added that he was not worried about the index's ability to hold—"I expect TSMC will continue to move higher on its sound fundamentals." (Quoted from [Taipei Times 2026-04-28](https://www.taipeitimes.com/News/biz/archives/2026/04/28/2003856343)).
 
 The day after the 40,000-point milestone (April 28), Taiwan's total stock market cap rose to US$4.47 trillion, overtaking Canada (US$4.44 trillion) to claim 6th place globally[^bloomberg]. For the entire month of April, the TAIEX accumulated a gain of 22.7%, rising 7,200 points—one of the most ferocious single-month rallies in the Taiwan stock market's history[^biggo2].
 
 | World's Top 9 Stock Markets (April 28, 2026 Close)[^biggo] | Market Cap (US$ Trillion) |
-| ------------------------------------------------------------ | ------------------------- |
-| United States                                                | 75.04                     |
-| China                                                        | 14.84                     |
-| Japan                                                        | 8.19                      |
-| Hong Kong                                                    | 7.41                      |
-| India                                                        | 4.97                      |
-| **Taiwan**                                                   | **4.47**                  |
-| Canada                                                       | 4.44                      |
-| South Korea                                                  | 4.04                      |
-| United Kingdom                                               | 3.99                      |
+| ---------------------------------------------------------- | ------------------------- |
+| United States                                              | 75.04                     |
+| China                                                      | 14.84                     |
+| Japan                                                      | 8.19                      |
+| Hong Kong                                                  | 7.41                      |
+| India                                                      | 4.97                      |
+| **Taiwan**                                                 | **4.47**                  |
+| Canada                                                     | 4.44                      |
+| South Korea                                                | 4.04                      |
+| United Kingdom                                             | 3.99                      |
 
 There is a detail in this list worth pausing over: the top five are traditional heavyweight financial economies; Taiwan ranks 6th, followed by two G7 members. An island three hundred times smaller than Canada and with 40% fewer people than the UK has outpaced them on the scale of capital markets.
 
@@ -138,13 +138,13 @@ What deserves even closer attention is the structure: investors under 30 account
 
 From "stocks are gambling" in the 1990s to "not investing is the risk" in the 2020s, Taiwanese society's attitude toward capital markets flipped over thirty years.
 
-| 1990 | 2026 |
-| ---- | ---- |
-| 4.6 million active accounts | 13.93 million cumulative accounts |
-| Retail investors accounted for 90% of trading volume | Institutions + ETFs continue to grow |
-| Brokerage phone orders, ticker tapes | Swiping phones, regular installment investing |
-| Hung Yuan's monthly 4% interest rate absorbing capital | 0050 with annualized 5%–8% returns |
-| One company's collapse destroying 160,000 people | A single stock determining the market's position |
+| 1990                                                   | 2026                                             |
+| ------------------------------------------------------ | ------------------------------------------------ |
+| 4.6 million active accounts                            | 13.93 million cumulative accounts                |
+| Retail investors accounted for 90% of trading volume   | Institutions + ETFs continue to grow             |
+| Brokerage phone orders, ticker tapes                   | Swiping phones, regular installment investing    |
+| Hung Yuan's monthly 4% interest rate absorbing capital | 0050 with annualized 5%–8% returns               |
+| One company's collapse destroying 160,000 people       | A single stock determining the market's position |
 
 The left side of this table holds traumatic memories; the right side holds the AI dividend. Thirty-six years separate them—but the line between them was not a straight climb upward.
 
@@ -168,7 +168,7 @@ What will Taiwan's capital market learn in the next thirty years? Ask your neigh
 
 **Further Reading**
 
-- [Taiwan Enterprise: TSMC](/en/Economy/tsmc-taiwan-semiconductor/) — The sun that accounts for 45% of the TAIEX, and the story behind the term "Sacred Mountain That Protects the Nation"
+- [Taiwan Enterprise: TSMC](/en/economy/tsmc-taiwan-semiconductor/) — The sun that accounts for 45% of the TAIEX, and the story behind the term "Sacred Mountain That Protects the Nation"
 - [Semiconductor Industry](/technology/半導體產業) — The entire supply chain ecosystem that props up Taiwan's 6th-place ranking
 - [Taiwan Enterprise: Foxconn](/economy/台灣企業：鴻海精密) — Another heavyweight on Goldman Sachs' 25-stock buy list, from contract manufacturing giant to AI server transformer
 - [Taiwan Industrial Transformation and Upgrading](/economy/台灣產業轉型升級) — The trajectory from 1980s contract manufacturing to the 2026 AI dividend

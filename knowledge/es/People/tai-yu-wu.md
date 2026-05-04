@@ -61,8 +61,8 @@ En enero de 2000, Tai Yu Wu falleció en San Francisco a la edad de 93 años[^7]
 
 **Lecturas complementarias**:
 
-- [Lee Yuan-Tseh](/es/People/lee-yuan-tseh/) — Otro científico formado en Taiwán que posteriormente obtuvo el Premio Nobel de Química, representante de la acumulación continua de Taiwán en ciencia básica
-- [Industria de semiconductores](/es/Technology/semiconductor-industry/) — Los años ochenta, cuando Tai Yu Wu fue presidente de la Academia Sinica, fueron precisamente el período clave del despegue de la industria taiwanesa de semiconductores
+- [Lee Yuan-Tseh](/es/people/lee-yuan-tseh/) — Otro científico formado en Taiwán que posteriormente obtuvo el Premio Nobel de Química, representante de la acumulación continua de Taiwán en ciencia básica
+- [Industria de semiconductores](/es/technology/semiconductor-industry/) — Los años ochenta, cuando Tai Yu Wu fue presidente de la Academia Sinica, fueron precisamente el período clave del despegue de la industria taiwanesa de semiconductores
 - [Audrey Tang](/people/唐鳳) — Otra vía de participación de la élite intelectual taiwanesa en los asuntos públicos, de la ciencia a la tecnología
 - [Kjell Lindgren](/people/林琪兒) — Astronauta de la NASA y doctor en medicina nacido en Taipéi, que continúa la trayectoria de científicos taiwaneses de origen que se formaron en el sistema académico estadounidense de posguerra, en la estela de la generación de Tai Yu Wu
 

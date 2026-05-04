@@ -142,7 +142,7 @@ In the comments, one line was translated into Chinese countless times: "Even my 
 
 That was three years after the flag incident — the first time she spoke in public, in first person, about "not being happy." She mentioned nothing specific, offered no explanation, no complaints, no accusations. But she let everyone who read that passage know: she **had not had it easy.**
 
-In the years that followed, TWICE grew bigger, and Tzuyu became harder to find. In 2020 she released the personal photo book _Yes, I am Tzuyu._ — the first TWICE member to release a solo photo book[^1]. In May 2022, all TWICE members launched personal Instagram accounts; Tzuyu's is @thinkaboutzu. In March 2023, the account surpassed **10 million followers**, making her the second most-followed Taiwanese artist on Instagram — behind only [Jay Chou](/en/People/jay-chou/)[^17].
+In the years that followed, TWICE grew bigger, and Tzuyu became harder to find. In 2020 she released the personal photo book _Yes, I am Tzuyu._ — the first TWICE member to release a solo photo book[^1]. In May 2022, all TWICE members launched personal Instagram accounts; Tzuyu's is @thinkaboutzu. In March 2023, the account surpassed **10 million followers**, making her the second most-followed Taiwanese artist on Instagram — behind only [Jay Chou](/en/people/jay-chou/)[^17].
 
 > **Did you know?**
 > In December 2024, at Fusing Elementary School in Tainan's East District, at the school's 30th anniversary celebration introducing distinguished alumni, something Tzuyu had never mentioned was inadvertently revealed: she had already earned a **Master of Applied Psychology from Universidad Camilo José Cela in Spain**[^18]. She had never attended university. The school accepted her extensive work experience in lieu of an undergraduate degree; during the pandemic, recommended by a university professor she knew, she completed 8 online courses plus a thesis over the course of about a year[^11]. She held no press conference, posted no stories, didn't even mention it on Instagram. The school posted about it on their own.
@@ -201,7 +201,7 @@ And this island, after the night of January 15, learned how to finish the words 
 ## Further Reading
 
 - [Tsai Ing-wen](/people/蔡英文) — The January 16, 2016 victory speech "no one should have to apologize for their identity" was a direct response to those 90 seconds
-- [Jay Chou](/en/People/jay-chou/) — Beyond Tzuyu's 10-million Instagram followers, the only Taiwanese artist ranked higher
+- [Jay Chou](/en/people/jay-chou/) — Beyond Tzuyu's 10-million Instagram followers, the only Taiwanese artist ranked higher
 - [Taiwan Democratization](/history/台灣民主轉型) — The 2016 election was Taiwan's third party rotation, and those 90 seconds were the weightiest moment in it
 - [Tai Tzu-ying](/people/戴資穎) — Another Tainan girl of the same generation who left home at 13 to fight for her dreams
 

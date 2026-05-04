@@ -83,4 +83,4 @@ Taiwan is celebrated as a "democratic miracle," consistently rated "Free" by org
 
 ## Related Topics
 
-- [Human Rights and Gender Equality](/en/Society/human-rights-and-gender-equality/)
+- [Human Rights and Gender Equality](/en/society/human-rights-and-gender-equality/)

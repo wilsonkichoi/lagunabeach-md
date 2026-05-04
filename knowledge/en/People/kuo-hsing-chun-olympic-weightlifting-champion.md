@@ -97,7 +97,7 @@ Her great-grandmother passed down culture through song; she uses a barbell and a
 
 **Further Reading**:
 
-- [Tai Tzu-ying](/en/People/tai-tzu-ying/) — Also a core member of the Taiwan delegation at the Tokyo Olympics; the world's top badminton player
+- [Tai Tzu-ying](/en/people/tai-tzu-ying/) — Also a core member of the Taiwan delegation at the Tokyo Olympics; the world's top badminton player
 - Yang Yung-wei (/people/楊勇緯) — Tokyo Olympics judo silver medalist; Taiwan's first Olympic judo medal
 - Lin Yang Duo (Wang Chi-lin and Lee Yang) (/people/麟洋配) — Tokyo Olympics men's doubles badminton gold medalists
 - Lee Yang (/people/李洋) — Olympic double-gold champion who became the founding minister of the Sports Administration

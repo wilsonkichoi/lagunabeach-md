@@ -31,13 +31,13 @@ On March 18, 1980, Taiwan's military court convened the Kaohsiung Incident (Form
 
 The Kuomintang had wanted a public trial to display judicial legitimacy. The result was the opposite.
 
-The trial handed the defendants a national stage. Shih Ming-teh had prepared a sixty-thousand-word defense, but after learning at the opening session that [Lin Yi-hsiung's](/en/People/lin-yi-hsiung-democracy-advocate-tragedy-survivor/) mother and twin daughters had been murdered outside the prison (the Lin Family Massacre), he immediately abandoned his defense and demanded the judge sentence him to death. That image spread across the island through the media.
+The trial handed the defendants a national stage. Shih Ming-teh had prepared a sixty-thousand-word defense, but after learning at the opening session that [Lin Yi-hsiung's](/en/people/lin-yi-hsiung-democracy-advocate-tragedy-survivor/) mother and twin daughters had been murdered outside the prison (the Lin Family Massacre), he immediately abandoned his defense and demanded the judge sentence him to death. That image spread across the island through the media.
 
-> 📝 **Curator's note:** The most absurd consequence of the Formosa Incident mass trial was that the group of young lawyers defending the accused — [Chen Shui-bian](/en/People/chen-shui-bian-controversial-president/), Frank Hsieh, Su Tseng-chang, Chang Chun-hsiung, Yu Ching — almost all became Taiwan's president, premier, or direct-municipality mayor within twenty years. The trial the KMT carefully orchestrated inadvertently groomed an entire generation of political elites for the opposition movement.
+> 📝 **Curator's note:** The most absurd consequence of the Formosa Incident mass trial was that the group of young lawyers defending the accused — [Chen Shui-bian](/en/people/chen-shui-bian-controversial-president/), Frank Hsieh, Su Tseng-chang, Chang Chun-hsiung, Yu Ching — almost all became Taiwan's president, premier, or direct-municipality mayor within twenty years. The trial the KMT carefully orchestrated inadvertently groomed an entire generation of political elites for the opposition movement.
 
 ## Cheng Nan-jung's Seventy-One Days
 
-In the decade after the Formosa Incident trial, Taiwanese society was like a pot of water slowly heating. The Tangwai movement continued to expand, but the person who truly pushed the temperature to boiling was a mainlander named [Cheng Nan-jung (鄭南榕)](/en/People/zheng-nanrong/).
+In the decade after the Formosa Incident trial, Taiwanese society was like a pot of water slowly heating. The Tangwai movement continued to expand, but the person who truly pushed the temperature to boiling was a mainlander named [Cheng Nan-jung (鄭南榕)](/en/people/zheng-nanrong/).
 
 On December 10, 1988 — International Human Rights Day — Cheng Nan-jung published the full text of a "Draft Constitution of the Republic of Taiwan" in issue 254 of the _Freedom Era_ weekly magazine he edited. At the time this was tantamount to the crime of rebellion, punishable by death.
 
@@ -71,7 +71,7 @@ This is also why some people who lived through martial law remember that day not
 
 ## Six Thousand Wild Lilies vs. Tiananmen
 
-On March 16, 1990 — less than nine months after Tiananmen — National Taiwan University students began a sit-in at Chiang Kai-shek Memorial Hall plaza. The trigger was [Lee Teng-hui's](/en/People/lee-teng-hui/) reelection as president, to be decided by a National Assembly still composed of members elected in China in 1947 — more than seven hundred representatives who had never stood for re-election: the so-called "Eternal Parliament" (萬年國會).
+On March 16, 1990 — less than nine months after Tiananmen — National Taiwan University students began a sit-in at Chiang Kai-shek Memorial Hall plaza. The trigger was [Lee Teng-hui's](/en/people/lee-teng-hui/) reelection as president, to be decided by a National Assembly still composed of members elected in China in 1947 — more than seven hundred representatives who had never stood for re-election: the so-called "Eternal Parliament" (萬年國會).
 
 The students' banners read: "Countrymen, can you endure the oppression of 700 emperors?"
 
@@ -140,7 +140,7 @@ Freedom House's 2025 score gave Taiwan 93 points (out of 100), ranked sixth glob
 
 But behind the numbers are fractures:
 
-During [the White Terror](/en/History/taiwan-white-terror/) period, an estimated 140,000 to 200,000 people suffered political persecution, with 3,000 to 4,000 executed. Transitional justice remains incomplete. Article 9 of the National Security Act was not ruled unconstitutional by the Grand Justices until 2019 — 32 years after martial law was lifted.
+During [the White Terror](/en/history/taiwan-white-terror/) period, an estimated 140,000 to 200,000 people suffered political persecution, with 3,000 to 4,000 executed. Transitional justice remains incomplete. Article 9 of the National Security Act was not ruled unconstitutional by the Grand Justices until 2019 — 32 years after martial law was lifted.
 
 Disinformation is the new battleground. The 2018 local elections and the 2020 presidential election both saw large-scale disinformation operations, with many sources pointing abroad. The Chinese government continues attempting to influence Taiwan's policymaking, media, and democratic infrastructure (from Freedom House's 2025 report).
 
@@ -176,6 +176,6 @@ That is what democratization means. Not a smooth inspirational story, but a poli
 
 ## Related Topics
 
-- [Martial Law Era](/en/History/martial-law-era/): 38 years of authoritarian rule before democratization
-- [Taiwan's White Terror](/en/History/taiwan-white-terror/): The history of 140,000 politically persecuted
-- [228 Incident](/en/History/228-incident/): The starting point of postwar Taiwan's political trauma
+- [Martial Law Era](/en/history/martial-law-era/): 38 years of authoritarian rule before democratization
+- [Taiwan's White Terror](/en/history/taiwan-white-terror/): The history of 140,000 politically persecuted
+- [228 Incident](/en/history/228-incident/): The starting point of postwar Taiwan's political trauma

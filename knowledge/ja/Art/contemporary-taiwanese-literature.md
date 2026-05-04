@@ -111,9 +111,9 @@ translatedAt: '2026-05-01T14:48:26+08:00'
 
 ## 延伸読書
 
-- [戒厳令解除後の台湾文学](/ja/Art/post-martial-law-literature/) — 1987〜2000年の多元的爆発（政治小説・女性・先住民・母語）の中間世代、駱以軍・朱天文・朱天心がこの時期に成熟した
-- [戦後台湾文学](/ja/Art/postwar-taiwan-literature/) — 1945〜1987年の戒厳期、失語・モダニズム・郷土論争・女性の覚醒の42年間
-- [台湾文学史](/ja/Art/taiwan-literature-history/) — 蘭領・明清・日本統治・戦後から当代までの全体像
+- [戒厳令解除後の台湾文学](/ja/art/post-martial-law-literature/) — 1987〜2000年の多元的爆発（政治小説・女性・先住民・母語）の中間世代、駱以軍・朱天文・朱天心がこの時期に成熟した
+- [戦後台湾文学](/ja/art/postwar-taiwan-literature/) — 1945〜1987年の戒厳期、失語・モダニズム・郷土論争・女性の覚醒の42年間
+- [台湾文学史](/ja/art/taiwan-literature-history/) — 蘭領・明清・日本統治・戦後から当代までの全体像
 
 ## 参考資料
 

@@ -1,8 +1,17 @@
 ---
-title: "La bourse et les marchés de capitaux taïwanais : du krach des 12 000 points en 1990 au 6ᵉ rang mondial en 2026, une île dont 44 % de la capitalisation repose sur une seule action"
-description: "Le 28 avril 2026, Bloomberg affichait « Taiwan Overtakes Canada ». Une île qui, en 1990, avait vu le krach des 12 000 points anéantir les retraites de cent soixante mille personnes se hissait, trente-six ans plus tard, au 6ᵉ rang mondial des bourses — mais sur une capitalisation de 4 470 milliards de dollars, près de la moitié repose sur une seule entreprise de semi-conducteurs."
+title: 'La bourse et les marchés de capitaux taïwanais : du krach des 12 000 points en 1990 au 6ᵉ rang mondial en 2026, une île dont 44 % de la capitalisation repose sur une seule action'
+description: 'Le 28 avril 2026, Bloomberg affichait « Taiwan Overtakes Canada ». Une île qui, en 1990, avait vu le krach des 12 000 points anéantir les retraites de cent soixante mille personnes se hissait, trente-six ans plus tard, au 6ᵉ rang mondial des bourses — mais sur une capitalisation de 4 470 milliards de dollars, près de la moitié repose sur une seule entreprise de semi-conducteurs.'
 date: 2026-05-03
-tags: ['bourse de Taïwan', 'bourse des valeurs', 'marchés de capitaux', 'ETF', 'TSMC', 'investisseurs particuliers', 'IA']
+tags:
+  [
+    'bourse de Taïwan',
+    'bourse des valeurs',
+    'marchés de capitaux',
+    'ETF',
+    'TSMC',
+    'investisseurs particuliers',
+    'IA',
+  ]
 subcategory: 'Economy'
 category: 'Economy'
 author: 'Taiwan.md'
@@ -10,11 +19,11 @@ featured: true
 readingTime: 16
 lastVerified: 2026-05-03
 lastHumanReview: false
-translatedFrom: "Economy/台灣股市與資本市場.md"
-sourceCommitSha: "1033cf06"
-sourceContentHash: "sha256:3bd269df030903a1"
-sourceBodyHash: "sha256:eee96dbb5a498050"
-translatedAt: "2026-05-03T23:14:07+08:00"
+translatedFrom: 'Economy/台灣股市與資本市場.md'
+sourceCommitSha: '1033cf06'
+sourceContentHash: 'sha256:3bd269df030903a1'
+sourceBodyHash: 'sha256:eee96dbb5a498050'
+translatedAt: '2026-05-03T23:14:07+08:00'
 ---
 
 > **En 30 secondes :** Le 28 avril 2026, la capitalisation totale de la bourse de Taïwan a atteint 4 470 milliards de dollars, dépassant le Canada pour devenir la 6ᵉ bourse mondiale ; quelques jours plus tôt, elle avait déjà dépassé le Royaume-Uni. Le moteur : TSMC, dont la capitalisation de 1 800 milliards de dollars pèse près de 45 % dans l'indice pondéré. Il y a trente-six ans, le krach des 12 000 points avait anéanti 4,6 millions de comptes ; l'investissement clandestin Hongyuan, avec ses 4 % d'intérêt mensuels, avait ruiné cent soixante mille personnes. Ces cicatrices financières ne se sont pas encore refermées dans la mémoire de l'île. De la dizaine d'entreprises cotées lors de la fondation de la bourse à 13,93 millions de comptes aujourd'hui se répartissant un marché de capitaux classé 6ᵉ mondial, il aura fallu soixante-quatre ans à Taïwan. Mais ce 6ᵉ rang recèle un paradoxe structurel : sans TSMC, les quelque 1 000 autres actions réunies se classeraient tout au plus autour du 15ᵉ rang mondial.
@@ -42,7 +51,7 @@ Le 12 février 1990, l'indice pondéré des cours de Taïwan atteignait 12 682 p
 Huit mois plus tard, l'indice était tombé à 2 485 points. Une chute de 80 %[^udn1990].
 
 > **📝 Note du commissaire-priseur**
-> L'expression « L'argent de Taïwan monte jusqu'aux chevilles » (*Taiwan qian yan jiaomu*) est née à cette époque. Trop d'argent, trop peu d'exutoires : la bourse et l'immobilier sont devenus deux bassins de rétention sans vannes de décharge.
+> L'expression « L'argent de Taïwan monte jusqu'aux chevilles » (_Taiwan qian yan jiaomu_) est née à cette époque. Trop d'argent, trop peu d'exutoires : la bourse et l'immobilier sont devenus deux bassins de rétention sans vannes de décharge.
 
 La situation fut aggravée par l'affaire Hongyuan. Cette société d'investissement clandestine avait commencé en 1981 à collecter des fonds publics avec un intérêt mensuel de 4 % (rendement mensuel de 4 %). À son apogée, elle avait drainé environ 94 milliards de dollars taïwanais. Le 9 janvier 1990, Hongyuan annonçait la suspension de ses remboursements. Plus de cent soixante mille créanciers se retrouvaient du jour au lendemain sans rien — la plupart étaient des militaires, des fonctionnaires ou des enseignants ayant placé leurs retraites et toute une vie d'épargne[^鴻源].
 
@@ -61,7 +70,7 @@ Le deuxième : les ETF. En juin 2003, Yuanta Securities lançait le 0050 (Yuanta
 
 Le troisième, plus important que les deux précédents réunis : TSMC.
 
-Impossible de parler de la bourse taïwanaise en 2026 sans évoquer [TSMC](/fr/Economy/tsmc-taiwan-semiconductor/). La bourse de Taïwan est un système solaire, TSMC en est le soleil. **Au 10 mars 2026, le poids de TSMC dans l'indice pondéré atteignait 45,0041 %**[^TWSE權重]. Lorsque le cours évolue autour de 2 265 dollars taïwanais, chaque variation d'un dollar de cette action entraîne un mouvement d'environ 8 points de l'indice global[^TWSE權重].
+Impossible de parler de la bourse taïwanaise en 2026 sans évoquer [TSMC](/fr/economy/tsmc-taiwan-semiconductor/). La bourse de Taïwan est un système solaire, TSMC en est le soleil. **Au 10 mars 2026, le poids de TSMC dans l'indice pondéré atteignait 45,0041 %**[^TWSE權重]. Lorsque le cours évolue autour de 2 265 dollars taïwanais, chaque variation d'un dollar de cette action entraîne un mouvement d'environ 8 points de l'indice global[^TWSE權重].
 
 Décrire cette proportion comme celle d'un « composant important » serait une grave sous-estimation. C'est l'indice lui-même.
 
@@ -83,7 +92,7 @@ Autour du 15 avril, la capitalisation totale de la bourse de Taïwan atteignit 4
 
 Le 24 avril, la Commission de supervision financière (FSC) officialisait officiellement les « clauses TSMC » : la limite de détention d'une seule action par un fonds, auparavant fixée à 0 %, était assouplie à 25 %. Le lendemain, le cours de TSMC bondissait à l'ouverture et atteignait un nouveau sommet historique[^台積電條款].
 
-Le 27 avril à 9 h 25, l'indice pondéré franchissait 40 194,92 points, touchant pour la première fois le seuil des 40 000. Bien que la séance se conclue en repli à 39 616,63 points, le volume des transactions atteignit 1 180 milliards de dollars taïwanais[^taipeitimes]. Adam Lin, analyste de Mol Securities, déclarait au *Taipei Times* : « TSMC was the major driver of the Taiex's gains today. » Et il ajoutait ne pas craindre d'instabilité : « I expect TSMC will continue to move higher on its sound fundamentals. » (citation tirée de [Taipei Times 2026-04-28](https://www.taipeitimes.com/News/biz/archives/2026/04/28/2003856343)).
+Le 27 avril à 9 h 25, l'indice pondéré franchissait 40 194,92 points, touchant pour la première fois le seuil des 40 000. Bien que la séance se conclue en repli à 39 616,63 points, le volume des transactions atteignit 1 180 milliards de dollars taïwanais[^taipeitimes]. Adam Lin, analyste de Mol Securities, déclarait au _Taipei Times_ : « TSMC was the major driver of the Taiex's gains today. » Et il ajoutait ne pas craindre d'instabilité : « I expect TSMC will continue to move higher on its sound fundamentals. » (citation tirée de [Taipei Times 2026-04-28](https://www.taipeitimes.com/News/biz/archives/2026/04/28/2003856343)).
 
 Le lendemain du seuil des 40 000 points (28 avril), la capitalisation totale de la bourse taïwanaise atteignait 4 470 milliards de dollars, dépassant le Canada (4 440 milliards) et se hissant au 6ᵉ rang mondial[^bloomberg]. Sur l'ensemble du mois d'avril, l'indice pondéré avait cumulé un gain de 22,7 %, soit 7 200 points de hausse — l'une des plus fortes progressions mensuelles de l'histoire de la bourse taïwanaise[^biggo2].
 
@@ -114,11 +123,11 @@ Le 28 avril 2026, la capitalisation boursière de Taïwan s'élevait à 4 470 mi
 Concrètement : sur plus de 1 000 sociétés cotées, la première à elle seule absorbe 45 % ; les quelque 1 000 autres se partagent les 55 % restants.
 
 > **📝 Note du commissaire-priseur**
-> Un universitaire déclarait en avril 2026 aux médias : « TSMC, c'est comme une énorme pastèque qui aspire tous les nutriments des autres pastèques. » (cité par [Wang Defu, 2026-04-25](https://wantrich.chinatimes.com/news/20260425900045-420101)). En finance, cette métaphore porte un nom officiel : la « maladie hollandaise » (*Dutch Disease*) : la surabondance d'un seul secteur aspire les talents, les capitaux et les terres de toute une économie, reléguant au bord du chemin l'industrie traditionnelle et les services[^荷蘭病]. Plus le dividende de l'IA brille à Taïwan, plus cette structure se verrouille.
+> Un universitaire déclarait en avril 2026 aux médias : « TSMC, c'est comme une énorme pastèque qui aspire tous les nutriments des autres pastèques. » (cité par [Wang Defu, 2026-04-25](https://wantrich.chinatimes.com/news/20260425900045-420101)). En finance, cette métaphore porte un nom officiel : la « maladie hollandaise » (_Dutch Disease_) : la surabondance d'un seul secteur aspire les talents, les capitaux et les terres de toute une économie, reléguant au bord du chemin l'industrie traditionnelle et les services[^荷蘭病]. Plus le dividende de l'IA brille à Taïwan, plus cette structure se verrouille.
 
 Ce 45 % s'accompagne d'autres chiffres.
 
-Goldman Sachs publiait en janvier 2026 son rapport *2026 Investment Outlook: 10 Key Investment Trends*, dirigé par Zhang Bokai, responsable de la recherche sur le secteur technologique en Grande Chine. Pour la bourse taïwanaise, la banque identifiait 25 titres à acheter : TSMC (2330), ASE Technology (3711), Foxconn (2317), Wistron (3231), Wiwynn (6669), Auras Technology (3017), Sunonwealth (3324), Delta Electronics (2308), Taiwan Union Technology (2383), Largan Precision (3008), King Slide (2059), Chenbro (8210), MiTAC (3706), Sunon (3376), Taiwan Union Optronics (6274), Kinpo Electronics (2368), Nan Ya PCB (8046), etc.[^高盛]
+Goldman Sachs publiait en janvier 2026 son rapport _2026 Investment Outlook: 10 Key Investment Trends_, dirigé par Zhang Bokai, responsable de la recherche sur le secteur technologique en Grande Chine. Pour la bourse taïwanaise, la banque identifiait 25 titres à acheter : TSMC (2330), ASE Technology (3711), Foxconn (2317), Wistron (3231), Wiwynn (6669), Auras Technology (3017), Sunonwealth (3324), Delta Electronics (2308), Taiwan Union Technology (2383), Largan Precision (3008), King Slide (2059), Chenbro (8210), MiTAC (3706), Sunon (3376), Taiwan Union Optronics (6274), Kinpo Electronics (2368), Nan Ya PCB (8046), etc.[^高盛]
 
 Le thème d'investissement de l'ensemble de la liste est remarquablement cohérent : semi-conducteurs, serveurs IA, modules optiques d'émission-réception, modules de refroidissement, usines ODM, PC, smartphones, PCB, véhicules autonomes L4, satellites en orbite basse[^高盛]. Pas une seule action financière, pas une seule action de consommation, pas un seul poids lourd de l'industrie traditionnelle.
 
@@ -138,12 +147,12 @@ La structure est encore plus révélatrice : les investisseurs de moins de 30 an
 
 Du « les actions, c'est du jeu » des années 1990 au « ne pas investir, c'est le risque » des années 2020, le rapport de la société taïwanaise aux marchés de capitaux a mis trente ans à se retourner.
 
-| 1990                          | 2026                                  |
-| ----------------------------- | ------------------------------------- |
-| 4,6 millions de comptes actifs | 13,93 millions de comptes cumulés      |
-| Particuliers = 90 % des volumes | Institutionnels + ETF en croissance   |
-| Ordres par téléphone, tableau d'affichage | Smartphone, versements programmés |
-| Hongyuan et ses 4 % mensuels  | Le 0050 avec 5-8 % annualisés         |
+| 1990                                                 | 2026                                               |
+| ---------------------------------------------------- | -------------------------------------------------- |
+| 4,6 millions de comptes actifs                       | 13,93 millions de comptes cumulés                  |
+| Particuliers = 90 % des volumes                      | Institutionnels + ETF en croissance                |
+| Ordres par téléphone, tableau d'affichage            | Smartphone, versements programmés                  |
+| Hongyuan et ses 4 % mensuels                         | Le 0050 avec 5-8 % annualisés                      |
 | La faillite d'une entreprise ruine 160 000 personnes | Une seule action détermine la position de l'indice |
 
 La colonne gauche de ce tableau est faite de mémoire traumatique ; la droite, de dividendes de l'IA. Les deux sont séparées par trente-six ans — mais la ligne entre les deux n'a pas été une montée droite.
@@ -168,7 +177,7 @@ Qu'est-ce que le marché de capitaux taïwanais apprendra au cours des trente pr
 
 **Pour aller plus loin**
 
-- [TSMC](/fr/Economy/tsmc-taiwan-semiconductor/) — Le soleil qui pèse 45 % de la bourse taïwanaise, et l'histoire derrière l'expression « montagne protectrice de la nation »
+- [TSMC](/fr/economy/tsmc-taiwan-semiconductor/) — Le soleil qui pèse 45 % de la bourse taïwanaise, et l'histoire derrière l'expression « montagne protectrice de la nation »
 - [Industrie des semi-conducteurs](/technology/半導體產業) — L'écosystème de toute la chaîne d'approvisionnement qui sous-tend le 6ᵉ rang mondial de la bourse taïwanaise
 - [Foxconn](/economy/台灣企業：鴻海精密) — Un autre poids lourd des 25 titres à acheter de Goldman Sachs, du géant de la sous-traitance au transformateur en serveurs IA
 - [Transformation industrielle de Taïwan](/economy/台灣產業轉型升級) — De la sous-traitance dans les années 1980 aux dividendes de l'IA en 2026
@@ -189,7 +198,7 @@ Qu'est-ce que le marché de capitaux taïwanais apprendra au cours des trente pr
 
 [^技術新報]: [TechNews : 60 ans de bourse taïwanaise, de l'ère des opérateurs institutionnels à la participation populaire](https://finance.technews.tw/2022/02/06/the-history-of-taiwan-stocks/) — Documentation de la structure de marché des années 1990 : 90 % des volumes de transactions provenaient de particuliers, puis les investisseurs étrangers ont progressivement remplacé les particuliers comme force dominante.
 
-[^udn1990]: [UDN Time : La bourse change, change, change ! L'indice est passé de 12 000 à 2 000 en 1990](https://time.udn.com/udntime/story/122833/6390429) — Archives photographiques du *United Daily News* documentant les huit mois de 1990 où l'indice pondéré est passé de 12 682 à 2 485 points, avec des photos d'ambiance et d'état d'esprit des investisseurs particuliers.
+[^udn1990]: [UDN Time : La bourse change, change, change ! L'indice est passé de 12 000 à 2 000 en 1990](https://time.udn.com/udntime/story/122833/6390429) — Archives photographiques du _United Daily News_ documentant les huit mois de 1990 où l'indice pondéré est passé de 12 682 à 2 485 points, avec des photos d'ambiance et d'état d'esprit des investisseurs particuliers.
 
 [^鴻源]: [The News Lens : Hongyuan, la plus grande escroquerie de l'histoire de Taïwan](https://www.thenewslens.com/article/161202) — Retour sur l'affaire Hongyuan : collecte de près de 100 milliards de dollars taïwanais avec un intérêt mensuel de 4 %, faillite le 9 janvier 1990 laissant plus de 160 000 victimes (principalement des militaires et fonctionnaires).
 
@@ -215,7 +224,7 @@ Qu'est-ce que le marché de capitaux taïwanais apprendra au cours des trente pr
 
 [^荷蘭病]: [CommonWealth Magazine : Qu'est-ce que la maladie hollandaise ? Taïwan pourrait-il être touché par la « maladie hollandaise » ?](https://www.cw.com.tw/article/5123513) — Analyse du concept économique de la maladie hollandaise et discussion du risque de surabondance d'un seul secteur absorbant les talents et les capitaux de l'industrie électronique taïwanaise.
 
-[^高盛]: [Economic Daily News : Investisseurs, attention ! Pour 2026, Goldman Sachs recommande l'achat de ces 25 actions](https://money.udn.com/money/story/5607/9246073) — Rapport *2026 Investment Outlook* de Goldman Sachs du 5 janvier 2026, dirigé par Zhang Bokai, responsable de la recherche technologique en Grande Chine, recommandant l'achat de 25 entreprises taïwanaises : TSMC / Foxconn / Wistron / Wiwynn / Auras / Delta Electronics et d'autres valeurs de la chaîne d'approvisionnement en semi-conducteurs IA.
+[^高盛]: [Economic Daily News : Investisseurs, attention ! Pour 2026, Goldman Sachs recommande l'achat de ces 25 actions](https://money.udn.com/money/story/5607/9246073) — Rapport _2026 Investment Outlook_ de Goldman Sachs du 5 janvier 2026, dirigé par Zhang Bokai, responsable de la recherche technologique en Grande Chine, recommandant l'achat de 25 entreprises taïwanaises : TSMC / Foxconn / Wistron / Wiwynn / Auras / Delta Electronics et d'autres valeurs de la chaîne d'approvisionnement en semi-conducteurs IA.
 
 [^主動]: [UDN News : La bourse taïwan se hisse au 6ᵉ rang mondial grâce aux dividendes de l'IA — les fonds actifs taïwanais doublent la performance de l'indice](https://udn.com/news/story/10103/9471924) — Statistiques Lipper au 29 avril 2026 : Nomura Hongyun 89,58 % / Yuanta Duo Duo 77,56 % / Uni-President Heima 75,30 % / Franklin Templeton First Rich 75,09 % de rendement YTD, contre 36,45 % pour l'indice pondéré.
 

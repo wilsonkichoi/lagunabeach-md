@@ -69,9 +69,9 @@ A joint Reuters-IORG (Information Operations Research Group) investigation publi
 
 Another IORG tracking study found that of 84 "America-skeptic" narratives, **70 were initiated or amplified by CCP state media**[^11]. Doublethink Lab's 2025 survey indicated that heavy TikTok users tend to lean more pro-China and more agreeable to "populist skepticism" stances[^12].
 
-But sheer quantity does not equal "battle results." The observation by criminologist and Kuma Academy co-founder [Puma Shen](/en/People/puma-shen/) (沈伯洋) is worth placing alongside: "In China's information war on Taiwan, **80% has nothing to do with true or false** — most of it is narrative attack, the manufacture of a perspective."[^13] This sentence shifts the focus from the first reflex of "fact-checking" to a harder second-order problem: when what the other side is delivering is a perspective and a narrative frame, fact-checking has insufficient range.
+But sheer quantity does not equal "battle results." The observation by criminologist and Kuma Academy co-founder [Puma Shen](/en/people/puma-shen/) (沈伯洋) is worth placing alongside: "In China's information war on Taiwan, **80% has nothing to do with true or false** — most of it is narrative attack, the manufacture of a perspective."[^13] This sentence shifts the focus from the first reflex of "fact-checking" to a harder second-order problem: when what the other side is delivering is a perspective and a narrative frame, fact-checking has insufficient range.
 
-Pull back two electoral cycles and the axis becomes clearer. IORG's tracking found that the "ballot-rigging" narrative first appeared in late 2019, recurring across the 2020 election, the June 2020 Han Kuo-yu recall, and the 2021 referendum. The 2020 election also saw a new phenomenon: direct intervention by Chinese officials, with attacks even targeting the legitimacy of the Central Election Commission[^14]. After Lai Ching-te's 2024 election, the NSB report flagged new features: AI virtual newsreaders spreading fake Tsai Ing-wen news, deepfake video, election betting markets[^15]. In 2025, AI-altered footage even surfaced of [Lai Ching-te](/en/People/lai-ching-te/) "swearing"[^16].
+Pull back two electoral cycles and the axis becomes clearer. IORG's tracking found that the "ballot-rigging" narrative first appeared in late 2019, recurring across the 2020 election, the June 2020 Han Kuo-yu recall, and the 2021 referendum. The 2020 election also saw a new phenomenon: direct intervention by Chinese officials, with attacks even targeting the legitimacy of the Central Election Commission[^14]. After Lai Ching-te's 2024 election, the NSB report flagged new features: AI virtual newsreaders spreading fake Tsai Ing-wen news, deepfake video, election betting markets[^15]. In 2025, AI-altered footage even surfaced of [Lai Ching-te](/en/people/lai-ching-te/) "swearing"[^16].
 
 ### The five coordinated tactics dissected by the NSB
 
@@ -249,12 +249,12 @@ The ultimate battleground of cognitive warfare is **the relationship of trust it
 
 - Mountain-Makers: A Century's Wager (造山者：世紀的賭注) — Hsiao Chu-jen's 2025 documentary, five years interviewing 80+ semiconductor pioneers; in 2026 it travels to Purdue / Wisconsin / Michigan, the three CHIPS Act investment hubs
 
-- [Threads in Taiwan](/en/Technology/threads-in-taiwan/) — Taiwan's social-media migration history and the platform structure of the information battlefield
+- [Threads in Taiwan](/en/technology/threads-in-taiwan/) — Taiwan's social-media migration history and the platform structure of the information battlefield
 - Miin (迷音) — The open-source ecosystem to which g0v's Cofacts belongs
-- [Taiwan Online Community Migration](/en/Technology/taiwan-online-community-migration/) — Understanding the role of platforms like PTT, Dcard, and Threads in cognitive warfare
+- [Taiwan Online Community Migration](/en/technology/taiwan-online-community-migration/) — Understanding the role of platforms like PTT, Dcard, and Threads in cognitive warfare
 - Taiwan Media and Press Freedom (台灣媒體與新聞自由) — News ecosystem and platforms' responsibility in cognitive warfare
-- [Puma Shen](/en/People/puma-shen/) — One of the leading researchers on cognitive warfare; in 2025, the first elected Taiwanese politician to be placed under criminal investigation by China for "the crime of secession"
-- [Poisoned Potatoes: Beyond the 200 ppm — There's 30 ppm, 14 Days, and 15 Years of Food-Safety Scars](/en/Society/poisoned-potato-cognitive-warfare-taiwan/) — A dissection of how the TAO's April 2026 "offering" narrative stepped precisely onto the 15-year food-safety scar accumulated since the 2011 plasticizer scandal
+- [Puma Shen](/en/people/puma-shen/) — One of the leading researchers on cognitive warfare; in 2025, the first elected Taiwanese politician to be placed under criminal investigation by China for "the crime of secession"
+- [Poisoned Potatoes: Beyond the 200 ppm — There's 30 ppm, 14 Days, and 15 Years of Food-Safety Scars](/en/society/poisoned-potato-cognitive-warfare-taiwan/) — A dissection of how the TAO's April 2026 "offering" narrative stepped precisely onto the 15-year food-safety scar accumulated since the 2011 plasticizer scandal
 
 ## References
 

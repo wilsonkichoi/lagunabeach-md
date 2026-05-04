@@ -37,7 +37,7 @@ On March 12, 1867, the American merchant ship _Rover_ was sailing from Swatow to
 
 Fourteen people were killed. Only one Cantonese sailor escaped to carry the news to Takow.
 
-Word reached Amoy. U.S. Consul Le Gendre immediately traveled north to Fuzhou to press the Governor-General of Fujian and Zhejiang for action. The [Qing dynasty](/en/History/qing-dynasty-rule/) court's position was unambiguous: that was "savage" territory, outside its jurisdiction.[^2] The U.S. Navy also attempted a military intervention: the USS Hartford landed 181 men, who were repulsed by the Paiwan, with commander Alexander MacKenzie killed in the fighting.[^3]
+Word reached Amoy. U.S. Consul Le Gendre immediately traveled north to Fuzhou to press the Governor-General of Fujian and Zhejiang for action. The [Qing dynasty](/en/history/qing-dynasty-rule/) court's position was unambiguous: that was "savage" territory, outside its jurisdiction.[^2] The U.S. Navy also attempted a military intervention: the USS Hartford landed 181 men, who were repulsed by the Paiwan, with commander Alexander MacKenzie killed in the fighting.[^3]
 
 Warships could not subdue them. The authorities refused to act. Le Gendre decided to go himself.
 
@@ -58,7 +58,7 @@ On October 10, he met Tauketok, the paramount chief of the Paiwan confederation 
 What did they agree to? A formal memorandum dated February 28, 1869 records three specific terms: foreign sailors who survive a shipwreck and come ashore must raise a red flag to identify themselves; landing is only permitted at designated locations; and no one may enter mountain aboriginal villages.[^7]
 
 > **📝 Curator's note**
-> What makes the Treaty of South Cape remarkable is not its terms but its signatories: on one side, a U.S. Consul; on the other, the paramount chief of the [Paiwan](/en/History/indigenous-peoples-history-and-naming-movement/) confederation of eighteen communities. The Qing government was entirely absent. This may be the first written memorandum in Taiwan's history negotiated directly between an indigenous leader and a foreign representative — signaling that at the empire's periphery, indigenous peoples were not passive objects but capable negotiating subjects.
+> What makes the Treaty of South Cape remarkable is not its terms but its signatories: on one side, a U.S. Consul; on the other, the paramount chief of the [Paiwan](/en/history/indigenous-peoples-history-and-naming-movement/) confederation of eighteen communities. The Qing government was entirely absent. This may be the first written memorandum in Taiwan's history negotiated directly between an indigenous leader and a foreign representative — signaling that at the empire's periphery, indigenous peoples were not passive objects but capable negotiating subjects.
 
 From May 1867 to May 1872, Le Gendre visited Taiwan at least eight times.[^8] On each visit he took notes, drew maps, and gathered intelligence. He positioned himself as the foremost Western expert on Formosa.
 
@@ -118,8 +118,8 @@ The man who signed the Treaty of South Cape, and the man who sold intelligence o
 **Further reading:**
 
 - [The Rover Incident and Tauketok](/history/羅發號事件與卓杞篤) — The companion piece to this article: the same history seen from Tauketok's perspective — how the Treaty of South Cape protected his people, and how the other half of the agreement betrayed them
-- [Indigenous Peoples' History and the Rectification of Names Movement](/en/History/indigenous-peoples-history-and-naming-movement/) — The long journey of the Paiwan in the Treaty of South Cape, from "aboriginal territory" to recognized name
-- [Qing Dynasty Rule in Taiwan](/en/History/qing-dynasty-rule/) — The Qing governing structure when Le Gendre came to Taiwan, providing institutional context for the "outside our jurisdiction" response
+- [Indigenous Peoples' History and the Rectification of Names Movement](/en/history/indigenous-peoples-history-and-naming-movement/) — The long journey of the Paiwan in the Treaty of South Cape, from "aboriginal territory" to recognized name
+- [Qing Dynasty Rule in Taiwan](/en/history/qing-dynasty-rule/) — The Qing governing structure when Le Gendre came to Taiwan, providing institutional context for the "outside our jurisdiction" response
 - [Robert Swinhoe](/people/史溫侯) — Another foreigner who left a profound record in Taiwan at the same time, but motivated by science rather than power
 - [The Sino-French War](/history/清法戰爭) — Eight years after Le Gendre left Taiwan, France attacked Taiwan using similar imperial logic
 

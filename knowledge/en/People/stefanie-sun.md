@@ -24,11 +24,11 @@ sourceBodyHash: 'sha256:22d5eb111a89acdd'
 translatedAt: '2026-04-30T22:50:13+08:00'
 ---
 
-> **30-second overview:** Stefanie Sun (Sun Yanzi) was born in Singapore in 1978, debuted in Taiwan in 2000 with "Rainy Day," and her first album sold 330,000 copies to top the year's chart. In 2001 she beat [Jay Chou](/en/People/jay-chou/) for Best New Artist at the Golden Melody Awards by a single vote; in 2005 she became the first artist in Golden Melody history to hold both Best New Artist and Best Female Vocalist. Her voice is the auditory memory of a generation in Taiwan, but she herself has always been Singaporean. In 2023, AI used her voice to sing over 1,000 songs. She chose philosophy over litigation: "Being yourself is enough."
+> **30-second overview:** Stefanie Sun (Sun Yanzi) was born in Singapore in 1978, debuted in Taiwan in 2000 with "Rainy Day," and her first album sold 330,000 copies to top the year's chart. In 2001 she beat [Jay Chou](/en/people/jay-chou/) for Best New Artist at the Golden Melody Awards by a single vote; in 2005 she became the first artist in Golden Melody history to hold both Best New Artist and Best Female Vocalist. Her voice is the auditory memory of a generation in Taiwan, but she herself has always been Singaporean. In 2023, AI used her voice to sing over 1,000 songs. She chose philosophy over litigation: "Being yourself is enough."
 
 In May 2023, an unauthorized "Stefanie Sun" appeared on China's Bilibili.[^1]
 
-This AI version was trained using the open-source voice-conversion software So-Vits-SVC by a programmer in Xiamen and several of Stefanie Sun's fans, using more than 100 of her original recordings. It had covered over 1,000 songs — far more than the total official releases of Stefanie Sun's twenty-three-year career. One AI version of [Jay Chou](/en/People/jay-chou/)'s "Hair Like Snow" accumulated 1.2 million plays; the AI Stefanie Sun compilations exceeded 3 million plays.[^2]
+This AI version was trained using the open-source voice-conversion software So-Vits-SVC by a programmer in Xiamen and several of Stefanie Sun's fans, using more than 100 of her original recordings. It had covered over 1,000 songs — far more than the total official releases of Stefanie Sun's twenty-three-year career. One AI version of [Jay Chou](/en/people/jay-chou/)'s "Hair Like Snow" accumulated 1.2 million plays; the AI Stefanie Sun compilations exceeded 3 million plays.[^2]
 
 Someone asked how she saw it.
 
@@ -52,7 +52,7 @@ The producer, Lee Si-song, drew inspiration from a Hokkien nursery rhyme his gra
 
 The debut week saw 30,000 copies sold in seven days; by the end of July it had passed 300,000, finishing at 330,000 — Taiwan's annual sales champion for 2000. The following year, her second album sold 380,000 copies, retaining the title.[^7]
 
-In 2000, Taiwan was just recovering from the fear of the September 21 earthquake and had just seen off the anxiety of the Y2K predictions. The same year, [Jay Chou](/en/People/jay-chou/) debuted; Mayday's "Love Forever" became the synonym for youth. Stefanie Sun arrived as an outsider, with a song adapted from a Hokkien nursery rhyme, and wedged herself into the auditory memory of that new century's beginning.
+In 2000, Taiwan was just recovering from the fear of the September 21 earthquake and had just seen off the anxiety of the Y2K predictions. The same year, [Jay Chou](/en/people/jay-chou/) debuted; Mayday's "Love Forever" became the synonym for youth. Stefanie Sun arrived as an outsider, with a song adapted from a Hokkien nursery rhyme, and wedged herself into the auditory memory of that new century's beginning.
 
 > **Curator's note**
 > Stefanie Sun's voice has a distinctive quality: slightly husky, with a flowing ease that does not seem to labor. In a Mandopop market that heavily rewards technical display, she was celebrated for sounding "effortless." That "effortlessness" was built on more than ten years of piano training and an aesthetic judgment to choose not to over-demonstrate.
@@ -61,7 +61,7 @@ In 2000, Taiwan was just recovering from the fear of the September 21 earthquake
 
 May 5, 2001. The 12th Golden Melody Awards. Best New Artist.[^8]
 
-Other nominees that year: [Jay Chou](/en/People/jay-chou/), Della Ding, Lin Fan, Fan Wei-qi. Every one of those names went on to become a defining presence in Mandopop. This class is known as "the strongest new artist cohort ever." The nominees were collectively so strong that almost nobody remembers who didn't win.
+Other nominees that year: [Jay Chou](/en/people/jay-chou/), Della Ding, Lin Fan, Fan Wei-qi. Every one of those names went on to become a defining presence in Mandopop. This class is known as "the strongest new artist cohort ever." The nominees were collectively so strong that almost nobody remembers who didn't win.
 
 Stefanie Sun beat Jay Chou by a single vote and took Best New Artist.
 
@@ -141,11 +141,11 @@ She herself would probably feel: it doesn't matter — she already said it, bein
 
 ## Further Reading
 
-Stefanie Sun's rise is a microcosm of Taiwan's pop music industry during its peak in the early 2000s. The [Jay Chou](/en/People/jay-chou/) she beat by a single vote defined another lane in Mandopop during the same era; the two remain the twin poles of that generation. Her songs continue to appear at high frequency on Taiwanese KTV playlists — a form of cultural archiving that is still alive.
+Stefanie Sun's rise is a microcosm of Taiwan's pop music industry during its peak in the early 2000s. The [Jay Chou](/en/people/jay-chou/) she beat by a single vote defined another lane in Mandopop during the same era; the two remain the twin poles of that generation. Her songs continue to appear at high frequency on Taiwanese KTV playlists — a form of cultural archiving that is still alive.
 
 - [Taiwan Pop Music](/music/golden-melodies-legacy-taiwan-pop-music/) — Industry backdrop for Stefanie Sun's debut; context of Taiwan's recorded music industry peak in the 2000s
 - [Pop Music and the Golden Melody Awards](/music/pop-music-and-golden-melody-awards/) — How the Golden Melody evolved from an awards mechanism into a cultural taste-setter
-- [Jay Chou](/en/People/jay-chou/) — Same 12th Golden Melody cohort; the other lane defining Mandopop
+- [Jay Chou](/en/people/jay-chou/) — Same 12th Golden Melody cohort; the other lane defining Mandopop
 - [KTV Culture in Taiwan](/music/ktv-culture/) — Why Stefanie Sun's songs endure on KTV playlists
 - [Tanya Chua](/people/tanya-chua/) — Fellow Singaporean Mandopop singer of the same era; Tanya Chua co-wrote "Sixth Sense" for Stefanie Sun (2003)
 

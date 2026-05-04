@@ -39,7 +39,7 @@ This business model did not exist at the time. Semiconductor companies either de
 
 The government invested 48.3%, and Dutch Philips put in 27.5%. But Chang has said the government was "a reluctant investor" — if not for former Economics Minister K.T. Li (李國鼎) throwing his support behind it, the money never would have been allocated (source: [Commercial Times](https://www.ctee.com.tw/news/20230316700469-430502)).
 
-The first wafer fab was set up in [Hsinchu Science Park](/en/Technology/science-park-development/), with only a 0.8-micron process — four hundred times larger than today's 2-nanometer.
+The first wafer fab was set up in [Hsinchu Science Park](/en/technology/science-park-development/), with only a 0.8-micron process — four hundred times larger than today's 2-nanometer.
 
 The biggest problem in the early days was not technology but trust. Chang visited global semiconductor companies one by one, trying to convince them to hand over their most critical manufacturing to a small Taiwanese factory. Most found this inconceivable — hand over the lifeblood to a third party? But Chang insisted on one principle: no proprietary brands, never compete with customers. This commitment later proved to be TSMC's most powerful moat.
 
@@ -102,7 +102,7 @@ MIT Technology Review in 2025 ran a sharply titled report: "Taiwan's 'Silicon Sh
 
 A 2026 Substack analysis put it more directly: "From the US perspective, the core question is not 'how to protect Taiwan because of chips' but 'how to ensure chips are available no matter what happens.' That is a completely different risk calculation." (source: [TSPA Semiconductor](https://tspasemiconductor.substack.com/p/when-chips-meet-geopolitics-tsmc))
 
-At the same time, TSMC is also surviving in the gap between [the US-China tech war](/en/Economy/mediatek/). Complying with US export controls means losing part of the China market. Not complying could anger its most important ally. Chang has said globalization is dead, free world trade is dead — in such an environment, TSMC's challenge is to "continue seeking development."
+At the same time, TSMC is also surviving in the gap between [the US-China tech war](/en/economy/mediatek/). Complying with US export controls means losing part of the China market. Not complying could anger its most important ally. Chang has said globalization is dead, free world trade is dead — in such an environment, TSMC's challenge is to "continue seeking development."
 
 ## One Hundred Thousand Youth, One Hundred Thousand Livers
 

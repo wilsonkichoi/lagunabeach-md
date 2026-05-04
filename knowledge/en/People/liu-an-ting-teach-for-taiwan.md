@@ -63,7 +63,7 @@ After graduating from Princeton, Liu An-ting first worked at a management consul
 
 **She quit in less than a year and returned to Taiwan**[^1].
 
-In 2013, at a social enterprise camp organized by [Stanley Yen's](/en/People/stanley-yen/) Commonweal Alliance Foundation in Taiwan, she met **Stanley Yen, Fang Hsin-chou, and Li Ji-jen**. Stanley Yen was the founder of the Commonweal Alliance, president of Asia World Hotel, and a longtime advocate for Indigenous education; Fang Hsin-chou was a technology industry veteran who would later found the Junyi Academy Foundation; Li Ji-jen was then a professor at NTU's College of Management[^4]. They were discussing the "talent problem" in rural education — not an absence of educational resources, but an absence of good teachers willing to stay.
+In 2013, at a social enterprise camp organized by [Stanley Yen's](/en/people/stanley-yen/) Commonweal Alliance Foundation in Taiwan, she met **Stanley Yen, Fang Hsin-chou, and Li Ji-jen**. Stanley Yen was the founder of the Commonweal Alliance, president of Asia World Hotel, and a longtime advocate for Indigenous education; Fang Hsin-chou was a technology industry veteran who would later found the Junyi Academy Foundation; Li Ji-jen was then a professor at NTU's College of Management[^4]. They were discussing the "talent problem" in rural education — not an absence of educational resources, but an absence of good teachers willing to stay.
 
 After the camp ended, Liu An-ting spent six months conducting feasibility research. She traveled through rural areas, interviewed principals and teachers, and researched international cases[^4]. The model she referenced was **Teach For America**: a program founded in 1989 by Princeton alumna Wendy Kopp, using top-university graduates to fill teacher gaps in America's impoverished school districts[^4].
 
@@ -103,7 +103,7 @@ This distinction mattered deeply to her. Because she always knew one thing: **sh
 
 ## The "Transforming Education Power Couple"
 
-Liu An-ting's personal life is relatively low-key, but one thing is openly known in Taiwan's education community: **her husband is [Lu Guan-wei](/en/People/lu-guan-wei-junyiacademy-founder/)**[^10].
+Liu An-ting's personal life is relatively low-key, but one thing is openly known in Taiwan's education community: **her husband is [Lu Guan-wei](/en/people/lu-guan-wei-junyiacademy-founder/)**[^10].
 
 Lu Guan-wei graduated from NTU Medical School in 2013, left medicine for education, joined the Junyi Academy Foundation and recorded the first mathematics videos, and later became president and CEO of Junyi Academy[^11]. By 2024 Junyi Academy had accumulated more than 5.28 million users with 270,000 active monthly learners, making it Taiwan's largest non-profit online learning system[^11].
 
@@ -162,10 +162,10 @@ This is the story of the education activist of this generation in Taiwan most wo
 
 ## Further Reading
 
-- [Teach for Taiwan (TFT)](/en/Society/taiwan-slash-generation/) — TFT's complete organizational history, including the 3A framework, two-year program design, six-week training, 400+ alumni network, and Pingtung Educational Innovation Base. This article focuses on Liu An-ting as an individual; for TFT as an organization, see that article.
+- [Teach for Taiwan (TFT)](/en/society/taiwan-slash-generation/) — TFT's complete organizational history, including the 3A framework, two-year program design, six-week training, 400+ alumni network, and Pingtung Educational Innovation Base. This article focuses on Liu An-ting as an individual; for TFT as an organization, see that article.
 - Rural Education in Taiwan (台灣偏鄉教育) — The primary arena of Liu An-ting's eleven years of work. TFT's concentric-circle framework (child/school/community/society) was collectively built by TFT, but Liu An-ting was one of the key early advocates.
-- [Lu Guan-wei](/en/People/lu-guan-wei-junyiacademy-founder/) — Liu An-ting's husband, chairman and CEO of Junyi Academy. The other half of the "transforming education power couple"; in 2013 both simultaneously pivoted from their respective elite tracks into the fight against educational inequality.
-- [Stanley Yen](/en/People/stanley-yen/) — Founder of the Commonweal Alliance Foundation and one of the key connections at TFT's founding. In 2013, Liu An-ting met Fang Hsin-chou and Li Ji-jen at a social enterprise camp organized by Stanley Yen — that camp was TFT's incubation space.
+- [Lu Guan-wei](/en/people/lu-guan-wei-junyiacademy-founder/) — Liu An-ting's husband, chairman and CEO of Junyi Academy. The other half of the "transforming education power couple"; in 2013 both simultaneously pivoted from their respective elite tracks into the fight against educational inequality.
+- [Stanley Yen](/en/people/stanley-yen/) — Founder of the Commonweal Alliance Foundation and one of the key connections at TFT's founding. In 2013, Liu An-ting met Fang Hsin-chou and Li Ji-jen at a social enterprise camp organized by Stanley Yen — that camp was TFT's incubation space.
 - Learning Poverty (學習貧窮) — TFT listed "making learning poverty history" as one of its three 2030 ten-year vision goals. This is the strategic north star Liu An-ting left for the next generation of TFT leaders before stepping down.
 - Taiwan's Indigenous Education and Language Revitalization (台灣原住民族教育與語言復振的交界) — TFT's work at the Pingtung Educational Innovation Base and in schools serving Indigenous communities is an intersection with this issue. The 2030 strategic blueprint Liu An-ting wrote before stepping down as chairperson identifies this as a priority area.
 - Remote School District Education Development Act (偏遠地區學校教育發展條例全解) — Article 16 of the Act's "five-party cooperation" authorizes NGOs to enter rural schools; TFT was the earliest and largest case. 2017 Act + 2014 Liu An-ting = a timeline of public-private collaboration.

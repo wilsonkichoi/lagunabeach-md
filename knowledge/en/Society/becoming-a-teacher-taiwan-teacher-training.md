@@ -165,7 +165,7 @@ All three competencies happen to be the areas of greatest change in actual class
 
 But teacher training curricula have not fully caught up. The reason is not that professors are not committed — it is that **Article 7 of the Teacher Education Act grants teacher training universities autonomy over their curricula**[^1]. Teacher training universities may independently plan course content and credit allocation. This autonomy was originally intended to allow different institutions flexibility, but the result has been a loss of horizontal consistency in curriculum design — a student completing an elementary education program at NTNU may learn very different things from a student at National Dong Hwa University or National Pingtung University.
 
-[Teach for Taiwan (TFT)](/en/Society/taiwan-slash-generation/) mentioned a detail in one of its essays: **TFT's six-week intensive training is sometimes criticized as "too short," but in practice it covers classroom-ready competencies comparable to what four years of university teacher training covers**[^13]. This comment appears hyperbolic on the surface but points to a real problem: if four years of teacher training are not filled with intensive connections to real classrooms, those years do not translate into corresponding capabilities.
+[Teach for Taiwan (TFT)](/en/society/taiwan-slash-generation/) mentioned a detail in one of its essays: **TFT's six-week intensive training is sometimes criticized as "too short," but in practice it covers classroom-ready competencies comparable to what four years of university teacher training covers**[^13]. This comment appears hyperbolic on the surface but points to a real problem: if four years of teacher training are not filled with intensive connections to real classrooms, those years do not translate into corresponding capabilities.
 
 ## A Case Library Dominated by Urban Elite Schools
 
@@ -199,11 +199,11 @@ Becoming a teacher, from the 1994 open reform to the 52% certification pass rate
 
 ## Further Reading
 
-- [Teach for Taiwan (TFT)](/en/Society/taiwan-slash-generation/) — TFT's "two-year teacher program" is a parallel experiment to the existing teacher training system: six weeks of training + two years in the field + five hundred hours of in-service training, relocating the teacher training environment to rural communities. The Remote School District Act authorizes NGOs to participate; TFT is the largest practitioner.
+- [Teach for Taiwan (TFT)](/en/society/taiwan-slash-generation/) — TFT's "two-year teacher program" is a parallel experiment to the existing teacher training system: six weeks of training + two years in the field + five hundred hours of in-service training, relocating the teacher training environment to rural communities. The Remote School District Act authorizes NGOs to participate; TFT is the largest practitioner.
 - Remote School District Education Development Act (偏遠地區學校教育發展條例全解) — Article 5's six-year inter-assignment restriction, Article 7's dedicated teachers, and Article 16's five-party cooperation are all downstream remedies for insufficient teacher training supply. Teacher training and the Act must be read together.
 - Taiwan's Indigenous Education and Language Revitalization (台灣原住民族教育與語言復振的交界) — The 1.1% share of Indigenous teachers in the classroom is half attributable to a teacher training system without programs designed for tribal contexts. Figures like Camake Valaule who fill that gap through personal effort are exceptions, not a systemic solution.
 - Rural Education in Taiwan (台灣偏鄉教育) — The concentric-circle framework of rural education shows that teacher training is one of the most upstream factors. When the upstream loosens, no amount of downstream remediation is sufficient.
-- [Education System and Admissions Culture](/en/Society/education-system-and-admissions-culture/) — The culture of exam competition influences how students rank their choices; teacher training has been sliding lower in that order of values in recent years.
+- [Education System and Admissions Culture](/en/society/education-system-and-admissions-culture/) — The culture of exam competition influences how students rank their choices; teacher training has been sliding lower in that order of values in recent years.
 
 ## References
 

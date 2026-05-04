@@ -96,7 +96,7 @@ That house on Taipei's Xinyi Road was under surveillance by intelligence personn
 
 This detail gives the phrase "the case remains unsolved" a weight that is difficult to articulate.
 
-Lin Yi-hsiung did not know his family had been killed while in prison — he was not informed until two days later. He was unable to attend the funeral. His eldest daughter Lin Huanzun later lived in the United States with her mother, Fang Su-min. The Lin family massacre became the deepest mark on [Lin Yi-hsiung](/en/People/lin-yi-hsiung-democracy-advocate-tragedy-survivor/)'s lifelong political action, and one of the heaviest unresolved cases in Taiwan's transitional justice (台灣轉型正義, plain text + Chinese parenthesis) process.[^12]
+Lin Yi-hsiung did not know his family had been killed while in prison — he was not informed until two days later. He was unable to attend the funeral. His eldest daughter Lin Huanzun later lived in the United States with her mother, Fang Su-min. The Lin family massacre became the deepest mark on [Lin Yi-hsiung](/en/people/lin-yi-hsiung-democracy-advocate-tragedy-survivor/)'s lifelong political action, and one of the heaviest unresolved cases in Taiwan's transitional justice (台灣轉型正義, plain text + Chinese parenthesis) process.[^12]
 
 > **📝 Curator's Note**
 > Why the Lin family massacre occurred on the anniversary of the February 28 Incident has always been a mystery. Some believe it was a deliberate date selection; others believe it was coincidence. During the Taiwan White Terror (台灣白色恐怖, plain text + Chinese parenthesis) era, how many things "happened" this way — the answer has never been something a court ruling could provide.
@@ -110,10 +110,10 @@ They were: Chen Shui-bian, Frank Hsieh (Hsieh Chang-ting), Su Tseng-chang, Chang
 What these people went on to do:
 
 1. **September 28, 1986** — The Democratic Progressive Party was founded; Chiang Peng-chien was elected its first party chair
-2. **May 20, 1990** — [Lee Teng-hui](/en/People/lee-teng-hui/) pardoned the Formosa Incident political prisoners
+2. **May 20, 1990** — [Lee Teng-hui](/en/people/lee-teng-hui/) pardoned the Formosa Incident political prisoners
 3. **March 18, 2000** — Chen Shui-bian was elected President of the Republic of China, the first non-Kuomintang president
 4. **2000–2008** — Chang Chun-hsiung, Frank Hsieh, and Su Tseng-chang successively served as Premier
-5. **2019–2023** — Su Tseng-chang again served as Premier under [Tsai Ing-wen's](/en/People/tsai-ing-wen/) presidency
+5. **2019–2023** — Su Tseng-chang again served as Premier under [Tsai Ing-wen's](/en/people/tsai-ing-wen/) presidency
 
 Chen Shui-bian had taken on the defense of Huang Hsin-chieh. The person he defended later became the DPP's third party chair.
 
@@ -122,7 +122,7 @@ Meanwhile, of those eight defendants, all but Lin Hung-hsuan subsequently served
 Academia Sinica research fellow Wu Nai-teh analyzed: "The years after the Formosa Incident were also the period when the Kuomintang's authoritarian regime was most vulnerable. Withdrawal from the United Nations and U.S.-China diplomatic normalization stripped the Kuomintang's authoritarian system of its legitimacy; since recovering the mainland was no longer possible, the legislature would need to be fully reformed according to the constitution and Three Principles of the People, and martial law would have to be lifted." (BBC Chinese, 2019)[^3]
 
 > **📝 Curator's Note**
-> Taiwan's [democratic transition](/en/History/taiwan-democratization/) followed a very peculiar path: the person who ultimately pushed for martial law's end was Chiang Ching-kuo himself, not street pressure that directly forced his downfall. The Formosa Incident opened a contradictory process — it sent nearly all the dangwai elite to prison, while simultaneously bringing Taiwanese people for the first time into public discussion around "I want to vote, I want to freely publish newspapers, I want genuine elections."
+> Taiwan's [democratic transition](/en/history/taiwan-democratization/) followed a very peculiar path: the person who ultimately pushed for martial law's end was Chiang Ching-kuo himself, not street pressure that directly forced his downfall. The Formosa Incident opened a contradictory process — it sent nearly all the dangwai elite to prison, while simultaneously bringing Taiwanese people for the first time into public discussion around "I want to vote, I want to freely publish newspapers, I want genuine elections."
 
 ## Democratic Ripples: The Echoes of the 1980s
 
@@ -131,8 +131,8 @@ After the Formosa Incident, the families of the imprisoned and the defense lawye
 This path ultimately led to:
 
 - September 28, 1986: the Democratic Progressive Party announced its founding at the Grand Hotel Taipei — while martial law had not yet been lifted
-- July 1987: Taiwan lifted its [38-year martial law](/en/History/martial-law-era/)
-- 1988: Press restrictions lifted; [Lee Teng-hui](/en/People/lee-teng-hui/) assumed the presidency
+- July 1987: Taiwan lifted its [38-year martial law](/en/history/martial-law-era/)
+- 1988: Press restrictions lifted; [Lee Teng-hui](/en/people/lee-teng-hui/) assumed the presidency
 - 1990: Formosa Incident political prisoners received pardons
 - 1996: Taiwan's first direct presidential election
 
@@ -157,7 +157,7 @@ The Kaohsiung MRT's orange-red line interchange station, built on the former Dag
 
 Approximately 18,000 passengers walk under that dome daily, most of them just changing lines.[^11]
 
-When the students of the [Sunflower Movement](/en/Society/sunflower-movement/) occupied the Legislative Yuan in 2014, they invoked "the people's right to resist injustice." That lineage traces all the way back to the evening of December 10, 1979, when a group of people at a traffic circle said "lift martial law, allow new political parties" — and received in return tear gas and more than ten years in prison.
+When the students of the [Sunflower Movement](/en/society/sunflower-movement/) occupied the Legislative Yuan in 2014, they invoked "the people's right to resist injustice." That lineage traces all the way back to the evening of December 10, 1979, when a group of people at a traffic circle said "lift martial law, allow new political parties" — and received in return tear gas and more than ten years in prison.
 
 The perpetrator of the 1980 Lin family massacre has never been found.
 

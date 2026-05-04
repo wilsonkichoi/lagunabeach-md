@@ -140,4 +140,4 @@ Sus compatriotas lloraban afuera, su nombre circuló por la sociedad, y entonces
 - [Consejo de Pueblos Indígenas — Presentación de cada pueblo](https://www.apc.gov.tw/portal/index.html)
 - [Pueblos indígenas de Taiwán — Consejo de Pueblos Indígenas](https://www.apc.gov.tw/portal/index.html)
 
-_Lecturas complementarias: 台灣原住民族土地正義與傳統領域 (zh) · 台灣原住民族16族文化地圖 (zh) · 台灣原住民語言復振運動 (zh) · 台灣原住民飲食文化 (zh) · [Sabiduría ecológica y conservación ambiental de los pueblos indígenas de Taiwán](/es/Nature/taiwanese-indigenous-ecological-wisdom-conservation/) · 台灣原住民當代藝術 (zh)_
+_Lecturas complementarias: 台灣原住民族土地正義與傳統領域 (zh) · 台灣原住民族16族文化地圖 (zh) · 台灣原住民語言復振運動 (zh) · 台灣原住民飲食文化 (zh) · [Sabiduría ecológica y conservación ambiental de los pueblos indígenas de Taiwán](/es/nature/taiwanese-indigenous-ecological-wisdom-conservation/) · 台灣原住民當代藝術 (zh)_

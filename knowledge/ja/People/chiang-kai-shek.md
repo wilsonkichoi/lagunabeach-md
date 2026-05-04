@@ -55,7 +55,7 @@ category: People
 
 ---
 
-## [二二八事件](/ja/History/228-incident/)：最も避けられない問題
+## [二二八事件](/ja/history/228-incident/)：最も避けられない問題
 
 1947年2月28日、台北での密取締りをめぐる衝突が、台湾全土の武装蜂起を引き起こした。戦後の受け入れに対する本省人の不満が、この日に爆発した。
 
@@ -73,7 +73,7 @@ category: People
 
 ---
 
-## [台湾白色恐怖](/ja/History/white-terror/)：究極の裁判官
+## [台湾白色恐怖](/ja/history/white-terror/)：究極の裁判官
 
 二二八事件の後も、恐怖は終わらなかった。
 
@@ -216,7 +216,7 @@ category: People
 
 ---
 
-**関連記事：** [二二八事件](/ja/History/228-incident/) · [台湾白色恐怖](/ja/History/white-terror/) · [戒厳時期](/ja/History/martial-law-era/) · [台湾民主転型](/ja/History/democratic-transition/) · [台湾転換正義](/ja/History/transitional-justice/) · [美麗島事件](/ja/History/formosa-incident/) · 李登輝（台湾の政治家）
+**関連記事：** [二二八事件](/ja/history/228-incident/) · [台湾白色恐怖](/ja/history/white-terror/) · [戒厳時期](/ja/history/martial-law-era/) · [台湾民主転型](/ja/history/democratic-transition/) · [台湾転換正義](/ja/history/transitional-justice/) · [美麗島事件](/ja/history/formosa-incident/) · 李登輝（台湾の政治家）
 
 ---
 

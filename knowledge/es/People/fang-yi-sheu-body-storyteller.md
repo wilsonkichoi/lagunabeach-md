@@ -47,7 +47,7 @@ Ella y Lin Hwai-min (林懷民) representan dos polos de la danza contemporánea
 
 ## Interdisciplinariedad e influencia
 
-Sheu no se limitó al escenario. Participó en una película de [Ang Lee](/es/People/ang-lee/), colaboró con Cloud Gate 2, dio una charla en TEDx y llevó la educación corporal a las escuelas. En 2020 se estrenó su documental _Salute_, que dio a conocer a muchos taiwaneses a esta chica de Yilan que brillaba en la escena internacional de la danza.
+Sheu no se limitó al escenario. Participó en una película de [Ang Lee](/es/people/ang-lee/), colaboró con Cloud Gate 2, dio una charla en TEDx y llevó la educación corporal a las escuelas. En 2020 se estrenó su documental _Salute_, que dio a conocer a muchos taiwaneses a esta chica de Yilan que brillaba en la escena internacional de la danza.
 
 Una de sus frases se ha citado ampliamente: "Tu cuerpo es tu historia".
 

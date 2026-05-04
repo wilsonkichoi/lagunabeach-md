@@ -165,7 +165,7 @@ The 2015 Singapore meeting was a handshake; the 2026 Beijing meeting is a perfor
 - [Taiwan Defense and Military Modernization](/society/台灣國防與軍事現代化) (zh only) — Behind Cheng's "institutional arrangements to prevent war" is the political battle over the defense budget
 - Lai Ching-te (賴清德) — The other protagonist of this drama: the one deliberately kept out of the frame
 - Cheng Li-wun (鄭麗文) — From the student activist fasting for Taiwan independence at NTU's gates in 1988, to the KMT chairperson saying "people on both sides of the strait are Chinese" in Beijing in 2026
-- [Han Kuo-yu](/en/People/han-kuo-yu/) — Legislative Yuan president; this week's presiding figure in the Legislative Yuan budget negotiations; another key actor in this drama
+- [Han Kuo-yu](/en/people/han-kuo-yu/) — Legislative Yuan president; this week's presiding figure in the Legislative Yuan budget negotiations; another key actor in this drama
 
 ## References
 

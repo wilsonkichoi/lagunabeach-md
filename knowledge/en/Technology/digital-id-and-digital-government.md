@@ -92,7 +92,7 @@ In 2019, after the Ministry of the Interior visited Estonia, it wrote in its rep
 
 The digital ID ran aground, but Taiwan's digital governance is not a wasteland. In fact, what best represents the spirit of Taiwan's digital government is not the top-down New eID but the bottom-up civic tech and open-source community (公民科技與開源社群, zh only) — the g0v Zero Hour Government.
 
-In February 2020, as the COVID-19 epidemic was breaking out, Taiwan implemented a mask rationing system by real name, but residents didn't know which pharmacies still had masks. Wu Chan-wei, founder of Tainan's Wanting Lab, was the first to build a prototype mask map for convenience stores. Digital Minister [Audrey Tang](/en/People/audrey-tang/), who was then a Minister without Portfolio, saw it, immediately reached out to Wu Chan-wei, and within a few days coordinated the government to release open real-time mask inventory APIs.
+In February 2020, as the COVID-19 epidemic was breaking out, Taiwan implemented a mask rationing system by real name, but residents didn't know which pharmacies still had masks. Wu Chan-wei, founder of Tainan's Wanting Lab, was the first to build a prototype mask map for convenience stores. Digital Minister [Audrey Tang](/en/people/audrey-tang/), who was then a Minister without Portfolio, saw it, immediately reached out to Wu Chan-wei, and within a few days coordinated the government to release open real-time mask inventory APIs.
 
 > "Audrey Tang had decision-making authority and could also write code herself, so we didn't need to go up to Taipei to report to some official — developers could just focus on developing." — Wu Chan-wei (quoting from a 2020 Technews report)
 
@@ -104,7 +104,7 @@ The lesson from this story is not just about technology. The contrast between th
 
 ## From Digital Minister to Ministry of Digital Affairs
 
-[Audrey Tang's](/en/People/audrey-tang/) role in the mask map — not as a commander but as a bridge-builder — was later extended to her new position. On August 27, 2022, Taiwan's Ministry of Digital Affairs (moda) officially launched, with Audrey Tang as its inaugural minister. At the unveiling ceremony she noted that "moda" sounds like "motor" (馬達) in Mandarin, expressing the aspiration to serve as the engine of Taiwan's digital development.
+[Audrey Tang's](/en/people/audrey-tang/) role in the mask map — not as a commander but as a bridge-builder — was later extended to her new position. On August 27, 2022, Taiwan's Ministry of Digital Affairs (moda) officially launched, with Audrey Tang as its inaugural minister. At the unveiling ceremony she noted that "moda" sounds like "motor" (馬達) in Mandarin, expressing the aspiration to serve as the engine of Taiwan's digital development.
 
 The establishment of the Ministry of Digital Affairs was itself one of the products of New eID's failure. When the digital ID was suspended, Interior Minister Hsu Kuo-yung candidly admitted that there was currently "no answer" as to who the future digital ID's competent authority would be, or whether a new dedicated agency would need to be established. Two years later, the answer was revealed — the Ministry of Digital Affairs took over the entire puzzle.
 
@@ -124,7 +124,7 @@ While the path of digital ID was blocked, Taiwan has traveled much further than 
 
 The vTaiwan platform, launched in 2015, uses an AI tool called Pol.is to enable citizens to participate in policy formation. The best-known case is the 2015 discussion on Uber regulation — rather than the government negotiating with Uber, Uber drivers, taxi drivers, and passengers were invited to debate directly on the platform. The consensus that emerged became a reference for legislation. According to CrowdLaw statistics, since vTaiwan's launch, over 80% of discussion cases have ultimately been converted into concrete government actions.
 
-[Audrey Tang's](/en/People/audrey-tang/) perspective on vTaiwan is clear-eyed: "This is not a solution to democracy, but a process of building consensus. The rough consensus on vTaiwan can only serve as a reference for policy-making; to produce change still requires the force of civic participation." (Quoting from The Reporter's open government special feature)
+[Audrey Tang's](/en/people/audrey-tang/) perspective on vTaiwan is clear-eyed: "This is not a solution to democracy, but a process of building consensus. The rough consensus on vTaiwan can only serve as a reference for policy-making; to produce change still requires the force of civic participation." (Quoting from The Reporter's open government special feature)
 
 This mirrors the lesson of the digital ID card — technology itself is not a solution. Technology without trust is dangerous; with trust but rough technology, one might actually travel farther.
 

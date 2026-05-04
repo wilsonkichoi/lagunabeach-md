@@ -99,7 +99,7 @@ Taiwan's experience in endemic-species conservation holds important value for gl
 
 - Robert Swinhoe (史溫侯) — The first Western naturalist to systematically record Taiwanese species in the 1860s; Swinhoe's pheasant and the Taiwan softshell turtle, both named after him, remain emblematic species in Taiwan's endemic-species conservation.
 - Formosan Ornithology (福爾摩沙鳥類學) — Swinhoe's _The Ornithology of Formosa_, published in 1863, recorded 201 species; but central-mountain endemics like the Mikado pheasant, the Taiwan yuhina, and the Taiwan scimitar-babbler weren't named until 1906.
-- [Malayan Night Heron](/en/Nature/malayan-night-heron/) — Not a Taiwanese endemic, but the scale of its urban-population expansion in Taiwan is unique within its global range; the citizen-science colored-ring report data accumulated in Taiwan is a world-class sample.
+- [Malayan Night Heron](/en/nature/malayan-night-heron/) — Not a Taiwanese endemic, but the scale of its urban-population expansion in Taiwan is unique within its global range; the citizen-science colored-ring report data accumulated in Taiwan is a world-class sample.
 
 ## References
 

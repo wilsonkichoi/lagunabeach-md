@@ -43,7 +43,7 @@ La experiencia de transformación digital de la industria musical de Taiwán es 
 
 La década de 1990 fue el periodo dorado de la industria discográfica taiwanesa. En aquel entonces, había más de 3.000 tiendas de discos en todo Taiwán, desde cadenas como Rose Mass (玫瑰大眾), Jia Jia (佳佳), hasta pequeñas tiendas en esquinas y callejones, formando una densa red de consumo musical. Cada viernes era el «día de lanzamiento de nuevos temas», y los fans acudían especialmente a las tiendas de discos para comprar los últimos álbumes; los vendedores siempre conocían bien las características de cada álbum.
 
-En aquella época, vender cientos de miles de copias de un álbum era un fenómeno normal. [周杰倫](/es/People/jay-chou/) lanzó su primer álbum _Jay_ en 2000, que vendió más de 300.000 copias en Taiwán; el álbum _Second Life_ (《第二人生》) de 五月天 (Mayday) en 2001 estableció un récord de ventas de 500.000 copias. Las tiendas de discos no eran solo lugares para comprar música, sino también espacios sociales para los amantes de la música.
+En aquella época, vender cientos de miles de copias de un álbum era un fenómeno normal. [周杰倫](/es/people/jay-chou/) lanzó su primer álbum _Jay_ en 2000, que vendió más de 300.000 copias en Taiwán; el álbum _Second Life_ (《第二人生》) de 五月天 (Mayday) en 2001 estableció un récord de ventas de 500.000 copias. Las tiendas de discos no eran solo lugares para comprar música, sino también espacios sociales para los amantes de la música.
 
 ### El ecosistema completo de la estructura industrial
 

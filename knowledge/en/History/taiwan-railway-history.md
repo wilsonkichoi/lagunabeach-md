@@ -59,7 +59,7 @@ The historical gray zone lies here: Liu Mingchuan did build Taiwan's first railw
 
 One was a visionary, the other an executor. Who is the "father" depends on whether you think "starting" matters more, or "finishing." (The framing draws on the argumentative context of commentary by Chiang Ping-lun in the United Daily News Roaring Forum, https://opinion.udn.com/opinion/story/12705/4720975)
 
-> **Curator's Note:** The "father of Taiwan's railways" dispute is on the surface a historical debate, but underneath it is the identity politics Taiwan's society is perpetually grappling with — the legacy of the Qing Dynasty and the legacy of [Japanese colonial rule](/en/History/japanese-colonial-era/) — which one "belongs to us more"? This question appears not only in the railway context but also in Japanese colonial-era architecture, irrigation infrastructure, and even the medical system.
+> **Curator's Note:** The "father of Taiwan's railways" dispute is on the surface a historical debate, but underneath it is the identity politics Taiwan's society is perpetually grappling with — the legacy of the Qing Dynasty and the legacy of [Japanese colonial rule](/en/history/japanese-colonial-era/) — which one "belongs to us more"? This question appears not only in the railway context but also in Japanese colonial-era architecture, irrigation infrastructure, and even the medical system.
 
 ## April 20, 1908: That Day at Taichung Park
 
@@ -149,6 +149,6 @@ A hundred and thirty years have passed. The path is still there. Just wearing di
 
 Further Reading:
 
-- [The Qing Dynasty Period](/en/History/japanese-colonial-era/) — antecedent era context for the Liu Mingchuan railway
-- [The Japanese Colonial Era](/en/History/japanese-colonial-era/)
+- [The Qing Dynasty Period](/en/history/japanese-colonial-era/) — antecedent era context for the Liu Mingchuan railway
+- [The Japanese Colonial Era](/en/history/japanese-colonial-era/)
 - The Sino-French War (清法戰爭) — Liu Mingchuan was appointed Taiwan's first governor as a result of this conflict, and immediately launched the Keelung-to-Hsinchu railway construction

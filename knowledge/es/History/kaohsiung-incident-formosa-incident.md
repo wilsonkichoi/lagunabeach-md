@@ -89,10 +89,10 @@ La casa de la calle Xinyi, en Taipéi, estuvo vigilada por agentes de inteligenc
 
 Este detalle otorga a las palabras "caso sin resolver hasta hoy" un peso difícil de expresar.
 
-Lin Yi-hsiung, en prisión, desconocía la muerte de su familia; no se le informó hasta dos días después. No pudo asistir al funeral. La hija mayor, Lin Huan-chun, vivió posteriormente en Estados Unidos con su madre, Fang Su-min. El asesinato de la familia Lin se convirtió en la marca más profunda de la trayectoria política de 林義雄 (Lin Yi-hsiung), y en uno de los casos más graves aún sin resolver en el proceso de [justicia transicional en Taiwán](/es/History/taiwan-transitional-justice/).[^12]
+Lin Yi-hsiung, en prisión, desconocía la muerte de su familia; no se le informó hasta dos días después. No pudo asistir al funeral. La hija mayor, Lin Huan-chun, vivió posteriormente en Estados Unidos con su madre, Fang Su-min. El asesinato de la familia Lin se convirtió en la marca más profunda de la trayectoria política de 林義雄 (Lin Yi-hsiung), y en uno de los casos más graves aún sin resolver en el proceso de [justicia transicional en Taiwán](/es/history/taiwan-transitional-justice/).[^12]
 
 > **📝 Nota del curador**
-> Por qué el asesinato de la familia Lin ocurrió precisamente el día del 28 de Febrero sigue siendo un misterio. Algunos creen que la fecha fue elegida deliberadamente; otros, que fue una coincidencia. Durante el período del [Terror Blanco en Taiwán](/es/History/taiwan-white-terror/), ¿cuántas cosas ocurrieron "casualmente" de ese modo? La respuesta nunca ha estado en los veredictos judiciales.
+> Por qué el asesinato de la familia Lin ocurrió precisamente el día del 28 de Febrero sigue siendo un misterio. Algunos creen que la fecha fue elegida deliberadamente; otros, que fue una coincidencia. Durante el período del [Terror Blanco en Taiwán](/es/history/taiwan-white-terror/), ¿cuántas cosas ocurrieron "casualmente" de ese modo? La respuesta nunca ha estado en los veredictos judiciales.
 
 ## Desde la bancada de la defensa, un presidente y tres presidentes del Yuan Ejecutivo
 
@@ -106,7 +106,7 @@ Lo que sucedió después:
 2. **20/5/1990** — 李登輝 (Lee Teng-hui) concede amnistía a los presos políticos del Incidente de Formosa.
 3. **18/3/2000** — Chen Shui-bian elegido presidente de la República de China, primer presidente no afiliado al Kuomintang.
 4. **2000–2008** — Chang Chun-hsiung, Hsieh Chang-ting y Su Tseng-chang ocupan sucesivamente la presidencia del Yuan Ejecutivo.
-5. **2019–2023** — Su Tseng-chang vuelve a presidir el Yuan Ejecutivo bajo la presidencia de [Tsai Ing-wen](/es/People/tsai-ing-wen/).
+5. **2019–2023** — Su Tseng-chang vuelve a presidir el Yuan Ejecutivo bajo la presidencia de [Tsai Ing-wen](/es/people/tsai-ing-wen/).
 
 Chen Shui-bian había aceptado la defensa de Hsin-te Huang. La persona a quien defendió se convirtió después en el tercer presidente del Partido Democrático Progresista.
 
@@ -115,7 +115,7 @@ Al mismo tiempo, de los ocho acusados, siete —todos excepto Lin Hung-hsuan— 
 El investigador Wu Nai-teh, del Academia Sinica de Taiwán, analizó: "Los años posteriores al Incidente de Formosa fueron también el momento más frágil del régimen autoritario del Kuomintang. La salida de la ONU y el establecimiento de relaciones diplomáticas con Estados Unidos y China privaron al régimen autoritario de su legitimidad; dado que la recuperación del continente ya no era posible, según la constitución y su Principio de la Triple Democracia, el parlamento debía ser completamente elegido y la ley marcial debía levantarse." (Citado por BBC Chinese, 2019)[^3]
 
 > **📝 Nota del curador**
-> La [transición democrática de Taiwán](/es/History/martial-law-era/) siguió un camino peculiar: quien finalmente impulsó el fin de la ley marcial fue el propio Chiang Ching-kuo, y no la presión callejera lo obligó directamente a dimitir. El Incidente de Formosa inició un proceso contradictorio: encarceló a casi todas las figuras de la oposición, pero al mismo tiempo llevó por primera vez a los taiwaneses a un debate público sobre "quiero votar, quiero libertad de prensa, quiero elecciones de verdad".
+> La [transición democrática de Taiwán](/es/history/martial-law-era/) siguió un camino peculiar: quien finalmente impulsó el fin de la ley marcial fue el propio Chiang Ching-kuo, y no la presión callejera lo obligó directamente a dimitir. El Incidente de Formosa inició un proceso contradictorio: encarceló a casi todas las figuras de la oposición, pero al mismo tiempo llevó por primera vez a los taiwaneses a un debate público sobre "quiero votar, quiero libertad de prensa, quiero elecciones de verdad".
 
 ## Las ondas de la democracia: ecos en la década de 1980
 
@@ -124,7 +124,7 @@ Tras el Incidente de Formosa, los familiares de los encarcelados y sus abogados 
 Este camino condujo finalmente a:
 
 - 28 de septiembre de 1986: fundación del Partido Democrático Progresista en el Hotel Grand de Taipéi, aún bajo ley marcial.
-- Julio de 1987: [Taiwán levanta 38 años de ley marcial](/es/History/martial-law-era/).
+- Julio de 1987: [Taiwán levanta 38 años de ley marcial](/es/history/martial-law-era/).
 - 1988: fin de la censura de prensa; 李登輝 (Lee Teng-hui) asume la presidencia.
 - 1990: amnistía para los presos políticos del Incidente de Formosa.
 - 1996: primeras elecciones presidenciales directas.

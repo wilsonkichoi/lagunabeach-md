@@ -250,11 +250,11 @@ Mais il y a une version de lui à quatorze ans, qui est encore aujourd'hui dans 
 
 ## Pour aller plus loin
 
-- [Wang Qilin et Lee Yang (duo Lin-Yang)](/fr/People/lin-yang-duo/) — Comment deux camarades de collège ont réécrit l'histoire du badminton taïwan en trente-quatre minutes
-- [Tai Tzu-ying](/fr/People/tai-tzu-ying/) — Championne du monde en simple dames, appartenant à la même génération dorée du badminton taïwan que le duo Lin-Yang
+- [Wang Qilin et Lee Yang (duo Lin-Yang)](/fr/people/lin-yang-duo/) — Comment deux camarades de collège ont réécrit l'histoire du badminton taïwan en trente-quatre minutes
+- [Tai Tzu-ying](/fr/people/tai-tzu-ying/) — Championne du monde en simple dames, appartenant à la même génération dorée du badminton taïwan que le duo Lin-Yang
 - [Kuo Hsing-chun](/people/郭婞淳) — Médaille d'or olympique en haltérophilie à Tokyo, autre visage représentatif de la génération dorée olympique taïwanaise
 - [Transition démocratique de Taïwan](/history/台灣民主轉型) — Explique pourquoi le ministère des Sports n'a été élevé au rang de ministère qu'en 2025
-- [Lai Ching-te](/fr/People/lai-ching-te/) — Le président qui a supervisé l'assermentation de Lee Yang, quatrième président du DPP au pouvoir
+- [Lai Ching-te](/fr/people/lai-ching-te/) — Le président qui a supervisé l'assermentation de Lee Yang, quatrième président du DPP au pouvoir
 
 ## Références
 

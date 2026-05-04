@@ -133,4 +133,4 @@ translatedAt: '2026-05-01T18:02:56+08:00'
 - [原住民族委員会 — 各民族紹介](https://www.apc.gov.tw/portal/index.html)
 - [Taiwan's Indigenous Peoples — Council of Indigenous Peoples](https://www.apc.gov.tw/portal/index.html)
 
-_関連記事：[台湾原住民族の土地正義と伝統領域](/ja/Society/indigenous-land-rights/) · [台湾原住民族16族文化マップ](/ja/Culture/taiwan-indigenous-16-peoples-cultural-map/) · [台湾原住民の言語復興運動](/ja/Culture/indigenous-language-revitalization/) · [台湾原住民の食文化](/ja/Food/taiwan-indigenous-food-culture/) · 台湾原住民族の生態知恵と環境保全（台湾原住民族の生態知恵と環境保育） · [台湾原住民の現代アート](/ja/Art/indigenous-contemporary-art/)_
+_関連記事：[台湾原住民族の土地正義と伝統領域](/ja/society/indigenous-land-rights/) · [台湾原住民族16族文化マップ](/ja/culture/taiwan-indigenous-16-peoples-cultural-map/) · [台湾原住民の言語復興運動](/ja/culture/indigenous-language-revitalization/) · [台湾原住民の食文化](/ja/food/taiwan-indigenous-food-culture/) · 台湾原住民族の生態知恵と環境保全（台湾原住民族の生態知恵と環境保育） · [台湾原住民の現代アート](/ja/art/indigenous-contemporary-art/)_

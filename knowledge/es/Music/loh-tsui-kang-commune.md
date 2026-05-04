@@ -119,7 +119,7 @@ Puedes llamarlo tragedia. O puedes llamarlo el final más punk posible: un siste
 
 ## Lecturas complementarias
 
-- [Música independiente taiwanesa](/es/Music/taiwan-independent-music-scene-evolution/) — De Crystal Records a Underworld y la era del _streaming_: treinta años de la escena musical independiente de Taiwán
+- [Música independiente taiwanesa](/es/music/taiwan-independent-music-scene-evolution/) — De Crystal Records a Underworld y la era del _streaming_: treinta años de la escena musical independiente de Taiwán
 - (滅火器樂團 Fire EX.) — Otra banda que documentó una época con punk en taiwanés, veinticinco años desde el sur de Taiwán, Kaohsiung
 - Historia del rock taiwés — La trayectoria completa del rock de Taiwán de la escena underground a la corriente principal
 - Música popular y los Premios Golden Melody — Cuarenta años de los Golden Melody, el espejo anual de la industria musical taiwanesa

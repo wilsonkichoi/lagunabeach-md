@@ -162,8 +162,8 @@ In 2026, as the Sanying-line trains officially roll in, Beida faces its next tes
 
 ## Further reading
 
-- Taiwan urban development and the rural-urban divide ([台灣都市發展與城鄉差距](/en/Society/taiwan-urban-development-and-rural-urban-divide/)) — situating Beida within the longer arc of Taiwan's redevelopment zones and urban expansion.
-- [Linkou New Town](/en/Geography/linkou-new-town/) — for a parallel reading of how another former "ghost city" matured into a metropolitan area.
+- Taiwan urban development and the rural-urban divide ([台灣都市發展與城鄉差距](/en/society/taiwan-urban-development-and-rural-urban-divide/)) — situating Beida within the longer arc of Taiwan's redevelopment zones and urban expansion.
+- [Linkou New Town](/en/geography/linkou-new-town/) — for a parallel reading of how another former "ghost city" matured into a metropolitan area.
 - Sanxia tea (三峽茶) — extended reading on old Sanxia's local industries and cultural underlayer.
 
 ## References

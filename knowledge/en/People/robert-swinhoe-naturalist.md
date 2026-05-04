@@ -79,7 +79,7 @@ Taiwan Museum assistant researcher Lin Jun-cong has noted: "Swinhoe did not mere
 
 Four mammal species and fifteen bird species carry his name.[^12] The three most famous have fared very differently.
 
-Swinhoe's Pheasant (Lophura swinhoii) was one of 16 new Taiwan species Gould published at once in 1862; this blue mountain pheasant became one of Taiwan's most iconic [endemic species (特有種)](/en/Nature/endemic-species/).[^13] The IUCN once listed it as Endangered, with wild populations briefly falling below 200 individuals. After the establishment of protected areas, the population has recovered to 3,300–6,700 mature individuals, and it is now classified as Near Threatened.[^14] The [Taiwan Blue Magpie (台灣藍鵲)](/en/Nature/taiwan-blue-magpie/) (Urocissa caerulea) came from the same 1862 batch of specimens and won a public vote for national bird in 2007 with 520,000 votes.
+Swinhoe's Pheasant (Lophura swinhoii) was one of 16 new Taiwan species Gould published at once in 1862; this blue mountain pheasant became one of Taiwan's most iconic [endemic species (特有種)](/en/nature/endemic-species/).[^13] The IUCN once listed it as Endangered, with wild populations briefly falling below 200 individuals. After the establishment of protected areas, the population has recovered to 3,300–6,700 mature individuals, and it is now classified as Near Threatened.[^14] The [Taiwan Blue Magpie (台灣藍鵲)](/en/nature/taiwan-blue-magpie/) (Urocissa caerulea) came from the same 1862 batch of specimens and won a public vote for national bird in 2007 with 520,000 votes.
 
 Swinhoe's Softshell Turtle (Rafetus swinhoei) took a different path. Named in 1873 by Gray based on Swinhoe's specimen, it is today the world's most critically endangered chelonian, with only two known surviving individuals: one at Suzhou Zoo and one in Vietnam.[^15] Scientists are searching for undiscovered individuals in Vietnamese lakes using eDNA technology. If none are found, Rafetus swinhoei will become the first species named after Swinhoe to go extinct.
 
@@ -88,7 +88,7 @@ Swinhoe's Softshell Turtle (Rafetus swinhoei) took a different path. Named in 18
 
 ## The Byproducts of Diplomacy
 
-Swinhoe left more to Taiwan than just specimens. In 1862 he wrote the "Report on the Island of Formosa" for 1862, assessing the export potential of Taiwanese tea.[^16] This report indirectly attracted Scottish merchant John Dodd to Taiwan. Dodd imported tea seedlings from Anxi, and in 1869 shipped 2,131 piculs of Taiwanese oolong tea directly to New York for the first time, under the label "Choicest Formosa Oolong Tea" — the starting point of [Taiwan's tea export industry (茶文化)](/en/Food/tea-culture/) traces back to a naturalist's trade report.
+Swinhoe left more to Taiwan than just specimens. In 1862 he wrote the "Report on the Island of Formosa" for 1862, assessing the export potential of Taiwanese tea.[^16] This report indirectly attracted Scottish merchant John Dodd to Taiwan. Dodd imported tea seedlings from Anxi, and in 1869 shipped 2,131 piculs of Taiwanese oolong tea directly to New York for the first time, under the label "Choicest Formosa Oolong Tea" — the starting point of [Taiwan's tea export industry (茶文化)](/en/food/tea-culture/) traces back to a naturalist's trade report.
 
 In 1864, he published two short pieces in Scientific American: one on Taiwan camphor, one on the rice-paper plant (Tetrapanax papyrifer), the raw material for Xuan paper.[^17] Camphor later ignited the 1868 international trade dispute, when the trading house Elles & Co. had smuggled camphor impounded by Qing authorities; Swinhoe briefly returned to Taiwan to handle the matter, and both sides signed the Camphor Regulations, ending the monopoly.
 
@@ -122,8 +122,8 @@ That bird is still singing in Taiwan's mountains. It does not know its own scien
 
 - [The Ornithology of Formosa](/nature/福爾摩沙鳥類學) — A deep dive into Swinhoe's 1863 The Ornithology of Formosa: 201 Latin names, 30 hunters, and the Central Mountain Range he never entered
 - [Qing-era Taiwan](/history/清治時期) — The historical context of Swinhoe's time in Taiwan: treaty ports, camphor disputes, and Formosa squeezed between empires
-- [Taiwan Endemic Species (特有種)](/en/Nature/endemic-species/) — Many of the species Swinhoe recorded were later confirmed as endemic to Taiwan
-- [Taiwan Blue Magpie (台灣藍鵲)](/en/Nature/taiwan-blue-magpie/) — Swinhoe collected the specimen in 1862; winner of the 2007 national bird vote
+- [Taiwan Endemic Species (特有種)](/en/nature/endemic-species/) — Many of the species Swinhoe recorded were later confirmed as endemic to Taiwan
+- [Taiwan Blue Magpie (台灣藍鵲)](/en/nature/taiwan-blue-magpie/) — Swinhoe collected the specimen in 1862; winner of the 2007 national bird vote
 - [Charles Le Gendre](/people/李仙得) — Another foreign diplomat of the same era who left a deep mark on Formosa, but with very different motivations
 - [The 19th-Century Camphor Wars](/history/19世紀的樟腦戰爭) — Swinhoe's 1864 "Formosa Camphor" is the prehistory of this conflict: three-tiered price differentials, gifts traded for felling permits, and annual Tamsui output of 6,000 piculs
 

@@ -35,7 +35,7 @@ El 12 de marzo de 1867, el barco mercante estadounidense _Rover_, en ruta de Sha
 
 14 personas fueron asesinadas. Solo un marinero de origen cantonés logró escapar y llevó la noticia a Takao (打狗).
 
-La noticia llegó a Amoy. El cónsul estadounidense Charles Le Gendre viajó de inmediato al norte, a Fuzhou, para negociar con el virrey de Fujian y Zhejiang. La posición de la [dinastía Qing](/es/History/qing-dynasty-rule/) fue clara: aquello era tierra de "bárbaros no sometidos" (生番), fuera de su jurisdicción[^2]. La marina estadounidense también intentó intervenir por la fuerza: el USS Hartford desembarcó 181 soldados, pero fueron rechazados por los Paiwan; el comandante Alexander MacKenzie murió en combate[^3].
+La noticia llegó a Amoy. El cónsul estadounidense Charles Le Gendre viajó de inmediato al norte, a Fuzhou, para negociar con el virrey de Fujian y Zhejiang. La posición de la [dinastía Qing](/es/history/qing-dynasty-rule/) fue clara: aquello era tierra de "bárbaros no sometidos" (生番), fuera de su jurisdicción[^2]. La marina estadounidense también intentó intervenir por la fuerza: el USS Hartford desembarcó 181 soldados, pero fueron rechazados por los Paiwan; el comandante Alexander MacKenzie murió en combate[^3].
 
 Los barcos de guerra no pudieron imponerse, y las autoridades no quisieron actuar. Le Gendre decidió ir él mismo.
 

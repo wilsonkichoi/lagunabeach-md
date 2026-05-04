@@ -113,4 +113,4 @@ translatedAt: '2026-05-01T18:02:56+08:00'
 
 ---
 
-_関連記事：[台湾原住民族歴史と正名運動](/ja/History/indigenous-peoples-history-and-renaming/) · [台湾原住民族土地正義と伝統領域](/ja/Society/indigenous-land-rights/) · [台湾原住民言語復興運動](/ja/Culture/indigenous-language-revitalization/) · [台湾原住民飲食文化](/ja/Food/taiwan-indigenous-food-culture/) · 台湾原住民族の生態知恵と環境保全（台湾原住民族の生態知恵と環境保育） · [台湾原住民現代芸術](/ja/Art/indigenous-contemporary-art/)_
+_関連記事：[台湾原住民族歴史と正名運動](/ja/history/indigenous-peoples-history-and-renaming/) · [台湾原住民族土地正義と伝統領域](/ja/society/indigenous-land-rights/) · [台湾原住民言語復興運動](/ja/culture/indigenous-language-revitalization/) · [台湾原住民飲食文化](/ja/food/taiwan-indigenous-food-culture/) · 台湾原住民族の生態知恵と環境保全（台湾原住民族の生態知恵と環境保育） · [台湾原住民現代芸術](/ja/art/indigenous-contemporary-art/)_

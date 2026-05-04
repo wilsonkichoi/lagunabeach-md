@@ -168,4 +168,4 @@ El arte contemporáneo de los pueblos indígenas de Taiwán ha recorrido en las 
 
 ---
 
-_Lecturas complementarias: 台灣原住民族歷史與正名運動 (zh) · 台灣原住民族土地正義與傳統領域 (zh) · 台灣原住民族16族文化地圖 (zh) · 台灣原住民語言復振運動 (zh) · 台灣原住民飲食文化 (zh) · [台灣原住民生態智慧與環境保育](/es/Nature/taiwanese-indigenous-ecological-wisdom-conservation/)_
+_Lecturas complementarias: 台灣原住民族歷史與正名運動 (zh) · 台灣原住民族土地正義與傳統領域 (zh) · 台灣原住民族16族文化地圖 (zh) · 台灣原住民語言復振運動 (zh) · 台灣原住民飲食文化 (zh) · [台灣原住民生態智慧與環境保育](/es/nature/taiwanese-indigenous-ecological-wisdom-conservation/)_

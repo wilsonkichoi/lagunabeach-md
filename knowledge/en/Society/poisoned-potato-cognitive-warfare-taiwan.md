@@ -258,7 +258,7 @@ Food-safety concerns (physiological layer)
 
 Chen Binhua's 29 April line — "yet again sacrificing the lives and health of the people as an 'offering' to flatter the US" — is precisely the compression of these five layers, pushing from food-safety concern to foreign-policy frame in one sentence. The phrase "the offering" is especially important; over the past few years, it has been the CCP's overall framing of the Taiwan-US trade-agreement family (ractopamine pork, chips, ART, arms sales): every agreement = the DPP submitting an offering to America.
 
-[Puma Shen](/en/People/puma-shen/) (沈伯洋), who has researched the CCP's information warfare against Taiwan for 8 years, gives a quantitative judgment:
+[Puma Shen](/en/people/puma-shen/) (沈伯洋), who has researched the CCP's information warfare against Taiwan for 8 years, gives a quantitative judgment:
 
 > "In the information war China wages on Taiwan, 80% has nothing to do with 'true or false' — it's mostly 'narrative attack,' i.e., manufacturing a perspective."[^52]
 
@@ -323,11 +323,11 @@ Shen has also said something more upstream: "The establishment of friend-enemy c
 
 ## Further reading
 
-- [Cognitive Warfare Against Taiwan](/en/Society/cognitive-warfare-against-taiwan/) — The overall framework of CCP information manipulation and Taiwan's countermeasures
+- [Cognitive Warfare Against Taiwan](/en/society/cognitive-warfare-against-taiwan/) — The overall framework of CCP information manipulation and Taiwan's countermeasures
 - 2026 Cheng-Xi Meeting and the Reunion of KMT-CCP Ten Years Later (2026鄭習會與國共十年再會) — Another inflection point in cross-strait relations during the same period
-- [Taiwan Strait Crises and Cross-Strait Relations Development](/en/History/taiwan-strait-crises-and-cross-strait-relations/) — The longer historical context of the "offering" narrative
-- [Tsai Ing-wen](/en/People/tsai-ing-wen/) — The decision-maker on 2020-2021 ractopamine-pork policy, the previous layer of the scar
-- [Lai Ching-te](/en/People/lai-ching-te/) — The presidential term during which the ART agreement was signed
+- [Taiwan Strait Crises and Cross-Strait Relations Development](/en/history/taiwan-strait-crises-and-cross-strait-relations/) — The longer historical context of the "offering" narrative
+- [Tsai Ing-wen](/en/people/tsai-ing-wen/) — The decision-maker on 2020-2021 ractopamine-pork policy, the previous layer of the scar
+- [Lai Ching-te](/en/people/lai-ching-te/) — The presidential term during which the ART agreement was signed
 
 ---
 

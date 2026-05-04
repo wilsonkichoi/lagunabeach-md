@@ -97,7 +97,7 @@ This article is not about choosing one of these identities for him — it is abo
 
 ## 30-Second Overview
 
-> **Lee Yang**, born 1995 in Taipei, household registered in Guning, Jinning Township, Kinmen County.[^3] His father, Lee Chun-yu (originally named Lee Kai-hu), served in the presidential guard unit at Chiang Ching-kuo's Shuangcheng Street residence and later became deputy chief of the Central Bank security detail.[^4] As a child, he was pushed by his father to practice badminton at Zhonghe Yuantong Temple, where he was told to his face "you're not cut out for badminton."[^3] For three years in junior high, he woke at 5:30 a.m. every day, was carried by his mother on a scooter to the Nanshijiao station to catch the first MRT train, transferred three times across four lines to reach Zhongshan Junior High School in Taipei City — and arrived each day to do the previous night's unfinished homework at the convenience store beside the school gate while waiting for it to open.[^23] In late 2018 he teamed with junior high classmate Wang Chi-lin to form the "[Lin Yang Duo](/en/People/lin-yang-duo-taiwan-badminton-champions/)"; 2021 Tokyo Olympics men's doubles gold medal; 2024 Paris Olympics title defense — the first pair in Olympic history to win back-to-back men's doubles gold as unseeded entrants.[^5] He retired in September 2024, and on September 9, 2025, became the first-ever Minister of Sports of the Republic of China at age thirty, the youngest cabinet member in history.[^6] In his first seven months in office he faced a deputy's sudden resignation, a women's football petition for a coaching change, an athletics meet nearly cancelled, swimmer Lin Yu-hsu's accusations of Paralympic suppression, and four other controversies. On April 13, 2026, he announced he would donate in full the NT$10 million Olympic bonus that Lin Hong-dao had paid him.[^20]
+> **Lee Yang**, born 1995 in Taipei, household registered in Guning, Jinning Township, Kinmen County.[^3] His father, Lee Chun-yu (originally named Lee Kai-hu), served in the presidential guard unit at Chiang Ching-kuo's Shuangcheng Street residence and later became deputy chief of the Central Bank security detail.[^4] As a child, he was pushed by his father to practice badminton at Zhonghe Yuantong Temple, where he was told to his face "you're not cut out for badminton."[^3] For three years in junior high, he woke at 5:30 a.m. every day, was carried by his mother on a scooter to the Nanshijiao station to catch the first MRT train, transferred three times across four lines to reach Zhongshan Junior High School in Taipei City — and arrived each day to do the previous night's unfinished homework at the convenience store beside the school gate while waiting for it to open.[^23] In late 2018 he teamed with junior high classmate Wang Chi-lin to form the "[Lin Yang Duo](/en/people/lin-yang-duo-taiwan-badminton-champions/)"; 2021 Tokyo Olympics men's doubles gold medal; 2024 Paris Olympics title defense — the first pair in Olympic history to win back-to-back men's doubles gold as unseeded entrants.[^5] He retired in September 2024, and on September 9, 2025, became the first-ever Minister of Sports of the Republic of China at age thirty, the youngest cabinet member in history.[^6] In his first seven months in office he faced a deputy's sudden resignation, a women's football petition for a coaching change, an athletics meet nearly cancelled, swimmer Lin Yu-hsu's accusations of Paralympic suppression, and four other controversies. On April 13, 2026, he announced he would donate in full the NT$10 million Olympic bonus that Lin Hong-dao had paid him.[^20]
 
 ## "You're Not Cut Out for Badminton"
 
@@ -116,7 +116,7 @@ That was not a motivational goad — his father genuinely thought this child mig
 
 Around 2008, Lee Yang enrolled in the badminton program at Taipei Municipal Zhongshan Junior High School. In that cohort was a classmate who was already close to 180 cm tall and could smash at over 300 km/h — Wang Chi-lin.[^7]
 
-The two were classmates for three years but never played doubles together. The coach at the time paired Wang Chi-lin with Chen Hung-lin in the "Double Lin Combination" (nicknamed the Kirin Pair), whose world ranking reached as high as fourth; Lee Yang was partnered with another teammate, Li Che-hui, and in 2017 they won the French Open Super Series.[^5] During the same period, Lee Yang and [Tai Tzu-ying](/en/People/tai-tzu-ying/) were both boarding athletes at the National Training Center, though no one in the men's doubles program foresaw that "those two kids from Zhongshan Junior High" would end up as double gold medalists.
+The two were classmates for three years but never played doubles together. The coach at the time paired Wang Chi-lin with Chen Hung-lin in the "Double Lin Combination" (nicknamed the Kirin Pair), whose world ranking reached as high as fourth; Lee Yang was partnered with another teammate, Li Che-hui, and in 2017 they won the French Open Super Series.[^5] During the same period, Lee Yang and [Tai Tzu-ying](/en/people/tai-tzu-ying/) were both boarding athletes at the National Training Center, though no one in the men's doubles program foresaw that "those two kids from Zhongshan Junior High" would end up as double gold medalists.
 
 Lee Yang's three years in junior high went something like this — as he later described it himself[^23]:
 
@@ -142,7 +142,7 @@ There was a moment in between when he almost gave up. In the first semester of h
 
 Lowering his stance to the floor, treating every moment as simply pushing against his own limits, ultimately cultivated what he called his "philosophy of trying one's best." In the second semester of his final year of high school he clawed his way to third in the nation under a sports admission scheme, earned a spot at the National Taipei University of Business's Department of Business Administration, and that July finally received the Division A registration he had been waiting years for, signed by the Land Bank of Taiwan team.[^24]
 
-In late 2018, Lee Yang's partner Chen Hung-lin expressed his intention to retire. Lee Yang immediately decided to abandon all his then-current world ranking points and pair up again with his junior high classmate of nine years.[^7] The [Lin Yang Duo](/en/People/lin-yang-duo-taiwan-badminton-champions/) was born.
+In late 2018, Lee Yang's partner Chen Hung-lin expressed his intention to retire. Lee Yang immediately decided to abandon all his then-current world ranking points and pair up again with his junior high classmate of nine years.[^7] The [Lin Yang Duo](/en/people/lin-yang-duo-taiwan-badminton-champions/) was born.
 
 ## The "Academic Probation" at NTUB Business School
 
@@ -179,7 +179,7 @@ Lee Yang said that was a question he kept turning over in his mind. In 2022 he d
 
 ## Thirty-Four Minutes
 
-At the 2021 Tokyo Olympics, the [Lin Yang Duo](/en/People/lin-yang-duo-taiwan-badminton-champions/) entered the tournament ranked third in the world and were placed in what many called a group of death — they lost to Indonesia in their very first group match.[^5] In the knockout rounds they successively defeated the top four seeds, including a comeback win over Malaysia in the quarterfinals, a two-to-one victory over the world number one Indonesian pair of Ahsan and Setiawan in the semifinals, and then meeting China's Li Jun-hui and Liu Yu-chen in the final.[^5]
+At the 2021 Tokyo Olympics, the [Lin Yang Duo](/en/people/lin-yang-duo-taiwan-badminton-champions/) entered the tournament ranked third in the world and were placed in what many called a group of death — they lost to Indonesia in their very first group match.[^5] In the knockout rounds they successively defeated the top four seeds, including a comeback win over Malaysia in the quarterfinals, a two-to-one victory over the world number one Indonesian pair of Ahsan and Setiawan in the semifinals, and then meeting China's Li Jun-hui and Liu Yu-chen in the final.[^5]
 
 The final lasted thirty-four minutes. First game: 21–18. Second game: 21–12.[^5] When the final shuttle dropped, Lee Yang's backhand just grazed the line. China challenged on Hawk-Eye. Lee Yang's words to Wang Chi-lin were simply: "Don't rush."[^2]
 
@@ -196,7 +196,7 @@ In the three years that followed, their world ranking reached a peak of second (
 
 ## Holding Hands and the Back-to-Back Title
 
-On August 4, 2024, at the Paris La Chapelle Arena, the [Lin Yang Duo](/en/People/lin-yang-duo-taiwan-badminton-champions/) walked into the gold medal match again. Media called them "Olympic-type players": their tour results were unremarkable, but they always found their level on the Olympic stage.[^10]
+On August 4, 2024, at the Paris La Chapelle Arena, the [Lin Yang Duo](/en/people/lin-yang-duo-taiwan-badminton-champions/) walked into the gold medal match again. Media called them "Olympic-type players": their tour results were unremarkable, but they always found their level on the Olympic stage.[^10]
 
 After the match ended, Wang Chi-lin reached out and grabbed Lee Yang's hand, and the two walked up to the podium together. The camera caught them gripping each other so tightly that memes circulated online asking "are they getting married?" But what they actually wanted people to hear was something else entirely:
 
@@ -228,7 +228,7 @@ His own stated reason was equally concrete:
 
 Premier Cho's public version was more direct: "Nothing is harder than winning an Olympic gold medal."[^14]
 
-On September 9, 2025, the Ministry of Sports held its unveiling ceremony at NTU's General Sports Building. Thirty-year-old Lee Yang became the youngest cabinet minister in the history of the Republic of China, with President [Lai Ching-te](/en/People/lai-ching-te/) presiding over the swearing-in.[^6] In budgetary terms, the total sports budget for fiscal year 2026 was NT$24.8 billion, NT$7.2 billion more than the year before — a historic high.[^16]
+On September 9, 2025, the Ministry of Sports held its unveiling ceremony at NTU's General Sports Building. Thirty-year-old Lee Yang became the youngest cabinet minister in the history of the Republic of China, with President [Lai Ching-te](/en/people/lai-ching-te/) presiding over the swearing-in.[^6] In budgetary terms, the total sports budget for fiscal year 2026 was NT$24.8 billion, NT$7.2 billion more than the year before — a historic high.[^16]
 
 But breaking down that NT$24.8 billion reveals that the Ministry of Sports could directly allocate only NT$5.192 billion — a NT$342 million increase over the prior year's NT$4.85 billion. The remaining NT$20 billion was distributed across items such as NT$5.4 billion in general subsidies to local governments, NT$9.373 billion in the Sports Development Fund, and NT$3.4 billion across other ministries — funds the Ministry could influence but not directly control.[^16]
 
@@ -256,7 +256,7 @@ But on April 13 — four days after the deputy's resignation — Lee Yang person
 
 ## NT$10 Million — Exactly 30% of His Savings
 
-On the same day, April 13, 2026, Chinese Taipei Olympic Committee honorary chairman Lin Hong-dao announced that he would personally pay supplemental bonuses for the 2020 Tokyo and 2024 Paris Olympics. The formula was "NT$10 million added per gold medal event"; since the [Lin Yang Duo](/en/People/lin-yang-duo-taiwan-badminton-champions/) competed in men's doubles, two gold medals across two Games yielded a combined supplemental total of NT$20 million for the pair, but **Lee Yang's personal receipt was NT$10 million**.[^20][^29]
+On the same day, April 13, 2026, Chinese Taipei Olympic Committee honorary chairman Lin Hong-dao announced that he would personally pay supplemental bonuses for the 2020 Tokyo and 2024 Paris Olympics. The formula was "NT$10 million added per gold medal event"; since the [Lin Yang Duo](/en/people/lin-yang-duo-taiwan-badminton-champions/) competed in men's doubles, two gold medals across two Games yielded a combined supplemental total of NT$20 million for the pair, but **Lee Yang's personal receipt was NT$10 million**.[^20][^29]
 
 > **Did you know?**
 > There are two different figures circulating in the news about whether Lee Yang donated NT$20 million or NT$10 million. Some outlets wrote "2000万全捐" (NT$20 million fully donated), counting the Lin Yang Duo's total as a unit; others explicitly stated "split in half, NT$10 million per person" or "Lee Yang received NT$10 million and decided to donate it all." **The correct answer is that Lee Yang personally received NT$10 million and donated it in full.** Lin Hong-dao's formula was "NT$10 million per gold medal event"; since the Lin Yang Duo competed in doubles, two gold medals across two Games totaled NT$20 million combined — NT$10 million per person.[^20][^29] **Note:** This NT$10 million personally donated by Lin Hong-dao is completely separate from the National Glory Sports Medal gold medal prize (for which individual gold medalists can choose a one-time payment of NT$20 million or lifetime monthly payments of NT$125,000). The Lin Yang Duo had already selected the monthly lifetime option in 2024; that is an entirely separate fund unrelated to this Lin Hong-dao top-up.[^30]
@@ -303,11 +303,11 @@ But there is a fourteen-year-old version of him, somewhere right now in a conven
 
 ## Further Reading
 
-- [Wang Chi-lin and Lee Yang (the Lin Yang Duo)](/en/People/lin-yang-duo-taiwan-badminton-champions/) — How two junior high classmates rewrote Taiwan badminton history in thirty-four minutes
-- [Tai Tzu-ying](/en/People/tai-tzu-ying/) — Women's singles world number one from the same golden generation of Taiwan badminton as the Lin Yang Duo
+- [Wang Chi-lin and Lee Yang (the Lin Yang Duo)](/en/people/lin-yang-duo-taiwan-badminton-champions/) — How two junior high classmates rewrote Taiwan badminton history in thirty-four minutes
+- [Tai Tzu-ying](/en/people/tai-tzu-ying/) — Women's singles world number one from the same golden generation of Taiwan badminton as the Lin Yang Duo
 - Kuo Hsing-chun (郭婞淳) — Tokyo Olympics weightlifting gold medalist, another face of Taiwan's Olympic golden generation
 - Taiwan's Democratic Transition (台灣民主轉型) — Explains why the Ministry of Sports only became a full ministry in 2025, having previously been the Sports Administration
-- [Lai Ching-te](/en/People/lai-ching-te/) — The president who presided over Lee Yang's swearing-in, the fourth DPP president
+- [Lai Ching-te](/en/people/lai-ching-te/) — The president who presided over Lee Yang's swearing-in, the fourth DPP president
 
 ## References
 

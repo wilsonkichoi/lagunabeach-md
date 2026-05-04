@@ -199,4 +199,4 @@ translatedAt: 2026-05-01T19:52:32+08:00
 
 ---
 
-_関連記事：[台湾原住民族の歴史と正名運動](/ja/History/indigenous-peoples-history-and-renaming/) · [台湾原住民族の土地正義と伝統的領域](/ja/Society/indigenous-land-rights/) · [台湾原住民族16族の文化地図](/ja/Culture/taiwan-indigenous-16-peoples-cultural-map/) · [台湾原住民の言語復興運動](/ja/Culture/indigenous-language-revitalization/) · [台湾原住民の食文化](/ja/Food/taiwan-indigenous-food-culture/) · [台湾原住民の現代アート](/ja/Art/indigenous-contemporary-art/)_
+_関連記事：[台湾原住民族の歴史と正名運動](/ja/history/indigenous-peoples-history-and-renaming/) · [台湾原住民族の土地正義と伝統的領域](/ja/society/indigenous-land-rights/) · [台湾原住民族16族の文化地図](/ja/culture/taiwan-indigenous-16-peoples-cultural-map/) · [台湾原住民の言語復興運動](/ja/culture/indigenous-language-revitalization/) · [台湾原住民の食文化](/ja/food/taiwan-indigenous-food-culture/) · [台湾原住民の現代アート](/ja/art/indigenous-contemporary-art/)_

@@ -70,8 +70,8 @@ As an outstanding representative of scientists of Chinese heritage, Chu's achiev
 
 ## Further Reading
 
-- [Wu Ta-You (吳大猷)](/en/People/tai-yu-wu/) — The founder of physics in Taiwan, belonging to the same postwar generation of Taiwanese scientists who built influence within the American academic system as Chu
-- [Lee Yuan-Tseh (李遠哲)](/en/People/lee-yuan-tseh/) — Nobel laureate in chemistry and another representative who went from Taiwan to the international scientific elite
+- [Wu Ta-You (吳大猷)](/en/people/tai-yu-wu/) — The founder of physics in Taiwan, belonging to the same postwar generation of Taiwanese scientists who built influence within the American academic system as Chu
+- [Lee Yuan-Tseh (李遠哲)](/en/people/lee-yuan-tseh/) — Nobel laureate in chemistry and another representative who went from Taiwan to the international scientific elite
 - Lin Chi-Er (林琪兒) — A Taipei-born NASA astronaut and medical doctor, showing how a dual Taiwanese-American cultural background can flourish across different disciplines
 
 ## References

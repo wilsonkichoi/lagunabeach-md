@@ -41,7 +41,7 @@ These names preceded the Chinese-language name "Yushan" by thousands of years. D
 > **📝 Curator's Note**
 > A mountain's naming history is an island's power history. Whoever has the right to name it has claimed sovereignty. But the Bunun never needed to claim anything — they were always there.
 
-Taiwan's five mountain ranges (Central Range, Xueshan Range, Yushan Range, Coastal Range, Alishan Range) are the product of the collision and compression between the Eurasian Plate and the Philippine Sea Plate. The Central Range runs 270 kilometers north to south like a spine through the entire island, with more than 170 peaks above 3,000 meters. From sea level to nearly 4,000 meters, the vertical distance spans only a few dozen kilometers, with climate shifting from subtropical to alpine subarctic. This "compressed vertical world" allows Taiwan to contain, within a tiny area, a complete ecological spectrum from [camphor broadleaf forests](/en/Nature/taiwan-forest-ecosystems/) to [high-mountain grasslands](/en/Nature/taiwan-alpine-ecosystems-glacial-relicts/).
+Taiwan's five mountain ranges (Central Range, Xueshan Range, Yushan Range, Coastal Range, Alishan Range) are the product of the collision and compression between the Eurasian Plate and the Philippine Sea Plate. The Central Range runs 270 kilometers north to south like a spine through the entire island, with more than 170 peaks above 3,000 meters. From sea level to nearly 4,000 meters, the vertical distance spans only a few dozen kilometers, with climate shifting from subtropical to alpine subarctic. This "compressed vertical world" allows Taiwan to contain, within a tiny area, a complete ecological spectrum from [camphor broadleaf forests](/en/nature/taiwan-forest-ecosystems/) to [high-mountain grasslands](/en/nature/taiwan-alpine-ecosystems-glacial-relicts/).
 
 ## The Father of the Hundred Peaks
 
@@ -91,9 +91,9 @@ Origins may be in dispute; the scenery is not. The Xiangyang and Jiaming Lake mo
 
 ## The Mountain as a Mirror
 
-Taiwan's hiking population of 5 million faces 268 peaks above 3,000 meters. [Three high-mountain national parks](/en/Nature/island-summits-and-seas-taiwan-national-parks-ecology-and-landscapes/) (Yushan, Shei-Pa, Taroko) guard the most sensitive mountain zones, but management resources will always lag behind the swelling crowds. The 92 beds at Paiyun Lodge are nearly impossible to secure during peak season. [Leave No Trace](/en/Nature/trail-culture-and-civic-stewardship/) principles are gradually taking root, but the trampling on Jiaming Lake trails, garbage on Yushan, and waste management at alpine campsites remain ongoing battles.
+Taiwan's hiking population of 5 million faces 268 peaks above 3,000 meters. [Three high-mountain national parks](/en/nature/island-summits-and-seas-taiwan-national-parks-ecology-and-landscapes/) (Yushan, Shei-Pa, Taroko) guard the most sensitive mountain zones, but management resources will always lag behind the swelling crowds. The 92 beds at Paiyun Lodge are nearly impossible to secure during peak season. [Leave No Trace](/en/nature/trail-culture-and-civic-stewardship/) principles are gradually taking root, but the trampling on Jiaming Lake trails, garbage on Yushan, and waste management at alpine campsites remain ongoing battles.
 
-Climate change is pushing the snowline upward and making extreme weather more frequent. The accumulated millennium of mountain wisdom held by [indigenous peoples](/en/Nature/taiwanese-indigenous-ecological-wisdom-conservation/) — weather observation, plant identification, route judgment — is being rediscovered and valued. Tribal guide programs have found a crossroads of ecotourism and cultural transmission for Atayal communities like [Smangus](/en/History/indigenous-peoples-history-and-naming-movement/) and Bunun settlements like Luanshan.
+Climate change is pushing the snowline upward and making extreme weather more frequent. The accumulated millennium of mountain wisdom held by [indigenous peoples](/en/nature/taiwanese-indigenous-ecological-wisdom-conservation/) — weather observation, plant identification, route judgment — is being rediscovered and valued. Tribal guide programs have found a crossroads of ecotourism and cultural transmission for Atayal communities like [Smangus](/en/history/indigenous-peoples-history-and-naming-movement/) and Bunun settlements like Luanshan.
 
 Lin Wen-an died in 1975, never seeing the later explosion of Hundred Peaks culture. Mori Ushinosuke disappeared in 1926 on the ship returning to Japan — believed to have jumped into the sea. What he cherished most throughout his life were always the mountains of Taiwan.[^11]
 
@@ -103,11 +103,11 @@ The surface of Jiaming Lake reflects the sky. Whether or not anyone is watching.
 
 **Further Reading:**
 
-- [Taiwan's Forest Ecosystems](/en/Nature/taiwan-forest-ecosystems/) — From camphor broadleaf forests to fir conifer forests: the complete ecological zones distributed along vertical elevation
-- [Taiwan's Alpine Ecosystems and Glacial Relicts](/en/Nature/taiwan-alpine-ecosystems-glacial-relicts/) — High-mountain grasslands above 3,000 meters and the glacial-era relict species left behind
-- [Taiwan's National Parks](/en/Nature/island-summits-and-seas-taiwan-national-parks-ecology-and-landscapes/) — Management and conservation of the three high-mountain national parks: Yushan, Shei-Pa, and Taroko
-- [Trail Culture and Civic Stewardship](/en/Nature/trail-culture-and-civic-stewardship/) — Leave No Trace movement and local practices of citizen participation in trail maintenance
-- [Taiwanese Indigenous Ecological Wisdom and Conservation](/en/Nature/taiwanese-indigenous-ecological-wisdom-conservation/) — How a millennium of mountain wisdom dialogues with modern conservation
+- [Taiwan's Forest Ecosystems](/en/nature/taiwan-forest-ecosystems/) — From camphor broadleaf forests to fir conifer forests: the complete ecological zones distributed along vertical elevation
+- [Taiwan's Alpine Ecosystems and Glacial Relicts](/en/nature/taiwan-alpine-ecosystems-glacial-relicts/) — High-mountain grasslands above 3,000 meters and the glacial-era relict species left behind
+- [Taiwan's National Parks](/en/nature/island-summits-and-seas-taiwan-national-parks-ecology-and-landscapes/) — Management and conservation of the three high-mountain national parks: Yushan, Shei-Pa, and Taroko
+- [Trail Culture and Civic Stewardship](/en/nature/trail-culture-and-civic-stewardship/) — Leave No Trace movement and local practices of citizen participation in trail maintenance
+- [Taiwanese Indigenous Ecological Wisdom and Conservation](/en/nature/taiwanese-indigenous-ecological-wisdom-conservation/) — How a millennium of mountain wisdom dialogues with modern conservation
 
 ## References
 

@@ -55,7 +55,7 @@ Under martial law, Taiwanese people lost basic freedoms of assembly, association
 
 ---
 
-## The [228 Incident](/en/History/228-incident/): The Question That Cannot Be Avoided
+## The [228 Incident](/en/history/228-incident/): The Question That Cannot Be Avoided
 
 On February 28, 1947, a smuggling confrontation in Taipei ignited an island-wide armed uprising. The accumulated resentment of Taiwanese people toward the postwar takeover found its outlet that day.
 
@@ -73,7 +73,7 @@ The death toll remains impossible to establish precisely. Estimates from various
 
 ---
 
-## [Taiwan's White Terror](/en/History/taiwan-white-terror/): The Ultimate Judge
+## [Taiwan's White Terror](/en/history/taiwan-white-terror/): The Ultimate Judge
 
 After the 228 Incident, the terror did not end.
 
@@ -216,7 +216,7 @@ His bronze statues are being removed. But the roads he left, the schools he left
 
 ---
 
-**Further reading:** [228 Incident](/en/History/228-incident/) · [Taiwan's White Terror](/en/History/taiwan-white-terror/) · [Martial Law Era](/en/History/martial-law-era/) · [Taiwan's Democratization](/en/History/taiwan-democratization/) · Taiwan's Transitional Justice (台灣轉型正義) · [Kaohsiung Incident (Formosa Incident)](/en/History/kaohsiung-incident-formosa-incident/) · [Lee Teng-hui](/en/People/lee-teng-hui/)
+**Further reading:** [228 Incident](/en/history/228-incident/) · [Taiwan's White Terror](/en/history/taiwan-white-terror/) · [Martial Law Era](/en/history/martial-law-era/) · [Taiwan's Democratization](/en/history/taiwan-democratization/) · Taiwan's Transitional Justice (台灣轉型正義) · [Kaohsiung Incident (Formosa Incident)](/en/history/kaohsiung-incident-formosa-incident/) · [Lee Teng-hui](/en/people/lee-teng-hui/)
 
 ---
 

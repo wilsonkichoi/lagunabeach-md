@@ -49,7 +49,7 @@ According to statistics from Taiwan's Ministry of Finance, the number of beverag
 
 The global market is even more staggering. Multiple market research firms estimate the global bubble tea market at approximately **$3.5 billion (roughly NT$112 billion) in 2024**, with projections of $6–7 billion by 2034. Taiwanese brands are the origin point of this market: CoCo has over 5,000 locations worldwide, Gong Cha over 2,000, and brands like The Alley and Chatime continue expanding overseas. Chun Shui Tang still sells over 2 million cups of bubble tea per year in Taiwan alone.
 
-This globalization followed an interesting path: it was not government-driven cultural diplomacy, nor a carefully designed market expansion strategy by a major brand. Bubble tea's first step into the world was powered by immigrant nostalgia — Taiwanese immigrants in Los Angeles, Taiwanese immigrants in Vancouver, who wanted a taste of home, opened shops locally, and ended up making their neighbors fall in love with the drink too. This is the most typical path of diffusion for [Taiwanese street food](/en/Food/taiwanese-street-food/) (台灣小吃): not export, but diffusion; not strategy, but life.
+This globalization followed an interesting path: it was not government-driven cultural diplomacy, nor a carefully designed market expansion strategy by a major brand. Bubble tea's first step into the world was powered by immigrant nostalgia — Taiwanese immigrants in Los Angeles, Taiwanese immigrants in Vancouver, who wanted a taste of home, opened shops locally, and ended up making their neighbors fall in love with the drink too. This is the most typical path of diffusion for [Taiwanese street food](/en/food/taiwanese-street-food/) (台灣小吃): not export, but diffusion; not strategy, but life.
 
 > 📊 **By the numbers**
 > Global bubble tea market size (2024): ~$3.5 billion (~NT$112 billion)
@@ -81,7 +81,7 @@ Milk tea became a kind of lifestyle password: tea with milk = democracy and open
 That same year, Unicode 13.0 officially added the 🧋 bubble tea emoji, giving the drink its own face on every smartphone.
 
 > 📝 **Curator's note**
-> The Milk Tea Alliance translated geopolitics into the language of phone stickers through the small act of adding milk — perhaps the most absurd yet truest moment in bubble tea history: a commoner's drink born out of [night market culture](/en/Food/night-market-culture/) (夜市文化) accidentally becoming a symbol of transnational democratic solidarity. It wasn't even trying.
+> The Milk Tea Alliance translated geopolitics into the language of phone stickers through the small act of adding milk — perhaps the most absurd yet truest moment in bubble tea history: a commoner's drink born out of [night market culture](/en/food/night-market-culture/) (夜市文化) accidentally becoming a symbol of transnational democratic solidarity. It wasn't even trying.
 
 ## 500 Calories Per Cup, and the Health Conversation No One Wants to Hear
 
@@ -124,4 +124,4 @@ That moment, of course, had no idea what it was doing. Great accidents never do.
 - [PubMed: 2011 Taiwan food scandal — plasticizer contamination](https://pubmed.ncbi.nlm.nih.gov/23684997/) (academic primary source, 965-product contamination data)
 - [National University Hospital Singapore: What happens if you drink too much bubble tea?](https://www.nuhsplus.edu.sg/article/what-happens-if-you-drink-too-much-bubble-tea) (Dr. Martin Lee quote source)
 
-Related topics: [night market culture](/en/Food/night-market-culture/), [Taiwanese street food](/en/Food/taiwanese-street-food/) (台灣小吃), Taiwanese food culture (台灣飲食文化).
+Related topics: [night market culture](/en/food/night-market-culture/), [Taiwanese street food](/en/food/taiwanese-street-food/) (台灣小吃), Taiwanese food culture (台灣飲食文化).

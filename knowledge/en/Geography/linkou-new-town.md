@@ -81,9 +81,9 @@ Looking ahead, Linkou New Town will continue to attract talent and resources thr
 
 ## Further reading
 
-- Taiwan urban development and the rural-urban divide ([台灣都市發展與城鄉差距](/en/Society/taiwan-urban-development-and-rural-urban-divide/)) — situating Linkou New Town's development curve within a regional planning framework.
-- [Beida Special District](/en/Geography/beida-special-district-sanxia/) — for a parallel reading of another emerging redevelopment zone driven by transportation, school districts, and the housing market.
-- Taiwan transportation system ([台灣交通系統](/en/Lifestyle/transportation-system/)) — extended reading on how the Airport MRT, freeways, and urban commutes shape new towns.
+- Taiwan urban development and the rural-urban divide ([台灣都市發展與城鄉差距](/en/society/taiwan-urban-development-and-rural-urban-divide/)) — situating Linkou New Town's development curve within a regional planning framework.
+- [Beida Special District](/en/geography/beida-special-district-sanxia/) — for a parallel reading of another emerging redevelopment zone driven by transportation, school districts, and the housing market.
+- Taiwan transportation system ([台灣交通系統](/en/lifestyle/transportation-system/)) — extended reading on how the Airport MRT, freeways, and urban commutes shape new towns.
 
 ## References
 

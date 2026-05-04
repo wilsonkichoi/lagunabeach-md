@@ -128,7 +128,7 @@ More important still is Tai Tzu-ying's spirit — never giving up, always improv
 
 **Further Reading**:
 
-- [Kuo Hsing-chun](/en/People/kuo-hsing-chun-olympic-weightlifting-champion/) — Tokyo Olympics weightlifting gold medalist; fellow core member of the Taiwan delegation, of Amis descent
+- [Kuo Hsing-chun](/en/people/kuo-hsing-chun-olympic-weightlifting-champion/) — Tokyo Olympics weightlifting gold medalist; fellow core member of the Taiwan delegation, of Amis descent
 - Lee Yang (/people/李洋) — National training center resident athlete of the same era; Olympic double-gold badminton champion who became the founding minister of the Sports Administration
 - Lin Yang Duo (Wang Chi-lin and Lee Yang) (/people/麟洋配) — The men's doubles pair who became the first non-seeded pair to win back-to-back Olympic gold
 - Chou Tzu-yu (/people/周子瑜) — Another girl from the same generation who left home at 13 to chase her dream

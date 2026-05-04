@@ -57,7 +57,7 @@ En 2023, le « National Space Organization (NSPO) » a été élevé au rang d'e
 
 ## Pourquoi Taïwan a-t-elle une chance dans l'espace ?
 
-La réponse à cette question présente une similitude étrange avec l'essor de l'[industrie des semi-conducteurs](/fr/Technology/semiconductor-industry/) à Taïwan.
+La réponse à cette question présente une similitude étrange avec l'essor de l'[industrie des semi-conducteurs](/fr/technology/semiconductor-industry/) à Taïwan.
 
 Taïwan a réussi à devenir un leader mondial dans la « fabrication de haute précision ». Composants électroniques, éléments optoélectroniques, matériaux composites, mécanique de précision — tous ces socles industriels trouvent leur application dans la technologie spatiale.
 
@@ -69,7 +69,7 @@ Exemples concrets : le capteur d'image CMOS TDI développé par le Centre de rec
 
 ## « Triton » et les typhons
 
-Au-delà de l'éclat de FORMOSAT-8, un satellite moins mentionné pourrait avoir un impact plus direct sur le [système médical de catastrophe](/fr/Technology/disaster-medical-system/) et les décisions de prévention des catastrophes à Taïwan.
+Au-delà de l'éclat de FORMOSAT-8, un satellite moins mentionné pourrait avoir un impact plus direct sur le [système médical de catastrophe](/fr/technology/disaster-medical-system/) et les décisions de prévention des catastrophes à Taïwan.
 
 Triton (獵風者) est le premier satellite météorologique conçu et fabriqué par Taïwan. Depuis mai 2024, il fournit des données sur la vitesse des vents en mer. Son récepteur GNSS-R est capable d'inverser la vitesse du vent en observant la rugosité de la surface océanique, produisant environ 7 000 à 8 000 mesures de vitesse du vent par jour.
 
@@ -117,7 +117,7 @@ Le contexte technique du programme de satellites de communication de Taïwan mé
 
 ## Comparaison avec les voisins asiatiques
 
-Les désavantages de Taïwan résident dans l'échelle et les fusées : elle a près de vingt ans de retard sur le Japon et la Corée du Sud en termes de financement et de date de démarrage. Mais les avantages de Taïwan sont concrets : la chaîne d'approvisionnement de l'[industrie des semi-conducteurs](/fr/Technology/semiconductor-industry/), les capacités de fabrication de précision et la base industrielle des TIC confèrent à Taïwan une compétitivité distincte dans les composants satellites et les équipements au sol.
+Les désavantages de Taïwan résident dans l'échelle et les fusées : elle a près de vingt ans de retard sur le Japon et la Corée du Sud en termes de financement et de date de démarrage. Mais les avantages de Taïwan sont concrets : la chaîne d'approvisionnement de l'[industrie des semi-conducteurs](/fr/technology/semiconductor-industry/), les capacités de fabrication de précision et la base industrielle des TIC confèrent à Taïwan une compétitivité distincte dans les composants satellites et les équipements au sol.
 
 | Indicateur                                 | Taïwan                                | Japon              | Corée du Sud       | Singapour                           |
 | ------------------------------------------ | ------------------------------------- | ------------------ | ------------------ | ----------------------------------- |
@@ -126,9 +126,9 @@ Les désavantages de Taïwan résident dans l'échelle et les fusées : elle a p
 | Résolution des satellites de télédétection | Submétrique (2025)                    | Submétrique (2006) | Submétrique (2006) | Dépendance aux services commerciaux |
 | Écosystème spatial commercial              | En développement                      | Mature             | Mature             | En développement                    |
 
-Ce dans quoi les fabricants taïwanais ont le plus de chances de percer, ce n'est pas « fabriquer des satellites entiers » (le Japon et la Corée du Sud ont des décennies d'avance), mais plutôt « fabriquer ces quelques composants critiques dont dépend le succès ou l'échec du satellite ». Les capteurs CMOS TDI, les modules de communication SDR et les composants électroniques résistants aux radiations sont autant de domaines où l'[industrie des semi-conducteurs](/fr/Technology/semiconductor-industry/) peut se différencier dans le secteur spatial. De plus en plus d'entreprises de l'[écosystème startup](/fr/Technology/startup-ecosystem/) taïwanais voient cela comme une niche potentielle.
+Ce dans quoi les fabricants taïwanais ont le plus de chances de percer, ce n'est pas « fabriquer des satellites entiers » (le Japon et la Corée du Sud ont des décennies d'avance), mais plutôt « fabriquer ces quelques composants critiques dont dépend le succès ou l'échec du satellite ». Les capteurs CMOS TDI, les modules de communication SDR et les composants électroniques résistants aux radiations sont autant de domaines où l'[industrie des semi-conducteurs](/fr/technology/semiconductor-industry/) peut se différencier dans le secteur spatial. De plus en plus d'entreprises de l'[écosystème startup](/fr/technology/startup-ecosystem/) taïwanais voient cela comme une niche potentielle.
 
-La Corée du Sud a testé sa fusée autonome Nuri en 2021, avec une mise en orbite réussie en 2033, après 12 ans de R&D et un investissement de plus de 2 000 milliards de KRW (environ 50 milliards TWD). La fusée japonaise H3 a échoué à son premier vol avant de réussir en 2024, pour un coût de développement supérieur à 200 milliards de JPY. Le programme spatial de troisième phase de Taïwan, à 71 milliards TWD sur 10 ans, représente environ 1,4 fois le budget du seul programme Nuri coréen, mais doit couvrir trois axes : satellites, communication et startups. Le budget étant limité, la stratégie du TASA est de « ne pas faire de fusées, mais de se concentrer sur les satellites et les capteurs » — exploiter l'avantage manufacturier de l'[industrie des semi-conducteurs](/fr/Technology/semiconductor-industry/) pour s'insérer dans la chaîne d'approvisionnement spatiale, plutôt que de rivaliser frontalement en capacité de lancement. Le [développement de la chaîne industrielle des véhicules électriques](/fr/Technology/ev-industry/) à Taïwan a suivi une trajectoire similaire : commencer par la fabrication sous contrat, accumuler des capacités sur les composants clés, puis progresser vers l'intégration de systèmes.
+La Corée du Sud a testé sa fusée autonome Nuri en 2021, avec une mise en orbite réussie en 2033, après 12 ans de R&D et un investissement de plus de 2 000 milliards de KRW (environ 50 milliards TWD). La fusée japonaise H3 a échoué à son premier vol avant de réussir en 2024, pour un coût de développement supérieur à 200 milliards de JPY. Le programme spatial de troisième phase de Taïwan, à 71 milliards TWD sur 10 ans, représente environ 1,4 fois le budget du seul programme Nuri coréen, mais doit couvrir trois axes : satellites, communication et startups. Le budget étant limité, la stratégie du TASA est de « ne pas faire de fusées, mais de se concentrer sur les satellites et les capteurs » — exploiter l'avantage manufacturier de l'[industrie des semi-conducteurs](/fr/technology/semiconductor-industry/) pour s'insérer dans la chaîne d'approvisionnement spatiale, plutôt que de rivaliser frontalement en capacité de lancement. Le [développement de la chaîne industrielle des véhicules électriques](/fr/technology/ev-industry/) à Taïwan a suivi une trajectoire similaire : commencer par la fabrication sous contrat, accumuler des capacités sur les composants clés, puis progresser vers l'intégration de systèmes.
 
 ---
 

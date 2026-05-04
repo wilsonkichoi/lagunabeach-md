@@ -110,9 +110,9 @@ Steamの好評率は数日で30%を割り込み、「圧倒的好評」への期
 
 ## 延伸読書
 
-- [大宇双剣](/ja/Technology/softstar-twin-classics/) — 30年前の台湾武俠ゲームの原点
-- [赤燭ゲーム](/ja/Technology/red-candle-games/) — 台湾インディーゲームのもうひとつの道
-- [台湾ゲーム産業とデジタルエンターテインメント](/ja/Technology/taiwan-game-industry/) — 代理から独自開発への全景
+- [大宇双剣](/ja/technology/softstar-twin-classics/) — 30年前の台湾武俠ゲームの原点
+- [赤燭ゲーム](/ja/technology/red-candle-games/) — 台湾インディーゲームのもうひとつの道
+- [台湾ゲーム産業とデジタルエンターテインメント](/ja/technology/taiwan-game-industry/) — 代理から独自開発への全景
 
 ---
 

@@ -253,10 +253,10 @@ The history of KMT government relocation and post-war reconstruction profoundly 
 
 ## Further Reading
 
-- [Martial Law Era](/en/History/martial-law-era/)
+- [Martial Law Era](/en/history/martial-law-era/)
 - White Terror (白色恐怖)
-- [228 Incident](/en/History/228-incident/)
-- [Taiwan's Economic Miracle](/en/History/taiwan-economic-miracle-from-agriculture-to-asian-tiger/)
+- [228 Incident](/en/history/228-incident/)
+- [Taiwan's Economic Miracle](/en/history/taiwan-economic-miracle-from-agriculture-to-asian-tiger/)
 
 ## References
 

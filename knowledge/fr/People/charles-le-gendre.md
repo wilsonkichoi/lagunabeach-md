@@ -36,7 +36,7 @@ Le 12 mars 1867, le navire marchand américain _Rover_, en route de Swatow vers 
 
 14 personnes sont tuées. Un seul marin cantonais parvient à s'échapper et porte la nouvelle à Takao (打狗).
 
-La nouvelle parvient à Amoy. Le consul américain Charles Le Gendre se rend immédiatement à Fuzhou pour négocier avec le gouverneur général du Fujian et du Zhejiang. L'attitude de la [dynastie Qing](/fr/History/qing-dynasty-era/) est claire : c'est le territoire des « Sauvages bruts » (生番), qui ne relève pas de leur juridiction[^2]. La marine américaine tente également une intervention militaire : l'USS Hartford débarque 181 hommes, qui sont repoussés par les Paiwan. Le commandant Alexander MacKenzie est tué au combat[^3].
+La nouvelle parvient à Amoy. Le consul américain Charles Le Gendre se rend immédiatement à Fuzhou pour négocier avec le gouverneur général du Fujian et du Zhejiang. L'attitude de la [dynastie Qing](/fr/history/qing-dynasty-era/) est claire : c'est le territoire des « Sauvages bruts » (生番), qui ne relève pas de leur juridiction[^2]. La marine américaine tente également une intervention militaire : l'USS Hartford débarque 181 hommes, qui sont repoussés par les Paiwan. Le commandant Alexander MacKenzie est tué au combat[^3].
 
 Le canon ne suffit pas, et les autorités refusent d'intervenir. Le Gendre décide d'aller lui-même.
 
@@ -104,7 +104,7 @@ Dans la série, Le Gendre est l'un des personnages centraux. Mais plus important
 
 Le Gendre quitte le Japon en 1875. En 1890, il se rend en Corée et devient conseiller diplomatique de l'empereur Gojong. Le 1er septembre 1899, il meurt d'un accident vasculaire cérébral à Séoul, à l'âge de 69 ans[^22].
 
-Sa vie a traversé les scènes diplomatiques de trois empires : les États-Unis, le Japon et la Corée. Mais ses six années les plus importantes furent passées à Formosa. Il était contemporain de [Robert Swinhoe](/fr/People/robert-swinhoe/), et tous deux ont laissé des traces indélébiles à Taïwan dans les années 1860, mais avec des motivations radicalement différentes : l'un au service de la science, l'autre au service du pouvoir.
+Sa vie a traversé les scènes diplomatiques de trois empires : les États-Unis, le Japon et la Corée. Mais ses six années les plus importantes furent passées à Formosa. Il était contemporain de [Robert Swinhoe](/fr/people/robert-swinhoe/), et tous deux ont laissé des traces indélébiles à Taïwan dans les années 1860, mais avec des motivations radicalement différentes : l'un au service de la science, l'autre au service du pouvoir.
 
 ---
 
@@ -117,9 +117,9 @@ L'homme qui a signé le traité du Cap Sud et celui qui a vendu les renseignemen
 **Pour aller plus loin :**
 
 - [L'incident du Rover et Tauketok](/history/羅發號事件與卓杞篤) — L'article miroir C-2 de ce texte : la même histoire vue du point de vue de Tauketok ; comment le traité du Cap Sud a protégé son peuple, et comment il a été trahi par l'autre partie à l'accord
-- [Histoire des peuples indigènes de Taïwan et mouvement de dénomination](/fr/History/indigenous-peoples-history-and-renaming/) — Les Paiwan du traité du Cap Sud, du « territoire sauvage » à la longue quête de dénomination officielle
-- [Époque Qing](/fr/History/qing-dynasty-era/) — La structure administrative Qing à l'époque des visites de Le Gendre, pour comprendre le contexte institutionnel de la réponse « hors juridiction »
-- [Robert Swinhoe](/fr/People/robert-swinhoe/) — Un autre étranger ayant laissé une trace profonde à Taïwan à la même époque, mais motivé par la science plutôt que par le pouvoir
+- [Histoire des peuples indigènes de Taïwan et mouvement de dénomination](/fr/history/indigenous-peoples-history-and-renaming/) — Les Paiwan du traité du Cap Sud, du « territoire sauvage » à la longue quête de dénomination officielle
+- [Époque Qing](/fr/history/qing-dynasty-era/) — La structure administrative Qing à l'époque des visites de Le Gendre, pour comprendre le contexte institutionnel de la réponse « hors juridiction »
+- [Robert Swinhoe](/fr/people/robert-swinhoe/) — Un autre étranger ayant laissé une trace profonde à Taïwan à la même époque, mais motivé par la science plutôt que par le pouvoir
 - [Guerre franco-chinoise](/history/清法戰爭) — Huit ans après le départ de Le Gendre, la France attaque Taïwan avec une logique impériale similaire
 
 ## Références

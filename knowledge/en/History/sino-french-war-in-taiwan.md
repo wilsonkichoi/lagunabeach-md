@@ -99,7 +99,7 @@ On the eve of the Battle of Tamsui, residents brought out the statue of Qingshui
 
 The greatest consequence of the Sino-French War was not on the battlefield but in governance. The war made the Qing court recognize that Taiwan was not merely an appendage of Fujian Province — it was territory with independent strategic value. In 1885, Taiwan was separated from Fujian Province and became the 20th province of the Qing Empire. Liu Ming-chuan was appointed as the first Governor of Taiwan[^22].
 
-Liu Ming-chuan served six years (1885–1891), launching Taiwan's first wave of modernization. He built the [railway](<https://en.wikipedia.org/wiki/Taiwan_Railway_(Qing_dynasty)>) from Keelung to Hsinchu (approximately 107 km; construction began 1887, full line completed 1893); laid a submarine telegraph cable from Taipei to Fuzhou; established postal services; opened Western-style schools; and carried out land surveys[^23]. His modernization program predated [Japanese colonial-era](/en/History/japanese-colonial-era/) construction by ten years — yet after Liu Ming-chuan resigned due to illness in 1891, most of his projects stalled.
+Liu Ming-chuan served six years (1885–1891), launching Taiwan's first wave of modernization. He built the [railway](<https://en.wikipedia.org/wiki/Taiwan_Railway_(Qing_dynasty)>) from Keelung to Hsinchu (approximately 107 km; construction began 1887, full line completed 1893); laid a submarine telegraph cable from Taipei to Fuzhou; established postal services; opened Western-style schools; and carried out land surveys[^23]. His modernization program predated [Japanese colonial-era](/en/history/japanese-colonial-era/) construction by ten years — yet after Liu Ming-chuan resigned due to illness in 1891, most of his projects stalled.
 
 ## Echoes 140 Years Later
 
@@ -117,10 +117,10 @@ France took Vietnam. The Qing kept Taiwan. Six hundred French soldiers stayed in
 
 **Further reading:**
 
-- [Qing Dynasty Rule in Taiwan](/en/History/qing-dynasty-rule/) — The historical context in which the Sino-French War took place: the full picture of treaty port openings and foreign powers entering Formosa
-- [Taiwan Railway History](/en/History/taiwan-railway-history/) — The Keelung-to-Hsinchu railway that Liu Ming-chuan built after the war: Taiwan's point of departure for rail history
-- [Charles Le Gendre](/en/People/charles-le-gendre/) — Another foreign diplomat who left his mark on Formosa in the same era; his intelligence was later used by Japan to send troops to Taiwan
-- [Robert Swinhoe](/en/People/robert-swinhoe-naturalist/) — Twenty years before the Sino-French War, the first British consul stationed in Taiwan was doing something entirely different on the same soil
+- [Qing Dynasty Rule in Taiwan](/en/history/qing-dynasty-rule/) — The historical context in which the Sino-French War took place: the full picture of treaty port openings and foreign powers entering Formosa
+- [Taiwan Railway History](/en/history/taiwan-railway-history/) — The Keelung-to-Hsinchu railway that Liu Ming-chuan built after the war: Taiwan's point of departure for rail history
+- [Charles Le Gendre](/en/people/charles-le-gendre/) — Another foreign diplomat who left his mark on Formosa in the same era; his intelligence was later used by Japan to send troops to Taiwan
+- [Robert Swinhoe](/en/people/robert-swinhoe-naturalist/) — Twenty years before the Sino-French War, the first British consul stationed in Taiwan was doing something entirely different on the same soil
 
 ## References
 

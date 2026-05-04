@@ -57,7 +57,7 @@ Foxconn is also partnering with NVIDIA and the Taiwan government to build a 100-
 
 ## From PTT to an AI Lab: Tu Yi-chin's Two Startups
 
-In 1995, Tu Yi-chin — a sophomore in National Taiwan University's Department of Computer Science and Information Engineering — built [PTT](/en/Technology/ptt-bulletin-board-system/) from a single 486 computer and open-source software in his dormitory room. Thirty years later, PTT still attracts hundreds of thousands of daily visitors; it is a living fossil of Taiwan's internet culture.
+In 1995, Tu Yi-chin — a sophomore in National Taiwan University's Department of Computer Science and Information Engineering — built [PTT](/en/technology/ptt-bulletin-board-system/) from a single 486 computer and open-source software in his dormitory room. Thirty years later, PTT still attracts hundreds of thousands of daily visitors; it is a living fossil of Taiwan's internet culture.
 
 Tu later joined Microsoft, contributing to the development of the Cortana voice assistant. In 2017, he turned down a high salary in Silicon Valley and returned to Taiwan to found Taiwan AI Labs — Asia's first nonprofit, open AI research institution.[^11]
 

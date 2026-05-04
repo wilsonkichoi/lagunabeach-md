@@ -40,7 +40,7 @@ That was the last day of the year. Not a random date — Fish Stick released the
 
 The date itself was a statement: not calculated for platform traffic peaks, not aligned with commercial calendar nodes. Just December 31.
 
-**Curator's note:** "Not preachy — just the most direct expression of inner thoughts. The value of existence is the endless, relentless pursuit of the root cause."[^1] — This is Fish Stick's official description of _Antidote_. A band that declares itself "not preachy" is, paradoxically, one of the most opinionated voices in the [Taiwanese indie music](/en/Music/indie-music-scene/) scene.
+**Curator's note:** "Not preachy — just the most direct expression of inner thoughts. The value of existence is the endless, relentless pursuit of the root cause."[^1] — This is Fish Stick's official description of _Antidote_. A band that declares itself "not preachy" is, paradoxically, one of the most opinionated voices in the [Taiwanese indie music](/en/music/indie-music-scene/) scene.
 
 ### The Starting Point at the Zhongzheng High School Intersection
 
@@ -98,7 +98,7 @@ Fourteen years, three people, from Zhongzheng High School to now. Saying they're
 
 **Further Reading:**
 
-- [Taiwan Indie Music Scene](/en/Music/indie-music-scene/) — From Sodagreen to Shallow Pool to Fish Stick's post-hardcore: the evolutionary timeline of Taiwanese indie music
+- [Taiwan Indie Music Scene](/en/music/indie-music-scene/) — From Sodagreen to Shallow Pool to Fish Stick's post-hardcore: the evolutionary timeline of Taiwanese indie music
 - [Shallow Pool](/people/shallow-pool) — Also formed by Taipei high school classmates; a Golden Melody Best Band twice over — a post-rock counterpoint
 - [Waa Wei](/people/waa-wei) — Same-era Taiwanese indie artist, going a completely different R&B bedroom-pop direction
 - [Constant's Curveball](/people/constant-curveball) — Taipei indie rock scene; vocal narrative as a reference point

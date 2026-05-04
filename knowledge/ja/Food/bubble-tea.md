@@ -81,7 +81,7 @@ category: Food
 同年、Unicode 13.0が正式に🧋（珍珠奶茶の絵文字）を採用し、この飲料はすべてのスマートフェン上に自分の顔を持つに至った。
 
 > 📝 **キュレーターメモ**
-> 「ミルクティー同盟」は、ミルクを加えるというささやかな行為を、地政学をスマートフォンのスタンプの言語に翻訳した。これはおそらく珍珠奶茶の歴史において最も不条理でありながら最も真実な瞬間である：[夜市文化（ナイトマーケット文化）](/ja/Food/night-market-culture/)で生まれた庶民の飲料が、偶然にも国際的な民主主義連帯のシンボルとなった。それすら意図していなかったのだが。
+> 「ミルクティー同盟」は、ミルクを加えるというささやかな行為を、地政学をスマートフォンのスタンプの言語に翻訳した。これはおそらく珍珠奶茶の歴史において最も不条理でありながら最も真実な瞬間である：[夜市文化（ナイトマーケット文化）](/ja/food/night-market-culture/)で生まれた庶民の飲料が、偶然にも国際的な民主主義連帯のシンボルとなった。それすら意図していなかったのだが。
 
 ## 一杯約500kcal——誰も聞きたくない健康問題
 
@@ -124,4 +124,4 @@ category: Food
 - [PubMed：2011 Taiwan food scandal — plasticizer contamination](https://pubmed.ncbi.nlm.nih.gov/23684997/)（学術一次資料、965品目の汚染データ）
 - [National University Hospital Singapore：What happens if you drink too much bubble tea?](https://www.nuhsplus.edu.sg/article/what-happens-if-you-drink-too-much-bubble-tea)（Martin Lee医師の引用元）
 
-本項目の関連テーマ：[夜市文化（ナイトマーケット文化）](/ja/Food/night-market-culture/)、台湾小吃（台湾の軽食）、台湾飲食文化（台湾の食文化）。
+本項目の関連テーマ：[夜市文化（ナイトマーケット文化）](/ja/food/night-market-culture/)、台湾小吃（台湾の軽食）、台湾飲食文化（台湾の食文化）。

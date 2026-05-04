@@ -58,7 +58,7 @@ For four hundred years Taiwan was known internationally as "Formosa." But the na
 
 ## People Had Been Here for Six Thousand Years
 
-Before any European arrived, Taiwan had been inhabited for at least six thousand years. The [Tapenkeng culture](/en/History/prehistoric-era-and-indigenous-peoples/) (approximately 5,000–4,500 BCE) is the earliest known Neolithic culture in Taiwan, closely linked to the expansion of Austronesian peoples[^9]. Linguistic and genetic research indicates Taiwan was very likely the homeland of the entire Austronesian language family — which spans the Pacific and Indian Oceans and encompasses a population of 400 million.
+Before any European arrived, Taiwan had been inhabited for at least six thousand years. The [Tapenkeng culture](/en/history/prehistoric-era-and-indigenous-peoples/) (approximately 5,000–4,500 BCE) is the earliest known Neolithic culture in Taiwan, closely linked to the expansion of Austronesian peoples[^9]. Linguistic and genetic research indicates Taiwan was very likely the homeland of the entire Austronesian language family — which spans the Pacific and Indian Oceans and encompasses a population of 400 million.
 
 Chinese historical texts recorded Taiwan earlier than European documents, but with similar vagueness. Whether "Yizhou" in the _San Guo Zhi_ or "Liuqiu" in the _Sui Shu_ refers to Taiwan remains a scholarly debate[^10].
 
@@ -66,7 +66,7 @@ Chinese historical texts recorded Taiwan earlier than European documents, but wi
 
 ## The First Europeans to Actually Set Foot on the Island
 
-In 1624, the Dutch East India Company established Fort Zeelandia at Tayouan (present-day Anping) in southern Taiwan, beginning [38 years of colonial rule](/en/History/dutch-spanish-and-koxinga-era/)[^11].
+In 1624, the Dutch East India Company established Fort Zeelandia at Tayouan (present-day Anping) in southern Taiwan, beginning [38 years of colonial rule](/en/history/dutch-spanish-and-koxinga-era/)[^11].
 
 Dutch missionary George Candidius wrote in 1628 what stands as the first serious ethnography of Taiwan by the Western world. He described the Siraya people's _inibs_ (female priests), practices of induced abortion, beliefs about souls, and ritual ceremonies[^12]. This was not Psalmanazar-style fantasy — it was the field notes of someone who had actually lived among the villagers.
 
@@ -76,9 +76,9 @@ In 1670, Dutchman Olfert Dapper published a work that included a dedicated chapt
 
 After 1856, Western writing about Taiwan entered a new phase — no longer fragmentary accounts from missionaries and merchants, but systematic scientific surveys and diplomatic reports.
 
-[Robert Swinhoe](/en/People/robert-swinhoe-naturalist/) was the first. The British consul stationed in Taiwan wrote 52 papers in four years, documenting 227 species of birds. What he saw was species.
+[Robert Swinhoe](/en/people/robert-swinhoe-naturalist/) was the first. The British consul stationed in Taiwan wrote 52 papers in four years, documenting 227 species of birds. What he saw was species.
 
-[Charles Le Gendre](/en/People/charles-le-gendre/) was the second. The US consul at Amoy made eight visits to Taiwan, leaving behind 1,600 pages of manuscript. What he saw was intelligence.
+[Charles Le Gendre](/en/people/charles-le-gendre/) was the second. The US consul at Amoy made eight visits to Taiwan, leaving behind 1,600 pages of manuscript. What he saw was intelligence.
 
 French military officer Eugène Garnot was the third. He came to Taiwan during the 1884–1885 Sino-French War and wrote a memoir of the expedition. What he saw was a battlefield.
 
@@ -91,7 +91,7 @@ These observers share one characteristic: all of them came from outside the isla
 
 ## From Being Written About to Writing for Oneself
 
-In 1990, historian Ts'ao Yung-ho (曹永和) proposed the "[Taiwan Island Historiography](/en/History/taiwan-island-historiography/)": with the island itself as the subject, observing how different incoming cultures in different periods interacted and were reconstituted on the island[^16].
+In 1990, historian Ts'ao Yung-ho (曹永和) proposed the "[Taiwan Island Historiography](/en/history/taiwan-island-historiography/)": with the island itself as the subject, observing how different incoming cultures in different periods interacted and were reconstituted on the island[^16].
 
 This perspective overturned the entire narrative: Taiwan is not an appendage of any empire — not an object to be "discovered." It is an island that for six thousand years has been continuously landed upon, settled, and departed from by different human populations. The Portuguese, Dutch, Spanish, Qing dynasty, Japan, and the Nationalist government are each only one chapter in island history.
 
@@ -109,10 +109,10 @@ The people on the island are still traveling it.
 
 **Further reading:**
 
-- [Taiwan Island Historiography](/en/History/taiwan-island-historiography/) — Ts'ao Yung-ho's 1990 framework: understanding history with the island as the subject, not from the perspective of any empire
-- [Prehistoric Era and Indigenous Peoples](/en/History/prehistoric-era-and-indigenous-peoples/) — Taiwan's six thousand years before European "discovery": Tapenkeng culture and the Austronesian homeland
-- [Dutch, Spanish, and Koxinga Era](/en/History/dutch-spanish-and-koxinga-era/) — The first European colonists' 38 years in Taiwan; where George Candidius's ethnography begins
-- [Robert Swinhoe](/en/People/robert-swinhoe-naturalist/) — Archetype of the 19th-century Western observer: looking at Taiwan with scientific eyes, leaving a record that has outlasted his diplomatic career
+- [Taiwan Island Historiography](/en/history/taiwan-island-historiography/) — Ts'ao Yung-ho's 1990 framework: understanding history with the island as the subject, not from the perspective of any empire
+- [Prehistoric Era and Indigenous Peoples](/en/history/prehistoric-era-and-indigenous-peoples/) — Taiwan's six thousand years before European "discovery": Tapenkeng culture and the Austronesian homeland
+- [Dutch, Spanish, and Koxinga Era](/en/history/dutch-spanish-and-koxinga-era/) — The first European colonists' 38 years in Taiwan; where George Candidius's ethnography begins
+- [Robert Swinhoe](/en/people/robert-swinhoe-naturalist/) — Archetype of the 19th-century Western observer: looking at Taiwan with scientific eyes, leaving a record that has outlasted his diplomatic career
 
 ## References
 

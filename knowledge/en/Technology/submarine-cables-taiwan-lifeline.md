@@ -192,8 +192,8 @@ That is why Building 506 has no signboard.
 
 - The Reporter: a decade of rescuing investigative reporting from a line item to a public good (報導者) — another case study, alongside this article, on Taiwan's civic society and the credibility of infrastructure since 2015
 - Taiwan new media art (台灣新媒體藝術) — the digital cultural infrastructure also carried by the internet beneath the cables
-- Social movements and civic participation ([社會運動與公民參與](/en/Society/social-movements-and-civic-participation/)) — the larger context for the Submarine Cable Seven Laws legislation, local response platforms, and civil-society pressure
-- [justfont and the development of Taiwanese typography](/en/Technology/justfont-and-taiwan-typography/) — another axis demonstrating the dimension of "cultural infrastructure"
+- Social movements and civic participation ([社會運動與公民參與](/en/society/social-movements-and-civic-participation/)) — the larger context for the Submarine Cable Seven Laws legislation, local response platforms, and civil-society pressure
+- [justfont and the development of Taiwanese typography](/en/technology/justfont-and-taiwan-typography/) — another axis demonstrating the dimension of "cultural infrastructure"
 
 ## References
 

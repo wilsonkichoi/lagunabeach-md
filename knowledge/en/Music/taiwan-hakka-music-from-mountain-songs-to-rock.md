@@ -64,9 +64,9 @@ Born in Meinong (美濃), Lin Sheng-xiang grew up immersed in Hakka culture. In 
 
 Songs like **"Chrysanthemum Night March (菊花夜行軍)"** and **"Planting Trees (種樹)"** blend poetic lyrics with social observation. Lin's music is political but not polemical; it is rooted in the land, and it moves listeners even when they do not understand Hakka. This is cultural translation through emotion.
 
-### [Labor Exchange Band](/en/Music/labor-exchange-band/) (交工樂隊): Music as Social Action
+### [Labor Exchange Band](/en/music/labor-exchange-band/) (交工樂隊): Music as Social Action
 
-Formed in 1999 by Lin Sheng-xiang, Zhong Yong-feng (鍾永豐), and others, **[Labor Exchange Band](/en/Music/labor-exchange-band/)** takes its name from the Hakka phrase for "working together." It pairs Hakka shan'ge aesthetics with rock and folk arrangements. The band became a voice for environmental movements, rural issues, and labor rights.
+Formed in 1999 by Lin Sheng-xiang, Zhong Yong-feng (鍾永豐), and others, **[Labor Exchange Band](/en/music/labor-exchange-band/)** takes its name from the Hakka phrase for "working together." It pairs Hakka shan'ge aesthetics with rock and folk arrangements. The band became a voice for environmental movements, rural issues, and labor rights.
 
 Their album **"We'll Sing Mountain Songs" (我等就來唱山歌)** won the Golden Melody Award for Best Band, proving that minority-language music could resonate across Taiwan's mainstream audience.
 

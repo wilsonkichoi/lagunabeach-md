@@ -70,9 +70,9 @@ Entering the digital age, Little Tigers' classic albums have been successively r
 
 ### Related Topics
 
-- **[Taiwan Pop Music](/en/Music/golden-melodies-legacy-taiwan-pop-music/)**
-- **[Pop Music and the Golden Melody Awards](/en/Music/pop-music-and-golden-melody-awards/)**
-- **[Taiwan Campus Folk Song Movement](/en/Music/taiwan-campus-folk-song-movement/)**
+- **[Taiwan Pop Music](/en/music/golden-melodies-legacy-taiwan-pop-music/)**
+- **[Pop Music and the Golden Melody Awards](/en/music/pop-music-and-golden-melody-awards/)**
+- **[Taiwan Campus Folk Song Movement](/en/music/taiwan-campus-folk-song-movement/)**
 
 ---
 

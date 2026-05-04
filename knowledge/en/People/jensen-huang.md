@@ -89,7 +89,7 @@ In June 2024, Jensen Huang appeared at Computex in Taipei. He was not on the off
 
 He wore his signature black leather jacket to eat street food at night markets, chatted with vendors in Taiwanese Hokkien (台語), and posed for photos with passersby. Mark Zuckerberg posted a photo of the two of them in each other's signature jackets on Instagram, writing "he's like the Taylor Swift of tech."[^8]
 
-But Huang's significance to Taiwan goes far beyond celebrity. NVIDIA's most advanced chips are manufactured by [TSMC](/en/Economy/tsmc-taiwan-semiconductor/), and Huang and [Morris Chang](/en/People/tsmc-morris-chang/) go back more than thirty years. At his Computex talk, he displayed a map of Taiwan dotted with NVIDIA's Taiwanese supply chain partners, and declared "Taiwan is a world hero."
+But Huang's significance to Taiwan goes far beyond celebrity. NVIDIA's most advanced chips are manufactured by [TSMC](/en/economy/tsmc-taiwan-semiconductor/), and Huang and [Morris Chang](/en/people/tsmc-morris-chang/) go back more than thirty years. At his Computex talk, he displayed a map of Taiwan dotted with NVIDIA's Taiwanese supply chain partners, and declared "Taiwan is a world hero."
 
 This was not flattery. NVIDIA's AI chips require TSMC's most advanced processes; TSMC needs NVIDIA's orders to fill its cutting-edge production lines. The fates of the two companies are bound together — and this bond runs through an island that averages 3.7 earthquakes per year and is regularly swept by typhoons.
 
@@ -97,7 +97,7 @@ In January 2026, Huang returned to Taiwan to sign a land-use agreement for NVIDI
 
 ## One Family, Two Chip Empires
 
-Jensen Huang has a family connection that is rarely mentioned: AMD CEO Lisa Su is his relative. More precisely, Lisa Su's maternal grandfather is the elder brother of Huang's mother, making Huang Su's first cousin once removed.[^10] The two separately lead the world's two largest GPU companies, and both companies' chips are manufactured by the same Taiwanese company — [TSMC](/en/Economy/tsmc-taiwan-semiconductor/).
+Jensen Huang has a family connection that is rarely mentioned: AMD CEO Lisa Su is his relative. More precisely, Lisa Su's maternal grandfather is the elder brother of Huang's mother, making Huang Su's first cousin once removed.[^10] The two separately lead the world's two largest GPU companies, and both companies' chips are manufactured by the same Taiwanese company — [TSMC](/en/economy/tsmc-taiwan-semiconductor/).
 
 Two people who left Taiwan for America built the world's two most important AI chip companies, then sent the most critical manufacturing step back to the island where they were born. Su herself has described the relationship as "some very complicated kind of distant cousin"; the two had never met before she went to work at IBM.
 
@@ -123,8 +123,8 @@ Jensen Huang now has a corporate logo tattooed on his arm. The roommate covered 
 
 **Further Reading**
 
-- [Morris Chang](/en/People/tsmc-morris-chang/) — NVIDIA's most crucial partner, founder of TSMC, whose thirty-year friendship with Huang anchors the global AI supply chain
-- [TSMC](/en/Economy/tsmc-taiwan-semiconductor/) — the Taiwanese company that manufactures NVIDIA's most advanced chips; the "world hero" in Huang's words
+- [Morris Chang](/en/people/tsmc-morris-chang/) — NVIDIA's most crucial partner, founder of TSMC, whose thirty-year friendship with Huang anchors the global AI supply chain
+- [TSMC](/en/economy/tsmc-taiwan-semiconductor/) — the Taiwanese company that manufactures NVIDIA's most advanced chips; the "world hero" in Huang's words
 - [Taiwan's Semiconductor Industry](/technology/半導體產業) — both Huang's and Lisa Su's chips are made on this island; this is Taiwan's silicon shield
 
 ## References

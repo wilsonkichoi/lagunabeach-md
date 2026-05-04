@@ -24,7 +24,7 @@ sourceBodyHash: 'sha256:22d5eb111a89acdd'
 translatedAt: 2026-05-01T20:54:17+08:00
 ---
 
-> **En 30 secondes :** Stefanie Sun (孫燕姿) naît à Singapour en 1978. Elle fait ses débuts à Taïwan en 2000 avec « Tian Hei Hei » (天黑黑), premier album vendu à 330 000 exemplaires, en tête des ventes annuelles. En 2001, aux Golden Melody Awards, elle bat [Jay Chou](/fr/People/jay-chou/) d'une seule voix pour le prix de meilleure nouvelle artiste ; en 2005, elle devient la première artiste à remporter à la fois le prix de meilleure nouvelle artiste et celui de meilleure chanteuse. Sa voix est la mémoire sonore d'une génération à Taïwan, mais elle est restée Singapourienne. En 2023, une IA utilise sa voix pour interpréter plus de 1 000 chansons. Elle choisit la philosophie plutôt que le procès : « Être moi-même, c'est déjà suffisant. »
+> **En 30 secondes :** Stefanie Sun (孫燕姿) naît à Singapour en 1978. Elle fait ses débuts à Taïwan en 2000 avec « Tian Hei Hei » (天黑黑), premier album vendu à 330 000 exemplaires, en tête des ventes annuelles. En 2001, aux Golden Melody Awards, elle bat [Jay Chou](/fr/people/jay-chou/) d'une seule voix pour le prix de meilleure nouvelle artiste ; en 2005, elle devient la première artiste à remporter à la fois le prix de meilleure nouvelle artiste et celui de meilleure chanteuse. Sa voix est la mémoire sonore d'une génération à Taïwan, mais elle est restée Singapourienne. En 2023, une IA utilise sa voix pour interpréter plus de 1 000 chansons. Elle choisit la philosophie plutôt que le procès : « Être moi-même, c'est déjà suffisant. »
 
 En mai 2023, une version non autorisée de Stefanie Sun apparaît sur la plateforme chinoise Bilibili.[^1]
 
@@ -52,7 +52,7 @@ Le producteur de cette chanson, Lee Shih Shiong, s'inspire d'une comptine en hok
 
 30 000 exemplaires vendus en une semaine, plus de 300 000 fin juillet, 330 000 au total : l'album remporte la première place des ventes annuelles à Taïwan en 2000. L'année suivante, son deuxième album atteint 380 000 exemplaires et conserve la tête du classement.[^7]
 
-En 2000, Taïwan sort de la peur provoquée par le séisme du 21 septembre (921) et de l'anxiété liée au bug de l'an 2000. La même année, [Jay Chou](/fr/People/jay-chou/) fait ses débuts, et « Ai Qing Wan Sui » (愛情萬歲) de Mayday devient un hymne générationnel. Stefanie Sun, en tant qu'artiste venue d'ailleurs, s'inscrit dans la mémoire sonore de ce tournant de siècle avec une chanson adaptée d'une comptine traditionnelle hokkienne.
+En 2000, Taïwan sort de la peur provoquée par le séisme du 21 septembre (921) et de l'anxiété liée au bug de l'an 2000. La même année, [Jay Chou](/fr/people/jay-chou/) fait ses débuts, et « Ai Qing Wan Sui » (愛情萬歲) de Mayday devient un hymne générationnel. Stefanie Sun, en tant qu'artiste venue d'ailleurs, s'inscrit dans la mémoire sonore de ce tournant de siècle avec une chanson adaptée d'une comptine traditionnelle hokkienne.
 
 > **📝 Note du conservateur**
 > La voix de Stefanie Sun possède une texture particulière : légèrement rauque, avec un flux naturel qui ne force pas. Dans un marché de la pop sinophone largement dominé par la démonstration technique, elle est reconnue pour son « effortlessness » — son aisance apparente. Cette aisance repose sur des années de formation pianistique et sur un choix esthétique de ne pas sur-jouer.

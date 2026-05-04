@@ -82,10 +82,10 @@ Rather than treating them as thugs, we should relearn what "appropriate distance
 
 ## Further Reading
 
-- [Zoo and Exhibition Animal Ethics](/en/Society/zoo-and-exhibition-animal-ethics/) — A discussion of captive-animal ethics that complements the "neighbor" framing of wild macaques in this article.
-- [Taiwan Zoos](/en/Society/taiwan-zoos/) — Shou Shan Zoo and the Mount Shou macaque population coexist in the same geography.
+- [Zoo and Exhibition Animal Ethics](/en/society/zoo-and-exhibition-animal-ethics/) — A discussion of captive-animal ethics that complements the "neighbor" framing of wild macaques in this article.
+- [Taiwan Zoos](/en/society/taiwan-zoos/) — Shou Shan Zoo and the Mount Shou macaque population coexist in the same geography.
 - Robert Swinhoe (史溫侯) — The British naturalist who named _Macaca cyclopis_ in 1862; the prehistory of footnotes [^4][^5].
-- [Malayan Night Heron](/en/Nature/malayan-night-heron/) — Another case of a wild animal entering human activity zones — but the opposite of the macaque: the macaque approaches humans largely for food incentives, while the night heron's move into the city is closer to habitat expansion. Humans accidentally built urban niches that resemble low-elevation forest.
+- [Malayan Night Heron](/en/nature/malayan-night-heron/) — Another case of a wild animal entering human activity zones — but the opposite of the macaque: the macaque approaches humans largely for food incentives, while the night heron's move into the city is closer to habitat expansion. Humans accidentally built urban niches that resemble low-elevation forest.
 
 ## References
 

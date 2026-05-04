@@ -157,4 +157,4 @@ Taiwan is a satellite manufacturing power without its own rocket — but it has 
 
 ---
 
-_See also: [Semiconductor Industry](/en/taiwan-semiconductor-industry/) · [Taiwan Startup Ecosystem](/en/Technology/taiwan-startup-ecosystem/) · [Taiwan Electric Vehicle Industry Chain](/en/Technology/taiwan-electric-vehicle-industry-chain/)_
+_See also: [Semiconductor Industry](/en/taiwan-semiconductor-industry/) · [Taiwan Startup Ecosystem](/en/technology/taiwan-startup-ecosystem/) · [Taiwan Electric Vehicle Industry Chain](/en/technology/taiwan-electric-vehicle-industry-chain/)_

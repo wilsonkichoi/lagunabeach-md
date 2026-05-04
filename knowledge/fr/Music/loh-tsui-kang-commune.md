@@ -119,10 +119,10 @@ On peut appeler cela une tragédie. On peut aussi en faire la fin la plus punk q
 
 ## Pour aller plus loin
 
-- [Musique indépendante taïwanaise](/fr/Music/indie-music/) — De Crystal Records à Underworld à l’ère du streaming, trente ans de scène musicale indépendante taïwanaise
-- [Fire EX.](/fr/Music/fire-ex/) — Même punk en taïwanais pour documenter une époque, vingt-cinq ans depuis le sud de Taïwan, Kaohsiung
-- [Histoire du rock taïwanais](/fr/Music/rock-history/) — Du underground à la lumière, l’histoire complète du rock taïwanais
-- [Musique populaire et Golden Melody Awards](/fr/Music/golden-melody/) — Quarante ans de Golden Melody Awards, miroir annuel de l’industrie musicale taïwanaise
+- [Musique indépendante taïwanaise](/fr/music/indie-music/) — De Crystal Records à Underworld à l’ère du streaming, trente ans de scène musicale indépendante taïwanaise
+- [Fire EX.](/fr/music/fire-ex/) — Même punk en taïwanais pour documenter une époque, vingt-cinq ans depuis le sud de Taïwan, Kaohsiung
+- [Histoire du rock taïwanais](/fr/music/rock-history/) — Du underground à la lumière, l’histoire complète du rock taïwanais
+- [Musique populaire et Golden Melody Awards](/fr/music/golden-melody/) — Quarante ans de Golden Melody Awards, miroir annuel de l’industrie musicale taïwanaise
 
 ## Références
 

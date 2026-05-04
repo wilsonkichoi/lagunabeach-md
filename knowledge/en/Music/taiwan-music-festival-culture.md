@@ -31,7 +31,7 @@ lastHumanReview: false
 
 In April 1995, Wade Davis and Jimi Moe — two Americans living in Taiwan — set up a stage at a Kenting music venue called "Dream Kenting" and invited about 12 bands to perform. No sponsors, no ticketing system; bands sold hand-dyed T-shirts from their own stalls. They called the event "Spring Scream" (春天吶喊).
 
-That year, Taiwan had been out of martial law for only eight years. An underground music scene was just emerging: [LTK Commune (濁水溪公社)](/en/Music/loh-tsui-kang-commune/) was screaming in Taiwanese at small Taipei venues, while Quarterback rehearsed outside the Witch House. Outdoor music festivals? Nobody had done it. Rock music in Taiwan had not yet escaped the indoors.
+That year, Taiwan had been out of martial law for only eight years. An underground music scene was just emerging: [LTK Commune (濁水溪公社)](/en/music/loh-tsui-kang-commune/) was screaming in Taiwanese at small Taipei venues, while Quarterback rehearsed outside the Witch House. Outdoor music festivals? Nobody had done it. Rock music in Taiwan had not yet escaped the indoors.
 
 In a 2005 Taipei Times interview, Davis said: "It's a small island, so it's good to have some new things coming from outside." Looking back thirty years later, that line underestimates what he started. Spring Scream did not merely "let new things in." It proved something Taiwanese people hadn't considered: you could listen to music by the sea, on the grass, under the stars — and it would change how you felt about music entirely.
 
@@ -74,9 +74,9 @@ Megaport's path was not smooth. It suspended in 2008, revived at the Pier-2 Art 
 
 > **✦** A city's mayor called his city's most important music festival "second-rate culture." Megaport's response: it revived in 2021, with presale tickets selling out faster than any music festival in Taiwanese history. In 2022, both early-bird and presale tickets sold out in ten minutes.
 
-By the 2020s, Megaport had become more than a festival. It spreads between the Kaohsiung Music Center and the Pier-2 Art Center, across indoor venues, harborside piers, and warehouse clusters — rock, electronic, folk, hip-hop, all welcome. The 2026 lineup includes Sunset Rollercoaster, [Fire EX. (滅火器)](/en/Music/fire-ex/), Blood Stained Ketchup, and Finnish singer Käärijä — the range itself is Megaport's attitude: if it sounds good, it can happen by the harbor.
+By the 2020s, Megaport had become more than a festival. It spreads between the Kaohsiung Music Center and the Pier-2 Art Center, across indoor venues, harborside piers, and warehouse clusters — rock, electronic, folk, hip-hop, all welcome. The 2026 lineup includes Sunset Rollercoaster, [Fire EX. (滅火器)](/en/music/fire-ex/), Blood Stained Ketchup, and Finnish singer Käärijä — the range itself is Megaport's attitude: if it sounds good, it can happen by the harbor.
 
-Megaport is also one of the few platforms to successfully transform Taiwanese (台語) from a nostalgic symbol into a contemporary cultural language. [Fire EX. (滅火器)](/en/Music/fire-ex/) sings punk in Taiwanese; Sorry Youth sings post-rock in Taiwanese; Sorry Youth's peer the Beautiful Murmur sings cyber-rock in Taiwanese. These bands are not "preserving a dialect." They are making entirely new things in their mother tongue.
+Megaport is also one of the few platforms to successfully transform Taiwanese (台語) from a nostalgic symbol into a contemporary cultural language. [Fire EX. (滅火器)](/en/music/fire-ex/) sings punk in Taiwanese; Sorry Youth sings post-rock in Taiwanese; Sorry Youth's peer the Beautiful Murmur sings cyber-rock in Taiwanese. These bands are not "preserving a dialect." They are making entirely new things in their mother tongue.
 
 Megaport gave them the biggest amplifier.
 

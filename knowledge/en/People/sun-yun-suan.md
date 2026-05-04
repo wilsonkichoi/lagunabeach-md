@@ -76,7 +76,7 @@ But as time has moved on, some historians have noted that excessive mythologizat
 ## Further Reading
 
 - Semiconductor Industry (半導體產業) — extended reading on the high-tech industry path catalyzed by Sun Yun-suan, Li Kwoh-ting, and ITRI.
-- [Transportation System](/en/Lifestyle/transportation-system/) — for comparison with infrastructure thinking under postwar technocratic governance and the Ten Major Construction Projects.
+- [Transportation System](/en/lifestyle/transportation-system/) — for comparison with infrastructure thinking under postwar technocratic governance and the Ten Major Construction Projects.
 
 ## References
 

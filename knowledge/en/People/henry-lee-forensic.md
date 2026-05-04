@@ -58,7 +58,7 @@ In 1995, NFL star O.J. Simpson was charged with the murder of his ex-wife Nicole
 
 **The 319 shooting (2004)**
 
-On March 19, 2004, one day before Taiwan's presidential election, President [Chen Shui-bian](/en/People/chen-shui-bian-controversial-president/) and Vice President [Annette Lu](/en/People/annette-lu/) were shot while campaigning in Tainan. Both sustained minor injuries. The next day, Chen won re-election by roughly 30,000 votes. The pan-blue camp refused to accept the result and called for an international forensic expert to intervene.
+On March 19, 2004, one day before Taiwan's presidential election, President [Chen Shui-bian](/en/people/chen-shui-bian-controversial-president/) and Vice President [Annette Lu](/en/people/annette-lu/) were shot while campaigning in Tainan. Both sustained minor injuries. The next day, Chen won re-election by roughly 30,000 votes. The pan-blue camp refused to accept the result and called for an international forensic expert to intervene.
 
 Lee led a team of three American ballistics and forensic specialists to Taiwan to conduct a "mobile ballistic reconstruction," analyzing cartridge-case structures and toolmark evidence. His forensic findings supported the "one bullet, two wounds" account, concluding from the physical evidence that the shooting could indeed have occurred. The DPP at the time, however, noted that Lee had served as chairman of the Lien-Soong North American support committee and questioned his impartiality. The case was eventually closed by the Tainan District Prosecutors Office, which identified the shooter as Chen I-hsiung, who had died by suicide, but the political controversy smoldered for years. Lee's role was to provide physical ballistic analysis, and his forensic conclusions were not overturned by subsequent investigations.
 
@@ -100,7 +100,7 @@ In November 2025, he was diagnosed with a brain tumor. On March 27, 2026, Henry 
 
 ## Further Reading
 
-[Chen Shui-bian](/en/People/chen-shui-bian-controversial-president/) and [Taiwan White Terror](/en/History/taiwan-white-terror/) offer two different lenses through which to understand the context of Taiwan's criminal justice system. For the historical backdrop of the 1949 crossing, [KMT Government Relocation and Postwar Reconstruction](/en/History/kmt-government-relocation-and-postwar-reconstruction/) is a starting point. [Taiwan Democratization](/en/History/taiwan-democratization/) documents Taiwan's transition from authoritarian rule to the rule of law — a process in which Lee both witnessed and participated in the modernization of forensic science.
+[Chen Shui-bian](/en/people/chen-shui-bian-controversial-president/) and [Taiwan White Terror](/en/history/taiwan-white-terror/) offer two different lenses through which to understand the context of Taiwan's criminal justice system. For the historical backdrop of the 1949 crossing, [KMT Government Relocation and Postwar Reconstruction](/en/history/kmt-government-relocation-and-postwar-reconstruction/) is a starting point. [Taiwan Democratization](/en/history/taiwan-democratization/) documents Taiwan's transition from authoritarian rule to the rule of law — a process in which Lee both witnessed and participated in the modernization of forensic science.
 
 ---
 

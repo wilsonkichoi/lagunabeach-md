@@ -38,7 +38,7 @@ Erhu, pipa, dizi, guzheng. The instruments themselves had no political stance, b
 
 With that meaning loaded aboard, guoyue crossed the strait to Taiwan.
 
-But Taiwan was not a blank canvas. The island already had nanguan (南管) and beiguan (北管) temple traditions as part of the [Taiwan Folk Music and Songs](/en/Music/Taiwan Folk Music and Songs/) tradition, along with Indigenous jaw harps and wooden drums, and a foundation of Western music education left by fifty years of Japanese colonial rule[^5]. When _guoyue_ was transplanted onto an island that already had its own soundscape, it was destined to grow into something different.
+But Taiwan was not a blank canvas. The island already had nanguan (南管) and beiguan (北管) temple traditions as part of the [Taiwan Folk Music and Songs](/en/music/Taiwan Folk Music and Songs/) tradition, along with Indigenous jaw harps and wooden drums, and a foundation of Western music education left by fifty years of Japanese colonial rule[^5]. When _guoyue_ was transplanted onto an island that already had its own soundscape, it was destined to grow into something different.
 
 > **📝 Curator's Note**
 > Taiwan's guoyue education diverged from opera training from the very beginning. The National Taiwan College of Performing Arts (formerly Fu Hsing Dramatic Arts Academy, founded 1957) specialized in operatic music, while the National Taiwan University of Arts (formerly National Arts Academy, founded 1955) developed pure instrumental performance[^6]. This split is rare in the Chinese-speaking world — conservatories in mainland China typically house opera and folk music under the same roof. The result: Taiwanese guoyue pursued "pure music" from the start, rather than functioning as accompaniment for opera.
@@ -67,13 +67,13 @@ TCO's turning point came in 2007, when composer Chung Yiu-kwong took over as dir
 
 Chung's solution was to commission Taiwanese composers en masse, with subject matter locked to local stories. During his eight-year tenure (2007–2015), TCO's programming shifted from predominantly traditional Chinese repertoire to majority Taiwanese originals[^12]. This wasn't just political correctness — it solved a real market problem: Taiwanese audiences needed a reason to walk into a guoyue concert hall, and "this piece is about the street where you grew up" was that reason.
 
-During the same period, the Kaohsiung Chinese Orchestra (KCO, originally the Kaohsiung Teachers' Chinese Orchestra founded in 1979, renamed in 2000) carved out a different path in southern Taiwan[^13]. KCO programmed heavily from [Hakka music](/en/Music/taiwan-hakka-music-from-mountain-songs-to-rock/) arrangements and Taiwanese Hokkien songs, creating a stylistic north-south divide.
+During the same period, the Kaohsiung Chinese Orchestra (KCO, originally the Kaohsiung Teachers' Chinese Orchestra founded in 1979, renamed in 2000) carved out a different path in southern Taiwan[^13]. KCO programmed heavily from [Hakka music](/en/music/taiwan-hakka-music-from-mountain-songs-to-rock/) arrangements and Taiwanese Hokkien songs, creating a stylistic north-south divide.
 
 ## Su Wen-ching: The Man Who Put Taiwan's Address in Guoyue
 
 If you had to pick one person to represent the starting point of "Taiwanese-style guoyue composition," most music scholars would point to Su Wen-ching (蘇文慶)[^14].
 
-Su (born 1958) is one of the few composers who insisted from the start on writing Taiwan's stories through guoyue. His catalogue reads like a map of Taiwan: _Legend of the Wind Lion God_ draws from Kinmen's stone lion worship in the [offshore islands](/en/Geography/offshore-islands-and-maritime-culture/), _Taiwan Rhapsody_ is named directly after the island, and the liuqin concerto _Garden After Rain_ captures the air after a Taiwanese rainy season[^15].
+Su (born 1958) is one of the few composers who insisted from the start on writing Taiwan's stories through guoyue. His catalogue reads like a map of Taiwan: _Legend of the Wind Lion God_ draws from Kinmen's stone lion worship in the [offshore islands](/en/geography/offshore-islands-and-maritime-culture/), _Taiwan Rhapsody_ is named directly after the island, and the liuqin concerto _Garden After Rain_ captures the air after a Taiwanese rainy season[^15].
 
 "I want to use guoyue's vocabulary to tell the stories of Taiwan's land," Su said in an interview with _Chuanyi_ (《傳藝》) magazine[^16]. In the 2020s, this sounds like common sense. In the 1980s guoyue world, it was a position that required courage. The mainstream belief at the time: guoyue was meant for Chinese classical pieces, and writing about Taiwan was a "demotion."
 
@@ -97,7 +97,7 @@ After 1949, guoyue on both sides of the strait went its own way for seventy year
 
 ## When Indigenous Music Meets the Erhu: Guoyue's Boldest Experiment
 
-The most distinctive evolutionary trait of Taiwanese guoyue is its incorporation of [Taiwan's 16 indigenous peoples](/en/Culture/indigenous-peoples-16-tribes-cultural-map/) music into guoyue orchestration.
+The most distinctive evolutionary trait of Taiwanese guoyue is its incorporation of [Taiwan's 16 indigenous peoples](/en/culture/indigenous-peoples-16-tribes-cultural-map/) music into guoyue orchestration.
 
 This is musically radical. Guoyue's tonal system is built on Han Chinese pentatonic scales, while Taiwan's Indigenous music — particularly the Bunun _pasibutbut_ (prayer for millet harvest) — uses an entirely different overtone system[^25]. Writing Bunun music into guoyue isn't just swapping melodies — it means forcing two musical logics to coexist within a single piece.
 

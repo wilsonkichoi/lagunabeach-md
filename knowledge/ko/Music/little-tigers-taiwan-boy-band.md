@@ -69,8 +69,8 @@ translatedAt: 2026-05-01T22:19:01+08:00
 
 ### 관련 주제
 
-- **→ [대만 대중음악](/ko/Music/pop-music/)**
-- **→ [대중음악과 금곡상](/ko/Music/golden-melody-awards/)**
+- **→ [대만 대중음악](/ko/music/pop-music/)**
+- **→ [대중음악과 금곡상](/ko/music/golden-melody-awards/)**
 - **→ 대만 민요운동 (台灣民歌運動)**
 
 ---

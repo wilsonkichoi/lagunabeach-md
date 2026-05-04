@@ -69,8 +69,8 @@ Having read his story, we might ask ourselves: in an information-saturated but f
 
 **Further Reading**
 
-- [Lai Ho (賴和)](/en/People/lai-ho-father-of-taiwanese-literature/) — Taiwan's father of new literature in the same era; like Chiang, a pioneer of cultural enlightenment
-- [Japanese Colonial Era Social Movements](/en/History/japanese-colonial-era/) — the broader movement context in which Chiang Wei-shui operated
+- [Lai Ho (賴和)](/en/people/lai-ho-father-of-taiwanese-literature/) — Taiwan's father of new literature in the same era; like Chiang, a pioneer of cultural enlightenment
+- [Japanese Colonial Era Social Movements](/en/history/japanese-colonial-era/) — the broader movement context in which Chiang Wei-shui operated
 - Taiwan People's Party (臺灣民眾黨) — the first legal political party founded by Chiang Wei-shui
 
 ---

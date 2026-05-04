@@ -16,7 +16,7 @@ category: People
 
 # Mark Liu: El capitán del semiconductor en la tormenta geopolítica
 
-Mark Liu (1952-), actual presidente de TSMC, es considerado uno de los sucesores más importantes del fundador [Morris Chang](/es/People/tsmc-morris-chang/). Con más de 30 años de servicio en TSMC, ha sido testigo de la transformación de la empresa desde una startup hasta convertirse en el líder mundial de la industria de semiconductores. En una era de creciente rivalidad tecnológica entre Estados Unidos y China, Mark Liu debe encontrar el mejor camino de desarrollo para TSMC en la encrucijada de la geopolítica.
+Mark Liu (1952-), actual presidente de TSMC, es considerado uno de los sucesores más importantes del fundador [Morris Chang](/es/people/tsmc-morris-chang/). Con más de 30 años de servicio en TSMC, ha sido testigo de la transformación de la empresa desde una startup hasta convertirse en el líder mundial de la industria de semiconductores. En una era de creciente rivalidad tecnológica entre Estados Unidos y China, Mark Liu debe encontrar el mejor camino de desarrollo para TSMC en la encrucijada de la geopolítica.
 
 ## La formación de un experto técnico
 
@@ -32,7 +32,7 @@ Como líder de formación técnica, Mark Liu comprende a fondo las barreras tecn
 
 ## Planificación de sucesión y estilo de liderazgo
 
-En 2018, [Morris Chang](/es/People/tsmc-morris-chang/) anunció su jubilación, y Mark Liu y Wei Che-chia (魏哲家) asumieron conjuntamente el liderazgo, ocupando respectivamente los cargos de presidente y director general. Este diseño de sistema de doble liderazgo permitió a TSMC gestionar con estabilidad la transición generacional en la alta dirección. Mark Liu se encarga de la dirección estratégica general y las relaciones externas, mientras que Wei Che-chia se centra en la ejecución operativa.
+En 2018, [Morris Chang](/es/people/tsmc-morris-chang/) anunció su jubilación, y Mark Liu y Wei Che-chia (魏哲家) asumieron conjuntamente el liderazgo, ocupando respectivamente los cargos de presidente y director general. Este diseño de sistema de doble liderazgo permitió a TSMC gestionar con estabilidad la transición generacional en la alta dirección. Mark Liu se encarga de la dirección estratégica general y las relaciones externas, mientras que Wei Che-chia se centra en la ejecución operativa.
 
 El estilo de liderazgo de Mark Liu es más discreto y contenido en comparación con el de Morris Chang, pero otorga la misma importancia a la innovación tecnológica y la planificación a largo plazo. Ha continuado la estrategia central de TSMC centrada en la fabricación por encargo y el liderazgo tecnológico, al tiempo que debe enfrentarse a un entorno internacional cada vez más complejo.
 

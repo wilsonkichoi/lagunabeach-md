@@ -97,9 +97,9 @@ Mayday will keep singing. But after those four words in 2024, when Taiwanese fan
 
 ## Further Reading
 
-- [Taiwan Pop Music](/en/Music/pop-music-and-golden-melody-awards/)
-- [Fire EX! (滅火器)](/en/Music/fire-ex/)
-- [Taiwan Indie Music](/en/Music/indie-music-scene/)
+- [Taiwan Pop Music](/en/music/pop-music-and-golden-melody-awards/)
+- [Fire EX! (滅火器)](/en/music/fire-ex/)
+- [Taiwan Indie Music](/en/music/indie-music-scene/)
 
 ## References
 
