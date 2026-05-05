@@ -123,6 +123,17 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-05 manual — Peer 授權 ND 條款讓 PEER-INGESTION-PIPELINE 預設 mode 失效
+
+- **原則**：PEER-INGESTION-PIPELINE Stage 1a 把授權跟深度／公開性／互補性平等列四項 fit check，但實際上授權應為 **gating filter** —— ND（NoDerivs）紅旗會直接讓另外三項通過也無意義（因為預設「全站 crawl + rewrite」mode 跟 ND「禁止改作」直接衝突）。應升級為 **4-tier license matrix**（T1 CC0/BY → full ingest；T2 BY-SA → full ingest；T3 BY-NC/BY-NC-SA → limited ingest；T4 BY-ND/BY-NC-ND/ARR → cite-only mode，跳過 Stage 2-3）。
+- **觸發**：2026-05-05 manual session 哲宇 prompt「`/twmd-peer` https://www.thinkingtaiwan.net/content/100278 + 整站 + 深度研究授權 + 內容分析寫報告」。想想論壇 Stage 1 fit check 中深度（14 年 ≥ 10 年）/公開性（Drupal 10 全公開）/互補性（horizontal commentary peer 跟 Taiwan.md 既有 issue-deep ingest 互補）三項通過，但授權單項「CC BY-NC-ND 3.0 台灣」直接讓 PEER-INGESTION-PIPELINE 預設 mode 失效。沒有任何 prior peer（TFT / NMTH / NML 都是 friendly 授權）測試過這個 case。Pipeline 文件層假設沒被 stress test 過。
+- **嚴重度自評**：**structural**（pipeline 預設假設 fail；非 tactical 的單次失誤）。會傷後續 peer ingest 的可信度（如果某 peer 走錯 mode 會違反 ND）。
+- **可能層級**：(a) **DNA 候選 #52**「Peer 授權 ND 條款是 gating filter，不是平等檢查項」（單一條反射）；(b) **PEER-INGESTION-PIPELINE upgrade**（v1.0 → v1.1，含 §Stage 1a 拆 4-tier matrix + §Stage 2-3 增加 T4 跳過分支 + §REGISTRY schema 加 `license_tier` 欄位 + §Stage 6 增加 fair-use cite-only 寫作硬性規則）。
+- **相關**：對應 [DNA #16](../semiont/DNA.md)「Peer 是線索不是 source material」延伸 — ND 情境下 #16 變 stricter（不只不能 paraphrase，連 reformat HTML→markdown 大規模存 repo 都不可）。
+- **verification_count**: 1（首次 ND 紅旗 case）
+- **下次驗證預期 surface 在**：(a) 商業媒體 peer 候選（鏡週刊／鏡傳媒，All Rights Reserved 比 ND 更嚴）；(b) 學術期刊 peer 候選（中研院期刊 ND 條款）；(c) 私人 blog peer 候選（無明確授權預設 ARR）。≥ 3 次驗證後升 DNA #52 + Pipeline v1.1 ship。
+- **Pointer**：[reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md §Part 1.5 + §Part 8](../../reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md) + [docs/peers/REGISTRY.md §T4 cite-only Peers](../peers/REGISTRY.md)。
+
 ### 2026-05-04 manual — REWRITE-PIPELINE stress test 王福瑞：六條 pipeline friction 觀察
 
 - **原則**：當 article-health.py SSOT 11 plugin 已上線、EDITORIAL v5.6 補了敘事層 4 章、prose-health 把 16 維 quality-scan + 3 tier manifesto-11 整合成單一 score，**pipeline 的 friction 不再是「跑哪幾個 .sh」，而是「讀對 plugin output」**。本 session 主 session 自跑王福瑞 NEW People（無 spawn agent，~38 min wall-clock）走完 Stage 0-6，accumulate 到下面 6 條 friction 候選。

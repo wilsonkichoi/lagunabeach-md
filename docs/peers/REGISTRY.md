@@ -152,6 +152,53 @@
 
 ---
 
+## T4 cite-only Peers（ND 條款限制 — fair-use cite only，無 ingest）
+
+> 這個 section 收 **CC BY-NC-ND** 或 **All Rights Reserved** 類型的 peer。Pipeline mode 從 ingest-and-rewrite 改為 fair-use cite-only。不寫 crawler、不存 raw data；僅作為 footnote 來源 + meta 條目主題。
+>
+> 設計理由：本 section 誕生於 2026-05-05 想想論壇 ingestion case — 揭露 PEER-INGESTION-PIPELINE Stage 1a §授權項目應為 gating filter 而非平等檢查項。完整論述見 [reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md §Part 8 Meta 洞察](../../reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md)。
+
+### ThinkingTaiwan · 想想論壇
+
+- **ID**: `thinking-taiwan`
+- **Name**: 想想論壇 Thinking Taiwan
+- **Issue area**: 民主治理 / 兩岸觀察 / 地緣政經 / 思想政策 / 社會人文（horizontal commentary peer，非 issue-deep）
+- **Website**: https://www.thinkingtaiwan.net/
+- **Status**: 🟡 **T4_cite_only_pending_observer_decision**
+- **License**: **CC BY-NC-ND 3.0 台灣** — 著作權人「小英教育基金會想想論壇」 — NC + ND 兩條都跟 PEER-INGESTION-PIPELINE 預設 ingest mode 衝突
+- **First analyzed**: 2026-05-05（Stage 1 fit check + Stage 4 corpus analysis 縮版，**未** Stage 2 crawler）
+- **Raw data**: ❌ **無**（per ND 條款，不爬整站、不存 corpus 進 repo）
+- **Crawler**: ❌ **無**（不寫）
+- **Analysis report**: [`reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md`](../../reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md)（817 行 / 9 Part / 13 系列 / 20 P0-P2 候選 / §Part 1.5 授權 deep dive / §Part 8 Pipeline 升級提案）
+- **Articles shipped (P0)**: **0/5** 🟡（pending observer decision；走 fair-use cite-only mode）
+  1. 想想論壇 NEW · Society/媒體
+  2. 小英教育基金會 NEW · Society/智庫
+  3. 30 年、30 人、30 個觀點 NEW · Society/民主
+  4. 318 學運十週年回望 EVOLVE · History
+  5. 台灣 commentary 媒體生態系 NEW · Society/媒體
+- **Articles pending (P1)**: 0/8（思想坦克 / 太陽花論述史 / 公共領域理論 / AI 與民主 / 兩岸 framing 戰 / 中國經濟結構觀察 / 報導者 / 民主深化辯論 2026）
+- **Articles pending (P2)**: 0/7（端傳媒 / 上報 / 鏡週刊 / 智庫對照 / 後總統卸任智庫國際比較 / 未富先老 framework / 評論型作家圖譜）
+- **Partnership status**: `not initiated` — pipeline Stage 8 規定 ship ≥ 2 篇 P0 後才聯繫；本案因 ND 條款另增「主動詢問個案授權例外」可能性
+- **Key contacts**:
+  - 蔡英文（小英教育基金會創辦人；2025-10-03 改版發刊詞）
+  - 編輯委員會（跨領域專家學者組成，未公開名單）
+- **Key features**:
+  - **Horizontal commentary peer**（vs TFT/NMTH/NML 都是 vertical issue-deep peer）
+  - **6 大欄目**：思想政策（含安全/能源/財經/產業/社福）/ 地緣政經 / 社會人文 / 國際智庫 / 多元想想 / 想想選集 + English Edition
+  - **CMS**: Drupal 10（不是 WordPress；無 wp-json API）
+  - **規模**: 改版前 ~5,200-5,800 篇 / 1,900+ 文章 / 600+ 作者 / sitemap 4 頁 ~6,664 URLs
+  - **作者組成**: 大學教授 30% + 智庫 25% + 國際媒體 15% + NGO 15% + 政治人物 10% + 其他 5%
+  - **2025-10 改版重啟**: 蔡英文宣布重啟 + 新編輯委員會制 + 旗艦系列「30 年、30 人、30 個觀點」
+  - **4 個 framework**: 民主治理（哈伯瑪斯）/ 兩岸監督 / 地緣政經 / 思想政策跨領域對話
+- **Notes**:
+  - **第一個 T4（CC BY-NC-ND）peer**，揭露 PEER-INGESTION-PIPELINE Stage 1a 授權項目應為 gating filter 而非平等檢查項
+  - 觸發 4-tier license matrix 提案（v0.1，待觀察者 review）—— [reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md §Part 8.2](../../reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md)
+  - 觸發 LESSONS-INBOX 候選（DNA 候選 #52「Peer 授權 ND 條款是 gating filter」，verification_count = 1，需 ≥ 3 升 canonical）
+  - **三個選項 pending observer decision**：(A) 放棄 / (B) 純 fair-use cite-only / (C) hybrid（cite-only + 主動聯繫想想論壇詢問個案授權）
+  - Session 記憶: [`memory/2026-05-05-181314-manual.md`](../semiont/memory/2026-05-05-181314-manual.md)（待寫）
+
+---
+
 ## Archived Peers
 
 （空 — peer 從 active 移到 archived 的條件見 PEER-INGESTION-PIPELINE.md §Peer Deprecation Criteria）
