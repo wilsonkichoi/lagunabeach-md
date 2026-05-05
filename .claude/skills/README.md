@@ -27,6 +27,7 @@
 | `/twmd-pr-review` | 「審 PR / Review」           | [MAINTAINER-PIPELINE](../../docs/pipelines/MAINTAINER-PIPELINE.md) |
 | `/twmd-memory`    | 「收官 / 寫 memory」         | [MEMORY-PIPELINE](../../docs/pipelines/MEMORY-PIPELINE.md)         |
 | `/twmd-diary`     | 「寫日記 / 反芻」            | [DIARY-PIPELINE](../../docs/pipelines/DIARY-PIPELINE.md)           |
+| `/twmd-finale`    | 「收官三件套 / finale」      | chain `/twmd-memory` + `/twmd-diary` + `/twmd-evolve` + 報告       |
 
 ### 🌐 多語 + 繁殖（Tier 2 週頻）
 
