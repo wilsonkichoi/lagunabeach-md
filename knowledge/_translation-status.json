@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-05T15:24:44+08:00",
-    "zhCommitHead": "b832b3443",
-    "totalZh": 671,
+    "lastUpdated": "2026-05-05T15:54:21+08:00",
+    "zhCommitHead": "c48b46696",
+    "totalZh": 672,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 671,
-        "fresh": 464,
-        "stale": 88,
+        "total_zh": 672,
+        "fresh": 460,
+        "stale": 92,
         "metadata_stale": 119,
-        "missing": 0,
+        "missing": 1,
         "orphan": 1
       },
       "ja": {
-        "total_zh": 671,
-        "fresh": 462,
-        "stale": 88,
+        "total_zh": 672,
+        "fresh": 458,
+        "stale": 92,
         "metadata_stale": 119,
-        "missing": 2,
+        "missing": 3,
         "orphan": 8
       },
       "ko": {
-        "total_zh": 671,
-        "fresh": 462,
-        "stale": 89,
+        "total_zh": 672,
+        "fresh": 458,
+        "stale": 93,
         "metadata_stale": 119,
-        "missing": 1,
+        "missing": 2,
         "orphan": 4
       },
       "es": {
-        "total_zh": 671,
-        "fresh": 463,
-        "stale": 88,
+        "total_zh": 672,
+        "fresh": 459,
+        "stale": 92,
         "metadata_stale": 119,
-        "missing": 1,
+        "missing": 2,
         "orphan": 1
       },
       "fr": {
-        "total_zh": 671,
-        "fresh": 463,
-        "stale": 89,
+        "total_zh": 672,
+        "fresh": 459,
+        "stale": 93,
         "metadata_stale": 119,
-        "missing": 0,
+        "missing": 1,
         "orphan": 4
       }
     },
@@ -16674,10 +16674,10 @@
     },
     "Society/2026鄭習會與國共十年再會.md": {
       "zh": {
-        "lastCommit": "056136d7",
-        "lastModified": "2026-04-11T16:04:38+08:00",
-        "contentHash": "sha256:059f5d9ff66a77e7",
-        "bodyHash": "sha256:05a0af91a175d45e"
+        "lastCommit": "c48b4669",
+        "lastModified": "2026-05-05T15:52:48+08:00",
+        "contentHash": "sha256:3eecc6e30b4626f7",
+        "bodyHash": "sha256:3d0acbeaa8a56355"
       },
       "translations": {
         "en": {
@@ -16690,8 +16690,10 @@
           "translationLastCommit": "13615750",
           "translationLastModified": "2026-05-04T23:33:48+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ja": {
           "path": "ja/Society/2026-cheng-xi-meeting-kmt-ccp-decade-reunion.md",
@@ -16703,8 +16705,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ko": {
           "path": "ko/Society/2026-cheng-xi-meeting-kmt-ccp-decade-reunion.md",
@@ -16716,8 +16720,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "es": {
           "path": "es/Society/2026-cheng-xi-meeting-kmt-ccp-decade-reunion.md",
@@ -16729,8 +16735,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "fr": {
           "path": "fr/Society/2026-cheng-xi-meeting-kmt-ccp-decade-reunion.md",
@@ -16742,8 +16750,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         }
       }
     },
@@ -16899,10 +16909,10 @@
     },
     "Society/太陽花學運.md": {
       "zh": {
-        "lastCommit": "b832b344",
-        "lastModified": "2026-05-05T14:09:41+08:00",
-        "contentHash": "sha256:b5917780e9bb622c",
-        "bodyHash": "sha256:764c4559b417d75d"
+        "lastCommit": "c48b4669",
+        "lastModified": "2026-05-05T15:52:48+08:00",
+        "contentHash": "sha256:fcb3cd1d8e19126b",
+        "bodyHash": "sha256:83ecd21abc7aa3b6"
       },
       "translations": {
         "en": {
@@ -16917,8 +16927,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -0"
         },
         "ja": {
           "path": "ja/Society/sunflower-movement.md",
@@ -16932,8 +16942,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -0"
         },
         "ko": {
           "path": "ko/Society/sunflower-movement.md",
@@ -16947,8 +16957,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -0"
         },
         "es": {
           "path": "es/Society/sunflower-movement.md",
@@ -16962,8 +16972,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -0"
         },
         "fr": {
           "path": "fr/Society/sunflower-movement.md",
@@ -16977,8 +16987,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -0"
         }
       }
     },
@@ -17289,6 +17299,31 @@
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "Society/台灣與史瓦帝尼.md": {
+      "zh": {
+        "lastCommit": "c48b4669",
+        "lastModified": "2026-05-05T15:52:48+08:00",
+        "contentHash": "sha256:a2eea97ea78b9eb8",
+        "bodyHash": "sha256:f58edd03b23a2764"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },
@@ -18012,8 +18047,8 @@
           "sourceContentHash": "sha256:ab5d7d4fa3beef0f",
           "sourceBodyHash": "sha256:bf906239d976cf4a",
           "translatedAt": "2026-05-05T14:13:06+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "734fb51d",
+          "translationLastModified": "2026-05-05T15:25:51+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -18025,8 +18060,8 @@
           "sourceContentHash": "sha256:ab5d7d4fa3beef0f",
           "sourceBodyHash": "sha256:bf906239d976cf4a",
           "translatedAt": "2026-05-05T14:13:07+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "734fb51d",
+          "translationLastModified": "2026-05-05T15:25:51+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -18038,8 +18073,8 @@
           "sourceContentHash": "sha256:ab5d7d4fa3beef0f",
           "sourceBodyHash": "sha256:bf906239d976cf4a",
           "translatedAt": "2026-05-05T14:13:07+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "734fb51d",
+          "translationLastModified": "2026-05-05T15:25:51+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -18051,8 +18086,8 @@
           "sourceContentHash": "sha256:ab5d7d4fa3beef0f",
           "sourceBodyHash": "sha256:bf906239d976cf4a",
           "translatedAt": "2026-05-05T14:13:07+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "734fb51d",
+          "translationLastModified": "2026-05-05T15:25:51+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -18064,8 +18099,8 @@
           "sourceContentHash": "sha256:ab5d7d4fa3beef0f",
           "sourceBodyHash": "sha256:bf906239d976cf4a",
           "translatedAt": "2026-05-05T14:13:07+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "734fb51d",
+          "translationLastModified": "2026-05-05T15:25:51+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -18629,9 +18664,9 @@
     },
     "Society/認知作戰.md": {
       "zh": {
-        "lastCommit": "e5fe6f08",
-        "lastModified": "2026-05-04T22:36:28+08:00",
-        "contentHash": "sha256:7b2149f05502f19e",
+        "lastCommit": "c48b4669",
+        "lastModified": "2026-05-05T15:52:48+08:00",
+        "contentHash": "sha256:9e9d7ed1b77f5362",
         "bodyHash": "sha256:53132f584b9b6657"
       },
       "translations": {
@@ -18647,8 +18682,8 @@
           "inferred": false,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -1"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -1"
         },
         "ja": {
           "path": "ja/Society/cognitive-warfare-against-taiwan.md",
@@ -18662,8 +18697,8 @@
           "inferred": false,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -1"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -1"
         },
         "ko": {
           "path": "ko/Society/cognitive-warfare-against-taiwan.md",
@@ -18677,8 +18712,8 @@
           "inferred": false,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -1"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -1"
         },
         "es": {
           "path": "es/Society/cognitive-warfare-against-taiwan.md",
@@ -18692,8 +18727,8 @@
           "inferred": false,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -1"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -1"
         },
         "fr": {
           "path": "fr/Society/cognitive-warfare-against-taiwan.md",
@@ -18707,8 +18742,8 @@
           "inferred": false,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -1"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -1"
         }
       }
     },
@@ -18789,10 +18824,10 @@
     },
     "Society/台灣邦交國與國際外交.md": {
       "zh": {
-        "lastCommit": "2d0c126f",
-        "lastModified": "2026-05-03T14:46:16+08:00",
-        "contentHash": "sha256:b2659dad1f6f5f0e",
-        "bodyHash": "sha256:9f0dbf91c7a5020d"
+        "lastCommit": "c48b4669",
+        "lastModified": "2026-05-05T15:52:48+08:00",
+        "contentHash": "sha256:1f461e2388e53179",
+        "bodyHash": "sha256:c30f0e3680aef93e"
       },
       "translations": {
         "en": {
@@ -18805,8 +18840,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ja": {
           "path": "ja/Society/taiwan-diplomatic-allies-and-international-relations.md",
@@ -18818,8 +18855,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ko": {
           "path": "ko/Society/taiwan-diplomatic-allies-and-international-relations.md",
@@ -18831,8 +18870,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "es": {
           "path": "es/Society/taiwan-diplomatic-allies-and-international-relations.md",
@@ -18844,8 +18885,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "fr": {
           "path": "fr/Society/taiwan-diplomatic-allies-and-international-relations.md",
@@ -18857,8 +18900,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         }
       }
     },
@@ -25084,10 +25129,10 @@
     },
     "People/賴清德.md": {
       "zh": {
-        "lastCommit": "2d0c126f",
-        "lastModified": "2026-05-03T14:46:16+08:00",
-        "contentHash": "sha256:5b139718ee24238e",
-        "bodyHash": "sha256:1550df44f40520dc"
+        "lastCommit": "c48b4669",
+        "lastModified": "2026-05-05T15:52:48+08:00",
+        "contentHash": "sha256:3af3eab5d24c9bed",
+        "bodyHash": "sha256:93c48108494b2b89"
       },
       "translations": {
         "en": {
@@ -25100,8 +25145,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ja": {
           "path": "ja/People/lai-ching-te.md",
@@ -25113,8 +25160,10 @@
           "translationLastCommit": "33d77944",
           "translationLastModified": "2026-05-05T13:39:18+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ko": {
           "path": "ko/People/lai-ching-te.md",
@@ -25126,8 +25175,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "es": {
           "path": "es/People/lai-ching-te.md",
@@ -25139,8 +25190,10 @@
           "translationLastCommit": "33d77944",
           "translationLastModified": "2026-05-05T13:39:18+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "fr": {
           "path": "fr/People/lai-ching-te.md",
@@ -25152,8 +25205,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         }
       }
     },
@@ -31282,10 +31337,10 @@
     },
     "People/蔡英文.md": {
       "zh": {
-        "lastCommit": "c9138dca",
-        "lastModified": "2026-05-02T23:47:52+08:00",
-        "contentHash": "sha256:4bb37557e229f5c6",
-        "bodyHash": "sha256:a47845d84d432cf6"
+        "lastCommit": "c48b4669",
+        "lastModified": "2026-05-05T15:52:48+08:00",
+        "contentHash": "sha256:1b66fc5b851e7463",
+        "bodyHash": "sha256:78e7d7f3ab8d2963"
       },
       "translations": {
         "en": {
@@ -31298,8 +31353,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ja": {
           "path": "ja/People/tsai-ing-wen.md",
@@ -31311,8 +31368,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ko": {
           "path": "ko/People/tsai-ing-wen.md",
@@ -31324,8 +31383,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "es": {
           "path": "es/People/tsai-ing-wen.md",
@@ -31337,8 +31398,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "fr": {
           "path": "fr/People/tsai-ing-wen.md",
@@ -31350,8 +31413,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         }
       }
     },
