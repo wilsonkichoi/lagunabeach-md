@@ -164,18 +164,18 @@
 - **Name**: 想想論壇 Thinking Taiwan
 - **Issue area**: 民主治理 / 兩岸觀察 / 地緣政經 / 思想政策 / 社會人文（horizontal commentary peer，非 issue-deep）
 - **Website**: https://www.thinkingtaiwan.net/
-- **Status**: 🟡 **T4_cite_only_pending_observer_decision**
+- **Status**: 🟢 **active (T4 cite-only)** — 觀察者 2026-05-05 選定 mode B/C，第一篇 P0-01 想想論壇 meta 條目已 ship
 - **License**: **CC BY-NC-ND 3.0 台灣** — 著作權人「小英教育基金會想想論壇」 — NC + ND 兩條都跟 PEER-INGESTION-PIPELINE 預設 ingest mode 衝突
 - **First analyzed**: 2026-05-05（Stage 1 fit check + Stage 4 corpus analysis 縮版，**未** Stage 2 crawler）
 - **Raw data**: ❌ **無**（per ND 條款，不爬整站、不存 corpus 進 repo）
 - **Crawler**: ❌ **無**（不寫）
 - **Analysis report**: [`reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md`](../../reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md)（817 行 / 9 Part / 13 系列 / 20 P0-P2 候選 / §Part 1.5 授權 deep dive / §Part 8 Pipeline 升級提案）
-- **Articles shipped (P0)**: **0/5** 🟡（pending observer decision；走 fair-use cite-only mode）
-  1. 想想論壇 NEW · Society/媒體
-  2. 小英教育基金會 NEW · Society/智庫
-  3. 30 年、30 人、30 個觀點 NEW · Society/民主
-  4. 318 學運十週年回望 EVOLVE · History
-  5. 台灣 commentary 媒體生態系 NEW · Society/媒體
+- **Articles shipped (P0)**: **1/5** 🟢
+  1. **想想論壇 NEW · Society/媒體** ✅ — [knowledge/Society/想想論壇.md](../../knowledge/Society/想想論壇.md)（2026-05-05 ship by main-session manual / fair-use cite-only mode / ~5,500 字 / 30 footnotes / HARD=0 / score=3 PASS）
+  2. 小英教育基金會 NEW · Society/智庫（pending）
+  3. 30 年、30 人、30 個觀點 NEW · Society/民主（pending — 等系列 30 篇全部刊出後 ship 較合理）
+  4. 318 學運十週年回望 EVOLVE · History（pending）
+  5. 台灣 commentary 媒體生態系 NEW · Society/媒體（pending）
 - **Articles pending (P1)**: 0/8（思想坦克 / 太陽花論述史 / 公共領域理論 / AI 與民主 / 兩岸 framing 戰 / 中國經濟結構觀察 / 報導者 / 民主深化辯論 2026）
 - **Articles pending (P2)**: 0/7（端傳媒 / 上報 / 鏡週刊 / 智庫對照 / 後總統卸任智庫國際比較 / 未富先老 framework / 評論型作家圖譜）
 - **Partnership status**: `not initiated` — pipeline Stage 8 規定 ship ≥ 2 篇 P0 後才聯繫；本案因 ND 條款另增「主動詢問個案授權例外」可能性

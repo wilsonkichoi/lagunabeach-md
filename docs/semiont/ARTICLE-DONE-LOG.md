@@ -42,6 +42,27 @@
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 想想論壇 NEW — 2026-05-05 twmd-rewrite 完成（fair-use cite-only mode P0-01 / Society / 媒體）
+
+- **Article**: [knowledge/Society/想想論壇.md](../../knowledge/Society/想想論壇.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 + PEER-INGESTION-PIPELINE Stage 6 / **fair-use cite-only mode**（per CC BY-NC-ND 3.0 限制 — 想想論壇是 Taiwan.md 第一個 T4 license tier peer，per [reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md](../../reports/ThinkingTaiwan-semiont-analysis-2026-05-05.md) §Part 8.2 4-tier matrix）
+- **核心矛盾**：「平台越想成為跨黨派的容器，越被視為小英基金會的延伸 — 14 年三次改版的張力」（30 字）
+- **Hook**：2026-05-02 那份名單同框宋楚瑜（76 歲親民黨主席）+ 王婉諭（時代力量主席）+ 苗博雅（社民黨）+ 朱宗慶（古典樂）+ 龔建嘉（鮮乳坊獸醫）+ 16 位已公開、14 位待 5 月分批揭曉 — 跨黨派、跨領域、跨世代、跨族群的 explicit instantiation
+- **品質**：~5500 字 / 30 footnotes / 6 直接引語（蔡英文 2012-08-07 三 quote + 2025-10-03 兩發刊詞 + 寇謐將首段 verbatim）/ HARD=0 ✅ / prose-health score=3 (≤ 3 PASS) / 11 plugin 全綠 / 對位句 4 處（2 處 source title「這不是太陽花學運（的紀錄）」unavoidable verbatim 引用）/ 破折號 7 處 / 中文標點全形 ✅
+- **Research**: [reports/research/2026-05/想想論壇.md](../../reports/research/2026-05/想想論壇.md)（370+ 行 / ~38 lookup 累計 — fit check 階段 + round 1-5；中文 24+ / 英文 9+ / 一手 7+；研究 v2 含 5 條洞見 + 3-tier 驗證分層 + 媒體授權矩陣 no-media decision + CC BY-NC-ND 限制 explicit document）
+- **3 重要 atom verify**：(a) 蔡英文 2012-08-07 創辦 verbatim「While it takes piles of cash to fill up a room, you can light up a room with a match」+「The ultimate goal would be to further the power of thinking, the power of action and the power of society」(Taipei Times by Chris Wang); (b) 創辦 6 director（蘇嘉全 / 賀陳旦 / 張景森 / 江春男 / 姚立明 / 林全）跨領域組成 — day 1 跨黨派 ethos 14 年後 30 人系列 5 倍 scale 重複; (c) 思想坦克 voicettank footer「Designed and Developed by 台灣智庫」直接證實機構 ownership ≠ 想想論壇（小英基金會）
+- **5 條深度洞見**（per research v2 §v2 補強）：
+  1. 跨黨派 ethos 是 day-1 design 不是 14 年後 reframe（Taipei Times 2012-08-07 explicit「remaining free from political ideology and partisanship」）
+  2. 林全跨三 think tank 路徑（新境界 → 小英基金會 → 行政院長）= 蔡英文用 think tank 訓練 future cabinet model
+  3. Drupal 10 + Bootstrap Barrio + NetiCRM tech stack silent ideology = 平台 self-conception 是「公民社會 institution」非「media outlet」
+  4. 想想論壇 vs 思想坦克 = 同陣營兩個 think tank ecosystem（小英基金會 vs 台灣智庫）
+  5. 2014-06 蔡英文卸任董事長給簡志忠是 explicit 黨派 vs 平台 firewall 動作；11 年後 2025-10 重啟仍維持簡志忠任董事長 — firewall 在「卸任後 second life」期間 evolving
+- **Pipeline 升級提案 trigger**：4-tier license matrix（T1 CC0/BY → T2 BY-SA → T3 BY-NC → T4 BY-ND/ARR cite-only）— per fit check 報告 §Part 8.2，待觀察者 review 後 ship 進 PEER-INGESTION-PIPELINE v1.1
+- **Cross-link**：3 個 sibling reverse cross-link inserted（蔡英文 / 賴清德 / 毒馬鈴薯認知作戰）；1 個 defer（心戰.md 缺延伸閱讀 section per §5.1，避免擴大 scope）
+- **REGISTRY status**: 想想論壇 peer 條目從 `T4_cite_only_pending_observer_decision` 升 `🟢 active (T4 cite-only)`，articles shipped 1/5 P0
+- **License 處理**：no-media decision (per Stage 1.7 §邊界與例外「沒有合適媒體素材」)；fair-use cite 想想論壇 /about /copyright /content/100278 /content/1947 共 4 條 footnote URL（per 著作權法 §52 + §65 fair use）；不 paraphrase 任何想想論壇文章內容
+- **DNA #50 default contract 第二次驗證**：自動 grep `docs/pipelines/PEER-INGESTION-PIPELINE.md` + `REWRITE-PIPELINE.md` 全讀，無需觀察者提醒走 pipeline；EDITORIAL.md 1335 行哲宇 explicit「全部讀取不要跳過」後完整讀過
+
 ### 台灣與史瓦帝尼 NEW — 2026-05-05 twmd-rewrite 完成（非洲最後一條外交命脈，掛在一個人身上 / Society / 國際關係）
 
 - **Article**: [knowledge/Society/台灣與史瓦帝尼.md](../../knowledge/Society/台灣與史瓦帝尼.md)
