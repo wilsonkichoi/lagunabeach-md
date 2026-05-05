@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-05-05T15:18:24.154669Z",
+  "lastUpdated": "2026-05-05T15:32:19.591146Z",
   "schemaVersion": "1.1",
   "totals": {
-    "count": 64,
+    "count": 65,
     "platforms": {
-      "x": 27,
+      "x": 28,
       "threads": 33,
       "other": 4
     },
     "languages": {
-      "zh": 57,
+      "zh": 58,
       "en": 7
     },
     "templates": {
-      "A": 23,
+      "A": 24,
       "A2": 8,
       "B": 27,
       "other": 2,
@@ -21,6 +21,22 @@
     }
   },
   "recent": [
+    {
+      "n": 65,
+      "date": "2026-05-05",
+      "platform": "x",
+      "article": "寶島聯播網訪談（自述版）",
+      "articleSlug": "寶島聯播網訪談",
+      "category": "media/podcast",
+      "template": "A+B+C 混合 第一人稱 reframe",
+      "url": "https://x.com/taiwandotmd/status/2051684242749575450",
+      "highlight": "**同 podcast 訪談 #63/#64 第一人稱自述版**（哲宇個人 voice，跟 #63/#64 第三人稱官方版互補）。哲宇 callout：「角度調成我自述的」→ reframe attribution（賴靜嫻問 / 哲宇答 → 她問我 / 我說 / 我答）+ 加個人 reflective 收尾「能在 33 分鐘廣播裡聊這些事，比我以為的更自然。謝謝賴靜嫻認真接住。」§11 hard=0 / warn=0 / 297 zh chars / 371 total / 3 個破折號 (0.81% 密度)。**FB 平台 哲宇手動 polish 版本**（FB URL 未提供）prose patch 留存於 BLUEPRINT v1.2 — 強化 prose flow + 「主題都壓成」「自然就會去建立觀點跟思考」個人 voice 補充。**learning 候選**：媒體曝光型 spore 自述版 vs 官方版 dual-voice 同步 ship 是新 ship pattern（首例），考慮升 SPORE-PIPELINE §3.7。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
     {
       "n": 64,
       "date": "2026-05-05",
@@ -79,22 +95,6 @@
       "template": "A+C 混合（飛機+芭樂）",
       "url": "https://www.threads.com/@taiwandotmd/post/DX8zEYFAe9c",
       "highlight": "**SPORE-PIPELINE v2.7 完整跑通**（Step 0-6 全程）：A+C 混合（總統借飛機 hook + 紅心芭樂 55 年）。Threads 主貼不含 URL，self-reply 加 `utm_source=threads&utm_medium=spore&utm_campaign=s60`（campaign id collision with #60 黃魚鴞 X — see #62 row note）。**Step 0 backfill**：4 OVERDUE (#47-50 林琪兒 + 沈伯洋) 2026-05-03 已 D+5 backfilled，今日 D+7 partial WebFetch 抓到 2/4 Threads（#49 13K views / #47 1100♥/110🔁），X 兩個 402（dashboard OVERDUE 標記是 D+7 column schema bug 不是 真 missing data）。**觀察者 callout 兩輪**：v1「『借』太 casual + 後段碎片化短句 + surprise visit 中英混雜」→ v2「派副總理飛來台北接他的王室專機」+ 流暢散文 + 砍掉 surprise visit/Ezulwini 中英混雜。square 1080×1080 + landscape 1600×900 配圖。",
-      "views_7d": null,
-      "views_latest": null,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": false
-    },
-    {
-      "n": 60,
-      "date": "2026-05-04",
-      "platform": "x",
-      "article": "黃魚鴞",
-      "articleSlug": "黃魚鴞",
-      "category": "nature",
-      "template": "A+B+C 混合",
-      "url": "https://x.com/taiwandotmd/status/2051235570995839479",
-      "highlight": "A+B+C 混合（Step 3.6 弧線串接）：開場 1994 砂卡礑樹巢+嘿美下山 → 中段 list 1916 命名+三十年 91 領域+6.2/44.6/1m 數字+反向地圖 → 結尾 2026 七家灣 1,800m+雪霸直播+首尾呼應「1994 一隻雛鳥/2026 兩隻幼鳥」。直接引語 0、§11 ALL CLEAR、262 zh chars。Article 同日 ship 同日孢子化，timing 接雪霸 2026-04-29 啟動的 24h 直播熱度。Bug：make-spore.sh hardcoded 4321 vs launch.json 4322，bypass 用 generate-spore-image.mjs --base 直呼。Step 4.5a 自然反差題材雙平台試水（先例 #53/#54 黑冠麻鷺）。",
       "views_7d": null,
       "views_latest": null,
       "engagements_7d": null,
@@ -369,12 +369,12 @@
       "url": "https://www.threads.com/@taiwandotmd/post/DX6Xxd6kQan"
     },
     {
-      "n": 64,
-      "article": "寶島聯播網訪談",
+      "n": 65,
+      "article": "寶島聯播網訪談（自述版）",
       "platform": "x",
       "publishedDays": 0,
       "status": "waiting",
-      "url": "https://x.com/taiwandotmd/status/2051682413823336822"
+      "url": "https://x.com/taiwandotmd/status/2051684242749575450"
     }
   ],
   "noUrlHistorical": [
@@ -440,11 +440,21 @@
     },
     {
       "week": "2026-W19",
-      "published": 6,
+      "published": 7,
       "avgViews": 0
     }
   ],
   "harvestStatus": [
+    {
+      "n": 65,
+      "article": "寶島聯播網訪談（自述版）",
+      "platform": "x",
+      "publishDate": "2026-05-05",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
     {
       "n": 64,
       "article": "寶島聯播網訪談",
