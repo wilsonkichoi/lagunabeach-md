@@ -42,6 +42,33 @@
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 台灣與史瓦帝尼 NEW — 2026-05-05 twmd-rewrite 完成（非洲最後一條外交命脈，掛在一個人身上 / Society / 國際關係）
+
+- **Article**: [knowledge/Society/台灣與史瓦帝尼.md](../../knowledge/Society/台灣與史瓦帝尼.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（哲宇 `/twmd-rewrite 深度研究史瓦帝尼 賴清德 從歷史到現在最新發展的完整故事 / 圖片可以引用台灣總統府發布官方圖片 / 還有坎入其他重要的 youtube 影片` 直接觸發）
+- **核心矛盾**：「非洲最後友邦由絕對君主一人撐起」（28 字）— 民主台灣與絕對王權的不對稱共生，邦交命脈掛在 Mswati III 一個人身上
+- **Hook**：2026-05-02 上午 9 點，賴清德從史國 Mswati III 借的 Airbus A340 專機走下，落地姆巴巴內。台灣總統第一次因飛航許可被中國施壓撤銷（塞舌爾/模里西斯/馬達加斯加），最後是邦交國國王派飛機從台北接駕
+- **品質**：~5500 字 / 26 footnotes / 8 直接引語 / HARD=0 ✅ / prose-health score=3 (≤ 3 PASS) / 11 plugin 全綠 (cjk-punct / link-target / image-health / terminology / footnote-density+format+url / format-structure)
+- **Research**: [reports/research/2026-05/taiwan-eswatini.md](../../reports/research/2026-05/taiwan-eswatini.md)（346 行 / 36KB / 30 WebSearch + 12 WebFetch / spawn general-purpose agent 直接落檔）
+- **媒體素材（per 哲宇 spec）**：
+  - **3 張總統府官方圖片** cache 到 `public/article-images/society/`（OGDL 政府公開資訊）：
+    - `taiwan-eswatini-military-honor-2026.jpg` (hero, aspect 1.79，原 lai-arrival 0.83 portrait 違反 §1.7b 護欄已換)
+    - `taiwan-eswatini-mandvulo-summit-2026.jpg` (Mandvulo 雙邊會談，1.54)
+    - `taiwan-eswatini-joint-communique-2026.jpg` (聯合公報簽署，1.61)
+  - **5 個 inline YouTube** (中央社官方頻道 ×4 + BBC News 中文官方頻道 ×1)
+  - **「## 圖片來源」 section** added per pipeline §4.5e
+- **DNA #47 候選第三次驗證**：「Sub-agent 是 fact-check 主 session 的最後一關」— agent 抓出主 session prior 知識可能誤區並 explicit flag 5 處 unverified（馬英九訪史月份 / Mswati COVID 藥物名 / 駐史醫療團與屏基關係 / 13.6 億援助金額 / 1.46 億基建單源），主 session default 接管時全部 attribute 來源 or 不寫
+- **5 個 observer-decision items 主 session default 接管**（per β-r3 META-PATTERN）：
+  1. 駐史醫療團 → 用「台北醫學大學體系」（一般敘述）
+  2. 結尾 → 混合三切點（紅心芭樂物件 + Mswati 之後 + 直面絕對王權張力）
+  3. 多妻制 → 不寫（避東方主義獵奇）
+  4. TaiwanICDF 預算金額 → 不寫具體
+  5. 馬英九訪史 → 不寫月份
+- **Stage 3.5 atom audit**：8 直接引語全部來自 agent §11「金句素材庫」標 high_confidence — 賴清德 + Mswati III 雙邊會談引述 ×4（總統府 News/7122 雙源）/ 楊昊 BBC 中文 ×1 / 賴清德戰略儲油槽 ×1 / Mswati COVID ×1 / 中國「rat」NBC News ×1
+- **避雷清單全接管**：絕對君主制不用 outdated 修辭 / remdesivir 用「外媒推測」/ 13.6 億不寫具體 / 馬英九不寫月份 / 回程繞路寫但克制 / 中國「rat」引用但不模仿語氣
+- **Cross-link**：6 forward sibling + 6 reverse cross-link 全部加上「台灣與史瓦帝尼」入口（台灣邦交國與國際外交 / 賴清德 / 蔡英文 / 太陽花學運 / 2026鄭習會與國共十年再會 / 認知作戰）
+- **觀察者 callout**：哲宇即時抓出「『史王借飛機給台灣總統突破中國封鎖』——這句話聽起來像修辭，但 2026 年 5 月確實發生了」是為了避對位句型而拐彎的 awkward hedge → 改為「『史王借飛機給台灣總統突破中國封鎖』就是這次出訪本身」直述 punchy。**LESSONS-INBOX 候選**：「不是 X 是 Y」改寫常踩的雷——避對位反而失去原版力道，要找直述強斷言而非 hedge 修飾
+
 ### 雜學校 NEW — 2026-05-05 twmd-rewrite 完成（賠光積蓄辦的免費展，11 年後副總統來開幕 / Society / 教育）
 
 - **Article**: [knowledge/Society/雜學校.md](../../knowledge/Society/雜學校.md)
