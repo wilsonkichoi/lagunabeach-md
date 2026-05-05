@@ -42,6 +42,22 @@
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 雜學校 NEW — 2026-05-05 twmd-rewrite 完成（賠光積蓄辦的免費展，11 年後副總統來開幕 / Society / 教育）
+
+- **Article**: [knowledge/Society/雜學校.md](../../knowledge/Society/雜學校.md)
+- **Pipeline**: REWRITE-PIPELINE v2.20 — NEW 模式（哲宇 `/twmd-rewrite 雜學校` 直接觸發，不在 INBOX pending）
+- **核心矛盾**：「為了改變教育的人，先把教育辦得最像市集」（28 字）— 不太乖原本是抗議的姿態，11 年長成全亞洲最大教育博覽會，社運 vs 品牌 IP 的拉扯沒有結束
+- **Hook**：2015-05-09 華山 1914 東 2BCD 館的牆上貼著 Jolin 孔，蘇仰志拿設計公司 150 萬盈餘辦了「不太乖教育節」首屆免費入場兩天約 3 萬人次，最終虧損 700 萬。十一年後 2025 EDit 進駐桃園會展中心
+- **品質**：~5500 字 / 22 footnotes / 8 直接引語 / HARD=0 ✅ / prose-health score=2 (≤ 3 PASS) / cjk-punct PASS / link-target PASS / image-health PASS（no-media path） / terminology PASS / footnote-density+format+url PASS / 4 對位句型 + 4 AI metaphor 修正完
+- **Research**: [reports/research/2026-05/za-share.md](../../reports/research/2026-05/za-share.md)（377 行 / 31KB / 25 WebSearch + 10 WebFetch / spawn general-purpose agent 直接落檔）
+- **大事實校正（agent 抓主 session prior 知識三錯）**：(1) 蘇仰志非 Ogilvy 出身 — 他自己的公司叫**奧茲（Ozzie Curating and Design）**不是奧美，所有訪談均無 Ogilvy 履歷；(2) 首屆「不太乖教育節」是 2015-05-09，不是 2014（華山官網 + KKTIX + INSIDE + 倡議家四源驗證；Wikipedia 寫 2014 是籌備年/預算說法錯位）；(3) 場地全在華山（2015-2019）/ 嘉義（2022 衛星）/ 圓山花博（2024）/ 桃園會展中心（2025），**不是松菸**
+- **DNA #47 候選第二次驗證**：「Sub-agent 是 fact-check 主 session 的最後一關」— gallant-payne 5/5 sub-agent 抓 user prompt 事實錯之後，本 session 1/1 sub-agent 同樣抓出 user prompt 三個 prior 知識錯
+- **5 個 observer-decision items 主 session default 接管**（per β-r3 META-PATTERN）：(1) 承認商業 IP 但用「品牌化內部矛盾」框架；(2) Ogilvy 不寫；(3) 不太乖宣言不寫（agent 搜不到一手）；(4) 寫 2025 EDit 重塑；(5) 結尾 B+C 混合（陳建仁 scene + INSIDE 「商業上是徹底的失敗」反詰）
+- **Stage 3.5 atom audit**：8 直接引語全部來自 agent §11「金句素材庫（可逐字引）」標 high_confidence — INSIDE E376 × 5 句、倡議家 udn 3341905 × 2 句、倡議家 udn 8146714 × 1 句、華山 1914 對談 × 1 句；agent 已驗證可 ctrl-F；single_source 段（國際擴展引語）保留為轉述上下文
+- **破折號管理**：寫完 37 處 → 砍 27 處改逗號/冒號/句號 → 保留 8 處（4 處對等列舉並置）
+- **Cross-link**：5 forward sibling（教育制度與升學文化 / 為台灣而教 TFT / 一個教師的誕生 / 太陽花學運 / 台灣偏鄉教育）+ 5 reverse cross-link 全部加上「雜學校」入口；5 sibling 均 hard=0 但有 pre-existing WARN（per §5.1 WARNING 仍可 commit）
+- **觀察者觸發**：哲宇直接 `/twmd-rewrite 雜學校` — pipeline auto-detect + 完整 read default contract（per MANIFESTO §8.1 / DNA #50）
+
 ### 王福瑞 NEW — 2026-05-04 manual 完成（從 200 份影印雜誌到 12 聲道喇叭的三十年 / People）
 
 - **Article**: [knowledge/People/王福瑞.md](../../knowledge/People/王福瑞.md)
