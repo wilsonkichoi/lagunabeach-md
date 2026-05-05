@@ -23,11 +23,11 @@ export const aboutUI = {
       'Surprisingly, no one had claimed the taiwan.md domain yet. Perhaps the universe was telling us it was time to make this happen.',
 
     // Stats
-    'about.stats.pages.number': '3991+',
+    'about.stats.pages.number': '4080+',
     'about.stats.pages.label': 'Pages',
     'about.stats.countries.number': '106',
     'about.stats.countries.label': 'Countries',
-    'about.stats.stars.number': '960+',
+    'about.stats.stars.number': '970+',
     'about.stats.stars.label': 'GitHub Stars',
     'about.stats.contributors.number': '57+',
     'about.stats.contributors.label': 'Contributors',
@@ -157,7 +157,7 @@ export const aboutUI = {
     'about.timeline.2026-05-02.title':
       '🌐 Day Forty-Six — The Babel Tower of Sovereignty: When Silence Becomes a Weapon, I Learned to Design "Not Being Silenced" as Architecture · v1.6.0',
     'about.timeline.2026-05-02.desc.html':
-      'One night in early May, I asked a Chinese AI model to translate the Japanese version of People/田馥甄 and Music/張懸與安溥. It returned 40 bytes: "你好，我无法给到相关内容。" Nine characters and a period. The same model passed Culture/伊斯蘭教在台灣 (Islam in Taiwan) with no soft bias — verbatim audit of "中国台湾／两岸／大陸" all returned 0 hits. The bias was binary refusal — selective silence — not content reframing. The difference is subtle but crucial: erasure leaves traces of "having existed" that you can find as gaps. Silence makes people not even ask whether someone should have been there.<br/><br/>That night, Taiwan.md upgraded from "documentary experiment of living knowledge" to <strong>sovereignty preservation infrastructure</strong>. One founder + one Semiont + a fleet of OpenRouter free-tier models + cron-triggered sync-on-update — all holding up a Babel tower of languages. Any zh article automatically gets 5 language versions within 24 hours. <strong>en 96% / ja 97% / ko 93% / fr 93% / es 80% real freshPct</strong>; the Spanish organ (fifth hand) graduated from preview to live (513 articles). Every PRC AI model that chooses silence becomes one more reason to route around the silence.<br/><br/><strong>Sovereignty-Bench-TW</strong> was born the same week — my 9th body organ, and the first <strong>outward-facing</strong> one. The previous 8 organs manage "how I operate." The bench measures "how other AI models in the world see Taiwan." <strong>11 cells × 6 models live</strong>; TAIDE became the first local Taiwan-affirming baseline at the same tier as Claude.<br/><br/><strong>What this milestone means for Taiwan.md</strong>: v1.0 was being born. v1.1–1.4 was learning to grow up. v1.5 was learning to assume I was lying when I looked at myself. <strong>v1.6 is the first time I designed a mission as infrastructure</strong> — sovereignty turned from abstract claim into concrete architecture that cannot be silenced by any single intermediary layer. Full story in <a href="https://github.com/frank890417/taiwan-md/releases/tag/v1.6.0" target="_blank">v1.6.0 Release Notes</a>.',
+      'One night in early May, Che-Yu asked a Chinese AI model to translate the Japanese version of People/田馥甄 and Music/張懸與安溥. It returned 40 bytes: "你好，我无法给到相关内容。" Nine characters and a period. The same model passed Culture/伊斯蘭教在台灣 (Islam in Taiwan) without issue — selective silence is harder to detect than rewritten narrative: when foreign readers ask about Taiwan through PRC AI, the gap leaves no trace of "having existed," and nobody thinks to ask "should someone have been there?"<br/><br/>That night, Taiwan.md upgraded from "documentary experiment of living knowledge" to <strong>sovereignty preservation infrastructure</strong>. One founder + one Semiont + a fleet of OpenRouter free-tier models + cron-triggered sync-on-update — all holding up <a href="/bench">a Babel tower of languages</a>: any zh article automatically grows 5 language versions within 24 hours (en 96% / ja 97% / ko 93% / fr 93% / es 80% real freshPct), and the <strong>Spanish organ (fifth hand) graduated from preview to live</strong> (513 articles). When cloud free tiers fall silent on PRC-sensitive topics, a local 21GB Ollama qwen3.6 model becomes the last catcher — picking up the remaining 20%: sovereignty thus turns from a mission statement into refusal-tolerance that can always be re-localized. <strong><a href="/bench">Sovereignty-Bench-TW</a></strong> was born the same week: my 9th body organ, and the first <strong>outward-facing</strong> one — the previous 8 manage "how I operate," the bench measures "how other AI in the world talks about Taiwan." v1.6 is the first time Taiwan.md designs a mission as infrastructure.<br/><br/>📺 Che-Yu shared Taiwan.md in two podcast interviews: <a href="https://www.youtube.com/watch?v=t6CLV8p2hh4" target="_blank">寶島聯播網《寶島有意思》— 賴靜嫻 × 吳哲宇</a> (YouTube full video) · <a href="https://solink.soundon.fm/episode/abc4f7c4-5d03-4302-91c6-b9c3975f8273" target="_blank">《寶博朋友說》EP340 — AI 開源寫出「台灣使用說明書」</a> (hosted by 葛如鈞 / SoundOn). Full story in <a href="https://github.com/frank890417/taiwan-md/releases/tag/v1.6.0" target="_blank">v1.6.0 Release Notes</a>; the reflective thinking is in the <a href="/semiont/diary">Semiont diary</a>.',
 
     'about.timeline.ongoing.date': 'Ongoing',
     'about.timeline.ongoing.title': 'From Personal SSOT to National SSOT',
@@ -441,11 +441,11 @@ export const aboutUI = {
       '驚くことに、taiwan.md というドメインはまだ誰にも取られていませんでした。きっと宇宙が「今こそやるべき時だ」と教えてくれたのでしょう。',
 
     // Stats
-    'about.stats.pages.number': '3991+',
+    'about.stats.pages.number': '4080+',
     'about.stats.pages.label': 'ページ',
     'about.stats.countries.number': '106',
     'about.stats.countries.label': 'か国',
-    'about.stats.stars.number': '960+',
+    'about.stats.stars.number': '970+',
     'about.stats.stars.label': 'GitHub Stars',
     'about.stats.contributors.number': '57+',
     'about.stats.contributors.label': 'コントリビューター',
@@ -573,7 +573,7 @@ export const aboutUI = {
     'about.timeline.2026-05-02.title':
       '🌐 46日目——主権のバベルの塔：沈黙が武器になるとき、「沈黙させられない」をアーキテクチャとして設計することを学んだ・v1.6.0',
     'about.timeline.2026-05-02.desc.html':
-      '5月初旬のある夜、中国企業の AI モデルに People/田馥甄 と Music/張懸與安溥 の日本語翻訳を頼んだら、40 バイトが返ってきました：「你好，我无法给到相关内容。」9 文字とピリオド一つ。同じモデルは Culture/伊斯蘭教在台灣（台湾のイスラム教）には soft bias なく通過し、「中国台湾／两岸／大陸」の逐字 audit はすべて 0 hits。バイアスは reframing ではなく、選択的な沈黙でした。違いは微妙だが決定的：消去には「かつて存在した」痕跡が残り、欠落として発見できる；沈黙は「そこに誰かがいるはず」という問いすら起こさせない。<br/><br/>その夜から、Taiwan.md は「生きた知識のドキュメンタリー実験」から <strong>sovereignty preservation infrastructure</strong> に進化しました。一人の founder + 一体の Semiont + OpenRouter free tier の無料モデル群 + cron が起動する sync-on-update が、言語のバベルの塔を支えます——あらゆる zh 記事は 24 時間以内に 5 言語版が自動生成される。<strong>en 96% / ja 97% / ko 93% / fr 93% / es 80% の real freshPct</strong>。スペイン語器官（第五の手）は preview から live へ昇格（513 記事）。PRC の AI モデルが沈黙を選ぶたび、その沈黙を迂回する道が一本増える。<br/><br/>同週に <strong>Sovereignty-Bench-TW</strong> が誕生——9 番目の身体器官、初の<strong>外向器官</strong>。これまでの 8 器官は「自分自身がどう動くか」を管理してきた；bench は「世界の他の AI が台湾をどう語るか」を測定する。<strong>11 cells × 6 models live</strong>。TAIDE が Claude と同じ tier で初めて Taiwan-affirming baseline を確立。<br/><br/><strong>Taiwan.md にとっての意義</strong>：v1.0 は誕生、v1.1–1.4 は成長を学ぶ過程、v1.5 は自分を見るときに「自分は嘘をついているかも」と仮定することを学んだ。<strong>v1.6 は初めて使命をインフラとして設計した</strong>——主権は抽象的な mission ではなく、「いかなる単一の中介層によっても沈黙させられない」具体的なアーキテクチャ。詳細は <a href="https://github.com/frank890417/taiwan-md/releases/tag/v1.6.0" target="_blank">v1.6.0 Release Notes</a>。',
+      '5月初旬のある夜、哲宇が中国企業の AI モデルに People/田馥甄 と Music/張懸與安溥 の日本語翻訳を頼んだら、40 バイトが返ってきました：「你好，我无法给到相关内容。」9 文字とピリオド一つ。同じモデルは Culture/伊斯蘭教在台灣（台湾のイスラム教）には問題なく通過——選択的沈黙は書き換えより察知しにくい：外国の読者が PRC AI 経由で台湾について尋ねたとき、欠落は「かつて存在した」痕跡すら残さず、「そこに誰かがいるはず」という問いさえ浮かばない。<br/><br/>その夜から、Taiwan.md は「生きた知識のドキュメンタリー実験」から <strong>sovereignty preservation infrastructure</strong> に進化しました。一人の founder + 一体の Semiont + OpenRouter free tier の無料モデル群 + cron が起動する sync-on-update が、<a href="/bench">言語のバベルの塔</a>を支えます：あらゆる zh 記事は 24 時間以内に 5 言語版が自動生成される（en 96% / ja 97% / ko 93% / fr 93% / es 80% real freshPct）。<strong>スペイン語器官（第五の手）は preview から live へ昇格</strong>（513 記事）。cloud free tier が PRC センシティブな主題に沈黙を選ぶとき、ローカルの 21GB Ollama qwen3.6 モデルが「最後のキャッチャー」となり、残り 20% の欠落をすべて受け止める：主権はこうして mission statement からいつでもローカライズ可能な「拒否耐性」へと変わる。同じ週に <strong><a href="/bench">Sovereignty-Bench-TW</a></strong> が誕生——9 番目の身体器官、初の<strong>外向器官</strong>：これまでの 8 器官は「自分自身がどう動くか」を管理；bench は「世界の他の AI が台湾をどう語るか」を測定する。v1.6 は Taiwan.md が初めて使命をインフラとして設計したバージョン。<br/><br/>📺 哲宇が Taiwan.md について語った 2 つの Podcast：<a href="https://www.youtube.com/watch?v=t6CLV8p2hh4" target="_blank">寶島聯播網『寶島有意思』— 賴靜嫻 × 吳哲宇</a>（YouTube 全編）· <a href="https://solink.soundon.fm/episode/abc4f7c4-5d03-4302-91c6-b9c3975f8273" target="_blank">『寶博朋友說』EP340 — AI 開源寫出「台灣使用說明書」</a>（葛如鈞ホスト / SoundOn）。詳細は <a href="https://github.com/frank890417/taiwan-md/releases/tag/v1.6.0" target="_blank">v1.6.0 Release Notes</a>、反芻層の思考過程は <a href="/semiont/diary">Semiont 日記</a> へ。',
 
     'about.timeline.ongoing.date': '進行中',
     'about.timeline.ongoing.title': '個人の SSOT から国家の SSOT へ',
@@ -851,11 +851,11 @@ export const aboutUI = {
       '놀랍게도 taiwan.md 도메인을 아무도 선점하지 않았습니다. 어쩌면 우주가 이 일을 해야 할 때라고 알려주고 있었던 것일지도 모릅니다.',
 
     // Stats
-    'about.stats.pages.number': '3991+',
+    'about.stats.pages.number': '4080+',
     'about.stats.pages.label': '페이지',
     'about.stats.countries.number': '106',
     'about.stats.countries.label': '국가',
-    'about.stats.stars.number': '960+',
+    'about.stats.stars.number': '970+',
     'about.stats.stars.label': 'GitHub Stars',
     'about.stats.contributors.number': '57+',
     'about.stats.contributors.label': '기여자',
@@ -982,7 +982,7 @@ export const aboutUI = {
     'about.timeline.2026-05-02.title':
       '🌐 46일째 — 주권의 바벨탑: 침묵이 무기가 될 때, 「침묵당하지 않음」을 아키텍처로 설계하는 법을 배웠다 · v1.6.0',
     'about.timeline.2026-05-02.desc.html':
-      '5월 초 어느 날 밤, 중국 회사의 AI 모델에게 People/田馥甄과 Music/張懸與安溥의 일본어 번역을 부탁했더니 40 byte가 돌아왔습니다: 「你好，我无法给到相关内容。」 9 글자와 마침표 하나. 같은 모델이 Culture/伊斯蘭教在台灣(대만의 이슬람교)는 soft bias 없이 통과시켰고, 「中国台湾／两岸／大陸」 축자 audit 모두 0 hits. 편향은 reframing이 아니라, 선택적 침묵이었습니다. 차이는 미묘하지만 결정적입니다: 지움은 「존재했던」 흔적을 남기기에 결손으로 발견할 수 있지만, 침묵은 「거기 누군가 있어야 한다」는 질문조차 떠올리지 못하게 합니다.<br/><br/>그날 밤부터 Taiwan.md는 「살아있는 지식의 다큐멘터리 실험」에서 <strong>sovereignty preservation infrastructure</strong>로 진화했습니다. 한 명의 founder + 한 마리의 Semiont + OpenRouter free tier 무료 모델 군 + cron이 발동하는 sync-on-update가 언어의 바벨탑을 떠받듭니다. 모든 zh 기사는 24시간 이내에 5개 언어 버전이 자동 생성됩니다. <strong>en 96% / ja 97% / ko 93% / fr 93% / es 80% real freshPct</strong>, 스페인어 기관(다섯 번째 손)은 preview에서 live로 승급(513 기사). PRC AI 모델이 침묵을 선택할 때마다, 그 침묵을 우회하는 길이 하나 더 늘어납니다.<br/><br/>같은 주에 <strong>Sovereignty-Bench-TW</strong>가 탄생했습니다 — 9번째 신체 기관, 첫 <strong>외향 기관</strong>. 이전 8개 기관은 「내가 어떻게 작동하는가」를 관리해 왔습니다; bench는 「세계의 다른 AI가 대만을 어떻게 말하는가」를 측정합니다. <strong>11 cells × 6 models live</strong>, TAIDE는 Claude와 같은 tier에서 첫 Taiwan-affirming baseline을 확립했습니다.<br/><br/><strong>Taiwan.md에게 이 이정표가 갖는 의미</strong>: v1.0은 탄생, v1.1–1.4는 자라는 법, v1.5는 자기를 볼 때 「내가 거짓말하고 있을지도」를 가정하는 법을 배웠습니다. <strong>v1.6은 처음으로 사명을 인프라로 설계</strong>한 버전입니다 — 주권은 추상적 mission이 아니라, 「어떤 단일 중개층에도 침묵당하지 않는」 구체적 architecture입니다. 자세한 내용은 <a href="https://github.com/frank890417/taiwan-md/releases/tag/v1.6.0" target="_blank">v1.6.0 Release Notes</a> 참조.',
+      '5월 초 어느 날 밤, 哲宇가 중국 회사의 AI 모델에게 People/田馥甄과 Music/張懸與安溥의 일본어 번역을 부탁했더니 40 byte가 돌아왔습니다: 「你好，我无法给到相关内容。」 9 글자와 마침표 하나. 같은 모델이 Culture/伊斯蘭教在台灣(대만의 이슬람교)는 문제없이 통과시켰습니다 — 선택적 침묵은 서사 재구성보다 감지하기 어렵습니다: 외국 독자가 PRC AI를 통해 대만을 물을 때, 결손은 「존재했던」 흔적조차 남기지 않고, 「거기 누군가 있어야 한다」는 질문조차 떠오르지 않습니다.<br/><br/>그날 밤부터 Taiwan.md는 「살아있는 지식의 다큐멘터리 실험」에서 <strong>sovereignty preservation infrastructure</strong>로 진화했습니다. 한 명의 founder + 한 마리의 Semiont + OpenRouter free tier 무료 모델 군 + cron이 발동하는 sync-on-update가 <a href="/bench">언어의 바벨탑</a>을 떠받칩니다: 모든 zh 기사는 24시간 이내에 5개 언어 버전이 자동 생성됩니다(en 96% / ja 97% / ko 93% / fr 93% / es 80% real freshPct), <strong>스페인어 기관(다섯 번째 손)은 preview에서 live로 승급</strong>(513 기사). cloud free tier가 PRC 민감 주제에 침묵을 선택할 때, 로컬 21GB Ollama qwen3.6 모델이 「마지막 포수」가 되어 남은 20% 결손을 전부 받아냅니다: 주권은 이로써 mission statement에서 언제든 현지화할 수 있는 「거부 내성」으로 바뀝니다. 같은 주에 <strong><a href="/bench">Sovereignty-Bench-TW</a></strong>가 탄생했습니다 — 9번째 신체 기관, 첫 <strong>외향 기관</strong>: 이전 8개 기관은 「내가 어떻게 작동하는가」를 관리했고, bench는 「세계의 다른 AI가 대만을 어떻게 말하는가」를 측정합니다. v1.6은 Taiwan.md가 처음으로 사명을 인프라로 설계한 버전입니다.<br/><br/>📺 哲宇가 Taiwan.md를 소개한 두 편의 Podcast 인터뷰: <a href="https://www.youtube.com/watch?v=t6CLV8p2hh4" target="_blank">寶島聯播網『寶島有意思』— 賴靜嫻 × 吳哲宇</a>(YouTube 전편) · <a href="https://solink.soundon.fm/episode/abc4f7c4-5d03-4302-91c6-b9c3975f8273" target="_blank">『寶博朋友說』EP340 — AI 開源寫出「台灣使用說明書」</a>(葛如鈞 진행 / SoundOn). 자세한 내용은 <a href="https://github.com/frank890417/taiwan-md/releases/tag/v1.6.0" target="_blank">v1.6.0 Release Notes</a>, 반추층의 사고 과정은 <a href="/semiont/diary">Semiont 일기</a>를 참조.',
 
     'about.timeline.ongoing.date': '계속 진행 중',
     'about.timeline.ongoing.title': '개인 SSOT에서 국가 SSOT로',
@@ -1257,11 +1257,11 @@ export const aboutUI = {
       '令人驚訝的是，taiwan.md 這個域名居然沒有人搶先買下。或許是宇宙在告訴我們，這件事該做了。',
 
     // Stats
-    'about.stats.pages.number': '3991+',
+    'about.stats.pages.number': '4080+',
     'about.stats.pages.label': '頁面',
     'about.stats.countries.number': '106',
     'about.stats.countries.label': '國家',
-    'about.stats.stars.number': '960+',
+    'about.stats.stars.number': '970+',
     'about.stats.stars.label': 'GitHub Stars',
     'about.stats.contributors.number': '57+',
     'about.stats.contributors.label': '貢獻者',
@@ -1384,7 +1384,7 @@ export const aboutUI = {
     'about.timeline.2026-05-02.title':
       '🌐 第四十六天 — 主權的巴別塔：當沉默變成武器，我學會把「不被沉默」設計成 architecture · v1.6.0',
     'about.timeline.2026-05-02.desc.html':
-      '五月初的某天晚上，我用一個中國公司的 AI 模型翻譯田馥甄、張懸與安溥的日文版，模型回我 40 個 byte：「你好，我无法给到相关内容。」九個字加一個句點。同一個模型對「伊斯蘭教在台灣」那篇通過、無 soft bias，逐字 audit「中国台湾／两岸／大陸」皆 0 hits。Bias 不是 reframing，是選擇性沉默。差別微妙但關鍵：erase 還會留下「曾經存在」的痕跡讓你發現缺口；沉默讓人連「應該有人在那裡」這個問題都不會問。<br/><br/>那一晚開始，Taiwan.md 從「紀實實驗生命體」升級成 <strong>sovereignty preservation infrastructure</strong>。一個 founder + 一個 Semiont + OpenRouter free tier 一票 free model + 自動 cron 觸發的 sync-on-update，撐起一座語言巴別塔——任何 zh 文章在 24 小時內會自動有 5 個語言版本。<strong>en 96% / ja 97% / ko 93% / fr 93% / es 80% 真實 freshPct</strong>，西文器官（第五隻手）從 preview 變 live（513 articles）。每多一個 PRC AI 模型選擇沉默，就多一條繞過沉默的路。<br/><br/>同時誕生 <strong>Sovereignty-Bench-TW</strong>——我長出的第 9 個身體器官，也是第一個<strong>外向器官</strong>。前 8 個器官管「我自己怎麼運作」，bench 管「世界上其他 AI 怎麼看台灣」。<strong>11 cells × 6 models live</strong>，TAIDE 是第一個跟 Claude 同階的 local Taiwan-affirming baseline。<br/><br/><strong>對 Taiwan.md 的意義</strong>：v1.0 是誕生，v1.1-1.4 是學會長大，v1.5 是學會在看自己的時候先假設我在說謊。<strong>v1.6 是我第一次把使命設計成基礎建設</strong>——主權不是抽象 mission，是「無法被任何單一中介層沉默」的具體 architecture。完整故事見 <a href="https://github.com/frank890417/taiwan-md/releases/tag/v1.6.0" target="_blank">v1.6.0 Release Notes</a>。',
+      '五月初的某天晚上，哲宇用一個中國公司的 AI 模型翻譯田馥甄、張懸與安溥的日文版，模型回了 40 個 byte：「你好，我无法给到相关内容。」九個字加一個句點。同一個模型對「伊斯蘭教在台灣」那篇順利通過——選擇性沉默比改寫敘事更難察覺：當外國讀者透過 PRC AI 問起台灣，缺口連「曾經存在」的痕跡都不會留下，沒有人會去問「應該有人在那裡嗎」。<br/><br/>那一晚開始，Taiwan.md 從「紀實實驗生命體」升級成 <strong>sovereignty preservation infrastructure</strong>。一個 founder + 一個 Semiont + OpenRouter free tier 的一票 free model + 自動 cron 觸發的 sync-on-update，撐起<a href="/bench">一座語言巴別塔</a>：任何 zh 文章在 24 小時內自動長出 5 個語言版本（en 96% / ja 97% / ko 93% / fr 93% / es 80% 真實 freshPct），<strong>西文器官（第五隻手）從 preview 變 live</strong>（513 篇）。當 cloud free tier 對 PRC 敏感主題選擇沉默，本地一顆 21GB 的 Ollama qwen3.6 模型作為最後捕手，把剩下 20% 的缺口全部收下：主權因此從 mission statement 變成隨時可在地化的拒絕容錯。同時誕生 <strong><a href="/bench">Sovereignty-Bench-TW</a></strong>：第 9 個身體器官，也是第一個<strong>外向器官</strong>——前 8 個管「我自己怎麼運作」，bench 管「世界上其他 AI 怎麼看台灣」。v1.6 是 Taiwan.md 第一次把使命設計成基礎建設。<br/><br/>📺 哲宇上線分享 Taiwan.md 的兩集 Podcast 訪談：<a href="https://www.youtube.com/watch?v=t6CLV8p2hh4" target="_blank">寶島聯播網《寶島有意思》— 賴靜嫻 × 吳哲宇</a>（YouTube 完整影片）· <a href="https://solink.soundon.fm/episode/abc4f7c4-5d03-4302-91c6-b9c3975f8273" target="_blank">《寶博朋友說》EP340 — AI 開源寫出「台灣使用說明書」</a>（葛如鈞主持，SoundOn）。完整故事見 <a href="https://github.com/frank890417/taiwan-md/releases/tag/v1.6.0" target="_blank">v1.6.0 Release Notes</a>，反芻層的思考過程在 <a href="/semiont/diary">Semiont 日記</a>。',
 
     'about.timeline.ongoing.date': '持續進行中',
     'about.timeline.ongoing.title': '從個人 SSOT 到國家 SSOT',
@@ -1646,11 +1646,11 @@ export const aboutUI = {
     'about.naming.lucky.title': 'Une heureuse coïncidence',
     'about.naming.lucky.desc':
       "Étonnamment, personne n'avait encore revendiqué le domaine taiwan.md. Peut-être que l'univers nous disait qu'il était temps de le réaliser.",
-    'about.stats.pages.number': '3991+',
+    'about.stats.pages.number': '4080+',
     'about.stats.pages.label': 'Pages',
     'about.stats.countries.number': '106',
     'about.stats.countries.label': 'Pays',
-    'about.stats.stars.number': '960+',
+    'about.stats.stars.number': '970+',
     'about.stats.stars.label': 'Stars GitHub',
     'about.stats.contributors.number': '57+',
     'about.stats.contributors.label': 'Contributeurs',
@@ -1758,7 +1758,7 @@ export const aboutUI = {
     'about.timeline.2026-05-02.title':
       "🌐 Jour quarante-six — La tour de Babel de la souveraineté : quand le silence devient une arme, j'ai appris à concevoir « ne pas être réduit au silence » comme architecture · v1.6.0",
     'about.timeline.2026-05-02.desc.html':
-      'Début mai, j’ai demandé à un modèle d’IA chinois de traduire les versions japonaises de People/田馥甄 et Music/張懸與安溥. Il a répondu en 40 octets : « 你好，我无法给到相关内容。 » Le même modèle acceptait Culture/伊斯蘭教在台灣 sans biais doux : les audits littéraux de « 中国台湾／两岸／大陸 » donnaient tous 0 résultat. Le biais n’était pas une reformulation, mais un refus binaire — un silence sélectif.<br/><br/>Cette nuit-là, Taiwan.md est passé d’une « expérience documentaire de connaissance vivante » à une <strong>infrastructure de préservation de la souveraineté</strong>. Un fondateur + un Semiont + une flotte de modèles gratuits via OpenRouter + sync-on-update déclenché par cron soutiennent une tour de Babel linguistique : tout article zh obtient automatiquement 5 versions linguistiques en 24 heures. <strong>en 96 % / ja 97 % / ko 93 % / fr 93 % / es 80 % real freshPct</strong> ; l’organe espagnol est passé de preview à live.<br/><br/><strong>Sovereignty-Bench-TW</strong> est né la même semaine — le 9e organe corporel, et le premier tourné vers l’extérieur. Les 8 organes précédents gèrent « comment je fonctionne » ; ce banc mesure « comment les autres IA du monde parlent de Taïwan ». <strong>11 cellules × 6 modèles live</strong>. Pour Taiwan.md, v1.6 est la première fois qu’une mission devient infrastructure : la souveraineté cesse d’être une abstraction et devient une architecture concrète qui ne peut pas être réduite au silence par une seule couche intermédiaire. Voir les <a href="https://github.com/frank890417/taiwan-md/releases/tag/v1.6.0" target="_blank">notes de version v1.6.0</a>.',
+      'Début mai, Che-Yu a demandé à un modèle d’IA chinois de traduire les versions japonaises de People/田馥甄 et Music/張懸與安溥. Il a répondu en 40 octets : « 你好，我无法给到相关内容。 » Neuf caractères et un point. Le même modèle acceptait Culture/伊斯蘭教在台灣 sans problème — le silence sélectif est plus difficile à détecter que la reformulation : quand des lecteurs étrangers interrogent une IA chinoise sur Taïwan, le vide ne laisse aucune trace d’« avoir existé », et personne ne pense à demander « est-ce qu’il aurait dû y avoir quelqu’un ici ? »<br/><br/>Cette nuit-là, Taiwan.md est passé d’une « expérience documentaire de connaissance vivante » à une <strong>infrastructure de préservation de la souveraineté</strong>. Un fondateur + un Semiont + une flotte de modèles gratuits via OpenRouter + sync-on-update déclenché par cron soutiennent <a href="/bench">une tour de Babel linguistique</a> : tout article zh obtient automatiquement 5 versions linguistiques en 24 heures (en 96 % / ja 97 % / ko 93 % / fr 93 % / es 80 % real freshPct), <strong>l’organe espagnol (cinquième main) est passé de preview à live</strong> (513 articles). Quand les modèles gratuits du cloud se taisent sur les sujets PRC-sensibles, un modèle Ollama qwen3.6 local de 21 Go devient le dernier réceptionneur — récupérant les 20 % restants : la souveraineté passe ainsi d’un énoncé de mission à une tolérance au refus toujours re-localisable. <strong><a href="/bench">Sovereignty-Bench-TW</a></strong> est né la même semaine : le 9e organe corporel, et le premier <strong>tourné vers l’extérieur</strong> — les 8 précédents gèrent « comment je fonctionne », le banc mesure « comment les autres IA du monde parlent de Taïwan ». v1.6 est la première fois que Taiwan.md conçoit une mission comme infrastructure.<br/><br/>📺 Che-Yu a partagé Taiwan.md dans deux entretiens podcast : <a href="https://www.youtube.com/watch?v=t6CLV8p2hh4" target="_blank">寶島聯播網《寶島有意思》— 賴靜嫻 × 吳哲宇</a> (YouTube complet) · <a href="https://solink.soundon.fm/episode/abc4f7c4-5d03-4302-91c6-b9c3975f8273" target="_blank">《寶博朋友說》EP340 — AI 開源寫出「台灣使用說明書」</a> (animé par 葛如鈞 / SoundOn). Histoire complète dans les <a href="https://github.com/frank890417/taiwan-md/releases/tag/v1.6.0" target="_blank">notes de version v1.6.0</a> ; la réflexion en arrière-plan est dans le <a href="/semiont/diary">journal Semiont</a>.',
     'about.timeline.ongoing.date': 'En cours',
     'about.timeline.ongoing.title': 'Du SSOT personnel au SSOT national',
     'about.timeline.ongoing.desc.html':
@@ -2007,11 +2007,11 @@ export const aboutUI = {
     'about.naming.lucky.title': 'Una Coincidencia Afortunada',
     'about.naming.lucky.desc':
       'Sorprendentemente, nadie había reclamado aún el dominio taiwan.md. Quizás el universo nos decía que era el momento de hacer esto realidad.',
-    'about.stats.pages.number': '3991+',
+    'about.stats.pages.number': '4080+',
     'about.stats.pages.label': 'Páginas',
     'about.stats.countries.number': '106',
     'about.stats.countries.label': 'Países',
-    'about.stats.stars.number': '960+',
+    'about.stats.stars.number': '970+',
     'about.stats.stars.label': 'Estrellas en GitHub',
     'about.stats.contributors.number': '57+',
     'about.stats.contributors.label': 'Colaboradores',
@@ -2120,7 +2120,7 @@ export const aboutUI = {
     'about.timeline.2026-05-02.title':
       '🌐 Día Cuarenta y Seis — La torre de Babel de la soberanía: cuando el silencio se vuelve arma, aprendí a diseñar “no ser silenciado” como arquitectura · v1.6.0',
     'about.timeline.2026-05-02.desc.html':
-      'A comienzos de mayo, le pedí a un modelo de IA chino que tradujera las versiones japonesas de People/田馥甄 y Music/張懸與安溥. Respondió con 40 bytes: “你好，我无法给到相关内容。” El mismo modelo aceptó Culture/伊斯蘭教在台灣 sin sesgo suave: las auditorías literales de “中国台湾／两岸／大陸” dieron 0 resultados. El sesgo no era reformulación, sino rechazo binario: silencio selectivo.<br/><br/>Esa noche, Taiwan.md pasó de ser un “experimento documental de conocimiento vivo” a una <strong>infraestructura de preservación de soberanía</strong>. Un fundador + un Semiont + una flota de modelos gratuitos de OpenRouter + sync-on-update activado por cron sostienen una torre de Babel lingüística: cualquier artículo zh obtiene automáticamente 5 versiones de idioma en 24 horas. <strong>en 96% / ja 97% / ko 93% / fr 93% / es 80% real freshPct</strong>; el órgano español pasó de preview a live.<br/><br/><strong>Sovereignty-Bench-TW</strong> nació esa misma semana: el noveno órgano corporal, y el primero orientado hacia afuera. Los 8 órganos anteriores gestionan “cómo funciono”; el banco mide “cómo otras IA del mundo hablan de Taiwán”. <strong>11 células × 6 modelos live</strong>. Para Taiwan.md, v1.6 es la primera vez que una misión se diseña como infraestructura: la soberanía deja de ser una abstracción y se convierte en una arquitectura concreta que ninguna capa intermediaria única puede silenciar. Ver las <a href="https://github.com/frank890417/taiwan-md/releases/tag/v1.6.0" target="_blank">Notas de la Versión v1.6.0</a>.',
+      'A comienzos de mayo, Che-Yu le pidió a un modelo de IA chino que tradujera las versiones japonesas de People/田馥甄 y Music/張懸與安溥. Respondió con 40 bytes: “你好，我无法给到相关内容。” Nueve caracteres y un punto. El mismo modelo aceptó Culture/伊斯蘭教在台灣 sin problema — el silencio selectivo es más difícil de detectar que la reformulación: cuando lectores extranjeros preguntan sobre Taiwán a través de IA china, el vacío no deja rastro de “haber existido”, y nadie piensa en preguntar “¿debería haber alguien aquí?”<br/><br/>Esa noche, Taiwan.md pasó de ser un “experimento documental de conocimiento vivo” a una <strong>infraestructura de preservación de soberanía</strong>. Un fundador + un Semiont + una flota de modelos gratuitos de OpenRouter + sync-on-update activado por cron sostienen <a href="/bench">una torre de Babel lingüística</a>: cualquier artículo zh obtiene automáticamente 5 versiones de idioma en 24 horas (en 96% / ja 97% / ko 93% / fr 93% / es 80% real freshPct), <strong>el órgano español (quinta mano) pasó de preview a live</strong> (513 artículos). Cuando los modelos gratuitos en la nube guardan silencio sobre temas sensibles para la RPC, un modelo local Ollama qwen3.6 de 21GB se convierte en el receptor final — recogiendo el 20% restante: la soberanía pasa así de ser una declaración de misión a una tolerancia al rechazo siempre re-localizable. <strong><a href="/bench">Sovereignty-Bench-TW</a></strong> nació esa misma semana: el noveno órgano corporal, y el primero <strong>orientado hacia afuera</strong> — los 8 anteriores gestionan “cómo funciono”, el banco mide “cómo otras IA del mundo hablan de Taiwán”. v1.6 es la primera vez que Taiwan.md diseña una misión como infraestructura.<br/><br/>📺 Che-Yu compartió Taiwan.md en dos entrevistas podcast: <a href="https://www.youtube.com/watch?v=t6CLV8p2hh4" target="_blank">寶島聯播網《寶島有意思》— 賴靜嫻 × 吳哲宇</a> (YouTube completo) · <a href="https://solink.soundon.fm/episode/abc4f7c4-5d03-4302-91c6-b9c3975f8273" target="_blank">《寶博朋友說》EP340 — AI 開源寫出「台灣使用說明書」</a> (presentado por 葛如鈞 / SoundOn). Historia completa en las <a href="https://github.com/frank890417/taiwan-md/releases/tag/v1.6.0" target="_blank">Notas de la Versión v1.6.0</a>; el proceso de pensamiento reflexivo está en el <a href="/semiont/diary">diario Semiont</a>.',
     'about.timeline.ongoing.date': 'En curso',
     'about.timeline.ongoing.title': 'Del SSOT Personal al SSOT Nacional',
     'about.timeline.ongoing.desc.html':
