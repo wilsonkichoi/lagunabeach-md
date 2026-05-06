@@ -1,45 +1,45 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-05T15:54:21+08:00",
-    "zhCommitHead": "c48b46696",
-    "totalZh": 672,
+    "lastUpdated": "2026-05-06T12:48:44+08:00",
+    "zhCommitHead": "dc4e0c957",
+    "totalZh": 673,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 672,
-        "fresh": 460,
+        "total_zh": 673,
+        "fresh": 461,
         "stale": 92,
         "metadata_stale": 119,
         "missing": 1,
         "orphan": 1
       },
       "ja": {
-        "total_zh": 672,
-        "fresh": 458,
+        "total_zh": 673,
+        "fresh": 459,
         "stale": 92,
         "metadata_stale": 119,
         "missing": 3,
         "orphan": 8
       },
       "ko": {
-        "total_zh": 672,
-        "fresh": 458,
+        "total_zh": 673,
+        "fresh": 459,
         "stale": 93,
         "metadata_stale": 119,
         "missing": 2,
         "orphan": 4
       },
       "es": {
-        "total_zh": 672,
-        "fresh": 459,
+        "total_zh": 673,
+        "fresh": 460,
         "stale": 92,
         "metadata_stale": 119,
         "missing": 2,
         "orphan": 1
       },
       "fr": {
-        "total_zh": 672,
-        "fresh": 459,
+        "total_zh": 673,
+        "fresh": 460,
         "stale": 93,
         "metadata_stale": 119,
         "missing": 1,
@@ -15627,6 +15627,31 @@
         }
       }
     },
+    "Society/想想論壇.md": {
+      "zh": {
+        "lastCommit": "42929bb4",
+        "lastModified": "2026-05-05T21:07:54+08:00",
+        "contentHash": "sha256:446822dc1eb5997c",
+        "bodyHash": "sha256:3a1dfab1c0b57443"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Society/偏遠地區學校教育發展條例全解.md": {
       "zh": {
         "lastCommit": "e5fe6f08",
@@ -16514,9 +16539,9 @@
     },
     "Society/毒馬鈴薯認知作戰.md": {
       "zh": {
-        "lastCommit": "e5fe6f08",
-        "lastModified": "2026-05-04T22:36:28+08:00",
-        "contentHash": "sha256:7d7fdd7e1f8f3e51",
+        "lastCommit": "42929bb4",
+        "lastModified": "2026-05-05T21:07:54+08:00",
+        "contentHash": "sha256:441da61b4d105152",
         "bodyHash": "sha256:001afbff1a12f651"
       },
       "translations": {
@@ -16532,8 +16557,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 2,
+          "diffSummary": "+5 -4"
         },
         "ja": {
           "path": "ja/Society/poisoned-potato-cognitive-warfare-taiwan.md",
@@ -16547,8 +16572,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 2,
+          "diffSummary": "+5 -4"
         },
         "ko": {
           "path": "ko/Society/poisoned-potato-cognitive-warfare-taiwan.md",
@@ -16562,8 +16587,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 2,
+          "diffSummary": "+5 -4"
         },
         "es": {
           "path": "es/Society/poisoned-potato-cognitive-warfare-taiwan.md",
@@ -16577,8 +16602,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 2,
+          "diffSummary": "+5 -4"
         },
         "fr": {
           "path": "fr/Society/poisoned-potato-cognitive-warfare-taiwan.md",
@@ -16592,8 +16617,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 2,
+          "diffSummary": "+5 -4"
         }
       }
     },
@@ -17304,26 +17329,86 @@
     },
     "Society/台灣與史瓦帝尼.md": {
       "zh": {
-        "lastCommit": "c48b4669",
-        "lastModified": "2026-05-05T15:52:48+08:00",
+        "lastCommit": "f8c8a289",
+        "lastModified": "2026-05-05T16:25:39+08:00",
         "contentHash": "sha256:a2eea97ea78b9eb8",
         "bodyHash": "sha256:f58edd03b23a2764"
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Society/taiwan-eswatini-relations.md",
+          "translatedFrom": "Society/台灣與史瓦帝尼.md",
+          "sourceCommitSha": "c48b46696",
+          "sourceContentHash": "sha256:8622030ad39ca9b3",
+          "sourceBodyHash": "",
+          "translatedAt": "2026-05-05T15:58:52+08:00",
+          "translationLastCommit": "517dfd41",
+          "translationLastModified": "2026-05-05T16:16:10+08:00",
+          "inferred": false,
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+17 -0"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Society/taiwan-eswatini-relations.md",
+          "translatedFrom": "Society/台灣與史瓦帝尼.md",
+          "sourceCommitSha": "c48b46696",
+          "sourceContentHash": "sha256:8622030ad39ca9b3",
+          "sourceBodyHash": "",
+          "translatedAt": "2026-05-05T16:02:48+08:00",
+          "translationLastCommit": "517dfd41",
+          "translationLastModified": "2026-05-05T16:16:10+08:00",
+          "inferred": false,
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+17 -0"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Society/taiwan-eswatini-relations.md",
+          "translatedFrom": "Society/台灣與史瓦帝尼.md",
+          "sourceCommitSha": "c48b46696",
+          "sourceContentHash": "sha256:8622030ad39ca9b3",
+          "sourceBodyHash": "",
+          "translatedAt": "2026-05-05T16:05:29+08:00",
+          "translationLastCommit": "517dfd41",
+          "translationLastModified": "2026-05-05T16:16:10+08:00",
+          "inferred": false,
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+17 -0"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Society/taiwan-eswatini-relations.md",
+          "translatedFrom": "Society/台灣與史瓦帝尼.md",
+          "sourceCommitSha": "c48b46696",
+          "sourceContentHash": "sha256:8622030ad39ca9b3",
+          "sourceBodyHash": "",
+          "translatedAt": "2026-05-05T16:08:09+08:00",
+          "translationLastCommit": "517dfd41",
+          "translationLastModified": "2026-05-05T16:16:10+08:00",
+          "inferred": false,
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+17 -0"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Society/taiwan-eswatini-relations.md",
+          "translatedFrom": "Society/台灣與史瓦帝尼.md",
+          "sourceCommitSha": "c48b46696",
+          "sourceContentHash": "sha256:8622030ad39ca9b3",
+          "sourceBodyHash": "",
+          "translatedAt": "2026-05-05T16:11:08+08:00",
+          "translationLastCommit": "517dfd41",
+          "translationLastModified": "2026-05-05T16:16:10+08:00",
+          "inferred": false,
+          "status": "stale",
+          "reason": "zh-moved-forward",
+          "commitsBehind": 1,
+          "diffSummary": "+17 -0"
         }
       }
     },
@@ -21614,86 +21699,76 @@
     },
     "Nature/颱風.md": {
       "zh": {
-        "lastCommit": "e5fe6f08",
-        "lastModified": "2026-05-04T22:36:28+08:00",
-        "contentHash": "sha256:f0ec13f75b31d774",
-        "bodyHash": "sha256:a6ff615e16ba78f3"
+        "lastCommit": "dc4e0c95",
+        "lastModified": "2026-05-06T12:33:16+08:00",
+        "contentHash": "sha256:4e1030b784b38d4e",
+        "bodyHash": "sha256:8509bdbbc304e652"
       },
       "translations": {
         "en": {
           "path": "en/Nature/typhoons-in-taiwan.md",
           "translatedFrom": "Nature/颱風.md",
-          "sourceCommitSha": "f94d76ee",
-          "sourceContentHash": "sha256:0bfc1078b896f9a5",
-          "sourceBodyHash": "sha256:b42acf7cd572bd18",
-          "translatedAt": "2026-05-01T12:53:58+08:00",
+          "sourceCommitSha": "dc4e0c957",
+          "sourceContentHash": "sha256:4e1030b784b38d4e",
+          "sourceBodyHash": "sha256:8509bdbbc304e652",
+          "translatedAt": "2026-05-06T12:37:34+08:00",
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+5 -5"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Nature/typhoons-in-taiwan.md",
           "translatedFrom": "Nature/颱風.md",
-          "sourceCommitSha": "f94d76ee",
-          "sourceContentHash": "sha256:0bfc1078b896f9a5",
-          "sourceBodyHash": "sha256:b42acf7cd572bd18",
-          "translatedAt": "2026-05-01T18:09:43+08:00",
+          "sourceCommitSha": "dc4e0c957",
+          "sourceContentHash": "sha256:4e1030b784b38d4e",
+          "sourceBodyHash": "sha256:8509bdbbc304e652",
+          "translatedAt": "2026-05-06T12:37:34+08:00",
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+5 -5"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Nature/typhoons-in-taiwan.md",
           "translatedFrom": "Nature/颱風.md",
-          "sourceCommitSha": "f94d76ee",
-          "sourceContentHash": "sha256:0bfc1078b896f9a5",
-          "sourceBodyHash": "sha256:b42acf7cd572bd18",
-          "translatedAt": "2026-05-01T22:19:01+08:00",
+          "sourceCommitSha": "dc4e0c957",
+          "sourceContentHash": "sha256:4e1030b784b38d4e",
+          "sourceBodyHash": "sha256:8509bdbbc304e652",
+          "translatedAt": "2026-05-06T12:37:34+08:00",
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+5 -5"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Nature/typhoons-in-taiwan.md",
           "translatedFrom": "Nature/颱風.md",
-          "sourceCommitSha": "f94d76ee",
-          "sourceContentHash": "sha256:0bfc1078b896f9a5",
-          "sourceBodyHash": "sha256:b42acf7cd572bd18",
-          "translatedAt": "2026-05-01T22:19:10+08:00",
+          "sourceCommitSha": "dc4e0c957",
+          "sourceContentHash": "sha256:4e1030b784b38d4e",
+          "sourceBodyHash": "sha256:8509bdbbc304e652",
+          "translatedAt": "2026-05-06T12:37:35+08:00",
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+5 -5"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Nature/typhoons-in-taiwan.md",
           "translatedFrom": "Nature/颱風.md",
-          "sourceCommitSha": "f94d76ee",
-          "sourceContentHash": "sha256:0bfc1078b896f9a5",
-          "sourceBodyHash": "sha256:b42acf7cd572bd18",
-          "translatedAt": "2026-05-01T22:19:06+08:00",
+          "sourceCommitSha": "dc4e0c957",
+          "sourceContentHash": "sha256:4e1030b784b38d4e",
+          "sourceBodyHash": "sha256:8509bdbbc304e652",
+          "translatedAt": "2026-05-06T12:37:35+08:00",
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+5 -5"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -25129,10 +25204,10 @@
     },
     "People/賴清德.md": {
       "zh": {
-        "lastCommit": "c48b4669",
-        "lastModified": "2026-05-05T15:52:48+08:00",
-        "contentHash": "sha256:3af3eab5d24c9bed",
-        "bodyHash": "sha256:93c48108494b2b89"
+        "lastCommit": "42929bb4",
+        "lastModified": "2026-05-05T21:07:54+08:00",
+        "contentHash": "sha256:d1531e81587d081b",
+        "bodyHash": "sha256:014e9a24eacfdab5"
       },
       "translations": {
         "en": {
@@ -25147,8 +25222,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -0"
         },
         "ja": {
           "path": "ja/People/lai-ching-te.md",
@@ -25162,8 +25237,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -0"
         },
         "ko": {
           "path": "ko/People/lai-ching-te.md",
@@ -25177,8 +25252,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "zh-moved-forward",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -0"
         },
         "es": {
           "path": "es/People/lai-ching-te.md",
@@ -25192,8 +25267,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -0"
         },
         "fr": {
           "path": "fr/People/lai-ching-te.md",
@@ -25207,8 +25282,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -0"
         }
       }
     },
@@ -31337,10 +31412,10 @@
     },
     "People/蔡英文.md": {
       "zh": {
-        "lastCommit": "c48b4669",
-        "lastModified": "2026-05-05T15:52:48+08:00",
-        "contentHash": "sha256:1b66fc5b851e7463",
-        "bodyHash": "sha256:78e7d7f3ab8d2963"
+        "lastCommit": "42929bb4",
+        "lastModified": "2026-05-05T21:07:54+08:00",
+        "contentHash": "sha256:0b73f912440cc8ae",
+        "bodyHash": "sha256:82981120910230c2"
       },
       "translations": {
         "en": {
@@ -31355,8 +31430,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -0"
         },
         "ja": {
           "path": "ja/People/tsai-ing-wen.md",
@@ -31370,8 +31445,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -0"
         },
         "ko": {
           "path": "ko/People/tsai-ing-wen.md",
@@ -31385,8 +31460,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -0"
         },
         "es": {
           "path": "es/People/tsai-ing-wen.md",
@@ -31400,8 +31475,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -0"
         },
         "fr": {
           "path": "fr/People/tsai-ing-wen.md",
@@ -31415,8 +31490,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -0"
         }
       }
     },
