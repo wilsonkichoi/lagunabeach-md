@@ -751,7 +751,7 @@
     "lastVerified": "2026-05-05",
     "lastHumanReview": false,
     "featured": true,
-    "wordCount": 6888,
+    "wordCount": 6920,
     "tagCount": 0,
     "tags": [],
     "translations": {
@@ -782,7 +782,7 @@
     "lastVerified": "2026-04-28",
     "lastHumanReview": false,
     "featured": true,
-    "wordCount": 6834,
+    "wordCount": 6906,
     "tagCount": 6,
     "tags": [
       "外交",
@@ -808,7 +808,7 @@
     "formatIssues": 0,
     "hasOverview": true,
     "hasReading": true,
-    "fnCount": 42
+    "fnCount": 43
   },
   {
     "title": "太陽花學運——那三十秒之後的十二年",
@@ -973,7 +973,7 @@
     "lastVerified": "2026-04-23",
     "lastHumanReview": false,
     "featured": false,
-    "wordCount": 9123,
+    "wordCount": 9159,
     "tagCount": 0,
     "tags": [],
     "translations": {
@@ -24645,7 +24645,7 @@
     "fnCount": 11
   },
   {
-    "title": "巴拉圭與台灣：南美洲最後的邦交，六十年邦誼的硬道理",
+    "title": "巴拉圭與台灣：南美洲唯一邦交，六十九年的現實夥伴",
     "slug": "巴拉圭與台灣",
     "category": "society",
     "subcategory": "國際關係",
@@ -24654,15 +24654,15 @@
     "lastVerified": "2026-05-07",
     "lastHumanReview": false,
     "featured": true,
-    "wordCount": 4513,
+    "wordCount": 3133,
     "tagCount": 14,
     "tags": [
       "邦交國",
       "巴拉圭",
       "Paraguay",
+      "貝尼亞",
       "賴清德",
       "蔡英文",
-      "潘尼亞",
       "王昇",
       "台灣外交",
       "TaiwanICDF",
@@ -24682,13 +24682,13 @@
     "revision": 0,
     "commitHash": "",
     "commitSubject": "",
-    "description": "1957 年建交、1989 年危中求存、2026 年總統府頒采玉大勳章——巴拉圭是台灣在南美洲唯一的邦交國，也是唯一一個面積最大、人口最多、地緣最重要的邦交國。從豬牛肉出口台灣到台巴科大建在巴拉圭，六十年走過 1989 年政變斷交危機、中國 800 億美元市場誘惑，這條關係的硬道理不在外交辭令，在豬牛肉、大學和一個大使的抉擇。",
+    "description": "1957 年建交、1989 年政變後留在台北、2017 年簽 ECA、2018 年創立台巴科大。巴拉圭是台灣在南美洲唯一邦交國，也是現有邦交國中面積最大者；這段關係靠豬肉、牛肉、教育與科技合作撐出現實利益。",
     "healthScore": 60,
-    "qualityScore": 7,
+    "qualityScore": 0,
     "formatIssues": 0,
     "hasOverview": true,
     "hasReading": true,
-    "fnCount": 21
+    "fnCount": 16
   },
   {
     "title": "台灣5G網路建設與數位轉型",

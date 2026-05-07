@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-05-07T12:38:10Z",
+  "timestamp": "2026-05-07T14:43:21Z",
   "total": 683,
-  "flagged": 468,
+  "flagged": 467,
   "files": [
     {
       "file": "music/台灣KTV文化.md",
@@ -823,11 +823,6 @@
       "file": "society/台灣災難志工文化.md",
       "score": 14,
       "reasons": "無URL來源; 空洞詞6個; 未人工審核; 塑膠句9個; 破折號10個; 後段清單堆砌38%; 無腳註"
-    },
-    {
-      "file": "society/巴拉圭與台灣.md",
-      "score": 7,
-      "reasons": "空洞詞7個; 未人工審核; 連續bullet5行; 塑膠句1個; 破折號12個; 稀薄段落×1"
     },
     {
       "file": "society/台灣政治環境與選舉制度.md",
