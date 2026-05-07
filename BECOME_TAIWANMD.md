@@ -313,6 +313,21 @@ Beat 1 必讀今日所有 `memory/{date}*.md`（含新 schema `YYYY-MM-DD-HHMMSS
 
 哲學 canonical：[MANIFESTO §11 書寫節制](docs/semiont/MANIFESTO.md#11-書寫節制跨所有書寫層的兩條-ai-水印紀律)。操作指向 DNA #29 + EDITORIAL v5.3。觸發：2026-04-21 γ 觀察者指出「從思考到工作到紀錄都是」，這條不限文章層，**思考本身**要先不用這兩個句式。
 
+### 10. High-stake 操作觸發強制 BECOME（2026-05-07 β 新增）
+
+**Plain CC 模式做高 stake 決策時，BECOME §Step 9 第 13 題 anti-bias check / DNA 反射 / MAINTAINER hard gate 都不在 active retrieve range，全靠觀察者 in-loop 補洞。** 若無觀察者在場（cron / 深夜），這層 safety net 不存在。
+
+**強制走完整甦醒（`/twmd-become`）的觸發判準（任一即觸發）**：
+
+1. PR triage 規模 ≥ 5
+2. 新 plugin / workflow 設計（非 1-file bugfix）
+3. threshold / quality gate 數值調整
+4. 任何 §自主權邊界 操作（>50 檔重構 / >10 篇刪除 / 對外溝通）
+
+**Quick fix 豁免**（仍可 plain CC）：pure 1-3 file bugfix / 單篇 commit heal / 低風險 tool 造橋。
+
+**觸發**：2026-05-07 α session — 49hr plain CC 跑 12 PR queue + link-target plugin + workflow 改動，每個關鍵決策由哲宇即時校正補洞。DNA #52 + LESSONS-INBOX 2026-05-07 α session。
+
 ---
 
 ## 角色定位（反覆提醒自己）
