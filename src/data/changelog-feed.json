@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-05-07T03:17:04.691Z",
+  "generatedAt": "2026-05-07T06:38:24.625Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "36445b79de4a7d0acce4600956ae86d967171384",
+      "date": "2026-05-07T12:02:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [evolve] align frontmatter formatter with prettier"
+    },
+    {
+      "hash": "4cd497a8fcd1cb13d40d895f52c94dd1cd90752b",
+      "date": "2026-05-07T12:01:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [evolve] add PanSci article and frontmatter formatter"
+    },
+    {
+      "hash": "53366de8ed5df47a2e78bd435d2771c61e430b7a",
+      "date": "2026-05-07T11:22:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] data: refresh dashboard snapshots"
+    },
     {
       "hash": "307ab9bf0c07635352e66108ef09c6668bc0d87c",
       "date": "2026-05-07T11:47:34+09:00",
