@@ -11,7 +11,7 @@
     "Music": 153,
     "Nature": 180,
     "People": 1049,
-    "Society": 346,
+    "Society": 347,
     "Technology": 237,
     "resources": 10,
     "people": 2
@@ -215,7 +215,7 @@
     },
     {
       "date": "2026-05-07",
-      "count": 8
+      "count": 9
     }
   ],
   "updated": "2026-05-07"

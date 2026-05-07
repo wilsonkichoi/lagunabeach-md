@@ -1,7 +1,7 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-05-07T03:17:05Z",
-  "total": 682,
+  "timestamp": "2026-05-07T06:38:25Z",
+  "total": 683,
   "flagged": 468,
   "files": [
     {
@@ -2287,7 +2287,7 @@
     {
       "file": "culture/台灣YouTuber產業與文化.md",
       "score": 8,
-      "reasons": "年份4個; 未人工審核; 套路結尾; 後段清單堆砌33%; 稀薄段落×6"
+      "reasons": "年份4個; 未人工審核; 套路結尾; 後段清單堆砌35%; 稀薄段落×6"
     },
     {
       "file": "culture/國立故宮博物院.md",

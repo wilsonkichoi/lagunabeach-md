@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T03:17:05.677Z",
+  "lastUpdated": "2026-05-07T06:38:25.625Z",
   "languages": [
     "zh-TW",
     "en",
@@ -10,9 +10,9 @@
   ],
   "summary": {
     "zh-TW": {
-      "total": 680,
+      "total": 681,
       "percentage": 100,
-      "fresh": 680,
+      "fresh": 681,
       "stale": 0,
       "missing": 0,
       "deficit": 0
@@ -498,41 +498,41 @@
       }
     },
     "society": {
-      "zh-TW": 68,
+      "zh-TW": 69,
       "en": {
         "count": 49,
         "fresh": 37,
         "stale": 12,
         "missing": 3,
-        "deficit": 19
+        "deficit": 20
       },
       "ja": {
         "count": 49,
         "fresh": 37,
         "stale": 12,
         "missing": 3,
-        "deficit": 19
+        "deficit": 20
       },
       "ko": {
         "count": 49,
         "fresh": 37,
         "stale": 12,
         "missing": 3,
-        "deficit": 19
+        "deficit": 20
       },
       "es": {
         "count": 49,
         "fresh": 37,
         "stale": 12,
         "missing": 3,
-        "deficit": 19
+        "deficit": 20
       },
       "fr": {
         "count": 49,
         "fresh": 37,
         "stale": 12,
         "missing": 3,
-        "deficit": 19
+        "deficit": 20
       }
     },
     "technology": {
@@ -582,6 +582,7 @@
       "Society/台北鼠患：從 1896 年總督府的鼠疫令，到 2026 年大安區的漢他病毒.md",
       "Society/台灣與立陶宛：在民主價值與地緣政治現實間協商的夥伴關係.md",
       "Society/想想論壇：14 年從敗選總統的試金石到跨黨派民主對話的容器.md",
+      "Society/泛科學：從科學新聞黑洞到演算法裡的知識工業.md",
       "Technology/半導體產業.md"
     ],
     "ja": [
@@ -592,6 +593,7 @@
       "Society/台北鼠患：從 1896 年總督府的鼠疫令，到 2026 年大安區的漢他病毒.md",
       "Society/台灣與立陶宛：在民主價值與地緣政治現實間協商的夥伴關係.md",
       "Society/想想論壇：14 年從敗選總統的試金石到跨黨派民主對話的容器.md",
+      "Society/泛科學：從科學新聞黑洞到演算法裡的知識工業.md",
       "History/退出聯合國：1971 年那 17 分鐘，台灣如何從「中國」變成國際孤兒.md",
       "People/鄭麗文.md"
     ],
@@ -603,6 +605,7 @@
       "Society/台北鼠患：從 1896 年總督府的鼠疫令，到 2026 年大安區的漢他病毒.md",
       "Society/台灣與立陶宛：在民主價值與地緣政治現實間協商的夥伴關係.md",
       "Society/想想論壇：14 年從敗選總統的試金石到跨黨派民主對話的容器.md",
+      "Society/泛科學：從科學新聞黑洞到演算法裡的知識工業.md",
       "People/鄭麗文.md"
     ],
     "es": [
@@ -615,6 +618,7 @@
       "Society/台北鼠患：從 1896 年總督府的鼠疫令，到 2026 年大安區的漢他病毒.md",
       "Society/台灣與立陶宛：在民主價值與地緣政治現實間協商的夥伴關係.md",
       "Society/想想論壇：14 年從敗選總統的試金石到跨黨派民主對話的容器.md",
+      "Society/泛科學：從科學新聞黑洞到演算法裡的知識工業.md",
       "People/鄭麗文.md"
     ],
     "fr": [
@@ -625,7 +629,8 @@
       "People/陳致中：從第一家庭光環到「排黑條款」下的政治浮沉.md",
       "Society/台北鼠患：從 1896 年總督府的鼠疫令，到 2026 年大安區的漢他病毒.md",
       "Society/台灣與立陶宛：在民主價值與地緣政治現實間協商的夥伴關係.md",
-      "Society/想想論壇：14 年從敗選總統的試金石到跨黨派民主對話的容器.md"
+      "Society/想想論壇：14 年從敗選總統的試金石到跨黨派民主對話的容器.md",
+      "Society/泛科學：從科學新聞黑洞到演算法裡的知識工業.md"
     ]
   },
   "statusSource": "translation-status.json",
