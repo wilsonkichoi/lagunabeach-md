@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-06T12:48:44+08:00",
-    "zhCommitHead": "dc4e0c957",
-    "totalZh": 673,
+    "lastUpdated": "2026-05-07T10:51:31+08:00",
+    "zhCommitHead": "307ab9bf0",
+    "totalZh": 682,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 673,
-        "fresh": 461,
-        "stale": 92,
-        "metadata_stale": 119,
-        "missing": 1,
+        "total_zh": 682,
+        "fresh": 460,
+        "stale": 96,
+        "metadata_stale": 118,
+        "missing": 8,
         "orphan": 1
       },
       "ja": {
-        "total_zh": 673,
-        "fresh": 459,
-        "stale": 92,
-        "metadata_stale": 119,
-        "missing": 3,
+        "total_zh": 682,
+        "fresh": 458,
+        "stale": 96,
+        "metadata_stale": 118,
+        "missing": 10,
         "orphan": 8
       },
       "ko": {
-        "total_zh": 673,
-        "fresh": 459,
-        "stale": 93,
-        "metadata_stale": 119,
-        "missing": 2,
+        "total_zh": 682,
+        "fresh": 458,
+        "stale": 97,
+        "metadata_stale": 118,
+        "missing": 9,
         "orphan": 4
       },
       "es": {
-        "total_zh": 673,
-        "fresh": 460,
-        "stale": 92,
-        "metadata_stale": 119,
-        "missing": 2,
+        "total_zh": 682,
+        "fresh": 459,
+        "stale": 94,
+        "metadata_stale": 118,
+        "missing": 11,
         "orphan": 1
       },
       "fr": {
-        "total_zh": 673,
-        "fresh": 460,
-        "stale": 93,
-        "metadata_stale": 119,
-        "missing": 1,
+        "total_zh": 682,
+        "fresh": 459,
+        "stale": 95,
+        "metadata_stale": 118,
+        "missing": 10,
         "orphan": 4
       }
     },
@@ -13219,6 +13219,61 @@
         }
       }
     },
+    "Lifestyle/台灣髮型介紹.md": {
+      "zh": {
+        "lastCommit": "6cd51d3f",
+        "lastModified": "2026-05-07T00:24:06+08:00",
+        "contentHash": "sha256:92f0f62228e8da75",
+        "bodyHash": "sha256:1ef41d3e2dbd5edf"
+      },
+      "translations": {
+        "en": {
+          "path": "en/Lifestyle/taiwan-hairstyles.md",
+          "translatedFrom": "Lifestyle/台灣髮型介紹.md",
+          "sourceCommitSha": "",
+          "sourceContentHash": "",
+          "sourceBodyHash": "",
+          "translatedAt": "",
+          "translationLastCommit": "68f550ea",
+          "translationLastModified": "2026-05-07T01:17:29+09:00",
+          "inferred": false,
+          "status": "stale",
+          "reason": "no-source-sha"
+        },
+        "ja": {
+          "path": "ja/Lifestyle/taiwan-hairstyles.md",
+          "translatedFrom": "Lifestyle/台灣髮型介紹.md",
+          "sourceCommitSha": "",
+          "sourceContentHash": "",
+          "sourceBodyHash": "",
+          "translatedAt": "",
+          "translationLastCommit": "68f550ea",
+          "translationLastModified": "2026-05-07T01:17:29+09:00",
+          "inferred": false,
+          "status": "stale",
+          "reason": "no-source-sha"
+        },
+        "ko": {
+          "path": "ko/Lifestyle/taiwan-hairstyles.md",
+          "translatedFrom": "Lifestyle/台灣髮型介紹.md",
+          "sourceCommitSha": "",
+          "sourceContentHash": "",
+          "sourceBodyHash": "",
+          "translatedAt": "",
+          "translationLastCommit": "68f550ea",
+          "translationLastModified": "2026-05-07T01:17:29+09:00",
+          "inferred": false,
+          "status": "stale",
+          "reason": "no-source-sha"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Lifestyle/收費站.md": {
       "zh": {
         "lastCommit": "e5fe6f08",
@@ -13461,6 +13516,61 @@
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "Lifestyle/阿志頭.md": {
+      "zh": {
+        "lastCommit": "6cd51d3f",
+        "lastModified": "2026-05-07T00:24:06+08:00",
+        "contentHash": "sha256:c220fdb6388e4f30",
+        "bodyHash": "sha256:c8cb1f4975c2813d"
+      },
+      "translations": {
+        "en": {
+          "path": "en/Lifestyle/ah-ji-haircut.md",
+          "translatedFrom": "Lifestyle/阿志頭.md",
+          "sourceCommitSha": "",
+          "sourceContentHash": "",
+          "sourceBodyHash": "",
+          "translatedAt": "",
+          "translationLastCommit": "68f550ea",
+          "translationLastModified": "2026-05-07T01:17:29+09:00",
+          "inferred": false,
+          "status": "stale",
+          "reason": "no-source-sha"
+        },
+        "ja": {
+          "path": "ja/Lifestyle/ah-ji-haircut.md",
+          "translatedFrom": "Lifestyle/阿志頭.md",
+          "sourceCommitSha": "",
+          "sourceContentHash": "",
+          "sourceBodyHash": "",
+          "translatedAt": "",
+          "translationLastCommit": "68f550ea",
+          "translationLastModified": "2026-05-07T01:17:29+09:00",
+          "inferred": false,
+          "status": "stale",
+          "reason": "no-source-sha"
+        },
+        "ko": {
+          "path": "ko/Lifestyle/ah-ji-haircut.md",
+          "translatedFrom": "Lifestyle/阿志頭.md",
+          "sourceCommitSha": "",
+          "sourceContentHash": "",
+          "sourceBodyHash": "",
+          "translatedAt": "",
+          "translationLastCommit": "68f550ea",
+          "translationLastModified": "2026-05-07T01:17:29+09:00",
+          "inferred": false,
+          "status": "stale",
+          "reason": "no-source-sha"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },
@@ -15299,10 +15409,10 @@
     },
     "Society/台灣的道德課去哪了.md": {
       "zh": {
-        "lastCommit": "e5fe6f08",
-        "lastModified": "2026-05-04T22:36:28+08:00",
-        "contentHash": "sha256:cfd53f88231c54f3",
-        "bodyHash": "sha256:4d83beba3ad84c03"
+        "lastCommit": "841876bb",
+        "lastModified": "2026-05-07T00:04:18+08:00",
+        "contentHash": "sha256:9e2e35c86cfffed4",
+        "bodyHash": "sha256:def0fbd84e75d95c"
       },
       "translations": {
         "en": {
@@ -15315,10 +15425,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+2 -2"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+23 -5"
         },
         "ja": {
           "path": "ja/Society/where-did-taiwan-moral-education-go.md",
@@ -15330,10 +15440,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+2 -2"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+23 -5"
         },
         "ko": {
           "path": "ko/Society/where-did-taiwan-moral-education-go.md",
@@ -15345,10 +15455,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+2 -2"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+23 -5"
         },
         "es": {
           "path": "es/Society/where-did-taiwan-moral-education-go.md",
@@ -15360,10 +15470,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+2 -2"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+23 -5"
         },
         "fr": {
           "path": "fr/Society/where-did-taiwan-moral-education-go.md",
@@ -15375,10 +15485,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+2 -2"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+23 -5"
         }
       }
     },
@@ -16782,6 +16892,31 @@
         }
       }
     },
+    "Society/台北鼠患.md": {
+      "zh": {
+        "lastCommit": "6cd51d3f",
+        "lastModified": "2026-05-07T00:24:06+08:00",
+        "contentHash": "sha256:2a7adde08eabea57",
+        "bodyHash": "sha256:c303ba562f23c253"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Society/統戰團.md": {
       "zh": {
         "lastCommit": "7bb2f40e",
@@ -17014,6 +17149,31 @@
           "reason": "body-drift",
           "commitsBehind": 2,
           "diffSummary": "+2 -0"
+        }
+      }
+    },
+    "Society/台灣與立陶宛.md": {
+      "zh": {
+        "lastCommit": "4d0fa188",
+        "lastModified": "2026-05-07T00:27:44+08:00",
+        "contentHash": "sha256:dc43efb5979a3c8f",
+        "bodyHash": "sha256:0c2c65bdea71abe5"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },
@@ -18279,10 +18439,10 @@
     },
     "Society/台灣偏鄉教育.md": {
       "zh": {
-        "lastCommit": "b832b344",
-        "lastModified": "2026-05-05T14:09:41+08:00",
-        "contentHash": "sha256:0032c0525096edb6",
-        "bodyHash": "sha256:fa75946fbfdeede9"
+        "lastCommit": "6ee33828",
+        "lastModified": "2026-05-07T00:03:53+08:00",
+        "contentHash": "sha256:44e0e02cb3bfe9f8",
+        "bodyHash": "sha256:275d00c9499cbf78"
       },
       "translations": {
         "en": {
@@ -18297,8 +18457,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -1"
         },
         "ja": {
           "path": "ja/Society/taiwan-rural-education.md",
@@ -18312,8 +18472,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -1"
         },
         "ko": {
           "path": "ko/Society/taiwan-rural-education.md",
@@ -18327,8 +18487,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -1"
         },
         "es": {
           "path": "es/Society/taiwan-rural-education.md",
@@ -18342,8 +18502,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -1"
         },
         "fr": {
           "path": "fr/Society/taiwan-rural-education.md",
@@ -18357,8 +18517,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "commitsBehind": 2,
+          "diffSummary": "+2 -1"
         }
       }
     },
@@ -21712,8 +21872,8 @@
           "sourceContentHash": "sha256:4e1030b784b38d4e",
           "sourceBodyHash": "sha256:8509bdbbc304e652",
           "translatedAt": "2026-05-06T12:37:34+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "da3feead",
+          "translationLastModified": "2026-05-06T12:59:32+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -21725,8 +21885,8 @@
           "sourceContentHash": "sha256:4e1030b784b38d4e",
           "sourceBodyHash": "sha256:8509bdbbc304e652",
           "translatedAt": "2026-05-06T12:37:34+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "da3feead",
+          "translationLastModified": "2026-05-06T12:59:32+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -21738,8 +21898,8 @@
           "sourceContentHash": "sha256:4e1030b784b38d4e",
           "sourceBodyHash": "sha256:8509bdbbc304e652",
           "translatedAt": "2026-05-06T12:37:34+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "da3feead",
+          "translationLastModified": "2026-05-06T12:59:32+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -21751,8 +21911,8 @@
           "sourceContentHash": "sha256:4e1030b784b38d4e",
           "sourceBodyHash": "sha256:8509bdbbc304e652",
           "translatedAt": "2026-05-06T12:37:35+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "da3feead",
+          "translationLastModified": "2026-05-06T12:59:32+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -21764,8 +21924,8 @@
           "sourceContentHash": "sha256:4e1030b784b38d4e",
           "sourceBodyHash": "sha256:8509bdbbc304e652",
           "translatedAt": "2026-05-06T12:37:35+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "da3feead",
+          "translationLastModified": "2026-05-06T12:59:32+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -27860,6 +28020,31 @@
         }
       }
     },
+    "People/尊.md": {
+      "zh": {
+        "lastCommit": "6cd51d3f",
+        "lastModified": "2026-05-07T00:24:06+08:00",
+        "contentHash": "sha256:a6815e61d9f9974b",
+        "bodyHash": "sha256:98e516e5b31fe3b8"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "People/許倬雲.md": {
       "zh": {
         "lastCommit": "a05d2431",
@@ -29397,6 +29582,31 @@
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "People/陳致中.md": {
+      "zh": {
+        "lastCommit": "6cd51d3f",
+        "lastModified": "2026-05-07T00:24:06+08:00",
+        "contentHash": "sha256:c3cf496574092462",
+        "bodyHash": "sha256:b26709ecc046be72"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },
@@ -43000,6 +43210,31 @@
         }
       }
     },
+    "Food/營養午餐.md": {
+      "zh": {
+        "lastCommit": "6cd51d3f",
+        "lastModified": "2026-05-07T00:24:06+08:00",
+        "contentHash": "sha256:7821275263a50042",
+        "bodyHash": "sha256:41f53dec5abc68f4"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Food/台灣手路菜.md": {
       "zh": {
         "lastCommit": "e5fe6f08",
@@ -46438,6 +46673,31 @@
         }
       }
     },
+    "Geography/金瓜石.md": {
+      "zh": {
+        "lastCommit": "47cc4f39",
+        "lastModified": "2026-05-07T00:05:20+08:00",
+        "contentHash": "sha256:6646b507cbcc2096",
+        "bodyHash": "sha256:f6523523e2bf1f0c"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Geography/台灣板塊運動與地震活動.md": {
       "zh": {
         "lastCommit": "6ff654e9",
@@ -47775,10 +48035,10 @@
     },
     "Geography/台北101.md": {
       "zh": {
-        "lastCommit": "a05d2431",
-        "lastModified": "2026-04-04T02:18:02+08:00",
-        "contentHash": "sha256:0b35412227ffb8b0",
-        "bodyHash": "sha256:7d381eeb77a43103"
+        "lastCommit": "cac8a6c3",
+        "lastModified": "2026-05-07T00:10:03+08:00",
+        "contentHash": "sha256:2b98bb25fe4e7d4a",
+        "bodyHash": "sha256:d565775868e89ffc"
       },
       "translations": {
         "en": {
@@ -47791,8 +48051,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 3,
+          "diffSummary": "+94 -98"
         },
         "ja": {
           "path": "ja/Geography/taipei-101.md",
@@ -47804,8 +48066,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 3,
+          "diffSummary": "+94 -98"
         },
         "ko": {
           "path": "ko/Geography/taipei-101.md",
@@ -47817,8 +48081,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 3,
+          "diffSummary": "+94 -98"
         },
         "es": {
           "path": "es/Geography/taipei-101.md",
@@ -47830,8 +48096,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 3,
+          "diffSummary": "+94 -98"
         },
         "fr": {
           "path": "fr/Geography/taipei-101.md",
@@ -47843,8 +48111,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 3,
+          "diffSummary": "+94 -98"
         }
       }
     },
@@ -51330,6 +51600,31 @@
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "Culture/斗笠.md": {
+      "zh": {
+        "lastCommit": "6cd51d3f",
+        "lastModified": "2026-05-07T00:24:06+08:00",
+        "contentHash": "sha256:94596f884e1da994",
+        "bodyHash": "sha256:b562b26663b1a026"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },
