@@ -3,7 +3,15 @@ title: 'La musique hakka de Taïwan : entre transmission culturelle et renouveau
 description: 'Un voyage au cœur de la musique hakka taïwanaise, des chansons de montagne traditionnelles et des ensembles de « huit sons » aux créations contemporaines de Lin Shengxiang et du groupe Jiaogang, en passant par les jalons marquants aux Golden Melody Awards.'
 date: 2026-03-19
 tags:
-  ['musique hakka', 'chanson de montagne', 'huit sons hakka', 'Lin Shengxiang', 'groupe Jiaogang', 'chansons en langue hakka', 'Golden Melody Awards']
+  [
+    'musique hakka',
+    'chanson de montagne',
+    'huit sons hakka',
+    'Lin Shengxiang',
+    'groupe Jiaogang',
+    'chansons en langue hakka',
+    'Golden Melody Awards',
+  ]
 subcategory: 'Musique traditionnelle'
 author: 'Taiwan.md Translation Team'
 readingTime: 13
@@ -38,7 +46,7 @@ La chanson de montagne se décline en plusieurs formes. Le lǎo shān gē (vieil
 
 Les « huit sons » (客家八音, bā yīn) constituent l'une des traditions instrumentales les plus importantes des Hakka. Ils accompagnent principalement les cérémonies de la vie — mariages, funérailles, réjouissances. Le terme « huit sons » désigne les huit familles de matériaux dont sont faits les instruments : métal (gongs, cymbales), pierre (carillons), soie (vièles), bambou (flûtes et flûtes traversières), courge (sheng), terre cuite (suona), peau (tambours) et bois (wood-block, claquettes).
 
-Les ensembles de huit sons forment des piliers culturels incontournables des communautés hakka. Leur savoir-faire se transmettait traditionnellement de maître à élève, par voie orale. Le style de jeu est festif et orné, les mélodies complexes et variées, révélant la quête d'excellence musicale propre aux Hakka. Le répertoire classique comprend des pièces comme *Dà Kāi Mén* (Grande ouverture), *Xiǎo Kāi Mén* (Petite ouverture) ou *Fēng Rù Sōng* (Le vent dans les pins), chacune associée à un contexte et à une symbolique bien définis.
+Les ensembles de huit sons forment des piliers culturels incontournables des communautés hakka. Leur savoir-faire se transmettait traditionnellement de maître à élève, par voie orale. Le style de jeu est festif et orné, les mélodies complexes et variées, révélant la quête d'excellence musicale propre aux Hakka. Le répertoire classique comprend des pièces comme _Dà Kāi Mén_ (Grande ouverture), _Xiǎo Kāi Mén_ (Petite ouverture) ou _Fēng Rù Sōng_ (Le vent dans les pins), chacune associée à un contexte et à une symbolique bien définis.
 
 ## La transformation moderne : les pionniers de la nouvelle musique hakka
 
@@ -46,19 +54,19 @@ Les ensembles de huit sons forment des piliers culturels incontournables des com
 
 Lin Shengxiang est sans doute la figure la plus importante de la musique hakka contemporaine. Natif de Meinong, il a grandi au cœur de la culture hakka et a tôt mesuré la place délicate qu'occupait cette tradition dans la société moderne. Au début des années 1990, il forme avec Zhong Yongfeng et d'autres musiciens le groupe « Guānzǐ Yīnyuè Kēng » (觀子音樂坑) et commence à explorer les possibilités modernes de la musique hakka.
 
-La marque distinctive de Lin Shengxiang est d'insuffler l'esprit des chansons de montagne hakka dans des arrangements musicaux contemporains. Il utilise guitare électrique, basse et batterie, tout en conservant la saveur profondément hakka dans la mélodie et le chant. Des œuvres emblématiques comme *Jú Huā Yè Xíng Jūn* (L'armée en marche nocturne parmi les chrysanthèmes) ou *Zhòng Shù* (Planter des arbres) portent des paroles d'une grande densité poétique et des arrangements soignés, réussissant à faire connaître la musique hakka à un public bien plus large.
+La marque distinctive de Lin Shengxiang est d'insuffler l'esprit des chansons de montagne hakka dans des arrangements musicaux contemporains. Il utilise guitare électrique, basse et batterie, tout en conservant la saveur profondément hakka dans la mélodie et le chant. Des œuvres emblématiques comme _Jú Huā Yè Xíng Jūn_ (L'armée en marche nocturne parmi les chrysanthèmes) ou _Zhòng Shù_ (Planter des arbres) portent des paroles d'une grande densité poétique et des arrangements soignés, réussissant à faire connaître la musique hakka à un public bien plus large.
 
 ### Le groupe Jiaogang : la musique au service des luttes sociales
 
 En 1999, Lin Shengxiang fonde avec Zhong Yongfeng, Chen Guanyu et d'autres musiciens le groupe « Jiaogang » (交工樂隊) — dont le nom, en hakka, signifie « travailler ensemble ». Jiaogang est bien plus qu'un groupe de musique : c'est aussi un acteur engagé dans les mouvements sociaux. Ils s'impliquent dans les questions environnementales, les problèmes du monde rural et la défense des plus vulnérables, en faisant de la musique une voix pour la société.
 
-Le style du groupe mêle chansons de montagne hakka, mélodies populaires taïwanaises et rock, pour forger une « nouvelle musique hakka » résolument originale. L'album *Wǒ Děng Jiù Lái Chàng Shān Gē* (Nous voilà, chantons la montagne) a remporté le Golden Melody Award du meilleur groupe, affirmant la valeur de la musique hakka dans le paysage musical contemporain. Lors de leurs concerts, le groupe dégage une énergie contagieuse qui émeut même les spectateurs ne comprenant pas le hakka.
+Le style du groupe mêle chansons de montagne hakka, mélodies populaires taïwanaises et rock, pour forger une « nouvelle musique hakka » résolument originale. L'album _Wǒ Děng Jiù Lái Chàng Shān Gē_ (Nous voilà, chantons la montagne) a remporté le Golden Melody Award du meilleur groupe, affirmant la valeur de la musique hakka dans le paysage musical contemporain. Lors de leurs concerts, le groupe dégage une énergie contagieuse qui émeut même les spectateurs ne comprenant pas le hakka.
 
 ### Le groupe Shengxiang : une exploration musicale permanente
 
 Après la dissolution du groupe Jiaogang en 2002, Lin Shengxiang crée le groupe Shengxiang (生祥樂隊) et poursuit ses expérimentations musicales. La formation, plus flexible, embrasse un style encore plus diversifié, intégrant jazz, blues et world music — tout en maintenant la culture hakka comme colonne vertébrale de son identité artistique.
 
-Les albums *Yě Shēng* (Sauvage), *Dà Dì Shū Fáng* (La bibliothèque de la terre) et *Wǒ Zhuāng* (Mon village) illustrent les différentes phases de la création de Lin Shengxiang. Ses paroles sont traversées par l'amour de la terre, la réflexion sur les cultures traditionnelles et une observation aiguë de la société contemporaine. Cette profonde humanité fait de sa musique quelque chose qui transcende les barrières linguistiques pour toucher à l'universel.
+Les albums _Yě Shēng_ (Sauvage), _Dà Dì Shū Fáng_ (La bibliothèque de la terre) et _Wǒ Zhuāng_ (Mon village) illustrent les différentes phases de la création de Lin Shengxiang. Ses paroles sont traversées par l'amour de la terre, la réflexion sur les cultures traditionnelles et une observation aiguë de la société contemporaine. Cette profonde humanité fait de sa musique quelque chose qui transcende les barrières linguistiques pour toucher à l'universel.
 
 ## Les Golden Melody Awards pour les albums en langue hakka : une reconnaissance officielle décisive
 
@@ -78,7 +86,7 @@ Ce qui est commun à toutes ces œuvres, c'est l'audace d'expérimenter différe
 
 ### Huang Lianyu : gardien de la création ancrée dans le terroir
 
-Huang Lianyu est une autre figure de premier plan de la musique hakka. Son travail de création couvre aussi bien la réinterprétation des chansons de montagne que la composition de nouvelles chansons en hakka. Son œuvre phare, *Shān Gē Yī Tiáo Lù* (Un chemin fait de chansons de montagne), réarrange des mélodies traditionnelles avec des instruments modernes, préservant le charme de l'original tout en lui insufflant une dimension contemporaine.
+Huang Lianyu est une autre figure de premier plan de la musique hakka. Son travail de création couvre aussi bien la réinterprétation des chansons de montagne que la composition de nouvelles chansons en hakka. Son œuvre phare, _Shān Gē Yī Tiáo Lù_ (Un chemin fait de chansons de montagne), réarrange des mélodies traditionnelles avec des instruments modernes, préservant le charme de l'original tout en lui insufflant une dimension contemporaine.
 
 Huang Lianyu est un créateur rigoureux, porteur d'une connaissance approfondie et d'un amour sincère pour la culture hakka. Au-delà de la composition, il est aussi un passeur de culture : conférencier et démonstrateur lors de nombreux événements, il contribue activement à la transmission de la musique hakka.
 
@@ -86,7 +94,7 @@ Huang Lianyu est un créateur rigoureux, porteur d'une connaissance approfondie 
 
 Avec sa voix délicate et ses paroles poétiques, Luo Sirong apporte une couleur singulière à la musique hakka. Ses chansons adoptent souvent un point de vue féminin pour décrire le vécu des femmes hakka et leur univers émotionnel, comblant ainsi un manque longtemps criant dans ce répertoire.
 
-Son album phare *Tiān Guāng* (L'aube) a remporté le Golden Melody Award du meilleur album en langue hakka. Des titres comme *Tiān Guāng* ou *Ā Bā Ge Guì Huā Shù* (Le prunus de papa) témoignent de son profond attachement à la terre natale et à la mémoire familiale. Son style musical, ancré dans le folk, s'appuie sur des arrangements épurés et élégants, laissant toute la place à la poésie des paroles.
+Son album phare _Tiān Guāng_ (L'aube) a remporté le Golden Melody Award du meilleur album en langue hakka. Des titres comme _Tiān Guāng_ ou _Ā Bā Ge Guì Huā Shù_ (Le prunus de papa) témoignent de son profond attachement à la terre natale et à la mémoire familiale. Son style musical, ancré dans le folk, s'appuie sur des arrangements épurés et élégants, laissant toute la place à la poésie des paroles.
 
 ### Les nouvelles générations : ose l'innovation
 
@@ -108,13 +116,13 @@ Cela dit, l'ère numérique ouvre aussi de nouvelles perspectives pour la musiqu
 
 ## Références
 
-- Zhong Yongfeng, Lin Shengxiang : livret de l'album *Jú Huā Yè Xíng Jūn* et entretiens associés
-- Fan Yangkun : *Recherches sur la culture musicale hakka de Taïwan*, Hsinchu : Publications du Conseil des affaires hakka
-- Conseil des affaires hakka : *Recueil de sources sur l'histoire de la musique hakka*
+- Zhong Yongfeng, Lin Shengxiang : livret de l'album _Jú Huā Yè Xíng Jūn_ et entretiens associés
+- Fan Yangkun : _Recherches sur la culture musicale hakka de Taïwan_, Hsinchu : Publications du Conseil des affaires hakka
+- Conseil des affaires hakka : _Recueil de sources sur l'histoire de la musique hakka_
 - Palmarès des albums en langue hakka aux Golden Melody Awards : https://gma.tavis.tw/
 - Documents officiels et archives de concerts du groupe Jiaogang
 - Site officiel de Lin Shengxiang : https://linshenxiang.com/
 - Base de données de l'Association culturelle et musicale hakka
-- Dossiers thématiques sur la musique hakka parus dans *Hakka Magazine*
+- Dossiers thématiques sur la musique hakka parus dans _Hakka Magazine_
 - Centre national des arts traditionnels : ressources pédagogiques sur les huit sons hakka
 - Médiathèque de Hakka TV : https://www.hakkatv.org.tw/

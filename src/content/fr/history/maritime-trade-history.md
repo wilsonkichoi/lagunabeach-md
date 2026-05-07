@@ -2,7 +2,14 @@
 title: "L'histoire du commerce maritime de Taïwan"
 description: "De carrefour du commerce international à royaume maritime : la grande épopée de Taïwan à l'ère des grandes découvertes"
 date: 2026-03-20
-tags: ['commerce maritime', 'ère des grandes découvertes', 'commerce international', 'piraterie', 'villes portuaires']
+tags:
+  [
+    'commerce maritime',
+    'ère des grandes découvertes',
+    'commerce international',
+    'piraterie',
+    'villes portuaires',
+  ]
 subcategory: 'Préhistoire et peuples autochtones'
 author: 'Taiwan.md Translation Team'
 difficulty: 'beginner'

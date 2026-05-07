@@ -4,7 +4,15 @@ description: "En novembre 1977, lors de l'Incident de Zhongli, cette pharmacienn
 date: 2026-04-05
 category: People
 subcategory: 'Politique et démocratie'
-tags: ['Incident de Zhongli', 'Mouvement Tangwai', 'Assemblée provinciale', 'Transition démocratique', 'Femmes en politique', 'Parti démocrate progressiste']
+tags:
+  [
+    'Incident de Zhongli',
+    'Mouvement Tangwai',
+    'Assemblée provinciale',
+    'Transition démocratique',
+    'Femmes en politique',
+    'Parti démocrate progressiste',
+  ]
 author: 'Taiwan.md Translation Team'
 featured: false
 lastVerified: 2026-04-05

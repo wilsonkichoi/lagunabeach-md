@@ -35,8 +35,8 @@ L'Incident du 28 Février 1947 fut une répression de grande envergure menée pa
 
 La Terreur blanche taïwanaise reposait juridiquement sur deux textes : la « Loi punissant la rébellion » et la « Loi sur l'élimination des agents communistes en période de suppression de la rébellion ». Toute personne soupçonnée de « rébellion » ou d'être un « agent ennemi » pouvait être traduite devant un tribunal militaire, sans garanties judiciaires normales. La base de données établie ultérieurement par la Commission pour la promotion de la justice transitionnelle répertorie plus de quatorze mille cas de personnes jugées dans des affaires politiques.[^8] Parmi eux, Tchang Kaï-chek est personnellement intervenu dans plus de trois mille dossiers ; on recense huit cent soixante-seize condamnations à mort confirmées.[^11]
 
-| 14 946 dossiers | 876 dossiers |
-|---|---|
+| 14 946 dossiers                                                 | 876 dossiers                    |
+| --------------------------------------------------------------- | ------------------------------- |
 | Personnes jugées dans des affaires politiques (base de données) | Condamnations à mort confirmées |
 
 Le nombre total de victimes de la Terreur blanche, tel qu'établi avec certitude en 2022, dépasse les vingt-deux mille. Mais le mot « certitude » est lui-même problématique : avant que la Commission ne commence à compiler les archives, même une estimation approximative restait impossible.

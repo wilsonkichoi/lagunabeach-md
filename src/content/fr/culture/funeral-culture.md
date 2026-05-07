@@ -2,7 +2,15 @@
 title: 'La culture funéraire à Taïwan et les conceptions de la vie et de la mort'
 description: 'Des pleurs monnayés de la "pleureuse professionnelle" aux jardins de cendres de Yong-Ai Yuan — Taïwan a mis cinquante ans pour passer de l''inhumation à la crémation, puis dix ans de plus pour troquer le columbarium contre les racines d''un arbre.'
 date: 2026-04-08
-tags: ['funérailles', 'sépulture écologique', 'rites funèbres', 'pleureuse professionnelle', 'Qingming', 'conception de la mort']
+tags:
+  [
+    'funérailles',
+    'sépulture écologique',
+    'rites funèbres',
+    'pleureuse professionnelle',
+    'Qingming',
+    'conception de la mort',
+  ]
 subcategory: 'Culture'
 category: 'Culture'
 author: 'Taiwan.md Translation Team'
@@ -27,7 +35,7 @@ Dans la tradition han de Taïwan, « reposer en terre » n'est pas qu'une expres
 Les funérailles étaient un événement majeur. Taoïstes et moines récitaient leurs textes sacrés ; maisons en papier et serviteurs en papier se consumaient dans les braseros. Dans les campagnes taïwanaises des années 1980, le cortège funèbre pouvait s'étirer sur une demi-rue : un orchestre de cuivres ouvrait la marche, les proches éplorés soutenaient le cercueil, et derrière venaient les fameux « camions-fleurs électroniques » — des véhicules ornementés sur lesquels des femmes en tenues légères dansaient et chantaient au son tonitruant de chansons taïwanaises [^4].
 
 > **💡 Le saviez-vous ?**
-> La « pleureuse professionnelle » (*xiaonü baiqin*) est une figure singulière du deuil taïwanais. Ces femmes engagées s'agenouillent devant le cercueil et pleurent avec intensité — parfois en chantant, amplifiées par un micro — pendant plusieurs heures. Ce métier a fait l'objet d'un reportage BBC, qui l'a présenté comme l'une des pratiques funéraires les plus insolites de Taïwan [^5]. Aujourd'hui, les familles qui y recourent se font rares, mais dans les campagnes du centre et du sud de l'île, ces pleurs résonnent encore parfois.
+> La « pleureuse professionnelle » (_xiaonü baiqin_) est une figure singulière du deuil taïwanais. Ces femmes engagées s'agenouillent devant le cercueil et pleurent avec intensité — parfois en chantant, amplifiées par un micro — pendant plusieurs heures. Ce métier a fait l'objet d'un reportage BBC, qui l'a présenté comme l'une des pratiques funéraires les plus insolites de Taïwan [^5]. Aujourd'hui, les familles qui y recourent se font rares, mais dans les campagnes du centre et du sud de l'île, ces pleurs résonnent encore parfois.
 
 Il existait aussi le « deuil des cinq fils » — cinq hommes adultes jouant les fils du défunt, se frappant la poitrine et se roulant à terre devant la tombe. L'essence de ces performances n'était pas la douleur, mais la démonstration : prouver au voisinage que la famille était pieuse, que l'enterrement était digne, que le défunt partait honoré.
 

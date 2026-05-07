@@ -260,13 +260,13 @@ Les écarts de développement entre zones urbaines et rurales restent marqués �
 
 ### Spécialisation économique et identité urbaine
 
-| Secteur | Villes concernées |
-|---------|------------------|
-| Finance et commerce | Taipei, Taichung, Kaohsiung |
-| Industrie manufacturière | Taoyuan, Taichung, Kaohsiung |
-| Haute technologie | Hsinchu, Taichung |
-| Tourisme | Taipei, Tainan, Hualien-Taitung, îles périphériques |
-| Agriculture | Changhua, Yunlin, Chiayi, Pingtung, Hualien-Taitung |
+| Secteur                  | Villes concernées                                   |
+| ------------------------ | --------------------------------------------------- |
+| Finance et commerce      | Taipei, Taichung, Kaohsiung                         |
+| Industrie manufacturière | Taoyuan, Taichung, Kaohsiung                        |
+| Haute technologie        | Hsinchu, Taichung                                   |
+| Tourisme                 | Taipei, Tainan, Hualien-Taitung, îles périphériques |
+| Agriculture              | Changhua, Yunlin, Chiayi, Pingtung, Hualien-Taitung |
 
 ## Identité locale et compétition interurbaine
 
@@ -331,7 +331,7 @@ Cette diversité urbaine est un atout majeur de Taïwan. Elle enrichit la struct
 
 ## Références
 
-- Xia Zhaojiu, *Les caractères de l'urbanisation taïwanaise*
-- Lin Shurong et al., [*Relire Taïwan : la perspective anthropologique*](https://www.books.com.tw/products/0010659492)
+- Xia Zhaojiu, _Les caractères de l'urbanisation taïwanaise_
+- Lin Shurong et al., [_Relire Taïwan : la perspective anthropologique_](https://www.books.com.tw/products/0010659492)
 - Sites officiels du tourisme et publications des services culturels des différentes villes
 - Documents de chroniques locales et études en histoire urbaine

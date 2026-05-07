@@ -146,11 +146,11 @@ Le chemin vers la justice foncière des peuples autochtones de Taïwan est encor
 - [Commission présidentielle pour la justice historique et transitionnelle des peuples autochtones](https://indigenous-justice.president.gov.tw/) — rapports d'enquête et comptes rendus de réunions
 - [Conseil des peuples autochtones](https://www.apc.gov.tw/) — lois et politiques relatives à la délimitation des territoires traditionnels
 - [Service d'information sur les terres et les espaces maritimes autochtones](https://titd.apc.gov.tw/) — base de données sur les droits fonciers
-- Kuan, Da-wei (2019). *Droits fonciers des peuples autochtones et planification nationale du territoire*. Taipei : Angle Publishing.
-- Icyang Parod (2018). *Justice transitionnelle et peuples autochtones*. Taipei : Avanguard Publishing.
+- Kuan, Da-wei (2019). _Droits fonciers des peuples autochtones et planification nationale du territoire_. Taipei : Angle Publishing.
+- Icyang Parod (2018). _Justice transitionnelle et peuples autochtones_. Taipei : Avanguard Publishing.
 - [Loi fondamentale sur les peuples autochtones](https://law.moj.gov.tw/) — Base nationale des lois de la République de Chine, Ministère de la Justice
 - Déclaration des Nations Unies sur les droits des peuples autochtones (DNUDPA), traduction du Conseil des peuples autochtones
-- Tsai, Chih-wei (2020). *Territoires traditionnels autochtones et justice transitionnelle*. Taipei : Wunan Publishing.
+- Tsai, Chih-wei (2020). _Territoires traditionnels autochtones et justice transitionnelle_. Taipei : Wunan Publishing.
 
 ---
 

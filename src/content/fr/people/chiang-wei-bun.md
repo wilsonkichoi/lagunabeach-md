@@ -4,7 +4,13 @@ description: "Comment un diplômé en génie mécanique est-il devenu le promote
 date: 2026-03-23
 category: 'People'
 subcategory: 'Monde académique et éducation'
-tags: ['linguiste', 'mouvement littéraire taïwanais', 'éducation en langue maternelle', 'études vietnamiennes']
+tags:
+  [
+    'linguiste',
+    'mouvement littéraire taïwanais',
+    'éducation en langue maternelle',
+    'études vietnamiennes',
+  ]
 author: 'Taiwan.md Translation Team'
 featured: false
 lastVerified: 2026-03-23

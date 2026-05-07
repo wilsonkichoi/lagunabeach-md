@@ -277,7 +277,7 @@ Les ministères économiques taïwanais étaient dirigés par des hauts fonction
 **Part des trois secteurs dans le PIB :**
 
 | Année | Agriculture | Industrie | Services |
-|-------|-------------|-----------|----------|
+| ----- | ----------- | --------- | -------- |
 | 1952  | 56 %        | 17 %      | 27 %     |
 | 1970  | 15 %        | 37 %      | 48 %     |
 | 1990  | 4 %         | 42 %      | 54 %     |

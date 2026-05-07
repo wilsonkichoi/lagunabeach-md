@@ -2,7 +2,14 @@
 title: "L'industrie YouTuber à Taïwan : de Tsai A-Ga à Chi Hsuan, l'évolution d'une culture numérique insulaire"
 description: "Comment un magicien est devenu le premier YouTuber taïwanais à dépasser les 10 millions d'abonnés — et ce que cela révèle sur la façon dont Taïwan est passé du divertissement local à l'exportation culturelle internationale."
 date: 2026-03-23
-tags: ['culture', 'culture numérique', 'YouTuber', 'vidéo en ligne', 'impact social']
+tags:
+  [
+    'culture',
+    'culture numérique',
+    'YouTuber',
+    'vidéo en ligne',
+    'impact social',
+  ]
 subcategory: 'Culture internet'
 category: 'Culture'
 author: 'Taiwan.md Translation Team'

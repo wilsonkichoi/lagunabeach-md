@@ -2,7 +2,16 @@
 title: 'Trente ans de communautés en ligne à Taïwan — de BBS à Threads, une histoire de migrations successives'
 description: 'Les Taïwanais déménagent collectivement tous les cinq ans sur internet, et chaque fois, ils abandonnent les souvenirs de la génération précédente'
 date: 2026-03-29
-tags: ['BBS', 'Wretch', 'Facebook', 'LINE', 'Threads', 'culture internet', 'plateformes sociales']
+tags:
+  [
+    'BBS',
+    'Wretch',
+    'Facebook',
+    'LINE',
+    'Threads',
+    'culture internet',
+    'plateformes sociales',
+  ]
 subcategory: 'Communautés et culture numérique'
 category: 'Technology'
 author: 'Taiwan.md Translation Team'
@@ -120,13 +129,13 @@ L'histoire des migrations de communautés à Taïwan révèle une vérité cruel
 
 En regardant la trajectoire de ces trente ans, on distingue une oscillation cachée :
 
-| Période | Plateforme principale | Anonyme / Identifié | Public / Privé | Texte / Image |
-| --------- | ---------------- | --------- | --------- | --------- |
-| 1992-2003 | BBS | Anonyme | Public | Texte |
-| 2003-2009 | Wretch | Semi-identifié | Public | Texte + image |
-| 2009-2015 | Facebook | Identifié | Public | Texte + image |
-| 2012-aujourd'hui | LINE | Identifié | Privé | Stickers |
-| 2018-aujourd'hui | IG / Threads / Dcard | Mixte | Semi-public | Mixte |
+| Période          | Plateforme principale | Anonyme / Identifié | Public / Privé | Texte / Image |
+| ---------------- | --------------------- | ------------------- | -------------- | ------------- |
+| 1992-2003        | BBS                   | Anonyme             | Public         | Texte         |
+| 2003-2009        | Wretch                | Semi-identifié      | Public         | Texte + image |
+| 2009-2015        | Facebook              | Identifié           | Public         | Texte + image |
+| 2012-aujourd'hui | LINE                  | Identifié           | Privé          | Stickers      |
+| 2018-aujourd'hui | IG / Threads / Dcard  | Mixte               | Semi-public    | Mixte         |
 
 Anonyme → identifié → mixte. Public → privé → semi-public. Texte → image → retour au texte. Chaque migration est une réaction contre l'ère précédente. Facebook était trop identifié, trop public, alors les gens ont fui dans les groupes privés de LINE ; LINE était trop fermé, alors les jeunes sont allés sur Threads poster des réflexions futiles.
 
@@ -156,4 +165,5 @@ Probablement, oui. Mais avant de déménager, personne ne réalise qu'il est en 
 ---
 
 ## Pour aller plus loin
+
 - PTT (Bulletin Board System taïwanais)

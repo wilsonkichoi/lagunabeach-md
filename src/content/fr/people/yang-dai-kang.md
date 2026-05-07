@@ -2,7 +2,16 @@
 title: 'Yang Dai-Kang'
 description: 'Voltigeur des Yomiuri Giants, figure emblématique du baseball taïwanais au Japon'
 date: 2026-03-19
-tags: ['sport', 'baseball', 'NPB', 'Giants', 'voltigeur', 'peuples autochtones', 'Amis']
+tags:
+  [
+    'sport',
+    'baseball',
+    'NPB',
+    'Giants',
+    'voltigeur',
+    'peuples autochtones',
+    'Amis',
+  ]
 subcategory: 'Sport'
 category: 'People'
 author: 'Taiwan.md Translation Team'
@@ -26,7 +35,7 @@ En 2005, à dix-huit ans, Yang signe avec les Yomiuri Giants. Le choix est audac
 
 ## Une progression patiente en NPB
 
-Yang commence son parcours en équipe de réserve (二軍, *nigun*), assimilant méthodiquement le rythme et les exigences du baseball japonais, réputé pour sa rigueur technique et sa culture du détail. Il perfectionne ses fondamentaux en défense et sur les bases, les deux domaines où la NPB place la barre le plus haut.
+Yang commence son parcours en équipe de réserve (二軍, _nigun_), assimilant méthodiquement le rythme et les exigences du baseball japonais, réputé pour sa rigueur technique et sa culture du détail. Il perfectionne ses fondamentaux en défense et sur les bases, les deux domaines où la NPB place la barre le plus haut.
 
 En 2012, il s'installe comme titulaire en équipe première, principalement au champ centre. Sa moyenne au bâton se stabilise régulièrement au-dessus de .260, mais c'est surtout sa fiabilité dans les moments décisifs qui le distingue. Le staff technique compte sur lui dans les matchs importants, et Yang répond présent.
 

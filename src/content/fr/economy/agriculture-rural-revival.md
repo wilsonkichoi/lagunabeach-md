@@ -1,8 +1,17 @@
 ---
-title: "Agriculture et renaissance rurale à Taïwan"
+title: 'Agriculture et renaissance rurale à Taïwan'
 description: "Du royaume du riz à l'agriculture de précision : comment Taïwan a réinventé son modèle agricole et redonné vie à ses campagnes"
 date: 2026-03-18
-tags: [agriculture, renaissance rurale, agriculture de précision, agriculture biologique, retour des jeunes, système des coopératives agricoles, développement communautaire]
+tags:
+  [
+    agriculture,
+    renaissance rurale,
+    agriculture de précision,
+    agriculture biologique,
+    retour des jeunes,
+    système des coopératives agricoles,
+    développement communautaire,
+  ]
 subcategory: 'Économie agricole'
 category: 'Economy'
 author: 'Taiwan.md Translation Team'
@@ -345,5 +354,6 @@ Les campagnes taïwanaises d'aujourd'hui ne ressemblent plus aux territoires dé
 Dans un contexte de mondialisation et de dérèglement climatique, l'expérience de Taïwan en matière de transformation agricole et de revitalisation rurale pourrait bien offrir au monde une boussole précieuse pour tracer sa route vers le développement durable. Du royaume du riz à l'agriculture de précision, du déclin rural à la renaissance des communautés, Taïwan est en train d'écrire un nouveau chapitre de la modernisation agricole.
 
 ## Pour aller plus loin
+
 - PME taïwanaises et champions discrets
 - Commerce extérieur taïwanais et chaînes d'approvisionnement mondiales

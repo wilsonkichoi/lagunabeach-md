@@ -1,6 +1,6 @@
 ---
-title: 'La cuisine de Taïwan : mémoire gustative d''une île'
-description: 'Dans un bol de soupe de bœuf se rencontrent le Sichuan et la douceur taïwanaise ; dans une perle de tapioca transparente se lit l''inventivité d''un salon de thé de Taichung et la conquête des cinq continents. La cuisine taïwanaise n''est pas qu''un festin pour les sens — c''est une histoire culturelle écrite par les papilles, qui documente quatre cents ans de rencontres, de chocs et de fusions entre peuples sur cette terre.'
+title: "La cuisine de Taïwan : mémoire gustative d'une île"
+description: "Dans un bol de soupe de bœuf se rencontrent le Sichuan et la douceur taïwanaise ; dans une perle de tapioca transparente se lit l'inventivité d'un salon de thé de Taichung et la conquête des cinq continents. La cuisine taïwanaise n'est pas qu'un festin pour les sens — c'est une histoire culturelle écrite par les papilles, qui documente quatre cents ans de rencontres, de chocs et de fusions entre peuples sur cette terre."
 date: 2026-03-20
 tags: [gastronomie, hub, cuisine taïwanaise, culture alimentaire]
 category: 'Food'

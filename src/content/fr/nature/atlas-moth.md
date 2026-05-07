@@ -132,4 +132,4 @@ Protéger l'_Attacus atlas_, c'est protéger les écosystèmes de piémont de Ta
 
 ---
 
-_L'histoire de l'_Attacus atlas_ nous rappelle qu'en ce monde en mutation accélérée, certaines beautés s'effacent en silence. Chaque rencontre dans la forêt pourrait être la dernière. Le protéger, c'est protéger notre propre demeure._
+_L'histoire de l'\_Attacus atlas_ nous rappelle qu'en ce monde en mutation accélérée, certaines beautés s'effacent en silence. Chaque rencontre dans la forêt pourrait être la dernière. Le protéger, c'est protéger notre propre demeure.\_

@@ -59,8 +59,8 @@ En fin d'année, Oh Hyuk, chanteur du groupe HYUKOH, et la mannequin Hwang Ji-mi
 
 En 2025, l'Office du tourisme de Taïwan choisissait le chanteur Super Junior Kyuhyun comme ambassadeur, sous le thème « La romance est à portée de main » [^7]. La même année, en juin, Taïwan était l'invité d'honneur de la 70e Foire internationale du livre de Séoul sous le thème « Sensibilité taïwanaise » — 23 créateurs taïwanais, 85 maisons d'édition, 550 titres, 63 événements, un pavillon de 360 m². La foire accueillit plus de 150 000 visiteurs [^8].
 
-| Plus d'un million                                   | 150 000 visiteurs                               |
-| --------------------------------------------------- | ----------------------------------------------- |
+| Plus d'un million                              | 150 000 visiteurs                                                           |
+| ---------------------------------------------- | --------------------------------------------------------------------------- |
 | Touristes coréens à Taïwan en 2024 (3e source) | Entrées au pavillon taïwanais de la Foire de Séoul 2025 (record historique) |
 
 ---

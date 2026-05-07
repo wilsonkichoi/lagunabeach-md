@@ -78,4 +78,4 @@ Culture communautaire et des villages | Les tantes du petit-déjeuner et les ré
 
 ---
 
-*Ce qui est le plus touchant dans la société taïwanaise, c'est son défi permanent à l'impossible. De l'autoritarisme à la démocratie, du conservatisme au progressisme, de l'affrontement à la réconciliation, Taïwan prouve par ses actes que le changement n'est pas seulement possible — il peut être beau, pacifique et inclusif.*
+_Ce qui est le plus touchant dans la société taïwanaise, c'est son défi permanent à l'impossible. De l'autoritarisme à la démocratie, du conservatisme au progressisme, de l'affrontement à la réconciliation, Taïwan prouve par ses actes que le changement n'est pas seulement possible — il peut être beau, pacifique et inclusif._

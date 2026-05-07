@@ -2,7 +2,8 @@
 title: "L'industrie de l'intelligence artificielle à Taïwan"
 description: "De la fabrication des puces NVIDIA à la construction d'un écosystème IA, comment Taïwan se positionne dans l'ère de l'intelligence artificielle"
 date: 2026-03-20
-tags: ['Technologie', 'IA', 'Intelligence artificielle', 'Industrie technologique']
+tags:
+  ['Technologie', 'IA', 'Intelligence artificielle', 'Industrie technologique']
 subcategory: 'Intelligence artificielle'
 category: 'Technology'
 author: 'Taiwan.md Translation Team'

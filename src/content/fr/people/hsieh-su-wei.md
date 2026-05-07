@@ -2,7 +2,15 @@
 title: 'Hsieh Su-Wei'
 description: 'Championne en double dames à Wimbledon 2013, première Taïwanaise à remporter un titre du Grand Chelem'
 date: 2026-03-19
-tags: ['Sport', 'Tennis', 'Wimbledon', 'Grand Chelem', 'Double dames', 'Tennis professionnel']
+tags:
+  [
+    'Sport',
+    'Tennis',
+    'Wimbledon',
+    'Grand Chelem',
+    'Double dames',
+    'Tennis professionnel',
+  ]
 subcategory: 'Sport'
 category: 'People'
 author: 'Taiwan.md Translation Team'

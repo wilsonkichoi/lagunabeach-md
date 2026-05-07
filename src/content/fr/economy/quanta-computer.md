@@ -46,12 +46,12 @@ Le succès fut au rendez-vous. L'iBook conquit le marché, et Quanta devint un p
 **Parts de marché ODM des ordinateurs portables en 2024 :**
 
 | Fabricant | Part de marché |
-|-----------|---------------|
-| Quanta | ~30 % |
-| Compal | ~25 % |
-| Pegatron | ~20 % |
-| Wistron | ~15 % |
-| Autres | 10 % |
+| --------- | -------------- |
+| Quanta    | ~30 %          |
+| Compal    | ~25 %          |
+| Pegatron  | ~20 %          |
+| Wistron   | ~15 %          |
+| Autres    | 10 %           |
 
 **Quanta en bref :**
 
@@ -62,11 +62,11 @@ Le succès fut au rendez-vous. L'iBook conquit le marché, et Quanta devint un p
 
 **Comparaison avec d'autres géants taïwanais :**
 
-| Entreprise | CA 2023 | Secteur |
-|-----------|---------|---------|
-| TSMC | 2 170 milliards NT$ | Fonderie de semi-conducteurs |
-| Foxconn | 6 260 milliards NT$ | Sous-traitance électronique |
-| Quanta | 1 080 milliards NT$ | ODM ordinateurs portables |
+| Entreprise | CA 2023             | Secteur                      |
+| ---------- | ------------------- | ---------------------------- |
+| TSMC       | 2 170 milliards NT$ | Fonderie de semi-conducteurs |
+| Foxconn    | 6 260 milliards NT$ | Sous-traitance électronique  |
+| Quanta     | 1 080 milliards NT$ | ODM ordinateurs portables    |
 
 Quanta n'est peut-être pas la plus grande, mais elle règne sans partage sur le segment des ordinateurs portables.
 

@@ -35,14 +35,14 @@ Cette décision a souvent été qualifiée, dans les cercles éducatifs taïwana
 La plateforme couvre l'ensemble du cursus scolaire, du primaire au lycée, avec des cours complets en mathématiques, sciences naturelles et langues — entièrement gratuits, pour toujours.
 Selon les données officielles publiées fin 2025 :[^3]
 
-| Indicateur | Chiffre |
-|---|---|
-| Utilisateurs inscrits | Plus de 5,28 millions |
-| Apprenants actifs par mois | Plus de 270 000 |
-| Vidéos disponibles | Plus de 41 000 |
-| Exercices disponibles | Plus de 108 000 |
-| Part d'écoles rurales desservies | Près de 25 % |
-| Élèves bénéficiant d'un soutien scolaire | Plus de 14 500 |
+| Indicateur                               | Chiffre               |
+| ---------------------------------------- | --------------------- |
+| Utilisateurs inscrits                    | Plus de 5,28 millions |
+| Apprenants actifs par mois               | Plus de 270 000       |
+| Vidéos disponibles                       | Plus de 41 000        |
+| Exercices disponibles                    | Plus de 108 000       |
+| Part d'écoles rurales desservies         | Près de 25 %          |
+| Élèves bénéficiant d'un soutien scolaire | Plus de 14 500        |
 
 ## La philosophie de l'apprentissage adaptatif
 
@@ -65,19 +65,26 @@ La voie qu'il a choisie n'a jamais été la plus facile. Mais en douze ans, il a
 > 📝 **Note du curateur** : Pendant que d'autres débattent encore de « réforme éducative », Lu Guan-Wei a déjà fait de cette réforme le quotidien de 270 000 utilisateurs. C'est cela, la « patience urgente » dont Taïwan a besoin.
 
 ## Pour aller plus loin
+
 - Yeh Ping-Cheng : PaGamO, une autre voie vers l'innovation pédagogique par le jeu
 - Huang Kuo-Chen : Reading Fountain, cultiver la pensée critique plutôt que la mémorisation
 - Yan Chang-Shou : du tourisme à l'éducation dans les zones rurales
 - Audrey Tang : les convergences entre gouvernance numérique et technologies éducatives
 
 ## Références et notes
+
 [^1]: Rapport d'impact annuel 2025 de la Junyi Academy Education Foundation
+
 [^2]: Article Medium de Lu Guan-Wei, « Le chevalier qui a renversé l'éducation »
+
 [^3]: Site officiel de la Junyi Academy Education Foundation, données mises à jour en décembre 2025
+
 [^4]: Ibid., données d'utilisation des outils IA
+
 [^5]: Interview dans Business Weekly, « Prendre le relais : comment Lu Guan-Wei transforme l'éducation »
 
 Liens sources :
+
 - Site officiel de la Junyi Academy : https://www.junyiacademy.org/
 - Rapport d'impact annuel 2025 : https://official.junyiacademy.org/2025-annual-report/
 - Présentation de l'équipe dirigeante : https://official.junyiacademy.org/about/team/

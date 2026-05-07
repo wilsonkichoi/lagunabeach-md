@@ -1,6 +1,6 @@
 ---
-title: 'Le Musée d''Art Contemporain Jin-Ma Bin-Guan'
-description: 'Une ancienne gare militaire de la Guerre froide, témoin d''innombrables adieux et retrouvailles, réveillée après vingt ans de sommeil par un père et sa fille — aujourd''hui classée premier musée d''art de Kaohsiung par le Lonely Planet.'
+title: "Le Musée d'Art Contemporain Jin-Ma Bin-Guan"
+description: "Une ancienne gare militaire de la Guerre froide, témoin d'innombrables adieux et retrouvailles, réveillée après vingt ans de sommeil par un père et sa fille — aujourd'hui classée premier musée d'art de Kaohsiung par le Lonely Planet."
 date: 2026-03-22
 tags: ['art contemporain', 'musée', 'Kaohsiung', 'espace culturel']
 subcategory: 'Commissariat et éducation'

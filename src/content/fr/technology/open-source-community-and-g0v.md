@@ -63,11 +63,11 @@ Ce n'était pas un projet commandé par le gouvernement à une entreprise inform
 
 Les versions les plus populaires incluaient :
 
-| Version | Créateur | Particularité |
-|---------|----------|---------------|
-| Taiwan Mask Map | Howard Wu | Interface cartographique claire et simple |
-| Est-ce qu'il reste des masques ? | kiang | Intègre les avis et horaires d'ouverture des pharmacies |
-| Où acheter des masques ? | Finjon Kiang | Prise en charge de la recherche vocale |
+| Version                          | Créateur     | Particularité                                           |
+| -------------------------------- | ------------ | ------------------------------------------------------- |
+| Taiwan Mask Map                  | Howard Wu    | Interface cartographique claire et simple               |
+| Est-ce qu'il reste des masques ? | kiang        | Intègre les avis et horaires d'ouverture des pharmacies |
+| Où acheter des masques ?         | Finjon Kiang | Prise en charge de la recherche vocale                  |
 
 En 72 heures, Taïwan disposait du système de consultation de stocks de masques le plus complet au monde. **Pendant que les habitants d'autres pays faisaient la queue pour des achats impulsifs, les Taïwanais consultaient sur leur téléphone combien de masques restaient dans la pharmacie la plus proche.**
 
@@ -91,12 +91,12 @@ Un grand hackathon a lieu tous les deux mois. Les participants proposent des id�
 
 ### Outils de collaboration
 
-| Outil | Usage |
-|-------|-------|
-| Slack | Discussions quotidiennes et partage d'informations |
-| GitHub | Gestion du code et contrôle de version |
+| Outil  | Usage                                                 |
+| ------ | ----------------------------------------------------- |
+| Slack  | Discussions quotidiennes et partage d'informations    |
+| GitHub | Gestion du code et contrôle de version                |
 | HackMD | Documents collaboratifs et comptes rendus de réunions |
-| Trello | Gestion de projet et suivi des avancements |
+| Trello | Gestion de projet et suivi des avancements            |
 
 ### Trois valeurs fondamentales
 
@@ -136,13 +136,13 @@ Après plusieurs mois de discussions en ligne et d'ateliers en présentiel, la p
 
 Les initiatives de g0v ont directement influencé les politiques gouvernementales :
 
-| Année | Résultat |
-|-------|----------|
-| 2012 | Le projet de visualisation du budget presse le gouvernement à ouvrir ses données budgétaires |
-| 2013 | Le projet de transparence parlementaire conduit à la diffusion en direct des sessions |
-| 2014 | Après le mouvement des Tournesols, le gouvernement s'engage à réviser la loi sur l'accès à l'information publique |
-| 2015 | La plateforme vTaiwan devient un canal officiel de participation à l'élaboration des politiques |
-| 2016 | Audrey Tang est nommée ministre du Numérique, portant l'expérience g0v au sein du gouvernement |
+| Année | Résultat                                                                                                          |
+| ----- | ----------------------------------------------------------------------------------------------------------------- |
+| 2012  | Le projet de visualisation du budget presse le gouvernement à ouvrir ses données budgétaires                      |
+| 2013  | Le projet de transparence parlementaire conduit à la diffusion en direct des sessions                             |
+| 2014  | Après le mouvement des Tournesols, le gouvernement s'engage à réviser la loi sur l'accès à l'information publique |
+| 2015  | La plateforme vTaiwan devient un canal officiel de participation à l'élaboration des politiques                   |
+| 2016  | Audrey Tang est nommée ministre du Numérique, portant l'expérience g0v au sein du gouvernement                    |
 
 ## Influence internationale et connexions mondiales
 
@@ -158,12 +158,12 @@ g0v est membre fondateur du réseau international **Code for All**, en coopérat
 
 Durant la crise du COVID-19 en 2020, l'expérience de la carte des masques g0v a été reprise par d'autres pays :
 
-| Pays | Adaptation |
-|------|-----------|
-| Italie | Carte des masques version Rome |
-| Allemagne | Carte des masques version Berlin |
-| États-Unis | Carte des EPI (équipements de protection individuelle) |
-| Corée du Sud | 마스크맵 (mask map) |
+| Pays         | Adaptation                                             |
+| ------------ | ------------------------------------------------------ |
+| Italie       | Carte des masques version Rome                         |
+| Allemagne    | Carte des masques version Berlin                       |
+| États-Unis   | Carte des EPI (équipements de protection individuelle) |
+| Corée du Sud | 마스크맵 (mask map)                                    |
 
 Des bénévoles g0v ont également accompagné d'autres pays dans la construction de systèmes similaires, partageant avec le monde entier l'expérience technologique de lutte contre l'épidémie développée à Taïwan.
 
@@ -216,4 +216,5 @@ La réponse est encore en train de s'écrire. Et chaque personne prête à contr
 - [Interview des créateurs de la carte des masques](https://www.ithome.com.tw/news/136038)
 
 ## Sujets connexes
+
 - Industrie des semi-conducteurs : les fondements technologiques de Taïwan

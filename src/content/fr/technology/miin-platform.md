@@ -2,7 +2,14 @@
 title: 'Miin : la plateforme qui traque les armées de faux comptes'
 description: "Conçue par le fondateur de PTT, Tu Yi-chin, Miin est une plateforme d'agrégation d'actualités propulsée par l'IA, capable de détecter les campagnes de manipulation coordonnées. Lors de la visite de Nancy Pelosi à Taïwan, ses données ont révélé qu'un compte sur quatre liés à l'événement sur Twitter était impliqué dans des opérations d'influence. Mais fin 2025, la plateforme s'est retrouvée accusée de violation de droits d'auteur après que ses robots d'indexation ont aspiré des centaines d'articles — exposant une zone grise juridique entre agrégation par IA et propriété intellectuelle de la presse."
 date: 2026-04-01
-tags: ['IA', 'désinformation', 'résilience numérique', 'Tu Yi-chin', 'guerre cognitive']
+tags:
+  [
+    'IA',
+    'désinformation',
+    'résilience numérique',
+    'Tu Yi-chin',
+    'guerre cognitive',
+  ]
 subcategory: 'Gouvernance numérique et civic tech'
 category: 'Technology'
 author: 'Taiwan.md Translation Team'

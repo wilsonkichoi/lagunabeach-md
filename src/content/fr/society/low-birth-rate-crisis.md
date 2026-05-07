@@ -1,8 +1,15 @@
 ---
-title: 'Le dernier chant de l''île : la crise de la dénatalité à Taïwan'
-description: 'Là où l''on aime le plus les enfants tout en étant le moins enclins à en avoir — derrière le taux de fécondité de 0,87, c''est tout l''édifice social de Taïwan qui se fissure'
+title: "Le dernier chant de l'île : la crise de la dénatalité à Taïwan"
+description: "Là où l'on aime le plus les enfants tout en étant le moins enclins à en avoir — derrière le taux de fécondité de 0,87, c'est tout l'édifice social de Taïwan qui se fissure"
 date: 2026-03-24
-tags: ['dénatalité', 'crise démographique', 'taux de fécondité', 'mutations sociales', 'générations']
+tags:
+  [
+    'dénatalité',
+    'crise démographique',
+    'taux de fécondité',
+    'mutations sociales',
+    'générations',
+  ]
 subcategory: 'Démographie et générations'
 category: 'Society'
 author: 'Taiwan.md Translation Team'
@@ -46,13 +53,13 @@ Que signifie ce chiffre de 0,87 ? Du point de vue du renouvellement des généra
 
 Selon les données de 2023, les cinq pays et territoires affichant les taux de fécondité les plus bas :
 
-| Rang | Pays / Territoire | Taux de fécondité |
-|------|-------------------|-------------------|
-| 1 | **Taïwan** | 0,87 |
-| 2 | **Corée du Sud** | 0,72 |
-| 3 | **Hong Kong** | 0,8 |
-| 4 | **Singapour** | 1,17 |
-| 5 | **Ukraine** | 1,22 (facteur guerre) |
+| Rang | Pays / Territoire | Taux de fécondité     |
+| ---- | ----------------- | --------------------- |
+| 1    | **Taïwan**        | 0,87                  |
+| 2    | **Corée du Sud**  | 0,72                  |
+| 3    | **Hong Kong**     | 0,8                   |
+| 4    | **Singapour**     | 1,17                  |
+| 5    | **Ukraine**       | 1,22 (facteur guerre) |
 
 À noter : abstraction faite de l'Ukraine, dont la situation s'explique par le contexte du conflit armé, les quatre premiers sont tous des sociétés sinophones. Ce n'est pas un hasard.
 

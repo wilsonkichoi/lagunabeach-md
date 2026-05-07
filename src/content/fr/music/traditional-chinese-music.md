@@ -1,8 +1,15 @@
 ---
-title: 'La musique nationale taïwanaise : des sonorités insulaires nées d''instruments chinois'
-description: 'Le erhu et le pipa traversèrent le détroit en 1949 ; soixante-dix ans plus tard, ils résonnent à Taïwan sur les harmonies à huit voix des Bunun. Retour sur la métamorphose d''une musique, passée du symbole d''une légitimité politique à une espèce musicale distincte de son homologue continental.'
+title: "La musique nationale taïwanaise : des sonorités insulaires nées d'instruments chinois"
+description: "Le erhu et le pipa traversèrent le détroit en 1949 ; soixante-dix ans plus tard, ils résonnent à Taïwan sur les harmonies à huit voix des Bunun. Retour sur la métamorphose d'une musique, passée du symbole d'une légitimité politique à une espèce musicale distincte de son homologue continental."
 date: 2026-04-03
-tags: ['musique nationale', 'musique traditionnelle', 'Orchestre national de Taipei', 'musique ethnique', 'fusion culturelle']
+tags:
+  [
+    'musique nationale',
+    'musique traditionnelle',
+    'Orchestre national de Taipei',
+    'musique ethnique',
+    'fusion culturelle',
+  ]
 subcategory: 'Musique traditionnelle'
 category: 'Music'
 author: 'Taiwan.md Translation Team'
@@ -43,7 +50,7 @@ L'Orchestre national de Taïwan (NCO) — ce nom semble aujourd'hui aller de soi
 
 En 1990, il devint « Orchestre national expérimental de guoyue », se débarrassant du nom de l'école, mais conservant le mot « expérimental ».
 
-En 2012, il prit enfin le nom de « Orchestre national de Taïwan » (NCO)[^8]. « Expérimental » avait disparu ; « Taïwan » était apparu. Ce n'était pas qu'un changement d'enseigne — avec le nom, le répertoire avait changé. Le NCO commença à commander des œuvres à thème taïwanais : *Quatre saisons de Taïwan* décrit le cycle climatique de l'île, *Franchir les crêtes — À l'écoute de la musique des Bunun* intègre des mélodies bunun dans un cadre orchestral de guoyue[^9]. « Raconter les plus belles histoires de Taïwan avec la guoyue » devint le slogan officiel — une phrase qui, en 1984, aurait été considérée comme iconoclaste.
+En 2012, il prit enfin le nom de « Orchestre national de Taïwan » (NCO)[^8]. « Expérimental » avait disparu ; « Taïwan » était apparu. Ce n'était pas qu'un changement d'enseigne — avec le nom, le répertoire avait changé. Le NCO commença à commander des œuvres à thème taïwanais : _Quatre saisons de Taïwan_ décrit le cycle climatique de l'île, _Franchir les crêtes — À l'écoute de la musique des Bunun_ intègre des mélodies bunun dans un cadre orchestral de guoyue[^9]. « Raconter les plus belles histoires de Taïwan avec la guoyue » devint le slogan officiel — une phrase qui, en 1984, aurait été considérée comme iconoclaste.
 
 > **✦** « De "expérimental" à "Taïwan", un orchestre a marché 28 ans. »
 
@@ -53,7 +60,7 @@ Mais le premier orchestre véritablement professionnel de guoyue à Taïwan n'é
 
 En 1979, le TCO fut fondé à Taipei[^10]. L'importance de cet événement : avant cela, Taïwan n'avait pas d'orchestre professionnel à plein temps dédié à la guoyue. Les interprètes enseignaient dans des écoles ou jouaient en amateurs. La fondation du TCO signifiait que « jouer de la guoyue » devenait pour la première fois à Taïwan un métier à part entière.
 
-Le tournant du TCO arriva en 2007. Le compositeur Chung Yiu-kwong prit la direction avec une question directrice : si le répertoire de l'orchestre de guoyue restait éternellement *Printemps sur la rivière une nuit de lune* et *Liang Zhu*, pourquoi le public n'écouterait-il pas simplement les versions chinoises continentales[^11] ?
+Le tournant du TCO arriva en 2007. Le compositeur Chung Yiu-kwong prit la direction avec une question directrice : si le répertoire de l'orchestre de guoyue restait éternellement _Printemps sur la rivière une nuit de lune_ et _Liang Zhu_, pourquoi le public n'écouterait-il pas simplement les versions chinoises continentales[^11] ?
 
 La solution de Chung fut de commander massivement de nouvelles œuvres à des compositeurs taïwanais, en ciblant les histoires locales. Durant ses huit années (2007–2015), la structure du répertoire du TCO passa d'une dominante d'œuvres chinoises traditionnelles à une majorité d'œuvres originales taïwanaises[^12]. Cette stratégie ne répondait pas seulement à une exigence de correction politique — elle résolvait un problème de marché réel : le public taïwanais avait besoin d'une raison d'entrer dans une salle de guoyue, et « cette pièce parle de ce qui se passe près de chez vous » était cette raison.
 
@@ -63,14 +70,14 @@ La solution de Chung fut de commander massivement de nouvelles œuvres à des co
 
 Si l'on devait choisir une personne représentant les débuts d'une « composition de guoyue à la taïwanaise », la plupart des musicologues désigneraient Su Wen-ching[^14].
 
-Su Wen-ching (né en 1958) est l'un des rares compositeurs à avoir toujours voulu raconter Taïwan avec la guoyue. Sa liste d'œuvres emblématiques est en soi une carte de l'île : *La légende du Lion des vents* s'inspire du culte des lions de pierre de Kinmen, *Taïwan, chant du souvenir* porte directement le nom de l'île, et le concerto pour liuqin *Cour après la pluie* décrit l'air qui suit les averses de la saison des pluies taïwanaise[^15].
+Su Wen-ching (né en 1958) est l'un des rares compositeurs à avoir toujours voulu raconter Taïwan avec la guoyue. Sa liste d'œuvres emblématiques est en soi une carte de l'île : _La légende du Lion des vents_ s'inspire du culte des lions de pierre de Kinmen, _Taïwan, chant du souvenir_ porte directement le nom de l'île, et le concerto pour liuqin _Cour après la pluie_ décrit l'air qui suit les averses de la saison des pluies taïwanaise[^15].
 
-« Je veux raconter l'histoire de la terre taïwanaise avec le vocabulaire de la guoyue », avait déclaré Su Wen-ching lors d'un entretien pour la revue *Chuanyi*[^16]. Entendue dans les années 2020, cette phrase ressemble à une évidence — mais dans les milieux de la guoyue des années 1980, c'était une position qui demandait du courage. L'orthodoxie de l'époque voulait que la guoyue interprète les œuvres classiques chinoises, et s'attaquer à des sujets taïwanais était perçu comme une dévalorisation.
+« Je veux raconter l'histoire de la terre taïwanaise avec le vocabulaire de la guoyue », avait déclaré Su Wen-ching lors d'un entretien pour la revue _Chuanyi_[^16]. Entendue dans les années 2020, cette phrase ressemble à une évidence — mais dans les milieux de la guoyue des années 1980, c'était une position qui demandait du courage. L'orthodoxie de l'époque voulait que la guoyue interprète les œuvres classiques chinoises, et s'attaquer à des sujets taïwanais était perçu comme une dévalorisation.
 
-La méthode de Su a une particularité : il ne se contente pas de « citer » des mélodies taïwanaises dans la guoyue, il convertit la géographie et le climat de Taïwan en structures musicales. Dans *La légende du Lion des vents*, le vent n'est pas un « vent » abstrait — c'est le vent du nord-est de l'hiver traversant les villages de pierre de Kinmen[^17]. Ce « sens du lieu » distingue ses œuvres des habituelles compositions à thème taïwanais.
+La méthode de Su a une particularité : il ne se contente pas de « citer » des mélodies taïwanaises dans la guoyue, il convertit la géographie et le climat de Taïwan en structures musicales. Dans _La légende du Lion des vents_, le vent n'est pas un « vent » abstrait — c'est le vent du nord-est de l'hiver traversant les villages de pierre de Kinmen[^17]. Ce « sens du lieu » distingue ses œuvres des habituelles compositions à thème taïwanais.
 
 > **💡 Le saviez-vous ?**
-> Le concerto pour erhu *Hirondelle* de Su Wen-ching est l'une des pièces imposées les plus souvent choisies lors des concours de guoyue à Taïwan. Pour de nombreux enfants qui apprennent la guoyue à Taïwan, c'est la première pièce soliste qu'ils travaillent vraiment sérieusement[^18].
+> Le concerto pour erhu _Hirondelle_ de Su Wen-ching est l'une des pièces imposées les plus souvent choisies lors des concours de guoyue à Taïwan. Pour de nombreux enfants qui apprennent la guoyue à Taïwan, c'est la première pièce soliste qu'ils travaillent vraiment sérieusement[^18].
 
 ## Guoyue des deux rives : le même instrument, des chansons différentes
 
@@ -78,20 +85,20 @@ Depuis 1949, les guoyue des deux rives ont chacune suivi leur chemin pendant soi
 
 **Sur le plan de la formation**, les orchestres de musique ethnique de Chine continentale penchent vers les grands effectifs — les concerts de l'Orchestre central des nationalités atteignent souvent plus d'une centaine de musiciens, à la recherche d'un volume et d'une puissance symphoniques[^19]. Les orchestres de guoyue taïwanais sont plus modestes (le TCO compte environ 70 musiciens) et accordent plus d'importance à la finesse de la musique de chambre[^20]. Ce n'est pas une question de budget, c'est un choix esthétique.
 
-**Sur le plan du style**, la musique folklorique continentale tend aux grands récits — des thèmes à forte charge politique comme *Le Fleuve Jaune* ou *La Grande Muraille* occupent depuis longtemps une place centrale[^21]. La guoyue taïwanaise a développé une texture sonore plus lyrique, plus subtile. Plusieurs musicologues taïwanais soulignent que la guoyue taïwanaise a davantage été influencée par la musique de chambre japonaise (hogaku) et par l'impressionnisme français que son homologue continentale — ce qui s'explique par les cinquante ans de présence japonaise à Taïwan et par l'occidentalisation de l'éducation après-guerre[^22].
+**Sur le plan du style**, la musique folklorique continentale tend aux grands récits — des thèmes à forte charge politique comme _Le Fleuve Jaune_ ou _La Grande Muraille_ occupent depuis longtemps une place centrale[^21]. La guoyue taïwanaise a développé une texture sonore plus lyrique, plus subtile. Plusieurs musicologues taïwanais soulignent que la guoyue taïwanaise a davantage été influencée par la musique de chambre japonaise (hogaku) et par l'impressionnisme français que son homologue continentale — ce qui s'explique par les cinquante ans de présence japonaise à Taïwan et par l'occidentalisation de l'éducation après-guerre[^22].
 
-**La différence la plus fondamentale tient au contenu.** Le répertoire de la guoyue taïwanaise comprend les harmonies à huit voix des Bunun, les chants de la fête des récoltes des Amis, les airs des Hakkas, et le *Wang Chun Feng* en taiwanese[^23]. Ces matériaux n'existent presque pas dans l'orchestre ethnique continental. Soixante-dix ans de séparation ont conduit les deux rives à se servir des mêmes instruments pour dire des choses radicalement différentes.
+**La différence la plus fondamentale tient au contenu.** Le répertoire de la guoyue taïwanaise comprend les harmonies à huit voix des Bunun, les chants de la fête des récoltes des Amis, les airs des Hakkas, et le _Wang Chun Feng_ en taiwanese[^23]. Ces matériaux n'existent presque pas dans l'orchestre ethnique continental. Soixante-dix ans de séparation ont conduit les deux rives à se servir des mêmes instruments pour dire des choses radicalement différentes.
 
 > **📝 Note curatoriale**
-> Une subtile divergence lexicale révèle une fracture identitaire : Taïwan dit *guoyue* (musique nationale), la Chine continentale dit *minyue* (abréviation de musique des nationalités), et Hong Kong dit *zhongyue* (musique chinoise)[^24]. Trois noms, trois positions identitaires. L'attachement de Taïwan au caractère *guo* (nation) est en soi une déclaration politique — même si la « nation » en question n'a plus la même réponse qu'en 1949.
+> Une subtile divergence lexicale révèle une fracture identitaire : Taïwan dit _guoyue_ (musique nationale), la Chine continentale dit _minyue_ (abréviation de musique des nationalités), et Hong Kong dit _zhongyue_ (musique chinoise)[^24]. Trois noms, trois positions identitaires. L'attachement de Taïwan au caractère _guo_ (nation) est en soi une déclaration politique — même si la « nation » en question n'a plus la même réponse qu'en 1949.
 
 ## Musique autochtone et erhu : l'expérience la plus audacieuse de la guoyue taïwanaise
 
 La caractéristique évolutive la plus singulière de la guoyue taïwanaise est d'avoir intégré les musiques des peuples autochtones de Taïwan dans son cadre orchestral.
 
-C'est musicalement assez radical. Le système tonal de la guoyue repose sur une gamme pentatonique Han, tandis que la musique des peuples autochtones taïwanais — en particulier le *pasibutbut* des Bunun (chant de prière pour une bonne récolte de millet) — utilise un système de série harmonique entièrement différent[^25]. Écrire la musique bunun pour la guoyue, ce n'est pas seulement changer de mélodie — c'est faire coexister dans une même pièce deux logiques musicales distinctes.
+C'est musicalement assez radical. Le système tonal de la guoyue repose sur une gamme pentatonique Han, tandis que la musique des peuples autochtones taïwanais — en particulier le _pasibutbut_ des Bunun (chant de prière pour une bonne récolte de millet) — utilise un système de série harmonique entièrement différent[^25]. Écrire la musique bunun pour la guoyue, ce n'est pas seulement changer de mélodie — c'est faire coexister dans une même pièce deux logiques musicales distinctes.
 
-Les récentes tentatives du NCO incluent *Franchir les crêtes — À l'écoute de la musique des Bunun* et *Où est Mauliyav ?*[^26]. Ces œuvres ne se contentent pas de faire « jouer des mélodies autochtones » par des instruments de guoyue — elles cherchent au niveau de l'arrangement à faire dialoguer deux systèmes musicaux. Les harmoniques du sheng imitent l'empilement harmonique des chœurs bunun ; le roulement du pipa reproduit la fréquence vibratoire de la guimbarde.
+Les récentes tentatives du NCO incluent _Franchir les crêtes — À l'écoute de la musique des Bunun_ et _Où est Mauliyav ?_[^26]. Ces œuvres ne se contentent pas de faire « jouer des mélodies autochtones » par des instruments de guoyue — elles cherchent au niveau de l'arrangement à faire dialoguer deux systèmes musicaux. Les harmoniques du sheng imitent l'empilement harmonique des chœurs bunun ; le roulement du pipa reproduit la fréquence vibratoire de la guimbarde.
 
 Les résultats font débat. Certains ethnomusicologues autochtones s'interrogent : « traduire » la musique des peuples autochtones avec des instruments Han, n'est-ce pas une forme d'appropriation culturelle[^27] ? D'autres estiment que si la guoyue veut véritablement devenir la musique « de Taïwan », elle doit assimiler les sons de tous les peuples de cette île, et ne plus écouter le monde uniquement avec les oreilles Han.
 
@@ -101,7 +108,7 @@ Ce débat n'a pas de conclusion, mais le débat lui-même est la preuve d'une é
 
 Le mot le plus en vogue dans le milieu de la guoyue taïwanaise depuis dix ans est « fusion ».
 
-Guoyue + effets électroniques, guoyue + improvisation jazz, guoyue + théâtre multimédia. Le TCO a monté une version comédie musicale de *La Bataille des talus*, tentant de faire partager la scène à des instruments de guoyue et à un DJ[^28]. De jeunes instrumentistes mettent sur YouTube des vidéos de erhu jouant des chansons populaires, avec des vues dépassant largement celles des enregistrements de concerts officiels.
+Guoyue + effets électroniques, guoyue + improvisation jazz, guoyue + théâtre multimédia. Le TCO a monté une version comédie musicale de _La Bataille des talus_, tentant de faire partager la scène à des instruments de guoyue et à un DJ[^28]. De jeunes instrumentistes mettent sur YouTube des vidéos de erhu jouant des chansons populaires, avec des vues dépassant largement celles des enregistrements de concerts officiels.
 
 La fusion élargit l'audience de la guoyue, mais soulève une question gênante : quand la guoyue peut se marier à tout et se mélanger à tout, qu'est-elle elle-même ?
 
@@ -149,7 +156,7 @@ Les instruments qui traversèrent le détroit en 1949 servent encore pour beauco
 
 Ce qui a changé, c'est ce qu'ils disent.
 
-Il y a soixante-dix ans, ces instruments jouaient *Printemps sur la rivière une nuit de lune* et *La Fontaine de Erquan* — le clair de lune au sud du Yangtsé et ses souffrances. Soixante-dix ans plus tard, ils jouent *La légende du Lion des vents* et *Franchir les crêtes* — la brise marine de Kinmen et les crêtes de la Chaîne centrale. Les instruments n'ont pas changé, mais ils ne se souviennent plus du son du Fleuve Jaune. Ils se souviennent du Pacifique.
+Il y a soixante-dix ans, ces instruments jouaient _Printemps sur la rivière une nuit de lune_ et _La Fontaine de Erquan_ — le clair de lune au sud du Yangtsé et ses souffrances. Soixante-dix ans plus tard, ils jouent _La légende du Lion des vents_ et _Franchir les crêtes_ — la brise marine de Kinmen et les crêtes de la Chaîne centrale. Les instruments n'ont pas changé, mais ils ne se souviennent plus du son du Fleuve Jaune. Ils se souviennent du Pacifique.
 
 La salle de répétition de l'Orchestre national de Taïwan est à Taipei. Le bruit de la ville depuis les fenêtres — moteurs de scooters, appels des marchands de nuit, jingles d'arrivée du métro — s'est infiltré dans les oreilles des compositeurs, puis a coulé des cordes du erhu. Personne n'a prescrit que la guoyue devait évoluer ainsi, mais l'air de l'île a modifié le mode de vibration des cordes.
 
@@ -169,7 +176,7 @@ La question « le "guo" de guoyue, c'est quel pays » n'a peut-être jamais eu b
 
 [^1]: [Les politiques de répertoire local promues par Chung Yiu-kwong lors de sa direction du TCO, voir le site officiel du TCO, section directeurs](https://www.tco.gov.taipei/)
 
-[^2]: Idées de localisation de Chung Yiu-kwong, voir [revue *Chuanyi* : Innovation dans la guoyue moderne, interprétant la vitalité de Taïwan](https://magazine.ncfta.gov.tw/News_Content2.aspx?n=1931&s=82130)
+[^2]: Idées de localisation de Chung Yiu-kwong, voir [revue _Chuanyi_ : Innovation dans la guoyue moderne, interprétant la vitalité de Taïwan](https://magazine.ncfta.gov.tw/News_Content2.aspx?n=1931&s=82130)
 
 [^3]: [Archives nationales : sources historiques sur le grand retrait de 1949](https://www.drnh.gov.tw/) — estimation de 1,2 à 2 millions de personnes retraitées à Taïwan
 
@@ -183,7 +190,7 @@ La question « le "guo" de guoyue, c'est quel pays » n'a peut-être jamais eu b
 
 [^8]: [Orchestre national de Taïwan — Wikipédia](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E5%9C%8B%E6%A8%82%E5%9C%98) — réforme en 2012 sous le nom de « Orchestre national de Taïwan », sous l'égide du Centre national des arts traditionnels
 
-[^9]: [NCO : productions annuelles et commandes d'œuvres](https://nco.ncfta.gov.tw/) — première de *Franchir les crêtes* en 2016
+[^9]: [NCO : productions annuelles et commandes d'œuvres](https://nco.ncfta.gov.tw/) — première de _Franchir les crêtes_ en 2016
 
 [^10]: [Site officiel du TCO : à propos du TCO](https://www.tco.gov.taipei/), fondé en 1979
 
@@ -197,11 +204,11 @@ La question « le "guo" de guoyue, c'est quel pays » n'a peut-être jamais eu b
 
 [^15]: Liste des principales œuvres de Su Wen-ching, voir [Su Wen-ching — Wikipédia](https://zh.wikipedia.org/wiki/%E8%98%87%E6%96%87%E6%85%B6)
 
-[^16]: [Revue *Chuanyi* : Innovation dans la guoyue moderne, interprétant la vitalité de Taïwan](https://magazine.ncfta.gov.tw/News_Content2.aspx?n=1931&s=82130)
+[^16]: [Revue _Chuanyi_ : Innovation dans la guoyue moderne, interprétant la vitalité de Taïwan](https://magazine.ncfta.gov.tw/News_Content2.aspx?n=1931&s=82130)
 
-[^17]: *La légende du Lion des vents* de Su Wen-ching s'inspire de la culture des lions de pierre de Kinmen, voir [base de données des portraits musicaux de Taïwan : Su Wen-ching](https://musiciantw.ncfta.gov.tw/)
+[^17]: _La légende du Lion des vents_ de Su Wen-ching s'inspire de la culture des lions de pierre de Kinmen, voir [base de données des portraits musicaux de Taïwan : Su Wen-ching](https://musiciantw.ncfta.gov.tw/)
 
-[^18]: *Hirondelle* est une pièce imposée courante dans les concours de guoyue à Taïwan, voir les annonces de pièces imposées dans les catégories guoyue des concours musicaux des différentes municipalités
+[^18]: _Hirondelle_ est une pièce imposée courante dans les concours de guoyue à Taïwan, voir les annonces de pièces imposées dans les catégories guoyue des concours musicaux des différentes municipalités
 
 [^19]: [Site officiel de l'Orchestre central des nationalités](http://www.cnso.com.cn/) — effectif d'environ 90 à 120 musiciens
 
@@ -213,11 +220,11 @@ La question « le "guo" de guoyue, c'est quel pays » n'a peut-être jamais eu b
 
 [^23]: Répertoire récent de l'Orchestre national de Taïwan, voir [les informations de programme du site officiel du NCO](https://nco.ncfta.gov.tw/)
 
-[^24]: Les contextes politiques des trois appellations *guoyue*, *minyue* et *zhongyue*, voir [Guoyue de la République de Chine — Wikipédia](https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E5%9C%8B%E6%A8%82)
+[^24]: Les contextes politiques des trois appellations _guoyue_, _minyue_ et _zhongyue_, voir [Guoyue de la République de Chine — Wikipédia](https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E5%9C%8B%E6%A8%82)
 
-[^25]: Le *pasibutbut* des Bunun est reconnu par les ethnomusicologues internationaux comme une tradition polyphonique unique, voir [les archives correspondantes de l'UNESCO](https://ich.unesco.org/)
+[^25]: Le _pasibutbut_ des Bunun est reconnu par les ethnomusicologues internationaux comme une tradition polyphonique unique, voir [les archives correspondantes de l'UNESCO](https://ich.unesco.org/)
 
-[^26]: [NCO : présentation des programmes *Franchir les crêtes* et *Où est Mauliyav ?*](https://nco.ncfta.gov.tw/)
+[^26]: [NCO : présentation des programmes _Franchir les crêtes_ et _Où est Mauliyav ?_](https://nco.ncfta.gov.tw/)
 
 [^27]: La question de l'appropriation culturelle de la musique autochtone dans la guoyue est un débat académique en cours, sans consensus établi
 

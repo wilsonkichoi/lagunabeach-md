@@ -2,7 +2,14 @@
 title: 'Ma Ying-jeou'
 description: 'Douzième et treizième président de la République de Chine, artisan du dégel des relations avec Pékin — et symbole du blocage salarial qui a sacrifié toute une génération.'
 date: 2026-03-30
-tags: ['président', 'Kuomintang', 'relations inter-détroit', 'ECFA', 'maire de Taipei']
+tags:
+  [
+    'président',
+    'Kuomintang',
+    'relations inter-détroit',
+    'ECFA',
+    'maire de Taipei',
+  ]
 subcategory: 'Politique et démocratie'
 category: 'People'
 author: 'Taiwan.md Translation Team'
@@ -102,13 +109,13 @@ Ces contradictions ne sont pas des accidents de parcours. Elles sont les différ
 
 **Chiffres clés**
 
-| Indicateur | Valeur | Contexte |
-|------------|--------|---------|
-| Score à la présidentielle 2008 | 58,45 % | L'un des meilleurs scores depuis la démocratisation |
-| Taux de satisfaction minimal | 9,2 % | Octobre 2013 — plancher historique pour un président taïwanais |
-| Durée de l'occupation du Parlement | 24 jours | Du 18 mars au 10 avril 2014 |
-| Date de la rencontre Ma-Xi | 7 novembre 2015 | Singapour — premier tête-à-tête inter-détroit depuis 1949 |
-| Lancement du programme 22K | 2009 | Arrêt en 2013 ; séquelles salariales prolongées |
+| Indicateur                         | Valeur          | Contexte                                                       |
+| ---------------------------------- | --------------- | -------------------------------------------------------------- |
+| Score à la présidentielle 2008     | 58,45 %         | L'un des meilleurs scores depuis la démocratisation            |
+| Taux de satisfaction minimal       | 9,2 %           | Octobre 2013 — plancher historique pour un président taïwanais |
+| Durée de l'occupation du Parlement | 24 jours        | Du 18 mars au 10 avril 2014                                    |
+| Date de la rencontre Ma-Xi         | 7 novembre 2015 | Singapour — premier tête-à-tête inter-détroit depuis 1949      |
+| Lancement du programme 22K         | 2009            | Arrêt en 2013 ; séquelles salariales prolongées                |
 
 ---
 

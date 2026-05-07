@@ -1,9 +1,9 @@
 ---
-title: 'Compal Electronics : le géant discret de l''ODM mondial'
-description: 'Deuxième plus grand fabricant ODM d''ordinateurs portables au monde, Compal Electronics est un acteur incontournable de l''industrie technologique taïwanaise.'
+title: "Compal Electronics : le géant discret de l'ODM mondial"
+description: "Deuxième plus grand fabricant ODM d'ordinateurs portables au monde, Compal Electronics est un acteur incontournable de l'industrie technologique taïwanaise."
 date: 2026-03-20
 tags: [Économie, Entreprises, Sous-traitance électronique, ODM]
-subcategory: 'Portraits d''entreprises'
+subcategory: "Portraits d'entreprises"
 category: 'Economy'
 author: 'Taiwan.md Translation Team'
 readingTime: 12
@@ -210,4 +210,4 @@ Dans un monde globalisé, des entreprises comme Compal — ces « champions disc
 2. Entrée Wikipédia : Compal Electronics
 3. Economic Daily News : « 33 ans de dividendes consécutifs ! Compal, la valeur de fonds de tiroir née de la sous-traitance »
 4. Données financières issues de différentes plateformes d'information boursière
-5. Rapport sectoriel : *Classement et performances des 10 premiers fabricants OEM/ODM d'ordinateurs portables en 2025*
+5. Rapport sectoriel : _Classement et performances des 10 premiers fabricants OEM/ODM d'ordinateurs portables en 2025_

@@ -12,7 +12,7 @@ lastHumanReview: true
 translatedFrom: 'Society/台灣志工文化與公益參與.md'
 ---
 
-> **En 30 secondes :** Taïwan compte plus d'un million de bénévoles enregistrés, qui contribuent collectivement plus de 120 millions d'heures de service non rémunéré chaque année. De Tzu Chi — née de 30 femmes au foyer de Hualien économisant cinq centimes par jour — aux quelque 9 000 stations de recyclage à travers l'île, en passant par les mamans conteuses dans les écoles et les équipes de portage de repas pour personnes âgées dans les quartiers : le bénévolat n'est pas une « vertu » à Taïwan, c'est une infrastructure. *(Pour les modes de mobilisation lors de catastrophes, voir « Héros à la pelle et synchronicité insulaire : la culture du bénévolat lors des catastrophes à Taïwan ».)*
+> **En 30 secondes :** Taïwan compte plus d'un million de bénévoles enregistrés, qui contribuent collectivement plus de 120 millions d'heures de service non rémunéré chaque année. De Tzu Chi — née de 30 femmes au foyer de Hualien économisant cinq centimes par jour — aux quelque 9 000 stations de recyclage à travers l'île, en passant par les mamans conteuses dans les écoles et les équipes de portage de repas pour personnes âgées dans les quartiers : le bénévolat n'est pas une « vertu » à Taïwan, c'est une infrastructure. _(Pour les modes de mobilisation lors de catastrophes, voir « Héros à la pelle et synchronicité insulaire : la culture du bénévolat lors des catastrophes à Taïwan ».)_
 
 ## L'origine : cinq centimes
 
@@ -27,14 +27,14 @@ C'est ainsi que naquit la « Fondation bouddhiste Tzu Chi pour le mérite et la 
 
 ## La naissance d'un cadre légal
 
-Le tournant pour la culture bénévole à Taïwan fut l'adoption, en 1999, de la *Loi sur le service volontaire*.
+Le tournant pour la culture bénévole à Taïwan fut l'adoption, en 1999, de la _Loi sur le service volontaire_.
 
 Avant cette loi, être bénévole relevait de la « bonté des gens bien » : aucune protection juridique, aucun système de formation, aucune assurance. Un bénévole blessé en service n'avait aucun recours. La loi fit trois choses concrètes : elle définit les droits et obligations des bénévoles, instaura un système de certification avec formation (12 heures de formation de base + formation spécialisée), et imposa aux organisations de souscrire une assurance pour leurs bénévoles.
 
 Cette loi transforma l'élan du cœur en institution. À partir de là, les bénévoles taïwanais ne furent plus seulement des âmes charitables : ils devinrent des citoyens au service de la collectivité, dotés d'un carnet de bord, d'une attestation d'heures et d'une formation professionnelle.
 
-| Plus d'1,1 million | Plus de 120 millions d'heures |
-|---|---|
+| Plus d'1,1 million                                                                                  | Plus de 120 millions d'heures    |
+| --------------------------------------------------------------------------------------------------- | -------------------------------- |
 | Bénévoles enregistrés à Taïwan (2023, statistiques du ministère de la Santé et du Bien-être social) | Total annuel d'heures de service |
 
 ## Les stations de recyclage : le plus grand réseau environnemental de base au monde
@@ -60,7 +60,7 @@ Ce mouvement s'est répandu depuis les années 1990 et couvre aujourd'hui presqu
 
 ## Des aînés qui prennent soin d'aînés
 
-En 1995, la « Fondation Old-Old (老五老) » fut créée à Taichung. Son nom s'inspire de *Mencius* : « prendre soin de ses propres parents âgés et, par extension, de ceux des autres ». 
+En 1995, la « Fondation Old-Old (老五老) » fut créée à Taichung. Son nom s'inspire de _Mencius_ : « prendre soin de ses propres parents âgés et, par extension, de ceux des autres ».
 
 Ce qui rend ce modèle particulièrement remarquable, c'est la structure de ses bénévoles : **les aidants sont eux-mêmes des personnes âgées**. Des retraités de 65 ans rendent visite à des personnes seules de 80 ans — pour un appel téléphonique de bien-être, un repas livré, une accompagnement chez le médecin. Le sentiment d'être utile améliore aussi la vie des aidants eux-mêmes. Ce modèle a depuis été repris par de nombreuses organisations sociales.
 

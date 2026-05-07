@@ -2,7 +2,14 @@
 title: 'Quand le séisme frappe, qui est de garde ? Les codes institutionnels du système de médecine de catastrophe à Taïwan'
 description: 'Du séisme de 1999 au tremblement de terre de Hualien en 2024, découvrez comment Taïwan a construit un réseau de médecine de catastrophe centré sur les urgentistes. La clé du dispositif ne réside pas dans les équipements, mais dans une question toute simple : qui est de garde ?'
 date: 2026-03-24
-tags: ['médecine de catastrophe', 'médecine d urgence', 'DMAT', 'système de santé taïwanais', 'télémédecine']
+tags:
+  [
+    'médecine de catastrophe',
+    'médecine d urgence',
+    'DMAT',
+    'système de santé taïwanais',
+    'télémédecine',
+  ]
 subcategory: 'Système de santé'
 category: 'Technology'
 author: 'Taiwan.md Translation Team'

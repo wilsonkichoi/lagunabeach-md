@@ -2,7 +2,13 @@
 title: 'Wang Yung-ching : le dieu du management'
 description: "Fondateur du groupe Formosa Plastics, il a bâti un empire pétrochimique en partant d'une simple épicerie de riz"
 date: 2026-03-19
-tags: ['entrepreneur', 'groupe Formosa Plastics', 'industrie pétrochimique', 'management']
+tags:
+  [
+    'entrepreneur',
+    'groupe Formosa Plastics',
+    'industrie pétrochimique',
+    'management',
+  ]
 subcategory: 'Technologie et entreprise'
 category: 'People'
 author: 'Taiwan.md Translation Team'

@@ -1,8 +1,15 @@
 ---
-title: 'Le Petit Homme Vert : 25 ans d''une icône passée du feu tricolore au symbole national'
-description: 'Une touriste tokyoïte s''arrête net sur un trottoir de Taipei, stupéfaite : le bonhomme du passage piéton court. En 25 ans, ce signal en apparence banal est devenu, depuis un carrefour de la rue Songzhi, un emblème culturel de Taïwan admiré dans le monde entier.'
+title: "Le Petit Homme Vert : 25 ans d'une icône passée du feu tricolore au symbole national"
+description: "Une touriste tokyoïte s'arrête net sur un trottoir de Taipei, stupéfaite : le bonhomme du passage piéton court. En 25 ans, ce signal en apparence banal est devenu, depuis un carrefour de la rue Songzhi, un emblème culturel de Taïwan admiré dans le monde entier."
 date: 2026-03-24
-tags: ['petit homme vert', 'signal piéton', 'design de la circulation', 'culture taïwanaise', 'design urbain']
+tags:
+  [
+    'petit homme vert',
+    'signal piéton',
+    'design de la circulation',
+    'culture taïwanaise',
+    'design urbain',
+  ]
 subcategory: 'Culture urbaine'
 author: 'Taiwan.md Translation Team'
 readingTime: 6

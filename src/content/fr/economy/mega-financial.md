@@ -1,9 +1,9 @@
 ---
 title: 'Mega Financial Holding : de la banque coloniale au partenaire financier mondial des entreprises taïwanaises'
-description: 'Héritière de la Banque de Taïwan fondée en 1897, renommée trois fois et fusionnée à deux reprises, Mega Financial a tissé en 127 ans un réseau dans 38 pays, devenant un acteur incontournable de l''internationalisation des entreprises taïwanaises'
+description: "Héritière de la Banque de Taïwan fondée en 1897, renommée trois fois et fusionnée à deux reprises, Mega Financial a tissé en 127 ans un réseau dans 38 pays, devenant un acteur incontournable de l'internationalisation des entreprises taïwanaises"
 date: 2026-03-20
 tags: [Économie, Entreprises, Finance, Banque publique, Finance internationale]
-subcategory: 'Portraits d''entreprises'
+subcategory: "Portraits d'entreprises"
 category: 'Economy'
 author: 'Taiwan.md Translation Team'
 readingTime: 8

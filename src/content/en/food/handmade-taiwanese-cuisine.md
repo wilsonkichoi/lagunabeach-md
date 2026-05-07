@@ -1,23 +1,23 @@
 ---
-title: "Handmade Taiwanese Cuisine"
+title: 'Handmade Taiwanese Cuisine'
 description: "From Neimen's total-pu-shi density to the human warmth of caiwei tang — Taiwan's roadside banquet culture at its heart"
 date: 2026-03-31
 tags:
-      - Taiwanese cuisine
-      - Traditional cooking
-      - Roadside banquet
-      - Handmade dishes
-      - Total-pu-shi
-      - Food culture
-subcategory: "Food Culture"
-category: "Food"
-author: "Taiwan.md Translation Team"
+  - Taiwanese cuisine
+  - Traditional cooking
+  - Roadside banquet
+  - Handmade dishes
+  - Total-pu-shi
+  - Food culture
+subcategory: 'Food Culture'
+category: 'Food'
+author: 'Taiwan.md Translation Team'
 featured: true
 lastVerified: 2026-03-31
 lastHumanReview: true
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Sanbeiji.jpg/960px-Sanbeiji.jpg"
-imageAlt: "Three-Cup Chicken"
-imageCredit: "Wikimedia Commons, CC BY-SA"
+image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Sanbeiji.jpg/960px-Sanbeiji.jpg'
+imageAlt: 'Three-Cup Chicken'
+imageCredit: 'Wikimedia Commons, CC BY-SA'
 ---
 
 # Handmade Taiwanese Cuisine

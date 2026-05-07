@@ -2,7 +2,15 @@
 title: "L'esprit open source taïwanais — des ingénieurs qui codent par passion"
 description: "Le projet open source le plus influent de Taïwan n'est pas un logiciel : c'est un groupe d'ingénieurs qui ont dit au gouvernement lors d'un hackathon : « Vous ne faites pas bien votre travail, on va le faire à votre place. »"
 date: 2026-03-29
-tags: ['open source', 'g0v', 'COSCUP', 'GitHub', 'technologie civique', 'logiciel libre']
+tags:
+  [
+    'open source',
+    'g0v',
+    'COSCUP',
+    'GitHub',
+    'technologie civique',
+    'logiciel libre',
+  ]
 subcategory: 'Communautés et culture numérique'
 author: 'Taiwan.md Translation Team'
 readingTime: 8
@@ -127,5 +135,6 @@ La communauté open source taïwanaise présente une autre particularité rare e
 ---
 
 ## Pour aller plus loin
+
 - Communautés open source et g0v
 - Histoire des migrations des communautés en ligne à Taïwan

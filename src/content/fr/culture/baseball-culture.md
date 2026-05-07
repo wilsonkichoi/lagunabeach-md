@@ -3,7 +3,16 @@ title: 'La culture du baseball à Taïwan'
 description: 'De la légende de Hongye à la sueur et aux larmes du CPBL — comment le baseball est devenu le « sport national » de Taïwan'
 date: 2026-03-18
 category: 'Culture'
-tags: ['baseball', 'CPBL', 'Hongye', 'sport national', 'sport', 'Wang Chien-ming', 'effet Ohtani']
+tags:
+  [
+    'baseball',
+    'CPBL',
+    'Hongye',
+    'sport national',
+    'sport',
+    'Wang Chien-ming',
+    'effet Ohtani',
+  ]
 subcategory: 'Culture sportive'
 author: 'Taiwan.md Translation Team'
 difficulty: 'beginner'

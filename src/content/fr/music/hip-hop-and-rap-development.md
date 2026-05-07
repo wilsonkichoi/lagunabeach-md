@@ -30,7 +30,7 @@ Ce parcours est à la fois celui d'un genre transplané et adapté, et celui d'u
 La question centrale est d'emblée linguistique : le hip-hop repose sur le rythme et les jeux de mots, et les tons du mandarin se prêtent à cela d'une façon radicalement différente de l'anglais. Les premiers amateurs du genre doivent inventer les règles pour adapter le chinois aux contraintes du flow et de la rime.
 
 **Dazhi : le défricheur du rap taïwanais :**
-Dazhi (connu pour des titres comme *Rén* et *Táikè*) est reconnu comme l'un des pionniers du rap en mandarin. Il est l'un des premiers à rapper en chinois, sans s'interdire le taïwanais ni les grossièretés, posant ainsi les bases d'un rap ancré dans le quotidien.
+Dazhi (connu pour des titres comme _Rén_ et _Táikè_) est reconnu comme l'un des pionniers du rap en mandarin. Il est l'un des premiers à rapper en chinois, sans s'interdire le taïwanais ni les grossièretés, posant ainsi les bases d'un rap ancré dans le quotidien.
 
 **Les caractéristiques de cette époque :**
 
@@ -75,9 +75,9 @@ L'arrivée de MC HotDog marque un tournant commercial décisif pour le hip-hop t
 
 **Œuvres marquantes :**
 
-- *Hán liú lái xí* (2007) : une satire acerbe de la vague coréenne
-- *Wǒ de shēnghuó* : portrait des galères du quotidien des jeunes Taïwanais
-- *Chà bù duō xiānsheng* : critique de l'indolence généralisée dans la société taïwanaise
+- _Hán liú lái xí_ (2007) : une satire acerbe de la vague coréenne
+- _Wǒ de shēnghuó_ : portrait des galères du quotidien des jeunes Taïwanais
+- _Chà bù duō xiānsheng_ : critique de l'indolence généralisée dans la société taïwanaise
 
 **Particularités musicales :**
 
@@ -128,9 +128,9 @@ MJ116 (composé de Skinny Brown, Hsiao Chun et Ta Yuan) devient le groupe hip-ho
 
 **Titres phares :**
 
-- *Fresh Game* : l'œuvre fondatrice du groupe
-- *9PM* : un tube pop en collaboration avec Chun Yan
-- *Xiāng bīn* : hymne à la vie nocturne
+- _Fresh Game_ : l'œuvre fondatrice du groupe
+- _9PM_ : un tube pop en collaboration avec Chun Yan
+- _Xiāng bīn_ : hymne à la vie nocturne
 
 **Succès commercial :**
 
@@ -153,9 +153,9 @@ Soft Lipa incarne une autre facette du rap taïwanais — celle de l'introspecti
 
 **Œuvres majeures :**
 
-- *Nǐ suǒ bù zhīdào de Dù Zhènxī zhī nèibù zhěngxiū* : une autobiographie musicale
-- *Shōulián shuǐ* : portrait délicat d'un sentiment
-- *Guòchéng* : méditation musicale sur le sens de la vie
+- _Nǐ suǒ bù zhīdào de Dù Zhènxī zhī nèibù zhěngxiū_ : une autobiographie musicale
+- _Shōulián shuǐ_ : portrait délicat d'un sentiment
+- _Guòchéng_ : méditation musicale sur le sens de la vie
 
 **Portée culturelle :**
 La réussite de Soft Lipa démontre que le rap taïwanais peut dépasser la culture de rue pour devenir une forme d'expression artistique intellectuelle.
@@ -174,9 +174,9 @@ Leo王 représente la dimension la plus expérimentale du hip-hop taïwanais :
 
 **Titres majeurs :**
 
-- *Wúbìng shēnyín* : portrait saisissant de l'état d'esprit de la jeunesse contemporaine
-- *Jiācháng yīnyuè* : poésie du quotidien
-- *Xiǎochǒu* : réflexion sur les rôles sociaux
+- _Wúbìng shēnyín_ : portrait saisissant de l'état d'esprit de la jeunesse contemporaine
+- _Jiācháng yīnyuè_ : poésie du quotidien
+- _Xiǎochǒu_ : réflexion sur les rôles sociaux
 
 **Consécration :**
 Leo王 a été nommé à plusieurs reprises aux Golden Melody Awards, remportant le prix du meilleur chanteur masculin mandarin — une première pour un artiste hip-hop dans les plus hautes distinctions de la cérémonie.
@@ -193,9 +193,9 @@ Leo王 a été nommé à plusieurs reprises aux Golden Melody Awards, remportant
 
 **Jalons importants :**
 
-- **2018** : *Wúbìng shēnyín* de Leo王 remporte le prix du meilleur album mandarin
+- **2018** : _Wúbìng shēnyín_ de Leo王 remporte le prix du meilleur album mandarin
 - **2019** : Leo王 reçoit le prix du meilleur chanteur masculin mandarin
-- **2020** : Chun Yan reçoit le prix de la meilleure parolière pour *Yàn yù*
+- **2020** : Chun Yan reçoit le prix de la meilleure parolière pour _Yàn yù_
 - **2021** : plusieurs artistes hip-hop sont nommés dans des catégories majeures
 
 ### L'évolution des critères d'évaluation
@@ -216,10 +216,10 @@ Le jury prend conscience de l'importance du hip-hop dans la culture taïwanaise 
 
 ## Les émissions de rap : un nouveau tremplin
 
-### *Rap of China* et la participation taïwanaise
+### _Rap of China_ et la participation taïwanaise
 
 **Une scène élargie au-delà du détroit :**
-Des émissions comme *Rap of China* offrent aux rappeurs taïwanais une exposition bien plus large :
+Des émissions comme _Rap of China_ offrent aux rappeurs taïwanais une exposition bien plus large :
 
 **Participants taïwanais notables :**
 
@@ -269,6 +269,7 @@ L'une des grandes singularités du hip-hop taïwanais est la diversité des lang
 - Exploitation souple de l'argot internet
 
 **Le rap en taïwanais :**
+
 - Préservation des particularités phonétiques du taïwanais
 - Recours aux proverbes et expressions idiomatiques taïwanais
 - Ancrage dans la culture locale
@@ -339,13 +340,13 @@ Les rappeurs taïwanais explorent activement les croisements entre genres :
 **Dazhi :**
 
 - L'un des fondateurs du rap taïwanais
-- Titres phares : *Rén*, *Táikè*
+- Titres phares : _Rén_, _Táikè_
 - Héritage : il a posé les bases stylistiques du genre à Taïwan
 
 **MC HotDog :**
 
 - Archétype du succès commercial
-- Titres phares : *Hán liú lái xí*, *Wǒ de shēnghuó*
+- Titres phares : _Hán liú lái xí_, _Wǒ de shēnghuó_
 - Héritage : il a fait entrer le hip-hop taïwanais dans le courant dominant
 
 **MACHI :**
@@ -359,19 +360,19 @@ Les rappeurs taïwanais explorent activement les croisements entre genres :
 **Soft Lipa :**
 
 - Figure du rap littéraire
-- Titre phare : *Nǐ suǒ bù zhīdào de Dù Zhènxī zhī nèibù zhěngxiū*
+- Titre phare : _Nǐ suǒ bù zhīdào de Dù Zhènxī zhī nèibù zhěngxiū_
 - Héritage : il a élevé le niveau artistique du rap taïwanais
 
 **MJ116 :**
 
 - Le groupe hip-hop commercialement le plus couronné de succès
-- Titres phares : *Fresh Game*, *9PM*
+- Titres phares : _Fresh Game_, _9PM_
 - Héritage : ils ont propulsé le hip-hop taïwanais vers le grand public
 
 **GorDoN :**
 
 - Figure de proue du rap en taïwanais
-- Titres phares : *Gàn dà shì*, *Dào chèn lái*
+- Titres phares : _Gàn dà shì_, _Dào chèn lái_
 - Héritage : il a contribué au développement du rap en taïwanais
 
 ### La troisième génération d'expérimentateurs
@@ -379,19 +380,19 @@ Les rappeurs taïwanais explorent activement les croisements entre genres :
 **Leo王 :**
 
 - Chef de file de la musique expérimentale
-- Titres phares : *Wúbìng shēnyín*, *Xiǎochǒu*
+- Titres phares : _Wúbìng shēnyín_, _Xiǎochǒu_
 - Héritage : consacré par les Golden Melody Awards, il a rehaussé le statut artistique du hip-hop
 
 **ØZI :**
 
 - Nouvelle génération à portée internationale
-- Album phare : *B.O.*
+- Album phare : _B.O._
 - Héritage : il établit un pont entre le hip-hop taïwanais et la scène mondiale
 
 **J.Sheon :**
 
 - Emblème de la fusion R&B/hip-hop
-- Titres phares : *Jiē tóu*, *Shū qínggē*
+- Titres phares : _Jiē tóu_, _Shū qínggē_
 - Héritage : il a ouvert de nouvelles voies à l'hybridation des genres
 
 ## L'industrie musicale et les perspectives d'avenir

@@ -316,7 +316,7 @@ La culture populaire taïwanaise entretient une relation spirituelle riche avec 
 
 - La rivière Meinong sous la plume de Zhong Lihe
 - Le Dajia dans l'œuvre de Yang Kui
-- La rivière Hualian dans le roman *Tristesse* de Wu He
+- La rivière Hualian dans le roman _Tristesse_ de Wu He
 
 ## Corridors écologiques et biodiversité
 
@@ -332,7 +332,7 @@ Les rivières relient la montagne à l'océan, formant des voies migratoires ind
 **Les espèces endémiques :**
 De nombreuses espèces de poissons d'eau douce endémiques à Taïwan peuplent ces rivières :
 
-- **Truite de Taïwan** (*Oncorhynchus masou formosanus*) : relique glaciaire du cours supérieur du Dajia
+- **Truite de Taïwan** (_Oncorhynchus masou formosanus_) : relique glaciaire du cours supérieur du Dajia
 - **Rhodeus ocellatus ocellatus** : espèce propre au Zhuoshui
 - **Varicorhinus barbatulus** : poisson d'eau douce primaire endémique à Taïwan
 

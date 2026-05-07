@@ -228,5 +228,5 @@ Dans une société démocratique, les décisions environnementales doivent repos
 - [Tao Cultural Foundation of Lanyu](http://www.teyaw.org/) — retrait des déchets nucléaires et droits des peuples autochtones
 - [Environmental Protection Administration, Executive Yuan](https://www.epa.gov.tw/) — politiques et réglementations environnementales
 - [College of Public Health, National Taiwan University](https://www.sph.ntu.edu.tw/) — recherches sur les risques sanitaires environnementaux
-- *Justice environnementale : les risques environnementaux dans les communautés vulnérables*, Du Wenling, Kaike Culture, 2012
-- *Introduction aux mouvements environnementaux à Taïwan*, He Mingxiu, Qunxue Publishers, 2006
+- _Justice environnementale : les risques environnementaux dans les communautés vulnérables_, Du Wenling, Kaike Culture, 2012
+- _Introduction aux mouvements environnementaux à Taïwan_, He Mingxiu, Qunxue Publishers, 2006

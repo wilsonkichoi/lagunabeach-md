@@ -31,12 +31,12 @@ D'un point de vue musicologique, le Pasibutbut ne comporte que quatre voix (parf
 
 > **📝 Note du curateur :** Cette technique de production collective d'harmoniques n'est pas sans rappeler le khöömii mongol. Mais le khöömii est l'art d'un soliste — le peuple Bunun y parvient en chantant à l'unisson. La difficulté est d'une tout autre nature.
 
-| Voix | Nom en langue bunun | Rôle |
-| ---- | ------------------- | ---- |
-| Basse | Mahalngal | Fondement sonore, vibration terrestre, socle de résonance |
-| Baryton | Manda | Remplissage de l'espace, densité harmonique |
-| Ténor | Bondada | Mélodie ascendante, symbolisant la pousse du millet |
-| Harmoniques | (Overtones) | Voix virtuelles issues de la résonance physique |
+| Voix        | Nom en langue bunun | Rôle                                                      |
+| ----------- | ------------------- | --------------------------------------------------------- |
+| Basse       | Mahalngal           | Fondement sonore, vibration terrestre, socle de résonance |
+| Baryton     | Manda               | Remplissage de l'espace, densité harmonique               |
+| Ténor       | Bondada             | Mélodie ascendante, symbolisant la pousse du millet       |
+| Harmoniques | (Overtones)         | Voix virtuelles issues de la résonance physique           |
 
 Isolés dans leurs forêts de montagne, les Bunun ont développé et transmis cette technique pendant des millénaires, en imitant le bruit des cascades, le bourdonnement des abeilles et le souffle du vent[^6].
 
@@ -68,7 +68,7 @@ Le jour de 1943 où Ryūtarō Hattori appuya sur le bouton d'enregistrement, il 
 
 [^1]: Wang Ying-fen, [« Entendre la colonie : Ryūtarō Hattori et l'enquête musicale taïwanaise en temps de guerre (1943) »](https://tci.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclresource&s=id=%22SA10000019079%22.&searchmode=basic&tcihsspage=tcisearch_opt1_search), Bibliothèque nationale de Taïwan, 2008
 
-[^2]: Ryūtarō Hattori, [*Musique des peuples Takasago de Taïwan*](https://www.books.com.tw/products/0010430882), Victory Records, 1974
+[^2]: Ryūtarō Hattori, [_Musique des peuples Takasago de Taïwan_](https://www.books.com.tw/products/0010430882), Victory Records, 1974
 
 [^3]: Wang Ying-fen, [« L'enquête de Ryūtarō Hattori sur la musique des peuples autochtones de Taïwan »](https://www.ntl.edu.tw/public/Attachment/9102615522190.pdf), Institut de musicologie de l'Université nationale de Taïwan, 2008
 

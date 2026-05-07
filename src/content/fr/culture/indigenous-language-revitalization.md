@@ -92,7 +92,7 @@ Plateforme d'apprentissage numérique en langue autochtone (klokah) : https://we
 
 Atlas des langues en danger de l'UNESCO : https://www.unesco.org/languages-atlas/
 
-Sources académiques en chinois : Li Taiyuan (2020) *Revitalisation des langues autochtones : politiques et pratiques*, Avanguard Publishing ; Huang Meijin (2019) *Crise et revitalisation des langues austronésiennes de Taïwan*, Institut de linguistique, Academia Sinica ; Jian Yuezhen (2021) *Le nid linguistique villageois : pratiques locales de revitalisation des langues autochtones*, National Chengchi University Press.
+Sources académiques en chinois : Li Taiyuan (2020) _Revitalisation des langues autochtones : politiques et pratiques_, Avanguard Publishing ; Huang Meijin (2019) _Crise et revitalisation des langues austronésiennes de Taïwan_, Institut de linguistique, Academia Sinica ; Jian Yuezhen (2021) _Le nid linguistique villageois : pratiques locales de revitalisation des langues autochtones_, National Chengchi University Press.
 
 **Pour aller plus loin** :
 

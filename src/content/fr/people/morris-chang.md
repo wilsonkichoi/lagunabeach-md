@@ -2,7 +2,16 @@
 title: 'Morris Chang — Le Père des semiconducteurs'
 description: "Fondateur de TSMC, Morris Chang a inventé le modèle de fonderie pure qui a reconfiguré toute l'industrie technologique mondiale"
 date: 2026-03-17
-tags: [personnalités, Morris Chang, TSMC, semiconducteurs, entrepreneur, fonderie, montagne tutélaire]
+tags:
+  [
+    personnalités,
+    Morris Chang,
+    TSMC,
+    semiconducteurs,
+    entrepreneur,
+    fonderie,
+    montagne tutélaire,
+  ]
 subcategory: 'Technologie et entreprise'
 category: 'People'
 author: 'Taiwan.md Translation Team'
@@ -22,7 +31,7 @@ Morris Chang est une figure légendaire de l'industrie technologique mondiale. F
 
 TSMC fabrique la quasi-totalité des puces avancées qui font tourner nos téléphones, nos ordinateurs et les systèmes d'intelligence artificielle. Morris Chang a créé le concept de « pure play foundry » — une usine qui ne conçoit rien mais fabrique pour tout le monde. Ce modèle a permis à des milliers d'entreprises de se concentrer sur la conception sans avoir à construire leurs propres fabs, abaissant ainsi radicalement le seuil d'entrée dans l'industrie et déclenchant une vague d'innovation sans précédent.
 
-TSMC est surnommée la « montagne tutélaire de Taïwan » (*hùguó shénshān*) — une métaphore qui dit tout de son importance stratégique. Morris Chang n'est pas simplement un entrepreneur à succès ; c'est un innovateur qui a changé la trajectoire du monde. Son histoire est celle de la vision, de la persévérance et de l'intelligence commerciale.
+TSMC est surnommée la « montagne tutélaire de Taïwan » (_hùguó shénshān_) — une métaphore qui dit tout de son importance stratégique. Morris Chang n'est pas simplement un entrepreneur à succès ; c'est un innovateur qui a changé la trajectoire du monde. Son histoire est celle de la vision, de la persévérance et de l'intelligence commerciale.
 
 ---
 
@@ -198,7 +207,7 @@ Il est aussi profondément attaché à la responsabilité sociale des entreprene
 
 - Plusieurs médailles d'honneur de l'IEEE (Institute of Electrical and Electronics Engineers)
 - Doctorats honoris causa de Stanford, MIT, de l'Université nationale Tsing Hua et d'autres établissements prestigieux
-- Figurant régulier dans les classements des personnalités les plus influentes des affaires mondiaux (*Fortune*, *BusinessWeek*)
+- Figurant régulier dans les classements des personnalités les plus influentes des affaires mondiaux (_Fortune_, _BusinessWeek_)
 - Décorations nationales taïwanaises pour sa contribution au développement économique et technologique
 - Unanimement désigné « père des semiconducteurs » par l'industrie
 

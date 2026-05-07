@@ -2,7 +2,8 @@
 title: 'Yeh Kuo-yi'
 description: "Fondateur du groupe Inventec, pionnier de l'industrie taïwanaise de la sous-traitance électronique et géant de la fabrication d'ordinateurs portables"
 date: 2026-03-19
-tags: ['Inventec', 'sous-traitance électronique', 'ODM', 'ordinateurs portables']
+tags:
+  ['Inventec', 'sous-traitance électronique', 'ODM', 'ordinateurs portables']
 subcategory: 'Technologie et entreprises'
 category: 'People'
 author: 'Taiwan.md Translation Team'

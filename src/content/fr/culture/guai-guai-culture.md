@@ -2,7 +2,13 @@
 title: 'La culture Guai Guai à Taïwan : comment un snack vert est devenu le gardien de la high-tech'
 description: "Des ordinateurs d'étudiants aux chaînes de production de TSMC, pourquoi les Taïwanais croient-ils qu'un paquet de Guai Guai vert peut faire fonctionner les machines sans accroc ?"
 date: 2026-03-21
-tags: ['culture taïwanaise', 'croyances populaires', 'industrie technologique', 'légendes urbaines']
+tags:
+  [
+    'culture taïwanaise',
+    'croyances populaires',
+    'industrie technologique',
+    'légendes urbaines',
+  ]
 subcategory: 'Culture populaire'
 category: 'Culture'
 author: 'Taiwan.md Translation Team'

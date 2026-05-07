@@ -2,7 +2,16 @@
 title: 'Dcard'
 description: "Un étudiant de Tainan, installé dans un dortoir de l'Université nationale de Taïwan, crée un site pour se faire plus facilement des amis. Ce site devient la plateforme sociale la plus influente pour les jeunes Taïwanais — tout en continuant de grandir face à la question récurrente : « Dcard est-il en train de décliner ? »"
 date: 2026-04-05
-tags: [médias sociaux, start-up taïwanaise, jeune génération, forum, anonymat, université, technologie]
+tags:
+  [
+    médias sociaux,
+    start-up taïwanaise,
+    jeune génération,
+    forum,
+    anonymat,
+    université,
+    technologie,
+  ]
 subcategory: 'Culture numérique et internet'
 category: Culture
 author: 'Taiwan.md Translation Team'
@@ -26,7 +35,7 @@ Lin Yu-chin vient de Tainan.
 
 Il raconte que, enfant, il est tombé sur une biographie de Bill Gates et a trouvé l'idée de créer une entreprise fascinante. Au moment du bac, pour éviter de rester à Tainan dans une filière médicale, il n'a volontairement pas choisi la biologie. Il est admis en gestion des systèmes d'information à l'Université nationale de Taïwan et monte seul à Taipei. En première année, il apprend le HTML et commence à construire des sites pour son département. Sa réputation se répand rapidement sur le campus : « ce gars sait coder ». Il commence à prendre des missions en freelance pour financer sa vie étudiante, débordé au point de confier une partie du travail à ses cadets.[^2]
 
-En deuxième année, il remarque un paradoxe : des étudiants vivent dans le même dortoir, fréquentent le même campus, et pourtant peinent à nouer de nouvelles amitiés. Il développe alors la première version de Dcard. Le « D » vient de *Destiny* — l'idée que certaines rencontres sont peut-être tout simplement écrites.[^3]
+En deuxième année, il remarque un paradoxe : des étudiants vivent dans le même dortoir, fréquentent le même campus, et pourtant peinent à nouer de nouvelles amitiés. Il développe alors la première version de Dcard. Le « D » vient de _Destiny_ — l'idée que certaines rencontres sont peut-être tout simplement écrites.[^3]
 
 ---
 

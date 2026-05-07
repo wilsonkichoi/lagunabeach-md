@@ -2,7 +2,15 @@
 title: 'Santé publique et système de lutte contre les épidémies à Taïwan'
 description: "En 2003, la mise en quarantaine de l'hôpital Hoping a causé la mort de 30 personnes. Dix-sept ans plus tard, lorsque la COVID-19 a déferlé sur le monde, Taïwan a tenu 18 mois sans transmission communautaire grâce aux leçons douloureuses de cette catastrophe. Comment un traumatisme collectif est devenu la mémoire immunitaire d'une île."
 date: 2026-04-08
-tags: ['santé publique', 'SRAS', 'COVID-19', 'épidémie', 'assurance maladie universelle', 'CDC Taïwan']
+tags:
+  [
+    'santé publique',
+    'SRAS',
+    'COVID-19',
+    'épidémie',
+    'assurance maladie universelle',
+    'CDC Taïwan',
+  ]
 subcategory: 'Société'
 category: 'Society'
 author: 'Taiwan.md Translation Team'
@@ -60,12 +68,12 @@ Le système de lutte contre les épidémies active les procédures standard : 33
 
 C'est précisément l'héritage du SRAS à l'œuvre : un organisme spécialisé (le CDC), un cadre légal (loi sur la prévention des maladies infectieuses), des procédures standard (traçage, médication préventive, surveillance), une information publique transparente (conférences de presse et communiqués en temps réel). Tout ce qui avait manqué à l'hôpital Hoping vingt-trois ans plus tôt est désormais en place.
 
-| SRAS 2003 | COVID-19 2020 | H7N7 2026 |
-| --- | --- | --- |
-| Commandement chaotique | CECC activé le jour même | Procédures standard activées immédiatement |
-| Quarantaine précipitée | Contrôles aux frontières anticipés | 33 personnes placées sous surveillance |
+| SRAS 2003                | COVID-19 2020                                     | H7N7 2026                                     |
+| ------------------------ | ------------------------------------------------- | --------------------------------------------- |
+| Commandement chaotique   | CECC activé le jour même                          | Procédures standard activées immédiatement    |
+| Quarantaine précipitée   | Contrôles aux frontières anticipés                | 33 personnes placées sous surveillance        |
 | Équipements insuffisants | Système de masques nominatif opérationnel en 72 h | Masques distribués immédiatement aux éleveurs |
-| Manque de transparence | Conférences de presse quotidiennes | Séquençage génomique publié en temps réel |
+| Manque de transparence   | Conférences de presse quotidiennes                | Séquençage génomique publié en temps réel     |
 
 ## L'assurance maladie : l'infrastructure invisible de la lutte épidémiologique
 

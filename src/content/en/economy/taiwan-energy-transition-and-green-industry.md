@@ -1,9 +1,17 @@
 ---
 title: "Taiwan's Energy Transition and Green Energy Industries"
-description: "From reliance on nuclear power to a diversified renewable mix, how Taiwan is reshaping its energy structure on the road to net zero by 2050"
+description: 'From reliance on nuclear power to a diversified renewable mix, how Taiwan is reshaping its energy structure on the road to net zero by 2050'
 date: 2026-03-18
 category: 'Economy'
-tags: ['energy transition', 'renewable energy', 'offshore wind', 'solar power', 'net zero 2050', 'green energy industry']
+tags:
+  [
+    'energy transition',
+    'renewable energy',
+    'offshore wind',
+    'solar power',
+    'net zero 2050',
+    'green energy industry',
+  ]
 readingTime: 12
 author: 'Taiwan.md Translation Team'
 featured: false
@@ -59,7 +67,7 @@ Taiwan's subtropical climate gives it abundant sunlight, making solar photovolta
 - **Rooftop systems**: Installed on homes and factories; new construction is increasingly required to include solar panels
 - **Ground-mounted systems**: Large-scale solar farms, but limited by scarce land availability
 - **Floating systems**: Deployed on reservoirs, flood-detention basins, and fish ponds
-- **Agrivoltaics** (*nóngyè gòngshēng* 農電共生): Combining agricultural production with solar generation to create dual revenue streams
+- **Agrivoltaics** (_nóngyè gòngshēng_ 農電共生): Combining agricultural production with solar generation to create dual revenue streams
 
 **An integrated supply chain**: Taiwan possesses a complete solar value chain—from silicon wafers and solar cells to module assembly. Companies such as Motech, United Renewable Energy (URE), and Giga Solar are competitive in international markets.
 
@@ -218,11 +226,11 @@ Taiwan's energy transition is full of challenges, but it is also creating indust
 
 ## References
 
-- [Bureau of Energy, MOEA — *Energy Statistics* (2024)](https://www.moeaea.gov.tw/)
-- [Executive Yuan — *2050 Net-Zero Emissions Pathway* (2022)](https://ncsd.ndc.gov.tw/Fore/nsdn/about0/2050Path)
-- KPMG, *2024 Green Energy Industry Development Report*
-- PwC, *2024 Global and Taiwan Power and Renewable Energy Market Report*
-- National Taiwan University Risk Society and Policy Research Center, *Analysis of Renewable Energy Development*
-- [ITRI IEK — *Green Energy Industry Technology Development Report*](https://ieknet.iek.org.tw/)
-- Environmental Information Center, *2024 Electricity and Renewable Energy Statistical Analysis* (January 2025)
-- [National Development Council — *Net-Zero Transition Key Strategic Action Plan*](https://www.ndc.gov.tw/Content_List.aspx?n=6BA5CC3D71A1BF6F)
+- [Bureau of Energy, MOEA — _Energy Statistics_ (2024)](https://www.moeaea.gov.tw/)
+- [Executive Yuan — _2050 Net-Zero Emissions Pathway_ (2022)](https://ncsd.ndc.gov.tw/Fore/nsdn/about0/2050Path)
+- KPMG, _2024 Green Energy Industry Development Report_
+- PwC, _2024 Global and Taiwan Power and Renewable Energy Market Report_
+- National Taiwan University Risk Society and Policy Research Center, _Analysis of Renewable Energy Development_
+- [ITRI IEK — _Green Energy Industry Technology Development Report_](https://ieknet.iek.org.tw/)
+- Environmental Information Center, _2024 Electricity and Renewable Energy Statistical Analysis_ (January 2025)
+- [National Development Council — _Net-Zero Transition Key Strategic Action Plan_](https://www.ndc.gov.tw/Content_List.aspx?n=6BA5CC3D71A1BF6F)

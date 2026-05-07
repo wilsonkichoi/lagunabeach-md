@@ -2,7 +2,15 @@
 title: 'Yang Chuan-kwang'
 description: "L'Homme de fer d'Asie, médaillé d'argent au décathlon des Jeux olympiques de Rome 1960, premier médaillé olympique de Taïwan"
 date: 2026-03-19
-tags: ['sport', 'athlétisme', 'jeux olympiques', 'décathlon', 'peuples autochtones', 'Amis']
+tags:
+  [
+    'sport',
+    'athlétisme',
+    'jeux olympiques',
+    'décathlon',
+    'peuples autochtones',
+    'Amis',
+  ]
 subcategory: 'Sport'
 category: 'People'
 author: 'Taiwan.md Translation Team'

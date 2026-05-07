@@ -2,7 +2,14 @@
 title: 'Traditions musicales des peuples autochtones de Taïwan'
 description: 'Plongée dans la richesse musicale des 16 peuples autochtones de Taïwan : des chants ancestraux aux instruments traditionnels, un héritage culturel millénaire'
 date: 2026-03-18
-tags: ['peuples autochtones', 'musique traditionnelle', 'transmission culturelle', 'instruments de musique', 'cérémonies']
+tags:
+  [
+    'peuples autochtones',
+    'musique traditionnelle',
+    'transmission culturelle',
+    'instruments de musique',
+    'cérémonies',
+  ]
 subcategory: 'Musique traditionnelle'
 author: 'Taiwan.md Translation Team'
 difficulty: 'intermediate'
@@ -276,9 +283,9 @@ Pour approfondir votre connaissance des traditions musicales autochtones de Taï
 ## Références
 
 - [Site officiel du Conseil des peuples autochtones](https://www.cip.gov.tw/)
-- Ming Li-kuo, *La beauté de la musique autochtone de Taïwan*, Morning Star Publishing, 2006. [Présentation de l'auteur](https://par.npac-ntch.org/tw/article/author/2656)
-- Lü Yü-hsiu, *Histoire de la musique taïwanaise*, Wu-Nan Culture, 2003. [Books.com.tw](https://www.books.com.tw/products/0010906148)
-- Hsu Chang-hui, *Ébauche d'une histoire de la musique taïwanaise*, Chuan-yin Music Score Publishing, 1991. [Sanmin.com.tw](https://www.sanmin.com.tw/product/index/000268139)
+- Ming Li-kuo, _La beauté de la musique autochtone de Taïwan_, Morning Star Publishing, 2006. [Présentation de l'auteur](https://par.npac-ntch.org/tw/article/author/2656)
+- Lü Yü-hsiu, _Histoire de la musique taïwanaise_, Wu-Nan Culture, 2003. [Books.com.tw](https://www.books.com.tw/products/0010906148)
+- Hsu Chang-hui, _Ébauche d'une histoire de la musique taïwanaise_, Chuan-yin Music Score Publishing, 1991. [Sanmin.com.tw](https://www.sanmin.com.tw/product/index/000268139)
 - [Grand dictionnaire en ligne de l'histoire, des langues et des cultures des peuples autochtones de Taïwan](http://210.240.125.35/citing/)
 - [Archives numériques de l'Institut d'ethnologie, Academia Sinica](https://c.iis.sinica.edu.tw/)
 - [Centre d'information et de bibliothèque des peuples autochtones de Taïwan](https://tiprc.apc.gov.tw/)

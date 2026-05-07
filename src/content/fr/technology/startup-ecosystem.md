@@ -2,7 +2,14 @@
 title: "L'écosystème des startups à Taïwan"
 description: "De la sous-traitance à l'innovation : comment Taïwan a bâti un écosystème entrepreneurial complet"
 date: 2026-03-19
-tags: ['startups', 'écosystème entrepreneurial', 'capital-risque', 'accélérateurs', 'incubation']
+tags:
+  [
+    'startups',
+    'écosystème entrepreneurial',
+    'capital-risque',
+    'accélérateurs',
+    'incubation',
+  ]
 subcategory: 'Startups et entrepreneuriat'
 category: 'Technology'
 author: 'Taiwan.md Translation Team'

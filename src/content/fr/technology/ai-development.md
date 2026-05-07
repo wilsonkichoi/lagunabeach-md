@@ -1,10 +1,18 @@
 ---
-title: 'L''essor d''une île IA : le développement de l''intelligence artificielle à Taïwan et sa stratégie d''avenir'
-description: 'De l''onde de choc AlphaGo à la vague de l''IA générative : comment Taïwan a trouvé une position unique dans le domaine de l''intelligence artificielle grâce à une stratégie de « petite nation, grande ambition »'
+title: "L'essor d'une île IA : le développement de l'intelligence artificielle à Taïwan et sa stratégie d'avenir"
+description: "De l'onde de choc AlphaGo à la vague de l'IA générative : comment Taïwan a trouvé une position unique dans le domaine de l'intelligence artificielle grâce à une stratégie de « petite nation, grande ambition »"
 category: 'Technology'
 date: '2026-03-19'
 author: 'Taiwan.md Translation Team'
-tags: ['intelligence artificielle', 'politique IA', 'semi-conducteurs', 'politique technologique', 'transformation numérique', 'innovation']
+tags:
+  [
+    'intelligence artificielle',
+    'politique IA',
+    'semi-conducteurs',
+    'politique technologique',
+    'transformation numérique',
+    'innovation',
+  ]
 subcategory: 'Intelligence artificielle'
 readingTime: 15
 featured: true
@@ -54,13 +62,13 @@ Le principal avantage compétitif de Taïwan dans la course à l'IA tient à ses
 
 Taïwan possède une chaîne industrielle TIC (Technologies de l'Information et de la Communication) qui couvre tout, de la conception de puces à l'intégration de systèmes. Un écosystème idéal pour industrialiser l'IA.
 
-| Maillon industriel | Entreprises représentatives | Application IA |
-| --- | --- | --- |
-| **Conception de puces** | MediaTek, Realtek | Puces IA dédiées, NPU |
-| **Fabrication de wafers** | TSMC, UMC | Puces IA en procédé avancé |
-| **Packaging et test** | ASE, Powertech | Packaging et test de puces IA |
-| **Assemblage système** | Foxconn, Quanta, Inventec | Serveurs IA, équipements edge |
-| **Logiciels et applications** | Trend Micro, III | Cybersécurité IA, applications intelligentes |
+| Maillon industriel            | Entreprises représentatives | Application IA                               |
+| ----------------------------- | --------------------------- | -------------------------------------------- |
+| **Conception de puces**       | MediaTek, Realtek           | Puces IA dédiées, NPU                        |
+| **Fabrication de wafers**     | TSMC, UMC                   | Puces IA en procédé avancé                   |
+| **Packaging et test**         | ASE, Powertech              | Packaging et test de puces IA                |
+| **Assemblage système**        | Foxconn, Quanta, Inventec   | Serveurs IA, équipements edge                |
+| **Logiciels et applications** | Trend Micro, III            | Cybersécurité IA, applications intelligentes |
 
 ## La stratégie nationale : architecture de la « petite nation, grande ambition »
 
@@ -195,12 +203,12 @@ La AI Academy de Taïwan a créé un modèle de formation unique combinant ingé
 
 Les universités taïwanaises ont rapidement créé des filières et instituts de recherche en IA.
 
-| Université | Département / Institut IA | Spécialité |
-| --- | --- | --- |
-| **Université nationale de Taïwan** | AI Research College | IA médicale, véhicules autonomes |
-| **Université nationale Tsinghua** | AI College | Conception de puces IA |
-| **NYCU (Yang Ming Chiao Tung)** | AI College | 5G + IA, transports intelligents |
-| **Université nationale Cheng Kung** | AI Systems Center | IA pour l'industrie manufacturière |
+| Université                          | Département / Institut IA | Spécialité                         |
+| ----------------------------------- | ------------------------- | ---------------------------------- |
+| **Université nationale de Taïwan**  | AI Research College       | IA médicale, véhicules autonomes   |
+| **Université nationale Tsinghua**   | AI College                | Conception de puces IA             |
+| **NYCU (Yang Ming Chiao Tung)**     | AI College                | 5G + IA, transports intelligents   |
+| **Université nationale Cheng Kung** | AI Systems Center         | IA pour l'industrie manufacturière |
 
 ### Attraction des talents internationaux
 
@@ -379,7 +387,7 @@ Voilà ce qu'est Taïwan dans l'IA : une petite nation, de grandes ambitions, et
 - Executive Yuan, [« Plan d'action IA 2.0 de Taïwan » — Livre blanc de politique publique](https://digi.nstc.gov.tw/File/7C71629D702E2D89) (2021–2024)
 - [National Science and Technology Council](https://www.nstc.gov.tw/), rapports de politique IA
 - [AI Academy de Taïwan](https://aiacademy.tw/), rapports annuels
-- *L'intelligence artificielle à Taïwan*, AI Academy (ouvrage)
+- _L'intelligence artificielle à Taïwan_, AI Academy (ouvrage)
 - Programme de recherche sur les systèmes de fabrication par intelligence artificielle, MOST
 - Industrial Technology Research Institute, [« Analyse de la situation et des tendances de l'industrie IA à Taïwan »](https://ieknet.iek.org.tw/)
 - IDC, [« Prévisions du marché IA à Taïwan, 2024–2030 »](https://www.idc.com/)

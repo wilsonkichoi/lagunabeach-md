@@ -35,14 +35,14 @@ Cette période est jalonnée de révoltes populaires — les incidents Zhu Yigui
 
 ## Chiffres et jalons clés
 
-| Événement | Date | Détail |
-|---|---|---|
-| Création du préfecture de Taïwan | 1684 | Rattachée à la province du Fujian ; trois districts : Taïwan, Fengshan, Zhuluo |
-| Assouplissement des restrictions migratoires | 1760 | Population han dépasse progressivement 2,5 millions |
-| Traité de Tianjin — ouverture des ports | 1858 | Danshui et Anping ouverts au commerce international |
-| Ouverture de Jilong et Dagou | 1863 | Deux ports supplémentaires intégrés aux échanges mondiaux |
-| Création de la province de Taïwan | 1885 | Liu Mingchuan nommé premier gouverneur (xunfu) |
-| Traité de Shimonoseki | 1895 | Taïwan et les Penghu cédés au Japon à titre perpétuel |
+| Événement                                    | Date | Détail                                                                         |
+| -------------------------------------------- | ---- | ------------------------------------------------------------------------------ |
+| Création du préfecture de Taïwan             | 1684 | Rattachée à la province du Fujian ; trois districts : Taïwan, Fengshan, Zhuluo |
+| Assouplissement des restrictions migratoires | 1760 | Population han dépasse progressivement 2,5 millions                            |
+| Traité de Tianjin — ouverture des ports      | 1858 | Danshui et Anping ouverts au commerce international                            |
+| Ouverture de Jilong et Dagou                 | 1863 | Deux ports supplémentaires intégrés aux échanges mondiaux                      |
+| Création de la province de Taïwan            | 1885 | Liu Mingchuan nommé premier gouverneur (xunfu)                                 |
+| Traité de Shimonoseki                        | 1895 | Taïwan et les Penghu cédés au Japon à titre perpétuel                          |
 
 ## Analyse approfondie
 

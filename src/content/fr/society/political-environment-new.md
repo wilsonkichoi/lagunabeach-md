@@ -3,7 +3,15 @@ title: 'Environnement politique et système électoral à Taïwan'
 description: "De l'architecture constitutionnelle aux mécanismes électoraux centraux et locaux, en passant par la culture partisane en profondeur : une analyse complète de la manière dont Taïwan maintient une société démocratique dynamique et rigoureusement institutionnalisée au sein d'une géopolitique complexe"
 date: 2026-03-18
 category: 'Society'
-tags: ['système politique', 'système électoral', 'semi-présidentialisme', 'autonomie locale', 'société civile', 'démocratie numérique']
+tags:
+  [
+    'système politique',
+    'système électoral',
+    'semi-présidentialisme',
+    'autonomie locale',
+    'société civile',
+    'démocratie numérique',
+  ]
 subcategory: 'Démocratie et politique'
 author: 'Taiwan.md Translation Team'
 difficulty: 'intermediate'
@@ -93,4 +101,4 @@ Malgré le bon fonctionnement de sa démocratie, Taïwan fait face à plusieurs 
 - [Base de données historique des élections — Commission centrale des élections](https://db.cec.gov.tw/) — données électorales depuis les années 1980
 - [Base nationale des textes juridiques — Constitution de la République de Chine](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001)
 - [g0v — Gouvernement zéro](https://g0v.tw/) — comment la technologie civique s'invite dans la politique
-- Wang Ding-ming et al., *Évolution du système électoral et du comportement de vote à Taïwan* (voir également la [revue Electoral Studies](https://jestw.nccu.edu.tw/))
+- Wang Ding-ming et al., _Évolution du système électoral et du comportement de vote à Taïwan_ (voir également la [revue Electoral Studies](https://jestw.nccu.edu.tw/))

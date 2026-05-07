@@ -1,9 +1,17 @@
 ---
-title: 'Foxconn : l''empire discret de l''électronique mondiale'
-description: 'Le plus grand sous-traitant électronique au monde, champion invisible derrière l''iPhone'
+title: "Foxconn : l'empire discret de l'électronique mondiale"
+description: "Le plus grand sous-traitant électronique au monde, champion invisible derrière l'iPhone"
 date: 2026-03-20
-tags: [Économie, Entreprise, Fabrication électronique, Sous-traitance, Foxconn, Hon Hai]
-subcategory: 'Portraits d''entreprises'
+tags:
+  [
+    Économie,
+    Entreprise,
+    Fabrication électronique,
+    Sous-traitance,
+    Foxconn,
+    Hon Hai,
+  ]
+subcategory: "Portraits d'entreprises"
 category: 'Economy'
 author: 'Taiwan.md Translation Team'
 readingTime: 8

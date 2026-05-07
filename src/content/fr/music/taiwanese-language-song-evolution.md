@@ -50,13 +50,13 @@ Ce qui fait la force du nakashi, c'est son caractère improvisé et interactif. 
 
 ### Hong Yi-feng, roi de la chanson minnan
 
-Hong Yi-feng est la figure tutélaire. Avec lui, la chanson minnan quitte les ruelles pour entrer dans l'industrie musicale officielle. En 1957, *Sī-bō͘ ê lâng* (思慕的人) s'impose comme un classique absolu : mélodie envoûtante, paroles habitées d'une tendresse profonde. Ce n'est pas seulement une belle chanson — c'est la démonstration que le minnan peut atteindre les sommets de l'art lyrique.
+Hong Yi-feng est la figure tutélaire. Avec lui, la chanson minnan quitte les ruelles pour entrer dans l'industrie musicale officielle. En 1957, _Sī-bō͘ ê lâng_ (思慕的人) s'impose comme un classique absolu : mélodie envoûtante, paroles habitées d'une tendresse profonde. Ce n'est pas seulement une belle chanson — c'est la démonstration que le minnan peut atteindre les sommets de l'art lyrique.
 
 Hong Yi-feng avait ce don rare de saisir l'émotion collective de ses compatriotes. Ses chansons parlent de gens simples, de séparations, de joies fugaces, avec des mots ordinaires qui frappent au cœur.
 
 ### Bun Ha, pionnier de la chanson d'auteur
 
-Bun Ha n'était pas seulement interprète ; il était compositeur prolifique. Ses titres *Mah-mah, chhiáⁿ lí mā pó-chong* (媽媽請你也保重) et *Hông-hun ê kò-hiong* (黃昏的故鄉) sont encore chantés aujourd'hui. Son style marie la mélodie traditionnelle et la sensibilité pop moderne, prouvant que la chanson minnan n'a rien à envier aux autres genres.
+Bun Ha n'était pas seulement interprète ; il était compositeur prolifique. Ses titres _Mah-mah, chhiáⁿ lí mā pó-chong_ (媽媽請你也保重) et _Hông-hun ê kò-hiong_ (黃昏的故鄉) sont encore chantés aujourd'hui. Son style marie la mélodie traditionnelle et la sensibilité pop moderne, prouvant que la chanson minnan n'a rien à envier aux autres genres.
 
 ### La naissance d'une industrie
 
@@ -88,7 +88,7 @@ Ses concerts affichent complet des années durant — preuve que la chanson minn
 
 ### Egg Plant Egg : l'esprit rock en minnan
 
-L'apparition d'Egg Plant Egg (茄子蛋) marque un tournant. Ce groupe allie arrangements rock et paroles en minnan avec une aisance déconcertante. *Lông-tsú huê-thâu* (浪子回頭) devient viral sur les réseaux sociaux et introduit la chanson minnan à toute une jeunesse qui ne la connaissait plus. Leur secret : parler le même langage musical que les jeunes d'aujourd'hui, avec des textes qui sonnent vrai, dans la langue qu'on entendait à la maison sans oser l'assumer.
+L'apparition d'Egg Plant Egg (茄子蛋) marque un tournant. Ce groupe allie arrangements rock et paroles en minnan avec une aisance déconcertante. _Lông-tsú huê-thâu_ (浪子回頭) devient viral sur les réseaux sociaux et introduit la chanson minnan à toute une jeunesse qui ne la connaissait plus. Leur secret : parler le même langage musical que les jeunes d'aujourd'hui, avec des textes qui sonnent vrai, dans la langue qu'on entendait à la maison sans oser l'assumer.
 
 ### Sorry Youth : l'esthétique indie au service du minnan
 
@@ -140,8 +140,8 @@ La nouvelle génération navigue entre deux exigences : se renouveler pour reste
 
 ## Références
 
-- 簡上仁 : *台灣歌謠傳奇*, Taipei : Nongxue Press
-- 莊永明 : *台灣歌謠鄉土情*, Taipei : China Times Publishing
+- 簡上仁 : _台灣歌謠傳奇_, Taipei : Nongxue Press
+- 莊永明 : _台灣歌謠鄉土情_, Taipei : China Times Publishing
 - Palmarès et archives des Golden Melody Awards : https://gma.tavis.tw/
 - Base de données de la Hong Yi-feng Music Culture Association
 - Archives de concerts et revue de presse de Chiang Hui
@@ -149,6 +149,6 @@ La nouvelle génération navigue entre deux exigences : se renouveler pour reste
 - Sorry Youth : https://sorryyouth.bandcamp.com/
 - Plateformes musicales officielles de Kollas
 - Actes du colloque de la Taiwan Minnan Music Culture Research Society
-- *Histoire de la chanson minnan taïwanaise*, éditions National Museum of Taiwan Literature
+- _Histoire de la chanson minnan taïwanaise_, éditions National Museum of Taiwan Literature
 - Base de données des émissions musicales en minnan, Hakka TV
 - Études thématiques sur la musique minnan, China Music Exchange Association

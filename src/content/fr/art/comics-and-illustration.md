@@ -18,7 +18,7 @@ translatedFrom: 'Art/台灣漫畫與插畫.md'
 
 > **En 30 secondes :** La BD taïwanaise, qui s'est épanouie à partir des années 1980, a donné naissance à deux maîtres de renommée internationale.
 > Zheng Wen est devenu en 1991 le premier non-Japonais à remporter le prix d'excellence de l'Association japonaise des auteurs de bande dessinée, salué comme le « trésor de l'Asie ».
-> En 1986, *Zhuangzi Speaks* de Tsai Chih-chung a trôné dix mois en tête des meilleures ventes, ouvrant la voie à la mise en BD de la philosophie classique.
+> En 1986, _Zhuangzi Speaks_ de Tsai Chih-chung a trôné dix mois en tête des meilleures ventes, ouvrant la voie à la mise en BD de la philosophie classique.
 > Avec la création des Golden Comic Awards en 2010 et le lancement de la plateforme CCC en 2017, la BD taïwanaise ne cesse de renouveler sa vitalité créatrice.
 
 En à peine quarante ans d'histoire, la bande dessinée taïwanaise a su s'imposer sur la scène internationale. Deux figures tutélaires — Zheng Wen et Tsai Chih-chung — ont respectivement séduit le Japon par une esthétique orientale affirmée, et conquis le monde entier en donnant vie aux classiques. Des Golden Comic Awards soutenus par les pouvoirs publics à la plateforme numérique CCC, Taïwan cherche aujourd'hui l'équilibre entre puissance créatrice et profondeur culturelle.
@@ -27,9 +27,9 @@ En à peine quarante ans d'histoire, la bande dessinée taïwanaise a su s'impos
 
 Zheng Wen (1958–2017), de son vrai nom Zheng Jinwen, est le maître incontesté de la BD taïwanaise sur la scène internationale. Il débute sa carrière en 1984, puis est invité par les éditions Kodansha à s'installer au Japon en 1990, devenant le premier auteur taïwanais à publier dans une revue de manga grand public.
 
-En 1991, son œuvre *Les Héros des Royaumes combattants* lui vaut le prix d'excellence de l'Association japonaise des auteurs de bande dessinée — une première pour un auteur non japonais depuis vingt ans. Le quotidien *Asahi Shimbun* le célèbre comme « un génie, un être hors du commun, une anomalie que le monde de la BD ne reverra pas avant vingt ans », et l'ensemble de la profession nippone le consacre « trésor de l'Asie ».
+En 1991, son œuvre _Les Héros des Royaumes combattants_ lui vaut le prix d'excellence de l'Association japonaise des auteurs de bande dessinée — une première pour un auteur non japonais depuis vingt ans. Le quotidien _Asahi Shimbun_ le célèbre comme « un génie, un être hors du commun, une anomalie que le monde de la BD ne reverra pas avant vingt ans », et l'ensemble de la profession nippone le consacre « trésor de l'Asie ».
 
-La rupture que représente Zheng Wen tient à la création d'une esthétique BD entièrement inédite. Il fusionne le geste libre de l'encre de Chine, la minutie de la peinture au trait gongbi et les effets de lumière propres à la peinture occidentale, forgeant ainsi un langage visuel oriental singulier. Chaque page des *Héros des Royaumes combattants* témoigne d'une maîtrise artistique saisissante : personnages au souffle héroïque, décors de toute beauté, et scènes de bataille d'un dynamisme inégalé.
+La rupture que représente Zheng Wen tient à la création d'une esthétique BD entièrement inédite. Il fusionne le geste libre de l'encre de Chine, la minutie de la peinture au trait gongbi et les effets de lumière propres à la peinture occidentale, forgeant ainsi un langage visuel oriental singulier. Chaque page des _Héros des Royaumes combattants_ témoigne d'une maîtrise artistique saisissante : personnages au souffle héroïque, décors de toute beauté, et scènes de bataille d'un dynamisme inégalé.
 
 Au-delà de la technique, Zheng Wen est aussi un pionnier de l'expérimentation des supports. De l'encre traditionnelle à l'infographie, de la peinture à l'huile à la composition numérique, il n'a cessé d'explorer les moyens les plus adaptés à son expression. Cet esprit d'expérimentation a maintenu la fraîcheur de son œuvre tout en ouvrant de nouvelles perspectives à l'ensemble du secteur.
 
@@ -37,11 +37,11 @@ Sa réussite porte une signification culturelle profonde. À une époque où le 
 
 ## Tsai Chih-chung : la révolution des classiques en images
 
-Le parcours de Tsai Chih-chung a connu un tournant décisif. Connu d'abord pour ses BD humoristiques telles que *Wulongyan*, il remporte en 1981 le Golden Horse Award du meilleur film d'animation avec *Seven Colors Old Master Q*. Mais ce qui lui assure une place dans l'histoire de la BD, c'est le projet qu'il lance au milieu des années 1980 : mettre en images les classiques de la pensée chinoise.
+Le parcours de Tsai Chih-chung a connu un tournant décisif. Connu d'abord pour ses BD humoristiques telles que _Wulongyan_, il remporte en 1981 le Golden Horse Award du meilleur film d'animation avec _Seven Colors Old Master Q_. Mais ce qui lui assure une place dans l'histoire de la BD, c'est le projet qu'il lance au milieu des années 1980 : mettre en images les classiques de la pensée chinoise.
 
-En 1986, il publie *Zhuangzi Speaks: The Music of Nature*, un succès fulgurant qui reste dix mois en tête des ventes et inaugure le genre de la BD philosophique. La clé de ce triomphe : avoir trouvé le pont entre philosophie classique et lecteurs contemporains, en rendant des concepts ardus accessibles grâce à un trait épuré et des dialogues pleins d'humour.
+En 1986, il publie _Zhuangzi Speaks: The Music of Nature_, un succès fulgurant qui reste dix mois en tête des ventes et inaugure le genre de la BD philosophique. La clé de ce triomphe : avoir trouvé le pont entre philosophie classique et lecteurs contemporains, en rendant des concepts ardus accessibles grâce à un trait épuré et des dialogues pleins d'humour.
 
-Fort de ce premier succès, Tsai enchaîne les classiques. À partir de 1987, il publie *Laozi Speaks*, *Liezi Speaks*, *The Art of War*, *The Sixth Patriarch's Sutra*, couvrant l'essentiel de la pensée classique chinoise. Chaque ouvrage révèle une compréhension intime du texte source — non pas une simple transposition en images, mais une expression créatrice nourrie d'une véritable appropriation.
+Fort de ce premier succès, Tsai enchaîne les classiques. À partir de 1987, il publie _Laozi Speaks_, _Liezi Speaks_, _The Art of War_, _The Sixth Patriarch's Sutra_, couvrant l'essentiel de la pensée classique chinoise. Chaque ouvrage révèle une compréhension intime du texte source — non pas une simple transposition en images, mais une expression créatrice nourrie d'une véritable appropriation.
 
 Ses œuvres ne séduisent pas seulement le lectorat sinophone : traduites en de nombreuses langues, elles circulent dans le monde entier. Sa réussite démontre que la pensée classique garde toute sa vitalité dans la société contemporaine, à condition de trouver la forme d'expression juste. Cette innovation culturelle dépasse largement le succès d'un auteur : c'est une leçon sur la transmission du patrimoine.
 

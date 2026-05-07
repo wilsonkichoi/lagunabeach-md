@@ -40,14 +40,14 @@ Là où TSMC mise tout sur les nœuds de pointe, UMC a choisi de s'enraciner dan
 
 **Données opérationnelles 2025 (source : site officiel UMC) :**
 
-| Indicateur | Valeur |
-|---|---|
-| Chiffre d'affaires annuel | 237,6 Mds TWD (≈ 7,5 Mds USD) |
-| Marge brute | 29,0 % |
-| Marge opérationnelle | 18,5 % |
-| Bénéfice par action | 3,34 TWD |
-| Effectifs (monde) | ≈ 19 500 personnes |
-| Sites de production | 6 à Taïwan, 4 en Chine continentale, 1 au Japon |
+| Indicateur                | Valeur                                          |
+| ------------------------- | ----------------------------------------------- |
+| Chiffre d'affaires annuel | 237,6 Mds TWD (≈ 7,5 Mds USD)                   |
+| Marge brute               | 29,0 %                                          |
+| Marge opérationnelle      | 18,5 %                                          |
+| Bénéfice par action       | 3,34 TWD                                        |
+| Effectifs (monde)         | ≈ 19 500 personnes                              |
+| Sites de production       | 6 à Taïwan, 4 en Chine continentale, 1 au Japon |
 
 **Position mondiale :**
 
@@ -147,6 +147,6 @@ C'est là, précisément, la qualité la plus précieuse des entreprises taïwan
 2. TrendForce — Rapport mondial sur le marché de la fonderie 2024
 3. IC Insights — « 2024 Global Foundry Market Analysis »
 4. Rapport annuel UMC 2024
-5. *L'Île technologique : histoire du développement de l'industrie des semi-conducteurs à Taïwan*, CommonWealth Education, 2023
+5. _L'Île technologique : histoire du développement de l'industrie des semi-conducteurs à Taïwan_, CommonWealth Education, 2023
 6. Statistiques sur l'industrie des semi-conducteurs, Conseil national des sciences et technologies, 2024
 7. Yahoo Finance — Données financières UMC (https://finance.yahoo.com/quote/UMC/)

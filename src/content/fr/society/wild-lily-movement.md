@@ -135,6 +135,7 @@ Et cette année-là, la réponse a commencé à prendre forme.
 - [La génération du Mouvement du Lys sauvage](https://www.books.com.tw/products/0010452131)
 
 ## Sujets connexes
+
 - Mouvement des tournesols : vingt-quatre ans plus tard, une nouvelle génération d'étudiants relance le débat institutionnel
 - Système démocratique : comment les règles démocratiques actuelles de Taïwan ont été construites étape par étape
 - Environnement politique et système électoral taïwanais : la transformation institutionnelle du Parlement éternel aux élections générales

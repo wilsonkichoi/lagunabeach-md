@@ -2,7 +2,16 @@
 title: 'La machine à dons perpétuelle : FAB DAO et le projet des Cent Sommets'
 description: "Comment un médecin reconverti a utilisé un drapeau pixelisé pour réinventer la philanthropie Web3 à Taïwan. FAB DAO et son projet des Cent Sommets redéfinissent l'acte de donner : collectionner, c'est soutenir ; l'art, c'est agir."
 date: 2026-03-24
-tags: ["NFT", "art blockchain", "innovation sociale", "philanthropie", "art génératif", "cent sommets de Taïwan", "art numérique"]
+tags:
+  [
+    'NFT',
+    'art blockchain',
+    'innovation sociale',
+    'philanthropie',
+    'art génératif',
+    'cent sommets de Taïwan',
+    'art numérique',
+  ]
 subcategory: 'art numérique'
 category: 'Art'
 author: 'Taiwan.md Translation Team'

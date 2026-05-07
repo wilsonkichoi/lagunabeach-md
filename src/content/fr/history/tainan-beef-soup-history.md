@@ -45,15 +45,15 @@ En 2017, l'expert japonais en wagyu Nakamura Satsushi analysa le génome du trou
 
 Lee Teng-hui choisit de baptiser la race « Genyuan » (_源興_), en hommage à sa maison ancestrale de Sanzhi, le manoir Genyuan. La même année, il s'associa à ses partenaires pour fonder la société de biotechnologie Genyuan Ju, chargée de piloter officiellement le programme de reproduction.
 
-| Chronologie   |                                                                                      |
-| ------------- | ------------------------------------------------------------------------------------ |
-| **1933**      | Les vaches Tajima arrivent à Keelung et sont acheminées au Troisième élevage de Wanli |
-| **1945**      | Retrait japonais ; M. Huang rachète 14 têtes et les fait pâturer à Qingtiangang      |
-| **2016**      | La Fondation Lee Teng-hui acquiert les 19 survivants et les transfère à la ferme Zhaoqing de Hualien |
+| Chronologie   |                                                                                                                                           |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **1933**      | Les vaches Tajima arrivent à Keelung et sont acheminées au Troisième élevage de Wanli                                                     |
+| **1945**      | Retrait japonais ; M. Huang rachète 14 têtes et les fait pâturer à Qingtiangang                                                           |
+| **2016**      | La Fondation Lee Teng-hui acquiert les 19 survivants et les transfère à la ferme Zhaoqing de Hualien                                      |
 | **2017**      | Un expert japonais confirme génétiquement la lignée indépendante ; création de Genyuan Ju ; la race est officiellement nommée « Genyuan » |
-| **2020**      | Genyuan Ju dépose une demande d'enregistrement de nouvelle race auprès du ministère de l'Agriculture |
-| **2024/6/17** | Approbation officielle publiée : Genyuan devient la première race bovine d'initiative privée reconnue à Taïwan |
-| **2024/11/4** | Dénomination définitive entérinée                                                    |
+| **2020**      | Genyuan Ju dépose une demande d'enregistrement de nouvelle race auprès du ministère de l'Agriculture                                      |
+| **2024/6/17** | Approbation officielle publiée : Genyuan devient la première race bovine d'initiative privée reconnue à Taïwan                            |
+| **2024/11/4** | Dénomination définitive entérinée                                                                                                         |
 
 ---
 
@@ -83,8 +83,8 @@ Pour saisir ce que représente la race Genyuan, il faut d'abord comprendre les c
 
 Selon les statistiques du ministère de l'Agriculture, les importations de bœuf à Taïwan ont atteint 172 000 tonnes en 2023, en provenance principalement des États-Unis (35 %), d'Australie (22,85 %), du Paraguay (22,81 %) et de Nouvelle-Zélande (12,46 %). La même année, la production nationale de bœuf a atteint son plus haut niveau historique avec 8 311 tonnes, soit un taux d'autosuffisance d'environ 4,6 %.
 
-| Production nationale 4,6 % → 8 311 t | Importations 95,4 % → 172 000 t      |
-| ------------------------------------- | ------------------------------------- |
+| Production nationale 4,6 % → 8 311 t               | Importations 95,4 % → 172 000 t                                             |
+| -------------------------------------------------- | --------------------------------------------------------------------------- |
 | Production annuelle de bœuf national (record 2023) | Importations annuelles de bœuf (statistiques du ministère de l'Agriculture) |
 
 Derrière ces chiffres se cache une réalité structurelle plus profonde : la majeure partie de ce « bœuf national » ne provient pas de bovins élevés spécifiquement pour la viande. Il s'agit essentiellement de vaches laitières réformées dont la production a chuté, ou de veaux mâles revendus par les laiteries. En d'autres termes, la filière bœuf taïwanaise n'est, dans sa grande majorité, qu'un sous-produit de la filière laitière.

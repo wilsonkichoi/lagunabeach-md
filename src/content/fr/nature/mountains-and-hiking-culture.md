@@ -2,7 +2,17 @@
 title: 'Montagnes de Taïwan et culture de la randonnée'
 description: '268 sommets dépassant les trois mille mètres entassés sur une île — et pourtant, les Taïwanais ont attendu un demi-siècle avant de pouvoir grimper librement leurs propres montagnes'
 date: 2026-03-18
-tags: [montagnes, culture de la randonnée, cent sommets, lac Jiaming, accidents en montagne, ouverture des forêts, Mori Ushinosuke, Lin Wen-an]
+tags:
+  [
+    montagnes,
+    culture de la randonnée,
+    cent sommets,
+    lac Jiaming,
+    accidents en montagne,
+    ouverture des forêts,
+    Mori Ushinosuke,
+    Lin Wen-an,
+  ]
 subcategory: 'Montagnes et randonnée'
 category: 'Nature'
 author: 'Taiwan.md Translation Team'

@@ -1,9 +1,16 @@
 ---
 title: 'Pegatron — le champion invisible de la sous-traitance électronique'
-description: 'Née de la scission d''Asus, cette multinationale taïwanaise assemble en coulisses vos iPhone, consoles de jeu et ordinateurs portables. Elle figure parmi les « cinq grands » de l''électronique à Taïwan.'
+description: "Née de la scission d'Asus, cette multinationale taïwanaise assemble en coulisses vos iPhone, consoles de jeu et ordinateurs portables. Elle figure parmi les « cinq grands » de l'électronique à Taïwan."
 date: 2026-03-20
-tags: [Économie, Entreprises, Sous-traitance électronique, Industrie manufacturière, ODM]
-subcategory: 'Portraits d''entreprises'
+tags:
+  [
+    Économie,
+    Entreprises,
+    Sous-traitance électronique,
+    Industrie manufacturière,
+    ODM,
+  ]
+subcategory: "Portraits d'entreprises"
 category: 'Economy'
 author: 'Taiwan.md Translation Team'
 readingTime: 8
@@ -208,11 +215,11 @@ Le statut de champion invisible de Pegatron nous rappelle que dans un monde fond
 ## Références
 
 1. Site officiel de Pegatron Corporation (https://www.pegatroncorp.com/)
-2. *Les cinq grands de l'électronique : l'influence mondiale de la sous-traitance taïwanaise*, Business Weekly Press, 2023
+2. _Les cinq grands de l'électronique : l'influence mondiale de la sous-traitance taïwanaise_, Business Weekly Press, 2023
 3. IDC, « Worldwide EMS Market Analysis », rapport annuel 2024
 4. Gartner, « Market Share Analysis: Electronics Manufacturing Services, Worldwide, 2024 »
 5. Rapports annuels de Pegatron Corporation, 2023–2024
 6. TrendForce, « Global EMS Industry Analysis », 2024
-7. *La transformation de la sous-traitance : prochaine étape pour l'industrie manufacturière taïwanaise*, CommonWealth Education Media, 2022
+7. _La transformation de la sous-traitance : prochaine étape pour l'industrie manufacturière taïwanaise_, CommonWealth Education Media, 2022
 8. Wikipédia : Pegatron (https://zh.wikipedia.org/zh-hant/和碩聯合科技)
 9. « La philosophie de management de T.H. Tung », Business Weekly, 2023

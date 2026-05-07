@@ -1,8 +1,15 @@
 ---
-title: 'Hsu Wen-long : l''entrepreneur au violon'
-description: 'Fondateur du groupe Chi Mei, entrepreneur, violoniste et collectionneur d''art — créateur du musée Chi Mei à Taïwan'
+title: "Hsu Wen-long : l'entrepreneur au violon"
+description: "Fondateur du groupe Chi Mei, entrepreneur, violoniste et collectionneur d'art — créateur du musée Chi Mei à Taïwan"
 date: 2026-03-19
-tags: ['Groupe Chi Mei', 'entrepreneur', 'musique et art', 'musée', 'rayonnement culturel']
+tags:
+  [
+    'Groupe Chi Mei',
+    'entrepreneur',
+    'musique et art',
+    'musée',
+    'rayonnement culturel',
+  ]
 subcategory: 'Technologie et entreprise'
 category: 'People'
 author: 'Taiwan.md Translation Team'

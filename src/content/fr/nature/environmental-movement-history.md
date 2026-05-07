@@ -104,5 +104,5 @@ Quarante ans après ses débuts, le mouvement environnemental taïwanais a parco
 - [Taiwan Environmental Information Association](https://e-info.org.tw/) — actualité et enjeux environnementaux
 - [Environmental Rights Foundation](https://www.erf.org.tw/) — droit de l'environnement et contentieux d'intérêt général
 - Agence de protection de l'environnement (données officielles) — qualité de l'air, gestion des déchets, etc.
-- He Ming-xiu, *Introduction au mouvement environnemental taïwanais*, Qunshe Press, 2006
-- Fan Yun et al., *Mouvement antinucléaire et société taïwanaise*, Taiwan: A Radical Quarterly in Social Studies, 2014
+- He Ming-xiu, _Introduction au mouvement environnemental taïwanais_, Qunshe Press, 2006
+- Fan Yun et al., _Mouvement antinucléaire et société taïwanaise_, Taiwan: A Radical Quarterly in Social Studies, 2014

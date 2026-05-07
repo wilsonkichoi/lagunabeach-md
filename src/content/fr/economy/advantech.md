@@ -42,21 +42,21 @@ Le portefeuille de produits d'Advantech couvre un spectre remarquablement large 
 
 ### Performances financières
 
-| Indicateur | Valeur |
-|-----------|--------|
-| Ticker boursier | 2395 (TWSE, coté depuis 1999) |
+| Indicateur                 | Valeur                               |
+| -------------------------- | ------------------------------------ |
+| Ticker boursier            | 2395 (TWSE, coté depuis 1999)        |
 | Chiffre d'affaires S1 2024 | 28,5 milliards TWD (−17 % sur un an) |
-| Marge brute | ~40,2 % (S1 2024) |
-| Bénéfice par action | 2,46 TWD (T2 2024) |
+| Marge brute                | ~40,2 % (S1 2024)                    |
+| Bénéfice par action        | 2,46 TWD (T2 2024)                   |
 
 ### Présence mondiale
 
-| Dimension | Détail |
-|-----------|--------|
-| Implantations | 27 pays |
-| Effectifs | ~9 000 personnes |
+| Dimension           | Détail                                  |
+| ------------------- | --------------------------------------- |
+| Implantations       | 27 pays                                 |
+| Effectifs           | ~9 000 personnes                        |
 | Sites de production | Linkou (Taïwan), Kunshan (Chine), Japon |
-| Siège opérationnel | Parc scientifique de Neihu, Taipei |
+| Siège opérationnel  | Parc scientifique de Neihu, Taipei      |
 
 ### Positionnement marché
 

@@ -1,9 +1,16 @@
 ---
-title: 'Uni-President Enterprises : l''empire alimentaire de Taïwan'
-description: 'Comment un enfant-ouvrier de 13 ans est devenu le fondateur d''un groupe générant 657,6 milliards de TWD de chiffre d''affaires'
+title: "Uni-President Enterprises : l'empire alimentaire de Taïwan"
+description: "Comment un enfant-ouvrier de 13 ans est devenu le fondateur d'un groupe générant 657,6 milliards de TWD de chiffre d'affaires"
 date: 2026-03-21
-tags: [Économie, Entreprises, Industrie alimentaire, Commerce de détail, Gestion de marque]
-subcategory: 'Portraits d''entreprises'
+tags:
+  [
+    Économie,
+    Entreprises,
+    Industrie alimentaire,
+    Commerce de détail,
+    Gestion de marque,
+  ]
+subcategory: "Portraits d'entreprises"
 category: 'Economy'
 author: 'Taiwan.md Translation Team'
 readingTime: 8
@@ -38,12 +45,12 @@ La percée arrive en 1987. Uni-President crée une filiale indépendante, Uni-Pr
 
 **Chiffres clés 2024 :**
 
-| Indicateur | Valeur |
-|---|---|
+| Indicateur         | Valeur                                            |
+| ------------------ | ------------------------------------------------- |
 | Chiffre d'affaires | 657,6 milliards TWD (+13,19 %, record historique) |
-| Bénéfice net | 20,67 milliards TWD (plus haut niveau en 4 ans) |
-| Effectif mondial | ~250 000 personnes (filiales comprises) |
-| Magasins 7-ELEVEN | 6 800 à Taïwan, 13 000 dans le monde |
+| Bénéfice net       | 20,67 milliards TWD (plus haut niveau en 4 ans)   |
+| Effectif mondial   | ~250 000 personnes (filiales comprises)           |
+| Magasins 7-ELEVEN  | 6 800 à Taïwan, 13 000 dans le monde              |
 
 **Position sur le marché :**
 

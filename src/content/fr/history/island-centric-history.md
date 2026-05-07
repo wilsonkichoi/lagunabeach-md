@@ -26,8 +26,8 @@ Tsao Yung-ho s'est inspiré de l'École des Annales française et de Fernand Bra
 
 Considérer Taïwan comme une « petite île » amène à lire son histoire comme une suite de victimisations passives. La voir comme un « nœud de routes commerciales » transforme cette même histoire en une série de choix actifs. Ce glissement de perspective convertit l'histoire de Taïwan d'une « chronique de la colonisation continentale » en une véritable « histoire de la civilisation maritime ».
 
-| En 400 ans | 8 régimes |
-|---|---|
+| En 400 ans                        | 8 régimes                                                                     |
+| --------------------------------- | ----------------------------------------------------------------------------- |
 | Fréquence de changement de régime | Une rupture institutionnelle et une reconstruction en moyenne tous les 50 ans |
 
 > **📝 Note de commissariat**
@@ -117,9 +117,9 @@ Sur la carte du monde, Taïwan est une petite île. Dans la densité de l'histoi
 
 ## Références
 
-- Tsao Yung-ho, « Une autre approche pour étudier l'histoire de l'île de Taïwan — le concept d'"histoire de l'île de Taïwan" », *Recherches en histoire de Taïwan*, no 10, 1990.
-- Chou Wan-yao, *Illustrated History of Taiwan: From Prehistory to 1945*, Lianjing Publishing, 1997.
-- Weng Chia-yin et Huang Yan, *Décoder l'histoire de Taïwan : 1550-1724*, Yuanliu Publishing, 2017.
+- Tsao Yung-ho, « Une autre approche pour étudier l'histoire de l'île de Taïwan — le concept d'"histoire de l'île de Taïwan" », _Recherches en histoire de Taïwan_, no 10, 1990.
+- Chou Wan-yao, _Illustrated History of Taiwan: From Prehistory to 1945_, Lianjing Publishing, 1997.
+- Weng Chia-yin et Huang Yan, _Décoder l'histoire de Taïwan : 1550-1724_, Yuanliu Publishing, 2017.
 - Blussé, Leonard. _Around and About Dutch Formosa: Essays in Honor of Ts'ao Yung-ho_. Ts'ao Yung-ho Foundation for Culture and Education, 2003. (English)
 - _Taipei Times_. "History of a Taiwan historian." August 10, 2003. (English)
 - [Taiwan.gov.tw — HISTORY](https://www.taiwan.gov.tw/content_3.php)

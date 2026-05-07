@@ -71,13 +71,13 @@ Ce qui mérite encore plus l'attention, c'est l'évolution structurelle : en 202
 
 Du « ne touchez pas aux actions » des années 1990 au « ne pas investir, c'est prendre un risque » des années 2020 : il aura fallu trente ans à la société taïwanaise pour opérer ce retournement de perspective.
 
-| 1990                                      | 2026                                          |
-| ----------------------------------------- | --------------------------------------------- |
-| 4,6 millions de comptes actifs            | 13,21 millions de comptes ouverts             |
-| Particuliers : 90 % des volumes           | Institutionnels et ETF en progression continue |
-| Tuyaux boursiers, tableaux de cotation    | Smartphone, versements programmés              |
-| Placements parallèles à 4 % par mois      | ETF à 5-8 % annualisés                        |
-| Une société clandestine ruine 160 000 personnes | Un ETF sert 2,74 millions d'épargnants  |
+| 1990                                            | 2026                                           |
+| ----------------------------------------------- | ---------------------------------------------- |
+| 4,6 millions de comptes actifs                  | 13,21 millions de comptes ouverts              |
+| Particuliers : 90 % des volumes                 | Institutionnels et ETF en progression continue |
+| Tuyaux boursiers, tableaux de cotation          | Smartphone, versements programmés              |
+| Placements parallèles à 4 % par mois            | ETF à 5-8 % annualisés                         |
+| Une société clandestine ruine 160 000 personnes | Un ETF sert 2,74 millions d'épargnants         |
 
 ## Après les 30 000 points
 

@@ -22,8 +22,8 @@ En 1984, quand le parc national de Kenting ouvre ses portes — le premier de Ta
 
 Ce qui est plus étonnant encore : ce système, le plus dense qui soit, a produit certains des retournements de situation les plus spectaculaires de l'histoire de la conservation mondiale.
 
-| 288 → 6 988                          | 200 → 16 020                      | Population doublée        |
-| ------------------------------------ | --------------------------------- | ------------------------- |
+| 288 → 6 988                          | 200 → 16 020                         | Population doublée               |
+| ------------------------------------ | ------------------------------------ | -------------------------------- |
 | Héron blanc à face noire (1989→2024) | Saumon de Formose (années 1990→2025) | Ours noirs de Taïwan (en 20 ans) |
 
 ## L'expérience de densité : comment Taïwan est devenu l'île aux parcs nationaux

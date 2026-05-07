@@ -43,7 +43,7 @@ La logique de Huang Nan-chou était simple : « Mieux vaut redéfinir les règle
 
 ## Le positionnement qui fait la différence : la « banker's bank »
 
-E.SUN aime se décrire comme une *banker's bank* — non pas au sens où elle ne servirait que des professionnels de la finance, mais au sens où elle applique à chaque client les exigences de rigueur que les banquiers s'imposent à eux-mêmes.
+E.SUN aime se décrire comme une _banker's bank_ — non pas au sens où elle ne servirait que des professionnels de la finance, mais au sens où elle applique à chaque client les exigences de rigueur que les banquiers s'imposent à eux-mêmes.
 
 Ce positionnement se traduit dans des détails concrets. Pour les cartes de crédit, par exemple : quand ses concurrents utilisaient encore des formulaires papier et des traitements manuels, E.SUN intégrait dès l'an 2000 des algorithmes d'évaluation du risque de crédit, réduisant considérablement les délais d'approbation.
 
@@ -53,13 +53,13 @@ Même soin du détail dans la conception des agences : E.SUN a analysé en profo
 
 À fin 2024, E.SUN affiche des résultats solides :
 
-| Indicateur | Chiffre |
-|---|---|
-| Total des actifs | 2 800 milliards TWD (3e groupe privé) |
-| Bénéfice net | 20,88 milliards TWD (3 premiers trimestres 2024, +31,5 % sur un an) |
-| Comptes numériques | Plus de 1,2 million |
-| Présence internationale | 9 pays et territoires |
-| Effectifs | Environ 14 500 personnes |
+| Indicateur              | Chiffre                                                             |
+| ----------------------- | ------------------------------------------------------------------- |
+| Total des actifs        | 2 800 milliards TWD (3e groupe privé)                               |
+| Bénéfice net            | 20,88 milliards TWD (3 premiers trimestres 2024, +31,5 % sur un an) |
+| Comptes numériques      | Plus de 1,2 million                                                 |
+| Présence internationale | 9 pays et territoires                                               |
+| Effectifs               | Environ 14 500 personnes                                            |
 
 Mais au-delà des chiffres, c'est la valeur de marque qui mérite attention. Brand Finance a plusieurs fois couronné E.SUN marque bancaire la plus valorisée de Taïwan — une reconnaissance qui tient autant à l'expérience client qu'aux résultats financiers.
 

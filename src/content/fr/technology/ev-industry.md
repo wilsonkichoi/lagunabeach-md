@@ -41,22 +41,22 @@ Le marché mondial du véhicule électrique affiche une progression fulgurante :
 
 **Données de marché** :
 
-| Année | Ventes mondiales |
-|-------|-----------------|
-| 2020 | 3,1 millions |
-| 2023 | 14,2 millions |
-| 2026 (estimation) | 30 millions |
+| Année             | Ventes mondiales |
+| ----------------- | ---------------- |
+| 2020              | 3,1 millions     |
+| 2023              | 14,2 millions    |
+| 2026 (estimation) | 30 millions      |
 
 **Taux de croissance annuel composé : 35 %**
 
 **Répartition géographique** :
 
-| Marché | Ventes annuelles | Part de marché |
-|--------|-----------------|----------------|
-| Chine | 8,5 millions (2023) | 60 % |
-| Union européenne | 3,1 millions | 22 % |
-| États-Unis | 1,5 million | 11 % |
-| Autres (Japon, Corée, Inde…) | 1 million | 7 % |
+| Marché                       | Ventes annuelles    | Part de marché |
+| ---------------------------- | ------------------- | -------------- |
+| Chine                        | 8,5 millions (2023) | 60 %           |
+| Union européenne             | 3,1 millions        | 22 %           |
+| États-Unis                   | 1,5 million         | 11 %           |
+| Autres (Japon, Corée, Inde…) | 1 million           | 7 %            |
 
 ### Tendances technologiques
 
@@ -223,9 +223,9 @@ Un réseau de recharge étendu est la condition sine qua non de la démocratisat
 **Objectifs de déploiement** :
 
 | Année | Nombre de bornes publiques |
-|-------|--------------------------|
-| 2025 | 7 200 |
-| 2030 | 25 000 |
+| ----- | -------------------------- |
+| 2025  | 7 200                      |
+| 2030  | 25 000                     |
 
 - Couverture des stations de charge rapide : une station tous les 20 km sur l'autoroute
 - Densité urbaine : 2 à 3 bornes par km²

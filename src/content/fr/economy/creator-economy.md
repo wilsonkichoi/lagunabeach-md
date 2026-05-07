@@ -2,7 +2,14 @@
 title: "L'économie des créateurs à Taïwan : 23 millions de personnes sur un terrain fragmenté"
 description: "Un marché qui représente moins de 1 % de celui des États-Unis, mais avec deux fois plus de plateformes — comment les créateurs taïwanais s'en sortent-ils ?"
 date: 2026-03-29
-tags: ['médias indépendants', 'économie des créateurs', 'KOL', 'influenceurs', 'marketing affilié']
+tags:
+  [
+    'médias indépendants',
+    'économie des créateurs',
+    'KOL',
+    'influenceurs',
+    'marketing affilié',
+  ]
 subcategory: 'Industrie et économie'
 author: 'Taiwan.md Translation Team'
 readingTime: 8

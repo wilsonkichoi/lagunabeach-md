@@ -3,7 +3,17 @@ title: 'Religion et croyances populaires : de la gestion de la peur à un empire
 description: 'Taïwan possède la plus forte densité de temples au monde, mais aussi le premier rang mondial en liberté religieuse — une apparente contradiction qui cache la sagesse de survie des immigrants militaires du XVIIe siècle'
 date: 2026-03-22
 category: 'Lifestyle'
-tags: [vie quotidienne, religion, Mazu, croyances populaires, culture des temples, culte des Wangye, liberté religieuse, pragmatisme]
+tags:
+  [
+    vie quotidienne,
+    religion,
+    Mazu,
+    croyances populaires,
+    culture des temples,
+    culte des Wangye,
+    liberté religieuse,
+    pragmatisme,
+  ]
 subcategory: 'Croyances et spiritualité'
 author: 'Taiwan.md Translation Team'
 readingTime: 8
@@ -21,8 +31,8 @@ Un après-midi d'automne 1995, un étudiant allemand fraîchement débarqué à 
 
 Derrière cette plaisanterie se cache le secret le plus profond de la culture religieuse taïwanaise : **la religion à Taïwan n'est pas le fruit d'une dévotion pieuse, mais l'évolution prodigieuse d'un système de gestion de la peur né au XVIIe siècle parmi les immigrants militaires.**
 
-| 15 118 temples et églises | 1 330 temples Wangye vs 672 temples Mazu | 1er rang mondial |
-| ------------------------- | ---------------------------------------- | ---------------- |
+| 15 118 temples et églises | 1 330 temples Wangye vs 672 temples Mazu  | 1er rang mondial   |
+| ------------------------- | ----------------------------------------- | ------------------ |
 | Total des lieux de culte  | Les temples Wangye dépassent ceux de Mazu | Liberté religieuse |
 
 ## La compagnie d'assurances des immigrants : un réseau de divinités né de la peur

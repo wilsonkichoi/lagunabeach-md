@@ -51,7 +51,7 @@ Mais ce « à force de regarder, on sait » est en réalité le dernier savoir-f
 
 ## Quand l'IA rencontre le buffet : 96,3 % contre l'intuition humaine
 
-En 2021, des chercheurs taïwanais ont publié un article intitulé *A Framework of Visual Checkout System Using Convolutional Neural Networks for Bento Buffet*. L'équipe a utilisé six modèles d'IA — AlexNet, VGG16, ResNet50 et autres — pour reconnaître 22 types de plats de buffet.
+En 2021, des chercheurs taïwanais ont publié un article intitulé _A Framework of Visual Checkout System Using Convolutional Neural Networks for Bento Buffet_. L'équipe a utilisé six modèles d'IA — AlexNet, VGG16, ResNet50 et autres — pour reconnaître 22 types de plats de buffet.
 
 Résultat : **96,3 % de précision, avec un temps d'identification de 0,108 seconde par image.**
 
@@ -102,13 +102,13 @@ Le roboticien du MIT Rodney Brooks l'a bien formulé : « Le bon sens humain est
 
 ### Différences fondamentales entre l'humain et l'IA
 
-| La tante du buffet | Système IA |
-| --- | --- |
-| Logique floue + jugement social | Reconnaissance précise + règles fixes |
-| Considère *qui* achète | Ne voit que *ce qui* est acheté |
-| Ajustement dynamique au contexte | Nécessite un réentraînement |
-| 30 ans d'expérience accumulée | Nécessite des milliers d'images annotées |
-| Prix en 0,5 seconde | Reconnaissance en 0,108 s, mais incapable de fixer un prix |
+| La tante du buffet               | Système IA                                                 |
+| -------------------------------- | ---------------------------------------------------------- |
+| Logique floue + jugement social  | Reconnaissance précise + règles fixes                      |
+| Considère _qui_ achète           | Ne voit que _ce qui_ est acheté                            |
+| Ajustement dynamique au contexte | Nécessite un réentraînement                                |
+| 30 ans d'expérience accumulée    | Nécessite des milliers d'images annotées                   |
+| Prix en 0,5 seconde              | Reconnaissance en 0,108 s, mais incapable de fixer un prix |
 
 ---
 

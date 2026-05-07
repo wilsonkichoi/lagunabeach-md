@@ -2,7 +2,14 @@
 title: "L'industrie audio à Taïwan : du sous-traitant à l'innovateur"
 description: "De la sous-traitance OEM aux marques propres, la maîtrise technique de l'industrie audio taïwanaise et sa place sur le marché mondial"
 date: 2026-03-19
-tags: ['industrie audio', 'fabrication électronique', 'technologie acoustique', 'Hi-Fi', 'audio professionnel']
+tags:
+  [
+    'industrie audio',
+    'fabrication électronique',
+    'technologie acoustique',
+    'Hi-Fi',
+    'audio professionnel',
+  ]
 subcategory: 'Industrie audio'
 category: 'Technology'
 author: 'Taiwan.md Translation Team'
@@ -322,8 +329,8 @@ En réussissant cette transformation, l'industrie audio taïwanaise a toutes les
 
 ## Références
 
-- Ministère des Affaires économiques, Bureau de l'industrie, *Livre blanc sur le développement de l'industrie audio*
-- Institut de recherche industrielle (ITRI), IEK, [*Analyse des tendances de l'industrie audio*](https://ieknet.iek.org.tw/)
-- Association des industries électriques et électroniques de Taïwan, *Annuaire de l'industrie audio*
+- Ministère des Affaires économiques, Bureau de l'industrie, _Livre blanc sur le développement de l'industrie audio_
+- Institut de recherche industrielle (ITRI), IEK, [_Analyse des tendances de l'industrie audio_](https://ieknet.iek.org.tw/)
+- Association des industries électriques et électroniques de Taïwan, _Annuaire de l'industrie audio_
 - Rapports annuels de [Merry Electronics](https://www.merry.com.tw/), Creative Technology et autres entreprises du secteur
 - [Audio Engineering Society](https://www.aes.org/) — documents techniques de la section Taïwan

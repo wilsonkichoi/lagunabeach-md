@@ -2,7 +2,15 @@
 title: 'Chen Shui-bian'
 description: 'Dixième et onzième président de Taïwan, artisan de la première alternance démocratique en 2000, initiateur de la loi sur le référendum et de la loi fondamentale sur les peuples autochtones'
 date: 2026-03-30
-tags: ['président', 'alternance démocratique', 'DPP', 'maire de Taipei', 'démocratisation', 'législation des droits humains']
+tags:
+  [
+    'président',
+    'alternance démocratique',
+    'DPP',
+    'maire de Taipei',
+    'démocratisation',
+    'législation des droits humains',
+  ]
 subcategory: 'Politique et démocratie'
 category: 'People'
 author: 'Taiwan.md Translation Team'
@@ -58,11 +66,11 @@ Le Kuomintang se fracture de l'intérieur : le candidat officiel Lien Chan et le
 
 > 📊 **Résultats de l'élection présidentielle de 2000**
 >
-> | Candidat | Parti | Voix | Score |
-> |---------|-------|------|-------|
+> | Candidat       | Parti                        | Voix      | Score   |
+> | -------------- | ---------------------------- | --------- | ------- |
 > | Chen Shui-bian | Parti démocrate progressiste | 4 977 697 | 39,30 % |
-> | James Soong | Indépendant | 4 664 972 | 36,84 % |
-> | Lien Chan | Kuomintang | 2 925 513 | 23,10 % |
+> | James Soong    | Indépendant                  | 4 664 972 | 36,84 % |
+> | Lien Chan      | Kuomintang                   | 2 925 513 | 23,10 % |
 >
 > _Source : Commission centrale des élections_
 

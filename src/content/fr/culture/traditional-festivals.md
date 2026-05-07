@@ -44,12 +44,12 @@ Dans les années 1980, certains commencent à assembler des milliers de ces fus�
 
 **La fête aujourd'hui** : une forteresse peut contenir plusieurs centaines de milliers de pétards-abeilles. Les participants doivent se couvrir de la tête aux pieds avec des équipements de protection, et s'exposer à ce « bombardement » de fusées comme une forme de bénédiction divine. Discovery Channel l'a classée parmi les « dix fêtes les plus dangereuses du monde ».
 
-| Époque | Type de pétards | Niveau de danger | Statut |
-| ------ | --------------- | ---------------- | ------ |
-| 1885 | Pétards traditionnels | Faible | Rituel local anti-épidémie |
-| 1945 | Pétards-abeilles (ogives papier) | Moyen | Événement folklorique local |
-| 1984 | Pétards-abeilles (ogives plastique) + forteresses | Élevé | Célébration reconnue à Taïwan |
-| années 2000 | Batteries de forteresses à plusieurs centaines de milliers de pétards | Extrême | Fête à réputation mondiale |
+| Époque      | Type de pétards                                                       | Niveau de danger | Statut                        |
+| ----------- | --------------------------------------------------------------------- | ---------------- | ----------------------------- |
+| 1885        | Pétards traditionnels                                                 | Faible           | Rituel local anti-épidémie    |
+| 1945        | Pétards-abeilles (ogives papier)                                      | Moyen            | Événement folklorique local   |
+| 1984        | Pétards-abeilles (ogives plastique) + forteresses                     | Élevé            | Célébration reconnue à Taïwan |
+| années 2000 | Batteries de forteresses à plusieurs centaines de milliers de pétards | Extrême          | Fête à réputation mondiale    |
 
 > **✦** « Les pétards qu'on allumait jadis pour survivre à la maladie sont devenus aujourd'hui une aventure qu'on cherche pour le frisson. La peur de la mort s'est transformée en célébration de la vie. »
 

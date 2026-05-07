@@ -2,7 +2,17 @@
 title: "Le système éducatif taïwanais : de l'enfer du concours unique au labyrinthe du pluralisme"
 description: "Taïwan a passé trente ans à vouloir démanteler son concours d'entrée à l'université — et la toute dernière réforme a fait doubler les inscriptions dans les classes de redoublement. Comment une île oscille-t-elle indéfiniment entre pression scolaire et équité éducative ?"
 date: 2026-03-23
-tags: [éducation, concours, lycée, cours particuliers, enseignement professionnel, PISA, système scolaire, réforme éducative]
+tags:
+  [
+    éducation,
+    concours,
+    lycée,
+    cours particuliers,
+    enseignement professionnel,
+    PISA,
+    système scolaire,
+    réforme éducative,
+  ]
 subcategory: 'Éducation'
 category: 'Lifestyle'
 author: 'Taiwan.md Translation Team'
@@ -26,7 +36,7 @@ En 1954, Taïwan instaure un système national de recrutement unifié pour l'ent
 
 Sa logique était d'une limpidité absolue : l'équité, c'est une règle commune ; la chance, c'est le mérite mesuré par la note. Que l'on vienne du quartier huppé de Xinyi à Taipei ou d'un village reculé du Pingtung, on s'asseyait dans la même salle d'examen, on recevait le même sujet, et au soir on savait dans quelle université on allait. Pas de passe-droits, pas de favoritisme — juste le travail et le talent.
 
-Mais cette « équité » avait un coût humain considérable. En 1996, le magazine *Taiwan Panorama* soulignait que le concours unique « évaluait les candidats sur un nombre restreint de matières », poussant les élèves à « négliger l'éducation artistique, physique et sociale au profit du pur intellectuel » et à « perdre toute liberté personnelle ». Surtout, il avait engendré la culture des cours privés, propre à Taïwan.
+Mais cette « équité » avait un coût humain considérable. En 1996, le magazine _Taiwan Panorama_ soulignait que le concours unique « évaluait les candidats sur un nombre restreint de matières », poussant les élèves à « négliger l'éducation artistique, physique et sociale au profit du pur intellectuel » et à « perdre toute liberté personnelle ». Surtout, il avait engendré la culture des cours privés, propre à Taïwan.
 
 ### La légende de la rue Nanyang : une armée de 100 000 redoublants
 
@@ -41,15 +51,15 @@ Zhang Haoran, secrétaire général de l'Association des centres de cours privé
 
 ## La réforme éducative : l'idéal du pluralisme (1994–2019)
 
-En 1994, la réforme éducative lance le projet de « diversification des voies d'accès ». Recommandations, candidatures sur dossier, Test de compétences académiques (學測, *xuece*), Examen national d'admission sur matières désignées (指考, *zhikao*) — plusieurs portes d'entrée s'ouvrent pour que les élèves ne soient plus condamnés à tout miser sur une seule épreuve.
+En 1994, la réforme éducative lance le projet de « diversification des voies d'accès ». Recommandations, candidatures sur dossier, Test de compétences académiques (學測, _xuece_), Examen national d'admission sur matières désignées (指考, _zhikao_) — plusieurs portes d'entrée s'ouvrent pour que les élèves ne soient plus condamnés à tout miser sur une seule épreuve.
 
 La philosophie de cette réforme est simple : chaque enfant a des talents différents et ne devrait pas être défini par un score. Celui qui dessine bien peut candidater en beaux-arts, le sportif peut passer par le recrutement spécial, le programmeur peut valoriser ses compétences dans un dossier de candidature. Une société plus équitable devait offrir une scène à chaque talent.
 
 Les chiffres semblent donner raison à la réforme.
 
-| Ère du concours unique (1981)                          | Ère plurielle (2023)                           |
-| ------------------------------------------------------ | ---------------------------------------------- |
-| 48 centres de redoublement rue Nanyang, 100 000 élèves | 3 centres restants, environ 2 500 élèves       |
+| Ère du concours unique (1981)                          | Ère plurielle (2023)                     |
+| ------------------------------------------------------ | ---------------------------------------- |
+| 48 centres de redoublement rue Nanyang, 100 000 élèves | 3 centres restants, environ 2 500 élèves |
 
 En quarante ans, le nombre de redoublants a chuté de 97,5 %. Rue Nanyang, les enseignes de thé aux perles sont désormais plus nombreuses que les centres de cours. En apparence, Taïwan a réussi sa transition de « l'enfer du concours unique » au « paradis du pluralisme ».
 
@@ -61,12 +71,12 @@ En 2019, le nouveau programme — dit « programme du 108 » ou « programme ax�
 
 Le Test de compétences académiques est revu en conséquence : de cinq matières obligatoires, on passe à « cinq au choix de quatre » pour plus de flexibilité ; des types de questions mixtes sont introduits pour évaluer la pensée de haut niveau ; l'orientation « compétences » vise à tester non seulement les savoirs, mais aussi leur mise en pratique. Ces évolutions reflètent une transformation profonde de la philosophie éducative.
 
-Pourtant, en 2022, les premiers candidats soumis au nouveau programme se sont heurtés à des difficultés imprévues. Le Test de matières désignées (分科測驗, *fenkemoshiyan*, qui remplace l'ancien 指考) n'incluant plus le chinois, l'anglais ni les mathématiques de niveau B, de nombreuses universités se sont retrouvées contraintes de réintégrer les résultats du *xuece* dans leurs critères de sélection par affectation. Résultat : un dispositif conçu pour « réduire le stress » a finalement accru la pression ressentie par les élèves.
+Pourtant, en 2022, les premiers candidats soumis au nouveau programme se sont heurtés à des difficultés imprévues. Le Test de matières désignées (分科測驗, _fenkemoshiyan_, qui remplace l'ancien 指考) n'incluant plus le chinois, l'anglais ni les mathématiques de niveau B, de nombreuses universités se sont retrouvées contraintes de réintégrer les résultats du _xuece_ dans leurs critères de sélection par affectation. Résultat : un dispositif conçu pour « réduire le stress » a finalement accru la pression ressentie par les élèves.
 
 > **⚠️ Point de controverse**
 > Les acteurs des cours privés ne mâchent pas leurs mots : le nouveau programme serait « un changement de forme sans changement de fond ». « Tant que les mentalités parentales n'évoluent pas et que les ressources continuent de se concentrer sur quelques filières et grandes universités, la pression à l'entrée restera. Et au bout du compte, ce sont les centres de cours qui y gagnent. »
 
-À l'issue du *xuece* 2022, la rue Nanyang a de nouveau arboré ses affiches « Inscriptions ouvertes — redoublement ». Les demandes ont plus que doublé par rapport à l'année précédente. Un formateur vedette observe : « Ceux qui redoublent aujourd'hui visent souvent des filières très sélectives dans les universités nationales — médecine, informatique et autres. »
+À l'issue du _xuece_ 2022, la rue Nanyang a de nouveau arboré ses affiches « Inscriptions ouvertes — redoublement ». Les demandes ont plus que doublé par rapport à l'année précédente. Un formateur vedette observe : « Ceux qui redoublent aujourd'hui visent souvent des filières très sélectives dans les universités nationales — médecine, informatique et autres. »
 
 Taïwan semble avoir renoué avec le même chemin de croix que connut la génération de leurs parents.
 

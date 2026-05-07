@@ -1,8 +1,16 @@
 ---
-title: "Histoire de la télévision taïwanaise : de la trinité des chaînes à la révolution douce de la Q-Series"
+title: 'Histoire de la télévision taïwanaise : de la trinité des chaînes à la révolution douce de la Q-Series'
 description: "De l'ouverture de TTV en 1962 à la Q-Series en 2016, l'industrie télévisuelle de Taïwan a traversé 54 ans de transformation — du monopole du parti, de l'armée et de l'État vers l'essor d'un audiovisuel public. Comment une plateforme sans publicité a-t-elle réussi à raconter des histoires que tout le monde voulait entendre ?"
 date: 2026-03-31
-tags: ['télévision', 'télévision publique', 'Q-Series', 'trilogie des chaînes', 'réforme des médias', 'drama taïwanais']
+tags:
+  [
+    'télévision',
+    'télévision publique',
+    'Q-Series',
+    'trilogie des chaînes',
+    'réforme des médias',
+    'drama taïwanais',
+  ]
 category: 'Technology'
 subcategory: 'Audiovisuel et médias'
 author: 'Taiwan.md Translation Team'
@@ -29,7 +37,7 @@ Cette trinité deviendra plus tard le mot d'ordre de la réforme médiatique : �
 
 ## L'ère des émissions communes
 
-Dans les années 1970 et 1980, les trois chaînes pratiquent un fonctionnement singulier : la **diffusion simultanée**. Chaque soir en prime time (20 heures), elles diffusent ensemble le même programme. Des séries comme *L'Histoire d'une grande époque* ou *Vague froide* sont regardées au même moment à Taipei, Taichung et Kaohsiung. Chaque mois, une chaîne assure à tour de rôle la coordination — un équilibre entre coopération et compétition[^3].
+Dans les années 1970 et 1980, les trois chaînes pratiquent un fonctionnement singulier : la **diffusion simultanée**. Chaque soir en prime time (20 heures), elles diffusent ensemble le même programme. Des séries comme _L'Histoire d'une grande époque_ ou _Vague froide_ sont regardées au même moment à Taipei, Taichung et Kaohsiung. Chaque mois, une chaîne assure à tour de rôle la coordination — un équilibre entre coopération et compétition[^3].
 
 Ce mécanisme de diffusion commune préfigure en quelque sorte l'émergence de la télévision publique.
 
@@ -71,17 +79,17 @@ En 1975, il part aux États-Unis décrocher un master en arts de la scène à la
 
 ---
 
-## De *Full House* à la Q-Series
+## De _Full House_ à la Q-Series
 
-De la fin des années 1980 aux années 1990, Wang Hsiao-di réalise pour CTS une série de dramas centrés sur des gens ordinaires : *Full House* (1989), *Family Bliss* (1990), *Mother Hen with Ducklings* (1992). Ces œuvres ne cherchent pas à battre des records d'audience ; elles pointent leur caméra vers les foyers taïwanais du quotidien — la grand-mère qui joue aux cartes, le couple qui se dispute, l'enfant qui fume en cachette[^10].
+De la fin des années 1980 aux années 1990, Wang Hsiao-di réalise pour CTS une série de dramas centrés sur des gens ordinaires : _Full House_ (1989), _Family Bliss_ (1990), _Mother Hen with Ducklings_ (1992). Ces œuvres ne cherchent pas à battre des records d'audience ; elles pointent leur caméra vers les foyers taïwanais du quotidien — la grand-mère qui joue aux cartes, le couple qui se dispute, l'enfant qui fume en cachette[^10].
 
 Dans un paysage télévisuel encore dominé par les feuilletons du prime time et les émissions de variétés, ces dramas démontrent discrètement qu'une série peut avoir de l'épaisseur sociale.
 
 En 1992, Wang Hsiao-di cofonde avec sa partenaire créatrice Huang Li-ming le **Studio de cinéma Daotian**, qui produira principalement pour PTS.
 
-En 2000, il réalise pour PTS *Grand Hospital, Petit Médecin*, avec Lan Cheng-lung et Ma Chih-hsiang. Cette même année, *Meteor Garden* balaie toute l'Asie et le drama romantique devient le mot d'ordre de la télévision taïwanaise. *Grand Hospital, Petit Médecin* est parfois cité dans le même souffle — salué comme « le premier drama romantique de Taïwan » —, mais il est aussi, et surtout, la première vraie **série de milieu professionnel** de l'île.
+En 2000, il réalise pour PTS _Grand Hospital, Petit Médecin_, avec Lan Cheng-lung et Ma Chih-hsiang. Cette même année, _Meteor Garden_ balaie toute l'Asie et le drama romantique devient le mot d'ordre de la télévision taïwanaise. _Grand Hospital, Petit Médecin_ est parfois cité dans le même souffle — salué comme « le premier drama romantique de Taïwan » —, mais il est aussi, et surtout, la première vraie **série de milieu professionnel** de l'île.
 
-Au fil des quinze années suivantes, le nom de Wang Hsiao-di revient régulièrement aux Golden Bell Awards : 1999 avec *Nine-Year-Old*, 2004 avec *Banquet*, 2008 avec *Kenting, Sunny Day*, 2014 avec *Hedgehog Boy*.
+Au fil des quinze années suivantes, le nom de Wang Hsiao-di revient régulièrement aux Golden Bell Awards : 1999 avec _Nine-Year-Old_, 2004 avec _Banquet_, 2008 avec _Kenting, Sunny Day_, 2014 avec _Hedgehog Boy_.
 
 En 2014, il reçoit le 18e Prix national des arts, récompensant l'ensemble de sa contribution à l'audiovisuel taïwanais.
 
@@ -93,9 +101,9 @@ En 2016, Wang Hsiao-di lance son projet le plus ambitieux.
 
 Il constate que les conditions de production se sont dégradées, que les genres télévisuels se sont appauvris, et que la relève des acteurs manque. Il réunit donc sept autres réalisateurs — dont Tsai Ming-liang et Chen Yu-hsun — et crée la **Q-Series** (植劇場) : une plateforme expérimentale pour former de nouveaux talents et élargir le spectre des genres. Quatre catégories (romance et coming-of-age, thriller policier, fantastique et horreur, adaptation littéraire), huit productions, sur une année entière[^11].
 
-Le 19 août 2016, *Love Storms* (戀愛沙塵暴) fait sa première sur TTV. L'audience oscillera entre 0,45 % et 0,76 % — des chiffres modestes —, mais la qualité et le renouveau des genres suscitent un fort bouche-à-oreille en ligne et de brillants résultats aux Golden Bell Awards[^12].
+Le 19 août 2016, _Love Storms_ (戀愛沙塵暴) fait sa première sur TTV. L'audience oscillera entre 0,45 % et 0,76 % — des chiffres modestes —, mais la qualité et le renouveau des genres suscitent un fort bouche-à-oreille en ligne et de brillants résultats aux Golden Bell Awards[^12].
 
-Aux Golden Bell Awards 2017, la Q-Series cumule 24 nominations et remporte 5 prix. *When the Dark Falls*, *Love Storms*, *Catharsis*, *Teacher Chang, Have You Ever Been in Love?* — ces titres font franchir au drama taïwanais les frontières du feuilleton romantique et du mélodrame rural.
+Aux Golden Bell Awards 2017, la Q-Series cumule 24 nominations et remporte 5 prix. _When the Dark Falls_, _Love Storms_, _Catharsis_, _Teacher Chang, Have You Ever Been in Love?_ — ces titres font franchir au drama taïwanais les frontières du feuilleton romantique et du mélodrame rural.
 
 > « Faire de la télévision, c'est un acte militant — dès qu'on allume le poste, ça entre dans chaque foyer, l'impact est immense. » — Wang Hsiao-di[^13]
 
