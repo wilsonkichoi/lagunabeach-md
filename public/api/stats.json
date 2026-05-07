@@ -1,28 +1,28 @@
 {
-  "totalArticles": 4079,
-  "totalCategories": 21,
-  "estimatedContributors": 272,
-  "totalTags": 5572,
+  "totalArticles": 4128,
+  "totalCategories": 20,
+  "estimatedContributors": 57,
+  "totalTags": 5568,
   "categories": [
     {
       "name": "es",
-      "count": 668
+      "count": 673
     },
     {
       "name": "ko",
-      "count": 674
+      "count": 683
     },
     {
       "name": "en",
-      "count": 690
+      "count": 699
     },
     {
       "name": "fr",
-      "count": 692
+      "count": 699
     },
     {
       "name": "ja",
-      "count": 683
+      "count": 690
     },
     {
       "name": "History",
@@ -30,15 +30,15 @@
     },
     {
       "name": "Society",
-      "count": 63
+      "count": 68
     },
     {
       "name": "Culture",
-      "count": 56
+      "count": 57
     },
     {
       "name": "People",
-      "count": 208
+      "count": 211
     },
     {
       "name": "Music",
@@ -46,7 +46,7 @@
     },
     {
       "name": "Food",
-      "count": 50
+      "count": 51
     },
     {
       "name": "Economy",
@@ -58,11 +58,11 @@
     },
     {
       "name": "Lifestyle",
-      "count": 25
+      "count": 27
     },
     {
       "name": "Geography",
-      "count": 25
+      "count": 26
     },
     {
       "name": "Art",
@@ -79,10 +79,6 @@
     {
       "name": "zh-TW",
       "count": 2
-    },
-    {
-      "name": "Language",
-      "count": 1
     },
     {
       "name": "resources",
@@ -111,11 +107,11 @@
       "count": 28
     },
     {
-      "name": "半導體",
-      "count": 25
+      "name": "TSMC",
+      "count": 27
     },
     {
-      "name": "TSMC",
+      "name": "半導體",
       "count": 25
     },
     {
@@ -127,6 +123,10 @@
       "count": 24
     },
     {
+      "name": "AI",
+      "count": 24
+    },
+    {
       "name": "ODM",
       "count": 23
     },
@@ -135,7 +135,7 @@
       "count": 23
     },
     {
-      "name": "AI",
+      "name": "政治人物",
       "count": 23
     },
     {
@@ -147,10 +147,6 @@
       "count": 22
     },
     {
-      "name": "政治人物",
-      "count": 22
-    },
-    {
       "name": "歷史",
       "count": 21
     },
@@ -159,12 +155,12 @@
       "count": 21
     },
     {
-      "name": "Économie",
+      "name": "YouTuber",
       "count": 20
     },
     {
-      "name": "YouTuber",
-      "count": 19
+      "name": "Économie",
+      "count": 20
     },
     {
       "name": "原住民",
@@ -172,8 +168,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4079,
+    "zh-TW": 4128,
     "en": 0
   },
-  "lastUpdated": "2026-05-04T14:24:03.377Z"
+  "lastUpdated": "2026-05-07T03:17:05.433Z",
+  "stars": 973,
+  "forks": 144,
+  "zhPages": 3429,
+  "enPages": 699,
+  "totalPages": 4128
 }

@@ -1,307 +1,302 @@
 {
-  "lastUpdated": "2026-05-03T01:12:37.560184",
-  "sourcesUsed": [
-    "ga",
-    "searchConsole24h",
-    "cloudflare24h",
-    "sense-cache"
-  ],
+  "lastUpdated": "2026-05-07T11:17:03.052932",
+  "sourcesUsed": ["ga", "searchConsole24h", "cloudflare24h", "sense-cache"],
   "ga": {
-    "label": "2026-04-05 to 2026-05-03",
-    "startDate": "2026-04-05",
-    "endDate": "2026-05-03",
+    "label": "2026-04-09 to 2026-05-07",
+    "startDate": "2026-04-09",
+    "endDate": "2026-05-07",
     "days": 28,
     "totals": {
-      "activeUsers": 23270,
-      "newUsers": 22683,
-      "avgEngagementSeconds": 132.1,
-      "events": 141454,
-      "screenPageViews": 48859,
-      "engagementRate": 0.2587,
-      "bounceRate": 0.7413
+      "activeUsers": 25486,
+      "newUsers": 24994,
+      "avgEngagementSeconds": 126.5,
+      "events": 150603,
+      "screenPageViews": 51837,
+      "engagementRate": 0.2605,
+      "bounceRate": 0.7395
     },
     "topPages": [
       {
         "path": "/",
         "title": "開源台灣知識庫",
-        "views": 10426,
-        "users": 4900,
-        "events": 29693
+        "views": 10449,
+        "users": 5057,
+        "events": 29771
       },
       {
         "path": "/music/張懸與安溥/",
         "title": "從張懸到安溥——兩個名字，同一個問題",
-        "views": 3233,
-        "users": 2737,
-        "events": 10055
+        "views": 3331,
+        "users": 2798,
+        "events": 10348
       },
       {
         "path": "/nature/黑冠麻鷺/",
         "title": "黑冠麻鷺：賞鳥者的夢幻物種，校園裡的大笨鳥",
-        "views": 1490,
-        "users": 1277,
-        "events": 4608
+        "views": 1581,
+        "users": 1329,
+        "events": 4874
       },
       {
         "path": "/lifestyle/台灣高鐵/",
         "title": "台灣高鐵：從「零政府出資」到「國有民營」，20 年縮短 90 分鐘的代價",
-        "views": 1449,
-        "users": 1307,
-        "events": 4603
+        "views": 1467,
+        "users": 1317,
+        "events": 4658
       },
       {
         "path": "/people/壞特/",
         "title": "壞特?te：醫學系讀九年的優等生，按下暫停鍵的那場休學",
-        "views": 1224,
-        "users": 1108,
-        "events": 3720
+        "views": 1232,
+        "users": 1114,
+        "events": 3746
       },
       {
         "path": "/dashboard/",
         "title": "Dashboard — 數位生命體即時監測",
-        "views": 1081,
-        "users": 531,
-        "events": 2990
+        "views": 1223,
+        "users": 619,
+        "events": 3415
       },
       {
         "path": "/people/李洋/",
         "title": "李洋",
-        "views": 1075,
-        "users": 831,
-        "events": 3203
+        "views": 1088,
+        "users": 841,
+        "events": 3249
       },
       {
         "path": "/about/",
         "title": "關於 Taiwan.md",
-        "views": 1005,
-        "users": 553,
-        "events": 2810
+        "views": 1008,
+        "users": 575,
+        "events": 2850
       },
       {
         "path": "/people/林琪兒/",
         "title": "林琪兒：從台北出生到近地軌道，那位在太空吹風笛的台裔醫師",
-        "views": 930,
-        "users": 844,
-        "events": 3158
+        "views": 941,
+        "users": 852,
+        "events": 3195
       },
       {
-        "path": "/en/",
-        "title": "Open Knowledge Base of Taiwan",
-        "views": 899,
-        "users": 505,
-        "events": 2173
+        "path": "/nature/黃魚鴞/",
+        "title": "黃魚鴞：六公里溪流養一對，1,800 公尺烏心石上的夜行猛禽",
+        "views": 839,
+        "users": 709,
+        "events": 2651
       },
       {
         "path": "/semiont/",
         "title": "認知層 — Taiwan.md Semiont",
-        "views": 728,
-        "users": 412,
-        "events": 1919
+        "views": 805,
+        "users": 449,
+        "events": 2112
       },
       {
-        "path": "/map/",
-        "title": "台灣地圖 Map",
-        "views": 624,
-        "users": 347,
-        "events": 1492
+        "path": "/en/",
+        "title": "Open Knowledge Base of Taiwan",
+        "views": 633,
+        "users": 409,
+        "events": 1543
       },
       {
         "path": "/data/",
         "title": "📊 數據台灣 — Taiwan.md",
-        "views": 609,
-        "users": 389,
-        "events": 1763
+        "views": 598,
+        "users": 400,
+        "events": 1744
       },
       {
         "path": "/contribute/",
         "title": "我想貢獻 — Taiwan.md",
-        "views": 585,
-        "users": 306,
-        "events": 1758
+        "views": 581,
+        "users": 315,
+        "events": 1752
       },
       {
         "path": "/graph/",
         "title": "🕸️ 知識圖譜 — Taiwan.md",
-        "views": 526,
-        "users": 358,
-        "events": 1257
-      },
-      {
-        "path": "/people/鄭麗文/",
-        "title": "鄭麗文",
-        "views": 505,
-        "users": 444,
-        "events": 1572
-      },
-      {
-        "path": "/history/",
-        "title": "歷史 - Taiwan.md",
-        "views": 439,
-        "users": 303,
-        "events": 1246
+        "views": 538,
+        "users": 369,
+        "events": 1271
       },
       {
         "path": "/society/台灣邦交國與國際外交/",
         "title": "台灣邦交國與國際外交：12 個邦交、113 個館處、177 國免簽（2026）",
-        "views": 426,
-        "users": 364,
-        "events": 1406
+        "views": 536,
+        "users": 442,
+        "events": 1771
       },
       {
-        "path": "/soundscape/",
-        "title": "台灣聲景 Taiwan Soundscape — Taiwan.md",
-        "views": 403,
-        "users": 267,
-        "events": 992
+        "path": "/people/鄭麗文/",
+        "title": "鄭麗文",
+        "views": 509,
+        "users": 448,
+        "events": 1582
       },
       {
-        "path": "/people/田馥甄/",
-        "title": "田馥甄：S.H.E 千萬銷量之後，把偶像體制一件件丟掉的歌手",
-        "views": 352,
-        "users": 295,
-        "events": 1083
+        "path": "/terminology/converter/",
+        "title": "台灣用語轉換器：中國用語一鍵轉台灣說法",
+        "views": 488,
+        "users": 155,
+        "events": 1108
+      },
+      {
+        "path": "/map/",
+        "title": "台灣地圖 Map",
+        "views": 481,
+        "users": 303,
+        "events": 1229
+      },
+      {
+        "path": "/terminology/",
+        "title": "📖 用語保存計畫 — Taiwan.md",
+        "views": 479,
+        "users": 347,
+        "events": 1423
       }
     ],
     "topArticles7d": [
       {
         "path": "/nature/黑冠麻鷺/",
         "title": "黑冠麻鷺：賞鳥者的夢幻物種，校園裡的大笨鳥",
-        "views": 1490,
-        "users": 1277,
-        "events": 4608
+        "views": 1581,
+        "users": 1329,
+        "events": 4874
       },
       {
-        "path": "/people/壞特/",
-        "title": "壞特?te：醫學系讀九年的優等生，按下暫停鍵的那場休學",
-        "views": 1224,
-        "users": 1108,
-        "events": 3720
+        "path": "/nature/黃魚鴞/",
+        "title": "黃魚鴞：六公里溪流養一對，1,800 公尺烏心石上的夜行猛禽",
+        "views": 883,
+        "users": 712,
+        "events": 2751
       },
       {
-        "path": "/people/林琪兒/",
-        "title": "林琪兒：從台北出生到近地軌道，那位在太空吹風笛的台裔醫師",
-        "views": 668,
-        "users": 595,
-        "events": 2200
+        "path": "/people/賈永婕/",
+        "title": "賈永婕：把明星社會資本一次次轉換成公共動員力的台灣實驗",
+        "views": 395,
+        "users": 358,
+        "events": 1235
       },
       {
-        "path": "/people/田馥甄/",
-        "title": "田馥甄：S.H.E 千萬銷量之後，把偶像體制一件件丟掉的歌手",
-        "views": 352,
-        "users": 295,
-        "events": 1083
+        "path": "/society/台灣與史瓦帝尼/",
+        "title": "台灣與史瓦帝尼：非洲最後一條外交命脈，掛在一個人身上",
+        "views": 334,
+        "users": 289,
+        "events": 1023
       },
       {
         "path": "/society/台灣邦交國與國際外交/",
         "title": "台灣邦交國與國際外交：12 個邦交、113 個館處、177 國免簽（2026）",
-        "views": 308,
-        "users": 255,
-        "events": 954
-      },
-      {
-        "path": "/people/沈伯洋/",
-        "title": "沈伯洋：他研究中國認知戰，後來中國把他畫在衛星圖上",
-        "views": 146,
-        "users": 121,
-        "events": 471
+        "views": 293,
+        "users": 230,
+        "events": 925
       },
       {
         "path": "/society/台灣的道德課去哪了/",
         "title": "台灣的道德課去哪了：一堂被取消的課，和二十年沒人接手的責任",
-        "views": 144,
-        "users": 129,
-        "events": 459
+        "views": 164,
+        "users": 141,
+        "events": 515
       },
       {
         "path": "/music/張懸與安溥/",
         "title": "從張懸到安溥——兩個名字，同一個問題",
-        "views": 81,
-        "users": 49,
-        "events": 224
+        "views": 130,
+        "users": 85,
+        "events": 386
       },
       {
         "path": "/technology/海底電纜/",
         "title": "海底電纜：矽盾頂上看得到，命脈底下看不見",
-        "views": 79,
-        "users": 63,
-        "events": 237
+        "views": 105,
+        "users": 80,
+        "events": 298
       },
       {
-        "path": "/food/台灣滷肉飯/",
-        "title": "台灣滷肉飯",
-        "views": 49,
-        "users": 1,
-        "events": 90
-      },
-      {
-        "path": "/ko/music/taiwan-campus-folk-song-movement/",
-        "title": "대만 민가 운동: \"우리 노래를 부르자\"는 외침이 화어 음악을 바꾸다",
-        "views": 43,
-        "users": 1,
-        "events": 54
-      },
-      {
-        "path": "/lifestyle/台灣高鐵/",
-        "title": "台灣高鐵：從「零政府出資」到「國有民營」，20 年縮短 90 分鐘的代價",
-        "views": 42,
-        "users": 30,
-        "events": 136
-      },
-      {
-        "path": "/people/吳哲宇/",
-        "title": "吳哲宇（Che-Yu Wu）：從彈珠檯到威尼斯白牆，用 0 與 1 逼近靈魂的鐘錶匠",
-        "views": 42,
-        "users": 19,
-        "events": 106
+        "path": "/people/林琪兒/",
+        "title": "林琪兒：從台北出生到近地軌道，那位在太空吹風笛的台裔醫師",
+        "views": 70,
+        "users": 59,
+        "events": 224
       },
       {
         "path": "/en/society/taiwan-diplomatic-allies-and-international-relations/",
         "title": "Taiwan's Diplomatic Allies and International Relations: 12 Allies, 113 Offices, 177 Visa-Free Destinations",
-        "views": 33,
-        "users": 32,
-        "events": 112
+        "views": 53,
+        "users": 49,
+        "events": 171
+      },
+      {
+        "path": "/food/台灣滷肉飯/",
+        "title": "台灣滷肉飯",
+        "views": 35,
+        "users": 1,
+        "events": 57
+      },
+      {
+        "path": "/society/雜學校/",
+        "title": "雜學校：賠光積蓄辦的免費展，11 年後副總統來開幕",
+        "views": 34,
+        "users": 23,
+        "events": 94
+      },
+      {
+        "path": "/lifestyle/台灣高鐵/",
+        "title": "台灣高鐵：從「零政府出資」到「國有民營」，20 年縮短 90 分鐘的代價",
+        "views": 31,
+        "users": 19,
+        "events": 91
       },
       {
         "path": "/culture/台灣宗教與寺廟文化/",
         "title": "台灣宗教信仰：在恐懼裡長出的信仰帝國",
-        "views": 32,
-        "users": 27,
-        "events": 95
-      },
-      {
-        "path": "/society/認知作戰/",
-        "title": "認知作戰：台灣資訊戰場的 AI 工業化階段",
-        "views": 30,
-        "users": 9,
-        "events": 62
-      },
-      {
-        "path": "/people/Cicada/",
-        "title": "Cicada：從 2009 年莫拉克到 2022 年丹大溪源的十五年田野錄音",
         "views": 26,
-        "users": 8,
-        "events": 64
+        "users": 21,
+        "events": 66
       },
       {
-        "path": "/ko/food/braised-pork-rice/",
-        "title": "타이완 루러우판 (돼지고기 조림 덮밥)",
-        "views": 24,
-        "users": 1,
-        "events": 41
+        "path": "/people/沈伯洋/",
+        "title": "沈伯洋：他研究中國認知戰，後來中國把他畫在衛星圖上",
+        "views": 25,
+        "users": 20,
+        "events": 76
       },
       {
-        "path": "/culture/台灣新偶像世代/",
-        "title": "台灣新偶像世代",
+        "path": "/people/壞特/",
+        "title": "壞特?te：醫學系讀九年的優等生，按下暫停鍵的那場休學",
+        "views": 21,
+        "users": 16,
+        "events": 63
+      },
+      {
+        "path": "/geography/北大特區/",
+        "title": "北大特區：三十年都市計畫與大學城生活實驗",
         "views": 20,
-        "users": 17,
-        "events": 42
+        "users": 16,
+        "events": 67
       },
       {
-        "path": "/food/台灣水果王國/",
-        "title": "台灣水果王國",
+        "path": "/en/lifestyle/education-system/",
+        "title": "404",
         "views": 19,
-        "users": 1,
-        "events": 24
+        "users": 17,
+        "events": 68
+      },
+      {
+        "path": "/music/台灣嘻哈與饒舌發展/",
+        "title": "台灣嘻哈與饒舌發展",
+        "views": 19,
+        "users": 16,
+        "events": 55
+      },
+      {
+        "path": "/people/吳哲宇/",
+        "title": "吳哲宇（Che-Yu Wu）：從彈珠檯到威尼斯白牆，用 0 與 1 逼近靈魂的鐘錶匠",
+        "views": 19,
+        "users": 11,
+        "events": 55
       }
     ]
   },
@@ -563,506 +558,551 @@
     }
   ],
   "searchConsole7d": {
-    "label": "2026-04-25 to 2026-05-01 (7d)",
-    "startDate": "2026-04-25",
-    "endDate": "2026-05-01",
+    "label": "2026-04-29 to 2026-05-05 (7d)",
+    "startDate": "2026-04-29",
+    "endDate": "2026-05-05",
     "days": 7,
     "totals": {
-      "clicks": 957,
-      "impressions": 60531,
-      "ctr": 1.58
+      "clicks": 709,
+      "impressions": 75211,
+      "ctr": 0.94
     },
     "brandBreakdown": {
       "brand": {
-        "clicks": 50,
-        "impressions": 859,
-        "ctr": 5.82
+        "clicks": 44,
+        "impressions": 768,
+        "ctr": 5.73
       },
       "nonBrand": {
-        "clicks": 434,
-        "impressions": 14919,
-        "ctr": 2.91
+        "clicks": 138,
+        "impressions": 13476,
+        "ctr": 1.02
       },
       "note": "Brand = queries containing 'taiwan.md' / 'taiwan md' / exact 'md' / 'taiwandotmd'. Total CTR aggregates both; brand CTR is usually 60-80%, nonBrand CTR reflects true external discoverability."
     },
     "topQueries": [
       {
-        "query": "林琪兒母親",
-        "clicks": 201,
-        "impressions": 1140,
-        "ctr": 17.63,
-        "position": 3.23
-      },
-      {
-        "query": "林琪兒媽媽",
-        "clicks": 39,
-        "impressions": 275,
-        "ctr": 14.18,
-        "position": 3.94
+        "query": "taiwan md",
+        "clicks": 26,
+        "impressions": 45,
+        "ctr": 57.78,
+        "position": 1.07
       },
       {
         "query": "taiwan.md",
-        "clicks": 23,
-        "impressions": 33,
-        "ctr": 69.7,
+        "clicks": 16,
+        "impressions": 25,
+        "ctr": 64.0,
         "position": 1
-      },
-      {
-        "query": "taiwan md",
-        "clicks": 19,
-        "impressions": 36,
-        "ctr": 52.78,
-        "position": 1
-      },
-      {
-        "query": "林琪兒",
-        "clicks": 19,
-        "impressions": 586,
-        "ctr": 3.24,
-        "position": 9.25
-      },
-      {
-        "query": "taiwan. md",
-        "clicks": 14,
-        "impressions": 21,
-        "ctr": 66.67,
-        "position": 1
-      },
-      {
-        "query": "李珠珢",
-        "clicks": 10,
-        "impressions": 131,
-        "ctr": 7.63,
-        "position": 6.53
-      },
-      {
-        "query": "林琪兒 太空人",
-        "clicks": 8,
-        "impressions": 115,
-        "ctr": 6.96,
-        "position": 6.47
-      },
-      {
-        "query": "台灣前50大企業排名",
-        "clicks": 5,
-        "impressions": 155,
-        "ctr": 3.23,
-        "position": 9.01
-      },
-      {
-        "query": "md",
-        "clicks": 4,
-        "impressions": 684,
-        "ctr": 0.58,
-        "position": 8.8
       },
       {
         "query": "台灣邦交國2026",
-        "clicks": 4,
-        "impressions": 70,
-        "ctr": 5.71,
-        "position": 2.13
+        "clicks": 6,
+        "impressions": 101,
+        "ctr": 5.94,
+        "position": 2.25
       },
       {
-        "query": "林琪兒父母",
-        "clicks": 4,
-        "impressions": 173,
-        "ctr": 2.31,
-        "position": 8.72
-      },
-      {
-        "query": "鄧麗君",
-        "clicks": 4,
-        "impressions": 1902,
-        "ctr": 0.21,
-        "position": 1.16
-      },
-      {
-        "query": "100樂團成員",
-        "clicks": 3,
-        "impressions": 54,
-        "ctr": 5.56,
-        "position": 10.39
-      },
-      {
-        "query": "mini taiwan pulse",
-        "clicks": 3,
+        "query": "taiwan. md",
+        "clicks": 5,
         "impressions": 8,
-        "ctr": 37.5,
-        "position": 1.12
-      },
-      {
-        "query": "taiwanmd",
-        "clicks": 3,
-        "impressions": 8,
-        "ctr": 37.5,
+        "ctr": 62.5,
         "position": 1
       },
       {
-        "query": "傳奇網路",
-        "clicks": 3,
-        "impressions": 22,
-        "ctr": 13.64,
-        "position": 6.68
+        "query": "台灣前50大企業排名",
+        "clicks": 4,
+        "impressions": 167,
+        "ctr": 2.4,
+        "position": 7.88
       },
       {
-        "query": "吳哲宇",
-        "clicks": 3,
-        "impressions": 41,
-        "ctr": 7.32,
-        "position": 7.29
+        "query": "台灣用語轉換器",
+        "clicks": 4,
+        "impressions": 12,
+        "ctr": 33.33,
+        "position": 3.58
       },
       {
-        "query": "太空人林琪兒",
+        "query": "data taiwan 2010",
         "clicks": 3,
-        "impressions": 59,
-        "ctr": 5.08,
-        "position": 7.8
+        "impressions": 4,
+        "ctr": 75.0,
+        "position": 175.25
       },
       {
-        "query": "林琪兒醫師",
+        "query": "台灣md",
         "clicks": 3,
-        "impressions": 168,
-        "ctr": 1.79,
-        "position": 7.21
+        "impressions": 11,
+        "ctr": 27.27,
+        "position": 1
+      },
+      {
+        "query": "蕭上濃",
+        "clicks": 3,
+        "impressions": 15,
+        "ctr": 20.0,
+        "position": 2.47
+      },
+      {
+        "query": "蕭上農",
+        "clicks": 3,
+        "impressions": 63,
+        "ctr": 4.76,
+        "position": 11.22
+      },
+      {
+        "query": "蕭上農是誰",
+        "clicks": 3,
+        "impressions": 148,
+        "ctr": 2.03,
+        "position": 3.86
+      },
+      {
+        "query": "owl alpha",
+        "clicks": 2,
+        "impressions": 11,
+        "ctr": 18.18,
+        "position": 2.91
+      },
+      {
+        "query": "台灣50大企業名單",
+        "clicks": 2,
+        "impressions": 36,
+        "ctr": 5.56,
+        "position": 9.14
+      },
+      {
+        "query": "台灣便利商店特色",
+        "clicks": 2,
+        "impressions": 4,
+        "ctr": 50.0,
+        "position": 3.75
+      },
+      {
+        "query": "台灣最大邦交國",
+        "clicks": 2,
+        "impressions": 72,
+        "ctr": 2.78,
+        "position": 9.26
+      },
+      {
+        "query": "台灣減塑政策歷史",
+        "clicks": 2,
+        "impressions": 5,
+        "ctr": 40.0,
+        "position": 12
+      },
+      {
+        "query": "台灣邦交國",
+        "clicks": 2,
+        "impressions": 262,
+        "ctr": 0.76,
+        "position": 7.78
+      },
+      {
+        "query": "林琪兒台灣",
+        "clicks": 2,
+        "impressions": 10,
+        "ctr": 20.0,
+        "position": 4.8
+      },
+      {
+        "query": "林琪兒父母",
+        "clicks": 2,
+        "impressions": 77,
+        "ctr": 2.6,
+        "position": 8.45
+      },
+      {
+        "query": "蕭上農背景",
+        "clicks": 2,
+        "impressions": 35,
+        "ctr": 5.71,
+        "position": 6.17
       }
     ],
     "opportunities": [
       {
-        "query": "日治時期",
+        "query": "md",
         "clicks": 0,
-        "impressions": 354,
-        "position": 9.25
-      },
-      {
-        "query": "taiwan diplomatic allies 2026",
-        "clicks": 0,
-        "impressions": 227,
-        "position": 1.2
+        "impressions": 594,
+        "position": 9.46
       },
       {
         "query": "blue uas cleared list 台灣廠商 2026",
         "clicks": 0,
-        "impressions": 211,
-        "position": 7.48
-      },
-      {
-        "query": "ai28527",
-        "clicks": 0,
-        "impressions": 186,
-        "position": 8.97
-      },
-      {
-        "query": "taiwan diplomatic allies list 2026",
-        "clicks": 0,
-        "impressions": 154,
-        "position": 1.22
-      },
-      {
-        "query": "夏小虎在民谣圈的影响力",
-        "clicks": 0,
-        "impressions": 115,
-        "position": 8.17
+        "impressions": 564,
+        "position": 8.43
       },
       {
         "query": "taiwan railways administration nickname foreign engineers",
         "clicks": 0,
-        "impressions": 106,
-        "position": 7.76
+        "impressions": 345,
+        "position": 7.6
       },
       {
-        "query": ".md",
+        "query": "日治時期",
         "clicks": 0,
-        "impressions": 87,
-        "position": 8.41
+        "impressions": 340,
+        "position": 9.6
+      },
+      {
+        "query": "taiwan diplomatic allies list 2026",
+        "clicks": 0,
+        "impressions": 247,
+        "position": 2.96
+      },
+      {
+        "query": "taiwan diplomatic allies 2026 list",
+        "clicks": 0,
+        "impressions": 192,
+        "position": 3.53
       },
       {
         "query": "taiwan diplomatic allies list current",
         "clicks": 0,
-        "impressions": 72,
-        "position": 6.36
+        "impressions": 157,
+        "position": 7.79
       },
       {
-        "query": "台灣邦交國",
+        "query": "taiwan diplomatic allies 2026 current list",
         "clicks": 0,
-        "impressions": 70,
-        "position": 7
+        "impressions": 92,
+        "position": 3.72
+      },
+      {
+        "query": "台灣 邦交國 2026",
+        "clicks": 0,
+        "impressions": 87,
+        "position": 3.17
+      },
+      {
+        "query": "taiwan diplomatic allies number 2026",
+        "clicks": 0,
+        "impressions": 85,
+        "position": 2.48
       }
     ],
     "wordCloud": [
       {
-        "query": "鄧麗君",
-        "impressions": 1902,
-        "clicks": 4
-      },
-      {
-        "query": "林琪兒母親",
-        "impressions": 1140,
-        "clicks": 201
-      },
-      {
         "query": "md",
-        "impressions": 684,
-        "clicks": 4
-      },
-      {
-        "query": "林琪兒",
-        "impressions": 586,
-        "clicks": 19
-      },
-      {
-        "query": "日治時期",
-        "impressions": 354,
-        "clicks": 0
-      },
-      {
-        "query": "林琪兒媽媽",
-        "impressions": 275,
-        "clicks": 39
-      },
-      {
-        "query": "taiwan diplomatic allies 2026",
-        "impressions": 227,
+        "impressions": 594,
         "clicks": 0
       },
       {
         "query": "blue uas cleared list 台灣廠商 2026",
-        "impressions": 211,
+        "impressions": 564,
         "clicks": 0
       },
       {
-        "query": "ai28527",
-        "impressions": 186,
+        "query": "taiwan diplomatic allies 2026",
+        "impressions": 491,
+        "clicks": 1
+      },
+      {
+        "query": "taiwan railways administration nickname foreign engineers",
+        "impressions": 345,
         "clicks": 0
       },
       {
-        "query": "林琪兒父母",
-        "impressions": 173,
-        "clicks": 4
+        "query": "日治時期",
+        "impressions": 340,
+        "clicks": 0
       },
       {
-        "query": "林琪兒醫師",
-        "impressions": 168,
-        "clicks": 3
-      },
-      {
-        "query": "趙自強",
-        "impressions": 156,
+        "query": "台灣邦交國",
+        "impressions": 262,
         "clicks": 2
-      },
-      {
-        "query": "台灣前50大企業排名",
-        "impressions": 155,
-        "clicks": 5
       },
       {
         "query": "taiwan diplomatic allies list 2026",
-        "impressions": 154,
+        "impressions": 247,
         "clicks": 0
       },
       {
-        "query": "林琪兒台灣",
-        "impressions": 135,
-        "clicks": 2
+        "query": "阿神本名",
+        "impressions": 214,
+        "clicks": 1
       },
       {
-        "query": "李珠珢",
-        "impressions": 131,
-        "clicks": 10
+        "query": "taiwan diplomatic allies 2026 list",
+        "impressions": 192,
+        "clicks": 0
       },
       {
-        "query": "林琪兒 太空人",
-        "impressions": 115,
-        "clicks": 8
+        "query": "台灣前50大企業排名",
+        "impressions": 167,
+        "clicks": 4
       },
       {
-        "query": "夏小虎在民谣圈的影响力",
-        "impressions": 115,
+        "query": "taiwan diplomatic allies list current",
+        "impressions": 157,
         "clicks": 0
       },
       {
         "query": "蕭上農是誰",
-        "impressions": 110,
-        "clicks": 2
+        "impressions": 148,
+        "clicks": 3
       },
       {
-        "query": "taiwan railways administration nickname foreign engineers",
-        "impressions": 106,
-        "clicks": 0
+        "query": "林琪兒",
+        "impressions": 118,
+        "clicks": 1
+      },
+      {
+        "query": "台灣邦交國2026",
+        "impressions": 101,
+        "clicks": 6
+      },
+      {
+        "query": "lin yangduo",
+        "impressions": 99,
+        "clicks": 1
       },
       {
         "query": "台灣前50大企業",
-        "impressions": 95,
-        "clicks": 2
+        "impressions": 94,
+        "clicks": 1
       },
       {
-        "query": ".md",
+        "query": "taiwan diplomatic allies 2026 current list",
+        "impressions": 92,
+        "clicks": 0
+      },
+      {
+        "query": "台灣 邦交國 2026",
         "impressions": 87,
         "clicks": 0
       },
       {
-        "query": "lin yangduo",
-        "impressions": 86,
-        "clicks": 1
-      },
-      {
-        "query": "林良",
-        "impressions": 84,
-        "clicks": 2
-      },
-      {
-        "query": "台灣日治時期",
-        "impressions": 82,
-        "clicks": 1
-      },
-      {
-        "query": "taiwan diplomatic allies list current",
-        "impressions": 72,
-        "clicks": 0
-      },
-      {
-        "query": "台灣邦交國2026",
-        "impressions": 70,
-        "clicks": 4
-      },
-      {
-        "query": "台灣邦交國",
-        "impressions": 70,
-        "clicks": 0
-      },
-      {
-        "query": "taiwan diplomatic relations number of countries 2026",
-        "impressions": 68,
-        "clicks": 0
-      },
-      {
         "query": "taiwan diplomatic allies number 2026",
-        "impressions": 65,
-        "clicks": 0
-      },
-      {
-        "query": "台灣前50大公司",
-        "impressions": 62,
-        "clicks": 1
-      },
-      {
-        "query": "林懷民",
-        "impressions": 61,
-        "clicks": 0
-      },
-      {
-        "query": "林琪兒幾歲",
-        "impressions": 60,
-        "clicks": 1
-      },
-      {
-        "query": "太空人林琪兒",
-        "impressions": 59,
-        "clicks": 3
-      },
-      {
-        "query": "100樂團成員",
-        "impressions": 54,
-        "clicks": 3
-      },
-      {
-        "query": "taiwan diplomatic allies 2026 current list",
-        "impressions": 53,
+        "impressions": 85,
         "clicks": 0
       },
       {
         "query": "陳士駿",
-        "impressions": 50,
+        "impressions": 82,
         "clicks": 1
       },
       {
-        "query": "林琪兒台灣照片",
-        "impressions": 49,
-        "clicks": 2
-      },
-      {
-        "query": "taiwan diplomatic allies 2026 list",
-        "impressions": 48,
+        "query": ".md",
+        "impressions": 81,
         "clicks": 0
       },
       {
-        "query": "md taiwan",
-        "impressions": 47,
+        "query": "taiwan diplomatic allies 2026 current number",
+        "impressions": 81,
+        "clicks": 0
+      },
+      {
+        "query": "中華民國 邦交國 2026",
+        "impressions": 81,
+        "clicks": 0
+      },
+      {
+        "query": "林琪兒父母",
+        "impressions": 77,
+        "clicks": 2
+      },
+      {
+        "query": "ai28527",
+        "impressions": 73,
+        "clicks": 0
+      },
+      {
+        "query": "tainan more temples per capita than anywhere else in taiwan",
+        "impressions": 73,
+        "clicks": 0
+      },
+      {
+        "query": "taiwan number of diplomatic allies 2026",
+        "impressions": 73,
         "clicks": 0
       },
       {
         "query": "台湾 邦交国 数量 2026",
-        "impressions": 45,
+        "impressions": 73,
         "clicks": 0
       },
       {
-        "query": "蕭上農",
-        "impressions": 43,
+        "query": "台灣最大邦交國",
+        "impressions": 72,
         "clicks": 2
       },
       {
-        "query": "taiwan diplomatic allies 2026 current number",
-        "impressions": 42,
+        "query": "台灣前50大公司",
+        "impressions": 71,
         "clicks": 0
       },
       {
-        "query": "吳哲宇",
-        "impressions": 41,
-        "clicks": 3
-      },
-      {
-        "query": "韓國瑜",
-        "impressions": 39,
-        "clicks": 1
-      },
-      {
-        "query": "台達電鄭平維基百科",
-        "impressions": 38,
+        "query": "taiwan diplomatic allies 2026 number",
+        "impressions": 67,
         "clicks": 0
       },
       {
-        "query": "連穎",
-        "impressions": 38,
-        "clicks": 0
-      },
-      {
-        "query": "日治台灣",
-        "impressions": 37,
-        "clicks": 0
-      },
-      {
-        "query": "taiwan md",
-        "impressions": 36,
-        "clicks": 19
-      },
-      {
-        "query": "林琪兒中文",
-        "impressions": 36,
-        "clicks": 0
-      },
-      {
-        "query": "taiwan.md",
-        "impressions": 33,
-        "clicks": 23
-      },
-      {
-        "query": "taiwan number of diplomatic allies 2026",
-        "impressions": 33,
+        "query": "countries with diplomatic relations with taiwan 2026",
+        "impressions": 66,
         "clicks": 0
       },
       {
         "query": "田馥甄",
-        "impressions": 32,
+        "impressions": 65,
         "clicks": 1
       },
       {
-        "query": "current number of taiwan diplomatic allies 2026",
-        "impressions": 32,
+        "query": "taiwan diplomatic relations number of countries 2026",
+        "impressions": 65,
         "clicks": 0
       },
       {
-        "query": "number of countries with formal diplomatic relations with taiwan 2026",
-        "impressions": 32,
+        "query": "楊致遠",
+        "impressions": 64,
+        "clicks": 0
+      },
+      {
+        "query": "蕭上農",
+        "impressions": 63,
+        "clicks": 3
+      },
+      {
+        "query": "current number of taiwan diplomatic allies 2026",
+        "impressions": 60,
+        "clicks": 0
+      },
+      {
+        "query": "台灣日治時期",
+        "impressions": 59,
+        "clicks": 1
+      },
+      {
+        "query": "台湾 邦交国 2026",
+        "impressions": 59,
+        "clicks": 0
+      },
+      {
+        "query": "台湾 邦交国 列表 2026",
+        "impressions": 59,
+        "clicks": 0
+      },
+      {
+        "query": "台灣 邦交國 數量 2026",
+        "impressions": 59,
+        "clicks": 0
+      },
+      {
+        "query": "md taiwan",
+        "impressions": 56,
+        "clicks": 1
+      },
+      {
+        "query": "hou hsiao-hsien more than 50 awards official biography",
+        "impressions": 56,
+        "clicks": 0
+      },
+      {
+        "query": "taiwan diplomatic allies list may 2026",
+        "impressions": 49,
+        "clicks": 0
+      },
+      {
+        "query": "taiwan md",
+        "impressions": 45,
+        "clicks": 26
+      },
+      {
+        "query": "韓國瑜",
+        "impressions": 44,
+        "clicks": 1
+      },
+      {
+        "query": "hakka music society imperial times name change dispute authentic tradition",
+        "impressions": 44,
+        "clicks": 0
+      },
+      {
+        "query": "taiwan ministry of foreign affairs diplomatic allies list 2026",
+        "impressions": 44,
+        "clicks": 0
+      },
+      {
+        "query": "taiwan diplomatic allies current list",
+        "impressions": 43,
+        "clicks": 0
+      },
+      {
+        "query": "taiwan cultural association 1921 lin hsien-tang chiang wei-shui",
+        "impressions": 42,
+        "clicks": 0
+      },
+      {
+        "query": "台灣邦交國名單",
+        "impressions": 42,
+        "clicks": 0
+      },
+      {
+        "query": "台達電鄭平維基百科",
+        "impressions": 42,
+        "clicks": 0
+      },
+      {
+        "query": "趙自強",
+        "impressions": 41,
+        "clicks": 1
+      },
+      {
+        "query": "taiwan current diplomatic allies 2026",
+        "impressions": 41,
+        "clicks": 0
+      },
+      {
+        "query": "台灣市值前50大公司",
+        "impressions": 40,
+        "clicks": 0
+      },
+      {
+        "query": "中华民国 邦交国 2026",
+        "impressions": 39,
+        "clicks": 0
+      },
+      {
+        "query": "海端布農傳統祭儀歌謠隊 八部合音 官方",
+        "impressions": 39,
+        "clicks": 0
+      },
+      {
+        "query": "吳哲宇",
+        "impressions": 38,
+        "clicks": 1
+      },
+      {
+        "query": "\"cho-yun hsu\" student archaeologist",
+        "impressions": 37,
+        "clicks": 0
+      },
+      {
+        "query": "taiwan diplomatic recognition 2026",
+        "impressions": 37,
+        "clicks": 0
+      },
+      {
+        "query": "台灣50大企業名單",
+        "impressions": 36,
+        "clicks": 2
+      },
+      {
+        "query": "蕭上農背景",
+        "impressions": 35,
+        "clicks": 2
+      },
+      {
+        "query": "巧固球世界排名",
+        "impressions": 34,
+        "clicks": 0
+      },
+      {
+        "query": "steve chen",
+        "impressions": 33,
         "clicks": 0
       },
       {
@@ -1071,217 +1111,242 @@
         "clicks": 0
       },
       {
-        "query": "台灣大百科 朱一貴事件",
+        "query": "taiwan current number of diplomatic allies 2026",
         "impressions": 32,
         "clicks": 0
       },
       {
-        "query": "張懸",
+        "query": "台灣邦交國 數量",
+        "impressions": 32,
+        "clicks": 0
+      },
+      {
+        "query": "交工樂隊",
         "impressions": 31,
-        "clicks": 2
-      },
-      {
-        "query": "台灣市值前50大公司",
-        "impressions": 30,
-        "clicks": 0
-      },
-      {
-        "query": "current number of taiwan diplomatic allies april 2026",
-        "impressions": 29,
-        "clicks": 0
-      },
-      {
-        "query": "mayday ashin birthplace tainan",
-        "impressions": 29,
-        "clicks": 0
-      },
-      {
-        "query": "台湾 邦交国 列表 2026",
-        "impressions": 29,
-        "clicks": 0
-      },
-      {
-        "query": "baek jong won",
-        "impressions": 28,
-        "clicks": 0
-      },
-      {
-        "query": "邱繼弘",
-        "impressions": 27,
-        "clicks": 3
-      },
-      {
-        "query": "baek jong-won",
-        "impressions": 27,
-        "clicks": 0
-      },
-      {
-        "query": "taiwan ministry of foreign affairs diplomatic allies list 2026",
-        "impressions": 27,
-        "clicks": 0
-      },
-      {
-        "query": "台灣 日治時期",
-        "impressions": 27,
-        "clicks": 0
-      },
-      {
-        "query": "林琪兒太空人",
-        "impressions": 26,
-        "clicks": 2
-      },
-      {
-        "query": "台灣邦交國數量變化",
-        "impressions": 26,
         "clicks": 1
       },
       {
-        "query": "台湾 邦交国 2026",
-        "impressions": 26,
-        "clicks": 0
-      },
-      {
-        "query": "有感筆電哪裡人",
-        "impressions": 26,
-        "clicks": 0
-      },
-      {
-        "query": "蔡阿嘎",
-        "impressions": 26,
-        "clicks": 0
-      },
-      {
-        "query": "lee yang wang chi lin",
-        "impressions": 25,
-        "clicks": 0
-      },
-      {
-        "query": "mdtaiwan",
-        "impressions": 25,
-        "clicks": 0
-      },
-      {
-        "query": "taiwan diplomatic recognition 2026",
-        "impressions": 25,
-        "clicks": 0
-      },
-      {
-        "query": "イ ジュウン",
-        "impressions": 24,
-        "clicks": 2
-      },
-      {
-        "query": "acer parent company country origin taiwan",
-        "impressions": 24,
-        "clicks": 0
-      },
-      {
-        "query": "current number of countries with formal diplomatic relations with taiwan roc 2026",
-        "impressions": 24,
-        "clicks": 0
-      },
-      {
-        "query": "中華民國 邦交國 2026",
-        "impressions": 24,
-        "clicks": 0
-      },
-      {
-        "query": "手路菜意思",
-        "impressions": 24,
+        "query": "台灣 邦交國 最新 2026",
+        "impressions": 31,
         "clicks": 0
       },
       {
         "query": "台湾 形",
-        "impressions": 23,
+        "impressions": 29,
         "clicks": 1
       },
       {
-        "query": "台灣 邦交國 數量 2026",
-        "impressions": 23,
+        "query": "countries that have diplomatic relations with taiwan 2026",
+        "impressions": 29,
         "clicks": 0
       },
       {
-        "query": "日本統治台灣時間",
-        "impressions": 23,
+        "query": "number of countries with diplomatic relations with taiwan 2026",
+        "impressions": 29,
         "clicks": 0
       },
       {
-        "query": "傳奇網路",
-        "impressions": 22,
-        "clicks": 3
+        "query": "台灣獼猴智商",
+        "impressions": 28,
+        "clicks": 1
       },
       {
-        "query": "蕭上農背景",
-        "impressions": 22,
-        "clicks": 2
-      },
-      {
-        "query": "\"陳光輝\" 學術倫理",
-        "impressions": 22,
+        "query": "ptt 대만",
+        "impressions": 28,
         "clicks": 0
       },
       {
-        "query": "current number of countries with formal diplomatic relations with taiwan 2026",
-        "impressions": 22,
+        "query": "taiwan diplomatic relations 2026",
+        "impressions": 28,
+        "clicks": 0
+      },
+      {
+        "query": "台灣有幾個邦交國",
+        "impressions": 28,
+        "clicks": 0
+      },
+      {
+        "query": "張懸",
+        "impressions": 27,
+        "clicks": 1
+      },
+      {
+        "query": "대만 ptt",
+        "impressions": 27,
+        "clicks": 1
+      },
+      {
+        "query": "\"mr. snake\" lai he",
+        "impressions": 27,
         "clicks": 0
       },
       {
         "query": "list of countries with diplomatic relations with taiwan 2026",
+        "impressions": 27,
+        "clicks": 0
+      },
+      {
+        "query": "mdtaiwan",
+        "impressions": 27,
+        "clicks": 0
+      },
+      {
+        "query": "taiwan diplomatic relations countries list 2026",
+        "impressions": 27,
+        "clicks": 0
+      },
+      {
+        "query": "台湾邦交国名单",
+        "impressions": 27,
+        "clicks": 0
+      },
+      {
+        "query": "日本統治台灣時間",
+        "impressions": 27,
+        "clicks": 0
+      },
+      {
+        "query": "日治台灣",
+        "impressions": 27,
+        "clicks": 0
+      },
+      {
+        "query": "有感筆電真實名字",
+        "impressions": 27,
+        "clicks": 0
+      },
+      {
+        "query": "current number of countries with diplomatic relations with taiwan 2026",
+        "impressions": 26,
+        "clicks": 0
+      },
+      {
+        "query": "hou hsiao-hsien over 50 awards official biography",
+        "impressions": 26,
+        "clicks": 0
+      },
+      {
+        "query": "中华民国 邦交国 列表 2026",
+        "impressions": 26,
+        "clicks": 0
+      },
+      {
+        "query": "taiwan.md",
+        "impressions": 25,
+        "clicks": 16
+      },
+      {
+        "query": "taiwan diplomatic allies current number 2026",
+        "impressions": 25,
+        "clicks": 0
+      },
+      {
+        "query": "taiwan diplomatic allies list latest",
+        "impressions": 25,
+        "clicks": 0
+      },
+      {
+        "query": "taiwan economic miracle",
+        "impressions": 25,
+        "clicks": 0
+      },
+      {
+        "query": "current number of countries with formal diplomatic relations with taiwan 2026",
+        "impressions": 24,
+        "clicks": 0
+      },
+      {
+        "query": "中華民國 邦交國 數量 2026",
+        "impressions": 24,
+        "clicks": 0
+      },
+      {
+        "query": "2026台灣邦交國",
+        "impressions": 23,
+        "clicks": 1
+      },
+      {
+        "query": "台灣邦交國數量變化",
+        "impressions": 23,
+        "clicks": 1
+      },
+      {
+        "query": "中华民国 邦交国 数量 2026",
+        "impressions": 23,
+        "clicks": 0
+      },
+      {
+        "query": "台灣有幾個動物園",
+        "impressions": 23,
+        "clicks": 0
+      },
+      {
+        "query": "林琪兒母親",
+        "impressions": 22,
+        "clicks": 1
+      },
+      {
+        "query": "hou hsiao-hsien more than 50 awards biography",
         "impressions": 22,
         "clicks": 0
       },
       {
-        "query": "mark liu ceo tsmc j.d.",
+        "query": "taiwan diplomatic allies 2026 number of countries",
         "impressions": 22,
         "clicks": 0
       },
       {
-        "query": "taiwan. md",
-        "impressions": 21,
-        "clicks": 14
+        "query": "taiwan ministry of foreign affairs diplomatic allies 2026",
+        "impressions": 22,
+        "clicks": 0
       },
       {
-        "query": "\"cho-yun hsu\" student archaeologist",
+        "query": "台灣目前邦交國數量",
+        "impressions": 22,
+        "clicks": 0
+      },
+      {
+        "query": "台灣50大企業",
+        "impressions": 21,
+        "clicks": 1
+      },
+      {
+        "query": "hsu cho-yun li ji mentor",
         "impressions": 21,
         "clicks": 0
       },
       {
-        "query": "taiwan diplomatic allies current list",
+        "query": "lee yang wang chi lin",
         "impressions": 21,
         "clicks": 0
       },
       {
-        "query": "taiwan diplomatic recognition number of countries 2026",
+        "query": "taiwan diplomatic allies number 2026 official ministry of foreign affairs taiwan",
         "impressions": 21,
         "clicks": 0
       },
       {
-        "query": "taiwan ministry of foreign affairs diplomatic allies number 2026",
+        "query": "パク・ミンソ",
         "impressions": 21,
         "clicks": 0
       },
       {
-        "query": "中华民国 邦交国 2026",
+        "query": "台灣十大企業排名",
         "impressions": 21,
         "clicks": 0
       },
       {
-        "query": "李洋",
-        "impressions": 21,
-        "clicks": 0
-      },
-      {
-        "query": "lee yang/wang chi-lin",
+        "query": "number of countries with formal diplomatic relations with taiwan 2026",
         "impressions": 20,
         "clicks": 0
       },
       {
-        "query": "tainan \"taiwan's kitchen\"",
+        "query": "孫運璿",
         "impressions": 20,
         "clicks": 0
       },
       {
-        "query": "海端布農傳統祭儀歌謠隊 八部合音 官方",
+        "query": "手路菜意思",
         "impressions": 20,
         "clicks": 0
       },
@@ -1291,82 +1356,102 @@
         "clicks": 0
       },
       {
-        "query": "vast & hazy的成員",
+        "query": "countries that recognize republic of china taiwan diplomatic relations 2026",
         "impressions": 19,
         "clicks": 0
       },
       {
-        "query": "台灣獼猴智商",
+        "query": "hou hsiao-hsien over 50 awards biography",
         "impressions": 19,
         "clicks": 0
       },
       {
-        "query": "巧固球世界排名",
+        "query": "lin yang duo",
         "impressions": 19,
         "clicks": 0
       },
       {
-        "query": "太空人林琪兒醫師",
+        "query": "中華民國 邦交國 最新 2026",
+        "impressions": 19,
+        "clicks": 0
+      },
+      {
+        "query": "台灣移工人數2026",
+        "impressions": 19,
+        "clicks": 0
+      },
+      {
+        "query": "有感筆電哪裡人",
+        "impressions": 19,
+        "clicks": 0
+      },
+      {
+        "query": "林懷民",
+        "impressions": 19,
+        "clicks": 0
+      },
+      {
+        "query": "蕭上農wiki",
         "impressions": 18,
         "clicks": 1
       },
       {
-        "query": "\"shopee\" digital transformation strategy",
+        "query": "cho-yun hsu studied under li ji",
         "impressions": 18,
         "clicks": 0
       },
       {
-        "query": "taiwan diplomatic allies list april 2026",
+        "query": "current number of countries with formal diplomatic relations with taiwan roc 2026",
         "impressions": 18,
         "clicks": 0
       },
       {
-        "query": "パク・ミンソ",
+        "query": "taiwan diplomatic allies 2026 number of countries recognizing taiwan",
         "impressions": 18,
         "clicks": 0
       },
       {
-        "query": "交工樂隊",
+        "query": "taiwan ministry of foreign affairs diplomatic allies number 2026",
         "impressions": 18,
         "clicks": 0
       },
       {
-        "query": "台湾 宗教",
+        "query": "与台湾建交的国家 2026",
         "impressions": 18,
         "clicks": 0
       },
       {
-        "query": "hur+",
+        "query": "为反动于“横的移植”而成立的诗社",
+        "impressions": 18,
+        "clicks": 0
+      },
+      {
+        "query": "台灣邦交國人口數",
+        "impressions": 18,
+        "clicks": 0
+      },
+      {
+        "query": "獸迷",
+        "impressions": 18,
+        "clicks": 0
+      },
+      {
+        "query": "馬英九迷因",
         "impressions": 17,
         "clicks": 1
       },
       {
-        "query": "イ・ジュウン",
-        "impressions": 17,
-        "clicks": 1
-      },
-      {
-        "query": "nasa 林琪兒",
+        "query": "\"cho-yun hsu\" student archaeology",
         "impressions": 17,
         "clicks": 0
       },
       {
-        "query": "number of countries with diplomatic relations with taiwan 2026",
+        "query": "current diplomatic allies of taiwan 2026",
         "impressions": 17,
         "clicks": 0
       },
       {
-        "query": "popular seafood in the philippines and taiwan",
-        "impressions": 17,
-        "clicks": 0
-      },
-      {
-        "query": "ptt 台湾",
-        "impressions": 17,
-        "clicks": 0
-      },
-      {
-        "query": "taiwan diplomatic allies 2026 number",
+        "query": "tainan \"taiwan's kitchen\"",
         "impressions": 17,
         "clicks": 0
       },
@@ -1376,302 +1461,277 @@
         "clicks": 0
       },
       {
-        "query": "taiwan diplomatic relations 2026",
+        "query": "taiwan diplomatic allies count 2026",
         "impressions": 17,
         "clicks": 0
       },
       {
-        "query": "偏鄉教育",
+        "query": "台湾 宗教",
         "impressions": 17,
         "clicks": 0
       },
       {
-        "query": "台灣邦交國名單",
+        "query": "台灣 邦交",
         "impressions": 17,
         "clicks": 0
       },
       {
-        "query": "植劇場",
+        "query": "台灣外交國",
         "impressions": 17,
         "clicks": 0
       },
       {
-        "query": "謝德慶",
-        "impressions": 17,
-        "clicks": 0
-      },
-      {
-        "query": "馬英九迷因",
+        "query": "邱繼弘",
         "impressions": 16,
-        "clicks": 2
-      },
-      {
-        "query": "\"cho-yun hsu\" student archaeology",
-        "impressions": 16,
-        "clicks": 0
-      },
-      {
-        "query": "\"国立台南芸術大学\"",
-        "impressions": 16,
-        "clicks": 0
-      },
-      {
-        "query": "current number of countries with diplomatic relations with taiwan 2026",
-        "impressions": 16,
-        "clicks": 0
-      },
-      {
-        "query": "taiwan diplomatic relations number of countries recognizing taiwan 2026",
-        "impressions": 16,
-        "clicks": 0
-      },
-      {
-        "query": "李遠哲",
-        "impressions": 16,
-        "clicks": 0
-      },
-      {
-        "query": "白瑋崙",
-        "impressions": 16,
-        "clicks": 0
-      },
-      {
-        "query": "神豬",
-        "impressions": 16,
-        "clicks": 0
-      },
-      {
-        "query": "臺灣大百科 朱一貴事件",
-        "impressions": 16,
-        "clicks": 0
-      },
-      {
-        "query": "countries that recognize republic of china taiwan diplomatic relations 2026",
-        "impressions": 15,
-        "clicks": 0
-      },
-      {
-        "query": "hsu cho-yun li ji",
-        "impressions": 15,
-        "clicks": 0
-      },
-      {
-        "query": "lin yang duo",
-        "impressions": 15,
-        "clicks": 0
-      },
-      {
-        "query": "m.d.",
-        "impressions": 15,
-        "clicks": 0
-      },
-      {
-        "query": "site:taiwan.md",
-        "impressions": 15,
-        "clicks": 0
-      },
-      {
-        "query": "taiwan ministry of foreign affairs diplomatic allies official",
-        "impressions": 15,
-        "clicks": 0
-      },
-      {
-        "query": "中华民国 邦交国 数量 2026",
-        "impressions": 15,
-        "clicks": 0
-      },
-      {
-        "query": "台灣前十大企業",
-        "impressions": 15,
-        "clicks": 0
-      },
-      {
-        "query": "台灣十大企業排名",
-        "impressions": 15,
-        "clicks": 0
-      },
-      {
-        "query": "日月光半導体",
-        "impressions": 15,
-        "clicks": 0
-      },
-      {
-        "query": "台灣50大企業名單",
-        "impressions": 14,
         "clicks": 1
       },
       {
-        "query": "\"xiqin opera\" melody",
-        "impressions": 14,
+        "query": "characteristics of hot spring water in jiaoxi and beitou",
+        "impressions": 16,
         "clicks": 0
       },
       {
-        "query": "jerry yang immigrated age 10",
-        "impressions": 14,
+        "query": "hou hsiao-hsien awards more than 50 official biography",
+        "impressions": 16,
         "clicks": 0
       },
       {
-        "query": "taiwan current diplomatic allies 2026",
-        "impressions": 14,
+        "query": "lee yang/wang chi-lin",
+        "impressions": 16,
         "clicks": 0
       },
       {
-        "query": "taiwan diplomatic allies 2026 number of countries",
-        "impressions": 14,
+        "query": "taiwan diplomatic allies number current",
+        "impressions": 16,
         "clicks": 0
       },
       {
-        "query": "中華民國邦交國",
-        "impressions": 14,
+        "query": "taiwan number of diplomatic allies may 2026",
+        "impressions": 16,
         "clicks": 0
       },
       {
-        "query": "台湾ptt是什么",
-        "impressions": 14,
+        "query": "中華民國 邦交國 列表 2026",
+        "impressions": 16,
         "clicks": 0
       },
       {
-        "query": "基隆 路名 清法战争 指挥官",
-        "impressions": 14,
+        "query": "反动于“横的移植” 诗社",
+        "impressions": 16,
         "clicks": 0
       },
       {
-        "query": "楊傳廣",
-        "impressions": 14,
+        "query": "台灣12個邦交國",
+        "impressions": 16,
+        "clicks": 0
+      },
+      {
+        "query": "台灣邦交國有幾個",
+        "impressions": 16,
+        "clicks": 0
+      },
+      {
+        "query": "周智宣是誰",
+        "impressions": 16,
         "clicks": 0
       }
     ]
   },
   "cloudflare7d": {
-    "label": "2026-04-25 to 2026-05-02 (7d)",
-    "startDate": "2026-04-25",
-    "endDate": "2026-05-02",
+    "label": "2026-04-30 to 2026-05-07 (7d)",
+    "startDate": "2026-04-30",
+    "endDate": "2026-05-07",
     "days": 7,
     "summary": {
-      "requests": 279905,
-      "pageViews": 74826,
-      "uniques": 51424,
-      "cachedRequests": 51836,
-      "threats": 290,
-      "bytes": 18331904480
+      "requests": 378442,
+      "pageViews": 123533,
+      "uniques": 69158,
+      "cachedRequests": 49762,
+      "threats": 119,
+      "bytes": 28085386410
     },
     "statusBreakdown": [
       {
         "status": 200,
-        "count": 195584
-      },
-      {
-        "status": 404,
-        "count": 28326
+        "count": 235278
       },
       {
         "status": 301,
-        "count": 26422
+        "count": 58676
+      },
+      {
+        "status": 404,
+        "count": 50771
       },
       {
         "status": 204,
-        "count": 25003
+        "count": 23048
       },
       {
         "status": 304,
-        "count": 2457
+        "count": 5367
       },
       {
         "status": 206,
-        "count": 1552
-      },
-      {
-        "status": 403,
-        "count": 291
+        "count": 4860
       },
       {
         "status": 499,
-        "count": 240
+        "count": 239
       },
       {
-        "status": 522,
-        "count": 11
-      },
-      {
-        "status": 503,
-        "count": 9
+        "status": 403,
+        "count": 119
       },
       {
         "status": 405,
-        "count": 8
+        "count": 41
+      },
+      {
+        "status": 522,
+        "count": 22
+      },
+      {
+        "status": 503,
+        "count": 20
       },
       {
         "status": 400,
-        "count": 2
+        "count": 1
       }
     ],
-    "fourOhFourRate": 10.12,
+    "fourOhFourRate": 13.42,
     "traffic": {
       "topCountries": [
         {
           "country": "Taiwan",
           "code": "TW",
-          "requests": 106593
+          "requests": 129237
         },
         {
           "country": "United States",
           "code": "US",
-          "requests": 96511
+          "requests": 112024
         },
         {
           "country": "Singapore",
           "code": "SG",
-          "requests": 20441
-        },
-        {
-          "country": "China",
-          "code": "CN",
-          "requests": 7961
-        },
-        {
-          "country": "Japan",
-          "code": "JP",
-          "requests": 7880
+          "requests": 34882
         },
         {
           "country": "Vietnam",
           "code": "VN",
-          "requests": 4891
+          "requests": 21984
+        },
+        {
+          "country": "China",
+          "code": "CN",
+          "requests": 10025
+        },
+        {
+          "country": "Germany",
+          "code": "DE",
+          "requests": 9714
         },
         {
           "country": "France",
           "code": "FR",
-          "requests": 4518
+          "requests": 9050
         },
         {
-          "country": "Canada",
-          "code": "CA",
-          "requests": 4513
-        },
-        {
-          "country": "Hong Kong",
-          "code": "HK",
-          "requests": 3960
+          "country": "Japan",
+          "code": "JP",
+          "requests": 7554
         },
         {
           "country": "Malaysia",
           "code": "MY",
-          "requests": 3951
+          "requests": 3903
+        },
+        {
+          "country": "Hong Kong",
+          "code": "HK",
+          "requests": 3594
         }
       ]
     },
     "dailyBreakdown": [
       {
+        "date": "2026-05-07",
+        "requests": 6194,
+        "pageViews": 2155,
+        "cachedRequests": 420,
+        "threats": 0,
+        "bytes": 644418759,
+        "uniques": 1471,
+        "status200": 3848,
+        "status404": 539,
+        "status4xx": 546,
+        "status5xx": 0
+      },
+      {
+        "date": "2026-05-06",
+        "requests": 46116,
+        "pageViews": 17094,
+        "cachedRequests": 2200,
+        "threats": 2,
+        "bytes": 3969976395,
+        "uniques": 9685,
+        "status200": 26799,
+        "status404": 6239,
+        "status4xx": 6277,
+        "status5xx": 10
+      },
+      {
+        "date": "2026-05-05",
+        "requests": 52322,
+        "pageViews": 19577,
+        "cachedRequests": 7090,
+        "threats": 18,
+        "bytes": 4396455248,
+        "uniques": 16831,
+        "status200": 35123,
+        "status404": 4623,
+        "status4xx": 4673,
+        "status5xx": 7
+      },
+      {
+        "date": "2026-05-04",
+        "requests": 81437,
+        "pageViews": 27277,
+        "cachedRequests": 6998,
+        "threats": 36,
+        "bytes": 6097206440,
+        "uniques": 9508,
+        "status200": 43967,
+        "status404": 20763,
+        "status4xx": 20865,
+        "status5xx": 4
+      },
+      {
+        "date": "2026-05-03",
+        "requests": 53850,
+        "pageViews": 19965,
+        "cachedRequests": 5627,
+        "threats": 27,
+        "bytes": 3309106058,
+        "uniques": 8894,
+        "status200": 31915,
+        "status404": 6026,
+        "status4xx": 6074,
+        "status5xx": 6
+      },
+      {
         "date": "2026-05-02",
-        "requests": 39760,
-        "pageViews": 12372,
-        "cachedRequests": 5188,
-        "threats": 20,
-        "bytes": 2971765050,
-        "uniques": 6867,
-        "status200": 26869,
-        "status404": 3159,
-        "status4xx": 3212,
+        "requests": 54777,
+        "pageViews": 16174,
+        "cachedRequests": 8908,
+        "threats": 31,
+        "bytes": 3789301957,
+        "uniques": 8454,
+        "status200": 34282,
+        "status404": 4168,
+        "status4xx": 4238,
         "status5xx": 3
       },
       {
@@ -1699,197 +1759,132 @@
         "status404": 2341,
         "status4xx": 2392,
         "status5xx": 9
-      },
-      {
-        "date": "2026-04-29",
-        "requests": 29318,
-        "pageViews": 7065,
-        "cachedRequests": 5473,
-        "threats": 0,
-        "bytes": 2285391131,
-        "uniques": 5125,
-        "status200": 21111,
-        "status404": 2874,
-        "status4xx": 2909,
-        "status5xx": 1
-      },
-      {
-        "date": "2026-04-28",
-        "requests": 27669,
-        "pageViews": 7578,
-        "cachedRequests": 4353,
-        "threats": 254,
-        "bytes": 1795949271,
-        "uniques": 6184,
-        "status200": 19567,
-        "status404": 2402,
-        "status4xx": 2681,
-        "status5xx": 1
-      },
-      {
-        "date": "2026-04-27",
-        "requests": 28883,
-        "pageViews": 8008,
-        "cachedRequests": 4575,
-        "threats": 10,
-        "bytes": 1671398859,
-        "uniques": 6055,
-        "status200": 20261,
-        "status404": 3287,
-        "status4xx": 3325,
-        "status5xx": 1
-      },
-      {
-        "date": "2026-04-26",
-        "requests": 40969,
-        "pageViews": 8819,
-        "cachedRequests": 11634,
-        "threats": 1,
-        "bytes": 2194259885,
-        "uniques": 7459,
-        "status200": 30720,
-        "status404": 2907,
-        "status4xx": 2940,
-        "status5xx": 0
-      },
-      {
-        "date": "2026-04-25",
-        "requests": 29560,
-        "pageViews": 9693,
-        "cachedRequests": 2094,
-        "threats": 0,
-        "bytes": 1534218731,
-        "uniques": 5419,
-        "status200": 17712,
-        "status404": 5284,
-        "status4xx": 5302,
-        "status5xx": 2
       }
     ],
     "aiCrawlers": {
-      "detectedRequests": 72998,
-      "http200": 41450,
-      "allowedRequests": 72998,
-      "unsuccessfulRequests": 31548,
+      "detectedRequests": 113427,
+      "http200": 63362,
+      "allowedRequests": 113427,
+      "unsuccessfulRequests": 50065,
       "topCrawler": {
-        "name": "BingBot",
-        "requests": 10488,
-        "http200": 5333,
-        "category": "Microsoft"
+        "name": "PerplexityBot",
+        "requests": 15019,
+        "http200": 7921,
+        "category": "Perplexity"
       },
       "crawlers": [
         {
-          "name": "BingBot",
-          "requests": 10488,
-          "http200": 5333,
-          "category": "Microsoft"
-        },
-        {
-          "name": "FacebookBot",
-          "requests": 9641,
-          "http200": 8955,
-          "category": "Meta"
-        },
-        {
           "name": "PerplexityBot",
-          "requests": 8825,
-          "http200": 4901,
+          "requests": 15019,
+          "http200": 7921,
           "category": "Perplexity"
         },
         {
-          "name": "ClaudeBot",
-          "requests": 7486,
-          "http200": 2405,
-          "category": "Anthropic"
+          "name": "BingBot",
+          "requests": 14432,
+          "http200": 7534,
+          "category": "Microsoft"
         },
         {
           "name": "Googlebot",
-          "requests": 7076,
-          "http200": 4659,
+          "requests": 13438,
+          "http200": 8352,
           "category": "Google"
         },
         {
+          "name": "Bytespider",
+          "requests": 13112,
+          "http200": 3590,
+          "category": "ByteDance"
+        },
+        {
+          "name": "FacebookBot",
+          "requests": 10235,
+          "http200": 9502,
+          "category": "Meta"
+        },
+        {
           "name": "ChatGPT-User",
-          "requests": 6351,
-          "http200": 5688,
-          "category": "OpenAI"
-        },
-        {
-          "name": "PetalBot",
-          "requests": 4473,
-          "http200": 1998,
-          "category": "Huawei"
-        },
-        {
-          "name": "OAI-SearchBot",
-          "requests": 4403,
-          "http200": 1378,
+          "requests": 9316,
+          "http200": 8035,
           "category": "OpenAI"
         },
         {
           "name": "Amazonbot",
-          "requests": 3300,
-          "http200": 1424,
+          "requests": 7242,
+          "http200": 3950,
           "category": "Amazon"
         },
         {
-          "name": "Meta-ExternalAgent",
-          "requests": 3211,
-          "http200": 1051,
-          "category": "Meta"
+          "name": "ClaudeBot",
+          "requests": 6963,
+          "http200": 2537,
+          "category": "Anthropic"
         },
         {
-          "name": "GPTBot",
-          "requests": 2517,
-          "http200": 1197,
+          "name": "OAI-SearchBot",
+          "requests": 6861,
+          "http200": 2590,
           "category": "OpenAI"
         },
         {
-          "name": "Bytespider",
-          "requests": 2508,
-          "http200": 691,
-          "category": "ByteDance"
+          "name": "PetalBot",
+          "requests": 6016,
+          "http200": 4374,
+          "category": "Huawei"
         },
         {
           "name": "Applebot",
-          "requests": 1873,
-          "http200": 1070,
+          "requests": 3896,
+          "http200": 2060,
           "category": "Apple"
         },
         {
+          "name": "GPTBot",
+          "requests": 3433,
+          "http200": 1427,
+          "category": "OpenAI"
+        },
+        {
+          "name": "Meta-ExternalAgent",
+          "requests": 2294,
+          "http200": 583,
+          "category": "Meta"
+        },
+        {
           "name": "YandexBot",
-          "requests": 729,
-          "http200": 613,
+          "requests": 826,
+          "http200": 672,
           "category": "Yandex"
         },
         {
           "name": "DuckDuckBot",
-          "requests": 62,
-          "http200": 41,
+          "requests": 244,
+          "http200": 169,
           "category": "DuckDuckGo"
         },
         {
+          "name": "CCBot",
+          "requests": 37,
+          "http200": 18,
+          "category": "CommonCrawl"
+        },
+        {
           "name": "Diffbot",
-          "requests": 40,
-          "http200": 38,
+          "requests": 35,
+          "http200": 33,
           "category": "Diffbot"
         },
         {
           "name": "Perplexity-User",
-          "requests": 9,
-          "http200": 6,
+          "requests": 28,
+          "http200": 15,
           "category": "Perplexity"
-        },
-        {
-          "name": "Claude-SearchBot",
-          "requests": 6,
-          "http200": 2,
-          "category": "Anthropic"
         }
       ],
       "period": {
-        "start": "2026-04-25T17:12:17Z",
-        "end": "2026-05-02T17:12:17Z",
+        "start": "2026-04-30T03:16:45Z",
+        "end": "2026-05-07T03:16:45Z",
         "days": 7,
         "daysFetched": 7,
         "daysFailed": 0

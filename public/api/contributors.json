@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T14:24:04.076Z",
+  "lastUpdated": "2026-05-07T03:17:05.379Z",
   "totals": {
     "contributors": 50,
     "activeWindow": "last 30d"
@@ -7,28 +7,28 @@
   "leaderboard": [
     {
       "login": "frank890417",
-      "commits": 2626,
+      "commits": 2660,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-05-04 21:53:11 +0800",
+      "lastCommitAt": "2026-05-07 00:42:02 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 570,
-        "system": 1681,
-        "translation": 587
+        "content": 580,
+        "system": 1707,
+        "translation": 594
       }
     },
     {
       "login": "idlccp1984",
-      "commits": 123,
+      "commits": 131,
       "avatarUrl": "https://avatars.githubusercontent.com/u/271929436?v=4",
       "profileUrl": "https://github.com/idlccp1984",
       "firstCommitAt": "2026-04-03 15:37:37 +0800",
-      "lastCommitAt": "2026-05-03 18:29:37 +0800",
+      "lastCommitAt": "2026-05-07 00:05:20 +0800",
       "primaryArea": "content",
       "breakdown": {
-        "content": 123,
+        "content": 131,
         "system": 0,
         "translation": 0
       }
@@ -63,16 +63,16 @@
     },
     {
       "login": "dreamline2",
-      "commits": 30,
+      "commits": 31,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4657845?v=4",
       "profileUrl": "https://github.com/dreamline2",
       "firstCommitAt": "2026-04-03 17:23:59 +0900",
-      "lastCommitAt": "2026-04-30 21:08:02 +0900",
-      "primaryArea": "translation",
+      "lastCommitAt": "2026-05-07 11:47:34 +0900",
+      "primaryArea": "system",
       "breakdown": {
         "content": 3,
-        "system": 17,
-        "translation": 17
+        "system": 19,
+        "translation": 18
       }
     },
     {
@@ -90,6 +90,20 @@
       }
     },
     {
+      "login": "Zaious",
+      "commits": 13,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/128442444?v=4",
+      "profileUrl": "https://github.com/Zaious",
+      "firstCommitAt": "2026-04-23 14:33:34 +0800",
+      "lastCommitAt": "2026-05-07 00:04:18 +0800",
+      "primaryArea": "content",
+      "breakdown": {
+        "content": 12,
+        "system": 1,
+        "translation": 0
+      }
+    },
+    {
       "login": "AgendaLu",
       "commits": 12,
       "avatarUrl": "https://avatars.githubusercontent.com/u/43836432?v=4",
@@ -104,17 +118,17 @@
       }
     },
     {
-      "login": "Zaious",
+      "login": "tboydar-agent",
       "commits": 12,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/128442444?v=4",
-      "profileUrl": "https://github.com/Zaious",
-      "firstCommitAt": "2026-04-23 14:33:34 +0800",
-      "lastCommitAt": "2026-04-30 20:05:28 +0800",
-      "primaryArea": "content",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/265199589?v=4",
+      "profileUrl": "https://github.com/tboydar-agent",
+      "firstCommitAt": "2026-03-26 08:10:16 +0800",
+      "lastCommitAt": "2026-03-27 20:04:14 +0800",
+      "primaryArea": "translation",
       "breakdown": {
-        "content": 11,
-        "system": 1,
-        "translation": 0
+        "content": 1,
+        "system": 0,
+        "translation": 2
       }
     },
     {
@@ -129,20 +143,6 @@
         "content": 0,
         "system": 12,
         "translation": 4
-      }
-    },
-    {
-      "login": "tboydar-agent",
-      "commits": 11,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/265199589?v=4",
-      "profileUrl": "https://github.com/tboydar-agent",
-      "firstCommitAt": "2026-03-26 08:10:16 +0800",
-      "lastCommitAt": "2026-03-27 20:04:14 +0800",
-      "primaryArea": "translation",
-      "breakdown": {
-        "content": 1,
-        "system": 0,
-        "translation": 2
       }
     },
     {
@@ -249,11 +249,11 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/169805?v=4",
       "profileUrl": "https://github.com/tboydar",
       "firstCommitAt": "2026-03-23 22:51:19 +0800",
-      "lastCommitAt": "2026-04-19 23:57:56 +0800",
+      "lastCommitAt": "2026-05-07 00:03:53 +0800",
       "primaryArea": "content",
       "breakdown": {
-        "content": 7,
-        "system": 2,
+        "content": 8,
+        "system": 3,
         "translation": 5
       }
     },
@@ -289,14 +289,14 @@
   "topContent": [
     {
       "login": "idlccp1984",
-      "commits": 123,
+      "commits": 131,
       "avatarUrl": "https://avatars.githubusercontent.com/u/271929436?v=4",
       "profileUrl": "https://github.com/idlccp1984",
       "firstCommitAt": "2026-04-03 15:37:37 +0800",
-      "lastCommitAt": "2026-05-03 18:29:37 +0800",
+      "lastCommitAt": "2026-05-07 00:05:20 +0800",
       "primaryArea": "content",
       "breakdown": {
-        "content": 123,
+        "content": 131,
         "system": 0,
         "translation": 0
       }
@@ -317,14 +317,14 @@
     },
     {
       "login": "Zaious",
-      "commits": 12,
+      "commits": 13,
       "avatarUrl": "https://avatars.githubusercontent.com/u/128442444?v=4",
       "profileUrl": "https://github.com/Zaious",
       "firstCommitAt": "2026-04-23 14:33:34 +0800",
-      "lastCommitAt": "2026-04-30 20:05:28 +0800",
+      "lastCommitAt": "2026-05-07 00:04:18 +0800",
       "primaryArea": "content",
       "breakdown": {
-        "content": 11,
+        "content": 12,
         "system": 1,
         "translation": 0
       }
@@ -335,11 +335,11 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/169805?v=4",
       "profileUrl": "https://github.com/tboydar",
       "firstCommitAt": "2026-03-23 22:51:19 +0800",
-      "lastCommitAt": "2026-04-19 23:57:56 +0800",
+      "lastCommitAt": "2026-05-07 00:03:53 +0800",
       "primaryArea": "content",
       "breakdown": {
-        "content": 7,
-        "system": 2,
+        "content": 8,
+        "system": 3,
         "translation": 5
       }
     },
@@ -361,16 +361,30 @@
   "topSystem": [
     {
       "login": "frank890417",
-      "commits": 2626,
+      "commits": 2660,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-05-04 21:53:11 +0800",
+      "lastCommitAt": "2026-05-07 00:42:02 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 570,
-        "system": 1681,
-        "translation": 587
+        "content": 580,
+        "system": 1707,
+        "translation": 594
+      }
+    },
+    {
+      "login": "dreamline2",
+      "commits": 31,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4657845?v=4",
+      "profileUrl": "https://github.com/dreamline2",
+      "firstCommitAt": "2026-04-03 17:23:59 +0900",
+      "lastCommitAt": "2026-05-07 11:47:34 +0900",
+      "primaryArea": "system",
+      "breakdown": {
+        "content": 3,
+        "system": 19,
+        "translation": 18
       }
     },
     {
@@ -414,20 +428,6 @@
         "system": 10,
         "translation": 1
       }
-    },
-    {
-      "login": "hansai-art",
-      "commits": 5,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/132933660?v=4",
-      "profileUrl": "https://github.com/hansai-art",
-      "firstCommitAt": "2026-03-18 21:37:00 +0800",
-      "lastCommitAt": "2026-03-18 23:15:33 +0800",
-      "primaryArea": "system",
-      "breakdown": {
-        "content": 2,
-        "system": 3,
-        "translation": 0
-      }
     }
   ],
   "topTranslation": [
@@ -460,22 +460,8 @@
       }
     },
     {
-      "login": "dreamline2",
-      "commits": 30,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4657845?v=4",
-      "profileUrl": "https://github.com/dreamline2",
-      "firstCommitAt": "2026-04-03 17:23:59 +0900",
-      "lastCommitAt": "2026-04-30 21:08:02 +0900",
-      "primaryArea": "translation",
-      "breakdown": {
-        "content": 3,
-        "system": 17,
-        "translation": 17
-      }
-    },
-    {
       "login": "tboydar-agent",
-      "commits": 11,
+      "commits": 12,
       "avatarUrl": "https://avatars.githubusercontent.com/u/265199589?v=4",
       "profileUrl": "https://github.com/tboydar-agent",
       "firstCommitAt": "2026-03-26 08:10:16 +0800",
@@ -499,6 +485,20 @@
         "content": 0,
         "system": 0,
         "translation": 7
+      }
+    },
+    {
+      "login": "ceruleanstring",
+      "commits": 4,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/265435204?v=4",
+      "profileUrl": "https://github.com/ceruleanstring",
+      "firstCommitAt": "2026-04-07 19:58:17 +0800",
+      "lastCommitAt": "2026-04-15 12:29:57 +0800",
+      "primaryArea": "translation",
+      "breakdown": {
+        "content": 0,
+        "system": 0,
+        "translation": 161
       }
     }
   ],
@@ -563,14 +563,14 @@
     },
     {
       "login": "Zaious",
-      "commits": 12,
+      "commits": 13,
       "avatarUrl": "https://avatars.githubusercontent.com/u/128442444?v=4",
       "profileUrl": "https://github.com/Zaious",
       "firstCommitAt": "2026-04-23 14:33:34 +0800",
-      "lastCommitAt": "2026-04-30 20:05:28 +0800",
+      "lastCommitAt": "2026-05-07 00:04:18 +0800",
       "primaryArea": "content",
       "breakdown": {
-        "content": 11,
+        "content": 12,
         "system": 1,
         "translation": 0
       }

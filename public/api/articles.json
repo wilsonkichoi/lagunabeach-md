@@ -151,17 +151,6 @@
     "path": "ko/People/su-chiao-hui.md"
   },
   {
-    "title": "\"호국신산(護國神山)\"이 양날의 검이 되다: 대만과 태풍의 지리적 숙명",
-    "description": "일제강점기의 기상 관측부터 모라궤(莫拉克) 태풍에 의한 마을 전멸, 태풍 휴일 문화와 기술적 조기경보에 이르기까지, 이 섬이 매년 3.5개의 태풍과 어떻게 공존하는지를 새롭게 이해한다.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/Nature/typhoons-in-taiwan",
-    "readingTime": 23,
-    "featured": false,
-    "date": "2026-04-16",
-    "path": "ko/Nature/typhoons-in-taiwan.md"
-  },
-  {
     "title": "« A Shen »",
     "description": "Le 15 octobre 2023, A Shen, streamer de jeux vidéo comptant 300 000 abonnés, a mis en ligne sa dernière vidéo, mettant officiellement fin à 14 ans de carrière créative. Cet artiste, devenu célèbre grâce à ses séries sur *Minecraft* et auteur du mythe d'une mise à jour quotidienne ininterrompue pendant 11 ans consécutifs, a choisi de se retirer au sommet de sa carrière, avouant avoir « vécu comme une machine », révélant ainsi la lutte acharnée que mènent les créateurs de premier plan entre l'algorithme et leur propre existence.",
     "category": "fr",
@@ -242,17 +231,6 @@
     "featured": false,
     "date": "2026-03-31",
     "path": "ja/People/george-leslie-mackay.md"
-  },
-  {
-    "title": "「護国神山」が諸刃の剣となるとき：台湾と台風の地理的宿命",
-    "description": "日治時代の気象観測からモラカット台風による集落壊滅、さらに台風休暇の文化や科技を活用した早期警戒まで、この島が毎年3.5 個の台風とどう共生しているかを再考します。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Nature/typhoons-in-taiwan",
-    "readingTime": 7,
-    "featured": false,
-    "date": "2026-04-16",
-    "path": "ja/Nature/typhoons-in-taiwan.md"
   },
   {
     "title": "「본섬 셔츠」를 입은 「장화 마조」 라이허, 그리고 타협하지 않던 저울대",
@@ -1057,6 +1035,23 @@
     "path": "History/心戰.md"
   },
   {
+    "title": "斗笠：龍肚國中旁那對夫妻，把六十年的桂竹編進一頂帽子裡",
+    "description": "2017 年高雄美濃林榮春八十多歲還在削竹篾，2014 年台南龍崎陳連親奶奶八十六歲一小時做一頂；花蓮富里徐貴珠 2016 年一頂只賣 150 元；2022 年客傳會《傳、傳》紀錄片裡苗栗吳進運、徐寶妹做了五十年。新竹芎林全盛期家家戶戶堆桂竹，桃園蘆竹坑子三十戶日產百頂——如今全島會做粗工斗笠的師傅多半超過七十歲，2024 年原保地禁伐補償加碼到每公頃 6 萬元後連桂竹採料都在斷鏈。斗笠沒從田裡消失，消失的是會把竹葉夾進竹篾骨架、再用棉線一圈圈固定下來的那雙手。",
+    "category": "Culture",
+    "tags": [
+      "傳統工藝",
+      "客家",
+      "竹編",
+      "農村",
+      "無形文化資產"
+    ],
+    "url": "https://taiwan.md/Culture/%E6%96%97%E7%AC%A0",
+    "readingTime": 45,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "Culture/斗笠.md"
+  },
+  {
     "title": "方序中",
     "description": "金曲獎金馬獎視覺設計操刀者，究方社創辦人，台灣視覺識別設計領軍人物",
     "category": "People",
@@ -1263,7 +1258,7 @@
       "LGBTQ+"
     ],
     "url": "https://taiwan.md/People/%E7%8E%8B%E5%B0%8F%E6%A3%A3",
-    "readingTime": 17,
+    "readingTime": 18,
     "featured": false,
     "date": "2026-03-28",
     "path": "People/王小棣.md"
@@ -1377,6 +1372,28 @@
     "path": "ja/Art/aluan-wang.md"
   },
   {
+    "title": "王福瑞：200部のコピー雑誌から12チャンネルスピーカーへの三十年",
+    "description": "1993年、24歳の王福瑞はプログラマーの給料で、自宅のコピー機を用いて実験音楽雑誌『NOISE』を200部印刷し、1冊15元から30元で販売しました。三十年後（2020年）、彼は就在藝術空間に多面体12チャンネル全指向性スピーカーを設置し、大病を患った後に体内の人工血管が発する微細な周波数を作品にしました。一人のDIYレーベルから美術館の展示空間へ、彼は三十年かけて「噪音」という言葉を、周縁的なファンサイン（fanzine）コミュニティの暗号から、台湾のサウンドアートにおける正当な語彙へと導きました。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/People/fujui-wang",
+    "readingTime": 44,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "ja/People/fujui-wang.md"
+  },
+  {
+    "title": "王福瑞：從 200 份影印雜誌到 12 聲道喇叭的三十年",
+    "description": "1993 年，24 歲的王福瑞用程式設計師薪水，在自家影印機印 200 份《NOISE》實驗音樂雜誌，售價 15 到 30 元一本。三十年後（2020）他在就在藝術空間掛起多面體 12 聲道全指向喇叭，作品是大病過後身體裡人工血管的細碎頻率。從一個人的 DIY 廠牌到美術館的展廳，他用三十年讓「噪音」這個詞從邊緣 fanzine 圈的暗號，走進台灣聲音藝術的合法語彙。",
+    "category": "People",
+    "tags": [],
+    "url": "https://taiwan.md/People/%E7%8E%8B%E7%A6%8F%E7%91%9E",
+    "readingTime": 35,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "People/王福瑞.md"
+  },
+  {
     "title": "王齊麟與李洋（麟洋配）",
     "description": "從國中同學到奧運金牌：「麟洋配」34分鐘內直落二擊敗中國，寫下台灣羽球史上第一面奧運金牌",
     "category": "People",
@@ -1457,26 +1474,30 @@
     "title": "北大特區：三十年都市計畫與大學城生活實驗",
     "description": "從 1895 年的隆恩埔古戰場到 2026 年的捷運大學城，這是一部關於土地、美學與選擇性認同的深度百科全書。",
     "category": "Geography",
-    "tags": [
-      "三峽",
-      "樹林",
-      "台北大學",
-      "藝術大道",
-      "三鶯線",
-      "明星學區",
-      "建築美學",
-      "軌道經濟",
-      "仕紳化",
-      "選擇性認同",
-      "迎尪公",
-      "遶境",
-      "李梅樹"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/Geography/%E5%8C%97%E5%A4%A7%E7%89%B9%E5%8D%80",
-    "readingTime": 35,
+    "readingTime": 36,
     "featured": false,
     "date": "2026-04-29",
     "path": "Geography/北大特區.md"
+  },
+  {
+    "title": "半導体産業",
+    "description": "張忠謀の歴史的賭けから2ナノメートル時代へ：TSMC（台湾積体電路製造）がいかにして台湾を世界の科学技術の生命線にしたか",
+    "category": "ja",
+    "tags": [
+      "半導体",
+      "TSMC",
+      "台積電",
+      "先進プロセス",
+      "科学技術の島",
+      "シールド"
+    ],
+    "url": "https://taiwan.md/ja/Technology/semiconductor-industry",
+    "readingTime": 30,
+    "featured": true,
+    "date": "2026-03-17",
+    "path": "ja/Technology/semiconductor-industry.md"
   },
   {
     "title": "半導體產業",
@@ -1495,6 +1516,35 @@
     "featured": true,
     "date": "2026-03-17",
     "path": "Technology/半導體產業.md"
+  },
+  {
+    "title": "台北 101：從「看門狗」到「金色的蛇」，一座地標的政經與風水豪賭",
+    "description": "台北 101 不只是一棟大樓，它是陳水扁與彭淮南的政經博弈、李祖原的風水實驗，更是 Alex Honnold 腳下的「大魔王」。從 59 層到 101 層的演變，揭開這座「聚寶盆」背後的權力與神祕。",
+    "category": "Geography",
+    "tags": [],
+    "url": "https://taiwan.md/Geography/%E5%8F%B0%E5%8C%97101",
+    "readingTime": 23,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "Geography/台北101.md"
+  },
+  {
+    "title": "台北鼠患：從 1896 年總督府的鼠疫令，到 2026 年大安區的漢他病毒",
+    "description": "2026 年 1 月，大安區一名七旬男子因漢他病毒病逝，是台灣 25 年來首例死亡。但故事真正的轉折，是同月上路的「家戶廚餘禁養豬」——當豬不再吃廚餘，老鼠開始吃台北。",
+    "category": "Society",
+    "tags": [
+      "都市議題",
+      "公共衛生",
+      "環境治理",
+      "台北",
+      "動物",
+      "廚餘"
+    ],
+    "url": "https://taiwan.md/Society/%E5%8F%B0%E5%8C%97%E9%BC%A0%E6%82%A3",
+    "readingTime": 35,
+    "featured": false,
+    "date": "2026-05-05",
+    "path": "Society/台北鼠患.md"
   },
   {
     "title": "台泥：台湾初の上場企業のグリーン転換伝説",
@@ -3748,7 +3798,7 @@
       "AI"
     ],
     "url": "https://taiwan.md/ja/Economy/taiwan-stock-market",
-    "readingTime": 45,
+    "readingTime": 46,
     "featured": true,
     "date": "2026-05-03",
     "path": "ja/Economy/taiwan-stock-market.md"
@@ -4793,6 +4843,17 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "ja/Geography/tectonic-plates-and-seismic-activity.md"
+  },
+  {
+    "title": "台湾のヘアスタイル紹介",
+    "description": "歴史的な校則（髮禁）から現代のトレンドまで、台湾男性のヘアスタイルの變遷と理髪文化を紹介します。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Lifestyle/taiwan-hairstyles",
+    "readingTime": 7,
+    "featured": false,
+    "date": null,
+    "path": "ja/Lifestyle/taiwan-hairstyles.md"
   },
   {
     "title": "台湾のベジタリアン文化",
@@ -6365,7 +6426,7 @@
     "category": "Society",
     "tags": [],
     "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E7%9A%84%E9%81%93%E5%BE%B7%E8%AA%B2%E5%8E%BB%E5%93%AA%E4%BA%86",
-    "readingTime": 24,
+    "readingTime": 29,
     "featured": false,
     "date": "2026-04-25",
     "path": "Society/台灣的道德課去哪了.md"
@@ -8074,6 +8135,35 @@
     "path": "Technology/台灣網路社群遷徙史.md"
   },
   {
+    "title": "台灣與史瓦帝尼：非洲最後一條外交命脈，掛在一個人身上",
+    "description": "2026 年 5 月 2 日早上 9 點，賴清德搭著史瓦帝尼國王借的 A340 專機落地姆巴巴內。這是台灣總統第一次因為飛航許可被中國施壓撤銷，最後是邦交國國王派飛機從台北接駕。從 1968 年史瓦獨立同日建交到非洲僅存的最後友邦，從一個出生年跟邦交歷史完全重合的絕對君主到 2021 年自家鎮壓 46 條人命，從紅心芭樂進 SUPERSPAR 到中國 53 國零關稅特意跳過史國。台灣與史瓦帝尼這 58 年的關係，是一本「主權國家」最具體的教科書，也是一個沒有解的問句。",
+    "category": "Society",
+    "tags": [],
+    "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E8%88%87%E5%8F%B2%E7%93%A6%E5%B8%9D%E5%B0%BC",
+    "readingTime": 49,
+    "featured": true,
+    "date": "2026-05-05",
+    "path": "Society/台灣與史瓦帝尼.md"
+  },
+  {
+    "title": "台灣與立陶宛：在民主價值與地緣政治現實間協商的夥伴關係",
+    "description": "從 2021 年設立代表處的突破，到 2026 年立陶宛新政府對「戰略錯誤」的反思，台立關係正從熱絡的價值同盟轉向務實的利益協商。立陶宛內部出現「府院不同調」的更名爭議，而台灣則透過深化半導體與雷射合作，試圖在政治壓力與經濟承諾間，維持這段指標性的國際友誼。",
+    "category": "Society",
+    "tags": [
+      "外交",
+      "國際關係",
+      "民主",
+      "經濟合作",
+      "立陶宛",
+      "地緣政治"
+    ],
+    "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E8%88%87%E7%AB%8B%E9%99%B6%E5%AE%9B",
+    "readingTime": 11,
+    "featured": false,
+    "date": "2026-05-05",
+    "path": "Society/台灣與立陶宛.md"
+  },
+  {
     "title": "台灣製香文化與香腳原鄉",
     "description": "從嘉義雲霄社區的百年香腳技藝，到台灣遍布全島的製香產業——一門關於虔誠、手藝與堅持的古老行業",
     "category": "Culture",
@@ -8190,6 +8280,17 @@
     "featured": true,
     "date": "2026-03-19",
     "path": "Music/台灣樂器製造.md"
+  },
+  {
+    "title": "台灣髮型介紹",
+    "description": "從歷史上的髮禁到現代的流行趨勢，介紹台灣男性髮型的演變與理髮文化。",
+    "category": "Lifestyle",
+    "tags": [],
+    "url": "https://taiwan.md/Lifestyle/%E5%8F%B0%E7%81%A3%E9%AB%AE%E5%9E%8B%E4%BB%8B%E7%B4%B9",
+    "readingTime": 5,
+    "featured": false,
+    "date": null,
+    "path": "Lifestyle/台灣髮型介紹.md"
   },
   {
     "title": "台灣學校輔導室的前世今生：從「有問題的人才去」到「每個人都需要但不夠用」",
@@ -8352,7 +8453,7 @@
     "category": "Music",
     "tags": [],
     "url": "https://taiwan.md/Music/%E5%8F%B0%E7%81%A3%E8%81%B2%E9%9F%B3%E5%9C%B0%E6%99%AF",
-    "readingTime": 34,
+    "readingTime": 35,
     "featured": false,
     "date": "2026-03-17",
     "path": "Music/台灣聲音地景.md"
@@ -8673,7 +8774,7 @@
       "大陳義胞"
     ],
     "url": "https://taiwan.md/Society/%E5%A4%96%E7%9C%81%E4%BA%BA",
-    "readingTime": 12,
+    "readingTime": 13,
     "featured": false,
     "date": "2026-04-29",
     "path": "Society/外省人.md"
@@ -8843,7 +8944,7 @@
       "登山"
     ],
     "url": "https://taiwan.md/Geography/%E7%8E%89%E5%B1%B1",
-    "readingTime": 16,
+    "readingTime": 18,
     "featured": false,
     "date": "2026-04-27",
     "path": "Geography/玉山.md"
@@ -9299,17 +9400,6 @@
     "featured": false,
     "date": "2026-04-25",
     "path": "Society/名間焚化爐.md"
-  },
-  {
-    "title": "在搖晃的島嶼上，他們蓋了一座能飛的塔",
-    "description": "距離活動斷層僅 200 公尺，台灣人偏要在最不穩定的土地上建出世界最高樓——然後有個瘋子花 91 分鐘徒手爬了上去。",
-    "category": "Geography",
-    "tags": [],
-    "url": "https://taiwan.md/Geography/%E5%8F%B0%E5%8C%97101",
-    "readingTime": 18,
-    "featured": false,
-    "date": "2026-03-23",
-    "path": "Geography/台北101.md"
   },
   {
     "title": "地下室から大統領府へ：ニンフィアと台湾のドラッグクイーンによる自己エンパワーメントの歴史",
@@ -9802,7 +9892,7 @@
       "戊戌大水災"
     ],
     "url": "https://taiwan.md/Food/%E8%82%89%E5%9C%93",
-    "readingTime": 10,
+    "readingTime": 11,
     "featured": false,
     "date": "2026-04-26",
     "path": "Food/肉圓.md"
@@ -9935,17 +10025,7 @@
     "title": "吳百福（安藤百福）：從嘉義朴子到全球餐桌，台灣基因與日本包裝的全球傳奇",
     "description": "1961年，安藤百福以2300萬日圓買下張國文的泡麵專利申請權。這不僅是一場商業交易，更是一場關於發明定義權的跨國角力。這位出身嘉義朴子的企業家，將台灣傳統雞絲麵的靈魂轉化為日本國民食，並透過「合味道」杯麵徹底改變全球飲食習慣。本文深入探討他在日治台灣的創業起點、戰後入獄的體悟、以及身份與家庭在兩國間的糾葛。",
     "category": "People",
-    "tags": [
-      "吳百福",
-      "安藤百福",
-      "泡麵",
-      "台灣歷史",
-      "飲食文化",
-      "日清食品",
-      "杯麵",
-      "戰後史",
-      "大稻埕"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/People/%E5%90%B3%E7%99%BE%E7%A6%8F",
     "readingTime": 17,
     "featured": false,
@@ -11209,6 +11289,17 @@
     "path": "People/季麟連.md"
   },
   {
+    "title": "学校給食：脱脂粉乳から蛍光カレーまで、台湾の子どもたちの食卓をめぐる百年の変革",
+    "description": "1951年、国連の脱脂粉乳が台湾の学校給食の幕を開けました。米国援助の小麦粉から地場の米食へ、そして今日の食農教育と無償給食政策へ。この百年にわたる変革は世代を超えた子どもたちを養うだけでなく、台湾の社会経済・教育理念・食文化の深い変遷を映し出しています。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Food/school-lunch-reform",
+    "readingTime": 56,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "ja/Food/school-lunch-reform.md"
+  },
+  {
     "title": "学習貧困：教室に座っているのに何も学べていない",
     "description": "世界銀行は2019年に「Learning Poverty（学習貧困）」という新しい用語を提唱しました。これは、学校を失うことよりも見えにくい問題を表すものです。10歳の子どもが毎日時間通りに学校に通い、おとなしく座り、宿題も提出するのに、年齢相応の簡単な物語を理解できないという状況を指します。2023年2月、世界銀行は世界の学習貧困率が依然として70%で推移していると更新しました。台湾のPISA 2022では世界トップ5に入り、下位20%の生徒の数学スコアがOECD平均に追いつきました。表面的には大きな躍進に見えます。しかし、同じPISA報告書によれば、都市部の571点に対し地方の農村部は517点で、54点の差が残っています。博幼財団が2019年に13の地方中学校を調査したところ、6校では生徒の70%が英語でC評価、5校では70%が数学でC評価でした。台湾版の学習貧困はこの落差の中に潜んでおり、まだ正式に測定されていません。",
     "category": "ja",
@@ -11279,22 +11370,7 @@
     "title": "林口新市鎮：從「鬼城」到北台灣新興都會的蛻變與挑戰",
     "description": "1970年代，台灣政府為緩解台北人口壓力，在林口台地規劃了「田園城市」新市鎮。歷經數十年發展，這個曾因交通不便、機能不足被戲稱為「鬼城」的區域，在2017年機場捷運通車後，人口快速成長，產業升級，成為北台灣最年輕、最具活力的都會區之一。然而，交通壅塞與氣候濕冷等挑戰仍待克服。",
     "category": "Geography",
-    "tags": [
-      "林口新市鎮",
-      "區域發展",
-      "台灣地理",
-      "都市計畫",
-      "交通",
-      "房市",
-      "醫療",
-      "教育",
-      "影視",
-      "休閒",
-      "華亞科技園區",
-      "社會住宅",
-      "微氣候",
-      "咖啡文化"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/Geography/%E6%9E%97%E5%8F%A3%E6%96%B0%E5%B8%82%E9%8E%AE",
     "readingTime": 21,
     "featured": false,
@@ -11924,6 +12000,17 @@
     "path": "Food/金牛角.md"
   },
   {
+    "title": "金瓜石：那一千個被押進坑道挖銅的英國兵，與一座還沒洗乾淨的金山",
+    "description": "1942 年到 1945 年，超過一千名英國協戰俘被關在金瓜石「凸鼻仔寮」挖銅；1997 年 11 月 23 日，倖存者回到原址親手立下紀念碑。這座以金礦聞名的山城，最該被記得的不是黃金，而是那條至今土壤仍超標的廢煙道。",
+    "category": "Geography",
+    "tags": [],
+    "url": "https://taiwan.md/Geography/%E9%87%91%E7%93%9C%E7%9F%B3",
+    "readingTime": 33,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "Geography/金瓜石.md"
+  },
+  {
     "title": "金針菇",
     "description": "以在台生活敘事累積百萬級影響力，她讓「韓國人在台灣」從新聞標題變成可被日常觀看的內容類型。",
     "category": "People",
@@ -12014,6 +12101,28 @@
     "featured": false,
     "date": "2026-04-18",
     "path": "Culture/長輩圖.md"
+  },
+  {
+    "title": "阿志頭",
+    "description": "介紹台灣網路文化中極具辨識度的「阿志頭」，其視覺特徵、由來以及背後的社會文化意義。",
+    "category": "Lifestyle",
+    "tags": [],
+    "url": "https://taiwan.md/Lifestyle/%E9%98%BF%E5%BF%97%E9%A0%AD",
+    "readingTime": 4,
+    "featured": false,
+    "date": null,
+    "path": "Lifestyle/阿志頭.md"
+  },
+  {
+    "title": "阿志頭（アズー・トウ）",
+    "description": "台湾のインターネット文化で非常に高い認知度を誇る「阿志頭（アズー・トウ）」について、その視覚的特徴、由来、そして背景にある社会的・文化的意義を紹介します。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Lifestyle/ah-ji-haircut",
+    "readingTime": 6,
+    "featured": false,
+    "date": null,
+    "path": "ja/Lifestyle/ah-ji-haircut.md"
   },
   {
     "title": "阿里山：帝国の林場と高一生的山",
@@ -12468,7 +12577,14 @@
     "title": "活俠傳：兩個人、三十趴好評、七十萬套",
     "description": "2024 年 6 月，兩個非遊戲業出身的台灣人推出了一款武俠 RPG。上架一週好評率跌到 30%，中國玩家灌了上萬則負評。十二天後回升到 70%，一個月後衝到 94%。半年後銷量突破 70 萬套，韓國和台灣的玩家自己組團翻譯日文版。主角設定是「沒有主角光環的外姓弟子」，開發團隊也是。",
     "category": "Technology",
-    "tags": [],
+    "tags": [
+      "活俠傳",
+      "原始鳥熊",
+      "獨立遊戲",
+      "武俠",
+      "Steam",
+      "台灣遊戲"
+    ],
     "url": "https://taiwan.md/Technology/%E6%B4%BB%E4%BF%A0%E5%82%B3",
     "readingTime": 12,
     "featured": false,
@@ -12974,7 +13090,7 @@
       "十大建設"
     ],
     "url": "https://taiwan.md/People/%E5%AD%AB%E9%81%8B%E7%92%BF",
-    "readingTime": 11,
+    "readingTime": 12,
     "featured": false,
     "date": "2026-04-30",
     "path": "People/孫運璿.md"
@@ -13555,6 +13671,17 @@
     "featured": false,
     "date": "2026-03-31",
     "path": "ja/People/chi-huey-wong-glycoscience-pioneer.md"
+  },
+  {
+    "title": "能預測路徑，預測不了命運：台灣與颱風的四百年",
+    "description": "從清代先民在澎湖目睹颶風，到 2009 年小林村在暴雨中消失，台灣與颱風共生的歷史從未停歇。如今我們能用 AI 在四分鐘內預測三十天後的颱風路徑，但氣象專家吳德榮說了一個反直覺的真相：中央山脈不是保護我們的神，而是把風變成水的加壓器。",
+    "category": "Nature",
+    "tags": [],
+    "url": "https://taiwan.md/Nature/%E9%A2%B1%E9%A2%A8",
+    "readingTime": 45,
+    "featured": false,
+    "date": "2026-05-06",
+    "path": "Nature/颱風.md"
   },
   {
     "title": "臭豆腐：在逐臭與尋香之間，台灣人的感官極限運動",
@@ -14552,6 +14679,17 @@
     "path": "ja/Economy/economic-miracle.md"
   },
   {
+    "title": "経路は予測できても、運命は予測できない：台湾と台風の四百年",
+    "description": "清代の先人が澎湖で暴風雨を目撃してから、2009年に小林村が豪雨の中消えるまで、台湾と台風の共生の歴史は一度も止まったことがない。現在、AI を使って4分間で30日後の台風経路を予測できるが、気象専門家の呉徳栄は直感に反する真実を語った。中央山脈は私たちを守る神ではなく、風を水に変える加圧器なのだと。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Nature/typhoons-in-taiwan",
+    "readingTime": 56,
+    "featured": false,
+    "date": "2026-05-06",
+    "path": "ja/Nature/typhoons-in-taiwan.md"
+  },
+  {
     "title": "荷西明鄭時期",
     "description": "1624 年荷蘭人在臺南建立熱蘭遮城，到 1683 年施琅登陸澎湖為止——臺灣被寫進世界貿易地圖的六十年，和四個政權輪替的故事",
     "category": "History",
@@ -15438,6 +15576,23 @@
     "path": "ja/People/chen-yingzhen.md"
   },
   {
+    "title": "陳致中：從第一家庭光環到「排黑條款」下的政治浮沉",
+    "description": "2008年，陳致中因海外洗錢案被迫中斷學業返台，開啟他與司法爭議交織的政治生涯。他曾兩度以選區最高票當選高雄市議員，卻也三度因案解職。2023年「排黑條款」通過後，其政治之路看似終結，他卻轉向 Threads 等社群平台，與父親陳水扁以「Water」等幽默互動，展現出非典型的父子關係與數位回歸。",
+    "category": "People",
+    "tags": [
+      "政治人物",
+      "司法爭議",
+      "陳水扁",
+      "高雄",
+      "Threads"
+    ],
+    "url": "https://taiwan.md/People/%E9%99%B3%E8%87%B4%E4%B8%AD",
+    "readingTime": 12,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "People/陳致中.md"
+  },
+  {
     "title": "陳偉殷",
     "description": "簽下25億台幣史上最高合約，但只拿到47%的左投手",
     "category": "People",
@@ -15585,7 +15740,7 @@
       "台灣精神"
     ],
     "url": "https://taiwan.md/Technology/%E9%9B%AA%E5%B1%B1%E9%9A%A7%E9%81%93",
-    "readingTime": 22,
+    "readingTime": 25,
     "featured": false,
     "date": "2026-04-29",
     "path": "Technology/雪山隧道.md"
@@ -15753,6 +15908,23 @@
     "path": "ja/Society/the-reporter-investigative-journalism.md"
   },
   {
+    "title": "尊：從「黃毛豬」到台灣最年輕百萬 YouTuber，在清流標籤下的孤獨實驗",
+    "description": "2017 年，19 歲的朱玉恩成為台灣第三位百萬 YouTuber。這位以日式風格席捲社群的「人生肥宅」，在被封為「YT 界唯一清流」的同時，也經歷了從抄襲起家到業配翻車、家族爭議波及的自我辯證。",
+    "category": "People",
+    "tags": [
+      "YouTuber",
+      "尊",
+      "台灣文化",
+      "網路創作者",
+      "人生肥宅"
+    ],
+    "url": "https://taiwan.md/People/%E5%B0%8A",
+    "readingTime": 10,
+    "featured": false,
+    "date": "2026-05-03",
+    "path": "People/尊.md"
+  },
+  {
     "title": "幾米",
     "description": "用繪本溫暖世界的插畫詩人，讓台灣繪本走上國際舞台",
     "category": "People",
@@ -15867,17 +16039,6 @@
     "featured": false,
     "date": "2026-03-22",
     "path": "ja/Lifestyle/hot-spring-culture.md"
-  },
-  {
-    "title": "測試文章",
-    "description": "關於測試文章的介紹與說明",
-    "category": "Language",
-    "tags": [],
-    "url": "https://taiwan.md/Language/%E6%B8%AC%E8%A9%A6%E6%96%87%E7%AB%A0",
-    "readingTime": 1,
-    "featured": false,
-    "date": "2026-03-28",
-    "path": "Language/測試文章.md"
   },
   {
     "title": "無名小站：学生寮から台湾のネット記憶の守護者へ",
@@ -16550,6 +16711,17 @@
     "path": "ja/Culture/mazu-dadaogong-legend.md"
   },
   {
+    "title": "想想論壇：14 年從敗選總統的試金石到跨黨派民主對話的容器",
+    "description": "2026 年 5 月 2 日，前親民黨主席宋楚瑜、時代力量黨主席王婉諭、社民黨苗博雅、鮮乳坊獸醫龔建嘉同時出現在「30 年、30 人、30 個觀點」的提筆名單。這個由蔡英文 2012 年敗選後創辦的網路論壇，14 年累積近 5,800 篇文章、跨過簡志忠接董事長那次切割、跨過 9 年沒大改版的執政期距離，到 2026 仍在回答一個從第一天就懸著的問題：一個叫「小英教育基金會」的平台，能撐起跨黨派的民主對話嗎？",
+    "category": "Society",
+    "tags": [],
+    "url": "https://taiwan.md/Society/%E6%83%B3%E6%83%B3%E8%AB%96%E5%A3%87",
+    "readingTime": 54,
+    "featured": false,
+    "date": "2026-05-05",
+    "path": "Society/想想論壇.md"
+  },
+  {
     "title": "戦後台湾文学：言えなかったことから、言い方を学ぶまで（1945-1987）",
     "description": "1945年8月、葉石濤（ようせきとう）20歳、日本陸軍から除隊して台南に戻り、原稿紙を開いたが、漢字が一文字も書けなかった。この白紙は42年間待つことになる。その間に訪れたのは、失語、投獄、論争、そして迂回を学ぶことだった。1987年2月、彼は232ページの本を出版した。書名にあったのは「台湾」という二文字だけだった。",
     "category": "ja",
@@ -16831,17 +17003,6 @@
     "featured": true,
     "date": "2026-04-14",
     "path": "ja/Music/fire-ex.md"
-  },
-  {
-    "title": "當「護國神山」成為雙面刃：台灣與颱風的地理宿命",
-    "description": "從日治時期的氣象觀測到莫拉克滅村，再到颱風假文化與科技預警，重新理解這座島嶼如何與每年 3.5 個颱風共生。",
-    "category": "Nature",
-    "tags": [],
-    "url": "https://taiwan.md/Nature/%E9%A2%B1%E9%A2%A8",
-    "readingTime": 15,
-    "featured": false,
-    "date": "2026-04-16",
-    "path": "Nature/颱風.md"
   },
   {
     "title": "當代台灣文學：吳明益、林奕含，與一個安靜的閱讀危機",
@@ -17932,7 +18093,7 @@
       "原住民族"
     ],
     "url": "https://taiwan.md/People/%E8%94%A1%E8%8B%B1%E6%96%87",
-    "readingTime": 16,
+    "readingTime": 17,
     "featured": false,
     "date": "2026-03-17",
     "path": "People/蔡英文.md"
@@ -18140,6 +18301,17 @@
     "featured": true,
     "date": "2026-05-02",
     "path": "ja/People/teresa-teng.md"
+  },
+  {
+    "title": "鄭文琦：台湾の芸術圏をマレー群島へと押し進めた12年",
+    "description": "2017年5月、マレーシアのアーティスト周盈貞（オクイ・ララ）が台北に到着し、『デジタル・ノー・マンズ・ランド』の最初のレジデンス・アーティストとなりました。発表会で彼女は、潮州語で祈りを捧げる自身と義母の映像を流しました。この場面は、鄭文琦が2011年に『デジタル・ノー・マンズ・ランド』を創刊してからの縮影です。12年後、56号、384本の記事、10冊の『群島データベース』を積み上げ、「東南アジア」に代わる枠組みとして「群島」という概念を用いて台湾の芸術圏をマレーの世界へと押し進めました。しかし同時に、辺縁の視界が持つ限界にもぶつかることになりました。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/People/cheng-wen-chi",
+    "readingTime": 40,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "ja/People/cheng-wen-chi.md"
   },
   {
     "title": "鄭文琦：把台灣藝術圈推進馬來群島的 12 年",
@@ -18732,6 +18904,17 @@
     "path": "ja/People/stan-lai-theater-innovation-master.md"
   },
   {
+    "title": "頼清徳：炭鉱夫の家庭から総統府へ至った公衆衛生医師",
+    "description": "台湾第16代総統。中華民国憲政史上初めて副総統の身分のまま総統選に立候補し当選を果たした政治家",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/People/lai-ching-te",
+    "readingTime": 20,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "ja/People/lai-ching-te.md"
+  },
+  {
     "title": "鴨母王朱一貴：台湾で初めて王と名乗った反乱の指導者",
     "description": "1721年の朱一貴事件の全容を、養鴨家から自立に至るまでの経緯、およびこの事件が清代の台湾統治政策に与えた深遠な影響とともに探ります。",
     "category": "ja",
@@ -18884,6 +19067,17 @@
     "featured": false,
     "date": "2026-03-25",
     "path": "ja/History/yuan-xing-cattle-beef-soup-history.md"
+  },
+  {
+    "title": "營養午餐：從脫脂奶粉到螢光咖哩，台灣學童餐桌上的百年變革",
+    "description": "1951年，聯合國脫脂奶粉開啟台灣營養午餐序幕。從美援麵粉到在地米食，再到今日食育與免費政策，這段百年變革不僅餵飽學子，更映照社會經濟、教育理念與飲食文化深刻進程。",
+    "category": "Food",
+    "tags": [],
+    "url": "https://taiwan.md/Food/%E7%87%9F%E9%A4%8A%E5%8D%88%E9%A4%90",
+    "readingTime": 46,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "Food/營養午餐.md"
   },
   {
     "title": "環保與永續發展",
@@ -19242,6 +19436,28 @@
     "featured": false,
     "date": "2026-05-02",
     "path": "ja/Lifestyle/tour-bus.md"
+  },
+  {
+    "title": "雜學校：貯金をすべてつぎ込んで開催した無料展示会、11年後に副総統が開幕に来た",
+    "description": "2015年、華山1914の2日間、蘇仰志はデザイン会社のNT$150万の利益を投じて「不太乖教育節（わがまま教育祭）」を開催し、最終的にNT$700万の赤字を出した。11年後、雜學校は円山花博に進出してIDECと共同開催し、ブランドを「EDit」としてリブランディングし、桃園国際展示センターに進出した。無料の反逆展示会からアジア最大の教育博覧会へと成長した台湾のケースにおいて、最も面白いのは大きくなったことではなく、大きくなった後もなお生き残っている「わがまま」が変質したかどうかである。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Society/za-share",
+    "readingTime": 45,
+    "featured": false,
+    "date": "2026-05-05",
+    "path": "ja/Society/za-share.md"
+  },
+  {
+    "title": "雜學校：賠光積蓄辦的免費展，11 年後副總統來開幕",
+    "description": "2015 年華山 1914 那兩天，蘇仰志拿設計公司 150 萬盈餘辦了「不太乖教育節」，最後賠掉 700 萬。十一年後，雜學校進駐圓山花博合辦 IDEC、品牌重塑成「EDit」進駐桃園會展中心。一個從免費叛變展長成全亞洲最大教育博覽會的台灣 case，最有趣的不是它做大了，是做大後還活著的「不太乖」有沒有變質。",
+    "category": "Society",
+    "tags": [],
+    "url": "https://taiwan.md/Society/%E9%9B%9C%E5%AD%B8%E6%A0%A1",
+    "readingTime": 33,
+    "featured": false,
+    "date": "2026-05-05",
+    "path": "Society/雜學校.md"
   },
   {
     "title": "離島與海洋文化：從石滬密度世界第一到飛魚季生態法律",
@@ -19883,6 +20099,17 @@
     "path": "es/Nature/Taiwan Hot Springs and Geothermal Energy.md"
   },
   {
+    "title": "Ah-Ji Haircut",
+    "description": "Introducing the highly recognizable \"Ah-Ji Haircut\" in Taiwanese internet culture, its visual features, origins, and social-cultural significance.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Lifestyle/ah-ji-haircut",
+    "readingTime": 12,
+    "featured": false,
+    "date": null,
+    "path": "en/Lifestyle/ah-ji-haircut.md"
+  },
+  {
     "title": "Ah-Po Iron Eggs: From an Accident at Tamsui's Ferry Dock 'Seaside Grand Hotel' to Tamsui's Hardest Collective Memory",
     "description": "In 1983, a Min Sheng Daily report turned a black braised egg from Tamsui's 'Seaside Grand Hotel' into an overnight sensation. This 'accidental' food — hardened by sea wind blowing the eggs dry between braising sessions — not only witnessed the rise and fall of Tamsui's ferry dock, but left behind a lasting dispute over trademark rights between founders Ah-yan-po and Yang Bi-yun.",
     "category": "en",
@@ -20358,28 +20585,6 @@
     "featured": true,
     "date": "2026-03-24",
     "path": "es/Art/traditional-arts-of-taiwan.md"
-  },
-  {
-    "title": "Article de test",
-    "description": "Introduction et explication concernant l'article de test",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Language/test-article",
-    "readingTime": 3,
-    "featured": false,
-    "date": "2026-03-28",
-    "path": "fr/Language/test-article.md"
-  },
-  {
-    "title": "Artículo de prueba",
-    "description": "Introducción y explicación sobre el artículo de prueba",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/Language/test-article",
-    "readingTime": 3,
-    "featured": false,
-    "date": "2026-03-28",
-    "path": "es/Language/test-article.md"
   },
   {
     "title": "ASE Technology : le champion discret de l'emballage de puces",
@@ -20950,6 +21155,17 @@
     "featured": false,
     "date": "2026-05-02",
     "path": "es/Culture/taiwanese-glove-puppetry-budaixi.md"
+  },
+  {
+    "title": "Búho pescador leonado: seis kilómetros de arroyo para una pareja, rapaz nocturna sobre un tramo de 1.800 metros de Machilus zuihoensis",
+    "description": "En abril de 2026, el profesor asistente de la NPUST, Hong Xiaoyu, localizó el nido más alto conocido de búho pescador leonado (_Ketupa flavipes_) en Taiwán: una cavidad en un ejemplar de Machilus zuihoensis con un diámetro de pecho de aproximadamente 1,5 metros, junto al arroyo Qijiawan, a unos 1.800 metros sobre el nivel del mar. El búho más grande de Taiwán no fue registrado por primera vez hasta 1916, por el académico japonés Kuroda Nagamichi. El laboratorio de Sun Yuanxun de la Universidad Nacional de Ciencia y Tecnología de Pingtung lo ha rastreado durante treinta años: 91 territorios, cada pareja necesita en promedio 6,2 kilómetros de arroyo. Un tramo de río sin cemento, un árbol gigante que aún no ha caído: el búho pescador leonado vive en la grieta entre dos cosas que aún no han desaparecido en los bosques de Taiwán.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Nature/tawny-fish-owl",
+    "readingTime": 108,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "es/Nature/tawny-fish-owl.md"
   },
   {
     "title": "Bunun Pasibutbut: The Eight-Part Polyphony That Challenged Western Music History",
@@ -21900,23 +22116,6 @@
   },
   {
     "title": "Cheng Li-wen",
-    "description": "From the student activist who went on a hunger strike for 'Taiwan independence' at the NTU gate in 1988 to the KMT chairperson who told Xi Jinping in Beijing in 2026 that 'compatriots across the strait are all Chinese.' What happened along this trajectory?",
-    "category": "en",
-    "tags": [
-      "political_figures",
-      "Kuomintang",
-      "cross-strait_relations",
-      "student_movement_generation",
-      "2026"
-    ],
-    "url": "https://taiwan.md/en/People/cheng-li-wun",
-    "readingTime": 104,
-    "featured": true,
-    "date": "2026-04-11",
-    "path": "en/People/cheng-li-wun.md"
-  },
-  {
-    "title": "Cheng Li-wen",
     "description": "From the student activist girl who went on a hunger strike for Taiwan independence at the NTU gate in 1988, to the KMT chairperson who told Xi Jinping in Beijing in 2026 that 'compatriots across the strait are all Chinese.' What happened along this trajectory?",
     "category": "es",
     "tags": [
@@ -21984,6 +22183,17 @@
     "path": "ko/People/cheng-li-wun.md"
   },
   {
+    "title": "Cheng Li-wun",
+    "description": "From the 1988 NTU gate hunger strike as a pro-independence student activist, to the 2026 KMT chair who told Xi Jinping in Beijing that 'compatriots on both sides of the strait are all Chinese.' What happened along this trajectory?",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/People/cheng-li-wun",
+    "readingTime": 52,
+    "featured": true,
+    "date": "2026-04-11",
+    "path": "en/People/cheng-li-wun.md"
+  },
+  {
     "title": "Cheng Nan-jung",
     "description": "Il avait constitué 24 licences de magazines avant même le lancement — parce qu'il savait que le gouvernement fermerait chacun d'eux. Comment un fils de « mainlandais » est mort pour la liberté d'expression de toute une île.",
     "category": "fr",
@@ -21993,6 +22203,49 @@
     "featured": true,
     "date": "2026-03-25",
     "path": "fr/People/zheng-nanrong.md"
+  },
+  {
+    "title": "Cheng Wen-chi : 12 ans pour pousser le milieu artistique taïwanais vers l'archipel malais",
+    "description": "En mai 2017, l'artiste malaisienne Okui Lala (Chou Ying-chen) est arrivée à Taipei, devenant la première artiste en résidence de « No Man's Land » (Désert numérique). Lors de sa présentation, elle a diffusé une vidéo où elle récitait des prières en teochew avec sa belle-mère. Cette scène résume le projet que Cheng Wen-chi a lancé en 2011 avec « No Man's Land » — 12 ans plus tard, 56 numéros, 384 articles et 10 volumes de l'« Archive de l'archipel » (Nusantara Archive), il a remplacé le terme « Asie du Sud-Est » par « archipel », orientant le milieu artistique taïwanais vers le monde malais, mais se heurtant aussi au plafond de la vision périphérique.",
+    "category": "fr",
+    "tags": [
+      "Cheng Wen-chi",
+      "No Mans Land",
+      "No Mans Land",
+      "Archive de larchipel",
+      "Nusantara Archive",
+      "art contemporain",
+      "commissaire dexposition",
+      "perspective méridionale",
+      "périphérie"
+    ],
+    "url": "https://taiwan.md/fr/People/cheng-wen-chi",
+    "readingTime": 96,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "fr/People/cheng-wen-chi.md"
+  },
+  {
+    "title": "Cheng Wen-chi: 12 años empujando el arte taiwanés hacia el archipiélago malayo",
+    "description": "En mayo de 2017, la artista malasia Okui Lala (Chou Ying-chen) llegó a Taipéi como primera artista residente de No Man''s Land. En su presentación final proyectó un video en el que ella y su suegra rezaban en dialecto teochew. Ese momento condensa la trayectoria de Cheng Wen-chi, quien fundó No Man''s Land en 2011: 12 años después, la plataforma acumula 56 números, 384 artículos y 10 volúmenes del Nusantara Archive. Cheng reemplazó el término \"Sudeste Asiático\" por \"archipiélago\" para orientar el arte taiwanés hacia el mundo malayo, pero también chocó con el techo de una visión periférica.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/People/cheng-wen-chi",
+    "readingTime": 91,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "es/People/cheng-wen-chi.md"
+  },
+  {
+    "title": "Cheng Wen-Chi: 12 Years of Pushing Taiwan's Art World into the Malay Archipelago",
+    "description": "In May 2017, Malaysian artist Okui Lala arrived in Taipei as the first resident artist of No Man's Land, screening a video of herself and her mother-in-law offering blessings in Teochew at her presentation. That scene was a microcosm of what Cheng Wen-Chi had set in motion when he founded No Man's Land in 2011 — 12 years later, 56 issues, 384 articles, and 10 volumes of the Nusantara Archive, using 'archipelago' in place of 'Southeast Asia' to push Taiwan's art world toward the Malay world, while also hitting the ceiling of a peripheral perspective.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/People/cheng-wen-chi",
+    "readingTime": 86,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "en/People/cheng-wen-chi.md"
   },
   {
     "title": "Chi Cheng — L'Antilope Bondissante",
@@ -23233,17 +23486,6 @@
     "path": "en/People/crowd-lu-indie-folk-treasure.md"
   },
   {
-    "title": "Cuando la \"montaña sagrada nacional\" se convierte en un arma de doble filo: el destino geográfico de Taiwán y los tifones",
-    "description": "Desde las observaciones meteorológicas del período colonial japonés hasta la destrucción de pueblos por Morakot, pasando por la cultura del día libre por tifón y la alerta tecnológica, este artículo replantea cómo esta isla coexiste con un promedio de 3,5 tifones al año.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/Nature/typhoons-in-taiwan",
-    "readingTime": 57,
-    "featured": false,
-    "date": "2026-04-16",
-    "path": "es/Nature/typhoons-in-taiwan.md"
-  },
-  {
     "title": "Cuando la música clásica se convierte en jingle de camión de basura: la revolución ecológica más romántica de Taiwán",
     "description": "La expresión de asombro de los extranjeros al escuchar a Beethoven en los camiones de basura esconde la historia asombrosa de cómo Taiwán pasó de ser la \"isla de la basura\" a convertirse en modelo ambiental",
     "category": "es",
@@ -24351,6 +24593,17 @@
     "path": "en/Music/eggplant-egg-band.md"
   },
   {
+    "title": "El almuerzo escolar en Taiwán: un siglo de transformaciones, del leche en polvo desnatada al curry amarillo fosforescente",
+    "description": "En 1951, la leche en polvo desnatada donada por la ONU marcó el inicio del comedor escolar en Taiwán. De la harina norteamericana a los alimentos locales, y de ahí hasta la educación alimentaria y la política de almuerzo gratuito: un siglo de cambios que refleja la economía, la pedagogía y la cultura culinaria de la sociedad taiwanesa.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Food/school-lunch-reform",
+    "readingTime": 156,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "es/Food/school-lunch-reform.md"
+  },
+  {
     "title": "El arcoíris de Taiwán: de las protestas callejeras al amor y la igualdad en el \"Planeta Weimeng\"",
     "description": "En 2017, la Interpretación n.º 748 del Yuan Judicial de Taiwán abrió el camino hacia la legalización del matrimonio homosexual. Desde la lucha en solitario de Chi Chia-wei, pasando por la concienciación sobre educación de género a raíz del caso de Yeh Yong-chih, hasta la dulzura cotidiana de \"Weimeng\", ¿cómo ha escrito la comunidad LGBTQ+ de Taiwán un nuevo capítulo de igualdad en Asia con amor y resiliencia?",
     "category": "es",
@@ -24663,17 +24916,9 @@
     "title": "El mercado bursátil y de capitales de Taiwán: del colapso de los 10.000 puntos en 1990 al sexto lugar mundial en 2026, una isla donde el 44% del patrimonio depende de una sola acción",
     "description": "El 28 de abril de 2026, Bloomberg publicó el titular \"Taiwan Overtakes Canada\". Una isla que en 1990 vio cómo el colapso bursátil de los 10.000 puntos se llevó los ahorros de jubilación de ciento sesenta mil personas, treinta y seis años después escaló hasta convertirse en el sexto mercado bursátil más grande del mundo — pero de sus 4,47 billones de dólares en capitalización, casi la mitad recae sobre una sola empresa de semiconductores.",
     "category": "es",
-    "tags": [
-      "mercado bursátil taiwanés",
-      "bolsa de valores",
-      "mercado de capitales",
-      "ETF",
-      "TSMC",
-      "inversores minoristas",
-      "IA"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/Economy/taiwan-stock-market",
-    "readingTime": 113,
+    "readingTime": 115,
     "featured": true,
     "date": "2026-05-03",
     "path": "es/Economy/taiwan-stock-market.md"
@@ -26218,6 +26463,39 @@
     "path": "fr/Economy/taiwan-enterprise-fubon-financial.md"
   },
   {
+    "title": "Fujui Wang : de 200 exemplaires de fanzine photocopié à une enceinte 12 canaux, trente ans de bruit",
+    "description": "En 1993, à 24 ans, Fujui Wang utilise son salaire de programmeur pour imprimer 200 exemplaires du fanzine de musique expérimentale « NOISE » sur la photocopieuse de son domicile, vendus entre 15 et 30 dollars taïwanais pièce. Trente ans plus tard (2020), il suspend une enceinte omnidirectionnelle 12 canaux polyédrique dans le Project Fulfill Art Space : l'œuvre explore les fréquences ténues de la prothèse vasculaire dans son corps après une grave maladie. Du label DIY solitaire à la salle d'exposition du musée, il a mis trente ans pour faire du mot « bruit » — d'un code confidentiel du cercle marginal des fanzines — un vocabulaire légitime de l'art sonore taïwanais.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/People/fujui-wang",
+    "readingTime": 102,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "fr/People/fujui-wang.md"
+  },
+  {
+    "title": "Fujui Wang: Thirty Years from 200 Photocopied Zines to a 12-Channel Speaker",
+    "description": "In 1993, 24-year-old Fujui Wang used his salary as a programmer to run off 200 copies of the experimental music zine *NOISE* on his own photocopier, selling each copy for NT$15 to NT$30. Thirty years later (2020), he hung a polyhedral 12-channel omnidirectional speaker at Project Fulfill Art Space, and the work was the faint frequencies of an artificial blood vessel inside his body after a serious illness. From a one-person DIY label to a museum gallery, he spent thirty years turning the word \"noise\" from a codeword in the marginal zine underground into a legitimate term in the vocabulary of sound art in Taiwan.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/People/fujui-wang",
+    "readingTime": 92,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "en/People/fujui-wang.md"
+  },
+  {
+    "title": "Fujui Wang: treinta años desde 200 copias fotocopiadas hasta un altavoz de 12 canales",
+    "description": "En 1993, a los 24 años, Fujui Wang usó su salario como programador para imprimir 200 copias de la revista de música experimental NOISE en su propia fotocopiadora, a un precio de entre 15 y 30 dólares taiwaneses por ejemplar. Treinta años después (2020), colgó un altavoz omnidireccional poliédrico de 12 canales en el espacio de arte Project Fulfill; la obra consistía en las frecuencias tenues de un vaso sanguíneo artificial dentro de su cuerpo tras una enfermedad grave. De un sello DIY de una sola persona a las salas de un museo, dedicó treinta años a transformar la palabra \"ruido\" —de código clandestino en el círculo marginal de los fanzines— en parte del vocabulario legítimo del arte sonoro taiwanés.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/People/fujui-wang",
+    "readingTime": 101,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "es/People/fujui-wang.md"
+  },
+  {
     "title": "Fusión culinaria de los nuevos residentes en Taiwán",
     "description": "Cuando el picante tailandés se encuentra con el dulce-salado taiwanés, cuando los fideos vietnamitas se cruzan con los guisos taiwaneses, y cuando las especias indonesias abrazan los ingredientes locales, una revolución gastronómica transfronteriza está ocurriendo silenciosamente en Taiwán. Los nuevos residentes no solo traen las recetas de su tierra natal, sino también nuevas posibilidades para enriquecer la cultura culinaria taiwanesa.",
     "category": "es",
@@ -26707,6 +26985,17 @@
     "featured": false,
     "date": "2026-04-16",
     "path": "es/Food/heysong-soft-drinks.md"
+  },
+  {
+    "title": "Hibou pêcheur fauve : six kilomètres de rivière pour un couple, un rapace nocturne à 1 800 mètres sur un arbre de *Alnus formosana*",
+    "description": "En avril 2026, Hong Xiaoyu, professeur assistant à l'Université nationale des sciences et technologies de Pingtung, a localisé le nid connu le plus élevé de hibou pêcheur fauve (*Ketupa flavipes*) à Taïwan, à environ 1 800 mètres d'altitude, dans le creux d'un *Alnus formosana* d'environ 1,5 mètre de diamètre de poitrine, au bord de la rivière Qijiwan. Plus grand rapace nocturne de Taïwan, cet hibou n'a été documenté pour la première fois qu'en 1916 par le naturaliste japonais Kuroda Nagamichi. Le laboratoire de Sun Yuanxun à l'Université nationale des sciences et technologies de Pingtung l'a poursuivi pendant trente ans : sur 91 territoires étudiés, chaque couple a besoin en moyenne de 6,2 kilomètres de rivière. Un tronçon de rivière non bétonné, un arbre géant encore debout — le hibou pêcheur fauve vit dans l'interstice de deux choses qui n'ont pas encore disparu des forêts de montagne taïwanaises.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Nature/tawny-fish-owl",
+    "readingTime": 109,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "fr/Nature/tawny-fish-owl.md"
   },
   {
     "title": "Highways: From the MacArthur Highway to the Xueshan Tunnel, Fifty Years of Power and Speed on Taiwan's National Highways",
@@ -28142,6 +28431,17 @@
     "featured": false,
     "date": "2026-04-23",
     "path": "en/Technology/into-the-cellar-taiwan-game-podcast.md"
+  },
+  {
+    "title": "Introduction to Taiwan Hairstyles",
+    "description": "From historical school regulations to modern trends, exploring the evolution of male hairstyles and barbering culture in Taiwan.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Lifestyle/taiwan-hairstyles",
+    "readingTime": 15,
+    "featured": false,
+    "date": null,
+    "path": "en/Lifestyle/taiwan-hairstyles.md"
   },
   {
     "title": "Islam in Taiwan: From Quanzhou Guo-clan Ancestors to the Faith Mosaic of 300,000 Migrant Workers",
@@ -29860,6 +30160,17 @@
     "path": "fr/Economy/taiwan-machine-tool-industry.md"
   },
   {
+    "title": "L'industrie des semi-conducteurs",
+    "description": "Du pari historique de Morris Chang à l'ère du nanomètre 2 : comment TSMC a fait de Taïwan le poumon technologique mondial",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Technology/semiconductor-industry",
+    "readingTime": 73,
+    "featured": true,
+    "date": "2026-03-17",
+    "path": "fr/Technology/semiconductor-industry.md"
+  },
+  {
     "title": "L'industrie du café à Taïwan",
     "description": "De cent plants rapportés en 1884 jusqu'au premier Cup of Excellence en 2024 : comment une île importatrice à 99 % a formé le meilleur barista du monde et s'est imposée sur la scène internationale du café de spécialité",
     "category": "fr",
@@ -30121,17 +30432,9 @@
     "title": "La bourse et les marchés de capitaux taïwanais : du krach des 12 000 points en 1990 au 6ᵉ rang mondial en 2026, une île dont 44 % de la capitalisation repose sur une seule action",
     "description": "Le 28 avril 2026, Bloomberg affichait « Taiwan Overtakes Canada ». Une île qui, en 1990, avait vu le krach des 12 000 points anéantir les retraites de cent soixante mille personnes se hissait, trente-six ans plus tard, au 6ᵉ rang mondial des bourses — mais sur une capitalisation de 4 470 milliards de dollars, près de la moitié repose sur une seule entreprise de semi-conducteurs.",
     "category": "fr",
-    "tags": [
-      "bourse de Taïwan",
-      "bourse des valeurs",
-      "marchés de capitaux",
-      "ETF",
-      "TSMC",
-      "investisseurs particuliers",
-      "IA"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/Economy/taiwan-stock-market",
-    "readingTime": 112,
+    "readingTime": 113,
     "featured": true,
     "date": "2026-05-03",
     "path": "fr/Economy/taiwan-stock-market.md"
@@ -32537,40 +32840,15 @@
     "path": "fr/People/lai-ching-te.md"
   },
   {
-    "title": "Lai Ching-te: From Miner's Family to Public Health Physician in the Presidential Office",
-    "description": "The 16th President of Taiwan, the first political figure in the constitutional history of the Republic of China to run for president as Vice President and successfully win election.",
+    "title": "Lai Ching-te: del distrito minero al Palacio Presidencial, un médico de salud pública",
+    "description": "Decimosexto presidente de la República de China (Taiwán) y primer político en la historia constitucional en postularse y ganar la presidencia desde el cargo de vicepresidente.",
     "category": "es",
-    "tags": [
-      "President",
-      "Physician",
-      "Political Figure",
-      "Democratic Progressive Party",
-      "Public Health",
-      "Tainan"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/People/lai-ching-te",
-    "readingTime": 58,
+    "readingTime": 65,
     "featured": false,
     "date": "2026-03-19",
     "path": "es/People/lai-ching-te.md"
-  },
-  {
-    "title": "Lai Ching-te: From Miner's Family to Public Health Physician in the Presidential Office",
-    "description": "The 16th President of the Republic of China, the first political figure in the constitutional history of the Republic of China to run for president as vice president and successfully win the election",
-    "category": "ja",
-    "tags": [
-      "President",
-      "Physician",
-      "Political Figure",
-      "Democratic Progressive Party",
-      "Public Health",
-      "Tainan"
-    ],
-    "url": "https://taiwan.md/ja/People/lai-ching-te",
-    "readingTime": 57,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "ja/People/lai-ching-te.md"
   },
   {
     "title": "Lai Ching-te: Public Health Physician from a Miner's Family to the Presidential Palace",
@@ -32875,6 +33153,23 @@
     "featured": true,
     "date": "2026-04-01",
     "path": "fr/Music/polyphonic-chanting.md"
+  },
+  {
+    "title": "Le chapeau conique : soixante ans de bambou tressé par un couple près du collège de Longdu",
+    "description": "En 2017, Lin Rong-chun, quatre-vingts ans passés, délimitait encore des lamelles de bambou à Meinong (Kaohsiung). En 2014, à Longqi (Tainan), la grand-mère Chen Lian-qin, 86 ans, achevait un chapeau en une heure. À Fuli (Hualien), Xu Gui-zhu vendait chaque pièce à 150 dollars taïwanais en 2016. Le chapeau conique n'a pas disparu des rizières, mais les mains capables d'insérer des feuilles de bambou dans une armature de lamelles et de les fixer rang par rang avec du fil de coton — elles, ont disparu.",
+    "category": "fr",
+    "tags": [
+      "傳統工藝",
+      "客家",
+      "竹編",
+      "農村",
+      "無形文化資產"
+    ],
+    "url": "https://taiwan.md/fr/Culture/bamboo-hat-craft",
+    "readingTime": 148,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "fr/Culture/bamboo-hat-craft.md"
   },
   {
     "title": "Le christianisme à Taïwan : de la rumeur des « yeux et cœurs arrachés » à la déclaration d'un État nouveau et indépendant",
@@ -33485,6 +33780,17 @@
     "featured": false,
     "date": "2026-04-29",
     "path": "fr/Geography/beida-special-district-sanxia.md"
+  },
+  {
+    "title": "Le repas scolaire à Taïwan : un siècle de transformation, du lait écrémé au curry fluorescent",
+    "description": "En 1951, des dons de lait écrémé de l'UNICEF ouvrent l'ère du repas scolaire à Taïwan. De la farine américaine aux céréales locales, puis à l'éducation alimentaire d'aujourd'hui et à la gratuité progressive, cette évolution centenaire nourrit les écoliers tout en reflétant les mutations économiques, éducatives et culturelles du pays.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Food/school-lunch-reform",
+    "readingTime": 139,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "fr/Food/school-lunch-reform.md"
   },
   {
     "title": "Le repli du gouvernement nationaliste à Taïwan et la reconstruction d'après-guerre",
@@ -36976,6 +37282,24 @@
     "path": "en/Technology/national-cultural-memory-bank.md"
   },
   {
+    "title": "National Highways: From MacArthur Freeway to Hsuehshan Tunnel, Fifty Years of Power and Speed on Taiwan's Expressways",
+    "description": "In 1964, the MacArthur Freeway was only 23 kilometers long; today Taiwan's national highway network exceeds 1,000 kilometers. From the Chiang Ching-kuo–championed Sun Yat-sen Freeway, the politically mocked Formosa Freeway, the world's most difficult-to-dig Hsuehshan Tunnel, to ETC reshaping every driver's toll-paying habits—each ribbon of asphalt records postwar Taiwan's political will, engineering limits, and civic resistance.",
+    "category": "en",
+    "tags": [
+      "國道",
+      "交通建設",
+      "十大建設",
+      "雪山隧道",
+      "ETC",
+      "戰後台灣"
+    ],
+    "url": "https://taiwan.md/en/Lifestyle/national-highway-system",
+    "readingTime": 58,
+    "featured": false,
+    "date": "2026-05-03",
+    "path": "en/Lifestyle/national-highway-system.md"
+  },
+  {
     "title": "National Palace Museum",
     "description": "It is the heaviest 'baggage' on this island, and also the most ethereal 'digital dreamscape.' From wooden crates amid the flames of war to pixels under AI computing power, the museum is trying to define what 'Taiwan's Palace Museum' means — between Taipei's Waishuangxi and Chiayi's Taibao.",
     "category": "en",
@@ -37225,6 +37549,17 @@
     "featured": false,
     "date": "2026-04-28",
     "path": "en/Food/oil-rice.md"
+  },
+  {
+    "title": "On peut prédire la trajectoire, pas le destin : quatre cents ans de typhons à Taïwan",
+    "description": "Des premiers colons de la dynastie Qing assistant aux ouragans à Penghu, à la disparition du village de Xiaolin sous des pluies torrentielles en 2009, l'histoire de la coexistence entre Taïwan et les typhons n'a jamais cessé. Aujourd'hui, nous pouvons utiliser l'IA pour prédire la trajectoire d'un typhon trente à l'avance en quatre minutes, mais le météorologue Wu Derong a révélé une vérité contre-intuitive : la Chaîne centrale n'est pas un dieu protecteur, mais un compresseur qui transforme le vent en eau.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Nature/typhoons-in-taiwan",
+    "readingTime": 148,
+    "featured": false,
+    "date": "2026-05-06",
+    "path": "fr/Nature/typhoons-in-taiwan.md"
   },
   {
     "title": "Open Source Community and g0v",
@@ -37916,6 +38251,17 @@
     "path": "fr/About/why-taiwan-needs-its-own-knowledge-base.md"
   },
   {
+    "title": "Predicting the Path, Not the Destiny: Four Centuries of Taiwan and Typhoons",
+    "description": "From Qing Dynasty settlers witnessing hurricanes in Penghu to the village of Xiaolin vanishing under torrential rains in 2009, Taiwan's coexistence with typhoons has never ceased. Today we can use AI to forecast a typhoon's path thirty days out in just four minutes, but meteorologist Wu Derong revealed a counterintuitive truth: the Central Mountain Range is not a divine protector but a pressurizer that turns wind into water.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Nature/typhoons-in-taiwan",
+    "readingTime": 136,
+    "featured": false,
+    "date": "2026-05-06",
+    "path": "en/Nature/typhoons-in-taiwan.md"
+  },
+  {
     "title": "Preferir consumirse antes que oxidarse: Mackay y su amada Formosa",
     "description": "Desde la extracción de veinte mil dientes hasta la fundación de la primera escuela para niñas, el misionero canadiense Mackay se convirtió en un \"taiwanés de pura cepa\" y reescribió con treinta años de vida la historia de la medicina, la educación y la exploración científica en el norte de Taiwán.",
     "category": "es",
@@ -38185,6 +38531,17 @@
     "path": "ko/Technology/ptt-bulletin-board-system.md"
   },
   {
+    "title": "Puede predecir la trayectoria, pero no el destino: cuatrocientos años de tifones en Taiwán",
+    "description": "Desde los primeros colonos de la dinastía Qing que presenciaron huracanes en Penghu hasta la desaparición del pueblo de Xiaolin bajo lluvias torrenciales en 2009, la historia de la convivencia de Taiwán con los tifones nunca se ha detenido. Hoy podemos usar IA para predecir la trayectoria de un tifón con trente días de antelación en solo cuatro minutos, pero el meteorólogo Wu Derong reveló una verdad contraintuitiva: la Cordillera Central no es el dios que nos protege, sino un amplificador que convierte viento en agua.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Nature/typhoons-in-taiwan",
+    "readingTime": 143,
+    "featured": false,
+    "date": "2026-05-06",
+    "path": "es/Nature/typhoons-in-taiwan.md"
+  },
+  {
     "title": "Puente del Río Tamsui: en el horizonte de la desembocadura, un monumento colosal creado para la \"transparencia\"",
     "description": "El Puente del Río Tamsui está previsto para inaugurarse el 12 de mayo de 2026. Diseñado por el equipo de la arquitecta Zaha Hadid, este puente atirantado asimétrico de una sola torre —planificado a lo largo de tres décadas— redefine el paisaje estuarino de Taiwán con líneas fluidas, en la tensión entre preservar la famosa puesta de sol de Tamsui y aliviar la congestión del tráfico.",
     "category": "es",
@@ -38389,17 +38746,6 @@
     "featured": true,
     "date": "2026-03-24",
     "path": "fr/Culture/traditional-festivals-and-celebrations.md"
-  },
-  {
-    "title": "Quand la « montagne sacrée nationale » devient une arme à double tranchant : le destin géographique de Taïwan face aux typhons",
-    "description": "Des observations météorologiques de l'ère japonaise au village englouti de Morakot, en passant par la culture du jour férié pour typhon et les alertes technologiques, redécouvrons comment cette île coexiste avec 3,5 typhons par an en moyenne.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Nature/typhoons-in-taiwan",
-    "readingTime": 57,
-    "featured": false,
-    "date": "2026-04-16",
-    "path": "fr/Nature/typhoons-in-taiwan.md"
   },
   {
     "title": "Quand la musique classique devient la chanson des camions-poubelles : la plus romantique des révolutions écologiques de Taïwan",
@@ -39000,6 +39346,17 @@
     "featured": false,
     "date": "2026-04-30",
     "path": "en/Lifestyle/cooperatives-in-taiwan.md"
+  },
+  {
+    "title": "School Lunch in Taiwan: A Century of Change, from Skim Milk Powder to Neon Curry",
+    "description": "In 1951, a UNICEF donation of skim milk powder launched Taiwan's school lunch program. From American aid flour to local rice, and from food education to free-lunch policies, a century of change has fed generations of students while tracing Taiwan's social, economic, and culinary evolution.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Food/school-lunch-reform",
+    "readingTime": 130,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "en/Food/school-lunch-reform.md"
   },
   {
     "title": "Science Park Development",
@@ -40044,6 +40401,61 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "en/Nature/taiwan-alpine-ecosystems-glacial-relicts.md"
+  },
+  {
+    "title": "Taiwan and Eswatini: Africa's Last Diplomatic Lifeline Hanging on One Person",
+    "description": "On May 2, 2026, at 9:00 AM, Lai Ching-te landed in Mbabane aboard an A340 chartered from the King of Eswatini. This marks the first time a Taiwanese president had their flight clearance revoked due to pressure from China, with the final solution being a plane dispatched by the King of the allied nation to pick him up from Taipei. From the establishment of diplomatic relations on the same day as Eswatini's independence in 1968 to being Africa's last remaining ally; from an absolute monarch whose birth year coincides exactly with the history of diplomatic relations to the suppression of 46 lives in his own town in 2021; from Red-fleshed Guava entering SUPERSPAR to China's zero-tariff policy for 53 countries deliberately skipping Eswatini. The 58-year relationship between Taiwan and Eswatini is the most concrete textbook of a 'sovereign state' and also an unsolved question mark.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Society/taiwan-eswatini-relations",
+    "readingTime": 131,
+    "featured": false,
+    "date": "2026-05-05",
+    "path": "fr/Society/taiwan-eswatini-relations.md"
+  },
+  {
+    "title": "Taiwan and Eswatini: Africa's Last Diplomatic Lifeline Hanging on One Person",
+    "description": "On May 2, 2026, at 9:00 AM, Tsai Ing-wen arrived in Mbabane aboard an A340 aircraft borrowed from the King of Eswatini. This marks the first time a Taiwanese president's flight permit was revoked due to pressure from China, with the final solution being a plane dispatched by the King of the allied nation to pick up the president from Taipei. From the establishment of diplomatic relations on the same day as Eswatini's independence in 1968 to its status as the last ally in Africa, from an absolute monarch whose birth year coincides entirely with the history of diplomatic relations to the suppression of 46 lives in his own town in 2021, from Red Heart Guavas entering SUPERSPAR to China's zero-tariff policy for 53 countries specifically skipping Eswatini. The 58-year relationship between Taiwan and Eswatini is a concrete textbook of 'sovereign states' and an unsolvable question.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Society/taiwan-eswatini-relations",
+    "readingTime": 131,
+    "featured": false,
+    "date": "2026-05-05",
+    "path": "ko/Society/taiwan-eswatini-relations.md"
+  },
+  {
+    "title": "Taiwan and Eswatini: Africa's Last Diplomatic Lifeline, Hanging on One Person",
+    "description": "On May 2, 2026, at 9:00 AM, Lai Ching-te landed in Mbabane aboard an A340 aircraft borrowed from the King of Eswatini. This marks the first time a Taiwanese president's flight permit was canceled due to pressure from China, with the final solution being a plane dispatched by the King of the allied nation to pick him up from Taipei. From the establishment of diplomatic relations on the same day as Eswatini's independence in 1968 to being the last ally in Africa, from an absolute monarch whose birth year coincides exactly with the history of diplomatic relations to the 46 lives suppressed by the country in 2021, from Red Heart Guavas entering SUPERSPAR to China's zero-tariff policy for 53 countries deliberately skipping Eswatini. The 58-year relationship between Taiwan and Eswatini is a concrete textbook of 'sovereign states' and an unsolvable question.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Society/taiwan-eswatini-relations",
+    "readingTime": 133,
+    "featured": false,
+    "date": "2026-05-05",
+    "path": "en/Society/taiwan-eswatini-relations.md"
+  },
+  {
+    "title": "Taiwan and Eswatini: Africa's Last Diplomatic Lifeline, Hanging on One Person",
+    "description": "On May 2, 2026, at 9:00 AM, Lai Ching-te landed in Mbabane aboard an A340 aircraft borrowed from the King of Eswatini. This marks the first time a Taiwanese President's flight was canceled due to Chinese pressure on flight permits, with the final solution being a plane dispatched by the King of a friendly nation to pick him up from Taipei. From the establishment of diplomatic relations on the same day as Eswatini's independence in 1968 to its status as the last ally in Africa, from an absolute monarch whose birth year coincides entirely with the history of diplomatic ties to the 46 lives lost in domestic suppression in 2021, from Red Heart Guavas entering SUPERSPAR to China's zero-tariff policy for 53 countries deliberately skipping Eswatini. The 58-year relationship between Taiwan and Eswatini is both the most concrete textbook of a 'sovereign state' and an unsolved question.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Society/taiwan-eswatini-relations",
+    "readingTime": 134,
+    "featured": false,
+    "date": "2026-05-05",
+    "path": "es/Society/taiwan-eswatini-relations.md"
+  },
+  {
+    "title": "Taiwan and Eswatini: Africa's Last Diplomatic Lifeline, Hanging on One Person",
+    "description": "On the morning of May 2, 2026, at 9:00 AM, Lai Ching-te landed in Mbabane aboard an A340 aircraft borrowed from the King of Eswatini. This marks the first time a Taiwanese President's flight permit was revoked due to pressure from China, with the final solution being a diplomatic mission aircraft dispatched by the King of the allied nation to pick him up from Taipei. From the establishment of diplomatic relations on the same day as Eswatini's independence in 1968 to its status as the last remaining ally in Africa, from an absolute monarch whose birth year coincides entirely with the history of diplomatic ties to the 46 lives lost in domestic suppression in 2021, from Red Heart Guavas entering SUPERSPAR to China's zero-tariff policy for 53 countries specifically skipping Eswatini. The 58-year relationship between Taiwan and Eswatini is both the most concrete textbook of a 'sovereign state' and an unsolved question.",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Society/taiwan-eswatini-relations",
+    "readingTime": 132,
+    "featured": false,
+    "date": "2026-05-05",
+    "path": "ja/Society/taiwan-eswatini-relations.md"
   },
   {
     "title": "Taiwan Anime Culture",
@@ -42613,7 +43025,7 @@
       "AI"
     ],
     "url": "https://taiwan.md/en/Economy/taiwan-stock-market",
-    "readingTime": 99,
+    "readingTime": 100,
     "featured": true,
     "date": "2026-05-03",
     "path": "en/Economy/taiwan-stock-market.md"
@@ -43244,6 +43656,27 @@
     "path": "en/Lifestyle/taoyuan-airport.md"
   },
   {
+    "title": "Tawny Fish Owl: Six Kilometers per Pair, a Nocturnal Raptor on an 1,800-Meter Formosan Michelia",
+    "description": "In April 2026, Hung Hsiao-yu, assistant professor at National Pingtung University of Science and Technology (NPUST), located the highest-known tawny fish owl nest in Taiwan—at approximately 1,800 meters elevation, inside the cavity of a Formosan michelia (Michelia compressa) with a breast-height diameter of roughly 1.5 meters, on the banks of Cijiawan Stream. Taiwan's largest owl was first recorded in 1916 by Japanese scholar Kuroda Nagamichi. The laboratory of Sun Yuan-hsun at NPUST has tracked this species for thirty years across 91 territories, finding that each breeding pair requires an average of 6.2 kilometers of stream. A stretch of river not yet lined with concrete, a giant tree not yet fallen—the tawny fish owl lives in the narrow gap where these two things have not yet vanished from Taiwan's mountain forests.",
+    "category": "en",
+    "tags": [
+      "黃魚鴞",
+      "鳥類",
+      "猛禽",
+      "保育",
+      "生態",
+      "森林",
+      "溪流",
+      "七家灣溪",
+      "雪霸國家公園"
+    ],
+    "url": "https://taiwan.md/en/Nature/tawny-fish-owl",
+    "readingTime": 94,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "en/Nature/tawny-fish-owl.md"
+  },
+  {
     "title": "Tchang Kaï-chek",
     "description": "Ses statues sont en train d'être démontées, mais les fondations qu'il a posées — que vous les appeliez construction ou carcans — soutiennent encore chaque route, chaque école, chaque élection de cette île.",
     "category": "fr",
@@ -43557,31 +43990,6 @@
     "path": "fr/People/terry-gou.md"
   },
   {
-    "title": "Test Article",
-    "description": "Introduction and explanation about the test article",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Language/test-article",
-    "readingTime": 3,
-    "featured": false,
-    "date": "2026-03-28",
-    "path": "en/Language/test-article.md"
-  },
-  {
-    "title": "Test Article",
-    "description": "Introduction and explanation regarding the test article",
-    "category": "ko",
-    "tags": [
-      "language",
-      "taiwan"
-    ],
-    "url": "https://taiwan.md/ko/Language/test-article",
-    "readingTime": 3,
-    "featured": false,
-    "date": "2026-03-28",
-    "path": "ko/Language/test-article.md"
-  },
-  {
     "title": "The 1895 Taiwan Resistance War: 148 Days of the Republic of Formosa",
     "description": "In 1895, the Qing court ceded Taiwan to Japan. Officials on the island declared the establishment of Asia's first republic, but the president fled within ten days and the poet within four. Those who truly stayed to fight were a 19-year-old Hakka youth who scattered his family fortune to raise militia fighters. 148 days later, the republic vanished and Japanese rule began.",
     "category": "en",
@@ -43624,6 +44032,23 @@
     "featured": true,
     "date": "2026-04-11",
     "path": "en/Society/2026-cheng-xi-meeting-kmt-ccp-decade-reunion.md"
+  },
+  {
+    "title": "The Bamboo Hat: A Couple near Longdu Junior High, Sixty Years Woven into a Hat",
+    "description": "In 2017, Lin Rong-chun of Meinong, Kaohsiung was still shaving bamboo strips in his eighties. In 2014, Chen Lian-qin of Longqi, Tainan was eighty-six and finishing one hat per hour. In Fuli, Hualien, Xu Gui-zhu sold each hat for only NT$150 in 2016. By 2022, a documentary captured Wu Jin-yun and Xu Bao-mei of Miaoli, who had spent fifty years at the craft. Today, almost every master who can still make a rough-work bamboo hat is over seventy — and with compensation for forgoing logging on indigenous reserve land raised to NT$60,000 per hectare in 2024, even the upstream bamboo supply is fracturing. The hat has not vanished from the fields. What has vanished are the hands that could press bamboo leaves into a bamboo-strip frame and bind them, round by round, with cotton thread.",
+    "category": "en",
+    "tags": [
+      "traditional craft",
+      "Hakka",
+      "bamboo weaving",
+      "rural",
+      "intangible cultural heritage"
+    ],
+    "url": "https://taiwan.md/en/Culture/bamboo-hat-craft",
+    "readingTime": 151,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "en/Culture/bamboo-hat-craft.md"
   },
   {
     "title": "The Breakfast Shop 'Aunty' and the Community Intelligence Network",
@@ -43724,24 +44149,6 @@
     "featured": true,
     "date": "2026-03-19",
     "path": "en/Music/taiwanese-hokkien-song-evolution.md"
-  },
-  {
-    "title": "The Exit from the UN: The 17 Minutes in 1971 That Turned Taiwan into an International Orphan",
-    "description": "On October 25, 1971, the moment Chou Shu-kai stepped down from the podium in the UN General Assembly, the Republic of China transformed from a founding member of the United Nations into an observer still barred from the door today. Half a century later, this decision of 'neither Han nor贼 can coexist' continues to resonate—the U.S. passed legislation in 2025 reaffirming that Resolution 2758 never addressed Taiwan's representation.",
-    "category": "ja",
-    "tags": [
-      "Diplomacy",
-      "History",
-      "United Nations",
-      "Cold War",
-      "Cross-Strait Relations",
-      "International Law"
-    ],
-    "url": "https://taiwan.md/ja/History/withdrawal-from-united-nations",
-    "readingTime": 92,
-    "featured": false,
-    "date": "2026-05-02",
-    "path": "ja/History/withdrawal-from-united-nations.md"
   },
   {
     "title": "The February 28 Incident",
@@ -45475,17 +45882,6 @@
     "path": "en/Culture/taiwan-meme-culture.md"
   },
   {
-    "title": "When the 'Guardian Mountain Range' Becomes a Double-Edged Sword: Taiwan's Geographic Fate with Typhoons",
-    "description": "From Japanese colonial-era meteorological observation to Typhoon Morakot's annihilation of a village, from typhoon-day holiday culture to high-tech early warning systems — rethinking how this island has coexisted with an average of 3.5 typhoons per year.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Nature/typhoons-in-taiwan",
-    "readingTime": 49,
-    "featured": false,
-    "date": "2026-04-16",
-    "path": "en/Nature/typhoons-in-taiwan.md"
-  },
-  {
     "title": "When the Earthquake Hits, Who's on Duty? The Institutional Code Behind Taiwan's Disaster Medicine System",
     "description": "From the 921 Earthquake to the Hualien tremor, how Taiwan built a disaster medicine network centered on emergency medicine departments. The system's ingenuity lies not in equipment but in the clever design of 'who is on duty.'",
     "category": "en",
@@ -46513,6 +46909,39 @@
     "path": "es/Geography/yushan-jade-mountain.md"
   },
   {
+    "title": "ZA SHARE : l'exposition gratuite qui a ruiné les économies de son fondateur, inaugurée 11 ans plus tard par le vice-président",
+    "description": "En deux jours à Huashan 1914 en 2015, Su Yangzhi a utilisé 1,5 million de TWD de bénéfices de son agence de design pour organiser le « Festival de l'éducation pas trop sage », et a finalement perdu 7 millions de TWD. Onze ans plus tard, ZA SHARE a investi le parc floral de Yuanshan pour co-organiser l'IDEC, puis s'est rebaptisé « EDit » pour s'installer au centre de conventions de Taoyuan. Le cas taïwanais d'une exposition dissidente gratuite devenue le plus grand salon de l'éducation d'Asie : le plus intéressant n'est pas qu'elle ait grandi, mais de savoir si l'esprit « pas trop sage » qui a survécu à cette croissance s'est dilué.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Society/za-share",
+    "readingTime": 120,
+    "featured": false,
+    "date": "2026-05-05",
+    "path": "fr/Society/za-share.md"
+  },
+  {
+    "title": "ZA SHARE: la exposición gratuita que fundió sus ahorros y 11 años después tuvo al vicepresidente en la inauguración",
+    "description": "En aquellos dos días de mayo de 2015 en Huashan 1914, Su Yangzhi destinó 1.500.000 de los excedentes de su empresa de diseño para organizar el \"Festival de la Educación Poco Obediente\" y terminó perdiendo 7.000.000. Once años después, ZA SHARE se instaló en el Parque de Exposiciones Florales de Yuanshan para coorganizar el IDEC, y tras una rebranding como \"EDit\" se mudó al Centro de Convenciones y Exposiciones de Taoyuan. Este caso taiwanés —de una exposición gratuita de rebelión convertida en la feria educativa más grande de Asia— no resulta interesante porque creció, sino porque la pregunta de si lo \"poco obediente\" que sobrevivió al crecimiento se sigue manteniendo intacta.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Society/za-share",
+    "readingTime": 117,
+    "featured": false,
+    "date": "2026-05-05",
+    "path": "es/Society/za-share.md"
+  },
+  {
+    "title": "ZA SHARE: The Free Exhibition That Wiped Out Its Founder's Savings — 11 Years Later, the Vice President Opened It",
+    "description": "Over two days at Huashan 1914 in 2015, Su Yang-chih poured NT$1.5 million in design-firm profits into the 'Not-Quite-Good Education Festival' — and ended up losing NT$7 million. Eleven years later, ZA SHARE moved into Taipei Expo Park to co-host IDEC, then rebranded as 'EDit' and relocated to the Taoyuan Convention and Exhibition Center. This Taiwan case — growing from a free rebellion fair into Asia's largest education expo — is most interesting not because it scaled, but because the question remains: has the 'not-quite-good' spirit survived getting big?",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Society/za-share",
+    "readingTime": 101,
+    "featured": false,
+    "date": "2026-05-05",
+    "path": "en/Society/za-share.md"
+  },
+  {
     "title": "Zheng Nanrong",
     "description": "Martyr of free speech and founder of Freedom Era Weekly; commemorated on Taiwan’s Freedom of Speech Day (April 7)",
     "category": "en",
@@ -46755,6 +47184,17 @@
     "featured": false,
     "date": "2026-04-30",
     "path": "ko/Nature/malayan-night-heron.md"
+  },
+  {
+    "title": "경로는 예측할 수 있어도, 운명은 예측할 수 없다: 대만과 태풍의 400년",
+    "description": "청대 선조들이 펑후(澎湖)에서 허리케인을 목격한 때부터, 2009년 샤오린촌(小林村)이 폭우 속에서 사라진 때까지, 대만과 태풍이 공존해 온 역사는 한 번도 멈춘 적이 없다. 오늘날 우리는 AI로 4분 만에 30일 후의 태풍 경로를 예측할 수 있지만, 기상 전문가 우더룽(吳德榮)은 반직관적 진실을 말했다: 중앙산맥은 우리를 지키는 신이 아니라, 바람을 물로 바꾸는 가압기다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Nature/typhoons-in-taiwan",
+    "readingTime": 65,
+    "featured": false,
+    "date": "2026-05-06",
+    "path": "ko/Nature/typhoons-in-taiwan.md"
   },
   {
     "title": "경쟁 컵 쌓기(Sport Stacking): 1.915초의 온라인 경매 \"유행 아이템\"에서 아시아를 석권한 43금의 전설",
@@ -48965,6 +49405,24 @@
     "path": "ko/Nature/bird-window-collision-taiwan.md"
   },
   {
+    "title": "대만 주식시장과 자본시장: 1990년 만 포인트 붕괴에서 2026년 세계 6위로, 44% 자산을 한 종목에 올린 섬",
+    "description": "2026년 4월 28일 블룸버그가 「Taiwan Overtakes Canada」 제목을 띄웠다. 1990년 만 포인트 붕괴로 16만 명의 연금을 앗아간 섬이 36년 만에 세계 6위 주식시장에 올랐다. 그러나 시가총액 4.47조 달러 중 절반에 가까운 금액이 한 반도체 회사에 집중되어 있다.",
+    "category": "ko",
+    "tags": [
+      "대만 증권거래소",
+      "자본시장",
+      "ETF",
+      "TSMC",
+      "개인투자자",
+      "AI"
+    ],
+    "url": "https://taiwan.md/ko/Economy/taiwan-stock-market-and-capital-markets",
+    "readingTime": 51,
+    "featured": true,
+    "date": "2026-05-03",
+    "path": "ko/Economy/taiwan-stock-market-and-capital-markets.md"
+  },
+  {
     "title": "대만 중소기업과 히든 챔피언: 171만 개 평범한 기업이 만들어낸 경제 기적",
     "description": "대만 경제를 진정으로 떠받치는 것은 TSMC 같은 거대 기업이 아니라, 79%의 고용을 창출하는 171만 개의 히든 챔피언들이다. 1960년대 작업복 차림의 장인 정신에서 시작해, 오늘날 글로벌 니치 시장을 지배하는 정밀 제조 왕국으로.",
     "category": "ko",
@@ -49244,6 +49702,17 @@
     "featured": false,
     "date": "2026-03-18",
     "path": "ko/Culture/taiwan-incense-making-culture-and-heritage.md"
+  },
+  {
+    "title": "대만 헤어스타일 소개",
+    "description": "역사적인 두발 규제(髮禁)부터 현대 트렌드까지, 대만 남성 헤어스타일의 변천사와 이발 문화를 소개합니다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Lifestyle/taiwan-hairstyles",
+    "readingTime": 8,
+    "featured": false,
+    "date": null,
+    "path": "ko/Lifestyle/taiwan-hairstyles.md"
   },
   {
     "title": "대만 현대 미술",
@@ -51321,6 +51790,24 @@
     "path": "ko/People/park-sung-eun.md"
   },
   {
+    "title": "반도체 산업",
+    "description": "장중모의 역사적 도박에서 2나노 시대까지: TSMC가 어떻게 대만을 글로벌 기술의 생명선으로 만들었는가",
+    "category": "ko",
+    "tags": [
+      "반도체",
+      "TSMC",
+      "TSMC",
+      "첨단 공정",
+      "기술의 섬",
+      "실리콘 방패"
+    ],
+    "url": "https://taiwan.md/ko/Technology/semiconductor-industry",
+    "readingTime": 31,
+    "featured": true,
+    "date": "2026-03-17",
+    "path": "ko/Technology/semiconductor-industry.md"
+  },
+  {
     "title": "반줘(辦桌) 문화 — 대만 야외 잔치의 300년",
     "description": "청나라 때부터 이어진 야외 연회 전화, 대만 최척박한 땅에서 세계 최고 밀도의 총푸스(總鋪師)를 키워낸 이야기. 코로나로 주문이 90% 증발했어도, 진정한 걱정은 실직이 아니라 이 기술이 사라지는 것이다.",
     "category": "ko",
@@ -52115,6 +52602,17 @@
     "path": "ko/People/red-shin-minecraft-youtuber.md"
   },
   {
+    "title": "아지토 (阿志頭)",
+    "description": "대만 인터넷 문화에서 매우 높은 인지도를 자랑하는 '아지토(阿志頭)'에 대해 시각적 특징, 유래, 그리고 그 배경에 깔린 사회적·문화적 의미를 소개합니다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Lifestyle/ah-ji-haircut",
+    "readingTime": 7,
+    "featured": false,
+    "date": null,
+    "path": "ko/Lifestyle/ah-ji-haircut.md"
+  },
+  {
     "title": "아침 식당 아주머니와 동네 정보망",
     "description": "아주머니가 그냥 \"잘생겼네~\" 한마디만 하는 줄 알았지? — 대만 아침 식당 아주머니가 어떻게 동네 전체의 정보 허브가 되는지에 대하여",
     "category": "ko",
@@ -52457,6 +52955,17 @@
     "path": "ko/Economy/advantech-technology.md"
   },
   {
+    "title": "영양 급식: 탈지분유에서 형광 카레까지, 대만 학교 급식 100년의 변천",
+    "description": "1951년, 유니세프의 탈지분유 기증으로 시작된 대만 학교 급식의 역사. 미국 원조 밀가루 시대부터 쌀 중심 급식으로의 전환, 그리고 오늘날의 식농교육과 무료 급식 정책까지, 이 100년의 변천은 세대를 먹여 살렸을 뿐 아니라 대만 사회의 경제·교육·음식 문화의 깊은 변화를 담고 있다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Food/school-lunch-reform",
+    "readingTime": 61,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "ko/Food/school-lunch-reform.md"
+  },
+  {
     "title": "예궈이 — 대만 전자 위탁제조 산업의 개척자",
     "description": "인벤텍 그룹 창립자. 대만 전자 ODM 산업을 일군 선구자로, 노트북과 서버 제조 분야에서 세계적 위치를 확립했다.",
     "category": "ko",
@@ -52703,6 +53212,17 @@
     "featured": true,
     "date": "2026-03-19",
     "path": "ko/People/golden-duo-chi-lin-yang.md"
+  },
+  {
+    "title": "왕푸루이(王福瑞): 200부 복사 잡지에서 12채널 스피커까지, 30년의 여정",
+    "description": "1993년, 스물네 살의 왕푸루이는 프로그래머의 월급으로 자택 복사기로 실험 음악 잡지 《NOISE》 200부를 찍어 15~30위안에 팔았다. 30년 후(2020년) 그는 지우이쉐이투 예술공간(就在藝術空間)에 다면체 12채널 무지향성 스피커를 걸어 올렸는데, 그 작품은 큰 병을 앓은 뒤 체내 인공 혈관에서 들려오는 잡음이었다. 혼자서 시작한 DIY 레이블에서 미술관 전시실까지, 그는 30년에 걸쳐 '노이즈(噪音)'라는 단어를 변두리 팬진(fanzine) 세계의 은밀한 암호에서 대만 사운드 아트의 정당한 어휘로 끌어들였다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/People/fujui-wang",
+    "readingTime": 50,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "ko/People/fujui-wang.md"
   },
   {
     "title": "왜 대만은 자체 지식 기반이 필요한가",
@@ -53324,6 +53844,17 @@
     "path": "ko/People/jam-hsiao.md"
   },
   {
+    "title": "잡학교: 전 재산을 날린 무료 전시, 11년 후 부총리가 개막식에 오다",
+    "description": "2015년 화산 1914의 이틀간, 소양지는 디자인 회사 NT$150만의 수익금으로 「不太乖教育节(태불구교육절)」를 열었고, 최종적으로 NT$700만을 날렸다. 11년 후, 잡학교는 위산화박(圓山花博)에 입주하여 IDEC(국제민주교육대회)와 공동 개최하고, 브랜드를 「EDit」으로 재탄생시켜 타오위안 전시센터에 진입했다. 무료 반란 전시에서 아시아 최대 교육 박람자로 성장한 타이완 사례로서, 가장 흥미로운 것은 커진 것이 아니라 커진 후에도 살아남은 「不太乖(태불구)」의 본질이 변질되었는지 여부다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Society/za-share",
+    "readingTime": 50,
+    "featured": false,
+    "date": "2026-05-05",
+    "path": "ko/Society/za-share.md"
+  },
+  {
     "title": "장명정 (張明正, Steve Chang)",
     "description": "트렌드마이크로 창업자, 글로벌 사이버보안 산업의 선구자, 타이완 소프트웨어 국제화의 상징",
     "category": "ko",
@@ -53673,6 +54204,17 @@
     "featured": true,
     "date": "2026-03-25",
     "path": "ko/People/zheng-nanrong.md"
+  },
+  {
+    "title": "정문기: 대만 예술계를 말레이 군도로 밀어 넣은 12년",
+    "description": "2017년 5월, 말레이시아 예술가 주영정(Okui Lala)이 타이베이에 도착해 《디지털 황원》 레지던시 첫 번째 예술가가 되었으며, 발표회에서 시어머니와 함께 조주어(潮州話)로 기원하는 영상을 상영했다. 이 장면은 정문기가 2011년에 《디지털 황원》을 창간한 순간의 축소판이었다 — 12년 후 56기, 384편의 글, 10권의 《군도 데이터베이스》를 축적하며, 그는 \"군도\"로 \"동남아\"를 대체하고 대만 예술계를 말레이 세계로 밀어 넣었지만, 변두리 시야의 천장에도 부딪혔다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/People/cheng-wen-chi",
+    "readingTime": 42,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "ko/People/cheng-wen-chi.md"
   },
   {
     "title": "정성공 (鄭成功, 국성야 Koxinga)",
@@ -55842,6 +56384,17 @@
     "path": "ko/People/huang-shao-yong-musician.md"
   },
   {
+    "title": "황어올빼미: 6킬로미터 계곡이 한 쌍을 키우고, 1,800미터 고도 오심석 위의 야행맹금류",
+    "description": "2026년 4월, 평과기 대학교 조교수 홍효우(洪孝宇)가 치자완시(七家灣溪) 기슭에 서 있는 흉직경 약 1.5미터의 오심석(烏心石) 나무 구멍에서 대만 전체에서 알려진 가장 높은 황어올빼미 둥지 위치를 확인했다 — 해발 약 1,800미터. 대만 최대의 부엉이인 이 종은 1916년에야 일본인 학자 쿠로다 나가사다(黑田長禮)에 의해 최초로 기록되었으며, 핑둥과기대학교 손원훈(孫元勳) 연구실이 30년간 추적한 결과 91개 세력권에서 한 쌍이 평균 6.2킬로미터 길이의 계곡을 필요로 하는 것으로 밝혀졌다. 콘크리트로 덮이지 않은 계곡 한 줄기, 쓰러지지 않은 거목 한 그루 — 황어올빼미는 대만 산림에서 이 두 가지가 아직 사라지지 않은 틈새 속에 살고 있다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Nature/tawny-fish-owl",
+    "readingTime": 48,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "ko/Nature/tawny-fish-owl.md"
+  },
+  {
     "title": "황위자오: 17년을 기다린 여성 정치인",
     "description": "1977년 중리사건의 현장에서 군중을 말린 58세의 약사 출신 성의원. 네 번 연임하며 북부 대만의 수원을 지켜낸 민진당 창당 원로",
     "category": "ko",
@@ -56022,6 +56575,17 @@
     "featured": false,
     "date": "2026-03-17",
     "path": "ja/History/dutch-spanish-and-koxinga-era.md"
+  },
+  {
+    "title": "カンムリウオクイナ：6キロメートルの渓流で一つがいを育て、1,800メートルのコウライシデの樹洞に棲む夜行性の猛禽",
+    "description": "2026年4月、屏東科技大学の洪孝宇准教授は七家湾渓のほとりに立つ、胸高直径約1.5メートルのコウライシデの老樹の樹洞において、台湾でこれまでに確認された最高標高のカンムリウオクイナの巣を特定しました——標高約1,800メートル。台湾最大のフクロウであるこの種は、1916年に日本籍の学者・黒田長礼によって初めて記録されました。屏東科技大学の孫元勳研究室は30年にわたって追跡調査を続け、91個のなわばりにおいて一つがいあたり平均6.2キロメートルの渓流が必要であることを明らかにしました。コンクリートで護岸されていない渓流、まだ倒れていない巨木——カンムリウオクイナは、台湾の山林においてこの二つがまだ失われていない隙間に生きています。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Nature/tawny-fish-owl",
+    "readingTime": 45,
+    "featured": false,
+    "date": "2026-05-04",
+    "path": "ja/Nature/tawny-fish-owl.md"
   },
   {
     "title": "キーボード上の文明衝突：東アジア文字入力法の百年の進化",
@@ -56246,17 +56810,6 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "ja/Technology/digital-id-and-digital-government.md"
-  },
-  {
-    "title": "テスト記事",
-    "description": "テスト記事の紹介と説明",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Language/test-article",
-    "readingTime": 1,
-    "featured": false,
-    "date": "2026-03-28",
-    "path": "ja/Language/test-article.md"
   },
   {
     "title": "ナイトライフとKTV文化：眠らない島の夜",

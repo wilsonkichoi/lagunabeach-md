@@ -1,7 +1,289 @@
 {
-  "generatedAt": "2026-05-04T14:24:02.538Z",
+  "generatedAt": "2026-05-07T03:17:04.691Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "307ab9bf0c07635352e66108ef09c6668bc0d87c",
+      "date": "2026-05-07T11:47:34+09:00",
+      "author": "Wilson Chen",
+      "message": "🧬 [semiont] heal: fix share icons overlapping with external link arrow (#882)"
+    },
+    {
+      "hash": "291012e6c7f1cf358c96f03da994e303298aaa83",
+      "date": "2026-05-07T00:42:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: LESSONS-INBOX append 3 條 (2026-05-07 α session)"
+    },
+    {
+      "hash": "94ed6eb739b5bdef44369608bb1382edd1f1ca39",
+      "date": "2026-05-07T00:36:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-07-003110-α — 49hr plain CC session 收官（worktree 整理 / link-target plugin / 12 PR queue / bot regression fix chain）"
+    },
+    {
+      "hash": "4d0fa18832814df9fcfef784f94164f634ceef04",
+      "date": "2026-05-07T00:27:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 台灣與立陶宛 featured: true → false (DNA #6 maintainer-controlled)"
+    },
+    {
+      "hash": "c19f550b815570c20a28018503c10bcdf56609be",
+      "date": "2026-05-07T00:25:38+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [造橋鋪路] PR Review workflow fix: fork PRs now actually get reviewed"
+    },
+    {
+      "hash": "6cd51d3f47c3792a5c15837c9d7abf387b9caf6f",
+      "date": "2026-05-07T00:24:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 7 article HARD-violation fixes from yesterday's PR batch merge"
+    },
+    {
+      "hash": "63f522deb2e1934350d99d5364ecfca73ea170c8",
+      "date": "2026-05-07T00:18:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [造橋鋪路] PR Review Bot fix: 1-line cd path regression from 2026-03-28 refactor"
+    },
+    {
+      "hash": "68f550eaf9a524d8626de4f8855b5b7199bf549f",
+      "date": "2026-05-07T01:17:29+09:00",
+      "author": "Wilson Chen",
+      "message": "feat(lifestyle): add Taiwan Hairstyles and Ah-Ji Haircut (i18n) (#881)"
+    },
+    {
+      "hash": "cac8a6c3d5ed8480e72e3a9ffb1090548503beda",
+      "date": "2026-05-07T00:10:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 台北101 frontmatter polish — category Geography + subcategory 地標"
+    },
+    {
+      "hash": "3ac7ed35009f40801a3fdb29b49a68137c8e361b",
+      "date": "2026-05-04T17:27:59+08:00",
+      "author": "idlccp1984",
+      "message": "Update 台北101.md"
+    },
+    {
+      "hash": "47cc4f3963284d70a8646a6d12c524589d6d190c",
+      "date": "2026-05-07T00:05:20+08:00",
+      "author": "idlccp1984",
+      "message": "Create 金瓜石.md with historical overview and memorial details (#875)"
+    },
+    {
+      "hash": "6af528e3c465087fa59397bb52cd224388bd8261",
+      "date": "2026-05-07T00:04:56+08:00",
+      "author": "idlccp1984",
+      "message": "Create 台灣與立陶宛.md (#877)"
+    },
+    {
+      "hash": "1110f347e38637f313a57d719de5facd047ba0dc",
+      "date": "2026-05-07T00:04:50+08:00",
+      "author": "idlccp1984",
+      "message": "Create 台北鼠患.md (#876)"
+    },
+    {
+      "hash": "d3ee13bcb8434ab518d8c9853740cb6c465c2777",
+      "date": "2026-05-07T00:04:30+08:00",
+      "author": "idlccp1984",
+      "message": "Create 斗笠.md (#874)"
+    },
+    {
+      "hash": "0386475086c463690d716e2f64b14f4aa6014b9c",
+      "date": "2026-05-07T00:04:24+08:00",
+      "author": "idlccp1984",
+      "message": "Create 營養午餐.md (#872)"
+    },
+    {
+      "hash": "841876bb355dad35f5c3ea4d9c7fc349d5988460",
+      "date": "2026-05-07T00:04:18+08:00",
+      "author": "Zaious (@ChronicleCore)",
+      "message": "content: 道德課文章補充歷史脈絡、108 課綱核心素養與近年檢討 (#852)"
+    },
+    {
+      "hash": "4b14eefe4c319c2193d06adf890a832da32b4926",
+      "date": "2026-05-07T00:04:12+08:00",
+      "author": "idlccp1984",
+      "message": "Create 陳致中.md (#841)"
+    },
+    {
+      "hash": "1237984ae5270ab6c168949a76cd753e1491d459",
+      "date": "2026-05-07T00:04:06+08:00",
+      "author": "idlccp1984",
+      "message": "Create 尊.md (#834)"
+    },
+    {
+      "hash": "6ee33828a8d05dd4b393660e121af5ad95aa16d9",
+      "date": "2026-05-07T00:03:53+08:00",
+      "author": "tboydar-agent",
+      "message": "fix: remove AI artifact in 偏鄉教育 & correct 不可能的任務 factual error in 台北101 (#879)"
+    },
+    {
+      "hash": "da3feeadf384e45e2d56a0e2e78aab3a85f6518e",
+      "date": "2026-05-06T12:59:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [babel] Tier 1 (owl-alpha): 颱風 → 5 langs (461/459/459/460/460 fresh)"
+    },
+    {
+      "hash": "dc4e0c9577759b2b325f12441c186a084746c664",
+      "date": "2026-05-06T12:33:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [rewrite] 颱風 article: REWRITE-PIPELINE max effort — qwen3.6 (max effort) + claude code test"
+    },
+    {
+      "hash": "a4e385847312a5217fa3eee689da14dd89d78970",
+      "date": "2026-05-05T23:32:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore: #65 X 寶島聯播網訪談自述版 ship + FB 手動 polish 版本留存學習"
+    },
+    {
+      "hash": "73f033e6fe41da950ed65960bbd5e90dd7065ddd",
+      "date": "2026-05-05T23:18:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore: #63 Threads + #64 X 寶島聯播網訪談 ship — 媒體曝光宣告型 spore 首例"
+    },
+    {
+      "hash": "ce543518a871105fa198c0740753364d40150769",
+      "date": "2026-05-05T23:16:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-05-001804-manual finale — 21 skills + babel A + zhtw-mcp + Zaious onboarding"
+    },
+    {
+      "hash": "683ab1d5d55402f4874047b4050e87fa9681294a",
+      "date": "2026-05-05T23:07:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore: #63/#64 寶島聯播網訪談 blueprint — A+B+C 混合（媒體曝光宣告型 spore 首例）"
+    },
+    {
+      "hash": "6dedcb555584a493c5479ee17b923a8ffbefbea8",
+      "date": "2026-05-05T23:00:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diagnose: zhtw-mcp 整合評估報告 — 雙方詞庫 + 互補維度分析"
+    },
+    {
+      "hash": "595d87cd6124f9a2a9f4d3435a6eab2c7e7be344",
+      "date": "2026-05-05T22:57:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: about §第四十六天 主權巴別塔 凝練 + podcast 訪談連結 + bench/diary 入口（6 lang 同步）"
+    },
+    {
+      "hash": "e1025ec24d427952d292ea05f53e932c8b49fd1b",
+      "date": "2026-05-05T21:14:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-05-181314-manual — 想想論壇 fit check 紅旗 → fair-use cite-only article ship"
+    },
+    {
+      "hash": "42929bb46d489ade2d3967428a880d1d54b5a64b",
+      "date": "2026-05-05T21:07:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 想想論壇 NEW (Society/媒體) — 14 年從敗選總統的試金石到跨黨派民主對話的容器"
+    },
+    {
+      "hash": "f2ed961deae6c59e3cc7c157ecf79cc0a8983f14",
+      "date": "2026-05-05T18:22:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diagnose: 想想論壇 × Taiwan.md peer fit check + 授權 deep dive"
+    },
+    {
+      "hash": "3cb3d1bfad8bf85c62951c365bacc9f2047cfa09",
+      "date": "2026-05-05T16:38:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-05 manual finale — 連 6 skill stress test 收官"
+    },
+    {
+      "hash": "55ea9317feafb85707b31384aef263245c7d3337",
+      "date": "2026-05-05T16:27:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: ship /twmd-finale skill — 收官三件套 orchestrator"
+    },
+    {
+      "hash": "f8c8a28976eb908873b7bb19ed8fb15763c8c5a9",
+      "date": "2026-05-05T16:25:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore: #61 Threads + #62 X 台灣與史瓦帝尼 (A+C 飛機+芭樂混合)"
+    },
+    {
+      "hash": "517dfd41db47aae70298d576c43346f6ad5f3ec5",
+      "date": "2026-05-05T16:16:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] babel: 台灣與史瓦帝尼 5 lang sync — Tier 3 Ollama qwen3.6 (sovereignty backbone)"
+    },
+    {
+      "hash": "c48b46696f44ebb1c6225ef2056565b2c3f9509d",
+      "date": "2026-05-05T15:52:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 台灣與史瓦帝尼 NEW (Society/國際關係) — 賴清德 2026-05 訪史完整故事"
+    },
+    {
+      "hash": "734fb51d38f1b99ae3ca553e1c47e600500565f1",
+      "date": "2026-05-05T15:25:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] babel: 雜學校 5 lang sync (en/ja/ko/es/fr) — Tier 1 100% from owl-alpha"
+    },
+    {
+      "hash": "b832b34433428dd6bdd423ad680c716506487dbe",
+      "date": "2026-05-05T14:09:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 雜學校 NEW (Society / 教育) — 11 年從不太乖到 EDit"
+    },
+    {
+      "hash": "33d779443ce2815d16672fcaf36ca2ba126be187",
+      "date": "2026-05-05T13:39:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: babel A missing-only sync — 23 translations + 4 Sonnet retry pending"
+    },
+    {
+      "hash": "d87198d46e0f82b9d502dfc7d7bfc47f5924a8ac",
+      "date": "2026-05-05T00:32:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: rm Language/測試文章 placeholder + 5 lang projections"
+    },
+    {
+      "hash": "5b90658d909225d74ba625fadbd10dcdb0353e4c",
+      "date": "2026-05-05T00:19:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 補 twmd-heartbeat + twmd-refresh dashboard keyword 強化"
+    },
+    {
+      "hash": "965a2b9bdcceeadaf4a06fe3ed7c12ee7222f27e",
+      "date": "2026-05-05T00:18:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: ship 21 個 twmd-* skills + README index 作為 pipeline trigger 薄殼"
+    },
+    {
+      "hash": "44064e73e4da8f415abf60d098aa87a8b8a1cc99",
+      "date": "2026-05-04T23:27:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [造橋鋪路] lang-sync refresh.sh: pure-projection mode"
+    },
+    {
+      "hash": "136157505b071c01de1ad2125fee4a02fc76db8c",
+      "date": "2026-05-04T23:33:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [造橋鋪路] article-health link-target plugin (Phase 1 casing + Phase 2 existence) + 209 file casing fix + threshold raise"
+    },
+    {
+      "hash": "1d4c3c5b2ec61d50ec1d206639ff7ff9e8de702f",
+      "date": "2026-05-04T23:29:27+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] rewrite: 王福瑞 NEW People — 從 200 份影印雜誌到 12 聲道喇叭的三十年 (#873)"
+    },
+    {
+      "hash": "c69ae9910c213f198b8dc29ae0c191f9ce312563",
+      "date": "2026-05-04T22:37:18+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #871 from frank890417/claude/article-health-mass-fix"
+    },
+    {
+      "hash": "e5fe6f082b6d295c5ef8a92996e6e8fc44ab072e",
+      "date": "2026-05-04T22:36:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [造橋鋪路] article-health 大規模修復：1,171 HARD → 0 + SSOT --fix 工程化"
+    },
+    {
+      "hash": "8aaef93d08c3ce51183f7e35ca2e00c5dcfea2eb",
+      "date": "2026-05-04T22:19:51+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] diagnose: Grok critique distill — 對外敘事 vs 內在進化的結構性盲點 (#850)"
+    },
     {
       "hash": "c5369dc00c244e2a82fcf96b09f841abd7240c35",
       "date": "2026-05-04T21:53:42+08:00",
