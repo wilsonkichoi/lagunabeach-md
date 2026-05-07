@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T06:38:25.995Z",
+  "lastUpdated": "2026-05-07T12:38:10.841Z",
   "totals": {
     "contributors": 50,
     "activeWindow": "last 30d"
@@ -7,16 +7,16 @@
   "leaderboard": [
     {
       "login": "frank890417",
-      "commits": 2664,
+      "commits": 2672,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-05-07 12:02:53 +0800",
+      "lastCommitAt": "2026-05-07 15:32:35 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 581,
-        "system": 1710,
-        "translation": 595
+        "content": 582,
+        "system": 1717,
+        "translation": 598
       }
     },
     {
@@ -361,16 +361,16 @@
   "topSystem": [
     {
       "login": "frank890417",
-      "commits": 2664,
+      "commits": 2672,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-05-07 12:02:53 +0800",
+      "lastCommitAt": "2026-05-07 15:32:35 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 581,
-        "system": 1710,
-        "translation": 595
+        "content": 582,
+        "system": 1717,
+        "translation": 598
       }
     },
     {
@@ -505,20 +505,6 @@
   "weeklyActive": 5,
   "monthlyActive": 11,
   "recentlyJoined": [
-    {
-      "login": "ceruleanstring",
-      "commits": 4,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/265435204?v=4",
-      "profileUrl": "https://github.com/ceruleanstring",
-      "firstCommitAt": "2026-04-07 19:58:17 +0800",
-      "lastCommitAt": "2026-04-15 12:29:57 +0800",
-      "primaryArea": "translation",
-      "breakdown": {
-        "content": 0,
-        "system": 0,
-        "translation": 161
-      }
-    },
     {
       "login": "kevinyay945",
       "commits": 1,

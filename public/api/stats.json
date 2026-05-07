@@ -1,8 +1,8 @@
 {
-  "totalArticles": 4129,
+  "totalArticles": 4126,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 5570,
+  "totalTags": 5535,
   "categories": [
     {
       "name": "es",
@@ -10,11 +10,11 @@
     },
     {
       "name": "ko",
-      "count": 683
+      "count": 682
     },
     {
       "name": "en",
-      "count": 699
+      "count": 698
     },
     {
       "name": "fr",
@@ -22,7 +22,7 @@
     },
     {
       "name": "ja",
-      "count": 690
+      "count": 689
     },
     {
       "name": "History",
@@ -30,7 +30,7 @@
     },
     {
       "name": "Society",
-      "count": 69
+      "count": 70
     },
     {
       "name": "Culture",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Lifestyle",
-      "count": 27
+      "count": 26
     },
     {
       "name": "Geography",
@@ -131,15 +131,15 @@
       "count": 23
     },
     {
-      "name": "文化",
-      "count": 23
-    },
-    {
       "name": "政治人物",
       "count": 23
     },
     {
       "name": "金曲獎",
+      "count": 22
+    },
+    {
+      "name": "文化",
       "count": 22
     },
     {
@@ -168,13 +168,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4129,
+    "zh-TW": 4126,
     "en": 0
   },
-  "lastUpdated": "2026-05-07T06:38:25.448Z",
+  "lastUpdated": "2026-05-07T12:38:10.265Z",
   "stars": 973,
   "forks": 144,
-  "zhPages": 3430,
-  "enPages": 699,
-  "totalPages": 4129
+  "zhPages": 3428,
+  "enPages": 698,
+  "totalPages": 4126
 }

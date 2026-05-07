@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T06:38:25.625Z",
+  "lastUpdated": "2026-05-07T12:38:10.957Z",
   "languages": [
     "zh-TW",
     "en",
@@ -346,25 +346,25 @@
       }
     },
     "lifestyle": {
-      "zh-TW": 27,
+      "zh-TW": 26,
       "en": {
-        "count": 21,
+        "count": 20,
         "fresh": 17,
-        "stale": 4,
+        "stale": 3,
         "missing": 0,
         "deficit": 6
       },
       "ja": {
-        "count": 20,
+        "count": 19,
         "fresh": 16,
-        "stale": 4,
+        "stale": 3,
         "missing": 0,
         "deficit": 7
       },
       "ko": {
-        "count": 20,
+        "count": 19,
         "fresh": 16,
-        "stale": 4,
+        "stale": 3,
         "missing": 0,
         "deficit": 7
       },
@@ -372,15 +372,15 @@
         "count": 18,
         "fresh": 16,
         "stale": 2,
-        "missing": 2,
-        "deficit": 9
+        "missing": 1,
+        "deficit": 8
       },
       "fr": {
         "count": 18,
         "fresh": 16,
         "stale": 2,
-        "missing": 2,
-        "deficit": 9
+        "missing": 1,
+        "deficit": 8
       }
     },
     "music": {
@@ -498,41 +498,41 @@
       }
     },
     "society": {
-      "zh-TW": 69,
+      "zh-TW": 70,
       "en": {
         "count": 49,
         "fresh": 37,
         "stale": 12,
         "missing": 3,
-        "deficit": 20
+        "deficit": 21
       },
       "ja": {
         "count": 49,
         "fresh": 37,
         "stale": 12,
         "missing": 3,
-        "deficit": 20
+        "deficit": 21
       },
       "ko": {
         "count": 49,
         "fresh": 37,
         "stale": 12,
         "missing": 3,
-        "deficit": 20
+        "deficit": 21
       },
       "es": {
         "count": 49,
         "fresh": 37,
         "stale": 12,
         "missing": 3,
-        "deficit": 20
+        "deficit": 21
       },
       "fr": {
         "count": 49,
         "fresh": 37,
         "stale": 12,
         "missing": 3,
-        "deficit": 20
+        "deficit": 21
       }
     },
     "technology": {
@@ -583,7 +583,8 @@
       "Society/台灣與立陶宛：在民主價值與地緣政治現實間協商的夥伴關係.md",
       "Society/想想論壇：14 年從敗選總統的試金石到跨黨派民主對話的容器.md",
       "Society/泛科學：從科學新聞黑洞到演算法裡的知識工業.md",
-      "Technology/半導體產業.md"
+      "Technology/半導體產業.md",
+      "Society/巴拉圭與台灣：南美洲最後的邦交，六十年邦誼的硬道理.md"
     ],
     "ja": [
       "Culture/斗笠：龍肚國中旁那對夫妻，把六十年的桂竹編進一頂帽子裡.md",
@@ -595,7 +596,8 @@
       "Society/想想論壇：14 年從敗選總統的試金石到跨黨派民主對話的容器.md",
       "Society/泛科學：從科學新聞黑洞到演算法裡的知識工業.md",
       "History/退出聯合國：1971 年那 17 分鐘，台灣如何從「中國」變成國際孤兒.md",
-      "People/鄭麗文.md"
+      "People/鄭麗文.md",
+      "Society/巴拉圭與台灣：南美洲最後的邦交，六十年邦誼的硬道理.md"
     ],
     "ko": [
       "Culture/斗笠：龍肚國中旁那對夫妻，把六十年的桂竹編進一頂帽子裡.md",
@@ -606,31 +608,32 @@
       "Society/台灣與立陶宛：在民主價值與地緣政治現實間協商的夥伴關係.md",
       "Society/想想論壇：14 年從敗選總統的試金石到跨黨派民主對話的容器.md",
       "Society/泛科學：從科學新聞黑洞到演算法裡的知識工業.md",
-      "People/鄭麗文.md"
+      "People/鄭麗文.md",
+      "Society/巴拉圭與台灣：南美洲最後的邦交，六十年邦誼的硬道理.md"
     ],
     "es": [
       "Culture/斗笠：龍肚國中旁那對夫妻，把六十年的桂竹編進一頂帽子裡.md",
       "Geography/金瓜石：那一千個被押進坑道挖銅的英國兵，與一座還沒洗乾淨的金山.md",
-      "Lifestyle/台灣髮型介紹.md",
-      "Lifestyle/阿志頭.md",
+      "Lifestyle/台灣髮型介紹：從髮禁到迷因的社會刻度.md",
       "People/尊：從「黃毛豬」到台灣最年輕百萬 YouTuber，在清流標籤下的孤獨實驗.md",
       "People/陳致中：從第一家庭光環到「排黑條款」下的政治浮沉.md",
       "Society/台北鼠患：從 1896 年總督府的鼠疫令，到 2026 年大安區的漢他病毒.md",
       "Society/台灣與立陶宛：在民主價值與地緣政治現實間協商的夥伴關係.md",
       "Society/想想論壇：14 年從敗選總統的試金石到跨黨派民主對話的容器.md",
       "Society/泛科學：從科學新聞黑洞到演算法裡的知識工業.md",
-      "People/鄭麗文.md"
+      "People/鄭麗文.md",
+      "Society/巴拉圭與台灣：南美洲最後的邦交，六十年邦誼的硬道理.md"
     ],
     "fr": [
       "Geography/金瓜石：那一千個被押進坑道挖銅的英國兵，與一座還沒洗乾淨的金山.md",
-      "Lifestyle/台灣髮型介紹.md",
-      "Lifestyle/阿志頭.md",
+      "Lifestyle/台灣髮型介紹：從髮禁到迷因的社會刻度.md",
       "People/尊：從「黃毛豬」到台灣最年輕百萬 YouTuber，在清流標籤下的孤獨實驗.md",
       "People/陳致中：從第一家庭光環到「排黑條款」下的政治浮沉.md",
       "Society/台北鼠患：從 1896 年總督府的鼠疫令，到 2026 年大安區的漢他病毒.md",
       "Society/台灣與立陶宛：在民主價值與地緣政治現實間協商的夥伴關係.md",
       "Society/想想論壇：14 年從敗選總統的試金石到跨黨派民主對話的容器.md",
-      "Society/泛科學：從科學新聞黑洞到演算法裡的知識工業.md"
+      "Society/泛科學：從科學新聞黑洞到演算法裡的知識工業.md",
+      "Society/巴拉圭與台灣：南美洲最後的邦交，六十年邦誼的硬道理.md"
     ]
   },
   "statusSource": "translation-status.json",

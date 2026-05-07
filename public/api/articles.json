@@ -637,18 +637,7 @@
     "title": "三峽茶：從「青心柑仔」的螺旋轉向，到夏茶價值的蜜香升級",
     "description": "三峽是台灣最具代表性的專業炒菁綠茶產區，其產業路徑是一場關於「適應」的長期實驗。從清同治年間的陶德發現，到日治時期綠茶外銷的受壓制，再到 1990 年代末期碧螺春的正式定名，三峽茶農在特有品種與土地開發的夾縫中，勾勒出台灣綠茶的在地標準。",
     "category": "Food",
-    "tags": [
-      "三峽",
-      "碧螺春",
-      "蜜香紅茶",
-      "青心柑仔",
-      "黃文雄",
-      "天芳茶行",
-      "大豹社",
-      "食農教育",
-      "三峽學",
-      "桃子腳"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/Food/%E4%B8%89%E5%B3%BD%E8%8C%B6",
     "readingTime": 17,
     "featured": false,
@@ -757,7 +746,7 @@
     "url": "https://taiwan.md/Music/%E5%B0%8F%E8%99%8E%E9%9A%8A",
     "readingTime": 8,
     "featured": false,
-    "date": "2026-03-24T23:00:00Z",
+    "date": "2026-03-24",
     "path": "Music/小虎隊.md"
   },
   {
@@ -986,6 +975,17 @@
     "path": "ja/Food/sun-cake.md"
   },
   {
+    "title": "巴拉圭與台灣：南美洲最後的邦交，六十年邦誼的硬道理",
+    "description": "1957 年建交、1989 年危中求存、2026 年總統府頒采玉大勳章——巴拉圭是台灣在南美洲唯一的邦交國，也是唯一一個面積最大、人口最多、地緣最重要的邦交國。從豬牛肉出口台灣到台巴科大建在巴拉圭，六十年走過 1989 年政變斷交危機、中國 800 億美元市場誘惑，這條關係的硬道理不在外交辭令，在豬牛肉、大學和一個大使的抉擇。",
+    "category": "Society",
+    "tags": [],
+    "url": "https://taiwan.md/Society/%E5%B7%B4%E6%8B%89%E5%9C%AD%E8%88%87%E5%8F%B0%E7%81%A3",
+    "readingTime": 31,
+    "featured": true,
+    "date": "2026-05-07",
+    "path": "Society/巴拉圭與台灣.md"
+  },
+  {
     "title": "巴哈姆特",
     "description": "台灣最大 ACG 社群的誕生、存活，以及它憑什麼在臉書、TikTok 橫掃一切的時代裡越活越旺。",
     "category": "Culture",
@@ -1175,12 +1175,14 @@
   },
   {
     "title": "日治時期台灣文學",
-    "description": "",
+    "description": "1895 至 1945 年日治時期台灣文學的發展歷程，從古典漢文到新文學運動，探討殖民語境下的文化認同與民族覺醒。",
     "category": "Art",
     "tags": [
       "文學",
       "日治時期",
-      "殖民文學"
+      "殖民文學",
+      "台灣新文學",
+      "文化認同"
     ],
     "url": "https://taiwan.md/Art/%E6%97%A5%E6%B2%BB%E6%99%82%E6%9C%9F%E6%96%87%E5%AD%B8",
     "readingTime": 18,
@@ -5091,16 +5093,7 @@
     "title": "台灣 VTuber：從企業實驗到「出圈」的虛實共生演進",
     "description": "2017 年，虛擬女孩虎妮在 Yahoo TV 亮相，開啟台灣 VTuber 產業。從最初的企業技術實驗，到 2025 年全台累計超過 3,000 位 VTuber 出道，這股力量已演化為橫跨奧運合作與台語復振的文化生態。其帶動的 Super Chat 經濟雖達數千萬，但個體創作者仍面臨高成本與高流動率的挑戰。",
     "category": "Culture",
-    "tags": [
-      "文化",
-      "科技",
-      "直播",
-      "虛擬偶像",
-      "網路文化",
-      "Z世代",
-      "台語復振",
-      "元宇宙"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/Culture/%E5%8F%B0%E7%81%A3VTuber",
     "readingTime": 24,
     "featured": false,
@@ -5282,7 +5275,7 @@
     "url": "https://taiwan.md/Lifestyle/%E5%8F%B0%E7%81%A3%E5%85%AC%E5%9C%92%E8%88%87%E6%97%A5%E5%B8%B8%E4%BC%91%E9%96%92",
     "readingTime": 14,
     "featured": false,
-    "date": null,
+    "date": "2026-03-18",
     "path": "Lifestyle/台灣公園與日常休閒.md"
   },
   {
@@ -5559,7 +5552,7 @@
     "url": "https://taiwan.md/Lifestyle/%E5%8F%B0%E7%81%A3%E5%B8%82%E5%A0%B4%E6%96%87%E5%8C%96%E8%88%87%E5%82%B3%E7%B5%B1%E5%B8%82%E5%A0%B4",
     "readingTime": 15,
     "featured": false,
-    "date": null,
+    "date": "2026-03-18",
     "path": "Lifestyle/台灣市場文化與傳統市場.md"
   },
   {
@@ -6063,19 +6056,9 @@
     "title": "台灣有哪些動物園：最老的不在木柵，最大的也不只是動物園",
     "description": "從圓仔到海生館夜宿，台灣的動物園不是一張親子景點清單，而是一條城市、觀光與海洋教育一起長出的島內路線。",
     "category": "Society",
-    "tags": [
-      "動物園",
-      "台北動物園",
-      "新竹動物園",
-      "壽山動物園",
-      "Xpark",
-      "海生館",
-      "六福村",
-      "頑皮世界",
-      "遠雄海洋公園"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E6%9C%89%E5%93%AA%E4%BA%9B%E5%8B%95%E7%89%A9%E5%9C%92",
-    "readingTime": 30,
+    "readingTime": 33,
     "featured": false,
     "date": "2026-04-25",
     "path": "Society/台灣有哪些動物園.md"
@@ -6462,7 +6445,7 @@
     "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E7%A4%BE%E5%8D%80%E8%88%87%E9%87%8C%E6%96%87%E5%8C%96",
     "readingTime": 20,
     "featured": false,
-    "date": null,
+    "date": "2026-03-18",
     "path": "Society/台灣社區與里文化.md"
   },
   {
@@ -8282,14 +8265,20 @@
     "path": "Music/台灣樂器製造.md"
   },
   {
-    "title": "台灣髮型介紹",
-    "description": "從歷史上的髮禁到現代的流行趨勢，介紹台灣男性髮型的演變與理髮文化。",
+    "title": "台灣髮型介紹：從髮禁到迷因的社會刻度",
+    "description": "從 1969 年教育部平頭規定，到 2005 年杜正勝一句「髮型能代表好人還是壞人嗎」徹底解除髮禁，台灣男人的頭頂反映了一場從威權規訓到自我表達的社會變遷。近年爆紅的阿志頭迷因，只是這場變遷的最新一章。",
     "category": "Lifestyle",
-    "tags": [],
+    "tags": [
+      "髮型",
+      "理髮文化",
+      "流行時尚",
+      "城市生活",
+      "迷因"
+    ],
     "url": "https://taiwan.md/Lifestyle/%E5%8F%B0%E7%81%A3%E9%AB%AE%E5%9E%8B%E4%BB%8B%E7%B4%B9",
-    "readingTime": 5,
+    "readingTime": 21,
     "featured": false,
-    "date": null,
+    "date": "2026-05-07",
     "path": "Lifestyle/台灣髮型介紹.md"
   },
   {
@@ -10143,18 +10132,9 @@
     "title": "呂冠緯",
     "description": "台大醫學系畢業、棄醫從教的均一教育平台董事長兼執行長，用 AI 適性學習讓 528 萬台灣孩子按自己步調前進，真正把「教育平權」從口號變日常。",
     "category": "People",
-    "tags": [
-      "教育",
-      "均一教育平台",
-      "線上學習",
-      "教育科技",
-      "社會企業",
-      "偏鄉教育",
-      "AI教育",
-      "適性學習"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/People/%E5%91%82%E5%86%A0%E7%B7%AF",
-    "readingTime": 8,
+    "readingTime": 7,
     "featured": false,
     "date": "2026-04-05",
     "path": "People/呂冠緯.md"
@@ -11294,7 +11274,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Food/school-lunch-reform",
-    "readingTime": 56,
+    "readingTime": 60,
     "featured": false,
     "date": "2026-05-04",
     "path": "ja/Food/school-lunch-reform.md"
@@ -11665,7 +11645,7 @@
       "台灣之光"
     ],
     "url": "https://taiwan.md/People/%E6%9E%97%E7%BE%A9%E5%82%91",
-    "readingTime": 11,
+    "readingTime": 12,
     "featured": false,
     "date": "2026-03-22",
     "path": "People/林義傑.md"
@@ -11843,7 +11823,7 @@
     "url": "https://taiwan.md/People/%E6%B3%A2%E7%89%B9%E7%8E%8B",
     "readingTime": 12,
     "featured": false,
-    "date": null,
+    "date": "2026-04-20",
     "path": "People/波特王.md"
   },
   {
@@ -12120,28 +12100,6 @@
     "featured": false,
     "date": "2026-04-18",
     "path": "Culture/長輩圖.md"
-  },
-  {
-    "title": "阿志頭",
-    "description": "介紹台灣網路文化中極具辨識度的「阿志頭」，其視覺特徵、由來以及背後的社會文化意義。",
-    "category": "Lifestyle",
-    "tags": [],
-    "url": "https://taiwan.md/Lifestyle/%E9%98%BF%E5%BF%97%E9%A0%AD",
-    "readingTime": 4,
-    "featured": false,
-    "date": null,
-    "path": "Lifestyle/阿志頭.md"
-  },
-  {
-    "title": "阿志頭（アズー・トウ）",
-    "description": "台湾のインターネット文化で非常に高い認知度を誇る「阿志頭（アズー・トウ）」について、その視覚的特徴、由来、そして背景にある社会的・文化的意義を紹介します。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Lifestyle/ah-ji-haircut",
-    "readingTime": 6,
-    "featured": false,
-    "date": null,
-    "path": "ja/Lifestyle/ah-ji-haircut.md"
   },
   {
     "title": "阿里山：帝国の林場と高一生的山",
@@ -12461,7 +12419,7 @@
       "微笑曲線"
     ],
     "url": "https://taiwan.md/People/%E6%96%BD%E6%8C%AF%E6%A6%AE",
-    "readingTime": 13,
+    "readingTime": 14,
     "featured": false,
     "date": "2026-03-22",
     "path": "People/施振榮.md"
@@ -14803,7 +14761,7 @@
     "url": "https://taiwan.md/People/%E8%8E%AB%E9%82%A3%C2%B7%E9%AD%AF%E9%81%93",
     "readingTime": 7,
     "featured": false,
-    "date": "2026-03-25T00:00:00Z",
+    "date": "2026-03-25",
     "path": "People/莫那·魯道.md"
   },
   {
@@ -15334,7 +15292,7 @@
     "url": "https://taiwan.md/People/%E9%99%B3%E5%AD%90%E8%A6%8B",
     "readingTime": 17,
     "featured": false,
-    "date": null,
+    "date": "2026-04-20",
     "path": "People/陳子見.md"
   },
   {
@@ -15626,7 +15584,7 @@
       "日職"
     ],
     "url": "https://taiwan.md/People/%E9%99%B3%E5%81%89%E6%AE%B7",
-    "readingTime": 10,
+    "readingTime": 11,
     "featured": false,
     "date": "2026-03-22",
     "path": "People/陳偉殷.md"
@@ -16494,7 +16452,7 @@
     "url": "https://taiwan.md/People/%E9%BB%83%E9%9C%87%E5%8D%97",
     "readingTime": 7,
     "featured": false,
-    "date": "2026-03-20T00:00:00Z",
+    "date": "2026-03-20",
     "path": "People/黃震南.md"
   },
   {
@@ -16790,18 +16748,11 @@
     "title": "楊右任：從街頭塗鴉中輟生到非洲舊鞋救命的台灣青年英雄",
     "description": "楊右任是台灣社會創業家與人道救援工作者，舊鞋救命國際基督關懷協會創辦人。以一張海報號召20萬人捐鞋援助東非肯亞兒童免受沙蚤侵害，獲2017年十大傑出青年。他從澳洲街頭混混轉變為宣教士，將物資援助升級為永續社區計畫，讓台灣青年看到『小行動、大改變』的可能。",
     "category": "People",
-    "tags": [
-      "台灣社會企業",
-      "人道救援",
-      "舊鞋救命",
-      "十大傑出青年",
-      "非洲援助",
-      "基督教事工"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/People/%E6%A5%8A%E5%8F%B3%E4%BB%BB",
     "readingTime": 8,
     "featured": false,
-    "date": "2026-03-20T00:00:00Z",
+    "date": "2026-03-20",
     "path": "People/楊右任.md"
   },
   {
@@ -19685,15 +19636,7 @@
     "title": "鏟子超人與島嶼共時性：台灣災難志工文化如何形塑國族認同",
     "description": "以2025年花蓮光復鄉水災為鏡，探討台灣獨特的災難志工動員模式如何透過社群媒體重新定義島嶼共同體意識，從921地震到花蓮水災的社會韌性演化軌跡。",
     "category": "Society",
-    "tags": [
-      "災難志工",
-      "社會韌性",
-      "花蓮水災",
-      "島嶼共同體",
-      "社區動員",
-      "社群媒體",
-      "國族認同"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E7%81%BD%E9%9B%A3%E5%BF%97%E5%B7%A5%E6%96%87%E5%8C%96",
     "readingTime": 27,
     "featured": false,
@@ -20108,17 +20051,6 @@
     "featured": false,
     "date": "2026-03-23",
     "path": "es/Nature/Taiwan Hot Springs and Geothermal Energy.md"
-  },
-  {
-    "title": "Ah-Ji Haircut",
-    "description": "Introducing the highly recognizable \"Ah-Ji Haircut\" in Taiwanese internet culture, its visual features, origins, and social-cultural significance.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Lifestyle/ah-ji-haircut",
-    "readingTime": 12,
-    "featured": false,
-    "date": null,
-    "path": "en/Lifestyle/ah-ji-haircut.md"
   },
   {
     "title": "Ah-Po Iron Eggs: From an Accident at Tamsui's Ferry Dock 'Seaside Grand Hotel' to Tamsui's Hardest Collective Memory",
@@ -24609,7 +24541,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Food/school-lunch-reform",
-    "readingTime": 156,
+    "readingTime": 164,
     "featured": false,
     "date": "2026-05-04",
     "path": "es/Food/school-lunch-reform.md"
@@ -33798,7 +33730,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Food/school-lunch-reform",
-    "readingTime": 139,
+    "readingTime": 142,
     "featured": false,
     "date": "2026-05-04",
     "path": "fr/Food/school-lunch-reform.md"
@@ -39364,7 +39296,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Food/school-lunch-reform",
-    "readingTime": 130,
+    "readingTime": 135,
     "featured": false,
     "date": "2026-05-04",
     "path": "en/Food/school-lunch-reform.md"
@@ -44048,13 +43980,7 @@
     "title": "The Bamboo Hat: A Couple near Longdu Junior High, Sixty Years Woven into a Hat",
     "description": "In 2017, Lin Rong-chun of Meinong, Kaohsiung was still shaving bamboo strips in his eighties. In 2014, Chen Lian-qin of Longqi, Tainan was eighty-six and finishing one hat per hour. In Fuli, Hualien, Xu Gui-zhu sold each hat for only NT$150 in 2016. By 2022, a documentary captured Wu Jin-yun and Xu Bao-mei of Miaoli, who had spent fifty years at the craft. Today, almost every master who can still make a rough-work bamboo hat is over seventy — and with compensation for forgoing logging on indigenous reserve land raised to NT$60,000 per hectare in 2024, even the upstream bamboo supply is fracturing. The hat has not vanished from the fields. What has vanished are the hands that could press bamboo leaves into a bamboo-strip frame and bind them, round by round, with cotton thread.",
     "category": "en",
-    "tags": [
-      "traditional craft",
-      "Hakka",
-      "bamboo weaving",
-      "rural",
-      "intangible cultural heritage"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/Culture/bamboo-hat-craft",
     "readingTime": 151,
     "featured": false,
@@ -52613,17 +52539,6 @@
     "path": "ko/People/red-shin-minecraft-youtuber.md"
   },
   {
-    "title": "아지토 (阿志頭)",
-    "description": "대만 인터넷 문화에서 매우 높은 인지도를 자랑하는 '아지토(阿志頭)'에 대해 시각적 특징, 유래, 그리고 그 배경에 깔린 사회적·문화적 의미를 소개합니다.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/Lifestyle/ah-ji-haircut",
-    "readingTime": 7,
-    "featured": false,
-    "date": null,
-    "path": "ko/Lifestyle/ah-ji-haircut.md"
-  },
-  {
     "title": "아침 식당 아주머니와 동네 정보망",
     "description": "아주머니가 그냥 \"잘생겼네~\" 한마디만 하는 줄 알았지? — 대만 아침 식당 아주머니가 어떻게 동네 전체의 정보 허브가 되는지에 대하여",
     "category": "ko",
@@ -52971,7 +52886,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Food/school-lunch-reform",
-    "readingTime": 61,
+    "readingTime": 62,
     "featured": false,
     "date": "2026-05-04",
     "path": "ko/Food/school-lunch-reform.md"
