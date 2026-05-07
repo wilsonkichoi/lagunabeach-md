@@ -204,12 +204,14 @@ def load_target(path: Path | str) -> FileTarget:
     p = Path(path)
     text = p.read_text(encoding="utf-8")
     fm: dict[str, Any] = {}
+    fm_raw = ""
     body = text
     body_text_offset = 0
     pad_lines = 0
     m = _RE_FRONTMATTER.match(text)
     if m:
-        fm = _parse_frontmatter_minimal(m.group("yaml"))
+        fm_raw = m.group("yaml")
+        fm = _parse_frontmatter_minimal(fm_raw)
         body_text_offset = m.start("body")
         # Count newlines in the frontmatter section (including the two ---
         # delimiter lines) so body's first content line aligns with the
@@ -224,6 +226,7 @@ def load_target(path: Path | str) -> FileTarget:
         path=p,
         text=text,
         frontmatter=fm,
+        frontmatter_raw=fm_raw,
         body=body,
         body_text_offset=body_text_offset,
         body_pad_lines=pad_lines,

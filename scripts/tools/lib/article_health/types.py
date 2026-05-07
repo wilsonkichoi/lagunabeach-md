@@ -43,6 +43,7 @@ class FileTarget:
     path: Path
     text: str  # full file content (frontmatter + body)
     frontmatter: dict[str, Any] = field(default_factory=dict)
+    frontmatter_raw: str = ""  # raw YAML text between --- delimiters
     # body is PADDED with leading blank lines equal to frontmatter line count
     # so any line N in body matches line N in the original file. For write-
     # back paths, use `body_text_offset` (char offset of where real body

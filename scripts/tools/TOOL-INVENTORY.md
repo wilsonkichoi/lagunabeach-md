@@ -2,7 +2,7 @@
 
 > 相關：[docs/semiont/DNA.md](../../docs/semiont/DNA.md)（工具基因）| [UNKNOWNS.md](../../docs/semiont/UNKNOWNS.md)（已知未知）
 
-> **2026-05-04 SSOT migration完成**：27+ scattered tools 收攏成 11 plugin SSOT
+> **2026-05-04 SSOT migration完成**：27+ scattered tools 收攏成 13 plugin SSOT
 > entry point `scripts/tools/article-health.py`。8 個 deprecated shell script
 > 在 cleanup-1-4 完全刪除（wikilink-validate.sh / format-check.sh /
 > check-manifesto-11.sh / quality-scan.sh / footnote-scan.sh /
@@ -15,19 +15,21 @@
 
 由 `scripts/tools/article-health.py --inventory` 自動產生：
 
-| Check               | Dimension     | Default Severity | Editorial Ref                                 | Auto-fix? |
-| ------------------- | ------------- | ---------------- | --------------------------------------------- | --------- |
-| `cjk-punct`         | punctuation   | hard             | EDITORIAL.md §半形標點禁用                    | ✓         |
-| `cross-reference`   | structure     | info             | EDITORIAL.md §wikilink                        | —         |
-| `footnote-density`  | citation      | warn             | A-F grading（原 footnote-scan）               | —         |
-| `footnote-format`   | citation      | hard             | .husky/pre-commit footnote format gate        | —         |
-| `footnote-url`      | citation      | warn             | network HEAD check（opt-in）                  | —         |
-| `format-structure`  | structure     | warn             | EDITORIAL.md §三                              | —         |
-| `frontmatter-title` | frontmatter   | warn             | EDITORIAL.md §Title 五原則                    | —         |
-| `image-health`      | media         | hard             | REWRITE-PIPELINE Stage 4.5f / DNA #30         | —         |
-| `prose-health`      | prose-quality | warn             | EDITORIAL.md §quality-scan + MANIFESTO.md §11 | —         |
-| `terminology`       | language      | hard             | TERMINOLOGY.md                                | —         |
-| `wikilink-target`   | structure     | hard             | EDITORIAL.md §wikilink                        | —         |
+| Check                | Dimension     | Default Severity | Editorial Ref                                     | Auto-fix? |
+| -------------------- | ------------- | ---------------- | ------------------------------------------------- | --------- |
+| `cjk-punct`          | punctuation   | hard             | EDITORIAL.md §半形標點禁用                        | ✓         |
+| `cross-reference`    | structure     | info             | EDITORIAL.md §wikilink                            | —         |
+| `footnote-density`   | citation      | warn             | A-F grading（原 footnote-scan）                   | —         |
+| `footnote-format`    | citation      | hard             | .husky/pre-commit footnote format gate            | —         |
+| `footnote-url`       | citation      | warn             | network HEAD check（opt-in）                      | —         |
+| `format-structure`   | structure     | warn             | EDITORIAL.md §三 + REWRITE-PIPELINE Stage 4       | ✓         |
+| `frontmatter-format` | frontmatter   | warn             | REWRITE-PIPELINE.md Stage 4 Frontmatter 完整性    | —         |
+| `frontmatter-title`  | frontmatter   | warn             | EDITORIAL.md §Title 五原則                        | —         |
+| `image-health`       | media         | hard             | REWRITE-PIPELINE Stage 4.5f / DNA #30             | —         |
+| `link-target`        | structure     | hard             | Astro category routing + knowledge path existence | ✓         |
+| `prose-health`       | prose-quality | warn             | EDITORIAL.md §quality-scan + MANIFESTO.md §11     | —         |
+| `terminology`        | language      | hard             | TERMINOLOGY.md                                    | —         |
+| `wikilink-target`    | structure     | hard             | EDITORIAL.md §wikilink                            | —         |
 
 CLI entry：
 

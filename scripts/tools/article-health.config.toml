@@ -3,10 +3,11 @@
 # 設計提案：reports/article-health-ssot-design-2026-05-04.md
 # Canonical 寫作品質規則：docs/editorial/EDITORIAL.md
 #
-# Phases 1-7 shipped 2026-05-04. 9 plugins registered:
-#   cjk-punct / frontmatter-title / prose-health / footnote-format /
-#   footnote-density / wikilink-target / link-target / format-structure /
-#   image-health
+# Phases 1-7 shipped 2026-05-04. 13 plugins registered:
+#   cjk-punct / cross-reference / footnote-density / footnote-format /
+#   footnote-url / format-structure / frontmatter-format /
+#   frontmatter-title / image-health / link-target / prose-health /
+#   terminology / wikilink-target
 #
 # link-target added 2026-05-04 jovial-feistel session — Phase 1 (casing,
 # HARD, auto-fix) caught 649 `]( /lang/UpperCase/...)` broken-routing
@@ -31,6 +32,7 @@ phase = "7-pre-commit-wired"
 checks = [
   "cjk-punct",
   "frontmatter-title",
+  "frontmatter-format",
   "footnote-format",
   "wikilink-target",
   "link-target",
@@ -50,8 +52,11 @@ fail_on = "hard"
 
 [profiles."rewrite-stage-4"]
 # Stage 4 Format.
-checks = ["format-structure", "wikilink-target", "link-target", "cjk-punct"]
+checks = ["frontmatter-format", "format-structure", "wikilink-target", "link-target", "cjk-punct"]
 fail_on = "hard"
+
+[profiles."rewrite-stage-4".severity_overrides]
+frontmatter-format = "hard"
 
 [profiles."rewrite-stage-4-5"]
 # Stage 4.5 Media.
