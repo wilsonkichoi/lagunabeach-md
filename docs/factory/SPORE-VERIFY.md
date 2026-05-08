@@ -22,6 +22,7 @@
 | Hook Blueprint      | VERIFY     | 結構性題目      | 四格自填（讀者物件 + 矛盾問題）            | 不能進寫作   | 條件     |
 | 事實查核表          | VERIFY     | 所有 spore      | 7 類 claim audit（日期/數字/引語等）       | 不放 prose   | 必跑     |
 | §11 書寫節制        | VERIFY     | 所有 spore      | `article-health.py --check=prose-health`   | 改寫         | 必跑     |
+| spore-writing 規則  | VERIFY     | 所有 spore      | `article-health.py --check=spore-writing`  | 改寫         | 必跑     |
 | URL encode          | SHIP       | 所有 spore      | `python3 -c "urllib.parse.quote..."`       | 重 encode    | 必跑     |
 | 配圖                | SHIP       | 所有 spore      | `bash scripts/tools/make-spore.sh`         | —            | 必跑     |
 | 品檢清單            | SHIP       | 所有 spore      | 12 項 manual checklist                     | 修補         | 必跑     |

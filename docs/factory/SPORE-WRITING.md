@@ -87,7 +87,7 @@
 - ❌ `繼續發光/書寫`
 - ❌ **`不是 X，是 Y` 所有變體**（v1.7，草東孢子觀察者再提醒）：含「不是 X，而是 Y」、「不是 X 就是 Y」、「不是... 不是... 就是...」序列。AI 寫作深層病灶——以否定一個錯誤選項假裝肯定。**長文會被稀釋，150-300 字孢子裡每個都顯眼**。自檢：寫完 grep「不是」二字，出現次數應 ≤ 1（且該次必須是 verbatim 引語）。
 - ❌ **`——` 雙破折號密度**（v1.7）：孢子全文「——」≤ 1 次。AI 默認用破折號當連接詞，但長文可能 >15 個（+3 AI 計分），孢子短、密度更顯眼。超過 1 次改用句點拆句。
-- ❌ `『XXX』他說`（引語倒裝沒場景，改成「他在 [臉書/訪談] 留了一句話：『XXX』」）
+- ❌ `『XXX』他說`（引語倒裝沒場景，改成「他在 [臉書/訪談] 留了一句話：『XXX』」）— **v3.0 已 instrument 為 spore-writing plugin WARN gate**
 - ❌ 同一專名連用 ≥3 次（第二三次用代詞 / 職稱替代）
 - ❌ 用「另外」「同時」「除此之外」連接兩個 angle（混合策略要用首尾呼應 + 時間錨定，見下方混合策略段）
 - ❌ emoji 轟炸（全文 0-3 個）
@@ -166,7 +166,12 @@
 
 三個短句獨立成行 = 視覺節奏感 + 讀者大腦自動算。
 
-### 避免編年體 lead 病（v2.3，台灣高鐵孢子 v1 教訓）
+### 避免編年體 lead 病（v2.3，台灣高鐵孢子 v1 教訓 / v3.0 已 instrument 為 plugin gate）
+
+> **2026-05-08 升級**：本條從 prose 提醒升級為 article-health plugin HARD gate。
+> 跑：`python3 scripts/tools/article-health.py docs/factory/SPORE-BLUEPRINTS/<slug>-<n>.md --check=spore-writing`
+> 觸發：第一行 prose 是 `YYYY 年` / `YYYY-MM-DD` / `YYYY/MM/DD` 開頭 → HARD violation。
+> 對應 [reports/spore-pipeline-evolution-plan-2026-05-08.md](../../reports/spore-pipeline-evolution-plan-2026-05-08.md) Direction D 第 1/N 條 rule 儀器化。
 
 AI 預設會用「YYYY 年 M 月 D 日，{人名}{動詞}」的新聞 lead 開場、然後日期 → 事件 → 日期 → 事件 → 數字堆疊完事。這是 [DNA #23 「AI 編年體小標題」病灶](../semiont/DNA.md#一事實核對與研究方法) 的**孢子版變種**。
 
