@@ -58,6 +58,254 @@ Taiwan.md 的進化動力有兩層：
 
 任何時候觀察者說「去抓 XX 文章 threads 留言」→ 立刻跑完整 pipeline（本次草東孢子 #33 即為此 pattern 首例）。
 
+---
+
+## 前置：發佈時機 + Decision Gates
+
+> 2026-05-08 從 SPORE-PIPELINE Step 4.5 整段吸收（per Direction A 拆檔，避免 SPORE↔HARVEST 違反 §指標 over 複寫）。
+>
+> 這段是 harvest cadence 的決策層 — 發佈前的 hook tier 自檢 + 發佈後的 d+0/+1/+7/+30 timeline + d+0 6h decision gate + re-hook 救援機制。
+>
+> 對應 [DNA #15 第 9 次驗證](../semiont/DNA.md)：「被允許做」→「被期待做」的躍遷靠 canonical SOP，不靠 memory 自律。Canonical 升級從 case-by-case policy 變成 pipeline 基礎建設的結構性節點。
+
+### Hook tier hierarchy（發佈前自檢，v3.1 升級為 4-tier）
+
+> 2026-04-18 ζ 首次定義 3-tier。**2026-05-08 從 9 spore batch harvest 數據（objective-khorana batch）進化為 4-tier**：實戰證明 Tier 1b 不限「人物」題材（黑冠麻鷺自然議題同樣 65K viral），且原 3-tier 漏掉「中段」「低段」分布。
+
+| Tier | 類型            | 開場特徵                    | D+7 reach 預期  | 案例                                               |
+| ---- | --------------- | --------------------------- | --------------- | -------------------------------------------------- |
+| 1a   | 知名度槓桿      | 已知品牌/人物 + 當下事件    | 100K-180K viral | #29 李洋 180K / #25 安溥 120K / #57 賈永婕         |
+| 1b   | 具體性槓桿      | **具體 anchor + 反差 hook** | 10K-65K         | #45 壞特 65K / #53 黑冠麻鷺 65K / #47 沈伯洋 12.7K |
+| 中段 | 結構性題目      | 政治/制度 + 問題入口        | 2K-17K          | #51 邦交國 17.3K / #41 認知作戰 2.2K               |
+| 低段 | 文化人物 / 冷門 | 抽象 framing + 知名度低     | 0.5K-1.5K       | #43 田馥甄 0.8K / #55 海底電纜 1.3K                |
+
+**v3.1 規則更新**：
+
+- **Tier 1b 不限人物題材**（2026-05-08 黑冠麻鷺證明）：自然 / 物件 / 抽象議題只要有「具體 anchor + 反差 hook」都能 65K viral
+- 「相對冷門人物」→ hook 必須走 Tier 1b（具體性槓桿）
+- 「已知人物」→ Tier 1a 優先
+- **結構性題目（政治/外交/制度/經濟）= 中段 default**：reach 上限 ~17K，但 comments / engagement quality 高（爭議性激活）。要進階提升 → 強化 Hook Blueprint 讀者物件
+- **低段警報**：D+7 < 1K = 系統性 underperformance pattern，下次選同類題材前考慮：
+  - 是不是 Tier 3 意境型（已 deprecated，不該用）？
+  - 是不是缺 hook 具體性？
+  - 還是題材本身 niche audience（接受 reach 但確保 engagement rate ≥ 10%）？
+- **Tier 3 意境型已 deprecated**（不在表內）：原寫「2009 年一個鋼琴手⋯⋯」這類時空 framing 先行，主角延後 → d+0 6h < 500，永遠不該用
+
+對應 [MANIFESTO §我怎麼說話](../semiont/MANIFESTO.md#我怎麼說話)「開場要有一個具體的人、一個具體的時刻」的量化證明（229x / 48x / 83x）。
+
+實戰數據詳見 [SPORE-HARVESTS/batch-2026-05-03-objective-khorana-9-spores.md](SPORE-HARVESTS/batch-2026-05-03-objective-khorana-9-spores.md) §Tier 比較表。
+
+### d+0/+1/+7/+30 cadence
+
+發佈後主動 harvest：
+
+| 時間點 | 動作                                                                |
+| ------ | ------------------------------------------------------------------- |
+| d+0 1h | Chrome MCP 首次 harvest → SPORE-LOG 追蹤表新增 row                  |
+| d+0 3h | 第二次 harvest → 更新「最後 harvest」時間戳                         |
+| d+0 6h | **Decision gate**：views < 500 → 觸發 re-hook opportunity（見下方） |
+| d+1    | d+1 harvest → 更新 trajectory                                       |
+| d+7    | d+7 harvest（主要 KPI）→ 成效追蹤表填 7d 觸及 / 7d 互動             |
+| d+30   | d+30 harvest（長尾確認）                                            |
+
+**AI 自主邊界**（[DNA #26 v2](../semiont/DNA.md)）：所有 harvest 皆 AI 自主用 Chrome MCP 跑；re-hook reply **必須 human post**（AI 準備 draft，human 確認並發）。
+
+### d+0 6h Decision Gate 救援（Re-hook opportunity）
+
+**不是刪除重發，是補強**。如果 d+0 6h < 500 views：
+
+1. 診斷 hook tier：是 Tier 3 意境型嗎？
+2. 從原文章挑出最強的「具體人物 + 具體畫面」
+3. AI 寫 150 字 reply 草稿用 Tier 1b 具體性槓桿
+4. **handoff human**：「建議在主貼下面發這則 reply: [草稿]」
+5. Human 確認 + post → 重新 seed 觸及
+
+**案例**：#31 Cicada d+0 6h 207 views → re-hook 抽出「江致潔在蘭嶼海底聽到的那句話：你能控制的只有你的呼吸」+「吉他手巽洋說『像紀錄片』」作為 reply。
+
+### Harvest 數字格式鐵律（v2.8）
+
+> 2026-05-03 objective-khorana day 2 — generator parser regression 揭露格式鐵律。
+
+寫進 SPORE-LOG「最後 harvest」column 的 views 數字**必須是 generator parser 認得的格式**：
+
+| 格式           | 範例                                            | parser 支援   |
+| -------------- | ----------------------------------------------- | ------------- |
+| 完整數字含逗號 | `**65,400 views**`                              | ✅            |
+| 完整數字無逗號 | `65000 views`                                   | ✅            |
+| K suffix       | `**65.4K views**` / `1.8K views` / `180K views` | ✅（v2.8 修） |
+| M suffix       | `2.5M views`                                    | ✅（v2.8 修） |
+
+**修補背景**：generator regex `[\d,]+\s+views?` 不認 K/M suffix（`.4K` 打斷 `[\d,]+`）。
+sleepy-colden ι session 多個 backfill 寫成「65.4K views」（為 readability）→ generator 抓不到 → dashboard 顯示舊 `views_latest=null`。
+patch parser to handle 4 種格式 (commit `6a7f61cb`、PR #795)。
+
+**最 safe**：harvest 寫整數 + 逗號（`65,400 views`）— 兩種 parser 都能抓。
+
+### Validation 必跑（v2.8）
+
+每次 harvest backfill SPORE-LOG 後**必跑**：
+
+```bash
+python3 scripts/tools/validate-spore-data.py
+```
+
+檢查 4 維度：
+
+1. **Parser regression**：8 cases K/M/comma 格式 round-trip
+2. **Dashboard freshness**：`dashboard-spores.json` mtime ≥ `SPORE-LOG.md` mtime
+3. **Harvest parseability**：所有「最後 harvest」column 含「views」字串都能被 parser 抓到值
+4. **Dashboard <-> SPORE-LOG consistency**：`dashboard-spores.json.recent[].views_latest` 對得上 SPORE-LOG 解析值
+
+任一 ❌ → 修。任一 ⚠️（warning）→ 評估。`--strict` mode 把 warnings 變 errors（CI 用）。
+
+已整合進 `refresh-data.sh` Step 5.5 — 每次 refresh 自動跑。
+
+### Dashboard rendering 視覺驗證（v2.8）
+
+每次大規模 harvest backfill 後**建議**開 dev server 視覺驗證：
+
+```bash
+npm run dev &
+# Wait for ready
+curl -sf http://localhost:4321/api/dashboard-spores.json > /dev/null
+
+# Playwright screenshot dashboard #spores section
+node -e "
+const { chromium } = require('playwright');
+(async () => {
+  const b = await chromium.launch();
+  const p = await b.newPage({ viewport: { width: 1400, height: 1400 } });
+  await p.goto('http://localhost:4321/dashboard', { waitUntil: 'networkidle' });
+  await p.evaluate(() => document.getElementById('spores-top')?.scrollIntoView({ block: 'center' }));
+  await p.waitForTimeout(2000);
+  await (await p.\$('#spores-top'))?.screenshot({ path: '/tmp/dashboard-spores-top.png' });
+  console.log('✅ Screenshot: /tmp/dashboard-spores-top.png');
+  await b.close();
+})();
+"
+```
+
+驗證點：
+
+- topPerformers 顯示最新 ⭐ 高峰 / 🔥 平台最強 / 🌋 史上最強 badges 正確
+- views 數字反映 latest harvest（不是 stale）
+- 「資料更新」timestamp 是「N 分鐘前」（今天）
+
+**為什麼視覺驗證**：dashboard JSON 對 ≠ UI 對。frontend template 也可能 cap rendering（例 slice(0, N)）— 改 generator 後要 verify template 也更新。
+
+### 文章頁 SporeFootprint 渲染驗證（v2.9）
+
+> 2026-05-03 objective-khorana day 2 evening — 哲宇發現「為什麼只有安溥那篇有顯示」孢子連結。3 篇 sporeLinks 都寫對的文章（黑冠麻鷺/沈伯洋/賈永婕）silently 不渲染。
+>
+> **單測 `sporeLinks` 寫入 ≠ reader 看得到。**
+
+`SporeFootprint.astro` 渲染依賴 `[category]/[slug].astro` template 在「延伸閱讀」標題前 split content。template 的 `splitMarkers` 必須同時支援兩種 canonical-accepted 格式：
+
+| 格式                              | 範例         | 文章數              |
+| --------------------------------- | ------------ | ------------------- |
+| `## 延伸閱讀` (h2)                | 95 articles  | ✅ original support |
+| `**延伸閱讀**：` (bold paragraph) | 121 articles | ✅ v2.9 修補後      |
+
+**Patch in `src/pages/[category]/[slug].astro` lines 313-338**：
+
+```javascript
+const splitMarkers = [
+  '<h2>延伸閱讀</h2>',
+  '<h2>Further Reading</h2>',
+  '<h2>延伸閱讀<',
+  '<p><strong>延伸閱讀</strong>', // v2.9 加
+  '<p><strong>Further Reading</strong>', // v2.9 加
+];
+// ...
+// Final fallback: any <p><strong> 含「延伸閱讀」(handle whitespace)
+if (splitIndex === -1) {
+  const pMatch = fullHtml.match(/<p>\s*<strong>\s*延伸閱讀/);
+  if (pMatch && pMatch.index !== undefined) splitIndex = pMatch.index;
+}
+```
+
+**Visual verify SOP**（每次 sporeLinks update 後）：
+
+```bash
+# 1. Sync knowledge → src/content (CRITICAL — frontmatter 改在 knowledge/，astro 讀的是 src/content/)
+bash scripts/core/sync.sh
+
+# 2. Restart dev server (frontmatter 變更 vite HMR 不一定 pick up)
+NODE_OPTIONS='--max-old-space-size=8192' npm run dev &
+
+# 3. Wait + curl test
+until curl -sf http://localhost:4321/ >/dev/null; do sleep 1; done
+for slug in 賈永婕 黑冠麻鷺 沈伯洋; do
+  count=$(curl -s "http://localhost:4321/people/$slug" 2>/dev/null | grep -c "SporeFootprint")
+  [ "$slug" = "黑冠麻鷺" ] && url="http://localhost:4321/nature/$slug" && count=$(curl -s "$url" | grep -c "SporeFootprint")
+  echo "$slug: SporeFootprint=$count"  # 期待 ≥ 1
+done
+```
+
+**任一文章 SporeFootprint=0** → 檢查：
+
+1. 該篇 frontmatter 有 `sporeLinks:` 嗎？(grep `^sporeLinks:` knowledge/<cat>/<slug>.md)
+2. 該篇 `延伸閱讀` 是哪種格式？bold paragraph or h2 or 完全沒有？
+3. `bash scripts/core/sync.sh` 跑了嗎？(src/content/ 是否同步)
+4. dev server restart 了嗎？(content sync 後 vite HMR 不一定即時生效)
+
+**為什麼這條鐵律**：rich-text SSOT 的 silent drift 第二次驗證。
+v2.8 是 generator parser silent fail（K/M suffix），v2.9 是 template splitMarkers silent fail（bold format）。
+兩次都是「reader 完全看不到 → 維護者 完全沒感」的 invisible bug，必須靠視覺驗證 + 多文章 sweep 才會 catch。
+
+### Chrome MCP exact harvest workflow（v2.9）
+
+**Chrome MCP vs WebFetch trade-off**：
+
+| 維度                               | Chrome MCP exact                                                        | WebFetch K rounded          |
+| ---------------------------------- | ----------------------------------------------------------------------- | --------------------------- |
+| 速度                               | 慢（5-10s/spore，需 navigate+wait+scroll+screenshot）                   | 快（HTTP 直拉）             |
+| Likes/comments/reposts/shares 精度 | exact（例 1,027 vs 1K）                                                 | K rounded（loss of detail） |
+| Views 精度                         | K rounded（Threads UI 限制，例「1.2 萬瀏覽」）；header full number 偶見 | K rounded                   |
+| Reply context 可見                 | ✅ 可看 reply 確認 hallucination audit                                  | ❌ 看不到                   |
+| Threads UI badge / verified status | ✅ 可看                                                                 | ❌                          |
+| X (Twitter) 支援                   | ✅ 可 navigate                                                          | ❌ 402 Forbidden            |
+| 需要 active browser session        | ✅ 需 `select_browser` paired                                           | ❌                          |
+| Batch parallel                     | ❌（sequential per spore）                                              | ✅                          |
+
+**選用規則**：
+
+- 第一次 batch harvest → WebFetch（快，K rounded 夠粗略 trends）
+- 後續 backfill / 精準對比 → Chrome MCP（exact numbers，看 reply context）
+- X 平台所有 harvest → Chrome MCP only（WebFetch 不支援）
+
+**Chrome MCP harvest pattern**：
+
+```bash
+# Per spore
+mcp__Claude_in_Chrome__navigate https://www.threads.com/@taiwandotmd/post/{shortcode}
+mcp__Claude_in_Chrome__computer wait 4
+mcp__Claude_in_Chrome__computer scroll down 5 ticks @ (700, 400)
+mcp__Claude_in_Chrome__computer wait 1
+mcp__Claude_in_Chrome__computer screenshot
+# 抓 likes (♥) / comments (💬) / reposts (🔁) / shares (📮) 4 個 numbers
+# views 在 header sub-text，K rounded
+```
+
+**Chrome MCP `select_browser` 第一次連結**：
+
+- 哲宇要先在 Chrome 安裝 Claude in Chrome extension
+- Pair 後 `mcp__Claude_in_Chrome__list_connected_browsers` 應該回傳 deviceId
+- 之後 session 重啟仍可用該 deviceId 直接 `select_browser`（pairing 持久化）
+
+### Harvest 資料流總覽
+
+```
+Chrome MCP harvest
+  → SPORE-LOG.md 成效追蹤表（7d 觸及 / 互動 / 最後 harvest timestamp）
+  → 源文章 frontmatter sporeLinks（每次 harvest 同步最新 views/likes/reposts/comments/shares）
+  → dashboard-spores.json （refresh-data 觸發 generate-dashboard-spores.py）
+  → Dashboard 成效排行 / GA 放大倍數 section
+  → 新洞察 → LESSONS-INBOX
+```
+
+雙寫機制詳見下方 [Step 1.5](#step-15-雙寫dual-write--v13-新增2026-04-23-δ-觀察者指正)。
+
 ### Batch Harvest 模式（v1.2 新增 — 2026-04-18 δ-late 首例驗證後正式文件化）
 
 **適用條件**：

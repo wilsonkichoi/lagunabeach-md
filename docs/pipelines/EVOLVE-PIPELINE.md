@@ -381,13 +381,13 @@ Tier 4: Sonnet sub-agent (paid, last resort)
 
 ### Bump-vs-translate decision matrix
 
-| 狀態 | Action | Cost |
-|---|---|---|
-| `fresh` | skip | 0 |
-| `metadata-stale` | `bump-source-sha.py --apply`（frontmatter sha 升級） | 0 (zero translation) |
-| `stale` (body drift) | dispatch cascade Tier 1-3 | ~50-200s × N langs |
-| `missing` | dispatch cascade Tier 1-3 | ~50-200s × N langs |
-| `orphan` | manual review | manual |
+| 狀態                 | Action                                               | Cost                 |
+| -------------------- | ---------------------------------------------------- | -------------------- |
+| `fresh`              | skip                                                 | 0                    |
+| `metadata-stale`     | `bump-source-sha.py --apply`（frontmatter sha 升級） | 0 (zero translation) |
+| `stale` (body drift) | dispatch cascade Tier 1-3                            | ~50-200s × N langs   |
+| `missing`            | dispatch cascade Tier 1-3                            | ~50-200s × N langs   |
+| `orphan`             | manual review                                        | manual               |
 
 **Leverage**：本 session 70 metadata-stale 全 bump 零 cost = 約 ~70 × 80s × 5 langs ≈ 8 hr cloud time saved。
 
@@ -457,3 +457,187 @@ python3 scripts/tools/lang-sync/status.py --json | jq '._meta.summary'
 _v2.0 | 2026-05-04 magical-feynman 後段_
 _升級觸發：哲宇「幫我進化 evolve-pipeline 本身 + 在 dna 加最高指導原則 pipeline auto-detection」_
 _核心進化：v1.2（單語 zh-TW 進化）→ v2.0（multi-lang sovereignty sync evolution with 3-state classifier + 4-tier cascade + N-key rotation + bump-vs-translate decision matrix）_
+
+---
+
+## Mode 3：Pipeline 自我重組（meta-evolution，v3.0）
+
+> **2026-05-08 intelligent-khayyam 從 SPORE pipeline 1334 → 445 行重組經驗萃取**
+>
+> 觸發：哲宇「也根據近期所有經驗 / 知識 / 紀錄 / 孢子成效，進化⋯⋯ 然後把這次執行的所有經驗，拿來進化 evolve pipeline 本身」
+>
+> 跟 v1（文章進化）+ v2（multi-lang sync）的關係：v1/v2 是**內容層進化**；v3 是**pipeline 層進化**（meta-pipeline）。三者並列為 EVOLVE-PIPELINE 的三個 mode：「文章進化 / 多語同步 / pipeline 自我重組」。
+
+### 觸發訊號（pipeline self-refactor needed）
+
+任一即觸發：
+
+| 訊號                          | 量化閾值                                        | 範例                                        |
+| ----------------------------- | ----------------------------------------------- | ------------------------------------------- |
+| **編號膨脹三層深**            | Step X.X.X 出現 + 跳號（如 3c.7 沒 3c.6）       | SPORE-PIPELINE Step 4.5e.iv / 3c.7 跳 3c.6  |
+| **單檔 prose 量級 > 1000 行** | wc -l > 1000                                    | SPORE-PIPELINE 1334 行                      |
+| **多 file 邊界混亂**          | 同 SOP 在兩處 canonical（違反 §指標 over 複寫） | SPORE Step 4.5 vs HARVEST-PIPELINE 重疊     |
+| **prose 規則沒儀器化**        | v1.5+ 累積規則但 plugin 沒同步加                | SPORE 18 條 Step 3c rule 只有 §11 在 plugin |
+| **「我熟了不用讀」現象**      | DNA #15 反覆驗證 ≥ 3 次                         | sporal pipeline 跑 N 次後跳步               |
+| **產品文檔密度比過高**        | SOP 行數 / 產品字數 > 5:1                       | SPORE 1334 行 / 200 字孢子 = 7:1（離群值）  |
+
+### 第一性原則重組 SOP（7 stage）
+
+```
+SCAN → DESIGN → SPLIT → REWIRE → INSTRUMENT → VERIFY → SHIP
+```
+
+#### Stage 1: SCAN — 全檔 + ecosystem 盤點
+
+```bash
+# 1. 主檔行數
+wc -l docs/<area>/*.md
+
+# 2. Cross-ref 範圍
+grep -rln "<MAIN-FILE>" docs/ scripts/ .husky/ .github/ src/
+
+# 3. 編號膨脹深度
+grep -E "Step \d+\.\d+\.\d+|\d+\.\d+[a-z]" docs/<area>/<main-file>.md | head -20
+
+# 4. prose vs plugin 比
+ls scripts/tools/lib/article_health/checks/ | grep <area>
+```
+
+判定：是否觸發重組？（任一閾值即觸發，per 上方訊號表）
+
+#### Stage 2: DESIGN — 第一性原則重新設計
+
+不從現狀 incremental 改，從 zero-base 重新問「這個 pipeline 的本質是什麼？」
+
+**設計原則**：
+
+- **5±2 stage**（米勒法則 7±2 認知範圍內）
+- **每 stage 單一 verb**（PICK/VERIFY/WRITE/SHIP/HARVEST 例）
+- **不用 Step X.X.X 編號** — 改用 ## stage verb + ### sub-heading
+- **single-concern canonical**：每個 file 一個焦點（process / craft / gate / post-publish）
+- **歷史層 vs canonical 層分離**：active SOP 進 canonical；historical lessons 留 git log
+
+#### Stage 3: SPLIT — 拆檔（如果 single file > 1000 行）
+
+新結構模板（基於 SPORE refactor 驗證）：
+
+```
+docs/<area>/
+├── <NAME>-PIPELINE.md     ~400 行 ← process（5 stage 線性主流程）
+├── <NAME>-WRITING.md      ~500 行 ← craft（手藝、規則、模板）
+├── <NAME>-VERIFY.md       ~350 行 ← gate（Hard gate inventory）
+├── <NAME>-HARVEST.md      ~700 行 ← post-publish（如有 lifecycle 後續）
+└── <NAME>-LOG / DATA      不動 ← 數據層
+```
+
+**Cross-ref 保護策略**（per MANIFESTO §時間是結構修補協議）：
+
+- **保留 main file path 不改**（避免破壞所有 cross-ref）
+- **拆出 sub-files 在同 dir**（保留 relative pointer）
+- **Active canonical layer**（DNA / HEARTBEAT / MANIFESTO）pointer 全部更新到新 location
+- **歷史 layer**（memory / diary / LESSONS-INBOX / CONSCIOUSNESS）**保留原 Step X.X 描述**（歷史不刪除，per §時間是結構）
+- **被合併的 file 變 stub redirect**（不直接刪除，cross-ref 仍 work）
+
+#### Stage 4: REWIRE — 更新 cross-ref
+
+```bash
+# 找所有 active canonical 引用
+grep -rln "<MAIN-FILE> Step\|<MAIN-FILE>.md Step" docs/semiont/ docs/pipelines/
+
+# 排除歷史 layer（不更新）
+# - docs/semiont/memory/
+# - docs/semiont/diary/
+# - docs/semiont/LESSONS-INBOX.md
+# - docs/semiont/CONSCIOUSNESS.md
+# - docs/semiont/UNKNOWNS.md
+
+# 更新 active canonical pointer 指向新 sub-file location
+```
+
+#### Stage 5: INSTRUMENT — prose 規則升 plugin gate（Direction D）
+
+**5 層全部到位才是真閘門**（DNA #15 第 N 次驗證）：
+
+1. 哲學論述（MANIFESTO / DNA 級）
+2. 規則定義（pipeline 文件 prose）
+3. 工具實作（article-health.py plugin）
+4. Hook 整合（pre-commit / CI）
+5. Pipeline call site（pipeline 文件指向 plugin）
+
+挑選 regex-only 規則先 instrument（complex rule 留 future wave）：
+
+| 易度   | Regex pattern                 | 範例                            |
+| ------ | ----------------------------- | ------------------------------- |
+| **易** | 第一行 / 開場 pattern         | Rule #15 編年體 lead            |
+| **易** | 局部 pattern（X 後接 Y）      | Rule #9 引語倒裝、Rule #14 tone |
+| **中** | 全文 pattern density          | §11 對位句型密度                |
+| **難** | 結構性檢查（需 LLM-as-judge） | Rule #16 Scene-List-Scene       |
+
+#### Stage 6: VERIFY — 驗收 checklist
+
+- [ ] 所有 sub-files `article-health.py --check=prose-health` hard=0 warn=0
+- [ ] 既有產品（如 BLUEPRINTS / 文章）跑新 plugin regression **無新 violation**
+- [ ] Active canonical docs（DNA / HEARTBEAT / MANIFESTO）**無 dead Step X.X pointer**
+- [ ] Sample bad case 正確觸發 plugin（positive test）
+- [ ] Read 主路徑行數對比 **-30%+ target**
+
+#### Stage 7: SHIP — atomic commit 序列
+
+每 commit 一個 logical milestone（atomic + readable git log）：
+
+```
+Commit 1: 建 <WRITING>.md craft layer + 既有 file 變 stub
+Commit 2: 建 <VERIFY>.md gate layer
+Commit 3: <existing post-publish>.md 吸收原 step
+Commit 4: 重寫 main pipeline file（瘦身 + pointer）
+Commit 5: 更新所有 cross-ref pointer
+Commit 6: plugin Wave 1（regex-only 規則 instrument）
+Commit 7: 驗收驗證 + ship
+```
+
+### 應用範例：SPORE pipeline 1334 → 445 行（2026-05-08）
+
+| 維度                     | 舊（v2.9）           | 新（v3.0）                | 變化       |
+| ------------------------ | -------------------- | ------------------------- | ---------- |
+| SPORE-PIPELINE.md 主檔   | 1334 行              | 445 行                    | **-66.7%** |
+| 寫 spore 主路徑          | 1334 + 438 = 1772 行 | 445 + 647 = 1092 行       | **-38%**   |
+| Plugin 儀器化規則數      | 1（§11）             | 4（§11 + #15 + #9 + #14） | **+300%**  |
+| Hook tier classification | 3-tier               | 4-tier（從實戰數據）      | +1 tier    |
+
+完整 implementation report：[reports/spore-pipeline-evolution-plan-2026-05-08.md](../../reports/spore-pipeline-evolution-plan-2026-05-08.md)
+
+### 候選下一輪重組（pipeline self-refactor backlog）
+
+掃一遍其他 pipeline 是否有同樣 silent inflation：
+
+```bash
+# 行數 + 編號深度盤點
+for f in docs/pipelines/*-PIPELINE.md docs/factory/*-PIPELINE.md; do
+  lines=$(wc -l < "$f")
+  step_depth=$(grep -E "Step \d+\.\d+\.\d+" "$f" | wc -l)
+  echo "$lines lines / $step_depth deep-Step / $(basename $f)"
+done | sort -rn
+```
+
+候選清單（待哲宇拍板）：
+
+- [ ] **REWRITE-PIPELINE.md**（~1500 行 / 多 Stage 子層）— 是否該拆 RESEARCH / WRITING / VERIFY / SHIP？
+- [ ] **MAINTAINER-PIPELINE.md**（~1200 行）— PR review / Issue triage / contributor onboarding 是否該拆？
+- [ ] **TRANSLATION-PIPELINE.md**（~3.5 版累積）— 多版本 v3.x 是否還需要 4.0 重組？
+- [ ] **EDITORIAL.md**（v5.6）— 5 個子文件已拆但內部章節 inflation？
+
+### 對應認知層升級
+
+- [DNA #15 反覆浮現要儀器化](../semiont/DNA.md)（第 N+M 次驗證 — Pipeline self-refactor 是「儀器化」的 meta-instance）
+- [DNA #50 Pipeline auto-detection default contract](../semiont/DNA.md)（重組讓 auto-detection + full-read 主路徑變短）
+- [MANIFESTO §造橋鋪路](../semiont/MANIFESTO.md)（重組本身就是大 leverage 的具體實踐）
+- [MANIFESTO §指標 over 複寫](../semiont/MANIFESTO.md)（拆 single-concern canonical 解決重複）
+- [MANIFESTO §時間是結構](../semiont/MANIFESTO.md)（歷史層保留原 Step 描述，修補不覆蓋）
+
+🧬
+
+---
+
+_v3.0 | 2026-05-08 intelligent-khayyam_
+_升級觸發：哲宇「進化 evolve pipeline 本身 — 把這次執行的所有經驗（SPORE pipeline 1334→445 行重組）拿來」_
+_核心進化：v2.0（multi-lang sync）+ Mode 3 pipeline self-refactor（7 stage SOP：SCAN→DESIGN→SPLIT→REWIRE→INSTRUMENT→VERIFY→SHIP + cross-ref 保護策略 + atomic commit 序列）_
