@@ -46,6 +46,24 @@ jobs:
       - name: Language registry sync check (.ts vs .mjs)
         run: bash scripts/tools/check-language-registry-sync.sh
 
+      # 2026-05-08 PR #894 post-mortem: i18n-smoke-test 之前缺 Playwright install
+      # 但 npm run build 含 prebuild:og（generate-og-images.mjs）需要 chromium。
+      # 觸發：任何動 src/i18n/** 的 PR 跑這個 workflow → prebuild:og 失敗。
+      # 修法：抄 deploy.yml 的 3-step Playwright install pattern。
+      - name: Restore Playwright cache
+        uses: actions/cache@v4
+        id: playwright-cache
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+      - name: Install Playwright system deps (always)
+        timeout-minutes: 5
+        run: npx --no-install playwright install-deps chromium
+      - name: Install Playwright Chromium binary
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        timeout-minutes: 5
+        run: npx --no-install playwright install chromium
+
       - name: Build site
         run: npm run build
 
