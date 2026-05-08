@@ -34,6 +34,37 @@ if [ -n "$staged_translations" ]; then
   fi
 fi
 
+# ═══ frontmatter-format auto-fix on staged (2026-05-08 #884 root-cause fix) ═══
+# Solves the 5/7 #884 conflict storm: when main runs frontmatter formatter
+# bulk repair, all in-flight contributor PRs become CONFLICTING because their
+# frontmatter style differs (list-mode tags / category-after-tags / quoted
+# dates / etc.).
+#
+# By auto-fixing staged knowledge/*.md frontmatter at commit time, contributor
+# branches stay in canonical format from the start — no future bulk repair
+# can produce conflicts because everyone's already in the same shape.
+#
+# Fixes applied (canonical per REWRITE-PIPELINE Stage 4):
+# - Reorder fields per CANONICAL_ORDER (title/desc/date/category/tags/...)
+# - Convert list-mode tags `tags:\n  - a` → flow `tags: ['a']`
+# - Quote unquoted scalars: `category: Society` → `category: 'Society'`
+# - Convert double-quoted to single-quoted (no escapes)
+# - Unquote dates and bools that have stray quotes
+# - Add missing canonical fields with safe defaults
+#
+# If fix() actually modifies a file, we re-stage it so the commit reflects
+# the canonical version. Contributors see one harmless re-staging step
+# instead of fighting bulk repair conflicts later.
+staged_md=$(git diff --cached --name-only --diff-filter=ACM | grep '^knowledge/.*\.md$' | grep -vE '^knowledge/(en|ja|ko|es|fr)/' || true)
+if [ -n "$staged_md" ]; then
+  fix_output=$(python3 scripts/tools/article-health.py --staged --check=frontmatter-format --fix 2>&1)
+  fixed_count=$(echo "$fix_output" | grep -oE 'Modified [0-9]+ file' | grep -oE '[0-9]+' | head -1 || echo "0")
+  if [ -n "$fixed_count" ] && [ "$fixed_count" != "0" ]; then
+    echo "🔧 Auto-fixed frontmatter format on $fixed_count staged file(s); re-staging..."
+    echo "$staged_md" | xargs -I {} git add {}
+  fi
+fi
+
 # ═══ article-health SSOT — pre-commit hard gate (2026-05-04 Phase 10) ═══
 # 11-plugin SSOT 入口跑 staged zh-TW knowledge/*.md.
 # Plugins covered (per scripts/tools/article-health.config.toml `pre-commit`
@@ -43,7 +74,6 @@ fi
 # footnote-format regex / cjk-punct.py). Per SSOT design (reports/
 # article-health-ssot-design-2026-05-04.md), promotes the 30-day shadow-run
 # observation period to canonical hard gate.
-staged_md=$(git diff --cached --name-only --diff-filter=ACM | grep '^knowledge/.*\.md$' | grep -vE '^knowledge/(en|ja|ko|es|fr)/' || true)
 if [ -n "$staged_md" ]; then
   if ! python3 scripts/tools/article-health.py --staged --profile=pre-commit --quiet; then
     echo ""

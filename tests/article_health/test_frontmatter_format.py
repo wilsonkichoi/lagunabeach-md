@@ -148,3 +148,258 @@ def test_plugin_registered():
     registry.reset_registry()
     found = registry.discover_checks()
     assert "frontmatter-format" in found, list(found.keys())
+
+
+# ── fix() tests (2026-05-08 #884 root-cause fix) ──────────────────────────
+
+
+def _fix_and_reload(tmp_path: Path, frontmatter: str) -> tuple[int, str]:
+    f = _write_article(tmp_path, frontmatter)
+    target = load_target(f)
+    n = frontmatter_format.fix(target, {})
+    return n, f.read_text(encoding="utf-8")
+
+
+def test_fix_idempotent_on_canonical_frontmatter(tmp_path):
+    n, _ = _fix_and_reload(tmp_path, GOOD_FRONTMATTER)
+    assert n == 0
+
+
+def test_fix_reorders_canonical_fields(tmp_path):
+    fm = GOOD_FRONTMATTER.replace(
+        "category: 'Society'\ntags: ['媒體', '科學傳播']\nsubcategory: '媒體與言論'\n",
+        "subcategory: '媒體與言論'\ntags: ['媒體', '科學傳播']\ncategory: 'Society'\n",
+    )
+    n, body = _fix_and_reload(tmp_path, fm)
+    assert n >= 1
+    # Re-validate: order warning should be gone
+    f = _write_article(tmp_path, "")  # no-op to get path
+    f.write_text(body, encoding="utf-8")
+    target = load_target(f)
+    violations = list(frontmatter_format.check(target, {}))
+    assert not any("欄位順序錯" in v.message for v in violations), (
+        f"reorder did not produce canonical order:\n{body}"
+    )
+
+
+def test_fix_converts_list_mode_tags_to_flow_array(tmp_path):
+    fm = GOOD_FRONTMATTER.replace(
+        "tags: ['媒體', '科學傳播']\n",
+        "tags:\n  - 媒體\n  - 科學傳播\n",
+    )
+    n, body = _fix_and_reload(tmp_path, fm)
+    assert n >= 1
+    assert "tags: ['媒體', '科學傳播']" in body, (
+        f"flow array conversion failed:\n{body}"
+    )
+
+
+def test_fix_preserves_prettier_wrapped_flow_array(tmp_path):
+    """Prettier wraps long flow arrays; we must not touch that style."""
+    fm = GOOD_FRONTMATTER.replace(
+        "tags: ['媒體', '科學傳播']\n",
+        "tags:\n  [\n    '媒體',\n    '科學傳播',\n  ]\n",
+    )
+    n, body = _fix_and_reload(tmp_path, fm)
+    # No fix needed if frontmatter is otherwise canonical and tags is valid flow
+    assert "tags:\n  [" in body, f"prettier wrap was destroyed:\n{body}"
+
+
+def test_fix_quotes_unquoted_scalar_string(tmp_path):
+    fm = GOOD_FRONTMATTER.replace("category: 'Society'\n", "category: Society\n")
+    n, body = _fix_and_reload(tmp_path, fm)
+    assert n >= 1
+    assert "category: 'Society'" in body, f"category was not quoted:\n{body}"
+
+
+def test_fix_unquotes_quoted_date(tmp_path):
+    fm = GOOD_FRONTMATTER.replace("date: 2026-05-07\n", "date: '2026-05-07'\n")
+    n, body = _fix_and_reload(tmp_path, fm)
+    assert n >= 1
+    assert "date: 2026-05-07\n" in body, f"date was not unquoted:\n{body}"
+
+
+def test_fix_unquotes_quoted_boolean(tmp_path):
+    fm = GOOD_FRONTMATTER.replace("featured: false\n", "featured: 'false'\n")
+    n, body = _fix_and_reload(tmp_path, fm)
+    assert n >= 1
+    assert "featured: false\n" in body, f"featured was not unquoted:\n{body}"
+
+
+def test_fix_combined_reorder_and_flow_conversion(tmp_path):
+    """The original 5/7 #884 conflict pattern: contributor PR has subcategory
+    before tags AND list-mode tags. Our fix must handle both in one pass."""
+    fm = GOOD_FRONTMATTER.replace(
+        "category: 'Society'\ntags: ['媒體', '科學傳播']\nsubcategory: '媒體與言論'\n",
+        "subcategory: '媒體與言論'\ntags:\n  - 媒體\n  - 科學傳播\ncategory: 'Society'\n",
+    )
+    n, body = _fix_and_reload(tmp_path, fm)
+    assert n >= 2
+    assert "tags: ['媒體', '科學傳播']" in body, "flow conversion failed"
+
+    f = _write_article(tmp_path, "")
+    f.write_text(body, encoding="utf-8")
+    target = load_target(f)
+    violations = list(frontmatter_format.check(target, {}))
+    assert not any("欄位順序錯" in v.message for v in violations)
+    assert not any("flow array" in v.message for v in violations)
+
+
+def test_fix_preserves_trailing_comments(tmp_path):
+    """Trailing # design_rationale: blocks must survive reordering."""
+    fm = GOOD_FRONTMATTER.replace(
+        "category: 'Society'\ntags: ['媒體', '科學傳播']\n",
+        "tags: ['媒體', '科學傳播']\ncategory: 'Society'\n",
+    ) + "# design_rationale:\n#   why_this_hook: 'test'\n"
+    n, body = _fix_and_reload(tmp_path, fm)
+    assert n >= 1
+    assert "# design_rationale:" in body, f"trailing comment was lost:\n{body}"
+    assert "#   why_this_hook: 'test'" in body, f"trailing comment was lost:\n{body}"
+
+
+def test_fix_reorder_does_not_concat_last_block(tmp_path):
+    """Regression: loader strips trailing \\n before closing ---. After
+    reorder, original-last block (no \\n) must not concat with next block.
+    巧固球 case 2026-05-08: featured/date/readingTime/lastVerified/lastHumanReview
+    in scrambled order produced `lastHumanReview: falsereadingTime: 12`."""
+    fm = (
+        "title: 'Foo'\n"
+        "description: 'Bar'\n"
+        "category: 'Society'\n"
+        "tags: ['x']\n"
+        "subcategory: 'sub'\n"
+        "author: 'Taiwan.md'\n"
+        "featured: false\n"
+        "date: 2026-03-27\n"
+        "readingTime: 12\n"  # unknown key — will be moved to other_blocks
+        "lastVerified: 2026-03-27\n"
+        "lastHumanReview: false\n"  # was last; will be moved earlier
+    )
+    n, body = _fix_and_reload(tmp_path, fm)
+    assert n >= 1
+    assert "lastHumanReview: false\n" in body, (
+        f"trailing newline regression — fields concatenated:\n{body}"
+    )
+    assert "lastHumanReview: falsereadingTime" not in body
+    assert "lastHumanReview: falseimage" not in body
+
+
+def test_fix_quotes_unquoted_flow_array_items(tmp_path):
+    """`tags: [foo, bar]` (no quotes) → `tags: ['foo', 'bar']`."""
+    fm = GOOD_FRONTMATTER.replace(
+        "tags: ['媒體', '科學傳播']\n",
+        "tags: [媒體, 科學傳播]\n",
+    )
+    n, body = _fix_and_reload(tmp_path, fm)
+    assert n >= 1
+    assert "tags: ['媒體', '科學傳播']" in body, (
+        f"unquoted flow tags were not quoted:\n{body}"
+    )
+
+
+def test_fix_preserves_already_quoted_flow_items(tmp_path):
+    """If items already quoted, don't double-quote them."""
+    n, body = _fix_and_reload(tmp_path, GOOD_FRONTMATTER)
+    assert n == 0
+    assert "tags: ['媒體', '科學傳播']" in body
+
+
+def test_fix_handles_mixed_quoted_unquoted_items(tmp_path):
+    """Some items quoted, some not — quote the unquoted ones only."""
+    fm = GOOD_FRONTMATTER.replace(
+        "tags: ['媒體', '科學傳播']\n",
+        "tags: ['媒體', 科學傳播]\n",
+    )
+    n, body = _fix_and_reload(tmp_path, fm)
+    assert n >= 1
+    assert "tags: ['媒體', '科學傳播']" in body, (
+        f"mixed quote fix failed:\n{body}"
+    )
+
+
+def test_fix_converts_double_quoted_scalars_to_single(tmp_path):
+    """Legacy double-quoted scalars (`category: "Society"`) → single-quoted."""
+    fm = GOOD_FRONTMATTER.replace(
+        "title: '泛科學：從科學新聞黑洞到演算法裡的知識工業'\n",
+        'title: "泛科學：從科學新聞黑洞到演算法裡的知識工業"\n',
+    ).replace(
+        "category: 'Society'\n",
+        'category: "Society"\n',
+    ).replace(
+        "tags: ['媒體', '科學傳播']\n",
+        'tags: ["媒體", "科學傳播"]\n',
+    )
+    n, body = _fix_and_reload(tmp_path, fm)
+    assert n >= 1
+    assert "title: '泛科學：" in body
+    assert "category: 'Society'" in body
+    assert "tags: ['媒體', '科學傳播']" in body, f"flow item double→single failed:\n{body}"
+
+
+def test_fix_preserves_double_quoted_with_escape_sequences(tmp_path):
+    """If `\\n` or `\\t` escapes are present, leave double-quoted (single can't)."""
+    fm = GOOD_FRONTMATTER.replace(
+        "description: 'desc'\n",
+        'description: "line1\\nline2"\n',
+    )
+    n, body = _fix_and_reload(tmp_path, fm)
+    # description should remain double-quoted because of \n escape
+    assert 'description: "line1\\nline2"' in body, (
+        f"escape sequence preservation failed:\n{body}"
+    )
+
+
+def test_fix_handles_apostrophe_in_quoted_value(tmp_path):
+    """`description: \"I'm here\"` → `description: 'I''m here'` (YAML escape)."""
+    fm = GOOD_FRONTMATTER.replace(
+        "description: 'desc'\n",
+        'description: "I\'m here"\n',
+    )
+    n, body = _fix_and_reload(tmp_path, fm)
+    assert n >= 1
+    assert "description: 'I''m here'" in body, (
+        f"apostrophe-in-double-quote handling failed:\n{body}"
+    )
+
+
+def test_fix_does_not_introduce_blank_line_before_closing_fence(tmp_path):
+    """Regression: after reorder, fm_text ended with \\n which combined with
+    hardcoded `\\n---\\n` to produce `\\n\\n---\\n` (blank line inside FM)."""
+    fm = (
+        "title: '原住民文學'\n"
+        "description: 'desc'\n"
+        "category: 'Society'\n"
+        "tags: ['x']\n"
+        "subcategory: '文學'\n"
+        "author: 'Taiwan.md'\n"
+        "featured: false\n"
+        "date: 2026-03-24\n"
+        "readingTime: 7\n"  # unknown — gets pushed to end after reorder
+        "lastVerified: 2026-03-24\n"
+        "lastHumanReview: false\n"
+    )
+    f = _write_article(tmp_path, fm)
+    target = load_target(f)
+    n = frontmatter_format.fix(target, {})
+    assert n >= 1
+    body = f.read_text(encoding="utf-8")
+    # Must NOT have a blank line before closing fence
+    assert "\n\n---\n" not in body, (
+        f"blank line before closing fence regression:\n{body}"
+    )
+
+
+def test_fix_handles_empty_tags_list_mode_safely(tmp_path):
+    """Edge case: `tags:` followed by nothing (empty value, no items).
+    Should NOT explode and should leave the field alone."""
+    fm = GOOD_FRONTMATTER.replace(
+        "tags: ['媒體', '科學傳播']\n",
+        "tags:\n",
+    )
+    # No items to convert; flow conversion should no-op on this case.
+    # (This is technically a HARD violation since tags must be a list,
+    # but our flow conversion should be idempotent on empty.)
+    n, body = _fix_and_reload(tmp_path, fm)
+    # tags: should still be there (don't write `tags: []` since we can't
+    # tell if user meant empty or forgot to fill in)
+    assert "tags:" in body

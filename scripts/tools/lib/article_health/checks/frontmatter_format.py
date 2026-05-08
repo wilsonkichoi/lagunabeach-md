@@ -28,6 +28,17 @@ Auto-fix (--fix):
       empty string / other → false
   - `category` value mismatch with path → corrected to path's folder name
   - `date` not YYYY-MM-DD → attempts to reformat common variants
+
+  Safe WARN violations (formatter style) also auto-fixed since 2026-05-08:
+  - List-mode tags (`tags:\n  - a\n  - b`) → flow array (`tags: ['a', 'b']`)
+  - Out-of-order canonical fields → re-sorted per CANONICAL_ORDER
+    (preserves comments and unknown/optional fields at end)
+  - Single-line scalar fields missing single quotes
+  - `date` / `lastVerified` wrapped in quotes → unquoted
+  - Bool fields with quoted true/false → unquoted
+
+  Together these turn frontmatter format conflicts (the 5/7 #884 root cause)
+  from manual rebase work into a one-shot pre-commit auto-fix.
 """
 
 from __future__ import annotations
@@ -400,6 +411,232 @@ def _replace_field_value(fm_text: str, key: str, new_value: str) -> str:
     )
 
 
+def _parse_fm_blocks(fm_text: str) -> list[tuple[str, list[str]]]:
+    """Parse frontmatter into list of (key, lines) blocks for reordering.
+
+    Block ownership rules:
+      - Comments and blank lines BEFORE a top-level key attach to that key
+      - Continuation lines (multi-line values, list items, flow array bodies)
+        attach to their parent key
+      - Trailing comments after the last key form a final block with key=""
+
+    Stable for round-trip: joining all blocks back produces the original text.
+    """
+    lines = fm_text.splitlines(keepends=True)
+    blocks: list[tuple[str, list[str]]] = []
+    pending: list[str] = []  # comments/blanks before next key
+    current_key: str | None = None
+    current_lines: list[str] = []
+
+    for line in lines:
+        stripped = line.lstrip()
+        if not stripped or stripped.startswith("#"):
+            pending.append(line)
+            continue
+
+        m = re.match(r"^([A-Za-z][\w-]*)\s*:", line)
+        if m:
+            # Flush previous block (without trailing pending comments —
+            # those belong to the next block per "comments before key" rule)
+            if current_key is not None:
+                blocks.append((current_key, current_lines))
+            current_key = m.group(1)
+            current_lines = pending + [line]
+            pending = []
+        else:
+            # Continuation line for current key
+            if current_key is None:
+                # Should not happen for well-formed frontmatter, but be safe
+                pending.append(line)
+            else:
+                # Pending blank/comment lines that came before this continuation
+                # belong to the current key (rare edge case: blank line in
+                # middle of multi-line value)
+                current_lines.extend(pending)
+                pending = []
+                current_lines.append(line)
+
+    if current_key is not None:
+        blocks.append((current_key, current_lines))
+    if pending:
+        # Trailing comments after last key — preserve as final orphan block
+        blocks.append(("", pending))
+
+    return blocks
+
+
+def _reorder_canonical_fields(fm_text: str) -> tuple[str, bool]:
+    """Reorder frontmatter fields per CANONICAL_ORDER.
+
+    Returns (new_text, changed). `changed=False` if order was already canonical.
+
+    Unknown/optional keys preserve their original relative order at the end.
+    The trailing-comment orphan block (key="") always stays at the end.
+    """
+    blocks = _parse_fm_blocks(fm_text)
+    canonical_idx = {key: i for i, key in enumerate(CANONICAL_ORDER)}
+
+    # Detect whether canonical-ordered keys are already in canonical order
+    canonical_indices = [canonical_idx[k] for k, _ in blocks if k in canonical_idx]
+    if canonical_indices == sorted(canonical_indices):
+        return fm_text, False
+
+    canonical_blocks: list[tuple[int, str, list[str]]] = []
+    other_blocks: list[tuple[str, list[str]]] = []
+    orphan_blocks: list[tuple[str, list[str]]] = []
+
+    for key, lines in blocks:
+        if key == "":
+            orphan_blocks.append((key, lines))
+        elif key in canonical_idx:
+            canonical_blocks.append((canonical_idx[key], key, lines))
+        else:
+            other_blocks.append((key, lines))
+
+    # Sort canonical by the canonical position (stable since unique keys)
+    canonical_blocks.sort(key=lambda x: x[0])
+
+    new_blocks = (
+        [(k, ls) for _, k, ls in canonical_blocks] + other_blocks + orphan_blocks
+    )
+
+    # Loader's regex strips the trailing `\n` before closing `---`, so the
+    # ORIGINAL last block has no trailing `\n`. After reorder that block may
+    # no longer be last, so we must restore `\n` to every non-final block to
+    # avoid concatenation regressions like `lastHumanReview: falseimage: …`.
+    rendered: list[str] = []
+    for i, (_, lines) in enumerate(new_blocks):
+        chunk = "".join(lines)
+        if i < len(new_blocks) - 1 and not chunk.endswith("\n"):
+            chunk += "\n"
+        rendered.append(chunk)
+    return "".join(rendered), True
+
+
+def _convert_tags_to_flow(fm_text: str) -> tuple[str, bool]:
+    """Convert list-mode tags to single-line flow array.
+
+    Detects `tags:\\n  - a\\n  - b\\n` and replaces with `tags: ['a', 'b']\\n`.
+    Leaves Prettier-wrapped flow arrays (`tags:\\n  [\\n    'a',\\n  ]\\n`)
+    and existing single-line flow (`tags: [...]`) untouched.
+
+    Returns (new_text, changed).
+    """
+    lines = fm_text.splitlines(keepends=True)
+    new_lines: list[str] = []
+    i = 0
+    changed = False
+
+    while i < len(lines):
+        line = lines[i]
+        stripped = line.rstrip("\n")
+        # Match `tags:` with empty or whitespace-only value
+        if re.match(r"^tags\s*:\s*$", stripped):
+            # Look ahead for `  - item` lines
+            j = i + 1
+            items: list[str] = []
+            while j < len(lines):
+                nx = lines[j].rstrip("\n")
+                m = re.match(r"^\s+-\s+(.+)$", nx)
+                if not m:
+                    break
+                value = m.group(1).strip().strip("'\"")
+                items.append(value)
+                j += 1
+
+            if items:
+                # Use single quotes per SINGLE_QUOTED_SCALARS convention.
+                # Items containing single quotes get wrapped in double quotes.
+                quoted: list[str] = []
+                for it in items:
+                    if "'" in it:
+                        quoted.append(f'"{it}"')
+                    else:
+                        quoted.append(f"'{it}'")
+                new_lines.append(f"tags: [{', '.join(quoted)}]\n")
+                i = j
+                changed = True
+                continue
+
+        new_lines.append(line)
+        i += 1
+
+    return "".join(new_lines), changed
+
+
+def _quote_flow_array_items(fm_text: str) -> tuple[str, bool]:
+    """Add single quotes around unquoted items in single-line `tags: [a, b, c]`.
+
+    Handles the `tags: [foo, bar]` → `tags: ['foo', 'bar']` case.
+    Multi-line Prettier-wrapped arrays (`tags:\\n  [\\n    'a',\\n  ]`) are
+    skipped — Prettier already quotes items in that style.
+
+    Returns (new_text, changed).
+    """
+    pattern = re.compile(
+        r"^(tags\s*:\s*\[)([^\]\n]*)(\][^\n]*)$",
+        re.MULTILINE,
+    )
+
+    def _split_respecting_quotes(items_str: str) -> list[str]:
+        parts: list[str] = []
+        current = ""
+        in_single = False
+        in_double = False
+        for ch in items_str:
+            if ch == "'" and not in_double:
+                in_single = not in_single
+                current += ch
+            elif ch == '"' and not in_single:
+                in_double = not in_double
+                current += ch
+            elif ch == "," and not in_single and not in_double:
+                if current.strip():
+                    parts.append(current.strip())
+                current = ""
+            else:
+                current += ch
+        if current.strip():
+            parts.append(current.strip())
+        return parts
+
+    changed_flag = [False]
+
+    def _replace(match: re.Match[str]) -> str:
+        prefix, items_str, suffix = match.group(1), match.group(2), match.group(3)
+        items = _split_respecting_quotes(items_str)
+        if not items:
+            return match.group(0)
+
+        quoted: list[str] = []
+        any_changed = False
+        for item in items:
+            if item.startswith("'") and item.endswith("'") and len(item) >= 2:
+                quoted.append(item)
+            elif item.startswith('"') and item.endswith('"') and len(item) >= 2:
+                # Convert "foo" → 'foo' (no escapes survive across this swap;
+                # if the value has \ escapes we'd be unsafe — skip in that case)
+                inner = item[1:-1]
+                if "\\" in inner:
+                    quoted.append(item)  # keep as-is
+                else:
+                    escaped = inner.replace("'", "''")
+                    quoted.append(f"'{escaped}'")
+                    any_changed = True
+            else:
+                escaped = item.replace("'", "''")
+                quoted.append(f"'{escaped}'")
+                any_changed = True
+
+        if not any_changed:
+            return match.group(0)
+        changed_flag[0] = True
+        return f"{prefix}{', '.join(quoted)}{suffix}"
+
+    new_text = pattern.sub(_replace, fm_text)
+    return new_text, changed_flag[0]
+
+
 def _reformat_date(raw_value: str) -> str | None:
     """Try common date variants → YYYY-MM-DD. Returns None if unrecognisable.
 
@@ -533,13 +770,96 @@ def fix(target: FileTarget, config: dict[str, Any]) -> int:
         fm = {**fm, "lastHumanReview": False}
         changes += 1
 
+    # ── 5. Quote single-line scalar fields that need single quotes ───────────
+    lines_now = fm_text.splitlines()
+    for key in SINGLE_QUOTED_SCALARS:
+        line = _line_for_key(lines_now, key)
+        if not line:
+            continue
+        line_no, raw = line
+        value = _field_value(raw)
+        if not value:
+            continue
+        # Skip if value spans multiple lines (block scalar) — too risky to fix.
+        if value in ("|", ">", "|-", ">-", "|+", ">+"):
+            continue
+        if not _is_single_quoted(value):
+            # Convert double-quoted → single-quoted, but only if value has no
+            # YAML double-quote-only escape sequences (\n, \t, \", \\, etc.).
+            # If escapes are present, leaving as double-quoted is safer.
+            if value.startswith('"') and value.endswith('"') and len(value) >= 2:
+                inner = value[1:-1]
+                if "\\" in inner:
+                    continue  # has escape sequences — keep double-quoted
+                # Inner already has any literal `"` as `\"` (impossible w/o `\`)
+                # so plain `"…"` → `'…'` with single-quote doubling.
+                escaped = inner.replace("'", "''")
+                fm_text = _replace_field_value(fm_text, key, f"'{escaped}'")
+                changes += 1
+                lines_now = fm_text.splitlines()
+                continue
+            # Unquoted scalar (e.g. `category: Society`) → quote it
+            escaped = value.replace("'", "''")
+            fm_text = _replace_field_value(fm_text, key, f"'{escaped}'")
+            changes += 1
+            lines_now = fm_text.splitlines()  # refresh cache
+
+    # ── 6. Unquote dates and bools that have stray quotes ────────────────────
+    for key in DATE_FIELDS:
+        line = _line_for_key(lines_now, key)
+        if not line:
+            continue
+        _, raw = line
+        value = _field_value(raw)
+        if value.startswith(("'", '"')) and value.endswith(("'", '"')):
+            inner = value[1:-1]
+            if _is_iso_date(inner):
+                fm_text = _replace_field_value(fm_text, key, inner)
+                changes += 1
+                lines_now = fm_text.splitlines()
+
+    for key in BOOL_FIELDS:
+        line = _line_for_key(lines_now, key)
+        if not line:
+            continue
+        _, raw = line
+        value = _field_value(raw)
+        if value.startswith(("'", '"')) and value.endswith(("'", '"')):
+            inner = value[1:-1].lower()
+            if inner in {"true", "false"}:
+                fm_text = _replace_field_value(fm_text, key, inner)
+                changes += 1
+                lines_now = fm_text.splitlines()
+
+    # ── 7. Convert list-mode tags to flow array ──────────────────────────────
+    fm_text_after_flow, flow_changed = _convert_tags_to_flow(fm_text)
+    if flow_changed:
+        fm_text = fm_text_after_flow
+        changes += 1
+
+    # ── 8. Quote unquoted items in single-line tags flow array ───────────────
+    fm_text_after_quote, quote_changed = _quote_flow_array_items(fm_text)
+    if quote_changed:
+        fm_text = fm_text_after_quote
+        changes += 1
+
+    # ── 9. Reorder fields per canonical order (LAST step — runs after all
+    # inserts/conversions so it sees the final field set) ─────────────────────
+    fm_text_after_reorder, reorder_changed = _reorder_canonical_fields(fm_text)
+    if reorder_changed:
+        fm_text = fm_text_after_reorder
+        changes += 1
+
     if not changes:
         return 0
 
     if dry_run:
         return changes
 
-    # Reconstruct full file: --- + fixed frontmatter + --- + body
+    # Match loader convention: frontmatter content has no trailing `\n`. If
+    # reorder/conversion added one, strip before reassembly so we don't end up
+    # with `…\n\n---\n` (blank line before closing fence).
+    fm_text = fm_text.rstrip("\n")
     new_text = "---\n" + fm_text + "\n---\n" + target.text[target.body_text_offset:]
     Path(target.path).write_text(new_text, encoding="utf-8")
     return changes
