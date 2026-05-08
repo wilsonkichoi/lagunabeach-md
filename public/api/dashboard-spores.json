@@ -1,26 +1,58 @@
 {
-  "lastUpdated": "2026-05-08T09:21:33.886108Z",
+  "lastUpdated": "2026-05-08T12:07:08.239443Z",
   "schemaVersion": "1.1",
   "totals": {
-    "count": 65,
+    "count": 67,
     "platforms": {
-      "x": 28,
-      "threads": 33,
+      "x": 29,
+      "threads": 34,
       "other": 4
     },
     "languages": {
-      "zh": 58,
+      "zh": 60,
       "en": 7
     },
     "templates": {
+      "A2": 10,
       "A": 24,
-      "A2": 8,
       "B": 27,
       "other": 2,
       "D": 4
     }
   },
   "recent": [
+    {
+      "n": 67,
+      "date": "2026-05-08",
+      "platform": "x",
+      "article": "聶永真",
+      "articleSlug": "聶永真",
+      "category": "people",
+      "template": "A2 首尾呼應 + Scene-List-Scene",
+      "url": "https://x.com/taiwandotmd/status/2052721374570106952",
+      "highlight": "**EVOLVE Round 2 ship 同日孢子化（commit `a3052a4ad`）**：Scene-List-Scene 結構 — 開場 2014/03/24 凌晨四點紐時頭版「Democracy at 4am」+ Emily Dickinson 副標 → reveal 短句「這是聶永真做的。」→ 中段二十年作品壓縮 list（兩年前 AGI 首位 / 三度金曲 林宥嘉/蘇打綠/田馥甄/五月天 / 十二年六項作品：點亮台灣 + 兩屆就職 + Taiwan Can Help 1028 萬 + 經濟部+觀光署+中油+台電識別系統）→ 結尾 scene 2026/05/08 早上 9:30 + 下午 14:36 黃智陽舉證 1965《台電月刊》第 25 期 + 5 小時三層論述 →「在做設計師聶永真之前，他是公民聶永真」自陳引語收。雙場景括號夾住中段二十年。**v1→v2 polish**：哲宇 callout「設計者沒在頭版署名，但設計圈知道是聶永真做的」強調錯方向（讀者本來就知道是聶永真做的）→ 改短句「這是聶永真做的。」獨立段 reveal 直接有力（302→288 CJK -14 字更精簡）。§11 hard=0 / warn=1 / score=1 ≤ 3 PASS / 三板斧全 0（不是 0 / —— 0 / 不僅 0）/ 19 claim fact-check 全 ✅。X inline URL 版（utm_campaign=s67）。配圖 landscape 1600×900 + square 1080×1080 雙圖（justfont rixingsong-semibold + BrandMark）。Blueprint: [SPORE-BLUEPRINTS/66-聶永真.md](SPORE-BLUEPRINTS/66-聶永真.md)。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
+    {
+      "n": 66,
+      "date": "2026-05-08",
+      "platform": "threads",
+      "article": "聶永真",
+      "articleSlug": "聶永真",
+      "category": "people",
+      "template": "A2 首尾呼應 + Scene-List-Scene",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYE7ZAik0qr",
+      "highlight": "**同 #67 內容**：Threads 主貼不含 URL，self-reply 加連結（utm_campaign=s66）。Angle: A2 首尾呼應 + Scene-List-Scene（Pipeline Rule §16）— 開場 2014 太陽花凌晨四點紐時頭版（包含 Dickinson 副標 verbatim）+ reveal 短句「這是聶永真做的。」→ 中段二十年作品壓縮 list → 結尾 2026/05/08 5h 論述循環 + 「在做設計師聶永真之前，他是公民聶永真」自陳引語收。雙場景括號（2014 紐時頭版 / 2026 台電 LOGO）夾住中段二十年。聶永真知名設計師（Tier 1a 知名度槓桿）+ 政治設計案 + 即時事件（2026/05/08 同日 ship）= Threads + X 雙平台同步發。Blueprint: [SPORE-BLUEPRINTS/66-聶永真.md](SPORE-BLUEPRINTS/66-聶永真.md)。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
     {
       "n": 65,
       "date": "2026-05-05",
@@ -63,38 +95,6 @@
       "template": "A+B+C 混合（紐約→西瓜→消滅自己）",
       "url": "https://www.threads.com/@taiwandotmd/post/DX9i3zClPj4",
       "highlight": "**媒體曝光宣告型 spore（首例）**：A+B+C 三 angle 弧線串接（per §3.6）— B 為什麼做（紐約兩年加工作一年 → 早餐店蛋餅 →「越往外走，我越發現我們的家就很好」）→ C 怎麼做（西瓜 vs 乾乾的維基 →「不同立場、不同聲音都不去掉，但讓你知道是誰講的」→ SSODT）→ A 要去哪（「目標是消滅自己」「我是裡面最脆弱的部分」）→ 賴靜嫻「我好難想像他是 30 多歲」reaction 收尾。Threads 主貼純 prose 不含 URL，self-reply 加 podcast YouTube + about §第四十六天 milestone link（`utm_campaign=s63`）。podcast 4/28 錄音 5/5 上線 33 min by 賴靜嫻（Apple Podcasts id1508963166 / YouTube `t6CLV8p2hh4`）。配圖 skip（YouTube link Threads/X auto preview card）。**ASR 信度紅旗處理**：archive 標 ASR 錯誤 ~10-15%，所有 quote 用 attribution 包裝（「他答」「賴靜嫻聽完說」）避免逐字精準聲稱；短關鍵字（「消滅自己」「早餐店蛋餅」「西瓜」「越往外走」）= reverbatim verified。跟同日 ship 的 about §第四十六天 milestone（commit `595d87cd6`）bidirectional reinforce — milestone 補 podcast link / spore 引流回 about 雙 vector。**v2 觀察者 callout polish**：(1)「他答，紐約⋯」→「他答：去紐約⋯之後」補介系詞流暢度 (2) 截掉「，跟你聊變 60 了，加了 30 歲」尾段（賴靜嫻自嘲 60 歲意指自己反推年齡，spore 無上下文 reader 會誤讀為哲宇 60 歲）。直引 5（哲宇 3 + 賴靜嫻 2）/ §11 hard=0 warn=0 / 277 zh chars / 349 total / 3 個破折號（密度 0.86%）。Blueprint: [docs/factory/SPORE-BLUEPRINTS/63-寶島聯播網訪談.md](SPORE-BLUEPRINTS/63-寶島聯播網訪談.md)。",
-      "views_7d": null,
-      "views_latest": null,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": false
-    },
-    {
-      "n": 62,
-      "date": "2026-05-05",
-      "platform": "x",
-      "article": "台灣與史瓦帝尼",
-      "articleSlug": "台灣與史瓦帝尼",
-      "category": "society",
-      "template": "A+C 混合（飛機+芭樂）",
-      "url": "https://x.com/taiwandotmd/status/2051577099341967464",
-      "highlight": "**SPORE-PIPELINE v2.7 完整跑通**：A+C 混合（總統借飛機 hook + 紅心芭樂 55 年）。開場 2026-05-02 9 點 surprise visit + Mswati 派副總理王室 A340 接駕 → 4/22 喊卡（塞舌爾/模里西斯/馬達加斯加 PRC 經濟脅迫）→ Mswati 派飛機接駕 → 第二天記者會「紅心芭樂見證台史友好」直引 → 1969 第一份技術合作 → 2024-03 SUPERSPAR 進架上 → 結尾「那架飛機是這週的國際新聞 / 那顆芭樂是 55 年的台灣外交」。觀察者 callout v1「surprise visit 中英混雜+結尾碎片化+「借」太casual」→ v2 改「派副總理飛來台北接他的王室專機」+ 連續散文敘事。Step 4 §6 sporeLinks 寫回 knowledge/Society/台灣與史瓦帝尼.md frontmatter。直引 1（賴清德記者會）/ §11 ALL CLEAR / 285 zh chars + URL。**Tier 3 Ollama-only babel sync 同 commit ship**（sovereignty-sensitive content cloud free 全 refuse，Tier 3 5/5 收下 — 同 PR `517dfd41d`）。**⚠️ campaign id collision**：URL 含 `?utm_campaign=s60` 但 #60 已被黃魚鴞 X 使用（spore output block 寫死 s60 沒查 LOG 最新編號）— LESSONS-INBOX 候選「next available # 必須 grep SPORE-LOG before output」。",
-      "views_7d": null,
-      "views_latest": null,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": false
-    },
-    {
-      "n": 61,
-      "date": "2026-05-05",
-      "platform": "threads",
-      "article": "台灣與史瓦帝尼",
-      "articleSlug": "台灣與史瓦帝尼",
-      "category": "society",
-      "template": "A+C 混合（飛機+芭樂）",
-      "url": "https://www.threads.com/@taiwandotmd/post/DX8zEYFAe9c",
-      "highlight": "**SPORE-PIPELINE v2.7 完整跑通**（Step 0-6 全程）：A+C 混合（總統借飛機 hook + 紅心芭樂 55 年）。Threads 主貼不含 URL，self-reply 加 `utm_source=threads&utm_medium=spore&utm_campaign=s60`（campaign id collision with #60 黃魚鴞 X — see #62 row note）。**Step 0 backfill**：4 OVERDUE (#47-50 林琪兒 + 沈伯洋) 2026-05-03 已 D+5 backfilled，今日 D+7 partial WebFetch 抓到 2/4 Threads（#49 13K views / #47 1100♥/110🔁），X 兩個 402（dashboard OVERDUE 標記是 D+7 column schema bug 不是 真 missing data）。**觀察者 callout 兩輪**：v1「『借』太 casual + 後段碎片化短句 + surprise visit 中英混雜」→ v2「派副總理飛來台北接他的王室專機」+ 流暢散文 + 砍掉 surprise visit/Ezulwini 中英混雜。square 1080×1080 + landscape 1600×900 配圖。",
       "views_7d": null,
       "views_latest": null,
       "engagements_7d": null,
@@ -151,10 +151,10 @@
       "n": 54,
       "article": "黑冠麻鷺",
       "platform": "x",
-      "views": 68000,
-      "viewsSource": "latest",
-      "engagements": null,
-      "rate": null,
+      "views": 69664,
+      "viewsSource": "7d",
+      "engagements": 2009,
+      "rate": 2.88,
       "badge": "⭐ 高峰",
       "date": "2026-04-30"
     },
@@ -173,10 +173,10 @@
       "n": 53,
       "article": "黑冠麻鷺",
       "platform": "threads",
-      "views": 64000,
-      "viewsSource": "latest",
-      "engagements": null,
-      "rate": null,
+      "views": 65000,
+      "viewsSource": "7d",
+      "engagements": 3680,
+      "rate": 5.66,
       "badge": "⭐ 高峰",
       "date": "2026-04-30"
     },
@@ -241,101 +241,21 @@
   ],
   "platformComparison": {
     "x": {
-      "count": 18,
-      "avgViews": 17889,
+      "count": 23,
+      "avgViews": 22038,
       "maxViews": 136474,
-      "avgRate": 3.93,
+      "avgRate": 3.88,
       "maxRate": 10.71
     },
     "threads": {
-      "count": 19,
-      "avgViews": 38008,
+      "count": 24,
+      "avgViews": 34486,
       "maxViews": 300000,
-      "avgRate": 4.77,
+      "avgRate": 6.01,
       "maxRate": 14.38
     }
   },
   "backfillWarnings": [
-    {
-      "n": 50,
-      "article": "林琪兒",
-      "platform": "x",
-      "publishedDays": 10,
-      "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2049079839244828881"
-    },
-    {
-      "n": 49,
-      "article": "林琪兒",
-      "platform": "threads",
-      "publishedDays": 10,
-      "status": "OVERDUE",
-      "url": "https://www.threads.com/@taiwandotmd/post/DXrDdODk37l"
-    },
-    {
-      "n": 48,
-      "article": "沈伯洋",
-      "platform": "x",
-      "publishedDays": 10,
-      "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2048970734253551638"
-    },
-    {
-      "n": 47,
-      "article": "沈伯洋",
-      "platform": "threads",
-      "publishedDays": 10,
-      "status": "OVERDUE",
-      "url": "https://www.threads.com/@taiwandotmd/post/DXqRxf5EQpg"
-    },
-    {
-      "n": 52,
-      "article": "台灣邦交國與國際外交",
-      "platform": "x",
-      "publishedDays": 9,
-      "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2049358488246349945"
-    },
-    {
-      "n": 51,
-      "article": "台灣邦交國與國際外交",
-      "platform": "threads",
-      "publishedDays": 9,
-      "status": "OVERDUE",
-      "url": "https://www.threads.com/@taiwandotmd/post/DXtCIBCEeTh?xmt=AQF00UmSgX_psrM3oEzyol1G5-uzmnwiLTKilOhh_lJbhQ"
-    },
-    {
-      "n": 56,
-      "article": "海底電纜",
-      "platform": "x",
-      "publishedDays": 8,
-      "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2049860918641893571"
-    },
-    {
-      "n": 55,
-      "article": "海底電纜",
-      "platform": "threads",
-      "publishedDays": 8,
-      "status": "OVERDUE",
-      "url": "https://www.threads.com/@taiwandotmd/post/DXwm8KLk5QP"
-    },
-    {
-      "n": 54,
-      "article": "黑冠麻鷺",
-      "platform": "x",
-      "publishedDays": 8,
-      "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2049854898108522575"
-    },
-    {
-      "n": 53,
-      "article": "黑冠麻鷺",
-      "platform": "threads",
-      "publishedDays": 8,
-      "status": "OVERDUE",
-      "url": "https://www.threads.com/@taiwandotmd/post/DXwjz-nk9Iq"
-    },
     {
       "n": 58,
       "article": "賈永婕",
@@ -375,6 +295,54 @@
       "publishedDays": 3,
       "status": "waiting",
       "url": "https://x.com/taiwandotmd/status/2051684242749575450"
+    },
+    {
+      "n": 64,
+      "article": "寶島聯播網訪談",
+      "platform": "x",
+      "publishedDays": 3,
+      "status": "waiting",
+      "url": "https://x.com/taiwandotmd/status/2051682413823336822"
+    },
+    {
+      "n": 63,
+      "article": "寶島聯播網訪談",
+      "platform": "threads",
+      "publishedDays": 3,
+      "status": "waiting",
+      "url": "https://www.threads.com/@taiwandotmd/post/DX9i3zClPj4"
+    },
+    {
+      "n": 62,
+      "article": "台灣與史瓦帝尼",
+      "platform": "x",
+      "publishedDays": 3,
+      "status": "waiting",
+      "url": "https://x.com/taiwandotmd/status/2051577099341967464"
+    },
+    {
+      "n": 61,
+      "article": "台灣與史瓦帝尼",
+      "platform": "threads",
+      "publishedDays": 3,
+      "status": "waiting",
+      "url": "https://www.threads.com/@taiwandotmd/post/DX8zEYFAe9c"
+    },
+    {
+      "n": 67,
+      "article": "聶永真",
+      "platform": "x",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://x.com/taiwandotmd/status/2052721374570106952"
+    },
+    {
+      "n": 66,
+      "article": "聶永真",
+      "platform": "threads",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYE7ZAik0qr"
     }
   ],
   "noUrlHistorical": [
@@ -436,15 +404,35 @@
     {
       "week": "2026-W18",
       "published": 12,
-      "avgViews": 26038
+      "avgViews": 26364
     },
     {
       "week": "2026-W19",
-      "published": 7,
+      "published": 9,
       "avgViews": 0
     }
   ],
   "harvestStatus": [
+    {
+      "n": 67,
+      "article": "聶永真",
+      "platform": "x",
+      "publishDate": "2026-05-08",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
+    {
+      "n": 66,
+      "article": "聶永真",
+      "platform": "threads",
+      "publishDate": "2026-05-08",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
     {
       "n": 65,
       "article": "寶島聯播網訪談（自述版）",
