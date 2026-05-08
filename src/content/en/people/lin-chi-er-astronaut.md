@@ -28,9 +28,6 @@ sourceBodyHash: 'sha256:aa4af14eaa7e0735'
 translatedAt: '2026-04-30T22:50:13+08:00'
 ---
 
-![Lin Chi-er in a white NASA Extravehicular Mobility Unit (EMU), wearing helmet, gloves, and life support backpack, official portrait taken from a low angle](/article-images/people/lindgren-emu-2014.jpg)
-_Official portrait of Lin Chi-er (Kjell Lindgren) wearing the Extravehicular Mobility Unit at NASA's Johnson Space Center on August 27, 2014. Photo: NASA/Bill Stafford. [Public domain via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kjell_Lindgren_in_EMU_(cropped).jpg).\_
-
 > **30-second overview:** Kjell N. Lindgren was born in Taipei on January 23, 1973. His father was a U.S. Air Force officer stationed at Ching Chuan Kang Air Base in Taichung; his mother, Zhang Chuyun, was born in Wuhan and came to Taiwan as a child with the Nationalist government. He left Taiwan at age two and a half, spending his childhood in England and Virginia. After graduating from the Air Force Academy, a misdiagnosis of asthma during flight training ended his pilot ambitions. He pivoted to medicine, and eleven years later a NASA physical reversed the diagnosis. In 2009, he was selected as one of nine astronauts from 3,565 applicants in NASA's 20th class. He grew red romaine lettuce on the Space Station, played a plastic bagpipe inside the module in tribute to a fallen friend, and commanded SpaceX Crew-4 "Freedom," accumulating 312 days 5 hours 11 minutes in orbit. In April 2026, he returned to Taiwan under the "Freedom 250" program and said at the Presidential Office: "My NASA astronaut career began in Taiwan."
 
 ### Mountains to climb
