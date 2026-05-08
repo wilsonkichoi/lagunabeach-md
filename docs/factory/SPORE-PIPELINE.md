@@ -227,11 +227,13 @@ bash scripts/tools/make-spore.sh /people/李洋/ --prod         # 直接打 prod
 
 ### Hook tier 自檢
 
-完整 hierarchy 見 [SPORE-HARVEST-PIPELINE §Hook tier hierarchy](SPORE-HARVEST-PIPELINE.md)。簡述：
+完整 4-tier hierarchy 見 [SPORE-HARVEST-PIPELINE §Hook tier hierarchy](SPORE-HARVEST-PIPELINE.md)。簡述（v3.1，從 9 spore batch 數據進化）：
 
-- Tier 1a 知名度槓桿（已知品牌/人物 + 當下事件）→ d+0 6h >10K
-- Tier 1b 具體性槓桿（具體人物 + 具體畫面 + 具體矛盾）→ d+0 6h 5K-50K
-- Tier 3 意境型 → d+0 6h <500（**禁用**）
+- Tier 1a 知名度槓桿 → D+7 100K-180K viral
+- Tier 1b 具體性槓桿（**具體 anchor + 反差 hook**，不限人物題材）→ D+7 10K-65K
+- 中段 結構性題目（政治/制度 + 問題入口）→ D+7 2K-17K
+- 低段 文化人物 / 冷門 → D+7 0.5K-1.5K（接受 niche reach 但 engagement rate ≥ 10%）
+- ~~Tier 3 意境型~~ — 已 deprecated（時空 framing 先行 → d+0 6h <500，永遠不該用）
 
 ### 品檢清單（12 項）
 

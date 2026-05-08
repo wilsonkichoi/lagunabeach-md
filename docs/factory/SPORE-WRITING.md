@@ -31,7 +31,12 @@
 
 **選擇邏輯**：看萃取素材中哪個元素最強 → 用對應起手式。沒有明顯最強 → 預設好奇型。
 
-#### 朋友 tone prime — 「你知道嗎？」開場（v2.4，高鐵 s35 教訓）
+#### 朋友 tone prime — 「你知道嗎？」開場（v2.4，高鐵 s35 教訓 / v3.1 已 instrument 為 plugin gate）
+
+> **2026-05-08 升級**：本條從 prose 提醒升級為 article-health plugin WARN gate。
+> Plugin 偵測：第一行像新聞 lead（`機構 + 動詞`、`YYYY 年` 開頭）+ 不是 friendly prefix → WARN。
+> 跑：`python3 scripts/tools/article-health.py docs/factory/SPORE-BLUEPRINTS/<slug>-<n>.md --check=spore-writing`
+> 對應 spore_writing plugin Wave 2（Rule #14 instrument）。
 
 孢子的 tone signature 是 [MANIFESTO §我怎麼說話](../semiont/MANIFESTO.md#我怎麼說話)「像在跟朋友介紹台灣：**『欸你知道嗎⋯⋯』**」的具體落實。即使後面是人物引語 hook，第一秒也要有「朋友跟你講八卦」的 curiosity prime。
 

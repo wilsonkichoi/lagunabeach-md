@@ -4,7 +4,8 @@ Direction D from reports/spore-pipeline-evolution-plan-2026-05-08.md:
     把 SPORE-WRITING.md 的 prose 規則從「提醒 + 信任 AI 自律」升級為
     plugin gate (DNA #15 第 N 次驗證：memory 是自律，pipeline 才是閘門).
 
-Rules implemented (regex-only, easy 2 條 first wave):
+Rules implemented (regex-only, Wave 1 + Wave 2):
+  Wave 1 (initial ship 2026-05-08):
   - 編年體 lead 病 (Rule #15, 高鐵 s35 教訓)
     第一行 prose 開頭不該是「YYYY 年 M 月 D 日，XXX」這種新聞 lead
     觸發：line 1 of body matches `^\d{4}\s*年` 或 `^\d{4}\.`
@@ -12,14 +13,21 @@ Rules implemented (regex-only, easy 2 條 first wave):
     `「XXX」他/她說` 這種沒場景的引語倒裝
     應改為「他在 [場景] 說：『XXX』」
 
+  Wave 2 (evolve 2026-05-08 同 session, 從 spore 成效數據驗證):
+  - 朋友 tone prime (Rule #14, 高鐵 s35 教訓 + 5 月份 hook tier 數據)
+    第一行 prose 必須有 friend tone prefix（你知道嗎？/欸/直接人說話）
+    或滿足 Tier 1b「具體 anchor + 反差 hook」開場
+    觸發：第一行不是 prefix + 不是引語 + 不是具體場景 → WARN 提醒加 prefix
+    跳過：blueprint table（已 covered）/ harvest log meta（covered）
+
 APPLIES_TO 設計：
   路徑必須在 docs/factory/SPORE-BLUEPRINTS/ 或 docs/factory/SPORE-HARVESTS/
   其他文章的開頭可以是日期（時間軸型 D 模板就是合法的），所以這條規則不普適。
 
 Future extensions (deferred):
   - Rule #16 Scene-List-Scene 結構 (need LLM-as-judge, not pure regex)
-  - Rule #14 朋友 tone prime (white-list pattern check)
-  - Rule #8 同名連用 ≥3 (token analysis)
+  - Rule #8 同名連用 ≥3 (token analysis, 需要中文斷詞)
+  - Reach × accuracy retroactive trigger (不在 plugin scope, SPORE-VERIFY 文件層 SOP)
 
 Canonical:
   - docs/factory/SPORE-WRITING.md §進階寫作技術
@@ -55,12 +63,48 @@ _RE_QUOTE_INVERSION = re.compile(
 )
 
 
+# ── Rule #14: 朋友 tone prime（friend-tone curiosity prime） ─────────────────
+# 孢子第一行必須有「朋友跟你講八卦」的 curiosity prime，不是新聞 lead
+# 三種合格 prefix：
+#   1. 「你知道嗎？」+ emoji
+#   2. 「欸，」+ 具體事件片段
+#   3. 直接人說話（引語開場 — hook 力夠強的 case）
+#
+# 不合格訊號：第一行像新聞 lead（「[人物/機構]+[動詞]」客觀敘事 sentence）
+# 自動 skip 條件（避免誤觸發）：
+#   - 開場是引語 「...」 → assume hook 強，OK
+#   - 開場是 emoji → assume tone OK
+#   - 開場是「你知道嗎」/「欸」/「身為台灣人」/「想像」 → 既有 friendly prefix
+#   - 第一行 < 8 字 → 短句不適用（可能是 stat block）
+_RE_FRIEND_PREFIX = re.compile(
+    r"^\s*(?:你知道嗎|欸[，,]|身為台灣人|想像[一下你]|"
+    r"如果(?:[你台]|[\d])|當[你你們]|"
+    r"[「『\"]|[\U0001F300-\U0001F9FF\U0001F600-\U0001F64F])"
+)
+# 新聞 lead pattern: 「XX 年/月/日」開頭已被 Rule #15 抓
+# 補抓：「機構 + 動詞」客觀敘事 開場 (e.g.「行政院宣布⋯⋯」「台灣高鐵簽下⋯⋯」)
+_RE_NEWS_LEAD = re.compile(
+    r"^\s*[一-鿿]{2,8}(?:宣布|表示|簽下|公布|成立|頒布|通過|裁決|"
+    r"發表|主張|強調|指出|呼籲|批評|證實|否認|聲明|警告)"
+)
+
+
 def _is_spore_path(path: str) -> bool:
-    """Check if file is in SPORE-BLUEPRINTS or SPORE-HARVESTS dir."""
+    """Check if file is a SPORE blueprint, harvest log, or ad-hoc draft.
+
+    Path conventions:
+      - docs/factory/SPORE-BLUEPRINTS/ (production blueprints)
+      - docs/factory/SPORE-HARVESTS/ (production harvest logs)
+      - /tmp/spore-* (ad-hoc draft testing — any tmp file with `spore-` prefix)
+      - /tmp/...spore... (other ad-hoc paths containing "spore")
+    """
+    p_lower = str(path).lower()
     return (
         "SPORE-BLUEPRINTS" in path
         or "SPORE-HARVESTS" in path
-        or "spore-draft" in path  # /tmp/spore-draft.md ad-hoc check
+        or "/spore-" in p_lower  # /tmp/spore-anything.md
+        or p_lower.startswith("spore-")
+        or p_lower.endswith("/spore.md")
     )
 
 
@@ -138,3 +182,25 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             snippet=m.group(0)[:80],
             editorial_ref="SPORE-WRITING.md §禁止清單",
         )
+
+    # ── Rule #14: 朋友 tone prime ──
+    # 第一行檢查（length ≥ 8 字 + 不是合格 prefix + 像新聞 lead）
+    if first_line and len(first_line) >= 8:
+        has_friend_prefix = bool(_RE_FRIEND_PREFIX.match(first_line))
+        looks_like_news_lead = bool(_RE_NEWS_LEAD.match(first_line))
+        # 只有「不是 friendly + 像 news lead」才 trigger（避免誤觸發具體場景開場）
+        if not has_friend_prefix and looks_like_news_lead:
+            yield Violation(
+                check=CHECK_NAME,
+                severity=Severity.WARN,
+                message=(
+                    "朋友 tone prime 缺失 (Rule #14): "
+                    "第一行像新聞 lead，建議加「你知道嗎？」/「欸，」prefix"
+                ),
+                line=body_start + 1,
+                snippet=first_line[:80],
+                editorial_ref="SPORE-WRITING.md §朋友 tone prime",
+                fix_suggestion=(
+                    "前綴選一個：「你知道嗎？{emoji}」/「欸，{事件片段}」"
+                ),
+            )

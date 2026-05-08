@@ -23,6 +23,7 @@
 | 事實查核表          | VERIFY     | 所有 spore      | 7 類 claim audit（日期/數字/引語等）       | 不放 prose   | 必跑     |
 | §11 書寫節制        | VERIFY     | 所有 spore      | `article-health.py --check=prose-health`   | 改寫         | 必跑     |
 | spore-writing 規則  | VERIFY     | 所有 spore      | `article-health.py --check=spore-writing`  | 改寫         | 必跑     |
+| Reach × accuracy    | HARVEST    | views ≥ 50K     | spawn FACTCHECK Quick Mode 驗 3-5 atom     | 修原文       | 條件     |
 | URL encode          | SHIP       | 所有 spore      | `python3 -c "urllib.parse.quote..."`       | 重 encode    | 必跑     |
 | 配圖                | SHIP       | 所有 spore      | `bash scripts/tools/make-spore.sh`         | —            | 必跑     |
 | 品檢清單            | SHIP       | 所有 spore      | 12 項 manual checklist                     | 修補         | 必跑     |
@@ -517,6 +518,45 @@ python3 scripts/tools/article-health.py /tmp/spore-draft.md --check=prose-health
 ### 哲學 canonical
 
 [MANIFESTO §11 書寫節制](../semiont/MANIFESTO.md#11-書寫節制跨所有書寫層的兩條-ai-水印紀律) — 三題判準 + 不是 X 是 Y 對位句型 + 破折號密度。
+
+---
+
+## Reach × accuracy retroactive trigger（v3.1，2026-05-08 evolve）
+
+> 從 LESSONS-INBOX 2026-04-28 ι 升 canonical（verification_count = 3 達 distill 閾值）。
+
+### 為什麼
+
+**Reach 越大，事實 audit pressure 越大**。實戰驗證：
+
+- #29 李洋 D+0 180K viral → 19 hr 勘誤 marathon（讀者抓 4 處事實錯）
+- #45 壞特 D+2 65K → 留言質疑「兩階段醫師國考」→ 修原文 9 處
+- #49 林琪兒 D+0 spore 寫 prep 抓 article「USAFA 大三」hallucination → 修原文 5 處 + 補 [^32]
+
+**Reach 量級越過 ~50K Threads / ~10K X 後**，事實 audit attention 從 author 內部 quality gate 移到讀者 distributed audit。讀者 5 秒就會比對維基。
+
+### 觸發條件
+
+任一即觸發：
+
+- D+1 / D+3 / D+7 harvest 抓到任一平台 views ≥ 50K Threads（或 ≥ 10K X）
+- 讀者留言出現「事實質疑」dimension（per [SPORE-HARVEST-PIPELINE Step 2 §dimension](SPORE-HARVEST-PIPELINE.md)）
+
+### 動作
+
+1. **spawn FACTCHECK Quick Mode**（per [docs/pipelines/FACTCHECK-PIPELINE.md](../pipelines/FACTCHECK-PIPELINE.md)）
+2. 驗證原文最容易被質疑的 3-5 個 atom（特別是專業領域 claim：醫療 / 法律 / 科技 / 歷史精確日期）
+3. 抓到 article hallucination → 修原文 + 補 source URL
+4. 同步反向 audit spore 自身（spore 篇幅壓縮可能引入新錯誤）
+5. 結果 append 到 LESSONS-INBOX + 對應 SPORE-HARVESTS log
+
+### 為什麼這條 retroactive trigger 必要
+
+- spore reach 通過 50K 後，**留言區事實質疑出現的機率顯著提升**（statistical pattern）
+- 跟 spore stage VERIFY gate 互補：VERIFY 是 author 內部 attention；retroactive 是 reader distributed audit 的對應 SOP
+- spore stage 反向 audit article 是 stable second-pass mechanism — spore 寫到具體 fact 時自然觸發 article source 查驗
+
+對應 [LESSONS-INBOX 2026-04-28 ι § Reach × accuracy tradeoff](../semiont/LESSONS-INBOX.md) verification_count = 3 升 canonical。
 
 ---
 
