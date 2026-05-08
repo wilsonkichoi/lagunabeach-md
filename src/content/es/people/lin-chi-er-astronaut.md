@@ -16,15 +16,16 @@ tags:
 readingTime: '14'
 lastVerified: '2026-04-28'
 lastHumanReview: 'false'
+image: '/article-images/people/lindgren-emu-2014.jpg'
+imageCredit: 'NASA/Bill Stafford'
+imageLicense: 'Public domain (NASA)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Kjell_Lindgren_in_EMU_(cropped).jpg'
 translatedFrom: 'People/林琪兒.md'
 sourceCommitSha: '616cbd07'
 sourceContentHash: 'sha256:1fc5f820aa4a31fd'
 sourceBodyHash: 'sha256:aa4af14eaa7e0735'
 translatedAt: '2026-05-01T20:54:23+08:00'
 ---
-
-![Kjell Lindgren con el traje de actividad extravehicular (EMU) blanco de la NASA, con casco, guantes y mochila de soporte vital, retrato oficial tomado en ángulo elevado](/article-images/people/lindgren-emu-2014.jpg)
-_27 de agosto de 2014. Retrato oficial de Lindgren con el traje de movilidad extravehicular (Extravehicular Mobility Unit) en el Centro Espacial Johnson de la NASA. Foto: NASA/Bill Stafford. [Dominio público vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kjell_Lindgren_in_EMU_(cropped).jpg).\_
 
 > **Panorama en 30 segundos:** Kjell N. Lindgren nació en Taipéi en 1973. Su padre era un oficial de la Fuerza Aérea estadounidense estacionado en Ching Chuan Kang, Taichung, y su madre, Zhang Chuyun, de origen en Wuhan, emigró a Taiwán de niña con el gobierno. Partió de Taiwán a los dos años y medio y pasó su infancia en Inglaterra y Virginia. Tras graduarse en la Academia de la Fuerza Aérea, un diagnóstico erróneo de asma durante el entrenamiento de piloto lo desvió de su sueño de volar; se reorientó hacia la medicina. Once años después, un nuevo examen médico en la NASA revocó el diagnóstico. En 2009 fue seleccionado entre 3.565 candidatos como uno de los nueve astronautas de la vigésima promoción. En la estación espacial cultivó lechuga romana roja, tocó una gaita de plástico en el interior del módulo para honrar a un amigo fallecido y fue comandante de la misión SpaceX Crew-4 "Freedom". Acumuló 312 días 5 horas 11 minutos en órbita. En abril de 2026 regresó a Taiwán con la misión "Freedom 250" y dijo en el Palacio Presidencial: "Mi carrera como astronauta de la NASA comenzó en Taiwán."
 

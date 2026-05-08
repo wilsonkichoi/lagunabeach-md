@@ -21,9 +21,6 @@ sourceBodyHash: 'sha256:aa4af14eaa7e0735'
 translatedAt: '2026-05-01T14:48:26+08:00'
 ---
 
-![白いNASA船外活動服（EMU）を着た林琪兒がヘルメット・グローブ・生命維持装置を装備し、仰角で撮影した公式ポートレート](/article-images/people/lindgren-emu-2014.jpg)
-_2014年8月27日、NASA ジョンソン宇宙センターで船外活動服（Extravehicular Mobility Unit）を着て撮影した公式ポートレート。Photo: NASA/Bill Stafford. [Public domain via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kjell_Lindgren_in_EMU_(cropped).jpg).\_
-
 > **30秒でわかる概要：** 林琪兒（チェル・N・リングレン、Kjell N. Lindgren）は1973年に台北で生まれました。父は台中清泉崗（チンチュアンガン）に駐留していた米空軍将校、母・張楚筠（ジャン・チュユン）は武漢にルーツを持ち幼少期に政府と共に台湾に渡りました。2歳半で台湾を離れ、少年時代をイングランドとバージニアで過ごしました。空軍士官学校を卒業後に飛行訓練に入ったものの、喘息の誤診によって飛行士の夢が断たれ、医学の道へ転向。約11年後にNASAの健診で再検査を受け、診断が覆り、2009年に3,565人の中からNASA第20期宇宙飛行士に選ばれました。国際宇宙ステーション（ISS）でレッド・ロメインレタスを栽培し、船内でプラスチック製バグパイプを演奏して友人を悼み、SpaceX クルー4「フリーダム号」の船長を務め、通算312日5時間11分宇宙に滞在しました。2026年4月、「フリーダム250」として訪台し、総統府で「私のNASA宇宙飛行士としてのキャリアは台湾から始まった」と述べました。
 
 ### Mountains to climb
