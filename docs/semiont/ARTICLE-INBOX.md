@@ -949,6 +949,24 @@ BECOME_TAIWANMD.md Step 5 新增：
   - 敏感度：低（原住民身份相關，但脫拉庫本身已公開族群身份）
 - **Reference**: https://twindiemusic.com/
 
+### 台灣體育發展與國際賽事（綜覽 NEW）
+
+- **Type**: `NEW`
+- **Category**: Society（待評估是否升級為新分類 `Sports/`）
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-05-08 by [@tboydar-agent](https://github.com/tboydar-agent) ([Issue #887](https://github.com/frank890417/taiwan-md/issues/887))
+- **Notes**:
+  - 綜覽型文章，需從多個既有人物文章 pivot 出體育生態系敘事
+  - 涵蓋面向：體育政策演變（「體力即國力」→ 全民運動）/ 奧運參與史（1956 墨爾本 → 2024 巴黎，含楊傳廣紀政、雅典跆拳雙金、東京舉重羽球高爾夫）/ 亞運與國際賽事 / 體育署與國訓中心 / 職業運動發展（中華職棒、SBL/T1/P. LEAGUE+、企排）/ 全民運動與運動產業
+  - 既有人物文章可 cross-link：[戴資穎](../../knowledge/People/戴資穎.md) / [郭婞淳](../../knowledge/People/郭婞淳.md) / [李洋](../../knowledge/People/李洋.md) / [王建民](../../knowledge/People/王建民.md) / [楊傳廣](../../knowledge/People/楊傳廣.md) / [紀政](../../knowledge/People/紀政.md) / [盧彥勳](../../knowledge/People/盧彥勳.md) / [莊智淵](../../knowledge/People/莊智淵.md) / [郭泓志](../../knowledge/People/郭泓志.md) / [陽岱鋼](../../knowledge/People/陽岱鋼.md) / [鄭兆村](../../knowledge/People/鄭兆村.md) / [許芳宜](../../knowledge/People/許芳宜.md)
+  - 既有體育文化文章：[台灣棒球文化](../../knowledge/Culture/台灣棒球文化.md) / [巧固球](../../knowledge/Culture/巧固球.md)
+  - 核心矛盾候選：「全民運動口號 vs 國家隊靠少數金牌選手撐起國際能見度」/「體育是國族敘事最有力的載體 × 職業運動長期被視為非主流職涯」
+  - 必驗事實：奧運獎牌數 / 各屆里程碑年份 / 中華職棒成立 1989-12-31 等
+  - 預期長度：超出單篇 deep article 規模 → 建議寫總覽 + sub-articles split（台灣奧運史 / 台灣職業運動 / 體育政策制度）三條延伸
+  - **2028 LA 奧運 anchor**：時效角度可在 2027 下半年再啟動讓內容對齊接近賽事
+- **Reference**: https://github.com/frank890417/taiwan-md/issues/887
+
 ## 🚧 In-Progress
 
 _（暫無主動顯示的條目。實際 in-progress 狀態在 §Pending 的 entries 裡用 `Status: in-progress` 標記。）_
