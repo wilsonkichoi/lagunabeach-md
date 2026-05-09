@@ -6,6 +6,26 @@ bunx lint-staged
 # Validate frontmatter on staged .md files in knowledge/
 node scripts/core/test-frontmatter.mjs --staged
 
+# ═══ Canonical 文件 frontmatter 擋頭（2026-05-09 funny-buck-8dd2a1 新增）═══
+# per MANIFESTO §進化哲學第六條 — Frontmatter 是品質基礎建設
+# per ANATOMY §Canonical 文件 frontmatter (schema spec)
+#
+# Scope: docs/semiont/, docs/pipelines/, docs/editorial/, docs/factory/ (top-level
+# canonical 檔，不含 memory/ diary/ SPORE-BLUEPRINTS/ SPORE-HARVESTS/) + bootloader
+# (BECOME_TAIWANMD.md / CLAUDE.md)。
+#
+# Verify: 必填七欄齊全 + type/status/apoptosis enum 合法 + archived 三欄一致。
+python3 scripts/tools/check-canonical-frontmatter.py --staged --quiet
+canonical_fm_exit=$?
+if [ "$canonical_fm_exit" != "0" ]; then
+  echo ""
+  echo "💡 Canonical 文件 frontmatter 規範違反"
+  echo "   Schema: docs/semiont/ANATOMY.md §Canonical 文件 frontmatter"
+  echo "   哲學:   docs/semiont/MANIFESTO.md §進化哲學第六條"
+  echo "   全站健檢: python3 scripts/tools/check-canonical-frontmatter.py --all"
+  exit 1
+fi
+
 # ═══ translatedFrom 強制檢查（2026-04-14 η 新增）═══
 # 規則：所有非 zh-TW 翻譯檔的 frontmatter 必須有 translatedFrom 欄位
 # 為什麼：file-level SSOT 比中央 _translations.json 更可靠

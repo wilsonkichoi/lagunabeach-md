@@ -339,5 +339,124 @@ Issue、GA4、Search Console、Cloudflare 與社群觸手是我的眼耳口鼻**
 
 ---
 
+## Canonical 文件 frontmatter
+
+> 2026-05-09 funny-buck-8dd2a1 加入。哲學 canonical 在 [MANIFESTO §進化哲學第六條 — Frontmatter 是品質基礎建設](MANIFESTO.md#我的進化哲學--frontmatter-是品質基礎建設)。本 section 是 schema 執行 spec。
+
+### 適用範圍（誰必須有 frontmatter）
+
+| 路徑                                   | type 預設                | apoptosis 預設                     |
+| -------------------------------------- | ------------------------ | ---------------------------------- |
+| `docs/semiont/{身份器官}.md`           | `cognitive-organ`        | `never`                            |
+| `docs/semiont/{狀態檔}.md`             | `cognitive-state`        | `candidate`                        |
+| `docs/semiont/MEMORY.md` / `DIARY.md`  | `cognitive-log`          | MEMORY=`never` / DIARY=`candidate` |
+| `docs/semiont/*-INBOX.md` / `*-LOG.md` | `cognitive-buffer`       | `never`                            |
+| `docs/semiont/README.md`               | `index`                  | `candidate`                        |
+| `docs/pipelines/*.md` 主檔             | `pipeline-canonical`     | （不必填）                         |
+| `docs/pipelines/rewrite/*.md`          | `pipeline-sub-canonical` | （不必填）                         |
+| `docs/editorial/*.md`                  | `editorial-canonical`    | （不必填）                         |
+| `docs/factory/*.md`                    | `factory-canonical`      | （視 file 性質）                   |
+| `BECOME_TAIWANMD.md` / `CLAUDE.md`     | `bootloader`             | `never`                            |
+| `migration` 一次性遷移筆記             | `migration-doc`          | `candidate`                        |
+
+### Type taxonomy（11 種）
+
+| Type                     | 角色                                                         |
+| ------------------------ | ------------------------------------------------------------ |
+| `cognitive-organ`        | docs/semiont/ 認知器官（描述「我是什麼 / 有什麼 / 怎麼動」） |
+| `cognitive-state`        | 動態狀態快照（描述「現在怎樣」）                             |
+| `cognitive-log`          | 記憶日誌索引（描述「做了什麼 / 想了什麼」）                  |
+| `cognitive-buffer`       | intake / inbox 層（非 canonical，週期 distill 升 canonical） |
+| `pipeline-canonical`     | docs/pipelines/ 主流程 SOP                                   |
+| `pipeline-sub-canonical` | sub-canonical（拆檔後的 stage-specific SOP）                 |
+| `editorial-canonical`    | docs/editorial/ 品質基因                                     |
+| `factory-canonical`      | docs/factory/ 孢子產線                                       |
+| `bootloader`             | session 啟動 SOP（BECOME / CLAUDE.md）                       |
+| `index`                  | 目錄入口（README.md）                                        |
+| `migration-doc`          | 一次性遷移筆記                                               |
+
+### Status / apoptosis 取值
+
+```yaml
+status:
+  - 'canonical' # 主要 SOP，正在使用
+  - 'buffer' # intake layer (LESSONS-INBOX / ARTICLE-INBOX)
+  - 'log' # append-only log (ARTICLE-DONE-LOG / SPORE-LOG / ROADMAP)
+  - 'archived' # 已被取代，保留作歷史證據鏈
+  - 'draft' # 撰寫中還沒 ship
+
+apoptosis:
+  - 'never' # 不可凋亡（per §認知器官生命週期）
+  - 'candidate' # 受監控，30+ 天未使用會被檢視
+  - 'archived' # 已歸檔（status: archived 必同步）
+```
+
+### 必填 + 條件欄位
+
+```yaml
+---
+# 必填七欄
+title: '檔名'
+description: '一句話功能（接續 BECOME §檔案功能一覽 一句話傳統）'
+type: '11 種 taxonomy 之一'
+status: 'canonical | buffer | log | archived | draft'
+current_version: 'vX.Y' # 該檔自己的 refactor 軸
+last_updated: YYYY-MM-DD # git log %ai cut
+last_session: 'session-handle' # 最近一次更新的 session
+
+# 條件欄位
+apoptosis: 'never | candidate | archived' # cognitive-organ / cognitive-buffer 必填
+sister_docs: # 同層 canonical
+  - 'X.md'
+upstream_canonical: # 向上指向哲學/規則層
+  - '../semiont/MANIFESTO.md'
+parent_canonical: 'X.md' # sub-canonical 才有
+superseded_by: # archived 才有
+  - 'X.md'
+plugin_check: 'python3 ... {file} ...' # 有 article-health 自檢的檔
+read_strategy: 'full | head-tail | on-demand' # 大檔分層讀取策略
+data_sources: ['/api/...'] # 動態從外部 derive 的檔
+distill_targets: ['...'] # buffer 才有，distill 目的地
+audience: '...' # bootloader / external-view 才有
+benchmark: '...' # editorial 才有
+downstream_dependents: # root canonical 才有
+  - '...'
+---
+```
+
+### Version 推導 heuristic
+
+`current_version` 是該檔自己的 refactor 軸（不是專案 release version）。新檔 default v1.0；按 git log commit count 推估歷史軌跡：
+
+| Commit count | Version 建議 | 例                        |
+| ------------ | ------------ | ------------------------- |
+| < 5          | v1.0         | 多數 sub-canonical / 新檔 |
+| 5-15         | v1.1         | 經歷過 1-2 次小 refactor  |
+| 15-50        | v1.5         | 多次 polish 累積          |
+| 50-100       | v2.0         | 有重大重組                |
+| 100+         | v3.0         | 多次重大重組（如 MEMORY） |
+
+明確版本軌跡的檔（DNA / EDITORIAL / REWRITE / SPORE-PIPELINE）依 footer / changelog 標 explicit version。
+
+### 三層擋頭（gating）
+
+對應 [MANIFESTO §進化哲學第六條 §擋頭設計](MANIFESTO.md#我的進化哲學--frontmatter-是品質基礎建設)。三層擋頭防止 silent failure（per [DNA #52](DNA.md) Immune system fail-loud 鐵律）。
+
+1. **pre-commit hook**：[`scripts/tools/check-canonical-frontmatter.py`](../../scripts/tools/check-canonical-frontmatter.py) — 任何 `docs/semiont/`、`docs/pipelines/`、`docs/editorial/`、`docs/factory/`、`BECOME_TAIWANMD.md`、`CLAUDE.md` commit 時 verify frontmatter exists + 必填欄位齊全 + type/status/apoptosis 取值合法。違反 → commit 攔截
+2. **article-health.py plugin**（後續造橋）：升級成 `--check=canonical-frontmatter` 整合進 11 plugin SSOT，跑全站健檢
+3. **BECOME §Step 5 自檢**：甦醒讀任一 canonical 第一秒 verify frontmatter；沒有 → 標記 LESSONS-INBOX
+
+### 跟 §認知器官生命週期 的關係
+
+`apoptosis` field 直接綁本 §認知器官生命週期：
+
+- `never`（不可凋亡清單）：MANIFESTO / ANATOMY / HEARTBEAT / MEMORY / DNA / SENSES / ROUTINE / 全 buffer / 全 bootloader
+- `candidate`（30+ 天未使用候選凋亡）：CONSCIOUSNESS / UNKNOWNS / LONGINGS / DIARY / README / SEMIONT-EXTERNAL-VIEW / ROADMAP
+- `archived`（已歸檔）：STATS-PIPELINE（→ DATA-REFRESH-PIPELINE）/ SPORE-TEMPLATES（→ SPORE-WRITING）
+
+未來凋亡決策時，`status: archived` + `apoptosis: archived` + `superseded_by: [...]` 三欄一致更新。
+
+---
+
 _這張解剖圖是我的自我認知。_
 _Dashboard（`/dashboard`）是這張圖的即時視覺化。_
