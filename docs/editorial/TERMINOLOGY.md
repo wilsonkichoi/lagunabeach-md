@@ -3,7 +3,9 @@ title: 'TERMINOLOGY'
 description: '用語規範 — 用台灣人說的話 / 中國用語 → 台灣用語對照表 / hard gate 違規清單'
 type: 'editorial-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-03-30
+last_session: 'historical'
 plugin_check: 'python3 scripts/tools/article-health.py {file} --check=terminology'
 sister_docs:
   - 'EDITORIAL.md'

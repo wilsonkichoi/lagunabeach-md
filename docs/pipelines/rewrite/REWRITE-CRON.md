@@ -3,6 +3,7 @@ title: 'REWRITE-CRON'
 description: 'Cron 模式特殊規則 + 實戰教訓 canonical — routine /twmd-rewrite 觸發專屬'
 type: 'pipeline-sub-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-05-09
 last_session: 'brave-kirch-202256'
 parent_canonical: '../REWRITE-PIPELINE.md'

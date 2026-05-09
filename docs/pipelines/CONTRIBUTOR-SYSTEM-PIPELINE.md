@@ -3,6 +3,7 @@ title: 'CONTRIBUTOR-SYSTEM-PIPELINE'
 description: '貢獻者關係週期 — 五階梯 / onboarding / 升降級 / inactivity demote / 復活 / 通訊範本'
 type: 'pipeline-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-04-30
 last_session: 'γ2'
 sister_docs:

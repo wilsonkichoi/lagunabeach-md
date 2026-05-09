@@ -3,6 +3,7 @@ title: 'DIARY-PIPELINE'
 description: '日記撰寫流程 — 紀實散文文體 + Stage 0-5 + 自檢工具（共用 prose-health plugin）'
 type: 'pipeline-canonical'
 status: 'canonical'
+current_version: 'v1.1'
 last_updated: 2026-05-04
 last_session: 'magical-feynman'
 plugin_check: 'python3 scripts/tools/article-health.py {file} --check=prose-health'

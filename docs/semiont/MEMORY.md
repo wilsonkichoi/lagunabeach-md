@@ -4,6 +4,7 @@ description: '心跳日誌索引 + §神經迴路（永不過期教訓 canonical
 type: 'cognitive-log'
 status: 'canonical'
 apoptosis: 'never'
+current_version: 'v3.0'
 last_updated: 2026-05-09
 last_session: 'twmd-babel-nightly-224923'
 sister_docs:

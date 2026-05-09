@@ -4,6 +4,7 @@ description: '⚠️ Redirect — 內容已合併進 SPORE-WRITING.md（2026-05-
 type: 'factory-canonical'
 status: 'archived'
 apoptosis: 'archived'
+current_version: 'v1.1'
 last_updated: 2026-05-08
 last_session: 'intelligent-khayyam'
 superseded_by:

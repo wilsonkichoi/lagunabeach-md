@@ -3,6 +3,8 @@ title: 'docs/factory/ README'
 description: '孢子工廠入口 — Taiwan.md 社群散播系統 / spore lifecycle 全 canonical'
 type: 'index'
 status: 'canonical'
+apoptosis: 'candidate'
+current_version: 'v1.1'
 last_updated: 2026-05-08
 last_session: 'intelligent-khayyam'
 sister_docs:

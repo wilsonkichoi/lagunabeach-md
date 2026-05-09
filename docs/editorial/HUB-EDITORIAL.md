@@ -3,6 +3,7 @@ title: 'HUB-EDITORIAL'
 description: 'Hub 策展維護標準 — 分類頁面的導讀文體 + 策展觀點規範'
 type: 'editorial-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-05-04
 last_session: 'magical-feynman'
 sister_docs:

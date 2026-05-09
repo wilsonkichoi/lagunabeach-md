@@ -3,6 +3,7 @@ title: 'SPORE-HARVEST-PIPELINE'
 description: '孢子回聲收割產線 — D+1-D+7 cadence + decision gate + retroactive accuracy trigger'
 type: 'factory-canonical'
 status: 'canonical'
+current_version: 'v1.1'
 last_updated: 2026-05-09
 last_session: 'laughing-goldstine'
 sister_docs:

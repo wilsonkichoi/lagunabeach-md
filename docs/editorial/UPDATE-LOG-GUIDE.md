@@ -3,7 +3,9 @@ title: 'UPDATE-LOG-GUIDE'
 description: '更新日誌撰寫原則 — 社群發布前的 changelog 文體 + 不寫教科書腔'
 type: 'editorial-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-03-28
+last_session: 'historical'
 sister_docs:
   - 'EDITORIAL.md'
   - 'TERMINOLOGY.md'

@@ -3,6 +3,7 @@ title: 'REWRITE-MEDIA'
 description: '媒體素材完整生命週期 canonical — 授權矩陣 / aspect ratio 護欄 / fair use editorial scope'
 type: 'pipeline-sub-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-05-09
 last_session: 'brave-kirch-202256'
 parent_canonical: '../REWRITE-PIPELINE.md'

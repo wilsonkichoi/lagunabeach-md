@@ -3,6 +3,7 @@ title: 'MEMORY-PIPELINE'
 description: 'Session memory 撰寫流程 — 凝練版結構模板 + Stage 0-5 + 5 分鐘 reading test 自檢'
 type: 'pipeline-canonical'
 status: 'canonical'
+current_version: 'v1.1'
 last_updated: 2026-05-04
 last_session: 'magical-feynman'
 plugin_check: 'python3 scripts/tools/article-health.py {file} --check=prose-health'

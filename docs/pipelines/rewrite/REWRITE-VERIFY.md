@@ -3,6 +3,7 @@ title: 'REWRITE-VERIFY'
 description: 'Stage 3 / 3.5 / 4 / 5.1 驗證 canonical — 11 hard gate inventory + factcheck quick mode trigger'
 type: 'pipeline-sub-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-05-09
 last_session: 'brave-kirch-202256'
 plugin_check: 'python3 scripts/tools/article-health.py {file} --profile=rewrite-stage-4'

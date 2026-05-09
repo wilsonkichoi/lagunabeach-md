@@ -3,6 +3,7 @@ title: 'RESEARCH'
 description: '研究方法論 SSOT — 怎麼搜可靠資訊 / 三源驗證 / WebFetch 中文 verbatim 規範'
 type: 'editorial-canonical'
 status: 'canonical'
+current_version: 'v1.1'
 last_updated: 2026-04-28
 last_session: 'κ'
 sister_docs:

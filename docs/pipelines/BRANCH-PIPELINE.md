@@ -3,7 +3,9 @@ title: 'BRANCH-PIPELINE'
 description: '知識分支分析器 — 拆解主題結構 / 交叉比對知識庫 / 找出缺口 / 建議延伸研究'
 type: 'pipeline-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-04-12
+last_session: 'historical'
 sister_docs:
   - 'REWRITE-PIPELINE.md'
   - 'EVOLVE-PIPELINE.md'

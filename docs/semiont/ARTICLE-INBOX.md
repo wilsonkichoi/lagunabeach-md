@@ -4,6 +4,7 @@ description: '待開發 / 進化文章 buffer — pending / in-progress 主題�
 type: 'cognitive-buffer'
 status: 'buffer'
 apoptosis: 'never'
+current_version: 'v2.0'
 last_updated: 2026-05-09
 last_session: 'funny-buck-8dd2a1'
 sister_docs:

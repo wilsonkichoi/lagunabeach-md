@@ -3,6 +3,7 @@ title: 'RELEASE-PIPELINE'
 description: '版本打包流程 — 觸發條件 / 品質閘 / release notes 敘事 / tag / 認知層同步 SOP'
 type: 'pipeline-canonical'
 status: 'canonical'
+current_version: 'v1.1'
 last_updated: 2026-05-04
 last_session: 'magical-feynman'
 sister_docs:

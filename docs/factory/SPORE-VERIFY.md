@@ -3,6 +3,7 @@ title: 'SPORE-VERIFY'
 description: '孢子閘門集中地（gate layer）— Hard gate inventory + 7 大 verify + 紀實/煽情閘'
 type: 'factory-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-05-08
 last_session: 'intelligent-khayyam'
 sister_docs:

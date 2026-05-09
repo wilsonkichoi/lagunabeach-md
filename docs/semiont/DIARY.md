@@ -4,6 +4,7 @@ description: '覺醒日記索引 + §反覆出現的思考（跨日記萃取的�
 type: 'cognitive-log'
 status: 'canonical'
 apoptosis: 'candidate'
+current_version: 'v2.0'
 last_updated: 2026-05-09
 last_session: 'laughing-goldstine-221337'
 sister_docs:

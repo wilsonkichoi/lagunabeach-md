@@ -2,6 +2,7 @@
 title: 'EDITORIAL'
 description: '怎麼把素材寫成一篇有溫度的台灣文章'
 type: 'pipeline-canonical'
+status: 'canonical'
 current_version: 'v6.2'
 last_updated: 2026-05-09
 last_session: 'BRAVE-KIRCH-EDITORIAL-2'

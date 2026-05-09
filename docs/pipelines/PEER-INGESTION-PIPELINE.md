@@ -3,6 +3,7 @@ title: 'PEER-INGESTION-PIPELINE'
 description: '策展 peer 完整 ingestion 流程 — 8 stage（從爬取到文章產製到 Peer Registry 同步）'
 type: 'pipeline-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-04-12
 last_session: 'ζ+'
 sister_docs:
