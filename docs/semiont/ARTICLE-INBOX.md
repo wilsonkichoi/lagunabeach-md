@@ -1,3 +1,22 @@
+---
+title: 'ARTICLE-INBOX'
+description: '待開發 / 進化文章 buffer — pending / in-progress 主題，auto-heartbeat 從此挑 P0/P1'
+type: 'cognitive-buffer'
+status: 'buffer'
+apoptosis: 'never'
+last_updated: 2026-05-09
+last_session: 'funny-buck-8dd2a1'
+sister_docs:
+  - 'ARTICLE-DONE-LOG.md'
+  - 'LESSONS-INBOX.md'
+upstream_canonical:
+  - '../pipelines/REWRITE-PIPELINE.md'
+  - 'HEARTBEAT.md'
+distill_targets:
+  - 'knowledge/* (新文章 or 改寫進化)'
+  - 'ARTICLE-DONE-LOG.md (Stage 6 ship 後 entry append)'
+---
+
 # ARTICLE-INBOX — 待開發文章 Buffer
 
 > **這是 buffer / intake layer 層**（非 canonical）。
