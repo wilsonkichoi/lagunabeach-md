@@ -4,6 +4,7 @@ description: '孢子發文紀錄 buffer — 已發布列表 + 成效追蹤 + 月
 type: 'factory-canonical'
 status: 'log'
 apoptosis: 'never'
+current_version: 'v2.0'
 last_updated: 2026-05-09
 last_session: 'laughing-goldstine'
 sister_docs:

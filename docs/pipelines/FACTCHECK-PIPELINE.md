@@ -3,6 +3,7 @@ title: 'FACTCHECK-PIPELINE'
 description: '事實查核方法論 SSOT — Phase 1-6 / 8 atom 類 / 11 hallucination pattern / 6 drift modes / Quick + Full mode'
 type: 'pipeline-canonical'
 status: 'canonical'
+current_version: 'v1.1'
 last_updated: 2026-05-04
 last_session: 'magical-feynman'
 sister_docs:

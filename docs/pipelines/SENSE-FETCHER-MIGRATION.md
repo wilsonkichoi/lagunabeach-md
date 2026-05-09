@@ -3,7 +3,9 @@ title: 'SENSE-FETCHER-MIGRATION'
 description: '三源感知系統跨機器遷移指南 — fetch-sense-data + launchd/cron + credentials 搬遷 SOP'
 type: 'migration-doc'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-04-11
+last_session: 'historical'
 sister_docs:
   - 'SENSE-FETCHER-SETUP.md'
 upstream_canonical:

@@ -3,7 +3,9 @@ title: 'DASHBOARD-PIPELINE'
 description: '數位生命體監測面板更新流程 — 8 器官健康分數計算 + dashboard JSON 生成 SOP'
 type: 'pipeline-canonical'
 status: 'canonical'
+current_version: 'v1.1'
 last_updated: 2026-04-10
+last_session: 'historical'
 sister_docs:
   - 'DATA-REFRESH-PIPELINE.md'
   - 'STATS-PIPELINE.md'

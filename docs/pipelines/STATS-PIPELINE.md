@@ -4,6 +4,7 @@ description: '⚠️ Replaced by DATA-REFRESH-PIPELINE Step 9（2026-05-08 SSOT 
 type: 'pipeline-canonical'
 status: 'archived'
 apoptosis: 'archived'
+current_version: 'v1.0'
 last_updated: 2026-05-09
 last_session: 'laughing-goldstine-post-finale'
 superseded_by:

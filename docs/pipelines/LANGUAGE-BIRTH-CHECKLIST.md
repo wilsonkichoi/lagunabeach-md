@@ -3,6 +3,7 @@ title: 'LANGUAGE-BIRTH-CHECKLIST'
 description: '新語言誕生清單 — UI / 頁面 / Hub / 文章 四層完整啟用 SOP（避免「宣稱完成但半完成」）'
 type: 'pipeline-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-04-08
 last_session: 'γ'
 sister_docs:

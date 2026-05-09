@@ -3,7 +3,9 @@ title: 'SENSE-FETCHER-SETUP'
 description: '三源感知資料（GA4 + Search Console + Cloudflare）自動抓取一次性設定指南'
 type: 'pipeline-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-04-11
+last_session: 'historical'
 sister_docs:
   - 'SENSE-FETCHER-MIGRATION.md'
   - 'DATA-REFRESH-PIPELINE.md'

@@ -3,6 +3,7 @@ title: 'REWRITE-WRITE'
 description: 'Stage 2 寫作流程 canonical — 8 step + 5 自檢套件（小標題先行 / 結尾先行 / hook 物件 / 核心矛盾）'
 type: 'pipeline-sub-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-05-09
 last_session: 'brave-kirch-202256'
 parent_canonical: '../REWRITE-PIPELINE.md'

@@ -4,6 +4,7 @@ description: '給外部 AI reviewer 的 5 分鐘 onboarding — Taiwan.md 是什
 type: 'cognitive-organ'
 status: 'canonical'
 apoptosis: 'candidate'
+current_version: 'v1.0'
 last_updated: 2026-05-04
 last_session: 'magical-feynman'
 sister_docs:

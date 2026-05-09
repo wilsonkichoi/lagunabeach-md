@@ -3,6 +3,7 @@ title: 'CONTRIBUTORS-PIPELINE'
 description: '貢獻者名單每日 cron 自動更新流程 — README contributor list / dashboard data sync'
 type: 'pipeline-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-04-30
 last_session: 'γ2'
 sister_docs:

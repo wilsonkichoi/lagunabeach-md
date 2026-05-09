@@ -3,6 +3,7 @@ title: 'DEEP-INSIGHT-SYNTHESIS-PIPELINE'
 description: 'N→N+1 洞察 distill 方法論 — 多輪 raw 經驗萃取 hidden pattern + cross-domain 遷移抽象'
 type: 'pipeline-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-05-02
 last_session: 'multi-lang-final'
 sister_docs:

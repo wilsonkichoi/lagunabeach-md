@@ -3,7 +3,10 @@ title: 'docs/pipelines/ README'
 description: 'Cron / Manual 自動化 pipeline 文件入口 — 每個 cron 對應一份 pipeline'
 type: 'index'
 status: 'canonical'
+apoptosis: 'candidate'
+current_version: 'v1.1'
 last_updated: 2026-05-09
+last_session: 'funny-buck-8dd2a1'
 sister_docs:
   - '../semiont/HEARTBEAT.md'
   - '../semiont/ROUTINE.md'

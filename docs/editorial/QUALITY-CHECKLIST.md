@@ -3,6 +3,7 @@ title: 'QUALITY-CHECKLIST'
 description: '文章品質驗證清單 — REWRITE-PIPELINE Stage 3 執行手冊'
 type: 'editorial-canonical'
 status: 'canonical'
+current_version: 'v1.1'
 last_updated: 2026-05-09
 last_session: 'laughing-goldstine'
 plugin_check: 'python3 scripts/tools/article-health.py {file} --profile=rewrite-stage-4'

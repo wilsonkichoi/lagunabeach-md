@@ -3,6 +3,7 @@ title: 'REWRITE-RESEARCH'
 description: 'Stage 1 研究流程 canonical — 11 step + 4 hard gate（20+ search / 核心矛盾 / 5 維度交叉 / 事實鐵三角）'
 type: 'pipeline-sub-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-05-09
 last_session: 'brave-kirch-202256'
 parent_canonical: '../REWRITE-PIPELINE.md'

@@ -3,6 +3,7 @@ title: 'MAINTAINER-PIPELINE'
 description: '日常維護者手冊 — Issue 分類、PR 審核策略、品質巡檢、社群互動、close 前 hard gate'
 type: 'pipeline-canonical'
 status: 'canonical'
+current_version: 'v1.1'
 last_updated: 2026-05-04
 last_session: 'magical-feynman'
 sister_docs:

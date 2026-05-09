@@ -3,6 +3,7 @@ title: 'DATA-REFRESH-PIPELINE'
 description: '資料更新 pipeline — git pull + 三源感知 + prebuild + GitHub stats，Heartbeat Beat 1 前置'
 type: 'pipeline-canonical'
 status: 'canonical'
+current_version: 'v1.1'
 last_updated: 2026-05-09
 last_session: 'laughing-goldstine-post-finale'
 sister_docs:

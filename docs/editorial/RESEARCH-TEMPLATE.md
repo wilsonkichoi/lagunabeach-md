@@ -3,7 +3,9 @@ title: 'RESEARCH-TEMPLATE'
 description: '前期研究筆記模板 — REWRITE-PIPELINE Stage 1 輸出格式 SSOT'
 type: 'editorial-canonical'
 status: 'canonical'
+current_version: 'v1.0'
 last_updated: 2026-03-31
+last_session: 'historical'
 sister_docs:
   - 'RESEARCH.md'
   - 'EDITORIAL.md'
