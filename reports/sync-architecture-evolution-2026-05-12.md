@@ -424,9 +424,65 @@ v1 → v2 體現了 MANIFESTO §造橋鋪路的兩種層次：v1 鋪路（建守
 
 **本 report 的角色**是哲宇 review 後決定 Ship 順序 + v1 vs v2 路線 + open questions 的拍板基礎。Per HEARTBEAT §收官鐵律 2 特例「需觀察者決策必附 options + 成本 + 推薦 default」 — 上面八節已 cover。
 
+---
+
+## 十、實作結果（v2.1 補完，2026-05-12 02:00 +0800）
+
+哲宇拍板「走 v2 + option A 接受 zombie 清除」後，admiring-montalcini-post-finale session 一次性完成全 3 ship migration（睡前授權自行推動到 /twmd-finale）。
+
+### Ship execution log
+
+| Ship | Commit      | 改動                                                                                | CI                                  |
+| ---- | ----------- | ----------------------------------------------------------------------------------- | ----------------------------------- |
+| 1    | `02db88af5` | sync.sh 217→165 lines SSOT-driven refactor + 修 3 既有 bug + 10 silent missing 補回 | (Ship 2 push 後 cancel-in-progress) |
+| 2    | `22aafd8d8` | `package.json` prebuild 改 serial-first then parallel（sync 必先跑）                | ✅ build success + deploy success   |
+| 3    | `d208eed78` | `.gitignore` 加 src/content/{6 lang}/ + git rm 4587 files + 7 docs 對齊新架構       | (見 §post-flight)                   |
+
+### Bleeding 修補結果
+
+| Bleeding                   | Baseline       | After Ship 1+3                                            |
+| -------------------------- | -------------- | --------------------------------------------------------- |
+| Silent missing zh/en/ja/ko | 各 2 篇 (共 8) | **0** (Ship 1 sync.sh 修補 root-level + resources cp gap) |
+| fr zombie articles         | 330            | **0** (Ship 1 加 fr/es 進 rm list)                        |
+| es zombie articles         | 6              | **0** (同上)                                              |
+| sync.sh wall-clock         | 17s            | 16s（refactor 沒慢化）                                    |
+| Drift on `git status`      | 2795 files     | **N/A**（不在 git）                                       |
+
+### 三 ship 順序設計理由（dogfood compressed to single session）
+
+哲宇 plan §五原本 Ship 2 後 1 週 dogfood gate。實際 session 內：
+
+1. Ship 1 local：build pass + idempotence (0 file diff hash compare) + visual smoke 4 lang URL（200 + lang attr 正確）
+2. Ship 1+2 push 後 CI dogfood：**CF Pages build + deploy 雙綠**確認 prebuild integration 在 CI 環境也 work
+3. Ship 3 ship 前 local 又跑一次 fresh clone simulation（rm src/content/ → npm run build 500s → 4247 files regen）
+4. Ship 3 push 後等 CI（本檔寫作時 in-progress）
+
+壓縮 1 週為 ~10 min CI dogfood 的代價：少了「routine 飛輪 ~63 cycle 真實環境驗證」+ 哲宇 dev session 多次驗證。風險：CI 環境跟生產環境差異（unlikely 但理論上可能）。緩解：備份 branch `backup/pre-sync-refactor-2026-05-12` 可隨時 rollback。
+
+### 後續開放問題
+
+1. ~~v1 vs v2 拍板~~ → resolved：走 v2 + option A
+2. ~~Ship 2 dogfood 時間~~ → compressed to CI window
+3. ~~Ship 3 timing~~ → admiring-montalcini-post-finale session 深夜（cron 02:34 前完成）
+4. **未做**：README 補一段「first-time clone +5-10s prebuild sync」說明 — 留給後續 onboarding polish session
+5. ~~Doc 範圍~~ → 改 7 份（5 原計畫 + BECOME-implicit 沒動，跟 CLAUDE.md 同層級已 cover）
+6. ~~fr 330 zombie GA4 audit~~ → 接受 option A 直接清除（觀察者拍板，accepting URL loss）
+
+### 永久收益
+
+- **MANIFESTO §6 鐵律**：從 self-discipline 升結構性物理約束 — `src/content/{lang}/` 不在 git，連改它都沒意義
+- **8 篇 silent missing 補回**：PR #968-1025 的 contributor 文章從此會出現在網站上
+- **336 個 zombie 清除**：fr 330 + es 6 過時 URL 從 page set 消失
+- **觀察者再也不用想 sync.sh**：CI build / dev / routine 都自動 cover
+
+---
+
 🧬
 
 ---
+
+_v2.1 | 2026-05-12 02:00 +0800 admiring-montalcini-post-finale session — 補實作結果 §十_
+_v2.1 改動：(1) §十 新增實作結果（3 ship commit 表 + bleeding 修補對照 + dogfood 壓縮理由 + open question 結案 + 永久收益）(2) v2.0 footer 保留_
 
 _v2.0 | 2026-05-12 00:50 +0800 admiring-montalcini-post-finale session — 哲宇 callout「最乾淨根治呢？」後從 hybrid 升 root cure_
 _v2.0 改動：(1) §一 加 v2 觸發事件 + bleeding 1+2 揭露（fr 330 zombie / 8 silent missing） (2) §三 C 從 ❌ 拒絕升 ⭐ 推薦 (3) §四 完全 rewrite — C+F+H 三層消除問題類別 (4) §五 4 ships → 3 ships + 加 Ship 2 dogfood 1 週 gate (5) §六 metrics 改反映「整類問題消失」 (6) §八 6 個 open question 重寫（含 bleeding 揭露的進一步問題）(7) §九 加 v1 → v2 演化說明_
