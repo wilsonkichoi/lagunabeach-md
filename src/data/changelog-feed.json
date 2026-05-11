@@ -1,7 +1,109 @@
 {
-  "generatedAt": "2026-05-11T15:08:29.399Z",
+  "generatedAt": "2026-05-11T22:11:31.673Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "2fef2157c6b5b47d84fe596ff3a3f13cf66b349e",
+      "date": "2026-05-12T05:10:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-pm: 0 PR backlog + #912 first-reply + sweep PASS — 2026-05-12 05:08"
+    },
+    {
+      "hash": "bca508056255ded77e9db7898049b5401055eb5e",
+      "date": "2026-05-12T02:00:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory + diary: 2026-05-12-015230-src-content-migration — sync.sh 沒儀器化 → C+F+H 最根治 3 ship 一氣完成"
+    },
+    {
+      "hash": "f23106669590b39a195a3e350743b84a58c995e8",
+      "date": "2026-05-12T01:51:24+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: sync architecture evolution report v2.0 → v2.1 — 補 §十 實作結果"
+    },
+    {
+      "hash": "d208eed78817a68d51bddd355cc5d2fe16035c28",
+      "date": "2026-05-12T01:49:38+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: Ship 3 — gitignore src/content/{lang}/ + 6 docs 對齊新架構"
+    },
+    {
+      "hash": "22aafd8d81b98a7281265b175e2fd9ac08dea050",
+      "date": "2026-05-12T01:21:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: Ship 2 — sync.sh 接進 npm prebuild (serial-first then parallel)"
+    },
+    {
+      "hash": "02db88af5500b110191779b496a53594f7f2e5bb",
+      "date": "2026-05-12T01:19:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: Ship 1 — sync.sh refactor (217→165 lines) + silent missing recovery 10 files"
+    },
+    {
+      "hash": "0134c0e9300c947d6412a19257a74f4c4cf5acca",
+      "date": "2026-05-12T00:57:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: sync.sh report v1.0 → v2.0 — C+F+H 最根治升 推薦方案"
+    },
+    {
+      "hash": "222234581c7e9012ba83d1db1da6c604b6a4d22b",
+      "date": "2026-05-12T00:46:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: sync.sh 架構演化策略 report — 8 candidates → 推薦 F+H+B+verify gate 四層儀器化"
+    },
+    {
+      "hash": "f2a2f3eef501c310bd0cf82420a056f6abefce73",
+      "date": "2026-05-12T00:38:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [hygiene] sync 10 missed src/content/ projections — contributor PRs #968 #1005-1009 visibility fix"
+    },
+    {
+      "hash": "20a6bd1c5c9f431c077ef5e43b206ce02b005fc3",
+      "date": "2026-05-12T00:24:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [hygiene] gitignore .claude/worktrees/ — Claude Code worktree 隔離區不入 repo"
+    },
+    {
+      "hash": "21a8e0fc1a691f46fba84af232274c5a948ac54a",
+      "date": "2026-05-12T00:12:16+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] diary: 2026-05-12-000238-admiring-montalcini — SOP 升級的 emergent 路徑 (#1044)"
+    },
+    {
+      "hash": "31ff894eb81be099db1b9c923707d4caee3a61e7",
+      "date": "2026-05-12T00:07:14+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] memory: 2026-05-12-000238-admiring-montalcini finale — 蘋果西打 EVOLVE + REWRITE v6.0 Stage 0 (#1043)"
+    },
+    {
+      "hash": "353445b42ce037d5f73f86e5f6fc8b54d5129701",
+      "date": "2026-05-12T00:00:53+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] evolve: REWRITE-PIPELINE v5.0 → v6.0 — Stage 0 觀點獨立 stage (#1042)"
+    },
+    {
+      "hash": "e10215bc72b2b2dec5dbeb010f7e616acb5f81bd",
+      "date": "2026-05-11T23:48:17+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] rewrite: 蘋果西打 EVOLVE — 60 年完整記憶（10 紅旗事實校正 + 餐桌文化擴展）+ plugin 雙修 (#1041)"
+    },
+    {
+      "hash": "619b60e22a0915815d117d95107830708ebc3e6c",
+      "date": "2026-05-11T23:11:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-11-230916-twmd-data-refresh-pm — v2.0 main-direct first instantiation"
+    },
+    {
+      "hash": "5062e09ba25b8f45850eee08daba4f77c49b8a72",
+      "date": "2026-05-11T23:09:47+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] memory + diary: 2026-05-11-225859-cranky-newton finale — 14 條 pipeline spine pattern instantiation 相變 (#1040)"
+    },
+    {
+      "hash": "51226f511855d7a7a8c2bf14ff28ece03dc93b2a",
+      "date": "2026-05-11T23:08:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-05-11 23:00"
+    },
     {
       "hash": "2b74b9b20c740aa0e393709058e3441cc75911d4",
       "date": "2026-05-11T23:01:06+08:00",

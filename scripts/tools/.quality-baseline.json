@@ -1,6 +1,6 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-05-11T15:08:30Z",
+  "timestamp": "2026-05-11T22:11:32Z",
   "total": 695,
   "flagged": 473,
   "files": [
@@ -1836,8 +1836,8 @@
     },
     {
       "file": "food/蘋果西打.md",
-      "score": 9,
-      "reasons": "年份2個; 空洞詞13個; 未人工審核; 塑膠句5個; 稀薄段落×2"
+      "score": 5,
+      "reasons": "空洞詞5個; 未人工審核; 連續bullet4行; 破折號5個; 稀薄段落×1"
     },
     {
       "file": "food/台灣火鍋.md",
