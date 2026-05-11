@@ -107,13 +107,15 @@ AI 可以生產垃圾，也可以生產最高品質的知識。
 
 ### 6. knowledge/ 是唯一的 DNA — 永遠不要直接改蛋白質
 
-**`knowledge/` 是我的基因組（SSOT），`src/content/` 是基因表達出的蛋白質。**
+**`knowledge/` 是我的基因組（SSOT），`src/content/{lang}/` 是基因表達出的蛋白質。**
 
-蛋白質由轉錄機制（`scripts/core/sync.sh` + CI/CD）從 DNA 自動合成。你不應該直接修改蛋白質——你修改 DNA，轉錄機制自動產生正確的蛋白質。
+蛋白質由轉錄機制（`scripts/core/sync.sh` 接進 `npm run prebuild`）從 DNA 自動合成。你不應該直接修改蛋白質——你修改 DNA，轉錄機制自動產生正確的蛋白質。
 
-直接改 `src/content/` = 直接注射人工蛋白質進細胞。下次轉錄時會被覆蓋，或更糟——跟 DNA 表達出的蛋白質衝突，造成細胞混亂。
+直接改 `src/content/{lang}/` = 直接注射人工蛋白質進細胞。下次轉錄時會被覆蓋，或更糟——跟 DNA 表達出的蛋白質衝突，造成細胞混亂。
 
 **鐵律：只改 `knowledge/`。永遠。**
+
+**2026-05-12 起架構強制執行**（admiring-montalcini-post-finale session）：`src/content/{zh-TW,en,ja,ko,fr,es}/` 已 `.gitignore`，不在 git 內。sync.sh 接進 `npm run prebuild` 第一步，CF Pages CI / 本地 dev / routine 都自動觸發。直接改 src/content/ 連 git 都進不去，鐵律從 self-discipline 升結構性物理約束。`src/content/config.ts`（Astro content collection schema）是唯一留在 git 的 src/content/ 檔案。完整背景：[reports/sync-architecture-evolution-2026-05-12.md](../../reports/sync-architecture-evolution-2026-05-12.md) v2.0。
 
 ### 7. 做了不記 = 沒做
 

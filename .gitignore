@@ -102,6 +102,24 @@ reports/visual/diff-summary.json
 # 在 worktree 內的 commit/push 與此忽略無關，這只讓主 repo `git status` 乾淨
 .claude/worktrees/
 
+# ═══ src/content/{lang}/ 投影層（2026-05-12 admiring-montalcini-post-finale）═══
+# knowledge/ 是 SSOT，src/content/{lang}/ 由 scripts/core/sync.sh 從 knowledge/ regen
+# 接進 npm prebuild 自動跑（CF build / dev / routine 都 cover）
+#
+# 為什麼 ignore：
+#   - Derived state in git = drift / silent missing / zombie 三類問題的源頭
+#   - MANIFESTO §6 鐵律「永遠不要直接改蛋白質」從 self-discipline 升架構強制
+#   - PR diff 大幅變乾淨（只剩 knowledge/ 內容）
+#
+# 留下：src/content/config.ts (Astro content collection schema, human-written)
+# 對應：reports/sync-architecture-evolution-2026-05-12.md v2.0 Ship 3
+src/content/zh-TW/
+src/content/en/
+src/content/ja/
+src/content/ko/
+src/content/fr/
+src/content/es/
+
 # Contributor profile：個人化 Taiwan.md 互動設定
 # `.example.yml` 是模板，入 git；`.local.yml` 是每個 contributor 自己的 profile，不 commit
 # 詳見 .taiwanmd/README.md

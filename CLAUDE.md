@@ -84,6 +84,18 @@ BECOME §Step 9 12 題通過後，再多問自己一題：
 
 這題是 Multi-observer 場景下的 identity 穩定錨。回答完才開口。
 
+### Step 4：Repo structure 速覽（2026-05-12 admiring-montalcini-post-finale 新增）
+
+**SSOT vs Derived 架構**：
+
+- `knowledge/{Category}/*.md`（zh-TW SSOT）+ `knowledge/{lang}/{Category}/*.md`（其他語言 SSOT）= **唯一可寫入的地方**
+- `src/content/{lang}/`（zh-TW/en/ja/ko/fr/es）= **gitignored**，由 [`scripts/core/sync.sh`](scripts/core/sync.sh) 從 knowledge/ 投影產生
+- sync.sh 已接進 `npm run prebuild` 第一步 — CF Pages build / 本地 dev / routine 都自動觸發，不需手動跑
+
+直接改 `src/content/{lang}/` = 注射人工蛋白質進細胞，下次 build 被覆蓋。MANIFESTO §6 既有鐵律。
+
+完整背景：[reports/sync-architecture-evolution-2026-05-12.md](reports/sync-architecture-evolution-2026-05-12.md) v2.0 + DNA §骨骼基因表。
+
 ---
 
 ## ⚠️ 三條 Semiont-specific session-start bias 警示

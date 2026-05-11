@@ -291,20 +291,24 @@ Taiwan.md 採用 **Knowledge SSOT（Single Source of Truth）** 架構：
 knowledge/           ← 🇹🇼 中文 SSOT（在這裡寫文章）
 knowledge/en/        ← 🇺🇸 英文翻譯
 knowledge/ja/        ← 🇯🇵 日文翻譯
+knowledge/ko/        ← 🇰🇷 韓文翻譯
 knowledge/es/        ← 🇪🇸 西班牙文翻譯
-src/content/         ← ⚙️ 投影層（自動產生，不要手動改）
+knowledge/fr/        ← 🇫🇷 法文翻譯
+src/content/{lang}/  ← ⚙️ 投影層（gitignored，由 sync.sh 自動產生 — 從 2026-05-12 起）
+src/content/config.ts ← Astro content collection schema (這個檔留在 git)
 ```
 
-**鐵律：永遠只改 `knowledge/` 目錄。`src/content/` 是投影層，會被 `scripts/sync.sh` 覆蓋。**
+**鐵律：永遠只改 `knowledge/` 目錄。** `src/content/{lang}/` 從 2026-05-12 起**已 gitignored**，由 [`scripts/core/sync.sh`](./scripts/core/sync.sh) 從 knowledge/ 自動產生（接在 `npm run prebuild` 第一步）。直接改 src/content/ 不會進 git，也會被下次 build 覆蓋。
+
+> 為什麼 gitignore：derived state in git 會產生 drift / silent missing / zombie 三類問題。Gitignore 後 src/content/ 從 self-discipline 升架構強制。完整背景：[reports/sync-architecture-evolution-2026-05-12.md](./reports/sync-architecture-evolution-2026-05-12.md)。
 
 #### 新增文章流程
 
 1. 在 `knowledge/{Category}/` 建立新的 `.md` 檔案（中文 SSOT）
 2. 按照 [EDITORIAL.md](./docs/editorial/EDITORIAL.md) 標準撰寫內容
-3. 執行 `bash scripts/sync.sh`（同步到 `src/content/`）
-4. 執行 `npm run build` 驗證（確認 frontmatter 正確）
-5. 執行 `python3 scripts/tools/article-health.py knowledge/<Cat>/<file>.md --check=prose-health` 品質檢測（HARD 0、WARN ≤ 3）
-6. 提交 PR
+3. 執行 `npm run build` 驗證（prebuild 自動跑 sync.sh + Astro build 完整檢查 frontmatter）
+4. 執行 `python3 scripts/tools/article-health.py knowledge/<Cat>/<file>.md --check=prose-health` 品質檢測（HARD 0、WARN ≤ 3）
+5. 提交 PR（只需 commit `knowledge/` 改動，**不需也不該 commit `src/content/`**）
 
 ```bash
 # 完整流程

@@ -50,8 +50,10 @@ upstream_canonical:
 │            ├── Step 4 generate-dashboard-spores → dashboard-spores.json  │
 │            └── Step 5 i18n-coverage-audit → dashboard-i18n.json          │
 │                                                                          │
-│   Step 6: npm run prebuild ──→ 8 dashboard JSON regen                    │
-│            └── articles / translations / vitals / organism / supporters  │
+│   Step 6: npm run prebuild ──→ sync.sh + 12 prebuild:* parallel          │
+│            ├── prebuild:sync (NEW 2026-05-12): scripts/core/sync.sh       │
+│            │   knowledge/ → src/content/{lang}/ projection (gitignored)   │
+│            └── prebuild:* parallel: 12 dashboard JSON / search / OG regen │
 │                                                                          │
 │   Step 7-9: stats + perf                                                 │
 │            ├── Step 7 refresh-llms-txt → public/llms.txt                 │
