@@ -7,7 +7,8 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "run-p prebuild:*",
+    "prebuild": "npm run prebuild:sync && run-p prebuild:api prebuild:map prebuild:search prebuild:dashboard prebuild:changelog prebuild:contributors prebuild:supporters prebuild:china-terms prebuild:spores prebuild:buildperf prebuild:langswitch prebuild:og",
+    "prebuild:sync": "bash scripts/core/sync.sh",
     "prebuild:api": "node scripts/core/generate-api.js",
     "prebuild:map": "node scripts/core/generate-map-markers.js",
     "prebuild:search": "node scripts/core/build-search-index.mjs",
