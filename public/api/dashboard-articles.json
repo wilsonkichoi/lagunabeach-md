@@ -1,5 +1,42 @@
 [
   {
+    "title": "台灣YouTuber產業與文化：從蔡阿嘎到奇軒，一個島嶼的數位文化進化史",
+    "slug": "台灣YouTuber產業與文化",
+    "category": "culture",
+    "subcategory": "網路文化",
+    "date": "2026-03-23",
+    "lastModified": "2026-05-11",
+    "lastVerified": "2026-05-11",
+    "lastHumanReview": false,
+    "featured": false,
+    "wordCount": 2121,
+    "tagCount": 5,
+    "tags": [
+      "文化",
+      "數位文化",
+      "YouTuber",
+      "網路影音",
+      "社會影響"
+    ],
+    "translations": {
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
+    },
+    "revision": 9,
+    "commitHash": "cea9f708",
+    "commitSubject": "🧬 [routine] heal: youtuber footnote-format hard=16 → 0 (CI fix) (#1035)",
+    "description": "一個從魔術起家的創作者如何成為台灣首位千萬訂閱YouTuber？這背後是台灣網路影音文化從本土娛樂進化為國際輸出的完整故事",
+    "healthScore": 58,
+    "qualityScore": 0,
+    "formatIssues": 0,
+    "hasOverview": true,
+    "hasReading": true,
+    "fnCount": 16
+  },
+  {
     "title": "台灣雜誌：從《自由中國》到《巧連智》，一本本被翻過去、又被滑過去的閱讀史",
     "slug": "雜誌",
     "category": "culture",
@@ -171,6 +208,37 @@
     "hasOverview": true,
     "hasReading": true,
     "fnCount": 0
+  },
+  {
+    "title": "台灣鐵道史：肺病鐵道、黑頭仔，以及那條失去外國名字的譜系",
+    "slug": "台灣鐵道史",
+    "category": "history",
+    "subcategory": "社會與日常史",
+    "date": "2026-03-24",
+    "lastModified": "2026-05-11",
+    "lastVerified": "2026-05-11",
+    "lastHumanReview": false,
+    "featured": false,
+    "wordCount": 6254,
+    "tagCount": 0,
+    "tags": [],
+    "translations": {
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
+    },
+    "revision": 13,
+    "commitHash": "e80959fa",
+    "commitSubject": "🧬 [routine] twmd-rewrite: 台灣鐵道史 EVOLVE — 外籍工程師譜系 + 黑頭仔命名 — 2026-05-11 (#1030)",
+    "description": "一條被日本人罵是「肺病鐵道」的爛路，如何在一百多年間變成每天載運二十萬人的高速動脈。劉銘傳聘的德英工程師後來被日本人砍掉重練，長谷川謹介的縱貫線又被戰後台鐵改名換編號，每一代都把上一代的紀錄推到注腳；外國名字一路掉漆，剩下台語的「黑頭仔」「火車仔」、剩下莒光自強復興的政治口號，最後在普悠瑪太魯閣這一代才把原住民地名鋪回鐵軌上。",
+    "healthScore": 55,
+    "qualityScore": 6,
+    "formatIssues": 1,
+    "hasOverview": true,
+    "hasReading": false,
+    "fnCount": 13
   },
   {
     "title": "福爾摩沙：西方人如何「發現」一座早就有人住的島",
@@ -1929,43 +1997,6 @@
     "hasOverview": true,
     "hasReading": true,
     "fnCount": 21
-  },
-  {
-    "title": "台灣YouTuber產業與文化：從蔡阿嘎到奇軒，一個島嶼的數位文化進化史",
-    "slug": "台灣YouTuber產業與文化",
-    "category": "culture",
-    "subcategory": "網路文化",
-    "date": "2026-03-23",
-    "lastModified": "2026-05-07",
-    "lastVerified": "2026-03-23",
-    "lastHumanReview": false,
-    "featured": false,
-    "wordCount": 2920,
-    "tagCount": 5,
-    "tags": [
-      "文化",
-      "數位文化",
-      "YouTuber",
-      "網路影音",
-      "社會影響"
-    ],
-    "translations": {
-      "en": true,
-      "ja": true,
-      "ko": true,
-      "es": true,
-      "fr": true
-    },
-    "revision": 7,
-    "commitHash": "4cd497a8",
-    "commitSubject": "🧬 [evolve] add PanSci article and frontmatter formatter",
-    "description": "一個從魔術起家的創作者如何成為台灣首位千萬訂閱YouTuber？這背後是台灣網路影音文化從本土娛樂進化為國際輸出的完整故事",
-    "healthScore": 59,
-    "qualityScore": 0,
-    "formatIssues": 0,
-    "hasOverview": true,
-    "hasReading": true,
-    "fnCount": 0
   },
   {
     "title": "斗笠：龍肚國中旁那對夫妻，把六十年的桂竹編進一頂帽子裡",
@@ -10746,45 +10777,6 @@
     "hasOverview": true,
     "hasReading": false,
     "fnCount": 24
-  },
-  {
-    "title": "台灣鐵道史",
-    "slug": "台灣鐵道史",
-    "category": "history",
-    "subcategory": "社會與日常史",
-    "date": "2026-03-24",
-    "lastModified": "2026-04-12",
-    "lastVerified": "2026-03-24",
-    "lastHumanReview": false,
-    "featured": false,
-    "wordCount": 3258,
-    "tagCount": 7,
-    "tags": [
-      "鐵道",
-      "交通建設",
-      "城市發展",
-      "劉銘傳",
-      "縱貫線",
-      "高鐵",
-      "台鐵"
-    ],
-    "translations": {
-      "en": true,
-      "ja": true,
-      "ko": true,
-      "es": true,
-      "fr": true
-    },
-    "revision": 12,
-    "commitHash": "956a36f3",
-    "commitSubject": "🧬 [semiont] rewrite: 清法戰爭 Evolution v2 — EDITORIAL v4 + Pipeline v2.14 完整六階段",
-    "description": "一條被日本人罵是「肺病鐵道」的爛路，如何在一百多年間變成每天載運二十萬人的高速動脈",
-    "healthScore": 60,
-    "qualityScore": 8,
-    "formatIssues": 1,
-    "hasOverview": true,
-    "hasReading": false,
-    "fnCount": 0
   },
   {
     "title": "清法戰爭：基隆與淡水的八個月",

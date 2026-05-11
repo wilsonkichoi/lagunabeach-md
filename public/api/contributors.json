@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T10:13:21.517Z",
+  "lastUpdated": "2026-05-11T15:08:31.256Z",
   "totals": {
     "contributors": 50,
     "activeWindow": "last 30d"
@@ -7,16 +7,16 @@
   "leaderboard": [
     {
       "login": "frank890417",
-      "commits": 2834,
+      "commits": 2845,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-05-11 16:09:20 +0800",
+      "lastCommitAt": "2026-05-11 23:01:06 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 611,
-        "system": 1844,
-        "translation": 617
+        "content": 613,
+        "system": 1853,
+        "translation": 619
       }
     },
     {
@@ -63,14 +63,14 @@
     },
     {
       "login": "dreamline2",
-      "commits": 32,
+      "commits": 33,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4657845?v=4",
       "profileUrl": "https://github.com/dreamline2",
       "firstCommitAt": "2026-04-03 17:23:59 +0900",
-      "lastCommitAt": "2026-05-07 11:47:34 +0900",
+      "lastCommitAt": "2026-05-11 22:14:24 +0900",
       "primaryArea": "system",
       "breakdown": {
-        "content": 3,
+        "content": 4,
         "system": 19,
         "translation": 18
       }
@@ -361,28 +361,28 @@
   "topSystem": [
     {
       "login": "frank890417",
-      "commits": 2834,
+      "commits": 2845,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-05-11 16:09:20 +0800",
+      "lastCommitAt": "2026-05-11 23:01:06 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 611,
-        "system": 1844,
-        "translation": 617
+        "content": 613,
+        "system": 1853,
+        "translation": 619
       }
     },
     {
       "login": "dreamline2",
-      "commits": 32,
+      "commits": 33,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4657845?v=4",
       "profileUrl": "https://github.com/dreamline2",
       "firstCommitAt": "2026-04-03 17:23:59 +0900",
-      "lastCommitAt": "2026-05-07 11:47:34 +0900",
+      "lastCommitAt": "2026-05-11 22:14:24 +0900",
       "primaryArea": "system",
       "breakdown": {
-        "content": 3,
+        "content": 4,
         "system": 19,
         "translation": 18
       }

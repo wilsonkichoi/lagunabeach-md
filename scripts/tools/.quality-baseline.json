@@ -1,6 +1,6 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-05-11T10:13:21Z",
+  "timestamp": "2026-05-11T15:08:30Z",
   "total": 695,
   "flagged": 473,
   "files": [
@@ -1986,8 +1986,8 @@
     },
     {
       "file": "history/台灣鐵道史.md",
-      "score": 8,
-      "reasons": "未人工審核; 破折號17個; 後段清單堆砌38%; 品質衰退前29%後17%; 無腳註"
+      "score": 6,
+      "reasons": "未人工審核; 破折號36個; 後段清單堆砌31%"
     },
     {
       "file": "history/史前時代與原住民.md",
@@ -2311,8 +2311,8 @@
     },
     {
       "file": "culture/台灣YouTuber產業與文化.md",
-      "score": 8,
-      "reasons": "年份4個; 未人工審核; 套路結尾; 後段清單堆砌35%; 稀薄段落×6"
+      "score": 4,
+      "reasons": "年份4個; 未人工審核; 稀薄段落×7"
     },
     {
       "file": "culture/國立故宮博物院.md",

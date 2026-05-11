@@ -1,7 +1,79 @@
 {
-  "generatedAt": "2026-05-11T10:13:19.797Z",
+  "generatedAt": "2026-05-11T15:08:29.399Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "2b74b9b20c740aa0e393709058e3441cc75911d4",
+      "date": "2026-05-11T23:01:06+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [routine] babel: 17 P2 zero-diff bumped (Tier 0a-as-deterministic) — 2026-05-11 22:22 (#1038)"
+    },
+    {
+      "hash": "f4345493dfd97e48c8bf2714f51ef968a1da01e5",
+      "date": "2026-05-11T22:54:32+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] evolve: 10 pipelines spine restoration + audit report (REWRITE v5.0 / MAINTAINER v2.0 pattern) (#1039)"
+    },
+    {
+      "hash": "8751f0e4827ed41ba12311c8822d91269bbc4fa0",
+      "date": "2026-05-11T21:55:22+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [routine] evolve: MAINTAINER-PIPELINE v1.3 → v2.0 stage spine + default-action (#1036)"
+    },
+    {
+      "hash": "cea9f708721f38819e2a77b01626d33bc2fe1e51",
+      "date": "2026-05-11T21:46:18+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [routine] heal: youtuber footnote-format hard=16 → 0 (CI fix) (#1035)"
+    },
+    {
+      "hash": "cfdd166675cfd4a0a5cc6910ed5a468401507796",
+      "date": "2026-05-11T21:43:34+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] memory: 2026-05-11-113350-admiring-cohen finale — REWRITE v5.0 + 8 PR backlog (#1021)"
+    },
+    {
+      "hash": "157f12ee36417ff7f1cbcb298633822d8770685f",
+      "date": "2026-05-11T21:39:45+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] memory + diary: kind-mirzakhani finale — NMTH Fresh + image-count gate evolution (#1029)"
+    },
+    {
+      "hash": "cf24a7edb0605ee86cfd5da0df5cbea7ad7dfa0f",
+      "date": "2026-05-11T21:37:52+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] evolve: ROUTINE.md v1.2 → v1.3 — 3 日線 routine 半夜重排 (#1033)"
+    },
+    {
+      "hash": "af16fe83d6a11f5657a007dce42bc123b77ee2be",
+      "date": "2026-05-11T21:20:59+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [routine] memory: twmd-maintainer-pm @ 2026-05-11 21:08 finale (#1034)"
+    },
+    {
+      "hash": "519bcb86a5c012aabdfdac3dc3b21638cecf9a86",
+      "date": "2026-05-11T22:14:24+09:00",
+      "author": "Wilson Chen",
+      "message": "docs(culture): standardize YouTuber article and optimize footnotes (#1024)"
+    },
+    {
+      "hash": "e80959fac96464765e75fbaf1918f94c574f7fa0",
+      "date": "2026-05-11T21:13:51+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [routine] twmd-rewrite: 台灣鐵道史 EVOLVE — 外籍工程師譜系 + 黑頭仔命名 — 2026-05-11 (#1030)"
+    },
+    {
+      "hash": "17c2ae56cb77dec02c35a4d80c838eef0de23b20",
+      "date": "2026-05-11T21:13:32+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-05-11 18:12 (#1031)"
+    },
+    {
+      "hash": "dfdb6b6ef6f7b4cbdd35067ab495a7bfd166472e",
+      "date": "2026-05-11T19:41:24+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] evolve: /twmd-routine skill — Routine 飛輪管理 thin shell (44 lines) (#1032)"
+    },
     {
       "hash": "01d9d0e734ded7ece79962288ec6d30f9a81faf0",
       "date": "2026-05-11T16:09:20+08:00",

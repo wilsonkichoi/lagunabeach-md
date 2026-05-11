@@ -8699,20 +8699,12 @@
     "path": "Art/台灣攝影.md"
   },
   {
-    "title": "台灣鐵道史",
-    "description": "一條被日本人罵是「肺病鐵道」的爛路，如何在一百多年間變成每天載運二十萬人的高速動脈",
+    "title": "台灣鐵道史：肺病鐵道、黑頭仔，以及那條失去外國名字的譜系",
+    "description": "一條被日本人罵是「肺病鐵道」的爛路，如何在一百多年間變成每天載運二十萬人的高速動脈。劉銘傳聘的德英工程師後來被日本人砍掉重練，長谷川謹介的縱貫線又被戰後台鐵改名換編號，每一代都把上一代的紀錄推到注腳；外國名字一路掉漆，剩下台語的「黑頭仔」「火車仔」、剩下莒光自強復興的政治口號，最後在普悠瑪太魯閣這一代才把原住民地名鋪回鐵軌上。",
     "category": "History",
-    "tags": [
-      "鐵道",
-      "交通建設",
-      "城市發展",
-      "劉銘傳",
-      "縱貫線",
-      "高鐵",
-      "台鐵"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/History/%E5%8F%B0%E7%81%A3%E9%90%B5%E9%81%93%E5%8F%B2",
-    "readingTime": 19,
+    "readingTime": 41,
     "featured": false,
     "date": "2026-03-24",
     "path": "History/台灣鐵道史.md"
@@ -8756,7 +8748,7 @@
       "社會影響"
     ],
     "url": "https://taiwan.md/Culture/%E5%8F%B0%E7%81%A3YouTuber%E7%94%A2%E6%A5%AD%E8%88%87%E6%96%87%E5%8C%96",
-    "readingTime": 17,
+    "readingTime": 14,
     "featured": false,
     "date": "2026-03-23",
     "path": "Culture/台灣YouTuber產業與文化.md"
