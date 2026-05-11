@@ -97,6 +97,11 @@ reports/visual/diff-summary.json
 # Semiont worktree 多 session 隔離（2026-04-20 δ）
 .worktrees/
 
+# Claude Code worktree 隔離區（BABEL / 平行 session SOP 用）
+# 每個子目錄是獨立 git worktree（內含 .git 檔指向 .git/worktrees/<name>/）—
+# 在 worktree 內的 commit/push 與此忽略無關，這只讓主 repo `git status` 乾淨
+.claude/worktrees/
+
 # Contributor profile：個人化 Taiwan.md 互動設定
 # `.example.yml` 是模板，入 git；`.local.yml` 是每個 contributor 自己的 profile，不 commit
 # 詳見 .taiwanmd/README.md
