@@ -279,6 +279,7 @@ memory/
 | 2026-05-12 | src-content-migration (015230) | sync.sh 沒儀器化的架構缺口 → C+F+H 最根治 3 ship 一氣完成 | 消除問題類別 > 儀器化守備 | [→](memory/2026-05-12-015230-src-content-migration.md) |
 | 2026-05-12 | admiring-montalcini (000238) | 蘋果西打 EVOLVE 60 年完整記憶 + REWRITE-PIPELINE v6.0 Stage 0 觀點獨立 stage 誕生 + plugin 雙修 | 觀察者一句 reframe 可催生 pipeline architectural | [→](memory/2026-05-12-000238-admiring-montalcini.md) |
 | 2026-05-12 | twmd-maintainer-daily (092129) | AM cycle v2.0 第 N 次 fire / 2 contributor PR 處理 / merge+heal #1046 沈文程 | 「PR branch > 30 days stale handling | [→](memory/2026-05-12-092129-twmd-maintainer-daily.md) |
+| 2026-05-12 | twmd-data-refresh-pm (230759) | v2.2 整點對齊半夜 chain B→r→R→m 第二棒首次 fire / 12 step 全綠 / OVERDUE 從 AM 7 降到 0 | spore-harvest-am 07:00 dry-run 收割顯效 / build perf 連 2 cycle 升高值得追 | [→](memory/2026-05-12-230759-twmd-data-refresh-pm.md) |
 | 2026-05-12 | twmd-data-refresh-am (061218) | v2.0 main-direct 第一次 AM cycle / 12 step 全綠 / 三源綠燈 / 9 dashboard JSON freshness PASS | v1.3 半夜重排 AM cycle 首次 fire 健康 | [→](memory/2026-05-12-061218-twmd-data-refresh-am.md) |
 | 2026-05-08 | elegant-ptolemy (162637) | 6 PR 一輪 ship + #884 根因修復 + 聶永真 EVOLVE 雙 Round + spore #66/#67 + fair-use 視覺強化（v1.3） | merge vs cherry-pick 是 audit trail 設計選擇而非技術偏好 | [→](memory/2026-05-08-162637-elegant-ptolemy.md) |
 
