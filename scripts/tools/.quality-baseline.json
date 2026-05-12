@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-05-11T22:11:32Z",
-  "total": 695,
-  "flagged": 473,
+  "timestamp": "2026-05-12T15:08:41Z",
+  "total": 696,
+  "flagged": 474,
   "files": [
     {
       "file": "music/台灣KTV文化.md",
@@ -1618,6 +1618,11 @@
       "file": "people/林義雄.md",
       "score": 12,
       "reasons": "年份僅0個; 空洞詞6個; 未人工審核; 連續bullet4行; 塑膠句3個; 後段清單堆砌31%; 稀薄段落×12"
+    },
+    {
+      "file": "people/聶永真.md",
+      "score": 4,
+      "reasons": "空洞詞5個; 未人工審核; 連續bullet5行; 稀薄段落×1"
     },
     {
       "file": "people/郭婞淳.md",

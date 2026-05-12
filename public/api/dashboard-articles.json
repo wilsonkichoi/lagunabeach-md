@@ -1,5 +1,106 @@
 [
   {
+    "title": "黃魚鴞：六公里溪流養一對，1,800 公尺烏心石上的夜行猛禽",
+    "slug": "黃魚鴞",
+    "category": "nature",
+    "subcategory": "野生動物",
+    "date": "2026-05-04",
+    "lastModified": "2026-05-12",
+    "lastVerified": "2026-05-12",
+    "lastHumanReview": false,
+    "featured": false,
+    "wordCount": 5096,
+    "tagCount": 0,
+    "tags": [],
+    "translations": {
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
+    },
+    "revision": 11,
+    "commitHash": "3caf80d6",
+    "commitSubject": "🧬 [semiont] heal: 黃魚鴞 footnote URL fact-check (PR #1050 follow-up) — 替換 2 條 404 URL 為 verified real source",
+    "description": "2026 年 4 月，屏科大助理教授洪孝宇在七家灣溪畔一棵胸徑約 1.5 公尺的烏心石樹洞裡，定位到全台已知最高的黃魚鴞巢位——海拔約 1,800 公尺。這種台灣最大的貓頭鷹 1916 年才由日籍學者黑田長禮首次記錄，屏東科技大學孫元勳研究室追了三十年，91 個領域平均每對需要 6.2 公里長的溪。一段沒被水泥的溪、一棵還沒倒的巨木——黃魚鴞活在台灣山林兩件事還沒消失的縫隙裡。",
+    "healthScore": 55,
+    "qualityScore": 0,
+    "formatIssues": 0,
+    "hasOverview": true,
+    "hasReading": true,
+    "fnCount": 19
+  },
+  {
+    "title": "沈文程：從清泉崗修機員到雙金歌王",
+    "slug": "沈文程",
+    "category": "people",
+    "subcategory": "音樂與表演",
+    "date": "2026-05-12",
+    "lastModified": "2026-05-12",
+    "lastVerified": "2026-05-12",
+    "lastHumanReview": false,
+    "featured": false,
+    "wordCount": 1531,
+    "tagCount": 7,
+    "tags": [
+      "沈文程",
+      "金曲獎",
+      "金鐘獎",
+      "魯凱族",
+      "越戰維修員",
+      "台灣音樂",
+      "釣魚"
+    ],
+    "translations": {
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
+    },
+    "revision": 2,
+    "commitHash": "b48dde0c",
+    "commitSubject": "🧬 [routine] twmd-maintainer-am: heal #1046 沈文程 + cherry-pick #1045 ja/alien-art-centre — 2026-05-12 09:24 (#1048)",
+    "description": "沈文程，台灣跨足音樂與主持的雙金藝人。從越戰末期的飛機維修員到紅遍全台的《心事誰人知》，他以真誠與幽默在金曲與金鐘獎項上刻下姓名。",
+    "healthScore": 44,
+    "qualityScore": 0,
+    "formatIssues": 2,
+    "hasOverview": false,
+    "hasReading": false,
+    "fnCount": 9
+  },
+  {
+    "title": "聶永真：台灣首位 AGI 會員，從金曲包裝到國家識別系統的二十年",
+    "slug": "聶永真",
+    "category": "people",
+    "subcategory": "藝術與設計",
+    "date": "2026-05-08",
+    "lastModified": "2026-05-12",
+    "lastVerified": "2026-05-12",
+    "lastHumanReview": false,
+    "featured": false,
+    "wordCount": 8021,
+    "tagCount": 0,
+    "tags": [],
+    "translations": {
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
+    },
+    "revision": 20,
+    "commitHash": "9d12912b",
+    "commitSubject": "docs(people): standardize Aaron Nieh article and update 2026 Taipower logo controversy (#1051)",
+    "description": "聶永真（1977 年生）是台灣第一位加入瑞士國際平面設計聯盟 AGI 的設計師，三度金曲獎最佳專輯包裝得主。設計案橫跨流行音樂封面（李宗盛、林宥嘉、盧葦）、書籍出版、公民運動（2014 太陽花凌晨四點紐時廣告、2020 反譚德塞「Taiwan Can Help」八小時眾籌一千萬）、政治競選（蔡英文 2016「點亮台灣」與兩屆總統就職主視覺）、國營事業識別系統（經濟部、觀光署、中油、台電）、藝術空間（臺中綠美圖、威尼斯雙年展台灣館）。永真急制工作室分駐台北與高雄駁二倉庫；他飛比利時與倫敦讀過研究所、三所都沒畢業；自陳「在做設計師聶永真之前，他是公民聶永真」。2024 年起連續標下四個國營事業識別案、2026 年台電 LOGO 上線當日爆「政治酬庸」爭議。",
+    "healthScore": 55,
+    "qualityScore": 4,
+    "formatIssues": 0,
+    "hasOverview": true,
+    "hasReading": true,
+    "fnCount": 31
+  },
+  {
     "title": "台灣YouTuber產業與文化：從蔡阿嘎到奇軒，一個島嶼的數位文化進化史",
     "slug": "台灣YouTuber產業與文化",
     "category": "culture",
@@ -50,11 +151,11 @@
     "tagCount": 0,
     "tags": [],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 2,
     "commitHash": "9b5cb286",
@@ -127,11 +228,11 @@
       "隱形冠軍"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 2,
     "commitHash": "2faa5728",
@@ -180,7 +281,7 @@
     "slug": "蘋果西打",
     "category": "food",
     "subcategory": "飲品文化",
-    "date": "2026-05-11",
+    "date": "2026-05-12",
     "lastModified": "2026-05-11",
     "lastVerified": "2026-05-11",
     "lastHumanReview": false,
@@ -195,7 +296,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 5,
+    "revision": 6,
     "commitHash": "e10215bc",
     "commitSubject": "🧬 [semiont] rewrite: 蘋果西打 EVOLVE — 60 年完整記憶（10 紅旗事實校正 + 餐桌文化擴展）+ plugin 雙修 (#1041)",
     "description": "1965 年菲律賓華僑李鴻略從美國謝斯尼斯（CosCo）公司買來配方，創立大西洋飲料。蘋菓西打從此成了熱炒店冰箱、辦桌宴席、KTV 包廂裡 60 年沒換位置的金黃氣泡。它的商標前 30 年換了三組外國老闆，靠孫幼英自掏 80 萬美元才贖回台灣；它被韓國偶像圭賢在台南度小月偶遇；它兩次倒在自家工廠的酵母菌與發霉天花板下；最後它的母公司靠賣掉高雄湖內 7222 坪地，撐起 EPS 8.71 元的重磅回歸。",
@@ -417,11 +518,11 @@
     "tagCount": 0,
     "tags": [],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 2,
     "commitHash": "9b5cb286",
@@ -479,11 +580,11 @@
     "tagCount": 0,
     "tags": [],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 2,
     "commitHash": "2faa5728",
@@ -518,11 +619,11 @@
       "歷史評價"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 2,
     "commitHash": "2faa5728",
@@ -560,11 +661,11 @@
       "金鐘獎"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 2,
     "commitHash": "2faa5728",
@@ -635,11 +736,11 @@
       "張隆志"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 1,
     "commitHash": "01d9d0e7",
@@ -666,11 +767,11 @@
     "tagCount": 0,
     "tags": [],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 2,
     "commitHash": "9c91f365",
@@ -748,7 +849,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 7,
+    "revision": 8,
     "commitHash": "8f0b0beb",
     "commitSubject": "🧬 [semiont] spore-prep: #70/#71 台灣無人機產業 — 雷虎弧線 + 規模反差雙 reveal (Angle A 觀察者拍板) (#997)",
     "description": "2025 年 9 月 21 日，雷虎科技的 Overkill FPV 自殺無人機通過美國國防部藍色清單（Blue UAS Cleared List）認證——台灣第一家，也是截至目前唯一一家。整份清單上 39 個整機平台、165 個元件，台灣只佔其中一個位子。2026 年 4 月四位美國跨黨派參議員共同提案《Blue Skies for Taiwan Act》要求建立台灣廠商快速通道；法案存在本身揭露一件事：台灣進得太慢，連美國自己都得立法降門檻。一家在台中做了四十六年遙控玩具飛機的公司，正計畫在俄亥俄州蓋第二座工廠。",
@@ -872,7 +973,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 12,
+    "revision": 13,
     "commitHash": "0b8d09ae",
     "commitSubject": "🧬 [semiont] fact-fix: 台積電 article 三處勘誤 (reader-driven retroactive audit) (#950)",
     "description": "54 歲離開德州儀器、56 歲創立台積電的張忠謀，前十八年逃過三次難、住過六個城市。三十八年後 2025 年 3 月 3 日，美國總統川普在白宮指著張忠謀的接班人魏哲家說：「他是這個房間裡最重要的男人。」2026 年第一季台積電單季營收 359 億美元。一座颱風頻繁、缺水缺電的島，蓋出全人類數位文明的心臟——但這顆心臟越大，這座島能否承擔它的代價，反而越說不清楚。",
@@ -1124,37 +1225,6 @@
     "fnCount": 17
   },
   {
-    "title": "黃魚鴞：六公里溪流養一對，1,800 公尺烏心石上的夜行猛禽",
-    "slug": "黃魚鴞",
-    "category": "nature",
-    "subcategory": "野生動物",
-    "date": "2026-05-04",
-    "lastModified": "2026-05-09",
-    "lastVerified": "2026-05-04",
-    "lastHumanReview": false,
-    "featured": false,
-    "wordCount": 4869,
-    "tagCount": 0,
-    "tags": [],
-    "translations": {
-      "en": true,
-      "ja": true,
-      "ko": true,
-      "es": true,
-      "fr": true
-    },
-    "revision": 8,
-    "commitHash": "0b2c2a33",
-    "commitSubject": "🧬 [semiont] harvest: 4 spores 賈永婕 D+7 + 聶永真 D+1 (Phase 6 canonical-only #2) (#916)",
-    "description": "2026 年 4 月，屏科大助理教授洪孝宇在七家灣溪畔一棵胸徑約 1.5 公尺的烏心石樹洞裡，定位到全台已知最高的黃魚鴞巢位——海拔約 1,800 公尺。這種台灣最大的貓頭鷹 1916 年才由日籍學者黑田長禮首次記錄，屏東科技大學孫元勳研究室追了三十年，91 個領域平均每對需要 6.2 公里長的溪。一段沒被水泥的溪、一棵還沒倒的巨木——黃魚鴞活在台灣山林兩件事還沒消失的縫隙裡。",
-    "healthScore": 55,
-    "qualityScore": 0,
-    "formatIssues": 0,
-    "hasOverview": true,
-    "hasReading": true,
-    "fnCount": 17
-  },
-  {
     "title": "Cicada：從 2009 年莫拉克到 2022 年丹大溪源的十五年田野錄音",
     "slug": "Cicada",
     "category": "people",
@@ -1372,37 +1442,6 @@
     "fnCount": 35
   },
   {
-    "title": "聶永真：台灣首位 AGI 會員，從金曲包裝到國家識別系統的二十年",
-    "slug": "聶永真",
-    "category": "people",
-    "subcategory": "藝術與設計",
-    "date": "2026-05-08",
-    "lastModified": "2026-05-09",
-    "lastVerified": "2026-05-08",
-    "lastHumanReview": false,
-    "featured": false,
-    "wordCount": 7774,
-    "tagCount": 0,
-    "tags": [],
-    "translations": {
-      "en": true,
-      "ja": true,
-      "ko": true,
-      "es": true,
-      "fr": true
-    },
-    "revision": 18,
-    "commitHash": "0b2c2a33",
-    "commitSubject": "🧬 [semiont] harvest: 4 spores 賈永婕 D+7 + 聶永真 D+1 (Phase 6 canonical-only #2) (#916)",
-    "description": "聶永真（1977 年生）是台灣第一位加入瑞士國際平面設計聯盟 AGI 的設計師，三度金曲獎最佳專輯包裝得主。設計案橫跨流行音樂封面（蘇打綠、林宥嘉、田馥甄）、書籍出版、公民運動（2014 太陽花凌晨四點紐時廣告、2020 反譚德塞「Taiwan Can Help」八小時眾籌一千萬）、政治競選（蔡英文 2016「點亮台灣」與兩屆總統就職主視覺）、國營事業識別系統（經濟部、觀光署、中油、台電）、藝術空間（臺中綠美圖、威尼斯雙年展台灣館）。永真急制工作室分駐台北與高雄駁二倉庫；他飛比利時與倫敦讀過研究所、三所都沒畢業；自陳「在做設計師聶永真之前，他是公民聶永真」。2024 年起連續標下四個國營事業識別案、2026 年台電 LOGO 上線當日爆「政治酬庸」爭議。",
-    "healthScore": 55,
-    "qualityScore": 0,
-    "formatIssues": 0,
-    "hasOverview": true,
-    "hasReading": true,
-    "fnCount": 29
-  },
-  {
     "title": "草東沒有派對：從陽明山草東街到兩座金曲最佳樂團的十二年",
     "slug": "草東沒有派對",
     "category": "people",
@@ -1525,7 +1564,7 @@
     "commitHash": "5db9f136",
     "commitSubject": "🧬 [semiont] feat: spore SSOT cleanup — Phase 1-6 consolidated (post-#905 stacked PR recovery) (#909)",
     "description": "從 1988 年台大校門為台獨絕食的學運女孩，到 2026 年在北京對習近平說「兩岸同胞都是中國人」的國民黨主席。這條軌跡上發生過什麼？",
-    "healthScore": 75,
+    "healthScore": 70,
     "qualityScore": 0,
     "formatIssues": 0,
     "hasOverview": true,
@@ -1565,7 +1604,7 @@
     "commitHash": "5db9f136",
     "commitSubject": "🧬 [semiont] feat: spore SSOT cleanup — Phase 1-6 consolidated (post-#905 stacked PR recovery) (#909)",
     "description": "史上第一位被罷免的直轄市長，四年後當上立法院長。這是什麼樣的政治軌跡？",
-    "healthScore": 72,
+    "healthScore": 67,
     "qualityScore": 0,
     "formatIssues": 0,
     "hasOverview": true,
@@ -1635,7 +1674,7 @@
     "commitHash": "5db9f136",
     "commitSubject": "🧬 [semiont] feat: spore SSOT cleanup — Phase 1-6 consolidated (post-#905 stacked PR recovery) (#909)",
     "description": "2026 年 4 月 10 日，鄭麗文在北京見習近平，成為十年來第一位會見中共總書記的中華民國主要政黨領袖。會談十分鐘，同時台灣海峽有 100 艘解放軍船艦。這場「和平之旅」究竟在旅什麼？",
-    "healthScore": 75,
+    "healthScore": 70,
     "qualityScore": 4,
     "formatIssues": 0,
     "hasOverview": true,
@@ -1662,7 +1701,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 5,
+    "revision": 6,
     "commitHash": "0b2c2a33",
     "commitSubject": "🧬 [semiont] harvest: 4 spores 賈永婕 D+7 + 聶永真 D+1 (Phase 6 canonical-only #2) (#916)",
     "description": "2026 年 5 月 2 日早上 9 點，賴清德搭著史瓦帝尼國王借的 A340 專機落地姆巴巴內。這是台灣總統第一次因為飛航許可被中國施壓撤銷，最後是邦交國國王派飛機從台北接駕。從 1968 年史瓦獨立同日建交到非洲僅存的最後友邦，從一個出生年跟邦交歷史完全重合的絕對君主到 2021 年自家鎮壓 46 條人命，從紅心芭樂進 SUPERSPAR 到中國 53 國零關稅特意跳過史國。台灣與史瓦帝尼這 58 年的關係，是一本「主權國家」最具體的教科書，也是一個沒有解的問句。",
@@ -1764,11 +1803,11 @@
       "颱風"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 1,
     "commitHash": "ef195fa9",
@@ -2120,9 +2159,9 @@
     ],
     "translations": {
       "en": true,
-      "ja": false,
+      "ja": true,
       "ko": true,
-      "es": false,
+      "es": true,
       "fr": true
     },
     "revision": 3,
@@ -3751,7 +3790,7 @@
     ],
     "translations": {
       "en": true,
-      "ja": false,
+      "ja": true,
       "ko": true,
       "es": true,
       "fr": true
@@ -10895,7 +10934,7 @@
     "commitHash": "8e0d85f2",
     "commitSubject": "🧬 [semiont] rewrite: 偏遠地區學校教育發展條例全解 (evolution v2)",
     "description": "2016 年 11 月 21 日，立法院三讀通過《偏遠地區學校教育發展條例》全文 21 條。這部法律的存在本身是國家對自己制度失能的正式承認。八年過去，政府在偏鄉硬體投入累計 175 億元、18.6 億元改善師生宿舍。但 113 學年全國一口氣有 18 所國小停辦，是台灣教育史上最多的一年；屏東縣四年裁併七校；全國廢校率還在上升。條例救了法律，但擋不住人口重力。",
-    "healthScore": 62,
+    "healthScore": 57,
     "qualityScore": 4,
     "formatIssues": 1,
     "hasOverview": true,
@@ -10993,7 +11032,7 @@
     "commitHash": "fa95d5e0",
     "commitSubject": "🧬 [semiont] rewrite: 台灣機械工具產業 + 大肚山黃金縱谷 (Article 6/6 批次完成)",
     "description": "從大肚山黃金縱谷到 TMTS 2026，台灣工具機產業的韌性、崩盤、重生，以及為什麼 2024 年從全球第 5 掉到第 7 的結構性焦慮。",
-    "healthScore": 56,
+    "healthScore": 51,
     "qualityScore": 0,
     "formatIssues": 0,
     "hasOverview": true,
@@ -11070,7 +11109,7 @@
     "commitHash": "202e182d",
     "commitSubject": "🧬 [semiont] rewrite: 蕭美琴副總統人物頁 (Article 4/6)",
     "description": "日本出生、台南小學、新澤西長大、歐柏林畢業的「戰貓」，如何成為台灣歷史上最成功的對美代表，然後坐上副總統大位？",
-    "healthScore": 69,
+    "healthScore": 64,
     "qualityScore": 0,
     "formatIssues": 0,
     "hasOverview": true,
@@ -11101,7 +11140,7 @@
     "commitHash": "45b62300",
     "commitSubject": "🧬 [semiont] rewrite: 台灣原住民族教育與語言復振的交界 (evolution v2, post-Muse-critique)",
     "description": "2012 年屏東泰武國小的排灣族老師查馬克·法拉屋樂用錄音筆從耆老口中採集古謠，率領孩子唱進金曲獎。2017 年《原住民族語言發展法》把族語升格為國家語言。2019 年《原住民族教育法》寫入「十年達標」的教師比例條文。國小階段的原住民族實驗學校從 25 所增加到 38 所。但上了國中之後，整個系統塌陷：全台灣原住民族實驗中學只有 6 所，大專原住民學生粗在學率 56.3%，比一般生少了 35.3 個百分點。查馬克 2021 年病逝，享年 42 歲。小學護得住，中學接不住。斷層還在那裡。",
-    "healthScore": 62,
+    "healthScore": 57,
     "qualityScore": 4,
     "formatIssues": 1,
     "hasOverview": true,
@@ -11207,7 +11246,7 @@
     "commitHash": "fa95d5e0",
     "commitSubject": "🧬 [semiont] rewrite: 台灣機械工具產業 + 大肚山黃金縱谷 (Article 6/6 批次完成)",
     "description": "半導體世界第一的島嶼，為什麼在機器人時代要「補課」？從 2026 年 NCAIR 揭幕，回看台灣精密機械的奇蹟與盲點。",
-    "healthScore": 59,
+    "healthScore": 54,
     "qualityScore": 0,
     "formatIssues": 0,
     "hasOverview": true,

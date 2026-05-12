@@ -1,7 +1,181 @@
 {
-  "generatedAt": "2026-05-11T22:11:31.673Z",
+  "generatedAt": "2026-05-12T15:08:40.843Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "09eee0198bb8c32769423306068c73ccc903c32a",
+      "date": "2026-05-12T22:47:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] babel: 50 translations 填補 5-lang missing (codex 100% primary, 0 fallback) — 2026-05-12"
+    },
+    {
+      "hash": "d3d816b44668aad7f0a5884c862e6ba615acf88d",
+      "date": "2026-05-12T19:22:07+08:00",
+      "author": "Zaious (@ChronicleCore)",
+      "message": "feat(contributors): verify-contributors.mjs — silent-breakage detector for contributor display layer (#1055)"
+    },
+    {
+      "hash": "23dba5966da997476fb1c4b145563b994ba27b07",
+      "date": "2026-05-12T19:20:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore #72 #73: 蘋果西打 (Threads + X) ship + SPORE-LOG + sporeLinks frontmatter"
+    },
+    {
+      "hash": "c6ca34ceb69b2408ca406106f818cce4f3219be8",
+      "date": "2026-05-12T19:17:24+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SPORE-HARVEST-PIPELINE v2.2 → v2.2.1 — Step 8 trigger dashboard regen 補上"
+    },
+    {
+      "hash": "c3e49080e8749db717c26e6e3eec3fb34eb1fc4d",
+      "date": "2026-05-12T19:14:12+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore #72 blueprint: 蘋果西打 (Threads, Tier 1b 具體性槓桿)"
+    },
+    {
+      "hash": "45ab29fe93c40b018c47fa23934cadf10199720d",
+      "date": "2026-05-12T19:04:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-12-184800-routine-v2-resync — Stage 4 finale of /twmd-routine integrated session"
+    },
+    {
+      "hash": "a5f0c28c3608ac1ceeb0b38475f5d151d5a27c38",
+      "date": "2026-05-12T19:02:12+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 13 spores baseline (v2.2 dry-run) — 2026-05-12"
+    },
+    {
+      "hash": "9fa2808becf0428cf7047884c7eb479d220aa2cc",
+      "date": "2026-05-12T18:51:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: ROUTINE v2.1 → v2.2 + SPORE-HARVEST-PIPELINE v2.0 → v2.2 — 加 11th routine twmd-spore-harvest-am full-auto Chrome MCP"
+    },
+    {
+      "hash": "055dc2cd1b1cdf9fdec8bbdaa8972c218282fb11",
+      "date": "2026-05-12T18:40:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: routine-sync-check.py v2 — 加 cron_drift detection (DNA #52 fail-loud)"
+    },
+    {
+      "hash": "5cfda3a8c258a586bdff4c40ad06dd4f91ea0514",
+      "date": "2026-05-12T18:38:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: MAINTAINER-PIPELINE v2.0 → v2.1 — §collect-and-merge §A 路徑 DEPRECATED (routine main-direct reconcile)"
+    },
+    {
+      "hash": "efc854c7ed5700961db8cd48c46e05c2b3e1bac1",
+      "date": "2026-05-12T18:35:46+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] evolve: ROUTINE.md v2.1-resync — SSOT 對齊 MCP live + mirror (3-layer drift recovery) (#1056)"
+    },
+    {
+      "hash": "3f943113a6571997307f8e242e6b413c1af62b2f",
+      "date": "2026-05-12T18:20:43+08:00",
+      "author": "Zaious (@ChronicleCore)",
+      "message": "chore(contributors): Zaious display name → 'Zaious (@ChronicleCore)' (#1054)"
+    },
+    {
+      "hash": "366cfb8e4732be83accf0b2a2f557db3c558e43c",
+      "date": "2026-05-12T16:37:59+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [routine] memory: twmd-maintainer-am post-finale addendum — #1051 + #1052 observer-triggered (#1053)"
+    },
+    {
+      "hash": "9d12912b791417dc435b31f487977b8f0c446c92",
+      "date": "2026-05-12T17:36:07+09:00",
+      "author": "Wilson Chen",
+      "message": "docs(people): standardize Aaron Nieh article and update 2026 Taipower logo controversy (#1051)"
+    },
+    {
+      "hash": "758a23dc4d6bf542fb38191e89a259022b918474",
+      "date": "2026-05-12T16:36:03+08:00",
+      "author": "Zaious (@ChronicleCore)",
+      "message": "fix(contributors): %aN/%aE for mailmap-aware author resolution (closes #1047) (#1052)"
+    },
+    {
+      "hash": "56d2095ea4bcfaff1612f569eb0de34c9716fffa",
+      "date": "2026-05-12T12:45:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-12-124329-pipeline-150char-gate — MEMORY/DIARY v2.1 hard gate dogfood 補寫"
+    },
+    {
+      "hash": "710e95ff9bc3d3ab7018fefa5d4a2b4cb598665b",
+      "date": "2026-05-12T12:42:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] babel: 60 articles 5 langs Codex backend first production batch — 2026-05-12 12:31"
+    },
+    {
+      "hash": "94fdd54c8828fa109a14bb28d7a97ce0c16770e6",
+      "date": "2026-05-12T12:42:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] pipelines: MEMORY/DIARY v2.1 — index row ≤ 150 字 hard gate + 全量壓縮歷史索引"
+    },
+    {
+      "hash": "02c65fd88b219bc71bd29a8bd59fc6e34e1af02b",
+      "date": "2026-05-12T12:32:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-12-122702-backend-abstraction — Codex pivot 觸發 translation backend abstraction v4.0 + Ship 4 DX 補 + PR #1050 黃魚鴞 heal"
+    },
+    {
+      "hash": "136054a0041159f7561f7e1e25c11bc6a00a4622",
+      "date": "2026-05-12T12:13:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SQUEEZE-MODELS-MAX v3 → v4 — Translation backend abstraction layer"
+    },
+    {
+      "hash": "3caf80d64d4581932203958c97bb2c00e2fa83d5",
+      "date": "2026-05-12T11:43:07+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 黃魚鴞 footnote URL fact-check (PR #1050 follow-up) — 替換 2 條 404 URL 為 verified real source"
+    },
+    {
+      "hash": "c582a31b2a380667e5b1a4805ab1164b05d074c1",
+      "date": "2026-05-12T12:41:56+09:00",
+      "author": "Wilson Chen",
+      "message": "docs(nature): standardize Tawny Fish Owl article and update frontmatter (#1050)"
+    },
+    {
+      "hash": "21142b3762e239ef1bb5ecc638daa73f8e42190f",
+      "date": "2026-05-12T11:36:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: dev script chain sync — 哲宇 callout DX 補強"
+    },
+    {
+      "hash": "5cf7d1627b4d26fa79f7842c1dfe2004c1220c7b",
+      "date": "2026-05-12T11:30:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: Ship 4 — fresh clone DX regression fix (postinstall + README Quick Start + CONTRIBUTING 補)"
+    },
+    {
+      "hash": "077cba32d91dd31c06394406ead2b80dfe40dd5c",
+      "date": "2026-05-12T09:25:58+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [routine] memory: twmd-maintainer-am @ 2026-05-12 09:24 finale (#1049)"
+    },
+    {
+      "hash": "b48dde0cd47aee052b1068d63f957cc51fcd2425",
+      "date": "2026-05-12T09:21:18+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [routine] twmd-maintainer-am: heal #1046 沈文程 + cherry-pick #1045 ja/alien-art-centre — 2026-05-12 09:24 (#1048)"
+    },
+    {
+      "hash": "d537d0f84500f1a509b93011a1119f384887a2a0",
+      "date": "2026-05-12T09:16:12+08:00",
+      "author": "idlccp1984",
+      "message": "Create 沈文程.md (#1046)"
+    },
+    {
+      "hash": "58f75eb5b531f90ff07658a1d8d36be151d17afe",
+      "date": "2026-05-12T06:14:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-12-061218-twmd-data-refresh-am — v2.0 main-direct AM cycle 12 step PASS / 三源綠燈 / 9 JSON freshness gate"
+    },
+    {
+      "hash": "073ee42543171bd224f1aeee68c16594a5e92c26",
+      "date": "2026-05-12T06:12:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: dashboard sync — 2026-05-12 06:12"
+    },
     {
       "hash": "2fef2157c6b5b47d84fe596ff3a3f13cf66b349e",
       "date": "2026-05-12T05:10:46+08:00",

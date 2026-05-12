@@ -1,28 +1,28 @@
 {
-  "totalArticles": 4196,
+  "totalArticles": 4256,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 5285,
+  "totalTags": 5291,
   "categories": [
     {
       "name": "es",
-      "count": 685
+      "count": 697
     },
     {
       "name": "ko",
-      "count": 694
-    },
-    {
-      "name": "en",
-      "count": 709
+      "count": 705
     },
     {
       "name": "fr",
-      "count": 711
+      "count": 722
+    },
+    {
+      "name": "en",
+      "count": 720
     },
     {
       "name": "ja",
-      "count": 700
+      "count": 714
     },
     {
       "name": "History",
@@ -38,7 +38,7 @@
     },
     {
       "name": "People",
-      "count": 213
+      "count": 214
     },
     {
       "name": "Music",
@@ -107,12 +107,12 @@
       "count": 28
     },
     {
-      "name": "TSMC",
+      "name": "ODM",
       "count": 27
     },
     {
-      "name": "ODM",
-      "count": 27
+      "name": "TSMC",
+      "count": 26
     },
     {
       "name": "政治",
@@ -128,15 +128,11 @@
     },
     {
       "name": "AI",
-      "count": 24
+      "count": 23
     },
     {
       "name": "YouTuber",
       "count": 22
-    },
-    {
-      "name": "歷史",
-      "count": 21
     },
     {
       "name": "民主化",
@@ -155,26 +151,30 @@
       "count": 21
     },
     {
+      "name": "歷史",
+      "count": 20
+    },
+    {
       "name": "역사",
+      "count": 19
+    },
+    {
+      "name": "金曲獎",
       "count": 19
     },
     {
       "name": "Économie",
       "count": 19
-    },
-    {
-      "name": "台灣文化",
-      "count": 18
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4196,
+    "zh-TW": 4256,
     "en": 0
   },
-  "lastUpdated": "2026-05-11T22:11:32.415Z",
-  "stars": 981,
+  "lastUpdated": "2026-05-12T15:08:41.558Z",
+  "stars": 985,
   "forks": 146,
-  "zhPages": 3487,
-  "enPages": 709,
-  "totalPages": 4196
+  "zhPages": 3536,
+  "enPages": 720,
+  "totalPages": 4256
 }
