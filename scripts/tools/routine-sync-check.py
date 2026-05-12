@@ -13,11 +13,22 @@ Compares docs/semiont/ROUTINE.md SSOT vs
   ✗ missing mirror   (SSOT lists task but no mirror dir)
   ✗ orphan mirror    (mirror exists but not in SSOT)
   ✗ skill drift      (mirror's name field != SSOT's task title)
+  ✗ cron drift       (mirror SKILL.md cron expression != SSOT cron column)
+                     ← v2 加入 2026-05-12 routine-v2-resync session
+                     ← 觸發：3-layer drift 揭露 SSOT 卡 v1.3 而 mirror 已 v2.0
+                     ← cron 全 mismatch，tool 跑出 ok=10 / drift=0 silent pass
   ✗ thick mirror     (mirror > 30 lines = warn, > 50 = hard)
                      per 薄殼鐵律 1: mirrors must be thin pointers
 
 Mirrors should pointer back to ROUTINE.md + canonical pipeline, not
 inline Stage steps / quality gates / escalation logic.
+
+⚠️ MCP live state limitation:
+    本 tool 比對 SSOT (ROUTINE.md) vs file mirror (SKILL.md)。
+    MCP scheduled-tasks server live cron state 存在 server 內部 store，無 file
+    access — tool 抓不到第三 layer (live ↔ mirror) drift。要驗證需 manual
+    跑 `mcp__scheduled-tasks__list_scheduled_tasks` 對比。本 tool 跑 pass
+    只代表 SSOT ↔ mirror sync，不代表 SSOT ↔ MCP live sync。
 
 Usage:
     python3 scripts/tools/routine-sync-check.py
@@ -86,8 +97,35 @@ def parse_mirror_frontmatter(skill_path):
     return fm, len(text.splitlines())
 
 
+def parse_mirror_cron(skill_path):
+    """Extract cron expression from SKILL.md prompt body.
+
+    Pattern: cron `0 22 * * *` (backtick-wrapped, 5 fields)
+    Returns normalized cron string or None if not found.
+    """
+    text = skill_path.read_text(encoding="utf-8")
+    m = re.search(r"cron\s+`([0-9*/,\-\s]+)`", text)
+    if m:
+        return " ".join(m.group(1).split())
+    return None
+
+
+def normalize_cron(cron_str):
+    """Normalize cron expression for comparison (strip quotes, collapse whitespace)."""
+    if not cron_str:
+        return None
+    return " ".join(cron_str.strip().strip("'\"`").split())
+
+
 def audit(warn_lines, hard_lines):
-    results = {"missing": [], "orphan": [], "drift": [], "thick": [], "ok": []}
+    results = {
+        "missing": [],
+        "orphan": [],
+        "drift": [],
+        "cron_drift": [],
+        "thick": [],
+        "ok": [],
+    }
 
     if not ROUTINE_SSOT.exists():
         print(f"❌ ROUTINE SSOT not found: {ROUTINE_SSOT}", file=sys.stderr)
@@ -126,6 +164,25 @@ def audit(warn_lines, hard_lines):
                 }
             )
 
+        ssot_cron = normalize_cron(meta.get("cron"))
+        mirror_cron = normalize_cron(parse_mirror_cron(skill_md))
+        if ssot_cron and mirror_cron and ssot_cron != mirror_cron:
+            results["cron_drift"].append(
+                {
+                    "task_id": task_id,
+                    "ssot": ssot_cron,
+                    "mirror": mirror_cron,
+                }
+            )
+        elif ssot_cron and mirror_cron is None:
+            results["cron_drift"].append(
+                {
+                    "task_id": task_id,
+                    "ssot": ssot_cron,
+                    "mirror": "<not found in SKILL.md>",
+                }
+            )
+
         thick_severity = None
         if line_count > hard_lines:
             thick_severity = "hard"
@@ -151,7 +208,12 @@ def audit(warn_lines, hard_lines):
             results["orphan"].append({"task_id": mirror_id})
 
     exit_code = 0
-    if results["missing"] or results["orphan"] or results["drift"]:
+    if (
+        results["missing"]
+        or results["orphan"]
+        or results["drift"]
+        or results["cron_drift"]
+    ):
         exit_code = 1
     if any(t["severity"] == "hard" for t in results["thick"]):
         exit_code = 1
@@ -189,6 +251,16 @@ def print_human(results, exit_code):
             )
         print()
 
+    if results["cron_drift"]:
+        print(
+            f"❌ CRON_DRIFT ({len(results['cron_drift'])}) — SSOT cron 欄位 vs mirror SKILL.md cron 不一致 (DNA #38):"
+        )
+        for r in results["cron_drift"]:
+            print(
+                f"   {r['task_id']:32s} ssot='{r['ssot']}' mirror='{r['mirror']}'"
+            )
+        print()
+
     if results["thick"]:
         print(f"⚠️  THICK ({len(results['thick'])}) — mirror 違反薄殼鐵律 (per MANIFESTO §指標 over 複寫):")
         for r in sorted(results["thick"], key=lambda x: -x["lines"]):
@@ -206,7 +278,18 @@ def print_human(results, exit_code):
         f"ok={len(results['ok'])}  thick(warn)={len(results['thick']) - hard_thick}  "
         f"thick(hard)={hard_thick}  missing={len(results['missing'])}  "
         f"orphan={len(results['orphan'])}  drift={len(results['drift'])}  "
+        f"cron_drift={len(results['cron_drift'])}  "
         f"exit={exit_code}"
+    )
+    print()
+    print(
+        "⚠️  Note: 本 tool 只 check SSOT (ROUTINE.md) ↔ file mirror (SKILL.md) sync。"
+    )
+    print(
+        "    MCP scheduled-tasks server live cron state 為 server 內部 store，無 file access。"
+    )
+    print(
+        "    驗證第三 layer (live ↔ mirror) 需 manual 跑 `mcp__scheduled-tasks__list_scheduled_tasks`。"
     )
 
 
