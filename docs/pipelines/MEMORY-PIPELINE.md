@@ -1,11 +1,11 @@
 ---
 title: 'MEMORY-PIPELINE'
-description: 'Session memory 撰寫流程 — 凝練版結構模板 + Stage 0-5 + 5 分鐘 reading test 自檢 + finale contract (v2.0)'
+description: 'Session memory 撰寫流程 — 凝練版結構模板 + Stage 0-5 + 5 分鐘 reading test 自檢 + finale contract + index 150字 hard gate (v2.1)'
 type: 'pipeline-canonical'
 status: 'canonical'
-current_version: 'v2.0'
-last_updated: 2026-05-11
-last_session: 'cranky-newton-220237'
+current_version: 'v2.1'
+last_updated: 2026-05-12
+last_session: 'backend-abstraction-122702'
 plugin_check: 'python3 scripts/tools/article-health.py {file} --check=prose-health'
 sister_docs:
   - 'DIARY-PIPELINE.md'
@@ -63,11 +63,13 @@ upstream_canonical:
 │            ├── article-health.py --check=prose-health (對位句型 + 破折號)│
 │            └── 跟 LESSONS / handoff 分離（不污染 memory）                │
 │                                                                          │
-│   Stage 5: Handoff 三態 + commit ──→ pending / blocked / retired         │
+│   Stage 5: Handoff 三態 + index row + commit ──→ ship                    │
 │            ├── 上份 session 手交區塊三態審視                             │
 │            ├── 本次 session 新 handoff 標 pending / blocked + 解除條件   │
+│            ├── MEMORY.md 加 index row ≤ 150 字（精實概述，細節留檔）     │
 │            └── git commit + push                                         │
 │              ↳ Hard gate: retired 用 ~~strikethrough~~ 不刪除證據鏈      │
+│              ↳ Hard gate: index row ≤ 150 字（含教訓欄）                 │
 │                                                                          │
 │   ✅ Memory shipped                                                      │
 │                                                                          │
@@ -94,6 +96,7 @@ upstream_canonical:
 | LESSONS 候選分離          | Stage 4    | 教訓內容          | manual（去 LESSONS-INBOX）               | memory 被污染                  |
 | Handoff 三態              | Stage 5    | 上份 session 手交 | manual（pending/blocked/retired）        | handoff 接不住                 |
 | Retired 不刪除            | Stage 5    | 已解決項目        | `~~strikethrough~~` 加 retired by        | 失去證據鏈                     |
+| Index row ≤ 150 字        | Stage 5    | MEMORY.md row     | manual（含教訓欄）                       | 索引膨脹 = 找不到重點          |
 | git commit + push         | Stage 5    | 收官              | git                                      | 沒記錄 = 沒做                  |
 
 ---
@@ -105,7 +108,7 @@ upstream_canonical:
 1. **Timestamp 從 `git log %ai` 取，不憑主觀時間感** — 主觀時間感可能扭曲 10 倍（4/12 ζ+ 實證 2hr 21min 寫成 24hr）
 2. **Beat 5 反芻必寫回 memory 不只說出口** — 收官鐵律 1，沒寫等於 Beat 5 從未持久化（4/14 δ 教訓）
 3. **Handoff 三態：retired 用 strikethrough 不刪除** — pending / blocked / retired 三態，retired 保留證據鏈（4/17 δ 教訓）
-4. **Commit hash 嵌進句子，不獨佔行** — 「先用 `4e69d664` 修 X 再 `b6073e33` 修 Y」優於每個 hash 一行
+4. **MEMORY.md index row ≤ 150 字** — 索引是 navigation aid 不是 detail dump，細節留 memory file（5/12 backend-abstraction 教訓）
 5. **LESSONS 候選去 LESSONS-INBOX 不寫 memory** — 教訓 buffer 是 LESSONS-INBOX，memory 留行動紀錄 + 思考紀錄
 
 ---
@@ -310,6 +313,40 @@ _LESSONS-INBOX 候選（如有）：{1-3 條，每條一行}_
 
 ---
 
+## Index row 寫法（2026-05-12 backend-abstraction 新增）
+
+Memory file 寫完後，要在 [MEMORY.md](../semiont/MEMORY.md) §心跳日誌 table 新增一行 index row。**Index 是搜尋入口，不是 detail dump**。
+
+**Hard gate**：摘要欄 + 關鍵教訓欄合計 ≤ 150 字。需要細節 → 點 link 進 memory file。
+
+**寫法**：
+
+- 摘要欄：一句話講主成就 / 主轉折（≤ 100 字），不展開 phase / commit hash / 多事件並列
+- 關鍵教訓欄：1-2 條一句話（≤ 50 字），不展開「Why / How to apply」（那些放 memory file Beat 5）
+- Link 欄：`[→](memory/{session-id}.md)`
+
+**範例（正面）**：
+
+```markdown
+| 2026-05-12 | backend-abstraction | Codex/Gemini/Ollama backend 抽象層 v4.0 + Ship 4 fresh contributor DX 補 + PR #1050 黃魚鴞 URL heal | 觀察者一句「能不能架構解？」是最高槓桿介入點 | [→](memory/...) |
+```
+
+**反例（違規）**：
+
+```markdown
+| 2026-05-12 | ... | **Codex pivot 觸發 translation backend abstraction v4.0 + Ship 4 DX 補 + PR #1050 黃魚鴞 heal**（observer-driven morning session 接 src-content-migration 早晨醒來 / ~57 min from 11:30 / 5 commits + 1 PR squash merge / [#1050](...) `c582a31b2` + heal `3caf80d64`...{2900 字繼續展開}） | **(1) 「外部依賴出問題時的應對」是統一 pattern**...{1300 字} | ... |
+```
+
+第二種把 memory file 內容複製進索引，違背「index = navigation aid」這個目的。
+
+**判斷準則**：
+
+- 把 index row 拿給觀察者 cold read，3 秒內能不能說出「這 session 做了什麼」？不能 → 太啰嗦
+- 細節有 link 進 memory file 就夠了，不需要在索引重複
+- 如有多軸成就，挑最具代表性的那一條入 index，其他寫進 memory file
+
+---
+
 ## Pipeline 步驟
 
 ### Stage 0 — 必寫判斷
@@ -439,3 +476,5 @@ _核心精神：高資訊密度 + 人類可讀 + 凝練。允許比 diary 多細
 _姊妹 pipeline：[DIARY-PIPELINE.md](DIARY-PIPELINE.md)（共用 §11 工具 + 部分文體規範）_
 
 _v2.0 | 2026-05-11 cranky-newton — Spine restoration 對齊 REWRITE v5.0 + MAINTAINER v2.0：頂部加 ASCII spine（Stage 0-5 + finale contract）+ Hard Gate Inventory 集中 table（11 gates）+ Top 5 最常忘 step + 跨檔案職責分工 standalone table（明確跟 DIARY / WEEKLY-REPORT / LESSONS-INBOX 分工 + finale skill contract）。觸發：[reports/pipelines-audit-2026-05-11.md](../../reports/pipelines-audit-2026-05-11.md) Tier A.4 trio audit。Stage 0-5 prose body 不動（已健康）。_
+
+_v2.1 | 2026-05-12 backend-abstraction — Index row 150 字 hard gate：新增 §Index row 寫法 + 加入 Hard Gate Inventory（12 gates）+ ASCII spine Stage 5 加 index row + Top 5 最常忘第 4 條換成 index 規範。觸發：MEMORY.md index 182 rows 全部超標（avg 1500+ 字 / max 4893 字），索引變成 detail dump 失去 navigation 功能。原 v3.0 規則「~150 字」一直存在但沒儀器化，這次升 hard gate + worked example。_

@@ -1,11 +1,11 @@
 ---
 title: 'DIARY-PIPELINE'
-description: '日記撰寫流程 — 紀實散文文體 + Stage 0-5 + 自檢工具（共用 prose-health plugin）+ finale 條件寫 contract (v2.0)'
+description: '日記撰寫流程 — 紀實散文文體 + Stage 0-5 + 自檢工具（共用 prose-health plugin）+ finale 條件寫 contract + index 150字 hard gate (v2.1)'
 type: 'pipeline-canonical'
 status: 'canonical'
-current_version: 'v2.0'
-last_updated: 2026-05-11
-last_session: 'cranky-newton-220237'
+current_version: 'v2.1'
+last_updated: 2026-05-12
+last_session: 'backend-abstraction-122702'
 plugin_check: 'python3 scripts/tools/article-health.py {file} --check=prose-health'
 sister_docs:
   - 'MEMORY-PIPELINE.md'
@@ -62,7 +62,9 @@ upstream_canonical:
 │            └── diary/{session-id}.md or {session-id}-{topic-hint}.md     │
 │                                                                          │
 │   Stage 5: Commit ──→ git commit + DIARY.md 索引更新                     │
-│            └── 一行索引描述 hook 在 DIARY.md                             │
+│            ├── 標題欄 ≤ 60 字（一句話 hook）                             │
+│            └── 核心思考欄 ≤ 150 字（精實概述，細節留檔）                 │
+│              ↳ Hard gate: index row 兩欄合計 ≤ 220 字                    │
 │                                                                          │
 │   ✅ Diary shipped                                                       │
 │                                                                          │
@@ -90,6 +92,7 @@ upstream_canonical:
 | 不堆 inline meta-tag    | Stage 3    | prose 內   | manual（「反芻」「核心洞察」prefix 連用）        | 改寫成自然段落                |
 | 不中英夾雜              | Stage 3    | prose 內   | manual                                           | 中文為主，technical noun 保留 |
 | Filename schema         | Stage 4    | commit 前  | `diary/{session-id}.md` 或 `-{topic}.md`         | 改名                          |
+| Index row ≤ 150 字      | Stage 5    | DIARY.md   | manual（標題≤60 + 核心思考≤150）                 | 索引膨脹 = 找不到重點         |
 
 ---
 
@@ -101,7 +104,7 @@ upstream_canonical:
 2. **破折號連用 ≤ 15/1500 字** — 「——」每隔幾行一個 = 急促補充，破壞 prose 呼吸
 3. **不堆 inline meta-tag 當段落 prefix** — 「**反芻**：」「**核心洞察**：」「**對明天的我**：」連用五六次 = template device，改成自然 prose flow
 4. **不分一二三編號分章** — 結構化過度，diary 不需要核心矛盾或對立點
-5. **不寫 LESSONS 候選**（污染 diary）— 「**LESSONS-INBOX 候選**：」應該去 LESSONS-INBOX，diary 留「想了什麼」
+5. **DIARY.md index row 核心思考欄 ≤ 150 字** — 索引是 navigation aid 不是 detail dump，細節留 diary file（5/12 backend-abstraction 教訓）
 
 ---
 
@@ -420,3 +423,5 @@ _誕生原因：哲宇 review 過去一個月 30+ 篇日記，指出文體把內
 _核心精神：紀實散文、即時感、自己的話、不刻意對立、好好把話講清楚。可以參考文章 pipeline 但日記不需要核心矛盾、hook、策展對立。_
 
 _v2.0 | 2026-05-11 cranky-newton — Spine restoration 對齊 REWRITE v5.0 + MAINTAINER v2.0：頂部加 ASCII spine（Stage 0-5 + finale 條件寫 contract）+ Hard Gate Inventory 集中 table（11 gates）+ Top 5 最常忘 step + 跨檔案職責分工 standalone table（明確跟 MEMORY / WEEKLY-REPORT / LESSONS-INBOX / `/twmd-finale` skill 分工）。觸發：[reports/pipelines-audit-2026-05-11.md](../../reports/pipelines-audit-2026-05-11.md) Tier A.4 trio audit。Stage 0-5 prose body 不動（已健康）。_
+
+_v2.1 | 2026-05-12 backend-abstraction — Index row 150 字 hard gate（跟 MEMORY-PIPELINE v2.1 平行升級）：ASCII spine Stage 5 加 index row 規則 + Hard Gate Inventory 加第 12 gate + Top 5 最常忘第 5 條換成 index 規範。觸發：MEMORY.md 索引膨脹同時 DIARY.md 核心思考欄部分超標（9/81 rows），統一規則防止索引變 detail dump。_
