@@ -258,15 +258,19 @@ knowledge/ja/Food/bubble-tea.md      ← 日文
 git clone https://github.com/YOUR_USERNAME/taiwan-md.git
 cd taiwan-md
 
-# 3. 安裝依賴
+# 3. 安裝依賴（postinstall hook 會自動跑 sync.sh 產生 src/content/）
 bun install  # 或 npm install
 
-# 4. 設定 commit hook
-bun prepare  # 或 npm prepare
+# 4. 啟動本地 dev server
+bun dev  # 或 npm run dev → http://localhost:4321
 
 # 5. 設定上游倉庫
 git remote add upstream https://github.com/original/taiwan-md.git
 ```
+
+> **首次安裝為什麼會慢 ~20 秒？** `src/content/{lang}/` 從 2026-05-12 起改為 gitignored（由 `scripts/core/sync.sh` 自動從 `knowledge/` 投影產生），`postinstall` hook 會在 `npm install` 後自動跑一次 sync 把 src/content/ 重建出來。後續 `npm run dev` 啟動秒開，跟以前一樣。
+
+> **手動重 sync 時機**：(a) `git pull` 拉到新 knowledge/ 內容、(b) 切 branch 後 knowledge/ 不同、(c) 想驗證 sync.sh 行為時，跑 `npm run sync`（純 16s sync.sh）或 `npm run prebuild:sync`（同樣 alias）。
 
 #### 建立分支
 

@@ -176,6 +176,19 @@ Every claim needs a source. We use **Markdown footnotes** (`[^1]`) to link facts
 
 ---
 
+## 🚀 Quick Start (Local Development)
+
+```bash
+git clone https://github.com/frank890417/taiwan-md.git
+cd taiwan-md
+bun install       # 或 npm install — postinstall 會自動跑 sync.sh 重建 src/content/（~20s）
+bun dev           # 或 npm run dev — http://localhost:4321
+```
+
+> **`src/content/{lang}/` 是 gitignored derived state**（2026-05-12 起）— 由 `scripts/core/sync.sh` 從 `knowledge/` SSOT 自動投影。`npm install` 的 postinstall hook 已 cover 首次同步，後續 `npm run dev` 直接秒開。手動重 sync：`npm run sync`。完整背景：[reports/sync-architecture-evolution-2026-05-12.md](./reports/sync-architecture-evolution-2026-05-12.md) + [CONTRIBUTING.md](./CONTRIBUTING.md)。
+
+---
+
 ## 🏗️ Architecture
 
 ```
