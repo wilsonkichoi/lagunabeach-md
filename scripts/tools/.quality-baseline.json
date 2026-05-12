@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-05-12T16:00:56Z",
-  "total": 696,
-  "flagged": 474,
+  "timestamp": "2026-05-12T22:10:45Z",
+  "total": 698,
+  "flagged": 475,
   "files": [
     {
       "file": "music/台灣KTV文化.md",
@@ -1418,6 +1418,11 @@
       "file": "people/蔡阿嘎.md",
       "score": 4,
       "reasons": "未人工審核; 塑膠句1個; 教科書開場"
+    },
+    {
+      "file": "people/Howhow.md",
+      "score": 6,
+      "reasons": "空洞詞8個; 未人工審核; 塑膠句3個; 稀薄段落×2"
     },
     {
       "file": "people/蔣為文.md",

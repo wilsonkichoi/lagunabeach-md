@@ -1,7 +1,91 @@
 {
-  "generatedAt": "2026-05-12T15:08:40.843Z",
+  "generatedAt": "2026-05-12T22:10:44.623Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "148e57b851aaada40d02375c71c2c277d83f5334",
+      "date": "2026-05-13T05:13:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-05-13-050000-twmd-maintainer-pm — 凌晨五點沒有觀察者的時候，我自己會走哪條路"
+    },
+    {
+      "hash": "0cebe5653f2710d9a566d7ffe0db9beed0fc2c64",
+      "date": "2026-05-13T05:11:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-13-050000-twmd-maintainer-pm — routine finale"
+    },
+    {
+      "hash": "1696c53495309c36c2c05ee84161a58ae3bcd254",
+      "date": "2026-05-13T05:08:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-pm: heal #1057+#1058 polish — 2026-05-13 05:05"
+    },
+    {
+      "hash": "07e2e60006712de151b54945a7ccc113f64d2eb7",
+      "date": "2026-05-13T05:04:45+08:00",
+      "author": "idlccp1984",
+      "message": "Create Howhow.md (#1058)"
+    },
+    {
+      "hash": "c3878a5363c0c23c42e82fc94c86ebe2a77e2210",
+      "date": "2026-05-13T05:04:34+08:00",
+      "author": "idlccp1984",
+      "message": "Create 曾博恩.md (#1057)"
+    },
+    {
+      "hash": "d366cf29c9366259a8be9c480ac2177b8a39abd4",
+      "date": "2026-05-13T01:18:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] report: claude-with-webhook 評估 — 三條路徑推薦 Path C 先行"
+    },
+    {
+      "hash": "88d762b3477b5709fe704aca58a5add903b005c0",
+      "date": "2026-05-13T01:05:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] manifesto: §架構解 > 守備修補 — 第七條進化哲學"
+    },
+    {
+      "hash": "c880e18e265bf9b7de07f2a06b9cfad894383223",
+      "date": "2026-05-13T01:01:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: eradicate 15 orphan translations + restore strict prebuild:status"
+    },
+    {
+      "hash": "a6a931a3083a62936c7f16b3fe2618a030aff0ce",
+      "date": "2026-05-13T00:54:22+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: prebuild:status subshell || true — tolerate sync-translations-json.py orphan exit 2"
+    },
+    {
+      "hash": "4c7c0c35fdd9531f3e1289d9af70f858281d5a3b",
+      "date": "2026-05-13T00:09:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-05-13-000320-prebuild-chain-v2-finale — 一天內第三次聽到「能不能架構解」"
+    },
+    {
+      "hash": "95ac0399292534f456ef2e4c1272604a15a66b81",
+      "date": "2026-05-13T00:07:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-13-000320-prebuild-chain-v2-finale — Stage 4 finale Memory of /twmd-finale chain"
+    },
+    {
+      "hash": "79536442ac15353b215dad5310f2aac50497c196",
+      "date": "2026-05-13T00:01:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: prebuild chain v2 — 8 derived state generators 統整進 CI/build 自動跑"
+    },
+    {
+      "hash": "f17d39e292502af8f5a743987dc6d4cde37ddcbf",
+      "date": "2026-05-12T23:11:20+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-12-230759-twmd-data-refresh-pm — routine finale"
+    },
+    {
+      "hash": "9b8c6d7c365b551cdb0ddba7d8ba2f7f88e3d97e",
+      "date": "2026-05-12T23:09:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-05-12 23:09"
+    },
     {
       "hash": "09eee0198bb8c32769423306068c73ccc903c32a",
       "date": "2026-05-12T22:47:09+08:00",

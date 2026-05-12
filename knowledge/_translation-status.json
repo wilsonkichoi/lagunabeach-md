@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-13T01:01:07+08:00",
-    "zhCommitHead": "a6a931a30",
-    "totalZh": 696,
+    "lastUpdated": "2026-05-13T06:10:43+08:00",
+    "zhCommitHead": "148e57b85",
+    "totalZh": 698,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 696,
+        "total_zh": 698,
         "fresh": 554,
         "stale": 136,
         "metadata_stale": 6,
-        "missing": 0,
+        "missing": 2,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 696,
+        "total_zh": 698,
         "fresh": 552,
         "stale": 138,
         "metadata_stale": 6,
-        "missing": 0,
+        "missing": 2,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 696,
+        "total_zh": 698,
         "fresh": 550,
         "stale": 140,
         "metadata_stale": 6,
-        "missing": 0,
+        "missing": 2,
         "orphan": 0
       },
       "es": {
-        "total_zh": 696,
+        "total_zh": 698,
         "fresh": 551,
         "stale": 139,
         "metadata_stale": 6,
-        "missing": 0,
+        "missing": 2,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 696,
+        "total_zh": 698,
         "fresh": 551,
         "stale": 139,
         "metadata_stale": 6,
-        "missing": 0,
+        "missing": 2,
         "orphan": 0
       }
     },
@@ -25743,6 +25743,31 @@
         }
       }
     },
+    "People/曾博恩.md": {
+      "zh": {
+        "lastCommit": "1696c534",
+        "lastModified": "2026-05-13T05:08:35+08:00",
+        "contentHash": "sha256:717c11a05ae7b763",
+        "bodyHash": "sha256:be589700f06d5fe1"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "People/阿滴.md": {
       "zh": {
         "lastCommit": "4b6d28c5",
@@ -31942,6 +31967,31 @@
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "People/Howhow.md": {
+      "zh": {
+        "lastCommit": "1696c534",
+        "lastModified": "2026-05-13T05:08:35+08:00",
+        "contentHash": "sha256:73dfa081d010c505",
+        "bodyHash": "sha256:11c17d2c520110fa"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },

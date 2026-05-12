@@ -2698,23 +2698,6 @@
     "path": "ja/History/taiwan-strait-crises-and-cross-strait-relations.md"
   },
   {
-    "title": "台湾海峡危機と両岸関係の発展",
-    "description": "金門の阿嬤の砲弾の記憶から台北の若者の仏系的日常まで、70年間の台湾海峡危機は台湾人の集合的い心理をいかに形作ってきたのか",
-    "category": "ja",
-    "tags": [
-      "両岸関係",
-      "台湾海峡危機",
-      "歴史",
-      "国際関係",
-      "地政学"
-    ],
-    "url": "https://taiwan.md/ja/History/taiwan-strait-crises",
-    "readingTime": 13,
-    "featured": false,
-    "date": "2026-03-18",
-    "path": "ja/History/taiwan-strait-crises.md"
-  },
-  {
     "title": "台湾海洋貿易史",
     "description": "大航海時代の台湾――国際貿易中心から海賊王国への興亡の物語",
     "category": "ja",
@@ -2842,17 +2825,6 @@
     "featured": false,
     "date": "2026-03-18",
     "path": "ja/Art/contemporary-sculpture-in-taiwan.md"
-  },
-  {
-    "title": "台湾現代彫刻の発展",
-    "description": "楊英風、朱銘から新世代へ、台湾彫刻芸術の変遷の軌跡と創作精神を探る",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Art/contemporary-sculpture",
-    "readingTime": 24,
-    "featured": false,
-    "date": "2026-03-18",
-    "path": "ja/Art/contemporary-sculpture.md"
   },
   {
     "title": "台湾現代詩",
@@ -4440,23 +4412,6 @@
   },
   {
     "title": "台湾の漫画・アニメ文化",
-    "description": "漫画王国の黄金期からCCC創作集による文化復興まで——日本漫画の猛攻の中で台湾漫画がいかに独自の声を見つけたか",
-    "category": "ja",
-    "tags": [
-      "漫画",
-      "アニメ",
-      "クリエイティブ産業",
-      "サブカルチャー",
-      "若者文化"
-    ],
-    "url": "https://taiwan.md/ja/Culture/manga-and-anime-culture",
-    "readingTime": 20,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "ja/Culture/manga-and-anime-culture.md"
-  },
-  {
-    "title": "台湾の漫画・アニメ文化",
     "description": "ドラえもん（小叮噹）、『スラムダンク』（灌籃高手）、『美少女戦士セーラームーン』（美少女戰士）は、1980～90年代の台湾の青少年にとって共通の文化言語です。開拓動漫祭（Fancy Frontier、略称FF）は1999年の開始から現在まで40回以上開催されており、毎回10万人以上を動員しています。同人誌やコスプレの文化からは、『返校（Detention）』『還願（Devotion）』のクリエイターが育ちました。台湾の漫画・アニメ文化は外来娯楽の模倣ではなく、二世代にわたる共通の記憶と創作の土壌です。",
     "category": "ja",
     "tags": [],
@@ -4465,24 +4420,6 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "ja/Culture/taiwan-comics-and-animation-culture.md"
-  },
-  {
-    "title": "台湾の漫画とイラスト",
-    "description": "鄭問が「アジアの至宝」として日本を征服し、蔡志忠が古典哲学を漫画で描いた——台湾漫画が世界の舞台で放つ独自の文化的魅力",
-    "category": "ja",
-    "tags": [
-      "漫画",
-      "イラスト",
-      "視覚芸術",
-      "鄭問",
-      "蔡志忠",
-      "金漫賞"
-    ],
-    "url": "https://taiwan.md/ja/Art/comics-and-illustration",
-    "readingTime": 16,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "ja/Art/comics-and-illustration.md"
   },
   {
     "title": "台湾の製香文化と香脚の原郷",
@@ -4851,17 +4788,6 @@
     "featured": false,
     "date": "2026-03-23",
     "path": "ja/Food/taiwan-coffee-industry.md"
-  },
-  {
-    "title": "台湾のコミュニティと里文化",
-    "description": "最も基層の民主主義の実践からコミュニティづくりの社会革新へ",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Society/community-and-li-culture",
-    "readingTime": 28,
-    "featured": false,
-    "date": null,
-    "path": "ja/Society/community-and-li-culture.md"
   },
   {
     "title": "台湾のコミュニティと里文化",
@@ -16009,6 +15935,23 @@
     "path": "People/幾米.md"
   },
   {
+    "title": "曾博恩：從神經科學到小巨蛋，一個「不搞笑」的人如何定義台灣喜劇",
+    "description": "1990 年出生的曾博恩，以神經科學雙碩士背景跨界單口喜劇，創辦薩泰爾娛樂並推出《博恩夜夜秀》，成為首位登上小巨蛋的喜劇演員。他在理性研究與冒犯藝術間拉扯，試圖用「不搞笑」的科學態度，在台灣播下美式諷刺喜劇的種子。",
+    "category": "People",
+    "tags": [
+      "曾博恩",
+      "薩泰爾娛樂",
+      "單口喜劇",
+      "博恩夜夜秀",
+      "台灣文化"
+    ],
+    "url": "https://taiwan.md/People/%E6%9B%BE%E5%8D%9A%E6%81%A9",
+    "readingTime": 11,
+    "featured": false,
+    "date": "2026-05-13",
+    "path": "People/曾博恩.md"
+  },
+  {
     "title": "曾雅妮",
     "description": "109週世界第一，LPGA 15冠5大賽，22歲成史上最年輕擁有5座大賽金盃的球員，超越老虎伍茲的紀錄；2025年結束11年冠軍荒，再度封后",
     "category": "People",
@@ -18987,17 +18930,6 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "People/龍應台.md"
-  },
-  {
-    "title": "厳長寿：郵便室の見習いから観光教父へ、そしてすべてを手放した男",
-    "description": "高校卒業の学歴。23歳でアメリカン・エキスプレスの郵便室で働き始めた。5年後に総経理に就任。さらに5年後、アジアを代表するホテルの社長となり、「ゲストが車を降りる前に名前を呼ぶ」サービスシステムを考案した。60万部のベストセラー著者。62歳で職を辞し、台東の過疎地で学校を設立。翌年、腎臓を一つ摘出した。78歳で太平洋のほとりに芸術園區を完成させた。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/People/yen-chang-shou",
-    "readingTime": 29,
-    "featured": false,
-    "date": "2026-04-06",
-    "path": "ja/People/yen-chang-shou.md"
   },
   {
     "title": "厳長寿：郵便室の使い走りから観光の教父へ、そしてすべてを手放した男",
@@ -27003,24 +26935,6 @@
     "path": "es/Food/heysong-soft-drinks.md"
   },
   {
-    "title": "Highways: From the MacArthur Highway to the Xueshan Tunnel, Fifty Years of Power and Speed on Taiwan's National Highways",
-    "description": "The MacArthur Highway, opened in 1964, was only 23 kilometers long; today, Taiwan's national highway network exceeds 1,000 kilometers. From the Zhongshan Expressway approved by Chiang Ching-kuo, the Fukuo Expressway mocked as a 'political road,' to the Xueshan Tunnel, the world's most difficult to excavate, and ETC changing every driver's payment habits—these asphalt roads record post-war Taiwan's political will, engineering limits, and civilian resistance.",
-    "category": "en",
-    "tags": [
-      "National Highway",
-      "Transportation Infrastructure",
-      "Ten Major Construction Projects",
-      "Xueshan Tunnel",
-      "ETC",
-      "Post-war Taiwan"
-    ],
-    "url": "https://taiwan.md/en/Lifestyle/freeway",
-    "readingTime": 61,
-    "featured": false,
-    "date": "2026-05-03",
-    "path": "en/Lifestyle/freeway.md"
-  },
-  {
     "title": "Highways: From the MacArthur Highway to the Xueshan Tunnel, Taiwan's 50 Years of Power and Speed",
     "description": "The MacArthur Highway, opened in 1964, was only 23 kilometers long; today, Taiwan's national highway network exceeds 1,000 kilometers. From the Zhongshan Expressway approved by Chiang Ching-kuo, the 'political road' (Fu-Hsin Expressway) that was mocked, the world's most difficult-to-dig Xueshan Tunnel, to ETC changing every driver's payment habits—each stretch of asphalt records post-war Taiwan's political will, engineering limits, and civilian resistance.",
     "category": "ja",
@@ -27482,6 +27396,17 @@
     "featured": false,
     "date": "2026-04-07",
     "path": "en/Geography/how-to-read-the-taiwan-map.md"
+  },
+  {
+    "title": "Howhow：從一人分飾多角的邊緣人，到重新定義廣告的業配之王",
+    "description": "1989年出生的陳孜昊，從政大經濟系跨界到美國薩凡納藝術設計學院攻讀視覺特效。他以一人分飾多角的無厘頭短劇，將觀眾最反感的「業配」轉化為頻道最強的核心競爭力。這場長達十年的「孤獨演出」，重新定義了傳統行銷的界線，並讓他在自嘲與邊緣人設定中，建立起與台灣鄉民最深層的集體共鳴。",
+    "category": "People",
+    "tags": [],
+    "url": "https://taiwan.md/People/Howhow",
+    "readingTime": 16,
+    "featured": false,
+    "date": "2026-05-13",
+    "path": "People/Howhow.md"
   },
   {
     "title": "Hsi Mu-jung : La poétesse du désert et du cœur",
@@ -30204,41 +30129,6 @@
     "path": "es/Economy/taiwan-agriculture-and-rural-revitalization.md"
   },
   {
-    "title": "La bande dessinée et l'illustration à Taïwan",
-    "description": "De Zheng Wen conquérant le Japon au titre de « trésor de l'Asie », à Tsai Chih-chung réinterprétant la philosophie classique en manga, la BD taïwanaise rayonne sur la scène mondiale avec une identité culturelle unique.",
-    "category": "fr",
-    "tags": [
-      "bande dessinée",
-      "illustration",
-      "arts visuels",
-      "Zheng Wen",
-      "Tsai Chih-chung",
-      "Golden Comic Awards"
-    ],
-    "url": "https://taiwan.md/fr/Art/comics-and-illustration",
-    "readingTime": 43,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "fr/Art/comics-and-illustration.md"
-  },
-  {
-    "title": "La bande dessinée et la culture animée à Taïwan",
-    "description": "De l'âge d'or des librairies de manga jusqu'à la renaissance créative du CCC, comment la bande dessinée taïwanaise a trouvé sa propre voix face à la domination japonaise",
-    "category": "fr",
-    "tags": [
-      "bande dessinée",
-      "animation",
-      "industries créatives",
-      "sous-culture",
-      "culture jeunesse"
-    ],
-    "url": "https://taiwan.md/fr/Culture/manga-and-animation-culture",
-    "readingTime": 59,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "fr/Culture/manga-and-animation-culture.md"
-  },
-  {
     "title": "La bande dessinée taïwanaise",
     "description": "Des années 1970, ère du « royaume de la BD » avec Liu Xingqin et Ao Youxiang, à la conquête du Japon par Zheng Wen en 1991 — sacré « trésor de l'Asie » —, en passant par la vulgarisation de la philosophie classique par Cai Zhizhong dans *Zhuangzi*, puis le Golden Comic Award en 2010 et la plateforme *CCC Creative Collection* en 2017 : la bande dessinée taïwanaise a traversé une longue traversée du dominée par le manga japonais et retrouve aujourd'hui sa voix créatrice originale.",
     "category": "fr",
@@ -31098,24 +30988,6 @@
     "featured": false,
     "date": "2026-03-28",
     "path": "fr/Society/volunteer-culture-new.md"
-  },
-  {
-    "title": "La culture du café à Taïwan : l'île où les supérettes vendent six cents millions de tasses par an",
-    "description": "Du premier caféier planté à Gukeng sous l'ère japonaise, il a fallu cent ans pour que Taïwan devienne une île où une nouvelle enseigne café ouvre tous les cinquante mètres. Louisa dépasse Starbucks en nombre de boutiques. Le café d'Alishan s'impose sur la scène internationale. Pour les Taïwanais, le café n'a jamais été qu'une simple boisson.",
-    "category": "fr",
-    "tags": [
-      "café",
-      "Louisa Coffee",
-      "café dAlishan",
-      "café de spécialité",
-      "supérette",
-      "troisième lieu"
-    ],
-    "url": "https://taiwan.md/fr/Lifestyle/coffee-culture",
-    "readingTime": 61,
-    "featured": false,
-    "date": "2026-04-06",
-    "path": "fr/Lifestyle/coffee-culture.md"
   },
   {
     "title": "La culture du café à Taïwan : une île où les supérettes vendent six cents millions de tasses par an",
@@ -39635,24 +39507,6 @@
     "featured": false,
     "date": "2026-04-17",
     "path": "fr/Society/earthquakes-in-taiwan.md"
-  },
-  {
-    "title": "Semiconductor Industry",
-    "description": "From Morris Chang's Historical Gamble to the 2nm Era: How TSMC Made Taiwan the Global Technology Lifeline",
-    "category": "fr",
-    "tags": [
-      "semiconductor",
-      "TSMC",
-      "TSMC",
-      "advanced process",
-      "tech island",
-      "silicon shield"
-    ],
-    "url": "https://taiwan.md/fr/Technology/taiwan-semiconductor-industry",
-    "readingTime": 63,
-    "featured": false,
-    "date": "2026-03-17",
-    "path": "fr/Technology/taiwan-semiconductor-industry.md"
   },
   {
     "title": "Semiconductor Industry",
@@ -49078,23 +48932,6 @@
     "path": "ko/Art/taiwan-comics.md"
   },
   {
-    "title": "대만 만화와 애니메이션 문화",
-    "description": "만화왕의 황금기부터 CCC 창작집의 문화 부흥까지, 일본 만화의 강세 속에서 대만 만화가 자신만의 목소리를 찾아온 여정",
-    "category": "ko",
-    "tags": [
-      "만화",
-      "애니메이션",
-      "문화 창작",
-      "서브컬처",
-      "청소년 문화"
-    ],
-    "url": "https://taiwan.md/ko/Culture/manga-and-anime-culture",
-    "readingTime": 23,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "ko/Culture/manga-and-anime-culture.md"
-  },
-  {
     "title": "대만 무역과 글로벌 공급망",
     "description": "수출 주도에서 공급망 핵심 노드로: 미중 대립 속에서 대만이 무역 우위를 유지하는 방법",
     "category": "ko",
@@ -50055,24 +49892,6 @@
     "path": "ko/Society/taiwan-youth-career-confusion.md"
   },
   {
-    "title": "대만 커피 문화: 편의점에서 한 해 6억 잔이 팔리는 섬",
-    "description": "일제강점기 윈린 구컹(雲林古坑)에 심어진 첫 커피나무 한 그루가, 100년 뒤 50미터마다 커피숍이 늘어선 도시 풍경을 만들었다. 루이사(路易莎)는 600곳까지 확장하며 스타벅스를 넘어섰고, 아리산(阿里山) 커피는 국제 대회에 진출했다. 대만 사람들의 커피는 결코 그냥 커피가 아니다.",
-    "category": "ko",
-    "tags": [
-      "커피",
-      "루이사",
-      "아리산 커피",
-      "스페셜티 커피",
-      "편의점",
-      "제3의 공간"
-    ],
-    "url": "https://taiwan.md/ko/Lifestyle/taiwan-coffee-culture",
-    "readingTime": 29,
-    "featured": false,
-    "date": "2026-04-06",
-    "path": "ko/Lifestyle/taiwan-coffee-culture.md"
-  },
-  {
     "title": "대만 타이위 노래의 변천: 어르신 노래에서 인디 팬의 사랑으로",
     "description": "나카시, 홍이펑, 장혜매 시대부터 가지단(茄子蛋), 파이시에샤오녠(拍謝少年) 등 신세대 밴드까지, 타이위 음악이 어떻게 젊은 세대의 마음을 다시 사로잡았는지 그 변천 과정을 추적한다.",
     "category": "ko",
@@ -50670,24 +50489,6 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "ko/Nature/trail-culture-and-civic-stewardship.md"
-  },
-  {
-    "title": "대만의 만화와 일러스트",
-    "description": "정원이 일본을 정복하여 \"아시아의 보물\"이 되고, 차이즈중이 만화로 고전 철학을 해석하기까지, 대만 만화는 세계 무대에서 독특한 문화적 매력을 발휘하고 있다.",
-    "category": "ko",
-    "tags": [
-      "만화",
-      "일러스트",
-      "시각 예술",
-      "정원",
-      "차이즈중",
-      "금만상"
-    ],
-    "url": "https://taiwan.md/ko/Art/comics-and-illustration",
-    "readingTime": 18,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "ko/Art/comics-and-illustration.md"
   },
   {
     "title": "대만의 묘회와 진두 문화",
@@ -57413,17 +57214,6 @@
     "featured": false,
     "date": "2026-05-02",
     "path": "ja/Society/taiwan-disaster-volunteer-culture.md"
-  },
-  {
-    "title": "シャベル超人と島嶼の同時性：台湾の災害ボランティア文化がいかに国族アイデンティティを形作るか",
-    "description": "2025年花蓮光復郷の水害を鏡として、台湾特有の災害ボランティア動員モデルがソーシャルメディアを通じて島嶼共同体意識をいかに再定義するかを探る。921地震から花蓮水害に至るまでの社会レジリエンスの進化の軌跡。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Society/disaster-volunteers",
-    "readingTime": 37,
-    "featured": false,
-    "date": "2026-03-24",
-    "path": "ja/Society/disaster-volunteers.md"
   },
   {
     "title": "スウィンホー：外交官から博物学者へ",

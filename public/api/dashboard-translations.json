@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T16:00:56.587Z",
+  "lastUpdated": "2026-05-12T22:10:45.714Z",
   "languages": [
     "zh-TW",
     "en",
@@ -10,72 +10,72 @@
   ],
   "summary": {
     "zh-TW": {
-      "total": 694,
+      "total": 696,
       "percentage": 100,
-      "fresh": 694,
+      "fresh": 696,
       "stale": 0,
       "missing": 0,
       "deficit": 0
     },
     "en": {
       "total": 696,
-      "percentage": 100,
+      "percentage": 99.7,
       "fresh": 554,
       "metadataStale": 6,
       "stale": 136,
-      "missing": 0,
-      "orphan": 1,
-      "deficit": 0,
-      "freshPct": 79.6,
-      "bodyFreshPct": 80.5
+      "missing": 2,
+      "orphan": 0,
+      "deficit": 2,
+      "freshPct": 79.4,
+      "bodyFreshPct": 80.2
     },
     "ja": {
       "total": 696,
-      "percentage": 100,
+      "percentage": 99.7,
       "fresh": 552,
       "metadataStale": 6,
       "stale": 138,
-      "missing": 0,
-      "orphan": 7,
-      "deficit": 0,
-      "freshPct": 79.3,
-      "bodyFreshPct": 80.2
+      "missing": 2,
+      "orphan": 0,
+      "deficit": 2,
+      "freshPct": 79.1,
+      "bodyFreshPct": 79.9
     },
     "ko": {
       "total": 696,
-      "percentage": 100,
+      "percentage": 99.7,
       "fresh": 550,
       "metadataStale": 6,
       "stale": 140,
-      "missing": 0,
-      "orphan": 3,
-      "deficit": 0,
-      "freshPct": 79,
-      "bodyFreshPct": 79.9
+      "missing": 2,
+      "orphan": 0,
+      "deficit": 2,
+      "freshPct": 78.8,
+      "bodyFreshPct": 79.7
     },
     "es": {
       "total": 696,
-      "percentage": 100,
+      "percentage": 99.7,
       "fresh": 551,
       "metadataStale": 6,
       "stale": 139,
-      "missing": 0,
+      "missing": 2,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 79.2,
-      "bodyFreshPct": 80
+      "deficit": 2,
+      "freshPct": 78.9,
+      "bodyFreshPct": 79.8
     },
     "fr": {
       "total": 696,
-      "percentage": 100,
+      "percentage": 99.7,
       "fresh": 551,
       "metadataStale": 6,
       "stale": 139,
-      "missing": 0,
-      "orphan": 4,
-      "deficit": 0,
-      "freshPct": 79.2,
-      "bodyFreshPct": 80
+      "missing": 2,
+      "orphan": 0,
+      "deficit": 2,
+      "freshPct": 78.9,
+      "bodyFreshPct": 79.8
     }
   },
   "matrix": {
@@ -460,41 +460,41 @@
       }
     },
     "people": {
-      "zh-TW": 214,
+      "zh-TW": 216,
       "en": {
         "count": 214,
         "fresh": 153,
         "stale": 61,
-        "missing": 0,
-        "deficit": 0
+        "missing": 2,
+        "deficit": 2
       },
       "ja": {
         "count": 214,
         "fresh": 153,
         "stale": 61,
-        "missing": 0,
-        "deficit": 0
+        "missing": 2,
+        "deficit": 2
       },
       "ko": {
         "count": 214,
         "fresh": 152,
         "stale": 62,
-        "missing": 0,
-        "deficit": 0
+        "missing": 2,
+        "deficit": 2
       },
       "es": {
         "count": 214,
         "fresh": 152,
         "stale": 62,
-        "missing": 0,
-        "deficit": 0
+        "missing": 2,
+        "deficit": 2
       },
       "fr": {
         "count": 214,
         "fresh": 152,
         "stale": 62,
-        "missing": 0,
-        "deficit": 0
+        "missing": 2,
+        "deficit": 2
       }
     },
     "society": {
@@ -576,34 +576,33 @@
   },
   "missing": {
     "en": [
+      "People/Howhow：從一人分飾多角的邊緣人，到重新定義廣告的業配之王.md",
+      "People/曾博恩：從神經科學到小巨蛋，一個「不搞笑」的人如何定義台灣喜劇.md",
       "Technology/半導體產業.md"
+    ],
+    "ja": [
+      "People/Howhow：從一人分飾多角的邊緣人，到重新定義廣告的業配之王.md",
+      "People/曾博恩：從神經科學到小巨蛋，一個「不搞笑」的人如何定義台灣喜劇.md"
+    ],
+    "ko": [
+      "People/Howhow：從一人分飾多角的邊緣人，到重新定義廣告的業配之王.md",
+      "People/曾博恩：從神經科學到小巨蛋，一個「不搞笑」的人如何定義台灣喜劇.md"
+    ],
+    "es": [
+      "People/Howhow：從一人分飾多角的邊緣人，到重新定義廣告的業配之王.md",
+      "People/曾博恩：從神經科學到小巨蛋，一個「不搞笑」的人如何定義台灣喜劇.md"
+    ],
+    "fr": [
+      "People/Howhow：從一人分飾多角的邊緣人，到重新定義廣告的業配之王.md",
+      "People/曾博恩：從神經科學到小巨蛋，一個「不搞笑」的人如何定義台灣喜劇.md"
     ]
   },
   "statusSource": "translation-status.json",
   "orphans": {
-    "en": [
-      "en/Lifestyle/freeway.md"
-    ],
-    "ja": [
-      "ja/Art/comics-and-illustration.md",
-      "ja/Art/contemporary-sculpture.md",
-      "ja/Society/disaster-volunteers.md",
-      "ja/Society/community-and-li-culture.md",
-      "ja/People/yen-chang-shou.md",
-      "ja/History/taiwan-strait-crises.md",
-      "ja/Culture/manga-and-anime-culture.md"
-    ],
-    "ko": [
-      "ko/Art/comics-and-illustration.md",
-      "ko/Lifestyle/taiwan-coffee-culture.md",
-      "ko/Culture/manga-and-anime-culture.md"
-    ],
+    "en": [],
+    "ja": [],
+    "ko": [],
     "es": [],
-    "fr": [
-      "fr/Technology/taiwan-semiconductor-industry.md",
-      "fr/Art/comics-and-illustration.md",
-      "fr/Lifestyle/coffee-culture.md",
-      "fr/Culture/manga-and-animation-culture.md"
-    ]
+    "fr": []
   }
 }

@@ -1,8 +1,8 @@
 {
-  "totalArticles": 4256,
+  "totalArticles": 4243,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 5291,
+  "totalTags": 5266,
   "categories": [
     {
       "name": "es",
@@ -10,19 +10,19 @@
     },
     {
       "name": "ko",
-      "count": 705
+      "count": 702
     },
     {
       "name": "fr",
-      "count": 722
+      "count": 718
     },
     {
       "name": "en",
-      "count": 720
+      "count": 719
     },
     {
       "name": "ja",
-      "count": 714
+      "count": 707
     },
     {
       "name": "History",
@@ -38,7 +38,7 @@
     },
     {
       "name": "People",
-      "count": 214
+      "count": 216
     },
     {
       "name": "Music",
@@ -111,16 +111,16 @@
       "count": 27
     },
     {
-      "name": "TSMC",
-      "count": 26
-    },
-    {
       "name": "政治",
       "count": 25
     },
     {
       "name": "인물",
       "count": 25
+    },
+    {
+      "name": "TSMC",
+      "count": 24
     },
     {
       "name": "半導體",
@@ -159,22 +159,22 @@
       "count": 19
     },
     {
-      "name": "金曲獎",
+      "name": "台灣文化",
       "count": 19
     },
     {
-      "name": "Économie",
+      "name": "金曲獎",
       "count": 19
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4256,
+    "zh-TW": 4243,
     "en": 0
   },
-  "lastUpdated": "2026-05-12T15:08:41.558Z",
-  "stars": 985,
+  "lastUpdated": "2026-05-12T22:10:45.328Z",
+  "stars": 986,
   "forks": 146,
-  "zhPages": 3536,
-  "enPages": 720,
-  "totalPages": 4256
+  "zhPages": 3524,
+  "enPages": 719,
+  "totalPages": 4243
 }
