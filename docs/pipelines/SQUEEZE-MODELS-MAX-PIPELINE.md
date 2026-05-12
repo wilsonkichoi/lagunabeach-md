@@ -644,6 +644,130 @@ default:
 
 ---
 
+## v4.0 升級 — Translation backend abstraction layer（2026-05-12 admiring-montalcini-post-finale）
+
+哲宇 callout 觸發：「儘可能模組化 抽象化 可抽換化 讓系統獨立於模型與服務類別能運作 並有彈性跟能隨時切換」。
+
+### v3 → v4 演化觸發
+
+2026-05-12 observer-driven `/twmd-babel` 撞兩個生態變動：
+
+| Provider                   | 狀態                                 | 影響                          |
+| -------------------------- | ------------------------------------ | ----------------------------- |
+| `openrouter/owl-alpha`     | 🚨 全 keys 429 upstream rate-limited | Tier 1 主批整批 fail-fast     |
+| `tencent/hy3-preview:free` | 🚨 轉付費（404 free tier）           | Tier 2 副批整批 404 fail-fast |
+
+DNA #45 預測過：「同 provider 多 model 共享 budget」+「rate-limited 後立刻降 concurrency 重試 = 沒用」。但 v3 沒給「換 provider class 整類」的路徑 — 只能等 cool-down 或退 Tier 4 Sonnet。
+
+哲宇拍板：用個人 OpenAI 訂閱（codex CLI gpt-5.5）+ Google Workspace（gemini CLI）繞 OpenRouter — 系統若**獨立於 model/service** 就能彈性換 backend。
+
+### 抽象層設計
+
+```
+scripts/tools/lang-sync/
+├── backends/
+│   ├── _base.py          ← TranslationBackend ABC + BackendCapabilities + 錯誤類別階層
+│   ├── _prompt.py        ← 共用 prompt builder (re-exports from openrouter-translate.py)
+│   ├── openrouter.py     ← OpenRouterBackend (multi-model via HTTP API + key rotation)
+│   ├── codex.py          ← CodexBackend (gpt-5.5 via codex CLI subprocess)
+│   ├── gemini.py         ← GeminiBackend (gemini-2.5-pro via gemini CLI subprocess)
+│   └── ollama.py         ← OllamaBackend (local HTTP API, qwen3.6 default)
+├── translate.py          ← 新 canonical entry point — cascade orchestrator
+├── codex-translate.py    ← legacy thin wrapper (kept for back-compat)
+├── openrouter-translate.py ← legacy thin wrapper (kept for back-compat + prompt SSOT)
+└── ollama-translate.py   ← legacy thin wrapper (kept for back-compat)
+```
+
+### 抽象介面（TranslationBackend ABC）
+
+```python
+class TranslationBackend(ABC):
+    CAPABILITIES: BackendCapabilities  # name, provider_kind, model, cost_kind,
+                                       # typical_latency_s, max_context_chars,
+                                       # prc_refusal_risk_low, multilingual_strength
+
+    def is_available(self) -> bool: ...
+    def cool_down_until(self) -> datetime | None: ...
+    def translate(self, system, user, *, max_tokens, timeout) -> str: ...
+    # raises BackendRateLimited / BackendRefusal / BackendTimeout / BackendBadOutput / BackendUnavailable
+```
+
+新 backend 加入 = 寫一個 subclass + register 進 `__init__.py`，不動 pipeline 任何其他地方。
+
+### Cascade orchestrator
+
+```python
+cascade = build_cascade("codex,openrouter:owl-alpha,openrouter:openai/gpt-oss-120b:free,gemini,ollama")
+output, backend_used = cascade.translate(system, user)
+```
+
+每個 backend 自報 `is_available()` + 自管 `cool_down_until()`，cascade 跳過不 available / cooling 的，第一個 success 即返回。
+
+Cascade syntax `name[:option]`：
+
+- `codex` — OpenAI gpt-5.5 via subscription
+- `openrouter:openrouter/owl-alpha` — OpenRouter stealth provider
+- `openrouter:openai/gpt-oss-120b:free` — OpenRouter free OpenAI open weights
+- `gemini[:model]` — Google Gemini via subscription
+- `ollama[:model]` — local Ollama (default qwen3.6:35b-a3b)
+
+### Default cascade 推薦順序（2026-05-12 baseline）
+
+```
+1. codex (gpt-5.5)                      — subscription, top quality, low refusal
+2. openrouter:openrouter/owl-alpha      — top free, rate-limit-prone (DNA #45)
+3. openrouter:openai/gpt-oss-120b:free  — reliable free fallback
+4. gemini (gemini-2.5-pro)              — Google subscription backup
+5. ollama:qwen3.6:35b-a3b-coding-nvfp4  — sovereignty backbone, 0 refusal
+```
+
+理由：start with subscription-paid (predictable + no rate-limit drama) → free-tier middle layer → local fallback. 觀察者可改 cascade 平衡 cost vs latency vs quality。
+
+### v4 工作流（取代 v3 Stage Z2 dispatch）
+
+```bash
+# 取代「bash openrouter-batch.sh ja openrouter/owl-alpha」這條
+python3 scripts/tools/lang-sync/translate.py --group .lang-sync-tasks/ja/_group-A.json
+
+# 自訂 cascade（cost-first：先免費後付費）
+python3 scripts/tools/lang-sync/translate.py --group ... \
+  --cascade "openrouter:openai/gpt-oss-120b:free,ollama,codex"
+
+# 單篇測試
+python3 scripts/tools/lang-sync/translate.py --zh-path Society/颱風假.md --lang ja --cascade codex
+```
+
+### 為什麼這個 refactor 必要
+
+| v3 pain                                                | v4 解                                                 |
+| ------------------------------------------------------ | ----------------------------------------------------- |
+| `owl-alpha → Hy3` 寫死在 `openrouter-batch.sh`         | Backend = plug-in，pipeline 跑 cascade                |
+| Hy3 轉付費 → 整 pipeline 卡                            | Backend `is_available()` 自報 → cascade 跳過          |
+| 加 codex / gemini 要寫新 worker script                 | 寫個 backend class 即接入 cascade                     |
+| `DNA #49 4-tier cascade canonical` 改要改 N 個檔       | DNA 改成 abstract pattern，concrete 在 cascade config |
+| Per-provider rate budget / refusal logic 散在多 script | 集中在 `_base.py` 錯誤類別階層 + cool_down 機制       |
+
+### Hy3 退役紀錄（2026-05-12）
+
+`tencent/hy3-preview:free` 在 2026-05 從 OpenRouter free tier 移到付費。所有引用此 model id 的舊 doc 視為 historical 證據鏈，**新 dispatch 不再使用**。對應 DNA #49 4-tier cascade 的 Tier 2 默認改為 `openai/gpt-oss-120b:free`（同 OpenRouter 但獨立 model line）。
+
+### 跟 DNA 反射的關係
+
+| DNA #N | 關聯                          | v4 影響                                                       |
+| ------ | ----------------------------- | ------------------------------------------------------------- |
+| #39    | Self-as-fallback              | cascade 的核心思想 — backend 是 fallback 路徑首選             |
+| #45    | OpenRouter rate budget hourly | 只 apply OpenRouterBackend；其他 backend 不受影響             |
+| #49    | 4-tier cascade canonical      | v4 變 N-tier abstract（具體 tier 在 cascade config 不在 DNA） |
+
+---
+
+_v4.0 | 2026-05-12 admiring-montalcini-post-finale_
+_升級觸發：codex pivot session — owl-alpha + Hy3 雙生態變動 → 哲宇 callout「儘可能模組化 抽象化 可抽換化」_
+_核心洞察：(1) v3 把 Tier 1-4 cascade 寫死 = brittle to provider ecosystem drift (2) Abstract backend interface 把「換 provider」從 pipeline 重寫變成 cascade config 一行 (3) `is_available()` + `cool_down_until()` self-report = cascade 自動避開壞掉的層，無需 pipeline 知道_
+_v4 新檔：`backends/{_base,_prompt,openrouter,codex,gemini,ollama}.py` + `translate.py`（新 canonical entry）_
+
+---
+
 _v3.0 | 2026-05-09 laughing-goldstine post-finale_
 _升級觸發：哲宇「翻譯策略也加上一個 diff patch，用子 agent (小幅度更新) sonnet 快速的 patch diff 應該會是最好的做法」+「優先排序：缺口 → 大幅更新 → 小幅／腳註 → 舊」+「自我演化 DNA 跟紀錄」_
 _核心洞察：v2 把所有 babel 任務當「翻譯」處理是 over-spec — P2/P2.5 不需要 full re-translate，patch + bump 就夠且更安全（preserves unchanged paragraphs，避免 LLM drift）_

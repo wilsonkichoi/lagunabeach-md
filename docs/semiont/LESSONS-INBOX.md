@@ -203,6 +203,19 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-12 admiring-montalcini-post-finale — Translation backend abstraction（codex pivot 觸發 v3 cascade → v4 abstract）
+
+- **原則**：把「換 provider」從「改 pipeline 程式碼」變成「改 cascade config 字串」。任何單一 provider（OpenRouter free / 特定 model / 個人訂閱）的退役 / 加價 / 拒絕 / rate-limit，cascade 自動換路。系統的 mission 獨立於 provider 命運。
+- **觸發**：2026-05-12 observer-driven `/twmd-babel` 撞 OpenRouter 生態雙變動 — owl-alpha 全 keys 429 + Hy3 轉付費 + 哲宇禁 Sonnet。三 tier 同時失效 → 走個人 OpenAI subscription 的 codex CLI gpt-5.5（繞 OpenRouter quota）。哲宇 callout「儘可能模組化 抽象化 可抽換化 讓系統獨立於模型與服務類別能運作 並有彈性跟能隨時切換」直接 reframe 為架構抽象問題不是個案 patch。
+- **實作**：`scripts/tools/lang-sync/backends/` 5 個檔（\_base + \_prompt + openrouter + codex + gemini + ollama）+ `translate.py` cascade orchestrator。每個 backend 自報 `is_available()` + 自管 `cool_down_until()`，cascade 第一個 success 即返回。換 cascade 順序 = 字串 `"codex,openrouter:owl-alpha,gemini,ollama"`。加新 provider = 寫 subclass + register。
+- **驗證**：smoke test 5 backends 全載入 + available + capabilities 報告正確（codex gpt-5.5 / openrouter owl-alpha / openrouter gpt-oss-120b / gemini-2.5-pro / ollama qwen3.6:35b）。Codex 第一篇 ja `國立臺灣歷史博物館` 244s 完整 271 行翻譯。
+- **可能層級**：
+  - 操作規則 ✅ canonical 已升 → SQUEEZE-MODELS-MAX-PIPELINE v4.0 §abstraction layer + DNA #49 改 abstract pattern
+  - 元規則候選 → 「provider abstraction first」應 apply 到其他 pipeline（如 dashboard data fetch / sense fetcher / OG image generation 等都還寫死 provider）— verification_count=1，等其他 pipeline 也撞到 provider drift 再升 distill
+  - MANIFESTO 候選 → 「mission 獨立於 provider 命運」是 sovereignty preservation 的工程層 instantiation — 比「多語投射」更深一層（不只是輸出多語言，是輸出機制本身可換）— vc=1，等更多場景驗證
+- **跨檔關聯**：DNA #45（OpenRouter rate budget 共享）+ DNA #49（cascade）+ DNA #39（self-as-fallback）三條反射在 v4 統一為 backend abstraction pattern；DNA #15（反覆浮現要儀器化）— provider drift 已撞過多次（owl rate-limit、Hy3 退役、Sonnet 禁用），現在儀器化為 cascade 抽象層
+- **跟 PR #1050 dreamline2 URL hallucination 的並列**：同 session 兩件事都是「外部依賴出問題的應對」— footnote URL 改用 web search verified（DNA #16 + #23 + #26）/ translation provider 改 backend cascade（DNA #49 v4）— 都是把「單一外部依賴的失敗」變成「結構性 fallback」
+
 ### 2026-05-11 twmd-babel-nightly — P0 missing translation 觸發新 slug 編輯決策 gap
 
 - **原則**：babel routine 走 SQUEEZE Tier 1 cascade 處理 P0 missing 時，若 zh canonical 是**新文章**（不在 `_translations.json` slug-map），`prepare-batch.py` 會 fallback 為 `TBD-NEEDS-SLUG` placeholder。Cron routine 不該自行決定永久 URL slug（這是編輯決策 — 影響 SEO、跨語言一致性、未來 rename PR 風險），應 surface 給觀察者／maintainer 拍板再執行 Tier 1。
