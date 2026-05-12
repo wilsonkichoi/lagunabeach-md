@@ -1,165 +1,283 @@
 ---
-title: 'Apple Sidra: del refresco nacional a la tormenta de capital, cómo renace el sabor taiwanés tras seis décadas'
-description: 'Nacido en 1965, Apple Sidra fue durante décadas un recuerdo colectivo en las mesas de Taiwán. Tras atravesar dos crisis de seguridad alimentaria, sospechas de vaciamiento financiero y una grave crisis de deuda, la compañía Atlantic Beverage logró en 2025 renacer mediante una estrategia de venta de activos inmobiliarios, saldando deudas millonarias y optimizando sus líneas de producción. Esta no es solo la historia de un refresco que resurge, sino el reflejo de cómo una marca taiwanesa histórica se transforma y reconstruye la confianza del consumidor en la adversidad.'
-date: 2026-05-03
+title: 'Apple Sidra: de bebida gaseosa nacional a tormenta de capital, cómo renace un sabor taiwanés de seis décadas'
+description: 'En 1965, el empresario filipino de origen chino Li Honglue compró la fórmula a la compañía estadounidense Chessness (CosCo) y fundó Atlantic Beverage. Desde entonces, Apple Sidra se convirtió en la burbuja dorada que no ha cambiado de lugar en 60 años: en los refrigeradores de los restaurantes de re chao, los banquetes de ban-doh y los salones de KTV. Durante sus primeros 30 años, su marca pasó por tres grupos de propietarios extranjeros, hasta que Sun Youying pagó de su propio bolsillo 800.000 dólares para traerla de vuelta a Taiwán; fue descubierta por casualidad por el ídolo coreano Kyuhyun en Du Hsiao Yueh, Tainan; cayó dos veces bajo la levadura y los techos enmohecidos de su propia fábrica; y, al final, su matriz sostuvo un regreso de peso con un EPS de 8,71 dólares taiwaneses vendiendo un terreno de 7.222 ping en Hunei, Kaohsiung.'
+date: 2026-05-11
 author: 'Taiwan.md Contributors'
 category: 'Food'
+subcategory: '飲品文化'
 tags:
   [
     'Apple Sidra',
     'Atlantic Beverage',
-    'Marca taiwanesa',
-    'Seguridad alimentaria',
-    'Refresco nacional',
-    'Historia',
-    'Transformación empresarial',
-    'Bebida carbonatada',
-    'Sabor taiwanés',
+    'marca taiwanesa',
+    'seguridad alimentaria',
+    'bebida nacional',
+    'bebida carbonatada',
+    'sabor de Taiwán',
+    'marca tradicional',
+    'empresa cotizada',
   ]
-readingTime: 8
-lastVerified: 2026-05-03
+readingTime: 14
+lastVerified: 2026-05-11
 lastHumanReview: false
 featured: false
 translatedFrom: 'Food/蘋果西打.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:1bbef8e9596c3b5a'
-sourceBodyHash: 'sha256:fe306b29e346e954'
-translatedAt: '2026-05-03T21:10:09+08:00'
+sourceCommitSha: 'e10215bc7'
+sourceContentHash: 'sha256:d5c03b3e99b6070e'
+sourceBodyHash: 'sha256:9492c1f3797c0e5c'
+translatedAt: '2026-05-12T11:51:05+08:00'
 ---
 
-> **En 30 segundos**
-> Apple Sidra, el icónico refresco carbonatado nacido en Taiwán en 1965, evoca la infancia y la cultura culinaria de generaciones enteras. Con su singular fórmula "mestiza taiwano-estadounidense", transformó el concepto occidental de _cider_ en un refresco de jugo afrutado y refrescante que conquistó rápidamente al público local. Sin embargo, este viaje de casi seis décadas no ha sido sencillo: Atlantic Beverage (conocida como Dà Yǐn) ha atravesado cambios de fundador, transferencias de acciones, dos crisis de seguridad alimentaria y una severa crisis financiera. En particular, los incidentes de sedimentos en 2018 y 2023 llevaron la marca a su punto más bajo. Bajo el liderazgo del nuevo director general, Yu Zhongmin, la empresa adoptó una estrategia de "venta de terrenos para sobrevivir" y modernizó integralmente sus líneas de producción, logrando no solo saldar deudas millonarias, sino también un giro financiero en 2025 que permitió el regreso pleno de Apple Sidra al mercado. Esta no es solo la historia de un refresco que resurge, sino el reflejo de cómo una marca taiwanesa histórica lucha por sobrevivir, se transforma y reconstruye la confianza del consumidor en la adversidad. Su evolución futura será un capítulo digno de atención en la historia empresarial de Taiwán.
+> **Resumen en 30 segundos:** En 1965, el empresario filipino Li Honglue compró a la compañía estadounidense Chessness (CosCo) la marca y la fórmula de “Apple Sidra” y construyó una fábrica en Pingzhen, Taoyuan. En 60 años, esta bebida gaseosa dorada se convirtió en presencia fija de restaurantes de re chao, banquetes de ban-doh y salones de KTV, e incluso cruzó el mar cuando el ídolo coreano Kyuhyun la encontró por casualidad en Du Hsiao Yueh, Tainan. Pero durante sus primeros 30 años, su marca nunca perteneció realmente a Taiwán: pasó por Cathay Trust en 1979, Hung Yuan en 1985 y, en 1995, fue recomprada por Sun Youying con 800.000 dólares de su propio bolsillo. Tras dos incidentes de seguridad alimentaria con sedimentos en 2018 y 2023, Atlantic Beverage vendió en 2024 un terreno de 7.222 ping en Hunei, Kaohsiung, recibió 960 millones de dólares taiwaneses, sostuvo una utilidad neta después de impuestos de 493 millones y un EPS de 8,71 dólares; pero en 2025 volvieron a surgir rumores sobre el reemplazo del gerente general. Un sabor taiwanés de seis décadas es más complejo que aquella copa de vino rosado con Apple Sidra en un salón de KTV.
 
-# Apple Sidra: del refresco nacional a la tormenta de capital, cómo renace el sabor taiwanés tras seis décadas
+# Apple Sidra: de bebida gaseosa nacional a tormenta de capital, cómo renace un sabor taiwanés de seis décadas
 
-## Prólogo: un recuerdo colectivo en la mesa
+## La botella en el refrigerador del restaurante de re chao
 
-En los restaurantes de _chǎochǎo_ (salteados al wok), en los banquetes tradicionales y en las salas privadas de karaoke de Taiwán, siempre hay una presencia familiar: esa botella dorada y translúcida, llena de burbujas efervescentes, conocida como "Apple Sidra". No es solo una bebida para saciar la sed, sino un símbolo cultural que ha sido testigo de los cambios sociales y la vida cotidiana del pueblo taiwanés. Sin embargo, la historia detrás de esta bebida nacional, que ha acompañado a los taiwaneses durante casi seis décadas, es mucho más compleja y accidentada que su sabor fresco y dulce. Desde su singular fórmula "mestiza taiwano-estadounidense", pasando por el legado de su fundador, hasta las recientes crisis de seguridad alimentaria y financieras, el recorrido de Apple Sidra es una epopeya empresarial taiwanesa llena de desafíos y renacimiento.
+Desde los restaurantes de comida de montaña en Hsinchu hasta los banquetes en Pingtung, en los refrigeradores de los restaurantes taiwaneses de re chao, locales informales de salteados, casi siempre aparece la misma bebida. Botella de plástico, etiqueta roja, líquido dorado y burbujas: al servirla en un vaso plástico, se convierte en esa gaseosa que lleva 60 años sin cambiar de lugar.
 
-## 1. Origen y fórmula: un sabor mestizo único
+En un salón de KTV, al pedir alcohol, el bar suele acompañar el vino rosado con una botella de Apple Sidra. La página de “pequeñas recetas de cocteles” del sitio oficial de Atlantic Beverage enumera esta mezcla 1:1 como una forma de consumo certificada por la compañía[^1]. En el centro y sur de Taiwán ya existían desde antes cocteles populares como “Apple Taibai” (Apple Sidra con vino de arroz) y “Apple Champagne” (Apple Sidra con vino blanco)[^2].
 
-El nacimiento de Apple Sidra se remonta a 1965, cuando el visionario empresario filipino de ascendencia china, el Sr. Li Honglüe, introdujo en Taiwán la fórmula exclusiva de "Apple Sidral" de la empresa estadounidense Cosco, con sede en Chicago, y fundó Atlantic Beverage Company. Desde el principio, esta bebida llevaba consigo un marcado carácter "mestizo taiwano-estadounidense", transformando hábilmente el concepto occidental de _cider_ (sidra) en una bebida carbonatada de jugo adaptada al paladar del mercado taiwanés[^1] [^2].
+En 2024, durante una filmación de VLOG de viajes en Tainan, Kyuhyun, de Super Junior, probó Apple Sidra después de comer cerdo estofado y arroz frito en Du Hsiao Yueh, y dejó varias frases directas:
 
-### 1.1 Descifrando la fórmula: el equilibrio entre lo natural y el caramelo
+> “Está buenísima, ¿esto no existe en Corea, verdad?” “¡Parece que de verdad quedaría muy bien con alcohol!”[^3]
 
-A pesar de su nombre, Apple Sidra en Taiwán no es la sidra fermentada (_hard cider_) común en Europa y Estados Unidos, ni tampoco un juro de manzana puro sin fermentar (_soft cider_). Su fórmula se compone principalmente de agua carbonatada, fructosa/sacarosa, jugo de manzana concentrado natural, esencia de manzana, colorante de caramelo y ácido cítrico, entre otros ingredientes. En sus primeros anuncios, Atlantic Beverage enfatizaba que el producto "no contenía colorantes químicos" para resaltar su imagen natural. Sin embargo, la adición de colorante de caramelo en aquella época buscaba estabilizar el color y el sabor del producto, lo que reflejaba un equilibrio entre la búsqueda de lo natural y la aceptación del mercado[^3].
+Luego, con humor, levantó la botella frente a la cámara: “Así quizá tenga oportunidad de recibir una colaboración publicitaria.” Ese impulso K-pop hizo que Apple Sidra recibiera inesperadamente una ola de tráfico transnacional durante la etapa de recuperación posterior a la crisis de seguridad alimentaria de 2024[^3].
 
-Cabe destacar que, según se informa, la materia prima de jugo de manzana de Apple Sidra se obtiene del prensado de manzanas enteras, incluyendo pulpa, semillas e incluso frutas de segunda calidad o con imperfecciones. Esto le confiere un sabor más intenso, pero también sembró las semillas de los futuros problemas de sedimentos. Esta insistencia en la calidad de la materia prima contribuyó en gran medida a forjar el inconfundible "sabor a manzana" de Apple Sidra, distinguiéndola de otras bebidas carbonatadas.
+Pero los 60 años recorridos por esta bebida gaseosa dorada son mucho más complejos que aquel coctel en un salón de KTV. Durante sus primeros 30 años, su marca nunca perteneció realmente a Taiwán; cayó dos veces bajo la levadura y los techos enmohecidos de su propia fábrica; y en 2024 su empresa matriz tuvo que vender un terreno de 7.222 ping en Hunei, Kaohsiung, para saldar su última deuda bancaria.
 
-### 1.2 El fundador y los primeros accionistas: los cimientos de una colaboración transnacional
+![Caja luminosa publicitaria de Apple Sidra en una tienda de Ximending, febrero de 2025. El producto en botella plástica de color dorado sigue siendo un símbolo visual de la bebida gaseosa nacional.](/article-images/food/apple-sidra-ximending-2025.jpg)
+_Caja luminosa publicitaria de Apple Sidra en una tienda de Ximending, fotografiada en febrero de 2025. Tras dos incidentes de seguridad alimentaria en 2018 y 2023, y después de vender inmuebles en Tainan y Kaohsiung en 2024 para saldar deudas, esta bebida carbonatada cuya fórmula fue comprada a la estadounidense Chessness en 1965 sigue viéndose en las calles de Taiwán. Photo: Solomon203, 2025-02-01, [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_Sidra_shop_light_box_in_Ximending_20250201.jpg)._
 
-El fundador, el Sr. Li Honglüe, empresario filipino de ascendencia china, invirtió en la construcción de una fábrica en Taiwán, trayendo tecnología y fórmulas avanzadas de producción de bebidas. Para fortalecer la empresa, invitó al grupo Hong Kong Watson's a participar como accionista, aprovechando su experiencia y modelo de gestión en la industria de bebidas. Al año siguiente, el Sr. Xie Zhaobang, fundador de la marca Nin Jiom de Hong Kong, se unió como presidente del consejo de administración, aportando una visión empresarial más diversificada y mayor solidez financiera a Atlantic Beverage[^4].
+## El empresario filipino Li Honglue y el pedido a Chessness
 
-Inicialmente, el producto se lanzó al mercado bajo el nombre de "American Apple Sidra", enfatizando su linaje puramente estadounidense. Sin embargo, tras el cambio político de 1979, cuando Taiwán rompió relaciones diplomáticas con Estados Unidos, la marca se adaptó a las circunstancias y eliminó la palabra "American", adoptando oficialmente el nombre de "Apple Sidra". Este cambio simbolizó la progresiva localización de la marca, convirtiéndola en una verdadera bebida nacional taiwanesa[^5].
+El 24 de julio de 1965, el empresario filipino de origen chino Li Honglue invirtió en Taiwán y fundó Atlantic Beverage Company[^4].
 
-## 2. Cultura y tendencias de consumo: un recuerdo colectivo en la mesa
+Obtuvo de la compañía estadounidense “Chessness (CosCo)” la licencia de marca, la fórmula y el suministro de materias primas de “Apple Sidra”, e invitó al grupo Watsons de Hong Kong a invertir, encargado de aportar tecnología de producción fabril y modelos de gestión[^5]. Al año siguiente, Hsieh Chao-pang, dueño de Nin Jiom, asumió la presidencia del directorio[^5].
 
-Apple Sidra no solo se distingue por su sabor único, sino que también ha desarrollado una cultura de consumo singular en la sociedad taiwanesa, convirtiéndose en un elemento indispensable en numerosas ocasiones.
+La fábrica se instaló en Pingzhen, Taoyuan. Esa elección geográfica se convertiría más tarde en un punto de inflexión para el destino de la marca: la planta de 1965 siguió en uso hasta que en 2018 apareció la primera grieta; para entonces, los equipos centrales de la línea de producción ya llevaban 53 años funcionando.
 
-### 2.1 El modelo de "venta exclusiva" en restaurantes de salteados y banquetes
+Al comienzo, la bebida se llamaba “American Apple Sidra”, subrayando su linaje estadounidense original. En el Taiwán de 1965 a 1979, la palabra “Estados Unidos” era un pase de acceso para los consumidores: antes de que las películas de Hollywood, Coca-Cola y McDonald’s llegaran a Taiwán, todo producto “procedente de Estados Unidos” venía con aura propia. Apple Sidra se afianzó en las mesas en ese contexto. El 1 de enero de 1979, la República de China rompió relaciones diplomáticas con Estados Unidos, y las dos palabras “Estados Unidos” fueron retiradas discretamente del nombre del producto. Desde entonces se llamó “Apple Sidra”[^6]. El cambio de nombre de un producto de exportación terminó convirtiéndose, de forma inesperada, en una nota al pie en miniatura de la historia diplomática de Taiwán.
 
-En la cultura gastronómica taiwanesa, Apple Sidra mantiene un vínculo inseparable con los restaurantes de _chǎochǎo_ (salteados al wok) y los banquetes tradicionales. En sus inicios, Atlantic Beverage adoptó una estrategia de marketing única, estableciendo acuerdos con restaurantes y locales de _chǎochǎo_ en las regiones central y sur de Taiwán, a los que proporcionaba refrigeradores patrocinados para que Apple Sidra fuera la bebida de "venta exclusiva" en esos establecimientos. Este modelo de marketing profundamente arraigado en las comunidades locales hizo que la marca se vendiera especialmente bien en el mercado del centro y sur del país, y que la combinación de "comer salteados con Apple Sidra" se convirtiera en una costumbre gastronómica arraigada[^6].
+![Apple Sidra junto a un tazón de arroz. Una escena de mesa doméstica de 2013 que muestra el lugar cultural de una bebida nacional integrada a la alimentación cotidiana.](/article-images/food/apple-sidra-rice-2013.jpg)
+_Escena cotidiana de mesa con Apple Sidra y un tazón de arroz, fotografiada en 2013. Desde su lanzamiento en 1965 hasta su resurgimiento en 2024, la presencia de esta bebida carbonatada siempre se sostuvo en su papel de “acompañamiento de comida”: con re chao, banquetes o cajas de almuerzo en dormitorios. Photo: Solomon203, 2013-11-23, [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Apple_Sidra_and_rice_20131123.jpg)._
 
-### 2.2 La cultura de las mezclas: del "Apple Tai Bai" al clásico del karaoke
+## Un híbrido taiwanés-estadounidense con una carcasa prestada
 
-Las burbujas refrescantes y el aroma afrutado dulce de Apple Sidra la convierten en una base ideal para mezclas. Incluso antes de que surgiera el famoso "Apple Tai Bai", en Taiwán ya existía la costumbre popular de mezclar Apple Sidra con vino blanco para crear una especie de "champán de manzana". En las regiones central y sur, mezclar Apple Sidra con vino de arroz (_mǐjiǔ_) para preparar el "Apple Tai Bai" fue una tendencia muy popular. Hoy en día, en reuniones de karaoke y otras celebraciones, mezclar Apple Sidra con vino rosado (_méiguī hóng_) en proporción 1:1 para crear el "rosado con Apple Sidra" sigue siendo una combinación clásica en la memoria de muchos. Su sabor, similar al de un vino espumoso, neutraliza la acidez del rosado y añade una sensación refrescante de burbujas[^5] [^7].
+> **📝 Nota curatorial**
+> En Europa y América, la sidra puede ser dos cosas: la fermentada es hard cider, una bebida alcohólica de manzana; la no fermentada es soft cider, jugo puro de manzana. Apple Sidra de Taiwán no es ninguna de las dos: es una gaseosa de jugo de fruta hecha con agua carbonatada, jugo de manzana, aroma de manzana, color caramelo y ácido cítrico, sin alcohol[^7]. Sidral es un término en español usado para bebidas gaseosas, y en México existe un producto similar, Sidral Mundet. La “fórmula” que esta marca taiwanesa compró a Chessness en 1965 era, en esencia, un producto con carcasa prestada: una gaseosa frutal de gusto taiwanés envuelta en el vocabulario de la taxonomía occidental de bebidas.
 
-### 2.3 Efecto de celebridad y cultura popular: el impulso inesperado de Kihyun
+Los primeros textos publicitarios subrayaban que “no contenía colorantes químicos” para proyectar una imagen natural, pero el color caramelo de la fórmula real se usaba para estabilizar el color y el sabor del producto[^7]. Esta estrategia publicitaria, que “enfatizaba lo natural aunque incluía aditivos industriales”, fue producto de la industria alimentaria taiwanesa de las décadas de 1960 y 1970. En ese momento, los consumidores no tenían una ley de etiquetado alimentario para verificar la información; los datos sobre la fórmula solo podían ser declarados por los propios fabricantes.
 
-En los últimos años, el estatus nacional de Apple Sidra ha trascendido fronteras, ganando la admiración del artista surcoreano Kihyun, miembro del grupo Super Junior. Kihyun ha mencionado en múltiples programas su amor por Apple Sidra e incluso la ha utilizado como accesorio en conciertos, generando inesperadamente una enorme visibilidad y debate en torno a la marca, atrayendo la atención de las nuevas generaciones de consumidores y dando nueva vida a esta bebida clásica dentro de la cultura popular[^8].
+El perfil de sabor de Apple Sidra también es completamente taiwanés: bastante dulce, con mucha burbuja y un aroma de manzana evidente. El soft cider europeo y estadounidense tiende más hacia un jugo ácido y astringente; el hard cider tiene presencia alcohólica. Ninguno de esos dos sabores encaja con los platos de gusto intenso de un restaurante de re chao. La burbuja dulce de Apple Sidra neutraliza justo la pesadez grasa: esa es la razón fundamental por la que pudo afianzarse durante 60 años en las mesas del centro y sur de Taiwán.
 
-## 3. Torbellinos en el mercado de capitales: del cambio de accionistas al giro financiero de 2025
+## Tres grupos de dueños extranjeros y un cheque de 800.000 dólares
 
-La trayectoria de Atlantic Beverage no es solo la historia de la evolución de un producto, sino también una lucha desafiante en el mercado de capitales. Desde el fundador Li Honglüe hasta Xie Zhaobang, y luego la venta de acciones a Cai Chennan, cada cambio en la dirección de la empresa ha marcado un nuevo rumbo en su destino. En los últimos años, Dà Yǐn ha atravesado dificultades financieras y crisis operativas, llegando incluso al borde de la exclusión del mercado bursátil.
+Durante sus primeros 30 años, la propiedad de la marca Apple Sidra nunca estuvo en manos taiwanesas.
 
-### 3.1 Cambios en la dirección y desafíos
+En 1979, Li Honglue y otros accionistas originales vendieron en “paquete” tres compañías: Atlantic Beverage, Kuo Hsin Foods y Hsu Shun Foods, a Cathay Trust, de Tsai Chen-nan, segunda generación del Lin Yuan Group[^8]. Ese mismo año, la compañía original de la fórmula, Chessness, entregó la autorización global de Apple Sidra a la estadounidense Cosco Company, y Taiwán siguió produciendo bajo un modelo de fabricación licenciada[^5].
 
-En 1979, debido a desacuerdos entre los accionistas, el Sr. Xie Zhaobang vendió sus acciones de Atlantic Beverage a Cai Chennan, lo que marcó un cambio significativo en la gestión de la marca. A partir de entonces, Dà Yǐn ha fluctuado en el mercado de capitales. Aunque la posición de mercado de Apple Sidra se ha mantenido estable, la gobernanza corporativa y la situación financiera de la empresa han enfrentado frecuentes desafíos[^4].
+En los seis años siguientes, los cambios de manos fueron aún más rápidos:
 
-### 3.2 2018-2023: la doble tormenta de seguridad alimentaria y crisis financiera
+- **Abril de 1981**: Atlantic Beverage cotizó en la Bolsa de Taiwán con el código bursátil 1213[^5]
+- **1985**: estalló el caso Taipei Tenth Credit Cooperative; Cathay Trust fue afectada por una corrida, y las participaciones de Atlantic Beverage, Kuo Hsin y Hsu Shun fueron revendidas al Hung Yuan Group[^5]
+- **1989**: los derechos de marca de Apple Sidra pasaron de la estadounidense Cosco a “Cosco International, empresa liberiana”[^9]
+- **1990**: estalló el caso de captación ilegal de fondos de Hung Yuan, la organización Hung Yuan colapsó, y el administrador concursal recomendó a Chou Chung-kang, Chang Yu-chun y Sun Youying como representantes directivos de Atlantic Beverage. Ese mismo año, Cosco International exigió terminar el contrato de licencia con Atlantic Beverage y planeó recuperar la marca[^5]
 
-Desde 2018, Atlantic Beverage se sumergió en una crisis sin precedentes. Los productos de Apple Sidra presentaron sucesivamente problemas de sedimentos desconocidos, lo que provocó la retirada masiva de productos del mercado y la paralización de fábricas, afectando gravemente la confianza del consumidor y los ingresos de la empresa. En 2019, surgieron sospechas de que accionistas mayoritarios y ejecutivos habían vaciado los activos de la empresa. El entonces director general, Sun Youying, fue arrestado y condenado, sacando a la luz problemas de gobernanza corporativa[^9] [^10].
+Para 1995, Apple Sidra ya había pasado por tres grupos de dueños extranjeros: Chessness, Cosco y Cosco International de Liberia. En Taiwán, entretanto, la compañía acababa de salir de las ruinas de la quiebra de Hung Yuan. Si no resolvía el problema de la marca, la bebida ni siquiera podría seguir usando su nombre.
 
-El doble golpe de la crisis de seguridad alimentaria y las sospechas de vaciamiento financiero hizo que los ingresos de Dà Yǐn cayeran de los 600-700 millones de dólares taiwaneses antes de la controversia en 2017 a apenas más de 100 millones en 2023, registrando la mayor pérdida de su historia: 140 millones de dólares taiwaneses. La empresa recibió múltiples advertencias sobre la posible exclusión de sus acciones del mercado[^11].
+En algún momento de ese año, Sun Youying pagó de su propio bolsillo 800.000 dólares estadounidenses, unos 23 millones de dólares taiwaneses, para comprar a Cosco International de Liberia todos los derechos de Apple Sidra: marca, fórmula y franquicia de ventas[^9].
 
-### 3.3 El giro financiero de 2025: la estrategia de "venta de terrenos para sobrevivir" de Yu Zhongmin
+> **✦** “Aportó personalmente 800.000 dólares para adquirirla de Cosco International, considerando que hasta el 95% de los ingresos de Atlantic Beverage provenían de la venta de Apple Sidra.”[^9]
 
-En el momento más crítico de la empresa, el veterano empleado el Sr. Yu Zhongmin asumió la responsabilidad y fue nombrado director general en mayo de 2023. Se enfrentó a un cúmulo de desafíos: fábricas paradas, productos retirados del mercado, deudas millonarias y fuga de empleados. Yu Zhongmin comprendió que, si no reanudaba la producción cuanto antes, la empresa caería en un círculo vicioso. Recorrió personalmente las fábricas, evaluó la maquinaria y los procesos, e inició un proyecto de renovación de equipos y optimización de las líneas de producción[^11].
+Desde ese año, Apple Sidra pasó a pertenecer realmente por completo a Taiwán; más precisamente, a Sun Youying en forma personal. Una “bebida nacional” vendida en Taiwán durante 30 años recién entonces dejó atrás su condición de fabricación transnacional bajo licencia.
 
-Sin embargo, la escasez de fondos era el mayor obstáculo. Ante la negativa de los bancos a conceder préstamos, Yu Zhongmin adoptó de manera decisiva la estrategia de "venta de terrenos para sobrevivir". En septiembre de 2023, Dà Yǐn vendió propiedades en Tainan, obteniendo una ganancia de 138 millones de dólares taiwaneses; en julio de 2024, vendió más activos inmobiliarios en Kaohsiung por un monto de 960 millones de dólares taiwaneses, con una ganancia de 591 millones. Estos fondos no solo saldaron todos los préstamos bancarios y cuentas por pagar, sino que también compensaron las pérdidas acumuladas de los últimos años, mejorando drásticamente la situación financiera de la empresa[^12] [^13].
+## Mesas, banquetes y salones de KTV: 60 años de cultura de consumo
 
-Según la presentación a inversores de diciembre de 2024, Yu Zhongmin anunció que Dà Yǐn había pagado todas sus deudas y que se esperaba que las acciones reanudaran su negociación normal en el primer trimestre de 2025. Los ingresos de la empresa en 2024 alcanzaron los 191 millones de dólares taiwaneses, un incremento interanual del 58,27 %, con un beneficio neto después de impuestos de 493 millones de dólares taiwaneses y un beneficio por acción (BPA) de 8,71 dólares taiwaneses. Fue la primera vez en seis años que la empresa pasaba de pérdidas a ganancias, marcando un máximo histórico. Aunque esta ola de ganancias provino principalmente de ingresos extraordinarios por venta de activos, sentó las bases para el renacimiento de Dà Yǐn[^14].
+Apple Sidra llegó a ser una bebida nacional no por la propiedad de su marca, sino por la posición fija que ocupó durante décadas en las mesas del centro y sur de Taiwán.
 
-## 4. Crisis de seguridad alimentaria y reconstrucción de la confianza: grietas en el muñeco que nunca cae
+En sus primeros años, Atlantic Beverage firmaba acuerdos con restaurantes de re chao y locales gastronómicos del centro y sur: la empresa aportaba refrigeradores en patrocinio, y los establecimientos prometían colocar Apple Sidra de forma prioritaria[^10]. Al abrir la puerta de vidrio del refrigerador de un restaurante taiwanés de re chao, era casi una escena fija de las décadas de 1980 y 1990 hasta los 2000: Taiwan Beer a la izquierda, Apple Sidra a la derecha. Así se construyó una imagen común de la mesa familiar taiwanesa: líquido dorado con etiqueta roja burbujeando en un vaso plástico, acompañado de anguila salteada, pollo sanbei, salteado hakka, “cabezas de mosca” y tortilla con albahaca tailandesa.
 
-La reputación de Apple Sidra se ha visto severamente puesta a prueba por dos crisis de seguridad alimentaria en los últimos años. Estos incidentes no solo provocaron la retirada de productos del mercado, sino que también dañaron profundamente la confianza del consumidor en la marca.
+Los banquetes de ban-doh repetían la misma escena. En bodas de aldeas pesqueras costeras, banquetes matrimoniales de comunidades hakka o comidas corridas después de rituales en templos, Apple Sidra se alineaba con Taiwan Beer y el vino de arroz como una de las tres bebidas fijas. Para mayores que no bebían alcohol, niños y embarazadas, Apple Sidra era la mejor bebida del día para aliviar la grasa.
 
-### 4.1 El incidente de 2018: sedimentos desconocidos y "dolo eventual"
+Desde la década de 1990, esta bebida también entró en los salones de KTV. La cultura de pedir alcohol funcionaba así: al ordenar una botella de vino rosado en la sala, el bar enviaba además varias botellas de Apple Sidra para que los clientes mezclaran por su cuenta. La mezcla 1:1 producía una sensación parecida a un champán con burbujas; la acidez astringente del rosado quedaba cubierta por el gas y el aroma de manzana, y se bebía como una versión barata de Champagne[^1]. Esa forma de tomarla fue luego incorporada por el sitio oficial de Atlantic Beverage como receta oficial de “vino rosado + Apple Sidra”.
 
-En noviembre de 2018, el producto Apple Sidra de 2 litros presentó problemas de deterioro y sedimentos extraños. El legislador del partido New Power Party, Huang Guochang, señaló que Dà Yǐn ya había recibido 122 quejas en julio, pero respondió que se debía a la expansión y contracción térmica durante el transporte, que había permitido la entrada de aire, para luego retractarse y atribuirlo a una falla mecánica en la línea de producción. No fue hasta que el estallido del incidente que los productos fueron retirados en masa del mercado. El ministro de Salud y Bienestar, Chen Shizhong, llegó a describir la actitud de Dà Yǐn como "algo parecido a dolo eventual", lo que reflejó la gravedad del problema y la inadecuada respuesta de la empresa en aquel momento[^10] [^15].
+En el centro y sur también se popularizaron mezclas más arraigadas a la vida cotidiana: “Apple Taibai” es Apple Sidra con vino de arroz; “Apple Champagne” es Apple Sidra con vino blanco. Estas mezclas no aparecían en la publicidad oficial: fueron modos de consumo desarrollados por los propios consumidores[^2]. Una misma bebida gaseosa evolucionó en Taiwán hasta formar toda una serie de cocteles populares.
 
-La investigación del Departamento de Salud de la ciudad de Nuevo Taipéi detectó moho y levaduras en los productos y ordenó a Dà Yǐn corregir los problemas en un plazo determinado. Este incidente expuso graves deficiencias en el control de calidad de la producción de Dà Yǐn y generó dudas entre los consumidores sobre la seguridad de sus productos.
+En 2024, cuando esta gaseosa de 60 años atravesaba en Taiwán su punto más bajo, con el colapso de la confianza por seguridad alimentaria y la paralización de sus líneas de producción, recibió de forma inesperada el impulso de un ídolo coreano que visitaba Taiwán para filmar un VLOG. Kyuhyun, de Super Junior, probó Apple Sidra en Du Hsiao Yueh, Tainan, después de comer cerdo estofado, arroz frito y arroz con cerdo picado, y reaccionó: “Está buenísima, ¿esto no existe en Corea, verdad?”, para luego añadir: “¡Parece que de verdad quedaría muy bien con alcohol!”[^3] Ese fragmento del VLOG fue convertido en nota por ETtoday Star, y durante la etapa de recuperación posterior a la crisis de seguridad alimentaria de 2024 generó una ola inesperada de tráfico K-pop.
 
-### 4.2 El incidente de 2023: nueva paralización y reestructuración integral
+> **💡 ¿Sabías que...?**
+> Apple Sidra ganó cuota de mercado desde las décadas de 1970 y 1980 junto a los tres gigantes de las gaseosas doradas: HeySong Sarsaparilla, Jin Jin Asparagus Juice y Apple Sidra. En los años 2000, con el aumento de la conciencia de salud, las bebidas carbonatadas altas en azúcar se contrajeron en conjunto, pero Apple Sidra sufrió un impacto menor que las colas y gaseosas comunes por su vínculo con restaurantes de re chao, banquetes y KTV. Su presencia no se sostiene en beberla sola, sino en acompañar comidas, alcohol y ocasiones. Mientras esas ocasiones existan, la bebida también seguirá existiendo.
 
-Entre abril y mayo de 2023, Apple Sidra volvió a ser denunciada por la presencia de turbidez en el producto. El Departamento de Salud de la ciudad de Taoyuan inspeccionó la fábrica de Pingzhen y descubrió que la calidad del agua de producción no cumplía con la normativa, además de encontrar sedimentos desconocidos en los productos, por lo que ordenó de inmediato la paralización de 3 líneas de producción, lo que representaba el 99 % de la capacidad total de la empresa. Esta paralización duró seis meses, durante los cuales la empresa enfrentó la imposibilidad de producir bebidas, el retraso en el pago de salarios a los empleados e incluso la destrucción de decenas de miles de cajas de producto recuperado[^9] [^11].
+## 122 reclamos y una frase: “se parece un poco a actuar a sabiendas”
 
-### 4.3 Medidas correctivas y reconstrucción de la confianza
+En julio de 2018, Atlantic Beverage empezó a recibir reclamos por sedimentos en las botellas grandes de 2.000 mililitros de Apple Sidra. Pasó un mes, luego dos, y los reclamos acumulados llegaron a 122[^11]. La compañía no informó al Departamento de Salud de Nuevo Taipéi.
 
-Ante las sucesivas crisis de seguridad alimentaria, Dà Yǐn aprendió de la experiencia. Tras la toma de posesión del director general Yu Zhongmin, se impulsó activamente la optimización integral de las líneas de producción. Las medidas correctivas incluyeron: instalación de equipos de recalentamiento, reemplazo de componentes de las máquinas de llenado, sustitución de piezas de las unidades de aire acondicionado, cambio de motores de las máquinas empaquetadoras, revisión de los sistemas de refrigeración, reparación de congeladores, reemplazo de condensadores en la sala de disolución de azúcar, sustitución de compresores de las unidades de agua helada de aire acondicionado en las cámaras de llenado, y reemplazo de bombas sanitarias de agua helada, entre otras. Esta renovación masiva de equipos y la reingeniería de los procesos de gestión buscan resolver fundamentalmente los problemas de calidad y garantizar que cada botella de Apple Sidra que sale de la fábrica cumpla con estrictos estándares de higiene[^13].
+No fue hasta el 12 de noviembre que el propio Departamento de Salud de Nuevo Taipéi acudió al centro de ventas de Atlantic Beverage en Taipéi y a tiendas de conveniencia para tomar muestras. Las seis muestras analizadas dieron positivo a moho y levadura; en dos de ellas, el recuento bacteriano excedía el límite[^12]. El producto finalmente fue retirado por completo de los estantes.
 
-En diciembre de 2023, el Departamento de Salud de la ciudad de Taoyuan autorizó la reanudación de la producción en las líneas 2 y 3 de Dà Yǐn, y los productos pasaron las pruebas de SGS. La vuelta de Apple Sidra a los estantes fue el primer paso de Dà Yǐn para reconstruir la confianza del consumidor, pero mantener la estabilidad de la calidad a largo plazo y recuperar la imagen de marca dañada por los incidentes de seguridad alimentaria siguen siendo sus mayores desafíos futuros.
+La investigación posterior encontró que el problema estaba en la línea de producción número uno de la planta de Pingzhen, Taoyuan. Esa línea llevaba entonces más de 20 años en uso; la pared interna del tanque de mezcla de materias primas presentaba grietas, y el algodón aislante entre las paredes interna y externa había desarrollado moho, generando contaminación cruzada desde el origen mismo de la línea[^13].
 
-## 5. Competencia de mercado y perspectivas futuras: desafíos y oportunidades coexisten
+El legislador Huang Kuo-chang, del New Power Party, convocó una conferencia de prensa:
 
-En un contexto de creciente conciencia sobre la salud y una competencia de mercado cada vez más feroz, el camino de recuperación de Apple Sidra está plagado de desafíos, pero también alberga oportunidades de transformación.
+> “Desde julio había recibido reclamos de 122 ciudadanos. Atlantic Beverage sabía por sus propias pruebas que había un problema, pero respondió que la entrada de aire por expansión y contracción térmica de las tapas durante el transporte había afectado la calidad; después dijo que se debía a una falla mecánica de la línea de producción. Solo retiró todo el producto después de que estalló el incidente, lo que prueba que la empresa mintió desde el primer momento.”[^11]
 
-### 5.1 Panorama competitivo actual
+El ministro de Salud y Bienestar, Chen Shih-chung, respondió en una entrevista con un tono más contenido:
 
-El mercado de bebidas de Taiwán es altamente competitivo. Además de las bebidas carbonatadas tradicionales como HeySong Soda, marcas como Uni-President y Minute Maid han lanzado en los últimos años nuevas generaciones de refrescos de jugo, como el _apple soda_, capturando cuotas de mercado. La creciente conciencia sobre la salud también ha impactado a las bebidas carbonatadas con alto contenido de azúcar, llevando a los consumidores a optar por alternativas bajas en azúcar, sin azúcar o más saludables. Aunque Apple Sidra, con su posicionamiento singular como refresco de jugo, se ha visto relativamente menos afectada, la tendencia estructural a la baja de la industria en su conjunto sigue representando una presión para su desarrollo a largo plazo[^14].
+> “Se parece un poco a una situación de actuar a sabiendas.”[^14]
 
-### 5.2 Extensión de marca y estrategia de diversificación
+El Departamento de Salud de Nuevo Taipéi emitió después dos multas, por un total de 2,2 millones de dólares taiwaneses[^13]. Apple Sidra fue retirada por completo, y antes de volver a los estantes debía hacer mejoras integrales.
 
-Para reducir la dependencia de un solo producto, Atlantic Beverage también ha desarrollado activamente otras líneas de productos, como series de agua, jugos y tés. En el futuro, la empresa planea destinar entre el 2 % y el 3 % de sus ingresos anuales a gastos de investigación y desarrollo para crear bebidas funcionales y naturalmente saludables, adaptándose a la tendencia creciente de conciencia sobre la salud de los consumidores y aumentando su competitividad en el mercado. A corto plazo, se espera que los nuevos productos aporten un 10 % de crecimiento en los ingresos, mientras que el objetivo a largo plazo es que la serie "Atlantic" impulse un 20 % de crecimiento[^14].
+Eso era apenas la punta del iceberg. En agosto del año siguiente, 2019, estalló el caso de vaciamiento empresarial que involucraba a Sun Youying. La fiscalía y los investigadores descubrieron que, desde 2013 hasta marzo de 2019, ella utilizó un método de “compras falsas, pagos reales” para declarar compras ficticias de materias primas de azúcar a ocho proveedores que en realidad no entregaban mercancías, incluidas las empresas relacionadas Kuo Hsin y Hsu Shun, y extraer 108.528.700 dólares taiwaneses[^15].
 
-### 5.3 Transformación del marketing y mercados internacionales
+El 27 de abril de 2022, el Tribunal Superior dictó sentencia en segunda instancia:
 
-El director general Yu Zhongmin ha señalado que la calidez y la alegría siempre han sido los valores de marca de Apple Sidra. En el futuro, se colaborará con medios internacionales de primer nivel y gobiernos locales en alianzas intersectoriales, expandiéndose a diversas plataformas digitales para reforzar la publicidad multimedia y atraer al público joven. Además, la expansión activa a mercados internacionales es un objetivo importante. Actualmente, el producto ya se ha extendido a Japón, Corea del Sur, Norteamérica, Australia y otras regiones, con buenos volúmenes de ventas. La empresa espera aumentar la proporción de ingresos en el extranjero del actual 15 % al 25 %, convirtiendo a Apple Sidra en una bebida representativa de Taiwán con presencia global[^13].
+- Sun Youying fue condenada por hacer que la compañía realizara transacciones perjudiciales conforme a la Ley de Bolsa y Valores, con una pena de 8 años y 2 meses; y por abuso de confianza, con 7 años y 6 meses. **Por ambos delitos debía cumplir 9 años y 6 meses de prisión, y se confiscaban 108.528.700 dólares taiwaneses de ganancias ilícitas**
+- La coacusada y exgerente financiera Chung Su-e recibió 7 años y 6 meses[^15]
 
-## Notas del curador
+La misma persona que en 1995 pagó de su bolsillo 800.000 dólares para rescatar Apple Sidra de manos extranjeras, durante seis años desde 2013 extrajo 108 millones de la misma empresa que había salvado.
 
-> La historia de Apple Sidra no es solo el ascenso y caída de una marca, sino también un reflejo de la evolución económica y los cambios sociales de Taiwán. Desde el auge inicial de la industria manufacturera taiwanesa, pasando por los desafíos de la competencia internacional y las crisis de seguridad alimentaria, hasta la resiliencia de una marca histórica que busca transformarse y renacer en la adversidad, hay mucho que reflexionar. En particular, el giro financiero de Dà Yǐn en 2025 demuestra la sabiduría en la toma de decisiones empresariales en gestión de crisis y reactivación de activos. Esto nos muestra que una marca con una profunda base cultural, incluso tras atravesar tormentas, aún tiene la oportunidad de recuperar el favor del mercado y de los consumidores, siempre que responda de manera activa. Sin embargo, la transparencia en la gobernanza corporativa y las estrategias de gestión sostenible seguirán siendo las pruebas clave para el desarrollo futuro de Dà Yǐn.
+## 41.237 cajas selladas: la segunda grieta
 
-> Taiwán cuenta con muchas marcas históricas como Apple Sidra, como Wei Chuan o HeySong, que alguna vez fueron parte de la vida cotidiana de los taiwaneses y que cada una ha atravesado diferentes desafíos y transformaciones. Las historias de estas marcas antiguas componen conjuntamente un paisaje comercial y cultural singularmente taiwanés. El renacimiento de Apple Tal vez pueda ofrecer un rayo de esperanza y un modelo a seguir para otras marcas históricas que enfrentan dificultades.
+El 7 de abril de 2023, empleados de la planta de Pingzhen detectaron un problema.
+
+En el fondo de botellas PET de 2.000 mililitros de Apple Sidra vieron sedimentos blancos[^16]. Los empleados informaron el hallazgo por iniciativa propia, la fábrica detuvo internamente la producción, y en menos de dos semanas el Departamento de Salud de Taoyuan ingresó a inspeccionar. Esta vez se tomaron 14 latas de producto terminado para análisis y se sellaron 41.237 cajas, un total de 82,3 toneladas, varias veces la escala del incidente de 2018[^16].
+
+El 19 de mayo, el Departamento de Salud volvió a la planta para inspeccionar las líneas de producción dos y tres:
+
+> “Se detectaron deficiencias como equipos expuestos, manchas de moho en el techo y tuberías deterioradas en las líneas de producción dos y tres que fabricaban estos dos productos; se estimó que se debía al envejecimiento de los equipos y tuberías de la línea.”[^17]
+
+Las líneas dos y tres se detuvieron en el acto. Sumadas a la línea uno, ya detenida en abril, el 99% de la capacidad de producción de toda la planta de Pingzhen quedó congelada.
+
+Entre los dos incidentes de seguridad alimentaria transcurrieron cinco años, pero el problema tenía casi la misma forma: equipos envejecidos, falta de renovación periódica, metal y tuberías que se oxidaban y enmohecían lentamente en el clima húmedo y caluroso de Taiwán. La primera vez fue una grieta en el tanque de mezcla que dejó salir levadura; la segunda, manchas de moho del techo que gotearon hacia abajo a lo largo de las tuberías. Al leer los dos documentos de las autoridades sanitarias, se tiene la impresión de que la misma fábrica se rompió dos veces de la misma manera.
+
+En la madrugada del 3 de mayo de 2023, el director de marketing Yu Chung-min entró a la oficina de Sanchong, Nuevo Taipéi, para asumir como gerente general[^18]. El día anterior seguía siendo director de marketing; desde ese día debía caminar hacia la oficina contigua, la del gerente general, porque su predecesor ya no pudo sostener la serie de golpes de la crisis de seguridad alimentaria. Yu llevaba más de 20 años trabajando en Atlantic Beverage. Era la primera vez que se sentaba en el puesto de gerente general.
+
+Lo primero que hizo fue “ir departamento por departamento para dar mensajes de confianza”[^18]. Pero los mensajes no bastaron: los empleados empezaron a sufrir atrasos salariales, los bancos dejaron de prestar, la confianza de los consumidores se erosionó y los productos fueron retirados masivamente de los estantes.
+
+> **📝 Nota curatorial**
+> Los equipos centrales de la planta de Pingzhen funcionaron desde 1965 hasta 2018; la línea principal número uno operó más de 20 años, con el mismo tanque de mezcla, el mismo algodón aislante y las mismas tuberías. Una empresa cotizada acumuló decenas de miles de millones en ingresos y pasó por cuatro grupos de propietarios, pero ninguna ronda de dueños quiso gastar dinero en reemplazar las líneas de producción. Al ver “sedimentos”, el lector puede intuir que el problema era la fórmula de la bebida; en realidad, durante años esta compañía trató la fábrica como una caja negra capaz de seguir funcionando sola, hasta que esa caja negra se agrietó una vez en 2018 y otra vez en 2023. Vender terrenos para sobrevivir se volvió necesario en el último momento porque los equipos ya habían fallado de manera efectiva: sin repararlos, ni siquiera podían producir la bebida.
+
+## Un terreno en Kaohsiung que sostuvo 493 millones de utilidad neta después de impuestos
+
+Cuando Yu Chung-min asumió, los bancos ya no querían prestar dinero. Empezó a calcular qué activos podía convertir en efectivo.
+
+La noche del 1 de septiembre de 2023, Atlantic Beverage anunció la venta de siete parcelas en la sección Jiali, distrito Jiali, ciudad de Tainan, incluida la parcela 251-4: en total 1.039,54 ping de terreno de construcción tipo A en zona agrícola especial. El comprador fue Tai Bang Development Construction Co., Ltd.[^19]. En el hecho relevante, la compañía escribió que la “ganancia por disposición” era de 138 millones de dólares taiwaneses.
+
+La Bolsa detectó pronto el problema: 138 millones era el “monto de la transacción”, no la “ganancia por disposición”. La ganancia contable real por disposición era solo de 40,43 millones, una diferencia de 3,4 veces. Atlantic Beverage fue multada con una penalidad contractual de 30.000 dólares taiwaneses por violar las normas de información relevante[^20].
+
+Vender Tainan y pagar 30.000 de multa no alcanzaba para tapar el agujero.
+
+La noche del 15 de julio de 2024, Atlantic Beverage anunció la disposición de 51 parcelas y dos edificios en las secciones Zhongshan y Puji del distrito Hunei, Kaohsiung, con una superficie total de 23.877,25 metros cuadrados, equivalentes a 7.222,8686 ping:
+
+- **Monto de la transacción**: 962,74 millones de dólares taiwaneses
+- **Ganancia por disposición** (utilidad bruta contable): 605,24 millones de dólares taiwaneses
+- **Utilidad neta por disposición** (después de gastos): 591,423 millones de dólares taiwaneses[^21]
+
+Al día siguiente, la acción de Atlantic Beverage subió más de 8%[^21]. En noviembre, la totalidad de los 960 millones por la disposición ingresó a caja y se destinó por completo a pagar préstamos de instituciones financieras[^22].
+
+En la conferencia para inversionistas del 12 de diciembre, la presidenta del directorio Su Yun-le gritó al final de la reunión: “Apple Sidra vuelve con peso”[^23]. Ella y Yu Chung-min anunciaron conjuntamente:
+
+| Indicador anual 2024               | Cifra                              | Fuente                          |
+| ---------------------------------- | ---------------------------------- | ------------------------------- |
+| Ingresos consolidados              | 191 millones de dólares taiwaneses | Conferencia para inversionistas |
+| Crecimiento anual                  | 58,27%                             | Ídem                            |
+| Utilidad neta después de impuestos | 493 millones de dólares taiwaneses | Ídem                            |
+| EPS                                | 8,71 dólares taiwaneses            | Ídem                            |
+| Utilidad neta por disposición      | 591 millones de dólares taiwaneses | Ingreso registrado en noviembre |
+| Deuda financiera                   | 0                                  | Liquidada en noviembre          |
+
+> **📝 Nota curatorial**
+> 493 millones de utilidad neta después de impuestos, EPS de 8,71 dólares taiwaneses, crecimiento anual de 58,27%. Las cifras son tan atractivas que casi hacen olvidar de dónde vienen. Los ingresos del negocio principal, 191 millones, no llegan ni a un tercio de los 600 millones de ganancia por disposición. Lo que sostuvo todo ese hermoso estado financiero fue un terreno en Hunei, Kaohsiung, no la bebida. Después de vender ese terreno, de dónde crecerán los ingresos del año siguiente sigue siendo una pregunta sin respuesta.
+
+## Después del regreso de peso
+
+En el primer trimestre de 2025, las acciones de Atlantic Beverage recuperaron su negociación normal[^24]. El 27 de marzo, un periodista senior de Economic Daily News publicó un análisis de pago con un título directo: “Apple Sidra acaba de volver al camino correcto y ya estalla el reemplazo del gerente general: ¿se vislumbran señales de exclusión bursátil en Atlantic Beverage?”[^25]
+
+El texto de ese artículo está detrás de un muro de pago, pero el título y la entradilla son de lectura pública, y apuntan claramente a nuevas turbulencias internas en marzo de 2025. En junio, cuando Commercial Times informó sobre la junta de accionistas de Atlantic Beverage, la única persona citada fue la presidenta Su Yun-le; el nombre de Yu Chung-min ya no apareció[^26]. La persona que medio año antes, en la conferencia del 12 de diciembre, había estado de pie junto a ella anunciando “cero deuda” salió silenciosamente del encuadre mediático.
+
+En esa misma junta de accionistas, Su Yun-le anunció:
+
+> “Con todas las deudas en cero y la gestión de la fábrica encaminada, el objetivo de capacidad de este año para Apple Sidra es de unas 4,15 millones de cajas; además habrá 100.000 cajas de agua y 100.000 de jugos.”[^26]
+
+La compañía distribuyó un dividendo en efectivo de 0,35 dólares taiwaneses por acción, la primera reanudación de dividendos en ocho o nueve años[^22]. En términos numéricos, Apple Sidra completó su “regreso de peso”: volvió a los estantes de FamilyMart, PX Mart, Hi-Life, Carrefour y RT-Mart; en 2024 no tuvo deuda financiera, tuvo EPS y dividendos. Pero ese regreso se compró con dos terrenos, no con ventas de bebida.
+
+De 1965 a 2025, esta bebida pasó por cinco grupos importantes de propietarios: los accionistas originales (Li Honglue + Watsons + Hsieh Chao-pang), Cathay Trust (Tsai Chen-nan), Hung Yuan Group, Sun Youying en forma personal y el directorio de Atlantic Beverage. La marca también fluyó de Chessness en Estados Unidos a Cosco en Estados Unidos, luego a Cosco International de Liberia, y recién en 1995 fue recomprada por Sun Youying con 800.000 dólares para quedar completamente localizada. Cada cambio de manos llevó consigo el contexto de una época: en 1979, la ruptura diplomática entre Taiwán y Estados Unidos; en 1985, el caso de la décima cooperativa de crédito; en 1990, el caso Hung Yuan; en 2019, el vaciamiento empresarial; en 2023, la seguridad alimentaria. Una botella de gaseosa comprimió 60 años de historia financiera y alimentaria de Taiwán bajo las manchas de moho del techo de una vieja fábrica en Pingzhen, Taoyuan.
+
+## Un sabor taiwanés de seis décadas vive en dos memorias
+
+Los restaurantes de re chao, los banquetes de ban-doh, los KTV y el Du Hsiao Yueh de Kyuhyun son pruebas culturales de una bebida nacional. Pero en la columna de hechos relevantes del Market Observation Post System, el sistema público de información de la Bolsa, los anuncios dicen “disposición de terrenos en Hunei, Kaohsiung”, “disposición de terrenos en Jiali, Tainan” y “aprobación de reelección de directores”. Las dos memorias viven en sistemas de información distintos y no se molestan entre sí. La memoria cultural recuerda la mezcla 1:1 de vino rosado con Apple Sidra en una sala de KTV, la botella plástica burbujeante en el refrigerador de un restaurante de re chao, la bebida que una abuela entrega a su nieto durante un banquete para aliviar la grasa; el mercado de capitales recuerda los decimales de las ganancias por acción, los asientos contables de ganancias por disposición y los resultados de la elección de directores.
+
+Para el lector, Apple Sidra es una bebida gaseosa dorada que no cambió de lugar en 60 años. Para los accionistas, es el código cotizado 1213, una ganancia por disposición de 600 millones, un EPS de 8,71 y una pregunta aún sin respuesta: “¿de qué vivirá el año que viene?”.
+
+De Chessness a Sun Youying, de Li Honglue a Yu Chung-min, de la ruptura diplomática Taiwán-Estados Unidos al impulso K-pop, esta bebida carbonatada comprada a Estados Unidos en 1965 carga una miniatura de 60 años de finanzas, diplomacia, seguridad alimentaria y cultura taiwanesas. En el refrigerador de los restaurantes de re chao burbujeó durante 60 años sin cambiar de aspecto, pero detrás de ella la empresa cambió cuatro grupos de dueños, tuvo dos incidentes de sedimentos y vendió dos terrenos para saldar sus deudas bancarias.
+
+Nadie puede responder con un anuncio de disposición de activos cómo sostenerá los próximos 60 años. Pero mientras el refrigerador de algún restaurante de re chao siga iluminado, mientras algún bar de KTV siga mezclando vino rosado con Apple Sidra, mientras algún viajero extranjero en Du Hsiao Yueh, Tainan, todavía se sorprenda por casualidad y pregunte “¿esto no existe en Corea, verdad?”, la memoria cultural de esta gaseosa seguirá respirando.
+
+**Lecturas complementarias**:
+
+- [Cultura taiwanesa del ban-doh](/food/台灣辦桌文化) — El contexto de la cultura de bebidas en mesas de re chao y banquetes, y el lugar de Apple Sidra en ese sistema
+- [Cultura taiwanesa de bebidas de té agitadas a mano](/food/台灣手搖飲文化) — De las bebidas de té a las carbonatadas, la evolución de qué beben los taiwaneses
+- [Empresas taiwanesas: Uni-President Enterprises](/economy/台灣企業：統一企業) — Un competidor principal del mercado de bebidas de la misma época
+- [Empresas taiwanesas: I-Mei Foods](/economy/台灣企業：義美食品) — Otra marca tradicional que atravesó crisis de seguridad alimentaria
+- [Bolsa y mercado de capitales de Taiwán](/economy/台灣股市與資本市場) — El contexto histórico del caso de la décima cooperativa de crédito de 1985, el caso Hung Yuan de 1990 y la circulación de marcas entre 1985 y 1995 descrita en este artículo
+
+## Fuentes de las imágenes
+
+Este artículo usa 2 imágenes con licencia CC de Wikimedia Commons, ya cacheadas en `public/article-images/food/` para evitar hotlinking al servidor de origen:
+
+- [Apple Sidra shop light box in Ximending 20250201.jpg](https://commons.wikimedia.org/wiki/File:Apple_Sidra_shop_light_box_in_Ximending_20250201.jpg) — Photo: Solomon203, 2025-02-01, CC BY-SA 4.0, Wikimedia Commons file `File:Apple_Sidra_shop_light_box_in_Ximending_20250201.jpg`
+- [Apple Sidra and rice 20131123.jpg](https://commons.wikimedia.org/wiki/File:Apple_Sidra_and_rice_20131123.jpg) — Photo: Solomon203, 2013-11-23, CC BY-SA 4.0, Wikimedia Commons file `File:Apple_Sidra_and_rice_20131123.jpg`
 
 ## Referencias
 
-[^1]: [https://time.udn.com/udntime/story/122390/7667856](https://time.udn.com/udntime/story/122390/7667856) — Reportaje de United Daily News
+[^1]: [Sitio oficial de Atlantic Beverage: pequeñas recetas de cocteles con Apple Sidra](https://applesidra.com.tw/%E7%94%A2%E5%93%81%E4%BB%8B%E7%B4%B9/%E8%AA%BF%E9%85%92%E5%B0%8F%E7%A7%98%E6%96%B9/) — La página “pequeñas recetas de cocteles” del sitio oficial de Atlantic Beverage enumera tres formas de consumo certificadas por la empresa: “vino rosado + Apple Sidra 1:1”, “Apple Taibai” (Apple Sidra + vino de arroz) y “Apple Champagne” (Apple Sidra + vino blanco).
 
-[^2]: [https://applesidra.com.tw/%E7%94%A2%E5%93%81%E4%BB%8B%E7%B4%B9/%E8%98%8B%E6%9E%9C%E8%A5%B3%E6%89%93/](https://applesidra.com.tw/%E7%94%A2%E5%93%81%E4%BB%8B%E7%B4%B9/%E8%98%8B%E6%9E%9C%E8%A5%B3%E6%89%93/) — Sitio web oficial de Apple Sidra
+[^2]: [Liberty Times 玩咖: la cultura de pedir vino rosado con Apple Sidra en KTV](https://food.ltn.com.tw/article/7531) — La columna gastronómica de Liberty Times organiza la cultura de mezclas con Apple Sidra, incluida la evolución de tres preparaciones populares del centro y sur: “Apple Taibai”, “Apple Champagne” y “vino rosado con Apple Sidra”.
 
-[^3]: [https://www.facebook.com/ZhangZheSheng/posts/10156681200444531/](https://www.facebook.com/ZhangZheSheng/posts/10156681200444531/) — Publicación pública en Facebook
+[^3]: [ETtoday Star: VLOG de Kyuhyun probando Apple Sidra en Du Hsiao Yueh, Tainan](https://star.ettoday.net/news/3020445) — Reporte de ETtoday Star de 2024 que cita literalmente la reacción de Kyuhyun, de Super Junior, al visitar Du Hsiao Yueh en Tainan y probar Apple Sidra: “Está buenísima, ¿esto no existe en Corea, verdad?” y “¡Parece que de verdad quedaría muy bien con alcohol!”, además de su broma publicitaria.
 
-[^4]: [https://zh.wikipedia.org/zh-tw/%E8%AC%9D%E5%85%86%E9%82%A6](https://zh.wikipedia.org/zh-tw/%E8%AC%9D%E5%85%86%E9%82%A6) — Entrada de Wikipedia
+[^4]: [United Daily News Time: Apple Sidra de seis décadas, la memoria taiwanesa de una gaseosa dorada](https://time.udn.com/udntime/story/122390/7667856) — Columna histórica de United Daily News que registra la historia temprana de Atlantic Beverage: Li Honglue la fundó el 24 de julio de 1965 y el grupo Watsons invirtió en ella.
 
-[^5]: [https://time.udn.com/udntime/story/122390/7667856](https://time.udn.com/udntime/story/122390/7667856) — Reportaje de United Daily News
+[^5]: [Wikipedia: Atlantic Beverage Company](https://zh.wikipedia.org/zh-tw/%E5%A4%A7%E8%A5%BF%E6%B4%8B%E9%A3%B2%E6%96%99) — Entrada con la cronología completa de Atlantic Beverage, incluida la licencia de Chessness (CosCo) en 1965, la llegada de Hsieh Chao-pang en 1966, la adquisición de participaciones de Kuo Hsin y Hsu Shun en 1976, el traspaso a Tsai Chen-nan en 1979, la salida a bolsa en 1981 y el traspaso a Hung Yuan en 1985.
 
-[^6]: [https://www.nownews.com/news/6249860](https://www.nownews.com/news/6249860) — NOWnews
+[^6]: [Wikipedia: Apple Sidra (marca)](https://zh.wikipedia.org/zh-tw/%E8%98%8B%E6%9E%9C%E8%A5%BF%E6%89%93_%28%E5%93%81%E7%89%8C%29) — Entrada de la marca Apple Sidra que registra que, en 1979, por la ruptura de relaciones diplomáticas entre Taiwán y Estados Unidos, se retiraron las palabras “Estados Unidos” del nombre “American Apple Sidra”, quedando oficialmente como “Apple Sidra”.
 
-[^7]: [https://food.ltn.com.tw/article/7531](https://food.ltn.com.tw/article/7531) — Reportaje de Liberty Times
+[^7]: [Sitio oficial de Atlantic Beverage: presentación de producto de Apple Sidra](https://applesidra.com.tw/%E7%94%A2%E5%93%81%E4%BB%8B%E7%B4%B9/%E8%98%8B%E6%9E%9C%E8%A5%B3%E6%89%93/) — La página oficial de producto de Atlantic Beverage publica que los ingredientes de Apple Sidra son agua carbonatada, fructosa, jugo natural concentrado de manzana, aroma de manzana, color caramelo y ácido cítrico.
 
-[^8]: [https://applesidra.com.tw/%E7%94%A2%E5%93%81%E4%BB%8B%E7%B4%B9/%E8%AA%BF%E9%85%92%E5%B0%8F%E7%A7%98%…](https://applesidra.com.tw/%E7%94%A2%E5%93%81%E4%BB%8B%E7%B4%B9/%E8%AA%BF%E9%85%92%E5%B0%8F%E7%A7%98%E6%96%B9/) — Sitio web oficial de Apple Sidra
+[^8]: [Weekly History: historia de marca de Apple Sidra](https://weeklyhistory.net/applesidra-brandstory/) — Medio de cultura alimentaria weeklyhistory.net que organiza la cronología de traspasos accionariales de Apple Sidra y registra que, en 1979, Cathay Trust de Tsai Chen-nan compró en paquete Atlantic Beverage, Kuo Hsin y Hsu Shun.
 
-[^9]: [https://applealmond.com/posts/219355](https://applealmond.com/posts/219355) — Artículo especializado de Apple Almond
+[^9]: [ETtoday Finance: Sun Youying pagó de su bolsillo 23 millones para recomprar Apple Sidra](https://finance.ettoday.net/news/1943180) — Reporte de ETtoday de julio de 2021 que detalla la cadena completa de traspasos de la marca: Cosco Company de Estados Unidos en 1980, Cosco International de Liberia en 1989, y la recompra por Sun Youying en 1995 por 800.000 dólares, unos 23 millones de dólares taiwaneses.
 
-[^10]: [https://ai.bnext.com.tw/answer/%E8%98%8B%E6%9E%9C%E8%A5%BF%E6%89%93%E5%9C%A8-712505](https://ai.bnext.com.tw/answer/%E8%98%8B%E6%9E%9C%E8%A5%BF%E6%89%93%E5%9C%A8-712505) — Análisis de Business Next
+[^10]: [NOWnews: Apple Sidra fue en su momento bebida imprescindible en re chao y banquetes](https://www.nownews.com/news/6249860) — Revisión de NOWnews de 2023 sobre el lugar de Apple Sidra en la cultura de mesa taiwanesa, que registra la estrategia temprana de Atlantic Beverage para entrar en restaurantes del centro y sur mediante patrocinio de refrigeradores y distribución exclusiva.
 
-[^11]: [https://blog.hamibook.com.tw/%E5%95%86%E7%AE%A1%E7%90%86%E8%B2%A1/%E4%BB%96%E7%94%A8%E5%85%AD%E7%99%…](https://blog.hamibook.com.tw/%E5%95%86%E7%AE%A1%E7%90%86%E8%B2%A1/%E4%BB%96%E7%94%A8%E5%85%AD%E7%99%BE%E5%A4%A9%E6%89%AD%E8%BD%89%E8%98%8B%E8%8F%93%E8%A5%BF%E6%89%93%E4%B8%8B%E6%9E%B6%E5%91%BD%E9%81%8B) — Ver contenido completo en el enlace original
+[^11]: [NOWnews: Huang Kuo-chang critica a Apple Sidra como “fabricante sin escrúpulos”](https://www.nownews.com/news/6150499) — Reporte de NOWnews del 14 de noviembre de 2018 que cita literalmente la conferencia de prensa de Huang Kuo-chang, incluidas las frases “desde julio había recibido reclamos de 122 ciudadanos” y “la empresa mintió desde el primer momento”.
 
-[^12]: [https://vip.udn.com/vip/story/122868/8633576](https://vip.udn.com/vip/story/122868/8633576) — Reportaje de United Daily News
+[^12]: [Liberty Times: las seis muestras de Apple Sidra dieron positivo a moho y levadura](https://news.ltn.com.tw/news/life/breakingnews/2613345) — Reporte de Liberty Times del 14 de noviembre de 2018 que registra los resultados de la investigación del Departamento de Salud de Nuevo Taipéi el 12 de noviembre: las seis muestras dieron positivo a moho y levadura, y dos excedieron el límite de recuento bacteriano.
 
-[^13]: [https://news.nextapple.com/local/20241212/F4E845942B4F6170D4592646EE2AF641](https://news.nextapple.com/local/20241212/F4E845942B4F6170D4592646EE2AF641) — Ver contenido completo en el enlace original
+[^13]: [SuperLab: resumen del incidente de sedimentos en Apple Sidra](https://www.superlab.com.tw/apple_cider/) — Organización externa de inspección que resume el incidente de 2018, cita documentos del Departamento de Salud que confirman el defecto estructural: “la línea de producción número uno de la planta de Pingzhen llevaba más de 20 años en uso, y grietas en la pared interna del tanque de mezcla de materias primas hicieron que el algodón aislante entre las paredes desarrollara moho”; también registra dos multas del Departamento de Salud de Nuevo Taipéi, de 1 millón y 1,2 millones, por un total de 2,2 millones de dólares taiwaneses.
 
-[^14]: [https://uanalyze.com.tw/articles/3506430767](https://uanalyze.com.tw/articles/3506430767) — Ver contenido completo en el enlace original
+[^14]: [Liberty Times: Apple Sidra vuelve a fallar y Chen Shih-chung critica “actuar a sabiendas”](https://news.ltn.com.tw/news/politics/breakingnews/2639963) — Reporte de Liberty Times del 14 de noviembre de 2018 sobre la conferencia de prensa, que cita literalmente la frase del ministro de Salud y Bienestar Chen Shih-chung: “se parece un poco a una situación de actuar a sabiendas”.
 
-[^15]: [https://www.nownews.com/news/6249860](https://www.nownews.com/news/6249860) — NOWnews
+[^15]: [Liberty Times: en el caso de vaciamiento de Atlantic Beverage, Sun Youying recibe 9 años y medio en segunda instancia](https://news.ltn.com.tw/news/society/breakingnews/3907055) — Reporte de Liberty Times del 27 de abril de 2022 que cita literalmente la sentencia de segunda instancia del Tribunal Superior: 8 años y 2 meses por hacer que la compañía realizara transacciones perjudiciales, 7 años y 6 meses por abuso de confianza, pena ejecutable de 9 años y 6 meses, confiscación de 108.528.700 dólares taiwaneses de ganancias ilícitas, y 7 años y 6 meses para la coacusada Chung Su-e.
+
+[^16]: [TVBS News: Apple Sidra vuelve a fallar; reaparecen sedimentos blancos y se sellan 41.237 cajas](https://news.tvbs.com.tw/life/2102939) — Reporte de TVBS del 21 de abril de 2023 que registra que empleados descubrieron sedimentos blancos el 7 de abril, que el Departamento de Salud analizó 14 latas de producto terminado y que se sellaron 41.237 cajas, equivalentes a 82,3 toneladas.
+
+[^17]: [Liberty Times: la planta de Apple Sidra en Pingzhen detiene por completo las líneas 2 y 3](https://news.ltn.com.tw/news/life/paper/1584953) — Reporte de Liberty Times del 20 de mayo de 2023 que cita literalmente la inspección del Departamento de Salud del 19 de mayo: se detectaron “equipos expuestos, manchas de moho en el techo y tuberías deterioradas, y se estimó que se debía al envejecimiento de los equipos y tuberías de la línea”.
+
+[^18]: [Business Today: 600 días para revertir el destino, Yu Chung-min asume como gerente general de Atlantic Beverage](https://www.businesstoday.com.tw/article/category/183016/post/202501150031/) — Entrevista de Business Today del 15 de enero de 2025 que registra la escena en que Yu Chung-min entró a la oficina de Sanchong, Nuevo Taipéi, en la madrugada del 3 de mayo de 2023 para asumir, y su trayectoria de “director de marketing” a “gerente general”.
+
+[^19]: [CTWANT: Atlantic Beverage dispone de siete parcelas en Jiali, Tainan](https://www.ctwant.com/article/281017) — Reporte de CTWANT de septiembre de 2023 que cita literalmente el hecho relevante de Atlantic Beverage: siete parcelas, incluida la 251-4 de la sección Jiali, distrito Jiali, con un total de 1.039,54 ping, y comprador Tai Bang Development Construction Co., Ltd.
+
+[^20]: [Economic Daily News: Atlantic Beverage multada por error en información relevante](https://money.udn.com/money/story/5621/7418625) — Reporte de Economic Daily News de 2023 que registra que Atlantic Beverage consignó erróneamente el “monto de la transacción” de 138 millones de dólares taiwaneses por el terreno de Tainan como “ganancia por disposición”; la ganancia real era solo de 40,4323 millones, y la Bolsa impuso una penalidad contractual de 30.000 dólares taiwaneses.
+
+[^21]: [Commercial Times: Atlantic Beverage dispone de terreno en Hunei, Kaohsiung, por 960 millones](https://www.ctee.com.tw/news/20240716700995-430201) — Reporte de Commercial Times del 16 de julio de 2024 que registra el anuncio de Atlantic Beverage de vender 51 terrenos y dos edificios en las secciones Zhongshan y Puji del distrito Hunei, Kaohsiung: monto de transacción de 962,74 millones, ganancia por disposición de 605,24 millones y utilidad neta por disposición de 591,423 millones de dólares taiwaneses.
+
+[^22]: [ETtoday Finance: Atlantic Beverage salda todas sus deudas financieras en noviembre y reparte su primer dividendo en nueve años, de 0,35](https://finance.ettoday.net/news/2947881) — Reporte de ETtoday de diciembre de 2024 que registra que los fondos de la disposición se cobraron por completo en noviembre y se usaron íntegramente para pagar préstamos de instituciones financieras; reportes posteriores indicaron que la junta de accionistas de 2025 aprobó un dividendo en efectivo de 0,35 dólares taiwaneses por acción, la primera reanudación de dividendos en varios años.
+
+[^23]: [Commercial Times: conferencia de Atlantic Beverage anuncia “Apple Sidra vuelve con peso”](https://www.ctee.com.tw/news/20241212702024-430503) — Reporte de Commercial Times de la conferencia para inversionistas del 12 de diciembre de 2024, que registra a la presidenta Su Yun-le proclamando “Apple Sidra vuelve con peso” y al gerente general Yu Chung-min anunciando utilidad neta por disposición de 591 millones y la finalización del pago de deudas en noviembre.
+
+[^24]: [ETtoday Finance: acciones de Atlantic Beverage recuperan negociación normal en el primer trimestre de 2025](https://finance.ettoday.net/news/2873017) — Reporte de ETtoday sobre el momento en que las acciones de Atlantic Beverage recuperaron su negociación normal en el primer trimestre de 2025 y la reacción del mercado.
+
+[^25]: [vip.udn: Apple Sidra acaba de volver al camino correcto y ya estalla el reemplazo del gerente general: ¿se vislumbran señales de exclusión bursátil en Atlantic Beverage?](https://vip.udn.com/vip/story/122868/8633576) — Artículo de análisis de pago de United Daily News VIP del 27 de marzo de 2025; el título es de lectura pública y apunta claramente a rumores de reemplazo del gerente general y exclusión bursátil en Atlantic Beverage en marzo de 2025.
+
+[^26]: [Commercial Times: junta de accionistas de Atlantic Beverage fija objetivo de capacidad 2025 en 4,15 millones de cajas](https://www.ctee.com.tw/news/20250611701957-430503) — Reporte de Commercial Times del 11 de junio de 2025 sobre la junta de accionistas; la única vocera citada es Su Yun-le, sin mención de Yu Chung-min, y se cita literalmente: “el objetivo de capacidad de este año para Apple Sidra es de unas 4,15 millones de cajas; además habrá 100.000 cajas de agua y 100.000 de jugos”.

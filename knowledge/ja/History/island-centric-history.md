@@ -1,141 +1,142 @@
 ---
-title: 'Taiwan Island Historiography: How an Island Repeatedly Under Foreign Rule Invented Its Own Subjectivity'
-description: "Taiwan is not the final puzzle piece of a continental empire, but the first cornerstone of the Pacific maritime network. Starting from Tsao Yung-ho's 'History by Geography', we re-understand the vitality of this island."
+title: '台湾島史観：繰り返し統治されてきた島は、いかにして自らの主体性を発明したのか'
+description: '台湾は大陸帝国の最後のピースではなく、太平洋の海洋ネットワークにおける最初の礎石です。曹永和の「以地範史」から出発し、この島の生命力を改めて理解します。'
 date: 2026-03-27
-tags: ['History', 'Island', 'Historiography', 'Tsao Yung-ho', 'Maritime']
-subcategory: 'Historiography and Methodology'
 author: 'Taiwan.md'
 category: 'History'
-readingTime: 12
+subcategory: '史觀與方法論'
+tags: ['歴史', '島嶼', '史観', '曹永和', '海洋']
 lastVerified: 2026-03-27
 lastHumanReview: true
+featured: true
 translatedFrom: 'History/台灣島史觀.md'
-sourceCommitSha: '53610439'
-sourceContentHash: 'sha256:f2cbdffcc80fbaa7'
-sourceBodyHash: 'sha256:445f37a76bc05a73'
-translatedAt: '2026-05-02T13:55:25+08:00'
+sourceCommitSha: '01d9d0e73'
+sourceContentHash: 'sha256:a449ffee99fa24a3'
+sourceBodyHash: 'sha256:ba46b21b9cb6be40'
+translatedAt: '2026-05-12T11:51:04+08:00'
 ---
 
-> **30-Second Overview:** For a long time, Taiwan's history was viewed as a "record of regime changes" or merely a periphery of a continental empire. However, historian Tsao Yung-ho's proposed "Taiwan Island Historiography" completely reverses this perspective: he argues that the subject of Taiwan's history is the "Taiwan Island" itself. Regimes are like actors appearing one after another, but the island is the stage that always exists. This is an island that has seen 8 rulers change within 400 years; people have cultivated world-class resilience and adaptability in the cracks of multiple regimes, transforming external systems into their own nutrients, and finally inventing their own time and democracy at the convergence point of the ocean.
+> **30秒概観：** 長い間、台湾史は「政権交代の記録」、あるいは何らかの大陸帝国の辺境として見なされてきました。しかし歴史家・曹永和が提起した「台湾島史観」は、この視角を根本的に反転させました。彼は、台湾史の主体は「台湾島」そのものだと主張しました。政権は次々に登場する俳優のようなものですが、島こそが常に存在し続ける舞台です。台湾は400年のあいだに8つの統治者を経験した島であり、人々は多重の統治の狭間で世界級の強靭性と適応力を身につけ、外来の制度を自らの養分へと転化し、最終的に海洋の合流点において、島自身の時間と民主を発明したのです。
 
-In 1990, an academic genius named Tsao Yung-ho, who had not attended university but had self-taught over a dozen languages in the National Taiwan University Library, published a paper that shook the historical community: _Another Path for Taiwan Island History Research_. He argued that we should no longer start from "who ruled Taiwan," but rather from "the land of Taiwan itself."
+1990年、大学に通ったことがなく、台湾大学図書館で十数種類の言語を独学した学問の天才・曹永和は、史学界に衝撃を与える論文、〈台湾島史研究のもう一つの道〉を発表しました。彼は、私たちはもはや「誰が台湾を統治したのか」から出発するのではなく、「台湾という土地」そのものから出発すべきだと主張しました。
 
-What this article aims to surprise the reader with is: **The most unusual aspect of Taiwan's history is not "being ruled," but its ability to leave a part of itself from every regime of rule, and to weave fragmented history into an organic subjectivity.**
+この記事が読者を驚かせたい点は、**台湾史でもっとも特異なのは「統治された」ことではなく、台湾がそのたびごとの統治から自らの一部を残し、断裂した歴史を有機的な主体へと編み上げてきたこと**です。
 
-> **✦** "The subject of Taiwan history is the 'Taiwan Island' itself. History is the interaction of people, time, and space; regimes are merely actors appearing in sequence, while the island is the stage that always exists." (Quoted from Tsao Yung-ho, 1990)
+> **✦** 「台湾史の主体は『台湾島』そのものである。歴史とは人・時・空の三者の相互作用であり、政権は次々に登場する俳優にすぎず、島こそが常に存在し続ける舞台である。」（曹永和、1990年）
 
-## I. History by Geography: Returning the Stage to the Island
+## 一、以地範史：舞台を島に返す
 
-Tsao Yung-ho was influenced by the French Annales School and Fernand Braudel, emphasizing the decisive role of geographical space on long-term historical development. In this "Island History" perspective, Taiwan is no longer the "periphery" of the Eurasian continent, but the "center" and "intersection" of East Asian maritime trade routes.
+曹永和はフランスのアナール学派（Annales School）のフェルナン・ブローデルから影響を受け、地理空間が歴史の長期的発展に与える決定的な力を強調しました。この「島史観」のもとでは、台湾はもはやユーラシア大陸の「辺境」ではなく、東アジア海洋貿易ルートの「中心」であり「交差点」です。
 
-If Taiwan is viewed as a "small island," much of history becomes passive suffering; if Taiwan is viewed as a "node of shipping routes," history becomes active choice. This shift in perspective transforms Taiwan history from "Imperial Pioneering History" to "Maritime Civilization History."
+台湾を「小さな島」と見なすなら、多くの歴史は受動的な受難として見えてしまいます。台湾を「航路の結節点」と見なすなら、歴史は能動的な選択へと変わります。この視角の転換によって、台湾史は「帝国の開墾史」から「海洋文明史」へと変わりました。
 
-| Within 400 Years           | 8 Regimes                                                             |
-| :------------------------- | :-------------------------------------------------------------------- |
-| Frequency of Regime Change | An institutional rupture and reconstruction every 50 years on average |
+| 400年のあいだに | 8つの政権                        |
+| --------------- | -------------------------------- |
+| 政権交代の頻度  | 平均50年に一度の制度的断裂と再建 |
 
-> **📝 Curator's Note**
-> Tsao Yung-ho's greatness lies in his use of 17th-century Dutch and Spanish documents to rescue Taiwan history from the shadow of continental historiography, returning it to the island itself.
+> **📝 キュレーター・ノート**
+> 曹永和の偉大さは、17世紀のオランダ語・スペイン語文献を研究することを通じて、台湾史を大陸史観の影から救い出し、島そのものへと返した点にあります。
 
-Related Extensions: [[Taiwan Maritime Trade History]], [[Prehistoric Era and Indigenous Peoples]]
+関連する展開：[台湾海洋貿易史](/ja/History/taiwan-maritime-trade-history/)、[先史時代と原住民](/ja/History/prehistoric-era-and-indigenous-peoples/)
 
-## II. The Maritime Gene of the Austronesian Family: Islandness is Worldliness
+## 二、オーストロネシア語族の海洋遺伝子：島嶼性とは世界性である
 
-The starting point of Taiwan's history is far earlier than 1624. Approximately 6,000 years ago, Taiwan became the cradle of Austronesian civilization. These brave maritime peoples set out from Taiwan, conquering the entire Pacific and Indian Oceans with canoes, establishing the most widely distributed linguistic empire on Earth (Britannica).
+台湾史の起点は1624年よりはるかに早くにあります。およそ6000年前、台湾はオーストロネシア語族（Austronesian）文明の揺籃となりました。これら勇敢な海洋民族は台湾から出発し、丸木舟を操って太平洋とインド洋全域へと広がり、地球上でもっとも広く分布する語族の帝国を築きました（Britannica）。
 
-This proves that Taiwan's "maritime character" is not externally imposed, but innate. When we discuss Island Historiography, we are discussing a civilization technology of "making the island home," which is fundamentally different from the agricultural logic of continental civilizations. Islandness does not mean isolation; rather, it means infinite possibilities leading to the world.
+これは、台湾の「海洋的性格」が外から付け加えられたものではなく、生来のものであることを証明しています。島史観を語るとき、私たちは「島を家とする」文明の技術について語っています。それは大陸文明の農耕の論理とはまったく異なります。島嶼性は孤立を意味するのではなく、むしろ世界へ通じる無限の可能性を意味します。
 
-Related Extensions: [[History and Naming Movement of Taiwan Indigenous Peoples]]
+関連する展開：[台湾原住民族の歴史と正名運動](/ja/History/indigenous-peoples-history-and-naming-movement/)
 
-## III. The First Collision of Empires: The Kingdom of Middag and Global Trade
+## 三、帝国の最初の衝突：大肚王国とグローバル貿易
 
-In the early 17th century, the Dutch (1624) and the Spanish (1626) successively established footholds in Taiwan. Traditional narratives often emphasize the colonizers' "discovery," but Island Historiography guides you to look at the local regimes existing at that time—the **Kingdom of Middag**.
+17世紀初頭、オランダ（1624年）とスペイン（1626年）が相次いで台湾に拠点を築きました。伝統的な叙述はしばしば植民者による「発見」を強調しますが、島史観は当時存在していた在地政権、すなわち**大肚王国（Kingdom of Middag）**へと視線を向けさせます。
 
-This was a multi-ethnic kingdom composed of indigenous people, which maintained itself in central Taiwan for two centuries. It proved that long before large-scale entry of European and Han regimes, Taiwan already had the ability to autonomously evolve regimes. The Dutch did not "discover" Taiwan; they merely joined an East Asian grand theater already woven by Japanese, Han merchants, and local indigenous peoples.
+これは原住民によって構成された跨民族的な王国であり、台湾中部で2世紀にわたり存続しました。それは、ヨーロッパ勢力と漢人政権が大規模に入ってくる以前から、台湾には自律的に政権を発展させる能力があったことを証明しています。オランダ人は台湾を「発見」したのではありません。彼らは、日本人、漢人海商、在地原住民によってすでに織り成されていた東アジアの大舞台に加わったにすぎません。
 
-> **💡 Did You Know**
-> In the 17th century, Taiwanese deer hides were essential for Japanese samurai armor. The anonymous deer hide merchants of that time were the ones who truly pulled Taiwan into the wave of the global economy, creating a direct link between the island and the military equipment of Kyoto.
+> **💡 ご存じですか**
+> 17世紀の台湾の鹿皮は、日本の武士の甲冑に不可欠な素材でした。当時の匿名の鹿皮商こそが、台湾をグローバル経済の波へと本当に巻き込んだ人々であり、台湾島と京都の軍事装備とのあいだに直接的なつながりを生み出しました。
 
-Related Extensions: [[Dutch and Spanish Ming Zheng Period]]
+関連する展開：[オランダ・スペイン・明鄭時代](/ja/History/dutch-spanish-and-koxinga-era/)
 
-## IV. The Frontier of Migration: Han Immigrants and Institutional Transplantation
+## 四、移住の前線：漢人移民と制度移植
 
-In 1662, Koxinga (Zheng Chenggong) drove out the Dutch; in 1683, Qing troops took over. During this period, Taiwan became a "frontier of migration and pioneering." Island Historiography emphasizes that this process of Sinicization was not merely cultural expansion, but a survival choice of geographical frontiers.
+1662年に鄭成功がオランダ人を駆逐し、1683年に清軍が接収しました。この時期、台湾は「移住と開拓の前線」となりました。島史観が強調するのは、この漢人化の過程が単純な文化拡張ではなく、地理的前線における生存の選択だったという点です。
 
-People brought agricultural wisdom and clan organizations to the island, but to survive in an environment of frequent changes, they learned social contracts that were more flexible and pragmatic than those in the continental motherland. Taiwan's "Han society" carried an element of instability and adventurous genes from the beginning, which is evident in the frequent uprisings during the Qing rule (such as "small rebellions every three years, great chaos every five years").
+人々は農耕の知恵と宗族組織を携えて島に渡りました。しかし頻繁に変動する環境で生き延びるために、彼らは大陸の母国よりも柔軟で、より現実的な社会契約を学びました。台湾の「漢人社会」は当初から、ある種の不安定性と冒険の遺伝子を帯びていました。それは清朝統治期の頻繁な蜂起、たとえば「三年に一度小反乱、五年に一度大騒乱」という表現にも見て取れます。
 
-Related Extensions: [[Qing Rule Period]], [[Taiwan Economic Miracle]]
+関連する展開：[清朝統治期](/ja/History/qing-dynasty-rule/)、[台湾経済奇跡](/ja/History/taiwan-economic-miracle-from-agriculture-to-asian-tiger/)
 
-## V. 1895: The Double-Edged Sword of Colonial Modernity
+## 五、1895年：植民地的近代性という両刃の剣
 
-After the Treaty of Shimonoseki in 1895, Japan conducted the largest-scale modernization experiment in Asia in Taiwan. The establishment of railways, electricity, education, and medical systems was not out of kindness, but for the sake of ruling efficiency. However, these transplant systems eventually became an indelible foundation of Taiwanese society.
+1895年の下関条約後、日本は台湾でアジア最大規模の近代化実験を行いました。鉄道、電力、教育、医療制度の整備は、善意からではなく、統治効率のためでした。しかしこれら移植された制度は、最終的に台湾社会にとって消し去りがたい基盤となりました。
 
-Island Historiography does not deny colonial oppression, but it acknowledges: a significant part of Taiwan's modernity was built in this contradictory rupture. This is a "forced modernization," yet it was internalized by the people on the island into their own strength.
+島史観は植民地支配の抑圧を否定しません。しかし同時に、台湾の近代性の大きな部分が、こうした矛盾に満ちた断裂のなかで築かれたことを認めます。それは「強いられた近代化」でしたが、島の人々によって自らの力として内面化されました。
 
-> **⚠️ Controversial Viewpoint**
-> Colonial modernity is the most difficult part of Taiwan's history to handle. How do we simultaneously remember the pain of oppression and the progress brought by the systems? This is the tension that Island Historiography attempts to weave: we accepted the systems, but we refused to be assimilated.
+> **⚠️ 論争的視点**
+> 植民地的近代性は、台湾史でもっとも扱いが難しい部分です。私たちは、抑圧された苦痛と、制度がもたらした進歩を、どのように同時に記憶できるのでしょうか。これこそが島史観の編み上げようとする緊張です。私たちは制度を受け入れましたが、同化されることは拒否しました。
 
-Related Extensions: [[Japanese Rule Period]], [[Taiwan Railway History]]
+関連する展開：[日本統治時代](/ja/History/japanese-colonial-era/)、[台湾鉄道史](/ja/History/taiwan-railway-history/)
 
-## VI. The Strata of Authoritarianism and Memory
+## 六、権威主義と記憶の地層
 
-In 1945, with the end of World War II, Taiwan faced another regime transfer. The February 28 Incident in 1947 and the subsequent 38 years of martial law are the deepest traumas in Taiwan's history. This was not just a political event, but a "massive rupture" of the island's memory.
+1945年に第二次世界大戦が終わり、台湾は再び政権移行に直面しました。1947年の二二八事件と、その後38年間の戒厳令は、台湾史上もっとも深い傷です。これは単なる政治事件ではなく、島の記憶における「大規模な断裂」でした。
 
-However, from the perspective of Island Historiography, this period was also the moment when the "memory strata" were stacked most heavily. Military villages, Green Island prisons, classrooms where dialects were banned, silent living rooms—these seemingly fragmented memories erupted into the nutrients of Taiwan's diverse culture after the lifting of martial law in 1987. Island Historiography views this history as a "compressed explosion," the final crucible of Taiwan's subject identity.
+しかし島史観から見ると、この時期は「記憶の地層」がもっとも厚く堆積した時期でもあります。眷村、緑島監獄、方言を話すことが禁じられた教室、沈黙する居間。こうした一見断裂した記憶は、1987年の戒厳令解除後、台湾の多元文化の養分として噴出しました。島史観はこの歴史を一種の「圧縮後の爆発」と見なし、台湾の主体的アイデンティティにとって最後の坩堝だったと捉えます。
 
-Related Extensions: [[February 28 Incident]], [[Martial Law Period]], [[Taiwan White Terror]], [[The Beautiful Island Incident: The Night That Changed Taiwan's Destiny]]
+関連する展開：[二二八事件](/ja/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory/)、[戒厳令時代](/ja/History/martial-law-era/)、[台湾白色テロ](/ja/History/taiwan-white-terror/)、美麗島事件：台湾の運命を変えたあの夜
 
-## VII. Four Core Propositions of Island Historiography
+## 七、島史観の四つの核心的主張
 
-Tsao Yung-ho's theory provides us with four pillars for viewing history at eye level:
+曹永和の理論は、歴史を水平の目線で見るための四つの柱を提供します。
 
-1.  **Stage-Centric History (History by Geography)**:
-    View the Taiwan Island as the stage that always exists. Regimes are merely changing actors; the continuity of island life is the subject.
+1.  **以地範史（Stage-Centric History）**：
+    台湾島を常に存在し続ける舞台と見なします。政権は交代する俳優にすぎず、島の生活の連続性こそが主体です。
 
-2.  **Maritime Hub & Global Context**:
-    Taiwan is not the end of the continent, but the center of the ocean. Taiwan history must be examined within the context of "World History."
+2.  **海洋ハブとグローバルな文脈（Maritime Hub & Global Context）**：
+    台湾は大陸の末端ではなく、海洋の中心です。台湾史は「世界史」の文脈に置いて考察しなければなりません。
 
-3.  **Multi-ethnic Subjectivity**:
-    Reject "Han-centrism," acknowledging that all ethnic groups who have lived here are subjects of Taiwan history.
+3.  **多元的民族の共生的主体性（Multi-ethnic Subjectivity）**：
+    「漢人中心主義」を拒み、ここで暮らしたすべての民族が台湾史の主体であることを認めます。
 
-4.  **Resilience of the Ruled**:
-    Frequent changes have cultivated strong adaptability and the ability to survive in the cracks; this is the most invisible cornerstone of Taiwan's democratic transition.
+4.  **「統治される専門性」と強靭性の進化（Resilience of the Ruled）**：
+    頻繁な政権交代は、きわめて強い適応力と狭間で生き延びる能力を育てました。これは台湾の民主化転換における、もっとも見えにくい礎石です。
 
-> **📊 Historiographical Shift Comparison**
-> | Dimension | Continental Historiography | Taiwan Island Historiography |
+> **📊 史観転換の比較**
+> | 次元 | 大陸史観 | 台湾島史観 |
 > |---|---|---|
-> | **Geographical Role** | Periphery, final puzzle piece | Hub, first cornerstone |
-> | **Narrative Center** | Regime changes, legitimacy | Island subjectivity, life continuity |
-> | **Historical Dynamics** | Land reclamation, agricultural expansion | Maritime trade, cultural flow |
-> | **Basis of Identity** | Bloodline, motherland order | Land, institutional adaptability |
+> | **地理的役割** | 辺境、最後のピース | ハブ、最初の礎石 |
+> | **叙述の中心** | 政権交代、正統性 | 島の主体、生活の連続性 |
+> | **歴史の動力** | 土地開拓、農耕拡張 | 海洋貿易、文化の流動 |
+> | **アイデンティティの基礎** | 血縁、母国秩序 | 土地、制度への適応力 |
 
-## VIII. 21st Century Islandness: From Silicon Island to World Coordinates
+## 八、21世紀の島嶼性：シリコン・アイランドから世界の座標へ
 
-Under the context of "Island Historiography," contemporary Taiwan is undergoing a fourth key turning point. We are no longer just a "safe haven" or a "relay station," but the core of the global digital supply chain.
+現代台湾は「島史観」の文脈のもとで、四度目の重要な転換を経験しています。私たちはもはや単なる「避難港」や「中継地」ではなく、グローバルなデジタル供給網の核心です。
 
-The concept of the "Silicon Shield" is essentially the digitalization of the maritime trade hub. Taiwan's semiconductor industry is an extension of island subjectivity: we utilize globally flowing capital and technology to create a "hardware sovereignty" that the world cannot ignore. Island Historiography reminds us that this is not a miracle that appeared out of nowhere, but the highest-level adaptive technology honed by the island through 400 years of survival in the cracks.
+シリコン・シールド（Silicon Shield）という概念の本質は、海洋貿易ハブのデジタル化です。台湾の半導体産業は、まさに島の主体性の延長です。私たちはグローバルに流動する資本と技術を活用し、世界中が無視できない「ハードウェア主権」を創り出しました。島史観は、これが突然現れた奇跡ではなく、島が400年にわたる狭間での生存のなかで鍛え上げた、最高度の適応技術であることを思い出させます。
 
-## IX. Democracy as Technology: From "Professionalism of Being Ruled" to "Self-Rule"
+## 九、民主は技術である：「統治される専門性」から「自らを統治する」へ
 
-In 1996, Taiwan held its first direct presidential election. This is often called a "democratic miracle," but in the context of Island Historiography, it is actually the "maturity of technology."
+1996年、台湾は初の総統直接選挙を実施しました。これはしばしば「民主の奇跡」と呼ばれますが、島史観のもとでは、実際には「技術の成熟」です。
 
-Having 8 regimes change in 400 years taught Taiwanese people not to view any ruler as eternal. This "professionalism of being ruled" cultivated a strong political resilience: we learned how to repeatedly rebuild our lives on the ruins of systems. When rulers left, the systems and technologies they left behind were taken up by us and redefined as "democracy."
+400年で8つの政権を経験したことにより、台湾人はどの統治者も永遠ではないことを学びました。この「統治される専門性」は、きわめて強い政治的強靭性を育てました。私たちは制度の廃墟の上で、自らの生活を何度も再建する方法を学んだのです。統治者が去ったとき、残された制度と技術を私たちは引き受け、それを「民主」として再定義しました。
 
-## IX. Conclusion: Writing Ourselves into History
+## 九、結語：自らを歴史として書く
 
-The endpoint of Island Historiography is subjectivity. Taiwan's history has been written many times by empires, colonizers, and dictators. But Tsao Yung-ho tells us that what truly determines the island's future is how the people on the island rearrange these external narratives to write their own stories.
+島史観の到達点は主体性です。台湾史は帝国、植民者、独裁者によって何度も書かれてきました。しかし曹永和が私たちに教えるのは、島の未来を本当に決定するのは、島の人々がこれら外来の叙述をどのように並べ替え、自らの物語として書き直すかだということです。
 
-On the world map, Taiwan is a small island; in terms of historical density, it is like a piece of metal repeatedly forged. Every regime leaves a mark, but also forces the island to invent new temporal orders. Taiwan is not an appendix of the periphery, but a human island that is constantly rewriting itself.
+世界地図の上では、台湾は小さな島です。しかし歴史の密度において、それは繰り返し鍛えられた金属のようです。統治のたびに痕跡は残りましたが、それは同時に、島に新しい時間秩序を発明させました。台湾は辺境の付録ではなく、自らを絶えず書き換え続ける人間の島です。
 
-**Further Reading**:
+**関連読書**：
 
-- [Formosa](/history/福爾摩沙) — Deconstructing and Reversing the Narrative of Western "Discovery" Over Four Hundred Years: From Psalmanazar's Hoax to the Recycling at the National Museum of Taiwan History
+- [フォルモサ](/history/福爾摩沙) — Psalmanazarの詐欺から国立台湾歴史博物館による回収まで：400年にわたる西洋の「発見」叙述の脱構築と反転
+- [国立台湾歴史博物館](/society/國立臺灣歷史博物館) — 2011年に開館した国家級三級機構であり、1990年の曹永和論文を実体展示「斯土斯民——台湾の物語」として形にした、台湾島史観のinstitutional instantiationです
 
-## References
+## 参考資料
 
-- Tsao Yung-ho, "Another Path for Taiwan Island History Research — The Concept of 'Taiwan Island History'," _Journal of Taiwan Historical Studies_, Issue 10, 1990.
-- Zhou Wan-yao, _Illustrated History of Taiwan: Prehistory to 1945_, Lianjing Publishing, 1997.
-- Weng Chia-yin, Huang Yan, _Decoding Taiwan History: 1550-1724_, Yuanliu Publishing, 2017.
+- 曹永和，〈臺灣島史研究的另一途徑——「臺灣島史」概念〉，《臺灣史研究既刊》第 10 期，1990。
+- 周婉窈，《臺灣歷史圖說：史前至一九四五年》，聯經出版，1997。
+- 翁佳音、黃驗，《解碼臺灣史：1550-1724》，遠流出版，2017。
 - Blussé, Leonard. _Around and About Dutch Formosa: Essays in Honor of Ts'ao Yung-ho_. Ts'ao Yung-ho Foundation for Culture and Education, 2003. (English)
 - _Taipei Times_. "History of a Taiwan historian." August 10, 2003. (English)
 - [Taiwan.gov.tw — HISTORY](https://www.taiwan.gov.tw/content_3.php)
@@ -144,4 +145,4 @@ On the world map, Taiwan is a small island; in terms of historical density, it i
 - [Wikipedia — History of Taiwan](https://en.wikipedia.org/wiki/History_of_Taiwan)
 - [Wikipedia — Martial law in Taiwan](https://en.wikipedia.org/wiki/Martial_law_in_Taiwan)
 - [Wikipedia — Kingdom of Middag](https://en.wikipedia.org/wiki/Kingdom_of_Middag)
-- [National Museum of Taiwan History (國立臺灣歷史博物館) — Exhibition Discourse](https://www.nmth.gov.tw/)
+- [National Museum of Taiwan History (國立臺灣歷史博物館） — 展覽論述](https://www.nmth.gov.tw/)

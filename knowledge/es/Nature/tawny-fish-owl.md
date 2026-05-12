@@ -1,192 +1,196 @@
 ---
-title: 'Búho pescador leonado: seis kilómetros de arroyo para una pareja, rapaz nocturna sobre un tramo de 1.800 metros de Machilus zuihoensis'
-description: 'En abril de 2026, el profesor asistente de la NPUST, Hong Xiaoyu, localizó el nido más alto conocido de búho pescador leonado (_Ketupa flavipes_) en Taiwán: una cavidad en un ejemplar de Machilus zuihoensis con un diámetro de pecho de aproximadamente 1,5 metros, junto al arroyo Qijiawan, a unos 1.800 metros sobre el nivel del mar. El búho más grande de Taiwán no fue registrado por primera vez hasta 1916, por el académico japonés Kuroda Nagamichi. El laboratorio de Sun Yuanxun de la Universidad Nacional de Ciencia y Tecnología de Pingtung lo ha rastreado durante treinta años: 91 territorios, cada pareja necesita en promedio 6,2 kilómetros de arroyo. Un tramo de río sin cemento, un árbol gigante que aún no ha caído: el búho pescador leonado vive en la grieta entre dos cosas que aún no han desaparecido en los bosques de Taiwán.'
-date: '2026-05-04'
-author: 'Taiwan.md'
-category: Nature
+title: 'Búho pescador leonado: una pareja por cada seis kilómetros de arroyo, rapaz nocturna sobre un árbol de Michelia de 1.800 metros'
+description: 'En abril de 2026, el profesor asistente Hong Hsiao-yu, de la Universidad Nacional de Ciencia y Tecnología de Pingtung, localizó en una cavidad de un viejo árbol de Michelia, con un diámetro a la altura del pecho de unos 1,5 metros, junto al arroyo Qijiawan, el nido de búho pescador leonado más alto conocido en Taiwán: alrededor de 1.800 metros sobre el nivel del mar. Esta especie, el búho más grande de Taiwán, fue registrada por primera vez recién en 1916 por el académico japonés Nagamichi Kuroda. El laboratorio de Sun Yuan-hsun, de la Universidad Nacional de Ciencia y Tecnología de Pingtung, la ha seguido durante treinta años: en 91 territorios, cada pareja requiere en promedio 6,2 kilómetros de arroyo. Un tramo de arroyo sin cemento, un árbol gigante que aún no ha caído: el búho pescador leonado vive en la grieta donde dos cosas de los bosques montañosos de Taiwán todavía no han desaparecido.'
+date: 2026-05-04
+author: 'Taiwan.md Contributors'
+category: 'Nature'
 subcategory: '野生動物'
 tags:
   [
-    'Búho pescador leonado',
-    'Aves',
-    'Rapaces',
-    'Conservación',
-    'Ecología',
-    'Bosque',
-    'Arroyo',
-    'Arroyo Qijiawan',
+    'búho pescador leonado',
+    'aves',
+    'rapaces',
+    'conservación',
+    'ecología',
+    'bosques',
+    'arroyos',
+    'arroyo Qijiawan',
     'Parque Nacional Shei-Pa',
   ]
 readingTime: 12
-lastVerified: '2026-05-04'
+lastVerified: 2026-05-12
 lastHumanReview: false
 featured: false
 translatedFrom: 'Nature/黃魚鴞.md'
-sourceCommitSha: '0b2c2a33'
-sourceContentHash: 'sha256:57f8ce8908bd530e'
-sourceBodyHash: 'sha256:397826cf804fd7db'
-translatedAt: '2026-05-05T00:33:23+08:00'
+sourceCommitSha: '3caf80d64'
+sourceContentHash: 'sha256:e7ee784435375331'
+sourceBodyHash: 'sha256:88027a3e0b96dfe3'
+translatedAt: '2026-05-12T11:51:05+08:00'
 ---
 
-> **Panorama en 30 segundos:** El búho pescador leonado (_Ketupa flavipes_) es el búho más grande de Taiwán. Con las alas desplegadas, su envergadura se aproxima a la estatura de un adulto. Los dedos de sus pies están cubiertos de plumas amarillas y las plantas presentan espinas carnosas que le permiten sujetar presas resbaladizas. No fue registrado por primera vez hasta 1916, por el académico japonés Kuroda Nagamichi[^1], y no fue hasta 1994 cuando se localizó el primer nido de reproducción con precisión en Taiwán[^2]. El laboratorio de Sun Yuanxun de la Universidad Nacional de Ciencia y Tecnología de Pingtung lo ha rastreado durante treinta años: descubrieron que una pareja de búhos pescadores leonados necesita un arroyo de 6,2 kilómetros de longitud, rodeado en un 44,6% por bosque natural, para mantener su territorio[^3]. En abril de 2026, el equipo de investigación encontró el nido a mayor altitud conocido en Taiwán, en la cavidad de un ejemplar viejo de Machilus zuihoensis junto al arroyo Qijiawan en Wuling[^4]. El Parque Nacional Shei-Pa lanzó una transmisión en vivo de 24 horas del período de cría, ofreciendo a la isla la primera oportunidad colectiva de observar a una de sus rapaces más familiares y, al mismo tiempo, más desconocidas.
+> **Panorama en 30 segundos:** El búho pescador leonado (_Ketupa flavipes_) es el búho más grande de Taiwán; con las alas extendidas alcanza casi la estatura de una persona adulta. Sus dedos están cubiertos de plumas amarillas y las plantas de sus patas tienen espículas carnosas para aferrar presas resbaladizas. Fue registrado por primera vez recién en 1916 por el académico japonés Nagamichi Kuroda[^1], y el primer nido reproductivo localizado con precisión en Taiwán se documentó recién en 1994[^2]. El laboratorio de Sun Yuan-hsun, de la Universidad Nacional de Ciencia y Tecnología de Pingtung, lo ha seguido durante treinta años: descubrió que una pareja de búhos pescadores leonados necesita 6,2 kilómetros de arroyo, rodeado en un 44,6% por bosque natural, para sostener su territorio[^3]. En abril de 2026, el equipo de investigación encontró el nido más alto conocido de Taiwán dentro de una cavidad de un viejo árbol de Michelia, de unos 1,5 metros de diámetro a la altura del pecho, junto al arroyo Qijiawan, en Wuling[^4]. El Parque Nacional Shei-Pa lanzó una transmisión en vivo de 24 horas de la crianza, dando a la isla su primera oportunidad de ver colectivamente a una rapaz que le era a la vez familiar y desconocida.
 
-Un día de 1994, Sun Yuanxun encontró un nido en un árbol junto al arroyo Shakadang en Taroko, Hualien. El helecho _Dendrochnide_ es el helecho epífito más grande de la isla: sus frondes gruesos como plumas se despliegan en todas direcciones desde el tronco, y el nido estaba construido en el centro de ese racimo de helechos. Dentro del nido solo había un polluelo[^2]. Cuando volvió al árbol, el padre del polluelo había sido abatido por un cazador y la madre había abandonado el nido. Se llevó el polluelo a casa y su esposa ayudó a cuidarlo. Más tarde, la reintroducción en la naturaleza fracasó y el ave fue enviada al Zoológico de Taipéi, donde fue bautizada como «Hemei»[^5].
+Un día de 1994, Sun Yuan-hsun encontró un nido en un árbol junto al arroyo Shakadang, en Taroko, Hualien. El helecho nido de ave es el helecho epífito más grande de la isla; sus hojas robustas, como plumas, se abren desde el tronco en todas direcciones, y el nido estaba construido en el centro de ese racimo de helechos. Dentro solo había un polluelo[^2]. Cuando volvió a ese árbol, el padre del polluelo había sido abatido por un cazador y la madre había abandonado el nido. Sun llevó el polluelo a su casa, y su esposa ayudó a cuidarlo. Más tarde, la liberación de esa ave joven fracasó; fue enviada al Zoológico de Taipéi y recibió el nombre de “Heimei”[^5].
 
-Aquel fue el primer nido de reproducción de búho pescador leonado localizado con precisión en Taiwán. Treinta años después, el laboratorio de Sun Yuanxun ha rastreado 91 territorios, pero los nidos localizados con precisión siguen siendo un número de una sola cifra[^3][^6].
+Ese fue el primer nido reproductivo de búho pescador leonado localizado con precisión en Taiwán. Treinta años después, el laboratorio de Sun Yuan-hsun ha seguido 91 territorios, pero los nidos localizados con precisión todavía se cuentan con los dedos de una mano[^3][^6].
 
-## El helecho _Dendrochnide_ de aquel año en Shakadang
+## El helecho nido de ave de aquel año en Shakadang
 
-El momento en que el búho pescador leonado entró en la historia ornitológica de Taiwán fue más tardío de lo que se imagina. En 1916, el zoólogo japonés Kuroda Nagamichi lo incluyó por primera vez en la lista de aves residentes de Taiwán[^1]; por entonces, el período colonial japonés en Taiwán llevaba 21 años y la ornitología en las tierras bajas ya estaba bien desarrollada, pero el búho pescador leonado no fue «encontrado» hasta el ocaso de la era dorada de la historia natural. La razón no es compleja: es un animal nocturno, habita en valles fluviales de baja a mediana altitud con poca presencia humana, su canto es grave y su distribución territorial es dispersa, por lo que incluso un observador experimentado rara vez logra verlo.
+El búho pescador leonado entró en la historia ornitológica de Taiwán más tarde de lo que se suele imaginar. En 1916, el zoólogo japonés Nagamichi Kuroda lo incluyó por primera vez en la lista de aves residentes de Taiwán[^1]. Para entonces, Taiwán llevaba 21 años bajo dominio japonés y la ornitología de las llanuras ya estaba madura; sin embargo, el búho pescador leonado fue “encontrado” recién en la etapa dorada de la historia natural. La razón no es compleja: es nocturno, habita valles fluviales poco frecuentados de baja y media altitud, tiene una vocalización grave y sus territorios son dispersos, de modo que incluso observadores profesionales rara vez llegan a verlo.
 
-A principios de la década de 1990, Sun Yuanxun comenzó a rastrear esta ave en los arroyos de ambos lados de la cordillera central de Taiwán: Wulai en Taipéi, Shakadang en Hualien y Wuling en Taichung[^7]. Shakadang es territorio tradicional del pueblo taroko; aquel hallazgo de 1994 redefinió todas las coordenadas de la investigación posterior sobre el búho pescador leonado en Taiwán.
+A comienzos de la década de 1990, Sun Yuan-hsun empezó en la Universidad Nacional de Ciencia y Tecnología de Pingtung a seguir a esta ave en el trabajo de campo, en arroyos a ambos lados de la Cordillera Central: Wulai, en Taipéi; Shakadang, en Hualien; y Wuling, en Taichung[^7]. Shakadang es territorio tradicional del pueblo Truku; aquel hallazgo de 1994 reescribió todas las coordenadas posteriores de la investigación taiwanesa sobre el búho pescador leonado.
 
-> **📝 Nota del curador**
-> El nombre «Hemei» es una transliteración de Hedwig, la lechuza nieve de Harry Potter. Desde aquel rescate de 1994 en Shakadang, el ave pasó treinta años en el aviario del Zoológico de Taipéi.
+> **📝 Nota curatorial**
+> El nombre Heimei es una transliteración de Hedwig, la lechuza nival de _Harry Potter_. Desde aquel rescate en Shakadang en 1994, vivió treinta años en el aviario del Zoológico de Taipéi.
 
-Sun Yuanxun y los estudiantes de posgrado que le sucedieron publicaron una serie de artículos internacionales desde Shakadang y Wuling: notas sobre el nido de Shakadang en el _Journal of Raptor Research_ en 1997[^2], un estudio de dieta en la misma revista en 2006[^8], y un artículo sobre la distribución espacial de 91 territorios en _Forktail_ en 2013[^3]. El equipo aprendió mucho en treinta años, pero «verlo con los propios ojos» sigue siendo un acontecimiento raro. Según registros de entrevistas, los miembros del laboratorio, que «no se arrepienten de subir montañas y vadear ríos», en la mayoría de los casos solo escuchan el dúo de dos sílabas «uuu—uuu», ven siluetas recortadas por el infrarrojo de las cámaras trampa, o logran una mirada fugaz durante el momento de la liberación tras el anillamiento[^7].
+Sun Yuan-hsun y los estudiantes de posgrado que continuaron su trabajo publicaron una serie de artículos internacionales sobre Shakadang y Wuling: la nota sobre el nido de Shakadang en _Journal of Raptor Research_ en 1997[^2], el estudio de dieta en la misma revista en 2006[^8], y el artículo de 2013 en _Forktail_ sobre la distribución espacial de 91 territorios[^3]. El equipo aprendió mucho en treinta años, pero “verlo con los propios ojos” sigue siendo algo raro. Según registros de entrevistas, los integrantes del laboratorio, que “no se arrepienten de subir montañas y cruzar aguas”, casi siempre solo logran oír el dueto bisilábico “guu—wu”, ver una silueta bajo el destello infrarrojo de una cámara automática, o cruzar la mirada con esta ave durante el breve instante de una captura, marcaje y liberación[^7].
 
-## Cangrejos de pelo en las egagrópilas
+## Cangrejos peludos en egagrópilas
 
-El nombre «búho pescador» puede llevar a confusión.
+El nombre “búho pescador” puede inducir a error.
 
-El estudio de dieta realizado por el equipo de Sun Yuanxun entre 1994 y 1999 en el arroyo Shakadang reveló que, aunque los peces de río estaban presentes en la dieta del búho pescador leonado —por ejemplo, _Opsariichthys pachycephalus_, _Varicorhinus barbatulus_ y _Onychostoma barbatulum_ eran frecuentes—, **los cangrejos de pelo y los sapos constituían la mayor biomasa en las egagrópilas**[^8]. _Eriocheir formosa_, diversos cangrejos de agua dulce y _Bufo bankorensis_, presas grandes de movimientos lentos, eran cazadas con una frecuencia significativamente mayor que su proporción relativa en el entorno. Los investigadores especulan que, cuando el arroyo se desborda y el nivel del agua sube, los peces se vuelven difíciles de atrapar y el búho cambia a cazar cangrejos y anfibios entre las grietas de las rocas de la orilla[^8].
+El estudio de dieta realizado por el equipo de Sun Yuan-hsun entre 1994 y 1999 en el arroyo Shakadang encontró que, por supuesto, en el menú del búho pescador leonado hay peces de arroyo, como _Opsariichthys pachycephalus_, _Onychostoma barbatulum_ y _Onychostoma alticorpus_, visitantes frecuentes. Pero **la mayor biomasa dentro de las egagrópilas correspondía, en realidad, a cangrejos peludos y sapos**[^8]. El cangrejo de mitones taiwanés (_Eriocheir formosa_), diversos cangrejos de agua dulce y el sapo taiwanés son presas grandes y lentas que aparecen en su dieta con una frecuencia claramente superior a su proporción relativa en el ambiente. Los investigadores infieren que, cuando el arroyo crece y sube el nivel del agua, los peces se vuelven difíciles de capturar, y el búho pescador leonado pasa a cazar cangrejos peludos y ranas en las grietas de las rocas de la orilla[^8].
 
-Su método de caza también difiere del de otros búhos grandes. El búho pescador leonado **tiene los dedos cubiertos de plumas amarillas**, pero **las plantas presentan espinas carnosas rugosas**: los peces y cangrejos resbaladizos quedan atrapados firmemente al ser sujetados, una adaptación que comparte con el búho pescador pardo y el búho pescador malayo del sudeste asiático. El búho pescador de Blakiston (_Ketupa blakistoni_), congénere distribuido en el Lejano Oriente ruso y Hokkaido, mide 71 centímetros de longitud y es el búho más grande del mundo[^9]; el búho pescador leonado mide entre 48 y 61 centímetros, con un peso promedio de 2.415 gramos, es **el búho más grande de Taiwán**, pero dentro del género _Ketupa_ es de tamaño medio[^10].
+Su forma de cazar también difiere de la de otros grandes búhos. El búho pescador leonado tiene **los dedos cubiertos de plumas amarillas**, pero **las plantas de los pies poseen espículas carnosas y ásperas**; así puede sujetar con firmeza peces y cangrejos resbaladizos. Comparte esta adaptación con el búho pescador pardo y el búho pescador malayo del Sudeste Asiático. El búho pescador de Blakiston (_Ketupa blakistoni_), del mismo género, se distribuye en el Extremo Oriente ruso y Hokkaidō; mide 71 centímetros de largo y es el búho más grande del mundo[^9]. El búho pescador leonado mide entre 48 y 61 centímetros y pesa en promedio 2.415 gramos; es **el búho más grande de Taiwán**, aunque dentro del género _Ketupa_ es apenas de tamaño medio[^10].
 
 > **💡 ¿Sabías que...?**
-> De las 12 especies del género _Ketupa_ en el mundo, solo el búho pescador leonado tiene los dedos completamente cubiertos de plumaje. Las otras tres especies (excluyendo el búho pescador pardo, el búho pescador malayo y el búho pescador de Blakiston) tienen los dedos desnudos. En biología evolutiva, se especula que esto está relacionado con el clima de mayor altitud de las poblaciones distribuidas en Taiwán.
+> Entre las 12 especies del mundo pertenecientes al género _Ketupa_, solo el búho pescador leonado tiene los dedos completamente cubiertos de plumas. En las otras tres especies mencionadas —búho pescador pardo, búho pescador malayo y búho pescador de Blakiston— los dedos están desnudos. Desde la biología evolutiva se infiere que esto se relaciona con el clima de mayor altitud que ocupa la población distribuida en Taiwán.
 
 ## Un tramo de arroyo sin cemento
 
-El artículo publicado por el equipo de Sun Yuanxun en 2013 en el volumen 29 de _Forktail_ es el estudio más amplio sobre el hábitat del búho pescador leonado. Recopilaron las coordenadas de 91 territorios en toda la isla y analizaron las variables ambientales mediante SIG[^3]:
+El artículo publicado por el equipo de Sun Yuan-hsun en 2013 en el volumen 29 de _Forktail_ es el estudio individual de mayor escala sobre el hábitat del búho pescador leonado. Reunieron coordenadas de 91 territorios en todo Taiwán y analizaron variables ambientales mediante SIG[^3]:
 
-| Requisito de hábitat                          | Valor                                                      |
-| --------------------------------------------- | ---------------------------------------------------------- |
-| Rango altitudinal                             | 48-2.407 metros (la mayoría por debajo de 700 metros)      |
-| Longitud del territorio a lo largo del arroyo | Promedio 6,2 km (rango 5,5-7,7 km)                         |
-| Distancia al arroyo                           | Los nidos se encuentran mayormente en un radio de 20-550 m |
-| Proporción de bosque natural en el territorio | Se necesita al menos un 44,6% para mantener una pareja     |
-| Diámetro de pecho del árbol nido              | Árboles vivos o muertos en pie de más de 1 metro           |
+| Necesidad de hábitat                          | Valor                                                                |
+| --------------------------------------------- | -------------------------------------------------------------------- |
+| Rango altitudinal                             | 48-2.407 metros (la mayoría por debajo de 700 metros)                |
+| Longitud del territorio a lo largo del arroyo | Promedio de 6,2 kilómetros (rango de 5,5-7,7 kilómetros)             |
+| Distancia al arroyo                           | La mayoría de los nidos se ubica dentro de un rango de 20-550 metros |
+| Proporción de bosque natural en el territorio | Al menos 44,6% para sostener una pareja                              |
+| Diámetro del árbol nido a la altura del pecho | Árbol vivo o tronco muerto en pie de más de 1 metro                  |
 
-Para un lector no especializado en ornitología, estos números traducidos al lenguaje cotidiano significan lo siguiente: **un tramo de arroyo de 6 a 8 kilómetros solo puede sostener a una pareja de búhos pescadores leonados**. Y ese arroyo debe estar libre de diques de cemento, sin rectificaciones a gran escala, y sus riberas deben conservar cerca de la mitad de bosque natural; las plantaciones forestales, los bosques de bambú _Phyllostachys_ y los huertos frutales no cuentan[^3].
+Para lectores no especializados en ornitología, estos números se traducen a un lenguaje cotidiano así: **un tramo de arroyo de 6 a 8 kilómetros solo alcanza para sostener una pareja de búhos pescadores leonados**. Además, ese tramo debe no tener diques de cemento ni obras de rectificación a gran escala, y ambas riberas deben conservar cerca de la mitad de bosque natural. Las plantaciones forestales, bosques de bambú makino, huertos y aldeas circundantes no les sirven[^3].
 
-Los territorios en el lado occidental de la cordillera central se encuentran en promedio a 431 metros más de altitud que los del lado oriental. Los investigadores especulan que, debido a la tala forestal temprana y al desarrollo más intenso de las tierras bajas en el lado occidental, el búho pescador leonado se vio obligado a retirarse a franjas residuales de arroyos a mayor altitud[^3]. En otras palabras, **los lugares donde aún pueden reproducirse son, en sí mismos, un mapa inverso de la destrucción forestal de Taiwán**: donde aún hay nidos, aún quedan bosques y arroyos de mediana altitud que no han sido talados ni cementados.
+Los territorios del lado occidental de la Cordillera Central tienen, en promedio, una altitud 431 metros mayor que los del lado oriental. Los investigadores infieren que, debido a la tala temprana de los bosques de montaña y al desarrollo más intenso de las zonas bajas en el oeste, el búho pescador leonado fue obligado a replegarse hacia franjas remanentes de arroyos de mayor altitud[^3]. Dicho de otro modo, **los sitios donde aún puede reproducirse son, por sí mismos, un mapa invertido de la destrucción de los bosques montañosos de Taiwán**: donde todavía hay nidos de esta especie, todavía existen bosques y arroyos de media altitud que no han sido talados por completo ni cementados.
 
-Los parques nacionales Shei-Pa, Taroko y Yushan, las tres áreas protegidas más grandes, se han convertido en el último refugio de las poblaciones estables de búho pescador leonado[^11]. Muchas poblaciones de arroyos de baja altitud fuera de los parques nacionales ya se han extinguido.
+Los mayores espacios protegidos, como los parques nacionales Shei-Pa, Taroko y Yushan, se convirtieron en los últimos lugares con poblaciones estables de búho pescador leonado[^11]. Muchas poblaciones de arroyos de baja altitud fuera de los parques nacionales ya se han extinguido.
 
-## Contorno de un ave legendaria
+## El contorno de un ave de ensueño
 
-En el círculo de observación de aves de Taiwán, el búho pescador leonado es una de las pocas especies denominadas «ave legendaria»: nocturna, con un dúo de dos sílabas grave y difícil de identificar, restringida a valles fluviales remotos; incluso quienes han dedicado toda su vida a la observación de aves pueden no haberla visto jamás. El investigador Sun Yuanxun describió así su laboratorio en un reportaje en profundidad del Centro de Información Ambiental:
+En los círculos de observación de aves de Taiwán, el búho pescador leonado es una de las pocas especies llamadas “aves de ensueño”: duerme de día y sale de noche, su grave dueto bisilábico es difícil de reconocer, y su hábitat se limita a valles fluviales remotos. Incluso una persona que dedica toda su vida a observar aves quizá nunca lo vea. En un reportaje de profundidad del Environmental Information Center, el investigador Sun Yuan-hsun describió así a su laboratorio:
 
-> «Lo que les hace no arrepentirse de subir montañas y vadear ríos es que el búho pescador leonado tiene un carácter encantador y misterioso, como un amante.»[^7]
+> “La razón por la que suben montañas y cruzan aguas sin arrepentirse es que el búho pescador leonado tiene un carácter adorable y misterioso, como un amante.”[^7]
 
-La mayor parte del trabajo del laboratorio se desarrolla después de medianoche. Utilizan grabaciones del canto de una «madre búho pescador» reproducidas en el campo, esperando que los individuos dentro del territorio respondan; este método de investigación «playback» fue desarrollado por Sun Yuanxun en la década de 1990 y se convirtió después en la herramienta estándar para la investigación nocturna de rapaces en Taiwán[^12]. Con la evolución tecnológica, el equipo incorporó la telemetría por radio, las cámaras trampa y los emisores satelitales: en 2009 se anilló con éxito una hembra, «Shengjie», en el arroyo Yousheng en Wuling; desde 2024 se instalaron dos perchas para rapaces en el arroyo Qijiawan, y las cámaras trampa registraron una secuencia completa de un búho pescador leonado capturando un _Onychostoma barbatulum_ y llevándolo a la percha para alimentarse[^13].
+Gran parte del trabajo del laboratorio comienza después de la medianoche. Usan grabaciones de la llamada de “mamá búho pescador” y las reproducen para esperar la respuesta de los individuos dentro del territorio. Es el método de prospección por _playback_ desarrollado por Sun Yuan-hsun en la década de 1990, que luego se convirtió en una herramienta estándar para los censos nocturnos de rapaces en Taiwán[^12]. Con la evolución tecnológica, el equipo incorporó después radiotelemetría, cámaras automáticas y transmisores satelitales: en 2009 lograron por primera vez capturar y marcar con éxito a una hembra, “hermana Sheng”, en el arroyo Yousheng de Wuling; desde 2024 instalaron dos perchas para rapaces en el arroyo Qijiawan, donde cámaras automáticas registraron la secuencia completa de un búho pescador leonado capturando un _Onychostoma alticorpus_ y llevándolo de vuelta a la percha para comerlo[^13].
 
-En mayo de 2026, la cadena de televisión PTS emitió un reportaje sobre esta investigación de treinta años y la primera transmisión en vivo de 24 horas del período de cría lanzada este año por el Parque Nacional Shei-Pa:
-
-<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
-  <iframe src="https://www.youtube.com/embed/DMy6fltLv68" title="Parque Nacional Shei-Pa transmite en vivo la cría del búho pescador leonado: registro completo de los padres cuidando 2 polluelos | Noticias nocturnas PTS 2026-05-03" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-_Reportaje de Noticias nocturnas PTS del 2026-05-03: el Parque Nacional Shei-Pa transmite en vivo la cría del búho pescador leonado las 24 horas, registrando el proceso completo de los padres cuidando a 2 polluelos._
-
-## Hemei y Ailuo
-
-Hemei, el polluelo recogido en Shakadang en 1994, ingresó en el aviario del Zoológico de Taipéi. Permaneció allí más de veinte años.
-
-El aviario del zoológico intentó durante años emparejar a Hemei con otro individuo en cautividad, Ailuo. El problema no era que no quisieran: el búho pescador leonado forma parejas permanentes y tiene un fuerte sentido territorial, por lo que las dos aves en el recinto de cristal establecieron rápidamente una relación. El problema estaba en la capacidad reproductiva: Hemei ponía huevos cada año, pero casi ninguno eclosionaba. Hasta que un año lograron criar descendencia con éxito; esas dos aves, que jamás se habrían encontrado en la naturaleza, completaron en el recinto de cristal lo que la población silvestre no había podido hacer[^5].
-
-Sun Yuanxun dejó otra frase en una entrevista, refiriéndose a Hemei:
-
-> «Esta quizá sea la historia que nos enseñe la lección de saber soltar.»[^7]
-
-En este contexto, «soltar» implica reconocer que aquel rescate de 1994 trascendió el destino de un solo individuo. Cuando el padre fue abatido por un cazador y la madre abandonó el nido, el rescate equivalió a recoger la supervivencia posterior de una familia herida. Treinta años después, esa pareja en el recinto de cristal demostró algo: **la conservación no siempre consiste en devolver a los animales a su lugar de origen. A veces, la conservación consiste en construir un hogar nuevo y suficientemente largo para una vida que fue alterada por accidente.**
-
-## El Machilus zuihoensis a 1.800 metros
-
-Desde 2024, Hong Xiaoyu, estudiante de Sun Yuanxun, asumió la dirección del proyecto del arroyo Qijiawan. En diciembre de 2025 colocó un emisor satelital a un macho; en marzo de 2026, el equipo detectó indicios de reproducción; el 10 de abril, el nido fue localizado en la cavidad de un ejemplar viejo de Machilus zuihoensis a unos 1.800 metros de altitud, con un diámetro de pecho de aproximadamente 1,5 metros, constituyendo el registro de reproducción a mayor altitud conocido en Taiwán[^4].
-
-El Parque Nacional Shei-Pa aprovechó esta oportunidad para lanzar el 29 de abril de 2026 la transmisión en vivo de 24 horas «Cría del búho pescador leonado en Wuling» en YouTube. La expresión «guardería aérea» apareció en todos los medios de comunicación: la cámara seguía a dos polluelos (40 días de edad, 1.212 gramos; 30 días de edad, 899 gramos) asomándose desde la cavidad del nido, siendo alimentados por los padres, estirando las alas para ejercitar el vuelo, con fecha estimada de abandono del nido a mediados de mayo[^4]:
+En mayo de 2026, el noticiero nocturno de PTS produjo un reportaje que describe esta investigación de treinta años y la primera transmisión en vivo de 24 horas de crianza lanzada este año por el Parque Nacional Shei-Pa:
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
-  <iframe src="https://www.youtube.com/embed/nXmf5J0eMFI" title="Parque Nacional Shei-Pa: transmisión en vivo de la cría del búho pescador leonado en Wuling, 24 horas" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/DMy6fltLv68" title="雪霸國家公園直播黃魚鴞育雛 完整記錄親鳥照顧2幼鳥｜公視晚間新聞 2026-05-03" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-_Transmisión en vivo de 24 horas «Cría del búho pescador leonado en Wuling», lanzada por el Parque Nacional Shei-Pa el 29 de abril de 2026. En el interior de la cavidad de un ejemplar viejo de Machilus zuihoensis junto al arroyo Qijiawan, a unos 1.800 metros de altitud, el proceso de crecimiento de dos polluelos._
+_Reportaje del noticiero nocturno de PTS, 2026-05-03: el Parque Nacional Shei-Pa transmite durante 24 horas la crianza de búhos pescadores leonados y registra de forma completa el proceso en que los adultos cuidan a 2 polluelos._
 
-> **✦** El búho más grande de Taiwán, no fue nombrado hasta 1916; no se encontró el primer nido hasta 1994; no fue visto por toda la isla de forma colectiva hasta 2026.
+## Heimei y Ailuo
 
-La transmisión en vivo se convirtió en un tema de interés nacional en Taiwán, y en cierto modo reparó la relación largamente desconectada entre esta ave y la isla. **La mayoría de las personas no escucharán su canto ni verán su silueta en toda su vida, pero ahora cualquiera puede abrir su teléfono y ver, en la cavidad de un Machilus zuihoensis a 1.800 metros, a dos polluelos de color pardo amarillento aprendiendo a desplegar las alas.**
+Heimei, el polluelo de Shakadang de 1994 que fue llevado a una casa, terminó en el aviario del Zoológico de Taipéi. Allí vivió más de veinte años.
 
-## La última fortaleza de los árboles gigantes
+Durante años, el aviario del zoológico intentó emparejar a Heimei con otro ejemplar rescatado, Ailuo. El problema no era que no quisieran: el búho pescador leonado forma pareja todo el año y es intensamente territorial, y las dos aves en la sala acristalada establecieron una relación con rapidez. El problema era la capacidad reproductiva: Heimei ponía huevos cada año, pero casi nunca eclosionaban. Hasta que un año finalmente lograron criar descendencia. Esas dos aves, que en la naturaleza ya no se habrían encontrado, completaron dentro de una sala acristalada aquello que la población silvestre no pudo completar[^5].
 
-Lo que necesita el búho pescador leonado es muy concreto, y todas esas cosas están desapareciendo de los bosques de Taiwán:
+Sun Yuan-hsun dejó otra frase en una entrevista, en el contexto de hablar sobre Heimei:
 
-1. **Árboles vivos o muertos en pie con un diámetro de pecho superior a 1 metro**: solo los árboles suficientemente viejos tienen cavidades naturales lo bastante grandes. La era de tala forestal temprana eliminó la mayor parte del bosque primigenio; actualmente, los ejemplares con un diámetro de pecho superior a 1 metro solo sobreviven en parques nacionales, bosques de protección y territorios tradicionales indígenas[^14].
-2. **Arroyos no cementados**: las obras de diques, la rectificación de arroyos de montaña y los embalses han alterado la estructura de los cursos de agua, reduciendo drásticamente los recursos piscícolas.
-3. **Franjas continuas de bosque natural**: un territorio de búho pescador leonado necesita que el 44,6% sea bosque natural; los bosques de bambú, las plantaciones y las tierras de cultivo no cuentan[^3].
+> “Quizá esta historia tenga que enseñarnos la lección de soltar.”[^7]
 
-Sumado al cuello de botella reproductivo —en promedio solo un polluelo por nidada, 60 días de cría, dependencia extrema del árbol nido—, **la caída de un solo árbol gigante puede suponer la desaparición de toda una generación de la población**; el búho pescador leonado fue clasificado como «Vulnerable» (VU) en el último Libro Rojo de Aves de Taiwán publicado en 2024, aunque la evaluación global de la UICN lo considera de «Preocupación Menor» (LC)[^15][^16].
+“Soltar”, en este contexto, significa reconocer que el alcance de aquel rescate de 1994 superaba a un ave individual. Cuando el padre fue abatido por un cazador y la madre abandonó el nido, el rescate equivalió a sostener la forma posterior de supervivencia de una familia herida. Treinta años después, esa pareja dentro de la sala acristalada demostró algo: **la conservación no siempre consiste en devolver animales a su lugar de origen. A veces, conservar es construir un hogar nuevo y suficientemente largo para individuos cuya vida fue alterada por accidente**.
 
-También existe un conflicto menos dramático pero que erosiona continuamente a la población: de más de 100 piscifactorías de agua fría en toda la isla, 25 tienen registros de depredación por búho pescador leonado, y 10 búhos han muerto ahogados en las piscinas al intentar acceder a ellas[^17]. Las pérdidas anuales para los piscicultores son de aproximadamente 20.000-30.000 dólares taiwaneses, una escala relativamente pequeña; Sun Yuanxun sugirió combinar el ecoturismo para compensarlas, pero los casos implementados son escasos.
+## La Michelia de 1.800 metros
 
-> **⚠️ Punto de vista debatido**
-> ¿Cuál es la mayor amenaza a largo plazo para el búho pescador leonado? El debate dentro del círculo conservacionista no siempre ofrece la misma respuesta. Algunos consideran que es la escasez de árboles gigantes y cavidades naturales; otros señalan la cementación de los arroyos; otros enfatizan el conflicto con las piscifactorías y las trampas. En realidad, las tres son facetas de un mismo problema: **en el proceso de modernización de Taiwán, el hogar del búho pescador leonado ha sido comprimido simultáneamente desde tres dimensiones —hábitat, alimento y tolerancia humana—. Lo que hay que proteger es todo un tramo de «ecosistema de arroyo de montaña aún sin cemento», y el búho pescador leonado es solo uno de los residentes más raros de ese ecosistema.**
+Desde 2024, Hong Hsiao-yu, estudiante de Sun Yuan-hsun, continuó como responsable del proyecto del arroyo Qijiawan. En diciembre de 2025 colocó un transmisor satelital a un macho; en marzo de 2026, el equipo detectó señales de reproducción; el 10 de abril, el nido fue localizado en la cavidad de un viejo árbol de Michelia a unos 1.800 metros de altitud, con un diámetro a la altura del pecho de unos 1,5 metros. Es el registro reproductivo de búho pescador leonado a mayor altitud conocido en Taiwán[^4].
+
+El Parque Nacional Shei-Pa aprovechó esta oportunidad y el 29 de abril de 2026 lanzó en YouTube la transmisión de 24 horas “Crianza del búho pescador leonado de Wuling”. La expresión “guardería aérea” apareció en los principales medios. La cámara siguió a dos polluelos —uno de 40 días y 1.212 gramos, y otro de 30 días y 899 gramos— mientras asomaban la cabeza desde la cavidad, eran alimentados por los adultos, extendían las alas y practicaban el vuelo, con salida del nido prevista para mediados de mayo[^4]:
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/nXmf5J0eMFI" title="雪霸國家公園 武陵黃魚鴞育雛 24 小時直播" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Transmisión de 24 horas “Crianza del búho pescador leonado de Wuling”, lanzada por el Parque Nacional Shei-Pa el 29 de abril de 2026. Muestra el crecimiento de dos polluelos, Dabao y Xiaobao, dentro de la cavidad de un viejo árbol de Michelia junto al arroyo Qijiawan, a unos 1.800 metros de altitud. El 1 de mayo de 2026, el polluelo mayor, “Dabao”, logró salir del nido y moverse hasta una rama sobre la cavidad; el equipo instaló de inmediato una segunda cámara para hacer seguimiento con pantalla principal y secundaria [^18][^19]._
+
+> **✦** El búho más grande de Taiwán fue nombrado recién en 1916; recién en 1994 se encontró su primer nido; recién en 2026 toda la isla pudo verlo colectivamente.
+
+La transmisión se convirtió en un asunto de interés público en Taiwán y, en cierto sentido, reparó una relación largamente desconectada entre esta ave y la isla. **La mayoría de la gente nunca oirá su llamada ni verá su silueta en esta vida, pero ahora cualquiera puede abrir el teléfono y ver, dentro de una cavidad de Michelia a 1.800 metros de altitud, a dos polluelos pardo amarillentos que están aprendiendo a abrir las alas**.
+
+## El último bastión de los árboles gigantes
+
+Lo que necesita el búho pescador leonado es muy concreto, y todas esas cosas están desapareciendo de los bosques montañosos de Taiwán:
+
+1. **Árboles vivos o troncos muertos en pie de más de 1 metro de diámetro a la altura del pecho**: solo los árboles suficientemente viejos tienen cavidades naturales suficientemente grandes. La tala temprana de los bosques de montaña eliminó la mayor parte de los bosques primarios; hoy, los árboles gigantes de más de 1 metro de diámetro a la altura del pecho solo sobreviven en parques nacionales, bosques de protección y territorios tradicionales indígenas[^14].
+2. **Arroyos no cementados**: las obras de diques, la rectificación de quebradas y el almacenamiento en embalses alteran la estructura de los cursos de agua y reducen drásticamente los recursos de peces de arroyo.
+3. **Franjas continuas de bosque natural**: un territorio de búho pescador leonado debe tener un 44,6% de bosque natural; los bosques de bambú makino, las plantaciones forestales y las tierras agrícolas no cuentan[^3].
+
+A esto se suma un cuello de botella reproductivo: en promedio solo 1 polluelo por nidada, 60 días de crianza y una dependencia muy alta del árbol nido. **La caída de un solo árbol gigante puede cortar la continuidad generacional de una población**. En la lista roja más reciente de aves de Taiwán, publicada en 2024, el búho pescador leonado fue evaluado como “vulnerable” (VU), aunque la evaluación global de la UICN sea “preocupación menor” (LC)[^15][^16].
+
+También existe un conflicto menos dramático, pero que desgasta de forma continua a la población: entre más de 100 estanques de acuicultura de agua fría en todo Taiwán, se registró depredación por búho pescador leonado en 25, y 10 búhos murieron ahogados al entrar en los estanques[^17]. Las pérdidas para los operadores rondan los 20.000 a 30.000 dólares taiwaneses por año, una escala relativamente pequeña. Sun Yuan-hsun sugirió combinarlo con ecoturismo para compensar, pero hay pocos casos implementados.
+
+> **⚠️ Punto de vista en disputa**
+> ¿Cuál es la mayor amenaza de largo plazo para el búho pescador leonado? Las discusiones en el ámbito de la conservación no siempre dan la misma respuesta. Algunas personas creen que es la escasez de árboles gigantes y cavidades naturales; otras señalan la cementación de los arroyos; otras enfatizan los conflictos con estanques piscícolas y las trampas. En realidad, los tres son caras distintas de un mismo proceso: **durante la modernización de Taiwán, el hogar del búho pescador leonado ha sido comprimido al mismo tiempo en tres dimensiones: hábitat, alimento y tolerancia humana**. Lo que se debe proteger es todo un ecosistema de “arroyo de montaña aún no cementado”, y el búho pescador leonado es apenas uno de sus habitantes más raros.
 
 ## Ciento diez años
 
-Nombrado por primera vez en 1916, primer nido encontrado en 1994, primer emisor colocado en 2009, primera señal satelital emitida desde una cavidad en un Machilus zuihoensis a 1.800 metros en 2026.
+Fue nombrado por primera vez en 1916; se encontró su primer nido en 1994; llevó un transmisor por primera vez en 2009; en 2026, por primera vez, una señal satelital salió de una cavidad de Michelia a 1.800 metros de altitud.
 
-Ciento diez años. Quienes investigan al búho pescador leonado se han sucedido generación tras generación; los arroyos de Taiwán son cada vez más cortos, más rectos y más silenciosos por la noche. Pero cada año sigue habiendo alguien que, después de medianoche, se adentra en los valles fluviales con una cámara infrarroja, esperando a un ave que nunca han logrado ver del todo.
+Han pasado ciento diez años. Las personas que estudian al búho pescador leonado han cambiado generación tras generación, y los arroyos de Taiwán son cada vez más cortos, más rectos y cada vez tienen menos sonidos de la noche. Pero cada año sigue habiendo personas que, después de la medianoche, entran a los valles con cámaras infrarrojas y esperan a un ave que nunca han podido ver con completa claridad.
 
-Y ahora, en un Machilus zuihoensis a 1.800 metros, dos polluelos están aprendiendo a desplegar las alas.
+Y ahora, sobre una Michelia a 1.800 metros, dos polluelos están aprendiendo a abrir las alas.
 
-**Lecturas complementarias**:
+**Lecturas adicionales**:
 
-- [Ornitología de Formosa](/nature/福爾摩沙鳥類學) — El búho pescador leonado no fue nombrado hasta 1916, siendo una de las aves residentes «descubiertas» por la historia natural a finales del período colonial japonés; permite comprender la estructura temporal de la investigación ornitológica en Taiwán.
-- [Trucha de Formosa (_Oncorhynchus masou formosanus_)](/nature/櫻花鉤吻鮭) — Ambas especies comparten el ecosistema del arroyo Qijiawan; Sun Yuanxun fue encargado simultáneamente por el Parque Nacional Shei-Pa de investigar ambas, los dos extremos de una misma comunidad de hábitat.
-- [Oso negro de Taiwán](/nature/台灣黑熊) — Otra especie rastreada a largo plazo por el Instituto de Conservación de Vida Silvestre de la NPUST, que también depende del entorno de árboles gigantes de mediana altitud.
-- [Ecosistema forestal de Taiwán](/nature/台灣森林生態系) — Árboles gigantes con diámetro de pecho superior a 1 metro y proporción de bosque natural; el búho pescador leonado es el portavoz más dramático de las «aves de árboles viejos».
-- [Parques nacionales de Taiwán](/nature/台灣國家公園) — Los tres grandes parques nacionales —Shei-Pa, Taroko y Yushan— son la última fortaleza de las poblaciones estables de búho pescador leonado; un caso concreto del sistema de áreas protegidas.
+- [Ornitología de Formosa](/nature/福爾摩沙鳥類學) — El búho pescador leonado fue nombrado recién en 1916; es una de las aves residentes “descubiertas” por la historia natural recién hacia el final del periodo japonés, y permite observar la estructura temporal de la investigación ornitológica en Taiwán
+- [Salmón kokanee de Formosa](/nature/櫻花鉤吻鮭) — Ambas especies comparten el ecosistema del arroyo Qijiawan; Sun Yuan-hsun recibió en el mismo periodo encargos de Shei-Pa para estudiar las dos especies, dos extremos de una misma comunidad de hábitat
+- [Oso negro taiwanés](/nature/台灣黑熊) — También es una especie seguida durante largo tiempo por el Instituto de Conservación de Vida Silvestre de la Universidad Nacional de Ciencia y Tecnología de Pingtung, y depende de ambientes de media altitud con árboles viejos y gigantes
+- [Ecosistema forestal de Taiwán](/nature/台灣森林生態系) — En la proporción de bosque natural y árboles gigantes de más de 1 metro de diámetro a la altura del pecho, el búho pescador leonado es el emblema más dramático de las “aves de árboles viejos”
+- [Parques nacionales de Taiwán](/nature/台灣國家公園) — Shei-Pa, Taroko y Yushan, los tres grandes parques nacionales, son el último bastión de poblaciones estables de búho pescador leonado y un caso concreto del sistema de áreas protegidas
 
 ## Referencias
 
-[^1]: [Avibase - Búho pescador leonado (_Ketupa flavipes_)](https://avibase.bsc-eoc.org/species.jsp?avibaseid=67CA1D2676A192A5) — Base de datos ornitológica internacional que documenta la historia taxonómica del búho pescador leonado: nombrado por Hodgson en 1836 en Nepal como _Cultrunguis flavipes_, posteriormente reclasificado en _Bubo_, y recientemente elevado al género _Ketupa_ debido a estudios de filogenia molecular.
+[^1]: [Avibase - 黃魚鴞 (Ketupa flavipes)](https://avibase.bsc-eoc.org/species.jsp?avibaseid=67CA1D2676A192A5) — Base de datos internacional de aves que registra la historia taxonómica del búho pescador leonado: nombrado por Hodgson en Nepal en 1836 como _Cultrunguis flavipes_, luego trasladado a _Bubo_ y, en años recientes, separado en el género _Ketupa_ debido a estudios de filogenia molecular.
 
-[^2]: [Sun, Y. H., Wang, Y., & Arnold, K. A. (1997). Notes on a Nest of the Tawny Fish-owl (_Ketupa flavipes_) at Sakatang Stream, Taiwan. _Journal of Raptor Research_, 31(4)](https://digitalcommons.usf.edu/jrr/vol31/iss4/18/) — Registro completo del primer nido de reproducción de búho pescador leonado descubierto por el equipo de Sun Yuanxun en 1994 en el arroyo Shakadang, Hualien, construido en un racimo de helechos _Dendrochnide_.
+[^2]: [Sun, Y. H., Wang, Y., & Arnold, K. A. (1997). Notes on a Nest of the Tawny Fish-owl (Ketupa flavipes) at Sakatang Stream, Taiwan. _Journal of Raptor Research_, 31(4)](https://digitalcommons.usf.edu/jrr/vol31/iss4/18/) — Registro completo del primer nido reproductivo de búho pescador leonado descubierto por el equipo de Sun Yuan-hsun en 1994 en el arroyo Shakadang, Hualien; el nido estaba construido dentro de un macizo de helecho nido de ave.
 
-[^3]: [Sun, Y. H. et al. (2013). Spatial distribution of the Tawny Fish Owl _Ketupa flavipes_ shaped by natural and man-made factors in Taiwan. _Forktail_, 29: 48-51](https://www.researchgate.net/publication/260088842) — Análisis SIG de 91 territorios en toda la isla, que establece que el búho pescador leonado necesita un arroyo de 6,2 kilómetros de longitud promedio y un 44,6% de bosque natural como requisitos de hábitat.
+[^3]: [Sun, Y. H. et al. (2013). Spatial distribution of the Tawny Fish Owl Ketupa flavipes shaped by natural and man-made factors in Taiwan. _Forktail_, 29: 48-51](https://www.researchgate.net/publication/260088842) — Análisis SIG de 91 territorios en todo Taiwán que estableció las necesidades de hábitat del búho pescador leonado: una longitud promedio de arroyo de 6,2 kilómetros y una proporción de 44,6% de bosque natural.
 
-[^4]: [Noticias PTS: transmisión en vivo de la cría del búho pescador leonado en el Parque Nacional Shei-Pa](https://news.pts.org.tw/article/805942) — El 10 de abril de 2026, el profesor asistente de la NPUST Hong Xiaoyu localizó un nido en la cavidad de un ejemplar viejo de Machilus zuihoensis junto al arroyo Qijiawan en Wuling, a unos 1.800 metros de altitud, el registro de reproducción a mayor altitud conocido en Taiwán.
+[^4]: [公視新聞網：雪霸國家公園黃魚鴞育雛 24 小時直播](https://news.pts.org.tw/article/805942) — El 10 de abril de 2026, el profesor asistente Hong Hsiao-yu, de la Universidad Nacional de Ciencia y Tecnología de Pingtung, localizó el nido en una cavidad de un viejo árbol de Michelia junto al arroyo Qijiawan, en Wuling, a unos 1.800 metros de altitud; es el registro reproductivo de búho pescador leonado a mayor altitud conocido en Taiwán.
 
-[^5]: [Zoológico de Taipéi — Crónica de la cría de los búhos pescadores leonados «Hemei» y «Ailuo»](https://www.zoo.gov.taipei/News_Content.aspx?n=BD065B2FA7782989&sms=72544237BBE4C5F6&s=8FAC9F5A9CFFB7DB) — Registro del cuidado a largo plazo del individuo rescatado en Shakadang en 1994, «Hemei», en el zoológico, y del proceso de emparejamiento exitoso con Ailuo y su cría de descendencia.
+[^5]: [台北市立動物園 — 黃魚鴞「嘿美」與「愛洛」育雛紀事](https://www.zoo.gov.taipei/News_Content.aspx?n=BD065B2FA7782989&sms=72544237BBE4C5F6&s=8FAC9F5A9CFFB7DB) — Registro de cuidado a largo plazo de “Heimei”, ejemplar rescatado en Shakadang en 1994 e ingresado al zoológico, y del proceso de emparejamiento exitoso y crianza con Ailuo.
 
-[^6]: [Laboratorio de Ecología de Aves de la NPUST — Profesor Sun Yuanxun](https://wildlife.npust.edu.tw/teacher/ysun/profile/) — Profesor del Instituto de Conservación de Vida Silvestre de la NPUST, que durante 30 años ha dirigido investigaciones sobre el búho pescador leonado, el oso negro de Taiwán, el faisán de Taiwan y otros ecosistemas de mediana altitud; sus estudiantes han ido asumiendo el relevo.
+[^6]: [屏東科技大學鳥類生態研究室 — 孫元勳教授](https://wildlife.npust.edu.tw/teacher/ysun/profile/) — Profesor del Instituto de Conservación de Vida Silvestre de la Universidad Nacional de Ciencia y Tecnología de Pingtung; durante 30 años dirigió investigaciones ecológicas de media altitud sobre el búho pescador leonado, el oso negro taiwanés y el faisán de Swinhoe, entre otras especies, formando estudiantes que continúan el trabajo.
 
-[^7]: [Centro de Información Ambiental: Búsqueda incansable en la oscuridad — un registro completo del misterio ecológico del búho pescador leonado](https://e-info.org.tw/node/103969) — Entrevistas en profundidad con miembros del laboratorio de Sun Yuanxun, que documentan las penurias y alegrías de treinta años de trabajo de campo y su sentimiento «de amante» hacia el búho pescador leonado.
+[^7]: [環境資訊中心：暗夜裡的無悔追尋 全紀錄一窺黃魚鴞生態謎](https://e-info.org.tw/node/103969) — Entrevista de profundidad con integrantes del laboratorio de Sun Yuan-hsun que registra las dificultades y satisfacciones de treinta años de trabajo de campo y el vínculo afectivo con el búho pescador leonado, comparado con un “amante”.
 
-[^8]: [Wu, H. J., Sun, Y. H., Wang, Y., & Tseng, Y. S. (2006). Food habits of Tawny Fish-Owls in Sakatang Stream, Taiwan. _Journal of Raptor Research_, 40(2), 111-119](https://bioone.org/journals/journal-of-raptor-research/volume-40/issue-2) — Análisis de egagrópilas en el arroyo Shakadang entre 1994 y 1999, que confirma que los cangrejos de pelo y los sapos constituyen la mayor biomasa en la dieta del búho pescador leonado, y que los peces de río no son el alimento principal.
+[^8]: [Wu, H. J., Sun, Y. H., Wang, Y., & Tseng, Y. S. (2006). Food habits of Tawny Fish-Owls in Sakatang Stream, Taiwan. _Journal of Raptor Research_, 40(2), 111-119](https://bioone.org/journals/journal-of-raptor-research/volume-40/issue-2) — Análisis de egagrópilas del arroyo Shakadang entre 1994 y 1999 que confirma que cangrejos peludos y sapos representan la mayor parte de la biomasa en la dieta del búho pescador leonado, y que los peces de arroyo no son su alimento principal.
 
-[^9]: [Wikipedia: Búho pescador de Blakiston (_Ketupa blakistoni_)](https://en.wikipedia.org/wiki/Blakiston%27s_fish_owl) — El búho de mayor tamaño del mundo, con 71 centímetros de longitud y una envergadura de 2 metros, distribuido en el Lejano Oriente ruso, el noreste de China y Hokkaido (150 ejemplares), con una población global estimada de 1.000-1.500 individuos, en peligro de extinción.
+[^9]: [Wikipedia: Blakiston's fish owl (Ketupa blakistoni)](https://en.wikipedia.org/wiki/Blakiston%27s_fish_owl) — El búho de mayor tamaño del mundo, con 71 centímetros de largo y 2 metros de envergadura; se distribuye en el Extremo Oriente ruso, el nordeste de China y Hokkaidō (150 individuos), con una estimación global de 1.000-1.500 individuos, y está en peligro.
 
-[^10]: [Asociación de Estudio de Rapaces de Taiwán — Ficha de especie del búho pescador leonado](https://raptor.org.tw/taiwan-nocturnal-raptor/335-2014-08-21-04-48-32.html) — Introducción autorizada en Taiwán sobre el tamaño, apariencia, distribución y comportamiento del búho pescador leonado, incluyendo la adaptación especial de los dedos cubiertos de plumas y las espinas carnosas en las plantas.
+[^10]: [台灣猛禽研究會 — 黃魚鴞物種介紹](https://raptor.org.tw/taiwan-nocturnal-raptor/335-2014-08-21-04-48-32.html) — Presentación local autorizada sobre el tamaño, aspecto, distribución y comportamiento del búho pescador leonado en Taiwán, con explicación de las adaptaciones especiales de dedos emplumados y espículas carnosas.
 
-[^11]: [Parque Nacional Shei-Pa (2014), libro y documental _Ave misteriosa de la noche: el búho pescador leonado_](https://www.spnp.gov.tw/) — Publicado por el Parque Nacional Shei-Pa en 2014, reúne el registro ecológico del búho pescador leonado del director Liang Jiede, el fotógrafo Yang Chuanhuai, la compositora Lei Guangxia y el grabador He Huaren; los tres grandes parques nacionales —Shei-Pa, Taroko y Yushan— albergan las poblaciones estables de búho pescador leonado en Taiwán.
+[^11]: [雪霸國家公園(2014)《暗夜謎禽—黃魚鴞》專書與生態影片](https://www.spnp.gov.tw/) — Publicación y documental ecológico del Parque Nacional Shei-Pa de 2014, que reúne al director Liang Chieh-te, el fotógrafo Yang Chuan-huai, la compositora Summer Lei y el grabador Ho Hua-jen; Shei-Pa, Taroko y Yushan son los tres parques nacionales donde se encuentran poblaciones estables de búho pescador leonado en Taiwán.
 
-[^12]: [Macaulay Library — Grabaciones del canto del búho pescador leonado](https://media.ebird.org/catalog?birdOnly=true&taxonCode=tafowl1&mediaType=audio) — Grabaciones del dúo nocturno del búho pescador leonado conservadas en el Laboratorio de Ornitología de la Universidad de Cornell, donde se puede escuchar el canto de dos sílabas «uuu—uuu», base sonora del método de investigación «playback» de la «madre búho pescador» de Sun Yuanxun.
+[^12]: [Macaulay Library — 黃魚鴞鳴叫錄音](https://media.ebird.org/catalog?birdOnly=true&taxonCode=tafowl1&mediaType=audio) — Grabaciones de duetos nocturnos de búho pescador leonado conservadas por el Laboratorio de Ornitología de la Universidad de Cornell; permiten oír el llamado bisilábico “guu—wu” y constituyen la base sonora del método de prospección por _playback_ de la “mamá búho pescador” desarrollado por Sun Yuan-hsun.
 
-[^13]: [Liberty Times: Investigación de la NPUST documenta por primera vez a un búho pescador leonado capturando _Onychostoma barbatulum_ en una percha en el arroyo Qijiawan](https://news.ltn.com.tw/news/life/breakingnews/5419283) — Desde 2024, Hong Xiaoyu instaló dos perchas para rapaces junto al arroyo Qijiawan; las cámaras trampa registraron por primera vez la secuencia completa de un búho pescador leonado capturando un _Onychostoma barbatulum_ y llevándolo a la percha para alimentarse.
+[^13]: [自由時報：屏科大黃魚鴞研究七家灣溪首見棲架捕食白甲魚](https://news.ltn.com.tw/news/life/breakingnews/5419283) — Desde 2024, Hong Hsiao-yu instaló dos perchas para rapaces junto al arroyo Qijiawan; cámaras automáticas registraron por primera vez la secuencia completa de un búho pescador leonado capturando un _Onychostoma alticorpus_ y llevándolo de vuelta a la percha para comerlo.
 
-[^14]: [National Geographic en chino: Ave misteriosa de la noche — revisión de la investigación y nuevos hallazgos sobre el búho pescador leonado](https://www.natgeomedia.com/environment/article/content-12243.html) — National Geographic recopila los treinta años de investigación del equipo de Sun Yuanxun, incluyendo la historia de la denominación por Kuroda Nagamichi en 1916, la dependencia de cavidades en árboles gigantes y el aislamiento de las poblaciones de Taiwán.
+[^14]: [國家地理中文版：暗夜謎禽——黃魚鴞的研究回顧與新發現](https://www.natgeomedia.com/environment/article/content-12243.html) — National Geographic en chino resume tres décadas de investigación del equipo de Sun Yuan-hsun, incluida la historia del nombramiento por Nagamichi Kuroda en 1916, la dependencia de árboles gigantes con cavidades naturales y el aislamiento de la población distribuida en Taiwán.
 
-[^15]: [Agencia Forestal y de Conservación de la Naturaleza — Lista de especies de fauna silvestre terrestre protegidas](https://conservation.forest.gov.tw/0002021) — El búho pescador leonado está clasificado como especie rara y valiosa de Categoría II según la Ley de Conservación de Vida Silvestre; la caza, el acoso y el comercio están sujetos a sanciones.
+[^15]: [林業及自然保育署 — 陸域保育類野生動物名錄](https://conservation.forest.gov.tw/0002021) — Según la Ley de Conservación de Vida Silvestre, el búho pescador leonado está incluido como especie protegida rara y valiosa de categoría II; su captura, acoso y compraventa están sujetos a sanciones.
 
-[^16]: [BirdLife International DataZone — Búho pescador leonado](https://datazone.birdlife.org/species/factsheet/tawny-fish-owl-ketupa-flavipes) — La UICN lo evalúa globalmente como Preocupación Menor (LC), pero el Libro Rojo de Aves de Taiwán publicado en 2024 clasifica la población de la isla como Vulnerable (VU), reflejando la fragilidad de las poblaciones insulares aisladas.
+[^16]: [BirdLife International DataZone — Tawny Fish-Owl](https://datazone.birdlife.org/species/factsheet/tawny-fish-owl-ketupa-flavipes) — La evaluación global de la UICN es Least Concern (preocupación menor), pero la lista roja de aves publicada por Taiwán en 2024 evalúa a la población insular como vulnerable (VU), reflejando la fragilidad de una población isleña aislada.
 
-[^17]: [Sun, Y. H. et al. (2004). Tawny Fish-Owl Predation at Fish Farms in Taiwan. _Journal of Raptor Research_](https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=2669&context=jrr) — Encuesta de 144 piscifactorías de agua fría: 25 (17,4%) tenían registros de depredación por búho pescador leonado, y 10 búhos murieron ahogados en las piscinas; las pérdidas anuales para los piscicultores son de aproximadamente 20.000-30.000 dólares taiwaneses.
+[^17]: [Sun, Y. H. et al. (2004). Tawny Fish-Owl Predation at Fish Farms in Taiwan. _Journal of Raptor Research_](https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=2669&context=jrr) — Estudio de 144 estanques de acuicultura de agua fría: 25 (17,4%) tenían registros de depredación por búho pescador leonado y 10 búhos murieron ahogados en estanques; las pérdidas de los operadores fueron de aproximadamente 20.000 a 30.000 dólares taiwaneses por año.
 
-## Créditos de imagen
+[^18]: [黃魚鴞育雛子母畫面上線！「小寶」生吞國寶魚 母鳥上樓送餐給「大寶」 - 自由時報](https://news.ltn.com.tw/news/life/breakingnews/5423811) — Reporte del 3 de mayo de 2026: “Dabao”, nacido antes, dejó el nido el 1 de mayo y se desplazó sobre el nido; el equipo de Shei-Pa y la Universidad Nacional de Ciencia y Tecnología de Pingtung instaló una segunda cámara para registrar simultáneamente el crecimiento de los dos polluelos mediante pantalla principal y secundaria.
 
-Este artículo utiliza 1 imagen con licencia CC, almacenada en caché en `public/article-images/nature/` para evitar enlaces directos al servidor de origen:
+[^19]: [「暗夜王者」黃魚鴞寶寶超萌 雪霸廣邀全民「命名」 - 自由時報](https://news.ltn.com.tw/news/life/breakingnews/5426048) — Reporte del 5 de mayo de 2026: la oficina de Shei-Pa y el profesor Hong Hsiao-yu, de la Universidad Nacional de Ciencia y Tecnología de Pingtung, lanzaron una actividad de nombramiento; por ahora, los dos polluelos se denominan provisionalmente “Dabao” y “Xiaobao”, y el 10 de mayo el equipo seleccionará conjuntamente 5 propuestas finalistas.
 
-- [Tawny fish owl. Ketupa flavipes - Flickr - gailhampshire](https://commons.wikimedia.org/wiki/File:Tawny_fish_owl._Ketupa_flavipes_-_Flickr_-_gailhampshire.jpg) — Foto: gailhampshire (Cradley, Malvern, UK), 2009-02-17, [CC BY 2.0 via Wikimedia Commons](https://creativecommons.org/licenses/by/2.0/)
+## Fuentes de las imágenes
+
+Este artículo usa 1 imagen con licencia CC, almacenada en caché en `public/article-images/nature/` para evitar enlazar directamente al servidor de origen:
+
+- [Tawny fish owl. Ketupa flavipes - Flickr - gailhampshire](https://commons.wikimedia.org/wiki/File:Tawny_fish_owl._Ketupa_flavipes_-_Flickr_-_gailhampshire.jpg) — Photo: gailhampshire (Cradley, Malvern, UK), 2009-02-17, [CC BY 2.0 via Wikimedia Commons](https://creativecommons.org/licenses/by/2.0/)

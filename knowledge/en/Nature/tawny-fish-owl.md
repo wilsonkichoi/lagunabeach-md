@@ -1,181 +1,196 @@
 ---
-title: 'Tawny Fish Owl: Six Kilometers per Pair, a Nocturnal Raptor on an 1,800-Meter Formosan Michelia'
-description: "In April 2026, Hung Hsiao-yu, assistant professor at National Pingtung University of Science and Technology (NPUST), located the highest-known tawny fish owl nest in Taiwan—at approximately 1,800 meters elevation, inside the cavity of a Formosan michelia (Michelia compressa) with a breast-height diameter of roughly 1.5 meters, on the banks of Cijiawan Stream. Taiwan's largest owl was first recorded in 1916 by Japanese scholar Kuroda Nagamichi. The laboratory of Sun Yuan-hsun at NPUST has tracked this species for thirty years across 91 territories, finding that each breeding pair requires an average of 6.2 kilometers of stream. A stretch of river not yet lined with concrete, a giant tree not yet fallen—the tawny fish owl lives in the narrow gap where these two things have not yet vanished from Taiwan's mountain forests."
-date: '2026-05-04'
-author: 'Taiwan.md'
-category: Nature
+title: 'Tawny Fish Owl: One Pair per Six Kilometers of Stream, a Nocturnal Raptor in a 1,800-Meter Michelia Tree'
+description: "In April 2026, National Pingtung University of Science and Technology assistant professor Hung Hsiao-yu located Taiwan's highest known Tawny Fish Owl nest in a tree hollow of a Michelia compressa with a diameter at breast height of about 1.5 meters beside Qijiawan Creek, at roughly 1,800 meters above sea level. Taiwan's largest owl was first recorded only in 1916 by the Japanese scholar Nagamichi Kuroda. Sun Yuan-hsun's laboratory at National Pingtung University of Science and Technology has followed it for thirty years; across 91 territories, each pair needs an average of 6.2 kilometers of stream. A stretch of stream not yet poured in concrete, a giant tree not yet fallen: the Tawny Fish Owl lives in the narrow space where two things in Taiwan's mountain forests have not yet disappeared."
+date: 2026-05-04
+author: 'Taiwan.md Contributors'
+category: 'Nature'
 subcategory: '野生動物'
-tags: [黃魚鴞, 鳥類, 猛禽, 保育, 生態, 森林, 溪流, 七家灣溪, 雪霸國家公園]
+tags:
+  [
+    'Tawny Fish Owl',
+    'Birds',
+    'Raptors',
+    'Conservation',
+    'Ecology',
+    'Forests',
+    'Streams',
+    'Qijiawan Creek',
+    'Shei-Pa National Park',
+  ]
 readingTime: 12
-lastVerified: '2026-05-04'
+lastVerified: 2026-05-12
 lastHumanReview: false
 featured: false
 translatedFrom: 'Nature/黃魚鴞.md'
-sourceCommitSha: '0b2c2a33'
-sourceContentHash: 'sha256:57f8ce8908bd530e'
-sourceBodyHash: 'sha256:397826cf804fd7db'
-translatedAt: '2026-05-05T00:33:23+08:00'
+sourceCommitSha: '3caf80d64'
+sourceContentHash: 'sha256:e7ee784435375331'
+sourceBodyHash: 'sha256:88027a3e0b96dfe3'
+translatedAt: '2026-05-12T11:51:04+08:00'
 ---
 
-> **30-second overview:** The tawny fish owl (_Ketupa flavipes_) is Taiwan's largest owl, with a wingspan approaching the height of an adult human. Its toes are covered in yellow feathers, and the soles of its feet have fleshy spiny tubercles for gripping slippery prey. It was first recorded in 1916 by Japanese scholar Kuroda Nagamichi[^1], and the first precisely located breeding nest in Taiwan was not found until 1994[^2]. The laboratory of Sun Yuan-hsun at National Pingtung University of Science and Technology has tracked this species for thirty years—they discovered that a breeding pair of tawny fish owls requires a stream 6.2 kilometers long, with 44.6% of its banks surrounded by natural forest, to maintain a territory[^3]. In April 2026, the research team found the highest-known nest in Taiwan, inside the cavity of a Formosan michelia old-growth tree on the banks of Cijiawan Stream in Wuling[^4]. Shei-Pa National Park launched a 24-hour nesting livestream, giving the island its first opportunity to collectively witness one of its most familiar yet unknown raptors.
+> **30-second overview:** The Tawny Fish Owl (_Ketupa flavipes_) is Taiwan's largest owl. Its spread wings approach the height of an adult human; its toes are covered in yellow feathers, and the soles of its feet have spicules for gripping slippery prey. It was first recorded only in 1916 by the Japanese scholar Nagamichi Kuroda[^1], and Taiwan's first precisely located breeding nest was not found until 1994[^2]. Sun Yuan-hsun's laboratory at National Pingtung University of Science and Technology has tracked it for thirty years. They found that a pair of Tawny Fish Owls needs 6.2 kilometers of stream, 44.6% surrounded by natural forest, to maintain a territory[^3]. In April 2026, the research team found Taiwan's highest known nest in the hollow of an old Michelia compressa tree with a diameter at breast height of about 1.5 meters beside Qijiawan Creek in Wuling[^4]. Shei-Pa National Park launched a 24-hour nestling livestream, giving the island its first chance to collectively see a strange raptor that is also one of its own.
 
-One day in 1994, Sun Yuan-hsun found a nest in a tree beside Sakatang Stream in Taroko, Hualien. The bird's-nest fern (_Asplenium nidus_)—the largest epiphytic fern on this island—spread its thick, feather-like fronds outward from the trunk in all directions, and the nest sat at the center of that fern cluster. Inside the nest was a single chick[^2]. By the time he returned to the tree, the chick's father had been shot by a hunter, and the mother had abandoned the nest. He took the chick home, and his wife helped care to it. Later, the attempt to release the young bird back into the wild failed, and it was sent to Taipei Zoo, where it was named "Hedwig"[^5].
+One day in 1994, Sun Yuan-hsun found a nest in a tree beside Sakatang Stream in Taroko, Hualien. Bird's-nest fern is the largest epiphytic fern on this island; its thick feather-like fronds spread from the trunk in all directions, and the nest had been built in the middle of that clump of ferns. There was only one chick in the nest[^2]. When he returned to the tree, the chick's father had been shot by a hunter, and the mother had abandoned the nest. He brought the chick home, and his wife helped care for it. The young bird later failed to be released back into the wild and was sent to Taipei Zoo, where it was named "Heymei"[^5].
 
-That was the first precisely located tawny fish owl breeding nest in Taiwan. Thirty years later, Sun's laboratory has tracked 91 territories, but the number of precisely located nests remains in the single digits[^3][^6].
+That was Taiwan's first precisely located Tawny Fish Owl breeding nest. Thirty years later, Sun Yuan-hsun's laboratory has tracked 91 territories, but precisely located nests still number in the single digits[^3][^6].
 
-## The Bird's-Nest Fern at Sakatang
+## The Bird's-Nest Fern at Sakatang That Year
 
-The tawny fish owl was written into Taiwan's ornithological history later than one might expect. In 1916, Japanese zoologist Kuroda Nagamichi included it for the first time in a checklist of resident birds of Taiwan[^1]; by that point, Japanese colonial rule had lasted 21 years, ornithological work in the lowlands was already well developed, and yet the tawny fish owl arrived late to the golden age of natural history. The reason is not complicated: it is nocturnal, inhabits stream valleys at low-to-mid elevations where few people venture, and its calls are low-pitched with sparse territories—even professional observers rarely catch a glimpse.
+The Tawny Fish Owl entered Taiwan's ornithological history later than one might imagine. In 1916, the Japanese zoologist Nagamichi Kuroda first included it in Taiwan's list of resident birds[^1]. By then, Taiwan had been under Japanese rule for 21 years, and ornithology in the lowlands was already well developed. Yet the Tawny Fish Owl arrived so late that it was only "found" during the golden age of natural history. The reason is not complicated: it is nocturnal, inhabits little-visited stream valleys at low to mid elevations, has a low call and sparse territories, and is difficult even for professional observers to encounter.
 
-By the early 1990s, Sun Yuan-hsun had begun field-tracking this species along streams on both sides of the Central Mountain Range—Wulai in New Taipei, Sakatang in Hualien, and Wuling in Taichung[^7]. Sakatang lies within the traditional territory of the Truku people; the 1994 discovery there rewrote every subsequent coordinate of tawny fish owl research in Taiwan.
+By the early 1990s, Sun Yuan-hsun at National Pingtung University of Science and Technology had begun field tracking this bird along several streams on both sides of the Central Mountain Range: Wulai in Taipei, Sakatang in Hualien, and Wuling in Taichung[^7]. Sakatang is part of the traditional territory of the Truku people; the 1994 discovery rewrote every coordinate that followed in Taiwan's Tawny Fish Owl research.
 
-> **📝 Curator's note**
-> The name "Hedwig" is a phonetic translation of Hedwig, the snow owl from the _Harry Potter_ series. Since the 1994 Sakatang rescue, Hedwig spent thirty years in the bird house at Taipei Zoo.
+> **📝 Curator's Note**
+> The name Heymei is a transliteration of Hedwig, the snowy owl in _Harry Potter_. From that 1994 rescue at Sakatang onward, the bird spent thirty years in the aviary at Taipei Zoo.
 
-Sun and his successive graduate students published a series of international papers from Sakatang and Wuling: a 1997 nest-site note in the _Journal of Raptor Research_[^2], a 2006 dietary study in the same journal[^8], and a 2013 spatial-distribution paper covering 91 territories in _Forktail_[^3]. The team learned a great deal over thirty years, but "seeing one with your own eyes" remained rare. According to interview records, members of the laboratory—who "never regretted going up mountains and into streams"—mostly encountered the species through hearing the duet of a mated pair's two-syllable "hoo—oo," catching an infrared-triggered silhouette on a camera trap, or getting a brief face-to-face moment during a banding release[^7].
+Sun Yuan-hsun and successive graduate students went on to publish a series of international papers on Sakatang and Wuling: a 1997 nest note from Sakatang in the _Journal of Raptor Research_[^2], a 2006 food-habits study in the same journal[^8], and a 2013 _Forktail_ paper on the spatial distribution of 91 territories[^3]. The team learned many things over thirty years, but "seeing one with their own eyes" remained rare. According to interview records, members of the laboratory, who were said to "go up mountains and into water without regret," usually met this bird only by hearing the two-syllable duet of "guu—wu," seeing a silhouette under the infrared trigger of an automatic camera, or briefly locking eyes with it at the moment of release after banding[^7].
 
-## Haircrabs in the Pellets
+## Mitten Crabs in the Pellets
 
 The name "fish owl" is misleading.
 
-Dietary studies conducted by Sun's team at Sakatang Stream from 1994 to 1999 found that while stream fish were certainly on the menu—such as _Opsariichthys pachycephalus_, _Zacco platypus_, and _Varicorhinus barbatulus_ as regular items—**the largest biomass in the pellets actually came from haircrabs and toads**[^8]. The Taiwan freshwater crab (_Eriocheir formosa_), various stream-dwelling crabs, and the Taiwan brown toad (_Bufo bankorensis_)—large, slow-moving prey—were taken at frequencies significantly higher than their relative abundance in the environment. The researchers hypothesized that during floods and high water, when stream fish become harder to catch, tawny fish owls switch to hunting haircrabs and frogs in the rock crevices along the banks[^8].
+A food-habits study conducted by Sun Yuan-hsun's team at Sakatang Stream from 1994 to 1999 found that stream fish certainly appeared in the Tawny Fish Owl's diet, including common species such as Opsariichthys pachycephalus, Taiwan shovel-jaw carp, and Taiwan white dace. But **the largest biomass in the pellets was instead mitten crabs and toads**[^8]. The Taiwanese mitten crab (_Eriocheir formosa_), various freshwater stream crabs, and the Taiwan toad are large, slow-moving prey, and they were taken at frequencies clearly higher than their relative abundance in the environment. The researchers inferred that when streams flood and water levels rise, fish become harder to catch, so Tawny Fish Owls switch to catching mitten crabs and frogs in rock crevices along the banks[^8].
 
-Their hunting method also differs from other large owls. The tawny fish owl's **toes are covered in yellow feathers**, but **the soles of its feet have rough, fleshy spiny tubercles**—slippery fish and crabs are gripped firmly the moment they are seized, an adaptation shared with the brown fish owl and the Malay fish owl of Southeast Asia. The Blakiston's fish owl (_Ketupa blakistoni_), a congener found in the Russian Far East and Hokkaido, measures 71 cm in length and is the world's largest owl[^9]; the tawny fish owl, at 48–61 cm and an average weight of 2,415 grams, is **Taiwan's largest owl** but only medium-sized within the fish-owl genus[^10].
+Their hunting method also differs from that of other large owls. Tawny Fish Owls have **yellow feathers covering their toes**, but **rough spicules on the soles of their feet**, which clamp firmly onto slippery fish and crabs. They share this adaptation with Southeast Asia's Brown Fish Owl and Buffy Fish Owl. The congeneric Blakiston's fish owl (_Ketupa blakistoni_) is distributed in the Russian Far East and Hokkaido, reaches 71 centimeters in length, and is the world's largest owl[^9]. The Tawny Fish Owl is 48-61 centimeters long and weighs an average of 2,415 grams. It is **Taiwan's largest owl**, but only medium-sized within the fish-owl genus[^10].
 
 > **💡 Did you know?**
-> Among the 12 species in the genus _Ketupa_, only the tawny fish owl has its toes fully feathered. The other species (except the brown fish owl, Malay fish owl, and Blakiston's fish owl) have bare toes. Evolutionary biologists hypothesize this is related to the higher-altitude climate of the Taiwanese population.
+> Among the world's 12 members of the genus _Ketupa_, only the Tawny Fish Owl has fully feathered toes. The other three fish owls, apart from the Brown Fish Owl, Buffy Fish Owl, and Blakiston's fish owl, have bare toes. Evolutionary biologists infer that this is related to the higher-elevation climate inhabited by the population distributed in Taiwan.
 
-## A Stretch of River Not Yet Lined with Concrete
+## A Stream Not Poured in Concrete
 
-The 2013 paper published by Sun's team in _Forktail_ volume 29 is the single most comprehensive study of tawny fish owl habitat. They collected coordinates from 91 territories across Taiwan and analyzed environmental variables using GIS[^3]:
+The paper Sun Yuan-hsun's team published in volume 29 of _Forktail_ in 2013 is the single most substantial study of Tawny Fish Owl habitat. They collected coordinates from 91 territories across Taiwan and used GIS to analyze environmental variables[^3]:
 
-| Habitat requirement              | Value                                        |
-| -------------------------------- | -------------------------------------------- |
-| Elevation range                  | 48–2,407 m (most below 700 m)                |
-| Territory stream length          | Average 6.2 km (range 5.5–7.7 km)            |
-| Distance from stream             | Nests mostly within 20–550 m                 |
-| Natural forest proportion        | At least 44.6% needed to sustain a pair      |
-| Nest-tree breast-height diameter | Living or standing dead trees of 1 m or more |
+| Habitat requirement                  | Value                                            |
+| ------------------------------------ | ------------------------------------------------ |
+| Elevation range                      | 48-2,407 meters, with most below 700 meters      |
+| Territory length along stream        | Average 6.2 kilometers, range 5.5-7.7 kilometers |
+| Distance from stream                 | Nests are mostly within 20-550 meters            |
+| Share of natural forest in territory | At least 44.6% is needed to sustain one pair     |
+| Nest-tree diameter at breast height  | Living trees or standing dead trees over 1 meter |
 
-For readers outside ornithology, these numbers translate into everyday language as follows: **a stretch of river 6 to 8 kilometers long can support only one pair of tawny fish owls**. And that stretch must have no concrete embankments, no large-scale channelization, and nearly half of its banks must still be lined with natural forest. The surrounding plantations, bamboo groves, orchards, and villages are not used by the owls[^3].
+For readers outside ornithology, these numbers translate into everyday language like this: **a 6- to 8-kilometer stretch of stream can support only one pair of Tawny Fish Owls**. That stretch of stream must have no concrete embankments, no large-scale river engineering, and nearly half its banks still covered by natural forest. They do not use the surrounding plantation forests, makino bamboo groves, orchards, or villages[^3].
 
-Territories on the western side of the Central Mountain Range averaged 431 meters higher in elevation than those on the eastern side. The researchers hypothesized that because of earlier logging and more intensive low-elevation development on the western side, tawny fish owls were forced to retreat to higher-elevation stream refugia[^3]. In other words, **the places where they can still breed are themselves an inverse map of Taiwan's mountain-forest destruction**: wherever their nests still exist, there remain mid-elevation forests and streams that have not yet been clear-cut or lined with concrete.
+Territories on the west side of the Central Mountain Range have an average elevation 431 meters higher than those on the east side. The researchers inferred that because early logging and low-elevation development were more intense on the west side, Tawny Fish Owls were forced to retreat to higher remnant stream corridors[^3]. In other words, **the places where they can still breed today are themselves an inverse map of the destruction of Taiwan's mountain forests**: where their nests remain, mid-elevation forests and streams have not yet been clear-cut or turned into concrete.
 
-Shei-Pa National Park, Taroko National Park, and Yushan National Park—the three largest protected areas—have become the last strongholds of stable tawny fish owl populations[^11]. Many low-elevation stream populations outside the national parks have already been extirpated.
+Shei-Pa National Park, Taroko National Park, and Yushan National Park, among Taiwan's largest protected areas, have become the last sites of stable Tawny Fish Owl populations[^11]. Many low-elevation stream populations outside national parks have already disappeared.
 
-## The Outline of a Phantom Bird
+## The Outline of a Dream Bird
 
-In Taiwan's birding community, the tawny fish owl is one of the few species called a "phantom bird" (夢幻鳥): nocturnal, with low-pitched, hard-to-distinguish two-syllable duets, inhabiting only remote stream valleys—even a lifetime birder may never see one. Researcher Sun Yuan-hsun described his laboratory in a feature article for the Environmental Information Center:
+In Taiwan's birdwatching circles, the Tawny Fish Owl is one of the few species called a "dream bird": nocturnal, identifiable only by a low two-syllable duet, restricted to remote stream valleys, and unseen even by many people who spend a lifetime birdwatching. In an in-depth report by the Taiwan Environmental Information Center, the researcher Sun Yuan-hsun described his laboratory this way:
 
-> "What keeps them going up mountains and into streams without regret is the tawny fish owl's adorable, mysterious nature—like a lover."[^7]
+> "The reason they go up mountains and into water without regret is that the Tawny Fish Owl is cute and mysterious, like a lover."[^7]
 
-Most of the laboratory's work unfolds after midnight. They play back recordings of a "mother fish owl" call, waiting for a territorial individual to respond—a "playback" survey method developed by Sun in the 1990s that later became the standard tool for nocturnal raptor surveys in Taiwan[^12]. As technology evolved, the team added radio telemetry, camera traps, and satellite transmitters: in 2009, they successfully banded a female nicknamed "Sister Sheng" on Yousheng Stream in Wuling; starting in 2024, two raptor perches were installed along Cijiawan Stream, with camera traps recording a complete sequence of a tawny fish owl catching _Varicorhinus barbatulus_ and carrying it back to the perch to eat[^13].
+Most of the laboratory's work begins after midnight. They replay a recording of the "fish owl mother" call and wait for individuals in the territory to answer. This "playback" survey method was developed by Sun Yuan-hsun in the 1990s and later became a standard tool for nighttime raptor surveys in Taiwan[^12]. As technology advanced, the team added radio telemetry, automatic cameras, and satellite transmitters. In 2009, they successfully banded a female bird called "Sheng-jie" at Yousheng Creek in Wuling for the first time. Beginning in 2024, they installed two raptor perches at Qijiawan Creek, using automatic cameras to record a complete sequence of a Tawny Fish Owl catching a Taiwan white dace and bringing it back to a perch to eat[^13].
 
-In May 2026, PTS Evening News produced a report on this three-decade research effort and Shei-Pa National Park's first-ever 24-hour nesting livestream:
-
-<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
-  <iframe src="https://www.youtube.com/embed/DMy6fltLv68" title="Shei-Pa National Park Tawny Fish Owl Nesting Livestream: Full Record of Parent Birds Caring for 2 Chicks | PTS Evening News 2026-05-03" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-_PTS Evening News 2026-05-03 report: Shei-Pa National Park 24-hour livestream of tawny fish owl nesting, fully documenting the process of parent birds caring for 2 chicks._
-
-## Hedwig and Ailuo
-
-The 1994 Sakatang chick that was taken home—Hedwig—entered the bird house at Taipei Zoo. It lived there for more than twenty years.
-
-The zoo's bird house long attempted to pair Hedwig with another rescued individual, Ailuo. The problem was not unwillingness—tawny fish owls pair year-round and are strongly territorial, and the two birds in the glass enclosure quickly established a bond. The problem lay in reproductive capacity: Hedwig laid eggs every year, but almost none hatched. Then one year, they finally succeeded in raising offspring; the pair, who would never have met in the wild, accomplished in a glass enclosure what the wild population could not[^5]
-
-Sun left behind another quote in an interview, spoken in the context of Hedwig:
-
-> "This story may be teaching us the lesson of letting go."[^7]
-
-"Letting go" in this context means acknowledging that the scope of the 1994 rescue extended beyond a single bird. When the father was shot by a hunter and the mother abandoned the nest, the rescue became a way of catching the aftermath of a wounded family. Thirty years later, that pair in the glass enclosure proved one thing: **conservation does not always mean returning an animal to its native habitat. Sometimes conservation means building a new, long-enough home for a life that was accidentally altered**.
-
-## The Formosan Michelia at 1,800 Meters
-
-Starting in 2024, Sun's student Hung Hsiao-yu took over leadership of the Cijiawan Stream project. In December 2025, he fitted a male with a satellite transmitter; in March 2026, the team detected signs of breeding; on April 10, the nest was located inside the cavity of a Formosan michelia old-growth tree at approximately 1,800 meters elevation, with a breast-height diameter of roughly 1.5 meters—the highest-altitude tawny fish owl breeding record ever documented in Taiwan[^4].
-
-Shei-Pa National Park seized this opportunity, launching a 24-hour YouTube livestream titled "Wuling Tawny Fish Owl Nesting" on April 29, 2026. The phrase "sky nursery" made headlines across major media outlets. The livestream camera followed two chicks (40 days old, 1,212 g; 30 days old, 899 g) as they poked their heads out of the nest cavity, were fed by the parents, and stretched their wings in flight practice, with fledging expected by mid-May[^4]:
+In May 2026, PTS Evening News produced a report describing this thirty-year research effort and Shei-Pa National Park's first 24-hour nestling livestream this year:
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
-  <iframe src="https://www.youtube.com/embed/nXmf5J0eMFI" title="Shei-Pa National Park Wuling Tawny Fish Owl Nesting 24-Hour Livestream" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/DMy6fltLv68" title="Shei-Pa National Park livestreams Tawny Fish Owl nestlings, fully recording parent birds caring for two chicks | PTS Evening News 2026-05-03" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-_Shei-Pa National Park's "Wuling Tawny Fish Owl Nesting" 24-hour livestream, launched April 29, 2026. Inside a Formosan michelia old-growth tree cavity on the banks of Cijiawan Stream at approximately 1,800 meters elevation, the growth process of two chicks._
+_PTS Evening News report, 2026-05-03: Shei-Pa National Park's 24-hour livestream of Tawny Fish Owl nestling care fully recorded the process of parent birds caring for two chicks._
 
-> **✦** Taiwan's largest owl, not named until 1916; the first nest not found until 1994; not seen collectively by the entire island until 2026.
+## Heymei and Ailuo
 
-The livestream became a national phenomenon in Taiwan, in a sense reconnecting the long-broken relationship between this bird and the island. **Most people will never hear its call or glimpse its silhouette in their lifetime, but now everyone can open their phone and watch two tawny-brown chicks learning to spread their wings inside a Formosan michelia tree cavity at 1,800 meters**.
+Heymei, the chick brought home from Sakatang in 1994, entered the bird garden at Taipei Zoo. It lived there for more than twenty years.
 
-## The Last Fortress of the Giant Trees
+For many years, the zoo's aviary tried to pair Heymei with another rescued individual, Ailuo. The problem was not unwillingness. Tawny Fish Owls form year-round pairs and are strongly territorial, and the two birds in the glass enclosure quickly established a bond. The problem lay in reproductive capacity: Heymei laid eggs every year, but almost none hatched. Until one year, they finally succeeded in raising offspring. These two birds, which would never have met again in the wild, accomplished in a glass enclosure what the wild population could not[^5].
 
-What the tawny fish owl needs is specific, and all of it is disappearing from Taiwan's mountain forests:
+Sun Yuan-hsun left another sentence in an interview, in the context of speaking about Heymei:
 
-1. **Living or standing dead trees with a breast-height diameter of 1 meter or more**: Only sufficiently old trees have natural cavities large enough. The era of mountain logging removed most old-growth forest; today, trees with a breast-height diameter exceeding 1 meter survive only within national parks, protection forests, and indigenous traditional territories[^14].
-2. **Streams not lined with concrete**: Embankment construction, mountain stream channelization, and reservoir impoundment have altered stream structure and drastically reduced stream fish resources.
-3. **Continuous natural forest cover**: A tawny fish owl territory requires 44.6% natural forest; bamboo plantations, timber plantations, and agricultural clearings do not count[^3].
+> "This story may be a lesson in learning to let go."[^7]
 
-Combined with reproductive constraints—an average of only one chick per brood, a 60-day nestling period, and extreme dependence on nest trees—**the fall of a single giant tree can sever a population's lineage**. The tawny fish owl was assessed as Vulnerable (VU) in Taiwan's 2024 updated Red List of Birds, even though the global IUCN assessment is only Least Concern (LC)[^15][^16].
+"Letting go" in this context means acknowledging that the 1994 rescue extended beyond a single bird. When the father was shot by a hunter and the mother abandoned the nest, rescue meant receiving the subsequent survival form of an injured family. Thirty years later, that pair in the glass enclosure proved one thing: **conservation is not always about returning animals to their native habitat. Sometimes conservation means creating a new, sufficiently long home for individuals whose lives have been changed by accident**.
 
-There is also a conflict that is less dramatic but steadily eroding the population: across more than 100 cold-water fish farms in Taiwan, 25 have recorded tawny fish owl predation, and 10 owls have drowned after entering fish ponds[^17]. Annual losses to operators are approximately NT$20,000–30,000—relatively small in scale. Sun once suggested offsetting losses through ecotourism, but few cases have been implemented.
+## The Michelia at 1,800 Meters
 
-> **⚠️ Contested perspective**
-> What is the greatest long-term threat to the tawny fish owl? The conservation community does not always agree on the same answer. Some point to the scarcity of giant trees and natural cavities; others highlight stream channelization with concrete; still others emphasize fish-farm conflicts and leg-hold traps. These are in fact different facets of the same thing: **in the course of Taiwan's modernization, the tawny fish owl's home has been squeezed simultaneously along three dimensions—habitat, food, and human tolerance**. What needs protecting is an entire stretch of "mountain stream ecosystem not yet lined with concrete," and the tawny fish owl is only one of the rarest residents of that ecosystem.
+Beginning in 2024, Sun Yuan-hsun's student Hung Hsiao-yu took over leadership of the Qijiawan Creek project. In December 2025, he fitted a male bird with a satellite transmitter. In March 2026, the team discovered signs of breeding. On April 10, the nest was located in the hollow of an old Michelia compressa tree at about 1,800 meters above sea level, with a diameter at breast height of about 1.5 meters. It is Taiwan's highest known Tawny Fish Owl breeding record[^4].
 
-## One hundred and ten years
+Shei-Pa National Park seized the opportunity and launched the "Wuling Tawny Fish Owl Nestling Care" 24-hour YouTube livestream on April 29, 2026. The phrase "aerial nursery" appeared across major media. The livestream camera followed the two chicks, one 40 days old and 1,212 grams and the other 30 days old and 899 grams, as they peered out from the nest hollow, were fed by their parents, stretched their wings, and practiced flying. They were expected to leave the nest by mid-May[^4]:
 
-First named in 1916, first nest found in 1994, first transmitter attached in 2009, first satellite signal transmitted from a Formosan michelia tree cavity at 1,800 meters in 2026.
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/nXmf5J0eMFI" title="Shei-Pa National Park Wuling Tawny Fish Owl Nestling Care 24-hour livestream" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-One hundred and ten years. The people studying tawny fish owls have changed generation after generation. Taiwan's streams have grown shorter, straighter, and quieter at night. But every year, there are still people who walk into stream valleys after midnight with infrared cameras, waiting for a bird they have never been able to fully see.
+_The "Wuling Tawny Fish Owl Nestling Care" 24-hour livestream launched by Shei-Pa National Park on April 29, 2026. Inside the hollow of an old Michelia compressa beside Qijiawan Creek at about 1,800 meters above sea level, it follows the growth of two chicks, Dabao and Xiaobao. On May 1, 2026, the larger chick, "Dabao," successfully left the nest and moved to a branch above the tree hollow. The team immediately installed a second camera to track the chicks with a picture-in-picture view [^18][^19]._
 
-And now, on a Formosan michelia at 1,800 meters, two chicks are learning to spread their wings.
+> **✦** Taiwan's largest owl was named only in 1916; its first nest was found only in 1994; only in 2026 did the whole island see it together.
 
-**Further reading**:
+The livestream became a public topic across Taiwan, in a sense repairing the long-disconnected relationship between this bird and the island. **Most people will never hear its call or see its silhouette in their lifetimes, but now anyone can open a phone and see, inside a Michelia hollow at 1,800 meters, two tawny chicks learning to spread their wings**.
 
-- [Ornithology of Formosa](/nature/福爾摩沙鳥類學) — The tawny fish owl was not named until 1916, one of the resident birds "discovered" by natural history only in the late Japanese colonial period, revealing the temporal structure of ornithological research in Taiwan
-- [Formosan landlocked salmon](/nature/櫻花鉤吻鮭) — The two species share the Cijiawan Stream ecosystem; Sun was commissioned by Shei-Pa to study both simultaneously, two ends of the same habitat community
-- [Formosan black bear](/nature/台灣黑熊) — Also a species long tracked by the Institute of Wildlife Conservation at NPUST, both dependent on mid-elevation old-growth tree environments
-- [Taiwan forest ecosystems](/nature/台灣森林生態系) — With trees of 1-meter-plus breast-height diameter and natural forest proportions, the tawny fish owl is the most dramatic ambassador of "old-growth forest birds"
-- [Taiwan's national parks](/nature/台灣國家公園) — Shei-Pa, Taroko, and Yushan National Parks are the last strongholds of stable tawny fish owl populations, a concrete case of the protected-area system
+## The Last Fortress of Giant Trees
+
+The things Tawny Fish Owls need are very concrete, and all of them are disappearing from Taiwan's mountain forests:
+
+1. **Living trees or standing dead trees with a diameter at breast height of over 1 meter**: only sufficiently old trees have natural hollows large enough. During the earlier era of mountain logging, most primary forest was felled; giant trees over 1 meter in diameter at breast height now remain only in national parks, protection forests, and Indigenous traditional territories[^14].
+2. **Streams that have not been concretized**: embankment construction, wild-stream engineering, and reservoir impoundment have changed stream structure and sharply reduced fish resources.
+3. **Continuous belts of natural forest**: 44.6% of a Tawny Fish Owl territory must be natural forest. Makino bamboo groves, plantation forests, and farmland do not count[^3].
+
+Add the reproductive bottleneck, with an average of only one chick per brood, a 60-day nestling period, and extreme dependence on nest trees, and **the fall of a single giant tree may break generational continuity in a population**. In Taiwan's latest bird red list, released in 2024, the Tawny Fish Owl was assessed as Vulnerable (VU), even though the global IUCN assessment is only Least Concern (LC)[^15][^16].
+
+There is also a kind of conflict that is less dramatic but continuously drains the population: among more than 100 cold-water aquaculture ponds across Taiwan, 25 have recorded Tawny Fish Owl predation, and 10 Tawny Fish Owls have drowned in ponds after entering fish farms[^17]. Operators lose about NT$20,000-30,000 each year, a relatively small amount. Sun Yuan-hsun once suggested offsetting this through ecotourism, but few cases have been implemented.
+
+> **⚠️ Contested View**
+> What is the greatest long-term threat to the Tawny Fish Owl? Conservation discussions do not always give the same answer. Some say it is the scarcity of giant trees and natural tree hollows; others point to the concretization of streams; still others emphasize conflicts with fish farms and leg-hold traps. The three are actually different facets of the same thing: **in Taiwan's modernization, the Tawny Fish Owl's home has been squeezed at once along three dimensions: habitat, food, and human tolerance**. What needs protection is an entire ecology of "mountain streams not yet poured in concrete," and the Tawny Fish Owl is only one of the rarest residents within that ecology.
+
+## One Hundred and Ten Years
+
+First named in 1916, first nest found in 1994, first fitted with a transmitter in 2009, and in 2026, the first satellite signal came from a Michelia hollow at 1,800 meters.
+
+One hundred and ten years have passed. The people studying Tawny Fish Owls have changed generation after generation, and Taiwan's streams have grown shorter, straighter, and increasingly without the sounds of night. Yet every year, someone still walks into a stream valley after midnight carrying an infrared camera, waiting for a bird they have never been able to see completely clearly.
+
+And now, on a Michelia at 1,800 meters, two chicks are learning to spread their wings.
+
+**Further Reading**:
+
+- [Formosan Ornithology](/nature/福爾摩沙鳥類學) — The Tawny Fish Owl was named only in 1916, one of the resident birds "discovered" by natural history only in the late Japanese colonial period; it reveals the temporal structure of ornithological research in Taiwan
+- [Formosan Landlocked Salmon](/nature/櫻花鉤吻鮭) — The two share the Qijiawan Creek ecosystem; in the same period, Sun Yuan-hsun was commissioned by Shei-Pa to study both species, two ends of the same habitat community
+- [Formosan Black Bear](/nature/台灣黑熊) — Also a species long tracked by the Graduate Institute of Wildlife Conservation at National Pingtung University of Science and Technology; both depend on mid-elevation old-growth and giant-tree environments
+- [Taiwan Forest Ecosystems](/nature/台灣森林生態系) — With giant trees over 1 meter in diameter at breast height and the proportion of natural forest at stake, the Tawny Fish Owl is the most dramatic representative of "old-tree birds"
+- [Taiwan's National Parks](/nature/台灣國家公園) — Shei-Pa, Taroko, and Yushan national parks are the last fortresses of stable Tawny Fish Owl populations, concrete examples of the protected-area system
 
 ## References
 
-[^1]: [Avibase - Tawny Fish Owl (_Ketupa flavipes_)](https://avibase.bsc-eoc.org/species.jsp?avibaseid=67CA1D2676A192A5) — International bird database documenting the taxonomic history of the tawny fish owl: originally described by Hodgson in 1836 from Nepal as _Cultrunguis flavipes_, later placed in _Bubo_, and recently separated into the genus _Ketupa_ based on molecular phylogenetic studies.
+[^1]: [Avibase - Tawny Fish Owl (_Ketupa flavipes_)](https://avibase.bsc-eoc.org/species.jsp?avibaseid=67CA1D2676A192A5) — An international bird database recording the taxonomic history of the Tawny Fish Owl: named by Hodgson in Nepal in 1836 as _Cultrunguis flavipes_, later transferred to _Bubo_, and in recent years separated into the genus _Ketupa_ on the basis of molecular phylogenetic studies.
 
-[^2]: [Sun, Y. H., Wang, Y., & Arnold, K. A. (1997). Notes on a Nest of the Tawny Fish-owl (_Ketupa flavipes_) at Sakatang Stream, Taiwan. _Journal of Raptor Research_, 31(4)](https://digitalcommons.usf.edu/jrr/vol31/iss4/18/) — Complete record of the first tawny fish owl breeding nest discovered by Sun's team at Sakatang Stream, Hualien, in 1994, built within a cluster of bird's-nest fern.
+[^2]: [Sun, Y. H., Wang, Y., & Arnold, K. A. (1997). Notes on a Nest of the Tawny Fish-owl (Ketupa flavipes) at Sakatang Stream, Taiwan. _Journal of Raptor Research_, 31(4)](https://digitalcommons.usf.edu/jrr/vol31/iss4/18/) — The complete record of the Tawny Fish Owl breeding nest first discovered by Sun Yuan-hsun's team at Sakatang Stream, Hualien, in 1994; the nest was built in a clump of bird's-nest fern.
 
-[^3]: [Sun, Y. H. et al. (2013). Spatial distribution of the Tawny Fish Owl _Ketupa flavipes_ shaped by natural and man-made factors in Taiwan. _Forktail_, 29: 48-51](https://www.researchgate.net/publication/260088842) — GIS analysis of 91 territories across Taiwan, establishing that tawny fish owls require an average of 6.2 km of stream length and 44.6% natural forest cover as habitat requirements.
+[^3]: [Sun, Y. H. et al. (2013). Spatial distribution of the Tawny Fish Owl Ketupa flavipes shaped by natural and man-made factors in Taiwan. _Forktail_, 29: 48-51](https://www.researchgate.net/publication/260088842) — A GIS analysis of 91 territories across Taiwan, establishing the Tawny Fish Owl's habitat requirements: an average of 6.2 kilometers of stream length and 44.6% natural forest cover.
 
-[^4]: [PTS News: Shei-Pa National Park Tawny Fish Owl Nesting 24-Hour Livestream](https://news.pts.org.tw/article/805942) — On April 10, 2026, NPUST assistant professor Hung Hsiao-yu located a nest inside a Formosan michelia old-growth tree cavity on the banks of Cijiawan Stream in Wuling, at approximately 1,800 meters elevation—the highest-altitude tawny fish owl breeding record documented in Taiwan.
+[^4]: [PTS News Network: Shei-Pa National Park's 24-hour Tawny Fish Owl nestling livestream](https://news.pts.org.tw/article/805942) — On April 10, 2026, National Pingtung University of Science and Technology assistant professor Hung Hsiao-yu located a nest in the hollow of an old Michelia compressa beside Qijiawan Creek in Wuling, at about 1,800 meters above sea level, Taiwan's highest known Tawny Fish Owl breeding record.
 
-[^5]: [Taipei Zoo — Tawny Fish Owl "Hedwig" and "Ailuo" Nesting Chronicle](https://www.zoo.gov.taipei/News_Content.aspx?n=BD065B2FA7782989&sms=72544237BBE4C5F6&s=8FAC9F5A9CFFB7DB) — Long-term care records of the 1994 Sakatang rescue individual "Hedwig" at the zoo, and the process of successful pairing and breeding with Ailuo.
+[^5]: [Taipei Zoo — Nestling-care record of the Tawny Fish Owls "Heymei" and "Ailuo"](https://www.zoo.gov.taipei/News_Content.aspx?n=BD065B2FA7782989&sms=72544237BBE4C5F6&s=8FAC9F5A9CFFB7DB) — Long-term care records for "Heymei," the individual rescued from Sakatang in 1994 and brought into the zoo, as well as the process by which it paired successfully with Ailuo and raised young.
 
-[^6]: [NPUST Avian Ecology Laboratory — Professor Sun Yuan-hsun](https://wildlife.npust.edu.tw/teacher/ysun/profile/) — Professor at the Institute of Wildlife Conservation, NPUST, who has led research on the tawny fish owl, Formosan black bear, Swinhoe's pheasant, and other mid-elevation species for 30 years, training successive generations of students.
+[^6]: [NPUST Avian Ecology Laboratory — Professor Sun Yuan-hsun](https://wildlife.npust.edu.tw/teacher/ysun/profile/) — A professor at the Graduate Institute of Wildlife Conservation, National Pingtung University of Science and Technology, who has led thirty years of mid-elevation ecological research on Taiwan's Tawny Fish Owl, Formosan black bear, Swinhoe's pheasant, and other species, with successive students taking over the work.
 
-[^7]: [Environmental Information Center: Relentless Pursuit in the Dark Night — A Complete Record of Tawny Fish Owl Ecology](https://e-info.org.tw/node/103969) — In-depth interviews with members of Sun's laboratory, documenting thirty years of fieldwork joys and hardships and their "lover-like" attachment to the tawny fish owl.
+[^7]: [Taiwan Environmental Information Center: A Regretless Search in the Dark of Night, a Complete Record Peering into the Ecological Mystery of the Tawny Fish Owl](https://e-info.org.tw/node/103969) — An in-depth interview with members of Sun Yuan-hsun's laboratory, recording the hardships and rewards of thirty years of fieldwork and their "lover"-like affection for the Tawny Fish Owl.
 
-[^8]: [Wu, H. J., Sun, Y. H., Wang, Y., & Tseng, Y. S. (2006). Food habits of Tawny Fish-Owls in Sakatang Stream, Taiwan. _Journal of Raptor Research_, 40(2), 111-119](https://bioone.org/journals/journal-of-raptor-research/volume-40/issue-2) — Pellet analysis from Sakatang Stream, 1994–1999, confirming that haircrabs and toads constitute the largest biomass in the tawny fish owl's diet, with stream fish not being the primary food.
+[^8]: [Wu, H. J., Sun, Y. H., Wang, Y., & Tseng, Y. S. (2006). Food habits of Tawny Fish-Owls in Sakatang Stream, Taiwan. _Journal of Raptor Research_, 40(2), 111-119](https://bioone.org/journals/journal-of-raptor-research/volume-40/issue-2) — Pellet analysis from Sakatang Stream in 1994-1999, confirming that mitten crabs and toads make up the bulk of biomass in the Tawny Fish Owl's diet, and that stream fish are not the principal food.
 
-[^9]: [Wikipedia: Blakiston's fish owl (_Ketupa blakistoni_)](https://en.wikipedia.org/wiki/Blakiston%27s_fish_owl) — The world's largest owl, 71 cm in length with a 2-meter wingspan, found in the Russian Far East, northeastern China, and Hokkaido (150 individuals); global population estimated at 1,000–1,500, endangered.
+[^9]: [Wikipedia: Blakiston's fish owl (Ketupa blakistoni)](https://en.wikipedia.org/wiki/Blakiston%27s_fish_owl) — The world's largest owl, 71 centimeters long with a 2-meter wingspan, distributed in the Russian Far East, northeastern China, and Hokkaido (150 individuals); the global population is estimated at 1,000-1,500 and is endangered.
 
-[^10]: [Taiwan Raptor Research Association — Tawny Fish Owl Species Profile](https://raptor.org.tw/taiwan-nocturnal-raptor/335-2014-08-21-04-48-32.html) — Authoritative Taiwan-based introduction to the tawny fish owl's size, appearance, distribution, and behavior, including the special adaptations of feathered toes and spiny foot soles.
+[^10]: [Raptor Research Group of Taiwan — Tawny Fish Owl species profile](https://raptor.org.tw/taiwan-nocturnal-raptor/335-2014-08-21-04-48-32.html) — An authoritative local introduction to the Tawny Fish Owl's size, appearance, distribution, and behavior in Taiwan, including its distinctive adaptations of feathered toes and spicules.
 
-[^11]: [Shei-Pa National Park (2014) _Nocturnal Phantom Bird—Tawny Fish Owl_ monograph and ecological film](https://www.spnp.gov.tw/) — Published by Shei-Pa National Park in 2014, combining director Liang Chieh-te, photographer Yang Chuan-huai, composer Leiguang Xia, and printmaker Hua Jen Ho in a tawny fish owl ecological record; Shei-Pa, Taroko, and Yushan National Parks are where Taiwan's stable tawny fish owl populations are found.
+[^11]: [Shei-Pa National Park (2014), _Mysterious Bird of the Dark Night: Tawny Fish Owl_, book and ecological film](https://www.spnp.gov.tw/) — Published by Shei-Pa National Park in 2014, bringing together director Liang Chieh-te, cinematographer Yang Chuan-huai, composer Summer Lei, and printmaker Ho Hua-jen in an ecological record of the Tawny Fish Owl. Shei-Pa, Taroko, and Yushan national parks are the sites of Taiwan's stable Tawny Fish Owl populations.
 
-[^12]: [Macaulay Library — Tawny Fish Owl Call Recordings](https://media.ebird.org/catalog?birdOnly=true&taxonCode=tafowl1&mediaType=audio) — Nocturnal duet recordings of the tawny fish owl archived at the Cornell Lab of Ornithology, featuring the two-syllable "hoo—oo" call that forms the acoustic basis of Sun's "mother fish owl" playback survey method.
+[^12]: [Macaulay Library — Tawny Fish Owl call recordings](https://media.ebird.org/catalog?birdOnly=true&taxonCode=tafowl1&mediaType=audio) — Nocturnal duet recordings of the Tawny Fish Owl preserved by the Cornell Lab of Ornithology, where the two-syllable "guu—wu" call can be heard; the sound source basis of Sun Yuan-hsun's "fish owl mother" playback survey method.
 
-[^13]: [Liberty Times: NPUST Tawny Fish Owl Research at Cijiawan Stream—First Record of Perch Predation on _Varicorhinus barbatulus_](https://news.ltn.com.tw/news/life/breakingnews/5419283) — Starting in 2024, Hung Hsiao-yu installed two raptor perches along Cijiawan Stream; camera traps recorded for the first time a complete behavioral sequence of a tawny fish owl catching _Varicorhinus barbatulus_ and carrying it back to the perch to eat.
+[^13]: [Liberty Times: NPUST Tawny Fish Owl research at Qijiawan Creek records first perch predation on Taiwan white dace](https://news.ltn.com.tw/news/life/breakingnews/5419283) — Beginning in 2024, Hung Hsiao-yu installed two raptor perches beside Qijiawan Creek, and automatic cameras recorded for the first time a complete behavioral sequence of a Tawny Fish Owl catching a Taiwan white dace and bringing it back to a perch to eat.
 
-[^14]: [National Geographic Chinese Edition: Nocturnal Phantom Bird—Tawny Fish Owl Research Review and New Discoveries](https://www.natgeomedia.com/environment/article/content-12243.html) — National Geographic's synthesis of thirty years of Sun's team's research, including the 1916 naming history by Kuroda Nagamichi, dependence on giant-tree natural cavities, and the isolation of the Taiwanese population.
+[^14]: [National Geographic Taiwan: Mysterious Bird of the Dark Night: A Research Review and New Discoveries on the Tawny Fish Owl](https://www.natgeomedia.com/environment/article/content-12243.html) — National Geographic's synthesis of three decades of research by Sun Yuan-hsun's team, including the 1916 naming history by Nagamichi Kuroda, dependence on giant natural tree hollows, and the isolation of Taiwan's distributed population.
 
-[^15]: [Forestry and Nature Conservation Agency — Terrestrial Protected Wildlife List](https://conservation.forest.gov.tw/0002021) — The tawny fish owl is listed as a Category II rare and valuable protected species under the Wildlife Conservation Act; capture, harassment, and trade are all subject to penalties.
+[^15]: [Forestry and Nature Conservation Agency — List of Protected Terrestrial Wildlife](https://conservation.forest.gov.tw/0002021) — The Tawny Fish Owl is listed under the Wildlife Conservation Act as a Category II rare and valuable protected species; hunting, harassment, and trade are all subject to penalties.
 
-[^16]: [BirdLife International DataZone — Tawny Fish-Owl](https://datazone.birdlife.org/species/factsheet/tawny-fish-owl-ketupa-flavipes) — IUCN global assessment of Least Concern (LC), but Taiwan's 2024 Red List of Birds rates the island population as Vulnerable (VU), reflecting the fragility of the isolated island population.
+[^16]: [BirdLife International DataZone — Tawny Fish-Owl](https://datazone.birdlife.org/species/factsheet/tawny-fish-owl-ketupa-flavipes) — The global IUCN assessment is Least Concern (LC), but Taiwan's 2024 bird red list assessed the island population as Vulnerable (VU), reflecting the fragility of an isolated island population.
 
-[^17]: [Sun, Y. H. et al. (2004). Tawny Fish-Owl Predation at Fish Farms in Taiwan. _Journal of Raptor Research_](https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=2669&context=jrr) — Survey of 144 cold-water fish farms: 25 (17.4%) had records of tawny fish owl predation, and 10 owls drowned in fish ponds; annual losses to operators approximately NT$20,000–30,000.
+[^17]: [Sun, Y. H. et al. (2004). Tawny Fish-Owl Predation at Fish Farms in Taiwan. _Journal of Raptor Research_](https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=2669&context=jrr) — A survey of 144 cold-water aquaculture ponds found Tawny Fish Owl predation records at 25 ponds (17.4%) and 10 Tawny Fish Owls drowned in fish ponds; operators lost about NT$20,000-30,000 per year.
 
-## Image Credits
+[^18]: [Tawny Fish Owl nestling picture-in-picture view goes online! "Xiaobao" swallows a national-treasure fish whole, mother bird goes upstairs to deliver food to "Dabao" - Liberty Times](https://news.ltn.com.tw/news/life/breakingnews/5423811) — Report from May 3, 2026: the earlier-born "Dabao" left the nest on May 1 and moved above the nest site. The Shei-Pa and NPUST team installed a second camera to simultaneously record the growth of both chicks through a picture-in-picture view.
 
-This article uses 1 CC-licensed image, cached in `public/article-images/nature/` to avoid hotlinking to the source server:
+[^19]: ["Dark-night king" Tawny Fish Owl babies are adorable; Shei-Pa invites the public to help "name" them - Liberty Times](https://news.ltn.com.tw/news/life/breakingnews/5426048) — Report from May 5, 2026: the Shei-Pa office and NPUST teacher Hung Hsiao-yu launched a naming activity. At this stage the two chicks are temporarily called "Dabao" and "Xiaobao," and on May 10 the team will jointly select five shortlisted proposals.
 
-- [Tawny fish owl. _Ketupa flavipes_ - Flickr - gailhampshire](https://commons.wikimedia.org/wiki/File:Tawny_fish_owl._Ketupa_flavipes_-_Flickr_-_gailhampshire.jpg) — Photo: gailhampshire (Cradley, Malvern, UK), 2009-02-17, [CC BY 2.0 via Wikimedia Commons](https://creativecommons.org/licenses/by/2.0/)
+## Image Source
+
+This article uses one CC-licensed image, cached under `public/article-images/nature/` to avoid hotlinking the source server:
+
+- [Tawny fish owl. Ketupa flavipes - Flickr - gailhampshire](https://commons.wikimedia.org/wiki/File:Tawny_fish_owl._Ketupa_flavipes_-_Flickr_-_gailhampshire.jpg) — Photo: gailhampshire (Cradley, Malvern, UK), 2009-02-17, [CC BY 2.0 via Wikimedia Commons](https://creativecommons.org/licenses/by/2.0/)
