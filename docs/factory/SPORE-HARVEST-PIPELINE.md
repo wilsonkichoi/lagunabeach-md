@@ -3,7 +3,7 @@ title: 'SPORE-HARVEST-PIPELINE'
 description: '孢子回聲收割產線 — D+1-D+7 cadence + decision gate + retroactive accuracy trigger + atomic batch log + v2.2 full-auto routine integration'
 type: 'factory-canonical'
 status: 'canonical'
-current_version: 'v2.2'
+current_version: 'v2.2.1'
 last_updated: 2026-05-12
 last_session: '2026-05-12-184800-routine-v2-resync'
 sister_docs:
@@ -216,7 +216,7 @@ cron 0 7 * * * Asia/Taipei
     ↓
 [Stage 1] cd && git checkout main && git pull origin main
     ↓
-[Stage 2] /twmd-spore-harvest skill — invoke 本 pipeline Step 0-7:
+[Stage 2] /twmd-spore-harvest skill — invoke 本 pipeline Step 0-8:
     ├─ Step 0: 讀 dashboard-spores.json §backfillWarnings 取 OVERDUE 列表
     │   ↳ 0 條 → no-op commit「today 0 OVERDUE, skip」+ jump Stage 4
     ├─ Step 1-7: 對每條 OVERDUE 跑既有 7-step pipeline（COLLECT → DUAL WRITE
@@ -224,25 +224,35 @@ cron 0 7 * * * Asia/Taipei
     │           Chrome MCP harvest 走 §Chrome MCP exact harvest workflow (v2.9)
     │           數字格式 走 §Harvest 數字格式鐵律 (v2.8)
     │           cadence 範圍 走 §d+0/+1/+7/+30 cadence
-    └─ Step 7.5: 跑 validate-spore-data.py (per §Validation 必跑 v2.8)
+    ├─ Step 7.5: 跑 validate-spore-data.py (per §Validation 必跑 v2.8)
+    └─ Step 8: trigger dashboard regen（v2.2 末段，2026-05-12 dry-run 補）
+                `python3 scripts/tools/generate-dashboard-spores.py`
+                regen `public/api/dashboard-spores.json` 從新 batch log
+                same Stage 3 commit 含 batch log + dashboard-spores.json
+                兩個 file（避免 OVERDUE 在 dashboard 殘留到下次 refresh-am cron）
     ↓
 [Stage 3] git commit + git push origin main（v2.0 main-direct，不開 PR）
+            commit 同時含：
+            - docs/factory/SPORE-HARVESTS/batch-{date}-{N}-spores.md (atomic)
+            - public/api/dashboard-spores.json (regen derived)
+            - knowledge/{cat}/{slug}.md sporeLinks frontmatter (per Step 1.5 DUAL WRITE)
     ↓
 [Stage 4] /twmd-finale 收官（memory 必寫 / diary 條件寫）
 ```
 
 #### 🚦 Hard Gate Inventory（routine cycle 必過）
 
-| Gate                          | 觸發 Stage   | 條件                                                       | 工具                                   | 不過 = ?                       |
-| ----------------------------- | ------------ | ---------------------------------------------------------- | -------------------------------------- | ------------------------------ |
-| Chrome MCP 連線可用           | Stage 2 開頭 | `list_connected_browsers` 回 deviceId                      | Chrome MCP `list_connected_browsers`   | abort + LESSONS entry          |
-| 07:00 槽位 morning chain 對位 | cron 設定    | 接 refresh-am 06:00 之後 1hr / 早 maintainer-am 09:00 2hr  | ROUTINE.md §每週行程表                 | reschedule + LESSONS entry     |
-| backfillWarnings 載入成功     | Step 0       | `dashboard-spores.json` mtime fresh + 結構合法             | `cat public/api/dashboard-spores.json` | abort + LESSONS entry          |
-| Chrome MCP harvest 至少 1 條  | Step 1       | OVERDUE > 0 時 ≥ 1 成功（非 skipped）                      | per spore navigate + read_page         | LESSONS entry（連 2 day 升級） |
-| Atomic batch log 寫入         | Step 5       | `SPORE-HARVESTS/batch-{date}-{N}-spores.md` exists         | manual write per §SSOT 寫入位置        | abort（per §Top 5 鐵律）       |
-| Validation 4 維度 PASS        | Step 7.5     | parser regression / freshness / parseability / consistency | `validate-spore-data.py`               | abort + 修補後再 commit        |
-| main-direct push 鐵律         | Stage 3      | quality_gate PASS 才 push                                  | manual `git push origin main`          | 不 push，留 working tree dirty |
-| Finale 收官                   | Stage 4      | memory 必寫 / handoff 三態                                 | `/twmd-finale` skill                   | 失憶 = 下個 cycle 重複         |
+| Gate                          | 觸發 Stage   | 條件                                                                      | 工具                                                 | 不過 = ?                                                      |
+| ----------------------------- | ------------ | ------------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------- |
+| Chrome MCP 連線可用           | Stage 2 開頭 | `list_connected_browsers` 回 deviceId                                     | Chrome MCP `list_connected_browsers`                 | abort + LESSONS entry                                         |
+| 07:00 槽位 morning chain 對位 | cron 設定    | 接 refresh-am 06:00 之後 1hr / 早 maintainer-am 09:00 2hr                 | ROUTINE.md §每週行程表                               | reschedule + LESSONS entry                                    |
+| backfillWarnings 載入成功     | Step 0       | `dashboard-spores.json` mtime fresh + 結構合法                            | `cat public/api/dashboard-spores.json`               | abort + LESSONS entry                                         |
+| Chrome MCP harvest 至少 1 條  | Step 1       | OVERDUE > 0 時 ≥ 1 成功（非 skipped）                                     | per spore navigate + read_page                       | LESSONS entry（連 2 day 升級）                                |
+| Atomic batch log 寫入         | Step 5       | `SPORE-HARVESTS/batch-{date}-{N}-spores.md` exists                        | manual write per §SSOT 寫入位置                      | abort（per §Top 5 鐵律）                                      |
+| Validation 4 維度 PASS        | Step 7.5     | parser regression / freshness / parseability / consistency                | `validate-spore-data.py`                             | abort + 修補後再 commit                                       |
+| Dashboard regen               | Step 8       | batch log 新增後 dashboard-spores.json 同 cycle regen                     | `python3 scripts/tools/generate-dashboard-spores.py` | OVERDUE 殘留到下次 refresh-am cron（dry-run 揭露 2026-05-12） |
+| main-direct push 鐵律         | Stage 3      | quality_gate PASS 才 push（commit 含 batch log + dashboard JSON 兩 file） | manual `git push origin main`                        | 不 push，留 working tree dirty                                |
+| Finale 收官                   | Stage 4      | memory 必寫 / handoff 三態                                                | `/twmd-finale` skill                                 | 失憶 = 下個 cycle 重複                                        |
 
 #### OVERDUE 範圍計算（Step 0 spec）
 
@@ -255,11 +265,11 @@ cron 0 7 * * * Asia/Taipei
 
 #### Quality gate（routine cycle 判定 pass/fail）
 
-| 結果          | 條件                                                          | Commit message                                     |
-| ------------- | ------------------------------------------------------------- | -------------------------------------------------- |
-| ✅ pass       | ≥ 1 spore harvest 成功 + batch log + validate-spore-data PASS | `🧬 [routine] twmd-spore-harvest: N spores — DATE` |
-| ✅ no-op pass | backfillWarnings 空 + no Chrome MCP call                      | `🧬 [routine] twmd-spore-harvest: 0 OVERDUE, skip` |
-| ❌ fail       | Chrome MCP unavailable / all skipped / validate fail          | 不 commit, LESSONS-INBOX entry                     |
+| 結果          | 條件                                                                                        | Commit message                                     |
+| ------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| ✅ pass       | ≥ 1 spore harvest 成功 + batch log + validate-spore-data PASS + dashboard-spores.json regen | `🧬 [routine] twmd-spore-harvest: N spores — DATE` |
+| ✅ no-op pass | backfillWarnings 空 + no Chrome MCP call（無 dashboard regen 需做）                         | `🧬 [routine] twmd-spore-harvest: 0 OVERDUE, skip` |
+| ❌ fail       | Chrome MCP unavailable / all skipped / validate fail / dashboard regen 失敗                 | 不 commit, LESSONS-INBOX entry                     |
 
 #### Escalation（fail 處置 ladder）
 
@@ -1067,6 +1077,10 @@ _執行責任：AI 主責 Step 1-5 + 7-8；人類主責 Step 6（回覆留言）
 _每次執行留 log 到 `docs/factory/SPORE-HARVESTS/{N}-{slug}-{date}.md`_
 
 _v2.0 | 2026-05-11 cranky-newton — Spine restoration 對齊 REWRITE v5.0 + MAINTAINER v2.0：頂部加 ASCII spine（D+1 → D+7 cadence + 6h decision gate + Reach×Accuracy trigger + atomic batch log SSOT 顯化）+ Hard Gate Inventory 集中 table（9 gates）+ Top 5 最常忘 step + 跨檔案職責分工 standalone table（明確跟 SPORE-PIPELINE / VERIFY / FACTCHECK / DATA-REFRESH 分工 + atomic batch log 寫入路徑強化）。觸發：[reports/pipelines-audit-2026-05-11.md](../../reports/pipelines-audit-2026-05-11.md) Tier A.2 SPORE family audit。D+1-D+7 prose body 不動（已健康，5/8 Phase 6 SSOT cleanup 保留）。_
+
+_v2.2.1 | 2026-05-12 2026-05-12-184800-routine-v2-resync session — Step 8 trigger dashboard regen 補上_
+_v2.2.1 改動：§Routine 整合 §🗺️ Routine 觸發 → Pipeline Step flow 加 Step 8「trigger dashboard regen — `python3 scripts/tools/generate-dashboard-spores.py`」+ Hard Gate Inventory 加 row「Dashboard regen」+ Quality gate table 三態加「dashboard-spores.json regen」criterion + Stage 3 commit 註明 batch log + dashboard-spores.json + sporeLinks frontmatter 三 file 同 commit。_
+_v2.2.1 觸發：2026-05-12 spore-harvest v2.2 dry-run (commit `a5f0c28c3`) 揭露 batch log ship 後 dashboard 沒 regen，13 條 OVERDUE 仍 surface 在 dashboard-spores.json 直到 manual run generate-dashboard-spores.py（後續 `c3e49080e` 觀察者 callout「harvest pipeline 最後要補一個步驟 trigger dashboard regen」直接修補進 pipeline canonical）。對應 DNA #43（新 derived 資料必須儀器化進生命週期觸發點否則 silent stale）+ DNA #52（immune fail-loud — quality_gate 加 dashboard regen 條件 fail-loud surface）。_
 
 _v2.2 | 2026-05-12 2026-05-12-184800-routine-v2-resync session — Full-auto routine integration ship_
 _v2.2 改動：§Routine 整合（v2.2 full-auto） section 重寫對齊 cranky-newton spine pattern 標準（per [reports/pipelines-audit-2026-05-11.md](../../reports/pipelines-audit-2026-05-11.md) §對照 canonical pattern 10 元素）— 改 free-form prose 為結構化：第一性原理 quote / 🗺️ Routine 觸發 → Pipeline Step flow ASCII / 🚦 Hard Gate Inventory 8 gates table / OVERDUE 範圍計算 table / Quality gate 三態 table / Escalation ladder table / Chrome MCP unattended 注意事項 / 跨檔案職責分工 standalone table（routine 觸發層）/ v1.x → v2.2 歷史 table。Phase 2 Roadmap 標 ✅ checkmark：`run-spore-harvest.py` deprecated（Chrome MCP session-level limitation）+ D+1-D+7 cron 自動化 ship。_
