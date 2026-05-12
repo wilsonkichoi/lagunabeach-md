@@ -268,9 +268,13 @@ bun dev  # 或 npm run dev → http://localhost:4321
 git remote add upstream https://github.com/original/taiwan-md.git
 ```
 
-> **首次安裝為什麼會慢 ~20 秒？** `src/content/{lang}/` 從 2026-05-12 起改為 gitignored（由 `scripts/core/sync.sh` 自動從 `knowledge/` 投影產生），`postinstall` hook 會在 `npm install` 後自動跑一次 sync 把 src/content/ 重建出來。後續 `npm run dev` 啟動秒開，跟以前一樣。
-
-> **手動重 sync 時機**：(a) `git pull` 拉到新 knowledge/ 內容、(b) 切 branch 後 knowledge/ 不同、(c) 想驗證 sync.sh 行為時，跑 `npm run sync`（純 16s sync.sh）或 `npm run prebuild:sync`（同樣 alias）。
+> **`src/content/{lang}/` 是 gitignored derived state**（2026-05-12 起）— 由 `scripts/core/sync.sh` 自動從 `knowledge/` SSOT 投影產生。雙重自動觸發：
+>
+> - **`npm install`** 完成後 `postinstall` hook 自動跑 sync（首次 ~20s）
+> - **`npm run dev`** 啟動前自動跑 sync（每次 ~16s，保證 knowledge/ 改動立即反映）
+> - **`npm run build`** 也含 sync（prebuild 第一步）— CF Pages CI 自動 cover
+>
+> 平常開發 `npm run dev` 開著 + Astro HMR 自動 reload，不需要手動 sync。只在切 branch 或 `git pull` 後重啟 dev 才會看到 sync 跑一次。手動觸發：`npm run sync`。
 
 #### 建立分支
 

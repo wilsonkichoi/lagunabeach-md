@@ -181,11 +181,17 @@ Every claim needs a source. We use **Markdown footnotes** (`[^1]`) to link facts
 ```bash
 git clone https://github.com/frank890417/taiwan-md.git
 cd taiwan-md
-bun install       # 或 npm install — postinstall 會自動跑 sync.sh 重建 src/content/（~20s）
-bun dev           # 或 npm run dev — http://localhost:4321
+bun install       # 或 npm install — postinstall 自動跑 sync.sh 重建 src/content/（~20s）
+bun dev           # 或 npm run dev — 啟動前自動 sync (~16s) → http://localhost:4321
 ```
 
-> **`src/content/{lang}/` 是 gitignored derived state**（2026-05-12 起）— 由 `scripts/core/sync.sh` 從 `knowledge/` SSOT 自動投影。`npm install` 的 postinstall hook 已 cover 首次同步，後續 `npm run dev` 直接秒開。手動重 sync：`npm run sync`。完整背景：[reports/sync-architecture-evolution-2026-05-12.md](./reports/sync-architecture-evolution-2026-05-12.md) + [CONTRIBUTING.md](./CONTRIBUTING.md)。
+> **`src/content/{lang}/` 是 gitignored derived state**（2026-05-12 起）— 由 `scripts/core/sync.sh` 從 `knowledge/` SSOT 自動投影。三個自動觸發點：
+>
+> - `npm install` → postinstall hook
+> - `npm run dev` → 啟動前 sync
+> - `npm run build` → prebuild 第一步（CF Pages CI 自動 cover）
+>
+> 平常 dev 開著 + Astro HMR 自動 reload。手動重 sync：`npm run sync`。完整背景：[reports/sync-architecture-evolution-2026-05-12.md](./reports/sync-architecture-evolution-2026-05-12.md) + [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
 ---
 

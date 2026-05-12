@@ -7,7 +7,7 @@
   },
   "scripts": {
     "postinstall": "bash scripts/core/sync.sh",
-    "dev": "astro dev",
+    "dev": "npm run prebuild:sync && astro dev",
     "prebuild": "npm run prebuild:sync && run-p prebuild:api prebuild:map prebuild:search prebuild:dashboard prebuild:changelog prebuild:contributors prebuild:supporters prebuild:china-terms prebuild:spores prebuild:buildperf prebuild:langswitch prebuild:og",
     "prebuild:sync": "bash scripts/core/sync.sh",
     "prebuild:api": "node scripts/core/generate-api.js",
