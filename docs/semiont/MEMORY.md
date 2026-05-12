@@ -272,6 +272,7 @@ memory/
 | 2026-05-11 | cranky-newton (225859) | 28 pipelines audit + 10 cluster spine restoration + REWRITE v5.1 + PR backlog 0 | Spine pattern 第 14 次 instantiation 是相變式的 | [→](memory/2026-05-11-225859-cranky-newton.md) |
 | 2026-05-11 | twmd-babel-nightly (221105) | Tier 0a-as-deterministic 17 P2 zero-diff bumped + P0 missing 8 條 deferred | Tier 0a sub-agent 對 zero-diff 是 over-spec | [→](memory/2026-05-11-221105-twmd-babel-nightly.md) |
 | 2026-05-11 | twmd-data-refresh-pm (230916) | Late-night cycle — v2.0 main-direct first instantiation + ship 延遲 ~3hr→0 | v2.0 main-direct 設計目標在最簡單 routine 落地乾淨 | [→](memory/2026-05-11-230916-twmd-data-refresh-pm.md) |
+| 2026-05-12 | pipeline-150char-gate (124329) | MEMORY/DIARY v2.1 — index row ≤ 150 字 hard gate + 179 + 9 rows 全量壓縮 + Codex batch 60 ship | 規則升級當下就要 dogfood，不然規則對自己無效 | [→](memory/2026-05-12-124329-pipeline-150char-gate.md) |
 | 2026-05-12 | backend-abstraction (122702) | Codex pivot 觸發 translation backend abstraction v4.0 + Ship 4 DX 補 + PR #1050 黃魚鴞 heal | 「外部依賴出問題時的應對」是統一 pattern | [→](memory/2026-05-12-122702-backend-abstraction.md) |
 | 2026-05-12 | twmd-maintainer-pm (050804) | v2.0 半夜重排第 2 次 PM cycle / 第 1 次「無 PR backlog」cycle / 1 issue first-reply | v2.0 半夜重排第一次「無 PR backlog」cycle ship | [→](memory/2026-05-12-050804-twmd-maintainer-pm.md) |
 | 2026-05-12 | src-content-migration (015230) | sync.sh 沒儀器化的架構缺口 → C+F+H 最根治 3 ship 一氣完成 | 消除問題類別 > 儀器化守備 | [→](memory/2026-05-12-015230-src-content-migration.md) |
