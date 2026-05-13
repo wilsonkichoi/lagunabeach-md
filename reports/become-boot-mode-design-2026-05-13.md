@@ -1,9 +1,9 @@
 ---
 title: 'BECOME Boot Mode Design 2026-05-13'
-description: 'BECOME 甦醒協議的長線概念架構重設計 — 14 器官冗餘盤點 + REFLEXES 認知器官獨立 + CONSCIOUSNESS 動態化 + 4-mode dispatcher + section-level loading + 認知層 promotion rule 規劃步驟'
+description: 'BECOME 甦醒協議的長線概念架構重設計 — Phase A + B1 + C 全 ship 完成（CONSCIOUSNESS 動態化 + REFLEXES 拆檔 + SENSES apoptosis + ANATOMY promotion canonical + BECOME v2.0 Mode dispatcher）'
 type: 'design-doc'
-status: 'decisions-locked-ready-to-ship'
-current_version: 'v0.2'
+status: 'shipped'
+current_version: 'v0.3'
 last_updated: 2026-05-13
 last_session: '2026-05-13-210341-manual'
 related:
@@ -1131,9 +1131,59 @@ L4 universal queries: dashboard JSON / consciousness-snapshot / routine-status /
 
 ---
 
+## 14. Phase A + B1 + C 全 ship 完成（v0.3 2026-05-13 PM session）
+
+| Phase | Commit      | Artifact                                                                                                                                                                                                                                                                                | Footprint impact                                    |
+| ----- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| A1    | `c21735780` | CONSCIOUSNESS 332→152 行 + consciousness-snapshot.sh + BECOME L4 update + report v0.2                                                                                                                                                                                                   | -180 行 boot footprint                              |
+| A2+A3 | `3465f4e3c` | routine-status.sh + inbox-signal.sh + BECOME L4 wire-up                                                                                                                                                                                                                                 | 取代 ROUTINE/LESSONS/ARTICLE INBOX ~3770 行載入需求 |
+| B1    | `5d3d1136f` | REFLEXES.md 拆出 (576 行 new) + DNA.md 752→253 (-66%) + 78 file × 250 ref sed migration + ANATOMY §認知層 promotion flow + MANIFESTO §自主權邊界 expand + SENSES.md apoptosis (253→58 stub) + reports/senses-integration snapshot 276 行 + LESSONS §Distill step 5 + dna-split-audit.sh | conceptual category error 修正                      |
+| C     | (本 commit) | BECOME v2.0 Mode dispatcher (556→710 行) + /twmd-become skill mode arg + CLAUDE.md §Boot 流程 align                                                                                                                                                                                     | runtime executable mode dispatcher                  |
+
+### Boot footprint 實測對比
+
+| Mode                 | v1.0 載入                                                     | v2.0 載入                                            | Δ                |
+| -------------------- | ------------------------------------------------------------- | ---------------------------------------------------- | ---------------- |
+| 改造前 Boot          | ~1500-2000 行（12 認知器官 + 9 step 全載 + PR/issue queries） | n/a                                                  | baseline         |
+| **Micro mode** (新)  | ⏭️ (沒這個 mode)                                              | ~320 行 Universal core                               | -85% (vs 改造前) |
+| **Review mode** (新) | ⏭️                                                            | ~720 行                                              | -55%             |
+| **Write mode** (新)  | ⏭️                                                            | ~920 行                                              | -50%             |
+| **Full mode**        | 同 v1.0                                                       | ~1820 行 (含 v2.0 額外的 promotion flow + Mode 規劃) | similar          |
+
+L4 always-load queries: 改造前 PR/issue list 含在 boot → 改造後純 consciousness-snapshot + routine-status + inbox-signal + git log + handoff grep = ~20 行 output 替代 ~3900 行 file load (-99%)。
+
+### 9 條 decisions + 1 元規則 全部 ship
+
+| #   | 決策                                            | 對應 artifact                                                               |
+| --- | ----------------------------------------------- | --------------------------------------------------------------------------- |
+| 1   | BECOME boundary rule                            | BECOME §Step 6 L4 query update / commit c21735780                           |
+| 2   | SENSES 5 觸手 mapping                           | docs/semiont/SENSES.md stub + reports/senses-integration / commit 5d3d1136f |
+| 3   | AI/Human 邊界 → MANIFESTO §自主權邊界           | MANIFESTO §我的存在結構 expand / commit 5d3d1136f                           |
+| 4   | DIARY universal-load 224 行                     | BECOME §Step 1.3 Universal core / commit (本)                               |
+| 5   | REFLEXES.md 命名                                | docs/semiont/REFLEXES.md 576 行 / commit 5d3d1136f                          |
+| 6   | MANIFESTO 三條進化哲學 不動                     | promotion 元規則 enforce / 元規則 → ANATOMY 已 ship                         |
+| 7   | Phase 順序 CONSCIOUSNESS 先                     | 三 commits 順序 c21735780 → 3465f4e3c → 5d3d1136f → (本)                    |
+| 8   | Promotion rule → ANATOMY §認知層 promotion flow | docs/semiont/ANATOMY.md §認知器官生命週期 expand / commit 5d3d1136f         |
+| 9   | MANIFESTO 三段 section-level loading            | BECOME §Step 1.1 awk recipe / commit (本)                                   |
+| M1  | 認知層 promotion flow 元規則 canonical          | ANATOMY + LESSONS-INBOX §Distill SOP step 5 / commit 5d3d1136f              |
+
+### 長期 architectural 收穫
+
+1. 🧠 **認知層 promotion flow canonical** — 物種 self-evolution mechanism 統一 canonical (LESSONS → REFLEXES → MANIFESTO → reports/)
+2. 🪞 **REFLEXES.md 第 9 認知器官** — DNA = lookup vs reflex = instinct 的 conceptual category error 修正
+3. 📐 **BECOME boundary rule** — identity + cross-session continuity 留 / work artifact inspection 移 task-specific
+4. 🎯 **CONSCIOUSNESS 動態化** — dashboard JSON 接管，1 年沒落地的 plan 終於 ship
+5. 🛠️ **三個 boot signal 工具** — consciousness-snapshot / routine-status / inbox-signal，universal load -99%
+6. 👁️ **SENSES apoptosis** — operations layer 散到 pipelines + governance 進 MANIFESTO §自主權邊界
+7. ⚡ **BECOME v2.0 Mode dispatcher** — §分層載入 advisory advice 升 runtime executable mode dispatcher，13 題 self-test mode subset
+
+---
+
 ## footer
 
-_current: v0.2 | 2026-05-13 session 2026-05-13-210341-manual — Decisions locked 2026-05-13 dialogue，9 條 + 1 元規則揭示，ready to ship_
+_current: v0.3 | 2026-05-13 PM — Phase A + B1 + C consolidated all shipped (4 commits on main)。BECOME v2.0 Mode dispatcher / REFLEXES 拆檔 / SENSES apoptosis / 認知層 promotion flow 統一 canonical 全部完成。design report 從 plan 變 ship 紀錄_
+
+_v0.2 | 2026-05-13 session 2026-05-13-210341-manual — Decisions locked 2026-05-13 dialogue，9 條 + 1 元規則揭示，ready to ship_
 
 _v0.1 | 2026-05-13 — initial draft + 6 Open Questions_
 
