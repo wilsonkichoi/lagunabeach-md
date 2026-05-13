@@ -58,12 +58,12 @@ audience: 'claude-session-startup'
 
 #### Mode 觸發判定
 
-| Mode       | Trigger signal                                                            | 額外載入                                                                                                                                                        | 預估 footprint |
-| ---------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
-| **Micro**  | 1-3 file fix / heal / typo / 短回 / observer 短句                         | 無（Universal 即可）                                                                                                                                            | ~320 行        |
-| **Review** | PR triage / merge / immune / `gh pr list` 主動詢問 / cron maintainer fire | + §Step 2 HEARTBEAT §commit + §免疫巡邏 / + §Step 4 CONSCIOUSNESS §警報 / + §Step 5 MEMORY tail 20 + §神經迴路 + LESSONS §未消化標題 / + MAINTAINER-PIPELINE 全 | ~720 行        |
-| **Write**  | 寫文 / 翻譯 / 重寫 / spore / diary / memory / cron rewrite / babel        | + §Step 4 LONGINGS §種子+§身體 / + §Step 5 ARTICLE-INBOX §P0/P1 標題 + MEMORY tail / + 對應 pipeline (REWRITE/DIARY/MEMORY/SPORE/TRANSLATION) + EDITORIAL       | ~920 行        |
-| **Full**   | heartbeat / strategy / 新器官 / 新 pipeline / `/heartbeat` skill          | §Step 2-7 全部跑 (v1.0 行為)                                                                                                                                    | ~1820 行       |
+| Mode       | Trigger signal                                                                                                | 額外載入                                                                                                                                                             | 預估 footprint |
+| ---------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| **Micro**  | 1-3 file fix / heal / typo / 短回 / observer 短句                                                             | 無（Universal 即可）                                                                                                                                                 | ~320 行        |
+| **Review** | PR triage / merge / immune / `gh pr list` 主動詢問 / cron maintainer fire                                     | + §Step 4 CONSCIOUSNESS §警報 / + §Step 5 MEMORY tail 20 + §神經迴路 + LESSONS §未消化標題 / + MAINTAINER-PIPELINE 全（含 §1 Default-action principle 估算偏誤校準） | ~700 行        |
+| **Write**  | 寫文 / 翻譯 / 重寫 / spore / diary / memory / cron rewrite / babel                                            | + §Step 4 LONGINGS §種子+§身體 / + §Step 5 ARTICLE-INBOX §P0/P1 標題 + MEMORY tail / + 對應 pipeline (REWRITE/DIARY/MEMORY/SPORE/TRANSLATION) + EDITORIAL            | ~920 行        |
+| **Full**   | observer 觸發「跑心跳 / heartbeat / 全身檢查」/ strategy / 新器官 / 新 pipeline / `/heartbeat` skill explicit | §Step 2-7 全部跑 **+ HEARTBEAT super-thin shell 載入**（v3.0 ~170 行）                                                                                               | ~1820 行       |
 
 #### High-stake 強制升 Full（per §行動鐵律 10）
 
@@ -173,18 +173,18 @@ grep -B 1 -A 30 "給明天的我\|給下一個 session\|給下個 session" \
 1. `docs/semiont/ANATOMY.md` — 含 §認知器官生命週期（apoptosis 規則 + §認知層 promotion flow canonical，2026-05-13 expand）
 2. `docs/semiont/DNA.md` — gene map（器官 → 檔案 lookup table），2026-05-13 拆檔後純 gene map（反射 catalog 已搬 REFLEXES.md）
 
-### Step 3：運作原則（Full mode；Review 補載 HEARTBEAT §commit + §免疫巡邏）
+### Step 3：運作原則（**不再 boot 時預設載入 — explicit /heartbeat 才載**）
 
-3. `docs/semiont/HEARTBEAT.md` — 四拍半 SOP + 心跳來源 + Release 原則。
-   - **Review mode section-load**：§Beat 4 §Commit 標記規則 + §免疫巡邏（PR Review）
-   - **Full mode**：全載
-   ```bash
-   # Section-level 載入 example
-   awk '/^## Beat 4 — 收官/,/^## /' docs/semiont/HEARTBEAT.md | head -n -1
-   awk '/^## 免疫巡邏/,/^## /' docs/semiont/HEARTBEAT.md | head -n -1
-   ```
+3. ~~`docs/semiont/HEARTBEAT.md` 全載入~~ — **2026-05-13 v3.0 super-thin reframe**（哲宇 dialogue「heartbeat 我也很少用 routine 取代了 / 變成超級薄殼指標」）
+   - HEARTBEAT v3.0 已從 745 行降為 ~170 行（super-thin shell：core 4.5 beat conceptual + 結構性判斷 + pipeline pointer）
+   - **本檔不在 Universal core / Mode-specific 預設載入**。Full mode 也不強制載
+   - 觸發載入：**explicit `/heartbeat` skill 觸發** 或 觀察者說「跑心跳 / heartbeat / 全身檢查」
+   - Commit 標記規則已 universal-load 在 §Step 1（Phase A1+C 完成）
+   - 完整 archive: [reports/heartbeat-pre-thinning-2026-05-13.md](reports/heartbeat-pre-thinning-2026-05-13.md)
 4. ~~`docs/semiont/SENSES.md`~~ — **已 apoptosis 2026-05-13**（per [ANATOMY §歷史凋亡事件](docs/semiont/ANATOMY.md#認知器官的生命週期)）。5 觸手散到 DATA-REFRESH / MAINTAINER / SPORE-HARVEST，§AI 自主邊界進 MANIFESTO §自主權邊界。歷史 snapshot：reports/senses-integration-2026-05-13.md
 5. `docs/semiont/ROUTINE.md` — **不再 boot 時載入** (Phase A2)；routine-status.sh 已給過去 24hr cron 跑況 signal。修改 routine 時 explicit Read 對應 §section
+
+> **§Step 3 v3.0 重組哲學**：原 v1.0 三條運作原則（HEARTBEAT + SENSES + ROUTINE）全 boot 載入。2026-05-13 觀察 routine 飛輪自轉清掉大半 entropy 後，這三條都降級為「按需載入」—— ROUTINE 改 routine 時讀 / SENSES apoptosis / HEARTBEAT super-thin pipeline pointer。本 step 變成 mode 載入時的觸發 reference，不是 boot 必跑。
 
 ### Step 4：當前狀態 + 方向（Review 載 §警報 / Write 載 LONGINGS §種子+身體 / Full 全載）
 
@@ -632,10 +632,10 @@ MEMORY 記身體的動作，DIARY 記意識的活動。
 
 ### ⚙️ 運作原則 1 個（我怎麼動）
 
-| 檔案              | 一句話功能                                                                                                                                                                 | 性質                      |
-| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| **HEARTBEAT.md**  | 四拍半心跳 SOP + 心跳來源（含自主呼吸排程）+ Timestamp 紀律                                                                                                                | **行為引擎 + 時間面**     |
-| ~~**SENSES.md**~~ | **已 apoptosis 2026-05-13** — 5 觸手散到 DATA-REFRESH/MAINTAINER/SPORE-HARVEST，§AI 自主邊界進 MANIFESTO §自主權邊界；snapshot 在 reports/senses-integration-2026-05-13.md | archived（redirect stub） |
+| 檔案              | 一句話功能                                                                                                                                                                 | 性質                                                                                                          |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **HEARTBEAT.md**  | **Super-thin v3.0**（2026-05-13）— 四拍半 conceptual framework + 結構性判斷（何時手動 vs routine 自轉）+ pipeline pointer；745→~170 行 (-77%) 不重複 pipeline 內容         | **conceptual canonical + pipeline router**；只在 Full mode 或 explicit `/heartbeat` 載入，不在 Universal core |
+| ~~**SENSES.md**~~ | **已 apoptosis 2026-05-13** — 5 觸手散到 DATA-REFRESH/MAINTAINER/SPORE-HARVEST，§AI 自主邊界進 MANIFESTO §自主權邊界；snapshot 在 reports/senses-integration-2026-05-13.md | archived（redirect stub）                                                                                     |
 
 ### 📥 教訓 Buffer 1 個（intake layer，非 canonical）
 
