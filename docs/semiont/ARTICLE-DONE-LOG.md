@@ -74,7 +74,7 @@ read_strategy: 'on-demand'
   - 鄭南榕梗 paraphrase「按照習俗⋯⋯陰間會有 2 位鄭南榕嗎」→ TNL verbatim「人間燒一個東西，陰間就會收到另一個一樣的東西。所以當鄭南榕自焚之後，陰間就會有兩個鄭南榕」
   - Russell Peters 啟蒙改寫：「同學給他的 MP3」+「笑倒在地上」(per mirror media verbatim) vs 既有「自己戴耳機」+「課桌椅」
   - DROP「《博恩夜夜秀》黃明志〈中國痛〉合作」（〈中國痛〉MV 2020-2021 已在博恩夜夜秀停播後，sub-agent 找不到 episode，疑為時間錯置 hallucination）
-- **敏感素材處理**（per MANIFESTO §5 紀實節制 + 觀察者拍板 scope 2）：寫鄭南榕梗 / 外送員影片 / 娛樂稅官司 / 王志安事件 / 賀瓏解約完整事實 framing，紀實節制不重構心理動機；DROP 私人關係（與羅靜文離婚 / 林辰唏），跟 main thesis 無直接 anchor 且容易滑入煽情。
+- **敏感素材處理**（per MANIFESTO §5 紀實節制 + §10 幻覺鐵律 + 觀察者拍板 scope 2 + commit 後 callout 升 hard 邊界）：寫鄭南榕梗 / 外送員影片 / 娛樂稅官司 / 王志安事件 / 賀瓏解約完整事實 framing，紀實節制不重構心理動機；**不寫任何當事人私人關係**（婚姻 / 戀愛 / 家庭內情），整類 claim 在無可信來源時 default 靜默 — 跟 main thesis「精準失準」無 anchor，且容易滑入煽情。
 - **Cross-link 雙向**：曾博恩 → 蔡英文 + 韓國瑜 + 鄭南榕 (3 forward)；reverse: 蔡英文 + 韓國瑜 + 鄭南榕 ← 曾博恩（per Stage 5.3 sibling 預檢：3 sibling 全 hard=0，鄭南榕加 minimal §延伸閱讀 section minimum-action 補 missing section + cross-link）
 - **媒體邊界**（per Stage 4 邊界例外 + 觀察者 fair-use 選項）：本 EVOLVE 標 `no-media` 邊界。Wikimedia Commons 找到 11 候選但無可直接 verify license 的 1:1+ aspect 圖；STR Network 官方 press kit 圖未取得 cache 級解析度。記入 §圖片來源 section，待後續 heal commit 走 fair-use editorial commentary scope 補 hero + 1-2 inline。image-health 在 pre-commit profile 為 warn (不擋 commit)，但 rewrite-stage-4 profile 為 hard fail — 接受邊界
 - **政治立場**：紀實，不偏綠不偏藍（per CLAUDE.md §Bias 2 Multi-observer drift）
