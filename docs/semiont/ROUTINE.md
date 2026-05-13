@@ -4,9 +4,9 @@ description: 'Routine 飛輪 SSOT — 11 條 TWMD-prefix cron routine 排程、q
 type: 'cognitive-organ'
 status: 'canonical'
 apoptosis: 'never'
-current_version: 'v2.2'
-last_updated: 2026-05-12
-last_session: '2026-05-12-184800-routine-v2-resync'
+current_version: 'v2.3'
+last_updated: 2026-05-13
+last_session: '2026-05-13-011548-manual'
 sister_docs:
   - 'HEARTBEAT.md'
   - 'ANATOMY.md'
@@ -40,14 +40,14 @@ upstream_canonical:
 
 | TaskId                    | Title                     | Cron (local +0800) | Skill                 | Model  | Cadence        |
 | ------------------------- | ------------------------- | ------------------ | --------------------- | ------ | -------------- |
-| `twmd-babel-nightly`      | TWMD babel (nightly)      | `0 22 * * *`       | `/twmd-babel`         | Opus   | 每天 22:00     |
+| `twmd-maintainer-pm`      | TWMD maintainer (pm) ¹    | `0 22 * * *`       | `/twmd-maintainer`    | Opus   | 每天 22:00     |
 | `twmd-data-refresh-pm`    | TWMD data refresh (pm)    | `0 23 * * *`       | `/twmd-refresh`       | Sonnet | 每天 23:00     |
 | `twmd-rewrite-daily`      | TWMD rewrite (daily)      | `0 0 * * *`        | `/twmd-rewrite`       | Opus   | 每天 00:00     |
 | `twmd-news-lens-weekly`   | TWMD news lens (weekly)   | `0 1 * * 0`        | `/twmd-evolve`        | Sonnet | 週日 01:00     |
 | `twmd-weekly-report-sun`  | TWMD weekly report (sun)  | `0 2 * * 0`        | `/twmd-weekly-report` | Opus   | 週日 02:00     |
 | `twmd-distill-weekly`     | TWMD distill (weekly)     | `0 3 * * 0`        | `/twmd-distill`       | Opus   | 週日 03:00     |
 | `twmd-self-evolve-weekly` | TWMD self-evolve (weekly) | `0 4 * * 0`        | `/twmd-self-evolve`   | Opus   | 週日 04:00     |
-| `twmd-maintainer-pm`      | TWMD maintainer (pm) ¹    | `0 5 * * *`        | `/twmd-maintainer`    | Opus   | 每天 05:00     |
+| `twmd-babel-nightly`      | TWMD babel (nightly) ³    | `0 5 * * *`        | `/twmd-babel`         | Opus   | 每天 05:00     |
 | `twmd-data-refresh-am`    | TWMD data refresh (am)    | `0 6 * * *`        | `/twmd-refresh`       | Sonnet | 每天早上 06:00 |
 | `twmd-spore-harvest-am`   | TWMD spore harvest (am) ² | `0 7 * * *`        | `/twmd-spore-harvest` | Opus   | 每天早上 07:00 |
 | `twmd-maintainer-daily`   | TWMD maintainer (am) ¹    | `0 9 * * *`        | `/twmd-maintainer`    | Opus   | 每天早上 09:00 |
@@ -56,11 +56,13 @@ upstream_canonical:
 
 ² **Spore harvest 07:00（2026-05-12 拍板）** — `twmd-spore-harvest-am` daily 07:00 fire，full-auto Chrome MCP harvest 跑 D+1-D+7 OVERDUE 孢子。觸發點接在 refresh-am 06:00 之後 1hr，讓 dashboard `backfillWarnings` fresh 再 harvest。完整 SOP 在 [SPORE-HARVEST-PIPELINE.md §Routine 整合（v2.2 full-auto）](../factory/SPORE-HARVEST-PIPELINE.md)，含 Chrome MCP unattended 注意事項 + 失敗 skip 條件 + OVERDUE 範圍計算。
 
+³ **Babel 義務鐵律 + cron swap（2026-05-13 拍板）** — `twmd-babel-nightly` 從 `0 22` 移到 `0 5` 半夜 chain 尾棒（與 `twmd-maintainer-pm` 對調 — 哲宇「調換順序，maintainer pipeline 之後 babel pipeline」）。同時 SQUEEZE-MODELS-MAX-PIPELINE v3.4 加 §義務：babel 義務是把同步率推到 100%（stale → 0 across 5 langs），不主動 defer / skip / partial / 守 boundary。對應 MANIFESTO §架構解 > 守備修補（第七條進化哲學）— 「每次清一點點就結束」是滿足型守備，「跑到 stale=0 才結束」是架構解。誕生事件：5/9-5/11 三次 babel routine memory 都寫「主動 defer 守 1hr 預算 / 1hr boundary safety」，但 SSOT 線 §不提預算鐵律 v2.0 + 哲宇 5/13 callout「babel 義務就是要提升同步率到 100%, 他每次都調整少少的就自行結束 routine」揭露 self-imposed 1hr satisficing 心態。
+
 **設計原則**（v2.0 改寫 — 2026-05-11 哲宇拍板）：
 
 - **TWMD 前綴**：所有 routine task 標題必須含 `TWMD ` 前綴（task list 跨 project 共用，namespace 防撞）
 - **整點對齊**（v2.0）：cron 分鐘一律 `0`（hour mark）。System 自動加 3-9 min jitter 做 load balancing，整點對齊讓人類好記、好 audit、cadence 視覺乾淨。原 v1.x「避開整點」principle deprecated — 因為 system 已內建 jitter
-- **半夜不碰撞 + 60 min 間隔**（v2.0）：除 refresh-am (06:00) + maintainer-am (09:00) 兩條白天 routine 之外，所有 routine 排在半夜 22:00 - 05:00 連續整點 chain。Sun 鏈完全照排程展開：22:00 babel → 23:00 refresh-pm → 00:00 rewrite → 01:00 news-lens → 02:00 weekly-report → 03:00 distill → 04:00 self-evolve → 05:00 maintainer-pm → 06:00 refresh-am → 09:00 maintainer-am。每條間隔整 60 min，遠超「≥ 40 min」硬規則
+- **半夜不碰撞 + 60 min 間隔**（v2.0；v2.3 swap maintainer-pm ↔ babel-nightly）：除 refresh-am (06:00) + maintainer-am (09:00) 兩條白天 routine 之外，所有 routine 排在半夜 22:00 - 05:00 連續整點 chain。Sun 鏈完全照排程展開：22:00 maintainer-pm → 23:00 refresh-pm → 00:00 rewrite → 01:00 news-lens → 02:00 weekly-report → 03:00 distill → 04:00 self-evolve → 05:00 babel → 06:00 refresh-am → 09:00 maintainer-am。每條間隔整 60 min，遠超「≥ 40 min」硬規則
 - **不提預算鐵律**（v2.0 哲宇 2026-05-11 拍板）：routine prompt / mirror / yaml 一律**禁止**寫「上限 X min wall-clock」「budget」「timeout > X min」「partial PR」這類**任何形式的預算詞**。routine 任務正常不會超過 1 hr，讓它自然跑完。Budget framing 製造「partial-ship 心態」（"快超 budget 了 ship partial"），跟「有 SOP 就跑 / 慢工出細活」矛盾。Claude session 自有 internal time limit (~2 hr) — routine 撞到那是 quality issue 不是 budget issue。Escalation 只看 quality_gate 結果，不看時間
 - **Main-direct 鐵律**（v2.0 哲宇 2026-05-11 拍板）：routine 跑完直接 `git commit + git push origin main`，**不開 PR**。原 v1.x PR + maintainer §collect-and-merge 累積 ~12 hr 延遲是冗餘審計層。quality_gate + pre-commit hook + post-commit CI 三層仍保護。**例外無**：所有 routine 一律 main-direct（含 maintainer 自己）
 - **週日反思鏈**：news-lens → weekly-report → distill → self-evolve 序列照舊（拉資料 → 寫反芻 → 升 canonical → 找 unstrumentation）。v2.0 全移半夜 01:00-04:00 整點對齊
@@ -77,14 +79,14 @@ upstream_canonical:
 ┌──────┬───────────────────────────┐
 │ Hour │  M  T  W  T  F  S  Sun    │
 ├──────┼───────────────────────────┤
-│ 22h  │  B  B  B  B  B  B  B      │  ←  夜間 chain 啟動
+│ 22h  │  m  m  m  m  m  m  m      │  ←  夜間 chain 啟動 (maintainer collect PR)
 │ 23h  │  r  r  r  r  r  r  r      │
 │ 00h  │  R  R  R  R  R  R  R      │
 │ 01h  │  ·  ·  ·  ·  ·  ·  N      │  ←  週日反思鏈 (start)
 │ 02h  │  ·  ·  ·  ·  ·  ·  W      │
 │ 03h  │  ·  ·  ·  ·  ·  ·  D      │
 │ 04h  │  ·  ·  ·  ·  ·  ·  E      │
-│ 05h  │  m  m  m  m  m  m  m      │  ←  夜間 chain 收尾
+│ 05h  │  B  B  B  B  B  B  B      │  ←  夜間 chain 收尾 (babel push stale→0)
 ├──────┼───────────────────────────┤
 │ 06h  │  a  a  a  a  a  a  a      │  ←  白天 morning chain start
 │ 07h  │  S  S  S  S  S  S  S      │  ←  spore-harvest (v2.2)
@@ -98,23 +100,23 @@ upstream_canonical:
 └──────┴───────────────────────────┘
 
 Legend:
-  B = twmd-babel-nightly         (opus, multi-lang sync)
+  m = twmd-maintainer-pm         (opus, evening contributor PR review — 夜間 chain 第一棒 v2.3)
   r = twmd-data-refresh-pm       (sonnet)
   R = twmd-rewrite-daily         (opus, ARTICLE-INBOX pick)
   N = twmd-news-lens-weekly      (Sun, sonnet)
   W = twmd-weekly-report-sun     (Sun, opus, 親手寫)
   D = twmd-distill-weekly        (Sun, opus, LESSONS 升 canonical)
   E = twmd-self-evolve-weekly    (Sun, opus, LONGINGS 校準)
-  m = twmd-maintainer-pm         (opus, dawn contributor PR review)
+  B = twmd-babel-nightly         (opus, multi-lang sync — 義務跑到 stale=0，夜間 chain 尾棒 v2.3)
   a = twmd-data-refresh-am       (sonnet)
   S = twmd-spore-harvest-am      (opus, Chrome MCP harvest D+1-D+7 OVERDUE)
   M = twmd-maintainer-am         (opus, daytime contributor PR review)
   · = idle (no routine fire)
 
 每條 routine 間隔 ≥ 60 min（整點對齊；system jitter +3-9 min for load balancing）。
-夜間 chain 完整鏈條（Sun）：B → r → R → N → W → D → E → m，每段 1 hr，連續 8 小時。
-白天 morning chain：a (06h) → S (07h) → M (09h)，refresh 完吃 fresh data，harvest 走 Chrome MCP，maintainer 收割 contributor PR backlog。
-週一到週六晚上夜間 chain 縮短為 B → r → R → m（沒週日反思鏈 4 條）。
+夜間 chain 完整鏈條（Sun）：m → r → R → N → W → D → E → B，每段 1 hr，連續 8 小時。順序語意（v2.3 swap）：maintainer 先收割晚間累積的 contributor PR backlog，然後 refresh / rewrite / 週日反思鏈，最後 babel 跑同步義務（跑到 stale=0 才結束，per SQUEEZE-MODELS-MAX §義務）— observer 醒來看見 PR backlog 清空 + 翻譯同步推進的「夜間進度成果」。
+白天 morning chain：a (06h) → S (07h) → M (09h)，refresh 完吃 fresh data，harvest 走 Chrome MCP，maintainer 收割 daytime contributor PR backlog。
+週一到週六晚上夜間 chain 縮短為 m → r → R → B（沒週日反思鏈 4 條）。
 ```
 
 ---
@@ -179,10 +181,10 @@ escalation:
 ```yaml
 taskIds:
   - twmd-maintainer-daily # AM slot @ 09:00（legacy taskId 保留，語意 am）
-  - twmd-maintainer-pm # PM slot @ 05:00（v2.0 移半夜，legacy taskId 保留語意已脫離 pm）
+  - twmd-maintainer-pm # PM slot @ 22:00（v2.3 swap：原 05:00 → 22:00 夜間 chain 第一棒，先收 PR backlog 再讓 babel 跑同步）
 crons:
   - '0 9 * * *' # am 09:00 白天
-  - '0 5 * * *' # pm 05:00 半夜 chain 尾棒
+  - '0 22 * * *' # pm 22:00 半夜 chain 第一棒（v2.3 swap，原 05:00）
 model: opus
 skill: /twmd-maintainer
 canonical:
@@ -215,7 +217,7 @@ escalation:
 
 ```yaml
 taskId: twmd-babel-nightly
-cron: '0 22 * * *' # 每天 22:00（v2.0 整點對齊半夜 chain 第一棒）
+cron: '0 5 * * *' # 每天 05:00（v2.3 swap：原 22:00 → 05:00 夜間 chain 尾棒，maintainer-pm 之後）
 model: opus
 skill: /twmd-babel
 canonical: docs/pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md
@@ -225,14 +227,19 @@ prompt: |
   4-tier cascade owl-alpha/Hy3/Ollama/Sonnet + Tier 0a Sonnet patch + Tier 0b
   bump-source-sha.py + refusal detection + body-hash drift check）。
 
+  ⚠️ §義務鐵律（v2.3 哲宇 2026-05-13 拍板）：babel 義務是推同步率到 100%（stale → 0
+  across 5 langs）。不主動 defer / skip / partial / 守 boundary。對應
+  SQUEEZE-MODELS-MAX-PIPELINE §義務 + MANIFESTO §架構解 > 守備修補。
+
   Stage 3 commit + push origin main — 直接 push（v2.0 main-direct）。
 quality_gate:
-  - P2.5 bumped 數量 > 0 OR P2/P1 cleared 數量 > 0
+  - stale_total 顯著下降（≥ 10% 或 cleared > 50 entries）OR all P0+P1 cleared OR stale_total == 0
   - 0 LLM drift detected（body-hash check）
   - pre-commit hook 過
 escalation:
   - refusal rate > 30% → 跳 Tier 2/3 cascade（per DNA #49 + SQUEEZE-MODELS-MAX）
   - 全 fail → 暫停 routine + LESSONS entry
+  - stale_total 4 days plateau（沒推進）→ telegram alert + 觀察者人工 audit
 ```
 
 ### TWMD rewrite (daily)

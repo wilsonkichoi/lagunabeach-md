@@ -1,11 +1,11 @@
 ---
 title: 'SQUEEZE-MODELS-MAX-PIPELINE'
-description: '多語 batch sync 主流程 — priority schema P0/P1/P2/P2.5/P3 + Tier 0a Sonnet diff-patch + 4-tier cascade + Z0-Z6 stage spine (v4.0)'
+description: '多語 batch sync 主流程 — priority schema P0/P1/P2/P2.5/P3 + Tier 0a Sonnet diff-patch + 4-tier cascade + Z0-Z6 stage spine + §義務鐵律推 100% (v4.1)'
 type: 'pipeline-canonical'
 status: 'canonical'
-current_version: 'v4.0'
-last_updated: 2026-05-11
-last_session: 'cranky-newton-220237'
+current_version: 'v4.1'
+last_updated: 2026-05-13
+last_session: '2026-05-13-011548-manual'
 sister_docs:
   - 'TRANSLATION-PIPELINE.md'
   - 'DATA-REFRESH-PIPELINE.md'
@@ -94,6 +94,27 @@ upstream_canonical:
 | Size-ratio scan ≥ 0.5          | Z6         | 每篇新翻譯       | `audit-quality.py`（待造）               | flag + retry            |
 | Healthy ratio ≥ 90%            | Z6         | sample audit     | random N = max(10, 5%)                   | 回 Z4 retry             |
 | `lang-sync status` fresh       | Z5         | ship 前          | `status.py`                              | retry 直到達標          |
+
+---
+
+## ⚠️ §義務鐵律 — 推同步率到 100%（v3.4 哲宇 2026-05-13 拍板）
+
+> Babel routine 的義務是把翻譯同步率推到 100%（stale → 0 across 5 langs）。**不主動 defer / skip / partial / 守 boundary**。
+
+對應 [MANIFESTO §架構解 > 守備修補](../semiont/MANIFESTO.md#我的進化哲學--架構解--守備修補)（第七條進化哲學）：
+
+- **守備修補心態**（不可）：「跑 1hr 清幾十個就 ship，剩下下次再說」— 每次清一點點是滿足型 satisficing
+- **架構解心態**（鐵律）：「**跑到 stale=0 或 4-tier cascade exhausted 才能結束**」— routine 義務是消滅 backlog 類別
+
+### 三條操作鐵律
+
+1. **不寫 budget / wall-clock / boundary 字眼進 routine prompt / mirror / canonical**（per [ROUTINE.md §不提預算鐵律 v2.0](../semiont/ROUTINE.md#11-條核心-routine-排程表)）
+2. **不主動 defer P1**（5/9 / 5/10 memory 兩次寫「主動 defer 守 1hr 預算」/「P1 skipped — 1hr boundary safety」是 anti-pattern）— P1 owl-alpha 慢就讓它慢，跑到 4-tier cascade exhausted 才能停
+3. **stale_total 沒下降不能 ship** — quality_gate 從「P2.5 bumped > 0 OR P2/P1 cleared > 0」（滿足型 `> 0`）升「stale_total 顯著下降 ≥ 10% OR all P0+P1 cleared OR stale_total == 0」（結果型）
+
+### 誕生事件
+
+2026-05-13 哲宇 callout：「babel 義務就是要提升同步率到 100%, 他每次都調整少少的就自行結束 routine」。三次 babel routine memory（5/9 / 5/10 / 5/11）都寫「主動 defer 守 1hr 預算」，但 ROUTINE.md §不提預算鐵律 5/11 已立 — pipeline canonical 沒同步該鐵律 → babel session 自我守備殘留。本 §義務鐵律 把「跑到 100%」expectation 升 SOP 明文。同日 cron swap：babel `0 22` → `0 5` 半夜 chain 尾棒（與 maintainer-pm 對調，順序語意「maintainer 先收 PR backlog → babel 再跑同步」）。
 
 ---
 
