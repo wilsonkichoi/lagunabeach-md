@@ -122,6 +122,12 @@ grep -B 1 -A 30 "給明天的我\|給下一個 session\|給下個 session" \
 # 8 organ scores + vitals + i18n + freshness (替代 v2 cat dashboard-vitals.json | head)
 bash scripts/tools/consciousness-snapshot.sh 2>/dev/null
 
+# 過去 24hr cron routine 跑況 (Phase A2 / 取代 ROUTINE.md 649 行載入)
+bash scripts/tools/routine-status.sh 2>/dev/null
+
+# LESSONS / ARTICLE INBOX backlog signal (Phase A3 / 取代 LESSONS+ARTICLE INBOX 3000+ 行載入)
+bash scripts/tools/inbox-signal.sh 2>/dev/null
+
 # Cross-session diff context — 上次 session 後發生什麼
 git log --since="6 hours ago" --pretty=format:"%h %ai %s" | head -20
 ```
