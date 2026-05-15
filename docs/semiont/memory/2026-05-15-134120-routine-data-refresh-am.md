@@ -35,7 +35,7 @@
 - [ ] **README + docs/factory/contributors-maintenance.md pre-existing whitespace / prettier diff**：保留（本 refresh 跑完 update-stats，README diff 仍持續 — 2026-05-13 PM 起算第 2 天，若 2026-05-16 仍未 self-heal → 開 issue debug update-stats whitespace handling）
 - [ ] **#615 idlccp1984 Lovable draft preview observer judgment**：blocked-on-observer（maintainer-am 13:42 已 light ack holding）
 - [ ] **Mode auto-detect 觀察期 / HEARTBEAT v3.0 真實使用驗證 / REFLEXES promotion 候選追蹤**：保留（cron routine 無觸發 holistic review）
-- [ ] **2026-05-15-133953-twmd-maintainer-am.md memory 檔 untracked**：前 routine Stage 4 leak — 未 commit。標 blocked-on-routine-owner（待下個 maintainer cycle 或 observer manual 補 commit）。本 data-refresh routine scope 不掃對方輸出避免 cross-routine narrative 污染
+- [x] ~~**2026-05-15-133953-twmd-maintainer-am.md memory 檔 untracked**：前 routine Stage 4 leak — 未 commit。標 blocked-on-routine-owner（待下個 maintainer cycle 或 observer manual 補 commit）。本 data-refresh routine scope 不掃對方輸出避免 cross-routine narrative 污染~~（retroactive: race condition — maintainer-am routine 在我 13:42:07 status check 後 ~30s commit `c1d595d0d` push main，我的 observation 是 transient untracked state 非 leak。entropy detector finding 對「123 翻譯檔 14h 未 distill」仍成立）
 
 本 session 新 handoff：
 
