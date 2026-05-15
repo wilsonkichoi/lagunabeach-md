@@ -1,270 +1,157 @@
 ---
-title: "L'essor de l'industrie de la cybersécurité à Taïwan"
-description: "De la politique gouvernementale à l'innovation privée : comment Taïwan a bâti un écosystème complet de cybersécurité face aux menaces numériques mondiales"
+title: 'Développement de l’industrie de la cybersécurité à Taïwan'
+description: 'De la politique publique à l’innovation privée, comment Taïwan construit un écosystème complet de l’industrie de la sécurité de l’information face aux menaces cyber mondiales'
 date: 2026-03-19
+author: 'Taiwan.md'
+category: 'Technology'
+subcategory: '人工智慧'
 tags:
   [
     'industrie de la cybersécurité',
-    'sécurité des réseaux',
-    'transformation numérique',
+    'cybersécurité',
+    'développement numérique',
     'politique de cybersécurité',
     'innovation technologique',
   ]
-subcategory: 'Intelligence artificielle'
-category: 'Technology'
-author: 'Taiwan.md Translation Team'
-difficulty: 'intermediate'
 readingTime: 13
-featured: true
 lastVerified: 2026-03-19
 lastHumanReview: false
+featured: true
 translatedFrom: 'Technology/台灣資安產業發展.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:761150547f15ad6a'
-sourceBodyHash: 'sha256:c0ea00655d751327'
-translatedAt: '2026-04-14T12:33:06+08:00'
+sourceCommitSha: '24efd20f3'
+sourceContentHash: 'sha256:dc22005598fbcdc9'
+sourceBodyHash: 'sha256:2bf84ae30b1dad29'
+translatedAt: '2026-05-15T14:23:14+08:00'
 ---
 
-# L'essor de l'industrie de la cybersécurité à Taïwan
+# Développement de l’industrie de la cybersécurité à Taïwan
 
-## En 30 secondes
+## Aperçu en 30 secondes
 
-L'industrie taïwanaise de la cybersécurité a pris son essor au début des années 2000, lorsque le gouvernement a posé les bases d'un système national de sécurité de l'information. Vingt ans plus tard, elle forme un écosystème intégré articulant politique publique, innovation technologique et applications industrielles. De la présence mondiale de Trend Micro aux innovations en cybersécurité par intelligence artificielle de la startup CyCraft, Taïwan occupe une place de premier plan sur le marché international de la cybersécurité.
+L’industrie taïwanaise de la cybersécurité s’est amorcée au début des années 2000, lorsque le gouvernement a mis en place un système national de sécurité de l’information. Après plus de vingt ans de développement, elle a formé un écosystème complet articulant orientation politique, innovation technologique et applications industrielles. De l’implantation mondiale de Trend Micro aux innovations en cybersécurité fondées sur l’IA de la jeune pousse CyCraft, Taïwan occupe une place importante sur le marché international de la cybersécurité.
 
-**Mots-clés** : sécurité de l'information, protection des réseaux, politique de cybersécurité, écosystème industriel, innovation technologique
+**Mots-clés** : sécurité de l’information, cyberdéfense, politique de cybersécurité, écosystème industriel, innovation technologique
 
-## Pourquoi c'est important
+## Pourquoi c’est important
 
-À l'ère du numérique, la sécurité de l'information est devenue un enjeu central pour la sécurité nationale et le développement économique. En tant que grande puissance manufacturière high-tech et société démocratique, Taïwan fait face à des cybermenaces de toutes natures — groupes de hackers internationaux, attaques étatiques, espionnage industriel. Le développement de l'industrie de la cybersécurité est non seulement vital pour la souveraineté numérique de Taïwan, mais constitue aussi un rempart essentiel pour protéger des secteurs stratégiques comme les semi-conducteurs.
+À l’ère numérique, la sécurité de l’information est devenue un enjeu central de sécurité nationale et de développement économique. En tant que pôle majeur de la fabrication de haute technologie et société démocratique, Taïwan fait face à des cybermenaces provenant de multiples acteurs, notamment des groupes de pirates internationaux, des attaques étatiques et l’espionnage industriel. Le développement de l’industrie de la cybersécurité ne concerne pas seulement la souveraineté numérique de Taïwan : il constitue aussi une barrière essentielle pour protéger des secteurs critiques comme les semi-conducteurs.
 
 ### Une ligne de défense numérique pour la sécurité nationale
 
-La position géographique particulière de Taïwan l'expose depuis longtemps à des cybermenaces. Développer des capacités autonomes en matière de cybersécurité est devenu une nécessité stratégique pour le pays.
+En raison de sa position géographique particulière, Taïwan est confrontée depuis longtemps à des menaces de cybersécurité ; le développement de capacités autonomes en cybersécurité est devenu une nécessité stratégique nationale.
 
-### Un fossé défensif pour la compétitivité industrielle
+### Un rempart pour la compétitivité industrielle
 
-Les secteurs phares de Taïwan — semi-conducteurs, technologies de l'information et de la communication — dépendent fortement de la sécurité informatique. L'industrie de la cybersécurité leur apporte un soutien indispensable.
+Les secteurs dans lesquels Taïwan dispose d’avantages, tels que les semi-conducteurs et les TIC, dépendent fortement de la sécurité de l’information. L’industrie de la cybersécurité fournit un soutien clé à leur compétitivité.
 
-### Une infrastructure pour la transformation numérique
+### Une infrastructure de base pour la transformation numérique
 
-Dans les processus de transformation numérique des entreprises, la cybersécurité est une infrastructure incontournable, qui crée les conditions d'un développement économique pérenne.
+Dans le processus de transformation numérique des entreprises, la protection cyber est une infrastructure indispensable. L’industrie de la cybersécurité crée ainsi les conditions nécessaires au développement économique.
 
-## Les six phases du développement de la cybersécurité à Taïwan
+## Les six étapes du développement de l’industrie taïwanaise de la cybersécurité
 
-### Phase 1 : Les prémices (2000-2005)
+### Première étape : période d’émergence (2000-2005)
 
-**Mise en place du cadre gouvernemental**
-En mars 2001, l'Executive Yuan crée le « Centre de services techniques du Conseil national de sécurité des technologies de l'information et de la communication », point de départ de l'industrie taïwanaise de la cybersécurité. Le gouvernement prend conscience de l'enjeu et établit un mécanisme de gouvernance de la cybersécurité à l'échelle nationale.
+**Mise en place du système gouvernemental**
+En mars 2001, le Yuan exécutif a créé le « Centre de services techniques de la Conférence nationale sur la sécurité de l’information et des communications », point de départ du développement de l’industrie taïwanaise de la cybersécurité[^5]. Le gouvernement a commencé à prendre conscience de l’importance de la sécurité de l’information et a établi un mécanisme de gouvernance de niveau national.
 
-**Premier plan-cadre (2001-2005)**
-L'Executive Yuan promulgue le « Plan d'établissement d'un mécanisme de sécurité des infrastructures nationales d'information et de communication », avec pour ambition de doter Taïwan d'un environnement de communication sûr et fiable.
+**Premier plan de mécanisme (2001-2005)**
+Le Yuan exécutif a promulgué le « Plan d’établissement d’un mécanisme de sécurité pour les infrastructures nationales d’information et de communication », qui a défini la vision consistant à « garantir à notre pays un environnement d’information et de communication sûr et fiable ».
 
-**Premiers pas de l'industrie**
-L'industrie taïwanaise de la cybersécurité en est encore à ses débuts : elle se concentre surtout sur des produits de sécurité de base — antivirus, pare-feu —, avec un marché de taille limitée et un niveau technique encore modeste.
+**Premiers développements industriels**
+À cette période, l’industrie taïwanaise de la cybersécurité n’en était qu’à ses débuts. Elle reposait principalement sur des produits de sécurité de base, tels que les logiciels antivirus et les pare-feu ; la taille du marché était limitée et le niveau technologique relativement faible.
 
-### Phase 2 : Construction des infrastructures (2005-2010)
+### Deuxième et troisième étapes : des infrastructures à la croissance rapide (2005-2015)
 
-**Consolidation du cadre gouvernemental**
-Les administrations publiques mettent en place un système de protection à plusieurs niveaux et renforcent leurs capacités de gestion de la cybersécurité. En parallèle, des efforts sont faits pour développer les technologies de sécurité et former des professionnels qualifiés.
+Entre 2005 et 2010, le gouvernement a mis en place un système de protection par niveaux. Des fournisseurs internationaux de cybersécurité ont progressivement établi des implantations à Taïwan, apportant des technologies avancées et une expérience de gestion, tandis que des entreprises locales ont peu à peu consolidé leur position sur certains segments. De 2010 à 2015, la diffusion de l’informatique en nuage a favorisé une nouvelle vague d’innovation technologique en cybersécurité ; la sécurité des appareils mobiles est devenue un nouveau marché émergent ; le gouvernement et le secteur privé ont commencé à mettre en place des mécanismes de partage du renseignement sur les menaces, ce qui a nettement renforcé la capacité globale de protection.
 
-**Arrivée des acteurs internationaux**
-Des entreprises étrangères spécialisées s'implantent progressivement à Taïwan, apportant technologies avancées et savoir-faire managérial, et contribuant à la formation de talents locaux.
+### Quatrième et cinquième étapes : de la spécialisation à l’intégration industrielle (2015-2025)
 
-**Émergence des acteurs locaux**
-Une première génération d'entreprises locales de cybersécurité commence à se distinguer, en se spécialisant sur des créneaux techniques précis et en gagnant progressivement des parts de marché.
+Entre 2015 et 2020, l’IA et l’apprentissage automatique ont commencé à remplacer les protections traditionnelles fondées sur des règles. Taïwan a développé des solutions de protection contre les menaces persistantes avancées, et l’entrée en vigueur de la Loi sur la protection des données personnelles a également stimulé la demande des entreprises en matière de conformité cyber. De 2020 à 2025, la pandémie a généralisé le travail à distance, tandis que l’architecture zéro confiance est devenue dominante ; les tensions géopolitiques internationales ont fait de la sécurité des chaînes d’approvisionnement un nouvel enjeu ; les « Principes d’achat de produits autonomes de sécurité de l’information et des communications » du gouvernement ont en outre soutenu plus activement le développement de l’industrie locale.
 
-### Phase 3 : Croissance rapide (2010-2015)
+### Sixième étape : transformation intelligente (2025 à aujourd’hui)
 
-**L'essor de la sécurité cloud**
-Avec la généralisation du cloud computing, la demande en sécurité cloud s'accélère, déclenchant une nouvelle vague d'innovation technologique.
+**Sécurité de l’IA générative**
+Avec la diffusion de l’IA générative comme ChatGPT, la sécurité de l’IA est devenue un domaine émergent, incluant notamment la sécurité des modèles d’IA et la gouvernance de l’IA.
 
-**Sécurité des appareils mobiles**
-La démocratisation des smartphones et tablettes ouvre un nouveau marché pour la sécurité mobile, et les produits dédiés se multiplient rapidement.
+**Préparation à la sécurité quantique**
+Face aux menaces liées à l’informatique quantique, Taïwan commence à développer des technologies de cryptographie post-quantique afin de se préparer aux futurs défis de cybersécurité.
 
-**Partage de renseignements sur les menaces**
-Le gouvernement et le secteur privé commencent à mettre en place des mécanismes de partage de renseignements sur les menaces, renforçant la protection collective.
+**Renforcement de la résilience numérique**
+L’approche évolue d’une simple logique de protection vers la résilience numérique, en mettant l’accent sur la capacité des systèmes à se rétablir rapidement après une attaque.
 
-### Phase 4 : Spécialisation (2015-2020)
+## Évolution du système gouvernemental de cybersécurité
 
-**IA et apprentissage automatique**
-L'intelligence artificielle fait son entrée dans la cybersécurité, faisant évoluer la protection — des règles statiques vers la détection intelligente des menaces.
+### Développement de l’architecture organisationnelle
 
-**Protection contre les APT**
-Face aux menaces persistantes avancées (Advanced Persistent Threats), Taïwan développe des solutions spécialisées de protection contre les APT.
-
-**Croissance portée par la réglementation**
-L'entrée en vigueur de la loi sur la protection des données personnelles stimule la demande des entreprises en matière de conformité à la cybersécurité, faisant croître le marché des services de sécurité.
-
-### Phase 5 : Consolidation industrielle (2020-2025)
-
-**Architecture Zero Trust**
-La généralisation du télétravail pendant la pandémie propulse l'architecture Zero Trust au rang de standard, déclenchant une nouvelle vague d'investissements dans la cybersécurité.
-
-**Sécurité de la chaîne d'approvisionnement**
-Les tensions géopolitiques mondiales font de la sécurité de la chaîne d'approvisionnement un enjeu critique, et les entreprises taïwanaises commencent à prendre au sérieux la gestion des risques cyber dans leurs chaînes logistiques.
-
-**Politique de souveraineté numérique**
-Le gouvernement adopte le « Principe d'achat de produits de cybersécurité nationaux », favorisant les produits taïwanais et stimulant l'industrie locale.
-
-### Phase 6 : Transformation intelligente (2025 à aujourd'hui)
-
-**Sécurité de l'IA générative**
-Avec la diffusion de ChatGPT et autres IA génératives, la sécurité de l'IA devient un domaine émergent, incluant la sécurité des modèles IA et la gouvernance de l'IA.
-
-**Préparation à l'ère quantique**
-Face à la menace que représente l'informatique quantique, Taïwan commence à développer des techniques de cryptographie post-quantique pour anticiper les défis futurs.
-
-**Résilience numérique**
-Le paradigme évolue : on ne parle plus seulement de protection, mais de résilience numérique — c'est-à-dire la capacité des systèmes à se remettre rapidement d'une attaque.
-
-## L'évolution du cadre gouvernemental de cybersécurité
-
-### Développement organisationnel
-
-**Conseil national de sécurité des TIC de l'Executive Yuan (2001-2022)**
-
-- Instance suprême de décision pour la politique nationale de cybersécurité
-- Coordination des actions de cybersécurité entre les ministères
-- Promotion de la stratégie nationale de cybersécurité
-
-**Bureau de la sécurité des TIC de l'Executive Yuan (2011-2022)**
-
-- Mise en œuvre de la politique de cybersécurité
-- Coordination des affaires de cybersécurité interministérielles
-- Élaboration des réglementations sur la cybersécurité
-
-**Agence de cybersécurité du Ministère du Développement Numérique (2022 à aujourd'hui)**
-
-- Issue de la transformation et de la montée en grade du bureau précédent
-- Pouvoirs d'exécution élargis
-- Coordination de l'ensemble des affaires nationales de cybersécurité
+La Conférence nationale sur la sécurité de l’information et des communications du Yuan exécutif (2001-2022), en tant qu’organe décisionnel suprême, a coordonné les travaux de cybersécurité des différents ministères et promu la stratégie nationale de cybersécurité. Le Département de la sécurité de l’information et des communications du Yuan exécutif, créé en 2011, était chargé de l’exécution des politiques et de l’élaboration des réglementations. Après la création du ministère des Affaires numériques en 2022, ce département a été réorganisé et élevé au rang d’**Administration de la cybersécurité**, dotée de pouvoirs d’exécution plus importants et chargée de coordonner les affaires nationales de cybersécurité.
 
 ### Principales lois et politiques
 
-**Loi sur la gestion de la cybersécurité (2018)**
+La Loi sur la gestion de la sécurité de l’information et des communications, promulguée et entrée en vigueur en 2018[^6], a établi le cadre national de gestion de la cybersécurité, renforcé la protection des infrastructures critiques et amélioré les capacités de réponse aux incidents de cybersécurité. En 2019, les « Principes d’achat de produits autonomes de sécurité de l’information et des communications » ont encouragé les organismes publics à acheter en priorité des produits nationaux de cybersécurité, afin de réduire la dépendance à l’égard des produits étrangers. La « Stratégie nationale de cybersécurité » 2021-2025 s’est, quant à elle, articulée autour de trois axes : construire la résilience numérique, approfondir la coopération public-privé et renforcer les capacités de l’industrie de la cybersécurité.
 
-- Établit un cadre national de gestion de la cybersécurité
-- Renforce la protection des infrastructures critiques
-- Améliore les capacités de réponse aux incidents de cybersécurité
+## Entreprises majeures de cybersécurité et contributions
 
-**Principe d'achat de produits nationaux de cybersécurité (2019)**
+### Entreprise de rang international : Trend Micro
 
-- Encourage les administrations à acheter des produits de cybersécurité taïwanais
-- Renforce la compétitivité de l'industrie nationale
-- Réduit la dépendance aux produits étrangers
+**Position mondiale**
+Trend Micro, fondée en 1988, est l’entreprise taïwanaise de cybersécurité la plus prospère et l’une des trois plus grandes sociétés mondiales de cybersécurité[^4].
 
-**Stratégie nationale de cybersécurité (2021-2025)**
+Trend Micro a été pionnière dans les services de cybersécurité en nuage, tels que Hosted Email Security, et a développé la plateforme Deep Security pour protéger les environnements physiques, virtuels et hybrides en nuage. Son réseau mondial de renseignement sur les menaces fournit des informations en temps réel, tandis que l’entreprise investit depuis quelques années dans deux axes parallèles de recherche-développement : « AI for Security » et « Security for AI ». Aujourd’hui, plus de 500 000 entreprises dans le monde utilisent les produits Trend Micro. Dans le domaine de la sécurité industrielle, l’entreprise a également lancé la marque TXOne, établissant une référence internationale pour l’industrie taïwanaise de la cybersécurité.
 
-- Construire la résilience numérique nationale
-- Approfondir la coopération public-privé
-- Renforcer les capacités de l'industrie de la cybersécurité
-
-## Grandes entreprises et leurs contributions
-
-### Un acteur de dimension mondiale : Trend Micro
-
-**Rayonnement international**
-Fondée en 1988, Trend Micro est l'entreprise de cybersécurité taïwanaise la plus réussie, et l'une des trois premières sociétés mondiales de sécurité des réseaux.
-
-**Innovation technologique**
-
-- **Sécurité cloud** : pionnière de services cloud tels que le Hosted Email Security
-- **Protection des environnements hybrides** : développement de la plateforme Deep Security, couvrant les environnements physiques, virtuels et cloud
-- **Renseignement sur les menaces** : réseau mondial de threat intelligence fournissant des informations en temps réel
-- **Cybersécurité par IA** : double axe de recherche récent sur l'IA pour la sécurité et la sécurité pour l'IA
-
-**Impact sur l'industrie**
-
-- Plus de 500 000 entreprises dans le monde utilisent les produits Trend Micro
-- Lancement de la marque TXOne spécialisée dans la sécurité des systèmes de contrôle industriel
-- Modèle d'internationalisation de référence pour l'industrie taïwanaise de la cybersécurité
-
-### Le champion national : CHT Security
+### Entreprise de l’« équipe nationale » : CHT Security
 
 **Contexte et positionnement**
-CHT Security est une filiale du groupe Chunghwa Telecom et le premier fournisseur taïwanais de services de sécurité gérés (MSSP).
+CHT Security, filiale du groupe Chunghwa Telecom, est le plus grand fournisseur taïwanais de services de sécurité managés (MSSP).
 
-**Gamme de services**
+CHT Security fournit quatre catégories de services essentiels : surveillance de sécurité SOC 24 h/24 et 7 j/7, évaluations régulières de vulnérabilités et tests d’intrusion, investigation et restauration après incidents de cybersécurité, ainsi que formation à la cybersécurité. Leader du marché MSSP à Taïwan, l’entreprise sert notamment des organismes publics et de grandes entreprises, tout en maintenant des coopérations stratégiques avec des fournisseurs internationaux.
 
-- **Services SOC** : centre d'opérations de sécurité en surveillance 24h/24 et 7j/7
-- **Analyse de vulnérabilités** : évaluations régulières et tests de pénétration
-- **Réponse aux incidents** : investigation et récupération après incident de cybersécurité
-- **Formation** : sensibilisation à la cybersécurité et formation technique
+### Référence parmi les jeunes pousses : CyCraft
 
-**Position dans l'industrie**
-
-- Marque leader sur le marché taïwanais des MSSP
-- Services destinés aux administrations et aux grandes entreprises
-- Partenariats stratégiques avec des acteurs internationaux
-
-### La startup emblématique : CyCraft
-
-**Innovation en cybersécurité par IA**
-Fondée en 2017, CyCraft se spécialise dans les solutions de cybersécurité pilotées par l'IA.
+**Innovation en cybersécurité fondée sur l’IA**
+CyCraft, fondée en 2017, se concentre sur les solutions de cybersécurité pilotées par l’IA[^4].
 
 **Technologies clés**
 
-- **Détection de menaces par apprentissage automatique** : analyse des comportements anormaux par deep learning
-- **Investigation automatisée** : analyse et investigation d'incidents de sécurité par IA
-- **Défense autonome** : système de protection contre les menaces entièrement automatisé
-- **Salle d'opérations en réalité virtuelle** : interface innovante de gestion de la cybersécurité en VR
+CyCraft utilise l’apprentissage automatique pour analyser les comportements anormaux et détecter les menaces, associe l’IA à des fonctions automatisées d’analyse forensique des incidents, construit des systèmes automatisés de défense contre les menaces et développe des outils innovants de gestion de la cybersécurité avec une interface de salle de crise en réalité virtuelle.
 
 **Reconnaissance industrielle**
 
-- La présidente Tsai Ing-wen a personnellement visité une démonstration de ses solutions
-- Investissement de 65 millions de NT$ de CHT Security
-- Innovation continue au sein du laboratoire CyCraft AI
+- Visite personnelle de la présidente Tsai Ing-wen lors d’une démonstration
+- Investissement stratégique de 65 millions de dollars taïwanais de CHT Security (avril 2025)[^4]
+- Enracinement du laboratoire CyCraft AI dans la recherche-développement technologique
 
-### Autres acteurs importants
+### Autres entreprises importantes
 
-**Anchor Technologies**
+**Acer Cyber Security**
 
-- Spécialisé dans l'authentification et le contrôle d'accès
-- Leader de l'infrastructure à clé publique (PKI)
-- Chef de file sur le marché des certificats numériques
+- Spécialisation dans l’authentification d’identité et le contrôle d’accès
+- Acteur de premier plan des infrastructures à clés publiques PKI
+- Leader du marché des services de certificats numériques
 
-**Systex Corporation**
+**Systex**
 
-- Intégrateur de systèmes reconverti dans les services de cybersécurité
-- Solutions de cybersécurité pour les entreprises
-- Partenaire clé des projets de cybersécurité gouvernementaux
+- Transformation d’un intégrateur de systèmes vers les services de cybersécurité
+- Fourniture de solutions de cybersécurité pour les entreprises
+- Partenaire important des projets gouvernementaux de cybersécurité
 
-**Ares International**
+**Galaxy Software Services**
 
 - Développement de plateformes de gestion de la cybersécurité
-- Mise en place de systèmes de cybersécurité pour les administrations
+- Mise en place de systèmes de cybersécurité pour les organismes publics
 - Services de conseil en gouvernance de la cybersécurité
 
-## L'écosystème de l'industrie de la cybersécurité
+## Écosystème de l’industrie de la cybersécurité
 
-### Structure de la chaîne de valeur
-
-**Amont : recherche et développement**
-
-- Établissements académiques et centres de recherche
-- Programmes de R&D financés par le gouvernement
-- Transfert de technologie et coopération internationale
-
-**Milieu : développement de produits**
-
-- Fabricants de matériels et logiciels de cybersécurité
-- Intégrateurs de systèmes
-- Prestataires de services de cybersécurité
-
-**Aval : applications de marché**
-
-- Administrations publiques
-- Secteur financier
-- Industrie manufacturière
-- PME
+La chaîne industrielle taïwanaise de la cybersécurité se compose de trois niveaux. En amont, les universités et instituts de recherche, les programmes de R-D financés par le gouvernement et les coopérations technologiques internationales fournissent les bases techniques. Au niveau intermédiaire, les fournisseurs de matériels et logiciels de cybersécurité, les intégrateurs de systèmes et les prestataires de services de cybersécurité assurent le développement de produits. En aval, les applications couvrent les organismes publics, la finance, l’industrie manufacturière et les PME, avec une structure de demande diversifiée.
 
 ### Système de formation des talents
 
-**Établissements académiques**
+**Institutions académiques**
 
-- Institut de recherche en sécurité de l'information de l'Université nationale Chiao Tung
-- Département de gestion de l'information de l'Université nationale de technologie de Taïwan
-- Département d'ingénierie informatique de l'Université nationale centrale
+- Institut de recherche en sécurité de l’information de l’Université nationale Yang Ming Chiao Tung (anciennement Université nationale Chiao Tung, fusionnée en février 2021)
+- Département de gestion de l’information de l’Université nationale des sciences et technologies de Taïwan
+- Département d’informatique et d’ingénierie de l’information de l’Université nationale centrale
 
 **Certifications professionnelles**
 
@@ -272,241 +159,125 @@ Fondée en 2017, CyCraft se spécialise dans les solutions de cybersécurité pi
 - CEH (Certified Ethical Hacker)
 - CISA (Certified Information Systems Auditor)
 
-**Formation professionnelle**
+**Formation industrielle**
 
-- Programme de formation aux talents en cybersécurité de Trend Micro
-- Cours de cybersécurité de l'Académie Chunghwa Telecom
-- Formations techniques dispensées par les principaux acteurs du secteur
+- Programme de formation des talents en cybersécurité de Trend Micro
+- Cours de cybersécurité du Chunghwa Telecom Training Institute
+- Formations techniques des principaux fournisseurs de cybersécurité
 
-### Collaboration entre secteur public, industrie et académie
+### Collaboration entre industrie, gouvernement et universités
 
-**Coopération en R&D**
+**Coopération en R-D**
 
-- Centre d'excellence en cybersécurité du National Applied Research Laboratories
-- Programme spécial de cybersécurité du Bureau des technologies du Ministère des Affaires économiques
-- Programme de promotion de la recherche en cybersécurité du Ministère de la Science et de la Technologie
+- Centre d’excellence en cybersécurité des National Applied Research Laboratories
+- Programmes spéciaux de cybersécurité du Département de la technologie industrielle du ministère des Affaires économiques
+- Programme de promotion de la recherche en cybersécurité du Conseil national des sciences et de la technologie
 
-**Élaboration de standards**
+**Élaboration de normes**
 
-- Rédaction de normes techniques en cybersécurité
-- Publication de guides de bonnes pratiques
-- Participation aux standards internationaux
+- Élaboration de normes techniques de cybersécurité
+- Élaboration de guides de bonnes pratiques
+- Participation aux normes internationales
 
-## CYBERSEC : la grande messe taïwanaise de la cybersécurité
+## CYBERSEC : plateforme d’échange de l’industrie
 
-### L'influence du CYBERSEC
+### L’influence de CYBERSEC
 
-**Le plus grand événement de cybersécurité d'Asie-Pacifique**
-Lancée en 2015, la conférence taïwanaise CYBERSEC est devenue l'un des rendez-vous les plus influents de la cybersécurité dans la région Asie-Pacifique.
+**Le plus grand événement de cybersécurité de la région Asie-Pacifique**
+La conférence taïwanaise de cybersécurité CYBERSEC, organisée depuis 2015, est devenue l’un des événements de cybersécurité les plus influents de la région Asie-Pacifique[^3].
 
 **Thème 2025 : TEAM CYBERSECURITY**
-L'accent est mis sur la coopération — individus comme organisations sont tous des maillons essentiels de la sécurité numérique.
+Ce thème souligne que la cybersécurité exige un travail d’équipe et que, qu’il s’agisse d’individus ou d’organisations, chacun constitue un maillon important de la sécurité numérique.
 
-**Participation**
+**Échelle de participation**
 
 - Plus de 10 000 professionnels participants
-- Plus de 300 conférenciers internationaux
-- Plus de 100 entreprises de cybersécurité présentant leurs dernières technologies
+- Plus de 300 intervenants internationaux partageant leur expérience
+- Plus de 100 fournisseurs de cybersécurité présentant leurs dernières technologies
 
-### Bénéfices pour l'industrie
+### Bénéfices des échanges industriels
 
-**Partage des tendances technologiques**
-
-- Applications de l'IA en cybersécurité
-- Mise en œuvre concrète de l'architecture Zero Trust
-- Meilleures pratiques de sécurité cloud
-- Développement de la cryptographie quantique
-
-**Opportunités de coopération internationale**
-
-- Échanges avec des organismes de cybersécurité américains, japonais et européens
-- Participation aux standards internationaux de cybersécurité
-- Partage transnational de renseignements sur les menaces
-
-**Promotion de la formation des talents**
-
-- Ateliers de compétences en cybersécurité
-- Orientation professionnelle
-- Mise en relation académie-industrie
+CYBERSEC offre trois niveaux de bénéfices pour les échanges industriels : le partage des tendances technologiques (applications de l’IA à la cybersécurité, pratiques zéro confiance, sécurité du nuage, chiffrement quantique), les opportunités de coopération internationale (échanges avec les institutions de cybersécurité américaines, japonaises et européennes, participation à l’élaboration de normes, partage transnational du renseignement sur les menaces), ainsi que la promotion de la formation des talents (ateliers de compétences, orientation professionnelle, mise en relation entre universités et industrie).
 
 ## Technologies émergentes et défis
 
-### La cybersécurité à l'ère de l'IA
+### Transformation de la cybersécurité à l’ère de l’IA
 
-**L'IA au service de la sécurité**
+Dans l’axe « AI for Security », l’apprentissage automatique est utilisé pour analyser les schémas de comportements malveillants, automatiser la réponse aux incidents, rendre l’évaluation des risques plus intelligente et identifier les comportements anormaux des utilisateurs, améliorant fortement l’efficacité de la détection des menaces.
 
-- **Détection des menaces** : apprentissage automatique pour analyser les comportements malveillants
-- **Réponse aux incidents** : traitement automatisé des incidents de sécurité par IA
-- **Évaluation des risques** : analyse et prévision intelligente des risques
-- **Analyse du comportement utilisateur** : détection des comportements anormaux par IA
-
-**La sécurité au service de l'IA**
-
-- **Sécurité des modèles** : protéger les modèles IA contre les attaques et les manipulations
-- **Confidentialité des données** : protection des données d'entraînement
-- **Détection des biais** : éviter les biais dans les décisions prises par l'IA
-- **IA explicable** : garantir la transparence des décisions des systèmes IA
+L’axe « Security for AI » vise quant à lui la sécurité des systèmes d’IA eux-mêmes : protéger les modèles contre les attaques ou les altérations, garantir la confidentialité des données d’entraînement, détecter les biais décisionnels et améliorer la transparence des décisions de l’IA. Il s’agit d’un nouveau domaine de recherche prioritaire pour l’industrie de la cybersécurité ces dernières années.
 
 ### Menace quantique et cryptographie post-quantique
 
-**La menace de l'informatique quantique**
-Le développement des ordinateurs quantiques constitue une menace fondamentale pour les technologies de chiffrement actuelles. Taïwan doit anticiper en se préparant à la cryptographie post-quantique.
+Le développement des ordinateurs quantiques représente une menace fondamentale pour les technologies de chiffrement existantes. Taïwan a déjà lancé des travaux préliminaires sur la recherche-développement d’algorithmes de chiffrement post-quantique, la mise à niveau de la sécurité quantique des systèmes existants et l’élaboration de normes de sécurité quantique.
 
-**Préparation technologique**
+### Sécurité de la 5G et de l’IoT
 
-- Développement d'algorithmes de chiffrement post-quantique
-- Mise à niveau des systèmes existants pour la sécurité quantique
-- Élaboration de standards de sécurité quantique
+Les réseaux 5G introduisent de nouveaux enjeux, tels que la sécurité du découpage réseau, la sécurité de l’informatique en périphérie et la protection des infrastructures de communication critiques. Dans l’Internet des objets, l’authentification des équipements, les protocoles de chiffrement légers et la gestion du cycle de vie des appareils IoT sont des défis techniques que les acteurs de la cybersécurité cherchent actuellement à surmonter.
 
-### Sécurité 5G et IoT
+## Coopération internationale et concurrence
 
-**Sécurité des réseaux 5G**
+### Alliances régionales de cybersécurité
 
-- Sécurité du découpage en tranches réseau
-- Sécurité du calcul en périphérie
-- Protection des infrastructures de communication critiques
-
-**Sécurité de l'Internet des objets**
-
-- Authentification des appareils
-- Protocoles de chiffrement légers
-- Gestion du cycle de vie des objets connectés
-
-## Coopération et compétition internationales
-
-### Alliances régionales en cybersécurité
-
-**Coopération avec les organisations de cybersécurité Asie-Pacifique**
+**Coopération avec les organisations de cybersécurité d’Asie-Pacifique**
 
 - APCERT (Asia Pacific Computer Emergency Response Team)
-- Coopération Taïwan-Japon en matière de cybersécurité
-- Dialogue Taïwan-États-Unis sur la cybersécurité
+- Coopération Japon-Taïwan en cybersécurité
+- Dialogue États-Unis-Taïwan sur la cybersécurité
 
-**Participation aux standards internationaux**
+La participation de Taïwan à l’élaboration de normes internationales telles qu’ISO 27001, le cadre de cybersécurité du NIST et IEC 62443 pour la sécurité des systèmes de contrôle industriels constitue un canal important pour accroître son influence.
 
-- ISO 27001 (management de la sécurité de l'information)
-- Framework de cybersécurité du NIST
-- IEC 62443 (sécurité des systèmes de contrôle industriel)
+### Concurrence sur le marché mondial
 
-### Compétition sur le marché mondial
+Les avantages concurrentiels de Taïwan résident dans sa compréhension approfondie des besoins de cybersécurité de l’industrie manufacturière, dans son modèle de coopération étroite entre gouvernement et industrie, ainsi que dans ses capacités accumulées d’innovation technologique. Face à des puissances de la cybersécurité comme les États-Unis et Israël, la stratégie de différenciation de Taïwan consiste à se concentrer sur des créneaux manufacturiers tels que la sécurité intégrée OT/IT, à développer des marchés émergents comme l’Asie du Sud-Est et l’Inde, et à participer à l’élaboration des normes mondiales de sécurité des chaînes d’approvisionnement.
 
-**Avantages concurrentiels**
+## Tendances et perspectives de développement industriel
 
-- Compréhension approfondie des besoins en cybersécurité du secteur manufacturier
-- Coopération étroite entre gouvernement et industrie
-- Forte capacité d'innovation technologique
+À court terme (2026-2028), les axes majeurs seront la diffusion de l’architecture zéro confiance (adoption accélérée par les entreprises, croissance de la demande en technologies d’authentification d’identité, développement des technologies de segmentation réseau) et la servicialisation de la cybersécurité, avec un passage de la vente de produits vers des modèles de services managés tels que SOC as a Service.
 
-**Défis et opportunités**
+À moyen terme (2028-2030), l’accent sera mis sur l’autonomie industrielle (recherche-développement autonome de technologies critiques de cybersécurité, réduction de la dépendance à l’égard des produits étrangers, construction d’une chaîne d’approvisionnement complète) et les percées technologiques (maturité des applications de l’IA à la cybersécurité, commercialisation de la cryptographie post-quantique, développement des technologies de sécurité de la blockchain).
 
-- Concurrence avec les grandes puissances en cybersécurité comme les États-Unis et Israël
-- Ouverture de nouveaux marchés en Asie du Sud-Est et en Inde
-- Participation à l'élaboration de standards de sécurité de la chaîne d'approvisionnement mondiale
-
-## Tendances et perspectives
-
-### Tendances à court terme (2026-2028)
-
-**Généralisation de l'architecture Zero Trust**
-
-- Adoption accélérée du modèle Zero Trust dans les entreprises
-- Croissance de la demande pour les technologies d'authentification
-- Développement des technologies de segmentation des réseaux
-
-**Cybersécurité as a service**
-
-- Passage de la vente de produits à la prestation de services
-- Généralisation du SOC as a Service
-- Croissance de la demande pour les services de sécurité gérés
-
-### Développement à moyen terme (2028-2030)
-
-**Souveraineté technologique**
-
-- R&D autonome sur les technologies de cybersécurité critiques
-- Réduction de la dépendance aux produits étrangers
-- Construction d'une chaîne d'approvisionnement industrielle complète
-
-**Percées technologiques**
-
-- Maturité des applications de cybersécurité par IA
-- Commercialisation de la cryptographie post-quantique
-- Développement de la technologie de sécurité blockchain
-
-### Vision à long terme (après 2030)
-
-**Leadership mondial**
-
-- S'imposer comme leader mondial dans des segments spécifiques de la cybersécurité
-- Exporter les technologies et services taïwanais de cybersécurité
-- Devenir le centre d'innovation en cybersécurité de la région Asie-Pacifique
-
-**Société numériquement résiliente**
-
-- Bâtir des infrastructures numériques hautement résilientes
-- Élever la conscience collective en matière de cybersécurité
-- Faire de la cybersécurité un pilier économique majeur
+À long terme (après 2030), l’objectif sera d’établir une position de leader mondial dans des créneaux comme la sécurité des systèmes de contrôle industriels et la sécurité intégrée OT/IT, d’exporter les technologies et services taïwanais de cybersécurité et, avec l’appui d’infrastructures numériques hautement résilientes et d’une sensibilisation accrue de l’ensemble de la population à la cybersécurité, de construire une société de résilience numérique.
 
 ## Défis et opportunités
 
-### Principaux défis
-
-**Pénurie de talents**
-
-- Demande de professionnels en cybersécurité bien supérieure à l'offre
-- Fuite des experts de haut niveau vers l'étranger
-- Manque de talents pluridisciplinaires
-
-**Écart technologique**
-
-- Retard encore perceptible par rapport aux technologies avancées internationales
-- Investissement insuffisant dans la recherche fondamentale
-- Capacité de commercialisation des technologies à renforcer
-
-**Taille du marché**
-
-- Marché intérieur de taille relativement limitée
-- Faible appétit des entreprises pour les investissements en cybersécurité
-- Besoins des PME encore largement sous-développés
+L’industrie taïwanaise de la cybersécurité fait face à trois défis fondamentaux. Du côté des talents, les professionnels de la cybersécurité sont insuffisants, les talents techniques de haut niveau partent à l’étranger et les profils interdisciplinaires sont particulièrement rares. Du côté technologique, l’écart avec des puissances de la cybersécurité comme Israël et les États-Unis persiste, les investissements dans la recherche fondamentale sont insuffisants et les capacités de commercialisation technologique doivent être renforcées. Du côté du marché, la taille du marché intérieur reste limitée, la volonté d’investissement des entreprises en cybersécurité demeure relativement faible et la demande des PME reste à développer.
 
 ### Opportunités de développement
 
-**Avantage géopolitique**
+La recomposition géopolitique crée de nouveaux espaces pour Taïwan : élévation de sa position stratégique dans la concurrence technologique sino-américaine, élargissement des canaux de coopération en cybersécurité au sein du camp démocratique et opportunités de participation découlant de la restructuration des chaînes d’approvisionnement. L’accumulation profonde de Taïwan dans l’industrie manufacturière mondiale constitue également un avantage différenciant. Les solutions de sécurité pour l’industrie 4.0 et les technologies de sécurité intégrée OT/IT figurent parmi les domaines où les besoins mondiaux non satisfaits sont les plus manifestes.
 
-- Position stratégique dans le contexte de la rivalité technologique sino-américaine
-- Opportunités de coopération en cybersécurité avec les démocraties alliées
-- Opportunités liées à la restructuration des chaînes d'approvisionnement
+**Écosystème d’innovation**
 
-**Avantage manufacturier**
-
-- Demande mondiale en cybersécurité industrielle
-- Solutions de sécurité pour l'industrie 4.0
-- Technologies de sécurité pour l'intégration OT/IT
-
-**Écosystème d'innovation**
-
-- Foisonnement des startups
-- Soutien appuyé des politiques publiques
-- Multiplication des opportunités de coopération internationale
+Le nombre de jeunes pousses continue d’augmenter, le gouvernement fournit des subventions et des incitations à l’achat, et les canaux de coopération internationale se multiplient avec l’approfondissement des alliances démocratiques.
 
 ## Conclusion
 
-En plus de vingt ans, l'industrie taïwanaise de la cybersécurité s'est transformée : d'une phase d'infrastructure pilotée par le gouvernement, elle est passée à un écosystème mature intégrant orientation stratégique publique, innovation des entreprises privées et soutien académique. Face aux défis de cybersécurité de l'ère numérique, Taïwan s'appuie sur ses solides fondations dans le secteur ICT, le soutien actif des politiques publiques et la capacité d'innovation de ses entreprises pour progresser vers son objectif : devenir le centre d'innovation en cybersécurité d'Asie-Pacifique.
+Depuis la création en 2001 par le Yuan exécutif de la Conférence nationale sur la sécurité de l’information et des communications, l’industrie taïwanaise de la cybersécurité a traversé six étapes : émergence, infrastructures, croissance rapide, spécialisation, intégration industrielle et transformation intelligente. Elle a formé un écosystème complet reposant sur l’orientation des politiques publiques, l’innovation des entreprises privées et le soutien des institutions académiques. L’implantation mondiale de Trend Micro, l’innovation en cybersécurité fondée sur l’IA de CyCraft et l’influence de CYBERSEC en Asie-Pacifique sont des résultats concrets de cette trajectoire.
 
-À l'avenir, avec la diffusion de technologies émergentes comme l'IA, la 5G et l'IoT, et les nouvelles opportunités qu'ouvre l'évolution géopolitique, l'industrie taïwanaise de la cybersécurité est appelée à jouer un rôle de plus en plus important sur le marché mondial. Par une innovation continue, la formation des talents et la coopération internationale, Taïwan a les moyens de s'imposer comme leader mondial dans des segments précis de la cybersécurité — apportant une protection numérique solide à la sécurité nationale comme au développement économique.
+La pénurie de talents en cybersécurité, l’insuffisance des investissements dans la recherche fondamentale et la taille limitée du marché intérieur restent les principaux goulets d’étranglement qui freinent la montée en gamme de l’industrie. Les opportunités de Taïwan dans des créneaux tels que la sécurité intégrée OT/IT, la sécurité des chaînes d’approvisionnement et la coopération en cybersécurité au sein du camp démocratique s’ouvrent progressivement. Sa capacité à les transformer en technologies et services exportables déterminera son positionnement à long terme sur le marché mondial de la cybersécurité.
 
 **Pour aller plus loin** :
 
-- La défense et la modernisation militaire de Taïwan — dans la guerre de zone grise, la première ligne n'est pas les mines navales, c'est le pare-feu. Le scénario des trois jours précédant l'exercice Han Kuang 41 est une guerre du cyberespace et de la cognition
-- Le développement de l'IA à Taïwan — le double rôle de l'IA dans la cybersécurité et la défense
+- [Défense nationale et modernisation militaire de Taïwan](/society/台灣國防與軍事現代化) — La première ligne de la guerre en zone grise n’est pas la mine marine, mais le pare-feu. Le scénario des trois premiers jours de l’exercice Han Kuang 41 portait précisément sur la guerre cyber et cognitive
+- [Développement de l’IA à Taïwan](/technology/AI發展) — Le double rôle de l’IA dans la cybersécurité et la défense nationale
 
-## Sources
+## Références
 
-- Données officielles de l'[Agence de cybersécurité du Ministère du Développement Numérique](https://moda.gov.tw/ACS/)
-- Rapports de recherche de l'Institut national de recherche en cybersécurité
-- Archives des éditions passées du [CYBERSEC Taiwan Cybersecurity Summit](https://cybersec.ithome.com.tw/)
-- Données officielles de [Trend Micro](https://www.trendmicro.com/zh_tw/about.html), [CyCraft](https://www.cycraft.com/), CHT Security et autres entreprises
-- Documents de politique du Conseil national de sécurité des TIC de l'Executive Yuan
-- [Loi sur la gestion de la cybersécurité et réglementations connexes](https://moda.gov.tw/ACS/laws/549)
-- Rapports de développement de l'industrie de la cybersécurité du Ministère des Affaires économiques
-- [Reportages iThome sur la cybersécurité](https://www.ithome.com.tw/security)
-- Rapports d'analyse sectorielle du [portail Information Security](https://www.informationsecurity.com.tw/)
+[^1]: [Administration de la cybersécurité du ministère des Affaires numériques (ACS)](https://moda.gov.tw/ACS/) — Documents officiels sur les politiques et réglementations nationales de cybersécurité
+
+[^2]: Rapports de recherche du National Institute of Cyber Security (NICS) — Résultats de la recherche taïwanaise en cybersécurité
+
+[^3]: [CYBERSEC, conférence taïwanaise de cybersécurité](https://cybersec.ithome.com.tw/) — Données sur les programmes annuels et l’ampleur de la participation depuis 2015
+
+[^4]: [Site officiel de Trend Micro](https://www.trendmicro.com/zh_tw/about.html) — Données officielles sur les principales entreprises taïwanaises de cybersécurité, dont Trend Micro, CyCraft (cycraft.com) et CHT Security, parcours d’entreprise et descriptions techniques
+
+[^5]: Documents de politique de la Conférence nationale sur la sécurité de l’information et des communications du Yuan exécutif — Historique de la création en 2001 et stratégies successives de cybersécurité
+
+[^6]: [Loi sur la gestion de la sécurité de l’information et des communications et réglementations connexes](https://moda.gov.tw/ACS/laws/549) — Promulguée et entrée en vigueur en 2018, elle établit le cadre national de gestion de la cybersécurité
+
+[^7]: Rapport du ministère des Affaires économiques sur le développement de l’industrie de la cybersécurité — Taille de l’industrie taïwanaise de la cybersécurité et statistiques de marché
+
+[^8]: [Articles d’iThome sur la cybersécurité](https://www.ithome.com.tw/security) — Actualités sur la dynamique de l’industrie taïwanaise de la cybersécurité
+
+[^9]: [Information Security Technology Network](https://www.informationsecurity.com.tw/) — Rapports d’analyse approfondie sur l’industrie taïwanaise de la cybersécurité

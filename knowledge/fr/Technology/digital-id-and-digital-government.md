@@ -1,159 +1,172 @@
 ---
-title: "a carte d'identité numérique et le gouvernement électronique à Taïwa"
-description: "omment Taïwan a dépensé 48 milliards de NT$ pour une carte à puce jamais distribuée — et ce que cela révèle sur la confiance, la démocratie numérique et la gouvernance à l'ère des données"
-date: 2024-01-01
+title: "Carte d'identité numérique et gouvernement numérique"
+description: "Une carte à puce qui n'a jamais été émise a coûté 280 millions de dollars taïwanais d'indemnités — l'histoire du gouvernement numérique taïwanais est la preuve que la confiance est plus difficile à bâtir que la technologie"
+date: 2026-03-18
+author: 'Taiwan.md'
 category: 'Technology'
+subcategory: '開源社群'
 tags:
   [
-    'identité numérique',
+    'gouvernement numérique',
+    "carte d'identité numérique",
     'gouvernement électronique',
-    'démocratie numérique',
-    'données personnelles',
-    'vie privée',
-    'participation citoyenne',
-    'Audrey Tang',
+    'ministère du Développement numérique',
+    'g0v',
+    'cybersécurité',
+    'protection des données personnelles',
   ]
-subcategory: 'Gouvernance numérique'
-author: 'Taiwan.md'
-featured: false
+readingTime: 12
+lastVerified: 2026-03-24
+lastHumanReview: false
+featured: true
 translatedFrom: 'Technology/數位身分證與數位政府.md'
-lastVerified: 2024-01-01
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:29bb34fbe5bc3139'
-sourceBodyHash: 'sha256:421fd13a4ac20718'
-translatedAt: '2026-05-13T01:08:41Z'
+sourceCommitSha: '24efd20f3'
+sourceContentHash: 'sha256:06fbc10ed01b5aa5'
+sourceBodyHash: 'sha256:f5b7d5b360840e4c'
+translatedAt: '2026-05-15T14:23:14+08:00'
 ---
 
-# La carte d'identité numérique et le gouvernement électronique à Taïwan
+# Carte d'identité numérique et gouvernement numérique
 
-> **En 30 secondes :** En janvier 2021, une carte à puce qui n'avait jamais été distribuée a coûté au gouvernement taïwanais environ 280 millions de NT$ en indemnités. Le projet New eID devait permettre à 23 millions de personnes de « tout gérer avec une seule carte », mais il a été suspendu après que plus de 2 000 chercheurs ont signé une pétition contre lui. L'ironie ? La même année où la carte numérique s'enlisait, la communauté de hackers civiques taïwanais créait en quelques jours la carte des masques — un service gouvernemental numérique que personne n'était forcé d'utiliser, mais que tout le monde s'arrachait. La vraie histoire de la gouvernance numérique à Taïwan, ce n'est pas une question de niveau technologique, c'est une question de confiance.
+> **En 30 secondes :** En janvier 2021, une carte d'identité à puce qui n'avait jamais été émise a coûté au gouvernement taïwanais environ 280 millions de dollars taïwanais en indemnités. Ce projet, baptisé New eID, devait permettre aux 23 millions d'habitants de « tout faire avec une seule carte », mais a été suspendu après une pétition signée par plus de 2 000 universitaires. Ironiquement, la même année où la carte d'identité numérique était mise en suspens, la communauté taïwanaise de hackers citoyens a créé en quelques jours une carte des masques — un service de gouvernement numérique que personne n'était obligé d'utiliser, mais que tout le monde s'est arraché. La véritable histoire de la gouvernance numérique à Taïwan n'est pas celle d'une technologie plus ou moins avancée, mais celle de la construction de la confiance.
 
 ---
 
-## Une carte qui a déclenché une crise de confiance
+## Une carte qui a provoqué une crise de confiance
 
-En juin 2019, le Premier ministre Su Tseng-chang publie une vidéo promotionnelle sur Facebook pour annoncer le remplacement généralisé des cartes d'identité par une version numérique à puce. « Avant, on disait que le lettré, sans sortir de chez lui, connaissait les affaires du monde. Demain, il pourra les gérer depuis chez lui », déclare-t-il. Le secrétaire général du Yuan exécutif, Li Meng-yan, ajoute : « 128 pays ont déjà adopté la carte d'identité numérique à puce. Taïwan doit se dépêcher de rattraper son retard. » (Source : rapport d'enquête de The Reporter, 2021)
+En juin 2019, le Premier ministre Su Tseng-chang a publié une vidéo promotionnelle sur Facebook pour vanter le remplacement imminent de la carte d'identité par une version numérique. Il a déclaré : « Autrefois, on disait "le lettré sort de chez lui et sait tout ce qui se passe dans le monde" ; à l'avenir, ce sera "le lettré sort de chez lui et peut tout gérer dans le monde". » Le secrétaire général du Yuan exécutif, Li Meng-yueh, a ajouté : « 128 pays dans le monde utilisent déjà une carte d'identité numérique à puce. Taïwan doit se rattraper et suivre la tendance mondiale. » (d'après une enquête du _Reporter_ en 2021)
 
-Le gouvernement n'avait pas prévu ce qui allait suivre : non pas des applaudissements, mais une vague d'opposition.
+Le Yuan exécutif ne s'attendait pas à ce qui l'attendait : non pas des applaudissements, mais une vague après l'autre d'opposition.
 
-L'Association pour les droits humains à Taïwan et l'Open Culture Foundation lancent une pétition. La Foundation for Judicial Reform dépose un recours administratif contre le gouvernement. L'Academia Sinica organise un colloque de deux jours et publie un livre blanc recommandant de suspendre le projet. En novembre 2020, le Yuan législatif gèle les 400 millions de NT$ budgétés pour le remplacement des cartes. Le 21 janvier 2021, le Premier ministre Su Tseng-chang tranche : le projet New eID, doté d'un budget total de plus de 4,8 milliards de NT$, est officiellement suspendu.
+La Taiwan Association for Human Rights et l'Open Culture Foundation ont lancé une pétition, la Judicial Reform Foundation a intenté un procès administratif contre le gouvernement, et l'Academia Sinica a organisé un séminaire de deux jours avant de publier un livre blanc recommandant la suspension du projet. En novembre 2020, le Yuan législatif a directement gelé un budget de 400 millions de dollars taïwanais prévu pour le remplacement des cartes d'identité. Le 21 janvier 2021, le Premier ministre Su Tseng-chang a tranché : le projet de remplacement de la carte d'identité numérique, dont le budget dépassait les 4,8 milliards de dollars taïwanais (incluant le contrat de fabrication de cartes de 3,29 milliards de dollars taïwanais et plusieurs autres marchés publics, les chiffres totaux variant selon les sources[^1]), était suspendu.
 
 > 📝 **Note du curateur**
-> Un projet gouvernemental démocratique à 4,8 milliards, bloqué par sa propre société civile. C'est rare à l'échelle mondiale. Dans la plupart des pays, la carte d'identité numérique s'impose selon le schéma « le gouvernement décide, les citoyens acceptent » — le système Aadhaar en Inde a enrôlé 1,2 milliard de personnes, les controverses n'ont jamais cessé, mais la carte a quand même été distribuée. Le New eID de Taïwan reste suspendu à ce jour.
+> Un gouvernement démocratique a investi 4,8 millians de dollars taïwanais dans un projet que sa propre société civile a réussi à bloquer. C'est rare à l'échelle mondiale. Dans la plupart des pays, la carte d'identité numérique suit le schéma « le gouvernement décide, le peuple accepte » ; le système Aadhaar en Inde a enregistré 1,2 milliard de personnes, les controverses n'ont jamais cessé, mais les cartes ont quand même été émises. Le New eID taïwanais reste à ce jour sur la liste des projets suspendus.
 
 ---
 
-## Les cartes étaient déjà imprimées quand on a demandé l'avis des experts
+## Les cartes étaient déjà imprimées avant de consulter les experts
 
-L'échec de cette carte n'est pas un problème technique — c'est un problème de méthode.
+L'échec de ce projet n'était pas un problème technique, c'était un problème de processus.
 
-Le projet s'articulait autour de quatre appels d'offres : la planification a été attribuée à Guojü Management Consulting, la fabrication des cartes (32,9 milliards de NT$) à Teco Electric and Machinery, le système (après plusieurs appels infructueux) à Chunghwa Telecom, et la vérification à Diti Information. Le problème : dès le début 2020, alors que les détails n'avaient pas encore été rendus publics, trois des quatre marchés étaient déjà attribués.
+Le projet de carte d'identité numérique était divisé en quatre marchés publics : le contrat d'étude a été remporté par Giau Jyu Management Consultants, le contrat de fabrication de cartes de 3,29 milliards de dollars taïwanais par TECO Electric & Machinery, le contrat de système, après plusieurs appels d'offres infructueux, par Chunghwa Telecom, et le contrat de vérification par DTC Information. Le problème : début 2020, alors que les détails n'avaient pas encore été rendus publics, les trois derniers marchés avaient déjà été attribués.
 
-Un membre du groupe de travail du ministère de l'Intérieur a confié à The Reporter : « Les appels d'offres pour les cartes avaient déjà été conclus quand on nous a demandé si nous avions des remarques sur le cahier des charges. L'Imprimerie nationale avait déjà tout finalisé quand on nous a soumis la planification globale. » Il ajoute : « Beaucoup considéraient que le comité de pilotage n'était qu'un tampon en caoutchouc. » (Source : The Reporter, 2021)
+Un membre du groupe de travail du ministère de l'Intérieur a déclaré au _Reporter_ : « Le marché de fabrication des cartes avait déjà été attribué, et c'est seulement après qu'on nous a demandé si nous avions des remarques sur le cahier des charges. L'Imprimerie centrale avait déjà terminé son travail quand on nous a consultés sur la planification globale. » Il a ajouté : « Beaucoup de gens pensaient que le comité de promotion n'était qu'un tampon caoutchouc. » (d'après une enquête du _Reporter_ en 2021)
 
-Certains membres ont finalement exprimé publiquement leur opposition, d'autres ont tout simplement cessé d'assister aux réunions suivantes.
+Certains membres se sont par la suite ouvertement opposés au projet, d'autres ont tout simplement refusé d'assister aux réunions suivantes.
 
-Ce n'est pas la première fois que Taïwan bute sur ce genre de problème. En 1998, le gouvernement Kuomintang avait tenté de lancer la « carte nationale » — un projet qui entendait regrouper carte d'identité, carte d'assurance maladie et empreintes digitales sur une seule puce. L'initiative avait été abandonnée sous la pression des chercheurs et des groupes citoyens. Vingt ans plus tard, le problème avait changé de visage, mais la contradiction fondamentale, elle, n'avait pas bougé.
+Ce n'est pas la première fois que Taïwan échoue sur le sujet de la carte d'identité à puce. En 1998, le gouvernement du Kuomintang avait promu la « carte nationale », un projet visant à regrouper la carte d'identité, la carte d'assurance maladie et les données d'empreintes digitales sur une seule carte à puce. Ce projet avait avorté face aux protestations des universitaires et de la société civile. Vingt ans plus tard, le problème avait changé de visage, mais la contradiction de fond restait la même.
 
 ---
 
-## « La carte d'identité numérique peut être la fondation d'un gouvernement intelligent — ou l'infrastructure d'un régime autoritaire »
+## « La carte d'identité numérique peut être le fondement d'un gouvernement intelligent, ou l'infrastructure d'un gouvernement autoritaire »
 
-Chiu Wen-tsong, chercheur à l'Institut de droit de l'Academia Sinica, est l'une des voix académiques les plus importantes sur les questions d'identité numérique à Taïwan. Dans un entretien accordé à l'Academia Sinica, il explique le fond du problème :
+Qiu Wencong, chercheur à l'Institut de droit de l'Academia Sinica, est l'une des voix académiques les plus importantes sur la question de l'identité numérique à Taïwan. Dans une interview à l'Academia Sinica, il a expliqué le fond du problème :
 
-« Le problème majeur, c'est celui des traces numériques. Un document papier, une fois consulté sur place, ne laisse aucune donnée si on n'en recopie pas le contenu. En revanche, dans un environnement numérique, tout usage laisse nécessairement une trace. Lorsque ces traces s'accumulent au fil de l'utilisation quotidienne de la carte d'identité, le pire scénario est l'émergence d'un mécanisme de surveillance similaire au système de crédit social en vigueur de l'autre côté du détroit. » (Source : entretien avec l'Institut de droit de l'Academia Sinica)
+« La raison principale est celle de l'empreinte numérique. Un document papier, une fois consulté sur place, ne laisse aucune trace à moins que son contenu ne soit recopié séparément. Mais dans un environnement numérique, chaque utilisation génère nécessairement un journal d'activité. Lorsque l'empreinte numérique s'accumule au fil de l'utilisation quotidienne de la carte d'identité, le pire scénario est l'émergence d'un mécanisme de surveillance semblable au système de notation sociale de l'autre côté du détroit. » (d'après l'interview de l'Institut de droit de l'Academia Sinica)
 
-L'avocat Lin Yu-teng, qui a assisté la Foundation for Judicial Reform dans son recours, est encore plus direct : « La carte d'identité numérique peut être la fondation d'un gouvernement intelligent — ou l'infrastructure d'un régime autoritaire. La différence entre les deux, c'est l'importance des mécanismes de responsabilisation. » (Source : The Reporter, 2021)
+L'avocat Lin Yuteng, qui a assisté la Judicial Reform Foundation dans son procès, a été encore plus direct : « La carte d'identité numérique peut être le fondement d'un gouvernement intelligent, ou l'infrastructure d'un gouvernement autoritaire. Entre le bien et le mal, c'est la question du système de responsabilité. » (d'après une enquête du _Reporter_ en 2021)
 
 > 📝 **Note du curateur**
-> Cette déclaration résume l'essentiel du débat. Taïwan n'a quitté l'autoritarisme qu'il y a quarante ans à peine. La sensibilité face à l'idée que « l'État connaît tous vos déplacements » y est bien plus vive que dans la plupart des pays. Ce n'est pas de la paranoïa — début 2020, plus de 20 millions de données du registre de la population ont été retrouvées en vente sur le dark web, et la réponse du ministère de l'Intérieur a été de nier que ces données provenaient du gouvernement. Chiu Wen-tsong souligne : « La démocratie, c'est l'alternance politique. Même si le gouvernement actuel n'envisage pas la surveillance d'État, rien ne garantit que des dirigeants favorables à une telle surveillance n'arriveront pas au pouvoir un jour. »
+> Cette citation est le cœur de toute la controverse. Taïwan n'a achevé sa transition démocratique que depuis 40 ans, et la sensibilité à l'idée que « l'État connaît tous vos déplacements » est plus élevée que dans la plupart des pays. Ce n'est pas de la paranoïa : début 2020, plus de 20 millions de données du registre d'état civil ont été découvertes en vente sur le dark web, le ministère de l'Intérieur ayant nié que les données proviennent du gouvernement. Qiu Wencong a souligné : « La caractéristique d'une société démocratique est l'alternance politique. Même si le gouvernement actuel ne pratique pas la surveillance étatique, vous ne pouvez pas garantir qu'un jour, un homme politique prônant la surveillance de l'État ne prendra pas le pouvoir. »
 
 ---
 
-## L'Estonie a réussi — mais Taïwan en a retenu les mauvaises leçons
+## L'Estonie a réussi, mais Taïwan n'a pas appris les bonnes leçons
 
-Pour promouvoir le New eID, le ministère de l'Intérieur aimait citer l'Estonie en exemple de réussite. Ce petit pays balte de 1,32 million d'habitants a construit ce que la Banque mondiale qualifie de « système de carte d'identité numérique le plus abouti au monde ». 99 % des services publics peuvent y être accomplis en ligne. Le pays a même sauvegardé ses « données gouvernementales » à l'étranger — si le pays était envahi, le gouvernement pourrait continuer à fonctionner dans le cloud.
+Lors de la promotion du New eID, le ministère de l'Intérieur citait le plus souvent l'Estonie comme exemple de réussite. Ce petit pays balte de seulement 1,32 million d'habitants a mis en place ce que la Banque mondiale considère comme « le système de carte d'identité numérique le plus performant au monde ». 99 % des services gouvernementaux peuvent être accomplis en ligne. Ils ont même mis en place une sauvegarde à distance de leurs « données gouvernementales » : en cas d'invasion du pays, le gouvernement pourrait continuer à fonctionner depuis le cloud.
 
 > **🔢 Les chiffres parlent**
 >
-> - Estonie : taux d'adoption de la carte d'identité numérique **97 %**, participation numérique citoyenne **première mondiale** (classement ONU)
-> - Certificat électronique personnel taïwanais (émis en 2003) : avant la suspension du projet, le taux d'utilisation effective est resté faible, concentré principalement sur la période de déclaration fiscale
+> - Estonie : taux de pénétration de la carte d'identité numérique **97 %**, taux de participation numérique des citoyens **premier mondial** (classement des Nations Unies)
+> - Certificat citoyen naturel de Taïwan (émis en 2003) : jusqu'à la suspension, le taux d'utilisation réel est resté faible, principalement concentré sur la saison des déclarations fiscales
 
-Mais Chiu Wen-tsong souligne que Taïwan n'a retenu que la surface technologique du modèle estonien, sans assimiler les fondations institutionnelles qui le soutiennent. L'Estonie dispose d'une législation spécifique qui encadre strictement l'usage de la carte d'identité. Plus important encore : chaque citoyen peut consulter à tout moment l'historique complet de « qui a accédé à ses données, quand et pourquoi », et peut porter plainte immédiatement en cas d'anomalie. Lors d'une fuite massive de données gouvernementales en 2007, le gouvernement estonien a reconnu publiquement l'incident dès le premier jour et a renouvelé les numéros d'identité de tous les citoyens.
+Mais Qiu Wencong a souligné que Taïwan n'avait retenu de l'Estonie que l'enveloppe technique, sans comprendre le tissu institutionnel sous-jacent. L'Estonie dispose d'une loi spécifique réglementant strictement l'utilisation de la carte d'identité, et surtout — chaque citoyen peut à tout moment consulter « qui, quand et pourquoi a consulté mes données », et poursuivre en justice en cas d'anomalie. En 2007, lorsqu'une fuite massive de données gouvernementales s'est produite en Estonie, le gouvernement a immédiatement reconnu publiquement l'incident et a procédé au remplacement de tous les numéros d'identité nationaux.
 
-En 2019, le ministère de l'Intérieur taïwanais est revenu d'une visite d'étude en Estonie avec cette conclusion dans son rapport : « Le gouvernement doit conduire ce projet avec le plus grand sérieux, la prudence la plus rigoureuse, et, si une erreur venait à se produire malgré tout, avoir le courage de la reconnaître. » Puis il est rentré à Taïwan et a fait presque exactement le contraire.
-
----
-
-## La carte des masques : une autre vision du gouvernement numérique
-
-Le New eID s'est enlisé, mais la gouvernance numérique taïwanaise n'est pas pour autant un désert. En réalité, ce qui illustre le mieux l'esprit du gouvernement numérique à Taïwan n'est pas le New eID, projet descendant, mais g0v (gov-zero), la communauté de gouvernement civique, ascendante.
-
-En février 2020, au début de l'épidémie de COVID-19, Taïwan a instauré un système de distribution nominative de masques. Mais les habitants ne savaient pas quelles pharmacies en avaient encore en stock. Wu Zhan-wei, cofondateur du Hao Xiang Studio de Tainan, a été le premier à créer un prototype de carte indiquant les stocks de masques dans les épiceries. Audrey Tang, alors ministre sans portefeuille, a découvert ce prototype et a contacté Wu Zhan-wei immédiatement, coordonnant en quelques jours la publication par le gouvernement d'une API en temps réel sur les stocks de masques.
-
-> « Audrey Tang avait le pouvoir de décision et savait coder elle-même, alors on n'avait pas besoin de monter à Taipei faire un rapport à un responsable quelconque — les développeurs n'avaient qu'à développer. » — Wu Zhan-wei (Source : TechNews, 2020)
-
-Des milliers de hackers civiques ont rejoint le hackathon en ligne. Selon NPR, six jours après la publication de la première version de la carte par Wu Zhan-wei, tous les habitants de Taïwan pouvaient consulter en temps réel les stocks de masques dans chaque pharmacie. Des développeurs coréens et japonais ont ensuite cherché à reproduire le modèle taïwanais — mais la plupart sont arrivés à la même conclusion : l'expérience taïwanaise est difficile à reproduire.
-
-Cette histoire ne dit pas seulement quelque chose sur la technologie. La comparaison entre le New eID et la carte des masques met en lumière le paradoxe central du gouvernement numérique : **les services numériques les plus réussis d'un gouvernement ne sont souvent pas ceux que le gouvernement a lui-même conçus.**
+En 2019, après une visite en Estonie, le ministère de l'Intérieur a écrit dans son rapport : « Le gouvernement doit promouvoir ce projet avec la plus grande prudence et la plus grande rigueur, mais en cas d'imprévu, le gouvernement doit avoir le courage de reconnaître ses erreurs. » Puis, de retour à Taïwan, il a fait pratiquement tout le contraire.
 
 ---
 
-## De ministre sans portefeuille au ministère du Numérique
+## La carte des masques : une autre voie pour le gouvernement numérique
 
-Le rôle joué par Audrey Tang dans l'histoire de la carte des masques — non pas comme commandante, mais comme pont — s'est prolongé dans ses nouvelles fonctions. Le 27 août 2022, le ministère du Numérique (moda) de Taïwan a officiellement été créé, avec Audrey Tang comme première ministre. Lors de la cérémonie d'inauguration, elle a déclaré que « moda » se prononce comme « moteur » en taïwanais, exprimant l'ambition que ce ministère devienne le moteur du développement numérique du pays.
+La carte d'identité numérique a été mise en suspens, mais la gouvernance numérique taïwanaise n'est pas un désert. En fait, ce qui représente le mieux l'esprit du gouvernement numérique taïwan n'est pas le New eID descendant d'en haut, mais g0v (« gov zero »), le mouvement ascendant.
 
-La création du ministère du Numérique est elle-même en partie une conséquence de l'échec du New eID. Lors de la suspension du projet, le ministre de l'Intérieur Hsu Kuo-yung avait reconnu que « l'autorité de tutelle de la future carte d'identité numérique, et la nécessité ou non de créer un nouvel organisme dédié, restaient sans réponse ». Deux ans plus tard, la réponse est venue : le ministère du Numérique a hérité de toute cette problématique.
+En février 2020, au début de la pandémie de COVID-19, Taïwan a mis en place un système de rationnement des masques, mais les citoyens ne savaient pas quelles pharmacies avaient encore des masques en stock. Wu Zhanwei, fondateur du studio Tainan Haoxiang, a été le premier à créer un prototype de carte des masques pour les supérettes. [Audrey Tang](/fr/People/audrey-tang/), alors ministre sans portefeuille, l'a immédiatement contacté et a coordonné en quelques jours la publication par le gouvernement d'une API ouverte donnant accès aux stocks de masques en temps réel.
 
-Mais les défis restent immenses. Un hacker éthique se faisant appeler Howard a pointé dans une interview avec The Reporter une faille structurelle : « Le problème fondamental du gouvernement, c'est que les agents responsables ne comprennent pas la technique, ce qui rend impossible toute gestion réelle de la cybersécurité. Que ce soit dans la rédaction des cahiers des charges de sous-traitance ou lors des recettes, personne n'est capable de vérifier si des failles de sécurité existent. » Un audit de cybersécurité mené en 2019 par le Yuan exécutif sur dix organismes publics a obtenu une moyenne générale de seulement 69,3 points, six d'entre eux ayant échoué aux tests techniques. Les postes à temps plein dédiés à la cybersécurité dans les administrations présentaient un taux de vacance de 60 %, soit plus de mille postes non pourvus. (Source : The Reporter, 2021)
+> « Audrey Tang avait le pouvoir de décision et savait elle-même coder, donc nous n'avions pas besoin de monter à la capitale pour rendre compte à tel ou tel responsable — les développeurs pouvaient se concentrer sur le développement. » — Wu Zhanwei (d'après un reportage de TechNews en 2020)
+
+Des milliers de hackers citoyens ont rejoint le hackathon en ligne. Selon un reportage de NPR[^6], dans les six jours suivant le lancement de la première version de la carte par Wu Zhanwei, toute la population taïwanaise pouvait consulter en temps réel les stocks de masques de chaque pharmacie. Les développeurs sud-coréens et japonais ont par la suite imité le modèle taïwanais, mais la plupart ont conclu que l'expérience taïwanais était difficile à reproduire.
+
+La leçon de cette histoire ne se limite pas à la technologie. La comparaison entre la carte d'identité numérique et la carte des masques révèle le paradoxe central du gouvernement numérique : **les services numériques les plus réussis du gouvernement ne sont souvent pas conçus par le gouvernement lui-même.**
+
+---
+
+## De ministre sans portefeuille à ministère du Développement numérique
+
+Dans l'épisode de la carte des masques, Audrey Tang a joué le rôle de pont plutôt que de commandant, un positionnement qui s'est étendu à son nouveau poste. Le 27 août 2022, le ministère du Développement numérique de Taïwan (moda) a été officiellement inauguré, avec Audrey Tang comme première ministre (mandat de 2022 à mai 2024[^4] ; après sa démission en mai 2024, elle a été remplacée par Huang Yan-nan ; dans ce texte, toute mention d'Audrey Tang se réfère à son rôle de première ministre). Lors de l'inauguration, elle a indiqué que « moda » se prononce comme « moteur » (mótǎ en mandarin), exprimant l'espoir qu'il devienne le moteur du développement numérique de Taïwan.
+
+La création du ministère du Développement numérique est elle-même l'un des produits de l'échec du New eID. Lorsque la carte d'identité numérique a été suspendue, le ministre de l'Intérieur Xu Guoyong a admis que « l'autorité compétente pour la carte d'identité numérique à l'avenir, et la nécessité de créer un nouvel organisme dédié, restaient sans réponse ». Deux ans plus tard, la réponse est arrivée : le moda a repris l'ensemble du dossier.
+
+Mais les défis restent considérables. Un hacker éthique surnommé Howard (pseudonyme) a souligné dans une interview au _Reporter_ un problème structurel : « La cause profonde au sein du gouvernement est que les agents chargés des marchés ne comprennent pas la technologie, et la gestion de la cybersécurité ne peut pas être mise en œuvre. Que ce soit dans le cahier des charges de l'externalisation ou lors de la réception, vous n'avez aucun moyen de vérifier l'existence de failles de sécurité. » En 2019, l'audit de cybersécurité mené par le Yuan exécutif sur 10 organismes gouvernementaux a donné une note moyenne de seulement 69,3 sur 100, dont 6 organismes ont échoué aux tests techniques. Le déficit de personnel spécialisé en cybersécurité au sein de l'administration atteignait 60 %, soit plus de 1 000 postes vacants. (d'après une enquête du _Reporter_ en 2021)
 
 > **🔢 Les chiffres parlent**
 >
-> - Le Bureau d'investigation a publié une offre d'emploi pour analyste en cybersécurité exigeant un doctorat + 9 compétences spécialisées, pour un salaire mensuel de **58 000 NT$**
-> - En 2019, la Commission des affaires de la fonction publique a été contrainte de reconnaître la fuite de **590 000** données personnelles de fonctionnaires
-> - En 2021, plus de **20 millions** de données du registre de la population taïwanais ont été repérées sur le dark web
+> - Le Bureau d'enquête a offert un poste d'analyste en cybersécurité exigeant un doctorat + 9 compétences professionnelles, pour un salaire mensuel de **58 000 dollars taïwanais**
+> - En 2019, la Commission des services civils a révélé la fuite de **590 000** dossiers personnels de fonctionnaires
+> - En 2021, plus de **20 millions** de données du registre d'état civil taïwanais sont apparues sur le dark web
 
 ---
 
-## vTaiwan et l'expérimentation du gouvernement ouvert
+## vTaiwan et l'expérience du gouvernement ouvert
 
-Pendant que la voie de la carte d'identité numérique était bloquée, Taïwan avançait plus loin que la plupart des pays sur une autre dimension de la « démocratie numérique ».
+Pendant que la voie de la carte d'identité numérique était bloquée, Taïwan a avancé plus loin que la plupart des pays sur une autre voie, celle de la « démocratie numérique ».
 
-Lancée en 2015, la plateforme vTaiwan utilise un outil d'IA appelé Pol.is pour permettre aux citoyens de participer à l'élaboration des politiques publiques. L'exemple le plus célèbre est le débat de 2015 sur la réglementation d'Uber — ce n'était pas le gouvernement qui négociait avec Uber, mais les chauffeurs Uber, les taxis et les passagers qui débattaient directement sur la plateforme. Le consensus dégagé a ensuite servi de référence pour la législation. Selon les données de CrowdLaw, depuis le lancement de vTaiwan, plus de 80 % des cas discutés ont finalement donné lieu à des actions concrètes de la part du gouvernement.
+La plateforme vTaiwan, lancée en 2015, utilise un outil d'IA appelé Pol.is pour permettre aux citoyens de participer à l'élaboration des politiques. Le cas le plus célèbre est la discussion de 2015 sur la régulation d'Uber, où le gouvernement a cédé la table de négociation, permettant aux chauffeurs Uber, aux chauffeurs de taxi et aux passagers de débattre directement sur la plateforme. Le consensus finalement atteint a servi de référence législative. Selon les statistiques de CrowdLaw, depuis le lancement de vTaiwan, plus de 80 % des dossiers de discussion ont été traduits en actions gouvernementales concrètes (selon les statistiques auto-déclarées de vTaiwan, étude de cas CrowdLaw[^2]).
 
-Audrey Tang est lucide sur vTaiwan : « Ce n'est pas une solution à la démocratie, c'est un processus de construction de consensus. Le consensus approximatif issu de vTaiwan ne peut servir que de référence pour l'élaboration des politiques — pour produire un vrai changement, il faut encore la force de la participation citoyenne. » (Source : The Reporter, dossier gouvernement ouvert)
+Audrey Tang a une vision lucide de vTaiwan : « Ce n'est pas une solution démocratique, mais un processus de construction de consensus. Le consensus approximatif atteint sur vTaiwan ne peut servir que de référence pour l'élaboration des politiques ; pour provoquer le changement, il faut compter sur la force de la participation citoyenne. » (d'après le dossier spécial sur le gouvernement ouvert du _Reporter_)
 
-C'est le miroir exact de la leçon du New eID : la technologie seule ne résout rien. Une technologie sans confiance est dangereuse ; avec de la confiance mais une technologie rudimentaire, on peut parfois aller plus loin.
+Ceci forme un miroir avec la leçon de la carte d'identité numérique : la technologie elle-même n'est pas la solution. Une technologie sans confiance est dangereuse ; une confiance avec une technologie imparfaite peut en fait aller plus loin.
 
 ---
 
-## Les leçons achetées à 4,8 milliards
+## La leçon à 4,8 milliards
 
-Après la suspension du New eID, les entreprises concernées avaient initialement réclamé plus d'un milliard de NT$ en dommages et intérêts. En janvier 2024, après médiation par la Commission des travaux publics, le montant final a été fixé à environ 280 millions de NT$. Le ministre de l'Intérieur Lin Yu-chang a reconnu que « 200 et quelques millions était le meilleur résultat possible ».
+Après la suspension du projet de carte d'identité numérique, les fournisseurs concernés ont initialement réclamé plus d'un milliard de dollars taïwanais d'indemnités. En janvier 2024, après médiation par la Commission des travaux publics, le montant final s'est établi en dessous d'environ 280 millions de dollars taïwanais[^3]. Le ministre de l'Intérieur Lin Youchang a admis que « plus de 200 millions de dollars taïwanais était le meilleur résultat possible ».
 
-280 millions de NT$, auxquels s'ajoutent les coûts d'équipement et de locaux déjà engagés, pour une carte à puce jamais distribuée. Mais peut-être que ce que cela a vraiment acheté, c'est une leçon que la société taïwanaise a apprise sur la gouvernance numérique :
+280 millions de dollars taïwanais, auxquels s'ajoutent les dépenses déjà engagées pour l'équipement et les locaux, pour une carte à puce qui n'a jamais été émise. Mais ce qu'ils ont peut-être véritablement acheté, c'est une leçon de gouvernance numérique pour la société taïwanaise :
 
-**On peut fabriquer la puce la plus sécurisée au monde, mais si les citoyens ne font pas confiance au gouvernement, la carte ne sera jamais qu'un morceau de plastique.**
+**Vous pouvez concevoir la puce la plus sécurisée du monde, mais si le peuple ne vous fait pas confiance, la carte ne sera toujours qu'un morceau de plastique.**
 
-L'Estonie a mis trente ans de transparence à construire un taux de participation citoyenne numérique de 97 %. La société civile taïwanaise a prouvé qu'elle était capable de créer une carte des masques en trois jours — et d'arrêter un projet gouvernemental à 4,8 milliards. Les deux sont des manifestations de la même force démocratique.
+L'Estonie a mis 30 ans de transparence pour atteindre un taux de participation numérique de 97 %. La société civile taïwanaise a prouvé qu'elle était capable de créer une carte des masques en trois jours, et aussi de bloquer un projet gouvernemental de 4,8 milliards de dollars taïwanais. Les deux sont des muscles de la démocratie numérique.
 
-À la fin de son entretien avec l'Academia Sinica, Chiu Wen-tsong a prononcé des mots qui constituent peut-être la conclusion la plus juste de cette histoire : « On ne peut pas se contenter de vanter les mérites de la transformation numérique dans d'autres pays et appeler Taïwan à s'en inspirer rapidement, tout en ignorant les fondations juridiques et institutionnelles que ces pays ont laborieusement construites pour rendre ce numérique possible. » (Source : Institut de droit de l'Academia Sinica)
+Qiu Wencong, à la fin de son interview à l'Academia Sinica, a prononcé ces mots qui constituent peut-être la note de bas de page la plus précise de toute cette histoire : « On ne peut pas se contenter de souligner que les autres pays ont une numérisation merveilleuse et qu'il faut s'empresser de les imiter, tout en ignorant la base juridique laborieusement construite pour rendre cette numérisation possible. » (d'après l'interview de l'Institut de droit de l'Academia Sinica)
 
-En 2026, la carte d'identité numérique taïwanaise n'a toujours pas de calendrier de mise en œuvre. Mais chaque saison de déclaration fiscale, des millions de Taïwanais branchent consciencieusement leur certificat personnel électronique datant de 2003, glissent leur carte dans un lecteur et accomplissent leur interaction numérique la plus fréquente avec l'État. Cette vieille carte n'a pas été emportée par la crise de confiance — parce qu'elle n'avait jamais promis grand-chose.
+En 2026, la carte d'identité numérique taïwanaise n'a toujours pas de calendrier. Mais chaque saison fiscale, des millions de Taïwanais insèrent docilement leur certificat citoyen naturel — émis depuis 2003 — dans un lecteur de cartes pour accomplir leur interaction numérique la plus fréquente avec le gouvernement. Cette vieille carte n'a pas été frappée par une crise de confiance, parce qu'elle n'a jamais promis trop.
 
 ---
 
 ## Références
 
-- [從被迫喊卡的數位身分證政策，看台灣與「數位國家」的距離](https://www.twreporter.org/a/e-id-in-taiwan-2021-failed)（報導者，2021，一手調查報導）
-- [數位身分證，很酷嗎？——專訪邱文聰研究員](https://www.iias.sinica.edu.tw/blog_post/1118?class=96)（中研院法律學研究所，2020，一手專訪）
-- [數位身分證喊卡，2.8 億元全民買單](https://www.bnext.com.tw/article/62504/eid-information-security)（數位時代，2024）
-- [連「政府」都備份好了！愛沙尼亞如何打造世界最成功的數位社會？](https://www.twreporter.org/a/e-id-in-estonia)（報導者，2021，一手國際報導）
-- [一手打造口罩地圖，揭露「鍵盤救國」的幕後團隊](https://technews.tw/2020/02/23/expose-the-team-behind-mask-map/)（科技新報，2020）
-- [Audrey Tang brings civic tech to Taiwan's coronavirus pandemic response](https://www.npr.org/transcripts/949764249)（NPR，2020，英文一手報導）
-- [How map hacks and buttocks helped Taiwan fight Covid-19](https://www.bbc.com/news/technology-52883838)（BBC，2020，英文）
-- [開放政府，玩真的嗎？](https://www.twreporter.org/a/open-government)（報導者，開放政府專題）
-- [vTaiwan — CrowdLaw Case Study](https://congress.crowd.law/case-vtaiwan.html)（CrowdLaw，英文）
-- [晶片身分證議題頁](https://www.tahr.org.tw/issues/privacy/eid)（台灣人權促進會）
-- [連署：修法與公開 eID 資訊](https://ocf.tw/p/eid/)（開放文化基金會）
-- [數位發展部官方網站](https://moda.gov.tw/)（一手）
+[^1]: [_Reporter_ (2021). « De l'annulation de la politique de carte d'identité numérique à la distance entre Taïwan et l'"État numérique" »](https://www.twreporter.org/a/e-id-in-taiwan-2021-failed) — Enquête de terrain ; confirme que le contrat de fabrication de 3,29 milliards de dollars taïwanais a été remporté par TECO Electric & Machinery ; le budget total du projet varie selon les sources et inclut les quatre volets étude/fabrication/système/vérification, pour un total dépassant 4,8 milliards de dollars taïwanais
+
+[^2]: [CrowdLaw — Étude de cas vTaiwan](https://congress.crowd.law/case-vtaiwan.html) — Le chiffre de 80 % de dossiers traduits en actions gouvernementales provient des statistiques auto-déclarées de vTaiwan, compilées dans l'étude de cas CrowdLaw
+
+[^3]: [_Digital Times_ (2024). « Carte d'identité numérique annulée, 280 millions de dollars taïwanais à la charge de tous »](https://www.bnext.com.tw/article/62504/eid-information-security) — Les fournisseurs réclamaient initialement plus d'un milliard de dollars taïwanais ; en janvier 2024, la médiation de la Commission des travaux publics a abouti à un montant final d'environ 280 millions de dollars taïwanais
+
+[^4]: [Site officiel du ministère du Développement numérique (moda)](https://moda.gov.tw/) — Audrey Tang a été première ministre (août 2022 à mai 2024) ; après sa démission en mai 2024, l'actuel ministre est Huang Yan-nan
+
+[^5]: [Institut de droit de l'Academia Sinica (2020). « La carte d'identité numérique, c'est cool ? — Entretien avec le chercheur Qiu Wencong »](https://www.iias.sinica.edu.tw/blog_post/1118?class=96) — Qiu Wencong sur les fondements juridiques de la gouvernance numérique ; soulève la question de l'insuffisance réglementaire de l'eID
+
+[^6]: [NPR (2020). « Audrey Tang brings civic tech to Taiwan's coronavirus pandemic response »](https://www.npr.org/transcripts/949764249) — La carte des masques a été déployée à l'échelle nationale en six jours ; la civic tech taïwanaise face au COVID-19
+
+[^7]: [BBC (2020). « How map hacks and buttocks helped Taiwan fight Covid-19 »](https://www.bbc.com/news/technology-52883838) — Reportage en anglais sur la carte des masques et les hackers citoyens face à l'épidémie
+
+[^8]: [TechNews (2020). « Créateur de la carte des masques, révélation de l'équipe derrière la "sauver la nation au clavier" »](https://technews.tw/2020/02/23/expose-the-team-behind-mask-map/) — Processus de développement de la carte des masques ; Wu Zhanwei et la communauté de hackers citoyens g0v
+
+[^9]: [_Reporter_ (2021). « Même le "gouvernement" est sauvegardé ! Comment l'Estonie a construit la société numérique la plus performante au monde »](https://www.twreporter.org/a/e-id-in-estonia) — L'expérience de l'Estonie en matière d'État numérique ; comparaison avec la trajectoire de la gouvernance numérique taïwanaise
+
+[^10]: [_Reporter_ — Dossier spécial sur le gouvernement ouvert. « Gouvernement ouvert, pour de vrai ? »](https://www.twreporter.org/a/open-government) — Propos d'Audrey Tang sur vTaiwan ; cas d'expériences de gouvernement ouvert
+
+[^11]: [Taiwan Association for Human Rights — Page sur la carte d'identité à puce](https://www.tahr.org.tw/issues/privacy/eid) — Position en matière de droits humains et pétition contre le projet New eID
+
+[^12]: [Open Culture Foundation — Pétition pour une révision législative et la transparence des informations sur l'eID](https://ocf.tw/p/eid/) — Mouvement citoyen pour la transparence des informations sur l'eID et la révision de la réglementation

@@ -1,214 +1,225 @@
 ---
-title: "Acer — Le pionnier qui a réinventé l'industrie du PC"
-description: "Née à Taoyuan, cette marque taïwanaise a révolutionné le modèle commercial de l'industrie informatique mondiale grâce à sa stratégie multi-marques et multicanaux"
+title: "Groupe Acer – Pionnier de la transformation de l'industrie du PC"
+description: "Pionnier de l'informatique personnelle originaire de Taipei, Taïwan, créateur du modèle économique « multi-marques, multi-canaux », devenu un moteur de transformation de l'industrie mondiale du PC"
 date: 2026-03-20
-tags: [Économie, Entreprise, Informatique personnelle, Marque, Mondialisation]
-subcategory: "Portraits d'entreprises"
+author: 'Taiwan.md'
 category: 'Economy'
-author: 'Taiwan.md Translation Team'
+subcategory: '企業列傳'
+tags:
+  [
+    'Économie',
+    'Entreprise',
+    'Informatique personnelle',
+    'Marque',
+    'Mondialisation',
+  ]
 readingTime: 8
-featured: false
 lastVerified: 2026-03-20
+lastHumanReview: false
+featured: false
 translatedFrom: 'Economy/台灣企業：宏碁.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:197235760e486f5d'
-sourceBodyHash: 'sha256:bbb87048282a48a9'
-translatedAt: '2026-04-14T19:20:40+08:00'
+sourceCommitSha: '24efd20f3'
+sourceContentHash: 'sha256:aeda1256394e6383'
+sourceBodyHash: 'sha256:6ba61f9dc892033c'
+translatedAt: '2026-05-15T14:23:14+08:00'
 ---
 
-> **En 30 secondes**
+> **Aperçu en 30 secondes**
 >
-> Acer est la première marque taïwanaise de PC et l'une des grandes architectes du modèle commercial de l'industrie informatique mondiale. Fondée en 1976, elle a réalisé un chiffre d'affaires de 264,7 milliards de dollars taïwanais en 2024, avec plus de 9 000 employés dans le monde. Des débuts avec les microprocesseurs jusqu'à son positionnement actuel sur le PC, le moniteur, le gaming et les solutions professionnelles, Acer a accompagné — et façonné — chaque grande transformation du secteur.
+> Le groupe Acer est la première marque taïwanaise d'ordinateurs personnels et un révolutionnaire des modèles économiques de l'industrie mondiale du PC. Fondé en 1976, il a réalisé un chiffre d'affaires de 264,7 milliards de dollars taïwanais en 2024, avec plus de 9 000 employés dans le monde. De ses débuts à l'ère du « microprocesseur » à sa diversification actuelle couvrant les PC, les écrans, l'e-sport et les solutions professionnelles, Acer a été témoin et acteur de toute l'évolution de l'industrie du PC.
 
-## Pourquoi Acer compte
+## Pourquoi Acer est-il important ?
 
-Si une seule entreprise taïwanaise devait incarner l'esprit de l'ère du PC, ce serait Acer. En 1976, à l'heure où le reste du monde peinait encore à comprendre ce qu'était un « ordinateur personnel », une poignée d'ingénieurs taïwanais s'installait dans un modeste local de Taoyuan pour commencer à changer le monde.
+S'il est une entreprise à Taïwan qui incarne le mieux l'esprit de l'ère du PC, c'est bien Acer. Dès 1976, alors que le monde entier peinait à définir ce qu'était un « ordinateur personnel », une équipe d'ingénieurs taïwanais lançait, depuis une petite entreprise de Taipei, un rêve qui allait changer le monde.
 
-Acer n'est pas seulement la première marque taïwanaise de PC : c'est un innovateur du modèle commercial à l'échelle planétaire. La théorie du « Smile Curve » qu'elle a théorisée reste un cadre d'analyse de référence dans l'industrie ; sa stratégie multi-marques et multicanaux a redéfini le marketing des produits technologiques ; son modèle dit « fast-food » a véritablement démocratisé l'accès à l'informatique personnelle.
+Acer n'est pas seulement la première marque taïwanaise de PC ; c'est aussi un innovateur en matière de modèles économiques dans l'industrie mondiale du PC. Sa théorie de la « courbe du sourire » reste un cadre d'analyse classique du secteur ; sa stratégie « multi-marques, multi-canaux » a redéfini la commercialisation des produits technologiques ; son « modèle fast-food » a véritablement amené le PC dans les foyers du grand public.
 
-Plus décisif encore, Acer est la première marque technologique taïwanaise à s'être véritablement mondialisée. Quand d'autres entreprises de l'île se contentaient de faire de l'OEM, Acer construisait déjà ses propres réseaux de distribution en Europe et en Amérique. Elle a prouvé que Taïwan ne sait pas seulement fabriquer — elle sait aussi créer de la valeur de marque.
+Acer est la première marque technologique taïwanaise à s'être véritablement « mondialisée ». Alors que d'autres entreprises taïwanaises se concentraient encore sur la fabrication en sous-traitance (OEM), Acer avait déjà mis en place ses propres réseaux de marketing de marque en Europe et en Amérique. Il a prouvé que les entreprises taïwanaises ne se limitaient pas à la fabrication, mais pouvaient aussi créer de la valeur de marque.
 
-Aujourd'hui, l'histoire d'Acer est un chapitre incontournable de la mondialisation de l'industrie technologique taïwanaise.
+Aujourd'hui, lorsque l'on évoque le parcours de mondialisation de l'industrie technologique taïwanaise, l'histoire d'Acer constitue un chapitre incontournable.
 
-## Portrait de l'entreprise : du microprocesseur au groupe technologique diversifié
+## Présentation de l'entreprise : du microprocesseur au groupe technologique diversifié
 
-Acer Inc. (宏碁集團股份有限公司) a été fondée en 1976 par Stan Shih et Carolyn Yeh, entre autres, sous le nom de « Multitech ». Sa mission : « Breaking barriers between people and technology » — rendre la technologie plus accessible et plus intuitive pour tous.
+Acer Inc., fondée en 1976 par Stan Shi (施振榮), Yeh Tzu-hua (葉紫華) et d'autres associés, portait à l'origine le nom de « Acer Computer ». Avec pour mission de « briser les barrières entre les gens et la technologie », l'entreprise s'efforce de rendre les produits technologiques plus accessibles et plus faciles à utiliser.
 
-**Structure des activités** :
+Du microprocesseur de 1976 aux activités diversifiées d'aujourd'hui couvrant les PC, les écrans, l'e-sport et les solutions professionnelles, la logique fondamentale d'Acer est restée la même : rendre la technologie complexe accessible au plus grand nombre.
 
-1. **PC grand public** : ordinateurs portables et desktops (environ 60 % du chiffre d'affaires)
-2. **Moniteurs** : écrans de toutes tailles et projecteurs (environ 20 %)
-3. **Gaming et création** : gamme Predator pour les joueurs, ConceptD pour les créateurs (environ 15 %)
-4. **Solutions professionnelles et nouveaux marchés** : Chromebook, serveurs, IoT (environ 5 %)
+**Structure des activités principales** :
+
+1. **Activité PC** : ordinateurs portables, ordinateurs de bureau (environ 60 % du chiffre d'affaires)
+2. **Activité écrans** : écrans de toutes tailles, projecteurs (environ 20 % du chiffre d'affaires)
+3. **Activité e-sport et créateurs** : gamme Predator pour l'e-sport, produits ConceptD pour les créateurs (environ 15 % du chiffre d'affaires)
+4. **Activités professionnelles et nouvelles activités** : Chromebook, serveurs, solutions IoT (environ 5 % du chiffre d'affaires)
 
 **Organisation du groupe** :
-Acer fonctionne selon un modèle de gestion décentralisée. Ses filiales — dont Acer Inc., Startek, Acerpure et iGo — couvrent chacune un marché ou une ligne de produits spécifique, formant un ensemble à la fois cohérent et flexible.
+Acer adopte un modèle de « gestion décentralisée ». Le groupe comprend des filiales telles que Acer Computer, Weblink International, Acer Cyber Security et Acer Connect, chacune responsable de marchés et de gammes de produits différents, formant ainsi une structure de gestion de groupe flexible.
 
-## Chiffres clés : la performance en données
+## Faits clés : les chiffres qui reflètent la puissance
 
-**Résultats opérationnels (données 2024, source : site officiel Acer)** :
+En 2024, le chiffre d'affaires annuel d'Acer a atteint 264,7 milliards de dollars taïwanais, en hausse de 9,7 % en glissement annuel, une performance robuste rarement observée depuis des années.
 
-- **Chiffre d'affaires annuel** : 264,7 milliards NTD (environ 8,24 milliards USD), en hausse de 9,7 %
-- **Chiffre d'affaires mensuel moyen** : environ 22 milliards NTD, en croissance positive sur 12 mois consécutifs
-- **Effectif mondial** : 9 026 personnes fin 2024, y compris les employés permanents et contractuels
-- **Part des activités non-PC** : 28,3 %, signe d'une diversification qui porte ses fruits
+La part des activités non-PC s'élève à 28,3 %, ce qui montre que les trois gammes de produits — e-sport (Predator), créateurs (ConceptD) et Chromebook — occupent une place significative dans la structure des revenus.
 
-**Positionnement sur les marchés** :
+Part de marché mondiale des ordinateurs portables : 5,8 % (6ᵉ rang) ; part de marché des Chromebook : 11,4 % (3ᵉ rang) — sur un marché dominé par Lenovo, HP et Dell, Acer a maintenu sa position concurrentielle grâce à une stratégie de différenciation.
 
-- **Part de marché mondiale PC portable** : environ 5,8 %, sixième marque mondiale
-- **Chromebook** : environ 11,4 % de part de marché mondiale, troisième acteur global
-- **Europe** : marque dans le top 4 sur les grands marchés comme l'Allemagne et le Royaume-Uni
-- **Moniteurs** : quatrième rang mondial, avec une belle présence sur le segment professionnel
+**Résultats opérationnels (données 2024, source : site officiel d'Acer)** :
+
+Chiffre d'affaires annuel 2024 : 264,7 milliards de dollars taïwanais (environ 8,24 milliards de dollars US), en hausse de 9,7 % en glissement annuel[^4] ; chiffre d'affaires mensuel moyen d'environ 22 milliards, avec 12 mois consécutifs de croissance positive, le résultat le plus marquant d'Acer en 2024.
+
+- **Effectifs mondiaux** : 9 026 employés (fin 2024), incluant le personnel permanent et contractuel
+- **Part des activités non-PC** : 28,3 %, témoignant de l'efficacité de la diversification
+
+**Position sur le marché** :
+
+Part de marché mondiale des ordinateurs portables : 5,8 % (6ᵉ rang)[^5] ; part de marché des Chromebook : 11,4 % (3ᵉ rang) ; sur les principaux marchés européens comme l'Allemagne et le Royaume-Uni, Acer se classe parmi les quatre premières marques de PC.
+
+- **Part de marché des écrans** : quatrième mondial, avec des performances remarquables dans le segment des écrans professionnels.
 
 **Technologie et brevets** :
 
-- Plus de 8 000 brevets couvrant le design matériel, les logiciels et l'expérience utilisateur
-- Investissement annuel en R&D d'environ 3 % du chiffre d'affaires, concentré sur l'IA, les technologies durables et l'innovation UX
-- Plus de 200 prix de design internationaux, dont l'iF Design Award et le Red Dot Award
+- Détient plus de 8 000 brevets couvrant la conception matérielle, les applications logicielles et l'expérience utilisateur
+- Investissements en R&D représentant environ 3 % du chiffre d'affaires annuel, concentrés sur l'IA, la technologie durable et l'innovation en matière d'expérience utilisateur
+- A reçu plus de 200 prix internationaux de design, dont l'iF Design Award et le Red Dot Award
 
-## Chronologie : du garage au groupe multinational
+## Historique : du rêve de garage au groupe multinational
 
-### Les pionniers (1976-1985) : l'acte de naissance de l'industrie PC taïwanaise
+### Les pionniers de la création (1976-1985) : le point de départ de l'industrie du PC à Taïwan
 
-En 1976, Stan Shih et ses associés fondent Acer à Longtan, Taoyuan, en se concentrant d'abord sur le développement de microprocesseurs — l'ancêtre des cartes mères. Dès le départ, l'entreprise affiche un ADN tourné vers l'innovation :
+En août 1976, Stan Shi et ses associés fondèrent « Acer Computer » à Taipei (initialement sous le nom de « Multi-Tech International »)[^1], se concentrant initialement sur le développement de « microprocesseurs » (les cartes de développement d'aujourd'hui). Dès cette période, Acer a montré un caractère innovant distinctif :
 
-- **1977** : lancement du premier microordinateur taïwanais, le « Micro-Professor I »
-- **1981** : développement d'un ordinateur capable de traiter le chinois, une prouesse technique inédite
-- **1984** : lancement du « Micro-Professor II », premier ordinateur personnel chez de nombreuses familles taïwanaises
+- **1977** : lancement du premier microprocesseur taïwanais, « Micro-Professor I »
+- **1981** : développement réussi d'un ordinateur capable de traiter le chinois, résolvant les défis techniques du traitement des caractères chinois
+- **1984** : lancement du « Micro-Professor II », devenu le premier ordinateur personnel de nombreux foyers taïwanais
 
-À cette époque, Acer n'est pas seulement un fabricant : c'est un véritable évangéliste de la culture informatique à Taïwan.
+Durant cette phase, Acer a également joué un rôle d'éveilleur de la culture du PC à Taïwan.
 
-### La percée de la marque (1985-1995) : naissance du Smile Curve
+### La percée de la marque (1985-1995) : la naissance de la « courbe du sourire »
 
-En 1988, Stan Shih formalise la célèbre théorie du « Smile Curve » : les deux extrémités de la chaîne de valeur — R&D et marketing de marque — concentrent les marges les plus élevées, tandis que la fabrication et l'assemblage, au centre, n'en laissent que peu. Cette théorie ne redéfinit pas seulement la trajectoire d'Acer ; elle devient une boussole stratégique pour toute l'industrie technologique taïwanaise.
+En 1992, Stan Shi a proposé la célèbre théorie de la « courbe du sourire »[^2], selon laquelle les deux extrémités de la chaîne de valeur (R&D/conception et marketing de marque) génèrent les marges les plus élevées, tandis que l'assemblage manufacturier au centre est le moins rentable. Cette théorie a guidé la transformation d'Acer et est devenue une référence stratégique pour l'ensemble de l'industrie technologique taïwanaise.
 
-**Tournants majeurs** :
+**Tournants clés** :
 
-- **1987** : introduction en bourse, levée de fonds pour accélérer l'internationalisation
-- **1989** : ouverture d'une filiale aux États-Unis, première offensive sur les marchés internationaux
-- **1990** : acquisition d'Altos Computer (États-Unis) pour accéder à de nouveaux canaux et technologies
-- **1995** : lancement de la stratégie « Global Brand, Local Touch »
+Après son introduction en bourse en 1987, Acer a obtenu les financements nécessaires à son internationalisation ; en 1989, il a établi une filiale aux États-Unis, puis acquis Altos Computer en 1990, pénétrant ainsi le marché américain.
 
-En dix ans, Acer se mue d'une entreprise locale en un véritable groupe transnational.
+- **1995** : lancement de la stratégie « marque mondiale, ancrage local »
 
-### L'expansion mondiale (1995-2005) : l'âge d'or du multi-marques
+Au cours de cette décennie, Acer s'est transformée d'une entreprise locale taïwanaise en une véritable multinationale.
 
-À la fin des années 1990, Acer déploie une stratégie multi-marques inédite. Par acquisitions et partenariats, elle constitue un portefeuille couvrant différents segments :
+### L'expansion mondiale (1995-2005) : l'âge d'or de la stratégie multi-marques
 
-- **Acer** : le grand public mainstream
-- **Gateway** : la marque américaine historique (acquise en 2007)
-- **eMachines** : l'entrée de gamme abordable
-- **Packard Bell** : l'acteur dominant du marché européen
+À la fin des années 1990, Acer a déployé sa stratégie « multi-marques, multi-canaux ». Acer ciblait le marché grand public, Gateway (acquis en 2007) visait le marché américain, eMachines s'attaquait au segment d'entrée de gamme, et Packard Bell dominait l'Europe.
 
-**Un modèle commercial révolutionnaire** :
-Le « modèle fast-food » d'Acer simplifie l'achat d'un PC à l'extrême — aussi simple qu'une commande au comptoir — et abaisse considérablement les barrières à l'entrée pour les consommateurs.
+Ces quatre marques couvraient différents positionnements de marché, permettant à Acer de concurrencer simultanément sur plusieurs marchés géographiques sans devoir servir des clientèles très différentes sous une même image de marque.
 
-### La transformation numérique (2005-aujourd'hui) : au-delà du PC
+**Modèle économique innovant** :
+Le « modèle fast-food » créé par Acer a rendu l'achat d'un PC aussi simple que l'achat d'un hamburger, abaissant considérablement les barrières à l'achat pour les consommateurs.
 
-À partir de 2005, face à la déferlante des smartphones et tablettes, Acer entame une nouvelle phase de transformation :
+### La transformation intelligente (2005-à nos jours) : du PC à l'écosystème intelligent
+
+Après 2005, face à l'essor des smartphones et des tablettes, Acer a entamé une nouvelle phase de transformation :
 
 **Diversification des produits** :
 
-- Montée en puissance de Predator, pour capter le marché en forte croissance du gaming
-- Lancement de ConceptD, positionné spécifiquement pour les créateurs de contenu
-- Investissement dans les Chromebooks pour s'imposer dans l'éducation
+- Renforcement de la marque gaming Predator pour conquérir le marché en pleine croissance de l'e-sport
+- Lancement de la gamme ConceptD, ciblant le marché des créateurs
+- Investissement dans les Chromebook, établissant un avantage sur le marché éducatif
 
-**Innovation du modèle d'affaires** :
+**Innovation du modèle économique** :
 
-- Passage de la vente de matériel à une offre intégrée « hardware + software + services »
-- Développement de solutions cloud et IoT
-- Engagement fort sur la durabilité, avec le lancement d'une gamme de produits neutres en carbone
+- Passage de la vente de matériel à une intégration « matériel + logiciel + services »
+- Développement de services cloud et de solutions IoT
+- Renforcement du développement durable, lancement de gammes de produits neutres en carbone
 
-## Influence mondiale : un acteur qui a reconfiguré l'industrie
+## Influence mondiale : un moteur de transformation de l'industrie du PC
 
-### Innovateur du modèle commercial
+### Innovateur en modèles économiques
 
-La contribution la plus durable d'Acer à l'industrie PC ne se mesure pas en unités vendues, mais en modèles inventés :
+La plus grande contribution d'Acer à l'industrie du PC ne réside pas seulement dans la fabrication de meilleurs ordinateurs, mais dans la création de modèles économiques entièrement nouveaux :
 
-**La théorie du Smile Curve** :
-Ce concept forgé par Stan Shih reste une référence analytique incontournable. Il n'a pas seulement redéfini la stratégie d'Acer — il a inspiré d'innombrables entreprises à repenser leur positionnement dans la chaîne de valeur.
+**La théorie de la courbe du sourire** :
+Ce concept proposé par Stan Shi reste un cadre d'analyse classique du secteur. Il n'a pas seulement transformé Acer, mais a aussi inspiré d'innombrables entreprises à repenser leur positionnement dans la chaîne de valeur.
 
 **La stratégie multi-marques** :
-À rebours des acteurs qui misent tout sur une seule marque, Acer a inventé l'art de gérer un portefeuille de marques ciblant des segments distincts. Un modèle que de nombreux groupes multinationaux ont depuis adopté.
+Contrairement à d'autres entreprises se concentrant sur une seule marque, Acer a utilisé de manière créative un portefeuille multi-marques pour offrir des produits différenciés selon les segments de marché, un modèle ensuite adopté par de nombreuses multinationales.
 
-**Le concept « Global Brand, Local Touch »** :
-L'idée de se mondialiser tout en préservant une identité locale résonne aujourd'hui avec une acuité particulière, à l'heure de la déglobalisation et des replis identitaires.
+**La mondialisation localisée** :
+Le concept de « marque mondiale, ancrage local » proposé par Acer prône le maintien des spécificités locales dans le cadre de la mondialisation. Cette approche apparaît aujourd'hui particulièrement visionnaire dans le contexte actuel de « démondialisation ».
 
-### Innovation produit et expérience utilisateur
+### Innovation technologique et produit
 
-**La révolution de l'accessibilité** :
-De la localisation en chinois des premiers « Micro-Professor » à l'optimisation gaming des Predator d'aujourd'hui, Acer a toujours fait de la facilité d'usage son avantage concurrentiel central. C'est l'un des premiers fabricants à avoir placé l'UX au cœur de sa proposition de valeur.
+**Révolution de l'expérience utilisateur** :
+De la sinisation de la gamme « Micro-Professor » à l'optimisation gaming de la gamme Predator, Acer s'est toujours concentré sur l'amélioration de l'expérience utilisateur. Il a été le premier fabricant de PC à considérer la « facilité d'utilisation » comme un avantage concurrentiel central.
 
-**Précurseur de la durabilité** :
-Acer a pris de l'avance sur les engagements environnementaux : dès 2019, elle s'est engagée à fonctionner à 100 % avec des énergies renouvelables d'ici 2025, devenant la première entreprise technologique taïwanaise à rejoindre l'initiative RE100.
+**Pionnier de la technologie durable** :
+Acer a été relativement précoce en matière de développement durable. En 2021, il a rejoint l'initiative RE100, s'engageant à atteindre 100 % d'utilisation d'énergies renouvelables d'ici 2035[^3].
 
-**Impact dans l'éducation** :
-Via les Chromebooks et ses solutions éducatives, Acer joue un rôle de premier plan dans la numérisation de l'enseignement à l'échelle mondiale — un rôle qui s'est révélé crucial pendant la période d'enseignement à distance liée à la pandémie.
+**Impact sur la technologie éducative** :
+À travers les Chromebook et les solutions éducatives, Acer a joué un rôle important dans le processus de mondialisation de la numérisation de l'éducation, notamment lors de la promotion de l'enseignement à distance pendant la pandémie.
 
-### Présence internationale
+### Déploiement sur les marchés mondiaux
 
-**L'Europe, un terrain de prédilection** : le succès d'Acer sur le marché européen mérite une attention particulière. Via la marque Packard Bell, elle a construit une influence locale profonde en Allemagne, en France et dans d'autres marchés clés.
+**Ancrage en Europe** : le succès d'Acer sur le marché européen est particulièrement remarquable. Grâce à la marque Packard Bell, il a établi une forte influence locale sur des marchés comme l'Allemagne et la France.
 
-**Stratégie dans les marchés émergents** : en Amérique latine, en Asie du Sud-Est et en Afrique, Acer adapte ses produits aux besoins locaux pour toucher des consommateurs aux attentes et aux budgets différents.
+**Stratégies pour les marchés émergents** : en Amérique latine, en Asie du Sud-Est, en Afrique et dans d'autres régions, Acer a adopté des stratégies de produits localisés, développant des produits différenciés adaptés aux besoins locaux.
 
-**Renaissance aux États-Unis** : grâce à la résurrection de la marque Gateway et au succès des Chromebooks, Acer s'est reconstruit une position de poids sur le marché américain.
+**Renouveau sur le marché américain** : grâce à la renaissance de la marque Gateway et au succès des Chromebook, Acer a rétabli son influence sur le marché américain.
 
-## Défis et perspectives : trouver de nouveaux relais de croissance
+## Défis et perspectives : trouver un nouvel élan dans un contexte en mutation
 
-### Les défis actuels
+### Défis actuels
 
-**Contraction du marché PC** :
-Le marché mondial des PC affiche des années successives de recul. Après le rebond conjoncturel lié à la pandémie, la pression à la baisse est revenue. Maintenir une croissance dans un marché qui rétrécit est le défi commun à tous les acteurs du secteur.
+**Contraction du marché du PC** :
+Le marché mondial du PC affiche une croissance négative depuis plusieurs années consécutives. Après la reprise temporaire liée à la pandémie, le marché est de nouveau confronté à des pressions de contraction. Comment maintenir la croissance dans un marché en défi est un défi commun à tous les fabricants de PC.
 
-**Intensification de la concurrence** :
-Face à Lenovo, HP, Dell et à la domination d'Apple dans le haut de gamme, Acer doit trouver un positionnement prix-qualité toujours plus précis.
+**Concurrence intense entre marques** :
+Face à la concurrence féroce de Lenovo, HP et Dell, ainsi qu'à la position dominante d'Apple sur le segment haut de gamme, Acer doit trouver un équilibre plus précis entre prix et qualité.
 
-**Complexité des chaînes d'approvisionnement** :
-Tensions géopolitiques, guerres commerciales, perturbations sanitaires : les chaînes d'approvisionnement mondiales sont plus fragiles que jamais, ce qui pèse sur une industrie PC qui en dépend structurellement.
+**Complexification de la chaîne d'approvisionnement** :
+Les tensions géopolitiques, les guerres commerciales et les pandémies ont rendu les chaînes d'approvisionnement mondiales plus complexes, ce qui constitue un défi majeur pour l'industrie du PC, fortement dépendante de ces chaînes.
 
-**La transition technologique** :
-Du x86 vers ARM, du PC traditionnel vers l'AI PC — chaque changement de plateforme exige des investissements considérables, un fardeau non négligeable pour une entreprise de taille intermédiaire comme Acer.
+**Défis de transition technologique** :
+Le passage de x86 à ARM, du PC traditionnel au PC IA, nécessite des investissements considérables, ce qui représente une charge non négligeable pour une entreprise de taille moyenne comme Acer.
 
-### Les opportunités à saisir
+### Opportunités futures
 
-**L'AI PC, un nouveau terrain de jeu** :
-À mesure que les fonctionnalités IA deviennent standard dans les PC, Acer dispose d'une opportunité de rebattre les cartes. La société a déjà lancé une gamme d'ordinateurs portables IA pour capter les early adopters.
+**Nouvelle course du PC IA** :
+Avec l'intégration des fonctionnalités d'IA comme équipement standard des PC, Acer a l'opportunité de rebattre les cartes sur ce marché émergent. L'entreprise a déjà lancé des gammes d'ordinateurs portables IA pour conquérir le marché des early adopters.
 
-**Le gaming, un moteur durable** :
-L'industrie mondiale du gaming continue de progresser rapidement. Les performances de la gamme Predator sur le marché des PC gaming laissent entrevoir un nouveau levier de croissance.
+**Expansion du marché de l'e-sport** :
+L'industrie mondiale de l'e-sport continue de croître rapidement. La gamme Predator affiche de solides performances sur le marché des ordinateurs portables gaming et pourrait devenir un nouveau moteur de croissance.
 
-**L'essor de l'économie créative** :
-Du montage vidéo à la modélisation 3D, la demande en équipements haute performance des créateurs de contenu ne faiblit pas. La gamme ConceptD est précisément positionnée pour répondre à cette tendance.
+**Montée en puissance de l'économie des créateurs** :
+Du montage vidéo à la modélisation 3D, la demande des créateurs pour des équipements performants ne cesse de croître. La gamme ConceptD répond précisément à cette tendance.
 
-**La transformation numérique des entreprises** :
-La pandémie a accéléré la digitalisation des organisations, faisant exploser la demande de PC professionnels, d'outils de visioconférence et de solutions de travail à distance. Acer, qui dispose d'une base solide sur le marché corporate, est bien placée pour en profiter.
+**Transformation numérique du marché professionnel** :
+La pandémie a accéléré la transformation numérique des entreprises, entraînant une forte hausse de la demande pour les ordinateurs portables professionnels, les équipements de conférence et les outils de collaboration à distance. Acer possède une solide base sur le marché professionnel et pourrait bénéficier de cette vague de transformation.
 
-**La durabilité comme avantage concurrentiel** :
-À mesure que les critères ESG s'imposent, la demande de produits durables progresse aussi bien chez les entreprises que chez les consommateurs. La gamme Vero d'Acer et son engagement en faveur des énergies renouvelables d'ici 2025 pourraient se transformer en atout différenciant.
+**Opportunités liées au développement durable** :
+Avec la généralisation des critères ESG, la demande des entreprises et des consommateurs pour des produits durables ne fait qu'augmenter. La gamme de produits durables Vero d'Acer, ainsi que son engagement à atteindre 100 % d'énergies renouvelables d'ici 2025, constitueront de nouveaux avantages concurrentiels.
 
-**Le potentiel des marchés émergents** :
-Inde, Asie du Sud-Est, Afrique — le taux d'équipement PC y reste faible et le potentiel de croissance est réel. Ces marchés recherchent des produits au rapport qualité-prix maîtrisé, domaine dans lequel Acer excelle.
+**Potentiel des marchés émergents** :
+Le taux de pénétration des PC dans les marchés émergents tels que l'Inde, l'Asie du Sud-Est et l'Afrique dispose encore d'une marge de progression. La demande pour des produits sensibles au prix mais exigeants en qualité est forte, ce qui correspond précisément aux points forts d'Acer.
 
-## Pour conclure : le modèle taïwanais de la mondialisation
+## Conclusion : un modèle classique de mondialisation pour les entreprises taïwanaises
 
-L'histoire d'Acer est le récit le plus éloquent de la transition taïwanaise « de la fabrication à la marque ». De la petite entreprise de Longtan en 1976 au groupe technologique mondial d'aujourd'hui, Acer a mis près d'un demi-siècle à prouver que les entreprises taïwanaises sont capables de créer des marques à portée mondiale.
+L'histoire d'Acer est la meilleure illustration du parcours de l'industrie technologique taïwanaise « de la fabrication à la marque ». De la petite entreprise fondée à Taipei en 1976 au groupe technologique présent dans le monde entier aujourd'hui, Acer a prouvé, en près d'un demi-siècle, que les entreprises taïwanaises sont capables de créer des marques à influence mondiale.
 
-Le Smile Curve de Stan Shih n'a pas seulement transformé Acer — il a orienté toute une industrie. Quand d'autres se concentraient encore sur la fabrication en sous-traitance, Acer construisait déjà ses avantages compétitifs aux deux extrémités de la chaîne de valeur : la R&D et la marque.
+La théorie de la « courbe du sourire » de Stan Shi a transformé Acer et inspiré l'orientation de la transformation de l'ensemble de l'industrie technologique taïwanaise. Alors que d'autres entreprises se concentraient encore sur la fabrication en sous-traitance, Acer avait déjà commencé à réfléchir à la manière de construire des avantages concurrentiels aux deux extrémités de la chaîne de valeur — la R&D et la marque.
 
-Aujourd'hui, quand on voit un Predator briller dans les arènes e-sport du monde entier, quand on voit ConceptD séduire les créateurs, quand on voit la gamme Vero tenter de réconcilier performance et responsabilité environnementale, on ne voit pas seulement une entreprise prospère. On voit le symbole de la capacité de l'industrie technologique taïwanaise à se réinventer sans cesse.
+Aujourd'hui, lorsque nous voyons les ordinateurs portables Predator d'Acer briller lors de compétitions d'e-sport mondiales, lorsque nous voyons la gamme ConceptD devenir le nouvel outil de prédilection des créateurs, lorsque nous voyons les innovations de la gamme Vero en matière de développement durable, c'est le symbole de l'esprit d'innovation et de quête d'excellence de l'industrie technologique taïwanaise.
 
-L'expérience Acer nous rappelle une vérité : dans un monde technologique en perpétuel mouvement, la seule constante, c'est le changement. Les entreprises qui durent ne sont pas celles qui s'accrochent à leurs acquis, mais celles qui apprennent, innovent et s'adaptent. C'est précisément la qualité la plus précieuse de l'industrie tech taïwanaise — et la raison profonde pour laquelle Acer tient debout depuis près d'un demi-siècle.
+L'expérience d'Acer nous enseigne que dans un monde technologique en constante évolution, la seule chose qui ne change pas est le changement lui-même. Savoir apprendre, savoir innover, savoir s'adapter — c'est la raison fondamentale pour laquelle Acer est resté debout pendant près d'un demi-siècle au milieu des transformations de l'industrie du PC, et c'est aussi la qualité la plus précieuse de l'industrie technologique taïwanaise.
 
 ---
 
-## Sources
+## Références
 
-1. Site officiel du groupe Acer — Relations investisseurs (https://www.acer.com/corporate/zh/investor-relations/)
-2. Rapport annuel Acer 2024 et rapports financiers trimestriels
-3. IDC « Worldwide Traditional PC Market » — rapport Q4 2024
-4. Canalys « Global PC Market Analysis » — statistiques 2024
-5. _Stan Shih : My Road, My Way_, CommonWealth Publishing, 2019
-6. _Acer's Century of Transformation_, Business Weekly Publications, 2021
-7. Gartner « Magic Quadrant for x86 Server Virtualization Infrastructure » 2024
-8. Rapport de durabilité ESG, groupe Acer, 2024
-9. _Stratégies de mondialisation de l'industrie technologique taïwanaise_, Linking Publishing, 2022
+[^1]: [Acer — Jalons historiques d'Acer](https://www.acer.com/corporate/zh/overview/milestones) — Acer a été fondé le 1er août 1976 à Taipei sous le nom de « Multi-Tech International », puis renommé Acer en 1987
+
+[^2]: [Wikipédia — Courbe du sourire](https://zh.wikipedia.org/wiki/微笑曲線) — La théorie de la courbe du sourire a été proposée par Stan Shi en 1992, et non en 1988 ; elle indique que les marges aux extrémités de la chaîne de valeur sont supérieures à celles de l'étape manufacturière intermédiaire
+
+[^3]: [Acer Newsroom — Déclaration d'adhésion à RE100, 2021](https://news.acer.com/the-acer-group-joins-re100-commits-to-100-renewable-energy-use-by-2035) — Acer a rejoint RE100 en mai 2021, s'engageant à atteindre l'objectif de 100 % d'utilisation d'énergies renouvelables d'ici 2035
+
+[^4]: [Site officiel du groupe Acer — Relations investisseurs](https://www.acer.com/corporate/zh/investor-relations/) — Chiffre d'affaires annuel d'Acer en 2024 : 264,7 milliards de dollars taïwanais, en hausse de 9,7 % en glissement annuel ; part des activités non-PC : 28,3 %
+
+[^5]: [Canalys — Analyse du marché mondial du PC, 2024](https://www.canalys.com/) — Part de marché mondiale des ordinateurs portables d'Acer : environ 5,8 %, sixième marque mondiale d'ordinateurs portables ; troisième mondiale pour les Chromebook avec environ 11,4 % 8. Rapport ESG de développement durable, Groupe Acer, 2024 9. 《台灣科技產業全球化策略》(Stratégies de mondialisation de l'industrie technologique taïwanaise), Linking Publishing, 2022

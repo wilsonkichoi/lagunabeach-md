@@ -1,99 +1,132 @@
 ---
-title: 'Mega Financial Holding : de la banque coloniale au partenaire financier mondial des entreprises taïwanaises'
-description: "Héritière de la Banque de Taïwan fondée en 1897, renommée trois fois et fusionnée à deux reprises, Mega Financial a tissé en 127 ans un réseau dans 38 pays, devenant un acteur incontournable de l'internationalisation des entreprises taïwanaises"
+title: 'Mega Financial Holding : fusion de quatre établissements bancaires, partenaire financier mondial des entreprises taïwanaises, tempête réglementaire de 2016 à New York'
+description: "Mega Financial Holding a été constituée en décembre 2002 par la fusion de cinq institutions financières publiques : la Banque des Communications, la Banctica Internationale de Chine, Zhongxing Bills Finance, Polaris Securities et la Compagnie d'assurances de Chine. En 2006, les filiales Banque des Communications et Banctica Internationale de Chine ont fusionné pour former la Mega International Commercial Bank. Forte de l'héritage centenaire de la Banque des Communications et de l'expertise en opérations de change de la Banctica, Mega a constitué le réseau de succursales à l'étranger le plus étendu de Taïwan, devenant un partenaire central pour l'internationalisation des entreprises taïwanaises. En 2016, sa succursale de New York a été sanctionnée par les autorités américaines à hauteur de 180 millions de dollars américains pour des défaillances en matière de lutte contre le blanchiment d'argent, constituant le plus grand incident réglementaire à l'étranger de l'histoire financière taïwanaise."
 date: 2026-03-20
-tags: [Économie, Entreprises, Finance, Banque publique, Finance internationale]
-subcategory: "Portraits d'entreprises"
+author: 'Taiwan.md Contributors'
 category: 'Economy'
-author: 'Taiwan.md Translation Team'
-readingTime: 8
+subcategory: '企業列傳'
+tags:
+  [
+    'Economy',
+    'Entreprises',
+    'Secteur financier',
+    'Banques publiques',
+    'Finance internationale',
+  ]
+lastVerified: 2026-05-13
+lastHumanReview: true
 featured: false
-lastVerified: 2026-03-20
 translatedFrom: 'Economy/台灣企業：兆豐金控.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:d45f458eabe77e3c'
-sourceBodyHash: 'sha256:9b950fb292247748'
-translatedAt: '2026-04-14T19:20:24+08:00'
+sourceCommitSha: '18157ab5d'
+sourceContentHash: 'sha256:19522eee779cb1b5'
+sourceBodyHash: 'sha256:b25853bdf381bcc3'
+translatedAt: '2026-05-15T14:23:14+08:00'
 ---
 
-> **En 30 secondes**
+# Mega Financial Holding : fusion de quatre établissements bancaires, partenaire financier mondial des entreprises taïwanaises, tempête réglementaire de 2016 à New York
+
+> **Aperçu en 30 secondes**
 >
-> Mega Financial Holding est l'héritière de la Banque de Taïwan fondée en 1897. Son histoire traverse trois époques : la colonisation japonaise, la nationalisation d'après-guerre et la privatisation partielle. Née en 2006 de la fusion de la Chung Kuo International Commercial Bank et de la Bank of Communications, elle cumule 127 ans d'expertise financière. Avec 4 600 milliards de dollars taïwanais d'actifs et 68 implantations dans 38 pays, elle est le partenaire financier privilégié des entreprises taïwanaises à l'international — et l'action financière détenue par le plus grand nombre d'actionnaires particuliers à Taïwan : 520 000 personnes.
+> Mega Financial Holding a été fondée le 31 décembre 2002 par la fusion de cinq institutions financières publiques : la Banque des Communications, la Banctica Internationale de Chine, Zhongxing Bills Finance, Polaris Securities et la Compagnie d'assurances de Chine ; le 21 août 2006, les filiales Banque des Communications et Banctica Internationale de Chine ont fusionné pour former la Mega International Commercial Bank. Forte de l'héritage centenaire de la Banque des Communications et de l'expertise en opérations de change de la Banctica, Mega a constitué un réseau mondial couvrant 38 pays et 68 implantations (en 2024), devenant le partenaire financier central des entreprises taïwanaises à l'étranger. En 2024, ses actifs totalisaient 4 600 milliards de dollars taïwanais, son bénéfice net après impôts s'élevait à 34,766 milliards de dollars taïwanais, et elle comptait 520 000 actionnaires. En 2016, sa succursale de New York a été sanctionnée par les autorités américaines à hauteur de 180 millions de dollars américains pour des défaillances en matière de lutte contre le blanchiment d'argent, constituant le plus grand incident réglementaire à l'étranger de l'histoire financière taïwanaise.[^1]
 
-## La mémoire financière de Chongqing South Road
+## La fusion de quatre établissements bancaires en 2002
 
-Rares sont ceux qui, en entrant dans le siège de la Mega International Commercial Bank sur Chongqing South Road Section 1 à Taipei, réalisent que ce bâtiment abrite la plus longue histoire bancaire de Taïwan. Ces murs étaient autrefois ceux du siège central de la Banque de Taïwan sous l'ère japonaise — point de départ du système financier moderne de l'île.
+L'histoire de Mega Financial Holding commence par la fusion de quatre institutions financières publiques en 2002. À cette époque, Taïwan promouvait la consolidation du secteur financier dans le cadre de la « Loi sur les sociétés de portefeuille financier », et sous l'impulsion du gouvernement, plusieurs institutions financières publiques ont été successivement regroupées au sein de structures de portefeuille financier.[^2]
 
-Il y a 127 ans, quand le gouvernement général japonais fondait la Banque de Taïwan, personne n'imaginait que cette institution officielle deviendrait, plus d'un siècle plus tard, le soutien financier des entreprises taïwanaises dans leur conquête du monde. Encore moins qu'après trois changements de nom et deux grandes fusions, ce fil bancaire traverserait l'histoire jusqu'à former le groupe financier le plus international de Taïwan.
+Le 4 février 2002, la Banque des Communications s'est d'abord associée à International Integrated Securities pour former la « Chiao Tung Financial Holdings Co., Ltd. », constituant l'embryon de ce qui allait devenir Mega Financial Holding. Le 22 août de la même année, Zhongxing Bills Finance et Polaris Securities ont été intégrées au groupe. Le 31 décembre 2002, la Banctica Internationale de Chine et la Compagnie d'assurances de Chine les ont rejointes, et le groupe a été immédiatement renommé « Mega Financial Holding Co., Ltd. ». La transition de Chiao Tung Financial Holdings à Mega Financial Holding n'a pris qu'un an.
 
-## Trois noms, une seule lignée
+Le 21 août 2006, les deux filiales bancaires du groupe — la Banque des Communications et la Banctica Internationale de Chine — ont fusionné pour former la « Mega International Commercial Bank Co., Ltd. ». Il s'agit de la plus importante opération de consolidation depuis la création de Mega Financial Holding, faisant de la Mega Bank la deuxième banque publique de Taïwan, juste après la Banque de Taïwan.
 
-Pour comprendre Mega Financial, il faut d'abord démêler ses origines complexes — une histoire de trois banques, deux fusions historiques.
+## L'héritage historique des établissements membres
 
-En 1897, sous la colonisation japonaise, la **Banque de Taïwan** est fondée pour émettre la monnaie et soutenir l'économie coloniale. Après la guerre, elle devient la banque centrale de la République de Chine et un outil privilégié du développement économique national.
+Mega Financial Holding est la confluence de plusieurs lignées du système financier public taïwanais : il n'existe pas de « banque mère » unique, mais plutôt l'intersection des histoires de plusieurs établissements membres. Pour comprendre Mega, il faut examiner l'histoire individuelle de chacun de ces établissements.
 
-En 1971, le gouvernement crée séparément la **Chung Kuo International Commercial Bank**, spécialisée dans les opérations financières internationales. Taïwan est alors en plein décollage économique et a besoin d'une banque de change professionnelle pour accompagner sa politique d'exportation.
+**La Banque des Communications** : fondée à Pékin en 1907, elle était initialement placée sous l'autorité du ministère des Postes et Communications de la cour Qing, avant de devenir une banque spécialisée dans le financement de l'industrie sous la République de Chine. Après le transfert du gouvernement à Taïwan en 1949, elle a cessé ses activités pendant un certain temps, puis a repris ses opérations en 1960 en tant qu'institution financière de développement à vocation politique, assumant à long terme le financement de la construction industrielle et les opérations financières spécialisées. L'« héritage centenaire » de la Banque des Communications constitue l'actif historique le plus fréquemment invoqué du groupe Mega, et c'est sur cette base que la Banque des Communications est devenue l'architecture centrale du holding financier en 2002.
 
-Le troisième protagoniste est la **Bank of Communications** — fondée à l'initiative du secteur privé, établie à Pékin en 1907, déplacée à Shanghai en 1919, puis relancée à Taïwan après 1949. Chacune de ces trois banques avait sa spécialité : la Banque de Taïwan était la banque d'État, la Chung Kuo se concentrait sur le change et la Bank of Communications servait les entreprises industrielles et commerciales.
+**La Banctica Internationale de Chine** : fondée en 1971 par la restructuration du réseau de succursales à l'étranger de la Banque de Chine, elle était alors rattachée à la Banque centrale. Elle a été positionnée comme la banque de change spécialisée de Taïwan, soutenant la gestion des flux de capitaux dans le cadre de la politique économique tournée vers l'exportation. La Banctica a longtemps constitué le canal central du règlement des échanges commerciaux extérieurs de Taïwan, développant un réseau dense de succursales à l'étranger en Asie, en Amérique du Nord et en Europe.
 
-En 2006, les rouages du destin se mettent en marche : le gouvernement décide de fusionner la Chung Kuo et la Bank of Communications sous le nom de **Mega International Commercial Bank**, intégrée au sein du groupe **Mega Financial Holding**.
+**Zhongxing Bills Finance** : fondée en 1976, elle était l'une des premières institutions financières de billets de trésorerie de Taïwan, spécialisée dans les opérations du marché monétaire à court terme.
+
+**Polaris Securities** : à l'origine une société de courtage globale appartenant au groupe Quo Kuang Industrial, elle a été intégrée au processus de formation de Mega Financial Holding.
+
+**La Compagnie d'assurances de Chine** : fondée à Shanghai en 1931, elle a suivi le gouvernement à Taïwan en 1949 et est l'une des plus anciennes compagnies d'assurances de biens de Taïwan.
+
+Il est important de dissiper une idée reçue courante : **Mega Financial Holding n'a aucun lien historique avec la Banque de Taïwan, fondée en 1897**. La Banque de Taïwan reste à ce jour une banque commerciale publique indépendante (sous l'égide de Taiwan Financial Holding) et n'a aucune relation de fusion ou de succession avec Mega Financial Holding. Le point de départ historique de Mega Financial Holding est la fusion de 2002, et l'établissement membre le plus ancien du groupe remonte à la Banque des Communications de 1907, et non à la Banque de Taïwan.[^2]
+
+## La tempête réglementaire de 2016 à New York pour blanchiment d'argent
+
+Le 19 août 2016, la succursale de New York de la Mega International Commercial Bank a été sanctionnée par le Département des services financiers de l'État de New York (NYDFS) à hauteur de 180 millions de dollars américains (environ 5,7 milliards de dollars taïwanais) pour violation du « Bank Secrecy Act » américain et des réglementations anti-blanchiment de l'État de New York. Il s'agit de la plus importante sanction réglementaire infligée à une institution financière taïwanaise à l'étranger et de l'une des crises de conformité les plus médiatisées de l'histoire financière taïwanaise.[^3]
+
+Dans son avis de sanction, le NYDFS a souligné des défaillances majeures dans la surveillance anti-blanchiment des comptes clients de la succursale de Mega à New York, notamment en ce qui concerne les régions à haut risque telles que le Panama, incluant une vérification inadéquate de l'identité des clients, des déclarations incomplètes de transactions suspectes et un personnel de conformité insuffisant sur le long terme. Après la révélation de l'incident, la Commission de supervision financière (FSC) a également mené des inspections financières et infligé des sanctions aux responsables concernés.[^4]
+
+En janvier 2018, la succursale de New York de la Mega Bank a été sanctionnée une nouvelle fois par la Réserve fédérale américaine (Fed) à hauteur de 29 millions de dollars américains pour de nouvelles défaillances de conformité. Les deux sanctions combinées ont totalisé près de 6,4 milliards de dollars taïwanais, constituant un revers majeur pour une institution financière publique taïwanaise à l'étranger.
+
+À la suite de cette tempête réglementaire, Mega Financial Holding a considérablement renforcé ses mécanismes de contrôle interne en matière de lutte contre le blanchiment d'argent et le financement du terrorisme (AML/CFT), augmenté les effectifs dédiés à la conformité, fait appel à des consultants internationaux pour mettre en place un système de conformité et réformé la structure de supervision de la conformité de ses succursales à l'étranger. Bien que cet incident ait gravement terni la réputation de la marque Mega, il est également devenu un tournant pour l'ensemble du secteur financier taïwanais dans l'amélioration des normes de conformité internationale. Par la suite, les politiques de renforcement de la lutte contre le blanchiment d'argent promues par la FSC auprès de l'ensemble des institutions financières se sont largement inspirées du cas Mega comme référence négative pour la conception réglementaire.
+
+## La performance opérationnelle en 2024
+
+En 2024, Mega Financial Holding a affiché des résultats remarquables : un bénéfice net après impôts de 34,766 milliards de dollars taïwanais, en hausse de 5 % en glissement annuel, atteignant un niveau record. Dans un contexte de mutation des taux d'intérêt mondiaux et de tensions géopolitiques, ce niveau de rentabilité témoigne d'une performance solide et stable.[^5]
+
+Avec des actifs de 4 600 milliards de dollars taïwanais, Mega Financial Holding se positionne comme le premier holding financier public de Taïwan, juste derrière Taiwan Financial Holding (la société mère de la Banque de Taïwan). Son ratio de fonds propres dépasse 13 %, bien au-dessus des exigences réglementaires, reflétant la stratégie de gestion prudente du capital adoptée par Mega sur le long terme.
+
+La contribution des activités à l'étranger mérite une attention particulière. Avec l'internationalisation croissante des entreprises taïwanaises, les activités internationales de Mega Financial Holding se sont développées rapidement, et leur contribution au bénéfice du groupe s'est accrue d'année en année. Le rythme d'internationalisation des entreprises taïwanaises ne devrait pas ralentir, et cette dynamique devrait continuer de soutenir les activités internationales de Mega Financial.
+
+En avril 2024, Mega Financial Holding a annoncé le versement d'un dividende en espèces de 1,05 dollar taïwanais par action, avec un rendement de dividende atteignant 4,24 %. Mega Financial est l'une des actions financières comptant le plus grand nombre d'actionnaires à Taïwan et constitue un placement financier de référence pour les investisseurs en quête de revenus stables, notamment les retraités.
 
 ## La confiance de 520 000 actionnaires
 
-En avril 2024, Mega Financial annonce un dividende en numéraire de 1,05 TWD par action, pour un rendement de 4,24 %. L'annonce réjouit ses 520 000 actionnaires — un record parmi les actions financières taïwanaises, et une valeur particulièrement accessible pour les investisseurs particuliers.
+Pourquoi Mega Financial bénéficie-t-il d'une telle confiance de la part des investisseurs ? La réponse réside dans son style de gestion prudent.
 
-Pourquoi cette confiance si large ? La réponse tient à son style de gestion prudent et rigoureux.
+En tant que l'un des leaders des banques publiques, Mega Financial a hérité de la prudence et de la conservatisme caractéristiques de l'époque étatique. Il ne recherche pas une croissance agressive, n'effectue pas d'investissements à haut risque, mais se concentre sur une gestion solide des activités de base. Lors de la crise financière de 2008, Mega Financial a maintenu une rentabilité stable, sans être directement touché par la crise des banques d'investissement occidentales.
 
-En tant que principale banque publique, Mega Financial a hérité des gènes conservateurs de l'ère nationale. Elle ne recherche pas une croissance agressive, n'investit pas dans des actifs risqués, et se concentre sur des activités fondamentales bien maîtrisées. Lors de la crise financière de 2008, quand les banques d'investissement occidentales s'effondraient, Mega maintenait des bénéfices stables — jouant le rôle de stabilisateur du système financier taïwanais.
+La stabilité du versement des dividendes mérite également d'être soulignée. Mega Financial est l'une des rares actions financières à avoir versé des dividendes de manière continue pendant plusieurs années consécutives, ce qui la rend particulièrement attractive pour les retraités en quête de revenus stables. C'est également la raison principale pour laquelle Mega Financial compte une base de 520 000 actionnaires.
 
-La régularité des dividendes est également un atout majeur. Mega est l'une des rares actions financières à avoir distribué des dividendes plusieurs années de suite, ce qui en fait un placement particulièrement apprécié des retraités en quête de revenus stables. C'est pourquoi elle compte 520 000 actionnaires, des ménagères du marché aux jeunes cadres de la tech : Mega Financial est pour tous une valeur refuge à long terme.
+## Un réseau de 68 implantations au service des entreprises taïwanaises dans le monde
 
-## Un réseau de 68 implantations au service des entreprises taïwanaises
+Le véritable avantage concurrentiel de Mega Financial réside dans son réseau international inégalé. Avec 68 implantations commerciales dans 38 pays (en 2024), ce chiffre est unique dans le secteur financier taïwanais. La racine de ce réseau est le système de succursales de change constitué par la Banctica Internationale de Chine depuis les années 1970.
 
-Mais le véritable avantage concurrentiel de Mega Financial réside dans son réseau international sans équivalent : 68 bureaux dans 38 pays — un chiffre unique dans le secteur bancaire taïwanais.
+Ces implantations sont réparties dans les principales villes financières de l'Asie-Pacifique, de l'Amérique du Nord et de l'Europe, offrant aux entreprises taïwanaises les services de financement du commerce, de couverture de change et de gestion transfrontalière de trésorerie nécessaires à leur internationalisation.
 
-De Wall Street à Ginza, du port de Sydney à la City de Londres, l'enseigne Mega est présente dans tous les grands centres financiers mondiaux. Ces implantations ne sont pas des vitrines : elles constituent un soutien essentiel pour les entreprises taïwanaises qui s'internationalisent.
+Imaginez : un fabricant d'électronique taïwanais souhaitant établir une usine au Vietnam a besoin de financement local et de couverture de change ; une entreprise textile souhaitant créer une ligne de production au Mexique a besoin d'une gestion transfrontalière de trésorerie ; une entreprise manufacturière traditionnelle souhaitant se transformer en entreprise multinationale a besoin de services de gestion de trésorerie mondiale. Dans ces moments cruciaux, le réseau international de Mega Financial est le partenaire financier le plus fiable pour les entreprises taïwanaises.
 
-Imaginez : un fabricant taïwanais d'électronique qui ouvre une usine au Vietnam a besoin de financement local et de couverture de change ; une société textile qui construit une ligne de production au Mexique doit gérer des flux financiers transfrontaliers ; une PME manufacturière qui se transforme en groupe multinational a besoin d'une gestion de trésorerie mondiale. À chacun de ces moments clés, le réseau international de Mega est le partenaire financier le plus fiable.
+## La transformation commerciale d'une banque à vocation politique
 
-Ce qui compte, c'est aussi l'expérience accumulée au service des entreprises taïwanaises. Après des décennies de présence, Mega a bâti un écosystème complet de services financiers — du financement commercial à la gestion patrimoniale, de la couverture de change à la gestion de trésorerie — une capacité de service que les autres banques peinent à reproduire.
+Le succès de Mega Financial illustre également les résultats de la réforme de commercialisation des entreprises publiques taïwanaises. Il a su conserver les avantages de la gestion prudente propre aux banques publiques tout en développant la flexibilité nécessaire à la concurrence sur le marché.
 
-## Un bilan 2024 remarquable
+Sur le plan de la mise en œuvre des politiques publiques, Mega Financial accompagne la politique gouvernementale de « Nouvelle politique en direction du Sud » en renforçant sa présence en Asie du Sud-Est ; en matière de stabilité des marchés financiers, il joue un rôle important de stabilisateur ; en ce qui concerne le financement des petites et moyennes entreprises, il assume sa responsabilité sociale.
 
-Les résultats 2024 de Mega Financial sont éloquents : bénéfice net après impôts de 34,77 milliards de TWD, en hausse de 5 % sur un an, soit un record historique. Ce qui impressionne davantage encore, c'est que cette performance a été réalisée dans un contexte de mutations des taux d'intérêt mondiaux et de tensions géopolitiques.
+Mais il n'est pas non plus un simple instrument de politique publique. Face à la concurrence des banques exclusivement numériques et des technologies financières (fintech), Mega Financial a engagé sa transformation numérique, lançant des comptes numériques My Bank, des services de banque ouverte par API et d'autres innovations. Cet équilibre entre prudence et innovation constitue précisément l'avantage concurrentiel de Mega Financial.
 
-Avec 4 600 milliards de TWD d'actifs, Mega est la deuxième banque de Taïwan, derrière la Banque de Taïwan. Mais comparée aux banques privées, sa rentabilité et la qualité de ses actifs sont remarquables : son ratio de fonds propres dépasse les 13 %, bien au-dessus des exigences réglementaires.
+## Un avenir fait de défis et d'opportunités
 
-La contribution des activités à l'étranger mérite une attention particulière. À mesure que les entreprises taïwanaises s'internationalisent, les activités hors de Taïwan de Mega progressent rapidement et représentent désormais une source de profit majeure pour le groupe. Cette tendance devrait se poursuivre, car le mouvement d'internationalisation des entreprises taïwanaises ne s'arrêtera pas.
+Mega Financial fait également face à de nombreux défis. Un environnement de taux d'intérêt durablement bas compresse les marges d'intérêt nettes du secteur bancaire, les technologies financières bouleversent les modèles de services bancaires traditionnels, et les réglementations internationales anti-blanchiment deviennent de plus en plus strictes — en particulier après l'incident de la sanction de New York en 2016, Mega a accru sa prudence en matière de conformité à l'étranger, ce qui implique également une hausse des coûts d'expansion internationale.
 
-## La transformation d'une banque d'État vers le marché
+Mais les opportunités sont tout aussi manifestes. L'internationalisation des entreprises taïwanaises génère un moteur de croissance pour les services financiers transfrontaliers de Mega Financial ; la finance durable ESG devient une nouvelle tendance, et les activités de finance verte de Mega Financial offrent de vastes perspectives ; l'intégration économique asiatique renforce davantage l'avantage de la présence de Mega Financial dans la région Asie-Pacifique.
 
-Le succès de Mega Financial illustre également les fruits de la réforme des entreprises publiques taïwanaises. Elle a su combiner les avantages d'une gestion prudente héritée du secteur public avec la flexibilité de la compétition de marché.
+Le plus important est qu'avec le renforcement de la position de Taïwan dans les chaînes d'approvisionnement mondiales, les besoins financiers internationaux des entreprises taïwanaises ne feront que se diversifier et se spécialiser davantage, ce qui constitue précisément l'opportunité de Mega Financial.
 
-Sur le plan politique, Mega accompagne activement la politique New Southbound en renforçant sa présence en Asie du Sud-Est. Dans la stabilisation des marchés financiers, elle joue un rôle de régulateur de premier plan. Dans le financement des PME, elle assume pleinement sa responsabilité sociale.
+## 22 ans de services financiers de 2002 à aujourd'hui
 
-Mais elle n'est pas un simple outil de politique publique. Face au défi des néobanques et des fintechs, Mega mène activement sa transformation numérique — compte numérique My Bank, open banking via API, et autres services innovants. Cet équilibre entre stabilité et innovation est précisément ce qui forge son avantage concurrentiel.
+Au cours des 22 ans de services financiers de 2002 à 2024, Mega Financial Holding a été témoin de plusieurs étapes clés de l'économie taïwanaise : la signature de l'ECFA entre les deux rives du détroit de Taïwan, le pic des investissements à l'étranger des entreprises taïwanaises, la crise financière mondiale de 2008, la tempête réglementaire de New York en 2016, la promotion de la politique de « Nouvelle politique en direction du Sud », ainsi que la restructuration des chaînes d'approvisionnement mondiales par les tensions géopolitiques dans les années 2020.
 
-## Des défis et des opportunités en parallèle
+Il a accompagné la mondialisation des entreprises taïwanaises et soutenu la stabilité de l'économie taïwanaise lors de multiples périodes de turbulence. La valeur de Mega Financial Holding ne réside pas dans l'ancienneté de son histoire (son architecture de holding financier n'a que 22 ans), mais dans la profondeur historique héritée de ses établissements membres, son réseau international et sa compréhension approfondie de la structure économique taïwanaise.
 
-Mega Financial fait face à des défis réels. Les marges nettes d'intérêt se compriment dans un contexte de taux bas prolongés, les fintechs remettent en question les modèles bancaires traditionnels, et les réglementations anti-blanchiment se durcissent à l'échelle mondiale. Tous ces facteurs mettent à l'épreuve la capacité d'adaptation de Mega.
+Depuis sa fondation en 2002, Mega Financial Holding a hérité de décennies, voire d'un siècle, d'accumulation d'activités de la Banque des Communications, de la Banctica Internationale de Chine et d'autres établissements membres, continuant de jouer un rôle central dans l'internationalisation du secteur financier taïwanais.
 
-Les opportunités sont tout aussi évidentes. L'internationalisation continue des entreprises taïwanaises alimente la demande de services financiers transfrontaliers ; la finance durable et l'ESG ouvrent de larges perspectives pour les activités de finance verte de Mega ; l'intégration économique de l'Asie-Pacifique renforce les atouts du groupe dans la région.
+## Direction actuelle
 
-Et surtout : à mesure que Taïwan occupe une place croissante dans les chaînes d'approvisionnement mondiales, les besoins financiers internationaux des entreprises taïwanaises ne feront que se diversifier et se sophistiquer. C'est là que réside l'opportunité de Mega.
-
-## 127 ans d'héritage bancaire
-
-De la Banque de Taïwan en 1897 à Mega Financial Holding en 2024 : 127 ans d'histoire financière qui témoignent de l'évolution complète de Taïwan, de société agraire à île technologique. Cette institution a participé au développement économique de l'ère japonaise, soutenu la reconstruction d'après-guerre, accompagné l'essor international des entreprises taïwanaises — et elle sera là pour traverser le prochain siècle avec l'économie taïwanaise.
-
-À l'heure où les fintechs bouleversent le secteur, la valeur de Mega Financial ne tient pas à sa taille, mais à son héritage historique, à son réseau international et à sa compréhension profonde de l'économie taïwanaise. Ce sont là des avantages concurrentiels que ses rivaux ne peuvent pas reproduire facilement.
-
-La confiance de 520 000 actionnaires n'est pas le fruit du hasard. Le réseau de 68 implantations dans 38 pays ne s'est pas construit en une nuit. Et 127 ans de transmission bancaire ne se remplacent pas aisément. Dans un secteur financier taïwanais confronté à de nouveaux défis, Mega Financial reste le partenaire financier le plus fiable et le moteur de l'expansion mondiale des entreprises taïwanaises.
+Le président actuel de Mega Financial Holding est **Lei Chung-da** (en fonction depuis septembre 2023), qui poursuit la promotion de la transformation numérique et du renforcement de la conformité durant son mandat. Pour les informations détaillées sur le directeur général et la composition du conseil d'administration, veuillez consulter la page officielle des relations investisseurs de Mega Financial Holding ([megaholdings.com.tw](https://www.megaholdings.com.tw/tc/about02.aspx)).[^2]
 
 ## Références
 
-- [Site officiel de Mega Financial Holding et rapport annuel 2024](https://www.megaholdings.com.tw/)
-- [Wikipédia : Mega International Commercial Bank](https://zh.wikipedia.org/zh-tw/%E5%85%86%E8%B1%90%E5%9C%8B%E9%9A%9B%E5%95%86%E6%A5%AD%E9%8A%80%E8%A1%8C)
-- [Wikipédia : Mega Financial Holding](https://zh.wikipedia.org/zh-hant/%E5%85%86%E8%B1%90%E9%87%91%E8%9E%8D%E6%8E%A7%E8%82%A1)
-- [UDN : 520 000 actionnaires ravis — dividende Mega au plus haut depuis cinq ans, rendement 4,2 %](https://udn.com/news/story/7251/8029468)
-- [Financial Supervisory Commission — données statistiques](https://www.fsc.gov.tw/)
+[^1]: [Mega Financial Holding — Wikipédia](https://zh.wikipedia.org/zh-tw/%E5%85%86%E8%B1%90%E9%87%91%E6%8E%A7) — Chronologie complète de Mega Financial Holding, incluant la fondation du 31/12/2002 et l'histoire des établissements membres.
+
+[^2]: [Mega Financial Holding — Présentation du groupe](https://www.megaholdings.com.tw/tc/about02.aspx) — Architecture officielle du groupe Mega Financial Holding, historique des sociétés membres et calendrier des fusions.
+
+[^3]: [China Times : Chronologie des lourdes sanctions contre la Mega Bank](https://www.chinatimes.com/newspapers/20200924000486-260110) — Sanction de 180 millions de dollars américains par le NYDFS en 2016 et amende supplémentaire de la Fed en 2018.
+
+[^4]: [Rapport d'enquête du Yuan de contrôle — Affaire de la succursale de New York de la Mega Bank](https://www.cy.gov.tw/News_Content.aspx?n=124&sms=8912&s=8049) — Rapport d'enquête du Yuan de contrôle sur les irrégularités de la succursale de New York de la Mega Bank et les manquements de la Commission de supervision financière.
+
+[^5]: [United Daily News : 520 000 actionnaires en liesse ! Le dividende en espèces de Mega Financial atteint son plus haut niveau en cinq ans, rendement de 4,2 %](https://udn.com/news/story/7251/8029468) — Politique de dividendes et structure de l'actionnariat de Mega Financial en 2024.
+
+[^6]: [Mega International Commercial Bank — Wikipédia](https://zh.wikipedia.org/wiki/%E5%85%86%E8%B1%90%E5%9C%8B%E9%9A%9B%E5%95%86%E6%A5%AD%E9%8A%80%E8%A1%8C) — Registres détaillés de la fusion de la Banque des Communications et de la Banctica Internationale de Chine pour former la Mega Bank le 21/08/2006.

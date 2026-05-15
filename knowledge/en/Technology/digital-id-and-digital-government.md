@@ -1,162 +1,172 @@
 ---
-translatedFrom: 'Technology/數位身分證與數位政府.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:29bb34fbe5bc3139'
-sourceBodyHash: 'sha256:421fd13a4ac20718'
-translatedAt: '2026-05-13T01:07:52Z'
 title: 'Digital ID and Digital Government'
 description: "A chip card that was never issued cost NT$280 million in compensation — Taiwan's digital government story is proof that trust is harder to build than technology"
 date: 2026-03-18
+author: 'Taiwan.md'
+category: 'Technology'
 subcategory: '開源社群'
 tags:
   [
-    'digital government',
-    'digital ID',
-    'e-government',
-    'Ministry of Digital Affairs',
+    '數位政府',
+    '數位身分證',
+    '電子化政府',
+    '數位發展部',
     'g0v',
-    'cybersecurity',
-    'personal data protection',
+    '資安',
+    '個資保護',
   ]
-author: 'Taiwan.md'
-difficulty: 'intermediate'
 readingTime: 12
-featured: true
-category: 'Technology'
 lastVerified: 2026-03-24
 lastHumanReview: false
+featured: true
+translatedFrom: 'Technology/數位身分證與數位政府.md'
+sourceCommitSha: '24efd20f3'
+sourceContentHash: 'sha256:06fbc10ed01b5aa5'
+sourceBodyHash: 'sha256:f5b7d5b360840e4c'
+translatedAt: '2026-05-15T14:23:13+08:00'
 ---
 
 # Digital ID and Digital Government
 
-> **30-Second Overview:** In January 2021, a chip ID card that had never been issued cost the Taiwanese government approximately NT$280 million in compensation. The project, called New eID, was originally meant to let 23 million people "handle everything with one card," but was forced to halt after more than 2,000 academics signed a petition opposing it. Ironically, in the very same year that the digital ID ran aground, Taiwan's civic hacker community produced a mask map in a matter of days — a digital government service no one was compelled to use, yet everyone rushed to use. The real story of Taiwan's digital governance is not about how advanced the technology is; it's about how trust gets built.
+> **30-second overview:** In January 2021, a chip-based national ID card that had never been issued cost the Taiwanese government roughly NT$280 million (approximately US$10 million) in compensation. The program, called New eID, was supposed to let 23 million people "handle all affairs with one card." Instead, it was suspended after more than 2,000 scholars signed a petition in opposition. The irony is that in the same year the digital ID program stalled, Taiwan's civic hacker community built a mask availability map in a matter of days — a digital government service that no one was forced to use, yet everyone rushed to use. The real story of Taiwan's digital governance is not about whether the technology is advanced enough, but about how trust is built.
 
 ---
 
-## A Trust Crisis Triggered by One Card
+## A Card That Sparked a Crisis of Trust
 
-In June 2019, Premier Su Tseng-chang posted a promotional video on Facebook touting the upcoming universal rollout of the digital ID card. He said: "In the past people said 'a wise man knows all under heaven without leaving home'; in the future it will be 'a wise man can handle all under heaven without leaving home.'" Executive Yuan Secretary-General Li Meng-yan added: "128 countries around the world already use chip digital ID cards; Taiwan needs to catch up with global trends." (Quoting from a 2021 investigative report by The Reporter)
+In June 2019, Premier Su Tseng-chang posted a promotional video on Facebook touting the upcoming full rollout of the digital national ID card. He said: "The old saying was 'a scholar never leaves home, yet knows all under heaven.' In the future, it will be 'a scholar never leaves home, yet can handle all affairs under heaven.'" Secretary-General of the Executive Yuan Li Meng-yueh added: "128 countries around the world already use chip-based digital ID cards. Taiwan must catch up and keep pace with global trends." (As reported in The Reporter's 2021 investigative report)
 
-What the Executive Yuan did not anticipate was that what came back was not applause but wave after wave of opposition.
+What the Executive Yuan did not expect was not applause, but wave after wave of opposition.
 
-The Taiwan Association for Human Rights and the Open Culture Foundation launched a petition; the Judicial Reform Foundation filed administrative litigation against the government; Academia Sinica held a two-day symposium and then drafted a policy white paper recommending the plan be suspended. In November 2020, the Legislative Yuan froze the NT$400 million budget for the ID card replacement program. Then on January 21, 2021, Premier Su Tseng-chang decided — a digital ID card replacement program with more than NT$4.8 billion in funding would be suspended.
+The Taiwan Association for Human Rights and the Open Culture Foundation launched a petition. The Judicial Reform Foundation filed an administrative lawsuit against the government. Academia Sinica held a two-day symposium and subsequently issued a policy white paper recommending a suspension. In November 2020, the Legislative Yuan directly froze NT$400 million of the ID replacement program's budget. On January 21, 2021, Premier Su Tseng-chang made the final call: the digital ID replacement program, with total funding exceeding NT$4.8 billion (including a NT$3.29 billion card manufacturing contract among multiple procurement packages — the overall program budget figures vary depending on the accounting scope[^1]), was suspended.
 
 > 📝 **Curator's Note**
-> A democratic government spent NT$4.8 billion pushing a plan, and its own civil society stopped it. This is uncommon globally. In most countries, digital ID cards operate on the principle "government decides, citizens accept" — India's Aadhaar system enrolled 1.2 billion people, and the controversy hasn't stopped to this day, but the card was issued anyway. Taiwan's New eID remains on the suspended list to this day.
+> A democratic government spent NT$4.8 billion pushing a program that was ultimately stopped by its own civil society. This is not common globally. In most countries, digital ID programs follow a "government decides, people accept" model. India's Aadhaar system enrolled 1.2 billion people; the controversy has never stopped, but the cards were still issued. Taiwan's New eID remains on the suspension list to this day.
 
 ---
 
-## The Cards Were Already Printed Before Anyone Asked the Experts
+## The Cards Were Already Being Printed Before Experts Were Consulted
 
-This card's failure was not a technology problem; it was a process problem.
+The failure of this card was not a technical problem — it was a procedural one.
 
-The digital ID card project was divided into four procurement contracts: the planning contract was won by a management consultancy; the card-manufacturing contract worth NT$3.29 billion was won by Teco Electric; the systems contract — after multiple failed tenders — was won by Chunghwa Telecom; and the verification contract was won by a digital technology firm. The problem: by early 2020, before details had been made public, the latter three contracts had already been awarded.
+The digital ID program was divided into four procurement contracts: the planning contract was awarded to Giga Management Consulting; the NT$3.29 billion card manufacturing contract went to TECO Electric & Machinery; the system contract, after multiple failed bids, was awarded to Chunghwa Telecom; and the verification contract went to DTC Information. The problem: in early 2020, before any details had been made public, the latter three contracts had already been awarded.
 
-A member of the Ministry of the Interior's working group told The Reporter: "The card tender had already been completed, and then they asked us whether we had any comments on the specifications? The Central Engraving and Printing Plant had already finished its work before we reviewed the overall plan." He said, "Many people thought the steering committee was just a rubber stamp." (Quoting from a 2021 investigative report by The Reporter)
+A member of the Ministry of the Interior's working group told _The Reporter_: "The card manufacturing contract had already been awarded before they came to ask us whether we had any comments on the specifications. The Central Engraving and Printing Plant had already finished its work before we reviewed the overall plan." He added, "Many people felt the task force was just a rubber stamp." (As reported in The Reporter's 2021 investigative report)
 
-Some members later came out publicly in opposition; others simply refused to attend subsequent meetings.
+Some members later publicly opposed the program; others simply refused to attend subsequent meetings.
 
-This was not Taiwan's first time stumbling on a chip ID card. In 1998, the KMT government had pushed for a "National Card" — cramming an ID, National Health Insurance card, and fingerprint data all into a single chip card. That initiative fizzled under protests from academics and civic groups. Twenty years later, the problem wore a different face, but the core contradiction had not changed.
+This was not Taiwan's first stumble over chip-based ID cards. In 1998, the KMT government pushed a "National Card" program that would have crammed the national ID card, the National Health Insurance card, and fingerprint data all onto a single chip card. That effort died quietly amid protests from scholars and civil society groups. Twenty years later, the problem wore a different face, but the core contradiction had not changed.
 
 ---
 
-## "A Digital ID Can Be the Foundation of a Smart Government, or the Infrastructure of an Authoritarian One"
+## "A Digital ID Can Be the Foundation of a Smart Government — or the Infrastructure of an Authoritarian One"
 
-Academia Sinica Institute of Law researcher Chiu Wen-tsang is one of the most important academic voices on Taiwan's digital ID issue. In an Academia Sinica interview, he explained the fundamental problem:
+Qiu Wencong, a researcher at the Institutum Iurisprudentiae (Institute of Law) at Academia Sinica, is one of the most important academic voices on Taiwan's digital ID debate. In an interview with Academia Sinica, he explained the root of the problem:
 
-"The biggest reason is the digital footprint problem. With paper documents, unless someone specifically transcribes the contents after viewing them, no data is retained. But in a digital environment, every use necessarily leaves a usage record. As digital footprints accumulate from our constant daily use of the ID card, the worst-case scenario is the emergence of a surveillance mechanism resembling the social credit scoring system on the other side of the strait." (Quoting from an Academia Sinica Institute of Law interview)
+"The biggest issue is the problem of digital footprints. With a paper document, once someone looks at it on the spot, no record is left unless the content is separately transcribed. But in a digital environment, there will always be a usage log. As digital footprints accumulate through our constant use of ID cards in daily life, the worst-case scenario is the emergence of a surveillance mechanism like the social credit scoring system across the strait." (As reported in the Institutum Iurisprudentiae interview)
 
-Lawyer Lin Yu-teng, who assisted the Judicial Reform Foundation's litigation, was even more direct: "A digital ID card can be the foundation of a smart government, or the infrastructure of an authoritarian government. The difference between good and bad lies in the importance of accountability mechanisms." (Quoting from a 2021 investigative report by The Reporter)
+Lin Yuteng, the lawyer who assisted the Judicial Reform Foundation with its lawsuit, put it more bluntly: "A digital ID card can be the foundation of a smart government, or it can be the infrastructure of an authoritarian government. The difference between good and bad is the importance of an accountability system." (As reported in The Reporter's 2021 investigative report)
 
 > 📝 **Curator's Note**
-> This statement is the core of the entire controversy. Taiwan transitioned from authoritarianism to democracy only 40 years ago, and its sensitivity to "the state knowing your every whereabouts" is higher than in most countries. This is not paranoia — in early 2020, more than 20 million household registration records were discovered for sale on the dark web, and the Ministry of the Interior's response was to deny that the data came from the government. As Chiu Wen-tsang noted: "A characteristic of democratic society is that there will be changes of government. Even if the current government would not engage in state surveillance, you cannot guarantee that future politicians who advocate state surveillance will not come to power."
+> This statement is at the heart of the entire controversy. Taiwan's transition from authoritarianism to democracy took only about 40 years. Sensitivity to the idea that "the state knows your every move" is higher here than in most countries. This is not paranoia: in early 2020, more than 20 million household registration records were found for sale on the dark web, and the Ministry of the Interior denied that the data had come from the government. Qiu Wencong pointed out: "A defining feature of a democratic society is that power changes hands. Even if the current government would not engage in state surveillance, you cannot guarantee that a future politician who advocates for state surveillance will not come to power."
 
 ---
 
-## Estonia Did It — But Taiwan Learned the Wrong Lessons
+## Estonia Did It Right — But Taiwan Learned the Wrong Lessons
 
-When the Ministry of the Interior was promoting New eID, the success story it most loved to cite was Estonia (愛沙尼亞, zh only). This small Baltic country of only 1.32 million people has built what the World Bank calls "the world's most successful digital ID system." 99% of government services can be completed online. They even created off-site backups of the "government data" itself — so that if the country were invaded, the government could continue operating in the cloud.
+When the Ministry of the Interior promoted New eID, the success story it cited most often was Estonia. This Baltic nation of just 1.32 million people has built what the World Bank calls "the world's most successful digital ID system." Ninety-nine percent of government services can be completed online. They even backed up "government data" itself in an offsite location, so that if the country were invaded, the government could continue operating from the cloud.
 
-> **Numbers:**
+> **🔢 By the Numbers**
 >
-> - Estonia: digital ID card adoption rate **97%**, digital civic participation rate **globally ranked first** (UN ranking)
-> - Taiwan's Natural Person Certificate (issued 2003): until the suspension, actual usage rates remained persistently low, with use concentrated in tax filing season
+> - Estonia: digital ID adoption rate **97%**, digital citizen participation ranked **#1 globally** (UN assessment)
+> - Taiwan's自然人憑證 (Natural Person Certificate, issued in 2003): up until the suspension, actual usage remained consistently low, concentrated mainly during tax filing season
 
-But Chiu Wen-tsang pointed out that Taiwan had only learned Estonia's technological surface without learning the institutional foundations beneath it. Estonia has specific legislation strictly regulating ID card usage, and — more crucially — every citizen can query at any time "who, when, and for what purpose accessed their data," and can immediately file a complaint if they find an anomaly. When Estonia suffered a large-scale government data breach in 2007, the government immediately acknowledged it publicly and reissued ID numbers nationwide.
+But Qiu Wencong pointed out that Taiwan learned only the technical surface of Estonia's system, not the institutional muscle underneath. Estonia has dedicated legislation strictly governing the use of ID cards, and more critically — every citizen can at any time query "who, when, and for what purpose accessed my data," and can immediately file a lawsuit if anything looks abnormal. When a massive government data breach occurred in Estonia in 2007, the government publicly acknowledged it within the first hours and reissued national ID numbers across the entire country.
 
-In 2019, after the Ministry of the Interior visited Estonia, it wrote in its report: "The government should promote this with the utmost caution, rigor, and care, but when a once-in-a-thousand chance of error does occur, the government should have the courage to admit it." Then they returned to Taiwan and did almost the exact opposite.
+In 2019, after a visit to Estonia, the Ministry of the Interior wrote in its report: "The government should promote this with the most careful, rigorous, and meticulous attitude. Yet when the inevitable slip occurs, the government should have the courage to admit its mistakes." Then it returned to Taiwan and did almost the exact opposite.
 
 ---
 
 ## The Mask Map: Another Path for Digital Government
 
-The digital ID ran aground, but Taiwan's digital governance is not a wasteland. In fact, what best represents the spirit of Taiwan's digital government is not the top-down New eID but the bottom-up civic tech and open-source community (公民科技與開源社群, zh only) — the g0v Zero Hour Government.
+The digital ID program stalled, but Taiwan's digital governance is not a wasteland. In fact, what best represents the spirit of Taiwan's digital government is not the top-down New eID, but the bottom-up g0v (零時政府, "Government at Zero Hour") movement.
 
-In February 2020, as the COVID-19 epidemic was breaking out, Taiwan implemented a mask rationing system by real name, but residents didn't know which pharmacies still had masks. Wu Chan-wei, founder of Tainan's Wanting Lab, was the first to build a prototype mask map for convenience stores. Digital Minister [Audrey Tang](/en/people/audrey-tang/), who was then a Minister without Portfolio, saw it, immediately reached out to Wu Chan-wei, and within a few days coordinated the government to release open real-time mask inventory APIs.
+In February 2020, at the onset of the COVID-19 pandemic, Taiwan implemented a mask rationing system under its name-based purchase program, but people had no way of knowing which pharmacies still had masks in stock. Wu Zhanwei, founder of the Tainan Hao Xiang Workshop, built the first prototype of a convenience store mask availability map. [[Audrey Tang]], then a minister without portfolio, saw it, immediately contacted Wu, and within days coordinated the government to release an open API for real-time mask inventory data.
 
-> "Audrey Tang had decision-making authority and could also write code herself, so we didn't need to go up to Taipei to report to some official — developers could just focus on developing." — Wu Chan-wei (quoting from a 2020 Technews report)
+> "Tang had decision-making authority and could write code herself, so none of us had to travel north to report to any official. The developers could just focus on developing." — Wu Zhanwei (as reported in TechNews 2020)
 
-Thousands of civic hackers joined an online hackathon. According to NPR's reporting, within six days of Wu Chan-wei releasing the first version of the map, all residents of Taiwan could check the real-time mask inventory at every pharmacy. Developers in South Korea and Japan subsequently emulated the Taiwan model — but most concluded that the Taiwan experience was hard to replicate.
+More than a thousand civic hackers joined an online hackathon. According to an NPR report[^6], within six days of Wu launching the first version of the map, people across all of Taiwan could check real-time mask inventory at every pharmacy. Developers in South Korea and Japan subsequently followed Taiwan's model, but most concluded that the Taiwan experience was difficult to replicate.
 
-The lesson from this story is not just about technology. The contrast between the digital ID card and the mask map reveals the core paradox of digital government: **the government's most successful digital services are often not designed by the government itself.**
+The lesson of this story is not just about technology. The contrast between the digital ID card and the mask map reveals the central paradox of digital government: **the government's most successful digital services are often not designed by the government itself.**
 
 ---
 
-## From Digital Minister to Ministry of Digital Affairs
+## From Minister Without Portfolio to the Ministry of Digital Affairs
 
-[Audrey Tang's](/en/people/audrey-tang/) role in the mask map — not as a commander but as a bridge-builder — was later extended to her new position. On August 27, 2022, Taiwan's Ministry of Digital Affairs (moda) officially launched, with Audrey Tang as its inaugural minister. At the unveiling ceremony she noted that "moda" sounds like "motor" (馬達) in Mandarin, expressing the aspiration to serve as the engine of Taiwan's digital development.
+Audrey Tang's role in the mask map was that of a bridge-builder rather than a commander, and this positioning carried over to her next role. On August 27, 2022, Taiwan's Ministry of Digital Affairs (moda) was officially established, with Tang serving as its inaugural minister (tenure from 2022 to May 2024[^4]; she was succeeded by Huang Yen-nan in May 2024 — all references to Tang in this article refer to her role as inaugural minister). At the inauguration, she noted that "moda" sounds like "motor" in Mandarin, expressing her hope that it would become the engine of Taiwan's digital development.
 
-The establishment of the Ministry of Digital Affairs was itself one of the products of New eID's failure. When the digital ID was suspended, Interior Minister Hsu Kuo-yung candidly admitted that there was currently "no answer" as to who the future digital ID's competent authority would be, or whether a new dedicated agency would need to be established. Two years later, the answer was revealed — the Ministry of Digital Affairs took over the entire puzzle.
+The establishment of the Ministry of Digital Affairs was itself partly a product of New eID's failure. When the digital ID program was suspended, Minister of the Interior Hsu Kuo-yung admitted that "who will be the competent authority for the digital ID card, and whether a new dedicated agency is needed — there is currently no answer." Two years later, the answer arrived: the Ministry of Digital Affairs took over the entire puzzle.
 
-But the challenges remain enormous. White-hat hacker "Howard" (a pseudonym) identified structural problems in an interview with The Reporter: "The fundamental problem in government is that the people in charge don't understand technology, so information security management can't be implemented. Whether in writing procurement specifications or in acceptance inspections, you're also unable to verify whether cybersecurity problems exist within them." The Executive Yuan's 2019 cybersecurity audit of ten government agencies resulted in an average score of only 69.3 points, with six agencies failing technical inspections. The shortfall of full-time cybersecurity personnel within government departments reached 60% — more than a thousand unfilled positions. (Quoting from a 2021 investigative report by The Reporter)
+But the challenges remain enormous. A white-hat hacker named Howard (pseudonym), in an interview with _The Reporter_, pointed to a structural problem: "The fundamental reason is that the personnel handling these contracts don't understand technology, so information security management cannot be properly implemented. Whether in the outsourcing specifications or during acceptance testing, you have no way of verifying whether information security problems exist." In 2019, the Executive Yuan conducted information security audits of 10 government agencies; the overall average score was only 69.3 out of 100, and 6 agencies failed the technical inspection. The number of unfilled dedicated information security positions within the executive branch was as high as 60%, amounting to over 1,000 vacancies. (As reported in The Reporter's 2021 investigative report)
 
-> **Numbers:**
+> **🔢 By the Numbers**
 >
-> - The Investigation Bureau once posted a cybersecurity analyst position requiring a doctoral degree plus 9 specialized skills, with a monthly salary of: **NT$58,000**
-> - In 2019, the Ministry of Civil Service was revealed to have leaked **590,000** civil servants' personal data
-> - In 2021, more than **20 million** Taiwan household registration records appeared on the dark web
+> - The Investigation Bureau once posted a vacancy for an information security analyst requiring a PhD plus 9 professional skills, with a monthly salary of **NT$58,000 (approximately US$1,800)**
+> - In 2019, the Ministry of Civil Service was found to have leaked the personal data of **590,000** public servants
+> - In 2021, more than **20 million** household registration records from Taiwan appeared on the dark web
 
 ---
 
 ## vTaiwan and the Open Government Experiment
 
-While the path of digital ID was blocked, Taiwan has traveled much further than most countries on another path: "digital democracy."
+While the digital ID path was blocked, Taiwan has traveled further than most countries on another path — that of "digital democracy."
 
-The vTaiwan platform, launched in 2015, uses an AI tool called Pol.is to enable citizens to participate in policy formation. The best-known case is the 2015 discussion on Uber regulation — rather than the government negotiating with Uber, Uber drivers, taxi drivers, and passengers were invited to debate directly on the platform. The consensus that emerged became a reference for legislation. According to CrowdLaw statistics, since vTaiwan's launch, over 80% of discussion cases have ultimately been converted into concrete government actions.
+The vTaiwan platform, launched in 2015, uses an AI tool called Pol.is to enable citizen participation in policymaking. The most well-known case was the 2015 discussion on Uber regulation, in which the government stepped back from the negotiating table and let Uber drivers, taxi drivers, and passengers debate directly on the platform. The consensus that ultimately emerged served as a reference for legislation. According to CrowdLaw statistics, since vTaiwan's launch, more than 80% of discussion cases have been translated into concrete government actions (based on vTaiwan's self-reported figures, compiled in the CrowdLaw case study[^2]).
 
-[Audrey Tang's](/en/people/audrey-tang/) perspective on vTaiwan is clear-eyed: "This is not a solution to democracy, but a process of building consensus. The rough consensus on vTaiwan can only serve as a reference for policy-making; to produce change still requires the force of civic participation." (Quoting from The Reporter's open government special feature)
+Tang's attitude toward vTaiwan is clear-eyed: "This is not a solution to democracy, but a process for building consensus. The rough consensus reached on vTaiwan can only serve as a reference for policymaking. To bring about change, it still depends on the power of citizen participation." (As reported in The Reporter's open government feature)
 
-This mirrors the lesson of the digital ID card — technology itself is not a solution. Technology without trust is dangerous; with trust but rough technology, one might actually travel farther.
+This serves as a mirror image of the digital ID lesson: technology itself is not the answer. Technology without trust is dangerous; trust paired with imperfect technology can actually carry you further.
 
 ---
 
-## The Lesson NT$4.8 Billion Bought
+## The Lesson Bought for NT$4.8 Billion
 
-After the digital ID card program was suspended, related vendors had originally sought compensation of more than NT$1 billion. In January 2024, after mediation by the Public Construction Commission, the final amount was around NT$280 million. Interior Minister Lin Yu-chang acknowledged that "NT$200-some million was the best possible outcome."
+After the digital ID program was suspended, the relevant vendors initially sought more than NT$1 billion in compensation. In January 2024, following mediation by the Public Procurement Commission, the final amount was settled at approximately NT$280 million or less[^3]. Minister of the Interior Lin Yu-chang admitted that "over NT$200 million is already the best possible outcome."
 
-NT$280 million, plus the equipment and venue costs already spent, in exchange for a chip card that was never issued. But perhaps what it truly bought was a lesson for Taiwanese society on digital governance:
+NT$280 million, plus the equipment and facility costs already spent, bought a chip card that was never issued. But perhaps what it truly bought was a lesson for Taiwanese society about digital governance:
 
-**You can build the world's most secure chip, but if the people don't trust you, the card will forever be nothing but a piece of plastic.**
+**You can build the world's most secure chip, but if the people don't trust you, the card will always be just a piece of plastic.**
 
-Estonia used 30 years of transparency to accumulate a 97% digital civic participation rate. Taiwan's civil society proved it has the muscle to produce a mask map in three days and also the muscle to stop a NT$4.8 billion government program. Both are muscles of digital democracy.
+Estonia spent 30 years building transparency to achieve a 97% digital citizen participation rate. Taiwan's civil society has proven it can build a mask availability map in three days — and it can also stop a NT$4.8 billion government program. Both are muscles of digital democracy.
 
-Chiu Wen-tsang said in the closing of his Academia Sinica interview a passage that may be the most precise footnote to this entire story: "You cannot simply emphasize how wonderful it is that other countries have digitized, that we should hurry up and follow suit, while ignoring the legal and institutional foundations that others have laboriously built for digitization." (Quoting from an Academia Sinica Institute of Law interview)
+At the end of his interview with Academia Sinica, Qiu Wencong offered what may be the most precise footnote to this entire story: "You can't just emphasize how wonderful other countries' digitalization is and say we should rush to learn from them, while ignoring the legal and institutional foundations that others painstakingly built to make digitalization possible." (As reported in the Institutum Iurisprudentiae interview)
 
-In 2026, Taiwan's digital ID still has no timeline. But every tax filing season, millions of Taiwanese dutifully insert that Natural Person Certificate from 2003, use a card reader, and complete their most frequent digital interaction with the government. That old card was never struck by a trust crisis, because it never promised too much.
+As of 2026, Taiwan's digital ID card still has no timeline. But every tax filing season, millions of Taiwanese people dutifully plug in their Natural Person Certificate — the one issued back in 2003 — use a card reader, and complete their most frequent digital interaction with the government. That old card was never hit by a crisis of trust, because it never promised too much.
 
 ---
 
 ## References
 
-- [New eID Policy Failure and Taiwan's Distance from a "Digital Nation"](https://www.twreporter.org/a/e-id-in-taiwan-2021-failed) (The Reporter, 2021, original investigative report)
-- [Is the Digital ID Card Cool? — Interview with Researcher Chiu Wen-tsang](https://www.iias.sinica.edu.tw/blog_post/1118?class=96) (Academia Sinica Institute of Law, 2020, original interview)
-- [Digital ID Suspended, NT$280 Million Paid by Taxpayers](https://www.bnext.com.tw/article/62504/eid-information-security) (Business Next, 2024)
-- [Even the "Government" Has Been Backed Up! How Did Estonia Build the World's Most Successful Digital Society?](https://www.twreporter.org/a/e-id-in-estonia) (The Reporter, 2021, original international report)
-- [The Team Behind the Mask Map Revealed](https://technews.tw/2020/02/23/expose-the-team-behind-mask-map/) (Technews, 2020)
-- [Audrey Tang brings civic tech to Taiwan's coronavirus pandemic response](https://www.npr.org/transcripts/949764249) (NPR, 2020, original English report)
-- [How map hacks and buttocks helped Taiwan fight Covid-19](https://www.bbc.com/news/technology-52883838) (BBC, 2020, English)
-- [Is Open Government for Real?](https://www.twreporter.org/a/open-government) (The Reporter, Open Government special feature)
-- [vTaiwan — CrowdLaw Case Study](https://congress.crowd.law/case-vtaiwan.html) (CrowdLaw, English)
-- [Chip ID Card Issue Page](https://www.tahr.org.tw/issues/privacy/eid) (Taiwan Association for Human Rights)
-- [Petition: Amend the Law and Disclose eID Information](https://ocf.tw/p/eid/) (Open Culture Foundation)
-- [Ministry of Digital Affairs Official Website](https://moda.gov.tw/) (primary source)
+[^1]: [The Reporter (2021). "From the Suspended Digital ID Policy to Taiwan's Distance from a 'Digital Nation'"](https://www.twreporter.org/a/e-id-in-taiwan-2021-failed) — Investigative report; confirms NT$3.29 billion card manufacturing contract awarded to TECO Electric & Machinery; overall program budget scope includes planning/manufacturing/system/verification contracts, totaling over NT$4.8 billion
+
+[^2]: [CrowdLaw — vTaiwan Case Study](https://congress.crowd.law/case-vtaiwan.html) — The 80% figure for discussion cases translated into government action is based on vTaiwan's self-reported statistics, compiled in the CrowdLaw case study
+
+[^3]: [Business Next (2024). "Digital ID Card Halted — NT$280 Million Paid by the Public"](https://www.bnext.com.tw/article/62504/eid-information-security) — Vendors initially sought over NT$1 billion in compensation; in January 2024, Public Procurement Commission mediation settled the final amount at approximately NT$280 million or less
+
+[^4]: [Ministry of Digital Affairs (moda) Official Website](https://moda.gov.tw/) — Audrey Tang served as inaugural minister (August 2022 to May 2024); she stepped down in May 2024 and was succeeded by Minister Huang Yen-nan
+
+[^5]: [Institutum Iurisprudentiae, Academia Sinica (2020). "Digital ID — How Cool Is It? An Interview with Researcher Qiu Wencong"](https://www.iias.sinica.edu.tw/blog_post/1118?class=96) — Qiu Wencong on the legal foundations of digital governance; raises the issue of insufficient eID regulation
+
+[^6]: [NPR (2020). "Audrey Tang brings civic tech to Taiwan's coronavirus pandemic response"](https://www.npr.org/transcripts/949764249) — Mask availability map rolled out island-wide within six days; Taiwan's civic tech response to COVID-19
+
+[^7]: [BBC (2020). "How map hacks and buttocks helped Taiwan fight Covid-19"](https://www.bbc.com/news/technology-52883838) — English-language report on Taiwan's mask map and civic hackers' pandemic response
+
+[^8]: [TechNews (2020). "The Team Behind the Mask Map: Uncovering the 'Keyboard Patriots'"](https://technews.tw/2020/02/23/expose-the-team-behind-mask-map/) — The development process of the mask map; Wu Zhanwei and the g0v civic hacker community
+
+[^9]: [The Reporter (2021). "Even the 'Government' Is Backed Up! How Estonia Built the World's Most Successful Digital Society"](https://www.twreporter.org/a/e-id-in-estonia) — Estonia's experience building a digital nation; comparison with Taiwan's digital governance path
+
+[^10]: [The Reporter — Open Government Feature. "Open Government — Are They Serious?"](https://www.twreporter.org/a/open-government) — Audrey Tang's remarks on vTaiwan; case studies in open government experiments
+
+[^11]: [Taiwan Association for Human Rights — Chip-Based ID Card Issue Page](https://www.tahr.org.tw/issues/privacy/eid) — Human rights position and petition opposing the New eID program
+
+[^12]: [Open Culture Foundation — Petition: Legislate and Disclose eID Information](https://ocf.tw/p/eid/) — Civil society campaign pushing for eID information disclosure and regulatory reform

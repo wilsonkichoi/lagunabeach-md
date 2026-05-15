@@ -1,107 +1,125 @@
 ---
-translatedFrom: 'Economy/台灣企業：兆豐金控.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:d45f458eabe77e3c'
-sourceBodyHash: 'sha256:9b950fb292247748'
-translatedAt: '2026-05-01T15:38:13+08:00'
-title: 'Mega Financial Holding: From Japanese Colonial Bank to Global Financial Partner for Taiwanese Businesses'
-description: 'Inheriting the legacy of the 1897 Taiwan Bank, through three name changes and two mergers, Mega Financial Holding has spent 127 years building a financial network across 38 countries, becoming an important driver of Taiwanese businesses going global'
+title: 'Mega Financial Holding: Four-Bank Merger, Global Financial Partner for Taiwanese Enterprises, and the 2016 New York Fine Storm'
+description: "Mega Financial Holding was formed in December 2002 through the merger of five public-sector financial institutions: Bank of Communications, International Commercial Bank of China, Chung Hsin Bills Finance, Polaris Securities, and Chung Kuo Insurance. In August 2006, its banking subsidiaries Bank of Communications and ICBC merged again to form Mega International Commercial Bank. Leveraging Bank of Communications' century-old heritage and ICBC's foreign exchange expertise, Mega built the most extensive overseas branch network in Taiwan, serving as a core partner for Taiwanese enterprises expanding globally. In 2016, its New York branch was fined USD 180 million by U.S. authorities for anti-money laundering deficiencies—the largest overseas regulatory penalty in Taiwan's financial history."
 date: 2026-03-20
-tags:
-  [
-    'Economy',
-    'Enterprise',
-    'Finance',
-    'State-owned Bank',
-    'International Finance',
-  ]
+author: 'Taiwan.md Contributors'
+category: 'Economy'
 subcategory: '企業列傳'
-author: 'Taiwan.md'
-readingTime: 8
-featured: false
-lastVerified: 2026-03-20
-lastHumanReview: true
-category: Economy
+tags: ['Economy', '企業', '金融業', '公營銀行', '國際金融']
+lastVerified: 2026-05-13
+lastHumanReview: 'true'
+featured: 'false'
+translatedFrom: 'Economy/台灣企業：兆豐金控.md'
+sourceCommitSha: '18157ab5d'
+sourceContentHash: 'sha256:19522eee779cb1b5'
+sourceBodyHash: 'sha256:b25853bdf381bcc3'
+translatedAt: '2026-05-15T14:23:13+08:00'
 ---
+
+# Mega Financial Holding: Four-Bank Merger, Global Financial Partner for Taiwanese Enterprises, and the 2016 New York Fine Storm
 
 > **30-Second Overview**
 >
-> Mega Financial Holding traces its origins to the 1897 Taiwan Bank, having experienced three eras: Japanese colonial rule, postwar state operation, and privatization. Formed in 2006 through the merger of International Commercial Bank of China and Bank of Communications, it carries 127 years of financial heritage. With NT$4.6 trillion in assets and 68 locations across 38 countries, it is the best financial partner for Taiwanese businesses expanding globally and the financial stock held by the most shareholders in Taiwan — 520,000 of them.
+> Mega Financial Holding was established on December 31, 2002, through the merger of five public-sector financial institutions: Bank of Communications, International Commercial Bank of China, Chung Hsin Bills Finance, Polaris Securities, and Chung Kuo Insurance. In August 2006, its banking subsidiaries Bank of Communications and ICBC merged again to form Mega International Commercial Bank. Leveraging Bank of Communications' century-old heritage and ICBC's foreign exchange expertise, Mega built a global network spanning 38 countries with 68 locations (as of 2024), serving as a core financial partner for Taiwanese enterprises expanding overseas. In 2024, it reported total assets of NT$4.6 trillion, after-tax net income of NT$34.766 billion, and 520,000 shareholders. In 2016, its New York branch was fined USD 180 million by U.S. authorities for anti-money laundering deficiencies—the largest overseas regulatory penalty in Taiwan's financial history.[^1]
 
-## Financial Memories on Chongqing South Road
+## The Four-Bank Merger of 2002
 
-Walking into the headquarters of Mega International Commercial Bank on Section 1, Chongqing South Road in Taipei, few people know that one of Taiwan's deepest financial histories is housed here. This building's predecessor was none other than the headquarters of Taiwan Bank during the Japanese colonial period — the starting point of Taiwan's modern financial industry.
+The story of Mega Financial Holding begins with the merger of four public-sector financial institutions in 2002. At the time, Taiwan was pursuing financial consolidation under the newly enacted Financial Holding Company Act, and the government led the integration of multiple public-sector financial institutions into financial holding company structures.[^2]
 
-127 years ago, when the Japanese Governor-General's Office established Taiwan Bank, it could never have imagined that this "official bank" would, over a century later, become the financial backbone for Taiwanese enterprises fighting battles globally. Nor would it have imagined that through three name changes and two major mergers, this financial bloodline would continue to the present, becoming Taiwan's most internationally oriented financial group.
+On February 4, 2002, Bank of Communications first partnered with International United Securities to form "Bank of Communications Financial Holding Co., Ltd.," the earliest prototype of Mega Financial Holding. On August 22 of that year, Chung Hsin Bills Finance and Polaris Securities were brought under the umbrella. On December 31, International Commercial Bank of China and Chung Kuo Insurance also joined, and the entire group was renamed "Mega Financial Holding Co., Ltd." The transition from Bank of Communications Financial Holding to Mega Financial Holding took less than a year.
 
-## Three Names, One Bloodline
+On August 21, 2006, the group's two banking subsidiaries—Bank of Communications and International Commercial Bank of China—merged further to form "Mega International Commercial Bank Co., Ltd." This was the largest consolidation move since the establishment of Mega Financial Holding, and it made Mega Bank the second-largest public-sector bank in Taiwan, behind only Bank of Taiwan.
 
-To understand Mega Financial Holding, one must first sort out its complex "background." This is a story of three bank names and two historic mergers.
+## The Historical Lineage of Member Banks
 
-In 1897, during the Japanese colonial period, "Taiwan Bank" was established, tasked with the official duties of issuing currency and supporting the colonial economy. After World War II, it became the national bank of the Republic of China, serving as an important tool for the government to drive economic construction.
+Mega Financial Holding represents the confluence of multiple lineages within Taiwan's public-sector financial system: there is no single "parent bank," but rather an intersection of the histories of several member banks. To understand Mega, one must understand the individual histories of each of these member banks.
 
-In 1971, the government separately established the "International Commercial Bank of China," dedicated to international financial services. At the time, Taiwan's economy was taking off and needed a professional foreign exchange bank to complement export-oriented policy.
+**Bank of Communications**: Founded in Beijing in 1907, it was initially overseen by the Qing Dynasty's Ministry of Posts and Communications and later became a bank specializing in industrial finance during the Republic of China era. After relocating to Taiwan with the government in 1949, it suspended operations before resuming in 1960, repositioning itself as a policy development financial institution that long undertook industrial construction financing and specialized financial services. Bank of Communications' "century-old heritage" is the most frequently cited historical asset of the Mega group and the basis upon which it became the core structure of the financial holding company in 2002.
 
-The third player is "Bank of Communications" — initiated by private parties, established in Beijing in 1907, moved to Shanghai in 1919, and reopened in Taiwan after the government's relocation there in 1949.
+**International Commercial Bank of China (ICBC)**: Established in 1971 through the reorganization of the overseas branch system of the Bank of China, which was formerly under the Central Bank of China, it was positioned as Taiwan's specialized foreign exchange bank, assisting with capital allocation for the export-oriented economic policy. ICBC long served as the core channel for Taiwan's foreign trade settlement, building a dense overseas branch network across Asia, North America, and Europe.
 
-These three banks each had their specialty: Taiwan Bank was the national bank, International Commercial Bank of China focused on foreign exchange, and Bank of Communications served industrial and commercial enterprises. But the wheel of fate turned in 2006, when the government decided to merge the International Commercial Bank of China with Bank of Communications, naming the result "Mega International Commercial Bank," incorporated into the Mega Financial Holdings system.
+**Chung Hsin Bills Finance**: Established in 1976, it was one of Taiwan's early important bills finance institutions, specializing in short-term money market operations.
+
+**Polaris Securities**: Originally a comprehensive securities firm under the Gwo Shyong Industrial Group, it was incorporated during the formation of Mega Financial Holding.
+
+**Chung Kuo Insurance**: Founded in Shanghai in 1931, it relocated to Taiwan with the government in 1949 and is one of the oldest property insurance companies in Taiwan.
+
+A common misconception worth clarifying: **Mega Financial Holding has no historical lineage connection to Bank of Taiwan, which was established in 1897**. Bank of Taiwan remains an independent public-sector commercial bank (under Taiwan Financial Holding Co.) and has no merger or inheritance relationship with Mega Financial Holding. The historical starting point of Mega Financial Holding is the 2002 merger, with the earliest member bank traceable to Bank of Communications in 1907, not Bank of Taiwan.[^2]
+
+## The 2016 New York Anti-Money Laundering Fine Storm
+
+On August 19, 2016, Mega International Commercial Bank's New York branch was fined USD 180 million (approximately NT$5.7 billion) by the New York State Department of Financial Services (NYDFS) for violations of the U.S. Bank Secrecy Act and New York State anti-money laundering regulations. This was the largest regulatory penalty ever imposed on a Taiwanese financial institution overseas and one of the most closely watched compliance crises in Taiwan's financial history.[^3]
+
+In its penalty announcement, NYDFS noted that Mega's New York branch had significant anti-money laundering oversight deficiencies related to customer accounts in high-risk regions such as Panama, including inadequate customer identity verification, incomplete suspicious transaction reporting, and chronically insufficient staffing for compliance functions. After the incident came to light, Taiwan's Financial Supervisory Commission also launched a financial examination and imposed penalties on the responsible personnel.[^4]
+
+In January 2018, Mega Bank's New York branch was fined an additional USD 29 million by the U.S. Federal Reserve Board for another set of compliance deficiencies. The combined penalties from both waves totaled nearly NT$6.4 billion, marking a major setback for a public-sector financial institution operating overseas.
+
+Following the fine storm, Mega Financial Holding significantly strengthened its anti-money laundering and countering the financing of terrorism (AML/CFT) internal control mechanisms, added dedicated compliance personnel, engaged international consultants to help build a compliance system, and reformed the compliance oversight structure of its overseas branches. Although the incident severely damaged Mega's brand reputation, it also became a turning point for the entire Taiwanese financial industry's efforts to raise international compliance standards. Subsequent AML strengthening policies promoted by the Financial Supervisory Commission across the industry frequently used the Mega case as a cautionary reference for institutional design.
+
+## 2024 Operating Performance
+
+In 2024, Mega Financial Holding delivered impressive results: after-tax net income of NT$34.766 billion, a 5% year-over-year increase and a record high. Against the backdrop of shifting global interest rates and geopolitical tensions, this level of profitability represented a solid and stable performance.[^5]
+
+With total assets of NT$4.6 trillion, Mega Financial Holding firmly holds its position as the leading public-sector financial holding company in Taiwan, second in scale only to Taiwan Financial Holding (the parent company of Bank of Taiwan). Its capital adequacy ratio exceeds 13%, well above the regulatory requirement, reflecting Mega's long-term conservative capital management strategy.
+
+Particularly noteworthy is the contribution from overseas earnings. As Taiwanese enterprises have become increasingly internationalized, Mega Financial Holding's overseas business has grown rapidly, with its contribution to group profits expanding year by year. The internationalization of Taiwanese enterprises shows no signs of slowing, and this momentum is expected to continue supporting Mega's overseas business.
+
+In April 2024, Mega Financial Holding announced a cash dividend of NT$1.05 per share, with a dividend yield as high as 4.24%. Mega Financial is one of the most widely held financial stocks in Taiwan and a representative financial holding for long-term investment by retirees.
 
 ## The Trust of 520,000 Shareholders
 
-In April 2024, Mega Financial Holding announced a cash dividend of NT$1.05 per share, with a yield of 4.24%. When the announcement came out, 520,000 shareholders rejoiced — this is the financial stock with the most shareholders in Taiwan and the most "accessible" financial investment option.
-
 Why has Mega Financial earned the trust of such a broad base of investors? The answer lies in its prudent management style.
 
-As a leader among government-backed banks, Mega Financial inherited the careful and conservative DNA of the state-operated era. It does not pursue aggressive growth or make high-risk investments, but focuses on solid operations of core business. During the 2008 financial crisis, when European and American investment banks successively collapsed, Mega Financial maintained stable profitability, becoming a stabilizing anchor in Taiwan's financial system.
+As one of the leading public-sector banks, Mega Financial has inherited the cautious and conservative DNA of its state-owned era. It does not pursue aggressive growth or engage in high-risk investments, but instead focuses on solid execution of core businesses. During the 2008 financial crisis, Mega Financial maintained stable profitability and was not directly affected by the crises at Western investment banks.
 
-More importantly is the stability of dividends. Mega Financial is one of the few financial stocks that has paid dividends for consecutive years, making it particularly attractive to retirees and others seeking stable returns. This also explains why it can have 520,000 shareholders — from market vendors to tech elites, everyone treats Mega Financial as a steady long-term investment.
+Dividend stability is also worth noting. Mega Financial is one of the few financial stocks that has paid dividends continuously for many years, making it particularly attractive to retirees seeking stable income. This is also the primary reason Mega Financial has a shareholder base of 520,000.
 
-## A Service Network of 68 Locations Across the Globe for Taiwanese Businesses
+## A Service Network of 68 Overseas Locations for Taiwanese Enterprises
 
-But Mega Financial's true competitive advantage lies in its unparalleled international network. With 68 business locations in 38 countries, this figure is unique in Taiwan's financial industry.
+Mega Financial's true competitive advantage lies in its unparalleled international network. With 68 business locations across 38 countries (as of 2024), this figure is unique in the Taiwanese financial industry. The roots of this network trace back to the foreign exchange branch system that International Commercial Bank of China accumulated starting in the 1970s.
 
-From Wall Street in New York to Tokyo's Ginza, from Sydney Harbour to the City of London, the Mega brand is found throughout the world's major financial centers. These locations are not decorations but important support for Taiwanese enterprises on their international journey.
+These locations are distributed across major financial cities in the Asia-Pacific, North America, and Europe, providing Taiwanese enterprises with the trade financing, foreign exchange hedging, and cross-border capital allocation services they need for internationalization.
 
-Imagine: a Taiwanese electronics manufacturer wants to set up a factory in Vietnam, needing local financing and foreign exchange hedging; a textile company wants to build a production line in Mexico, needing cross-border fund management; a traditional manufacturer wants to transform into a multinational enterprise, needing global cash management services. In these critical moments, Mega's international network is the most reliable financial partner for Taiwanese businesses.
-
-Even more important is the accumulated experience of serving Taiwanese businesses. After decades of deep cultivation, Mega has built a complete financial service system for Taiwanese businesses — from trade financing to investment management, from foreign exchange hedging to fund transfers — forming service capabilities that other banks find difficult to replicate.
-
-## The Shining 2024 Performance
-
-Mega Financial Holding delivered an impressive performance report for 2024: after-tax net profit of NT$34.766 billion, up 5% year-on-year, setting a new historical high. Even more impressive is that this was achieved against the backdrop of changing global interest rate environments and heightened geopolitical tensions.
-
-With NT$4.6 trillion in assets, Mega Financial is stably Taiwan's second-largest bank, second only to Taiwan Bank. But compared to other private banks, Mega Financial's profitability and asset quality are quite outstanding — capital adequacy ratio exceeding 13%, far above regulatory requirements.
-
-Particularly noteworthy is the contribution of overseas profit. As Taiwanese enterprises' degree of internationalization improves, Mega Financial's overseas business has grown rapidly and become an important source of group profitability. This trend is expected to continue, as Taiwan's enterprises' steps toward internationalization will not stop.
+Consider this: a Taiwanese electronics manufacturer setting up a factory in Vietnam needs local financing and foreign exchange hedging; a textile company establishing a production line in Mexico needs cross-border capital allocation; a traditional manufacturer transforming into a multinational enterprise needs global cash management services. At these critical moments, Mega's international network is the most reliable financial partner for Taiwanese enterprises.
 
 ## Market-Oriented Transformation of a Policy Bank
 
-Mega Financial's success also reflects the results of Taiwan's reforms to market-orient state-owned enterprises. It retains the advantages of government-backed banks' prudent operations while also possessing the flexibility of market competition.
+Mega Financial's success also reflects the achievements of Taiwan's public-sector enterprise market-oriented reform. It retains the prudent management strengths of a public-sector bank while possessing the flexibility to compete in the market.
 
-In terms of policy implementation, Mega Financial has actively aligned with the government's New Southbound Policy, strengthening its presence in Southeast Asia; in terms of financial market stability, it plays an important stabilizing role; in terms of SME financing, it bears its fair share of social responsibility.
+In terms of policy implementation, Mega Financial supports the government's New Southbound Policy by strengthening its presence in Southeast Asia. In terms of financial market stability, it plays an important stabilizing role. In terms of SME financing, it fulfills its social responsibilities.
 
-But it is also not a pure policy tool. Facing the impact of pure internet banks and fintech, Mega Financial is actively promoting digital transformation, launching innovative services such as the My Bank digital account and API open banking. This balance between prudence and innovation is precisely Mega Financial's competitive advantage.
+But it is not purely a policy tool. Facing the disruption of neobanks and fintech, Mega Financial has driven digital transformation, launching innovative services such as the My Bank digital account and API-based open banking. This balance between prudence and innovation is precisely where Mega Financial's competitive advantage lies.
 
-## A Future Where Challenges and Opportunities Coexist
+## A Future of Challenges and Opportunities
 
-Of course, Mega Financial also faces no small number of challenges. A prolonged low-interest-rate environment compresses banks' net interest margins; fintech disrupts traditional banking service models; international anti-money laundering regulations are becoming increasingly strict... All of these test Mega Financial's adaptability.
+Mega Financial also faces considerable challenges. A prolonged low-interest-rate environment compresses banks' net interest margins, fintech is disrupting traditional banking service models, and international anti-money laundering regulations are becoming increasingly stringent—especially after the 2016 New York fine, Mega has adopted a more cautious approach to overseas compliance, which also means the costs of overseas expansion have risen in tandem.
 
-But opportunities are equally clear. Taiwanese enterprises continue to internationalize, driving growth momentum for Mega Financial's cross-border financial services; ESG sustainable finance is becoming a new trend, with Mega Financial's green finance business having broad prospects; deepening Asian economic integration will further highlight Mega Financial's layout advantages in the Asia-Pacific region.
+But opportunities are equally apparent. The internationalization of Taiwanese enterprises brings growth momentum to Mega's cross-border financial services; ESG and sustainable finance are emerging trends, and Mega's green finance business has broad prospects; Asian economic integration further highlights the advantages of Mega's Asia-Pacific presence.
 
-Most importantly, as Taiwan's position in the global supply chain strengthens, Taiwanese enterprises' international financial needs will only become increasingly diverse and specialized. This is precisely where Mega Financial's opportunity lies.
+Most importantly, as Taiwan's position in the global supply chain rises, the international financial needs of Taiwanese enterprises will only become more diversified and specialized—and this is precisely where Mega Financial's opportunity lies.
 
-## 127 Years of Financial Heritage
+## 22 Years of Financial Services from 2002 to the Present
 
-From the 1897 Taiwan Bank to the 2024 Mega Financial Holding, 127 years of financial history has witnessed Taiwan's complete journey from agricultural society to technology island. It participated in the economic construction of the Japanese colonial period, supported the postwar economic recovery, promoted Taiwanese enterprises' global expansion, and will continue to accompany Taiwan's economy toward the next century.
+Over the 22 years from 2002 to 2024, Mega Financial Holding has witnessed several key phases of Taiwan's economy: the signing of the Cross-Strait ECFA, the peak of overseas investment by Taiwanese enterprises, the 2008 global financial crisis, the 2016 New York fine storm, the advancement of the New Southbound Policy, and the reshaping of global supply chains by geopolitics in the 2020s.
 
-In an era of rapidly changing fintech, Mega Financial Holding's value lies not in its size but in the historical heritage it carries, its international network, and its deep understanding of Taiwan's economy. These are core competencies that competitors find difficult to replicate.
+It has participated in the global expansion of Taiwanese enterprises and supported Taiwan's economic stability during multiple turbulent periods. The value of Mega Financial Holding does not lie in how long its history is (its financial holding structure is only 22 years old), but in the historical depth of its member banks, its international network, and its deep understanding of Taiwan's economic structure.
 
-The trust of 520,000 shareholders is not accidental; a network of 68 locations across 38 countries was not built overnight; and 127 years of financial heritage cannot easily be replaced. At a time when Taiwan's financial industry faces new challenges, Mega Financial Holding remains the most trustworthy financial partner and an important driver of Taiwan's enterprises going to the world.
+Since its establishment in 2002, Mega Financial Holding has inherited the decades—and in some cases, century-long—business accumulation of member banks such as Bank of Communications and International Commercial Bank of China, continuing to play a central role in the international positioning of Taiwan's financial industry.
+
+## Current Governance
+
+The current chairman of Mega Financial Holding is **Lei Chung-da** (who assumed the role in September 2023), who has continued to drive digital transformation and compliance strengthening during his tenure. For the current president and detailed board composition, please refer to Mega Financial Holding's official investor relations page ([megaholdings.com.tw](https://www.megaholdings.com.tw/tc/about02.aspx)).[^2]
 
 ## References
 
-- [Mega Financial Holding official website and 2024 annual report](https://www.megaholdings.com.tw/)
-- [Wikipedia: Mega International Commercial Bank](https://zh.wikipedia.org/zh-tw/%E5%85%86%E8%B1%90%E5%9C%8B%E9%9A%9B%E5%95%86%E6%A5%AD%E9%8A%80%E8%A1%8C)
-- [Wikipedia: Mega Financial Holdings](https://zh.wikipedia.org/zh-hant/%E5%85%86%E8%B1%90%E9%87%91%E8%9E%8D%E6%8E%A7%E8%82%A1)
-- [UDN: 520,000 shareholders rejoice! Mega Financial cash dividends hit a near-five-year high, yield 4.2%](https://udn.com/news/story/7251/8029468)
-- [Financial Supervisory Commission statistical data](https://www.fsc.gov.tw/)
+[^1]: [Mega Financial Holding — Wikipedia](https://zh.wikipedia.org/zh-tw/%E5%85%86%E8%B1%90%E9%87%91%E6%8E%A7) — Complete history of Mega Financial Holding, including its establishment on 2002/12/31 and member bank histories.
+
+[^2]: [Mega Financial Holding — Group Profile](https://www.megaholdings.com.tw/tc/about02.aspx) — Official group structure, member company histories, and merger timeline of Mega Financial Holding.
+
+[^3]: [China Times: The Full Story of Mega Bank's Heavy Fine](https://www.chinatimes.com/newspapers/20200924000486-260110) — The 2016 NYDFS fine of USD 180 million and the 2018 Fed additional fine.
+
+[^4]: [Control Yuan Investigation Report — Mega Bank New York Branch Case](https://www.cy.gov.tw/News_Content.aspx?n=124&sms=8912&s=8049) — Control Yuan investigation records on Mega New York branch violations and Financial Supervisory Commission oversight failures.
+
+[^5]: [United Daily News: 520,000 Shareholders Thrilled! Mega Financial's Cash Dividend Hits Five-Year High with 4.2% Yield](https://udn.com/news/story/7251/8029468) — 2024 Mega Financial dividend policy and shareholder structure.
+
+[^6]: [Mega International Commercial Bank — Wikipedia](https://zh.wikipedia.org/wiki/%E5%85%86%E8%B1%90%E5%9C%8B%E9%9A%9B%E5%95%86%E6%A5%AD%E9%8A%80%E8%A1%8C) — Detailed record of Mega Bank's formation on 2006/8/21 through the merger of Bank of Communications and ICBC.
