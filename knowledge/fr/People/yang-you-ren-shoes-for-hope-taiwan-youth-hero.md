@@ -1,93 +1,77 @@
 ---
-title: 'Yang Youren : du graffeur déscolarisé au héros humanitaire qui sauve des vies avec de vieilles chaussures'
-description: "Yang Youren est un entrepreneur social et humanitaire taïwanais, fondateur de l'association Step30 (Vieilles chaussures, vies sauvées). Après avoir mobilisé 200 000 paires de chaussures via une simple affiche pour protéger les enfants du Kenya contre les puces chiques, il a reçu le prix des Dix Jeunes Distingués en 2017. Ancien délinquant des rues de Sydney reconverti en missionnaire, il a transformé une aide ponctuelle en programme communautaire durable, prouvant aux jeunes Taïwanais qu'un geste simple peut changer le monde."
-date: 2026-03-20T00:00:00Z
-updated: 2026-03-20T00:00:00Z
-tags: ['entrepreneuriat social taïwanais', 'aide humanitaire', 'Step30', 'Dix Jeunes Distingués', 'aide à l'Afrique', 'mission chrétienne']
-subcategory: 'Société et engagement citoyen'
-author: 'Taiwan.md Translation Team'
-difficulty: 'intermediate'
-readingTime: 8
+title: 'Yang You-ren'
+description: "Fondateur de l'association internationale chrétienne Step30 « Sauver des vies par les chaussures », lauréat du prix des Dix Jeunes d'exception en 2017, il a collecté cent mille paires de chaussures usagées grâce à une simple affiche pour venir en aide aux enfants d'Afrique de l'Est"
+date: 2026-03-20
+author: 'Taiwan.md Contributors'
 category: 'People'
-featured: false
+subcategory: '社會與公益'
+tags:
+  [
+    'entreprise sociale taïwanaise',
+    'aide humanitaire',
+    'Step30 Sauver des vies par les chaussures',
+    "Dix Jeunes d'exception",
+    "aide à l'Afrique",
+    'mission chrétienne',
+  ]
 lastVerified: 2026-03-20
 lastHumanReview: false
-translatedFrom: "People/楊右任.md"
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:ffd477fca05ec608'
-sourceBodyHash: 'sha256:b8b4f8338741f24b'
-translatedAt: "2026-04-14T19:16:13+08:00"
+featured: false
+translatedFrom: 'People/楊右任.md'
+sourceCommitSha: '18157ab5d'
+sourceContentHash: 'sha256:e2ade2405e5fac3e'
+sourceBodyHash: 'sha256:aeccc38efb53dc79'
+translatedAt: '2026-05-16T05:07:56+08:00'
 ---
 
-# Yang Youren : du graffeur déscolarisé au héros humanitaire qui sauve des vies avec de vieilles chaussures
+# Yang You-ren : du décrochage scolaire à la mission humanitaire en Afrique
 
-## En 30 secondes
+> **En bref (30 secondes) :** Yang You-ren est né en 1987 à Taoyuan. Son père possédait une usine de chaussures. Après le collège, il part étudier en Australie, mais abandonne ses études à deux reprises. À 18 ans, sa vie bascule lorsqu'il rencontre un pasteur tatoué sur un terrain de basket. En 2014, une affiche publiée sur son blog permet de collecter près de cent mille paires de chaussures usagées envoyées au Kenya. Il fonde « Step30 — Sauver des vies par les chaussures », une initiative qui s'étend ensuite à 12 pays et touche plus de trois millions de personnes. En 2017, il reçoit le prix des Dix Jeunes d'exception.
 
-Né en 1987 à Taoyuan, Yang Youren part étudier en Australie après le collège, mais se laisse entraîner par la culture hip-hop et les graffitis, abandonnant ses études à deux reprises. À 18 ans, une rencontre décisive avec un pasteur tatoué change le cours de sa vie. En 2014, ému par la situation des enfants kényans infestés de puces chiques, il publie une affiche sur son blog et récolte près de 200 000 paires de chaussures usagées. Il fonde alors « Step30 – Vieilles chaussures, vies sauvées », un mouvement qui s'étend progressivement à des projets durables : construction d'écoles, accès à l'eau potable, agriculture. Il reçoit le prix des Dix Jeunes Distingués en 2017. Avec son épouse Kara et leurs quatre filles, il s'installe à plusieurs reprises en Afrique, animé par un principe fondamental : « ne pas créer de dépendance, mais aider à l'autonomie ».
+## Parcours personnel
 
-**Mots-clés** : Step30, vieilles chaussures, Dix Jeunes Distingués, lutte contre les puces chiques, aide durable, missionnaire taïwanais
+Yang You-ren naît en 1987 à Taoyuan. Son père dirige une usine de chaussures, et ce souvenir familial fait de la « chaussure » le symbole central de sa vie future. À l'issue du collège, à 15 ans, son père l'envoie poursuivre sa scolarité en Australie, espérant que l'expatriation lui ouvrira de meilleures perspectives. [^1]
 
----
+## Les années en Australie et le tournant spirituel
 
-## Pour aller plus loin : 5 minutes de lecture
+Durant son séjour en Australie, Yang You-ren se passionne pour la hip-hop, les boîtes de nuit et le graffiti de rue. Il abandonne le lycée en classe de première, puis s'inscrit dans une école d'art pour étudier le design, avant d'abandonner une seconde fois. Pendant cette période, l'usine familiale de chaussures fait faillite et laisse des dettes. À 18 ans, il rencontre sur un terrain de basket un ancien membre de gang devenu pasteur, entièrement tatoué. Le récit de la vie de cet homme le conduit à franchir la porte d'une église, et sa trajectoire change radicalement.
 
-### Des rues australiennes à la foi : graffitis, pasteur et tournant décisif
+De retour à Taïwan, il enseigne d'abord l'anglais à l'association « La Maison du Charpentier » (木匠的家關懷協會) à Zhongli, puis s'engage dans l'accompagnement de jeunes au sein d'une église du campus de l'université Chung Yuan Christian. C'est dans le bénévolat qu'il trouve un nouvel ancrage. En 2011, il rencontre à l'église sa future épouse canadienne, Kara Remley. Après deux mois de fréquentation, ils se fiancent et se marient. Le couple a par la suite quatre filles et s'installe à plusieurs reprises en Afrique pour y mener des missions humanitaires. [^2]
 
-Yang Youren n'était pas fait pour les salles de classe. Son père tenait une fabrique de chaussures à Taoyuan, mais ses absences répétées finissent par user sa patience — il l'expédie en Australie à 15 ans pour y poursuivre ses études secondaires. Là-bas, le jeune homme plonge dans la culture hip-hop, les boîtes de nuit et les graffitis de rue. Il abandonne le lycée en terminale, s'inscrit dans une école d'art pour y étudier le design, puis décroche de nouveau. Pendant ce temps, la fabrique familiale fait faillite et s'enfonce dans les dettes.
+## La naissance de « Sauver des vies par les chaussures »
 
-C'est sur un terrain de basket, à 18 ans, qu'il croise un ancien chef de gang reconverti en pasteur, couvert de tatouages. Accompagné par cet homme hors du commun, Yang Youren s'ouvre à la foi. De retour à Taïwan, il enseigne l'anglais à l'association caritative « Maison du Charpentier » à Zhongli, puis accompagne des adolescents au sein d'une église universitaire de l'Université Chung Yuan.
+Le beau-père de Yang You-ren, Allen Remley, est un missionnaire canadien en service en Afrique. En 2014, il lui décrit la situation des enfants à la frontière entre le Kenya et l'Ouganda : des enfants pieds nus infestés par des puces-chiques (tungose), dont les larves s'incrustent sous la peau, provoquant des infections graves pouvant aller jusqu'à l'amputation. La solution tient en un mot : des chaussures.
 
-### La naissance de « Step30 » : une affiche, 200 000 paires de chaussures
+Yang You-ren pense aux anciens stocks de l'usine de son père. Le 19 avril, il publie sur son blog une affiche intitulée « Sauver des vies par les chaussures » (舊鞋救命). La viralité de l'affiche dépasse toutes les attentes : en très peu de temps, près de cent mille paires de chaussures et sept tonnes de vêtements sont collectées. En septembre de la même année, le premier conteneur de 40 pieds arrive au Kenya ; en novembre, Yang You-ren se rend sur place pour superviser la distribution et s'assurer que chaque paire atteint les pieds d'un enfant. Cette opération fait l'objet d'un documentaire retraçant l'ensemble de la mission de secours. L'initiative est baptisée « Step30 », dans le but d'encourager les jeunes Taïwanais de moins de 30 ans à s'engager dans l'action humanitaire. [^3]
 
-En 2014, son beau-père — le missionnaire canadien Alan Remley — partage avec lui le témoignage d'enfants vivant à la frontière entre le Kenya et l'Ouganda. Faute de chaussures, ces enfants sont infestés de puces chiques qui pénètrent sous leur peau, provoquant des plaies, des infections, parfois des amputations. Yang Youren pense alors aux stocks restants de l'ancienne fabrique de son père. Le 19 avril, il publie une affiche intitulée « Vieilles chaussures sauvent des vies » sur son blog. En quelques jours, les dons affluent : près de 100 000 paires de chaussures et 7 tonnes de vêtements. Le premier conteneur de 40 pieds arrive au Kenya en septembre. En novembre, il se rend sur place pour superviser la distribution. En 2016, l'histoire est adaptée en documentaire sous le titre _EXCHANGE_, qui remporte plusieurs prix. Le nom « Step30 » vise à encourager les Taïwanais de moins de 30 ans à s'engager dans l'action humanitaire.
+## Une philosophie de l'aide : ne pas créer de dépendance
 
-### Au-delà des chaussures : construire l'autonomie
+Le principe fondateur de Yang You-ren est d'« éviter la dépendance à long terme ». Il collabore délibérément avec les réseaux d'églises locales pour transformer l'aide matérielle en levier d'autonomie communautaire, plutôt que de faire de l'assistance extérieure une perfusion permanente. Ce principe imprègne la conception de tous les programmes ultérieurs et constitue la différence la plus nette entre son approche et les opérations classiques de don de matériel. [^4]
 
-Yang Youren est convaincu qu'une aide durable ne doit pas engendrer de dépendance. Il fait évoluer l'initiative vers des projets communautaires structurés :
+## L'expansion vers des programmes communautaires durables
 
-- **Programme Éducation** : transformation de conteneurs en salles de classe, laboratoires informatiques et dispensaires.
-- **Programme Eau vive** : forage de puits pour l'accès à l'eau potable, avec création de comités locaux d'entretien.
-- **Amour & Filles** : formation des femmes à la confection de serviettes hygiéniques lavables, pour que les adolescentes puissent rester à l'école.
-- **Autonomie agricole** : introduction de l'élevage de volailles et de l'agriculture biologique pour permettre aux communautés rurales de générer des revenus.
+Après l'opération de collecte de chaussures, Step30 développe progressivement quatre axes : le « Programme éducatif » (興學計畫), qui transforme des conteneurs maritimes en salles de classe, salles informatiques et cliniques ; le « Programme eau vive » (活水計畫), qui fore des puits dans les régions en pénurie d'eau et met en place des comités de maintenance locaux ; le « Programme Love Girls » (愛・女孩計畫), qui enseigne aux femmes la fabrication de serviettes hygiéniques en tissu pour lutter contre le décrochage scolaire lié aux règles ; et des formations à l'autonomie agricole, incluant l'aviculture et l'agriculture biologique. La logique commune à tous ces programmes est que l'aide doit avoir pour finalité l'autonomie, et non l'arrivée du prochain conteneur. [^5]
 
-À ce jour, Step30 a touché plus de 3 millions de personnes dans 12 pays, avec près de 25 000 bénévoles engagés.
+Ces dernières années, Step30 est intervenu dans 12 pays et a touché plus de trois millions de personnes, avec près de 25 000 bénévoles inscrits. En 2017, Yang You-ren est distingué comme l'un des Dix Jeunes d'exception. [^6]
 
----
+Yang You-ren est l'auteur de _Cinquante mille paires de bénédictions : comment une petite action peut changer le monde_ (校園書房, 2018), qui retrace la fondation de Step30 et le parcours intérieur de son engagement humanitaire en Afrique. [^7]
 
-## Dossier complet
+## Références
 
-### Biographie détaillée et parcours
+[^1]: [Yang You-ren — Wikipédia](https://zh.wikipedia.org/wiki/%E6%A5%8A%E5%8F%B3%E4%BB%BB) — Principales données biographiques, incluant la naissance à Taoyuan, les études en Australie et le tournant spirituel.
 
-Né en 1987 à Taoyuan, Yang Youren entretient avec la « chaussure » un lien indéfectible, héritage de l'usine paternelle. Après deux abandons scolaires en Australie, il rentre à Taïwan et accumule de l'expérience au sein d'associations et d'églises locales. Il rencontre sa femme canadienne Kara Remley dans une communauté religieuse. Leur relation fulgurante — fiançailles et mariage en seulement deux mois (2011) — donne naissance à quatre filles. La famille s'est installée à plusieurs reprises en Afrique pour s'immerger pleinement dans le travail missionnaire. Pour Yang Youren, la foi est le socle de tout : « Dieu utilise ceux qui sont consentants, pas ceux qui sont parfaits. »
+[^2]: [Step30 — Site officiel](https://www.step30.org/) — Présentation de l'organisation, programmes missionnaires et rapports annuels d'activité.
 
-### Une philosophie enracinée dans le respect
+[^3]: [Association internationale chrétienne « Sauver des vies par les chaussures » — Wikipédia](https://zh.wikipedia.org/wiki/%E8%88%8A%E9%9E%8B%E6%95%91%E5%91%BD) — Chronologie de l'événement de l'affiche de 2014, compte rendu de la distribution par conteneurs.
 
-Yang Youren ne distribue pas simplement des ressources — il défend l'autonomie locale et le respect des cultures. Il insiste sur la collaboration avec les réseaux d'églises locales, sans imposer de croyance. Il est convaincu que les ressources taïwanaises peuvent produire un effet de levier maximal en Afrique. Ses deux livres — _Je vous donne 50 000 paires de bénédictions_ et _Perdre le contrôle, c'est le meilleur arrangement_ — retracent son chemin intérieur, de l'adolescent des rues à l'homme qui transforme des destins en Afrique.
+[^4]: [Entrevue 104 Bravo — Du petit délinquant de rue au Jeune d'exception](https://blog.104.com.tw/104bravo-step30-org-founder/) — Récit du tournant de vie de Yang You-ren, origine du nom Step30 et explication du principe « ne pas créer de dépendance ».
 
-### Une figure incontournable pour la jeunesse taïwanaise
+[^5]: [Site officiel de Step30 — Présentation des programmes](https://www.step30.org/) — Description des quatre programmes : éducatif, eau vive, Love Girls et autonomie agricole.
 
-À une époque où le développement durable et l'engagement des jeunes sont au cœur des débats mondiaux, Yang Youren incarne le principe du « petit geste, grand impact » : une seule affiche suffit à mobiliser des centaines de milliers de personnes et à bâtir une ONG internationale. Son histoire illustre parfaitement la vision de Taiwan.md — une perspective locale projetée sur la scène internationale. Il a su conjuguer la mémoire de l'usine familiale, l'énergie de la jeunesse taïwanaise et la compassion chrétienne pour transformer des villages reculés d'Afrique. Pour de nombreux jeunes Taïwanais, il pose la question qui change tout : « Et moi, que puis-je faire ? »
+[^6]: [Association des Dix Jeunes d'exception](https://www.youth.org.tw/) — Confirmation de la distinction de Yang You-ren comme Jeune d'exception en 2017.
 
-### Pour aller encore plus loin
+[^7]: [_Cinquante mille paires de bénédictions_ — Books.com.tw](https://www.books.com.tw/products/0010806227) — Ouvrage de Yang You-ren (校園書房, 2018), retraçant la fondation de Step30 et le parcours intérieur de son engagement humanitaire en Afrique.
 
-Le parcours familial de Yang Youren — entre l'usine de chaussures du père et la vocation missionnaire du beau-père — illustre comment les ressources et l'engagement personnel taïwanais peuvent traverser les frontières. À l'ère du numérique et de l'intelligence artificielle, son histoire nous rappelle que l'action réelle et le lien humain restent les leviers les plus puissants pour changer le monde.
+## Pour aller plus loin
 
----
-
-## Pour réfléchir
-
-### Questions de discussion
-
-1. À l'heure de la consommation jetable, comment une paire de « vieilles chaussures » peut-elle se transformer en instrument de survie ? Quelles leçons cela nous enseigne-t-il sur l'environnement et la philanthropie à Taïwan ?
-2. Yang Youren, du décrocheur scolaire au Jeune Distingué, prouve que les échecs et les détours peuvent être les meilleurs maîtres. Avez-vous connu, dans votre propre vie, un moment de « perte de contrôle » qui s'est révélé être un tournant ?
-3. Si vous pouviez participer à un programme de bénévolat international Step30, lequel choisiriez-vous (éducation, eau potable, agriculture) ? Et comment convaincriez-vous d'autres jeunes Taïwanais de vous rejoindre ?
-
-### Références / Sources
-
-- [Yang Youren — Wikipédia (zh)](https://zh.wikipedia.org/wiki/%E6%A5%8A%E5%8F%B3%E4%BB%BB) (biographie principale, détails sur Step30)
-- [Association Step30 — Wikipédia (zh)](https://zh.wikipedia.org/wiki/%E8%88%8A%E9%9E%8B%E6%95%91%E5%91%BD) (histoire de l'organisation et programmes)
-- [Site officiel Step30](https://www.step30.org/) (informations actualisées, présentation des projets, rapport annuel 2024)
-- [_Je vous donne 50 000 paires de bénédictions_ — Books.com.tw](https://www.books.com.tw/products/0010760000) (témoignage de Yang Youren)
-- [Interview 104 Bravo — Du petit délinquant au Jeune Distingué](https://blog.104.com.tw/104bravo-step30-org-founder/) (récit détaillé du parcours de transformation)
-
-_Cet article adopte une structure à trois niveaux de lecture, pour s'adapter aux besoins de chaque lecteur. Contributions bienvenues pour enrichir les contenus sur le travail missionnaire en Afrique !_
+- [Step30 — Sauver des vies par les chaussures](https://www.step30.org/) — Site officiel de Step30, incluant les données d'activité les plus récentes et les informations destinées aux bénévoles

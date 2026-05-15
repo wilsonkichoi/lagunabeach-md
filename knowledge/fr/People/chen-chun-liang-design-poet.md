@@ -1,113 +1,77 @@
 ---
-title: 'Chen Chun-liang — le poète du design taïwanais'
-description: 'Fondateur de Freefall Design Studio, Chen Chun-liang a redéfini l'esthétique graphique de Taïwan en tissant la pensée orientale dans le design moderne.'
-date: 2026-03-19
-tags: ['designer', 'design graphique', 'éducation au design', 'Freefall Design', 'poète du design']
-subcategory: 'Arts et Design'
+title: "Chen Chun-liang : poète du design et traducteur moderne de l'esthétique orientale"
+description: "Chen Chun-liang est né à Tainan en 1958. À 29 ans, il fonde « Freeimage Design » (Freeimage Design Co., Ltd., nom officiel : 自由落體股份有限公司), salué par l'industrie comme le « poète du design ». Il réinterprète le langage du design moderne à travers la calligraphie, l'espace négatif et l'imagerie orientale. Ses travaux couvrent la conception de publications, l'identité d'entreprise et les célébrations nationales. En 2005, sa série de vaisselle « Ciel rond, Terre carrée » pour les banquets d'État remporte le prix du jury de la Biennale du design de Macao. Investi de longue date dans l'éducation au design, il est l'un des graphistes les plus influents de Taïwan depuis les années 1980."
+date: '2026-03-19'
+author: 'Taiwan.md Contributors'
 category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 10
-featured: false
-translatedFrom: "People/陳俊良.md"
-lastVerified: 2026-03-19
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:230d66867f466f8b'
-sourceBodyHash: 'sha256:0738f24a7fbe249b'
-translatedAt: "2026-04-14T19:19:21+08:00"
+subcategory: '藝術與設計'
+tags:
+  [
+    'designer',
+    'graphisme',
+    'éducation au design',
+    'Freeimage Design',
+    'poète du design',
+  ]
+lastVerified: '2026-05-13'
+lastHumanReview: 'false'
+featured: 'false'
+translatedFrom: 'People/陳俊良.md'
+sourceCommitSha: '18157ab5d'
+sourceContentHash: 'sha256:e8fd773cb48092fd'
+sourceBodyHash: 'sha256:7b3ecc631545bac9'
+translatedAt: '2026-05-16T05:07:56+08:00'
 ---
 
-# Chen Chun-liang : réinventer le design taïwanais par la poésie
+# Chen Chun-liang : redéfinir le design taïwanais par la poésie
 
-Né en 1958 à Tainan, Chen Chun-liang est surnommé le « poète du design ». Figure pionnière du design graphique à Taïwan, il a fondé le Freefall Design Studio et forgé une philosophie tenant en une formule : « le design, c'est la vie ; la vie, c'est le design ». En mariant l'esthétique orientale aux codes du design contemporain, il a insufflé une profonde dimension humaniste dans la profession et marqué durablement toute une génération de créateurs.
+> **En 30 secondes :** Chen Chun-liang est né à Tainan en 1958. Salué par l'industrie comme le « poète du design », il est l'un des graphistes les plus représentatifs de Taïwan depuis les années 1980. Après quatre ans chez CommonWealth Magazine, il fonde « Freeimage Design » (Freeimage Design Co., Ltd., nom officiel : 自由落體股份有限公司) le jour de ses 29 ans, en guise de cadeau d'anniversaire. Son travail repose sur la fusion entre l'imagerie calligraphique orientale et la composition moderne. En 2005, sa série de vaisselle « Ciel rond, Terre carrée » remporte le prix du produit le plus influent d'Asie et le prix du jury de la 6e Biennale du design de Macao, marquant son passage au-delà du design graphique. Il s'investit durablement dans l'éducation au design et la réflexion sur l'esthétique orientale.
 
-## Jeunesse et éveil artistique
+Chen Chun-liang est né à Tainan en 1958 et a grandi dans l'atmosphère culturelle traditionnelle de cette ancienne capitale. Dès l'enfance, il est initié à la calligraphie, à l'encre et à d'autres formes d'art oriental, développant une sensibilité précoce au langage visuel. Il étudie les beaux-art et lit abondamment des théories du design occidental, tout en réfléchissant à la manière de préserver le noyau spirituel de la culture orientale dans le design moderne — une question qui devient le fil conducteur de toute sa carrière.
 
-Chen grandit dans l'atmosphère culturelle de Tainan, ancienne capitale impériale baignée de traditions. Dès l'enfance, il est immergé dans les arts populaires et les pratiques artisanales. À l'adolescence, il développe une passion pour les arts visuels — calligraphie et encre de Chine en tête —, terreau sur lequel se construira toute sa philosophie du design.
+## Les années 1980 : le début de la carrière
 
-Ses études en beaux-arts lui révèlent rapidement les limites de l'expression purement artistique. Il commence alors à chercher comment réconcilier création et utilité. Lecteur avide de théorie occidentale du design, il ne cesse pourtant de se demander comment préserver l'âme des cultures orientales dans des formes entièrement modernes.
+Au début des années 1980, la professionnalisation du design graphique à Taïwan en est à ses débuts, et la plupart des travaux de conception relèvent encore du niveau de l'édition artistique. Chen Chun-liang commence à cette époque à accepter de nombreux projets. Ses premières œuvres présentent déjà un langage personnel nettement distinct du design commercial — ses créations pour des publications littéraires et des événements culturels intègrent souvent des lignes calligraphiques et une imagerie orientale, mais dans une composition entièrement modernisée. Ce style lui confère une identité reconnaissable dans le milieu du design taïwanais et lui vaut le surnom de « poète du design ». [^1]
 
-## Les débuts d'une carrière singulière
+## Freeimage Design
 
-Au début des années 1980, le design graphique taïwanais en est encore à ses balbutiements : la plupart des praticiens restent des maquettistes plutôt que des concepteurs à part entière. Chen perçoit d'emblée le potentiel de ce territoire vierge et s'y engage pleinement. Ses premières réalisations révèlent déjà une qualité poétique qui les distingue du design commercial ordinaire.
+Après avoir quitté CommonWealth Magazine, Chen Chun-liang fonde « Freeimage Design » le jour de ses 29 ans, comme cadeau d'anniversaire. Le nom « Freeimage » provient d'un phénomène physique : quelle que soit la taille du client ou le budget, il consacre le même effort maximal. Le style du studio se caractérise par un usage généreux de l'espace négatif, une typographie soignée et une composition visuelle empreinte de zen. Tout en recherchant l'efficacité commerciale, chaque projet tente de trouver le rythme propre à chaque mission. Freeimage Design couvre la planification d'expositions, le design de boutiques, l'identité d'entreprise, le packaging et le design graphique intégré. [^2]
 
-Pour les éditeurs littéraires et les événements culturels, il compose des visuels où la calligraphie et les symboles orientaux cohabitent avec un langage formel résolument contemporain. Cette synthèse de tradition et de modernité est alors inédite à Taïwan, et c'est elle qui lui vaut le surnom de « poète du design ».
+Chen Chun-liang insiste sur le fait qu'un bon design naît de l'observation et de la sensibilité envers la vie : un designer qui ne comprend pas la texture de la vie aura du mal à dépasser le niveau purement graphique. Il prône l'esthétique du « less is more », mais son minimalisme n'est pas vide — c'est la précision qui subsiste après l'élimination du superflu.
 
-## La naissance du Freefall Design Studio
+## Les réalisations majeures en design éditorial
 
-En 1990, Chen fonde le « Freefall Design Studio » — un nom déjà chargé de sens. La chute libre, pour lui, c'est l'acte de se défaire de ses certitudes pour laisser la créativité couler librement. Le studio n'est pas qu'une agence commerciale : c'est un laboratoire de la pensée créative.
+Chen Chun-liang s'est distingué dans le domaine du design éditorial. Ses couvertures pour des œuvres littéraires et des livres d'art utilisent généralement un langage visuel abstrait, tout en transmettant avec précision l'atmosphère émotionnelle de l'ouvrage. Sa philosophie du design éditorial est la suivante : la couverture devrait être une traduction visuelle du contenu du livre, et non un simple outil de mise en rayon. Cette approche lui a valu une réputation solide dans l'édition taïwanaise, faisant de lui le designer de longue date de nombreux auteurs et maisons d'édition. [^3]
 
-Le style du studio est immédiatement reconnaissable : vastes respirations blanches, typographie d'une minutie rare, compositions empreintes d'un esprit zen. Ces travaux allient exigence commerciale et ambition artistique, et élèvent d'un cran les standards du design à Taïwan.
+## La reconnaissance par les prix internationaux
 
-## Une philosophie ancrée dans l'existence
+Les œuvres de Chen Chun-liang ont été sélectionnées pour le concours « Plus beaux livres du monde » de Leipzig, en Allemagne, faisant apparaître l'esthétique orientale du design graphique taïwanais aux yeux de jurys internationaux. Il estime que les designers taïwanais n'ont pas besoin de s'occidentaliser entièrement pour obtenir une reconnaissance internationale — c'est au contraire en s'enracinant dans la culture locale et en l'exprimant clairement dans un langage de design moderne qu'ils peuvent se créer une position concurrentielle unique. [^4]
 
-La pensée de Chen Chun-liang est profondément nourrie par les traditions orientales. Sa maxime — « le design, c'est la vie » — traduit sa conviction que les meilleurs projets naissent d'une observation attentive et sensible du quotidien. Le designer, selon lui, ne saurait se contenter d'être un exécutant technique : il doit être un penseur de la culture.
+Dans les années 2000, Chen Chun-liang réalise également des identités de marque pour des entreprises et des institutions publiques, couvrant divers secteurs. Parmi ses travaux, la série de vaisselle « Ciel rond, Terre carrée » conçue pour les banquets du Bureau présidentiel, qui transpose l'esthétique orientale en formes modernes de porcelaine, a reçu le prix du jury de la Biennale du design de Macao, constituant un exemple emblématique du dépassement par Freeimage Design du cadre du design graphique. [^5]
 
-Son esthétique tend vers le minimalisme, mais d'un minimalisme habité : chaque simplification est le fruit d'une réflexion longue et rigoureuse. Il excelle à faire vibrer une multitude d'émotions dans des compositions épurées — et c'est précisément cette capacité qui définit sa signature.
+## Un investissement durable dans l'éducation au design
 
-## L'édition comme art total
+À partir des années 2010, Chen Chun-liang intervient plus fréquemment dans le domaine de l'éducation au design, enseignant à l'université et animant des ateliers, transformant des décennies d'expérience pratique en matériel pédagogique transmissible. Son enseignement met l'accent sur la culture humaniste : un designer doit lire largement et observer attentivement. La maîtrise des logiciels n'est qu'un moyen d'exécution ; une technique dépourvue de contenu n'est qu'une coquille vide. Il encourage les étudiants à transformer leur propre expérience de vie en langage de design, plutôt que de copier des modèles visuels préexistants qui « ont du style ». [^6]
 
-Dans le domaine éditorial, Chen signe des couvertures et des maquettes intérieures pour certains des ouvrages les plus importants de la littérature et des beaux-arts taïwanais. Pour lui, concevoir un livre ne se résume pas à l'emballer : c'est en proposer une interprétation visuelle fidèle à son esprit.
-
-Ses couvertures recourent souvent à un langage abstrait, mais elles capturent invariablement l'atmosphère émotionnelle du texte. Cette capacité à traduire une œuvre en image fait de lui l'un des designers les plus recherchés des éditeurs taïwanais.
-
-## L'identité d'entreprise réinventée
-
-En matière d'identité visuelle, Chen apporte une contribution tout aussi décisive. Il signe les systèmes d'identité de plusieurs grandes entreprises, en adaptant son vocabulaire à chaque culture d'organisation sans jamais se trahir. Sa conviction : une bonne identité d'entreprise doit refléter une substance culturelle, pas seulement produire un effet visuel.
-
-Cette exigence confère à ses réalisations une longévité remarquable. Nombre de ses travaux sont toujours en usage aujourd'hui, preuve que le design classique résiste au temps.
-
-## Former les créateurs de demain
-
-Au-delà de sa pratique, Chen s'investit intensément dans la formation. Ses cours universitaires et ses ateliers ont révélé d'innombrables talents. Son enseignement ne transmet pas seulement des savoir-faire : il cultive une façon de penser le design.
-
-Il insiste sur la nécessité d'une culture générale solide — la maîtrise des logiciels ne suffit pas. Il pousse ses étudiants à lire, à observer, à transformer leur vécu en matière à créer. Cette vision de la formation a profondément orienté l'enseignement du design à Taïwan.
-
-## Vers les frontières du design
-
-Chen ne s'est jamais enfermé dans la seule discipline du design graphique. Art de l'installation, design d'espace : il explore les prolongements possibles de la pensée créative dans d'autres formes. Ces incursions élargissent son vocabulaire visuel et ouvrent à l'ensemble de la profession de nouveaux horizons.
-
-Sa trajectoire démontre qu'un designer peut être un artiste à part entière, sans se laisser enfermer dans une spécialité.
-
-## La reconnaissance internationale
-
-Les travaux de Chen ont obtenu plusieurs distinctions internationales majeures, notamment le prix du « Plus beau livre du monde » de Leipzig, en Allemagne. Ces récompenses font connaître au monde entier l'esthétique singulière du design taïwanais et lui ouvrent une place méritée sur la scène internationale.
-
-Son succès démontre une conviction qui lui est chère : l'esthétique orientale n'est pas un handicap sur la scène mondiale — c'est un avantage concurrentiel unique, à condition de l'explorer en profondeur et de l'exprimer dans un langage contemporain.
-
-## Le design au service de la culture
-
-Chen s'implique également dans la conception visuelle d'événements culturels : expositions muséales, festivals, manifestations artistiques. Ses projets culturels témoignent d'une compréhension intime de la culture taïwanaise et d'une foi absolue dans la capacité du design à la mettre en valeur. Il considère que les designers ont le devoir de contribuer à la transmission du patrimoine.
-
-## Construire une théorie
-
-Fort de son expérience, Chen s'est aussi attelé à théoriser sa pratique. Ses écrits sur l'application de l'esthétique orientale au design moderne apportent une contribution précieuse à la réflexion disciplinaire à Taïwan. Ces textes ne sont pas de la théorie pure : ce sont des distillats d'expérience, qui fournissent aux praticiens et aux enseignants une base conceptuelle solide.
-
-## Une influence qui dépasse sa personne
-
-L'héritage de Chen Chun-liang est total. Il n'a pas seulement créé des œuvres marquantes : il a établi un modèle de ce que peut être un designer. Il a prouvé qu'un créateur peut être un intellectuel de la culture, pas simplement un prestataire de services visuels.
-
-Son influence ne se mesure pas à la seule technique — elle se lit dans la façon de penser et dans l'éthique professionnelle d'une génération entière de designers taïwanais qui lui doivent leur formation ou leur inspiration.
-
-## L'Orient au coeur du design contemporain
-
-La contribution la plus durable de Chen reste sans doute d'avoir trouvé comment dire l'esthétique orientale dans le langage du design contemporain. Ses réalisations portent une culture profonde tout en revêtant des formes entièrement modernes. Elles montrent la voie aux designers d'Asie de l'Est : l'identité locale, loin d'être un obstacle à la reconnaissance internationale, peut en être le moteur.
-
-Son parcours rappelle qu'il n'est pas nécessaire de se fondre dans un moule occidental pour exister sur la scène mondiale. Mieux vaut creuser dans la profondeur de sa propre culture et l'exprimer avec les outils d'aujourd'hui.
-
-## Transmettre, jusqu'au bout
-
-À mesure que sa carrière avance, Chen consacre une part croissante de son énergie à la transmission. Il documente ses années de pratique, souhaite léguer à la profession taïwanaise un patrimoine d'expériences précieuses.
-
-Il continue d'enseigner, partageant avec les jeunes générations la richesse accumulée de ses projets. Sa conviction : la culture du design ne peut vivre et croître qu'à travers l'éducation.
-
-## La responsabilité sociale du designer
-
-Chen Chun-liang n'a jamais cessé de rappeler que le designer est un acteur social. Le design, pour lui, n'est pas qu'un service commercial : c'est une force de création culturelle. Les designers ont la responsabilité d'améliorer l'environnement visuel de la société.
-
-Cette conviction se traduit concrètement par son engagement dans de nombreux projets d'intérêt général. Il met régulièrement son expertise au service d'institutions culturelles et d'organisations à but non lucratif — une façon de vivre, jusqu'au bout, l'idée que le design appartient à tous.
+Il compile également ses réflexions créatives et rédige des essais théoriques explorant les voies d'application de l'esthétique orientale dans le design moderne, offrant ainsi la perspective d'un praticien aux débats théoriques du milieu du design taïwanais. [^7]
 
 ## Références
 
-- [Freefall Design Studio — portfolio officiel](https://www.freefalldesign.com.tw/)
-- [Taiwan Design Center — collection permanente](https://www.tdc.org.tw/)
-- [Journal of Design — dossiers de recherche](https://www.cdesign.org.tw/)
+[^1]: [Chen Chun-liang — Art Emperor](https://artemperor.tw/knowledge/1191) — Aperçu de la carrière de Chen Chun-liang, origine du surnom « poète du design », œuvres représentatives.
+
+[^2]: [Freeimage Design — Page officielle Facebook](https://www.facebook.com/p/%E8%87%AA%E7%94%B1%E8%90%BD%E9%AB%94%E8%A8%AD%E8%A8%88-Freeimage-Design-100039631345727/) — Informations officielles et portfolio du studio Freeimage Design.
+
+[^3]: [Freeimage Design / Chen Chun-liang : « En design visuel, l'essentiel est qu'il n'y a rien d'impossible, seulement ce à quoi on n'a pas pensé » — ShoppingDesign](https://www.shoppingdesign.com.tw/post/view/167) — Entretien approfondi sur la philosophie et la méthode de travail de Chen Chun-liang.
+
+[^4]: [C'est la bonté qui m'emmène où je veux aller — Entretien avec le parrain du design Chen Chun-liang — FLiPER](https://flipermag.com/2021/03/29/freeimage-design/) — Parcours professionnel de Chen Chun-liang, histoire de la fondation à 29 ans et vision du design esthétique oriental.
+
+[^5]: [Chen Chun-liang : le meilleur marketing, c'est l'œuvre elle-même — La Vie](https://www.wowlavie.com/article/ae1400597) — Compte rendu de la récompense du prix du jury de la Biennale du design de Macao pour la série de vaisselle « Ciel rond, Terre carrée ».
+
+[^6]: [Chen Chun-liang, 38 ans de design : oser faire ce que les autres n'osent pas — China Times](https://www.chinatimes.com/newspapers/20180701000609-260102) — Retour sur la carrière de Chen Chun-liang et son investissement dans l'éducation au design.
+
+[^7]: [La philosophie de design de Chen Chun-liang (Freeimage Design) : « La distance entre i et F » — DesignWant](https://www.designwant.com/article/7826) — Essais de Chen Chun-liang sur le design esthétique oriental et le langage visuel calligraphique.
+
+## Pour aller plus loin
+
+- [Freeimage Design Co., Ltd. — Taiwan Company Network](https://www.twincn.com/item.aspx?no=84491727) — Informations d'enregistrement de Freeimage Design (FREEIMAGE DESIGN CO., LTD.)
+- [Fang Hsu-chung](/people/方序中) — Designer visuel taïwanais de la même génération, responsable des identités visuelles des Golden Melody Awards et des Golden Horse Awards
