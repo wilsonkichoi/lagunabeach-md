@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-05-13T15:09:09.391Z",
+  "generatedAt": "2026-05-15T05:40:04.347Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "24efd20f3375a9e80a8c17071c136e6ec743e9f5",
+      "date": "2026-05-15T01:00:23+08:00",
+      "author": "Zaious (@ChronicleCore)",
+      "message": "fix(batch-200-P2-A): Part A 修補 27 篇 Economy + Technology (#1064)"
+    },
+    {
+      "hash": "3593aaf209baee828f9987d51dbd8be59d9bcbf1",
+      "date": "2026-05-14T11:07:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 蘇打綠 §11 對位句型 4→0 + footnote format + subcategory + lastHumanReview true"
+    },
+    {
+      "hash": "11b98708dcfb1f43f8ce31e6d39bf454613d2adb",
+      "date": "2026-05-14T11:04:43+08:00",
+      "author": "idlccp1984",
+      "message": "Create 蘇打綠.md (#1061)"
+    },
+    {
+      "hash": "18157ab5d4c793cb637b15f050646fd7aff85ada",
+      "date": "2026-05-14T11:04:30+08:00",
+      "author": "Zaious (@ChronicleCore)",
+      "message": "fix(batch-200): P1 修補 39 篇 (38 P1 + 1 P2 順手) + Round 4 audit reverse 補丁 (#1062)"
+    },
+    {
+      "hash": "dee4e86675dbd80121aca9fb5263b7067b33b084",
+      "date": "2026-05-13T23:13:20+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: twmd-data-refresh-pm @ 2026-05-13 23:11 finale — DATA-REFRESH 12/12 ship + 髒 WT selective staging"
+    },
+    {
+      "hash": "84dab8c196edb87f1829967f472432bd0b3d205f",
+      "date": "2026-05-13T23:11:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-05-13 23:09"
+    },
     {
       "hash": "71378fdc32a00502c7d0cc9e7ec8251ce6a5e81c",
       "date": "2026-05-13T22:41:04+08:00",

@@ -1,8 +1,8 @@
 {
-  "totalArticles": 4246,
+  "totalArticles": 4247,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 5269,
+  "totalTags": 5308,
   "categories": [
     {
       "name": "es",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Music",
-      "count": 30
+      "count": 31
     },
     {
       "name": "Food",
@@ -92,7 +92,7 @@
     },
     {
       "name": "人物",
-      "count": 72
+      "count": 73
     },
     {
       "name": "企業",
@@ -116,7 +116,7 @@
     },
     {
       "name": "半導體",
-      "count": 24
+      "count": 25
     },
     {
       "name": "인물",
@@ -131,15 +131,15 @@
       "count": 22
     },
     {
+      "name": "文化",
+      "count": 22
+    },
+    {
       "name": "民主化",
       "count": 21
     },
     {
       "name": "體育",
-      "count": 21
-    },
-    {
-      "name": "文化",
       "count": 21
     },
     {
@@ -155,11 +155,11 @@
       "count": 20
     },
     {
-      "name": "역사",
-      "count": 19
+      "name": "金曲獎",
+      "count": 20
     },
     {
-      "name": "金曲獎",
+      "name": "역사",
       "count": 19
     },
     {
@@ -168,13 +168,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4246,
+    "zh-TW": 4247,
     "en": 0
   },
-  "lastUpdated": "2026-05-13T15:09:10.110Z",
-  "stars": 987,
+  "lastUpdated": "2026-05-15T05:40:04.958Z",
+  "stars": 989,
   "forks": 146,
-  "zhPages": 3526,
+  "zhPages": 3527,
   "enPages": 720,
-  "totalPages": 4246
+  "totalPages": 4247
 }

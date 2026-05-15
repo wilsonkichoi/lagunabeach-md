@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T15:09:10.495Z",
+  "lastUpdated": "2026-05-15T05:40:05.451Z",
   "totals": {
     "contributors": 50,
     "activeWindow": "last 30d"
@@ -7,28 +7,28 @@
   "leaderboard": [
     {
       "login": "frank890417",
-      "commits": 2917,
+      "commits": 2920,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-05-13 22:41:04 +0800",
+      "lastCommitAt": "2026-05-14 11:07:35 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 619,
-        "system": 1913,
-        "translation": 625
+        "content": 620,
+        "system": 1915,
+        "translation": 626
       }
     },
     {
       "login": "idlccp1984",
-      "commits": 143,
+      "commits": 144,
       "avatarUrl": "https://avatars.githubusercontent.com/u/271929436?v=4",
       "profileUrl": "https://github.com/idlccp1984",
       "firstCommitAt": "2026-04-03 15:37:37 +0800",
-      "lastCommitAt": "2026-05-13 05:04:45 +0800",
+      "lastCommitAt": "2026-05-14 11:04:43 +0800",
       "primaryArea": "content",
       "breakdown": {
-        "content": 143,
+        "content": 144,
         "system": 0,
         "translation": 0
       }
@@ -77,14 +77,14 @@
     },
     {
       "login": "Zaious",
-      "commits": 21,
+      "commits": 23,
       "avatarUrl": "https://avatars.githubusercontent.com/u/128442444?v=4",
       "profileUrl": "https://github.com/Zaious",
       "firstCommitAt": "2026-04-23 14:33:34 +0800",
-      "lastCommitAt": "2026-05-12 19:22:07 +0800",
+      "lastCommitAt": "2026-05-15 01:00:23 +0800",
       "primaryArea": "content",
       "breakdown": {
-        "content": 17,
+        "content": 19,
         "system": 3,
         "translation": 0
       }
@@ -289,28 +289,28 @@
   "topContent": [
     {
       "login": "idlccp1984",
-      "commits": 143,
+      "commits": 144,
       "avatarUrl": "https://avatars.githubusercontent.com/u/271929436?v=4",
       "profileUrl": "https://github.com/idlccp1984",
       "firstCommitAt": "2026-04-03 15:37:37 +0800",
-      "lastCommitAt": "2026-05-13 05:04:45 +0800",
+      "lastCommitAt": "2026-05-14 11:04:43 +0800",
       "primaryArea": "content",
       "breakdown": {
-        "content": 143,
+        "content": 144,
         "system": 0,
         "translation": 0
       }
     },
     {
       "login": "Zaious",
-      "commits": 21,
+      "commits": 23,
       "avatarUrl": "https://avatars.githubusercontent.com/u/128442444?v=4",
       "profileUrl": "https://github.com/Zaious",
       "firstCommitAt": "2026-04-23 14:33:34 +0800",
-      "lastCommitAt": "2026-05-12 19:22:07 +0800",
+      "lastCommitAt": "2026-05-15 01:00:23 +0800",
       "primaryArea": "content",
       "breakdown": {
-        "content": 17,
+        "content": 19,
         "system": 3,
         "translation": 0
       }
@@ -361,16 +361,16 @@
   "topSystem": [
     {
       "login": "frank890417",
-      "commits": 2917,
+      "commits": 2920,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-05-13 22:41:04 +0800",
+      "lastCommitAt": "2026-05-14 11:07:35 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 619,
-        "system": 1913,
-        "translation": 625
+        "content": 620,
+        "system": 1915,
+        "translation": 626
       }
     },
     {
@@ -502,8 +502,8 @@
       }
     }
   ],
-  "weeklyActive": 5,
-  "monthlyActive": 11,
+  "weeklyActive": 4,
+  "monthlyActive": 10,
   "recentlyJoined": [
     {
       "login": "kevinyay945",
@@ -549,14 +549,14 @@
     },
     {
       "login": "Zaious",
-      "commits": 21,
+      "commits": 23,
       "avatarUrl": "https://avatars.githubusercontent.com/u/128442444?v=4",
       "profileUrl": "https://github.com/Zaious",
       "firstCommitAt": "2026-04-23 14:33:34 +0800",
-      "lastCommitAt": "2026-05-12 19:22:07 +0800",
+      "lastCommitAt": "2026-05-15 01:00:23 +0800",
       "primaryArea": "content",
       "breakdown": {
-        "content": 17,
+        "content": 19,
         "system": 3,
         "translation": 0
       }

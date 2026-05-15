@@ -602,7 +602,7 @@
       "轉型正義"
     ],
     "url": "https://taiwan.md/Society/%E4%BA%BA%E6%AC%8A%E8%88%87%E6%80%A7%E5%88%A5%E5%B9%B3%E7%AD%89",
-    "readingTime": 8,
+    "readingTime": 12,
     "featured": false,
     "date": "2026-03-17",
     "path": "Society/人權與性別平等.md"
@@ -940,7 +940,7 @@
       "重工業"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E4%B8%AD%E9%8B%BC",
-    "readingTime": 10,
+    "readingTime": 9,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：中鋼.md"
@@ -978,7 +978,7 @@
       "ODM"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E4%BB%81%E5%AF%B6%E9%9B%BB%E8%85%A6",
-    "readingTime": 17,
+    "readingTime": 18,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：仁寶電腦.md"
@@ -1180,7 +1180,18 @@
   },
   {
     "title": "方序中",
-    "description": "金曲獎金馬獎視覺設計操刀者，究方社創辦人，台灣視覺識別設計領軍人物",
+    "description": "ゴールデン・メロディー賞（金曲獎）およびゴールデン・ハース賞（金馬獎）の視覚デザインを手がけ、究方社の創設者であり、台湾のビジュアルアイデンティティデザイン界を牽引する人物です。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/People/fang-hsu-chung",
+    "readingTime": 17,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "ja/People/fang-hsu-chung.md"
+  },
+  {
+    "title": "方序中：從屏東眷村走到三金典禮的視覺操刀者",
+    "description": "究方社創辦人方序中，1978 年生於屏東東港共和新村，私立復興商工美工科、國立臺灣藝術大學工藝設計學系金工組夜間部出身。2013 年成立究方社，2016 年起接連操刀金曲、金鐘、金馬三金典禮主視覺，七度入圍金曲獎最佳裝幀設計。從眷村童年的舊物質感到三金典禮的當代敘事，他用視覺把台灣的記憶與時代並置。",
     "category": "People",
     "tags": [
       "設計師",
@@ -1190,21 +1201,10 @@
       "究方社"
     ],
     "url": "https://taiwan.md/People/%E6%96%B9%E5%BA%8F%E4%B8%AD",
-    "readingTime": 11,
+    "readingTime": 18,
     "featured": false,
     "date": "2026-03-19",
     "path": "People/方序中.md"
-  },
-  {
-    "title": "方序中",
-    "description": "ゴールデン・メロディー賞（金曲獎）およびゴールデン・ハース賞（金馬獎）の視覚デザインを手がけ、究方社の創設者であり、台湾のビジュアルアイデンティティデザイン界を牽引する人物です。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/People/fang-hsu-chung",
-    "readingTime": 17,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "ja/People/fang-hsu-chung.md"
   },
   {
     "title": "日月潭：在 18.18 公尺水位之下，被淹沒與被看見的台灣之心",
@@ -1295,7 +1295,7 @@
       "皇民化運動"
     ],
     "url": "https://taiwan.md/History/%E6%97%A5%E6%B2%BB%E6%99%82%E6%9C%9F",
-    "readingTime": 7,
+    "readingTime": 10,
     "featured": true,
     "date": "2026-03-17",
     "path": "History/日治時期.md"
@@ -1647,7 +1647,7 @@
       "矽盾"
     ],
     "url": "https://taiwan.md/Technology/%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%94%A2%E6%A5%AD",
-    "readingTime": 20,
+    "readingTime": 21,
     "featured": true,
     "date": "2026-03-17",
     "path": "Technology/半導體產業.md"
@@ -1741,7 +1741,7 @@
       "綠色轉型"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E5%8F%B0%E6%B3%A5",
-    "readingTime": 12,
+    "readingTime": 13,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：台泥.md"
@@ -5270,7 +5270,7 @@
       "電信產業"
     ],
     "url": "https://taiwan.md/Technology/%E5%8F%B0%E7%81%A35G%E7%B6%B2%E8%B7%AF%E5%BB%BA%E8%A8%AD%E8%88%87%E6%95%B8%E4%BD%8D%E8%BD%89%E5%9E%8B",
-    "readingTime": 23,
+    "readingTime": 28,
     "featured": true,
     "date": "2026-03-18",
     "path": "Technology/台灣5G網路建設與數位轉型.md"
@@ -5508,8 +5508,8 @@
     "path": "Geography/台灣水庫與水資源管理.md"
   },
   {
-    "title": "台灣水彩畫的百年流變",
-    "description": "從日治時期石川欽一郎的啟蒙，到當代簡忠威揚名國際，台灣水彩畫走過百年歷程，成為亞洲最活躍的水彩創作重鎮。",
+    "title": "台灣水彩畫的百年流變：從石川欽一郎到簡忠威的百年積累",
+    "description": "1907年石川欽一郎來台任教，種下台灣水彩百年的根。學生藍蔭鼎1929年入英國皇家水彩協會、1934年本土畫家自組台陽美術協會，戰後馬白水融合水墨與水彩、席德進記錄台灣老建築，1990年代三大協會並立接軌IWS國際水彩網路。今天，簡忠威以AWS與NWS雙重署名會員揚名國際。這條從殖民地師範教育到國際競賽主場的百年路，串聯了寫生傳統、師範體系與全球水彩社群；台灣水彩的活力，正是官辦與在野、本土與域外、傳統與競賽並行積累的張力。",
     "category": "Art",
     "tags": [
       "Art",
@@ -5519,7 +5519,7 @@
       "美術史"
     ],
     "url": "https://taiwan.md/Art/%E5%8F%B0%E7%81%A3%E6%B0%B4%E5%BD%A9%E7%95%AB%E7%9A%84%E7%99%BE%E5%B9%B4%E6%B5%81%E8%AE%8A",
-    "readingTime": 11,
+    "readingTime": 13,
     "featured": false,
     "date": "2026-03-19",
     "path": "Art/台灣水彩畫的百年流變.md"
@@ -5624,9 +5624,17 @@
     "title": "台灣外貿與全球供應鏈",
     "description": "從出口導向到供應鏈關鍵節點：台灣如何在美中對抗中維持貿易優勢",
     "category": "Economy",
-    "tags": [],
+    "tags": [
+      "外貿",
+      "全球供應鏈",
+      "出口導向",
+      "美中貿易戰",
+      "ECFA",
+      "國際貿易協定",
+      "半導體"
+    ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E5%A4%96%E8%B2%BF%E8%88%87%E5%85%A8%E7%90%83%E4%BE%9B%E6%87%89%E9%8F%88",
-    "readingTime": 16,
+    "readingTime": 20,
     "featured": false,
     "date": "2026-03-18",
     "path": "Economy/台灣外貿與全球供應鏈.md"
@@ -5774,7 +5782,7 @@
       "國營企業民營化"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E4%B8%AD%E8%8F%AF%E9%9B%BB%E4%BF%A1",
-    "readingTime": 14,
+    "readingTime": 15,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：中華電信.md"
@@ -5809,7 +5817,7 @@
       "台塑四寶"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E5%8F%B0%E5%A1%91%E9%9B%86%E5%9C%98",
-    "readingTime": 14,
+    "readingTime": 16,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：台塑集團.md"
@@ -5855,17 +5863,19 @@
     "path": "Economy/台灣企業：巨大機械.md"
   },
   {
-    "title": "台灣企業：玉山金控",
-    "description": "從信用卡專業銀行到數位金融先鋒，43歲最年輕金控總經理的突破故事",
+    "title": "台灣企業：玉山金控 — 黃永仁的專業經理人銀行",
+    "description": "玉山金控由黃永仁 1992 年發起創立玉山商業銀行，是台灣解嚴後第一波新銀行潮中由專業金融人領航、不依附財團家族的代表。黃男州 2008 年以 43 歲成為台灣金控史上最年輕總經理，2023 年從創辦人黃永仁手中接下金控董事長。從專業經理人制度到數位金融創新，玉山三十多年走出獨特路徑，2024 年資產規模達 2.8 兆元、列台灣第三大民營金控。",
     "category": "Economy",
     "tags": [
       "Economy",
       "企業",
       "金融業",
-      "數位轉型"
+      "數位轉型",
+      "黃永仁",
+      "黃男州"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E7%8E%89%E5%B1%B1%E9%87%91%E6%8E%A7",
-    "readingTime": 9,
+    "readingTime": 14,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：玉山金控.md"
@@ -5881,7 +5891,7 @@
       "化工"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E9%95%B7%E6%98%A5%E7%9F%B3%E5%8C%96",
-    "readingTime": 9,
+    "readingTime": 14,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：長春石化.md"
@@ -5916,7 +5926,7 @@
       "保險"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E5%9C%8B%E6%B3%B0%E9%87%91%E6%8E%A7",
-    "readingTime": 15,
+    "readingTime": 16,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：國泰金控.md"
@@ -5968,7 +5978,7 @@
       "IC設計"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E7%91%9E%E6%98%B1%E5%8D%8A%E5%B0%8E%E9%AB%94",
-    "readingTime": 10,
+    "readingTime": 12,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：瑞昱半導體.md"
@@ -6057,7 +6067,7 @@
       "ICE MONSTER"
     ],
     "url": "https://taiwan.md/Food/%E5%8F%B0%E7%81%A3%E5%86%B0%E5%93%81%E6%96%87%E5%8C%96",
-    "readingTime": 10,
+    "readingTime": 14,
     "featured": false,
     "date": "2026-03-19",
     "path": "Food/台灣冰品文化.md"
@@ -6105,7 +6115,7 @@
       "台灣標示"
     ],
     "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E5%9C%A8%E5%9C%8B%E9%9A%9B%E6%A8%99%E6%BA%96%E4%B8%AD%E7%9A%84%E6%A8%99%E7%A4%BA%E5%95%8F%E9%A1%8C",
-    "readingTime": 11,
+    "readingTime": 14,
     "featured": false,
     "date": "2026-03-18",
     "path": "Society/台灣在國際標準中的標示問題.md"
@@ -6632,13 +6642,21 @@
     "path": "Lifestyle/台灣便利商店文化.md"
   },
   {
-    "title": "台灣客家音樂：從山歌到搖滾的文化傳承與創新",
-    "description": "探索台灣客家音樂從傳統山歌、客家八音到林生祥、交工樂隊等現代音樂人的創新歷程，以及金曲獎客語專輯的重要里程碑",
+    "title": "台灣客家音樂：從山歌到林生祥拒獎的語言政治",
+    "description": "客家山歌起源於勞動生活，客家八音用於婚喪喜慶。1999年交工樂隊以《我等就來唱山歌》拿下金曲獎最佳作曲人與最佳製作人，開啟客家搖滾世代。2003年金曲獎第14屆設立客語演唱人獎；2004年謝宇威奪首屆得主。2007年林生祥以《種樹》獲獎卻當場拒領，呼籲以音樂類型而非語言分類，引爆客語獎項存廢爭論，三年後催生金音創作獎。客家電視台2003年成立，持續擴大客語音樂能見度。語言流失威脅仍在，但傳承與創新的張力也持續推動客家音樂人前進。",
     "category": "Music",
-    "tags": [],
+    "tags": [
+      "客家音樂",
+      "山歌",
+      "客家八音",
+      "林生祥",
+      "交工樂隊",
+      "客語歌曲",
+      "金曲獎"
+    ],
     "url": "https://taiwan.md/Music/%E5%8F%B0%E7%81%A3%E5%AE%A2%E5%AE%B6%E9%9F%B3%E6%A8%82",
-    "readingTime": 13,
-    "featured": true,
+    "readingTime": 11,
+    "featured": false,
     "date": "2026-03-19",
     "path": "Music/台灣客家音樂.md"
   },
@@ -6672,7 +6690,7 @@
       "數位民主"
     ],
     "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E6%94%BF%E6%B2%BB%E7%92%B0%E5%A2%83%E8%88%87%E9%81%B8%E8%88%89%E5%88%B6%E5%BA%A6",
-    "readingTime": 8,
+    "readingTime": 13,
     "featured": false,
     "date": "2026-03-18",
     "path": "Society/台灣政治環境與選舉制度.md"
@@ -6745,7 +6763,7 @@
       "生態"
     ],
     "url": "https://taiwan.md/Nature/%E5%8F%B0%E7%81%A3%E7%A9%BF%E5%B1%B1%E7%94%B2",
-    "readingTime": 11,
+    "readingTime": 13,
     "featured": false,
     "date": "2026-03-19",
     "path": "Nature/台灣穿山甲.md"
@@ -6798,7 +6816,7 @@
       "專業音響"
     ],
     "url": "https://taiwan.md/Technology/%E5%8F%B0%E7%81%A3%E9%9F%B3%E9%9F%BF%E7%94%A2%E6%A5%AD%E7%99%BC%E5%B1%95",
-    "readingTime": 12,
+    "readingTime": 15,
     "featured": false,
     "date": "2026-03-19",
     "path": "Technology/台灣音響產業發展.md"
@@ -7322,7 +7340,7 @@
   },
   {
     "title": "台灣國際貿易政策：在全球化浪潮中尋找定位",
-    "description": "台灣作為貿易導向經濟體，積極推動CPTPP入會、新南向政策等多元化貿易戰略，在地緣政治限制下尋求國際經貿空間突破。",
+    "description": "台灣作為貿易導向經濟體，推動CPTPP入會、新南向政策等多元化貿易戰略，在地緣政治限制下尋求國際經貿空間突破。",
     "category": "Economy",
     "tags": [
       "經濟",
@@ -7334,7 +7352,7 @@
       "國際經貿"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E5%9C%8B%E9%9A%9B%E8%B2%BF%E6%98%93%E6%94%BF%E7%AD%96",
-    "readingTime": 15,
+    "readingTime": 16,
     "featured": true,
     "date": "2026-03-19",
     "path": "Economy/台灣國際貿易政策.md"
@@ -7475,7 +7493,7 @@
       "竹籬笆"
     ],
     "url": "https://taiwan.md/Food/%E5%8F%B0%E7%81%A3%E7%9C%B7%E6%9D%91%E8%8F%9C",
-    "readingTime": 11,
+    "readingTime": 14,
     "featured": false,
     "date": "2026-03-19",
     "path": "Food/台灣眷村菜.md"
@@ -7508,7 +7526,7 @@
       "新創"
     ],
     "url": "https://taiwan.md/Technology/%E5%8F%B0%E7%81%A3%E8%BB%9F%E9%AB%94%E7%94%A2%E6%A5%AD%E7%99%BC%E5%B1%95",
-    "readingTime": 17,
+    "readingTime": 22,
     "featured": false,
     "date": "2026-03-18",
     "path": "Technology/台灣軟體產業發展.md"
@@ -7581,7 +7599,14 @@
     "title": "台灣循環經濟與資源再利用",
     "description": "從線性經濟轉向循環經濟，探索台灣資源回收、廢棄物處理與永續發展模式",
     "category": "Economy",
-    "tags": [],
+    "tags": [
+      "循環經濟",
+      "資源回收",
+      "廢棄物處理",
+      "永續發展",
+      "環保政策",
+      "資源再利用"
+    ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E5%BE%AA%E7%92%B0%E7%B6%93%E6%BF%9F%E8%88%87%E8%B3%87%E6%BA%90%E5%86%8D%E5%88%A9%E7%94%A8",
     "readingTime": 17,
     "featured": false,
@@ -7738,7 +7763,7 @@
       "次文化"
     ],
     "url": "https://taiwan.md/Culture/%E5%8F%B0%E7%81%A3%E8%A1%97%E9%A0%AD%E8%97%9D%E8%A1%93%E8%88%87%E5%A1%97%E9%B4%89%E6%96%87%E5%8C%96",
-    "readingTime": 15,
+    "readingTime": 12,
     "featured": false,
     "date": "2026-03-20",
     "path": "Culture/台灣街頭藝術與塗鴉文化.md"
@@ -7908,7 +7933,7 @@
       "museums"
     ],
     "url": "https://taiwan.md/Art/%E7%95%B6%E4%BB%A3%E8%97%9D%E8%A1%93",
-    "readingTime": 8,
+    "readingTime": 11,
     "featured": false,
     "date": "2026-03-17",
     "path": "Art/當代藝術.md"
@@ -7954,7 +7979,7 @@
       "技術創新"
     ],
     "url": "https://taiwan.md/Technology/%E5%8F%B0%E7%81%A3%E8%B3%87%E5%AE%89%E7%94%A2%E6%A5%AD%E7%99%BC%E5%B1%95",
-    "readingTime": 22,
+    "readingTime": 21,
     "featured": true,
     "date": "2026-03-19",
     "path": "Technology/台灣資安產業發展.md"
@@ -7998,9 +8023,17 @@
     "title": "台灣農業與農村再生",
     "description": "從稻米王國到精緻農業：台灣農業轉型與農村社區重生的故事",
     "category": "Economy",
-    "tags": [],
+    "tags": [
+      "農業",
+      "農村再生",
+      "精緻農業",
+      "有機農業",
+      "青年返鄉",
+      "農會系統",
+      "社區營造"
+    ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E8%BE%B2%E6%A5%AD%E8%88%87%E8%BE%B2%E6%9D%91%E5%86%8D%E7%94%9F",
-    "readingTime": 14,
+    "readingTime": 15,
     "featured": false,
     "date": "2026-03-18",
     "path": "Economy/台灣農業與農村再生.md"
@@ -8017,7 +8050,7 @@
       "獨立遊戲"
     ],
     "url": "https://taiwan.md/Technology/%E5%8F%B0%E7%81%A3%E9%81%8A%E6%88%B2%E7%94%A2%E6%A5%AD%E8%88%87%E6%95%B8%E4%BD%8D%E5%A8%9B%E6%A8%82",
-    "readingTime": 12,
+    "readingTime": 13,
     "featured": true,
     "date": "2026-03-18",
     "path": "Technology/台灣遊戲產業與數位娛樂.md"
@@ -8035,7 +8068,7 @@
       "地下音樂"
     ],
     "url": "https://taiwan.md/Music/%E5%8F%B0%E7%81%A3%E9%9B%BB%E5%AD%90%E9%9F%B3%E6%A8%82%E8%88%87%E6%B4%BE%E5%B0%8D%E6%96%87%E5%8C%96",
-    "readingTime": 11,
+    "readingTime": 13,
     "featured": true,
     "date": "2026-03-19",
     "path": "Music/台灣電子音樂與派對文化.md"
@@ -8063,7 +8096,7 @@
       "綠色運輸"
     ],
     "url": "https://taiwan.md/Technology/%E5%8F%B0%E7%81%A3%E9%9B%BB%E5%8B%95%E8%BB%8A%E7%94%A2%E6%A5%AD%E9%8F%88%E7%99%BC%E5%B1%95",
-    "readingTime": 26,
+    "readingTime": 29,
     "featured": true,
     "date": "2026-03-18",
     "path": "Technology/台灣電動車產業鏈發展.md"
@@ -8245,8 +8278,8 @@
     "path": "Music/台灣嘻哈與饒舌發展.md"
   },
   {
-    "title": "台灣廟會與陣頭文化",
-    "description": "八家將的威武，電音三太子的創新，媽祖遶境的虔誠——台灣廟會是信仰與狂歡的完美結合",
+    "title": "台灣廟會與陣頭文化：信仰密度與在地創新的雙軌運動",
+    "description": "台灣12,000間寺廟形成全球最高的信仰密度。大甲媽遶境九天八夜約340公里，白沙屯媽路線由鑾轎自行決定；八家將由日治後期皇民化運動（1937起）整理衝擊，戰後復興傳播全台；電音三太子2000年代初以現代電音重塑神明形象。陣頭文化的張力：官將首新莊系統與八家將台南系統並存，四大民俗（大甲媽/白沙屯媽/東港王船祭/鹽水蜂炮/頭城搶孤/雞籠中元祭）各具地方特色，廟會密度不只是宗教現象，更是台灣在地認同最具象化的表現形式。",
     "category": "Culture",
     "tags": [
       "廟會",
@@ -8257,7 +8290,7 @@
       "媽祖遶境"
     ],
     "url": "https://taiwan.md/Culture/%E5%8F%B0%E7%81%A3%E5%BB%9F%E6%9C%83%E8%88%87%E9%99%A3%E9%A0%AD%E6%96%87%E5%8C%96",
-    "readingTime": 11,
+    "readingTime": 14,
     "featured": false,
     "date": "2026-03-20",
     "path": "Culture/台灣廟會與陣頭文化.md"
@@ -8665,7 +8698,7 @@
       "85度C"
     ],
     "url": "https://taiwan.md/Food/%E5%8F%B0%E7%81%A3%E9%BA%B5%E5%8C%85%E8%88%87%E7%83%98%E7%84%99",
-    "readingTime": 11,
+    "readingTime": 12,
     "featured": false,
     "date": "2026-03-19",
     "path": "Food/台灣麵包與烘焙.md"
@@ -8701,7 +8734,7 @@
       "紀實"
     ],
     "url": "https://taiwan.md/Art/%E5%8F%B0%E7%81%A3%E6%94%9D%E5%BD%B1",
-    "readingTime": 13,
+    "readingTime": 15,
     "featured": false,
     "date": "2026-03-20",
     "path": "Art/台灣攝影.md"
@@ -9236,8 +9269,8 @@
     "path": "ja/Economy/mega-financial-holding-global-banking-network.md"
   },
   {
-    "title": "兆豐金控：從日治官銀到台商全球金融夥伴",
-    "description": "承襲1897年台灣銀行血脈，歷經三次改名兩次合併，兆豐金控用127年時間在38國建立金融網路，成為台商走向世界的重要推手",
+    "title": "兆豐金控：四家行庫合併、台商全球金融夥伴、2016 紐約罰款風暴",
+    "description": "兆豐金控 2002 年 12 月由交通銀行、中國國際商業銀行、中興票券、倍利證券、中國產物保險五家合併而成。2006 年子公司交銀與中國商銀再合併為兆豐國際商業銀行。憑藉交銀百年血脈與中國商銀外匯專業，兆豐建立起全台最龐大的海外分行網路，是台商全球布局的核心夥伴。2016 年紐約分行因反洗錢缺失遭美方裁罰 1.8 億美元，是台灣金融史最大海外監管事件。",
     "category": "Economy",
     "tags": [
       "Economy",
@@ -9247,7 +9280,7 @@
       "國際金融"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E5%85%86%E8%B1%90%E9%87%91%E6%8E%A7",
-    "readingTime": 11,
+    "readingTime": 17,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：兆豐金控.md"
@@ -10194,7 +10227,7 @@
   },
   {
     "title": "宏碁集團 (Acer) - PC 產業的變革先驅",
-    "description": "從台灣桃園起家的個人電腦先驅，創造「多品牌、多通路」商業模式，成為全球 PC 產業的變革引擎",
+    "description": "從台灣台北起家的個人電腦先驅，創造「多品牌、多通路」商業模式，成為全球 PC 產業的變革引擎",
     "category": "Economy",
     "tags": [
       "Economy",
@@ -10204,7 +10237,7 @@
       "全球化"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E5%AE%8F%E7%A2%81",
-    "readingTime": 19,
+    "readingTime": 20,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：宏碁.md"
@@ -11052,7 +11085,7 @@
       "ODM"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E5%92%8C%E7%A2%A9%E8%81%AF%E5%90%88",
-    "readingTime": 18,
+    "readingTime": 19,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：和碩聯合.md"
@@ -11245,7 +11278,7 @@
       "台灣"
     ],
     "url": "https://taiwan.md/Lifestyle/%E5%A4%9C%E7%94%9F%E6%B4%BB%E8%88%87KTV%E6%96%87%E5%8C%96",
-    "readingTime": 13,
+    "readingTime": 14,
     "featured": false,
     "date": "2026-03-17",
     "path": "Lifestyle/夜生活與KTV文化.md"
@@ -11279,7 +11312,7 @@
       "台南企業"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E5%A5%87%E7%BE%8E%E5%AF%A6%E6%A5%AD",
-    "readingTime": 12,
+    "readingTime": 14,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：奇美實業.md"
@@ -11699,23 +11732,6 @@
   },
   {
     "title": "林義雄",
-    "description": "民主運動先驅，林宅血案受害者，反核四運動領袖",
-    "category": "People",
-    "tags": [
-      "民主運動",
-      "林宅血案",
-      "反核運動",
-      "政治受難者",
-      "慈林教育基金會"
-    ],
-    "url": "https://taiwan.md/People/%E6%9E%97%E7%BE%A9%E9%9B%84",
-    "readingTime": 10,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "People/林義雄.md"
-  },
-  {
-    "title": "林義雄",
     "description": "民主運動の先駆者、林宅血案の被害者、反核四運動の指導者",
     "category": "ja",
     "tags": [
@@ -11730,6 +11746,23 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "ja/People/lin-yi-hsiung-democracy-advocate-tragedy-survivor.md"
+  },
+  {
+    "title": "林義雄：從台灣省議員到反核四的道德象徵",
+    "description": "林義雄 1941 年生於宜蘭，台大法律系畢業執業律師。1977 年當選台灣省議員，1979 年加入《美麗島》雜誌。1980/2/28 林宅血案，母親與雙胞胎幼女遇害，案件至今未破。1984 出獄後赴哈佛甘迺迪政府學院取得 MPA。1998/6/7 當選民進黨第八屆黨主席（首位直選主席）。2006/1/24 退出民進黨。2014 以無限期禁食促成核四停工封存。創辦慈林教育基金會，是台灣民主運動最具道德分量的人物之一。2026 年現年 84 歲健在。",
+    "category": "People",
+    "tags": [
+      "民主運動",
+      "林宅血案",
+      "反核運動",
+      "政治受難者",
+      "慈林教育基金會"
+    ],
+    "url": "https://taiwan.md/People/%E6%9E%97%E7%BE%A9%E9%9B%84",
+    "readingTime": 12,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "People/林義雄.md"
   },
   {
     "title": "林懷民",
@@ -12785,7 +12818,7 @@
       "IoT"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E7%A0%94%E8%8F%AF%E7%A7%91%E6%8A%80",
-    "readingTime": 14,
+    "readingTime": 13,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：研華科技.md"
@@ -13200,7 +13233,7 @@
       "環境保護"
     ],
     "url": "https://taiwan.md/Nature/%E5%8F%B0%E7%81%A3%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92",
-    "readingTime": 12,
+    "readingTime": 15,
     "featured": true,
     "date": "2026-03-19",
     "path": "Nature/台灣國家公園.md"
@@ -13359,7 +13392,7 @@
       "散文家"
     ],
     "url": "https://taiwan.md/People/%E5%B8%AD%E6%85%95%E8%93%89",
-    "readingTime": 12,
+    "readingTime": 10,
     "featured": false,
     "date": "2026-03-19",
     "path": "People/席慕蓉.md"
@@ -13574,7 +13607,7 @@
   },
   {
     "title": "特有種",
-    "description": "台灣豐富的特有種生物，展現島嶼生物地理學的演化奇蹟與保育重要性",
+    "description": "台灣豐富的特有種生物：島嶼地理學、垂直氣候帶與長期隔離演化的共同產物，也是全球生物多樣性研究的重要田野場域",
     "category": "Nature",
     "tags": [
       "Nature",
@@ -13584,7 +13617,7 @@
       "櫻花鉤吻鮭"
     ],
     "url": "https://taiwan.md/Nature/%E7%89%B9%E6%9C%89%E7%A8%AE",
-    "readingTime": 9,
+    "readingTime": 13,
     "featured": false,
     "date": "2026-03-17",
     "path": "Nature/特有種.md"
@@ -14024,7 +14057,7 @@
       "環境保護"
     ],
     "url": "https://taiwan.md/Nature/%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92",
-    "readingTime": 16,
+    "readingTime": 18,
     "featured": false,
     "date": "2026-03-17",
     "path": "Nature/國家公園.md"
@@ -14576,7 +14609,7 @@
       "牡丹社事件"
     ],
     "url": "https://taiwan.md/History/%E6%B8%85%E6%B2%BB%E6%99%82%E6%9C%9F",
-    "readingTime": 7,
+    "readingTime": 12,
     "featured": false,
     "date": "2026-03-17",
     "path": "History/清治時期.md"
@@ -15375,23 +15408,6 @@
   },
   {
     "title": "陳俊良",
-    "description": "「設計詩人」，自由落體設計教室創辦人，台灣平面設計界先驅",
-    "category": "People",
-    "tags": [
-      "設計師",
-      "平面設計",
-      "設計教育",
-      "自由落體",
-      "設計詩人"
-    ],
-    "url": "https://taiwan.md/People/%E9%99%B3%E4%BF%8A%E8%89%AF",
-    "readingTime": 11,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "People/陳俊良.md"
-  },
-  {
-    "title": "陳俊良",
     "description": "「デザイン詩人」、自由落体デザイン教室創設者、台湾グラフィックデザイン界の先駆者",
     "category": "ja",
     "tags": [],
@@ -15417,6 +15433,23 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "ko/People/chen-chun-liang-design-poet.md"
+  },
+  {
+    "title": "陳俊良：設計詩人與東方美學的現代轉譯者",
+    "description": "陳俊良 1958 年生於台南，29 歲創立「自由落體設計」（Freeimage Design），被業界譽為「設計詩人」。他以書法、留白、東方意象重新詮釋現代設計語言，作品橫跨出版裝幀、企業識別、國家節慶。2005 年「天圓地方」國宴餐具獲澳門設計雙年展評審大獎。長年投入設計教育，是台灣 1980 年代後最具影響力的平面設計家之一。",
+    "category": "People",
+    "tags": [
+      "設計師",
+      "平面設計",
+      "設計教育",
+      "自由落體",
+      "設計詩人"
+    ],
+    "url": "https://taiwan.md/People/%E9%99%B3%E4%BF%8A%E8%89%AF",
+    "readingTime": 9,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "People/陳俊良.md"
   },
   {
     "title": "陳建仁",
@@ -15478,17 +15511,6 @@
   },
   {
     "title": "陳映真",
-    "description": "《將軍族》《山路》作者，台灣社會寫實主義文學旗手",
-    "category": "People",
-    "tags": [],
-    "url": "https://taiwan.md/People/%E9%99%B3%E6%98%A0%E7%9C%9F",
-    "readingTime": 13,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "People/陳映真.md"
-  },
-  {
-    "title": "陳映真",
     "description": "『将軍族』『山路』の著者、台湾社会写実主義文学の旗手",
     "category": "ja",
     "tags": [
@@ -15505,6 +15527,26 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "ja/People/chen-yingzhen.md"
+  },
+  {
+    "title": "陳映真：從竹南到北京的統派文學良心",
+    "description": "陳映真（1937–2016）本名陳永善，生於苗栗竹南、成長於鶯歌。1964 年〈將軍族〉以外省退伍老兵與台灣雛妓的悲劇成名，1968 年因「民主台灣聯盟案」被判 10 年（1975 蔣介石逝世特赦提前出獄）。1985 年創辦《人間》雜誌開創台灣報告文學先河。1988 年創立中國統一聯盟並任首任主席，2006 年中風後遷居北京、2016 年病逝於北京。他是台灣戰後最具爭議的統派作家，也是鄉土文學論戰中以「許南村」筆名介入的關鍵理論家。",
+    "category": "People",
+    "tags": [
+      "人物",
+      "陳映真",
+      "將軍族",
+      "山路",
+      "社會寫實主義",
+      "鄉土文學",
+      "統派",
+      "民主台灣聯盟案"
+    ],
+    "url": "https://taiwan.md/People/%E9%99%B3%E6%98%A0%E7%9C%9F",
+    "readingTime": 21,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "People/陳映真.md"
   },
   {
     "title": "陳致中：從第一家庭光環到「排黑條款」下的政治浮沉",
@@ -16409,7 +16451,7 @@
   },
   {
     "title": "黃震南",
-    "description": "黃震南是台灣文史工作者、藏書家與作家，以PTT暱稱Sizumaru起家，經營「活水來冊房」專頁分享台灣歷史與舊書文化。著有《台灣史上最有梗的台灣史》等書，被譽為藏書界的竹野內豐。他從嘉義六腳書香家庭出發，父子南北分工蒐集文獻，致力讓嚴肅台灣史變得有趣親民。",
+    "description": "黃震南是台灣文史工作者、藏書家與作家，以「活水來冊房」專頁分享台灣歷史與舊書文化，著有《台灣史上最有梗的台灣史》等書。",
     "category": "People",
     "tags": [
       "台灣文史",
@@ -16419,7 +16461,7 @@
       "活水來冊房"
     ],
     "url": "https://taiwan.md/People/%E9%BB%83%E9%9C%87%E5%8D%97",
-    "readingTime": 7,
+    "readingTime": 8,
     "featured": false,
     "date": "2026-03-20",
     "path": "People/黃震南.md"
@@ -16717,12 +16759,19 @@
     "path": "Economy/新創生態系.md"
   },
   {
-    "title": "楊右任：從街頭塗鴉中輟生到非洲舊鞋救命的台灣青年英雄",
-    "description": "楊右任是台灣社會創業家與人道救援工作者，舊鞋救命國際基督關懷協會創辦人。以一張海報號召20萬人捐鞋援助東非肯亞兒童免受沙蚤侵害，獲2017年十大傑出青年。他從澳洲街頭混混轉變為宣教士，將物資援助升級為永續社區計畫，讓台灣青年看到『小行動、大改變』的可能。",
+    "title": "楊右任",
+    "description": "舊鞋救命國際基督關懷協會創辦人，2017 年十大傑出青年，以一張海報募集十萬雙舊鞋援助東非兒童",
     "category": "People",
-    "tags": [],
+    "tags": [
+      "台灣社會企業",
+      "人道救援",
+      "舊鞋救命",
+      "十大傑出青年",
+      "非洲援助",
+      "基督教事工"
+    ],
     "url": "https://taiwan.md/People/%E6%A5%8A%E5%8F%B3%E4%BB%BB",
-    "readingTime": 8,
+    "readingTime": 7,
     "featured": false,
     "date": "2026-03-20",
     "path": "People/楊右任.md"
@@ -16880,7 +16929,7 @@
       "都市電影"
     ],
     "url": "https://taiwan.md/People/%E6%A5%8A%E5%BE%B7%E6%98%8C",
-    "readingTime": 9,
+    "readingTime": 10,
     "featured": true,
     "date": "2026-03-19",
     "path": "People/楊德昌.md"
@@ -17193,7 +17242,7 @@
       "智慧農業"
     ],
     "url": "https://taiwan.md/Economy/%E8%BE%B2%E6%A5%AD%E7%A7%91%E6%8A%80%E8%88%87%E7%B2%BE%E7%B7%BB%E8%BE%B2%E6%A5%AD",
-    "readingTime": 18,
+    "readingTime": 15,
     "featured": false,
     "date": "2026-03-18",
     "path": "Economy/農業科技與精緻農業.md"
@@ -17828,9 +17877,17 @@
     "title": "數位身分證與數位政府",
     "description": "一張還沒發出去的晶片卡，花了 2.8 億賠償金——台灣數位政府的故事，是信任比技術更難 build 的證明",
     "category": "Technology",
-    "tags": [],
+    "tags": [
+      "數位政府",
+      "數位身分證",
+      "電子化政府",
+      "數位發展部",
+      "g0v",
+      "資安",
+      "個資保護"
+    ],
     "url": "https://taiwan.md/Technology/%E6%95%B8%E4%BD%8D%E8%BA%AB%E5%88%86%E8%AD%89%E8%88%87%E6%95%B8%E4%BD%8D%E6%94%BF%E5%BA%9C",
-    "readingTime": 19,
+    "readingTime": 21,
     "featured": true,
     "date": "2026-03-18",
     "path": "Technology/數位身分證與數位政府.md"
@@ -17892,7 +17949,7 @@
   },
   {
     "title": "緯創資通 (Wistron) - 全球代工的變革先鋒",
-    "description": "從宏碁分拆而生的製造巨擘，年營收破兆的全球第四大電子代工廠，iPhone與 Dell 電腦背後的隱形推手",
+    "description": "從宏碁分拆而生的製造巨擘，年營收破兆；依2025年最新報告已躍升全球第二大EMS，iPhone與 Dell 電腦背後的重要製造夥伴",
     "category": "Economy",
     "tags": [
       "Economy",
@@ -17902,7 +17959,7 @@
       "ODM"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E7%B7%AF%E5%89%B5%E8%B3%87%E9%80%9A",
-    "readingTime": 19,
+    "readingTime": 18,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：緯創資通.md"
@@ -17965,7 +18022,7 @@
       "馬來西亞華人"
     ],
     "url": "https://taiwan.md/People/%E8%94%A1%E6%98%8E%E4%BA%AE",
-    "readingTime": 12,
+    "readingTime": 11,
     "featured": true,
     "date": "2026-03-19",
     "path": "People/蔡明亮.md"
@@ -18343,24 +18400,6 @@
   },
   {
     "title": "鄭南榕",
-    "description": "他在創刊前就準備了24張雜誌執照，因為他知道政府會一直關他的刊——一個「外省囝仔」如何為整座島嶼的言論自由而死",
-    "category": "People",
-    "tags": [
-      "民主運動",
-      "言論自由",
-      "自由時代",
-      "殉道者",
-      "二二八",
-      "台灣獨立"
-    ],
-    "url": "https://taiwan.md/People/%E9%84%AD%E5%8D%97%E6%A6%95",
-    "readingTime": 11,
-    "featured": true,
-    "date": "2026-03-25",
-    "path": "People/鄭南榕.md"
-  },
-  {
-    "title": "鄭南榕",
     "description": "彼は創刊前に24通の雑誌許可証を準備していた。政府が自分の雑誌を何度でも取り締まることを知っていたからだ——一人の「外省人の子」が、この島全体の言論自由のためにいかにして命を捧げたか",
     "category": "ja",
     "tags": [
@@ -18376,6 +18415,24 @@
     "featured": true,
     "date": "2026-03-25",
     "path": "ja/People/zheng-nanrong.md"
+  },
+  {
+    "title": "鄭南榕：一個外省囝仔用生命換言論自由的算式",
+    "description": "1947年二二八時，父親鄭木森被台灣鄰居藏起來才活命；四十一年後，那對夫妻的長子鄭南榕在自己的雜誌社裡點燃汽油。1984年創辦《自由時代》，手持24張執照、被禁18次仍照出；1988年刊登許世楷《台灣共和國憲法草案》，1989年4月7日自焚。葉菊蘭此後從政，歷任立委、交長、客委會、行政院副院長、總統府秘書長。鄭的選擇至今仍有爭議：支持者視之為以身殉道，批評者認為是過激個人選擇。台灣言論自由的空氣如此日常，許多人已忘記它曾需要用命換。",
+    "category": "People",
+    "tags": [
+      "民主運動",
+      "言論自由",
+      "自由時代",
+      "殉道者",
+      "二二八",
+      "台灣獨立"
+    ],
+    "url": "https://taiwan.md/People/%E9%84%AD%E5%8D%97%E6%A6%95",
+    "readingTime": 13,
+    "featured": true,
+    "date": "2026-03-25",
+    "path": "People/鄭南榕.md"
   },
   {
     "title": "鄭麗文",
@@ -18619,7 +18676,7 @@
   },
   {
     "title": "蕭青陽",
-    "description": "四度入圍葛萊美獎最佳專輯包裝設計的台灣視覺設計師",
+    "description": "葛萊美獎最佳專輯包裝設計得主，七度入圍終以父女合作封王，台灣設計登上世界舞台的代表人物",
     "category": "People",
     "tags": [
       "設計師",
@@ -18629,7 +18686,7 @@
       "台灣文化"
     ],
     "url": "https://taiwan.md/People/%E8%95%AD%E9%9D%92%E9%99%BD",
-    "readingTime": 10,
+    "readingTime": 9,
     "featured": false,
     "date": "2026-03-19",
     "path": "People/蕭青陽.md"
@@ -18808,15 +18865,16 @@
     "path": "People/賴清德.md"
   },
   {
-    "title": "賴聲川",
-    "description": "表演工作坊創辦人，《暗戀桃花源》原創者，華語劇場教父",
+    "title": "賴聲川：表演工作坊與烏鎮戲劇節的兩岸劇場架橋者",
+    "description": "賴聲川 1954/10/25 生於美國華盛頓特區，父親賴家球為外交官。UC Berkeley 戲劇藝術博士（1983）。1984 年與妻子丁乃竺、李立群、李國修等人共同創立表演工作坊。1986 年《暗戀桃花源》首演，1992 年改編電影由林青霞主演。2007 年獲第十一屆國家文藝獎，兩度獲頒此榮譽。2013/5 與陳向宏、黃磊、孟京輝共同創辦烏鎮戲劇節，是兩岸最具影響力的華語戲劇節之一。2015 年上海上劇場開幕。被 BBC 譽為「當今最優異的中文劇作家」。",
     "category": "People",
     "tags": [
       "賴聲川",
       "劇場",
       "表演工作坊",
       "暗戀桃花源",
-      "戲劇導演"
+      "戲劇導演",
+      "烏鎮戲劇節"
     ],
     "url": "https://taiwan.md/People/%E8%B3%B4%E8%81%B2%E5%B7%9D",
     "readingTime": 13,
@@ -19133,9 +19191,19 @@
     "title": "鍵盤上的文明衝突：東亞文字輸入法的百年演化",
     "description": "當全世界的鍵盤都長一樣，不同文明如何把自己的文字塞進 26 個英文字母裡？從台灣注音到韓國二伐式，輸入法是一場靜默的文化保衛戰",
     "category": "Technology",
-    "tags": [],
+    "tags": [
+      "輸入法",
+      "科技",
+      "文化",
+      "注音",
+      "倉頡",
+      "鍵盤",
+      "數位化",
+      "東亞",
+      "文字"
+    ],
     "url": "https://taiwan.md/Technology/%E6%9D%B1%E4%BA%9E%E6%96%87%E5%AD%97%E8%BC%B8%E5%85%A5%E6%B3%95",
-    "readingTime": 22,
+    "readingTime": 23,
     "featured": true,
     "date": "2026-03-19",
     "path": "Technology/東亞文字輸入法.md"
@@ -19678,6 +19746,23 @@
     "featured": false,
     "date": "2026-04-28",
     "path": "ja/People/su-chiao-hui.md"
+  },
+  {
+    "title": "蘇打綠：從貢寮小舞台到「魚丁糸」抗爭，一場長達二十年的音樂主權奪還戰",
+    "description": "2003年貢寮海洋音樂祭的一場相遇，開啟了蘇打綠與林暐哲長達十六年的師徒緣分，卻也埋下日後法庭對峙的伏筆。這是一段關於名字、創作主權，以及六個人如何透過「魚丁糸」分身守護音樂的故事。",
+    "category": "Music",
+    "tags": [
+      "蘇打綠",
+      "魚丁糸",
+      "吳青峰",
+      "台灣音樂",
+      "著作權"
+    ],
+    "url": "https://taiwan.md/Music/%E8%98%87%E6%89%93%E7%B6%A0",
+    "readingTime": 10,
+    "featured": false,
+    "date": "2026-05-14",
+    "path": "Music/蘇打綠.md"
   },
   {
     "title": "蘇貞昌：從美麗島辯護律師到「衝衝衝」的電火球閣揆",
@@ -20235,7 +20320,7 @@
       "創新"
     ],
     "url": "https://taiwan.md/Technology/AI%E7%99%BC%E5%B1%95",
-    "readingTime": 22,
+    "readingTime": 23,
     "featured": true,
     "date": "2026-03-19",
     "path": "Technology/AI發展.md"
@@ -27737,7 +27822,7 @@
       "創新"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E4%BC%81%E6%A5%AD%EF%BC%9A%E5%AE%8F%E9%81%94%E9%9B%BB",
-    "readingTime": 16,
+    "readingTime": 17,
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：宏達電.md"
