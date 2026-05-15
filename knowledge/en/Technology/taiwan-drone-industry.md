@@ -11,7 +11,7 @@ lastVerified: 2026-05-10
 lastHumanReview: false
 featured: false
 translatedFrom: 'Technology/台灣無人機產業.md'
-sourceCommitSha: '8f0b0bebf'
+sourceCommitSha: '84dab8c1'
 sourceContentHash: 'sha256:9165b111d87b4581'
 sourceBodyHash: 'sha256:88f1bf8039ff02f6'
 translatedAt: '2026-05-10T22:52:30+08:00'

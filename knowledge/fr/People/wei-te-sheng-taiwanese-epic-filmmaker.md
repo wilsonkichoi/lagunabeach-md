@@ -1,59 +1,105 @@
 ---
-title: 'Wei Te-sheng'
-description: 'Cinéaste visionnaire qui a réécrit l'histoire de Taïwan à travers l'épopée filmique, du Cap No. 7 à Seediq Bale'
+title: "Wei Te-sheng : né à Yongkang en 1969, du succès au box-office de *Cape No. 7* à la compétition officielle de Venise"
+description: "Né le 16 août 1969 à Yongkang, comté de Tainan (aujourd'hui district de Yongkang, ville de Tainan). Diplômé en génie électrique du Far East Junior College of Technology (aujourd'hui Far East University of Science and Technology). En 2008, *Cape No. 7* réalise un box-office d'environ 530 millions de dollars taïwanais (record du cinéma taïwanais). En 2011, *Seediq Bala* est sélectionné en compétition officielle à la 68ᵉ Mostra de Venise pour le Lion d'or, et remporte le prix du meilleur long métrage lors de la 48ᵉ cérémonie des Golden Horse Awards. Prépare actuellement le projet épique *Trilogie de Taïwan*."
 date: 2026-03-19
-tags: [personnalité, réalisateur, cinéma, cinéma taïwanais, culture des peuples autochtones, Cape No. 7, Seediq Bale]
-subcategory: 'Cinéma et arts de la scène'
-category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 8
+author: "Taiwan.md"
+category: "People"
+subcategory: "電影與戲劇"
+tags: [
+    "Cinéma et théâtre",
+    "Réalisateur",
+    "Cinéma taïwanais",
+    "Culture autochtone",
+    "Cape No. 7",
+    "Seediq Bala",
+    "Tainan",
+  ]
+readingTime: '# design_rationale:
+#   why_this_hook: "5.3億票房+威尼斯主競賽——這兩個節點才能說清楚他在台灣電影史的位置：一個商業奇蹟與一個藝術認可，不是同一件事。"
+#   whats_excluded: "霧社事件歷史背景完整分析；台灣三部曲資金籌募細節；《海角七號》演員逐一介紹"
+#   where_it_hedges: "《海角七號》票房5.3億：來源P0確認「破億」，5.3億此數字為現有資料常見說法（建議確認官方統計）"'
+lastVerified: 2026-05-07
+lastHumanReview: false
 featured: false
 translatedFrom: "People/魏德聖.md"
-lastVerified: 2026-03-19
-sourceCommitSha: "812e7574"
-sourceContentHash: "sha256:da6124a8ed71cc71"
-sourceBodyHash: 'sha256:f4f822df5584044a'
-translatedAt: "2026-04-14T19:19:52+08:00"
+sourceCommitSha: "8eeedef0c"
+sourceContentHash: "sha256:d2c501904d21b8d0"
+sourceBodyHash: "sha256:4147951068d47d09"
+translatedAt: "2026-05-16T05:07:56+08:00"
 ---
 
-Wei Te-sheng est né le 16 août 1969 à Yongkang, Tainan. Il compte parmi les réalisateurs les plus emblématiques de Taïwan. Avec _Cape No. 7_, il a pulvérisé les records du box-office national ; avec _Seediq Bale_, il a hissé le cinéma taïwanais au rang de l'épopée internationale. Ce second assistant méconnu est devenu, au fil des années, l'homme qui a profondément reconfiguré l'industrie cinématographique de l'île. Ses films ne se distinguent pas seulement par leur succès commercial : ils ont surtout redonné au public taïwanais la confiance en son propre cinéma.
+# Wei Te-sheng : né à Yongkang en 1969, du succès au box-office de _Cape No. 7_ à la compétition officielle de Venise
 
-## Les premières années et l'éveil au cinéma
+> **En 30 secondes :** Wei Te-sheng est né le 16 août 1969 à Yongkang, comté de Tainan (aujourd'hui district de Yongkang, ville de Tainan).[^1] Diplômé en génie électrique du Far East Junior College of Technology (aujourd'hui Far East University of Science and Technology), il entre dans le milieu du cinéma comme assistant-réalisateur.[^1] En 2008, il réalise _Cape No. 7_, qui engrange environ 530 millions de dollars taïwanais de recettes, devenant le plus grand succès commercial de l'histoire du cinéma taïwanais à l'époque (P0⚠️ confirme « dépasse le cent million » ; le chiffre de 530 millions est couramment cité — il est recommandé de vérifier les statistiques officielles).[^2] En 2011, _Seediq Bala_ est sélectionné en compétition officielle à la 68ᵉ Mostra internationale du film de Venice, en lice pour le Lion d'or.[^3] La même année, _Seediq Bala_ remporte le prix du meilleur long métrage lors de la 48ᵉ cérémonie des Golden Horse Awards.[^4] Il prépare actuellement le projet épique _Trilogie de Taïwan_.
 
-Dès l'enfance, Wei Te-sheng est fasciné par l'image. Au lycée, il tourne déjà ses premiers courts métrages en 8 mm. Ses origines modestes ne tempèrent pas sa passion. Il intègre ensuite le département de génie électrique du Far East University of Science and Technology — une formation technique en apparence éloignée du septième art, mais qui forge en lui une sensibilité aiguë aux contraintes techniques. Cette rigueur lui sera précieuse sur les plateaux.
+## 16 août 1969, Yongkang, Tainan
 
-Au début des années 1990, il fait ses premières armes dans l'industrie en tant qu'assistant réalisateur, aux côtés de plusieurs metteurs en scène reconnus. Sans jamais tenir le premier rôle, il observe chaque étape du tournage avec minutie : l'écriture scénaristique, la direction d'acteurs, la logistique de plateau, le montage en post-production. Ces années d'apprentissage patientes — longues en apparence, décisives en substance — jettent les fondations de son indépendance future.
+Wei Te-sheng est né le 16 août 1969 à Yongkang, comté de Tainan (aujourd'hui district de Yongkang, ville de Tainan).[^1] Diplômé en génie électrique du Far East Junior College of Technology (aujourd'hui Far East University of Science and Technology), sa formation en sciences et techniques aiguise sa sensibilité aux aspects techniques de la production.[^1]
 
-## Le miracle _Cape No. 7_
+Dans les années 1990, Wei Te-sheng entre dans le milieu du cinéma comme assistant-réalisateur, apprenant aux côtés de plusieurs réalisateurs taïwanais. À cette époque, l'industrie cinématographique taïwanaise est en pleine déclin : la place accordée aux films locaux en salles est extrêmement réduite, et la plupart des jeunes ne considèrent pas « raconter des histoires taïwanaises » comme un métier viable. En 1995, il écrit et réalise un court métrage de sept minutes intitulé _Face à face_, qu'il utilise comme lettre de motivation filmique pour se présenter comme assistant de Edward Yang (_A Brighter Summer Day_) — cette lettre de recommandation en langage cinématographique constitue sa tentative la plus représentative de cette période.[^1]
 
-En 2008, _Cape No. 7_ sort en salles et réalise 530 millions de nouveaux dollars taïwanais au box-office, établissant un record historique pour un film taïwanais. Au-delà des chiffres, cette œuvre ranime la flamme : avant elle, les productions locales survivaient difficilement face au rouleau compresseur hollywoodien et aux blockbusters hongkongais. Le film démontre que le public taïwanais est prêt à voir ses propres histoires sur grand écran.
+Issu d'une formation en sciences et techniques, sa sensibilité à la mise en scène, au langage des plans et à la chronologie provient d'une longue observation sur les plateaux de tournage, et non d'une formation académique en cinéma. Ce « parcours non conventionnel » est peut-être l'une des raisons pour lesquelles il a su s'écarter des conventions du cinéma taïwanais par la suite.
 
-Le succès de _Cape No. 7_ ne doit rien au hasard. Wei Te-sheng a mis des années à affiner son scénario, tissant avec finesse une romance contemporaine dans le paysage de Hengchun et les souvenirs de l'époque coloniale japonaise. Le film conjugue l'efficacité populaire du cinéma grand public et la profondeur des œuvres d'auteur. La beauté des paysages de Hengchun, la vitalité des personnages du quotidien et la distribution soigneusement choisie ont marqué les esprits durablement.
+## D'abord _Seediq Bala_, puis _Cape No. 7_
 
-Plus remarquable encore : pour boucler le financement du film, Wei Te-sheng a vendu sa maison et hypothéqué son avenir sans hésitation. Cette audace absolue au service d'une vision est devenue une référence dans le monde de la création culturelle taïwanaise.
+L'envie de Wei Te-sheng de réaliser _Seediq Bala_ remonte à plus de dix ans avant _Cape No. 7_. En 2000, il finance de sa poche un court-métrage pilote de cinq minutes pour _Seediq Bala_, qu'il présente partout à la recherche de financement — sans succès.[^1]
 
-## L'ambition épique de _Seediq Bale_
+L'environnement d'investissement cinématographique taïwanais lui indique que ce sujet est une impasse commerciale. Son choix est le suivant : tourner d'abord un film capable d'attirer le marché, puis utiliser la confiance ainsi gagnée pour obtenir les moyens de raconter l'incident de Wushe. _Cape No. 7_ est l'exécution de cette stratégie.
 
-Fort du succès de _Cape No. 7_, Wei Te-sheng dispose désormais d'un espace de création bien plus large. Il se lance dans un projet autrement plus ambitieux : _Seediq Bale_, fresque historique sur l'incident de Wushe, avec un budget de production atteignant 700 millions de nouveaux dollars taïwanais — un record absolu dans l'histoire du cinéma taïwanais.
+Cette logique — « d'abord ouvrir la voie, puis emprunter le chemin souhaité » — est une clé pour comprendre la carrière de Wei Te-sheng. Il n'est pas un réalisateur qui a « par hasard » tourné un film à succès, mais un homme aux objectifs de long terme clairs, qui les atteint de manière stratégique.
 
-Le film sort en 2011 en deux parties — _Le Drapeau du soleil_ et _Le Pont de l'arc-en-ciel_ — et reconstitue avec une précision saisissante les événements de 1930, lorsque le chef Mona Rudao conduisit son peuple Seediq dans un soulèvement désespéré contre l'occupant japonais. Wei Te-sheng devait non seulement maîtriser un contexte historique d'une grande complexité, mais aussi surmonter les défis linguistiques et culturels que représente la reconstitution d'une civilisation des peuples autochtones de Taïwan.
+## 2008 : _Cape No. 7_, environ 530 millions de dollars taïwanais de recettes
 
-Sur le plan artistique, _Seediq Bale_ est salué à sa juste valeur : il est sélectionné au Festival de Venise et révèle aux yeux du monde entier la puissance de fabrication du cinéma taïwanais. Si le box-office reste en deçà de _Cape No. 7_, la portée culturelle et historique du film est bien plus profonde : il a fait connaître la culture des peuples autochtones à un public élargi et invité Taïwan à revisiter la complexité de sa propre mémoire historique.
+En 2008, Wei Te-sheng réalise et autofinance _Cape No. 7_, avec un budget de production initial de 5 millions de dollars taïwanais empruntés, mêlant une histoire d'amour moderne et la mémoire de la période de domination japonaise.[^2] Pendant le tournage, ses amis sont presque unanimement pessimistes — l'un d'eux lui dit directement : « Tu vas finir par fuir. » Sa réponse : « Je trouve que j'ai très bien tourné. »[^5]
 
-## _Taïwan Trilogy_ : le rêve ultime
+Après sa sortie, le film engrange environ 530 millions de dollars taïwanais de recettes à Taïwan (P0 confirme « dépasse le cent million » ; le chiffre de 530 millions est couramment cité dans les sources disponibles — il est recommandé de consulter les statistiques officielles du Taiwan Creative Content Agency pour confirmer le chiffre exact).[^2] Ce montant bat le record historique du cinéma taïwanais et ravive la confiance du public dans l'idée que « les histoires taïwanaises peuvent être bien racontées ».
 
-Après _Seediq Bale_, Wei Te-sheng ne s'accorde aucun repos. Il conçoit un projet encore plus monumental : _Taïwan Trilogy_, trois films qui retraceraient des périodes distinctes de l'histoire de l'île au XVIIe siècle — de la colonisation hollandaise à la période Zheng Chenggong en passant par les premières années de la domination Qing. Le budget estimé dépasse les 4,5 milliards de nouveaux dollars taïwanais, faisant de ce projet l'entreprise cinématographique la plus ambitieuse jamais envisagée à Taïwan.
+> 📝 **Note du curateur :** Derrière le « miracle » de _Cape No. 7_, il y a un fait facilement négligé : Wei Te-sheng est sous une pression financière considérable. En cas d'échec au box-office, il aurait dû assumer une dette personnelle énorme. Il a misé sans aucun filet de sécurité — ce qui fait de la phrase « seuls ceux qui croient peuvent voir le miracle » non pas un cliché de motivation bon marché, mais une description littérale de la réalité.[^5]
 
-Pour concrétiser cette vision, Wei Te-sheng a même planifié la construction à Tainan d'un parc thématique baptisé « Cité de l'abondance », destiné à faire revivre le paysage côtier de Taijiang au XVIIe siècle. Le financement de l'ensemble du projet avance lentement, mais Wei Te-sheng ne lâche pas prise : il continue de promouvoir son idée à travers de multiples canaux, déterminé à achever cette trilogie épique sur l'histoire de Taïwan.
+## 2011 : _Seediq Bala_ — compétition officielle à Venice, meilleur long métrage aux Golden Horse
 
-## Son empreinte sur l'industrie cinématographique taïwanaise
+Le succès de _Cape No. 7_ permet à Wei Te-sheng d'obtenir des financements de production autrefois inaccessibles. En 2011, il réalise _Seediq Bala_ (divisé en deux parties : _Le Drapeau du Soleil_ et _Le Pont Arc-en-Ciel_), consacré à l'incident de Wushe de 1930, lorsque les Seediq, peuple autochtone de Taïwan, se sont soulevés contre la domination coloniale japonaise. Le budget de production est d'environ 700 millions de dollars taïwanais — plus de cent fois celui de _Cape No. 7_.[^3]
 
-L'influence de Wei Te-sheng dépasse largement ses propres films. _Cape No. 7_ a prouvé que le cinéma taïwanais possède un vrai potentiel commercial, encourageant d'autres créateurs à investir des sujets locaux. _Seediq Bale_ a démontré la maturité technique des productions taïwanaises et repositionné Taïwan sur la carte cinématographique internationale.
+Le film est sélectionné en **compétition officielle à la 68ᵉ Mostra internationale du film de Venise**, en lice pour le Lion d'or (et non la Berlinale ou le Festival de Busan).[^3] La même année, il remporte le prix du meilleur long métrage lors de la 48ᵉ cérémonie des Golden Horse Awards.[^4]
 
-Il s'engage également dans la formation de la nouvelle génération. À travers sa société de production Orz Movie, il soutient les projets de jeunes réalisateurs. Wei Te-sheng dit volontiers : « Le cinéma est le métier du rêve, mais les rêves ont besoin de quelqu'un pour les incarner. » Cet enthousiasme communicatif et ce sens des responsabilités envers son art ont profondément influencé de nombreux professionnels qui ont suivi ses traces.
+(Note : certaines sources mentionnent à tort la Berlinale ou Busan ; la sélection en compétition officielle à Venise est confirmée par P0.)
 
-## Le rêveur qui ne renonce pas
+Évoquant sa perspective sur l'interprétation de l'incident de Wushe, Wei Te-sheng a déclaré : « **La plupart des interprétations de l'incident de Wushe adoptent le point de vue des Japonais ou des Han. Personne ne l'a jamais envisagé du point de vue d'un homme sur un champ de bataille.** » Il souhaite filmer la fierté des autochtones : « Les Han disent toujours vouloir les aider, mais n'ont jamais essayé de comprendre leur fierté. »[^5] Cette perspective constitue la contribution centrale de _Seediq Bala_ à l'histoire du cinéma : pour la première fois, l'incident de Wushe fait l'objet d'une narration cinématographique grand public véritablement portée par le point de vue des Seediq.
 
-D'assistant réalisateur à cinéaste de renom, de la vente de sa maison pour financer un film à la levée de milliards pour un projet de trilogie — la carrière de Wei Te-sheng est elle-même une épopée sur le rêve et la persévérance. Il a confié un jour : « Je ne suis pas un génie. Je suis simplement quelqu'un qui aime le cinéma plus que les autres et qui est prêt à tout lui donner. » Cette passion sans calcul est précisément l'une des forces vives qui ont permis au cinéma taïwanais de se relever et de rayonner, même dans les moments les plus difficiles.
+## Le projet épique _Trilogie de Taïwan_
 
-Le tournage de _Taïwan Trilogy_ se heurte encore à de nombreux obstacles, mais Wei Te-sheng ne cède pas. Il continue d'intervenir dans tous les forums possibles pour défendre l'importance de l'histoire et de la culture de Taïwan, interprétant à travers le regard d'un cinéaste les récits de cette terre. Qu'il mène ou non tous ses projets à leur terme, Wei Te-sheng a déjà prouvé, par ses œuvres, que le cinéma taïwanais est capable de raconter ses propres histoires — et d'éblouir sur la scène internationale.
+Après _Seediq Bala_, Wei Te-sheng conçoit le projet plus ambitieux de la _Trilogie de Taïwan_, qui devrait se décliner en trois films présentant l'histoire de Taïwan à différentes époques : la domination néerlandaise au XVIIᵉ siècle, la période Zheng Ming jusqu'à la dynastie Qing. Le budget global est estimé à plus de 4,5 milliards de dollars taïwanais.[^5] Il propose parallèlement le projet de parc à thème « City of Abundance », visant à recréer de manière immersive des scènes historiques de Taïwan au XVIIᵉ siècle.
+
+Le projet fait face à d'immenses pressions financières et à des défis d'exécution. Wei Te-sheng a déclaré publiquement que si la _Trilogie de Taïwan_ voyait effectivement le jour, il serait prêt à raconter clairement ces vingt-cinq années de parcours cinématographique. Derrière cette phrase se cache le dernier pari d'un réalisateur sur sa propre « croyance ».[^5]
+
+L'ensemble du parcours de Wei Te-sheng peut se résumer par cette phrase : « **Seuls ceux qui croient peuvent voir le miracle !** »[^5] De l'emprunt de 5 millions pour _Cape No. 7_ au budget de 700 millions pour _Seediq Bala_, puis à la vision de 4,5 milliards pour la _Trilogie de Taïwan_, chaque étape est plus difficile que la précédente, et il continue d'avancer à chaque fois.
+
+## Sa place dans l'histoire du cinéma taïwanais
+
+Avant Wei Te-sheng, le cinéma local taïwanais avait quasiment disparu des écrans. Les réalisations artistiques de la « Nouvelle Vague taïwanaise » — Hou Hsiao-hsien, Edward Yang — sont reconnues internationalement, mais les recettes au box-office restent durablement faibles, les salles cédant la place à Hollywood et au cinéma hongkongais.
+
+_Cape No. 7_ n'est pas seulement le succès d'un film : il a convaincu le public taïwanais que « les histoires taïwanaises valent la peine d'être regardées », et convaincu les investisseurs que « le cinéma taïwanais peut se faire ». Ce changement structurel est la condition préalable à l'émergence d'une nouvelle vague de films commerciaux taïwanais.
+
+De ce point de vue, la signification de Wei Te-sheng dans l'histoire du cinéma taïwanais est double : d'une part, ses œuvres elles-mêmes (les réussites artistiques et commerciales de _Cape No. 7_ et _Seediq Bala_), d'autre part, la transformation de l'imagination des spectateurs et des investisseurs taïwanais quant au « cinéma local » — un impact de plus longue portée.[^5]
+
+L'idée reçue veut que ses films soient des « miracles », le fruit d'un concours de circonstances « favorables ». Une autre lecture est possible : derrière ce concours de circonstances, il y a un homme qui a parcouru pendant vingt ans le chemin suivant « d'abord un court métrage → chercher des fonds → échouer → se tourner vers un sujet plus modeste → utiliser un petit succès pour obtenir de grands financements ». Le miracle est souvent le plan B le plus long.
+
+Il n'y a pas de raccourci dans le cinéma. Du département de génie électrique d'une école technique de Yongkang à la compétition officielle de Venise, Wei Te-sheng n'a utilisé qu'une seule méthode : continuer à croire, continuer à avancer.
+
+Né en 1969 à Yongkang, Tainan ; en 2000, 500 000 dollars pour cinq minutes de film sans trouver de financement ; en 2008, 530 millions de recettes ; en 2011, compétition officielle à Venise — cette trajectoire n'est pas un miracle, c'est de l'endurance.
+
+**Pour aller plus loin** : [Wei Te-sheng — Wikipédia](https://zh.wikipedia.org/zh-tw/魏德聖) ｜ [Base de données du cinéma taïwanais : Wei Te-sheng](https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12549) ｜ [Site officiel des Golden Horse Awards](https://www.goldenhorse.org.tw/)
+
+## Références
+
+[^1]: [Wikipédia : Wei Te-sheng](https://zh.wikipedia.org/zh-tw/魏德聖) — Confirme la naissance le 16 août 1969 à Yongkang, comté de Tainan (aujourd'hui district de Yongkang, ville de Tainan), et le diplôme en génie électrique du Far East Junior College of Technology.
+
+[^2]: [Base de données du cinéma taïwanais : _Cape No. 7_](https://taiwancinema.bamid.gov.tw/) — Confirme la sortie de _Cape No. 7_ en 2008 et un box-office dépassant le cent million (environ 530 millions — il est recommandé de consulter les statistiques officielles pour confirmation).
+
+[^3]: [Wikipédia : _Seediq Bala_](https://zh.wikipedia.org/zh-tw/賽德克·巴萊) — Confirme la sélection de _Seediq Bala_ en compétition officielle à la 68ᵉ Mostra internationale du film de Venise, en lice pour le Lion d'or (et non la Berlinale ou Busan).
+
+[^4]: [Golden Horse Awards : 48ᵉ cérémonie, meilleur long métrage](https://www.goldenhorse.org.tw/fpp/completed/detail/53) — Confirme que _Seediq Bala_ a remporté le prix du meilleur long métrage lors de la 48ᵉ cérémonie des Golden Horse Awards.
+
+[^5]: [Business Today : Comment Wei Te-sheng a réalisé son grand rêve cinématographique (2020)](https://businesstoday.com.tw/article/category/183016/post/202008050003/) — Contient les citations « tes amis disent que tu vas fuir », « seuls ceux qui croient peuvent voir le miracle », ainsi que le contexte du financement et du projet de la _Trilogie de Taïwan_.
+
+[^6]: [Taiwan Cinema : Entretien avec Wei Te-sheng — Le courage et les cinq millions qui ont construit _Cape No. 7_](https://taiwancinema.bamid.gov.tw/Infofeatures/InfofeaturesContent/?ContentUrl=57066) — Reportage approfondi sur le processus de production de _Cape No. 7_, incluant des témoignages de première main sur le financement et les défis de production.

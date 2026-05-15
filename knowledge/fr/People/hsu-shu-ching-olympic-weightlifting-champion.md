@@ -1,73 +1,96 @@
 ---
-title: 'Hsu Shu-ching'
-description: 'Médaille d'or aux Jeux olympiques de Rio 2016 et médaille d'or réattribuée à Londres 2012 en haltérophilie'
+title: "Hsu Shu-ching : née à Lunbei en 1991, première haltérophile taiwanaise double médaillée d'or olympique (catégorie 53 kg)"
+description: "Née le 9 mai 1991 dans une famille hakka du canton de Lunbei, comté de Yunlin. Taille : 159 cm. Aux Jeux olympiques de Londres 2012 en catégorie 53 kg femmes, elle obtient l'argent avec 219 kg (96 + 123). La médaillée d'or initiale, Zhao Changling (Kazakhstan), ayant échoué au contrôle antidopage, Hsu est promue à l'or en décembre 2020. Aux Jeux olympiques de Rio 2016, elle remporte l'or directement avec 212 kg (100 + 112). Première athlète taiwanaise double championne olympique. Retraite annoncée le 3 juin 2018. En 2019, suspension de trois ans pour un contrôle antidopage de 2017 (sans consécence sur ses deux médailles d'or olympiques)."
 date: 2026-03-19
-tags: ['sport', 'haltérophilie', 'Jeux olympiques', 'médaille d'or', 'catégorie 53 kg']
-subcategory: 'Sport'
+author: 'Taiwan.md'
 category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 8
+subcategory: '體育'
+tags: ['體育', '舉重', '奧運', '金牌', '53公斤級', '雲林']
+readingTime: "# design_rationale:\n#   why_this_hook: \"從兩面金牌的精確成績切入——219kg（遞補）和212kg（直接奪金）都是具體數字，不是形容詞。\"\n#   whats_excluded: \"技術動作生物力學分析；訓練課表細節；商業代言清單\"\n#   where_it_hedges: \"2012銀牌遞補金牌的金牌得主P0確認為趙常玲（哈薩克），原文有誤\""
+lastVerified: 2026-05-07
+lastHumanReview: false
 featured: false
-lastVerified: 2026-03-19
-translatedFrom: "People/許淑淨.md"
-sourceCommitSha: "a05d2431"
-sourceContentHash: "sha256:3b7fb89b51840200"
-sourceBodyHash: 'sha256:dca5860f9a717d39'
-translatedAt: "2026-04-14T19:18:50+08:00"
+translatedFrom: 'People/許淑淨.md'
+sourceCommitSha: '0ea5d5d42'
+sourceContentHash: 'sha256:81d60bf0143f4da3'
+sourceBodyHash: 'sha256:a8a07476ede69bdb'
+translatedAt: '2026-05-16T05:07:56+08:00'
 ---
 
-# Hsu Shu-ching : la déesse de l'haltérophilie
+# Hsu Shu-ching : née à Lunbei en 1991, première haltérophile taiwanaise double médaillée d'or olympique (catégorie 53 kg)
 
-Hsu Shu-ching est la plus grande haltérophile de l'histoire de Taïwan. Née le 9 mai 1991 dans le comté de Yunlin, elle a marqué la scène internationale par une puissance explosive et une détermination hors du commun. Sa médaille d'or aux Jeux olympiques de Rio 2016 et la médaille d'or réattribuée à Londres 2012 font d'elle l'une des sportives taïwanaises les plus titrées de l'histoire olympique, propulsant l'haltérophilie au sommet du sport national.
+> **En 30 secondes :** Hsu Shu-ching est née le 9 mai 1991 dans une famille hakka du canton de Lunbei, comté de Yunlin.[^1] Aux Jeux olympiques de Londres 2012 en catégorie 53 kg femmes, elle obtient l'arraché à 96 kg, l'épaulé-jeté à 123 kg, pour un total de 219 kg, décrochant l'argent.[^2] La médaillée d'or initiale, Zhao Changling (Kazakhstan), voit son résultat annulé en octobre 2016 après un contrôle antidopage rétrospectif positif ; Hsu est officiellement promue à l'or en décembre 2020.[^2] Aux Jeux olympiques de Rio 2016, elle remporte l'or directement avec un arraché à 100 kg (trois essais réussis) + un épaulé-jeté à 112 kg = 212 kg.[^3] Première athlète taiwanaise double championne olympique. Elle annonce sa retraite le 3 juin 2018 (blessure au genou).[^1] En mars 2019, elle est suspendue trois ans à la suite d'un contrôle antidopage positif de novembre 2017 (elle invoque une contamination involontaire par un complément alimentaire ; ses deux médailles d'or olympiques ne sont pas affectées).[^4]
 
-## D'une jeune fille de la campagne à championne olympique
+## 1991, Lunbei, Yunlin
 
-Hsu Shu-ching a grandi dans une famille rurale du comté de Yunlin. Dès l'enfance, elle se distinguait par une force physique et des aptitudes sportives remarquables. Au collège, malgré une stature modeste, sa puissance impressionna son professeur d'éducation physique, qui lui recommanda l'haltérophilie. Dès ses premiers entraînements, elle souleva des charges bien supérieures à celles de ses camarades du même âge, révélant un potentiel exceptionnel.
+Hsu Shu-ching naît le 9 mai 1991 dans le canton de Lunbei, comté de Yunlin, au sein d'une famille hakka. Taille : 159 cm, poids de compétition : 53 kg.[^1] Au collège, un professeur d'éducation physique repère son potentiel en haltérophilie ; elle entame un entraînement systématique au lycée.
 
-Au lycée, elle intégra un programme d'entraînement structuré. L'haltérophilie est une discipline d'une grande exigence technique : elle mobilise la force, la vitesse, la souplesse et la coordination dans une parfaite harmonie. Sous la direction de ses entraîneurs, Hsu Shu-ching affina les deux mouvements fondamentaux — l'arraché et l'épaulé-jeté — au fil d'heures de travail quotidien, développant simultanément sa puissance musculaire et sa maîtrise technique.
+Issue d'un milieu rural hakka de Lunbei, elle ne bénéficie d'aucun « avantage de ressources » spectaculaire dans son parcours — elle emprunte le chemin standard du système sportif de base taïwanais : repérée par un enseignant, intégrée dans le système scolaire, progressant échelon par échelon grâce à ses résultats. Ce parcours est en soi la raison pour laquelle l'haltérophilie taïwanaise parvient à se maintenir durablement sur la scène olympique.
 
-## La surprise londonienne
+La catégorie 53 kg femmes est l'une des plus exigeantes en haltérophilie, tant sur le plan technique que sur celui de la puissance explosive. Les athlètes de cette catégorie doivent atteindre un haut degré de précision dans les deux mouvements — arraché et épaulé-jeté — et la moindre instabilité dans l'un ou l'autre peut déterminer le classement. Les performances de Hsu Shu-ching sont le fruit d'un entraînement systématique de longue durée combiné à une grande précision technique.
 
-Les Jeux olympiques de Londres 2012 marquèrent la première participation de Hsu Shu-ching à l'épreuve reine du sport mondial. Âgée de seulement 21 ans, elle réalisa une performance remarquable dans la catégorie des moins de 53 kg : 100 kg à l'arraché, 131 kg à l'épaulé-jeté, soit un total de 231 kg, qui lui valut la médaille d'argent. Ce résultat constituait à lui seul une avancée historique pour l'haltérophilie taïwanaise, attirant une attention inédite sur cette discipline.
+## Jeux olympiques de Londres 2012 : 219 kg, médaille d'argent
 
-Pourtant, cette médaille d'argent se transforma plus tard en or de façon inattendue. En 2016, le Comité international olympique procéda à un réexamen des échantillons d'urine prélevés lors des Jeux de 2012. Il fut établi que la championne kazakhe Zulfiya Chinshanlo, originellement déclarée première, avait eu recours à des substances dopantes. Après la procédure officielle, ses résultats furent annulés et la médaille d'or fut réattribuée à Hsu Shu-ching.
+Aux Jeux olympiques de Londres 2012, Hsu Shu-ching, âgée de 21 ans, participe à l'épreuve des 53 kg femmes.[^2] Elle réalise un arraché de 96 kg, un épaulé-jeté de 123 kg, pour un total de 219 kg, obtenant la médaille d'argent.
 
-Cette médaille tardive, pour inattendue qu'elle soit, n'en était pas moins pleinement méritée. La performance de Hsu Shu-ching à Londres était intrinsèquement digne de l'or ; c'est une adversaire dopée qui l'en avait privée. Ce titre venu compenser une injustice représente aussi une entrée supplémentaire dans le palmarès olympique de Taïwan.
+(Note : certaines sources mentionnent à tort « 100 + 131 = 231 kg » ou « 100 + 132 = 232 kg », chiffres qui ne correspondent pas aux résultats réels. Le total correct est 219 kg.)
 
-## Rio 2016 : la confirmation éclatante
+La médaille d'or revient initialement à la kazakhe Zhao Changling, dont le résultat est annulé le 21 octobre 2020 après un contrôle antidopage rétrospectif positif. En décembre 2020, Hsu Shu-ching est officiellement confirmée comme médaillée d'or.[^2]
 
-Aux Jeux de Rio 2016, Hsu Shu-ching revenait sur la scène olympique avec une expérience accrue et une forme physique au sommet. Son objectif était limpide : décrocher l'or directement, par la seule force de ses performances. En finale de la catégorie des moins de 53 kg, elle affichait un état de grâce absolu.
+Le délai de huit ans avant l'attribution de l'or résulte du mécanisme de réanalyse des échantillons antidopage mis en place après les Jeux de 2012. Ce délai n'affecte en rien la légitimité de sa performance, mais il illustre un problème : les affaires de dopage en haltérophilie internationale étaient bien plus graves que ce que quiconque ne soupçonnait à l'époque.
 
-À l'arraché, ses trois essais furent tous réussis, la portant à 100 kg et à la deuxième place provisoire. L'épaulé-jeté, phase décisive, lui demandait de gérer une pression immense. Après deux levées réussies, elle choisit d'attaquer un poids plus élevé pour son troisième essai. Lorsqu'elle stabilisa la barre à 132 kg au-dessus de sa tête, son total de 232 kg lui offrit directement la médaille d'or.
+<!-- TODO: 天機星 — 確認趙常玲（哈薩克）的完整英文姓名，以及遞補典禮（如有）的日期 -->
 
-Ce titre prenait une dimension symbolique particulière. Il prouvait que Hsu Shu-ching était la plus forte de sa catégorie lors de ces Jeux, et elle devenait l'une des rares athlètes taïwanaises à avoir remporté deux médailles dans la même discipline olympique. Plus encore, c'était un or sans aucune contestation possible, gagné à la seule force du mérite.
+## Jeux olympiques de Rio 2016 : 212 kg, or direct
 
-## Une technicienne hors pair
+Aux Jeux olympiques de Rio 2016, Hsu Shu-ching, en finale des 53 kg femmes, réalise un arraché de 100 kg (trois essais réussis) et un épaulé-jeté de 112 kg, pour un total de 212 kg, remportant directement la médaille d'or.[^3]
 
-La technique de Hsu Shu-ching est unanimement saluée dans les milieux spécialisés. L'haltérophilie peut paraître de prime abord comme un simple exercice de force brute ; c'est en réalité la rencontre parfaite entre puissance et précision technique. Dans la catégorie des 53 kg, soulever plus du double de son propre poids requiert une maîtrise gestuelle et un sens du timing d'une grande finesse.
+Trois essais réussis à l'arraché sont un indicateur de stabilité technique — non pas parce qu'elle adoptait une stratégie prudente, mais parce que, sur la scène olympique où la pression est la plus élevée, elle a su placer chaque tentative dans la zone de réussite. Le total de 212 kg correspond au niveau attendu d'une championne olympique, sans aucune part de chance.
 
-Son arraché se distingue par sa fluidité : de l'arrachement de la barre au sol jusqu'à son maintien au-dessus de la tête, le transfert de force et la coordination corporelle sont exemplaires. L'épaulé-jeté, son point fort, se décompose en deux phases — le tirage et le développé — dont chaque détail doit être contrôlé avec précision. Sa capacité à maintenir une technique irréprochable sous des charges considérables témoigne d'années d'entraînement intensif.
+(Note : certaines sources mentionnent à tort un épaulé-jeté de 132 kg et un total de 232 kg. Le total correct est 212 kg.)
 
-Sur le plan mental, Hsu Shu-ching fait preuve d'une stabilité psychologique remarquable. La pression d'une compétition d'haltérophilie est extrême, a fortiori aux Jeux olympiques : chaque athlète ne dispose que de trois tentatives, et l'erreur se paie cher. Garder son sang-froid dans les moments clés, choisir judicieusement le poids de chaque essai et réussir l'exécution technique — voilà les qualités des grands champions, et elle en est l'illustration parfaite.
+Cette médaille d'or fait d'elle la première athlète taiwanaise double championne olympique.[^3]
 
-## Une nouvelle vie après la compétition
+Les résultats de Taïwan en haltérophilie olympique reposent sur un système structuré : les athlètes féminines des différentes catégories de poids proviennent majoritairement des zones rurales du centre et du sud de l'île, progressant par le système de formation sportive de base. La victoire de Hsu Shu-ching en 2016 représente le point culminant de ce système à cette époque — sa médaille d'or n'est pas seulement un exploit individuel, mais la production parfaite d'un système d'entraînement dans son ensemble.
 
-En 2017, à l'issue des Championnats du monde d'haltérophilie, Hsu Shu-ching annonça sa retraite sportive, mettant fin à une carrière brillante. Parmi les raisons évoquées : l'état de son corps et l'envie d'envisager un autre avenir. Des années d'entraînement à haute intensité avaient laissé des traces physiques ; elle préférait prendre sa retraite au moment opportun, tant qu'elle était encore en mesure de le faire dans de bonnes conditions.
+## 3 juin 2018 : annonce de la retraite
 
-Après sa retraite, elle choisit de reprendre les études en intégrant un programme de master à l'Université nationale de l'éducation physique, souhaitant approfondir les sciences du sport sous un angle différent. Elle s'impliqua également dans la promotion de l'haltérophilie, transmettant son expérience aux jeunes athlètes. Selon elle, Taïwan dispose de solides bases dans cette discipline, mais il faudrait davantage de ressources et un cadre de formation plus systématique pour développer le vivier.
+Le 3 juin 2018, Hsu Shu-ching annonce sa retraite, motivée par une blessure au genou et une survenue lors des Championnats du monde 2017.[^1] Après sa retraite, elle se reconvertit comme entraîneure et poursuit des études de troisième cycle à l'Université nationale des sports.
 
-Hsu Shu-ching s'est également aventurée dans les activités commerciales et médiatiques, sans jamais s'éloigner de ses racines. On la voit régulièrement revenir sur les tatamis pour guider les jeunes générations et participer à la formation des entraîneurs, contribuant ainsi à l'avenir de l'haltérophilie taïwanaise.
+Elle a 27 ans au moment de sa retraite, alors que le pic de performance d'une haltérophile peut normalement se prolonger au-delà de 30 ans. La blessure au genou l'a contrainte à mettre fin prématurément à sa carrière de compétitrice, mais elle choisit de rester dans le monde de l'haltérophilie, se transformant en entraîneure et chercheuse — un choix qui montre que l'haltérophilie n'était pas pour elle un simple moyen de compétition, mais un ancrage professionnel fondamental.
 
-## Une étape décisive pour l'haltérophilie taïwanaise
+(Note : certaines sources mentionnent à tort une retraite « après les Championnats du monde 2017 ». La date officielle de l'annonce est le 3 juin 2018.)
 
-Le succès de Hsu Shu-ching a eu un impact considérable sur la discipline à Taïwan. Avant elle, l'haltérophilie y restait marginale et peu médiatisée. Ses médailles olympiques lui ont conféré une visibilité sans précédent, faisant découvrir au grand public les attraits de ce sport exigeant.
+## Mars 2019 : affaire de dopage
 
-Sa réussite a aussi entraîné un développement concret de la discipline : les pouvoirs publics et les entreprises privées ont accru leurs investissements, les installations d'entraînement se sont améliorées et le niveau des encadrants a progressé. De nombreux jeunes athlètes ont pris Hsu Shu-ching comme modèle et se sont lancés dans l'haltérophilie, posant les fondations de son avenir à Taïwan.
+Le 27 mars 2019, la Fédération internationale d'haltérophilie annonce que Hsu Shu-ching a échoué au contrôle antidopage rétrospectif d'un échantillon de novembre 2017, entraînant une suspension de trois ans et la restitution de sa médaille d'argent des Championnats du monde 2017.[^4] Hsu déclare avoir été contaminée involontairement par un complément alimentaire.
 
-En tant que sportive taïwanaise la plus titrée de l'histoire en haltérophilie, Hsu Shu-ching n'est pas seulement l'auteure de performances historiques — elle est devenue une source d'inspiration durable. Elle a démontré que les athlètes de Taïwan sont capables d'atteindre le sommet mondial dans n'importe quelle discipline, pourvu qu'ils y mettent la détermination nécessaire et bénéficient d'un encadrement adapté.
+**Cette suspension n'affecte en rien ses deux médailles d'or olympiques.**
+
+Après la fin de sa suspension, Hsu Shu-ching conserve son statut de retraitée, mais son palmarès olympique reste intact. Dans le milieu sportif taïwanais, elle est principalement évoquée sous l'angle de la « première double championne olympique », et ce cadre n'a pas changé après l'affaire de 2019 — ses réalisations olympiques restent la manière dont on se souvient d'elle.
+
+<!-- TODO: 天機星 — 確認2019年禁賽三年的解除日期及後續 -->
+
+**Lecture courante → Lecture plus précise :** Hsu Shu-ching est souvent présentée comme la « première double championne olympique de Taïwan », un titre exact, mais qui tend à masquer un fait plus remarquable : sa première médaille d'or ne lui a été officiellement attribuée que huit ans après. En 2012, elle avait obtenu l'argent, devancée par une athlète dopée ; ce n'est qu'en décembre 2020 qu'elle est devenue officiellement la championne de cette compétition. Ce décalage temporel constitue une position historique particulière, héritée du problème du dopage dans le sport international.
+
+> 🎙️ **Note du curateur :** Les deux médailles d'or olympiques de Hshu Shu-ching ont été confirmées à deux moments différents : l'une en temps réel, l'autre huit ans plus tard. Cette reconnaissance tardive est un cas rare dans l'histoire olympique du XXIe siècle, et confère à sa réussite une complexité atypique.
+>
+> Après la fin de sa carrière sportive, elle s'est reconvertie comme entraîneure et chercheuse, montrant que l'haltérophilie a été pour elle un point de départ épistémologique, pas une finalité. Les cas de champions olympiques taïwanais intégrant le milieu académique sont rares ; son choix représente en soi une forme d'engagement en faveur de la « connaissance par le sport ».
+>
+> La performance continue de l'haltérophilie taïwanaise aux Jeux olympiques repose sur tout un mécanisme de détection et de formation à la base. Le cas de Hsu Shu-ching a permis de rendre ce mécanisme visible — sa réussite est aussi la raison pour laquelle ce mécanisme mérite d'être pris au sérieux.
+
+D'une famille hakka du canton de Lunbei, dans le comté de Yunlin, jusqu'aux podiums olympiques de Londres et de Rio — la carrière de Hsu Shu-ching est une histoire où les chiffres parlent : 219 kg et 212 kg sont son langage exact sur la plus grande scène du monde.
+
+**Pour aller plus loin** : [Hsu Shu-ching — Wikipédia](https://zh.wikipedia.org/zh-tw/許淑淨) ｜ [Brave Athlete : Hsu Shu-ching](https://braveathlete.net/tw/article/hsu-shu-ching) ｜ [Comité olympique de Taipei chinois](https://www.tpe-olympic.org.tw/)
 
 ## Références
 
-- [Association d'haltérophilie de la République de Chine](http://www.twwla.org.tw/) — palmarès de Hsu Shu-ching et développement de l'haltérophilie taïwanaise
-- [Comité olympique de Taïwan](https://www.tpe-olympic.org.tw/) — résultats et médailles olympiques
-- [Fédération internationale d'haltérophilie](https://www.iwf.net/) — records du monde et données des compétitions internationales
+[^1]: [Wikipédia : Hsu Shu-ching](https://zh.wikipedia.org/zh-tw/許淑淨) — Confirme la naissance le 9 mai 1991 dans le canton de Lunbei, comté de Yunlin, l'origine hakka, la taille de 159 cm, et l'annonce de la retraite le 3 juin 2018 (blessure au genou).
+
+[^2]: [CNA : confirmation de la médaille d'or de Hsu Shu-ching aux JO de Londres 2012 (12/2020)](https://www.cna.com.tw/news/firstnews/202012145008.aspx) — Confirme le résultat de Londres 2012 : 219 kg (arraché 96 + épaulé-jeté 123), l'annulation du résultat de Zhao Changling (Kazakhstan) le 21 octobre 2016, et la promotion officielle en décembre 2020.
+
+[^3]: [CNA : résultats de Hsu Shu-ching aux JO de Rio](https://www.cna.com.tw/news/aspt/202107215009.aspx) — Confirme le résultat des JO de Rio 2016 : arraché 100 kg (trois essais réussis) + épaulé-jeté 112 kg = 212 kg, faisant d'elle la première double championne olympique taïwanaise.
+
+[^4]: [Wikipédia : Hsu Shu-ching (section affaire de dopage)](https://zh.wikipedia.org/zh-tw/許淑淨) — Confirme l'annonce du 27 mars 2019 du contrôle positif de novembre 2017, la suspension de trois ans, la restitution de la médaille d'argent des Championnats du monde 2017, sans conséquence sur les deux médailles d'or olympiques.
+
+[^5]: [Brave Athlete : rétrospective complète de la carrière de Hsu Shu-ching](https://braveathlete.net/tw/article/hsu-shu-ching) — Parcours sportif de Hsu Shu-ching et actualités après sa retraite.

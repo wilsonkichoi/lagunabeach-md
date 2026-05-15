@@ -22,7 +22,7 @@ lastVerified: 2026-05-11
 lastHumanReview: false
 featured: false
 translatedFrom: 'Food/蘋果西打.md'
-sourceCommitSha: 'e10215bc7'
+sourceCommitSha: '84dab8c1'
 sourceContentHash: 'sha256:d5c03b3e99b6070e'
 sourceBodyHash: 'sha256:9492c1f3797c0e5c'
 translatedAt: '2026-05-12T11:51:04+08:00'

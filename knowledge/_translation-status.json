@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-15T23:10:06+08:00",
-    "zhCommitHead": "893f9e9cc",
-    "totalZh": 701,
+    "lastUpdated": "2026-05-16T05:05:41+08:00",
+    "zhCommitHead": "da3bf446e",
+    "totalZh": 702,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 701,
-        "fresh": 554,
-        "stale": 135,
-        "metadata_stale": 8,
-        "missing": 4,
+        "total_zh": 702,
+        "fresh": 561,
+        "stale": 136,
+        "metadata_stale": 0,
+        "missing": 5,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 701,
-        "fresh": 549,
-        "stale": 139,
-        "metadata_stale": 8,
-        "missing": 5,
+        "total_zh": 702,
+        "fresh": 556,
+        "stale": 140,
+        "metadata_stale": 0,
+        "missing": 6,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 701,
-        "fresh": 552,
-        "stale": 137,
-        "metadata_stale": 8,
-        "missing": 4,
+        "total_zh": 702,
+        "fresh": 559,
+        "stale": 138,
+        "metadata_stale": 0,
+        "missing": 5,
         "orphan": 0
       },
       "es": {
-        "total_zh": 701,
-        "fresh": 553,
-        "stale": 136,
-        "metadata_stale": 8,
-        "missing": 4,
+        "total_zh": 702,
+        "fresh": 560,
+        "stale": 137,
+        "metadata_stale": 0,
+        "missing": 5,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 701,
-        "fresh": 548,
-        "stale": 140,
-        "metadata_stale": 8,
-        "missing": 5,
+        "total_zh": 702,
+        "fresh": 555,
+        "stale": 141,
+        "metadata_stale": 0,
+        "missing": 6,
         "orphan": 0
       }
     },
@@ -6139,77 +6139,67 @@
         "en": {
           "path": "en/Economy/tsmc.md",
           "translatedFrom": "Economy/台灣企業：台積電.md",
-          "sourceCommitSha": "23dba5966",
+          "sourceCommitSha": "84dab8c1",
           "sourceContentHash": "sha256:4ec76d96ebb58f31",
           "sourceBodyHash": "sha256:c307a1be6d5f1271",
           "translatedAt": "2026-05-13T09:30:28+08:00",
           "translationLastCommit": "e8dd348a",
           "translationLastModified": "2026-05-15T13:49:45+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -1"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Economy/tsmc-taiwan-semiconductor.md",
           "translatedFrom": "Economy/台灣企業：台積電.md",
-          "sourceCommitSha": "23dba5966",
+          "sourceCommitSha": "84dab8c1",
           "sourceContentHash": "sha256:4ec76d96ebb58f31",
           "sourceBodyHash": "sha256:c307a1be6d5f1271",
           "translatedAt": "2026-05-13T09:30:28+08:00",
           "translationLastCommit": "e8dd348a",
           "translationLastModified": "2026-05-15T13:49:45+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -1"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Economy/tsmc-taiwan-semiconductor.md",
           "translatedFrom": "Economy/台灣企業：台積電.md",
-          "sourceCommitSha": "23dba5966",
+          "sourceCommitSha": "84dab8c1",
           "sourceContentHash": "sha256:4ec76d96ebb58f31",
           "sourceBodyHash": "sha256:c307a1be6d5f1271",
           "translatedAt": "2026-05-13T09:30:28+08:00",
           "translationLastCommit": "e8dd348a",
           "translationLastModified": "2026-05-15T13:49:45+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -1"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Economy/tsmc-taiwan-semiconductor.md",
           "translatedFrom": "Economy/台灣企業：台積電.md",
-          "sourceCommitSha": "23dba5966",
+          "sourceCommitSha": "84dab8c1",
           "sourceContentHash": "sha256:4ec76d96ebb58f31",
           "sourceBodyHash": "sha256:c307a1be6d5f1271",
           "translatedAt": "2026-05-13T09:30:28+08:00",
           "translationLastCommit": "e8dd348a",
           "translationLastModified": "2026-05-15T13:49:45+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -1"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Economy/tsmc-taiwan-semiconductor.md",
           "translatedFrom": "Economy/台灣企業：台積電.md",
-          "sourceCommitSha": "23dba5966",
+          "sourceCommitSha": "84dab8c1",
           "sourceContentHash": "sha256:4ec76d96ebb58f31",
           "sourceBodyHash": "sha256:c307a1be6d5f1271",
           "translatedAt": "2026-05-13T09:30:29+08:00",
           "translationLastCommit": "e8dd348a",
           "translationLastModified": "2026-05-15T13:49:45+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -1"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -6599,77 +6589,67 @@
         "en": {
           "path": "en/Technology/taiwan-drone-industry.md",
           "translatedFrom": "Technology/台灣無人機產業.md",
-          "sourceCommitSha": "8f0b0bebf",
+          "sourceCommitSha": "84dab8c1",
           "sourceContentHash": "sha256:9165b111d87b4581",
           "sourceBodyHash": "sha256:88f1bf8039ff02f6",
           "translatedAt": "2026-05-10T22:52:30+08:00",
           "translationLastCommit": "2e0ee42d",
           "translationLastModified": "2026-05-10T23:43:56+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+2 -2"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Technology/taiwan-drone-industry.md",
           "translatedFrom": "Technology/台灣無人機產業.md",
-          "sourceCommitSha": "8f0b0bebf",
+          "sourceCommitSha": "84dab8c1",
           "sourceContentHash": "sha256:9165b111d87b4581",
           "sourceBodyHash": "sha256:88f1bf8039ff02f6",
           "translatedAt": "2026-05-10T22:52:30+08:00",
           "translationLastCommit": "2e0ee42d",
           "translationLastModified": "2026-05-10T23:43:56+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+2 -2"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Technology/taiwan-drone-industry.md",
           "translatedFrom": "Technology/台灣無人機產業.md",
-          "sourceCommitSha": "8f0b0bebf",
+          "sourceCommitSha": "84dab8c1",
           "sourceContentHash": "sha256:9165b111d87b4581",
           "sourceBodyHash": "sha256:88f1bf8039ff02f6",
           "translatedAt": "2026-05-10T22:52:30+08:00",
           "translationLastCommit": "2e0ee42d",
           "translationLastModified": "2026-05-10T23:43:56+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+2 -2"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Technology/taiwan-drone-industry.md",
           "translatedFrom": "Technology/台灣無人機產業.md",
-          "sourceCommitSha": "8f0b0bebf",
+          "sourceCommitSha": "84dab8c1",
           "sourceContentHash": "sha256:9165b111d87b4581",
           "sourceBodyHash": "sha256:88f1bf8039ff02f6",
           "translatedAt": "2026-05-10T22:52:31+08:00",
           "translationLastCommit": "2e0ee42d",
           "translationLastModified": "2026-05-10T23:43:56+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+2 -2"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Technology/taiwan-drone-industry.md",
           "translatedFrom": "Technology/台灣無人機產業.md",
-          "sourceCommitSha": "8f0b0bebf",
+          "sourceCommitSha": "84dab8c1",
           "sourceContentHash": "sha256:9165b111d87b4581",
           "sourceBodyHash": "sha256:88f1bf8039ff02f6",
           "translatedAt": "2026-05-10T22:52:31+08:00",
           "translationLastCommit": "2e0ee42d",
           "translationLastModified": "2026-05-10T23:43:56+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+2 -2"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -20181,77 +20161,67 @@
         "en": {
           "path": "en/Society/taiwan-regenerative-medicine-laws.md",
           "translatedFrom": "Society/台灣再生醫療雙法沿革從業人員告白.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:2089e1e69b688487",
+          "sourceCommitSha": "9c91f365",
+          "sourceContentHash": "sha256:f04c83a963211b17",
           "sourceBodyHash": "sha256:5509b7826b80ddd5",
           "translatedAt": "2026-05-01T12:21:52+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Society/taiwan-regenerative-medicine-laws.md",
           "translatedFrom": "Society/台灣再生醫療雙法沿革從業人員告白.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:2089e1e69b688487",
+          "sourceCommitSha": "9c91f365",
+          "sourceContentHash": "sha256:f04c83a963211b17",
           "sourceBodyHash": "sha256:5509b7826b80ddd5",
           "translatedAt": "2026-05-01T18:02:56+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Society/taiwan-regenerative-medicine-laws.md",
           "translatedFrom": "Society/台灣再生醫療雙法沿革從業人員告白.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:2089e1e69b688487",
+          "sourceCommitSha": "9c91f365",
+          "sourceContentHash": "sha256:f04c83a963211b17",
           "sourceBodyHash": "sha256:5509b7826b80ddd5",
           "translatedAt": "2026-05-01T22:19:01+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Society/taiwan-regenerative-medicine-laws.md",
           "translatedFrom": "Society/台灣再生醫療雙法沿革從業人員告白.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:2089e1e69b688487",
+          "sourceCommitSha": "9c91f365",
+          "sourceContentHash": "sha256:f04c83a963211b17",
           "sourceBodyHash": "sha256:5509b7826b80ddd5",
           "translatedAt": "2026-05-01T22:19:10+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Society/taiwan-regenerative-medicine-laws.md",
           "translatedFrom": "Society/台灣再生醫療雙法沿革從業人員告白.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:2089e1e69b688487",
+          "sourceCommitSha": "9c91f365",
+          "sourceContentHash": "sha256:f04c83a963211b17",
           "sourceBodyHash": "sha256:5509b7826b80ddd5",
           "translatedAt": "2026-05-01T20:54:17+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -21016,77 +20986,67 @@
         "en": {
           "path": "en/Nature/tawny-fish-owl.md",
           "translatedFrom": "Nature/黃魚鴞.md",
-          "sourceCommitSha": "3caf80d64",
+          "sourceCommitSha": "23dba596",
           "sourceContentHash": "sha256:e7ee784435375331",
           "sourceBodyHash": "sha256:88027a3e0b96dfe3",
           "translatedAt": "2026-05-12T11:51:04+08:00",
           "translationLastCommit": "710e95ff",
           "translationLastModified": "2026-05-12T12:42:44+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Nature/tawny-fish-owl.md",
           "translatedFrom": "Nature/黃魚鴞.md",
-          "sourceCommitSha": "3caf80d64",
+          "sourceCommitSha": "23dba596",
           "sourceContentHash": "sha256:e7ee784435375331",
           "sourceBodyHash": "sha256:88027a3e0b96dfe3",
           "translatedAt": "2026-05-12T11:51:04+08:00",
           "translationLastCommit": "710e95ff",
           "translationLastModified": "2026-05-12T12:42:44+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Nature/tawny-fish-owl.md",
           "translatedFrom": "Nature/黃魚鴞.md",
-          "sourceCommitSha": "3caf80d64",
+          "sourceCommitSha": "23dba596",
           "sourceContentHash": "sha256:e7ee784435375331",
           "sourceBodyHash": "sha256:88027a3e0b96dfe3",
           "translatedAt": "2026-05-12T11:51:04+08:00",
           "translationLastCommit": "710e95ff",
           "translationLastModified": "2026-05-12T12:42:44+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Nature/tawny-fish-owl.md",
           "translatedFrom": "Nature/黃魚鴞.md",
-          "sourceCommitSha": "3caf80d64",
+          "sourceCommitSha": "23dba596",
           "sourceContentHash": "sha256:e7ee784435375331",
           "sourceBodyHash": "sha256:88027a3e0b96dfe3",
           "translatedAt": "2026-05-12T11:51:05+08:00",
           "translationLastCommit": "710e95ff",
           "translationLastModified": "2026-05-12T12:42:44+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Nature/tawny-fish-owl.md",
           "translatedFrom": "Nature/黃魚鴞.md",
-          "sourceCommitSha": "3caf80d64",
+          "sourceCommitSha": "23dba596",
           "sourceContentHash": "sha256:e7ee784435375331",
           "sourceBodyHash": "sha256:88027a3e0b96dfe3",
           "translatedAt": "2026-05-12T11:51:05+08:00",
           "translationLastCommit": "710e95ff",
           "translationLastModified": "2026-05-12T12:42:44+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -27319,10 +27279,10 @@
     },
     "People/唐鳳.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:a082c7ac24170454",
-        "bodyHash": "sha256:c6c324b6990ea5dc"
+        "lastCommit": "da3bf446",
+        "lastModified": "2026-05-16T01:12:55+08:00",
+        "contentHash": "sha256:08facc4576d7feb3",
+        "bodyHash": "sha256:6a5330c17c122b19"
       },
       "translations": {
         "en": {
@@ -27335,8 +27295,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+294 -105"
         },
         "ja": {
           "path": "ja/People/audrey-tang.md",
@@ -27348,8 +27310,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+294 -105"
         },
         "ko": {
           "path": "ko/People/audrey-tang.md",
@@ -27361,8 +27325,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+294 -105"
         },
         "es": {
           "path": "es/People/audrey-tang.md",
@@ -27374,8 +27340,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+294 -105"
         },
         "fr": {
           "path": "fr/People/audrey-tang.md",
@@ -27387,8 +27355,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+294 -105"
         }
       }
     },
@@ -29283,77 +29253,67 @@
         "en": {
           "path": "en/People/muscle-mountain.md",
           "translatedFrom": "People/肌肉山山.md",
-          "sourceCommitSha": "4b6d28c5",
+          "sourceCommitSha": "859d7316",
           "sourceContentHash": "sha256:a9c781639a414788",
           "sourceBodyHash": "sha256:d1cce1c9cb32c2ba",
           "translatedAt": "2026-05-01T13:19:11+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+2 -2"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/People/muscle-mountain.md",
           "translatedFrom": "People/肌肉山山.md",
-          "sourceCommitSha": "4b6d28c5",
+          "sourceCommitSha": "859d7316",
           "sourceContentHash": "sha256:a9c781639a414788",
           "sourceBodyHash": "sha256:d1cce1c9cb32c2ba",
           "translatedAt": "2026-05-01T18:02:56+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+2 -2"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/People/muscle-mountain.md",
           "translatedFrom": "People/肌肉山山.md",
-          "sourceCommitSha": "4b6d28c5",
+          "sourceCommitSha": "859d7316",
           "sourceContentHash": "sha256:a9c781639a414788",
           "sourceBodyHash": "sha256:d1cce1c9cb32c2ba",
           "translatedAt": "2026-04-16T13:53:14+09:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+2 -2"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/People/muscle-mountain.md",
           "translatedFrom": "People/肌肉山山.md",
-          "sourceCommitSha": "4b6d28c5",
+          "sourceCommitSha": "859d7316",
           "sourceContentHash": "sha256:a9c781639a414788",
           "sourceBodyHash": "sha256:d1cce1c9cb32c2ba",
           "translatedAt": "2026-05-01T22:19:10+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+2 -2"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/People/muscle-mountain.md",
           "translatedFrom": "People/肌肉山山.md",
-          "sourceCommitSha": "4b6d28c5",
+          "sourceCommitSha": "859d7316",
           "sourceContentHash": "sha256:a9c781639a414788",
           "sourceBodyHash": "sha256:d1cce1c9cb32c2ba",
           "translatedAt": "2026-05-01T22:19:06+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+2 -2"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -42069,6 +42029,31 @@
         }
       }
     },
+    "Food/刈包.md": {
+      "zh": {
+        "lastCommit": "e8215538",
+        "lastModified": "2026-05-16T00:32:19+08:00",
+        "contentHash": "sha256:047469f3e40c9dc2",
+        "bodyHash": "sha256:94722ea3fb057b13"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Food/麻芛湯.md": {
       "zh": {
         "lastCommit": "4b6d28c5",
@@ -42755,77 +42740,67 @@
         "en": {
           "path": "en/Food/apple-cider.md",
           "translatedFrom": "Food/蘋果西打.md",
-          "sourceCommitSha": "e10215bc7",
+          "sourceCommitSha": "84dab8c1",
           "sourceContentHash": "sha256:d5c03b3e99b6070e",
           "sourceBodyHash": "sha256:9492c1f3797c0e5c",
           "translatedAt": "2026-05-12T11:51:04+08:00",
           "translationLastCommit": "710e95ff",
           "translationLastModified": "2026-05-12T12:42:44+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+11 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Food/apple-cider.md",
           "translatedFrom": "Food/蘋果西打.md",
-          "sourceCommitSha": "e10215bc7",
+          "sourceCommitSha": "84dab8c1",
           "sourceContentHash": "sha256:d5c03b3e99b6070e",
           "sourceBodyHash": "sha256:9492c1f3797c0e5c",
           "translatedAt": "2026-05-12T11:51:04+08:00",
           "translationLastCommit": "710e95ff",
           "translationLastModified": "2026-05-12T12:42:44+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+11 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Food/apple-cider.md",
           "translatedFrom": "Food/蘋果西打.md",
-          "sourceCommitSha": "e10215bc7",
+          "sourceCommitSha": "84dab8c1",
           "sourceContentHash": "sha256:d5c03b3e99b6070e",
           "sourceBodyHash": "sha256:9492c1f3797c0e5c",
           "translatedAt": "2026-05-12T11:51:04+08:00",
           "translationLastCommit": "710e95ff",
           "translationLastModified": "2026-05-12T12:42:44+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+11 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Food/apple-cider.md",
           "translatedFrom": "Food/蘋果西打.md",
-          "sourceCommitSha": "e10215bc7",
+          "sourceCommitSha": "84dab8c1",
           "sourceContentHash": "sha256:d5c03b3e99b6070e",
           "sourceBodyHash": "sha256:9492c1f3797c0e5c",
           "translatedAt": "2026-05-12T11:51:05+08:00",
           "translationLastCommit": "710e95ff",
           "translationLastModified": "2026-05-12T12:42:44+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+11 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Food/apple-cider.md",
           "translatedFrom": "Food/蘋果西打.md",
-          "sourceCommitSha": "e10215bc7",
+          "sourceCommitSha": "84dab8c1",
           "sourceContentHash": "sha256:d5c03b3e99b6070e",
           "sourceBodyHash": "sha256:9492c1f3797c0e5c",
           "translatedAt": "2026-05-12T11:51:05+08:00",
           "translationLastCommit": "710e95ff",
           "translationLastModified": "2026-05-12T12:42:44+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+11 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -44457,77 +44432,67 @@
         "en": {
           "path": "en/History/three-foreigners-witness-1895-taiwan.md",
           "translatedFrom": "History/三個外國人看乙未.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:59c75f463fb26dd1",
+          "sourceCommitSha": "01d9d0e7",
+          "sourceContentHash": "sha256:dd0456fc58fe6d55",
           "sourceBodyHash": "sha256:f4c2468d7055a6c1",
           "translatedAt": "2026-05-01T01:46:13+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/History/three-foreigners-witness-1895-taiwan.md",
           "translatedFrom": "History/三個外國人看乙未.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:59c75f463fb26dd1",
+          "sourceCommitSha": "01d9d0e7",
+          "sourceContentHash": "sha256:dd0456fc58fe6d55",
           "sourceBodyHash": "sha256:f4c2468d7055a6c1",
           "translatedAt": "2026-05-01T14:48:26+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/History/three-foreigners-witness-1895-taiwan.md",
           "translatedFrom": "History/三個外國人看乙未.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:59c75f463fb26dd1",
+          "sourceCommitSha": "01d9d0e7",
+          "sourceContentHash": "sha256:dd0456fc58fe6d55",
           "sourceBodyHash": "sha256:f4c2468d7055a6c1",
           "translatedAt": "2026-05-02T01:17:15+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/History/three-foreigners-witness-1895-taiwan.md",
           "translatedFrom": "History/三個外國人看乙未.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:59c75f463fb26dd1",
+          "sourceCommitSha": "01d9d0e7",
+          "sourceContentHash": "sha256:dd0456fc58fe6d55",
           "sourceBodyHash": "sha256:f4c2468d7055a6c1",
           "translatedAt": "2026-05-01T22:19:10+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/History/three-foreigners-witness-1895-taiwan.md",
           "translatedFrom": "History/三個外國人看乙未.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:59c75f463fb26dd1",
+          "sourceCommitSha": "01d9d0e7",
+          "sourceContentHash": "sha256:dd0456fc58fe6d55",
           "sourceBodyHash": "sha256:f4c2468d7055a6c1",
           "translatedAt": "2026-05-01T20:54:17+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -45554,77 +45519,67 @@
         "en": {
           "path": "en/History/19th-century-camphor-wars.md",
           "translatedFrom": "History/19世紀的樟腦戰爭.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:0a0b650eeeb1074e",
+          "sourceCommitSha": "01d9d0e7",
+          "sourceContentHash": "sha256:1cb263ad912afc83",
           "sourceBodyHash": "sha256:308ab8066ca9a9d0",
           "translatedAt": "2026-05-01T12:21:52+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/History/19th-century-camphor-wars.md",
           "translatedFrom": "History/19世紀的樟腦戰爭.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:0a0b650eeeb1074e",
+          "sourceCommitSha": "01d9d0e7",
+          "sourceContentHash": "sha256:1cb263ad912afc83",
           "sourceBodyHash": "sha256:308ab8066ca9a9d0",
           "translatedAt": "2026-05-01T17:15:07+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/History/19th-century-camphor-wars.md",
           "translatedFrom": "History/19世紀的樟腦戰爭.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:0a0b650eeeb1074e",
+          "sourceCommitSha": "01d9d0e7",
+          "sourceContentHash": "sha256:1cb263ad912afc83",
           "sourceBodyHash": "sha256:308ab8066ca9a9d0",
           "translatedAt": "2026-05-01T20:54:10+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/History/19th-century-camphor-wars.md",
           "translatedFrom": "History/19世紀的樟腦戰爭.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:0a0b650eeeb1074e",
+          "sourceCommitSha": "01d9d0e7",
+          "sourceContentHash": "sha256:1cb263ad912afc83",
           "sourceBodyHash": "sha256:308ab8066ca9a9d0",
           "translatedAt": "2026-05-01T22:19:10+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/History/19th-century-camphor-wars.md",
           "translatedFrom": "History/19世紀的樟腦戰爭.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:0a0b650eeeb1074e",
+          "sourceCommitSha": "01d9d0e7",
+          "sourceContentHash": "sha256:1cb263ad912afc83",
           "sourceBodyHash": "sha256:308ab8066ca9a9d0",
           "translatedAt": "2026-05-01T20:54:17+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },

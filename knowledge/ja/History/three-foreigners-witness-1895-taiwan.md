@@ -1,7 +1,7 @@
 ---
 translatedFrom: 'History/三個外國人看乙未.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:59c75f463fb26dd1'
+sourceCommitSha: '01d9d0e7'
+sourceContentHash: 'sha256:dd0456fc58fe6d55'
 sourceBodyHash: 'sha256:f4c2468d7055a6c1'
 translatedAt: '2026-05-01T14:48:26+08:00'
 title: '三人の外国人が見た乙未（いつび）の役：写真師のアルバム、記者の手帳、牧師の日記'

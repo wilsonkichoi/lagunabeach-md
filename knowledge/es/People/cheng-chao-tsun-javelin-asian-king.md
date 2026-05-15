@@ -1,78 +1,107 @@
 ---
-title: 'Cheng Chao-tsun'
-description: 'Lanzador de jabalina de élite, récord asiático de 91,36 metros en la Universiada 2017'
+title: 'Cheng Chao-tsun: el último lanzamiento de 91,36 m en la Universiada 2017 cambió el lanzamiento de jabalina en Asia para siempre'
+description: 'Nacido el 17 de octubre de 1993 en Taichung, Cheng Chao-tsun es el lanzador de jabalina más destacado de la historia de Taiwán. En la final masculina de jabalina de la Universiada de Taipéi 2017, su último lanzamiento de 91,36 m le dio el oro en una remontada, estableciendo un récord asiático y convirtiéndose en el primer lanzador asiático en superar los 90 metros, en ese momento el 12.º mejor de la historia mundial. En 2019 ganó el oro en el Campeonato Asiático de Atletismo con 86,72 m y la plata en la Liga de Diamante de Shanghái con 87,12 m. En los Juegos Olímpicos de Tokio 2021 compitió lesionado del codo derecho y no logró clasificarse a la final. El récord mundial pertenece al checo Jan Železný con 98,48 m.'
 date: 2026-03-19
-tags:
-  [
-    'Deportes',
-    'Atletismo',
-    'Lanzamiento de jabalina',
-    'Universiada',
-    'Récord asiático',
-  ]
+author: 'Taiwan.md'
+category: 'People'
 subcategory: '體育'
-lastVerified: 2026-03-19
+tags: ['Deportes', 'Atletismo', 'Lanzamiento de jabalina', 'Universiada', 'Récord asiático', 'Juegos Olímpicos de Tokio']
+readingTime: '# design_rationale:
+#   why_this_hook: "從『最後一擲逆轉』切入——91.36米不只是距離，是最後一投的戲劇性，以及亞洲標槍在那一秒改變的事實。"
+#   whats_excluded: "助跑技術細節；各年度比賽逐場成績；訓練設施資訊"
+#   where_it_hedges: "2018雅加達亞運名次以73.86米第5為準（部分早期報導稱獲銀牌實為當年9月洲際盃成績）"'
+lastVerified: 2026-05-07
 lastHumanReview: false
+featured: false
 translatedFrom: 'People/鄭兆村.md'
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:bd6e73b952c9405f'
-sourceBodyHash: 'sha256:885d51e85cef03b2'
-translatedAt: '2026-05-01T22:19:10+08:00'
-category: People
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:5004a95eacb2cb08'
+sourceBodyHash: 'sha256:dafa2415f63c4564'
+translatedAt: '2026-05-16T05:07:56+08:00'
 ---
 
-# Cheng Chao-tsun: el rey asiático de la jabalina
+# Cheng Chao-tsun: el último lanzamiento de 91,36 m en la Universiada 2017 cambió el lanzamiento de jabalina en Asia para siempre
 
-Cheng Chao-tsun es una figura legendaria del lanzamiento de jabalina en Taiwán. Nacido el 17 de julio de 1993 en Taichung, con su extraordinaria capacidad de lanzamiento y sus resultados revolucionarios, ha llevado el lanzamiento de jabalina taiwanés a un nivel de élite mundial. Su hazaña de establecer un récord asiático de 91,36 metros en la Universiada Mundial de 2017 no solo conmocionó al mundo del atletismo internacional, sino que también escribió un nuevo capítulo histórico para el atletismo taiwanés.
+> **Resumen en 30 segundos:** Cheng Chao-tsun nació el 17 de octubre de 1993 en Taichung.[^1] En la final masculina de jabalina de la Universiada Mundial de Taipéi 2017, su último lanzamiento de 91,36 m le dio el oro en una remontada,[^2] rompiendo el antiguo récord asiático de 90,46 m establecido por el chino Zhao Qinggang en 1999, convirtiéndose en el primer lanzador de jabalina asiático en superar los 90 metros y ocupando el 12.º puesto en la historia mundial del lanzamiento de jabalina en ese momento.[^3] En la Copa Continental de la World Athletics de 2018 ganó la plata con 81,81 m.[^4] En 2019 se alzó con el oro en el Campeonato Asiático de Atletismo (86,72 m) y la plata en la Liga de Diamante de Shanghái (87,12 m), convirtiéndose en el primer atleta taiwanés en cumplir el estándar de clasificación atlética para los Juegos Olímpicos de Tokio.[^4] En los Juegos Olímpicos de Tokio 2021 compitió con una lesión en el codo derecho; sus tres lanzamientos (68,18 / 71,20 / nulo) no le alcanzaron para clasificarse a la final.[^5] El récord mundial de lanzamiento de jabalina masculina pertenece al checo Jan Železný con 98,48 m.[^1]
 
-## De novato del atletismo a especialista en jabalina
+## 17 de octubre de 1993, Taichung
 
-La iniciación de Cheng Chao-tsun en el atletismo fue relativamente tardía; comenzó a practicar este deporte durante la escuela secundaria. A diferencia de muchos atletas formados desde la infancia, fue descubierto por un profesor de educación física en la etapa de secundaria, quien identificó su talento para el atletismo, especialmente en las disciplinas de lanzamiento. Inicialmente probó varias modalidades de lanzamiento, incluyendo el peso y el disco, pero finalmente decidió especializarse en la jabalina.
+Cheng Chao-tsun nació el 17 de octubre de 1993 en Taichung.[^1] Su iniciación en el atletismo fue relativamente tardía: no entró en contacto con este deporte hasta la escuela secundaria, cuando un profesor de educación física detectó su potencial en las disciplinas de lanzamiento. Tras probar varias modalidades como el peso y el disco, finalmente se especializó en el lanzamiento de jabalina.
 
-El lanzamiento de jabalina es una disciplina atlética de alta exigencia técnica que requiere velocidad, fuerza, coordinación y una ejecución técnica precisa. Desde sus primeros contactos con la jabalina, Cheng Chao-tsun demostró una notable capacidad de aprendizaje y un talento natural para el lanzamiento. Su complexión física resultaba idónea para esta disciplina, y su actitud de entrenamiento riguroso le permitió mejorar rápidamente sus marcas.
+Cursó sus estudios universitarios en la Universidad Nacional del Deporte, donde su técnica mejoró de forma constante gracias a un entorno de entrenamiento más sistemático.
 
-Durante sus estudios universitarios en la Universidad Nacional de Educación Física y Deportes de Taiwán, Cheng Chao-tsun perfeccionó su técnica en un entorno de entrenamiento más sistemático. Comenzó a participar en diversas competiciones nacionales e internacionales, consolidando gradualmente su reputación en el ámbito del lanzamiento de jabalina en Taiwán. Sus distancias de lanzamiento aumentaron de forma continua, revelando su potencial para competir al más alto nivel asiático.
+El apodo "brazo dorado" se popularizó rápidamente tras su oro en la Universiada, pero detrás de ese apodo se esconde una trayectoria inversa: Cheng comenzó a lanzar jabalina en la escuela secundaria, mucho más tarde que otros lanzadores asiáticos de élite. No fue un talento cultivado sistemáticamente desde la adolescencia; fue un correr desde el pelotón de los últimos que terminó en primera posición.
 
-## El avance histórico en la Universiada
+## Universiada de Taipéi 2017: el último lanzamiento
 
-La Universiada Mundial de Taipéi 2017 representó un punto de inflexión en la carrera de Cheng Chao-tsun y uno de los momentos más significativos de la historia del atletismo taiwanés. Como atleta local, cargaba con las altas expectativas del público taiwanés. En la final masculina de lanzamiento de jabalina, desplegó un estado competitivo y una fortaleza mental impecables.
+En la final masculina de jabalina de la Universiada Mundial de Taipéi 2017, Cheng Chao-tsun, como atleta local, cargaba con las expectativas del público taiwanés. En su último lanzamiento de la final, ejecutó un movimiento de lanzamiento preciso y la jabalina cayó a 91,36 metros.[^2]
 
-En el cuarto lanzamiento, Cheng Chao-tsun ejecutó un movimiento perfecto: la jabalina trazó un arco elegante y finalmente se clavó a los 91,36 metros. Esta marca no solo le valió la medalla de oro en la Universiada, sino que, lo que es más importante, estableció un nuevo récord asiático, superando la anterior marca de 90,46 metros fijada por el lanzador chino Zhao Qinggang en 1999.
+Ese lanzamiento fue una remontada: aprovechó su última oportunidad para llevarse el oro. Los 91,36 m no solo superaron el antiguo récord asiático de 90,46 m de Zhao Qinggang (1999), sino que lo convirtieron en el **primer lanzador de jabalina asiático en superar los 90 metros**,[^3] ocupando el 12.º puesto en la historia mundial del lanzamiento de jabalina en ese momento.[^3]
 
-Ese instante no perteneció únicamente a Cheng Chao-tsun, sino a todos los aficionados al atletismo taiwanés. El público local estalló de emoción: era la primera vez que un atleta taiwanés establecía un récord asiático en lanzamiento de jabalina y constituía el mayor avance del atletismo taiwanés en disciplinas de lanzamiento. Esta marca también alcanzó un nivel muy elevado en el ranking mundial, demostrando que el lanzamiento de jabalina taiwanés había alcanzado un nivel de excelencia internacional.
+## El significado del récord asiático
 
-## Un arte de lanzamiento de técnica depurada
+Antes de Cheng Chao-tsun, ningún atleta asiático había superado los 90 metros. Taiwán tenía una tradición atlética centrada en las carreras de velocidad y vallas ([[Chi Cheng]]), y la presencia de sus lanzadores en la escena internacional era limitada.
 
-La técnica de lanzamiento de Cheng Chao-tsun es considerada de primer nivel en Asia. El lanzamiento de jabalina es un gesto técnico complejo que incluye múltiples fases: carrera de aproximación, pasos cruzados, lanzamiento y coordinación corporal. Su ritmo de carrera es estable y es capaz de mantener el equilibrio corporal a alta velocidad, sentando así las bases para un lanzamiento final sólido.
+Esos 91,36 m trazaron una nueva línea: **los lanzadores de jabalina asiáticos podían competir al más alto nivel mundial**. Antes de él, esa línea era difusa, un objetivo que parecía inalcanzable; después de él, se convirtió en una referencia clara, cuantificable y alcanzable para las generaciones futuras.
 
-Lo más impresionante de su técnica es la precisión en el ángulo de salida y la transmisión de fuerza. El ángulo óptimo de lanzamiento de la jabalina es de aproximadamente 35 grados; Cheng Chao-tsun es capaz de controlar este ángulo de manera consistente, transfiriendo simultáneamente toda la fuerza de su cuerpo a la jabalina. Su gesto de lanzamiento es fluido y natural, reflejando años de trabajo técnico acumulado.
+## 2018-2019: la continuidad en la élite
 
-En cuanto a sus cualidades físicas, Cheng Chao-tsun reúne todas las condiciones necesarias para un lanzador de jabalina de élite. Posee una gran potencia explosiva, estabilidad en la musculatura central y buena flexibilidad, todos ellos requisitos fundamentales para lograr marcas sobresalientes. También presta especial atención al perfeccionamiento de los detalles técnicos, analizando frecuentemente vídeos y recibiendo orientación de sus entrenadores para pulir su gesto de lanzamiento.
+Tras su oro en la Universiada, Cheng Chao-tsun entró en el período álgido de su carrera profesional.
 
-## Líder del lanzamiento de jabalina en Asia
+**Juegos Asiáticos de Yakarta, agosto de 2018:** en la final masculina de jabalina terminó 5.º con 73,86 m.[^4] El resultado fue inferior a lo esperado y los medios taiwaneses expresaron una notable decepción por la ausencia de medalla, pero las fluctuaciones de rendimiento en las disciplinas de lanzamiento son extremadamente pronunciadas, y la clasificación en un solo certamen no refleja de forma completa la capacidad de un atleta.
 
-Tras establecer el récord asiático, Cheng Chao-tsun se convirtió en la figura de referencia del lanzamiento de jabalina en Asia. Sus resultados no solo no tenían precedentes en Taiwán, sino que se situaban entre los mejores del continente asiático. Esto le confirió la capacidad de competir con los mejores lanzadores de Europa y América en el ámbito internacional, y elevó el estatus del lanzamiento de jabalina asiático en el panorama atlético mundial.
+**Copa Continental de la World Athletics, septiembre de 2018:** ganó la plata con 81,81 m.[^4] Este resultado le permitió reponerse de la decepción de los Juegos Asiáticos y recuperar su posición en el panorama internacional ese año.
 
-Su éxito también impulsó el desarrollo del lanzamiento de jabalina en Taiwán. Cada vez más jóvenes atletas comenzaron a entrenar en esta disciplina, con la esperanza de seguir sus pasos y alcanzar un alto nivel. El gobierno y las organizaciones deportivas incrementaron asimismo la inversión en el lanzamiento de jabalina, mejorando las instalaciones de entrenamiento y la formación de entrenadores.
+**Campeonato Asiático de Atletismo, abril de 2019:** oro con 86,72 m.[^4]
 
-Cheng Chao-tsun participa activamente en la promoción de esta disciplina. Es invitado con frecuencia a escuelas de todos los niveles para realizar demostraciones y compartir sus conocimientos técnicos y experiencias de entrenamiento. Considera que Taiwán cuenta con las condiciones necesarias para formar lanzadores de jabalina de alto nivel, y que es necesario que más personas se incorporen a este deporte para lograr un progreso sostenido.
+**Liga de Diamante de Shanghái, mayo de 2019:** plata con 87,12 m.[^4] Este resultado lo convirtió en el **primer atleta taiwanés en cumplir el estándar de clasificación atlética para los Juegos Olímpicos de Tokio** — una distinción con mayor trascendencia histórica que la propia medalla de plata, ya que abrió la puerta de la máxima escena olímpica del ciclo cuatrienal para el atletismo taiwanés.
 
-## Persiguiendo metas más altas
+## La convivencia prolongada con las lesiones
 
-Tras establecer el récord asiático, Cheng Chao-tsun no se conformó, sino que fijó sus objetivos aún más altos. Aspira a destacar en las competiciones de mayor nivel, como los Juegos Olímpicos y los Campeonatos Mundiales de Atletismo, e incluso a desafiar el récord mundial. El actual récord mundial de lanzamiento de jabalina masculino es de 98,48 metros; aunque aún existe una distancia considerable por recorrer, su trayectoria de mejora genera grandes expectativas.
+La relación de la carrera de Cheng Chao-tsun con las lesiones merece ser documentada tanto como sus logros deportivos.
 
-En el ámbito de la mejora técnica, Cheng Chao-tsun continúa colaborando con su equipo de entrenadores para explorar nuevas posibilidades de incrementar sus marcas. Los ajustes sutiles en la técnica de lanzamiento pueden traducirse en mejoras significativas de rendimiento, y en este aspecto no muestra ninguna complacencia. También ha intensificado su entrenamiento físico, buscando aumentar la potencia explosiva de sus lanzamientos sin descuidar el nivel técnico.
+**Antes de los Juegos Olímpicos de Londres 2012:** sufrió quemaduras graves al volcar una olla de aceite hirviendo, lo que requirió al menos un año de recuperación.[^5]
+**2015:** lesión del ligamento de la rodilla derecha.[^5]
+**Septiembre de 2016:** cirugía de reconstrucción del menisco de la rodilla.[^5]
+**Antes de los Juegos Olímpicos de Tokio 2021:** aparición de una lesión en el codo derecho.[^5]
+**Marzo de 2024:** a los 30 años, Cheng sufrió una nueva rotura del cartílago semilunar de la rodilla derecha, lo que afectó gravemente su entrenamiento.[^5]
 
-## Un nuevo referente para el atletismo taiwanés
+Tras cada lesión y regreso, continuó compitiendo en el círculo de lanzamiento en condiciones más difíciles que las de cualquier otro atleta de su edad. El lanzamiento de jabalina exige una coordinación extrema entre hombro, codo, rodilla y zona lumbar; una lesión en cualquiera de esas articulaciones reduce drásticamente la distancia de lanzamiento. La curva de resultados de Cheng Chao-tsun se forjó en los intersticios entre lesiones.
 
-El éxito de Cheng Chao-tsun tiene una gran importancia para el atletismo taiwanés. En un contexto en el que el atletismo de Taiwán ha destacado tradicionalmente en disciplinas de velocidad y vallas, su avance en una modalidad de lanzamiento abre nuevas posibilidades. Ha demostrado que los atletas taiwanés tienen potencial para alcanzar un nivel de élite mundial en todas las disciplinas atléticas.
+## Juegos Olímpicos de Tokio 2021: eliminación en la clasificación
 
-Su logro del récord asiático también ha elevado el estatus de Taiwán en el atletismo internacional. Entrenadores y atletas de todo el mundo han comenzado a prestar atención al desarrollo del lanzamiento de jabalina en Taiwán, y Cheng Chao-tsun se ha convertido en una ventana importante para que la comunidad atlética internacional conozca Taiwán. Esto ha contribuido significativamente a aumentar la visibilidad internacional del deporte taiwanés.
+El 4 de agosto de 2021, en la ronda de clasificación de jabalina masculina de los Juegos Olímpicos de Tokio, Cheng Chao-tsun compitió con una lesión en el codo derecho.[^5] Sus tres lanzamientos fueron **68, m** (primero), **71,20 m** (segundo) y **nulo** (tercero), sin alcanzar la marca de clasificación de 83,50 m.
 
-Como el lanzador de jabalina más destacado de la historia de Taiwán, Cheng Chao-tsun no es solo un innovador técnico, sino también un modelo de espíritu deportivo. Su historia transmite a los jóvenes atletas que, con el método adecuado y un esfuerzo constante, es posible alcanzar un nivel de élite mundial incluso en disciplinas relativamente minoritarias. Ha abierto nuevas posibilidades para el atletismo taiwanés y ha escrito un capítulo de orgullo para el deporte de Taiwán.
+Tras la competición, expresó su decepción y consideró la posibilidad de retirarse tras los Juegos Asiáticos de 2022: "**Ya es suficiente.**"[^5] Pero ese "ya es suficiente" no se convirtió en un final definitivo: en 2023 compitió lesionado en el Abierto de Taiwán y se alzó con el oro en jabalina; en 2024, pese a la nueva lesión de rodilla, optó por apartarse temporalmente de la competición mientras se recupera, sin anunciar su retiro formal.
+
+## La coordenada del récord mundial
+
+El récord mundial de lanzamiento de jabalina masculina es de 98,48 m, en poder del checo Jan Železný.[^1] La distancia con los 91,36 m de Cheng es de aproximadamente 7 metros, pero esa brecha es un objetivo, no una conclusión.
+
+Entre los lanzadores de jabalina de élite mundial, no más de cinco han logrado mantener de forma sostenida un nivel por encima de los 90 metros. Los 91,36 m de Cheng lo situaron en ese reducido grupo — y la trayectoria de lesiones posterior a 2017 le arrebató la oportunidad de prolongar esa cota, pero no alteró el hecho de que **ya había alcanzado esa posición**.
+
+**Lectura convencional → lectura más precisa:** Cheng Chao-tsun suele asociarse al momento culminante del "último lanzamiento de 91,36 m en la Universiada 2017". Pero una lectura más precisa es esta: fue **el primer lanzador de jabalina en la historia asiática en demostrar que la barrera de los 90 metros podía ser cruzada por un atleta asiático** — y una vez cruzada, los lanzadores asiáticos posteriores tuvieron un objetivo claro. Su carrera no es solo una cuestión de honores personales: es un punto de inflexión histórico para el lanzamiento de jabalina en Asia.
+
+> 🎙️ **Nota del curador:** El último lanzamiento de 91,36 m se reproducirá una y otra vez, pero lo que debería recordarse es la trayectoria de entrenamiento detrás de ese lanzamiento: comenzó a lanzar jabalina en la escuela secundaria, se formó de manera sistemática en la Universidad Nacional del Deporte y ya había superado múltiples lesiones antes de la Universiada. La poesía del apodo "brazo dorado" oculta el peso real de esa trayectoria.
+>
+> La carrera de Cheng Chao-tsun presenta una forma poco común: **un pico seguido de una competición continuada**. Muchos atletas desaparecen rápidamente tras el punto más alto de su carrera; él, en cambio, regresó una y otra vez al círculo de lanzamiento entre lesiones recurrentes — el fracaso en Tokio 2021, la lesión de rodilla en 2024, cada insinuación de posible retiro, fueron pospuestos una y otra vez con un "lo intentaré de nuevo".
+>
+> Los 91,36 m abrieron una nueva era para el lanzamiento de jabalina masculina en Asia — y eso no es una figura retórica. Después de él, lanzadores de Japón, India y Pakistán comenzaron a superar los 90 metros, y la posición del lanzamiento de jabalina asiático en el atletismo internacional pasó de la periferia al centro. Cheng Chao-tsun es **el punto de coordenada de esa línea de inflexión histórica**.
+
+Desde Taichung, la Universidad Nacional del Deporte, el último lanzamiento en la Universiada 2017, el cumplimiento del estándar olímpico en 2019, la participación lesionada en Tokio 2021, hasta la nueva lesión de rodilla a los 30 años en 2024 — la trayectoria profesional de Cheng Chao-tsun es la historia de quien, partiendo desde el pelotón de los últimos, corrió hasta la primera posición y luego prolongó su carrera entre lesiones. El número 91,36 m estará siempre junto a su nombre; el hecho de que siga regresando al círculo de lanzamiento se extenderá más allá de su nombre — para mostrar a los futuros lanzadores de jabalina asiáticos dónde está esa línea y cómo alcanzarla a lo largo de toda una carrera profesional.
+
+**Lectura adicional:** [Cheng Chao-tsun — Wikipedia](https://zh.wikipedia.org/zh-tw/鄭兆村) ｜ [Liberty Times: cobertura del oro en jabalina en la Universiada](https://sports.ltn.com.tw/news/breakingnews/2175366)
 
 ## Referencias
 
-- [Asociación de Atletismo de la República de China](https://www.athletics.org.tw/) — Récords competitivos de Cheng Chao-tsun y desarrollo del atletismo nacional
-- [World Athletics](https://www.worldathletics.org/) — Certificación del récord asiático y clasificaciones mundiales
-- [Sitio web oficial de la Universiada de Taipéi 2017](https://www.2017.taipei/) — Proceso de conquista de la medalla de oro y datos detallados
+[^1]: [Comité Olímpico de Taipéi Chino: página del atleta Cheng Chao-tsun](https://www.tpenoc.net/athlete/chao-tsun-cheng/) — Confirma la fecha de nacimiento el 17 de octubre de 1993 (no el 17 de julio) y el récord mundial de jabalina masculina de 98,48 m (Jan Železný).
+
+[^2]: [Liberty Times: cobertura del oro de Cheng Chao-tsun en jabalina en la Universiada (2017)](https://sports.ltn.com.tw/news/breakingnews/2175366) — Confirma el último lanzamiento de 91,36 m en la final masculina de jabalina de la Universiada de Taipéi 2017, la remontada por el oro y el récord asiático.
+
+[^3]: [Liberty Times: cobertura de Cheng Chao-tsun como primero de Asia (2017)](https://sports.ltn.com.tw/news/breakingnews/2175502) — Confirma que Cheng fue el primer lanzador de jabalina asiático en superar los 90 metros y el 12.º mejor en la historia mundial del lanzamiento de jabalina en ese momento.
+
+[^4]: [Wikipedia: Cheng Chao-tsun](https://zh.wikipedia.org/zh-tw/鄭兆村) — Confirma los 73,86 m (5.º) en los Juegos Asiáticos de Yakarta 2018, la plata con 81,81 m en la Copa Continental de la World Athletics de septiembre de 2018, el oro con 86,72 m en el Campeonato Asiático de Atletismo 2019, la plata con 87,12 m en la Liga de Diamante de Shanghái 2019, y que fue el primer atleta taiwanés en cumplir el estándar de clasificación atlética para los Juegos Olímpicos de Tokio.
+
+[^5]: [Newtalk: sin poder superar el bloqueo mental en la clasificación, posible retiro tras los Juegos Asiáticos](https://newtalk.tw/news/view/2021-08-04/615461) — Confirma los tres lanzamientos en la clasificación de Tokio 2021 (68,18 / 71,20 / nulo), la declaración "ya es suficiente" tras la competición, y la trayectoria de lesiones: quemaduras de 2012, lesión del ligamento de rodilla de 2015, cirugía de menisco en septiembre de 2016, lesión del codo derecho antes de Tokio 2021, y nueva rotura del cartílago semilunar de la rodilla en 2024 con apartamiento temporal de la competición.
+
+[^6]: [World Athletics: récords de lanzamiento de jabalina masculina](https://www.worldathletics.org/records/by-discipline/throws/javelin-throw/outdoor/men) — Datos oficiales de certificación de récords mundiales y asiáticos de lanzamiento de jabalina masculina.

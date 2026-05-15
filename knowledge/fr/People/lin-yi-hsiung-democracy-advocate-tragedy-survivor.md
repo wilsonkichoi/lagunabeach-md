@@ -1,107 +1,95 @@
 ---
-title: 'Lin Yi-hsiung'
-description: 'Figure pionnière du mouvement démocratique taïwanais, victime du massacre de la famille Lin, et leader du mouvement anti-nucléaire'
+title: 'Lin Yi-hsiung : du conseiller provincial taïwanais au symbole moral du mouvement antinucléaire'
+description: "Lin Yi-hsiung est né en 1941 à Yilan. Diplômé en droit de l'Université nationale de Taïwan (NTU), il exerce comme avocat. En 1977, il est élu conseiller provincial de Taïwan. En 1979, il rejoint le magazine *Formosa*. Le 28 février 1980, le massacre de la maison Lin (林宅血案) tue sa mère et ses deux filles jumelles ; l'affaire n'a jamais été élucidée. Sorti de prison en 1984, il obtient un MPA à la Harvard Kennedy School. Le 7 juin 1998, il est élu huitième président du Parti démocrate progressiste (DPP), premier président élu au suffrage direct. Le 24 janvier 2006, il quitte le DPP. En 2014, une grève de la faim illimitée conduit à l'arrêt et au scellement de la centrale nucléaire de Lungmen (核四). Il fonde la fondation Tzulin pour l'éducation civique (慈林教育基金會). C'est l'une des figures morales les plus marquantes du mouvement démocratique taïwanais. En 2026, il est toujours en vie à 84 ans."
 date: 2026-03-19
+author: 'Taiwan.md Contributors'
+category: 'People'
+subcategory: '政治與民主'
 tags:
   [
-    'mouvement démocratique',
-    'massacre de la famille Lin',
-    'mouvement anti-nucléaire',
-    'prisonnier politique',
-    'Fondation Tzlin',
+    'Mouvement démocratique',
+    'Massacre de la maison Lin',
+    'Mouvement antinucléaire',
+    'Victime politique',
+    "Fondation Tzulin pour l'éducation civique",
   ]
-subcategory: 'Politique et démocratie'
-category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 10
+lastVerified: 2026-05-13
+lastHumanReview: false
 featured: false
 translatedFrom: 'People/林義雄.md'
-lastVerified: 2026-03-19
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:1c07e29909bcc37a'
-sourceBodyHash: 'sha256:7e9076250edc5a41'
-translatedAt: '2026-04-14T19:15:55+08:00'
+sourceCommitSha: '18157ab5d'
+sourceContentHash: 'sha256:3847058fd0c4df1f'
+sourceBodyHash: 'sha256:d277949bee5011bb'
+translatedAt: '2026-05-16T05:07:56+08:00'
 ---
 
-# Lin Yi-hsiung : un militant démocrate forgé par la tragédie et la résilience
+# Lin Yi-hsiung : du conseiller provincial taïwanais au symbole moral du mouvement antinucléaire
 
-Lin Yi-hsiung est né en 1941 à Yilan. Il est l'une des figures les plus marquantes du mouvement pour la démocratie à Taïwan, et l'homme au cœur du tragique massacre de la famille Lin. Après avoir traversé une douleur indicible — la destruction de sa propre famille —, il a maintenu ses convictions et continué à s'engager pour la réforme démocratique et sociale. À la fin de sa vie, il a consacré ses énergies à la lutte contre le nucléaire, allant jusqu'à jeûner indéfiniment pour protester contre la construction de la centrale nucléaire n°4. Un engagement qui témoigne d'une préoccupation pour la société bien au-delà de ses intérêts personnels.
+> **En bref (30 s) :** Lin Yi-hsiung naît le 24 août 1941 à Wujie, Yilan. Diplômé en droit de l'Université nationale de Taïwan (NTU), il exerce comme avocat. En 1977, il est élu **conseiller provincial de Taïwan** (et non conseiller du comté de Yilan). En 1979, il rejoint le mouvement du magazine _Formosa_ et est arrêté lors de l'incident de Kaohsiung (美麗島事件) en décembre. Le 28 février 1980, le massacre de la maison Lin tue sa mère et ses deux filles jumelles ; l'affaire reste non élucidée. Sorti de prison en 1984, il obtient un master en administration publique (MPA) à la Harvard Kennedy School (1987). **Le 7 juin 1998, il est élu huitième président du Parti démocrate progressiste (DPP)**, premier président élu au suffrage direct des membres du parti, battant Hsu Hsin-liang. Mandat : 1998-2000. **Le 24 janvier 2006, il quitte le DPP.** En 2014, il mène une grève de la faim illimitée pour obtenir l'arrêt et le scellement de la centrale nucléaire de Lungmen (核四). Il fonde la fondation Tzulin pour l'éducation civique en 1991. En 2026, il est toujours en vie à 84 ans.[^1]
 
-## Jeunesse et éveil politique
+Lin Yi-hsiung naît le 24 août 1941 dans le canton de Wujie, comté de Yilan. Son père est directeur d'une école primaire. Brillant élève, il intègre la faculté de droit de l'Université nationale de Taïwan et devient avocat. Au début des années 1970, il commence à s'intéresser à la politique, convaincu que Taïwan a besoin d'un système plus démocratique. Cette conviction le conduit au cœur du mouvement dissident (黨外運動) et lui coûte le prix le plus lourd de sa vie.
 
-Lin Yi-hsiung est né dans une famille traditionnelle de Yilan, où son père était directeur d'école primaire. Élève brillant, il intègre la faculté de droit de l'Université nationale de Taïwan, dont il sort diplômé pour exercer comme avocat. Au début des années 1970, il commence à s'intéresser à la politique, convaincu que Taïwan a besoin d'un système plus démocratique.
+## Débuts politiques : conseiller provincial en 1977
 
-En 1977, Lin Yi-hsiung est élu conseiller du comté de Yilan, marquant ainsi son entrée officielle dans la vie politique. Actif au sein du conseil, il questionne régulièrement la gestion des affaires locales et est perçu comme une étoile montante. La même année, il s'implique dans la campagne pour l'élection du magistrat de Taoyuan et noue des liens avec des figures de l'opposition comme Huang Hsin-chieh et Kang Ning-hsiang.
+En 1977, Lin Yi-hsiung est élu **conseiller provincial de Taïwan** (siégeant au Conseil provincial de Taïwan, et non au conseil du comté de Yilan), entrant officiellement en politique. Au conseil provincial, il interroge ouvertement les politiques du gouvernement provincial et est considéré comme une étoile montante de l'opposition extra-partisane. Il noue des liens de travail avec des figures du mouvement dissident comme Huang Hsin-chieh et Kang Ning-hsiang. Cette expérience au niveau provincial lui vaut d'être invité en 1979 à rejoindre le travail de promotion dans le nord du magazine _Formosa_, où il apporte une assistance juridique en tant qu'avocat, devenant l'un des piliers du mouvement dissident.[^1]
 
-## L'engagement dans le mouvement Formosa
+## Arrestation lors de l'incident de Kaohsiung
 
-En 1979, Lin Yi-hsiung devient un pilier de la revue _Formosa_, dont il supervise la diffusion dans le nord de l'île. Fort de son statut d'avocat, il apporte un soutien juridique à la publication et participe à l'organisation de diverses activités politiques.
+Fin 1979, l'incident de Kaohsiung (美麗島事件) éclate. Lin Yi-hsiung est arrêté en même temps que [Shi Ming-te](/fr/People/shih-ming-te/), Huang Hsin-chieh et d'autres, et jugé par un tribunal militaire pour sédition. À l'audience, il insiste pour se défendre lui-même et refuse de plaider coupable, montrant le refus de compromis propre à un juriste. C'est pendant le déroulement du procès que survient le massacre de la maison Lin, changeant radicalement le cours de sa vie.[^2]
 
-À la suite de l'Incident de Kaohsiung, il est arrêté en même temps que Shih Ming-teh, Huang Hsin-chieh et d'autres militants, et inculpé de sédition. Lors du procès militaire, il assure lui-même sa défense et refuse de reconnaître les charges retenues contre lui, montrant ainsi une rigueur professionnelle d'avocat alliée à des convictions politiques inébranlables.
+## Le massacre de la maison Lin
 
-## Le massacre de la famille Lin : une tragédie sans précédent
+Le 28 février 1980, le jour même du procès militaire des responsables de _Formosa_, des intrus s'introduisent dans la maison de Lin Yi-hsiung à Taipei. Sa mère, You Amei, et ses filles jumelles, Lin Liangjun et Lin Tingjun, sont assassinées ; sa fille aînée, Lin Huanjun, est grièvement blessée et tombe dans le coma. Au moment des faits, Lin Yi-hsiung se trouve dans un centre de détention militaire et ne peut se rendre auprès de sa famille. L'affaire n'a jamais été résolue et est considérée comme la plus lourde affaire criminelle non élucidée de l'histoire politique taïwanaise. Beaucoup y voient une intimidation systématique contre les familles de dissidents politiques ; l'identité des assassins n'a jamais été révélée.[^3]
 
-Le 28 février 1980, en plein déroulement du procès militaire lié à l'Incident de Kaohsiung, survient l'un des événements les plus bouleversants de l'histoire politique taïwanaise. La mère de Lin Yi-hsiung, Yu A-mei, ainsi que ses deux filles jumelles Lin Liang-chun et Lin Ting-chun sont assassinées à leur domicile. Sa fille aînée, Lin Huan-chun, est retrouvée dans le coma, grièvement blessée. Cette affaire n'a jamais été élucidée et reste l'une des pages les plus sombres de la vie politique taïwanaise.
+## Sortie de prison et études à Harvard
 
-Au moment des faits, Lin Yi-hsiung est détenu dans un centre de détention militaire, dans l'impossibilité de rejoindre les siens. Nombreux sont ceux qui voient dans cet acte une forme de persécution politique, une tentative d'intimider les proches des dissidents pour briser leur résistance. Pourtant, loin de le faire plier, ce drame renforce sa détermination à poursuivre le combat pour la réforme.
+En 1984, Lin Yi-hsiung bénéficie d'une libération conditionnelle après quatre ans et neuf mois d'emprisonnement. Il choisit de quitter temporairement Taïwan et obtient en 1987 un master en administration publique (MPA) à la **Harvard Kennedy School** (École de gouvernement John F. Kennedy de l'université Harvard). Ce séjour d'études à l'étranger lui permet de repenser la conception institutionnelle de la démocratie et la stratégie à long terme des mouvements sociaux, tout en maintenant une certaine distance avec le mouvement politique taïwanais, préparant ainsi son retour pour s'engager dans la réforme du parti.
 
-## Cofondateur du Parti démocrate progressiste et carrière politique
+## Fondation du DPP et première élection directe à la présidence en 1998
 
-À sa sortie de prison, Lin Yi-hsiung participe à la fondation du Parti démocrate progressiste (PDP) et en devient l'un des membres fondateurs incontournables. En 1989, il est élu président du parti et guide le PDP à travers une période déterminante de son développement. Sous sa direction, le parti adopte comme ligne directrice : « démocratie, autodétermination, sauver Taïwan ».
+Après sa sortie de prison, Lin Yi-hsiung participe à la fondation du Parti démocrate progressiste (DPP) et en devient l'un des membres fondateurs en 1986. Cependant, au début des années 1990, il reste longtemps dans un rôle de « critique de l'opposition » sans occuper de poste officiel au sein du parti.
 
-En 1992, il est élu au Yuan législatif et y poursuit son travail pour la réforme démocratique, s'intéressant tout particulièrement à la réforme constitutionnelle et au système électoral, apportant ainsi une contribution majeure à la démocratisation du système politique taïwanais.
+**Le 7 juin 1998, Lin Yi-hsiung est élu huitième président du DPP**, devenant le **premier président élu au suffrage direct** des membres du parti. Il bat le président sortant Hsu Hsin-liang lors de l'élection, reflétant le souhait des militants de voir une figure à forte autorité morale diriger le DPP durant une période de luttes factionnelles. Durant son mandat (1998-2000), il promeut la réforme des structures du parti et contribue à la victoire de Chen Shui-bian à l'élection présidentielle de 2000, réalisant la première alternance politique à Taïwan.[^4]
 
-## Retrait de la politique partisane et engagement social
+Note : Lin Yi-hsiung **n'a jamais été élu législateur**. Certaines sources anciennes mentionnent à tort un mandat de législateur en 1992 ; en réalité, sa carrière politique élective s'est limitée à son mandat de conseiller provincial en 1977.
 
-À la fin des années 1990, Lin Yi-hsiung s'éloigne progressivement de la politique partisane pour se consacrer à la réforme sociale et à l'éducation. Il fonde la Fondation Tzlin, qui se mobilise sur des enjeux variés : réforme de l'éducation nationale, protection de l'environnement, justice sociale.
+## Départ du DPP en 2006
 
-La Fondation Tzlin devient une organisation majeure du mouvement civique à Taïwan, formant de nombreux militants. Par ce biais, Lin Yi-hsiung continue à s'investir sur des questions de société tout en maintenant une posture non-partisane, libre des contraintes de la politique électorale.
+**Le 24 janvier 2006, Lin Yi-hsiung annonce officiellement son départ du Parti démocrate progressiste**, invoquant sa déception face à l'éloignement du parti au pouvoir par rapport aux idéaux fondateurs, en particulier le décalage entre les manœuvres politiques et les engagements moraux. Dans sa déclaration de départ, il écrit : « Le Parti démocrate progressiste n'est plus le parti que nous avons fondé. » Cette décision suscite un large débat tant au sein du parti qu'à l'extérieur, et établit sa position future de participation aux questions publiques en tant qu'indépendant.
 
-## Leader du mouvement anti-nucléaire
+Après son départ, il ne cesse pas de s'intéresser aux questions démocratiques et environnementales à Taïwan, mais intervient au contraire avec une posture plus indépendante dans les mouvements sociaux contre l'énergie nucléaire, notamment contre la centrale de Lungmen, devenant l'un des symboles moraux de la société civile taïwanaise.
 
-Dans les années 2010, Lin Yi-hsiung concentre son action sur la lutte contre le nucléaire, et plus particulièrement contre la construction de la quatrième centrale nucléaire. Il juge l'énergie nucléaire trop dangereuse pour une île aussi sismique que Taïwan, et s'oppose résolument à la poursuite du projet gouvernemental.
+## Fondation Tzulin pour l'éducation civique (fondée en 1991)
 
-En avril 2014, à 73 ans, il entame un jeûne illimité pour protester contre la décision du gouvernement de poursuivre la construction malgré l'opposition populaire. Son geste mobilise Taïwan : des centaines de milliers de personnes descendent dans les rues pour soutenir la cause anti-nucléaire. Le gouvernement finit par annoncer la suspension et la mise en veille du chantier. Cette action illustre sa capacité à dépasser ses intérêts personnels au nom de la responsabilité collective.
+**En 1991, Lin Yi-hsiung fonde la fondation Tzulin pour l'éducation civique** (慈林教育基金會) en mémoire de sa mère et de ses filles jumelles victimes du massacre de la maison Lin. La fondation recentre son action sur l'éducation civique et la réforme sociale. Elle établit le campus Tzulin dans le canton de Wujie, Yilan, doté d'une bibliothèque et d'un centre de formation, et organise des conférences et ateliers sur la démocratie, la protection de l'environnement et la justice sociale, formant des militants associatifs. La fondation maintient délibérément une position non partisane et refuse toute ingérence des partis politiques. Elle reste l'un des centres d'éducation civique les plus influents de Yilan.[^5]
 
-## Foi religieuse et caractère
+## Le mouvement antinucléaire et la centrale de Lungmen
 
-Lin Yi-hsiung est un fidèle fervent de l'Église presbytérienne, et sa foi a profondément façonné sa vision du monde et sa pensée politique. Face au drame familial, il a choisi le pardon plutôt que la vengeance ; face aux revers politiques, la persévérance plutôt que le compromis. Il cite fréquemment les Écritures et insiste sur la valeur de l'amour et du pardon.
+En avril 2014, à 73 ans, Lin Yi-hsiung entame une grève de la faim illimitée pour protester contre la poursuite par le gouvernement du projet de la centrale nucléaire de Lungmen (核四) malgré l'opinion publique. Il estime que la fréquence des séismes à Taïwan rend le risque de l'énergie nucléaire trop élevé pour l'île. Son action de grève de la faim attire l'attention de tout le pays, des centaines de milliers de personnes descendent dans la rue en signe de soutien, ce qui conduit finalement le gouvernement à annoncer l'arrêt des travaux et le scellement de la centrale. Sa méthode de protestation, mettant son propre corps en jeu, suscite également un débat parmi certains commentateurs sur la question de la pression morale.[^6]
 
-Sur le plan personnel, Lin Yi-hsiung est réputé pour sa douceur et son humilité. Malgré les épreuves traversées, il conserve une sérénité remarquable et ne laisse jamais transparaître rancœur ni colère en public. Cette maîtrise de soi suscite l'admiration de nombreuses personnes.
+## Foi, personnalité et controverses
 
-## Le domaine Tzlin et sa vision éducative
+Lin Yi-hsiung est un fervent membre de l'Église presbytérienne (長老教會). Face au drame familial, il choisit le pardon plutôt que la poursuite, une attitude qui inspire le respect de ses partisans mais que certains défenseurs de la transition jugée regrettent, estimant que la recherche de responsabilités dans l'affaire du massacre de la maison Lin s'en trouve freinée. Durant sa présidence du DPP (1998-2000), il promeut la réforme du parti, mais les controverses sur l'orientation provoquent des divisions internes ; certains critiquent un style de leadership trop idéaliste. Après son départ du DPP en 2006, cette posture de « surveillance morale des partis politiques par l'autorité personnelle » s'affirme davantage, lui conférant une position unique dans le spectre politique taïwanais.
 
-Dans les années 1990, Lin Yi-hsiung crée le domaine Tzlin à Yilan, comme espace dédié à l'éducation civique. Ce lieu accueille le siège de la fondation, une bibliothèque et un centre de formation. Son ambition : former des citoyens engagés dans la société.
-
-Le domaine Tzlin organise régulièrement conférences et séminaires sur la démocratie et la réforme sociale. De nombreux jeunes y ont reçu une éducation civique qui les a formés à participer au changement social — une démarche qui reflète les espoirs de Lin Yi-hsiung pour l'avenir de Taïwan.
-
-## Un héritage durable pour la démocratie taïwanaise
-
-La contribution de Lin Yi-hsiung à la démocratisation de Taïwan est multiple. Ses sacrifices ont éveillé la sympathie et le soutien du public ; sa constance a démontré la valeur des idéaux démocratiques ; son pardon a élevé le niveau du combat politique. Même après la destruction de sa famille, il a continué à promouvoir la réforme sociale par des voies pacifiques et rationnelles.
-
-Son parcours témoigne qu'un véritable militant démocrate n'agit pas par vengeance personnelle, mais pour le progrès de la société. Il a su transformer sa douleur intime en énergie au service du changement collectif — une élévation morale qui force le respect.
-
-## Réflexions de la maturité et transmission
-
-En vieillissant, Lin Yi-hsiung s'interroge de plus en plus sur l'avenir à long terme de Taïwan : comment cultiver la conscience civique des nouvelles générations ? Comment édifier une société plus juste ? À travers ses écrits et ses interventions publiques, il partage sa vision de la vie et de la politique.
-
-Son histoire est à la fois une biographie personnelle et un chapitre majeur du mouvement démocratique taïwanais. De l'Incident de Kaohsiung au massacre de sa famille, de la fondation du PDP à la lutte anti-nucléaire, il a été témoin et acteur des grandes mutations politiques de Taïwan, au prix de sacrifices immenses.
-
-## Controverses et points de vue divergents
-
-La carrière politique de Lin Yi-hsiung n'est pas exempte de débats :
-
-- **Le nucléaire en question** : ses partisans voient dans sa position anti-nucléaire une défense de l'environnement ; ses détracteurs estiment qu'un abandon du nucléaire avant que la transition énergétique ne soit achevée est irréaliste et risque de fragiliser la sécurité d'approvisionnement électrique de Taïwan.
-- **Sa présidence du PDP** : lors de son mandat comme président du PDP en 1998, les réformes internes qu'il a promues ont provoqué des divisions au sein du parti. Certains membres ont critiqué son style de leadership, jugé trop idéaliste.
-- **Le massacre non élucidé** : l'affaire n'a jamais été résolue, et les hypothèses sur l'identité des auteurs divergent (régime autoritaire, luttes internes au parti, etc.). Le choix de Lin Yi-hsiung de ne pas chercher à rouvrir le dossier a été critiqué par certaines familles de victimes et militants des droits humains, qui y voient une justice transitionnelle incomplète.
-- **Le jeûne comme arme politique** : certains analystes estiment que le recours à la grève de la faim comme forme de résistance politique comporte une dimension de pression morale sur l'opinion publique.
-
-## Place dans l'histoire
-
-Lin Yi-hsiung occupe une place singulière dans l'histoire politique de Taïwan : il est à la fois un acteur de la démocratisation et la figure centrale d'une tragédie humaine sans précédent. Les appréciations à son égard sont contrastées : pour ses admirateurs, il est le symbole moral de la démocratie taïwanaise ; pour ses critiques, son idéalisme manque de réalisme opérationnel dans le jeu politique concret.
+Les jugements sur sa personne restent partagés : ses partisans le considèrent comme le symbole moral de la démocratie taïwanaise, tandis que ses critiques estiment que l'idéalisme manque d'opérationalité dans la politique réelle ; sur la question du nucléaire, certains soulignent la difficulté pratique d'un abandon total de l'énergie nucléaire alors que la transition énergétique n'est pas encore achevée. La coexistence de ces deux lectures illustre bien la complexité de la place de Lin Yi-hsiung dans l'histoire politique taïwanaise.[^7]
 
 ## Références
 
-- [Fondation Tzlin](https://www.tzlin.org.tw/) — site officiel de l'organisation qu'il a fondée
-- [Le massacre de la famille Lin - Musée national des droits humains](https://www.nhrm.gov.tw/w/nhrm/home) — archives de l'événement historique
-- [Archives du mouvement anti-nucléaire - Alliance des citoyens verts](https://gcaa.org.tw/) — documentation du mouvement environnemental
+[^1]: [Lin Yi-hsiung — Wikipédia](https://zh.wikipedia.org/wiki/%E6%9E%97%E7%BE%A9%E9%9B%84) — Aperçu biographique, mandat de conseiller provincial en 1977, huitième président du DPP (premier élu au suffrage direct) en 1998, diplôme MPA de Harvard en 1987. Voir aussi le [Taiwan FactCheck Center : rectification sur le départ de Lin Yi-hsiung du DPP en 2006](https://tfc-taiwan.org.tw/fact-check-reports/lin-yihsiung-left-dpp-in-2006-unrelated-to-recall-campaign/).
+
+[^2]: [Incident de Kaohsiung — Musée national des droits humains](https://www.nhrm.gov.tw/) — Chronologie de l'incident de Kaohsiung en 1979, liste des personnes arrêtées et documents du procès militaire.
+
+[^3]: [Massacre de la maison Lin — Musée national des droits humains](https://www.nhrm.gov.tw/w/nhrm/home) — Archives de l'affaire du massacre de la maison Lin et état des lieux de l'enquête non résolue.
+
+[^4]: [Histoire du Parti démocrate progressiste — Site officiel du DPP](https://www.dpp.org.tw/) — Historique de la fondation du parti et archives de la période de présidence de Lin Yi-hsiung (1998-2000). Voir aussi [Taipei Times: Former DPP chairman leaves party (2006/1/25)](https://www.taipeitimes.com/News/front/archives/2006/01/25/2003290603) pour le récit du départ du 24 janvier 2006.
+
+[^5]: [Site officiel de la fondation Tzulin pour l'éducation civique](https://www.tzlin.org.tw/) — Mission de la fondation, présentation du campus Tzulin et informations sur les activités.
+
+[^6]: [Couverture de la grève de la fumi antinucléaire de 2014 — Liberty Times](https://news.ltn.com.tw/) — Chronologie de l'action de grève de la faim de Lin Yi-hsiung en avril 2014 et décision d'arrêt et de scellement de la centrale de Lungmen.
+
+[^7]: [Documents sur le mouvement antinucléaire — Alliance citoyenne pour l'action verte](https://gcaa.org.tw/) — Contexte historique du mouvement antinucléaire taïwanais et rôle de Lin Yi-hsiung.
+
+## Pour aller plus loin
+
+- [Fondation Tzulin pour l'éducation civique](https://www.tzlin.org.tw/) — Site officiel de l'organisation d'éducation civique fondée par Lin Yi-hsiung
+- [Shi Ming-te](/fr/People/shih-ming-te/) — Codélinquent lors de l'incident de Kaohsiung, figure majeure du mouvement dissident

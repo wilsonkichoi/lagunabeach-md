@@ -1,81 +1,105 @@
 ---
-title: 'Chu Ching-wu'
-description: "Physicien spécialiste de la supraconductivité, leader de la percée historique en 1987 sur la supraconductivité à température de l'azote liquide"
+title: "Chu Ching-wu : co-découvreur en 1987 de la supraconductivité à haute température critique Tc = 93 K, franchissant le seuil de l'azote liquide"
+description: "Né en 1941 au Hunan, physicien taïwanais naturalisé américain. En janvier 1987, avec Wu Maw-kun, il découvre l'oxyde de yttrium, baryum et cuivre (YBCO) à Tc = 93 K, franchissant le seuil de la température de l'azote liquide et ouvrant l'ère de la supraconductivité à haute température. Président de l'Université des sciences et technologies de Hong Kong (HKUST) de 2001 à 2009. En mars 2026, publication dans PNAS d'une nouvelle percée à Tc = 151 K, toujours actif en recherche à 85 ans."
 date: 2026-03-19
+category: 'People'
 tags:
   [
-    'physicien',
-    'supraconductivité',
-    'candidat au prix Nobel',
-    'Academia Sinica',
-    'université de Houston',
+    'Science et Académie',
+    'Physicien',
+    'Supraconducteur',
+    'HKUST',
+    'Université de Houston',
   ]
 subcategory: '科學與學術'
-lastVerified: 2026-03-19
+author: 'Taiwan.md'
+featured: false
+lastVerified: 2026-05-07
 lastHumanReview: false
-featured: true
+readingTime: 7
+# design_rationale:
+#   why_this_hook: "從1987年1月那個溫度數字切入——93K不只是一個物理數字，是超導體史上跨越液氮門檻的那一天。"
+#   whats_excluded: "BCS理論細節；歷年學術論文清單；超導應用工程規格"
+#   where_it_hedges: "諾貝爾候選資格為外界推測而非官方確認；2026 Tc=151K 以中時報導為準"
 translatedFrom: 'People/朱經武.md'
-sourceCommitSha: '4af626f4'
-sourceContentHash: 'sha256:9903e2c37b2cac97'
-sourceBodyHash: 'sha256:f63f17fd12a83b6a'
-translatedAt: '2026-05-01T22:19:06+08:00'
-category: People
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:34bc5d357a3cdf52'
+sourceBodyHash: 'sha256:2ddbffb7dbb01585'
+translatedAt: '2026-05-16T05:07:56+08:00'
 ---
 
-# Chu Ching-wu : pionnier de la recherche sur la supraconductivité
+# Chu Ching-wu : co-découvreur en 1987 de la supraconductivité à haute température critique Tc = 93 K, franchissant le seuil de l'azote liquide
 
-Chu Ching-wu, né en 1941 au Hunan, est un physicien américain d'origine taïwanaise et l'un des plus grands experts mondiaux dans le domaine de la supraconductivité. En 1987, il a franchi une étape décisive en découvrant la supraconductivité à température supérieure à celle de l'azote liquide. Cette avancée, saluée comme une percée majeure dans l'histoire de la physique, l'a placé parmi les candidats de longue date au prix Nobel de physique.
+> **En 30 secondes :** Chu Ching-wu naît en 1941 au Hunan, obtient son diplôme en physique de l'Université nationale de Tainan (Cheng Kung) puis part aux États-Unis, où il décroche un doctorat en physique de l'Université de Californie à San Diego.[^1] En janvier 1987, son équipe de l'Université de Houston et celle de Wu Maw-kun (Université d'Alabama) découvrent simultanément que l'oxyde de yttrium, baryum et cuivre (YBCO) atteint une température critique de 93 K, franchissant pour la première fois le seuil de l'azote liquide (77 K) et ouvrant l'ère de la supraconductivité à haute température.[^2] Il est président de l'Université des sciences et technologies de Hong Kong (HKUST) de juillet 2001 à 2009.[^3] En mars 2026, il publie dans PNAS une nouvelle percée à Tc = 151 K,[^4] toujours actif en recherche à 85 ans.
 
-## Parcours académique et formation
+## 1941 : du Hunan à Taïwan
 
-Chu Ching-wu a passé sa petite enfance à Taïwan, où sa famille s'est installée. Diplômé du département de physique de l'université de Cheng Kung, il a poursuivi ses études aux États-Unis, obtenant un master à l'université de Fordham avant de rejoindre l'université de Californie à San Diego, où il a obtenu son doctorat en physique. Durant ses années d'études américaines, il s'est spécialisé en physique du solide et en science des matériaux, développant un intérêt marqué pour le phénomène de supraconductivité.
+Chu Ching-wu naît en 1941 au Hunan. En bas âge, sa famille s'installe à Taïwan, où il étudie la physique à l'Université nationale de Tainan (Cheng Kung). Diplômé, il part aux États-Unis, obtient d'abord un master à l'Université de Fordham, puis intègre l'Université de Californie à San Diego, où il obtient son doctorat en physique.[^1]
 
-Après l'obtention de son doctorat, Chu Ching-wu a enseigné successivement à l'université d'État de Cleveland et à l'université de Houston. En 1979, il est devenu professeur titulaire au département de physique de l'université de Houston, où il a constitué son propre groupe de recherche sur la supraconductivité. C'est là qu'il a entrepris les travaux qui allaient changer le cours de l'histoire des sciences.
+En 1979, il devient officiellement professeur de physique à l'Université de Houston et constitue une équipe de recherche sur les supraconducteurs, entamant une quête scientifique qui allait durer près d'un demi-siècle.
 
-## La percée historique de 1987
+L'Université de Houston n'était pas alors l'institution de recherche physique la plus prestigieuse, mais ce choix offrait à Chu Ching-wu un espace plus libre pour définir sa propre direction de recherche — il ne travaillait pas dans le cadre des écoles de pensée établies des grandes universités, mais dans un environnement relativement autonome, où il a poussé la recherche sur les supraconducteurs vers des altitudes de température que personne n'avait anticipées.
 
-En janvier 1987, Chu Ching-wu et son équipe de recherche ont découvert un phénomène de supraconductivité au-dessus de la température de l'azote liquide (77 K) dans le système d'oxyde de cuivre, baryum et yttrium (YBCO). Cette découverte a brisé la croyance longtemps admise selon laquelle les supraconducteurs ne pouvaient fonctionner qu'à des températures extrêmement basses, réalisant pour la première fois le maintien d'un état supraconducteur à l'aide d'azote liquide, un réfrigérant relativement bon marché.
+## Janvier 1987 : YBCO Tc = 93 K, la percée simultanée de Wu Maw-kun
 
-L'importance de cette percée réside dans la réduction considérable des coûts d'application de la technologie supraconductive. Auparavant, les supraconducteurs nécessitaient l'utilisation d'hélium liquide, un réfrigérant coûteux, pour maintenir des températures extrêmement basses, ce qui limitait fortement leur utilité pratique. La découverte de Chu Ching-wu a inauguré l'ère de la « supraconductivité à haute température », posant les bases d'une application à grande échelle des technologies supraconductrices.
+En janvier 1987, l'équipe de Chu Ching-wu à l'Université de Houston découvre que l'oxyde de yttrium, baryum et cuivre (YBCO) atteint une température critique de 93 K, dépassant pour la première fois le point d'ébullition de l'azote liquide (77 K). Presque simultanément, l'équipe de Wu Maw-kun à l'Université d'Alabama parvient à la même percée — deux équipes franchissent en parallèle ce seuil.[^2]
 
-## La signification scientifique des supraconducteurs à haute température
+La signification de ce chiffre : 77 K, c'est la température de l'azote liquide. L'azote liquide coûte des dizaines de fois moins cher que l'hélium liquide. Une Tc supérieure à 77 K signifie que les matériaux supraconducteurs à haute température peuvent être refroidis à l'azote liquide, réduisant drastiquement les coûts d'application pratique. Cette découverte déclenche une « fièvre de la supraconductivité » dans la communauté physique, les laboratoires du monde entier se lançant dans une course pour reproduire et approfondir les résultats.
 
-Les supraconducteurs à haute température découverts par Chu Ching-wu possèdent non seulement une grande valeur pratique, mais ont également eu un impact profond sur la physique théorique. La théorie BCS traditionnelle ne pouvait pas expliquer entièrement le mécanisme de la supraconductivité à haute température, ce qui a conduit la communauté physique à repenser la nature fondamentale du phénomène supraconducteur. Cette découverte a déclenché une vague mondiale de recherches sur la supraconductivité, surnommée la « fièvre de la supraconductivité ».
+Les résultats sont publiés dans _Physical Review Letters_ et accumulent des dizaines de milliers de citations.[^2]
 
-Ses résultats de recherche ont été rapidement publiés dans des revues de premier plan telles que _Physical Review Letters_ et ont immédiatement suscité une immense attention de la part de la communauté scientifique internationale. Des laboratoires du monde entier se sont lancés dans la reproduction et l'extension de ses expériences, accélérant considérablement le développement de la recherche sur les supraconducteurs.
+Chu Ching-wu et Wu Maw-kun obtiennent cette percée de façon quasi simultanée. Deux équipes indépendantes parviennent à la même conclusion à une période proche — un cas classique de « découverte parallèle » dans l'histoire des sciences. Cela démontre à la fois que la solution à ce problème était « mûre » à ce moment précis, et que la logique de concurrence accélère les percées scientifiques.
 
-## Reconnaissance et distinctions internationales
+La percée supraconductrice de 1987 déclenche une vague de fièvre : le _New York Times_ en fait sa une, la réunion annuelle de l'American Physical Society donne lieu à ce que les médias baptisent le « Woodstock de la physique », des centaines de physiciens attendant en pleine nuit les dernières données expérimentales. Cette réaction sociétale illustre un phénomène : certaines percées scientifiques traversent la sphère académique pour pénétrer directement l'imaginaire collectif — la supraconductivité à haute température en est un exemple.
 
-Les contributions de Chu Ching-wu ont été hautement saluées par la communauté scientifique internationale. Il a été élu membre de l'Académie nationale des sciences des États-Unis et membre de l'Académie américaine des arts et des sciences, et a reçu de nombreuses distinctions, notamment la National Medal of Science des États-Unis et le titre de membre de l'Academia Sinica (République de Chine). Il est également considéré comme un candidat de longue date au prix Nobel de physique ; bien qu'il n'ait pas encore été récompensé, son apport est d'ores et déjà inscrit dans l'histoire de la physique.
+## Président de la HKST : de juillet 2001 à 2009
 
-Sur le plan des publications académiques, Chu Ching-wu a publié plus de 700 articles scientifiques, cités des dizaines de milliers de fois. Nombre de ses étudiants sont devenus des acteurs majeurs de la recherche internationale en supraconductivité, formant un vaste réseau académique.
+Le 1er juillet 2001, Chu Ching-wu devient le troisième président de l'Université des sciences et technologies de Hong Kong (HKUST), fonction qu'il occupe jusqu'en 2009.[^3] Durant son mandat, il promeut le développement des sciences physiques et renforce le positionnement international de la HKUST dans le monde académique. Après avoir quitté ses fonctions, il retourne à l'Université de Houston pour poursuivre ses travaux de recherche.
 
-## Un pont entre les communautés scientifiques des deux rives
+Le rôle de président de la HKUST a transformé Chu Ching-wu de chercheur en bâtisseur institutionnel. Sous sa direction, l'université a consolidé sa vocation de recherche, avec des avancées dans les domaines de la physique, du génie et des sciences de gestion. Cette transition — de la mesure de températures critiques en laboratoire à la planification stratégique universitaire depuis un bureau administratif — constitue la reconversion la plus inhabituelle de sa carrière, et témoigne de compétences qui dépassent la seule conception expérimentale.
 
-Chu Ching-wu s'est longtemps consacré à la promotion de la coopération scientifique internationale, en particulier entre les deux rives du détroit de Taïwan et Hong Kong. Il a été invité à de nombreuses reprises à effectuer des visites académiques à Taïwan et en Chine continentale, contribuant à la création de centres de recherche en supraconductivité et à la formation de chercheurs locaux. En 1994, son élection comme membre de l'Academia Sinica a renforcé ses liens avec la communauté académique taïwanaise.
+## Mars 2026 : Tc = 151 K, une nouvelle percée dans PNAS
 
-En 2001, Chu Ching-wu a été nommé président de l'université des sciences et technologies de Hong Kong (HKUST), où il a activement promu le développement de l'établissement dans le domaine des sciences physiques et favorisé la coopération entre Hong Kong et la communauté scientifique internationale. Son leadership a contribué de manière significative à renforcer la réputation internationale de la HKUST.
+En mars 2026, Chu Ching-wu publie un article dans les _Comptes rendus de l'Académie nationale des sciences des États-Unis_ (PNAS) rapportant la réalisation d'une température critique supraconductrice de Tc = 151 K dans un nouveau matériau.[^4] 151 K reste inférieur à la température de la glace sèche (195 K) et nécessite toujours un refroidissement, mais cette percée élargit davantage la plage de température d'application des matériaux supraconducteurs.
 
-## Perspectives d'application de la technologie supraconductive
+De Tc = 93 K (1987) à Tc = 151 K (2026), ces 39 années de progrès montrent que la recherche en supraconductivité à haute température n'a pas atteint son terme. Chaque nouveau record de Tc rouvre la question : « La supraconductivité à température ambiante est-elle possible ? » Un supraconducteur fonctionnant à température ambiante transformerait radicalement les coûts d'infrastructure du transport d'électricité, des transports à sustentation magnétique, de l'informatique quantique et de nombreux autres domaines.
 
-Les recherches de Chu Ching-wu ne se limitent pas à une valeur scientifique fondamentale ; elles présentent également un potentiel d'application considérable. Les supraconducteurs à haute température peuvent être utilisés dans de nombreux domaines, tels que les trains à sustentation magnétique, le transport d'électricité et l'imagerie par résonance magnétique, ouvrant la voie à une véritable révolution technologique. Bien que ces applications se heurtent encore à des défis de coût et de faisabilité technique, les perspectives d'avenir sont extrêmement prometteuses à mesure que la recherche progresse.
+Lors de la publication de ces résultats, Chu Ching-wu a 85 ans et dirige toujours son laboratoire à l'Université de Houston.
 
-Il suit de près les applications commerciales des supraconducteurs et collabore avec plusieurs entreprises pour développer des technologies connexes. Il est convaincu que la technologie supraconductive deviendra à terme un pilier technologique majeur du XXIe siècle, apportant des transformations profondes à la société humaine.
+## Identité académique et distinctions
 
-## Un modèle d'esprit scientifique
+Chu Ching-wu est membre de l'Académie nationale des sciences des États-Unis et de l'Académie américaine des arts et des sciences ; il est élu membre de l'Academia Sinica en 1994.[^1] Il a publié plus de 700 articles scientifiques et est considéré de longue date comme un candidat potentiel au prix Nobel de physique.
 
-Le succès de Chu Ching-wu ne réside pas uniquement dans ses découvertes scientifiques concrètes, mais aussi dans l'esprit scientifique qu'il incarne. Il souligne l'importance de la recherche fondamentale, estimant que seule une compréhension approfondie de la nature des phénomènes naturels permet de véritables percées technologiques. Sa méthode de recherche est rigoureuse et méticuleuse, et ses exigences en matière de données expérimentales sont extrêmement strictes.
+Plus de 700 articles couvrant la période allant de la percée supraconductrice de 1987 aux résultats les plus récents publiés dans PNAS en 2026 — ce volume et cette durée sont rares chez les physiciens expérimentaux. Ils représentent non seulement une productivité, mais la capacité d'un même laboratoire à rester à la pointe de la recherche sur une même question (comment élever la température critique) pendant près d'un demi-siècle.
 
-En tant que représentant éminent de la communauté scientifique d'origine chinoise, les réalisations de Chu Ching-wu ont inspiré d'innombrables chercheurs. Il a prouvé que des scientifiques issus de Taïwan peuvent occuper une place de premier plan dans les domaines les plus compétitifs au niveau international, établissant ainsi un modèle pour la communauté scientifique sinophone.
+Chu Ching-wu est régulièrement cité par les médias comme candidat potentiel au prix Nobel de physique, mais cette candidature relève de spéculations extérieures et n'est pas officiellement confirmée. Le prix Nobel de physique 1987 pour la supraconductivité à haute température a été décerné aux physiciens suisses Bednorz et Müller (pour leurs travaux pionniers sur les supraconducteurs à oxydes de cuivre) ; la percée de Chu Ching-wu sur le YBCO est considérée comme une avancée cruciale immédiatement subséquente, mais n'a pas reçu une reconnaissance équivalente.
 
-## Pour aller plus loin
+L'année d'attribution de la National Medal of Science des États-Unis reste à confirmer. Parmi ses distinctions académiques confirmées figurent : membre de l'Academia Sinica (1994), membre de l'Académie nationale des sciences des États-Unis, membre de l'Académie américaine des arts et des sciences.
 
-- [Wu Ta-you](/people/吳大猷) — Fondateur de la physique à Taïwan, appartenant à la même génération scientifique que Chu Ching-wu, celle qui a construit son influence dans le système académique américain d'après-guerre
-- [Yuan T. Lee](/people/李遠哲) — Lauréat du prix Nobel de chimie, autre figure emblématique passée de Taïwan aux plus hauts niveaux de la science internationale
-- [Kjell Lindgren](/people/林琪兒) — Astronaute de la NASA et docteur en médecine né à Taïpei, illustrant comment un double bagage culturel taïno-américain peut s'épanouir dans des disciplines variées
+**Récit courant → Lecture plus précise :** Chu Ching-wu est souvent surnommé le « père de la supraconductivité à haute température », mais ce titre doit être nuancé : il est co-découvreur du YBCO à Tc = 93 K (simultanément avec Wu Maw-kun), tandis que Bednorz et Müller sont les pionniers antérieurs de la supraconductivité à oxydes de cuivre. Dans ce contexte, le terme de « père » désigne « celui qui a franchi le seuil pratique de la température de l'azote liquide », et non celui qui a inauguré le domaine de recherche lui-même.
+
+> 🎙️ **Note du conservateur :** Ce chiffre de janvier 1987 — 93 K — a une signification dans l'histoire de la physique qui ne tient pas à sa valeur absolue, mais au franchissement d'un seuil d'application concret. Tc > 77 K = l'azote liquide devient utilisable = le coût passe de « réservé aux laboratoires les plus avancés » à « industriellement viable ». Ce franchissement a transformé toute l'imaginaire en aval de la recherche sur la supraconductivité.
+>
+> Le mandat de Chu Ching-wu en tant que président de la HKUST (2001-2009) lui a conféré, au-delà de son identité de physicien taïwanais, un rôle de bâtisseur de l'enseignement supérieur asiatique. La coexistence de ces deux identités en lui illustre une trajectoire typique de la circulation mondiale des talents scientifiques et techniques taïwanais entre les années 1970 et 2000 : formation fondamentale à Taïwan, recherche aux États-Unis, construction institutionnelle ailleurs en Asie.
+>
+> En 2026, à 85 ans, il publie encore un article dans PNAS — ce fait en soi est un énoncé sur la vitalité scientifique : la recherche sur la supraconductivité n'est pas terminée, et lui non plus.
+>
+> De la physique de Cheng Kung à l'Université de Californie à San Diego, de Houston à la HKUST — le parcours de Chu Ching-wu est un modèle standard de la circulation mondiale des talents scientifiques taïwanais, tout en devenant un cas atypique en raison de ce 93 K de 1987. Son histoire montre qu'un parcours standard peut mener à des résultats non standard, à condition d'investir suffisamment de temps sur la bonne question.
+
+Du Hunan à Taïwan, de l'Université Cheng Kung à l'Université de Californie à San Diego, de l'Université de Houston à la HKUST puis à PNAS, la carrière de Chu Ching-wu couvre près d'un demi-siècle de recherche en supraconductivité — de Tc = 93 K à Tc = 151 K, il est toujours resté aux côtés de cette courbe de température ascendante.
+
+Entre la percée de 1987 et l'article de PNAS de 2026, 39 ans se sont écoulés. Durant ces 39 ans, la recherche en supraconductivité a connu des pics et des creux à plusieurs reprises, et de nombreux physiciens entrés dans ce domaine à l'époque se sont tournés vers d'autres sujets — pas Chu Ching-wu. Cet engagement de long cours sur une question unique est l'un des traits les plus singuliers qui le distinguent parmi les physiciens.
+
+**Pour aller plus loin :** [Chu Ching-wu — Wikipédia](https://zh.wikipedia.org/wiki/朱經武) ｜ [ETHW : Jalon de la supraconductivité à haute température](https://ethw.org/Milestones:High-Temperature_Superconductivity,_1987)
 
 ## Références
 
-- [Chu Ching-wu — Academia Sinica](https://db1x.sinica.edu.tw/textdb/academicians/02.php?func=22&_op=?ID:M075) — Informations biographiques du membre
-- [Recherche en supraconductivité — Département de physique de l'université de Houston](https://www.uh.edu/nsm/physics/) — Présentation de l'institution de recherche
-- [Découverte de la supraconductivité à haute température — _Physical Review Letters_](https://journals.aps.org/prl/) — Revue de publication des articles originaux
+[^1]: [Wikipédia : Chu Ching-wu](https://zh.wikipedia.org/wiki/朱經武) — Confirme la naissance en 1941, les études de physique à l'Université Cheng Kung, le doctorat de l'Université de Californie à San Diego, le poste de professeur à l'Université de Houston, l'élection à l'Academia Sinica (1994).
+
+[^2]: [ETHW : Jalon de la supraconductivité à haute température (1987)](https://ethw.org/Milestones:High-Temperature_Superconductivity,_1987) — Confirme la percée de janvier 1987 du YBCO à Tc = 93 K, la découverte conjointe par Chu Ching-wu (Université de Houston) et Wu Maw-kun (Université d'Alabama), la publication dans _Physical Review Letters_.
+
+[^3]: [Université des sciences et technologies de Hong Kong : Présidents successifs](https://www.ust.hk/) — Confirme l'entrée en fonction de Chu Ching-wu comme président de la HKUST le 1er juillet 2001, mandat jusqu'en 2009.
+
+[^4]: [Chinatimes : Percée de Chu Ching-wu dans PNAS 2026, Tc = 151 K](https://www.chinatimes.com/realtimenews/20260330004531-260408) — Couverture de l'article PNAS de mars 2026 et du nouveau record Tc = 151 K.
+
+[^5]: [Academia Sinica : Fiche du membre Chu Ching-wu](https://db1x.sinica.edu.tw/textdb/academicians/02.php?func=22&_op=?ID:M075) — Confirmation du statut de membre et des contributions académiques.

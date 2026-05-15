@@ -1,69 +1,101 @@
 ---
-title: 'Chang Hui-mei'
-description: "Reine de la pop mandarine issue du peuple Puyuma, l'une des artistes féminines les plus vendues de la musique pop chinoise, porte-parole de l'égalité des droits LGBTQ+"
+title: 'A-mei : chanteuse Puyuma, de *Sisters* (1996) à cinq concerts au Taipei Dome (2024)'
+description: "Née le 9 août 1972 dans le village de Kavulungan (卑南鄉), district de Taitung, A-mei (張惠妹) est une chanteuse taiwanaise d'origine Puyuma et l'une des artistes féminines les plus populaires de l'histoire de la musique pop sinophone. En 1996, son premier album *Sisters* (姊妹) s'est vendu à 1,21 million d'exemplaires à Taïwan et 4 millions en Asie. En 2015, sa tournée « Utopia » a donné lieu à 10 concerts consécutifs au Taipei Arena. En décembre 2024, sa série de 5 concerts ASMeiR MAXXX au Taipei Dome a mobilisé un budget de production de 200 millions de dollars taïwanais, avec un lâcher de montgolfières en direct. Ses ventes cumulées dépassent les 50 millions d'exemplaires."
 date: 2026-03-19
+category: 'People'
 tags:
-  [
-    'musique',
-    'peuples autochtones',
-    'Puyuma',
-    'reine de la pop',
-    'égalité des droits LGBTQ+',
-    'musique pop',
-  ]
+  ['Musique', 'Peuples autochtones', 'Puyuma', 'Diva', 'Droits LGBTQ+', 'Pop']
 subcategory: '音樂'
-lastVerified: 2026-03-19
+author: 'Taiwan.md'
+featured: false
+lastVerified: 2026-05-08
 lastHumanReview: false
-translatedFrom: People/張惠妹.md
-sourceCommitSha: 2671bff6
-sourceContentHash: sha256:b4205405eb50bfe0
-sourceBodyHash: 'sha256:7b8eb913d8ff0bab'
-translatedAt: 2026-05-01T22:19:06+08:00
-category: People
+readingTime: 7
+# design_rationale:
+#   why_this_hook: "從1996到2024的數字對比——121萬張首專到大巨蛋5場，數字本身說明了她的跨度。"
+#   whats_excluded: "各張專輯完整歌曲列表；商業代言清單；各演唱會場次細目"
+#   where_it_hedges: "張雨生發掘細節：各方說法略有出入，以維基百科為準；2023北京彩虹旗爭議另案記錄"
+translatedFrom: 'People/張惠妹.md'
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:eaac08421c155488'
+sourceBodyHash: 'sha256:a58ea4fcb897497f'
+translatedAt: '2026-05-16T05:07:56+08:00'
 ---
 
-# Chang Hui-mei : une voix céleste au-delà des frontières ethniques
+# A-mei : diva Puyuma, de _Sisters_ (1996) à cinq concerts au Taipei Dome (2024)
 
-Chang Hui-mei (en langue Puyuma : Kulilay Amit ; nom occidental : A-mei), née en 1972 dans le canton de Beinan, comté de Taitung, est une chanteuse issue du peuple Puyuma de Taïwan et l'une des artistes féminines les plus accomplies de l'histoire de la musique pop sinophone. Dotée d'un talent vocal exceptionnel et d'une présence scénique remarquable, elle a non seulement connu un immense succès commercial, mais est également devenue une fierté pour les peuples autochtones et une figure de soutien majeure du mouvement pour l'égalité des droits LGBTQ+.
+> **En 30 secondes :** A-mei est née le 9 août 1972 dans le village de Kavulungan (卑南鄉), district de Taitung. Chanteuse d'origine Puyuma, son nom anglais est A-mei et son nom traditionnel Kulilay Amit (古利拉依・阿密特).[^1] En 1996, son premier album _Sisters_ (姊妹) s'est vendu à 1,21 million d'exemplaires à Taïwan et 4 millions en Asie, produit par Chang Yu-sheng (張雨生) et intégrant des éléments vocaux traditionnels Puyuma.[^1] En 2015, sa tournée « Utopia » a donné lieu à 10 concerts consécutifs au Taipei Arena.[^2] En décembre 2024, sa série de 5 concerts ASMeiR MAXXX au Taipei Dome a mobilisé un budget de production de 200 millions de dollars taïwanais, avec un lâcher de montgolfières en direct.[^3] Ses ventes cumulées dépassent les 50 millions d'exemplaires.[^1]
 
-## Du village tribal à la scène mondiale
+## 9 août 1972, le village de Kavulungan, Taitung
 
-Chang Hui-mei a grandi dans une famille de musiciens du peuple Puyuma, bercée dès l'enfance par les chants traditionnels en langue autochtone. En 1996, elle publie son premier album, _Sœurs_ (_姐妹_), qui bouleverse immédiatement le monde de la musique pop sinophone grâce à ses ventes spectaculaires et son influence considérable. Cet album la propulse non seulement au rang de célébrité du jour au lendemain, mais marque aussi l'entrée dans l'âge d'or de la musique pop taïwanaise des années 1990.
+Le 9 août 1972, A-mei naît dans le village de Kavulungan (大巴六九部落), district de Taitung, sous le nom traditionnel Kulilay Amit (古利拉依・阿密特).[^1] Elle grandit bercée par la tradition musicale Puyuma : les chœurs de sa mère et de ses sœurs constituent sa première école de musique.
 
-Son succès ne se limite pas aux réalisations commerciales : il a surtout brisé les stéréotypes véhiculés par la société dominante à l'égard des peuples autochtones. Chang Hui-mei a prouvé que les autochtones ne se réduisent pas à leur culture traditionnelle et qu'ils peuvent également briller dans le domaine de la musique pop contemporaine, devenant ainsi un pont essentiel entre tradition et modernité, entre identité ethnique et société dominante.
+Issue d'une famille modeste, l'adolescente A-mei chante avec sa sœur Chang Hui-chun (張惠春) dans les restaurants et salles de spectacle locaux de Taitung pour subvenir aux besoins du foyer.[^1] Ces nuits passées à chanter dans l'arrière-pays de Taitung deviendront le terreau de la puissance scénique qui fera sa renommée.
 
-## Réalisations musicales et influence
+En 1996, son premier album _Sisters_ bouleverse la scène musicale sinophone : 1,21 million d'exemplaires à Taïwan, 4 millions en Asie.[^1] Elle brise les stéréotypes de la société dominante à l'égard des artistes autochtones : les peuples autochtones ne se réduisent pas à leur patrimoine culturel traditionnel — ils peuvent aussi occuper la plus haute marche de la pop contemporaine.
 
-La carrière musicale de Chang Hui-mei s'étend sur près de 30 ans. Elle a publié plus de 20 albums studio, avec des ventes totales dépassant 50 millions d'exemplaires, ce qui en fait l'une des artistes féminines les plus vendues de la scène musicale sinophone. Parmi ses œuvres emblématiques figurent _Écouter la mer_ (_聽海_), _Couper l'amour_ (_剪愛_), _Trois jours et trois nuits_ (_三天三夜_), _Puis-je te serrer dans mes bras ?_ (_我可以抱你嗎_), chacune étant devenue un classique largement fredonné.
+## Chang Yu-sheng : l'âme productrice de _Sisters_
 
-Ses concerts sont des références dans le monde de la musique sinophone. Depuis son premier concert solo en 1999, chacune de ses performances a suscité l'enthousiasme. En 2015, sa tournée « Utopia » au Taipei Arena a affiché complet pendant 20 soirées consécutives, établissant un record pour une artiste féminine sinophone. Son spectacle du Nouvel An 2019 a attiré des dizaines de milliers de spectateurs sur place et des millions de téléspectateurs en ligne.
+Le succès de _Sisters_ est indissociable de son producteur, Chang Yu-sheng (張雨生). En 1995, celui-ci repère A-mei alors qu'elle chante à Taitung et décide de produire son tout premier album.[^1] Ce choix va réorienter le destin de deux artistes : A-mei devient une diva de sa génération, et Chang Yu-sheng laisse derrière lui son héritage de production le plus marquant.
 
-## Engagement social et promotion de la culture autochtone
+Dans _Sisters_, Chang Yu-sheng intègre audacieusement des éléments de chant traditionnel Puyuma et invite la mère et les sœurs d'A-mei à participer aux chœurs, conférant à cet album pop une authentique mémoire autochtone.[^1] Sur le marché du disque mainstream de 1996, c'est une démarche rare.
 
-Chang Hui-mei n'a jamais renié ses racines ethniques et s'est engagée depuis de nombreuses années dans la promotion de la culture autochtone. Elle interprète régulièrement des chants Puyuma lors de ses concerts, portant ainsi la musique traditionnelle sur les plus grandes scènes. Lors de la cérémonie d'investiture présidentielle taïwanaise en 2000, son interprétation de l'hymne national a suscité une controverse politique, mais a également attiré l'attention du public sur la question du statut des peuples autochtones dans la société taïwanaise.
+Le 12 novembre 1997, Chang Yu-sheng meurt des suites d'un accident de la route, à seulement 31 ans. Il laisse derrière lui _Sisters_, sa collaboration complète avec A-mei — un album suffisant pour que leurs noms restent à jamais côte à côte dans l'histoire de la musique populaire taïwanaise.
 
-Elle est également une figure de soutien importante du mouvement pour l'égalité des droits LGBTQ+, exprimant à de nombreuses reprises, lors de concerts et en public, son appui à la diversité des genres. Lors de la légalisation du mariage homosexuel à Taïwan en 2019, Chang Hui-mei a publiquement salué cette avancée, affirmant que l'amour est l'amour et ne devrait pas être limité par le genre. Cette attitude ouverte et inclusive lui a valu l'adhésion d'un nombre croissant de jeunes générations.
+## Carrière musicale : chiffres, classiques et lecture critique
 
-## Évolution et percées dans le style musical
+Avec plus de 20 albums studio à son actif et des ventes cumulées dépassant les 50 millions d'exemplaires,[^1] A-mei a marqué la scène sinophone de titres emblématiques tels que _Écoute la mer_ (聽海), _Couper l'amour_ (剪愛), _Trois jours, trois nuits_ (三天三夜) et _Puis-je te serrer dans mes bras ?_ (我可以抱你嗎). Elle a été nommée à de nombreuses reprises aux Golden Melody Awards (金曲獎) et a remporté le prix de la meilleure interprète féminine en mandarin.
 
-Le style musical de Chang Hui-mei est riche et varié, allant du rock lyrique de ses débuts à la musique électronique et à la dance des périodes plus récentes. Elle n'a jamais hésité à explorer de nouveaux éléments musicaux. Ses collaborations avec des musiciens internationaux ont également élargi son horizon musical ; ses travaux avec des artistes tels que David Tao et Wang Leehom ont donné naissance à des œuvres remarquables.
+« Il faut oser se risquer pour avoir une chance de réussir. » C'est ainsi qu'elle décrit son état d'esprit musical dans une interview accordée à _Business Today_ (今周刊).[^4] Reconnue pour l'étendue de sa tessiture et la richesse de son expression émotionnelle, elle est considérée par de nombreux critiques comme l'une des chanteuses techniquement les plus accomplies de la scène sinophone.
 
-Sa technique vocale est d'une grande finesse, sa tessiture est large et son expression émotionnelle est riche, ce qui lui vaut d'être considérée comme l'une des meilleures chanteuses de la scène sinophone. Qu'il s'agisse de morceaux rock puissants et passionnés ou de ballades lyriques tendres et profondes, Chang Hui-mei maîtrise tous les registres avec aisance. Cette polyvalence vocale exceptionnelle est l'une des raisons essentielles de son succès durable à travers les générations.
+**Lecture courante → Lecture plus précise :** A-mei est souvent étiquetée « chanteuse autochtone », comme si son appartenance ethnique expliquait son succès. La lecture plus juste est la suivante : ses capacités vocales atteignent en elles-mêmes un niveau d'excellence. Son identité autochtone est sa racine, pas la cause de sa réussite.
 
-## Transmission musicale intergénérationnelle
+## La cérémonie d'investiture de 2000 : « Je dois porter ce fardeau »
 
-Dans les années 2020, Chang Hui-mei conserve une créativité et une énergie scénique remarquables. Elle n'est pas seulement interprète, mais aussi productrice musicale et directrice de concerts, s'investissant profément dans la mise en scène visuelle et l'arrangement musical de ses spectacles. Elle soutient également activement la relève et encourage le développement de jeunes musiciens autochtones.
+Le 20 mai 2000, A-mei est invitée à interpréter l'hymne national de la République de Chine lors de la cérémonie d'investiture du président Chen Shui-bian (陳水扁).[^5]
 
-Le succès de Chang Hui-mei n'est pas seulement une réussite personnelle : c'est aussi une victoire de la culture multiculturelle taïwanaise. Elle a démontré la richesse de la culture autochtone et mis en lumière l'inclusivité de la société taïwanaise. En tant que reine de la musique transcendant les frontières ethniques et les générations, l'influence de Chang Hui-mei dépasse largement le cadre de la musique elle-même.
+La République populaire de Chine réagit avec colère : ses publicités et ses prestations sont entièrement suspendues sur le continent, et elle fait l'objet d'un boycott d'environ quatre ans.[^5] Durant cette période, A-mei subit une pression psychologique considérable ; selon des rapports, elle aurait eu besoin d'un suivi psychologique pour parvenir à dormir.
 
-## Pour aller plus loin
+En 2004, lors d'une interview accordée à la CCTV (Télévision centrale de Chine), elle déclare : « Ce n'était pas ma décision. Je dois porter ce fardeau, parce que je suis A-mei. »[^5]
 
-- [Chang Yu-sheng](/people/張雨生) — Le producteur visionnaire qui a découvert Chang Hui-mei et produit _Sœurs_ (_姊妹_) et _Bad Boy_ ; sans ce mois où il allait chaque soir l'écouter chanter dans un bar, la reine de la pop n'aurait peut-être jamais existé
-- [Musique pop taïwanaise](/music/台灣流行音樂) — Le contexte de l'ascension de Chang Hui-mei sur la scène sinophone, l'apogée de l'industrie musicale pop dans les années 1990
+Le poids de cette dernière phrase réside dans le fait qu'elle ne se dérobe pas et ne s'excuse pas : elle confirme simplement son nom. Dans une société où les chanteuses autochtones font l'objet de préjugés discriminatoires, cette phrase est une déclaration de dignité.
+
+## 2015 : « Utopia », 10 concerts au Taipei Arena
+
+Du 4 au 15 avril 2015, la tournée mondiale « Utopia » d'A-mei donne lieu à 10 concerts consécutifs au Taipei Arena.[^2] Non pas 20 — ce chiffre étant fréquemment erroné dans de nombreux articles.
+
+« Utopia » constitue un jalon majeur de sa carrière scénique : 10 représentations à guichets fermés, confirmant son statut d'artiste live de premier plan. En ce sens, le Taipei Dome de 2024 ne part pas de zéro : c'est la version évoluée d'« Utopia ».
+
+## Décembre 2024 : ASMeiR MAXXX au Taipei Dome
+
+En décembre 2024, A-mei se produit au Taipei Dome pour sa série de concerts ASMeiR MAXXX, soit 5 représentations au total.[^3] Le budget de production s'élève à environ 200 millions de dollars taïwanais, et un lâcher de montgolfières a lieu en direct, constituant la plus grande mise en scène visuelle de toute sa carrière de concertiste.
+
+Le Taipei Dome a une capacité d'environ 60 000 places, soit plus de trois fois celle du Taipei Arena. Les 5 concerts au Taipei Dome représentent une échelle cinq fois supérieure aux 10 concerts d'« Utopia » au Taipei Arena — la même artiste, une scène d'une tout autre envergure.
+
+## Promotion de la langue autochtone et droits LGBTQ+
+
+En 2009, A-mei intègre des chants traditionnels Puyuma dans un album, après avoir obtenu l'autorisation des anciens du village — un cas exemplaire de respect de la propriété intellectuelle traditionnelle autochtone par une artiste de musique pop.[^6]
+
+A-mei est une figure publique de premier plan du mouvement pour les droits LGBTQ+ à Taïwan. Depuis des années, elle affirme son soutien aux communautés de genres et sexualités diverses lors de ses concerts, et a publiquement salué la légalisation du mariage homosexuel à Taïwan en 2019.
+
+Elle a porté les questions LGBTQ+ dans le paysage du divertissement grand public bien avant la majorité des personnalités publiques taïwanaises. Avant elle, les divas pop taïwanaises gardaient généralement le silence sur les sujets politiquement sensibles ; son engagement public a changé la norme dans l'industrie.
+
+> 🎙️ **Note du curateur :** L'émergence d'A-mei marque un tournant dans la place des peuples autochtones de Taïwan dans la culture populaire — du statut d'« objet représenté » à celui de « sujet qui s'exprime ». Avant 1996, la culture autochtone apparaissait dans les médias dominants principalement sous forme de spectacle folklorique ; après _Sisters_, une jeune femme Puyuma occupe cette position sans avoir à expliquer pourquoi elle y est.
+
+Des nuits passées à chanter dans les restaurants de Taitung aux cinq concerts du Taipei Dome, avec des montgolfières s'élevant au-dessus du public — le parcours d'A-mei n'est pas le scénario standard de l'industrie du divertissement taïwanais, mais celui d'une jeune femme autochtone qui, par sa voix, a ouvert un espace plus grand, puis y a fait entrer tout le monde.
+
+**Pour aller plus loin :** [A-mei — Wikipédia](https://zh.wikipedia.org/wiki/張惠妹) ｜ [Chang Yu-sheng](/people/張雨生) — l'âme productrice de _Sisters_
 
 ## Références
 
-- [Page officielle des fans de Chang Hui-mei](https://www.facebook.com/ameichang.official/) — Dernières nouvelles et informations sur les événements officiels
-- [Wikipédia : Chang Hui-mei](https://zh.wikipedia.org/wiki/%E5%BC%B5%E6%83%A0%E5%A6%B9) — Biographie détaillée et discographie
-- [Musique Hall de Books.com.tw : Chang Hui-mei](https://www.books.com.tw/web/sys_serialtext/?item=0010002876) — Présentation et critiques d'albums
-- [Commission des affaires autochtones : dossier spécial Chang Hui-mei](https://www.apc.gov.tw/portal/theme/detail/id/0000000004) — Réalisations en matière de promotion de la culture autochtone
+[^1]: [Wikipédia : A-mei](https://zh.wikipedia.org/wiki/張惠妹) — Confirmation de la date de naissance (9 août 1972), du village de Kavulungan (卑南鄉), du nom traditionnel Kulilay Amit, du contexte de production par Chang Yu-sheng, des ventes du premier album _Sisters_ (1,21 million à Taïwan / 4 millions en Asie) et des ventes cumulées de 50 millions d'exemplaires.
+
+[^2]: [Wikipédia : Tournée mondiale Utopia](https://zh.wikipedia.org/wiki/烏托邦世界巡城演唱會) — Confirmation que la tournée « Utopia » au Taipei Arena en avril 2015 comptait 10 concerts (et non 20).
+
+[^3]: [Couverture médiatique du concert ASMeiR MAXXX au Taipei Dome (2024)](https://zh.wikipedia.org/wiki/張惠妹) — Inclut les informations sur les 5 concerts au Taipei Dome en décembre 2024, le budget de production de 200 millions de dollars taïwanais et le lâcher de montgolfières.
+
+[^4]: [Business Today (今周刊) : A-mei — « Il faut oser se risquer pour avoir une chance de réussir »](https://www.businesstoday.com.tw/article-content-80407-94711) — Entretien avec _Business Today_, incluant la citation directe « Il faut oser se risquer pour avoir une chance de réussir » et un retour sur sa carrière musicale.
+
+[^5]: [SET News : Interdiction chinoise des artistes taïwanais — A-mei bannie pendant 4 ans après avoir chanté l'hymne national](https://www.setn.com/News.aspx?NewsID=118793) — Chronologie de l'incident de la cérémonie d'investiture de 2000, impact du boycott chinois d'environ quatre ans, incluant la citation d'A-mei : « Ce n'était pas ma décision. Je dois porter ce fardeau, parce que je suis A-mei » (tirée d'une interview de 2004 à la CCTV).
+
+[^6]: [Plateforme de protection des créations intellectuelles traditionnelles autochtones : L'album d'A-mei inclut des chants traditionnels avec l'autorisation du village (2009)](https://ctm-indigenous.vm.nthu.edu.tw/news-20090715/) — Compte rendu complet de l'incident de 2009 où A-mei a obtenu l'autorisation des anciens du village Puyuma pour inclure des chants traditionnels dans son album, constituant un cas exemplaire de respect de la propriété intellectuelle autochtone par une artiste de musique pop.

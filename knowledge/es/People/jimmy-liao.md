@@ -1,74 +1,105 @@
 ---
-title: 'Jimmy Liao'
-description: 'El poeta ilustrador que calienta el mundo con álbumes ilustrados, llevando el libro álbum taiwanés al escenario internacional'
+title: 'Jimmy Liao: el ilustrador de Yilan que, después de la leucemia, llevó el libro álbum al escenario internacional'
+description: 'Su nombre real es Liao Fu-bin; nació el 15 de noviembre de 1958 en Yilan. Se graduó del Departamento de Bellas Artes de la Universidad de Cultura China y trabajó doce años en una agencia de publicidad. En 1995 le diagnosticaron leucemia; tras recuperarse, se dedicó por completo a la creación de libros álbum. En 1998 se publicaron sus dos primeros libros álbum, Secrets in the Woods y A Fish with a Smile, ambos el mismo año. En 2001, Turn Left, Turn Right fue adaptada al cine bajo la codirección de Johnnie To y Wai Ka-fai. En 2013 se inauguró la Plaza Jimmy en Yilan. En marzo de 2026, Harbour City de Hong Kong presentó la exposición especial del 25.º aniversario, The Glimmer of an Accidental Encounter.'
 date: 2026-03-19
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '藝術與設計'
 tags:
   [
-    personaje,
-    escritor de álbumes ilustrados,
-    ilustración,
-    literatura,
-    leucemia,
-    Yilan,
-    adaptación cinematográfica,
+    'arte y diseño',
+    'autor de libros álbum',
+    'ilustración',
+    'literatura',
+    'leucemia',
+    'Yilan',
+    'adaptación cinematográfica',
   ]
-subcategory: '藝術與設計'
-lastVerified: 2026-0-19
+readingTime: 8
+lastVerified: 2026-05-07
 lastHumanReview: false
-translatedFrom: People/幾米.md
-sourceCommitSha: 812e7574
-sourceContentHash: sha256:e547220b8b7d96eb
-sourceBodyHash: 'sha256:f9608a53e7b9f154'
-translatedAt: 2026-05-01T22:19:10+08:00
-category: People
+featured: false
+translatedFrom: 'People/幾米.md'
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:c4d36b5c55367199'
+sourceBodyHash: 'sha256:e7829fa53a6ef897'
+translatedAt: '2026-05-16T05:07:56+08:00'
 ---
 
-Jimmy Liao, cuyo nombre real es Liao Fu-bin, nació el 15 de noviembre de 1958 en Yilan y es uno de los escritores de álbumes ilustrados taiwaneses con mayor reconocimiento internacional. Con un estilo pictórico único y narrativas profundas, creó obras tan célebres como _Turn Left, Turn Right_, _Underground_ y _Starry Starry Night_, que no solo gozaron de enorme popularidad en el mundo sinófono, sino que también hicieron brillar al libro álbum taiwanés en el escenario internacional. Una grave enfermedad le llevó a replantearse la vida y, de manera inesperada, abrió el camino hacia su carrera como creador de álbumes ilustrados.
+# Jimmy Liao: el ilustrador de Yilan que, después de la leucemia, llevó el libro álbum al escenario internacional
 
-## Primeros años e inquietud artística
+> **Resumen en 30 segundos:** Jimmy Liao, cuyo nombre real es Liao Fu-bin, nació el 15 de noviembre de 1958 en Yilan, se graduó del Departamento de Bellas Artes de la Universidad de Cultura China y trabajó doce años en una agencia de publicidad.[^1] En 1995 le diagnosticaron leucemia; tras recuperarse, se orientó por completo a la creación de libros álbum. En 1998 publicó el mismo año sus dos primeros libros álbum, Secrets in the Woods y A Fish with a Smile; Secrets in the Woods fue el primero.[^2] Su obra representativa Turn Left, Turn Right (2001) fue adaptada al cine en una película codirigida por Johnnie To y Wai Ka-fai (2003).[^3] A fines de junio de 2013 se inauguró oficialmente la Plaza Jimmy de Yilan, tomando como textos de base tres libros álbum: The Starry Starry Night, The Sound of Colors y Turn Left, Turn Right.[^4] Del 28 de marzo al 19 de abril de 2026, la galería de arte de Harbour City en Hong Kong organizó la exposición especial del 25.º aniversario The Glimmer of an Accidental Encounter.[^5]
 
-Desde pequeño, Jimmy Liao mostró un profundo interés por el dibujo; le encantaba tomar un lápiz y garabatear, plasmando los pequeños detalles de la vida cotidiana. Criado en Yilan, estuvo rodeado desde la infancia de paisajes naturales que más tarde se convirtieron en elementos creativos fundamentales de su obra.
+## 1958, Yilan
 
-Estudió en el Departamento de Bellas Artes de la Chinese University of Culture, donde recibió una formación artística rigurosa y consolidó una sólida base pictórica. Tras graduarse, trabajó como diseñador gráfico en una agencia publicitaria durante más de una década. Aunque ese periodo le permitió acumular una amplia experiencia en diseño visual, en su interior siempre anheló dedicarse a una forma de expresión artística más pura.
+El 15 de noviembre de 1958, Jimmy Liao nació en Yilan.[^1] Desde pequeño le gustaba dibujar; en la universidad estudió en el Departamento de Bellas Artes de la Universidad de Cultura China, donde recibió formación artística formal. Tras graduarse, entró a una agencia de publicidad como diseñador gráfico y trabajó doce años en el campo del diseño comercial, acumulando una amplia experiencia en diseño visual.[^1]
 
-## Giro vital y despertar creativo
+Los 12 años de formación en una agencia de publicidad fueron la base invisible de la obra posterior de Jimmy Liao en el libro álbum. Un publicista debe transmitir un mensaje claro en muy poco tiempo y con el mínimo de elementos visuales: esa formación hizo que la composición de sus libros álbum conservara siempre un ritmo de “una emoción por página”, sin narración visual redundante. Sus libros álbum parecen “sencillos y cálidos”, pero detrás hay una formación precisa en diseño visual comercial.
 
-En 1995, a los 37 años, a Jimmy Liao le diagnosticaron leucemia. Este golpe inesperado transformó por completo su vida. Frente a la cercanía de la muerte, comenzó a replantearse el sentido y el valor de la existencia. Durante el largo proceso de tratamiento, decidió dejar su empleo anterior y dedicarse por completo a la pintura, la actividad que verdaderamente amaba.
+## 1995: leucemia
 
-Aunque la enfermedad trajo consigo sufrimiento, también despertó una energía creativa inesperada. En 1998 publicó sus primeros álbumes ilustrados: _El secreto del bosque_ y _El pez sonriente_. Ambos libros causaron un impacto inmediato en el mercado editorial taiwanés. Los lectores descubrieron que no se trataba de libros infantiles comunes, sino de obras artísticas capaces de conmover lo más profundo del mundo emocional adulto.
+En 1995, a los 37 años, a Jimmy Liao le diagnosticaron leucemia.[^1] Frente a un momento límite entre la vida y la muerte, durante el largo proceso de tratamiento decidió dejar el trabajo publicitario y dedicarse por completo a la creación pictórica que realmente amaba.
 
-Los álbumes ilustrados de Jimmy Liao poseen un encanto singular: imágenes estéticas y poéticas, historias sencillas pero de significado profundo. Con colores cálidos y trazos delicados, retrata la soledad, la confusión y la esperanza del ser humano contemporáneo. Esta forma de creación, a medio camino entre la literatura infantil y la literatura adulta, abrió un nuevo horizonte para el libro álbum en lengua china.
+La recuperación de la leucemia tuvo dos efectos inseparables en su creación: el primero fue una reestructuración radical de su sentido del tiempo: pasó de la estructura temporal del publicista, “medida por semanas”, a la del creador de libros álbum, “medida por años”; el segundo fue un giro en los temas emocionales: sus libros álbum trabajan una y otra vez asuntos como la soledad, la espera, el desencuentro y la esperanza. La densidad de esos temas solo puede ser escrita por alguien que ha vivido en el borde de la muerte.
 
-## Obras clásicas e influencia internacional
+## 1998: los dos primeros libros álbum publicados el mismo año
 
-_Turn Left, Turn Right_, publicado en 2001, se convirtió en una de las obras más emblemáticas de Jimmy Liao. La historia de dos personas enamoradas que siempre se cruzan sin encontrarse tocó el corazón de innumerables lectores. La célebre frase del libro —«Estaban convencidos de que fue una pasión surgida en un instante la que los unió, y esa certeza era hermosa»— sigue siendo ampliamente citada hasta hoy.
+En 1998, Jimmy Liao publicó en Taiwán sus dos primeras creaciones personales de libro álbum, Secrets in the Woods y A Fish with a Smile; Secrets in the Woods fue su primer libro álbum.[^2] Ambas obras recibieron el premio China Times Open Book al mejor libro infantil, el premio anual Good Books Everyone Reads de Min Sheng Bao al mejor libro infantil y el premio United Daily News Readers al mejor libro infantil: que una primera obra obtuviera los tres principales premios de reseña literaria de Taiwán fue un logro sumamente raro para un autor debutante.[^2]
 
-_Underground_ explora la sensación de alienación del habitante urbano y la búsqueda de pertenencia; _Starry Starry Night_, por su parte, describe desde la perspectiva de una joven las confusiones del crecimiento y los cambios familiares. Cada obra captura con precisión el estado emocional del ser humano moderno, ofreciendo consuelo y reflexión a través de un lenguaje e imágenes poéticos.
+Estas obras provocaron de inmediato una respuesta en el mercado editorial taiwanés. Los lectores descubrieron que podían tocar el interior de los adultos: formalmente eran libros álbum, pero en esencia eran obras escritas para adultos. La categoría de “**libros álbum para adultos**” era nueva en el mercado editorial taiwanés de ese momento: no eran literatura infantil, tampoco literatura pura, y mucho menos cómic. La obra de Jimmy Liao abrió ese espacio intermedio.
 
-Las obras de Jimmy Liao no solo son superventas en Taiwán, sino que han sido traducidas a numerosos idiomas y publicadas en todo el mundo. Sus álbumes ilustrados cuentan con una amplia base de lectores en Hong Kong, Singapur, Malasia, China continental y otras regiones sinófonas, y también han recibido elogios en Japón, Corea del Sur y países de Europa y América. El hecho de que el libro álbum taiwanés haya logrado consolidarse en el mercado internacional se debe en gran medida a Jimmy Liao.
+## Turn Left, Turn Right y la adaptación cinematográfica
 
-## Adaptaciones transmedia e influencia cultural
+Turn Left, Turn Right, publicada en 2001, es una de las obras representativas más conocidas de Jimmy Liao. Esta historia sobre dos personas que se aman pero siempre se desencuentran fue luego adaptada al cine.
 
-Las obras de Jimmy Liao trascienden el formato impreso y se han expandido a distintos medios. _Turn Left, Turn Right_, _Underground_ y _Starry Starry Night_ fueron adaptadas al cine; en particular, _Turn Left, Turn Right_, dirigida por Johnnie To y protagonizada por Takeshi Kaneshiro y Gigi Leung, trasladó la poesía del álbum ilustrado a la pantalla con una amplia resonancia.
+La película fue **codirigida por Johnnie To y Wai Ka-fai**, protagonizada por Takeshi Kaneshiro y Gigi Leung, y estrenada en 2003 en Hong Kong, Taiwán y otros lugares.[^3] No fue solo Johnnie To: Wai Ka-fai fue codirector. Ambos colaboraron durante mucho tiempo en el cine de Hong Kong, y Wai Ka-fai fue además productor y guionista de la película.
 
-Además del cine, sus obras han sido adaptadas a musicales, series de televisión y animación, entre otros formatos. Estas versiones transmedia han permitido que un público más amplio descubra la creación de Jimmy Liao y han extendido la influencia del arte del álbum ilustrado.
+Otras adaptaciones cinematográficas incluyen The Sound of Colors (2003, dirigida por Joe Ma y protagonizada por Tony Leung Chiu-wai y Miriam Yeung) y The Starry Starry Night (2011, dirigida por Tom Lin), entre otras. Las formas de adaptación abarcan además musicales, animación, series de televisión y otros campos, lo que convierte a Jimmy Liao en el caso con **mayor amplitud de adaptación transmedia entre los autores taiwaneses de libros álbum**.
 
-## El paisaje artístico de su tierra natal, Yilan
+## 2013: la Plaza Jimmy de Yilan
 
-Jimmy Liao siente un profundo afecto por su tierra natal, Yilan, y en los últimos años ha participado activamente en proyectos artísticos en la zona. En los alrededores de la estación de tren de Yilan se han instalado varias obras de arte público con temática de Jimmy Liao, incluyendo escenas icónicas de _Turn Left, Turn Right_ y _Starry Starry Night_, transformando la estación en un espacio artístico lleno de fantasía e imaginación.
+Jimmy Liao tiene un profundo vínculo afectivo con su ciudad natal, Yilan. En la primavera de 2013, el equipo arquitectónico Fieldoffice Architects invitó a Jimmy Liao a cocrear un espacio de arte público. La “**Plaza Jimmy de Yilan**” se inauguró oficialmente a fines de junio de 2013 y está ubicada unos 200 metros al sur de la estación de tren de Yilan.[^4]
 
-Estas obras de arte público no solo embellecen el entorno urbano, sino que también se han convertido en una importante atracción turística de Yilan. Muchos visitantes acuden expresamente para tomar fotografías y sumergirse en el encanto del mundo de los álbumes ilustrados. Jimmy Liao ha logrado combinar su creación artística con el desarrollo de su tierra natal, demostrando el poder positivo del arte como contribución a la sociedad.
+La plaza toma como textos de base tres libros álbum, The Starry Starry Night, The Sound of Colors y Turn Left, Turn Right, y propone los conceptos de “viaje” y “paisajes fragmentarios de la vida”.[^4] En 2014, durante las actividades del “Año Alegre de Yilan”, el tren volador entró en el bosque Diudiudang y una jirafa trepó al balcón del techo de la estación de tren de Yilan, conectando la Plaza Jimmy, el bosque Diudiudang y la estación en un universo expandido de libro álbum.
 
-## Filosofía creativa y actitud ante la vida
+La Plaza Jimmy es el **primer gran espacio de arte público de Taiwán dedicado a un único autor de libros álbum**, y también uno de los hitos más reconocibles del mapa turístico de Yilan. Su significado supera el turismo: una estación ferroviaria de condado que antes no tenía una asociación fuerte con el arte y la cultura fue redefinida como “espacio cultural” a partir de la obra de un autor de libros álbum. Es un caso exitoso de intervención del arte público en la memoria urbana de Taiwán.
 
-Tras haber enfrentado la cercanía de la muerte, Jimmy Liao posee una comprensión singular de la vida. Suele decir: «La vida es un viaje maravilloso; todos enfrentamos dificultades y frustraciones, pero también descubrimos belleza y sorpresas». Esta actitud vital optimista y cálida influye profundamente en su estilo creativo.
+## 25 años de creación sostenida
 
-Sus obras transmiten siempre una fuerza serena: incluso al describir el dolor y la soledad, logran que el lector sienta esperanza y consuelo. Esta capacidad de transformar la adversidad en nutriente creativo no solo proviene de su propia experiencia vital, sino que refleja una profunda comprensión y compasión por la naturaleza humana.
+Desde su primer libro álbum en 1998 hasta hoy, Jimmy Liao ha seguido publicando nuevas obras con una frecuencia media de 1 a 2 libros por año. Entre sus obras representativas también se incluyen The Sound of Colors (2001), The Moon Forgets (1999), A Garden in My Heart (1999) y The Starry Starry Night (2009).
 
-## Un viaje creativo que continúa
+A diferencia de muchos escritores cuya energía creativa disminuye después de una obra representativa, la frecuencia de creación y la amplitud temática de Jimmy Liao se han mantenido estables durante 25 años. Esa resistencia es la razón fundamental por la que ha podido seguir produciendo sin quedar encerrado en un único estilo.
 
-A día de hoy, Jimmy Liao sigue creando y publica nuevas obras cada año. Sus temas se han vuelto cada vez más diversos, expandiéndose desde las emociones personales hasta la preocupación social, y desde la vida urbana hasta las cuestiones medioambientales. Independientemente del tema, su estilo cálido y poético permanece inalterable.
+## 2026: exposición especial del 25.º aniversario, The Glimmer of an Accidental Encounter
 
-En los últimos años también se ha dedicado activamente a la formación de jóvenes creadores de álbumes ilustrados, compartiendo su experiencia a través de talleres y conferencias. Desea que cada vez más creadores talentosos se incorporen a este campo, para que la influencia del libro álbum taiwanés siga creciendo.
+La exposición especial **The Glimmer of an Accidental Encounter**, autorizada oficialmente por la marca Jimmy y coorganizada con Little Room May, se celebró del **28 de marzo al 19 de abril de 2026** en la galería de arte de Harbour City, en Tsim Sha Tsui, Hong Kong.[^5] La exposición tomó los “estados de la vida” como eje central y se dividió en tres grandes zonas: “La vida siempre trae lo inesperado”, “Cuando uno sostiene todo en soledad” y “Paisajes dentro de una luz accidental”; mediante obras bidimensionales, luz y sombra, y esculturas tridimensionales, la muestra avanzaba por capas.
 
-Jimmy Liao ha creado con sus pinceles un mundo lleno de imaginación y calidez, ofreciendo consuelo espiritual a innumerables lectores en medio de la ajetreada vida moderna. Ha demostrado que el poder del arte no reside en la complejidad ni en la ostentación, sino en la sinceridad y la capacidad de conmover. Desde Yilan hasta los rincones más lejanos del mundo, los álbumes ilustrados de Jimmy Liao siguen transmitiendo amor y esperanza, haciendo de este mundo un lugar mejor.
+La elección de Hong Kong como sede de la exposición especial del 25.º aniversario dialoga con el contexto histórico de la película Turn Left, Turn Right, dirigida por un equipo de Hong Kong (Johnnie To y Wai Ka-fai). La obra de Jimmy Liao cuenta en Hong Kong con una base de lectores de distintas generaciones, y esta exposición responde a ese vínculo transmarítimo.
+
+**Lectura común → lectura más precisa**: Jimmy Liao suele ser ubicado como “autor de libros álbum cálidos y sanadores”. Pero una lectura más precisa es esta: su obra **trabaja temas nada cálidos, como la soledad, la espera y el desencuentro**; solo que los envuelve, mediante el lenguaje visual, en una forma que puede ser soportada. La etiqueta “sanador” oculta el peso real del núcleo de su obra. Él no evita el dolor en sus libros álbum; hace que el dolor pueda ser leído dentro de ellos.
+
+> 🎙️ **Nota curatorial**: El diagnóstico de leucemia de 1995 fue el verdadero punto de partida de la carrera de Jimmy Liao: no una continuación de sus 12 años en la agencia de publicidad, sino un reajuste completo de dirección. Sin aquella enfermedad, quizá habría seguido siendo aquella persona que hacía diseño gráfico en el mundo publicitario, con el libro álbum como afición secundaria.
+>
+> Que en 1998 publicara dos libros álbum el mismo año y que ambos obtuvieran los tres grandes premios de reseña literaria fue algo extremadamente raro en la historia editorial de Taiwán: no fue la trayectoria típica de “un debutante que el mercado va conociendo poco a poco”, sino una entrada explosiva en la que “el mercado lo reconoció en un segundo”.
+>
+> El éxito de la Plaza Jimmy de Yilan convirtió “**autor único × espacio público × memoria urbana**” en un modelo cultural replicable. Ese modelo fue probado repetidamente después en la promoción cultural de otros condados y ciudades de Taiwán, pero la Plaza Jimmy de Yilan sigue siendo el caso más exitoso y con mayor energía duradera dentro de este tipo de iniciativas.
+
+Los lectores de los libros álbum de Jimmy Liao abarcan Taiwán, Hong Kong, China continental, Japón, Corea y los círculos sinófonos del Sudeste Asiático: es uno de los autores de libros álbum en lengua china con **mayor base internacional de lectores**. Sus obras han sido traducidas al inglés, francés, alemán, japonés, coreano y muchas otras lenguas, dando a la identidad de “autor de libros álbum nacido en Yilan” una posición reconocible en el campo global de las artes visuales.
+
+Desde el diagnóstico de leucemia de 1995, la publicación simultánea de sus dos primeras obras en 1998, Turn Left, Turn Right en 2001, la Plaza Jimmy de Yilan en 2013 y la exposición especial del 25.º aniversario en Harbour City, Hong Kong, en 2026, la trayectoria creativa de Jimmy Liao es una **línea que empieza en una crisis vital personal y se expande hacia la ciudad y lo internacional**. No es un autor de libros álbum que exista solo dentro de las páginas; sus obras ya han echado a andar y han entrado en plazas urbanas, salas de cine y espacios expositivos transnacionales. Ese alcance expandido es el resultado más concreto de sus 25 años de energía creativa.
+
+**Lecturas complementarias**: [Jimmy Liao — Wikipedia](https://zh.wikipedia.org/wiki/幾米) ｜ [Sitio oficial de Jimmy Liao](https://www.jimmyspa.com/tw) ｜ [Locus Publishing: obras de Jimmy Liao](https://www.locuspublishing.com/book/detail/11025)
+
+## Referencias
+
+[^1]: [Wikipedia: Jimmy Liao](https://zh.wikipedia.org/wiki/幾米) — Confirma su nombre real, Liao Fu-bin; su nacimiento en Yilan el 15 de noviembre de 1958; el Departamento de Bellas Artes de la Universidad de Cultura China; sus doce años en una agencia de publicidad; y el diagnóstico de leucemia en 1995.
+
+[^2]: [Wikipedia: A Fish with a Smile (libro álbum)](<https://zh.wikipedia.org/wiki/微笑的魚_(繪本)>) — Confirma que en 1998 publicó su primer libro álbum, Secrets in the Woods; que el mismo año publicó A Fish with a Smile; y que ambas obras recibieron el premio China Times Open Book al mejor libro infantil, el premio anual Good Books Everyone Reads de Min Sheng Bao al mejor libro infantil y el premio United Daily News Readers al mejor libro infantil.
+
+[^3]: [Wikipedia: Turn Left, Turn Right (película)](<https://zh.wikipedia.org/wiki/向左走·向右走_(電影)>) — Confirma que la película de 2003 fue codirigida por Johnnie To y Wai Ka-fai, y protagonizada por Takeshi Kaneshiro y Gigi Leung.
+
+[^4]: [Wikipedia: Plaza Jimmy](https://zh.wikipedia.org/zh-tw/幾米廣場) — Confirma que en la primavera de 2013 Fieldoffice Architects invitó a Jimmy Liao a cocrear el proyecto; que se inauguró oficialmente a fines de junio de 2013; que está ubicada unos 200 metros al sur de la estación de tren de Yilan; y que toma como textos de base tres libros álbum: The Starry Starry Night, The Sound of Colors y Turn Left, Turn Right.
+
+[^5]: [Ta Kung Wen Wei: exposición especial del 25.º aniversario de la creación de Jimmy Liao, The Glimmer of an Accidental Encounter](https://www.tkww.hk/a/202604/16/AP69e02ad3e4b04773b06b8e0b.html) — Confirma que la exposición especial del 25.º aniversario, The Glimmer of an Accidental Encounter, se celebró del 28 de marzo al 19 de abril de 2026 en la galería de arte de Harbour City, Hong Kong (tienda 207, segundo nivel, Ocean Centre, Harbour City, Tsim Sha Tsui); así como la planificación de las tres grandes zonas expositivas y la coorganización con Little Room May.
+
+[^6]: [Sitio oficial de Jimmy Liao: arte público](https://www.jimmyspa.com/tw/PublicArt) — Incluye una lista completa de la Plaza Jimmy y otras instalaciones de arte público.

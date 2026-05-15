@@ -10,7 +10,7 @@ lastVerified: 2026-04-15
 lastHumanReview: false
 category: People
 translatedFrom: People/肌肉山山.md
-sourceCommitSha: '4b6d28c5'
+sourceCommitSha: '859d7316'
 sourceContentHash: 'sha256:a9c781639a414788'
 sourceBodyHash: 'sha256:d1cce1c9cb32c2ba'
 translatedAt: 2026-05-01T22:19:10+08:00

@@ -1,81 +1,105 @@
 ---
-title: 'Chu Ching-wu'
-description: 'Físico especializado en superconductividad, líder del avance en superconductividad a temperatura de nitrógeno líquido en 1987'
+title: 'Chu Ching-wu: co-descubridor de superconductividad a alta temperatura con Tc=93K, superando el umbral del nitrógeno líquido en 1987'
+description: 'Nacido en Hunan en 1941, físico taiwanés-estadounidense. En enero de 1987 descubrió jun Wu Maw-kun el óxido de itrio-bario-cobre (YBCO) con Tc=93K, superando por primera vez el umbral de temperatura del nitrógeno líquido e inaugurando la era de la superconductividad a alta temperatura. Fue rector de la Universidad de Ciencia y Tecnología de Hong Kong entre 2001 y 2009. En marzo de 2026 publicó en PNAS un nuevo hito con Tc=151K, manteniéndose activo en investigación a los 85 años.'
 date: 2026-03-19
+category: 'People'
 tags:
   [
+    'Ciencia y Academia',
     'Físico',
-    'Superconductividad',
-    'Candidato al Premio Nobel',
-    'Academia Sinica',
+    'Superconductor',
+    'Universidad de Ciencia y Tecnología de Hong Kong',
     'Universidad de Houston',
   ]
 subcategory: '科學與學術'
-lastVerified: 2026-03-19
+author: 'Taiwan.md'
+featured: false
+lastVerified: 2026-05-07
 lastHumanReview: false
-featured: true
-translatedFrom: People/朱經武.md
-sourceCommitSha: 4af626f4
-sourceContentHash: sha256:9903e2c37b2cac97
-sourceBodyHash: 'sha256:f63f17fd12a83b6a'
-translatedAt: 2026-05-01T22:19:10+08:00
-category: People
+readingTime: 7
+# design_rationale:
+#   why_this_hook: "從1987年1月那個溫度數字切入——93K不只是一個物理數字，是超導體史上跨越液氮門檻的那一天。"
+#   whats_excluded: "BCS理論細節；歷年學術論文清單；超導應用工程規格"
+#   where_it_hedges: "諾貝爾候選資格為外界推測而非官方確認；2026 Tc=151K 以中時報導為準"
+translatedFrom: 'People/朱經武.md'
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:34bc5d357a3cdf52'
+sourceBodyHash: 'sha256:2ddbffb7dbb01585'
+translatedAt: '2026-05-16T05:07:56+08:00'
 ---
 
-# Chu Ching-wu: Pionero en la investigación de superconductores
+# Chu Ching-wu: co-descubridor de superconductividad a alta temperatura con Tc=93K, superando el umbral del nitrógeno líquido en 1987
 
-Chu Ching-wu, nacido en 1941 en Hunan, es un físico taiwanés-estadounidense y una de las máximas autoridades internacionales en el campo de la investigación de superconductores. En 1987 logró superar el umbral crítico de la superconductividad a temperatura de nitrógeno líquido, un logro considerado un hito en la historia de la física que lo convirtió en candidato permanente al Premio Nobel de Física.
+> **Resumen en 30 segundos:** Chu Ching-wu nació en Hunan en 1941, se graduó en la carrera de Física de la Universidad Nacional de Cheng Kung (NCKU) y viajó a Estados Unidos, donde obtuvo el doctorado en Física por la Universidad de California en San Diego.[^1] En enero de 1987, su equipo en la Universidad de Houston y el equipo de Wu Maw-kun (Universidad de Alabama) descubrieron de forma independiente que el óxido de itrio-bario-cobre (YBCO) alcanzaba una temperatura crítica de 93K, superando por primera vez el punto de ebullición del nitrógeno líquido (77K) e inaugurando la era de la superconductividad a alta temperatura.[^2] Fue rector de la Universidad de Ciencia y Tecnología de Hong Kong desde julio de 2001 hasta 2009.[^3] En marzo de 2026 publicó en PNAS un nuevo hito con Tc=151K,[^4] manteniéndose activo en investigación a los 85 años.
 
-## Formación académica y trayectoria científica
+## 1941: de Hunan a Taiwán
 
-Chu Ching-wu se trasladó a Taiwán con su familia durante su infancia. Tras licenciarse en Física en la Universidad Nacional de Cheng Kung, cursó una maestría en la Universidad de Fordham, en Estados Unidos, y posteriormente obtuvo el doctorado en Física en la Universidad de California en San Diego. Durante sus estudios en Estados Unidos, se especializó en física del estado sólido y ciencia de materiales, desarrollando un profundo interés en el fenómeno de la superconductividad.
+Chu Ching-wu nació en Hunan en 1941. En su infancia se trasladó con su familia a Taiwán, donde estudió Física en la Universidad Nacional de Cheng Kung. Tras graduarse, viajó a Estados Unidos: primero obtuvo una maestría en la Universidad de Fordham y luego ingresó en la Universidad de California en San Diego, donde se doctoró en Física.[^1]
 
-Tras doctorarse, Chu Ching-wu ejerció como profesor en la Universidad Estatal de Cleveland y en la Universidad de Houston, entre otras instituciones. En 1979 se incorporó formalmente como catedrático de Física en la Universidad de Houston, donde fundó su propio grupo de investigación en superconductividad. Fue allí donde inició el trabajo que cambiaría la historia de la ciencia.
+En 1979 se convirtió oficialmente en profesor de Física en la Universidad de Houston, donde formó un grupo de investigación en superconductividad que ha mantenido actividad durante casi medio siglo.
 
-## El avance histórico de 1987
+La Universidad de Houston no era entonces la institución de investigación física más prestigiosa, pero esa elección dio a Chu Ching-wu mayor margen para definir su propia dirección de investigación: en lugar de trabajar dentro del marco de una escuela de pensamiento ya establecida en una universidad de élite, operó en un entorno relativamente libre, impulsando la investigación en superconductividad hacia temperaturas que nadie había anticipado.
 
-En enero de 1987, Chu Ching-wu y su equipo de investigación descubrieron el fenómeno de la superconductividad por encima de la temperatura del nitrógeno líquido (77 K) en el sistema de óxido de itrio-bario-cobre. Este hallazgo rompió con la limitación largamente aceptada de que los superconductores solo podían funcionar a temperaturas extremadamente bajas, logrando por primera vez el objetivo de mantener el estado superconductor utilizando nitrógeno líquido, un refrigerante relativamente económico.
+## Enero de 1987: YBCO con Tc=93K, el descubrimiento simultáneo de Wu Maw-kun
 
-La importancia de este avance radica en la reducción drástica de los costes de aplicación de la tecnología superconductora. Hasta entonces, los superconductores requerían helio líquido, un refrigerante sumamente costoso, lo que limitaba gravemente su viabilidad práctica. El descubrimiento de Chu Ching-wu inauguró la era de la "superconductividad a alta temperatura" y sentó las bases para la aplicación generalizada de esta tecnología.
+En enero de 1987, el equipo de Chu Ching-wu en la Universidad de Houston descubrió que el óxido de itrio-bario-cobre (YBCO) alcanzaba una temperatura crítica de 93K, superando por primera vez el punto de ebullición del nitrógeno líquido (77K). Casi simultáneamente, el equipo liderado por Wu Maw-kun en la Universidad de Alabama logró el mismo avance: dos equipos paralelos cruzaron ese umbral al mismo tiempo.[^2]
 
-## Significado científico de los superconductores de alta temperatura
+El significado de ese número radica en lo siguiente: 77K es la temperatura del nitrógeno líquido. El nitrógeno líquido es decenas de veces más barato que el helio líquido; una Tc superior a 77K significa que los materiales superconductores de alta temperatura pueden enfriarse con nitrógeno líquido, reduciendo drásticamente el costo práctico. Este descubrimiento desató una "fiebre de la superconductividad" en la comunidad física, con laboratorios de todo el mundo compitiendo por replicar y ampliar los resultados.
 
-Los superconductores de alta temperatura descubiertos por Chu Ching-wu no solo poseen un gran valor práctico, sino que también han tenido un profundo impacto en la física teórica. La teoría BCS tradicional no logra explicar por completo el mecanismo de la superconductividad a alta temperatura, lo que ha impulsado a la comunidad física a replantearse la naturaleza misma del fenómeno superconductor. Este descubrimiento desató una fiebre global por la investigación en superconductividad, conocida como la "fiebre superconductora".
+Los resultados se publicaron en _Physical Review Letters_ y han acumulado decenas de miles de citas.[^2]
 
-Sus resultados de investigación se publicaron rápidamente en revistas de primer nivel como _Physical Review Letters_ y atrajeron de inmediato una enorme atención por parte de la comunidad científica internacional. Laboratorios de todo el mundo comenzaron a competir para replicar y ampliar sus experimentos, impulsando un rápido desarrollo de la investigación superconductora.
+Chu Ching-wu y Wu Maw-kun alcanzaron este hito de forma casi simultánea. Que dos equipos independientes llegaran a la misma conclusión en un período cercano constituye un caso clásico de "descubrimiento paralelo" en la historia de la ciencia: demuestra que la solución a ese problema ya había "madurado" en ese momento, y también ilustra la lógica de aceleración que impone la competencia en los avances científicos.
 
-## Prestigio académico internacional y distinciones
+El avance superconductor de 1987 generó una ola de entusiasmo: _The New York Times_ lo publicó en portada, y en la reunión anual de la Sociedad Estadounidense de Física se produjo un episodio que los medios denominaron el "Woodstock de la Física", con cientos de físicos esperando hasta la madrugada para conocer los últimos datos experimentales. Esa reacción social reveló algo: ciertos avances científicos pueden traspasar la esfera académica y penetrar directamente en el imaginario público; la superconductividad a alta temperatura fue uno de esos momentos.
 
-Las contribuciones de Chu Ching-wu han sido ampliamente reconocidas por la comunidad académica internacional. Fue elegido miembro de la Academia Nacional de Ciencias de Estados Unidos y de la Academia Estadounidense de Artes y Ciencias, y ha recibido numerosas distinciones, entre ellas la Medalla Nacional de Ciencias de Estados Unidos y la membresía en la Academia Sinica de la República de China. Asimismo, ha sido candidato permanente al Premio Nobel de Física; aunque hasta la fecha no ha obtenido el galardón, su contribución ya forma parte de la historia de la física.
+## Rector de la Universidad de Ciencia y Tecnología de Hong Kong: julio de 2001 a 2009
 
-En cuanto a publicaciones académicas, Chu Ching-wu ha publicado más de 700 artículos científicos, con decenas de miles de citas. Muchos de sus estudiantes se han convertido en figuras destacadas de la investigación superconductora internacional, formando una amplia red académica.
+El 1 de julio de 2001, Chu Ching-wu asumió el cargo de tercer rector de la Universidad de Ciencia y Tecnología de Hong Kong (HKUST), desempeñándose hasta 2009.[^3] Durante su mandato impulsó el desarrollo en el área de ciencias físicas y elevó el perfil internacional de la universidad. Tras concluir su rectorado, regresó a la Universidad de Houston para continuar su labor investigadora.
 
-## Puente para el intercambio académico entre ambos lados del estrecho
+El cargo de rector de HKUST transformó a Chu Ching-wu de investigador en constructor institucional. Durante su gestión continuó fortaleciendo la vocación de investigación de la universidad, con avances en física, ingeniería y negocios. Esa transición —de medir temperaturas críticas en el laboratorio a planificar la estrategia universitaria desde una oficina administrativa— fue la transformación más inusual de su carrera, y evidenció que sus capacidades iban más allá del diseño experimental.
 
-Chu Ching-wu ha dedicado grandes esfuerzos a fomentar la cooperación académica internacional, en particular el intercambio científico entre Taiwán y China continental. Ha sido invitado en numerosas ocasiones a realizar visitas académicas a Taiwán y China continental, donde ha contribuido a la creación de centros de investigación en superconductividad y a la formación de talento local. En 1994 fue elegido miembro de la Academia Sinica, estrechando aún más sus vínculos con la comunidad académica taiwanesa.
+## Marzo de 2026: Tc=151K, nuevo hito en PNAS
 
-En 2001, Chu Ching-wu fue nombrado rector de la Universidad de Ciencia y Tecnología de Hong Kong, donde promovió activamente el desarrollo de la institución en el ámbito de las ciencias físicas y fomentó la cooperación entre Hong Kong y la comunidad académica internacional. Su liderazgo contribuyó significativamente a elevar el prestigio internacional de dicha universidad.
+En marzo de 2026, Chu Ching-wu publicó un artículo en las _Actas de la Academia Nacional de Ciencias de Estados Unidos_ (PNAS) reportando una temperatura crítica superconductora de Tc=151K en un nuevo material.[^4] Los 151K aún requieren enfriamiento (la temperatura del hielo seco es 195K), pero este hallazgo amplía aún más el rango de temperaturas de aplicación de los materiales superconductores.
 
-## Perspectivas de aplicación de la tecnología superconductora
+El avance de Tc desde 93K (1987) hasta 151K (2026) a lo largo de 39 años demuestra que la investigación en superconductividad a alta temperatura aún no ha llegado a su fin. Cada nuevo récord de Tc reabre la pregunta: "¿es posible la superconductividad a temperatura ambiente?" Un superconductor a temperatura ambiente, si se lograra, transformaría radicalmente los costos de infraestructura en transmisión de energía eléctrica, transporte por levitación magnética, computación cuántica y otros campos.
 
-La investigación de Chu Ching-wu no solo posee valor científico fundamental, sino también un importante potencial de aplicación. Los superconductores de alta temperatura pueden emplearse en trenes de levitación magnética, transmisión de energía eléctrica, resonancia magnética y otros campos, con el potencial de impulsar una revolución tecnológica. Aunque estas aplicaciones aún enfrentan desafíos de coste y complejidad técnica, las perspectivas de futuro son sumamente prometedoras.
+Cuando se publicó este resultado, Chu Ching-wu tenía 85 años y seguía dirigiendo su laboratorio en la Universidad de Houston.
 
-Chu Ching-wu sigue de cerca las aplicaciones comerciales de los superconductores y colabora con diversas empresas en el desarrollo de tecnologías relacionadas. Está convencido de que la tecnología superconductora se convertirá eventualmente en uno de los pilares tecnológicos fundamentales del siglo XXI, trayendo cambios profundos a la sociedad humana.
+## Identidad académica y honores
 
-## Ejemplo de espíritu científico
+Chu Ching-wu es miembro de la Academia Nacional de Ciencias de Estados Unidos y de la Academia Estadounidense de Artes y Ciencias, y fue elegido académico de la Academia Sinica en 1994.[^1] Ha publicado más de 700 artículos académicos y ha sido considerado durante mucho tiempo como candidato al Premio Nobel de Física.
 
-El éxito de Chu Ching-wu no reside únicamente en sus descubrimientos científicos concretos, sino también en el espíritu científico que encarna. Subraya la importancia de la investigación básica, convencido de que solo una comprensión profunda de la naturaleza de los fenómenos naturales puede conducir a avances tecnológicos genuinos. Su metodología de investigación es rigurosa y meticulosa, y sus exigencias respecto a los datos experimentales son sumamente estrictas.
+Más de 700 artículos que abarcan desde el hito superconductor de 1987 hasta el resultado más reciente en PNAS de 2026 representan una cantidad y una temporalidad poco comunes entre los físicos experimentales. No se trata solo de productividad, sino de la capacidad de un laboratorio para mantenerse en la vanguardia de investigación sobre una misma pregunta —¿cómo elevar la temperatura crítica?— durante casi medio siglo.
 
-Como representante destacado de los científicos de origen chino, los logros de Chu Ching-wu han inspirado a innumerables jóvenes investigadores. Ha demostrado que un científico procedente de Taiwán puede ocupar un lugar relevante en las más altas esferas internacionales, erigiéndose como un modelo para la comunidad científica de habla china.
+Chu Ching-wu ha sido nominado repetidamente por terceros como candidato al Premio Nobel de Física, pero dicha candidatura es una especulación externa, no una confirmación oficial. El Premio Nobel de Física de 1987 por la superconductividad a alta temperatura fue otorgado ese mismo año a los físicos suizos Bednorz y Müller (pioneros en el descubrimiento de superconductores de óxidos de cobre); el avance de Chu Ching-wu con YBCO fue considerado una contribución clave inmediatamente posterior, pero no recibió el mismo reconocimiento.
 
-## Lecturas complementarias
+El año de recepción de la Medalla Nacional de Ciencias de Estados Unidos requiere confirmación adicional. Entre sus honores académicos confirmados se incluyen: académico de la Academia Sinica (1994), miembro de la Academia Nacional de Ciencias de Estados Unidos y miembro de la Academia Estadounidense de Artes y Ciencias.
 
-- [Wu Ta-you](/people/吳大猷) — Pionero de la física en Taiwán, perteneciente a la misma generación de científicos que Chu Ching-wu, que acumularon influencia en el sistema académico estadounidense de posguerra
-- [Yuan T. Lee](/people/李遠哲) — Premio Nobel de Química, otro representante que pasó de Taiwán a la élite científica internacional
-- [Kjell Lindgren](/people/林琪兒) — Astronauta de la NASA y doctor en medicina nacido en Taipéi, ejemplo de cómo un trasfondo bicultural taiwanés-estadounidense puede florecer en disciplinas diversas
+**Lectura convencional → lectura más precisa:** A Chu Ching-wu se le suele llamar el "padre de la superconductividad a alta temperatura", pero ese título requiere una delimitación precisa: fue co-descubridor del YBCO con Tc=93K (simultáneamente con Wu Maw-kun), mientras que Bednorz y Müller fueron los pioneros anteriores en superconductividad de óxidos de cobre. En este contexto, "padre" se refiere a "quien superó el umbral práctico de la temperatura del nitrógeno líquido", no a quien inauguró la línea de investigación en superconductividad a alta temperatura.
+
+> 🎙️ **Nota del curador:** El significado del número 93K de enero de 1987 en la historia de la física no reside en lo alto de su valor absoluto, sino en que cruzó un umbral práctico concreto. Tc > 77K = se puede usar nitrógeno líquido = el costo pasa de "solo laboratorios de élite" a "viable industrialmente". Ese salto transformó toda la imaginación sobre las aplicaciones posteriores de la superconductividad.
+>
+> El rectorado de Chu Ching-wu en HKUST (2001-2009) añadió, a su identidad de físico taiwanés, el rol de constructor de educación superior en Asia. La coexistencia de ambas identidades en una misma persona representa una trayectoria típica de la circulación global de talento científico y tecnológico taiwanés entre las décadas de 1970 y 2000: formación básica en Taiwán, investigación en Estados Unidos, construcción institucional en otras partes de Asia.
+>
+> Que en 2026, a los 85 años, siguiera publicando artículos en PNAS es en sí mismo un enunciado sobre la vitalidad científica: la investigación en superconductividad no ha terminado, y él tampoco.
+>
+> De la carrera de Física en NCKU a la Universidad de California en San Diego, de la Universidad de Houston a HKUST: la trayectoria de Chu Ching-wu es un modelo estándar de la circulación global del talento científico taiwanés, y al mismo tiempo, por aquel 93K de 1987, se convierte en un caso atípico. Su historia demuestra que un camino estándar puede conducir a un resultado no estándar, siempre que se invierta suficiente tiempo en la pregunta correcta.
+
+De Hunan a Taiwán, de la Universidad Nacional de Cheng Kung a la Universidad de California en San Diego, de la Universidad de Houston a la Universidad de Ciencia y Tecnología de Hong Kong y de ahí a PNAS, la carrera de Chu Ching-wu abarca casi medio siglo de investigación en superconductividad: desde Tc=93K hasta Tc=151K, él ha permanecido siempre junto a esa curva ascendente de temperatura.
+
+Entre el hito de 1987 y el artículo de PNAS de 2026 median 39 años. En ese período, la investigación en superconductividad ha atravesado múltiples ciclos de auge y declive, y muchos de los físicos que entraron en ese campo en su momento se han orientado hacia otros temas; Chu Ching-wu no lo hizo. Esa dedicación prolongada a un solo problema es una de las cualidades más distintivas que lo diferencian entre los físicos.
+
+**Lectura adicional:** [Chu Ching-wu — Wikipedia](https://zh.wikipedia.org/wiki/朱經武) ｜ [ETHW: Hito de la superconductividad a alta temperatura](https://ethw.org/Milestones:High-Temperature_Superconductivity,_1987)
 
 ## Referencias
 
-- [Chu Ching-wu - Academia Sinica](https://db1x.sinica.edu.tw/textdb/academicians/02.php?func=22&_op=?ID:M075) — Datos básicos del académico
-- [Investigación en superconductividad - Departamento de Física de la Universidad de Houston](https://www.uh.edu/nsm/physics/) — Presentación del centro de investigación
-- [Descubrimiento de la superconductividad a alta temperatura - Physical Review Letters](https://journals.aps.org/prl/) — Revista donde se publicaron los artículos originales
+[^1]: [Wikipedia: Chu Ching-wu](https://zh.wikipedia.org/wiki/朱經武) — Confirma nacimiento en 1941, carrera de Física en NCKU, doctorado en UC San Diego, profesor en la Universidad de Houston, académico de la Academia Sinica (1994).
+
+[^2]: [ETHW: Hito de la superconductividad a alta temperatura (1987)](https://ethw.org/Milestones:High-Temperature_Superconductivity,_1987) — Confirma el hito de YBCO con Tc=93K en enero de 1987, descubrimiento conjunto de Chu Ching-wu (Universidad de Houston) y Wu Maw-kun (Universidad de Alabama), publicado en _Physical Review Letters_.
+
+[^3]: [Universidad de Ciencia y Tecnología de Hong Kong: Rectores anteriores](https://www.ust.hk/) — Confirma que Chu Ching-wu asumió como rector de HKUST el 1 de julio de 2001, con mandato hasta 2009.
+
+[^4]: [Chinatimes: Hito de Tc=151K de Chu Ching-wu en PNAS 2026](https://www.chinatimes.com/realtimenews/20260330004531-260408) — Incluye cobertura del artículo de PNAS de marzo de 2026 y del nuevo récord de Tc=151K.
+
+[^5]: [Academia Sinica: Datos del académico Chu Ching-wu](https://db1x.sinica.edu.tw/textdb/academicians/02.php?func=22&_op=?ID:M075) — Confirmación de la identidad como académico y registro de contribuciones científicas.
