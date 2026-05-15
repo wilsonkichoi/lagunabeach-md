@@ -59,6 +59,42 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 唐鳳 EVOLVE — 2026-05-16 2026-05-16-011113-manual（拒絕當天才的天才 / People / 深度進化）
+
+- **Article**: [knowledge/People/唐鳳.md](../../knowledge/People/唐鳳.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Evolution 模式（舊文 19465 bytes / 0 footnote / 0 image / chronological list-dump → 新版 4598 字 + 44 footnote + 3 image + 核心矛盾組織小標題）
+- **核心矛盾（28 字）**：「她拒絕當天才，世界堅持把她當天才」— Stage 1.4 從 5 候選收斂，10 verbatim quote + 5 fact 支持端 + 2 nuance 反方
+- **Hook（Title 三明治）**：「唐鳳：她每一次有名的決定，都是在拒絕『天才』這個標籤」
+- **品質**：4598 CJK chars (102% of 4500 門檻) / 44 footnote / 7 narrative H2（非編年體 / 全場景或衝突 anchor）/ 對位句型 3（全在 verbatim quote）/ 破折號 15（well within 45 limit for 4598 chars）/ 塑膠句 1（Marie Claire Leonard Cohen 引語）
+- **Research**: [reports/research/2026-05/唐鳳.md](../../reports/research/2026-05/唐鳳.md) — Stage 0 §觀點成型 完整六核心問題 + 5 核心矛盾候選收斂 / Stage 1 取材 56 searches (24 中 + 16 英 + 16 WebFetch) / 45 facts with URL + year / 10 verbatim quotes verified / 6 場景 / 媒體授權矩陣三表全填
+- **Hard gates 全過**：rewrite-stage-4 profile `hard=0 warn=0 passed=True` ✅ / 14 plugin 全 pass（frontmatter / format-structure / wikilink / link / cjk-punct / chronicle-lead / word-count / image-health / footnote-format / footnote-url / footnote-density / cross-reference / prose-health score 3 ≤ 3 / terminology / spore-writing）
+- **核心場景 source 鎖定**：
+  - 2020/2/2 凌晨口罩地圖 anchor scene + 江明宗 verbatim「唐鳳有決定權，還能自己改 code」（江明宗 Medium + TechNews 幕後團隊 + 衛福部官網 三源）
+  - 2005 跨性別出櫃 verbatim「不管現在、過去或未來」+ 父親唐光華 verbatim 回應（中文維基 + 今周刊 父親專訪 兩源）
+  - 2025/12/2 斯德哥爾摩 Right Livelihood Award 結尾 verbatim「Cyberspace is a conflict region」+「The superintelligence we are looking for is already here. It's us」(Right Livelihood 官方 + Focus Taiwan 中央社 + cyberambassador.tw 三源)
+  - 2016 入閣三條件 + 林全 verbatim「行政院目前並沒有遠距上班的規範...這是可行的」（自由時報 + 數位時代 兩源）
+  - 太陽花議場 verbatim「議場內部 5 個不同角度攝影機...展示演出和儀式」（公視 PNN + 中文維基 兩源）
+  - 報導者 PO verbatim 困惑「做 PO 已 2 個月了...搞不清楚到底我們可以介入多少」（孤源但 verbatim 完整）
+- **媒體 spine（3 張 Wikimedia Commons CC 授權）**：
+  - hero: Camille McOuat 2016 Paris portrait CC BY 2.0
+  - scene-mid: Jan Michalko 2019 Berlin re:publica 數位社會年會 CC BY-SA 2.0
+  - signature: 唐鳳本人 2021 簽名 SVG CC0
+- **lifeTree 維護**：保留原 10 choice nodes，新增 1 node (stockholm 2025/12/2 Right Livelihood)，原 sunflower 2014 node 從 covid 內合併拆出獨立節點 — 共 12 nodes
+- **避坑（Stage 3 自修正）**：
+  - 初稿在 Plurality ⿻ 概念段虛構「2017 vTaiwan 線上酒類議題 5000 多位公民 + 七條附加條件」（七條條件實為 Uber 案數字，非線上酒類）→ Stage 3 verify 抓到後改用實際 Uber 案例
+  - 衛生紙之亂段加入「唐鳳辦公室同時把口罩跟衛生紙原料的供應鏈差異圖表化」具體場景但 research 無 direct source → Stage 3.5 軟化為「政院在幾小時內推出一張配圖」+「她在 TED 跟多次國際訪談把這當作 humor over rumor 的展示案例」泛指
+- **舊版 lifeTree 升級**：原版 10 nodes 中 sunflower 2014 沒獨立 = 太陽花這個關鍵塑形事件被 absorbed 進 g0v 節點；新版拆出獨立 sunflower node + 新增 stockholm 2025/12/2 結尾 node，完整 12 nodes 對應 7 narrative H2
+- **與舊版差異 summary**：
+  - title: 「唐鳳」(stub) → 「唐鳳：她每一次有名的決定，都是在拒絕『天才』這個標籤」(冒號三明治)
+  - footnote: 0 → 44
+  - image: 0 → 3 (hero + scene-mid + signature)
+  - 字數: ~3300 → 4598
+  - 小標題: 11 編年體 list-dump → 7 場景/衝突 anchor
+  - verbatim quote: 1 → 15
+  - 核心矛盾 anchor 整篇貫穿: 0 → 6 處引用「天才」拒絕主線
+  - 結尾: FLAT-END 通用啟發句 → 2025/12/2 斯德哥爾摩具體場景收束
+  - lastVerified: 2026-03-21 → 2026-05-16 (12 個月 staleness 補完，加入 2024 卸任 + Plurality + 2025/12 RLA)
+
 ### 刈包 NEW — 2026-05-16 twmd-rewrite-daily routine（從福州虎咬豬到 BAO London 米其林符號 / Food / 系列第 1 篇）
 
 - **Article**: [knowledge/Food/刈包.md](../../knowledge/Food/刈包.md)
