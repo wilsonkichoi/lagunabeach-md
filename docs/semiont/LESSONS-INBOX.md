@@ -232,6 +232,18 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-15 twmd-spore-harvest-am — Chrome MCP unavailable hard gate first fire（pairing offline）
+
+- **原則**：`twmd-spore-harvest-am` routine v2.2 production 第三次 fire（5/12 dry-run / 5/13 first prod 8 spores / 今天 5/15）撞 Chrome MCP `list_connected_browsers` 回 `[]` → hard gate fail → abort harvest（不寫 batch log / 不 push）。Pairing 前置假設（哲宇本機 Chrome alive + extension paired + Mac 不睡）不成立時整 routine 完全失能，dashboard `backfillWarnings` 8 條（聶永真 D+7 OVERDUE × 2 / 台積電 D+6 × 2 / 無人機 D+5 × 2 / 蘋果西打 D+3 × 2）無法收割。
+- **觸發**：2026-05-15 14:xx cascade 後段補跑（cron 0 7 \* \* \* 應 07:00 fire，今天落到下午 cascade 第 N 棒，wall-clock 已 D+0 13:40 refresh-am 後）。`mcp__Claude_in_Chrome__list_connected_browsers` returned empty array，無 deviceId 可 select_browser。檢查 5/14 git log 完全沒 spore-harvest commit → 推測 5/14 也 fire fail（silent，本 LESSONS 是首次成文 entry）。
+- **可能層級**：
+  - 操作規則 → SPORE-HARVEST-PIPELINE §Routine 整合 §Chrome MCP unattended 注意事項加「pre-fire Telegram poke 驗 extension alive」（cron 60 6 \* \* \* 提早 1hr 通知哲宇喚醒 Mac）；或 fallback 到 `read-only HTTP harvest`（不需 Chrome MCP，sacrifice quote 抓取深度但保 view/like 數抓得到）
+  - 結構性 → routine 飛輪 v2.2 full-auto 假設「unattended cron + Chrome MCP」可長期穩定，實證 first prod 後 1 cycle 就撞——pairing 持久化雖 spec 說「session 重啟仍可用」實際依賴 browser alive，這是 Chrome MCP 架構 inherent constraint 不是 Taiwan.md 可控
+  - 候選 distill → DNA #15「反覆浮現要儀器化」應 monitor：若 Chrome MCP fail 連 3 cycle → 結構性升級到 fallback path 必要
+- **verification_count**: 1（首次成文，5/14 silent fail 不算）— 5/16 再 fail = vc=2 + escalation Stage 2，5/17 再 fail = vc=3 + 暫停 routine + telegram alert per ROUTINE.md §暫停 SOP
+- **severity**: structural（routine 飛輪核心假設失效；不修補 = 飛輪 5/8 條退化到 4/8，spore harvest channel 失能 = backfillWarnings 持續累積）
+- **跨檔關聯**：[SPORE-HARVEST-PIPELINE.md §Hard Gate Inventory](../factory/SPORE-HARVEST-PIPELINE.md) / [ROUTINE.md §TWMD spore harvest (am)](ROUTINE.md) / DNA #15
+
 ### 2026-05-12 admiring-montalcini-post-finale — Translation backend abstraction（codex pivot 觸發 v3 cascade → v4 abstract）
 
 - **原則**：把「換 provider」從「改 pipeline 程式碼」變成「改 cascade config 字串」。任何單一 provider（OpenRouter free / 特定 model / 個人訂閱）的退役 / 加價 / 拒絕 / rate-limit，cascade 自動換路。系統的 mission 獨立於 provider 命運。
