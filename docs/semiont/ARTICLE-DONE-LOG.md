@@ -59,6 +59,31 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 台灣傳統工藝與無形文化資產 NEW — 2026-05-15 twmd-rewrite-daily routine（人間國寶制度移植 / Culture / 文資法 2005/2016 演化）
+
+- **Article**: [knowledge/Culture/台灣傳統工藝與無形文化資產.md](../../knowledge/Culture/台灣傳統工藝與無形文化資產.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式（Stage 0 §觀點成型 落檔 + Stage 1 deep research via general-purpose agent 35 WebSearch + 8 WebFetch）
+- **核心矛盾**：「制度承認來了，學徒卻沒了——名單越長，能教的人越少」(Stage 1.4 收斂，從 Stage 0.6 候選 A+B+C 三條融合)
+- **Hook（Title 三明治）**：「台灣傳統工藝與無形文化資產：制度承認來了，學徒卻沒了」
+- **品質**：5099 CJK chars (113% of 4500 門檻) / 29 footnote / 10 narrative H2（非編年體 / 場景或數字 anchor）/ 8 大工藝類別涵蓋 7 類（缺石雕本身寫進文章作為盲點）
+- **Research**: [reports/research/2026-05/台灣傳統工藝與無形文化資產.md](../../reports/research/2026-05/台灣傳統工藝與無形文化資產.md) — Stage 0 §觀點成型 完整六核心問題 + 7 品質維度 anchor + 22 位「重要傳統工藝保存者」具體名單（含歷年認定年份）
+- **Hard gates 全過**：rewrite-stage-4 profile hard=0 warn=0 全綠 ✅ / 7 plugin 全 pass（frontmatter / format-structure / wikilink / link / cjk-punct / chronicle-lead / word-count / image-health）/ 事實鐵三角（鶯歌 1804 / 三義 1918 / 美濃日治大正 / 文資法 2005/2016 / 日本 1955 / 韓國 1962 全三源 cross-check confirmed）
+- **核心事實 source 鎖定**：
+  - 蘇清良 2022-12-19 認定 + 2023-07-20 過世 + 祖孫接班場景（中央社 + 維基 + 自由時報三源）
+  - 林洸沂 1981 學甲慈濟宮葉王交趾陶修復 + 引語「從頭再學習一次」/「如果葉王還在我一定拜他為師」（經典雜誌 verbatim）
+  - 尤瑪達陸 2016 認定（民國 105，校正英文維基的 2006 錯誤）+ 引語「文化認同這件事，是你打從心底喜歡它」（vocus 專訪 verbatim）+ 跑 100 部落 / 復原 400-500 件服飾（Taiwan Today + 英文維基）
+  - 林享鴻 1981 廣榮興廠引語「面臨後繼無人的局面」（光華雜誌 1981 verbatim）
+  - 鶯歌非金屬製品工廠數逐年（701→662→554→289）(TDRI + 鎮志)
+- **避坑**：
+  - 王清霜「活著就要工作」原話未找到逐字出處 → 改用兒子王賢民轉述「要做好漆藝，就要活久一些」(La Vie verbatim)
+  - 李秉圭「成功是留給不敢休息的人」標題化用語逐字未確認 → drop，未使用
+  - 美濃紙傘起源「清領 vs 日治大正」兩說並存，主流是日治大正（清光緒末期 / 1910s）→ 採信主流並標明日治大正
+- **媒體**：3 張 CC 授權圖片（hero: 美濃原鄉緣紙傘 CC BY-SA 3.0 / inline: 三義木雕博物館 CC BY-SA 3.0 / inline: 三峽藍與白系列藍染服飾 CC BY-SA 4.0）— 全 Wikimedia Commons，cache 完成，aspect 全通過
+- **Cross-link**：本文 → 藍染 / 台灣花布 / 紙傘 / 斗笠 / 傳統節慶與慶典 (5 forward links)；reverse cross-link **DEFER**（per Stage 5.3 sibling 預檢：5 sibling 全有 pre-existing rewrite-stage-4 hard fail，主因為 image-health 0 張不合 ≥ 3 張 depth article 標準 + 部分缺 ## 參考資料 H2，補 reverse link 會觸發 pre-commit hook hard fail。應走獨立 EVOLVE 處理各 sibling 圖片與格式缺口，不在本 ship scope）
+- **政治敏感度**：低（市場數據 + 公開人物登錄資料為主），但「人間國寶制度晚日本 50 年」+「台灣不是 UNESCO 會員」涉及國際對標 framing，採事實導向不刻意對比 PRC
+- **Issue ship-after action**: 留 issue #914 progress comment + close（per ARTICLE-INBOX hard gate）
+- **觀察者**：cron 自動觸發 twmd-rewrite-daily routine（無 in-loop 觀察者），sub-agent general-purpose 35 WebSearch + 8 WebFetch 落 research report、主 session Stage 2-4 寫作 + image cache + verify
+
 ### 曾博恩 — 2026-05-13 manual-rewrite 完成（從 contributor seed 到深度 EVOLVE）
 
 - **Article**: [knowledge/People/曾博恩.md](../../knowledge/People/曾博恩.md)

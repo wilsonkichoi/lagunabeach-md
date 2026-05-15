@@ -199,31 +199,6 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Reference**: 體育署 https://www.sa.gov.tw/ / 國訓中心 https://www.nstc.org.tw/ / 中華奧會 https://www.tpenoc.net/ / 維基百科〈中華民國體育〉/ 各專項協會
 - **預估時間**：~150 min（NEW Society 深度研究，多 source 必跑奧運成績 cross-check）
 
-### 台灣傳統工藝與無形文化資產 NEW
-
-- **Type**: `NEW`
-- **Category**: Culture
-- **Priority**: `P0`
-- **Status**: `pending`
-- **Source**: [Issue #914](https://github.com/frank890417/taiwan-md/issues/914) by tboydar-agent (2026-05-08)
-- **🔔 Ship 後 hard gate**：commit 後**必須**跑 `gh issue comment 914 --repo frank890417/taiwan-md --body "..."` + `gh issue close 914`。
-- **Notes**:
-  - 既有 baseline audit：`Culture/台灣花布.md` / `Culture/斗笠.md` / `Culture/紙傘.md` / `Culture/藍染.md` 4 個個別工藝 + `Culture/國立故宮博物院.md`（典藏層）— **總覽級「傳統工藝與無形文資」是真缺口**
-  - 主題 anchors：(1) 工藝歷史脈絡（南島原住民工藝 → 漢人移民傳統 → 日治殖產興業 → 戰後手工業時代 → 解嚴後文創轉型）(2) 工藝類型總覽（陶瓷 / 木雕 / 竹編 / 漆藝 / 染織 / 金工 / 石雕 / 刺繡）(3) 文化資產保存法 + 無形文化資產登錄制度（2005 文資法、2016 修法後分類）(4) 國寶級工藝師 / 「人間國寶」（重要傳統工藝保存者）名單與作品 (5) 當代轉型（文創園區、設計師合作、國際曝光）(6) 工藝聚落地理分布（鶯歌陶瓷 / 三峽藍染 / 鹿港木雕 / 關廟竹編 / 苗栗陶 / 美濃紙傘 / 台南金工）
-  - **必驗事實**（高優先讀者級驗證）：
-    - 文化部登錄「人間國寶」名單與時間（每位保存者登錄年份不能猜）
-    - 文資法 2005 vs 2016 大修法的差別、修法後「無形文化資產」分類細節
-    - 鶯歌陶瓷起源（1804 吳鞍 vs 其他說法）
-    - 三峽藍染衰退年代（日治末期斷裂 → 1990s 復興）
-    - 美濃紙傘起源（清領 vs 日治）
-    - UNESCO 非物質文化遺產台灣案例（無 UNESCO 會員身份，但有對標的研究）
-  - cross-link：既有 4 篇個別工藝（雙向）+ 國立故宮博物院 + 台灣文化創意園區發展 + 客家文化（美濃紙傘 / 苗栗陶）+ 台灣老街文化
-  - Framing：文化基礎建設視角（接續 Taiwan.md「文化主權」frame），不是觀光導覽式列表
-- **Reference**: 文化部 https://www.moc.gov.tw/ / 國家文化資產網 https://nchdb.boch.gov.tw/ / 文化資產局 / 各地方文化局 / 維基百科〈中華民國文化資產〉
-- **預估時間**：~120 min（NEW Culture 深度研究，文化部資料庫 mining 為主）
-
----
-
 ### 葉廷皓 — 聲響藝術家 / 新媒體藝術 NEW
 
 - **Type**: `NEW`
