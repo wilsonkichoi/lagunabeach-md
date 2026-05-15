@@ -1,5 +1,74 @@
 [
   {
+    "title": "刈包：從福州虎咬豬到 BAO London 的米其林符號",
+    "slug": "刈包",
+    "category": "food",
+    "subcategory": "經典小吃",
+    "date": "2026-05-16",
+    "lastModified": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "lastHumanReview": false,
+    "featured": true,
+    "wordCount": 6713,
+    "tagCount": 6,
+    "tags": [
+      "小吃",
+      "夜市",
+      "尾牙",
+      "福州",
+      "BAO London",
+      "台灣美食"
+    ],
+    "translations": {
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
+    },
+    "revision": 1,
+    "commitHash": "e8215538",
+    "commitSubject": "🧬 [routine] twmd-rewrite: 刈包 — 2026-05-16",
+    "description": "1927 年新竹仕紳黃旺成的日記裡，「虎咬豬」是尾牙桌上慰勞職工的點心。一百年後，倫敦 Soho 的 Lexington Street 排隊隊伍在等同一個對折麵食，米其林指南把它寫進必比登推介。這顆白胖摺疊的小吃，吃進了台灣四百年的福州移民史、土地公尾牙的勞資儀式，跟一個從台北飛到倫敦的藝術家如何把它端進國際餐桌。",
+    "healthScore": 63,
+    "qualityScore": 0,
+    "formatIssues": 1,
+    "hasOverview": true,
+    "hasReading": false,
+    "fnCount": 28
+  },
+  {
+    "title": "唐鳳：她每一次有名的決定，都是在拒絕「天才」這個標籤",
+    "slug": "唐鳳",
+    "category": "people",
+    "subcategory": "教育與社會",
+    "date": "2026-05-16",
+    "lastModified": "2026-05-16",
+    "lastVerified": "2026-05-16",
+    "lastHumanReview": "true",
+    "featured": true,
+    "wordCount": 6682,
+    "tagCount": 0,
+    "tags": [],
+    "translations": {
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
+    },
+    "revision": 18,
+    "commitHash": "da3bf446",
+    "commitSubject": "🧬 [semiont] twmd-rewrite: 唐鳳 EVOLVE — 拒絕當天才的天才",
+    "description": "8 歲被同學踹昏、14 歲拒絕保送建中、24 歲跨性別出櫃但拒絕當代言人、35 歲入閣談的第一個條件是「沒辦公室」。2025 年 12 月 2 日她在斯德哥爾摩接受 Right Livelihood Award，台上說的不是「我」，是「我們」。",
+    "healthScore": 90,
+    "qualityScore": 0,
+    "formatIssues": 1,
+    "hasOverview": true,
+    "hasReading": false,
+    "fnCount": 44
+  },
+  {
     "title": "紀柏豪：從經濟學走進聲響的人，用演算法追問一件事——你到底聽進去了嗎",
     "slug": "紀柏豪",
     "category": "art",
@@ -44,11 +113,11 @@
     "tagCount": 0,
     "tags": [],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 1,
     "commitHash": "feea3c67",
@@ -75,11 +144,11 @@
     "tagCount": 0,
     "tags": [],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 2,
     "commitHash": "b162058d",
@@ -112,10 +181,10 @@
       "著作權"
     ],
     "translations": {
-      "en": false,
+      "en": true,
       "ja": false,
       "ko": false,
-      "es": false,
+      "es": true,
       "fr": false
     },
     "revision": 2,
@@ -206,10 +275,10 @@
     "tags": [],
     "translations": {
       "en": true,
-      "ja": false,
+      "ja": true,
       "ko": true,
       "es": true,
-      "fr": false
+      "fr": true
     },
     "revision": 2,
     "commitHash": "1696c534",
@@ -236,11 +305,11 @@
     "tagCount": 0,
     "tags": [],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 3,
     "commitHash": "86db85f3",
@@ -5338,7 +5407,7 @@
     "tags": [],
     "translations": {
       "en": true,
-      "ja": true,
+      "ja": false,
       "ko": true,
       "es": true,
       "fr": true
@@ -6936,37 +7005,6 @@
     "hasOverview": true,
     "hasReading": true,
     "fnCount": 16
-  },
-  {
-    "title": "唐鳳",
-    "slug": "唐鳳",
-    "category": "people",
-    "subcategory": "教育與社會",
-    "date": "2026-03-21",
-    "lastModified": "2026-04-27",
-    "lastVerified": "2026-03-21",
-    "lastHumanReview": "true",
-    "featured": true,
-    "wordCount": 2710,
-    "tagCount": 0,
-    "tags": [],
-    "translations": {
-      "en": true,
-      "ja": true,
-      "ko": true,
-      "es": true,
-      "fr": true
-    },
-    "revision": 17,
-    "commitHash": "32e53d5b",
-    "commitSubject": "🧬 [semiont] rewrite: 蕭上農 NEW（first harvest spawn 產出 + observer polish）+ boot profile BECOME 升級 + memory log prompt",
-    "description": "8歲停學自學程式設計，全球首位跨性別部長，用開源精神重新定義數位民主",
-    "healthScore": 83,
-    "qualityScore": 10,
-    "formatIssues": 0,
-    "hasOverview": true,
-    "hasReading": true,
-    "fnCount": 0
   },
   {
     "title": "李仙得：締約者與出賣者是同一個人",

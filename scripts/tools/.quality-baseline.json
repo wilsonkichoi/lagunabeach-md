@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-05-15T15:10:08Z",
-  "total": 701,
-  "flagged": 415,
+  "timestamp": "2026-05-15T22:19:06Z",
+  "total": 702,
+  "flagged": 414,
   "files": [
     {
       "file": "music/台灣KTV文化.md",
@@ -1003,11 +1003,6 @@
       "file": "people/草東沒有派對.md",
       "score": 4,
       "reasons": "空洞詞7個; 連續bullet4行; 塑膠句2個; 破折號7個"
-    },
-    {
-      "file": "people/唐鳳.md",
-      "score": 10,
-      "reasons": "年份2個; 空洞詞5個; 塑膠句1個; 破折號5個; 套路結尾; 後段清單堆砌31%; 稀薄段落×10"
     },
     {
       "file": "people/楊勇緯.md",
