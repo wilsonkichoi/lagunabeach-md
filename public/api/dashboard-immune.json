@@ -1,0 +1,77 @@
+{
+  "lastUpdated": "2026-05-16T22:13:35.096384",
+  "schemaVersion": "v2-2026-05-16",
+  "featureFlag": "IMMUNE_V2",
+  "immuneScore": 64,
+  "status": "需關注 — T1 review < 80% OR plugin pass < 90%",
+  "components": {
+    "review_coverage": 21.9,
+    "plugin_pass_rate": 70.0,
+    "plugin_health": 80,
+    "citation_density": 88.4,
+    "tool_freshness": 100,
+    "drift_velocity": 90.0
+  },
+  "componentWeights": {
+    "review_coverage": 0.3,
+    "plugin_pass_rate": 0.25,
+    "plugin_health": 0.15,
+    "citation_density": 0.15,
+    "tool_freshness": 0.1,
+    "drift_velocity": 0.05
+  },
+  "tierBreakdown": {
+    "T1": {
+      "total": 329,
+      "reviewed": 66,
+      "pct": 20.1,
+      "weight": 3.0
+    },
+    "T2": {
+      "total": 278,
+      "reviewed": 75,
+      "pct": 27.0,
+      "weight": 1.5
+    },
+    "T3": {
+      "total": 89,
+      "reviewed": 12,
+      "pct": 13.5,
+      "weight": 0.5
+    }
+  },
+  "pluginPassDetail": {
+    "total_files": 698,
+    "hard_pass_files": 698,
+    "hard_pass_pct": 100.0,
+    "warn_pass_files": 0,
+    "warn_pass_pct": 0.0,
+    "weight_formula": "hard×0.7 + warn×0.3"
+  },
+  "citationDetail": {
+    "grades": {
+      "A": 507,
+      "B": 11,
+      "C": 163,
+      "D": 4,
+      "F": 11
+    },
+    "files_with_grade": 696
+  },
+  "freshnessDetail": {
+    "editorial_days_old": 3,
+    "avg_plugin_days_old": 7.6,
+    "plugin_count": 18,
+    "source": "git log %ai (not fs mtime — worktree-safe)"
+  },
+  "driftDetail": {
+    "new_articles_7d": 16,
+    "rate_per_article": 1.0,
+    "note": "v1 heuristic — longitudinal tracking pending (B-line meta-health)"
+  },
+  "pluginHealthDetail": {
+    "note": "placeholder — full meta-health subsystem in Phase 7",
+    "plugin_count": 18
+  },
+  "designReport": "reports/immune-score-redesign-2026-05-16.md"
+}
