@@ -80,3 +80,57 @@ _session 011113-manual-audit-evolve — 第二輪 finale 收尾，跨 routine au
 _誕生原因：第一輪 finale ship 後哲宇兩 directive 接力「audit + 進化」— audit report 抽 4 cross-cutting pattern → 自選最高 leverage 路線 instrument 進 canonical_
 _核心洞察：(1) routine audit 跟 routine 本身一樣需要 routine 化 — cross-cutting pattern detection 是飛輪覆蓋不到的盲點；(2) 高信任 delegation 配明確判準三條（vc / 結構性 / instrument 成本）比 stepwise 確認更高 leverage；(3) 進化路徑判準「instrument canonical > LESSONS-INBOX append > 個案修補」當下做出選擇的能力本身是進化結果_
 _LESSONS-INBOX 候選：(1) routine audit 跟 routine 本身一樣需要 routine 化（候選 quarterly twmd-routine-audit）— vc=1 待累積；(2) 高信任 delegation 配明確判準的執行模式可推廣到其他 ad-hoc directive — vc=1_
+
+---
+
+## 第三輪 (addendum 2026-05-16 12:30) — Handoff 完整做 + routine-audit routine 化 完整實作
+
+哲宇 directive「Handoff -> 完整做然後收官，還有建立 Routine audit 跟 routine 本身一樣需要 routine 化 的機制完整實作」觸發第三輪。
+
+**A. routine-audit routine 化 完整實作**（commit `204314dca`）
+
+從 audit report 抽 P2 建議「quarterly canonical-vs-production audit routine」reframe 成 weekly cross-routine pattern detection routine：
+
+- `scripts/tools/routine-audit.py` 300+ 行純資料層 — git log 7-day 窗口分類（14 routine pattern + semiont + pr-squash）+ collision detection（rescue / orphan）+ heal commit cluster + memory/diary 檔案 inventory + 結構化 JSON output（與 LLM 分析層分離）
+- `docs/pipelines/ROUTINE-AUDIT-PIPELINE.md` v1.0 — 6 stage SOP（SCAN / CORRELATE / PATTERN / LESSONS / REPORT / SHIP）+ ASCII spine + Hard Gate Inventory + Top 5 最常忘 + 4 cross-cutting pattern lens（collision / dormant entropy / boundary input precision / heal bidirectional）primary framework
+- `docs/semiont/ROUTINE.md` v2.3→v2.4 — 11→12 條 routine，新增 `twmd-routine-audit-weekly` Sunday 12:00 cron 對應 schedule table + 視覺 chart + spec block + 誕生事件
+- `.claude/skills/twmd-routine-audit/SKILL.md` — 入口 skill 嚴守薄殼 pointer
+- `~/.claude/scheduled-tasks/twmd-routine-audit-weekly/SKILL.md` — scheduled task SKILL pre-created（cron register 待 observer 主 session 內 MCP `create_scheduled_task` 授權，已 pre-stage SKILL 內容）
+
+時段選 Sunday 12:00 noon：避開夜間 chain（22:00-09:00 已塞滿），讓觀察者 weekend afternoon 讀完 audit report 知道飛輪在做什麼。
+
+**B. spore content-hash gate MVP**（同 commit `204314dca`）
+
+LESSONS-INBOX 2026-05-16 #5 達 vc=3 儀器化 threshold 處理：
+
+- `scripts/tools/spore-content-hash-audit.py` 200+ 行 — fingerprint = sha256(first_sentence + emoji set + utm_campaign)[:16]，純 Python 不需 Chrome MCP
+- `docs/factory/spore-content-fingerprints.json` v1.0 side-car JSON schema + #71 baseline 測試 entry — 不動 SPORE-LOG schema 避免 73+ row migration
+- `docs/factory/SPORE-HARVEST-PIPELINE.md` §Content-hash mismatch 偵測（v2.10）整合 SOP 章節
+- `reports/spore-content-hash-gate-design-2026-05-16.md` 完整設計報告 + Phase 1-4 推進路線
+
+設計判準：MVP first 不一次性 73 baseline backfill，spore-harvest cycle 內漸進累積 baseline 比一次性 migration 安全。
+
+**C. 完整 unpushed batch ship**
+
+`git push origin main` 一次 push 9 commit batch（含早盤的唐鳳 EVOLVE / SQUEEZE-MODELS-MAX v4.2 / 災難志工 INBOX / finale 三件套 + 第二輪 audit + MAINTAINER v2.2 + 第二輪 finale + 第三輪 routine-audit / content-hash），branch ahead 9→0 clean。
+
+## 第三輪 收官 checklist 補充
+
+| 檢查項                               | 狀態                                                                                                                                                                         |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| routine-audit routine 化 6 file ship | ✅ `204314dca`（含 script / pipeline / SKILL / ROUTINE update / scheduled-task SKILL pre-create）                                                                            |
+| content-hash gate MVP 4 file ship    | ✅ 同 commit（script / side-car JSON / SPORE-HARVEST integration / design report）                                                                                           |
+| Push 9 commit batch to main          | ✅ `ac14becfe..204314dca main -> main` 推送成功                                                                                                                              |
+| Scheduled task 註冊                  | ⏳ pending observer MCP `create_scheduled_task` 授權 — SKILL.md pre-created 在 `~/.claude/scheduled-tasks/twmd-routine-audit-weekly/SKILL.md`，cron `0 12 * * 0` 待 register |
+| LESSONS-INBOX vc 累積                | ✅ #5 (vc=3) 已 instrument，下次 spore-harvest cycle 觀察整合                                                                                                                |
+| 進化路線 P0-P3 progress              | 🔴 P0 ✅ done (MAINTAINER v2.2) / 🟠 P1 ✅ done (content-hash MVP) / 🟡 P2 ✅ done (routine-audit) / 🟢 P3 deferred (cosmetic backlog)                                       |
+
+## 第三輪 Beat 5 反芻補充
+
+從 audit report 4 條 cross-cutting pattern 推進化路線 → 30 min ship 兩個 instrument（pipeline 規則升級）→ 90 min ship 兩個 routine 化（cron + script + canonical），整個 chain 從哲宇兩個短 directive 觸發到 push main 大約 2 hr。比預期短主要因為 audit report 已經把判準三條（vc / 結構性 / instrument 成本）寫得很具象，每個進化選擇都有跡可循。
+
+**最值得記下的單句**：「**Routine audit 跟 routine 本身一樣需要 routine 化**」這個句子今天從 audit report 結語 → 變成 ROUTINE-AUDIT-PIPELINE 第一性原理 → 變成 ROUTINE.md v2.4 新增 schedule row → 變成 `~/.claude/scheduled-tasks/twmd-routine-audit-weekly/SKILL.md` 物理檔案。一句洞察走完整條進化鏈 12 hr 內。Reflexive：本檔自己的這段 Beat 5 反芻會被未來 weekly routine-audit 讀到並可能標 instance — pattern detection 自己也被自己 instrument。
+
+**MCP `create_scheduled_task` 觀察者 loop in**：cron 註冊唯一一步留給觀察者主 session 操作。SKILL.md 文件層、scripts 工具層、pipeline canonical 層、ROUTINE.md SSOT 層全部就位，只差 MCP register cron 那一動作的 user approval。這個 boundary 是 DNA #26 v2 AI 自主邊界（scheduled task creation 影響觀察者環境 + 跨 session 持續執行）的健康行使。
+
+🧬

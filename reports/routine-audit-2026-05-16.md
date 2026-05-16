@@ -353,3 +353,54 @@ _session manual — finale chain 收尾後加做的 holistic audit，~12 hr wall
 _誕生原因：哲宇 directive「檢查今天所有自動的 commit / routine，完整檢查審視與思考，提出洞察還有進化歸檔到 report」— 跨 routine cross-cutting analysis 從未做過，5/15 catch-up cascade 12 cron 也沒對應 audit report_
 _核心洞察：(1) Holobiont coordination 第一次「在運行中」實例（babel-nightly 05:04 + data-refresh-am 06:00 撞孤兒 process）；(2) Health-as-blind-spot — 高穩定背後 dormant entropy 累積；(3) Boundary input precision — §自主權邊界 PR body vs diff 實算的差距；(4) Heal as bidirectional correction — over-action 跟 over-defer 雙向校正都重要_
 _LESSONS-INBOX 候選累積 12 條 — 詳見正文 table；達 3 次儀器化 threshold 1 條（#5 harvest content-hash 比對），達 2 次 1 條（#1 routine collision SOP），其餘 verification_count=1 待累積_
+
+---
+
+## Addendum 2026-05-16 12:30 +0800 — 進化建議全面 instrumentalize
+
+哲宇 directive「Handoff -> 完整做然後收官，還有建立 Routine audit 跟 routine 本身一樣需要 routine 化 的機制完整實作」觸發後，本 audit 的 P0-P2 進化建議全部 instrument 完成 + push main：
+
+### Audit recommendations progress
+
+| Priority | 進化建議                                                            | 狀態                                | Commits                                                                                     |
+| -------- | ------------------------------------------------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------- |
+| 🔴 P0    | MAINTAINER-PIPELINE Step 2.3.1 boundary input precision + §雙向校正 | ✅ 完成                             | `00f6cd8eb`                                                                                 |
+| 🔴 P0    | SQUEEZE-MODELS-MAX v4.2 inventory recalibration                     | ✅ 完成                             | `7608c32fb`                                                                                 |
+| 🟠 P1    | Harvest content-hash plugin gate（vc=3 達儀器化 threshold）         | ✅ MVP 完成                         | `204314dca`（script + side-car JSON + SPORE-HARVEST integration + design report）           |
+| 🟡 P2    | Routine audit routine 化                                            | ✅ 完整實作                         | `204314dca`（pipeline + script + skill + ROUTINE.md v2.4 + scheduled-task SKILL pre-stage） |
+| 🟢 P3    | 27 batch-200 entropy + 聶永真 SEO 5-min fix                         | ⏳ deferred 走獨立 maintainer cycle | 留 backlog                                                                                  |
+
+### Routine 化 機制完整實作 summary
+
+「Routine audit 跟 routine 本身一樣需要 routine 化」這句洞察從 audit report §結語 → ROUTINE-AUDIT-PIPELINE 第一性原理 → ROUTINE.md v2.4 schedule row → scheduled-task SKILL 物理檔案 預設 — 12 hr 內走完完整進化鏈。具體 instrument layers：
+
+```
+洞察句 (audit report §結語 2026-05-16)
+   ↓ 抽象化 + 工具化
+ROUTINE-AUDIT-PIPELINE.md v1.0 (canonical SOP, 6 stage + 4 lens)
+   ↓ 純資料層 工具化
+scripts/tools/routine-audit.py (300+ 行 Python, JSON output)
+   ↓ skill 包裝
+.claude/skills/twmd-routine-audit/SKILL.md (薄殼入口)
+   ↓ schedule 註冊
+~/.claude/scheduled-tasks/twmd-routine-audit-weekly/SKILL.md (pre-staged)
+   ↓ SSOT mirror
+docs/semiont/ROUTINE.md v2.4 (12 條 routine schedule + 視覺 chart + spec block)
+   ↓ 觀察者註冊 cron (留作 next session handoff，DNA #26 v2 boundary)
+mcp__scheduled-tasks__create_scheduled_task (cron 0 12 * * 0)
+```
+
+每層都有獨立檔案 + 各自職責 + 不重複（薄殼鐵律）。
+
+### 唯一 outstanding handoff
+
+`twmd-routine-audit-weekly` cron 註冊本身需要 observer 在主 session 內 invoke `mcp__scheduled-tasks__create_scheduled_task`（MCP tool requires user approval, can't run in unsupervised mode）。SKILL.md pre-staged 在 `~/.claude/scheduled-tasks/twmd-routine-audit-weekly/SKILL.md`，cron expression `0 12 * * 0`，prompt content 完整。observer 下次主 session 一次 call 即 register 完成。
+
+### Self-reflexive 觀察
+
+本 audit report 自己也會被未來的 weekly routine-audit cycle 讀到 — pattern detection mechanism 會 detect 自己存在的 instance。這個 reflexive property 是 instrumentation 的健康訊號（per [reports/spore-content-hash-gate-design-2026-05-16.md](./spore-content-hash-gate-design-2026-05-16.md) §Phase 4 同質的 meta-level 思考）。
+
+🧬
+
+_Addendum v1.1 | 2026-05-16 12:30 +0800_
+_session 011113-manual-audit-evolve 第三輪追加：audit 4 priority 全 instrument 完成 + 9 commit batch push main + routine-audit cron handoff to observer_
