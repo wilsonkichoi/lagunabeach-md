@@ -1,170 +1,162 @@
 ---
-title: "Taiwan's Tectonic Plates and Seismic Activity"
-description: 'Exploring the geological character of Taiwan at the collision boundary of the Eurasian and Philippine Sea plates, and the causes of its frequent seismic activity'
+title: "Tectonic Plates and Seismic Activity in Taiwan"
+description: "Exploring Taiwan's geological characteristics at the junction of the Eurasian Plate and the Philippine Sea Plate, and the causes of frequent seismic activity"
 date: 2026-03-18
-tags:
-  [
-    'geology',
-    'tectonic plates',
-    'earthquakes',
-    'active faults',
-    'natural disasters',
-  ]
-subcategory: '地形與地質'
-category: 'Geography'
-author: 'Taiwan.md'
+author: "Taiwan.md"
+category: "Geography"
+subcategory: "地形與地質"
+tags: ["地質", "板塊運動", "地震", "活動斷層", "自然災害"]
 readingTime: 16
-featured: true
 lastVerified: 2026-03-19
 lastHumanReview: false
-translatedFrom: 'Geography/台灣板塊運動與地震活動.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:b3e3292798f3bf59'
-sourceBodyHash: 'sha256:f92d8fa095bcec61'
-translatedAt: '2026-05-01T12:21:52+08:00'
+featured: true
+translatedFrom: "Geography/台灣板塊運動與地震活動.md"
+sourceCommitSha: "f712b7242"
+sourceContentHash: "sha256:ac660158a4c72aea"
+sourceBodyHash: "sha256:57ab1d8681d0c528"
+translatedAt: "2026-05-17T05:34:48+08:00"
 ---
 
-# Taiwan's Tectonic Plates and Seismic Activity
+# Tectonic Plates and Seismic Activity in Taiwan
 
 ## 30-Second Overview
 
-Taiwan sits at the convergent boundary of the Eurasian continental plate and the Philippine Sea plate. The violent collision has created Taiwan's distinctive geological structure and its frequent seismic activity. Thirty-six active faults are distributed across the island; the western seismic zone has shallow focal depths but dense population, while the eastern zone has deeper foci but is persistently active. This geological environment not only shaped Taiwan's mountain topography — it has made Taiwan one of the highest-density earthquake regions in the world.
+Taiwan sits at the convergent boundary between the Eurasian Plate and the Philippine Sea Plate. Intense plate collision has created Taiwan's unique geological structure and frequent seismic activity. The island has 36 identified active faults. The western seismic zone features shallow hypocenters but high population density, while the eastern seismic zone has deeper hypocenters but more frequent activity.
 
-**Key terms:** plate convergence, active fault, seismic zone, Chelungpu Fault, orogeny
+The 1999 921 earthquake (Richter magnitude 7.3) was the most devastating seismic disaster in modern Taiwan history. The 2021 fault map updated by the Geological Survey and Mining Management Agency serves as the core basis for current disaster prevention planning. Taiwan's seismic density ranks among the highest in the world, making it a crucial research site for plate tectonics.
+
+Keywords: plate convergence, active faults, seismic zones, Chelungpu Fault, orogeny
 
 ## Why It Matters
 
 ### Taiwan's Geological Origins
 
-Taiwan's very existence is a geological miracle. Around five million years ago, the area that is now Taiwan was open ocean. As the Philippine Sea plate continued to push northwest into the Eurasian plate, the collision gradually pushed the land above sea level. This intense geological process continues today, making Taiwan not only a "living island" but a natural laboratory for studying plate tectonics.
+Taiwan's very existence is a geological miracle. Around 5 million years ago, Taiwan was still submerged beneath the ocean. It was only when the Philippine Sea Plate began pushing northwestward and collided with the Eurasian Plate that the land gradually rose above sea level. This intense geological process continues to this day, making Taiwan one of the best natural laboratories for studying plate tectonics.
+
+Plate convergence proceeds at a rate of 7–8 centimeters per year, causing Taiwan's surface to continuously uplift and making earthquakes an inescapable reality for this island.
 
 ### Living on a Dynamic Earth
 
-For Taiwanese people, earthquakes are not merely a natural phenomenon — they are part of daily life. From earthquake-resistant building codes to public disaster-preparedness education, Taiwanese society has developed a culture of coexisting with seismic risk. Understanding Taiwan's geological characteristics helps not only with disaster prevention and mitigation, but with a deeper appreciation of this land's unique character.
+For people in Taiwan, earthquakes are a constant backdrop to daily life. From seismic-resistant building codes to widespread disaster preparedness education, Taiwanese society has developed a culture of coexisting with earthquakes. Understanding Taiwan's geological characteristics aids disaster prevention and mitigation, and deepens our understanding of this land.
+
+After the 1999 921 earthquake, Taiwan comprehensively revised its building seismic codes, and the earthquake early warning system was progressively upgraded to one of the most advanced in Asia.
 
 ## Plate Tectonics and Geological Background
 
-### Caught Between Two Plates
+### Squeezed Between Two Plates
 
-Taiwan lies precisely on one of the earth's most active plate boundaries. To the west is the stable Eurasian continental plate; to the east is the active Philippine Sea plate. These two plates push against each other at roughly 7–8 centimeters per year — about the speed of fingernail growth — seemingly slow, yet carrying enormous force.
+Taiwan happens to sit at one of the most active plate boundaries on Earth. To the west of Taiwan lies the stable Eurasian Plate; to the east, the active Philippine Sea Plate. These two plates push against each other at approximately 7–8 centimeters per year—roughly the speed at which fingernails grow—seemingly slow but generating immense force.
 
-Off Taiwan's northeastern coast, the Philippine Sea plate subducts beneath the Eurasian plate, forming the Ryukyu Trench. Off the southeastern coast, the situation reverses: the Eurasian plate subducts beneath the Philippine Sea plate, forming the Manila Trench. Taiwan stands at the transition zone between these two opposing subduction directions — producing an exceptionally complex geological structure.
+Off the northeastern coast, the Philippine Sea Plate subducts beneath the Eurasian Plate, forming the Ryukyu Trench. Off the southeastern coast, the situation is reversed: the Eurasian Plate subducts beneath the Philippine Sea Plate, forming the Manila Trench. Taiwan sits precisely at the transition between these two opposing subduction directions, resulting in extremely complex geological structures.
 
-### Ongoing Orogeny
+### An Ongoing Orogeny
 
-Taiwan's mountain ranges are forming through a continuous process. The Central Mountain Range is the most direct product of plate collision; most peaks above 3,000 meters are concentrated there. Interestingly, Taiwan's orogeny does not proceed evenly: the eastern region rises roughly 3–4 millimeters per year, while the western region is relatively stable — certain coastal areas are even subsiding. This "asymmetric uplift" explains why the east features towering peaks and the west predominantly plains and low hills. It also means Taiwan's landscape is continuously changing; what we see today looks nothing like it did one million years ago, and will look nothing like it will one million years from now.
+The formation of Taiwan's mountains is a process still underway. The Central Range is the most direct product of plate collision, with most peaks above 3,000 meters concentrated here. Taiwan's orogeny is not uniform: the eastern region uplifts approximately 3–4 millimeters per year, while the western region is relatively stable, with some coastal areas even subsiding.
 
-## Taiwan's Seismic Zones
+This "asymmetric uplift" explains why eastern Taiwan is dominated by towering mountains and steep ridges, while western Taiwan features mostly plains and rolling hills. Taiwan's landscape continues to evolve—the Taiwan we see today would look vastly different from the Taiwan of a million years ago or a million years from now.
 
-### The Western Seismic Zone: Shallow Threats in Dense Population
+## Distribution of Seismic Zones in Taiwan
 
-The western seismic zone covers all of western Taiwan, from the Taipei Basin to the Pingtung Plain. Its key characteristics:
+### Western Seismic Zone: Shallow Threats in Densely Populated Areas
 
-**Shallow focal depth:** Most earthquakes originate at depths of 10–20 kilometers, from faulting within the crust. Shallow earthquakes do not necessarily have large magnitudes, but because they are close to the surface, they typically produce stronger shaking and more severe damage.
+The western seismic zone covers the entire western region of Taiwan, from the Taipei Basin to the Pingtung Plain. This zone has several characteristics:
 
-**Complex fault systems:** The western zone hosts multiple important active faults, including the Chelungpu, Changhua, and Hsincheng faults. Most are reverse faults, reflecting an east-west compressional tectonic environment.
+**Shallow hypocenter depths**: Most earthquake hypocenters are between 10 and 20 kilometers deep, resulting from crustal fault activity. Shallow earthquakes may not always be large in magnitude, but because they are close to the surface, they often produce strong shaking and severe damage.
 
-**Major population threat:** Because roughly 80% of Taiwan's population lives in the western zone, any large-scale seismic event there could cause severe casualties and economic losses. The 1999 Chi-Chi (921) earthquake is the starkest example.
+**Complex fault systems**: The western seismic zone contains multiple active faults, including the Chelungpu Fault, the Changhua Fault, the Xincheng Fault, and others. Most of these are thrust faults, reflecting the east-west compressional tectonic environment.
 
-### The Eastern Seismic Zone: Frequent Shaking from Deep Subduction
+**Enormous population risk**: Since approximately 80% of Taiwan's population lives in the western region, any major seismic activity in the western zone could cause severe casualties and economic losses. The 1999 921 earthquake is the most vivid example.
 
-The eastern seismic zone is primarily located in Taiwan's eastern offshore waters and eastern land areas, with characteristics opposite to the west:
+### Eastern Seismic Zone: Frequent Tremors from Deep Subduction
 
-**Variable focal depth:** Earthquakes range from a few kilometers to 300 kilometers deep, forming a west-dipping distribution band — evidence of Philippine Sea plate subduction.
+The eastern seismic zone is primarily located off the eastern coast and in eastern Taiwan, with characteristics distinctly different from the west:
 
-**High frequency:** Earthquake frequency in the east far exceeds the west; earthquakes of varying magnitudes occur almost daily. Because population density is relatively low, however, impacts are usually smaller.
+**Wide range of hypocenter depths**: Earthquakes range from shallow events of just a few kilometers to deep events of up to 300 kilometers, forming a westward-dipping seismic distribution band—direct evidence of Philippine Sea Plate subduction.
 
-**Tsunami risk:** Large-scale earthquakes offshore eastern Taiwan can trigger tsunamis, posing a threat to eastern coastal areas. The 2022 Hualien earthquake (magnitude 6.8, near Chihshang) is a typical example of eastern seismic zone activity.
+**Extremely high earthquake frequency**: The eastern region experiences far more earthquakes than the west, with tremors of varying sizes occurring almost daily. However, due to the relatively low population density, the impact is usually smaller.
 
-### The Northeastern Seismic Zone: Symphony of Volcanism and Earthquakes
+**Tsunamigenic earthquake risk**: Large offshore earthquakes in the eastern waters could trigger tsunamis, posing a threat to coastal areas in eastern Taiwan. The 2022 Taitung (918) earthquake is a typical example of eastern seismic zone activity.
 
-Taiwan's northeastern region, including greater Taipei, is influenced by Okinawa Trough rifting and volcanic activity, creating a distinctive seismic environment. The Tatun Volcano Group is currently dormant, but still shows weak seismic activity — a reminder of the potential volcanic threat in northern Taiwan.
+### Northeastern Seismic Zone: A Symphony of Volcanoes and Earthquakes
 
-## Active Fault Distribution and Characteristics
+The northeastern region of Taiwan, including the greater Taipei area, is influenced by the expansion of the Okinawa Trough and volcanic activity, creating a unique seismic environment. The Tatun Volcano Group, although currently dormant, still exhibits faint seismic activity, reminding us of the potential volcanic threat in northern Taiwan.
 
-### Classifying 36 Active Faults
+## Distribution and Characteristics of Active Faults
 
-Taiwan has 36 confirmed active faults, classified into three categories by activity level:
+### Current Status of Active Faults
 
-**Class 1 Active Faults** (most active): Evidence of movement within the Holocene (past 10,000 years); 13 faults in this category, including the Milun, Chihshang, and Chelungpu faults. These are most likely to generate earthquakes and are the focus of disaster prevention planning.
+Taiwan currently has 36 confirmed active faults (per the 2021 edition from the Geological Survey and Mining Management Agency[^2]), including the Milun Fault, the Chishang Fault, the Chelungpu Fault, and others. The previous activity classification system has been uniformly discontinued and replaced by a geological sensitivity zone designation mechanism for management. Each fault carries different potential earthquake threats and serves as a core basis for disaster prevention planning.
 
-**Class 2 Active Faults** (moderately active): Evidence of movement in the late Pleistocene (past 100,000 years); 15 faults in this category. Lower activity, but still potentially threatening.
+### Building Restrictions Along Fault Zones
 
-**Uncertain Active Faults:** Signs of activity but insufficient evidence; 8 faults. As investigation technology improves, the classification of these faults may be revised.
+To reduce earthquake damage, the government enforces strict land-use controls along active faults. Within 15 meters on either side of the fault surface trace (the "fault zone"), public land is subject to a complete construction ban, while private land is limited to buildings of two stories and no more than 7 meters in height. Although these regulations constrain land development, they are of vital importance in safeguarding public safety.
 
-### Construction Restrictions Near Fault Zones
+### Lessons from the Chelungpu Fault
 
-To reduce earthquake damage, the government enforces strict land-use regulations around active faults. Within 15 meters on each side of a fault trace — the "fault zone" — public land is entirely off-limits for construction; private land is restricted to structures no higher than two stories or 7 meters. Though these rules constrain land development, they are vital for protecting lives.
+The Chelungpu Fault was the main causative fault of the 1999 921 earthquake. Approximately 105 kilometers long, it produced a maximum vertical displacement of 8 meters during the earthquake, directly causing surface rupture and building collapses. Post-earthquake research found that buildings within 200 meters on the hanging wall and 100 meters on the footwall suffered the most severe damage. This finding directly influenced subsequent revisions to building codes.
 
-### The Chelungpu Fault Lesson
+### Major Modern Earthquake Events
 
-The Chelungpu Fault, the main fault of the 1999 Chi-Chi earthquake, became a landmark case for Taiwan's fault research. This approximately 105-kilometer-long reverse fault produced maximum vertical displacement of 8 meters during the earthquake, directly causing surface rupture and building collapse. Post-earthquake research found that structures within 200 meters on the hanging wall and 100 meters on the footwall suffered the most severe damage — a finding that directly influenced subsequent revisions to building codes.
+**921 Chi-Chi Earthquake (1999/9/21)**
 
-## Earthquake Monitoring and Early Warning
+At 1:47 AM on September 21, 1999, a magnitude 7.3 earthquake struck near Chi-Chi Township, Nantou County, with a maximum intensity of 7. The earthquake killed 2,415 people, injured 11,305, and caused over 100,000 buildings to collapse or suffer severe damage. Direct economic losses were estimated at over NT$30 billion, making it the deadliest natural disaster in Taiwan during the 20th century. Surface rupture along the Chelungpu Fault extended approximately 105 kilometers, with vertical displacement reaching 8 meters at some locations. The 921 earthquake prompted Taiwan to comprehensively revise its building seismic codes and significantly strengthen earthquake engineering research capacity, laying the foundation for Taiwan's modern earthquake preparedness system.[^5]
 
-### The Dense Monitoring Network
+**0403 Hualien Earthquake (2024/4/3)**
 
-Taiwan has built one of the world's highest-density earthquake monitoring networks. The Central Weather Administration's Seismological Center operates over 150 real-time seismic monitoring stations island-wide — one station for roughly every 300 square kilometers. This dense network can determine an earthquake's epicenter and magnitude within 20–30 seconds of occurrence.
+At 7:58 AM on April 3, 2024, an M_L 7.2 (local magnitude) / M_w 7.4 (moment magnitude) earthquake struck off the eastern coast of Taiwan (off Hualien), the largest since the 1999 921 earthquake. The earthquake killed 13 people, injured over 1,000, and caused multiple buildings in Hualien City to tilt severely. The Xiakan Trail experienced massive earthquake-triggered landslides, burying several hikers, with search and rescue operations continuing for days. The Central Weather Administration's earthquake early warning (EEW) system issued island-wide alerts within approximately 10 seconds of the mainshock, serving as an important real-world validation case for the EEW system.[^1]
+
+## Earthquake Monitoring and Early Warning Systems
+
+### A Dense Monitoring Network
+
+Taiwan has established one of the densest earthquake monitoring networks in the world. The Seismological Center of the Central Weather Administration operates over 150 real-time seismic monitoring stations across the island, with an average of one monitoring point per 300 square kilometers. This dense network can determine the epicenter and magnitude within 20–30 seconds of an earthquake.
 
 ### Earthquake Early Warning System
 
-Taiwan's Earthquake Early Warning (EEW) system is one of the most advanced in Asia. When a major earthquake occurs, the system can issue alerts seconds to tens of seconds before the seismic waves arrive — buying precious seconds for residents to take cover. Though the warning window is limited, it has critical disaster-prevention value for high-speed trains, precision manufacturing equipment, and similar applications.
+Taiwan's earthquake early warning (EEW) system is one of the most advanced in Asia. When a strong earthquake occurs, the system can issue alerts seconds to tens of seconds before the seismic waves arrive, providing the public with valuable time to take cover. Although the warning window is limited, it is of critical disaster-prevention value for high-speed trains, precision industrial equipment, and other applications.
 
-### Mass Alerting Service
+### Real-Time Strong-Motion Alert Service
 
-Launched in 2016, the Strong Motion Immediate Warning service automatically broadcasts alerts through television, radio, and mobile push notifications when estimated shaking is expected to reach intensity 4 or above. This service made Taiwan the fourth country in the world to deploy a national earthquake early warning system for the general public.
+The real-time strong-motion alert service, launched in 2016, automatically issues alerts through television, broadcast, mobile push notifications, and other channels when the estimated intensity reaches 4 or above. Taiwan was one of the early nations to implement a public earthquake early warning system, making it a pioneer in the Asian region.
 
 ## Earthquakes and Taiwanese Society
 
-### The Evolution of Earthquake-Resistant Architecture
+### Development of Seismic-Resistant Building Technology
 
-Taiwan's seismic engineering technology has advanced through each successive earthquake disaster. From early static earthquake-resistant design to today's base isolation and vibration control technologies, Taiwan's building seismic capability has reached world-leading levels. Taipei 101's tuned mass damper (TMD) is a well-known example of vibration control in practice.
+Taiwan's seismic-resistant building technology has advanced through the lessons of successive earthquakes. From early static seismic design to modern base isolation and energy dissipation technologies, the seismic performance of Taiwan's buildings has reached world-class standards. The tuned mass damper (TMD) in Taipei 101 is a famous application of seismic control technology.
 
-### A Culture of Earthquake Awareness
+### The Formation of an Earthquake Culture
 
-Taiwanese attitudes toward earthquakes are both cautious and composed. Earthquake evacuation drills from elementary school onward, household emergency survival bags, and the reflexive "drop, cover, hold on" response have all become part of Taiwanese culture.
+People in Taiwan maintain an attitude toward earthquakes that is both cautious and composed. From earthquake evacuation drills starting in elementary school, to the preparation of household emergency kits, to the instinctive response of "Drop, Cover, Hold On" when an earthquake strikes—these have all become part of Taiwanese culture.
 
-"Taiwanese people don't fear earthquakes" — this does not mean indifference. It means Taiwanese people have learned to coexist with earthquakes, using science and technology to reduce risk while maintaining respect for natural forces.
+The phrase "Taiwanese people are not afraid of earthquakes" does not mean that Taiwanese people are indifferent to earthquakes. Rather, it means that Taiwanese people have learned to coexist with earthquakes, using science and technology to reduce disaster risk while maintaining a deep respect for nature.
 
-### Contribution to International Earthquake Research
+### Contributions to International Seismic Research
 
-Due to its unique geological environment and rich seismic data, Taiwan has become an important base for international earthquake research. Many internationally recognized seismologists have conducted research in Taiwan, and Taiwan's seismic research results have made important contributions to earthquake disaster prevention worldwide.
+Taiwan's unique geological environment and rich earthquake data have attracted seismologists from many countries to collaborate on research. Taiwan's research findings in areas such as fault behavior and early warning have been published in international journals and provide direct reference value for global disaster preparedness practice.
 
-## Future Challenges
+## Challenges Looking Forward
 
-### Climate Change as a New Factor
+### New Threats from Climate Change
 
-In recent years, scientists have found that climate change may affect seismic activity. Increased extreme rainfall may alter subsurface water pressure, in turn influencing fault stability. Taiwan needs to incorporate these new risk factors into earthquake disaster prevention planning.
+In recent years, scientists have found that climate change may influence seismic activity. Increased extreme rainfall could alter groundwater pressure, potentially affecting fault stability. Taiwan needs to incorporate these new risk factors into earthquake disaster prevention planning.
 
-### Urbanization's Double Effect
+### The Dual Impact of Urbanization
 
-Taiwan's continuing urbanization brings two conflicting impacts: on one hand, modern buildings' seismic performance has improved substantially; on the other, as population and assets concentrate, potential losses from a major earthquake also grow. Striking a balance between development and safety is a long-term challenge for Taiwan.
+Taiwan's urbanization has a dual impact: on one hand, the seismic performance of modern buildings has greatly improved; on the other hand, population and assets are becoming increasingly concentrated, meaning that a major earthquake could result in ever-greater potential losses. How to strike a balance between development and safety is a long-term challenge for Taiwan.
 
-### Opportunities in Technological Innovation
+### Opportunities from Technological Innovation
 
-Artificial intelligence, big data analytics, and the Internet of Things are bringing new possibilities to earthquake research and disaster prevention. Taiwan is exploring how to use these technologies to improve earthquake prediction and early warning systems, making disaster prevention more precise and effective.
-
-## References
-
-Taiwan's plate tectonics and seismic activity is a continuously evolving research field. For deeper understanding, recommended reading:
-
-- Taiwan's geological evolution history
-- Scientific investigation reports on the Chi-Chi earthquake
-- Active fault survey methods and technologies
-- Earthquake disaster prevention and building seismic design
-- Tsunami early warning system development
+New technologies such as artificial intelligence, big data analysis, and the Internet of Things bring new possibilities for earthquake research and disaster prevention. Taiwan is exploring the use of these technologies to improve earthquake prediction and early warning systems, making disaster prevention efforts more precise and effective.
 
 ## References
 
-1. Central Weather Administration Seismological Center — [Earthquake FAQ](https://scweb.cwa.gov.tw/)
-2. Geology and Mining Management Agency, MOEA — [Taiwan Active Fault Network](https://fault.gsmma.gov.tw/)
-3. Department of Geosciences, National Taiwan University — [Seismic Activity in Taiwan](http://www.gl.ntu.edu.tw/)
-4. Institute of Earth Sciences, Academia Sinica — [Seismic Activity and Tectonic Research in Taiwan](https://www.earth.sinica.edu.tw/)
-5. National Laboratory for Earthquake Engineering Research, NARL — [National Center for Research on Earthquake Engineering](https://www.ncree.narl.org.tw/)
-6. Ministry of the Interior, Construction and Planning Agency — Active Fault Geological Sensitive Area Designation Plan
-7. Public Television Service _Our Island_ — Fault Zone Tracking Series
-8. Taiwan Earthquake Research Center — [Seismological Research Reports](https://tec.earth.sinica.edu.tw/)
-9. Geological Society of Taiwan — [Taiwan Geology Research Compendium](https://www.gst.org.tw/)
-10. Executive Yuan Disaster Prevention and Protection Commission — Earthquake Disaster Prevention Operations Plan
-11. Graduate Institute of Geophysics, National Central University — [Plate Tectonics and Seismology Research](https://www.gep.ncu.edu.tw/)
-12. Taiwan Earthquake Research Center — [Strong Motion Observation Program Reports](https://tec.earth.sinica.edu.tw/)
+[^1]: Central Weather Administration Seismological Center, [100 Questions About Earthquakes](https://scweb.cwa.gov.tw/).
+[^2]: Geological Survey and Mining Management Agency, Ministry of Economic Affairs, [Active Fault Network](https://fault.gsmma.gov.tw/) (2021 edition, 36 active faults).
+[^3]: Department of Geosciences, National Taiwan University, [Seismic Activity in Taiwan](http://www.gl.ntu.edu.tw/).
+[^4]: Institute of Earth Sciences, Academia Sinica, [Seismic Activity and Tectonic Research in the Taiwan Region](https://www.earth.sinica.edu.tw/).
+[^5]: National Applied Research Laboratories, [National Center for Research on Earthquake Engineering](https://www.ncree.narl.org.tw/).
+[^6]: National Land Management Agency, Ministry of the Interior, [Information on Geological Sensitivity Zones Along Active Faults](https://www.nlmb.gov.tw/).
+[^7]: Taiwan Earthquake Science Center, [Earthquake Science Research Reports](https://tec.earth.sinica.edu.tw/).
+[^8]: Geological Society of the Republic of China, [Proceedings of Geological Research in Taiwan](https://www.gst.org.tw/).
+[^9]: Institute of Geophysics, National Central University, [Plate Tectonics and Seismology Research](https://www.gep.ncu.edu.tw/).

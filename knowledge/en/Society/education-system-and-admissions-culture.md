@@ -1,365 +1,199 @@
 ---
 title: 'Education System and Admissions Culture'
-description: 'From the joint entrance examination to 12-Year Basic Education, how Taiwan navigates the tension between competition and diversity'
+description: 'From the Joint College Entrance Examination to 12-Year Basic Education, how Taiwan's education system seeks balance between competition and diversity'
 date: 2026-03-18
-category: 'Society'
-tags:
-  [
-    'education',
-    'admissions',
-    '12-Year Basic Education',
-    'vocational education',
-    'education reform',
-    'competitive culture',
-  ]
-subcategory: '教育'
 author: 'Taiwan.md'
-difficulty: 'intermediate'
+category: 'Society'
+subcategory: '教育'
+tags: ['教育', '升學', '十二年國教', '技職教育', '教育改革', '競爭文化']
 readingTime: 14
+lastVerified: 2026-03-19
+lastHumanReview: false
 featured: true
 translatedFrom: 'Society/教育制度與升學文化.md'
-sourceCommitSha: '26216f73'
-sourceContentHash: 'sha256:f73e37d01f78db49'
-sourceBodyHash: 'sha256:105cf2755699d0ca'
-translatedAt: '2026-05-01T13:44:02+08:00'
+sourceCommitSha: 'f712b7242'
+sourceContentHash: 'sha256:0a7458b73a859fea'
+sourceBodyHash: 'sha256:b2b271a1c8432769'
+translatedAt: '2026-05-17T05:34:48+08:00'
 ---
 
 # Education System and Admissions Culture
 
 ## 30-Second Overview
 
-Taiwan's education system is renowned for its highly competitive admissions culture. Spanning from nine years of compulsory education to the 12-Year Basic Education policy, it operates within a 6-3-3-4 structure. The system runs on two parallel tracks — academic and vocational — though social values continue to privilege academic achievement, producing intense competition for school placements. Recent education reforms have emphasized diverse development and talent-matching, but how to strike a balance between competition and diversity, between elite cultivation and universal access, remains the central challenge facing Taiwan's education system.
+Taiwan's education system is known for its highly competitive admissions culture. Extending from nine-year compulsory education to 12-Year Basic Education, it follows a 6-3-3-4 school structure. The system is divided into two tracks—general education and vocational/technical education—but social values continue to favor academic achievement, fueling intense competition for school placement. In recent years, education reform has emphasized diversified development and nurturing individual aptitudes, but how to strike a balance between competition and diversity, between elite and mass education, remains the central challenge facing Taiwan's education system.
 
-**Key characteristics:** widespread compulsory education, fierce competition for advancement, emphasis on academic achievement, a dual-track vocational system, ongoing education reform.
+**Key Features:** Universal compulsory education, intense admissions competition, emphasis on academic achievement, dual-track vocational education, rolling adjustments in education reform
 
-## Why This Matters
+## Why It Matters
 
-Taiwan's education system is an important window for understanding Taiwanese society, culture, and values. Education shapes not only individual social mobility but also the overall quality of the workforce and the character of the broader culture. Taiwan's educational experience demonstrates how an East Asian society navigates the balance between a traditional examination culture and modern pluralistic values.
+Taiwan's education system is an important window into understanding Taiwanese society and its cultural values. Education not only affects individual social mobility but also shapes the overall quality of the workforce and the cultural character of society as a whole. Taiwan's educational experience demonstrates how an East Asian society seeks balance between a traditional examination culture and modern pluralistic values.
 
-For foreigners, understanding Taiwan's education system helps explain Taiwanese work ethic, learning culture, and the mechanisms of social mobility. Taiwan's experience with education reform also offers important reference points for other developing societies.
+For foreigners, understanding Taiwan's education system helps explain Taiwanese work ethic, learning spirit, and the mechanisms of social mobility. Taiwan's education reform experience also provides an important reference for other developing countries.
 
-## Structure of the Education System
+## Education System Structure
 
-### The Academic Framework
+### School Structure
 
-**The 6-3-3-4 system:**
+Taiwan follows a 6-3-3-4 system: 6 years of elementary school (ages 6–12), 3 years of junior high school (ages 12–15), 3 years of senior high or vocational school (ages 15–18), and 4 years of university (ages 18–22). Nine-year national compulsory education, covering elementary and junior high school, was implemented starting in 1968. In 2014, it was extended to 12-Year Basic Education, incorporating the senior high and vocational school stage into the scope of basic education.
 
-- **Elementary school:** 6 years (ages 6–12)
-- **Junior high school:** 3 years (ages 12–15)
-- **Senior high school / vocational high school:** 3 years (ages 15–18)
-- **University:** 4 years (ages 18–22)
+### Dual-Track Design
 
-**Compulsory education range:**
-
-- **Nine-Year Compulsory Education:** 6 years of elementary + 3 years of junior high (implemented 1968)
-- **12-Year Basic Education:** Extended to include senior high school and vocational high school; formally implemented in 2014
-
-### The Dual-Track Design
-
-Taiwan's education system begins to diverge at the senior high school level:
-
-**Academic track:**
-
-- **Academic high school (普通高中):** Primarily targets university entrance; curriculum is academically oriented
-- **Comprehensive high school (綜合高中):** Combines academic and vocationally oriented coursework
-
-**Vocational track:**
-
-- **Vocational high school (高職):** Provides specialized skills education
-- **Five-year junior college (五專):** Five-year program accessible to junior high graduates
-- **Technical college / university of science and technology:** Main pathway for vocational high school graduates entering higher education
+Taiwan's education system begins to diverge at the senior high level. The general education track includes academic-oriented senior high schools and comprehensive high schools that combine academic and career-oriented curricula. The vocational/technical education track includes senior vocational schools, five-year junior colleges (五專), and technical institutes and universities of technology for vocational school graduates to continue their studies. The two tracks run in parallel institutionally, but social perception has long tilted toward the academic side.
 
 ## 12-Year Basic Education
 
 ### Policy Background
 
-The 12-Year Basic Education policy was a major policy initiative in Taiwan's education history. It began implementation in 2014, aiming to extend basic education through the senior high school and vocational high school level.
+12-Year Basic Education is a landmark policy in the history of Taiwan's education, implemented starting in 2014 with the goal of extending basic education to the senior high and vocational school stage.[^2]
 
-**Five guiding principles:**
+**Five Core Principles:**
 
-1. **Education for all (有教無類):** Provide every student with educational opportunities
-2. **Teaching to the individual (因材施教):** Adaptive development and multiple intelligences
-3. **Nurturing individual talent (適性揚才):** Develop students' potential and specializations
-4. **Multiple pathways (多元進路):** Provide different options for higher education and employment
-5. **Quality articulation (優質銜接):** Smooth connection across educational levels
+1. **Education for All:** Providing educational opportunities for every student
+2. **Teaching According to Aptitude:** Adaptive development and multiple intelligences
+3. **Nurturing Talents:** Developing students' potential and strengths
+4. **Multiple Pathways:** Providing different channels for further education and employment
+5. **Quality Articulation:** Smooth transitions between each stage of education
 
-### Admissions Reform
+### Admissions System Reform
 
-**Non-exam enrollment:** Students attend schools near their place of residence, reducing exam pressure.
-**Specialty enrollment:** Allows certain schools to recruit students with particular talents.
-**Junior High School Education Assessment (會考):** Used as a measure of academic level rather than as an admissions filter.
+12-Year Basic Education introduced three admissions pathways: exam-free admission assigns students to schools near their place of residence to reduce test pressure; special admissions allow certain schools to recruit students with special talents; and the Comprehensive Assessment Program for Junior High School Students (國中教育會考) is positioned as a proficiency assessment rather than a screening tool for admissions.
 
 ### Curriculum Reform
 
-**Curriculum Guidelines 108 (108課綱):** New curriculum framework implemented in 2019.
+The 108 Curriculum Guidelines (108 課綱), implemented in 2019, represent the most significant curriculum restructuring in recent years.[^3] The new guidelines emphasize core competencies, integrating knowledge, skills, and attitudes into a unified whole; they retain school-based flexible curricula, allowing schools to design distinctive programs; and cross-domain learning breaks down traditional disciplinary boundaries, guiding students toward integrative thinking.
 
-- **Core competencies:** Emphasizes integration of knowledge, skills, and attitudes
-- **Flexible curriculum:** School-based characteristics and student-led learning
-- **Cross-domain learning:** Integrated curriculum that breaks down subject-area boundaries
-
-## The Admissions Competition Culture
+## Admissions Competition Culture
 
 ### Historical Roots
 
-Taiwan's intense admissions competition has deep historical and social roots:
+The roots of Taiwan's admissions competition can be traced to the imperial examination (科舉) cultural legacy—the deeply held belief that "studying can change one's fate" (讀書改命). Combined with post-war demand for social mobility and the economic boom's hunger for a highly skilled workforce, these three forces intertwined to form an entrenched examination culture. After the Joint College Entrance Examination (聯考) system was established in 1954, the mechanism by which a single exam determined the course of one's life took root across the island, fueling cram schools and score-based competition everywhere.
 
-**Civil examination tradition:** Inherited from the Confucian Chinese cultural value that "of all occupations, only scholarship ranks highest"
-**Social mobility aspirations:** Education is seen as an important pathway for changing one's social class
-**Economic development needs:** A highly educated workforce is a foundational requirement for economic development
+### Manifestations of Competition
 
-### Forms of Competitive Behavior
+Admissions competition operates simultaneously at the family, school, and societal levels. At the family level, parents treat their children's education as a core long-term investment, and strict "tiger parenting" is far from uncommon. At the societal level, the prestige of elite senior high schools and top universities reinforces credential worship, and academic scores become the primary measure of personal value. Even after the Joint Examination was restructured into a multiple-admissions system in 2002, this atmosphere persists to this day, sustained by the density of cram schools and private school ranking lists.
 
-**Examination culture:**
-
-- **Joint entrance exam system (聯考):** The former unified admissions examination (now reformed)
-- **Cram school culture (補習文化):** The widespread phenomenon of after-school tutoring
-- **Test-taking skills:** Emphasis on exam technique and score performance
-
-**Family expectations:**
-
-- **Parental investment:** High levels of family investment in education
-- **Tiger parent phenomenon:** Strict parenting styles
-- **Academic pressure:** Academic stress faced by students
-
-**Social values:**
-
-- **Elite worship (菁英崇拜):** The pursuit of prestigious schools and advanced degrees
-- **Employment orientation:** The linkage between academic credentials and job prospects
-- **Face culture (面子文化):** Educational achievement as a symbol of social status
-
-## Vocational Education Development
+## Vocational and Technical Education Development
 
 ### The Status of Vocational Education
 
-Compared to academic education, vocational education in Taiwan has long faced a social status problem:
-
-**Social bias:** The cultural value of "privileging academics over skills"
-**Admissions orientation:** Even vocational students often aim for further academic study
-**Industry mismatch:** A gap between vocational education outcomes and actual industry workforce needs
+Taiwan's vocational and technical education has long suffered from the social bias of "valuing academics over technical skills." Many vocational students themselves treat further academic study as their primary goal, creating a gap between vocational education and industry workforce needs. This predicament became even more pronounced after the "mass expansion of universities" policy in the 1990s: technical institutes were upgraded to universities of technology, blurring the positioning of vocational education.
 
 ### Vocational Education Reform
 
-In recent years the government has actively promoted vocational education reform:
+In recent years, the government has pushed reform in four directions: industry-academia collaboration, skills certification, strengthened internships, and the introduction of industry professionals as instructors. National Taiwan University of Science and Technology (Taiwan Tech) and National Taipei University of Technology (Taipei Tech) have set benchmarks for high-level vocational education within the system. Taiwanese students have also won numerous awards at WorldSkills competitions, demonstrating that the vocational track can equally cultivate elite talent. These cases are slowly reshaping society's stereotypes about vocational education.
 
-**Industry-academia collaboration:** Strengthening connections between schools and industries
-**Skills certification:** Establishing professional skills certification systems
-**Internship programs:** Enhancing students' practical experience
-**Instructor improvement:** Bringing in industry experts as teachers
+## The Course of Education Reform
 
-**Success stories:**
+### Major Reform Phases
 
-- **National Taiwan University of Science and Technology (台科大) and National Taipei University of Technology (北科大):** Top universities within the vocational education system
-- **International skills competitions:** Outstanding performance by Taiwanese students
-- **Hidden champions:** Industry talent cultivated through vocational education
-
-## The Arc of Education Reform
-
-### Key Reform Phases
-
-**1990s Reform:**
-
-- **Expansion of senior high schools and universities:** Increasing educational opportunities
-- **Diversified admissions:** Reducing exam pressure
-- **Nine-Year Integrated Curriculum:** Integrated curriculum design
-
-**2000s Adjustments:**
-
-- **Basic Academic Test (基測):** New assessment replacing the joint entrance exam
-- **Stars Project (繁星計畫):** Supporting students from remote areas and disadvantaged backgrounds
-- **Diversified university admissions:** Recommendation-based selection and exam-based allocation operating in parallel
-
-**2010s Deepening:**
-
-- **12-Year Basic Education:** Extending the scope of basic education
-- **Curriculum Guidelines 108:** Competency-oriented curriculum reform
-- **Bilingual education:** Raising international competitiveness
+Taiwan's education reform can be divided into three waves. The 1990s focused on the mass expansion of senior high schools and universities, multiple-admissions pathways, and the Nine-Year Integrated Curriculum, aiming to break the monopoly of the Joint Examination and expand educational opportunities. The 2000s introduced the Basic Competency Test (國中基測) to replace the senior high school joint examination, launched the Star Plan (繁星計畫) to support rural students, and moved university admissions toward a pluralistic model combining recommendation-based screening and exam-based placement. The 2010s extended compulsory education to twelve years, restructured curriculum philosophy with the 108 Curriculum Guidelines in 2019, and initiated the 2030 Bilingual Nation policy.
 
 ### Reform Outcomes and Challenges
 
-**Positive outcomes:**
+Three decades of reform have indeed raised the higher education enrollment rate to among the highest in Asia, and multiple-assessment mechanisms have reduced the structural risk of a single exam determining one's entire future. The Star Plan has given rural students the opportunity to enter top universities. However, the urban-rural resource gap, the influence of family socioeconomic status on academic achievement, and dependence on cram schools have not been resolved—admissions pressure continues in altered forms.
 
-- **Education universalization:** Higher education enrollment rate has risen significantly
-- **Reduced exam pressure:** Multiple assessment modes reduce the "one test determines your life" dynamic
-- **Supporting disadvantaged students:** Greater opportunities for students in remote areas and disadvantaged circumstances
-
-**Ongoing challenges:**
-
-- **Urban-rural divide:** Unequal distribution of educational resources
-- **Class reproduction:** The effect of family background on educational achievement
-- **Competitive pressure:** Exam pressure has not been fundamentally resolved
-
-## The Current State and Structural Problems
+## Current State of Education and Its Problems
 
 ### Quantitative Achievements
 
-**Literacy rate:** Close to 100%, among the world's highest
-**Higher education enrollment rate:** Approximately 70%, one of the highest in Asia
-**International rankings:** Strong performance in PISA, TIMSS, and other international assessments
+Taiwan's literacy rate is close to 100%, and the higher education enrollment rate ranks among the highest in Asia.[^1] In international assessments such as PISA and TIMSS, Taiwanese students have consistently performed well in mathematics and science.[^4]
 
 ### Structural Problems
 
-**Low birth rate impact:**
-
-- **School consolidation:** Small schools in remote areas face merger pressure
-- **Insufficient enrollment:** Universities struggle to fill seats
-- **Teacher surplus:** Intense competition for teaching positions
-
-**Educational inequality:**
-
-- **Urban-rural divide:** Difference in educational resources between urban and rural areas
-- **Class divide:** The effect of family socioeconomic status on educational opportunities
-- **Digital divide:** Unequal access to technological resources
-
-**Admissions pressure:**
-
-- **Intensified competition:** Fierce competition for prestigious schools
-- **Cram school dependency:** Widespread use of after-school tutoring
-- **Student stress:** Increasing mental health problems
+Declining birth rates are the most acute challenge at present. Falling birth rates have left rural small schools facing consolidation, university recruitment difficulties have forced some institutions to close, and teacher supply has become excessive. The gap in educational resources between urban and rural areas, the impact of family socioeconomic background on learning opportunities, and the digital divide in access to technology make educational inequality difficult to resolve. Although admissions competition has diversified in form, dependence on cram schools and student mental health concerns remain underlying worries.
 
 ## Special Education and Diverse Needs
 
 ### Special Education Development
 
-**Students with disabilities:** A complete special education system has been established
-**Gifted and talented education:** Mathematics and science gifted classes, language gifted classes
-**Inclusive education:** Integration of regular classes and special education classes
+Taiwan has established a comprehensive special education system covering education for students with physical and intellectual disabilities as well as gifted programs in mathematics, science, and language arts, and has promoted an inclusive education model integrating general and special education classrooms.
 
 ### Multicultural Education
 
-**New immigrant children:** Responding to the growth of new immigrants from Southeast Asia
-**Indigenous education:** Preserving indigenous culture and languages
-**International schools:** Meeting the needs of expatriates and internationalization
+As the number of children of Southeast Asian new immigrants has increased, related education support systems were established in the 2000s. Indigenous education policy emphasizes cultural and language preservation, and courses in various indigenous languages have been incorporated into some school curricula. In addition, Taiwan has international schools serving expatriate children, as well as international divisions within local schools.
 
 ## Internationalization and Bilingual Education
 
 ### English Education Promotion
 
-**Bilingual education policy:** The 2030 Bilingual Nation policy
-**English-medium instruction:** Some subjects taught in English
-**International exchange:** Promoting students' international learning experiences
+In 2018, the government announced the 2030 Bilingual Nation goal, promoting instruction in English for certain subjects and expanding opportunities for student international exchange. Taiwan has also introduced International Baccalaureate (IB) programs, allowing local students to engage with global learning standards.
 
-### International School Development
+## Technology and Innovation Education
 
-**Expatriate schools:** Serving children of expatriates in Taiwan
-**International sections:** Domestic schools establishing international divisions
-**IB curriculum:** Introduction of the International Baccalaureate program
+### Digital and Innovative Education
 
-## Technology and Innovation in Education
+In 2019, Taiwan incorporated programming into the junior high school mandatory curriculum and has continued to expand AI-related courses. Maker education and STEAM (Science, Technology, Engineering, Arts, Mathematics) integrated curricula encourage hands-on practice, while entrepreneurship education attempts to carve out an alternative value path within an admissions-dominated system.
 
-### Digital Education
-
-**Digital learning:** Promoting the integration of information technology into teaching
-**Programming education:** Incorporating programming curricula into primary and secondary schools
-**AI education:** Development of artificial intelligence-related curricula
-
-### Innovation Education
-
-**Maker education:** Hands-on, project-based learning
-**STEAM education:** Integration of science, technology, engineering, arts, and mathematics
-**Entrepreneurship education:** Cultivating student entrepreneurship spirit
-
-## Societal Impact of Educational Culture
+## The Social Impact of Education Culture
 
 ### Positive Impacts
 
-**Workforce quality:** Cultivating a high-quality labor force
-**Social mobility:** Providing opportunities for upward mobility
-**Cultural transmission:** Preserving and disseminating culture
-**International competitiveness:** Enhancing national soft power
+Taiwan's education system has cultivated a highly skilled workforce, providing a talent foundation for the semiconductor and technology industries. Education has also been a primary avenue for breaking down class barriers, enabling many children from rural families to achieve upward mobility.
 
 ### Negative Effects
 
-**Competitive pressure:** Student mental health problems
-**Creativity constraints:** A culture of standard answers may restrict creativity
-**Social rigidity:** Excessive emphasis on academic credentials may produce uniformity of social values
-**Resource waste:** Over-education can produce a mismatch in human resources
+A culture of standard answers may compress the space for creativity to develop. The link between academic pressure and mental health issues deserves serious attention. The overexpansion of higher education has also led to credential inflation, with many university graduates working in jobs unrelated to their field of study, creating a misallocation of human resources.
 
-## The Perspectives of Parents and Students
+## Perspectives of Parents and Students
 
-### Parental Expectations
+### Parental Expectations and Student Pressure
 
-**Academic performance:** Emphasis on children's academic results
-**Future development:** Hope for children to have good employment prospects
-**Social status:** Using education to elevate the family's social standing
-
-### Student Pressures
-
-**Academic burden:** Heavy coursework and examination pressure
-**Time management:** Balancing study and leisure
-**Future anxiety:** Uncertainty about school advancement and employment
+Many parents view their children's academic performance as the return on a family investment and as a symbol of the family's social standing. Under these expectations, students bear heavy academic workloads and exam pressure, with virtually no breathing room between studying and leisure. Anxiety about the future begins accumulating as early as junior high school.
 
 ### Generational Differences
 
-**Value shifts:** Younger generations redefining what success means
-**Diverse development:** Growing importance placed on personal interests and strengths
-**International perspective:** Greater focus on international competitiveness and cross-cultural ability
+Younger generations are changing their definitions of success. More and more young people are prioritizing interests and personal strengths, as well as work-life balance, rather than viewing elite schools as the only goal. Expanding international horizons has also led some young people to choose to work or study abroad, reducing their reliance on Taiwan's domestic admissions system.
 
 ## Future Development Trends
 
-### Education Technology
+### Education Technology and Curriculum Change
 
-**AI personalized learning:** Artificial intelligence supporting individualized instruction
-**Virtual reality teaching:** VR/AR technology in education
-**Distance learning:** Normalization of online education
+AI-powered personalized learning, VR instruction, and online courses are transforming the classroom. Distance education was forced to accelerate during the 2020 COVID-19 pandemic, which also exposed the digital divide. The "learning portfolio" (學習歷程檔案) emphasized by the 108 Curriculum Guidelines makes university admissions weigh process over a single score, but it also places an additional burden on students with fewer resources.
 
-### Curriculum Changes
+### Institutional Adjustment Directions
 
-**Cross-domain learning:** Integrated curricula that break down subject boundaries
-**Competency orientation:** Shifting from knowledge transmission to ability development
-**Lifelong learning:** Building systems and culture for continuous learning
+Flexible school systems and adaptive development are long-term goals of Taiwan's education reform, but there remains a significant gap between policy announcements and classroom implementation. How to truly enable students of all aptitudes to find suitable learning paths is the core challenge facing system designers.
 
-### Institutional Adjustment
+## International Comparison and Lessons
 
-**Flexible academic systems:** More diverse learning pathways
-**Learning portfolios:** Valuing the learning process, not just outcomes
-**Adaptive development:** Truly implementing teaching tailored to the individual
+### East Asian Comparison and Western Lessons
 
-## International Comparisons and Lessons
+Taiwan's admissions competition culture shares origins with those of Japan, South Korea, and Singapore, but Taiwan's reform path has leaned more toward drawing from Western models: from Northern European ideals of educational equality, to the American model of diversified development, to the German system of vocational tracking—each has left its mark at different stages. Finland's educational philosophy of "reducing competition, enhancing creativity" has sparked widespread discussion in Taiwan's education community, but whether Taiwan's social soil is sufficient for transplanting it remains a point of contention.
 
-### East Asian Experience
+## Observations and Suggestions for Foreigners
 
-Compared to Japan, South Korea, Singapore, and other East Asian countries, Taiwan's competitive education culture shares similarities but also has its own distinctiveness.
+### Understanding Taiwan's Education Culture
 
-### Western Models
-
-Drawing on the educational equality ideals of Nordic countries, the diverse development models of the United States, and Germany's vocational education experience.
-
-### Innovative Experiments
-
-Referencing Finland's education reform experience, exploring education models that reduce competition and enhance creativity.
-
-## Observations for Foreigners
-
-### Understanding Taiwanese Educational Culture
-
-**Valuing education:** Taiwan society's high regard for education
-**Intense competition:** The social atmosphere of admissions competition
-**Family investment:** Heavy family investment in education
+Foreign observers are often surprised by the number of hours Taiwanese students spend studying and the density of cram schools. Behind this level of commitment is a deep family faith in education and a cultural logic that tightly links academic credentials with personal value. Understanding this background helps explain Taiwanese work ethic and the way they hold themselves to high standards.
 
 ### Participating in Taiwan's Education
 
-**International schools:** Educational options for expatriate children
-**Mandarin learning:** Opportunities to study Chinese in Taiwan
-**Cultural exchange:** Participating in educational and cultural exchange activities
+Children of expatriates can choose international schools such as Taipei American School, or enter the international divisions of local schools. Opportunities to learn Chinese in Taiwan are relatively abundant; the government offers various Chinese language scholarships and programs. Educational and cultural exchange is also an important pillar of Taiwan's diplomatic soft power.
 
-## Further Reflection
+## Further Reflections
 
-Taiwan's education system reflects a society's values and methods for cultivating talent. From a highly competitive admissions culture to education reforms emphasizing diverse development, Taiwanese education is undergoing an important transition.
+Taiwan's education system reflects a society's values and methods for cultivating talent. From a highly competitive admissions culture to education reform emphasizing adaptive development, this transition has not been smooth.
 
-How to create a more diverse, more human-centered educational environment while maintaining educational quality and competitiveness is a key question for the future development of Taiwanese education. The experiences and lessons from this process carry significant reference value for other societies facing similar challenges.
+How to create a more humane learning environment while maintaining educational quality and competitiveness is the core test facing Taiwan's education. How Taiwan finds its own educational path in global competition while nurturing the next generation with both international vision and local identity is worth watching over the long term.
 
-Education is not only the transmission of knowledge — it is also the shaping of values and the passing down of culture. How Taiwan can maintain its educational character amid global competition while cultivating the next generation with both international perspective and local identity is a question worth continuing to observe and reflect upon.
+**Further Reading:**
 
-**Further reading:**
+- [Rural Education in Taiwan](/society/台灣偏鄉教育) — If you want to see the full picture of educational inequality, from children, schools, and family communities to visions of social success, this is the broader panorama.
+- [Teach For Taiwan (TFT)](/society/為台灣而教TFT) — This focuses on an organization that practically responds to the rural education gap, supplementing the context of actors and controversies.
+- [Taiwan's Declining Birth Rate Crisis](/society/台灣少子化危機) — Beyond the admissions system and competition culture, declining birth rates are also rewriting school survival and the allocation of educational resources.
+- [Za School (雜學校)](/society/雜學校) — An alternative education carnival that grew out of the 318 Sunflower Movement, representing a concrete site of imagination beyond the admissions-dominated system.
 
-- Taiwan's Remote Area Education — If you want to see educational inequality in full — from children to schools to family and community to societal conceptions of success — that article offers the larger panorama.
-- [Teach For Taiwan (TFT)](/en/society/taiwan-slash-generation) — This article focuses on one organization actually responding to the remote education gap, adding the dimension of actors and controversy.
-- Taiwan's Low Birth Rate Crisis — Beyond the admissions system and competitive culture, the declining birth rate is also rewriting school survival and the distribution of educational resources.
+[^1]: Ministry of Education Department of Statistics, "Higher Education Enrollment Statistics," https://stats.moe.gov.tw/
+[^2]: Ministry of Education, "12-Year Basic Education Policy Overview," https://www.moe.gov.tw/
+[^3]: Ministry of Education, "108 Curriculum Guidelines General Principles," https://www.naer.edu.tw/
+[^4]: OECD, "PISA 2022 Results," https://www.oecd.org/pisa/
+[^5]: Ministry of Education Department of Statistics, "Education Statistics Inquiry Network," https://stats.moe.gov.tw/
 
 ## References
 
-- Huang Cheng-chieh, _Reflections on Taiwan's Education Reform_ (related work available at Books.com.tw)
-- Yang Ssu-wei, _Policy Analysis of 12-Year Basic Education_ (related research available at the [Education Research Collection](https://www.edubook.com.tw/OAtw/File/PDf/49202.pdf))
-- [Ministry of Education Official Website](https://www.moe.gov.tw/) — related policy documents
-- School administrative and statistical data at all levels
-- Related research reports and assessments on education reform
+- Huang Cheng-chieh (黃政傑), *Reflections on Education Reform in Taiwan* (台灣教育改革的省思), https://www.books.com.tw/products/0010471343
+- Yang Ssu-wei (楊思偉), *Analysis of 12-Year Basic Education Policy* (十二年國民基本教育政策解析) (related research available at https://www.edubook.com.tw/OAtw/File/PDf/49202.pdf)
+- Official policy documents from the [Ministry of Education website](https://www.moe.gov.tw/)
+- School administration information and statistical data at all levels
+- Education reform-related research reports and evaluations
