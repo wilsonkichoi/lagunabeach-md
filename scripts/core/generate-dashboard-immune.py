@@ -376,15 +376,76 @@ def compute_drift_velocity(articles: list[dict]) -> tuple[float, dict]:
     }
 
 
-def compute_plugin_health_placeholder() -> tuple[float, dict]:
-    """Plugin self-health placeholder for B-line.
+def compute_plugin_health() -> tuple[float, dict]:
+    """Meta-health: plugin self-health monitoring (Phase 7 — B-line).
 
-    v1: returns 80 (good but not perfect, indicating sensor exists but no
-    longitudinal data yet). Real implementation in Phase 7 / meta-health.py.
+    Per design report §2.B. Per-plugin metrics:
+      - plugin_age_days: git log %ai of plugin .py file
+      - editorial_age_days: git log %ai of EDITORIAL.md (shared canonical)
+      - drifted: EDITORIAL changed < 14d ago AND plugin > 30d unchanged
+        (符號：規範改了但工具沒跟上)
+
+    Plugin health score = % of plugins NOT drifted.
+
+    Future scope (not in Phase 7 v1):
+      - per-section EDITORIAL drift (needs EDITORIAL_REF parsing per plugin)
+      - false_positive_rate (needs opt-in contributor labeling)
+      - last_run_days (needs cron / pre-commit log persistence)
+      - violation_trend_7d (needs longitudinal snapshots)
     """
-    return 80, {
-        "note": "placeholder — full meta-health subsystem in Phase 7",
-        "plugin_count": 18,  # current as of 2026-05-16
+    editorial_days = _git_last_modified_days(
+        str(EDITORIAL_FILE.relative_to(REPO_ROOT))
+    )
+    if editorial_days is None:
+        editorial_days = 999
+
+    DRIFT_EDITORIAL_RECENT = 14  # EDITORIAL changed within N days = "recent"
+    DRIFT_PLUGIN_STALE = 30      # Plugin unchanged for N days = "stale"
+
+    plugin_details = []
+    drifted_count = 0
+    total = 0
+
+    for plugin_file in sorted(PLUGINS_DIR.glob("*.py")):
+        if plugin_file.name == "__init__.py":
+            continue
+        total += 1
+        plugin_days = _git_last_modified_days(
+            str(plugin_file.relative_to(REPO_ROOT))
+        )
+        if plugin_days is None:
+            plugin_days = 999
+
+        drifted = (
+            editorial_days < DRIFT_EDITORIAL_RECENT
+            and plugin_days > DRIFT_PLUGIN_STALE
+        )
+        if drifted:
+            drifted_count += 1
+
+        plugin_details.append({
+            "plugin": plugin_file.stem,
+            "plugin_age_days": plugin_days,
+            "drifted": drifted,
+        })
+
+    fresh_count = total - drifted_count
+    score = (fresh_count / total * 100) if total else 0
+
+    return round(score, 1), {
+        "plugin_count": total,
+        "fresh_count": fresh_count,
+        "drifted_count": drifted_count,
+        "editorial_age_days": editorial_days,
+        "drift_thresholds": {
+            "editorial_recent_days": DRIFT_EDITORIAL_RECENT,
+            "plugin_stale_days": DRIFT_PLUGIN_STALE,
+        },
+        "plugins": plugin_details,
+        "note": (
+            "Phase 7 v1 — per-plugin drift only. Future: per-section EDITORIAL,"
+            " false-positive-rate, longitudinal violation trend."
+        ),
     }
 
 
@@ -418,9 +479,9 @@ def main():
     drift_score, drift_detail = compute_drift_velocity(articles)
     print(f"   drift_velocity: {drift_score}", file=sys.stderr)
 
-    # 5. plugin_health (B-line placeholder)
-    plugin_health_score, plugin_health_detail = compute_plugin_health_placeholder()
-    print(f"   plugin_health (placeholder): {plugin_health_score}", file=sys.stderr)
+    # 5. plugin_health (Phase 7 — B-line meta-health)
+    plugin_health_score, plugin_health_detail = compute_plugin_health()
+    print(f"   plugin_health (meta-health): {plugin_health_score}", file=sys.stderr)
 
     # ── Weighted total ───────────────────────────────────────────────────────
     components = {
