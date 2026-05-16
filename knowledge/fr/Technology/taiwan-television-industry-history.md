@@ -17,10 +17,10 @@ author: 'Taiwan.md Translation Team'
 featured: true
 lastVerified: 2026-03-31
 translatedFrom: 'Technology/台灣電視產業史.md'
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:60dba661ebede1ab'
-sourceBodyHash: 'sha256:fe2616d81bff1a07'
-translatedAt: '2026-05-09T06:31:03Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:f8c3d1432bd47fe6'
+sourceBodyHash: 'sha256:48b4e5475f2d12a8'
+translatedAt: '2026-05-16T22:35:54Z'
 ---
 
 > **En 30 secondes :** Lancée en 1962, la télévision taïwanaise a d'abord été verrouillée par le parti, l'armée et l'État pendant trente ans. En 1998, la création de PTS — première chaîne publique réellement indépendante — marque un tournant. En 2016, la Q-Series affiche seulement 0,5 % d'audience, mais elle libère le drama taïwanais du carcan des soap operas et des feuilletons ruraux. Ces 54 ans racontent, avant tout, la question de qui détient le droit de raconter des histoires.

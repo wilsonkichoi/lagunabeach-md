@@ -12,10 +12,10 @@ featured: true
 lastVerified: 2026-03-24
 lastHumanReview: true
 translatedFrom: "Geography/台灣海岸地形與海洋地景.md"
-sourceCommitSha: "3e53281a"
-sourceContentHash: "sha256:e54550587495a0bf"
-sourceBodyHash: 'sha256:d5f36e528ad6bbba'
-translatedAt: "2026-05-10T00:00:00Z"
+sourceCommitSha: "d6e87d07"
+sourceContentHash: 'sha256:8973e8b56e7201bf'
+sourceBodyHash: 'sha256:a8f819c22dc292c1'
+translatedAt: "2026-05-16T22:36:54Z"
 ---
 
 > **En 30 secondes :** Du sommet de Yushan (3 952 m) jusqu'à la fosse de Ryukyu (-7 507 m) au large de la côte est, le dénivelé vertical dépasse 11 000 mètres pour une distance horizontale inférieure à 150 kilomètres. Ce chiffre fait de Taïwan l'une des îles au gradient topographique le plus abrupt du monde — une densité verticale supérieure à celle qu'on obtiendrait en projetant l'Everest dans la fosse des Mariannes. Et tout cela s'est forgé en seulement cinq millions d'années.

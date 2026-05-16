@@ -10,10 +10,10 @@ featured: true
 lastVerified: 2026-03-31
 lastHumanReview: true
 translatedFrom: 'Technology/台灣電視產業史.md'
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:60dba661ebede1ab'
-sourceBodyHash: 'sha256:fe2616d81bff1a07'
-translatedAt: '2026-05-09T06:34:07Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:f8c3d1432bd47fe6'
+sourceBodyHash: 'sha256:48b4e5475f2d12a8'
+translatedAt: '2026-05-16T22:35:34Z'
 ---
 
 > **30秒概要：** 1962年にテレビ台湾（TTV）が開局し、台湾はテレビ時代に入った。1998年に公視が設立され、初の非商業公共メディアが誕生した。2016年に植劇場は視聴率0.5%という数字ながら、台湾ドラマをアイドルドラマと郷土ドラマの枠組みから押し出した。「党政軍独占」から「優しい革命」へ——台湾テレビ産業の54年は、誰が物語を語る権利を持つのかという歴史である。

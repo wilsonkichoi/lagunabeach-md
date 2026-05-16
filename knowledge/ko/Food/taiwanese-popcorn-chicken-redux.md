@@ -9,10 +9,10 @@ author: 'Taiwan.md Translation Team'
 featured: false
 lastVerified: 2026-04-01
 translatedFrom: 'Food/台灣鹽酥雞.md'
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:25b7970725befa60'
-sourceBodyHash: 'sha256:19321f0a09e11670'
-translatedAt: '2026-05-09T06:27:06Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:a54abab6676ccb01'
+sourceBodyHash: 'sha256:bf15a5bb73dd04e3'
+translatedAt: '2026-05-16T22:35:46Z'
 ---
 
 > **30초 요약:** 옌수지(鹽酥雞)는 대만을 대표하는 서민 튀김 요리다. 1975년 천팅즈(陳廷智)가 타이베이 시먼딩에서 첫 노점을 열었으며, 독특한 양념 레시피와 후추소금, 바질 잎으로 튀긴 닭 조각은 삽시간에 입소문을 탔다[^1]. 50년이 지난 지금 옌수지 노점은 골목 구석구석에 자리 잡고 있으며, CNN은 두 차례나 이것을 "대만에서 반드시 먹어야 할 음식"으로 선정했다[^2]. 하지만 옌수지의 진짜 매력은 맛 자체보다 그 존재 방식에 있다 — 가게도, 간판도 없이 포장마차 하나, 기름 한 솥, 바질 한 움큼으로 영업하는 '심야 기반 시설'.

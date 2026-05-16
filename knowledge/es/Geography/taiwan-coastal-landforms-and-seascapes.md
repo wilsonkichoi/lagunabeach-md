@@ -18,10 +18,10 @@ lastVerified: '2026-03-24'
 lastHumanReview: true
 readingTime: 10
 translatedFrom: 'Geography/台灣海岸地形與海洋地景.md'
-sourceCommitSha: '3e53281a'
-sourceContentHash: 'sha256:e54550587495a0bf'
-sourceBodyHash: 'sha256:d5f36e528ad6bbba'
-translatedAt: '2026-05-10T00:00:00Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:8973e8b56e7201bf'
+sourceBodyHash: 'sha256:a8f819c22dc292c1'
+translatedAt: '2026-05-16T22:35:47Z'
 ---
 
 > **Panorama en 30 segundos:** Desde la cumbre del Monte Yu (3.952 m) hasta la Fosa de Ryukyu en el mar oriental (-7.507 m), la diferencia vertical supera los 11.000 metros en una distancia horizontal de menos de 150 kilómetros. Esta cifra convierte a Taiwán en una de las islas con mayor gradiente topográfico del planeta —más "concentrado" que saltar desde el Everest hasta la Fosa de las Marianas—. Y todo esto ocurrió en solo 5 millones de años.

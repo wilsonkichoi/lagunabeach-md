@@ -17,10 +17,10 @@ featured: false
 lastVerified: 2026-04-28
 lastHumanReview: false
 translatedFrom: 'Society/台灣海外僑民與離散社群.md'
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:273b605321194083'
-sourceBodyHash: 'sha256:5b0c5e70e93cb4b0'
-translatedAt: '2026-05-09T06:31:03Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:5ad18a83d0ab46f1'
+sourceBodyHash: 'sha256:dc26781150e83c1c'
+translatedAt: '2026-05-16T22:35:54Z'
 ---
 
 > **En 30 secondes :** On estime qu'environ deux millions de citoyens taïwanais vivent à l'étranger, répartis entre les États-Unis, l'Asie du Sud-Est, l'Europe et le Japon. Ce qui rend ce groupe singulier, c'est qu'à ce jour, Taïwan ne dispose d'aucun système de vote à distance pour les non-résidents : à chaque élection, voter signifie acheter un billet d'avion et retourner dans son lieu de résidence enregistrée. La carte de cette diaspora s'étend des exilés politiques des années 1960 à la Fédération mondiale des associations de compatriotes taïwanais fondée à Vienne en 1974, en passant par l'organisation de lobbying de base FAPA née à Los Angeles en 1982, à laquelle s'ajoutent le retour au pays des ingénieurs de la Silicon Valley, les questionnements identitaires de la deuxième génération, formant ensemble une tranche cachée de l'histoire démocratique de Taïwan.

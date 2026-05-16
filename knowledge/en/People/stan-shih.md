@@ -11,8 +11,8 @@ lastVerified: 2026-03-22
 lastHumanReview: false
 translatedFrom: 'People/施振榮.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:92cf9b04314eac9b'
-sourceBodyHash: 'sha256:dce1b037c6c4a498'
+sourceContentHash: 'sha256:487d1e61a16e9b30'
+sourceBodyHash: 'sha256:bea7bd5b0ffc4d42'
 translatedAt: '2026-05-16T22:19:17Z'
 ---
 

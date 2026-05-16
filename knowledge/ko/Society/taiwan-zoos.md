@@ -21,10 +21,10 @@ category: 'Society'
 lastVerified: 2026-04-25
 lastHumanReview: false
 translatedFrom: Society/台灣有哪些動物園.md
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:a558fb79ea3bf17b'
-sourceBodyHash: 'sha256:6dee4b17705f8ffa'
-translatedAt: '2026-05-09T06:27:06Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:7d6b8df8619d617f'
+sourceBodyHash: 'sha256:3ad428e65e8569d6'
+translatedAt: '2026-05-16T22:35:46Z'
 ---
 
 # 대만에는 어떤 동물원이 있나: 가장 오래된 곳은 무자가 아니고, 가장 큰 곳도 단순한 동물원이 아니다
@@ -32,7 +32,6 @@ translatedAt: '2026-05-09T06:27:06Z'
 ## 30초 개요
 
 > **30초 개요:** 무자(木柵)만 떠올린다면 대만 동물원의 진짜 매력을 놓치게 된다. 대만의 공립 동물원은 세 곳뿐이다: 타이베이, 신주, 가오슝 수산. 그러나 사립 야생동물원, 수족관, 해양 테마파크까지 포함하면 이 지도에는 최소 열 곳의 기억할 만한 거점이 있다. 가장 반직관적인 사실은, "대만에서 가장 오래된 곳"에 두 가지 답이 있다는 것이다: 타이베이 동물원은 1914년 기관 설립 기준으로 가장 오래되었고, 신주 동물원은 1936년부터 현재 부지에서 운영 중인 현존 최고(最古)의 동물원이다.
-
 ---
 
 ## 섬 안의 동물원 지도

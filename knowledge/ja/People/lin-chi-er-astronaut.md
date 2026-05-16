@@ -15,10 +15,10 @@ imageCredit: 'NASA/Bill Stafford'
 imageLicense: 'Public domain (NASA)'
 imageSource: 'https://commons.wikimedia.org/wiki/File:Kjell_Lindgren_in_EMU_(cropped).jpg'
 translatedFrom: 'People/林琪兒.md'
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:38e432704206edeb'
-sourceBodyHash: 'sha256:96d6f6c73259912b'
-translatedAt: '2026-05-09T06:34:07Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:ed644880c93bcac8'
+sourceBodyHash: 'sha256:4fd6e96bb27bc80b'
+translatedAt: '2026-05-16T22:35:34Z'
 ---
 
 > **30秒でわかる概要：** 林琪兒（チェル・N・リングレン、Kjell N. Lindgren）は1973年に台北で生まれました。父は台中清泉崗（チンチュアンガン）に駐留していた米空軍将校、母・張楚筠（ジャン・チュユン）は武漢にルーツを持ち幼少期に政府と共に台湾に渡りました。2歳半で台湾を離れ、少年時代をイングランドとバージニアで過ごしました。空軍士官学校を卒業後に飛行訓練に入ったものの、喘息の誤診によって飛行士の夢が断たれ、医学の道へ転向。約11年後にNASAの健診で再検査を受け、診断が覆り、2009年に3,565人の中からNASA第20期宇宙飛行士に選ばれました。国際宇宙ステーション（ISS）でレッド・ロメインレタスを栽培し、船内でプラスチック製バグパイプを演奏して友人を悼み、SpaceX クルー4「フリーダム号」の船長を務め、通算312日5時間11分宇宙に滞在しました。2026年4月、「フリーダム250」として訪台し、総統府で「私のNASA宇宙飛行士としてのキャリアは台湾から始まった」と述べました。

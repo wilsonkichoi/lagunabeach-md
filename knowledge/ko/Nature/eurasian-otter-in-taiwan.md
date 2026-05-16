@@ -19,10 +19,10 @@ readingTime: 10
 lastVerified: 2026-04-25
 lastHumanReview: false
 translatedFrom: Nature/水獺.md
-sourceCommitSha: '3e53281a'
-sourceContentHash: 'sha256:321d097dbb83cd33'
-sourceBodyHash: 'sha256:248f2fda20ea4369'
-translatedAt: '2026-05-10T12:00:00Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:06078f29307a4c77'
+sourceBodyHash: 'sha256:cd4c66affdcc4144'
+translatedAt: '2026-05-16T22:35:46Z'
 ---
 
 # 대만 수달: 금문 유라시아 수달의 고립된 섬 생존기와 본조의 조용한 소멸

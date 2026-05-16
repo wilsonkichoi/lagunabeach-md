@@ -12,8 +12,8 @@ lastVerified: 2026-03-22
 lastHumanReview: false
 translatedFrom: 'People/陳偉殷.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:6b7e4f91c9d8e7c0'
-sourceBodyHash: 'sha256:dcb79e520722938f'
+sourceContentHash: 'sha256:ffd25b21bdd9c278'
+sourceBodyHash: 'sha256:7ce7a4f8a7dcd5c0'
 translatedAt: '2026-05-16T22:19:17Z'
 ---
 

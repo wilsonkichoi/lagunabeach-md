@@ -20,10 +20,10 @@ readingTime: 8min
 lastVerified: 2026-04-27
 lastHumanReview: ''
 translatedFrom: Music/農村武裝青年.md
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:61f3e48a075a45a9'
-sourceBodyHash: 'sha256:8a72ef4e738ab17c'
-translatedAt: '2026-05-09T06:27:06Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:eb6f1df3d28721d6'
+sourceBodyHash: 'sha256:a7bd89eaeb441ced'
+translatedAt: '2026-05-16T22:35:46Z'
 ---
 
 # 농촌무장청년
@@ -103,7 +103,6 @@ translatedAt: '2026-05-09T06:27:06Z'
 이 말은 천천히 읽을 가치가 있다. 그가 말하는 혁명이란 무언가를 남기고, 기억이 사라지지 않게 하는 것이다. 그 정의 속에서, 수이향 삼합원에 앉아 토지의 리듬을 다시 배우려는 사람과 카이달란 대로에서 노래하는 사람은 같은 일을 하고 있는 것이다.
 
 아다의 귀향은 사회운동 안에서 논란이 없었던 것은 아니다. 어떤 활동가에게 이는 퇴장을 의미했고, 다른 이에게 이는 대만 토지 이슈에 원래 여러 갈래의 길이 있었음을 의미했다. 이 갈등을 농촌무장청년이 해결하지도, 회피하지도 않았다.
-
 ---
 
 누군가 아다에게 물었다. 아직 사회운동을 하고 있느냐고.

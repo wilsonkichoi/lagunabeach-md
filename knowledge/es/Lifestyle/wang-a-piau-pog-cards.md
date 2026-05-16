@@ -18,10 +18,10 @@ lastVerified: 2026-04-27
 lastHumanReview: false
 featured: false
 translatedFrom: Lifestyle/尪仔標.md
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:ba5e9d32f7d28511'
-sourceBodyHash: 'sha256:cac04e52e2b818d6'
-translatedAt: '2026-05-09T06:27:14Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:20a6968836a636ac'
+sourceBodyHash: 'sha256:b413f755105bbf3c'
+translatedAt: '2026-05-16T22:35:47Z'
 ---
 
 > **Panorama en 30 segundos:** Desde la década de 1950, el "wang-a-piao" (尪仔標) en Taiwán era el juego de los niños y también una medida de estatus entre compañeros: cuantas más cartas se coleccionaban, mayor peso social se tenía en el patio escolar después de clase. Estas cartas de papel, originarias del juego de hojas chino (葉子戲) e inspiradas en los juguetes infantiles japoneses, pasaron de fabricarse en metal a plástico, con patrones que iban desde títeres de bolsa hasta cómics, y con diversas formas de juego, albergando la memoria colectiva de varias generaciones de taiwaneses. Lo más singular es que, en Taiwán, incluso los panfletos electorales podían ser transformados por los niños en "wang-a-piao", convirtiéndose en armas alternativas en el campo de batalla infantil.

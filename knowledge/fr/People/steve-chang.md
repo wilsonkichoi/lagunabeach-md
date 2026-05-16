@@ -1,71 +1,94 @@
 ---
-title: 'Chang Ming-Zheng'
-description: 'Fondateur de Trend Micro, pionnier mondial de la cybersécurité et figure emblématique de l'internationalisation de l'industrie logicielle taïwanaise'
+title: "Steve Chang : diplômé en mathématiques de l'université Fu Jen, il a vendu des logiciels antivirus au monde entier"
+description: "Né en 1954, Steve Chang est diplômé en mathématiques de l'université Fu Jen Catholique, puis a obtenu un master en informatique à l'université Lehigh aux États-Unis. En 1988, à 34 ans, il cofonde Trend Micro avec Eva Chen à Los Angeles. Le 18 août 1998, Trend Micro est cotée à la Bourse de Tokyo (4704) et la même année au Nasdaq, devenant la première entreprise de logiciels taïwanaise cotée au Japon. En 2007, il crée Flow Social Enterprise, puis fonde la Ming Yi Foundation en 2019, orientant son parcours de la cybersécurité vers l'entreprise sociale."
 date: 2026-03-19
-tags: ['Trend Micro', 'cybersécurité', 'industrie logicielle', 'internationalisation']
-subcategory: 'Technologies et entreprises'
-category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime:
-featured:
-lastVerified: 2026-03-19
+author: "Taiwan.md"
+category: "People"
+subcategory: "科技與企業"
+tags: ["科技與企業", "趨勢科技", "資安產業", "軟體業", "國際化", "社會企業"]
+readingTime: "# design_rationale:\n#   why_this_hook: \"從學歷的精確度切入——輔仁大學數學系而非東海大學，這個細節代表整篇文章的可信度。一個從台灣出發卻把防毒軟體賣給全世界的人，值得精確記錄起點。\"\n#   whats_excluded: \"趨勢科技各年度財報；在台美日各地辦公室人數；個人資產\"\n#   where_it_hedges: \"PC-cillin 1991早期技術僅描述基本功能，不使用2008才有的「雲端掃毒」術語\""
+lastVerified: 2026-05-07
+lastHumanReview: false
+featured: false
 translatedFrom: "People/張明正.md"
-sourceCommitSha: "a05d2431"
-sourceContentHash: "sha256:0f8933e82bc3abdb"
-sourceBodyHash: 'sha256:eebbee99bcaa9b88'
-translatedAt: "2026-04-14T19:14:57+08:00"
+sourceCommitSha: "0ea5d5d42"
+sourceContentHash: "sha256:365bf8fd6ef321e1"
+sourceBodyHash: "sha256:3b4ede69ff2b8fe3"
+translatedAt: "2026-05-17T05:34:56+08:00"
 ---
 
-# Chang Ming-Zheng : gardien de la sécurité dans le monde numérique
+# Steve Chang : diplômé en mathématiques de l'université Fu Jen, il a vendu des logiciels antivirus au monde entier
 
-Chang Ming-Zheng (né en 1954) est le fondateur et PDG de Trend Micro, une figure pionnière de l'industrie mondiale de la cybersécurité. Actif dans le développement logiciel depuis les années 1980, il a bâti une entreprise qui figure aujourd'hui parmi les trois plus grandes sociétés de cybersécurité au monde — faisant de lui un modèle d'internationalisation pour toute l'industrie logicielle taïwanaise.
+> **En 30 secondes :** Steve Chang, né en 1954, est diplômé en mathématiques de l'université Fu Jen Catholique, puis obtient un master en informatique à l'université Lehigh aux États-Unis.[^1] En 1988, à 34 ans, il cofonde Trend Micro avec Eva Chen à Los Angeles, spécialisée dans le développement de logiciels pour ordinateurs personnels.[^1] En 1991, Trend Micro lance l'antivirus PC-cillin. Le 18 août 1998, l'entreprise est cotée à la Bourse de Tokyo (code 4704) et la même année au Nasdaq,[^2] devenant la première entreprise de logiciels taïwanaise cotée au Japon. En 2007, il crée Flow Social Enterprise, puis fonde la Ming Yi Foundation en 2019.[^3]
 
-## Le rêve entrepreneurial d'un ingénieur logiciel
+## Diplômé en mathématiques de l'université Fu Jen, pas de l'université Tunghai
 
-Né en 1954, Chang Ming-Zheng est diplômé du département de mathématiques de l'université Tunghai. Dans les années 1980, alors que l'ordinateur personnel faisait ses premiers pas, il perçut avec acuité l'immense potentiel du secteur logiciel. À l'époque, Taïwan misait principalement sur la fabrication matérielle et l'industrie du logiciel n'en était qu'à ses balbutiements — une raison de plus pour souligner la perspicacité de ce choix.
+Steve Chang est diplômé en mathématiques de l'université Fu Jen Catholique, puis obtient un master en informatique à l'université Lehigh aux États-Unis.[^1] De nombreux articles mentionnent à tort « l'université Tunghai » — les archives originales de Wikipédia font foi.
 
-En 1988, à l'âge de 34 ans, Chang Ming-Zheng et son épouse Chen Yi-Hua fondèrent Trend Micro à Los Angeles, avec pour vocation le développement de logiciels pour ordinateurs personnels. Aux débuts de l'aventure, les moyens étaient limités : Chang Ming-Zheng cumulait lui-même les fonctions de développeur, commercial et chargé du support client, témoignant de la résilience et de la détermination qui caractérisent tout entrepreneur.
+Dans les années 1980, à l'aube de l'ère de l'ordinateur personnel, il perçoit avec lucidité l'immense potentiel de l'industrie du logiciel. À cette époque, Taïwan est dominée par la fabrication de matériel informatique, et l'industrie du logiciel n'en est qu'à ses balbutiements. Le choix de Steve Chang s'avère visionnaire.
 
-## Précurseur de la protection antivirus
+La formation en mathématiques trouve un écho direct dans la logique de la cybersécurité : le cœur des problèmes de sécurité réside dans les algorithmes et l'analyse statistique. L'identification des signatures de virus par un logiciel antivirus exige une précision dans la logique de comparaison, et pas seulement une maîtrise de la programmation. Ce bagage disciplinaire est la raison fondamentale pour laquelle Steve Chang a pu comprendre les produits logiciels au niveau technique.
 
-Dans les années 1990, avec la démocratisation de l'ordinateur personnel et l'essor d'Internet, les virus informatiques se multiplièrent rapidement. Chang Ming-Zheng saisit cette opportunité de marché et orienta l'entreprise vers la spécialisation dans les logiciels antivirus. Ce choix stratégique permit à Trend Micro de prendre une longueur d'avance sur un marché de la cybersécurité encore en pleine émergence.
+## 1988 : Trend Micro, Los Angeles
 
-En 1991, Trend Micro lança PC-cillin, un logiciel antivirus s'appuyant sur une technologie d'analyse en nuage alors novatrice. Ce produit rencontra le succès non seulement sur les marchés asiatiques, mais s'imposa également en Europe et en Amérique du Nord. Les décisions techniques et la stratégie produit de Chang Ming-Zheng posèrent ainsi les fondations du développement futur de l'entreprise.
+En 1988, Steve Chang, 34 ans, et son épouse Eva Chen fondent Trend Micro à Los Angeles, spécialisée dans le développement de logiciels pour ordinateurs personnels.[^1] Au début de l'aventure, les fonds sont limités et Steve Chang cumule les rôles de programmeur, commercial et service client.
 
-## Une stratégie d'ancrage profond sur les marchés asiatiques
+Le choix de Los Angeles plutôt que Taïwan répond à une logique de marché : à la fin des années 1980, l'industrie du logiciel taïwanaise est centrée sur la sous-traitance et manque d'écosystème pour développer des logiciels grand public. Los Angeles les rapproche du marché nord-américain et facilite l'accès à la communauté des utilisateurs d'ordinateurs personnels de la diaspora asiatique. Ce choix initial constitue une condition précoce du déploiement ultérieur de Trend Micro en Amérique du Nord, en Europe et au Japon.
 
-Contrairement à bon nombre d'entreprises technologiques taïwanaises, Chang Ming-Zheng choisit très tôt de s'enraciner durablement sur les marchés asiatiques. Convaincu que les besoins en cybersécurité des pays d'Asie différaient de ceux d'Europe ou d'Amérique du Nord, il paria sur des solutions davantage localisées. Cette stratégie permit à Trend Micro d'établir une présence solide au Japon, en Corée du Sud et en Chine.
+## 1991 : PC-cillin
 
-En 1998, Trend Micro fut introduite à la Bourse de Tokyo, devenant ainsi la première société logicielle taïwanaise cotée au Japon. Cette étape permit à l'entreprise de lever des capitaux pour son développement, tout en représentant une avancée symbolique majeure pour l'internationalisation de l'industrie logicielle taïwanaise.
+En 1991, Trend Micro lance l'antivirus PC-cillin, centré sur des fonctions de base de détection et de protection contre les virus. Ce produit rencontre un succès sur le marché asiatique et établit la notoriété de la marque en Europe et en Amérique du Nord.
 
-## L'innovation technologique au service de la sécurité dans le nuage
+La stratégie commerciale de PC-cillin cible les utilisateurs d'ordinateurs personnels, avec une interface conviviale et des frais de licence modérés pour conquérir le marché grand public. Au début des années 1990, les virus informatiques commencent à représenter une menace réelle pour les utilisateurs ordinaires. Trend Micro lance son produit à ce moment précis, se positionnant sur la courbe de demande la plus précoce du marché des antivirus.
 
-À l'aube des années 2000, face à l'évolution rapide des menaces en ligne, Chang Ming-Zheng engagea Trend Micro dans une transformation vers les technologies de sécurité cloud. Anticipant l'incapacité des antivirus locaux traditionnels à faire face à des cyberattaques toujours plus sophistiquées, il s'attacha à développer des mécanismes de protection plus intelligents et plus réactifs.
+(Note : Ce n'est qu'après le lancement de la plateforme cloud Smart Protection Network en 2008 que Trend Micro entre véritablement dans une architecture de détection antivirus dans le cloud. Le PC-cillin de 1991 est un logiciel de détection traditionnel fonctionnant en local.)
 
-En 2008, Trend Micro lança Smart Protection Network, une plateforme de sécurité cloud intégrant l'évaluation de la réputation des fichiers, celle des URL et la surveillance comportementale. Cette architecture de sécurité innovante valut à Trend Micro une percée décisive sur le marché de la cybersécurité en entreprise.
+## 1998 : La Bourse de Tokyo, une première pour le logiciel taïwanais
 
-## Un déploiement global dans la sécurité d'entreprise
+Le 18 août 1998, Trend Micro est cotée à la Bourse de Tokyo (code 4704), puis la même année au Nasdaq.[^2] C'est la première entreprise de logiciels taïwanaise cotée au Japon, ce qui permet à la fois de lever des fonds pour son développement et constitue une jalon dans l'internationalisation de l'industrie du logiciel taïwanais.
 
-À mesure que la transformation numérique des entreprises s'accélérait, Chang Ming-Zheng fit pivoter Trend Micro des logiciels antivirus grand public vers les solutions de cybersécurité destinées aux organisations. L'entreprise développa une gamme complète couvrant la protection des terminaux, la sécurité réseau, la sécurité cloud et la protection des données.
+Le choix de Tokyo plutôt que New York comme première cotation répond à une logique commerciale claire : le Japon est le marché asiatique avec le plus haut taux de pénétration de l'ordinateur personnel dans les années 1990, et l'un des marchés les plus dynamiques en matière de demande de logiciels de sécurité. La cotation à Tokyo permet à Trend Micro d'établir sa crédibilité auprès des entreprises japonaises, ouvrant la voie à un déploiement approfondi sur le marché corporate japonais.
 
-Ces dernières années, face à l'émergence de nouvelles menaces telles que les APT (menaces persistantes avancées), les rançongiciels et les risques liés à l'Internet des objets, Chang Ming-Zheng n'a cessé de promouvoir l'innovation technologique. Des ressources considérables ont été investies dans l'intelligence artificielle et l'apprentissage automatique, afin que les solutions de sécurité puissent identifier et neutraliser proactivement des menaces encore inconnues.
+À cette époque, les entreprises de logiciels taïwanaises suivent majoritairement le modèle de la sous-traitance matérielle. Steve Chang choisit le logiciel et part directement coter à l'étranger — un parcours qui constitue un cas minoritaire dans l'histoire technologique taïwanaise. La cotation à Tokyo en 1998 n'est pas seulement un événement financier : c'est la démonstration que l'industrie du logiciel taïwanais peut exister de manière autonome sur les marchés financiers internationaux.
 
-## Un conseiller stratégique pour la transformation numérique
+## 2008 : La transition technologique vers la sécurité dans le cloud
 
-Sous la direction de Chang Ming-Zheng, Trend Micro s'est affirmé non seulement comme fournisseur de technologies, mais aussi comme conseiller stratégique accompagnant les entreprises dans leur transformation numérique. L'entreprise a déployé un réseau mondial de renseignement sur les menaces, permettant de fournir aux clients des analyses en temps réel et des recommandations opérationnelles face aux incidents de sécurité.
+En 2008, Trend Micro lance la plateforme de sécurité cloud Smart Protection Network, intégrant des technologies de protection multiples : évaluation de la réputation des fichiers, évaluation de la réputation du réseau, surveillance comportementale.[^4] Cette architecture permet à Trend Micro de réaliser une percée majeure sur le marché de la cybersécurité d'entreprise.
 
-Chang Ming-Zheng s'implique également activement dans les débats mondiaux sur les politiques de cybersécurité, prenant régulièrement la parole lors de conférences internationales pour partager sa vision des tendances en matière de sécurité numérique. Selon lui, la cybersécurité n'est pas qu'une question technique : elle relève aussi de la stratégie d'entreprise et de la responsabilité sociale.
+La transition de la détection locale à la protection cloud intervient au moment où les smartphones commencent à se démocratiser et où la complexité des menaces sur les réseaux d'entreprise augmente rapidement. Trend Micro saisit cette fenêtre d'opportunité et utilise l'architecture cloud pour résoudre les limitations fondamentales des antivirus traditionnels en matière de réponse aux menaces en temps réel. C'est la deuxième transformation accomplie par Steve Chang à la tête de l'entreprise : du marché grand public vers la cybersécurité d'entreprise.
 
-## Un modèle pour l'industrie logicielle taïwanaise
+## À partir de 2007 : Flow Social Enterprise et la Ming Yi Foundation
 
-De la petite startup à la multinationale de la cybersécurité, le parcours entrepreneurial de Chang Ming-Zheng illustre la trajectoire de toute une industrie logicielle taïwanaise. Il a démontré que Taïwan n'est pas seulement compétitive dans la fabrication matérielle, mais dispose également d'atouts réels dans le développement logiciel et l'innovation technologique.
+En 2007, Steve Chang fonde Flow Social Enterprise, dédiée au modèle de l'entreprise sociale — résoudre des problèmes sociaux par des moyens commerciaux, en lien avec les populations vulnérables et le marché de l'emploi. En 2019, il crée la Ming Yi Foundation.[^3]
 
-Le succès de Chang Ming-Zheng constitue une référence précieuse pour les entrepreneurs taïwanais du secteur logiciel qui lui succèdent. En insistant sur l'importance de l'innovation technologique, du positionnement marché et d'une stratégie d'internationalisation structurée, ses principes de gestion restent aujourd'hui d'une grande pertinence.
+Le nom « Flow » (若水, ruò shuǐ) est tiré du *Dao De Jing* de Laozi : « La bonté suprême est comme l'eau ». Steve Chang choisit de fonder une entreprise sociale tout en dirigeant encore les opérations mondiales de Trend Micro. Ce virage n'est pas un passe-temps post-retraite, mais un engagement de long terme développé en parallèle de son activité en cybersécurité. Du logiciel antivirus à la plateforme d'innovation sociale, le moment de ce tournant dans sa carrière commerciale est précoce par rapport à celui de la plupart des entrepreneurs technologiques taïwanais qui s'engagent dans le secteur philanthropique.
 
-Du développeur au pionnier mondial de la cybersécurité, Chang Ming-Zheng a, en plus de trente ans d'efforts, bâti un modèle international pour l'industrie logicielle taïwanaise. Alors que les menaces numériques ne cessent de croître, Trend Micro, l'entreprise qu'il a fondée, continue de protéger la sécurité numérique de centaines de millions d'utilisateurs à travers le monde.
+**Récit courant → Lecture plus précise :** Steve Chang est souvent décrit comme « une figure représentative de l'industrie taïwanaise de la cybersécurité » — ce cadre est exact mais incomplet. Son positionnement plus précis est celui du premier entrepreneur taïwanais à avoir internationalisé avec succès un produit logiciel. À une époque où l'industrie technologique taïwanaise est dominée par la sous-traitance matérielle, le parcours de Trend Micro — R&D logicielle, cotation au Japon, déploiement mondial — constitue le premier modèle de succès de l'industrie du logiciel taïwanais qui se définit elle-même.
 
-## Sources
+> 🎙️ **Note du curateur :** Le parcours entrepreneurial de Steve Chang comporte un aspect rarement abordé dans l'histoire technologique taïwanaise : il n'a pas attendu à Taïwan que les conditions soient réunies, mais a emmené les compétences techniques taïwanaises à Los Angeles, à Tokyo, pour les tester à l'échelle mondiale. Cette logique « d'abord sortir, puis revenir » est la raison fondamentale pour laquelle Trend Micro est devenue la première entreprise de logiciels taïwanaise cotée au Japon.
+>
+> La place de Trend Micro dans l'histoire technologique taïwanaise ne se résume pas à « une entreprise de cybersécurité prospère » : c'est le premier cas prouvant que l'industrie du logiciel taïwanais pouvait exister de manière autonome, en dehors de la sous-traitance matérielle. L'importance de cette démonstration, à mesure que l'industrie du logiciel taïwanais s'est développée par la suite, ne fait que gagner en poids à chaque citation.
+>
+> La date à laquelle il fonde Flow Social Enterprise — en 2007, alors que son entreprise commerciale est encore au sommet — montre que sa compréhension de la « responsabilité d'entreprise » dépasse le cadre standard du « retour à la société après la retraite ».
+>
+> Trend Micro présente un autre aspect rarement discuté dans l'histoire technologique taïwanaise : c'est l'une des rares entreprises mondiales fondée par un Taïwanais, dont le noyau est composé d'ingénieurs taïwanais, mais qui n'est pas étiquetée comme une « entreprise taïwanaise » dans sa gestion locale. Cette « identité taïwanaise invisible » constitue, sur le marché mondial de la cybersécurité, un avantage concurrentiel plutôt qu'une limite.
 
-- [Site officiel Trend Micro : présentation du fondateur](https://www.trendmicro.com/zh-tw/about/leadership/steve-chang) — Biographie officielle du fondateur par Trend Micro
-- [Business Next : série d'entretiens avec Chang Ming-Zheng](https://www.bnext.com.tw/article/45678/trend-micro-ceo-steve-chang-interview) — Reportage approfondi d'un média technologique sur la philosophie de gestion de Chang Ming-Zheng
-- [Information Security Magazine : dossier spécial sur l'histoire de Trend Micro](https://www.informationsecurity.com.tw/article/trend-micro-history) — Récit complet du développement de Trend Micro par un média spécialisé en cybersécurité
+De la faculté de mathématiques de l'université Fu Jen à la création d'entreprise à Los Angeles, de la cotation à Tokyo à la position de leader mondial en cybersécurité, l'histoire de Steve Chang est une illustration précise de la nécessité pour les compétences techniques taïwanaises de « sortir pour trouver leur marché » — il est parti, puis est revenu avec un marché plus vaste.
+
+Trend Micro compte aujourd'hui des bureaux dans plus de 50 pays et emploie plus de 7 000 personnes. Une entreprise de logiciels taïwanaise de cette envergure était quasiment un cas unique à une époque dominée par la sous-traitance matérielle, et constitue le cas de succès d'internationalisation le plus souvent cité de l'industrie du logiciel taïwanais.
+
+Le virage de la seconde moitié de sa vie — de l'entreprise de cybersécurité à l'entreprise sociale — montre qu'il ne considère pas l'entrepreneuriat comme une destination finale, mais comme une méthodologie continue pour tester « quels problèmes méritent d'être résolus par des moyens commerciaux ».
+
+**Pour aller plus loin :** [Trend Micro — Wikipédia](https://zh.wikipedia.org/wiki/趨勢科技) ｜ [CommonWealth Magazine : Steve Chang](https://www.cw.com.tw/article/5080509)
+
+## Références
+
+[^1]: [Wikipédia : Steve Chang](https://zh.wikipedia.org/wiki/張明正) — Confirme le diplôme en mathématiques de l'université Fu Jen Catholique (et non de l'université Tunghai), le master en informatique à Lehigh, et la fondation de Trend Micro à Los Angeles en 1988.
+
+[^2]: [iThome : Reportage sur la cotation de Trend Micro à Tokyo (1998)](https://www.ithome.com.tw/node/4180) — Confirme la cotation à la Bourse de Tokyo le 18 août 1998 (code 4704), la même année au Nasdaq, en tant que première entreprise de logiciels taïwanaise cotée au Japon.
+
+[^3]: [CommonWealth Magazine : Steve Chang et l'entreprise sociale](https://www.cw.com.tw/article/5080509) — Contient des reportages sur la fondation de Flow Social Enterprise en 2007 et de la Ming Yi Foundation en 2019.
+
+[^4]: [Global Views Monthly : La transition cloud de Trend Micro](https://www.gvm.com.tw/article/88357) — Contient des informations sur le lancement de la plateforme cloud Smart Protection Network en 2008 et sur le parcours de transformation technologique de Trend Micro.
+
+[^5]: [Site officiel de Trend Micro : Présentation du fondateur](https://www.trendmicro.com/zh-tw/about/leadership/steve-chang) — Biographie officielle du fondateur Steve Chang et historique du développement de l'entreprise.

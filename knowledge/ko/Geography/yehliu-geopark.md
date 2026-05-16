@@ -9,10 +9,10 @@ readingTime: 8
 lastVerified: 2026-04-26
 lastHumanReview: false
 translatedFrom: Geography/野柳.md
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:c3a5e07241222609'
-sourceBodyHash: 'sha256:f144a1eb91bb190f'
-translatedAt: '2026-05-09T06:27:06Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:061c7b5484113eed'
+sourceBodyHash: 'sha256:e080c9e068d13667'
+translatedAt: '2026-05-16T22:35:46Z'
 ---
 
 > **30초 개요:**
@@ -57,7 +57,6 @@ translatedAt: '2026-05-09T06:27:06Z'
 오늘날 야류에는 "발랄한 공주" 등 후계 지광이 등장하여 관광 열기를 이어가려 하고 있다. 그러나 여왕머리의 이야기가 대만인에게 가르쳐준 것은 어떻게 관광을 발전시킬 것인가가 아니라, 되돌릴 수 없는 소멸에 어떻게 직면할 것인지일지도 모른다. 우리가 여왕머리 앞에서 줄을 서서 사진을 찍을 때, 우리가 담는 것은 단순한 랜드마크가 아니라 생애 주기를 완성해가는 디지털 예술작품이다.
 
 언젠가 여왕은 정말로 고숙하여 퇴장할지도 모른다. 그러나 그 전까지, 그녀는 여전히 그곳에 있으며, 한때 "악마"라 불리던 바다를 바라보고, 이 섬의 변천과 인간의 온기를 증언하고 있다.
-
 ---
 
 ### 참고 문헌

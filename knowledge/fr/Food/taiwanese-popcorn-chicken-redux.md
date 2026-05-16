@@ -9,10 +9,10 @@ author: 'Taiwan.md Translation Team'
 featured: false
 lastVerified: 2026-04-01
 translatedFrom: 'Food/台灣鹽酥雞.md'
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:25b7970725befa60'
-sourceBodyHash: 'sha256:19321f0a09e11670'
-translatedAt: '2026-05-09T06:31:03Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:a54abab6676ccb01'
+sourceBodyHash: 'sha256:bf15a5bb73dd04e3'
+translatedAt: '2026-05-16T22:35:54Z'
 ---
 
 > **En 30 secondes :** Le salt-and-pepper chicken (鹽酥雞, _yán sū jī_) est la référence absolue de la friture populaire à Taïwan. En 1975, Chen Ting-zhi installe son premier étal à Ximending, Taipei : des morceaux de poulet marinés selon une recette de famille, frits jusqu'au croustillant parfait, puis saupoudrés de sel au poivre et de basilic thaï[^1]. Cinquante ans plus tard, les étals fleurissent à chaque coin de rue, dans chaque marché nocturne et chaque quartier résidentiel. CNN l'a deux fois sélectionné parmi les « aliments indispensables de Taïwan »[^2]. Mais ce qui rend ce plat vraiment unique, ce n'est pas son goût — c'est son rôle d'infrastructure nocturne : pas de boutique, pas d'enseigne, une charrette, une cuve d'huile, une poignée de basilic, et c'est parti.

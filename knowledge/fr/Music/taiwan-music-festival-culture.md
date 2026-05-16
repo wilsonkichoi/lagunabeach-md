@@ -11,10 +11,10 @@ readingTime: 10
 lastVerified: 2026-03-29
 lastHumanReview: false
 translatedFrom: "Music/台灣音樂祭文化.md"
-sourceCommitSha: "3e53281a"
-sourceContentHash: "sha256:005a4c23ff74281f"
-sourceBodyHash: 'sha256:cf3f4e933a5718b8'
-translatedAt: "2026-05-10T00:00:00Z"
+sourceCommitSha: "d6e87d07"
+sourceContentHash: 'sha256:05a94f16d833d02e'
+sourceBodyHash: 'sha256:7c772c535d0e1d4c'
+translatedAt: "2026-05-16T22:36:54Z"
 ---
 
 **La culture des festivals de musique à Taïwan est née en 1995, lorsque deux Américains ont dressé une scène de fortune sur la plage de Kenting. En trente ans, elle a évolué pour donner naissance à des événements aussi distincts que Spring Scream, le Hohaiyan Rock Festival et le Megaport Festival. Dans les années 2020, cette île moins grande que les Pays-Bas accueille plus de cinquante festivals par an. Une telle densité ne s'explique pas par la simple loi de l'offre et de la demande : il s'agit plutôt d'un rituel collectif, d'une façon pour toute une génération de trouver sa voix en plein air.**

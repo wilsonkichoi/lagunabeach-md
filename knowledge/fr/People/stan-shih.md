@@ -10,10 +10,10 @@ readingTime: 8
 featured: false
 lastVerified: 2026-03-22
 translatedFrom: "People/施振榮.md"
-sourceCommitSha: "3e53281a"
-sourceContentHash: "sha256:92cf9b04314eac9b"
-sourceBodyHash: 'sha256:dce1b037c6c4a498'
-translatedAt: "2026-05-10T00:00:00Z"
+sourceCommitSha: "d6e87d07"
+sourceContentHash: 'sha256:487d1e61a16e9b30'
+sourceBodyHash: 'sha256:bea7bd5b0ffc4d42'
+translatedAt: "2026-05-16T22:36:54Z"
 ---
 
 > **En 30 secondes :** Stan Shih, fondateur d'Acer, est le seul grand patron taïwanais à avoir publiquement reconnu des pertes cumulées dépassant les cent milliards de dollars taïwanais (TWD). La filiale Deki Semiconductor a à elle seule établi un record national avec cinq milliards de pertes. Pourtant, sa théorie de la « courbe du sourire » reste un cas d'école dans les business schools du monde entier, et elle a profondément influencé la stratégie de Taïwan dans sa transition du modèle de sous-traitance vers celui de la marque propre.

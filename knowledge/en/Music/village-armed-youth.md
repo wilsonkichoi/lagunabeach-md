@@ -19,8 +19,8 @@ lastVerified: 2026-04-27
 lastHumanReview: false
 translatedFrom: 'Music/農村武裝青年.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:61f3e48a075a45a9'
-sourceBodyHash: 'sha256:8a72ef4e738ab17c'
+sourceContentHash: 'sha256:eb6f1df3d28721d6'
+sourceBodyHash: 'sha256:a7bd89eaeb441ced'
 translatedAt: '2026-05-16T22:19:17Z'
 ---
 

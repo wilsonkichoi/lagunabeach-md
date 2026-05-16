@@ -10,10 +10,10 @@ lastVerified: 2026-05-01
 lastHumanReview: false
 subcategory: '國際關係'
 translatedFrom: 'Society/台灣海外僑民與離散社群.md'
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:273b605321194083'
-sourceBodyHash: 'sha256:5b0c5e70e93cb4b0'
-translatedAt: '2026-05-09T06:34:07Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:5ad18a83d0ab46f1'
+sourceBodyHash: 'sha256:dc26781150e83c1c'
+translatedAt: '2026-05-16T22:35:34Z'
 ---
 
 > **30秒概観：** 台湾の海外在住市民は約200万人にのぼり、アメリカ、東南アジア、ヨーロッパ、日本などに散らばっている。この集団の特異な点は、台湾には今も不在者投票制度がなく、大統領選のたびに投票したければ飛行機に乗って戸籍地まで帰らなければならないことだ。この離散コミュニティの地図は、1960年代の政治的亡命者、1974年ウィーンで設立された世界同郷会連合会（WFTA）、1982年ロサンゼルスで生まれた草の根ロビー組織FAPA、そしてシリコンバレーのエンジニアによる知識の還流、さらに第二世代のアイデンティティの葛藤が幾重にも積み重なった、台湾民主主義史の隠れた断面である。

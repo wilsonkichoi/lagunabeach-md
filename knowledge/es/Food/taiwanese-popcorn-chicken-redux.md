@@ -16,10 +16,10 @@ featured: false
 lastVerified: 2026-04-01
 lastHumanReview: true
 translatedFrom: Food/台灣鹽酥雞.md
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:25b7970725befa60'
-sourceBodyHash: 'sha256:19321f0a09e11670'
-translatedAt: '2026-05-09T06:27:14Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:a54abab6676ccb01'
+sourceBodyHash: 'sha256:bf15a5bb73dd04e3'
+translatedAt: '2026-05-16T22:35:47Z'
 ---
 
 > **Resumen en 30 segundos:** El pollo salado crujiente (鹽酥雞, _yánsūjī_) es el aperitivo frito más representativo de Taiwán. En 1975, Chen Ting-chih instaló el primer puesto en la calle de Ximending, en Taipéi, y popularizó los trozos de pollo frito con un adobo especial, espolvoreados con sal de pimienta y albahaca tailandesa (_hóng tiān jiǔ_). Medio siglo después, los puestos de pollo salado crujiente se encuentran en cada esquina, mercado nocturno y barrio residencial de la isla. CNN lo eligió dos veces entre los "alimentos que Taiwán no puede perder", pero lo verdaderamente singular no es su sabor, sino su existencia como "infraestructura nocturna": no necesita local ni letrero, basta un carrito, una olla de aceite y un manojo de albahaca tailandesa para abrir.

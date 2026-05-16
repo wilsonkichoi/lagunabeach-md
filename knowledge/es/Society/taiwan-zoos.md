@@ -21,10 +21,10 @@ category: 'Society'
 lastVerified: 2026-04-25
 lastHumanReview: false
 translatedFrom: Society/台灣有哪些動物園.md
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:a558fb79ea3bf17b'
-sourceBodyHash: 'sha256:6dee4b17705f8ffa'
-translatedAt: '2026-05-09T06:27:14Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:7d6b8df8619d617f'
+sourceBodyHash: 'sha256:3ad428e65e8569d6'
+translatedAt: '2026-05-16T22:35:47Z'
 ---
 
 # ¿Cuáles son los zoológicos de Taiwán: el más antiguo no está en Muzha, y el más grande no es solo un zoológico

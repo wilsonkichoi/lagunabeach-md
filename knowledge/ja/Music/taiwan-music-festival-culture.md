@@ -19,10 +19,10 @@ readingTime: 10
 lastVerified: 2026-03-29
 lastHumanReview: false
 translatedFrom: 'Music/台灣音樂祭文化.md'
-sourceCommitSha: '3e53281a'
-sourceContentHash: 'sha256:005a4c23ff74281f'
-sourceBodyHash: 'sha256:cf3f4e933a5718b8'
-translatedAt: '2026-05-10T18:00:00Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:05a94f16d833d02e'
+sourceBodyHash: 'sha256:7c772c535d0e1d4c'
+translatedAt: '2026-05-16T22:35:34Z'
 ---
 
 **台湾の音楽祭文化は、1995年に墾丁で2人のアメリカ人が設けた手作りのステージから始まり、30年の間に春天吶喊、海洋音楽祭、大港開唱といったまったく異なる形態へと進化しました。2020年代には、オランダより小さな面積のこの島で、年間50回以上の音楽祭が開催されています。これは市場の需要だけでは説明できる規模ではなく、むしろ一種の集団儀式に近いものです。一世代の若者が屋外で自分たちの声を見つける方法として。**

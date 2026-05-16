@@ -21,10 +21,10 @@ lastVerified: 2026-03-22
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/陳偉殷.md'
-sourceCommitSha: '3e53281a'
-sourceContentHash: 'sha256:6b7e4f91c9d8e7c0'
-sourceBodyHash: 'sha256:dcb79e520722938f'
-translatedAt: '2026-05-10T18:00:00Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:ffd25b21bdd9c278'
+sourceBodyHash: 'sha256:7ce7a4f8a7dcd5c0'
+translatedAt: '2026-05-16T22:35:34Z'
 ---
 
 > **30秒概覽：** チェン・ウェイインは、日本プロ野球から直接メジャーリーグへ移籍した初の台湾出身投手です。

@@ -10,10 +10,10 @@ lastVerified: '2026-03-22'
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/施振榮.md'
-sourceCommitSha: '3e53281a'
-sourceContentHash: 'sha256:92cf9b04314eac9b'
-sourceBodyHash: 'sha256:dce1b037c6c4a498'
-translatedAt: '2026-05-10T18:00:00Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:487d1e61a16e9b30'
+sourceBodyHash: 'sha256:bea7bd5b0ffc4d42'
+translatedAt: '2026-05-16T22:35:34Z'
 ---
 
 > **30秒概覧：** エイサー創業者の施振榮は、台湾で唯一千億台湾ドル超の損失を公に認めた企業の教父であり、

@@ -9,10 +9,10 @@ readingTime: 10
 lastVerified: 2026-04-19
 lastHumanReview: 2026-04-19
 translatedFrom: People/郭金發.md
-sourceCommitSha: '3e53281a'
-sourceContentHash: 'sha256:9249bda4ae2408de'
-sourceBodyHash: 'sha256:db9995896174da37'
-translatedAt: '2026-05-10T12:00:00Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:ffef27b2909f9d95'
+sourceBodyHash: 'sha256:b629819d5dc38d6a'
+translatedAt: '2026-05-16T22:35:46Z'
 ---
 
 > **📝 큐레이터 노트**
@@ -56,7 +56,6 @@ translatedAt: '2026-05-10T12:00:00Z'
 > 일부 평론가들은 금상(金曲獎) 등 국가급 시상이 궈진파오 같은 전통 대만어 가수의 공헌을 오랫동안 간과했으며, 그가 사망한 후에야 비로소 광범위한 추모와 논의가 이루어졌다고 지적한다 [^1].
 
 궈진파오의 서거는 대만 엔카 시대의 한 마침표를 찍었다. 그는 생명을 걸고 마지막 노래를 끝까지 불렀으며, 대만 사람들에게 역경 속에서도 여전히 따뜻하고 여전히 굳건한 저음의 여운을 남겼다.
-
 ---
 
 ## 참고 문헌

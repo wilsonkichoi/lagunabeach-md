@@ -18,10 +18,10 @@ featured: true
 lastVerified: 2026-03-31
 lastHumanReview: true
 translatedFrom: Technology/台灣電視產業史.md
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:60dba661ebede1ab'
-sourceBodyHash: 'sha256:fe2616d81bff1a07'
-translatedAt: '2026-05-09T06:27:14Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:f8c3d1432bd47fe6'
+sourceBodyHash: 'sha256:48b4e5475f2d12a8'
+translatedAt: '2026-05-16T22:35:47Z'
 ---
 
 > **Resumen en 30 segundos:** En 1962 se inauguró TTV, y Taiwán entró en la era de la televisión; en 1998 se fundó la televisión pública (PTS), nació el primer medio de comunicación público no comercial; en 2016, Qseries (植劇場), con una audiencia del 0,5 %, logró que el drama taiwanés trascendiera el marco de las telenovelas románticas y las series costumbristas. Del "monopolio del partido, el gobierno y el ejército" a la "revolución suave", los 54 años de la industria televisiva de Taiwán son una historia sobre quién tiene el poder de contar historias.

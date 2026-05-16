@@ -11,10 +11,10 @@ lastVerified: 2026-03-24
 lastHumanReview: true
 featured: true
 translatedFrom: Geography/台灣海岸地形與海洋地景.md
-sourceCommitSha: '3e53281a'
-sourceContentHash: 'sha256:e54550587495a0bf'
-sourceBodyHash: 'sha256:d5f36e528ad6bbba'
-translatedAt: '2026-05-10T18:00:00Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:8973e8b56e7201bf'
+sourceBodyHash: 'sha256:a8f819c22dc292c1'
+translatedAt: '2026-05-16T22:35:34Z'
 ---
 
 > **30秒概要：** 玉山山頂（3,952メートル）から東方沖の琉球海溝（-7,507メートル）までの垂直落差は11,000メートルを超え、水平距離は150キロメートル未満です。この数字は、台湾を世界で最も地形勾配が急な島の一つにしています——エベレストの頂上からマリアナ海溝に飛び込むよりも「凝縮」されています。そして、これが実現するまでにかかった時間はわずか500万年です。

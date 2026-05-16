@@ -9,10 +9,10 @@ featured: false
 lastVerified: 2026-04-01
 lastHumanReview: true
 translatedFrom: 'Food/台灣鹽酥雞.md'
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:25b7970725befa60'
-sourceBodyHash: 'sha256:19321f0a09e11670'
-translatedAt: '2026-05-09T06:34:07Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:a54abab6676ccb01'
+sourceBodyHash: 'sha256:bf15a5bb73dd04e3'
+translatedAt: '2026-05-16T22:35:34Z'
 ---
 
 > **30秒でわかる：** 塩酥雞は台湾を代表する庶民の揚げ物料理である。1975年、陳廷智が台北の西門町に最初の屋台を出し、独自の漬けダレで鶏肉を揚げ、胡椒塩と九層塔（タイバジル）を振りかけて大ヒットした[^1]。50年後、塩酥雞の屋台は台湾全土のあらゆる角、夜市、住宅街に広がり、CNNは二度にわたり「台湾になくてはならない食べ物」に選出した[^2]。しかし、塩酥雞の最も特筆すべき点は味ではない——「深夜のインフラ」としての存在方式である。店舗も看板も不要で、一台の屋台、一つの油鍋、一束の九層塔で営業が成り立つ。

@@ -10,10 +10,10 @@ featured: false
 lastVerified: 2026-04-28
 lastHumanReview: false
 translatedFrom: Society/台灣海外僑民與離散社群.md
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:273b605321194083'
-sourceBodyHash: 'sha256:5b0c5e70e93cb4b0'
-translatedAt: '2026-05-09T06:27:06Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:5ad18a83d0ab46f1'
+sourceBodyHash: 'sha256:dc26781150e83c1c'
+translatedAt: '2026-05-16T22:35:46Z'
 ---
 
 > **30초 개요:** 타이완에는 약 200만 명의 시민이 해외에 거주하며, 미국, 동남아시아, 유럽, 일본 등에 걸쳐 있다. 이 집단의 특수한 점은 다음과 같다: 타이완은 아직 부재자 투표 제도가 없어, 대선 때 투표하려면 호적지로 직접 비행기를 타고 돌아가야 한다. 이 디아스포라 공동체의 지도는 1960년대의 정치적 망명자, 1974년 빈에서 설립된 세계 타이완 향우 연합회, 1982년 로스앤젤레스에서 탄생한 FAPA 시민 운동 로비 조직에 이르고, 여기에 실리콘밸리 엔지니어의 지식 유입과 2세대의 정체성 혼란이 겹쳐져, 타이완 민주주의 역사의 숨겨진 단면을 형성한다.

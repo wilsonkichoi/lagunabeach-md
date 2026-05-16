@@ -11,10 +11,10 @@ readingTime: 8min
 lastVerified: 2026-04-27
 lastHumanReview: false
 translatedFrom: Music/交工樂隊.md
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:912e5f2bd004672b'
-sourceBodyHash: 'sha256:f78b7564231803ab'
-translatedAt: '2026-05-09T06:27:06Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:c3347c2a085cddc9'
+sourceBodyHash: 'sha256:8f0c4cf2e72a96b9'
+translatedAt: '2026-05-16T22:35:46Z'
 ---
 
 # 교공밴드(交工樂隊)
@@ -95,7 +95,6 @@ translatedAt: '2026-05-09T06:27:06Z'
 2016년, 《국화야행군》 발매 15년 후, 린셩샹과 좡윈펑은 더블 디스크 리믹스 버전을 발매하고 폐연초건조장으로 돌아가 콘서트를 열었다[^4]. 3,000명이 참석했다. 그때 야행버스를 타고 북상했던 향민들 중 다수는 이미 흰머리가 되었다. 국화밭은 아직 남아 있지만, 짓는 사람은 줄었다.
 
 천수이볜(陈水扁)이 2000년에 임기 중 메이농 댐을 건설하지 않겠다고 발표했다[^3]. 운동은 승리했다. 하지만 교공밴드가 그 4년에 기록한 그 농촌은 여전히 쇠퇴하고 있다.
-
 ---
 
 ## 더 읽기

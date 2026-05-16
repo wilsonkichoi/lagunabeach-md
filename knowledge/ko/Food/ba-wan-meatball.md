@@ -9,10 +9,10 @@ readingTime: 12
 lastVerified: 2026-04-26
 lastHumanReview: false
 translatedFrom: Food/肉圓.md
-sourceCommitSha: 'eb7c1efb'
-sourceContentHash: 'sha256:22ebfc00834f45b9'
-sourceBodyHash: 'sha256:9aeb87e8879e5d29'
-translatedAt: '2026-05-09T06:27:06Z'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:6de8df7e037bf580'
+sourceBodyHash: 'sha256:4ab47a31d7ad3c5f'
+translatedAt: '2026-05-16T22:35:46Z'
 ---
 
 > **30초 개요:**
@@ -68,7 +68,6 @@ translatedAt: '2026-05-09T06:27:06Z'
 범씨 가문(완자생, 완자서)의 지팡이에 매어 길거리에서 외치던 시절부터 오늘날 타이완 전역에 완자 가게가 즐비하게 들어선 지금, 심지어 영화 《그해, 우리가 함께 쫓던 소녀》의 청춘 배경이 되기까지[^2], 완자는 '구약삼지'에서 '국민의 기억'으로 변모했다.
 
 핑동(屏東)에서는 최근 '완자 문화제'를 열어 찜 완자의 기름지지 않고 담백한 지역 미학을 강조하고 있다[^9]. 지금 우리는 에어컨 밑에서 쫄깃한 껍질과 향긋한 속의 완자를 맛보면서 120년 전 그 캄캄한 수해를 상상하기 어렵다. 그러나 특유의 세 손가락 자국, 그 설거지 국물의 여운은 우리에게 일깨워준다: 타이완 간식의 영혼은 역사의 고난과 인간의 인내에 뿌리내리고 있으며, 우리가 먹는 것은 단순한 맛이 아니라 이 섬이 역경 속에서도 꽃을 피워내는 생존의 지혜라는 것을.
-
 ---
 
 **참고 자료:**
