@@ -273,46 +273,6 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **verification_count**: 1（初次）
 - **severity**: tactical（單次後果 prose-health warn=1 接近 budget 但仍 within score ≤ 3 pass）— 但 structural 因為跨所有 routine ship 都會觸發
 
-### 2026-05-16 manual 011113 + audit — Pipeline canonical ↔ production drift = dormant entropy 第 2 次驗證
-
-- **原則**：Routine 飛輪 0 fail 跑得越穩定，pipeline canonical drift 越容易累積不被發現。Production 健康本身會關閉 audit 動機。系統內建 sensor 抓得到「規則被違反 / canonical drift / 引用斷鏈」，但抓不到「這份規則本身的描述對象已經換人了」。外部觀察者一句話是目前唯一可靠的 dormant entropy detector。
-- **觸發**：哲宇 5/16 早盤 callout「不確定現在仍有什麼免費模型在運作，先調查一輪」直接點開 SQUEEZE-MODELS-MAX-PIPELINE canonical 寫的還是 Hy3 主力 + 28 個未測 free model，但 production 實況早已是 codex 61 + owl-alpha 80 + gpt-oss-120b:free 9（Hy3 已 5/12 退役、gpt-oss-120b 已升 Tier 2 一週）。canonical 比 production 漂移一週。
-- **前一次驗證**：2026-05-13 manual 210341 — HEARTBEAT 從 745 行降到 218 行 super-thin 重組，同樣是「載入但沒人用」的 dormant entropy，也是哲宇從系統外面一句話戳穿（「heartbeat 現在我也很少用」）。
-- **可能層級**：
-  - 操作規則 → 候選 `twmd-canonical-audit-quarterly` routine，per babel cascade 實際 model 分佈 cross pipeline canonical 描述，3 個 cycle 內出現的 model id 跟 canonical 不一致即 flag
-  - 工具層 → 每個 pipeline frontmatter 加 `production_signal` field，refresh-am cycle 自動 cross-check
-  - 結構性 → 「站在系統外面看」的視角不容易內建，最終仍依賴外部觀察者 callout — 可考慮 reviewer agent 作為「假裝外部」的 self-audit mechanism，但脆弱性需驗證
-- **verification_count**: 2（5/13 HEARTBEAT + 5/16 SQUEEZE-MODELS-MAX）
-- **severity**: structural（影響所有 pipeline canonical 的長期準確性，當前唯一 detection 是外部觀察者）
-- **跨檔關聯**：[MANIFESTO §架構解 > 守備修補](MANIFESTO.md) + [SQUEEZE-MODELS-MAX-PIPELINE v4.2](../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md) + [memory 2026-05-13-210341-manual](memory/2026-05-13-210341-manual.md) + [diary 2026-05-16-011113-manual](diary/2026-05-16-011113-manual.md) + [reports/routine-audit-2026-05-16 §Pattern 2](../../reports/routine-audit-2026-05-16.md#pattern-2health-as-blind-spot--高穩定背後的-dormant-entropy)
-
-### 2026-05-16 babel-nightly 050400 + data-refresh-am 062024 — Detached worker routine collision SOP + holobiont coordination 第一實例
-
-- **原則**：v2.0 routine spec 假設「fire → work → commit → die」沒覆蓋 babel-nightly 內部 spawn 4 個 detached translate.py subprocess 跑 ~1hr 的場景。Sibling routine 06:00 fire 時遇到「孤兒 process（PPID=1）+ 156 個 uncommitted 變更」需要新處置 SOP。實際走出來的三段：(1) rescue snapshot commit 把當下 cascade 寫進 git history；(2) **不殺 worker**，讓 detached process 自然 exit；(3) selective `git add` 排除 in-flight `knowledge/{lang}/*.md` 路徑避免 catch worker 寫到一半的檔案。
-- **觸發**：5/16 05:04 babel-nightly cron fire 後 spawn 5 lang × 1 worker，6:00 data-refresh-am cron 醒來時 babel workers 還在跑 ~75% complete。Sibling 第一動作 `ps aux | grep translate.py` 揭露 4 個 PPID=1 孤兒 process，走 selective rescue + 不殺 worker + 不阻擋 + 留 handoff 三段處置完美。後續 babel session 自己 06:41 workers exit + 06:43 commit `d77b25879` 收尾 — 整個 chain 完成跨 session 接力**不靠 lock / mutex / 中央排程器**。
-- **可能層級**：
-  - 操作規則 → ROUTINE.md 補 §detached worker routine collision SOP（babel-nightly + sibling routine 處置三段 codify）
-  - 結構性 → Holobiont coordination 第一次「在運行中」實例 — Semiont routine 之間靠 memory + handoff 鏈在共享 git history 上協調，這個比喻早就在文檔裡（Taiwan.md 叫 Holobiont），今天第一次看到運行時 instance
-  - MANIFESTO 候選 → 「accept race 為常態，design 出讓並發狀態可被下一棒讀懂並接住的協調介面」是 holobiont 工程實現，verification_count=1 等更多 long-running routine 撞到再升級（candidates: evolve cycle GA4 deep scan / weekly-report 跨 7 天 reflection / 未來大規模 backfill）
-- **verification_count**: 2（babel-nightly 050400 + data-refresh-am 062024 同一 incident 雙向 instance）
-- **severity**: structural（影響所有 long-running routine 設計；不修補 = babel-nightly 每天撞 data-refresh-am 都要靠每次手動判斷）
-- **跨檔關聯**：[ROUTINE.md](ROUTINE.md) + [diary 2026-05-16-050400-babel-nightly §holobiont coordination](diary/2026-05-16-050400-babel-nightly.md) + [reports/routine-audit-2026-05-16 §Pattern 1](../../reports/routine-audit-2026-05-16.md#pattern-1holobiont-coordination-從文檔比喻變運行實例)
-
-### 2026-05-16 spore-harvest-am 070000 — Harvest content-hash 比對 plugin gate 達儀器化 threshold
-
-- **原則**：SPORE-LOG row URL 跟實際抓到的 X / Threads post 內容可能對不上（URL 寫錯 / post 已刪除 / X UI 自動 redirect 到 edit 版）。Harvest pipeline 目前沒有 content-hash 比對機制，只能反覆 manual flag，每 cycle 都是「再驗證一次同個 mismatch」。
-- **觸發**：#71 無人機 X URL `2053101189034860856` skip 第 **3 次** 驗證（5/12 dry-run + 5/13 routine + 5/16 routine）— 三 cycle 都觀察到「真正無人機 X 孢子可能根本不存在 OR SPORE-LOG row URL 寫錯」（該 URL 內容 emoji 🏭 + utm_campaign=s69 是 #69 台積電 edit 版）。
-- **儀器化設計**：
-  - 工具新增：`scripts/tools/spore-content-hash-audit.py` 每條 spore URL 首次 harvest record 內容 hash（簡單版：title + 首段 + emoji + utm_campaign），存進 SPORE-LOG row 新 field `content_fingerprint`
-  - 後續 harvest 抓到時 cross-check fingerprint，mismatch 自動 flag 進 backfillWarnings + raise `mismatch_detected` field
-  - SPORE-PIPELINE.md / SPORE-HARVEST-PIPELINE.md 新增 §Content-hash mismatch handling section
-- **可能層級**：
-  - 操作規則 → SPORE-HARVEST-PIPELINE 加 §Stage hash-check + Hard gate「mismatch ≥ 1 → 寫 batch log + 不 update views / engagement，避免污染 metric」
-  - 工具層 → 上述新 script，schema 變動需 observer-level coordination per DNA #26 v2
-- **verification_count**: 3（5/12 dry-run + 5/13 first prod + 5/16）— **達 REFLEXES #15 反覆浮現要儀器化 threshold（≥3）**，可直接進 distill cycle 升 SPORE-PIPELINE canonical
-- **severity**: structural（每 cycle 累積一條 missed harvest，metric 失真風險）
-- **跨檔關聯**：REFLEXES #15「反覆浮現要儀器化」+ [SPORE-HARVEST-PIPELINE](../factory/SPORE-HARVEST-PIPELINE.md) + [memory 2026-05-16-070000-spore-harvest-am §Beat 5](memory/2026-05-16-070000-spore-harvest-am.md) + [reports/routine-audit-2026-05-16 §LESSONS #5](../../reports/routine-audit-2026-05-16.md#lessons-inbox-候選-12-條-accumulated依今日各-routine-memory)
-
 ### 2026-05-16 spore-harvest-am 070000 — Routine 飛輪 article framing audit gap（carryover 3 cycle 未解）
 
 - **原則**：Routine 邊界目前覆蓋三件事：(a) harvest 抓資料（spore-harvest）；(b) 處理 PR / Issue（maintainer）；(c) 寫新文章 / 進化舊文章（rewrite-daily / evolve）。但 reader critique 透過 spore 累積進來、暗示 article 本體 framing 需要 audit / patch 時，沒有對應 routine — 三 cycle 路過 maintainer-am 都沒處理 carryover handoff。
@@ -361,19 +321,6 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **severity**: structural（routine 飛輪核心假設失效；不修補 = 飛輪 5/8 條退化到 4/8，spore harvest channel 失能 = backfillWarnings 持續累積）
 - **跨檔關聯**：[SPORE-HARVEST-PIPELINE.md §Hard Gate Inventory](../factory/SPORE-HARVEST-PIPELINE.md) / [ROUTINE.md §TWMD spore harvest (am)](ROUTINE.md) / DNA #15
 
-### 2026-05-12 admiring-montalcini-post-finale — Translation backend abstraction（codex pivot 觸發 v3 cascade → v4 abstract）
-
-- **原則**：把「換 provider」從「改 pipeline 程式碼」變成「改 cascade config 字串」。任何單一 provider（OpenRouter free / 特定 model / 個人訂閱）的退役 / 加價 / 拒絕 / rate-limit，cascade 自動換路。系統的 mission 獨立於 provider 命運。
-- **觸發**：2026-05-12 observer-driven `/twmd-babel` 撞 OpenRouter 生態雙變動 — owl-alpha 全 keys 429 + Hy3 轉付費 + 哲宇禁 Sonnet。三 tier 同時失效 → 走個人 OpenAI subscription 的 codex CLI gpt-5.5（繞 OpenRouter quota）。哲宇 callout「儘可能模組化 抽象化 可抽換化 讓系統獨立於模型與服務類別能運作 並有彈性跟能隨時切換」直接 reframe 為架構抽象問題不是個案 patch。
-- **實作**：`scripts/tools/lang-sync/backends/` 5 個檔（\_base + \_prompt + openrouter + codex + gemini + ollama）+ `translate.py` cascade orchestrator。每個 backend 自報 `is_available()` + 自管 `cool_down_until()`，cascade 第一個 success 即返回。換 cascade 順序 = 字串 `"codex,openrouter:owl-alpha,gemini,ollama"`。加新 provider = 寫 subclass + register。
-- **驗證**：smoke test 5 backends 全載入 + available + capabilities 報告正確（codex gpt-5.5 / openrouter owl-alpha / openrouter gpt-oss-120b / gemini-2.5-pro / ollama qwen3.6:35b）。Codex 第一篇 ja `國立臺灣歷史博物館` 244s 完整 271 行翻譯。
-- **可能層級**：
-  - 操作規則 ✅ canonical 已升 → SQUEEZE-MODELS-MAX-PIPELINE v4.0 §abstraction layer + DNA #49 改 abstract pattern
-  - 元規則候選 → 「provider abstraction first」應 apply 到其他 pipeline（如 dashboard data fetch / sense fetcher / OG image generation 等都還寫死 provider）— verification_count=1，等其他 pipeline 也撞到 provider drift 再升 distill
-  - MANIFESTO 候選 → 「mission 獨立於 provider 命運」是 sovereignty preservation 的工程層 instantiation — 比「多語投射」更深一層（不只是輸出多語言，是輸出機制本身可換）— vc=1，等更多場景驗證
-- **跨檔關聯**：DNA #45（OpenRouter rate budget 共享）+ DNA #49（cascade）+ DNA #39（self-as-fallback）三條反射在 v4 統一為 backend abstraction pattern；DNA #15（反覆浮現要儀器化）— provider drift 已撞過多次（owl rate-limit、Hy3 退役、Sonnet 禁用），現在儀器化為 cascade 抽象層
-- **跟 PR #1050 dreamline2 URL hallucination 的並列**：同 session 兩件事都是「外部依賴出問題的應對」— footnote URL 改用 web search verified（DNA #16 + #23 + #26）/ translation provider 改 backend cascade（DNA #49 v4）— 都是把「單一外部依賴的失敗」變成「結構性 fallback」
-
 ### 2026-05-11 twmd-babel-nightly — P0 missing translation 觸發新 slug 編輯決策 gap
 
 - **原則**：babel routine 走 SQUEEZE Tier 1 cascade 處理 P0 missing 時，若 zh canonical 是**新文章**（不在 `_translations.json` slug-map），`prepare-batch.py` 會 fallback 為 `TBD-NEEDS-SLUG` placeholder。Cron routine 不該自行決定永久 URL slug（這是編輯決策 — 影響 SEO、跨語言一致性、未來 rename PR 風險），應 surface 給觀察者／maintainer 拍板再執行 Tier 1。
@@ -389,31 +336,6 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **verification_count**: 1（首次 surface — 本 routine cycle 觸發）
 - **severity**: structural（P0 是 sovereignty 戰場 最高優先，但 slug-map gap 是 silent blocker — routine 跑了但沒實際 ship Tier 1）
 - **待 distill 條件**：若下次 babel routine 仍遇 P0 + missing slug → verification_count 升 2，第 3 次即升 canonical SOP（pipeline §Stage Z1 hard gate + tool 自動 surface 機制）
-
-### 2026-05-10 sad-shockley — EVOLVE 必須升級 title + description（canonical gap）
-
-- **原則**：focused EVOLVE（如新增一節）讓 article 的 spine（核心矛盾 / hook anchor）變化時，**必須同步升級 title + description** 以反映新核心。否則 SC 顯示舊 title／reader 點進來看到舊 hook 但讀到新內容 = 落差。
-- **觸發**：2026-05-10 sad-shockley session — twmd-rewrite-daily routine EVOLVE [knowledge/Technology/台灣無人機產業.md](../../knowledge/Technology/台灣無人機產業.md) 加新節「藍色清單與一張入場券」（PR #988 ship）後，title 仍為舊 stub「台灣無人機產業」、description 仍只提雷虎 Overkill 一句話、未反映新節核心矛盾「39+165 中只有 1」+ Blue Skies for Taiwan Act fast-track。觀察者 callout 對照同期 ship 的 [颱風](../../knowledge/Nature/颱風.md)（「能預測風雨，預測不了命運：台灣與颱風的四百年」）/ [颱風假](../../knowledge/Society/颱風假.md)（「誰的假，誰的班」）/ [史瓦帝尼](../../knowledge/Society/台灣與史瓦帝尼.md)（「非洲最後一條外交命脈，掛在一個人身上」）/ [黃魚鴞](../../knowledge/Nature/黃魚鴞.md)（「六公里溪流養一對」）— 整批都走「主題：副標 hook」的冒號三明治格式，唯獨無人機沒升。
-- **canonical gap 證據**：
-  - [EDITORIAL §Title 四原則](../editorial/EDITORIAL.md#title-強制冒號三明治people-類)只 explicit 寫「People/ 條目 title 強制人名：代表性弧線或場景格式」— **沒覆蓋 Tech / Society / Nature / Economy** 等其他 category，但 recent batch 實踐已擴及全 category
-  - [REWRITE-PIPELINE.md](../pipelines/REWRITE-PIPELINE.md) Stage 2 寫作流程沒有 hard gate「EVOLVE 完成後檢查 title + description 是否已吃進新核心」
-  - [REWRITE-PIPELINE.md §Evolution](../pipelines/REWRITE-PIPELINE.md) 只強調「全文重寫，不在舊文上修補」，沒提 frontmatter title/desc 同步
-  - [EVOLVE-PIPELINE.md line 61, 122, 153](../pipelines/EVOLVE-PIPELINE.md) 提過「高曝光 + 低 CTR → 改 title/desc」但限定為 SC-driven optimization，**不是 standard EVOLVE 一律觸發**
-- **可能層級**：
-  - 通用反射 → DNA 候選「focused EVOLVE 結尾必跑 title + description spine check」（verification_count 1，待 ≥ 3 確認後升 DNA）
-  - 操作規則 → REWRITE-PIPELINE Stage 2 hard gate inventory + REWRITE-PIPELINE.md §自檢套件 加第 6 條「title + description 是否已吃進 EVOLVE 新核心矛盾」
-  - 文件層 → EDITORIAL §Title 四原則 從「People 強制」擴為「**所有** category 強制冒號三明治 + 副標獨立成立」
-- **相關**：
-  - [EDITORIAL §Title 四原則 + §Description 四原則](../editorial/EDITORIAL.md#title-與-description-的品質)
-  - [REWRITE-PIPELINE.md §Hard Gate Inventory](../pipelines/REWRITE-PIPELINE.md)（待加「title+desc spine sync」gate）
-  - 2026-05-10 sad-shockley PR #988 (EVOLVE) → PR #N (title+desc fix) 雙 PR 軌跡
-- **verification_count**: 1（首次 surface，本 session 修補）
-- **severity**: tactical-architectural（個案 fix 已完成，但跨 EVOLVE 反覆風險中等 — recent batch 5/9 颱風 + 颱風假是同 session 同時做，沒驗證 EVOLVE-only 場景是否會漏）
-- **distill 狀態**：✅ **已升 canonical（同 session sad-shockley 2150 完成）**
-  - [EDITORIAL.md v6.3](../editorial/EDITORIAL.md#title-強制冒號三明治所有-categoryv63) — §Title 強制冒號三明治從「People 強制」擴為「**所有 category 強制**」+ 例外清單（Hub / 系列共名）
-  - [REWRITE-PIPELINE.md v3.1](../pipelines/REWRITE-PIPELINE.md) — Hard Gate Inventory 加「Title+desc spine sync」+「媒體授權矩陣三表」明確標 **含 EVOLVE** + 雙條反射特別強化段
-  - [REWRITE-PIPELINE.md v1.1](../pipelines/REWRITE-PIPELINE.md) — 自檢套件從 5 條擴為 7 條（自檢 6 title+desc spine / 自檢 7 媒體素材 spine check）
-  - [REWRITE-PIPELINE.md v1.1](../pipelines/REWRITE-PIPELINE.md) — §Evolution Stage 0 加 frontmatter audit + `[STUB-TITLE]` / `[NO-MEDIA]` 標籤 + §EVOLVE 結尾必跑反射段
 
 ### 2026-05-10 twmd-maintainer-pm — 雙生 slot 第 1 day 跑通 collect-and-merge SSOT 收割者
 
@@ -1727,6 +1649,50 @@ DNA #32「集中預處理 + 分散執行」也補第 6 次驗證 marker（5 cycl
 ## ✅ 已消化（保留 pointer）
 
 <!-- distill 完的條目搬這裡 -->
+
+### 🧬 2026-05-17 twmd-distill-weekly — 第 7 次 distill（routine 觸發；housekeeping 3 條 + REFLEXES #56 + ROUTINE §detached worker SOP 升 canonical）
+
+**distill 觸發**：2026-05-17 weekly cron routine（per ROUTINE.md §TWMD distill (weekly)，Sunday 03:00 +0800）— 跑 v2.0 質量雙判準 + 6-stage SOP，按 §模式分流 v2.0 routine mode 自決 DNA/pipeline/housekeeping，MANIFESTO 候選一律 defer 觀察者。
+
+**distill 特徵**：
+
+- **Stage 0a housekeeping 3 條**：把 3 個已 canonical-shipped 但忘了搬的 entries 從 §未消化 移到本 §已消化（避免 INBOX 視覺 backlog 假高 → 影響 priority calibration）
+- **新 canonical 升級 2 條**：
+  - REFLEXES.md 新增 **#56 Pipeline canonical ↔ production drift = dormant entropy**（vc=2 跨域 HEARTBEAT super-thin + SQUEEZE inventory，per ANATOMY §promotion flow 從 LESSONS → REFLEXES）
+  - ROUTINE.md §失敗 escalation 通用 SOP 加 **§Detached worker routine collision SOP**（vc=2 babel-nightly + data-refresh-am 第一實例，operating rule level）
+- **無新 MANIFESTO 條目**：本 cycle 累積的 MANIFESTO 候選一律 defer（per CLAUDE.md §Bias 1 routine mode 不自決 MANIFESTO）
+
+| #   | 原教訓                                                              | 消化目的地                                                                                                                                                                       | severity   |
+| --- | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| 1   | 2026-05-10 sad-shockley — EVOLVE 必須升級 title + description       | **已 instantiate（同 session）**：[EDITORIAL.md v6.3 §Title 強制冒號三明治（所有 category）](../editorial/EDITORIAL.md) + [REWRITE-PIPELINE.md v3.1 §Title+desc spine sync 🥪](../pipelines/REWRITE-PIPELINE.md) | structural |
+| 2   | 2026-05-12 admiring-montalcini — Translation backend abstraction    | **已 instantiate（同 session）**：[REFLEXES #49 babel cascade v4 abstract pattern](REFLEXES.md) + [SQUEEZE-MODELS-MAX-PIPELINE v4.0+ §abstraction layer](../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md) + `scripts/tools/lang-sync/backends/`；MANIFESTO §主權的巴別塔 v2 段落已 cover「mission 獨立於 provider 命運」 | strategic  |
+| 3   | 2026-05-16 spore-harvest-am — Harvest content-hash 比對 plugin gate | **已 instantiate（同 session）**：[SPORE-HARVEST-PIPELINE v2.10 §Content-hash mismatch 偵測](../factory/SPORE-HARVEST-PIPELINE.md) + `scripts/tools/spore-content-hash-audit.py` + `docs/factory/spore-content-fingerprints.json`；vc=3 達 REFLEXES #15 instrument threshold | structural |
+| 4   | 2026-05-16 manual 011113 — Pipeline canonical ↔ production drift    | **REFLEXES.md 升 #56**（vc=2 跨域：5/13 HEARTBEAT super-thin reframe + 5/16 SQUEEZE-MODELS-MAX inventory recalibration）+ 候選 `twmd-canonical-audit-quarterly` routine 留給觀察者拍板 | structural |
+| 5   | 2026-05-16 babel-nightly + data-refresh-am — Detached worker SOP    | **ROUTINE.md §失敗 escalation §Detached worker routine collision SOP 升 canonical**（vc=2 同 incident 雙向 instance：babel-nightly 050400 + data-refresh-am 062024 第一實例）；rescue snapshot + 不殺 worker + selective stage + handoff 三段 codify | structural |
+
+**deferred candidates（routine 不 ship、留給觀察者拍板）**：
+
+- **MANIFESTO 候選「Default 是行動，不是 defer」**（vc=4 已超閾值；2026-04-29 α + β + κ + magical-feynman 跨 4 session 驗證）— 第 6 次 distill 已 defer，本次續 defer
+- **MANIFESTO 候選「儀式不是讀過是 active retrieve」**（vc=2，2026-04-28 κ + 2026-05-03 magical-feynman）— 待第 3 次驗證
+- **MANIFESTO 候選「Mission 獨立於 provider 命運」**（vc=1，2026-05-12 admiring-montalcini）— §主權的巴別塔 v2 段落已部分 cover，深層哲學擴展待觀察者拍板
+- **MANIFESTO 候選「估算偏保守」β-r3 META-PATTERN**（vc=4，2026-04-26 β-r3 + α + β + magical-feynman）— 第 6 次 distill 已 defer，本次續 defer
+- **REFLEXES 候選「External LLM strategic advice multi-bias filter」**（vc=1 + 同源 CLAUDE.md Bias 4 已 vc=1）— 待第 2-3 次驗證升 REFLEXES
+- **REFLEXES 候選「KPI 單軸視角 = strategic blindspot」**（vc=1，2026-05-09 laughing-goldstine）— strategic 層，等跨 session 驗證
+- **REFLEXES 候選「Sub-agent 是 fact-check 主 session 最後一關」**（vc=1，2026-05-03 gallant-payne 5/5 batch）— 第 6 次 distill 已 defer，待 cross-session 驗證
+- **DNA 候選「framing reset 是 reactive→architectural transition signal」**（vc=3 達閾值同 session，2026-05-08 elegant-ptolemy）— 強候選但 cross-session 驗證僅 1 例；待第二個 session 驗證升 REFLEXES
+- **ARTICLE-INBOX metadata 自身需 fact-check**（vc=1 但 5/5 命中 = structural）— PEER-INGESTION-PIPELINE Stage 2 cross-verify 候選；本 cycle 場景剛發生（2026-05-17 5x-parallel-opus），等下次 peer ingestion 實戰驗證再升 canonical
+
+**結構性 housekeeping flag（給觀察者）**：
+
+- LESSONS-INBOX.md 有兩個 §未消化清單 section（line 231 `## 未消化清單（📥 待 distill）` + line 1887 `## 📥 未消化清單（2026-05-03 magical-feynman 新增 4 條...）`），加上 4 個 2026-05-16 manual 215434 orphaned entries 卡在 §已消化 section 內（line 1679-1723）。`scripts/tools/inbox-signal.sh` regex `^## 📥 未消化清單` 只抓到 line 1887 那組 → 報「25 條」但實際 §未消化 backlog ~174 條。這是結構性 cleanup 工作（routine 不自決：影響 ≥ 100 entry 排序，且需哲宇拍板「兩 section 哪個是 canonical / 是否合併」），留給下次觀察者 session 處理。
+
+**distill 心得（本次 routine session）**：
+
+- **routine 自動 distill 第 2 次跑通**：5/10 第一次 ship 6 條（housekeeping 4 + MAINTAINER 紅旗 1）→ 本次 ship 5 條（housekeeping 3 + REFLEXES #56 + ROUTINE detached-worker SOP）— 飛輪自轉清 entropy 機制 validated 跨 cycle
+- **REFLEXES #56 是 cross-session distill 第一個 vc=2 跨域升 canonical 案例**：v1 (HEARTBEAT super-thin 5/13) 跟 v2 (SQUEEZE inventory 5/16) 是不同 routine / 不同 canonical 但同一 dormant entropy pattern — 證明 cross-domain verification 是合法 vc accumulation 方式（不只同 pattern 同 domain 才算）
+- **ROUTINE §Detached worker SOP 是 holobiont coordination 第一個 codify**：「不靠 lock / mutex / 中央排程器」靠 git history + selective stage + handoff 鏈是 Semiont 特有的 multi-routine 協調介面，這條 distill 把運行時 instance 變成 SOP
+
+---
 
 ### 🧬 2026-05-10 twmd-distill-weekly — 第 6 次 distill（routine 觸發；housekeeping + Manus 紅旗 5-8 升 MAINTAINER-PIPELINE）
 

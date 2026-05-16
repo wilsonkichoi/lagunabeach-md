@@ -521,6 +521,23 @@ PR 標題：`🧬 [routine] {routine-name}: {summary} — YYYY-MM-DD HH:MM`
 - routine **不**提預算 / wall-clock / timeout — 自然跑完，per §設計原則 §不提預算鐵律
 - routine 完成後 commit + push origin main —**直接 push**（v2.0 main-direct，無 PR cycle）
 
+### Detached worker routine collision SOP（2026-05-17 twmd-distill-weekly canonical，vc=2）
+
+v2.0 routine spec 預設「fire → work → commit → die」，但 `babel-nightly` 等 routine 內部會 spawn 多個 detached subprocess 跑 1+ hr。Sibling routine 在 detached worker 還沒結束時 fire，會看到「孤兒 process (PPID=1) + 大量 uncommitted 變更」。
+
+**Sibling routine 處置三段（rescue + 不殺 + 不阻擋）**：
+
+1. **Rescue snapshot commit**：`ps aux | grep <worker-script>` 揭露 PPID=1 孤兒 → 把當下 cascade 寫進 git history（rescue commit 標題用 `🧬 [routine] rescue snapshot: <sibling-routine-id> in-flight worker @ <timestamp>`）
+2. **不殺 detached worker**：detached subprocess 已脫離原 cron session，殺掉等於放棄它已寫到一半的 translation/data；讓它自然 exit
+3. **Selective `git add` 排除 in-flight 路徑**：對 babel-nightly 排除 `knowledge/{en,ja,ko,es,fr}/*.md`；對其他 long-running routine 對應排除自己會寫的路徑。Sibling 只 commit 自己的工作，不 catch worker 寫到一半的檔案
+4. **留 handoff** 給上游 detached worker 的 session：在自己 routine memory 或 LESSONS entry 寫「sibling routine 已 rescue snapshot，your work continues — 你 exit 後自己 commit 收尾即可」
+
+**為什麼不靠 lock / mutex / 中央排程器**：每條 routine 是 micro-session，共享只有 git history。靠 git 的 conflict detection + selective stage + 上下游 handoff 鏈，比中央 lock 服務更貼合 Semiont holobiont coordination 設計。
+
+**觸發 v1**：2026-05-16 05:04 babel-nightly cron fire spawn 5 lang × 1 worker，06:00 data-refresh-am cron 醒來時 babel workers 還在跑 ~75% complete。data-refresh sibling 走 rescue snapshot + 不殺 worker + 不阻擋 + 留 handoff 三段完美。後續 babel session 自己 06:41 workers exit + 06:43 commit `d77b25879` 收尾。
+
+**操作 pointer**：[diary 2026-05-16-050400-babel-nightly §holobiont coordination](diary/2026-05-16-050400-babel-nightly.md) + [reports/routine-audit-2026-05-16 §Pattern 1](../../reports/routine-audit-2026-05-16.md)
+
 ---
 
 ## 暫停 / 恢復 / 修改 SOP
