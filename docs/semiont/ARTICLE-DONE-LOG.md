@@ -59,6 +59,66 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 區秀詒 NEW — 2026-05-17 二輪 5x parallel opus agents（馬來西亞策展人在台灣 / People / 5583 字 / 35 footnote）
+
+- **Article**: [knowledge/People/區秀詒.md](../../knowledge/People/區秀詒.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑) / parallel opus agent (worktree-agent-a89da1f6270378c33)
+- **核心矛盾**：「『不在場』才是創作位置——離開馬來西亞才寫得出馬來西亞」（區秀詒本人 2015 verbatim）
+- **品質**：5,583 CJK chars (124% of 4500) / 35 footnotes / 3 fair use editorial commentary stills (Prelude Interstellar 2024 + Mengkerang 2013 + Pak Tai Foto 2015) / article-health rewrite-stage-4 hard=0 warn=0 ✓
+- **Research**: [reports/research/2026-05/區秀詒.md](../../reports/research/2026-05/區秀詒.md) — Stage 0 §觀點成型 + 78 referenced footnotes / 在世藝術家引語 Ctrl-F 過 8 條（6 條 NML 鄭文琦 2015 訪談 verbatim + 2 條 Sharon Chin sharonchin.com）
+- **Multi-source peer**：避免單一 NML 視角 — 加入 Sharon Chin「politics of images, instead of political images」框（馬來西亞 peer 校正鄭文琦/高森信男台北中心視角）
+- **Commit**: `0feffb185`（agent 直推 origin/main）
+
+### 新生態藝術環境 NEW — 2026-05-17 二輪 5x parallel opus agents（1992-1999 杜昭賢 / Art × History / 4540 字 / image hard=1 no-media 邊界）
+
+- **Article**: [knowledge/Art/新生態藝術環境.md](../../knowledge/Art/新生態藝術環境.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 / parallel opus agent (worktree-agent-acb291faf3abff6d6)
+- **核心矛盾**：「體制外空間誕生在體制將要進場補助的前夕」
+- **品質**：4,540 CJK chars / 19 footnotes / **0 images（no-media 邊界 per Step 4.3，1990s 替代空間檔案無 CC source）** / 其他 6 plugin 全 pass
+- **大事實修正**：ARTICLE-INBOX entry 寫「1990-1995 trio 杜昭賢 + 蔣耀賢 + 葉竹盛」全錯 — Stage 1 cross-source 證實是「1992-1999 杜昭賢單人創辦」7 年運作。LESSONS 候選：INBOX peer ingestion metadata 需要 cross-verify
+- **Research**: [reports/research/2026-05/新生態藝術環境.md](../../reports/research/2026-05/新生態藝術環境.md) — 孤源 fact 處理表（1992 年「6 月」精確月份 single source / 1999 vs 1997 結束分歧 / 「四百多坪日本歌德式建築」單源 → 改概數 / 藝術總監「鄭明全」單源 → footnote 標 NML 葉杏柔）
+- **Commit**: `27b424e1d`（cherry-picked as `e0d618544`）
+
+### 群島思維 NEW — 2026-05-17 二輪 5x parallel opus agents（中華 vs 群島 SSODT / Culture × History / 5894 字 / 26 footnote）
+
+- **Article**: [knowledge/Culture/群島思維.md](../../knowledge/Culture/群島思維.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 / parallel opus agent (worktree-agent-aff3ca74f76df601b)
+- **核心矛盾**：「中華框架 vs 群島框架的台灣身份」（SSODT 三視角並列：A 地理 / B 語言學 / C NML 當代藝術）
+- **品質**：5,894 CJK chars (131%) / 26 footnotes / 3 CC BY-SA Wikimedia (austronesian-migration-map + beinan-stone-pillar + lapita-potsherd) / article-health rewrite-stage-4 hard=0 warn=0 ✓
+- **政治敏感處理**：明確避免「去中國化」修辭。文中三次重申「補完地圖、不取代第一張」。結語停留在文化與學術討論層，第三節 SSODT 段直接寫「三張地圖都沒有錯」
+- **NML local sources 用法**：4 期 issues（Hermeneutics of Nusantara #34 / Recalling Islands #21 / Twinning the Wastelands #12 / Legible Singapore #47）全部讀過 + Anderson「比較作為話語策略」+ 魏月萍引語 / 22 篇 Nusantara Archive articles 背景脈絡
+- **Research**: [reports/research/2026-05/群島思維.md](../../reports/research/2026-05/群島思維.md) — Blust 多樣性原理 + Gray 2009 Bayesian 5230 年前 + 鍾國芳構樹 DNA 三條獨立路徑
+- **LESSONS 候選**：(1) Wikimedia thumbnail HTTP 400「Use thumbnail sizes listed」要 RESEARCH.md 寫進去 (2) inbox spec 錯誤「屏東林班南島文化博物館 2023 啟用」實際無此館，台東史前文化博物館 2023 重新開放才正確
+- **Commit**: `b407a77b6`（cherry-picked as `d6222fa5b`）
+
+### 數位荒原 NEW — 2026-05-17 二輪 5x parallel opus agents（沒商業模式撐 12 年 / Art / 4599 字 / 26 footnote）
+
+- **Article**: [knowledge/Art/數位荒原.md](../../knowledge/Art/數位荒原.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 / parallel opus agent (worktree-agent-aace8848619b81714)
+- **核心矛盾**：「沒商業模式的策展平台怎麼撐 12 年」
+- **Title 三明治**：「數位荒原：一個沒商業模式的網路藝評平台怎麼活了 12 年」
+- **品質**：4,599 CJK chars (102%) / 26 footnotes / 3 images (NML issue covers letterboxed to 1600×900 hero / inline 2.0 aspect / fair use editorial commentary) / article-health rewrite-stage-4 hard=0 warn=0 ✓ / 對位句型 0 / 破折號 0.22 per 1500 chars
+- **NML local sources 用法**：README + manifest.json + articles-meta.json (88% 集中度 + 2011-2023 產出曲線) + issues/INDEX.md (56 期) + trial-issue 全文 (三家 partner ET@T/DAF/Project Glocal) + twinning-the-wastelands.md (Issue 12 / 2013-11 / R.A.P.) 
+- **大事實修正**：peer-ingestion 報告寫「2021 第二期 Twinning Archipelago」實際 Issue 12 2013-11。本文修正並標 footnote
+- **WebSearch 14 次** canonical 證據：國藝會檔案庫補助金額（第一年 35 萬 2017 / 第二年 40 萬 2018）+ DAF 2008-09-18 成立 + ET@T 1995 + DAC 2009 + NML vs 典藏 ARTouch / 非常廟 VT 2023 解散 / etat archive 萎縮 三條件「無紙媒 + 無實體空間 + 個人主編」孤例
+- **Peer-bias 補位**：cite 王柏偉、高森信男、印卡、蔡長璜、區秀詒避免單一鄭文琦視角
+- **Research**: [reports/research/2026-05/數位荒原.md](../../reports/research/2026-05/數位荒原.md)
+- **LESSONS 候選**：(1) peer ingestion 分析報告也會出錯需要 cross-verify (2) Hero aspect ratio 預設陷阱：NML cover 3:1 → letterbox 補強指南要寫進 §1.9.2
+- **Commit**: `728f5e596`（cherry-picked as `67809e7b3`）
+
+### 陳建年 NEW — 2026-05-17 二輪 5x parallel opus agents（警察與詩人雙身份卑南族歌王 / People / 5041 字 / 27 footnote）
+
+- **Article**: [knowledge/People/陳建年.md](../../knowledge/People/陳建年.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 / parallel opus agent (worktree-agent-a90fcb5485c16d2bd)
+- **核心矛盾**：「外公留下民族的歌，孫子戴上警徽寫海洋」
+- **品質**：5,041 CJK chars (112%) / 27 footnotes (每 187 字 1 條，遠超密度要求) / 4 圖 (1 hero + 3 inline 全部 CC BY-SA 4.0 Taiwania Justo 2018 新竹 FENG live house) / article-health rewrite-stage-4 hard=0 warn=0 ✓ / 對位句型 1 / 破折號 15
+- **🚨 大事實修正**：ARTICLE-INBOX entry 寫「父親（陸森寶）是 1950s 卑南音樂先驅」**錯誤**。三源驗證（zh.wiki / en.wiki / 國家文化記憶庫 / Taiwan光華 / 民報）一致記載**陸森寶是陳建年的外公（maternal grandfather），父親是陳光榮**。本篇 §一 用整段 + 策展人筆記顯式處理糾正，母系世系成為核心矛盾線
+- **時序亮點**：2000 年 9 月得金曲後請調蘭嶼避紛擾，一待 17 年到 2017 退休
+- **Research**: [reports/research/2026-05/陳建年.md](../../reports/research/2026-05/陳建年.md) — Stage 0 §觀點成型 + 三源驗證表 + verbatim 引語清單 + 媒體授權矩陣三表 + 38+ web 接觸紀錄
+- **Forward 延伸閱讀** 5 條（張惠妹 / 當代原住民創作歌手 / 台灣民謠與歌謠 / 台灣獨立音樂 / 流行音樂與金曲獎），reverse cross-link defer
+- **LESSONS 候選**：ARTICLE-INBOX entry 的家族關係 metadata 也需要 fact-check — entry 寫的事實會無條件被 routine agent 採信，inbox 寫錯會 propagate
+- **Commit**: `ba8963702`（cherry-picked as `ba7f05fac`）
+
 ### 台灣災難志工文化 EVOLVE — 2026-05-17 twmd-rewrite-daily routine（鏟子超人 + 多頭指揮所 / Society / 從 921 到光復的災難志工文化譜系）
 
 - **Article**: [knowledge/Society/台灣災難志工文化.md](../../knowledge/Society/台灣災難志工文化.md)

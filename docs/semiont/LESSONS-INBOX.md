@@ -232,6 +232,25 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-17 5x-parallel-opus 014500 — ARTICLE-INBOX metadata 自身需 fact-check（5 agent / 5 entry 100% 命中率）
+
+- **原則**：ARTICLE-INBOX entry 是 routine agent 啟動時的 priming 材料。entry 寫的「事實」會直接被 routine agent 無條件採信並 propagate 進 ship 出去的文章 — 除非 agent 主動 Stage 1 cross-source verify。peer ingestion 階段省的事實 audit，在 ship 階段以「全部帶錯」的形態返工。INBOX 是 routine 自治飛輪關鍵 priming layer，inbox 品質直接 = ship 品質下限。
+- **觸發**：5 agent 同夜 ship 5 NEW articles，揪出 5 個 INBOX/peer-ingestion metadata 錯誤：(1) 陳建年 entry 寫「父親（陸森寶）」實際是**外公**（五源驗證 zh.wiki/en.wiki/國家文化記憶庫/光華/民報一致）(2) 新生態 entry 寫「1990-1995 trio 杜昭賢+蔣耀賢+葉竹盛」實際**1992-1999 杜昭賢單人** 7 年（NML 葉杏柔 + 國藝會檔案）(3) 群島思維 entry 寫「屏東林班南島文化博物館 2023 啟用」**無此館**，台東史前文化博物館 2023 重開才正確 (4) 數位荒原 NML-semiont-analysis 報告寫「Twinning Archipelago 2021 第二期」實際**Issue 12 / 2013-11**。100% 命中率（5/5 entries）= 不是巧合是結構性 pattern。
+- **可能層級**：操作規則 → 升 PEER-INGESTION-PIPELINE canonical
+- **儀器化候選**：(A) PEER-INGESTION-PIPELINE 加 Stage 2 cross-verify step，entry frontmatter 預設 `verified: false`，verify 過再改 true (B) ARTICLE-INBOX schema 加 `metadata_confidence: speculative | cross_verified | primary_source` 三態 (C) routine rewrite agent 啟動時 explicit reminder「INBOX 寫的事實先 cross-source 才採信」
+- **相關**：本 session memory `2026-05-17-014500-5x-parallel-opus-agents.md` / REFLEXES #16 Peer 是線索不是 source / 2026-05-16 LESSONS Pipeline canonical ↔ production drift（這條的姐妹 pattern：entry/canonical 是 frozen，production data 更新後 entry 沒同步）
+- **verification_count**: 1（5 entry parallel 同夜驗證 = single triggering event but 5 independent data points）
+- **severity**: structural（5/5 命中率 = 飛輪自治成熟後 inbox 品質會是 ship 品質下限）
+
+### 2026-05-17 5x-parallel-opus 014500 — Wikimedia Commons thumbnail 「approved sizes」+ letterbox padding workaround
+
+- **原則**：Wikimedia Commons hi-res 圖直連 HTTP 400「Use thumbnail sizes listed」— 必須用 approved thumbnail sizes（1280px / 2560px 等）。NML issue cover 等 3:1 banner 設計圖不符 Astro hero gate 0.9-2.0，但 `sips -p 900 1600 --padColor` letterbox 補白到 16:9 是合理 workaround。兩個技巧目前不在 REWRITE-PIPELINE §1.9.2 文件，全靠 agent 自己摸索。
+- **觸發**：群島思維 + 數位荒原 兩 agent 都遇到 — 群島是 Wikimedia 直連 fail，數位荒原是 aspect ratio fail。各自 workaround 解決但時間成本可省。
+- **可能層級**：操作規則 / pipeline patch
+- **儀器化候選**：REWRITE-PIPELINE §1.9.2 §圖片素材 加 helper script 範例 + Wikimedia API approved sizes 表 + letterbox padding 範例命令
+- **verification_count**: 1
+- **severity**: tactical
+
 ### 2026-05-17 twmd-rewrite-daily 000656 — lint-staged + pre-existing stash queue 同名污染靜默資料遺失
 
 - **原則**：cron routine git commit 時 lint-staged 自動 stash backup 機制與既有 stash queue 可能名稱混淆，導致 backup → restore cycle 中 staged changes 被丟到既有同名 stash 而 working tree 沒回填。routine 視 commit 成功，但 commit 只含部分 staged files。靜默資料遺失。
