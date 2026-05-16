@@ -4,15 +4,15 @@ category: Art
 tags: ['文学', '戒厳令解除', '本土化', '政治文学', '多元文学']
 subcategory: '文学'
 date: 2026-03-18
-lastVerified: 2026-04-27
-lastHumanReview: false
+lastVerified: 2026-05-16
+lastHumanReview: true
 readingTime: 8
 description: 38年間の禁錮が一夜にして解かれ、文学創作は大爆発を迎えた——しかし自由は制約のなさを意味しない。新たな挑戦が静かに訪れていた
 translatedFrom: 'Art/解嚴後台灣文學.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:493c1722ce576d1b'
-sourceBodyHash: 'sha256:5be7a14368f53828'
-translatedAt: '2026-05-01T14:48:26+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:230bdd26e7e50503'
+sourceBodyHash: 'sha256:91ddc5a57c03e56e'
+translatedAt: '2026-05-17T06:35:00Z'
 ---
 
 # 戒厳令解除後の台湾文学
@@ -67,7 +67,7 @@ translatedAt: '2026-05-01T14:48:26+08:00'
 
 **宋澤萊**は台語文学の復興を牽引した重要な人物です。彼の小説『打牛湳村』は台語の漢字表記で書かれ、農村社会の変遷を描いています。
 
-**李喬**は客家語文学の視点から創作に臨みました。彼の『寒夜三部曲』は中国語で書かれていますが、客家語の言語感覚と文化的内容を色濃く保っています。
+**李喬**は客家語文学の視点から創作に臨みました。彼の『寒夜三部曲』は中国語で書かれていますが、客家語の言語感覚と文化的内容を色濃く保っています。彼は長年にわたり、言語は文化の担い手であり、台湾の作家は自らの言語で自らの物語を語らなければならないと主張してきました。
 
 ### 原住民族文学の覚醒
 
@@ -127,7 +127,7 @@ translatedAt: '2026-05-01T14:48:26+08:00'
 
 - [台灣文學虛擬博物館 - 前言：查禁的N種方式](https://www.tlvm.com.tw/zh/Theme/ExhibitionArticleCont?Exbid=302)
 - [覆寫台灣：八○年代文學觀察 - 台灣八O](https://1980s.tnua.edu.tw/%E8%A6%86%E5%AF%AB%E5%8F%B0%E7%81%A3%EF%BC%9A%E5%85%AB%E3%80%87%E5%B9%B4%E4%BB%A3%E6%96%87%E5%AD%B8%E8%A7%80%E5%AF%9F/)
-- [荒人手記 - 臺灣文化入口網](https://toolkit.culture.tw/literatureinfo_155_40.html)
+- [vocus 方格子 書評：朱天文『荒人手記』（1994 年）](https://vocus.cc/article/680dbb98fd89780001b2d3f8) — 1994 年 2 月 23 日完成、同年に第一回時報文学百万小説賞首賞を受賞、男性同性愛者を題材とし、台湾同志文学史における位置づけを記録した詳細な書評
 - [荒人手記 - 維基百科](https://zh.wikipedia.org/zh-tw/%E8%8D%92%E4%BA%BA%E6%89%8B%E8%A8%98)
 - [台灣省戒嚴令 - 維基百科](https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3%E7%9C%81%E6%88%92%E5%9A%B4%E4%BB%A4)
 - [文學雅房: 鄉土文學時期：1970—1987年的台灣文學](https://literature-house.blogspot.com/2017/08/19701987.html)

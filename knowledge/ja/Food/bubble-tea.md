@@ -2,8 +2,10 @@
 title: '珍珠奶茶'
 description: '1987年、台中での従業員会議で、何気ない動作がきっかけとなり、一杯の飲料が世界を征服した。珍珠奶茶の起源をめぐる論争、文化と政治、そして約500kcalの一杯をめぐる健康論争。'
 date: 2026-03-30
+category: 'Food'
 tags: ['美食', '珍珠奶茶', '手搖飲', 'グローバル化', 'ソフトパワー', '文化外交']
 subcategory: '飲品文化'
+author: 'Taiwan.md'
 featured: true
 lastVerified: 2026-03-30
 lastHumanReview: false
@@ -11,11 +13,10 @@ image: 'https://upload.wikimedia.org/wikipedia/commons/1/18/Classic_bubble_tea.j
 imageAlt: '珍珠奶茶'
 imageCredit: 'Wikimedia Commons, CC BY-SA'
 translatedFrom: 'Food/珍珠奶茶.md'
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:95857cbd0268032d'
-sourceBodyHash: 'sha256:23c2ac3cebaa2348'
-translatedAt: '2026-05-01T18:02:56+08:00'
-category: Food
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:cdebc1978d57fc65'
+sourceBodyHash: 'sha256:451d43de815e54d2'
+translatedAt: '2026-05-17T06:35:00Z'
 ---
 
 # 珍珠奶茶
