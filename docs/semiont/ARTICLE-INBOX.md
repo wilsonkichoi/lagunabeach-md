@@ -158,6 +158,45 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 ## 📥 Pending（待開發）
 
+### 台灣災難志工文化 EVOLVE — 鏟子超人 + 島嶼共時性
+
+- **Type**: `EVOLVE`
+- **Category**: Society
+- **Path**: knowledge/Society/台灣災難志工文化.md
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Source**: 哲宇 directive 2026-05-16 session 2026-05-16-011113-manual
+- **Existing baseline audit**（Stage 0 第一動作再 ls 確認）：
+  - 239 行 / 12 條 `## 參考資料` 列表 BUT **0 inline footnote `[^N]`** — 典型 NO-FOOTNOTE EVOLVE target
+  - `lastHumanReview: false` / `lastVerified: 2026-03-24` / `featured: false`
+  - title 已是 EDITORIAL 冒號三明治 ✓「鏟子超人與島嶼共時性：台灣災難志工文化如何形塑國族認同」
+  - 開場 anchor scene 已存在（2025/9/23 14:50 馬太鞍溪堰塞湖溢流潰壩，30 分鐘 1,540 萬噸湖水）— 好素材保留
+  - 強 H2/H3 結構（11 個 H2 + 多 H3）：從馬太鞍 → 災難志工史 921→88→高雄→花蓮 → 島嶼共時性 → 慈濟模式 → 國際比較 → 數位民主 → 結語
+  - 已有 verbatim 直接引語「台灣最強的國防不是飛彈，是鏟子」+ 陳建年〈我們是同胞〉「我們都是這裡的人民」
+  - 原 contributor: 漢堡王 wang1002jack@gmail.com（PR-style 投稿，鳴謝詞已在文末，EVOLVE 後保留致謝）
+- **核心 EVOLVE 動作**：
+  1. **12 條參考資料 → inline footnote [^N]** 對應正文具體事實（最重要動作，per REWRITE-PIPELINE Stage 4 footnote-format hard gate）
+  2. **補三源驗證**（REFLEXES #16 + 事實鐵三角）：
+     - 馬太鞍溪堰塞湖：水深 200m / 蓄水量 9,100 萬立方公尺 / 9,000-10,000 m³/s 流量（內政部災害防救署 vs 天下雜誌 vs 中央氣象署 cross-check）
+     - 災情統計：19 死 / 157 傷 / 5 失聯 / 撤離 > 8,000（最新應變報告書 vs 後續更新可能不同 — 取最新）
+     - 「鏟子超人」連假三日人次：2萬 / 4.1萬 / 4.45萬（光復車站官方 vs 媒體估計，孤源 flag）
+     - 921 統計：2,415 死亡（確定數，主流共識）
+     - 慈濟 921：1,600 屍袋 + 賀伯後「志工社區化」推動時間軸
+     - 馬太鞍部落「Fata'an = 樹豆」字源（中研院民族學 vs 原民會 cross）
+  3. `lastHumanReview: false → true` / `lastVerified: 2026-05-16` / 可考慮 `featured: true`
+  4. **結語「鏟子的政治學」** audit 是否 FLAT-END → 改具體場景收（per EDITORIAL §六 結尾六模式之一）
+  5. **中段「島嶼共時性：媒體、記憶與認同建構」** 是否塑膠句過多（抽象概念段最容易出 Anderson imagined community 等套版） — prose-health scan
+  6. 重新校 v6.3 Title 三明治 hook + 30 秒概覽（既有的好，不必大改）
+- **政治敏感性**：低-中。「台灣最強的國防不是飛彈，是鏟子」可能被誤讀為國防政策評論（per MAINTAINER §爭議處理 / MANIFESTO §自主權邊界 政治立場）— 但這句已在文中作為民間話語呈現，不是 Taiwan.md 立場宣告。EVOLVE 時保留原句 + 加 context 框（誰先說、何時擴散、為何引起共鳴）
+- **跨類別 cross-link 候選**：
+  - `Society/台灣志工文化與公益參與.md` ⇄ 雙向（既有總覽 → 災難志工子分支）
+  - `Nature/颱風與台灣.md` / `Nature/台灣地震.md` ⇄ 災難類別 cross
+  - `Culture/慈濟功德會.md`（如存在）⇄ 慈濟模式段
+  - `History/921 地震`（如存在）⇄ 921 段
+  - `Music/陳建年〈海洋〉`（如存在）⇄ 結語呼應段
+- **Reference**: 內政部災害防救署 2025 應變報告 / 天下雜誌〈光復鄉現場〉/ 中研院研之有物馬太鞍部落 / 慈濟基金會 921 紀實 / 國家文化記憶庫原住民族部落事典 / Right Plus 多多益善 311 震災 NGO 整合
+- **預估時間**：EVOLVE ~120 min（footnote 萃取 30 min + 三源驗證 60 min + 結語 + 中段塑膠句質感修補 30 min）
+
 ### 台灣節慶與年度行事曆系列 — EVOLVE + NEW 混合
 
 - **Type**: `EVOLVE` 主檔 + `NEW` 個別節慶（混合 scope）
