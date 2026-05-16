@@ -158,6 +158,48 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 ## 📥 Pending（待開發）
 
+### 陳建年 NEW — 原住民民謠之父 + 海洋詩人 + 首位金曲歌王
+
+- **Type**: `NEW`
+- **Category**: People（subcategory: 音樂 / 原住民創作）
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Source**: /twmd-finale Stage 7 evolve scan 2026-05-16-011113-manual — graph density gap + 唐鳳 + 災難志工 雙篇結語 cite 但無 anchor article
+- **Evolve scan source pointers**：
+  - **Graph density signal**：cited in `knowledge/People/唐鳳.md` 結尾段 +「鳳鳴的故事」段 / `knowledge/Society/台灣災難志工文化.md` H2「陳建年的預言」+ 參考資料 8 / `knowledge/Music/當代原住民創作歌手.md` H3「陳建年 (1967-)：海洋詩人的卑南吟唱」/ `knowledge/Music/台灣民謠與歌謠.md` 內文 / `knowledge/Music/台灣獨立音樂.md` 內文 / `knowledge/Music/流行音樂與金曲獎.md` 內文 — **6 篇現有 article cite，0 anchor**
+  - **GA signal**：N/A（無 dedicated page 故無 PV 數據，但 6 cite 是 implicit demand）
+  - **SC signal**：相鄰 query「張懸被關地下室」508 imp（音樂人歷史背景搜尋 demand）+ 整個 Music/音樂人歷史 cluster 普遍 imp ≥ 50
+  - **本 session 2026-05-16 直接觸發**：唐鳳 EVOLVE 結語顯式引「陳建年〈我們是同胞〉『我們都是這裡的人民』」+ 災難志工 同一引語成 H2 標題
+- **為什麼這篇 vs 其他**（per EVOLVE-PIPELINE Phase 5 ENRICH）：
+  - vs 其他 People 缺口候選（如蕭上濃 SC 9 imp / taiwan economic miracle 13 imp）— 陳建年 graph density 訊號最強（6 篇 cite 0 anchor），且兩個今天 ship 的文章直接創造 cross-link demand
+  - vs 既有 INBOX 候選（葉廷皓 NEW / 台灣體育 NEW 等）— 本候選是「沉默式 demand」累積到顯化的時機，今天 ship 兩篇後再不寫會繼續累積 dangling cite
+  - vs SEO 優化 5-min fix（聶永真學歷 927 imp 0.4% CTR — 加「自學」keyword 到 description）— 該 fix 規模小但獨立有效，建議走 cosmetic heal commit 不必開 EVOLVE entry
+- **Notes**：
+  - 既有素材 audit：`Music/當代原住民創作歌手.md` 已有完整 §陳建年 段落（金曲獎 11 屆海洋獲獎、台東卑南族、警察出身、海洋詩人 framing），可作 NEW 文章的 baseline source 不重複勞動，重點在補 deep dive
+  - **核心 facts to verify**（三源驗證 per REFLEXES #16）：
+    - 1967 年生於台東卑南族 — 多源 cross
+    - 2000 年第 11 屆金曲獎《海洋》獲最佳國語男演唱人（首位原住民歌王）— `當代原住民創作歌手.md` [^4] 已 cite，再驗
+    - 警察職業 + 兼職音樂創作 雙身份時間軸 — 訪談 verbatim 找
+    - 〈我們是同胞〉、〈海洋〉、〈鳳梨田〉等代表曲創作年份
+    - 「角頭音樂」唱片公司簽約年份 + 製作人關係
+    - 父親（陸森寶）的影響 — 陸森寶是 1950s 卑南音樂先驅，跨世代音樂家庭
+  - **Title 三明治候選**：
+    - 「陳建年：警察與歌王的雙重身分，海洋詩人的二十年靜默」
+    - 「陳建年：用《海洋》打開金曲獎大門，原住民音樂從邊緣到主流的中介人」
+  - **核心矛盾候選**（Stage 0 §觀點成型，要 ≤ 30 字）：
+    - A.「警察日常 + 詩人靈魂同一具身體」
+    - B.「2000 年那座獎打開的不是個人榮耀，是一道大門」
+    - C.「父親是卑南音樂先驅，兒子用 30 年才接住那個位置」
+  - **政治敏感性**：低（音樂人 + 原住民身份 framing，sovereignty 觀點隱性而非顯性 — 「我們都是這裡的人民」是 inclusive 立場，台灣多元身份對話）
+  - **跨類別 cross-link 候選**（雙向）：
+    - `Music/當代原住民創作歌手.md` ⇄ §陳建年 段落可改成 cross-link 到本 NEW article
+    - `Music/台灣民謠與歌謠.md` / `台灣獨立音樂.md` / `流行音樂與金曲獎.md` ⇄ inline mention 升為 wikilink
+    - `People/唐鳳.md` ⇄ 結語段「陳建年〈我們是同胞〉」
+    - `Society/台灣災難志工文化.md` ⇄ H2「陳建年的預言」段
+    - `Music/胡德夫.md`（如存在）/ `People/張惠妹.md`（如存在）⇄ 原住民音樂譜系
+- **Reference**：[金曲獎歷屆得獎名單 gma.tavis.tw](https://gma.tavis.tw/) / 角頭音樂官網 / 台東卑南族文化資料（中研院民族所）/ 風傳媒〈陳建年訪談〉/ 自由時報〈陳建年退休警察身份〉系列
+- **預估時間**：~110 min（Stage 0 §觀點成型 20 min + Stage 1 research 40 min ≥ 40 search + Stage 2 寫作 40 min + Stage 3-5 verify+ship 10 min）。比 EVOLVE 唐鳳 預估略短因 baseline `當代原住民創作歌手.md` §陳建年段 + 多篇 cite 已提供 60% reference 起點
+
 ### 台灣災難志工文化 EVOLVE — 鏟子超人 + 島嶼共時性
 
 - **Type**: `EVOLVE`
