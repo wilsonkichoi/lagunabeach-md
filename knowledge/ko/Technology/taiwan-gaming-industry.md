@@ -13,8 +13,8 @@ lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/台灣遊戲產業與數位娛樂.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:98c440e7598c876a'
-sourceBodyHash: 'sha256:5dcc133fd856a17d'
+sourceContentHash: 'sha256:431ea1bf9d43ad2f'
+sourceBodyHash: 'sha256:3075ecd0a9c35ac1'
 translatedAt: '2026-05-16T22:20:00Z'
 ---
 

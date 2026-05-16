@@ -11,8 +11,8 @@ lastHumanReview: false
 category: People
 translatedFrom: People/李珠珢.md
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:c87fa614c30922e7'
-sourceBodyHash: 'sha256:c0d649ed19f7f301'
+sourceContentHash: 'sha256:451da618ddccb297'
+sourceBodyHash: 'sha256:4b9c8f80e4d299c5'
 translatedAt: '2026-05-17T06:15:00Z'
 ---
 

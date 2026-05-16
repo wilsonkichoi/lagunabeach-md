@@ -20,8 +20,8 @@ lastHumanReview: false
 category: People
 translatedFrom: People/李多慧.md
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:9ab124feffc6f577'
-sourceBodyHash: 'sha256:5c6c355679d7ca08'
+sourceContentHash: 'sha256:5948ff9d2aa67b97'
+sourceBodyHash: 'sha256:b16f2be3d2468ceb'
 translatedAt: '2026-05-17T06:15:00Z'
 ---
 

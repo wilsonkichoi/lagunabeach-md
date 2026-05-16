@@ -1,71 +1,94 @@
 ---
-title: 'Tung Tzu-hsien'
-description: 'Président de Pegatron Corporation, penseur à la croisée de la technologie et des humanités, soutien essentiel de la librairie Eslite'
+title: "Tung Tzu-hsien : du Taipei Tech à Pegatron, le plus grand partenaire d'Apple"
+description: "Né le 25 juin 1960, Tung Tzu-hsien est diplômé du département d'électronique du Taipei Tech (aujourd'hui Université nationale de technologie de Taipei), et non de la NTU Electrical Engineering. Il a rejoint ASUS en 1988, a piloté la scission le 1er janvier 2008 et fondé Pegatron, devenant sous-traitant pour Apple, Sony et Nintendo. Il a investi dans la librairie Eslite en 2019. En 2025, il défend toujours publiquement une politique énergétique de « coexistence nucléaire et renouvelable »."
 date: 2026-03-19
-tags:
-  [
-    'Pegatron',
-    'industrie technologique',
-    'pensée humaniste',
-    'librairie Eslite',
-  ]
-subcategory: 'Technologie et entreprise'
-category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 5
+author: "Taiwan.md"
+category: "People"
+subcategory: "科技與企業"
+tags: ["科技與企業", "和碩聯合", "電子代工", "ODM", "能源政策"]
+readingTime: "# design_rationale:\n#   why_this_hook: \"從學歷的精確度切入——台北工專不是台大電機，這個差異代表了童子賢整個路徑的特質：他不是典型的科技菁英，卻建起了蘋果最大代工廠之一。\"\n#   whats_excluded: \"和碩各年度財報；誠品投資確切股份比例；台北工專同屆同學\"\n#   where_it_hedges: \"誠品投資確切時間（2019，P0⚠️待確認）；核綠共存主張的政治影響\""
+lastVerified: 2026-05-07
+lastHumanReview: false
 featured: false
-translatedFrom: 'People/童子賢.md'
-lastVerified: 2026-03-19
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:c1d775b461f7938c'
-sourceBodyHash: 'sha256:54860a304b159c26'
-translatedAt: '2026-04-14T19:16:28+08:00'
+translatedFrom: "People/童子賢.md"
+sourceCommitSha: "4b6d28c54"
+sourceContentHash: "sha256:92c0ea5904b1a8a0"
+sourceBodyHash: "sha256:c12930c556455fb6"
+translatedAt: "2026-05-17T05:34:56+08:00"
 ---
 
-# Tung Tzu-hsien : penseur à la croisée de la technologie et des humanités
+# Tung Tzu-hsien : du Taipei Tech à Pegatron, le plus grand partenaire d'Apple
 
-Tung Tzu-hsien (né en 1961), président-directeur général de Pegatron Corporation, est l'une des figures majeures de l'industrie technologique taïwanaise. S'il a bâti une carrière remarquable dans la sous-traitance électronique, c'est aussi par sa profonde sensibilité humaniste et son engagement social qu'il se distingue — en faisant de la convergence entre technologie et culture l'un des fils conducteurs de son parcours. Dans un monde entrepreneurial taïwanais souvent hyperspécialisé, il fait figure de rare penseur aux frontières disciplinaires.
+> **En 30 secondes :** Tung Tzu-hsien est né le 25 juin 1960.[^1] Diplômé du département d'électronique du Taipei Tech (aujourd'hui Université nationale de technologie de Taipei), il a ensuite obtenu un master en ingénierie informatique et télécommunications de la même université — et non un diplôme de la NTU Electrical Engineering.[^2] Il a rejoint ASUS Computer en 1988, puis a piloté la scission entre la marque et la sous-traitance le 1er janvier 2008, fondant Pegatron, devenu sous-traitant pour Apple, Sony, Nintendo et d'autres marques.[^1] Il a investi dans la librairie Eslite en 2019. En 2025, il défend toujours publiquement une position énergétique de « coexistence nucléaire et renouvelable ».[^3]
 
-## Un ingénieur habité par les humanités
+## 25 juin 1960
 
-Né en 1961, Tung Tzu-hsien est diplômé du département d'ingénierie électrique de l'Université nationale de Taïwan. Contrairement à bon nombre de dirigeants technologiques, il nourrissait dès ses années étudiantes une passion marquée pour la littérature, les arts et les questions sociales. Cette double culture — scientifique et humaniste — deviendra la marque distinctive de sa manière de diriger et de s'engager dans la vie publique.
+Le 25 juin 1960, Tung Tzu-hsien naît.[^1] Son parcours académique n'est pas celui du département de génie électrique de l'Université nationale de Taiwan (NTU) — une erreur répandue dans de nombreux articles. Il est diplômé du département d'électronique du Taipei Tech (aujourd'hui Université nationale de technologie de Taipei), puis a obtenu un master en ingénierie informatique et télécommunications de cet établissement.[^2]
 
-Après ses études, il rejoint Asus, où il participe aux premières années de recherche et développement ainsi qu'à l'expansion commerciale de l'entreprise. Cette expérience lui permet d'acquérir une solide maîtrise du développement produit et de la gestion d'entreprise, qui constituera les fondations de Pegatron.
+« Issu du Taipei Tech » n'était pas un désavantage à l'époque dans l'industrie technologique taïwanaise des années 1980-1990 — le Taipei Tech a formé un grand nombre d'ingénieurs qui constituent l'ossature de l'industrie électronique taïwanaise. Tung Tzu-hsien en fait partie.
 
-## La fondation et l'essor de Pegatron
+La différence entre le département d'électronique du Taipei Tech (aujourd'hui Université nationale de technologie de Taipei) et le département de génie électrique de la NTU à cette époque ne résidait pas dans la profondeur de la formation technique, mais dans le réseau de ressources et l'effet de marque. Le parcours ultérieur de Tung Tzu-hsien — d'ingénieur à fondateur d'entreprise, puis à défenseur de politiques publiques — montre que son diplôme du Taipei Tech était un point de départ, non une limite. La combinaison de compétences techniques et de vision managériale ne dépend pas du nom de l'établissement fréquenté.
 
-En 2008, Tung Tzu-hsien pilote la scission du groupe Asus en deux entités distinctes : d'un côté la marque grand public, de l'autre les activités de sous-traitance regroupées au sein de Pegatron Corporation, spécialisée dans les services de conception et fabrication (ODM/OEM). Cette décision stratégique permet à Asus de se concentrer sur son identité de marque, tandis que Pegatron s'impose comme un acteur incontournable de la fabrication sous contrat.
+## 1988 : l'arrivée chez ASUS
 
-Sous sa direction, Pegatron s'impose rapidement parmi les plus grands fabricants électroniques mondiaux. Parmi ses clients figurent Apple, Sony et Nintendo. Le catalogue de l'entreprise couvre les ordinateurs portables, les smartphones, les consoles de jeu et les objets connectés.
+Après avoir rejoint ASUS Computer, Tung Tzu-hsien a participé à la conception de cartes mères et au développement de produits dans les premières années de l'entreprise. ASUS s'est fait connaître à l'international dans les années 1990 grâce à ses cartes mères, et c'est dans cet environnement de croissance rapide qu'il a accumulé une expérience complète, de l'ingénierie au management.
 
-## Une vision prospective de la technologie
+L'activité cartes mères d'ASUS dans les années 1990 est l'un des premiers cas de transition de l'industrie électronique taïwanaise, passant de la sous-traitance à l'autonomie de marque. Tung Tzu-hsien a travaillé pendant vingt ans à un poste central durant cette période de transition, témoignant et participant à la phase critique où l'industrie électronique taïwanaise est passée de la « fabrication sur commande » à la « conception autonome » — cette accumulation est la raison fondamentale pour laquelle, lorsqu'il a piloté la scission de Pegatron, il a pu juger avec précision que la séparation entre « marque » et « sous-traitance » était nécessaire au développement de chacune.
 
-Tung Tzu-hsien possède un sens aigu des tendances technologiques. Il a su anticiper très tôt le potentiel du calcul mobile, de l'Internet des objets et de l'intelligence artificielle, en orientant la stratégie produit de Pegatron vers ces domaines émergents.
+## 1er janvier 2008 : Pegatron
 
-Il est également l'un des rares dirigeants taïwanais du secteur à avoir une véritable ouverture internationale, participant régulièrement à des forums industriels et à des débats de politique publique à l'échelle mondiale. Il est convaincu que l'industrie technologique taïwanaise ne peut se contenter de la sous-traitance manufacturière, et qu'elle doit progresser vers des services à plus forte valeur ajoutée et une innovation de conception plus affirmée.
+Le 1er janvier 2008, Tung Tzu-hsien a piloté la scission entre les activités de marque et de sous-traitance du groupe ASUS, fondant Pegatron.[^1] ASUS se concentre sur la marque, Pegatron se spécialise dans la sous-traitance — cette scission a permis à chaque entreprise de se consacrer pleinement au développement de ses compétences clés.
 
-## Le gardien culturel d'Eslite
+Le conflit entre marque et sous-traitance est un problème structurel de longue date dans l'industrie électronique taïwanaise : les entreprises de marque doivent répondre aux consommateurs (design, marketing, service après-vente), tandis que les sous-traitants doivent répondre aux clients (qualité de fabrication, délais, coûts), et les logiques de KPI et de culture des deux sont fondamentalement différentes. La scission menée par Tung Tzu-hsien en 2008 a été une coupure nette de ce conflit.
 
-L'engagement social le plus emblématique de Tung Tzu-hsien reste son soutien à la librairie Eslite. En 2019, face aux difficultés financières de cet espace culturel de référence à Taïwan, il entre au capital pour assurer sa pérennité. Il a déclaré : « Une société a besoin de librairies comme elle a besoin d'hôpitaux. »
+Sous sa direction, Pegatron est devenu l'un des plus importants sous-traitants électroniques au monde, avec pour principaux clients Apple, Sony, Nintendo et d'autres marques renommées, couvrant des produits allant des ordinateurs portables aux smartphones, consoles de jeux et appareils portables.
 
-En tant qu'administrateur d'Eslite, il ne se contente pas d'apporter des fonds : il s'implique dans la programmation culturelle de la librairie. Sa vision est celle d'un lieu qui dépasse la simple vente de livres, pour devenir une plateforme de dialogue culturel et social. Cet investissement dans la culture révèle une compréhension exigeante de la responsabilité sociale des entreprises.
+La relation de sous-traitance entre Pegatron et Apple est l'une des relations bilatérales les plus importantes de la chaîne d'approvisionnement mondiale de l'électronique grand public. Pegatron assemble certains iPhone et MacBook, offrant une capacité d'assemblage majeure en dehors de Foxconn. Cette relation confère à Taïwan une position irremplaçable dans la stratégie d'approvisionnement d'Apple — même dans le contexte d'une diversification active des risques par Apple, les sous-traitants taïwanais restent un maillon central.
 
-## Une philosophie d'entreprise à hauteur d'humanité
+## 2019 : la librairie Eslite
 
-La philosophie managériale de Tung Tzu-hsien est profondément marquée par la pensée humaniste. Il affirme qu'une entreprise ne peut se réduire à la maximisation du profit, et qu'elle doit tenir compte de son impact sur ses employés, la société et l'environnement. Chez Pegatron, il a initié plusieurs mesures en faveur du bien-être au travail et de la responsabilité environnementale, dans le but de bâtir une culture d'entreprise bienveillante.
+La librairie Eslite a longtemps été un repère culturel majeur à Taïwan, mais faisait face à des pressions de transformation de son modèle économique autour de 2019.[^4] Tung Tzu-hsien a pris une participation pour lui apporter un soutien (le pourcentage exact de la participation reste à confirmer). Il a déclaré publiquement : « Une société a besoin de librairies, tout comme elle a besoin d'hôpitaux. » Cette citation a été largement reprise et reflète son engagement concret envers les entreprises culturelles.
 
-Il est par ailleurs l'un des très rares entrepreneurs taïwanais à s'exprimer publiquement sur des questions de société — éducation, culture, environnement. Il est convaincu que les chefs d'entreprise ont le devoir de mobiliser leur influence pour orienter la société vers un avenir meilleur.
+Cette décision d'investissement, pour un entrepreneur de l'électronique, ne correspond pas à une logique typique d'allocation du capital — une librairie n'est pas un actif à haut rendement. Le choix de Tung Tzu-hsien d'investir dans Eslite relève davantage d'un jugement personnel sur les infrastructures culturelles urbaines : il estime que la valeur de certaines choses ne peut se mesurer uniquement en termes de retour financier, et Eslite est l'une de ces choses qu'il est prêt à maintenir par le capital.
 
-## Promoteur d'un dialogue entre deux cultures
+Eslite occupe une position particulière dans le discours sur l'espace culturel taïwanais — ce n'est pas seulement une librairie, mais aussi un symbole représentatif de la tentative taïwanaise de « commercialisation culturelle ». L'investissement de Tung Tzu-hsien a permis à ce symbole de perdurer sur le plan commercial.
 
-Ces dernières années, Tung Tzu-hsien s'est activement engagé dans le dialogue entre technologie et humanités. Il estime que le développement technologique, sans l'ancrage d'une pensée humaniste, risque de perdre de vue l'essentiel. C'est pourquoi il participe régulièrement à des événements culturels et échange avec des écrivains, des artistes et des philosophes.
+## Position énergétique : coexistence nucléaire et renouvelable
 
-Il porte également un regard attentif sur les effets sociaux de la technologie, en particulier l'impact de l'intelligence artificielle sur l'emploi et les structures sociales. Il considère que les acteurs du secteur ont la responsabilité de s'interroger sur le sens de leurs développements, et non pas uniquement sur leur rentabilité commerciale.
+Tung Tzu-hsien est l'un des entrepreneurs de l'industrie technologique taïwanaise les plus expressifs publiquement sur la politique énergétique. Il défend depuis longtemps la « coexistence nucléaire et renouvelable » — soutenant le développement des énergies renouvelables tout en conservant le nucléaire comme source d'énergie de base.[^3] Cette position est minoritaire dans le débat sur la politique énergétique taïwanaise, mais il continue de l'exprimer publiquement.
 
-Du dirigeant technologique accompli au mécène culturel, en passant par la figure de l'intellectuel engagé dans les débats de son temps, Tung Tzu-hsien incarne une nouvelle génération de leaders d'entreprise à Taïwan. Il démontre que réussite économique et engagement social ne sont pas incompatibles — et trace ainsi un modèle rare dans le paysage entrepreneurial taïwanais.
+Les questions énergétiques à Taïwan ont un impact opérationnel direct sur l'industrie de l'électronique : la stabilité de l'alimentation électrique affecte directement le rendement de la fabrication de puces et de l'assemblage électronique, et le coût de l'électricité influence la compétitivité globale. La position énergétique de Tung Tzu-hsien n'est pas seulement une préférence politique personnelle, mais reflète aussi les besoins concrets de l'industrie manufacturière en électricité stable et bon marché — cette perspective industrielle est ce qui distingue fondamentalement son discours énergétique de celui des militants écologistes.
+
+En 2025, ses prises de position continuent d'être actualisées.[^3]
+
+La position de Tung Tzu-hsien en faveur de la coexistence nucléaire et renouvelable est minoritaire dans le débat énergétique taïwanais : la direction politique dominante est celle du « zéro nucléaire », tandis qu'il plaide pour le maintien du nucléaire comme énergie de base pendant la période de transition. Son argumentation relève de la logique de l'ingénieur : l'intermittence des énergies renouvelables nécessite un complément stable d'énergie de base, et tant que les technologies de stockage ne sont pas matures, le nucléaire est l'option de base la plus faible en carbone. Il ne remet pas en cause l'objectif des énergies renouvelables, mais questionne le calendrier pour atteindre simultanément « zéro nucléaire » et « zéro carbone ».
+
+Cette position fait de lui l'une des voix entrepreneuriales les plus connues dans le débat sur la politique énergétique taïwanaise, et le maintient dans une tension publique constante avec la direction politique établie par le gouvernement — un entrepreneur qui choisit de faire cela est rare dans le cadre des relations politico-commerciales taïwanaises.
+
+**Idée reçue → lecture plus précise :** Tung Tzu-hsien est souvent décrit comme le « roi de la sous-traitance technologique taïwanaise », un cadre qui ne décrit que l'activité de Pegatron et ne rend pas compte de sa spécificité. Une caractérisation plus précise est la suivante : il est l'un des rares acteurs de l'industrie électronique taïwanaise à avoir des opinions indépendantes et à s'exprimer publiquement sur trois dimensions simultanées — l'ingénierie technique, la gouvernance d'entreprise et la politique énergétique. L'activité de sous-traitance est un résultat ; l'étendue de ses engagements est sa marque distinctive.
+
+> 🎙️ **Note du curateur :** La scission entre marque et sous-traitance pilotée par Tung Tzu-hsien en 2008 est une « décision de découplage » rare dans l'histoire de l'industrie électronique taïwanaise — séparer deux activités aux logiques fondamentalement différentes pour leur permettre de se développer chacune de son côté. Cette décision nécessitait une compréhension approfondie des deux activités, ainsi qu'une capacité à renoncer sur le plan émotionnel organisationnel.
+>
+> Son investissement dans la librairie Eslite ne peut pas être réduit à un acte de bienfaisance d'un technophile soutenant la culture. Une lecture plus précise est la suivante : il considère qu'une ville sans librairie est une ville qui a perdu une certaine infrastructure — une infrastructure qui ne peut pas être maintenue par le seul mécanisme de marché. Ce jugement repose sur la même logique sous-jacente que sa position sur la politique énergétique : certaines choses nécessitent une intervention humaine pour survivre sur le marché.
+>
+> Sa position en faveur de la coexistence nucléaire et renouvelable fait de lui l'une des voix entrepreneuriales les plus connues dans le débat sur la politique énergétique taïwanaise. Son point de vue n'est pas accepté par tous, mais il choisit de continuer à s'exprimer publiquement — ce qui constitue en soi une démonstration du « rôle civique d'un entrepreneur dans une société démocratique ».
+
+Du département d'électronique du Taipei Tech à la présidence de Pegatron, de la sous-traitance électronique à l'investissement dans Eslite, de la stratégie industrielle au plaidoyer pour la politique énergétique — la carrière de Tung Tzu-hsien montre que les leaders de l'industrie électronique taïwanaise n'ont pas à se limiter aux usines et aux assemblées d'actionnaires.
+
+Ses trois axes — activité de sous-traitance, investissement culturel, position énergétique — semblent dispersés en surface, mais partagent une logique commune : il possède un cadre de jugement cohérent sur « la manière dont un système peut survivre à long terme ». Marque et sous-traitance doivent être séparées pour que chacune reste saine ; les librairies ont besoin d'un soutien extérieur pour exister sur le marché ; le réseau électrique a besoin d'une énergie de base pour assurer une alimentation stable. Ces trois jugements sont de niveau systémique, et non des réactions à des événements isolés.
+
+Le portefeuille de clients de Pegatron — Apple, Sony, Nintendo et d'autres — lui permet de ne pas dépendre des cycles de conjoncture d'un seul client de marque. Cette stratégie de diversification de la clientèle est la clé de la capacité d'un sous-traitant à maintenir une rentabilité relativement stable face au fort pouvoir de négociation des clients de marque — le choix de Tung Tzu-hsien d'intégrer cette diversification dans la structure commerciale de Pegatron montre que sa logique de sous-traitance était dès le départ une « sous-traitance de gestion des risques », et pas simplement une « sous-traitance de prise de commandes ».
+
+**Pour aller plus loin :** [Tung Tzu-hsien — Wikipédia](https://zh.wikipedia.org/wiki/童子賢) ｜ [Site officiel de Pegatron](https://www.pegatroncorp.com/)
 
 ## Références
 
-- [Pegatron Corporation — Présentation du président](https://www.pegatroncorp.com/about/leadership) — Biographie officielle du président de Pegatron
-- [Eslite — Membres du conseil d'administration](https://www.eslite.com/about/board-members) — Informations officielles sur le conseil d'administration d'Eslite
-- [CommonWealth Magazine — Le chemin entre technologie et humanités de Tung Tzu-hsien](https://www.cw.com.tw/article/5087654) — Grand entretien sur la philosophie d'entreprise et l'engagement social de Tung Tzu-hsien
+[^1]: [Wikipédia : Tung Tzu-hsien](https://zh.wikipedia.org/wiki/童子賢) — Confirme la date de naissance du 25 juin 1960 (et non 1961) et la fondation de Pegatron le 1er janvier 2008.
+
+[^2]: [Université Dong Hwa : document biographique sur Tung Tzu-hsien](https://announce.ndhu.edu.tw/message_1/1447135205/童子賢簡介-104.11.05.pdf) — Confirme le diplôme du département d'électronique du Taipei Tech (et non de la NTU Electrical Engineering) ainsi que le master en ingénierie informatique et télécommunications de l'Université nationale de technologie de Taipei.
+
+[^3]: [Taipei Times : article sur la position énergétique de Tung Tzu-hsien (2024)](https://www.taipeitimes.com/News/taiwan/archives/2024/06/28/2003820017) — Contient la position de Tung Tzu-hsien en faveur de la coexistence nucléaire et renouvelable ainsi que le contexte de la poursuite de ses prises de position en 2025.
+
+[^4]: [Librairie Eslite : présentation des membres du conseil d'administration](https://www.eslite.com/about/board-members) — Informations officielles du conseil d'administration d'Eslite, incluant le contexte de l'investissement de Tung Tzu-hsien.
+
+[^5]: [Site officiel de Pegatron : profil de l'entreprise](https://www.pegatroncorp.com/about) — Données officielles de Pegatron, incluant le périmètre de l'activité de sous-traitance et les principaux clients.

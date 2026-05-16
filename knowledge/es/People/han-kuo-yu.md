@@ -22,8 +22,8 @@ sporeLinks:
     views: 332
 translatedFrom: 'People/韓國瑜.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:ba3d63773d52f3e6'
-sourceBodyHash: 'sha256:dba6a2c8bce85b0d'
+sourceContentHash: 'sha256:43806fa3b9658513'
+sourceBodyHash: 'sha256:fe00573219684528'
 translatedAt: '2026-05-17T06:00:00Z'
 ---
 

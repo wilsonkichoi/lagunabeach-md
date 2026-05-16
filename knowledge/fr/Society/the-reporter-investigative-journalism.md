@@ -19,8 +19,8 @@ lastVerified: 2026-04-29
 lastHumanReview: false
 translatedFrom: 'Society/報導者.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:4f4541eede49a447'
-sourceBodyHash: 'sha256:2750e8e7c9523537'
+sourceContentHash: 'sha256:6c6fd9ecbe1e0609'
+sourceBodyHash: 'sha256:5f1735314ca6d06c'
 translatedAt: 2026-05-16T22:24:11Z
 ---
 

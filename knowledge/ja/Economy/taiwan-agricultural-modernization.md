@@ -13,8 +13,8 @@ lastHumanReview: false
 featured: true
 translatedFrom: 'Economy/台灣農業現代化發展.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:4c373a2375756989'
-sourceBodyHash: 'sha256:87938e62aa76368d'
+sourceContentHash: 'sha256:6abff98edbff2fbe'
+sourceBodyHash: 'sha256:5dcfc71454466970'
 translatedAt: '2026-05-16T22:19:52+00:00'
 ---
 

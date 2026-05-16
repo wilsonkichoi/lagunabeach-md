@@ -11,8 +11,8 @@ readingTime: 10
 featured: false
 translatedFrom: 'People/陳樹菊.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:360441c78c4500d7'
-sourceBodyHash: 'sha256:547ef7dbb8323b13'
+sourceContentHash: 'sha256:884e3106e00c3ed4'
+sourceBodyHash: 'sha256:0e9eced4546d8cba'
 translatedAt: '2026-05-17T06:30:00Z'
 ---
 

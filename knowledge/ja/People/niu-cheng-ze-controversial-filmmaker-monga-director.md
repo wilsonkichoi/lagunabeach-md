@@ -8,8 +8,8 @@ lastVerified: '2026-03-19'
 lastHumanReview: false
 translatedFrom: 'People/鈕承澤.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:39b05590f5e57019'
-sourceBodyHash: 'sha256:1bc7cbaf656a75a6'
+sourceContentHash: 'sha256:03252333a42bc60e'
+sourceBodyHash: 'sha256:decf157a216cec86'
 translatedAt: '2026-05-17T06:35:00Z'
 category: People
 ---

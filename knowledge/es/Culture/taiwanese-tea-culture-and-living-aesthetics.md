@@ -20,8 +20,8 @@ lastHumanReview: false
 featured: true
 translatedFrom: 'Culture/台灣茶文化.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:f6c2c8e0c6b6e9d3'
-sourceBodyHash: 'sha256:e3f5b88e1d9e2a72'
+sourceContentHash: 'sha256:218a1627dd56bfb5'
+sourceBodyHash: 'sha256:ca6d9cb8b6ed52e7'
 translatedAt: '2026-05-17T06:00:00Z'
 ---
 

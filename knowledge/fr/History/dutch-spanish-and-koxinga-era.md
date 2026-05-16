@@ -23,8 +23,8 @@ lastHumanReview: true
 featured: false
 translatedFrom: 'History/荷西明鄭時期.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:475b891f7794f26c'
-sourceBodyHash: 'sha256:ec7a623ac36bc060'
+sourceContentHash: 'sha256:63ac1f41561d9b5f'
+sourceBodyHash: 'sha256:b9a9258412d16bc5'
 translatedAt: '2026-05-17T06:15:00Z'
 ---
 

@@ -21,8 +21,8 @@ lastHumanReview: false
 featured: true
 translatedFrom: People/韓國瑜.md
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:b248c358d4ff171a'
-sourceBodyHash: 'sha256:34912fb2edaeaf10'
+sourceContentHash: 'sha256:43806fa3b9658513'
+sourceBodyHash: 'sha256:fe00573219684528'
 translatedAt: '2026-05-17T06:15:00Z'
 ---
 

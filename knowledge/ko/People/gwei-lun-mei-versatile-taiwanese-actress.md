@@ -9,8 +9,8 @@ author: 'Taiwan.md Translation Team'
 readingTime: 10
 translatedFrom: 'People/桂綸鎂.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:e41fff8c078f654c'
-sourceBodyHash: 'sha256:d343aad5f928cfbe'
+sourceContentHash: 'sha256:266bd954eeb032d3'
+sourceBodyHash: 'sha256:c06a0cb5b90069e3'
 translatedAt: '2026-05-17T06:30:00Z'
 ---
 

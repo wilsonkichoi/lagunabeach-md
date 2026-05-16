@@ -20,8 +20,8 @@ lastVerified: 2026-05-13
 lastHumanReview: false
 translatedFrom: 'People/李雅英.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:6bdb5826bc17deb5'
-sourceBodyHash: 'sha256:84fcb9c8756f970a'
+sourceContentHash: 'sha256:1893791073a1e549'
+sourceBodyHash: 'sha256:c10dde5e8f5a2f8e'
 translatedAt: '2026-05-17T06:35:00Z'
 ---
 

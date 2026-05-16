@@ -16,8 +16,8 @@ category: 'People'
 author: 'Taiwan.md'
 translatedFrom: 'People/杜聰明.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:8bd65efa2b38202d'
-sourceBodyHash: 'sha256:23689222a9902f6c'
+sourceContentHash: 'sha256:cda33c38cf5ae9bc'
+sourceBodyHash: 'sha256:f0f1f0e7889b7e24'
 translatedAt: '2026-05-17T06:10:00Z'
 ---
 

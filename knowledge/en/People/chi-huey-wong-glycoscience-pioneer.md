@@ -17,8 +17,8 @@ category: 'People'
 author: 'Taiwan.md'
 translatedFrom: 'People/翁啟惠.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:f146cb8f7ab6981c'
-sourceBodyHash: 'sha256:09bc6150b717d885'
+sourceContentHash: 'sha256:984fef279b1af05b'
+sourceBodyHash: 'sha256:8e4d8fb8704570d2'
 translatedAt: '2026-05-17T06:10:00Z'
 ---
 

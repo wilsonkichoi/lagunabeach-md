@@ -9,8 +9,8 @@ author: 'Taiwan.md Translation Team'
 featured: false
 translatedFrom: 'People/蕭敬騰.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:4de8130a7075a11c'
-sourceBodyHash: 'sha256:e790a5ecaa535e1f'
+sourceContentHash: 'sha256:fb71e3bcf0475f2e'
+sourceBodyHash: 'sha256:6b96e9e6687dd8c3'
 translatedAt: '2026-05-17T06:30:00Z'
 ---
 

@@ -14,8 +14,8 @@ imageAlt: 'Bubble tea classique'
 imageCredit: 'Wikimedia Commons, CC BY-SA'
 translatedFrom: "Food/珍珠奶茶.md"
 sourceCommitSha: "d6e87d07"
-sourceContentHash: "sha256:cdebc1978d57fc65"
-sourceBodyHash: 'sha256:451d43de815e54d2'
+sourceContentHash: 'sha256:0cf880e658e73d67'
+sourceBodyHash: 'sha256:9bc13bf8c8054628'
 translatedAt: "2026-05-17T06:15:00Z"
 ---
 

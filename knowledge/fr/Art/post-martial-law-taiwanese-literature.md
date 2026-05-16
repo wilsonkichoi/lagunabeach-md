@@ -17,8 +17,8 @@ lastVerified: 2026-05-16
 lastHumanReview: true
 translatedFrom: 'Art/解嚴後台灣文學.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:230bdd26e7e50503'
-sourceBodyHash: 'sha256:91ddc5a57c03e56e'
+sourceContentHash: 'sha256:5365049c5ef601b0'
+sourceBodyHash: 'sha256:c355aaf2378be217'
 translatedAt: '2026-05-17T06:15:00Z'
 ---
 

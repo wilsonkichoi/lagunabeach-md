@@ -12,8 +12,8 @@ lastHumanReview: false
 featured: false
 translatedFrom: 'Economy/農業科技與精緻農業.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:bbf807bd6471e4b4'
-sourceBodyHash: 'sha256:bc574ffdc4c622df'
+sourceContentHash: 'sha256:cad6938758da3c7e'
+sourceBodyHash: 'sha256:7f2dcf08f6952b25'
 translatedAt: '2026-05-16T22:20:00Z'
 ---
 

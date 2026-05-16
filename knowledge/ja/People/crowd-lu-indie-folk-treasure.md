@@ -28,8 +28,8 @@ lastHumanReview: true
 featured: false
 translatedFrom: 'People/盧廣仲.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:e55cd445278e71b8'
-sourceBodyHash: 'sha256:fb3edafcc40418ff'
+sourceContentHash: 'sha256:a21c857b64fd8e71'
+sourceBodyHash: 'sha256:090ff0c53b31ba5d'
 translatedAt: '2026-05-16T22:19:52+00:00'
 ---
 

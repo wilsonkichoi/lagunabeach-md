@@ -12,8 +12,8 @@ lastHumanReview: false
 featured: false
 translatedFrom: 'Economy/台灣企業：研華科技.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:112d5462cd729b62'
-sourceBodyHash: 'sha256:b5a4691fec4a12e4'
+sourceContentHash: 'sha256:e6e208f3f61a399f'
+sourceBodyHash: 'sha256:cf28b2b23fb9b13c'
 translatedAt: '2026-05-16T22:20:00Z'
 ---
 

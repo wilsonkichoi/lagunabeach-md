@@ -17,8 +17,8 @@ lastVerified: 2026-05-16
 lastHumanReview: 2026-04-03
 translatedFrom: People/陳樹菊.md
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:d1c0a6dbeec92a83'
-sourceBodyHash: 'sha256:af4f6ea50e9c1ec1'
+sourceContentHash: 'sha256:884e3106e00c3ed4'
+sourceBodyHash: 'sha256:0e9eced4546d8cba'
 translatedAt: '2026-05-17T06:00:00Z'
 category: People
 ---

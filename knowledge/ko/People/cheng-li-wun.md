@@ -12,8 +12,8 @@ lastHumanReview: 'false'
 featured: 'true'
 translatedFrom: 'People/鄭麗文.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:cbe6421d51738771'
-sourceBodyHash: 'sha256:2d247eb02bd52320'
+sourceContentHash: 'sha256:d7d8adfe5a1c7158'
+sourceBodyHash: 'sha256:119c3d104b24e9dd'
 translatedAt: '2026-05-16T22:20:00Z'
 ---
 

@@ -20,8 +20,8 @@ category: 'People'
 subcategory: '藝術與設計'
 translatedFrom: 'People/沈聖博.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:694eb339d3f6dd17'
-sourceBodyHash: 'sha256:894085004abdb3f1'
+sourceContentHash: 'sha256:36208e14ce1c380c'
+sourceBodyHash: 'sha256:5eb269f5e4d722c4'
 translatedAt: '2026-05-17T06:10:00Z'
 ---
 

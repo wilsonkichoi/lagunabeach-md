@@ -19,8 +19,8 @@ lastHumanReview: false
 featured: false
 translatedFrom: 'Economy/台灣企業：緯創資通.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:78dfeac488fc250e'
-sourceBodyHash: 'sha256:46c302dd4e4644ee'
+sourceContentHash: 'sha256:7454eac8629fbffa'
+sourceBodyHash: 'sha256:6542e7615600861e'
 translatedAt: '2026-05-16T22:20:03Z'
 ---
 

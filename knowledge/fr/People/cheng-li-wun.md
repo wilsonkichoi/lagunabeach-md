@@ -12,9 +12,9 @@ lastVerified: 2026-04-11
 lastHumanReview: false
 translatedFrom: 'People/鄭麗文.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:cbe6421d51738771'
+sourceContentHash: 'sha256:d7d8adfe5a1c7158'
 translatedAt: 2026-05-16T22:21:10Z
-sourceBodyHash: 'sha256:2d247eb02bd52320'
+sourceBodyHash: 'sha256:119c3d104b24e9dd'
 ---
 
 # Cheng Li-wen

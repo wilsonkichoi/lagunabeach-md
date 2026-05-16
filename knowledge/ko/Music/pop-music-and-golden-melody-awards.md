@@ -10,8 +10,8 @@ readingTime: 10
 featured: false
 translatedFrom: 'Music/流行音樂與金曲獎.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:acef5c58e147cd31'
-sourceBodyHash: 'sha256:180dc3b473e091ee'
+sourceContentHash: 'sha256:ff90e26d455a0248'
+sourceBodyHash: 'sha256:26fbe182d7c0f17a'
 translatedAt: '2026-05-16T22:20:00Z'
 ---
 

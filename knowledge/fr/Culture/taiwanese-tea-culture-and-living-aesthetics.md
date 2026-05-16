@@ -21,8 +21,8 @@ lastVerified: 2026-03-24
 lastHumanReview: false
 translatedFrom: 'Culture/台灣茶文化.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:cbce2034c543a47a'
-sourceBodyHash: 'sha256:52933e6cc40f3244'
+sourceContentHash: 'sha256:218a1627dd56bfb5'
+sourceBodyHash: 'sha256:ca6d9cb8b6ed52e7'
 translatedAt: '2026-05-17T06:15:00Z'
 ---
 

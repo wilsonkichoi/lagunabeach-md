@@ -18,8 +18,8 @@ lastVerified: 2026-03-23
 lastHumanReview: false
 translatedFrom: 'Society/野百合學運.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:b78ae53aa65a72dd'
-sourceBodyHash: 'sha256:81faf010021d5fdb'
+sourceContentHash: 'sha256:bc1d9c831c947934'
+sourceBodyHash: 'sha256:5699382224a6d5e2'
 translatedAt: '2026-05-16T22:20:03Z'
 ---
 

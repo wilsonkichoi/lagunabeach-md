@@ -19,8 +19,8 @@ lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/台灣資安產業發展.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:9b04f4a90e1ada7c'
-sourceBodyHash: 'sha256:8d3a2ac8a7b27b6b'
+sourceContentHash: 'sha256:2d7d8b8a52c2b0ff'
+sourceBodyHash: 'sha256:11c4d3b5ca02c812'
 translatedAt: '2026-05-17T06:00:00Z'
 ---
 

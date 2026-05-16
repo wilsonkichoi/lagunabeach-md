@@ -12,8 +12,8 @@ lastHumanReview: false
 featured: true
 translatedFrom: 'History/台灣白色恐怖.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:832a6ef50f787430'
-sourceBodyHash: 'sha256:1bc9cc0ffb76cb01'
+sourceContentHash: 'sha256:29fe9cec7fc2be98'
+sourceBodyHash: 'sha256:da583c5d2ae27d5b'
 translatedAt: '2026-05-16T22:19:52+00:00'
 ---
 

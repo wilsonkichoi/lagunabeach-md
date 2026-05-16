@@ -18,8 +18,8 @@ featured: false
 lastVerified: 2026-03-24
 translatedFrom: 'Technology/台灣災難醫療體系.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:e291d274b831154d'
-sourceBodyHash: 'sha256:74fbe8988cd38371'
+sourceContentHash: 'sha256:bdad2fe4c19ade1d'
+sourceBodyHash: 'sha256:65d8bf2fc8ebb567'
 translatedAt: 2026-05-16T22:27:56Z
 ---
 

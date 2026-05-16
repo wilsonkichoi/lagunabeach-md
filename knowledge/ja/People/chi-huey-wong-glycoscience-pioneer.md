@@ -10,8 +10,8 @@ lastVerified: 2026-03-31
 lastHumanReview: false
 translatedFrom: People/翁啟惠.md
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:f146cb8f7ab6981c'
-sourceBodyHash: 'sha256:09bc6150b717d885'
+sourceContentHash: 'sha256:984fef279b1af05b'
+sourceBodyHash: 'sha256:8e4d8fb8704570d2'
 translatedAt: '2026-05-16T22:19:52+00:00'
 category: People
 ---

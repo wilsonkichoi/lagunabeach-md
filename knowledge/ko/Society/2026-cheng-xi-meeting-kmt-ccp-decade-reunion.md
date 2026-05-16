@@ -16,8 +16,8 @@ sporeLinks:
     url: 'https://www.threads.com/@taiwandotmd/post/DW_CjmCkQMW'
     views: 221
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:d9031fe551b98ac7'
-sourceBodyHash: 'sha256:3709ad64bf3cde9c'
+sourceContentHash: 'sha256:3eecc6e30b4626f7'
+sourceBodyHash: 'sha256:3d0acbeaa8a56355'
 translatedAt: '2026-05-16T22:20:00Z'
 ---
 

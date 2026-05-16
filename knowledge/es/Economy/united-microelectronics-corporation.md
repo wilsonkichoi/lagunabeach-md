@@ -19,8 +19,8 @@ lastHumanReview: false
 featured: false
 translatedFrom: 'Economy/台灣企業：聯華電子.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:7dc608e4a8f911bc'
-sourceBodyHash: 'sha256:6e00035d9e8abf90'
+sourceContentHash: 'sha256:0d32412f5db9b8c4'
+sourceBodyHash: 'sha256:f3ad39fefc5166a6'
 translatedAt: '2026-05-16T22:20:03Z'
 ---
 

@@ -10,8 +10,8 @@ readingTime: 18
 featured: false
 translatedFrom: 'People/陳澄波.md'
 sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:b8c1fe63b179aa94'
-sourceBodyHash: 'sha256:ac25afff964938ba'
+sourceContentHash: 'sha256:485587af49d56815'
+sourceBodyHash: 'sha256:433a66ecaa1d5d52'
 translatedAt: '2026-05-16T22:20:00Z'
 ---
 
