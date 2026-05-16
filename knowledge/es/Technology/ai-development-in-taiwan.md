@@ -19,8 +19,8 @@ lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/AI發展.md'
-sourceCommitSha: '24efd20f3'
-sourceContentHash: 'sha256:df8136b805403f70'
+sourceCommitSha: 'f712b724'
+sourceContentHash: 'sha256:94f6db1587e84f6b'
 sourceBodyHash: 'sha256:f92e6b6e01c4424a'
 translatedAt: '2026-05-15T14:23:13+08:00'
 ---
