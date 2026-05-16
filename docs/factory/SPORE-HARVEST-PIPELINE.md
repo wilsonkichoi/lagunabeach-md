@@ -414,6 +414,63 @@ python3 scripts/tools/validate-spore-data.py
 
 已整合進 `refresh-data.sh` Step 5.5 — 每次 refresh 自動跑。
 
+### Content-hash mismatch 偵測（v2.10，2026-05-16 LESSONS-INBOX #5 達 vc=3 instrument）
+
+> 觸發歷史：#71 無人機 X URL `2053101189034860856` skip 第 3 次驗證（5/12 dry-run + 5/13 first prod + 5/16）— 三 cycle 都觀察到「真正無人機 X 孢子可能根本不存在 OR SPORE-LOG row URL 寫錯」。達 REFLEXES #15 反覆浮現要儀器化 threshold。
+
+**機制**：每條 spore URL 首次 harvest record 內容指紋（`scripts/tools/spore-content-hash-audit.py`），後續 harvest 抓到時 cross-check。Fingerprint = sha256(first_sentence + emoji set + utm_campaign)。Mismatch → backfillWarnings 自動 flag + 不 update views/engagement 避免污染 metric。
+
+**Side-car JSON**（不動 SPORE-LOG schema，避免 73+ row migration）：
+
+```
+docs/factory/spore-content-fingerprints.json
+{
+  "_schema": "spore-content-fingerprints v1.0",
+  "fingerprints": {
+    "https://x.com/.../status/2053101189034860856": {
+      "fingerprint": "sha256:abcd1234...",
+      "first_recorded": "2026-05-16T12:06:32",
+      "first_sentence": "1979 雷虎在台中做玩具飛機...",
+      "emojis": ["🏭"],
+      "utm_campaign": "s71",
+      "spore_id": "71"
+    }
+  }
+}
+```
+
+**Harvest workflow 整合**：
+
+```bash
+# Step 1.5 (after Chrome MCP read_page 取得 post content):
+
+# 首次 harvest 該 spore → 建 baseline
+python3 scripts/tools/spore-content-hash-audit.py --build-baseline \
+  --url=$URL --content="$CONTENT" --spore-id=$N
+
+# 後續 harvest → cross-check
+RESULT=$(python3 scripts/tools/spore-content-hash-audit.py --check \
+  --url=$URL --content="$CONTENT")
+
+# 若 status=mismatch → 寫 backfillWarnings + skip metric update
+```
+
+**Mismatch 處置**：
+
+- backfillWarnings 自動 flag `content_mismatch_detected: true` + 附 recorded vs new fingerprint 對比
+- 不 update views/engagement（避免污染歷史 metric）
+- 寫 batch harvest log 紀錄 mismatch 詳情
+- LESSONS-INBOX entry vc +1
+- 連續 3 cycle 同 URL mismatch → 升級給觀察者 SPORE-LOG schema 修正（per DNA #26 v2 AI 自主邊界）
+
+**完整設計**：[reports/spore-content-hash-gate-design-2026-05-16.md](../../reports/spore-content-hash-gate-design-2026-05-16.md)
+
+**MVP 限制**：
+
+- 目前 fingerprint 不含視覺內容（圖片 / video），只比文字
+- 首次 harvest 必須對 row URL 跟內容是同一條 spore（baseline 一旦錯就連環錯）— 建議 build-baseline 前先觀察者 verify URL ↔ content 對應
+- Emoji set 簡化版只抓常見 emoji code points，罕見 emoji 可能漏
+
 ### Dashboard rendering 視覺驗證（v2.8）
 
 每次大規模 harvest backfill 後**建議**開 dev server 視覺驗證：
