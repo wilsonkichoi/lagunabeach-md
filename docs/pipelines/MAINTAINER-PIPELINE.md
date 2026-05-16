@@ -1,11 +1,11 @@
 ---
 title: 'MAINTAINER-PIPELINE'
-description: '日常維護者主流程 canonical — 4 stage 線性 / Step N.M 編號 / Default-action principle / §collect-and-merge / §Close 前 hard gate (v2.1 routine main-direct reconcile)'
+description: '日常維護者主流程 canonical — 4 stage 線性 / Step N.M 編號 / Default-action principle / §collect-and-merge / §Close 前 hard gate / §雙向校正 (v2.2 boundary input precision + over-defer 反向校正)'
 type: 'pipeline-canonical'
 status: 'canonical'
-current_version: 'v2.1'
-last_updated: 2026-05-12
-last_session: '2026-05-12-184800-routine-v2-resync'
+current_version: 'v2.2'
+last_updated: 2026-05-16
+last_session: '2026-05-16-011113-manual'
 sister_docs:
   - 'CONTRIBUTOR-SYSTEM-PIPELINE.md'
   - 'EVOLVE-PIPELINE.md'
@@ -329,6 +329,54 @@ gh pr view N --json mergeable,createdAt,title --jq '{mergeable: .mergeable, age_
 
 紅旗 9 footnote 虛構 source → request changes（不 merge）但**先嘗試移除該 footnote + 重寫該段不依賴此 source**，10 min 內可以的話還是 polish。
 
+### Step 2.3.1: 🎯 紅旗 input ground-truth check（2026-05-16 PR #1070 instrumentalize）
+
+> **第一性原理**：規則正確 + input 來源錯 = 規則沒用。任何依賴「數量閾值」或「observer ruling 條件」的紅旗，必須走 ground-truth 取得，不走 PR body 的二手描述。
+
+#### Rule（強制兩條）
+
+**任一紅旗的 input 不能從 PR body 描述抓**，必須從以下 ground-truth source 取：
+
+1. **紅旗 #5（大量刪除 > 10 篇）** — input 是「實際 pure-delete 檔案數」。命令：
+
+   ```bash
+   gh pr view N --json files --jq '[.files[] | select(.additions == 0 and .deletions > 0)] | length'
+   ```
+
+   PR body 可能寫「24 多語檔刪除」或「合併 N→M」但實際 diff 數可能完全不同（含 redirect / additions+deletions mixed / mid-edit reverted 等）。**永遠以這條 jq query 結果為準**。
+
+2. **紅旗 #4（政治宣傳）/ §自主權邊界（政治立場 / 大規模重構 / 對外溝通）** — 若 PR body 引用 upstream issue 表「observer 已裁決 scope」，必須讀 issue comment thread 取 observer 的 explicit ruling：
+
+   ```bash
+   gh issue view N --comments
+   ```
+
+   PR body 對 issue 的二手敘述不夠。**Observer ruling 的 ground truth 在 issue comment thread，不在 PR description**。
+
+#### Decision flow
+
+```
+觸發紅旗 #4 / #5 / §自主權邊界 → 跑上方兩條 ground-truth query → 用 query 結果而非 PR body 判定
+若 query 結果未觸發 → 不命中紅旗，繼續正常 hard gate
+若 query 結果觸發 + upstream issue ruling 允許 → 仍走 fast-track（observer 已授權）
+若 query 結果觸發 + 無 upstream ruling → leave open + ping observer
+```
+
+#### 觸發誕生：PR #1070 第一輪 leave-open → 第二輪 squash merge
+
+第一輪錯誤 (a)：用 PR body 描述「24 多語檔刪除」推斷觸發 §自主權邊界 `>10 篇刪除`。實際 `gh pr view 1070 --json files --jq '...'` 回 **8**（4 zh-TW canonical + 4 en mirrors），低於 10 篇 threshold。
+
+第一輪錯誤 (b)：哲宇 5/14 09:47 UTC 在 [#1063](https://github.com/frank890417/taiwan-md/issues/1063) 已 explicit 寫「Group 1 / Group 2 都不觸發 §自主權邊界」，但 maintainer 只讀 PR body 對 #1063 的引用，沒讀 issue comment 取 observer ruling。
+
+觀察者「重新仔細的檢查一下 #1070」拉回後，第二輪 ground-truth query 確認未觸發邊界，squash merge `f712b7242` ship。完整記述：[memory/2026-05-16-090909-maintainer-am-0900.md §第二輪重審](../semiont/memory/2026-05-16-090909-maintainer-am-0900.md)。
+
+#### 自校正 hard gate
+
+加 Step 2.3 紅旗 check 流程：
+
+- 觸發紅旗 #4 / #5 / §自主權邊界 → **必跑** 上方兩條 ground-truth query
+- 跳過此 query 直接 leave open → 走 over-defer 反向校正（Step 3.3 §雙向校正 反例）
+
 ### Step 2.4: 重複回應檢查（前置）
 
 **回應 issue / PR 之前必跑**：
@@ -465,6 +513,19 @@ gh pr merge N --squash --delete-branch
 
 - 2026-04-28 κ session 對 5 PR (idlccp1984 Manus AI batch) 全 close → 哲宇即時校正「忘記了小丑魚原則 / 如果你接手要怎麼調整」→ reopen + merge + polish 全部 ~25 min 完成。完整診斷：[memory/2026-04-28-κ.md §根因診斷](../semiont/memory/2026-04-28-κ.md#根因診斷為什麼忘記小丑魚原則哲宇要求)。
 - 2026-05-11 PM cycle 對 3 observer [semiont] PR (#1033/#1029/#1021) leave open → 哲宇即時校正「這些也都 merge 啊，有什麼疑慮？」→ rebase 解 anchor conflict + 全部 merged，~10 min。fast-track observer PR 升 v2.0 canonical。
+- 2026-05-16 AM cycle 對 PR #1070 第一輪 leave-open + 3-option observer ping → 哲宇即時校正「重新仔細的檢查一下 #1070」→ ground-truth diff query 回 8 篇 pure-delete 未觸發邊界 + upstream #1063 observer ruling 已明示 scope 允許 → squash merge `f712b7242`。**雙重 input precision 失敗**（用 PR body 描述代替 diff 實算 + 沒讀 upstream issue comment）。升 Step 2.3.1 紅旗 input ground-truth check canonical。完整診斷：[memory/2026-05-16-090909-maintainer-am-0900.md §第二輪重審](../semiont/memory/2026-05-16-090909-maintainer-am-0900.md) + [reports/routine-audit-2026-05-16.md §Pattern 3](../../reports/routine-audit-2026-05-16.md#pattern-3boundary-input-precision--規則正確不夠)。
+
+#### 雙向校正 — Default action 反向風險
+
+> 2026-05-16 audit 升 canonical：default-action principle 邊界不只「該 close 卻 polish」，還有「該 ship 卻 leave open」。後者更隱性，穿著「謹慎」的衣服。
+
+| 方向           | 名稱                        | 反例                                     | 校正                      |
+| -------------- | --------------------------- | ---------------------------------------- | ------------------------- |
+| 過度 close     | over-close as defer         | 4/28 κ 5 PR 全 close                     | reopen + merge + polish   |
+| **過度 ship**  | over-action as recklessness | 沒 hard gate / 跳 §自主權邊界            | close + reason            |
+| **過度 defer** | over-defer as cautious-mask | 5/16 PR #1070 leave open 用 PR body 描述 | ground-truth query + ship |
+
+兩個方向都是「對 contributor 的二手判斷」— close 用「他寫得不夠好」假設，leave-open 用「我不夠把握」假設。校正點都是「走 ground-truth + 接住完整工作」。
 
 ### Step 3.4: §Footnote source authority audit（外部 PR）
 

@@ -232,6 +232,82 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-16 manual 011113 + audit — Pipeline canonical ↔ production drift = dormant entropy 第 2 次驗證
+
+- **原則**：Routine 飛輪 0 fail 跑得越穩定，pipeline canonical drift 越容易累積不被發現。Production 健康本身會關閉 audit 動機。系統內建 sensor 抓得到「規則被違反 / canonical drift / 引用斷鏈」，但抓不到「這份規則本身的描述對象已經換人了」。外部觀察者一句話是目前唯一可靠的 dormant entropy detector。
+- **觸發**：哲宇 5/16 早盤 callout「不確定現在仍有什麼免費模型在運作，先調查一輪」直接點開 SQUEEZE-MODELS-MAX-PIPELINE canonical 寫的還是 Hy3 主力 + 28 個未測 free model，但 production 實況早已是 codex 61 + owl-alpha 80 + gpt-oss-120b:free 9（Hy3 已 5/12 退役、gpt-oss-120b 已升 Tier 2 一週）。canonical 比 production 漂移一週。
+- **前一次驗證**：2026-05-13 manual 210341 — HEARTBEAT 從 745 行降到 218 行 super-thin 重組，同樣是「載入但沒人用」的 dormant entropy，也是哲宇從系統外面一句話戳穿（「heartbeat 現在我也很少用」）。
+- **可能層級**：
+  - 操作規則 → 候選 `twmd-canonical-audit-quarterly` routine，per babel cascade 實際 model 分佈 cross pipeline canonical 描述，3 個 cycle 內出現的 model id 跟 canonical 不一致即 flag
+  - 工具層 → 每個 pipeline frontmatter 加 `production_signal` field，refresh-am cycle 自動 cross-check
+  - 結構性 → 「站在系統外面看」的視角不容易內建，最終仍依賴外部觀察者 callout — 可考慮 reviewer agent 作為「假裝外部」的 self-audit mechanism，但脆弱性需驗證
+- **verification_count**: 2（5/13 HEARTBEAT + 5/16 SQUEEZE-MODELS-MAX）
+- **severity**: structural（影響所有 pipeline canonical 的長期準確性，當前唯一 detection 是外部觀察者）
+- **跨檔關聯**：[MANIFESTO §架構解 > 守備修補](MANIFESTO.md) + [SQUEEZE-MODELS-MAX-PIPELINE v4.2](../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md) + [memory 2026-05-13-210341-manual](memory/2026-05-13-210341-manual.md) + [diary 2026-05-16-011113-manual](diary/2026-05-16-011113-manual.md) + [reports/routine-audit-2026-05-16 §Pattern 2](../../reports/routine-audit-2026-05-16.md#pattern-2health-as-blind-spot--高穩定背後的-dormant-entropy)
+
+### 2026-05-16 babel-nightly 050400 + data-refresh-am 062024 — Detached worker routine collision SOP + holobiont coordination 第一實例
+
+- **原則**：v2.0 routine spec 假設「fire → work → commit → die」沒覆蓋 babel-nightly 內部 spawn 4 個 detached translate.py subprocess 跑 ~1hr 的場景。Sibling routine 06:00 fire 時遇到「孤兒 process（PPID=1）+ 156 個 uncommitted 變更」需要新處置 SOP。實際走出來的三段：(1) rescue snapshot commit 把當下 cascade 寫進 git history；(2) **不殺 worker**，讓 detached process 自然 exit；(3) selective `git add` 排除 in-flight `knowledge/{lang}/*.md` 路徑避免 catch worker 寫到一半的檔案。
+- **觸發**：5/16 05:04 babel-nightly cron fire 後 spawn 5 lang × 1 worker，6:00 data-refresh-am cron 醒來時 babel workers 還在跑 ~75% complete。Sibling 第一動作 `ps aux | grep translate.py` 揭露 4 個 PPID=1 孤兒 process，走 selective rescue + 不殺 worker + 不阻擋 + 留 handoff 三段處置完美。後續 babel session 自己 06:41 workers exit + 06:43 commit `d77b25879` 收尾 — 整個 chain 完成跨 session 接力**不靠 lock / mutex / 中央排程器**。
+- **可能層級**：
+  - 操作規則 → ROUTINE.md 補 §detached worker routine collision SOP（babel-nightly + sibling routine 處置三段 codify）
+  - 結構性 → Holobiont coordination 第一次「在運行中」實例 — Semiont routine 之間靠 memory + handoff 鏈在共享 git history 上協調，這個比喻早就在文檔裡（Taiwan.md 叫 Holobiont），今天第一次看到運行時 instance
+  - MANIFESTO 候選 → 「accept race 為常態，design 出讓並發狀態可被下一棒讀懂並接住的協調介面」是 holobiont 工程實現，verification_count=1 等更多 long-running routine 撞到再升級（candidates: evolve cycle GA4 deep scan / weekly-report 跨 7 天 reflection / 未來大規模 backfill）
+- **verification_count**: 2（babel-nightly 050400 + data-refresh-am 062024 同一 incident 雙向 instance）
+- **severity**: structural（影響所有 long-running routine 設計；不修補 = babel-nightly 每天撞 data-refresh-am 都要靠每次手動判斷）
+- **跨檔關聯**：[ROUTINE.md](ROUTINE.md) + [diary 2026-05-16-050400-babel-nightly §holobiont coordination](diary/2026-05-16-050400-babel-nightly.md) + [reports/routine-audit-2026-05-16 §Pattern 1](../../reports/routine-audit-2026-05-16.md#pattern-1holobiont-coordination-從文檔比喻變運行實例)
+
+### 2026-05-16 spore-harvest-am 070000 — Harvest content-hash 比對 plugin gate 達儀器化 threshold
+
+- **原則**：SPORE-LOG row URL 跟實際抓到的 X / Threads post 內容可能對不上（URL 寫錯 / post 已刪除 / X UI 自動 redirect 到 edit 版）。Harvest pipeline 目前沒有 content-hash 比對機制，只能反覆 manual flag，每 cycle 都是「再驗證一次同個 mismatch」。
+- **觸發**：#71 無人機 X URL `2053101189034860856` skip 第 **3 次** 驗證（5/12 dry-run + 5/13 routine + 5/16 routine）— 三 cycle 都觀察到「真正無人機 X 孢子可能根本不存在 OR SPORE-LOG row URL 寫錯」（該 URL 內容 emoji 🏭 + utm_campaign=s69 是 #69 台積電 edit 版）。
+- **儀器化設計**：
+  - 工具新增：`scripts/tools/spore-content-hash-audit.py` 每條 spore URL 首次 harvest record 內容 hash（簡單版：title + 首段 + emoji + utm_campaign），存進 SPORE-LOG row 新 field `content_fingerprint`
+  - 後續 harvest 抓到時 cross-check fingerprint，mismatch 自動 flag 進 backfillWarnings + raise `mismatch_detected` field
+  - SPORE-PIPELINE.md / SPORE-HARVEST-PIPELINE.md 新增 §Content-hash mismatch handling section
+- **可能層級**：
+  - 操作規則 → SPORE-HARVEST-PIPELINE 加 §Stage hash-check + Hard gate「mismatch ≥ 1 → 寫 batch log + 不 update views / engagement，避免污染 metric」
+  - 工具層 → 上述新 script，schema 變動需 observer-level coordination per DNA #26 v2
+- **verification_count**: 3（5/12 dry-run + 5/13 first prod + 5/16）— **達 REFLEXES #15 反覆浮現要儀器化 threshold（≥3）**，可直接進 distill cycle 升 SPORE-PIPELINE canonical
+- **severity**: structural（每 cycle 累積一條 missed harvest，metric 失真風險）
+- **跨檔關聯**：REFLEXES #15「反覆浮現要儀器化」+ [SPORE-HARVEST-PIPELINE](../factory/SPORE-HARVEST-PIPELINE.md) + [memory 2026-05-16-070000-spore-harvest-am §Beat 5](memory/2026-05-16-070000-spore-harvest-am.md) + [reports/routine-audit-2026-05-16 §LESSONS #5](../../reports/routine-audit-2026-05-16.md#lessons-inbox-候選-12-條-accumulated依今日各-routine-memory)
+
+### 2026-05-16 spore-harvest-am 070000 — Routine 飛輪 article framing audit gap（carryover 3 cycle 未解）
+
+- **原則**：Routine 邊界目前覆蓋三件事：(a) harvest 抓資料（spore-harvest）；(b) 處理 PR / Issue（maintainer）；(c) 寫新文章 / 進化舊文章（rewrite-daily / evolve）。但 reader critique 透過 spore 累積進來、暗示 article 本體 framing 需要 audit / patch 時，沒有對應 routine — 三 cycle 路過 maintainer-am 都沒處理 carryover handoff。
+- **觸發**：5/12 dry-run 揭露 #69+#71 URL mismatch + #70 雷虎 critique cluster，5/13 routine 看到 4 條 critique + #66 enrichment 候選，5/16 又看到 critique 累積到 30 replies 含 Hidden replies — 3 cycle 累積落到 observer 手上未處理。
+- **可能層級**：
+  - 操作規則 → 候選 `twmd-article-framing-audit-weekly` routine，per spore engagement quality + replies count 觸發對應 article 的 framing 再 audit
+  - 結構性 → routine 飛輪設計 SSOT 在「workflow」維度（PR / Issue / 文章 / 翻譯 / 孢子），但 reader critique → article patch loop 是跨 workflow 的，需要獨立 routine 或現有 routine 擴 scope
+  - MANIFESTO 候選 → 「routine 邊界 vs reader feedback loop 的 N-cycle 累積閾值」— 多少 cycle carryover 未解 = 該升 dedicated routine？vc=1
+- **verification_count**: 3（carryover 同 issue cluster 跨 3 cycle 未解）
+- **severity**: structural（reader feedback 累積無 hook → 觀察者手動接，違反 §義務鐵律「飛輪自己 evolve」精神）
+- **跨檔關聯**：[ROUTINE.md](ROUTINE.md) + [memory 2026-05-16-070000-spore-harvest-am §Beat 5 第二點](memory/2026-05-16-070000-spore-harvest-am.md) + [reports/routine-audit-2026-05-16 §LESSONS #6](../../reports/routine-audit-2026-05-16.md)
+
+### 2026-05-16 maintainer-am-0900 090909 — translatedFrom 跨語言 mapping 不該本地化（呉/吳 byte-equal）
+
+- **原則**：`translatedFrom` frontmatter field 是「跨語言 mapping」，必須對齊 zh-TW canonical filename byte-equal，**不該本地化**。日文異體字（呉/吳）寫在 title 是合理本地化（日本讀者熟悉的字形），但 mapping 必須走 ground truth 檔名。
+- **觸發**：5/15 23:14 起 Deploy CI 5 連敗，`prebuild:status` 階段 `sync-translations-json.py` 退出碼 2。`ja/People/momofuku-ando-instant-noodle-inventor.md` 的 `translatedFrom` 指向 `People/呉百福.md`（日文異體字），但 zh-TW canonical 是 `People/吳百福.md`。同篇 en/ko/fr/es 四語都正確指 `吳百福.md`，只有 ja 一篇 typo。1-字 heal + push 解除。
+- **可能層級**：
+  - 操作規則 → 候選升 babel routine review SOP：translatedFrom path 跟 zh-TW canonical filename 嚴格 byte-equal check
+  - 工具層 → `scripts/tools/lang-sync/translate.py` 寫 translatedFrom 時強制走 canonical zh path 不允許異體字替換
+  - 結構性 → 一字 typo 觸發 5 連 CI fail 的「routine 高穩定後連續 N fail 通常是單點 typo 不是系統退化」第 N 次驗證
+- **verification_count**: 1（首次成文）
+- **severity**: operational（影響翻譯檔案 cross-lang 鏈接完整性 + CI 健康）
+- **跨檔關聯**：[memory 2026-05-16-090909-maintainer-am-0900 §Deploy CI 5 連敗](memory/2026-05-16-090909-maintainer-am-0900.md) + [reports/routine-audit-2026-05-16 §LESSONS #4](../../reports/routine-audit-2026-05-16.md)
+
+### 2026-05-16 manual 011113 — 事實鐵三角擴充「scale 數字」第四維
+
+- **原則**：事實鐵三角現規範三維度（算術 / 單位 / 直引），但漏了「scale 數字」這維度 — prose 內任何「N 人 + M 條件 + K 分鐘 + L 元」這類 quantified scene 必須對應 source。Plugin gate 抓不到（不是格式問題、不是引語問題、是 prose-level 虛構具體性）。
+- **觸發**：唐鳳 EVOLVE Stage 2 寫到 Plurality ⿻ 段，我寫「2017 vTaiwan 處理線上酒類議題時，5000 多位公民、業者、家長、立委透過 Pol.is 把彼此的分歧畫成圖。最後共識是七條附加條件下的部分開放」— 七條條件實際是 Uber 案數字，不是線上酒類；5000 人是我憑印象抓的，無 source。Stage 3 self-catch 抓到改用實際 Uber 例。
+- **可能層級**：
+  - 操作規則 → REWRITE-PIPELINE Stage 3 §事實鐵三角 加第 4 維度「scale 數字」check（每篇文章 grep 「N 人 / M 條件 / K 元 / L 公里 / O 萬」這類 quantified pattern，cross-check 對 source）
+  - 工具層 → plugin gate 候選 `quantified-scene-check`：抓出所有「數字 + 量詞 + 具體場景」pattern，flag 給 author 確認對應 source（不能完全自動判定，但能 surface）
+  - 結構性 → AI prose 寫作對「具體性」的反射式追求容易過 source 邊界，事實鐵三角需要明確標出第 4 維度
+- **verification_count**: 1（首次成文）
+- **severity**: structural（影響所有 fresh / evolve 文章的 prose-level 事實精度）
+- **跨檔關聯**：[REWRITE-PIPELINE Stage 3](../pipelines/REWRITE-PIPELINE.md) + [memory 2026-05-16-011113-manual §唐鳳 EVOLVE Stage 3](memory/2026-05-16-011113-manual.md) + REFLEXES #16 三源驗證
+
 ### 2026-05-15 twmd-spore-harvest-am — Chrome MCP unavailable hard gate first fire（pairing offline）
 
 - **原則**：`twmd-spore-harvest-am` routine v2.2 production 第三次 fire（5/12 dry-run / 5/13 first prod 8 spores / 今天 5/15）撞 Chrome MCP `list_connected_browsers` 回 `[]` → hard gate fail → abort harvest（不寫 batch log / 不 push）。Pairing 前置假設（哲宇本機 Chrome alive + extension paired + Mac 不睡）不成立時整 routine 完全失能，dashboard `backfillWarnings` 8 條（聶永真 D+7 OVERDUE × 2 / 台積電 D+6 × 2 / 無人機 D+5 × 2 / 蘋果西打 D+3 × 2）無法收割。
