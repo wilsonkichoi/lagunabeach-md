@@ -59,6 +59,19 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 台灣災難志工文化 EVOLVE — 2026-05-17 twmd-rewrite-daily routine（鏟子超人 + 多頭指揮所 / Society / 從 921 到光復的災難志工文化譜系）
+
+- **Article**: [knowledge/Society/台灣災難志工文化.md](../../knowledge/Society/台灣災難志工文化.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Evolution 模式（舊文 239 行 / 12 條 `## 參考資料` 0 inline footnote / 0 hero 0 inline 圖 / FLAT-END 修辭式結語 → 新版 5,933 CJK chars + 15 inline footnote + 1 hero + 1 inline 圖 + 具體場景結語 + 「慈濟模式 vs 多頭指揮所」核心矛盾節）
+- **核心矛盾（30 字）**：「鏟子超人神話讓民間活力被歌頌，但 500 公尺三個指揮所暴露國家應變失能 — 兩面是同一面鏡子」
+- **Hook（Title 三明治，保留 + 加 30 秒概覽）**：「鏟子超人與島嶼共時性：台灣災難志工文化如何影響國族認同」
+- **品質**：5,933 CJK chars (132% of 4500 門檻) / 15 inline footnote / 11 narrative H2 (非編年體 / 場景與衝突 anchor) / prose-health score 0 (clean pass) / 0 對位句型 / 9 破折號 (well within 60 limit) / lastHumanReview true / lastVerified 2026-05-17
+- **Research**: [reports/research/2026-05/災難志工文化-evolve.md](../../reports/research/2026-05/災難志工文化-evolve.md) — Stage 0 §觀點成型 完整六核心問題 + 3 核心矛盾候選收斂為單一矛盾 A / Stage 1 取材 4 WebSearch + 5 WebFetch / 16 facts triangulated + 3 facts flagged single-source / 媒體授權矩陣三表全填
+- **大事實修正**：原文章「滾石唱片」陳建年發行公司錯誤 → 角頭音樂 / We Music（KKBOX / Spotify metadata 三源驗證） / 原文章鏟子超人連假人次「2 萬 / 4.1 萬 / 4.45 萬」無法 cross-verify → 改用中央社確認的「累積 6 萬 + 29 日單日 4 萬 4,500」 / 原文章缺颱風名 → 補上「樺加沙颱風外圍環流」（Wiki） / 原文章只寫「光復鄉」 → 補上「光復 + 鳳林 + 萬榮三鄉鎮」
+- **媒體**：2 張 CC BY 2.0 圖（Hsu.shihhung 2003 + Liu Shu fu 2024，都來自臺中霧峰 921 教育園區 — caption 明確標示「兩個光復」地名巧合避免讀者誤以為是花蓮）
+- **Cross-link defer**：4 forward 延伸閱讀（當代原住民創作歌手 / 台灣志工文化與公益參與 / 原住民神話 / 台灣原住民族土地正義與傳統領域）全部 valid，reverse cross-link 留待後續 cycle 處理（sibling 格式 audit 防止 pre-existing tech debt 被帶進來）
+- **致謝**：原 contributor 漢堡王（wang1002jack@gmail.com）的 PR-style 投稿保留於文末
+
 ### 唐鳳 EVOLVE — 2026-05-16 2026-05-16-011113-manual（拒絕當天才的天才 / People / 深度進化）
 
 - **Article**: [knowledge/People/唐鳳.md](../../knowledge/People/唐鳳.md)
