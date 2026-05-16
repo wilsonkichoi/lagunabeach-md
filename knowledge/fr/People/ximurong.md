@@ -1,91 +1,92 @@
 ---
-title: 'Hsi Mu-jung : La poétesse du désert et du cœur'
-description: 'Auteure de Sept lieues de jasmin et La Jeunesse sans regrets, poétesse la plus vendue de la littérature chinoise contemporaine, d'origine mongole'
+title: "Xi Murong"
+description: "Auteure de « Parfum de chèvrefeuille » et « Jeunesse sans regret », poétesse la plus vendue du monde sinophone, d'origine mongole"
 date: 2026-03-19
-tags: [Personnalité, Hsi Mu-jung, poésie, Sept lieues de jasmin, La Jeunesse sans regrets, héritage mongol, prose]
-subcategory: 'Littérature'
-category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 12
-featured: false
+author: "Taiwan.md Contributors"
+category: "People"
+subcategory: "文學"
+tags: ["personnage", "Xi Murong", "Parfum de chèvrefeuille", "Jeunesse sans regret", "poétesse", "Mongols", "essayiste"]
 lastVerified: 2026-03-19
+lastHumanReview: "false"
+featured: "false"
 translatedFrom: "People/席慕蓉.md"
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:310ac0cea3702788'
-sourceBodyHash: 'sha256:78271b6f20943b55'
-translatedAt: "2026-04-14T19:14:57+08:00"
+sourceCommitSha: "18157ab5d"
+sourceContentHash: "sha256:6e935c20c3563107"
+sourceBodyHash: "sha256:c035c602c7e335fa"
+translatedAt: "2026-05-17T05:34:56+08:00"
 ---
 
-# Hsi Mu-jung : Une symphonie poétique entre la steppe et la modernité
+# Xi Murong : une symphonie poétique entre steppe et modernité
 
-Hsi Mu-jung est l'une des poétesses les plus influentes et les plus accessibles du monde sinophone — une femme de lettres dont les vers tendres ont touché d'innombrables âmes. Née en 1943 à Chongqing, d'ascendance mongole, élevée à Hong Kong, formée à Taïwan : cette pluralité de racines culturelles a façonné un univers poétique absolument singulier. Dès 1981, _Sept lieues de jasmin_ fait l'effet d'une révélation. _La Jeunesse sans regrets_, l'année suivante, confirme une voix à nulle autre pareille. Par une langue fraîche et naturelle, une profondeur émotionnelle rare et des images d'une beauté saisissante, Hsi Mu-jung a conquis des millions de lecteurs des deux rives du détroit. Poétesse, peintre et essayiste, elle est aussi une ambassadrice culturelle qui relie la ville moderne à la steppe mongole, bâtissant en mots un monde intérieur plein de poésie.
+> **En bref (30 s) :** Xi Murong est la poétesse la plus vendue à Taïwan dans les années 1980. Après la publication de *Parfum de chèvrefeuille* en 1981, le recueil a été réimprimé sept fois en un an, conquérant les deux rives du détroit et Hong Kong. Elle est également peintre de formation académique, descendante du clan Chakhar de Mongolie, et depuis son premier voyage sur la steppe en 1989, sa poésie est passée du lyrisme urbain à l'écriture identitaire et culturelle.
 
-## Des racines plurielles
+## Une enfance au carrefour de plusieurs cultures
 
-De son vrai nom Murun Serinbu, Hsi Mu-jung naît le 15 octobre 1943 à Jingang Po, dans la ville de Chongqing. Son père, Murun Serinban, descend de la noblesse de la tribu Chahar de Mongolie ; sa mère est han. Ce double héritage lui offre une richesse culturelle peu commune. Les errances de la guerre lui apprennent très tôt le déracinement et la nostalgie d'un pays natal.
+Xi Murong, de son vrai nom Muren Xilianbo, est née le 15 octobre 1943 à Jingangpo, dans le Chongqing de la Chine en guerre. Son père, Xi Zhenduo (nom mongol : Radish Dondog), fut le premier représentant de l'Assemblée nationale pour les huit bannières du Chakhar ; sa mère, Yue Zhufang (nom mongol : Bayin Bilig), était également d'origine mongole. Cette lignée steppique lui a conféré, bien plus que chez la plupart des familles exilées à Taïwan, une perception aiguë de la « terre perdue ». Les déplacements incessants liés aux troubles de l'époque lui ont très tôt fait connaître la saveur de la dispersion et la nostalgie d'un foyer lointain.
 
-En 1949, à l'âge de six ans, elle rejoint sa famille à Hong Kong. L'environnement cosmopolite de la ville lui ouvre les portes d'une rencontre entre Orient et Occident — une expérience déterminante pour la créatrice qu'elle deviendra. Ces années hong-kongaises lui permettent à la fois de s'imprégner de la culture chinoise traditionnelle et d'explorer la littérature et les arts occidentaux.
+En 1949, à l'âge de six ans, Xi Murong suit sa famille à Hong Kong. L'environnement cosmopolite de la colonie lui fait découvrir la rencontre des cultures chinoise et occidentale, une imprégnation qui marquera profondément son œuvre future. Durant ses années à Hong Kong, elle se familiarise simultanément avec la tradition littéraire chinoise et les arts occidentaux.
 
-En 1954, elle s'installe définitivement à Taïwan. La nature insulaire de Taïwan — ses paysages de montagnes, ses fleurs, le rythme des saisons — nourrit ensuite sa poésie d'images récurrentes et intimes.
+En 1954, la famille s'installe à Taïwan. L'adolescence de Xi Murong sur l'île, en particulier ses paysages naturels et son environnement humain, fournit une matière riche à sa poésie. Les montagnes, les fleurs, les saisons de Taïwan deviennent des images récurrentes dans ses vers.
 
-## Les années de formation à l'Université normale nationale de Taïwan
+## Les années d'études à la faculté des arts de l'Université normale
 
-Après le lycée, Hsi Mu-jung intègre le département des beaux-arts de l'Université normale nationale de Taïwan (NTNU). Bien plus qu'une formation technique, ce cursus développe en elle un sens aigu de l'esthétique, une maîtrise des couleurs et de la composition qui irrigueront toute son œuvre poétique. Durant ses études, elle participe aux cercles littéraires du campus, lit abondamment — en particulier les poètes modernes — et commence à écrire ses premiers textes.
+Après le lycée, Xi Murong intègre le département des beaux-arts de l'Université normale de Taïwan. La formation artistique développe chez elle une sensibilité aiguë aux couleurs et à la composition — des qualités qui se retrouveront dans sa poésie.[^1]
 
-Diplômée en 1966, elle reçoit une bourse de l'Université catholique de Louvain, en Belgique. Ce séjour européen élargit encore son horizon : musées, cathédrales, architecture ancienne — autant de chocs esthétiques qui enrichissent sa vision artistique.
+À l'université, elle se distingue en peinture tout en commençant à écrire, dévorant poésie chinoise et étrangère. Les poètes modernes l'influencent profondément et l'aident à forger son propre langage poétique.
 
-## _Sept lieues de jasmin_ : une entrée fracassante en poésie
+Diplômée en 1966, elle part se perfectionner à l'Académie royale des beaux-arts de Bruxelles, en Belgique. Les musées, les églises et l'architecture ancienne de la capitale européenne la marquent durablement et élargissent son horizon créatif.[^2]
 
-Pendant les années 1970, Hsi Mu-jung se consacre principalement à la peinture et à l'enseignement, la poésie restant une pratique intime et personnelle. La publication de _Sept lieues de jasmin_ en 1981 change tout. Le recueil connaît un succès foudroyant, rééditée des dizaines de fois en quelques mois à peine.
+## *Parfum de chèvrefeuille* : une entrée fracassante en poésie
 
-Ce triomphe n'a rien de fortuit. La langue de Hsi Mu-jung est limpide, sans artifice ni obscurité forcée — elle atteint la vérité des sentiments dans le simple, la profondeur dans le dépouillé. Elle a ce talent rare de transformer les images du quotidien — fleurs, lune, vent, pluie — en vecteurs d'émotions complexes.
+Dans les années 1970, Xi Murong se consacre principalement à la peinture et à l'enseignement ; la poésie reste un loisir. Mais la publication de *Parfum de chèvrefeuille* en 1981 la propulse en une nuit au centre de l'attention littéraire. Le recueil est réimprimé sept fois en un an, un record de ventes pour la poésie moderne taïwanaise.[^3]
 
-Le poème emblématique du recueil, _Un arbre en fleurs_, est entré depuis dans le canon de la poésie sinophone : « Comment te faire croiser ma route / au moment le plus beau de ma vie / Pour cela / j'ai supplié le Bouddha pendant cinq cents ans / de nous accorder ce lien d'une existence. » Ces vers, d'une beauté épurée et d'une sincérité bouleversante, continuent d'être récités et chantés des décennies après.
+Le succès de *Parfum de chèvrefeuille* tient à sa langue limpide : sans obscurité factice, elle atteint la sincérité dans la simplicité et la profondeur dans le dépouillement. Xi Murong excelle à transformer des images du quotidien — fleurs, lune, vent, pluie — en expressions de sentiments intimes complexes.
 
-## _La Jeunesse sans regrets_ : méditation sur le temps qui passe
+*L'arbre en fleurs* est devenu un classique de la poésie sinophone : « Comment te rencontrer / Au plus bel instant de ma vie / Pour cela / J'ai prié Bouddha pendant cinq cents ans / Pour qu'il nous accorde une liaison terrestre. » Ce poème, par sa beauté d'atmosphère et son émotion, est encore largement récité aujourd'hui.
 
-Publié en 1982, _La Jeunesse sans regrets_ poursuit l'élan de _Sept lieues de jasmin_. Ce recueil se penche davantage sur la jeunesse, l'amour, l'amitié — les grandes traversées de l'existence. Le poème-titre exprime une tendresse mélancolique pour les années révolues, une célébration de ce qui fut sans en nier la perte.
+## *Jeunesse sans regret* : regard poétique sur les années de jeunesse
 
-La maturité technique est ici plus affirmée. Hsi Mu-jung excelle à construire un climat poétique en partant d'un détail concret — une scène, un objet — pour s'élever jusqu'à une dimension philosophique. Sa poésie est également très musicale : le rythme, la cadence, la fluidité des syllabes en font des textes faits pour être dits à voix haute. Nombreux sont ceux qui ont découvert la poésie grâce à ces vers qui s'apprennent presque d'eux-mêmes.
+Publié en 1982, *Jeunesse sans regret* prolonge le succès du recueil précédent. Il explore les thèmes de la jeunesse, de l'amour et de l'amitié, révélant la profonde sensibilité de la poétesse face à la vie. Le poème-titre exprime la nostalgie des années envolées et la célébration de la jeunesse.[^4]
 
-## L'appel de la steppe mongole
+La poésie de Xi Murong part souvent d'une scène ou d'un objet concret, puis s'élargit progressivement jusqu'à atteindre une dimension philosophique. Une autre caractéristique de *Jeunesse sans regret* est sa musicalité — un rythme marqué, propice à la récitation, qui permet au lecteur de savourer la beauté du poème par le son.
 
-Parallèlement à la poésie, Hsi Mu-jung s'impose comme essayiste. À partir de la fin des années 1980, elle publie plusieurs recueils de prose — _Les traces de la croissance_, _Il existe une chanson_ — dans un style qui prolonge la grâce de ses poèmes.
+## Prose et passion mongole
 
-En 1989, elle foule pour la première fois la steppe mongole. Ce voyage aux sources est un tournant. La découverte de ses origines mongoles, longtemps vécues de loin, déclenche un flux créateur nouveau. Elle compose alors de nombreux poèmes et essais consacrés à la Mongolie, à sa langue et à sa culture.
+Outre la poésie, Xi Murong est aussi essayiste. À la fin des années 1980, elle publie des recueils de proses tels que *Traces de croissance* et *Il y a une chanson*, dans la même veine limpide que ses poèmes, avec une écriture élégante et sincère.
 
-Des œuvres comme _Ma demeure est sur les hauts plateaux_ et _Les paysages attendent encore_ témoignent d'une relation profonde à cet héritage ancestral. Par la forme de la poésie moderne, elle interroge la question de l'appartenance culturelle et de l'identité. Cette dimension mongole enrichit la littérature sinophone d'une voix venue de la steppe.
+En 1989, elle foule pour la première fois la steppe mongole. Ce voyage identitaire la bouleverse profondément. Elle se met alors à écrire abondamment sur la Mongolie, tant en poésie qu'en prose. Des œuvres comme *Ma maison est sur le plateau* et *Le pays attend* témoignent de son attachement à la steppe et de sa réflexion sur la culture de son peuple. Sous la forme de la poésie moderne, elle exprime la nostalgie d'une culture ancienne et l'affirmation de son identité ethnique.[^5]
 
-## Peinture et poésie : une œuvre à double voix
+*Mon nom pour la mémoire*, publié en 2019, est son recueil tardif : y revient, à un âge avancé, sur une vie entière de pérégrinations et de quête des racines, dans une langue plus sobre et intériorisée.
 
-Hsi Mu-jung n'a jamais abandonné la peinture. Ses huiles, d'une fraîcheur et d'un naturel en accord parfait avec sa poésie, sont régulièrement exposées. Elle crée souvent des œuvres qui marient texte et image : la sensation picturale est inscrite dans ses vers — ses poèmes ont cette qualité d'évoquer des tableaux — et ses toiles semblent porteuses d'une voix intérieure.
+## Peinture et poésie : une union parfaite
 
-Ces expositions de poèmes-peintures ont rencontré un accueil enthousiaste du public et constituent un exemple réussi de dialogue entre littérature et arts plastiques.
+Peintre de formation académique, Xi Murong n'a jamais abandonné la peinture. Ses huiles, d'un style frais et naturel, sont en parfaite cohérence avec sa poésie. Plus remarquable encore, ses poèmes possèdent une forte dimension visuelle : le lecteur a l'impression de contempler de délicates images en les lisant.
 
-## Pédagogie et transmission
+Xi Murong a organisé à plusieurs reprises des expositions mêlant poésie et peinture, offrant une forme concrète de collaboration transdisciplinaire entre littérature et beaux-arts, accueillie avec enthousiasme par le public.[^6]
 
-Pendant de nombreuses années, Hsi Mu-jung enseigne au département des beaux-arts de l'École normale de Hsinchu (aujourd'hui Université nationale de Taïwan à Hsinchu). Pour elle, l'éducation artistique ne se réduit pas à transmettre des techniques : il s'agit d'éveiller la sensibilité, de nourrir l'humain. Son approche pédagogique, centrée sur l'émotion et la signification, a influencé de nombreux artistes de la génération suivante.
+## Enseignement et transmission culturelle
 
-Elle participe aussi activement à la vie culturelle de Taïwan : conférences dans les écoles et les communautés, rencontres avec les lecteurs. Sa chaleur et sa sincérité ont conquis des publics bien au-delà du cercle littéraire, contribuant à démocratiser la poésie.
+Depuis **1984**, Xi Murong enseigne au département des beaux-arts de l'**Université Tunghai**, tout en donnant des cours pendant de nombreuses années à l'Institut pédagogique de Hsinchu (aujourd'hui la Faculté d'éducation de l'Université nationale de Tsing Hua). Pour elle, le cœur de l'enseignement artistique est l'éveil émotionnel et spirituel ; la technique n'est qu'un outil, la sensibilité esthétique en est l'âme. Sa pédagogie a influencé de nombreux artistes de la génération suivante.
 
-## Un pont entre les deux rives
+Elle donne aussi régulièrement des conférences dans les écoles et les communautés, partageant son expérience créative avec les lecteurs. Son charisme et sa sincérité ont touché d'innombrables auditeurs et contribué à la démocratisation de la poésie.
 
-Avec l'ouverture progressive des échanges entre Taïwan et la Chine continentale, l'œuvre de Hsi Mu-jung a trouvé un large lectorat au-delà du détroit. Les émotions universelles qu'elle exprime et la beauté de sa langue ont séduit des lecteurs en Chine continentale, à Hong Kong et dans les diasporas sinophones du monde entier. Elle a participé à de nombreuses rencontres culturelles transdetroit, tissant des liens entre poètes et écrivains des deux côtés.
+## Reconnaissance littéraire et portée historique
 
-Son œuvre fait ainsi office de pont entre les âmes, favorisant une transmission vivante de la culture chinoise au sens large.
+Les recueils de Xi Murong se sont vendus à plus d'un million d'exemplaires et ont été traduits en plusieurs langues à travers le monde. Elle a reçu de nombreuses distinctions, dont le prix littéraire Zhongshan et le prix national des arts et des lettres.[^7]
 
-## Héritage et portée
+Contrairement à l'élégance raffinée de [[Pai Hsien-yung (白先勇)]](/fr/People/pai-hsien-yung-literary-master/) ou à la lucidité critique de [[Lung Ying-tai (龍應台)]](/fr/People/lung-ying-tai/), Xi Murong a choisi une voie plus douce et intime. Dans le rythme effréné de la vie moderne, sa poésie offre au lecteur un refuge pour l'âme. Son œuvre montre aussi que la sensibilité féminine et le regard singulier d'une femme peuvent créer une littérature qui touche le cœur.
 
-L'influence de Hsi Mu-jung dans les lettres sinophones est considérable. Ses recueils de poésie se sont vendus à plus d'un million d'exemplaires au total et ont été traduits en plusieurs langues. Elle a reçu de nombreuses distinctions littéraires, dont le Prix des arts et lettres Sun Yat-sen et le Prix national des arts.
+## Références
 
-Plus profondément, sa poésie possède une vitalité qui traverse les décennies. Dans un monde pressé, ses vers offrent un espace de recueillement et une expérience de beauté. Ils attestent que la poésie reste une forme d'expression pleinement vivante.
+[^1]: [Département des beaux-arts de l'Université normale de Taïwan](https://www.ntnu.edu.tw/art/) — Historique de la création du département et informations sur les anciens élèves.
+[^2]: [Académie royale des beaux-arts de Bruxelles](https://www.arba-esi.be/) — Institution où Xi Murong a étudié, école nationale d'art de Belgique.
+[^3]: [Musée national de littérature taïwanaise — Exposition Xi Murong](https://www.nmtl.gov.tw/) — Publication et réimpressions de *Parfum de chèvrefeuille*, données de ventes et documents d'exposition.
+[^4]: [Alliance taïwanaise du livre électronique — Page des œuvres de Xi Murong](https://www.taaze.tw/) — Informations sur la première édition de *Jeunesse sans regret* et confirmation de l'année de publication.
+[^5]: [Centre culturel mongol et tibétain — Création littéraire mongole de Xi Murong](https://www.mtac.gov.tw/) — Présentation thématique par une institution gouvernementale de l'œuvre mongole de Xi Murong.
+[^6]: [Site officiel de Xi Murong](http://www.ximurong.tw) — Site officiel de la poétesse, regroupant informations sur les œuvres, comptes rendus d'expositions et parcours créatif.
+[^7]: [Prix national des arts et des lettres — Fondation nationale pour la culture et les arts](https://www.ncafroc.org.tw/) — Palmarès de Xi Murong et rapports du jury.
 
-À la différence de Pai Hsien-yung, dont l'écriture est d'une élégance sophistiquée, ou de Lung Ying-tai, dont la prose est animée d'une rigueur analytique, Hsi Mu-jung a choisi la voie de la douceur. Par la beauté et la sincérité de sa poésie, elle apporte une forme de guérison, semant les graines de l'amour et du beau.
+## Pour aller plus loin
 
-Son parcours a également ouvert la voie à de nombreuses poétesses. Elle a démontré que la sensibilité féminine et le regard singulier des femmes peuvent engendrer une grande littérature, contribuant ainsi à l'essor de l'écriture féminine dans l'espace sinophone.
-
-## Sources et références
-
-- [Site officiel de Hsi Mu-jung](http://www.ximurong.tw) — Site officiel de la poétesse, avec l'ensemble de son œuvre et de son parcours créatif
-- [Musée national de la littérature taïwanaise — Exposition Hsi Mu-jung](https://www.nmtl.gov.tw/informationlist_456.html) — Documents et pièces de l'exposition consacrée à l'œuvre de la poétesse
-- [Centre culturel mongol et tibétain — Création littéraire mongole de Hsi Mu-jung](https://www.mtac.gov.tw/mtac_2008/exhibition/2019/poet) — Présentation thématique officielle de la dimension mongole de son œuvre
+- [Musée national de littérature taïwanaise](https://www.nmtl.gov.tw/) — Œuvres et documents de Xi Murong conservés par le musée
+- [Pai Hsien-yung (白先勇)](/fr/People/pai-hsien-yung-literary-master/) — Grand nom de la littérature taïwanaise de la même génération, célèbre pour *Les Gens de Taipei*
