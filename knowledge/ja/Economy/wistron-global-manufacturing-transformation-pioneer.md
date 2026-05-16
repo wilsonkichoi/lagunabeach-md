@@ -11,10 +11,10 @@ lastVerified: 2026-03-20
 lastHumanReview: false
 featured: false
 translatedFrom: 'Economy/台灣企業：緯創資通.md'
-sourceCommitSha: '24efd20f3'
-sourceContentHash: 'sha256:214beb76f2ef137d'
-sourceBodyHash: 'sha256:28f6e5617d50cf4d'
-translatedAt: '2026-05-15T14:23:13+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:78dfeac488fc250e'
+sourceBodyHash: 'sha256:46c302dd4e4644ee'
+translatedAt: '2026-05-16T22:19:52+00:00'
 ---
 
 > **30秒でわかる概要**
@@ -126,7 +126,7 @@ Dellが最大の顧客（売上高の約30〜35%）であり、Appleがそれに
 **重要なブレークスルー**：
 
 - **2017年**：AppleのインドにおけるiPhone受託製造を開始
-- **2019年**：緯創医学を設立し、スマートヘルスケアに進出
+- **2019年**：緯創医学を設立し、スマートヘルスケアに進出。緯創医学は遠隔医療システム、ウェアラブル生理モニタリング機器、医療画像・リハビリ補助装置などの分野に注力し、アジア太平洋地域の高齢化社会需要を長期市場と位置づけ、グループの多角化転換を支える重要な柱となっている
 - **2020年**：COVID-19パンデミック中、柔軟な生産能力の調整が顧客から高く評価された
 
 ### 持続可能な発展（2020年〜現在）：ESG志向の新たなステージ

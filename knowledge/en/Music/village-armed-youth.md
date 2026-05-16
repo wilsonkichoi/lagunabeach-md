@@ -18,10 +18,10 @@ readingTime: 8min
 lastVerified: 2026-04-27
 lastHumanReview: false
 translatedFrom: 'Music/農村武裝青年.md'
-sourceCommitSha: 'eb7c1efb'
+sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:61f3e48a075a45a9'
 sourceBodyHash: 'sha256:8a72ef4e738ab17c'
-translatedAt: '2026-05-09T06:28:04Z'
+translatedAt: '2026-05-16T22:19:17Z'
 ---
 
 # Village Armed Youth

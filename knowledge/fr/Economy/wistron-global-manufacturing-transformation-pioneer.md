@@ -18,10 +18,10 @@ lastVerified: 2026-03-20
 lastHumanReview: false
 featured: false
 translatedFrom: 'Economy/台灣企業：緯創資通.md'
-sourceCommitSha: '24efd20f3'
-sourceContentHash: 'sha256:214beb76f2ef137d'
-sourceBodyHash: 'sha256:28f6e5617d50cf4d'
-translatedAt: '2026-05-15T14:23:14+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:78dfeac488fc250e'
+sourceBodyHash: 'sha256:46c302dd4e4644ee'
+translatedAt: 2026-05-16T22:27:03Z
 ---
 
 > **Aperçu en 30 secondes**
@@ -133,7 +133,7 @@ Face à la hausse des coûts de fabrication et à l'évolution des besoins des c
 **Percées importantes** :
 
 - **2017** : début de la sous-traitance de l'iPhone pour Apple en Inde
-- **2019** : création de Wistron Medical, entrée dans le secteur de la santé connectée
+- **2019** : création de Wistron Medical, entrée dans le secteur de la santé connectée. Wistron Medical se concentre sur les systèmes de télémédecine, les dispositifs portables de surveillance physiologique, l'imagerie médicale et les équipements d'aide à la rééducation, ciblant la demande à long terme liée au vieillissement de la société en Asie-Pacifique ; il devient un pilier essentiel de la diversification du groupe
 - **2020** : durant la pandémie de COVID-19, la capacité d'adaptation flexible de la production a été saluée par les clients
 
 ### Développement durable (2020-à ce jour) : une nouvelle phase axée sur l'ESG

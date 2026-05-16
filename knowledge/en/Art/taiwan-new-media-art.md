@@ -23,10 +23,10 @@ author: 'Taiwan.md'
 lastHumanReview: true
 featured: true
 translatedFrom: Art/台灣新媒體藝術.md
-sourceCommitSha: '3e53281a'
+sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:9bd3fb8545ca6bf8'
 sourceBodyHash: 'sha256:6bb7848c2fabe7e4'
-translatedAt: '2026-05-10T18:00:00Z'
+translatedAt: '2026-05-16T22:19:17Z'
 ---
 
 # Taiwan New Media Art

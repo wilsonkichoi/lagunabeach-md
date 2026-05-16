@@ -10,10 +10,10 @@ readingTime: 12
 featured: false
 lastVerified: 2026-03-31
 translatedFrom: 'People/陳澄波.md'
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:12bbbe1f09116e18'
-sourceBodyHash: 'sha256:daa58274ba5f4a8d'
-translatedAt: '2026-04-14T19:19:36+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:b8c1fe63b179aa94'
+sourceBodyHash: 'sha256:ac25afff964938ba'
+translatedAt: 2026-05-16T22:21:36Z
 ---
 
 > **En 30 secondes :** Le 25 mars 1947, devant la gare de Chiayi, un homme dont les mains tenaient d'ordinaire un pinceau fut ligoté avec du fil de fer et exécuté en public. Il s'appelait Chen Cheng-po. Premier Taïwanais à avoir intégré la grande exposition impériale japonaise avec une peinture à l'huile, il s'était rendu en délégation pour négocier un cessez-le-feu — et n'en était jamais revenu.

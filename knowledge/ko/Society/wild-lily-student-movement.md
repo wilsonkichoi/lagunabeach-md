@@ -10,10 +10,10 @@ readingTime: 15
 featured: false
 translatedFrom: 'Society/野百合學運.md'
 lastVerified: 2026-03-23
-sourceCommitSha: '800114ea'
-sourceContentHash: 'sha256:9f7ab13677794cd4'
-sourceBodyHash: 'sha256:68bbd52c379ede79'
-translatedAt: '2026-04-14T06:37:05+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:b78ae53aa65a72dd'
+sourceBodyHash: 'sha256:81faf010021d5fdb'
+translatedAt: '2026-05-16T22:20:00Z'
 ---
 
 # 야생 백합 학생운동

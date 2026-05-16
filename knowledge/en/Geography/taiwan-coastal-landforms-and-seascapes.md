@@ -18,10 +18,10 @@ featured: true
 lastVerified: 2026-03-24
 lastHumanReview: true
 translatedFrom: 'Geography/台灣海岸地形與海洋地景.md'
-sourceCommitSha: '3e53281a'
+sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:e54550587495a0bf'
 sourceBodyHash: 'sha256:d5f36e528ad6bbba'
-translatedAt: '2026-05-10T18:00:00Z'
+translatedAt: '2026-05-16T22:19:17Z'
 ---
 
 # Taiwan's Coastal Landscapes and Marine Geology

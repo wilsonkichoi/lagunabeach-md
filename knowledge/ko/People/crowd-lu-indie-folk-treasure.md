@@ -23,10 +23,10 @@ author: 'Taiwan.md Translation Team'
 featured: false
 readingTime: 12
 translatedFrom: 'People/盧廣仲.md'
-sourceCommitSha: '55adefac'
-sourceContentHash: 'sha256:6563f57d9c93f464'
-sourceBodyHash: 'sha256:bff59abbbb3fe6a1'
-translatedAt: '2026-04-14T19:24:53+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:e55cd445278e71b8'
+sourceBodyHash: 'sha256:fb3edafcc40418ff'
+translatedAt: '2026-05-16T22:20:00Z'
 ---
 
 > **30초 요약:** 루관중(盧廣仲), 1985년 타이난 런더(仁德) 출생. 대학 1학년 때 야식을 사러 가다 버스에 다리가 치여 독학으로 기타를 배웠다. 2008년 데뷔, 2009년 금곡상 최우수 신인상 수상 후 8년의 공백기. 2017년 《꽃반짝 남자 어른이 되다(花甲男孩轉大人)》에서 7분 원테이크 제문(祭文) 장면으로 업계를 충격에 빠뜨리며 금종상 2관왕을 차지했다. 2020년 〈네 이름을 새겼어(刻在我心底的名字)〉로 금마상 최우수 영화음악상 수상—35세에 대만 역사상 최연소 삼관왕이 됐다. 2026년 콘서트 티켓은 1분 만에 매진됐고, 암표 가격은 최고 6만 타이완달러에 달했다.
@@ -156,7 +156,7 @@ translatedAt: '2026-04-14T19:24:53+08:00'
 
 [^15]: [위키백과 〈네 심장에 새긴 이름〉 영화](https://zh.wikipedia.org/zh-hant/%E5%88%BB%E5%9C%A8%E4%BD%A0%E5%BF%83%E5%BA%95%E7%9A%84%E5%90%8D%E5%AD%97)
 
-[^16]: [위키백과 〈네 이름을 새겼어〉 노래(영문)](<https://en.wikipedia.org/wiki/Your_Name_Engraved_Herein_(song)>)
+[^16]: [위키백과 〈네 이름을 새겼어〉 노래(영문)](https://en.wikipedia.org/wiki/Your_Name_Engraved_Herein_(song) — )
 
 [^17]: [중앙통신사 〈금마상 57회 최우수 영화 노래〉](https://www.cna.com.tw/news/firstnews/202011210239.aspx)
 

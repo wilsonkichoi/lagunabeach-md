@@ -27,10 +27,10 @@ lastVerified: 2026-04-07
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/盧廣仲.md'
-sourceCommitSha: '55adefac'
-sourceContentHash: 'sha256:6563f57d9c93f464'
-sourceBodyHash: 'sha256:bff59abbbb3fe6a1'
-translatedAt: '2026-05-01T19:52:32+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:e55cd445278e71b8'
+sourceBodyHash: 'sha256:fb3edafcc40418ff'
+translatedAt: '2026-05-16T22:19:52+00:00'
 ---
 
 > **30秒概要：** 盧広仲（クラウド・ルー）は1985年、台南仁徳に生まれた。大学1年生のとき夜食を買いに出かけたところ、バスに脚を轢かれ粉砕骨折した。入院中に独学でギターを始め、2008年にデビュー、2009年に金曲獎最優秀新人賞を受賞した。しかしその後8年間、金曲獎にノミネートされない暗黒期が続いた。2017年、ドラマ『花甲少年転大人』で7分間のワンシーン祭文シーンで業界を震撼させ、金鐘賞を二冠で受賞。2020年には〈刻在我心底的名字〉で金馬賞最優秀オリジナル映画ソング賞を受賞し、35歳で台湾史上最年少の三金グラスロッツァを達成した。2026年のコンサートチケットは1分で完売、転売価格は6万台湾ドルに達した。
@@ -160,7 +160,7 @@ translatedAt: '2026-05-01T19:52:32+08:00'
 
 [^15]: [Wikipedia〈刻在你心底的名字〉映画](https://zh.wikipedia.org/zh-hant/%E5%88%BB%E5%9C%A8%E4%BD%A0%E5%BF%83%E5%BA%95%E7%9A%84%E5%90%8D%E5%AD%97) — 2020年の台湾LGBTQ+映画の詳細、Netflix世界配信のタイムライン。
 
-[^16]: [Wikipedia〈刻在我心底的名字〉楽曲（英語）](<https://en.wikipedia.org/wiki/Your_Name_Engraved_Herein_(song)>) — YouTube 6400万再生、4地域でKKBOXチャート1位、リチャード・サンダーソンの盗作疑惑への対応の詳細。
+[^16]: [Wikipedia〈刻在我心底的名字〉楽曲（英語）](https://en.wikipedia.org/wiki/Your_Name_Engraved_Herein_(song) — ) — YouTube 6400万再生、4地域でKKBOXチャート1位、リチャード・サンダーソンの盗作疑惑への対応の詳細
 
 [^17]: [中央通信社〈金馬57最優秀映画ソング〉](https://www.cna.com.tw/news/firstnews/202011210239.aspx) — 第57回金馬獎の受賞報道。
 

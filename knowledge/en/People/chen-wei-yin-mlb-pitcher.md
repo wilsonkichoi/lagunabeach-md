@@ -11,10 +11,10 @@ readingTime: 6
 lastVerified: 2026-03-22
 lastHumanReview: false
 translatedFrom: 'People/陳偉殷.md'
-sourceCommitSha: '3e53281a'
+sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:6b7e4f91c9d8e7c0'
 sourceBodyHash: 'sha256:dcb79e520722938f'
-translatedAt: '2026-05-10T18:00:00Z'
+translatedAt: '2026-05-16T22:19:17Z'
 ---
 
 > **30-second overview:** Wei-Yin Chen was the first Taiwanese pitcher to jump directly from NPB to MLB,

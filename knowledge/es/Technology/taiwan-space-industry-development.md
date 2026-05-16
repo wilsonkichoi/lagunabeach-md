@@ -19,10 +19,10 @@ featured: true
 lastVerified: 2026-03-29
 lastHumanReview: false
 translatedFrom: Technology/台灣太空產業發展.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:6d36d0208e7a562f'
-sourceBodyHash: 'sha256:a6c98698fb79ebb5'
-translatedAt: 2026-05-01T20:54:23+08:00
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:b1e832f59d9ad8f7'
+sourceBodyHash: 'sha256:de06325df9d8ca7f'
+translatedAt: '2026-05-16T22:20:03Z'
 ---
 
 # Desarrollo de la industria espacial de Taiwán: potencia en fabricación de satélites, pero sin cohete propio
@@ -126,7 +126,7 @@ La desventaja de Taiwán está en la escala y en los cohetes: tanto en financiac
 | Resolución de satélite de teledetección | Submétrica (2025)                      | Submétrica (2006)           | Submétrica (2006)           | Dependencia de servicios comerciales |
 | Ecosistema espacial comercial           | En desarrollo                          | Maduro                      | Maduro                      | En desarrollo                        |
 
-Donde las empresas taiwanesas tienen mayor oportunidad de incursión no es en «construir satélites completos» (Japón y Corea del Sur llevan décadas de ventaja), sino en «fabricar esos pocos componentes clave de los que depende el éxito o fracaso de todo el satélite». Los sensores CMOS TDI, los módulos de comunicación SDR y los componentes electrónicos resistentes a la radiación son direcciones en las que la [[semiconductor industry|industria de semiconductores]] puede diferenciarse en el ámbito espacial. Dentro del ecosistema de startups de Taiwán (台灣新創生態系), cada vez más empresas lo ven como el próximo nicho posible.
+Donde las empresas taiwanesas tienen mayor oportunidad de incursión no es en «construir satélites completos» (Japón y Corea del Sur llevan décadas de ventaja), sino en «fabricar esos pocos componentes clave de los que depende el éxito o fracaso de todo el satélite». Los sensores CMOS TDI, los módulos de comunicación SDR y los componentes electrónicos resistentes a la radiación son direcciones en las que la [[semiconductor industry|industria de semiconductores]] puede diferenciarse en el ámbito espacial. Dentro del ecosistema de startups (新創生態系), cada vez más empresas lo ven como el próximo nicho posible.
 
 Corea del Sur probó su cohete autónomo Nuri en 2021 y logró la inserción orbital en 2023: de desarrollo a éxito pasaron 12 años, con una inversión superior a 2 billones de wones coreanos (aproximadamente 50,000 millones de TWD). El cohete H3 de Japón falló en su primer vuelo pero tuvo éxito en 2024, con un costo de desarrollo superior a 200,000 millones de yenes japoneses. El tercer programa espacial de Taiwán, con 71,000 millones de TWD en 10 años, equivale a aproximadamente 1.4 veces el presupuesto del solo programa Nuri de Corea del Sur, pero debe cubrir tres frentes: satélites, comunicaciones y startups. Con presupuesto limitado, la estrategia de TASA es «no hacer cohetes, centrarse en satélites y sensores»: aprovechar la ventaja manufacturera de la [[semiconductor industry|industria de semiconductores]] para insertarse en la cadena de suministro espacial, en lugar de competir directamente en capacidad de lanzamiento. El desarrollo de la cadena industrial de vehículos eléctricos de Taiwán (台灣電動車產業鏈發展) siguió un camino similar: comenzar por la manufactura bajo contrato, acumular capacidad en componentes clave y luego escalar hacia la integración de sistemas.
 

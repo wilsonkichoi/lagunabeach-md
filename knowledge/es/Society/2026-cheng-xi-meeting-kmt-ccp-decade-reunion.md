@@ -19,10 +19,10 @@ lastVerified: 2026-04-11
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/2026鄭習會與國共十年再會.md'
-sourceCommitSha: '056136d7'
-sourceContentHash: 'sha256:059f5d9ff66a77e7'
-sourceBodyHash: 'sha256:05a0af91a175d45e'
-translatedAt: '2026-05-02T01:17:17+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:d9031fe551b98ac7'
+sourceBodyHash: 'sha256:3709ad64bf3cde9c'
+translatedAt: '2026-05-16T22:20:03Z'
 category: Society
 ---
 

@@ -12,10 +12,10 @@ featured: true
 lastVerified: 2026-04-11
 lastHumanReview: false
 translatedFrom: "Society/2026鄭習會與國共十年再會.md"
-sourceCommitSha: "056136d7"
-sourceContentHash: "sha256:059f5d9ff66a77e7"
-sourceBodyHash: 'sha256:05a0af91a175d45e'
-translatedAt: "2026-04-14T12:32:15+08:00"
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:d9031fe551b98ac7'
+sourceBodyHash: 'sha256:3709ad64bf3cde9c'
+translatedAt: 2026-05-16T22:22:05Z
 ---
 
 # Le sommet Zheng-Xi de 2026 : dix minutes qui valent dix ans
@@ -157,6 +157,7 @@ Singapour 2015, c'était une poignée de main. Pékin 2026, c'est une mise en sc
 - [Lai Ching-te](/people/賴清德) — L'autre protagoniste de la pièce, celui que l'on a délibérément laissé hors cadre.
 - [Cheng Li-wên](/people/鄭麗文) — De la militante étudiante qui entamait une grève de la faim pour l'indépendance de Taïwan aux portes de l'Université nationale de Taïwan en 1988, à la présidente du KMT déclarant en 2026 à Pékin que « les compatriotes des deux rives sont tous des Chinois ».
 - [Han Kuo-yu](/people/韓國瑜) — Président du Yuan législatif, qui présidait cette semaine-là les négociations budgétaires au Parlement : un autre personnage clé de la pièce.
+- [Taïwan et l'Eswatini](/society/台灣與史瓦帝尼) — À la même période, le discours de Lai Ching-te lors de sa visite à un pays partenaire diplomatique : la mise en regard de « la République de Chine (Taïwan) est un État souverain qui appartient au monde » et de « les compatriotes des deux rives sont tous des Chinois ».
 
 ## Références
 

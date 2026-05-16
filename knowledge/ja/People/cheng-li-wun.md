@@ -11,10 +11,10 @@ lastVerified: '2026-04-11'
 lastHumanReview: 'false'
 featured: 'true'
 translatedFrom: 'People/鄭麗文.md'
-sourceCommitSha: '5db9f136e'
-sourceContentHash: 'sha256:d7d8adfe5a1c7158'
-sourceBodyHash: 'sha256:119c3d104b24e9dd'
-translatedAt: '2026-05-09T14:29:09+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:cbe6421d51738771'
+sourceBodyHash: 'sha256:2d247eb02bd52320'
+translatedAt: '2026-05-16T22:19:52+00:00'
 ---
 
 # 鄭麗文

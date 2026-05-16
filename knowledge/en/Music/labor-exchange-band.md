@@ -21,10 +21,10 @@ readingTime: '8min'
 lastVerified: 2026-04-27
 lastHumanReview: false
 translatedFrom: 'Music/交工樂隊.md'
-sourceCommitSha: 'eb7c1efb'
+sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:912e5f2bd004672b'
 sourceBodyHash: 'sha256:f78b7564231803ab'
-translatedAt: '2026-05-09T06:28:04Z'
+translatedAt: '2026-05-16T22:19:17Z'
 ---
 
 # Labor Exchange Band (交工樂隊)

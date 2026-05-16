@@ -12,10 +12,10 @@ lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/台灣遊戲產業與數位娛樂.md'
-sourceCommitSha: '24efd20f3'
-sourceContentHash: 'sha256:6a226edc3803ee6e'
-sourceBodyHash: 'sha256:33057c1f1ed85611'
-translatedAt: '2026-05-15T14:23:13+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:98c440e7598c876a'
+sourceBodyHash: 'sha256:5dcc133fd856a17d'
+translatedAt: '2026-05-16T22:20:00Z'
 ---
 
 # 대만 게임 산업과 디지털 엔터테인먼트
@@ -70,7 +70,7 @@ PwC의 《2024 글로벌 엔터테인먼트 및 미디어 전망 보고서》[^1
 
 **Rayark**는 2011년에 설립되었고, 《Cytus》, 《Deemo》 등 음악 리듬 게임을 출시하여 정교한 시각 디자인과 아름다운 음악으로 전 세계 플레이어를 사로잡았다. 그 작품들은 짙은 예술적 저력과 독창적 서사를 품고 있으며, 디지털 미학에서 대만이 지닌 독특한 감각을 보여준다.
 
-**Red Candle Games**는 2015년에 설립되었고, 《반교 Detention》, 《환원 Devotion》 같은 공포 어드벤처 게임으로 알려졌다. 이 작품들은 대만의 역사와 문화를 깊이 파고들어, 계엄 시기의 집단기억과 대만 민속 신앙을 게임 경험으로 전환함으로써 해외 플레이어가 상호작용적 엔터테인먼트를 통해 대만을 이해하도록 했다.
+**Red Candle Games**는 2015년에 설립되었고, 《반교 Detention》, 《환원 Devotion》 같은 공포 어드벤처 게임으로 알려졌다. 이 작품들은 대만의 역사와 문화를 깊이 파고들어, 계엄 시기의 집단기억과 대만 민속 신앙을 게임 경험으로 전환함으로써 해외 플레이어가 상호작용적 엔터테인먼트를 통해 대만을 이해하도록 했다. 《반교 Detention》는 누적 전 세계 판매량 100만 장을 넘겼고, 2019년에는 동명 영화로도 각색되었다.
 
 ## 대만 게임의 문화적 특색
 

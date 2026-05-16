@@ -18,10 +18,10 @@ lastVerified: 2026-03-19
 lastHumanReview: false
 featured: false
 translatedFrom: 'Economy/農業科技與精緻農業.md'
-sourceCommitSha: '24efd20f3'
-sourceContentHash: 'sha256:7c173ab223ebcfab'
-sourceBodyHash: 'sha256:6a3f109cd6a40c81'
-translatedAt: '2026-05-15T13:52:06+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:bbf807bd6471e4b4'
+sourceBodyHash: 'sha256:bc574ffdc4c622df'
+translatedAt: '2026-05-16T22:20:03Z'
 ---
 
 # Tecnología agrícola y agricultura de precisión
@@ -87,7 +87,7 @@ Taiwán goza de la reputación de “reino de las orquídeas” y es uno de los 
 **Competitividad internacional**: sus principales mercados de exportación son Estados Unidos, Japón, la Unión Europea y Corea del Sur. En el mercado estadounidense de orquídeas de gama alta —plantas en maceta y plantines—, su cuota supera el 70%, y ya ha establecido bases de producción en China y Vietnam para exportar tecnología.
 
 **Claves del éxito**
-El equipo de investigación en orquídeas de la Estación de Investigación y Extensión Agrícola del Distrito de Tainan, dependiente del Ministerio de Agricultura, tardó 30 años en construir el sistema industrial de las orquídeas[^2]. Desde la recolección y preservación de orquídeas nativas hasta la hibridación, el cultivo de tejidos y las técnicas de cultivo, cubrió toda la cadena industrial, desde el mejoramiento varietal hasta la exportación.
+El equipo de investigación en orquídeas de la Estación de Investigación y Extensión Agrícola del Distrito de Tainan, dependiente del Ministerio de Agricultura, tardó 30 años en construir el sistema industrial de las orquídeas[^2]. Desde la recolección y preservación de orquídeas nativas hasta la hibridación, el cultivo de tejidos y las técnicas de cultivo, cubrió toda la cadena industrial, desde el mejoramiento varietal hasta la exportación. En cuanto a los canales de exportación, Houbi (Tainan) y Tianwei (Changhua) son los principales centros de despacho de plántulas de Phalaenopsis; las cadenas minoristas de floristería en Estados Unidos —supermercados como Costco, Trader Joe's o Whole Foods— constituyen el mayor mercado mayorista; la bolsa floral de Aalsmeer (Países Bajos) y la feria Cultivate de Estados Unidos son los escenarios principales para penetrar en los grandes distribuidores europeos y norteamericanos de alta gama; y el modelo de licencias de variedades en Japón permite que las empresas taiwaneses sigan obteniendo beneficios por la propiedad intelectual de sus cultivares. Las plántulas se transportan por cadena de frío aérea, lo que también impulsa de forma notable el sistema taiwanés de carga aérea y de almacenamiento refrigerado de flores.
 
 ### Atemoya: la nueva estrella de la agricultura taiwanesa
 
@@ -121,6 +121,10 @@ Los tres módulos tecnológicos centrales de la agricultura de precisión se apo
 ### Aplicaciones de IA
 
 Los principales escenarios de aplicación de la IA en agricultura incluyen drones equipados con cámaras multiespectrales para monitorear el crecimiento de cultivos, análisis de enfermedades vegetales con una precisión superior al 95% y clasificación automatizada de calidad para aumentar la eficiencia. En análisis predictivo, la IA combina datos meteorológicos históricos para prever el momento óptimo de cultivo, los precios de mercado y la probabilidad de aparición de plagas y enfermedades. Los sistemas inteligentes de apoyo a la decisión integran datos de sensores para ofrecer recomendaciones de cultivo y regular el ambiente de los invernaderos, reduciendo en conjunto los costos de producción entre 20% y 30%.
+
+### Automatización agrícola y drones para protección de cultivos
+
+La industria taiwanesa de drones agrícolas ha crecido con rapidez en los últimos años: en 2023 el área de operaciones agrícolas con drones superó 1,5 millones de hectáreas-pasada en toda la isla, con más de 3.000 aparatos registrados, lo que convierte a Taiwán en una de las regiones con mayor densidad mundial de drones agrícolas[^5]. Frente a la fumigación terrestre tradicional, la protección de cultivos por dron permite reducir el uso de agroquímicos por hectárea en más de un 30% y llegar a laderas y parcelas remotas, cubriendo el vacío que deja la escasez de mano de obra. El Ministerio de Agricultura ofrece subsidios para la adquisición de maquinaria —cosechadoras de arroz, trasplantadoras, drones— a fin de ayudar a los agricultores a reducir el coste inicial de la mecanización. Aunque los robots de cosecha de frutas y hortalizas siguen en fase de validación sobre el terreno, varias startups han mostrado prototipos en fresa o pepino con capacidad de producción en serie, y se prevé su entrada comercial entre 2026 y 2028.
 
 ## Políticas y apoyo gubernamental
 

@@ -18,10 +18,10 @@ lastVerified: 2026-03-20
 lastHumanReview: false
 featured: false
 translatedFrom: 'Economy/台灣企業：緯創資通.md'
-sourceCommitSha: '24efd20f3'
-sourceContentHash: 'sha256:214beb76f2ef137d'
-sourceBodyHash: 'sha256:28f6e5617d50cf4d'
-translatedAt: '2026-05-15T14:23:13+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:78dfeac488fc250e'
+sourceBodyHash: 'sha256:46c302dd4e4644ee'
+translatedAt: '2026-05-16T22:20:03Z'
 ---
 
 > **Panorama en 30 segundos**
@@ -133,7 +133,7 @@ Ante el aumento de los costos de manufactura y los cambios en las demandas de lo
 **Avances importantes**:
 
 - **2017**: Inicio de la manufactura por contrato del iPhone de Apple en India
-- **2019**: Fundación de Wistron Medical, incursionando en la atención médica inteligente
+- **2019**: Fundación de Wistron Medical, incursionando en la atención médica inteligente. Wistron Medical se concentra en sistemas de telemedicina, dispositivos vestibles de monitorización fisiológica, imagen médica y aparatos de asistencia para la rehabilitación, tomando como mercado a largo plazo las necesidades de una sociedad envejecida en Asia-Pacífico, y se ha convertido en un pilar clave de la diversificación y transformación del grupo
 - **2020**: Durante la pandemia de COVID-19, su capacidad de ajuste flexible de la producción fue ampliamente reconocida por los clientes
 
 ### Desarrollo sostenible (2020-presente): Una nueva etapa orientada a ESG

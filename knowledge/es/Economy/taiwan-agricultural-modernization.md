@@ -19,10 +19,10 @@ lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Economy/台灣農業現代化發展.md'
-sourceCommitSha: '24efd20f3'
-sourceContentHash: 'sha256:ade41d6905a5412b'
-sourceBodyHash: 'sha256:45d5485b56395378'
-translatedAt: '2026-05-15T13:52:06+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:4c373a2375756989'
+sourceBodyHash: 'sha256:87938e62aa76368d'
+translatedAt: '2026-05-16T22:20:03Z'
 ---
 
 # Modernización de la agricultura en Taiwán
@@ -57,7 +57,7 @@ Las bases del desarrollo de la agricultura moderna de Taiwán pueden remontarse 
 
 **Mejoramiento varietal e introducción tecnológica**: en la década de 1920, durante el período japonés, se introdujo el arroz Penglai, se mejoraron variedades de caña de azúcar y se establecieron instituciones de experimentación agrícola, sentando las bases para el desarrollo posterior de la ciencia y la tecnología agrícolas.
 
-**Establecimiento de las asociaciones de agricultores**: la creación del sistema de asociaciones de agricultores proporcionó a los agricultores servicios de orientación técnica, apoyo financiero y comercialización de productos. Este sistema continúa utilizándose hasta la actualidad.
+**Establecimiento de las asociaciones de agricultores**: la creación del sistema de asociaciones de agricultores proporcionó a los agricultores servicios de orientación técnica, apoyo financiero y comercialización de productos. Este sistema continúa utilizándose hasta la actualidad. El sistema taiwanés de asociaciones de agricultores se organiza en tres niveles: asociaciones de base (de los municipios, ciudades y distritos), asociaciones provinciales y la Cooperativa Agrícola Nacional, con un total de 288 asociaciones de base en toda Taiwán. Estas asociaciones cumplen funciones diversas —educación y extensión agrícola, compra y venta colectivas, finanzas rurales y seguros agrícolas—, y constituyen el principal canal de transmisión del conocimiento de modernización agrícola al campo, así como un pilar fundamental para la negociación colectiva de los agricultores y su acceso al mercado.
 
 ### Reforma agraria en la primera posguerra
 

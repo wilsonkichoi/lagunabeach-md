@@ -16,10 +16,10 @@ featured: false
 researchReport: 'reports/research/2026-04/當代台灣文學.md'
 readingTime: 10
 translatedFrom: 'Art/當代台灣文學.md'
-sourceCommitSha: 'eb7c1efb'
+sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:35da98a88d3eacf8'
 sourceBodyHash: 'sha256:5baed6f05d6d9ed8'
-translatedAt: '2026-05-09T06:28:04Z'
+translatedAt: '2026-05-16T22:19:17Z'
 ---
 
 # Contemporary Taiwanese Literature: Wu Ming-yi, Lin Yi-han, and a Quiet Reading Crisis

@@ -18,10 +18,10 @@ lastVerified: '2026-03-28'
 lastHumanReview: 'true'
 featured: 'false'
 translatedFrom: 'Society/台灣志工文化與公益參與.md'
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:3da44641d134eb50'
-sourceBodyHash: 'sha256:cf71241a19c21d04'
-translatedAt: '2026-05-01T22:19:10+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:5321a4a0d8a77b08'
+sourceBodyHash: 'sha256:1276f06307acf0ca'
+translatedAt: '2026-05-16T22:20:03Z'
 ---
 
 > **Panorama en 30 segundos:** Taiwán cuenta con más de 1,1 millones de voluntarios registrados que aportan anualmente más de 120 millones de horas de servicio no remunerado. Desde los 30 jiao diarios ahorrados por 30 amas de casa en el monasterio de Hualien —semilla de lo que hoy es [[Tzu Chi (慈濟)]]— hasta las casi 9.000 estaciones de reciclaje ecológico repartidas por la isla, las mamás cuentacuentos en las escuelas y los equipos comunitarios de reparto de comidas a ancianos: el voluntariado no es una "virtud" taiwanesa, es su "infraestructura".

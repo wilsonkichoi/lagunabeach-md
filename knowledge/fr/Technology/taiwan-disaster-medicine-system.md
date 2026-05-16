@@ -17,10 +17,10 @@ readingTime: 12
 featured: false
 lastVerified: 2026-03-24
 translatedFrom: 'Technology/台灣災難醫療體系.md'
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:eaa687a658bed0b7'
-sourceBodyHash: 'sha256:b629f53ab0b8e508'
-translatedAt: '2026-04-14T12:33:06+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:e291d274b831154d'
+sourceBodyHash: 'sha256:74fbe8988cd38371'
+translatedAt: 2026-05-16T22:27:56Z
 ---
 
 ## Prologue : une décision de vie ou de mort en 8 minutes
@@ -196,6 +196,7 @@ Quand la prochaine catastrophe frappera, ce ne sera pas l'équipement le plus on
 
 **Pour aller plus loin**
 
+- [Loi médicale](/society/醫療法) — Le fondement juridique de la médecine de catastrophe s'ancre dans l'article 1 de la Loi médicale (« répartition rationnelle des ressources médicales ») et dans les normes de classification des établissements ; les scénarios de catastrophe décrits ici sont la mise en œuvre concrète de la Loi médicale en conditions extrêmes
 - Médecine vétérinaire et médicaments animaux à Taïwan — Les humains disposent d'un système de médecine d'urgence, du 119, de l'assurance maladie universelle et du DMAT ; pour les animaux, même l'oxygène doit être consigné poste par poste. L'écart de ressources entre ces deux systèmes est le miroir des priorités de cette île.
 
 ---

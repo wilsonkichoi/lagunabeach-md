@@ -18,10 +18,10 @@ lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/台灣遊戲產業與數位娛樂.md'
-sourceCommitSha: '24efd20f3'
-sourceContentHash: 'sha256:6a226edc3803ee6e'
-sourceBodyHash: 'sha256:33057c1f1ed85611'
-translatedAt: '2026-05-15T14:23:13+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:98c440e7598c876a'
+sourceBodyHash: 'sha256:5dcc133fd856a17d'
+translatedAt: '2026-05-16T22:20:03Z'
 ---
 
 # La industria de videojuegos y entretenimiento digital de Taiwán
@@ -78,7 +78,7 @@ Desde la década de 2010, Taiwán comenzó a producir videojuegos con verdadera 
 
 **Rayark Games** fue fundada en 2011 y lanzó juegos musicales de ritmo como 《Cytus》 y 《Deemo》, conquistando a jugadores de todo el mundo con un diseño visual refinado y música de gran calidad. Sus obras contienen una fuerte base artística y tramas originales, y muestran el gusto particular de Taiwán en la estética digital.
 
-**Red Candle Games** fue fundada en 2015 y es conocida por sus juegos de aventura y terror, como 《Detention》 y 《Devotion》. Estas obras exploran en profundidad la historia y la cultura taiwanesas, transformando la memoria colectiva del periodo de ley marcial y las creencias populares de Taiwán en experiencias de juego, lo que permite a los jugadores extranjeros conocer Taiwán a través del entretenimiento interactivo.
+**Red Candle Games** fue fundada en 2015 y es conocida por sus juegos de aventura y terror, como 《Detention》 y 《Devotion》. Estas obras exploran en profundidad la historia y la cultura taiwanesas, transformando la memoria colectiva del periodo de ley marcial y las creencias populares de Taiwán en experiencias de juego, lo que permite a los jugadores extranjeros conocer Taiwán a través del entretenimiento interactivo. 《Detention》 ha vendido más de un millón de copias en todo el mundo y en 2019 fue adaptada al cine bajo el mismo título.
 
 ## Rasgos culturales de los videojuegos taiwaneses
 

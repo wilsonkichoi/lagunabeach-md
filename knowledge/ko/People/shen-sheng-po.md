@@ -17,10 +17,10 @@ author: 'Taiwan.md Translation Team'
 readingTime: 8
 featured: false
 translatedFrom: 'People/沈聖博.md'
-sourceCommitSha: '800114ea'
-sourceContentHash: 'sha256:ba33a2f2652e311d'
-sourceBodyHash: 'sha256:c37a25a71c1fa8db'
-translatedAt: '2026-04-14T19:24:47+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:694eb339d3f6dd17'
+sourceBodyHash: 'sha256:894085004abdb3f1'
+translatedAt: '2026-05-16T22:20:00Z'
 ---
 
 # 선성보 (Shen Sheng-bo)

@@ -10,10 +10,10 @@ readingTime: 7
 featured: false
 lastVerified: 2026-03-24
 translatedFrom: 'Lifestyle/台灣垃圾車音樂.md'
-sourceCommitSha: 'c71f1568'
-sourceContentHash: 'sha256:7d76547cf6787938'
-sourceBodyHash: 'sha256:ef5fcbe573c213a1'
-translatedAt: '2026-04-14T04:35:32+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:8434b575afd91e39'
+sourceBodyHash: 'sha256:ad11da8630881807'
+translatedAt: '2026-05-16T22:20:00Z'
 ---
 
 # 고전음악이 쓰레기차 CM송이 된 날: 대만의 가장 낭만적인 환경 혁명

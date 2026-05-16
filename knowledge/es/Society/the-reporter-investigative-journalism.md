@@ -18,10 +18,10 @@ featured: true
 lastVerified: 2026-04-29
 lastHumanReview: false
 translatedFrom: 'Society/報導者.md'
-sourceCommitSha: 'ee4917f3'
-sourceContentHash: 'sha256:49cc6bc592e21101'
-sourceBodyHash: 'sha256:eb5141137b65e66f'
-translatedAt: '2026-05-01T20:54:23+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:4f4541eede49a447'
+sourceBodyHash: 'sha256:2750e8e7c9523537'
+translatedAt: '2026-05-16T22:20:03Z'
 ---
 
 > **Panorama en 30 segundos:** The Reporter es un medio de periodismo de investigación sin fines de lucro fundado el 1 de septiembre de 2015, Día del Periodista, por Ho Jung-hsing y Tieh Chih-cheng, con una donación inicial de 5 millones de dólares taiwaneses por parte de Tzu-hsien Tung, cofundador de ASUS, para establecer una fundación[^1]. Se ató las manos voluntariamente: el principio de "tres noes" —no poseer, no intervenir, no reclamar— está explícitamente escrito en el convenio de donantes[^2]. La redacción no acepta publicidad, no toma contratos gubernamentales y no muestra cifras de clics; todo el contenido es gratuito en su sitio web. En diez años, _Blood and Tears Fishing Grounds_ llevó directamente a la Control Yuan a emitir una corrección contra la Agencia de Pesca[^3]; _Ruins Boys_ (en dos partes) ganó el Premio a la Excelencia Periodística; _Child Hunting Storm_ destapó durante 8 meses de infiltración una cadena de explotación sexual infantil; y _MIT Machine Tools Flowing into Russian Military Industry_ obtuvo el premio principal al Periodismo Económico Sobresaliente SOPA 2025[^4]. La recaudación anual pasó de 34.47 millones en 2022 a 52.98 millones en 2025[^5]. La sociedad civil de esta isla, mediante donaciones mensuales de desconocidos, rescató el periodismo de investigación de ser un rubro comercial de los medios corporativos para convertirlo en un bien público que se sostiene y que sigue sosteniéndose.
@@ -130,10 +130,11 @@ Pero el título de la exposición del décimo aniversario se llamó _OPEN_, no _
 
 > **✦** "No poseer, no intervenir, no reclamar." — Convenio de donantes de The Reporter[^36]
 
-## Lecturas complementarias
+**Lecturas complementarias**:
 
 - [Movimientos sociales y participación ciudadana](/society/社會運動與公民參與) — El nacimiento y funcionamiento de The Reporter están estrechamente ligados al pulso de la sociedad civil taiwanesa; este artículo rastrea el espectro más amplio de movimientos sociales y participación ciudadana en el que se enraiza The Reporter.
 - [Arte de nuevos medios en Taiwán](/art/台灣新媒體藝術) — Otro caso de ADN taiwanés impulsado por comunidades civiles y de crecimiento transversal.
+- [PanSci](/society/泛科學) — Otro caso de nueva esfera pública mediática surgido en los 2010 en Taiwán, pero PanSci ha optado por una ruta basada en comunicación científica, cursos, audiovisuales, proyectos publicitarios y servicios de conocimiento para sostener su espacio de discusión pública.
 - [Música independiente taiwana](/music/台灣獨立音樂) — Otro ecosistema de bien público sostenido por el pago de desconocidos.
 - [justfont y el desarrollo tipográfico en Taiwán: de los veinticinco años de Dynacom a los setenta y seis minutos de la tipografía JinXuan](/technology/justfont與台灣字體發展) — Otro caso que en 2015 reescribió la percepción pública taiwanesa mediante crowdfunding, como contraparte en el nivel de infraestructura cultural.
 - [Cables submarinos: visibles sobre el escudo de silicio, invisibles bajo la línea vital](/technology/海底電纜) — El reportaje en profundidad de The Reporter sobre cables submarinos en 2024 es una fuente clave para este tema, añadiendo la perspectiva de la línea vital de comunicaciones externas para 23 millones de personas.

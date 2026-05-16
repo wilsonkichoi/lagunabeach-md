@@ -11,10 +11,10 @@ readingTime: 16
 lastVerified: 2026-04-10
 lastHumanReview: false
 translatedFrom: "Society/台灣國防與軍事現代化.md"
-sourceCommitSha: "89c6015e"
-sourceContentHash: "sha256:6f217759afe3da2a"
-sourceBodyHash: 'sha256:f400e3cc75d5d9e1'
-translatedAt: "2026-04-14T12:32:24+08:00"
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:e17d494067054cb8'
+sourceBodyHash: 'sha256:b50f0671370d19e1'
+translatedAt: 2026-05-16T22:26:08Z
 ---
 
 > **Résumé en 30 secondes :** La guerre russo-ukrainienne de 2022 a transformé la logique défensive de Taïwan. En 2024, le service militaire est passé de quatre mois à un an. En 2025, les exercices Han Kuang 41 ont duré dix jours et neuf nuits — un record —, mobilisant vingt mille réservistes. La même année, le gouvernement Lai a proposé un budget spécial de 1 250 milliards de NT pour l'acquisition de 200 000 drones. Mais la majorité de cette enveloppe reste destinée à des équipements conventionnels coûteux : chars, avions de combat, sous-marins. L'ancien chef d'état-major Lee Hsi-ming sourit amèrement : « Si un char peut être une arme asymétrique, qu'est-ce qui ne l'est pas ? » Taïwan avance simultanément sur deux voies défensives contradictoires.
@@ -146,6 +146,11 @@ Les F-16V Block 70 initialement prévus pour 2024 ont été retardés jusqu'à 2
 - Environnement politique et système électoral à Taïwan — Pourquoi le budget spécial de 1 250 milliards a été bloqué huit fois au parlement : la défense n'est pas décidée par un seul gouvernement
 - Développement de l'industrie de la cybersécurité à Taïwan — La première ligne de la guerre en zone grise n'est pas la mine marine, c'est le pare-feu
 - Développement de l'industrie spatiale à Taïwan — Des satellites civils aux communications militaires : l'espace est le nouveau champ de bataille de la résilience défensive taïwanaise
+- [Shen Po-yang](/people/沈伯洋) — Cofondateur de la Black Bear Academy ; il renforce par l'éducation à la défense civile la résilience de la défense globale de Taïwan. Après sept années de recherche sur la guerre cognitive du PCC, il fait l'objet d'une enquête en Chine pour « crime de séparatisme »
+- [Cho Jung-tai](/people/卓榮泰) — Principal promoteur, au sein de l'Yuan exécutif, du budget spécial de défense de 1 250 milliards : c'est lui qui a avancé les expressions « Bouclier de Taïwan » et « trois bonnes balles »
+- [Lu Shiow-yen](/people/盧秀燕) — Vice-présidente du KMT et maire de Taichung. Dans la controverse de 2026 sur les achats d'armement, elle se positionne sur la fourchette intermédiaire de « 800 milliards à 1 000 milliards »
+- [Hsu Chiao-hsin](/people/徐巧芯) — Députée KMT et principale promotrice de la version à 800 milliards : archétype politique de l'élue qui s'oppose frontalement à Lai Ching-te lors des questions parlementaires
+- [Chi Lin-lien](/people/季麟連) — Vice-président du KMT et lieutenant général à la retraite : son intervention au Comité central permanent du 29 avril a fait exploser la ligne de fracture du camp bleu sur les achats d'armement
 
 ## Références
 

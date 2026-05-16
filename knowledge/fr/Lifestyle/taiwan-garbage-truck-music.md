@@ -18,10 +18,10 @@ featured: false
 translatedFrom: 'Lifestyle/台灣垃圾車音樂.md'
 lastVerified: 2026-03-24
 lastHumanReview: false
-sourceCommitSha: 'c71f1568'
-sourceContentHash: 'sha256:7d76547cf6787938'
-sourceBodyHash: 'sha256:ef5fcbe573c213a1'
-translatedAt: '2026-04-15T17:34:27+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:8434b575afd91e39'
+sourceBodyHash: 'sha256:ad11da8630881807'
+translatedAt: 2026-05-16T22:21:16Z
 ---
 
 # Quand la musique classique devient la chanson des camions-poubelles : la plus romantique des révolutions écologiques de Taïwan

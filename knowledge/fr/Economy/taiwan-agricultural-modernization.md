@@ -19,10 +19,10 @@ lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Economy/台灣農業現代化發展.md'
-sourceCommitSha: '24efd20f3'
-sourceContentHash: 'sha256:ade41d6905a5412b'
-sourceBodyHash: 'sha256:45d5485b56395378'
-translatedAt: '2026-05-15T13:52:06+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:4c373a2375756989'
+sourceBodyHash: 'sha256:87938e62aa76368d'
+translatedAt: 2026-05-16T22:27:03Z
 ---
 
 # Modernisation de l'agriculture taïwanaise
@@ -57,7 +57,7 @@ Les fondements du développement de l’agriculture moderne taïwanaise remonten
 
 **Amélioration variétale et introduction de technologies** : dans les années 1920, durant la période japonaise, le riz Ponlai a été introduit, des variétés de canne à sucre ont été améliorées et des institutions d’expérimentation agricole ont été créées, jetant les bases du développement ultérieur des sciences et technologies agricoles.
 
-**Mise en place des associations agricoles** : le système des associations agricoles a fourni aux agriculteurs des services de conseil technique, de soutien financier et de commercialisation des produits. Ce système est encore en usage aujourd’hui.
+**Mise en place des associations agricoles** : le système des associations agricoles a fourni aux agriculteurs des services de conseil technique, de soutien financier et de commercialisation des produits. Ce système est encore en usage aujourd’hui. Le système taïwanais des associations agricoles se décline en trois niveaux : associations de base (cantons, bourgs, villes, districts), associations des comtés et villes, et coopérative agricole nationale ; l’île compte au total 288 associations de base. Les associations agricoles assument des fonctions multiples — vulgarisation et formation agricole, achats et ventes groupés, finance rurale, assurance agricole — et constituent le principal canal de diffusion des connaissances de la modernisation agricole vers les campagnes, ainsi qu’un pilier essentiel de la négociation collective et de l’accès au marché pour les agriculteurs.
 
 ### La réforme foncière du début de l’après-guerre
 

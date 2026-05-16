@@ -18,10 +18,10 @@ lastVerified: 2026-03-20
 lastHumanReview: false
 featured: false
 translatedFrom: 'Economy/台灣企業：聯華電子.md'
-sourceCommitSha: '24efd20f3'
-sourceContentHash: 'sha256:6e69b29aadaf91b0'
-sourceBodyHash: 'sha256:2ebc0672df69676c'
-translatedAt: '2026-05-15T13:52:06+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:7dc608e4a8f911bc'
+sourceBodyHash: 'sha256:6e00035d9e8abf90'
+translatedAt: '2026-05-16T22:20:03Z'
 ---
 
 > **Panorama en 30 segundos**
@@ -38,7 +38,7 @@ Hoy, cuando se habla en Taiwán del “grupo de montañas sagradas que protegen 
 
 ## Panorama empresarial: la leyenda de pasar de cero al tercer lugar mundial
 
-United Microelectronics Corporation (UMC), establecida el 22 de mayo de 1980[^1], tiene su sede en el Parque Científico de Hsinchu. La empresa se especializa en servicios de fundición de obleas y ofrece a clientes globales servicios de fabricación de semiconductores con múltiples tecnologías de proceso, desde 180 nm hasta 14 nm.
+United Microelectronics Corporation (UMC), establecida el 22 de mayo de 1980[^1], tiene su sede en el Parque Científico de Hsinchu. La empresa se especializa en servicios de fundición de obleas y ofrece a clientes globales servicios de fabricación de semiconductores con múltiples tecnologías de proceso, desde 180 nm hasta 14 nm, manteniendo en el mercado mundial de fundición en procesos maduros una cuota de en torno al 7%.
 
 **Estructura de negocio central**:
 

@@ -18,10 +18,10 @@ lastVerified: 2026-03-19
 lastHumanReview: 'false'
 featured: 'true'
 translatedFrom: 'Technology/台灣遊戲產業與數位娛樂.md'
-sourceCommitSha: '24efd20f3'
-sourceContentHash: 'sha256:6a226edc3803ee6e'
-sourceBodyHash: 'sha256:33057c1f1ed85611'
-translatedAt: '2026-05-15T14:23:14+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:98c440e7598c876a'
+sourceBodyHash: 'sha256:5dcc133fd856a17d'
+translatedAt: 2026-05-16T22:27:56Z
 ---
 
 # L'industrie du jeu vidéo et du divertissement numérique à Taïwan
@@ -76,7 +76,7 @@ Cependant, les créations originales de cette période imitaient souvent les mod
 
 **Rayark** a été fondée en 2011 et a lancé des jeux de rythme musical comme _Cytus_ et _Deemo_, conquérant les joueurs du monde entier grâce à un design visuel raffiné et une musique exquise. Ses œuvres sont imprégnées d'une riche profondeur artistique et de scénarios originaux, illustrant le goût unique de Taïwan pour l'esthétique numérique.
 
-**Red Candle Games**, fondée en 2015, s'est fait connaître avec des jeux d'aventure horrifiques comme _Detention_ (_返校_) et _Devotion_ (_還願_). Ces œuvres explorent en profondeur l'histoire et la culture taïwanaises, transformant la mémoire collective de la période de la loi martiale et les croyances folkloriques taïwanaises en expériences ludiques, permettant aux joueurs étrangers de découvrir Taïwan à travers le divertissement interactif.
+**Red Candle Games**, fondée en 2015, s'est fait connaître avec des jeux d'aventure horrifiques comme _Detention_ (_返校_) et _Devotion_ (_還願_). Ces œuvres explorent en profondeur l'histoire et la culture taïwanaises, transformant la mémoire collective de la période de la loi martiale et les croyances folkloriques taïwanaises en expériences ludiques, permettant aux joueurs étrangers de découvrir Taïwan à travers le divertissement interactif. _Detention_ a dépassé le million d'exemplaires vendus dans le monde et a été adapté en 2019 en un film éponyme.
 
 ## Les caractéristiques culturelles du jeu vidéo taïwanais
 

@@ -10,10 +10,10 @@ featured: false
 lastVerified: 2026-03-24
 lastHumanReview: false
 translatedFrom: Technology/台灣災難醫療體系.md
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:eaa687a658bed0b7'
-sourceBodyHash: 'sha256:b629f53ab0b8e508'
-translatedAt: 2026-05-01T19:52:32+08:00
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:e291d274b831154d'
+sourceBodyHash: 'sha256:74fbe8988cd38371'
+translatedAt: '2026-05-16T22:19:52+00:00'
 category: Technology
 ---
 
@@ -190,6 +190,7 @@ COVID-19のパンデミックは、台湾の災害医療体制が直面した最
 
 **関連記事**
 
+- [医療法](/society/醫療法) — 災害医療の法源は医療法第 1 条「医療資源の合理的分布」と機関階層規定に根ざしている。本稿の災害シーンは医療法が極限条件下で実際に運用される場面である
 - [台湾動物用薬の論争](/society/台湾動物用薬の論争) — 人間には救急医療体制、119、健康保険、DMATがある。動物の救急では酸素すら一件ずつ記録する必要がある。二つの体制の資源格差は、この島の価値観の優先順位を映す鏡である
 
 ---

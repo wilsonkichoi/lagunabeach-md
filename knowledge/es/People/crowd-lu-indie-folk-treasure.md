@@ -27,10 +27,10 @@ readingTime: 12
 lastVerified: 2026-04-07
 lastHumanReview: true
 translatedFrom: 'People/盧廣仲.md'
-sourceCommitSha: '55adefac'
-sourceContentHash: 'sha256:6563f57d9c93f464'
-sourceBodyHash: 'sha256:bff59abbbb3fe6a1'
-translatedAt: '2026-05-01T20:54:23+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:e55cd445278e71b8'
+sourceBodyHash: 'sha256:fb3edafcc40418ff'
+translatedAt: '2026-05-16T22:20:03Z'
 ---
 
 > **Resumen en 30 segundos:** Crowd Lu, nacido en 1985 en Rende, Tainan, sufrió un accidente de tráfico en su primer año de universidad cuando un autobús le pasó por encima las piernas mientras compraba la cena nocturna. Durante la hospitalización aprendió a tocar la guitarra por su cuenta. Debutó en 2008, ganó el premio al Mejor Artista Nuevo en los Golden Melody de 2009, seguido de un desierto de ocho años sin nominaciones. En 2017, su actuación de siete minutos en un solo plano en _El chico Hua Jia crece_ (花甲男孩轉大人) (zh) conmovió a toda la industria, ganando dos premios Golden Bell; en 2020, _Tu nombre grabado en mi corazón_ (刻在我心底的名字) se llevó la Mejor Canción Original de Película en los Golden Horse — a los 35 años se convirtió en el ganador más joven del gran slam de los tres premios dorados en la historia de Taiwán. En 2026, las entradas de su concierto se agotaron en un minuto, con revendedores pidiendo sesenta mil dólares taiwaneses.
@@ -160,7 +160,7 @@ En 2015 caminó 315 kilómetros de regreso a Tainan. En 2024 recorrió los camin
 
 [^15]: [Wikipedia _Tu nombre grabado en mi corazón_ (película)](https://zh.wikipedia.org/zh-hant/%E5%88%BB%E5%9C%A8%E4%BD%A0%E5%BF%83%E5%BA%95%E7%9A%84%E5%90%8D%E5%AD%97) — Datos detallados de la película taiwanesa LGBTQ+ de 2020, cronología de la distribución global en Netflix.
 
-[^16]: [Wikipedia _Tu nombre grabado en mi corazón_ (canción, en inglés)](<https://en.wikipedia.org/wiki/Your_Name_Engraved_Herein_(song)>) — 64 millones de reproducciones en YouTube, número uno en KKBOX en cuatro territorios, detalles de la respuesta de Richard Sanderson a las acusaciones de plagio.
+[^16]: [Wikipedia _Tu nombre grabado en mi corazón_ (canción, en inglés)](https://en.wikipedia.org/wiki/Your_Name_Engraved_Herein_(song) — ) — 64 millones de reproducciones en YouTube, número uno en KKBOX en cuatro territorios, detalles de la respuesta de Richard Sanderson a las acusaciones de plagio
 
 [^17]: [Central News Agency〈Mejor canción de película en los Golden Horse 57〉](https://www.cna.com.tw/news/firstnews/202011210239.aspx) — Reportaje de los premios de la 57.ª edición de los Golden Horse.
 

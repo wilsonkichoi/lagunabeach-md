@@ -18,10 +18,10 @@ featured: true
 lastVerified: 2026-03-29
 lastHumanReview: false
 translatedFrom: 'Technology/台灣太空產業發展.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:6d36d0208e7a562f'
-sourceBodyHash: 'sha256:a6c98698fb79ebb5'
-translatedAt: '2026-05-01T12:21:52+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:b1e832f59d9ad8f7'
+sourceBodyHash: 'sha256:de06325df9d8ca7f'
+translatedAt: '2026-05-16T22:19:17Z'
 category: Technology
 ---
 

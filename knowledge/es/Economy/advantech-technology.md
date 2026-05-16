@@ -11,10 +11,10 @@ lastVerified: 2026-03-20
 lastHumanReview: false
 featured: false
 translatedFrom: 'Economy/台灣企業：研華科技.md'
-sourceCommitSha: '24efd20f3'
-sourceContentHash: 'sha256:a8a721f10cbcd9e7'
-sourceBodyHash: 'sha256:03acf2baf95f172e'
-translatedAt: '2026-05-15T13:52:06+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:112d5462cd729b62'
+sourceBodyHash: 'sha256:b5a4691fec4a12e4'
+translatedAt: '2026-05-16T22:20:03Z'
 ---
 
 > **Resumen en 30 segundos**
@@ -63,7 +63,7 @@ Advantech es la empresa líder mundial en el mercado de computadoras industriale
 
 En 1983, tres exingenieros de Hewlett-Packard (HP), Liu Ke-cheng, Huang Yu-min y Chuang Yung-shun, fundaron Advantech en Taiwán a partir de una aguda percepción del mercado de computadoras industriales. En ese momento las computadoras personales estaban en ascenso, pero el ámbito industrial todavía carecía de equipos informáticos estables y confiables; estos ingenieros identificaron ese vacío de mercado.
 
-El fundador Liu Ke-cheng se graduó del Departamento de Ingeniería de Telecomunicaciones de la Universidad Nacional Chiao Tung[^1]. Su experiencia como ingeniero de ventas en la división de instrumentos de Hewlett-Packard Taiwán[^2] le permitió comprender en profundidad las necesidades reales de los clientes industriales. En sus primeros años, la empresa se concentró en producir computadoras industriales capaces de operar de manera estable en entornos severos, proporcionando apoyo tecnológico para la transformación y modernización de la manufactura taiwanesa.
+El fundador Liu Ke-cheng se graduó del Departamento de Ingeniería de Telecomunicaciones de la Universidad Nacional Chiao Tung[^1]. Su experiencia como ingeniero de ventas en la división de instrumentos de Hewlett-Packard Taiwán[^2] le permitió comprender en profundidad las necesidades reales de los clientes industriales. En sus primeros años, la empresa se concentró en producir computadoras industriales capaces de operar de manera estable en entornos severos, proporcionando apoyo tecnológico para la transformación y modernización de la manufactura taiwanesa. Los primeros productos de Advantech fueron computadoras industriales compatibles con la arquitectura IBM PC, especialmente reforzadas para aplicaciones industriales y capaces de operar de forma estable en entornos de altas temperaturas, vibraciones o polvo. Esta filosofía de diseño centrada en la «robustez y fiabilidad ante todo», combinada con una estrategia de enfoque en mercados verticales industriales (en lugar de perseguir el mercado de la computación de consumo), le permitió a Advantech encontrar un punto de diferenciación entre los muchos fabricantes electrónicos de Taiwán. Sus principales productos iniciales fueron sistemas de backplane pasivo industriales, placas madre industriales (IPC) y computadoras de placa única (SBC); estas últimas se utilizaron ampliamente en instrumentación para la automatización de fábricas, control de máquinas y sistemas de medición, convirtiéndose en una pieza fundamental para la digitalización de las pymes manufactureras taiwanesas.
 
 ### Consolidación (1990-2000)
 
@@ -79,7 +79,7 @@ En esta etapa, Advantech no fue solo un fabricante de hardware, sino que comenz�
 
 ### Transformación hacia Internet de las cosas (2010-2020)
 
-Tras el auge del concepto de Internet de las cosas, Advantech pasó de ser un fabricante tradicional de computadoras industriales a un proveedor de soluciones de Internet de las cosas. Esta transformación se apoyó en años de acumulación en el campo de la automatización industrial: la empresa combinó sus productos de hardware existentes con tecnología en la nube y análisis de macrodatos para lanzar soluciones completas de AIoT (Internet de las cosas con inteligencia artificial).
+Tras el auge del concepto de Internet de las cosas, Advantech pasó de ser un fabricante tradicional de computadoras industriales a un proveedor de soluciones de Internet de las cosas. Esta transformación se apoyó en años de acumulación en el campo de la automatización industrial: la empresa combinó sus productos de hardware existentes con tecnología en la nube y análisis de macrodatos para lanzar soluciones completas de AIoT (Internet de las cosas con inteligencia artificial). Un resultado representativo de esta etapa es la plataforma en la nube de IoT industrial WISE-PaaS lanzada por Advantech, que integra módulos funcionales como conectividad de dispositivos, recopilación de datos, visualización analítica y un mercado de aplicaciones (WISE-Marketplace). A través de WISE-PaaS, Advantech no solo vende equipos a sus clientes, sino que también establece un modelo de ingresos por suscripción de servicios y atrae a desarrolladores externos para crear aplicaciones verticales sobre la plataforma, configurando paulatinamente un ecosistema de IoT industrial centrado en Advantech.
 
 ### La era de la computación de borde (2020-presente)
 

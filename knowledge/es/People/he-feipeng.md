@@ -8,10 +8,10 @@ subcategory: '數位與媒體'
 lastVerified: 2026-03-26
 lastHumanReview: false
 translatedFrom: 'People/何飛鵬.md'
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:bf01513bbf161991'
-sourceBodyHash: 'sha256:e52de2fc0db288f5'
-translatedAt: '2026-05-01T22:19:10+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:ed6278ceb7fdf129'
+sourceBodyHash: 'sha256:2654fc9a8e320684'
+translatedAt: '2026-05-16T22:20:03Z'
 category: People
 ---
 

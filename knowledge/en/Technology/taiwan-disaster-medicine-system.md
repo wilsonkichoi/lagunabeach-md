@@ -15,10 +15,10 @@ featured: false
 lastVerified: 2026-03-24
 lastHumanReview: false
 translatedFrom: 'Technology/台灣災難醫療體系.md'
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:eaa687a658bed0b7'
-sourceBodyHash: 'sha256:b629f53ab0b8e508'
-translatedAt: '2026-05-01T13:19:11+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:e291d274b831154d'
+sourceBodyHash: 'sha256:74fbe8988cd38371'
+translatedAt: '2026-05-16T22:19:17Z'
 category: Technology
 ---
 
@@ -195,6 +195,7 @@ When the next disaster strikes, what will save lives will not be the most expens
 
 **Further reading:**
 
+- [Medical Care Act](/society/醫療法) — The legal basis of disaster medicine is rooted in Article 1 of the Medical Care Act ("rational distribution of medical resources") and its institutional tiering rules; the disaster scenarios in this article are the Medical Care Act in actual operation under extreme conditions
 - [Taiwan Animal Drug Controversy](/society/台灣動物用藥爭議) — Humans have emergency medicine systems, 119, National Health Insurance, and DMAT; animal emergency care requires item-by-item registration even for oxygen. The resource gap between the two systems is a mirror of this island's value priorities.
 
 ---

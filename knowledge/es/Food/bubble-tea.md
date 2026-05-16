@@ -19,10 +19,10 @@ image: 'https://upload.wikimedia.org/wikipedia/commons/1/18/Classic_bubble_tea.j
 imageAlt: '珍珠奶茶'
 imageCredit: 'Wikimedia Commons, CC BY-SA'
 translatedFrom: Food/珍珠奶茶.md
-sourceCommitSha: a05d2431
-sourceContentHash: sha256:95857cbd0268032d
-sourceBodyHash: 'sha256:23c2ac3cebaa2348'
-translatedAt: 2026-05-01T22:19:10+08:00
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:cdebc1978d57fc65'
+sourceBodyHash: 'sha256:451d43de815e54d2'
+translatedAt: '2026-05-16T22:20:03Z'
 category: Food
 ---
 

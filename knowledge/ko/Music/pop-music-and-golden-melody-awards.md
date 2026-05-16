@@ -9,10 +9,10 @@ author: 'Taiwan.md Translation Team'
 readingTime: 10
 featured: false
 translatedFrom: 'Music/流行音樂與金曲獎.md'
-sourceCommitSha: '800114ea'
-sourceContentHash: 'sha256:adb300b59de6c935'
-sourceBodyHash: 'sha256:811e10d5510abbcf'
-translatedAt: '2026-04-14T10:22:29+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:acef5c58e147cd31'
+sourceBodyHash: 'sha256:180dc3b473e091ee'
+translatedAt: '2026-05-16T22:20:00Z'
 ---
 
 # 대만 팝음악과 금곡상

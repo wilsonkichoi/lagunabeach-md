@@ -1,9 +1,9 @@
 ---
 translatedFrom: 'Technology/台灣電視產業史.md'
-sourceCommitSha: 'eb7c1efb'
+sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:60dba661ebede1ab'
 sourceBodyHash: 'sha256:fe2616d81bff1a07'
-translatedAt: '2026-05-09T06:28:04Z'
+translatedAt: '2026-05-16T22:19:17Z'
 title: 'Taiwan Television Industry History: From the "Big Three" to the Gentle Revolution of Qseries'
 description: "From TTV's 1962 launch to Qseries in 2016, Taiwan's television industry traveled 54 years from party-government-military monopoly to the rise of public media. How did a platform that runs no ads tell a story everyone loved?"
 date: 2026-03-31

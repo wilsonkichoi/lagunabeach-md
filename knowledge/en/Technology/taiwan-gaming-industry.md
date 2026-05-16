@@ -18,10 +18,10 @@ lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/台灣遊戲產業與數位娛樂.md'
-sourceCommitSha: '24efd20f3'
-sourceContentHash: 'sha256:6a226edc3803ee6e'
-sourceBodyHash: 'sha256:33057c1f1ed85611'
-translatedAt: '2026-05-15T14:23:13+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:98c440e7598c876a'
+sourceBodyHash: 'sha256:5dcc133fd856a17d'
+translatedAt: '2026-05-16T22:19:17Z'
 ---
 
 # Taiwan’s Game Industry and Digital Entertainment
@@ -78,7 +78,7 @@ Beginning in the 2010s, Taiwan saw the emergence of games with genuine originali
 
 **Rayark** was founded in 2011 and released music-rhythm games such as _Cytus_ and _Deemo_, winning over players around the world with refined visual design and beautiful music. Its works contain a strong artistic foundation and original narratives, displaying Taiwan’s distinctive sensibility in digital aesthetics.
 
-**Red Candle Games** was founded in 2015 and became known for horror-adventure games such as _Detention_ and _Devotion_. These works dig deeply into Taiwanese history and culture, transforming the collective memory of the martial-law period and Taiwanese folk religion into game experiences, allowing international players to learn about Taiwan through interactive entertainment.
+**Red Candle Games** was founded in 2015 and became known for horror-adventure games such as _Detention_ and _Devotion_. These works dig deeply into Taiwanese history and culture, transforming the collective memory of the martial-law period and Taiwanese folk religion into game experiences, allowing international players to learn about Taiwan through interactive entertainment. _Detention_ has sold over one million copies worldwide and was adapted into a film of the same name in 2019.
 
 ## Cultural Features of Taiwanese Games
 

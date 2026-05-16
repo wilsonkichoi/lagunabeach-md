@@ -18,10 +18,10 @@ lastVerified: 2026-04-19
 lastHumanReview: true
 readingTime: 10
 translatedFrom: 'People/郭金發.md'
-sourceCommitSha: '3e53281a'
+sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:9249bda4ae2408de'
 sourceBodyHash: 'sha256:db9995896174da37'
-translatedAt: '2026-05-10T18:00:00Z'
+translatedAt: '2026-05-16T22:19:17Z'
 ---
 
 > **📝 Curator's note**

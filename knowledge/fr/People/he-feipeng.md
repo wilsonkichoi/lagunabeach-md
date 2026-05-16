@@ -10,10 +10,10 @@ readingTime: ~5 min
 featured: false
 lastVerified: 2026-03-26
 translatedFrom: 'People/何飛鵬.md'
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:bf01513bbf161991'
-sourceBodyHash: 'sha256:e52de2fc0db288f5'
-translatedAt: '2026-04-14T19:14:30+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:ed6278ceb7fdf129'
+sourceBodyHash: 'sha256:2654fc9a8e320684'
+translatedAt: 2026-05-16T22:21:43Z
 ---
 
 > **En 30 secondes :** En 1987, Ho Fei-peng fonde le _Business Weekly_ (_Shangye Zhoukan_). Les sept premières années, le magazine perd plusieurs dizaines de millions de nouveaux dollars taïwanais chaque année. Aujourd'hui, le groupe Cité Media qu'il a bâti est le plus grand empire éditorial de Taïwan — et l'un des rares acteurs traditionnels à avoir traversé la révolution numérique sans couler. Son parcours est une leçon de survie pour toute la presse papier face à l'ère digitale.

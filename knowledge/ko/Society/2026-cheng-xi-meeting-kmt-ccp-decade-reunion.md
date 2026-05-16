@@ -10,10 +10,15 @@ readingTime: 14
 featured: true
 translatedFrom: 'Society/2026鄭習會與國共十年再會.md'
 lastVerified: 2026-04-11
-sourceCommitSha: '056136d7'
-sourceContentHash: 'sha256:059f5d9ff66a77e7'
-sourceBodyHash: 'sha256:05a0af91a175d45e'
-translatedAt: '2026-04-14T06:21:59+08:00'
+sporeLinks:
+  - platform: 'threads'
+    date: '2026-04-11'
+    url: 'https://www.threads.com/@taiwandotmd/post/DW_CjmCkQMW'
+    views: 221
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:d9031fe551b98ac7'
+sourceBodyHash: 'sha256:3709ad64bf3cde9c'
+translatedAt: '2026-05-16T22:20:00Z'
 ---
 
 # 2026 정시회담: 국공 지도자 10년 만의 재회, 단 10분
@@ -155,6 +160,7 @@ translatedAt: '2026-04-14T06:21:59+08:00'
 - [대만 민주 전환](/history/台灣民主轉型) — AIT가 "민선 지도층과의 대화"를 강조하는 이유. 그 원칙의 근거가 여기에 있다.
 - [라이칭더](/people/賴清德) — 이 연극의 또 다른 주인공, 의도적으로 화면 밖에 남겨진 인물.
 - [정리원](/people/鄭麗文) — 1988년 대만 독립을 위해 단식투쟁하던 학생운동 소녀에서, 2026년 베이징에서 "양안 동포는 모두 중국인"을 말하는 국민당 주석으로.
+- [대만과 에스와티니](/society/台灣與史瓦帝尼) — 같은 시기 라이칭더의 수교국 방문에서 나온 외교적 수사, "중화민국(대만)은 세계에 속한 주권국가"와 "양안 동포는 모두 중국인"의 나란한 대비.
 
 ## 참고 자료
 

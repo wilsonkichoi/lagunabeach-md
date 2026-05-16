@@ -18,10 +18,10 @@ lastVerified: 2026-03-20
 lastHumanReview: false
 featured: false
 translatedFrom: 'Economy/台灣企業：聯華電子.md'
-sourceCommitSha: '24efd20f3'
-sourceContentHash: 'sha256:6e69b29aadaf91b0'
-sourceBodyHash: 'sha256:2ebc0672df69676c'
-translatedAt: '2026-05-15T13:52:06+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:7dc608e4a8f911bc'
+sourceBodyHash: 'sha256:6e00035d9e8abf90'
+translatedAt: 2026-05-16T22:27:03Z
 ---
 
 > **Aperçu en 30 secondes**
@@ -38,7 +38,7 @@ Aujourd’hui, lorsque l’on parle du « massif sacré protégeant la nation »
 
 ## Présentation de l’entreprise : une trajectoire légendaire de zéro à la troisième place mondiale
 
-United Microelectronics Corporation (UMC) a été fondée le 22 mai 1980[^1] et son siège se trouve dans le parc scientifique de Hsinchu. L’entreprise est spécialisée dans les services de fonderie de wafers et fournit à ses clients mondiaux des services de fabrication de semi-conducteurs couvrant diverses technologies de procédés, de 180 nm à 14 nm.
+United Microelectronics Corporation (UMC) a été fondée le 22 mai 1980[^1] et son siège se trouve dans le parc scientifique de Hsinchu. L’entreprise est spécialisée dans les services de fonderie de wafers et fournit à ses clients mondiaux des services de fabrication de semi-conducteurs couvrant diverses technologies de procédés, de 180 nm à 14 nm ; elle conserve environ 7 % de part de marché mondiale sur le segment de la fonderie de procédés matures.
 
 **Architecture des activités principales** :
 

@@ -10,10 +10,10 @@ readingTime: 12
 featured: false
 translatedFrom: 'Technology/台灣災難醫療體系.md'
 lastVerified: 2026-03-24
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:eaa687a658bed0b7'
-sourceBodyHash: 'sha256:b629f53ab0b8e508'
-translatedAt: '2026-04-14T06:57:58+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:e291d274b831154d'
+sourceBodyHash: 'sha256:74fbe8988cd38371'
+translatedAt: '2026-05-16T22:20:00Z'
 ---
 
 ## 시작: 8분 안에 내려진 생사의 결정
@@ -189,6 +189,7 @@ COVID-19 팬데믹은 대만 재난 의료 체계가 경험한 가장 긴 스트
 
 **더 읽을거리**
 
+- [의료법](/society/醫療法) — 재난 의료의 법적 근거는 의료법 제1조 「의료자원의 합리적 배분」과 의료기관 분급 규정에 뿌리내리고 있다. 이 글이 다루는 재난 상황은 극단적 조건에서 의료법이 실제로 작동하는 단면이다
 - [대만 동물 의약품 논란](/society/台灣動物用藥爭議) — 인간에게는 응급 의료 체계, 119, 건강보험, DMAT가 있다. 동물 응급 의료는 산소조차 항목별로 기록해야 한다. 두 체계의 자원 격차는 이 섬의 가치 우선순위를 보여 주는 거울이다
 
 ---

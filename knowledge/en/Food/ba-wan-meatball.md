@@ -16,10 +16,10 @@ readingTime: 12
 lastVerified: 2026-04-26
 lastHumanReview: false
 translatedFrom: 'Food/肉圓.md'
-sourceCommitSha: 'eb7c1efb'
+sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:22ebfc00834f45b9'
 sourceBodyHash: 'sha256:9aeb87e8879e5d29'
-translatedAt: '2026-05-09T06:28:04Z'
+translatedAt: '2026-05-16T22:19:17Z'
 ---
 
 > **30-second overview:**

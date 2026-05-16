@@ -10,10 +10,10 @@ lastVerified: 2026-04-11
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/2026鄭習會與國共十年再會.md'
-sourceCommitSha: '056136d7'
-sourceContentHash: 'sha256:059f5d9ff66a77e7'
-sourceBodyHash: 'sha256:05a0af91a175d45e'
-translatedAt: '2026-05-01T18:02:56+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:d9031fe551b98ac7'
+sourceBodyHash: 'sha256:3709ad64bf3cde9c'
+translatedAt: '2026-05-16T22:19:52+00:00'
 category: Society
 ---
 
@@ -158,6 +158,7 @@ category: Society
 - [賴清德](/people/賴清德) — この芝居のもう一人の主役、意図的に画面の外に置かれた人物。
 - [鄭麗文](/people/鄭麗文) — 1988年に台湾大学の正門前で台湾独立を求めてハンガーストライキを行った学生運動の少女から、2026年に北京で「両岸の同胞はみな中国人である」と述べる国民党主席へ。
 - [韓國瑜](/people/韓國瑜) — 立法院長、鄭習会の週の立法院予算協議の司会者。この芝居のもう一人の重要な登場人物。
+- [台湾とエスワティニ](/society/台灣與史瓦帝尼) — 同時期に賴清德が外交関係国を訪問した際の対外論述。「中華民国（台湾）は世界に属する主権国家である」と「両岸の同胞はみな中国人である」の並列対照。
 
 ## 参考資料
 

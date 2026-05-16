@@ -17,10 +17,10 @@ featured: false
 lastVerified: 2026-03-24
 lastHumanReview: false
 translatedFrom: Technology/台灣災難醫療體系.md
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:eaa687a658bed0b7'
-sourceBodyHash: 'sha256:b629f53ab0b8e508'
-translatedAt: 2026-05-01T22:19:10+08:00
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:e291d274b831154d'
+sourceBodyHash: 'sha256:74fbe8988cd38371'
+translatedAt: '2026-05-16T22:20:03Z'
 category: Technology
 ---
 
@@ -197,6 +197,7 @@ Cuando el próximo desastre llegue, lo que salvará vidas no será el equipo má
 
 **Lectura complementaria**
 
+- [Ley de Atención Médica](/society/醫療法) — La base legal de la medicina de desastres se asienta en el artículo 1 de la Ley de Atención Médica («distribución racional de los recursos médicos») y en la normativa de clasificación de instituciones; los escenarios de catástrofe que recoge este texto son la cara operativa de dicha ley en condiciones extremas
 - [Controversia sobre medicamentos veterinarios en Taiwán](/society/台灣動物用藥爭議) — Los humanos disponen de un sistema de urgencias, el número de emergencias 119, seguro médico y DMAT; en las urgencias veterinarias, incluso el oxígeno debe registrarse ítem por ítem. La brecha de recursos entre ambos sistemas es un espejo de la jerarquía de valores de esta isla.
 
 ---

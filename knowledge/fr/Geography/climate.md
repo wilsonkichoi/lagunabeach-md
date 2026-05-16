@@ -10,10 +10,10 @@ featured: true
 lastVerified: 2026-03-31
 lastHumanReview: false
 translatedFrom: 'Geography/氣候.md'
-sourceCommitSha: '8b302342'
-sourceContentHash: 'sha256:a5e1f79ea8f1e346'
-sourceBodyHash: 'sha256:71817ce461cbb1bd'
-translatedAt: '2026-04-15T17:34:06+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:e0f0d72ef2a5f8b5'
+sourceBodyHash: 'sha256:ca962468a996d2a9'
+translatedAt: 2026-05-16T22:23:45Z
 ---
 
 # Le climat de Taïwan

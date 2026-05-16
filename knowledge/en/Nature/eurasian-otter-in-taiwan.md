@@ -18,10 +18,10 @@ lastVerified: 2026-04-25
 lastHumanReview: false
 readingTime: 10
 translatedFrom: 'Nature/水獺.md'
-sourceCommitSha: '3e53281a'
+sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:321d097dbb83cd33'
 sourceBodyHash: 'sha256:248f2fda20ea4369'
-translatedAt: '2026-05-10T18:00:00Z'
+translatedAt: '2026-05-16T22:19:17Z'
 ---
 
 # Taiwan's Eurasian Otters: Kinmen's Lonely Island Survival and the Silent Disappearance on the Main Island

@@ -16,10 +16,10 @@ lastVerified: '2026-04-12'
 lastHumanReview: 'false'
 featured: 'true'
 translatedFrom: 'Society/太陽花學運.md'
-sourceCommitSha: 'f4dfb120'
-sourceContentHash: 'sha256:3f71545c6d9fa310'
-sourceBodyHash: 'sha256:110a2b9a43f5e411'
-translatedAt: '2026-05-02T02:50:57+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:617baf310075e68a'
+sourceBodyHash: 'sha256:28152c6e8428960f'
+translatedAt: '2026-05-16T22:20:03Z'
 ---
 
 > **Resumen en 30 segundos:** El 17 de marzo de 2014, el legislador del Kuomintang Zhang Qingzhong se arrodilló en el suelo y leyó con un pequeño micrófono de solapa que el Acuerdo de Servicios Transfronterizos "se consideraba ya revisado". Esa noche, más de doscientos estudiantes escalaron los muros y ocuparon el Yuan Legislativo, montando una transmisión en vivo las veinticuatro horas con un iPad, sorteando todas las cadenas de televisión. Veinticuatro días después, los estudiantes se retiraron; el acuerdo de servicios no fue vetado — fue abandonado por la historia. Los números doce años después lo dicen todo: la dependencia comercial de Taiwán respecto a China cayó del 42 % al 31,5 %. Ganaron una guerra que no sabían que estaban librando.

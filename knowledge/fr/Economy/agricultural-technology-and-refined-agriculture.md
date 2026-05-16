@@ -18,10 +18,10 @@ lastVerified: 2026-03-19
 lastHumanReview: false
 featured: false
 translatedFrom: 'Economy/農業科技與精緻農業.md'
-sourceCommitSha: '24efd20f3'
-sourceContentHash: 'sha256:7c173ab223ebcfab'
-sourceBodyHash: 'sha256:6a3f109cd6a40c81'
-translatedAt: '2026-05-15T13:52:06+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:bbf807bd6471e4b4'
+sourceBodyHash: 'sha256:bc574ffdc4c622df'
+translatedAt: 2026-05-16T22:23:37Z
 ---
 
 # Technologies agricoles et agriculture à haute valeur ajoutée
@@ -87,7 +87,7 @@ Taïwan jouit de la réputation de « royaume des orchidées » et figure parmi 
 **Compétitivité internationale** : les principaux marchés d’exportation sont les États-Unis, le Japon, l’Union européenne et la Corée du Sud. Sur le marché américain des orchidées haut de gamme (plantes en pot / plants), la part de marché dépasse 70 %. Taïwan a également établi des bases de production en Chine et au Vietnam afin d’exporter ses technologies.
 
 **Clé du succès**
-L’équipe de recherche sur les orchidées de la station d’amélioration agricole du district de Tainan, relevant du ministère de l’Agriculture, a mis 30 ans à construire un système industriel de l’orchidée[^2]. De la collecte et de la conservation des orchidées indigènes à l’hybridation, à la culture de tissus et aux techniques culturales, elle couvre toute la chaîne industrielle, de la sélection variétale à l’exportation.
+L’équipe de recherche sur les orchidées de la station d’amélioration agricole du district de Tainan, relevant du ministère de l’Agriculture, a mis 30 ans à construire un système industriel de l’orchidée[^2]. De la collecte et de la conservation des orchidées indigènes à l’hybridation, à la culture de tissus et aux techniques culturales, elle couvre toute la chaîne industrielle, de la sélection variétale à l’exportation. Côté débouchés à l’export, Houbi (Tainan) et Tianwei (Changhua) constituent les principaux pôles de regroupement des plants de phalaenopsis ; les réseaux de distribution florale aux États-Unis (chaînes Costco, Trader Joe’s, Whole Foods) forment le plus grand marché de masse ; la criée florale d’Aalsmeer aux Pays-Bas et le salon Cultivate aux États-Unis restent les scènes principales pour conquérir les grossistes haut de gamme européens et nord-américains ; le modèle japonais de licences de variétés permet aux producteurs taïwanais de continuer à générer des revenus de propriété intellectuelle sur leurs cultivars. Les plants d’orchidées étant acheminés par chaîne du froid aérienne, l’industrie tire aussi vers le haut le fret aérien taïwanais et le stockage frigorifique de fleurs.
 
 ### Anone atemoya : la nouvelle vedette de l’agriculture taïwanaise
 
@@ -121,6 +121,10 @@ Les trois modules technologiques centraux de l’agriculture de précision se so
 ### Applications de l’intelligence artificielle
 
 Les principaux scénarios d’application de l’IA dans l’agriculture incluent : drones équipés de caméras multispectrales pour surveiller la croissance des cultures, analyse par IA des maladies végétales avec une précision supérieure à 95 %, et classement automatisé de la qualité pour accroître l’efficacité. En matière d’analyse prédictive, l’IA combine les données météorologiques historiques afin de prévoir les moments optimaux de culture, les prix de marché et la probabilité d’apparition des maladies et ravageurs. Les systèmes intelligents d’aide à la décision intègrent les données de capteurs pour fournir des recommandations culturales, réguler l’environnement des serres et réduire globalement les coûts de production de 20 à 30 %.
+
+### Automatisation des machines agricoles et protection des cultures par drone
+
+L’industrie taïwanaise des drones agricoles connaît une croissance rapide ces dernières années : en 2023, la surface totale traitée par drones agricoles à Taïwan a dépassé 1,5 million d’hectares-passages, le nombre d’appareils enregistrés a franchi les 3 000, faisant de Taïwan l’une des régions à la plus forte densité de drones agricoles au monde[^5]. Par rapport à la pulvérisation terrestre traditionnelle, la protection des cultures par drone permet de réduire la consommation de produits phytosanitaires d’au moins 30 % par hectare, tout en pouvant intervenir sur les terres en pente et dans les zones agricoles isolées, comblant ainsi les pénuries de main-d’œuvre. Le ministère de l’Agriculture accorde des subventions à l’achat de moissonneuses, repiqueuses et drones, afin d’aider les agriculteurs à réduire le coût initial de la transition vers la mécanisation. Si les robots de cueillette de fruits et légumes en sont encore au stade des essais en conditions réelles, plusieurs start-up présentent déjà des prototypes industrialisables sur la fraise et le concombre, avec une commercialisation attendue pour la période 2026-2028.
 
 ## Politiques publiques et soutien gouvernemental
 

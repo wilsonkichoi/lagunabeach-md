@@ -10,9 +10,10 @@ readingTime: 16
 lastVerified: 2026-04-10
 lastHumanReview: false
 translatedFrom: 'Society/台灣國防與軍事現代化.md'
-sourceCommitSha: '2d0c126f'
-sourceContentHash: 'sha256:01886a62843216c0'
-translatedAt: '2026-05-04T00:08:03+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:e17d494067054cb8'
+sourceBodyHash: 'sha256:b50f0671370d19e1'
+translatedAt: '2026-05-16T22:19:52+00:00'
 ---
 
 > **30-Second Overview:** The 2022 Russia-Ukraine War changed Taiwan's national defense logic. In 2024, military service was restored from four months to one year. In 2025, the Han Kuang 41 exercise lasted the longest in history at ten days and nine nights, mobilizing 20,000 reserve soldiers. In November of the same year, the Lai Ching-te administration proposed a NT$1.25 trillion special budget to procure 200,000 drones. However, on the same list, most of the money still went to expensive traditional equipment like tanks, fighter jets, and submarines. Former Chief of the General Staff Li Hsi-ming smiled wryly at this: "If tanks can be asymmetric weapons, what is not an asymmetric weapon?" Taiwan is walking two national defense paths simultaneously, and these two paths contradict each other.

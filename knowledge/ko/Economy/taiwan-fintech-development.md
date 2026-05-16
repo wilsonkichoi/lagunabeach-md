@@ -10,9 +10,10 @@ readingTime: 12
 lastVerified: 2026-04-06
 lastHumanReview: false
 translatedFrom: 'Economy/台灣金融科技發展.md'
-sourceCommitSha: '2d0c126f'
-sourceContentHash: 'sha256:6088c3a4e07be0ec'
-translatedAt: '2026-05-04T00:38:07+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:381f16977dc9fb81'
+sourceBodyHash: 'sha256:7e7e2615e75345a7'
+translatedAt: '2026-05-16T22:20:00Z'
 ---
 
 # Taiwan's FinTech Development

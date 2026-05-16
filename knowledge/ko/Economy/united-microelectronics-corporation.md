@@ -11,10 +11,10 @@ lastVerified: 2026-03-20
 lastHumanReview: false
 featured: false
 translatedFrom: 'Economy/台灣企業：聯華電子.md'
-sourceCommitSha: '24efd20f3'
-sourceContentHash: 'sha256:6e69b29aadaf91b0'
-sourceBodyHash: 'sha256:2ebc0672df69676c'
-translatedAt: '2026-05-15T13:52:06+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:7dc608e4a8f911bc'
+sourceBodyHash: 'sha256:6e00035d9e8abf90'
+translatedAt: '2026-05-16T22:20:00Z'
 ---
 
 > **30초 개요**
@@ -31,7 +31,7 @@ TSMC가 대만 반도체 산업의 “천왕”이라면, 유나이티드 마이
 
 ## 기업 개요: 무에서 세계 3위까지의 전설
 
-유나이티드 마이크로일렉트로닉스 주식회사(United Microelectronics Corporation, UMC)는 1980년 5월 22일 설립되었으며[^1], 본사는 신주과학단지에 있다. 회사는 웨이퍼 파운드리 서비스에 특화되어 있으며, 전 세계 고객에게 180nm부터 14nm까지 다양한 공정 기술을 활용한 반도체 제조 서비스를 제공한다.
+유나이티드 마이크로일렉트로닉스 주식회사(United Microelectronics Corporation, UMC)는 1980년 5월 22일 설립되었으며[^1], 본사는 신주과학단지에 있다. 회사는 웨이퍼 파운드리 서비스에 특화되어 있으며, 전 세계 고객에게 180nm부터 14nm까지 다양한 공정 기술을 활용한 반도체 제조 서비스를 제공하며, 성숙 공정 웨이퍼 파운드리 시장에서 글로벌 약 7% 점유율을 유지하고 있다.
 
 **핵심 사업 구조**:
 

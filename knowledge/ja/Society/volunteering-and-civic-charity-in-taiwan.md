@@ -18,10 +18,10 @@ featured: false
 lastVerified: 2026-03-28
 lastHumanReview: true
 translatedFrom: 'Society/台灣志工文化與公益參與.md'
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:3da44641d134eb50'
-sourceBodyHash: 'sha256:cf71241a19c21d04'
-translatedAt: '2026-05-01T18:02:56+08:00'
+sourceCommitSha: 'd6e87d07'
+sourceContentHash: 'sha256:5321a4a0d8a77b08'
+sourceBodyHash: 'sha256:1276f06307acf0ca'
+translatedAt: '2026-05-16T22:19:52+00:00'
 ---
 
 > **30秒でわかる概要：** 台湾には110万人以上の登録ボランティアがおり、年間1.2億時間以上の無償サービスを提供しています。花蓮の精舎で30人の主婦が毎日5セントを貯金し始めた慈濟（じさい）から、台湾全土の約9,000か所の資源回収ステーション、学校のお話ママ、地域の高齢者配食隊まで——ボランティアは台湾の「美徳」ではなく、台湾の「インフラ」です。

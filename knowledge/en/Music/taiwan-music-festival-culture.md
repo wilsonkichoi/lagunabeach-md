@@ -1,9 +1,9 @@
 ---
 translatedFrom: 'Music/台灣音樂祭文化.md'
-sourceCommitSha: '3e53281a'
+sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:005a4c23ff74281f'
 sourceBodyHash: 'sha256:cf3f4e933a5718b8'
-translatedAt: '2026-05-10T18:00:00Z'
+translatedAt: '2026-05-16T22:19:17Z'
 title: "Taiwan's Music Festival Culture: Why This Island Needs So Many Outdoor Parties"
 description: "From a stage built on a Kenting beach by two Americans in 1995, to more than 50 festivals spread across the island every year. Taiwan may have the world's highest density of music festivals — and the trailblazer wasn't Taiwanese."
 date: 2026-03-29

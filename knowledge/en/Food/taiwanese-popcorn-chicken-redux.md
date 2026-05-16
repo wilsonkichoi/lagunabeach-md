@@ -10,10 +10,10 @@ featured: false
 lastVerified: 2026-04-01
 lastHumanReview: true
 translatedFrom: 'Food/台灣鹽酥雞.md'
-sourceCommitSha: 'eb7c1efb'
+sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:25b7970725befa60'
 sourceBodyHash: 'sha256:19321f0a09e11670'
-translatedAt: '2026-05-09T06:28:04Z'
+translatedAt: '2026-05-16T22:19:17Z'
 ---
 
 > **30-Second Overview:** 鹽酥雞 (yán sū jī — Taiwanese popcorn chicken) is Taiwan's most representative deep-fried street snack. In 1975, Chen Ting-chih set up the first stall in Taipei's Ximending, using a special marinade on chicken chunks, tossing them with pepper salt and Thai basil — an instant hit.[^1] Fifty years later, 鹽酥雞 carts are scattered at every corner, night market, and residential lane across the island. CNN has twice selected it for "foods Taiwan cannot live without,"[^2] but its most distinctive quality is not the flavor — it is its existence as a form of "late-night infrastructure": no storefront, no sign, just a cart, a wok of oil, and a handful of Thai basil is all it takes to open for business.
