@@ -1,28 +1,28 @@
 {
-  "totalArticles": 4249,
+  "totalArticles": 4255,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 5148,
+  "totalTags": 5135,
   "categories": [
     {
       "name": "es",
-      "count": 698
+      "count": 700
     },
     {
       "name": "ko",
-      "count": 703
+      "count": 704
     },
     {
       "name": "fr",
-      "count": 718
-    },
-    {
-      "name": "en",
       "count": 720
     },
     {
+      "name": "en",
+      "count": 721
+    },
+    {
       "name": "ja",
-      "count": 707
+      "count": 709
     },
     {
       "name": "History",
@@ -46,15 +46,15 @@
     },
     {
       "name": "Food",
-      "count": 51
+      "count": 52
     },
     {
       "name": "Economy",
-      "count": 54
+      "count": 51
     },
     {
       "name": "Technology",
-      "count": 47
+      "count": 46
     },
     {
       "name": "Lifestyle",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Geography",
-      "count": 26
+      "count": 27
     },
     {
       "name": "Art",
@@ -92,7 +92,7 @@
     },
     {
       "name": "人物",
-      "count": 73
+      "count": 62
     },
     {
       "name": "企業",
@@ -111,12 +111,16 @@
       "count": 25
     },
     {
-      "name": "半導體",
-      "count": 25
+      "name": "文學",
+      "count": 23
     },
     {
-      "name": "인물",
-      "count": 24
+      "name": "體育",
+      "count": 23
+    },
+    {
+      "name": "半導體",
+      "count": 23
     },
     {
       "name": "AI",
@@ -135,7 +139,7 @@
       "count": 21
     },
     {
-      "name": "體育",
+      "name": "金曲獎",
       "count": 21
     },
     {
@@ -143,11 +147,15 @@
       "count": 21
     },
     {
+      "name": "인물",
+      "count": 21
+    },
+    {
       "name": "歷史",
       "count": 20
     },
     {
-      "name": "金曲獎",
+      "name": "音樂",
       "count": 20
     },
     {
@@ -157,24 +165,16 @@
     {
       "name": "역사",
       "count": 19
-    },
-    {
-      "name": "TSMC",
-      "count": 18
-    },
-    {
-      "name": "台灣文化",
-      "count": 18
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4249,
+    "zh-TW": 4255,
     "en": 0
   },
-  "lastUpdated": "2026-05-15T15:10:08.462Z",
-  "stars": 989,
+  "lastUpdated": "2026-05-16T15:09:20.525Z",
+  "stars": 990,
   "forks": 147,
-  "zhPages": 3549,
-  "enPages": 725,
-  "totalPages": 4274
+  "zhPages": 3534,
+  "enPages": 721,
+  "totalPages": 4255
 }

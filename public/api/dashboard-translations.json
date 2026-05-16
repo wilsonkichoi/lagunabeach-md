@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T14:16:43.909Z",
+  "lastUpdated": "2026-05-16T15:09:20.943Z",
   "languages": [
     "zh-TW",
     "en",
@@ -10,72 +10,72 @@
   ],
   "summary": {
     "zh-TW": {
-      "total": 696,
+      "total": 697,
       "percentage": 100,
-      "fresh": 696,
+      "fresh": 697,
       "stale": 0,
       "missing": 0,
       "deficit": 0
     },
     "en": {
       "total": 698,
-      "percentage": 100,
-      "fresh": 525,
+      "percentage": 99.9,
+      "fresh": 524,
       "metadataStale": 2,
-      "stale": 171,
-      "missing": 0,
+      "stale": 172,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 75.2,
-      "bodyFreshPct": 75.5
+      "deficit": 1,
+      "freshPct": 75,
+      "bodyFreshPct": 75.3
     },
     "ja": {
       "total": 698,
-      "percentage": 100,
-      "fresh": 520,
+      "percentage": 99.9,
+      "fresh": 519,
       "metadataStale": 2,
-      "stale": 176,
-      "missing": 0,
+      "stale": 177,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 74.5,
-      "bodyFreshPct": 74.8
+      "deficit": 1,
+      "freshPct": 74.2,
+      "bodyFreshPct": 74.5
     },
     "ko": {
       "total": 698,
-      "percentage": 100,
-      "fresh": 524,
+      "percentage": 99.9,
+      "fresh": 523,
       "metadataStale": 2,
-      "stale": 172,
-      "missing": 0,
+      "stale": 173,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 75.1,
-      "bodyFreshPct": 75.4
+      "deficit": 1,
+      "freshPct": 74.8,
+      "bodyFreshPct": 75.1
     },
     "es": {
       "total": 698,
-      "percentage": 100,
-      "fresh": 524,
+      "percentage": 99.9,
+      "fresh": 522,
       "metadataStale": 2,
-      "stale": 172,
-      "missing": 0,
+      "stale": 174,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 75.1,
-      "bodyFreshPct": 75.4
+      "deficit": 1,
+      "freshPct": 74.7,
+      "bodyFreshPct": 75
     },
     "fr": {
       "total": 698,
-      "percentage": 100,
-      "fresh": 521,
+      "percentage": 99.9,
+      "fresh": 520,
       "metadataStale": 2,
-      "stale": 175,
-      "missing": 0,
+      "stale": 176,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 74.6,
-      "bodyFreshPct": 74.9
+      "deficit": 1,
+      "freshPct": 74.4,
+      "bodyFreshPct": 74.7
     }
   },
   "matrix": {
@@ -142,8 +142,8 @@
       },
       "es": {
         "count": 31,
-        "fresh": 25,
-        "stale": 6,
+        "fresh": 24,
+        "stale": 7,
         "missing": 0,
         "deficit": 0
       },
@@ -270,41 +270,41 @@
       }
     },
     "geography": {
-      "zh-TW": 26,
+      "zh-TW": 27,
       "en": {
         "count": 26,
         "fresh": 16,
         "stale": 10,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "ja": {
         "count": 26,
         "fresh": 16,
         "stale": 10,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "ko": {
         "count": 26,
         "fresh": 16,
         "stale": 10,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "es": {
         "count": 26,
         "fresh": 16,
         "stale": 10,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "fr": {
         "count": 26,
         "fresh": 16,
         "stale": 10,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       }
     },
     "history": {
@@ -539,36 +539,36 @@
       "zh-TW": 46,
       "en": {
         "count": 44,
-        "fresh": 36,
-        "stale": 8,
+        "fresh": 35,
+        "stale": 9,
         "missing": 0,
         "deficit": 2
       },
       "ja": {
         "count": 44,
-        "fresh": 36,
-        "stale": 8,
+        "fresh": 35,
+        "stale": 9,
         "missing": 0,
         "deficit": 2
       },
       "ko": {
         "count": 44,
-        "fresh": 36,
-        "stale": 8,
+        "fresh": 35,
+        "stale": 9,
         "missing": 0,
         "deficit": 2
       },
       "es": {
         "count": 44,
-        "fresh": 36,
-        "stale": 8,
+        "fresh": 35,
+        "stale": 9,
         "missing": 0,
         "deficit": 2
       },
       "fr": {
         "count": 44,
-        "fresh": 36,
-        "stale": 8,
+        "fresh": 35,
+        "stale": 9,
         "missing": 0,
         "deficit": 2
       }
@@ -576,7 +576,20 @@
   },
   "missing": {
     "en": [
+      "Geography/擎天崗：草原、碉堡與水牛的百年拉鋸.md",
       "Technology/半導體產業.md"
+    ],
+    "ja": [
+      "Geography/擎天崗：草原、碉堡與水牛的百年拉鋸.md"
+    ],
+    "ko": [
+      "Geography/擎天崗：草原、碉堡與水牛的百年拉鋸.md"
+    ],
+    "es": [
+      "Geography/擎天崗：草原、碉堡與水牛的百年拉鋸.md"
+    ],
+    "fr": [
+      "Geography/擎天崗：草原、碉堡與水牛的百年拉鋸.md"
     ]
   },
   "statusSource": "translation-status.json",

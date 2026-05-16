@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-16T11:12:47+08:00",
-    "zhCommitHead": "ba92c9d0f",
-    "totalZh": 698,
+    "lastUpdated": "2026-05-16T23:09:18+08:00",
+    "zhCommitHead": "944165400",
+    "totalZh": 699,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 698,
+        "total_zh": 699,
         "fresh": 524,
         "stale": 172,
         "metadata_stale": 2,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 698,
+        "total_zh": 699,
         "fresh": 519,
         "stale": 177,
         "metadata_stale": 2,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 698,
+        "total_zh": 699,
         "fresh": 523,
         "stale": 173,
         "metadata_stale": 2,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       },
       "es": {
-        "total_zh": 698,
-        "fresh": 523,
-        "stale": 173,
+        "total_zh": 699,
+        "fresh": 522,
+        "stale": 174,
         "metadata_stale": 2,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 698,
+        "total_zh": 699,
         "fresh": 520,
         "stale": 176,
         "metadata_stale": 2,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       }
     },
@@ -10992,17 +10992,17 @@
           "reason": "same-commit"
         },
         "es": {
-          "path": "es/Art/taiwanese-experimental-and-new-media-art.md",
+          "path": "es/Art/fab-dao-proyecto-cien-cimas.md",
           "translatedFrom": "Art/FAB DAO與百岳計畫.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:a569386269241d61",
-          "sourceBodyHash": "sha256:7b9ca7167bf3d12a",
-          "translatedAt": "2026-05-02T01:17:17+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "sourceCommitSha": "",
+          "sourceContentHash": "",
+          "sourceBodyHash": "",
+          "translatedAt": "",
+          "translationLastCommit": "27d739db",
+          "translationLastModified": "2026-05-16T23:04:23+09:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "no-source-sha"
         },
         "fr": {
           "path": "fr/Art/taiwanese-experimental-and-new-media-art.md",
@@ -47744,6 +47744,31 @@
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "Geography/擎天崗.md": {
+      "zh": {
+        "lastCommit": "cc8a26f1",
+        "lastModified": "2026-05-16T22:07:10+08:00",
+        "contentHash": "sha256:31abc64732b1d18e",
+        "bodyHash": "sha256:dee2015d5a88f548"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },

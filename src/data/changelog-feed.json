@@ -1,7 +1,247 @@
 {
-  "generatedAt": "2026-05-15T15:10:07.860Z",
+  "generatedAt": "2026-05-16T15:09:19.745Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "9441654003430411abf77d8fcc79a66058d679bf",
+      "date": "2026-05-16T23:04:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] merge: session 215434-manual — immune-score redesign + tool inventory + babel sensor + meta-health"
+    },
+    {
+      "hash": "003afd8f97dd988b80147092b71fe789ff481a52",
+      "date": "2026-05-16T22:53:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: session 215434-manual — immune redesign + 4 LESSONS-INBOX candidates (Phase 9)"
+    },
+    {
+      "hash": "a3a1a275620a52a1b3a804a5704e2c44db08b8b7",
+      "date": "2026-05-16T22:16:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: meta-health subsystem — plugin self-health monitoring (Phase 7)"
+    },
+    {
+      "hash": "489b840b948b2ba92081de55da3d7da4e60e2d88",
+      "date": "2026-05-16T22:15:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: immune score V2 — 6-dim weighted formula + dashboard-immune.json (Phase 6)"
+    },
+    {
+      "hash": "7d7b40f2f1d2cff4af8feba234cd2979640c0ee9",
+      "date": "2026-05-16T22:09:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-pm: PM cycle finale memory @ 2026-05-16 22:07"
+    },
+    {
+      "hash": "ffa5c0b5e617c77e5edcae605fda1c4a15bd9413",
+      "date": "2026-05-16T22:09:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: image-alt + seo-meta plugins (Phase 4-5)"
+    },
+    {
+      "hash": "cc8a26f12ffdf2d22f39fa42f3bfca3ec7362d59",
+      "date": "2026-05-16T22:07:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] heal: PR #1072 擎天崗.md frontmatter + footnote-format polish — 2026-05-16 PM"
+    },
+    {
+      "hash": "7012a5528c83b41fea984b003f51c994a0eaa6e2",
+      "date": "2026-05-16T22:04:37+08:00",
+      "author": "idlccp1984",
+      "message": "Create 擎天崗.md (#1072)"
+    },
+    {
+      "hash": "27d739db6b0c08830ac940f8d31febb3fd17daeb",
+      "date": "2026-05-16T23:04:23+09:00",
+      "author": "vaiskalivuan",
+      "message": "translate(es): FAB DAO與百岳計畫 → fab-dao-proyecto-cien-cimas (#1071)"
+    },
+    {
+      "hash": "24c33eaa29f6c76ca9b3d08f7c4d716e5e938c75",
+      "date": "2026-05-16T22:03:13+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: TOOL-INVENTORY v2.1 — standalone 工具四類分類 + 缺口優先序"
+    },
+    {
+      "hash": "82f52b1211236daaab00ecffa980e56e08f238ed",
+      "date": "2026-05-16T22:01:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: GA4 per-language sensor — babel sovereignty impact tracking (Phase D)"
+    },
+    {
+      "hash": "9eefac414c050d9d62e421b28509677713f90f4a",
+      "date": "2026-05-16T21:58:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: immune score redesign + tool inventory + babel sensor design report"
+    },
+    {
+      "hash": "5ff58c40fcf7a144eea9717964522c8845c407ff",
+      "date": "2026-05-16T12:12:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory + report addendum: 第三輪 routine-audit + content-hash gate 完整實作收官"
+    },
+    {
+      "hash": "204314dca1c178fab9082018c69fc7eba3907a1d",
+      "date": "2026-05-16T12:09:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: routine-audit routine 化 完整實作 + spore content-hash gate MVP"
+    },
+    {
+      "hash": "f8a0f3747be4be2573718e35a210866bc284cc88",
+      "date": "2026-05-16T11:50:22+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-16-011113-manual-audit-evolve — 第二輪 finale 收尾"
+    },
+    {
+      "hash": "00f6cd8eba55c33f6b0a91c65dc77f681570effa",
+      "date": "2026-05-16T11:47:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: MAINTAINER v2.1 → v2.2 boundary input precision + LESSONS-INBOX 6 entries"
+    },
+    {
+      "hash": "f31a49d5e3033b2a6bfe45dbda7b854ee5aa7450",
+      "date": "2026-05-16T11:19:05+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] report: routine-audit-2026-05-16 — 21 commit / 5 cron / 6 manual 全量 cross-routine audit"
+    },
+    {
+      "hash": "ba92c9d0f93f589adb5f02d8ce72a4afdffe1520",
+      "date": "2026-05-16T11:04:22+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 陳建年 NEW P1 candidate — graph density gap 6 cite 0 anchor"
+    },
+    {
+      "hash": "ec80fa9b7fa093d08f37668a3d5ec3d460199902",
+      "date": "2026-05-16T10:59:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-05-16-011113-manual — 健康反而是個偵測盲點"
+    },
+    {
+      "hash": "37bece1e121fc1043b56be2b101f48a3720fc93e",
+      "date": "2026-05-16T10:54:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-16-011113-manual — 唐鳳 EVOLVE 全 Stage 5 + SQUEEZE-MODELS-MAX v4.2 inventory recalibration + ARTICLE-INBOX 災難志工 P0"
+    },
+    {
+      "hash": "158e860474cb4edce0943f6f1395cd7fc0876e04",
+      "date": "2026-05-16T10:46:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] ARTICLE-INBOX: 台灣災難志工文化 EVOLVE P0 + 鏟子超人 + 島嶼共時性"
+    },
+    {
+      "hash": "7608c32fbcdc312372af5d6fbf1eaf2de02b7f4b",
+      "date": "2026-05-16T10:41:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] SQUEEZE-MODELS-MAX v4.2 — 2026-05-16 inventory recalibration + codex+gemini Tier 1 + 驗證 SOP"
+    },
+    {
+      "hash": "ac14becfe3454f7ff67831bab68962ebcc9a2a22",
+      "date": "2026-05-16T10:33:24+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: maintainer-am-0900 index row 校正 — #1070 ship + wikilink heal final state"
+    },
+    {
+      "hash": "dff5fd7220fab7e9e17a4db958ff73638637c0ac",
+      "date": "2026-05-16T10:21:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] heal: 台灣新創生態系 wikilink 重定向 — #1070 Group 2 merge follow-up (Deploy CI green)"
+    },
+    {
+      "hash": "f712b7242742d536e8a4dac29abb23324c075ed8",
+      "date": "2026-05-16T10:16:02+08:00",
+      "author": "Zaious (@ChronicleCore)",
+      "message": "fix(batch-200): P2 修補 — A errata 9 + B 34 + C 28 + D 4→2 合併 (73 篇) (#1070)"
+    },
+    {
+      "hash": "803fb1ed36652e565ba21c01fe775ab4cd531910",
+      "date": "2026-05-16T09:17:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: maintainer-am-0900 090909 — Deploy CI 5 連敗 1 字 heal + #1070 P2 batch CONFLICTING 留觀察者"
+    },
+    {
+      "hash": "5818b595328a1237694f75bfa4ef0e2383840b02",
+      "date": "2026-05-16T09:13:20+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] heal: ja momofuku-ando translatedFrom 呉→吳 (Deploy CI green)"
+    },
+    {
+      "hash": "e46120502eb621e6db031aa8fcf01732ef271167",
+      "date": "2026-05-16T07:17:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: spore-harvest-am 070000 — 8 spores ship + #71 mismatch 3rd verification"
+    },
+    {
+      "hash": "4542349adc353fa0058dc42229653e55c67c7437",
+      "date": "2026-05-16T07:14:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest-am: 8 spores — 2026-05-16"
+    },
+    {
+      "hash": "9d1fbf43bd41f99bbe1b4f3dd068b9130e2d48a5",
+      "date": "2026-05-16T06:51:33+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] diary: twmd-babel-nightly 050400 — sibling routine rescue 揭示 holobiont coordination 運行中第一次實例"
+    },
+    {
+      "hash": "a88fd4681276ca3087c8f21d95367029ee1d8707",
+      "date": "2026-05-16T06:47:12+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: twmd-babel-nightly 050400 — 150 cascade ship 0 fail + stale -17.8%"
+    },
+    {
+      "hash": "d77b2587938caafde550ac2b50e215ede781f3a5",
+      "date": "2026-05-16T06:43:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 28 trailing cascade translations — 2026-05-16"
+    },
+    {
+      "hash": "8cc8aa7195c1312c7b38c27e4b35abf9822c1e14",
+      "date": "2026-05-16T06:22:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: data-refresh-am 062024 — babel 孤兒 process + dashboard sync"
+    },
+    {
+      "hash": "9bd5e48c220c9a920bdc10d5ee8e65535d72c65e",
+      "date": "2026-05-16T06:19:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: dashboard sync — 2026-05-16 06:19"
+    },
+    {
+      "hash": "50927d95ec52fc88491cf6b1e7e537c043c66042",
+      "date": "2026-05-16T06:13:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel-nightly: cascade translations — 2026-05-16 (rescued)"
+    },
+    {
+      "hash": "da3bf446e261ac4072831377666453ed34d03dd0",
+      "date": "2026-05-16T01:12:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] twmd-rewrite: 唐鳳 EVOLVE — 拒絕當天才的天才"
+    },
+    {
+      "hash": "e8cafb845f02e085fd27afe04e2d06b32aca4f1b",
+      "date": "2026-05-16T00:36:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: twmd-rewrite-daily 000654 — 刈包 NEW Fresh ship"
+    },
+    {
+      "hash": "e8215538133ef5d825e3a0d6fd87b472b821dda7",
+      "date": "2026-05-16T00:32:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite: 刈包 — 2026-05-16"
+    },
+    {
+      "hash": "a44589f5d942f3fa688c31e9f4c19b62febb4345",
+      "date": "2026-05-15T23:13:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: data-refresh-pm 230727 — PM 23:00 scheduled cycle 正常 ship dashboard sync"
+    },
+    {
+      "hash": "a4fe8f55fa2ac90887039cf92b1ad3744902439c",
+      "date": "2026-05-15T23:10:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-05-15 23:10"
+    },
     {
       "hash": "893f9e9ccd579668fb84cc63a5cda6801512bec8",
       "date": "2026-05-15T22:38:48+08:00",
