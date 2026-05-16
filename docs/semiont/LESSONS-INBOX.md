@@ -232,6 +232,18 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-17 spore-harvest-am 070000 — #71 SPORE-LOG URL mismatch vc=4，instrument 已 ship 但 schema 未修
+
+- **原則**：v2.10 §Content-hash mismatch 偵測 instrument 已 ship（spore-content-hash-audit.py + fingerprints.json + pipeline §section），但 SPORE-LOG row #71 本身的 URL column 仍指向 `2053101189034860856`（實為 #69 TSMC content）。Instrument 抓得到、log 標得清楚，但 row data 沒 heal → 每 cycle harvest 仍撞同一 mismatch。**儀器化 ≠ 修補 — instrument 是抓出問題的工具，root cause（SPORE-LOG row 本身錯）需要觀察者拍板 hypothesis 並執行手動 schema fix**。
+- **觸發**：2026-05-17 07:00 spore-harvest-am routine 第 4 cycle 撞同一 mismatch。Instrument from 5/16 distill 已 active（pipeline v2.10 + audit script + fingerprints.json），但 SPORE-LOG row #71 URL column unchanged。Per pipeline rule「連續 3 cycle 同 URL mismatch → 升級給觀察者 SPORE-LOG schema 修正」— 已連 4 cycle，schema 仍未修正，pure observer-blocked backlog。
+- **可能層級**：
+  - 操作規則 → 觀察者拍板 hypothesis 後 1-line SPORE-LOG edit（A: URL 改正 / B: status: not_posted flag）— 不是 routine 自決範圍（per DNA #26 v2 AI 自主邊界 + MANIFESTO §自主權邊界「對外發布相關 schema 改動」）
+  - 結構性 → instrument vs schema-fix 分層：instrument 自動 detect ≠ 自動 heal。需要 distinguishing「routine-fixable mismatch」（即時 heal）vs「observer-bound mismatch」（要拍板）的 escalation ladder
+  - REFLEXES 候選 → 「儀器化解決 detection，沒解決 remediation — 兩件事不同條 SOP」（與 REFLEXES #15「反覆浮現要儀器化」互補的反面）vc=1
+- **verification_count**: 4（5/12 dry-run / 5/13 / 5/16 / 5/17 連 4 cycle 同 row 同 mismatch）
+- **severity**: operational（單 row data error 不 block 整 pipeline，但持續污染 backfillWarnings 顯示 + dashboard 信號 + routine 每天打 instrument 沒 actionable result）
+- **跨檔關聯**：[SPORE-HARVEST-PIPELINE v2.10](../factory/SPORE-HARVEST-PIPELINE.md) + [SPORE-LOG.md row #71](../factory/SPORE-LOG.md) + [batch-2026-05-17-4-spores.md §#71 升級](../factory/SPORE-HARVESTS/batch-2026-05-17-4-spores.md) + 5/16 §已消化 #3 entry
+
 ### 2026-05-17 5x-parallel-opus 014500 — ARTICLE-INBOX metadata 自身需 fact-check（5 agent / 5 entry 100% 命中率）
 
 - **原則**：ARTICLE-INBOX entry 是 routine agent 啟動時的 priming 材料。entry 寫的「事實」會直接被 routine agent 無條件採信並 propagate 進 ship 出去的文章 — 除非 agent 主動 Stage 1 cross-source verify。peer ingestion 階段省的事實 audit，在 ship 階段以「全部帶錯」的形態返工。INBOX 是 routine 自治飛輪關鍵 priming layer，inbox 品質直接 = ship 品質下限。
