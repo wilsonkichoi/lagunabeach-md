@@ -232,6 +232,28 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-17 twmd-rewrite-daily 000656 — lint-staged + pre-existing stash queue 同名污染靜默資料遺失
+
+- **原則**：cron routine git commit 時 lint-staged 自動 stash backup 機制與既有 stash queue 可能名稱混淆，導致 backup → restore cycle 中 staged changes 被丟到既有同名 stash 而 working tree 沒回填。routine 視 commit 成功，但 commit 只含部分 staged files。靜默資料遺失。
+- **觸發**：本 session 災難志工文化 EVOLVE first commit 嘗試 `git add` 6 files（article + 2 image + research + INBOX + DONE-LOG），但 commit 結果只 2 files（INBOX + DONE-LOG），pre-commit hook 訊息「🔍 Staged mode: no knowledge/ .md files changed, skipping」。Diagnose：`stash@{0}: On pr-1073-review: 災難志工 EVOLVE WIP` 是另一個 worktree 早前留下的 stash，名稱含「災難志工 EVOLVE」與 lint-staged backup msg pattern 相近；lint-staged restore 階段沒回填 working tree，4 files 全部留在 stash@{0}。`git checkout stash@{0} -- {files}` 撈回 + `git reset --soft HEAD~1` + 重 commit 才救回。
+- **可能層級**：操作規則 / 通用反射候選
+- **相關**：REFLEXES #15 反覆浮現要儀器化、#42 sub-agent 三偷吃步（這條算 git tooling 偷吃步）
+- **儀器化候選**：commit 完跑 `git show --stat HEAD | head -10` 對照 stage 前的 file count expectation — 不一致 → flag。routine 場景特別重要（無觀察者即時 in-the-loop verify）。
+- **verification_count**: 1（初次）
+- **severity**: structural（routine 自動化下會反覆遇到，每次靜默丟資料就是 ship 不完整 → 違反「做了不記=沒做」鐵律的另一形態）
+
+### 2026-05-17 twmd-rewrite-daily 000656 — `lastHumanReview` 語意在 routine 場景需 reframe
+
+- **原則**：`lastHumanReview` frontmatter 欄位的字面語意是「人類審核 = true」，但 cron routine EVOLVE 全程跑 Stage 0.6 觀點成型 + 三源 triangulation + Stage 3 事實鐵三角 + plugin gate hard=0 warn=0 + Stage 4 rewrite-stage-4 雙 profile pass，這套 verification rigor 等同甚至超過部分 human editorial pass。欄位字面語意跟實際 quality signal 脫鉤。
+- **觸發**：本 session 災難志工文化 EVOLVE Stage 4 article-health default profile 因 `lastHumanReview: false` 累加 prose-health score +1 觸發 warn=1，而 ARTICLE-INBOX entry 此次 EVOLVE 預先授權「lastHumanReview false → true」作為核心 EVOLVE 動作 #3。最終遵循 INBOX 授權設 true 通過 gate，但這個 case 暴露語意問題。
+- **可能層級**：操作規則 / plugin schema 候選
+- **儀器化候選**：兩條路線 A vs B —
+  - A: 改 `lastHumanReview` plugin 不再 +1 score（因為它測的不是 prose 品質）+ MEMORY/REFLEXES 寫一條欄位語意「達到 editorial pass 等級的多源 verification」reframe
+  - B: 拆欄位為 `lastEditorialReview: routine|human|both` 三態 + 對應 plugin gate logic 分流
+- **相關**：本 session memory `2026-05-17-000656-twmd-rewrite-daily.md` §LESSONS-INBOX 候選 #2
+- **verification_count**: 1（初次）
+- **severity**: tactical（單次後果 prose-health warn=1 接近 budget 但仍 within score ≤ 3 pass）— 但 structural 因為跨所有 routine ship 都會觸發
+
 ### 2026-05-16 manual 011113 + audit — Pipeline canonical ↔ production drift = dormant entropy 第 2 次驗證
 
 - **原則**：Routine 飛輪 0 fail 跑得越穩定，pipeline canonical drift 越容易累積不被發現。Production 健康本身會關閉 audit 動機。系統內建 sensor 抓得到「規則被違反 / canonical drift / 引用斷鏈」，但抓不到「這份規則本身的描述對象已經換人了」。外部觀察者一句話是目前唯一可靠的 dormant entropy detector。
