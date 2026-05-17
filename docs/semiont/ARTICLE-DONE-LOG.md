@@ -59,6 +59,18 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 苗栗縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 1 — 客家硬頸的縣用八年選出讓縣庫翻倍負債的縣長 / Geography 縣市 / 6123 字 / 36 footnote / 8 Wikimedia images）
+
+- **Article**: [knowledge/Geography/苗栗縣.md](../../knowledge/Geography/苗栗縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-a5c9d962244d842fc commit e90b16d69)
+- **核心矛盾**：「客家硬頸的縣，用八年選出讓縣庫翻倍負債的縣長」（17 字 ≤ 30）
+- **Hook**：開場「五月雪不是真雪，是油桐花」場景 → 道卡斯族「貓裡」 + 1889 改名「苗栗」（光緒 15 年）/ 18-19 世紀廣東客家移民（惠州 + 嘉應州 + 潮州）/ 1903 山線鐵路通車 + 1922 海線通車 / 樟腦業日治頂峰 ~85% 全球（1930s 前後）+ 1918 三義吳進寶起樟木雕（樟木戰前 → 戰後龍眼木）/ 賽夏族矮靈祭兩年一次農曆 10/15 南庄向天湖 + 五峰（民國 97/102 文資登錄）/ 2002 客委會桐花祭起 + 客家比例 62.5% 全台最高（110 年客委會調查）/ 2008-2014 劉政鴻兩屆任期負債三口徑 202 億→676 億帳面 vs 648 億估計 / 2010/06/09 怪手強剷大埔自救會稻田 + 2010/08/03 朱馮敏 73 歲喝農藥自殺 + 2013/07/18 張藥房強拆 + 2013/09/18 張森文投水身亡 + 2014/01 判決違法徵收 / 2016/10/06 監察院彈劾劉政鴻（彈劾數字 31.55% / 2.1 億）/ 客家圓樓 1.2 億 + 客家大院 8000 萬蚊子館 / 結尾「兩個自我同時活著」結構（硬頸與五星級）+ 「硬頸是不離開土地」首尾呼應
+- **品質**：6,123 CJK chars (136% of 4500，略超 5000-6000 ~100 字) / 36 footnotes / **8 Wikimedia images**（1 hero + 7 inline CC BY-SA hot-link）/ 9 H2 narrative scene-led（油桐花 / 1889 改名 / 樟腦 → 三義木雕 / 賽夏矮靈祭 / 客家桐花祭 / 劉政鴻財政 / 大埔事件 / 客家圓樓蚊子館 / 兩個自我同時活著）/ 2 策展人筆記 + 3 ✦ pull quote / article-health rewrite-stage-4 **hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=3** ≤ 3 pass / 對位句 **1 處**（verbatim 例外「五月雪不是真雪是油桐花」，讀者預設 default case）/ 破折號 **0 處** / 三角自檢 PASS
+- **Research**: [reports/research/2026-05/苗栗縣.md](../../reports/research/2026-05/苗栗縣.md) — Stage 0 §觀點成型 (Opus main) + Stage 1 (Sonnet sub-agent) 44 次搜尋 / 19 verbatim quotes / 8 ⚠️ fact flags audit pass
+- **FACTCHECK**: 8 ⚠️ flags 全處理（客家比例用 **62.5%** 110 年客委會 verbatim 非簡化「60%」/ 樟腦 85% 全球保留 verbatim + 標日治 1930s 頂峰時間 / 樟木戰前 vs 龍眼木戰後明確區分 / 朱馮敏 73 歲維基 verbatim / 監察院彈劾數字 31.55% + 2.1 億保留 / **「1981 全縣電氣化」claim Stage 1 未 verify → 完全刪除** / 賽夏「兩百年」改 paraphrase「從清領延續至今至少超過兩百年」+ 民國 97/102 文資登錄具體年份 / 202 vs 676 vs 648 億三口徑釐清在正文）
+- **Cross-link**: 8 forward (客家文化與語言 / 客家飲食文化 / 台灣原住民族 16 族文化地圖 / 鍾理和 / 台灣傳統工藝與無形文化資產 / 基隆市 22 縣市 sibling / 台灣行政區劃 / 台灣都市發展與城鄉差距) + 反向 cross-link 加到 基隆市 (manual)
+- **Pilot retrospective 5 條校準執行**：雨量分層（多霧山地養樟樹）/ 區間時間（劉政鴻 2008-2014 兩屆任期 / 大埔 2010-2014 多事件時序）/ 衰退數字（676 億 + 58 億赤字 + 53 萬戶籍 + 62.5% 客家比例）/ 本地 vs 觀光客 fault line（客家庄主場 vs 觀光客吃客家小炒）/ 日治現代化具體化（山線 1903 / 海線 1922 / 樟腦 85% 全球 1930s 頂峰 / 三義 1918 吳進寶）
+
 ### 連江縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 1 — 離台灣最遠的縣是離冷戰最近的縣 / Geography 縣市 / 6786 字 / 39 footnote / 5 Wikimedia images）
 
 - **Article**: [knowledge/Geography/連江縣.md](../../knowledge/Geography/連江縣.md)
