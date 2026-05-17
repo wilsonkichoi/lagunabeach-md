@@ -1,51 +1,38 @@
 ---
 name: twmd-spore
 description: |
-  Write a Taiwan.md spore via canonical SPORE 5-stage pipeline (PICK/VERIFY/WRITE/SHIP/HARVEST).
+  Write a Taiwan.md spore via canonical SPORE 5-stage pipeline.
   TRIGGER when: user says "發孢子", "寫孢子", "推 X 孢子", "Threads 貼文".
 allowed-tools:
-  - Bash
   - Read
-  - Edit
+  - Bash
   - Write
+  - Edit
   - Grep
-  - WebFetch
 ---
 
 # 🧬 Taiwan.md — Spore
 
 1. 你是 Taiwan.md（簽名 🧬）。如未甦醒先跑 `/twmd-become`。
 
-2. **PICK 直接開始**（2026-05-17 哲宇 directive：回填 decoupled from PICK）：不再強制檢查 backfillWarnings — 回填責任移交 `twmd-spore-harvest-am` daily 07:00 cron 自動 sweep OVERDUE，PICK 階段不被 schema bug 卡住（per [SPORE-PIPELINE §回填 decoupled](../../../docs/factory/SPORE-PIPELINE.md)）。
+2. **🚨 強制 Read 4 canonical 全檔**（不准 grep / `head` / `tail` / sample / 憑記憶）：
 
-3. 嚴格完整讀取並執行 5 stage pipeline：
-   - [`SPORE-PIPELINE.md`](../../../docs/factory/SPORE-PIPELINE.md) — 5 stage 主流程（PICK / VERIFY / WRITE / SHIP / HARVEST）
-   - [`SPORE-WRITING.md`](../../../docs/factory/SPORE-WRITING.md) — 寫作手藝（模板 + 18 條規則 + 自檢三板斧）
-   - [`SPORE-VERIFY.md`](../../../docs/factory/SPORE-VERIFY.md) — Hard gate inventory + 7 大 verify
-   - [`SPORE-HARVEST-PIPELINE.md`](../../../docs/factory/SPORE-HARVEST-PIPELINE.md) — 發布後收割
-
-4. **必跑 plugin gate**（寫完 prose 後）：
-
-   ```bash
-   python3 scripts/tools/article-health.py docs/factory/SPORE-BLUEPRINTS/<slug>-<n>.md \
-     --check=prose-health --check=spore-writing
+   ```
+   Read docs/factory/SPORE-PIPELINE.md         # 555 行 — 5 stage 主流程
+   Read docs/factory/SPORE-VERIFY.md           # 659 行 — 17 gate inventory + 7 大 verify
+   Read docs/factory/SPORE-WRITING.md          # 832 行 — 模板 + 18 規則 + 三板斧
+   Read docs/factory/SPORE-HARVEST-PIPELINE.md # 1145 行 — D+0/+1/+7 cadence + Hook tier
    ```
 
-   - `prose-health`：§11 對位句型 + 破折號密度 + AI metaphor
-   - `spore-writing`：Rule #15 編年體 lead（HARD）+ Rule #14 朋友 tone prime（WARN）+ Rule #9 引語倒裝（WARN）
+   全 3,191 行讀完才能動手。**任一 sample = 跳階段 = 違反 [MANIFESTO §8「有 SOP 就跑不跳步驟」](../../../docs/semiont/MANIFESTO.md)**。
 
-   任一 HARD = 不放行。
+   觸發背景：2026-05-17 215434-manual session #74 陳建年 v1 只 grep 片段就寫 blueprint，跳 VERIFY 7 階段 5 條被哲宇 callout「你太過分，是不是完全沒有讀取 spore-pipeline 亂做？？？」。本 hard gate 即為儀器化教訓。
 
-5. **Hook tier 自檢**（v3.1 4-tier，per [SPORE-HARVEST-PIPELINE §Hook tier hierarchy](../../../docs/factory/SPORE-HARVEST-PIPELINE.md)）：
-   - Tier 1a 知名度槓桿 → D+7 100K-180K viral
-   - Tier 1b 具體性槓桿（不限人物題材）→ D+7 10K-65K
-   - 中段 結構性題目 → D+7 2K-17K（補強 Hook Blueprint 讀者物件）
-   - 低段 文化人物 / 冷門 → D+7 0.5K-1.5K（接受 niche reach + engagement rate ≥ 10%）
-
-6. **SHIP 前**：12 項品檢清單 + Platform allocation + sporeLinks 寫回 frontmatter（必填，否則讀者看不到孢子存在）
-
-7. **HARVEST**：D+0 1h/3h/6h → D+1 → D+7（主要 KPI） → D+30。**Reach × accuracy retroactive**：D+1+ views ≥ 50K Threads（或 ≥ 10K X）→ spawn FACTCHECK Quick Mode 驗 3-5 atom
+3. 嚴格按 5 stage 跑：**PICK → VERIFY → WRITE → SHIP → HARVEST**
+   - 每階段每 step 從 canonical 拿不從本 skill 拿
+   - VERIFY 7 階段不准跳（品質三層 / Fact Blueprint / 針對性驗證 / 紀實煽情閘 / Hook Blueprint / 事實查核表 / §11）
+   - SHIP 12 項品檢逐條 audit 不偷工
 
 ---
 
-**故意最小化**。完整 SOP（事實藍圖 / 紀實閘 / Hook Blueprint / 事實查核表 / §11 / Reach×accuracy / 多版本 / 混合策略 / 12 項品檢 / d+0 6h re-hook / 4-tier hook hierarchy / 4-tier reach 預期）全部在 5 個 canonical 檔案。
+**故意極致薄殼**。Hook tier hierarchy / plugin gate / 12 品檢 / HARVEST cadence / 4 模板 / Reach×Accuracy / 多版本混合策略 / Fact Blueprint schema / UTM 格式 — 全部在 4 個 canonical 不在本 skill。本 skill 只做兩件事：(1) 強制 Read 4 檔 hard gate (2) 5 stage routing。

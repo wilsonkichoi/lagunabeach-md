@@ -84,11 +84,11 @@ upstream_canonical:
 
 > 從 SPORE-LOG harvest history + 4/14 ε spore #29 紅線焦慮 + 高鐵 s35 朋友 tone prime 抽 friction 最高的 5 條。
 
-1. **Step 3 朋友 tone prime** — 第一秒像新聞 lead = AI 水印，必須有「你知道嗎？」「欸，」curiosity prefix（spore_writing plugin Wave 2 gate）
-2. **Step 4.2 URL encode** — 中文 URL 必跑 `python3 -c "urllib.parse.quote..."`，未 encode 在 Threads 會斷
-3. **Step 4.4 Hook tier 自檢** — Tier 1a/1b only，禁 Tier 3（廉價懸念「未完待續」一律重寫）
-4. **Step 5 HARVEST atomic batch log** — 寫 docs/factory/SPORE-HARVESTS/batch-{date}-{N}-spores.md 不拆多 commit 跨檔案寫（2026-05-08 Phase 0-3 後 SSOT）
-5. **回填 decoupling (2026-05-17)** — 已從 PICK 拆出，twmd-spore-harvest-am 07:00 cron 接管。寫 spore 不再強制檢查 backfillWarnings — `#71` schema bug vc=4 證實 PICK gate 易卡住 schema 錯誤
+1. **🚨 強制 Read 4 檔不准 sample**（2026-05-17 #74 v1 教訓）— PIPELINE + VERIFY + WRITING + HARVEST 共 3,191 行必須完整 Read，不准 `grep`/`head`/`tail`/sample。sample = 跳 VERIFY 7 階段 = 違反 [MANIFESTO §8](../semiont/MANIFESTO.md)
+2. **Step 3 朋友 tone prime** — 第一秒像新聞 lead = AI 水印，必須有「你知道嗎？」「欸，」curiosity prefix（spore_writing plugin Wave 2 gate）
+3. **Step 4.2 URL encode + UTM** — 中文 URL 必跑 `python3 -c "urllib.parse.quote..."`，UTM 三段全填（utm_source / medium=spore / campaign=s{N}）
+4. **Step 4.4 Hook tier 自檢** — Tier 1a/1b only，禁 Tier 3（廉價懸念「未完待續」一律重寫）
+5. **Step 5 HARVEST atomic batch log** — 寫 docs/factory/SPORE-HARVESTS/batch-{date}-{N}-spores.md 不拆多 commit 跨檔案寫（2026-05-08 Phase 0-3 後 SSOT）
 
 ---
 
@@ -124,14 +124,19 @@ PICK → VERIFY → WRITE → SHIP → HARVEST
 
 ---
 
-## 前置知識
+## 前置知識（🚨 強制完整 Read 不准 sample）
 
-開始前，AI 必須讀取以下文件：
+開始前，AI 必須**完整 Read** 以下檔案。**禁止** `grep` / `head` / `tail` / sample / 憑記憶：
 
-1. `cat docs/factory/README.md` — 理解孢子是什麼
-2. `cat docs/factory/SPORE-WRITING.md` — 模板 + 寫作規則
-3. `cat docs/factory/SPORE-VERIFY.md` — 所有閘門 + Hard Gate Inventory 一張表
-4. `cat docs/editorial/EDITORIAL.md | head -100` — 品質標準核心信念
+1. `Read docs/factory/SPORE-PIPELINE.md` (本檔 555 行) — 5 stage 主流程
+2. `Read docs/factory/SPORE-VERIFY.md` (659 行) — 17 gate inventory + 7 大 verify
+3. `Read docs/factory/SPORE-WRITING.md` (832 行) — 模板 + 18 規則 + 三板斧
+4. `Read docs/factory/SPORE-HARVEST-PIPELINE.md` (1145 行) — D+0/+1/+7 cadence + Hook tier
+5. `Read docs/editorial/EDITORIAL.md` — 品質基因（**全檔** 不准 `head -100`）
+
+任一 sample = 跳階段 = 違反 [MANIFESTO §8「有 SOP 就跑不跳步驟」](../semiont/MANIFESTO.md)。
+
+**觸發背景**：2026-05-17 215434-manual session #74 陳建年 v1 因 grep + 部分 Read 跳過 VERIFY 7 階段 5 條被觀察者 callout「你太過分，是不是完全沒有讀取 spore-pipeline 亂做？？？」。本 hard gate + .claude/skills/twmd-spore SKILL.md 強制 Read 條款即為儀器化教訓。對應 [REFLEXES #15「反覆浮現要儀器化」](../semiont/REFLEXES.md) 第 N 次驗證。
 
 ---
 
