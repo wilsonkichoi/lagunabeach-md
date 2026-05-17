@@ -174,7 +174,7 @@ estimated_total_effort: ~50-60 hr (22 articles × ~150 min depth) + 1 pilot ~3 h
 1. **Pilot 跑完後 retrospective**：basket out 跑 pilot 過程中遇到的「縣市文章特殊 caveats」（如：縣志資料 vs 維基百科衝突如何處理 / 在地人 quote 來源從哪找 / 美食評價如何避免主觀），enrich §4 list，bulk-update 22 entries 的 Notes
 2. **分批 ship**：6 直轄市 → 3 省轄市 → 11 縣 → 2 離島縣 由近到遠（reader 接觸度排序）。或反向：先做 niche 縣市搶 SEO 空缺（基隆 / 嘉義 / 連江），等成功後做大都會
 3. **跨縣市 cross-link 矩陣**：22 篇互連，類別頁 `/geography/` 建議 EVOLVE 出「縣市索引地圖」，每縣市文章 cross-link 鄰近 2-3 縣市
-4. **配圖授權**：每縣市需要 1-2 張 hero/scene-mid。CC 授權圖片 source 候選：Wikimedia Commons（多數縣市有大量 CC BY-SA 圖片）/ 政府開放資料平台 / 觀光局 CC0 圖片。每篇預估 image-health hard gate 通過（≥3 張）
+4. **配圖授權**：**每縣市需要 ≥5 張**（hero + 4 inline scene-mid，per 2026-05-18 哲宇 directive 升 standard 從 ≥3 到 ≥5）。CC 授權圖片 source 候選：Wikimedia Commons（多數縣市有大量 CC BY-SA 圖片，特別 Category:{縣市}）/ 政府開放資料平台 / 觀光局 CC0 圖片。每篇 image-health hard gate ≥5 張。建議再加 1-2 個 video iframe（per EDITORIAL §媒體編織 Geography 類型 baseline）— 縣市紀錄片 / 觀光局官方影片 / 旅遊頻道 vlog
 5. **多語翻譯優先順序**：先 en（國際讀者 + AI agent）→ ja（日本旅客是台灣旅遊主受眾）→ ko/es/fr（次之）
 
 ---

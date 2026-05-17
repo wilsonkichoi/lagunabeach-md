@@ -170,7 +170,7 @@ BECOME_TAIWANMD.md Step 5 新增：
 >
 > **22 entries 該找的「凌晨四點時刻」**：不是字面凌晨四點，是「外人不知道但在地人覺得最迷人的時刻」。基隆是崁仔頂魚市拍賣；其他縣市 Stage 0.6 §觀點成型 必須答出對應 anchor（萬華早晨 5 點豆漿 / 台南 6 點國華街早餐 / 高雄凌晨港邊卸貨 等候選）。
 >
-> **Image 系列 follow-up**：22 篇 hero 圖建議 spawn 一個 image agent 系列性處理（Wikimedia Commons CC BY-SA 搜 + cache + aspect 驗證）。基隆 pilot cron polish 已示範路徑：upload.wikimedia.org hot-link（plugin allowed external prefix）免 cache、3 張（hero frontmatter + 2 inline scene-mid）+ §圖片來源 attribution + CC BY-SA 4.0 license。Taiwankengo 為 Wikimedia Commons 上多縣市 CC 攝影者主力，22 篇可優先檢查其 portfolio。
+> **Image + Video standard（v2 2026-05-18 哲宇 directive 升級從 ≥3 到 ≥5）**：每縣市 **≥5 張圖**（hero + 4 inline scene-mid）+ 建議 1-2 個 video iframe（觀光局 / 縣市政府官方頻道 / 公視紀錄片）per EDITORIAL §媒體編織 Geography 類型 baseline。Wikimedia Commons hot-link（plugin allowed external prefix）免 cache + §圖片來源 attribution + CC BY-SA license。Wikimedia Category:{縣市} 大多有 100+ 張可選。基隆 ship 後 polish 已到 5 張（hero 正濱漁港 + 4 inline：和平島聖薩爾瓦多 + 基隆港鳥瞰 + 廟口夜市 + 主普壇 + 正濱彩色屋）。Taiwankengo 為 Wikimedia 多縣市 CC 攝影者主力，22 篇可優先檢查其 portfolio。
 
 ### 1. 台北市 NEW
 
