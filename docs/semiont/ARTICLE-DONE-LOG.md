@@ -59,6 +59,18 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 三毛 NEW — 2026-05-17 2026-05-17-184444-manual（撒哈拉流浪作家 / People 文學 / 4508 字 / 24 footnote）
+
+- **Article**: [knowledge/People/三毛.md](../../knowledge/People/三毛.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑)
+- **核心矛盾**：「她教會一代人想像遠方，自己卻一生在逃離近處」
+- **Hook**：1955 年國二數學老師墨圈事件 → 結尾 Ruta Sanmao 加那利群島旅遊路線 + 荷西墓訪客簿
+- **品質**：4,508 CJK chars (100% of 4500) / 24 footnotes / 0 images（1991 歷史人物無 CC 圖片，image-health hard=1 accepted deviation）/ article-health rewrite-stage-4 word-count ✓ / 其他 6 plugin pass
+- **Research**: [reports/research/2026-05/三毛.md](../../reports/research/2026-05/三毛.md) — 69 searches (43 中文 + 26 英文 dual-agent) + 16 WebFetch / Stage 0 假說 14 條驗證（4 條修正：荷西死亡地點 La Palma / 年齡差 8 歲 / 金馬到死 25 天 / 王洛賓 1990 年）
+- **FACTCHECK**: ~157 atoms verified, 2 errors fixed（結婚五年→六年 / 乃門→瑪法達 simplified）
+- **Cross-link**: 5 bidirectional — 白先勇、林青霞、台灣民歌運動、台灣散文、席慕蓉
+- **敏感素材**：死因四說並存不下判斷（官方自殺 / 母親意外說 / 謀殺說 / 情緒說）；王洛賓關係採事實面不猜心理；殖民視角引 Mike Fu 序言
+
 ### 區秀詒 NEW — 2026-05-17 二輪 5x parallel opus agents（馬來西亞策展人在台灣 / People / 5583 字 / 35 footnote）
 
 - **Article**: [knowledge/People/區秀詒.md](../../knowledge/People/區秀詒.md)
