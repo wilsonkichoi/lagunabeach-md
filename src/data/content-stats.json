@@ -5,7 +5,7 @@
     "Culture": 301,
     "Economy": 256,
     "Food": 260,
-    "Geography": 135,
+    "Geography": 150,
     "History": 206,
     "Lifestyle": 141,
     "Music": 163,
@@ -252,6 +252,10 @@
     {
       "date": "2026-05-17",
       "count": 8
+    },
+    {
+      "date": "2026-05-18",
+      "count": 14
     }
   ],
   "updated": "2026-05-17"

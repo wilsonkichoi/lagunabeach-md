@@ -1,8 +1,8 @@
 {
-  "totalArticles": 4292,
+  "totalArticles": 4307,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 5586,
+  "totalTags": 5687,
   "categories": [
     {
       "name": "es",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Geography",
-      "count": 27
+      "count": 42
     },
     {
       "name": "Art",
@@ -168,13 +168,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4292,
+    "zh-TW": 4307,
     "en": 0
   },
-  "lastUpdated": "2026-05-17T15:08:42.871Z",
+  "lastUpdated": "2026-05-17T22:12:44.753Z",
   "stars": 991,
   "forks": 147,
-  "zhPages": 3565,
+  "zhPages": 3580,
   "enPages": 727,
-  "totalPages": 4292
+  "totalPages": 4307
 }

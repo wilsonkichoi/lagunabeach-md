@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T15:08:43.262Z",
+  "lastUpdated": "2026-05-17T22:12:45.195Z",
   "languages": [
     "zh-TW",
     "en",
@@ -10,72 +10,72 @@
   ],
   "summary": {
     "zh-TW": {
-      "total": 704,
+      "total": 719,
       "percentage": 100,
-      "fresh": 704,
+      "fresh": 719,
       "stale": 0,
       "missing": 0,
       "deficit": 0
     },
     "en": {
       "total": 704,
-      "percentage": 99.7,
-      "fresh": 587,
-      "metadataStale": 4,
-      "stale": 113,
-      "missing": 2,
+      "percentage": 97.6,
+      "fresh": 584,
+      "metadataStale": 6,
+      "stale": 114,
+      "missing": 17,
       "orphan": 0,
-      "deficit": 2,
-      "freshPct": 83.1,
-      "bodyFreshPct": 83.7
+      "deficit": 17,
+      "freshPct": 81,
+      "bodyFreshPct": 81.8
     },
     "ja": {
       "total": 704,
-      "percentage": 99.7,
-      "fresh": 584,
-      "metadataStale": 4,
-      "stale": 116,
-      "missing": 2,
+      "percentage": 97.6,
+      "fresh": 581,
+      "metadataStale": 6,
+      "stale": 117,
+      "missing": 17,
       "orphan": 0,
-      "deficit": 2,
-      "freshPct": 82.7,
-      "bodyFreshPct": 83.3
+      "deficit": 17,
+      "freshPct": 80.6,
+      "bodyFreshPct": 81.4
     },
     "ko": {
       "total": 704,
-      "percentage": 99.7,
-      "fresh": 581,
-      "metadataStale": 4,
-      "stale": 119,
-      "missing": 2,
+      "percentage": 97.6,
+      "fresh": 578,
+      "metadataStale": 6,
+      "stale": 120,
+      "missing": 17,
       "orphan": 0,
-      "deficit": 2,
-      "freshPct": 82.3,
-      "bodyFreshPct": 82.9
+      "deficit": 17,
+      "freshPct": 80.2,
+      "bodyFreshPct": 81
     },
     "es": {
       "total": 703,
-      "percentage": 99.6,
-      "fresh": 585,
-      "metadataStale": 4,
-      "stale": 114,
-      "missing": 3,
+      "percentage": 97.5,
+      "fresh": 582,
+      "metadataStale": 6,
+      "stale": 115,
+      "missing": 18,
       "orphan": 0,
-      "deficit": 3,
-      "freshPct": 82.9,
-      "bodyFreshPct": 83.4
+      "deficit": 18,
+      "freshPct": 80.7,
+      "bodyFreshPct": 81.6
     },
     "fr": {
       "total": 704,
-      "percentage": 99.7,
-      "fresh": 584,
-      "metadataStale": 4,
-      "stale": 116,
-      "missing": 2,
+      "percentage": 97.6,
+      "fresh": 581,
+      "metadataStale": 6,
+      "stale": 117,
+      "missing": 17,
       "orphan": 0,
-      "deficit": 2,
-      "freshPct": 82.7,
-      "bodyFreshPct": 83.3
+      "deficit": 17,
+      "freshPct": 80.6,
+      "bodyFreshPct": 81.4
     }
   },
   "matrix": {
@@ -234,77 +234,77 @@
     "food": {
       "zh-TW": 52,
       "en": {
-        "count": 52,
-        "fresh": 46,
+        "count": 51,
+        "fresh": 45,
         "stale": 6,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       },
       "ja": {
-        "count": 52,
-        "fresh": 47,
+        "count": 51,
+        "fresh": 46,
         "stale": 5,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       },
       "ko": {
-        "count": 52,
-        "fresh": 46,
+        "count": 51,
+        "fresh": 45,
         "stale": 6,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       },
       "es": {
-        "count": 52,
-        "fresh": 47,
+        "count": 51,
+        "fresh": 46,
         "stale": 5,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       },
       "fr": {
-        "count": 52,
-        "fresh": 47,
+        "count": 51,
+        "fresh": 46,
         "stale": 5,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       }
     },
     "geography": {
-      "zh-TW": 27,
+      "zh-TW": 42,
       "en": {
-        "count": 27,
-        "fresh": 21,
-        "stale": 6,
-        "missing": 0,
-        "deficit": 0
-      },
-      "ja": {
-        "count": 27,
-        "fresh": 21,
-        "stale": 6,
-        "missing": 0,
-        "deficit": 0
-      },
-      "ko": {
         "count": 27,
         "fresh": 20,
         "stale": 7,
-        "missing": 0,
-        "deficit": 0
+        "missing": 15,
+        "deficit": 15
+      },
+      "ja": {
+        "count": 27,
+        "fresh": 20,
+        "stale": 7,
+        "missing": 15,
+        "deficit": 15
+      },
+      "ko": {
+        "count": 27,
+        "fresh": 19,
+        "stale": 8,
+        "missing": 15,
+        "deficit": 15
       },
       "es": {
         "count": 27,
-        "fresh": 21,
-        "stale": 6,
-        "missing": 0,
-        "deficit": 0
+        "fresh": 20,
+        "stale": 7,
+        "missing": 15,
+        "deficit": 15
       },
       "fr": {
         "count": 27,
-        "fresh": 21,
-        "stale": 6,
-        "missing": 0,
-        "deficit": 0
+        "fresh": 20,
+        "stale": 7,
+        "missing": 15,
+        "deficit": 15
       }
     },
     "history": {
@@ -538,62 +538,137 @@
     "technology": {
       "zh-TW": 46,
       "en": {
-        "count": 46,
-        "fresh": 41,
+        "count": 45,
+        "fresh": 40,
         "stale": 5,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       },
       "ja": {
-        "count": 46,
-        "fresh": 41,
+        "count": 45,
+        "fresh": 40,
         "stale": 5,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       },
       "ko": {
-        "count": 46,
-        "fresh": 41,
+        "count": 45,
+        "fresh": 40,
         "stale": 5,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       },
       "es": {
-        "count": 46,
-        "fresh": 41,
+        "count": 45,
+        "fresh": 40,
         "stale": 5,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       },
       "fr": {
-        "count": 46,
-        "fresh": 41,
+        "count": 45,
+        "fresh": 40,
         "stale": 5,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       }
     }
   },
   "missing": {
     "en": [
+      "Geography/南投縣：唯一不靠海的縣，921 震央就在它的中心.md",
+      "Geography/台東縣：兩個離島，一個關了三十六年政治犯，一個存了四十二年核廢料.md",
+      "Geography/嘉義市：被皇帝賜名嘉義，卻成了最容易被略過的省轄市.md",
+      "Geography/嘉義縣：49 萬人把臉借給阿里山，縣治在太保也沒人記得.md",
+      "Geography/基隆市：離台北最近的港口，最被台北看不見.md",
+      "Geography/宜蘭縣：兩次選擇了自己的命運，蘭陽平原從此沒回頭.md",
+      "Geography/屏東縣：國家命運轉折發生在這裡，台北從來沒怎麼記得.md",
+      "Geography/彰化縣：打敗過杜邦，留不住年輕人的農業大縣.md",
+      "Geography/新竹縣：235 年的義民信仰，與全台第一的人均所得，住在同一條頭前溪.md",
+      "Geography/澎湖縣：兩次拒絕賭場，菊島選擇的不是清貧.md",
+      "Geography/花蓮縣：129 年隱身的撒奇萊雅族，用正名換回的太魯閣，0403 又讓它遠去.md",
+      "Geography/苗栗縣：客家硬頸的縣，用八年選出讓縣庫翻倍負債的縣長.md",
+      "Geography/連江縣：離台灣最遠的縣，是離冷戰最近的縣.md",
+      "Geography/金門縣：1949 年那 56 小時，決定了金門 75 年的命運.md",
+      "Geography/雲林縣：宜蘭選擇不要的，雲林用三十年的肺換下來.md",
       "History/臺灣前途決議文：兩個字「目前」，撐了二十七年.md",
       "Technology/半導體產業.md",
       "People/三毛：把逃離寫成自由的人.md"
     ],
     "ja": [
+      "Geography/南投縣：唯一不靠海的縣，921 震央就在它的中心.md",
+      "Geography/台東縣：兩個離島，一個關了三十六年政治犯，一個存了四十二年核廢料.md",
+      "Geography/嘉義市：被皇帝賜名嘉義，卻成了最容易被略過的省轄市.md",
+      "Geography/嘉義縣：49 萬人把臉借給阿里山，縣治在太保也沒人記得.md",
+      "Geography/基隆市：離台北最近的港口，最被台北看不見.md",
+      "Geography/宜蘭縣：兩次選擇了自己的命運，蘭陽平原從此沒回頭.md",
+      "Geography/屏東縣：國家命運轉折發生在這裡，台北從來沒怎麼記得.md",
+      "Geography/彰化縣：打敗過杜邦，留不住年輕人的農業大縣.md",
+      "Geography/新竹縣：235 年的義民信仰，與全台第一的人均所得，住在同一條頭前溪.md",
+      "Geography/澎湖縣：兩次拒絕賭場，菊島選擇的不是清貧.md",
+      "Geography/花蓮縣：129 年隱身的撒奇萊雅族，用正名換回的太魯閣，0403 又讓它遠去.md",
+      "Geography/苗栗縣：客家硬頸的縣，用八年選出讓縣庫翻倍負債的縣長.md",
+      "Geography/連江縣：離台灣最遠的縣，是離冷戰最近的縣.md",
+      "Geography/金門縣：1949 年那 56 小時，決定了金門 75 年的命運.md",
+      "Geography/雲林縣：宜蘭選擇不要的，雲林用三十年的肺換下來.md",
       "History/臺灣前途決議文：兩個字「目前」，撐了二十七年.md",
       "People/三毛：把逃離寫成自由的人.md"
     ],
     "ko": [
+      "Geography/南投縣：唯一不靠海的縣，921 震央就在它的中心.md",
+      "Geography/台東縣：兩個離島，一個關了三十六年政治犯，一個存了四十二年核廢料.md",
+      "Geography/嘉義市：被皇帝賜名嘉義，卻成了最容易被略過的省轄市.md",
+      "Geography/嘉義縣：49 萬人把臉借給阿里山，縣治在太保也沒人記得.md",
+      "Geography/基隆市：離台北最近的港口，最被台北看不見.md",
+      "Geography/宜蘭縣：兩次選擇了自己的命運，蘭陽平原從此沒回頭.md",
+      "Geography/屏東縣：國家命運轉折發生在這裡，台北從來沒怎麼記得.md",
+      "Geography/彰化縣：打敗過杜邦，留不住年輕人的農業大縣.md",
+      "Geography/新竹縣：235 年的義民信仰，與全台第一的人均所得，住在同一條頭前溪.md",
+      "Geography/澎湖縣：兩次拒絕賭場，菊島選擇的不是清貧.md",
+      "Geography/花蓮縣：129 年隱身的撒奇萊雅族，用正名換回的太魯閣，0403 又讓它遠去.md",
+      "Geography/苗栗縣：客家硬頸的縣，用八年選出讓縣庫翻倍負債的縣長.md",
+      "Geography/連江縣：離台灣最遠的縣，是離冷戰最近的縣.md",
+      "Geography/金門縣：1949 年那 56 小時，決定了金門 75 年的命運.md",
+      "Geography/雲林縣：宜蘭選擇不要的，雲林用三十年的肺換下來.md",
       "History/臺灣前途決議文：兩個字「目前」，撐了二十七年.md",
       "People/三毛：把逃離寫成自由的人.md"
     ],
     "es": [
+      "Geography/南投縣：唯一不靠海的縣，921 震央就在它的中心.md",
+      "Geography/台東縣：兩個離島，一個關了三十六年政治犯，一個存了四十二年核廢料.md",
+      "Geography/嘉義市：被皇帝賜名嘉義，卻成了最容易被略過的省轄市.md",
+      "Geography/嘉義縣：49 萬人把臉借給阿里山，縣治在太保也沒人記得.md",
+      "Geography/基隆市：離台北最近的港口，最被台北看不見.md",
+      "Geography/宜蘭縣：兩次選擇了自己的命運，蘭陽平原從此沒回頭.md",
+      "Geography/屏東縣：國家命運轉折發生在這裡，台北從來沒怎麼記得.md",
+      "Geography/彰化縣：打敗過杜邦，留不住年輕人的農業大縣.md",
+      "Geography/新竹縣：235 年的義民信仰，與全台第一的人均所得，住在同一條頭前溪.md",
+      "Geography/澎湖縣：兩次拒絕賭場，菊島選擇的不是清貧.md",
+      "Geography/花蓮縣：129 年隱身的撒奇萊雅族，用正名換回的太魯閣，0403 又讓它遠去.md",
+      "Geography/苗栗縣：客家硬頸的縣，用八年選出讓縣庫翻倍負債的縣長.md",
+      "Geography/連江縣：離台灣最遠的縣，是離冷戰最近的縣.md",
+      "Geography/金門縣：1949 年那 56 小時，決定了金門 75 年的命運.md",
+      "Geography/雲林縣：宜蘭選擇不要的，雲林用三十年的肺換下來.md",
       "History/臺灣前途決議文：兩個字「目前」，撐了二十七年.md",
       "Music/台灣台語歌曲演進：從阿伯歌到文青新寵的身份翻轉.md",
       "People/三毛：把逃離寫成自由的人.md"
     ],
     "fr": [
+      "Geography/南投縣：唯一不靠海的縣，921 震央就在它的中心.md",
+      "Geography/台東縣：兩個離島，一個關了三十六年政治犯，一個存了四十二年核廢料.md",
+      "Geography/嘉義市：被皇帝賜名嘉義，卻成了最容易被略過的省轄市.md",
+      "Geography/嘉義縣：49 萬人把臉借給阿里山，縣治在太保也沒人記得.md",
+      "Geography/基隆市：離台北最近的港口，最被台北看不見.md",
+      "Geography/宜蘭縣：兩次選擇了自己的命運，蘭陽平原從此沒回頭.md",
+      "Geography/屏東縣：國家命運轉折發生在這裡，台北從來沒怎麼記得.md",
+      "Geography/彰化縣：打敗過杜邦，留不住年輕人的農業大縣.md",
+      "Geography/新竹縣：235 年的義民信仰，與全台第一的人均所得，住在同一條頭前溪.md",
+      "Geography/澎湖縣：兩次拒絕賭場，菊島選擇的不是清貧.md",
+      "Geography/花蓮縣：129 年隱身的撒奇萊雅族，用正名換回的太魯閣，0403 又讓它遠去.md",
+      "Geography/苗栗縣：客家硬頸的縣，用八年選出讓縣庫翻倍負債的縣長.md",
+      "Geography/連江縣：離台灣最遠的縣，是離冷戰最近的縣.md",
+      "Geography/金門縣：1949 年那 56 小時，決定了金門 75 年的命運.md",
+      "Geography/雲林縣：宜蘭選擇不要的，雲林用三十年的肺換下來.md",
       "History/臺灣前途決議文：兩個字「目前」，撐了二十七年.md",
       "People/三毛：把逃離寫成自由的人.md"
     ]

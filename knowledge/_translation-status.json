@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-17T23:08:40+08:00",
-    "zhCommitHead": "1f0b41e4d",
-    "totalZh": 706,
+    "lastUpdated": "2026-05-18T06:12:42+08:00",
+    "zhCommitHead": "3438b7f22",
+    "totalZh": 721,
     "activeLanguages": [
       "en",
       "ja",
@@ -12,43 +12,43 @@
     ],
     "summary": {
       "en": {
-        "total_zh": 706,
-        "fresh": 587,
-        "stale": 113,
-        "metadata_stale": 4,
-        "missing": 2,
+        "total_zh": 721,
+        "fresh": 584,
+        "stale": 114,
+        "metadata_stale": 6,
+        "missing": 17,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 706,
-        "fresh": 584,
-        "stale": 116,
-        "metadata_stale": 4,
-        "missing": 2,
+        "total_zh": 721,
+        "fresh": 581,
+        "stale": 117,
+        "metadata_stale": 6,
+        "missing": 17,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 706,
-        "fresh": 581,
-        "stale": 119,
-        "metadata_stale": 4,
-        "missing": 2,
+        "total_zh": 721,
+        "fresh": 578,
+        "stale": 120,
+        "metadata_stale": 6,
+        "missing": 17,
         "orphan": 0
       },
       "es": {
-        "total_zh": 706,
-        "fresh": 585,
-        "stale": 114,
-        "metadata_stale": 4,
-        "missing": 3,
+        "total_zh": 721,
+        "fresh": 582,
+        "stale": 115,
+        "metadata_stale": 6,
+        "missing": 18,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 706,
-        "fresh": 584,
-        "stale": 116,
-        "metadata_stale": 4,
-        "missing": 2,
+        "total_zh": 721,
+        "fresh": 581,
+        "stale": 117,
+        "metadata_stale": 6,
+        "missing": 17,
         "orphan": 0
       }
     },
@@ -6473,8 +6473,8 @@
     },
     "Technology/台灣無人機產業.md": {
       "zh": {
-        "lastCommit": "3e3b32c9",
-        "lastModified": "2026-05-16T23:10:22+08:00",
+        "lastCommit": "29ba6a9a",
+        "lastModified": "2026-05-17T23:09:17+08:00",
         "contentHash": "sha256:9165b111d87b4581",
         "bodyHash": "sha256:88f1bf8039ff02f6"
       },
@@ -6489,8 +6489,10 @@
           "translationLastCommit": "eb5f4077",
           "translationLastModified": "2026-05-17T05:05:46+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "ja": {
           "path": "ja/Technology/taiwan-drone-industry.md",
@@ -6502,8 +6504,10 @@
           "translationLastCommit": "eb5f4077",
           "translationLastModified": "2026-05-17T05:05:46+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "ko": {
           "path": "ko/Technology/taiwan-drone-industry.md",
@@ -6515,8 +6519,10 @@
           "translationLastCommit": "eb5f4077",
           "translationLastModified": "2026-05-17T05:05:46+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "es": {
           "path": "es/Technology/taiwan-drone-industry.md",
@@ -6528,8 +6534,10 @@
           "translationLastCommit": "eb5f4077",
           "translationLastModified": "2026-05-17T05:05:46+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "fr": {
           "path": "fr/Technology/taiwan-drone-industry.md",
@@ -6541,8 +6549,10 @@
           "translationLastCommit": "eb5f4077",
           "translationLastModified": "2026-05-17T05:05:46+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         }
       }
     },
@@ -42898,8 +42908,8 @@
     },
     "Food/蘋果西打.md": {
       "zh": {
-        "lastCommit": "3e3b32c9",
-        "lastModified": "2026-05-16T23:10:22+08:00",
+        "lastCommit": "29ba6a9a",
+        "lastModified": "2026-05-17T23:09:17+08:00",
         "contentHash": "sha256:d5c03b3e99b6070e",
         "bodyHash": "sha256:9492c1f3797c0e5c"
       },
@@ -42914,8 +42924,10 @@
           "translationLastCommit": "eb5f4077",
           "translationLastModified": "2026-05-17T05:05:46+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "ja": {
           "path": "ja/Food/apple-cider.md",
@@ -42927,8 +42939,10 @@
           "translationLastCommit": "eb5f4077",
           "translationLastModified": "2026-05-17T05:05:46+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "ko": {
           "path": "ko/Food/apple-cider.md",
@@ -42940,8 +42954,10 @@
           "translationLastCommit": "eb5f4077",
           "translationLastModified": "2026-05-17T05:05:46+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "es": {
           "path": "es/Food/apple-cider.md",
@@ -42953,8 +42969,10 @@
           "translationLastCommit": "eb5f4077",
           "translationLastModified": "2026-05-17T05:05:46+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "fr": {
           "path": "fr/Food/apple-cider.md",
@@ -42966,8 +42984,10 @@
           "translationLastCommit": "eb5f4077",
           "translationLastModified": "2026-05-17T05:05:46+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         }
       }
     },
@@ -47503,6 +47523,31 @@
         }
       }
     },
+    "Geography/花蓮縣.md": {
+      "zh": {
+        "lastCommit": "c6f5dd3f",
+        "lastModified": "2026-05-18T03:02:59+08:00",
+        "contentHash": "sha256:17d96f4014361277",
+        "bodyHash": "sha256:95b0d81316e5c38c"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Geography/林口新市鎮.md": {
       "zh": {
         "lastCommit": "4b6d28c5",
@@ -47580,10 +47625,10 @@
     },
     "Geography/金瓜石.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:7dc5c1b145fbdceb",
-        "bodyHash": "sha256:f6523523e2bf1f0c"
+        "lastCommit": "f187773f",
+        "lastModified": "2026-05-18T00:15:32+08:00",
+        "contentHash": "sha256:d506ddde43d15d15",
+        "bodyHash": "sha256:bbf94bacf1d03bd7"
       },
       "translations": {
         "en": {
@@ -47596,8 +47641,10 @@
           "translationLastCommit": "45f38fef",
           "translationLastModified": "2026-05-09T12:10:53+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ja": {
           "path": "ja/Geography/jinguashi.md",
@@ -47609,8 +47656,10 @@
           "translationLastCommit": "45f38fef",
           "translationLastModified": "2026-05-09T12:10:53+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ko": {
           "path": "ko/Geography/jinguashi.md",
@@ -47622,8 +47671,10 @@
           "translationLastCommit": "45f38fef",
           "translationLastModified": "2026-05-09T12:10:53+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "es": {
           "path": "es/Geography/jinguashi.md",
@@ -47635,8 +47686,10 @@
           "translationLastCommit": "45f38fef",
           "translationLastModified": "2026-05-09T12:10:53+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "fr": {
           "path": "fr/Geography/jinguashi.md",
@@ -47648,8 +47701,10 @@
           "translationLastCommit": "45f38fef",
           "translationLastModified": "2026-05-09T12:10:53+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         }
       }
     },
@@ -47727,6 +47782,31 @@
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "Geography/宜蘭縣.md": {
+      "zh": {
+        "lastCommit": "33bb24dd",
+        "lastModified": "2026-05-18T01:49:28+08:00",
+        "contentHash": "sha256:ad8a25388b06bfb5",
+        "bodyHash": "sha256:8df3c834b310fa20"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },
@@ -48115,6 +48195,56 @@
         }
       }
     },
+    "Geography/苗栗縣.md": {
+      "zh": {
+        "lastCommit": "b457dbbb",
+        "lastModified": "2026-05-18T02:56:57+08:00",
+        "contentHash": "sha256:0d7e5732a8513df0",
+        "bodyHash": "sha256:f743a82d302f341a"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
+    "Geography/新竹縣.md": {
+      "zh": {
+        "lastCommit": "b457dbbb",
+        "lastModified": "2026-05-18T02:56:57+08:00",
+        "contentHash": "sha256:eac646ad2b3e8028",
+        "bodyHash": "sha256:a4c29c2b02951a53"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Geography/台灣農業地景與產業分布.md": {
       "zh": {
         "lastCommit": "f712b724",
@@ -48197,6 +48327,31 @@
           "reason": "body-drift",
           "commitsBehind": 1,
           "diffSummary": "+44 -91"
+        }
+      }
+    },
+    "Geography/台東縣.md": {
+      "zh": {
+        "lastCommit": "6f28d616",
+        "lastModified": "2026-05-18T03:05:10+08:00",
+        "contentHash": "sha256:237be97e4b033394",
+        "bodyHash": "sha256:3f1be8311e0b881e"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },
@@ -48347,6 +48502,31 @@
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "Geography/彰化縣.md": {
+      "zh": {
+        "lastCommit": "efbf0dd4",
+        "lastModified": "2026-05-18T04:04:28+08:00",
+        "contentHash": "sha256:291da96ae7fc7029",
+        "bodyHash": "sha256:438c10edf8c6c82d"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },
@@ -48735,6 +48915,81 @@
         }
       }
     },
+    "Geography/雲林縣.md": {
+      "zh": {
+        "lastCommit": "036da279",
+        "lastModified": "2026-05-18T04:05:57+08:00",
+        "contentHash": "sha256:68dcc74d52d8c737",
+        "bodyHash": "sha256:24b0d8d16f592539"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
+    "Geography/連江縣.md": {
+      "zh": {
+        "lastCommit": "ecd9f7b0",
+        "lastModified": "2026-05-18T04:07:38+08:00",
+        "contentHash": "sha256:bed7ca568c30fdad",
+        "bodyHash": "sha256:1637fa66ecda0e7f"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
+    "Geography/屏東縣.md": {
+      "zh": {
+        "lastCommit": "99e9c765",
+        "lastModified": "2026-05-18T03:14:27+08:00",
+        "contentHash": "sha256:95ba16d9091da31f",
+        "bodyHash": "sha256:906c644455f87c66"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Geography/玉山.md": {
       "zh": {
         "lastCommit": "4b6d28c5",
@@ -48905,6 +49160,31 @@
         }
       }
     },
+    "Geography/澎湖縣.md": {
+      "zh": {
+        "lastCommit": "dd6cd015",
+        "lastModified": "2026-05-18T01:43:57+08:00",
+        "contentHash": "sha256:e10092be60773ede",
+        "bodyHash": "sha256:d8c2fdecefda4ce7"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Geography/台灣海岸地形與海洋地景.md": {
       "zh": {
         "lastCommit": "4b6d28c5",
@@ -48977,6 +49257,56 @@
           "inferred": false,
           "status": "fresh",
           "reason": "hash-match-sha-lost"
+        }
+      }
+    },
+    "Geography/南投縣.md": {
+      "zh": {
+        "lastCommit": "4b090f5f",
+        "lastModified": "2026-05-18T04:11:34+08:00",
+        "contentHash": "sha256:4bd149f80e491a45",
+        "bodyHash": "sha256:7f90ef82b0d88d38"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
+    "Geography/嘉義市.md": {
+      "zh": {
+        "lastCommit": "6f28d616",
+        "lastModified": "2026-05-18T03:05:10+08:00",
+        "contentHash": "sha256:9d654ef778b2c4c5",
+        "bodyHash": "sha256:cbe86cda2deb8df3"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },
@@ -49215,6 +49545,31 @@
         }
       }
     },
+    "Geography/金門縣.md": {
+      "zh": {
+        "lastCommit": "ecd9f7b0",
+        "lastModified": "2026-05-18T04:07:38+08:00",
+        "contentHash": "sha256:17abeb896aa5ed87",
+        "bodyHash": "sha256:87c32d5c77f62719"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Geography/氣候.md": {
       "zh": {
         "lastCommit": "4b6d28c5",
@@ -49437,6 +49792,56 @@
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "Geography/嘉義縣.md": {
+      "zh": {
+        "lastCommit": "6f28d616",
+        "lastModified": "2026-05-18T03:05:10+08:00",
+        "contentHash": "sha256:e233ab9cc8b79527",
+        "bodyHash": "sha256:8e7d5975a9ac8375"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
+    "Geography/基隆市.md": {
+      "zh": {
+        "lastCommit": "ecd9f7b0",
+        "lastModified": "2026-05-18T04:07:38+08:00",
+        "contentHash": "sha256:8c3210a385f4d4dd",
+        "bodyHash": "sha256:d449c0ced92d9942"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },

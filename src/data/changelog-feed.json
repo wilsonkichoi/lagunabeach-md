@@ -1,7 +1,295 @@
 {
-  "generatedAt": "2026-05-17T15:08:41.943Z",
+  "generatedAt": "2026-05-17T22:12:43.947Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "3438b7f22b1709b4cb57f5749b5edff03c16bf86",
+      "date": "2026-05-18T04:21:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 22 縣市 batch 4 Stage 0 觀點成型 ×4 — 新竹市 / 桃園市 / 台南市 / 高雄市"
+    },
+    {
+      "hash": "4b090f5f45d720ee82ec0e9946d9dfd4323652b9",
+      "date": "2026-05-18T04:11:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 南投縣 — 22 縣市系列 batch 3 / 唯一不靠海的縣 921 震央就在它的中心"
+    },
+    {
+      "hash": "ecd9f7b06ed29b33d78b758208ed97cd7ed7b45e",
+      "date": "2026-05-18T04:07:38+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 金門縣 — 22 縣市系列 batch 3 / 1949 那 56 小時決定金門 75 年命運也決定了台灣"
+    },
+    {
+      "hash": "036da279d4528873c5c9ca154b7d6b54a9d49a55",
+      "date": "2026-05-18T04:05:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 雲林縣 — 22 縣市系列 batch 3 / 宜蘭選擇不要的雲林用三十年的肺換下來"
+    },
+    {
+      "hash": "efbf0dd4ba2b5b105ee9db4e037c96243afc1ff2",
+      "date": "2026-05-18T04:04:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 彰化縣 — 22 縣市系列 batch 3 / 打敗過杜邦留不住年輕人的農業大縣"
+    },
+    {
+      "hash": "48b0574bb27ade6041cd1ff9454251922c0a609e",
+      "date": "2026-05-18T03:45:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 彰化縣 Stage 1 deep notes (44 searches)"
+    },
+    {
+      "hash": "8d0d75a4344be83c02cd587cc007ea08fee9baa0",
+      "date": "2026-05-18T03:37:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 金門縣 Stage 1 deep notes (44 searches)"
+    },
+    {
+      "hash": "f7be87c65072815e3f53ab2b6acc6d58881f5992",
+      "date": "2026-05-18T03:37:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 雲林縣 Stage 1 deep notes (54 searches)"
+    },
+    {
+      "hash": "aa40480bea537cfa7edda617555cf20642c96414",
+      "date": "2026-05-18T03:34:33+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 南投縣 Stage 1 deep notes (54 searches)"
+    },
+    {
+      "hash": "87f8a3a4551ed8fe155f64537b46a9523c2d774c",
+      "date": "2026-05-18T03:23:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 22 縣市 batch 3 Stage 0 觀點成型 ×4 — 南投縣 / 雲林縣 / 彰化縣 / 金門縣"
+    },
+    {
+      "hash": "99e9c7655eda42ce8840ffebb0833054f7b2627e",
+      "date": "2026-05-18T03:14:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 屏東縣 — 22 縣市系列 batch 2 / 國家命運轉折發生在這裡台北從來沒怎麼記得"
+    },
+    {
+      "hash": "6f28d6167b0c05bd29159b2316487171a4475fe3",
+      "date": "2026-05-18T03:05:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 台東縣 + 嘉義縣 — 22 縣市系列 batch 2 雙篇 ship"
+    },
+    {
+      "hash": "c6f5dd3f69408fc67b58b85735b7e7bafb254063",
+      "date": "2026-05-18T03:02:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 花蓮縣 — 22 縣市系列 batch 2 / 129 年隱身撒奇萊雅族用正名換回太魯閣 0403 又讓它遠去"
+    },
+    {
+      "hash": "d5eba451aca2c6b198dd263dae5aab0c9a63aff8",
+      "date": "2026-05-18T02:59:07+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 新竹縣 INBOX/DONE-LOG sync — batch 2 第 1 篇 ship 紀錄"
+    },
+    {
+      "hash": "b457dbbb1519b200a9ee1b3735f3e1df2c664d04",
+      "date": "2026-05-18T02:56:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 新竹縣 — 22 縣市系列 batch 2 / 義民信仰與全台第一人均所得住同一個縣"
+    },
+    {
+      "hash": "86b827ebc33830769bad30d0b321d467bcea5be6",
+      "date": "2026-05-18T02:37:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 台東縣 Stage 1 deep notes (46 searches)"
+    },
+    {
+      "hash": "47c63248207c5c4069bfa4ed30f5332567af8c68",
+      "date": "2026-05-18T02:37:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 屏東縣 Stage 1 deep notes (44 searches)"
+    },
+    {
+      "hash": "50edf5f7bec9c62bd6e6e5996ad47e1bea47ec18",
+      "date": "2026-05-18T02:36:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 花蓮縣 Stage 1 deep notes (43 searches)"
+    },
+    {
+      "hash": "24c287da302e957232a140086839cc2a53ae7633",
+      "date": "2026-05-18T02:35:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 嘉義縣 Stage 1 deep notes (44 searches)"
+    },
+    {
+      "hash": "a962c77c96be85995554cd6cfd4945b552c35ab5",
+      "date": "2026-05-18T02:33:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 新竹縣 Stage 1 deep notes (46 searches)"
+    },
+    {
+      "hash": "ff9d917f7c900ed88c14578b6b4bbdb8a123ab3d",
+      "date": "2026-05-18T02:20:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 22 縣市 batch 2 Stage 0 觀點成型 ×5 — 新竹縣 / 嘉義縣 / 屏東縣 / 花蓮縣 / 台東縣"
+    },
+    {
+      "hash": "c5277d357a149421a59f128c682fe3cf50f1038d",
+      "date": "2026-05-18T02:08:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-05-18-004535-manual — 林宅地點寫錯那一晚，三層 sub-agent 沒人告訴誰就把錯抓回來"
+    },
+    {
+      "hash": "dd9315b48df43110bce5c2a768a6b24da560fbe8",
+      "date": "2026-05-18T02:05:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: session 2026-05-18-004535-manual — 22 縣市 batch 1 ×5 ship Opus 0+2-5 / Sonnet 1 cost-split v2 首次走通"
+    },
+    {
+      "hash": "59f5aba4308f88552659d458f10b5d28c19773b5",
+      "date": "2026-05-18T02:00:12+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 苗栗縣 — 22 縣市系列 batch 1 / 客家硬頸的縣用八年選出讓縣庫翻倍負債的縣長"
+    },
+    {
+      "hash": "50d085c6c35db4d36d02ff7c32b5a84fc2453e3d",
+      "date": "2026-05-18T01:52:12+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 連江縣 — 22 縣市系列 batch 1 / 離台灣最遠的縣是離冷戰最近的縣"
+    },
+    {
+      "hash": "33bb24ddf8280bac05c84217a5470febedcf98d4",
+      "date": "2026-05-18T01:49:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 宜蘭縣 — 22 縣市系列 batch 1 / 兩次選擇了自己的命運蘭陽平原從此沒回頭"
+    },
+    {
+      "hash": "5e65b6b7c115520a5a88337a78070f1c9da4e426",
+      "date": "2026-05-18T01:45:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 嘉義市 — 22 縣市系列 batch 1 / 被皇帝賜名嘉義卻成了最容易被略過的省轄市"
+    },
+    {
+      "hash": "dd6cd01564cf39e21b9905c260d43fb006c5b895",
+      "date": "2026-05-18T01:43:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 澎湖縣 — 22 縣市系列 batch 1 / 兩次拒絕賭場菊島選擇的不是清貧"
+    },
+    {
+      "hash": "8bdd5dd4476bc7db96f8daec5a1538114c58622b",
+      "date": "2026-05-18T01:22:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 宜蘭縣 Stage 1 deep notes (47 searches)"
+    },
+    {
+      "hash": "81203e9b4e2bfecc826b3b3f3ca28844820a7f54",
+      "date": "2026-05-18T01:21:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 澎湖縣 Stage 1 deep notes (46 searches)"
+    },
+    {
+      "hash": "d80dd6488408470b49882b4ac3c425e836963f2b",
+      "date": "2026-05-18T01:20:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 嘉義市 Stage 1 deep notes (42 searches)"
+    },
+    {
+      "hash": "d8953135566ea88d57616631dfb0b7c32c1dc732",
+      "date": "2026-05-18T01:17:21+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 苗栗縣 Stage 1 deep notes (44 searches)"
+    },
+    {
+      "hash": "58a17ad7fcf16da6af6f2d98d6f97b4fc4763425",
+      "date": "2026-05-18T01:16:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 連江縣 Stage 1 deep notes (47 searches)"
+    },
+    {
+      "hash": "c856d73136666dd23794d0588a69d5134627d7d5",
+      "date": "2026-05-18T01:01:08+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 22 縣市 batch 1 Stage 0 觀點成型 ×5 — 嘉義 / 連江 / 澎湖 / 宜蘭 / 苗栗"
+    },
+    {
+      "hash": "1b6cebd73c79bc290fe27f83a95543bf30a3ec6a",
+      "date": "2026-05-18T00:44:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SOCIAL-POSTING-PIPELINE v0.3 + SPORE-PIPELINE — osascript clipboard paste 突破圖片上傳限制"
+    },
+    {
+      "hash": "5a98c785610eccbfe80e974d59e4e4b90b3bfdcf",
+      "date": "2026-05-18T00:32:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 002727-manual — 自動化碰壁的地方，就是平台主權的邊界"
+    },
+    {
+      "hash": "65ec97f6cd10f98dccc09a4e8dc3ed1c8168b742",
+      "date": "2026-05-18T00:31:21+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: session 002727-manual — SOCIAL-POSTING-PIPELINE v0.2 + SPORE-PIPELINE Stage 4 Chrome MCP 自動發文流程"
+    },
+    {
+      "hash": "88e8fc04ddb930ce0b37e4a6a59c5595d8be83e3",
+      "date": "2026-05-18T00:31:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: session 002731-manual finale — 基隆 22 縣市 PILOT ship + orchestration v1→v2 cost-split + 4 v1 agents stop"
+    },
+    {
+      "hash": "5eb9d96845deae76338f0767636d83b30920c171",
+      "date": "2026-05-18T00:27:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] plan: cities-series orchestration v2 — Opus 0+2-5 / Sonnet 1 cost-split"
+    },
+    {
+      "hash": "e3a0cccc947cb8e648c68246665a89fdb10550fe",
+      "date": "2026-05-18T00:21:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] polish: 基隆 description + 5 圖達標 + 22 縣市 standard 升 ≥5 + sub-agent orchestration plan"
+    },
+    {
+      "hash": "8370e0a132b3a3bde5c0f0f82cbd86cd81e4fbc0",
+      "date": "2026-05-18T00:21:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: cron-rewrite-daily (001857) — 基隆市 pilot sweep-in finale — 2026-05-18"
+    },
+    {
+      "hash": "ca0849ce0ff3d754172e95efa300d006461d452c",
+      "date": "2026-05-18T00:18:25+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite: 基隆市 description SEO refine — sensory hook + 海洋 vs 台北 對照 — 2026-05-18"
+    },
+    {
+      "hash": "0582cf9676270300d5da7dbcbb82af323fce641f",
+      "date": "2026-05-18T00:17:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite: 基隆市 pilot polish — sweep-in 補圖 + 對位句型 + metaphor + DONE-LOG/INBOX 同步 — 2026-05-18"
+    },
+    {
+      "hash": "f187773fe0a0ad83e538fa080cd6979fd6ceb237",
+      "date": "2026-05-18T00:15:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 基隆市 — 22 縣市系列 PILOT — 離台北最近的港口，最被台北看不見"
+    },
+    {
+      "hash": "53afbdfb3a7f54c86ebb1d6e82860df86d56acfb",
+      "date": "2026-05-17T23:40:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] plan: 22 縣市系列 + 台灣媒體總史 + 周蕙 + 贊助文章 cadence — 4 directive 規劃落檔"
+    },
+    {
+      "hash": "6f2b3df511b3463fc9495ddca0d2c05f824f4dec",
+      "date": "2026-05-17T23:12:20+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: twmd-data-refresh-pm (230938) — PM 23:00 scheduled cycle + sweep-in 前 manual session memory"
+    },
+    {
+      "hash": "f3e5f933f0076c866786599ea335461941c4c2c6",
+      "date": "2026-05-17T23:11:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: session 230616-manual finale — 臺灣前途決議文 NEW + REWRITE v6.1 evolve + SPORE #76/#77 紀實感 v2"
+    },
+    {
+      "hash": "29ba6a9a697392ce71781e5307f7bf3634797f43",
+      "date": "2026-05-17T23:09:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-05-17 23:09"
+    },
     {
       "hash": "1f0b41e4dc606fc54674780c4a046e29ca5feec5",
       "date": "2026-05-17T23:05:24+08:00",
