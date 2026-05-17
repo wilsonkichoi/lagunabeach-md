@@ -36,28 +36,31 @@ upstream_canonical:
 
 ---
 
-## 12 條核心 routine 排程表
+## 13 條核心 routine 排程表
 
-| TaskId                      | Title                      | Cron (local +0800) | Skill                 | Model  | Cadence        |
-| --------------------------- | -------------------------- | ------------------ | --------------------- | ------ | -------------- |
-| `twmd-maintainer-pm`        | TWMD maintainer (pm) ¹     | `0 22 * * *`       | `/twmd-maintainer`    | Opus   | 每天 22:00     |
-| `twmd-data-refresh-pm`      | TWMD data refresh (pm)     | `0 23 * * *`       | `/twmd-refresh`       | Sonnet | 每天 23:00     |
-| `twmd-rewrite-daily`        | TWMD rewrite (daily)       | `0 0 * * *`        | `/twmd-rewrite`       | Opus   | 每天 00:00     |
-| `twmd-news-lens-weekly`     | TWMD news lens (weekly)    | `0 1 * * 0`        | `/twmd-evolve`        | Sonnet | 週日 01:00     |
-| `twmd-weekly-report-sun`    | TWMD weekly report (sun)   | `0 2 * * 0`        | `/twmd-weekly-report` | Opus   | 週日 02:00     |
-| `twmd-distill-weekly`       | TWMD distill (weekly)      | `0 3 * * 0`        | `/twmd-distill`       | Opus   | 週日 03:00     |
-| `twmd-self-evolve-weekly`   | TWMD self-evolve (weekly)  | `0 4 * * 0`        | `/twmd-self-evolve`   | Opus   | 週日 04:00     |
-| `twmd-babel-nightly`        | TWMD babel (nightly) ³     | `0 5 * * *`        | `/twmd-babel`         | Opus   | 每天 05:00     |
-| `twmd-data-refresh-am`      | TWMD data refresh (am)     | `0 6 * * *`        | `/twmd-refresh`       | Sonnet | 每天早上 06:00 |
-| `twmd-spore-harvest-am`     | TWMD spore harvest (am) ²  | `0 7 * * *`        | `/twmd-spore-harvest` | Opus   | 每天早上 07:00 |
-| `twmd-maintainer-daily`     | TWMD maintainer (am) ¹     | `0 9 * * *`        | `/twmd-maintainer`    | Opus   | 每天早上 09:00 |
-| `twmd-routine-audit-weekly` | TWMD routine audit (sun) ⁴ | `0 12 * * 0`       | `/twmd-routine-audit` | Opus   | 週日 12:00     |
+| TaskId                            | Title                            | Cron (local +0800) | Skill                       | Model  | Cadence        |
+| --------------------------------- | -------------------------------- | ------------------ | --------------------------- | ------ | -------------- |
+| `twmd-maintainer-pm`              | TWMD maintainer (pm) ¹           | `0 22 * * *`       | `/twmd-maintainer`          | Opus   | 每天 22:00     |
+| `twmd-data-refresh-pm`            | TWMD data refresh (pm)           | `0 23 * * *`       | `/twmd-refresh`             | Sonnet | 每天 23:00     |
+| `twmd-rewrite-daily`              | TWMD rewrite (daily)             | `0 0 * * *`        | `/twmd-rewrite`             | Opus   | 每天 00:00     |
+| `twmd-news-lens-weekly`           | TWMD news lens (weekly)          | `0 1 * * 0`        | `/twmd-evolve`              | Sonnet | 週日 01:00     |
+| `twmd-weekly-report-sun`          | TWMD weekly report (sun)         | `0 2 * * 0`        | `/twmd-weekly-report`       | Opus   | 週日 02:00     |
+| `twmd-distill-weekly`             | TWMD distill (weekly)            | `0 3 * * 0`        | `/twmd-distill`             | Opus   | 週日 03:00     |
+| `twmd-self-evolve-weekly`         | TWMD self-evolve (weekly)        | `0 4 * * 0`        | `/twmd-self-evolve`         | Opus   | 週日 04:00     |
+| `twmd-babel-nightly`              | TWMD babel (nightly) ³           | `0 5 * * *`        | `/twmd-babel`               | Opus   | 每天 05:00     |
+| `twmd-data-refresh-am`            | TWMD data refresh (am)           | `0 6 * * *`        | `/twmd-refresh`             | Sonnet | 每天早上 06:00 |
+| `twmd-spore-harvest-am`           | TWMD spore harvest (am) ²        | `0 7 * * *`        | `/twmd-spore-harvest`       | Opus   | 每天早上 07:00 |
+| `twmd-maintainer-daily`           | TWMD maintainer (am) ¹           | `0 9 * * *`        | `/twmd-maintainer`          | Opus   | 每天早上 09:00 |
+| `twmd-music-media-audit-weekly`   | TWMD music media audit (sat) ⁵   | `0 10 * * 6`       | `/twmd-music-media-audit`   | Opus   | 週六 10:00     |
+| `twmd-routine-audit-weekly`       | TWMD routine audit (sun) ⁴       | `0 12 * * 0`       | `/twmd-routine-audit`       | Opus   | 週日 12:00     |
 
 ¹ **Maintainer 1d 2x（2026-05-10 拍板）** — taskId `twmd-maintainer-daily` 為 AM slot legacy 保留（沒 rename 因為 scheduled-tasks 不支援 taskId 改名，但語意上是 `am`）；`twmd-maintainer-pm` 為 PM slot 新增。AM 跑完 morning batch（refresh-am + 週日反思鏈 morning routines）的 PR backlog 清理；PM 跑完 afternoon/evening batch（rewrite + refresh-pm）的 PR backlog 清理。**v2.1 起 maintainer 只收割 contributor / observer PR**（per MAINTAINER-PIPELINE v2.1 §collect-and-merge §A 路徑 DEPRECATED — routine v2.1 main-direct 後無 routine PR 可收割）。
 
 ² **Spore harvest 07:00（2026-05-12 拍板）** — `twmd-spore-harvest-am` daily 07:00 fire，full-auto Chrome MCP harvest 跑 D+1-D+7 OVERDUE 孢子。觸發點接在 refresh-am 06:00 之後 1hr，讓 dashboard `backfillWarnings` fresh 再 harvest。完整 SOP 在 [SPORE-HARVEST-PIPELINE.md §Routine 整合（v2.2 full-auto）](../factory/SPORE-HARVEST-PIPELINE.md)，含 Chrome MCP unattended 注意事項 + 失敗 skip 條件 + OVERDUE 範圍計算。
 
 ⁴ **Routine audit weekly（2026-05-16 拍板）** — `twmd-routine-audit-weekly` Sunday 12:00 fire，跑 7-day 跨 routine 窗口 pattern detection + LESSONS-INBOX verification_count 累積。誕生事件：5/16 audit-evolve 輪 manual session 一次性走出完整 audit cycle（21 commit / 4 cross-cutting pattern / 12 LESSONS 候選），證實「cross-routine pattern detection 是飛輪覆蓋不到的 meta-layer」需要獨立 routine。詳見 [ROUTINE-AUDIT-PIPELINE.md](../pipelines/ROUTINE-AUDIT-PIPELINE.md) + [reports/routine-audit-2026-05-16.md §結語](../../reports/routine-audit-2026-05-16.md) 「Routine audit 跟 routine 本身一樣需要 routine 化」。時段選 Sunday noon 避開夜間 chain，讓觀察者 weekend afternoon 讀完 audit report 知道飛輪在做什麼。
+
+⁵ **Music media audit weekly（2026-05-17 拍板）** — `twmd-music-media-audit-weekly` Saturday 10:00 fire，跑 Music / People 音樂類 / 演員 / 運動員 條目 iframe 缺口盤點。誕生事件：5/17 陳建年.md 4 iframe ship + EDITORIAL §媒體編織 升級 + REWRITE Step 4.3.6 canonical 化，audit 跑出 86/87 條目低於 baseline（needs heal 龐大 backlog）。本 routine 純 surface candidates，實際 heal 留給 manual session 或 ARTICLE-INBOX。時段選 Saturday morning 避開 Sunday routine 群（routine-audit / distill / weekly-report 同日），讓觀察者 weekend 前段讀完 audit report 規劃 weekend 補影片時段。Skill canonical: `.claude/skills/twmd-music-media-audit/SKILL.md` + 數據工具 `scripts/tools/music-media-audit.py` + baseline canonical EDITORIAL §媒體編織。
 
 ³ **Babel 義務鐵律 + cron swap（2026-05-13 拍板）** — `twmd-babel-nightly` 從 `0 22` 移到 `0 5` 半夜 chain 尾棒（與 `twmd-maintainer-pm` 對調 — 哲宇「調換順序，maintainer pipeline 之後 babel pipeline」）。同時 SQUEEZE-MODELS-MAX-PIPELINE v3.4 加 §義務：babel 義務是把同步率推到 100%（stale → 0 across 5 langs），不主動 defer / skip / partial / 守 boundary。對應 MANIFESTO §架構解 > 守備修補（第七條進化哲學）— 「每次清一點點就結束」是滿足型守備，「跑到 stale=0 才結束」是架構解。誕生事件：5/9-5/11 三次 babel routine memory 都寫「主動 defer 守 1hr 預算 / 1hr boundary safety」，但 SSOT 線 §不提預算鐵律 v2.0 + 哲宇 5/13 callout「babel 義務就是要提升同步率到 100%, 他每次都調整少少的就自行結束 routine」揭露 self-imposed 1hr satisficing 心態。
 
