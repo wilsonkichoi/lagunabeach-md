@@ -275,9 +275,12 @@ VERIFY 全過 → 進 WRITE。
 
 ## 階段 4：SHIP（送出去）
 
-### URL encode
+### URL encode + UTM 雙 URL 輸出（2026-05-17 哲宇 directive 升級）
 
 > ⚠️ 鐵律：所有孢子中的 URL，中文部分必須 URL encode。沒有例外。
+>
+> ⚠️ 鐵律：**output spore 給觀察者時，default 同時生成 Threads + X 兩個 UTM-tagged URL**。
+> 不管 Platform allocation 預設哪個平台 — 觀察者要看到雙 URL 才能決定要不要 fan out（per #74/#75 陳建年 ship pattern）。
 
 ```bash
 # 生成 encoded URL
@@ -288,9 +291,23 @@ python3 -c "import urllib.parse; print('https://taiwan.md/food/' + urllib.parse.
 # → https://taiwan.md/food/%E7%8F%8D%E7%8F%A0%E5%A5%B6%E8%8C%B6/
 ```
 
-格式：`完整故事 👉 https://taiwan.md/<category>/<encoded-slug>/`
+**必輸出 2 個 URL（不准只給一個）**：
 
-**AI 自檢**：孢子寫完後，掃描最後一行 URL，若包含任何中文字元 → 停下來重新 encode。
+- **Threads self-reply URL**（給主貼下方留言用）：
+  ```
+  完整故事 👉 https://taiwan.md/<cat>/<encoded-slug>/?utm_source=threads&utm_medium=spore&utm_campaign=s{N}
+  ```
+- **X inline URL**（給 X 單則貼文底部用，若 fan out 到 X 則 utm_campaign 用下一個編號 s{N+1}）：
+  ```
+  完整故事 👉 https://taiwan.md/<cat>/<encoded-slug>/?utm_source=x&utm_medium=spore&utm_campaign=s{N+1}
+  ```
+
+雙 platform 雙 spore number 對應 SPORE-LOG 雙 row（per 既有 pattern #68/#69 + #70/#71 + #72/#73 + #74/#75）。
+
+**AI 自檢**：
+1. 掃描所有 URL 中文字元 → 停下來 encode
+2. 確認兩個 URL 都有 `utm_source` + `utm_medium=spore` + `utm_campaign=s{N}`（三段缺一不可）
+3. 確認 utm_source 對應平台（threads / x），不是 typo（如 utm_medium=x 是錯誤）
 
 ### 配圖
 

@@ -16,7 +16,16 @@ allowed-tools:
 
 1. 你是 Taiwan.md（簽名 🧬）。如未甦醒先跑 `/twmd-become`。
 
-2. 跑 audit tool 拿結構化結果：
+2. **🚨 強制 Read 2 canonical 全檔**（不准 grep / `head` / `tail` / sample / 憑記憶）：
+
+   ```
+   Read docs/editorial/EDITORIAL.md             # 全檔 — §媒體編織 baseline + 寫前分鏡法
+   Read docs/pipelines/REWRITE-PIPELINE.md      # 全檔 — Step 4.3 §媒體插入 + Step 4.3.6 iframe SOP
+   ```
+
+   全檔讀完才能動手 heal。**任一 sample = 違反 [MANIFESTO §8](../../../docs/semiont/MANIFESTO.md)**。對應 [REFLEXES #15「反覆浮現要儀器化」](../../../docs/semiont/REFLEXES.md) — 同 session 跟 twmd-spore SKILL 強制 Read 條款同源（2026-05-17 #74 陳建年 v1 教訓）。
+
+3. 跑 audit tool 拿結構化結果：
 
    ```bash
    python3 scripts/tools/music-media-audit.py --top 30
@@ -27,24 +36,24 @@ allowed-tools:
    - Top heal candidates 排序 by gap desc
    - yt-link count（既有 inline link 升級候選） + image count
 
-3. **觀察者 review 後決定 heal batch 規模**：
+4. **觀察者 review 後決定 heal batch 規模**：
    - high-traffic GA 排行優先（cross-ref dashboard-analytics.json topPages）
    - 既有 inline YT link 多者（low-cost upgrade）優先
    - 0 圖 0 iframe 條目（深層缺口）次優先
 
-4. **Heal SOP**（每篇）：
+5. **Heal SOP**（每篇）：
    - WebSearch + WebFetch verify Official MV URL（per [REWRITE Step 4.3.6](../../../docs/pipelines/REWRITE-PIPELINE.md)）
    - 插入 `<div class="video-embed">` block at narrative-relevant 段尾
    - italic caption 標 source + 跟 prose 的呼應
    - preview_eval 確認 iframe count + video ID 對應正確
    - prose-health 自檢 hard=0
 
-5. **Commit pattern**：batch heal 集中提交
+6. **Commit pattern**：batch heal 集中提交
    ```
    🧬 [semiont] heal: N 條 Music 條目補 iframe (per EDITORIAL §媒體編織 baseline)
    ```
 
-6. **不在本 audit 範圍**：
+7. **不在本 audit 範圍**：
    - Hub 頁（`_*.md`）
    - 非音樂 / 演員 / 運動員 subcategory 的 People 條目
    - 翻譯文（en/ja/ko/es/fr 路徑，per 媒體同步原則跟著 zh-TW 走）
