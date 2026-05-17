@@ -311,6 +311,32 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **verification_count**: 1（初次）
 - **severity**: tactical（單次後果 prose-health warn=1 接近 budget 但仍 within score ≤ 3 pass）— 但 structural 因為跨所有 routine ship 都會觸發
 
+### 2026-05-17 twmd-maintainer-am 091722 — twmd-rewrite Stage 5 ship 缺 ci-deploy profile pre-commit gate（5 連 CI fail root cause）
+
+- **原則**：twmd-rewrite routine（含 5-parallel-opus agent worktree pipeline）Stage 5 ship 前沒跑 `article-health.py --profile=ci-deploy`（全 13 plugin + fail_on=hard）。Per profile config 註解，ci-deploy ≠ rewrite-stage-4（後者 checks 子集）。Agent 在 worktree 跑 rewrite-stage-4 PASS 後直 push main，footnote-format hard 才在 `Deploy to GitHub Pages` workflow surface — 但 cron 不會因 CI red 自暫停 → 後續 maintainer-pm (22:07) + babel-nightly 3 commit 全 inherit CI red，5 連 fail 11 hr 才在下一個 maintainer-am cycle 抓到並修。
+- **觸發**：本 cycle 09:00 fire `gh run list` 5 連 failure，dive `gh run view --log-failed` 抓到 2 個 `🔴 footnote-format hard=1`（陳建年 [^25] `[Title](/people/X)` + 數位荒原 [^13] `[...](../../reports/X.md)`） — 兩者都是 2026-05-17 01:00-01:11 `5x-parallel-opus` ship 5 NEW articles 時 agent 自生的內部/相對 link footnote 形式。
+- **可能層級**：操作規則 / SOP 必補
+- **儀器化候選**：兩條路線 A vs B —
+  - A: `twmd-rewrite` Stage 5 ship 前強制跑 `article-health.py --profile=ci-deploy --quiet` block hard，不過 = abort routine 不 push
+  - B: Skill 層 `.husky/pre-commit` hook 對含 `knowledge/**.md` 的 commit 必跑 ci-deploy profile（不限 rewrite routine，所有 routine + observer commit 都過）
+  - C: cron orchestrator 在「下個 routine fire 前」query GitHub Actions latest `Deploy to GitHub Pages` run — 若 failure → skip 該 routine 直到綠（避免 CI red cascade inheritance）
+- **相關**：本 session memory `2026-05-17-091722-twmd-maintainer-am.md` §Beat 5 觀察 1 + commit `9474d19e5` 12 file fix
+- **verification_count**: 1（初次 systematic instance — 過往 CI fail 多是 contributor PR 觸發，這次是 routine 自己 ship 觸發）
+- **severity**: structural（cron 飛輪 ship 邏輯缺最終 gate → CI red cascade 跨 routine 繼承 → 修補窗口拖到 11 hr）
+
+### 2026-05-17 twmd-maintainer-am 091722 — footnote-format validator 拒絕內部 /path markdown link 是策展友善性設計缺口
+
+- **原則**：`scripts/tools/lib/article_health/checks/footnote_format.py` 的 `_RE_CANONICAL` 強制腳註 URL `https?://`；`_RE_PURE_PROSE_FN` 要求第一個非 WS char 非 `[`。等於拒絕 `[^N]: [Title](/people/X) — desc` 這類**內部交叉引用 markdown link** 形式。但內部 link 是 Taiwan.md 標準 navigation 形式（per `feedback_homepage_is_curation.md` 策展 framing + 多篇文章 body 大量使用 `[X](/category/slug)` 跨文章 link）—— 文章 body 接受，腳註層拒絕，是內部不一致。
+- **觸發**：本 cycle 修 5 連 CI fail surface 出來的副 finding — 兩個 hard fail 都是 agent 寫了「合理但 validator 不接受」的腳註形式。surface fix 把 link 拆成 pure-prose `Title（/path）— desc` 形式繞過，但這不是根本 fix。
+- **可能層級**：plugin schema 候選 / EDITORIAL canonical 補強
+- **儀器化候選**：三條路線 A vs B vs C —
+  - A: 改 `_RE_CANONICAL` 接受 URL = `https?://...` OR `/.+` OR `../.+`（內部絕對 + 相對）作為合法 footnote URL — semantic 上交叉引用就是 citation 一種
+  - B: 補 `footnote-format-fix.py --apply` 加 internal-link → pure-prose 的 SAFE transform pattern，讓 fix 工具能自動 heal 不用 manual
+  - C: 明確 EDITORIAL canonical 寫「腳註不該用內部 link，內部交叉引用走 body 文中 inline link」+ 補 plugin 改 message 提示這個 convention
+- **相關**：本 session memory `2026-05-17-091722-twmd-maintainer-am.md` §Stage 3.5 root cause section + REFLEXES #15「反覆浮現要儀器化」候選（agent generation 多次撞同一規則 = 規則需 instrument）
+- **verification_count**: 1（單次 instance — 但 5 agent parallel 都自生內部 link footnote 強烈暗示這是 LLM-as-author 自然會生的形式）
+- **severity**: tactical（單次後果可 surface heal，但若 design 維持原樣會反覆 surface）
+
 ### 2026-05-16 spore-harvest-am 070000 — Routine 飛輪 article framing audit gap（carryover 3 cycle 未解）
 
 - **原則**：Routine 邊界目前覆蓋三件事：(a) harvest 抓資料（spore-harvest）；(b) 處理 PR / Issue（maintainer）；(c) 寫新文章 / 進化舊文章（rewrite-daily / evolve）。但 reader critique 透過 spore 累積進來、暗示 article 本體 framing 需要 audit / patch 時，沒有對應 routine — 三 cycle 路過 maintainer-am 都沒處理 carryover handoff。
