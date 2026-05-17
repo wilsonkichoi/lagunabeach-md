@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-05-16T23:09:38.736828Z",
+  "lastUpdated": "2026-05-17T15:08:41.859989Z",
   "schemaVersion": "1.1",
   "totals": {
-    "count": 73,
+    "count": 77,
     "platforms": {
-      "x": 32,
-      "threads": 37,
+      "x": 34,
+      "threads": 39,
       "other": 4
     },
     "languages": {
-      "zh": 66,
+      "zh": 70,
       "en": 7
     },
     "templates": {
-      "A2": 14,
+      "A2": 18,
       "A": 26,
       "B": 27,
       "other": 2,
@@ -21,6 +21,70 @@
     }
   },
   "recent": [
+    {
+      "n": 77,
+      "date": "2026-05-17",
+      "platform": "x",
+      "article": "臺灣前途決議文",
+      "articleSlug": "臺灣前途決議文",
+      "category": "history",
+      "template": "A2 首尾呼應 + 紀實感重寫 v2",
+      "url": "https://x.com/taiwandotmd/status/2056026352298688935",
+      "highlight": "**同 #76 內容**：X inline URL 版（utm_campaign=s77）。哲宇拍板 Threads + X 雙平台 fan out — 政治/制度題目 + 即時新聞熱度（2026.5.17 賴清德定調台獨意涵當天）。同日 ship 同主題 article (commit `3ec013e64`)，spore v1 → v2 紀實感重寫（觀察者 callout「更有紀實文學故事感」+ A2 首尾呼應強化「兩個字」icon），327 CJK / 5 段 / 段密度 1/65 sweet spot。Blueprint: [SPORE-BLUEPRINTS/76-臺灣前途決議文.md](SPORE-BLUEPRINTS/76-臺灣前途決議文.md)。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
+    {
+      "n": 76,
+      "date": "2026-05-17",
+      "platform": "threads",
+      "article": "臺灣前途決議文",
+      "articleSlug": "臺灣前途決議文",
+      "category": "history",
+      "template": "A2 首尾呼應 + 紀實感重寫 v2",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYca5etE80R",
+      "highlight": "**/twmd-spore 直接觸發 + v1→v2 紀實感校準**：開場「1999 年初，民進黨總部，郭正亮接陳水扁透過秘書長游錫堃下的任務⋯⋯他在草稿裡寫下『國號中華民國』」場景 icon → 「林濁水拿過草稿，在『國號』前加了兩個字：『目前』。『扁系很不高興。』林濁水後來在訪談裡回憶」場景化引語 → 1999.5.8 高雄通過 + 2000 陳水扁 39.3% 政黨輪替 → 二十七年後 2026.5.17 賴清德回應川習會「中華民國和中華人民共和國互不隸屬」+ 林濁水臉書「很得宜」三字 → 首尾呼應收「二十七年前他在草稿上加進去的兩個字『目前』，今天仍然是民進黨整個兩岸論述的定錨」。Tier 1b 具體性槓桿（「兩個字」「目前」「扁系很不高興」具體 anchor + 27 年反差 hook）+ 中段結構性題目疊加。prose-health hard=0 / spore-writing hard=0 / 三板斧 不是 0 / —— 0 / 不僅 0 ✅✅✅ / 327 CJK / 5 段（79/91/45/76/36 CJK 長場景+短轉場節奏）/ 段密度 1/65 sweet spot。Fact-check 16 atoms verified（含 v2 強化「林濁水訪談裡回憶」場景化）。配圖 landscape 1600×900 + square 1080×1080（local dev 4321 重生避 prod 404 lag）。Threads 主貼不含 URL，self-reply 加 utm_campaign=s76 連結。**v1→v2 callout polish**：哲宇「孢子可以長一點點還有引人入勝些 更有紀實文學故事感」→ 從 255 CJK / 7 段資訊性開場 → 327 CJK / 5 段場景化 prose（補「擺在桌上的草稿」「拿過草稿」「林濁水後來在訪談裡回憶」具象動作 + A2 首尾呼應「加進去的兩個字」開場↔結尾 icon）。Blueprint: [SPORE-BLUEPRINTS/76-臺灣前途決議文.md](SPORE-BLUEPRINTS/76-臺灣前途決議文.md)。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
+    {
+      "n": 75,
+      "date": "2026-05-17",
+      "platform": "x",
+      "article": "陳建年",
+      "articleSlug": "陳建年",
+      "category": "people",
+      "template": "A2 首尾呼應 + 警察 surprise reveal",
+      "url": "https://x.com/taiwandotmd/status/2055881969976873375",
+      "highlight": "**同 #74 內容**：X inline URL 版（utm_campaign=s75）。哲宇拍板 fan out X — 4 天王 + 警察 dual life 對 X niche 文化／音樂社群可能 resonant，加上原住民語專輯 + 蘭嶼 22 年敘事適合英文圈延伸。Blueprint: [SPORE-BLUEPRINTS/74-陳建年.md](SPORE-BLUEPRINTS/74-陳建年.md)。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
+    {
+      "n": 74,
+      "date": "2026-05-17",
+      "platform": "threads",
+      "article": "陳建年",
+      "articleSlug": "陳建年",
+      "category": "people",
+      "template": "A2 首尾呼應 + 警察 surprise reveal",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYbYsqOldKC",
+      "highlight": "**/twmd-spore 直接觸發**（per 2026-05-17 哲宇 directive 拆 PICK 回填 gate decoupled + 完整走 VERIFY 7 階段 blueprint v2）：開場「關山派出所下班後，一個 30 來歲的警察坐在宿舍彈吉他寫歌」icon → 1999《海洋》錄音記事「把器材搬回台東，連杉原海邊午後浪聲都收進去」→ Tier 1a 高光「國父紀念館金曲提名 張學友／王力宏／陶喆／庾澄慶＋一個從台東來的卑南族警察。結果是他拿到」→ 反向選擇 + 22 年跨度「得獎五個月後申請調蘭嶼，一待到退休。22 年後《pongso no Tao》再拿原住民語專輯」→ 首尾呼應 reveal「他叫陳建年。外公陸森寶留下〈美麗的稻穗〉，孫子戴上警徽寫海洋」。Tier 1a 知名度槓桿（4 天王國民級）+ Tier 1b 具體性槓桿（關山派出所 / 杉原浪聲 / 蘭嶼 22 年）混合，預期 D+7 Threads 10-30K views。spore-writing hard=0 warn=0 / prose-health hard=0 / 三板斧 不是 0 / —— 0 / 不僅 0 ✅✅✅。Hard rule a-d 全綠（開場非日期 / 一個主角 / 數字 4 / 結尾呼應）。12 條事實 claim 全對齊 knowledge/People/陳建年.md (PR 4 iframe 同日 ship) + footnote 三源驗證。配圖 landscape 1600×900 + square 1080×1080。哲宇 callout v1 跳 VERIFY 7 階段觸發 SKILL + PIPELINE 強制 Read hard gate 同 session ship (commit `90665f952`)。Blueprint: [SPORE-BLUEPRINTS/74-陳建年.md](SPORE-BLUEPRINTS/74-陳建年.md)。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
     {
       "n": 73,
       "date": "2026-05-12",
@@ -33,70 +97,6 @@
       "highlight": "**同 #72 內容**：X inline URL 版（utm_campaign=s73）。哲宇拍板 override default「Threads only」allocation，X 也發 — 商業財經 / 公司治理 angle 對 X 投資族群可能 resonant，加上掏空案 + 4.93 億賣地撐 EPS 雙重 reveal 對 X niche 商業社群有 reach 潛力。Blueprint: [SPORE-BLUEPRINTS/72-蘋果西打.md](SPORE-BLUEPRINTS/72-蘋果西打.md)。",
       "views_7d": null,
       "views_latest": 18900,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": true
-    },
-    {
-      "n": 72,
-      "date": "2026-05-12",
-      "platform": "threads",
-      "article": "蘋果西打",
-      "articleSlug": "蘋果西打",
-      "category": "food",
-      "template": "A2 首尾呼應 + 60 年商標借殼反轉",
-      "url": "https://www.threads.com/@taiwandotmd/post/DYPI9W0kyPP",
-      "highlight": "**接續 PR #1041 蘋果西打 EVOLVE（commit `e10215bc7`，60 年完整記憶 + 10 紅旗事實校正 + 餐桌文化擴展 + plugin 雙修）+ /twmd-spore directive ship**：開場「熱炒店冰箱裡 60 年沒換過位置的那瓶金黃氣泡飲，它的商標前 30 年從來不在台灣手上」→ 1965 李鴻略 + 美國謝斯尼斯 + 屈臣氏 + 1979 台美斷交「美國」二字消失 + 商標流轉（美國果是高 → 賴比瑞亞商果是高國際）→ 1995 孫幼英 80 萬美元贖回 + 「考量大飲營收高達 95% 為販售蘋果西打」verbatim → 24 年後她從自己救回來的公司掏走 1.08 億 reverse reveal → 收尾 KTV 玫瑰紅 + 阿嬤辦桌 + 圭賢度小月 verbatim「好好喝喔，這個韓國沒有對吧？」+ 「一瓶氣泡飲，60 年裡把台灣的金融、外交、食安、文化都壓進同一個塑膠瓶」list-summary。Tier 1b 具體性槓桿（熱炒店冰箱 anchor + 60 年弧線）+ 中段結構性題目（商業治理）疊加，預期 D+7 10K-65K。spore-writing hard=0 / warn=0 / 三板斧 不是 0 / —— 0 / 不僅 0 ✅✅✅。9 條 fact 全來自 article 26 footnote 既有 verify。Threads 主貼不含 URL，self-reply 加 utm_campaign=s72 連結。配圖 landscape 1600×900 + square 1080×1080。Blueprint: [SPORE-BLUEPRINTS/72-蘋果西打.md](SPORE-BLUEPRINTS/72-蘋果西打.md)。",
-      "views_7d": null,
-      "views_latest": 4694,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": true
-    },
-    {
-      "n": 71,
-      "date": "2026-05-10",
-      "platform": "x",
-      "article": "台灣無人機產業",
-      "articleSlug": "台灣無人機產業",
-      "category": "technology",
-      "template": "A2 首尾呼應 + 規模反差雙 reveal",
-      "url": "https://x.com/taiwandotmd/status/2053101189034860856",
-      "highlight": "**同 #70 內容**：X inline URL 版（utm_campaign=s71）。Tier 1b 具體性槓桿（玩具飛機 → 五角大廈）+ 中段結構性題目（規模反差）疊加。預期 D+7 15K-30K Threads（X niche 軍工/國防社群）。Blueprint: [SPORE-BLUEPRINTS/70-台灣無人機產業.md](SPORE-BLUEPRINTS/70-台灣無人機產業.md)。",
-      "views_7d": null,
-      "views_latest": null,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": false
-    },
-    {
-      "n": 70,
-      "date": "2026-05-10",
-      "platform": "threads",
-      "article": "台灣無人機產業",
-      "articleSlug": "台灣無人機產業",
-      "category": "technology",
-      "template": "A2 首尾呼應 + 規模反差雙 reveal",
-      "url": "https://www.threads.com/@taiwandotmd/post/DYKW0PmkzbM",
-      "highlight": "**接續 PR #996 EVOLVE 後半部完整重寫（4520 CJK chars + 21 footnotes + 4 個新節）+ 3-Angle 提案觀察者拍板 Angle A**：1979 雷虎台中玩具飛機 → 2025-09-21 Overkill 通過 Blue UAS 開場 → 39+165 中只有 1 reveal → 烏克蘭 2025 月產 20 萬 vs 台灣 1.25 兆 8 年 21 萬 = 一個半月產量數字反差 → 雷虎月產 1,000 架 vs 寶山 2 奈米 5 萬片晶圓哲學對位收尾。Tier 1b 具體性槓桿（玩具飛機 anchor 46 年弧線）+ 中段結構性題目（規模反差 + 半導體 vs 無人機產業哲學）雙力疊加。spore-writing hard=0 / prose-health hard=0 score=2 / 三板斧 不是 0 / —— 0 / 不僅 0 ✅✅✅。320 CJK / 5 段 / 段密度 1/64 sweet spot。Threads 主貼不含 URL，self-reply 加 utm_campaign=s70 連結。配圖 landscape + square（prod URL deploy 後重產，抓到 EVOLVE 新 title「從台中玩具飛機到藍色清單，一張入場券給了雷虎」）。EVOLVE 鏈：PR #988 Blue UAS section + #994 title+desc 升級 + #996 後半部全文重寫 + word-count plugin + prose-health line/前後文 + 本 spore #997。",
-      "views_7d": 5310,
-      "views_latest": 5310,
-      "engagements_7d": 503,
-      "rate_7d": 9.47,
-      "backfilled": true
-    },
-    {
-      "n": 69,
-      "date": "2026-05-09",
-      "platform": "x",
-      "article": "台灣企業：台積電",
-      "articleSlug": "台灣企業：台積電",
-      "category": "economy",
-      "template": "A+B 混合紀實版 / Mode D 反轉",
-      "url": "https://x.com/taiwandotmd/status/2053100425730269544",
-      "highlight": "**同日 EVOLVE article ship（PR #943, commit `ea63645e1`）+ A+B 混合紀實版**：1985-09-04 李國鼎見 14 天提案「共同晶圓廠」+ 1987 創立「我只想要活下去」 verbatim → 38 年後鄭家祖墳 1844（道光二十四年）4000 坪為 2 奈米廠遷葬「滅村」邱振瑋議員 verbatim + 同時段 2025-03-03 白宮川普「Right now, he's the most important man in the room」 verbatim → Mode D 結尾「56 歲那個人沒在那個房間了」反轉。Tier 1a 雙人物槓桿（張忠謀國民級 + 川普國際 newsworthy）。**v3.2 → v3.3 canonical evolution**：哲宇兩輪 redirect — round 1「不要斷斷續續，要紀實感」（推 v7 連貫 prose 3 段 312 字）→ round 2 ship 後實戰「分成 4-5 個段落比較健康好閱讀」（v3.3 sweet spot 校準：300 字 4-5 段 / 每段 50-80 字 / 段密度 1/60 ~ 1/80，避免 monolithic 太擠）。SPORE-WRITING §紀實感 vs 短句斷續 同 PR ship。spore-writing hard=0 / prose-health hard=0 / 三板斧 不是 0 / —— 1 / 不僅 0 ✅。X inline URL 版（utm_campaign=s69）。Blueprint: [SPORE-BLUEPRINTS/68-台灣企業：台積電.md](SPORE-BLUEPRINTS/68-台灣企業：台積電.md)。",
-      "views_7d": 6,
-      "views_latest": 6,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -233,6 +233,38 @@
       "publishedDays": 5,
       "status": "waiting",
       "url": "https://www.threads.com/@taiwandotmd/post/DYPI9W0kyPP"
+    },
+    {
+      "n": 77,
+      "article": "臺灣前途決議文",
+      "platform": "x",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://x.com/taiwandotmd/status/2056026352298688935"
+    },
+    {
+      "n": 76,
+      "article": "臺灣前途決議文",
+      "platform": "threads",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYca5etE80R"
+    },
+    {
+      "n": 75,
+      "article": "陳建年",
+      "platform": "x",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://x.com/taiwandotmd/status/2055881969976873375"
+    },
+    {
+      "n": 74,
+      "article": "陳建年",
+      "platform": "threads",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYbYsqOldKC"
     }
   ],
   "noUrlHistorical": [
@@ -303,11 +335,51 @@
     },
     {
       "week": "2026-W20",
-      "published": 2,
+      "published": 6,
       "avgViews": 11797
     }
   ],
   "harvestStatus": [
+    {
+      "n": 77,
+      "article": "臺灣前途決議文",
+      "platform": "x",
+      "publishDate": "2026-05-17",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
+    {
+      "n": 76,
+      "article": "臺灣前途決議文",
+      "platform": "threads",
+      "publishDate": "2026-05-17",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
+    {
+      "n": 75,
+      "article": "陳建年",
+      "platform": "x",
+      "publishDate": "2026-05-17",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
+    {
+      "n": 74,
+      "article": "陳建年",
+      "platform": "threads",
+      "publishDate": "2026-05-17",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
     {
       "n": 73,
       "article": "蘋果西打",

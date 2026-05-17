@@ -1,14 +1,9 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-05-16T22:12:24Z",
-  "total": 704,
-  "flagged": 349,
+  "timestamp": "2026-05-17T15:08:43Z",
+  "total": 706,
+  "flagged": 310,
   "files": [
-    {
-      "file": "music/台灣KTV文化.md",
-      "score": 7,
-      "reasons": "空洞詞10個; 連續bullet5行; 後段清單堆砌63%; 稀薄段落×3"
-    },
     {
       "file": "music/拍謝少年.md",
       "score": 5,
@@ -20,19 +15,14 @@
       "reasons": "教科書開場; 稀薄段落×4"
     },
     {
-      "file": "music/台灣客家音樂.md",
-      "score": 6,
-      "reasons": "年份4個; 未人工審核; 教科書開場; 稀薄段落×4"
-    },
-    {
       "file": "music/台灣民謠與歌謠.md",
       "score": 6,
       "reasons": "年份4個; 僅1個URL; 未人工審核; 塑膠句1個; 破折號10個"
     },
     {
       "file": "music/台灣嘻哈與饒舌發展.md",
-      "score": 8,
-      "reasons": "空洞詞18個; 連續bullet5行; 後段清單堆砌52%; 稀薄段落×4"
+      "score": 4,
+      "reasons": "空洞詞17個; 稀薄段落×1"
     },
     {
       "file": "music/流行音樂與金曲獎.md",
@@ -48,16 +38,6 @@
       "file": "music/小虎隊.md",
       "score": 10,
       "reasons": "年份僅0個; 未人工審核; 塑膠句1個; 後段清單堆砌50%; 稀薄段落×2"
-    },
-    {
-      "file": "music/台灣搖滾樂發展史.md",
-      "score": 5,
-      "reasons": "空洞詞7個; 未人工審核; 塑膠句1個; 稀薄段落×5"
-    },
-    {
-      "file": "music/台灣原住民音樂傳統.md",
-      "score": 4,
-      "reasons": "未人工審核; 連續bullet5行; 稀薄段落×2"
     },
     {
       "file": "music/台灣聲音地景.md",
@@ -76,8 +56,8 @@
     },
     {
       "file": "economy/台灣產業轉型升級.md",
-      "score": 12,
-      "reasons": "空洞詞7個; 未人工審核; 連續bullet4行; 塑膠句1個; 破折號7個; 後段清單堆砌56%; 稀薄段落×8; 品質衰退前7%後3%; 引用荒漠(零腳註)"
+      "score": 5,
+      "reasons": "空洞詞12個; 塑膠句1個; 稀薄段落×6"
     },
     {
       "file": "economy/台灣動畫代工.md",
@@ -108,11 +88,6 @@
       "file": "economy/台灣企業：大立光電.md",
       "score": 11,
       "reasons": "年份2個; 空洞詞11個; 未人工審核; 塑膠句6個; 破折號6個; 套路結尾; 稀薄段落×1"
-    },
-    {
-      "file": "economy/新創生態系.md",
-      "score": 4,
-      "reasons": "空洞詞9個; 稀薄段落×3"
     },
     {
       "file": "economy/台灣金融科技發展.md",
@@ -218,11 +193,6 @@
       "file": "technology/IG.md",
       "score": 4,
       "reasons": "未人工審核; 破折號5個; 稀薄段落×4"
-    },
-    {
-      "file": "technology/台灣人工智慧實驗室.md",
-      "score": 8,
-      "reasons": "年份僅1個; 未人工審核; 後段清單堆砌33%; 稀薄段落×2"
     },
     {
       "file": "technology/台灣數位影像與動畫產業.md",
@@ -333,11 +303,6 @@
       "file": "art/台灣策展人與藝術文化建構.md",
       "score": 10,
       "reasons": "空洞詞12個; 未人工審核; 連續bullet4行; 塑膠句1個; 後段清單堆砌42%; 稀薄段落×3"
-    },
-    {
-      "file": "art/台灣水彩畫的百年流變.md",
-      "score": 6,
-      "reasons": "空洞詞5個; 未人工審核; 後段清單堆砌50%; 稀薄段落×1"
     },
     {
       "file": "art/台灣建築.md",
@@ -526,8 +491,8 @@
     },
     {
       "file": "society/民主制度.md",
-      "score": 9,
-      "reasons": "空洞詞7個; 未人工審核; 連續bullet6行; 塑膠句1個; 教科書開場; 稀薄段落×6"
+      "score": 4,
+      "reasons": "空洞詞8個; 塑膠句1個; 稀薄段落×8"
     },
     {
       "file": "society/2026鄭習會與國共十年再會.md",
@@ -650,11 +615,6 @@
       "reasons": "未人工審核; 塑膠句3個; 後段清單堆砌63%; 稀薄段落×3; 品質衰退前13%後4%; 無腳註"
     },
     {
-      "file": "about/看見台灣引言集.md",
-      "score": 7,
-      "reasons": "無URL來源; 未人工審核; 稀薄段落×8; 無腳註"
-    },
-    {
       "file": "nature/台灣森林生態系.md",
       "score": 10,
       "reasons": "空洞詞7個; 塑膠句5個; 破折號16個; 稀薄段落×2; 無腳註"
@@ -725,16 +685,6 @@
       "reasons": "空洞詞8個; 未人工審核; 塑膠句2個; 破折號10個; 套路結尾; 稀薄段落×7"
     },
     {
-      "file": "people/李昂.md",
-      "score": 7,
-      "reasons": "年份僅0個; 未人工審核; 破折號10個; 稀薄段落×1"
-    },
-    {
-      "file": "people/陳建仁.md",
-      "score": 4,
-      "reasons": "空洞詞6個; 未人工審核; 破折號15個"
-    },
-    {
       "file": "people/吳寶春.md",
       "score": 4,
       "reasons": "未人工審核; 塑膠句1個; 破折號7個; 稀薄段落×1"
@@ -746,8 +696,8 @@
     },
     {
       "file": "people/林百里.md",
-      "score": 6,
-      "reasons": "年份僅0個; 未人工審核; 破折號6個; 稀薄段落×1"
+      "score": 4,
+      "reasons": "年份僅0個; 稀薄段落×1"
     },
     {
       "file": "people/康士坦的變化球.md",
@@ -790,11 +740,6 @@
       "reasons": "空洞詞9個; 未人工審核; 連續bullet6行"
     },
     {
-      "file": "people/羅大佑.md",
-      "score": 5,
-      "reasons": "未人工審核; 連續bullet4行; 破折號10個; 稀薄段落×1"
-    },
-    {
       "file": "people/安芝儇.md",
       "score": 4,
       "reasons": "未人工審核; 塑膠句1個; 稀薄段落×4"
@@ -815,34 +760,14 @@
       "reasons": "未人工審核; 塑膠句3個; 破折號8個"
     },
     {
-      "file": "people/陳昇.md",
-      "score": 8,
-      "reasons": "年份僅0個; 空洞詞6個; 未人工審核; 破折號23個"
-    },
-    {
-      "file": "people/白先勇.md",
-      "score": 6,
-      "reasons": "年份3個; 空洞詞6個; 未人工審核; 塑膠句1個; 破折號10個"
-    },
-    {
       "file": "people/邊荷律.md",
       "score": 4,
       "reasons": "年份4個; 未人工審核; 稀薄段落×3"
     },
     {
-      "file": "people/許芳宜.md",
-      "score": 6,
-      "reasons": "年份3個; 空洞詞6個; 未人工審核; 破折號13個; 稀薄段落×1"
-    },
-    {
       "file": "people/馬偕.md",
       "score": 5,
       "reasons": "塑膠句4個; 後段清單堆砌42%"
-    },
-    {
-      "file": "people/幾米.md",
-      "score": 5,
-      "reasons": "未人工審核; 破折號15個; 稀薄段落×4"
     },
     {
       "file": "people/草東沒有派對.md",
@@ -855,24 +780,9 @@
       "reasons": "空洞詞6個; 塑膠句3個; 破折號8個; 套路結尾; 稀薄段落×1"
     },
     {
-      "file": "people/紀政.md",
-      "score": 4,
-      "reasons": "年份2個; 未人工審核; 破折號10個"
-    },
-    {
-      "file": "people/李宗盛.md",
-      "score": 4,
-      "reasons": "年份2個; 未人工審核; 稀薄段落×4"
-    },
-    {
       "file": "people/朴星垠.md",
       "score": 4,
       "reasons": "未人工審核; 塑膠句2個; 稀薄段落×3"
-    },
-    {
-      "file": "people/朱天文.md",
-      "score": 7,
-      "reasons": "年份僅0個; 未人工審核; 破折號6個; 稀薄段落×2"
     },
     {
       "file": "people/許倬雲.md",
@@ -888,11 +798,6 @@
       "file": "people/李晧禎.md",
       "score": 4,
       "reasons": "未人工審核; 塑膠句1個; 稀薄段落×4"
-    },
-    {
-      "file": "people/劉德音.md",
-      "score": 6,
-      "reasons": "空洞詞7個; 未人工審核; 破折號9個; 稀薄段落×3"
     },
     {
       "file": "people/吳百福.md",
@@ -925,11 +830,6 @@
       "reasons": "未人工審核; 連續bullet4行; 塑膠句2個; 稀薄段落×1"
     },
     {
-      "file": "people/郭泓志.md",
-      "score": 5,
-      "reasons": "年份3個; 未人工審核; 塑膠句1個; 破折號14個"
-    },
-    {
       "file": "people/曾雅妮.md",
       "score": 5,
       "reasons": "空洞詞5個; 未人工審核; 破折號13個; 無腳註"
@@ -950,16 +850,6 @@
       "reasons": "年份2個; 未人工審核; 後段清單堆砌31%; 稀薄段落×1"
     },
     {
-      "file": "people/謝淑薇.md",
-      "score": 6,
-      "reasons": "未人工審核; 塑膠句1個; 破折號10個; 稀薄段落×2"
-    },
-    {
-      "file": "people/張惠妹.md",
-      "score": 5,
-      "reasons": "年份3個; 未人工審核; 破折號6個; 稀薄段落×3"
-    },
-    {
       "file": "people/朱宗慶.md",
       "score": 6,
       "reasons": "空洞詞18個; 塑膠句6個"
@@ -975,24 +865,19 @@
       "reasons": "空洞詞7個; 未人工審核; 塑膠句3個; 破折號9個"
     },
     {
-      "file": "people/魏德聖.md",
-      "score": 7,
-      "reasons": "年份僅1個; 未人工審核; 破折號10個; 稀薄段落×1"
-    },
-    {
       "file": "people/魏如萱.md",
       "score": 4,
       "reasons": "塑膠句1個; 破折號34個"
     },
     {
-      "file": "people/施明德.md",
-      "score": 5,
-      "reasons": "未人工審核; 塑膠句3個; 稀薄段落×4"
-    },
-    {
       "file": "people/蔡阿嘎.md",
       "score": 4,
       "reasons": "未人工審核; 塑膠句1個; 教科書開場"
+    },
+    {
+      "file": "people/三毛.md",
+      "score": 5,
+      "reasons": "未人工審核; 塑膠句1個; 破折號22個"
     },
     {
       "file": "people/Howhow.md",
@@ -1015,19 +900,9 @@
       "reasons": "年份3個; 未人工審核; 後段清單堆砌33%; 稀薄段落×7"
     },
     {
-      "file": "people/楊傳廣.md",
-      "score": 5,
-      "reasons": "年份2個; 未人工審核; 破折號15個; 稀薄段落×1"
-    },
-    {
       "file": "people/江振誠.md",
       "score": 9,
       "reasons": "未人工審核; 塑膠句1個; 破折號13個; 後段清單堆砌38%; 稀薄段落×2; 無腳註"
-    },
-    {
-      "file": "people/林俊傑.md",
-      "score": 4,
-      "reasons": "未人工審核; 塑膠句1個; 稀薄段落×4"
     },
     {
       "file": "people/蔡健雅.md",
@@ -1040,14 +915,9 @@
       "reasons": "未人工審核; 塑膠句1個; 後段清單堆砌43%"
     },
     {
-      "file": "people/簡立峰.md",
-      "score": 6,
-      "reasons": "年份3個; 未人工審核; 破折號13個; 稀薄段落×3"
-    },
-    {
       "file": "people/鍾理和.md",
-      "score": 7,
-      "reasons": "年份2個; 空洞詞6個; 未人工審核; 塑膠句2個; 破折號7個; 稀薄段落×2"
+      "score": 4,
+      "reasons": "年份2個; 空洞詞6個; 稀薄段落×2"
     },
     {
       "file": "people/黃國珍.md",
@@ -1076,8 +946,8 @@
     },
     {
       "file": "people/明華園.md",
-      "score": 7,
-      "reasons": "年份僅0個; 未人工審核; 破折號10個; 稀薄段落×1"
+      "score": 4,
+      "reasons": "年份僅0個; 稀薄段落×1"
     },
     {
       "file": "people/蔡依林.md",
@@ -1085,19 +955,9 @@
       "reasons": "未人工審核; 破折號11個; 稀薄段落×2; 無腳註"
     },
     {
-      "file": "people/鄧雨賢.md",
-      "score": 6,
-      "reasons": "年份4個; 空洞詞5個; 未人工審核; 破折號11個; 稀薄段落×1"
-    },
-    {
       "file": "people/伍佰.md",
-      "score": 7,
-      "reasons": "年份2個; 空洞詞6個; 未人工審核; 破折號12個; 稀薄段落×2"
-    },
-    {
-      "file": "people/朱經武.md",
       "score": 4,
-      "reasons": "未人工審核; 破折號12個; 稀薄段落×1"
+      "reasons": "年份3個; 空洞詞6個; 稀薄段落×2"
     },
     {
       "file": "people/陳士駿.md",
@@ -1110,11 +970,6 @@
       "reasons": "後段清單堆砌37%; 品質衰退前34%後18%; 無腳註"
     },
     {
-      "file": "people/鄭兆村.md",
-      "score": 6,
-      "reasons": "未人工審核; 塑膠句1個; 破折號12個; 稀薄段落×5"
-    },
-    {
       "file": "people/李珠珢.md",
       "score": 5,
       "reasons": "未人工審核; 塑膠句3個; 稀薄段落×6"
@@ -1125,19 +980,9 @@
       "reasons": "年份2個; 未人工審核; 後段清單堆砌50%; 稀薄段落×1"
     },
     {
-      "file": "people/魏哲家.md",
-      "score": 5,
-      "reasons": "年份3個; 未人工審核; 破折號6個; 稀薄段落×3"
-    },
-    {
-      "file": "people/葉國一.md",
-      "score": 9,
-      "reasons": "年份僅1個; 空洞詞5個; 未人工審核; 塑膠句1個; 破折號19個"
-    },
-    {
       "file": "people/麟洋配.md",
-      "score": 8,
-      "reasons": "年份4個; 空洞詞13個; 連續bullet4行; 塑膠句1個; 破折號7個; 稀薄段落×2"
+      "score": 4,
+      "reasons": "空洞詞14個; 塑膠句1個; 稀薄段落×1"
     },
     {
       "file": "people/金針菇.md",
@@ -1153,11 +998,6 @@
       "file": "people/李雅英.md",
       "score": 5,
       "reasons": "年份3個; 未人工審核; 塑膠句1個; 稀薄段落×4"
-    },
-    {
-      "file": "people/王永慶.md",
-      "score": 8,
-      "reasons": "年份僅1個; 未人工審核; 破折號16個; 稀薄段落×1"
     },
     {
       "file": "people/施振榮.md",
@@ -1190,11 +1030,6 @@
       "reasons": "破折號21個; 無腳註"
     },
     {
-      "file": "people/黃春明.md",
-      "score": 8,
-      "reasons": "年份僅1個; 未人工審核; 破折號13個; 稀薄段落×2"
-    },
-    {
       "file": "people/洪醒夫.md",
       "score": 6,
       "reasons": "年份僅0個; 後段清單堆砌50%"
@@ -1203,16 +1038,6 @@
       "file": "people/徐熙媛.md",
       "score": 5,
       "reasons": "年份4個; 未人工審核; 破折號6個; 稀薄段落×4"
-    },
-    {
-      "file": "people/龍應台.md",
-      "score": 5,
-      "reasons": "空洞詞6個; 未人工審核; 塑膠句2個; 破折號9個"
-    },
-    {
-      "file": "people/王建民.md",
-      "score": 7,
-      "reasons": "空洞詞6個; 未人工審核; 破折號20個; 稀薄段落×7"
     },
     {
       "file": "people/廖鴻基.md",
@@ -1225,29 +1050,14 @@
       "reasons": "年份僅0個; 空洞詞10個; 塑膠句2個; 稀薄段落×5"
     },
     {
-      "file": "people/郭台銘.md",
-      "score": 10,
-      "reasons": "年份僅1個; 未人工審核; 塑膠句1個; 破折號16個; 稀薄段落×4"
-    },
-    {
       "file": "people/許文龍.md",
-      "score": 7,
-      "reasons": "年份僅0個; 未人工審核; 破折號7個; 稀薄段落×4"
+      "score": 5,
+      "reasons": "年份僅1個; 稀薄段落×4"
     },
     {
       "file": "people/高俊明.md",
       "score": 4,
       "reasons": "未人工審核; 塑膠句1個; 破折號10個"
-    },
-    {
-      "file": "people/張明正.md",
-      "score": 8,
-      "reasons": "年份僅1個; 未人工審核; 破折號10個; 稀薄段落×2"
-    },
-    {
-      "file": "people/童子賢.md",
-      "score": 8,
-      "reasons": "年份2個; 空洞詞7個; 未人工審核; 塑膠句1個; 破折號19個; 稀薄段落×1"
     },
     {
       "file": "people/蕭敬騰.md",
@@ -1473,11 +1283,6 @@
       "file": "history/台灣鐵道史.md",
       "score": 6,
       "reasons": "未人工審核; 破折號36個; 後段清單堆砌31%"
-    },
-    {
-      "file": "history/史前時代與原住民.md",
-      "score": 4,
-      "reasons": "年份2個; 未人工審核; 稀薄段落×3"
     },
     {
       "file": "history/台灣海洋貿易史.md",

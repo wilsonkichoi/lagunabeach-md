@@ -1,8 +1,8 @@
 {
-  "totalArticles": 4290,
+  "totalArticles": 4292,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 5376,
+  "totalTags": 5586,
   "categories": [
     {
       "name": "es",
@@ -26,7 +26,7 @@
     },
     {
       "name": "History",
-      "count": 40
+      "count": 41
     },
     {
       "name": "Society",
@@ -38,7 +38,7 @@
     },
     {
       "name": "People",
-      "count": 218
+      "count": 219
     },
     {
       "name": "Music",
@@ -92,14 +92,30 @@
     },
     {
       "name": "人物",
-      "count": 64
+      "count": 63
     },
     {
       "name": "企業",
       "count": 60
     },
     {
+      "name": "科技與企業",
+      "count": 34
+    },
+    {
       "name": "ODM",
+      "count": 31
+    },
+    {
+      "name": "文學",
+      "count": 26
+    },
+    {
+      "name": "體育",
+      "count": 26
+    },
+    {
+      "name": "半導體",
       "count": 26
     },
     {
@@ -111,19 +127,27 @@
       "count": 25
     },
     {
-      "name": "文學",
-      "count": 24
-    },
-    {
-      "name": "體育",
-      "count": 24
-    },
-    {
       "name": "金曲獎",
+      "count": 25
+    },
+    {
+      "name": "原住民",
+      "count": 24
+    },
+    {
+      "name": "民主化",
+      "count": 23
+    },
+    {
+      "name": "文化",
       "count": 23
     },
     {
       "name": "AI",
+      "count": 23
+    },
+    {
+      "name": "高雄",
       "count": 23
     },
     {
@@ -135,46 +159,22 @@
       "count": 22
     },
     {
-      "name": "民主化",
-      "count": 22
-    },
-    {
-      "name": "半導體",
-      "count": 22
-    },
-    {
-      "name": "原住民",
-      "count": 22
-    },
-    {
-      "name": "文化",
+      "name": "音樂",
       "count": 22
     },
     {
       "name": "인물",
       "count": 22
-    },
-    {
-      "name": "音樂",
-      "count": 21
-    },
-    {
-      "name": "政治人物",
-      "count": 21
-    },
-    {
-      "name": "歷史",
-      "count": 20
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4290,
+    "zh-TW": 4292,
     "en": 0
   },
-  "lastUpdated": "2026-05-16T22:12:24.098Z",
+  "lastUpdated": "2026-05-17T15:08:42.871Z",
   "stars": 991,
   "forks": 147,
-  "zhPages": 3563,
+  "zhPages": 3565,
   "enPages": 727,
-  "totalPages": 4290
+  "totalPages": 4292
 }

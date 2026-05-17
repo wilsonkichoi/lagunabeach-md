@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T22:12:24.586Z",
+  "lastUpdated": "2026-05-17T15:08:43.262Z",
   "organs": [
     {
       "id": "heart",
@@ -10,9 +10,9 @@
       "score": 90,
       "trend": "up",
       "metrics": {
-        "articlesLast7Days": 73,
-        "articlesLast30Days": 319,
-        "totalArticles": 702
+        "articlesLast7Days": 49,
+        "articlesLast30Days": 320,
+        "totalArticles": 704
       }
     },
     {
@@ -21,13 +21,13 @@
       "nameZh": "免疫系統",
       "metaphor": "品質防禦",
       "emoji": "🛡️",
-      "score": 23,
+      "score": 30,
       "trend": "stable",
       "version": "v1",
       "metrics": {
-        "humanReviewedCount": 164,
-        "totalArticles": 702,
-        "humanReviewedPercent": 23.4
+        "humanReviewedCount": 209,
+        "totalArticles": 704,
+        "humanReviewedPercent": 29.7
       }
     },
     {
@@ -39,7 +39,7 @@
       "score": 95,
       "trend": "up",
       "metrics": {
-        "editorialLastModified": "2026-05-13T14:02:23.000Z"
+        "editorialLastModified": "2026-05-17T04:45:17.000Z"
       }
     },
     {
@@ -74,7 +74,7 @@
       "trend": "up",
       "metrics": {
         "recentContributors": 16,
-        "recentSpores": 15,
+        "recentSpores": 19,
         "topPerformerCount": 5,
         "topPerformerAvgViews": 153428,
         "hasBlockbuster": true
@@ -103,7 +103,7 @@
       "trend": "up",
       "metrics": {
         "languageCoverage": {
-          "zh-TW": 702,
+          "zh-TW": 704,
           "en": 723,
           "ja": 713,
           "ko": 708,
@@ -148,9 +148,9 @@
             },
             "articles": {
               "count": 713,
-              "pct": 102
+              "pct": 101
             },
-            "score": 81
+            "score": 80
           },
           "ko": {
             "ui": {

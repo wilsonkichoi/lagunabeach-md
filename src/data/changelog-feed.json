@@ -1,7 +1,247 @@
 {
-  "generatedAt": "2026-05-16T22:12:23.412Z",
+  "generatedAt": "2026-05-17T15:08:41.943Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "1f0b41e4dc606fc54674780c4a046e29ca5feec5",
+      "date": "2026-05-17T23:05:24+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve+ship: REWRITE-PIPELINE v6.1 footnote-format gate + SPORE #76/#77 臺灣前途決議文"
+    },
+    {
+      "hash": "b39ea5529432294cf67e465de275f3c1ca439ad4",
+      "date": "2026-05-17T22:40:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "fix(臺灣前途決議文): footnote-format 29 條全改 canonical em-dash 格式"
+    },
+    {
+      "hash": "3ec013e646d1d05ba112fe8d80290c796d9788aa",
+      "date": "2026-05-17T22:14:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 臺灣前途決議文 — 兩個字「目前」撐了二十七年"
+    },
+    {
+      "hash": "4f6ab5d8686dc05361027ed023e7e25abca4d858",
+      "date": "2026-05-17T22:11:25+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-pm: 空 PR cycle + #851 blocked continues + broken-link 5.72% — 2026-05-17 22:25"
+    },
+    {
+      "hash": "7415dcaae7de798b600be4a8123ffbb3fce7ffe1",
+      "date": "2026-05-17T20:01:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 三毛（陳平）— 把逃離寫成自由的人"
+    },
+    {
+      "hash": "0f8fae0aedf838940fae978eaee14e31cb96e762",
+      "date": "2026-05-17T18:46:40+08:00",
+      "author": "Zaious (@ChronicleCore)",
+      "message": "fix(batch-200): prose-health 全 batch 49 篇 collateral heal + 1 篇 Cardinal oversight 補正 — 回應 #1073 merge comment (#1074)"
+    },
+    {
+      "hash": "300a5ac5c6e80432cd818dbae9b8270e77b25a6d",
+      "date": "2026-05-17T18:16:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] music-media-audit re-run (full) + dashboard-analytics auto-refresh"
+    },
+    {
+      "hash": "7093461376bfe24ed69b56955e1c0a1682ecc522",
+      "date": "2026-05-17T13:38:05+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory+diary: session 130440-manual finale — SPORE #74 callout cascade + 5 處 hard gate"
+    },
+    {
+      "hash": "d7dfee762d0bbde903f16283672d519f44a4f7e4",
+      "date": "2026-05-17T13:29:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve+harvest: SPORE #74/#75 陳建年 ship + PIPELINE 雙 URL 強制 + music-audit hard gate"
+    },
+    {
+      "hash": "90665f95258f41ee8b996d91e968358215d437c5",
+      "date": "2026-05-17T13:23:08+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: twmd-spore SKILL 薄殼重寫 + PIPELINE 強制 Read 4 檔 hard gate"
+    },
+    {
+      "hash": "01e98ee5d6f10e5fac5f74923b210deeb944b236",
+      "date": "2026-05-17T13:20:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: SPORE #74 陳建年 blueprint v2 — 完整走 VERIFY 7 階段補完"
+    },
+    {
+      "hash": "07329706e0444ee3d326e6613e408303e33e94c2",
+      "date": "2026-05-17T13:12:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SPORE #74 陳建年 full ship + PICK gate 回填 decoupled"
+    },
+    {
+      "hash": "72d890348c7a7a709634492712cab503830821ed",
+      "date": "2026-05-17T13:04:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SPORE #74 blueprint — 陳建年 (Tier 1a + 1b 混合)"
+    },
+    {
+      "hash": "db5c6ee8a98d13f50358c0ba89a17b59ccd83835",
+      "date": "2026-05-17T12:53:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: twmd-music-media-audit-weekly routine (Saturday 10:00) + data layer"
+    },
+    {
+      "hash": "61512ff79b8e691d13472c09578b65637e0fcaa7",
+      "date": "2026-05-17T12:48:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: ARTICLE-INBOX P0 — 三毛 NEW (撒哈拉作家 / 〈橄欖樹〉詞人 / 80 年代華語流浪文學指標)"
+    },
+    {
+      "hash": "d4961289fe31090cbb6fac31b3000d6d8952a626",
+      "date": "2026-05-17T12:45:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: EDITORIAL §媒體編織 + REWRITE Step 4.3 升級 — 圖+影片穿插整體敘事流"
+    },
+    {
+      "hash": "20ba0fe907f44d82068abd7f89b9af7daba42845",
+      "date": "2026-05-17T12:40:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: REWRITE-PIPELINE Step 4.3.6 — 影片 iframe 嵌入 convention 升級"
+    },
+    {
+      "hash": "bdd37e7dd4093f6a5f62b77456f7c23316e3b25b",
+      "date": "2026-05-17T12:38:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 陳建年 — 4 首代表作 YouTube official MV iframe 嵌入"
+    },
+    {
+      "hash": "2d9eae965c929a22832ca0ef7750fe06a4e4abe7",
+      "date": "2026-05-17T12:21:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] routine-audit-weekly: diary — 同一條 audit 第二次跑這次是輪子在替我轉"
+    },
+    {
+      "hash": "a368cb085f25af2aa8344a0e9c1aeebeed31f27a",
+      "date": "2026-05-17T12:19:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] routine-audit-weekly: memory — session 120720 收官 weekly cycle 1 首發"
+    },
+    {
+      "hash": "6f00f354655d30786d88ef3d6eb67ecfada5499d",
+      "date": "2026-05-17T12:16:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] routine-audit-weekly: 238 commits / 4 cross-cutting patterns / 2 LESSONS vc+1 — 2026-05-17"
+    },
+    {
+      "hash": "05edb0a758265d858fa85f8953f0274e151480b1",
+      "date": "2026-05-17T09:26:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: memory + LESSONS update — 第二輪 heal (orphan translatedFrom) 補入"
+    },
+    {
+      "hash": "97e6ae04abe66b83652d7e8dd6bde4cebb46b067",
+      "date": "2026-05-17T09:24:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: heal — fix orphan translatedFrom 頼→賴 (lai-ching-te ja)"
+    },
+    {
+      "hash": "376474245ca97137185d7ce99e06c9c987cfa056",
+      "date": "2026-05-17T09:20:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: memory + LESSONS — session 091722 收官，5 連 CI fail 修復後留 2 LESSONS"
+    },
+    {
+      "hash": "9474d19e54b7ea04c0d64ba807fb54032feed57a",
+      "date": "2026-05-17T09:17:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: heal — fix footnote-format hard fail blocking deploy CI"
+    },
+    {
+      "hash": "84bcb2e300227baddd3be3cc4e0dfb6a8e154470",
+      "date": "2026-05-17T08:50:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel-nightly: LESSONS-INBOX 2 entries — diff-patch hash bug vc=4 + sweep-in collision vc=2"
+    },
+    {
+      "hash": "5d883eaf9dc957b384d52a6d49815f82e7180764",
+      "date": "2026-05-17T08:49:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel-nightly: diary — 同一 bug 第二次咬人 + sub-agent scale 驗證 + dormant entropy instance"
+    },
+    {
+      "hash": "a3e92f3541e3b455358d45a5272a4ca577682b43",
+      "date": "2026-05-17T08:46:08+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel-nightly: memory — session 050440 收官 -59% stale + Tier 0a 447 patches + 10 commits"
+    },
+    {
+      "hash": "05dd5e66626011dc1dd9e33b85bbf09ae62bf65a",
+      "date": "2026-05-17T08:41:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: P1 cascade increment 3 — 39 more fresh (B-C in flight)"
+    },
+    {
+      "hash": "bf9127413c8ecf1d22d9a0dc97348c12b43f3cb7",
+      "date": "2026-05-17T07:55:24+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: P1 cascade increment 2 — 11 more fresh (B group mid-flight)"
+    },
+    {
+      "hash": "eff06b2c7c9dc16d4ab58278bb38c70385934a60",
+      "date": "2026-05-17T07:14:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: P1 cascade increment — 25 fresh (A=full + B partial)"
+    },
+    {
+      "hash": "14c4ef910830958c2be541a171a02109379e551b",
+      "date": "2026-05-17T07:12:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: memory — session 070000 收官"
+    },
+    {
+      "hash": "2113b3fe5684ee2fd194f4d146ee97ec7d5a360e",
+      "date": "2026-05-17T07:10:22+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 4 spores — 2026-05-17"
+    },
+    {
+      "hash": "68c3ec3a2c8216a4bb6a9d22a84af0a5a8ccddac",
+      "date": "2026-05-17T06:37:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: Tier 0a final P2 batch + scoped hash repair (114 more files)"
+    },
+    {
+      "hash": "3521fd7713cbfe0c098334e70662ef83c291f447",
+      "date": "2026-05-17T06:34:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: scoped hash repair on 178 agent-body-patched translations"
+    },
+    {
+      "hash": "eba2deef63b0dfba3700225060bb3e20ecf24bb7",
+      "date": "2026-05-17T06:33:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: Tier 0a diff-patch round 2-3 — 247 P2 patches (en 67 + ja 50 + ko 50 + es 50 + fr 50)"
+    },
+    {
+      "hash": "9fb79b0a50e25595531c218bfde60cb8e4bcff07",
+      "date": "2026-05-17T06:17:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 8 trailing P2 patches (post-cf90406b3) + translations.json sync"
+    },
+    {
+      "hash": "1739eeeb8fc3747c49502441e8d7a23d60d1af4d",
+      "date": "2026-05-17T06:17:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: revert over-aggressive hash repair on 127 untouched files"
+    },
+    {
+      "hash": "2873ab6b8e38ab051389f9988297ed2ed7c97b8a",
+      "date": "2026-05-17T06:14:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: memory — session 061315 收官"
+    },
+    {
+      "hash": "cf90406b373d72353f107d31b57d0d9e9cd3854b",
+      "date": "2026-05-17T06:12:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: dashboard sync — 2026-05-17 06:14"
+    },
     {
       "hash": "d6e87d0756c2f1ad587a640103ea519e9a22da80",
       "date": "2026-05-17T05:31:33+08:00",

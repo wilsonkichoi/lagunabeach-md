@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-17T08:41:14+08:00",
-    "zhCommitHead": "bf9127413",
-    "totalZh": 704,
+    "lastUpdated": "2026-05-17T23:08:40+08:00",
+    "zhCommitHead": "1f0b41e4d",
+    "totalZh": 706,
     "activeLanguages": [
       "en",
       "ja",
@@ -12,51 +12,49 @@
     ],
     "summary": {
       "en": {
-        "total_zh": 704,
-        "fresh": 633,
-        "stale": 71,
-        "metadata_stale": 0,
-        "missing": 0,
+        "total_zh": 706,
+        "fresh": 587,
+        "stale": 113,
+        "metadata_stale": 4,
+        "missing": 2,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 704,
-        "fresh": 622,
-        "stale": 81,
-        "metadata_stale": 0,
-        "missing": 1,
-        "orphan": 1
+        "total_zh": 706,
+        "fresh": 584,
+        "stale": 116,
+        "metadata_stale": 4,
+        "missing": 2,
+        "orphan": 0
       },
       "ko": {
-        "total_zh": 704,
-        "fresh": 620,
-        "stale": 84,
-        "metadata_stale": 0,
-        "missing": 0,
+        "total_zh": 706,
+        "fresh": 581,
+        "stale": 119,
+        "metadata_stale": 4,
+        "missing": 2,
         "orphan": 0
       },
       "es": {
-        "total_zh": 704,
-        "fresh": 627,
-        "stale": 76,
-        "metadata_stale": 0,
-        "missing": 1,
+        "total_zh": 706,
+        "fresh": 585,
+        "stale": 114,
+        "metadata_stale": 4,
+        "missing": 3,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 704,
-        "fresh": 623,
-        "stale": 81,
-        "metadata_stale": 0,
-        "missing": 0,
+        "total_zh": 706,
+        "fresh": 584,
+        "stale": 116,
+        "metadata_stale": 4,
+        "missing": 2,
         "orphan": 0
       }
     },
     "orphans": {
       "en": [],
-      "ja": [
-        "ja/People/lai-ching-te.md"
-      ],
+      "ja": [],
       "ko": [],
       "es": [],
       "fr": []
@@ -65,10 +63,10 @@
   "byArticle": {
     "Music/台灣KTV文化.md": {
       "zh": {
-        "lastCommit": "f712b724",
-        "lastModified": "2026-05-16T10:16:02+08:00",
-        "contentHash": "sha256:b4756e7c500b9394",
-        "bodyHash": "sha256:d8720cc99e6dabf3"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:f8fc5fbf087fa0bc",
+        "bodyHash": "sha256:8fefb63f4d82855d"
       },
       "translations": {
         "en": {
@@ -83,8 +81,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+199 -113"
+          "commitsBehind": 2,
+          "diffSummary": "+64 -337"
         },
         "ja": {
           "path": "ja/Music/ktv-culture.md",
@@ -98,8 +96,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+199 -113"
+          "commitsBehind": 2,
+          "diffSummary": "+64 -337"
         },
         "ko": {
           "path": "ko/Music/ktv-culture.md",
@@ -113,8 +111,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+199 -113"
+          "commitsBehind": 2,
+          "diffSummary": "+64 -337"
         },
         "es": {
           "path": "es/Music/ktv-culture.md",
@@ -128,8 +126,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+199 -113"
+          "commitsBehind": 2,
+          "diffSummary": "+64 -337"
         },
         "fr": {
           "path": "fr/Music/ktv-culture.md",
@@ -143,8 +141,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+199 -113"
+          "commitsBehind": 2,
+          "diffSummary": "+64 -337"
         }
       }
     },
@@ -489,8 +487,8 @@
           "sourceContentHash": "sha256:dd45e3ed9087901c",
           "sourceBodyHash": "sha256:c400829f2d36e900",
           "translatedAt": "2026-05-17T05:34:52+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -685,10 +683,10 @@
     },
     "Music/台灣客家音樂.md": {
       "zh": {
-        "lastCommit": "18157ab5",
-        "lastModified": "2026-05-14T11:04:30+08:00",
-        "contentHash": "sha256:22e97f9490662932",
-        "bodyHash": "sha256:9927771d5f6f1634"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:a1abbcd1a1bce08a",
+        "bodyHash": "sha256:ffa289d8ac5acb30"
       },
       "translations": {
         "en": {
@@ -701,8 +699,10 @@
           "translationLastCommit": "ae469c85",
           "translationLastModified": "2026-05-15T15:38:57+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -6"
         },
         "ja": {
           "path": "ja/Music/taiwan-hakka-music-from-mountain-songs-to-rock.md",
@@ -714,8 +714,10 @@
           "translationLastCommit": "ae469c85",
           "translationLastModified": "2026-05-15T15:38:57+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -6"
         },
         "ko": {
           "path": "ko/Music/taiwan-hakka-music-from-mountain-songs-to-rock.md",
@@ -727,8 +729,10 @@
           "translationLastCommit": "ae469c85",
           "translationLastModified": "2026-05-15T15:38:57+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -6"
         },
         "es": {
           "path": "es/Music/taiwan-hakka-music-from-mountain-songs-to-rock.md",
@@ -740,8 +744,10 @@
           "translationLastCommit": "ae469c85",
           "translationLastModified": "2026-05-15T15:38:57+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -6"
         },
         "fr": {
           "path": "fr/Music/hakka-music.md",
@@ -753,8 +759,10 @@
           "translationLastCommit": "ae469c85",
           "translationLastModified": "2026-05-15T15:38:57+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -6"
         }
       }
     },
@@ -1155,10 +1163,10 @@
     },
     "Music/台灣嘻哈與饒舌發展.md": {
       "zh": {
-        "lastCommit": "f712b724",
-        "lastModified": "2026-05-16T10:16:02+08:00",
-        "contentHash": "sha256:652bfc67516391eb",
-        "bodyHash": "sha256:335c25f53e239997"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:e11c21a45fe57f10",
+        "bodyHash": "sha256:a49d6f675166d3c1"
       },
       "translations": {
         "en": {
@@ -1168,11 +1176,13 @@
           "sourceContentHash": "sha256:652bfc67516391eb",
           "sourceBodyHash": "sha256:335c25f53e239997",
           "translatedAt": "2026-05-17T05:34:48+08:00",
-          "translationLastCommit": "e8dd348a",
-          "translationLastModified": "2026-05-15T13:49:45+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+25 -256"
         },
         "ja": {
           "path": "ja/Music/taiwan-hip-hop-and-rap.md",
@@ -1186,8 +1196,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+149 -149"
+          "commitsBehind": 2,
+          "diffSummary": "+91 -322"
         },
         "ko": {
           "path": "ko/Music/taiwan-hip-hop-and-rap.md",
@@ -1201,8 +1211,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+149 -149"
+          "commitsBehind": 2,
+          "diffSummary": "+91 -322"
         },
         "es": {
           "path": "es/Music/taiwan-hip-hop-and-rap.md",
@@ -1216,8 +1226,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+149 -149"
+          "commitsBehind": 2,
+          "diffSummary": "+91 -322"
         },
         "fr": {
           "path": "fr/Music/hip-hop-rap.md",
@@ -1231,8 +1241,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 3,
-          "diffSummary": "+159 -158"
+          "commitsBehind": 4,
+          "diffSummary": "+95 -325"
         }
       }
     },
@@ -1603,10 +1613,10 @@
     },
     "Music/台灣搖滾樂發展史.md": {
       "zh": {
-        "lastCommit": "f712b724",
-        "lastModified": "2026-05-16T10:16:02+08:00",
-        "contentHash": "sha256:76ee72defbc24071",
-        "bodyHash": "sha256:602f0b6d96a2d67a"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:13d6a9f56e217d21",
+        "bodyHash": "sha256:ad9585c482ee1d52"
       },
       "translations": {
         "en": {
@@ -1621,8 +1631,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+54 -54"
+          "commitsBehind": 2,
+          "diffSummary": "+57 -57"
         },
         "ja": {
           "path": "ja/Music/taiwan-rock-from-underground-to-mainstream.md",
@@ -1636,8 +1646,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+54 -54"
+          "commitsBehind": 2,
+          "diffSummary": "+57 -57"
         },
         "ko": {
           "path": "ko/Music/taiwan-rock-from-underground-to-mainstream.md",
@@ -1651,8 +1661,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+54 -54"
+          "commitsBehind": 2,
+          "diffSummary": "+57 -57"
         },
         "es": {
           "path": "es/Music/taiwan-rock-from-underground-to-mainstream.md",
@@ -1666,8 +1676,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+54 -54"
+          "commitsBehind": 2,
+          "diffSummary": "+57 -57"
         },
         "fr": {
           "path": "fr/Music/taiwan-rock-from-underground-to-mainstream.md",
@@ -1681,8 +1691,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+54 -54"
+          "commitsBehind": 2,
+          "diffSummary": "+57 -57"
         }
       }
     },
@@ -1763,9 +1773,9 @@
     },
     "Music/台灣民歌運動.md": {
       "zh": {
-        "lastCommit": "85926aa3",
-        "lastModified": "2026-05-17T00:31:47+08:00",
-        "contentHash": "sha256:5d4786c0ad5836a7",
+        "lastCommit": "7415dcaa",
+        "lastModified": "2026-05-17T20:01:53+08:00",
+        "contentHash": "sha256:e201829436b891a1",
         "bodyHash": "sha256:61e39c0d29fd318e"
       },
       "translations": {
@@ -1779,8 +1789,10 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ja": {
           "path": "ja/Music/taiwan-campus-folk-song-movement.md",
@@ -1792,8 +1804,10 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ko": {
           "path": "ko/Music/taiwan-campus-folk-song-movement.md",
@@ -1805,8 +1819,10 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "es": {
           "path": "es/Music/taiwan-campus-folk-song-movement.md",
@@ -1818,8 +1834,10 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "fr": {
           "path": "fr/Music/taiwan-campus-folk-song-movement.md",
@@ -1831,8 +1849,10 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         }
       }
     },
@@ -1988,10 +2008,10 @@
     },
     "Music/台灣原住民音樂傳統.md": {
       "zh": {
-        "lastCommit": "f712b724",
-        "lastModified": "2026-05-16T10:16:02+08:00",
-        "contentHash": "sha256:650169e89b146c12",
-        "bodyHash": "sha256:e36393445cb958f3"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:c9aa499e9c84c71a",
+        "bodyHash": "sha256:b2e261c439c4d6f4"
       },
       "translations": {
         "en": {
@@ -2004,8 +2024,10 @@
           "translationLastCommit": "bf912741",
           "translationLastModified": "2026-05-17T07:55:24+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+5 -5"
         },
         "ja": {
           "path": "ja/Music/indigenous-music-traditions.md",
@@ -2017,8 +2039,10 @@
           "translationLastCommit": "bf912741",
           "translationLastModified": "2026-05-17T07:55:24+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+5 -5"
         },
         "ko": {
           "path": "ko/Music/indigenous-music-traditions.md",
@@ -2027,11 +2051,13 @@
           "sourceContentHash": "sha256:650169e89b146c12",
           "sourceBodyHash": "sha256:e36393445cb958f3",
           "translatedAt": "2026-05-17T05:34:52+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+5 -5"
         },
         "es": {
           "path": "es/Music/indigenous-music-traditions.md",
@@ -2043,8 +2069,10 @@
           "translationLastCommit": "bf912741",
           "translationLastModified": "2026-05-17T07:55:24+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+5 -5"
         },
         "fr": {
           "path": "fr/Music/indigenous-music-traditions.md",
@@ -2056,8 +2084,10 @@
           "translationLastCommit": "bf912741",
           "translationLastModified": "2026-05-17T07:55:24+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+5 -5"
         }
       }
     },
@@ -2823,10 +2853,10 @@
     },
     "Economy/台灣產業轉型升級.md": {
       "zh": {
-        "lastCommit": "f712b724",
-        "lastModified": "2026-05-16T10:16:02+08:00",
-        "contentHash": "sha256:4affb5baf55fb635",
-        "bodyHash": "sha256:3d5b6f18581f8cf5"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:aba9e669961d71ce",
+        "bodyHash": "sha256:4a2bc57ff97cab00"
       },
       "translations": {
         "en": {
@@ -2839,8 +2869,10 @@
           "translationLastCommit": "eff06b2c",
           "translationLastModified": "2026-05-17T07:14:31+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+76 -342"
         },
         "ja": {
           "path": "ja/Economy/industrial-transformation-from-manufacturing-to-innovation.md",
@@ -2852,8 +2884,10 @@
           "translationLastCommit": "bf912741",
           "translationLastModified": "2026-05-17T07:55:24+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+76 -342"
         },
         "ko": {
           "path": "ko/Economy/industrial-transformation-from-manufacturing-to-innovation.md",
@@ -2862,11 +2896,13 @@
           "sourceContentHash": "sha256:4affb5baf55fb635",
           "sourceBodyHash": "sha256:3d5b6f18581f8cf5",
           "translatedAt": "2026-05-17T05:34:52+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+76 -342"
         },
         "es": {
           "path": "es/Economy/industrial-transformation-from-manufacturing-to-innovation.md",
@@ -2878,8 +2914,10 @@
           "translationLastCommit": "bf912741",
           "translationLastModified": "2026-05-17T07:55:24+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+76 -342"
         },
         "fr": {
           "path": "fr/Economy/industrial-transformation-from-manufacturing-to-innovation.md",
@@ -2891,8 +2929,10 @@
           "translationLastCommit": "bf912741",
           "translationLastModified": "2026-05-17T07:55:24+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+76 -342"
         }
       }
     },
@@ -3948,10 +3988,10 @@
     },
     "Economy/新創生態系.md": {
       "zh": {
-        "lastCommit": "f712b724",
-        "lastModified": "2026-05-16T10:16:02+08:00",
-        "contentHash": "sha256:0b1dac646dacc00c",
-        "bodyHash": "sha256:890c8ef42365a56a"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:99a2d6fc0bc6d423",
+        "bodyHash": "sha256:07a9caf907dd16bd"
       },
       "translations": {
         "en": {
@@ -3964,8 +4004,10 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+3 -3"
         },
         "ja": {
           "path": "ja/Economy/taiwan-startup-ecosystem-overview.md",
@@ -3977,8 +4019,10 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+3 -3"
         },
         "ko": {
           "path": "ko/Economy/taiwan-startup-ecosystem-overview.md",
@@ -3990,8 +4034,10 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+3 -3"
         },
         "es": {
           "path": "es/Economy/taiwan-startup-ecosystem-overview.md",
@@ -4003,8 +4049,10 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+3 -3"
         },
         "fr": {
           "path": "fr/Economy/taiwan-startup-ecosystem-overview.md",
@@ -4016,8 +4064,10 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+3 -3"
         }
       }
     },
@@ -7428,10 +7478,10 @@
     },
     "Technology/台灣人工智慧實驗室.md": {
       "zh": {
-        "lastCommit": "8eeedef0",
-        "lastModified": "2026-05-09T13:49:21+08:00",
-        "contentHash": "sha256:06ce78bff9bb9fa1",
-        "bodyHash": "sha256:cdbf0550c56aa3cd"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:727118007cb7c2ad",
+        "bodyHash": "sha256:f134440a7453a1a5"
       },
       "translations": {
         "en": {
@@ -7446,8 +7496,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+39 -29"
+          "commitsBehind": 5,
+          "diffSummary": "+36 -31"
         },
         "ja": {
           "path": "ja/Technology/taiwan-ai-labs.md",
@@ -7461,8 +7511,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+39 -29"
+          "commitsBehind": 5,
+          "diffSummary": "+36 -31"
         },
         "ko": {
           "path": "ko/Technology/taiwan-ai-labs.md",
@@ -7476,8 +7526,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+39 -29"
+          "commitsBehind": 5,
+          "diffSummary": "+36 -31"
         },
         "es": {
           "path": "es/Technology/taiwan-ai-labs.md",
@@ -7491,8 +7541,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+39 -29"
+          "commitsBehind": 5,
+          "diffSummary": "+36 -31"
         },
         "fr": {
           "path": "fr/Technology/taiwan-ai-labs.md",
@@ -7506,8 +7556,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+39 -29"
+          "commitsBehind": 5,
+          "diffSummary": "+36 -31"
         }
       }
     },
@@ -10083,10 +10133,10 @@
     },
     "Art/台灣散文.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:d7ef47535e3ba2f2",
-        "bodyHash": "sha256:9cb5aac080fec83b"
+        "lastCommit": "7415dcaa",
+        "lastModified": "2026-05-17T20:01:53+08:00",
+        "contentHash": "sha256:073fd0e58756d2a3",
+        "bodyHash": "sha256:2c9c292fec3fdb34"
       },
       "translations": {
         "en": {
@@ -10099,8 +10149,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -0"
         },
         "ja": {
           "path": "ja/Art/taiwanese-prose.md",
@@ -10112,8 +10164,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -0"
         },
         "ko": {
           "path": "ko/Art/taiwanese-prose.md",
@@ -10125,8 +10179,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -0"
         },
         "es": {
           "path": "es/Art/taiwanese-prose.md",
@@ -10138,8 +10194,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -0"
         },
         "fr": {
           "path": "fr/Art/taiwanese-prose.md",
@@ -10151,8 +10209,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -0"
         }
       }
     },
@@ -10383,9 +10443,9 @@
     },
     "Art/數位荒原.md": {
       "zh": {
-        "lastCommit": "67809e7b",
-        "lastModified": "2026-05-17T01:04:23+08:00",
-        "contentHash": "sha256:3371fc1866530dd7",
+        "lastCommit": "9474d19e",
+        "lastModified": "2026-05-17T09:17:06+08:00",
+        "contentHash": "sha256:da8b0b990b776ac0",
         "bodyHash": "sha256:3c2d99bafbdc6120"
       },
       "translations": {
@@ -10396,11 +10456,13 @@
           "sourceContentHash": "sha256:3371fc1866530dd7",
           "sourceBodyHash": "sha256:3c2d99bafbdc6120",
           "translatedAt": "2026-05-17T05:06:52+08:00",
-          "translationLastCommit": "d6e87d07",
-          "translationLastModified": "2026-05-17T05:31:33+08:00",
+          "translationLastCommit": "9474d19e",
+          "translationLastModified": "2026-05-17T09:17:06+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "ja": {
           "path": "ja/Art/no-mans-land-art-platform.md",
@@ -10409,11 +10471,13 @@
           "sourceContentHash": "sha256:3371fc1866530dd7",
           "sourceBodyHash": "sha256:3c2d99bafbdc6120",
           "translatedAt": "2026-05-17T05:06:52+08:00",
-          "translationLastCommit": "d6e87d07",
-          "translationLastModified": "2026-05-17T05:31:33+08:00",
+          "translationLastCommit": "9474d19e",
+          "translationLastModified": "2026-05-17T09:17:06+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "ko": {
           "path": "ko/Art/no-mans-land-art-platform.md",
@@ -10422,11 +10486,13 @@
           "sourceContentHash": "sha256:3371fc1866530dd7",
           "sourceBodyHash": "sha256:3c2d99bafbdc6120",
           "translatedAt": "2026-05-17T05:06:52+08:00",
-          "translationLastCommit": "d6e87d07",
-          "translationLastModified": "2026-05-17T05:31:33+08:00",
+          "translationLastCommit": "9474d19e",
+          "translationLastModified": "2026-05-17T09:17:06+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "es": {
           "path": "es/Art/no-mans-land-art-platform.md",
@@ -10435,11 +10501,13 @@
           "sourceContentHash": "sha256:3371fc1866530dd7",
           "sourceBodyHash": "sha256:3c2d99bafbdc6120",
           "translatedAt": "2026-05-17T05:06:52+08:00",
-          "translationLastCommit": "d6e87d07",
-          "translationLastModified": "2026-05-17T05:31:33+08:00",
+          "translationLastCommit": "9474d19e",
+          "translationLastModified": "2026-05-17T09:17:06+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         },
         "fr": {
           "path": "fr/Art/no-mans-land-art-platform.md",
@@ -10448,11 +10516,13 @@
           "sourceContentHash": "sha256:3371fc1866530dd7",
           "sourceBodyHash": "sha256:3c2d99bafbdc6120",
           "translatedAt": "2026-05-17T05:06:52+08:00",
-          "translationLastCommit": "d6e87d07",
-          "translationLastModified": "2026-05-17T05:31:33+08:00",
+          "translationLastCommit": "9474d19e",
+          "translationLastModified": "2026-05-17T09:17:06+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -1"
         }
       }
     },
@@ -11603,10 +11673,10 @@
     },
     "Art/台灣水彩畫的百年流變.md": {
       "zh": {
-        "lastCommit": "18157ab5",
-        "lastModified": "2026-05-14T11:04:30+08:00",
-        "contentHash": "sha256:212fa2ec0df22b41",
-        "bodyHash": "sha256:ede12af028a416ef"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:0b51fe43b7a1bf00",
+        "bodyHash": "sha256:de90bfe09eb0461c"
       },
       "translations": {
         "en": {
@@ -11619,8 +11689,10 @@
           "translationLastCommit": "f129c1fa",
           "translationLastModified": "2026-05-15T16:40:46+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+5 -24"
         },
         "ja": {
           "path": "ja/Art/century-of-taiwanese-watercolor-painting.md",
@@ -11632,8 +11704,10 @@
           "translationLastCommit": "f129c1fa",
           "translationLastModified": "2026-05-15T16:40:46+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+5 -24"
         },
         "ko": {
           "path": "ko/Art/century-of-taiwanese-watercolor-painting.md",
@@ -11645,8 +11719,10 @@
           "translationLastCommit": "f129c1fa",
           "translationLastModified": "2026-05-15T16:40:46+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+5 -24"
         },
         "es": {
           "path": "es/Art/century-of-taiwanese-watercolor-painting.md",
@@ -11658,8 +11734,10 @@
           "translationLastCommit": "f129c1fa",
           "translationLastModified": "2026-05-15T16:40:46+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+5 -24"
         },
         "fr": {
           "path": "fr/Art/century-of-taiwanese-watercolor-painting.md",
@@ -11671,8 +11749,10 @@
           "translationLastCommit": "f129c1fa",
           "translationLastModified": "2026-05-15T16:40:46+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+5 -24"
         }
       }
     },
@@ -16487,8 +16567,8 @@
           "sourceContentHash": "sha256:0a7458b73a859fea",
           "sourceBodyHash": "sha256:b2b271a1c8432769",
           "translatedAt": "2026-05-17T05:34:50+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -16515,8 +16595,8 @@
           "sourceContentHash": "sha256:0a7458b73a859fea",
           "sourceBodyHash": "sha256:b2b271a1c8432769",
           "translatedAt": "2026-05-17T05:34:54+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -16528,8 +16608,8 @@
           "sourceContentHash": "sha256:0a7458b73a859fea",
           "sourceBodyHash": "sha256:b2b271a1c8432769",
           "translatedAt": "2026-05-17T05:34:56+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -16688,10 +16768,10 @@
     },
     "Society/民主制度.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:19eac671bc34da2b",
-        "bodyHash": "sha256:9117b6afd697431e"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:f55314385d9caf18",
+        "bodyHash": "sha256:7661cd6b847cb615"
       },
       "translations": {
         "en": {
@@ -16701,11 +16781,13 @@
           "sourceContentHash": "sha256:19eac671bc34da2b",
           "sourceBodyHash": "sha256:9117b6afd697431e",
           "translatedAt": "2026-05-17T05:34:48+08:00",
-          "translationLastCommit": "13615750",
-          "translationLastModified": "2026-05-04T23:33:48+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+31 -44"
         },
         "ja": {
           "path": "ja/Society/democratic-system.md",
@@ -16719,8 +16801,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 3,
-          "diffSummary": "+31 -13"
+          "commitsBehind": 4,
+          "diffSummary": "+48 -43"
         },
         "ko": {
           "path": "ko/Society/democratic-system.md",
@@ -16734,8 +16816,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 3,
-          "diffSummary": "+31 -13"
+          "commitsBehind": 4,
+          "diffSummary": "+48 -43"
         },
         "es": {
           "path": "es/Society/democratic-system.md",
@@ -16749,8 +16831,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 3,
-          "diffSummary": "+31 -13"
+          "commitsBehind": 4,
+          "diffSummary": "+48 -43"
         },
         "fr": {
           "path": "fr/Society/democratic-system.md",
@@ -16764,8 +16846,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 3,
-          "diffSummary": "+31 -13"
+          "commitsBehind": 4,
+          "diffSummary": "+48 -43"
         }
       }
     },
@@ -20484,10 +20566,10 @@
     },
     "About/看見台灣引言集.md": {
       "zh": {
-        "lastCommit": "1a5fc7a9",
-        "lastModified": "2026-03-20T17:46:31+08:00",
-        "contentHash": "sha256:cbdbee6d7c03481f",
-        "bodyHash": "sha256:420e228012b4469c"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:4cbaa3c9a8d422dd",
+        "bodyHash": "sha256:0d8842cfba541dc2"
       },
       "translations": {
         "en": {
@@ -20500,8 +20582,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+18 -6"
         },
         "ja": {
           "path": "ja/About/seeing-taiwan-quotes.md",
@@ -20513,8 +20597,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+18 -6"
         },
         "ko": {
           "path": "ko/About/seeing-taiwan-quotes.md",
@@ -20526,8 +20612,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+18 -6"
         },
         "es": {
           "path": "es/About/seeing-taiwan-quotes.md",
@@ -20539,8 +20627,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+18 -6"
         },
         "fr": {
           "path": "fr/About/seeing-taiwan-quotes.md",
@@ -20552,8 +20642,10 @@
           "translationLastCommit": "3190cf6a",
           "translationLastModified": "2026-05-04T01:21:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+18 -6"
         }
       }
     },
@@ -23386,10 +23478,10 @@
     },
     "People/李昂.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:df62ab8c06155632",
-        "bodyHash": "sha256:9da57304b87c9abd"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:047f29e16ec14ac9",
+        "bodyHash": "sha256:0a0f9bd1ab3db88b"
       },
       "translations": {
         "en": {
@@ -23402,8 +23494,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+15 -15"
         },
         "ja": {
           "path": "ja/People/li-ang.md",
@@ -23415,8 +23509,10 @@
           "translationLastCommit": "d77b2587",
           "translationLastModified": "2026-05-16T06:43:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+15 -15"
         },
         "ko": {
           "path": "ko/People/li-ang.md",
@@ -23428,8 +23524,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+15 -15"
         },
         "es": {
           "path": "es/People/li-ang.md",
@@ -23441,8 +23539,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+15 -15"
         },
         "fr": {
           "path": "fr/People/li-ang.md",
@@ -23454,8 +23554,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+15 -15"
         }
       }
     },
@@ -23536,10 +23638,10 @@
     },
     "People/陳建仁.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:71748edd78a2072a",
-        "bodyHash": "sha256:c7cef8f09fc201f4"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:3e3c722e9fbee583",
+        "bodyHash": "sha256:cd353841feafe555"
       },
       "translations": {
         "en": {
@@ -23554,8 +23656,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+65 -27"
+          "commitsBehind": 5,
+          "diffSummary": "+66 -28"
         },
         "ja": {
           "path": "ja/People/chen-chien-jen.md",
@@ -23569,8 +23671,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+65 -27"
+          "commitsBehind": 5,
+          "diffSummary": "+66 -28"
         },
         "ko": {
           "path": "ko/People/chen-chien-jen.md",
@@ -23584,8 +23686,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+65 -27"
+          "commitsBehind": 5,
+          "diffSummary": "+66 -28"
         },
         "es": {
           "path": "es/People/chen-chien-jen.md",
@@ -23599,8 +23701,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+65 -27"
+          "commitsBehind": 5,
+          "diffSummary": "+66 -28"
         },
         "fr": {
           "path": "fr/People/chen-chien-jen.md",
@@ -23614,8 +23716,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+65 -27"
+          "commitsBehind": 5,
+          "diffSummary": "+66 -28"
         }
       }
     },
@@ -23771,10 +23873,10 @@
     },
     "People/林百里.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:f2a798a468f7897b",
-        "bodyHash": "sha256:2bbe9d35bd81a254"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:4e6831b8d5040b1f",
+        "bodyHash": "sha256:98f02f5d889ec6c6"
       },
       "translations": {
         "en": {
@@ -23789,8 +23891,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+50 -24"
+          "commitsBehind": 5,
+          "diffSummary": "+51 -25"
         },
         "ja": {
           "path": "ja/People/lin-bai-li.md",
@@ -23804,8 +23906,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+50 -24"
+          "commitsBehind": 5,
+          "diffSummary": "+51 -25"
         },
         "ko": {
           "path": "ko/People/lin-bai-li.md",
@@ -23819,8 +23921,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+50 -24"
+          "commitsBehind": 5,
+          "diffSummary": "+51 -25"
         },
         "es": {
           "path": "es/People/lin-bai-li.md",
@@ -23834,8 +23936,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+50 -24"
+          "commitsBehind": 5,
+          "diffSummary": "+51 -25"
         },
         "fr": {
           "path": "fr/People/lin-bai-li.md",
@@ -23849,8 +23951,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+50 -24"
+          "commitsBehind": 5,
+          "diffSummary": "+51 -25"
         }
       }
     },
@@ -25771,7 +25873,17 @@
           "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/People/lai-ching-te.md",
+          "translatedFrom": "People/賴清德.md",
+          "sourceCommitSha": "f712b7242",
+          "sourceContentHash": "sha256:e9ba487782481314",
+          "sourceBodyHash": "sha256:7455a72c92fc69c9",
+          "translatedAt": "2026-05-17T05:34:50+08:00",
+          "translationLastCommit": "97e6ae04",
+          "translationLastModified": "2026-05-17T09:24:17+08:00",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/People/lai-ching-te.md",
@@ -25795,8 +25907,8 @@
           "sourceContentHash": "sha256:e9ba487782481314",
           "sourceBodyHash": "sha256:7455a72c92fc69c9",
           "translatedAt": "2026-05-17T05:34:54+08:00",
-          "translationLastCommit": "33d77944",
-          "translationLastModified": "2026-05-05T13:39:18+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -25808,8 +25920,8 @@
           "sourceContentHash": "sha256:e9ba487782481314",
           "sourceBodyHash": "sha256:7455a72c92fc69c9",
           "translatedAt": "2026-05-17T05:34:56+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -25903,10 +26015,10 @@
     },
     "People/羅大佑.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:49fc80606776aa08",
-        "bodyHash": "sha256:cef4b46ba2874fcf"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:9d02cb7215580616",
+        "bodyHash": "sha256:b12e0e1ef31c163f"
       },
       "translations": {
         "en": {
@@ -25919,8 +26031,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -16"
         },
         "ja": {
           "path": "ja/People/luo-dayou.md",
@@ -25932,8 +26046,10 @@
           "translationLastCommit": "d77b2587",
           "translationLastModified": "2026-05-16T06:43:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -16"
         },
         "ko": {
           "path": "ko/People/luo-dayou.md",
@@ -25945,8 +26061,10 @@
           "translationLastCommit": "d77b2587",
           "translationLastModified": "2026-05-16T06:43:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -16"
         },
         "es": {
           "path": "es/People/luo-dayou.md",
@@ -25958,8 +26076,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -16"
         },
         "fr": {
           "path": "fr/People/luo-dayou.md",
@@ -25971,8 +26091,10 @@
           "translationLastCommit": "d77b2587",
           "translationLastModified": "2026-05-16T06:43:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -16"
         }
       }
     },
@@ -26503,10 +26625,10 @@
     },
     "People/陳昇.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:6472d4cca492ee73",
-        "bodyHash": "sha256:c91e5f6c1c4dc52f"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:62dd044f9d1285a1",
+        "bodyHash": "sha256:b39a89251e94292a"
       },
       "translations": {
         "en": {
@@ -26519,8 +26641,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -30"
         },
         "ja": {
           "path": "ja/People/bobby-chen-indie-music-pioneer.md",
@@ -26532,8 +26656,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -30"
         },
         "ko": {
           "path": "ko/People/bobby-chen-indie-music-pioneer.md",
@@ -26545,8 +26671,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -30"
         },
         "es": {
           "path": "es/People/bobby-chen-indie-music-pioneer.md",
@@ -26558,8 +26686,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -30"
         },
         "fr": {
           "path": "fr/People/bobby-chen-indie-music-pioneer.md",
@@ -26571,17 +26701,19 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+30 -30"
         }
       }
     },
     "People/白先勇.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:7ae04085dc0bf236",
-        "bodyHash": "sha256:ab0d88dcc607e862"
+        "lastCommit": "7415dcaa",
+        "lastModified": "2026-05-17T20:01:53+08:00",
+        "contentHash": "sha256:27b9c46e9dd00321",
+        "bodyHash": "sha256:bfc5f694a6aa2127"
       },
       "translations": {
         "en": {
@@ -26594,8 +26726,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+16 -16"
         },
         "ja": {
           "path": "ja/People/pai-hsien-yung-literary-master.md",
@@ -26607,8 +26741,10 @@
           "translationLastCommit": "d77b2587",
           "translationLastModified": "2026-05-16T06:43:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+16 -16"
         },
         "ko": {
           "path": "ko/People/pai-hsien-yung-literary-master.md",
@@ -26620,8 +26756,10 @@
           "translationLastCommit": "d77b2587",
           "translationLastModified": "2026-05-16T06:43:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+16 -16"
         },
         "es": {
           "path": "es/People/pai-hsien-yung-literary-master.md",
@@ -26633,8 +26771,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+16 -16"
         },
         "fr": {
           "path": "fr/People/pai-hsien-yung-literary-master.md",
@@ -26646,8 +26786,10 @@
           "translationLastCommit": "d77b2587",
           "translationLastModified": "2026-05-16T06:43:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+16 -16"
         }
       }
     },
@@ -26888,10 +27030,10 @@
     },
     "People/許芳宜.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:344f500d50c8aa78",
-        "bodyHash": "sha256:7619d090bcb7f530"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:a31b5339a894147e",
+        "bodyHash": "sha256:e2e71f85bef4ed48"
       },
       "translations": {
         "en": {
@@ -26906,8 +27048,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+70 -23"
+          "commitsBehind": 5,
+          "diffSummary": "+71 -24"
         },
         "ja": {
           "path": "ja/People/fang-yi-sheu-body-storyteller.md",
@@ -26921,8 +27063,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+70 -23"
+          "commitsBehind": 5,
+          "diffSummary": "+71 -24"
         },
         "ko": {
           "path": "ko/People/fang-yi-sheu-body-storyteller.md",
@@ -26936,8 +27078,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+70 -23"
+          "commitsBehind": 5,
+          "diffSummary": "+71 -24"
         },
         "es": {
           "path": "es/People/fang-yi-sheu-body-storyteller.md",
@@ -26951,8 +27093,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+70 -23"
+          "commitsBehind": 5,
+          "diffSummary": "+71 -24"
         },
         "fr": {
           "path": "fr/People/fang-yi-sheu-body-storyteller.md",
@@ -26966,8 +27108,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+70 -23"
+          "commitsBehind": 5,
+          "diffSummary": "+71 -24"
         }
       }
     },
@@ -27048,10 +27190,10 @@
     },
     "People/幾米.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:c4d36b5c55367199",
-        "bodyHash": "sha256:e7829fa53a6ef897"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:834133aff469e9c4",
+        "bodyHash": "sha256:78e9aaf636f5c27b"
       },
       "translations": {
         "en": {
@@ -27064,8 +27206,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+16 -16"
         },
         "ja": {
           "path": "ja/People/jimmy-liao.md",
@@ -27077,8 +27221,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+16 -16"
         },
         "ko": {
           "path": "ko/People/jimmy-liao.md",
@@ -27090,8 +27236,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+16 -16"
         },
         "es": {
           "path": "es/People/jimmy-liao.md",
@@ -27103,8 +27251,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+16 -16"
         },
         "fr": {
           "path": "fr/People/jimmy-liao.md",
@@ -27116,8 +27266,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+16 -16"
         }
       }
     },
@@ -27723,10 +27875,10 @@
     },
     "People/紀政.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:75c790eb823d4118",
-        "bodyHash": "sha256:e16afe42bbfa7ee1"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:ec85f3e1d7f5d977",
+        "bodyHash": "sha256:5932775fa82a34d0"
       },
       "translations": {
         "en": {
@@ -27739,8 +27891,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         },
         "ja": {
           "path": "ja/People/chi-cheng-flying-antelope.md",
@@ -27752,8 +27906,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         },
         "ko": {
           "path": "ko/People/chi-cheng-flying-antelope.md",
@@ -27765,8 +27921,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         },
         "es": {
           "path": "es/People/chi-cheng-flying-antelope.md",
@@ -27778,8 +27936,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         },
         "fr": {
           "path": "fr/People/chi-cheng-flying-antelope.md",
@@ -27791,17 +27951,19 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         }
       }
     },
     "People/李宗盛.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:54b3d061d434d2c3",
-        "bodyHash": "sha256:24a24765a73e7726"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:69aa6e90b214c097",
+        "bodyHash": "sha256:c1135f245e5a5ad7"
       },
       "translations": {
         "en": {
@@ -27816,8 +27978,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+41 -34"
+          "commitsBehind": 5,
+          "diffSummary": "+42 -35"
         },
         "ja": {
           "path": "ja/People/li-zongsheng.md",
@@ -27831,8 +27993,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+41 -34"
+          "commitsBehind": 5,
+          "diffSummary": "+42 -35"
         },
         "ko": {
           "path": "ko/People/li-zongsheng.md",
@@ -27846,8 +28008,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+41 -34"
+          "commitsBehind": 5,
+          "diffSummary": "+42 -35"
         },
         "es": {
           "path": "es/People/li-zongsheng.md",
@@ -27861,8 +28023,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+41 -34"
+          "commitsBehind": 5,
+          "diffSummary": "+42 -35"
         },
         "fr": {
           "path": "fr/People/li-zongsheng.md",
@@ -27876,8 +28038,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+41 -34"
+          "commitsBehind": 5,
+          "diffSummary": "+42 -35"
         }
       }
     },
@@ -27986,8 +28148,8 @@
           "sourceContentHash": "sha256:5bcf40616e842909",
           "sourceBodyHash": "sha256:15c8e50bb3ba07a7",
           "translatedAt": "2026-05-17T05:34:50+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -28014,8 +28176,8 @@
           "sourceContentHash": "sha256:5bcf40616e842909",
           "sourceBodyHash": "sha256:15c8e50bb3ba07a7",
           "translatedAt": "2026-05-17T05:34:54+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -28027,8 +28189,8 @@
           "sourceContentHash": "sha256:5bcf40616e842909",
           "sourceBodyHash": "sha256:15c8e50bb3ba07a7",
           "translatedAt": "2026-05-17T05:34:56+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -28037,10 +28199,10 @@
     },
     "People/朱天文.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:d52b167e82c0c2fb",
-        "bodyHash": "sha256:66eb9fc182ee9ee8"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:13c80c1f151f5c3e",
+        "bodyHash": "sha256:bf6107b943cdb54e"
       },
       "translations": {
         "en": {
@@ -28053,8 +28215,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         },
         "ja": {
           "path": "ja/People/chu-tien-wen.md",
@@ -28066,8 +28230,10 @@
           "translationLastCommit": "d77b2587",
           "translationLastModified": "2026-05-16T06:43:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         },
         "ko": {
           "path": "ko/People/chu-tien-wen.md",
@@ -28079,8 +28245,10 @@
           "translationLastCommit": "d77b2587",
           "translationLastModified": "2026-05-16T06:43:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         },
         "es": {
           "path": "es/People/chu-tien-wen.md",
@@ -28092,8 +28260,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         },
         "fr": {
           "path": "fr/People/chu-tien-wen.md",
@@ -28105,8 +28275,10 @@
           "translationLastCommit": "d77b2587",
           "translationLastModified": "2026-05-16T06:43:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         }
       }
     },
@@ -28487,10 +28659,10 @@
     },
     "People/陳建年.md": {
       "zh": {
-        "lastCommit": "ba7f05fa",
-        "lastModified": "2026-05-17T01:03:38+08:00",
-        "contentHash": "sha256:474a4c1b7a0a0fff",
-        "bodyHash": "sha256:09983a7b8e267e6b"
+        "lastCommit": "d7dfee76",
+        "lastModified": "2026-05-17T13:29:00+08:00",
+        "contentHash": "sha256:098e1fee93f12455",
+        "bodyHash": "sha256:f6d9c109d22f96cc"
       },
       "translations": {
         "en": {
@@ -28500,11 +28672,13 @@
           "sourceContentHash": "sha256:474a4c1b7a0a0fff",
           "sourceBodyHash": "sha256:09983a7b8e267e6b",
           "translatedAt": "2026-05-17T05:06:52+08:00",
-          "translationLastCommit": "d6e87d07",
-          "translationLastModified": "2026-05-17T05:31:33+08:00",
+          "translationLastCommit": "9474d19e",
+          "translationLastModified": "2026-05-17T09:17:06+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 4,
+          "diffSummary": "+42 -1"
         },
         "ja": {
           "path": "ja/People/chen-chien-nien.md",
@@ -28513,11 +28687,13 @@
           "sourceContentHash": "sha256:474a4c1b7a0a0fff",
           "sourceBodyHash": "sha256:09983a7b8e267e6b",
           "translatedAt": "2026-05-17T05:06:52+08:00",
-          "translationLastCommit": "d6e87d07",
-          "translationLastModified": "2026-05-17T05:31:33+08:00",
+          "translationLastCommit": "9474d19e",
+          "translationLastModified": "2026-05-17T09:17:06+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 4,
+          "diffSummary": "+42 -1"
         },
         "ko": {
           "path": "ko/People/chen-chien-nien.md",
@@ -28526,11 +28702,13 @@
           "sourceContentHash": "sha256:474a4c1b7a0a0fff",
           "sourceBodyHash": "sha256:09983a7b8e267e6b",
           "translatedAt": "2026-05-17T05:06:52+08:00",
-          "translationLastCommit": "d6e87d07",
-          "translationLastModified": "2026-05-17T05:31:33+08:00",
+          "translationLastCommit": "9474d19e",
+          "translationLastModified": "2026-05-17T09:17:06+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 4,
+          "diffSummary": "+42 -1"
         },
         "es": {
           "path": "es/People/chen-chien-nien.md",
@@ -28539,11 +28717,13 @@
           "sourceContentHash": "sha256:474a4c1b7a0a0fff",
           "sourceBodyHash": "sha256:09983a7b8e267e6b",
           "translatedAt": "2026-05-17T05:06:52+08:00",
-          "translationLastCommit": "d6e87d07",
-          "translationLastModified": "2026-05-17T05:31:33+08:00",
+          "translationLastCommit": "9474d19e",
+          "translationLastModified": "2026-05-17T09:17:06+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 4,
+          "diffSummary": "+42 -1"
         },
         "fr": {
           "path": "fr/People/chen-chien-nien.md",
@@ -28552,11 +28732,13 @@
           "sourceContentHash": "sha256:474a4c1b7a0a0fff",
           "sourceBodyHash": "sha256:09983a7b8e267e6b",
           "translatedAt": "2026-05-17T05:06:52+08:00",
-          "translationLastCommit": "d6e87d07",
-          "translationLastModified": "2026-05-17T05:31:33+08:00",
+          "translationLastCommit": "9474d19e",
+          "translationLastModified": "2026-05-17T09:17:06+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 4,
+          "diffSummary": "+42 -1"
         }
       }
     },
@@ -28712,10 +28894,10 @@
     },
     "People/劉德音.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:2b244e1e50a2ac90",
-        "bodyHash": "sha256:21e0a5ac8fbd3231"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:5e90feeafc19360c",
+        "bodyHash": "sha256:81e4bcfc4e50e127"
       },
       "translations": {
         "en": {
@@ -28728,8 +28910,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+10 -10"
         },
         "ja": {
           "path": "ja/People/mark-liu.md",
@@ -28741,8 +28925,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+10 -10"
         },
         "ko": {
           "path": "ko/People/mark-liu.md",
@@ -28754,8 +28940,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+10 -10"
         },
         "es": {
           "path": "es/People/mark-liu.md",
@@ -28767,8 +28955,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+10 -10"
         },
         "fr": {
           "path": "fr/People/mark-liu.md",
@@ -28780,8 +28970,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+10 -10"
         }
       }
     },
@@ -29932,10 +30124,10 @@
     },
     "People/郭泓志.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:aafb1ab932c7970a",
-        "bodyHash": "sha256:a29b92bbec37abec"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:e02695ed5dc8f6ea",
+        "bodyHash": "sha256:adcefdbac44146e6"
       },
       "translations": {
         "en": {
@@ -29948,8 +30140,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -14"
         },
         "ja": {
           "path": "ja/People/hong-chih-kuo-taiwanese-left-handed-pitcher.md",
@@ -29961,8 +30155,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -14"
         },
         "ko": {
           "path": "ko/People/hong-chih-kuo-taiwanese-left-handed-pitcher.md",
@@ -29974,8 +30170,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -14"
         },
         "es": {
           "path": "es/People/hong-chih-kuo-taiwanese-left-handed-pitcher.md",
@@ -29987,8 +30185,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -14"
         },
         "fr": {
           "path": "fr/People/hong-chih-kuo-taiwanese-left-handed-pitcher.md",
@@ -30000,8 +30200,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -14"
         }
       }
     },
@@ -30471,9 +30673,9 @@
     },
     "People/席慕蓉.md": {
       "zh": {
-        "lastCommit": "18157ab5",
-        "lastModified": "2026-05-14T11:04:30+08:00",
-        "contentHash": "sha256:6e935c20c3563107",
+        "lastCommit": "7415dcaa",
+        "lastModified": "2026-05-17T20:01:53+08:00",
+        "contentHash": "sha256:5d1d8e5f0b7eaefd",
         "bodyHash": "sha256:c035c602c7e335fa"
       },
       "translations": {
@@ -30487,8 +30689,10 @@
           "translationLastCommit": "eba2deef",
           "translationLastModified": "2026-05-17T06:33:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ja": {
           "path": "ja/People/ximurong.md",
@@ -30500,8 +30704,10 @@
           "translationLastCommit": "eff06b2c",
           "translationLastModified": "2026-05-17T07:14:31+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ko": {
           "path": "ko/People/ximurong.md",
@@ -30513,8 +30719,10 @@
           "translationLastCommit": "eff06b2c",
           "translationLastModified": "2026-05-17T07:14:31+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "es": {
           "path": "es/People/ximurong.md",
@@ -30526,8 +30734,10 @@
           "translationLastCommit": "eff06b2c",
           "translationLastModified": "2026-05-17T07:14:31+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "fr": {
           "path": "fr/People/ximurong.md",
@@ -30539,16 +30749,18 @@
           "translationLastCommit": "eff06b2c",
           "translationLastModified": "2026-05-17T07:14:31+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         }
       }
     },
     "People/林青霞.md": {
       "zh": {
-        "lastCommit": "f712b724",
-        "lastModified": "2026-05-16T10:16:02+08:00",
-        "contentHash": "sha256:436708c2b3c2dc27",
+        "lastCommit": "7415dcaa",
+        "lastModified": "2026-05-17T20:01:53+08:00",
+        "contentHash": "sha256:2b4a824289c241f9",
         "bodyHash": "sha256:12badc0094297f08"
       },
       "translations": {
@@ -30562,8 +30774,8 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "hash-match-sha-lost"
+          "status": "metadata-stale",
+          "reason": "sha-lost-body-match"
         },
         "ja": {
           "path": "ja/People/brigitte-lin-legendary-actress.md",
@@ -30575,8 +30787,8 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "hash-match-sha-lost"
+          "status": "metadata-stale",
+          "reason": "sha-lost-body-match"
         },
         "ko": {
           "path": "ko/People/brigitte-lin-legendary-actress.md",
@@ -30588,8 +30800,8 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "hash-match-sha-lost"
+          "status": "metadata-stale",
+          "reason": "sha-lost-body-match"
         },
         "es": {
           "path": "es/People/brigitte-lin-legendary-actress.md",
@@ -30601,8 +30813,8 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "hash-match-sha-lost"
+          "status": "metadata-stale",
+          "reason": "sha-lost-body-match"
         },
         "fr": {
           "path": "fr/People/brigitte-lin-legendary-actress.md",
@@ -30614,8 +30826,8 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "hash-match-sha-lost"
+          "status": "metadata-stale",
+          "reason": "sha-lost-body-match"
         }
       }
     },
@@ -30634,8 +30846,8 @@
           "sourceContentHash": "sha256:9b7fc7c2dcfd2ba4",
           "sourceBodyHash": "sha256:88c017dc32e26447",
           "translatedAt": "2026-05-17T05:34:48+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -30779,10 +30991,10 @@
     },
     "People/謝淑薇.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:66eff5d38f14df89",
-        "bodyHash": "sha256:a421eb67c846202a"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:e699feede1257135",
+        "bodyHash": "sha256:86d8a4b7771c32c4"
       },
       "translations": {
         "en": {
@@ -30795,8 +31007,10 @@
           "translationLastCommit": "bf912741",
           "translationLastModified": "2026-05-17T07:55:24+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -13"
         },
         "ja": {
           "path": "ja/People/su-wei-hsieh-wimbledon-champion.md",
@@ -30805,11 +31019,13 @@
           "sourceContentHash": "sha256:66eff5d38f14df89",
           "sourceBodyHash": "sha256:a421eb67c846202a",
           "translatedAt": "2026-05-17T05:34:50+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -13"
         },
         "ko": {
           "path": "ko/People/su-wei-hsieh-wimbledon-champion.md",
@@ -30823,8 +31039,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 3,
-          "diffSummary": "+61 -29"
+          "commitsBehind": 4,
+          "diffSummary": "+62 -30"
         },
         "es": {
           "path": "es/People/su-wei-hsieh-wimbledon-champion.md",
@@ -30833,11 +31049,13 @@
           "sourceContentHash": "sha256:66eff5d38f14df89",
           "sourceBodyHash": "sha256:a421eb67c846202a",
           "translatedAt": "2026-05-17T05:34:54+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -13"
         },
         "fr": {
           "path": "fr/People/su-wei-hsieh-wimbledon-champion.md",
@@ -30846,11 +31064,13 @@
           "sourceContentHash": "sha256:66eff5d38f14df89",
           "sourceBodyHash": "sha256:a421eb67c846202a",
           "translatedAt": "2026-05-17T05:34:56+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -13"
         }
       }
     },
@@ -30931,10 +31151,10 @@
     },
     "People/張惠妹.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:eaac08421c155488",
-        "bodyHash": "sha256:a58ea4fcb897497f"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:aebfe56ef8181ee0",
+        "bodyHash": "sha256:2548692a01191648"
       },
       "translations": {
         "en": {
@@ -30947,8 +31167,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+8 -8"
         },
         "ja": {
           "path": "ja/People/a-mei.md",
@@ -30960,8 +31182,10 @@
           "translationLastCommit": "d77b2587",
           "translationLastModified": "2026-05-16T06:43:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+8 -8"
         },
         "ko": {
           "path": "ko/People/a-mei.md",
@@ -30973,8 +31197,10 @@
           "translationLastCommit": "d77b2587",
           "translationLastModified": "2026-05-16T06:43:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+8 -8"
         },
         "es": {
           "path": "es/People/a-mei.md",
@@ -30986,8 +31212,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+8 -8"
         },
         "fr": {
           "path": "fr/People/a-mei.md",
@@ -30999,8 +31227,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+8 -8"
         }
       }
     },
@@ -31306,10 +31536,10 @@
     },
     "People/魏德聖.md": {
       "zh": {
-        "lastCommit": "8eeedef0",
-        "lastModified": "2026-05-09T13:49:21+08:00",
-        "contentHash": "sha256:d2c501904d21b8d0",
-        "bodyHash": "sha256:4147951068d47d09"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:c12363db6be367bf",
+        "bodyHash": "sha256:c323a1cb617cbe0a"
       },
       "translations": {
         "en": {
@@ -31322,8 +31552,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -23"
         },
         "ja": {
           "path": "ja/People/wei-te-sheng-taiwanese-epic-filmmaker.md",
@@ -31335,8 +31567,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -23"
         },
         "ko": {
           "path": "ko/People/wei-te-sheng-taiwanese-epic-filmmaker.md",
@@ -31348,8 +31582,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -23"
         },
         "es": {
           "path": "es/People/wei-te-sheng-taiwanese-epic-filmmaker.md",
@@ -31361,8 +31597,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -23"
         },
         "fr": {
           "path": "fr/People/wei-te-sheng-taiwanese-epic-filmmaker.md",
@@ -31374,8 +31612,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -23"
         }
       }
     },
@@ -31531,10 +31771,10 @@
     },
     "People/施明德.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:26dd4eef921bd1dc",
-        "bodyHash": "sha256:604f0360ebfc7d94"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:c7a690e21bd72631",
+        "bodyHash": "sha256:f379180b5e8bcecc"
       },
       "translations": {
         "en": {
@@ -31547,8 +31787,10 @@
           "translationLastCommit": "e8dd348a",
           "translationLastModified": "2026-05-15T13:49:45+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "ja": {
           "path": "ja/People/shih-ming-te.md",
@@ -31560,8 +31802,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "ko": {
           "path": "ko/People/shih-ming-te.md",
@@ -31573,8 +31817,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "es": {
           "path": "es/People/shih-ming-te.md",
@@ -31586,8 +31832,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         },
         "fr": {
           "path": "fr/People/shih-ming-te.md",
@@ -31599,8 +31847,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+4 -4"
         }
       }
     },
@@ -31826,6 +32076,31 @@
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "People/三毛.md": {
+      "zh": {
+        "lastCommit": "7415dcaa",
+        "lastModified": "2026-05-17T20:01:53+08:00",
+        "contentHash": "sha256:9d4460760fefc9a2",
+        "bodyHash": "sha256:447085e6a89fcf94"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },
@@ -32508,10 +32783,10 @@
     },
     "People/楊傳廣.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:55fd06444600922d",
-        "bodyHash": "sha256:eabda09a2f187855"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:f8a43ac4f3c5c945",
+        "bodyHash": "sha256:564dbfac81e16aa7"
       },
       "translations": {
         "en": {
@@ -32524,8 +32799,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+17 -17"
         },
         "ja": {
           "path": "ja/People/yang-chuan-kwang-asian-iron-man.md",
@@ -32537,8 +32814,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+17 -17"
         },
         "ko": {
           "path": "ko/People/yang-chuan-kwang-asian-iron-man.md",
@@ -32550,8 +32829,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+17 -17"
         },
         "es": {
           "path": "es/People/yang-chuan-kwang-asian-iron-man.md",
@@ -32563,8 +32844,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+17 -17"
         },
         "fr": {
           "path": "fr/People/yang-chuan-kwang-asian-iron-man.md",
@@ -32576,8 +32859,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+17 -17"
         }
       }
     },
@@ -32658,10 +32943,10 @@
     },
     "People/林俊傑.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:9d981963e97a7376",
-        "bodyHash": "sha256:3db3076ee0177885"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:c3bf4aab8b8bdebc",
+        "bodyHash": "sha256:e9ed087ab11c2ccb"
       },
       "translations": {
         "en": {
@@ -32676,8 +32961,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+43 -30"
+          "commitsBehind": 5,
+          "diffSummary": "+44 -31"
         },
         "ja": {
           "path": "ja/People/jj-lin-singaporean-mandopop-king.md",
@@ -32691,8 +32976,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+43 -30"
+          "commitsBehind": 5,
+          "diffSummary": "+44 -31"
         },
         "ko": {
           "path": "ko/People/jj-lin-singaporean-mandopop-king.md",
@@ -32706,8 +32991,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+43 -30"
+          "commitsBehind": 5,
+          "diffSummary": "+44 -31"
         },
         "es": {
           "path": "es/People/jj-lin-singaporean-mandopop-king.md",
@@ -32721,8 +33006,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+43 -30"
+          "commitsBehind": 5,
+          "diffSummary": "+44 -31"
         },
         "fr": {
           "path": "fr/People/jj-lin-singaporean-mandopop-king.md",
@@ -32736,8 +33021,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+43 -30"
+          "commitsBehind": 5,
+          "diffSummary": "+44 -31"
         }
       }
     },
@@ -33043,10 +33328,10 @@
     },
     "People/簡立峰.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:72565496fa642ff3",
-        "bodyHash": "sha256:602252d731e730fe"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:fbf9f60162ac4b29",
+        "bodyHash": "sha256:820519fbefcc8fbc"
       },
       "translations": {
         "en": {
@@ -33061,8 +33346,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+56 -36"
+          "commitsBehind": 5,
+          "diffSummary": "+57 -37"
         },
         "ja": {
           "path": "ja/People/jamie-lin-ai-industry-pioneer.md",
@@ -33076,8 +33361,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+56 -36"
+          "commitsBehind": 5,
+          "diffSummary": "+57 -37"
         },
         "ko": {
           "path": "ko/People/jamie-lin-ai-industry-pioneer.md",
@@ -33091,8 +33376,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+56 -36"
+          "commitsBehind": 5,
+          "diffSummary": "+57 -37"
         },
         "es": {
           "path": "es/People/jamie-lin-ai-industry-pioneer.md",
@@ -33106,8 +33391,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+56 -36"
+          "commitsBehind": 5,
+          "diffSummary": "+57 -37"
         },
         "fr": {
           "path": "fr/People/jamie-lin-ai-industry-pioneer.md",
@@ -33121,8 +33406,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+56 -36"
+          "commitsBehind": 5,
+          "diffSummary": "+57 -37"
         }
       }
     },
@@ -33203,10 +33488,10 @@
     },
     "People/鍾理和.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:7c169a831f0a420b",
-        "bodyHash": "sha256:f54fa106ed5214fc"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:cddbfe1c856d1966",
+        "bodyHash": "sha256:59814996cd0ea2c6"
       },
       "translations": {
         "en": {
@@ -33219,8 +33504,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -14"
         },
         "ja": {
           "path": "ja/People/zhong-lihe-nativeland-eternal-seeker.md",
@@ -33234,8 +33521,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+60 -34"
+          "commitsBehind": 5,
+          "diffSummary": "+61 -35"
         },
         "ko": {
           "path": "ko/People/zhong-lihe-nativeland-eternal-seeker.md",
@@ -33247,8 +33534,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -14"
         },
         "es": {
           "path": "es/People/zhong-lihe-nativeland-eternal-seeker.md",
@@ -33260,8 +33549,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -14"
         },
         "fr": {
           "path": "fr/People/zhong-lihe-nativeland-eternal-seeker.md",
@@ -33275,8 +33566,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 4,
-          "diffSummary": "+60 -34"
+          "commitsBehind": 5,
+          "diffSummary": "+61 -35"
         }
       }
     },
@@ -34182,10 +34473,10 @@
     },
     "People/明華園.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:4188ade2f03467ef",
-        "bodyHash": "sha256:04f2b86cca360d5c"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:ebe4d277504f2738",
+        "bodyHash": "sha256:ad65be5d0003de06"
       },
       "translations": {
         "en": {
@@ -34195,11 +34486,13 @@
           "sourceContentHash": "sha256:4188ade2f03467ef",
           "sourceBodyHash": "sha256:04f2b86cca360d5c",
           "translatedAt": "2026-05-17T05:34:48+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         },
         "ja": {
           "path": "ja/People/ming-hua-yuan.md",
@@ -34213,8 +34506,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 3,
-          "diffSummary": "+71 -22"
+          "commitsBehind": 4,
+          "diffSummary": "+72 -23"
         },
         "ko": {
           "path": "ko/People/ming-hua-yuan.md",
@@ -34228,8 +34521,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 3,
-          "diffSummary": "+71 -22"
+          "commitsBehind": 4,
+          "diffSummary": "+72 -23"
         },
         "es": {
           "path": "es/People/ming-hua-yuan.md",
@@ -34238,11 +34531,13 @@
           "sourceContentHash": "sha256:4188ade2f03467ef",
           "sourceBodyHash": "sha256:04f2b86cca360d5c",
           "translatedAt": "2026-05-17T05:34:54+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         },
         "fr": {
           "path": "fr/People/ming-hua-yuan.md",
@@ -34256,8 +34551,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 3,
-          "diffSummary": "+71 -22"
+          "commitsBehind": 4,
+          "diffSummary": "+72 -23"
         }
       }
     },
@@ -34413,10 +34708,10 @@
     },
     "People/鄧雨賢.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:e2e2acfb4d7d46ae",
-        "bodyHash": "sha256:fe8917e0a13cd3b7"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:03f4c1611aa95a6c",
+        "bodyHash": "sha256:0d86dfd69dceab10"
       },
       "translations": {
         "en": {
@@ -34431,8 +34726,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+65 -28"
+          "commitsBehind": 6,
+          "diffSummary": "+66 -29"
         },
         "ja": {
           "path": "ja/People/deng-yu-xian-taiwanese-song-composer.md",
@@ -34446,8 +34741,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+65 -28"
+          "commitsBehind": 6,
+          "diffSummary": "+66 -29"
         },
         "ko": {
           "path": "ko/People/deng-yu-xian-taiwanese-song-composer.md",
@@ -34461,8 +34756,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+65 -28"
+          "commitsBehind": 6,
+          "diffSummary": "+66 -29"
         },
         "es": {
           "path": "es/People/deng-yu-xian-taiwanese-song-composer.md",
@@ -34476,8 +34771,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+65 -28"
+          "commitsBehind": 6,
+          "diffSummary": "+66 -29"
         },
         "fr": {
           "path": "fr/People/deng-yu-xian-taiwanese-song-composer.md",
@@ -34491,17 +34786,17 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+65 -28"
+          "commitsBehind": 6,
+          "diffSummary": "+66 -29"
         }
       }
     },
     "People/伍佰.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:113c9c057702d180",
-        "bodyHash": "sha256:0562de7b1e7ab672"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:2dda34fc81c78056",
+        "bodyHash": "sha256:fb05d9869b96635c"
       },
       "translations": {
         "en": {
@@ -34514,8 +34809,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -14"
         },
         "ja": {
           "path": "ja/People/wu-bai.md",
@@ -34529,8 +34826,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+69 -24"
+          "commitsBehind": 6,
+          "diffSummary": "+70 -25"
         },
         "ko": {
           "path": "ko/People/wu-bai.md",
@@ -34544,8 +34841,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+69 -24"
+          "commitsBehind": 6,
+          "diffSummary": "+70 -25"
         },
         "es": {
           "path": "es/People/wu-bai.md",
@@ -34559,8 +34856,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+69 -24"
+          "commitsBehind": 6,
+          "diffSummary": "+70 -25"
         },
         "fr": {
           "path": "fr/People/wu-bai.md",
@@ -34574,17 +34871,17 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+69 -24"
+          "commitsBehind": 6,
+          "diffSummary": "+70 -25"
         }
       }
     },
     "People/朱經武.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:34bc5d357a3cdf52",
-        "bodyHash": "sha256:2ddbffb7dbb01585"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:79c87fb84a11dd9d",
+        "bodyHash": "sha256:619ef92c56c46024"
       },
       "translations": {
         "en": {
@@ -34597,8 +34894,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -13"
         },
         "ja": {
           "path": "ja/People/chu-ching-wu.md",
@@ -34610,8 +34909,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -13"
         },
         "ko": {
           "path": "ko/People/chu-ching-wu.md",
@@ -34623,8 +34924,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -13"
         },
         "es": {
           "path": "es/People/chu-ching-wu.md",
@@ -34636,8 +34939,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -13"
         },
         "fr": {
           "path": "fr/People/chu-ching-wu.md",
@@ -34649,8 +34954,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -13"
         }
       }
     },
@@ -35256,10 +35563,10 @@
     },
     "People/鄭兆村.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:5004a95eacb2cb08",
-        "bodyHash": "sha256:dafa2415f63c4564"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:ce2f1e81de54c692",
+        "bodyHash": "sha256:efa67fc4a2da3f45"
       },
       "translations": {
         "en": {
@@ -35272,8 +35579,10 @@
           "translationLastCommit": "e8dd348a",
           "translationLastModified": "2026-05-15T13:49:45+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -14"
         },
         "ja": {
           "path": "ja/People/cheng-chao-tsun-javelin-asian-king.md",
@@ -35285,8 +35594,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -14"
         },
         "ko": {
           "path": "ko/People/cheng-chao-tsun-javelin-asian-king.md",
@@ -35298,8 +35609,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -14"
         },
         "es": {
           "path": "es/People/cheng-chao-tsun-javelin-asian-king.md",
@@ -35311,8 +35624,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -14"
         },
         "fr": {
           "path": "fr/People/cheng-chao-tsun-javelin-asian-king.md",
@@ -35324,8 +35639,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+14 -14"
         }
       }
     },
@@ -35708,10 +36025,10 @@
     },
     "People/魏哲家.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:50d2aaef770f0d1e",
-        "bodyHash": "sha256:77c9f3129adcc912"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:3d7fccce1bbb6e47",
+        "bodyHash": "sha256:501cc28a481912c5"
       },
       "translations": {
         "en": {
@@ -35724,8 +36041,10 @@
           "translationLastCommit": "68c3ec3a",
           "translationLastModified": "2026-05-17T06:37:55+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         },
         "ja": {
           "path": "ja/People/cc-wei.md",
@@ -35737,8 +36056,10 @@
           "translationLastCommit": "eff06b2c",
           "translationLastModified": "2026-05-17T07:14:31+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         },
         "ko": {
           "path": "ko/People/cc-wei.md",
@@ -35750,8 +36071,10 @@
           "translationLastCommit": "bf912741",
           "translationLastModified": "2026-05-17T07:55:24+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         },
         "es": {
           "path": "es/People/cc-wei.md",
@@ -35763,8 +36086,10 @@
           "translationLastCommit": "eff06b2c",
           "translationLastModified": "2026-05-17T07:14:31+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         },
         "fr": {
           "path": "fr/People/cc-wei.md",
@@ -35776,8 +36101,10 @@
           "translationLastCommit": "eff06b2c",
           "translationLastModified": "2026-05-17T07:14:31+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+11 -11"
         }
       }
     },
@@ -35933,10 +36260,10 @@
     },
     "People/葉國一.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:1c4ae98730df5333",
-        "bodyHash": "sha256:d261f8963c4cb7fc"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:736f2b6cf89c9093",
+        "bodyHash": "sha256:728aa85d9d44e89a"
       },
       "translations": {
         "en": {
@@ -35949,8 +36276,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+24 -24"
         },
         "ja": {
           "path": "ja/People/yeh-kuo-yi-electronics-manufacturing-pioneer.md",
@@ -35962,8 +36291,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+24 -24"
         },
         "ko": {
           "path": "ko/People/yeh-kuo-yi-electronics-manufacturing-pioneer.md",
@@ -35975,8 +36306,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+24 -24"
         },
         "es": {
           "path": "es/People/yeh-kuo-yi-electronics-manufacturing-pioneer.md",
@@ -35988,8 +36321,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+24 -24"
         },
         "fr": {
           "path": "fr/People/yeh-kuo-yi-electronics-manufacturing-pioneer.md",
@@ -36001,17 +36336,19 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+24 -24"
         }
       }
     },
     "People/麟洋配.md": {
       "zh": {
-        "lastCommit": "f712b724",
-        "lastModified": "2026-05-16T10:16:02+08:00",
-        "contentHash": "sha256:afa45717eaa9d3a2",
-        "bodyHash": "sha256:58d4c6be125ca532"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:a3fd767bb313c647",
+        "bodyHash": "sha256:de4f951a9d208799"
       },
       "translations": {
         "en": {
@@ -36026,8 +36363,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+69 -69"
+          "commitsBehind": 2,
+          "diffSummary": "+67 -83"
         },
         "ja": {
           "path": "ja/People/golden-duo-chi-lin-yang.md",
@@ -36041,8 +36378,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+69 -69"
+          "commitsBehind": 2,
+          "diffSummary": "+67 -83"
         },
         "ko": {
           "path": "ko/People/golden-duo-chi-lin-yang.md",
@@ -36056,8 +36393,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+69 -69"
+          "commitsBehind": 2,
+          "diffSummary": "+67 -83"
         },
         "es": {
           "path": "es/People/golden-duo-chi-lin-yang.md",
@@ -36071,8 +36408,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+69 -69"
+          "commitsBehind": 2,
+          "diffSummary": "+67 -83"
         },
         "fr": {
           "path": "fr/People/golden-duo-chi-lin-yang.md",
@@ -36086,8 +36423,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+69 -69"
+          "commitsBehind": 2,
+          "diffSummary": "+67 -83"
         }
       }
     },
@@ -36318,10 +36655,10 @@
     },
     "People/王永慶.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:75cade694af4e791",
-        "bodyHash": "sha256:ef221213bcf630c8"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:00532494c21971ee",
+        "bodyHash": "sha256:9eb5d39573a6508d"
       },
       "translations": {
         "en": {
@@ -36334,8 +36671,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -22"
         },
         "ja": {
           "path": "ja/People/yung-ching-wang-formosa-plastics-founder.md",
@@ -36347,8 +36686,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -22"
         },
         "ko": {
           "path": "ko/People/yung-ching-wang-formosa-plastics-founder.md",
@@ -36360,8 +36701,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -22"
         },
         "es": {
           "path": "es/People/yung-ching-wang-formosa-plastics-founder.md",
@@ -36373,8 +36716,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -22"
         },
         "fr": {
           "path": "fr/People/yung-ching-wang-formosa-plastics-founder.md",
@@ -36386,8 +36731,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -22"
         }
       }
     },
@@ -36856,8 +37203,8 @@
           "sourceContentHash": "sha256:bc132f506d9946e5",
           "sourceBodyHash": "sha256:ae4d7d2f8418495d",
           "translatedAt": "2026-05-17T05:34:48+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -37934,8 +38281,8 @@
           "sourceContentHash": "sha256:a0454e71ee2abfe6",
           "sourceBodyHash": "sha256:2bbcd86b693a9ea2",
           "translatedAt": "2026-05-17T05:34:48+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -38154,10 +38501,10 @@
     },
     "People/黃春明.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:faea81fd1438c735",
-        "bodyHash": "sha256:70bfb0fe07276439"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:fa94afa39f837939",
+        "bodyHash": "sha256:59fc287ce8c0baeb"
       },
       "translations": {
         "en": {
@@ -38170,8 +38517,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+22 -26"
         },
         "ja": {
           "path": "ja/People/huang-chun-ming-taiwanese-literary-master.md",
@@ -38185,8 +38534,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+56 -38"
+          "commitsBehind": 6,
+          "diffSummary": "+54 -40"
         },
         "ko": {
           "path": "ko/People/huang-chun-ming-taiwanese-literary-master.md",
@@ -38200,8 +38549,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+56 -38"
+          "commitsBehind": 6,
+          "diffSummary": "+54 -40"
         },
         "es": {
           "path": "es/People/huang-chun-ming-taiwanese-literary-master.md",
@@ -38215,8 +38564,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+56 -38"
+          "commitsBehind": 6,
+          "diffSummary": "+54 -40"
         },
         "fr": {
           "path": "fr/People/huang-chun-ming-taiwanese-literary-master.md",
@@ -38230,8 +38579,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+56 -38"
+          "commitsBehind": 6,
+          "diffSummary": "+54 -40"
         }
       }
     },
@@ -38462,10 +38811,10 @@
     },
     "People/龍應台.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:3f57d56cbfc66171",
-        "bodyHash": "sha256:18b08eea5658abdd"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:32e758a1acf33e90",
+        "bodyHash": "sha256:fb31dbbb24515e69"
       },
       "translations": {
         "en": {
@@ -38478,8 +38827,10 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+10 -10"
         },
         "ja": {
           "path": "ja/People/lung-ying-tai.md",
@@ -38491,8 +38842,10 @@
           "translationLastCommit": "eba2deef",
           "translationLastModified": "2026-05-17T06:33:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+10 -10"
         },
         "ko": {
           "path": "ko/People/lung-ying-tai.md",
@@ -38504,8 +38857,10 @@
           "translationLastCommit": "68c3ec3a",
           "translationLastModified": "2026-05-17T06:37:55+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+10 -10"
         },
         "es": {
           "path": "es/People/lung-ying-tai.md",
@@ -38517,8 +38872,10 @@
           "translationLastCommit": "eba2deef",
           "translationLastModified": "2026-05-17T06:33:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+10 -10"
         },
         "fr": {
           "path": "fr/People/lung-ying-tai.md",
@@ -38530,8 +38887,10 @@
           "translationLastCommit": "eba2deef",
           "translationLastModified": "2026-05-17T06:33:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+10 -10"
         }
       }
     },
@@ -38612,10 +38971,10 @@
     },
     "People/王建民.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:9b1ea44e7abb5591",
-        "bodyHash": "sha256:d8709df43051c44b"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:88ba1e028cceec90",
+        "bodyHash": "sha256:d72e85599f59782f"
       },
       "translations": {
         "en": {
@@ -38628,8 +38987,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+26 -26"
         },
         "ja": {
           "path": "ja/People/chien-ming-wang-mlb-sinker-ace.md",
@@ -38641,8 +39002,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+26 -26"
         },
         "ko": {
           "path": "ko/People/chien-ming-wang-mlb-sinker-ace.md",
@@ -38654,8 +39017,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+26 -26"
         },
         "es": {
           "path": "es/People/chien-ming-wang-mlb-sinker-ace.md",
@@ -38667,8 +39032,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+26 -26"
         },
         "fr": {
           "path": "fr/People/chien-ming-wang-mlb-sinker-ace.md",
@@ -38680,8 +39047,10 @@
           "translationLastCommit": "29126b52",
           "translationLastModified": "2026-05-09T16:14:51+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+26 -26"
         }
       }
     },
@@ -38912,10 +39281,10 @@
     },
     "People/郭台銘.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:9965ca6354b224da",
-        "bodyHash": "sha256:cef8ceeeeb55c8e8"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:981dd62862f57c30",
+        "bodyHash": "sha256:6bf98169f185af90"
       },
       "translations": {
         "en": {
@@ -38928,8 +39297,10 @@
           "translationLastCommit": "e8dd348a",
           "translationLastModified": "2026-05-15T13:49:45+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+29 -29"
         },
         "ja": {
           "path": "ja/People/terry-gou.md",
@@ -38941,8 +39312,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+29 -29"
         },
         "ko": {
           "path": "ko/People/terry-gou.md",
@@ -38954,8 +39327,10 @@
           "translationLastCommit": "e8dd348a",
           "translationLastModified": "2026-05-15T13:49:45+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+29 -29"
         },
         "es": {
           "path": "es/People/terry-gou.md",
@@ -38967,8 +39342,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+29 -29"
         },
         "fr": {
           "path": "fr/People/terry-gou.md",
@@ -38980,8 +39357,10 @@
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+29 -29"
         }
       }
     },
@@ -39232,10 +39611,10 @@
     },
     "People/許文龍.md": {
       "zh": {
-        "lastCommit": "8eeedef0",
-        "lastModified": "2026-05-09T13:49:21+08:00",
-        "contentHash": "sha256:de7b2272e1eb496d",
-        "bodyHash": "sha256:1bc337c8f6e03fa2"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:720cd768af91d1c3",
+        "bodyHash": "sha256:7ec1f1d13ec2e4d4"
       },
       "translations": {
         "en": {
@@ -39245,11 +39624,13 @@
           "sourceContentHash": "sha256:de7b2272e1eb496d",
           "sourceBodyHash": "sha256:1bc337c8f6e03fa2",
           "translatedAt": "2026-05-17T05:34:48+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -13"
         },
         "ja": {
           "path": "ja/People/xu-wen-long-chimei-founder-violin-entrepreneur.md",
@@ -39263,8 +39644,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+63 -30"
+          "commitsBehind": 6,
+          "diffSummary": "+64 -31"
         },
         "ko": {
           "path": "ko/People/xu-wen-long-chimei-founder-violin-entrepreneur.md",
@@ -39278,8 +39659,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+63 -30"
+          "commitsBehind": 6,
+          "diffSummary": "+64 -31"
         },
         "es": {
           "path": "es/People/xu-wen-long-chimei-founder-violin-entrepreneur.md",
@@ -39288,11 +39669,13 @@
           "sourceContentHash": "sha256:de7b2272e1eb496d",
           "sourceBodyHash": "sha256:1bc337c8f6e03fa2",
           "translatedAt": "2026-05-17T05:34:54+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -13"
         },
         "fr": {
           "path": "fr/People/xu-wen-long-chimei-founder-violin-entrepreneur.md",
@@ -39306,8 +39689,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+63 -30"
+          "commitsBehind": 6,
+          "diffSummary": "+64 -31"
         }
       }
     },
@@ -39388,10 +39771,10 @@
     },
     "People/張明正.md": {
       "zh": {
-        "lastCommit": "0ea5d5d4",
-        "lastModified": "2026-05-09T13:21:55+08:00",
-        "contentHash": "sha256:365bf8fd6ef321e1",
-        "bodyHash": "sha256:3b4ede69ff2b8fe3"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:932e4c30cdddd3e0",
+        "bodyHash": "sha256:21c31465830632be"
       },
       "translations": {
         "en": {
@@ -39404,8 +39787,10 @@
           "translationLastCommit": "9fb79b0a",
           "translationLastModified": "2026-05-17T06:17:58+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -13"
         },
         "ja": {
           "path": "ja/People/steve-chang.md",
@@ -39417,8 +39802,10 @@
           "translationLastCommit": "eff06b2c",
           "translationLastModified": "2026-05-17T07:14:31+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -13"
         },
         "ko": {
           "path": "ko/People/steve-chang.md",
@@ -39430,8 +39817,10 @@
           "translationLastCommit": "eff06b2c",
           "translationLastModified": "2026-05-17T07:14:31+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -13"
         },
         "es": {
           "path": "es/People/steve-chang.md",
@@ -39443,8 +39832,10 @@
           "translationLastCommit": "eba2deef",
           "translationLastModified": "2026-05-17T06:33:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -13"
         },
         "fr": {
           "path": "fr/People/steve-chang.md",
@@ -39456,17 +39847,19 @@
           "translationLastCommit": "68c3ec3a",
           "translationLastModified": "2026-05-17T06:37:55+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+13 -13"
         }
       }
     },
     "People/童子賢.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:92c0ea5904b1a8a0",
-        "bodyHash": "sha256:c12930c556455fb6"
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
+        "contentHash": "sha256:741173e056926b2c",
+        "bodyHash": "sha256:7f6ff2dde21c6686"
       },
       "translations": {
         "en": {
@@ -39479,8 +39872,10 @@
           "translationLastCommit": "9fb79b0a",
           "translationLastModified": "2026-05-17T06:17:58+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+24 -24"
         },
         "ja": {
           "path": "ja/People/tung-tzu-hsien-tech-humanist.md",
@@ -39492,8 +39887,10 @@
           "translationLastCommit": "3521fd77",
           "translationLastModified": "2026-05-17T06:34:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+24 -24"
         },
         "ko": {
           "path": "ko/People/tung-tzu-hsien-tech-humanist.md",
@@ -39505,8 +39902,10 @@
           "translationLastCommit": "eff06b2c",
           "translationLastModified": "2026-05-17T07:14:31+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+24 -24"
         },
         "es": {
           "path": "es/People/tung-tzu-hsien-tech-humanist.md",
@@ -39518,8 +39917,10 @@
           "translationLastCommit": "eba2deef",
           "translationLastModified": "2026-05-17T06:33:30+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+24 -24"
         },
         "fr": {
           "path": "fr/People/tung-tzu-hsien-tech-humanist.md",
@@ -39531,8 +39932,10 @@
           "translationLastCommit": "3521fd77",
           "translationLastModified": "2026-05-17T06:34:49+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+24 -24"
         }
       }
     },
@@ -41619,8 +42022,8 @@
           "sourceContentHash": "sha256:874c652bf8f5b63c",
           "sourceBodyHash": "sha256:53b616e81595b8c6",
           "translatedAt": "2026-05-17T05:34:50+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -41647,8 +42050,8 @@
           "sourceContentHash": "sha256:874c652bf8f5b63c",
           "sourceBodyHash": "sha256:53b616e81595b8c6",
           "translatedAt": "2026-05-17T05:34:54+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -41660,8 +42063,8 @@
           "sourceContentHash": "sha256:874c652bf8f5b63c",
           "sourceBodyHash": "sha256:53b616e81595b8c6",
           "translatedAt": "2026-05-17T05:34:56+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -44990,6 +45393,31 @@
         }
       }
     },
+    "History/臺灣前途決議文.md": {
+      "zh": {
+        "lastCommit": "1f0b41e4",
+        "lastModified": "2026-05-17T23:05:24+08:00",
+        "contentHash": "sha256:4f37e9db9519dd6b",
+        "bodyHash": "sha256:c8ff273540a02078"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "History/日治時期.md": {
       "zh": {
         "lastCommit": "18157ab5",
@@ -45005,8 +45433,8 @@
           "sourceContentHash": "sha256:33d9a2c12bde5914",
           "sourceBodyHash": "sha256:c1f42478c12060a3",
           "translatedAt": "2026-05-17T05:34:48+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -45227,10 +45655,10 @@
     },
     "History/台灣民主轉型.md": {
       "zh": {
-        "lastCommit": "5db9f136",
-        "lastModified": "2026-05-09T01:11:48+08:00",
-        "contentHash": "sha256:d432b8072ad8da53",
-        "bodyHash": "sha256:9d24249723803e6a"
+        "lastCommit": "3ec013e6",
+        "lastModified": "2026-05-17T22:14:32+08:00",
+        "contentHash": "sha256:85252455c0ed43e6",
+        "bodyHash": "sha256:5c7fc1f11ad28097"
       },
       "translations": {
         "en": {
@@ -45243,8 +45671,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ja": {
           "path": "ja/History/taiwan-democratization.md",
@@ -45256,8 +45686,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ko": {
           "path": "ko/History/taiwan-democratization.md",
@@ -45269,8 +45701,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "es": {
           "path": "es/History/taiwan-democratization.md",
@@ -45282,8 +45716,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "fr": {
           "path": "fr/History/taiwan-democratization.md",
@@ -45295,8 +45731,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         }
       }
     },
@@ -45977,8 +46415,8 @@
     },
     "History/史前時代與原住民.md": {
       "zh": {
-        "lastCommit": "8eeedef0",
-        "lastModified": "2026-05-09T13:49:21+08:00",
+        "lastCommit": "0f8fae0a",
+        "lastModified": "2026-05-17T18:46:40+08:00",
         "contentHash": "sha256:4a4d8e8b71bb4388",
         "bodyHash": "sha256:518e01925b760cf5"
       },
@@ -45995,8 +46433,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+48 -30"
+          "commitsBehind": 6,
+          "diffSummary": "+49 -31"
         },
         "ja": {
           "path": "ja/History/prehistoric-era-and-indigenous-peoples.md",
@@ -46010,8 +46448,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+48 -30"
+          "commitsBehind": 6,
+          "diffSummary": "+49 -31"
         },
         "ko": {
           "path": "ko/History/prehistoric-era-and-indigenous-peoples.md",
@@ -46025,8 +46463,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+48 -30"
+          "commitsBehind": 6,
+          "diffSummary": "+49 -31"
         },
         "es": {
           "path": "es/History/prehistoric-era-and-indigenous-peoples.md",
@@ -46040,8 +46478,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+48 -30"
+          "commitsBehind": 6,
+          "diffSummary": "+49 -31"
         },
         "fr": {
           "path": "fr/History/prehistoric-era-and-indigenous-peoples.md",
@@ -46055,8 +46493,8 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 5,
-          "diffSummary": "+48 -30"
+          "commitsBehind": 6,
+          "diffSummary": "+49 -31"
         }
       }
     },
@@ -46362,10 +46800,10 @@
     },
     "History/台灣選舉與政黨政治.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:92e02a6f4332994e",
-        "bodyHash": "sha256:dfd574c12aaa4fc2"
+        "lastCommit": "3ec013e6",
+        "lastModified": "2026-05-17T22:14:32+08:00",
+        "contentHash": "sha256:6586df9c10ccbebb",
+        "bodyHash": "sha256:fcbee2d0bf45255a"
       },
       "translations": {
         "en": {
@@ -46378,8 +46816,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ja": {
           "path": "ja/History/taiwan-elections-and-party-politics.md",
@@ -46391,8 +46831,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ko": {
           "path": "ko/History/taiwan-elections-and-party-politics.md",
@@ -46404,8 +46846,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "es": {
           "path": "es/History/taiwan-elections-and-party-politics.md",
@@ -46417,8 +46861,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "fr": {
           "path": "fr/History/taiwan-elections-and-party-politics.md",
@@ -46430,8 +46876,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         }
       }
     },
@@ -46832,10 +47280,10 @@
     },
     "History/台海危機與兩岸關係發展.md": {
       "zh": {
-        "lastCommit": "f712b724",
-        "lastModified": "2026-05-16T10:16:02+08:00",
-        "contentHash": "sha256:4d73543d701e9901",
-        "bodyHash": "sha256:222dfa780f14dee2"
+        "lastCommit": "3ec013e6",
+        "lastModified": "2026-05-17T22:14:32+08:00",
+        "contentHash": "sha256:f38bdb43bfb655cb",
+        "bodyHash": "sha256:be52296ede93d50d"
       },
       "translations": {
         "en": {
@@ -46848,8 +47296,8 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "hash-match-sha-lost"
+          "status": "stale",
+          "reason": "sha-lost-hash-mismatch"
         },
         "ja": {
           "path": "ja/History/taiwan-strait-crises-and-cross-strait-relations.md",
@@ -46861,8 +47309,8 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "hash-match-sha-lost"
+          "status": "stale",
+          "reason": "sha-lost-hash-mismatch"
         },
         "ko": {
           "path": "ko/History/taiwan-strait-crises-and-cross-strait-relations.md",
@@ -46874,8 +47322,8 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "hash-match-sha-lost"
+          "status": "stale",
+          "reason": "sha-lost-hash-mismatch"
         },
         "es": {
           "path": "es/History/taiwan-strait-crises-and-cross-strait-relations.md",
@@ -46887,8 +47335,8 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "hash-match-sha-lost"
+          "status": "stale",
+          "reason": "sha-lost-hash-mismatch"
         },
         "fr": {
           "path": "fr/History/taiwan-strait-crises-and-cross-strait-relations.md",
@@ -46900,8 +47348,8 @@
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "hash-match-sha-lost"
+          "status": "stale",
+          "reason": "sha-lost-hash-mismatch"
         }
       }
     },
@@ -47233,8 +47681,8 @@
           "sourceContentHash": "sha256:ac660158a4c72aea",
           "sourceBodyHash": "sha256:57ab1d8681d0c528",
           "translatedAt": "2026-05-17T05:34:50+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -47261,8 +47709,8 @@
           "sourceContentHash": "sha256:ac660158a4c72aea",
           "sourceBodyHash": "sha256:57ab1d8681d0c528",
           "translatedAt": "2026-05-17T05:34:54+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -47274,8 +47722,8 @@
           "sourceContentHash": "sha256:ac660158a4c72aea",
           "sourceBodyHash": "sha256:57ab1d8681d0c528",
           "translatedAt": "2026-05-17T05:34:56+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -51444,8 +51892,8 @@
           "sourceContentHash": "sha256:0f2cf9fae60042d8",
           "sourceBodyHash": "sha256:62570a25d7db63f6",
           "translatedAt": "2026-05-17T05:34:50+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -51457,8 +51905,8 @@
           "sourceContentHash": "sha256:0f2cf9fae60042d8",
           "sourceBodyHash": "sha256:62570a25d7db63f6",
           "translatedAt": "2026-05-17T05:34:52+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -51483,8 +51931,8 @@
           "sourceContentHash": "sha256:0f2cf9fae60042d8",
           "sourceBodyHash": "sha256:62570a25d7db63f6",
           "translatedAt": "2026-05-17T05:34:56+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -51506,8 +51954,8 @@
           "sourceContentHash": "sha256:e1fa112b66596f53",
           "sourceBodyHash": "sha256:fb4423c4414816f5",
           "translatedAt": "2026-05-17T05:34:48+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -52127,8 +52575,8 @@
           "sourceContentHash": "sha256:182944af338bcbd9",
           "sourceBodyHash": "sha256:4695e66c252e1f65",
           "translatedAt": "2026-05-17T05:34:50+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -52140,8 +52588,8 @@
           "sourceContentHash": "sha256:182944af338bcbd9",
           "sourceBodyHash": "sha256:4695e66c252e1f65",
           "translatedAt": "2026-05-17T05:34:52+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -52166,8 +52614,8 @@
           "sourceContentHash": "sha256:182944af338bcbd9",
           "sourceBodyHash": "sha256:4695e66c252e1f65",
           "translatedAt": "2026-05-17T05:34:56+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -52564,8 +53012,8 @@
           "sourceContentHash": "sha256:3d3e165195c66961",
           "sourceBodyHash": "sha256:daf4460c4d51a719",
           "translatedAt": "2026-05-17T05:34:48+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "05dd5e66",
+          "translationLastModified": "2026-05-17T08:41:30+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"

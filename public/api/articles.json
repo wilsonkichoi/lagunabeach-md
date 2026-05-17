@@ -27,7 +27,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Technology/taiwan-disaster-medicine-system",
-    "readingTime": 59,
+    "readingTime": 60,
     "featured": false,
     "date": "2026-03-24",
     "path": "es/Technology/taiwan-disaster-medicine-system.md"
@@ -145,7 +145,7 @@
       "허룽싱"
     ],
     "url": "https://taiwan.md/ko/Society/the-reporter-investigative-journalism",
-    "readingTime": 49,
+    "readingTime": 50,
     "featured": true,
     "date": "2026-04-29",
     "path": "ko/Society/the-reporter-investigative-journalism.md"
@@ -160,6 +160,23 @@
     "featured": false,
     "date": "2026-05-13",
     "path": "ko/People/bernard-tseng.md"
+  },
+  {
+    "title": "'태자현: 타이베이공전에서 출발, 화숙(和碩)이 애플 최대 위탁생산 파트너가 되기까지'",
+    "description": "'1960년 6월 25일생, 태자현은 타이베이공전(현 국립타이베이과대) 전자과를 졸업했으며 대만대 전기공학과 출신이 아니다. 1988년 화수(華碩)에 입사, 2008년 1월 1일 브랜드와 위탁생산 분할을 주도하여 화숙연합기술(和碩聯合科技)을 설립, 애플·소니·닌텐도의 위탁생산 공장이 되었다. 2019년 성핀서점(誠品書店)에 투자. 2025년에도 「원자력·재생에너지 공존」 에너지 정책 주장을 발표했다.'",
+    "category": "ko",
+    "tags": [
+      "科技與企業",
+      "和碩聯合",
+      "電子代工",
+      "ODM",
+      "能源政策"
+    ],
+    "url": "https://taiwan.md/ko/People/tung-tzu-hsien-tech-humanist",
+    "readingTime": 21,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "ko/People/tung-tzu-hsien-tech-humanist.md"
   },
   {
     "title": "'포르모사': 서양인은 이미 사람이 살고 있던 섬을 어떻게 '발견'했는가",
@@ -467,7 +484,7 @@
       "2026"
     ],
     "url": "https://taiwan.md/ko/Society/2026-cheng-xi-meeting-kmt-ccp-decade-reunion",
-    "readingTime": 34,
+    "readingTime": 35,
     "featured": true,
     "date": "2026-04-11",
     "path": "ko/Society/2026-cheng-xi-meeting-kmt-ccp-decade-reunion.md"
@@ -739,6 +756,25 @@
     "featured": false,
     "date": "2026-04-27",
     "path": "ja/History/three-foreigners-witness-1895-taiwan.md"
+  },
+  {
+    "title": "三毛：把逃離寫成自由的人",
+    "description": "本名陳平，1943年生於重慶，1948年隨家遷台。國中因老師當眾羞辱輟學，七年自閉後重新寫作。1973年與荷西在西屬撒哈拉結婚，散文爆紅，成為戒嚴時代台灣人想像遠方的窗口。1979年荷西潛水意外身亡。1990年編劇《滾滾紅塵》獲金馬八獎。1991年1月4日台北榮民總醫院自縊，享年四十七歲。",
+    "category": "People",
+    "tags": [
+      "三毛",
+      "散文",
+      "撒哈拉",
+      "荷西",
+      "橄欖樹",
+      "滾滾紅塵",
+      "流浪文學"
+    ],
+    "url": "https://taiwan.md/People/%E4%B8%89%E6%AF%9B",
+    "readingTime": 30,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "People/三毛.md"
   },
   {
     "title": "三峡茶：「青心柑仔」の螺旋的転換から、夏茶の価値である蜜香への進化へ",
@@ -2025,17 +2061,6 @@
     "path": "ja/History/taiwan-emigration-history.md"
   },
   {
-    "title": "台湾台語歌曲の変遷：阿伯歌（伯父さん向け歌）から文青（ぶんせい、文芸青年）の新たな寵児へのアイデンティティ転換",
-    "description": "台湾台語歌曲が那卡西（ナカシ、流し）、洪一峰、江蕙の時代から、茄子蛋、拍謝少年などの新世代バンドに至る変遷の過程を追い、台語音楽がいかにして若い世代のアイデンティティを再獲得したかを探ります。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Music/taiwanese-hokkien-song-evolution",
-    "readingTime": 8,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "ja/Music/taiwanese-hokkien-song-evolution.md"
-  },
-  {
     "title": "台湾民歌運動",
     "description": "「自分の歌を歌おう」から華語音楽シーン全体の変革へ——1970年代、若者たちの文化革命",
     "category": "ja",
@@ -2484,7 +2509,7 @@
       "文化復興"
     ],
     "url": "https://taiwan.md/ja/Culture/taiwan-floral-fabric",
-    "readingTime": 12,
+    "readingTime": 27,
     "featured": false,
     "date": "2026-03-19",
     "path": "ja/Culture/taiwan-floral-fabric.md"
@@ -2672,17 +2697,17 @@
   },
   {
     "title": "台湾原住民の音楽伝統",
-    "description": "台湾16族の原住民が持つ豊かな音楽文化を探る。古調の吟唱から伝統楽器まで、数千年にわたる文化の継承を目撃する",
+    "description": "台湾16族の原住民が育んできた豊かな音楽文化を探る。古調の吟唱から伝統楽器まで、数千年にわたる文化の継承を目撃する",
     "category": "ja",
     "tags": [
       "原住民",
       "伝統音楽",
       "文化継承",
       "楽器",
-      "祭儀"
+      "祭典"
     ],
     "url": "https://taiwan.md/ja/Music/indigenous-music-traditions",
-    "readingTime": 21,
+    "readingTime": 29,
     "featured": true,
     "date": "2026-03-18",
     "path": "ja/Music/indigenous-music-traditions.md"
@@ -2951,11 +2976,18 @@
   },
   {
     "title": "台湾産業の転換・高度化：製造大国からイノベーション強国へ",
-    "description": "台湾の産業構造は労働集約型から知識集約型へと転換し、「5+2産業イノベーション計画」や「6大核心戦略産業」などの政策を通じて、伝統製造業の高度化と新興産業の発展を推進しています。",
+    "description": "台湾の産業構造は労働集約型から知識集約型へと転換し、「5+2産業イノベーション計画」や「6大核心戦略産業」などの政策を通じて、伝統製造業の高度化と新興産業の推進を図っています。",
     "category": "ja",
-    "tags": [],
+    "tags": [
+      "経済",
+      "産業政策",
+      "転換・高度化",
+      "イノベーション",
+      "製造業",
+      "ハイテク"
+    ],
     "url": "https://taiwan.md/ja/Economy/industrial-transformation-from-manufacturing-to-innovation",
-    "readingTime": 24,
+    "readingTime": 37,
     "featured": true,
     "date": "2026-03-19",
     "path": "ja/Economy/industrial-transformation-from-manufacturing-to-innovation.md"
@@ -3089,7 +3121,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Economy/taiwan-agricultural-modernization",
-    "readingTime": 32,
+    "readingTime": 33,
     "featured": true,
     "date": "2026-03-18",
     "path": "ja/Economy/taiwan-agricultural-modernization.md"
@@ -3115,6 +3147,26 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "ja/Art/taiwan-comics.md"
+  },
+  {
+    "title": "台湾語歌曲の進化：おじさんの歌から文青の新寵へと変貌するアイデンティティ",
+    "description": "台湾の那卡西、洪一峰、江蕙の時代から茄子蛋、拍謝少年などの新世代バンドに至るまでの台湾語歌曲の変遷をたどり、台湾語音楽が若い世代の支持を取り戻すまでの道のりを探る",
+    "category": "ja",
+    "tags": [
+      "台湾語歌曲",
+      "那卡西",
+      "洪一峰",
+      "江蕙",
+      "茄子蛋",
+      "拍謝少年",
+      "珂拉琪",
+      "金曲獎"
+    ],
+    "url": "https://taiwan.md/ja/Music/taiwanese-hokkien-song-evolution",
+    "readingTime": 24,
+    "featured": true,
+    "date": "2026-03-19",
+    "path": "ja/Music/taiwanese-hokkien-song-evolution.md"
   },
   {
     "title": "台湾魯肉飯（ルーローファン）",
@@ -3511,6 +3563,24 @@
     "path": "ja/Lifestyle/taiwan-parks-and-everyday-leisure.md"
   },
   {
+    "title": "台湾の手揺り飲料文化",
+    "description": "タピオカミルクティーからプレミアム茶飲料まで、台湾の手揺り飲料文化の台頭とグローバル展開",
+    "category": "ja",
+    "tags": [
+      "美食",
+      "手揺り飲料",
+      "タピオカミルクティー",
+      "茶飲料",
+      "文化輸出",
+      "ブランド国際化"
+    ],
+    "url": "https://taiwan.md/ja/Food/hand-shaken-drink-culture",
+    "readingTime": 21,
+    "featured": true,
+    "date": "2026-03-19",
+    "path": "ja/Food/hand-shaken-drink-culture.md"
+  },
+  {
     "title": "台湾の手路菜：意味、由来と「拿手好菜」としての宴席文化",
     "description": "手路菜（台湾語 tshiú-lōo-tshài）とは「拿手好菜（得意料理）」のことです。高雄県内門郷の白堊土では作物が育たないにもかかわらず、台湾で最も密度の高い総鋪師（総料理長）を輩出しました——最盛期には年間25,000卓を仕切り、繁忙期の月収は1,200万円に達しました。一鍋の菜尾湯（宴席の最後の吸い物）には4時間から8時間かかり、仕上がりが良し悪しは翌日には村中に知れ渡ります。",
     "category": "ja",
@@ -3721,7 +3791,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Society/taiwan-rural-education",
-    "readingTime": 29,
+    "readingTime": 30,
     "featured": false,
     "date": "2026-04-09",
     "path": "ja/Society/taiwan-rural-education.md"
@@ -3967,17 +4037,6 @@
     "path": "ja/Society/long-term-care-system-development.md"
   },
   {
-    "title": "台湾の冠婚葬祭と人生礼儀",
-    "description": "婚約の十二礼からオープンダイニング文化まで、台湾の人生礼儀が伝統と現代の間でいかに均衡を保っているかを探る",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Culture/taiwanese-life-ceremony-traditions",
-    "readingTime": 30,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "ja/Culture/taiwanese-life-ceremony-traditions.md"
-  },
-  {
     "title": "台湾の屋台料理（台湾小吃）",
     "description": "1987年、春水堂のひとつの失敗が、タピオカミルクティーを60カ国の市場へと送り出した。台湾の屋台料理は、清代の移民たちの生存の道具から、今日では23.3万の屋台が支える4000億産業へと成長した。その成功の方程式は精緻化ではなく、「とりあえずやってみよう」という草の根の勇気である。",
     "category": "ja",
@@ -3992,9 +4051,16 @@
     "title": "台湾の政治環境と選挙制度",
     "description": "憲法の枠組み、中央と地方の選挙メカニズム、そして深層の政党政治文化に至るまで、台湾が複雑な地政学の中で、活力に満ちかつ制度の厳格な民主社会をいかに維持しているかを包括的に解説します",
     "category": "ja",
-    "tags": [],
+    "tags": [
+      "政治体制",
+      "選挙制度",
+      "半大統領制",
+      "地方自治",
+      "市民社会",
+      "デジタル民主主義"
+    ],
     "url": "https://taiwan.md/ja/Society/taiwan-political-landscape-and-electoral-system",
-    "readingTime": 10,
+    "readingTime": 17,
     "featured": false,
     "date": "2026-03-18",
     "path": "ja/Society/taiwan-political-landscape-and-electoral-system.md"
@@ -4157,6 +4223,24 @@
     "path": "ja/Food/taiwan-seafood-culture.md"
   },
   {
+    "title": "台湾の婚喪喜慶と人生礼俗",
+    "description": "婚約の十二礼からオーテン文化まで、台湾の人生礼俗が伝統と現代の間でいかにバランスを取っているかを探る",
+    "category": "ja",
+    "tags": [
+      "婚礼",
+      "葬儀",
+      "人生礼俗",
+      "オーテン文化",
+      "伝統習俗",
+      "現代的変容"
+    ],
+    "url": "https://taiwan.md/ja/Culture/taiwanese-life-ceremony-traditions",
+    "readingTime": 38,
+    "featured": true,
+    "date": "2026-03-18",
+    "path": "ja/Culture/taiwanese-life-ceremony-traditions.md"
+  },
+  {
     "title": "台湾の教育制度：受験地獄から多元的迷宮への島の実験",
     "description": "台湾は30年かけて受験制度を打破しようとしたが、最新の分科テストにより予備校の受験生募集が倍増した。一つの島は、進学の圧力と教育の公平性の間で、どのように社会実験を繰り返してきたのか？",
     "category": "ja",
@@ -4247,11 +4331,19 @@
   },
   {
     "title": "台湾の野球文化",
-    "description": "紅葉少棒の伝説から中華プロ野球の涙と汗へ——野球はどのように台湾の「国球」となったのか",
+    "description": "紅葉少棒の伝説から中華プロ野球の涙と汗へ――野球はいかにして台湾の「国球」となったのか",
     "category": "ja",
-    "tags": [],
+    "tags": [
+      "野球",
+      "中華プロ野球",
+      "紅葉少棒",
+      "国球",
+      "スポーツ",
+      "王建民",
+      "大谷翔平効果"
+    ],
     "url": "https://taiwan.md/ja/Culture/taiwan-baseball-culture",
-    "readingTime": 21,
+    "readingTime": 23,
     "featured": false,
     "date": "2026-03-18",
     "path": "ja/Culture/taiwan-baseball-culture.md"
@@ -4375,11 +4467,18 @@
   },
   {
     "title": "台湾の楽器製造業：后里サックスから世界の音楽工場へ",
-    "description": "台湾の楽器製造業の発展の歩みを探る。后里サックスの世界的覇権からギターの代工王国、さらにはオルゴールの精密工藝まで、台湾がOEMから自社ブランドへとどのように進化してきたかを紹介します。",
+    "description": "台湾の楽器製造業の発展の歩みを探る。后里サックスの世界的覇権からギターの代工王国、さらにオルゴールの精密工藝まで、台湾がOEMから自社ブランドへとどのように進化してきたかを紹介します。",
     "category": "ja",
-    "tags": [],
+    "tags": [
+      "楽器製造",
+      "后里サックス",
+      "ギター代工",
+      "オルゴール",
+      "製造業",
+      "台湾工藝"
+    ],
     "url": "https://taiwan.md/ja/Music/taiwan-instrument-making-from-houli-saxophones-to-global-music-factories",
-    "readingTime": 26,
+    "readingTime": 30,
     "featured": true,
     "date": "2026-03-19",
     "path": "ja/Music/taiwan-instrument-making-from-houli-saxophones-to-global-music-factories.md"
@@ -5016,17 +5115,6 @@
     "path": "ja/Culture/taiwan-variety-shows.md"
   },
   {
-    "title": "台湾のハンドシェイクドリンク文化",
-    "description": "タピオカミルクティーからプレミアム茶飲料まで、台湾のハンドシェイクドリンク文化の台頭と世界的拡大",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Food/hand-shaken-drink-culture",
-    "readingTime": 7,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "ja/Food/hand-shaken-drink-culture.md"
-  },
-  {
     "title": "台湾のパンとベーカリー",
     "description": "呉宝春の世界優勝から85°Cの国際展開まで、台湾式パンの独自の魅力を探る",
     "category": "ja",
@@ -5059,14 +5147,14 @@
     "description": "台湾がユーラシアプレートとフィリピン海プレートの境界に位置する地質特性、および頻繁な地震活動の原因について考察する",
     "category": "ja",
     "tags": [
-      "地質学",
+      "地質",
       "プレート運動",
       "地震",
       "活動断層",
       "自然災害"
     ],
     "url": "https://taiwan.md/ja/Geography/tectonic-plates-and-seismic-activity",
-    "readingTime": 19,
+    "readingTime": 21,
     "featured": true,
     "date": "2026-03-18",
     "path": "ja/Geography/tectonic-plates-and-seismic-activity.md"
@@ -5111,7 +5199,7 @@
       "メディアリテラシー"
     ],
     "url": "https://taiwan.md/ja/Society/media-and-press-freedom-in-taiwan",
-    "readingTime": 21,
+    "readingTime": 24,
     "featured": false,
     "date": "2026-03-18",
     "path": "ja/Society/media-and-press-freedom-in-taiwan.md"
@@ -5368,7 +5456,15 @@
     "title": "台灣人工智慧實驗室 (Taiwan AI Labs)",
     "description": "由「PTT之父」杜奕瑾2017年3月創立的非營利AI研究機構。開源模型：TAIDE（繁體中文大型語言模型）、TAME、FedGPT，超過600億token繁體中文語料。專注智慧醫療、認知戰防制。COVID社交距離App（去中心化藍牙）。",
     "category": "Technology",
-    "tags": [],
+    "tags": [
+      "人工智慧",
+      "智慧醫療",
+      "杜奕瑾",
+      "科技創新",
+      "資訊戰防制",
+      "TAIDE",
+      "PTT"
+    ],
     "url": "https://taiwan.md/Technology/%E5%8F%B0%E7%81%A3%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E5%AF%A6%E9%A9%97%E5%AE%A4",
     "readingTime": 8,
     "featured": true,
@@ -7583,7 +7679,7 @@
       "高科技"
     ],
     "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E7%94%A2%E6%A5%AD%E8%BD%89%E5%9E%8B%E5%8D%87%E7%B4%9A",
-    "readingTime": 27,
+    "readingTime": 33,
     "featured": true,
     "date": "2026-03-19",
     "path": "Economy/台灣產業轉型升級.md"
@@ -8400,7 +8496,7 @@
       "流行音樂"
     ],
     "url": "https://taiwan.md/Music/%E5%8F%B0%E7%81%A3%E5%98%BB%E5%93%88%E8%88%87%E9%A5%92%E8%88%8C%E7%99%BC%E5%B1%95",
-    "readingTime": 34,
+    "readingTime": 33,
     "featured": true,
     "date": "2026-03-19",
     "path": "Music/台灣嘻哈與饒舌發展.md"
@@ -8924,7 +9020,7 @@
       "社交文化"
     ],
     "url": "https://taiwan.md/Music/%E5%8F%B0%E7%81%A3KTV%E6%96%87%E5%8C%96",
-    "readingTime": 30,
+    "readingTime": 27,
     "featured": true,
     "date": "2026-03-19",
     "path": "Music/台灣KTV文化.md"
@@ -9386,7 +9482,7 @@
       "吉他"
     ],
     "url": "https://taiwan.md/People/%E4%BC%8D%E4%BD%B0",
-    "readingTime": 11,
+    "readingTime": 10,
     "featured": false,
     "date": "2026-03-19",
     "path": "People/伍佰.md"
@@ -9695,7 +9791,7 @@
       "遠隔医療"
     ],
     "url": "https://taiwan.md/ja/Technology/taiwan-disaster-medicine-system",
-    "readingTime": 19,
+    "readingTime": 20,
     "featured": false,
     "date": "2026-03-24",
     "path": "ja/Technology/taiwan-disaster-medicine-system.md"
@@ -10481,7 +10577,7 @@
       "多元文学"
     ],
     "url": "https://taiwan.md/ja/Art/post-martial-law-taiwanese-literature",
-    "readingTime": 17,
+    "readingTime": 18,
     "featured": false,
     "date": "2026-03-18",
     "path": "ja/Art/post-martial-law-taiwanese-literature.md"
@@ -10578,7 +10674,7 @@
       "人生哲學"
     ],
     "url": "https://taiwan.md/People/%E6%9D%8E%E5%AE%97%E7%9B%9B",
-    "readingTime": 6,
+    "readingTime": 7,
     "featured": false,
     "date": "2026-03-19",
     "path": "People/李宗盛.md"
@@ -11035,18 +11131,18 @@
   },
   {
     "title": "言語的多様性と母語文化",
-    "description": "台湾語、客家語から原住民族語まで、台湾は多言語社会の中でいかに母語文化を保存し発展させているのか",
+    "description": "台湾語、客家語から原住民語まで、台湾は多言語社会の中でどのように母語文化を保存し発展させているのか",
     "category": "ja",
     "tags": [
       "言語",
       "母語",
       "台湾語",
       "客家語",
-      "原住民族語",
-      "多文化"
+      "原住民語",
+      "多元文化"
     ],
     "url": "https://taiwan.md/ja/Culture/linguistic-diversity-and-mother-tongue-culture",
-    "readingTime": 19,
+    "readingTime": 26,
     "featured": true,
     "date": "2026-03-18",
     "path": "ja/Culture/linguistic-diversity-and-mother-tongue-culture.md"
@@ -11762,6 +11858,26 @@
     "featured": false,
     "date": "2026-04-20",
     "path": "People/林宥嘉.md"
+  },
+  {
+    "title": "林書豪：15日間に2回解雇されてからTPBLダブルMVPで引退するまで",
+    "description": "高校で州優勝を果たしても奨学金はゼロ、ドラフトでは誰も指名せず、15日間で2回解雇された——そして彼は世界に「リンサニティ」を知らしめた",
+    "category": "ja",
+    "tags": [
+      "人物",
+      "バスケットボール",
+      "台湾系アメリカ人",
+      "NBA",
+      "リンサニティ",
+      "ハーバード大学",
+      "P.League+",
+      "TPBL"
+    ],
+    "url": "https://taiwan.md/ja/People/jeremy-lin",
+    "readingTime": 23,
+    "featured": true,
+    "date": "2026-03-19",
+    "path": "ja/People/jeremy-lin.md"
   },
   {
     "title": "林書豪：從 15 天被裁兩次到 TPBL 雙料 MVP 退休的籃球路",
@@ -12985,7 +13101,7 @@
       "culture"
     ],
     "url": "https://taiwan.md/About/%E7%9C%8B%E8%A6%8B%E5%8F%B0%E7%81%A3%E5%BC%95%E8%A8%80%E9%9B%86",
-    "readingTime": 14,
+    "readingTime": 15,
     "featured": true,
     "date": "2026-03-17",
     "path": "About/看見台灣引言集.md"
@@ -13483,7 +13599,7 @@
       "散文家"
     ],
     "url": "https://taiwan.md/ja/People/ximurong",
-    "readingTime": 17,
+    "readingTime": 13,
     "featured": false,
     "date": "2026-03-19",
     "path": "ja/People/ximurong.md"
@@ -14343,17 +14459,19 @@
     "path": "ja/People/tsmc-morris-chang.md"
   },
   {
-    "title": "張明正",
-    "description": "トレンドマイクロ創業者、世界の情報セキュリティ産業の先駆者、台湾ソフトウェア産業の国際化の模範",
+    "title": "張明正：輔仁大学数学科出身、ウイルス対策ソフトを世界に売った男",
+    "description": "1954年生まれ。張明正は輔仁大学数学科を卒業後、アメリカのレイヒー大学（Lehigh University）にてコンピュータ科学の修士号を取得しました。[^1] 1988年、34歳のときに陳怡樺とともにアメリカ・ロサンゼルスでトレンドマイクロを創業し、パーソナルコンピュータ向けソフトウェアの開発に専念しました。[^1] 1991年にウイルス対策ソフトウェア「PC-cillin」を発売。1998年8月18日にトレンドマイクロは東京証券取引所に上場（コード4704）し、同年にNasdaqにも上場しました。[^2] 日本に上場した台湾初のソフトウェア企業となりました。2007年に若水国際を創業、2019年に明怡基金会を設立し、情報セキュリティから社会企業へと軸足を移しました。[^3]",
     "category": "ja",
     "tags": [
-      "トレンドマイクロ",
-      "情報セキュリティ産業",
-      "ソフトウェア産業",
-      "国際化"
+      "科技與企業",
+      "趨勢科技",
+      "資安產業",
+      "軟體業",
+      "國際化",
+      "社會企業"
     ],
     "url": "https://taiwan.md/ja/People/steve-chang",
-    "readingTime": 11,
+    "readingTime": 19,
     "featured": false,
     "date": "2026-03-19",
     "path": "ja/People/steve-chang.md"
@@ -14505,11 +14623,18 @@
   },
   {
     "title": "教育制度と受験文化",
-    "description": "大学入試統一試験制度から十二年国民基本教育まで、台湾の教育が競争と多様性の間でいかに均衡を模索しているか",
+    "description": "大学入試統一試験制度から十二年国教まで、台湾の教育が競争と多様性の間でいかに均衡を模索してきたか",
     "category": "ja",
-    "tags": [],
+    "tags": [
+      "教育",
+      "受験",
+      "十二年国教",
+      "技術・職業教育",
+      "教育改革",
+      "競争文化"
+    ],
     "url": "https://taiwan.md/ja/Society/education-system-and-admissions-culture",
-    "readingTime": 21,
+    "readingTime": 25,
     "featured": true,
     "date": "2026-03-18",
     "path": "ja/Society/education-system-and-admissions-culture.md"
@@ -14732,7 +14857,7 @@
   },
   {
     "title": "清治時期",
-    "description": "1683年から1895年までの約212年間、清朝が台湾を統治した時代。消極的な統治から積極的な建設へと転換し、現代台湾の行政区画と漢人社会の基礎を築きました。",
+    "description": "1683年から1895年までの約212年間、清朝が台湾を統治した時代である。消極的な統治から積極的な建設へと転換し、現代台湾の行政区画と漢人社会の基礎を築いた。",
     "category": "ja",
     "tags": [
       "History",
@@ -14741,7 +14866,7 @@
       "牡丹社事件"
     ],
     "url": "https://taiwan.md/ja/History/qing-dynasty-rule",
-    "readingTime": 10,
+    "readingTime": 16,
     "featured": false,
     "date": "2026-03-17",
     "path": "ja/History/qing-dynasty-rule.md"
@@ -15036,23 +15161,6 @@
     "path": "ja/People/cho-yun-hsu-bridging-historian.md"
   },
   {
-    "title": "許淑淨",
-    "description": "2012年ロンドンオリンピック重量挙げ銀メダルから金メダルへ繰り上がり、2016年リオデジャネイロオリンピック金メダル",
-    "category": "ja",
-    "tags": [
-      "スポーツ",
-      "重量挙げ",
-      "オリンピック",
-      "金メダル",
-      "53kg級"
-    ],
-    "url": "https://taiwan.md/ja/People/hsu-shu-ching-olympic-weightlifting-champion",
-    "readingTime": 13,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "ja/People/hsu-shu-ching-olympic-weightlifting-champion.md"
-  },
-  {
     "title": "許淑淨：崙背1991，台灣首位奧運雙金的53公斤舉重選手",
     "description": "1991年5月9日生於雲林縣崙背鄉客家家庭，身高159cm。2012年倫敦奧運女子53公斤級，219kg（96+123）銀牌，後因金牌得主趙常玲（哈薩克）藥檢未通過，2020年12月遞補為金牌。2016年里約奧運212kg（100+112）直接奪金。台灣首位奧運雙金得主。2018年6月3日退役。2019年因2017年藥檢禁賽三年（不影響奧運金牌）。",
     "category": "People",
@@ -15069,6 +15177,24 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "People/許淑淨.md"
+  },
+  {
+    "title": "許淑淨：崙背1991、台湾初のオリンピックダブル金メダリスト 53kg級重量挙げ選手",
+    "description": "1991年5月9日、雲林県崙背郷の客家家庭に生まれる。身長159cm。2012年ロンドンオリンピック女子53kg級で219kg（スナッチ96kg＋クリーン＆ジャーク123kg）を挙げ銀メダルを獲得。後に金メダリストの趙常玲（カザフスタン）が薬物検査の再検査に不合格となり、2020年12月に金メダルに繰り上がり。2016年リオデジャネイロオリンピックでは212kg（100kg＋112kg）で直接金メダルを獲得。台湾初のオリンピックダブル金メダリスト。2018年6月3日引退。2019年に2017年の薬物検査違反により3年間の出場停止処分（オリンピックの金メダルには影響なし）。",
+    "category": "ja",
+    "tags": [
+      "体育",
+      "重量挙げ",
+      "オリンピック",
+      "金メダル",
+      "53kg級",
+      "雲林"
+    ],
+    "url": "https://taiwan.md/ja/People/hsu-shu-ching-olympic-weightlifting-champion",
+    "readingTime": 17,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "ja/People/hsu-shu-ching-olympic-weightlifting-champion.md"
   },
   {
     "title": "造山者：世紀的賭注 — 一部沒張忠謀的 TSMC 史詩，從新竹拍到普渡",
@@ -15618,7 +15744,7 @@
       "創作歌手"
     ],
     "url": "https://taiwan.md/People/%E9%99%B3%E5%BB%BA%E5%B9%B4",
-    "readingTime": 46,
+    "readingTime": 55,
     "featured": false,
     "date": "2026-05-17",
     "path": "People/陳建年.md"
@@ -16252,17 +16378,18 @@
     "path": "Economy/發票.md"
   },
   {
-    "title": "童子賢",
-    "description": "和碩聯合科技董事長、テクノロジーと人文の跨界思想家、誠品書店の重要な支援者",
+    "title": "童子賢：台北工専から出発し、和碩がアップル最大の代工パートナーに",
+    "description": "1960年6月25日生まれ。童子賢は台北工専（現・国立台北科技大学）電子科を卒業し、台大電機ではありません。1988年に華碩に入社、2008年1月1日に主導して分割を行い、和碩聯合科技を設立。アップル、ソニー、任天堂の代工場となりました。2019年に誠品書店に投資。2025年も「核緑共存」のエネルギー政策主張を発表しています。",
     "category": "ja",
     "tags": [
+      "科技與企業",
       "和碩聯合",
-      "テクノロジー産業",
-      "人文思想",
-      "誠品書店"
+      "電子代工",
+      "ODM",
+      "能源政策"
     ],
     "url": "https://taiwan.md/ja/People/tung-tzu-hsien-tech-humanist",
-    "readingTime": 9,
+    "readingTime": 19,
     "featured": false,
     "date": "2026-03-19",
     "path": "ja/People/tung-tzu-hsien-tech-humanist.md"
@@ -17488,7 +17615,7 @@
       "スマート農業"
     ],
     "url": "https://taiwan.md/ja/Economy/agricultural-technology-and-refined-agriculture",
-    "readingTime": 21,
+    "readingTime": 22,
     "featured": false,
     "date": "2026-03-18",
     "path": "ja/Economy/agricultural-technology-and-refined-agriculture.md"
@@ -17788,6 +17915,27 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "Nature/臺灣的鯨豚.md"
+  },
+  {
+    "title": "臺灣前途決議文：兩個字「目前」，撐了二十七年",
+    "description": "1999 年，林濁水在「國號中華民國」前加了「目前」兩個字，扁系很不高興。兩個字同時安撫獨派和中間選民，為 2000 年首次政黨輪替打開了門。二十七年後，台灣年輕人覺得「台灣本來就是獨立的」是常識，卻不知道這份常識出自一份充滿模糊的文件。",
+    "category": "History",
+    "tags": [
+      "民進黨",
+      "前途決議文",
+      "台獨黨綱",
+      "林濁水",
+      "郭正亮",
+      "陳忠信",
+      "兩岸關係",
+      "政黨輪替",
+      "台灣民主化"
+    ],
+    "url": "https://taiwan.md/History/%E8%87%BA%E7%81%A3%E5%89%8D%E9%80%94%E6%B1%BA%E8%AD%B0%E6%96%87",
+    "readingTime": 31,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "History/臺灣前途決議文.md"
   },
   {
     "title": "臺灣島史觀：被反覆統治的島，如何發明自己的主體性",
@@ -19157,13 +19305,20 @@
     "path": "ja/People/stan-lai-theater-innovation-master.md"
   },
   {
-    "title": "頼清徳：炭鉱夫の家庭から総統府へ至った公衆衛生医師",
-    "description": "台湾第16代総統。中華民国憲政史上初めて副総統の身分のまま総統選に立候補し当選を果たした政治家",
+    "title": "頼清徳：鉱山労働者の家庭から大統領府へ――公衆衛生の医師として",
+    "description": "台湾第16任大統領、中華民国憲政史上初の副大統領からの立候補で当選を果たした政治家",
     "category": "ja",
-    "tags": [],
+    "tags": [
+      "大統領",
+      "医師",
+      "政治家",
+      "民主進歩党",
+      "公衆衛生",
+      "台南"
+    ],
     "url": "https://taiwan.md/ja/People/lai-ching-te",
-    "readingTime": 20,
-    "featured": false,
+    "readingTime": 25,
+    "featured": true,
     "date": "2026-03-19",
     "path": "ja/People/lai-ching-te.md"
   },
@@ -19202,20 +19357,20 @@
     "path": "People/朱一貴.md"
   },
   {
-    "title": "龍應台",
-    "description": "『野火集』の著者、中華圏最具影響力の散文家であり台湾元文化部長",
+    "title": "龍応台：大寮1952、『野火集』から台湾初の文化大臣へ、公共知識人としての軌跡",
+    "description": "1952年2月13日、高雄県大寮郷（現高雄市大寮区）に生まれる。カンザス州立大学英米文学修士、博士課程の学歴に記述の相違あり（P0⚠️）。1985年12月『野火集』初版、21日間で24刷、4ヶ月で10万部突破。2012-2014年台湾初の文化大臣（馬英九任命）。《大江大海一九四九》2009年出版。",
     "category": "ja",
     "tags": [
-      "人物",
-      "龍応台",
+      "文学",
+      "随筆",
       "野火集",
       "大江大海",
-      "散文家",
-      "文化部長",
-      "公共知識分子"
+      "文化大臣",
+      "公共知識人",
+      "高雄"
     ],
     "url": "https://taiwan.md/ja/People/lung-ying-tai",
-    "readingTime": 11,
+    "readingTime": 18,
     "featured": false,
     "date": "2026-03-19",
     "path": "ja/People/lung-ying-tai.md"
@@ -19422,17 +19577,6 @@
     "path": "Economy/螺絲.md"
   },
   {
-    "title": "謝淑薇",
-    "description": "2013年ウィンブルドン女子ダブルス優勝、台湾初のグランドスラムチャンピオン",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/People/su-wei-hsieh-wimbledon-champion",
-    "readingTime": 11,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "ja/People/su-wei-hsieh-wimbledon-champion.md"
-  },
-  {
     "title": "謝淑薇：新竹1986，台灣首位大滿貫冠軍與七座女雙金盃",
     "description": "1986/1/4生於新竹，父謝子龍（台汽巴士司機）2023/10過世。WTA單打最高第23名（2013）。大滿貫女雙冠軍七座（2013溫布頓/2014法網/2019溫布頓/2021溫布頓/2023法網/2023溫布頓/2024澳網）。2021澳網首位進入大滿貫單打四強的台灣女性。2025/7溫布頓女雙亞軍。",
     "category": "People",
@@ -19449,6 +19593,24 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "People/謝淑薇.md"
+  },
+  {
+    "title": "謝淑薇：新竹1986、台湾初のグランドスラム優勝とダブルス7冠",
+    "description": "1986年1月4日、新竹生まれ。父・謝子龍（台湾汽車客運バス運転手）は2023年10月に逝去。WTAシングルス自己最高ランキング23位（2013年）。グランドスラムダブルス優勝7回（2013年ウィンブルドン／2014年全仏オープン／2019年ウィンブルドン／2021年ウィンブルドン／2023年全仏オープン／2023年ウィンブルドン／2024年全豪オープン）。2021年全豪オープンでグランドスラムシングルスベスト4に進出した台湾女性初の選手。2025年7月ウィンブルドンダブルス準優勝。",
+    "category": "ja",
+    "tags": [
+      "体育",
+      "テニス",
+      "ウィンブルドン",
+      "グランドスラム",
+      "ダブルス",
+      "プロテニス"
+    ],
+    "url": "https://taiwan.md/ja/People/su-wei-hsieh-wimbledon-champion",
+    "readingTime": 19,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "ja/People/su-wei-hsieh-wimbledon-champion.md"
   },
   {
     "title": "謝徳慶：14年間の不法滞在を行為芸術に変えた台湾の芸術家",
@@ -19773,22 +19935,6 @@
     "path": "People/魏如萱.md"
   },
   {
-    "title": "魏哲家",
-    "description": "台積電の総裁であり、3ナノメートル製程技術の推進者、半導体製造プロセスの権威",
-    "category": "ja",
-    "tags": [
-      "台積電",
-      "半導体製程",
-      "技術革新",
-      "製造工芸"
-    ],
-    "url": "https://taiwan.md/ja/People/cc-wei",
-    "readingTime": 8,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "ja/People/cc-wei.md"
-  },
-  {
     "title": "魏哲家：1953年，交大電子到耶魯博士到台積電董事長暨總裁",
     "description": "1953年生。交通大學電子工程學士/碩士，耶魯大學電機工程博士。德州儀器→意法半導體→新加坡特許半導體→1998年進台積電。2012年與劉德音共同擔任台積電營運長。2018/6/5接任副董事長兼總裁。2024/6/4劉德音退休後接任董事長，現任台積電董事長暨總裁。",
     "category": "People",
@@ -19804,6 +19950,23 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "People/魏哲家.md"
+  },
+  {
+    "title": "魏哲家：1953年、交大電子からイェール博士から台湾積体電路製造（TSMC）董事長兼社長へ",
+    "description": "1953年生まれ。国立交通大学電子工学部学士・修士、イェール大学電気工学博士。テキサスインスツルメンツ→STマイクロエレクトロニクス→チャータードセミコンダクター→1998年TSMC入社。2012年、劉徳音と共にTSMC共同COO（最高執行責任者）を務める。2018年6月5日、副董事長兼社長に就任。2024年6月4日、劉徳音の退任後、董事長に就任し、現在TSMC董事長兼社長を務めている。",
+    "category": "ja",
+    "tags": [
+      "科技與企業",
+      "台積電",
+      "半導體",
+      "晶圓代工",
+      "製程技術"
+    ],
+    "url": "https://taiwan.md/ja/People/cc-wei",
+    "readingTime": 12,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "ja/People/cc-wei.md"
   },
   {
     "title": "魏徳聖：永康1969、『海角七号』の興行収入1億ドル突破からヴェネツィア国際映画祭コンペティション部門への台湾史詩映画監督",
@@ -19822,7 +19985,15 @@
     "title": "魏德聖：永康1969，《海角七號》破億票房到威尼斯主競賽的台灣史詩導演",
     "description": "1969/8/16生於台南縣永康鄉（今台南市永康區）。遠東工專電機科。2008年《海角七號》票房5.3億（台灣電影紀錄）。2011年《賽德克·巴萊》入圍第68屆威尼斯影展主競賽單元角逐金獅獎，獲第48屆金馬獎最佳劇情片。正籌備《台灣三部曲》史詩計畫。",
     "category": "People",
-    "tags": [],
+    "tags": [
+      "電影與戲劇",
+      "導演",
+      "台灣電影",
+      "原住民文化",
+      "海角七號",
+      "賽德克巴萊",
+      "台南"
+    ],
     "url": "https://taiwan.md/People/%E9%AD%8F%E5%BE%B7%E8%81%96",
     "readingTime": 12,
     "featured": false,
@@ -20393,7 +20564,7 @@
       "IoT"
     ],
     "url": "https://taiwan.md/es/Economy/advantech-technology",
-    "readingTime": 51,
+    "readingTime": 57,
     "featured": false,
     "date": "2026-03-20",
     "path": "es/Economy/advantech-technology.md"
@@ -20409,7 +20580,7 @@
       "IoT"
     ],
     "url": "https://taiwan.md/fr/Economy/advantech-technology",
-    "readingTime": 54,
+    "readingTime": 60,
     "featured": false,
     "date": "2026-03-20",
     "path": "fr/Economy/advantech-technology.md"
@@ -21708,15 +21879,55 @@
     "path": "fr/People/byun-ha-yul.md"
   },
   {
-    "title": "C.C. Wei",
-    "description": "TSMC President, pioneer of 3nm process technology, semiconductor manufacturing master",
+    "title": "C. C. Wei: Born 1953, from NCTU Electronics to Yale PhD to TSMC Chairman and President",
+    "description": "Born in 1953. B.S. and M.S. in Electronics Engineering, National Chiao Tung University; Ph.D. in Electrical Engineering, Yale University. Career path: Texas Instruments → STMicroelectronics → Chartered Semiconductor Manufacturing (Singapore) → joined TSMC in 1998. In 2012, appointed co-COO of TSMC alongside Mark Liu. On June 5, 2018, succeeded as Vice Chairman and President following Morris Chang's retirement. On June 4, 2024, assumed the chairmanship after Mark Liu's retirement; currently serves as TSMC Chairman and President.",
     "category": "en",
-    "tags": [],
+    "tags": [
+      "科技與企業",
+      "台積電",
+      "半導體",
+      "晶圓代工",
+      "製程技術"
+    ],
     "url": "https://taiwan.md/en/People/cc-wei",
-    "readingTime": 28,
+    "readingTime": 30,
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/cc-wei.md"
+  },
+  {
+    "title": "C.C. Wei : de l'Université nationale Chiao Tung à Yale, puis à la présidence de TSMC",
+    "description": "Né en 1953. Licence et maîtrise en génie électronique de l'Université nationale Chiao Tung, doctorat en génie électrique de l'Université Yale. Texas Instruments → STMicroelectronics → Chartered Semiconductor Manufacturing (Singapour) → entrée chez TSMC en 1998. En 2012, nommé directeur général adjoint de TSMC conjointement avec Mark Liu. Le 5 juin 2018, succède à Morris Chang en tant que vice-président du conseil d'administration et directeur général. Le 4 juin 2024, prend la présidence du conseil d'administration après le départ à la retraite de Mark Liu ; actuellement président et directeur général de TSMC.",
+    "category": "fr",
+    "tags": [
+      "Technologie et entreprise",
+      "TSMC",
+      "Semi-conducteurs",
+      "Fonderie de wafers",
+      "Technologie de procédé"
+    ],
+    "url": "https://taiwan.md/fr/People/cc-wei",
+    "readingTime": 35,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "fr/People/cc-wei.md"
+  },
+  {
+    "title": "C.C. Wei: 1953, de Electrónica en la NCTU a doctorado en Yale y presidente-director general de TSMC",
+    "description": "Nacido en 1953. Licenciatura y maestría en Ingeniería Electrónica en la Universidad Nacional Chiao Tung (NCTU), doctorado en Ingeniería Eléctrica en la Universidad de Yale. Trayectoria: Texas Instruments → STMicroelectronics → Chartered Semiconductor Manufacturing (Singapur) → ingreso a TSMC en 1998. En 2012 fue nombrado codirector de operaciones (COO) de TSMC junto con Mark Liu. El 5 de junio de 2018 asumió como vicepresidente del consejo y director general. El 4 de junio de 2024, tras la jubilación de Mark Liu, fue nombrado presidente del consejo. Actualmente es presidente del consejo y director general de TSMC.",
+    "category": "es",
+    "tags": [
+      "科技與企業",
+      "台積電",
+      "半導體",
+      "晶圓代工",
+      "製程技術"
+    ],
+    "url": "https://taiwan.md/es/People/cc-wei",
+    "readingTime": 33,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "es/People/cc-wei.md"
   },
   {
     "title": "Câbles sous-marins : visibles au sommet du bouclier de silicium, invisibles sous la ligne de vie",
@@ -21848,28 +22059,6 @@
     "path": "fr/Technology/digital-id-and-digital-government.md"
   },
   {
-    "title": "CC Wei",
-    "description": "Presidente de TSMC, impulsor de la tecnología de proceso de 3 nm, maestro en procesos de fabricación de semiconductores",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/People/cc-wei",
-    "readingTime": 22,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "es/People/cc-wei.md"
-  },
-  {
-    "title": "CC Wei — Le maître des procédés à 3 nanomètres",
-    "description": "Président de TSMC, artisan des procédés à 3 nanomètres et figure centrale de la domination taïwanaise dans la fabrication de semi-conducteurs",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/People/cc-wei",
-    "readingTime": 19,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "fr/People/cc-wei.md"
-  },
-  {
     "title": "Cerdos Divinos: Un Siglo de Tensión y Transformación entre la Fe de Taiwán y los Derechos de los Animales",
     "description": "La cultura del cerdo divino es una tradición ritual única de los grupos étnicos minnan y hakka de Taiwán, cuyo núcleo consiste en ofrecer cerdos gigantes a las deidades como sacrificio. Sus orígenes se remontan a la fe en los Yi Min (mártires de la justicia) de la dinastía Qing; durante el periodo de dominio japonés, la promoción de la ganadería impulsó su evolución hacia competiciones por el peso. En la actualidad, las prácticas de confinar a los cerdos en “hoyos” (xiaku) para limitar su movimiento y la alimentación forzada han generado controversias sobre el bienestar animal. Los festivales de diversas localidades están transitando hacia modelos de “cerdos divinos creativos” o “cría natural” para buscar un equilibrio entre la fe y la dignidad de la vida.",
     "category": "es",
@@ -21882,11 +22071,18 @@
   },
   {
     "title": "Ceremonias de vida taiwanesas: bodas, funerales y ritos de paso",
-    "description": "Desde los doce ritos del compromiso hasta la cultura de los banquetes al aire libre, explore cómo las ceremonias de vida taiwanesas encuentran un equilibrio entre la tradición y la modernidad",
+    "description": "Desde los doce regalos del compromiso hasta la cultura de los banquetes al aire libre, explore cómo las ceremonias de vida de Taiwán encuentran un equilibrio entre la tradición y la modernidad",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "Bodas",
+      "Funerales",
+      "Ceremonias de vida",
+      "Cultura de banquetes al aire libre",
+      "Costumbres tradicionales",
+      "Transformación moderna"
+    ],
     "url": "https://taiwan.md/es/Culture/taiwanese-life-ceremony-traditions",
-    "readingTime": 99,
+    "readingTime": 113,
     "featured": true,
     "date": "2026-03-18",
     "path": "es/Culture/taiwanese-life-ceremony-traditions.md"
@@ -21951,22 +22147,6 @@
     "featured": false,
     "date": "2026-04-20",
     "path": "en/People/shasha77-chang-chih-chi.md"
-  },
-  {
-    "title": "Chang Ming-Zheng",
-    "description": "Fondateur de Trend Micro, pionnier mondial de la cybersécurité et figure emblématique de l'internationalisation de l'industrie logicielle taïwanaise",
-    "category": "fr",
-    "tags": [
-      "Trend Micro",
-      "cybersécurité",
-      "industrie logicielle",
-      "internationalisation"
-    ],
-    "url": "https://taiwan.md/fr/People/steve-chang",
-    "readingTime": 29,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "fr/People/steve-chang.md"
   },
   {
     "title": "Chang Yu-sheng : de l'idole au prophète, une expérience musicale à travers les époques",
@@ -22559,6 +22739,24 @@
   },
   {
     "title": "Chen Yu-hsun",
+    "description": "Taiwanese comedy film director, creator of Tropical Fish, Zone Pro Sergeant, and My Missing Valentine",
+    "category": "en",
+    "tags": [
+      "陳玉勳",
+      "導演",
+      "喜劇電影",
+      "熱帶魚",
+      "總鋪師",
+      "消失的情人節"
+    ],
+    "url": "https://taiwan.md/en/People/chen-yu-hsun-taiwan-comedy-film-magician",
+    "readingTime": 44,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "en/People/chen-yu-hsun-taiwan-comedy-film-magician.md"
+  },
+  {
+    "title": "Chen Yu-hsun",
     "description": "Réalisateur de comédies taïwanaises, créateur de Tropical Fish, The Gourmet Chef et My Missing Valentine",
     "category": "fr",
     "tags": [],
@@ -22567,17 +22765,6 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "fr/People/chen-yu-hsun-taiwan-comedy-film-magician.md"
-  },
-  {
-    "title": "Chen Yu-Hsun: Taiwan's Warm Comedy Film Magician",
-    "description": "Taiwan's comedy film director behind 'Tropical Fish,' 'Zone Pro Site,' and 'My Missing Valentine'",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/People/chen-yu-hsun-taiwan-comedy-film-magician",
-    "readingTime": 39,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "en/People/chen-yu-hsun-taiwan-comedy-film-magician.md"
   },
   {
     "title": "Chen Yuhsun",
@@ -24380,7 +24567,7 @@
       "défense civile"
     ],
     "url": "https://taiwan.md/fr/Society/taiwan-national-defense-modernization",
-    "readingTime": 117,
+    "readingTime": 122,
     "featured": false,
     "date": "2026-04-10",
     "path": "fr/Society/taiwan-national-defense-modernization.md"
@@ -24419,17 +24606,18 @@
     "path": "en/Economy/delta-electronics-taiwan-power-giant.md"
   },
   {
-    "title": "Democratic System",
-    "description": "Taiwan's journey from authoritarian rule to democracy — through martial law's end, direct presidential elections, and peaceful power transfers that made Taiwan a model of democratic transition",
+    "title": "Democratic System: From the 1987 Lifting of Martial Law to Lai Ching-te in 2024 — Coordinates of Taiwan's 37 Years of Democracy",
+    "description": "Taiwan endured 38 years of authoritarian rule beginning with the 1949 martial law declaration. Martial law was lifted on July 15, 1987, and the first direct presidential election was held in 1996 (Lee Teng-hui). The first party rotation occurred in 2000 (Chen Shui-bian). On May 17, 2019, Taiwan became the first region in Asia to legalize same-sex marriage. On January 13, 2024, Lai Ching-te was elected the 16th president with 40.05% of the vote (5.58 million votes), marking the first time the Democratic Progressive Party won three consecutive presidential elections; the Kuomintang reclaimed its position as the largest party in the Legislative Yuan (52 seats), with the DPP at 51 seats and the Taiwan People's Party at 8 seats — no party held a majority.",
     "category": "en",
     "tags": [
-      "society",
-      "democratization",
-      "martial-law",
-      "presidential-election"
+      "Society",
+      "民主化",
+      "解嚴",
+      "總統直選",
+      "政黨輪替"
     ],
     "url": "https://taiwan.md/en/Society/democratic-system",
-    "readingTime": 30,
+    "readingTime": 42,
     "featured": false,
     "date": "2026-03-17",
     "path": "en/Society/democratic-system.md"
@@ -24675,7 +24863,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Art/no-mans-land-art-platform",
-    "readingTime": 163,
+    "readingTime": 164,
     "featured": false,
     "date": "2026-05-17",
     "path": "fr/Art/no-mans-land-art-platform.md"
@@ -24690,6 +24878,23 @@
     "featured": false,
     "date": "2026-03-18",
     "path": "en/Art/development-of-contemporary-taiwanese-sculpture.md"
+  },
+  {
+    "title": "Development of Cultural and Creative Parks in Taiwan",
+    "description": "From old-building revitalization to creative clusters: the development trajectory and innovative models of Taiwan''s cultural and creative parks",
+    "category": "en",
+    "tags": [
+      "文創園區",
+      "舊建築活化",
+      "創意產業",
+      "都市更新",
+      "文化保存"
+    ],
+    "url": "https://taiwan.md/en/Culture/taiwan-cultural-creative-park-development",
+    "readingTime": 98,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "en/Culture/taiwan-cultural-creative-park-development.md"
   },
   {
     "title": "Development of Taiwan's Audio Industry",
@@ -24870,14 +25075,39 @@
   },
   {
     "title": "Diversidad lingüística y cultura materna",
-    "description": "Desde el taiwanés y el hakka hasta las lenguas indígenas, cómo Taiwán preserva y desarrolla la cultura de las lenguas maternas en una sociedad multilingüe",
+    "description": "Del taiwanés y el hakka a las lenguas indígenas, cómo Taiwán preserva y desarrolla la cultura de las lenguas maternas en una sociedad multilingüe",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "lengua",
+      "lengua materna",
+      "taiwanés",
+      "hakka",
+      "lenguas indígenas",
+      "multiculturalidad"
+    ],
     "url": "https://taiwan.md/es/Culture/linguistic-diversity-and-mother-tongue-culture",
-    "readingTime": 57,
+    "readingTime": 75,
     "featured": true,
     "date": "2026-03-18",
     "path": "es/Culture/linguistic-diversity-and-mother-tongue-culture.md"
+  },
+  {
+    "title": "Diversité linguistique et culture maternelle",
+    "description": "Du taïwanais et du hakka aux langues autochtones, comment Taïwan préserve et développe les cultures maternelles dans une société multilingue",
+    "category": "fr",
+    "tags": [
+      "langue",
+      "langue maternelle",
+      "taïwanais",
+      "hakka",
+      "langues autochtones",
+      "multiculturalisme"
+    ],
+    "url": "https://taiwan.md/fr/Culture/linguistic-diversity-and-mother-tongue-culture",
+    "readingTime": 80,
+    "featured": true,
+    "date": "2026-03-18",
+    "path": "fr/Culture/linguistic-diversity-and-mother-tongue-culture.md"
   },
   {
     "title": "Divisiones administrativas de Taiwán: el mapa de poder desde las \"asambleas locales\" hasta las \"cinco metrópolis\"",
@@ -25201,11 +25431,18 @@
   },
   {
     "title": "Education System and Admissions Culture",
-    "description": "From the joint entrance examination to 12-Year Basic Education, how Taiwan navigates the tension between competition and diversity",
+    "description": "From the Joint College Entrance Examination to 12-Year Basic Education, how Taiwan's education system seeks balance between competition and diversity",
     "category": "en",
-    "tags": [],
+    "tags": [
+      "教育",
+      "升學",
+      "十二年國教",
+      "技職教育",
+      "教育改革",
+      "競爭文化"
+    ],
     "url": "https://taiwan.md/en/Society/education-system-and-admissions-culture",
-    "readingTime": 64,
+    "readingTime": 70,
     "featured": true,
     "date": "2026-03-18",
     "path": "en/Society/education-system-and-admissions-culture.md"
@@ -25667,9 +25904,16 @@
   },
   {
     "title": "El panorama político y el sistema electoral de Taiwán",
-    "description": "Desde el marco constitucional y los mecanismos electorales centrales y locales hasta la profunda cultura política partidista, un análisis integral de cómo Taiwán mantiene una sociedad democrática vibrante e institucionalmente rigurosa en medio de una compleja geopolítica",
+    "description": "Desde el marco constitucional y los mecanismos electorales centrales y locales hasta la profunda cultura política partidista, un análisis integral de cómo Taiwán mantiene una sociedad democrática vibrante y rigurosamente institucionalizada en medio de una compleja geopolítica.",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "sistema político",
+      "sistema electoral",
+      "semipresidencialismo",
+      "autonomía local",
+      "sociedad civil",
+      "democracia digital"
+    ],
     "url": "https://taiwan.md/es/Society/taiwan-political-landscape-and-electoral-system",
     "readingTime": 56,
     "featured": false,
@@ -25689,11 +25933,16 @@
   },
   {
     "title": "El período de gobierno Qing",
-    "description": "De 1683 a 1895, la dinastía Qing gobernó Taiwán durante aproximadamente 212 años, pasando de una administración pasiva a una construcción activa, sentando las bases de la división administrativa moderna de Taiwán y de la sociedad de origen chino.",
+    "description": "De 1683 a 1895, la dinastía Qing gobernó Taiwán durante aproximadamente 212 años, pasando de una administración pasiva a una construcción activa, sentando las bases de la división administrativa moderna de Taiwán y de la sociedad de etnia Han.",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "History",
+      "Dinastía Qing",
+      "Apertura de puertos al comercio",
+      "Incidente de Mudan"
+    ],
     "url": "https://taiwan.md/es/History/qing-dynasty-rule",
-    "readingTime": 33,
+    "readingTime": 54,
     "featured": false,
     "date": "2026-03-17",
     "path": "es/History/qing-dynasty-rule.md"
@@ -25837,11 +26086,18 @@
   },
   {
     "title": "El tejido floral taiwanés",
-    "description": "De producto industrial del periodo colonial japonés a símbolo cultural taiwanés: el viaje de identidad del tejido floral de Taiwán",
+    "description": "De producto industrial del período colonial japonés a símbolo cultural taiwanés: el viaje de identidad del tejido floral de Taiwán",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "cultura",
+      "hakka",
+      "textil",
+      "diseño",
+      "localización",
+      "renacimiento cultural"
+    ],
     "url": "https://taiwan.md/es/Culture/taiwan-floral-fabric",
-    "readingTime": 81,
+    "readingTime": 80,
     "featured": false,
     "date": "2026-03-19",
     "path": "es/Culture/taiwan-floral-fabric.md"
@@ -26392,11 +26648,18 @@
   },
   {
     "title": "Environnement politique et système électoral de Taïwan",
-    "description": "De l'architecture constitutionnelle aux mécanismes électoraux centraux et locaux, en passant par la culture politique partisane, analyse complète de la manière dont Taïwan maintient une société démocratique dynamique et institutionnellement rigoureuse dans un contexte géopolitique complexe",
+    "description": "De l'architecture constitutionnelle aux mécanismes électoraux centraux et locaux, en passant par la culture politique partisane profonde, une analyse complète de la manière dont Taïwan maintient une société démocratique dynamique et institutionnellement rigoureuse dans un contexte géopolitique complexe",
     "category": "fr",
-    "tags": [],
+    "tags": [
+      "Système politique",
+      "Système électoral",
+      "Semi-présidentialisme",
+      "Autonomie locale",
+      "Société civile",
+      "Démocratie numérique"
+    ],
     "url": "https://taiwan.md/fr/Society/political-environment",
-    "readingTime": 56,
+    "readingTime": 58,
     "featured": false,
     "date": "2026-03-18",
     "path": "fr/Society/political-environment.md"
@@ -28108,25 +28371,6 @@
     "path": "People/Howhow.md"
   },
   {
-    "title": "Hsi Mu-jung : La poétesse du désert et du cœur",
-    "description": "Auteure de Sept lieues de jasmin et La Jeunesse sans regrets, poétesse la plus vendue de la littérature chinoise contemporaine, d'origine mongole",
-    "category": "fr",
-    "tags": [
-      "Personnalité",
-      "Hsi Mu-jung",
-      "poésie",
-      "Sept lieues de jasmin",
-      "La Jeunesse sans regrets",
-      "héritage mongol",
-      "prose"
-    ],
-    "url": "https://taiwan.md/fr/People/ximurong",
-    "readingTime": 37,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "fr/People/ximurong.md"
-  },
-  {
     "title": "Hsiao Bi-khim",
     "description": "Born in Japan, elementary school in Tainan, raised in New Jersey, Oberlin graduate — the 'Cat Warrior' who became Taiwan's most successful representative to the United States and then ascended to the vice presidency",
     "category": "en",
@@ -28168,15 +28412,40 @@
     "path": "fr/People/hsiao-bi-khim.md"
   },
   {
-    "title": "Hsieh Su-Wei",
-    "description": "Championne en double dames à Wimbledon 2013, première Taïwanaise à remporter un titre du Grand Chelem",
+    "title": "Hsieh Su-wei : Hsinchu 1986, première championne de Grand Chelem de Taïwan et sept titres de double dames",
+    "description": "Née le 4 janvier 1986 à Hsinchu. Son père, Hsieh Tzu-lung (chauffeur de bus de Taiwan Motor Transport), est décédé en octobre 2023. Meilleur classement WTA en simple : 23ᵉ mondiale (2013). Sept titres de double dames en Grand Chelem (Wimbledon 2013 / Roland-Garros 2014 / Wimbledon 2019 / Wimbledon 2021 / Roland-Garros 2023 / Wimbledon 2023 / Open d'Australie 2024). En 2021, première Taïwanaise à atteindre les demi-finales de simple en Grand Chelem (Open d'Australie). Finaliste du double dames à Wimbledon en juillet 2025.",
     "category": "fr",
-    "tags": [],
+    "tags": [
+      "體育",
+      "網球",
+      "溫布頓",
+      "大滿貫",
+      "女雙",
+      "職業網球"
+    ],
     "url": "https://taiwan.md/fr/People/su-wei-hsieh-wimbledon-champion",
-    "readingTime": 23,
+    "readingTime": 47,
     "featured": false,
     "date": "2026-03-19",
     "path": "fr/People/su-wei-hsieh-wimbledon-champion.md"
+  },
+  {
+    "title": "Hsieh Su-wei: Hsinchu 1986, Taiwan''s First Grand Slam Champion and Seven Women''s Doubles Titles",
+    "description": "Born 1986/1/4 in Hsinchu. Father Hsieh Tzu-long (bus driver for Taiwan Motor Transport) passed away 2023/10. Career-high WTA singles ranking: No. 23 (2013). Seven Grand Slam women''s doubles titles (2013 Wimbledon / 2014 French Open / 2019 Wimbledon / 2021 Wimbledon / 2023 French Open / 2023 Wimbledon / 2024 Australian Open). First Taiwanese woman to reach a Grand Slam singles semifinal (2021 Australian Open). 2025/7 Wimbledon women''s doubles runner-up.",
+    "category": "en",
+    "tags": [
+      "體育",
+      "網球",
+      "溫布頓",
+      "大滿貫",
+      "女雙",
+      "職業網球"
+    ],
+    "url": "https://taiwan.md/en/People/su-wei-hsieh-wimbledon-champion",
+    "readingTime": 41,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "en/People/su-wei-hsieh-wimbledon-champion.md"
   },
   {
     "title": "Hsu Chiao-hsin : de la fille d'un petit-déjeuner à la députée du « plan d'armements de 800 milliards » et la jeunesse par le capital médiatique",
@@ -28257,27 +28526,34 @@
   },
   {
     "title": "Hsu Shu-ching : née à Lunbei en 1991, première haltérophile taiwanaise double médaillée d'or olympique (catégorie 53 kg)",
-    "description": "Née le 9 mai 1991 dans une famille hakka du canton de Lunbei, comté de Yunlin. Taille : 159 cm. Aux Jeux olympiques de Londres 2012 en catégorie 53 kg femmes, elle obtient l'argent avec 219 kg (96 + 123). La médaillée d'or initiale, Zhao Changling (Kazakhstan), ayant échoué au contrôle antidopage, Hsu est promue à l'or en décembre 2020. Aux Jeux olympiques de Rio 2016, elle remporte l'or directement avec 212 kg (100 + 112). Première athlète taiwanaise double championne olympique. Retraite annoncée le 3 juin 2018. En 2019, suspension de trois ans pour un contrôle antidopage de 2017 (sans consécence sur ses deux médailles d'or olympiques).",
+    "description": "Née le 9 mai 1991 dans une famille hakka du canton de Lunbei, district de Yunlin. Taille : 159 cm. Aux Jeux olympiques de Londres 2012, catégorie féminine 53 kg, elle obtient l'argent avec 219 kg (96 + 123). La médaillée d'or initiale, Zhao Changling (Kazakhstan), ayant échoué au contrôle antidopage, Hsu est promue à l'or en décembre 2020. Aux Jeux olympiques de Rio 2016, elle remporte directement l'or avec 212 kg (100 + 112). Première athlète taiwanaise double championne olympique. Retraite annoncée le 3 juin 2018. En 2019, suspension de trois ans pour un contrôle antidopage de 2017 (sans consécence sur ses deux médailles d'or olympiques).",
     "category": "fr",
     "tags": [
-      "體育",
-      "舉重",
-      "奧運",
-      "金牌",
-      "53公斤級",
-      "雲林"
+      "Sport",
+      "Haltérophilie",
+      "Jeux olympiques",
+      "Médaille dor",
+      "Catégorie 53 kg",
+      "Yunlin"
     ],
     "url": "https://taiwan.md/fr/People/hsu-shu-ching-olympic-weightlifting-champion",
-    "readingTime": 40,
+    "readingTime": 41,
     "featured": false,
     "date": "2026-03-19",
     "path": "fr/People/hsu-shu-ching-olympic-weightlifting-champion.md"
   },
   {
     "title": "Hsu Shu-ching: Lunbei 1991, la primera halterófila taiwanesa con dos oros olímpicos en la categoría de 53 kg",
-    "description": "Nacida el 9 de mayo de 1991 en el municipio de Lunbei, condado de Yunlin, en una familia hakka, con una estatura de 159 cm. En los Juegos Olímpicos de Londres 2012, categoría femenina de 53 kg, obtuvo plata con 219 kg (96+123). Posteriormente, tras el resultado adverso en el control antidopaje de la medallista de oro Zhao Changling (Kazajistán), fue ascendida oficialmente a oro en diciembre de 2020. En los Juegos Olímpicos de Río 2016, ganó el oro directamente con 212 kg (100+112). Primera deportista taiwanesa en lograr dos oros olímpicos. Se retiró el 3 de junio de 2018. En 2019 fue suspendida tres años por un control antidopaje de 2017 (sin afectar sus dos oros olímpicos).",
+    "description": "Nacida el 9 de mayo de 1991 en el municipio de Lunbei, condado de Yunlin, en una familia hakka, con una estatura de 159 cm. En los Juegos Olímpicos de Londres 2012, categoría femenina de 53 kg, obtuvo plata con 219 kg (96+123). Posteriormente, tras el resultado adverso en el control antidopaje de la medallista de oro Zhao Changling (Kazajistán), fue ascendida a oro en diciembre de 2020. En los Juegos Olímpicos de Río 2016, ganó el oro directamente con 212 kg (100+112). Primera deportista taiwanesa en lograr dos oros olímpicos. Se retiró el 3 de junio de 2018. En 2019 fue suspendida tres años por un control antidopaje de 2017 (sin afectar sus dos oros olímpicos).",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "Deportes",
+      "Halterofilia",
+      "Juegos Olímpicos",
+      "Oro",
+      "Categoría 53 kg",
+      "Yunlin"
+    ],
     "url": "https://taiwan.md/es/People/hsu-shu-ching-olympic-weightlifting-champion",
     "readingTime": 40,
     "featured": false,
@@ -28285,8 +28561,8 @@
     "path": "es/People/hsu-shu-ching-olympic-weightlifting-champion.md"
   },
   {
-    "title": "Hsu Shu-ching: Lunbei 1991, Taiwan's First Olympic Double Gold Medalist in the 53kg Weightlifting Category",
-    "description": "Born May 9, 1991, in Lunbei Township, Yunlin County, into a Hakka family, height 159cm. At the 2012 London Olympics in the women's 53kg category, she won silver with 219kg (96+123); later, after gold medalist Zhaoling Chang (Kazakhstan) failed a doping retest, Hsu was upgraded to gold in December 2020. At the 2016 Rio Olympics, she won gold outright with 212kg (100+112). Taiwan's first Olympic double gold medalist. Retired June 3, 2018. In 2019, she was suspended for three years due to a 2017 doping test failure (did not affect her two Olympic golds).",
+    "title": "Hsu Shu-ching: Lunbei 1991, Taiwan's First Double Olympic Gold Medalist in the 53 kg Weightlifting Category",
+    "description": "Born May 9, 1991, into a Hakka family in Lunbei Township, Yunlin County; height 159 cm. At the 2012 London Olympics in the women's 53 kg category, she won silver with 219 kg (96 + 123). After gold medalist Zulfiya Chinshanlo (Kazakhstan) failed a retroactive doping test, Hsu was upgraded to gold in December 2020. At the 2016 Rio Olympics, she won gold outright with 212 kg (100 + 112). Taiwan's first double Olympic gold medalist. Retired June 3, 2018. In 2019, received a three-year ban for a 2017 doping violation (did not affect either Olympic gold).",
     "category": "en",
     "tags": [
       "體育",
@@ -28297,7 +28573,7 @@
       "雲林"
     ],
     "url": "https://taiwan.md/en/People/hsu-shu-ching-olympic-weightlifting-champion",
-    "readingTime": 35,
+    "readingTime": 37,
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/hsu-shu-ching-olympic-weightlifting-champion.md"
@@ -28923,6 +29199,23 @@
     "path": "en/Art/indigenous-literature.md"
   },
   {
+    "title": "Indigenous Music Traditions of Taiwan",
+    "description": "Explore the rich musical culture of Taiwan''s 16 indigenous groups, from ancient chants to traditional instruments, witnessing millennia of cultural heritage",
+    "category": "en",
+    "tags": [
+      "原住民",
+      "傳統音樂",
+      "文化傳承",
+      "樂器",
+      "祭典"
+    ],
+    "url": "https://taiwan.md/en/Music/indigenous-music-traditions",
+    "readingTime": 77,
+    "featured": true,
+    "date": "2026-03-18",
+    "path": "en/Music/indigenous-music-traditions.md"
+  },
+  {
     "title": "Indigenous Peoples' History and Naming Rights Movement",
     "description": "From 'barbarians' to 'Indigenous peoples' - a centuries-long struggle for identity recognition and dignity",
     "category": "en",
@@ -29111,16 +29404,16 @@
   },
   {
     "title": "Japanese Colonial Era",
-    "description": "From 1895-1945, Japan ruled Taiwan for 50 years, bringing comprehensive modernization and institutional management while implementing assimilation policies, profoundly influencing Taiwan's social development",
+    "description": "Japan ruled Taiwan for 50 years from 1895 to 1945, bringing comprehensive modernization and institutional management while implementing assimilation policies that profoundly shaped Taiwan's social development",
     "category": "en",
     "tags": [
       "History",
-      "Japanese Rule",
-      "Modernization",
-      "Imperialization Movement"
+      "日本統治",
+      "現代化",
+      "皇民化運動"
     ],
     "url": "https://taiwan.md/en/History/japanese-colonial-era",
-    "readingTime": 29,
+    "readingTime": 39,
     "featured": true,
     "date": "2026-03-17",
     "path": "en/History/japanese-colonial-era.md"
@@ -29200,20 +29493,49 @@
     "path": "fr/People/jensen-huang.md"
   },
   {
-    "title": "Jeremy Lin",
-    "description": "State champion with zero scholarship offers, undrafted, waived twice in 15 days — then he became the most talked-about athlete on Earth",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/People/jeremy-lin",
-    "readingTime": 39,
+    "title": "Jeremy Lin : de deux licenciements en 15 jours à une retraite en double MVP en TPBL",
+    "description": "Champion d'État au lycée sans obtenir de bourse, non drafté, licencié deux fois en 15 jours — puis il a fait découvrir au monde la « Linsanity »",
+    "category": "fr",
+    "tags": [
+      "Personnalité",
+      "Basket-ball",
+      "Américain dorigine taïwanaise",
+      "NBA",
+      "Linsanity",
+      "Université Harvard",
+      "P.League+",
+      "TPBL"
+    ],
+    "url": "https://taiwan.md/fr/People/jeremy-lin",
+    "readingTime": 55,
     "featured": true,
     "date": "2026-03-19",
-    "path": "en/People/jeremy-lin.md"
+    "path": "fr/People/jeremy-lin.md"
   },
   {
-    "title": "Jeremy Lin",
-    "description": "No obtuvo becas tras ganar el campeonato estatal en la secundaria, nadie lo eligió en el draft, fue cortado dos veces en 15 días — y luego hizo que el mundo entero conociera la 'Linsanity'",
+    "title": "Jeremy Lin: de ser cortado dos veces en 15 días a retirarse como MVP doble del TPBL",
+    "description": "Campeón estatal en la secundaria sin beca, no seleccionado en el draft, cortado dos veces en 15 días — y luego hizo que el mundo entero conociera la \"Linsanity\"",
     "category": "es",
+    "tags": [
+      "Personaje",
+      "Baloncesto",
+      "Estadounidense de ascendencia taiwanesa",
+      "NBA",
+      "Linsanity",
+      "Universidad de Harvard",
+      "P.League+",
+      "TPBL"
+    ],
+    "url": "https://taiwan.md/es/People/jeremy-lin",
+    "readingTime": 53,
+    "featured": true,
+    "date": "2026-03-19",
+    "path": "es/People/jeremy-lin.md"
+  },
+  {
+    "title": "Jeremy Lin: From Being Cut Twice in 15 Days to Retiring as a TPBL Double MVP",
+    "description": "A state champion in high school with no scholarship offers, undrafted, cut twice in 15 days — then he made the world know 'Linsanity'",
+    "category": "en",
     "tags": [
       "人物",
       "籃球",
@@ -29224,31 +29546,11 @@
       "P.League+",
       "TPBL"
     ],
-    "url": "https://taiwan.md/es/People/jeremy-lin",
-    "readingTime": 47,
+    "url": "https://taiwan.md/en/People/jeremy-lin",
+    "readingTime": 45,
     "featured": true,
     "date": "2026-03-19",
-    "path": "es/People/jeremy-lin.md"
-  },
-  {
-    "title": "Jeremy Lin",
-    "description": "Champion d'État au lycée sans bourse universitaire, non sélectionné à la draft, licencié deux fois en quinze jours — puis il a fait connaître la « Linsanity » au monde entier",
-    "category": "fr",
-    "tags": [
-      "personnalité",
-      "basketball",
-      "Américain dorigine taïwanaise",
-      "NBA",
-      "Linsanity",
-      "Université Harvard",
-      "P.League+",
-      "TPBL"
-    ],
-    "url": "https://taiwan.md/fr/People/jeremy-lin",
-    "readingTime": 50,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "fr/People/jeremy-lin.md"
+    "path": "en/People/jeremy-lin.md"
   },
   {
     "title": "Jerry Yang : de la connaissance d'un seul mot anglais au père de Yahoo!, porte d'entrée du web mondial",
@@ -30258,7 +30560,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Society/taiwan-rural-education",
-    "readingTime": 80,
+    "readingTime": 81,
     "featured": false,
     "date": "2026-04-09",
     "path": "fr/Society/taiwan-rural-education.md"
@@ -30598,12 +30900,19 @@
     "path": "fr/Technology/taiwan-digital-animation-industry.md"
   },
   {
-    "title": "L'industrie taïwanaise de la facture instrumentale : de Houli à l'atelier du monde",
-    "description": "Découvrez comment Taïwan est devenu un acteur incontournable de la fabrication d'instruments de musique — des saxophones de Houli aux guitares pour les grandes marques mondiales, en passant par la délicate mécanique des boîtes à musique",
+    "title": "L'industrie taïwanaise de la fabrication d'instruments de musique : des saxophones de Houli aux usines musicales mondiales",
+    "description": "Explorez l'évolution de l'industrie taïwanaise de la fabrication d'instruments de musique, de la position dominante mondiale des saxophones de Houli au royaume de la sous-traitance de guitares, en passant par la précision artisanale de la fabrication de boîtes à musique, et découvrez comment Taïwan est passé de la sous-traitance à la création de marques propres.",
     "category": "fr",
-    "tags": [],
+    "tags": [
+      "fabrication dinstruments",
+      "saxophones de Houli",
+      "sous-traitance de guitares",
+      "boîtes à musique",
+      "industrie manufacturière",
+      "artisanat taïwanais"
+    ],
     "url": "https://taiwan.md/fr/Music/taiwan-instrument-making-from-houli-saxophones-to-global-music-factories",
-    "readingTime": 33,
+    "readingTime": 97,
     "featured": true,
     "date": "2026-03-19",
     "path": "fr/Music/taiwan-instrument-making-from-houli-saxophones-to-global-music-factories.md"
@@ -30919,11 +31228,18 @@
   },
   {
     "title": "La cultura de las bebidas preparadas a mano en Taiwán",
-    "description": "Desde el té de burbujas hasta las infusiones de especialidad, el auge y la expansión global de la cultura taiwanesa de bebidas preparadas a mano",
+    "description": "Desde el té de burbujas hasta las infusiones selectas, el auge y la expansión global de la cultura taiwanesa de bebidas preparadas a mano",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "gastronomía",
+      "bebidas preparadas a mano",
+      "té de burbujas",
+      "bebidas de té",
+      "exportación cultural",
+      "internacionalización de marcas"
+    ],
     "url": "https://taiwan.md/es/Food/hand-shaken-drink-culture",
-    "readingTime": 18,
+    "readingTime": 64,
     "featured": true,
     "date": "2026-03-19",
     "path": "es/Food/hand-shaken-drink-culture.md"
@@ -31264,19 +31580,19 @@
     "path": "fr/Lifestyle/taiwan-arcade-culture-and-streetscapes.md"
   },
   {
-    "title": "La culture des boissons à la main à Taïwan",
-    "description": "Du thé à perles aux créations artisanales : l'essor et le rayonnement mondial de la culture taïwanaise des boissons préparées à la main",
+    "title": "La culture des boissons à secouer à Taïwan",
+    "description": "Du bubble tea aux thés de spécialité, l'essor et l'expansion mondiale de la culture des boissons à secouer taïwanaises",
     "category": "fr",
     "tags": [
       "gastronomie",
-      "boissons",
+      "boissons à secouer",
       "bubble tea",
-      "thé",
-      "exportation culturelle",
-      "internationalisation des marques"
+      "boissons au thé",
+      "rayonnement culturel",
+      "internationalisation de marques"
     ],
     "url": "https://taiwan.md/fr/Food/hand-shaken-drink-culture",
-    "readingTime": 28,
+    "readingTime": 63,
     "featured": true,
     "date": "2026-03-19",
     "path": "fr/Food/hand-shaken-drink-culture.md"
@@ -31468,11 +31784,19 @@
   },
   {
     "title": "La culture du baseball à Taïwan",
-    "description": "De la légende de Hongye à la sueur et aux larmes du CPBL — comment le baseball est devenu le « sport national » de Taïwan",
+    "description": "De la légende des jeunes joueurs de Hongye aux larmes et à la sueur de la CPBL — comment le baseball est devenu le « sport national » de Taïwan",
     "category": "fr",
-    "tags": [],
+    "tags": [
+      "baseball",
+      "CPBL",
+      "Hongye",
+      "sport national",
+      "sport",
+      "Wang Chien-ming",
+      "effet Ohtani"
+    ],
     "url": "https://taiwan.md/fr/Culture/taiwan-baseball-culture",
-    "readingTime": 59,
+    "readingTime": 65,
     "featured": false,
     "date": "2026-03-18",
     "path": "fr/Culture/taiwan-baseball-culture.md"
@@ -31764,17 +32088,6 @@
     "path": "es/Society/taiwanese-overseas-and-diaspora.md"
   },
   {
-    "title": "La diversité linguistique et la culture des langues maternelles",
-    "description": "Du taiwanais au hakka en passant par les langues des peuples autochtones : comment Taïwan préserve et développe la culture des langues maternelles dans une société multilingue",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Culture/linguistic-diversity-and-mother-tongue-culture",
-    "readingTime": 59,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "fr/Culture/linguistic-diversity-and-mother-tongue-culture.md"
-  },
-  {
     "title": "La economía de los creadores de medios independientes en Taiwán: un campo de batalla fragmentado de 23 millones de personas",
     "description": "El mercado es menos del 1% del estadounidense, pero el número de plataformas es casi el doble. ¿Cómo sobreviven los creadores taiwaneses?",
     "category": "es",
@@ -31802,7 +32115,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Society/taiwan-rural-education",
-    "readingTime": 76,
+    "readingTime": 77,
     "featured": false,
     "date": "2026-04-09",
     "path": "es/Society/taiwan-rural-education.md"
@@ -32089,12 +32402,19 @@
     "path": "es/Technology/taiwan-drone-industry.md"
   },
   {
-    "title": "La industria taiwanesa de fabricación de instrumentos musicales: del saxofón de Houli a la fábrica musical global",
-    "description": "Explore la evolución de la industria taiwanesa de fabricación de instrumentos musicales, desde el dominio mundial del saxofón de Houli hasta el reino de la fabricación de guitarras bajo contrato, pasando por la precisión artesanal de las cajas de música, y descubra cómo Taiwán pasó de la manufactura por encargo a las marcas propias.",
+    "title": "La industria taiwanesa de fabricación de instrumentos musicales: del saxofón de Houli a las fábricas globales de música",
+    "description": "Explora la historia del desarrollo de la industria taiwanesa de fabricación de instrumentos musicales, desde la posición dominante mundial del saxofón de Houli hasta el reino de la fabricación de guitarras bajo contrato, y la precisión artesanal de la producción de cajas de música. Cómo Taiwán pasó de la manufactura por encargo a las marcas propias.",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "fabricación de instrumentos",
+      "saxofón de Houli",
+      "fabricación de guitarras bajo contrato",
+      "cajas de música",
+      "industria manufacturera",
+      "artesanía taiwanesa"
+    ],
     "url": "https://taiwan.md/es/Music/taiwan-instrument-making-from-houli-saxophones-to-global-music-factories",
-    "readingTime": 82,
+    "readingTime": 96,
     "featured": true,
     "date": "2026-03-19",
     "path": "es/Music/taiwan-instrument-making-from-houli-saxophones-to-global-music-factories.md"
@@ -32859,19 +33179,19 @@
     "path": "es/Society/breakfast-shops-and-community-intelligence-network.md"
   },
   {
-    "title": "La transformation industrielle de Taïwan : d'atelier du monde à puissance innovante",
-    "description": "De l'industrie de main-d'œuvre à l'économie du savoir, Taïwan a restructuré son tissu industriel grâce à des politiques volontaristes — plan « 5+2 industries innovantes », six secteurs stratégiques — pour faire monter en gamme son industrie manufacturière et développer de nouvelles filières d'avenir.",
+    "title": "La transformation industrielle de Taïwan : de grande puissance manufacturière à puissance de l'innovation",
+    "description": "La structure industrielle de Taïwan est passée d'une économie à forte intensité de main-d'œuvre à une économie à forte intensité de savoir, grâce à des politiques telles que le « Plan d'innovation industrielle 5+2 » et les « 6 industries stratégiques clés », favorisant la modernisation de l'industrie manufacturière traditionnelle et le développement des industries émergentes.",
     "category": "fr",
     "tags": [
-      "économie",
-      "politique industrielle",
-      "transformation",
-      "innovation",
-      "industrie manufacturière",
-      "haute technologie"
+      "Économie",
+      "Politique industrielle",
+      "Transformation et modernisation",
+      "Innovation",
+      "Industrie manufacturière",
+      "Haute technologie"
     ],
     "url": "https://taiwan.md/fr/Economy/industrial-transformation-from-manufacturing-to-innovation",
-    "readingTime": 57,
+    "readingTime": 113,
     "featured": true,
     "date": "2026-03-19",
     "path": "fr/Economy/industrial-transformation-from-manufacturing-to-innovation.md"
@@ -32983,30 +33303,37 @@
   },
   {
     "title": "Lai Ching-te : du fils de mineur au médecin de santé publique devenu président",
-    "description": "16e président de la République de Chine (Taiwan), premier personnage politique de l'histoire constitutionnelle de la République de Chine à se présenter et à être élu président alors qu'il était vice-président",
+    "description": "16e président de la République de Chine (Taiwan), premier personnage politique de l'histoire constitutionnelle à se présenter et à être élu président alors qu'il était vice-président",
     "category": "fr",
     "tags": [
-      "président",
-      "médecin",
-      "personnalité politique",
+      "Président",
+      "Médecin",
+      "Personnalité politique",
       "Parti démocrate progressiste",
-      "santé publique",
+      "Santé publique",
       "Tainan"
     ],
     "url": "https://taiwan.md/fr/People/lai-ching-te",
-    "readingTime": 66,
+    "readingTime": 73,
     "featured": true,
     "date": "2026-03-19",
     "path": "fr/People/lai-ching-te.md"
   },
   {
-    "title": "Lai Ching-te: del distrito minero al Palacio Presidencial, un médico de salud pública",
-    "description": "Decimosexto presidente de la República de China (Taiwán) y primer político en la historia constitucional en postularse y ganar la presidencia desde el cargo de vicepresidente.",
+    "title": "Lai Ching-te: de una familia minera a médico de salud pública en el Palacio Presidencial",
+    "description": "Decimosexto presidente de Taiwán, primer personaje político en la historia constitucional de la República de China en postularse y ganar la presidencia ostentando el cargo de vicepresidente",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "presidente",
+      "médico",
+      "político",
+      "Partido Progresista Democrático",
+      "salud pública",
+      "Tainan"
+    ],
     "url": "https://taiwan.md/es/People/lai-ching-te",
-    "readingTime": 65,
-    "featured": false,
+    "readingTime": 76,
+    "featured": true,
     "date": "2026-03-19",
     "path": "es/People/lai-ching-te.md"
   },
@@ -33029,7 +33356,7 @@
     "path": "ko/People/lai-ching-te.md"
   },
   {
-    "title": "Lai Ching-te: The Public Health Physician from a Miner's Family to the Presidential Office",
+    "title": "Lai Ching-te: The Public Health Physician from a Mining Family to the Presidential Office",
     "description": "The 16th President of the Republic of China (Taiwan), and the first political figure in ROC constitutional history to run for president while serving as vice president and win the election",
     "category": "en",
     "tags": [
@@ -33041,7 +33368,7 @@
       "台南"
     ],
     "url": "https://taiwan.md/en/People/lai-ching-te",
-    "readingTime": 56,
+    "readingTime": 63,
     "featured": true,
     "date": "2026-03-19",
     "path": "en/People/lai-ching-te.md"
@@ -33752,7 +34079,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Society/sunflower-movement",
-    "readingTime": 86,
+    "readingTime": 89,
     "featured": true,
     "date": "2026-04-12",
     "path": "fr/Society/sunflower-movement.md"
@@ -34067,7 +34394,7 @@
       "2026"
     ],
     "url": "https://taiwan.md/fr/Society/2026-cheng-xi-meeting-kmt-ccp-decade-reunion",
-    "readingTime": 87,
+    "readingTime": 89,
     "featured": true,
     "date": "2026-04-11",
     "path": "fr/Society/2026-cheng-xi-meeting-kmt-ccp-decade-reunion.md"
@@ -34137,6 +34464,24 @@
     "featured": true,
     "date": "2026-03-23",
     "path": "fr/Geography/national-scenic-area-system.md"
+  },
+  {
+    "title": "Le système éducatif et la culture des examens d'entrée",
+    "description": "Du système d'examens unifiés à l'éducation nationale de douze ans, comment l'éducation taïwanaise cherche l'équilibre entre compétition et diversité",
+    "category": "fr",
+    "tags": [
+      "éducation",
+      "examens dentrée",
+      "éducation nationale de douze ans",
+      "éducation professionnelle et technique",
+      "réforme de léducation",
+      "culture de la compétition"
+    ],
+    "url": "https://taiwan.md/fr/Society/education-system-and-admissions-culture",
+    "readingTime": 82,
+    "featured": true,
+    "date": "2026-03-18",
+    "path": "fr/Society/education-system-and-admissions-culture.md"
   },
   {
     "title": "Le système éducatif taïwanais : de l'enfer du concours unique au labyrinthe du pluralisme",
@@ -34209,6 +34554,24 @@
     "featured": false,
     "date": "2026-03-22",
     "path": "fr/Art/taiwanese-theater-and-performing-arts.md"
+  },
+  {
+    "title": "Le tissu floral taïwanais",
+    "description": "De produit industriel à l'époque coloniale japonaise à symbole culturel local, le parcours identitaire du tissu floral taïwanais",
+    "category": "fr",
+    "tags": [
+      "culture",
+      "Hakka",
+      "textile",
+      "design",
+      "localisation",
+      "renaissance culturelle"
+    ],
+    "url": "https://taiwan.md/fr/Culture/taiwan-floral-fabric",
+    "readingTime": 82,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "fr/Culture/taiwan-floral-fabric.md"
   },
   {
     "title": "Le tourisme inclusif à Taïwan : quand la chaleur humaine devient la meilleure accessibilité",
@@ -34666,6 +35029,24 @@
     "path": "fr/Culture/jiaobei-divination-blocks.md"
   },
   {
+    "title": "Les cérémonies de vie à Taiwan : mariages, funérailles et rites de passage",
+    "description": "Des douze rites de fiançailles à la culture du *pantang* (banquet de rue), explorez comment les cérémonies de vie taïwanaises trouvent un équilibre entre tradition et modernité",
+    "category": "fr",
+    "tags": [
+      "Mariage",
+      "Funérailles",
+      "Rites de passage",
+      "Culture du banquet de rue",
+      "Traditions",
+      "Adaptation moderne"
+    ],
+    "url": "https://taiwan.md/fr/Culture/taiwanese-life-ceremony-traditions",
+    "readingTime": 115,
+    "featured": true,
+    "date": "2026-03-18",
+    "path": "fr/Culture/taiwanese-life-ceremony-traditions.md"
+  },
+  {
     "title": "Les cétacés de Taïwan",
     "description": "Un tiers des espèces de cétacés du monde fréquentent les eaux de Taïwan — de la chasse à la baleine à l'écotourisme, comment l'île est devenue un haut lieu de la recherche marine.",
     "category": "fr",
@@ -35050,12 +35431,12 @@
     "path": "fr/Society/disaster-volunteers-new.md"
   },
   {
-    "title": "Les Super-Héros à la Pelle et la Synchronicité Insulaire : Comment la Culture du Bénévolat en Cas de Catastrophe à Taïwan Forge l'Identité Nationale",
-    "description": "À travers le prisme des inondations de Guangfu (Hualien) en 2025, cet article explore le modèle unique de mobilisation bénévole de Taïwan en situation de catastrophe — comment les réseaux sociaux redéfinissent le sentiment de communauté insulaire, et l'évolution de la résilience sociale depuis le séisme du 921 jusqu'aux inondations de Hualien.",
+    "title": "Les Supermen à pelle et la synchronisation insulaire : comment la culture taïwanaise du bénévolat en cas de catastrophe façonne l'identité nationale",
+    "description": "En partant des « Supermen à pelle » de la crue de Mataian en 2025, cet article retrace la culture du bénévolat en cas de catastrophe accumulée à Taïwan depuis le séisme de Jiji du 21 septembre 1999, le mythe de la crue fondatrice de la tribu de Mataian et la résilience communautaire, le modèle Tzu Chi et les trois postes de commandement en moins de 500 mètres à Guangfu, et examine le moment où la chanson *Nous sommes compatriotes* de Chen Chien-nian est devenue un acte concret lors de cette inondation.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Society/disaster-volunteers",
-    "readingTime": 105,
+    "readingTime": 152,
     "featured": false,
     "date": "2026-03-24",
     "path": "fr/Society/disaster-volunteers.md"
@@ -35078,24 +35459,6 @@
     "path": "fr/Society/taiwan-provincial-tensions.md"
   },
   {
-    "title": "Les tissus à fleurs de Taïwan",
-    "description": "Du produit industriel de l'ère japonaise au symbole culturel identitaire, le voyage des tissus à fleurs de Taïwan",
-    "category": "fr",
-    "tags": [
-      "culture",
-      "Hakka",
-      "textile",
-      "design",
-      "localisation",
-      "renaissance culturelle"
-    ],
-    "url": "https://taiwan.md/fr/Culture/taiwan-floral-fabric",
-    "readingTime": 78,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "fr/Culture/taiwan-floral-fabric.md"
-  },
-  {
     "title": "Les toits en tôle ondulée de Taïwan : 716 372 constructions illégales soutiennent l'horizon urbain",
     "description": "En août 2024, un incendie dans un magasin d'agriculture mécanique à Liujia, Tainan, a coûté la vie à une famille de cinq personnes piégée sous un toit en tôle ondulée au troisième étage. Fin juillet 2023, le nombre total de constructions illégales à Taïwan atteignait 716 372 unités ; le district de New Taipei enregistrait une augmentation annuelle de 32 000 unités. Bien que le gouvernement annonce chaque année des démolitions, le nombre augmente encore de 10 000 unités par an. Cette couche de métal orange et argenté constitue à la fois le paysage urbain le plus laid et la légende urbaine la plus citée en matière de sécurité publique.",
     "category": "fr",
@@ -35105,17 +35468,6 @@
     "featured": false,
     "date": "2026-05-02",
     "path": "fr/Society/taiwan-tin-shed-houses.md"
-  },
-  {
-    "title": "Les traditions musicales des peuples autochtones de Taïwan",
-    "description": "Découvrez la richesse des cultures musicales des 16 peuples autochtones de Taïwan — des chants ancestraux aux instruments traditionnels, témoins de plusieurs millénaires de transmission culturelle",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Music/indigenous-music-traditions",
-    "readingTime": 56,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "fr/Music/indigenous-music-traditions.md"
   },
   {
     "title": "Les vieilles rues de Taïwan : culture et quartiers commerciaux historiques",
@@ -35801,12 +36153,19 @@
     "path": "ja/Lifestyle/line-app-in-taiwan.md"
   },
   {
-    "title": "Linguistic Diversity and Mother Tongue Culture",
-    "description": "From Taiwanese, Hakka to Indigenous languages, how Taiwan preserves and develops mother tongue cultures in a multilingual society",
+    "title": "Linguistic Diversity and Mother-Tongue Culture",
+    "description": "From Taiwanese Hokkien to Hakka and Indigenous languages, how Taiwan preserves and develops mother-tongue cultures in a multilingual society",
     "category": "en",
-    "tags": [],
+    "tags": [
+      "語言",
+      "母語",
+      "台語",
+      "客家話",
+      "原住民語",
+      "多元文化"
+    ],
     "url": "https://taiwan.md/en/Culture/linguistic-diversity-and-mother-tongue-culture",
-    "readingTime": 47,
+    "readingTime": 71,
     "featured": true,
     "date": "2026-03-18",
     "path": "en/Culture/linguistic-diversity-and-mother-tongue-culture.md"
@@ -36068,20 +36427,39 @@
     "path": "en/People/lung-ying-tai.md"
   },
   {
-    "title": "Long Yingtai",
-    "description": "Autora de 'El fuego salvaje', la ensayista más influyente del mundo sinohablante y exministra de Cultura de Taiwán",
-    "category": "es",
+    "title": "Long Yingtai : née à Daliao en 1952, de *Recueil de feu sauvage* à première ministre de la Culture de Taïwan, une intellectuelle publique",
+    "description": "Née le 13 février 1952 dans le canton de Daliao, comté de Kaohsiung (aujourd'hui district de Daliao, Kaohsiung). Maîtrise en littérature anglaise et américaine de la Kansas State University ; le niveau doctoral présente des divergences dans les sources (P0⚠️). *Recueil de feu sauvage* publié pour la première fois en décembre 1985, réimprimé 24 fois en 21 jours, dépassant 100 000 exemplaires en 4 mois. Première ministre de la Culture de Taïwan (2012-2014, nommée par Ma Ying-jeou). *Rivières et mers, 1949* publié en 2009.",
+    "category": "fr",
     "tags": [
-      "人物",
-      "龍應台",
+      "文學",
+      "散文",
       "野火集",
       "大江大海",
-      "散文家",
       "文化部長",
-      "公共知識分子"
+      "公共知識分子",
+      "高雄"
+    ],
+    "url": "https://taiwan.md/fr/People/lung-ying-tai",
+    "readingTime": 52,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "fr/People/lung-ying-tai.md"
+  },
+  {
+    "title": "Long Yingtai: de Daliao 1952, del \"Colección Fuego Salvaje\" a la primera ministra de Cultura de Taiwán como intelectual pública",
+    "description": "Nacida el 13/2/1952 en el municipio de Daliao, condado de Kaohsiung. Maestría en literatura inglesa y estadounidense por la Universidad Estatal de Kansas; la descripción de su doctorado presenta discrepancias (P0⚠️). \"Colección Fuego Salvaje\" publicado por primera vez en diciembre de 1985, reeditado 24 veces en 21 días, superó los 100.000 ejemplares en 4 meses. Primera ministra de Cultura de Taiwán (2012-2014, nombrada por Ma Ying-jeou). \"Gran río, gran mar: 1949\" publicado en 2009.",
+    "category": "es",
+    "tags": [
+      "文學",
+      "散文",
+      "野火集",
+      "大江大海",
+      "文化部長",
+      "公共知識分子",
+      "高雄"
     ],
     "url": "https://taiwan.md/es/People/lung-ying-tai",
-    "readingTime": 34,
+    "readingTime": 51,
     "featured": false,
     "date": "2026-03-19",
     "path": "es/People/lung-ying-tai.md"
@@ -36153,12 +36531,12 @@
     "path": "es/Culture/taiwan-variety-shows.md"
   },
   {
-    "title": "Los superhombres de la pala y la sincronía insular: cómo la cultura de voluntariado en desastres de Taiwán moldea la identidad nacional",
-    "description": "Tomando como espejo la inundación de Guangfu, Hualien, en 2025, este artículo explora cómo el singular modelo de movilización de voluntarios en desastres de Taiwán redefine la conciencia de comunidad insular a través de las redes sociales, trazando la trayectoria evolutiva de la resiliencia social desde el terremoto del 21 de septiembre hasta la inundación de Hualien.",
+    "title": "Los superhombres de la pala y la sincronía de la isla: cómo la cultura de voluntariado en desastres de Taiwán influye en la identidad nacional",
+    "description": "Partiendo de los \"superhombres de la pala\" durante las inundaciones de Mataian en 2025, este artículo repasa la cultura de voluntariado en desastres acumulada en Taiwán desde el terremoto de Jiji del 21 de septiembre de 1999, el mito de la inundación como génesis del pueblo de Mataian y la resiliencia comunitaria, así como el modelo de Tzu Chi y los tres puestos de mando en un radio de 500 metros en Guangfu, donde conviven múltiples centros de mando. También explora el momento en que la canción \"Somos compatriotas\" de Chen Chien-nien se convirtió en acción concreta durante estas inundaciones.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Society/taiwan-disaster-volunteer-culture",
-    "readingTime": 107,
+    "readingTime": 155,
     "featured": false,
     "date": "2026-03-24",
     "path": "es/Society/taiwan-disaster-volunteer-culture.md"
@@ -36306,17 +36684,6 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/lu-yen-hsun-tennis-champion.md"
-  },
-  {
-    "title": "Lung Ying-tai",
-    "description": "Auteure de Wild Fire, essayiste majeure du monde sinophone et ancienne ministre de la Culture de Taïwan",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/People/lung-ying-tai",
-    "readingTime": 28,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "fr/People/lung-ying-tai.md"
   },
   {
     "title": "Luo Dayou : de médecin radiologue à la sortie d'un nouvel album en 2025, depuis *Zhī Hū Zhě Yě* (1982)",
@@ -36684,23 +37051,6 @@
   },
   {
     "title": "Médias et liberté de la presse à Taïwan",
-    "description": "Du contrôle par l'État-parti à l'ère des médias fragmentés : le parcours de démocratisation de la liberté de la presse à Taïwan et les défis de la transformation numérique",
-    "category": "fr",
-    "tags": [
-      "médias",
-      "liberté de la presse",
-      "démocratisation",
-      "transformation numérique",
-      "éducation aux médias"
-    ],
-    "url": "https://taiwan.md/fr/Society/media-and-press-freedom-new",
-    "readingTime": 59,
-    "featured": false,
-    "date": "2026-03-18",
-    "path": "fr/Society/media-and-press-freedom-new.md"
-  },
-  {
-    "title": "Médias et liberté de la presse à Taïwan",
     "description": "Du contrôle du parti-État à l'ère de la guerre des médias : le parcours démocratique de la liberté de la presse à Taïwan et les défis de la transformation numérique",
     "category": "fr",
     "tags": [
@@ -36715,6 +37065,23 @@
     "featured": false,
     "date": "2026-03-18",
     "path": "fr/Society/media-and-press-freedom.md"
+  },
+  {
+    "title": "Médias taïwanais et liberté de la presse",
+    "description": "Du contrôle partisan-étatique à l'ère de la guerre des médias : le processus de démocratisation de la liberté de la presse à Taïwan et les défis de la transformation numérique",
+    "category": "fr",
+    "tags": [
+      "Médias",
+      "Liberté de la presse",
+      "Démocratisation",
+      "Transformation numérique",
+      "Éducation aux médias"
+    ],
+    "url": "https://taiwan.md/fr/Society/media-and-press-freedom-new",
+    "readingTime": 69,
+    "featured": false,
+    "date": "2026-03-18",
+    "path": "fr/Society/media-and-press-freedom-new.md"
   },
   {
     "title": "MediaTek: From Shanzhai King to Chip Throne",
@@ -36746,11 +37113,17 @@
   },
   {
     "title": "Medios de comunicación y libertad de prensa en Taiwán",
-    "description": "Del control del partido-Estado a la era de los medios en guerra: el proceso de democratización de la libertad de prensa en Taiwán y los desafíos de la transformación digital",
+    "description": "Del control del Estado-partido a la era de los medios en guerra: el proceso de democratización de la libertad de prensa en Taiwán y los desafíos de la transformación digital",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "Medios de comunicación",
+      "Libertad de prensa",
+      "Democratización",
+      "Transformación digital",
+      "Alfabetización mediática"
+    ],
     "url": "https://taiwan.md/es/Society/media-and-press-freedom-in-taiwan",
-    "readingTime": 61,
+    "readingTime": 67,
     "featured": false,
     "date": "2026-03-18",
     "path": "es/Society/media-and-press-freedom-in-taiwan.md"
@@ -36895,29 +37268,35 @@
     "path": "fr/Technology/miin-music-app.md"
   },
   {
-    "title": "Ming Hua Yuan",
-    "description": "From outdoor temple stages to the Taipei Arena, Taiwan's top-tier opera brand proves through four generations of dedication: tradition is not past tense, it is present continuous.",
+    "title": "Ming Hua Yuan: Founded in Tainan in 1929, the Four-Generation Chen Family's Taiwanese Opera Empire",
+    "description": "Founded by Chen Ming-chi in Tainan in 1929, relocated to Chaozhou, Pingtung in 1962. The second generation, Chen Sheng-fu, introduced modern theater technology, bringing Taiwanese opera to the National Theater. Its eight sub-troupes—Tian, Di, Xuan, Huang, Ri, Yue, Xing, Chen—toured *Sanxi* for the fourth time in 2024 to mark the troupe's 95th anniversary.",
     "category": "en",
     "tags": [
+      "藝術與設計",
       "歌仔戲",
       "傳統藝術",
       "表演藝術",
-      "明華園",
-      "陳勝福"
+      "四代傳承"
     ],
     "url": "https://taiwan.md/en/People/ming-hua-yuan",
-    "readingTime": 16,
+    "readingTime": 43,
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/ming-hua-yuan.md"
   },
   {
-    "title": "Ming Hua Yuan",
-    "description": "Desde los escenarios al aire libre hasta el Taipei Arena, la primera marca de ópera gezaixi de Taiwán demuestra con cuatro generaciones de perseverancia que la tradición no es tiempo pasado, sino tiempo presente",
+    "title": "Ming Hua Yuan: fundado en 1929 en Tainan, el imperio de la ópera taiwanesa de cuatro generaciones de la familia Chen",
+    "description": "Fundado por Chen Mingji en Tainan en 1929, se trasladó a Chaozhou, Pingtung, en 1962. La segunda generación, Chen Shengfu, introdujo tecnología teatral moderna, llevando la ópera taiwanesa al Teatro Nacional. Con ocho subcompañías —Tian, Di, Xuan, Huang, Ri, Yue, Xing, Chen—, en 2024 la obra *Sanxi* realizó su cuarta gira para conmemorar el 95.º aniversario.",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "Arte y diseño",
+      "Ópera taiwanesa",
+      "Arte tradicional",
+      "Artes escénicas",
+      "Herencia de cuatro generaciones"
+    ],
     "url": "https://taiwan.md/es/People/ming-hua-yuan",
-    "readingTime": 18,
+    "readingTime": 47,
     "featured": false,
     "date": "2026-03-19",
     "path": "es/People/ming-hua-yuan.md"
@@ -37149,7 +37528,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Economy/taiwan-agricultural-modernization",
-    "readingTime": 115,
+    "readingTime": 117,
     "featured": true,
     "date": "2026-03-18",
     "path": "fr/Economy/taiwan-agricultural-modernization.md"
@@ -37160,7 +37539,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Economy/taiwan-agricultural-modernization",
-    "readingTime": 109,
+    "readingTime": 112,
     "featured": true,
     "date": "2026-03-18",
     "path": "es/Economy/taiwan-agricultural-modernization.md"
@@ -37327,11 +37706,17 @@
   },
   {
     "title": "Movimiento de placas tectónicas y actividad sísmica en Taiwán",
-    "description": "Explora las características geológicas de Taiwán, situado en la frontera convergente entre la placa Euroasiática y la placa del Mar de Filipinas, así como las causas de su frecuente actividad sísmica.",
+    "description": "Exploración de las características geológicas de Taiwán, situado en la frontera convergente entre la placa euroasiática y la placa del Mar de Filipinas, así como las causas de su frecuente actividad sísmica",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "Geología",
+      "Movimiento de placas",
+      "Sismos",
+      "Fallas activas",
+      "Desastres naturales"
+    ],
     "url": "https://taiwan.md/es/Geography/tectonic-plates-and-seismic-activity",
-    "readingTime": 62,
+    "readingTime": 67,
     "featured": true,
     "date": "2026-03-18",
     "path": "es/Geography/tectonic-plates-and-seismic-activity.md"
@@ -38281,6 +38666,17 @@
   },
   {
     "title": "Park Min-seo",
+    "description": "Joining the TSG Hawks Wing Stars under the name 'Mingo,' she took on the roles of performance director and Korean import within the southern home-field system, representing an alternative path in the CPBL cheerleading squad's 'institutionalization of foreign talent.'",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/People/park-min-seo",
+    "readingTime": 12,
+    "featured": false,
+    "date": "2026-05-13",
+    "path": "en/People/park-min-seo.md"
+  },
+  {
+    "title": "Park Min-seo",
     "description": "De los campos de béisbol de Corea del Sur a Taiwán, con una presencia escénica estable y una interacción cercana, se convirtió en una figura clave de la generación de animadoras coreanas de los CTBC Brothers.",
     "category": "es",
     "tags": [
@@ -38308,17 +38704,6 @@
     "featured": false,
     "date": "2026-04-14",
     "path": "fr/People/park-min-seo.md"
-  },
-  {
-    "title": "Park Min-seo (Mingo)",
-    "description": "From Korea to Taiwan’s ballpark — stable stage presence and approachable interaction make her a key member of the CTBC Korean cheer generation.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/People/park-min-seo",
-    "readingTime": 12,
-    "featured": false,
-    "date": "2026-04-14",
-    "path": "en/People/park-min-seo.md"
   },
   {
     "title": "Park Sung-eun",
@@ -38540,11 +38925,16 @@
   },
   {
     "title": "Période de domination Qing",
-    "description": "De 1683 à 1895, la dynastie Qing a gouverné Taïwan pendant environ 212 ans, passant d'une administration passive à une construction active, posant les fondations de la structure administrative moderne de Taïwan et de la société han.",
+    "description": "De 1683 à 1895, la dynastie Qing a gouverné Taïwan pendant environ 212 ans, passant d'une administration passive à une construction active, posant les bases de la division administrative moderne de Taïwan et de la société han.",
     "category": "fr",
-    "tags": [],
+    "tags": [
+      "History",
+      "Dynastie Qing",
+      "Ouverture commerciale",
+      "Incident de Mudan"
+    ],
     "url": "https://taiwan.md/fr/History/qing-dynasty-rule",
-    "readingTime": 32,
+    "readingTime": 55,
     "featured": false,
     "date": "2026-03-17",
     "path": "fr/History/qing-dynasty-rule.md"
@@ -39363,17 +39753,17 @@
     "path": "es/Art/qseries-drama-platform.md"
   },
   {
-    "title": "Qing Dynasty Rule of Taiwan",
-    "description": "212 years of Qing rule over Taiwan from 1683 to 1895: from passive governance to active development, laying the foundations for modern Taiwan's administrative divisions and Han settler society",
+    "title": "Qing Dynasty Rule",
+    "description": "From 1683 to 1895, the Qing dynasty ruled Taiwan for approximately 212 years, transitioning from passive governance to active development, laying the foundation for modern Taiwan's administrative divisions and Han Chinese society.",
     "category": "en",
     "tags": [
-      "history",
-      "qing-dynasty",
-      "treaty-port-opening",
-      "mudan-incident"
+      "History",
+      "清朝",
+      "開港通商",
+      "牡丹社事件"
     ],
     "url": "https://taiwan.md/en/History/qing-dynasty-rule",
-    "readingTime": 29,
+    "readingTime": 49,
     "featured": false,
     "date": "2026-03-17",
     "path": "en/History/qing-dynasty-rule.md"
@@ -39457,7 +39847,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Technology/taiwan-disaster-medicine-system",
-    "readingTime": 55,
+    "readingTime": 56,
     "featured": false,
     "date": "2026-03-24",
     "path": "fr/Technology/taiwan-disaster-medicine-system.md"
@@ -39912,17 +40302,6 @@
     "path": "en/People/ricky-hsiao-singer.md"
   },
   {
-    "title": "Rites de passage et cérémonies à Taïwan : de la naissance au deuil",
-    "description": "Des douze cadeaux de fiançailles aux banquets de rue, découvrez comment les rituels de la vie taïwanaise naviguent entre tradition et modernité",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Culture/taiwanese-life-ceremony-traditions",
-    "readingTime": 90,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "fr/Culture/taiwanese-life-ceremony-traditions.md"
-  },
-  {
     "title": "Robert Swinhoe : Quand un diplomate devenait naturaliste",
     "description": "En 1856, un jeune interprète britannique de 19 ans nota le premier oiseau qu'il vit sur la côte ouest de Formose. Quatre ans plus tard, il publia 52 articles qui révélèrent au monde, pour la première fois, la faune et la flore de cette île. Il mourut à Londres à 41 ans, mais les espèces qu'il nomma vivent encore aujourd'hui dans les forêts de Taïwan.",
     "category": "fr",
@@ -40311,12 +40690,12 @@
     "path": "es/People/shih-ming-te.md"
   },
   {
-    "title": "Shovel Superheroes and Island Synchronicity: How Taiwan's Disaster Volunteer Culture Shapes National Identity",
-    "description": "Using the 2025 Guangfu Township flood in Hualien as a lens, this article explores how Taiwan's unique disaster volunteer mobilization model redefines island-wide collective consciousness through social media, tracing the evolutionary trajectory of social resilience from the 921 Earthquake to the Hualien flood.",
+    "title": "Shovel Supermen and Island Synchronicity: How Taiwan's Disaster Volunteer Culture Shapes National Identity",
+    "description": "Starting from the \"shovel supermen\" of the 2025 Mataian flood, this article looks back at Taiwan's accumulated disaster volunteer culture since the 1999 921 Chi-Chi earthquake, the flood creation myth and community resilience of the Fata'an (Mataian) tribe, the Tzu Chi model versus the three competing command posts within 500 meters of Guangfu Station, and the moment when Chen Chien-nian's song \"We Are Compatriots\" became concrete action in the floodwaters.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Society/taiwan-disaster-volunteer-culture",
-    "readingTime": 95,
+    "readingTime": 134,
     "featured": false,
     "date": "2026-03-24",
     "path": "en/Society/taiwan-disaster-volunteer-culture.md"
@@ -40367,11 +40746,18 @@
   },
   {
     "title": "Sistema educativo y cultura de admisión académica",
-    "description": "Del sistema de exámenes unificados a la educación obligatoria de doce años, cómo la educación en Taiwán busca un equilibrio entre la competencia y la diversidad",
+    "description": "Desde el sistema de exámenes unificados hasta la educación obligatoria de doce años, cómo la educación en Taiwán busca un equilibrio entre la competencia y la diversidad",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "educación",
+      "admisión académica",
+      "educación obligatoria de doce años",
+      "educación técnico-profesional",
+      "reforma educativa",
+      "cultura de competencia"
+    ],
     "url": "https://taiwan.md/es/Society/education-system-and-admissions-culture",
-    "readingTime": 73,
+    "readingTime": 79,
     "featured": true,
     "date": "2026-03-18",
     "path": "es/Society/education-system-and-admissions-culture.md"
@@ -40810,26 +41196,58 @@
     "path": "es/People/stefanie-sun.md"
   },
   {
-    "title": "Steve Chang",
-    "description": "Fundador de Trend Micro, pionero mundial de la industria de ciberseguridad y modelo de internacionalización del sector software taiwanés",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/People/steve-chang",
-    "readingTime": 29,
+    "title": "Steve Chang : diplômé en mathématiques de l'université Fu Jen, il a vendu des logiciels antivirus au monde entier",
+    "description": "Né en 1954, Steve Chang est diplômé en mathématiques de l'université Fu Jen Catholique, puis a obtenu un master en informatique à l'université Lehigh aux États-Unis. En 1988, à 34 ans, il cofonde Trend Micro avec Eva Chen à Los Angeles. Le 18 août 1998, Trend Micro est cotée à la Bourse de Tokyo (4704) et la même année au Nasdaq, devenant la première entreprise de logiciels taïwanaise cotée au Japon. En 2007, il crée Flow Social Enterprise, puis fonde la Ming Yi Foundation en 2019, orientant son parcours de la cybersécurité vers l'entreprise sociale.",
+    "category": "fr",
+    "tags": [
+      "科技與企業",
+      "趨勢科技",
+      "資安產業",
+      "軟體業",
+      "國際化",
+      "社會企業"
+    ],
+    "url": "https://taiwan.md/fr/People/steve-chang",
+    "readingTime": 47,
     "featured": false,
     "date": "2026-03-19",
-    "path": "es/People/steve-chang.md"
+    "path": "fr/People/steve-chang.md"
   },
   {
-    "title": "Steve Chang (張明正)",
-    "description": "Founder of Trend Micro and a pioneer who proved Taiwan’s software industry could lead globally in cybersecurity.",
+    "title": "Steve Chang: A Fu Jen Catholic University Math Graduate Who Sold Antivirus Software to the World",
+    "description": "Born in 1954, Steve Chang graduated from the Department of Mathematics at Fu Jen Catholic University, then went to the United States to earn a master's degree in computer science from Lehigh University. In 1988, at age 34, he co-founded Trend Micro with Eva Chen in Los Angeles. On August 18, 1998, Trend Micro listed on the Tokyo Stock Exchange (ticker: 4704) and on Nasdaq the same year, becoming the first Taiwanese software company to list in Japan. In 2007 he founded Social Ventures Taiwan, and in 2019 established the Ming-Yi Foundation, pivoting from information security to social enterprise.",
     "category": "en",
-    "tags": [],
+    "tags": [
+      "科技與企業",
+      "趨勢科技",
+      "資安產業",
+      "軟體業",
+      "國際化",
+      "社會企業"
+    ],
     "url": "https://taiwan.md/en/People/steve-chang",
-    "readingTime": 26,
+    "readingTime": 44,
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/steve-chang.md"
+  },
+  {
+    "title": "Steve Chang: egresado de la Facultad de Matemáticas de la Universidad Fu Jen, quien vendió software antivirus al mundo entero",
+    "description": "Nacido en 1954, Steve Chang se graduó en la Facultad de Matemáticas de la Universidad Fu Jen y posteriormente obtuvo una maestría en informática en la Universidad Lehigh de Estados Unidos. En 1988, a los 34 años, fundó Trend Micro junto con Eva Chen en Los Ángeles, Estados Unidos. El 18 de agosto de 1998, Trend Micro cotizó en la Bolsa de Valores de Tokio (4704) y ese mismo año en la Bolsa de Nasdaq, convirtiéndose en la primera empresa de software taiwanesa en cotizar en Japón. En 2007 fundó Flow International y en 2019 estableció la Fundación Ming-Yi, transitando de la ciberseguridad al emprendimiento social.",
+    "category": "es",
+    "tags": [
+      "科技與企業",
+      "Trend Micro",
+      "Ciberseguridad",
+      "Industria del software",
+      "Internacionalización",
+      "Emprendimiento social"
+    ],
+    "url": "https://taiwan.md/es/People/steve-chang",
+    "readingTime": 48,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "es/People/steve-chang.md"
   },
   {
     "title": "Steve Chen",
@@ -40953,26 +41371,22 @@
     "path": "en/People/su-tseng-chang.md"
   },
   {
-    "title": "Su Wei-hsieh",
-    "description": "Campeona de dobles femeninos en Wimbledon 2013, primera campeona de Grand Slam de Taiwán",
+    "title": "Su-wei Hsieh: Hsinchu 1986, primera campeona de Grand Slam de Taiwán y siete títulos de dobles femeninos",
+    "description": "Nacida el 4 de enero de 1986 en Hsinchu. Su padre, Hsieh Tzu-lung (conductor de autobuses de Taiwan Motor Transport), falleció en octubre de 2023. Máxima clasificación individual en la WTA: n.º 23 (2013). Siete títulos de dobles femeninos en Grand Slam: Wimbledon 2013 / Roland Garros 2014 / Wimbledon 2019 / Wimbledon 2021 / Roland Garros 2023 / Wimbledon 2023 / Abierto de Australia 2024. Primera mujer taiwanesa en alcanzar las semifinales individuales de un Grand Slam (Abierto de Australia 2021). Subcampeona de dobles femeninos en Wimbledon, julio de 2025.",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "Deportes",
+      "Tenis",
+      "Wimbledon",
+      "Grand Slam",
+      "Dobles femeninos",
+      "Tenis profesional"
+    ],
     "url": "https://taiwan.md/es/People/su-wei-hsieh-wimbledon-champion",
-    "readingTime": 29,
+    "readingTime": 46,
     "featured": false,
     "date": "2026-03-19",
     "path": "es/People/su-wei-hsieh-wimbledon-champion.md"
-  },
-  {
-    "title": "Su-Wei Hsieh: Taiwan's Tennis Trailblazer",
-    "description": "2013 Wimbledon women's doubles champion, Taiwan's first Grand Slam titlist",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/People/su-wei-hsieh-wimbledon-champion",
-    "readingTime": 25,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "en/People/su-wei-hsieh-wimbledon-champion.md"
   },
   {
     "title": "Submarine Cables: Visible Above the Silicon Shield, the Lifeline Invisible Below",
@@ -41090,17 +41504,6 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/sylvia-chang.md"
-  },
-  {
-    "title": "Système éducatif et culture de l'admission scolaire à Taïwan",
-    "description": "Du système de concours unifié à l'éducation nationale de douze ans : comment Taïwan cherche l'équilibre entre compétition et diversité",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Society/education-system-and-admissions-culture",
-    "readingTime": 71,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "fr/Society/education-system-and-admissions-culture.md"
   },
   {
     "title": "Systèmes fluviaux et hydrologie de Taïwan : des cours d'eau courts, rapides et saisonniers",
@@ -41779,11 +42182,18 @@
   },
   {
     "title": "Taiwan Floral Fabric",
-    "description": "From Japanese colonial industrial products to symbols of local cultural identity, Taiwan floral fabric's journey of identity transformation",
+    "description": "From a Japanese-era factory product to a symbol of local culture: the identity journey of Taiwan floral fabric",
     "category": "en",
-    "tags": [],
+    "tags": [
+      "文化",
+      "客家",
+      "紡織",
+      "設計",
+      "本土化",
+      "文化復興"
+    ],
     "url": "https://taiwan.md/en/Culture/taiwan-floral-fabric",
-    "readingTime": 66,
+    "readingTime": 69,
     "featured": false,
     "date": "2026-03-19",
     "path": "en/Culture/taiwan-floral-fabric.md"
@@ -41879,6 +42289,24 @@
     "path": "en/Lifestyle/taiwan-hairstyles.md"
   },
   {
+    "title": "Taiwan Hand-Shaken Drink Culture",
+    "description": "From bubble tea to premium tea beverages, the rise and global expansion of Taiwan hand-shaken drink culture",
+    "category": "en",
+    "tags": [
+      "美食",
+      "手搖飲",
+      "珍珠奶茶",
+      "茶飲",
+      "文化輸出",
+      "品牌國際化"
+    ],
+    "url": "https://taiwan.md/en/Food/hand-shaken-drink-culture",
+    "readingTime": 53,
+    "featured": true,
+    "date": "2026-03-19",
+    "path": "en/Food/hand-shaken-drink-culture.md"
+  },
+  {
     "title": "Taiwan Healthcare and National Health Insurance",
     "description": "The paradox of 99.9% coverage: How the world's cheapest healthcare system forces three-quarters of hospitals to operate at a loss",
     "category": "en",
@@ -41917,25 +42345,20 @@
     "path": "en/Lifestyle/taiwan-high-speed-rail.md"
   },
   {
-    "title": "Taiwan Hip-Hop and Rap",
-    "description": "From MC HotDog (熱狗) and Dwagie (大支) to MJ116 (頑童MJ116), Soft Lipa (蛋堡), and Leo王 — the localization of Taiwanese hip-hop culture and its recognition at the Golden Melody Awards",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Music/taiwan-hip-hop-and-rap",
-    "readingTime": 67,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "en/Music/taiwan-hip-hop-and-rap.md"
-  },
-  {
     "title": "Taiwan Historic Streets and Commercial Districts",
-    "description": "From Dihua Street to Jiufen Old Street: The historical transformation and cultural preservation of Taiwan's traditional commercial districts",
+    "description": "From the bustling ports of the Qing dynasty to the Baroque-style shophouses of the Japanese colonial era, Taiwan's historic streets are a people's history written in brick and tile.",
     "category": "en",
-    "tags": [],
+    "tags": [
+      "老街",
+      "歷史街區",
+      "文化保存",
+      "觀光",
+      "建築"
+    ],
     "url": "https://taiwan.md/en/Culture/taiwan-historic-streets-and-commercial-districts",
-    "readingTime": 60,
+    "readingTime": 97,
     "featured": false,
-    "date": "2026-03-19",
+    "date": "2026-03-20",
     "path": "en/Culture/taiwan-historic-streets-and-commercial-districts.md"
   },
   {
@@ -42049,6 +42472,24 @@
     "featured": false,
     "date": "2026-04-07",
     "path": "en/Culture/taiwan-indigo-dyeing.md"
+  },
+  {
+    "title": "Taiwan Instrument Manufacturing: From Houli Saxophones to Global Music Factories",
+    "description": "Explore the development of Taiwan''s instrument manufacturing industry, from Houli saxophones'' dominance of the global market to the guitar OEM kingdom, to the precision craftsmanship of music box manufacturing — and how Taiwan transitioned from contract manufacturing to building its own brands",
+    "category": "en",
+    "tags": [
+      "樂器製造",
+      "后里薩克斯風",
+      "吉他代工",
+      "音樂盒",
+      "製造業",
+      "台灣工藝"
+    ],
+    "url": "https://taiwan.md/en/Music/taiwan-instrument-making-from-houli-saxophones-to-global-music-factories",
+    "readingTime": 81,
+    "featured": true,
+    "date": "2026-03-19",
+    "path": "en/Music/taiwan-instrument-making-from-houli-saxophones-to-global-music-factories.md"
   },
   {
     "title": "Taiwan Island Historiography: How an Island Repeatedly Ruled Invented Its Own Subjectivity",
@@ -42807,17 +43248,6 @@
     "path": "en/Economy/taiwan-creator-economy.md"
   },
   {
-    "title": "Taiwan's Cultural Creative Park Development",
-    "description": "From historic building revitalization to creative clusters: Taiwan's cultural creative park development journey and innovative models",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Culture/taiwan-cultural-creative-park-development",
-    "readingTime": 60,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "en/Culture/taiwan-cultural-creative-park-development.md"
-  },
-  {
     "title": "Taiwan's Defense and Military Modernization",
     "description": "In October 2025, Lai Ching-te presided over the commissioning of an M1A2T tank battalion in Hukou. In the same month, former Chief of the General Staff Li Hsi-ming smiled wryly, saying, 'If tanks can be asymmetric weapons, what isn't an asymmetric weapon?' This is the story of an island torn between two defense logics.",
     "category": "en",
@@ -43205,7 +43635,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Technology/taiwan-gaming-industry",
-    "readingTime": 45,
+    "readingTime": 46,
     "featured": true,
     "date": "2026-03-18",
     "path": "en/Technology/taiwan-gaming-industry.md"
@@ -43220,17 +43650,6 @@
     "featured": true,
     "date": "2026-03-17",
     "path": "en/Geography/geography-and-geology.md"
-  },
-  {
-    "title": "Taiwan’s Hand-Shaken Drink Culture: From Bubble Tea to a Global Lifestyle",
-    "description": "How a cup of tea became an industry, a social ritual, and one of Taiwan’s most recognizable cultural exports",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Food/hand-shaken-drink-culture",
-    "readingTime": 26,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "en/Food/hand-shaken-drink-culture.md"
   },
   {
     "title": "Taiwan's Higher Education Expansion and Decline: From 58 Universities to 140, Then Closures Begin",
@@ -43315,44 +43734,22 @@
     "path": "en/Culture/indigenous-language-revitalization-movement.md"
   },
   {
-    "title": "Taiwan's Indigenous Music Traditions",
-    "description": "Exploring the rich musical cultures of Taiwan's 16 indigenous peoples — from ancient chants to traditional instruments, witnessing thousands of years of cultural transmission",
+    "title": "Taiwan's Industrial Transformation and Upgrading: From Manufacturing Powerhouse to Innovation Leader",
+    "description": "Taiwan's industrial structure has shifted from labor-intensive to knowledge-intensive. Through policies such as the 5+2 Industrial Innovation Plan and the Six Core Strategic Industries, the government has driven the upgrading of traditional manufacturing and the development of emerging industries.",
     "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Music/indigenous-music-traditions",
-    "readingTime": 52,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "en/Music/indigenous-music-traditions.md"
-  },
-  {
-    "title": "Taiwan's Industrial Transformation: From Manufacturing Powerhouse to Innovation Nation",
-    "description": "Taiwan's industrial structure evolved from labor-intensive to knowledge-intensive through policies like the 5+2 Industrial Innovation Program and Six Core Strategic Industries, upgrading traditional manufacturing while developing emerging industries.",
-    "category": "en",
-    "tags": [],
+    "tags": [
+      "經濟",
+      "產業政策",
+      "轉型升級",
+      "創新",
+      "製造業",
+      "高科技"
+    ],
     "url": "https://taiwan.md/en/Economy/industrial-transformation-from-manufacturing-to-innovation",
-    "readingTime": 54,
+    "readingTime": 95,
     "featured": true,
     "date": "2026-03-19",
     "path": "en/Economy/industrial-transformation-from-manufacturing-to-innovation.md"
-  },
-  {
-    "title": "Taiwan's Instrument-Making Industry: From Houli Saxophones to Global Music Factories",
-    "description": "Exploring the development of Taiwan's instrument-making industry: from Houli saxophones dominating global market share to a guitar OEM kingdom, to the precision craft of music-box manufacturing — how Taiwan moved from contract manufacturing toward its own brands.",
-    "category": "en",
-    "tags": [
-      "instrument manufacturing",
-      "Houli saxophones",
-      "guitar OEM",
-      "music boxes",
-      "manufacturing",
-      "Taiwan craft"
-    ],
-    "url": "https://taiwan.md/en/Music/taiwan-instrument-making-from-houli-saxophones-to-global-music-factories",
-    "readingTime": 69,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "en/Music/taiwan-instrument-making-from-houli-saxophones-to-global-music-factories.md"
   },
   {
     "title": "Taiwan's International Trade Policy: Finding Its Place in the Tide of Globalization",
@@ -43601,9 +43998,16 @@
     "title": "Taiwan's Political Landscape and Electoral System",
     "description": "From the constitutional framework, central and local electoral mechanisms, to the deeper party-political culture, a comprehensive analysis of how Taiwan maintains a vibrant and institutionally rigorous democratic society amid complex geopolitics",
     "category": "en",
-    "tags": [],
+    "tags": [
+      "Political System",
+      "Electoral System",
+      "Semi-Presidentialism",
+      "Local Self-Governance",
+      "Civil Society",
+      "Digital Democracy"
+    ],
     "url": "https://taiwan.md/en/Society/taiwan-political-landscape-and-electoral-system",
-    "readingTime": 49,
+    "readingTime": 48,
     "featured": false,
     "date": "2026-03-18",
     "path": "en/Society/taiwan-political-landscape-and-electoral-system.md"
@@ -43828,17 +44232,6 @@
     "featured": false,
     "date": "2026-04-25",
     "path": "en/Society/taiwan-teacher-discipline-dilemma.md"
-  },
-  {
-    "title": "Taiwan's Tectonic Plates and Seismic Activity",
-    "description": "Exploring the geological character of Taiwan at the collision boundary of the Eurasian and Philippine Sea plates, and the causes of its frequent seismic activity",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Geography/tectonic-plates-and-seismic-activity",
-    "readingTime": 50,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "en/Geography/tectonic-plates-and-seismic-activity.md"
   },
   {
     "title": "Taiwan's Tin Shed Houses: A Skyline Propped Up by 716,000 Illegal Structures",
@@ -44236,17 +44629,6 @@
     "path": "en/Nature/taiwanese-leopard-cat-conservation.md"
   },
   {
-    "title": "Taiwanese Life Ceremony Traditions: Marriage, Funeral Rites, and Ritual Celebrations",
-    "description": "From the Twelve Engagement Gifts to banquet culture, explore how Taiwan's life ceremonies balance tradition and modernity",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Culture/taiwanese-life-ceremony-traditions",
-    "readingTime": 81,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "en/Culture/taiwanese-life-ceremony-traditions.md"
-  },
-  {
     "title": "Taiwanese Literature During the Japanese Colonial Period",
     "description": "From the Treaty of Shimonoseki in 1895 to Japan's surrender in 1945, Taiwanese literature was born as an independent voice amid colonial pressure. Lai Ho (賴和), the Father of Taiwan's New Literature, Yang Kuei (楊逵), and Lu Ho-jo (呂赫若) used Chinese and Japanese to resist, record, and create — forging a realist tradition and localized literary language that shaped all subsequent Taiwanese writing.",
     "category": "en",
@@ -44436,6 +44818,24 @@
     "featured": false,
     "date": "2026-04-26",
     "path": "en/Culture/taiwan-vtuber.md"
+  },
+  {
+    "title": "Taiwanese Weddings, Funerals, and Life Ceremonies",
+    "description": "From the Twelve Betrothal Gifts to the culture of outdoor banquet feasts, explore how Taiwanese life ceremonies find balance between tradition and modernity",
+    "category": "en",
+    "tags": [
+      "Wedding",
+      "Funeral",
+      "Life Ceremonies",
+      "Outdoor Banquet Culture",
+      "Traditional Customs",
+      "Modern Transformation"
+    ],
+    "url": "https://taiwan.md/en/Culture/taiwanese-life-ceremony-traditions",
+    "readingTime": 105,
+    "featured": true,
+    "date": "2026-03-18",
+    "path": "en/Culture/taiwanese-life-ceremony-traditions.md"
   },
   {
     "title": "taiwanese-hokkien-song-evolution",
@@ -44687,7 +45087,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Economy/agricultural-technology-and-refined-agriculture",
-    "readingTime": 72,
+    "readingTime": 80,
     "featured": false,
     "date": "2026-03-18",
     "path": "fr/Economy/agricultural-technology-and-refined-agriculture.md"
@@ -44698,18 +45098,41 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Economy/agricultural-technology-and-refined-agriculture",
-    "readingTime": 69,
+    "readingTime": 76,
     "featured": false,
     "date": "2026-03-18",
     "path": "es/Economy/agricultural-technology-and-refined-agriculture.md"
   },
   {
+    "title": "Tectonic Plates and Seismic Activity in Taiwan",
+    "description": "Exploring Taiwan's geological characteristics at the junction of the Eurasian Plate and the Philippine Sea Plate, and the causes of frequent seismic activity",
+    "category": "en",
+    "tags": [
+      "地質",
+      "板塊運動",
+      "地震",
+      "活動斷層",
+      "自然災害"
+    ],
+    "url": "https://taiwan.md/en/Geography/tectonic-plates-and-seismic-activity",
+    "readingTime": 57,
+    "featured": true,
+    "date": "2026-03-18",
+    "path": "en/Geography/tectonic-plates-and-seismic-activity.md"
+  },
+  {
     "title": "Tectonique des plaques et activité sismique à Taïwan",
-    "description": "Exploration des caractéristiques géologiques de Taïwan, situé à la frontière convergente entre la plaque Eurasienne et la plaque de la mer des Philippines, ainsi que des causes de son activité sismique fréquente",
+    "description": "Exploration des caractéristiques géologiques de Taïwan, situé à la frontière convergente entre la plaque Eurasienne et la plaque de la mer des Philippines, ainsi que des causes de son activité sismique fréquente.",
     "category": "fr",
-    "tags": [],
+    "tags": [
+      "Géologie",
+      "Tectonique des plaques",
+      "Séismes",
+      "Failles actives",
+      "Catastrophes naturelles"
+    ],
     "url": "https://taiwan.md/fr/Geography/tectonic-plates-and-seismic-activity",
-    "readingTime": 64,
+    "readingTime": 68,
     "featured": true,
     "date": "2026-03-18",
     "path": "fr/Geography/tectonic-plates-and-seismic-activity.md"
@@ -44939,6 +45362,25 @@
     "featured": false,
     "date": "2026-04-26",
     "path": "fr/Food/sanxia-tea.md"
+  },
+  {
+    "title": "The Development of Hip-Hop and Rap in Taiwan",
+    "description": "From Dwagie and MC HotDog to MJ116, Soft Lipa, and Leo Wang — the localization of Taiwanese hip-hop culture and its recognition at the Golden Melody Awards",
+    "category": "en",
+    "tags": [
+      "音樂",
+      "嘻哈",
+      "饒舌",
+      "Hip-Hop",
+      "Rap",
+      "金曲獎",
+      "流行音樂"
+    ],
+    "url": "https://taiwan.md/en/Music/taiwan-hip-hop-and-rap",
+    "readingTime": 115,
+    "featured": true,
+    "date": "2026-03-19",
+    "path": "en/Music/taiwan-hip-hop-and-rap.md"
   },
   {
     "title": "The Development of Taiwan’s Long‑Term Care System",
@@ -45220,7 +45662,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Society/the-reporter-investigative-journalism",
-    "readingTime": 119,
+    "readingTime": 120,
     "featured": true,
     "date": "2026-04-29",
     "path": "fr/Society/the-reporter-investigative-journalism.md"
@@ -45231,7 +45673,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Society/the-reporter-investigative-journalism",
-    "readingTime": 120,
+    "readingTime": 121,
     "featured": true,
     "date": "2026-04-29",
     "path": "es/Society/the-reporter-investigative-journalism.md"
@@ -45703,15 +46145,38 @@
     "path": "es/Society/migrant-workers-in-taiwan.md"
   },
   {
-    "title": "Tradiciones musicales de los pueblos indígenas de Taiwán",
-    "description": "Explora la rica cultura musical de los 16 pueblos indígenas de Taiwán, desde el canto de melodías ancestrales hasta los instrumentos tradicionales, y testimonia miles de años de transmisión cultural",
+    "title": "Tradiciones musicales indígenas de Taiwán",
+    "description": "Explora la rica cultura musical de los 16 pueblos indígenas de Taiwán, desde los cantos de melodías ancestrales hasta los instrumentos tradicionales, y sé testigo de una herencia cultural milenaria",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "pueblos indígenas",
+      "música tradicional",
+      "herencia cultural",
+      "instrumentos musicales",
+      "ceremonias rituales"
+    ],
     "url": "https://taiwan.md/es/Music/indigenous-music-traditions",
-    "readingTime": 22,
+    "readingTime": 87,
     "featured": true,
     "date": "2026-03-18",
     "path": "es/Music/indigenous-music-traditions.md"
+  },
+  {
+    "title": "Traditions musicales autochtones de Taïwan",
+    "description": "Explorer la riche culture musicale des 16 groupes autochtones de Taïwan, des chants anciens aux instruments traditionnels, témoins d'une transmission culturelle millénaire",
+    "category": "fr",
+    "tags": [
+      "autochtones",
+      "musique traditionnelle",
+      "transmission culturelle",
+      "instruments",
+      "cérémonies rituelles"
+    ],
+    "url": "https://taiwan.md/fr/Music/indigenous-music-traditions",
+    "readingTime": 89,
+    "featured": true,
+    "date": "2026-03-18",
+    "path": "fr/Music/indigenous-music-traditions.md"
   },
   {
     "title": "Traditions musicales des peuples autochtones de Taïwan",
@@ -45747,12 +46212,19 @@
     "path": "en/Nature/trail-culture-and-civic-stewardship.md"
   },
   {
-    "title": "Transformación y mejora industrial de Taiwán: de potencia manufacturera a potencia innovadora",
-    "description": "La estructura industrial de Taiwán ha pasado de ser intensiva en mano de obra a ser intensiva en conocimiento. A través de políticas como el Plan de Innovación Industrial 5+2 y las 6 industrias estratégicas centrales, se impulsa la modernización de la manufactura tradicional y el desarrollo de industrias emergentes.",
+    "title": "Transformación y mejora industrial de Taiwán: de potencia manufacturera a potencia de innovación",
+    "description": "La estructura industrial de Taiwán pasó de ser intensiva en mano de obra a ser intensiva en conocimiento, impulsando la modernización de la manufactura tradicional y el desarrollo de industrias emergentes mediante políticas como la Innovación Industrial 5+2 y las 6 Industrias Estratégicas Centrales.",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "economía",
+      "política industrial",
+      "transformación y mejora",
+      "innovación",
+      "manufactura",
+      "alta tecnología"
+    ],
     "url": "https://taiwan.md/es/Economy/industrial-transformation-from-manufacturing-to-innovation",
-    "readingTime": 68,
+    "readingTime": 109,
     "featured": true,
     "date": "2026-03-19",
     "path": "es/Economy/industrial-transformation-from-manufacturing-to-innovation.md"
@@ -46018,37 +46490,38 @@
     "path": "es/Technology/hsuehshan-tunnel.md"
   },
   {
-    "title": "Tung Tzu-hsien",
-    "description": "Presidente de Pegatron Corporation, pensador interdisciplinario en tecnología y humanidades, destacado patrocinador de la librería Eslite",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/People/tung-tzu-hsien-tech-humanist",
-    "readingTime": 26,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "es/People/tung-tzu-hsien-tech-humanist.md"
-  },
-  {
-    "title": "Tung Tzu-hsien",
-    "description": "Président de Pegatron Corporation, penseur à la croisée de la technologie et des humanités, soutien essentiel de la librairie Eslite",
+    "title": "Tung Tzu-hsien : du Taipei Tech à Pegatron, le plus grand partenaire d'Apple",
+    "description": "Né le 25 juin 1960, Tung Tzu-hsien est diplômé du département d'électronique du Taipei Tech (aujourd'hui Université nationale de technologie de Taipei), et non de la NTU Electrical Engineering. Il a rejoint ASUS en 1988, a piloté la scission le 1er janvier 2008 et fondé Pegatron, devenant sous-traitant pour Apple, Sony et Nintendo. Il a investi dans la librairie Eslite en 2019. En 2025, il défend toujours publiquement une politique énergétique de « coexistence nucléaire et renouvelable ».",
     "category": "fr",
-    "tags": [],
+    "tags": [
+      "科技與企業",
+      "和碩聯合",
+      "電子代工",
+      "ODM",
+      "能源政策"
+    ],
     "url": "https://taiwan.md/fr/People/tung-tzu-hsien-tech-humanist",
-    "readingTime": 25,
+    "readingTime": 54,
     "featured": false,
     "date": "2026-03-19",
     "path": "fr/People/tung-tzu-hsien-tech-humanist.md"
   },
   {
-    "title": "Tung Tzu-hsien (童子賢)",
-    "description": "Chairman and CEO of Pegatron Corporation, a tech industry leader who bridges technology and humanities, and key supporter of Taiwan's Eslite Bookstore",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/People/tung-tzu-hsien-tech-humanist",
-    "readingTime": 28,
+    "title": "Tung Tzu-hsien: de la Escuela Técnica Industrial de Taipéi a la fundación de Pegatron, el mayor socio de manufactura de Apple",
+    "description": "Nacido el 25 de junio de 1960, Tung Tzu-hsien se graduó en la Escuela Técnica Industrial de Taipéi (hoy Universidad Nacional de Tecnología de Taipéi, NTUT) en la especialidad de electrónica, no en Ingeniería Eléctrica de la NTU. Se unió a ASUS en 1988 y el 1 de enero de 2008 lideró la escisión del grupo para fundar Pegatron, convirtiéndose en fabricante bajo contrato (ODM) de Apple, Sony y Nintendo. En 2019 invirtió en la cadena de librerías Eslite. En 2025 seguía publicando propuestas de política energética bajo el lema \"coexistencia nuclear-verde\".",
+    "category": "es",
+    "tags": [
+      "科技與企業",
+      "和碩聯合",
+      "電子代工",
+      "ODM",
+      "能源政策"
+    ],
+    "url": "https://taiwan.md/es/People/tung-tzu-hsien-tech-humanist",
+    "readingTime": 55,
     "featured": false,
-    "date": "2026-03-20",
-    "path": "en/People/tung-tzu-hsien-tech-humanist.md"
+    "date": "2026-03-19",
+    "path": "es/People/tung-tzu-hsien-tech-humanist.md"
   },
   {
     "title": "Turismo y cultura de vida inclusiva para todas las edades en Taiwán: cuando la calidez humana se convierte en la mejor instalación de accesibilidad",
@@ -46082,6 +46555,23 @@
     "featured": false,
     "date": "2026-05-09",
     "path": "en/Society/typhoon-day.md"
+  },
+  {
+    "title": "Tzu-hsien Tung: From Taipei Tech to Pegatron, Apple's Largest Manufacturing Partner",
+    "description": "Born June 25, 1960, Tzu-hsien Tung graduated from the Department of Electronics at Taipei Technical College (now National Taipei University of Technology), not from National Taiwan University's Electrical Engineering department. He joined ASUS in 1988, led the spin-off on January 1, 2008, and founded Pegatron Corporation, becoming a contract manufacturer for Apple, Sony, and Nintendo. He invested in Eslite Bookstore in 2019. In 2025, he continued to publicly advocate for a 'nuclear–renewables coexistence' energy policy.",
+    "category": "en",
+    "tags": [
+      "科技與企業",
+      "和碩聯合",
+      "電子代工",
+      "ODM",
+      "能源政策"
+    ],
+    "url": "https://taiwan.md/en/People/tung-tzu-hsien-tech-humanist",
+    "readingTime": 46,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "en/People/tung-tzu-hsien-tech-humanist.md"
   },
   {
     "title": "Tzuyu",
@@ -46841,7 +47331,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Technology/taiwan-disaster-medicine-system",
-    "readingTime": 51,
+    "readingTime": 53,
     "featured": false,
     "date": "2026-03-24",
     "path": "en/Technology/taiwan-disaster-medicine-system.md"
@@ -46968,7 +47458,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Economy/wistron-global-manufacturing-transformation-pioneer",
-    "readingTime": 73,
+    "readingTime": 75,
     "featured": false,
     "date": "2026-03-20",
     "path": "fr/Economy/wistron-global-manufacturing-transformation-pioneer.md"
@@ -46979,7 +47469,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Economy/wistron-global-manufacturing-transformation-pioneer",
-    "readingTime": 73,
+    "readingTime": 74,
     "featured": false,
     "date": "2026-03-20",
     "path": "es/Economy/wistron-global-manufacturing-transformation-pioneer.md"
@@ -47246,21 +47736,42 @@
     "path": "es/Technology/chuanqi-net-and-taiwan-online-gaming.md"
   },
   {
-    "title": "Xi Murong (席慕蓉)",
-    "description": "Best-selling poet of the Chinese-speaking world whose gentle lyricism bridges the steppe and the modern city",
+    "title": "Xi Murong",
+    "description": "Author of \\\"Qili Xiang\\\" and \\\"Youth Without Regret\\\", the best-selling poet in the Chinese-language poetry scene, of Mongol ethnicity",
     "category": "en",
     "tags": [
-      "people",
-      "poetry",
-      "literature",
-      "essayist",
-      "Mongolian-heritage"
+      "Person",
+      "Xi Murong",
+      "Qili Xiang",
+      "Youth Without Regret",
+      "Poet",
+      "Mongol",
+      "Essayist"
     ],
     "url": "https://taiwan.md/en/People/ximurong",
     "readingTime": 32,
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/ximurong.md"
+  },
+  {
+    "title": "Xi Murong",
+    "description": "Auteure de « Parfum de chèvrefeuille » et « Jeunesse sans regret », poétesse la plus vendue du monde sinophone, d'origine mongole",
+    "category": "fr",
+    "tags": [
+      "personnage",
+      "Xi Murong",
+      "Parfum de chèvrefeuille",
+      "Jeunesse sans regret",
+      "poétesse",
+      "Mongols",
+      "essayiste"
+    ],
+    "url": "https://taiwan.md/fr/People/ximurong",
+    "readingTime": 36,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "fr/People/ximurong.md"
   },
   {
     "title": "Xiao Qing-yang",
@@ -47297,7 +47808,7 @@
   },
   {
     "title": "Ximurong",
-    "description": "Autora de «Qilixiang» y «Wuqing de qingchun», la poetisa más vendida del mundo poético en lengua china, de etnia mongola",
+    "description": "Autora de «Qilixiang» y «Wu yuan de qingchun», poeta más vendida del mundo poético en lengua china, de etnia mongola",
     "category": "es",
     "tags": [
       "人物",
@@ -47309,29 +47820,45 @@
       "散文家"
     ],
     "url": "https://taiwan.md/es/People/ximurong",
-    "readingTime": 48,
+    "readingTime": 37,
     "featured": false,
     "date": "2026-03-19",
     "path": "es/People/ximurong.md"
   },
   {
-    "title": "Xu Wen-Long: The Violin-Playing Entrepreneur Who Built Taiwan's Cultural Empire",
-    "description": "Xu Wen-Long (1928-2023), founder of Chimei Group, embodied the rare triple identity of entrepreneur, violinist, and art collector. He built a business empire spanning petrochemicals, electronics, and food while creating the iconic Chimei Museum, demonstrating how business success can beautifully harmonize with cultural dedication.",
+    "title": "Xu Wen-long: Tainan 1928, Chimei Corporation 1959, and the Founder of the World's Largest Violin Collection Museum",
+    "description": "Born 2/25/1928 in Tainan, passed away 11/18/2023 (age 95). Founded Chimei Corporation in October 1959 (capital NT$2 million). Began acquiring violins in 1990, amassing 1,362 instruments (the world's largest private collection). Chimei Museum officially opened 1/1/2015 (Tainan Metropolitan Park). A passionate violinist; Chimei Museum was initially open free of charge (current policy P0⚠️ please verify).",
     "category": "en",
-    "tags": [],
+    "tags": [
+      "科技與企業",
+      "奇美集團",
+      "企業家",
+      "音樂藝術",
+      "博物館",
+      "文化推廣",
+      "台南"
+    ],
     "url": "https://taiwan.md/en/People/xu-wen-long-chimei-founder-violin-entrepreneur",
-    "readingTime": 21,
+    "readingTime": 40,
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/xu-wen-long-chimei-founder-violin-entrepreneur.md"
   },
   {
-    "title": "Xu Wenlong",
-    "description": "Fundador del Grupo Chimei, figura legendaria del mundo empresarial taiwanés con triple identidad como empresario, violinista y coleccionista de arte, creador del Museo Chimei",
+    "title": "Xu Wenlong: Tainan 1928, fundador de Chi Mei Industry 1959 y del museo con la mayor colección de violines del mundo",
+    "description": "Nacido el 25/2/1928 en Tainan, fallecido el 18/11/2023 (95 años). Fundó Chi Mei Industry en octubre de 1959 (capital: 2 millones). A partir de 1990 adquirió violines, acumulando 1362 (la mayor colección del mundo). El 1/1/2015 abrió oficialmente el Museo Chi Mei (Parque Metropolitano de Tainan). Apasionado por el violín; el Museo Chi Mei abrió con entrada gratuita (política vigente P0⚠️ pendiente de confirmación).",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "科技與企業",
+      "奇美集團",
+      "企業家",
+      "音樂藝術",
+      "博物館",
+      "文化推廣",
+      "台南"
+    ],
     "url": "https://taiwan.md/es/People/xu-wen-long-chimei-founder-violin-entrepreneur",
-    "readingTime": 25,
+    "readingTime": 44,
     "featured": false,
     "date": "2026-03-19",
     "path": "es/People/xu-wen-long-chimei-founder-violin-entrepreneur.md"
@@ -47413,14 +47940,21 @@
     "path": "fr/People/yang-dai-kang-taiwanese-baseball-star-in-japan.md"
   },
   {
-    "title": "Yang Dai-kang: Taiwanese Baseball Star in Japan",
-    "description": "Yomiuri Giants outfielder and Taiwan's representative player in Japanese professional baseball",
+    "title": "Yang Dai-Kang: Taitung 1987, Amis Outfielder from a Decade of Golden Gloves with the Nippon-Ham Fighters to an FA Move to the Yomiuri Giants",
+    "description": "Born 17 January 1987 in Taitung City, of Amis indigenous heritage, formerly known as Yang Zhong-shou. Graduated from the junior high school of National Taitung University Affiliated Sports High School, then went to Japan to attend Fukuoka Daiichi High School. Selected as a joint first-round pick by the Nippon-Ham Fighters and the Fukuoka SoftBank Hawks in the 2005 NPB draft; the Fighters won the lottery. Won the Pacific League Outfielder Golden Glove in 2012 (the first Taiwanese fielder to do so). Exercised domestic FA to join the Yomiuri Giants in 2016. NPB career: 1,322 games, 105 home runs, 482 RBI, .270 batting average. Left the Giants at the end of 2021 and moved to independent leagues.",
     "category": "en",
-    "tags": [],
+    "tags": [
+      "體育",
+      "棒球",
+      "日職",
+      "阿美族",
+      "原住民",
+      "外野手"
+    ],
     "url": "https://taiwan.md/en/People/yang-dai-kang-taiwanese-baseball-star-in-japan",
-    "readingTime": 29,
+    "readingTime": 27,
     "featured": false,
-    "date": "2026-03-20",
+    "date": "2026-03-19",
     "path": "en/People/yang-dai-kang-taiwanese-baseball-star-in-japan.md"
   },
   {
@@ -48784,7 +49318,7 @@
       "스마트 농업"
     ],
     "url": "https://taiwan.md/ko/Economy/agricultural-technology-and-refined-agriculture",
-    "readingTime": 24,
+    "readingTime": 27,
     "featured": false,
     "date": "2026-03-18",
     "path": "ko/Economy/agricultural-technology-and-refined-agriculture.md"
@@ -49024,7 +49558,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Technology/taiwan-gaming-industry",
-    "readingTime": 22,
+    "readingTime": 23,
     "featured": true,
     "date": "2026-03-18",
     "path": "ko/Technology/taiwan-gaming-industry.md"
@@ -49181,7 +49715,7 @@
       "전민방위"
     ],
     "url": "https://taiwan.md/ko/Society/taiwan-defense-military-modernization",
-    "readingTime": 52,
+    "readingTime": 53,
     "featured": false,
     "date": "2026-04-10",
     "path": "ko/Society/taiwan-defense-military-modernization.md"
@@ -49515,24 +50049,6 @@
     "path": "ko/Food/taiwanese-street-food.md"
   },
   {
-    "title": "대만 꽃무늬 천",
-    "description": "일제시대 공장 생산품에서 본토 문화 상징으로, 대만 꽃무늬 천의 정체성 찾기 여정",
-    "category": "ko",
-    "tags": [
-      "문화",
-      "하카",
-      "섬유",
-      "디자인",
-      "본토화",
-      "문화 부흥"
-    ],
-    "url": "https://taiwan.md/ko/Culture/taiwan-floral-fabric",
-    "readingTime": 30,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "ko/Culture/taiwan-floral-fabric.md"
-  },
-  {
     "title": "대만 농업 현대화 발전",
     "description": "대만이 전통 농업에서 현대적 정밀 농업으로 전환해 온 과정을 살피며, 유기농업, 농촌 재생, 레저 농업 등 혁신적 발전 모델을 포함한다",
     "category": "ko",
@@ -49545,7 +50061,7 @@
       "현대화"
     ],
     "url": "https://taiwan.md/ko/Economy/taiwan-agricultural-modernization",
-    "readingTime": 36,
+    "readingTime": 37,
     "featured": true,
     "date": "2026-03-18",
     "path": "ko/Economy/taiwan-agricultural-modernization.md"
@@ -49567,10 +50083,30 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Society/taiwan-rural-education",
-    "readingTime": 30,
+    "readingTime": 31,
     "featured": false,
     "date": "2026-04-09",
     "path": "ko/Society/taiwan-rural-education.md"
+  },
+  {
+    "title": "대만 대만어 노래의 진화: 아저씨 노래에서 문청(文青)의 새로운 사랑까지, 정체성의 반전",
+    "description": "대만 대만어 노라가 나카시(那卡西), 홍이펑(洪一峰), 장후이(江蕙) 시대를 거쳐 가지단(茄子蛋), 파셰샤오년(拍謝少年) 등 신세대 밴드에 이르기까지 변천의 역사를 추적하고, 대만어 음악이 어떻게 젊은 세대의 정체성을 되찾았는지 탐구한다",
+    "category": "ko",
+    "tags": [
+      "대만어 노래",
+      "나카시",
+      "홍이펑",
+      "장후이",
+      "가지단",
+      "파셰샤오년",
+      "콜라치",
+      "금곡상"
+    ],
+    "url": "https://taiwan.md/ko/Music/taiwanese-hokkien-song-evolution",
+    "readingTime": 27,
+    "featured": true,
+    "date": "2026-03-19",
+    "path": "ko/Music/taiwanese-hokkien-song-evolution.md"
   },
   {
     "title": "대만 대백과사전: 5억 원 규모의 국가급 지식의 꿈",
@@ -49852,19 +50388,19 @@
     "path": "ko/Art/taiwanese-prose.md"
   },
   {
-    "title": "대만 산업 전환과 고도화: 제조 강국에서 혁신 강국으로",
-    "description": "대만의 산업 구조가 노동 집약형에서 지식 집약형으로 전환된 과정과, 5+2 산업 혁신·6대 핵심 전략 산업 등 정책을 통한 전통 제조업 고도화 및 신흥 산업 육성을 살펴본다.",
+    "title": "대만 산업 전환 및 업그레이드: 제조 대국에서 혁신 강국으로",
+    "description": "대만의 산업 구조는 노동집중형에서 지식집중형으로 전환하였으며, 5+2 산업 혁신, 6대 핵심 전략 산업 등의 정책을 통해 전통 제조업의 업그레이드와 신흥 산업의 발전을 추진하고 있다.",
     "category": "ko",
     "tags": [
       "경제",
-      "산업정책",
-      "전환고도화",
+      "산업 정책",
+      "전환 및 업그레이드",
       "혁신",
       "제조업",
-      "하이테크"
+      "첨단기술"
     ],
     "url": "https://taiwan.md/ko/Economy/industrial-transformation-from-manufacturing-to-innovation",
-    "readingTime": 23,
+    "readingTime": 40,
     "featured": true,
     "date": "2026-03-19",
     "path": "ko/Economy/industrial-transformation-from-manufacturing-to-innovation.md"
@@ -50030,17 +50566,6 @@
     "path": "ko/Nature/taiwan-atlas-moth.md"
   },
   {
-    "title": "대만 악기 제조업: 허우리 색소폰에서 세계 음악 공장까지",
-    "description": "대만 악기 제조업의 발전 과정을 탐구한다. 세계 시장을 제패한 허우리 색소폰, 기타 OEM 왕국, 오르골 정밀 공예까지 — 대만이 어떻게 OEM에서 자체 브랜드로 전환했는지를 살펴본다.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/Music/taiwan-instrument-making-from-houli-saxophones-to-global-music-factories",
-    "readingTime": 28,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "ko/Music/taiwan-instrument-making-from-houli-saxophones-to-global-music-factories.md"
-  },
-  {
     "title": "대만 애니메이션 하청 산업",
     "description": "대만은 한때 글로벌 애니메이션 외주 제작의 중심지였다. 宏廣卡通은 할리우드 클래식 애니메이션 제작을 도맡아 최전성기에 전 세계 생산량의 3분의 1을 차지했다.",
     "category": "ko",
@@ -50069,15 +50594,21 @@
     "path": "ko/Culture/taiwan-comics-and-animation-culture.md"
   },
   {
-    "title": "대만 야구 문화",
-    "description": "홍예 소년야구의 전설부터 중화직업야구의 눈물과 땀까지—야구가 어떻게 대만의 \"국구(國球)\"가 됐나",
+    "title": "대만 언론과 언론 자유",
+    "description": "당국 통제에서 언론 전국시대로: 대만 언론 자유의 민주화 과정과 디지털 전환 도전",
     "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/Culture/taiwan-baseball-culture",
-    "readingTime": 23,
+    "tags": [
+      "언론",
+      "언론 자유",
+      "민주화",
+      "디지털 전환",
+      "미디어 리터러시"
+    ],
+    "url": "https://taiwan.md/ko/Society/media-and-press-freedom-in-taiwan",
+    "readingTime": 26,
     "featured": false,
     "date": "2026-03-18",
-    "path": "ko/Culture/taiwan-baseball-culture.md"
+    "path": "ko/Society/media-and-press-freedom-in-taiwan.md"
   },
   {
     "title": "대만 영상 음악: 영화 OST부터 게임 음악까지, 소리의 미학",
@@ -50210,17 +50741,17 @@
   },
   {
     "title": "대만 원주민 음악 전통",
-    "description": "대만 16개 민족 원주민의 풍부한 음악 문화를 탐구한다. 고대 선율부터 전통 악기까지, 수천 년간 이어져 온 문화 유산을 살펴본다.",
+    "description": "대만 16개 원주민 부족의 풍부한 음악 문화를 탐구하며, 고대 노래 선율부터 전통 악기까지 수천 년의 문화 계승을 목격하다",
     "category": "ko",
     "tags": [
       "원주민",
       "전통 음악",
-      "문화 전승",
+      "문화 계승",
       "악기",
-      "제의"
+      "제례"
     ],
     "url": "https://taiwan.md/ko/Music/indigenous-music-traditions",
-    "readingTime": 22,
+    "readingTime": 33,
     "featured": true,
     "date": "2026-03-18",
     "path": "ko/Music/indigenous-music-traditions.md"
@@ -50631,17 +51162,6 @@
     "path": "ko/Food/military-dependents-village-cuisine.md"
   },
   {
-    "title": "대만 타이위 노래의 변천: 어르신 노래에서 인디 팬의 사랑으로",
-    "description": "나카시, 홍이펑, 장혜매 시대부터 가지단(茄子蛋), 파이시에샤오녠(拍謝少年) 등 신세대 밴드까지, 타이위 음악이 어떻게 젊은 세대의 마음을 다시 사로잡았는지 그 변천 과정을 추적한다.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/Music/taiwanese-hokkien-song-evolution",
-    "readingTime": 23,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "ko/Music/taiwanese-hokkien-song-evolution.md"
-  },
-  {
     "title": "대만 파랑까치: 도시 정글 속 파란 깡패, 그리고 백 년을 넘는 유전자 수호전",
     "description": "2007년 18만 표로 국조의 자리를 차지한 이 산림의 보석은 사실 \"집단 싸움\"을 벌이는 강력한 가족이다. 1862년 스윈호가 채집한 최초의 표본부터 오늘날 도시에서 고양이 사료를 빼앗아 먹는 적응력까지, 이들은 97%의 둥지 도움제(巢邊幫手制)로 경쟁에서 승리한다. 이것은 생존, 가족 결속력, 유전자 수호전, 그리고 사람과 새가 공존하는 지혜에 관한 섬의 이야기다.",
     "category": "ko",
@@ -50863,6 +51383,24 @@
     "path": "ko/Culture/taiwan-mandarin-evolution.md"
   },
   {
+    "title": "대만 화포(台灣花布)",
+    "description": "일제강점기 공장 제품에서 토착 문화의 상징으로, 대만 화포의 정체성 여정",
+    "category": "ko",
+    "tags": [
+      "문화",
+      "객가",
+      "섬유",
+      "디자인",
+      "토착화",
+      "문화부흥"
+    ],
+    "url": "https://taiwan.md/ko/Culture/taiwan-floral-fabric",
+    "readingTime": 30,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "ko/Culture/taiwan-floral-fabric.md"
+  },
+  {
     "title": "대만 환경운동의 역사",
     "description": "1980년대 반공해 투쟁에서 최근 플라스틱 줄이기 운동까지, 대만 사회의 환경의식 각성과 민주화 과정이 교차하는 궤적",
     "category": "ko",
@@ -51052,17 +51590,6 @@
     "path": "ko/Society/taiwan-public-health-epidemic-response.md"
   },
   {
-    "title": "대만의 관혼상제와 인생 의례",
-    "description": "약혼 열두 가지 예물부터 야외 잔치 문화까지, 대만의 인생 의례가 전통과 현대 사이에서 균형을 찾아가는 방식을 탐구한다",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/Culture/taiwanese-life-ceremony-traditions",
-    "readingTime": 36,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "ko/Culture/taiwanese-life-ceremony-traditions.md"
-  },
-  {
     "title": "대만의 국제 표기 문제",
     "description": "ISO 코드에서 오픈소스 소프트웨어까지——대만의 이름이 글로벌 디지털 인프라에서 어떻게 기록되고, 논쟁되며, 수정되는가",
     "category": "ko",
@@ -51223,23 +51750,6 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "ko/Culture/taiwan-temple-festivals-and-performance-troupes.md"
-  },
-  {
-    "title": "대만의 미디어와 언론 자유",
-    "description": "당국 통제에서 미디어 전국시대까지: 대만 언론 자유의 민주화 과정과 디지털 전환의 도전",
-    "category": "ko",
-    "tags": [
-      "미디어",
-      "언론 자유",
-      "민주화",
-      "디지털 전환",
-      "미디어 리터러시"
-    ],
-    "url": "https://taiwan.md/ko/Society/media-and-press-freedom-in-taiwan",
-    "readingTime": 21,
-    "featured": false,
-    "date": "2026-03-18",
-    "path": "ko/Society/media-and-press-freedom-in-taiwan.md"
   },
   {
     "title": "대만의 산림 생태계",
@@ -51608,7 +52118,14 @@
     "title": "대만의 정치 환경과 선거 제도",
     "description": "헌법 체제, 중앙과 지방의 선거 메커니즘, 그리고 심층적인 정당 정치 문화에 이르기까지, 대만이 복잡한 지정학 속에서 역동적이고 제도적으로 엄밀한 민주 사회를 어떻게 유지해 왔는지를 종합적으로 분석한다",
     "category": "ko",
-    "tags": [],
+    "tags": [
+      "정치 체제",
+      "선거 제도",
+      "반대통령제",
+      "지방 자치",
+      "시민 사회",
+      "디지털 민주주의"
+    ],
     "url": "https://taiwan.md/ko/Society/taiwan-political-landscape-and-electoral-system",
     "readingTime": 20,
     "featured": false,
@@ -51821,6 +52338,24 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "ko/Nature/marine-pollution-governance-and-conservation.md"
+  },
+  {
+    "title": "대만의 혼상제희와 인생예속",
+    "description": "약혼 십이례부터 반자오(辦桌) 문화까지, 대만의 인생예속이 전통과 현대 사이에서 어떻게 균형을 찾는지 탐구한다",
+    "category": "ko",
+    "tags": [
+      "결혼식",
+      "장례",
+      "인생예속",
+      "반자오 문화",
+      "전통 습속",
+      "현대적 전환"
+    ],
+    "url": "https://taiwan.md/ko/Culture/taiwanese-life-ceremony-traditions",
+    "readingTime": 44,
+    "featured": true,
+    "date": "2026-03-18",
+    "path": "ko/Culture/taiwanese-life-ceremony-traditions.md"
   },
   {
     "title": "대면직(大罷免)",
@@ -52161,12 +52696,20 @@
     "path": "ko/People/lu-yen-hsun-tennis-champion.md"
   },
   {
-    "title": "룽잉타이: 시대를 관찰하는 눈",
-    "description": "《야화집》의 저자, 중화어권에서 가장 영향력 있는 산문 작가이자 전 대만 문화부 장관",
+    "title": "룽잉타이: 다랴오 1952, 『야화집』에서 타이완 초대 문화부 장관이 된 공공 지식인",
+    "description": "1952년 2월 13일 가오슝현 다랴오향(현 가오슝시 다랴오구) 출생. 캔자스 주립대학교 영미문학 석사, 학력 기술에 차이 존재(P0⚠️). 1985년 12월 『야화집』 초판 출간, 21일 만에 24쇄, 4개월 만에 10만 부 돌파. 2012-2014년 타이완 초대 문화부 장관(마잉주 임명). 『다장하이 1949』 2009년 출간.",
     "category": "ko",
-    "tags": [],
+    "tags": [
+      "문학",
+      "수필",
+      "야화집",
+      "다장하이",
+      "문화부 장관",
+      "공공 지식인",
+      "가오슝"
+    ],
     "url": "https://taiwan.md/ko/People/lung-ying-tai",
-    "readingTime": 13,
+    "readingTime": 21,
     "featured": false,
     "date": "2026-03-19",
     "path": "ko/People/lung-ying-tai.md"
@@ -53045,12 +53588,12 @@
     "path": "ko/Art/mountain-makers-tsmc-documentary.md"
   },
   {
-    "title": "삽을 든 슈퍼히어로와 섬의 공시성: 대만 재난 자원봉사 문화가 국가 정체성을 형성하는 방식",
-    "description": "2025년 화롄 광푸향 수해를 통해 대만 특유의 재난 자원봉사 동원 방식이 소셜미디어를 통해 섬 공동체 의식을 어떻게 재정의하는지, 921 지진부터 화롄 수해까지 사회적 회복력의 진화 궤적을 탐구한다.",
+    "title": "삽 초인과 섬의 동시성: 대만 재난 자원봉사 문화가 국가 정체성에 미치는 영향",
+    "description": "2025년 마태안 홍수의 삽 초인을 출발점으로, 대만이 1999년 921 지지 대지진 이래 축적해 온 재난 자원봉사 문화, 마태안 부족의 홍수 창세 신화와 공동체 회복력, 그리지 자제 모델과 광복 현장 500미터 내 세 개의 전방 지휘소가 벌이는 다두마차 현상을 되짚어 보고, 천젠녜(陳建年)의 〈우리는 동포〉가 이 홍수 속에서 구체적 행동으로 전환된 순간을 탐구한다.",
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Society/taiwan-disaster-volunteer-culture",
-    "readingTime": 41,
+    "readingTime": 60,
     "featured": false,
     "date": "2026-03-24",
     "path": "ko/Society/taiwan-disaster-volunteer-culture.md"
@@ -53525,20 +54068,20 @@
     "path": "ko/History/hukou-camp-shengli-road-memory.md"
   },
   {
-    "title": "시무룽: 초원과 현대 사이의 시적 교향",
-    "description": "《치리향(七里香)》《원망 없는 청춘(無怨的青春)》의 작가, 화어권 시단에서 가장 많이 읽힌 시인, 몽골족 혈통",
+    "title": "시무용",
+    "description": "《칠리향》《무원의 청춘》 저자, 화어 시계 최다 판매 시인, 몽골족",
     "category": "ko",
     "tags": [
       "인물",
-      "시무룽",
-      "치리향",
-      "원망없는청춘",
+      "시무용",
+      "칠리향",
+      "무원의 청춘",
       "시인",
       "몽골족",
-      "산문가"
+      "수필가"
     ],
     "url": "https://taiwan.md/ko/People/ximurong",
-    "readingTime": 18,
+    "readingTime": 16,
     "featured": false,
     "date": "2026-03-19",
     "path": "ko/People/ximurong.md"
@@ -53907,7 +54450,7 @@
       "IoT"
     ],
     "url": "https://taiwan.md/ko/Economy/advantech-technology",
-    "readingTime": 20,
+    "readingTime": 23,
     "featured": false,
     "date": "2026-03-20",
     "path": "ko/Economy/advantech-technology.md"
@@ -53924,19 +54467,19 @@
     "path": "ko/People/yu-tiao-musician.md"
   },
   {
-    "title": "언어 다양성과 모어 문화: 대만의 다중언어 생태",
-    "description": "대만어, 하카어, 원주민 언어까지—대만이 다중언어 사회에서 어떻게 모어 문화를 보존하고 발전시키는가",
+    "title": "언어 다양성과 모국어 문화",
+    "description": "대만어, 객가어에서 원주민 언어까지, 다언어 사회에서 대만이 어떻게 모국어 문화를 보존하고 발전시키는가",
     "category": "ko",
     "tags": [
       "언어",
-      "모어",
+      "모국어",
       "대만어",
-      "하카어",
-      "원주민어",
+      "객가어",
+      "원주민 언어",
       "다문화"
     ],
     "url": "https://taiwan.md/ko/Culture/linguistic-diversity-and-mother-tongue-culture",
-    "readingTime": 21,
+    "readingTime": 30,
     "featured": true,
     "date": "2026-03-18",
     "path": "ko/Culture/linguistic-diversity-and-mother-tongue-culture.md"
@@ -54485,17 +55028,18 @@
     "path": "ko/People/wei-te-sheng-taiwanese-epic-filmmaker.md"
   },
   {
-    "title": "웨이저자 (CC Wei): 3나노 시대를 이끄는 반도체 공정의 거장",
-    "description": "TSMC 총재이자 공동 CEO인 웨이저자는 3나노 공정 기술을 이끌어 TSMC의 세계적 기술 우위를 확립했다",
+    "title": "웨이저자(魏哲家): 1953년, 교통대학 전자공학에서 예일대 박사까지, 그리고 TSMC 회장 겸 사장",
+    "description": "1953년생. 국립교통대학 전자공학 학사/석사, 예일대학교 전기공학 박사. 텍사스인스트루먼트→ST마이크로일렉트로닉스→싱가포르 차터드 세미컨덕터→1998년 TSMC 입사. 2012년 류더인(劉德音)과 공동으로 TSMC COO(최고운영책임자) 취임. 2018/6/5 부회장 겸 사장 취임. 2024/6/4 류더인 퇴임 후 회장 취임, 현재 TSMC 회장 겸 사장.",
     "category": "ko",
     "tags": [
-      "TSMC",
-      "반도체 공정",
-      "기술 혁신",
-      "제조 기술"
+      "科技與企業",
+      "台積電",
+      "半導體",
+      "晶圓代工",
+      "製程技術"
     ],
     "url": "https://taiwan.md/ko/People/cc-wei",
-    "readingTime": 9,
+    "readingTime": 14,
     "featured": false,
     "date": "2026-03-19",
     "path": "ko/People/cc-wei.md"
@@ -54569,7 +55113,7 @@
       "과학기술"
     ],
     "url": "https://taiwan.md/ko/Economy/united-microelectronics-corporation",
-    "readingTime": 21,
+    "readingTime": 22,
     "featured": false,
     "date": "2026-03-20",
     "path": "ko/Economy/united-microelectronics-corporation.md"
@@ -54981,22 +55525,6 @@
     "path": "ko/Society/za-share.md"
   },
   {
-    "title": "장명정 (張明正, Steve Chang)",
-    "description": "트렌드마이크로 창업자, 글로벌 사이버보안 산업의 선구자, 타이완 소프트웨어 국제화의 상징",
-    "category": "ko",
-    "tags": [
-      "트렌드마이크로",
-      "보안 산업",
-      "소프트웨어",
-      "국제화"
-    ],
-    "url": "https://taiwan.md/ko/People/steve-chang",
-    "readingTime": 10,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "ko/People/steve-chang.md"
-  },
-  {
     "title": "장애가 (張艾嘉, Sylvia Chang)",
     "description": "화어 영화계의 멀티 퀸 — 감독, 배우, 가수, 시나리오 작가를 50년 넘게 넘나드는 전방위 창작자",
     "category": "ko",
@@ -55069,6 +55597,24 @@
     "featured": false,
     "date": "2026-03-30",
     "path": "ko/People/andre-chiang-taiwanese-culinary-innovator.md"
+  },
+  {
+    "title": "장정명: 보인대학 수학과 출신, 바이러스 백신 소프트웨어를 세계에 판 사람",
+    "description": "1954년생, 장정명은 보인대학 수학과를 졸업한 뒤 미국 리하이대학교에서 컴퓨터 석사학위를 취득했다. 1988년 34세 때 진이화와 함께 미국 로스앤젤레스에서 트렌드마이크로를 창립했으며, 1998년 8월 18일 도쿄증권거래소에 상장(종목코드 4704)하고 같은 년도에 나스닥에도 상장하며 일본에 상장한 최대의 대만 소프트웨어 기업이 되었다. 2007년 약수국제를 창립하고 2019년 명이재단을 설립하며 정보보안 분야에서 사회적 기업으로 전환했다.",
+    "category": "ko",
+    "tags": [
+      "科技與企業",
+      "트렌드마이크로",
+      "정보보안 산업",
+      "소프트웨어 산업",
+      "국제화",
+      "사회적 기업"
+    ],
+    "url": "https://taiwan.md/ko/People/steve-chang",
+    "readingTime": 20,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "ko/People/steve-chang.md"
   },
   {
     "title": "장제스 (蔣中正)",
@@ -56137,13 +56683,13 @@
     "description": "1683-1895년 청나라가 대만을 약 212년간 통치하며, 소극적 통치에서 적극적 건설로 전환하여 현대 대만의 행정구역과 한인 사회의 기초를 마련한 시기",
     "category": "ko",
     "tags": [
-      "역사",
+      "History",
       "청나라",
       "개항통상",
       "모란사사건"
     ],
     "url": "https://taiwan.md/ko/History/qing-dynasty-rule",
-    "readingTime": 12,
+    "readingTime": 20,
     "featured": false,
     "date": "2026-03-17",
     "path": "ko/History/qing-dynasty-rule.md"
@@ -56709,6 +57255,43 @@
     "path": "ko/Food/taiwan-rice-cuisine-culture.md"
   },
   {
+    "title": "타이완 악기 제조업: 후리 색소폰에서 글로벌 음악 공장까지",
+    "description": "타이완 악기 제조업의 발전 과정을 탐구한다. 후리 색소폰의 글로벌 지배적 위치부터 기타 주문생산 왕국, 그리고 오르골 제조의 정밀 공정에 이르기까지, 타이완이 어떻게 주문생산에서 자체 브랜드로 전환해 왔는지를 살펴본다.",
+    "category": "ko",
+    "tags": [
+      "악기 제조",
+      "후리 색소폰",
+      "기타 주문생산",
+      "오르골",
+      "제조업",
+      "타이완 공예"
+    ],
+    "url": "https://taiwan.md/ko/Music/taiwan-instrument-making-from-houli-saxophones-to-global-music-factories",
+    "readingTime": 35,
+    "featured": true,
+    "date": "2026-03-19",
+    "path": "ko/Music/taiwan-instrument-making-from-houli-saxophones-to-global-music-factories.md"
+  },
+  {
+    "title": "타이완 야구 문화",
+    "description": "홍엽 소년야구의 전설에서 중화직업야구의 눈땀까지——야구는 어떻게 타이완의 \"국구(國球)\"가 되었는가",
+    "category": "ko",
+    "tags": [
+      "야구",
+      "중화직업야구",
+      "홍엽 소년야구",
+      "국구",
+      "체육",
+      "왕젠민",
+      "오타니 쇼헤이 효과"
+    ],
+    "url": "https://taiwan.md/ko/Culture/taiwan-baseball-culture",
+    "readingTime": 27,
+    "featured": false,
+    "date": "2026-03-18",
+    "path": "ko/Culture/taiwan-baseball-culture.md"
+  },
+  {
     "title": "타이완 예능 프로그램",
     "description": "1962년 《군성회(群星會)》가 극장을 거실로 옮기면서, 타이완 예능은 단순히 웃기는 역할을 넘어 스타를 만들고 유행어를 탄생시키며 가족 거실에 공통의 화제를 발명하기 시작했다. 케이블 TV 시대에는 중화권 세계의 모범으로 부풀었고, 스트리밍과 숏폼 시대에는 스튜디오 쇼에서 분화된 플랫폼 위의 새로운 언어로 스스로를 다시 써야 했다.",
     "category": "ko",
@@ -57086,22 +57669,6 @@
     "path": "ko/Food/bamboo-tube-rice.md"
   },
   {
-    "title": "퉁쯔셴: 기술과 인문을 잇는 기업인",
-    "description": "화숴(和碩) 연합과기 회장. IT 분야에서 탁월한 성과를 거두면서도 깊은 인문학적 소양과 사회적 감수성으로 주목받는 대만 재계의 이단아. 청핀(誠品) 서점의 든든한 후원자이기도 하다.",
-    "category": "ko",
-    "tags": [
-      "화숴연합",
-      "테크 산업",
-      "인문학",
-      "청핀서점"
-    ],
-    "url": "https://taiwan.md/ko/People/tung-tzu-hsien-tech-humanist",
-    "readingTime": 9,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "ko/People/tung-tzu-hsien-tech-humanist.md"
-  },
-  {
     "title": "특산종",
     "description": "대만의 풍부한 특산종 생물은 섬 생물지리학의 진화적 경이와 보전의 중요성을 보여준다",
     "category": "ko",
@@ -57413,7 +57980,7 @@
       "2024"
     ],
     "url": "https://taiwan.md/ko/People/han-kuo-yu",
-    "readingTime": 36,
+    "readingTime": 35,
     "featured": true,
     "date": "2026-04-11",
     "path": "ko/People/han-kuo-yu.md"
@@ -57457,7 +58024,7 @@
       "시민기술"
     ],
     "url": "https://taiwan.md/ko/Society/sunflower-movement",
-    "readingTime": 37,
+    "readingTime": 38,
     "featured": true,
     "date": "2026-04-12",
     "path": "ko/Society/sunflower-movement.md"
@@ -57504,7 +58071,7 @@
   },
   {
     "title": "허슈징: 윈베이 1991, 타이완 최초 올림픽 금메달 2관왕 53kg급 역도 선수",
-    "description": "1991년 5월 9일 윈린현 룬베이향 카자 가정에서 출생, 신장 159cm. 2012년 런던 올림픽 여자 53kg급에서 219kg(96+123)로 은메달 획득, 이후 금메달 수상자 자오창링(카자흐스탄)이 도핑 검사 부적합 판정을 받아 2020년 12월 금메달로 승격. 2016년 리우 올림픽에서 212kg(100+112)으로 금메달 직접 획득. 타이완 최초 올림픽 금메달 2관왕. 2018년 6월 3일 은퇴. 2019년 2017년 도핑 검사 부적합으로 3년 출전 정지(올림픽 금메달에는 영향 없음).",
+    "description": "1991년 5월 9일 윈린현 룬베이향 카자 가정에서 출생, 신장 159cm. 2012년 런던 올림픽 여자 53kg급에서 219kg(96+123)로 은메달 획득, 이후 금메달 수령자 자오창링(카자흐스탄)이 도핑 검사 부적합 판정을 받아 2020년 12월 금메달로 승격. 2016년 리우 올림픽에서 212kg(100+112)으로 금메달 직접 획득. 타이완 최초 올림픽 금메달 2관왕. 2018년 6월 3일 은퇴. 2019년 2017년 도핑 검사 부적합으로 3년 출전 정지(올림픽 금메달에는 영향 없음).",
     "category": "ko",
     "tags": [
       "체육",
@@ -57812,7 +58379,7 @@
       "IoT"
     ],
     "url": "https://taiwan.md/ja/Economy/advantech-technology",
-    "readingTime": 20,
+    "readingTime": 21,
     "featured": false,
     "date": "2026-03-20",
     "path": "ja/Economy/advantech-technology.md"
@@ -58037,17 +58604,6 @@
     "path": "ja/People/jay-chou.md"
   },
   {
-    "title": "ジェレミー・リン",
-    "description": "高校時代に州王者を獲得しながら奨学金を得られず、ドラフトでは指名漏れ、15日間で2度解雇——その後、彼は「林来疯（リンマニア）」を通じて世界にその名を知らしめました",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/People/jeremy-lin",
-    "readingTime": 10,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "ja/People/jeremy-lin.md"
-  },
-  {
     "title": "シェン・シェンボ",
     "description": "コンピュータサイエンスを専攻しながら、プログラミング言語を台湾の現代アートの現場に持ち込んだ人物です。わずか34年という短い人生の中で、デジタルアート作品を残しただけでなく、プログラミングを生活の一部とし、フリーソフトウェアを創作倫理とする実験的精神を遺しました。",
     "category": "ja",
@@ -58059,14 +58615,16 @@
     "path": "ja/People/shen-sheng-po.md"
   },
   {
-    "title": "シャベル・スーパーマンと島嶼共時性——台湾の災害ボランティア文化はいかに国族アイデンティティを形作るか",
-    "description": "2025年花蓮光復郷水害を鏡として、台湾独特の災害ボランティア動員モデルがソーシャルメディアを通じていかに島嶼共同体意識を再定義してきたかを探ります。921地震から花蓮水害までの社会的レジリエンスの進化軌跡を辿ります。",
+    "title": "シャベル超人と島嶼の同時性：台湾の災害ボランティア文化が国族アイデンティティに与える影響",
+    "description": "2025年の馬太鞍洪水における「シャベル超人」を切り口に、台湾の1999年921集集大地震以来蓄積されてきた災害ボランティア文化、馬太鞍部落の洪水創世神話とコミュニティレジリエンス、慈濟（じさい）モデルと光復現場500メートルに三つあった前線指揮所のマルチヘッド構造を振り返り、陳建年（チェン・チェンニェン）の〈我々は同胞〉がこの洪水の中で具体的な行動になった瞬間を考察する。",
     "category": "ja",
-    "tags": [],
+    "tags": [
+      "["
+    ],
     "url": "https://taiwan.md/ja/Society/taiwan-disaster-volunteer-culture",
-    "readingTime": 38,
+    "readingTime": 51,
     "featured": false,
-    "date": "2026-05-02",
+    "date": "2026-03-24",
     "path": "ja/Society/taiwan-disaster-volunteer-culture.md"
   },
   {
@@ -58148,7 +58706,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Art/no-mans-land-art-platform",
-    "readingTime": 71,
+    "readingTime": 72,
     "featured": false,
     "date": "2026-05-17",
     "path": "ja/Art/no-mans-land-art-platform.md"
