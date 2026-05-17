@@ -162,11 +162,15 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 ### 🏙️ 22 縣市系列 NEW（P0 超優先）— 共通說明
 
-> **完整規劃 + 模板 + 共通 caveats**：見 [reports/cities-series-planning-2026-05-17.md](../../reports/cities-series-planning-2026-05-17.md)
+> **完整規劃 + 模板 + 共通 caveats（含 pilot retrospective 5 條新校準）**：見 [reports/cities-series-planning-2026-05-17.md](../../reports/cities-series-planning-2026-05-17.md)
 >
-> 22 縣市每篇獨立 NEW article，共通模板 7 H2 骨架（地理決定的命運 / 從清領到 2026 軸線 / 經濟肌理 / 文化標誌 / 不被看見的角落 / 在地人會帶你去的 3 個地方 / 延伸閱讀），預估每篇 ~150 min + 4500-6000 CJK chars + 15-25 footnotes。**Pilot 推薦 基隆市**（規模適中 / 獨特性強 / SC 空缺 / 可重用性高），跑完後 retrospective enrich research caveats 再 bulk-update 其他 21 entries。
+> 22 縣市每篇獨立 NEW article，共通模板 7 H2 骨架（地理決定的命運 / 從清領到 2026 軸線 / 經濟肌理 / 文化標誌 / 不被看見的角落 / 在地人會帶你去的 3 個地方 / 延伸閱讀），預估每篇 ~150 min + 4500-6000 CJK chars + 15-25 footnotes。**Pilot 基隆市 2026-05-18 已 ship（5168 CJK / 32 footnotes / hard=0 全綠除 image-health accepted deviation）**，retrospective enriched caveats 已寫進 reports §10。
 >
-> **共通 research caveats**（每篇都要注意）：人口/面積數字以內政部最新月報 + 標日期 / 行政沿革（直轄市改制 2010-2014）/ 族群結構 specific（原住民族別、客家閩南外省）/ 產業興衰三源驗證 / 地方政治派系具體事件不泛化 / 食物地方差異不寫「全台最好吃」/ 觀光手冊塑膠句一律刪 / 災害用具體數字 / 眷村文化不蓋過外省人經驗 / 原住民詞彙避免殖民詞。完整列見 reports §4。
+> **共通 research caveats**（每篇都要注意，pilot 校準後 15 條）：人口/面積數字以內政部最新月報 + 標日期 / 行政沿革（直轄市改制 2010-2014）/ 族群結構 specific（原住民族別、客家閩南外省）/ 產業興衰三源驗證 / 地方政治派系具體事件不泛化 / 食物地方差異不寫「全台最好吃」/ 觀光手冊塑膠句一律刪 / 災害用具體數字 / 眷村文化不蓋過外省人經驗 / 原住民詞彙避免殖民詞 / **降雨類數字必標 layer（年雨量/降雨日/平地/測站）/ 結構性轉變用區間時間不用單一年份斷言 / 「衰退」frame 必有具體數字證據 / 本地 vs 觀光客 fault line 是 Geography 觀點核心 / 日治現代化必具體化建築/年份/數字**。完整列見 reports §4 + §10。
+>
+> **22 entries 該找的「凌晨四點時刻」**：不是字面凌晨四點，是「外人不知道但在地人覺得最迷人的時刻」。基隆是崁仔頂魚市拍賣；其他縣市 Stage 0.6 §觀點成型 必須答出對應 anchor（萬華早晨 5 點豆漿 / 台南 6 點國華街早餐 / 高雄凌晨港邊卸貨 等候選）。
+>
+> **Image 系列 follow-up**：22 篇 hero 圖建議 spawn 一個 image agent 系列性處理（Wikimedia Commons CC BY-SA 搜 + cache + aspect 驗證），單篇 pilot 不卡。基隆 ship 時 0 圖 accepted deviation。
 
 ### 1. 台北市 NEW
 
@@ -236,18 +240,7 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Reference**: 高雄市政府 / 維基〈高雄市〉
 - **預估時間**：~180 min
 
-### 7. 基隆市 NEW 🎯 **PILOT 候選**
-
-- **Type**: `NEW`
-- **Category**: Geography
-- **Priority**: `P0`
-- **Status**: `pending` → **pilot 跑完後其他 21 篇 enrich**
-- **Source**: 哲宇 directive 2026-05-17 230616-manual
-- **Hook 候選**：被遺忘的北部出海口 — 雨都 + 港口 + 廟口夜市，36 萬人撐起的台灣對外大門曾經是清領全台稅收最重的港口
-- **Notes**: 36 萬 / 7 區（中正 / 七堵 / 暖暖 / 仁愛 / 中山 / 安樂 / 信義）/ 雨港 一年 200+ 雨日 / 三面環山一面向海 / 廟口夜市 / 委託行 / 八斗子漁港 / 海軍二級港 / 國門變蕭條：高雄港崛起 + 桃園機場取代 = 北部出海地位下降 / 礦業時代結束（瑞芳 / 金瓜石 / 九份本屬北部礦業圈）/ 中元普渡 / 國光客運不到 / 軌道下沉 / 房價低 / 老化嚴重 / 政治：民進黨林右昌 → 國民黨謝國樑
-- **Reference**: 基隆市政府 / 維基〈基隆市〉/ 基隆市文化局《基隆學》/ 中央氣象署降雨統計
-- **預估時間**：~150 min（pilot 多預留 +60 min 校準 template）
-- **Pilot 特殊任務**：跑完後 retrospective enrich §共通 caveats list + bulk-update 其他 21 entries Notes
+<!-- 基隆市 已完成 2026-05-18 2026-05-17-230616-manual → ARTICLE-DONE-LOG.md (Pilot ship + retrospective enriched caveats 已寫進 reports §10) -->
 
 ### 8. 新竹市 NEW
 

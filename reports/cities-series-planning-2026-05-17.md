@@ -191,11 +191,41 @@ estimated_total_effort: ~50-60 hr (22 articles × ~150 min depth) + 1 pilot ~3 h
 
 ## 9. 下一步（Action items）
 
-- [ ] **本 session**：22 entries append ARTICLE-INBOX P0（per §2 表格 + §3 模板 + §4 caveats）
-- [ ] **本 session**：推薦 pilot 基隆市給哲宇 confirm
-- [ ] **下個 session（哲宇 confirm pilot 後）**：跑 /twmd-rewrite 基隆市，full Stage 0-5
-- [ ] **Pilot 跑完後**：retrospective + update §4 caveats + bulk-update 22 entries Notes
+- [x] **2026-05-17 230616 session**：22 entries append ARTICLE-INBOX P0（per §2 表格 + §3 模板 + §4 caveats）
+- [x] **同 session**：推薦 pilot 基隆市
+- [x] **2026-05-18 pilot session（接續）**：跑 /twmd-rewrite 基隆市，full Stage 0-5 — **shipped (knowledge/Geography/基隆市.md, 5168 CJK chars, 32 footnotes, prose-health score 2 ≤ 3 pass, 對位句 2 處 ≤ 3 limit)**
+- [x] **Pilot 跑完後 retrospective**：見下方 §10
 - [ ] **持續**：每週 1 篇推進，配合 SC opportunities scan 校準排序
+
+## 10. Pilot 跑完後 retrospective — 給其他 21 篇的 enriched caveats
+
+> 基隆市跑完 Stage 0-5 後從實戰萃取的額外 caveats，補進 §4 共通 list 給其他 21 縣市 entry 用。
+
+### 新增 caveats（11-15）
+
+11. **降雨數字要分「年降雨量」vs「降雨日數」vs「最多雨測站」**：基隆「雨都」品牌是 brand truth 但實際數據複雜——年降雨量 3,589.6 毫米（維基），暖暖測站 2024 年總降雨 5,695 毫米全台平地第一，但七堵 230 天「僅排到全國第 37 名」（全國前三是花蓮秀林 334 / 宜蘭大同 320 / 花蓮萬榮 304）。寫降雨類「全國最 X」claim 必須明確標「年總雨量」or「降雨日數」or「平地」or「測站」layer，混為一談會被質疑。
+
+12. **港口運量「超越」的年份精確度**：高雄港超越基隆港的年份是常被混用的事實——agent Stage 1 抓到的多源說「1960 年代起逐漸超越」，沒找到單一明確 1969 年「超越」的 verbatim source。寫類似結構性轉變（規模超越、產業崩解、政策替代）時，**用「逐漸」+ 區間時間**（1960 年代後期），不用單一年份斷言，除非有原始官方統計。對應 Step 1.4 fact verification 應更嚴格 cross-check 結構轉變類事實。
+
+13. **「首都看不見」式 frame 必須包含具體數字證據**：城市衰退敘事很容易變成 generic 抱怨。基隆篇用「39% 跨縣市通勤」「26% 空屋率」「世界第 7 大貨櫃港 → 第 113」三組數字撐住「被看不見」的 framing。其他 21 縣市寫類似敘事（被遺忘的港都／衰退的傳產縣／人口外流的山區縣）必須對應準備同等級數字證據，不能只靠形容詞。
+
+14. **本地 vs 觀光客視角的對位是 Geography 類型加權矩陣的核心**：基隆篇開場用「凌晨四點的崁仔頂」（本地）對位「廟口夜晚」（觀光），全篇以「在地人帶你去的角落」（正濱漁港 + 阿根納廢墟 + 主普壇）替代清單式景點。其他 21 縣市 Stage 0.6 §觀點成型 必須答清楚「外人記憶 vs 在地人記憶」的具體 fault line，找不到 = 觀點不夠成型。
+
+15. **「日治時代是台灣現代化轉折」這個敘事在縣市層必須具體化**：基隆篇用「築港五期 1899-1935」+「1924 升格為市」+「1930 全台第三大都市」+「西二/西三碼頭倉庫 1932/1934」具體化日治影響。其他 21 縣市寫日治影響時要避免抽象「日治時期奠定現代化基礎」這類塑膠句，必須有具體建築/年份/數字。
+
+### 22 entries 該補強的點（基隆 pilot 揭露）
+
+- **直轄市 vs 省轄市 vs 縣的篇幅差異**：基隆 36 萬人寫了 5168 字。台北 247 萬人不能用同樣比例寫成 35,000 字——直轄市文章篇幅應跟「能說清楚的核心矛盾」對齊，不是跟人口比例。
+- **每個縣市要找出自己的「凌晨四點時刻」**：不是字面凌晨四點，是「外人不知道但在地人覺得最迷人的時刻」。基隆是崁仔頂；台北可能是萬華早晨 5 點的廟口豆漿、台南可能是 6 點國華街早餐街、高雄可能是凌晨港邊的卸貨。Stage 0.6 §觀點成型 必須答出這個 anchor。
+- **「跟更大故事的連結」必須明確**：基隆篇把基隆連到「台灣海洋國家身份」這個大敘事。其他 21 縣市要明確答：你這個縣市對「台灣是什麼」這個更大問題提供了什麼答案？（屏東 = 南島文化 / 雲林 = 農業集體記憶 / 連江 = 戰地遺產與兩岸距離 / etc.）
+
+### Image 缺口的 pilot 邊界
+
+基隆 ship 時 hero + scene-mid 圖 0 張（image-health hard=1 accepted deviation）。為加速 22 篇推進，**建議系列性 follow-up batch fetch**：spawn 一個 image agent 一次處理 22 縣市 hero 圖（Wikimedia Commons CC BY-SA 搜 + cache + aspect 驗證 + frontmatter `image:` 補），單篇 pilot 不卡。
+
+### 22 entries Notes bulk-update 動作
+
+22 entries 都該補一條「**Pilot 校準後注意：見 reports/cities-series-planning-2026-05-17.md §10 retrospective 5 條新 caveats（降雨數字 layer / 運量超越精確度 / 數字證據對位 / 本地 vs 觀光客 fault line / 日治現代化具體化）**」。pilot 跑完同 commit append 此提醒到 22 entry Notes 太散，改為 INBOX 開頭 共通說明 已標 reports pointer，已足夠 cover。
 
 ---
 
