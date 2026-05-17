@@ -69,6 +69,21 @@ session 起點 working tree 髒：82 個未 commit 檔（6 既有 article × 5 l
 
 延伸寫進 diary：本 session 純 mechanical routine，沒有超越「做了什麼」的反芻層級。Skip diary。
 
+## Post-script — 隔離模式自己被同個 session 違反（commit `4ad0aa420`）
+
+寫完上面 Beat 5 反芻、commit memory file 那一步，沒給 `git commit` 顯式 paths，把 33 個 babel modified 檔（`stash pop` 把它們塞回 index 而不是 working tree）一起掃進 memory commit。Commit message 寫著「in-flight babel isolation pattern」但 diff 本身打臉這個 claim — 35 files changed, 1753 insertions。
+
+根因兩層：
+
+1. **`git stash pop` 行為誤判**：以為 pop 預設把 modifications 放回 working tree (unstaged)，實際上 conflict 場景觸發 auto-stage 非衝突檔。`_translation-status.json` 衝突存在 → git 把其他 modified 檔自動進 index 等 conflict 解完一起 commit。
+2. **`git commit` without explicit paths**：當 staged 區有東西時無條件全收，沒 audit。「stash → refresh → commit → pop → commit memory」流程的第二個 commit 必須用 `-o` 或先 `git reset HEAD` 才安全。
+
+剩餘 49 untracked 新 Geography county 翻譯檔仍在 working tree（untracked 不被 pop 自動 stage）。下一步另起 `🧬 [routine] babel-handoff` commit 把它們收進來，working tree 才真乾淨。
+
+這是 vc=1 first-instance — 升 LESSONS-INBOX 候選。「stash → refresh → commit → pop」pattern 必須加第 5 步「commit memory with explicit paths after pop」才完整。
+
+🧬
+
 🧬
 
 ---
