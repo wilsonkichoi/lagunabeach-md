@@ -33,19 +33,20 @@ upstream_canonical:
 │         SPORE-PIPELINE 5 階段 — PICK → VERIFY → WRITE → SHIP → HARVEST   │
 │                                                                          │
 │   🧭 核心紀律                                                            │
-│            ├── 回填上次成效（鐵律：沒回填 = 不准發新孢子）               │
 │            ├── 單一故事弧線（一篇只講一個故事，不貪心）                  │
 │            ├── 紀實非煽情（MANIFESTO §5）                                │
 │            └── Atomic batch log（HARVEST 不再拆 multi-commit）           │
 │                                                                          │
+│   💡 回填 (decoupled 2026-05-17)：交給 daily twmd-spore-harvest-am cron │
+│      不再 PICK gate 前置，避免 schema bug 永久 block (e.g. #71 vc=4)    │
+│                                                                          │
 │   ──── 5 階段主流程 ──────────────────────────────────────              │
 │                                                                          │
 │   Stage 1: PICK ──→ 選什麼（本檔 canonical）                            │
-│            ├── Step 1.1 回填上次成效（SPORE-LOG 最後 3 筆）             │
-│            ├── Step 1.2 選文（dashboard-articles 候選）                 │
-│            ├── Step 1.3 優先序（旗艦/GA 熱門/SC 缺口/時事）             │
-│            └── Step 1.4 觸發 VERIFY                                     │
-│              ↳ Hard gate: 沒回填 = 不准發新孢子                          │
+│            ├── Step 1.1 選文（dashboard-articles 候選）                 │
+│            ├── Step 1.2 優先序（旗艦/GA 熱門/SC 缺口/時事）             │
+│            └── Step 1.3 觸發 VERIFY                                     │
+│              ↳ 回填 decoupled — twmd-spore-harvest-am cron 接管         │
 │                                                                          │
 │   Stage 2: VERIFY ──→ 過所有閘門（SPORE-VERIFY.md canonical）           │
 │            └── 品質三層 / 事實藍圖 / 紀實煽情閘 / Hook Blueprint        │
@@ -83,11 +84,11 @@ upstream_canonical:
 
 > 從 SPORE-LOG harvest history + 4/14 ε spore #29 紅線焦慮 + 高鐵 s35 朋友 tone prime 抽 friction 最高的 5 條。
 
-1. **Step 1.1 回填上次成效** — 沒回填 = 不准發新孢子（鐵律），SPORE-LOG.md 最後 3 筆必填 7d 指標
-2. **Step 3 朋友 tone prime** — 第一秒像新聞 lead = AI 水印，必須有「你知道嗎？」「欸，」curiosity prefix（spore_writing plugin Wave 2 gate）
-3. **Step 4.2 URL encode** — 中文 URL 必跑 `python3 -c "urllib.parse.quote..."`，未 encode 在 Threads 會斷
-4. **Step 4.4 Hook tier 自檢** — Tier 1a/1b only，禁 Tier 3（廉價懸念「未完待續」一律重寫）
-5. **Step 5 HARVEST atomic batch log** — 寫 docs/factory/SPORE-HARVESTS/batch-{date}-{N}-spores.md 不拆多 commit 跨檔案寫（2026-05-08 Phase 0-3 後 SSOT）
+1. **Step 3 朋友 tone prime** — 第一秒像新聞 lead = AI 水印，必須有「你知道嗎？」「欸，」curiosity prefix（spore_writing plugin Wave 2 gate）
+2. **Step 4.2 URL encode** — 中文 URL 必跑 `python3 -c "urllib.parse.quote..."`，未 encode 在 Threads 會斷
+3. **Step 4.4 Hook tier 自檢** — Tier 1a/1b only，禁 Tier 3（廉價懸念「未完待續」一律重寫）
+4. **Step 5 HARVEST atomic batch log** — 寫 docs/factory/SPORE-HARVESTS/batch-{date}-{N}-spores.md 不拆多 commit 跨檔案寫（2026-05-08 Phase 0-3 後 SSOT）
+5. **回填 decoupling (2026-05-17)** — 已從 PICK 拆出，twmd-spore-harvest-am 07:00 cron 接管。寫 spore 不再強制檢查 backfillWarnings — `#71` schema bug vc=4 證實 PICK gate 易卡住 schema 錯誤
 
 ---
 
@@ -136,16 +137,19 @@ PICK → VERIFY → WRITE → SHIP → HARVEST
 
 ## 階段 1：PICK（選什麼）
 
-### 回填上次成效
+### 回填 — DECOUPLED 2026-05-17（移交 daily harvest cron）
 
-> ⚠️ 鐵律：**沒有回填 = 不准發新孢子**。
-
-1. 讀 `SPORE-LOG.md` 最後 3 筆
-2. 7d 指標欄空白 → 從 GA topArticles 交叉推估 + Threads/X Insights 手動讀取
-3. 填入 `7d_views` / `7d_likes` / `utm_clicks`（GA4 過濾 `utm_source=threads|x`）
-4. 完全沒數據 → 填 `no-data`（不是空白。空白 = 遺漏，`no-data` = 刻意標記無資料）
-
-**為什麼**：不知道哪種孢子有效 = 永遠在猜。鄭麗文 375 views/7d 的 12x 放大效應，只有交叉對照才看得到。
+> 🔄 **2026-05-17 哲宇 directive**：回填上次成效從 PICK gate **完全移除**。原鐵律「沒回填 = 不准發新孢子」DEPRECATED。
+>
+> **觸發背景**：`#71` 台灣無人機產業 X SPORE-LOG row URL `2053101189034860856` 內容實為 `#69` TSMC（vc=4 驗證），導致 backfillWarnings 永久 OVERDUE，PICK gate 連帶卡住所有後續孢子。Gate intent 是「真實 feedback 再生產」，但卡在 schema bug 上反而無法收 feedback。
+>
+> **新分工**：
+>
+> - 回填責任移交 `twmd-spore-harvest-am` daily 07:00 cron — 它每天 sweep `dashboard-spores.json §backfillWarnings`，per OVERDUE 自動 harvest
+> - PICK 階段不再 block — 寫孢子直接從選文開始
+> - Schema bug 處理 → vc≥3 達 threshold 升級給觀察者 schema 修正（per SPORE-HARVEST-PIPELINE v2.10 §Content-hash mismatch 偵測）
+>
+> Stale records 由 cron loop 自然 catch up，不依賴 PICK 階段強制阻塞。
 
 ### 選文
 
@@ -476,10 +480,10 @@ grep "{中文slug}" knowledge/_translations.json
 觀察者觸發 / cron / HEARTBEAT Beat 3 社群沉默警報
 │
 ├─ PICK
-│   ├─ 回填上次成效（鐵律：不回填不准發）
 │   ├─ 從 dashboard-articles.json 選 5-10 篇候選
 │   ├─ 排除 2 週內已發
 │   └─ 觀察者選定文章
+│   (回填 decoupled — 交 twmd-spore-harvest-am 07:00 cron)
 │
 ├─ VERIFY  → 詳見 SPORE-VERIFY.md
 │   ├─ 品質三層

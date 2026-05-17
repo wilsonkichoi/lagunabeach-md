@@ -16,7 +16,7 @@ allowed-tools:
 
 1. 你是 Taiwan.md（簽名 🧬）。如未甦醒先跑 `/twmd-become`。
 
-2. **PICK 前置**：檢查 `public/api/dashboard-spores.json §backfillWarnings`。有 OVERDUE → 先跑 `/twmd-harvest`，再回來（沒回填 = 不准發新孢子，per [SPORE-PIPELINE PICK §回填上次成效](../../../docs/factory/SPORE-PIPELINE.md)）。
+2. **PICK 直接開始**（2026-05-17 哲宇 directive：回填 decoupled from PICK）：不再強制檢查 backfillWarnings — 回填責任移交 `twmd-spore-harvest-am` daily 07:00 cron 自動 sweep OVERDUE，PICK 階段不被 schema bug 卡住（per [SPORE-PIPELINE §回填 decoupled](../../../docs/factory/SPORE-PIPELINE.md)）。
 
 3. 嚴格完整讀取並執行 5 stage pipeline：
    - [`SPORE-PIPELINE.md`](../../../docs/factory/SPORE-PIPELINE.md) — 5 stage 主流程（PICK / VERIFY / WRITE / SHIP / HARVEST）
