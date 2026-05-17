@@ -164,13 +164,13 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 > **完整規劃 + 模板 + 共通 caveats（含 pilot retrospective 5 條新校準）**：見 [reports/cities-series-planning-2026-05-17.md](../../reports/cities-series-planning-2026-05-17.md)
 >
-> 22 縣市每篇獨立 NEW article，共通模板 7 H2 骨架（地理決定的命運 / 從清領到 2026 軸線 / 經濟肌理 / 文化標誌 / 不被看見的角落 / 在地人會帶你去的 3 個地方 / 延伸閱讀），預估每篇 ~150 min + 4500-6000 CJK chars + 15-25 footnotes。**Pilot 基隆市 2026-05-18 已 ship（5168 CJK / 32 footnotes / hard=0 全綠除 image-health accepted deviation）**，retrospective enriched caveats 已寫進 reports §10。
+> 22 縣市每篇獨立 NEW article，共通模板 7 H2 骨架（地理決定的命運 / 從清領到 2026 軸線 / 經濟肌理 / 文化標誌 / 不被看見的角落 / 在地人會帶你去的 3 個地方 / 延伸閱讀），預估每篇 ~150 min + 4500-6000 CJK chars + 15-25 footnotes。**Pilot 基隆市 2026-05-18 已 ship（5171 CJK / 32 footnotes / 3 Wikimedia images / rewrite-stage-4 hard=0 warn=0 全綠 — cron polish 0000 補圖 + 修對位句型 + 抽象 metaphor）**，retrospective enriched caveats 已寫進 reports §10。
 >
 > **共通 research caveats**（每篇都要注意，pilot 校準後 15 條）：人口/面積數字以內政部最新月報 + 標日期 / 行政沿革（直轄市改制 2010-2014）/ 族群結構 specific（原住民族別、客家閩南外省）/ 產業興衰三源驗證 / 地方政治派系具體事件不泛化 / 食物地方差異不寫「全台最好吃」/ 觀光手冊塑膠句一律刪 / 災害用具體數字 / 眷村文化不蓋過外省人經驗 / 原住民詞彙避免殖民詞 / **降雨類數字必標 layer（年雨量/降雨日/平地/測站）/ 結構性轉變用區間時間不用單一年份斷言 / 「衰退」frame 必有具體數字證據 / 本地 vs 觀光客 fault line 是 Geography 觀點核心 / 日治現代化必具體化建築/年份/數字**。完整列見 reports §4 + §10。
 >
 > **22 entries 該找的「凌晨四點時刻」**：不是字面凌晨四點，是「外人不知道但在地人覺得最迷人的時刻」。基隆是崁仔頂魚市拍賣；其他縣市 Stage 0.6 §觀點成型 必須答出對應 anchor（萬華早晨 5 點豆漿 / 台南 6 點國華街早餐 / 高雄凌晨港邊卸貨 等候選）。
 >
-> **Image 系列 follow-up**：22 篇 hero 圖建議 spawn 一個 image agent 系列性處理（Wikimedia Commons CC BY-SA 搜 + cache + aspect 驗證），單篇 pilot 不卡。基隆 ship 時 0 圖 accepted deviation。
+> **Image 系列 follow-up**：22 篇 hero 圖建議 spawn 一個 image agent 系列性處理（Wikimedia Commons CC BY-SA 搜 + cache + aspect 驗證）。基隆 pilot cron polish 已示範路徑：upload.wikimedia.org hot-link（plugin allowed external prefix）免 cache、3 張（hero frontmatter + 2 inline scene-mid）+ §圖片來源 attribution + CC BY-SA 4.0 license。Taiwankengo 為 Wikimedia Commons 上多縣市 CC 攝影者主力，22 篇可優先檢查其 portfolio。
 
 ### 1. 台北市 NEW
 

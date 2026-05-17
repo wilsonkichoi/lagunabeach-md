@@ -59,13 +59,14 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
-### 基隆市 NEW — 2026-05-18 2026-05-17-230616-manual（22 縣市系列 PILOT — 離台北最近的港口最被台北看不見 / Geography 縣市 / 5168 字 / 32 footnote）
+### 基隆市 NEW — 2026-05-18 2026-05-17-230616-manual + cron twmd-rewrite-daily polish 0000（22 縣市系列 PILOT — 離台北最近的港口最被台北看不見 / Geography 縣市 / 5171 字 / 32 footnote / 3 Wikimedia images）
 
 - **Article**: [knowledge/Geography/基隆市.md](../../knowledge/Geography/基隆市.md)
 - **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑) — **22 縣市系列首篇 PILOT**
 - **核心矛盾**：「離台北最近的港口，最被台北看不見」（17 字 ≤ 30）
 - **Hook**：凌晨四點崁仔頂魚市拍賣聲開場 → 1626 西班牙聖薩爾瓦多城 / 1875 沈葆楨改名「基地昌隆」/ 1884 中法戰爭法軍 8 個月 / 1855 雞籠中元祭「張頭許尾」/ 築港五期 1899-1935 / 1984 世界第七大貨櫃港 / 三重打擊（1960s 高雄港超越 + 1979 桃機 + 1980s 礦業圈崩解）/ 廟口吳家鼎邊銼 1919 + 李鵠 1882 / 正濱彩色屋對面阿根納廢墟 / 林右昌「希望之城」+ 謝國樑 2024 罷免案 / 39% 跨縣市通勤 + 26% 空屋率 + 359,102 人 → 結尾首尾呼應「凌晨四點黑鳶在等」（黑鳶從 2013 年 272 隻長回 808 隻）
-- **品質**：5,168 CJK chars (115% of 4500) / 32 footnotes / 0 images（pilot accepted deviation，22 篇 hero 圖建議系列性 follow-up batch）/ prose-health score 2 ≤ 3 pass / 對位句型 2 處 ≤ 3 limit / 破折號 ≤ 10 / article-health rewrite-stage-4 hard=0（除 image-health）/ rewrite-stage-3-5 footnote profile hard=0 / 三角自檢 PASS（算術 / 單位 / 引語）
+- **品質**：5,171 CJK chars (115% of 4500) / 32 footnotes / **3 Wikimedia Commons images**（hero 正濱漁港 + scene 和平島 + scene 基隆港，皆 CC BY-SA 4.0 by Taiwankengo）/ article-health rewrite-stage-4 **hard=0 warn=0 全綠** / default profile warn=1（僅「未人工審核」inherent）/ 三角自檢 PASS（算術 / 單位 / 引語）
+- **Cron polish (0000)**：sweep-in 接手 230616-manual session 未 commit 的 pilot 文 — (1) 補 3 張 Wikimedia upload.wikimedia.org hot-link 圖（plugin allowed external，免 cache）+ §圖片來源 改寫，清掉 image-health HARD blocker；(2) 修 L157 對位句型「不是內陸大島，是海洋國家」→「台灣是一個海洋國家。而基隆，從西班牙人 1626 年插下那面旗子開始，就一直在替這座島接收海上來的東西」；(3) 移除 §11 Tier 2 抽象 metaphor「縮影」「核心張力」；(4) hollow words 從 5 降到 3（「不斷擴建」「逐漸超越」「重要的漁港之一」三處改寫）
 - **Research**: [reports/research/2026-05/基隆市.md](../../reports/research/2026-05/基隆市.md) — Stage 0 §觀點成型 (6 核心問題 + 7 品質維度 + Geography 類型加權) + Stage 1 41 次搜尋（中文 24 / 英文 5 / WebFetch 5 / Wikipedia direct 1 / 重複交叉 6）+ 14 章節 + 17 verbatim quotes + 4 fact flags audit pass
 - **FACTCHECK**: 4 ⚠️ flag 已 conservative 化（1969 中島貨櫃中心 → 1960 年代後期逐漸超越 / 沈葆楨奏摺原文 → 多源歸功表述 / 主普壇 1974 vs 1976 → 1970 年代中期 / 築港四期 vs 五期 → 改五期）
 - **Cross-link**: 7 forward (台灣都市發展 / 行政區劃 / 城市特色 / 金瓜石 / 野柳 / 海岸地形 / 都市與城鄉差距) + 1 reverse 加到金瓜石（黃金經正濱漁港運日本）
