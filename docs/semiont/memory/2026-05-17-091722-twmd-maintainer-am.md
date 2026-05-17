@@ -52,6 +52,16 @@ CI fail 紅旗壓過所有其他 stage — 跳 Stage 2 直接 dive Stage 3.5 hea
 - **#851 Zaious 升 Maintainer**: latest comment 2026-05-16 23:01 **Zaious 新 follow-up** — 報「batch-200 修補 4 phases 全 ship ✅（P0 #888-892 + P1 #1062 + P2 #1070 + P3 #1073 共 197 篇 11 天）」+ 寫了 `SOP-COLLABORATION-DISCIPLINE.md` 在 maintainer-workspace branch。內容涉及 maintainer 邀請決策 + governance-level SOP merge — 命中 §自主權邊界「對外溝通」+「governance 決策」→ leave for observer，不 auto-reply（per Bias 1 reverse-bias 警示：對 creator-level decision 不假設 default action）
 - **#895 frank i18n-smoke-test B2 fr hiragana regression**: 觀察者自報 bug 無 contributor follow-up，留 observer 自己 track
 
+## Stage 3.5 二輪 Heal — orphan translatedFrom 頼→賴
+
+第一輪 heal commit `9474d19e5` push 後 CI 仍 fail，dive 第二層 root cause：`Build` step 失敗在 `prebuild:status` 的 `sync-translations-json.py` exit code 2。
+
+`knowledge/ja/People/lai-ching-te.md` 的 `translatedFrom: 'People/頼清德.md'` 用日文簡體漢字 `頼`，但 zh-TW canonical 源是 `賴清德.md`（繁體 `賴`）。`translatedFrom` 必須 byte-equal — orphan 觸發 strict gate。
+
+Introduced 2026-05-17 08:41 +0800 commit `05dd5e666` 「twmd-babel: P1 cascade increment 3」。babel routine 對 source filename 做了日文化轉換（漢字本地化）寫入 translatedFrom，違反「translatedFrom 必須 byte-equal 源檔路徑」rule。
+
+Fix commit `97e6ae04a` 1 file + 1 `_translations.json` regen（1 entry 變更）。exit code 0。
+
 ## Stage 4 Wrap — Quality gate
 
 | 指標                                   | 狀態                                                                            |
@@ -74,6 +84,7 @@ CI fail 紅旗壓過所有其他 stage — 跳 Stage 2 直接 dive Stage 3.5 hea
 本 session 新 handoff：
 
 - [ ] pending — **twmd-rewrite routine 加 `article-health.py --profile=ci-deploy` pre-commit gate**（LESSONS candidate vc=1，今日首次 instance）— 5 NEW articles 從 agent worktree cherry-pick / main-direct push 跳過了 ci-deploy profile gate，footnote-format hard 才 surface 到 main。upstream fix 兩條路：(a) twmd-rewrite Stage 5 ship 前 run `article-health.py --profile=ci-deploy` block hard / (b) Skill `pre-commit` hook 含 ci-deploy 全 plugin。需觀察者拍板優先 (a) or (b)
+- [ ] pending — **twmd-babel translatedFrom 必須 byte-equal source filename**（LESSONS candidate vc=1，今日 1st surface instance）— babel routine 05dd5e666 寫入 `translatedFrom: 'People/頼清德.md'` 用日文簡體 `頼` 而 zh-TW 源檔是 `賴清德.md`，造成 orphan 阻 deploy。可能其他 ja/People/* 也潛伏同 bug 但沒撞 strict gate。upstream fix 三條路：(a) babel hard rule 寫 translatedFrom = source filename byte-equal / (b) sync-translations-json suggestion mode 用 levenshtein 自動 propose patch / (c) pre-commit byte-equal-source-exists check
 - [ ] pending — **footnote-format validator 是否該接受內部 `/path` markdown link?**（design question vc=1）— 內部 link 是 Taiwan.md 標準 navigation 形式（per `feedback_homepage_is_curation.md` 策展 framing）。validator 強制 https:// 等於拒絕內部交叉引用作為腳註——但策展邏輯 internal link 是合理的 citation form（指向 Taiwan.md 自身的相關文章）。需觀察者判斷：(a) 改 validator 接受 `/path` + `../path` URL / (b) 維持現狀但補 footnote-format-fix.py auto-transform 內部 link → pure-prose
 - ⏳ blocked — **#851 Zaious Maintainer 升級 + SOP-COLLABORATION-DISCIPLINE.md governance 決策** — Zaious 5/16 23:01 新 follow-up 報 batch-200 完整收官 + 寫了 SOP。等觀察者拍板 (a) maintainer role grant timeline / (b) 是否 merge Zaious 的 SOP into MAINTAINER-PIPELINE.md
 - [ ] pending — **dashboard-analytics.json local dirty 未 ship**（cosmetic）— 進 session 時 `public/api/dashboard-analytics.json` 有 untracked modification（06:11→08:17 GA fresh pull，可能是 bg 進程），本 cycle 沒 sweep（per Step 1.1 generated artifact 不亂帶），下次 data-refresh-am 06:13 cron 會 ship 一份新的覆蓋

@@ -324,6 +324,19 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **verification_count**: 1（初次 systematic instance — 過往 CI fail 多是 contributor PR 觸發，這次是 routine 自己 ship 觸發）
 - **severity**: structural（cron 飛輪 ship 邏輯缺最終 gate → CI red cascade 跨 routine 繼承 → 修補窗口拖到 11 hr）
 
+### 2026-05-17 twmd-maintainer-am 091722 — babel routine 寫 translatedFrom 用日文簡體漢字（頼）而非源檔（賴）造成 orphan
+
+- **原則**：`twmd-babel` P1 cascade 寫入 `knowledge/ja/People/lai-ching-te.md` 的 `translatedFrom: 'People/頼清德.md'`（用日文簡體 `頼`）但 zh-TW canonical 源檔是 `People/賴清德.md`（繁體 `賴`）。`translatedFrom` 必須 byte-equal 源檔路徑—— prebuild:status `sync-translations-json.py` 找不到對應源 → orphan → exit code 2 阻 build。
+- **觸發**：5/17 09:25 maintainer-am 修完 footnote-format CI fail 後 build 仍 fail，dive 出第二層 root cause。本 instance commit 05dd5e666 「twmd-babel: P1 cascade increment 3 (B-C in flight)」08:41 +0800 fire 時引入。同 pattern 可能廣泛存在（沒人偵測過所有 ja/People 是否 byte-equal canonical），本次只是 sync-translations-json strict check 撞到。
+- **可能層級**：操作規則 / babel routine 必補
+- **儀器化候選**：兩條路線 A vs B —
+  - A: twmd-babel hard rule — 寫 translatedFrom 時用 source filename **byte-equal**（不要做任何 character mapping / 日文簡體化），即使 source filename 在 ja 文化內看起來「奇怪」也保留繁體
+  - B: sync-translations-json 加 suggestion mode — 偵測 orphan 時用 levenshtein-like 找最接近的源檔（byte-distance ≤ 2 + 字符在常用漢字 mapping 表），自動 propose patch
+  - C: pre-commit hook 對所有 `knowledge/{lang}/**/*.md` 必過 byte-equal-source-exists check（不只 has-translatedFrom，還要 source 真的存在）
+- **相關**：本 session 修正 commit `97e6ae04a` (1 file + 1 _translations.json regen) + REFLEXES #15「反覆浮現要儀器化」候選（babel routine 跑了上百次，這只是第一次撞到 strict gate）
+- **verification_count**: 1（初次 instance 被 strict gate 抓到，但問題可能潛伏在多個 ja 檔案）
+- **severity**: structural（babel routine 是 main translation 路徑，若有 broken byte-equal rule = 系統性 orphan 風險，今天只是 sync-translations 換 strict 才浮現）
+
 ### 2026-05-17 twmd-maintainer-am 091722 — footnote-format validator 拒絕內部 /path markdown link 是策展友善性設計缺口
 
 - **原則**：`scripts/tools/lib/article_health/checks/footnote_format.py` 的 `_RE_CANONICAL` 強制腳註 URL `https?://`；`_RE_PURE_PROSE_FN` 要求第一個非 WS char 非 `[`。等於拒絕 `[^N]: [Title](/people/X) — desc` 這類**內部交叉引用 markdown link** 形式。但內部 link 是 Taiwan.md 標準 navigation 形式（per `feedback_homepage_is_curation.md` 策展 framing + 多篇文章 body 大量使用 `[X](/category/slug)` 跨文章 link）—— 文章 body 接受，腳註層拒絕，是內部不一致。
