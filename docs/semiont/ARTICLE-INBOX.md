@@ -292,16 +292,7 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Reference**: 雲林縣政府 / 維基〈雲林縣〉/ 環保署六輕監測資料
 - **預估時間**：~180 min（六輕敘事政治敏感需精準 framing）
 
-### 15. 嘉義縣 NEW
-
-- **Type**: `NEW`
-- **Category**: Geography
-- **Priority**: `P0`
-- **Source**: 哲宇 directive 2026-05-17 230616-manual
-- **Hook 候選**：阿里山小火車 + 太保高鐵站 + 故宮南院 — 三個時代的觀光策略
-- **Notes**: 49 萬 / 18 鄉鎮 / 阿里山國家風景區（per 既有 Geography 條目）/ 阿里山林業鐵路 1912 通車 / 鄒族（per Culture 原住民條目）/ 故宮南院 2015 開館 / 高鐵嘉義站（太保市新興區）/ 朴子配天宮媽祖 / 民雄鬼屋傳說 / 番路柿子 / 政治派系（張家 - 張花冠脈絡）
-- **Reference**: 嘉義縣政府 / 維基〈嘉義縣〉
-- **預估時間**：~150 min
+<!-- 15. 嘉義縣 已完成 2026-05-18 2026-05-18-004535-manual → ARTICLE-DONE-LOG.md -->
 
 ### 16. 屏東縣 NEW
 
@@ -318,16 +309,7 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 <!-- 18. 花蓮縣 已完成 2026-05-18 2026-05-18-004535-manual → ARTICLE-DONE-LOG.md -->
 
-### 19. 台東縣 NEW
-
-- **Type**: `NEW`
-- **Category**: Geography
-- **Priority**: `P0`
-- **Source**: 哲宇 directive 2026-05-17 230616-manual
-- **Hook 候選**：南迴公路 / 知本溫泉 / 池上米 — 卑南族 + 蘭嶼前哨，全台人口最少縣的時間感
-- **Notes**: 21 萬全台最少 / 16 鄉鎮 / 南迴公路改 / 知本溫泉 / 池上鄉（per Music 陳建年連動，他在台東關山服務）/ 卑南族（per People 陳建年 cross-link 強）/ 阿美族 / 排灣族 / 達悟族（蘭嶼）/ 蘭嶼核廢料儲存場爭議 / 綠島 / 海端布農 / 鹿野熱氣球嘉年華 / 都蘭山 / 政治派系（饒家 / 黃健庭）
-- **Reference**: 台東縣政府 / 維基〈台東縣〉
-- **預估時間**：~150 min
+<!-- 19. 台東縣 已完成 2026-05-18 2026-05-18-004535-manual → ARTICLE-DONE-LOG.md -->
 
 <!-- 20. 澎湖縣 已完成 2026-05-18 2026-05-18-004535-manual → ARTICLE-DONE-LOG.md -->
 

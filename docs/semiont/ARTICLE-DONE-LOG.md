@@ -59,6 +59,30 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 台東縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 2 — 兩個離島一個關了三十六年政治犯一個存了四十二年核廢料 / Geography 縣市 / 7196 字 / 41 footnote / 6 Wikimedia images）
+
+- **Article**: [knowledge/Geography/台東縣.md](../../knowledge/Geography/台東縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-a100e12072a1c0341 commit ae9647bbc)
+- **核心矛盾**：「兩個離島，一個關了三十六年政治犯，一個存了四十二年核廢料」（26 字 ≤ 30）
+- **Hook**：開場卑南遺址石棺 5300-3500 年前 → 1875 沈葆楨開山撫番八通關古道 + 1931-1941 布農族集團移住海端鄉（非單一 1934 年）/ 1951-1987 綠島火燒島政治犯監獄 36 年 → 1992 改人權紀念園區 / 1968/08/25 紅葉少棒**7:0**（修正 Stage 0 寫 4:0）擊敗**日本關西少棒明星隊**（非國家隊，「世界冠軍和歌山隊」是後來黨媒神話）/ 1972 南橫公路通車 / 1975 蔣經國同意蘭嶼設貯存場 + **政府以興建魚罐頭工廠（部分說法鳳梨）名義誘騙簽名** + 1982/05 首批運入 + 累積 97,672 桶 + 1988/02/20 達悟族反核廢驅逐惡靈運動 + 1996 投石封港 + 2019/11 蔡英文 25.5 億補償 / 1999 陳建年金曲歌王 + 紀曉君 + 巴奈 + 胡德夫 + 張惠妹（卑南族）/ 2002 史前文化博物館 / 2020 南迴鐵路電氣化 / 結尾紅葉村約 500 人現況首尾呼應
+- **品質**：7,196 CJK / 41 footnotes / **6 Wikimedia images** / 8 H2 narrative scene-led / **article-health rewrite-stage-4 hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=3** ≤ 3 pass / 對位句 **2 處** ≤ 3 / 破折號 **4 處** ≤ 15
+- **Research**: [reports/research/2026-05/台東縣.md](../../reports/research/2026-05/台東縣.md) — Stage 1 46 次搜尋 / 22 verbatim quotes / 8 ⚠️ fact flags audit pass
+- **FACTCHECK**: 🔴 1 CRITICAL + 7 ⚠️ flags 全處理（紅葉少棒 **7:0** 修正自 Stage 0 4:0 / 對手「**日本關西少棒明星隊**」非國家隊 / 布農族 **1931-1941 集團移住**系列 / 蘭嶼首批 1982/05 + 累積 97,672 桶 / 罐頭工廠用「政府以興建魚罐頭工廠名義誘騙簽名」+ 2018 調查否認措辭爭議 ⚠️ / 紅葉村約 500 人 / 八部合音用 1943 黑澤隆朝錄音可驗證事實 / 卑南八社原民會官方版本）
+- **Cross-link**: 11 forward (基隆 / 澎湖 / 連江 / 苗栗 / 宜蘭 / 嘉義市 sibling + 蘭嶼生態系 + 綠島監獄 + 台灣白色恐怖 + 台灣原住民族土地正義 + 當代原住民創作歌手 + 台灣海岸地形) + reverse 加到基隆市
+- **Pilot retrospective 5 條校準執行**：雨量分層（蘭嶼海洋季風 3,000mm / 縱谷 1,900 / 海岸山脈背風 1,500）/ 區間時間（14 個歷史節點）/ 衰退低密度數字（21 萬 / 3,515 km² / 60 人/km² 全國最低 / 紅葉村 500 人 / 97,672 桶 / 42 年）/ 本地 vs 觀光客 fault line（池上稻浪 vs 卑南大獵祭 vs 蘭嶼飛魚祭 vs 綠島人權園區 vs 紅葉村）/ 日治現代化具體化（1931-1941 布農族集團移住）
+
+### 嘉義縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 2 — 49 萬人把全國的臉借給阿里山自己卻找不到臉 / Geography 縣市 / 6908 字 / 30 footnote / 7 Wikimedia images）
+
+- **Article**: [knowledge/Geography/嘉義縣.md](../../knowledge/Geography/嘉義縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-aff606587133a5bab commit bd494396a)
+- **核心矛盾**：「嘉義縣 49 萬人把全國的臉都借給了阿里山，自己卻找不到臉」（25 字 ≤ 30）
+- **Hook**：阿里山林業鐵路 1912 通車 + 1914 延伸至沼平 + 戰後檜木輸出顛峰 + 1989 林業政策轉向 → 1684 諸羅縣設立 + 1786 林爽文之役 + 1787 乾隆賜名「嘉義」/ 鄒族高一生（1908-1954）日治教育 + 1947 二二八協助 + 1954/04/17 安坑刑場槍決 + 〈春之佐保姬〉⚠️ 作曲時間兩說並陳 / 1950 嘉義縣市分治 + 1982 嘉義市升格 + **1991 縣治從嘉義市遷至太保**（修正 Stage 0 多源不一致為 verbatim 1991）/ 2003 行政院宣布故宮南院選址 + 2015/12/28 開館（規劃到落成 15 年）/ 高鐵嘉義站 2007 + BRT 太保-嘉義市 / 東石蚵田 + 布袋鹽田 + 朴子配天宮 / 結尾「嘉義縣作為三個時代觀光策略的容器」
+- **品質**：6,908 CJK / 30 footnotes / **7 Wikimedia images** (1 hero Tashan + 6 inline) / 9 H2 narrative scene-led / **article-health rewrite-stage-4 hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=3** ≤ 3 pass / 對位句 **3 處** at limit / 破折號 **10 處** ≤ 15
+- **Research**: [reports/research/2026-05/嘉義縣.md](../../reports/research/2026-05/嘉義縣.md) — Stage 1 44 次搜尋 / 20 verbatim quotes / 5 ⚠️ fact flags audit pass
+- **FACTCHECK**: 5 ⚠️ flags 全處理（故宮南院 2003 行政院宣布 + 2004 正式核定分清 / 〈春之佐保姬〉作曲時間兩說並陳 ⚠️ / 阿里山林鐵 66.6 km 官方 / 2026 人口 48 萬 2024/8 戶政司 / 故宮南院 2019 訪客 104 萬 verbatim / **縣治遷太保 1991 年** 非 1995）
+- **Cross-link**: 9 forward (阿里山 / 故宮博物院 / 陳澄波 / 八田與一 / 二二八 / 白色恐怖 / 鐵道史 / 嘉義市 sibling / 基隆市 batch 1 sibling) + 1 reverse 加到嘉義市
+- **Pilot retrospective 5 條校準執行**：雨量分 layer / 區間時間（1684/1786/1787/1908/1912/1914/1950/1982/1991/2003/2015）/ 衰退 frame 數字證據 / 本地 vs 觀光客 fault line / 日治現代化具體化
+
 ### 花蓮縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 2 — 129 年隱身撒奇萊雅族用正名換回太魯閣 0403 又讓它遠去 / Geography 縣市 / 8211 字 / 27 footnote / 6 Wikimedia images）
 
 - **Article**: [knowledge/Geography/花蓮縣.md](../../knowledge/Geography/花蓮縣.md)
