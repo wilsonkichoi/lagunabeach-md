@@ -59,6 +59,19 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 連江縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 1 — 離台灣最遠的縣是離冷戰最近的縣 / Geography 縣市 / 6786 字 / 39 footnote / 5 Wikimedia images）
+
+- **Article**: [knowledge/Geography/連江縣.md](../../knowledge/Geography/連江縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-aa7a89f73609cc425 commit 5c2a11588)
+- **核心矛盾**：「離台灣最遠的縣，是離冷戰最近的縣」（17 字 ≤ 30）
+- **Hook**：南竿山稜往北看，福州城在 16 公里外開場 → 7,900-8,300 年前亮島人考古打開時間軸 / 1617 沈有容東沙諭退倭寇大埔石刻 41 字「萬曆彊梧大荒落地臘後挾日宣州沈君有容獲生倭六十九名於東沙之山不傷一卒閩人董應舉題此」/ 1949 國軍撤退馬祖 + 連江分治（全台唯一兩岸分治縣）/ 1956 戰地政務開始 + 1992/11/7 廢止 36 年「全國戒嚴 4 年差距」/ 軍管生活誌（國軍 5 萬 vs 居民 1 萬 / 宵禁九點 / 燈火管制 / 浮具禁令 / 兩層樓限制） / 1958 蔣中正題「枕戈待旦」/ 馬祖天后宮媽祖傳說（湄州迎回 vs 南竿靈穴兩說並陳）/ 福州話流失 94% / 2012 馬祖博弈公投同意 57.24% 至今 13 年無下文 / 北竿芹壁石頭村 1980s 廢墟 → 2000s 修復 / 黑嘴端鳳頭燕鷗約 200 隻 IUCN CR / 結尾「下次去馬祖，不要只看藍眼淚」首尾呼應南竿山稜往北看
+- **品質**：6,786 CJK chars (151% of 4500，主文 6485) / 39 footnotes（略超 25-32 但全 canonical 格式 hard=0）/ **5 Wikimedia images**（1 hero + 4 inline CC BY-SA hot-link）/ 10 H2 narrative scene/object/contradiction 驅動 / 2 策展人筆記 + 2 ✦ pull quote / article-health rewrite-stage-4 **hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=3** ≤ 3 pass / 對位句 **0 處** / 破折號 **0 處** / 三角自檢 PASS
+- **Research**: [reports/research/2026-05/連江縣.md](../../reports/research/2026-05/連江縣.md) — Stage 0 §觀點成型 (Opus main) + Stage 1 (Sonnet sub-agent) 47 次搜尋 / 19 verbatim quotes / 10 ⚠️ fact flags audit pass
+- **FACTCHECK**: 10 ⚠️ flags 全處理（總面積 28.8 km² + 29.54/29.6 差異說明 / 戰地政務終止 1992/11/7 + 11/5 替代源 / 宵禁九點 verbatim 國家文化記憶庫 / 媽祖遺骸兩說並陳 湄州迎回 vs 南竿靈穴 / 距福州分層 9.25km 北茭半島最近海岸 + 50km 市區 + 標題 16km anchor / 博弈公投 57.24% 維基 / 芹壁修復 89-90 區間 / 亮島人 7,000-8,300 區間 / 黑嘴端燕鷗約 200 隻 IUCN CR / 東引島地質爭議標明）
+- **Cross-link**: 8 forward (離島與海洋文化 / 台灣島嶼地理特色與形成 / 基隆市 sibling / 戒嚴時期 / 台灣國防與軍事現代化 / 語言多樣性與母語文化 / 媽祖與大道公的傳說 / 台灣海岸地形與海洋地景) + 1 reverse 加到 基隆市 (22 縣市 sibling)
+- **DEFERRED reverse cross-link**: 戒嚴時期（pre-existing hard=2 word-count + image-health，per Stage 5.3 規則 DEFER，待 EVOLVE issue 處理那篇）
+- **Pilot retrospective 5 條校準執行**：區間時間（戰地政務 36 年 1956-1992 非單一年份）/ 衰退數字（5 萬國軍 vs 1 萬居民 / 13,646 戶籍 / 94% 福州話流失）/ 本地 vs 觀光客 fault line（在地人記得燈火管制 vs 觀光客看藍眼淚）/ 軍管時期具體化（宵禁九點 / 浮具禁令 / 兩層樓限制 / 五萬國軍 verbatim）/ 找出「凌晨四點時刻」anchor（南竿山稜往北看福州 16 公里）
+
 ### 宜蘭縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 1 — 兩次選擇了自己的命運蘭陽平原從此沒回頭 / Geography 縣市 / 7922 字 / 32 footnote / 7 Wikimedia images + 1 video）
 
 - **Article**: [knowledge/Geography/宜蘭縣.md](../../knowledge/Geography/宜蘭縣.md)
