@@ -59,6 +59,22 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 雲林縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 3 — 宜蘭選擇不要的雲林用三十年的肺換下來 / Geography 縣市 / 7988 字 / 29 footnote / 5 Wikimedia images）
+
+- **Article**: [knowledge/Geography/雲林縣.md](../../knowledge/Geography/雲林縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-a1201f9a3ef45fd1a commit f4026fdac)
+- **核心矛盾**：「宜蘭選擇不要的，雲林用三十年的肺換下來」（20 字）
+- **Hook**：凌晨五點半台 17 線麥寮段堤防潮聲開場 → 三條沖積扇地理 / 1621 顏思齊登陸笨港 + 1694 北港朝天宮 + 樹璧禪師從湄洲帶神像 / 1887 雲林設縣縣治在**林圯埔（今竹山）**，**1893 遷斗六**（修正 Stage 0 寫直接設斗六）/ **1909 虎尾糖廠正式生產**（迴避 1906/1907/1908 三說）+ 400km 五分車 / 1953/01/28 西螺大橋通車 1,939m 美援 + 日治橋墩戰後完工 / 1932 西螺米試驗 / 1973 王永慶提輕油裂解廠 + 1987 陳定南宜蘭反六輕 + 1991 雲林麥寮選址 + 1994/07 動工 + 1998 一期完工 → **六輕填海 2,255 公頃**（修正 Stage 0 寫 3,400 公頃，含港口設施 2,603）/ 麥寮國小學童每年抽血 + 血液苯與乙苯 + 1.29 倍癌症發生率 + PM2.5 30+ μg/m³ / 結尾「六輕煙囪跟朝天宮香爐都在燒」首尾呼應
+- **品質**：7,988 CJK / 29 footnotes / **5 Wikimedia images** (1 hero + 4 inline) / 8 H2 narrative scene-led / **article-health rewrite-stage-4 hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=3** ≤ 3 pass / 對位句 **0 處** / 破折號 **0 處** / 三角自檢 PASS
+- **Research**: [reports/research/2026-05/雲林縣.md](../../reports/research/2026-05/雲林縣.md) — Stage 1 54 次搜尋 / 18 verbatim quotes / 7 ⚠️ fact flags audit pass
+- **FACTCHECK 🔴 3 條 CRITICAL Stage 0 corrections 全 resolved**：
+  - **六輕填海 2,255 公頃**（非 Stage 0 寫 3,400 公頃 — 含港口設施總計 2,603 公頃）
+  - **1887 雲林設縣縣治在林圯埔（今竹山）**，1893 才遷至斗六（非 Stage 0 寫直接設斗六）
+  - **虎尾糖廠 1909 正式生產**（迴避 1906/1907/1908 三設廠說法爭議）
+- **紀實風格呈現**: 拒絕「污染 vs 信仰」二元對立，用廖炳崇「不知道。不知道」+ 惠珍嬸「台塑有多繳稅我沒有感受到。但我每天早上聞到的，是那個味道」+ 龔英俊「這裡的空氣本來就這樣」三段 verbatim 呈現雲林對六輕的複雜共生
+- **Cross-link**: 10 forward (宜蘭縣 sibling 核心命運句 / 基隆市 pilot / 嘉義縣 sibling 笨港共享 / 嘉義市 sibling / 台塑集團 / 台糖 / 媽祖與大道公的傳說 / 行政區劃 / 河川系統 / 農業地景)
+- **Pilot retrospective 5 條校準執行**：雨量分層（西部沿海 1,200mm vs 東部丘陵 2,500mm + 冬季濃霧）/ 區間時間（1694 / 1887 / 1909 / 1932 / 1953 / 1973-1998 六輕 25 年）/ 衰退環境 frame 具體數字（2,255 公頃 + 27 年 + 1.29 倍癌症 + PM2.5 30+ μg/m³ + 麥寮國小抽血）/ 本地 vs 觀光客 fault line（古坑咖啡 vs 麥寮被觀光地圖漏掉）/ 日治現代化具體化（1909 虎尾糖廠 + 400km 五分車 + 1932 西螺米 + 1920 改台南州虎尾郡北港郡）
+
 ### 彰化縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 3 — 打敗過杜邦留不住年輕人的農業大縣 / Geography 縣市 / 6440 字 / 24 footnote / 6 Wikimedia images）
 
 - **Article**: [knowledge/Geography/彰化縣.md](../../knowledge/Geography/彰化縣.md)
