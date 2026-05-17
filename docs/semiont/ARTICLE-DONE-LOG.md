@@ -59,6 +59,18 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 嘉義市 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 1 — 被皇帝賜名嘉義卻成了最容易被略過的省轄市 / Geography 縣市 / 5902 字 / 32 footnote / 6 Wikimedia images）
+
+- **Article**: [knowledge/Geography/嘉義市.md](../../knowledge/Geography/嘉義市.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent worktree-agent-a5044629e5daf6b44 commit 99feb758a)
+- **核心矛盾**：「被皇帝賜名嘉義，卻成了最容易被略過的省轄市」（29 字 ≤ 30）
+- **Hook**：中央噴水池四百年開場 → 1704 諸羅築城木柵四門 / 1786 林爽文之役守城兩個月乾隆敕賜「嘉義」（嘉其死守城池之忠義）/ 1908 北回歸線第一代標塔（全世界第一座，為慶祝縱貫鐵路通車）→ 1912 颱風 → 1923 裕仁太子諭示 → 1926 第三代 → 約 1930s 中期第四代 → 第六代今貌 / 1899 阿里山鐵路規劃 + 1912 嘉義至二萬坪 66.6km 通車 + 1914 延伸阿里山 / 1914-1963 木都 50 年「東洋第一製材場」/ 1931 KANO 嘉義農林甲子園準優勝（漢人 + 原住民 + 日本人混合隊伍 + 教練近藤兵太郎）/ 1947 二二八嘉義事件水上機場圍城 + 嘉義火車站前處決陳澄波 + 潘木枝 + 盧鈵欽 + 柯麟 + 陳容貌 / 1949 林添壽噴水雞肉飯肉雞起源 → 1951-1965 美援白羽火雞演化 / 1991 嘉義縣治從嘉義市遷至太保（非 1995）/ 17 年人口下降 1.26 萬人 / 結尾「桃城的圓環，三百年的同一個位置」敘事閉環
+- **品質**：5,902 CJK chars (131% of 4500) / 32 footnotes / **6 Wikimedia Commons images**（hero + 5 inline）/ article-health rewrite-stage-4 **hard=0 warn=0 全綠** / Stage 3.5 hard=0 / **prose-health score=1**（極優）/ 對位句 **0 處** / 破折號 **0 處** / 三角自檢 PASS
+- **Research**: [reports/research/2026-05/嘉義市.md](../../reports/research/2026-05/嘉義市.md) — Stage 0 §觀點成型 (Opus main) + Stage 1 (Sonnet sub-agent) 42 次搜尋 / 18 verbatim quotes / 7 ⚠️ fact flags audit pass
+- **FACTCHECK**: 7 ⚠️ flags 全處理（乾隆詔書用市政府 verbatim「嘉其死守城池之忠義」非轉述 / 北回歸線第四代用「約 1930 年代中期」不單一年份 / 嘉義縣治遷太保用 **1991 年**非 1995 / 陳澄波享年實歲 52 / 虛歲 53 雙標 / KANO 三族混合不逐一錯標個別選手 / 顏思齊笨港登陸避開歸嘉義縣非嘉義市 / 火雞肉飯演化 1949 林添壽肉雞 → 1951-1965 美援白羽火雞 完整過程明寫）
+- **Cross-link**: 7 forward + 1 reverse 加到 [knowledge/Geography/基隆市.md](../../knowledge/Geography/基隆市.md)（「跟基隆同樣是被首都框架壓住的城市」）
+- **Pilot retrospective 5 條校準執行**：降雨 layer（亞熱帶季風 + 夏雷雨冬乾燥）/ 區間時間（1960 年代後期阿里山林業逐漸式微 / 木都 1914-1963 共 50 年）/ 「最容易被略過」frame 具體數字（27→26 萬人口曲線、無高鐵站、1991 縣治遷太保、17 年下降 1.26 萬）/ 本地 vs 觀光客 fault line（觀光客排隊店 vs 在地人繞道 / 桃城別名 vs 嘉義官方名）/ 日治現代化具體化（1908 標塔 / 1912 鐵路 66.6km / 1914 製材所「東洋第一」/ 1933 火車站宇敷赳夫 / 1936 菸酒公賣局）
+
 ### 澎湖縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 1 — 兩次拒絕賭場菊島選擇的不是清貧 / Geography 縣市 / 5994 字 / 40 footnote / 6 Wikimedia images）
 
 - **Article**: [knowledge/Geography/澎湖縣.md](../../knowledge/Geography/澎湖縣.md)
