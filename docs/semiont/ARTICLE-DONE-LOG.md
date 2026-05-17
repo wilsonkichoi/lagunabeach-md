@@ -59,6 +59,18 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 臺灣前途決議文 NEW — 2026-05-17 2026-05-17-184444-manual（兩個字「目前」撐了二十七年 / History 政治 / 4523 字 / 29 footnote）
+
+- **Article**: [knowledge/History/臺灣前途決議文.md](../../knowledge/History/臺灣前途決議文.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑)
+- **核心矛盾**：「一份暫時性的模糊，變成永久性的共識」
+- **Hook**：1999 年初郭正亮寫「國號中華民國」、林濁水加「目前」兩字場景 → 結尾 2026.5.17 林濁水評「很得宜」+ 年輕世代不知道這份文件 + 敘事閉環「前途決議文最大的成功，是讓自己變得不需要被記住」
+- **品質**：4,523 CJK chars (101% of 4500) / 29 footnotes / 0 images（1999 政黨會議照片全為新聞社版權無 CC 授權，image-health hard=1 accepted deviation）/ article-health rewrite-stage-4 word-count ✓ prose-health score=1 ✓ / 其他 6 plugin pass
+- **Research**: [reports/research/2026-05/臺灣前途決議文.md](../../reports/research/2026-05/臺灣前途決議文.md) + [reports/research/2026-05/臺灣前途決議文-deep-research.md](../../reports/research/2026-05/臺灣前途決議文-deep-research.md) — 42 searches (26 中文 + 10 英文 + 6 primary WebFetch) / 15 fact entries + 9 verified quotes + 5 story scenarios / 33 references
+- **FACTCHECK**: 46 atoms verified, 4 errors fixed（1998 高雄選舉事實錯誤 / 許信良辭職因果錯誤 / 卓榮泰職稱時間錯誤 / 腳註 [^21] URL 指向無關文章）
+- **Cross-link**: 3 bidirectional — 台灣民主轉型、台灣選舉與政黨政治、台海危機與兩岸關係發展
+- **敏感素材**：政治文件歷史——各方解讀並存（獨派/中間/國民黨/北京），不下「正確」判斷；台獨黨綱與前途決議文「取代還是並存」未定論如實呈現
+
 ### 三毛 NEW — 2026-05-17 2026-05-17-184444-manual（撒哈拉流浪作家 / People 文學 / 4508 字 / 24 footnote）
 
 - **Article**: [knowledge/People/三毛.md](../../knowledge/People/三毛.md)
