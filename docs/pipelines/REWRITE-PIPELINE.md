@@ -68,8 +68,10 @@ upstream_canonical:
 │                                                                          │
 │   Stage 3: 驗 ──→ 5 steps                                                │
 │            ├── Step 3.1-3.4 塑膠 / 鐵三角 / FACTCHECK / story atom       │
+│            │     └── Step 3.3 含 --profile=rewrite-stage-3-5 plugin gate │
+│            │         (footnote-format + footnote-density，v6.1 新增)     │
 │            └── Step 3.5 Title+desc spine sync re-check 🥪                │
-│              ↳ Hard gate: 0 dead-link / spine 同步                       │
+│              ↳ Hard gate: 0 dead-link / footnote canonical / spine 同步  │
 │                                                                          │
 │   Stage 4: 形 ──→ 3 steps（含 6 個媒體子點）                             │
 │            ├── Step 4.1 article-health 7 維度                            │
@@ -118,6 +120,7 @@ upstream_canonical:
 | 五指 + 結構 + 塑膠 + 算術  | Stage 3    | 所有 article                  | quality-scan + manual                                                                | 不 commit        |
 | 事實鐵三角(算術/單位/引語) | Stage 3    | 含金額/數字/引語              | python algebra + Ctrl-F                                                              | 不 commit        |
 | FACTCHECK Quick/Full Mode  | Stage 3    | 所有 article / A 級           | FACTCHECK-PIPELINE                                                                   | 不進 Stage 4     |
+| **Citation plugin gate**   | Stage 3    | **所有 article（含 EVOLVE）** | article-health.py --profile=rewrite-stage-3-5 (footnote-format + footnote-density)   | **不進 Stage 4** |
 | **Title+desc spine sync**  | Stage 3    | **所有 article（含 EVOLVE）** | manual: title 冒號三明治 + desc 吃進核心矛盾                                         | 不 commit        |
 | Format check 7 維度        | Stage 4    | 所有 article                  | article-health.py --profile=rewrite-stage-4                                          | pre-commit hook  |
 | word-count ≥ 4500          | Stage 4    | depth article                 | article-health.py --check=word-count                                                 | pre-commit hook  |
@@ -1138,7 +1141,10 @@ REWRITE Stage 2 寫完 prose 後、進 Stage 4 之前，**必須跑 FACTCHECK-PI
 - **範圍**：
   - 全文 high-risk atom 抽取（引語 + 數字 + 人名 + 獎項 + 地點門牌號碼 + 場景動作 detail）
   - 每個 atom 對 source URL 至少做一次驗證（中文 source 用中文 prompt 要求逐字）
-  - footnote URL 健康檢查跑 `ARTICLE_HEALTH_NETWORK=1 python3 scripts/tools/article-health.py <article> --check=footnote-url`
+  - **citation plugin gate 必跑**：`python3 scripts/tools/article-health.py <article> --profile=rewrite-stage-3-5` — 含 `footnote-format`（強制 `[^N]: [Title](URL) — description` canonical 格式）+ `footnote-density`（hard=0 要求）
+  - footnote URL 健康檢查（network-conditional）跑 `ARTICLE_HEALTH_NETWORK=1 python3 scripts/tools/article-health.py <article> --check=footnote-url`
+
+> **plugin gate 鐵律**（v6.1，2026-05-17 admiring-montalcini）：`rewrite-stage-3-5` profile 必跑不是建議，是反射。Stage 4 `--profile=rewrite-stage-4` **不含** footnote-format（profile 分工：Stage 3.5 管 citation health / Stage 4 管 structure），跳過 Stage 3.5 plugin gate = CI full sweep（含全 16 plugin）會 hard-fail，本機 Stage 4 卻顯示綠燈 = silent leak through。誕生事件：2026-05-17 臺灣前途決議文 ship 後 CI fail（footnote-format hard=23），主 session 用 `--profile=rewrite-stage-4` local 跑全綠就 push，沒跑 `rewrite-stage-3-5` 因為 pipeline 沒明示 → 推回 Step 3.3 補一個 commit 修 29 條 footnote。對應 [REFLEXES #15 反覆浮現要儀器化](../semiont/REFLEXES.md) + [MANIFESTO §10 幻覺鐵律](../semiont/MANIFESTO.md#10-幻覺鐵律) — 把「該跑哪個 profile」從 SOP 隱性知識儀器化進 pipeline checklist。
 
 #### 觸發 spawn agent 升級為 Full Mode 的條件
 
@@ -1150,6 +1156,7 @@ REWRITE Stage 2 寫完 prose 後、進 Stage 4 之前，**必須跑 FACTCHECK-PI
 
 - 0 個 🔴 DEAD-LINK（任何 footnote URL 4xx/5xx 都先換源）
 - 0 個 ❌ HARD-FIX（claim 不在 source、引號內 paraphrase、third-person flip 等全部處置完）
+- **`rewrite-stage-3-5` profile hard=0**（footnote-format + footnote-density，v6.1 升級為 Stage 3 hard gate；不是 Stage 4 dependency）
 - ⚠️ SOFT-FIX 數量無上限，但每條都要在 commit message 列出，可 ship 後 polish
 - 每個 ❌ 與 🔴 的修補都 append 到 `reports/research/YYYY-MM/{slug}.md` § audit section（REFLEXES #22 raw 永留）
 
@@ -1218,6 +1225,9 @@ python3 scripts/tools/article-health.py knowledge/{Category}/{文章}.md --profi
 | `cjk-punct`          | 中文 prose 全形標點                                                                  |
 | `chronicle-lead`     | H2 不是 `## YYYY 年 X 月` 編年體                                                     |
 | `word-count`         | depth article ≥ 4500 CJK chars（v3.1 sad-shockley 新增，HARD via severity_override） |
+| `image-health`       | depth ≥ 3 張（hero + 2 scene-mid）— v3.2 kind-mirzakhani 新增（HARD）                |
+
+> ⚠️ **profile 邊界鐵律**（v6.1，2026-05-17 admiring-montalcini）：`rewrite-stage-4` profile **不含** `footnote-format` / `footnote-density`（那兩個在 `rewrite-stage-3-5` profile，Stage 3.3 跑）。Stage 4 跑全綠**不代表 CI 會過** — CI full sweep 跑全 16 plugin，包含 stage-3-5 的 footnote 系列。如果跳過 Stage 3.3 的 `rewrite-stage-3-5` plugin gate，本機 Stage 4 顯示綠燈但 CI 會 hard-fail。誕生事件：2026-05-17 臺灣前途決議文 ship 後 CI footnote-format hard=23（commit `b39ea5529` 補修 29 條 footnote）。對策：**Stage 3.3 必跑 `--profile=rewrite-stage-3-5`**（已寫進本檔 Step 3.3 + 頂部 Hard Gate Inventory）。
 
 **Pre-commit hook 已自動執行**這幾項檢查（SSOT pre-commit profile 自 2026-05-04 Phase 10 接管）。如果被擋：按提示修正，**不要用 `--no-verify` 繞過**。
 
