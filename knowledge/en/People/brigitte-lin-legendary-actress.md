@@ -13,8 +13,8 @@ tags:
 subcategory: 'Film & Theater'
 lastVerified: 2026-03-20
 translatedFrom: 'People/林青霞.md'
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:436708c2b3c2dc27'
+sourceCommitSha: '7415dcaa'
+sourceContentHash: 'sha256:2b4a824289c241f9'
 sourceBodyHash: 'sha256:12badc0094297f08'
 translatedAt: '2026-05-17T05:53:00Z'
 category: People

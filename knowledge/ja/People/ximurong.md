@@ -10,9 +10,9 @@ lastVerified: 2026-03-19
 lastHumanReview: "false"
 featured: "false"
 translatedFrom: "People/席慕蓉.md"
-sourceCommitSha: "18157ab5d"
-sourceContentHash: "sha256:6e935c20c3563107"
-sourceBodyHash: "sha256:c035c602c7e335fa"
+sourceCommitSha: '7415dcaa'
+sourceContentHash: 'sha256:5d1d8e5f0b7eaefd'
+sourceBodyHash: 'sha256:c035c602c7e335fa'
 translatedAt: "2026-05-17T05:34:50+08:00"
 ---
 

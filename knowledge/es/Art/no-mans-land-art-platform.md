@@ -22,8 +22,8 @@ lastVerified: 2026-05-17
 lastHumanReview: false
 featured: false
 translatedFrom: 'Art/數位荒原.md'
-sourceCommitSha: '67809e7b3'
-sourceContentHash: 'sha256:3371fc1866530dd7'
+sourceCommitSha: '9474d19e'
+sourceContentHash: 'sha256:da8b0b990b776ac0'
 sourceBodyHash: 'sha256:3c2d99bafbdc6120'
 translatedAt: '2026-05-17T05:06:52+08:00'
 ---
