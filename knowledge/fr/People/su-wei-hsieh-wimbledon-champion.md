@@ -1,77 +1,98 @@
 ---
-title: 'Hsieh Su-Wei'
-description: 'Championne en double dames à Wimbledon 2013, première Taïwanaise à remporter un titre du Grand Chelem'
+title: 'Hsieh Su-wei : Hsinchu 1986, première championne de Grand Chelem de Taïwan et sept titres de double dames'
+description: 'Née le 4 janvier 1986 à Hsinchu. Son père, Hsieh Tzu-lung (chauffeur de bus de Taiwan Motor Transport), est décédé en octobre 2023. Meilleur classement WTA en simple : 23ᵉ mondiale (2013). Sept titres de double dames en Grand Chelem (Wimbledon 2013 / Roland-Garros 2014 / Wimbledon 2019 / Wimbledon 2021 / Roland-Garros 2023 / Wimbledon 2023 / Open d'Australie 2024). En 2021, première Taïwanaise à atteindre les demi-finales de simple en Grand Chelem (Open d'Australie). Finaliste du double dames à Wimbledon en juillet 2025.'
 date: 2026-03-19
-tags:
-  [
-    'Sport',
-    'Tennis',
-    'Wimbledon',
-    'Grand Chelem',
-    'Double dames',
-    'Tennis professionnel',
-  ]
-subcategory: 'Sport'
 category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 8
+tags: ['體育', '網球', '溫布頓', '大滿貫', '女雙', '職業網球']
+subcategory: '體育'
+author: 'Taiwan.md'
 featured: false
-lastVerified: 2026-03-19
+lastVerified: 2026-05-07
+lastHumanReview: false
+readingTime: 7
+# design_rationale:
+#   why_this_hook: "「台灣首位大滿貫冠軍」是2013的一次性事件；「七座金盃」才是她整個職業生涯的重量。兩個並列，才能說完她。"
+#   whats_excluded: "各場決賽逐球技術分析；2016奧運教練事件爭議細節；WTA女雙世界第一達成的確切日期"
+#   where_it_hedges: "2014法網、2019溫布頓、2023溫布頓的搭檔姓名P0無提供，TODO補確認；2025溫布頓成績來源Focus Taiwan"
 translatedFrom: 'People/謝淑薇.md'
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:0fdf73c6c6f9ad21'
-sourceBodyHash: 'sha256:73e241d0d2af398c'
-translatedAt: '2026-04-14T19:18:50+08:00'
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:66eff5d38f14df89'
+sourceBodyHash: 'sha256:a421eb67c846202a'
+translatedAt: '2026-05-17T05:34:56+08:00'
 ---
 
-# Hsieh Su-Wei : pionnière du tennis taïwanais
+# Hsieh Su-wei : Hsinchu 1986, première championne de Grand Chelem de Taïwan et sept titres de double dames
 
-Hsieh Su-Wei est une figure marquante de l'histoire du tennis à Taïwan. Née le 4 janvier 1986 à Hsinchu, elle s'est imposée sur le circuit international grâce à un style de jeu singulier et une combativité sans faille. En remportant le double dames à Wimbledon en 2013 — aux côtés de Peng Shuai — elle est devenue la première joueuse taïwanaise à décrocher un titre du Grand Chelem, prouvant que Taïwan avait sa place au plus haut niveau mondial.
+> **En 30 secondes :** Hsieh Su-wei est née le 4 janvier 1986 à Hsinchu. Son père, Hsieh Tzu-lung (originaire de Xinpu, Hsinchu, chauffeur de bus de Taiwan Motor Transport), a eu sept enfants, dont six se sont consacrés au tennis. Il est décédé en octobre 2023.[^2] Meilleur classement WTA en simple : 23ᵉ mondiale (2013), un record pour le tennis féminin taïwanais.[^1] Sept titres de double dames en Grand Chelem : Wimbledon 2013 (avec Peng Shuai), Roland-Garros 2014, Wimbledon 2019, Wimbledon 2021 (avec Elise Mertens), Roland-Garros 2023 (avec Wang Xinyu), Wimbledon 2023, Open d'Australie 2024 (avec Mertens).[^3] En 2021, à 35 ans, elle atteint les demi-finales de simple à l'Open d'Australie, une première pour une Taïwanaise en Grand Chelem.[^3] En juillet 2025, finaliste du double dames à Wimbledon (avec Ostapenko), 6-3, 2-6, 4-6.[^5]
 
-## De Hsinchu aux courts professionnels
+## 4 janvier 1986, fille de Hsieh Tzu-lung à Hsinchu
 
-Hsieh découvre le tennis à l'âge de sept ans, soutenue par sa famille. Son parcours ressemble à celui de nombreuses joueuses taïwanaises : forger son talent avec des ressources limitées, sans infrastructure de haut niveau. Dès l'adolescence, elle se démarque par une compréhension tactique du jeu peu commune, notamment en double où sa capacité à lire le terrain et à s'adapter à une partenaire s'avère remarquable.
+Hsieh Su-wei est née le 4 janvier 1986 à Hsinchu. Son père, Hsieh Tzu-lung (originaire de Xinpu, Hsinchu), était chauffeur de bus de Taiwan Motor Transport. Il a eu sept enfants ; à l'exception de l'aînée, six d'entre eux se sont consacrés au tennis, constituant un cas rare de formation familiale dans le tennis taïwanais.[^2] Initiée à 7 ans, elle s'est fait un name sur la scène asiatique dès les années junior, puis est passée professionnelle en 2005.
 
-À quinze ans, elle intègre les circuits juniors internationaux et commence à se faire un nom en Asie. En 2005, elle passe professionnelle. Si ses débuts sur le circuit WTA sont axés sur le simple, c'est en double qu'elle va véritablement écrire son histoire.
+Le modèle de formation familiale de Hsieh Tzu-lung est un cas particulier dans l'histoire du sport taïwanais : une famille de chauffeur de bus, sans parrainage commercial ni environnement d'entraînement d'élite, a mobilisé ses ressources familiales pour propulser six enfants vers le tennis professionnel. Le cœur de cette histoire ne réside pas dans le système de tennis taïwanais, mais dans le jugement d'un père sur le potentiel de ses enfants et son investissement total — un jugement finalement validé par les sept titres de Grand Chelem de Hsieh Su-wei.
 
-## Wimbledon 2013 : un moment historique
+En octobre 2023, son père Hsieh Tzu-lung est décédé.[^2]
 
-Au tournoi de Wimbledon 2013, Hsieh Su-Wei s'associe à la Chinoise Peng Shuai pour le tableau de double dames. Les deux joueuses font immédiatement preuve d'une entente remarquable, aussi bien dans l'exécution tactique que dans la gestion des moments clés sur gazon.
+La mort de Hsieh Tzu-lung en octobre 2023 est survenue moins de quatre mois après la victoire de Hsieh Su-wei au double dames de Wimbledon en juillet de la même année. Les mots de Hsieh Su-wei après cette victoire à Wimbledon constituent l'une des déclarations publiques les plus intimes de sa carrière : l'entraînement de son père, l'engagement total de la famille, et ce que signifiait pour elle « rapporter cette médaille d'or à son père ». Le titre de Wimbledon 2023, dans le contexte de cette histoire familiale, a pris un poids qui dépasse celui du simple palmarès.
 
-En finale, elles affrontent le duo australien Ashleigh Barty et Casey Dellacqua. Hsieh et Peng s'imposent en deux sets (7-6, 6-1), soulevant le trophée sous les yeux du public de Church Road. Cette victoire revêt une portée historique à plusieurs titres : Hsieh devient la première Taïwanaise — et la première joueuse asiatique dans cette épreuve — à triompher à Wimbledon en double dames.
+## 2013 : championne de double dames à Wimbledon, première championne de Grand Chelem de Taïwan
 
-Ce sacre n'est pas le fruit du hasard. Hsieh possède une intelligence tactique rare en double : efficace au filet, précise dans ses volées, variée à la relance. Sa capacité à contrôler le tempo d'un match et à hausser son niveau dans les moments décisifs constitue l'un de ses atouts les plus précieux.
+En 2013 à Wimbledon, Hsieh Su-wei, associée à la joueuse chinoise Peng Shuai, remporte la finale 7-6, 6-1 en deux sets.[^3] Elle devient ainsi la première joueuse taïwanaise à remporter un titre de Grand Chelem. La même année, son classement WTA en simple atteint son pic mondial : 23ᵉ place.[^1]
 
-## La science du double
+La signification de cette finale de 2013 est double dans les coordonnées de l'histoire du tennis taïwanais : le titre de double dames et le 23ᵉ rang mondial en simple, obtenus la même année, établissent que Hsieh Su-wei n'est pas seulement une « spécialiste du double », mais une joueuse complète, compétitive aussi bien en simple qu'en double sur le circuit WTA. Cette double performance constitue à ce jour le point le plus proche du sommet mondial atteint par le tennis féminin taïwanais.
 
-Ce qui distingue Hsieh Su-Wei des autres joueuses, c'est sa maîtrise du jeu collectif. Complète techniquement, elle excelle surtout dans l'art de construire une alchimie avec sa partenaire, quelle que soit son style. Cette adaptabilité lui a permis de collaborer avec de nombreuses joueuses du top mondial tout au long de sa carrière.
+## Sept titres de double dames en Grand Chelem (2013–2024)
 
-Techniquement, ses volées constituent sa signature : puissantes et chirurgicales, elles lui permettent de conclure les échanges dans les situations les plus tendues. Son service, sans être foudroyant, tire parti d'une grande variété de placements qui désorganisent régulièrement les adversaires. Son revers — en coup droit ou en slice — représente également une arme redoutable, capable de créer des ouvertures à tout moment.
+Hsieh Su-wei a remporté sept titres de double dames en Grand Chelem :[^3]
 
-## Un palmarès remarquable
+Wimbledon 2013 (avec Peng Shuai), Roland-Garros 2014, Wimbledon 2019, Wimbledon 2021 (avec Elise Mertens), Roland-Garros 2023 (avec Wang Xinyu), Wimbledon 2023, Open d'Australie 2024 (avec Mertens).
 
-Au-delà de Wimbledon, Hsieh Su-Wei a accumulé de nombreux titres en double sur le circuit WTA. Elle a atteint la première place mondiale en double, confirmant ainsi sa domination dans cette discipline.
+(Note : les noms des partenaires pour Roland-Garros 2014, Wimbledon 2019 et Wimbledon 2023 n'ont pas été fournis en P0 ⚠️ ; à confirmer.)
 
-En simple, sans atteindre les sommets du Grand Chelem, elle a flirté avec le top 25 mondial — sa meilleure position étant le 23e rang — et a régulièrement tenu tête aux meilleures joueuses du circuit. Ses matches contre les têtes de série illustrent le niveau d'excellence que Taïwan peut produire.
+Sept titres répartis sur 11 ans (2013-2024) : maintenir un niveau d'excellence en double dames pendant plus d'une décennie dans le même circuit nécessite bien plus qu'une simple constance technique — il faut aussi trouver en permanence des partenaires dont le style est complémentaire. Hsieh Su-wei a remporté des titres avec Peng Shuai (Wimbledon 2013), Mertens (Wimbledon 2021, Open d'Australie 2024) et Wang Xinyu (Roland-Garros 2023). Le succès avec des partenaires différents démontre que sa capacité d'adaptation au double est transversale, et ne dépend pas d'une alchimie unique avec un seul partenaire.
 
-Elle a également été une joueuse-clé de l'équipe taïwanaise en Fed Cup (aujourd'hui Billie Jean King Cup), contribuant au collectif national pendant de nombreuses années. Cette expérience du jeu d'équipe a nourri et renforcé son sens du double.
+<!-- TODO : Confirmer les noms des partenaires de Hsieh Su-wei pour Roland-Garros 2014, Wimbledon 2019 et Wimbledon 2023 -->
 
-## Une compétitrice authentique
+## Open d'Australie 2021 : demi-finaliste de simple en Grand Chelem à 35 ans
 
-Hsieh Su-Wei est connue sur le circuit pour son caractère bien trempé. Elle n'édulcore pas ses émotions, sur le court comme en dehors. Cette franchise peut parfois alimenter la controverse, mais elle lui vaut également beaucoup de respect : les observateurs apprécient son authenticité dans un milieu où la communication lissée est la norme.
+Lors de l'Open d'Australie 2021, Hsieh Su-wei, alors âgée de 35 ans, atteint les demi-finales de simple en Grand Chelem, devenant la première joueuse taïwanaise à réaliser cet exploit.[^3]
 
-Sur le plan de la combativité, elle ne lâche jamais un point. Même dos au mur, elle continue de se battre, de trouver des solutions, de surprendre. Cet état d'esprit est l'une des raisons pour lesquelles elle a pu s'inscrire dans la durée sur le circuit professionnel. Elle apporte également une créativité tactique rare qui rend ses matchs captivants à suivre.
+35 ans, dans le tennis professionnel, est un âge proche de la fin de carrière — la plupart des joueuses de haut niveau atteignent le sommet de leur parcours en simple avant 30 ans. Que Hsieh Su-wei atteigne les demi-finales d'un Grand Chelem à 35 ans est une performance « contre l'âge » rare dans l'histoire du tennis professionnel, démontrant que son jeu ne repose pas uniquement sur l'explosivité physique, mais aussi sur une lecture approfondie de l'adversaire et une capacité d'ajustement stratégique accumulée au fil des années. Ce parcours en demi-finales est son argument le plus convaincant en faveur de l'idée que « le tennis professionnel n'est pas seulement une compétition de jeunesse ».
 
-## Une figure fondatrice pour le tennis taïwanais
+## Juillet 2025 : finaliste du double dames à Wimbledon
 
-Le parcours de Hsieh Su-Wei a une résonance qui dépasse le sport. Elle a démontré qu'un athlète formé à Taïwan peut rivaliser — et s'imposer — dans les compétitions les plus prestigieuses au monde. Sa victoire à Wimbledon a contribué à faire rayonner Taïwan sur la scène internationale et à inspirer une nouvelle génération de jeunes joueurs et joueuses.
+En juillet 2025, Hsieh Su-wei, associée à la Lettone Ostapenko, s'incline en finale du double dames de Wimbledon 6-3, 2-6, 4-6, décrochant la place de finaliste.[^5]
 
-En tant que première lauréate d'un Grand Chelem pour Taïwan, elle participe régulièrement à des actions de promotion du tennis, transmettant son expérience aux jeunes talents. Son empreinte dans l'histoire sportive de Taïwan est durable.
+Cette finale, un an après son titre à l'Open d'Australie 2024, confirme qu'elle demeure en compétition au plus haut niveau du double dames en Grand Chelem — à l'approche de ses 40 ans, Hsieh Su-wei reste l'une des meilleures paires de double sur les gazons de Wimbledon. Cette finale de 2025 est la huitième finale de double dames en Grand Chelem de sa carrière, après ses sept titres ; au-delà du résultat, ce simple chiffre témoigne de sa présence durable sur la scène mondiale du double dames.
 
-Hsieh Su-Wei n'est pas seulement une championne : elle est une pionnière. Son titre à Wimbledon restera gravé dans les annales du sport taïwanais, et son exemple continuera d'alimenter les ambitions des générations futures.
+**Lecture courante → Lecture plus précise :** Hsieh Su-wei est souvent décrite comme une « spécialiste du double ». Ce qualificatif est exact mais incomplet. Son parcours en demi-finales de simple à l'Open d'Australie 2021 et son classement mondial de 23ᵉ en simple montrent qu'elle est une joueuse complète qui s'est illustrée au plus haut niveau en double, et non une joueuse « pas assez bonne en simple et reconvertie en double ». Ses résultats en double sont le fruit d'un choix, pas une reconversion imposée par un plafond en simple.
+
+> 🎙️ **Note du curateur :** Sept titres de double dames en Grand Chelem entre 2013 et 2024 — cette excellence soutenue sur 11 ans confère à la carrière de Hsieh Su-wei une forme atypique : le pic n'est pas apparu à un âge donné avant de décliner, mais de nouveaux sommets ont été atteints avec différentes partenaires.
+>
+> Son parcours familial — un père chauffeur de bus qui a propulsé six de ses enfants vers le tennis professionnel — est un cas quasiment sans précédent dans l'histoire du sport taïwanais. Les sept titres de Grand Chelem de Hsieh Su-wei sont le rendement le plus élevé de ce pari familial.
+>
+> La mort de son père Hsieh Tzu-lung en octobre 2023, moins de trois mois après son titre de double dames à Wimbledon en juillet 2023 — elle a rapporté cette médaille d'or à son père encore en vie. Ce chevauchement temporel constitue l'un des passages les plus intimes et les plus lourds de son récit de carrière.
+
+La carrière de Hsieh Su-wei est aussi une démonstration de choix professionnel autour de « l'équilibre entre simple et double ». La plupart des joueuses choisissent un camp à un moment donné de leur carrière — concentrer leurs ressources sur le simple ou le double. Hsieh Su-wei a choisi de maintenir les deux, ajustant avec souplesse la répartition selon son état de forme aux différentes étapes de sa carrière. Ce choix lui a permis une longévité professionnelle supérieure à celle des joueuses misant tout sur le simple, et un bilan en Grand Chelem quantitativement bien supérieur à celui de toute autre joueuse taïwanaise.
+
+Le cœur de son jeu en double est « l'intention de l'adversaire » — le double est rapide, les changements de position fréquents, et exige une communication instantanée avec la partenaire ainsi qu'une capacité à anticiper les trajectoires adverses. La qualité de lecture de Hsieh Su-wei dans ce domaine est largement reconnue par ses pairs et les entraîneurs ; c'est la racine technique qui lui a permis de remporter des titres de Grand Chelem avec des partenaires différents.
+
+Parmi ses sept titres de Grand Chelem, ses partenaires ont été originaires de trois pays : la Chine (Peng Shuai), la Belgique (Mertens) et Taïwan (Wang Xinyu). Les paires de double internationales nécessitent d'établir rapidement une compréhension mutuelle et un mode de communication. La capacité d'adaptation de Hieh Su-wei dans ce domaine est l'une des compétences centrales de sa décennie d'excellence en double.
+
+De la famille Hsieh à Hsinchu, aux gazons de Wimbledon, aux courts en dur de l'Open d'Australie, jusqu'à la finale de Wimbledon 2025 — la carrière de Hsieh Su-wei démontre que la force du tennis taïwanais ne réside pas uniquement dans les infrastructures ou les ressources nationales, mais peut naître de l'engagement total d'une seule famille. Cette histoire familiale est l'un des cas les plus dignes d'être documentés avec précision dans l'histoire du sport taïwanais.
+
+Sur les sept enfants de Hsieh Tzu-lung, six se sont consacrés au tennis — une proportion rare dans toute famille sportive taïwanaise. Les infrastructures de tennis et les ressources de formation systémiques de Taïwan sont bien inférieures à celles du Japon ou de la Corée du Sud. Les sept titres de Grand Chelem de Hsieh Su-wei prouvent une chose : dans un environnement à ressources limitées, l'engagement total de familles individuelles et de joueuses individuelles peut produire une excellence qui ne dépend pas de l'échelle du système.
+
+**Pour aller plus loin :** [謝淑薇 — 中文維基百科](https://zh.wikipedia.org/zh-tw/謝淑薇) ｜ [Hsieh Su-wei — Wikipedia](https://en.wikipedia.org/wiki/Hsieh_Su-wei) ｜ [WTA : Hsieh Su-wei](https://www.wtatennis.com/players/310053/su-wei-hsieh)
 
 ## Références
 
-- [Association de tennis de la République de Chine](https://www.tennis.org.tw/) — données sur la carrière de Hsieh Su-Wei
-- [Site officiel de la WTA](https://www.wtatennis.com/) — classements et résultats professionnels
-- [Site officiel de Wimbledon](https://www.wimbledon.com/) — archives du double dames 2013
+[^1]: [Wikipedia en anglais : Hsieh Su-wei](https://en.wikipedia.org/wiki/Hsieh_Su-wei) — Confirme la naissance le 4 janvier 1986, le meilleur classement WTA en simple (23ᵉ mondiale en 2013) et les réalisations de carrière.
+
+[^2]: [CNA (Agence centrale de presse de Taïwan) : Décès de Hsieh Tzu-lung (octobre 2023)](https://www.cna.com.tw/news/aspt/202310020081.aspx) — Confirme que le père Hsieh Tzu-lung (originaire de Xinpu, Hsinchu, chauffeur de bus de Taiwan Motor Transport) a eu sept enfants (six se sont consacrés au tennis, à l'exception de l'aînée) ; décès en octobre 2023.
+
+[^3]: [Wikipedia en chinois : 謝淑薇](https://zh.wikipedia.org/zh-tw/謝淑薇) — Confirme le record de sept titres de double dames en Grand Chelem (de Wimbledon 2013 à l'Open d'Australie 2024) et la première demi-finale de simple en Grand Chelem par une Taïwanaise (Open d'Australie 2021).
+
+[^4]: [WTA Tennis : Hsieh Su-wei](https://www.wtatennis.com/players/310053/su-wei-hsieh) — Palmarès officiel WTA des titres de double dames en Grand Chelem, incluant les informations sur les partenaires.
+
+[^5]: [Focus Taiwan : Finaliste du double dames à Wimbledon 2025](https://focustaiwan.tw/sports/202507140003) — Confirme qu'en juillet 2025, Hsieh Su-wei/Ostapenko s'incline 6-3, 2-6, 4-6 en finale du double dames de Wimbledon, obtenant la place de finaliste.

@@ -1,367 +1,199 @@
 ---
-title: "Système éducatif et culture de l'admission scolaire à Taïwan"
-description: "Du système de concours unifié à l'éducation nationale de douze ans : comment Taïwan cherche l'équilibre entre compétition et diversité"
+title: "Le système éducatif et la culture des examens d'entrée"
+description: "Du système d'examens unifiés à l'éducation nationale de douze ans, comment l'éducation taïwanaise cherche l'équilibre entre compétition et diversité"
 date: 2026-03-18
-category: 'Society'
-tags:
-  [
-    'éducation',
-    'admission scolaire',
-    'éducation nationale de douze ans',
-    'enseignement professionnel',
-    'réforme éducative',
-    'culture de la compétition',
-  ]
-subcategory: 'Éducation'
-author: 'Taiwan.md Translation Team'
-difficulty: 'intermediate'
+author: "Taiwan.md"
+category: "Society"
+subcategory: "教育"
+tags: ["éducation", "examens d'entrée", "éducation nationale de douze ans", "éducation professionnelle et technique", "réforme de l'éducation", "culture de la compétition"]
 readingTime: 14
-featured: true
 lastVerified: 2026-03-19
 lastHumanReview: false
-translatedFrom: 'Society/教育制度與升學文化.md'
-sourceCommitSha: '26216f73'
-sourceContentHash: 'sha256:f73e37d01f78db49'
-sourceBodyHash: 'sha256:105cf2755699d0ca'
-translatedAt: '2026-04-14T12:32:34+08:00'
+featured: true
+translatedFrom: "Society/教育制度與升學文化.md"
+sourceCommitSha: "f712b7242"
+sourceContentHash: "sha256:0a7458b73a859fea"
+sourceBodyHash: "sha256:b2b271a1c8432769"
+translatedAt: "2026-05-17T05:34:56+08:00"
 ---
 
-# Système éducatif et culture de l'admission scolaire à Taïwan
+# Le système éducatif et la culture des examens d'entrée
 
-## En 30 secondes
+## Vue d'ensemble en 30 secondes
 
-Le système éducatif taïwanais se distingue par une culture d'admission scolaire très compétitive. Partant de neuf années d'enseignement obligatoire, il s'est étendu à douze ans, adoptant une structure 6-3-3-4. Le système comprend deux filières parallèles : l'enseignement général et l'enseignement professionnel. Cependant, les valeurs sociales continuent de privilégier la réussite académique, alimentant une compétition intense pour l'admission. Les réformes éducatives récentes mettent l'accent sur le développement pluriel et l'épanouissement individuel, mais comment concilier compétition et diversité, élitisme et accès universel reste le défi central de l'éducation à Taïwan.
+Le système éducatif taïwanais se distingue par une culture des examens d'entrée hautement compétitive, s'étendant de l'enseignement obligatoire de neuf ans à l'éducation nationale de douze ans, selon une structure scolaire 6-3-3-4. Le système éducatif est divisé en deux filières — éducation générale et éducation professionnelle et technique — mais les valeurs sociales continuent de privilégier la réussite académique, engendrant une compétition féroce pour l'accès aux études supérieures. Ces dernières années, les réformes éducatives ont mis l'accent sur le développement pluriel et l'épanouissement des aptitudes individuelles, mais trouver l'équilibre entre compétition et diversité, entre élitisme et démocratisation, reste le défi central auquel fait face l'éducation taïwanaise.
 
-**Caractéristiques clés :** scolarisation obligatoire généralisée, compétition intense pour l'admission, valorisation de la réussite académique, double filière professionnelle, réformes éducatives en cours.
+**Caractéristiques clés :** enseignement obligatoire généralisé, compétition intense pour les examens d'entrée, valorisation de la réussite académique, double filière d'éducation professionnelle et technique, ajustements continus des réformes éducatives
 
-## Pourquoi cela importe
+## Pourquoi c'est important
 
-Le système éducatif taïwanais constitue une fenêtre essentielle pour comprendre la culture et les valeurs sociales de Taïwan. L'éducation influence non seulement la mobilité sociale individuelle, mais façonne aussi la qualité du capital humain et les spécificités culturelles de toute la société. L'expérience taïwanaise illustre comment une société est-asiatique cherche à équilibrer la culture traditionnelle des examens avec les valeurs plurielles de la modernité.
+Le système éducatif taïwanais constitue une fenêtre essentielle pour comprendre la culture et les valeurs de la société taïwanaise. L'éducation n'influence pas seulement la mobilité sociale individuelle, mais façonne également la qualité des ressources humaines et les caractéristiques culturelles de l'ensemble de la société. L'expérience éducative de Taïwan illustre la manière dont une société est-asiatique cherche l'équilibre entre la culture traditionnelle des examens et les valeurs modernes de diversité.
 
-Pour les étrangers, comprendre le système éducatif taïwanais éclaire l'attitude au travail, l'esprit d'apprentissage et les mécanismes de mobilité sociale des Taïwanais. L'expérience des réformes éducatives de Taïwan offre également une référence précieuse pour d'autres pays en développement.
+Pour les étrangers, comprendre le système éducatif taïwanais aide à saisir l'attitude des Taïwanais face au travail, leur rigueur dans l'apprentissage, ainsi que les mécanismes de mobilité sociale. L'expérience de la réforme éducative taïwanaise offre également une référence importante pour d'autres pays en développement.
 
 ## Architecture du système éducatif
 
-### Structure du cursus
+### Structure du système scolaire
 
-**Le système 6-3-3-4 :**
+Taïwan adopte un système scolaire 6-3-3-4 : six ans d'école primaire (6–12 ans), trois ans de collège (12–15 ans), trois ans de lycée ou lycée professionnel (15–18 ans), quatre ans d'université (18–22 ans). L'enseignement obligatoire de neuf ans, couvrant le primaire et le collège, a été mis en place à partir de 1968 ; en 2014, il a été étendu à l'éducation nationale de douze ans, intégrant le niveau lycée dans le périmètre de l'éducation de base.
 
-- **École primaire :** 6 ans (6-12 ans)
-- **Collège :** 3 ans (12-15 ans)
-- **Lycée / lycée professionnel :** 3 ans (15-18 ans)
-- **Université :** 4 ans (18-22 ans)
+### Conception en double filière
 
-**Périmètre de la scolarité obligatoire :**
-
-- **Neuf ans d'enseignement national :** 6 ans de primaire + 3 ans de collège (mis en place en 1968)
-- **Douze ans d'enseignement national de base :** étendu au lycée et au lycée professionnel, officiellement instauré en 2014
-
-### Un système à double filière
-
-Le système éducatif taïwanais commence à se différencier à partir du lycée :
-
-**Filière générale :**
-
-- **Lycée général :** orienté principalement vers les études supérieures, avec un programme académique
-- **Lycée polyvalent :** combine des parcours académiques et professionnels
-
-**Filière professionnelle :**
-
-- **Lycée professionnel :** offre une formation aux compétences métiers
-- **Institut de cinq ans :** établissement d'enseignement supérieur de cycle court sur cinq ans, accessible dès la fin du collège
-- **Institut de technologie / université de technologie :** principale voie de poursuite d'études pour les diplômés du lycée professionnel
+Le système éducatif taïwanais commence à se diversifier au niveau du lycée. La filière d'éducation générale se divise entre les lycées généraux orientés vers la poursuite d'études supérieures et les lycées polyvalents combinant orientation académique et professionnelle. La filière d'éducation professionnelle et technique comprend les lycées professionnels, les écoles supérieures professionnelles à cinq ans (五專), ainsi que les instituts de technologie et les universités de science et technologie destinés aux diplômés de lycées professionnels. Les deux filières coexistent structurellement, mais la reconnaissance sociale penche depuis longtemps en faveur de la voie académique.
 
 ## L'éducation nationale de douze ans
 
 ### Contexte politique
 
-L'éducation nationale de douze ans constitue l'une des réformes majeures de l'histoire éducative taïwanaise. Mise en oeuvre à partir de 2014, elle vise à étendre la scolarité de base jusqu'au lycée et au lycée professionnel.
+L'éducation nationale de douze ans constitue une politique majeure dans l'histoire de l'éducation taïwanaise, mise en œuvre à partir de 2014, avec pour objectif d'étendre l'éducation de base au niveau lycée.[^2]
 
-**Cinq grands principes :**
+**Cinq principes directeurs :**
 
-1. **L'éducation pour tous :** offrir à chaque élève une chance d'apprendre
-2. **Un enseignement adapté à chacun :** développement individuel et intelligences multiples
-3. **Révéler le talent de chacun :** valoriser le potentiel et les points forts des élèves
-4. **Des parcours diversifiés :** proposer différentes voies d'études et d'insertion professionnelle
-5. **Une articulation de qualité :** assurer une transition fluide entre les différents niveaux scolaires
+1. **Éducation pour tous :** offrir à chaque élève une chance éducative
+2. **Enseignement différencié :** développement adapté et intelligences multiples
+3. **Épanouissement des talents :** développer le potentiel et les compétences de chaque élève
+4. **Parcours diversifiés :** offrir différentes voies d'accès aux études supérieures et à l'emploi
+5. **Articulation de qualité :** assurer la continuité entre les différents niveaux d'enseignement
 
 ### Réforme des modalités d'admission
 
-**Admission sans concours :** les élèves intègrent l'établissement le plus proche de leur domicile, réduisant la pression des examens.
-**Recrutement sur profil particulier :** certains établissements sont autorisés à recruter des élèves aux talents spéciaux.
-**Système d'évaluation nationale :** l'évaluation nationale du collège sert à mesurer le niveau académique, non à filtrer les admissions.
+L'éducation nationale de douze ans a instauré trois voies d'admission : l'admission sans examen, basée sur la proximité du lieu de résidence, réduit la pression des concours ; l'admission spécialisée permet à certains établissements de recruer des élèves aux talents particuliers ; l'examen de fin de collège (國中教育會考) est conçu comme un outil d'évaluation du niveau scolaire plutôt qu'un mécanisme de sélection pour l'entrée au lycée.
 
 ### Réforme des programmes
 
-**Programme-cadre 108 :** nouveau cadre curriculaire mis en place en 2019
+Le programme scolaire 108 (108 課綱), mis en œuvre en 2019, constitue la restructuration curriculaire la plus ambitieuse de ces dernières années.[^3] Le nouveau programme met l'accent sur les compétences fondamentales, intégrant savoirs, savoir-faire et savoir-être en un ensemble cohérent ; il préserve également les cours flexibles propres à chaque établissement, permettant aux écoles de concevoir des programmes distinctifs ; l'apprentissage transdisciplinaire abolit les frontières entre les matières traditionnelles et encourage la pensée intégrative.
 
-- **Compétences fondamentales :** intégration des connaissances, des savoir-faire et des attitudes
-- **Programmes flexibles :** projets propres à l'établissement et apprentissage autonome des élèves
-- **Apprentissage transdisciplinaire :** programmes intégrés décloisonnant les disciplines
-
-## La culture de la compétition pour l'admission
+## La culture de la compétition pour les examens d'entrée
 
 ### Racines historiques
 
-La culture de compétition pour l'admission scolaire à Taïwan s'inscrit dans un contexte historique et social profond :
-
-**Héritage du système des examens impériaux :** la valeur confucéenne selon laquelle l'étude est la voie noble par excellence est profondément ancrée dans la culture chinoise.
-**Besoin de mobilité sociale :** l'éducation est perçue comme le principal vecteur de changement de classe sociale.
-**Exigences du développement économique :** un capital humain de qualité est une base indispensable à la croissance économique.
+Les racines de la compétition pour les examens d'entrée à Taïwan remontent à la croyance héritée de la culture des examens impériaux (科舉) selon laquelle « le savoir peut changer le destin » (讀書改命). S'y ajoutent les besoins de mobilité sociale de l'après-guerre et la demande en personnel hautement qualifié liée au décollage économique. Ces trois forces se sont entrelacées pour former une culture des examens profondément enracinée. Après l'instauration du système d'examens unifiés (聯考) en 1954, le mécanisme par lequel un seul examen déterminait l'avenir d'une personne a enraciné les cours préparatoires (補習班) et la compétition pour les notes dans tous les recoins de l'île.
 
 ### Manifestations de la compétition
 
-**Culture des examens :**
+La compétition pour les examens d'entrée opère simultanément à trois niveaux : familial, scolaire et sociétal. Au niveau familial, les parents considèrent l'éducation de leurs enfants comme un investissement à long terme central ; le style éducatif strict dit de la « mère tigre » n'est pas un phénomène marginal. Au niveau sociétal, le prestige des lycées d'élite et des meilleures universités renforce le culte du diplôme, les résultats scolaires devenant la principale mesure de la valeur individuelle. Cette atmosphère a persisté même après la réforme des examens unifiés en 2002, qui a introduit des admissions diversifiées, se maintenant à travers la densité des cours préparatoires et les classements des écoles privées.
 
-- **Système du concours unifié :** ancien système d'examen d'admission centralisé (aujourd'hui réformé)
-- **Culture du cram school :** généralisation des cours particuliers et des établissements de préparation aux examens
-- **Techniques d'examen :** accent mis sur les méthodes d'examen et les performances aux tests
+## Développement de l'éducation professionnelle et technique
 
-**Attentes familiales :**
+### Statut de l'éducation professionnelle et technique
 
-- **Investissement parental :** engagement très fort des familles dans l'éducation
-- **Phénomène de la "tiger mom" :** méthodes parentales strictes et exigeantes
-- **Pression scolaire :** pression académique intense pesant sur les élèves
+L'éducation professionnelle et technique à Taïwan souffre depuis longtemps du préjugé social « privilégier l'académique, dévaloriser le technique ». De nombreux élèves de filière professionnelle et technique visent d'ailleurs principalement la poursuite d'études supérieures, créant un décalage entre la formation professionnelle et les besoins en main-d'œuvre de l'industrie. Cette difficulté s'est accentuée après la politique des années 1990 visant à « multiplier les universités » (廣設大學) : les instituts de technologie se sont élevés au rang d'universités de science et technologie, brouillant ainsi le positionnement de l'éducation professionnelle et technique.
 
-**Valeurs sociales :**
+### Réforme de l'éducation professionnelle et technique
 
-- **Culte de l'élite :** recherche des grandes écoles et des diplômes valorisants
-- **Logique d'employabilité :** lien entre diplôme et opportunités d'emploi
-- **Culture du face :** la réussite scolaire comme symbole de statut social
+Ces dernières années, le gouvernement a orienté les réformes selon quatre axes : la coopération industrie-académie, la certification professionnelle, le renforcement des stages et l'intégration de professionnels du secteur dans l'enseignement. L'Université nationale de technologie de Taïwan (台灣科技大學) et l'Université de technologie de Taipei (台北科技大學) ont établi des références pour l'enseignement professionnel supérieur. Les étudiants taïwanais obtiennent également d'excellents résultats aux World Skills Competitions, démontrant que la voie professionnelle peut elle aussi former des talents d'élite. Ces exemples contribuent lentement à transformer les stéréotypes sociaux associés à l'éducation professionnelle et technique.
 
-## Développement de l'enseignement professionnel
+## Historique des réformes éducatives
 
-### Place de l'enseignement professionnel
+### Grandes phases de réforme
 
-Comparé à l'enseignement général, l'enseignement professionnel souffre depuis longtemps d'une moindre reconnaissance sociale à Taïwan :
+Les réformes éducatives taïwanaises peuvent être divisées en trois vagues. Les années 1990 ont été marquées par la multiplication des lycées et universités, l'instauration d'admissions diversifiées et la mise en place d'un programme scolaire unifié pour les neuf premières années, dans le but de briser le monopole des examens unifiés et d'élargir l'accès à l'éducation. Les années 2000 ont vu l'introduction de l'examen d'entrée au collège (國中基測) en remplacement de l'examen unifié d'entrée au lycée, le lancement du programme « Étoiles brillantes » (繁星計畫) en faveur des élèves des zones rurales, et l'ouverture de l'accès à l'université à des voies multiples combinant recommandation-sélection et répartition sur examen. Les années 2010 ont étendu l'enseignement obligatoire à douze ans, puis 2019 a vu la refonte de la philosophie curriculaire avec le programme 108, accompagnée du lancement de la politique du pays bilingue à l'horizon 2030.
 
-**Préjugé social :** la valorisation de l'académique au détriment du technique reste prégnante.
-**Logique d'admission :** même les élèves du professionnel visent majoritairement la poursuite d'études.
-**Besoins de l'industrie :** décalage persistant avec les besoins réels en main-d'oeuvre des entreprises.
+### Résultats et défis des réformes
 
-### Réforme de l'enseignement professionnel
+Trente ans de réformes ont effectivement fait bondir le taux de scolarisation dans l'enseignement supérieur parmi les plus élevés d'Asie, et l'évaluation diversifiée a réduit le risque structurel du « tout pour un seul examen ». Le programme « Étoiles brillantes » a également permis à des élèves de zones rurales d'accéder aux meilleures universités. Cependant, les écarts de ressources entre zones urbaines et rurales, l'influence du statut socio-économique familial sur la réussite scolaire et la dépendance aux cours préparatoires n'ont pas été résolus. La pression liée aux examens d'entrée a simplement changé de forme.
 
-Ces dernières années, le gouvernement a activement promu la réforme de l'enseignement professionnel :
+## Situation actuelle de l'éducation et problèmes
 
-**Partenariats école-entreprise :** renforcement des liens entre établissements scolaires et secteur industriel
-**Certification des compétences :** mise en place d'un système de reconnaissance des compétences professionnelles
-**Stages :** développement de l'expérience pratique des élèves
-**Amélioration du corps enseignant :** recrutement d'experts du secteur comme formateurs
+### Réalisations quantitatives
 
-**Exemples de réussite :**
-
-- **NTUST, NTUT :** universités d'élite de la filière technologique
-- **Compétitions internationales de compétences :** excellentes performances des élèves taïwanais
-- **Champions de l'ombre :** les professionnels formés par l'enseignement professionnel dans l'industrie
-
-## Parcours des réformes éducatives
-
-### Grandes étapes de la réforme
-
-**Réforme des années 1990 :**
-
-- **Multiplication des lycées et universités :** élargissement de l'accès à l'éducation
-- **Admissions plurielles :** réduction de la pression des examens
-- **Programme intégré sur neuf ans :** conception de programmes unifiés et cohérents
-
-**Ajustements des années 2000 :**
-
-- **Système d'évaluation de base :** nouveau mode d'évaluation remplaçant le concours unifié
-- **Programme Galaxie :** accompagnement des élèves ruraux et défavorisés
-- **Admission multivariée à l'université :** coexistence des recommandations, des sélections et des admissions sur concours
-
-**Approfondissement des années 2010 :**
-
-- **Éducation nationale de douze ans :** allongement de la scolarité obligatoire
-- **Programme-cadre 108 :** réforme des programmes orientée sur les compétences
-- **Éducation bilingue :** renforcement de la compétitivité internationale
-
-### Résultats et défis de la réforme
-
-**Effets positifs :**
-
-- **Démocratisation de l'éducation :** fort accroissement du taux d'accès à l'enseignement supérieur
-- **Allègement de la pression des examens :** les évaluations plurielles réduisent le risque du tout-ou-rien
-- **Soutien aux élèves défavorisés :** meilleures opportunités pour les élèves ruraux et issus de milieux modestes
-
-**Défis persistants :**
-
-- **Inégalités territoriales :** répartition inégale des ressources éducatives
-- **Reproduction des inégalités :** influence de l'origine familiale sur la réussite scolaire
-- **Pression à l'admission :** la pression pour intégrer de bonnes filières reste fondamentalement inchangée
-
-## État des lieux et enjeux
-
-### Indicateurs chiffrés
-
-**Taux d'alphabétisation :** proche de 100 %, parmi les meilleurs mondiaux
-**Taux d'accès à l'enseignement supérieur :** environ 70 %, l'un des plus élevés d'Asie
-**Classements internationaux :** excellentes performances aux évaluations PISA, TIMSS et autres
+Le taux d'alphabétisation à Taïwan approche les 100 %, et le taux de scolarisation dans l'enseignement supérieur se situe parmi les plus élevés d'Asie.[^1] Dans les évaluations internationales telles que PISA et TIMSS, les élèves taïwanais obtiennent régulièrement d'excellents résultats en mathématiques et en sciences.[^4]
 
 ### Problèmes structurels
 
-**Impact de la dénatalité :**
+Le déclin du taux de natalité constitue l'impact le plus aigu actuellement. La baisse des naissances confronte les petites écoles rurales à des fusions ou fermetures, les difficultés de recrutement des universités contraignent certains établissements à cesser leurs activités, et l'offre d'enseignants est devenue excédentaire. L'écart de ressources éducatives entre les zones urbaines et rurales, l'influence du milieu socio-économique familial sur les chances d'apprentissage, ainsi que la fracture numérique dans l'accès aux équipements technologiques rendent le problème des inégalités éducatives difficile à résoudre. Bien que la compétition pour les examens d'entrée se soit diversifiée dans ses formes, la dépendance aux cours préparatoires et les problèmes de santé mentale des élèves restent des préoccupations latentes.
 
-- **Regroupements d'établissements :** les petites écoles rurales subissent des pressions de fusion
-- **Difficultés de recrutement :** les universités peinent à attirer des étudiants
-- **Sureffectif enseignant :** forte concurrence pour les postes dans l'enseignement
-
-**Inégalités éducatives :**
-
-- **Fracture territoriale :** disparité des ressources entre zones urbaines et rurales
-- **Fracture sociale :** l'origine socio-économique des familles pèse sur les chances de réussite
-- **Fracture numérique :** inégal accès aux ressources technologiques
-
-**Pression à l'admission :**
-
-- **Concurrence exacerbée :** forte compétition pour intégrer les établissements de prestige
-- **Dépendance aux cours privés :** généralisation des cours après l'école
-- **Santé mentale des élèves :** hausse des problèmes psychologiques
-
-## Éducation spécialisée et besoins pluriels
+## Éducation spécialisée et besoins diversifiés
 
 ### Développement de l'éducation spécialisée
 
-**Éducation pour élèves en situation de handicap :** mise en place d'un système d'enseignement spécialisé complet
-**Éducation pour élèves à haut potentiel :** filières d'excellence en sciences, mathématiques et lettres
-**Éducation inclusive :** intégration entre classes ordinaires et classes spécialisées
+Taïwan a mis en place un système complet d'éducation spécialisée couvrant l'éducation des élèves en situation de handicap ainsi que les classes d'excellence en mathématiques, sciences et langues, et a promu un modèle d'éducation inclusive intégrant classes ordinaires et classes spécialisées.
 
 ### Éducation multiculturelle
 
-**Éducation pour les enfants de nouveaux résidents :** réponse à l'augmentation des nouveaux arrivants d'Asie du Sud-Est
-**Éducation des peuples autochtones :** préservation des cultures et des langues autochtones
-**Écoles internationales :** répondre aux besoins des expatriés et aux exigences d'internationalisation
+Avec l'augmentation du nombre d'enfants de nouveaux résidents originaires d'Asie du Sud-Est, des systèmes de soutien éducatif correspondants ont été progressivement mis en place à partir des années 2000. La politique éducative pour les peuples autochtones met l'accent sur la préservation culturelle et linguistique, et les cours de langues de chaque groupe ethnique ont été intégrés dans les programmes de certaines écoles. Par ailleurs, Taïwan compte également des écoles internationales destinées aux enfants d'expatriés, ainsi que des sections internationales au sein d'écoles locales.
 
 ## Internationalisation et éducation bilingue
 
 ### Promotion de l'enseignement de l'anglais
 
-**Politique d'éducation bilingue :** politique nationale bilingue à l'horizon 2030
-**Enseignement en anglais :** certaines matières dispensées en anglais
-**Échanges internationaux :** encouragement à l'apprentissage à l'étranger pour les élèves
+En 2018, le gouvernement a annoncé l'objectif d'un pays bilingue à l'horizon 2030, en promouvant l'enseignement de certaines matières en anglais et en élargissant les opportunités d'échanges internationaux pour les étudiants. Taïwan a également introduit le programme du Baccalauréat International (IB), permettant aux élèves locaux de se familiariser avec des normes d'apprentissage globalisées.
 
-### Développement des écoles internationales
+## Technologie et éducation innovante
 
-**Écoles pour expatriés :** établissements accueillant les enfants d'étrangers résidant à Taïwan
-**Sections internationales :** création de sections internationales au sein des établissements taïwanais
-**Programme IB :** introduction du Baccalauréat International
+### Éducation numérique et innovation
 
-## Éducation technologique et à l'innovation
-
-### Éducation numérique
-
-**Apprentissage numérique :** intégration des technologies de l'information dans l'enseignement
-**Programmation :** introduction de la programmation informatique dans le primaire et le secondaire
-**Éducation à l'IA :** développement de programmes liés à l'intelligence artificielle
-
-### Éducation à l'innovation
-
-**Éducation maker :** pédagogie par la fabrication et le faire soi-même
-**Éducation STEAM :** intégration des sciences, de la technologie, de l'ingénierie, des arts et des mathématiques
-**Éducation à l'entrepreneuriat :** développement de l'esprit entrepreneurial des élèves
+En 2019, Taïwan a intégré la programmation informatique dans les cours obligatoires du collège et a continuellement élargi les programmes liés à l'intelligence artificielle. L'éducation maker et les programmes intégrés STEAM (sciences, technologie, ingénierie, arts, mathématiques) encouragent la pratique et la réalisation concrète, tandis que l'éducation à l'entrepreneuriat tente d'ouvrir une voie de valeur alternative au sein d'un système dominé par la culture des examens d'entrée.
 
 ## Impact social de la culture éducative
 
-### Effets positifs
+### Impacts positifs
 
-**Qualité du capital humain :** formation d'une main-d'oeuvre qualifiée
-**Mobilité sociale :** création d'opportunités d'ascension sociale
-**Transmission culturelle :** préservation et diffusion de la culture
-**Compétitivité internationale :** renforcement du soft power national
+Le système éducatif taïwanais a formé une main-d'œuvre hautement qualifiée, fournissant les talents nécessaires aux industries des semi-conducteurs et des technologies. L'éducation a également été le principal vecteur de mobilité sociale, permettant à de nombreux enfants de familles rurales de s'élever dans l'échelle sociale.
 
 ### Effets négatifs
 
-**Pression compétitive :** problèmes de santé mentale chez les élèves
-**Frein à la créativité :** la culture de la bonne réponse peut inhiber la pensée créative
-**Rigidité sociale :** une survalorisation des diplômes peut appauvrir les valeurs sociales
-**Gaspillage de ressources :** la surqualification entraîne une mauvaise allocation des ressources humaines
+La culture de la réponse unique peut restreindre l'espace de développement de la créativité ; le lien entre la pression scolaire et les problèmes de santé mentale mérite une attention sérieuse. L'expansion excessive de l'enseignement supérieur a également provoqué une inflation des diplômes, de nombreux diplômés universitaires occupant des emplois sans rapport avec leur formation, créant ainsi une mauvaise allocation des ressources humaines.
 
 ## Points de vue des parents et des élèves
 
-### Attentes parentales
+### Attentes des parents et pression sur les élèves
 
-**Résultats scolaires :** grande attention portée aux résultats académiques des enfants
-**Perspectives d'avenir :** souhait d'un bon positionnement professionnel pour leurs enfants
-**Statut social :** élever le rang social de la famille grâce à l'éducation
-
-### Pression sur les élèves
-
-**Charge de travail scolaire :** programme chargé et pression importante des examens
-**Gestion du temps :** recherche d'un équilibre entre études et loisirs
-**Anxiété face à l'avenir :** incertitude quant aux études supérieures et à l'emploi
+De nombreux parents considèrent les résultats scolaires de leurs enfants comme le retour sur investissement éducatif de la famille, mais aussi comme un symbole du statut social familial. Sous cette attente, les élèves supportent une charge de travail et une pression d'examen considérables, sans presque aucun répit entre les études et les loisirs. L'anxiété face à l'avenir commence à s'accumuler dès le collège.
 
 ### Différences générationnelles
 
-**Évolution des valeurs :** la jeune génération redéfinit les contours de la réussite
-**Développement pluriel :** intérêt croissant pour les passions et les talents personnels
-**Ouverture internationale :** davantage d'attention portée à la compétitivité mondiale et aux compétences interculturelles
+La définition du succès évolue parmi les jeunes générations. De plus en plus de jeunes placent leurs intérêts et compétences personnelles, ainsi que l'équilibre entre vie professionnelle et vie privée, au premier plan, sans considérer les universités prestigieuses comme le seul objectif. L'élargissement des horizons internationaux conduit également certains jeunes à choisir de travailler ou d'étudier à l'étranger, réduisant ainsi leur dépendance au système local d'examens d'entrée.
 
-## Tendances d'avenir
+## Tendances de développement futur
 
-### Technologies éducatives
+### Technologie éducative et transformation des programmes
 
-**Apprentissage personnalisé par l'IA :** enseignement individualisé assisté par intelligence artificielle
-**Enseignement en réalité virtuelle :** applications de la réalité virtuelle et augmentée à l'éducation
-**Apprentissage à distance :** normalisation de l'enseignement en ligne
+L'apprentissage personnalisé par l'IA, l'enseignement en réalité virtuelle et les cours en ligne transforment les salles de classe. L'enseignement à distance a été accéléré de force pendant la pandémie de COVID-19 en 2020, révélant également les problèmes de fracture numérique. Le « dossier de parcours d'apprentissage » (學習歷程檔案) mis en avant par le programme 108 rend l'admission à l'université plus attentive au processus qu'à une unique note, mais impose également une charge supplémentaire aux élèves disposant de moins de ressources.
 
-### Évolution des programmes
+### Orientations d'ajustement du système
 
-**Apprentissage transdisciplinaire :** programmes intégrés décloisonnant les matières
-**Orienté compétences :** passage de la transmission de savoirs au développement des capacités
-**Formation tout au long de la vie :** construction d'institutions et d'une culture d'apprentissage continu
+Un système scolaire flexible et le développement adapté constituent les objectifs à long terme de la réforme éducative taïwanaise, mais un écart significatif persiste entre les annonces politiques et leur mise en œuvre dans les salles de classe. Permettre véritablement aux élèves de toutes orientations de trouver un parcours d'apprentissage qui leur convienne reste la question centrale à laquelle sont confrontés les concepteurs du système.
 
-### Ajustements institutionnels
+## Comparaisons internationales et enseignements
 
-**Cursus flexibles :** des parcours d'apprentissage plus diversifiés
-**Valorisation du parcours :** attention portée au processus d'apprentissage, pas seulement aux résultats
-**Développement individualisé :** un enseignement réellement adapté à chaque profil
+### Comparaison est-asiatique et inspirations occidentales
 
-## Comparaisons et perspectives internationales
+La culture de la compétition pour les examens d'entrée à Taïwan partage les mêmes origines que celle du Japon, de la Corée du Sud et de Singapour, mais la trajectoire de réforme taïwanaise s'inspire davantage de l'Occident : des principes d'égalité éducative des pays nordiques, du modèle de développement pluriel américain, au système de filières professionnelles allemand, chacun a laissé son empreinte à différentes étapes. La philosophie éducative finlandaise de « réduire la compétition, stimuler la créativité » a suscité de larges discussions dans le milieu éducatif taïwanais, mais la question de savoir si le sol social taïwanais permet une transplantation réussie reste débattue.
 
-### Expériences est-asiatiques
-
-Comparé au Japon, à la Corée du Sud, à Singapour et autres pays est-asiatiques, Taïwan partage une culture de la compétition scolaire similaire, tout en ayant ses propres spécificités.
-
-### Modèles occidentaux
-
-S'inspirer des idéaux d'égalité éducative des pays nordiques, du modèle de développement pluriel américain, et de l'expérience allemande en matière d'enseignement professionnel.
-
-### Expérimentations innovantes
-
-S'appuyer sur l'expérience de la réforme éducative finlandaise pour explorer des modèles réduisant la compétition et stimulant la créativité.
-
-## Conseils pour les observateurs étrangers
+## Conseils d'observation pour les étrangers
 
 ### Comprendre la culture éducative taïwanaise
 
-**Importance accordée à l'éducation :** la société taïwanaise attache une très grande valeur à la formation
-**Compétition intense :** un climat social marqué par la compétition pour l'admission
-**Implication familiale :** investissement massif des familles dans l'éducation de leurs enfants
+Les observateurs étrangers sont souvent surpris par le nombre d'heures d'étude des élèves taïwanais et par la densité des cours préparatoires. Ce degré d'investissement repose sur une profonde confiance familiale en l'éducation et sur une logique culturelle qui lie étroitement le diplôme à la valeur individuelle. Comprendre ce contexte aide à saisir l'attitude des Taïwanais face au travail et leur niveau d'exigence envers eux-mêmes.
 
-### Participer au système éducatif taïwanais
+### Participer à l'éducation taïwanaise
 
-**Écoles internationales :** options éducatives pour les enfants d'expatriés
-**Apprentissage du mandarin :** opportunités d'apprendre le chinois à Taïwan
-**Échanges culturels :** participation aux activités d'échanges éducatifs et culturels
+Les enfants d'étrangers peuvent choisir des écoles pour expatriés comme le Taipei American School, ou intégrer les sections internationales d'écoles locales. Les opportunités d'apprendre le mandarin à Taïwan sont relativement nombreuses ; le gouvernement propose diverses bourses et cours de langue chinoise. Les échanges éducatifs et culturels constituent également un pilier important de la puissance douce diplomatique de Taïwan.
 
-## Pour aller plus loin
+## Pistes de réflexion
 
-Le système éducatif taïwanais reflète les valeurs et les méthodes d'une société pour former ses talents. De la culture très compétitive de l'admission à une réforme mettant en avant le développement pluriel, l'éducation à Taïwan traverse une période de transformation importante.
+Le système éducatif taïwanais reflète les valeurs et les méthodes d'une société en matière de formation des talents. De la culture hautement compétitive des examens d'entrée aux réformes éducatives axées sur le développement adapté, cette transition n'a pas été sans heurts.
 
-Comment maintenir la qualité et la compétitivité éducatives tout en créant un environnement plus diversifié et plus humain : tel est l'enjeu central du développement futur de l'éducation à Taïwan. Les expériences et les leçons tirées de ce processus ont une valeur de référence précieuse pour d'autres sociétés confrontées à des défis similaires.
+Comment maintenir la qualité et la compétitivité de l'éducation tout en créant un environnement d'apprentissage plus humain, tel est le défi central auquel fait face l'éducation taïwanaise. La manière dont Taïwan trouvera sa propre voie éducative dans la compétition mondiale, tout en formant une génération dotée d'une vision internationale et d'une identité locale, mérite une observation à long terme.
 
-L'éducation n'est pas seulement transmission de savoirs ; c'est aussi modélisation des valeurs et transmission culturelle. Comment Taïwan peut-il préserver ses spécificités éducatives dans la compétition mondiale, tout en formant une nouvelle génération dotée d'une vision internationale et d'une identité locale : voilà une question qui mérite une attention et une réflexion continues.
+**Pour aller plus loin :**
 
-**Pour approfondir** :
+- [L'éducation en milieu rural à Taïwan](/society/台灣偏鄉教育) — Pour avoir une vision d'ensemble des inégalités éducatives, de l'enfant à l'école, de la famille à la communauté et à la société, cet article offre un panorama plus large.
+- [Teach For Taiwan (TFT)](/society/為台灣而教TFT) — Cet article se concentre sur une organisation qui répond concrètement aux disparités éducatives en milieu rural, complétant le portrait avec les acteurs et les controverses.
+- [La crise du déclin démographique à Taïwan](/society/台灣少子化危機) — Au-delà du système d'examens et de la culture de la compétition, le déclin démographique est en train de réécrire la survie des écoles et la répartition des ressources éducatives.
+- [Za School (雜學校)](/society/雜學校) — Une fête de l'éducation alternative née après le mouvement étudiant du 18 mars, offrant un espace concret d'imagination en dehors du système axé sur les examens d'entrée.
 
-- Éducation dans les zones rurales de Taïwan — pour une vue d'ensemble des inégalités éducatives, des enfants aux familles et communautés, jusqu'aux représentations de la réussite sociale
-- Teach For Taiwan (TFT) — focus sur une organisation qui répond concrètement aux inégalités éducatives rurales, avec contexte des acteurs et des débats
-- La crise de la dénatalité à Taïwan — au-delà du système d'admission et de la culture compétitive, la dénatalité réécrit aussi la carte de l'existence des établissements scolaires et de la répartition des ressources éducatives
+[^1]: Département des statistiques du Ministère de l'Éducation, « Statistiques d'admission dans l'enseignement supérieur », https://stats.moe.gov.tw/
+[^2]: Ministère de l'Éducation, « Présentation de la politique d'éducation nationale de douze ans », https://www.moe.gov.tw/
+[^3]: Ministère de l'Éducation, « Programme général du programme scolaire 108 », https://www.naer.edu.tw/
+[^4]: OCDE, « Résultats PISA 2022 », https://www.oecd.org/pisa/
+[^5]: Département des statistiques du Ministère de l'Éducation, « Portail de requêtes statistiques éducatives », https://stats.moe.gov.tw/
 
 ## Références
 
-- Huang Zheng-jie, _[Réflexions sur la réforme éducative à Taïwan](https://www.books.com.tw/products/0010471343)_
-- Yang Si-wei, _Analyse des politiques de l'éducation nationale de douze ans_ (voir [Bulletin de recherche en éducation](https://www.edubook.com.tw/OAtw/File/PDf/49202.pdf))
-- Documents de politique de [la section officielle du ministère de l'Éducation](https://www.moe.gov.tw/)
-- Informations institutionnelles et données statistiques des établissements de tous niveaux
-- Rapports de recherche et d'évaluation sur les réformes éducatives
+- Huang Zhengjie (黃政傑), *Réflexions sur la réforme éducative à Taïwan* (台灣教育改革的省思)
+- Yang Siwei (楊思偉), *Analyse de la politique d'éducation nationale de douze ans* (十二年國民基本教育政策解析) (voir aussi les recherches associées dans la [Revue d'études éducatives](https://www.edubook.com.tw/OAtw/File/PDf/49202.pdf))
+- Documents de politique officiels sur le [site du Ministère de l'Éducation](https://www.moe.gov.tw/)
+- Informations et données statistiques des établissements scolaires à tous les niveaux
+- Rapports de recherche et d'évaluation liés à la réforme éducative
