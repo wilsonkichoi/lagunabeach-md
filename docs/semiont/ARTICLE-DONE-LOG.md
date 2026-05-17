@@ -59,6 +59,18 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 新竹縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 2 — 235 年義民信仰與全台第一人均所得住同一條頭前溪 / Geography 縣市 / 5807 字 / 40 footnote / 7 Wikimedia images）
+
+- **Article**: [knowledge/Geography/新竹縣.md](../../knowledge/Geography/新竹縣.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑，Opus sub-agent commit b457dbbb1)
+- **核心矛盾**：「235 年的義民信仰，與全台第一的人均所得，住在同一條頭前溪」
+- **Hook**：義民節下午四點新埔燈篙開場 → 1786 林爽文之役 + 1787 乾隆賜「褒忠」匾 + 1788 奠基 / 1790 正廳 / 1791 全廟竣工三段式（修正 Stage 0「1788 竣工」誤）/ 1835 金廣福閩客合股開墾大隘（姜秀鑾 + 周邦正 + 林德修，全台罕見閩客合作）/ 九降風 → 柿餅 / 米粉 / 椪風茶（東方美人）/ 司馬庫斯部落議會土地共有制 / 1988 縣府從新竹市遷至竹北市（Stage 0 寫 1989 校正為 1988）/ 結尾「義民信仰旁邊的台積電寶山二廠」首尾呼應
+- **品質**：5,807 CJK / 40 footnotes / **7 Wikimedia images** / 7 H2 narrative scene-led / 2 策展人筆記 + 1 ✦ pull quote / **Stage 4 hard=0 warn=0 全綠** / Stage 3.5 hard=0 / prose-health score 4 (warn=2 是 plugin 對 article 標準的 cosmetic) / 對位句 **0 處** / 破折號 **0 處** / 三角自檢 PASS
+- **Research**: [reports/research/2026-05/新竹縣.md](../../reports/research/2026-05/新竹縣.md) — Stage 1 46 次搜尋 / 18 verbatim quotes / 10 ⚠️ flags audit pass
+- **FACTCHECK**: 10 ⚠️ flags 全處理（姜阿新洋樓修正為 1946-1949 戰後 / 義民廟 1788 奠基-1790 正廳-1791 全廟三段式 / 王世傑 1711 入墾與 1718 隆恩圳分開 / 沈葆楨歸功 sidestep / Pocaal 不寫 Tek-chham / 客家比例 67.8% verbatim / 200 多 vs 三百並陳）
+- **Cross-link**: 8 forward (基隆市 / 苗栗縣 sibling / 客家文化與語言 / 客家飲食文化 / 族群 / 台積電 / 半導體產業 / 行政區劃) + 2 reverse 加到 基隆市 + 苗栗縣
+- **Pilot retrospective 5 條校準執行**：九降風分層 / 區間時間（清領拓墾 1718-1875 / 義民廟 1788-1791 / 縣治 1989）/ 衰退轉型 frame 帶具體數字（人口 12 萬→22 萬翻倍 / 竹北人均所得 144.2 萬元）/ 本地 vs 觀光客 fault line（義民節下午四點 vs 內灣老街週末）/ 日治現代化具體化（湖口大正巴洛克紅磚 / 內灣支線 1950s 服務林業礦業）
+
 ### 苗栗縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 1 — 客家硬頸的縣用八年選出讓縣庫翻倍負債的縣長 / Geography 縣市 / 6123 字 / 36 footnote / 8 Wikimedia images）
 
 - **Article**: [knowledge/Geography/苗栗縣.md](../../knowledge/Geography/苗栗縣.md)
