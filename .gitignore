@@ -148,3 +148,7 @@ docs/semiont/harvest/ui/.env
 
 # lang-sync workflow intermediate briefs (refresh.sh output)
 .lang-sync-tasks/
+
+# Peer partnership MOU PDFs — 含對方聯繫資訊 / 統編 / 個資，per MOU §6 保密義務不入 public repo
+# 操作層級的授權清單（Excel / JSON）仍 commit
+data/*/_authorization/*.pdf

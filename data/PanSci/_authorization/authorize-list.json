@@ -1,0 +1,4820 @@
+{
+  "total": 166,
+  "source": "pansci_2022_2025_authorize.xlsx",
+  "mou_signed": "2026-05-05",
+  "mou_expires": "2029-12-31",
+  "partnership_label": "Content Curation Partner",
+  "license": "Non-exclusive, non-transferable; Taiwan.md 專案建置與展示用",
+  "articles": [
+    {
+      "wp_id": 349272,
+      "title": "衣服速速乾——夏天曬衣中的科學！",
+      "author": "Mia",
+      "source_site": "pansci",
+      "published": "2022-06-10T00:00:00",
+      "word_count": 2319,
+      "science_student": true,
+      "categories": [
+        "專欄",
+        "活得科學",
+        "透視科學"
+      ],
+      "tags": [
+        "曬衣服",
+        "水氣量",
+        "濕度",
+        "科學生"
+      ],
+      "comments": 0,
+      "highlights": 6,
+      "bookmarks": 0,
+      "views": 76,
+      "url": "https://pansci.asia/archives/349272"
+    },
+    {
+      "wp_id": 349236,
+      "title": "物理學家如何煮義大利麵？",
+      "author": "胡中行",
+      "source_site": "pansci",
+      "published": "2022-06-16T00:00:00",
+      "word_count": 2961,
+      "science_student": true,
+      "categories": [
+        "專欄",
+        "活得科學",
+        "編輯精選"
+      ],
+      "tags": [
+        "流體力學",
+        "烹飪",
+        "物理",
+        "疫情",
+        "科學生",
+        "美食",
+        "義大利麵",
+        "膨脹",
+        "食物"
+      ],
+      "comments": 2,
+      "highlights": 2,
+      "bookmarks": 1,
+      "views": 132,
+      "url": "https://pansci.asia/archives/349236"
+    },
+    {
+      "wp_id": 350977,
+      "title": "猴痘有可能會大流行嗎？帶你一窺猴痘的症狀、傳播途徑與可能的防範措施",
+      "author": "Karel Chen",
+      "source_site": "pansci",
+      "published": "2022-06-24T00:00:00",
+      "word_count": 4269,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "專欄",
+        "活得科學",
+        "生命奧祕",
+        "編輯精選",
+        "透視科學",
+        "醫療健康"
+      ],
+      "tags": [
+        "傳播途徑",
+        "天花",
+        "猴痘",
+        "疫苗",
+        "症狀",
+        "科學生",
+        "膿皰",
+        "藥品",
+        "變異"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 4,
+      "views": 200,
+      "url": "https://pansci.asia/archives/350977"
+    },
+    {
+      "wp_id": 350945,
+      "title": "節奏與你的前庭系統──音樂關鍵字｜EP2：奔跑吧！阿公",
+      "author": "音樂關鍵字Unlocking Music",
+      "source_site": "pansci",
+      "published": "2022-06-24T00:00:00",
+      "word_count": 934,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "專欄",
+        "活得科學",
+        "生命奧祕",
+        "萬物之理"
+      ],
+      "tags": [
+        "BPM",
+        "低頻",
+        "前庭系統",
+        "客家電視台",
+        "科學生",
+        "跑步音樂",
+        "音樂關鍵字"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 60,
+      "url": "https://pansci.asia/archives/350945"
+    },
+    {
+      "wp_id": 350600,
+      "title": "器官移植新技術───37度保存三天的肝臟",
+      "author": "Charlotte 熊",
+      "source_site": "pansci",
+      "published": "2022-06-24T00:00:00",
+      "word_count": 3295,
+      "science_student": true,
+      "categories": [
+        "健康養生",
+        "專欄",
+        "生命奧祕",
+        "醫療健康"
+      ],
+      "tags": [
+        "保存",
+        "保存方式",
+        "受贈者",
+        "器官捐贈",
+        "器官移植",
+        "科學生",
+        "肝臟",
+        "肝臟移植",
+        "肝臟組織"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 0,
+      "views": 47,
+      "url": "https://pansci.asia/archives/350600"
+    },
+    {
+      "wp_id": 351969,
+      "title": "來自姊姊的愛：約兒力氣要多大，才能把弟弟的肋骨抱斷？",
+      "author": "linjunJR",
+      "source_site": "pansci",
+      "published": "2022-07-13T00:00:00",
+      "word_count": 3661,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "專欄",
+        "生命奧祕",
+        "編輯精選",
+        "萬物之理",
+        "醫療健康",
+        "電影中的科學"
+      ],
+      "tags": [
+        "SPY X FAMILY",
+        "力學",
+        "擁抱",
+        "科學生",
+        "間諜家家酒",
+        "骨折",
+        "骨頭"
+      ],
+      "comments": 1,
+      "highlights": 9,
+      "bookmarks": 5,
+      "views": 187,
+      "url": "https://pansci.asia/archives/351969"
+    },
+    {
+      "wp_id": 352102,
+      "title": "一見如故，其實是一「聞」如故？「氣味」相投有科學根據，原來我們會用嗅覺交朋友！",
+      "author": "Bonnie",
+      "source_site": "pansci",
+      "published": "2022-07-18T00:00:00",
+      "word_count": 3388,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "化學物語",
+        "活得科學",
+        "社會群體"
+      ],
+      "tags": [
+        "交友",
+        "嗅覺",
+        "氣味",
+        "氣味相投",
+        "科學生",
+        "體味"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 1,
+      "views": 91,
+      "url": "https://pansci.asia/archives/352102"
+    },
+    {
+      "wp_id": 351759,
+      "title": "搖滾響起來，人就嗨起來──音樂關鍵字｜EP8：搖滾夢想",
+      "author": "音樂關鍵字Unlocking Music",
+      "source_site": "pansci",
+      "published": "2022-07-22T00:00:00",
+      "word_count": 930,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "活得科學",
+        "萬物之理"
+      ],
+      "tags": [
+        "客家電視台",
+        "搖滾樂",
+        "泛音",
+        "科學生",
+        "雜質",
+        "音樂關鍵字"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 68,
+      "url": "https://pansci.asia/archives/351759"
+    },
+    {
+      "wp_id": 352310,
+      "title": "「西卡毒」是什麼？同樣都是石斑，為什麼日本願意進口龍膽石斑，卻拒絕龍虎斑？",
+      "author": "Evelyn 食品技師",
+      "source_site": "pansci",
+      "published": "2022-07-24T00:00:00",
+      "word_count": 4275,
+      "science_student": true,
+      "categories": [
+        "專欄",
+        "環境生態",
+        "自然生態"
+      ],
+      "tags": [
+        "CTX",
+        "科學生",
+        "西卡毒",
+        "雪卡毒",
+        "雪卡毒素",
+        "龍膽石斑",
+        "龍虎斑"
+      ],
+      "comments": 2,
+      "highlights": 4,
+      "bookmarks": 0,
+      "views": 130,
+      "url": "https://pansci.asia/archives/352310"
+    },
+    {
+      "wp_id": 352239,
+      "title": "肉眼可見的「微生物」！科學家發現有史以來的最大細菌，平均長度大於 0.9 公分",
+      "author": "細菌姐姐",
+      "source_site": "pansci",
+      "published": "2022-07-25T00:00:00",
+      "word_count": 3583,
+      "science_student": true,
+      "categories": [
+        "專欄",
+        "活得科學",
+        "環境生態",
+        "生命奧祕",
+        "科學傳播",
+        "自然生態",
+        "讀寫科學"
+      ],
+      "tags": [
+        "厚壁菌",
+        "原核生物",
+        "巨大細菌",
+        "微生物",
+        "真核生物",
+        "硫化菌",
+        "科學",
+        "科學生",
+        "細菌",
+        "藍菌"
+      ],
+      "comments": 2,
+      "highlights": 6,
+      "bookmarks": 5,
+      "views": 128,
+      "url": "https://pansci.asia/archives/352239"
+    },
+    {
+      "wp_id": 352725,
+      "title": "「澡」點知道有多好：4 點冷水澡好處多多的祕密",
+      "author": "保持胎哥",
+      "source_site": "pansci",
+      "published": "2022-07-30T00:00:00",
+      "word_count": 4128,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "健康養生",
+        "專欄",
+        "活得科學",
+        "生命奧祕",
+        "編輯精選"
+      ],
+      "tags": [
+        "iceman",
+        "免疫系統",
+        "冰水",
+        "冷水澡",
+        "憂鬱",
+        "棕色脂肪",
+        "正能量",
+        "洗澡",
+        "減肥",
+        "科學生"
+      ],
+      "comments": 2,
+      "highlights": 36,
+      "bookmarks": 5,
+      "views": 148,
+      "url": "https://pansci.asia/archives/352725"
+    },
+    {
+      "wp_id": 352847,
+      "title": "皮卡丘的警告，對好奇到欠電的人有用嗎？",
+      "author": "胡中行",
+      "source_site": "pansci",
+      "published": "2022-08-01T00:00:00",
+      "word_count": 2586,
+      "science_student": true,
+      "categories": [
+        "專欄",
+        "精神心理",
+        "電影中的科學"
+      ],
+      "tags": [
+        "好奇心",
+        "寶可夢",
+        "心理學",
+        "思考",
+        "無聊",
+        "皮卡丘",
+        "科學生",
+        "電擊"
+      ],
+      "comments": 2,
+      "highlights": 2,
+      "bookmarks": 1,
+      "views": 145,
+      "url": "https://pansci.asia/archives/352847"
+    },
+    {
+      "wp_id": 353695,
+      "title": "可愛的品客蜘蛛！我真的可以這麼叫你嗎？",
+      "author": "李鍾旻",
+      "source_site": "pansci",
+      "published": "2022-08-09T00:00:00",
+      "word_count": 3236,
+      "science_student": true,
+      "categories": [
+        "動物世界",
+        "專欄",
+        "環境生態",
+        "編輯精選"
+      ],
+      "tags": [
+        "品客",
+        "學名",
+        "科學生",
+        "蜘蛛",
+        "黑綠鬼蛛"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 1,
+      "views": 134,
+      "url": "https://pansci.asia/archives/353695"
+    },
+    {
+      "wp_id": 352897,
+      "title": "相輔相成的數學與科學，誰才真的是「科學的起點」？或許，它們都不是最好的答案——《教出科學探究力》",
+      "author": "親子天下",
+      "source_site": "pansci",
+      "published": "2022-08-12T00:00:00",
+      "word_count": 4402,
+      "science_student": true,
+      "categories": [
+        "好書搶先看",
+        "專欄",
+        "數學妙用",
+        "本月選書",
+        "萬物之理"
+      ],
+      "tags": [
+        "孩子",
+        "學生",
+        "教出科學探究力",
+        "教學",
+        "教案",
+        "數學",
+        "數學教育",
+        "科學",
+        "科學家",
+        "科學教育"
+      ],
+      "comments": 2,
+      "highlights": 3,
+      "bookmarks": 1,
+      "views": 93,
+      "url": "https://pansci.asia/archives/352897"
+    },
+    {
+      "wp_id": 355351,
+      "title": "嫦娥月兔都住這？月球上最宜居的角落：永遠 17 度的月球坑",
+      "author": "linjunJR",
+      "source_site": "pansci",
+      "published": "2022-09-09T00:00:00",
+      "word_count": 2867,
+      "science_student": true,
+      "categories": [
+        "太空天文",
+        "專欄",
+        "文明足跡",
+        "編輯精選"
+      ],
+      "tags": [
+        "LRO",
+        "地底隧道",
+        "月球勘測軌道飛行器",
+        "月球移居",
+        "科學生"
+      ],
+      "comments": 0,
+      "highlights": 4,
+      "bookmarks": 0,
+      "views": 105,
+      "url": "https://pansci.asia/archives/355351"
+    },
+    {
+      "wp_id": 355547,
+      "title": "出來單挑啊！同樣都是鼎鼎大名的太空望遠鏡，哈伯與韋伯到底誰比較強？",
+      "author": "htlee",
+      "source_site": "pansci",
+      "published": "2022-09-21T00:00:00",
+      "word_count": 2599,
+      "science_student": true,
+      "categories": [
+        "太空天文",
+        "萬物之理",
+        "透視科學"
+      ],
+      "tags": [
+        "可見光",
+        "史匹哲太空望遠鏡",
+        "哈伯太空望遠鏡",
+        "科學生",
+        "紅外光",
+        "解析度",
+        "韋伯太空望遠鏡"
+      ],
+      "comments": 0,
+      "highlights": 6,
+      "bookmarks": 2,
+      "views": 92,
+      "url": "https://pansci.asia/archives/355547"
+    },
+    {
+      "wp_id": 356046,
+      "title": "燕麥奶為什麼這麼好喝？如牛奶般微甜、絲滑的口感是怎麼來的？——解析燕麥奶的加工原理",
+      "author": "Evelyn 食品技師",
+      "source_site": "pansci",
+      "published": "2022-09-25T00:00:00",
+      "word_count": 4391,
+      "science_student": true,
+      "categories": [
+        "健康養生",
+        "專欄",
+        "活得科學",
+        "編輯精選"
+      ],
+      "tags": [
+        "oat milk",
+        "β-葡聚醣",
+        "加工原理",
+        "植物性飲食",
+        "燕麥奶",
+        "科學生",
+        "酵素水解"
+      ],
+      "comments": 2,
+      "highlights": 3,
+      "bookmarks": 2,
+      "views": 133,
+      "url": "https://pansci.asia/archives/356046"
+    },
+    {
+      "wp_id": 356284,
+      "title": "【2022 年搞笑諾貝爾工程學獎】旋鈕大小與手指數之間的完美關係：轉動音量鈕需要用到幾根手指？",
+      "author": "linjunJR",
+      "source_site": "pansci",
+      "published": "2022-09-29T00:00:00",
+      "word_count": 2097,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "專欄",
+        "科學傳播",
+        "編輯精選"
+      ],
+      "tags": [
+        "工程",
+        "手指",
+        "搞笑諾貝爾獎",
+        "旋鈕",
+        "科學生",
+        "音量"
+      ],
+      "comments": 0,
+      "highlights": 10,
+      "bookmarks": 3,
+      "views": 119,
+      "url": "https://pansci.asia/archives/356284"
+    },
+    {
+      "wp_id": 356825,
+      "title": "康普茶是「健康食品」嗎？便利商店都在賣，明星網紅都在喝，它對人體有什麼好處？",
+      "author": "Evelyn 食品技師",
+      "source_site": "pansci",
+      "published": "2022-10-14T00:00:00",
+      "word_count": 5300,
+      "science_student": true,
+      "categories": [
+        "健康養生",
+        "化學物語",
+        "活得科學",
+        "編輯精選"
+      ],
+      "tags": [
+        "健康食品",
+        "康普茶",
+        "康普茶是什麼",
+        "科學生",
+        "紅茶菌"
+      ],
+      "comments": 1,
+      "highlights": 8,
+      "bookmarks": 4,
+      "views": 158,
+      "url": "https://pansci.asia/archives/356825"
+    },
+    {
+      "wp_id": 357594,
+      "title": "有可能透過節能，提高低碳電力的比例嗎？全球有一個國家做到了",
+      "author": "低碳力LowCarbonPower",
+      "source_site": "pansci",
+      "published": "2022-11-04T00:00:00",
+      "word_count": 3464,
+      "science_student": true,
+      "categories": [
+        "科技能源",
+        "能源動力"
+      ],
+      "tags": [
+        "2050淨零排放",
+        "北韓",
+        "減碳",
+        "科學生",
+        "電力"
+      ],
+      "comments": 0,
+      "highlights": 4,
+      "bookmarks": 2,
+      "views": 69,
+      "url": "https://pansci.asia/archives/357594"
+    },
+    {
+      "wp_id": 358930,
+      "title": "從基隆進港的深海活化石中，意外發現新種具足蟲！——專訪國立臺南大學副教授黃銘志",
+      "author": "Heidi",
+      "source_site": "pansci",
+      "published": "2022-11-29T00:00:00",
+      "word_count": 4932,
+      "science_student": true,
+      "categories": [
+        "科學傳播",
+        "自然生態",
+        "遠古生物",
+        "電影中的科學"
+      ],
+      "tags": [
+        "具足蟲",
+        "分類學",
+        "基因",
+        "基隆",
+        "大王具足蟲",
+        "星際大戰",
+        "活化石",
+        "深水蝨",
+        "物種",
+        "科學生"
+      ],
+      "comments": 0,
+      "highlights": 5,
+      "bookmarks": 2,
+      "views": 123,
+      "url": "https://pansci.asia/archives/358930"
+    },
+    {
+      "wp_id": 359323,
+      "title": "舞池太冷該怎麼炒熱氣氛？DJ 請下點聽不到的低頻 BASS！",
+      "author": "Peggy Sha",
+      "source_site": "pansci",
+      "published": "2022-12-07T00:00:00",
+      "word_count": 2123,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "科學傳播"
+      ],
+      "tags": [
+        "低頻",
+        "前庭系統",
+        "喇叭",
+        "科學生",
+        "音樂",
+        "音響"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 0,
+      "views": 57,
+      "url": "https://pansci.asia/archives/359323"
+    },
+    {
+      "wp_id": 359615,
+      "title": "笑著笑著就開心了？刻意微笑就能變開心的「臉部回饋假說」，有了新發現？",
+      "author": "Bonnie",
+      "source_site": "pansci",
+      "published": "2022-12-16T00:00:00",
+      "word_count": 2661,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "活得科學",
+        "精神心理",
+        "編輯精選"
+      ],
+      "tags": [
+        "微笑",
+        "情緒",
+        "科學生",
+        "臉部回饋假說",
+        "臉部表情"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 0,
+      "views": 100,
+      "url": "https://pansci.asia/archives/359615"
+    },
+    {
+      "wp_id": 360002,
+      "title": "蟻巢營養內循環，螞蟻的蛹不動也能貢獻社會",
+      "author": "寒波",
+      "source_site": "pansci",
+      "published": "2022-12-20T00:00:00",
+      "word_count": 3082,
+      "science_student": true,
+      "categories": [
+        "動物世界",
+        "生命奧祕",
+        "編輯精選"
+      ],
+      "tags": [
+        "E. O. Wilson",
+        "EO威爾森",
+        "Ooceraea biroi",
+        "Solenopsis invicta",
+        "哺乳",
+        "哺乳動物",
+        "孤雌生殖",
+        "完全變態",
+        "工蟻",
+        "幼蟲"
+      ],
+      "comments": 2,
+      "highlights": 133,
+      "bookmarks": 1,
+      "views": 160,
+      "url": "https://pansci.asia/archives/360002"
+    },
+    {
+      "wp_id": 359335,
+      "title": "【科學寶可夢】朱／紫中的骨紋巨聲鱷 ＆ 狂歡浪舞鴨：一個締造火焰新紀錄、一個用腳踢破音速",
+      "author": "Rock Sun",
+      "source_site": "pansci",
+      "published": "2022-12-23T00:00:00",
+      "word_count": 3819,
+      "science_student": true,
+      "categories": [
+        "專欄",
+        "編輯精選",
+        "萬物之理"
+      ],
+      "tags": [
+        "寶可夢",
+        "朱紫",
+        "格鬥",
+        "火焰",
+        "物理",
+        "神奇寶貝",
+        "科學寶可夢",
+        "科學生",
+        "空想",
+        "空想科學"
+      ],
+      "comments": 0,
+      "highlights": 5,
+      "bookmarks": 3,
+      "views": 135,
+      "url": "https://pansci.asia/archives/359335"
+    },
+    {
+      "wp_id": 360273,
+      "title": "油炸的聲音學：水滴在油鍋中的三種爆炸方式",
+      "author": "linjunJR",
+      "source_site": "pansci",
+      "published": "2022-12-28T00:00:00",
+      "word_count": 2991,
+      "science_student": true,
+      "categories": [
+        "專欄",
+        "科學傳播",
+        "編輯精選"
+      ],
+      "tags": [
+        "廚房",
+        "氣泡",
+        "油溫",
+        "油炸",
+        "科學生"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 7,
+      "views": 124,
+      "url": "https://pansci.asia/archives/360273"
+    },
+    {
+      "wp_id": 360284,
+      "title": "柔軟的導電革命：前所未見的無序高分子導體",
+      "author": "linjunJR",
+      "source_site": "pansci",
+      "published": "2022-12-30T00:00:00",
+      "word_count": 2510,
+      "science_student": true,
+      "categories": [
+        "專欄",
+        "科技能源"
+      ],
+      "tags": [
+        "NiTTFtt",
+        "合成材料",
+        "塑膠",
+        "導電",
+        "導電塑膠",
+        "導電革命",
+        "導體",
+        "無序高分子",
+        "無序高分子導體",
+        "硫原子"
+      ],
+      "comments": 0,
+      "highlights": 4,
+      "bookmarks": 2,
+      "views": 59,
+      "url": "https://pansci.asia/archives/360284"
+    },
+    {
+      "wp_id": 360428,
+      "title": "物理學家說，公車的窗戶開這幾扇才通風",
+      "author": "胡中行",
+      "source_site": "pansci",
+      "published": "2023-01-09T00:00:00",
+      "word_count": 2207,
+      "science_student": true,
+      "categories": [
+        "專欄",
+        "活得科學"
+      ],
+      "tags": [
+        "COVID-19",
+        "公車",
+        "巴士",
+        "氣流",
+        "氣膠",
+        "氣膠傳染",
+        "科學生",
+        "空氣品質",
+        "通風",
+        "防疫"
+      ],
+      "comments": 2,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 90,
+      "url": "https://pansci.asia/archives/360428"
+    },
+    {
+      "wp_id": 360164,
+      "title": "環境 DNA 猛?象現蹤，化石消失幾千年後才真正滅團？",
+      "author": "寒波",
+      "source_site": "pansci",
+      "published": "2023-01-13T00:00:00",
+      "word_count": 4425,
+      "science_student": true,
+      "categories": [
+        "動物世界",
+        "化學物語",
+        "文明足跡",
+        "植物王國",
+        "環境生態",
+        "自然生態",
+        "護生保育",
+        "遠古生物"
+      ],
+      "tags": [
+        "Eske Willerslev",
+        "Hendrik Poinar",
+        "Mammuthus primigenius",
+        "woolly mammoth",
+        "乳齒象",
+        "冰河時期",
+        "加拿大",
+        "化石",
+        "北冰洋",
+        "古代DNA"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 95,
+      "url": "https://pansci.asia/archives/360164"
+    },
+    {
+      "wp_id": 360609,
+      "title": "鱸魚精有抗疲勞的健康食品認證！累了可以依靠它嗎？自己在家也可以做嗎？",
+      "author": "Evelyn 食品技師",
+      "source_site": "pansci",
+      "published": "2023-01-18T00:00:00",
+      "word_count": 4060,
+      "science_student": true,
+      "categories": [
+        "健康養生",
+        "動物世界",
+        "化學物語",
+        "活得科學"
+      ],
+      "tags": [
+        "科學生",
+        "胺基酸",
+        "雞精",
+        "魚精",
+        "鱸魚",
+        "鱸魚精"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 0,
+      "views": 70,
+      "url": "https://pansci.asia/archives/360609"
+    },
+    {
+      "wp_id": 361200,
+      "title": "臺灣發展地熱發電到底可不可行？（上）",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-01-29T00:00:00",
+      "word_count": 4492,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "科技能源",
+        "能源動力"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "地熱",
+        "泛科學 YouTube 頻道",
+        "淨零排放",
+        "發電",
+        "科學生"
+      ],
+      "comments": 1,
+      "highlights": 2,
+      "bookmarks": 2,
+      "views": 78,
+      "url": "https://pansci.asia/archives/361200"
+    },
+    {
+      "wp_id": 361870,
+      "title": "壓力，讓綿羊更親密",
+      "author": "胡中行",
+      "source_site": "pansci",
+      "published": "2023-02-23T00:00:00",
+      "word_count": 2369,
+      "science_student": true,
+      "categories": [
+        "動物世界",
+        "專欄",
+        "精神心理"
+      ],
+      "tags": [
+        "即時動態",
+        "壓力",
+        "抗壓性",
+        "澳大利亞",
+        "澳洲",
+        "皮質醇",
+        "科學生",
+        "綿羊",
+        "美麗諾綿羊",
+        "衛星定位"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 3,
+      "views": 71,
+      "url": "https://pansci.asia/archives/361870"
+    },
+    {
+      "wp_id": 361665,
+      "title": "近在眼前的數位娛樂——智慧眼鏡的進化",
+      "author": "鳥?三磷酸 (PanSci Promo)",
+      "source_site": "pansci",
+      "published": "2023-02-23T00:00:00",
+      "word_count": 4151,
+      "science_student": true,
+      "categories": [
+        "Promo",
+        "好物推薦",
+        "活得科學",
+        "電腦資訊"
+      ],
+      "tags": [
+        "AR",
+        "Epson",
+        "VR",
+        "元宇宙",
+        "投影",
+        "數位",
+        "智慧眼鏡",
+        "次視代智慧眼鏡Moverio BT-40",
+        "科學生",
+        "虛擬實境"
+      ],
+      "comments": 0,
+      "highlights": 4,
+      "bookmarks": 2,
+      "views": 86,
+      "url": "https://pansci.asia/archives/361665"
+    },
+    {
+      "wp_id": 362193,
+      "title": "世上最貴的藥——血友病基因療法",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-02-25T00:00:00",
+      "word_count": 4086,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "來自 YT",
+        "醫療健康"
+      ],
+      "tags": [
+        "Hemgenix",
+        "PanSci泛科學",
+        "YouTube",
+        "凝血",
+        "凝血反應",
+        "凝血?",
+        "基因療法",
+        "泛科學 YouTube 頻道",
+        "科學生",
+        "藥物"
+      ],
+      "comments": 2,
+      "highlights": 2,
+      "bookmarks": 2,
+      "views": 74,
+      "url": "https://pansci.asia/archives/362193"
+    },
+    {
+      "wp_id": 362206,
+      "title": "越南車廠將撼動特斯拉電動車地位！？誰能在電池戰中獲勝？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-02-26T00:00:00",
+      "word_count": 3535,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "科技能源",
+        "能源動力",
+        "萬物之理"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "泛科學 YouTube 頻道",
+        "科學生",
+        "鋰離子",
+        "鋰離子電池",
+        "電動車",
+        "電池"
+      ],
+      "comments": 0,
+      "highlights": 4,
+      "bookmarks": 1,
+      "views": 71,
+      "url": "https://pansci.asia/archives/362206"
+    },
+    {
+      "wp_id": 362266,
+      "title": "活體犧牲不再？讓蚊子吸食水凝膠去吧！",
+      "author": "胡中行",
+      "source_site": "pansci",
+      "published": "2023-03-02T00:00:00",
+      "word_count": 3198,
+      "science_student": true,
+      "categories": [
+        "動物世界",
+        "專欄",
+        "醫療健康"
+      ],
+      "tags": [
+        "3D列印",
+        "埃及斑蚊",
+        "水凝膠",
+        "病媒蚊",
+        "科學生",
+        "脫纖血",
+        "蚊子",
+        "血液"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 1,
+      "views": 65,
+      "url": "https://pansci.asia/archives/362266"
+    },
+    {
+      "wp_id": 361938,
+      "title": "記憶是陣陣花香，玫瑰令人字字難忘",
+      "author": "胡中行",
+      "source_site": "pansci",
+      "published": "2023-03-06T00:00:00",
+      "word_count": 2196,
+      "science_student": true,
+      "categories": [
+        "專欄",
+        "精神心理",
+        "編輯精選"
+      ],
+      "tags": [
+        "標的記憶再活化",
+        "氣味",
+        "玫瑰",
+        "科學生",
+        "記憶",
+        "記憶力",
+        "香氛",
+        "香氣"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 3,
+      "views": 64,
+      "url": "https://pansci.asia/archives/361938"
+    },
+    {
+      "wp_id": 362660,
+      "title": "快充怎麼做到又小又快？ 半導體材料氮化鎵，突破工作頻率極限",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-03-11T00:00:00",
+      "word_count": 3522,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "活得科學",
+        "科技能源",
+        "萬物之理"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "充電",
+        "充電器",
+        "功率",
+        "半導體",
+        "快充",
+        "材料",
+        "氮化鎵",
+        "泛科學 YouTube 頻道"
+      ],
+      "comments": 0,
+      "highlights": 4,
+      "bookmarks": 1,
+      "views": 75,
+      "url": "https://pansci.asia/archives/362660"
+    },
+    {
+      "wp_id": 362879,
+      "title": "聖派翠克節創意食譜：用紫甘藍汁，染出綠煎蛋",
+      "author": "胡中行",
+      "source_site": "pansci",
+      "published": "2023-03-23T00:00:00",
+      "word_count": 2817,
+      "science_student": true,
+      "categories": [
+        "專欄"
+      ],
+      "tags": [
+        "pH值",
+        "多酚氧化酵素",
+        "多酚氧化?",
+        "科學生",
+        "紫甘藍",
+        "紫高麗菜",
+        "花青素",
+        "酸鹼值",
+        "雞蛋",
+        "食品科學"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 1,
+      "views": 44,
+      "url": "https://pansci.asia/archives/362879"
+    },
+    {
+      "wp_id": 363266,
+      "title": "核二退場，核廢料還要放 20 年！又該何去何從？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-03-28T00:00:00",
+      "word_count": 3360,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "環境生態",
+        "能源動力"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "乾式儲存場",
+        "最終處置場",
+        "核二",
+        "核廢料",
+        "泛科學 YouTube 頻道",
+        "科學生",
+        "第四代核反應爐",
+        "高階核廢料"
+      ],
+      "comments": 2,
+      "highlights": 3,
+      "bookmarks": 1,
+      "views": 75,
+      "url": "https://pansci.asia/archives/363266"
+    },
+    {
+      "wp_id": 363748,
+      "title": "植物口渴就喊：「啵、啵、啵～」",
+      "author": "胡中行",
+      "source_site": "pansci",
+      "published": "2023-04-06T00:00:00",
+      "word_count": 3505,
+      "science_student": true,
+      "categories": [
+        "專欄",
+        "植物王國"
+      ],
+      "tags": [
+        "乾旱",
+        "植物",
+        "機器學習",
+        "氣候變遷",
+        "氣孔導度",
+        "番茄",
+        "科學生",
+        "空蝕現象",
+        "糧食危機",
+        "聲音"
+      ],
+      "comments": 0,
+      "highlights": 5,
+      "bookmarks": 1,
+      "views": 74,
+      "url": "https://pansci.asia/archives/363748"
+    },
+    {
+      "wp_id": 364605,
+      "title": "航空公司的機票定價策略是什麼？轉機航線更長為什麼反而更便宜？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-05-06T00:00:00",
+      "word_count": 3539,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "活得科學"
+      ],
+      "tags": [
+        "hub and spoke",
+        "PanSci泛科學",
+        "YouTube",
+        "機票",
+        "機票價錢",
+        "泛科學 YouTube 頻道",
+        "航空公司",
+        "航線",
+        "轉機",
+        "飛機"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 1,
+      "views": 60,
+      "url": "https://pansci.asia/archives/364605"
+    },
+    {
+      "wp_id": 364807,
+      "title": "Starship 試射雖敗猶榮？萬眾矚目的星艦還有哪些新設計？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-05-07T00:00:00",
+      "word_count": 3695,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "太空天文",
+        "活得科學"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "SpaceX",
+        "Starship",
+        "YouTube",
+        "太空",
+        "星艦",
+        "泛科學 YouTube 頻道",
+        "火箭",
+        "獵鷹九號"
+      ],
+      "comments": 1,
+      "highlights": 2,
+      "bookmarks": 0,
+      "views": 74,
+      "url": "https://pansci.asia/archives/364807"
+    },
+    {
+      "wp_id": 365002,
+      "title": "激盪全民對科普的想像！Open Call 成果展 5 月 26 日盛大登場",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-05-10T00:00:00",
+      "word_count": 2149,
+      "science_student": false,
+      "categories": [
+        "專欄",
+        "活動",
+        "科快訊"
+      ],
+      "tags": [
+        "創意松",
+        "國科會",
+        "大專院校",
+        "科普",
+        "科普傳播",
+        "科普教育",
+        "高中職"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 40,
+      "url": "https://pansci.asia/archives/365002"
+    },
+    {
+      "wp_id": 365005,
+      "title": "攸關人命的重大刑案，國民法官該怎麼判？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-05-11T00:00:00",
+      "word_count": 3149,
+      "science_student": false,
+      "categories": [
+        "專欄"
+      ],
+      "tags": [
+        "參審制",
+        "國民法官",
+        "國民法官法",
+        "心證",
+        "法律感情"
+      ],
+      "comments": 2,
+      "highlights": 4,
+      "bookmarks": 1,
+      "views": 55,
+      "url": "https://pansci.asia/archives/365005"
+    },
+    {
+      "wp_id": 365016,
+      "title": "判決會受偏見影響嗎？司法心理學中的「確認偏誤」",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-05-16T00:00:00",
+      "word_count": 2334,
+      "science_student": false,
+      "categories": [
+        "專欄"
+      ],
+      "tags": [
+        "國民法官",
+        "國民法官法",
+        "確認偏誤"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 0,
+      "views": 52,
+      "url": "https://pansci.asia/archives/365016"
+    },
+    {
+      "wp_id": 366159,
+      "title": "Open Call 頒獎典禮暨科普成果展 精彩落幕",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-05-26T00:00:00",
+      "word_count": 2353,
+      "science_student": false,
+      "categories": [
+        "專欄",
+        "文明足跡",
+        "社會群體",
+        "科學傳播",
+        "醫療健康",
+        "電腦資訊"
+      ],
+      "tags": [
+        "Open Call",
+        "比賽",
+        "科普成果展"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 0,
+      "views": 49,
+      "url": "https://pansci.asia/archives/366159"
+    },
+    {
+      "wp_id": 366027,
+      "title": "人造腦挑戰 AI！培養皿中的腦組織＋腦機介面能打敗電腦嗎？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-05-27T00:00:00",
+      "word_count": 4115,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "科技能源",
+        "透視科學",
+        "電腦資訊"
+      ],
+      "tags": [
+        "AI",
+        "OI",
+        "Organoid intelligence",
+        "PanSci泛科學",
+        "YouTube",
+        "人工智慧",
+        "大腦",
+        "泛科學 YouTube 頻道",
+        "神經",
+        "類器官智慧"
+      ],
+      "comments": 0,
+      "highlights": 5,
+      "bookmarks": 1,
+      "views": 77,
+      "url": "https://pansci.asia/archives/366027"
+    },
+    {
+      "wp_id": 366036,
+      "title": "科學實證「心情不佳真的會造成消化、皮膚發炎、心血管健康問題」，但為什麼？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-05-28T00:00:00",
+      "word_count": 4221,
+      "science_student": false,
+      "categories": [
+        "人體解析",
+        "來自 YT",
+        "活得科學",
+        "醫療健康"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "免疫系統",
+        "壓力",
+        "安慰劑效應",
+        "心情",
+        "泛科學 YouTube 頻道",
+        "身心"
+      ],
+      "comments": 2,
+      "highlights": 12,
+      "bookmarks": 3,
+      "views": 79,
+      "url": "https://pansci.asia/archives/366036"
+    },
+    {
+      "wp_id": 366276,
+      "title": "最安全的核電廠？小型核電廠 SMR 用發電量換安全性，遇到停電也不怕？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-06-03T00:00:00",
+      "word_count": 3553,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "科學傳播",
+        "科技能源",
+        "透視科學"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "Small Modular Reactor",
+        "smr",
+        "YouTube",
+        "小型核電廠",
+        "核能",
+        "核電廠",
+        "泛科學 YouTube 頻道",
+        "發電",
+        "科學生"
+      ],
+      "comments": 1,
+      "highlights": 2,
+      "bookmarks": 2,
+      "views": 87,
+      "url": "https://pansci.asia/archives/366276"
+    },
+    {
+      "wp_id": 366278,
+      "title": "最新自行車帽設計 MIPS，抵抗側向與旋轉碰撞是怎麼回事？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-06-04T00:00:00",
+      "word_count": 2525,
+      "science_student": false,
+      "categories": [
+        "人體解析",
+        "來自 YT",
+        "活得科學"
+      ],
+      "tags": [
+        "MIPS",
+        "PanSci泛科學",
+        "UCDBTM",
+        "YouTube",
+        "安全帽",
+        "泛科學 YouTube 頻道",
+        "腳踏車",
+        "自行車",
+        "自行車安全帽"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 0,
+      "views": 43,
+      "url": "https://pansci.asia/archives/366278"
+    },
+    {
+      "wp_id": 367111,
+      "title": "擺脫缺水危機：四面環海的台灣，有可能好好利用我們身邊的海水嗎？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-06-24T00:00:00",
+      "word_count": 4708,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "科技能源"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "加熱蒸餾法",
+        "水資源",
+        "泛科學 YouTube 頻道",
+        "海水淡化",
+        "逆滲透"
+      ],
+      "comments": 1,
+      "highlights": 3,
+      "bookmarks": 2,
+      "views": 65,
+      "url": "https://pansci.asia/archives/367111"
+    },
+    {
+      "wp_id": 367145,
+      "title": "時空旅行有可能嗎？我們如何感受時間？談談那些神秘的時空理論！",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-06-25T00:00:00",
+      "word_count": 4823,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "太空天文",
+        "萬物之理"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "三支箭矢",
+        "愛因斯坦羅森橋",
+        "時空旅人",
+        "時間旅行",
+        "泛科學 YouTube 頻道",
+        "蟲洞",
+        "量子漲落",
+        "霍金"
+      ],
+      "comments": 1,
+      "highlights": 4,
+      "bookmarks": 2,
+      "views": 67,
+      "url": "https://pansci.asia/archives/367145"
+    },
+    {
+      "wp_id": 367417,
+      "title": "從科學角度剖析能源政策的背後：既然核廢料沒地方去，有沒有別的方法可以處理？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-07-08T00:00:00",
+      "word_count": 3449,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "社會群體"
+      ],
+      "tags": [
+        "加速器驅動次臨界反應爐",
+        "太空處置法",
+        "核廢料",
+        "核能",
+        "核轉換",
+        "深層地質處置法",
+        "用過燃料棒",
+        "隱沒帶處置法"
+      ],
+      "comments": 0,
+      "highlights": 6,
+      "bookmarks": 4,
+      "views": 45,
+      "url": "https://pansci.asia/archives/367417"
+    },
+    {
+      "wp_id": 367408,
+      "title": "從科學角度剖析能源政策的背後：核電延役真正的問題是什麼？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-07-09T00:00:00",
+      "word_count": 4740,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "科技能源"
+      ],
+      "tags": [
+        "乾式貯存",
+        "乾式貯存場",
+        "最終處置場",
+        "核廢料",
+        "核能",
+        "核電延役",
+        "用過燃料棒"
+      ],
+      "comments": 2,
+      "highlights": 6,
+      "bookmarks": 1,
+      "views": 44,
+      "url": "https://pansci.asia/archives/367408"
+    },
+    {
+      "wp_id": 367588,
+      "title": "讓摩爾定律又向前邁進的新技術！3D 先進封裝是什麼？又有哪些優勢和挑戰？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-07-15T00:00:00",
+      "word_count": 4312,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "科技能源",
+        "電腦資訊"
+      ],
+      "tags": [
+        "3D 先進封裝",
+        "半導體",
+        "封裝",
+        "晶片"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 2,
+      "views": 71,
+      "url": "https://pansci.asia/archives/367588"
+    },
+    {
+      "wp_id": 367576,
+      "title": "巴比妥是什麼？為何會讓神經安靜下來？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-07-16T00:00:00",
+      "word_count": 5189,
+      "science_student": false,
+      "categories": [
+        "人體解析",
+        "來自 YT",
+        "醫療健康"
+      ],
+      "tags": [
+        "安眠藥",
+        "巴比妥",
+        "癲癇",
+        "管制藥品",
+        "苯巴比妥",
+        "鎮靜劑"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 1,
+      "views": 61,
+      "url": "https://pansci.asia/archives/367576"
+    },
+    {
+      "wp_id": 368401,
+      "title": "太空種電？不受天氣影響的發電廠登場，人類將迎來能源自由？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-08-12T00:00:00",
+      "word_count": 5417,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "太空天文",
+        "科技能源",
+        "能源動力"
+      ],
+      "tags": [
+        "JAXA",
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "太空",
+        "太空太陽能發電",
+        "太陽能",
+        "太陽能發電",
+        "宇宙",
+        "泛科學 YouTube 頻道"
+      ],
+      "comments": 0,
+      "highlights": 15,
+      "bookmarks": 8,
+      "views": 17,
+      "url": "https://pansci.asia/archives/368401"
+    },
+    {
+      "wp_id": 368980,
+      "title": "如果 LK-99 不是室溫超導體，有研究價值嗎？超導現象到底是什麼？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-08-13T00:00:00",
+      "word_count": 6574,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "科技能源",
+        "萬物之理"
+      ],
+      "tags": [
+        "LK-99",
+        "PanSci泛科學",
+        "來自YT",
+        "室溫超導體",
+        "拓樸超導體",
+        "泛科學 YouTube 頻道",
+        "超導現象"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 3,
+      "views": 19,
+      "url": "https://pansci.asia/archives/368980"
+    },
+    {
+      "wp_id": 368275,
+      "title": "阿茲海默症靠吃藥效果有限？關鍵基因找到了！",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-08-13T00:00:00",
+      "word_count": 5951,
+      "science_student": false,
+      "categories": [
+        "人體解析",
+        "來自 YT",
+        "專欄",
+        "醫療健康"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "tau 蛋白",
+        "YouTube",
+        "來自YT",
+        "內嗅皮質",
+        "基因",
+        "家族性阿茲海默症",
+        "泛科學 YouTube 頻道",
+        "阿茲海默症",
+        "類澱粉蛋白"
+      ],
+      "comments": 1,
+      "highlights": 8,
+      "bookmarks": 3,
+      "views": 14,
+      "url": "https://pansci.asia/archives/368275"
+    },
+    {
+      "wp_id": 371927,
+      "title": "廣電媒體專業素養培訓課程將於 8 月開跑！歡迎報名共同打造美好的閱聽環境",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-08-15T00:00:00",
+      "word_count": 1093,
+      "science_student": false,
+      "categories": [
+        "社會群體",
+        "科學傳播"
+      ],
+      "tags": [
+        "NCC",
+        "媒體素養",
+        "廣播",
+        "廣電"
+      ],
+      "comments": 0,
+      "highlights": 0,
+      "bookmarks": 0,
+      "views": 4,
+      "url": "https://pansci.asia/archives/371927"
+    },
+    {
+      "wp_id": 368496,
+      "title": "人死前最後一刻會看到什麼？人生走馬燈真的存在嗎？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-08-21T00:00:00",
+      "word_count": 6301,
+      "science_student": false,
+      "categories": [
+        "人體解析",
+        "來自 YT"
+      ],
+      "tags": [
+        "YouTube",
+        "人生跑馬燈",
+        "來自YT",
+        "慢動作效應",
+        "死前經驗",
+        "泛科學 YouTube 頻道",
+        "瀕死",
+        "瀕死經驗",
+        "腦波"
+      ],
+      "comments": 0,
+      "highlights": 7,
+      "bookmarks": 2,
+      "views": 15,
+      "url": "https://pansci.asia/archives/368496"
+    },
+    {
+      "wp_id": 368517,
+      "title": "你被帶風向了嗎？媒體如何塑造「框架」陷阱？我們有方法可以逃離嗎？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-08-22T00:00:00",
+      "word_count": 5175,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "精神心理"
+      ],
+      "tags": [
+        "YouTube",
+        "來自YT",
+        "媒體",
+        "媒體識讀",
+        "框架效應",
+        "泛科學 YouTube 頻道",
+        "認知偏誤",
+        "錨定效應"
+      ],
+      "comments": 2,
+      "highlights": 4,
+      "bookmarks": 1,
+      "views": 2,
+      "url": "https://pansci.asia/archives/368517"
+    },
+    {
+      "wp_id": 368954,
+      "title": "看見蟑螂就害怕？為什麼我們總特別怕牠？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-08-26T00:00:00",
+      "word_count": 4830,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "動物世界",
+        "精神心理"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "來自YT",
+        "小強",
+        "恐懼",
+        "昆蟲",
+        "泛科學 YouTube 頻道",
+        "演化心理學",
+        "蟑螂"
+      ],
+      "comments": 1,
+      "highlights": 7,
+      "bookmarks": 3,
+      "views": 19,
+      "url": "https://pansci.asia/archives/368954"
+    },
+    {
+      "wp_id": 372045,
+      "title": "臺北首站舉辦 112 年度廣電媒體專業素養培訓課程，攜手媒體打造優質媒體閱聽環境",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-08-27T00:00:00",
+      "word_count": 1105,
+      "science_student": false,
+      "categories": [
+        "活動",
+        "科學傳播",
+        "科快訊"
+      ],
+      "tags": [
+        "媒體",
+        "廣播",
+        "廣電",
+        "廣電媒體專業素養",
+        "廣電媒體專業素養培訓課程",
+        "活動",
+        "電視"
+      ],
+      "comments": 0,
+      "highlights": 0,
+      "bookmarks": 0,
+      "views": 12,
+      "url": "https://pansci.asia/archives/372045"
+    },
+    {
+      "wp_id": 368657,
+      "title": "做一顆原子彈有多困難？《奧本海默》背後的細節！原子彈究竟是文明之火，還是毀滅之火？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-08-27T00:00:00",
+      "word_count": 7169,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "科技能源",
+        "電影中的科學"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "原子彈",
+        "奧本海默",
+        "曼哈頓計畫",
+        "核反應",
+        "核武器",
+        "泛科學 YouTube 頻道",
+        "諾蘭"
+      ],
+      "comments": 3,
+      "highlights": 7,
+      "bookmarks": 2,
+      "views": 26,
+      "url": "https://pansci.asia/archives/368657"
+    },
+    {
+      "wp_id": 369136,
+      "title": "從號誌開始還路於民：增設行人專用時相真的能保護行人嗎？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-09-02T00:00:00",
+      "word_count": 4348,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "活得科學",
+        "社會群體"
+      ],
+      "tags": [
+        "PanSci",
+        "交通",
+        "交通號誌",
+        "來自YT",
+        "泛科學 YouTube 頻道",
+        "紅綠燈",
+        "行人"
+      ],
+      "comments": 1,
+      "highlights": 3,
+      "bookmarks": 1,
+      "views": 7,
+      "url": "https://pansci.asia/archives/369136"
+    },
+    {
+      "wp_id": 369087,
+      "title": "韋伯太空望遠鏡運作滿週年，它看到了什麼？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-09-02T00:00:00",
+      "word_count": 4131,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "太空天文",
+        "萬物之理"
+      ],
+      "tags": [
+        "JWST",
+        "PanSci泛科學",
+        "SPT0418-47",
+        "TEMPLATES",
+        "來自YT",
+        "多環芳香烴",
+        "愛因斯坦環",
+        "泛科學 YouTube 頻道",
+        "重力透鏡",
+        "重力透鏡效應"
+      ],
+      "comments": 0,
+      "highlights": 7,
+      "bookmarks": 0,
+      "views": 18,
+      "url": "https://pansci.asia/archives/369087"
+    },
+    {
+      "wp_id": 368691,
+      "title": "對腫瘤最終兵器！癌症療法新選擇，基改溶瘤病毒為何備受期待？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-09-04T00:00:00",
+      "word_count": 6728,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "科學生",
+        "醫療健康"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "泛科學 YouTube 頻道",
+        "溶瘤病毒",
+        "病毒",
+        "癌症",
+        "癌細胞",
+        "科學生",
+        "腫瘤"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 2,
+      "views": 15,
+      "url": "https://pansci.asia/archives/368691"
+    },
+    {
+      "wp_id": 369138,
+      "title": "阿斯巴甜真的致癌嗎？代糖為何能超甜又零熱量？它是如何騙過舌頭產生甜味的？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-09-05T00:00:00",
+      "word_count": 5301,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "活得科學",
+        "食品科學"
+      ],
+      "tags": [
+        "PanSci",
+        "代糖",
+        "來自YT",
+        "味覺",
+        "木醣醇",
+        "泛科學 YouTube 頻道",
+        "甜味劑",
+        "致癌",
+        "阿斯巴甜"
+      ],
+      "comments": 0,
+      "highlights": 4,
+      "bookmarks": 3,
+      "views": 16,
+      "url": "https://pansci.asia/archives/369138"
+    },
+    {
+      "wp_id": 369393,
+      "title": "忠泰美術館新展《未來的生命，未來的你─數位、機器與賽博格》9/9 登場",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-09-08T00:00:00",
+      "word_count": 13536,
+      "science_student": false,
+      "categories": [
+        "社會群體",
+        "科技能源"
+      ],
+      "tags": [
+        "展覽",
+        "忠泰美術館",
+        "數位",
+        "機器",
+        "賽博格"
+      ],
+      "comments": 0,
+      "highlights": 0,
+      "bookmarks": 1,
+      "views": 8,
+      "url": "https://pansci.asia/archives/369393"
+    },
+    {
+      "wp_id": 369307,
+      "title": "做壞事會下地獄？地獄信仰跟降低犯罪率有關嗎？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-09-11T00:00:00",
+      "word_count": 5600,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "社會群體"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "來自YT",
+        "信仰本能",
+        "地獄",
+        "威脅",
+        "宗教",
+        "民間信仰",
+        "泛科學 YouTube 頻道",
+        "犯罪"
+      ],
+      "comments": 1,
+      "highlights": 9,
+      "bookmarks": 0,
+      "views": 18,
+      "url": "https://pansci.asia/archives/369307"
+    },
+    {
+      "wp_id": 369303,
+      "title": "說好的颱風呢？！氣象預報不準？要準確預測天氣有多難？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-09-12T00:00:00",
+      "word_count": 5440,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "活得科學",
+        "電腦資訊"
+      ],
+      "tags": [
+        "2021年諾貝爾物理學獎",
+        "PanSci泛科學",
+        "來自YT",
+        "地表模型",
+        "天氣",
+        "天氣預報",
+        "氣候",
+        "氣候模型",
+        "氣象",
+        "氣象模擬"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 1,
+      "views": 35,
+      "url": "https://pansci.asia/archives/369303"
+    },
+    {
+      "wp_id": 369702,
+      "title": "【2023 年搞笑諾貝爾獎快訊】10 項怪奇獲獎研究出爐",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-09-15T00:00:00",
+      "word_count": 4607,
+      "science_student": false,
+      "categories": [
+        "專欄",
+        "科快訊",
+        "編輯精選"
+      ],
+      "tags": [
+        "Necrorobotics",
+        "化石",
+        "味覺",
+        "搞笑諾貝爾獎",
+        "機器",
+        "海流",
+        "猶昧感",
+        "群聚效應",
+        "肛門"
+      ],
+      "comments": 2,
+      "highlights": 13,
+      "bookmarks": 4,
+      "views": 173,
+      "url": "https://pansci.asia/archives/369702"
+    },
+    {
+      "wp_id": 369781,
+      "title": "今夏登革熱來勢洶洶，該怎麼防治？有疫苗嗎？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-09-21T00:00:00",
+      "word_count": 3379,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "動物世界",
+        "醫療健康"
+      ],
+      "tags": [
+        "ADE效應",
+        "Dengvaxia",
+        "PanSci泛科學",
+        "TAK-003",
+        "YouTube",
+        "來自YT",
+        "泛科學 YouTube 頻道",
+        "病媒蚊",
+        "登革熱",
+        "登革熱疫苗"
+      ],
+      "comments": 0,
+      "highlights": 4,
+      "bookmarks": 2,
+      "views": 18,
+      "url": "https://pansci.asia/archives/369781"
+    },
+    {
+      "wp_id": 369753,
+      "title": "記錄台灣早期山林樣貌的博物學者——鹿野忠雄",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-09-21T00:00:00",
+      "word_count": 3348,
+      "science_student": false,
+      "categories": [
+        "人物傳記",
+        "來自 YT",
+        "地方文史",
+        "專欄",
+        "植物王國",
+        "自然生態"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "博物學家",
+        "台灣",
+        "台灣原住民",
+        "台灣早期科學家",
+        "山、雲與蕃人",
+        "泛科學 YouTube 頻道",
+        "田野調查"
+      ],
+      "comments": 0,
+      "highlights": 0,
+      "bookmarks": 0,
+      "views": 15,
+      "url": "https://pansci.asia/archives/369753"
+    },
+    {
+      "wp_id": 370101,
+      "title": "舌頭、石頭，迸出新滋味？科學家為什麼要舔石頭？——2023 搞笑諾貝爾獎",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-09-30T00:00:00",
+      "word_count": 4712,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "科學生",
+        "自然生態",
+        "萬物之理"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "反射",
+        "地質學家",
+        "岩石",
+        "折射",
+        "拋光",
+        "搞笑諾貝爾",
+        "搞笑諾貝爾奬"
+      ],
+      "comments": 1,
+      "highlights": 4,
+      "bookmarks": 2,
+      "views": 37,
+      "url": "https://pansci.asia/archives/370101"
+    },
+    {
+      "wp_id": 370177,
+      "title": "福島核污水是什麼？我們還能安心吃海鮮嗎？核污水全解析！",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-10-01T00:00:00",
+      "word_count": 5836,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "環境生態",
+        "科技能源"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "日本",
+        "核廢料",
+        "核污水",
+        "核能",
+        "核電廠",
+        "污染",
+        "泛科學 YouTube 頻道"
+      ],
+      "comments": 1,
+      "highlights": 3,
+      "bookmarks": 2,
+      "views": 42,
+      "url": "https://pansci.asia/archives/370177"
+    },
+    {
+      "wp_id": 371976,
+      "title": "NCC 邀請全民躍升「媒體識讀達人」 為廣電媒體生態注入新量能",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-10-16T00:00:00",
+      "word_count": 849,
+      "science_student": false,
+      "categories": [
+        "專欄"
+      ],
+      "tags": [
+        "公民培力",
+        "媒體識讀",
+        "廣電",
+        "廣電媒體專業素養",
+        "廣電媒體專業素養培訓課程"
+      ],
+      "comments": 0,
+      "highlights": 0,
+      "bookmarks": 0,
+      "views": 5,
+      "url": "https://pansci.asia/archives/371976"
+    },
+    {
+      "wp_id": 370711,
+      "title": "大直公寓陷落！連續壁能保護工地，為什麼會造成外側房屋坍塌？在軟弱地盤上蓋房子可行嗎？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-10-21T00:00:00",
+      "word_count": 6460,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "活得科學",
+        "環境生態",
+        "科學生"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "來自YT",
+        "倒塌",
+        "剪力強度",
+        "土壤壓實",
+        "土壤液化",
+        "地盤改良",
+        "地質",
+        "地質安全",
+        "大直民宅"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 18,
+      "url": "https://pansci.asia/archives/370711"
+    },
+    {
+      "wp_id": 373387,
+      "title": "112 年度廣電媒體專業素養培訓課程完成全台巡迴，共創優質媒體閱聽環境",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-10-30T00:00:00",
+      "word_count": 1157,
+      "science_student": false,
+      "categories": [
+        "活動紀實",
+        "科快訊"
+      ],
+      "tags": [
+        "NCC",
+        "媒體素養",
+        "廣電",
+        "廣電媒體專業素養",
+        "廣電媒體專業素養培訓課程"
+      ],
+      "comments": 0,
+      "highlights": 0,
+      "bookmarks": 0,
+      "views": 1,
+      "url": "https://pansci.asia/archives/373387"
+    },
+    {
+      "wp_id": 371116,
+      "title": "離岸風機建設又貴又麻煩，蓋的好處是什麼？又會對環境造成什麼影響？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-11-04T00:00:00",
+      "word_count": 6724,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "科學生",
+        "科技能源",
+        "能源動力"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "來自YT",
+        "泛科學 YouTube 頻道",
+        "海上風機",
+        "科學生",
+        "綠能發電",
+        "離岸風力",
+        "離岸風力發電",
+        "離岸風機",
+        "風力發電"
+      ],
+      "comments": 1,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 29,
+      "url": "https://pansci.asia/archives/371116"
+    },
+    {
+      "wp_id": 371366,
+      "title": "【2023 諾貝爾生理醫學獎】mRNA 疫苗背後的辛酸血淚，為何 mRNA 研究不受待見？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-11-05T00:00:00",
+      "word_count": 6146,
+      "science_student": false,
+      "categories": [
+        "人物傳記",
+        "來自 YT",
+        "醫療健康"
+      ],
+      "tags": [
+        "2023諾貝爾生理醫學獎",
+        "mRNA",
+        "mRNA疫苗",
+        "PanSci泛科學",
+        "來自YT",
+        "卡塔琳・卡里科",
+        "德魯・韋斯曼",
+        "泛科學 YouTube 頻道"
+      ],
+      "comments": 2,
+      "highlights": 3,
+      "bookmarks": 2,
+      "views": 39,
+      "url": "https://pansci.asia/archives/371366"
+    },
+    {
+      "wp_id": 371986,
+      "title": "廣電媒體專業素養培訓課程好評再加開！歡迎報名臺北加開場，共同打造美好的閱聽環境！",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-11-10T00:00:00",
+      "word_count": 1197,
+      "science_student": false,
+      "categories": [
+        "活動",
+        "社會群體",
+        "科學傳播",
+        "科快訊"
+      ],
+      "tags": [
+        "NCC",
+        "媒體",
+        "廣播",
+        "廣電媒體專業素養培訓課程",
+        "活動",
+        "電視"
+      ],
+      "comments": 0,
+      "highlights": 0,
+      "bookmarks": 0,
+      "views": 5,
+      "url": "https://pansci.asia/archives/371986"
+    },
+    {
+      "wp_id": 371464,
+      "title": "印度登陸月球熱門探測點——月球南極！那裡藏著什麼？為什麼各國爭先恐後？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-11-11T00:00:00",
+      "word_count": 5223,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "太空天文"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "VIPER",
+        "來自YT",
+        "月球",
+        "月球南極",
+        "月船三號",
+        "水冰",
+        "泛科學 YouTube 頻道",
+        "登月",
+        "登月任務"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 25,
+      "url": "https://pansci.asia/archives/371464"
+    },
+    {
+      "wp_id": 371491,
+      "title": "遊蕩犬貓攻擊保育類動物！怎麼防止外來入侵種和原生種的資源爭奪？動保與野保之間能取得平衡嗎？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-11-12T00:00:00",
+      "word_count": 7114,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "來自台灣",
+        "動物世界",
+        "科學生",
+        "護生保育"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "TNVR",
+        "來自YT",
+        "保育類",
+        "動物保護",
+        "原生種",
+        "外來入侵種",
+        "外來種",
+        "泛科學 YouTube 頻道",
+        "石虎"
+      ],
+      "comments": 1,
+      "highlights": 1,
+      "bookmarks": 2,
+      "views": 19,
+      "url": "https://pansci.asia/archives/371491"
+    },
+    {
+      "wp_id": 371886,
+      "title": "太空提案創意不設限！2023 RunSpace 太空創新無限挑戰獲獎團隊專訪",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-11-13T00:00:00",
+      "word_count": 4638,
+      "science_student": false,
+      "categories": [
+        "太空天文"
+      ],
+      "tags": [
+        "RunSpace 太空創新無限挑戰",
+        "太空提案",
+        "太空產業",
+        "太空發展",
+        "太空競賽",
+        "太空計畫"
+      ],
+      "comments": 0,
+      "highlights": 0,
+      "bookmarks": 2,
+      "views": 22,
+      "url": "https://pansci.asia/archives/371886"
+    },
+    {
+      "wp_id": 371979,
+      "title": "臺中、高雄、花蓮舉辦 112 年度廣電媒體專業素養培訓課程，共創優質媒體閱聽環境",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-11-18T00:00:00",
+      "word_count": 1213,
+      "science_student": false,
+      "categories": [
+        "活動紀實",
+        "社會群體",
+        "科學傳播",
+        "科快訊"
+      ],
+      "tags": [
+        "NCC",
+        "媒體",
+        "廣播",
+        "廣電媒體專業素養",
+        "電視"
+      ],
+      "comments": 1,
+      "highlights": 1,
+      "bookmarks": 2,
+      "views": 12,
+      "url": "https://pansci.asia/archives/371979"
+    },
+    {
+      "wp_id": 372596,
+      "title": "水面艦如何找到潛水艇？潛水艇如何隱藏自己？——潛艦與反潛的捉迷藏",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-11-25T00:00:00",
+      "word_count": 7219,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "科學生",
+        "科技能源",
+        "萬物之理"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "反潛",
+        "戰爭",
+        "折射",
+        "武器",
+        "泛科學 YouTube 頻道",
+        "潛水艇",
+        "潛艦"
+      ],
+      "comments": 3,
+      "highlights": 10,
+      "bookmarks": 3,
+      "views": 33,
+      "url": "https://pansci.asia/archives/372596"
+    },
+    {
+      "wp_id": 372855,
+      "title": "「意識」是什麼？人們已經找到答案了嗎？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-11-26T00:00:00",
+      "word_count": 7062,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "生命奧祕",
+        "精神心理"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "哲學",
+        "困難問題",
+        "意識",
+        "感質",
+        "泛科學 YouTube 頻道",
+        "神經"
+      ],
+      "comments": 3,
+      "highlights": 3,
+      "bookmarks": 7,
+      "views": 95,
+      "url": "https://pansci.asia/archives/372855"
+    },
+    {
+      "wp_id": 373397,
+      "title": "暗能量是什麼？看不到也摸不著，我們該如何找到它？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-11-27T00:00:00",
+      "word_count": 6581,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "太空天文",
+        "編輯精選",
+        "萬物之理"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "宇宙膨脹",
+        "暗物質",
+        "暗能量",
+        "泛科學 YouTube 頻道"
+      ],
+      "comments": 0,
+      "highlights": 17,
+      "bookmarks": 5,
+      "views": 122,
+      "url": "https://pansci.asia/archives/373397"
+    },
+    {
+      "wp_id": 373490,
+      "title": "【2023 諾貝爾物理獎】什麼是「阿秒脈衝雷射」？能捕捉到電子運動的脈衝雷射？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-11-28T00:00:00",
+      "word_count": 7235,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "科學生",
+        "萬物之理",
+        "透視科學"
+      ],
+      "tags": [
+        "2023諾貝爾物理學獎",
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "泛科學 YouTube 頻道",
+        "物理",
+        "科學生",
+        "阿秒",
+        "阿秒脈衝雷射",
+        "電子"
+      ],
+      "comments": 1,
+      "highlights": 3,
+      "bookmarks": 2,
+      "views": 60,
+      "url": "https://pansci.asia/archives/373490"
+    },
+    {
+      "wp_id": 373545,
+      "title": "我們需要覆蓋率更高的網路！低軌道衛星通訊的好處在哪？臺灣有機會發展自己的「星鏈」嗎？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-12-04T00:00:00",
+      "word_count": 7168,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "太空天文",
+        "科學生",
+        "電腦資訊"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "低軌道衛星",
+        "低軌道衛星通訊",
+        "來自YT",
+        "星鏈",
+        "泛科學 YouTube 頻道",
+        "無線網路",
+        "相控陣列天線",
+        "科學生"
+      ],
+      "comments": 0,
+      "highlights": 15,
+      "bookmarks": 6,
+      "views": 60,
+      "url": "https://pansci.asia/archives/373545"
+    },
+    {
+      "wp_id": 373566,
+      "title": "是毒藥也是解方，影視作品如何影響刻板印象？為什麼曾經的公主製造機，現在特別「政確」？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-12-06T00:00:00",
+      "word_count": 5922,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "社會群體"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "公主",
+        "刻板印象",
+        "性別刻板印象",
+        "性別基模",
+        "性別基模理論",
+        "政治正確",
+        "泛科學 YouTube 頻道"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 0,
+      "views": 52,
+      "url": "https://pansci.asia/archives/373566"
+    },
+    {
+      "wp_id": 373632,
+      "title": "除了像風車一樣，風力發電機還能長成什麼樣？風機百百種，沒有扇葉還可以靠震動發電？！",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2023-12-11T00:00:00",
+      "word_count": 6082,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "科學生",
+        "能源動力"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "海上風機",
+        "渦流",
+        "科學生",
+        "綠能",
+        "綠能發電",
+        "綠電",
+        "風力"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 1,
+      "views": 49,
+      "url": "https://pansci.asia/archives/373632"
+    },
+    {
+      "wp_id": 374072,
+      "title": "選舉的秘密：票多的贏，票少的輸！候選人該怎麼增加支持者？造勢、掃街有用嗎？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-01-10T00:00:00",
+      "word_count": 4917,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "社會群體",
+        "精神心理"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "候選人",
+        "從眾",
+        "投票",
+        "拜票",
+        "掃街",
+        "握手",
+        "月暈效應"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 1,
+      "views": 26,
+      "url": "https://pansci.asia/archives/374072"
+    },
+    {
+      "wp_id": 373886,
+      "title": "歐幾里得望遠鏡開工——目標是尋找暗物質證據！一起從科學家的角度欣賞這片夢幻光景！",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-01-27T00:00:00",
+      "word_count": 7408,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "太空天文",
+        "萬物之理"
+      ],
+      "tags": [
+        "L2望遠鏡",
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "天文望遠鏡",
+        "太空望遠鏡",
+        "拉格朗日點",
+        "歐幾里得望遠鏡",
+        "泛科學 YouTube 頻道"
+      ],
+      "comments": 0,
+      "highlights": 6,
+      "bookmarks": 2,
+      "views": 48,
+      "url": "https://pansci.asia/archives/373886"
+    },
+    {
+      "wp_id": 374277,
+      "title": "馬斯克不屑一顧；比爾蓋茲卻視若珍寶！氫能源會成為永續發展的救世主嗎？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-02-04T00:00:00",
+      "word_count": 6723,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "地球脈動",
+        "科學生",
+        "科技能源",
+        "能源動力",
+        "透視科學"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "地質氫",
+        "大氣層",
+        "氫氣",
+        "氫能",
+        "永續能源",
+        "泛科學 YouTube 頻道",
+        "溫室氣體"
+      ],
+      "comments": 2,
+      "highlights": 5,
+      "bookmarks": 2,
+      "views": 44,
+      "url": "https://pansci.asia/archives/374277"
+    },
+    {
+      "wp_id": 374302,
+      "title": "改良天然氣發電技術不會產生二氧化碳？灰氫、藍氫、綠氫分別是什麼？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-02-11T00:00:00",
+      "word_count": 6788,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "科學生",
+        "科技能源",
+        "能源動力",
+        "透視科學"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "二氧化碳",
+        "來自YT",
+        "去碳燃氫",
+        "天然氣",
+        "氫氣",
+        "泛科學 YouTube 頻道",
+        "溫室效應",
+        "溫室氣體"
+      ],
+      "comments": 2,
+      "highlights": 3,
+      "bookmarks": 4,
+      "views": 49,
+      "url": "https://pansci.asia/archives/374302"
+    },
+    {
+      "wp_id": 374686,
+      "title": "【貓奴指南】把「貓界大麻」貓薄荷抹在身上，除了方便吸貓／給貓吸還有什麼作用？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-02-20T00:00:00",
+      "word_count": 973,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "動物世界",
+        "專欄",
+        "植物王國"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "吸貓",
+        "泛科學 YouTube 頻道",
+        "荊芥內酯",
+        "蚊蟲",
+        "貓",
+        "貓咪",
+        "貓奴指南"
+      ],
+      "comments": 0,
+      "highlights": 6,
+      "bookmarks": 2,
+      "views": 42,
+      "url": "https://pansci.asia/archives/374686"
+    },
+    {
+      "wp_id": 374868,
+      "title": "你聽過「量子意識」嗎？電子雙狹縫實驗讓人猜測意識會影響物質世界，真的假的？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-03-06T00:00:00",
+      "word_count": 4730,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "萬物之理"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "光子",
+        "干涉",
+        "意識",
+        "楊氏",
+        "泛科學 YouTube 頻道",
+        "波粒二象性",
+        "量子"
+      ],
+      "comments": 0,
+      "highlights": 6,
+      "bookmarks": 1,
+      "views": 79,
+      "url": "https://pansci.asia/archives/374868"
+    },
+    {
+      "wp_id": 374697,
+      "title": "【科學說文解字】才不是白色情人節！是 π DAY！公式裡常見的符號到底該怎麼寫、怎麼唸？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-03-14T00:00:00",
+      "word_count": 1365,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "科學傳播",
+        "讀寫科學"
+      ],
+      "tags": [
+        "3.14",
+        "PanSci泛科學",
+        "Pi day",
+        "shorts",
+        "YouTube",
+        "π",
+        "來自YT",
+        "圓周率日",
+        "小知識",
+        "希臘字母"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 52,
+      "url": "https://pansci.asia/archives/374697"
+    },
+    {
+      "wp_id": 374900,
+      "title": "量子力學可以幫你判斷物體溫度？從古典物理過渡到近代的一大推手——黑體輻射",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-03-24T00:00:00",
+      "word_count": 4673,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "萬物之理"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "光譜",
+        "可見光",
+        "太陽",
+        "普朗克定律",
+        "泛科學 YouTube 頻道",
+        "瑞利-金斯定律",
+        "維因公式"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 2,
+      "views": 33,
+      "url": "https://pansci.asia/archives/374900"
+    },
+    {
+      "wp_id": 375407,
+      "title": "和外星人的第五類接觸！《三體》中的微中子通訊是真的？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-04-08T00:00:00",
+      "word_count": 8135,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "太空天文",
+        "專欄",
+        "萬物之理",
+        "電影中的科學"
+      ],
+      "tags": [
+        "MINERvA",
+        "SETI",
+        "三體",
+        "和外星人溝通",
+        "外星人",
+        "外星文明",
+        "外星生命",
+        "天眼",
+        "奧茲瑪計畫",
+        "微中子"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 1,
+      "views": 48,
+      "url": "https://pansci.asia/archives/375407"
+    },
+    {
+      "wp_id": 375341,
+      "title": "來點刺激的研究！吃下這朵蘑菇就可以通靈、戒菸酒還能止痛……？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-04-11T00:00:00",
+      "word_count": 8743,
+      "science_student": false,
+      "categories": [
+        "人體解析",
+        "來自 YT",
+        "科學生",
+        "自然生態",
+        "醫療健康"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "上癮",
+        "來自YT",
+        "叢發性頭痛",
+        "嗑藥",
+        "大腦",
+        "大麻",
+        "幻肢痛",
+        "情緒"
+      ],
+      "comments": 2,
+      "highlights": 3,
+      "bookmarks": 3,
+      "views": 46,
+      "url": "https://pansci.asia/archives/375341"
+    },
+    {
+      "wp_id": 375267,
+      "title": "為什麼會被陽光曬傷？光有能量的話，為什麼照日光燈沒事？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-05-05T00:00:00",
+      "word_count": 4084,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "活得科學",
+        "萬物之理"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "光",
+        "光子",
+        "光量子",
+        "光電效應",
+        "愛因斯坦",
+        "曬傷",
+        "曬傷原理",
+        "泛科學 YouTube 頻道"
+      ],
+      "comments": 0,
+      "highlights": 4,
+      "bookmarks": 1,
+      "views": 39,
+      "url": "https://pansci.asia/archives/375267"
+    },
+    {
+      "wp_id": 375319,
+      "title": "這些太空垃圾會不會阻礙我們太空旅行？太空垃圾怎麼清？ ",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-05-29T00:00:00",
+      "word_count": 6361,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "太空天文",
+        "環境生態"
+      ],
+      "tags": [
+        "ESA",
+        "NASA",
+        "PanSci泛科學",
+        "SpaceX",
+        "YouTube",
+        "來自YT",
+        "凱斯勒現象",
+        "回收",
+        "垃圾",
+        "外太空條約"
+      ],
+      "comments": 1,
+      "highlights": 1,
+      "bookmarks": 1,
+      "views": 18,
+      "url": "https://pansci.asia/archives/375319"
+    },
+    {
+      "wp_id": 376305,
+      "title": "米式散射：野火警訊與光子計算機",
+      "author": "顯微觀點",
+      "source_site": "pansci",
+      "published": "2024-06-10T00:00:00",
+      "word_count": 5658,
+      "science_student": true,
+      "categories": [
+        "地球脈動",
+        "專欄",
+        "科學生",
+        "自然 / 科學攝影",
+        "萬物之理"
+      ],
+      "tags": [
+        "SAX顯微術",
+        "天空",
+        "奈米矽",
+        "散射",
+        "橘紅色",
+        "橘紅色天空",
+        "瑞利散射",
+        "矽製電晶體",
+        "科學生",
+        "移位共振",
+        "米式共振",
+        "米式散射",
+        "超解析顯微技術",
+        "野火",
+        "非線性光學",
+        "非線性現象",
+        "飽和激發顯微術"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 18,
+      "url": "https://pansci.asia/archives/376305"
+    },
+    {
+      "wp_id": 376407,
+      "title": "侏羅紀公園的場景可能真實發生？生物複製技術有哪些發展？複製人要出現了嗎？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-06-15T00:00:00",
+      "word_count": 5958,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "生命奧祕",
+        "透視科學"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "來自YT",
+        "克隆",
+        "基因",
+        "基因複製",
+        "桃莉羊",
+        "泛科學 YouTube 頻道",
+        "生物複製",
+        "胚胎",
+        "胚胎發育",
+        "複製",
+        "複製人",
+        "複製羊"
+      ],
+      "comments": 1,
+      "highlights": 8,
+      "bookmarks": 1,
+      "views": 41,
+      "url": "https://pansci.asia/archives/376407"
+    },
+    {
+      "wp_id": 376692,
+      "title": "不抽菸也會得肺癌？PM2.5 如何「叫醒」沉睡的癌細胞？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-06-25T00:00:00",
+      "word_count": 5972,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "來自 YT",
+        "健康養生",
+        "科學生",
+        "醫療健康"
+      ],
+      "tags": [
+        "PanSci",
+        "PM2.5",
+        "YouTube",
+        "來自YT",
+        "吸菸",
+        "基因",
+        "泛科學 YouTube 頻道",
+        "疫苗",
+        "癌症",
+        "癌症治療",
+        "癌症預防",
+        "發炎",
+        "科學生",
+        "肺癌",
+        "肺癌疫苗",
+        "肺癌篩檢",
+        "肺癌轉移",
+        "致癌",
+        "致癌物",
+        "致癌物質"
+      ],
+      "comments": 1,
+      "highlights": 20,
+      "bookmarks": 0,
+      "views": 28,
+      "url": "https://pansci.asia/archives/376692"
+    },
+    {
+      "wp_id": 376350,
+      "title": "量子革命的開端——物質波的發現",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-07-08T00:00:00",
+      "word_count": 3126,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "科學生",
+        "萬物之理"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "德布羅意",
+        "泛科學 YouTube 頻道",
+        "波粒二象性",
+        "物質波",
+        "量子力學",
+        "電子繞射實驗"
+      ],
+      "comments": 0,
+      "highlights": 5,
+      "bookmarks": 3,
+      "views": 48,
+      "url": "https://pansci.asia/archives/376350"
+    },
+    {
+      "wp_id": 376922,
+      "title": "誠實面對人類參與的「自然」——太田欽也專訪",
+      "author": "顯微觀點",
+      "source_site": "pansci",
+      "published": "2024-07-11T00:00:00",
+      "word_count": 4183,
+      "science_student": true,
+      "categories": [
+        "人物傳記",
+        "動物世界",
+        "專欄",
+        "微縮世界",
+        "科學生",
+        "自然 / 科學攝影"
+      ],
+      "tags": [
+        "人工育種",
+        "人擇",
+        "人類世",
+        "太田欽也",
+        "斑馬魚",
+        "演化",
+        "演化生物學",
+        "發育生物學",
+        "科學生",
+        "育種",
+        "金魚"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 2,
+      "views": 20,
+      "url": "https://pansci.asia/archives/376922"
+    },
+    {
+      "wp_id": 377177,
+      "title": "用「世界上最大的望遠鏡」觀測黑洞！臺灣也參與其中！",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-07-15T00:00:00",
+      "word_count": 5051,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "太空天文",
+        "專欄",
+        "萬物之理"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "YouTube",
+        "事件視界望遠鏡",
+        "全球毫米波特長基線陣列",
+        "格陵蘭望遠鏡",
+        "泛科學 YouTube 頻道",
+        "電波干涉儀",
+        "黑洞",
+        "黑洞照片",
+        "黑洞觀測"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 1,
+      "views": 45,
+      "url": "https://pansci.asia/archives/377177"
+    },
+    {
+      "wp_id": 376933,
+      "title": "翻越性別高牆 打破生乳營養迷思 埃凡斯促成牛奶滅菌（1）",
+      "author": "顯微觀點",
+      "source_site": "pansci",
+      "published": "2024-07-24T00:00:00",
+      "word_count": 2523,
+      "science_student": true,
+      "categories": [
+        "人物傳記",
+        "專欄",
+        "微縮世界",
+        "科學生",
+        "食品科學"
+      ],
+      "tags": [
+        "乳製品",
+        "女性科學家",
+        "巴氏消毒",
+        "布氏桿菌",
+        "滅菌",
+        "生乳",
+        "科學生",
+        "細菌學",
+        "艾莉絲．埃凡斯",
+        "顯微鏡學"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 1,
+      "views": 10,
+      "url": "https://pansci.asia/archives/376933"
+    },
+    {
+      "wp_id": 377268,
+      "title": "物理學四大神獸「薛丁格的貓」，其實是在嘲諷量子力學？物理學家對波函數機率詮釋的爭辯",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-07-27T00:00:00",
+      "word_count": 3071,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "科學生",
+        "萬物之理"
+      ],
+      "tags": [
+        "YouTube",
+        "愛因斯坦",
+        "機率詮釋",
+        "機率論",
+        "決定論",
+        "泛科學 YouTube 頻道",
+        "波函數",
+        "科學生",
+        "薛丁格的貓",
+        "量子力學"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 1,
+      "views": 54,
+      "url": "https://pansci.asia/archives/377268"
+    },
+    {
+      "wp_id": 377286,
+      "title": "多重宇宙真的存在？艾弗雷特三世（Hugh Everett III）的多世界詮釋",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-07-28T00:00:00",
+      "word_count": 3467,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "科學生",
+        "萬物之理"
+      ],
+      "tags": [
+        "PanSci泛科學",
+        "多世界詮釋",
+        "多重宇宙",
+        "泛科學 YouTube 頻道",
+        "科學生",
+        "薛丁格的貓",
+        "量子力學",
+        "量子去相干",
+        "量子理論"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 26,
+      "url": "https://pansci.asia/archives/377286"
+    },
+    {
+      "wp_id": 377307,
+      "title": "從手術室到街頭：芬太尼如何掀起美國的毒品浩劫",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-07-29T00:00:00",
+      "word_count": 3766,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "社會群體",
+        "醫療健康"
+      ],
+      "tags": [
+        "PanSci",
+        "毒品戰爭",
+        "泛科學 YouTube 頻道",
+        "美中",
+        "芬太尼",
+        "芬太尼危機",
+        "藥物濫用",
+        "鴉片類藥物"
+      ],
+      "comments": 0,
+      "highlights": 0,
+      "bookmarks": 0,
+      "views": 19,
+      "url": "https://pansci.asia/archives/377307"
+    },
+    {
+      "wp_id": 377314,
+      "title": "特斯拉 Cybercab 登場！自駕車事故責任該由誰承擔？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-07-30T00:00:00",
+      "word_count": 2042,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "社會群體",
+        "科技能源"
+      ],
+      "tags": [
+        "Cybercab",
+        "PanSci泛科學",
+        "泛科學 YouTube 頻道",
+        "無人計程車",
+        "特斯拉",
+        "自動駕駛系統",
+        "自駕車"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 13,
+      "url": "https://pansci.asia/archives/377314"
+    },
+    {
+      "wp_id": 376941,
+      "title": "翻越性別高牆 打破生乳營養迷思 埃凡斯促成牛奶滅菌（2）",
+      "author": "顯微觀點",
+      "source_site": "pansci",
+      "published": "2024-08-13T00:00:00",
+      "word_count": 3152,
+      "science_student": true,
+      "categories": [
+        "人物傳記",
+        "專欄",
+        "微縮世界",
+        "科學生",
+        "食品科學"
+      ],
+      "tags": [
+        "女性科學家",
+        "巴氏消毒",
+        "布氏桿菌",
+        "微生物學",
+        "牛奶",
+        "牛奶滅菌",
+        "科學生",
+        "艾莉絲．埃凡斯"
+      ],
+      "comments": 0,
+      "highlights": 0,
+      "bookmarks": 0,
+      "views": 9,
+      "url": "https://pansci.asia/archives/376941"
+    },
+    {
+      "wp_id": 377540,
+      "title": "家中養貓狗，寶寶可能更健康？研究證實毛小孩有助於提升新生兒免疫力",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-08-25T00:00:00",
+      "word_count": 1933,
+      "science_student": true,
+      "categories": [
+        "生命奧祕",
+        "科學生",
+        "醫療健康"
+      ],
+      "tags": [
+        "免疫力",
+        "寶寶",
+        "微生物",
+        "新生兒",
+        "毛小孩",
+        "科學生",
+        "腸道菌相",
+        "貓狗"
+      ],
+      "comments": 0,
+      "highlights": 7,
+      "bookmarks": 0,
+      "views": 16,
+      "url": "https://pansci.asia/archives/377540"
+    },
+    {
+      "wp_id": 377586,
+      "title": "獨佔先「機」？無人機如何改變全球戰爭與經濟版圖？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-08-26T00:00:00",
+      "word_count": 3139,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "社會群體",
+        "科學生",
+        "科技能源"
+      ],
+      "tags": [
+        "地獄計劃",
+        "戰爭",
+        "泛科學 YouTube 頻道",
+        "無人機",
+        "科學生",
+        "經濟",
+        "路跑者 M",
+        "通訊科技"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 12,
+      "url": "https://pansci.asia/archives/377586"
+    },
+    {
+      "wp_id": 377572,
+      "title": "一次搞懂主動式 vs 被動式降噪，讓你耳朵甲百二的法寶",
+      "author": "雅文兒童聽語文教基金會",
+      "source_site": "pansci",
+      "published": "2024-08-27T00:00:00",
+      "word_count": 2951,
+      "science_student": true,
+      "categories": [
+        "健康養生",
+        "活得科學",
+        "科學生",
+        "醫療健康"
+      ],
+      "tags": [
+        "主動式降噪",
+        "科學生",
+        "耳機",
+        "聽力",
+        "被動式降噪"
+      ],
+      "comments": 0,
+      "highlights": 0,
+      "bookmarks": 0,
+      "views": 16,
+      "url": "https://pansci.asia/archives/377572"
+    },
+    {
+      "wp_id": 377644,
+      "title": "比爾蓋茲的第四代核能發電廠終於開始建設！核能的春天真的來了嗎？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-08-31T00:00:00",
+      "word_count": 1843,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "環境生態",
+        "科學生",
+        "科技能源"
+      ],
+      "tags": [
+        "Natrium",
+        "核能發電廠",
+        "比爾蓋茲",
+        "泛科學 YouTube 頻道",
+        "科學生",
+        "鈉冷快中子技術"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 0,
+      "views": 14,
+      "url": "https://pansci.asia/archives/377644"
+    },
+    {
+      "wp_id": 377665,
+      "title": "飛天車即將登場，科幻電影夢想成真？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-09-01T00:00:00",
+      "word_count": 2022,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "科技能源"
+      ],
+      "tags": [
+        "eVTOL",
+        "Volocopter",
+        "泛科學 YouTube 頻道",
+        "無人機",
+        "飛天車"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 8,
+      "url": "https://pansci.asia/archives/377665"
+    },
+    {
+      "wp_id": 377669,
+      "title": "半導體晶片的微小奇蹟：原子層沉積技術（ALD）",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-09-02T00:00:00",
+      "word_count": 2505,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "科學生",
+        "科技能源"
+      ],
+      "tags": [
+        "ALD",
+        "半導體製程",
+        "原子層沉積技術",
+        "摩爾定律",
+        "泛科學 YouTube 頻道",
+        "科學生"
+      ],
+      "comments": 0,
+      "highlights": 0,
+      "bookmarks": 0,
+      "views": 11,
+      "url": "https://pansci.asia/archives/377669"
+    },
+    {
+      "wp_id": 377655,
+      "title": "毒藥的歷史：死亡、救贖與科學的交匯點——《毒藥的滋味》",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-09-03T00:00:00",
+      "word_count": 3239,
+      "science_student": true,
+      "categories": [
+        "化學物語",
+        "專欄",
+        "科學生",
+        "醫療健康"
+      ],
+      "tags": [
+        "化學",
+        "毒藥",
+        "毒藥的滋味",
+        "科學生"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 12,
+      "url": "https://pansci.asia/archives/377655"
+    },
+    {
+      "wp_id": 377676,
+      "title": "糖的致命誘惑：一場看似平凡的泡澡竟成了陷阱——《毒藥的滋味》",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-09-05T00:00:00",
+      "word_count": 3484,
+      "science_student": false,
+      "categories": [
+        "人體解析",
+        "化學物語",
+        "好書推薦",
+        "好書搶先看",
+        "醫療健康"
+      ],
+      "tags": [
+        "毒藥",
+        "毒藥的滋味",
+        "泡澡",
+        "溺斃",
+        "糖"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 1,
+      "views": 13,
+      "url": "https://pansci.asia/archives/377676"
+    },
+    {
+      "wp_id": 377697,
+      "title": "氰化物的黑暗面：從間諜小說到戰爭罪行的恐怖故事——《毒藥的滋味》",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-09-08T00:00:00",
+      "word_count": 4217,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "化學物語",
+        "好書推薦",
+        "好書搶先看",
+        "科學生"
+      ],
+      "tags": [
+        "毒藥",
+        "毒藥的滋味",
+        "氰化物",
+        "科學生"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 0,
+      "views": 23,
+      "url": "https://pansci.asia/archives/377697"
+    },
+    {
+      "wp_id": 377820,
+      "title": "深海發現大型礦場和「暗氧」！是能源危機的希望還是潘朵拉之盒？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-09-21T00:00:00",
+      "word_count": 3020,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "地球脈動",
+        "環境生態",
+        "科學生",
+        "科技能源"
+      ],
+      "tags": [
+        "多金屬結核",
+        "暗氧",
+        "泛科學 YouTube 頻道",
+        "海洋",
+        "生態",
+        "科學生"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 13,
+      "url": "https://pansci.asia/archives/377820"
+    },
+    {
+      "wp_id": 377917,
+      "title": "AI 破解生命密碼！AlphaFold 3 揭開蛋白質折疊的終極謎團",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-10-07T00:00:00",
+      "word_count": 2426,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "科學生",
+        "科技能源",
+        "醫療健康"
+      ],
+      "tags": [
+        "AI",
+        "AlphaFold 3",
+        "生物科技突破",
+        "科學生",
+        "蛋白質折疊"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 0,
+      "views": 10,
+      "url": "https://pansci.asia/archives/377917"
+    },
+    {
+      "wp_id": 377921,
+      "title": "當情緒像過山車？從亢奮到低落，解碼躁鬱症的真實面貌",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-10-12T00:00:00",
+      "word_count": 2931,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "精神心理",
+        "醫療健康"
+      ],
+      "tags": [
+        "心理學",
+        "情緒",
+        "躁鬱症"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 1,
+      "views": 10,
+      "url": "https://pansci.asia/archives/377921"
+    },
+    {
+      "wp_id": 377925,
+      "title": "從離子阱到拓樸量子位元：量子計算的未來還有多少可能？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-10-13T00:00:00",
+      "word_count": 2591,
+      "science_student": false,
+      "categories": [
+        "專欄",
+        "科技能源",
+        "萬物之理"
+      ],
+      "tags": [
+        "Atom Computing",
+        "google",
+        "IBM",
+        "拓樸量子位元",
+        "量子計算",
+        "量子電腦",
+        "離子阱"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 13,
+      "url": "https://pansci.asia/archives/377925"
+    },
+    {
+      "wp_id": 377923,
+      "title": "從半導體到量子晶片：台灣成為全球量子科技的核心力量！",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-10-14T00:00:00",
+      "word_count": 2960,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "科學生",
+        "科技能源",
+        "萬物之理"
+      ],
+      "tags": [
+        "半導體",
+        "科學生",
+        "量子晶片",
+        "量子電腦"
+      ],
+      "comments": 0,
+      "highlights": 4,
+      "bookmarks": 0,
+      "views": 13,
+      "url": "https://pansci.asia/archives/377923"
+    },
+    {
+      "wp_id": 377927,
+      "title": "當量子駭客來襲，誰能守護我們的數據？揭開量子加密的終極防禦！",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-10-15T00:00:00",
+      "word_count": 2269,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "科技能源"
+      ],
+      "tags": [
+        "網路安全",
+        "量子力學",
+        "量子加密"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 0,
+      "views": 9,
+      "url": "https://pansci.asia/archives/377927"
+    },
+    {
+      "wp_id": 377932,
+      "title": "量子革命來襲！一分鐘搞定傳統電腦要花數千萬年的難題！你的電腦是否即將被淘汰？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-10-17T00:00:00",
+      "word_count": 2656,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "科技能源",
+        "萬物之理"
+      ],
+      "tags": [
+        "google",
+        "計算機",
+        "量子力學",
+        "量子電腦"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 0,
+      "views": 9,
+      "url": "https://pansci.asia/archives/377932"
+    },
+    {
+      "wp_id": 377934,
+      "title": "從太陽發光到生命突變，一切都歸功於量子穿隧效應？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-10-19T00:00:00",
+      "word_count": 2734,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "地球脈動",
+        "太空天文",
+        "專欄",
+        "科學生",
+        "萬物之理"
+      ],
+      "tags": [
+        "宇宙",
+        "生命起源",
+        "科學生",
+        "量子力學",
+        "量子穿隧效應"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 0,
+      "views": 22,
+      "url": "https://pansci.asia/archives/377934"
+    },
+    {
+      "wp_id": 378020,
+      "title": "2024 臺灣科普環島列車啟程 催生科學傳播新力量",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-10-21T00:00:00",
+      "word_count": 1256,
+      "science_student": false,
+      "categories": [
+        "專欄",
+        "科學傳播"
+      ],
+      "tags": [
+        "國科會",
+        "科學傳播",
+        "科普環島列車"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 7,
+      "url": "https://pansci.asia/archives/378020"
+    },
+    {
+      "wp_id": 378026,
+      "title": "白噪音為什麼是白色？認識三種讓你一覺好眠的彩色噪音",
+      "author": "雅文兒童聽語文教基金會",
+      "source_site": "pansci",
+      "published": "2024-10-23T00:00:00",
+      "word_count": 3469,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "科學生",
+        "萬物之理"
+      ],
+      "tags": [
+        "放鬆音效",
+        "白噪音助眠",
+        "睡眠改善",
+        "科學生",
+        "粉紅噪音"
+      ],
+      "comments": 0,
+      "highlights": 20,
+      "bookmarks": 0,
+      "views": 17,
+      "url": "https://pansci.asia/archives/378026"
+    },
+    {
+      "wp_id": 378135,
+      "title": "創意藏在夢裡？引導夢境助你突破創作瓶頸，解決生活難題——《我們為何會做夢》",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-11-03T00:00:00",
+      "word_count": 2825,
+      "science_student": false,
+      "categories": [
+        "好書推薦",
+        "好書搶先看",
+        "精神心理"
+      ],
+      "tags": [
+        "創意",
+        "夢境",
+        "惡夢",
+        "我們為何會做夢"
+      ],
+      "comments": 0,
+      "highlights": 0,
+      "bookmarks": 0,
+      "views": 8,
+      "url": "https://pansci.asia/archives/378135"
+    },
+    {
+      "wp_id": 378132,
+      "title": "解開夢境的奧秘：腦電活動如何塑造我們的做夢能力？——《我們為何會做夢》",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-11-04T00:00:00",
+      "word_count": 2986,
+      "science_student": false,
+      "categories": [
+        "好書推薦",
+        "好書搶先看",
+        "精神心理"
+      ],
+      "tags": [
+        "夢境",
+        "惡夢",
+        "我們為何會做夢",
+        "腦電活動",
+        "開顱"
+      ],
+      "comments": 0,
+      "highlights": 0,
+      "bookmarks": 1,
+      "views": 15,
+      "url": "https://pansci.asia/archives/378132"
+    },
+    {
+      "wp_id": 378137,
+      "title": "愛因斯坦也困惑！量子糾纏如何顛覆距離的限制？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-11-05T00:00:00",
+      "word_count": 2234,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "萬物之理"
+      ],
+      "tags": [
+        "EPR悖論",
+        "貝爾不等式",
+        "量子力學應用",
+        "量子糾纏",
+        "量子隱形傳態"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 0,
+      "views": 17,
+      "url": "https://pansci.asia/archives/378137"
+    },
+    {
+      "wp_id": 378154,
+      "title": "「護國神山」越高 電力壓力越大：臺灣海洋能是解方？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-11-07T00:00:00",
+      "word_count": 4850,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "科學生",
+        "科技能源"
+      ],
+      "tags": [
+        "再生能源",
+        "台灣電力需求",
+        "波浪能發電",
+        "海洋能",
+        "科學生"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 5,
+      "url": "https://pansci.asia/archives/378154"
+    },
+    {
+      "wp_id": 378203,
+      "title": "全球資安專家齊聚臺北：揭開 AI 與資安的雙面效應",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-11-08T00:00:00",
+      "word_count": 2301,
+      "science_student": false,
+      "categories": [
+        "專欄",
+        "科技能源"
+      ],
+      "tags": [
+        "AI資安",
+        "APCERT 2024",
+        "DDoS攻擊",
+        "台灣資安會議",
+        "資安雙面效應"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 10,
+      "url": "https://pansci.asia/archives/378203"
+    },
+    {
+      "wp_id": 367479,
+      "title": "賽博格時代來臨？Neuralink 的腦機介面揭密",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-11-09T00:00:00",
+      "word_count": 3961,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "科技能源"
+      ],
+      "tags": [
+        "Neuralink",
+        "腦機介面",
+        "馬斯克"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 0,
+      "views": 5,
+      "url": "https://pansci.asia/archives/367479"
+    },
+    {
+      "wp_id": 378231,
+      "title": "微小 RNA，大大改變！2024 諾貝爾生醫獎揭示基因調控新篇章",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-11-12T00:00:00",
+      "word_count": 3515,
+      "science_student": false,
+      "categories": [
+        "人體解析",
+        "來自 YT",
+        "專欄",
+        "醫療健康"
+      ],
+      "tags": [
+        "2024諾貝爾生醫獎",
+        "基因調控"
+      ],
+      "comments": 0,
+      "highlights": 4,
+      "bookmarks": 1,
+      "views": 21,
+      "url": "https://pansci.asia/archives/378231"
+    },
+    {
+      "wp_id": 378242,
+      "title": "AI 能像人類一樣思考？諾貝爾物理學獎研究助力人工智慧模擬人類大腦",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-11-14T00:00:00",
+      "word_count": 2828,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "科技能源"
+      ],
+      "tags": [
+        "2024諾貝爾物理學獎",
+        "人工智慧",
+        "物理學",
+        "諾貝爾物理學獎",
+        "霍普菲爾德網路"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 1,
+      "views": 9,
+      "url": "https://pansci.asia/archives/378242"
+    },
+    {
+      "wp_id": 378163,
+      "title": "馬斯克遇上強勁對手！Neuralink 的未來究竟在哪裡？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-11-16T00:00:00",
+      "word_count": 2903,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "科技能源",
+        "醫療健康"
+      ],
+      "tags": [
+        "Synchron"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 0,
+      "views": 11,
+      "url": "https://pansci.asia/archives/378163"
+    },
+    {
+      "wp_id": 378146,
+      "title": "從 MiniLED 到 QLED：量子點技術如何改寫螢幕的未來？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-11-17T00:00:00",
+      "word_count": 2943,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "科技能源",
+        "電腦資訊"
+      ],
+      "tags": [
+        "QLED",
+        "量子電腦"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 19,
+      "url": "https://pansci.asia/archives/378146"
+    },
+    {
+      "wp_id": 378141,
+      "title": "末日模擬！從氣候變遷到核戰爭，人類未來將走向哪個結局？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-11-19T00:00:00",
+      "word_count": 2674,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "環境生態",
+        "自然生態"
+      ],
+      "tags": [
+        "Pansci Youtube 頻道",
+        "Pansci 泛科學頻道",
+        "末日模擬",
+        "核戰爭",
+        "氣候變遷"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 0,
+      "views": 12,
+      "url": "https://pansci.asia/archives/378141"
+    },
+    {
+      "wp_id": 378156,
+      "title": "太空夢成真！自費就能上太空？SpaceX 與賈里德如何推動載人航太新里程碑",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-11-21T00:00:00",
+      "word_count": 3163,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "太空天文",
+        "專欄",
+        "科學生",
+        "科技能源"
+      ],
+      "tags": [
+        "SpaceX",
+        "太空漫步",
+        "科學生"
+      ],
+      "comments": 0,
+      "highlights": 3,
+      "bookmarks": 0,
+      "views": 16,
+      "url": "https://pansci.asia/archives/378156"
+    },
+    {
+      "wp_id": 378376,
+      "title": "氣候暖化反而更好打出全壘打？未來 80 年美國職棒全壘打數量可能因此增加 10%？",
+      "author": "F 編",
+      "source_site": "pansci",
+      "published": "2024-12-05T00:00:00",
+      "word_count": 2590,
+      "science_student": true,
+      "categories": [
+        "專欄",
+        "活得科學",
+        "環境生態",
+        "科學生"
+      ],
+      "tags": [
+        "全壘打增加",
+        "氣候影響",
+        "氣溫上升",
+        "科學生",
+        "美國職棒"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 0,
+      "views": 14,
+      "url": "https://pansci.asia/archives/378376"
+    },
+    {
+      "wp_id": 378386,
+      "title": "19 世紀的微觀之眼：顯微繪圖師韋斯特",
+      "author": "顯微觀點",
+      "source_site": "pansci",
+      "published": "2024-12-12T00:00:00",
+      "word_count": 7378,
+      "science_student": true,
+      "categories": [
+        "專欄",
+        "科學生",
+        "透視科學"
+      ],
+      "tags": [
+        "博物學家韋斯特",
+        "科學生",
+        "維多利亞時代",
+        "顯微繪圖",
+        "顯微鏡"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 13,
+      "url": "https://pansci.asia/archives/378386"
+    },
+    {
+      "wp_id": 378388,
+      "title": "AI 蛋白質設計革命：2024 諾貝爾化學獎背後的醫學奇蹟",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-12-15T00:00:00",
+      "word_count": 2890,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "生命奧祕",
+        "科學生",
+        "科技能源"
+      ],
+      "tags": [
+        "2024 諾貝爾化學獎",
+        "RFdiffusion",
+        "泛科學 YouTube 頻道",
+        "科學生",
+        "蛋白質設計"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 1,
+      "views": 12,
+      "url": "https://pansci.asia/archives/378388"
+    },
+    {
+      "wp_id": 378390,
+      "title": "用科學定義左邊：當宇稱對稱被顛覆時，物理學如何重新書寫規律？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2024-12-16T00:00:00",
+      "word_count": 2780,
+      "science_student": true,
+      "categories": [
+        "來自 YT",
+        "太空天文",
+        "專欄",
+        "科學生"
+      ],
+      "tags": [
+        "CP 對稱破壞",
+        "吳氏實驗",
+        "左手性",
+        "弱交互作用",
+        "泛科學 YouTube 頻道",
+        "科學生"
+      ],
+      "comments": 0,
+      "highlights": 4,
+      "bookmarks": 1,
+      "views": 17,
+      "url": "https://pansci.asia/archives/378390"
+    },
+    {
+      "wp_id": 378422,
+      "title": "運動員的大腦跟一般人不一樣？從腦科學看體力之外的奪冠秘笈",
+      "author": "F 編",
+      "source_site": "pansci",
+      "published": "2024-12-17T00:00:00",
+      "word_count": 2955,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "專欄",
+        "生命奧祕",
+        "科學生"
+      ],
+      "tags": [
+        "科學生",
+        "肌肉記憶",
+        "腦科學",
+        "運動員",
+        "運動與大腦"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 1,
+      "views": 15,
+      "url": "https://pansci.asia/archives/378422"
+    },
+    {
+      "wp_id": 378395,
+      "title": "微酸與麥香兼具 透視酸種麵包的小世界",
+      "author": "顯微觀點",
+      "source_site": "pansci",
+      "published": "2024-12-19T00:00:00",
+      "word_count": 3635,
+      "science_student": true,
+      "categories": [
+        "化學物語",
+        "專欄",
+        "活得科學",
+        "科學生"
+      ],
+      "tags": [
+        "乳酸菌",
+        "低升糖指數",
+        "天然發酵麵包",
+        "科學生",
+        "酵母",
+        "酸種麵包"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 9,
+      "url": "https://pansci.asia/archives/378395"
+    },
+    {
+      "wp_id": 378599,
+      "title": "雀斑為何只在陽光下現形？揭開「太陽之吻」的秘密",
+      "author": "F 編",
+      "source_site": "pansci",
+      "published": "2024-12-23T00:00:00",
+      "word_count": 2948,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "健康養生",
+        "科學生"
+      ],
+      "tags": [
+        "日曬斑",
+        "科學生",
+        "紫外線",
+        "雀斑"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 4,
+      "url": "https://pansci.asia/archives/378599"
+    },
+    {
+      "wp_id": 378409,
+      "title": "人類的「長跑」很厲害？靠「跑」在荒野中脫穎而出",
+      "author": "F 編",
+      "source_site": "pansci",
+      "published": "2024-12-26T00:00:00",
+      "word_count": 3651,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "專欄",
+        "科學生"
+      ],
+      "tags": [
+        "科學生",
+        "長跑"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 12,
+      "url": "https://pansci.asia/archives/378409"
+    },
+    {
+      "wp_id": 378662,
+      "title": "從門得列夫到 118 種元素：元素週期表是怎麼出現的？",
+      "author": "F 編",
+      "source_site": "pansci",
+      "published": "2025-01-04T00:00:00",
+      "word_count": 2926,
+      "science_student": true,
+      "categories": [
+        "化學物語",
+        "專欄",
+        "科學生"
+      ],
+      "tags": [
+        "元素週期表",
+        "化學元素",
+        "原子序",
+        "科學生"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 0,
+      "views": 14,
+      "url": "https://pansci.asia/archives/378662"
+    },
+    {
+      "wp_id": 377731,
+      "title": "一年有幾週？背後竟隱藏著宗教、政治與天文觀測的紛爭？為何決定一年有幾週如此大費周章？",
+      "author": "F 編",
+      "source_site": "pansci",
+      "published": "2025-01-06T00:00:00",
+      "word_count": 4002,
+      "science_student": true,
+      "categories": [
+        "專欄",
+        "文明足跡",
+        "社會群體",
+        "科學生",
+        "透視科學"
+      ],
+      "tags": [
+        "宗教衝突",
+        "曆法",
+        "朱利安曆法",
+        "格里高利曆",
+        "科學生"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 0,
+      "views": 11,
+      "url": "https://pansci.asia/archives/377731"
+    },
+    {
+      "wp_id": 378670,
+      "title": "從遊戲到量子計算：NVIDIA 憑什麼在 AI 世代一騎絕塵？",
+      "author": "PanSci",
+      "source_site": "pansci",
+      "published": "2025-01-09T00:00:00",
+      "word_count": 3542,
+      "science_student": false,
+      "categories": [
+        "來自 YT",
+        "專欄",
+        "電腦資訊"
+      ],
+      "tags": [
+        "AI",
+        "CUDA",
+        "GPU",
+        "Nvidia",
+        "Pansci Youtube 頻道"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 12,
+      "url": "https://pansci.asia/archives/378670"
+    },
+    {
+      "wp_id": 378696,
+      "title": "我們能從死者的大腦中檢索記憶嗎？死後的記憶為何難以複製？",
+      "author": "F 編",
+      "source_site": "pansci",
+      "published": "2025-01-14T00:00:00",
+      "word_count": 3324,
+      "science_student": true,
+      "categories": [
+        "人體解析",
+        "專欄",
+        "科學生",
+        "精神心理"
+      ],
+      "tags": [
+        "大腦記憶",
+        "死後記憶提取",
+        "活體神經網路",
+        "科學生",
+        "記憶復原挑戰"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 0,
+      "views": 17,
+      "url": "https://pansci.asia/archives/378696"
+    },
+    {
+      "wp_id": 378698,
+      "title": "螃蟹有痛感嗎？我們是怎麼知道的？",
+      "author": "F 編",
+      "source_site": "pansci",
+      "published": "2025-01-16T00:00:00",
+      "word_count": 2370,
+      "science_student": true,
+      "categories": [
+        "動物世界",
+        "專欄",
+        "科學生",
+        "護生保育"
+      ],
+      "tags": [
+        "動物福利",
+        "海洋生物",
+        "甲殼類",
+        "科學生",
+        "螃蟹"
+      ],
+      "comments": 0,
+      "highlights": 0,
+      "bookmarks": 0,
+      "views": 16,
+      "url": "https://pansci.asia/archives/378698"
+    },
+    {
+      "wp_id": 378869,
+      "title": "任意添加光學元件 為研究打開大門的無限遠光學系統",
+      "author": "顯微觀點",
+      "source_site": "pansci",
+      "published": "2025-01-30T00:00:00",
+      "word_count": 2332,
+      "science_student": true,
+      "categories": [
+        "科學生",
+        "透視科學"
+      ],
+      "tags": [
+        "光學成像",
+        "無限遠光學系統",
+        "物鏡校正",
+        "科學生",
+        "顯微鏡技術"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 5,
+      "url": "https://pansci.asia/archives/378869"
+    },
+    {
+      "wp_id": 378929,
+      "title": "腸道與聽力的神秘連結：你的聽覺健康可能藏在腸胃裡？",
+      "author": "雅文兒童聽語文教基金會",
+      "source_site": "pansci",
+      "published": "2025-02-20T00:00:00",
+      "word_count": 4323,
+      "science_student": true,
+      "categories": [
+        "科學生",
+        "醫療健康"
+      ],
+      "tags": [
+        "科學生",
+        "聽力損失"
+      ],
+      "comments": 0,
+      "highlights": 1,
+      "bookmarks": 0,
+      "views": 7,
+      "url": "https://pansci.asia/archives/378929"
+    },
+    {
+      "wp_id": 379057,
+      "title": "「別來無恙」不只是招呼",
+      "author": "顯微觀點",
+      "source_site": "pansci",
+      "published": "2025-04-12T00:00:00",
+      "word_count": 3014,
+      "science_student": true,
+      "categories": [
+        "微縮世界",
+        "科學生",
+        "醫療健康"
+      ],
+      "tags": [
+        "恙蟲病",
+        "戶外防蟲",
+        "清明節",
+        "病媒傳染",
+        "登山防護",
+        "科學生",
+        "立克次體"
+      ],
+      "comments": 0,
+      "highlights": 2,
+      "bookmarks": 0,
+      "views": 6,
+      "url": "https://pansci.asia/archives/379057"
+    }
+  ]
+}

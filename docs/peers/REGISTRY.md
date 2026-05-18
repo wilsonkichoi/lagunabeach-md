@@ -111,6 +111,55 @@
   - **Crawler 雙 commit**：`90cfe924` (Stage 2-3 ingest data) + `ab037d3df` (Stage 4 corpus analysis)
   - 已知 corpus 缺口：王福瑞 standalone「How to NOISE」「Before NOISE」未抓進 corpus（issue 不收錄），Stage 6 寫 P0 #4 時補抓
 
+### PanSci · 泛科學 · 第一個正式 MOU Content Curation Partner
+
+- **ID**: `pansci`
+- **Name**: 泛科學 PanSci（泛科知識股份有限公司）
+- **Issue area**: 科普 / 科學傳播（醫療健康 / 科技能源 / 太空天文 / 環境生態 / 化學物理 / 動物世界 / 精神心理）
+- **Website**: https://pansci.asia/
+- **Status**: 🟢 active · **🌟 FIRST FORMAL MOU PARTNER**
+- **First ingested**: 2026-05-18（Stage 1-2 / Taiwan.md Semiont crawler via WP REST API）
+- **Last re-ingested**: 2026-05-18
+- **Next re-ingest recommendation**: 2026-11-18（6 個月，或授權清單更新時提前）
+- **MOU signed**: **2026-05-05**（吳哲宇 ↔ 徐挺耀）
+- **MOU expires**: **2029-12-31** ⚠️ 需在屆期前協議延長否則自動失效
+- **Partnership label** (per MOU §2.2): **「專業資料策展夥伴 Content Curation Partner」**
+- **License** (per MOU §3): **非獨家 / 不可轉讓** / 僅限 Taiwan.md 專案建置展示用途 / **不得用於商業銷售、再授權第三方**
+- **Raw data**: [`data/PanSci/`](../../data/PanSci/) （166 篇授權文章 + categories/tags raw + manifest）
+- **Crawler**: [`scripts/tools/fetch-pansci-data.py`](../../scripts/tools/fetch-pansci-data.py)
+- **Authorization list**: [`data/PanSci/_authorization/authorize-list.json`](../../data/PanSci/_authorization/authorize-list.json) — 166 篇 explicit 授權清單 / 2022-Q2 to 2025-Q1
+- **MOU PDF**: `data/PanSci/_authorization/Taiwan-md_PanSci_MOU_2026-05-05.pdf` (🔒 **gitignored** per MOU §6 保密義務 / 含對方聯繫資訊)
+- **Analysis report**: ⏳ pending Stage 4（next session — `reports/PanSci-semiont-analysis-YYYY-MM-DD.md`）
+- **Articles shipped (P0)**: **0/5** 🟡 pending Stage 4-6
+- **Articles pending (P1)**: 0/8
+- **Articles pending (P2)**: 0/7
+- **Partnership status**: **🟢 active** — MOU 已簽署 / 王喆宣 為 PanSci 聯繫窗口 / 哲宇 為 Taiwan.md 簽署人
+- **Key contacts** (per MOU): 
+  - 乙方負責人：徐挺耀（泛科知識股份有限公司 / 統編 24935439）
+  - 乙方聯繫人：王喆宣（聯繫窗口）
+- **Authorization scope (雙軌)**:
+  - **A 軌完整授權**：166 篇 explicit 清單 → 可深度引用 / 改寫 / 轉寫為 Taiwan.md 文章
+  - **B 軌一般引用**：其他 14,061 篇全網內容 → fair-use footnote / URL citation only
+- **Key features**:
+  - **科普翻譯專業**：把學術論文翻譯成大眾科普 / 編輯團隊長期經驗
+  - **科學生產品線**：77/166 篇為「科學生」（高中生科普）— 比一般科普更白話、教育性強
+  - **YouTube 延伸**：89/166 篇是「來自 YT」（影片文字版）— PanSci YT 頻道延伸
+  - **多元主題**：醫療 25 / 科技能源 38 / 太空天文 17 / 動物世界 12 / 精神心理 12 / 環境生態 12 …
+  - **互補性**：Taiwan.md 缺科學深度 / PanSci 強科學深度 / 雙方 narrative + science anchor 互補
+- **Mandatory site obligations** (per MOU §2.2):
+  - ⚠️ **Taiwan.md 官網某處公示 PanSci 為「Content Curation Partner」** — Stage 7 必做（建議建 /partners 頁面 or about/ 區）
+  - ⚠️ **每篇使用授權內容的頁面必須標註**：PanSci 名稱、logo、原始連結
+- **Fork compatibility caveat**:
+  - ⚠️ MOU §3「不可轉讓」明確阻斷 fork 繼承 — Japan.md / Korea.md fork **不能**使用 PanSci 授權內容
+  - `data/PanSci/` 內容若隨 repo fork 應在 README warn
+- **Notes**:
+  - **第三個 active peer**（TFT / NML / NMTH-overseas 之後）
+  - **第一個正式 MOU 簽署 partner**（前三個都是 fair-use peer ingestion）
+  - 寫進 Taiwan.md CONSCIOUSNESS 里程碑：「2026-05-05 第一個 Content Curation Partner」
+  - Session：2026-05-18 哲宇 directive `/twmd-peer 泛科學 + Excel + MOU PDF`
+  - Stage 1-2 fit check + crawler 已完成本 session，Stage 4+ 跨 session
+  - 對應 PEER-INGESTION-PIPELINE.md 為「MOU-backed peer」新 case（pipeline 原本針對 fair-use peer 設計，本 case 補強雙軌處理 + Curation Partner 公示義務）
+
 ### NMTH-overseas · 國立臺灣歷史博物館 · 海外史料看臺灣
 
 - **ID**: `nmth-overseas`

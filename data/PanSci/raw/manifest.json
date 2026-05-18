@@ -1,0 +1,13 @@
+{
+  "peer": "PanSci",
+  "fetched_at": "2026-05-18T13:20:29.359140+00:00",
+  "mou_signed": "2026-05-05",
+  "mou_expires": "2029-12-31",
+  "partnership_label": "Content Curation Partner",
+  "authorized_total": 166,
+  "this_run": {
+    "fetched": 163,
+    "skipped_existing": 3,
+    "failed": 0
+  }
+}
