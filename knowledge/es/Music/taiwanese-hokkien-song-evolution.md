@@ -1,3 +1,4 @@
+---
 title: "Evolución de las canciones en taiwanes: de la 'música de los abuelos' a la nueva favorita de los jóvenes bohemios"
 description: "Rastrea la evolución de las canciones en taiwanes desde la era del nakashi, Hong Yifeng y Jody Chiang hasta las nuevas generaciones de bandas como Eggplant Egg Band y Sorry Youth Band, explorando cómo la música en taiwanes ha recuperado la aceptación de las generaciones jóvenes."
 date: 2026-03-19

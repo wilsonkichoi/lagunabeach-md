@@ -1,489 +1,208 @@
 ---
-title: 'La cultura del KTV en Taiwán: la evolución de la era desde Holiday y Cashbox hasta la socialización en salas privadas'
-description: 'Explora el desarrollo de la cultura del KTV en Taiwán, desde la importación del karaoke japonés hasta la cultura local de salas privadas, la era de competencia entre Holiday y Cashbox, cómo las listas de canciones más solicitadas se convirtieron en indicadores de la cultura pop, y los desafíos de transformación industrial tras la pandemia'
+title: 'La cultura del KTV en Taiwán: la evolución de la socialización en cabinas desde Holiday y Cashbox'
+description: 'Explora el desarrollo de la cultura del KTV en Taiwán, desde la importación del karaoke japonés hasta la localización de la cultura de cabinas, la era de competencia entre Holiday y Cashbox, cómo las listas de canciones más solicitadas se convirtieron en indicadores de la cultura pop, y los desafíos de transformación industrial tras la pandemia'
 date: 2026-03-19
-tags:
-  [
-    'cultura KTV',
-    'karaoke',
-    'Holiday',
-    'Cashbox',
-    'cultura de salas privadas',
-    'música pop',
-    'cultura social',
-  ]
-subcategory: '音樂產業'
 author: 'Taiwan.md'
-readingTime: 12
-featured: true
 category: 'Music'
+subcategory: '音樂產業'
+tags: ['cultura KTV', 'karaoke', 'Holiday', 'Cashbox', 'cultura de cabinas', 'música pop', 'cultura social']
+readingTime: 12
 lastVerified: 2026-03-19
-lastHumanReview: false
+lastHumanReview: true
+featured: true
 translatedFrom: 'Music/台灣KTV文化.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:9ec6298d6c909b81'
-sourceBodyHash: 'sha256:93b7dc55fa7bfc35'
-translatedAt: '2026-05-01T20:54:23+08:00'
+sourceCommitSha: '0f8fae0ae'
+sourceContentHash: 'sha256:f8fc5fbf087fa0bc'
+sourceBodyHash: 'sha256:8fefb63f4d82855d'
+translatedAt: '2026-05-18T05:08:09+08:00'
 ---
 
-# La cultura del KTV en Taiwán: la evolución de la era desde Holiday y Cashbox hasta la socialización en salas privadas
+# La cultura del KTV en Taiwán: la evolución de la socialización en cabinas desde Holiday y Cashbox
 
-## Panorama en 30 segundos
+> **Resumen en 30 segundos:** La cultura del KTV en Taiwán se originó en la década de 1980 con la importación del karaoke desde Japón, desarrollando tras su localización un modelo único de socialización en cabinas. La intensa competencia entre Holiday (1993) y Cashbox (1989) en la década de 1990 estableció la estructura fundamental de la industria taiwanesa del KTV. Las listas de canciones más solicitadas influyeron directamente en las estrategias de ventas de discos y en la popularidad de los artistas. Desde reuniones entre amigos hasta eventos de negocios, el KTV se convirtió en un espacio ineludible de la vida social taiwanesa; tras la pandemia de COVID-19 en 2020, la industria enfrentó desafíos de transformación orientándose hacia modelos híbridos y digitalizados.
 
-La cultura del KTV en Taiwán se originó en la década de 1980 con la importación del karaoke desde Japón, desarrollando a través de su localización un modelo único de socialización en salas privadas. La intensa competencia entre Holiday y Cashbox en la década de 1990 sentó las bases de la estructura de la industria del KTV en Taiwán. Las listas de canciones más solicitadas se convirtieron en indicadores importantes de la música pop taiwanesa, influyendo en las ventas de discos y la popularidad de los cantantes. El KTV no es solo un lugar de entretenimiento, sino que también se ha desarrollado como un vehículo cultural social único en Taiwán, indispensable desde reuniones de amigos hasta eventos de negocios. Tras la pandemia, la industria enfrenta desafíos de transformación, orientándose hacia servicios diversificados.
-
-**Palabras clave:** KTV, karaoke, Holiday, Cashbox, cultura de salas privadas, listas de canciones más solicitadas, entretenimiento social
+**Palabras clave:** KTV, karaoke, Holiday, Cashbox, cultura de cabinas, listas de canciones más solicitadas, entretenimiento social
 
 ## Por qué es importante
 
-La cultura del KTV ha influido profundamente en los patrones sociales y el ecosistema de la música pop en Taiwán. No solo ha cambiado los hábitos de entretenimiento de los taiwaneses, sino que también se ha convertido en un canal importante para la promoción de la música pop. La autoridad de las listas de canciones más solicitadas en el KTV puede incluso influir en las estrategias de producción de las discográficas y en la dirección del desarrollo de los cantantes. Este modelo de "socialización en sala privada" se ha convertido en un fenómeno cultural exclusivo de Taiwán, reflejando las características de las relaciones interpersonales de la sociedad taiwanesa.
+La cultura del KTV ha influido profundamente en los patrones de socialización y en el ecosistema de la música popular en Taiwán. Transformó los hábitos de entretenimiento de los taiwaneses y se convirtió simultáneamente en un canal directo de promoción musical. Los datos de las listas de canciones más solicitadas en KTV influyeron de hecho en las estrategias de producción de las discográficas y en la dirección del desarrollo de los artistas. Este modelo de "socialización en cabina" se convirtió en un fenómeno cultural exclusivo de Taiwán, reflejando las características de las relaciones interpersonales en la sociedad taiwanesa.
 
 ## Orígenes: el desembarco del karaoke japonés en Taiwán (1980-1990)
 
-## Contexto del nacimiento del karaoke
+### El contexto de nacimiento del karaoke
 
-La palabra karaoke proviene de la abreviatura japonesa de "kara" (空, vacío) y "orquesta" (管弦楽, orquesta). Inventado en Japón en la década de 1970, originalmente era un equipo de música de fondo en bares que permitía a los clientes cantar siguiendo la música.
+La palabra karaoke proviene de la abreviatura japonesa de "kara" (空, vacío) y "orquesta" (orchestra). Inventado en la década de 1970 en Japón, originalmente era un equipo de música de fondo en bares que permitía a los clientes cantar acompañados por la música.
 
-## La importación temprana en Taiwán
+### La introducción temprana en Taiwán
 
-A principios de la década de 1980, los equipos de karaoke comenzaron a llegar a Taiwán. Inicialmente aparecían principalmente en hoteles, restaurantes y otros establecimientos, con acompañamiento de cintas de karaoke y equipos de sonido sencillos. En esta etapa, el karaoke aún no había desarrollado el modelo de salas privadas posterior; la mayoría se realizaba en espacios abiertos.
+A principios de la década de 1980, los equipos de karaoke comenzaron a llegar a Taiwán. Inicialmente aparecieron principalmente en hoteles y restaurantes, con cintas de acompañamiento y equipos de sonido sencillos. En esta etapa, el karaoke aún no había desarrollado el modelo de cabina posterior; la mayoría de las sesiones se realizaban en espacios abiertos.
 
-Las canciones tempranas de karaoke eran principalmente en japonés, complementadas con una pequeña cantidad de canciones populares en inglés. Con el desarrollo de la música pop taiwanesa, las canciones en chino fueron aumentando gradualmente.
+Las canciones tempranas de karaoke eran predominantemente en japonés, complementadas con una pequeña cantidad de canciones populares en inglés. Con el desarrollo de la música popular taiwanesa, la proporción de canciones en chino aumentó año tras año.
 
-## Evolución tecnológica y popularización
+### Evolución tecnológica y popularización
 
-A mediados y finales de la década de 1980, la tecnología de los equipos de acompañamiento mejoró continuamente:
+A mediados y finales de la década de 1980, la tecnología de los equipos de acompañamiento experimentó varias mejoras significativas: los discos láser (LD) ofrecieron mejor calidad de sonido e imagen; los sistemas de selección de canciones evolucionaron de la elección manual a sistemas computarizados; el equipo de sonido avanzó hacia micrófonos y sistemas de audio profesionales, y las discográficas comenzaron a proporcionar regularmente versiones de acompañamiento de canciones nuevas. Estos avances tecnológicos impulsaron directamente el auge posterior de la industria de cabinas de KTV.
 
-- **Disco láser (LD):** ofrecía mejor calidad de sonido e imagen
-- **Sistema de selección de canciones:** evolucionó de la selección manual a sistemas informatizados
-- **Equipos de sonido:** micrófonos y sistemas de sonido profesionalizados
+## Desarrollo industrial: el auge de las marcas en cadena (1990-2000)
 
-Estos avances tecnológicos sentaron las bases para el posterior auge de la industria del KTV.
+### El papel pionero de Holiday
 
-## Desarrollo industrial: el auge de las cadenas de franquicias (1990-2000)
+En 1993, se fundó **Holiday**, convirtiéndose en una de las marcas de KTV en cadena más representativas de Taiwán. Su fundador, **Lu Yen-hsien**, introdujo en Taiwán el concepto japonés de cabinas de karaoke y lo adaptó según los hábitos de consumo locales.[^1]
 
-## El papel pionero de Holiday
+Holiday estableció varias innovaciones que se convirtieron en estándares de la industria: el sistema de cabinas reemplazó los espacios abiertos ofreciendo un espacio privado para cantar; el modelo de cobro por tiempo reemplazó el sistema de consumo tradicional; se incorporó un amplio catálogo de canciones populares en chino con actualizaciones rápidas de los temas más recientes; se establecieron procesos de servicio estandarizados para mejorar la consistencia de la experiencia general, y se adoptó un modelo de franquicia en cadena para expandir rápidamente su presencia en todo Taiwán.
 
-En 1990, se fundó **Holiday**, convirtiéndose en la primera gran cadena de KTV en Taiwán. Su fundador, **Shi Xie-Rong**, introdujo en Taiwán el concepto japonés de salas privadas de karaoke y lo adaptó según los hábitos de consumo locales.
+### La fuerte competencia de Cashbox
 
-Las innovaciones de Holiday incluyeron:
+En 1989, **Cashbox** abrió su primera tienda en la calle Linsen del Norte en Taipéi. Su fundador, Liu Ying, ingresó al mercado como marca local taiwanesa adoptando una línea de alta gama, reconocida por su lujosa decoración y servicio de calidad.[^2] A partir de la década de 1990, entabló una intensa competencia con Holiday.
 
-- **Sistema de salas privadas:** ofrecía espacios íntimos para cantar
-- **Tarificación por tiempo:** modelo de negocio basado en el cobro por horas
-- **Creación de un repertorio musical:** amplia colección de canciones populares en chino
-- **Estandarización del servicio:** establecimiento de procesos de servicio uniformes
+Las estrategias competitivas de ambas marcas eran radicalmente diferentes. Holiday apostó por un enfoque popular: precios accesibles, numerosos locales, actualización rápida de canciones, procesos de servicio estandarizados para maximizar la rotación de clientes, y un diseño de cabinas funcional sin pretensiones de lujo. Cashbox, en cambio, siguió una ruta de alta gama: diseño lujoso de cabinas, servicio de alimentos y bebidas de calidad, orientación al segmento corporativo, especificaciones altas de equipamiento dentro de las cabinas, e imagen de marca que apela a la moda y el gusto urbano.
 
-## La fuerte competencia de Cashbox
+### Crecimiento explosivo del mercado
 
-En 1992, **Cashbox** entró en el mercado taiwán, iniciando una intensa competencia con Holiday. Cashbox era originalmente una marca japonesa de KTV que adoptó una línea de lujo en Taiwán, destacando por su decoración suntuosa y servicio de calidad.
+A mediados de la década de 1990, la industria del KTV en Taiwán entró en un período de crecimiento explosivo. Además de Holiday y Cashbox, varias marcas se sumaron a la competencia: Spot se enfocó en un modelo híbrido combinado con restauración dirigido a un segmento de mayor poder adquisitivo; Shang Hsin Wen se centró en cabinas comunitarias pequeñas y convenientes; Huan Le Dao capturó el mercado estudiantil cercano a universidades; Party World Li Du compitió por el mercado de alta gama con lujosa decoración a la par de Cashbox, y Yu Zhou Cheng operó como cadena regional en ciudades secundarias del norte.
 
-Las estrategias competitivas de ambas marcas:
+Hacia finales de la década de 1990, el número de cabinas de KTV en todo Taiwán superó las 200.000, con más de 100.000 empleados y una facturación anual que excedía los 50.000 millones de dólares taiwaneses.[^3]
 
-**Holiday: enfoque popular**
+### Expansión y contracción de las cadenas
 
-- Precios accesibles, adecuados para estudiantes y trabajadores
-- Amplia distribución de locales, con fácil acceso al transporte
-- Énfasis en la rápida actualización del repertorio musical
+A partir de la década de 2000, el mercado de KTV entró en un período de consolidación. Holiday alcanzó su apogeo con más de cien locales distribuidos por todo Taiwán; Cashbox renovó sus establecimientos en múltiples ocasiones, reforzando continuamente su línea de lujo. Las marcas más pequeñas fueron abandonando el mercado debido al aumento de alquileres y la intensa competencia. En 2019, Holiday y Cashbox anunciaron su fusión, marcando una nueva etapa de integración de los dos líderes del mercado taiwanés de KTV.
 
-**Cashbox: enfoque premium**
+## El significado social de la cultura de cabinas (1995-2010)
 
-- Diseño de salas privadas lujosas, decoración de alta gama
-- Servicio de alimentos y bebidas de calidad
-- Orientación hacia clientela empresarial
+### El modelo de socialización taiwanés
 
-## Crecimiento explosivo del mercado
+Las cabinas de KTV crearon un modelo social único en Taiwán. A diferencia de la cultura de bares occidental o de los izakaya japoneses, los taiwaneses desarrollaron una cultura de reuniones centrada en "cantar".
 
-A mediados de la década de 1990, la industria del KTV en Taiwán entró en un período de crecimiento explosivo. Además de Holiday y Cashbox, varias marcas más se unieron a la competencia:
+En el ámbito de las reuniones entre amigos, el KTV es el lugar preferido para celebrar cumpleaños y cenas de graduación, ofreciendo un espacio seguro y privado para reuniones, adecuado para entretenimiento compartido entre diferentes generaciones, y permitiendo que quienes no son buenos con las palabras se integren al grupo a través de la canción. En el ámbito de los negocios, el KTV se convirtió en un espacio importante de socialización corporativa: el ambiente de "diversión compartida" facilita la construcción de relaciones; la visita al KTV tras una cena se convirtió en una extensión estándar de los eventos corporativos, y también sirve como plataforma para mostrar carisma y habilidades sociales. En cuanto a las reuniones familiares, el KTV es una actividad extendida de las cenas familiares, una forma de entretenimiento que puede acomodar tres generaciones bajo un mismo techo, y permite que mayores y jóvenes encuentren un lenguaje musical común.
 
-- **Xingju Dian:** operación combinada con restauración
-- **Xiang Wenxin:** KTV comunitario de pequeñas salas privadas
-- **Huanle Dao:** orientado al mercado estudiantil
+### El fenómeno de la cultura del "tiramicrófonos"
 
-Hacia finales de la década de 1990, el número de salas privadas de KTV en todo Taiwán superaba las 200.000, con más de 100.000 empleados y una facturación anual que excedía los 50.000 millones de dólares taiwaneses.
+La cultura del KTV en Taiwán dio origen al fenómeno del "tiramicrófonos" (麥霸), que se refiere a la persona que domina el canto dentro de la cabina. El tiramicrófonos suele tener talento vocal, capacidad de animar el ambiente, un repertorio amplio, habilidades sociales, una fuerte inclinación al espectáculo y sabe pasar el micrófono de forma natural a la persona adecuada. La cultura del tiramicrófonos refleja el rasgo de "personalidad expresiva" en la socialización taiwanesa y ha aparecido repetidamente como símbolo cultural en programas de televisión y publicidad; el contrapuesto al tiramicrófonos (la parte incómoda "privada del micrófono por el tiramicrófonos") también se ha convertido en una memoria colectiva compartida por los taiwaneses.
 
-## El significado social de la cultura de salas privadas (1995-2010)
+### La psicología del comportamiento al solicitar canciones
 
-## El modelo social taiwanés
+El comportamiento de solicitar canciones en el KTV refleja mecanismos psicológicos complejos. La catarsis emocional es la capa más directa: solicitar canciones de despecho tras una ruptura, elegir canciones alegres cuando se está contento, usar canciones de notas altas para liberar estrés; las letras se convierten en portavoz de los sentimientos internos. La identidad se manifiesta a través de la selección de canciones: temas que representan el gusto personal, declaraciones de identidad generacional, construcción de un sentido de pertenencia grupal; la tasa de solicitud de canciones antiguas a menudo refleja la intensidad de la nostalgia. En el plano de la interacción social, incluye solicitar canciones para otros como muestra de afecto, cantar a dúo para fortalecer vínculos, y canciones específicas que se convierten en "código secreto" de grupos particulares.
 
-Las salas privadas de KTV crearon un modelo social único en Taiwán. A diferencia de la cultura de los bares occidentales o los izakayas japoneses, los taiwaneses desarrollaron una cultura de reuniones centrada en "cantar".
+### Privacidad y seguridad de la cabina
 
-**Reuniones de amigos**
+La estructura de las cabinas de KTV en Taiwán proporciona una función social clave: un espacio privado relativamente seguro. La naturaleza cerrada de la cabina reduce la autocrítica; beber moderadamente mientras se canta se convierte en un ritual de "romper el hielo" en la socialización taiwanesa; las personas que no se conocen bien pueden entrar en un estado relajado más rápidamente dentro de la cabina. La característica de "no exhibición hacia el exterior" de la cabina permite que incluso los cantantes menos seguros se atrevan a abrir la boca.
 
-- Lugar preferido para celebrar cumpleaños y cenas de graduación
-- Ofrece un espacio de reunión seguro e íntimo
-- Entretenimiento común adecuado para diferentes grupos de edad
+## Indicador de música popular: la influencia de las listas de canciones más solicitadas (1995-2015)
 
-**Eventos de negocios**
+### El establecimiento de la autoridad de las listas
 
-- Importante espacio social empresarial
-- La atmósfera de "diversión compartida" facilita el establecimiento de relaciones comerciales
-- Plataforma para mostrar carisma personal y habilidades sociales
+Las listas de canciones más solicitadas en KTV adquirieron estatus como indicador de música popular a partir de mediados de la década de 1990, y su credibilidad incluso superó a las listas tradicionales de ventas de discos.[^4] Esto se debe a la superposición de cuatro razones: reflejan en tiempo real las canciones más populares del momento, abarcan a todas las generaciones con un carácter masivo, se basan en estadísticas de comportamiento de consumo real y son difíciles de manipular, y su actualización semanal permite observar tendencias continuas.
 
-**Reuniones familiares**
+### Impacto en la industria discográfica
 
-- Actividad extendida de las cenas familiares
-- Entretenimiento común para tres generaciones
-- Actividad importante en celebraciones festivas
+Las listas de KTV influyeron profundamente en el ecosistema de la industria discográfica taiwanesa. Los ajustes en las estrategias de producción se orientaron hacia "crear canciones fáciles de cantar para KTV": priorizar el potencial de ser tarareada y la facilidad de memorización, ajustar el rango vocal para que sea adecuado para el público general, y diseñar estribillos fáciles de recordar y seguir. En las estrategias de promoción, las discográficas dieron importancia a la promoción de canciones a través del canal KTV, colaboraron con operadores de KTV para lanzar temas nuevos, invitaron a artistas a realizar pequeños conciertos en KTV, y utilizaron la tasa de solicitud de canciones como indicador para evaluar la efectividad de la promoción. La construcción de la imagen del artista también cambió: la afinidad con el KTV se convirtió en un indicador de la popularidad de un artista; los cantantes capaces de "animar" el ambiente en vivo ganaron mayor aceptación; el hecho de que canciones pudieran ser solicitadas por todas las generaciones se convirtió en un indicador directo de si un artista había penetrado verdaderamente en el mercado dominante.
 
-## El fenómeno cultural del "maikba"
+### Las condiciones para la formación de clásicos del KTV
 
-La cultura del KTV en Taiwán dio lugar al fenómeno del "maikba" (麥霸) — la persona que domina el canto dentro de la sala privada. Un maikba generalmente presenta las siguientes características:
+No toda canción puede convertirse en un clásico del KTV. Las canciones que logran mantenerse en las listas suelen compartir varias características. El rango vocal adecuado es el requisito básico: ni demasiado alto ni demasiado bajo, con notas altas clave en un rango que sea desafiante pero no lesivo. Las letras con fuerte resonancia emocional dejan huella: abordan sentimientos universales como el amor, la amistad y la nostalgia, con un significado claro y adecuado para cantar en grupo. Las canciones con ritmo fácil de seguir tienen un compás de estribillo estable y no excesivamente complejo, adecuado para cantar en un estado de ligera embriaguez. Los giros emocionales marcados permiten al cantante tener momentos de "exhibición"; una estructura clara de introducción, desarrollo, giro y conclusión puede generar clímax emocionales.
 
-- **Habilidad vocal destacada:** gran talento para cantar, capaz de animar el ambiente
-- **Amplio repertorio musical:** conoce una gran cantidad de canciones y puede satisfacer las peticiones
-- **Habilidad social:** bueno para regular el ambiente de la sala privada
-- **Fuerte deseo de actuación:** disfruta siendo el centro de atención
+### Análisis de datos y tendencias
 
-La cultura del maikba refleja el rasgo de "personalidad expresiva" en las relaciones sociales taiwanesas y se ha convertido en un elemento importante de la cultura popular.
-
-## La psicología del comportamiento al solicitar canciones
-
-El comportamiento de solicitar canciones en el KTV refleja mecanismos psicológicos complejos:
-
-**Catarsis emocional**
-
-- Solicitar canciones de amor triste cuando se está despechado
-- Elegir canciones alegres cuando se está contento
-- Expresar sentimientos internos a través de las letras
-
-**Identidad personal**
-
-- Elegir canciones que representan el gusto personal
-- Mostrar identidad generacional a través de las canciones
-- Establecer sentido de pertenencia grupal mediante la música
-
-**Interacción social**
-
-- Solicitar canciones para otros como muestra de afecto
-- Cantar a dúo para fortalecer vínculos
-- Dialogar a través de la música
-
-## Indicador de música pop: la influencia de las listas de canciones más solicitadas (1995-2015)
-
-## El establecimiento de la autoridad de las listas
-
-Las listas de canciones más solicitadas en el KTV se convirtieron gradualmente en un indicador importante de la música pop taiwanesa, cuya autoridad incluso superó a las listas tradicionales de ventas de discos. Esto se debe a:
-
-- **Inmediatez:** reflejan las canciones más populares del momento
-- **Carácter masivo:** abarcan los gustos de todas las generaciones
-- **Autenticidad:** basadas en estadísticas de comportamiento de consumo real
-
-## Impacto en la industria discográfica
-
-Las listas del KTV influyeron profundamente en el ecosistema de la industria discográfica taiwanesa:
-
-**Ajuste de estrategias de producción**
-
-- Producción de canciones "fáciles de cantar" específicamente para KTV
-- Énfasis en el grado de pegadizo y facilidad de las canciones
-- Ajuste del rango vocal para adaptarse a cantantes aficionados
-
-**Cambio en estrategias promocionales**
-
-- Mayor énfasis en la promoción de canciones a través del canal KTV
-- Colaboración con operadores de KTV para lanzar nuevas canciones
-- Invitación de cantantes a realizar pequeños conciertos en locales de KTV
-
-## Canciones clásicas del KTV
-
-Ciertas canciones se convirtieron en clásicos por ser especialmente adecuadas para cantar en el KTV:
-
-**Imprescindibles clásicos**
-
-**Canciones emblemáticas para cantar a dúo**
-
-**Recuerdos generacionales**
-
-## Análisis de datos y tendencias
-
-Los operadores de KTV publican regularmente listas de canciones más solicitadas, convirtiéndose en datos importantes para observar las tendencias de la música pop:
-
-**Listas anuales**
-
-- Reflejan las canciones más populares del año
-- Muestran cambios en las preferencias musicales entre generaciones
-- Predicen tendencias futuras de la música pop
-
-**Análisis de diferencias regionales**
-
-- El norte prefiere canciones internacionalizadas
-- El sur tiene mayor afinidad por las canciones en taiwanés
-- Diferencias de gustos entre zonas urbanas y rurales
+Los operadores de KTV publican regularmente listas de canciones más solicitadas, proporcionando datos de primera mano para observar tendencias en la música popular. Las listas anuales reflejan las canciones más populares del año, muestran cambios en las preferencias musicales de diferentes generaciones, predicen tendencias futuras de popularidad y sirven como base para que las discográficas ajusten sus direcciones de producción para el año siguiente. El análisis de diferencias regionales revela otra capa de información: el norte muestra preferencia por canciones internacionales, con alta aceptación de temas en inglés, japonés y coreano; el sur tiene mayor afinidad por canciones en taiwanés, y las canciones en taiwanés mantienen una presencia fuerte en las listas de KTV del sur; las diferencias de preferencia entre zonas urbanas y rurales reflejan distintos grados de exposición cultural.
 
 ## Evolución tecnológica e innovación de servicios (2000-2020)
 
-## Transformación digital
+### Transformación digital
 
-A partir de la década de 2000, la industria del KTV inició su transformación digital:
+A partir de la década de 2000, la industria del KTV inició su transformación digital. Los sistemas de selección de canciones con disco duro reemplazaron a los sistemas tradicionales de CD+G, ofreciendo una respuesta de selección más rápida, una biblioteca musical de mayor capacidad y actualizaciones en la nube que aceleraron enormemente la incorporación de nuevas canciones. Las interfaces táctiles de selección de canciones proporcionaron una experiencia intuitiva, con soporte de búsqueda por entrada en chino, inglés y zhuyin, previsualización de canciones y recomendaciones inteligentes basadas en el historial de solicitudes. En cuanto a audio y video de alta definición, la calidad de imagen del DVD se elevó a HD e incluso 4K, los efectos de sonido estereofónico se actualizaron a campos de sonido envolvente, la calidad de producción de los videoclips mejoró continuamente, y los micrófonos incorporaron efectos de reverberación para que incluso las voces comunes sonaran mejor.
 
-**Sistema de selección de canciones por disco duro**
+### Diversificación de servicios
 
-- Reemplazó al sistema tradicional CD+G
-- Ofrece una respuesta de selección de canciones más rápida
-- Soporta bibliotecas musicales de mayor capacidad
+Los operadores de KTV innovaron continuamente en el contenido de sus servicios. La mejora de la restauración pasó de simples refrigerios a menús refinados, colaboraron con restaurantes reconocidos para ofrecer paquetes de comida, y proporcionaron servicios personalizados de celebración (tartas de cumpleaños, decoración) junto con opciones integradas de coctelería. Las cabinas temáticas desarrollaron diseños de diferentes estilos (temática de cine, temática de anime), decoraciones especiales para festividades (Navidad, San Valentín), servicios exclusivos para cabinas VIP de lujo, y equipos audiovisuales de gama alta para entusiastas exigentes. Los programas de membresía incluyeron sistemas de recompensa por puntos, descuentos de cumpleaños, recomendaciones personalizadas de canciones basadas en el historial, y planes de membresía corporativa orientados a eventos de negocios.
 
-**Interfaz táctil de selección de canciones**
+### Integración de aplicaciones móviles
 
-- Interfaz de operación intuitiva
-- Soporte de búsqueda en chino e inglés
-- Función de previsualización de canciones
-
-**Video y audio de alta definición**
-
-- La calidad de imagen del DVD mejoró hasta HD e incluso 4K
-- Actualización del sonido estéreo
-- Mejora continua en la calidad de producción de los videoclips musicales
-
-## Diversificación de servicios
-
-Los operadores de KTV innovaron continuamente en el contenido de sus servicios:
-
-**Mejora de la restauración**
-
-- De simples refrigerios a menús elaborados
-- Colaboración con restaurantes reconocidos para ofrecer paquetes
-- Servicios de celebración personalizados
-
-**Tematización de salas privadas**
-
-- Diseños de salas privadas de diferentes estilos
-- Salas privadas temáticas para festividades
-- Servicio de salas privadas VIP de lujo
-
-**Sistema de membresía**
-
-- Programas de recompensa por puntos
-- Descuentos de cumpleaños y eventos especiales
-- Recomendaciones personalizadas de canciones
-
-## Integración con aplicaciones móviles
-
-Tras la popularización de los teléfonos inteligentes, los operadores de KTV desarrollaron aplicaciones móviles:
-
-**Selección de canciones desde el móvil**
-
-- Usar el teléfono como control remoto para seleccionar canciones
-- Soporte de búsqueda por voz
-- Gestión de listas de reproducción personales
-
-**Compartir en redes sociales**
-
-- Compartir grabaciones en redes sociales
-- Subir fotos en tiempo real desde la sala privada
-- Función para compartir actividades con amigos
+Tras la popularización de los teléfonos inteligentes, los operadores de KTV desarrollaron aplicaciones móviles. La selección de canciones móvil convirtió el teléfono en un control remoto, con soporte de búsqueda por voz, colas de reproducción personalizadas preparadas previamente, y la posibilidad de que varias personas solicitaran canciones simultáneamente para decidir democráticamente el orden de canto. En el plano del compartir social, se integró la subida de grabaciones a redes sociales, fotos instantáneas dentro de la cabina, compartir actividades de amigos, y funciones de check-in integradas con servicios de mapas, convirtiendo la cabina en un escenario para publicaciones.
 
 ## Impacto de la pandemia y transformación industrial (2020-presente)
 
-## El impacto devastador de COVID-19
+### El impacto devastador del COVID-19
 
-La pandemia de COVID-19 en 2020 causó un golpe significativo a la industria del KTV:
+La pandemia de COVID-19 en 2020 causó un golpe severo a la industria del KTV.[^5] Las restricciones operativas fueron las más directas: múltiples cierres forzados o estrictas limitaciones de horario de funcionamiento; el número de personas por cabina se redujo de 10-20 a menos de 5; los estrictos protocolos de desinfección y control de personal incrementaron enormemente los costos, y las normativas de prevención epidemiológica inconsistentes entre condados dificultaron la gestión de locales en diferentes jurisdicciones. El comportamiento del consumidor también cambió: la población redujo el entretenimiento grupal; los eventos corporativos prácticamente se paralizaron (los KTV orientados a negocios fueron los más afectados); las generaciones jóvenes se desplazaron hacia entretenimiento en línea como Netflix y transmisiones de videojuegos, y las reuniones familiares también disminuyeron debido a la mayor conciencia sanitaria. La presión financiera provino de costos fijos incompresibles: alquiler, depreciación de equipos y salarios de empleados difíciles de reducir; tras la reducción del número de cabinas, los ingresos no podían cubrir los gastos originales; varios operadores solicitaron subsidios gubernamentales de alivio, y algunos optaron por rescindir anticipadamente sus contratos de alquiler para reducir la escala de sus operaciones.
 
-**Restricciones operativas**
+### Consolidación y salida del mercado
 
-- Múltiples cierres forzados o limitaciones de horario
-- Limitación del número de personas por sala privada, afectando los ingresos
-- Estrictas medidas sanitarias que incrementaron los costos operativos
+La pandemia aceleró la consolidación de la industria del KTV. En cuanto a la salida de marcas, algunas marcas pequeñas no pudieron soportar el impacto de los cierres prolongados y cesaron sus operaciones; los operadores individuales abandonaron el mercado en masa, incapaces de competir con la ventaja capitalista de las cadenas, lo que resultó en un aumento significativo de la concentración del mercado. En cuanto al ajuste de locales, se priorizaron las ubicaciones en zonas prime con alquileres altos que apenas se mantenían, mientras que los locales en zonas periféricas o ciudades secundarias se redujeron drásticamente; el número total de cabinas se redujo desde el pico de 2019. Los cambios en el personal incluyeron el desempleo de un gran número de trabajadores temporales y a tiempo parcial; algunos empleados clave se reubicaron en otras industrias de restauración y entretenimiento; tras la remisión de la pandemia, la reincorporación de talento fue difícil, lo que provocó una caída temporal en la calidad del servicio.
 
-**Cambios en el comportamiento del consumidor**
+### Intentos de innovación y transformación
 
-- Reducción de actividades de entretenimiento grupal por parte de la población
-- Disminución drástica de eventos de negocios
-- Las generaciones jóvenes se inclinaron hacia el entretenimiento en línea
+Frente a los desafíos, los operadores de KTV se transformaron activamente. La operación híbrida combinó funciones de restaurante, cafetería y bar, generando ingresos con servicios de restauración durante el día; las cabinas ociosas se alquilaban como salas de reuniones o espacios para eventos privados, diversificando los ingresos para reducir la dependencia de los ingresos nocturnos del KTV. Los servicios de KTV en línea desarrollaron alquiler de equipos para el hogar (micrófonos, sistemas de sonido prestados), lanzaron aplicaciones que permitían experimentar la sensación de cabina en casa, e intentaron servicios de cabinas virtuales integrados con plataformas de transmisión en vivo. La tendencia hacia la miniaturización desarrolló cabinas miniaturizadas con moneda en centros comerciales y estaciones de metro, ofreciendo cabinas comunitarias elegantes para 2-4 personas, reduciendo el umbral mínimo de consumo para atraer a clientes individuales o grupos pequeños.
 
-**Presión financiera**
-
-- Fuerte carga de costos fijos (alquiler, depreciación de equipos)
-- Dificultad para reducir salarios de empleados y costos operativos
-- Varios operadores enfrentaron dificultades financieras
-
-## Consolidación industrial y salidas del mercado
-
-La pandemia aceleró la consolidación de la industria del KTV:
-
-**Retiro de marcas**
-
-- Algunas marcas pequeñas y medianas cerraron definitivamente
-- Muchos operadores individuales abandonaron el mercado
-- Mayor concentración del mercado
-
-**Ajuste de locales**
-
-- Priorización de locales en ubicaciones prime con alquileres altos
-- Reducción de locales en zonas suburbanas o secundarias
-- Disminución general del número de salas privadas
-
-## Intentos de transformación e innovación
-
-Ante los desafíos, los operadores de KTV se transformaron activamente:
-
-**Operación diversificada**
-
-- Combinación de funciones de restaurante, café y bar
-- Servicio de restauración durante el día y KTV por la noche
-- Operación diversificada para dispersar riesgos
-
-**Servicios de KTV en línea**
-
-- Desarrollo de alquiler de equipos de KTV para el hogar
-- Lanzamiento de aplicaciones de KTV en línea
-- Servicios de transmisión en vivo en salas privadas virtuales
-
-**Tendencia hacia la miniaturización**
-
-- Desarrollo de equipos de KTV mini
-- KTV comunitario de pequeñas salas privadas
-- Salas privadas elegantes adecuadas para grupos pequeños
-
-## Nueva normalidad sanitaria
+### La nueva normalidad sanitaria
 
 Tras la pandemia, la industria del KTV estableció una nueva normalidad sanitaria:
 
-**Elevación de estándares de higiene**
+**Estándares de higiene elevados**
 
-- Limpieza y desinfección profunda de las salas privadas
-- Mayor frecuencia de cambio de fundas de micrófono
-- Actualización de equipos de purificación de aire
+- Limpieza y desinfección profunda de cabinas, con desinfección completa entre cada grupo de clientes
+- Aumento en la frecuencia de cambio de fundas de micrófono, ofreciendo fundas desechables
+- Actualización de equipos de purificación de aire, con filtros HEPA como estándar
 
-**Servicios sin contacto**
+**Servicio sin contacto**
 
-- Selección de canciones y pedidos mediante código QR
-- Popularización de pagos móviles
-- Procesos de servicio que reducen el contacto entre personas
+- Selección de canciones y pedidos mediante QR, reduciendo la frecuencia de entrada del personal a la cabina
+- Popularización del pago móvil, con una drástica reducción en el uso de efectivo
+- Control inteligente de cabina (iluminación, volumen, llamadas de servicio) operado completamente desde tabletas
 
-## Diferencias generacionales y cambios culturales (2010-presente)
+## Diferencias generacionales y cambio cultural (2010-presente)
 
-## La cultura del KTV según las generaciones
+### La cultura del KTV según la generación
 
-**Generación senior (más de 50 años)**
+La generación senior, mayor de 50 años, prefiere canciones clásicas y éxitos nostálgicos, valora la calidad del sonido y prioriza la función social sobre el entretenimiento. Para ellos, el KTV es un espacio emocional importante; la canción es memoria.
 
-- Prefiere canciones clásicas y éxitos nostálgicos
-- Valora los efectos de sonido y la calidad del audio
-- La función social prevalece sobre la de entretenimiento
+La generación intermedia, de 30 a 50 años, es la principal consumidora de música popular de las décadas de 1980 y 1990, y también la organizadora central de eventos corporativos y reuniones familiares; tienen alta aceptación de canciones nuevas mientras mantienen un vínculo emocional con las antiguas, y constituyen el grupo de mayor consumo en KTV.
 
-**Generación intermedia (30-50 años)**
+La generación joven, de 18 a 30 años, prefiere las canciones populares más recientes y el K-pop, valora los efectos visuales y el compartir en redes sociales. Para ellos, el KTV es una opción entre muchas para reuniones de amigos, no la única; la demanda de fotos en cabina es alta, y esta generación es también el principal segmento de consumo de cabinas temáticas.
 
-- Principal consumidora de canciones populares de las décadas de 1980 y 1990
-- Canal importante para eventos de negocios
-- Organizadora central de reuniones familiares
+### Diversificación de géneros musicales
 
-**Generación joven (18-30 años)**
+Con la internacionalización del mercado musical taiwanés, los géneros de canciones en KTV se han diversificado. La ola coreana ha traído una gran cantidad de K-pop al catálogo, las técnicas de canto en coreano han ganado reconocimiento, y las canciones de ídolos coreanos se han convertido en imprescindibles para el público joven. Las canciones populares japonesas y las bandas sonoras de anime siguen siendo populares; cantar en japonés se ha convertido en una forma de demostrar talento. La música popular en inglés ofrece canciones internacionales actualizadas en tiempo real; la capacidad de cantar en inglés se percibe como una experiencia transcultural. La música popular en taiwanés ha resurgido en los últimos años; bandas de nueva generación como EggPlantEgg y No Party for Cao Dong han llevado a las generaciones jóvenes a redescubrir las canciones en taiwanés; la expansión del catálogo de canciones en taiwanés en KTV refleja el recalentamiento de la demanda del mercado.
 
-- Prefiere las canciones populares más recientes y el K-pop
-- Valora los efectos visuales y compartir en redes sociales
-- Considera el KTV como una opción entre varias para reuniones de amigos
+### El KTV en la era de las redes sociales
 
-## Diversificación de géneros musicales
-
-Con la internacionalización del mercado musical taiwanés, los géneros de canciones en el KTV se han diversificado:
-
-**Influencia coreana**
-
-- Gran cantidad de canciones de K-pop ingresaron al KTV
-- Las técnicas de canto en coreano ganaron reconocimiento
-
-**Cultura japonesa**
-
-- Las canciones populares japonesas siguen siendo muy apreciadas
-- Las canciones de anime se convirtieron en favoritas de grupos específicos
-- Cantar en japonés se volvió una muestra de talento
-
-**Música pop en inglés**
-
-- Actualización inmediata de canciones populares internacionales
-- Mayor énfasis en la habilidad para cantar en inglés
-- Demanda de experiencias musicales transculturales
-
-## El KTV en la era de las redes sociales
-
-Las redes sociales cambiaron los patrones de uso del KTV:
-
-**Fotos y publicaciones**
-
-- Las salas privadas se convirtieron en fondos para fotografías
-- Las salas privadas temáticas cuidadosamente decoradas ganaron popularidad
-- Las publicaciones en redes sociales se convirtieron en herramientas de promoción
-
-**Compartir videos cortos**
-
-- Subir fragmentos de actuaciones a TikTok e Instagram
-- El KTV como escenario para la creación de contenido
-- El efecto de los influencers impulsa la popularidad de canciones específicas
+Las redes sociales han cambiado los patrones de uso del KTV. La cabina se ha convertido en un fondo para fotografías; las cabinas temáticas con decoración elaborada gozan de especial popularidad, y las publicaciones en redes se han convertido en una herramienta de marketing de boca a boca de costo mínimo. Los fragmentos de actuaciones se suben a TikTok e Instagram Reels, convirtiendo al KTV en un escenario para la creación de contenido de video corto; el efecto de los influencers también impulsa la popularidad de canciones específicas. Algunos KTV ofrecen alquiler de equipos de transmisión en vivo, permitiendo a los influencers realizar transmisiones desde la cabina; la transmisión en cabina se ha convertido en una forma ligera de entrada a las transmisiones musicales en vivo, donde los espectadores pueden interactuar con el transmisor solicitando canciones, creando una experiencia mixta de lo virtual y lo real.
 
 ## Tendencias y desafíos del futuro
 
-## Oportunidades de innovación tecnológica
+### Oportunidades de innovación tecnológica
 
-**Aplicaciones de inteligencia artificial**
+La inteligencia artificial hace que la selección de canciones y el control de sonido en KTV sean más precisos: los sistemas de recomendación por IA ofrecen sugerencias según el estado de ánimo, la edad y las preferencias históricas; el control inteligente de sonido corrige automáticamente los efectos según el tamaño de la cabina; el reconocimiento de voz optimiza la experiencia de selección de canciones, haciendo posible la búsqueda por lenguaje natural.
 
-- Sistemas de recomendación con IA para sugerir canciones con precisión
-- Control inteligente de audio para ajustar el mejor efecto de sonido
-- Reconocimiento de voz para optimizar la experiencia de selección de canciones
+La realidad virtual trae nuevos contextos de actuación: los conciertos en VR hacen que el usuario se sienta como si cantara en un recinto masivo; la función de dúo con cantantes virtuales permite incluso "actuar junto a" cantantes de IA o ídolos fallecidos, creando escenarios de actuación inmersivos.
 
-**Experiencias de realidad virtual**
+La integración de la tecnología 5G transforma el modelo de catálogo musical e interacción: la biblioteca musical en la nube se actualiza en tiempo real, eliminando los tiempos de espera para nuevas canciones; la calidad del audio en streaming de alta definición es comparable a la de un estudio de grabación, y la función de canto conectado entre cabinas en diferentes ubicaciones se hace posible.
 
-- Experiencias de concierto en realidad virtual
-- Función de dúo con cantantes virtuales
-- Escenarios de actuación inmersivos
+### Desarrollo por segmentación de mercado
 
-**Integración con tecnología 5G**
+El mercado de alta gama se centra en cabinas VIP lujosas, combinadas con equipos de sonido de gama alta para satisfacer las necesidades de los audiófilos, con servicios personalizados exclusivos que se extienden incluso a la presencia de estilistas y bartenders. El mercado masivo y accesible sigue la ruta de KTV comunitarios convenientes, cercanos a zonas residenciales, ofreciendo planes con descuento para estudiantes y un diseño de cabinas sencillo y funcional. Los mercados nicho especializados atienden las necesidades de creadores musicales y enseñanza vocal, proporcionando equipos de nivel profesional de estudio de grabación y cabinas dedicadas.
 
-- Actualización en tiempo real de bibliotecas musicales en la nube
-- Experiencia de audio en streaming de alta calidad
-- Función de canto conectado desde múltiples ubicaciones
+### Consideraciones para la operación sostenible
 
-## Desarrollo por segmentación de mercado
-
-**Mercado premium de lujo**
-
-- Servicio de salas privadas VIP de alta gama
-- Configuración de equipos de audio de primera categoría
-- Servicio personalizado exclusivo
-
-**Mercado popular accesible**
-
-- KTV comunitario de proximidad
-- Planes con descuento para estudiantes
-- Diseño de salas privadas sencillo y funcional
-
-**Mercado especializado profesional**
-
-- Equipos de nivel de estudio de grabación
-- Espacios dedicados para creadores musicales
-- Salas privadas especializadas para práctica y enseñanza
-
-## Consideraciones para la operación sostenible
-
-**Ecología y ahorro energético**
-
-- Equipos de bajo consumo para reducir costos operativos
-- Decoración de salas privadas con materiales ecológicos
-- Gestión de residuos y reciclaje
-
-**Responsabilidad social**
-
-- Apoyo a la creación musical local
-- Promoción de actividades de educación musical
-- Atención a las necesidades musicales de grupos vulnerables
+La eficiencia energética y la protección ambiental se han convertido en consideraciones operacionales para la nueva generación de KTV: equipos de ahorro energético reducen los costos operativos, materiales ecológicos se aplican en la decoración de cabinas, y el reciclaje de residuos se establece progresivamente. En el plano de la responsabilidad social, incluye el apoyo a la creación musical local, la provisión de canales rápidos para el lanzamiento de nuevas canciones locales, la colaboración con escuelas en cursos de experiencia musical, y programas especiales de descuento orientados a las necesidades musicales de grupos vulnerables.
 
 ## Conclusión: la memoria de Taiwán en cada canción
 
-La cultura del KTV se ha integrado profundamente en el ADN de la sociedad taiwanesa, convirtiéndose en una memoria compartida que trasciende generaciones y clases sociales. Desde la intensa competencia entre Holiday y Cashbox hasta la transformación industrial durante la pandemia, estos treinta años de desarrollo han sido testigos de los cambios en la sociedad taiwanesa.
+Desde que Cashbox abrió su primera tienda en la calle Linsen del Norte en 1989, hasta que Holiday y Cashbox anunciaron su fusión en 2019, y la posterior reestructuración industrial tras el impacto de la pandemia, el KTV taiwanés ha recorrido tre altibajos durante treinta años. Cada generación canta canciones diferentes en la cabina, pero el significado social del acto de "ir a cantar juntos" nunca ha cambiado.
 
-En las pequeñas salas privadas, podemos observar los patrones sociales, la expresión emocional y la identidad cultural de los taiwaneses. Cada canción interpretada, cada reunión de amigos, cada celebración de cumpleaños inolvidable se convierten en recuerdos de vida compartidos por los taiwaneses.
+La naturaleza cerrada de la cabina crea una condición social poco común: puedes cantar frente a colegas, puedes desafinar frente a personas que no conoces bien, puedes usar una canción antigua para decir lo que no puedes expresar con palabras. Por esta razón, el KTV en Taiwán funciona más como un "amortiguador social": un espacio institucional donde las relaciones pueden avanzar bajo el cobijo de la canción.
 
-Aunque enfrenta la competencia del entretenimiento digital y los desafíos de la pandemia, el valor central de la cultura del KTV — la interacción humana genuina y la conexión emocional — nunca será reemplazado. El KTV del futuro puede incorporar más elementos tecnológicos, pero esa calidez característica de las salas privadas taiwanesas continuará transmitiéndose a través de las canciones.
+El entretenimiento digital trae competencia, la pandemia trajo una purga, pero la necesidad social de "expresarse a través de una canción" dentro de la cabina no será reemplazada por plataformas de streaming o videos cortos. El próximo capítulo del KTV taiwanés dependerá de si los operadores pueden hacer que este espacio siga cerrando la distancia entre las personas, esa brecha que siempre necesita ser llenada.
 
-Cuando levantamos el micrófono en una sala privada, no solo estamos cantando, sino participando en un ritual cultural que pertenece a Taiwán. Este es el valor más preciado de la cultura del KTV: permite que cada persona sea cantante, que cada canción cargue recuerdos y que cada reunión se convierta en un momento digno de atesorar.
+## Lectura adicional
+
+- [Sitio web oficial de Holiday](https://www.holiday.com.tw/)
+- [Sitio web oficial de Cashbox](https://www.cashbox.com.tw/)
+- [Estadísticas de operación del sector servicios, Departamento de Estadísticas del Ministerio de Economía](https://www.moea.gov.tw/)
 
 ## Referencias
 
-1. [Sitio web oficial de Holiday](https://www.holiday.com.tw/) - Historia del desarrollo de la industria del KTV en Taiwán
-2. [Sitio web oficial de Cashbox](https://www.cashbox.com.tw/) - Modelo de operación en cadena de KTV
-3. [Historia del desarrollo de la industria del KTV en Taiwán, Centro de Investigación de la Industria del Entretenimiento, 2018](https://entertainment-research.org.tw/) - Análisis del desarrollo industrial
-4. [Desarrollo localizado de la cultura del karaoke en Taiwán, Instituto de Sociología de la Universidad Nacional de Taiwán, 2019](http://sociology.ntu.edu.tw/) - Investigación sociocultural
-5. [Influencia de las listas de canciones más solicitadas en el KTV sobre la industria de la música pop, Escuela de Comunicación de la Universidad Nacional Chengchi, 2017](http://comm.nccu.edu.tw/) - Estudio de cultura mediática
-6. [Federación Nacional de Asociaciones de la Industria del Entretenimiento de la República de China](http://www.entertainment.org.tw/) - Datos estadísticos de la industria
-7. [Estrategias de transformación de la industria del KTV durante la pandemia, Business Weekly, 2021](https://www.businessweekly.com.tw/) - Informe de análisis industrial
-8. [Estudio sobre la relación interactiva entre la música pop taiwanesa y la cultura del KTV, Departamento de Música de la Universidad Normal de Taiwán, 2020](http://www.ntnu.edu.tw/) - Artículo de investigación académica
-9. [Estadísticas de operación del sector servicios, Dirección General de Estadísticas del Ministerio de Asuntos Económicos](https://www.moea.gov.tw/) - Datos oficiales de la industria
-10. [Análisis del comportamiento de consumo de KTV en la era de las redes sociales, Instituto MIC de la Industria de la Información, 2022](https://mic.iii.org.tw/) - Informe de investigación de mercado
+[^1]: [Wikipedia: Holiday](https://zh.wikipedia.org/wiki/好樂迪) — Holiday fue fundada en Taiwán en 1993 como marca local de KTV en cadena, fundada por Lu Yen-hsien, con locales en todo el país durante su apogeo
+[^2]: [Wikipedia: Cashbox](https://zh.wikipedia.org/wiki/錢櫃) — Cashbox es una marca local taiwanesa que abrió su primera tienda en la calle Linsen del Norte en 1989, fundada por Liu Ying, reconocida por su línea de alta gama y productos de calidad
+[^3]: [Federación Nacional de Asociaciones de la Industria del Entretenimiento de la República de China](http://www.entertainment.org.tw/) — Estadísticas de la industria del KTV en Taiwán a finales de la década de 1990: más de 200.000 cabinas en todo el país, más de 100.000 empleados, facturación anual superior a 50.000 millones de dólares taiwaneses
+[^4]: ["El impacto de las listas de canciones más solicitadas en KTV sobre la industria de la música popular", Facultad de Comunicación de la Universidad Nacional Chengchi, 2017](http://comm.nccu.edu.tw/) — Basado en datos reales de consumo de solicitud de canciones, analiza cómo los datos de las listas influyen en las estrategias de producción y decisiones de promoción de las discográficas taiwanesas
+[^5]: ["Estrategias de transformación de la industria del KTV bajo la pandemia", Business Weekly, 2021](https://www.businessweekly.com.tw/) — Análisis del impacto de la pandemia de COVID-19 en la industria del KTV en Taiwán y las estrategias de transformación de los operadores

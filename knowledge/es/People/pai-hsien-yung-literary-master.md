@@ -1,102 +1,100 @@
 ---
-title: 'Pai Hsien-yung: «Los habitantes de Taipei» 1971, y la gira de veinte años de la versión juvenil de «El pabellón de los peonías»'
-description: 'Nacido en 1937 en Guilín, Guangxi, hijo de Bai Chongxi. En 1956 estudió en la Facultad de Letras de la Universidad Nacional de Taiwán y, junto a Wang Wen-hsing y otros, fundó la revista «Literatura moderna». En 1971 publicó la colección de catorce cuentos cortos «Los habitantes de Taipei». En 1983 publicó «Los hijos del pecado». En 2003 inició la versión juvenil de «El pabellón de los peonías», cuya primera representación tuvo lugar en abril de 2004 y que en 2024 celebra su vigésimo aniversario. En 2003 recibió el Premio Nacional de Artes y Literatura.'
+title: "Pai Hsien-yung: *Los viejos de Taipéi* (1971) y veinte años de la gira de la versión juvenil de *El pabellón de las peonías*"
+description: "Nacido en 1937 en Guilin, Guangxi, hijo de Bai Chongxi. Ingresó en el Departamento de Lenguas Extranjeras de la Universidad Nacional de Taiwán en 1956, donde fundó la revista *Literatura Moderna* junto con Wang Wenxing y otros. En 1971 publicó *Los viejos de Taipéi*, colección de 14 relatos. En 1983, *Los hijos del pecado*. En 2003 inició la planificación de la versión juvenil de *El pabellón de las peonías*, con estreno en abril de 2004; en 2024 se celebró su vigésimo aniversario. Recibió el Premio Nacional de Artes en 2003."
 date: 2026-03-19
 category: 'People'
-tags:
-  - 'Literatura'
-  - 'Literatura moderna'
-  - 'Los habitantes de Taipei'
-  - 'Los hijos del pecado'
-  - 'Kunqu'
-  - 'Bai Chongxi'
+tags: ["Literatura", "Literatura moderna", "Los viejos de Taipéi", "Los hijos del pecado", "Ópera Kunqu", "Bai Chongxi"]
 subcategory: '文學'
 author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-05-07
-lastHumanReview: false
+lastHumanReview: true
 readingTime: 7
 # design_rationale:
-#   why_this_hook: "Desde «Los habitantes de Taipei» hasta la versión juvenil de «El pabellón de los peonías»: su carrera abarca dos cumbres, la novela moderna y la ópera tradicional, y la propia línea temporal constituye una historia."
-#   whats_excluded: "Análisis individual de cada cuento corto; detalles técnicos del kunqu; detalles de la historia política familiar"
-#   where_it_hedges: "Se ha eliminado la ilusión de un «Premio del jurado del séptimo Concurso de la novela *Sueño en el pabellón rojo* 2018» (el ganador de esa edición fue «Qing Fuzi» y «Wang Chunfeng», no Bai Hsien-yung); el Premio de Arte Zhongshan no pudo verificarse (se eliminó, tomando como referencia el Premio Nacional de Artes y Literatura de 2003)"
+#   why_this_hook: "從《台北人》到青春版牡丹亭——他的生涯跨越了現代小說與傳統戲曲的兩個高峰，時間軸本身就是故事。"
+#   whats_excluded: "各短篇小說個別分析；崑曲技術細節；家族政治史細節"
+#   where_it_hedges: "已移除「2018年第七屆紅樓夢獎決審團獎」幻覺（該屆得主是《青蚨子》《望春風》，非白先勇）；中山文藝獎無法驗證（已移除，以2003國家文藝獎為準）"
 translatedFrom: 'People/白先勇.md'
-sourceCommitSha: '0ea5d5d42'
-sourceContentHash: 'sha256:7ae04085dc0bf236'
-sourceBodyHash: 'sha256:ab0d88dcc607e862'
-translatedAt: '2026-05-16T05:07:56+08:00'
+sourceCommitSha: '7415dcaae'
+sourceContentHash: 'sha256:27b9c46e9dd00321'
+sourceBodyHash: 'sha256:bfc5f694a6aa2127'
+translatedAt: '2026-05-18T05:08:09+08:00'
 ---
 
-# Pai Hsien-yung: «Los habitantes de Taipei» 1971, y la gira de veinte años de la versión juvenil de «El pabellón de los peonías»
+# Pai Hsien-yung: *Los viejos de Taipéi* (1971) y veinte años de la gira de la versión juvenil de *El pabellón de las peonías*
 
-> **Resumen en 30 segundos:** Bai Hsien-yung nació en 1937 en Guilín, Guangxi; su padre fue el alto oficial del Kuomintang Bai Chongxi.[^1] En 1952 se trasladó a Taiwán con su familia; en 1956 ingresó a la Facultad de Letras de la Universidad Nacional de Taiwán y, junto a Wang Wen-hsing, Chen Ruo-xi y otros, fundó la revista «Literatura moderna». En abril de 1971 se publicó la colección de catorce cuentos cortos «Los habitantes de Taipei».[^1] En 1983 salió «Los hijos del pecado». En 2003 se planificó la versión juvenil de «El pabellón de los peonías», cuya primera representación tuvo lugar en abril de 2004 en Taipei; en 2024 se celebró su vigésimo aniversario con una gira.[^2] En 2003 recibió el Premio Nacional de Artes y Literatura.[^3] En 2026 sigue activo.[^4]
+> **Resumen en 30 segundos:** Pai Hsien-yung nació en 1937 en Guilin, Guangxi; su padre fue el general del Kuomintang Bai Chongxi.[^1] En 1952 se trasladó con su familia a Taiwán. En 1956 ingresó en el Departamento de Lenguas Extranjeras de la Universidad Nacional de Taiwán, donde fundó la revista *Literatura Moderna* junto con Wang Wenxing, Chen Ruoxi y otros. En abril de 1971 publicó *Los viejos de Taipéi*, colección de 14 relatos;[^1] en 1983, *Los hijos del pecado*. En 2003 inició la planificación de la versión juvenil de *El pabellón de las peonías*, con estreno en Taipéi en abril de 2004; en 2024 se celebró el vigésimo aniversario de la gira.[^2] Recibió el Premio Nacional de Artes en 2003.[^3] En 2026 sigue activo.[^4]
 
-## 1937 – Guilín, 1952 – Taiwán
+## 1937: Guilin. 1952: Taiwán.
 
-Bai Hsien-yung nació en 1937 en Guilín, Guangxi, y pasó su infancia entre los bombardeos de la guerra, desplazándose con el ejército de su padre.[^1] En 1952 su familia emigró a Taiwán, donde asistió a la escuela secundaria Jianguo.
+Pai Hsien-yung nació en 1937 en Guilin, Guangxi. Durante su infancia, siguió los desplazamientos militares de su padre en medio del conflicto bélico.[^1] En 1952 se trasladó con su familia a Taiwán, donde cursó estudios en la Escuela Secundaria Jianguo.
 
-En 1956 ingresó a la Facultad de Letras de la Universidad Nacional de Taiwán y conoció a su mentor de por vida, Xia Ji-an.[^1] Durante sus años universitarios fundó, junto a Wang Wen-hsing, Chen Ruo-xi y otros, la revista «Literatura moderna», que se convirtió en un punto clave del movimiento de literatura modernista en Taiwán.
+En 1956 ingresó en el Departamento de Lenguas Extranjeras de la Universidad Nacional de Taiwán, donde conoció a Xia Jia'an, el maestro que marcaría su vida.[^1] Durante la universidad, fundó junto con Wang Wenxing, Chen Ruoxi y otros la revista *Literatura Moderna*, un hito fundamental del movimiento literario modernista en Taiwán.
 
-El valor de «Literatura moderna» no radica solo en ser una publicación; introdujo sistemáticamente al público taiwanés el modernismo occidental (Kafka, Woolf, Joyce) y lo puso en diálogo con la tradición del lenguaje vernacular del Movimiento del 4 de mayo. Gran parte de la técnica narrativa que Bai emplearía después se formó durante este periodo de experimentación editorial.
+La importancia de *Literatura Moderna* trasciende la de una simple revista: introdujo de forma sistemática el modernismo occidental (Kafka, Woolf, Joyce) al lector taiwanés y entabló un diálogo con la tradición literaria en lenguaje vernáculo del Movimiento del Cuatro de Junio. La técnica narrativa que Pai Hsien-yung desarrollaría en sus novelas se forjó en gran medida durante el período de exploración de esta revista.
 
-## Abril de 1971: «Los habitantes de Taipei»
+## *Los viejos de Taipéi*: 14 relatos y un ciclo sobre el exilio
 
-En abril de 1971 se lanzó la primera edición de «Los habitantes de Taipei».[^1] Los catorce cuentos describen la vida de un grupo de personas que emigraron del continente a Taiwán, mostrando sus situaciones en la capital: un general caído en desgracia, un artista frustrado, un anciano solitario, cada uno cargando recuerdos históricos diferentes.
+En abril de 1971 se publicó la primera edición de *Los viejos de Taipéi*.[^1] Los 14 relatos retratan la vida en Taipéi de un grupo de personajes llegados del continente: generales caídos en desgracia, artistas frustrados, ancianos solitarios, cada uno cargado con distintos recuerdos históricos.
 
-Los relatos más representativos incluyen «Yongyuan de Yin Xueyan» (la eternamente joven socialité) y «La última noche de Jin Daban» (el adiós de la reina de la pista de baile).[^1]
+Entre los relatos más representativos figuran *La eterna Yin Xueyan* (la cortesana que nunca envejece) y *La última noche de la señorita Jin* (la noche de despedida de la reina de la sala de baile).[^1]
 
-Los catorce cuentos no son historias independientes, sino que forman una estructura de poema colectivo bajo el tema de la “exiliación”: exiliados del continente a Taiwán, exiliados de la historia al presente, exiliados de la juventud al envejecimiento; cada personaje constituye una variación distinta de ese tema. Esta construcción poética a gran escala fue innovadora en la literatura taiwanesa.
+Los 14 relatos de *Los viejos de Taipéi* no son una mera colección de historias independientes, sino una estructura cíclica articulada en torno al tema del exilio: el exilio del continente a Taiwán, el exilio de la historia al presente, el exilio de la juventud a la vejez. Cada personaje constituye una variación distinta de este tema. Esta construcción de largo formato con estructura de ciclo poético fue innovadora en la literatura taiwanesa.
 
-## 1983: «Los hijos del pecado»
+## *Los hijos del pecado*: narrativa marginal en el Parque de la Nueva Era
 
-En 1983 se publicó «Los hijos del pecado».[^1] Ambientada en el Nuevo Parque de Taipei (actual Parque de la Paz del 28‑Febrero), la novela retrata la vida de la comunidad homosexual marginada por la sociedad dominante. Es la primera novela larga de la historia literaria de Taiwán que aborda este colectivo de forma directa y positiva.
+En 1983 se publicó *Los hijos del pecado*.[^1] Ambientada en el Parque de la Nueva Era de Taipéi, describe la vida de una comunidad homosexual marginada por la sociedad dominante. Fue la primera novela larga en la historia de la literatura taiwanesa que abordó de forma frontal a este colectivo como tema central.
 
-Su importancia trasciende lo literario: marcó la primera vez en 1983 que el mundo editorial taiwanés ofreció un espacio narrativo completo a la comunidad homosexual, y lo hizo con compasión en lugar de patologizarla. La propia orientación sexual de Bai se hizo pública solo después de la publicación, pero la obra ya había adelantado la opinión pública.
+La importancia histórica de *Los hijos del pecado* trasciende el ámbito literario: en 1983, fue la primera vez que el mundo literario taiwanés otorgaba al colectivo homosexual un espacio narrativo tan completo, y con una actitud de empatía, no de patologización. La orientación sexual de Pai Hsien-yung solo se hizo pública gradualmente tras la publicación, pero el libro ya se había adelantado a la opinión social antes de eso.
 
-El “Nuevo Parque de Taipei” (hoy Parque de la Paz del 28‑Febrero) funciona como refugio para los marginados en la novela. La elección del lugar lleva una carga histórica: el parque alberga recuerdos de persecución política y de marginalidad urbana, convirtiéndose en un símbolo espacial único para la escritura de Bai sobre la historia post‑guerra de Taiwán.
+El "Parque de la Nueva Era de Taipéi" (actual Parque Conmemorativo de la Paz del 28 de Febrero) funciona en *Los hijos del pecado* como refugio de los marginados. La elección del lugar conlleva un peso histórico: este parque registra simultáneamente dos historias —la persecución política y la marginación urbana— convirtiéndose en un símbolo espacial singular de la posguerra taiwanesa en la escritura de Pai Hsien-yung.
 
-## 2003: planificación; abril de 2004: estreno de la versión juvenil de «El pabellón de los peonías»
+## 2003: planificación. Abril de 2004: estreno. La versión juvenil de *El pabellón de las peonías*
 
-En 2003 Bai Hsien-yung inició la planificación de la versión juvenil de «El pabellón de los peonías», participando de la adaptación del guion a la selección de actores.[^2] En abril de 2004 se estrenó en Taipei. Posteriormente realizó giras en la región de la Gran Bahía y en el continente, acumulando más de 300 funciones y superando los 600 000 espectadores.
+En 2003, Pai Hsien-yung inició la planificación de la versión juvenil de *El pabellón de las peonías*, participando en todo el proceso desde la adaptación del guion hasta la selección de los actores.[^2] En abril de 2004 tuvo lugar el estreno en Taipéi. A continuación, la obra giró por ambos lados del estrecho y Hong Kong, con más de 300 representaciones y una audiencia que superó las 600 000 personas.
 
-La relevancia de la versión juvenil radica en demostrar que la difusión contemporánea de la cultura clásica no necesita diluirse para ser popular; puede llegar a la generación joven mediante una presentación artística de alta calidad. Bai eligió a jóvenes actores de unos 20 años, como Su Kun, no como una concesión comercial, sino como una inversión a largo plazo en la vitalidad del kunqu.
+La importancia de la versión juvenil de *El pabellón de las peonías* radica en que demostró algo: la difusión contemporánea de la cultura clásica no necesita diluirse mediante la vulgarización, sino que puede lograr que las nuevas generaciones se acerquen de forma natural a través de una presentación artística de alta calidad. Pai Hsien-yung eligió a jóvenes actores de la Ópera Kun de Suzhou de poco más de veinte años, no como una concesión comercial al público, sino como una inversión a largo plazo en la vitalidad de la ópera Kunqu.
 
-(Nota: cuando se menciona que “comenzó en 2004”, se refiere al estreno de abril de 2004; la planificación real comenzó en 2003.)
+(Nota: cuando el texto dice "a partir de 2004", debe entenderse como el estreno de abril de 2004; la planificación se inició efectivamente en 2003.)
 
-**Interpretación corriente → lectura más precisa:** Bai Hsien-yung suele ser etiquetado como “autor de _Los habitantes de Taipei_”, lo que oculta la transición más importante de la segunda mitad de su carrera. Después de 2003 dedicó la mayor parte de su tiempo a la preservación del kunqu, más que a la creación de novelas. No se trata de una “transformación” externa, sino de su propia frase: “volver a pagar la deuda”, es decir, rendir cuentas a los recuerdos de su infancia en Shanghái escuchando kunqu.
+**Lectura convencional → Lectura más precisa:** Pai Hsien-yung suele ser etiquetado como "el autor de *Los viejos de Taipéi*", una etiqueta que oculta el giro más importante de la segunda mitad de su carrera. A partir de 2003, dedicó más tiempo a la preservación de la ópera Kunqu que a la escritura de novelas. No se trata de una "transición" en el sentido convencional, sino, en sus propias palabras, de "volver a pagar una deuda": saldar la cuenta con el recuerdo de aquellos años de infancia en Shanghái cuando escuchaba ópera Kunqu, dándole un cierre completo.
 
-## 2003: Premio Nacional de Artes y Literatura
+## Premio Nacional de Artes: reconocimiento oficial a medio siglo de escritura
 
-En 2003 Bai Hsien-yung recibió el Premio Nacional de Artes y Literatura.[^3]
+En 2003, Pai Hsien-yung recibió el Premio Nacional de Artes.[^3]
 
-Este galardón representa el reconocimiento oficial del mundo literario taiwanés a su trayectoria completa, que abarca desde su primer escrito en la década de 1950 hasta convertirse, medio siglo después, en una figura representativa de la literatura china.
+Este premio constituyó el reconocimiento oficial del mundo literario taiwanés a la totalidad de su trayectoria, desde la novela moderna hasta la preservación de la ópera Kunqu. Desde sus primeros ejercicios literarios en la década de 1950 hasta convertirse, medio siglo después, en una figura representativa de la literatura en lengua china, la acumulación de Pai Hsien-yung nunca se interrumpió.
 
-(Nota: los supuestos “Premio de Arte Zhongshan” y el “Premio del jurado del séptimo Concurso de la novela _Sueño en el pabellón rojo_ 2018” no pueden confirmarse. El segundo es una ilusión: el ganador de esa edición fue «Qing Fuzi» y «Wang Chunfeng», no obras de Bai Hsien-yung.[^5])
+(Nota: ni el "Premio Literario Zhongshan" ni el "Premio del Jurado del VII Premio Sueño en el Pabellón Rojo (2018)" han podido ser verificados. Este último es un error: los ganadores del VII Premio Sueño en el Pabellón Rojo (2018) fueron *Qingfuzi* y *Wangchunfeng*, no obras de Pai Hsien-yung.[^5])
 
-## Septiembre de 2024: 20.º aniversario, «El florecimiento de los peonías – veinte años»
+## Vigésimo aniversario de la versión juvenil de *El pabellón de las peonías* y *Veinte años de peonías en flor*
 
-En septiembre de 2024 se lanzó la gira del vigésimo aniversario de la versión juvenil de «El pabellón de los peonías».[^2] En noviembre del mismo año se publicó «El florecimiento de los peonías – veinte años», que documenta las dos décadas de presentaciones.
+En septiembre de 2024 se lanzó la gira conmemorativa del vigésimo aniversario de la versión juvenil de *El pabellón de las peonías*.[^2] En noviembre del mismo año se publicó *Veinte años de peonías en flor*, que documenta dos décadas de representaciones.
 
-En octubre de 2025 la Universidad Nacional de Taiwán organizó una exposición especial sobre la obra de Bai Hsien-yung.[^4] En 2026 el autor sigue participando activamente en eventos públicos, promoviendo la cultura del kunqu y la educación literaria — una continuidad que constituye, en sí misma, una declaración contra el olvido.
+En octubre de 2025, la Universidad Nacional de Taiwán organizó una exposición especial sobre la literatura de Pai Hsien-yung.[^4] En 2026, Pai Hsien-yung sigue activo.
 
-> 🎙️ **Nota del curador:** Bai Hsien-yung es uno de los pocos autores de la historia literaria de Taiwán que comenzó como “novelista moderno” y concluyó como “defensor de la cultura tradicional”. Esa trayectoria no es una simple transformación, sino una profundización: la nostalgia por lo que desaparece en _Los habitantes de Taipei_ y la defensa del kunqu en la versión juvenil de _El pabellón de los peonías_ nacen de la misma preocupación: ¿cómo evitar que lo valioso se pierda?
+La gira del vigésimo aniversario en 2024 abarcó Taipéi, Hong Kong, Suzhou y otras ciudades. *Veinte años de peonías en flor* registra la trayectoria completa de este proyecto cultural desde el estreno hasta este hito fundamental.
+
+En 2026, Pai Hsien-yung continúa participando en actividades públicas, promoviendo la cultura de la ópera Kunqu y la educación literaria. Esta continuidad en sí misma es una declaración contra la desaparición.
+
+> 🎙️ **Nota del comisario:** Pai Hsien-yung es uno de los pocos creadores en la historia de la literatura taiwanesa que comenzó como "novelista moderno" y concluyó como "restaurador de la cultura tradicional". Este arco no es una transición en el sentido ordinario, sino una profundización. La nostalgia por lo que desaparece en *Los viejos de Taipéi* y la protección de la ópera Kunqu en la versión juvenil de *El pabellón de las peonías* nacen de la misma conciencia: cómo impedir que lo valioso desaparezca.
 >
-> Su éxito muestra que la preservación cultural no requiere musealizar ni vulgarizar; necesita a una persona con suficiente nivel artístico y compromiso para hacerlo bien.
+> Su éxito demuestra que la preservación cultural no necesita museificarse ni vulgarizarse. Lo que necesita es una persona con suficiente nivel artístico y suficiente perseverancia, que se empeñe continuamente en hacerlo lo bastante bien.
 >
-> _Los hijos del pecado_ y la versión juvenil de _El pabellón de los peonías_ — una rompió el silencio en 1983, la otra revivió lo clásico en 2004 — pueden parecer totalmente distintas, pero ambas surgen del mismo profundo cuidado por lo que está en los márgenes.
+> *Los hijos del pecado* y la versión juvenil de *El pabellón de las peonías* —uno rompiendo el silencio en 1983, el otro resucitando lo clásico en 2004—, aparentemente dispares, nacen de la misma protección profunda de lo marginado.
 
-Desde Guilín, Guangxi, hasta el Nuevo Parque de Taipei, desde «Literatura moderna» hasta el Teatro Kun de Suzhou, la trayectoria de seis décadas de Bai Hsien-yung ejemplifica a una persona que nunca suelta el concepto de “memoria”.
+Desde Guilin, Guangxi, hasta el Parque de la Nueva Era de Taipéi, y desde *Literatura Moderna* hasta la Compañía de Ópera Kun de Suzhou, la trayectoria de seis décadas de Pai Hsien-yung es el ejemplo de una persona que nunca ha querido soltar el "recuerdo".
 
-**Lecturas complementarias**: [Bai Hsien-yung — Wikipedia](https://zh.wikipedia.org/wiki/白先勇) ｜ [Premio Nacional de Artes y Literatura: registro de Bai Hsien-yung](https://www.ncafroc.org.tw/artsaward/winnerDetail@1229) ｜ [Museo Nacional de Literatura de Taiwán](https://www.nmtl.gov.tw/)
+**Lectura complementaria:** [Pai Hsien-yung — Wikipedia](https://zh.wikipedia.org/wiki/白先勇) ｜ [Premio Nacional de Artes: registro del galardón a Pai Hsien-yung](https://www.ncafroc.org.tw/artsaward/winnerDetail@1229) ｜ [Museo Nacional de Literatura de Taiwán](https://www.nmtl.gov.tw/) ｜ [Sanmao](/People/三毛): Pai Hsien-yung recomendó la publicación de su relato debut *Huò* en *Literatura Moderna*
 
 ## Referencias
 
-[^1]: [Wikipedia: Bai Hsien-yung](https://zh.wikipedia.org/wiki/白先勇) — confirma nacimiento en 1937 en Guilín, hijo de Bai Chongxi, estudios en la Facultad de Letras de la Universidad Nacional de Taiwán, fundación de «Literatura moderna», primera edición de «Los habitantes de Taipei» en abril de 1971 (14 cuentos), publicación de «Los hijos del pecado» en 1983.
+[^1]: [Wikipedia: Pai Hsien-yung](https://zh.wikipedia.org/wiki/白先勇) — Confirma el nacimiento en Guilin en 1937, hijo de Bai Chongxi; ingreso en el Departamento de Lenguas Extranjeras de la Universidad Nacional de Taiwán; fundación de *Literatura Moderna*; primera edición de *Los viejos de Taipéi* en abril de 1971 (14 relatos); publicación de *Los hijos del pecado* en 1983.
 
-[^2]: [Datos oficiales de la versión juvenil de «El pabellón de los peonías»](https://www.paochunglei.com/) — incluye planificación 2003, estreno en abril de 2004 en Taipei, más de 300 funciones y 600 000 espectadores, y el libro de 2024 «El florecimiento de los peonías – veinte años».
+[^2]: [Material oficial de la versión juvenil de *El pabellón de las peonías*](https://www.paochunglei.com/) — Incluye el inicio de la planificación en 2003, el estreno en Taipéi en abril de 2004, más de 300 representaciones / 600 000 espectadores en giras, y el vigésimo aniversario en 2024 con *Veinte años de peonías en flor*.
 
-[^3]: [Consejo Nacional de Artes y Cultura: registro del Premio Nacional de Artes y Literatura (Bai Hsien-yung)](https://www.ncafroc.org.tw/artsaward/winnerDetail@1229) — confirma el galardón de 2003.
+[^3]: [Fundación Nacional para la Cultura y las Artes: registro del Premio Nacional de Artes (Pai Hsien-yung)](https://www.ncafroc.org.tw/artsaward/winnerDetail@1229) — Confirma que Pai Hsien-yung recibió el Premio Nacional de Artes en 2003.
 
-[^4]: [Xinhua News Agency Taiwán: Bai Hsien-yung sigue activo en 2026](http://www.news.cn/tw/20250424/4a72b8928bb74c51a0b0b20e0c5599b9/c.html) — incluye actividades literarias 2025‑2026 y la exposición especial en la Universidad Nacional de Taiwán.
+[^4]: [Xinhua Taiwán: Pai Hsien-yung sigue activo en 2026](http://www.news.cn/tw/20250424/4a72b8928bb74c51a0b0b20e0c5599b9/c.html) — Incluye reportajes sobre las actividades literarias de Pai Hsien-yung en 2025-2026 y la exposición especial en la Universidad Nacional de Taiwán.
 
-[^5]: [Wikipedia: Premio _Sueño en el pabellón rojo_](https://zh.wikipedia.org/wiki/紅樓夢獎) — confirma que el séptimo concurso (2018) fue ganado por «Qing Fuzi» y «Wang Chunfeng», descartando la supuesta premiación a Bai Hsien-yung.
+[^5]: [Wikipedia: Premio Sueño en el Pabellón Rojo](https://zh.wikipedia.org/wiki/紅樓夢獎) — Confirma que los ganadores de la séptima edición (2018) fueron *Qingfuzi* y *Wangchunfeng*, descartando la afirmación de que Pai Hsien-yung recibió el premio del jurado del VII Premio Sueño en el Pabellón Rojo (error).

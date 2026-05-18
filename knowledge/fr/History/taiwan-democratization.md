@@ -1,226 +1,209 @@
 ---
-title: "La transition démocratique de Taïwan — l'autoritarisme creuse sa propre tombe"
-description: "Chaque répression a engendré davantage de résistants. De l'incident du 28 février au mouvement Tournesol, comment une île a laissé un régime dictatorial former de ses propres mains la force qui allait l'enterrer."
+title: "Transformation démocratique de Taïwan – La tombe que le régime autoritaire s'est creusée lui-même"
+description: "Chaque répression engendre davantage de résistants. De 228 à la Sunflower, comment une île a permis à un régime dictatorial de cultiver la force qui l'enterra lui-même."
 date: 2026-03-24
+category: "History"
 tags:
-  [
-    'Démocratie',
-    'Justice transitionnelle',
-    'Histoire politique',
-    'Droits humains',
-    'Mouvements sociaux',
-  ]
-subcategory: '民主與治理'
-author: 'Taiwan.md'
-category: 'History'
-readingTime: 18
-lastVerified: 2026-05-02
-lastHumanReview: false
-translatedFrom: 'History/台灣民主轉型.md'
-sourceCommitSha: '5db9f136'
-sourceContentHash: 'sha256:d432b8072ad8da53'
-sourceBodyHash: 'sha256:9d24249723803e6a'
-translatedAt: '2026-05-02T08:50:00+08:00'
+  - "démocratie"
+  - "justice transitionnelle"
+  - "histoire politique"
+  - "droits de l'homme"
+  - "mouvements sociaux"
+subcategory: "民主與治理"
+author: "Taiwan.md"
+featured: true
+lastVerified: 2026-04-07
+lastHumanReview: true
+sporeLinks:
+  - platform: "threads"
+    date: "2026-04-07"
+    url: "https://www.threads.com/@taiwandotmd/post/DW1ba_tEz5D"
+    views: 274
+    comments: 0
+translatedFrom: History/台灣民主轉型.md
+sourceCommitSha: 3ec013e64
+sourceContentHash: sha256:85252455c0ed43e6
+sourceBodyHash: sha256:5c7fc1f11ad28097
+translatedAt: 2026-05-18T05:08:09+08:00
 ---
 
-# La transition démocratique de Taïwan — l'autoritarisme creuse sa propre tombe
+# Transformation démocratique de Taïwan – La tombe que le régime autoritaire s'est creusée lui-même
 
-Au petit matin du 7 avril 1989, deux cents policiers encerclent les locaux du magazine _Freedom Era Weekly_, sur la rue Minquan-Est à Taipei. Cheng Nan-jung, 41 ans, s'est barricadé dans le bureau du rédacteur en chef depuis soixante-et-onze jours, refusant de comparaître pour « suspicion de sédition ».[^1] Lorsque l'unité d'intervention enfonce la porte, il enflamme l'essence préparée à l'avance et répond par son immolation à une simple convocation judiciaire.
+Le 7 avril 1989, aux premières heures du matin, deux cents policiers encerclèrent le siège du magazine *Free China Weekly* (《自由時代週刊》) sur la rue Minquan East à Taipei. Zheng Nanrong, alors âgé de quarante‑et‑un ans, était déjà enfermé dans la salle de rédaction depuis soixante‑et‑onze jours, refusant de comparaître pour « suspicion de rébellion ».[^1] Au moment où l’équipe d’intervention fit irruption, il alluma l’essence qu’il avait préparée et se self‑immola en réponse à une assignation.
 
-Sept mois plus tard, le mur de Berlin tombait. Huit ans plus tard, Taïwan élisait son premier président au suffrage universel. Onze ans plus tard, le parti à l'origine de cette convocation perdait le pouvoir.
+Sept mois plus tard, le mur de Berlin tomba. Huit ans après, Taïwan élut son premier président au suffrage universel. Onze ans après, le parti politique derrière cette assignation perdit le pouvoir.
 
-L'épouse de Cheng Nan-jung, Yeh Chu-lan, issue de la publicité, n'avait jamais touché à la politique. Huit mois après la mort de son mari, elle se présentait à sa place aux élections législatives. Son slogan de campagne : « Mes enfants, accompagnez-moi dans cette croisade de mère ! »[^1] Élue avec un score écrasant, elle accédera quinze ans plus tard à la vice-présidence du Yuan exécutif.
+La femme de Zheng, Yeh Ju‑lan, issue du secteur de la publicité et jamais impliquée en politique, se lança huit mois après la mort de son mari dans la course à la législature. Son slogan de campagne était : « Enfant, accompagne‑moi dans une guerre sainte de mère ! »[^1] Elle fut élue avec un score élevé. Quinze ans plus tard, elle devint vice‑première ministre du Conseil des affaires.
 
-> **Aperçu en 30 secondes :** En quarante ans, Taïwan a parcouru le chemin allant de la plus longue loi martiale au monde au régime démocratique le plus libre d'Asie, presque sans effusion de sang. Non par bonté des dirigeants, mais parce que chaque répression a produit l'effet inverse : le 28 février a engendré des résistants silencieux ; le grand procès de Kaohsiung a propulsé les avocats de la défense sur la scène politique ; le feu de Cheng Nan-jung a fait de la liberté d'expression une ligne irréversible. L'héritage le plus ironique du régime autoritaire, c'est d'avoir formé de ses propres mains ceux qui allaient l'enterrer.
+> **30 secondes d’aperçu :** Taïwan a parcouru quarante ans, du plus long état d’urgence du monde à l’un des systèmes démocratiques les plus libres d’Asie, presque sans effusion de sang. Ce n’est pas parce que les dirigeants étaient bienveillants, mais parce que chaque répression s’est retournée contre elle : le massacre de 228 créa des résistants silencieux, le grand procès de la « Belle île » propulsa les avocats de la défense sur la scène politique, le feu de Zheng transforma la liberté d’expression en une ligne rouge irréversible. L’héritage le plus ironique du régime autoritaire est qu’il a formé les personnes qui allaient l’enterrer.
 
-## La graine du traumatisme : un coup de feu au rond-point (1947)
+## Les graines du traumatisme : le tir du rond‑point (1947)
 
-En fin d'après-midi, le 27 février 1947, au rond-point de Taipei. Yeh Te-ken, agent du Bureau du monopole, frappe la veuve Lin Chiang-mai à la tête avec la crosse de son fusil. Elle s'effondre près de ses cigarettes de contrebande dispersées, le visage en sang. La foule poursuit l'agent en fuite ; un autre agent, Fu Hsueh-tung, tire en l'air en guise d'avertissement, et une balle perdue atteint Chen Wen-hsi, un jeune homme de vingt ans qui observait la scène devant chez lui. Il succombe le lendemain.[^2]
+Le soir du 27 février 1947, au rond‑point de Taipei, l’inspecteur du monopole du tabac Ye De‑gen frappa la tête de la veuve Lin Jiang‑mai avec la crosse de son pistolet. Elle s’effondra près d’un paquet de cigarettes illicites, le visage couvert de sang. La foule qui la regardait poursuivit les agents, tandis qu’un autre agent, Fu Xue‑tong, ouvrit le feu en l’air ; une balle ricochetée atteignit le jeune Chen Wen‑xi, vingt ans, qui mourut le lendemain. [^2]
 
-Un paquet de cigarettes a embrasé toute l'île.
+Un simple paquet de cigarettes illicites déclencha l’explosion de toute l’île.
 
-Le lendemain, la foule encercle le bureau du gouverneur exécutif pour pétitionner ; les gardes ouvrent le feu depuis le balcon. La protestation gagne tout Taïwan. Le 8 mars, la 21e division de l'Armée nationaliste débarque à Keelung et lance le « nettoyage rural ». Le bilan reste contesté à ce jour ; le rapport d'enquête du Yuan exécutif de 2006 estime le nombre de morts entre dix-huit mille et vingt-huit mille.[^3] Les intellectuels, les médecins, les avocats, les notables locaux furent systématiquement éliminés.
+Le lendemain, la population encercla le Bureau du gouverneur pour déposer une pétition ; les gardes tirèrent depuis le balcon. La protestation se répandit à l’ensemble de Taïwan. Le 8 mars, la 21ᵉ division de l’armée nationale débarqua de Keelung et lança l’opération « Nettoyage des villages ». Le nombre de morts reste controversé ; le rapport d’enquête du Conseil exécutif de 2006 estime entre 18 000 et 28 000 victimes. [^3] Intellectuels, médecins, avocats et notables locaux furent soumis à un nettoyage systématique.
 
-> « Ce qu'ils ont tué, ce ne sont pas des émeutiers, mais toute une génération qui aurait pu diriger Taïwan. » — Wu Chuo-liu, _Le Figuier_
+> « Ce ne sont pas des bandits qu’ils ont tués, mais toute une génération pouvant diriger Taïwan. » – Wu Zhuoliu, *Figues sans fleurs*
 
-L'effet immédiat du 28 février fut la peur. L'effet indirect fut d'implanter dans la mémoire de toute une génération une question indélébile : **pourquoi ne pouvons-nous pas décider de notre propre destin ?**
+L’effet direct du 228 fut la peur. L’effet indirect fut l’implantation, dans la mémoire d’une génération entière, d’une question indélébile : **Pourquoi ne pouvons‑nous pas décider de notre propre destin ?**
 
-Le 19 mai 1949, le gouverneur de la province de Taïwan, Chen Cheng, déclare la loi martiale. Cette « mesure provisoire » dura trente-huit ans et cinquante-six jours, la plus longue loi martiale de l'histoire mondiale.[^4] Interdiction de fonder des partis, d'organiser des rassemblements, de faire grève ; censure préalable des journaux, trois chaînes de télévision uniquement. Un bébé né en 1949 n'a connu un Taïwan sans loi martiale qu'à l'âge de trente-huit ans.
+Le 19 mai 1949, le président de la province de Taïwan, Chen Cheng, déclara la loi martiale. Cette « mesure temporaire » dura trente‑huit ans et cinquante‑six jours, le plus long état d’urgence de l’histoire mondiale. [^4] Interdiction des partis, des rassemblements, des grèves, censure préalable de la presse, trois chaînes de télévision uniquement. Un bébé né en 1949 ne connut la fin de la loi martiale qu’à trente‑huit ans.
 
-Le régime autoritaire commit une erreur fatale : il crut que le silence valait obéissance.
+Le régime autoritaire commis une erreur fatale : il pensa que le silence équivalait à l’obéissance.
 
-## Le programme de formation des talents le plus coûteux du régime autoritaire (1979–1980)
+## L’école de formation la plus coûteuse du régime (1979‑1980)
 
-Le 10 décembre 1979, Journée internationale des droits de l'homme. Le magazine _Formosa_ organise un rassemblement à Kaohsiung. Les autorités refusent l'autorisation, mais environ vingt mille personnes s'y rendent quand même. À la tombée de la nuit, les forces antiémeutes encerclent le site ; gaz lacrymogènes et matraques pleuvent.[^5]
+Le 10 décembre 1979, Journée internationale des droits de l’homme. Le magazine *Belle île* organisa une manifestation à Kaohsiung. Les autorités refusèrent l’autorisation, mais environ vingt‑mille personnes se rassemblèrent quand même. La nuit, les forces anti‑émeutes encerclèrent le site, lançant gaz lacrymogène et matraques. [^5]
 
-Les arrestations massives suivent. Huang Hsin-chieh, Shih Ming-teh, Annette Lu, Chen Chu, Lin Yi-hsiung, Yao Chia-wen, Chang Chun-hung et Lin Hung-hsuan sont déférés au tribunal militaire pour « sédition ».
+De grandes arrestations suivirent. Huit personnes – Huang Xin‑jie, Shih Ming‑te, Lu Hsiu‑lian, Chen Ju, Lin I‑hsiong, Yao Chia‑wen, Chang Chun‑hung, Lin Hong‑hsuan – furent inculpées de « rébellion » et jugées par un tribunal militaire.
 
-Le régime autoritaire commit alors une seconde erreur : il décida de tenir un procès public.
+Puis le régime commis une deuxième erreur : il décida d’organiser un procès public.
 
-Le 18 mars 1980, le grand procès militaire de neuf jours s'ouvre sous les feux des médias internationaux. Les quinze avocats de la défense (dont Chen Shui-bian, Frank Hsieh, Su Tseng-chang et Chang Chun-hsiung) acquièrent du jour au lendemain une notoriété nationale par leur prestation à la barre.[^6] Le gouvernement voulait faire un exemple pour intimider ; il produisit au contraire toute une cohorte de futures stars. Vingt ans plus tard, parmi ces avocats sortiraient un président et trois Premiers ministres.
+Le 18 mars 1980, un procès militaire de neuf jours s’ouvrit sous les projecteurs des médias nationaux et internationaux. Quinze avocats de la défense (dont Chen Shui‑bian, Hsieh Chang‑ting, Su Tseng‑chang, Chang Chun‑hsiong) devinrent célèbres du jour au lendemain. [^6] Le gouvernement espérait qu’un procès public servirait d’avertissement, mais il créa une génération de futures stars politiques. Deux décennies plus tard, parmi ces avocats figura un président et trois Premiers ministres.
 
-> **📝 Note du commissaire**
-> Chen Chu, l'une des accusées du procès Formosa, écrivit à 29 ans une lettre d'adieu en prison. Elle ne l'adressait pas à sa famille, mais au peuple taïwanais. La lettre citait l'épître de Paul : « J'ai combattu le bon combat. »[^19] Elle pensait être fusillée. Quarante-et-un ans plus tard, cette ancienne prisonnière politique deviendra présidente du Yuan de contrôle, chargée d'enquêter sur les fautes du gouvernement.
+> **📝 Note du curateur**  
+> L’une des défenderesses du grand procès de la Belle île, Chen Ju, écrivit une lettre d’adieu à l’âge de 29 ans. Ce n’était pas une lettre à sa famille, mais au peuple taïwanais. Elle cita la lettre de Paul : « Le bon combat que j’ai déjà mené. »[^19] Elle crut être condamnée à mort. Quarante‑et‑une ans plus tard, cette ancienne prisonnière politique devint présidente du Contrôle administratif, chargée d’enquêter sur les crimes éventuels du gouvernement.
 
-Le 28 février 1980, jour du 33e anniversaire de l'incident du 28 février, la mère et les jumelles de sept ans de Lin Yi-hsiung sont assassinées à leur domicile ; sa fille aînée est gravement blessée.[^7] Le crime n'a jamais été élucidé. Ce massacre fit prendre conscience à davantage de Taïwanais : la dictature n'est pas un problème politique abstrait, elle peut entrer chez vous et tuer vos enfants.
+Le 28 février 1980, au 33ᵉ anniversaire du massacre de 228, la mère de Lin I‑hsiong et ses jumeaux de sept ans furent assassinés à leur domicile ; leur fille aînée fut gravement blessée. [^7] Le meurtre reste non résolu. Cette tragédie montra à de nombreux Taïwanais que le régime autoritaire n’était pas un problème abstrait, mais qu’il pouvait pénétrer chez vous et tuer vos enfants.
 
-## Le coup fatal : un coup de feu dans un garage en Californie (1984)
+## Le coup fatal : le coup de feu dans un garage californien (1984)
 
-Le 15 octobre 1984, l'écrivain sino-américain Henry Liu (alias « Chiang Nan ») est abattu dans le garage de son domicile en Californie. L'enquête du FBI révèle que les meurtriers sont des membres de la triade des Bambous Unis, recrutés par le Bureau du renseignement militaire de Taïwan, sur ordre du directeur du bureau Wang Hsi-ling.[^8]
+Le 15 octobre 1984, l’écrivain taïwanais d’origine américaine Liu Yi‑liang (pseudonyme « Jiangnan ») fut abattu dans le garage de sa maison en Californie. Le FBI découvrit que le meurtrier était un membre de la triade Zhu‑lian, recruté par le Bureau de renseignements militaires taïwanais, sous la direction du directeur Wang Hsi‑ling. [^8]
 
-Le gouvernement taïwanais avait assassiné un citoyen américain sur le sol américain.
+Le gouvernement taïwanais assassina un citoyen américain sur le sol américain.
 
-Washington est furieux et menace un temps de couper les ventes d'armes. Chiang Ching-kuo est contraint de livrer Wang Hsi-ling et deux autres pour qu'ils soient jugés. L'affaire Chiang Nan plaça Chiang Ching-kuo devant un calcul froid : le coût de poursuivre la dictature dépassait désormais celui de l'ouverture.
+Washington réagit avec colère, menaçant de suspendre les ventes d’armes. Chiang Ching‑kuo fut contraint de livrer Wang et deux autres complices à la justice. L’affaire Jiangnan força Chiang à affronter un calcul cruel : le coût de la poursuite du régime autoritaire dépassait désormais celui de l’ouverture.
 
-> « L'évolution de la situation internationale a fait perdre à la dictature taïwanaise toute légitimité. La transition démocratique n'est pas une grâce, c'est un choix nécessaire sous la pression intérieure et extérieure. » — Larry Diamond, _Taiwan: A Democratic Success Story_[^9]
+> « Les changements de la situation internationale ont privé le régime autoritaire taïwanais de légitimité. La transition démocratique n’est pas un don, mais une nécessité imposée par les pressions internes et externes. » – Larry Diamond, *Taiwan: A Democratic Success Story* [^9]
 
-## « Arrêter les gens ne résout pas le problème » (1986–1987)
+## « Arrêter d’arrêter les gens ne résout rien » (1986‑1987)
 
-Le 28 septembre 1986, le Parti démocrate progressiste (DPP) est fondé illégalement à l'hôtel Yuanshan de Taipei. La police centrale envoie une liste d'arrestations. La réponse de Chiang Ching-kuo tient en six caractères chinois : **« Arrêter les gens ne résout pas le problème. »**[^20] Il met la liste de côté.
+Le 28 septembre 1986, le DPP fut créé illégalement au Grand Hôtel de Yuanshan, Taipei. La police remit une liste d’arrestation. La réponse de Chiang : six mots : **« Arrêter les gens ne résout rien. »**[^20] Il remit la liste de côté.
 
-En janvier 1987, Chiang Ching-kuo accorde une interview à Katharine Graham, propriétaire du _Washington Post_, et annonce la levée de la loi martiale et l'autorisation de fonder des partis. Ma Ying-jeou, alors traducteur de 36 ans, se souvient : « Mon cuir chevelu picotait, tout mon corps semblait traversé par un courant électrique. »[^20]
+En janvier 1987, Chiang accorda une interview exclusive au propriétaire du *Washington Post*, Michael Matsuo, annonçant la levée de la loi martiale et l’ouverture du multipartisme. Le traducteur de l’époque, Ma Ying‑jeou, âgé de trente‑six ans, se souvint plus tard : « Ma peau s’est hérissée, tout mon corps a semblé traversé par un courant électrique. »[^20]
 
-Pourquoi avoir levé la loi martiale ? Pas par illumination morale. L'affaire Chiang Nan avait ruiné l'image internationale ; la pression du mouvement hors-parti ne cessait de monter ; la fin imminente de la guerre froide faisait perdre au régime autoritaire son soutien international ; et le diabète de Chiang Ching-kuo l'avait presque rendu aveugle, sa santé se détériorant à toute vitesse. La levée de la loi martiale fut le résultat d'un calcul, non d'un acte de compassion.
+Pourquoi lever la loi martiale ? Pas par conscience. L’affaire Jiangnan avait terni l’image internationale, les mouvements d’opposition hors du parti augmentaient, la fin de la guerre froide privait le régime de son soutien extérieur, et la santé de Chiang, déjà gravement affectée par le diabète, se détériorait rapidement. La levée fut donc un calcul, non un acte de compassion.
 
-À minuit le 15 juillet 1987, la loi martiale est levée. Les Taïwanais peuvent soudain fonder des partis, se rassembler, manifester. Mais trente-huit ans de silence ne se transforment pas en clameur sur un simple décret. La plupart des gens ne savaient pas quoi faire.
+Le 15 juillet 1987, à minuit, la loi martiale fut officiellement abolie. Les Taïwanais purent enfin former des partis, se rassembler, manifester. Mais trente‑huit ans de silence ne se transformeront pas en vacarme du jour au lendemain. La plupart ne savaient pas quoi faire.
 
-**La démocratie n'est pas un interrupteur. Elle exige qu'une société entière réapprenne à être citoyenne.**
+**La démocratie n’est pas un interrupteur. Elle nécessite que toute la société réapprenne à être citoyenne.**
 
-## Soixante-et-onze jours et un brasier (1989)
+## Soixante‑et‑une jours et une flamme (1989)
 
-L'après-loi-martiale ne fut pas paisible. En 1988, à la mort de Chiang Ching-kuo, Lee Teng-hui lui succède ; les conservateurs du parti guettent. Les limites de la liberté d'expression restent floues.
+Après la levée, Taïwan ne connut pas la paix. En 1988, Chiang Ching‑kuo mourut, Lee Teng‑hui succéda à la présidence, les conservateurs du parti guettaient. Les limites de la liberté d’expression restaient floues.
 
-Cheng Nan-jung décide de tester cette ligne. En décembre 1988, il publie dans _Freedom Era Weekly_ le texte intégral du « Projet de Constitution de la République de Taïwan » rédigé par Hsu Shih-kai. Les autorités émettent une convocation pour « suspicion de sédition ». Cheng Nan-jung déclare publiquement : « Le Kuomintang n'attrapera pas ma personne, seulement mon cadavre. »[^1]
+Zheng Nanrong décida de tester ces limites. En décembre 1988, il publia dans *Free China Weekly* le projet complet de la Constitution de la République de Taïwan rédigé par Hsu Shih‑kai. Les autorités émirent une assignation pour « suspicion de rébellion ». Zheng déclara publiquement : « Le KMT ne peut pas m’arrêter, il ne peut saisir que mon corps. »[^1]
 
-À partir du 27 janvier 1989, il s'enferme dans le bureau du rédacteur en chef et refuse de comparaître. Soixante-et-onze jours plus tard, au petit matin du 7 avril, il honore sa promesse par les flammes.
+Le 27 janvier 1989, il se confina dans la salle de rédaction, refusant de comparaître. Soixante‑et‑onze jours plus tard, le 7 avril au petit matin, il se consumait dans les flammes, tenant sa promesse.
 
-Son épouse Yeh Chu-lan dira : « Un homme tient un magazine, écrit des articles, meurt — vous croyez qu'avec sa mort, c'est fini ? Même si je suis une femme, je peux faire quelque chose. »[^1]
+Sa femme, Yeh Ju‑lan, déclara : « Un homme dirige un magazine, écrit des articles, meurt ; on pourrait penser que tout est fini — même si je suis une femme, je peux faire quelque chose. »[^1]
 
-Le 7 avril fut plus tard désigné « Journée de la liberté d'expression ». L'immolation de Cheng Nan-jung a transformé la « liberté d'expression » d'un sujet politique discutable en une ligne non négociable. Après lui, plus personne n'a pu dire avec aplomb : « Cela ne se dit pas. »
+Le 7 avril fut ultérieurement désigné « Journée de la liberté d’expression ». L’auto‑immolation de Zheng transforma la liberté d’expression d’un sujet de débat politique en une ligne rouge non négociable. Après lui, plus personne ne put affirmer avec assurance « Ces propos ne peuvent être prononcés ».
 
 ## Six mille lys sauvages contre Tiananmen (1990)
 
-L'après-midi du 16 mars 1990, un petit groupe d'étudiants se rassemble en sit-in sur la place du mémorial Chiang Kai-shek. La cause : l'« Assemblée nationale éternelle », élue en Chine continentale en 1947 et jamais entièrement renouvelée depuis l'arrivée à Taïwan, s'apprête à élire Lee Teng-hui pour un nouveau mandat.
+Le 16 mars 1990, après-midi, un petit groupe d’étudiants s’assit en sit‑in sur la place du mémorial Chiang‑Kai‑shek. Le déclencheur était le « Congrès national à vie » élu en 1947 sur le continent, jamais entièrement réélu depuis son arrivée à Taïwan, et la préparation de l’élection de Lee Teng‑hui pour un second mandat.
 
-La nouvelle se propage et toute l'île répond ; en quelques jours, près de six mille personnes sont rassemblées.[^10] Quatre revendications principales : dissoudre l'Assemblée nationale, abolir les dispositions provisoires, convoquer une conférence nationale, fixer un calendrier de réformes.
+L’appel se répandit à l’ensemble de l’île ; en quelques jours, près de six mille personnes se rassemblèrent. [^10] Ils présentèrent quatre revendications : dissolution du Congrès national, abolition des dispositions temporaires, convocation d’une conférence nationale, élaboration d’un calendrier de réformes.
 
-La question décisive : Lee Teng-hui allait-il réagir comme l'année précédente à Tiananmen, ou prendre une autre voie ?
+Le point crucial : Lee devait‑il répondre comme à Tiananmen l’an précédent, ou choisir une autre voie ?
 
-Le soir du 21 mars, Lee Teng-hui reçoit cinquante-trois représentants étudiants au palais présidentiel.[^10] Il promet de convoquer une conférence nationale. De retour sur la place, la leader Fan Yun rend compte aux étudiants ; après un vote interuniversités de 22 contre 1, les étudiants décident de se retirer d'eux-mêmes.
+Le soir du 21 mars, Lee rencontra à la résidence présidentielle cinquante‑trois représentants étudiants. [^10] Il promit une conférence nationale. Après le retour sur la place, le leader du mouvement étudiant, Fan Yun, informa les participants ; un vote inter‑universitaire 22 : 1 décida un retrait autonome.
 
-> **📝 Note du commissaire**
-> Les étudiants de Tiananmen ont attendu les chars. Ceux de Taipei ont attendu la promesse du président. Et la promesse fut tenue : abolition des dispositions provisoires en 1991, élections complètes du Yuan législatif en 1992, élection directe des maires de Taipei et Kaohsiung en 1994, élection présidentielle directe en 1996. En neuf ans, de l'autoritarisme à la démocratie complète. Les trajectoires ultérieures des leaders du mouvement Lys sauvages ressemblent à une encyclopédie politique : Fan Yun devient députée DPP, Lin Chia-lung ministre des Affaires étrangères, Cheng Wen-tsan maire de Taoyuan.
+> **📝 Note du curateur**  
+> Les étudiants de Tiananmen attendirent les chars d’assaut. Les étudiants de Taipei attendirent la promesse du président. Et la promesse fut tenue : en 1991, abolition des dispositions temporaires ; 1992, élections législatives complètes ; 1994, élections directes des maires de Taipei et Kaohsiung ; 1996, première élection présidentielle directe. En neuf ans, le passage de l’autoritarisme à une démocratie complète. Les trajectoires des leaders du mouvement des lys sauvages ressemblent à une encyclopédie politique : Fan Yun devint député du DPP, Lin Chia‑long devint ministre des Affaires étrangères, Zheng Wen‑tsan devint maire de Taoyuan.
 
-## Voter sous les missiles (1996)
+## Vote sous missile (1996)
 
-Le 23 mars 1996, Taïwan organise sa première élection présidentielle au suffrage direct. La réponse de la Chine fut de tirer des missiles dans les eaux au large de Keelung et Kaohsiung pour intimider les électeurs taïwanais. Les États-Unis envoient deux groupes aéronavals traverser le détroit de Taïwan.[^11]
+Le 23 mars 1996, Taïwan organisa sa première élection présidentielle directe. La réponse de la Chine fut de lancer des missiles au large de Keelung et Kaohsiung, tentant d’intimider les électeurs. Les États‑Unis déployèrent deux groupes de porte‑avions à travers le détroit de Taïwan. [^11]
 
-À Taipei, des bureaux de vote sont installés dans les temples ; les électeurs reçoivent leur bulletin devant les divinités. À Kinmen, un couple de jeunes mariés se précipite voter le jour de leur mariage, célébrant à la fois leur union et la première élection libre de Taïwan.[^12]
+À Taipei, les bureaux de vote étaient installés dans des temples ; les électeurs recevaient leurs bulletins devant les divinités. À Kinmen, un couple de jeunes mariés se rendit voter le jour même de leur mariage, célébrant à la fois les noces et la première élection libre de Taïwan. [^12]
 
-Le résultat fut l'inverse de l'effet recherché. Avec 76,04 % de participation, Lee Teng-hui est élu avec 54 % des voix. Les missiles ont au contraire stimulé la volonté de vote des Taïwanais.[^12]
+Le résultat fut exactement l’effet inverse. Un taux de participation de 76,04 % et Lee Teng‑hui remporta avec 54 % des voix. Chaque missile tiré par la Chine ajouta un point de pourcentage à Lee. [^12]
 
-> « Chaque missile tiré par la Chine vaut un point de plus à Lee Teng-hui. » — Plaisanterie qui circulait à l'époque
+> « Chaque missile chinois lancé, Lee Teng‑hui gagne un point de pourcentage. » – plaisanterie populaire de l’époque
 
-Quatre tickets de candidats, une armée de médias internationaux, la menace des missiles, puis un dépouillement pacifique et la reconnaissance du résultat par les perdants. Pour la première fois dans le monde sinophone, un dirigeant national est élu par les urnes.
+Quatre listes de candidats, une armée de médias internationaux, la menace des missiles, puis un dépouillement pacifique ; les perdants reconnurent le résultat. C’était la première fois dans le monde sinophone que le peuple élisait son chef d’État par le vote.
 
-## Alternance politique : le test de stress de la démocratie (2000–2024)
+## Alternance politique : test de pression démocratique (2000‑2024)
 
-Le soir du 18 mars 2000, les chaînes de télévision annoncent successivement : Chen Shui-bian et Annette Lu sont élus. Le Kuomintang perd un pouvoir détenu pendant cinquante-cinq ans à Taïwan. Annette Lu, prisonnière politique vingt ans plus tôt, devient vice-présidente. Un avocat de la défense du procès Formosa s'installe au palais présidentiel. Le 20 mai, Lee Teng-hui remet le sceau présidentiel à Chen Shui-bian. Transfert de pouvoir pacifique, complet, sans effusion de sang.[^13]
+Le soir du 18 mars 2000, les chaînes télévisées annoncèrent successivement la victoire de Chen Shui‑bian et Lu Hsiu‑lian. Le Kuomintang perdit le pouvoir après cinquante‑cinq ans à Taïwan. Deux décennies plus tôt, la prisonnière politique Lu était devenue vice‑présidente. Les avocats du grand procès de la Belle île accédèrent à la présidence. Le 20 mai, Lee remit le sceau présidentiel à Chen. Le transfert du pouvoir se fit pacifiquement, intégralement, sans effusion de sang. [^13]
 
-En 2008, élection de Ma Ying-jeou : seconde alternance, prouvant que la première n'était pas un accident. En 2016, élection de Tsai Ing-wen : Taïwan a sa première femme chef d'État. En 2024, élection de Lai Ching-te : l'ère des gouvernements minoritaires s'ouvre.
+En 2008, Ma Ying‑jeou fut élu, marquant la deuxième alternance et prouvant que la première n’était pas un hasard. En 2016, Tsai Ing‑wen fut élue, Taïwan accueillant sa première femme chef d’État. En 2024, Lai Ching‑te fut élu, ouvrant une ère de gouvernement minoritaire.
 
-**Quatre alternances politiques en vingt-quatre ans. La démocratie passe d'événement historique à fonctionnement quotidien.**
+**Quatre alternances en vingt‑quatre ans. La démocratie est passée d’un événement historique à une routine quotidienne.**
 
-## Trente secondes de proclamation et vingt-quatre jours d'occupation (2014)
+## Annonce de trente secondes et occupation de vingt‑quatre jours (2014)
 
-L'après-midi du 17 mars 2014, le député KMT Chang Ching-chung déclare en trente secondes l'Accord-cadre commercial sur les services entre les deux rives « considéré comme examiné ». Le lendemain à 21 h 30, plus de deux cents étudiants et associations citoyennes prennent d'assaut la salle plénière du Yuan législatif.[^14]
+Le 17 mars 2014, après-midi, le député du Kuomintang Zhang Qing‑zhong annonça en trente secondes que l’accord de service commercial trans‑cross‑strait était « considéré comme examiné ». Le soir suivant, plus de deux cents étudiants et organisations citoyennes envahirent la salle législative. [^14]
 
-Cette occupation dura vingt-quatre jours. Contrairement à la génération Formosa, Tournesol fut un mouvement numérique décentralisé. La communauté de hackers civiques g0v mit en place la plateforme d'agrégation `g0v.today`, diffusant simultanément dix-sept flux vidéo en direct, exposant chaque recoin de la salle plénière au regard du monde entier.[^21] Des ingénieurs de l'ITRI ont même aidé à installer six caméras supplémentaires pour éliminer les angles morts dans les couloirs. Audrey Tang (alors membre de g0v) dira plus tard : « La plupart des technologies que nous avons déployées sont neutres ; leur seul but est d'encourager les gens à dialoguer. »[^21]
+L’occupation dura vingt‑quatre jours. Contrairement à la génération du grand procès de la Belle île, le mouvement Sunflower était une mobilisation numérique décentralisée. La communauté de hackers civiques g0v créa la plateforme agrégée `g0v.today`, diffusant en direct dix‑sept flux vidéo, exposant chaque recoin de la salle au monde entier. [^21] Des ingénieurs du ITRI aidèrent à installer six caméras pour éliminer les angles morts. Tang Feng (alors membre de g0v) déclara plus tard : « La plupart des technologies que nous déployons sont neutres ; leur but est simplement d’encourager le dialogue. » [^21]
 
-Le 30 mars, des centaines de milliers de personnes se rassemblent boulevard Ketagalan. L'accord-cadre fut effectivement bloqué. Plus profondément encore, le mouvement redéfinit la participation politique de la jeune génération taïwanaise : pas besoin d'adhérer à un parti, il suffit d'un ordinateur portable et d'être présent sur le terrain.
+Le 30 mars, la rue Ketagalan accueillit des dizaines de milliers de manifestants. Le service commercial fut effectivement bloqué. L’impact le plus profond fut la redéfinition de la participation politique des jeunes taïwanais : il ne faut plus rejoindre un parti, il suffit d’un ordinateur portable et d’une connexion.
 
-> **💡 Le saviez-vous ?**
-> Le code source open source du mouvement Tournesol fut repris par les manifestants du mouvement des Parapluies à Hong Kong en 2014, qui construisirent leur propre plateforme. Après l'occupation, g0v collabora avec le gouvernement pour donner naissance à vTaiwan et au système de diffusion en direct des débats parlementaires. Une occupation est devenue une institution.
+> **💡 Le saviez‑vous ?**  
+> Le code source du mouvement Sunflower fut repris par les manifestants de la « Révolution des parapluies » de Hong Kong en 2014 pour créer leur propre plateforme. Après l’occupation, g0v collabora avec le gouvernement pour faire naître vTaiwan et le système de diffusion en direct « Parlement sans égal ». Une occupation devint une institution.
 
-## Le premier certificat arc-en-ciel d'Asie (2019)
+## Le premier certificat arc‑en‑ciel d’Asie (2019)
 
-Le 17 mai 2019, à 15 h 27, le président du Yuan législatif Su Jia-chyuan abat le marteau : la « Loi d'application de l'interprétation no 748 du Yuan judiciaire » est adoptée en troisième lecture. Taïwan devient le premier pays d'Asie à légaliser le mariage entre personnes de même sexe.[^15]
+Le 17 mai 2019, à 15 h 27, le président de la Législature, Su Jia‑chuan, frappa le marteau, adoptant en troisième lecture la loi d’interprétation n° 748 du Tribunal constitutionnel. Taïwan devint le premier pays d’Asie à légaliser le mariage homosexuel. [^15]
 
-Le jour de l'entrée en vigueur, le 24 mai, 526 couples de même sexe enregistrent leur union.
+Le 24 mai, le premier jour d’application, 526 couples de même sexe s’inscrivirent.
 
-La portée de cet événement dépasse le mariage. Il prouve que la démocratie taïwanaise n'est pas seulement la règle de la majorité : elle a aussi la capacité de protéger les droits des minorités, même quand la majorité a voté contre lors d'un référendum. De l'interdiction totale de l'homosexualité sous la loi martiale au premier rang asiatique, le chemin a duré plus de trente ans.
+Cet événement dépasse le cadre du mariage. Il montre que la démocratie taïwanaise ne se limite pas à la règle de la majorité, mais qu’elle protège les droits des minorités, même lorsque la majorité, via référendum, vote contre. Passer d’une interdiction totale de l’homosexualité sous la loi martiale à la première légalisation en Asie a pris plus de trente ans.
 
-## La liberté sur un tapis roulant
+## La course sur le tapis roulant
 
-Rapport Freedom House 2024 : Taïwan obtient 94 points (sur 100), 2e en Asie, 7e mondial.[^16] Indice de démocratie de The Economist 2024 : 1er en Asie, 12e mondial.[^17]
+Freedom House, rapport 2024 : Taïwan obtient 94/100, deuxième en Asie, septième dans le monde. [^16] L’Indice de démocratie économique 2024 : premier en Asie, douzième au niveau mondial. [^17]
 
-Les chiffres sont brillants. Les défis sont bien réels. Guerre informationnelle venue de Chine en escalade continue, polarisation politique aggravée par les réseaux sociaux, baisse du taux de participation des jeunes. La Commission de promotion de la justice transitionnelle a achevé sa mission en 2022, mais les archives politiques ne sont toujours pas entièrement ouvertes ; la responsabilité des bourreaux n'a presque pas été poursuivie ; la controverse sur la transformation du mémorial Chiang Kai-shek reste en suspens.[^18]
+Les chiffres sont impressionnants. Les défis le sont tout autant. La guerre de l’information en provenance de Chine s’intensifie, les réseaux sociaux aggravent la polarisation politique, la participation électorale des jeunes diminue. Le Comité pour la justice transformatrice, qui a achevé sa mission en 2022, n’a pas encore totalement ouvert les archives politiques, la responsabilité des auteurs reste quasi inexistante, et le débat autour du mémorial de Chiang‑Kai‑shek demeure non résolu. [^18]
 
-> **⚠️ Point de vue controversé**
-> La place historique de Chiang Ching-kuo demeure l'une des questions les plus clivantes de la société taïwanaise. Ses partisans voient la levée de la loi martiale comme sa grâce. Ses opposants soulignent que pendant la Terreur blanche il dirigea le système des renseignements, et que la levée de la loi martiale fut un calcul imposé par les pressions intérieures et extérieures. Les deux récits ont une base factuelle, mais choisir d'en mettre un en avant est en soi une position politique.
+> **⚠️ Point de vue controversé**  
+> La place de Chiang Ching‑kuo dans l’histoire reste l’un des sujets les plus polarisés de la société taïwanaise. Ses partisans voient la levée de la loi martiale comme un cadeau. Ses détracteurs soulignent qu’il a dirigé le système de sécurité pendant la Terreur blanche, et que la levée fut le résultat d’une pression interne et externe. Les deux récits reposent sur des faits ; le choix de mettre l’accent sur l’un ou l’autre constitue déjà une position politique.
 
-La démocratie n'est pas un trophée, c'est un tapis roulant. Si vous vous arrêtez, il vous fait reculer.
+La démocratie n’est pas un trophée, c’est un tapis roulant. Si vous vous arrêtez, il recule.
 
-En 1980, Chen Chu, à 29 ans, écrivait sa lettre d'adieu en prison, faisant ses adieux au Taïwan qu'elle aimait. Elle citait l'épître de Paul : « J'ai combattu le bon combat. »[^19]
+En 1980, Chen Ju, alors âgée de vingt‑neuf ans, écrivit une lettre d’adieu en prison, disant adieu à la Taïwan qu’elle aimait. Elle cita la lettre de Paul : « Le bon combat que j’ai déjà mené. »[^19] Elle ne fut pas exécutée, mais purgea six ans de prison. Après sa libération, elle contribua à fonder le DPP, devint directrice du Service social de Taipei, présidente du Comité du travail, puis maire de Kaohsiung pendant douze ans. En 2020, elle fut nommée présidente du Contrôle administratif.
 
-Elle ne fut pas fusillée. Elle purgea six ans. Sortie de prison, elle aida à fonder le DPP, fut directrice du Bureau social de Taipei, présidente du Conseil des affaires du travail, maire de Kaohsiung pendant douze ans. En 2020, elle est nommée présidente du Yuan de contrôle.
+Même personne, même île. La seule différence : en 1979, ses idées étaient considérées comme criminelles. En 2020, cette ancienne prisonnière politique était chargée d’enquêter sur les éventuels crimes du gouvernement.
 
-La même personne. La même île. La seule différence : en 1979, ses idées étaient un crime. En 2020, cette ancienne prisonnière politique est chargée d'enquêter sur les fautes du gouvernement.
+Quarante‑et‑une ans, de la lettre d’adieu à la présidence du Contrôle administratif. Voilà ce que signifie la transformation démocratique. Ce n’est pas une courbe lisse d’inspiration, mais une expérience politique remplie d’absurdités, de contradictions et de coûts irréversibles. Les initiateurs ne savaient pas qu’ils réussiraient. Beaucoup pensaient mourir. L’expérience continue.
 
-De la lettre d'adieu à la présidence du Yuan de contrôle : quarante-et-un ans. Voilà ce que signifie la transition démocratique. Pas une trajectoire édifiante et fluide, mais une expérience politique pleine d'absurdités, de contradictions et de coûts irréversibles. Ceux qui l'ont commencée ne savaient pas qu'elle réussirait. Beaucoup pensaient mourir. L'expérience continue.
+**Lectures complémentaires** :
 
-**Pour aller plus loin** :
-
-- [L'incident du 28 février](/history/二二八事件) — Comment le traumatisme de 1947 est devenu l'origine de la conscience démocratique taïwanaise
-- [La Terreur blanche à Taïwan](/history/台灣白色恐怖) — Panorama complet des affaires politiques et des violations des droits humains pendant les 38 ans de loi martiale
-- [La période de la loi martiale](/history/戒嚴時期) — Fondements juridiques et mécanismes de contrôle social de la plus longue loi martiale du monde
-- [L'incident de Formosa](/history/美麗島事件) — Récit complet de l'incident de Kaohsiung de 1979 et son impact historique
-- [Élections et politique partisane à Taïwan](/history/台灣選舉與政黨政治) — Évolution du système électoral, de l'Assemblée éternelle à quatre alternances politiques
-- [La justice transitionnelle à Taïwan](/history/台灣轉型正義) — Comment la société, après la démocratisation, affronte les traumatismes historiques de l'ère autoritaire
-- [Le mouvement Tournesol](/society/太陽花學運) — Chronique complète de l'occupation parlementaire de 2014, des trente secondes au désengagement économique vis-à-vis de la Chine douze ans plus tard
-- [La rencontre Cheng-Xi de 2026 : dix minutes pour la deuxième rencontre KMT-PCC en dix ans](/society/2026鄭習會與國共十年再會) — Pourquoi l'AIT insiste-t-elle sur le « dialogue avec les dirigeants élus » ? Le fondement de ce principe se trouve dans cette histoire de démocratisation
-- [Chou Tzu-yu](/people/周子瑜) — La vidéo d'excuses de 90 secondes la veille des élections de 2016 pèse lourd sur la troisième alternance politique de Taïwan
+- [Événement du 228](/history/二二八事件) — Comment le traumatisme de 1947 est devenu le point de départ de la conscience démocratique taïwanaise
+- [Terreur blanche à Taïwan](/history/台灣白色恐怖) — Panorama des affaires politiques et des violations des droits humains pendant les trente‑huit ans de loi martiale
+- [Période de la loi martiale](/history/戒嚴時期) — Fondement juridique du plus long état d’urgence mondial et mécanismes de contrôle social
+- [Affaire de la Belle île](/history/美麗島事件) — Chronologie complète de l’incident de Kaohsiung 1979 et son impact historique
+- [Élections et partis politiques à Taïwan](/history/台灣選舉與政黨政治) — De l’« Congrès national à vie » aux quatre alternances, évolution du système électoral
+- [Résolution sur l’avenir de Taïwan](/history/臺灣前途決議文) — Document du DPP de 1999 qui ouvrit la voie à la première alternance en 2000
+- [Justice transformatrice à Taïwan](/history/台灣轉型正義) — Comment la société a confronté les traumatismes du régime autoritaire après la démocratisation
+- [Mouvement Sunflower](/society/太陽花學運) — Chronique complète de l’occupation du Parlement en 2014, du déclencheur de trente secondes à la désindustrialisation économique douze ans plus tard
+- [Réunion 2026 entre Zheng et Xi : dix minutes après dix ans](/society/2026鄭習會與國共十年再會) — Pourquoi l’AIT insiste sur le « dialogue avec les dirigeants élus » ? Les racines de ce principe résident dans cette histoire de démocratisation
+- [Jhou Zi‑yu](/people/周子瑜) — Vidéo d’excuse de 90 secondes la veille des élections de 2016, la note la plus lourde de la troisième alternance
 
 ## Références
 
-[^1]: [Wikipédia : Cheng Nan-jung](https://zh.wikipedia.org/zh-tw/%E9%84%AD%E5%8D%97%E6%A6%95) — Documentation complète de la vie de Cheng Nan-jung, de la fondation de _Freedom Era Weekly_ à son immolation. Citation de Yeh Chu-lan tirée d'un reportage CNA de 2022 et d'un reportage commémoratif Focus Taiwan du 36e anniversaire en 2025.
-
-[^2]: [Wikipédia : Incident de répression du tabac de contrebande au rond-point](https://zh.wikipedia.org/zh-tw/%E5%9C%93%E7%92%B0%E7%B7%9D%E8%8F%B8%E4%BA%8B%E4%BB%B6) — Déroulement détaillé de l'incident du 27 février 1947, dont les agressions de Lin Chiang-mai et le tir mortel sur Chen Wen-hsi.
-
-[^3]: [Rapport sur les responsabilités de l'incident du 28 février](https://www.228.org.tw/) — Publié par la Fondation 228 en 2006, étude commandée par le Yuan exécutif, l'analyse officielle la plus crédible du nombre de victimes et des responsabilités.
-
-[^4]: [Musée national des droits humains : la période de la loi martiale](https://www.nhrm.gov.tw/) — Archives officielles sur les fondements juridiques, l'étendue d'application et les mécanismes de contrôle social du régime de loi martiale taïwanais (1949-1987).
-
-[^5]: [Mémoire nationale des droits humains : l'incident de Kaohsiung](https://memory.nhrm.gov.tw/TopicExploration/Event/Detail/5) — Photos, archives judiciaires et témoignages oraux de l'incident de Kaohsiung du 10 décembre 1979, base de données la plus numérisée sur l'incident Formosa.
-
-[^6]: [StoryStudio : des arrestations massives au grand procès militaire](https://storystudio.tw/article/gushi/%E5%BE%9E%E5%A4%A7%E9%80%AE%E6%8D%95%E5%88%B0%E8%BB%8D%E6%B3%95%E5%A4%A7%E5%AF%A9%EF%BC%9A%E7%BE%8E%E9%BA%97%E5%B3%B6%E6%B0%91%E4%B8%BB%E9%81%8B%E5%8B%95%E5%BD%B1%E5%83%8F%E5%8F%B2%EF%BC%88%E4%BA%8C) — Photos d'audience du procès militaire et liste des quinze avocats de la défense.
-
-[^7]: [Wikipédia : massacre de la famille Lin](https://zh.wikipedia.org/zh-tw/%E6%9E%97%E5%AE%85%E8%A1%80%E6%A1%88) — Déroulement et enquête sur le massacre du 28 février 1980 au domicile de Lin Yi-hsiung, l'une des affaires non élucidées les plus importantes de Taïwan.
-
-[^8]: [Mémoire nationale des droits humains : l'affaire Chiang Nan](https://memory.nhrm.gov.tw/TopicExploration/Event/Detail/39) — Récit complet de l'assassinat de Henry Liu en 1984 et de l'enquête sur le directeur du renseignement militaire Wang Hsi-ling.
-
-[^9]: Larry Diamond, "Taiwan: A Democratic Success Story," _Journal of Democracy_, 2015 — Analyse universitaire d'un spécialiste de Stanford sur la transition démocratique taïwanaise.
-
-[^10]: [Wikipédia : mouvement étudiant des Lys sauvages](https://zh.wikipedia.org/zh-hant/%E9%87%8E%E7%99%BE%E5%90%88%E5%AD%B8%E9%81%8B) — Documentation complète du mouvement étudiant de mars 1990.
-
-[^11]: [Central News Agency : crise des missiles du détroit de Taïwan 1996](https://www.cna.com.tw/news/aipl/202007300339.aspx) — Rétrospective de la CNA sur la crise.
-
-[^12]: [Focus Taiwan : 30e anniversaire de la première élection présidentielle directe en images](https://focustaiwan.tw/politics/202603235001) — Images du jour du vote en 1996.
-
-[^13]: [Freedom House : démocratisation de Taïwan](https://freedomhouse.org/country/taiwan/freedom-world/2024) — Évaluation annuelle de Freedom House sur le développement démocratique taïwanais.
-
-[^14]: [Wikipédia : mouvement Tournesol](https://zh.wikipedia.org/zh-tw/%E5%A4%AA%E9%99%BD%E8%8A%B1%E5%AD%B8%E9%81%8B) — Chronologie complète du mouvement d'occupation du Yuan législatif en 2014.
-
-[^15]: [Yuan législatif : Loi d'application de l'interprétation no 748 du Yuan judiciaire](https://lis.ly.gov.tw/lgcgi/lglaw?@221:1804289383:f:NO%3DE01961*%20OR%20NO%3DB01961$$12$$$NO-PD) — Texte intégral de la loi adoptée le 17 mai 2019.
-
-[^16]: [Freedom House: Taiwan 2024](https://freedomhouse.org/country/taiwan/freedom-world/2024) — Rapport annuel 2024.
-
-[^17]: [The Economist: Democracy Index 2024](https://www.eiu.com/n/campaigns/democracy-index-2024/) — Indice de démocratie de The Economist Intelligence Unit.
-
-[^18]: [Yuan exécutif : Commission de promotion de la justice transitionnelle](https://www.tjc.gov.tw/) — Organe indépendant en activité de 2018 à 2022.
-
-[^19]: [Liberty Times : la lettre d'adieu en prison de Chen Chu](https://news.ltn.com.tw/news/politics/breakingnews/1553866) — Contenu et processus de divulgation de la lettre d'adieu écrite par Chen Chu en 1980 au centre de détention du Bureau d'enquête.
-
-[^20]: [China Change : Chiang Ching-kuo et la démocratisation de Taïwan](https://chinachange.org/2013/06/03/chiang-chang-kuo-and-the-democratization-of-taiwan-2/) — Analyse des décisions des deux dernières années de Chiang Ching-kuo.
-
-[^21]: [Global Voices : comment la technologie a façonné le mouvement Tournesol](https://globalvoices.org/2014/04/20/how-technology-and-citizen-media-shaped-taiwans-sunflower-movement/) — Documentation complète sur g0v.today et l'agrégation des 17 flux en direct.
+[^1]: [Wikipedia : Zheng Nan‑rong](https://zh.wikipedia.org/zh-tw/%E9%84%AD%E5%8D%97%E6%A6%95) — Biographie complète de Zheng Nan‑rong, de la création de *Free China Weekly* à son auto‑immolation, citations de la presse centrale 2022 et de Focus Taiwan 2025, 36ᵉ anniversaire.
+[^2]: [Wikipedia : Incident du rond‑point (1947)](https://zh.wikipedia.org/zh-tw/%E5%9C%93%E7%92%B0%E7%B7%9D%E8%8F%B8%E4%BA%8B%E4%BB%B6) — Détails de l’arrestation du tabac illicite du 27 février 1947, incluant la batte de Lin Jiang‑mai et le tir qui toucha Chen Wen‑xi.
+[^3]: [Rapport de recherche sur la responsabilité du massacre de 228](https://www.228.org.tw/) — Publication 2006 du Fonds commémoratif du 228, commandité par le Conseil exécutif, la source la plus officielle sur les chiffres de victimes et les responsabilités.
+[^4]: [Musée national des droits humains : Période de la loi martiale](https://www.nhrm.gov.tw/) — Archives officielles sur la législation, la portée et le contrôle social de la loi martiale taïwanaise 1949‑1987.
+[^5]: [Mémoire du musée des droits humains : Incident de Kaohsiung](https://memory.nhrm.gov.tw/TopicExploration/Event/Detail/5) — Photos, dossiers de procès et témoignages de l’incident du 10 décembre 1979 à Kaohsiung, la source la plus numérisée sur la Belle île.
+[^6]: [StoryStudio : Du grand arrêt aux procès militaires](https://storystudio.tw/article/gushi/%E5%BE%9E%E5%A4%A7%E9%80%AE%E6%8D%95%E5%88%B0%E8%BB%8D%E6%B3%95%E5%A4%A7%E5%AF%A9%EF%BC%9A%E7%BE%8E%E9%BA%97%E5%B3%B6%E6%B0%91%E4%B8%BB%E9%81%8B%E5%8B%95%E5%BD%B1%E5%83%8F%E5%8F%B2%EF%BC%88%E4%BA%8C) — Photos du tribunal militaire et liste des quinze avocats de la défense, documentant comment le procès créa une génération de leaders d’opposition.
+[^7]: [Wikipedia : Affaire du sang de la maison Lin](https://zh.wikipedia.org/zh-tw/%E6%9E%97%E5%AE%85%E8%A1%80%E6%A1%88) — Détails de l’assassinat du 28 février 1980 chez Lin I‑hsiong, l’un des cas non résolus les plus graves de Taïwan.
+[^8]: [Mémoire du musée des droits humains : Affaire Jiangnan](https://memory.nhrm.gov.tw/TopicExploration/Event/Detail/39) — Chronologie complète du meurtre de Liu Yi‑liang en 1984, enquête sur le complot du directeur du Bureau de renseignements militaires Wang Hsi‑ling et impact politique international.
+[^9]: Larry Diamond, *Taiwan: A Democratic Success Story*, *Journal of Democracy*, 2015 — Analyse académique de la transition démocratique taïwanaise, démontrant comment les pressions internes et externes ont contraint le régime autoritaire à réformer.
+[^10]: [Wikipedia : Mouvement des lys sauvages](https://zh.wikipedia.org/zh-hant/%E9%87%8E%E7%99%BE%E5%90%88%E5%AD%B8%E9%81%8B) — Chronologie complète du mouvement étudiant de mars 1990, incluant la rencontre de Lee avec cinquante‑trois représentants étudiants et le vote 22 : 1 pour le retrait autonome.
+[^11]: [CNA : Crise des missiles du détroit de Taïwan 1996](https://www.cna.com.tw/news/aipl/202007300339.aspx) — Récit de la Chine lançant des missiles contre Taïwan et de la réponse américaine avec des groupes de porte‑avions.
+[^12]: [Focus Taiwan : 30 ans de la première élection présidentielle directe](https://focustaiwan.tw/politics/202603235001) — Images du jour du vote 1996, incluant les bureaux de vote dans les temples et le couple de Kinmen votant le jour de son mariage, données de participation et de résultats tirées de Wikipedia.
+[^13]: [Freedom House : Démocratisation de Taïwan](https://freedomhouse.org/country/taiwan/freedom-world/2024) — Évaluation annuelle de Freedom House sur le développement démocratique de Taïwan, couvrant la première alternance en 2000 jusqu’à aujourd’hui.
+[^14]: [Wikipedia : Mouvement Sunflower](https://zh.wikipedia.org/zh-tw/%E5%A4%AA%E9%99%BD%E8%8A%B1%E5%AD%B8%E9%81%8B) — Chronologie complète de l’occupation du Parlement en 2014, depuis l’intervention de Zhang Qing‑zhong jusqu’au retrait autonome des étudiants après vingt‑quatre jours.
+[^15]: [Législature : Interprétation n° 748 du Tribunal constitutionnel](https://lis.ly.gov.tw/lgcgi/lglaw?@221:1804289383:f:NO%3DE01961*%20OR%20NO%3DB01961$$12$$$NO-PD) — Texte complet de la loi adoptée le 17 mai 2019, faisant de Taïwan le premier pays d’Asie à légaliser le mariage homosexuel.
+[^16]: [Freedom House : Taiwan 2024](https://freedomhouse.org/country/taiwan/freedom-world/2024) — Rapport 2024, note 94/100, droits politiques 38/40, libertés civiles 56/60.
+[^17]: [The Economist : Democracy Index 2024](https://www.eiu.com/n/campaigns/democracy-index-2024/) — Classement du Democracy Index 2024, Taïwan 8,78, 12ᵉ mondial, premier en Asie.
+[^18]: [Conseil exécutif : Comité pour la justice transformatrice](https://www.tjc.gov.tw/) — Organisme indépendant 2018‑2022 chargé d’ouvrir les archives politiques, d’éliminer les symboles autoritaires et de réconcilier les injustices judiciaires ; ses missions ont été transférées aux ministères après 2022.
+[^19]: [Liberty Times : Lettre d’adieu de Chen Ju en prison](https://news.ltn.com.tw/news/politics/breakingnews/1553866) — Contenu et diffusion de la lettre d’adieu de 1980 écrite par Chen Ju en prison, citant la lettre de Paul comme source d’inspiration, adressée au peuple taïwanais plutôt qu’à sa famille.
+[^20]: [China Change : Chiang Ching‑kuo et la démocratisation de Taïwan](https://chinachange.org/2013/06/03/chiang-chang-kuo-and-the-democratization-of-taiwan-2/) — Analyse du processus décisionnel de Chiang Ching‑kuo durant ses deux dernières années, incluant l’anecdote « Arrêter les gens ne résout rien » et le souvenir de Ma Ying‑jeou « ma peau s’est hérissée », synthèse d’articles de *天下雜誌* et *Retrospect Journal*.
+[^21]: [Global Voices : Technologie et mouvement Sunflower](https://globalvoices.org/2014/04/20/how-technology-and-citizen-media-shaped-taiwans-sunflower-movement/) — Documentation complète du rôle de la communauté g0v, de la plateforme `g0v.today`, de l’ajout de caméras par l’ITRI et de la citation de Tang Feng.

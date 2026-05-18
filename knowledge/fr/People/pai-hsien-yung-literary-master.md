@@ -1,108 +1,106 @@
 ---
-title: 'Pai Hsien-yung : *Les Gens de Taipei* (1971), puis vingt ans de tournées pour la version jeunesse du *Pavillon aux pivoines*'
-description: "Né en 1937 à Guilin, Guangxi, fils de Bai Chongxi. Département de littérature étrangère de l'Université nationale de Taïwan en 1956, cofondateur de la revue *Littérature moderne* avec Wang Wenxing et d'autres. *Les Gens de Taipei*, recueil de 14 nouvelles, en 1971. *Les Enfants de la nuit* en 1983. Lancement de la version jeunesse du *Pavillon aux pivoines* en 2003, première représentation en avril 2004, vingtième anniversaire en 2024. Prix national des arts et lettres en 2003."
+title: "Bai Xianyong : de « Taipei People » (1971) à la tournée du « Peony Pavilion » version jeunesse, vingt ans"
+description: "Né en 1937 à Guilin, province du Guangxi, fils de Bai Chongxi. En 1956, il étudie les langues étrangères à l'Université nationale de Taiwan et fonde, avec Wang Wenxing et d'autres, la revue « Littérature moderne ». En 1971, il publie le recueil de quatorze nouvelles « Taipei People ». En 1983, il écrit « Les Enfants du péché ». En 2003, il lance la version jeunesse du « Peony Pavilion », dont la première représentation a lieu en avril 2004, et célèbre le 20ᵉ anniversaire en 2024. Il reçoit le Prix national des arts en 2003."
 date: 2026-03-19
-category: 'People'
+category: "People"
 tags:
-  [
-    'Littérature',
-    'Littérature moderne',
-    'Les Gens de Taipei',
-    'Les Enfants de la nuit',
-    'Opéra Kunqu',
-    'Bai Chongxi',
-  ]
-subcategory: '文學'
-author: 'Taiwan.md'
+  - "Littérature"
+  - "Littérature moderne"
+  - "Taipei People"
+  - "Les Enfants du péché"
+  - "Kunqu"
+  - "Bai Chongxi"
+subcategory: "文學"
+author: "Taiwan.md"
 featured: false
 lastVerified: 2026-05-07
-lastHumanReview: false
+lastHumanReview: true
 readingTime: 7
 # design_rationale:
-#   why_this_hook: "從《台北人》到青春版牡丹亭——他的生涯跨越了現代小說與傳統戲曲的兩個高峰，時間軸本身就是故事。"
-#   whats_excluded: "各短篇小說個別分析；崑曲技術細節；家族政治史細節"
-#   where_it_hedges: "已移除「2018年第七屆紅樓夢獎決審團獎」幻覺（該屆得主是《青蚨子》《望春風》，非白先勇）；中山文藝獎無法驗證（已移除，以2003國家文藝獎為準）"
-translatedFrom: 'People/白先勇.md'
-sourceCommitSha: '0ea5d5d42'
-sourceContentHash: 'sha256:7ae04085dc0bf236'
-sourceBodyHash: 'sha256:ab0d88dcc607e862'
-translatedAt: '2026-05-16T05:07:56+08:00'
+#   why_this_hook: "De « Taipei People » à la version jeunesse du « Peony Pavilion » — sa carrière traverse deux sommets, le roman moderne et l'opéra traditionnel, la chronologie étant elle‑même une histoire."
+#   whats_excluded: "Analyse individuelle de chaque nouvelle ; détails techniques du Kunqu ; aspects politiques de l’histoire familiale"
+#   where_it_hedges: "Suppression de la mention illusoire du « Prix du jury du 7ᵉ Red Chamber Award 2018 » (les lauréats étaient « Qing Fuzi » et « Wang Chunfeng », pas Bai Xianyong) ; le Prix artistique de Zhongshan n’est pas vérifiable (supprimé, le Prix national des arts 2003 étant retenu)"
+translatedFrom: "People/白先勇.md"
+sourceCommitSha: "7415dcaae"
+sourceContentHash: "sha256:27b9c46e9dd00321"
+sourceBodyHash: "sha256:bfc5f694a6aa2127"
+translatedAt: "2026-05-18T05:08:09+08:00"
 ---
 
-# Pai Hsien-yung : _Les Gens de Taipei_ (1971), puis vingt ans de tournées pour la version jeunesse du _Pavilion aux pivoines_
+# Bai Xianyong : de « Taipei People » (1971) à la tournée du « Peony Pavilion » version jeunesse, vingt ans
 
-> **En 30 secondes :** Pai Hsien-yung naît en 1937 à Guilin, Guangxi, fils de Bai Chongxi, général de haut rang du Kuomintang.[^1] Il s'installe à Taïwan avec sa famille en 1952, entre au département de littérature étrangère de l'Université nationale de Taïwan en 1956, et cofonde la revue _Littérature moderne_ avec Wang Wenxing, Chen Ruoxi et d'autres. En avril 1971 paraît _Les Gens de Taipei_, recueil de 14 nouvelles.[^1] _Les Enfants de la nuit_ est publié en 1983. En 2003, il lance le projet de la version jeunesse du _Pavilion aux pivoines_ ; la première a lieu à Taipei en avril 2004, et la tournée du vingtième anniversaire est célébrée en 2024.[^2] Il reçoit le Prix national des arts et lettres en 2003.[^3] Il reste actif en 2026.[^4]
+> **Vue d’ensemble en 30 secondes :** Bai Xianyong, né en 1937 à Guilin (Guangxi), fils du haut‑grad du Kuomintang Bai Chongxi[^1]. En 1952, il émigre à Taiwan avec sa famille ; en 1956, il intègre le département des langues étrangères de l'Université nationale de Taiwan et, avec Wang Wenxing, Chen Ruoxi et d’autres, fonde la revue « Littérature moderne ». En avril 1971, il publie le recueil de quatorze nouvelles « Taipei People »[^1] ; en 1983, il écrit « Les Enfants du péché ». En 2003, il lance la planification de la version jeunesse du « Peony Pavilion », dont la première représentation a lieu à Taipei en avril 2004, et célèbre le 20ᵉ anniversaire de la tournée en 2024[^2]. Il reçoit le Prix national des arts en 2003[^3] et reste actif en 2026[^4].
 
-## 1937, Guilin — 1952, Taïwan
+## 1937 : Guilin – 1952 : Taiwan
 
-Pai Hsien-yung naît en 1937 à Guilin, Guangxi. Enfant, il suit les déplacements militaires de son père à travers le pays en temps de guerre.[^1] En 1952, il s'installe à Taïwan avec sa famille et entre au lycée Jianguo.
+Bai Xianyong naît en 1937 à Guilin, province du Guangxi, et passe son enfance à suivre son père, militaire, à travers les zones de guerre[^1]. En 1952, il émigre à Taiwan avec sa famille et fréquente le lycée Jianguo.
 
-En 1956, il intègre le département de littérature étrangère de l'Université nationale de Taïwan, où il rencontre Xia Jian'an, le maître qui marquera profondément sa vie.[^1] Durant ses années universitaires, il cofonde avec Wang Wenxing, Chen Ruoxi et d'autres la revue _Littérature moderne_, qui devient un jalon majeur du mouvement littéraire moderniste à Taïwan.
+En 1956, il entre à l'Université nationale de Taiwan, département des langues étrangères, où il rencontre son mentor décisif, Xia Ji‑an[^1]. Durant ses études, il co‑fonde, avec Wang Wenxing, Chen Ruoxi et d’autres, la revue « Littérature moderne », qui devient un point d’ancrage majeur du mouvement moderniste à Taiwan.
 
-L'importance de _Littérature moderne_ ne se limite pas à celle d'une revue : elle introduit systématiquement le modernisme occidental (Kafka, Woolf, Joyce) auprès des lecteurs taïwanais et engage un dialogue avec la tradition littéraire vernaculaire du Mouvement du 4 Mai. Les techniques narratives que Pai Hsien-yung développera par la suite se forment en grande partie durant cette période d'exploration éditoriale.
+« Littérature moderne » ne se limite pas à une simple revue : elle introduit de façon systématique le modernisme occidental (Kafka, Woolf, Joyce) aux lecteurs taïwanais et engage un dialogue avec la tradition du mouvement du 4 mai. Les techniques narratives que Bai développera plus tard dans ses romans se forment largement durant cette période d’exploration.
 
-## Avril 1971 : _Les Gens de Taipei_
+## « Taipei People » : quatorze nouvelles et poème collectif de l’exil
 
-En avril 1971 paraît la première édition de _Les Gens de Taipei_.[^1] Quatorze nouvelles dépeignent la vie à Taipei de personnages ayant fui le continent chinois : généraux sur le déclin, artistes désabusés, vieillards solitaires, chacun portant le poids d'une mémoire historique différente.
+En avril 1971, la première édition de « Taipei People » paraît[^1]. Les quatorze nouvelles décrivent la vie à Taipei d’un groupe de personnes venues de la Chine continentale : un général déchu, un artiste en déclin, un vieil homme solitaire, chacun portant un souvenir historique différent.
 
-Parmi les textes emblématiques figurent _Yin Xueyan l'éternelle_ (une mondaine qui ne vieillit jamais) et _La Dernière Nuit de Mme Jin_ (la nuit d'adieu d'une reine de la danse).[^1]
+Parmi les pièces majeures figurent « Yongyuan de Yin Xueyan » (la fleur éternelle de la haute société) et « La dernière nuit de Jin Daban » (l’adieu de la reine des salles de danse)[^1].
 
-Les 14 nouvelles de _Les Gens de Taipei_ ne sont pas une simple collection d'histoires indépendantes : elles forment une structure de recueil de poèmes organisée autour du thème de l'« exil » — exil du continent vers Taïwan, exil de l'histoire vers le présent, exil de la jeunesse vers la vieillesse. Chaque personnage en est une variation. Cette construction en recueil poétique à l'échelle d'une œuvre longue est une première dans la littérature taïwanaise.
+Les quatorze récits ne constituent pas une simple anthologie indépendante, mais forment un poème collectif autour du thème de « l’exil » : l’exil de la Chine continentale vers Taiwan, l’exil historique vers le présent, l’exil du jeune qui vieillit. Chaque personnage représente une variation de ce thème. Cette structure poétique‑narrative était inédite dans la littérature taïwanaise.
 
-## 1983 : _Les Enfants de la nuit_
+## « Les Enfants du péché » : récit marginal au parc New Park
 
-En 1983 paraît _Les Enfants de la nuit_.[^1] L'roman se déroule autour du Nouveau Parc de Taipei et décrit la vie de personnes homosexuelles marginalisées par la société dominante. C'est le premier roman de la littérature taïwanaise à traiter frontalement de ce groupe comme sujet central.
+En 1983, « Les Enfants du péché » est publié[^1]. Le roman se déroule dans le New Park de Taipei (aujourd’hui le parc commémoratif de la paix du 28 février) et décrit la vie d’une communauté homosexuelle marginalisée par la société dominante. Il s’agit du premier roman taïwanais à aborder ouvertement ce sujet.
 
-La portée historique de _Les Enfants de la nuit_ dépasse le cadre littéraire : en 1983, c'est la première fois que la scène littéraire taïwanaise accorde aux personnes homosexuelles un espace narratif aussi complet, avec une posture de compassion plutôt que de pathologisation. L'orientation sexuelle de Pai Hsien-yung ne sera connue du public qu'après la publication, mais le livre se situait déjà en avance sur l'opinion publique.
+L’importance historique de « Les Enfants du péché » dépasse le cadre littéraire : c’est la première fois, en 1983, que le milieu littéraire taïwanais offre à la communauté homosexuelle un espace narratif complet, avec une attitude de compassion plutôt que de pathologisation. L’orientation sexuelle de Bai Xianyong ne sera rendue publique qu’après la parution, mais le livre se place déjà en avance sur le débat sociétal.
 
-Le « Nouveau Parc de Taipei » (aujourd'hui le Mémorial de la paix du 228) est dans _Les Enfants de la nuit_ un refuge pour les marginaux. Le choix de ce lieu porte un poids historique : ce parc est le réceptacle d'une double mémoire de persécution politique et d'urbanité marginalisée, devenant chez Pai Hsien-yung un symbole spatial singulier de l'histoire taïwanaise de l'après-guerre.
+Le « New Park de Taipei » (actuel parc de la paix du 28 février) sert de refuge aux marginaux. Le choix du lieu porte un poids historique : le parc témoigne à la fois des persécutions politiques et de la marginalisation urbaine, devenant ainsi un symbole spatial unique dans l’écriture de l’histoire post‑Seconde Guerre mondiale de Taiwan par Bai.
 
-## 2003, conception — avril 2004, première : la version jeunesse du _Pavilion aux pivoines_
+## 2003 : planification – avril 2004 : première représentation : version jeunesse du « Peony Pavilion »
 
-En 2003, Pai Hsien-yung lance le travail de conception de la version jeunesse du _Pavilion aux pivoines_, participant à chaque étape, de l'adaptation du livret à la sélection des artistes.[^2] En avril 2004, la première représentation a lieu à Taipei. Le spectacle est ensuite donné en tournée dans les deux rives du détroit et à Hong Kong, pour plus de 300 représentations et plus de 600 000 spectateurs.
+En 2003, Bai Xianyong lance la planification de la version jeunesse du « Peony Pavilion », participant à toutes les étapes, de l’adaptation du texte au casting des acteurs[^2]. En avril 2004, la première représentation a lieu à Taipei. Par la suite, la production tourne dans les trois régions sinophones, totalisant plus de 300 représentations et attirant plus de 600 000 spectateurs.
 
-La signification de la version jeunesse du _Pavilion aux pivoines_ réside dans la vérification d'un principe : la diffusion contemporaine de la culture classique n'a pas besoin d'être diluée par la vulgarisation ; elle peut, par une exécution artistique de haute qualité, attirer naturellement les jeunes générations. Le choix par Pai Hsien-yung de jeunes acteurs de l'opéra Kunqu de Suzhou, âgés d'une vingtaine d'années, n'est pas un compromis commercial envers le public, mais un investissement à long terme dans la vitalité de l'opéra Kunqu.
+La version jeunesse du « Peony Pavilion » démontre qu’une transmission contemporaine de la culture classique n’a pas besoin d’être vulgarisée ; elle peut, grâce à une haute qualité artistique, attirer naturellement les jeunes générations. Bai a choisi des acteurs d’une vingtaine d’années, comme Su Kun, non pas par compromis commercial, mais comme investissement à long terme dans la vitalité du Kunqu.
 
-(Note : si l'on écrit « à partir de 2004 », il faut comprendre la première d'avril 2004 ; la conception a en réalité débuté en 2003.)
+*(Note : lorsqu’un texte indique « à partir de 2004 », il faut comprendre « première représentation en avril 2004 » ; la planification a réellement débuté en 2003.)*
 
-**Lecture courante → Lecture plus précise :** Pai Hsien-yung est souvent réduit à l'étiquette d'« auteur des _Gens de Taipei_ », qui masque le tournant le plus important de la seconde moitié de sa carrière. Après 2003, il consacre davantage de temps à la préservation de l'opéra Kunqu qu'à l'écriture de romans. Il ne s'agit pas d'une « reconversion » au sens courant, mais, selon ses propres mots, de « rembourser une dette » — rendre une forme d'accomplissement au souvenir de l'opéra Kunqu qu'il entendit enfant à Shanghai.
+**Lecture courante → lecture plus précise** : Bai Xianyong est souvent identifié comme « l’auteur de « Taipei People » », ce qui masque la transition majeure de la seconde moitié de sa carrière. Après 2003, il consacre la majeure partie de son temps à la préservation du Kunqu plutôt qu’à la création de romans. Ce n’est pas une « reconversion » au sens usuel, mais, selon ses propres mots, « rembourser une dette », c’est‑à‑dire rendre hommage à la musique qu’il a entendue enfant à Shanghai.
 
-## 2003 : Prix national des arts et lettres
+## Prix national des arts : reconnaissance officielle d’une demi‑siècle d’écriture
 
-En 2003, Pai Hsien-yung reçoit le Prix national des arts et lettres.[^3]
+En 2003, Bai Xianyong reçoit le Prix national des arts[^3].
 
-Ce prix constitue la reconnaissance officielle, par le monde littéraire taïwanais, de l'ensemble de sa carrière — des premières nouvelles des années 1950 à son statut, un demi-siècle plus tard, de figure majeure de la littérature de langue chinoise. L'accumulation de Pai Hsien-yung n'a jamais connu d'interruption.
+Ce prix constitue la reconnaissance officielle par le milieu littéraire taïwanais de l’ensemble de sa carrière, du roman moderne à la sauvegarde du Kunqu. De son premier texte dans les années 1950 à son statut, cinquante ans plus tard, de figure représentative de la littérature chinoise, son parcours n’a jamais été interrompu.
 
-(Note : le « Prix littéraire et artistique Zhongshan » et le « Prix du jury du septième Prix Rêve dans le pavillon rouge (2018) » n'ont pu être vérifiés. Ce dernier est une erreur — le septième Prix Rêve dans le pavillon rouge (2018) a été décerné à _Qing Fuzi_ et _Printemps au vent_, non à des œuvres de Pai Hsien-yung.[^5])
+*(Note : le « Prix artistique de Zhongshan » et le « Prix du jury du 7ᵉ Red Chamber Award 2018 » ne sont pas vérifiables. Le second était une illusion : le lauréat du 7ᵉ Red Chamber Award (2018) était « Qing Fuzi » et « Wang Chunfeng », pas Bai Xianyong[^5].)*
 
-## Septembre 2024 : vingtième anniversaire, _Vingt ans de pivoines en fleur_
+## 20ᵉ anniversaire de la version jeunesse du « Peony Pavilion » et « Peony Flowers Blooming Twenty Years »
 
-En septembre 2024, la tournée du vingtième anniversaire de la version jeunesse du _Pavilion aux pivoines_ est lancée.[^2] En novembre de la même année paraît _Vingt ans de pivoines en fleur_, qui retrace deux décennies de représentations.
+En septembre 2024, la tournée du 20ᵉ anniversaire de la version jeunesse du « Peony Pavilion » démarre[^2]. En novembre de la même année, le livre « Peony Flowers Blooming Twenty Years » est publié, consignant les deux décennies de performances.
 
-En octobre 2025, l'Université nationale de Taïwan accueille une exposition spéciale consacrée à l'œuvre littéraire de Pai Hsien-yung.[^4] En 2026, celui-ci reste actif.
+En octobre 2025, l’Université nationale de Taiwan organise une exposition spéciale sur Bai Xianyong[^4]. En 2026, il reste actif.
 
-La tournée du vingtième anniversaire en 2024 traverse plusieurs villes, dont Taipei, Hong Kong et Suzhou. _Vingt ans de pivoines en fleur_ documente le parcours complet de ce projet culturel, de la première représentation aux étapes marquantes.
+La tournée de 2024 a traversé Taipei, Hong Kong, Suzhou et d’autres villes ; le livre « Peony Flowers Blooming Twenty Years » retrace le projet culturel depuis la première représentation jusqu’aux étapes majeures.
 
-En 2026, Pai Hsien-yung poursuit ses activités publiques, continuant à promouvoir la culture de l'opéra Kunqu et l'éducation littéraire — cette continuité est, en soi, une déclaration de résistance à l'oubli.
+En 2026, Bai Xianyong continue de participer à des événements publics, de promouvoir le Kunqu et l’éducation littéraire. Cette persistance même constitue une déclaration contre l’oubli.
 
-> 🎙️ **Note du commissaire :** Pai Hsien-yung est l'un des rares créateurs de l'histoire littéraire taïwanaise à avoir débuté comme « romancier moderne » pour s'achever en « défenseur de la renaissance culturelle traditionnelle ». Cette trajectoire n'est pas une reconversion au sens ordinaire, mais un approfondissement — la nostalgie de la disparition qui habite _Les Gens de Taipei_ et la préservation de l'opéra Kunqu dans la version jeunesse du _Pavilion aux pivoines_ procèdent d'une même question : comment empêcher ce qui est précieux de disparaître.
+> 🎙️ **Note du commissaire‑exposant** : Bai Xianyong est l’un des rares auteurs de l’histoire littéraire taïwanaise à débuter comme « romancier moderne » pour finir comme « revitalisateur de la culture traditionnelle ». Ce parcours n’est pas une simple transition, mais un approfondissement. Le désir de « Taipei People » de préserver ce qui disparaît se retrouve dans la défense du Kunqu par la version jeunesse du « Peony Pavilion », tous deux issus d’une même préoccupation : comment empêcher la perte de ce qui est précieux.
 >
-> Son succès démontre que la préservation culturelle n'a ni besoin de la muséification, ni de la vulgarisation. Elle a besoin d'une personne dotée d'un niveau artistique suffisant et d'une persévérance suffisante, qui s'obstine à la faire avec une qualité suffisante.
+> Son succès montre que la sauvegarde culturelle n’a pas besoin d’être muséalisée ni vulgarisée. Elle requiert simplement une personne dotée d’un niveau artistique suffisant et d’une persévérance à le faire bien.
 >
-> _Les Enfants de la nuit_ et la version jeunesse du _Pavilion aux pivoines_ — l'un brisant le silence en 1983, l'autre ressuscitant le classique en 2004 — semblent radicalement différents, mais procèdent d'un même engagement profond en faveur de ce qui a été marginalisé.
+> « Les Enfants du péché » et la version jeunesse du « Peony Pavilion » (l’un brisant le silence en 1983, l’autre relançant le classique en 2004) semblent très différents, mais partagent la même profonde protection des éléments marginalisés.
 
-De Guilin, Guangxi, au Nouveau Parc de Taipei, de _Littérature moderne_ à l'Opéra Kunqu de Suzhou — la trajectoire de soixante ans de Pai Hsien-yung est l'exemple d'un homme qui n'a jamais voulu lâcher prise sur la « mémoire ».
+De Guilin (Guangxi) à New Park de Taipei, de « Littérature moderne » au théâtre Kunqu de Suzhou, le parcours de plus de soixante ans de Bai Xianyong constitue un exemple de persévérance face à la « mémoire » que l’on refuse d’abandonner.
 
-**Pour aller plus loin** : [Pai Hsien-yung — Wikipédia](https://zh.wikipedia.org/wiki/白先勇) ｜ [Prix national des arts et lettres : palmarès de Pai Hsien-yung](https://www.ncafroc.org.tw/artsaward/winnerDetail@1229) ｜ [Musée national de littérature taïwanaise](https://www.nmtl.gov.tw/)
+**Lectures complémentaires** : [Bai Xianyong — Wikipédia (zh)](https://zh.wikipedia.org/wiki/%E7%99%BD%E5%85%88%E9%9A%BF) | [Prix national des arts : dossier de Bai Xianyong](https://www.ncafroc.org.tw/artsaward/winnerDetail@1229) | [Musée national de la littérature taïwanaise](https://www.nmtl.gov.tw/) | [San Mao](/People/三毛) : Bai Xianyong a recommandé sa première œuvre « Huò » à la revue « Littérature moderne ».
 
 ## Références
 
-[^1]: [Wikipédia : Pai Hsien-yung](https://zh.wikipedia.org/wiki/白先勇) — Confirme la naissance en 1937 à Guilin, fils de Bai Chongxi, le département de littérature étrangère de l'Université nationale de Taïwan, la cofondation de _Littérature moderne_, la première édition d'_Les Gens de Taipei_ en avril 1971 (14 nouvelles), la publication de _Les Enfants de la nuit_ en 1983.
+[^1]: [Wikipédia : Bai Xianyong](https://zh.wikipedia.org/wiki/%E7%99%BD%E5%85%88%E9%9A%BF) — confirme la naissance en 1937 à Guilin, le fait d’être le fils de Bai Chongxi, les études en langues étrangères à l’Université nationale de Taiwan, la création de « Littérature moderne », la première édition de « Taipei People » en avril 1971 (14 nouvelles) et la publication de « Les Enfants du péché » en 1983.
 
-[^2]: [Site officiel de la version jeunesse du _Pavilion aux pivoines_](https://www.paochunglei.com/) — Inclut le lancement du projet en 2003, la première à Taipei en avril 2004, plus de 300 représentations / 600 000 spectateurs en tournée, le vingtième anniversaire en 2024 et _Vingt ans de pivoines en fleur_.
+[^2]: [Site officiel de la version jeunesse du Peony Pavilion](https://www.paochunglei.com/) — indique le lancement de la planification en 2003, la première représentation à Taipei en avril 2004, plus de 300 représentations et 600 000 spectateurs, ainsi que le livre « Peony Flowers Blooming Twenty Years » pour le 20ᵉ anniversaire en 2024.
 
-[^3]: [Fonds national pour la culture et les arts : palmarès du Prix national des arts et lettres (Pai Hsien-yung)](https://www.ncafroc.org.tw/artsaward/winnerDetail@1229) — Confirme que Pai Hsien-yung a reçu le Prix national des arts et lettres en 2003.
+[^3]: [Conseil national des arts : dossier du Prix national des arts (Bai Xianyong)](https://www.ncafroc.org.tw/artsaward/winnerDetail@1229) — confirme l’attribution du prix en 2003.
 
-[^4]: [Xinhua Taïwan : Pai Hsien-yung toujours actif en 2026](http://www.news.cn/tw/20250424/4a72b8928bb74c51a0b0b20e0c5599b9/c.html) — Inclut des reportages sur les activités littéraires de Pai Hsien-yung en 2025-2026 et l'exposition spéciale à l'Université nationale de Taïwan.
+[^4]: [Xinhua Taiwan : Bai Xianyong actif en 2026](http://www.news.cn/tw/20250424/4a72b8928bb74c51a0b0b20e0c5599b9/c.html) — comprend les activités littéraires de 2025‑2026 et l’exposition spéciale à l’Université nationale de Taiwan.
 
-[^5]: [Wikipédia : Prix Rêve dans le pavillon rouge](https://zh.wikipedia.org/wiki/紅樓夢獎) — Confirme que le septième prix (2018) a été décerné à _Qing Fuzi_ et _Printemps au vent_, éliminant l'affirmation erronée selon laquelle Pai Hsien-yung aurait reçu le prix du jury du septième Prix Rêve dans le pavillon rouge en 2018.
+[^5]: [Wikipédia : Red Chamber Award](https://zh.wikipedia.org/wiki/%E7%BA%A2%E5%AE%A4%E5%A4%A2%E8%B5%9B) — confirme que le lauréat du 7ᵉ Red Chamber Award (2018) était « Qing Fuzi » et « Wang Chunfeng », excluant toute affirmation selon laquelle Bai Xianyong aurait reçu le prix.
