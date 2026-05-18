@@ -172,42 +172,13 @@ BECOME_TAIWANMD.md Step 5 新增：
 >
 > **Image + Video standard（v2 2026-05-18 哲宇 directive 升級從 ≥3 到 ≥5）**：每縣市 **≥5 張圖**（hero + 4 inline scene-mid）+ 建議 1-2 個 video iframe（觀光局 / 縣市政府官方頻道 / 公視紀錄片）per EDITORIAL §媒體編織 Geography 類型 baseline。Wikimedia Commons hot-link（plugin allowed external prefix）免 cache + §圖片來源 attribution + CC BY-SA license。Wikimedia Category:{縣市} 大多有 100+ 張可選。基隆 ship 後 polish 已到 5 張（hero 正濱漁港 + 4 inline：和平島聖薩爾瓦多 + 基隆港鳥瞰 + 廟口夜市 + 主普壇 + 正濱彩色屋）。Taiwankengo 為 Wikimedia 多縣市 CC 攝影者主力，22 篇可優先檢查其 portfolio。
 
-### 1. 台北市 NEW
+<!-- 1. 台北市 已完成 2026-05-18 2026-05-18-004535-manual → ARTICLE-DONE-LOG.md (22 縣市 batch 5 — 萬華 1738 大稻埕 1885 信義 2004 三個年紀) -->
 
-- **Type**: `NEW`
-- **Category**: Geography
-- **Priority**: `P0`
-- **Status**: `pending`
-- **Source**: 哲宇 directive 2026-05-17 230616-manual（22 縣市超優先）
-- **Hook 候選**：首都的內部分層 — 信義區 vs 萬華 vs 北投，同一個台北的三種年紀
-- **Notes**: 247 萬人口 / 中央政府所在 / 12 區跨幅大（士林夜市 ↔ 信義金融區 ↔ 萬華傳統 ↔ 北投溫泉 ↔ 文山木柵）/ 政治符號高度集中（總統府 / 中正紀念堂 / 國父紀念館）/ 大都會 framing 容易資料海，建議聚焦「內部分層」單一矛盾不貪心
-- **Reference**: 內政部戶政司 / 台北市政府 / 維基〈台北市〉
-- **預估時間**：~180 min（首都資料海需嚴格 scope）
-
-### 2. 新北市 NEW
-
-- **Type**: `NEW`
-- **Category**: Geography
-- **Priority**: `P0`
-- **Status**: `pending`
-- **Source**: 哲宇 directive 2026-05-17 230616-manual
-- **Hook 候選**：包圍台北的環狀都會 — 板橋的政治 / 淡水的觀光 / 瑞芳的礦業遺跡 / 三重的工業移民史
-- **Notes**: 401 萬全台最大人口 / 29 區跨幅極大 / 2010 縣升直轄市 / 板橋林家歷史 / 淡水紅毛城西荷時代 / 瑞芳金瓜石（已 cross-link 既有條目）/ 三峽鶯歌 / 烏來原住民部落（泰雅）/ 結構性張力：環狀包圍台北 = 通勤 / 衛星城 / 在地認同三層
-- **Reference**: 新北市政府 / 維基〈新北市〉
-- **預估時間**：~180 min
+<!-- 2. 新北市 已完成 2026-05-18 2026-05-18-004535-manual → ARTICLE-DONE-LOG.md (22 縣市 batch 5 finale — 包圍台北的環狀都會 紅毛城比台北早 200 年) -->
 
 <!-- 3. 桃園市 已完成 2026-05-18 2026-05-18-004535-manual → ARTICLE-DONE-LOG.md (22 縣市 batch 4 — 進出口/客家/移工 三層 anchor) -->
 
-### 4. 台中市 NEW
-
-- **Type**: `NEW`
-- **Category**: Geography
-- **Priority**: `P0`
-- **Source**: 哲宇 directive 2026-05-17 230616-manual
-- **Hook 候選**：中部生活圈樞紐 — 太平洋戰爭後快速崛起 + 國際展演中心定位 + 第六都的後發超車
-- **Notes**: 285 萬全台第二大 / 2010 縣市合併 / 大墩 / 第三市場 / 太陽餅 / 鳳梨酥 / 逢甲夜市 / 中科 / 中部科學園區 / 大甲媽祖遶境起點（大甲鎮瀾宮，per 既有 Culture 條目）/ 台中歌劇院（伊東豐雄）/ 國家美術館 / 國立美術館 / 台中爵士音樂節 / 政治派系（顏家 / 紅派 / 黑派）
-- **Reference**: 台中市政府 / 維基〈台中市〉
-- **預估時間**：~150 min
+<!-- 4. 台中市 已完成 2026-05-18 2026-05-18-004535-manual → ARTICLE-DONE-LOG.md (22 縣市 batch 5 — 1887 差點當首都 2010 才升格等了 123 年) -->
 
 <!-- 5. 台南市 已完成 2026-05-18 2026-05-18-004535-manual → ARTICLE-DONE-LOG.md (22 縣市 batch 4 — 261 年首府 + 400 年古蹟 + 21 世紀晶片三層) -->
 
