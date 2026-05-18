@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import PageHero from '../components/PageHero.astro';
 import markersData from '../data/map-markers.json';
+import counties22Data from '../data/counties-22.json';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
 import { getMapRoutes } from '../utils/mapConfig';
 
@@ -21,6 +22,7 @@ const routesData = getMapRoutes(t);
       id="mapData"
       data-markers={JSON.stringify(markersData)}
       data-routes={JSON.stringify(routesData)}
+      data-counties22={JSON.stringify(counties22Data)}
       style="display:none"
     >
     </div>
@@ -447,6 +449,139 @@ const routesData = getMapRoutes(t);
     font-size: 0.9rem;
     color: #16a34a;
     font-weight: 500;
+  }
+
+  /* 22 縣市深度文章 featured card（T1.1 evolution）— :global 因為 dynamic innerHTML 沒 astro cid */
+  :global(.deep-article-card) {
+    display: block;
+    margin: 8px 0 16px;
+    border: 1px solid #d1fae5;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%);
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+    transition:
+      transform 0.2s,
+      box-shadow 0.2s;
+  }
+  :global(.deep-article-card:hover) {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(22, 163, 74, 0.12);
+    border-color: #16a34a;
+  }
+  :global(.deep-card-hero) {
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    background-color: #16a34a;
+  }
+  :global(.deep-card-body) {
+    padding: 12px 14px 14px;
+  }
+  :global(.deep-card-badge) {
+    display: inline-block;
+    font-size: 0.7rem;
+    color: #15803d;
+    background: #dcfce7;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  :global(.deep-card-title) {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #14532d;
+    margin: 0 0 8px;
+    line-height: 1.35;
+  }
+  :global(.deep-card-contradiction) {
+    font-size: 0.85rem;
+    color: #166534;
+    line-height: 1.5;
+    margin: 0 0 10px;
+    font-style: italic;
+    padding-left: 8px;
+    border-left: 3px solid #16a34a;
+  }
+  :global(.deep-card-meta) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+  }
+  :global(.deep-card-cta) {
+    color: #16a34a;
+    font-weight: 600;
+  }
+  :global(.deep-card-read) {
+    color: #6b7280;
+  }
+
+  /* T1.4 22 縣市 grid（default sidebar 頂端 panel）*/
+  :global(.counties-22-panel) {
+    margin: 0 0 20px;
+    padding: 12px;
+    background: #fafdf6;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+  }
+  :global(.counties-22-header) {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  :global(.counties-22-header h4) {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #14532d;
+  }
+  :global(.counties-22-hint) {
+    font-size: 0.7rem;
+    color: #6b7280;
+  }
+  :global(.counties-22-grid) {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+  :global(.county-grid-card) {
+    text-align: left;
+    padding: 8px 10px;
+    border: 1px solid #d1fae5;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.18s;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-family: inherit;
+  }
+  :global(.county-grid-card:hover) {
+    border-color: #16a34a;
+    background: #f0fdf4;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(22, 163, 74, 0.08);
+  }
+  :global(.county-grid-name) {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #14532d;
+  }
+  :global(.county-grid-contradiction) {
+    font-size: 0.68rem;
+    color: #166534;
+    line-height: 1.35;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
   }
 
   /* 文章項目樣式 */
@@ -893,6 +1028,21 @@ const routesData = getMapRoutes(t);
   const routesData = JSON.parse(
     document.getElementById('mapData').getAttribute('data-routes'),
   );
+  const counties22 = JSON.parse(
+    document.getElementById('mapData').getAttribute('data-counties22'),
+  );
+
+  // 縣市名稱別名（topojson 用 臺，knowledge/Geography 可能用 台）
+  const COUNTY_ALIASES = {
+    台北市: '臺北市',
+    台中市: '臺中市',
+    台南市: '臺南市',
+    台東縣: '臺東縣',
+  };
+  function lookupCounty(name) {
+    const canonical = COUNTY_ALIASES[name] || name;
+    return counties22[canonical] || counties22[name] || null;
+  }
 
   /** 側欄：僅顯示與目前頁面語系相同的 markers；若無則 fallback zh-TW */
   function markerLang(m) {
@@ -1012,16 +1162,26 @@ const routesData = getMapRoutes(t);
         path.setAttribute('data-county', countyName);
         path.setAttribute('data-count', markerCount);
 
-        // Hover 效果
+        // Hover 效果（22 縣市深度文章升級版：顯示核心矛盾）
         path.addEventListener('mouseenter', () => {
           path.style.opacity = '0.8';
           path.style.cursor = 'pointer';
           const tooltip = document.getElementById('tooltip');
+          const deepArticle = lookupCounty(countyName);
           tooltip.querySelector('.tooltip-title').textContent = countyName;
-          tooltip.querySelector('.tooltip-category').textContent =
-            `${markerCount} ${i18n_tooltipArticles}`;
-          tooltip.querySelector('.tooltip-desc').textContent =
-            i18n_tooltipClick;
+          if (deepArticle) {
+            // 22 縣市深度文章：顯示核心矛盾
+            tooltip.querySelector('.tooltip-category').textContent =
+              '📖 ' + deepArticle.core_contradiction;
+            tooltip.querySelector('.tooltip-desc').textContent =
+              `${markerCount} ${i18n_tooltipArticles} · 點擊開啟深度文章`;
+          } else {
+            // fallback: 原始 marker 數字 tooltip
+            tooltip.querySelector('.tooltip-category').textContent =
+              `${markerCount} ${i18n_tooltipArticles}`;
+            tooltip.querySelector('.tooltip-desc').textContent =
+              i18n_tooltipClick;
+          }
           tooltip.style.opacity = '1';
         });
 
@@ -1291,6 +1451,29 @@ const routesData = getMapRoutes(t);
     generateCategoryArticles();
   }
 
+  // T1.4 22 縣市 grid panel（default sidebar 頂端）
+  function render22CountiesGrid() {
+    const items = Object.entries(counties22)
+      .map(([name, data]) => `
+        <button class="county-grid-card" data-county-name="${name}" title="${data.title}">
+          <span class="county-grid-name">${name}</span>
+          <span class="county-grid-contradiction">${data.core_contradiction}</span>
+        </button>
+      `)
+      .join('');
+    return `
+      <div class="counties-22-panel">
+        <div class="counties-22-header">
+          <h4>📍 22 縣市深度文章</h4>
+          <span class="counties-22-hint">點縣市卡開啟，或從地圖點縣市</span>
+        </div>
+        <div class="counties-22-grid">
+          ${items}
+        </div>
+      </div>
+    `;
+  }
+
   function generateCategoryArticles() {
     const container = document.getElementById('articlesByCategory');
     const sidebarMarkers = markersForSidebar(markersData);
@@ -1310,7 +1493,10 @@ const routesData = getMapRoutes(t);
       .sort(([, a], [, b]) => b.length - a.length)
       .slice(0, 6); // 只顯示前6個分類，避免太長
 
-    container.innerHTML = sortedCategories
+    // T1.4 22 縣市 grid 在最上方
+    const counties22HTML = render22CountiesGrid();
+
+    container.innerHTML = counties22HTML + sortedCategories
       .map(
         ([category, articles]) => `
       <div class="category-group">
@@ -1346,6 +1532,30 @@ const routesData = getMapRoutes(t);
       item.addEventListener('click', () => {
         const link = item.getAttribute('data-link');
         window.open(link, '_blank');
+      });
+    });
+
+    // T1.4 22 縣市 grid card 點擊 → 觸發同 polygon click 行為
+    container.querySelectorAll('.county-grid-card').forEach((card) => {
+      card.addEventListener('click', () => {
+        const countyName = card.getAttribute('data-county-name');
+        // 觸發對應 polygon 的 click，這樣同時 highlight 地圖跟開 sidebar
+        const polygon = document.querySelector(
+          `.county[data-county="${countyName}"]`,
+        );
+        if (polygon) {
+          polygon.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+          // scroll map into view on mobile
+          if (window.innerWidth <= 768) {
+            document
+              .querySelector('.map-panel')
+              ?.scrollIntoView({ block: 'start', behavior: 'smooth' });
+          }
+        } else {
+          // fallback: 直接 navigate
+          const data = counties22[countyName];
+          if (data) window.location.assign(data.link);
+        }
       });
     });
   }
@@ -1421,6 +1631,31 @@ const routesData = getMapRoutes(t);
     }
   }
 
+  // T1.1 22 縣市深度文章 featured card（縣市 polygon click 後顯示在 sidebar 頂端）
+  function renderDeepArticleCard(deep) {
+    if (!deep) return '';
+    const heroHTML = deep.hero
+      ? `<div class="deep-card-hero" style="background-image: url('${deep.hero}')"></div>`
+      : '';
+    const readMin = deep.readingTime
+      ? `${deep.readingTime} ${i18n_readingTime}`
+      : '';
+    return `
+      <a class="deep-article-card" href="${deep.link}" target="_self">
+        ${heroHTML}
+        <div class="deep-card-body">
+          <span class="deep-card-badge">📖 22 縣市系列 · 深度文章</span>
+          <h4 class="deep-card-title">${deep.title}</h4>
+          <p class="deep-card-contradiction">${deep.core_contradiction}</p>
+          <div class="deep-card-meta">
+            <span class="deep-card-cta">閱讀全文 →</span>
+            ${readMin ? `<span class="deep-card-read">${readMin}</span>` : ''}
+          </div>
+        </div>
+      </a>
+    `;
+  }
+
   function showCountySidebar(countyName, articles) {
     const defaultSidebar = document.getElementById('sidebarDefault');
     const countySidebar = document.getElementById('sidebarCounty');
@@ -1436,15 +1671,21 @@ const routesData = getMapRoutes(t);
     document.getElementById('countyArticleCount').textContent =
       `${articles.length} ${i18n_articlesCount}`;
 
-    // 生成文章列表
+    // 生成文章列表（22 縣市深度文章 featured card 在最上方）
     const articlesContainer = document.getElementById('countyArticles');
+    const deepArticle = lookupCounty(countyName);
+    const featuredHTML = renderDeepArticleCard(deepArticle);
 
     if (articles.length === 0) {
-      articlesContainer.innerHTML = `<div class="no-articles">${i18n_noArticles}</div>`;
+      articlesContainer.innerHTML =
+        featuredHTML +
+        `<div class="no-articles">${i18n_noArticles}</div>`;
       return;
     }
 
-    articlesContainer.innerHTML = articles
+    articlesContainer.innerHTML =
+      featuredHTML +
+      articles
       .map(
         (article) => `
       <div class="sidebar-article-item" data-link="${article.link}" data-title="${article.title}"
