@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-05-17T22:12:45Z",
-  "total": 721,
-  "flagged": 313,
+  "timestamp": "2026-05-18T15:08:47Z",
+  "total": 731,
+  "flagged": 314,
   "files": [
     {
       "file": "music/拍謝少年.md",
@@ -202,7 +202,7 @@
     {
       "file": "technology/台灣AI日常.md",
       "score": 9,
-      "reasons": "未人工審核; 塑膠句1個; 破折號20個; 後段清單堆砌37%; 稀薄段落×1; 無腳註"
+      "reasons": "未人工審核; 塑膠句1個; 破折號20個; 後段清單堆砌40%; 稀薄段落×1; 無腳註"
     },
     {
       "file": "technology/開源社群與g0v.md",
@@ -1186,8 +1186,8 @@
     },
     {
       "file": "food/珍珠奶茶.md",
-      "score": 6,
-      "reasons": "未人工審核; 塑膠句3個; 破折號10個; 無腳註"
+      "score": 8,
+      "reasons": "未人工審核; 塑膠句3個; 破折號10個; 後段清單堆砌35%; 無腳註"
     },
     {
       "file": "food/營養午餐.md",
@@ -1318,6 +1318,11 @@
       "file": "geography/台灣都市發展與城鄉差距.md",
       "score": 8,
       "reasons": "年份3個; 連續bullet7行; 塑膠句1個; 破折號5個; 後段清單堆砌32%; 無腳註"
+    },
+    {
+      "file": "geography/新北市.md",
+      "score": 5,
+      "reasons": "空洞詞18個; 未人工審核; 連續bullet5行"
     },
     {
       "file": "geography/擎天崗.md",

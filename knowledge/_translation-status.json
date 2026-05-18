@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-18T20:41:03+08:00",
-    "zhCommitHead": "96945e450",
-    "totalZh": 730,
+    "lastUpdated": "2026-05-18T23:08:45+08:00",
+    "zhCommitHead": "9acb6605f",
+    "totalZh": 731,
     "activeLanguages": [
       "en",
       "ja",
@@ -12,42 +12,42 @@
     ],
     "summary": {
       "en": {
-        "total_zh": 730,
+        "total_zh": 731,
         "fresh": 600,
         "stale": 115,
-        "metadata_stale": 6,
+        "metadata_stale": 7,
         "missing": 9,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 730,
+        "total_zh": 731,
         "fresh": 597,
         "stale": 118,
-        "metadata_stale": 6,
+        "metadata_stale": 7,
         "missing": 9,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 730,
+        "total_zh": 731,
         "fresh": 594,
         "stale": 121,
-        "metadata_stale": 6,
+        "metadata_stale": 7,
         "missing": 9,
         "orphan": 0
       },
       "es": {
-        "total_zh": 730,
+        "total_zh": 731,
         "fresh": 599,
         "stale": 116,
-        "metadata_stale": 6,
+        "metadata_stale": 7,
         "missing": 9,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 730,
+        "total_zh": 731,
         "fresh": 597,
         "stale": 118,
-        "metadata_stale": 6,
+        "metadata_stale": 7,
         "missing": 9,
         "orphan": 0
       }
@@ -5101,6 +5101,31 @@
         }
       }
     },
+    "Economy/台灣科技園區外圍商圈生態.md": {
+      "zh": {
+        "lastCommit": "10c12c50",
+        "lastModified": "2026-05-18T22:11:13+08:00",
+        "contentHash": "sha256:5188638d5f08c937",
+        "bodyHash": "sha256:96ee687ae59d6522"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Economy/台灣企業：長榮海運.md": {
       "zh": {
         "lastCommit": "4b6d28c5",
@@ -7400,19 +7425,69 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Technology/taiwan-ai-academy.md",
+          "translatedFrom": "Technology/台灣人工智慧學校.md",
+          "sourceCommitSha": "96945e450",
+          "sourceContentHash": "sha256:5beed3bcd5362b88",
+          "sourceBodyHash": "sha256:de487b6c8ffd4407",
+          "translatedAt": "2026-05-18T20:48:56+08:00",
+          "translationLastCommit": "1bbb1e5d",
+          "translationLastModified": "2026-05-18T20:56:10+08:00",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Technology/taiwan-ai-academy.md",
+          "translatedFrom": "Technology/台灣人工智慧學校.md",
+          "sourceCommitSha": "96945e450",
+          "sourceContentHash": "sha256:5beed3bcd5362b88",
+          "sourceBodyHash": "sha256:de487b6c8ffd4407",
+          "translatedAt": "2026-05-18T20:48:56+08:00",
+          "translationLastCommit": "1bbb1e5d",
+          "translationLastModified": "2026-05-18T20:56:10+08:00",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Technology/taiwan-ai-academy.md",
+          "translatedFrom": "Technology/台灣人工智慧學校.md",
+          "sourceCommitSha": "96945e450",
+          "sourceContentHash": "sha256:5beed3bcd5362b88",
+          "sourceBodyHash": "sha256:de487b6c8ffd4407",
+          "translatedAt": "2026-05-18T20:48:56+08:00",
+          "translationLastCommit": "1bbb1e5d",
+          "translationLastModified": "2026-05-18T20:56:10+08:00",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Technology/taiwan-ai-academy.md",
+          "translatedFrom": "Technology/台灣人工智慧學校.md",
+          "sourceCommitSha": "96945e450",
+          "sourceContentHash": "sha256:5beed3bcd5362b88",
+          "sourceBodyHash": "sha256:de487b6c8ffd4407",
+          "translatedAt": "2026-05-18T20:48:56+08:00",
+          "translationLastCommit": "1bbb1e5d",
+          "translationLastModified": "2026-05-18T20:56:10+08:00",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Technology/taiwan-ai-academy.md",
+          "translatedFrom": "Technology/台灣人工智慧學校.md",
+          "sourceCommitSha": "96945e450",
+          "sourceContentHash": "sha256:5beed3bcd5362b88",
+          "sourceBodyHash": "sha256:de487b6c8ffd4407",
+          "translatedAt": "2026-05-18T20:48:56+08:00",
+          "translationLastCommit": "1bbb1e5d",
+          "translationLastModified": "2026-05-18T20:56:10+08:00",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -32763,9 +32838,9 @@
     },
     "People/林宥嘉.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:ff4d0a0deab286ca",
+        "lastCommit": "b358c802",
+        "lastModified": "2026-05-18T23:10:19+09:00",
+        "contentHash": "sha256:81084f8c4d60488a",
         "bodyHash": "sha256:e37ed40c36801365"
       },
       "translations": {
@@ -32776,11 +32851,13 @@
           "sourceContentHash": "sha256:ff4d0a0deab286ca",
           "sourceBodyHash": "sha256:e37ed40c36801365",
           "translatedAt": "2026-05-01T12:53:58+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "b358c802",
+          "translationLastModified": "2026-05-18T23:10:19+09:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+3 -3"
         },
         "ja": {
           "path": "ja/People/yoga-lin.md",
@@ -32789,11 +32866,13 @@
           "sourceContentHash": "sha256:ff4d0a0deab286ca",
           "sourceBodyHash": "sha256:e37ed40c36801365",
           "translatedAt": "2026-05-01T18:02:56+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "b358c802",
+          "translationLastModified": "2026-05-18T23:10:19+09:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+3 -3"
         },
         "ko": {
           "path": "ko/People/yoga-lin.md",
@@ -32802,11 +32881,13 @@
           "sourceContentHash": "sha256:ff4d0a0deab286ca",
           "sourceBodyHash": "sha256:e37ed40c36801365",
           "translatedAt": "2026-05-01T20:54:10+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "b358c802",
+          "translationLastModified": "2026-05-18T23:10:19+09:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+3 -3"
         },
         "es": {
           "path": "es/People/yoga-lin.md",
@@ -32815,11 +32896,13 @@
           "sourceContentHash": "sha256:ff4d0a0deab286ca",
           "sourceBodyHash": "sha256:e37ed40c36801365",
           "translatedAt": "2026-05-01T20:54:23+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "b358c802",
+          "translationLastModified": "2026-05-18T23:10:19+09:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+3 -3"
         },
         "fr": {
           "path": "fr/People/yoga-lin.md",
@@ -32828,11 +32911,13 @@
           "sourceContentHash": "sha256:ff4d0a0deab286ca",
           "sourceBodyHash": "sha256:e37ed40c36801365",
           "translatedAt": "2026-05-01T20:54:17+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "b358c802",
+          "translationLastModified": "2026-05-18T23:10:19+09:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+3 -3"
         }
       }
     },

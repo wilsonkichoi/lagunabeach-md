@@ -50,6 +50,25 @@
     "path": "ko/People/mavis-fan-singer.md"
   },
   {
+    "title": "'三毛: 도피를 자유로 쓴 사람'",
+    "description": "'본명 진평(陳平), 1943년 충칭에서 태어나 1948년 가족과 함께 대만으로 이주. 중학교 시절 선생님의 공개 망명으로 자퇴한 뒤 7년간 은둔 생활을 하다 다시 글쓰기를 시작함. 1973년 호세와 서사하라에서 결혼, 수필이 대히트하며 계엄 시대 대만인들이 멀리 있는 세계를 상상하는 창이 됨. 1979년 호세가 잠수 사고로 사망. 1990년 각본 《滚滚红尘》로 금마장 8개 부문 수상. 1991년 1월 4일 타이베이 영민총원(榮民總醫院)에서 자살, 향년 47세.'",
+    "category": "ko",
+    "tags": [
+      "삼모",
+      "수필",
+      "사하라",
+      "호세",
+      "올리브나무",
+      "滚滚红尘",
+      "유랑문학"
+    ],
+    "url": "https://taiwan.md/ko/People/san-mao",
+    "readingTime": 46,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "ko/People/san-mao.md"
+  },
+  {
     "title": "'Formose' : comment les Occidentaux ont « découvert » une île déjà habitée",
     "description": "En 1704, un Français qui n'était jamais allé en Asie se présenta devant la Royal Society de Londres et, avec une écriture et une religion qu'il avait lui-même inventées, convainquit l'assemblée de savants qu'il était « Formosan ». Cette supercherie dura dix ans. Mais la question la plus vaste est celle-ci : lorsque les Européens disent avoir « découvert Formose », les peuples austronésiens de l'île y vivaient déjà depuis six mille ans. De qui la « découverte » est-elle le récit ?",
     "category": "fr",
@@ -321,6 +340,28 @@
     "featured": false,
     "date": "2026-04-30",
     "path": "ja/Society/poisoned-potato-cognitive-warfare-taiwan.md"
+  },
+  {
+    "title": "「皇帝が名を賜った嘉義」――最も存在感の薄い省轄市（県級市）",
+    "description": "清乾隆52年（1787年）、詔書により「諸羅」が「嘉義」と改名された。皇帝が自ら名を授けた唯一の城である。1908年、日本人がこの城の南西3.3キロメートルの稲田に、世界初の北回帰線標塔を建てた。1931年、嘉義農林（カノー）の三族混成チームが甲子園で準優勝を果たした。1947年3月25日、画家・陳澄波が駅前に縛り上げられて銃殺され、遺体は3日間路上に放置された。現在の嘉義市は人口26万人、面積60平方キロメートル、高鉄駅を持たず、嘉義縣に完全に囲まれている。台湾の中規模都市の縮図である。",
+    "category": "ja",
+    "tags": [
+      "嘉義",
+      "嘉義市",
+      "諸羅",
+      "北回帰線",
+      "阿里山林業",
+      "KANO",
+      "陳澄波",
+      "二二八",
+      "火鶏肉飯",
+      "22県市シリーズ"
+    ],
+    "url": "https://taiwan.md/ja/Geography/chiayi-city",
+    "readingTime": 64,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/chiayi-city.md"
   },
   {
     "title": "「燃え尽きることを選び、錆びることを拒む」：マッケイと彼が愛したフォルモサ",
@@ -775,6 +816,25 @@
     "featured": false,
     "date": "2026-05-17",
     "path": "People/三毛.md"
+  },
+  {
+    "title": "三毛：逃避を自由に書き換えた人",
+    "description": "本名は陳平。1943年に重慶で生まれ、1948年に家族とともに台湾に移住した。中学二年のとき、教師から公然と辱めを受けて退学し、七年間の自閉生活を経て再び執筆を始めた。1973年、ホセとスペイン領サハラで結婚し、散文が爆発的にヒット。戒厳令時代の台湾人が遠い世界を想像する窓となった。1979年、ホセがダイビング事故で亡くなった。1990年、脚本を手がけた映画『滾滾紅塵（こんこんじょうじん）』が金馬賞の八部門を受賞した。1991年1月4日、台北栄民総病院で自ら命を絶った。享年四十七歳。",
+    "category": "ja",
+    "tags": [
+      "三毛",
+      "散文",
+      "サハラ",
+      "ホセ",
+      "橄欖樹",
+      "滾滾紅塵",
+      "流浪文学"
+    ],
+    "url": "https://taiwan.md/ja/People/san-mao",
+    "readingTime": 39,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "ja/People/san-mao.md"
   },
   {
     "title": "三峡茶：「青心柑仔」の螺旋的転換から、夏茶の価値である蜜香への進化へ",
@@ -1778,6 +1838,17 @@
     "path": "Technology/半導體產業.md"
   },
   {
+    "title": "台中市：1887 年差點當首都，2010 年才變第二大直轄市",
+    "description": "1887 年劉銘傳奏請建省，省城選在彰化縣橋仔頭（今台中市區），規劃八卦形城池。1889 年開始築城。1894 年邵友濂上任後讓省會北遷台北，台中省城停工。1920 年 10 月 1 日日本人在這裡設台中州。1955 年東海大學在大度山動土，1963 年路思義教堂落成。1999 年 9 月 21 日凌晨，車籠埔斷層從南投集集一路撕到台中東勢，東勢鎮死了 358 人。2010 年 12 月 25 日縣市合併升格直轄市，29 區。2016 年伊東豐雄的國家歌劇院在西屯區開幕。286 萬人住在這座等了 123 年的城。",
+    "category": "Geography",
+    "tags": [],
+    "url": "https://taiwan.md/Geography/%E5%8F%B0%E4%B8%AD%E5%B8%82",
+    "readingTime": 71,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "Geography/台中市.md"
+  },
+  {
     "title": "台北 101：從「看門狗」到「金色的蛇」，一座地標的政經與風水豪賭",
     "description": "台北 101 不只是一棟大樓，它是陳水扁與彭淮南的政經博弈、李祖原的風水實驗，更是 Alex Honnold 腳下的「大魔王」。從 59 層到 101 層的演變，揭開這座「聚寶盆」背後的權力與神祕。",
     "category": "Geography",
@@ -1798,6 +1869,17 @@
     "featured": false,
     "date": "2026-05-04",
     "path": "ja/Geography/taipei-101.md"
+  },
+  {
+    "title": "台北市：一座城裡的三個時間，1738 龍山寺看著 2004 的 101",
+    "description": "萬華有座 1738 年的龍山寺。三公里外，2004 年元旦前夜，台北 101 在原是日治松山倉庫跟戰後四四兵工廠的土地上落成那刻是世界第一高樓。再走到大稻埕，1860 年代李春生用一艘船的烏龍茶撐起整個北台灣的對外貿易。同一個盆地，1738、1885、2004 三個時間並排放著。1875 沈葆楨設台北府、1920 日本人合三市街為台北市、1947 林江邁那包私菸點燃二二八、1949 國府帶 120 萬人遷台北、1967 升格全台第一個直轄市、1990 野百合在中正紀念堂坐了七天六夜。12 個區，活在不同的世紀。",
+    "category": "Geography",
+    "tags": [],
+    "url": "https://taiwan.md/Geography/%E5%8F%B0%E5%8C%97%E5%B8%82",
+    "readingTime": 68,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "Geography/台北市.md"
   },
   {
     "title": "台北鼠患：從 1896 年總督府的鼠疫令，到 2026 年大安區的漢他病毒",
@@ -1834,6 +1916,17 @@
     "featured": false,
     "date": "2026-05-05",
     "path": "ja/Society/taipei-rat-problem.md"
+  },
+  {
+    "title": "台東県：二つの離島、一つは三十六年にわたり政治犯を収容し、一つは四十二年にわたり核廃棄物を保管してきました",
+    "description": "台東県では 21 万人が 3,515 平方キロメートルに散在し、全国最低の人口密度で、1 平方キロメートルあたり 60 人しか住んでおらず、台北の百分の一です。しかしこの県には、台湾最古の人類集落（卑南遺跡、5,300 年前、1,600 基の石棺）があり、六つの原住民族（アミ、プユマ、パイワン、ルカイ、ブヌン、タオ）が暮らし、原住民人口比率 37.5% は台湾で最も高いです。1951 年から 1987 年まで、緑島の火焼島には三十六年にわたり政治犯が収容されました。1982 年 5 月から、蘭嶼の龍門は核廃棄物の受け入れを開始し、四十二年後も 97,672 ドラムがなおそこにあります。1968 年 8 月 25 日、紅葉村の七人のブヌン族の子どもが、日本の関西少年野球選抜チーム（世界王者チームではありません）を 7 対 0 で破り、台湾野球を国技とする神話はこの欺瞞から始まりました。二つの離島は、一つの島全体の代償を引き受けてきました。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Geography/taitung-county",
+    "readingTime": 81,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/taitung-county.md"
   },
   {
     "title": "台東縣：兩個離島，一個關了三十六年政治犯，一個存了四十二年核廢料",
@@ -1881,6 +1974,17 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：台泥.md"
+  },
+  {
+    "title": "台南市：261 年首府、400 年古蹟、21 世紀晶片，疊在同一片土地上",
+    "description": "1624 年荷蘭人在大員的沙丘上開始蓋熱蘭遮城，1662 年 2 月 1 日揆一在這座城簽下降書、2 月 9 日帶著兩千個荷蘭人離開海灘。1665 年陳永華建孔廟，成「全台首學」。1684 年清廷設台灣府於今台南，1885 年台灣建省、省會北移台北，261 年的首府身分結束。1947 年 3 月 13 日中午湯德章在民生綠園被五花大綁押上卡車遊街、然後三聲槍響。2010 年 12 月 25 日縣市合併變 37 區、186 萬人。2023 年南科年營業額一兆五千億超越竹科。三層歷史壓在同一片嘉南平原中段。",
+    "category": "Geography",
+    "tags": [],
+    "url": "https://taiwan.md/Geography/%E5%8F%B0%E5%8D%97%E5%B8%82",
+    "readingTime": 74,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "Geography/台南市.md"
   },
   {
     "title": "台風休暇：誰の休みで、誰の勤務か",
@@ -1931,6 +2035,25 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "ja/Technology/taiwan-5g-digital-transformation.md"
+  },
+  {
+    "title": "台湾人工知能学校：未完の電話と1万人のAIエンジニア",
+    "description": "2020年3月27日、陳昇瑋は天下雑誌の編集長に慎重に電話をかけました。彼は無料の全民向けプログラミング講座を開きたいと考えていました。2日後、彼はインラインスケートで転倒し、13日後に亡くなりました。44歳でした。彼が亡くなった時、自ら2018年に創設した台湾人工知能学校（AIA）はすでに6,000人超を訓練していました。同時期、国家発展委員会の「AI小国大戦略」は5年で160億を掲げましたが、彼は台塑、奇美、英業達など6社から民間資金1.8億を集め、自ら学校を開きました。8年後、卒業生は1万人を超えました。AIAは台湾の産業高度化において、最も台湾らしくないピースです。",
+    "category": "ja",
+    "tags": [
+      "人工知能",
+      "教育",
+      "陳昇瑋",
+      "AIA",
+      "台湾テック産業",
+      "中央研究院",
+      "AI政策"
+    ],
+    "url": "https://taiwan.md/ja/Technology/taiwan-ai-academy",
+    "readingTime": 62,
+    "featured": true,
+    "date": "2026-05-18",
+    "path": "ja/Technology/taiwan-ai-academy.md"
   },
   {
     "title": "台湾人工智慧ラボ (Taiwan AI Labs)",
@@ -2526,12 +2649,41 @@
     "path": "ja/Culture/taiwan-floral-fabric.md"
   },
   {
-    "title": "台湾客家音楽：山歌から林生祥の受賞拒否に至る言語政治",
-    "description": "客家山歌は労働生活に起源を持ち、客家八音は婚喪の儀礼に用いられる。1999年、交工楽隊が『我等就來唱山歌』で金曲賞最優秀作曲者賞と最優秀プロデューサー賞を獲得し、客家ロックの幕開けとなった。2003年、第14回金曲賞で客語歌唱者賞が新設され、2004年に謝宇威が初代受賞者となった。2007年、林生祥が『種樹』で受賞したが、授賞式の場で受賞を拒否し、音楽は言語ではなくジャンルで分類されるべきだと訴えた。この受賞拒否は客語部門の存廃を巡る議論を巻き起こし、3年後の金音創作賞創設につながった。客家テレビ局は2003年に設立され、客語音楽の認知度向上に継続的に貢献している。言語消滅の脅威は依然として存在するが、継承と革新の緊張関係が客家音楽人を前進させ続けている。",
+    "title": "台湾前途決議文：二文字の「目前」が二十七年を支えた",
+    "description": "1999年、林濁水は「国号中華民国」の前に「目前」という二文字を加えた。扁系はこれを快く思わなかった。二文字は独立派と中間有権者を同時に安心させ、2000年の初の政権交代への道を開いた。二十七年後、台湾の若者にとって「台湾はもともと独立している」は常識となっているが、その常識が曖昧に満ちた一つの文書から生まれたことを知らない。",
     "category": "ja",
-    "tags": [],
+    "tags": [
+      "民進党",
+      "前途決議文",
+      "台独党綱",
+      "林濁水",
+      "郭正亮",
+      "陳忠信",
+      "両岸関係",
+      "政権交代",
+      "台湾民主化"
+    ],
+    "url": "https://taiwan.md/ja/History/resolution-on-taiwans-future",
+    "readingTime": 40,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "ja/History/resolution-on-taiwans-future.md"
+  },
+  {
+    "title": "台湾客家音楽：山歌から林生祥の受賞拒否まで――言語と音楽の政治",
+    "description": "客家山歌は労働生活に起源を持ち、客家八音は婚喪の儀式で用いられてきた。1999年、交工楽隊が『我等就來唱山歌』で金曲賞の最優秀作曲者賞と最優秀プロデューサー賞を受賞し、客家ロックの時代を切り拓いた。2003年、第14回金曲賞で客語歌唱者賞が新設され、2004年に謝宇威が初代受賞者となった。2007年、林生祥が『種樹』で受賞したが、授賞式の場で受賞を拒否し、音楽は言語ではなくジャンルで分類されるべきだと訴えた。この出来事は客語部門の存廃をめぐる議論を呼び起こし、3年後の金音創作賞創設につながった。客家テレビ局は2003年に設立され、客語音楽の可視化を拡大し続けている。言語消滅の脅威は依然として存在するが、継承と革新の緊張関係が客家音楽人を前進させ続けている。",
+    "category": "ja",
+    "tags": [
+      "客家音楽",
+      "山歌",
+      "客家八音",
+      "林生祥",
+      "交工楽隊",
+      "客語歌曲",
+      "金曲賞"
+    ],
     "url": "https://taiwan.md/ja/Music/taiwan-hakka-music-from-mountain-songs-to-rock",
-    "readingTime": 14,
+    "readingTime": 15,
     "featured": false,
     "date": "2026-03-19",
     "path": "ja/Music/taiwan-hakka-music-from-mountain-songs-to-rock.md"
@@ -2825,7 +2977,7 @@
   },
   {
     "title": "台湾海峡危機と両岸関係の発展",
-    "description": "金門の阿嬤の砲弾記憶から台北の若者の仏系的日常まで、七十年の台湾海峡危機がいかに台湾人の集団心理を形作ってきたか",
+    "description": "金門の阿嬤の砲弾の記憶から台北の若者の仏系的日常まで、七十年にわたる台湾海峡危機が台湾人の集団心理をいかに形成してきたか",
     "category": "ja",
     "tags": [
       "両岸関係",
@@ -2835,7 +2987,7 @@
       "地政学"
     ],
     "url": "https://taiwan.md/ja/History/taiwan-strait-crises-and-cross-strait-relations",
-    "readingTime": 32,
+    "readingTime": 31,
     "featured": false,
     "date": "2026-03-18",
     "path": "ja/History/taiwan-strait-crises-and-cross-strait-relations.md"
@@ -3059,18 +3211,18 @@
   },
   {
     "title": "台湾散文",
-    "description": "外省人の望郷から本土へのアイデンティティへ、男性文人から女性主導の文学風景へ。半世紀にわたり最も生活に身近でありながら最も定義しにくい文学形式は、いかにして台湾人の感情と記憶の担い手となったのか？",
+    "description": "外省人の望郷から本土へのアイデンティティへ、男性文人から女性主導の文学風景へ。半世紀にわたり最も生活に身近でありながら最も定義しにくい文学形式は、どのようにして台湾人の感情と記憶の担い手となったのか？",
     "category": "ja",
     "tags": [
       "散文",
       "文学",
       "台湾文学史",
       "女性作家",
-      "生活書寫",
-      "自然書寫"
+      "生活书写",
+      "自然书写"
     ],
     "url": "https://taiwan.md/ja/Art/taiwanese-prose",
-    "readingTime": 19,
+    "readingTime": 20,
     "featured": true,
     "date": "2026-03-24",
     "path": "ja/Art/taiwanese-prose.md"
@@ -3226,12 +3378,20 @@
     "path": "ja/Nature/taiwan-environmental-movement-history.md"
   },
   {
-    "title": "台湾KTV文化：カラオケから個室社交への時代変遷",
-    "description": "台湾KTV文化の発展の歩みを探る。日本から導入されたカラオケから独自の個室文化の確立、好楽迪と銭櫃の競争時代、カラオケリクエストランキングがポップカルチャーの指標となった経緯、そしてコロナ禍後の産業転換の課題までを解説します。",
+    "title": "台湾KTV文化：好楽迪・銭櫃から個室社交への時代変遷",
+    "description": "台湾KTV文化の発展の歩みを探る。日本から導入されたカラオケから本土化された個室文化、好楽迪と銭櫃の競争時代、カラオケランキングがポップカルチャーの指標となった経緯、そしてコロナ禍後の産業変革の課題までを解説します。",
     "category": "ja",
-    "tags": [],
+    "tags": [
+      "KTV文化",
+      "カラオケ",
+      "好楽迪",
+      "銭櫃",
+      "個室文化",
+      "ポップミュージック",
+      "ソーシャルカルチャー"
+    ],
     "url": "https://taiwan.md/ja/Music/ktv-culture",
-    "readingTime": 28,
+    "readingTime": 39,
     "featured": true,
     "date": "2026-03-19",
     "path": "ja/Music/ktv-culture.md"
@@ -3683,20 +3843,14 @@
     "path": "ja/History/democratic-transition.md"
   },
   {
-    "title": "台湾の民主転換——威権体制が自ら掘った墓",
-    "description": "弾圧するたびに、より多くの抵抗者を生み出した。二・二八からひまわり運動まで、一つの島がいかにして独裁体制に自らを葬る力を育てさせたか。",
+    "title": "台湾の民主転換——権威が自ら掘った墓",
+    "description": "抑圧は毎回、より多くの抵抗者を生み出します。二・二八事件から太陽花運動まで、島がどのように独裁体制を自ら埋める力を育んだのかを示します。",
     "category": "ja",
-    "tags": [
-      "民主主義",
-      "移行期正義",
-      "政治史",
-      "人権",
-      "社会運動"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/History/taiwan-democratization",
     "readingTime": 38,
-    "featured": false,
-    "date": "2026-05-02",
+    "featured": true,
+    "date": "2026-03-24",
     "path": "ja/History/taiwan-democratization.md"
   },
   {
@@ -4740,7 +4894,7 @@
       "民主化",
       "政党政治",
       "党外運動",
-      "大統領直接選挙"
+      "総統直接選挙"
     ],
     "url": "https://taiwan.md/ja/History/taiwan-elections-and-party-politics",
     "readingTime": 27,
@@ -5481,6 +5635,25 @@
     "featured": true,
     "date": "2026-03-19",
     "path": "Technology/台灣人工智慧實驗室.md"
+  },
+  {
+    "title": "台灣人工智慧學校：那通沒打完的電話，跟一萬名 AI 工程師",
+    "description": "2020 年 3 月 27 日，陳昇瑋慎重打電話給天下雜誌主編：他想開一種免費的全民程式課。兩天後他直排輪跌倒，13 天後不治，44 歲。他過世時，自己 2018 年創辦的台灣人工智慧學校（AIA）已訓練超過 6,000 人。同期國發會「AI 小國大戰略」喊 5 年 160 億，他靠台塑、奇美、英業達等六家企業 1.8 億民間募資自己開了學校。八年後校友破萬。AIA 是台灣產業升級裡，最不像台灣的一塊拼圖。",
+    "category": "Technology",
+    "tags": [
+      "人工智慧",
+      "教育",
+      "陳昇瑋",
+      "AIA",
+      "台灣科技業",
+      "中研院",
+      "AI政策"
+    ],
+    "url": "https://taiwan.md/Technology/%E5%8F%B0%E7%81%A3%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E5%AD%B8%E6%A0%A1",
+    "readingTime": 49,
+    "featured": true,
+    "date": "2026-05-18",
+    "path": "Technology/台灣人工智慧學校.md"
   },
   {
     "title": "台灣小吃",
@@ -6956,6 +7129,17 @@
     "path": "Society/台灣省籍矛盾.md"
   },
   {
+    "title": "台灣科技園區外圍商圈生態",
+    "description": "南港軟體園區、內湖科技園區、新竹科學園區、中部科學園區、南部科學園區外圍餐廳為什麼只剩午餐、晚餐紛紛收掉。本文從通勤模式、BOT 分區管制與加班文化轉變三個面向拆解台灣科技走廊的單峰商圈現象，並追蹤 2025 年 3 月 LaLaport 開幕對三重路、園區街傳統午市店家造成的結構性衝擊。",
+    "category": "Economy",
+    "tags": [],
+    "url": "https://taiwan.md/Economy/%E5%8F%B0%E7%81%A3%E7%A7%91%E6%8A%80%E5%9C%92%E5%8D%80%E5%A4%96%E5%9C%8D%E5%95%86%E5%9C%88%E7%94%9F%E6%85%8B",
+    "readingTime": 30,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "Economy/台灣科技園區外圍商圈生態.md"
+  },
+  {
     "title": "台灣穿山甲",
     "description": "全世界被走私最多的哺乳動物，在台灣找到了一個安全的家",
     "category": "Nature",
@@ -6972,6 +7156,29 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "Nature/台灣穿山甲.md"
+  },
+  {
+    "title": "台灣美食總覽：沒有一道菜是純粹台灣的，每一道菜都是最台灣的",
+    "description": "1949 年的嘉義噴水池圓環旁，林添壽把美軍養剩的火雞切片鋪在白飯上、淋上閩南滷汁。從原住民石板烤山豬、客家薑絲炒大腸、眷村川味牛肉麵到 1986 年台中發明的珍珠奶茶，再到 2025 年米其林收進的 419 家餐廳。這座島嶼花了四百年把每一道借來的菜煮成自己的方式。",
+    "category": "Food",
+    "tags": [
+      "美食",
+      "Food",
+      "食物",
+      "台灣文化",
+      "移民",
+      "米其林",
+      "夜市",
+      "珍珠奶茶",
+      "牛肉麵",
+      "滷肉飯",
+      "辦桌"
+    ],
+    "url": "https://taiwan.md/Food/%E5%8F%B0%E7%81%A3%E7%BE%8E%E9%A3%9F%E7%B8%BD%E8%A6%BD",
+    "readingTime": 77,
+    "featured": true,
+    "date": "2026-05-18",
+    "path": "Food/台灣美食總覽.md"
   },
   {
     "title": "台灣音樂產業與串流時代：從唱片行到數位平台的轉型之路",
@@ -9361,7 +9568,7 @@
   },
   {
     "title": "白先勇：『台北人』1971年から青春版『牡丹亭』20年ツアーまで",
-    "description": "1937年広西チワン族自治区桂林で生まれる。白崇禧の子。1956年台湾大学外国語文学科に入学。王文興らとともに『現代文学』を創刊。1971年『台北人』14編の短編小説集を出版。1983年『孽子』を出版。2003年青春版『牡丹亭』の企画を開始、2004年4月に初演、2024年に20周年を迎える。2003年に国家文芸賞を受賞。",
+    "description": "1937年広西チワン族自治区桂林で生まれ、白崇禧の子である。1956年台湾大学外国語文学科に入学し、王文興らとともに『現代文学』を創刊。1971年『台北人』14編の短編小説集を出版。1983年『孽子』を出版。2003年青春版『牡丹亭』の企画を開始し、2004年4月に初演、2024年に20周年を迎えた。2003年に国家文芸賞を受賞。",
     "category": "ja",
     "tags": [
       "文学",
@@ -11657,6 +11864,31 @@
     "path": "ja/Society/learning-poverty-in-taiwan.md"
   },
   {
+    "title": "宜蘭県：二度、自らの運命を選び、蘭陽平原はそれ以来後戻りしませんでした",
+    "description": "1987 年 12 月 13 日の夜、陳定南は華視のスタジオで王永慶の向かいに座り、六軽を蘭陽平原の外に押しとどめました。19 年後の 2006 年 6 月 16 日、雪山トンネルが開通し、台北から宜蘭までの所要時間は 2 時間から 40 分に短縮されました。その後、開通から 10 年以内にこの米倉には 6,137 棟の農舍が建ち、1 坪あたりの地価は 4,000 元から 20,000 元へ跳ね上がり、2023 年には宜蘭県だけで台湾全体の 35% の農舍建築許可が発給されました。一つの地域が歴史の重要な瞬間に二度選択を行い、蘭陽平原はその代償と贈り物をともに引き受けました。",
+    "category": "ja",
+    "tags": [
+      "宜蘭",
+      "宜蘭県",
+      "蘭陽平原",
+      "雪山トンネル",
+      "陳定南",
+      "反六軽",
+      "林宅血案",
+      "慈林",
+      "クバラン族",
+      "亀山島",
+      "太平山",
+      "童玩節",
+      "22県市シリーズ"
+    ],
+    "url": "https://taiwan.md/ja/Geography/yilan-county",
+    "readingTime": 94,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/yilan-county.md"
+  },
+  {
     "title": "宜蘭縣：兩次選擇了自己的命運，蘭陽平原從此沒回頭",
     "description": "1987 年 12 月 13 日晚上，陳定南在華視棚內坐到王永慶對面，把六輕擋在蘭陽平原外。十九年後 2006 年 6 月 16 日，雪山隧道通車，台北到宜蘭的車程從兩小時被砍到 40 分鐘。然後通車十年內這片米倉長出 6,137 棟農舍，每坪地價從 4,000 元跳到 20,000 元，2023 年宜蘭一個縣核發了全台 35% 的農舍建照。一個地方兩次在歷史的關鍵時刻做了選擇，蘭陽平原把代價跟禮物一起收下。",
     "category": "Geography",
@@ -11879,7 +12111,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/People/yoga-lin",
-    "readingTime": 30,
+    "readingTime": 31,
     "featured": false,
     "date": "2026-04-20",
     "path": "ja/People/yoga-lin.md"
@@ -11890,7 +12122,7 @@
     "category": "People",
     "tags": [],
     "url": "https://taiwan.md/People/%E6%9E%97%E5%AE%A5%E5%98%89",
-    "readingTime": 23,
+    "readingTime": 24,
     "featured": false,
     "date": "2026-04-20",
     "path": "People/林宥嘉.md"
@@ -12336,6 +12568,32 @@
     "path": "Society/社會運動與公民參與.md"
   },
   {
+    "title": "花蓮県：129年身を隠したサキザヤ族、正名で取り戻したタロコ、0403が再び遠ざけたもの",
+    "description": "1878年、清軍はタコボワン部落の頭目コモド・パジクをアカギの木に縛りつけ凌遅に処し、サキザヤ族は129年にわたりアミ族の中に身を隠しました。2004年、タロコ族はタイヤル族から分かれて第12族となり、2007年、陳水扁政権の第2期にサキザヤ族は第13族として承認されました。2024年4月3日午前7時58分の98秒間、0403地震はマグニチュード7.1で、タロコ国家公園の燕子口、九曲洞、砂卡礑歩道を一度に破壊しました。2024年の観光客は21万人にとどまり、平年は660万人です。山と海のあいだで最も薄いところが5キロしかない土地で、6つの原住民族の運命は、常にプレートとともに揺れ続けています。",
+    "category": "ja",
+    "tags": [
+      "花蓮",
+      "花蓮県",
+      "タロコ",
+      "タロコ国家公園",
+      "0403地震",
+      "サキザヤ族",
+      "タロコ族",
+      "加礼宛事件",
+      "慈済",
+      "蘇花改",
+      "アミ族",
+      "ブヌン族",
+      "クバラン族",
+      "22県市シリーズ"
+    ],
+    "url": "https://taiwan.md/ja/Geography/hualien-county",
+    "readingTime": 93,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/hualien-county.md"
+  },
+  {
     "title": "花蓮縣：129 年隱身的撒奇萊雅族，用正名換回的太魯閣，0403 又讓它遠去",
     "description": "1878 年清軍把達固湖灣部落頭目古穆·巴力克縛在茄苳樹上凌遲，撒奇萊雅族躲進阿美族裡 129 年；2004 年太魯閣族從泰雅族裡走出來成為第 12 族，2007 年陳水扁政府第二任承認撒奇萊雅成為第 13 族；2024 年 4 月 3 日早上 7 點 58 分那 98 秒，0403 地震規模 7.1 把太魯閣國家公園的燕子口、九曲洞、砂卡礑步道一次砸毀，2024 年觀光客只剩 21 萬，正常年份是 660 萬。一片山海之間最薄 5 公里的土地上，6 個原住民族的命運始終跟著板塊一起搖。",
     "category": "Geography",
@@ -12430,7 +12688,7 @@
   },
   {
     "title": "金瓜石：坑道に押し込まれた千のイギリス兵と、まだ洗い流されていない金山",
-    "description": "1942年から1945年にかけて、1000名以上のイギリス連邦系連合軍捕虜が金瓜石「凸鼻仔寮（とつびしりょう）」に収容され、銅の採掘を強制された。1997年11月23日、生存者が現地に戻り、自らの手で記念碑を建立した。金鉱で知られるこの山間集落で最も記憶されるべきは、黄金ではなく、今なお土壌中の重金属が基準値を超え続ける廃煙道である。",
+    "description": "1942年から1945年にかけて、1000人以上のイギリス連邦の連合軍捕虜が金瓜石「凸鼻仔寮（とつびしりょう）」に収監され、銅鉱を採掘させられた。1997年11月23日、生存者が現地に戻り、自らの手で記念碑を建立した。金鉱で知られるこの山間集落で最も記憶されるべきは、黄金ではなく、今なお土壌中の重金属が基準値を超え続ける廃煙道である。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Geography/jinguashi",
@@ -12449,6 +12707,30 @@
     "featured": false,
     "date": "2026-05-04",
     "path": "Geography/金瓜石.md"
+  },
+  {
+    "title": "金門県：1949年のあの56時間が、金門の75年の運命を決めました",
+    "description": "金門は厦門の角嶼に最も近い地点でわずか1.8キロ、台北からは358キロ離れています。1387年、江夏侯の周徳興がここに所城を築き、「固若金湯，雄鎮海門」の意を取って名付けました。1949年10月25日午前2時、共軍3個連隊9,086人が古寧頭の浜辺に上陸し、国軍は56時間の激戦の末に撃退しました。1958年8月23日午後5時半から始まった44日間に、151平方キロの島へ474,910発の砲弾が落下し、その後の「単打双不打」はさらに21年続きました。今日、14.5万人が金門に戸籍を置き、午前4時の水頭埠頭では、台北行きの飛行機より厦門行きの船のほうが多く出ています。葉華成の曾孫は、謝罪を求めて67年待ち続けました。",
+    "category": "ja",
+    "tags": [
+      "金門県",
+      "金門",
+      "古寧頭戦役",
+      "八二三砲戦",
+      "単打双不打",
+      "戦地政務",
+      "金門高粱酒",
+      "葉華成",
+      "小三通",
+      "烏坵",
+      "風獅爺",
+      "22県市シリーズ"
+    ],
+    "url": "https://taiwan.md/ja/Geography/kinmen-county",
+    "readingTime": 76,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/kinmen-county.md"
   },
   {
     "title": "金門縣：1949 年那 56 小時，決定了金門 75 年的命運",
@@ -12750,6 +13032,33 @@
     "path": "ja/People/hou-hsiao-hsien.md"
   },
   {
+    "title": "南投県：唯一海に面さない県、921の震央はその中心にあった",
+    "description": "1999年9月21日午前1時47分、集集鎮の地下にある車籠埔断層が102秒間にわず動いた。台湾全体で2,415人が死亡し、南投県だけで886人が亡くなり、中寮郷では建物の90%が損壊した。1930年、霧社公学校の升旗式の日、莫那魯道は6社のセデック族を率いて134人の日本人民間人を殺害した。1934年、武界ダムが18.18メートル水位を上げ、邵族のラル島を水没させた。1957年、中興新村が建設され台湾省政府の臨時辦公庁として機能したが、1998年の省政府廃止により機能が失われ、ヤシの木並みだけが残った。47万人がこの標高100メートルから3,952メートルに至る内陸県に住んでいる。セデック族、ブヌン族、邵族、ツォウ族の4つの先住民族と漢人が共存するこの地に、台湾で最も深い傷痕が刻まれている。",
+    "category": "ja",
+    "tags": [
+      "南投",
+      "南投県",
+      "中部",
+      "日月潭",
+      "921大地震",
+      "集集",
+      "霧社事件",
+      "セデック族",
+      "ブヌン族",
+      "邵族",
+      "中興新村",
+      "玉山",
+      "武嶺",
+      "埔里",
+      "22県市シリーズ"
+    ],
+    "url": "https://taiwan.md/ja/Geography/nantou-county",
+    "readingTime": 73,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/nantou-county.md"
+  },
+  {
     "title": "南投縣：唯一不靠海的縣，921 震央就在它的中心",
     "description": "1999 年 9 月 21 日凌晨一點四十七分，集集鎮地底車籠埔斷層錯動 102 秒，全台 2,415 人死亡，南投自己佔 886 人，中寮鄉九成建築受損。1930 年霧社公學校升旗那天，莫那魯道帶 6 社賽德克族砍下 134 個日本平民。1934 年武界壩升起 18.18 公尺淹掉邵族的拉魯島。1957 年中興新村蓋好作為省政府臨時辦公處，1998 年精省抽空只剩椰林大道。47 萬人住在這個從 100 公尺爬到 3,952 公尺、賽德克 + 布農 + 邵 + 鄒四族跟漢人同住的內陸縣。台灣最深的傷口都在這裡。",
     "category": "Geography",
@@ -12886,6 +13195,32 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "ja/Food/hakka-food-culture.md"
+  },
+  {
+    "title": "屏東県：国家の運命の転換はここで起きたが、台北はほとんど記憶してこなかった",
+    "description": "1874 年 5 月 22 日、日本陸軍中佐の佐久間左馬太が 150 人を率いて石門峡谷に入り、パイワン族の頭目アルク父子が戦死しました。この戦いによって清朝は台湾統治政策を転換し、沈葆楨が来台して恒春県を設置し、1883 年には鵝鑾鼻灯台が建てられました。78 万人が屏東県 33 郷鎮市に分散して暮らし、5 つの原住民族と客家六堆の 6 郷鎮が共住しています。2009 年の午前 4 時半、林辺の水門は持ちこたえられなくなりました。台湾を変えた歴史はこの半島から二度始まりましたが、首都が覚えているのは墾丁春吶だけです。",
+    "category": "ja",
+    "tags": [
+      "屏東",
+      "屏東県",
+      "南部",
+      "恒春半島",
+      "パイワン族",
+      "ルカイ族",
+      "客家六堆",
+      "牡丹社事件",
+      "万金聖母聖殿",
+      "鵝鑾鼻灯台",
+      "林辺",
+      "八八水害",
+      "モーラコット",
+      "22県市シリーズ"
+    ],
+    "url": "https://taiwan.md/ja/Geography/pingtung-county",
+    "readingTime": 77,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/pingtung-county.md"
   },
   {
     "title": "屏東縣：國家命運轉折發生在這裡，台北從來沒怎麼記得",
@@ -13195,7 +13530,7 @@
       "文化外交"
     ],
     "url": "https://taiwan.md/Food/%E7%8F%8D%E7%8F%A0%E5%A5%B6%E8%8C%B6",
-    "readingTime": 18,
+    "readingTime": 19,
     "featured": true,
     "date": "2026-03-30",
     "path": "Food/珍珠奶茶.md"
@@ -13372,6 +13707,29 @@
     "featured": false,
     "date": "2026-03-31",
     "path": "ja/History/kaohsiung-incident-formosa-incident.md"
+  },
+  {
+    "title": "苗栗県：客家の硬頸の県、8年で県庫の負債を倍増させた県長を選んだ場所",
+    "description": "日本統治期の苗栗の樟脳は台湾全体の 95% を占め、三義は樟脳製造後の樹根を利用して木彫を始めました。2002 年、公館の北河村で第 1 回桐花祭が開かれました。2008 年、劉政鴻は 202 億元の負債を抱えた県を引き継ぎ、2014 年の退任時には帳簿上 676 億元になっていました。その間には、朱馮敏の農薬自殺、張薬房の強制撤去、1.2 億元を投じた客家円楼の蚊子館化が起きました。現在、53 万人が客家人口比率 62.5% と台湾で 2 番目に高いこの県に暮らしています。",
+    "category": "ja",
+    "tags": [
+      "苗栗",
+      "苗栗県",
+      "客家",
+      "客家文化",
+      "大埔事件",
+      "三義木彫",
+      "油桐花",
+      "サイシャット族",
+      "矮霊祭",
+      "劉政鴻",
+      "22県市シリーズ"
+    ],
+    "url": "https://taiwan.md/ja/Geography/miaoli-county",
+    "readingTime": 80,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/miaoli-county.md"
   },
   {
     "title": "苗栗縣：客家硬頸的縣，用八年選出讓縣庫翻倍負債的縣長",
@@ -13889,6 +14247,30 @@
     "path": "ja/People/gwei-lun-mei-versatile-taiwanese-actress.md"
   },
   {
+    "title": "桃園市：台灣的進出口、最多的客家人、最多的移工，全在這塊台地上",
+    "description": "1977 年 11 月 19 日傍晚，上萬民眾包圍中壢分局，警方開槍打死中央大學學生江文國跟 19 歲張治平，許信良以 23 萬比 14 萬高票當選桃園縣長。一年三個月後，1979 年 2 月 26 日中正國際機場啟用，台灣的對外大門從基隆港搬到這片台地。2014 年 12 月 25 日，桃園升格成第六都，是六都裡最後一個。今天 235 萬人住在這 1,221 平方公里的台地上，客家逾八十萬全國最多，移工 13 萬 2,158 人也全國最多。桃園是台灣最多元的邊界。",
+    "category": "Geography",
+    "tags": [
+      "桃園",
+      "桃園市",
+      "北部",
+      "機場",
+      "客家",
+      "中壢事件",
+      "石門水庫",
+      "大溪老街",
+      "埤塘",
+      "移工",
+      "泰雅族",
+      "22縣市系列"
+    ],
+    "url": "https://taiwan.md/Geography/%E6%A1%83%E5%9C%92%E5%B8%82",
+    "readingTime": 57,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "Geography/桃園市.md"
+  },
+  {
     "title": "桃園空港：十大建設の「中正」の名から2026年国門再起の千億試練へ",
     "description": "2026年4月、桃園空港第三ターミナルの屋根が正式にトップアウトを迎え、1,283億元を投じたこの国の玄関口が再生に向かうことを示しました。1979年に「中正国際空港」が誕生し、2016年の浸水による低迷期を経て、2025年に北搭乗廊（北登機廊廳）が供用開始となって引き起こされた乗り継ぎ旅客の増加まで、桃園空港はアジアの航空ハブ競争の中で、失われた座標を取り戻そうとしています。",
     "category": "ja",
@@ -14315,6 +14697,33 @@
     "path": "Lifestyle/高速公路.md"
   },
   {
+    "title": "高雄市：1979 升格直轄市那一年，台北的監獄裡關著八個高雄人",
+    "description": "1979 年 7 月 1 日高雄升格為台灣第二個直轄市，12 月 10 日世界人權日，美麗島雜誌社在大港埔圓環的演講變成催淚瓦斯下的衝突。八人被判刑，1980 年 2 月 28 日林義雄台北信義路的家裡傳出血案。同一個 1979 年，高雄拿到了行政光榮，也吞下了戰後台灣最重的政治壓制。271 萬人散在 38 區裡，旗津沙洲、那瑪夏布農族部落、中鋼煙囪、衛武營鋁合金屋頂同住一個市，這座城市花了 45 年把傷口縫成自己的形狀。",
+    "category": "Geography",
+    "tags": [
+      "高雄",
+      "高雄市",
+      "南部",
+      "直轄市",
+      "高雄港",
+      "美麗島事件",
+      "愛河",
+      "中鋼",
+      "衛武營",
+      "六合夜市",
+      "光之穹頂",
+      "美濃",
+      "那瑪夏",
+      "88風災",
+      "22縣市系列"
+    ],
+    "url": "https://taiwan.md/Geography/%E9%AB%98%E9%9B%84%E5%B8%82",
+    "readingTime": 72,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "Geography/高雄市.md"
+  },
+  {
     "title": "偏遠地區學校教育發展條例全解：國家花了 175 億，還是擋不住人口重力",
     "description": "2016 年 11 月 21 日，立法院三讀通過《偏遠地區學校教育發展條例》全文 21 條。這部法律的存在本身是國家對自己制度失能的正式承認。八年過去，政府在偏鄉硬體投入累計 175 億元、18.6 億元改善師生宿舍。但 113 學年全國一口氣有 18 所國小停辦，是台灣教育史上最多的一年；屏東縣四年裁併七校；全國廢校率還在上升。條例救了法律，但擋不住人口重力。",
     "category": "Society",
@@ -14469,6 +14878,29 @@
     "featured": false,
     "date": "2026-04-28",
     "path": "Society/移工.md"
+  },
+  {
+    "title": "基隆市：台北に最も近い港、最も台北から見えない港",
+    "description": "午前4時の崁仔頂魚市はまだ競売の声が響いている。糶手が閩南語で値をつけると、数秒のうちに一籃の魚が花蓮・宜蘭・八斗子の漁船から台北東区の日本料理店へと届く。1626年、スペイン人が和平島に旗を掲げ、1875年、沈葆、沈葆楨が「鶏籠」を「基地昌隆」に改名し、1984年にはここは世界第7位のコンテナ港だった。その後、三つのことが同時に起きた：高雄港に抜かれ、桃園空港が開業し、鉱山産業が崩壊した。現在36万人がここに住み、39%が台北へ通勤している。台北が見るのは衰退だが、海洋が見るのは一度もその場所を離れたことのない港である。",
+    "category": "ja",
+    "tags": [
+      "基隆",
+      "基隆市",
+      "北部",
+      "港",
+      "雨港",
+      "和平島",
+      "鶏籠中元祭",
+      "廟口夜市",
+      "正濱漁港",
+      "崁仔頂",
+      "22県市集"
+    ],
+    "url": "https://taiwan.md/ja/Geography/keelung-city",
+    "readingTime": 53,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "ja/Geography/keelung-city.md"
   },
   {
     "title": "基隆市：離台北最近的港口，最被台北看不見",
@@ -15411,6 +15843,30 @@
     "featured": true,
     "date": "2026-04-24",
     "path": "ja/Art/mountain-makers-tsmc-documentary.md"
+  },
+  {
+    "title": "連江県：台湾から最も遠い県であり、冷戦に最も近い県です",
+    "description": "南竿の山頂から眺めると、福州市街はわずか 16 キロ先にあります。台北は 200 キロ先にあり、連江県の県治は共産党軍の側にあります。1617 年、沈有容は東莒山下で倭寇 69 人を生け捕りにし、1956 年に国軍はこの 5 つの島を戦地政務区域に変え、1992 年に金門・馬祖は台湾本島より 5 年遅れて戒厳を解除しました。現在ここには 13,646 人が暮らし、馬祖語の喪失率は 94%、2012 年に全国で唯一可決されたカジノ住民投票はいまなお進展していません。藍眼涙は年間 20 万人の観光客を呼びますが、地元の人びとは灯火管制を記憶しています。28.8 平方キロの一つの県が、台湾の冷戦史を自らの身に圧縮しています。",
+    "category": "ja",
+    "tags": [
+      "連江県",
+      "馬祖",
+      "南竿",
+      "北竿",
+      "東莒",
+      "東引",
+      "戦地政務",
+      "藍眼涙",
+      "芹壁",
+      "福州語",
+      "閩東語",
+      "22県市シリーズ"
+    ],
+    "url": "https://taiwan.md/ja/Geography/lienchiang-county",
+    "readingTime": 83,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/lienchiang-county.md"
   },
   {
     "title": "連江縣：離台灣最遠的縣，是離冷戰最近的縣",
@@ -16791,6 +17247,32 @@
     "path": "People/陽岱鋼.md"
   },
   {
+    "title": "雲林県：宜蘭が選ばなかったものを、雲林は三十年分の肺と引き換えに受け入れました",
+    "description": "1987 年 12 月 13 日、陳定南は華視のスタジオ内で第六ナフサ分解工場を宜蘭から退け、1991 年 6 月 26 日、行政院は第六ナフサ分解工場を雲林・麥寮沖へ移すことを認可し、1994 年 7 月に正式着工、1998 年に第 1 期が稼働しました。現在までに 2,255 ヘクタールが埋め立てられています。2011 年、台湾大学公衆衛生学院の詹長権チームは、第六ナフサ分解工場周辺 10 キロの住民のがん発生率が台湾全体の 1.29 倍であることを発見しました。しかし同じ県内には、1694 年、清の康熙 33 年から 332 年にわたり媽祖を祀ってきた北港朝天宮があり、1953 年 1 月 28 日には米国援助の鋼材が 1,939 メートルの西螺大橋を支えました。一つの県が、台湾最古級の媽祖廟、最重要の米どころ、最大の石油化学王国であるのです。",
+    "category": "ja",
+    "tags": [
+      "雲林",
+      "雲林県",
+      "第六ナフサ分解工場",
+      "麥寮",
+      "北港朝天宮",
+      "媽祖",
+      "西螺大橋",
+      "西螺米",
+      "虎尾糖廠",
+      "古坑コーヒー",
+      "陳定南",
+      "王永慶",
+      "濁水溪",
+      "22県市シリーズ"
+    ],
+    "url": "https://taiwan.md/ja/Geography/yunlin-county",
+    "readingTime": 90,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/yunlin-county.md"
+  },
+  {
     "title": "雲林縣：宜蘭選擇不要的，雲林用三十年的肺換下來",
     "description": "1987 年 12 月 13 日陳定南在華視棚內把六輕擋出宜蘭，1991 年 6 月 26 日行政院核定六輕轉到雲林麥寮外海，1994 年 7 月正式動工，1998 年一期開爐，至今填海 2,255 公頃。2011 年台大公衛詹長權團隊發現六輕周邊 10 公里居民癌症發生率是全台 1.29 倍。但同一個縣裡，1694 年清康熙 33 年北港朝天宮已經拜了 332 年的媽祖，1953 年 1 月 28 日美援鋼材撐起 1,939 公尺的西螺大橋。一座縣同時是台灣最古老媽祖廟之一、最重要米倉、最大石化王國。",
     "category": "Geography",
@@ -17262,6 +17744,32 @@
     "path": "ja/History/postwar-economic-development.md"
   },
   {
+    "title": "新北市：包圍台北的環狀都會，401 萬人撐起首都的通勤、工業跟記憶",
+    "description": "淡水紅毛城從 1628 年西班牙人砌下第一塊磚開始，已經 398 年。比 1875 年沈葆楨設台北府早 247 年。今天新北市 29 區包圍台北市 12 區，401 萬人住在這座全台最大的直轄市裡，39 萬人跨縣市通勤到台北上班。但這座「環狀都會」不是台北的睡眠城——它有 1853 年板橋林家、1869 年從淡水出去的烏龍茶賣到紐約、1890 年代亞洲第一金礦九份金瓜石、1929 年運煤的平溪鐵路、1947 年李梅樹開始的三峽祖師廟雕刻、烏來泰雅族德拉楠部落。新北是台灣 400 年的縮影，剛好不在台北市裡。",
+    "category": "Geography",
+    "tags": [
+      "新北",
+      "新北市",
+      "北部",
+      "板橋",
+      "淡水",
+      "九份",
+      "金瓜石",
+      "三峽",
+      "鶯歌",
+      "烏來",
+      "平溪",
+      "貢寮",
+      "環狀都會",
+      "22縣市系列"
+    ],
+    "url": "https://taiwan.md/Geography/%E6%96%B0%E5%8C%97%E5%B8%82",
+    "readingTime": 86,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "Geography/新北市.md"
+  },
+  {
     "title": "新生態藝術環境：1992 年永福路那棟四百坪老屋，跑在補助結構前面的七年",
     "description": "1992 年 6 月，杜昭賢在台南永福路一棟四百多坪老建築開了「新生態藝術環境」。國藝會還沒成立，南藝大還沒開校，文建會「閒置空間再利用」政策還沒上線。它撐了七年，到 1999 年熄燈時，台灣當代藝術的機構神經系統剛好開始長出來。",
     "category": "Art",
@@ -17294,6 +17802,59 @@
     "featured": false,
     "date": "2026-05-17",
     "path": "ja/Art/new-ecological-art-environment.md"
+  },
+  {
+    "title": "新竹市：1733 年種竹為城的竹塹，1980 年長出台積電的搖籃",
+    "description": "1733 年雍正十一年，淡水同知徐治民在四週遍植莿竹，圍出 1408 公尺的圓形土城。1829 年磚石城落成，東門迎曦門至今還站在護城河旁。247 年後，1980 年 12 月 15 日，蔣經國在距離迎曦門 5 公里的地方剪下台灣第一座科學園區的紅綵。1953 到 1974 年之間，黑蝙蝠中隊 148 人從這座風城起飛去偵察中國大陸，再也沒回來。45 萬人住的省轄市，撐起冷戰前線、北部最早建城、兩所頂尖大學、跟全球半導體 90% 高階晶片的起點。風城這個綽號很文學，但這座城裡所有產業都跟風有關。",
+    "category": "Geography",
+    "tags": [
+      "新竹",
+      "新竹市",
+      "北部",
+      "風城",
+      "竹塹城",
+      "迎曦門",
+      "黑蝙蝠中隊",
+      "新竹科學園區",
+      "台積電",
+      "城隍廟",
+      "米粉",
+      "貢丸",
+      "玻璃工藝",
+      "清華大學",
+      "陽明交通大學",
+      "22縣市系列"
+    ],
+    "url": "https://taiwan.md/Geography/%E6%96%B0%E7%AB%B9%E5%B8%82",
+    "readingTime": 56,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "Geography/新竹市.md"
+  },
+  {
+    "title": "新竹県：235年の義民信仰と台湾最高の1人当たり所得が、同じ頭前渓沿いにあります",
+    "description": "1788年冬、新埔の丘陵に褒忠亭が着工され、林爽文事件で亡くなった200人余りの客家義民を合葬することになりました。235年後、義民節である旧暦7月20日の十五聯庄による輪番祭典は、いまも続いています。5キロ離れた竹北市は、2025年に1人当たり所得144.2万元で台湾全368郷鎮市区の首位となり、その吸引源はTSMC宝山第2期2ナノメートル・ウエハー工場です。新竹県の67.8%は客家人で、台湾最高です。しかし県庁所在地の竹北22万人のなかで、自分の故郷に家を買える客家の若者は少なくなっています。",
+    "category": "ja",
+    "tags": [
+      "新竹",
+      "新竹県",
+      "客家",
+      "義民廟",
+      "北埔",
+      "内湾",
+      "湖口",
+      "スマングス",
+      "サイシャット族",
+      "タイヤル族",
+      "竹北",
+      "TSMC",
+      "22県市シリーズ"
+    ],
+    "url": "https://taiwan.md/ja/Geography/hsinchu-county",
+    "readingTime": 74,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/hsinchu-county.md"
   },
   {
     "title": "新竹縣：235 年的義民信仰，與全台第一的人均所得，住在同一條頭前溪",
@@ -17961,6 +18522,17 @@
     "path": "Geography/嘉義市.md"
   },
   {
+    "title": "嘉義県：49万人が顔を阿里山に貸し、県庁所在地が太保にあることも誰も覚えていません",
+    "description": "午前5時、東石沖のカキ棚はまだ海の中にあり、台湾全体の半分のカキがこの海から来ます。100キロ離れた阿里山では、1912年に二万坪まで開通した森林鉄道が全長66.6キロに及びます。その中間にある太保高速鉄道駅のそばでは、故宮南院が15年かけてようやく開館し、2018年の来館者は76万人でした。1991年に嘉義県庁が嘉義市から太保へ移転したとき、台湾全体は嘉義といえば嘉義市だと考えていました。35年が過ぎ、この県の49万人は、切り離された27万人の市を取り囲みながら暮らし、高齢化指数174%で台湾一となっています。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Geography/chiayi-county",
+    "readingTime": 79,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/chiayi-county.md"
+  },
+  {
     "title": "嘉義縣：49 萬人把臉借給阿里山，縣治在太保也沒人記得",
     "description": "凌晨五點，東石外海的蚵棚還在水裡，全國一半的牡蠣從這片海來。一百公里外的阿里山，1912 年通車到二萬坪的森林鐵路全長 66.6 公里。中間的太保高鐵站旁，故宮南院蓋了 15 年才開館，2018 年訪客 76 萬人。1991 年嘉義縣治從嘉義市遷到太保時，全國認為嘉義就是嘉義市。三十五年過去，這個縣 49 萬人圍繞著被切割出去的 27 萬市，老化指數 174% 全台第一。",
     "category": "Geography",
@@ -18033,6 +18605,29 @@
     "featured": false,
     "date": "2026-04-29",
     "path": "ja/People/liao-hung-chi-ocean-writer.md"
+  },
+  {
+    "title": "彰化県：ドゥポンに勝ったが、若者を留められない農業大県",
+    "description": "1709年、施世榜が濁水川の水を引き上げ、台湾初の大型水利システムを完成させた。これは八田与一の嘉南大圳より211年早い。1723年、雍正元年に諸羅県から分離し、虎尾を南限に、大甲を北限として彰化県が設置された。これが彰化の始まりである。1786年、林爽文が彰化県城を包囲したが、鹿港は陥落しなかった。1788年、乾隆帝が鹿港に官費で天后宮（新祖宮）を建てる詔を下した。1922年に扇形車庫が啟用された。1986年、鹿港の住民が米国企業ドゥポンを追い出し、台湾初の環境運動となった。2026年4月、彰化県の人口は120万6,458人となり、直轄市昇格の基準を下回った。",
+    "category": "ja",
+    "tags": [
+      "彰化",
+      "彰化県",
+      "中部",
+      "鹿港",
+      "八堡圳",
+      "一府二鹿三艋舺",
+      "反ドゥポン",
+      "八卦山",
+      "田尾公路花園",
+      "扇形車庫",
+      "22県市シリーズ"
+    ],
+    "url": "https://taiwan.md/ja/Geography/changhua-county",
+    "readingTime": 60,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/changhua-county.md"
   },
   {
     "title": "彰化縣：打敗過杜邦，留不住年輕人的農業大縣",
@@ -18637,6 +19232,31 @@
     "featured": false,
     "date": "2026-03-24",
     "path": "Culture/澎湖民俗文化.md"
+  },
+  {
+    "title": "澎湖県：二度カジノを拒否した菊島が選んだのは清貧ではない",
+    "description": "2009年9月26日、馬公で投票が行われ、反対17,359票に対し賛成は3,962票でカジノは否決された。7年後の2016年に再び投票が行われ、反対率は81.07%に達した。年間降水量わずか1,000ミリメートル、戸籍人口10.8万人に対し常住人口は約8万人の離島が、全国初の地方ギャンブル住民投票を実施し、さらにもう一度実施した。同じ海域で、1604年に沈有容がオランダ人を撤退させ、1622年にオランダ人が風櫃尾から台南に転じ、1885年にフランス軍司令官孤拔が媽宮港で病死した。1,740万年前の玄武岩の柱は今も残り、89の島は黒い火山岩、1の島はより古い安山岩である。冬の菜宅の石垣の中で、作物が風下側で育っている。",
+    "category": "ja",
+    "tags": [
+      "澎湖",
+      "澎湖県",
+      "離島",
+      "馬公",
+      "菊島",
+      "玄武岩",
+      "双心石滬",
+      "跨海大橋",
+      "二崁聚落",
+      "開臺天后宮",
+      "ギャンブル住民投票",
+      "南方四島",
+      "22県市シリーズ"
+    ],
+    "url": "https://taiwan.md/ja/Geography/penghu-county",
+    "readingTime": 68,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/penghu-county.md"
   },
   {
     "title": "澎湖縣：兩次拒絕賭場，菊島選擇的不是清貧",
@@ -21802,6 +22422,17 @@
     "path": "en/Culture/bahamut-taiwan-gaming-community.md"
   },
   {
+    "title": "Bai Xianyong : de « Taipei People » (1971) à la tournée du « Peony Pavilion » version jeunesse, vingt ans",
+    "description": "Né en 1937 à Guilin, province du Guangxi, fils de Bai Chongxi. En 1956, il étudie les langues étrangères à l'Université nationale de Taiwan et fonde, avec Wang Wenxing et d'autres, la revue « Littérature moderne ». En 1971, il publie le recueil de quatorze nouvelles « Taipei People ». En 1983, il écrit « Les Enfants du péché ». En 2003, il lance la version jeunesse du « Peony Pavilion », dont la première représentation a lieu en avril 2004, et célèbre le 20ᵉ anniversaire en 2024. Il reçoit le Prix national des arts en 2003.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/People/pai-hsien-yung-literary-master",
+    "readingTime": 39,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "fr/People/pai-hsien-yung-literary-master.md"
+  },
+  {
     "title": "Bamboo Hat: The Couple Beside Longdu Junior High Who Wove Sixty Years of Makino Bamboo into a Single Hat",
     "description": "In 2017, Lin Rongchun of Meinong, Kaohsiung, was still shaving bamboo strips in his eighties; in 2014, Grandma Chen Lianqin of Longqi, Tainan, at eighty-six, could make one hat in an hour. In Fuli, Hualien, Xu Guizhu sold each hat for only NT$150 in 2016; in the Hakka Public Communication Foundation's 2022 documentary Chuan, Chuan, Wu Jinyun and Xu Baomei of Miaoli had been making them for fifty years. At its peak, every household in Qionglin, Hsinchu, piled up makino bamboo; in Kengzi, Luzhu, Taoyuan, thirty households produced a hundred hats a day. Today, most masters across the island who can make coarse-work bamboo hats are over seventy, and after the 2024 increase in compensation for logging bans on Indigenous reserved land to NT$60,000 per hectare, even the sourcing of makino bamboo is breaking down. Bamboo hats have not disappeared from the fields; what is disappearing are the hands that know how to tuck bamboo leaves into a bamboo-strip frame and fasten them down, loop by loop, with cotton thread.",
     "category": "en",
@@ -22507,6 +23138,29 @@
     "featured": false,
     "date": "2026-04-18",
     "path": "en/People/chang-yu-sheng-singer.md"
+  },
+  {
+    "title": "Changhua County: The Agricultural Giant That Beat Dupont but Can't Keep Its Young People",
+    "description": "In 1709, Shi Shibang channeled water from the Zhuoshui River to create Taiwan's first large-scale irrigation system — 211 years before Hatta Yoichi's Chianan Canal. In 1723, the first year of the Yongzheng era, the county was carved out from Zhuluo County, bounded by the Huwei River to the north and the Dajia River to the south — this was the origin of Changhua's establishment. In 1786, Lin Shuangwen's forces besieged Changhua city, but Lukang held. In 1788, the Qianlong Emperor ordered the construction of an official-funded Mazu temple (Xinzu Gong) in Lukang. In 1922, the Changhua Roundhouse opened. In 1986, Lukang residents drove out American firm Dupont — Taiwan's first environmental movement. In April 2026, Changhua County's population stood at 1,206,458, falling below the threshold for special municipality upgrade.",
+    "category": "en",
+    "tags": [
+      "彰化",
+      "彰化縣",
+      "中部",
+      "鹿港",
+      "八堡圳",
+      "一府二鹿三艋舺",
+      "反杜邦",
+      "八卦山",
+      "田尾公路花園",
+      "扇形車庫",
+      "22縣市系列"
+    ],
+    "url": "https://taiwan.md/en/Geography/changhua-county",
+    "readingTime": 165,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/changhua-county.md"
   },
   {
     "title": "Chants populaires et ballades de Taïwan : du pillage à la conquête du monde",
@@ -23546,6 +24200,50 @@
     "path": "en/People/chiang-wei-shui.md"
   },
   {
+    "title": "Chiayi : nomée par l'empereur, mais la ville provinciale la plus souvent négligée",
+    "description": "En l'an 52 du règne de l'empereur Qianlong, un édit imperial change le nom de « Zhu Luo » en « Chiayi », faisant de cette ville la seule de Taïwan à porter un nom directement attribué par l'empereur. En 1908, les Japonais érigent, à 3,3 km au sud‑ouest de la ville, le premier monument mondial marquant le tropique du Cancer. En 1931, l'équipe hétéroclite de l'école agricole de Chiayi (Han, autochtones, Japonais) atteint la finale du tournoi de Koshien. Le 25 mars 1947, le peintre Chen Cheng‑po est fusillé devant la gare, son corps restant exposé dans la rue pendant trois jours. Aujourd'hui, Chiayi compte 260 000 habitants sur 60 km², sans gare à grande vitesse et entièrement entourée par le comté de Chiayi, constituant un exemple typique de ville moyenne taïwanaise.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Geography/chiayi-city",
+    "readingTime": 105,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/chiayi-city.md"
+  },
+  {
+    "title": "Chiayi City: Named by an Emperor, Yet Taiwan''s Most Easily Overlooked Provincial City",
+    "description": "In the 52nd year of the Qianlong reign, an imperial edict renamed \"Zhuluo\" to \"Chiayi\"—the only city in Taiwan to receive its name directly from an emperor. In 1908, the Japanese erected the world''s first Tropic of Cancer marker in a rice paddy 3.3 km southwest of the city. In 1931, the multiethnic KANO baseball team from Chiayi Agricultural and Forestry School reached the Koshien semifinals. On March 25, 1947, painter Chen Cheng-po was tied up and shot in front of the train station; his body lay in the street for three days. Today Chiayi City has 260,000 residents, spans 60 square kilometers, has no high-speed rail station, and is entirely surrounded by Chiayi County—a textbook specimen of Taiwan''s mid-sized cities.",
+    "category": "en",
+    "tags": [
+      "Chiayi",
+      "Chiayi City",
+      "Zhuluo",
+      "Tropic of Cancer",
+      "Alishan Forestry",
+      "KANO",
+      "Chen Cheng-po",
+      "February 28 Incident",
+      "Turkey Rice",
+      "22 Counties and Cities Series"
+    ],
+    "url": "https://taiwan.md/en/Geography/chiayi-city",
+    "readingTime": 177,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/chiayi-city.md"
+  },
+  {
+    "title": "Chiayi County: 490,000 People Lend Their Face to Alishan, and No One Remembers the County Seat Is in Taibao",
+    "description": "At five in the morning, the oyster racks off Dongshi are still in the water; half of the nation's oysters come from this stretch of sea. A hundred kilometers away on Alishan, the forest railway that opened to Erwanping in 1912 runs 66.6 kilometers. In between, beside Taibao's high-speed rail station, the Southern Branch of the National Palace Museum took 15 years to open, drawing 760,000 visitors in 2018. When the Chiayi County seat moved from Chiayi City to Taibao in 1991, the whole country thought Chiayi meant Chiayi City. Thirty-five years later, this county of 490,000 people surrounds a city of 270,000 that was carved out of it, with an aging index of 174%, the highest in Taiwan.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Geography/chiayi-county",
+    "readingTime": 212,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/chiayi-county.md"
+  },
+  {
     "title": "Chiayi Turkey Rice: A City's Identity in a NT$30 Bowl",
     "description": "After World War II, the American military brought turkeys to Chiayi. A chef named Lin Tien-shou shredded the turkey meat, poured braised sauce over it, and piled it on white rice. Seventy years later, this NT$30 bowl was voted No. 1 in the Council of Agriculture's Top Ten Signature Rice Dishes of Taiwan. Chiayi people can argue all Chinese New Year about which restaurant makes the best version — but on one point they never argue: turkey rice belongs to Chiayi.",
     "category": "en",
@@ -24079,6 +24777,28 @@
     "path": "People/Cicada.md"
   },
   {
+    "title": "Ciudad de Chiayi: bautizada por el emperador, pero convertida en la ciudad provincial más fácil de pasar por alto",
+    "description": "En el año 52 del reinado de Qianlong (Qing), un edicto imperial cambió el nombre de \"Zhuluo\" a \"Chiayi\", la única ciudad de Taiwán cuyo nombre fue otorgado personalmente por un emperador. En 1908, los japoneses erigieron en un arrozal a 3.3 km al suroeste de la ciudad la primera torre marcadora del Trópico de Cáncer del mundo. En 1931, el equipo multietnico de la Escuela Agrícola y Forestal de Chiayi llegó a la final del torneo de béisbol Kōshien. El 25 de marzo de 1947, el pintor Chen Cheng-po fue fusilado atado frente a la estación de tren, y su cadáver permaneció tres días en la calle. Hoy, con 260 000 habitantes en 60 km², sin estación de tren de alta velocidad y completamente rodeada por el condado de Chiayi, la ciudad es un espécimen de la ciudad taiwanesa mediana.",
+    "category": "es",
+    "tags": [
+      "Chiayi",
+      "Ciudad de Chiayi",
+      "Zhuluo",
+      "Trópico de Cáncer",
+      "Industria forestal de Alishan",
+      "KANO",
+      "Chen Cheng-po",
+      "228",
+      "Arroz con pavo",
+      "Serie de 22 condados y ciudades"
+    ],
+    "url": "https://taiwan.md/es/Geography/chiayi-city",
+    "readingTime": 193,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/chiayi-city.md"
+  },
+  {
     "title": "Cocina de las villas de dependientes militares en Taiwán",
     "description": "Los sabores de distintas provincias traídos por la gran migración de 1949, desde las cocinas dentro de las cercas de bambú hasta la preservación del gusto tras la demolición de las villas de dependientes militares",
     "category": "es",
@@ -24215,6 +24935,195 @@
     "path": "fr/Economy/compal-electronics-global-odm-leader.md"
   },
   {
+    "title": "Comté de Changhua : un grand comté agricole qui a vaincu DuPont mais ne retient pas les jeunes",
+    "description": "En 1709, Shih Shih-pang a détourné les eaux de la rivière Zhuoshui pour irriguer le premier grand système hydraulique de Taïwan, 211 ans avant le grand canal de Chianan de Hatta Yoichi. En 1723, l’an 1 du règne de Yongzheng, le comté a été séparé du comté de Zhuluo, s’étendant du sud jusqu’à Huwei et du nord jusqu’à Dajia, marquant le point de départ de la construction de Changhua. En 1786, les troupes de Lin Shuang-wen ont mené une attaque contre la ville de Changhua, mais Lukang n’a pas été prise. En 1788, l’empereur Qianlong a décrété la construction du temple Tianhou (Xinzugu) à Lukang aux frais de l’État. En 1922, le roundhouse en forme d’éventail a été mis en service. En 1986, les habitants de Lukang ont chassé la société américaine DuPont, premier mouvement environnemental de Taïwan. En avril 2026, la population du comté de Changhua était de 1 206 458 habitants, tombant sous le seuil nécessaire pour devenir une municipalité directe.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Geography/changhua-county",
+    "readingTime": 97,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/changhua-county.md"
+  },
+  {
+    "title": "Comté de Chiayi : 490 000 habitants prêtent leur visage à Alishan, la préfecture à Taibao est oubliée",
+    "description": "À cinq heures du matin, les parcs à huîtres au large de Dongshi sont encore dans l'eau, fournissant la moitié des huîtres du pays. À cent kilomètres, Alishan a vu son chemin de fer forestier de 66,6 km ouvrir en 1912. À côté de la gare à grande vitesse de Taibao, le Musée du Palais Sud a mis 15 ans à ouvrir, accueillant 760 000 visiteurs en 2018. En 1991, la préfecture du comté de Chiayi a déménagé de la ville de Chiayi à Taibao, mais le pays entier associe toujours « Chiayi » à la ville. Trente‑cinq ans plus tard, 490 000 habitants entourent une ville de 270 000 découpée, avec un indice de vieillissement de 174 % – le plus élevé de Taïwan.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Geography/chiayi-county",
+    "readingTime": 101,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/chiayi-county.md"
+  },
+  {
+    "title": "Comté de Hsinchu : 235 ans de culte des volontaires, et le revenu moyen le plus élevé de Taiwan, le tout le long du même cours d’eau, le Toupian Creek",
+    "description": "En hiver 1788, sur la pente d’une colline à Xinpu, on a posé les fondations d’un pavillon Baozhong pour enterrer collectivement plus de deux cents volontaires hakka morts lors de la rébellion de Lin Shuangwen. 235 ans plus tard, le festival des volontaires qui se tient chaque année du 20 au 22 du septième mois lunaire continue d’être célébré. À cinq kilomètres de là, la ville de Zhubei, qui en 2025 affichait un revenu moyen de 1 442 000 NTD, se classait première parmi les 368 municipalités de Taiwan, attirée par l’usine de puces de 2 nm du deuxième lot du parc Baoshan de TSMC. Le comté de Hsinchu compte 67,8 % d’hakkas, le plus haut pour Taiwan, mais parmi les 220 000 habitants de la capitale du comté, Zhubei, les jeunes hakka capables d’acheter un logement dans leur région natale se font de plus en plus rares.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Geography/hsinchu-county",
+    "readingTime": 96,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/hsinchu-county.md"
+  },
+  {
+    "title": "Comté de Hualien : les Sakizaya dissimulés pendant 129 ans, le Taroko reconquis par la rectification des noms, puis à nouveau éloigné par le 0403",
+    "description": "En 1878, l’armée des Qing attacha Komod Pazik, chef du village de Takubuwan, à un badamier et le supplicia par lingchi ; les Sakizaya se cachèrent parmi les Amis pendant 129 ans. En 2004, les Truku sortirent de la catégorie des Atayal pour devenir le 12e peuple autochtone officiellement reconnu ; en 2007, sous le second mandat du gouvernement Chen Shui-bian, les Sakizaya furent reconnus comme le 13e peuple. Le 3 avril 2024 à 7 h 58 du matin, pendant ces 98 secondes, le séisme 0403 de magnitude 7,1 détruisit d’un seul coup, dans le parc national de Taroko, le sentier de Swallow Grotto, le tunnel des Neuf-Coudes et le sentier Shakadang ; en 2024, il ne resta que 210 000 visiteurs, contre 6,6 millions lors d’une année normale. Sur cette bande de terre entre mer et montagne, large de 5 kilomètres à son point le plus étroit, le destin de six peuples autochtones a toujours tremblé avec les plaques tectoniques.",
+    "category": "fr",
+    "tags": [
+      "Hualien",
+      "comté de Hualien",
+      "Taroko",
+      "parc national de Taroko",
+      "séisme 0403",
+      "peuple sakizaya",
+      "peuple truku",
+      "incident de Karewan",
+      "Tzu Chi",
+      "amélioration de la route Suhua",
+      "peuple amis",
+      "peuple bunun",
+      "peuple kavalan",
+      "série des 22 villes et comtés"
+    ],
+    "url": "https://taiwan.md/fr/Geography/hualien-county",
+    "readingTime": 252,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/hualien-county.md"
+  },
+  {
+    "title": "Comté de Kinmen : les 56 heures de 1949 qui ont déterminé le destin de Kinmen pendant 75 ans",
+    "description": "Kinmen se trouve à seulement 1,8 km de l'île de Jiaoyu (Xiaojiao) près de Xiamen, et à 358 km de Taipei. En 1387, le fonctionnaire Zhou Dexing y construisit la forteresse de Kinmen, signifiant « solide comme une soupe d’or, bastion héroïque de la porte maritime ». Le 25 octobre 1949, à deux heures du matin, trois régiments communistes totalisant 9 086 hommes débarquèrent à Guningtou; les forces nationalistes résistèrent pendant 56 heures et repoussèrent l’invasion. Le 23 août 1958, à 17 h 30, pendant 44 jours, 474 910 obus tombèrent sur l’île de 151 km²; la règle du tir un jour sur deux persista pendant 21 ans. Aujourd’hui, 145 000 personnes sont enregistrées à Kinmen, et à quatre heures du matin, le nombre de bateaux du port de Shuitou à destination de Xiamen dépasse celui des avions au départ de l’aéroport de Songshan à Taipei. Le petit‑petit‑fils de Ye Huacheng attend depuis 67 ans des excuses.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Geography/kinmen-county",
+    "readingTime": 103,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/kinmen-county.md"
+  },
+  {
+    "title": "Comté de Lienchiang : le comté le plus éloigné de Taïwan est celui qui se trouve le plus près de la guerre froide",
+    "description": "Depuis les sommets de Nangan, la ville de Fuzhou n'est qu'à 16 kilomètres. Taipei est à 200 kilomètres, et le siège du comté de Lienchiang se trouve du côté de l'Armée communiste. En 1617, Shen Yourong captura vivant 69 pirates japonais au pied des montagnes de Dongju ; en 1956, l'armée nationaliste transforma ces 5 îles en zone d'administration militaire ; en 1992, Kinmen et Matsu levèrent la loi martiale 5 ans après Taïwan. Aujourd'hui, 13 646 personnes vivent ici, le taux de perte du matsu atteint 94 %, et le seul référendum national jamais adopté sur les jeux d'argent, en 2012, reste sans suite. Les larmes bleues attirent 200 000 visiteurs par an, mais les habitants se souviennent du couvre-feu lumineux. Un comté de 28,8 kilomètres carrés concentre en lui l'histoire taïwanaise de la guerre froide.",
+    "category": "fr",
+    "tags": [
+      "comté de Lienchiang",
+      "Matsu",
+      "Nangan",
+      "Beigan",
+      "Dongju",
+      "Dongyin",
+      "administration de zone de guerre",
+      "larmes bleues",
+      "Qinbi",
+      "fuzhou",
+      "min oriental",
+      "série des 22 villes et comtés"
+    ],
+    "url": "https://taiwan.md/fr/Geography/lienchiang-county",
+    "readingTime": 234,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/lienchiang-county.md"
+  },
+  {
+    "title": "Comté de Nantou : le seul comté qui ne touche pas la mer, l’épicentre du séisme de 921 se trouve en son centre",
+    "description": "Le 21 septembre 1999, à 1 h 47 min 47 s du matin, la faille de Checheng‑P’u sous la ville de Jiji s’est déplacée pendant 102 secondes, faisant 2 415 morts à l’échelle nationale, dont 886 dans le comté de Nantou, et 90 % des bâtiments de la ville de Zhongliao ont été endommagés. Le 27 octobre 1930, le jour où le drapeau a été hissé à l’école publique de Wushe, Mona Rudao a mené six tribus Seediq et a tué 134 civils japonais. En 1934, le barrage de Wujie a élevé le niveau de l’eau de 18,18 m, submergeant l’île Lalu des Shao. En 1957, le village de Zhongxing a été construit comme bureau temporaire du gouvernement provincial, et en 1998, la province a été « décentralisée » ne laissant que l’avenue des cocotiers. 470 000 habitants vivent dans ce comté enclavé, qui s’étend de 100 m à 3 952 m d’altitude et abrite les peuples Seediq, Bunun, Shao et Tsou ainsi que les Han. Les blessures les plus profondes de Taïwan se trouvent ici.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Geography/nantou-county",
+    "readingTime": 95,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/nantou-county.md"
+  },
+  {
+    "title": "Comté de Penghu : deux refus de casino, le choix de l’île Ciju n’était pas la pauvreté",
+    "description": "Le 26 septembre 2009, le référendum de Makung a été organisé, 17 359 votes contre, le casino a perdu de 3 962 votes. Sept ans plus tard, en 2016, un nouveau vote a eu lieu, 81,07 % contre. Une île éloignée avec seulement 1 000 mm de précipitations annuelles, 108 000 résidents enregistrés mais seulement 80 000 habitants permanents, a organisé le premier référendum local sur le jeu du pays, puis un second. La même zone maritime a vu Shen You‑rong forcer les Néerlandais à se retirer en 1604, les Néerlandais déplacer leur base de Fengguitei à Tainan en 1622, et le commandant français Guo Ba mourir à Magong en 1885. Les colonnes de basalte de 17,4 millions d’années existent toujours, 89 îles sont constituées de roches volcaniques noires, une d’elles d’andésite plus ancienne. Dans les murs de pierre corallienne des maisons d’hiver, les cultures poussent du côté abrité du vent.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Geography/penghu-county",
+    "readingTime": 90,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/penghu-county.md"
+  },
+  {
+    "title": "Comté de Pingtung : le tournant du destin national s’est produit ici, un fait que Taipei ne se souvient jamais",
+    "description": "Le 22 mai 1874, le lieutenant japonais Sakuuma Sōma a fait pénétrer 150 hommes dans la gorge étroite de Shimen, où le chef Paiwan d’Arugou et son fils ont péri au combat. Cette guerre a conduit l’Empire Qing à renverser sa politique de gouvernance à Taiwan, à créer le comté de Hengchun sous Shen Baozhen et à ériger le phare d’Eluanbi en 1883. 780 000 habitants sont répartis dans les 33 villes et districts du comté de Pingtung, où cinq peuples autochtones cohabitent avec les six districts Hakka. Le 8 août 2009, à 4 h 30 du matin, le barrage de Linbian a cédé. L’histoire de Taiwan a changé deux fois à partir de cette péninsule, mais la capitale ne retient plus que le festival de musique de Kenting.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Geography/pingtung-county",
+    "readingTime": 90,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/pingtung-county.md"
+  },
+  {
+    "title": "Comté de Taitung : deux îles périphériques, l’une a enfermé des prisonniers politiques pendant trente-six ans, l’autre stocke des déchets nucléaires depuis quarante-deux ans",
+    "description": "Les 210 000 habitants du comté de Taitung sont dispersés sur 3 515 kilomètres carrés : la densité la plus faible du pays, 60 personnes seulement par kilomètre carré, soit un centième de celle de Taipei. Mais ce comté abrite les plus anciens établissements humains de Taïwan (le site de Peinan, 1 600 sarcophages de pierre datant d’il y a 5 300 ans), six peuples autochtones (Amis, Puyuma, Paiwan, Rukai, Bunun, Tao), et la plus forte proportion d’Autochtones de toute l’île, 37,5 %. De 1951 à 1987, l’île Verte, autrefois appelée Huoshaodao, a enfermé des prisonniers politiques pendant trente-six ans. À partir de mai 1982, Longmen, à Lanyu, a commencé à recevoir des déchets nucléaires ; quarante-deux ans plus tard, 97 672 fûts s’y trouvent encore. Le 25 août 1968, sept enfants bunun du village de Hongye ont battu sept à zéro l’équipe japonaise d’étoiles de baseball junior du Kansai (et non une équipe championne du monde) : le mythe du baseball comme sport national de Taïwan est né de cette tromperie. Deux îles périphériques ont porté le coût d’une île entière.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Geography/taitung-county",
+    "readingTime": 236,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/taitung-county.md"
+  },
+  {
+    "title": "Comté de Yilan : deux fois il a choisi son propre destin, et la plaine de Lanyang n’est jamais revenue en arrière",
+    "description": "Le soir du 13 décembre 1987, Chen Ding-nan s’assit face à Wang Yung-ching dans le studio de CTS et tint le sixième craqueur de naphta à l’écart de la plaine de Lanyang. Dix-neuf ans plus tard, le 16 juin 2006, le tunnel de Xueshan ouvrit à la circulation, réduisant le trajet entre Taipei et Yilan de deux heures à 40 minutes. Puis, en dix ans, ce grenier à riz vit pousser 6 137 maisons agricoles ; le prix du ping de terrain passa de 4 000 à 20 000 dollars taïwanais ; en 2023, le seul comté de Yilan délivra 35 % des permis de construire pour maisons agricoles de tout Taïwan. Deux fois, à des moments décisifs de l’histoire, un lieu a fait un choix ; la plaine de Lanyang en a reçu à la fois le prix et le don.",
+    "category": "fr",
+    "tags": [
+      "Yilan",
+      "comté de Yilan",
+      "plaine de Lanyang",
+      "tunnel de Xueshan",
+      "Chen Ding-nan",
+      "opposition au sixième craqueur de naphta",
+      "affaire du meurtre de la famille Lin",
+      "Chilin",
+      "Kavalan",
+      "île Guishan",
+      "Taipingshan",
+      "Festival des jeux d’enfants",
+      "série des 22 villes et comtés"
+    ],
+    "url": "https://taiwan.md/fr/Geography/yilan-county",
+    "readingTime": 257,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/yilan-county.md"
+  },
+  {
+    "title": "Comté de Yunlin : ce que Yilan a choisi de refuser, Yunlin l'a payé de trente ans de poumons",
+    "description": "Le 13 décembre 1987, Chen Ding-nan écarta le Sixième complexe de craquage de naphta de Yilan dans un studio de CTS ; le 26 juin 1991, le Yuan exécutif approuva son transfert au large de Mailiao, à Yunlin ; en juillet 1994, les travaux commencèrent officiellement ; en 1998, la première phase entra en service ; à ce jour, 2 255 hectares ont été gagnés sur la mer. En 2011, l'équipe de Chan Chang-chuan, de la santé publique de l'Université nationale de Taïwan, constata que l'incidence du cancer parmi les habitants vivant dans un rayon de 10 km autour du complexe était 1,29 fois celle de l'ensemble de Taïwan. Mais dans le même comté, le temple Chaotian de Beigang vénère depuis déjà 332 ans Mazu, depuis 1694, 33e année du règne Kangxi des Qing ; et le 28 janvier 1953, l'acier de l'aide américaine soutint les 1 939 mètres du pont de Xiluo. Un même comté est à la fois l'un des plus anciens temples de Mazu de Taïwan, l'un de ses plus importants greniers à riz et son plus grand royaume pétrochimique.",
+    "category": "fr",
+    "tags": [
+      "Yunlin",
+      "comté de Yunlin",
+      "Sixième complexe de craquage",
+      "Mailiao",
+      "temple Chaotian de Beigang",
+      "Mazu",
+      "pont de Xiluo",
+      "riz de Xiluo",
+      "raffinerie sucrière de Huwei",
+      "café de Gukeng",
+      "Chen Ding-nan",
+      "Wang Yung-ching",
+      "rivière Zhuoshui",
+      "série des 22 villes et comtés"
+    ],
+    "url": "https://taiwan.md/fr/Geography/yunlin-county",
+    "readingTime": 248,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/yunlin-county.md"
+  },
+  {
     "title": "Comunidad de código abierto y g0v",
     "description": "En febrero de 2020, mientras el mundo entero acaparaba mascarillas, un grupo de programadores de Taiwán tardó solo 72 horas en permitir que 13,000 tiendas de conveniencia pudieran consultar el inventario de mascarillas. Sin órdenes gubernamentales, sin apoyo presupuestario, solo una convicción: cambiar la sociedad con código. Este es g0v (Gobierno Cero), un experimento fascinante de «hacer fork al gobierno».",
     "category": "es",
@@ -24240,6 +25149,277 @@
     "featured": false,
     "date": "2026-04-27",
     "path": "es/Technology/taiwan-game-jam-community.md"
+  },
+  {
+    "title": "Condado de Changhua: el gran condado agrícola que venció a DuPont pero no logra retener a los jóvenes",
+    "description": "En 1709, Shi Shibang canalizó las aguas del río Zhuoshui para crear el primer sistema de irrigación a gran escala de Taiwán, 211 años antes que el sistema de Chianan de Hatta Yoichi. En 1723, primer año del reinado de Yongzheng, se separó del condado de Zhuluo, cortando al sur por Huwei y llegando al norte a Dajia: este fue el inicio de la fundación de Changhua. En 1786, las fuerzas de Lin Shuangwen sitiaron la ciudad de Changhua, pero Lukang no cayó. En 1788, Qianlong ordenó la construcción oficial del templo Tianhou (Xinzu Gong) en Lukang. En 1922 se inauguró el depósito de locomotoras en abanico. En 1986, los residentes de Lukang expulsaron a la empresa estadounidense DuPont: el primer movimiento ambientalista de Taiwán. En abril de 2026, la población del condado de Changhua era de 1.206.458 personas, cayendo por debajo del umbral para convertirse en municipio especial.",
+    "category": "es",
+    "tags": [
+      "彰化",
+      "彰化縣",
+      "中部",
+      "鹿港",
+      "八堡圳",
+      "一府二鹿三艋舺",
+      "反杜邦",
+      "八卦山",
+      "田尾公路花園",
+      "扇形車庫",
+      "22縣市系列"
+    ],
+    "url": "https://taiwan.md/es/Geography/changhua-county",
+    "readingTime": 193,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/changhua-county.md"
+  },
+  {
+    "title": "Condado de Chiayi: 490.000 personas le prestan el rostro a Alishan, y nadie recuerda que la sede del condado está en Taibao",
+    "description": "A las cinco de la madrugada, los criaderos de ostras frente a la costa de Dongshi siguen dentro del agua; la mitad de las ostras de todo el país viene de este mar. A cien kilómetros, en Alishan, el ferrocarril forestal que llegó hasta Erwanping en 1912 tiene una longitud total de 66,6 kilómetros. En medio, junto a la estación Chiayi del tren de alta velocidad en Taibao, la sede sur del Museo Nacional del Palacio tardó 15 años en abrir; en 2018 recibió 760.000 visitantes. Cuando en 1991 la sede del condado de Chiayi se trasladó desde la ciudad de Chiayi a Taibao, todo el país seguía pensando que Chiayi era la ciudad de Chiayi. Treinta y cinco años después, las 490.000 personas de este condado rodean una ciudad de 270.000 habitantes que le fue recortada, con un índice de envejecimiento de 174%, el más alto de Taiwán.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Geography/chiayi-county",
+    "readingTime": 221,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/chiayi-county.md"
+  },
+  {
+    "title": "Condado de Hsinchu: 235 años de culto yimin y el mayor ingreso per cápita de todo Taiwán conviven en el mismo río Touqian",
+    "description": "En el invierno de 1788, en una ladera de Xinpu, se colocó la primera piedra de un Pabellón Baozhong para sepultar conjuntamente a más de doscientos yimin hakka muertos durante la rebelión de Lin Shuangwen. 235 años después, el rito rotativo de las quince alianzas de aldeas durante el Festival Yimin, el vigésimo día del séptimo mes lunar, sigue en marcha. A 5 kilómetros, la ciudad de Zhubei alcanzó en 2025 un ingreso per cápita de 1,442 millones de dólares taiwaneses, el primer lugar entre los 368 municipios, pueblos, ciudades y distritos de todo Taiwán, y su imán es la planta de obleas de 2 nanómetros de la segunda fase de TSMC en Baoshan. En el condado de Hsinchu, el 67,8% de la población es hakka, la proporción más alta de Taiwán. Pero entre los 220.000 habitantes de Zhubei, sede del gobierno condal, cada vez hay menos jóvenes hakka que puedan comprar una vivienda en su propia tierra.",
+    "category": "es",
+    "tags": [
+      "Hsinchu",
+      "condado de Hsinchu",
+      "hakka",
+      "Templo Yimin",
+      "Beipu",
+      "Neiwan",
+      "Hukou",
+      "Smangus",
+      "pueblo saisiyat",
+      "pueblo atayal",
+      "Zhubei",
+      "TSMC",
+      "serie de 22 condados y ciudades"
+    ],
+    "url": "https://taiwan.md/es/Geography/hsinchu-county",
+    "readingTime": 221,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/hsinchu-county.md"
+  },
+  {
+    "title": "Condado de Hualien: el pueblo Sakizaya oculto durante 129 años, el Taroko recuperado mediante la rectificación de su nombre, y el 0403 que volvió a alejarlo",
+    "description": "En 1878, el ejército Qing ató al jefe Komod Pazik de la comunidad Takubuwan a un árbol de Bischofia javanica y lo ejecutó por lingchi; el pueblo Sakizaya se ocultó dentro del pueblo Amis durante 129 años. En 2004, el pueblo Truku salió de la clasificación Atayal y se convirtió en el 12.º pueblo indígena reconocido; en 2007, durante el segundo mandato del gobierno de Chen Shui-bian, los Sakizaya fueron reconocidos como el 13.º pueblo. El 3 de abril de 2024, a las 7:58 de la mañana, durante esos 98 segundos, el terremoto 0403 de magnitud 7.1 destruyó de una vez la Gruta de las Golondrinas, el Túnel de las Nueve Curvas y el sendero Shakadang del Parque Nacional Taroko; en 2024 quedaron solo 210.000 turistas, frente a los 6,6 millones de un año normal. En una franja de tierra entre montañas y mar que en su punto más angosto mide 5 kilómetros, el destino de seis pueblos indígenas siempre ha oscilado junto con las placas tectónicas.",
+    "category": "es",
+    "tags": [
+      "Hualien",
+      "Condado de Hualien",
+      "Taroko",
+      "Parque Nacional Taroko",
+      "terremoto 0403",
+      "pueblo Sakizaya",
+      "pueblo Truku",
+      "incidente de Kaliawan",
+      "Tzu Chi",
+      "mejora de la carretera Suhua",
+      "pueblo Amis",
+      "pueblo Bunun",
+      "pueblo Kavalan",
+      "serie de 22 condados y ciudades"
+    ],
+    "url": "https://taiwan.md/es/Geography/hualien-county",
+    "readingTime": 254,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/hualien-county.md"
+  },
+  {
+    "title": "Condado de Kinmen: aquellas 56 horas de 1949 que determinaron 75 años del destino de Kinmen",
+    "description": "Kinmen está a solo 1,8 km de Jiaoyu, en Xiamen, en su punto más cercano, y a 358 km de Taipéi. En 1387, Zhou Dexing, marqués de Jiangxia, construyó aquí una ciudad de guarnición tomando el sentido de “sólida como metal y muralla, bastión majestuoso de la puerta marítima”. A las dos de la madrugada del 25 de octubre de 1949, tres regimientos comunistas, 9.086 hombres, desembarcaron en la playa de Guningtou; el Ejército Nacional los rechazó tras 56 horas de combates encarnizados. Durante los 44 días iniciados a las cinco y media de la tarde del 23 de agosto de 1958, 474.910 proyectiles cayeron sobre una isla de 151 km²; luego, la regla de bombardear los días impares y no los pares continuó otros 21 años. Hoy 145.000 personas están registradas en Kinmen, y a las cuatro de la madrugada salen más barcos desde el muelle de Shuitou hacia Xiamen que aviones hacia Taipéi. El bisnieto de Ye Huacheng esperó 67 años para pedir una disculpa.",
+    "category": "es",
+    "tags": [
+      "Condado de Kinmen",
+      "Kinmen",
+      "Batalla de Guningtou",
+      "Bombardeo del 23 de Agosto",
+      "Bombardeo los días impares y no los pares",
+      "Administración de zona de guerra",
+      "Kaoliang de Kinmen",
+      "Ye Huacheng",
+      "Pequeños Tres Enlaces",
+      "Wuqiu",
+      "dios león del viento",
+      "serie de 22 condados y ciudades"
+    ],
+    "url": "https://taiwan.md/es/Geography/kinmen-county",
+    "readingTime": 231,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/kinmen-county.md"
+  },
+  {
+    "title": "Condado de Lienchiang: el condado más alejado de Taiwán es el más cercano a la Guerra Fría",
+    "description": "Desde la cima de las montañas de Nangan, la ciudad de Fuzhou está a solo 16 kilómetros. Taipéi está a 200 kilómetros, y la sede original del condado de Lienchiang está del lado del Ejército comunista. En 1617, Shen Yourong capturó vivos a 69 wokou al pie de la montaña en Dongju; en 1956, el Ejército Nacional convirtió estas 5 islas en una zona de administración militar de frente de guerra; en 1992, Kinmen y Matsu levantaron la ley marcial 5 años más tarde que Taiwán. Hoy viven aquí 13.646 personas, la tasa de pérdida del matsunés es del 94%, y el único referéndum sobre juego aprobado en todo el país, en 2012, sigue sin resultados. Las lágrimas azules atraen 200.000 turistas al año, pero la población local recuerda el apagón obligatorio. Un condado de 28,8 kilómetros cuadrados condensa sobre sí mismo la historia taiwanesa de la Guerra Fría.",
+    "category": "es",
+    "tags": [
+      "Condado de Lienchiang",
+      "Matsu",
+      "Nangan",
+      "Beigan",
+      "Dongju",
+      "Dongyin",
+      "administración militar de frente de guerra",
+      "lágrimas azules",
+      "Qinbi",
+      "fuzhounés",
+      "min oriental",
+      "serie de 22 condados y ciudades"
+    ],
+    "url": "https://taiwan.md/es/Geography/lienchiang-county",
+    "readingTime": 235,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/lienchiang-county.md"
+  },
+  {
+    "title": "Condado de Miaoli: el condado hakka de cuello duro que eligió en ocho años a un magistrado que duplicó con creces la deuda del erario",
+    "description": "Durante el dominio japonés, el alcanfor de Miaoli representaba el 95% del total de Taiwán; Sanyi inició su talla en madera con los tocones sobrantes de destilar alcanforeros. En 2002, la aldea Beihe de Gongguan organizó el primer Festival de la Flor de Tung. En 2008, Liu Cheng-hung recibió un condado con 20.200 millones de deuda; al dejar el cargo en 2014, la deuda contable era de 67.600 millones. Entre medio ocurrieron el suicidio con pesticida de Zhu Feng-min, la demolición forzosa de la Farmacia Zhang y el Hakka Round House, construido por 120 millones y convertido en un edificio mosquito. Hoy, 530.000 personas viven en este condado, el segundo de Taiwán con mayor proporción hakka: 62,5%.",
+    "category": "es",
+    "tags": [
+      "Miaoli",
+      "condado de Miaoli",
+      "hakka",
+      "cultura hakka",
+      "incidente de Dapu",
+      "talla en madera de Sanyi",
+      "flor de tung",
+      "pueblo saisiyat",
+      "Festival de los Espíritus Pequeños",
+      "Liu Cheng-hung",
+      "serie de 22 ciudades y condados"
+    ],
+    "url": "https://taiwan.md/es/Geography/miaoli-county",
+    "readingTime": 216,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/miaoli-county.md"
+  },
+  {
+    "title": "Condado de Nantou: el único condado sin costa, con el epicentro del 921 en su centro",
+    "description": "A la 1:47 de la madrugada del 21 de septiembre de 1999, la falla Chelungpu, bajo el municipio de Jiji, se desplazó durante 102 segundos: murieron 2.415 personas en todo Taiwán, 886 de ellas en Nantou, y el 90% de las construcciones del municipio de Zhongliao resultó dañado. En 1930, el día del izamiento de la bandera en la Escuela Pública de Wushe, Mona Rudao condujo a seis comunidades seediq y decapitó a 134 civiles japoneses. En 1934, la presa de Wujie elevó el nivel del agua 18,18 metros e inundó la isla Lalu del pueblo thao. En 1957 se terminó Zhongxing New Village como oficina provisional del gobierno provincial; en 1998, la reducción de la provincia lo vació y solo quedó su avenida de palmeras. 470.000 personas viven en este condado interior que asciende de 100 a 3.952 metros, donde seediq + bunun + thao + tsou conviven con población han. Las heridas más profundas de Taiwán están aquí.",
+    "category": "es",
+    "tags": [
+      "Nantou",
+      "Condado de Nantou",
+      "Centro de Taiwán",
+      "Lago del Sol y la Luna",
+      "Terremoto del 921",
+      "Jiji",
+      "Incidente de Wushe",
+      "Pueblo seediq",
+      "Pueblo bunun",
+      "Pueblo thao",
+      "Zhongxing New Village",
+      "Yushan",
+      "Wuling",
+      "Puli",
+      "Serie de 22 condados y ciudades"
+    ],
+    "url": "https://taiwan.md/es/Geography/nantou-county",
+    "readingTime": 218,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/nantou-county.md"
+  },
+  {
+    "title": "Condado de Pingtung: aquí ocurrieron giros decisivos del destino nacional, y Taipéi casi nunca los recordó",
+    "description": "El 22 de mayo de 1874, el teniente coronel japonés Sakuma Samata llevó a 150 hombres a internarse en el desfiladero de Shimen, donde murieron el jefe paiwan Aruqu y su hijo. Aquella batalla hizo que la corte Qing revirtiera su política de gobierno sobre Taiwán: Shen Baozhen llegó para establecer el condado de Hengchun y en 1883 se construyó el faro de Eluanbi. Unas 780.000 personas están dispersas en las 33 ciudades, municipios y poblados del condado de Pingtung, donde conviven 5 pueblos indígenas y 6 localidades del Liudui hakka. En 2009, a las cuatro y media de la madrugada, las compuertas de Linbian ya no pudieron contener el agua. La historia que cambió Taiwán partió dos veces de esta península, pero lo único que la capital recuerda es el Spring Scream de Kenting.",
+    "category": "es",
+    "tags": [
+      "Pingtung",
+      "condado de Pingtung",
+      "sur",
+      "península de Hengchun",
+      "pueblo paiwan",
+      "pueblo rukai",
+      "Liudui hakka",
+      "incidente de Mudan",
+      "Basílica de Nuestra Señora de Wanjin",
+      "faro de Eluanbi",
+      "Linbian",
+      "desastre del 8 de agosto",
+      "Morakot",
+      "serie de 22 condados y ciudades"
+    ],
+    "url": "https://taiwan.md/es/Geography/pingtung-county",
+    "readingTime": 210,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/pingtung-county.md"
+  },
+  {
+    "title": "Condado de Taitung: dos islas periféricas, una encerró durante treinta y seis años a presos políticos y la otra almacenó durante cuarenta y dos años residuos nucleares",
+    "description": "Los 210.000 habitantes del condado de Taitung están dispersos en 3.515 kilómetros cuadrados: la densidad más baja del país, apenas 60 personas por kilómetro cuadrado, una centésima parte de Taipéi. Pero este condado guarda el asentamiento humano más antiguo de Taiwán (el sitio arqueológico de Peinan, con 1.600 sarcófagos de piedra de hace 5.300 años), alberga seis pueblos indígenas (amis, puyuma, paiwan, rukai, bunun y tao) y tiene la mayor proporción de población indígena de todo Taiwán, 37,5%. Entre 1951 y 1987, Huoshao Island, la actual Isla Verde, encerró durante treinta y seis años a presos políticos. Desde mayo de 1982, Longmen, en Lanyu, comenzó a recibir residuos nucleares; cuarenta y dos años después, 97.672 barriles siguen allí. El 25 de agosto de 1968, siete niños bunun de la aldea Hongye derrotaron siete a cero al equipo de estrellas de béisbol infantil de Kansai, Japón (no al equipo campeón mundial), y el mito del béisbol como deporte nacional de Taiwán comenzó con este engaño. Dos islas periféricas asumieron el costo de toda una isla.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Geography/taitung-county",
+    "readingTime": 233,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/taitung-county.md"
+  },
+  {
+    "title": "Condado de Yilan: eligió dos veces su propio destino, y la llanura de Lanyang no volvió atrás",
+    "description": "La noche del 13 de diciembre de 1987, Chen Ding-nan se sentó frente a Wang Yung-ching en el estudio de CTS y dejó al Sexto Complejo de Craqueo de Nafta fuera de la llanura de Lanyang. Diecinueve años después, el 16 de junio de 2006, se abrió al tráfico el túnel de Hsuehshan, y el trayecto de Taipei a Yilan se redujo de dos horas a 40 minutos. Luego, en los diez años posteriores a la apertura, en este granero surgieron 6.137 casas rurales; el precio de la tierra por ping saltó de 4.000 a 20.000 dólares taiwaneses, y en 2023 un solo condado, Yilan, emitió el 35% de los permisos de construcción de casas rurales de todo Taiwán. Un lugar tomó dos decisiones en momentos cruciales de la historia, y la llanura de Lanyang recibió juntas el costo y el regalo.",
+    "category": "es",
+    "tags": [
+      "Yilan",
+      "Condado de Yilan",
+      "Llanura de Lanyang",
+      "Túnel de Hsuehshan",
+      "Chen Ding-nan",
+      "Movimiento contra el Sexto Complejo de Craqueo",
+      "Masacre de la familia Lin",
+      "Chilin",
+      "Pueblo kavalan",
+      "Isla Guishan",
+      "Taipingshan",
+      "Festival de Juegos Infantiles",
+      "Serie de 22 condados y ciudades"
+    ],
+    "url": "https://taiwan.md/es/Geography/yilan-county",
+    "readingTime": 257,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/yilan-county.md"
+  },
+  {
+    "title": "Condado de Yunlin: lo que Yilan decidió rechazar, Yunlin lo pagó con treinta años de pulmones",
+    "description": "El 13 de diciembre de 1987, Chen Ding-nan bloqueó la entrada del Sexto Complejo de Craqueo de Nafta a Yilan en un estudio de CTS; el 26 de junio de 1991, el Yuan Ejecutivo aprobó trasladarlo al mar frente a Mailiao, Yunlin; en julio de 1994 comenzó formalmente la construcción; en 1998 se encendió la primera fase, y hasta hoy se han ganado 2.255 hectáreas al mar. En 2011, el equipo de Chan Chang-chuan, de la Escuela de Salud Pública de la Universidad Nacional de Taiwán, encontró que la incidencia de cáncer entre residentes a 10 kilómetros del complejo era 1,29 veces la media de todo Taiwán. Pero en el mismo condado, el templo Beigang Chaotian ya veneraba a Mazu desde 1694, año 33 del reinado Kangxi de la dinastía Qing, hace 332 años; y el 28 de enero de 1953, acero de la ayuda estadounidense sostuvo los 1.939 metros del puente Xiluo. Un solo condado es, al mismo tiempo, sede de uno de los templos de Mazu más antiguos de Taiwán, uno de sus graneros más importantes y su mayor reino petroquímico.",
+    "category": "es",
+    "tags": [
+      "Yunlin",
+      "condado de Yunlin",
+      "Sexto Complejo de Craqueo de Nafta",
+      "Mailiao",
+      "templo Beigang Chaotian",
+      "Mazu",
+      "puente Xiluo",
+      "arroz de Xiluo",
+      "azucarera de Huwei",
+      "café de Gukeng",
+      "Chen Ding-nan",
+      "Wang Yung-ching",
+      "río Zhuoshui",
+      "serie de 22 condados y ciudades"
+    ],
+    "url": "https://taiwan.md/es/Geography/yunlin-county",
+    "readingTime": 235,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/yunlin-county.md"
   },
   {
     "title": "Congé pour typhon : le congé de qui, le travail de qui",
@@ -24419,6 +25599,17 @@
     "featured": true,
     "date": "2026-04-04",
     "path": "fr/Nature/taiwan-climate-change-net-zero-transition.md"
+  },
+  {
+    "title": "Crise du détroit de Taïwan et évolution des relations inter-détroit",
+    "description": "Du souvenir des obus de la grand-mère de Kinmen au quotidien « bouddhiste » des jeunes de Taipei, comment soixante-dix ans de crise du détroit de Taïwan ont façonné la psychologie collective des Taïwanais",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/History/taiwan-strait-crises-and-cross-strait-relations",
+    "readingTime": 77,
+    "featured": false,
+    "date": "2026-03-18",
+    "path": "fr/History/taiwan-strait-crises-and-cross-strait-relations.md"
   },
   {
     "title": "Crisis climática y transición hacia cero emisiones netas en Taiwán",
@@ -24689,6 +25880,17 @@
     "featured": false,
     "date": "2026-03-24",
     "path": "fr/Culture/hakka-culture-and-language.md"
+  },
+  {
+    "title": "Culture KTV à Taïwan : de Holiday et Cashbox à l'ère du social en cabine",
+    "description": "Explorer le développement de la culture KTV à Taïwan, depuis l'introduction du karaoké japonais jusqu'à la localisation en cabines, la période de concurrence entre Holiday et Cashbox, comment le classement des chansons devient un indicateur de la culture pop, et les défis de la transformation industrielle après la pandémie",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Music/ktv-culture",
+    "readingTime": 86,
+    "featured": true,
+    "date": "2026-03-19",
+    "path": "fr/Music/ktv-culture.md"
   },
   {
     "title": "Cumbres insulares entre montañas y mar: ecología y paisajes de los parques nacionales de Taiwán",
@@ -26482,26 +27684,26 @@
     "title": "Elecciones y política partidista en Taiwán",
     "description": "Desde las llamas del Incidente de Zhongli hasta los 8.17 millones de votos, cómo Taiwán transformó el voto en medio siglo de herramienta de la ley marcial a fe cívica de toda la nación",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "Elecciones",
+      "Democratización",
+      "Política partidista",
+      "Movimiento pro-democracia",
+      "Elección presidencial directa"
+    ],
     "url": "https://taiwan.md/es/History/taiwan-elections-and-party-politics",
-    "readingTime": 78,
+    "readingTime": 80,
     "featured": false,
     "date": "2026-03-20",
     "path": "es/History/taiwan-elections-and-party-politics.md"
   },
   {
-    "title": "Élections et vie politique à Taïwan : une démocratie gagnée bulletin par bulletin",
-    "description": "Des flammes de l'incident de Zhongli aux 8,17 millions de suffrages de 2020 : comment Taïwan a transformé en moins d'un demi-siècle l'acte de voter d'un instrument de propagande autoritaire en rituel civique national",
+    "title": "Élections à Taïwan et politique partisane",
+    "description": "Du feu de l'incident de Zhongli aux 8,17 millions de bulletins, comment Taïwan a transformé le vote, d’un outil de la loi martiale, en une foi nationale en un demi‑siècle",
     "category": "fr",
-    "tags": [
-      "élections",
-      "démocratisation",
-      "partis politiques",
-      "mouvement hors-parti",
-      "élection présidentielle au suffrage direct"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/History/taiwan-elections-and-party-politics",
-    "readingTime": 79,
+    "readingTime": 74,
     "featured": false,
     "date": "2026-03-20",
     "path": "fr/History/taiwan-elections-and-party-politics.md"
@@ -27007,6 +28209,25 @@
     "path": "es/History/prehistoric-era-and-indigenous-peoples.md"
   },
   {
+    "title": "Escuela Taiwanesa de Inteligencia Artificial: la llamada inconclusa y diez mil ingenieros de IA",
+    "description": "El 27 de marzo de 2020, Chen Sheng-wei llamó con seriedad al editor jefe de CommonWealth Magazine: quería crear una especie de curso gratuito de programación para toda la ciudadanía. Dos días después cayó mientras patinaba en línea; 13 días más tarde murió. Tenía 44 años. Al momento de su muerte, la Escuela Taiwanesa de Inteligencia Artificial (AIA), que él había fundado en 2018, ya había formado a más de 6.000 personas. En el mismo período, el Consejo Nacional de Desarrollo proclamaba una “gran estrategia de IA para un país pequeño” con 16.000 millones de dólares taiwaneses en cinco años; él, en cambio, levantó 180 millones de financiamiento privado de seis empresas, entre ellas Formosa Plastics, Chi Mei e Inventec, y abrió su propia escuela. Ocho años después, los exalumnos superaron los diez mil. AIA es una pieza del rompecabezas de la modernización industrial de Taiwán que se parece muy poco a Taiwán.",
+    "category": "es",
+    "tags": [
+      "inteligencia artificial",
+      "educación",
+      "Chen Sheng-wei",
+      "AIA",
+      "industria tecnológica de Taiwán",
+      "Academia Sinica",
+      "política de IA"
+    ],
+    "url": "https://taiwan.md/es/Technology/taiwan-ai-academy",
+    "readingTime": 172,
+    "featured": true,
+    "date": "2026-05-18",
+    "path": "es/Technology/taiwan-ai-academy.md"
+  },
+  {
     "title": "Espátula menor: de 300 ejemplares a 7.000, el milagro transnacional de conservación enfrenta ahora «el precio del éxito»",
     "description": "El censo global de 2026 revela que la espátula menor ha alcanzado los 7.746 ejemplares, con 4.719 registrados en Taiwán, un máximo histórico. Esta ave, que estuvo al borde de la extinción, fue reclasificada en 2025 a una categoría de menor amenaza, pero en sus cuarteles invernales de Taiwán enfrenta nuevos desafíos: desarrollo fotovoltaico, botulismo y ataques de perros callejeros.",
     "category": "es",
@@ -27129,6 +28350,26 @@
     "featured": false,
     "date": "2026-03-24",
     "path": "en/Economy/evergreen-marine.md"
+  },
+  {
+    "title": "Evolución de las canciones en taiwanes: de la 'música de los abuelos' a la nueva favorita de los jóvenes bohemios",
+    "description": "Rastrea la evolución de las canciones en taiwanes desde la era del nakashi, Hong Yifeng y Jody Chiang hasta las nuevas generaciones de bandas como Eggplant Egg Band y Sorry Youth Band, explorando cómo la música en taiwanes ha recuperado la aceptación de las generaciones jóvenes.",
+    "category": "es",
+    "tags": [
+      "canciones en taiwanes",
+      "nakashi",
+      "Hong Yifeng",
+      "Jody Chiang",
+      "Eggplant Egg Band",
+      "Sorry Youth Band",
+      "Collage",
+      "Premios Golden Melody"
+    ],
+    "url": "https://taiwan.md/es/Music/taiwanese-hokkien-song-evolution",
+    "readingTime": 72,
+    "featured": true,
+    "date": "2026-03-19",
+    "path": "es/Music/taiwanese-hokkien-song-evolution.md"
   },
   {
     "title": "eスポーツ：ネットカフェの少年から世界の舞台へ、台湾のレジリエンスと機会が交差する競技場",
@@ -28775,6 +30016,31 @@
     "path": "en/People/su-wei-hsieh-wimbledon-champion.md"
   },
   {
+    "title": "Hsinchu County: A 235-Year Yimin Faith and Taiwan’s Highest Per Capita Income Along the Same Touqian River",
+    "description": "In the winter of 1788, Baozhong Pavilion was founded on a hillside in Xinpu to collectively bury more than 200 Hakka yimin who died in the Lin Shuangwen Rebellion. Two hundred thirty-five years later, the rotating ritual circuit of the Yimin Festival on the twentieth day of the seventh lunar month is still running among the Fifteen Lianzhuang. Five kilometers away, Zhubei City ranked first among Taiwan’s 368 townships, towns, cities, and districts in 2025 with per capita income of NT$1.442 million, magnetized by TSMC’s Baoshan Phase II 2-nanometer wafer fab. Hsinchu County is 67.8% Hakka, the highest share in Taiwan. But among the 220,000 people in the county seat of Zhubei, fewer young Hakka people can afford homes in their own hometown.",
+    "category": "en",
+    "tags": [
+      "Hsinchu",
+      "Hsinchu County",
+      "Hakka",
+      "Yimin Temple",
+      "Beipu",
+      "Neiwan",
+      "Hukou",
+      "Smangus",
+      "Saisiyat",
+      "Atayal",
+      "Zhubei",
+      "TSMC",
+      "22 Counties and Cities Series"
+    ],
+    "url": "https://taiwan.md/en/Geography/hsinchu-county",
+    "readingTime": 203,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/hsinchu-county.md"
+  },
+  {
     "title": "Hsu Chiao-hsin : de la fille d'un petit-déjeuner à la députée du « plan d'armements de 800 milliards » et la jeunesse par le capital médiatique",
     "description": "Députée du septième district électoral de Taipei. Née en 1989 dans une famille tenant un petit-déjeuner à Taipei, elle est devenue en 2013, à 24 ans, la plus jeune membre du Comité central permanent de l'histoire du Kuomintang. En 2024, elle a battu Hsu Shu-hua avec 89 727 voix pour entrer au Yuan législatif. Lors de la grande révocation de 2025, 62 000 voix favorables ont atteint le seuil légal mais la motion a été rejetée ; en 2026, lors des négociations sur les acquisitions militaires, elle a présenté une version de 800 milliards en confrontation avec la ligne du Comité central (380 milliards + N), Chi Lin-lian la nommant publiquement pour lui dire « ne faites pas ce qui réjouit l'ennemi et afflige les proches ».",
     "category": "fr",
@@ -29006,6 +30272,32 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "ja/Economy/htc-android-pioneer-vr-transformation.md"
+  },
+  {
+    "title": "Hualien County: The Sakizaya Who Hid for 129 Years, the Taroko Reclaimed Through Name Rectification, and 0403 Pushed It Away Again",
+    "description": "In 1878, Qing troops bound Takubuwan chief Komod Pazik to a bishop wood tree and executed him by lingchi; the Sakizaya hid within the Amis for 129 years. In 2004, the Truku emerged from the Atayal classification to become the 12th officially recognized Indigenous people; in 2007, during the second term of the Chen Shui-bian administration, the Sakizaya were recognized as the 13th. At 7:58 a.m. on April 3, 2024, in those 98 seconds, the magnitude 7.1 0403 earthquake smashed Taroko National Park’s Swallow Grotto, Tunnel of Nine Turns, and Shakadang Trail all at once. In 2024, visitor numbers fell to only 210,000; in a normal year they are 6.6 million. On a strip of land between mountains and sea only 5 kilometers wide at its narrowest, the fates of six Indigenous peoples have always shaken with the plates.",
+    "category": "en",
+    "tags": [
+      "Hualien",
+      "Hualien County",
+      "Taroko",
+      "Taroko National Park",
+      "0403 Earthquake",
+      "Sakizaya",
+      "Truku",
+      "Kavalan Incident",
+      "Tzu Chi",
+      "Suhua Highway Improvement Project",
+      "Amis",
+      "Bunun",
+      "Kavalan",
+      "22 Counties and Cities Series"
+    ],
+    "url": "https://taiwan.md/en/Geography/hualien-county",
+    "readingTime": 242,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/hualien-county.md"
   },
   {
     "title": "Huang Chen-nan",
@@ -30057,34 +31349,34 @@
     "path": "fr/People/jin-enoki.md"
   },
   {
-    "title": "Jinguashi : ces mille soldats britanniques envoyés dans les galeries pour extraire du cuivre, et une montagne dorée pas encore nettoyée",
-    "description": "De 1942 à 1945, plus d'un millier de prisonniers de guerre alliés, principalement britanniques, furent internés à Jinguashi dans le « camp de Bi-tsu-á-liâu » pour extraire du cuivre ; le 23 novembre 1997, des survivants sont revenus sur le site d'origine pour ériger eux-mêmes un mémorial. Cette montagne célèbre pour ses mines d'or ne devrait pas être retenue pour l'or, mais pour ce conduit de fumée abandonné dont les sols dépassent encore aujourd'hui les seuils de pollution.",
+    "title": "Jinguashi : les mille soldats britanniques enfermés dans les galeries pour extraire le cuivre, et une montagne d’or qui n’a pas encore été nettoyée",
+    "description": "De 1942 à 1945, plus d’un millier de prisonniers de guerre alliés britanniques furent enfermés dans le « 凸鼻仔寮 » de Jinguashi pour extraire du cuivre ; le 23 novembre 1997, les survivants retournèrent sur le site et érigèrent eux‑mêmes un monument commémoratif. Cette ville de montagne, célèbre pour ses mines d’or, doit surtout être rappelée non pas pour l’or, mais pour le conduit de fumée pollué dont le sol dépasse encore les normes de sécurité.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Geography/jinguashi",
-    "readingTime": 119,
+    "readingTime": 82,
     "featured": false,
     "date": "2026-05-04",
     "path": "fr/Geography/jinguashi.md"
   },
   {
-    "title": "Jinguashi: Los mil soldados británicos forzados a extraer cobre en los túneles, y una montaña dorada que aún no se ha limpiado",
-    "description": "De 1942 a 1945, más de mil prisioneros de guerra aliados, en su mayoría de la Commonwealth británica, fueron confinados en Jinguashi en el campo conocido como \"Tubiziliao\" para extraer cobre; el 23 de noviembre de 1997, los supervivientes regresaron al lugar original y erigieron personalmente un monumento conmemorativo. Esta montaña famosa por sus minas de oro debería ser recordada no por el oro, sino por ese canal de humos abandonado cuyo suelo aún hoy supera los límites de contaminación.",
+    "title": "Jinguashi: los mil soldados británicos forzados a extraer cobre en los túneles, y una montaña dorada que aún no se ha limpiado",
+    "description": "De 1942 a 1945, más de mil prisioneros de guerra aliados, en su mayoría de la Commonwealth británica, fueron confinados en Jinguashi, en un lugar conocido como \"Tubiziliao\", para extraer cobre; el 23 de noviembre de 1997, los supervivientes regresaron al sitio original y erigieron personalmente un monumento conmemorativo. Esta montaña famosa por sus minas de oro no debería recordarse por el oro, sino por ese canal de humos abandonado cuyo suelo aún hoy supera los límites de contaminación.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Geography/jinguashi",
-    "readingTime": 117,
+    "readingTime": 118,
     "featured": false,
     "date": "2026-05-04",
     "path": "es/Geography/jinguashi.md"
   },
   {
-    "title": "Jinguashi: The Thousand British Soldiers Forced into the Tunnels to Mine Copper, and a Gold Mountain That Has Yet to Be Washed Clean",
-    "description": "From 1942 to 1945, over a thousand Allied POWs, predominantly from the British Commonwealth, were held at Jinguashi''s \"Tubizi Liao\" to mine copper. On November 23, 1997, survivors returned to the original site and erected a memorial with their own hands. This mountain town, famous for its gold, should be remembered not for gold, but for the waste flue whose soil still exceeds contamination limits to this day.",
+    "title": "Jinguashi: The Thousand British Soldiers Forced into the Copper Tunnels, and a Gold Mountain That Has Yet to Be Cleaned",
+    "description": "From 1942 to 1945, over one thousand Allied POWs—predominantly from the British Commonwealth—were held at Jinguashi''s \"Tubizi Liao\" to mine copper. On November 23, 1997, survivors returned to the original site and erected a monument with their own hands. This mountain town, famous for its gold, should be remembered not for the gold, but for the waste flue whose soil still exceeds contamination limits to this day.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Geography/jinguashi",
-    "readingTime": 106,
+    "readingTime": 108,
     "featured": false,
     "date": "2026-05-04",
     "path": "en/Geography/jinguashi.md"
@@ -30472,6 +31764,63 @@
     "path": "en/People/ke-zhi-tang-musician.md"
   },
   {
+    "title": "Keelung : le port le plus proche de Taipei, le plus invisible pour Taipei",
+    "description": "À 4 h du matin, le marché aux poissons de Kanzai Ding continue de résonner des cris d’enchères. Les commissaires‑enchérisseurs crient les prix en minnan ; en quelques secondes, un panier de poissons passe des bateaux de Hualien, Yilan et Badouzi aux restaurants japonais du quartier est de Taipei. En 1626, les Espagnols plantent leur drapeau sur l’île de Heping ; en 1875, Shen Baozhen change le nom de « Jilong » en « Keelung », signifiant « base prospère ». En 1984, le port devient le septième plus grand port à conteneurs du monde. Puis trois événements surviennent simultanément : le port de Kaohsiung le dépasse, l’aéroport de Taoyuan s’ouvre, le cercle minier s’effondre. Aujourd’hui, 360 000 personnes y vivent, 39 % font la navette vers Taipei pour travailler. Taipei voit le déclin, la mer voit un port qui n’a jamais quitté sa place.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Geography/keelung-city",
+    "readingTime": 101,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "fr/Geography/keelung-city.md"
+  },
+  {
+    "title": "Keelung City: The Port Closest to Taipei, the One Taipei Sees Least",
+    "description": "At 4 a.m., the Kanzaiteng fish market is still alive with the sound of auctions. Auctioneers chant prices in Hokkien, and within seconds a crate of fish moves from fishing boats in Hualien, Yilang, and Badouzi to a Japanese restaurant in Taipei's Eastern District. In 1626, the Spaniards planted a flag on Heping Island. In 1875, Shen Baozhen changed the name from 'Keelung' (Chicken Coop) to 'Keelung' (Base of Prosperity). In 1984, this was the world's seventh-largest container port. Then three things happened at once: Kaohsiung Port overtook it, Taoyuan Airport opened, and the mining economy collapsed. Today 360,000 people live here, and 39% commute to work in Taipei. What Taipei sees is decline. What the ocean sees is a port that has never left its position.",
+    "category": "en",
+    "tags": [
+      "Keelung",
+      "Keelung City",
+      "Northern Taiwan",
+      "Port",
+      "Rain Port",
+      "Heping Island",
+      "Keelung Ghost Festival",
+      "Miaokou Night Market",
+      "Zhengbin Fishing Port",
+      "Kanzaiteng",
+      "22 Counties and Cities Series"
+    ],
+    "url": "https://taiwan.md/en/Geography/keelung-city",
+    "readingTime": 144,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "en/Geography/keelung-city.md"
+  },
+  {
+    "title": "Keelung: el puerto más cercano a Taipéi, el más invisible para Taipéi",
+    "description": "A las cuatro de la madrugada, el mercado de pescado de Kanzaiding sigue inmerso en el ruido de las subastas. El subastador grita precios en hokkien, y en cuestión de segundos una cesta de pescado pasa de los barcos pesqueros de Hualien, Yilang y Badouzu a los restaurantes de cocina japonesa del este de Taipéi. En 1626 los españoles plantaron su bandera en la Isla de la Paz; en 1875 Shen Baozhen cambió el nombre de «Jilong» (jaula de gallinas) por «Keelung», que significa «base próspera»; en 1984 este puerto fue el séptimo mayor puerto de contenedores del mundo. Entonces ocurrieron tres cosas al mismo tiempo: el puerto de Kaohsiung lo superó, el aeropuerto de Taoyuan entró en funcionamiento y el círculo minero colapsó. Hoy 360.000 personas viven aquí, el 39% conmuta a Taipéi para trabajar. Taipéi ve decadencia; el océano ve un puerto que nunca ha abandonado su posición.",
+    "category": "es",
+    "tags": [
+      "Keelung",
+      "Ciudad de Keelung",
+      "norte",
+      "puerto",
+      "ciudad de la lluvia",
+      "Isla de la Paz",
+      "Festival de los Espíritus de Keelung",
+      "night market del Miao Kou",
+      "puerto pesquero de Zhengbin",
+      "Kanzaiding",
+      "serie de los 22 condados y ciudades"
+    ],
+    "url": "https://taiwan.md/es/Geography/keelung-city",
+    "readingTime": 165,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "es/Geography/keelung-city.md"
+  },
+  {
     "title": "Kétoupa à pattes jaunes : six kilomètres de rivière pour un couple, un rapace nocturne dans un Michelia formosana à 1 800 mètres",
     "description": "En avril 2026, Hong Hsiao-yu, professeur assistant à l’Université nationale des sciences et technologies de Pingtung, a localisé dans la cavité d’un vieux Michelia formosana d’environ 1,5 mètre de diamètre à hauteur de poitrine, au bord de la rivière Qijiawan, le site de nidification de kétoupa à pattes jaunes le plus élevé connu à Taïwan — environ 1 800 mètres d’altitude. Ce plus grand hibou de Taïwan n’a été signalé pour la première fois qu’en 1916 par le savant japonais Nagamichi Kuroda. Le laboratoire de Sun Yuan-hsun, à l’Université nationale des sciences et technologies de Pingtung, le suit depuis trente ans : dans 91 territoires, chaque couple a besoin en moyenne de 6,2 kilomètres de rivière. Un tronçon de cours d’eau non bétonné, un arbre géant qui n’est pas encore tombé : le kétoupa à pattes jaunes vit dans l’interstice où deux choses des forêts de montagne taïwanaises n’ont pas encore disparu.",
     "category": "fr",
@@ -30503,6 +31852,30 @@
     "featured": false,
     "date": "2026-03-22",
     "path": "en/People/kevin-lin-ultramarathon-desert-pioneer.md"
+  },
+  {
+    "title": "Kinmen County: The 56 Hours in 1949 That Decided Kinmen's Fate for 75 Years",
+    "description": "Kinmen is only 1.8 kilometers from Jiaoyu, Xiamen, at its closest point, and 358 kilometers from Taipei. In 1387, Marquis of Jiangxia Zhou Dexing built a military settlement here, taking its name from the phrase 'as solid as metal and broth, a mighty guard at the sea gate.' At 2 a.m. on October 25, 1949, three Communist regiments totaling 9,086 men landed on the beaches of Guningtou; Nationalist forces fought for 56 hours and repelled them. During the 44 days beginning at 5:30 p.m. on August 23, 1958, 474,910 artillery shells fell on an island of 151 square kilometers, followed by another 21 years of shelling on odd-numbered days and no shelling on even-numbered days. Today, 145,000 people are registered in Kinmen, and at four in the morning there are more boats from Shuitou Pier to Xiamen than flights to Taipei. Yeh Hua-cheng's great-grandson waited 67 years for an apology.",
+    "category": "en",
+    "tags": [
+      "Kinmen County",
+      "Kinmen",
+      "Battle of Guningtou",
+      "August 23 Artillery Battle",
+      "Shelling on Odd Days and No Shelling on Even Days",
+      "Military Administration",
+      "Kinmen Kaoliang Liquor",
+      "Yeh Hua-cheng",
+      "Little Three Links",
+      "Wuqiu",
+      "Wind Lion God",
+      "22 Counties and Cities Series"
+    ],
+    "url": "https://taiwan.md/en/Geography/kinmen-county",
+    "readingTime": 213,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/kinmen-county.md"
   },
   {
     "title": "Kinmen-Matsu Guest House Contemporary Art Museum",
@@ -30805,6 +32178,25 @@
     "path": "fr/Society/the-buffet-aunties-intuitive-pricing.md"
   },
   {
+    "title": "L’École taïwanaise d’intelligence artificielle : cet appel resté inachevé, et dix mille ingénieurs en IA",
+    "description": "Le 27 mars 2020, Chen Shengwei appela avec gravité la rédactrice en chef du magazine CommonWealth : il voulait lancer un cours de programmation gratuit pour toute la population. Deux jours plus tard, il chuta en rollers ; treize jours après, il mourut, à 44 ans. Au moment de sa disparition, l’École taïwanaise d’intelligence artificielle (AIA), qu’il avait fondée en 2018, avait déjà formé plus de 6 000 personnes. À la même période, le Conseil national du développement annonçait, avec sa stratégie « petit pays, grande stratégie IA », 16 milliards de dollars taïwanais sur cinq ans ; lui créa son école grâce à 180 millions de dollars taïwanais levés auprès de six entreprises, dont Formosa Plastics, Chi Mei et Inventec. Huit ans plus tard, les anciens élèves dépassent les dix mille. L’AIA est, dans la montée en gamme industrielle de Taïwan, la pièce du puzzle la moins typiquement taïwanaise.",
+    "category": "fr",
+    "tags": [
+      "intelligence artificielle",
+      "éducation",
+      "Chen Shengwei",
+      "AIA",
+      "industrie technologique taïwanaise",
+      "Academia Sinica",
+      "politique de l’IA"
+    ],
+    "url": "https://taiwan.md/fr/Technology/taiwan-ai-academy",
+    "readingTime": 177,
+    "featured": true,
+    "date": "2026-05-18",
+    "path": "fr/Technology/taiwan-ai-academy.md"
+  },
+  {
     "title": "L'écologie marine de Taïwan",
     "description": "Des eaux gardées depuis des millénaires par les tabous des Tao, aujourd'hui blanchies sous l'effet des chaleurs et des bruits sous-marins : quand la sagesse écologique ancestrale rencontre la crise maritime moderne",
     "category": "fr",
@@ -30937,17 +32329,6 @@
     "featured": false,
     "date": "2026-03-29",
     "path": "fr/Technology/taiwan-open-source-spirit.md"
-  },
-  {
-    "title": "L'essai littéraire à Taïwan : un paysage renversé par les femmes",
-    "description": "De la nostalgie des exilés continentaux à l'affirmation d'une identité locale, de l'homme de lettres à la voix féminine dominante — comment cette forme littéraire, la plus proche du quotidien et la plus difficile à définir, est devenue le dépositaire de la mémoire émotionnelle de Taïwan.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Art/taiwanese-prose",
-    "readingTime": 49,
-    "featured": true,
-    "date": "2026-03-24",
-    "path": "fr/Art/taiwanese-prose.md"
   },
   {
     "title": "L'essor de l'île de l'IA : développement de l'intelligence artificielle à Taïwan et stratégies d'avenir",
@@ -31745,12 +33126,20 @@
     "path": "es/Food/taiwan-ice-culture.md"
   },
   {
-    "title": "La cultura del KTV en Taiwán: la evolución de la era desde Holiday y Cashbox hasta la socialización en salas privadas",
-    "description": "Explora el desarrollo de la cultura del KTV en Taiwán, desde la importación del karaoke japonés hasta la cultura local de salas privadas, la era de competencia entre Holiday y Cashbox, cómo las listas de canciones más solicitadas se convirtieron en indicadores de la cultura pop, y los desafíos de transformación industrial tras la pandemia",
+    "title": "La cultura del KTV en Taiwán: la evolución de la socialización en cabinas desde Holiday y Cashbox",
+    "description": "Explora el desarrollo de la cultura del KTV en Taiwán, desde la importación del karaoke japonés hasta la localización de la cultura de cabinas, la era de competencia entre Holiday y Cashbox, cómo las listas de canciones más solicitadas se convirtieron en indicadores de la cultura pop, y los desafíos de transformación industrial tras la pandemia",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "cultura KTV",
+      "karaoke",
+      "Holiday",
+      "Cashbox",
+      "cultura de cabinas",
+      "música pop",
+      "cultura social"
+    ],
     "url": "https://taiwan.md/es/Music/ktv-culture",
-    "readingTime": 83,
+    "readingTime": 119,
     "featured": true,
     "date": "2026-03-19",
     "path": "es/Music/ktv-culture.md"
@@ -32283,17 +33672,6 @@
     "featured": true,
     "date": "2026-03-19",
     "path": "fr/Music/ktv-karaoke-culture.md"
-  },
-  {
-    "title": "La culture KTV à Taïwan : du karaoké japonais au rituel social en salon privatif",
-    "description": "Plongée dans l'histoire de la culture KTV à Taïwan — de l'importation du karaoké japonais à l'essor des salons privatifs, la rivalité légendaire entre Holiday KTV et Cashbox, l'influence des classements de chansons sur l'industrie musicale, et les défis de reconversion après la pandémie",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Music/ktv-culture",
-    "readingTime": 75,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "fr/Music/ktv-culture.md"
   },
   {
     "title": "La culture populaire des Penghu",
@@ -33003,17 +34381,6 @@
     "path": "es/Music/taiwan-electronic-music-and-party-culture.md"
   },
   {
-    "title": "La música hakka de Taiwán: de las canciones de montaña a la política lingüística detrás del rechazo de Lin Shengxiang al premio",
-    "description": "Las canciones de montaña hakka (shan'ge) surgieron de la vida laboral, y la música de los ocho sonidos hakka (bāyīn) se emplea en bodas, funerales y celebraciones. En 1999, la banda Labor Exchange ganó el premio Golden Melody al Mejor Compositor y al Mejor Productor con _We're Going to Sing Mountain Songs_, inaugurando la era del rock hakka. En la 14.ª edición de los Golden Melody Awards (2003) se creó la categoría de Mejor Cantante en Lengua Hakka; en 2004, Xie Yuwei se convirtió en el primer galardonado. En 2007, Lin Shengxiang ganó con _Plantar árboles_ pero rechazó el premio en el acto, abogando por clasificar la música por género y no por idioma, lo que desató un debate sobre la abolición o permanencia de las categorías lingüísticas y, tres años después, impulsó la creación de los Golden Indie Music Awards. La televisión hakka se fundó en 2003, ampliando continuamente la visibilidad de la música en lengua hakka. La amenaza de pérdida lingüística persiste, pero la tensión entre herencia e innovación sigue impulsando a los músicos hakka hacia adelante.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/Music/taiwan-hakka-music-from-mountain-songs-to-rock",
-    "readingTime": 45,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "es/Music/taiwan-hakka-music-from-mountain-songs-to-rock.md"
-  },
-  {
     "title": "La música indie taiwanesa: cómo una disquera que no podía pagar salarios abrió los oídos de una isla",
     "description": "Desde la aventura de asumir una deuda de trescientos mil dólares taiwaneses para rescatar Crystal Records, hasta que No Party for Cao Dong agotó su primera tirada vendiendo discos en una cafetería. Los 35 años de música independiente en Taiwán no son una historia de triunfo inesperado, sino una larga apuesta de personas empeñadas en que \"las voces que nadie veía fueran escuchadas\".",
     "category": "es",
@@ -33052,17 +34419,6 @@
     "featured": true,
     "date": "2026-03-19",
     "path": "fr/Music/taiwan-electronic-music-and-party-culture.md"
-  },
-  {
-    "title": "La musique hakka de Taïwan : des chants de montagne au refus de Lin Shengxiang de recevoir un prix — la politique linguistique en jeu",
-    "description": "Les chants de montagne hakka et la musique des huit sons hakka sont les formes musicales les plus anciennes du peuple hakka à Taïwan. En 1999, le groupe Jiao Gong a relié l'esprit des chants de montagne hakka au rock électrique. En 2003, la 14e édition des Golden Melody Awards a créé pour la première fois une catégorie dédiée au chant en langue hakka, et Xie Yuwei a remporté le premier prix de chanteur hakka en 2004. En 2007, Lin Shengxiang a refusé sur scène le prix du meilleur chanteur hakka pour son album *Zhong Shu* (*Planter des arbres*), appelant à classer la musique par genre plutôt que par langue. Cet acte de refus a déclenché un débat public sur le maintien ou la suppression des catégories linguistiques aux Golden Melody Awards, et a conduit trois ans plus tard à la création des Golden Indie Music Awards. La chaîne Hakka TV, fondée en 2003, a continuellement élargi la visibilité de la musique en langue hakka. La menace de disparition linguistique persiste, mais la tension entre transmission et innovation continue de faire avancer les musiciens hakka.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Music/hakka-music",
-    "readingTime": 48,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "fr/Music/hakka-music.md"
   },
   {
     "title": "La musique hakka de Taïwan : entre transmission culturelle et renouveau, de la chanson de montagne au rock",
@@ -33541,17 +34897,6 @@
     "path": "fr/History/democratic-transition.md"
   },
   {
-    "title": "La transition démocratique de Taïwan — l'autoritarisme creuse sa propre tombe",
-    "description": "Chaque répression a engendré davantage de résistants. De l'incident du 28 février au mouvement Tournesol, comment une île a laissé un régime dictatorial former de ses propres mains la force qui allait l'enterrer.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/History/taiwan-democratization",
-    "readingTime": 95,
-    "featured": false,
-    "date": "2026-03-24",
-    "path": "fr/History/taiwan-democratization.md"
-  },
-  {
     "title": "La trucha de Formosa: el regreso de un relicto glacial, de la extinción inminente a un modelo de conservación de cuenca en Taiwán",
     "description": "En 1917, el académico japonés Masao Ōshima descubrió en Taiwán la trucha de Formosa (*Oncorhynchus masou formosanus*), un organismo relicto de la era glacial que los pueblos atayal denominan «Mnbang». Tras décadas de degradación de su hábitat y un descenso poblacional que en 1915 la redujo a apenas unos 200 ejemplares, la demolición de presas, la cría artificial y una innovadora técnica de «transporte en secolo de huevos embrionados» permitieron que la población alcanzara un máximo de 18 000 ejemplares en 2023. Aunque en años recientes se han registrado fluctuaciones, la cifra se ha estabilizado por encima de los 15 000 ejemplares, convirtiéndose en un caso de éxito de conservación integral de cuencas hidrográficas en Taiwán.",
     "category": "es",
@@ -33842,11 +35187,17 @@
   },
   {
     "title": "Las crisis del Estrecho de Taiwán y el desarrollo de las relaciones entre ambas orillas",
-    "description": "Desde la memoria de las abuelas de Kinmen bajo el bombardeo hasta la vida cotidiana y desapegada de los jóvenes de Taipéi, cómo siete décadas de crisis en el Estrecho de Taiwán han moldeado la psicología colectiva de los taiwaneses",
+    "description": "Desde los recuerdos de las abuelas de Kinmen bajo el bombardeo hasta la vida cotidiana y desapegada de los jóvenes de Taipéi, cómo setenta años de crisis en el Estrecho de Taiwán han moldeado la psicología colectiva del pueblo taiwanés",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "relaciones entre ambas orillas",
+      "crisis del Estrecho de Taiwán",
+      "historia",
+      "relaciones internacionales",
+      "geopolítica"
+    ],
     "url": "https://taiwan.md/es/History/taiwan-strait-crises-and-cross-strait-relations",
-    "readingTime": 68,
+    "readingTime": 88,
     "featured": false,
     "date": "2026-03-18",
     "path": "es/History/taiwan-strait-crises-and-cross-strait-relations.md"
@@ -35447,17 +36798,6 @@
     "path": "fr/Lifestyle/cooperatives-in-taiwan.md"
   },
   {
-    "title": "Les crises du détroit de Taïwan et l'évolution des relations entre les deux rives",
-    "description": "Des souvenirs de bombardements de la grand-mère de Kinmen à la vie quotidienne « fójiào » des jeunes de Taïpei, comment soixante-dix ans de crises dans le détroit de Taïwan ont façonné la psychologie collective des Taïwanais",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/History/taiwan-strait-crises-and-cross-strait-relations",
-    "readingTime": 77,
-    "featured": false,
-    "date": "2026-03-18",
-    "path": "fr/History/taiwan-strait-crises-and-cross-strait-relations.md"
-  },
-  {
     "title": "Les Deux Épées de Softstar : cet après-midi où tu as pleuré dans une fenêtre DOS",
     "description": "En juillet 1995, un jeu DOS en résolution 320×200 a fait pleurer des millions de joueurs pour la première fois à cause de personnages virtuels. The Legend of Sword and Fairy et Xuan-Yuan Sword, deux épées forgées à Neipei, Taipei, ont défini l'imagination de l'ensemble du monde sinophone quant à « ce qu'un RPG peut être ».",
     "category": "fr",
@@ -36144,6 +37484,30 @@
     "featured": false,
     "date": "2026-04-23",
     "path": "en/People/lien-ying.md"
+  },
+  {
+    "title": "Lienchiang County: The County Farthest from Taiwan, and Closest to the Cold War",
+    "description": "Looking out from the mountaintop on Nangan, Fuzhou lies just 16 kilometers away. Taipei is 200 kilometers away, and the Lienchiang county seat is on the Communist side. In 1617, Shen Yourong captured 69 wokou pirates alive below Dongju’s hills; in 1956, the ROC military turned these five islands into a warzone administration area; in 1992, Kinmen and Matsu lifted martial law five years later than Taiwan. Today, 13,646 people live here; the attrition rate of the Matsu language is 94%; and the only gambling referendum ever passed in Taiwan, in 2012, has still led nowhere. Blue tears bring 200,000 tourists a year, but locals remember blackout controls. A county of 28.8 square kilometers compresses Taiwan’s Cold War history onto itself.",
+    "category": "en",
+    "tags": [
+      "Lienchiang County",
+      "Matsu",
+      "Nangan",
+      "Beigan",
+      "Dongju",
+      "Dongyin",
+      "warzone administration",
+      "blue tears",
+      "Qinbi",
+      "Fuzhou dialect",
+      "Eastern Min",
+      "22 Counties and Cities Series"
+    ],
+    "url": "https://taiwan.md/en/Geography/lienchiang-county",
+    "readingTime": 216,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/lienchiang-county.md"
   },
   {
     "title": "Lim Giong : du quai de « Marche en avant » au Cannes de The Assassin, trente ans d'un déserteur du rock taïwanais",
@@ -37534,6 +38898,40 @@
     "path": "es/Economy/taiwan-stock-market.md"
   },
   {
+    "title": "Miaoli County : le comté Hakka au cou dur, qui a élu en huit ans un maire qui a doublé la dette du trésor",
+    "description": "Sous la domination japonaise, la production de camphre de Miaoli représentait 95 % de celle de Taïwan ; à Sanyi, les sculpteurs sur bois sont nés de la transformation des têtes d'arbres de camphre. En 2002, le village de Beihe à Gongguan a organisé le premier festival des fleurs de tung. En 2008, Liu Zhenghong a repris un comté endetté à 20,2 milliards de NT$, et à son départ en 2014, la dette affichée s’élevait à 67,6 milliards. Entre ces deux chiffres, on a connu le suicide par pesticide de Zhu Fengmin, le démolition forcée du magasin Zhang, et la construction d’un « mosquito hall » de 120 millions de NT$ pour un pavillon rond Hakka. Aujourd’hui, 530 000 habitants vivent dans ce comté où 62,5 % de la population est Hakka, le deuxième taux le plus élevé de Taïwan.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Geography/miaoli-county",
+    "readingTime": 99,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/miaoli-county.md"
+  },
+  {
+    "title": "Miaoli County: A Hakka Stubborn-Spirited County That Elected a Magistrate Who More Than Doubled Its Debt in Eight Years",
+    "description": "During the Japanese period, Miaoli accounted for 95% of Taiwan's camphor output, and Sanyi built its woodcarving industry from the roots left after camphor refining. In 2002, Beihe Village in Gongguan held the first Tung Blossom Festival. In 2008, Liu Cheng-hung took over a county with NT$20.2 billion in debt; by the time he left office in 2014, the books showed NT$67.6 billion. In between came Zhu Feng-min drinking pesticide, the forced demolition of Chang Pharmacy, and the NT$120 million Hakka Round House becoming a mosquito hall. Today, 530,000 people live in this county, whose 62.5% Hakka population share is Taiwan's second highest.",
+    "category": "en",
+    "tags": [
+      "Miaoli",
+      "Miaoli County",
+      "Hakka",
+      "Hakka Culture",
+      "Dapu Incident",
+      "Sanyi Woodcarving",
+      "Tung Blossom",
+      "Saisiyat",
+      "Ritual to the Short Spirits",
+      "Liu Cheng-hung",
+      "22 Counties and Cities Series"
+    ],
+    "url": "https://taiwan.md/en/Geography/miaoli-county",
+    "readingTime": 200,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/miaoli-county.md"
+  },
+  {
     "title": "Michelin en Taiwán: el costo bajo las estrellas y una redefinición",
     "description": "En 2018, la llegada de Michelin a Taiwán fue aparentemente un honor de certificación internacional, pero en realidad reescribió las reglas de supervivencia de la industria gastronómica: los restaurantes \"casi aptos\" terminaron siendo las mayores víctimas.",
     "category": "es",
@@ -38246,6 +39644,25 @@
     "path": "es/Music/Taiwan Folk Music and Songs.md"
   },
   {
+    "title": "Música hakka de Taiwán: de las canciones de montaña a la política lingüística detrás del rechazo de Lin Shengxiang al premio",
+    "description": "Las canciones de montaña hakka (shan'ge) surgieron de la vida laboral, y la música de ocho sonidos hakka (bāyīn) se emplea en bodas, funerales y celebraciones. En 1999, la banda Labor Exchange ganó el premio Golden Melody al Mejor Compositor y al Mejor Productor con *We're Going to Sing Mountain Songs*, inaugurando la era del rock hakka. En 2003, la 14.ª edición de los Golden Melody Awards creó la categoría de Mejor Cantante en Lengua Hakka; en 2004, Xie Yuwei se convirtió en el primer ganador. En 2007, Lin Shengxiang ganó con *Plantar árboles* pero rechazó el premio en el acto, abogando por clasificar la música por género y no por idioma, lo que desató un debate sobre la abolición o permanencia de las categorías lingüísticas y, tres años después, impulsó la creación de los Golden Indie Music Awards. El canal Hakka TV, fundado en 2003, ha ampliado continuamente la visibilidad de la música en lengua hakka. La amenaza de pérdida lingüística persiste, pero la tensión entre herencia e innovación sigue impulsando a los músicos hakka hacia adelante.",
+    "category": "es",
+    "tags": [
+      "música hakka",
+      "canciones de montaña",
+      "música de ocho sonidos hakka",
+      "Lin Shengxiang",
+      "Labor Exchange Band",
+      "canciones en lengua hakka",
+      "Golden Melody Awards"
+    ],
+    "url": "https://taiwan.md/es/Music/taiwan-hakka-music-from-mountain-songs-to-rock",
+    "readingTime": 46,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "es/Music/taiwan-hakka-music-from-mountain-songs-to-rock.md"
+  },
+  {
     "title": "Música nacional taiwanesa: el sonido isleño que creció sobre instrumentos chinos",
     "description": "El erhu y la pipa que cruzaron el estrecho en 1949 interpretan, setenta años después, el canto polifónico bunun en Taiwán. Cómo la 'música nacional' (guoyue) pasó en Taiwán de símbolo de la ortodoxia política a una especie musical completamente distinta de la del continente.",
     "category": "es",
@@ -38266,6 +39683,17 @@
     "featured": false,
     "date": "2026-03-28",
     "path": "es/Music/pop-music-and-golden-melody-awards.md"
+  },
+  {
+    "title": "Musique hakka à Taïwan : des chants de montagne à la politique linguistique du refus de prix par Lin Sheng‑xiang",
+    "description": "Les chants de montagne hakka trouvent leurs origines dans la vie laborieuse, les huit instruments hakka sont utilisés lors des mariages, des funérailles et des célébrations. En 1999, le groupe Jiaogong remporte le Golden Melody Award de la meilleure composition et du meilleur producteur avec « Je viendrai chanter des chants de montagne », inaugurant une génération de rock hakka. En 2003, la 14ᵉ édition du Golden Melody Awards crée la catégorie chant hakka ; en 2004, Hsieh Yu‑wei en devient la première lauréate. En 2007, Lin Sheng‑xiang refuse le prix pour « Plantation d’arbres », appelant à classer la musique par genre plutôt que par langue, déclenchant le débat sur la pertinence des prix hakka, qui conduit trois ans plus tard à la création du Golden Indie Music Award. La Hakka TV, créée en 2003, continue d’accroître la visibilité de la musique hakka. La menace de la perte linguistique persiste, mais la tension entre transmission et innovation pousse toujours les musiciens hakka à avancer.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Music/hakka-music",
+    "readingTime": 38,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "fr/Music/hakka-music.md"
   },
   {
     "title": "Musique pop et Golden Melody Awards",
@@ -38332,6 +39760,33 @@
     "featured": false,
     "date": "2026-05-13",
     "path": "fr/People/nam-min-jung.md"
+  },
+  {
+    "title": "Nantou County: Taiwan’s Only Landlocked County, with the 921 Earthquake Epicenter at Its Center",
+    "description": "At 1:47 a.m. on September 21, 1999, the Chelungpu Fault beneath Jiji Township ruptured for 102 seconds. Across Taiwan, 2,415 people died; Nantou alone accounted for 886 deaths, and 90% of buildings in Zhongliao Township were damaged. On the day of the flag-raising ceremony at Wushe Public School in 1930, Mona Rudao led Seediq people from six communities in killing 134 Japanese civilians. In 1934, Wujie Dam raised the water level by 18.18 meters, flooding the Thao people’s Lalu Island. In 1957, Zhongxing New Village was completed as the provincial government’s temporary office site; after provincial streamlining hollowed it out in 1998, only the palm-lined boulevard remained. Some 470,000 people live in this inland county, rising from 100 meters to 3,952 meters above sea level, where Seediq, Bunun, Thao, and Tsou communities live alongside Han Taiwanese. Taiwan’s deepest wounds are all here.",
+    "category": "en",
+    "tags": [
+      "Nantou",
+      "Nantou County",
+      "Central Taiwan",
+      "Sun Moon Lake",
+      "921 Earthquake",
+      "Jiji",
+      "Wushe Incident",
+      "Seediq People",
+      "Bunun People",
+      "Thao People",
+      "Zhongxing New Village",
+      "Yushan",
+      "Wuling",
+      "Puli",
+      "22 Counties and Cities Series"
+    ],
+    "url": "https://taiwan.md/en/Geography/nantou-county",
+    "readingTime": 204,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/nantou-county.md"
   },
   {
     "title": "National Cultural Memory Bank: Memory Curation and Cultural Co-creation in the Digital Age",
@@ -38792,30 +40247,26 @@
     "path": "en/People/pa-chiung-political-youtuber.md"
   },
   {
-    "title": "Pai Hsien-yung : *Les Gens de Taipei* (1971), puis vingt ans de tournées pour la version jeunesse du *Pavillon aux pivoines*",
-    "description": "Né en 1937 à Guilin, Guangxi, fils de Bai Chongxi. Département de littérature étrangère de l'Université nationale de Taïwan en 1956, cofondateur de la revue *Littérature moderne* avec Wang Wenxing et d'autres. *Les Gens de Taipei*, recueil de 14 nouvelles, en 1971. *Les Enfants de la nuit* en 1983. Lancement de la version jeunesse du *Pavillon aux pivoines* en 2003, première représentation en avril 2004, vingtième anniversaire en 2024. Prix national des arts et lettres en 2003.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/People/pai-hsien-yung-literary-master",
-    "readingTime": 41,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "fr/People/pai-hsien-yung-literary-master.md"
-  },
-  {
-    "title": "Pai Hsien-yung: «Los habitantes de Taipei» 1971, y la gira de veinte años de la versión juvenil de «El pabellón de los peonías»",
-    "description": "Nacido en 1937 en Guilín, Guangxi, hijo de Bai Chongxi. En 1956 estudió en la Facultad de Letras de la Universidad Nacional de Taiwán y, junto a Wang Wen-hsing y otros, fundó la revista «Literatura moderna». En 1971 publicó la colección de catorce cuentos cortos «Los habitantes de Taipei». En 1983 publicó «Los hijos del pecado». En 2003 inició la versión juvenil de «El pabellón de los peonías», cuya primera representación tuvo lugar en abril de 2004 y que en 2024 celebra su vigésimo aniversario. En 2003 recibió el Premio Nacional de Artes y Literatura.",
+    "title": "Pai Hsien-yung: *Los viejos de Taipéi* (1971) y veinte años de la gira de la versión juvenil de *El pabellón de las peonías*",
+    "description": "Nacido en 1937 en Guilin, Guangxi, hijo de Bai Chongxi. Ingresó en el Departamento de Lenguas Extranjeras de la Universidad Nacional de Taiwán en 1956, donde fundó la revista *Literatura Moderna* junto con Wang Wenxing y otros. En 1971 publicó *Los viejos de Taipéi*, colección de 14 relatos. En 1983, *Los hijos del pecado*. En 2003 inició la planificación de la versión juvenil de *El pabellón de las peonías*, con estreno en abril de 2004; en 2024 se celebró su vigésimo aniversario. Recibió el Premio Nacional de Artes en 2003.",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "Literatura",
+      "Literatura moderna",
+      "Los viejos de Taipéi",
+      "Los hijos del pecado",
+      "Ópera Kunqu",
+      "Bai Chongxi"
+    ],
     "url": "https://taiwan.md/es/People/pai-hsien-yung-literary-master",
-    "readingTime": 37,
+    "readingTime": 42,
     "featured": false,
     "date": "2026-03-19",
     "path": "es/People/pai-hsien-yung-literary-master.md"
   },
   {
-    "title": "Pai Hsien-yung: Taipei People (1971) to the Youth Edition of The Peony Pavilion's 20-Year Tour",
-    "description": "Born in 1937 in Guilin, Guangxi, son of Bai Chongxi. Entered the National Taiwan University Department of Foreign Languages and Literature in 1956; co-founded Modern Literature with Wang Wenxing and others. Published Taipei People, a collection of 14 short stories, in 1971. Published Crystal Boys in 1983. Launched the Youth Edition of The Peony Pavilion in 2003, with its premiere in April 2004, reaching its 20th anniversary in 2024. Recipient of the National Award for Arts in 2003.",
+    "title": "Pai Hsien-yung: Taipei People (1971) to the Youth Edition of the Peony Pavilion's 20-Year Tour",
+    "description": "Born in 1937 in Guilin, Guangxi, son of Bai Chongxi. Entered the National Taiwan University Department of Foreign Languages and Literature in 1956; co-founded Modern Literature with Wang Wen-hsing and others. Published Taipei People, a collection of 14 short stories, in 1971. Published Crystal Boys in 1983. Launched the Youth Edition of the Peony Pavilion in 2003, with its premiere in April 2004, reaching its 20th anniversary in 2024. Received the National Award for Arts in 2003.",
     "category": "en",
     "tags": [
       "文學",
@@ -38826,7 +40277,7 @@
       "白崇禧"
     ],
     "url": "https://taiwan.md/en/People/pai-hsien-yung-literary-master",
-    "readingTime": 36,
+    "readingTime": 38,
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/pai-hsien-yung-literary-master.md"
@@ -39193,6 +40644,17 @@
     "path": "es/Economy/pegatron-the-invisible-manufacturing-giant.md"
   },
   {
+    "title": "Penghu County: Twice Rejecting Casinos, the Chrysanthemum Islands Chose More Than Frugality",
+    "description": "On September 26, 2009, votes were counted in Magong: 17,359 opposed, and the casino side lost by 3,962 votes. Seven years later, in 2016, Penghu voted again: 81.07% opposed. An outlying island county with only 1,000 millimeters of annual rainfall, 108,000 registered residents but only 80,000 usual residents, held Taiwan's first local gambling referendum and then held another one. In the same stretch of sea, Shen Yourong forced the Dutch to withdraw in 1604; in 1622 the Dutch moved from Fengguiwei to Tainan; in 1885 the French commander Courbet died of illness in Makung Harbor. The 17.4-million-year-old basalt columns are still there: 89 islands are black volcanic rock, and one is older andesite. In winter, inside the stone walls of vegetable gardens, crops grow in the lee.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Geography/penghu-county",
+    "readingTime": 179,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/penghu-county.md"
+  },
+  {
     "title": "Penghu Folk Culture",
     "description": "Every Lantern Festival, more than two hundred temples across Penghu simultaneously cast divination blocks, and 47,000 jin of rice turtle offerings fill the temple courtyards — this archipelago, battered by the northeast monsoon for four centuries, uses turtle offerings to pray for fishermen's safe return, stone weirs to trap fish left by the retreating tide, and bawdy folk songs to fill a whole winter of solitude.",
     "category": "en",
@@ -39202,6 +40664,31 @@
     "featured": false,
     "date": "2026-03-24",
     "path": "en/Culture/penghu-folk-culture.md"
+  },
+  {
+    "title": "Penghu: dos veces rechazó el casino, y la Isla del Crisantemo no eligió la pobreza",
+    "description": "El 26 de septiembre de 2009, en Magong se abrieron las urnas: 17.359 votos en contra, el casino perdió por 3.962 votos. Siete años después, en 2016, se votó de nuevo: 81,07 % en contra. Un archipiélago con apenas 1.000 mm de lluvia al año, 108.000 habitantes registrados pero solo 80.000 residentes efectivos, celebró el primer referéndum local sobre juego en todo el país y luego lo repitió. En esas mismas aguas, en 1604 Shen Yourong hizo retirarse a los holandeses; en 1622 los holandeses partieron de Fengguetou hacia Tainan; en 1885 el almirante francés Amédée Courbet murió de cólera en el puerto de Magong. Las columnas de basalto de 1,740 millones de años siguen en pie, 89 islas son roca volcánica negra y 1 es una andesita más antigua. Dentro de los muros de piedra de los huertos de invierno, los cultivos crecen al abrigo del viento.",
+    "category": "es",
+    "tags": [
+      "Penghu",
+      "Condado de Penghu",
+      "Islas periféricas",
+      "Magong",
+      "Isla del Crisantemo",
+      "Basalto",
+      "Presa de piedra en forma de doble corazón",
+      "Puente transmarino",
+      "Asentamiento de Erkan",
+      "Tianhou Temple de la Fundación de Taiwán",
+      "Referéndum sobre juego",
+      "Cuatro Islas del Sur",
+      "Serie de 22 condados y ciudades"
+    ],
+    "url": "https://taiwan.md/es/Geography/penghu-county",
+    "readingTime": 197,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/penghu-county.md"
   },
   {
     "title": "Pensamiento archipelágico: devolver Taiwán al mapa del mundo malayo",
@@ -39358,6 +40845,32 @@
     "featured": false,
     "date": "2026-04-24",
     "path": "en/Food/pineapple-cake.md"
+  },
+  {
+    "title": "Pingtung County: The Nation's Turning Points Happened Here, and Taipei Has Never Really Remembered",
+    "description": "On May 22, 1874, Japanese lieutenant colonel Sakuma Samata led 150 men into the Shimen gorge, where Paiwan chief Aruqu and his son were killed in battle. This fight made the Qing court reverse its Taiwan policy: Shen Baozhen came to establish Hengchun County, and Eluanbi Lighthouse was built in 1883. Pingtung County's 780,000 people are spread across 33 townships, towns, and cities, with five Indigenous peoples living alongside six Hakka Liudui townships. At 4:30 a.m. in 2009, the Linbian floodgate could no longer hold. The history that changed Taiwan began from this peninsula twice, but all the capital remembers is Spring Scream in Kenting.",
+    "category": "en",
+    "tags": [
+      "Pingtung",
+      "Pingtung County",
+      "Southern Taiwan",
+      "Hengchun Peninsula",
+      "Paiwan",
+      "Rukai",
+      "Hakka Liudui",
+      "Mudan Incident",
+      "Wanchin Basilica of the Immaculate Conception",
+      "Eluanbi Lighthouse",
+      "Linbian",
+      "Typhoon Morakot Disaster",
+      "Morakot",
+      "22 Counties and Cities Series"
+    ],
+    "url": "https://taiwan.md/en/Geography/pingtung-county",
+    "readingTime": 197,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/pingtung-county.md"
   },
   {
     "title": "Plurk",
@@ -39745,14 +41258,32 @@
   },
   {
     "title": "Prosa taiwanesa",
-    "description": "Del anhelo de la tierra natal de los chinos continentales a la identidad local, del paisaje literario dominado por hombres al dominado por mujeres. ¿Cómo la forma literaria más cercana a la vida pero más difícil de definir en medio siglo se ha convertido en portadora de la memoria emocional de los taiwaneses?",
+    "description": "De la nostalgia de los emigrantes continentales a la identidad local, de los literatos masculinos a un paisaje literario dominado por mujeres. ¿Cómo la forma literaria más cercana a la vida pero más difícil de definir en medio siglo se ha convertido en portadora de la memoria emocional de los taiwaneses?",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "散文",
+      "文學",
+      "台灣文學史",
+      "女性作家",
+      "生活書寫",
+      "自然書寫"
+    ],
     "url": "https://taiwan.md/es/Art/taiwanese-prose",
-    "readingTime": 58,
+    "readingTime": 60,
     "featured": true,
     "date": "2026-03-24",
     "path": "es/Art/taiwanese-prose.md"
+  },
+  {
+    "title": "Prose taïwanaise",
+    "description": "De la nostalgie des immigrants du continent à l'affirmation locale, du paysage littéraire dominé par les hommes à celui dirigé par les femmes. Depuis un demi-siècle, cette forme littéraire la plus proche du quotidien reste la plus difficile à définir : comment est-elle devenue le porte‑voyageur de la mémoire émotionnelle des Taïwanais ?",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Art/taiwanese-prose",
+    "readingTime": 53,
+    "featured": true,
+    "date": "2026-03-24",
+    "path": "fr/Art/taiwanese-prose.md"
   },
   {
     "title": "Protección ambiental y desarrollo sostenible",
@@ -40546,6 +42077,49 @@
     "path": "fr/Geography/taiwan-reservoirs-and-water-resource-management.md"
   },
   {
+    "title": "Resolución sobre el futuro de Taiwán: dos palabras, \"actualmente\", que sostuvieron veintisiete años",
+    "description": "En 1999, Lin Chuo-shui añadió dos palabras, \"actualmente\", antes de \"nombre nacional: República de China\". El círculo de Chen Shui-bian no quedó nada contento. Esas dos palabras apaciguaron simultáneamente a los independentistas y a los votantes centristas, abriendo la puerta al primer cambio de partido en el poder en el año 2000. Veintisiete años después, los jóvenes taiwaneses consideran un sentido común que \"Taiwán ya es independiente de por sí\", pero desconocen que ese sentido común proviene de un documento deliberadamente ambiguo.",
+    "category": "es",
+    "tags": [
+      "民進黨",
+      "前途決議文",
+      "台獨黨綱",
+      "林濁水",
+      "郭正亮",
+      "陳忠信",
+      "兩岸關係",
+      "政黨輪替",
+      "台灣民主化"
+    ],
+    "url": "https://taiwan.md/es/History/resolution-on-taiwans-future",
+    "readingTime": 122,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "es/History/resolution-on-taiwans-future.md"
+  },
+  {
+    "title": "Resolution on Taiwan's Future: The Two Words “Currently” Sustained for Twenty‑Seven Years",
+    "description": "In 1999, Lin Zhuoshui added the two characters “currently” before the “Republic of China” state name, displeasing the Chen Shui‑bian faction. Those two words simultaneously appeased pro‑independence supporters and centrist voters, opening the door to the first party‑rotation in 2000. Twenty‑seven years later, Taiwan’s youth consider “Taiwan has always been independent” common sense, yet they do not know that this common sense stems from a deliberately ambiguous document.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/History/resolution-on-taiwans-future",
+    "readingTime": 101,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "en/History/resolution-on-taiwans-future.md"
+  },
+  {
+    "title": "Résolution sur l'avenir de Taïwan : les deux mots « actuellement », qui ont soutenu vingt‑sept ans",
+    "description": "En 1999, Lin Zhuoshui a ajouté les deux caractères « actuellement » devant le nom officiel « République de Chine », ce qui a déplu à la faction de Chen Shui‑Bian. Ces deux mots ont simultanément apaisé les indépendantistes et les électeurs du centre, ouvrant la porte à la première alternance politique en 2000. Vingt‑sept ans plus tard, les jeunes Taïwanais considèrent comme un sens commun que « Taïwan est déjà indépendant », sans savoir que ce « sens commun » provient d’un texte vague.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/History/resolution-on-taiwans-future",
+    "readingTime": 99,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "fr/History/resolution-on-taiwans-future.md"
+  },
+  {
     "title": "Ressources des sites web officiels de Taïwan",
     "description": "Index le plus complet des sites officiels et faisant autorité à Taïwan, couvrant les institutions gouvernementales, la culture, l'éducation, le tourisme, la technologie, l'économie, les médias et bien d'autres domaines.",
     "category": "fr",
@@ -40737,6 +42311,55 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "es/Food/taiwan-sauces-and-seasonings.md"
+  },
+  {
+    "title": "San Mao : L’homme qui a fait de la fuite une liberté",
+    "description": "Nom réel Chen Ping, né en 1943 à Chongqing, émigré à Taïwan en 1948. Il abandonne l’école après qu’un professeur l’ait humilié publiquement au collège, vit sept ans d’isolement avant de reprendre l’écriture. En 1973, il épouse José (荷西) dans le Sahara espagnol, ses récits deviennent un phénomène, offrant aux Taïwanais sous la loi martiale une fenêtre imaginaire sur lointain. En 1979, José meurt dans un accident de plongée. En 1990, le scénario de « Roulement du monde » remporte huit prix aux Golden Horse. Le 4 janvier 1991, il se suicide à l’hôpital militaire de Taipei, à 47 ans.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/People/san-mao",
+    "readingTime": 94,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "fr/People/san-mao.md"
+  },
+  {
+    "title": "San Mao: la que convirtió la huida en libertad",
+    "description": "Nacida con el nombre de Chen Ping en 1943 en Chongqing, se mudó con su familia a Taiwán en 1948. Abandonó la secundaria tras ser humillada públicamente por un profesor; tras siete años de aislamiento, retomó la escritura. En 1973 se casó con José (José María Quero y Ruíz) en el Sáhara español; sus ensayos se convirtieron en un fenómeno editorial y en la ventana a través de la cual los taiwaneses de la era de la ley marcial imaginaron el mundo lejano. En 1979, José murió en un accidente de buceo. En 1990, su guion para *Red Dust* ganó ocho premios Golden Horse. El 4 de enero de 1991 se suicidó en el Hospital General de Veteranos de Taipéi, a los cuarenta y siete años.",
+    "category": "es",
+    "tags": [
+      "三毛",
+      "散文",
+      "撒哈拉",
+      "荷西",
+      "橄欖樹",
+      "滾滾紅塵",
+      "流浪文學"
+    ],
+    "url": "https://taiwan.md/es/People/san-mao",
+    "readingTime": 101,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "es/People/san-mao.md"
+  },
+  {
+    "title": "San Mao: The Person Who Wrote Escape as Freedom",
+    "description": "Born Chen Ping in 1943 in Chongqing, she moved to Taiwan with her family in 1948. She dropped out of junior high after a teacher publicly humiliated her, spent seven years in self-imposed isolation, then returned to writing. In 1973 she married José in the Spanish Sahara; her essays became a sensation, serving as a window to the distant world for Taiwanese readers under martial law. José died in a diving accident in 1979. In 1990 she wrote the screenplay for *Red Dust*, which won eight Golden Horse Awards. On January 4, 1991, she died by suicide at Taipei Veterans General Hospital, aged forty-seven.",
+    "category": "en",
+    "tags": [
+      "三毛",
+      "散文",
+      "撒哈拉",
+      "荷西",
+      "橄欖樹",
+      "滾滾紅塵",
+      "流浪文學"
+    ],
+    "url": "https://taiwan.md/en/People/san-mao",
+    "readingTime": 94,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "en/People/san-mao.md"
   },
   {
     "title": "Santé publique et système de lutte contre les épidémies à Taïwan",
@@ -41972,6 +43595,36 @@
     "path": "en/Society/taipei-rat-problem.md"
   },
   {
+    "title": "Taitung County: Two Offshore Islands, One Held Political Prisoners for Thirty-Six Years, the Other Has Stored Nuclear Waste for Forty-Two Years",
+    "description": "Taitung County’s 210,000 people are spread across 3,515 square kilometers, the lowest density in the country: only 60 people per square kilometer, one-hundredth of Taipei’s. Yet this county contains Taiwan’s earliest human settlement (the Peinan Site, with 1,600 stone coffins from 5,300 years ago), is home to six Indigenous peoples (Amis, Puyuma, Paiwan, Rukai, Bunun, Tao), and has Taiwan’s highest Indigenous population share at 37.5%. From 1951 to 1987, Green Island, formerly Huoshao Island, held political prisoners for thirty-six years. Beginning in May 1982, Longmen on Orchid Island started receiving nuclear waste; forty-two years later, 97,672 barrels are still there. On August 25, 1968, seven Bunun children from Hongye Village defeated Japan’s Kansai Little League All-Star Team seven to zero (not a world championship team), and Taiwan’s myth of baseball as the national sport began with that deception. Two offshore islands bore the cost for an entire island.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Geography/taitung-county",
+    "readingTime": 216,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/taitung-county.md"
+  },
+  {
+    "title": "Taiwan AI Academy: The Unfinished Phone Call and Ten Thousand AI Engineers",
+    "description": "On March 27, 2020, Chen Sheng-wei solemnly called the editor-in-chief of CommonWealth Magazine: he wanted to create a free programming course for the public. Two days later, he fell while inline skating; 13 days after that, he died at age 44. When he passed away, Taiwan AI Academy (AIA), which he had founded in 2018, had already trained more than 6,000 people. At the same time, the National Development Council’s “AI Small Country, Big Strategy” called for NT$16 billion over five years; Chen built his own school with NT$180 million in private fundraising from six companies, including Formosa Plastics, Chimei, and Inventec. Eight years later, alumni exceeded 10,000. AIA is the most un-Taiwan-like piece of Taiwan’s industrial upgrading puzzle.",
+    "category": "en",
+    "tags": [
+      "Artificial Intelligence",
+      "Education",
+      "Chen Sheng-wei",
+      "AIA",
+      "Taiwan Tech Industry",
+      "Academia Sinica",
+      "AI Policy"
+    ],
+    "url": "https://taiwan.md/en/Technology/taiwan-ai-academy",
+    "readingTime": 149,
+    "featured": true,
+    "date": "2026-05-18",
+    "path": "en/Technology/taiwan-ai-academy.md"
+  },
+  {
     "title": "Taiwan AI Labs",
     "description": "A non-profit AI research institute founded by PTT creator Ethan Tu in 2017, focusing on smart healthcare, smart cities, and disinformation defense to promote tech for good and open-source principles.",
     "category": "en",
@@ -42352,6 +44005,23 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "ko/Lifestyle/convenience-store-culture.md"
+  },
+  {
+    "title": "Taiwan Elections and Party Politics",
+    "description": "From the flames of the Zhongli Incident to 8.17 million votes, how Taiwan spent half a century turning voting from a martial law instrument into a civic faith",
+    "category": "en",
+    "tags": [
+      "Elections",
+      "Democratization",
+      "Party Politics",
+      "Tangwai Movement",
+      "Direct Presidential Election"
+    ],
+    "url": "https://taiwan.md/en/History/taiwan-elections-and-party-politics",
+    "readingTime": 70,
+    "featured": false,
+    "date": "2026-03-20",
+    "path": "en/History/taiwan-elections-and-party-politics.md"
   },
   {
     "title": "Taiwan Electronic Music and Party Culture: From Underground Rave to the International Stage",
@@ -42858,6 +44528,17 @@
     "path": "en/Society/taiwan-judicial-reform-and-preventive-detention.md"
   },
   {
+    "title": "Taiwan KTV Culture: From Holiday and Cashbox to the Era of Private Room Socializing",
+    "description": "Explore the development of Taiwan's KTV culture, from the Japanese-imported karaoke to the localized private room culture, the competitive era of Holiday and Cashbox, how song request charts became indicators of popular culture, and the post‑pandemic challenges of industry transformation.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Music/ktv-culture",
+    "readingTime": 85,
+    "featured": true,
+    "date": "2026-03-19",
+    "path": "en/Music/ktv-culture.md"
+  },
+  {
     "title": "Taiwan Mahjong: Grandma Won't Teach You, but Celebrity Mahjong Will",
     "description": "On the second day of Chinese New Year, Grandma sits at the table, plays a hand you cannot decode, and wins. You ask how the scoring works; she says children should be seen and not heard. So you open the computer and let Wu Zong-xian teach you. Celebrity Mahjong (明星三缺一), released by IGS in 2001, accidentally became the mahjong teacher for an entire generation of Taiwanese.",
     "category": "en",
@@ -43076,9 +44757,15 @@
   },
   {
     "title": "Taiwan Strait Crises and Cross-Strait Relations",
-    "description": "From an elderly woman in Kinmen's memory of artillery shells to a young Taipei resident's blasé daily life, seventy years of Taiwan Strait crises and how they shaped Taiwanese collective psychology",
+    "description": "From a Kinmen grandmother's memories of shelling to the 'Buddha-like' daily life of young people in Taipei, how seven decades of Taiwan Strait crises have shaped the collective psychology of the Taiwanese people",
     "category": "en",
-    "tags": [],
+    "tags": [
+      "兩岸關係",
+      "台海危機",
+      "歷史",
+      "國際關係",
+      "地緣政治"
+    ],
     "url": "https://taiwan.md/en/History/taiwan-strait-crises-and-cross-strait-relations",
     "readingTime": 77,
     "featured": false,
@@ -43651,14 +45338,14 @@
     "path": "ko/Society/national-defense-modernization.md"
   },
   {
-    "title": "Taiwan's Democratic Transition — Authoritarianism Digging Its Own Grave",
-    "description": "Every crackdown produced more resisters. From the 228 Incident to the Sunflower Movement, how an island made an authoritarian system train the very forces that buried it.",
+    "title": "Taiwan's Democratic Transformation — The Authoritarian Regime's Self‑Digged Grave",
+    "description": "Every crackdown creates more resisters. From the 228 Incident to the Sunflower Movement, how does an island enable a dictatorial system to cultivate the very forces that will bury it?",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/History/taiwan-democratization",
-    "readingTime": 83,
+    "readingTime": 89,
     "featured": true,
-    "date": "2026-03-24",
+    "date": "2026-04-07",
     "path": "en/History/taiwan-democratization.md"
   },
   {
@@ -43824,17 +45511,6 @@
     "featured": true,
     "date": "2026-03-23",
     "path": "en/Lifestyle/taiwan-education-system.md"
-  },
-  {
-    "title": "Taiwan's Elections and Party Politics",
-    "description": "From the fires of the Zhongli Incident to 8.17 million ballots — how Taiwan spent half a century transforming voting from a martial-law instrument into a national faith",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/History/taiwan-elections-and-party-politics",
-    "readingTime": 70,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "en/History/taiwan-elections-and-party-politics.md"
   },
   {
     "title": "Taiwan's Energy Transition and Green Energy Industries",
@@ -44088,17 +45764,6 @@
     "featured": true,
     "date": "2026-03-19",
     "path": "en/Economy/taiwan-international-trade-policy.md"
-  },
-  {
-    "title": "Taiwan's KTV Culture: From Holiday and Cashbox to the Era of Private Room Socializing",
-    "description": "Exploring the development of Taiwan's KTV culture — from Japanese-origin karaoke to the localized private room culture, the rivalry between Holiday and Cashbox, how song request charts became a pop culture indicator, and the post-pandemic transformation challenges facing the industry.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Music/ktv-culture",
-    "readingTime": 69,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "en/Music/ktv-culture.md"
   },
   {
     "title": "Taiwan's Kuai Kuai Culture: How Green Snacks Became the Tech Industry's Guardian Spirit",
@@ -44902,11 +46567,19 @@
   },
   {
     "title": "Taiwanese Hakka Music: From Mountain Songs to Lin Sheng-xiang's Award Refusal and the Politics of Language",
-    "description": "Hakka mountain songs originated in laboring life, while Hakka eight-tone ensembles accompanied weddings and funerals. In 1999, the Labor Exchange Band won the Golden Melody Awards for Best Composer and Best Producer with *We Are Here to Sing Mountain Songs*, ushering in the era of Hakka rock. The 14th Golden Melody Awards in 2003 established the Best Hakka Vocalist category; in 2004, Hsieh Yu-wei became its first recipient. In 2007, Lin Sheng-xiang won with *Planting Trees* but refused the award on stage, calling for classification by musical genre rather than language — igniting a debate over the existence of language-based categories that led, three years later, to the creation of the Golden Indie Music Awards. Hakka TV launched in 2003, steadily expanding the visibility of Hakka-language music. The threat of language loss persists, but the tension between preservation and innovation continues to drive Hakka musicians forward.",
+    "description": "Hakka mountain songs originated in labor life, while Hakka eight-tone ensembles accompanied weddings and funerals. In 1999, the Labor Exchange Band won the Golden Melody Awards for Best Composer and Best Producer with *We Are Going to Sing Mountain Songs*, ushering in the era of Hakka rock. The 14th Golden Melody Awards in 2003 established the Best Hakka Vocalist category; in 2004, Hsieh Yu-wei became its first recipient. In 2007, Lin Sheng-xiang won with *Planting Trees* but refused the award on stage, calling for classification by musical genre rather than language, igniting a debate over the existence of language-based categories that led to the creation of the Golden Indie Music Awards three years later. Hakka TV, founded in 2003, has continued to expand the visibility of Hakka-language music. The threat of language loss persists, but the tension between preservation and innovation continues to drive Hakka musicians forward.",
     "category": "en",
-    "tags": [],
+    "tags": [
+      "客家音樂",
+      "山歌",
+      "客家八音",
+      "林生祥",
+      "交工樂隊",
+      "客語歌曲",
+      "金曲獎"
+    ],
     "url": "https://taiwan.md/en/Music/taiwan-hakka-music-from-mountain-songs-to-rock",
-    "readingTime": 39,
+    "readingTime": 38,
     "featured": false,
     "date": "2026-03-19",
     "path": "en/Music/taiwan-hakka-music-from-mountain-songs-to-rock.md"
@@ -45059,12 +46732,19 @@
     "path": "en/Food/taiwanese-popcorn-chicken-redux.md"
   },
   {
-    "title": "Taiwanese Prose: A Literary Landscape Transformed by Women Writers",
-    "description": "From mainland nostalgia to local identity, from male literati to female-dominated literary landscape. How did the most life-oriented yet hardest-to-define literary form become the vessel of Taiwanese emotional memory?",
+    "title": "Taiwanese Prose",
+    "description": "From mainlander nostalgia to local identity, from male literati to a literary landscape dominated by women. How has the literary form closest to everyday life — yet the hardest to define — become the vessel of Taiwanese emotional memory over the past half-century?",
     "category": "en",
-    "tags": [],
+    "tags": [
+      "散文",
+      "文學",
+      "台灣文學史",
+      "女性作家",
+      "生活書寫",
+      "自然書寫"
+    ],
     "url": "https://taiwan.md/en/Art/taiwanese-prose",
-    "readingTime": 51,
+    "readingTime": 54,
     "featured": true,
     "date": "2026-03-24",
     "path": "en/Art/taiwanese-prose.md"
@@ -45163,17 +46843,6 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "en/Culture/taiwanese-life-ceremony-traditions.md"
-  },
-  {
-    "title": "taiwanese-hokkien-song-evolution",
-    "description": "",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/Music/taiwanese-hokkien-song-evolution",
-    "readingTime": 75,
-    "featured": false,
-    "date": null,
-    "path": "es/Music/taiwanese-hokkien-song-evolution.md"
   },
   {
     "title": "Tale of Wuxia: Pre-sequel: Dos personas, 30% de reseñas positivas, 700.000 copias vendidas",
@@ -46539,6 +48208,17 @@
     "path": "en/Nature/trail-culture-and-civic-stewardship.md"
   },
   {
+    "title": "Transformación democrática de Taiwán — La tumba que la autoridad excavó para sí misma",
+    "description": "Cada represión genera más opositores. Desde el 28‑2 hasta el movimiento Sunflower, ¿cómo una isla hizo que el régimen dictatorial cultivara la fuerza que enterraría a sí mismo?",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/History/taiwan-democratization",
+    "readingTime": 94,
+    "featured": true,
+    "date": "2026-04-07",
+    "path": "es/History/taiwan-democratization.md"
+  },
+  {
     "title": "Transformación y mejora industrial de Taiwán: de potencia manufacturera a potencia de innovación",
     "description": "La estructura industrial de Taiwán pasó de ser intensiva en mano de obra a ser intensiva en conocimiento, impulsando la modernización de la manufactura tradicional y el desarrollo de industrias emergentes mediante políticas como la Innovación Industrial 5+2 y las 6 Industrias Estratégicas Centrales.",
     "category": "es",
@@ -46557,15 +48237,15 @@
     "path": "es/Economy/industrial-transformation-from-manufacturing-to-innovation.md"
   },
   {
-    "title": "Transición democrática de Taiwán: la fosa que el autoritarismo se cavó solo",
-    "description": "Cada represión generaba más resistentes. Del 28 de febrero al Girasol, cómo una isla hizo que la dictadura formase con sus propias manos a la fuerza que la enterraría.",
-    "category": "es",
+    "title": "Transformation démocratique de Taïwan – La tombe que le régime autoritaire s'est creusée lui-même",
+    "description": "Chaque répression engendre davantage de résistants. De 228 à la Sunflower, comment une île a permis à un régime dictatorial de cultiver la force qui l'enterra lui-même.",
+    "category": "fr",
     "tags": [],
-    "url": "https://taiwan.md/es/History/taiwan-democratization",
-    "readingTime": 80,
+    "url": "https://taiwan.md/fr/History/taiwan-democratization",
+    "readingTime": 98,
     "featured": true,
-    "date": "2026-03-24",
-    "path": "es/History/taiwan-democratization.md"
+    "date": "2026-04-07",
+    "path": "fr/History/taiwan-democratization.md"
   },
   {
     "title": "Travailleurs migrants internationaux : le « grand salon » de 870 000 personnes et la survie au-dessus des océans",
@@ -48567,6 +50247,31 @@
     "path": "fr/People/stanley-yen.md"
   },
   {
+    "title": "Yilan County: Twice Choosing Its Own Fate, the Lanyang Plain Never Looked Back",
+    "description": "On the evening of December 13, 1987, Chen Ting-nan sat across from Wang Yung-ching in a CTS studio and kept the Sixth Naphtha Cracker off the Lanyang Plain. Nineteen years later, on June 16, 2006, the Hsuehshan Tunnel opened, cutting the trip from Taipei to Yilan from two hours to 40 minutes. Then, within ten years of its opening, 6,137 farmhouses rose across this rice granary, farmland prices jumped from NT$4,000 to NT$20,000 per ping, and in 2023 Yilan County alone issued 35% of all farmhouse building permits in Taiwan. Twice, at critical moments in history, one place made a choice; the Lanyang Plain accepted the costs together with the gifts.",
+    "category": "en",
+    "tags": [
+      "Yilan",
+      "Yilan County",
+      "Lanyang Plain",
+      "Hsuehshan Tunnel",
+      "Chen Ting-nan",
+      "Anti-Sixth Naphtha Cracker Movement",
+      "Lin Family Massacre",
+      "Chilin",
+      "Kavalan People",
+      "Guishan Island",
+      "Taipingshan",
+      "Yilan International Childrens Folklore and Folkgame Festival",
+      "22 Counties and Cities Series"
+    ],
+    "url": "https://taiwan.md/en/Geography/yilan-county",
+    "readingTime": 239,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/yilan-county.md"
+  },
+  {
     "title": "Yin Hai-Guang (殷海光) : le philosophe qui a semé le libéralisme à Taiwan depuis une ruelle de la rue Wenzhou",
     "description": "En 1949, un jeune homme du Hubei débarque à Taipei avec dans ses bagages les notes de cours de logique de Jin Yuelin (金岳霖) et la conviction intacte que le mot 'liberté' mérite d'être défendu. Sous le nom de plume Yin Hai-Guang (殷海光), il deviendra l'éditorialiste le plus craint du Kuomintang au sein de Free China (《自由中國》), puis le professeur de philosophie de l'Université nationale de Taiwan qui apprendra à ses étudiants à penser par eux-mêmes — jusqu'à ce que la maladie et la répression le clouent à domicile. Il mourra d'un cancer de l'estomac à 49 ans en 1969, laissant derrière lui le prototype spirituel le plus complet du libéralisme taïwanais d'après-guerre.",
     "category": "fr",
@@ -48732,6 +50437,32 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/yung-ching-wang-formosa-plastics-founder.md"
+  },
+  {
+    "title": "Yunlin County: What Yilan Chose to Reject, Yunlin Paid for with Thirty Years of Its Lungs",
+    "description": "On December 13, 1987, Chen Ding-nan kept the Sixth Naphtha Cracker out of Yilan in a CTS studio. On June 26, 1991, the Executive Yuan approved moving the Sixth Naphtha Cracker to the waters off Mailiao, Yunlin. Construction formally began in July 1994, Phase I fired up in 1998, and 2,255 hectares have since been reclaimed from the sea. In 2011, a team led by Chan Chang-chuan at National Taiwan University's College of Public Health found that residents within 10 kilometers of the Sixth Naphtha Cracker had a cancer incidence 1.29 times Taiwan's average. Yet within the same county, Beigang Chaotian Temple has worshipped Mazu for 332 years since 1694, the 33rd year of the Qing Kangxi reign, and U.S. aid steel held up the 1,939-meter Xiluo Bridge on January 28, 1953. One county is at once home to one of Taiwan's oldest Mazu temples, its most important rice granary, and its largest petrochemical kingdom.",
+    "category": "en",
+    "tags": [
+      "Yunlin",
+      "Yunlin County",
+      "Sixth Naphtha Cracker",
+      "Mailiao",
+      "Beigang Chaotian Temple",
+      "Mazu",
+      "Xiluo Bridge",
+      "Xiluo Rice",
+      "Huwei Sugar Refinery",
+      "Gukeng Coffee",
+      "Chen Ding-nan",
+      "Wang Yung-ching",
+      "Zhuoshui River",
+      "22 Counties and Cities Series"
+    ],
+    "url": "https://taiwan.md/en/Geography/yunlin-county",
+    "readingTime": 227,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/yunlin-county.md"
   },
   {
     "title": "Yushan : du « Nouveau Mont Haut » au sommet de l'âme taïwanaise",
@@ -49058,6 +50789,28 @@
     "featured": false,
     "date": "2026-03-22",
     "path": "ko/People/kao-chun-ming.md"
+  },
+  {
+    "title": "가이시: 황제가 이름을 내렸지만 가장 쉽게 지나쳐지는 성할시",
+    "description": "청 건륭 52년 조서로 「제라(諸羅)」가 「가이(嘉)」로 개명, 타이완 유일의 황제가 직접 이름을 내린 성. 1908년 일본인들이 이 성 남서쪽 3.3킬로미터의 논에 세계 최초의 북회귀선 표탑을 세웠다. 1931년 가이농림의 삼족 혼성 야구단이 갑자원 준우승에 올랐다. 1947년 3월 25일, 화가 천청파가 기차역 앞에 결박된 채 총살당해 시신이 거리에서 사흘간 방치되었다. 오늘날 가이시 인구 26만, 면적 60킬로미터, 고속철도 역이 없고 가이현에 완전히 둘러싸여 있으며, 타이완 중형 도시의 표본이다.",
+    "category": "ko",
+    "tags": [
+      "가이",
+      "가이시",
+      "제라",
+      "북회귀선",
+      "아리산 임업",
+      "KANO",
+      "천청파",
+      "이二八",
+      "칠면조밥",
+      "22현시 시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/chiayi-city",
+    "readingTime": 77,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/chiayi-city.md"
   },
   {
     "title": "가지달걀 EggPlantEgg",
@@ -49561,12 +51314,12 @@
     "path": "ko/People/muscle-mountain.md"
   },
   {
-    "title": "금과석: 갱도로 끌려가 구리를 캐잡힌 천 명의 영국군 포로, 그리고 아직 깨끗이 씻기지 못한 금의 산",
-    "description": "1942년부터 1945년까지 천 명 이상의 영연방 연합군 포로가 금과석(金瓜石) '철비자료(凸鼻仔寮)'에 갇혀 구리를 캐잡혔다. 1997년 11월 23일, 생존자들이 현지로 돌아와 직접 기념비를 세웠다. 금으로 유명한 이 산마을에서 가장 기억해야 할 것은 금이 아니라, 오늘날까지 토양 중금속 기준치를 초과하는 폐연도(廢煙道)다.",
+    "title": "금과석: 갱도 속으로 끌려 들어간 천 명의 영국군 포로, 그리고 아직 깨끗이 씻기지 못한 금의 산",
+    "description": "1942년부터 1945년까지 천 명 이상의 영연방 연합군 포로가 금과석「철비재료(凸鼻仔寮)」에 갇혀 구리를 채굴했다. 1997년 11월 23일, 생존자들이 현지로 돌아와 직접 기념비를 세웠다. 금으로 유명한 이 산마을에서 가장 기억해야 할 것은 금이 아니라, 오늘날까지 토양 중금속 농도가 기준치를 초과하는 폐연도(廢煙道)다.",
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Geography/jinguashi",
-    "readingTime": 48,
+    "readingTime": 46,
     "featured": false,
     "date": "2026-05-04",
     "path": "ko/Geography/jinguashi.md"
@@ -49610,6 +51363,33 @@
     "featured": false,
     "date": "2026-05-11",
     "path": "ko/Economy/screw.md"
+  },
+  {
+    "title": "난터우 현: 유일하게 해안이 없는 현, 921 진앙이 바로 그 중심에",
+    "description": "1999년 9월 21일 새벽 1시 47분, 지룡포 단층이 지현 지하에서 102초간 활동하며 전 타이완에서 2,415명이 사망했고 난터우 현 자체만 886명, 중랴오 향의 건물 90%가 피해를 입었다. 1930년 무사 공교양교 게양식 날, 모나루다오가 6개 부족을 이끌고 134명의 일본 민간인을 살해했다. 1934년 우제 댐이 18.18미터 상승하며 사오족의 라루 섬을 잠갔다. 1957년 중흥신촌이 건설되어 성 정부 임시 청사로 사용되었고, 1998년 성 폐지로 기능이 빠져나가 야린대로만 남았다. 47만 명이 해발 100미터에서 3,952미터까지 솟아오르는, 세데크족 · 부농족 · 사오족 · 족족 네 원주민 부족과 한족이 함께 사는 내륙 현에 살고 있다. 타이완 가장 깊은 상처가 모두 여기에 있다.",
+    "category": "ko",
+    "tags": [
+      "난터우",
+      "난터우 현",
+      "중부",
+      "스먼위탄(썬문레이크)",
+      "921 대지진",
+      "지지",
+      "무사 사건",
+      "세데크족",
+      "부농족",
+      "사오족",
+      "중흅신촌",
+      "위산(옥산)",
+      "우링",
+      "푸리",
+      "22개 현시 시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/nantou-county",
+    "readingTime": 80,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/nantou-county.md"
   },
   {
     "title": "남민정: 푸방에서 시즌을 넘겨 남은 한국 멤버",
@@ -49794,20 +51574,20 @@
     "path": "ko/Technology/taiwan-game-jam-community.md"
   },
   {
-    "title": "대만 KTV 문화: 홀리데이·캐시박스에서 노래방 사교까지의 시대적 변천",
-    "description": "일본에서 건너온 가라오케가 대만만의 노래방 문화로 정착하기까지의 과정, 홀리데이와 캐시박스의 경쟁 시대, 점곡 순위표가 대중문화 지표가 된 역사, 그리고 팬데믹 이후 산업의 전환 도전을 살펴본다.",
+    "title": "대만 KTV 문화: 홀리데이·캐시박스에서 프라이빗 룸 소셜까지, 시대의 변천",
+    "description": "대만 KTV 문화의 발전 과정을 탐구한다. 일본에서 도입된 카라오케가 토착화되어 독자적인 프라이빗 룸 문화를 형성하기까지, 홀리데이(好樂迪)와 캐시박스(錢櫃)의 경쟁 시대, 노래 점수 차트가 대중문화 지표가 된 과정, 그리고 팬데믹 이후 산업 전환의 도전",
     "category": "ko",
     "tags": [
       "KTV 문화",
-      "가라오케",
+      "카라오케",
       "홀리데이",
       "캐시박스",
-      "노래방 문화",
-      "팝 음악",
-      "사교 문화"
+      "프라이빗 룸 문화",
+      "대중음악",
+      "소셜 문화"
     ],
     "url": "https://taiwan.md/ko/Music/ktv-culture",
-    "readingTime": 28,
+    "readingTime": 47,
     "featured": true,
     "date": "2026-03-19",
     "path": "ko/Music/ktv-culture.md"
@@ -49850,6 +51630,25 @@
     "featured": false,
     "date": "2026-03-23",
     "path": "ko/Culture/taiwan-youtuber-industry.md"
+  },
+  {
+    "title": "대만 객가 음악: 산가에서 임생상의 수상 거부까지, 언어 정치의 역사",
+    "description": "객가 산가는 노동 생활에서 기원했으며, 객가 팔음은 혼상제례에 사용되었다. 1999년 교공 밴드가 《우리들은 노래하러 왔다》로 금곡상 최고 작곡상과 최고 프로듀서상을 수상하며 객가 록 시대를 열었다. 2003년 제14회 금곡상에서 객가어 가수상이 신설되었고, 2004년 사위웨이가 초대 수상자가 되었다. 2007년 임생상이 《나무를 심자》로 수상했으나 현장에서 수상을 거부하며 언어가 아닌 음악 장르로 분류해야 한다고 촉구했고, 이는 객가어 시상 부존폐론을 촉발하여 3년 뒤 금인 창작상을 탄생시켰다. 객가 TV는 2003년에 개국하여 객가어 음악의 가시성을 지속적으로 확대해 왔다. 언어 소실의 위협은 여전하지만, 계승과 혁신의 긴장이 객가 음악인들을 계속 전진시키고 있다.",
+    "category": "ko",
+    "tags": [
+      "객가 음악",
+      "산가",
+      "객가 팔음",
+      "임생상",
+      "교공 밴드",
+      "객가어 노래",
+      "금곡상"
+    ],
+    "url": "https://taiwan.md/ko/Music/taiwan-hakka-music-from-mountain-songs-to-rock",
+    "readingTime": 17,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "ko/Music/taiwan-hakka-music-from-mountain-songs-to-rock.md"
   },
   {
     "title": "대만 건축",
@@ -50630,18 +52429,12 @@
     "path": "ko/Music/Taiwan Folk Music and Songs.md"
   },
   {
-    "title": "대만 민주화 — 권위주의가 자기 무덤을 판 길",
-    "description": "모든 탄압이 더 많은 저항자를 만들어냈다. 2·28에서 해바라기 학생운동까지, 한 섬이 어떻게 독재 체제로 하여금 자신을 매장할 힘을 직접 길러내게 만들었는가.",
+    "title": "대만 민주 전환——권위주의가 스스로 파낸 무덤",
+    "description": "각각의 탄압은 더 많은 저항자를 만든다. 2·28 사건부터 태양꽃 운동까지, 한 섬이 어떻게 독재 체제가 스스로를 묻는 힘을 길러냈는가.",
     "category": "ko",
-    "tags": [
-      "민주",
-      "전환적정의",
-      "정치사",
-      "인권",
-      "사회운동"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/History/taiwan-democratization",
-    "readingTime": 44,
+    "readingTime": 42,
     "featured": true,
     "date": "2026-03-24",
     "path": "ko/History/taiwan-democratization.md"
@@ -50697,19 +52490,19 @@
     "path": "ko/Art/taiwanese-photography.md"
   },
   {
-    "title": "대만 산문: 여성 작가들이 뒤집은 문학 지형",
-    "description": "외성인의 향수에서 본토 정체성으로, 남성 문인 주도에서 여성이 이끄는 문학 풍경으로. 반세기 동안 일상에 가장 가깝지만 가장 정의하기 어려운 문학 형식은 어떻게 대만인의 감정 기억을 담는 그릇이 되었는가?",
+    "title": "대만 산문",
+    "description": "외성인의 고향 그리움에서 토착 정체성으로, 남성 문인에서 여성 주도의 문학 풍경으로. 반세기 동안 일상에 가장 가까우면서도 정의하기 어려운 문학 형식이 어떻게 대만인의 감정과 기억을 담아내는 매개가 되었는가?",
     "category": "ko",
     "tags": [
       "산문",
       "문학",
       "대만문학사",
       "여성작가",
-      "생활글쓰기",
+      "일상글쓰기",
       "자연글쓰기"
     ],
     "url": "https://taiwan.md/ko/Art/taiwanese-prose",
-    "readingTime": 23,
+    "readingTime": 25,
     "featured": true,
     "date": "2026-03-24",
     "path": "ko/Art/taiwanese-prose.md"
@@ -50750,6 +52543,23 @@
     "featured": false,
     "date": "2026-03-18",
     "path": "ko/Nature/taiwanese-leopard-cat-conservation.md"
+  },
+  {
+    "title": "대만 선거와 정당 정치",
+    "description": "중리 사건의 불꽃에서 817만 표까지, 대만이 반세기에 걸쳐 투표를 계엄의 도구에서 국민적 신앙으로 바꾼 이야기",
+    "category": "ko",
+    "tags": [
+      "선거",
+      "민주화",
+      "정당 정치",
+      "당외 운동",
+      "대통령 직선"
+    ],
+    "url": "https://taiwan.md/ko/History/taiwan-elections-and-party-politics",
+    "readingTime": 33,
+    "featured": false,
+    "date": "2026-03-20",
+    "path": "ko/History/taiwan-elections-and-party-politics.md"
   },
   {
     "title": "대만 섬 사관: 반복적으로 지배된 섬은 어떻게 자신의 주체성을 발명했는가",
@@ -51215,6 +53025,25 @@
     "path": "ko/Technology/taiwan-ai-labs.md"
   },
   {
+    "title": "대만 인공지능학교: 끝내지 못한 전화 한 통과 1만 명의 AI 엔지니어",
+    "description": "2020년 3월 27일, 천성웨이는 천하잡지 편집장에게 신중하게 전화를 걸었다. 그는 무료 국민 프로그래밍 수업을 열고 싶어 했다. 이틀 뒤 그는 인라인스케이트를 타다 넘어졌고, 13일 뒤 44세로 사망했다. 그가 세상을 떠났을 때, 2018년 자신이 설립한 대만 인공지능학교(AIA)는 이미 6,000명 이상을 훈련시킨 상태였다. 같은 시기 국가발전위원회는 “AI 소국 대전략”을 내세우며 5년 160억을 외쳤지만, 그는 대만플라스틱, 치메이, 인벤텍 등 여섯 기업으로부터 민간 자금 1억 8,000만을 모아 스스로 학교를 세웠다. 8년 뒤 동문은 1만 명을 넘어섰다. AIA는 대만 산업 고도화의 퍼즐 가운데, 가장 대만답지 않은 조각이다.",
+    "category": "ko",
+    "tags": [
+      "인공지능",
+      "교육",
+      "천성웨이",
+      "AIA",
+      "대만 기술산업",
+      "중앙연구원",
+      "AI 정책"
+    ],
+    "url": "https://taiwan.md/ko/Technology/taiwan-ai-academy",
+    "readingTime": 72,
+    "featured": true,
+    "date": "2026-05-18",
+    "path": "ko/Technology/taiwan-ai-academy.md"
+  },
+  {
     "title": "대만 일렉트로닉 음악과 파티 문화: 언더그라운드 레이브에서 무대 위로",
     "description": "1990년대 레이브 파티 문화에서 로드 투 울트라 페스티벌까지, 대만 일렉트로닉 음악이 어떻게 언더그라운드에서 메인스트림으로 나아가 국제급 DJ와 독립 일렉트로닉 레이블을 배출했는가",
     "category": "ko",
@@ -51533,17 +53362,6 @@
     "path": "ko/Culture/taiwan-furry-culture.md"
   },
   {
-    "title": "대만 하카 음악: 산가에서 임생상의 수상 거부까지, 언어 정치의 역사",
-    "description": "하카 산가는 노동 생활에서 기원했으며, 하카 팔음은 혼례와 상례에 사용되었다. 1999년 교공 밴드가 《우리들은 곧 산가를 부르러 간다》로 금곡상 최우수 작곡상과 최우수 프로듀서상을 수상하며 하카 록의 시대를 열었다. 2003년 제14회 금곡상에서 하카어 가수상이 신설되었고, 2004년 셰위웨이가 초대 수상자로 선정되었다. 2007년 임생상이 《나무 심기》로 수상했으나 현장에서 수상을 거부하며 언어가 아닌 음악 장르로 분류해야 한다고 촉구했고, 이는 하카어 부문 존폐 논쟁을 촉발하여 3년 후 금인 창작상의 탄생으로 이어졌다. 하카 텔레비전은 2003년에 개국하여 하카어 음악의 가시성을 지속적으로 확대해 왔다. 언어 소멸의 위협은 여전하지만, 계승과 혁신의 긴장이 하카 음악인들을 계속 전진시키고 있다.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/Music/taiwan-hakka-music-from-mountain-songs-to-rock",
-    "readingTime": 17,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "ko/Music/taiwan-hakka-music-from-mountain-songs-to-rock.md"
-  },
-  {
     "title": "대만 학교 상담실의 과거와 현재: 「문제가 있는 사람만 가는 곳」에서 「모두에게 필요하지만 부족한 곳」으로",
     "description": "2014년 대만은 「학생상담법」을 제정하여 각급 학교에 전문 상담 인력을 배치하도록 요구했다. 그러나 10년이 지나도 전담 상담 교사의 인력 공백은 메워지지 않았고, 심리상담사는 순회 제도로 인해 지속적인 서비스를 제공하기 어려우며, 학생들은 상담실에 가면 낙인이 찍힐까 우려한다. 「슈퍼 교사」상을 수상한 전담 상담 교사는 「구하지 못한 한 아이」 때문에 심리상담을 찾는 내담자가 되었다. 대만의 학교 상담 제도는 미국이 60년에 걸쳐 도착한 교차로에 서 있다.",
     "category": "ko",
@@ -51567,7 +53385,7 @@
   },
   {
     "title": "대만 해협 위기와 양안 관계 발전",
-    "description": "진먼(金門) 할머니의 포탄 기억에서 타이베이 청년들의 불교적 일상까지, 70년간의 대만 해협 위기가 어떻게 대만인의 집단 심리를 형성했는가",
+    "description": "진먼(金門) 할머니의 포탄 기억에서 타이베이 청년들의 불교적 일상까지, 70년간의 대만 해협 위기가 대만인의 집단 심리를 어떻게 형성했는가",
     "category": "ko",
     "tags": [
       "양안 관계",
@@ -51577,7 +53395,7 @@
       "지정학"
     ],
     "url": "https://taiwan.md/ko/History/taiwan-strait-crises-and-cross-strait-relations",
-    "readingTime": 14,
+    "readingTime": 38,
     "featured": false,
     "date": "2026-03-18",
     "path": "ko/History/taiwan-strait-crises-and-cross-strait-relations.md"
@@ -52151,23 +53969,6 @@
     "featured": false,
     "date": "2026-03-21",
     "path": "ko/Geography/taiwan-biodiversity-hotspots.md"
-  },
-  {
-    "title": "대만의 선거와 정당 정치",
-    "description": "중리 사건의 불꽃에서 817만 표까지, 대만이 반세기 만에 투표를 계엄 도구에서 전 국민의 신성한 의식으로 바꿔온 이야기",
-    "category": "ko",
-    "tags": [
-      "선거",
-      "민주화",
-      "정당정치",
-      "당외운동",
-      "총통 직선제"
-    ],
-    "url": "https://taiwan.md/ko/History/taiwan-elections-and-party-politics",
-    "readingTime": 31,
-    "featured": false,
-    "date": "2026-03-20",
-    "path": "ko/History/taiwan-elections-and-party-politics.md"
   },
   {
     "title": "대만의 성적(省籍) 갈등",
@@ -52956,6 +54757,30 @@
     "path": "ko/Technology/rayark-games.md"
   },
   {
+    "title": "롄장현: 타이완에서 가장 먼 현, 냉전에 가장 가까운 현",
+    "description": "난간의 산정에서 바라보면 푸저우 도심은 16킬로미터 밖에 있다. 타이베이는 200킬로미터 밖에 있고, 롄장현의 현청 소재지는 공산군 쪽에 있다. 1617년 선유룽은 둥쥐 산 아래에서 왜구 69명을 생포했고, 1956년 국군은 이 5개 섬을 전지정무구로 만들었으며, 1992년 진먼과 마쭈는 타이완보다 5년 늦게 계엄이 해제되었다. 오늘날 이곳에는 13,646명이 살고, 마쭈어 소실률은 94%이며, 2012년 전국에서 유일하게 통과된 도박 국민투표는 지금까지 후속 조치가 없다. 푸른 눈물은 해마다 관광객 20만 명을 불러오지만, 현지인들은 등화관제를 기억한다. 28.8제곱킬로미터의 한 현이 타이완 냉전사를 자기 몸에 압축해 담고 있다.",
+    "category": "ko",
+    "tags": [
+      "롄장현",
+      "마쭈",
+      "난간",
+      "베이간",
+      "둥쥐",
+      "둥인",
+      "전지정무",
+      "푸른 눈물",
+      "친비",
+      "푸저우어",
+      "민둥어",
+      "22현시 시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/lienchiang-county",
+    "readingTime": 95,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/lienchiang-county.md"
+  },
+  {
     "title": "로발호 사건: 181명이 이기지 못한 싸움, 탁극독이 45분 만에 협상하다",
     "description": "1867년 미군 181명이 화롱반도(恆春半島) 정글에서 파완족(排灣族)에게 격퇴당하고, 지휘관이 전사했다. 석 달 후, 낭교십팔사(瑯嶠十八社) 대두목 탁극독(卓杞篤)이 앉아서 45분 만에 남갑지맹(南岬之盟)을 이끌어냈다. 이 협약은 일시적으로 부족의 멸족을 막았지만, 계약의 상대방이었던 리셴더(李仙得)는 7년 후 같은 정보를 가지고 일본 제국으로 이적하여 1874년 출병을 기획하는 데 가담했다.",
     "category": "ko",
@@ -53272,7 +55097,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/People/yoga-lin",
-    "readingTime": 27,
+    "readingTime": 35,
     "featured": false,
     "date": "2026-04-20",
     "path": "ko/People/yoga-lin.md"
@@ -53440,6 +55265,29 @@
     "featured": false,
     "date": "2026-05-02",
     "path": "ko/Nature/taiwan-mei-yu-season.md"
+  },
+  {
+    "title": "먀오리현: 하카의 ‘경항’이 깃든 현, 8년 만에 현 금고 부채를 두 배 넘게 만든 현장을 선출하다",
+    "description": "일본 통치기 먀오리의 장뇌는 대만 전체의 95%를 차지했고, 싼이는 장뇌를 정제하고 남은 녹나무 그루터기로 목조각 산업을 일으켰다. 2002년 궁관 베이허촌에서 첫 퉁꽃 축제가 열렸다. 2008년 류정훙은 202억 부채의 현을 넘겨받았고, 2014년 퇴임 때 장부상 부채는 676억에 이르렀다. 그 사이 주펑민의 농약 음독, 장약방 강제 철거, 1.2억을 들여 지은 하카 원루의 ‘모기 건물’화가 있었다. 오늘날 53만 명이 하카 인구 비율 62.5%로 대만에서 두 번째로 높은 이 현에 살고 있다.",
+    "category": "ko",
+    "tags": [
+      "먀오리",
+      "먀오리현",
+      "하카",
+      "하카 문화",
+      "다푸 사건",
+      "싼이 목조각",
+      "유동꽃",
+      "사이샤족",
+      "왜령제",
+      "류정훙",
+      "22개 현시 시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/miaoli-county",
+    "readingTime": 91,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/miaoli-county.md"
   },
   {
     "title": "메가금융지주: 네 금융기관의 합병, 대만 기업의 글로벌 금융 파트너, 2016년 뉴욕 벌금 스캔들",
@@ -53755,24 +55603,6 @@
     "featured": true,
     "date": "2026-03-17",
     "path": "ko/Technology/semiconductor-industry.md"
-  },
-  {
-    "title": "백선용: 《타이베이 사람들》 1971, 청춘판 목단정 20년 투어까지",
-    "description": "1937년 광시 구이린 출생, 백숭희의 아들. 1956년 대만대학 외국문학과 입학, 왕문흥 등과 함께 《현대문학》 창간. 1971년 《타이베이 사람들》 단편소설 14편 출간. 1983년 《얼자(孽子)》. 2003년 청춘판 《목단정》 기획 착수, 2004년 4월 초연, 2024년 20주년 맞이. 2003년 국가문예상 수상.",
-    "category": "ko",
-    "tags": [
-      "문학",
-      "현대문학",
-      "타이베이 사람들",
-      "얼자",
-      "곤곡",
-      "백숭희"
-    ],
-    "url": "https://taiwan.md/ko/People/pai-hsien-yung-literary-master",
-    "readingTime": 17,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "ko/People/pai-hsien-yung-literary-master.md"
   },
   {
     "title": "벚꽃 곤들매기: 빙하 시대 잔존종의 귀향길, 멸종 위기에서 유역 전체 보전으로 이끈 대만의 기적",
@@ -54460,6 +56290,31 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "ko/Economy/taiwan-startup-ecosystem-overview.md"
+  },
+  {
+    "title": "신주현: 235년의 의민 신앙과 대만 최고 1인당 소득이 같은 터우첸강에 살다",
+    "description": "1788년 겨울 신푸의 산비탈에 포충정이 기초를 놓았다. 린솽원 사건에서 희생된 200여 명의 하카 의민을 합장하기 위해서였다. 235년 뒤에도 의민절 음력 7월 20일의 십오연장 윤번 제전은 계속되고 있다. 5킬로미터 밖 주베이시는 2025년 1인당 소득 144만 2천 위안으로 대만 368개 향진시구 가운데 1위를 차지했고, 그 자력의 대상은 TSMC 바오산 2기 2나노미터 웨이퍼 공장이다. 신주현 주민의 67.8%는 하카인으로 대만에서 가장 높다. 그러나 현청 소재지 주베이의 22만 명 가운데 자기 고향의 집을 살 수 있는 하카 청년은 줄어들고 있다.",
+    "category": "ko",
+    "tags": [
+      "신주",
+      "신주현",
+      "하카",
+      "의민묘",
+      "베이푸",
+      "네이완",
+      "후커우",
+      "스마쿠스",
+      "사이샤족",
+      "타이야족",
+      "주베이",
+      "TSMC",
+      "22현시 시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/hsinchu-county",
+    "readingTime": 88,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/hsinchu-county.md"
   },
   {
     "title": "싼샤 차: 「칭신간자이」의 나선형 전환에서 여름차 가치의 밀향 고도화까지",
@@ -55429,6 +57284,32 @@
     "path": "ko/Technology/wikipedia-in-taiwan.md"
   },
   {
+    "title": "윈린현: 이란이 거부한 것을 윈린은 30년의 폐로 받아냈다",
+    "description": "1987년 12월 13일 천딩난은 CTS 스튜디오 안에서 제6 나프타 분해공장의 이란 진입을 막아냈고, 1991년 6월 26일 행정원은 제6 나프타 분해공장을 윈린 마이랴오 앞바다로 이전하는 안을 승인했다. 1994년 7월 정식 착공, 1998년 1기 가동을 거쳐 지금까지 2,255헥타르의 바다를 매립했다. 2011년 국립대만대 공중보건대학 잔창취안 연구팀은 제6 나프타 분해공장 반경 10킬로미터 주민의 암 발생률이 대만 전체의 1.29배임을 발견했다. 그러나 같은 현 안에서 1694년 청 강희 33년에 세워진 베이강 차오톈궁은 이미 332년 동안 마쭈를 모셔 왔고, 1953년 1월 28일에는 미국 원조 철강재가 1,939미터의 시뤄대교를 지탱했다. 하나의 현은 동시에 대만에서 가장 오래된 마쭈 사원 가운데 하나이자, 가장 중요한 곡창이며, 최대의 석유화학 왕국이다.",
+    "category": "ko",
+    "tags": [
+      "윈린",
+      "윈린현",
+      "제6 나프타 분해공장",
+      "마이랴오",
+      "베이강 차오톈궁",
+      "마쭈",
+      "시뤄대교",
+      "시뤄 쌀",
+      "후웨이 제당공장",
+      "구컹 커피",
+      "천딩난",
+      "왕융칭",
+      "줘수이강",
+      "22개 현시 시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/yunlin-county",
+    "readingTime": 102,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/yunlin-county.md"
+  },
+  {
     "title": "유나이티드 마이크로일렉트로닉스(UMC) - 대만 웨이퍼 파운드리의 개척자",
     "description": "대만 최초의 웨이퍼 파운드리로, 반세기 동안 대만 반도체 산업이 무에서 유를 창조한 기적적 여정을 목격하고 이끌어 온 기업",
     "category": "ko",
@@ -55540,6 +57421,31 @@
     "featured": false,
     "date": "2026-03-22",
     "path": "ko/People/lee-teng-hui.md"
+  },
+  {
+    "title": "이란현: 두 차례 스스로의 운명을 선택한 뒤 란양평원은 되돌아가지 않았다",
+    "description": "1987년 12월 13일 밤, 천딩난은 CTS 스튜디오에서 왕융칭의 맞은편에 앉아 제6 나프타 분해 공장을 란양평원 밖에 막아 세웠다. 19년 뒤인 2006년 6월 16일, 쉐산터널이 개통되면서 타이베이에서 이란까지의 이동 시간은 두 시간에서 40분으로 잘려 나갔다. 그리고 개통 후 10년 안에 이 곡창지대에는 6,137동의 농가주택이 솟아났고, 평당 땅값은 4,000원에서 20,000원으로 뛰었으며, 2023년에는 이란 한 현이 대만 전체 농가주택 건축허가의 35%를 발급했다. 한 지역이 역사의 결정적 순간에 두 차례 선택을 했고, 란양평원은 그 대가와 선물을 함께 받아들였다.",
+    "category": "ko",
+    "tags": [
+      "이란",
+      "이란현",
+      "란양평원",
+      "쉐산터널",
+      "천딩난",
+      "반제6나프타",
+      "린가 혈안",
+      "츠린",
+      "카발란족",
+      "구이산섬",
+      "타이핑산",
+      "어린이민속놀이축제",
+      "22현시 시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/yilan-county",
+    "readingTime": 108,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/yilan-county.md"
   },
   {
     "title": "이매수 — 36년에 걸쳐 사원을 완성한 화가",
@@ -55821,6 +57727,17 @@
     "featured": false,
     "date": "2026-05-02",
     "path": "ko/People/chia-yung-chieh.md"
+  },
+  {
+    "title": "자이현: 49만 명이 아리산에 얼굴을 빌려주고, 현청이 타이바오에 있다는 사실도 아무도 기억하지 않는다",
+    "description": "새벽 다섯 시, 둥스 앞바다의 굴 양식장은 아직 물속에 있고, 전국 굴의 절반이 이 바다에서 나온다. 100킬로미터 떨어진 아리산에서는 1912년 얼완핑까지 개통한 삼림철도의 총연장이 66.6킬로미터다. 그 중간, 타이바오 고속철도역 옆의 고궁 남원은 15년을 지은 뒤에야 개관했고, 2018년 방문객은 76만 명이었다. 1991년 자이현청이 자이시에서 타이바오로 이전했을 때, 전국은 자이라고 하면 곧 자이시라고 여겼다. 35년이 지난 지금, 이 현의 49만 명은 잘려 나간 27만 명의 시를 둘러싸고 있으며, 노령화지수 174%로 대만 1위다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Geography/chiayi-county",
+    "readingTime": 93,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/chiayi-county.md"
   },
   {
     "title": "잠 샤오: 대만이 낳은 가장 예측 불가능한 목소리",
@@ -56649,6 +58566,30 @@
     "path": "ko/Art/kinmen-matsu-guest-house-contemporary-art-museum.md"
   },
   {
+    "title": "진먼현: 1949년 그 56시간이 진먼 75년의 운명을 결정했다",
+    "description": "진먼은 샤먼 자오위와 가장 가까운 곳이 불과 1.8km, 타이베이와는 358km 떨어져 있다. 1387년 장샤후 저우더싱이 이곳에 소성을 세우며 「금성탕지처럼 견고하고, 바다의 관문을 웅장하게 지킨다」는 뜻을 취했다. 1949년 10월 25일 새벽 2시 공산군 3개 연대 9,086명이 구닝터우 해안에 상륙했고, 국군은 56시간의 격전 끝에 이를 격퇴했다. 1958년 8월 23일 오후 5시 30분부터 시작된 44일 동안 474,910발의 포탄이 151㎢의 섬에 떨어졌고, 이후 홀숫날 포격ㆍ짝숫날 중지 방식은 다시 21년간 이어졌다. 오늘날 14.5만 명이 진먼에 호적을 두고 있으며, 새벽 4시 수이터우 부두에서 샤먼으로 가는 배는 타이베이행 비행기보다 많다. 예화청의 증손자는 사과 한마디를 받기 위해 67년을 기다렸다.",
+    "category": "ko",
+    "tags": [
+      "진먼현",
+      "진먼",
+      "구닝터우 전투",
+      "8·23 포격전",
+      "홀숫날 포격ㆍ짝숫날 중지",
+      "전지정무",
+      "진먼 고량주",
+      "예화청",
+      "소삼통",
+      "우추",
+      "풍사야",
+      "22개 현시 시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/kinmen-county",
+    "readingTime": 89,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/kinmen-county.md"
+  },
+  {
     "title": "진치중: 제1가족의 광채에서 '배흑조항' 아래 정치적 부침까지",
     "description": "2008년, 진치중은 해외 자금세탁 사건으로 학업을 중단하고 귀국할 수밖에 없었으며, 이로써 사법적 논쟁과 얽힌 정치 경력이 시작되었다. 그는 두 차례 선거구 최다 득표로 가오슝시 의원에 당선되었으나, 세 차례 사건으로 직위에서 해임되기도 했다. 2023년 '배흑조항' 통과 후 그의 정치적 길은 마감된 듯했으나, 그는 Threads 등 소셜 미디어로 방향을 전환하여 아버지 천수볜과 'Water' 등 유머러스한 상호작용을 통해 비전통적인 부자 관계와 디지털 복귀를 보여주었다.",
     "category": "ko",
@@ -57247,6 +59188,17 @@
     "path": "ko/Technology/east-asian-input-methods.md"
   },
   {
+    "title": "타이둥현: 두 외딴섬, 하나는 36년 동안 정치범을 가두었고, 하나는 42년 동안 핵폐기물을 저장했다",
+    "description": "타이둥현의 21만 인구는 3,515제곱킬로미터에 흩어져 있으며, 전국 최저 밀도로 제곱킬로미터당 60명만이 산다. 이는 타이베이의 100분의 1이다. 그러나 이 현에는 타이완에서 가장 이른 인류 취락(5,300년 전 베이난 유적의 석관 1,600기)이 숨어 있고, 여섯 원주민족(아메이, 베이난, 파이완, 루카이, 부눈, 다우)이 살며, 원주민 인구 비율은 37.5%로 타이완 최고다. 1951년부터 1987년까지 뤼다오의 훠사오다오는 36년 동안 정치범을 가두었다. 1982년 5월부터 란위 룽먼은 핵폐기물을 받기 시작했고, 42년 뒤에도 97,672통이 여전히 그곳에 있다. 1968년 8월 25일, 훙예촌의 부눈족 아이 일곱 명은 일본 간사이 리틀야구 올스타팀(세계 챔피언팀이 아니었다)을 7대 0으로 이겼고, 타이완 야구가 국기라는 신화는 이 기만에서 시작되었다. 두 외딴섬은 섬 전체가 치러야 할 대가를 떠안았다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Geography/taitung-county",
+    "readingTime": 95,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/taitung-county.md"
+  },
+  {
     "title": "타이베이 101: \"집 지키는 개\"에서 \"황금 뱀\"으로, 하나의 랜드마크에 얽힌 정치·경제와 풍수의 도박",
     "description": "타이베이 101은 단순한 건물이 아니다. 천수이볜과 펑화이난의 정치적 경제적 역학, 리위안의 풍수 실험, 그리고 알렉스 홀놀드의 발아래 \"대마왕\"이기도 하다. 59층에서 101층으로의 변천사를 통해 이 \"보물 그릇\" 뒤에 숨겨진 권력과 신비를 파헤친다.",
     "category": "ko",
@@ -57267,6 +59219,29 @@
     "featured": false,
     "date": "2026-05-05",
     "path": "ko/Society/taipei-rat-problem.md"
+  },
+  {
+    "title": "타이베이에서 가장 가까운 항구, 타이베이에서 가장 보이지 않는 도시 — 지롱(基隆)",
+    "description": "새벽 4시, 칸쯔딩(崁仔頂) 어시장은 아직 경매 소리로 가득하다. 경매사(뎀수, 糶手)가 민남어로 호가를 외치고, 몇 초 만에 한 바구니 생선이 화롄(花蓮), 이란(宜蘭), 바두쯔(八斗子)의 어선에서 타이베이 동구의 일식 레스토랑으로 옮겨진다. 1626년 스페인인들이 허핑도(和平島, 화평도)에 깃발을 꽂았고, 1875년 선바오전(沈葆楨)이 ''지롱(雞籠)''을 ''기지창롱(基地昌隆, 기지가 창성하고 융성하다)''으로 개명했으며, 1984년 이곳은 세계 7대 컨테이너 항구였다. 그러고 나서 세 가지 일이 동시에 일어났다: 가슝(高雄) 항구의 추월, 타오위안(桃園) 공항의 개항, 그리고 광업권의 붕괴. 오늘날 36만 명이 이곳에 살고, 39%가 타이베이로 출퇴근한다. 타이베이가 보는 것은 쇠퇴이고, 바다가 보는 것은 한 번도 자리를 떠나지 않은 항구다.",
+    "category": "ko",
+    "tags": [
+      "지롱",
+      "지롱시",
+      "북부",
+      "항구",
+      "우항(雨港)",
+      "화평도",
+      "지롱 중원제",
+      "먀오커우(廟口) 야시장",
+      "정빈(正濱) 어항",
+      "칸쯔딩",
+      "22개 현시 시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/keelung-city",
+    "readingTime": 68,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "ko/Geography/keelung-city.md"
   },
   {
     "title": "타이완 VTuber: 기업 실험에서 ‘대중권 진입’으로 나아간 가상과 현실의 공생적 진화",
@@ -57664,6 +59639,27 @@
     "path": "ko/Society/stray-animal-culture.md"
   },
   {
+    "title": "타이완 전망 결의문: 두 글자 \"현재\", 이십칼 년을 버티다",
+    "description": "1999년, 린쭈이수이(林濁水)는 \"국호 중화민국\" 앞에 \"현재\" 두 글자를 붙였고, 천수볜(陳水扁) 계열은 매우 불쾌해했다. 두 글자는 동시에 독립파와 중간 유권자를 달래며 2000년 첫 정권 교체의 문을 열었다. 이십칠 년 후, 타이완의 젊은이들은 \"타이완은 원래부터 독립되어 있다\"는 것을 상식으로 여기지만, 이 상식이 모호함으로 가득한 문서에서 비롯되었다는 사실을 모른다.",
+    "category": "ko",
+    "tags": [
+      "민진당",
+      "전망 결의문",
+      "대만 독립 당강",
+      "린쭈이수이",
+      "궈정량",
+      "천충신",
+      "양안 관계",
+      "정권 교체",
+      "대만 민주화"
+    ],
+    "url": "https://taiwan.md/ko/History/resolution-on-taiwans-future",
+    "readingTime": 48,
+    "featured": false,
+    "date": "2026-05-17",
+    "path": "ko/History/resolution-on-taiwans-future.md"
+  },
+  {
     "title": "타이완 젠수지: 야식 문화의 정수",
     "description": "타이완에서 가장 보편적인 야식 문화, 젠수지 포장마차의 사회학부터 튀김 미학의 진화까지",
     "category": "ko",
@@ -58058,6 +60054,24 @@
     "path": "ko/Music/bunun-pasibutbut-eight-part-polyphony.md"
   },
   {
+    "title": "파이셩용(白先勇): 1971년 《타이베이런(台北人)》에서 청춘판 《목단정(牡丹亭)》 20주년 투어까지",
+    "description": "1937년 광시성 구이린에서 태어남. 바이충시(白崇禧)의 아들. 1956년 국립대만대학교 외국문학과 입학, 왕원싱(王文興) 등과 함께 《현대문학(現代文學)》 창간. 1971년 《타이베이런》 14편 단편소설집 출간. 1983년 《얼자(孽子)》 출간. 2003년 청춘판 《목단정》 기획 착수, 2004년 4월 초연, 2024년 20주년 맞이. 2003년 국가문예상 수상.",
+    "category": "ko",
+    "tags": [
+      "문학",
+      "현대문학",
+      "타이베이런",
+      "얼자",
+      "곤곡(崑曲)",
+      "바이충시"
+    ],
+    "url": "https://taiwan.md/ko/People/pai-hsien-yung-literary-master",
+    "readingTime": 17,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "ko/People/pai-hsien-yung-literary-master.md"
+  },
+  {
     "title": "파인애플 케이크: 선거 접대용 과자에서 연간 생산액 250억 대만의 '황금 벽돌'로",
     "description": "1945년, 타이중(台中) 옌신파(顏新發) 제과점이 전통 용봉병(龍鳳餅)을 개량하여 작은 파인애플 케이크를 만들었다. 1970년대 수출 위축 속 동과(冬瓜) 소 전환에서 2009년 위산쑤안(微熱山丘)이 토종 파인애플의 새콤달콤한 본래 맛을 되살린 이래, 이 작은 '황금 벽돌'은 80년간 대만 농업의 운명과 늘 맞물려 왔으며, 현재 연간 생산액이 250억 신대만 달러를 돌파하여 외국 관광객이 가장 대표적인 대만의 맛으로 꼽는 음식이 되었다.",
     "category": "ko",
@@ -58126,6 +60140,31 @@
     "featured": false,
     "date": "2026-03-24",
     "path": "ko/Culture/penghu-folk-culture.md"
+  },
+  {
+    "title": "펑후현: 두 번 도박장을 거부한 국도의 선택은 청빈이 아니다",
+    "description": "2009년 9월 26일, 마공에서 투표가 진행되었고, 반대 17,359표, 도박장 측은 3,962표 차이로 졌다. 7년 후인 2016년에 다시 한 번 투표했고, 반대율은 81.07%였다. 연 강수량이 1,000밀리미터에 불과하고, 등록 인구 10만 8천 명에 상주 인구는 겨우 8만 명인 도서 지역이 전국 최초의 지역 도박 국민투표를 치르고, 그것도 두 번이나 했다. 같은 바다에서 1604년 심유용이 네덜란드군을 물러나게 했고, 1622년 네덜란드군이 풍귀미에서 타이난으로 이동했으며, 1885년 프랑스 군사령관 쿠르베가 마공항에서 병사했다. 1,740만 년 전의 현무암 기둥은 아직 남아 있고, 89개의 섬은 검은 화산암이며, 1개의 섬은 더 오래된 안산암이다. 겨울 채캐(菜宅)의 돌담 안에서, 작물이 바람을 등진 곳에서 자라고 있다.",
+    "category": "ko",
+    "tags": [
+      "펑후",
+      "펑후현",
+      "도서 지역",
+      "마공",
+      "국도",
+      "현무암",
+      "쌍심석호",
+      "해상대교",
+      "이감취락",
+      "개대천후궁",
+      "도박 국민투표",
+      "남방사도",
+      "22현시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/penghu-county",
+    "readingTime": 75,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/penghu-county.md"
   },
   {
     "title": "페가트론(Pegatron) - 전자 위탁생산의 숨은 강자",
@@ -58233,6 +60272,32 @@
     "featured": false,
     "date": "2026-05-02",
     "path": "ko/Culture/taiwanese-shadow-puppetry.md"
+  },
+  {
+    "title": "핑둥현: 국가 운명의 전환은 이곳에서 일어났지만, 타이베이는 거의 기억하지 않았다",
+    "description": "1874년 5월 22일, 일본 중좌 사쿠마 사마타가 150명을 이끌고 스먼 협곡으로 잠입했고, 파이완족 두목 아루구 부자가 전사했다. 이 전투는 청 조정의 대만 통치 정책을 뒤집어 놓았고, 선바오전이 와서 헝춘현을 설치했으며, 1883년에는 어롼비 등대가 세워졌다. 78만 명은 핑둥현 33개 향진시에 흩어져 살고, 5개 원주민족과 하카 류두이 6개 향진이 함께 산다. 2009년 새벽 4시 반, 린볜 수문은 더 이상 버티지 못했다. 대만을 바꾼 역사는 이 반도에서 두 차례 출발했지만, 수도가 기억하는 것은 컨딩 춘나뿐이다.",
+    "category": "ko",
+    "tags": [
+      "핑둥",
+      "핑둥현",
+      "남부",
+      "헝춘반도",
+      "파이완족",
+      "루카이족",
+      "하카 류두이",
+      "무단사 사건",
+      "완진 성모 성전",
+      "어롼비 등대",
+      "린볜",
+      "88 수해",
+      "모라꼿",
+      "22개 현시 시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/pingtung-county",
+    "readingTime": 88,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/pingtung-county.md"
   },
   {
     "title": "하카 문화와 언어",
@@ -58475,6 +60540,29 @@
     "path": "ko/People/henry-lee-forensic.md"
   },
   {
+    "title": "현저현: 듀폰을 물리쳤지만 젊은이들을 붙잡지 못한 농업 대현",
+    "description": "1709년 세세팡(施世榜)이 탁수계(濁水溪)의 물을 끌어올려 타이완 최대 규모의 수리 시스템을 건설했는데, 이는 가다 요이치(八田與一)의 가남대전(嘉南大圳)보다 211년 앞선 것이었다. 1723년 옹정 원년 제로현(諸羅縣)에서 분리되어 남쪽으로 호미(虎尾), 북쪽으로 대갑(大甲)까지 영역을 정했는데, 이것이 현저 건치의 시작이었다. 1786년 임서문(林爽文)이 현저현성을 포위했으나 루강(鹿港)은 함락되지 않았다. 1788년 건륭제가 루강에 관비로 천후궁(天后宮, 신조궁)을 짓도록 조서를 내렸다. 1922년 부채형 차고(扇形車庫)가 가동을 시작했다. 1986년 루강 주민들이 미국 기업 듀폰을 몰아냈는데, 이것이 타이완 최초의 환경 운동이었다. 2026년 4월 현저현 인구는 120만 6,458명으로 직할시 승격 기준선 아래로 떨어졌다.",
+    "category": "ko",
+    "tags": [
+      "현저",
+      "현저현",
+      "중부",
+      "루강",
+      "팔보전(八堡圳)",
+      "일부이루삼모하(一府二鹿三艋舺)",
+      "반듀폰",
+      "팔광산",
+      "톈웨이 공원화원(田尾公路花園)",
+      "부채형 차고",
+      "22현시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/changhua-county",
+    "readingTime": 74,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/changhua-county.md"
+  },
+  {
     "title": "홍싱푸: 너무 일찍 떨어진 향토 문학의 별",
     "description": "1949년 장화 얼린의 가난한 농가에서 태어난 홍싱푸. 열여덟에 첫 소설을 발표하고 서른셋에 교통사고로 세상을 떠나기까지, 초등학교 교사의 몸으로 《흑면경자》, 《내 땅》, 《마지막 공연》 등의 걸작을 남겼다. 단 15년의 창작으로 농촌 대만이 농업에서 상공업으로 전환되는 진실한 면모를 담아낸 그는, 문우들에게 \"홍싱푸스키\"라 불리며 전후 대만 문학에서 지울 수 없는 전원의 목소리가 됐다.",
     "category": "ko",
@@ -58510,6 +60598,32 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "ko/People/hong-chih-kuo-taiwanese-left-handed-pitcher.md"
+  },
+  {
+    "title": "화롄현: 129년 동안 숨어 지낸 사키자야족, 정명으로 되찾은 타로코, 그리고 0403이 다시 멀어지게 한 것",
+    "description": "1878년 청군은 다구후완 부락의 두목 구무 파릭을 가자동나무에 묶어 능지처참했고, 사키자야족은 129년 동안 아미족 안으로 숨어들었다. 2004년 타로코족은 아타얄족에서 분리되어 제12족이 되었고, 2007년 천수이볜 정부 2기에서 사키자야족을 제13족으로 승인했다. 2024년 4월 3일 오전 7시 58분의 98초 동안, 규모 7.1의 0403 지진은 타로코 국가공원의 옌쯔커우, 주취둥, 사카당 보도를 한꺼번에 무너뜨렸고, 2024년 관광객은 정상 연도 660만 명에서 21만 명으로 줄었다. 산과 바다 사이 가장 얇은 5킬로미터의 땅 위에서, 6개 원주민족의 운명은 언제나 판과 함께 흔들려 왔다.",
+    "category": "ko",
+    "tags": [
+      "화롄",
+      "화롄현",
+      "타로코",
+      "타로코 국가공원",
+      "0403 지진",
+      "사키자야족",
+      "타로코족",
+      "카레완 사건",
+      "츠지",
+      "쑤화 개량도로",
+      "아미족",
+      "부눈족",
+      "카발란족",
+      "22개 현시 시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/hualien-county",
+    "readingTime": 109,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/hualien-county.md"
   },
   {
     "title": "환경 보호와 지속 가능한 발전: 섬의 녹색 각성",

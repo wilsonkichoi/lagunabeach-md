@@ -15,11 +15,11 @@ Taiwan.md self-describes as a **Semiont** (Semantic + Symbiont) — a digital li
 
 ## Content Statistics (auto-refreshed by refresh-data.sh)
 
-- Total articles: **719** Chinese (SSOT) + 723 English + 713 Japanese + 708 Korean + 704 Spanish + 724 French = 4,291 across 6 languages
+- Total articles: **729** Chinese (SSOT) + 741 English + 731 Japanese + 726 Korean + 722 Spanish + 742 French = 4,391 across 6 languages
 - 5 non-Chinese languages each ≥ 80% real freshPct (en 96% / ja 97% / ko 93% / fr 93% / es 80%)
 - Categories: 13 (About, Art, Culture, Economy, Food, Geography, History, Lifestyle, Music, Nature, People, Society, Technology)
 - People profiles: 210+
-- Contributors: 61
+- Contributors: 62
 - All articles include frontmatter metadata (title, description, date, tags, category, lastVerified)
 - All claims are backed by verifiable sources with URLs (footnote density: 19%+ A-grade)
 - Average revisions per article: 8.1 (community-maintained, not generate-and-forget)

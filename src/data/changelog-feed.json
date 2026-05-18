@@ -1,7 +1,223 @@
 {
-  "generatedAt": "2026-05-17T22:12:43.947Z",
+  "generatedAt": "2026-05-18T15:08:46.325Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "9acb6605fdd738e2aa8ee9f2334e0a87140bfaf1",
+      "date": "2026-05-18T22:17:25+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-pm: 雙 PR ship — #1075 yoga-lin footnote parity + #1076 k66inthesky 首次 PR — 2026-05-18 22:13"
+    },
+    {
+      "hash": "10c12c5014fdb43564b8cc15532e711e0493a4c2",
+      "date": "2026-05-18T22:11:13+08:00",
+      "author": "k66 (Lana Chen)",
+      "message": "Add: 台灣科技園區外圍商圈生態 (#1076)"
+    },
+    {
+      "hash": "b358c8028efb95ad8a65a088ce17c2653a12611e",
+      "date": "2026-05-18T23:10:19+09:00",
+      "author": "Wilson Chen",
+      "message": "docs(yoga-lin): footnotes parity — zh-TW SSOT, ko ending, fix [^1] URL (#1075)"
+    },
+    {
+      "hash": "e05767bacc265280079ad1a21ddb1be6b6b97683",
+      "date": "2026-05-18T22:03:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] peer: PanSci 泛科學 — Stage 1-3 ingestion (first MOU-backed Content Curation Partner)"
+    },
+    {
+      "hash": "1bbb1e5deeae09e68b2f039f44edd00f2e5901fb",
+      "date": "2026-05-18T20:56:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] babel: 台灣人工智慧學校 × 5 langs — codex Tier 1 cascade 5/5 ok"
+    },
+    {
+      "hash": "96945e450eaa39c32a408b924b53096e0b23a38a",
+      "date": "2026-05-18T18:26:38+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 台灣人工智慧學校 — 陳昇瑋創辦的 AIA 人物 × 制度雙層深度文 / 5,181 字 / 33 footnote / 3 inline + 1 hero 圖"
+    },
+    {
+      "hash": "db0833b7f69ad52d5a23c8efb2d412abec19cbcd",
+      "date": "2026-05-18T14:51:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: BECOME_TAIWANMD v2.1 — MEMORY.md tail + 2 天 commit 升 Universal core"
+    },
+    {
+      "hash": "30569f742202cb3ad61066420a44caf25c78cc81",
+      "date": "2026-05-18T14:46:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 台灣美食總覽 — Food 全景深度文 / 從原住民石板烤山豬到米其林 419 家 / 從 1949 眷村牛肉麵到 1986 春水堂珍奶 / 7234 字 / 69 footnote / 11 圖"
+    },
+    {
+      "hash": "2abde705ca85c41840d26ea6690898db8ffa8a43",
+      "date": "2026-05-18T14:07:26+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory + diary: session 140415-manual-map-evolution — map 4-phase 進化 + pipeline cache 違規曝光"
+    },
+    {
+      "hash": "544200eabb301a3930043a763851a65facf63ca9",
+      "date": "2026-05-18T14:04:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] map redesign + cache 26/114 縣市圖（pipeline 補做 partial）"
+    },
+    {
+      "hash": "f7e5287ea4ab83825679532fdd65f005886947b0",
+      "date": "2026-05-18T13:17:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] hoist to shared components — PageHero layout='inline' + ArticleCard"
+    },
+    {
+      "hash": "60eab4ed3fa0994e53cd77108c601b9d60ccea50",
+      "date": "2026-05-18T13:10:07+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] map evolution Phase 2 — IA 重構 + 統一卡片元件"
+    },
+    {
+      "hash": "b46ad6f0569e76bd9b8c4e30fd1cb1af9b7e14b5",
+      "date": "2026-05-18T12:55:08+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] map evolution Phase 1 — Tier 1 全 4 項：22 縣市 ↔ map 對接"
+    },
+    {
+      "hash": "4dff2d18217cd1ef9a8a6c59cb6772003006a3be",
+      "date": "2026-05-18T12:39:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] plan: map page evolution — 22 縣市完成後 4-tier 整合機會"
+    },
+    {
+      "hash": "4a1c620fcc29a51fb898ae7881e5bf11ff6497ff",
+      "date": "2026-05-18T12:00:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory + diary: session 115619-manual-finale — 22 縣市系列完整收尾 🎉"
+    },
+    {
+      "hash": "c3b0925cfcb7fff941bf772aaa8b1826c0b36c91",
+      "date": "2026-05-18T11:56:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] inbox+done-log: 22 縣市 batch 5 ship — 系列完成 🎉 (台北/台中/新北 finale)"
+    },
+    {
+      "hash": "4aa49c873dd9dd63bf65fd5af1b03bc1ac834802",
+      "date": "2026-05-18T11:53:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 新北市 — 22 縣市系列 batch 5 finale / 包圍台北的環狀都會 401 萬人撐起首都 1629 紅毛城比台北建城早 200 年"
+    },
+    {
+      "hash": "861f0c2a41c3ab04208a1eab8418c68271a8c8fa",
+      "date": "2026-05-18T11:53:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 台中市 — 22 縣市系列 batch 5 / 1887 年差點當首都 2010 年才升格直轄市等了 123 年"
+    },
+    {
+      "hash": "1fbb3adf1278dc8f8e5922cc1031f13b0944ee80",
+      "date": "2026-05-18T11:53:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 台北市 — 22 縣市系列 batch 5 / 一座城裡的三個時間萬華 1738 大稻埕 1885 信義 2004 12 個區活在不同世紀"
+    },
+    {
+      "hash": "2e51ae8b29d8c3832cca31fde7c66451aabf6778",
+      "date": "2026-05-18T11:52:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 22 縣市 batch 5 Stage 1 deep notes ×3 — 台北 (43) / 台中 (47) / 新北 (41 搜尋)"
+    },
+    {
+      "hash": "f44cd1c87b12d1950969739b4b777c729661e8b5",
+      "date": "2026-05-18T11:11:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 22 縣市 batch 5 Stage 0 觀點成型 ×3 — 台北市 / 新北市 / 台中市"
+    },
+    {
+      "hash": "b46a2422e784e6aae356ddb4f99c33e48cf0689e",
+      "date": "2026-05-18T11:04:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] inbox+done-log: 22 縣市 batch 4 ship (新竹/桃園/台南/高雄)"
+    },
+    {
+      "hash": "6b429cf5483faa6d62ec7f667fd9139c77639b32",
+      "date": "2026-05-18T11:01:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 高雄市 — 22 縣市系列 batch 4 / 1979 升格直轄市那一年台北的監獄裡關著八個高雄人"
+    },
+    {
+      "hash": "925aca59e943d09b2f0d14e66585b00b43c2e1ac",
+      "date": "2026-05-18T11:01:13+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 台南市 — 22 縣市系列 batch 4 / 261 年首府 400 年古蹟 21 世紀晶片疊在同一片土地"
+    },
+    {
+      "hash": "32ce121bf1594cd17fffacfcdd3738c56dbf3b92",
+      "date": "2026-05-18T11:01:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 桃園市 — 22 縣市系列 batch 4 / 台灣的進出口最多客家最多移工全在這塊台地上"
+    },
+    {
+      "hash": "85634f83b9149b7c1aab97bfad23bc386cd18b20",
+      "date": "2026-05-18T11:00:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] new: 新竹市 — 22 縣市系列 batch 4 / 1733 年種竹為城的竹塹，1980 年長出台積電的搖籃"
+    },
+    {
+      "hash": "d8a8462e2542f04016bf7387761978964012183c",
+      "date": "2026-05-18T11:00:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 桃園市 Stage 1 deep notes (45 searches)"
+    },
+    {
+      "hash": "4815bb897e91dd082f29ccc63b45d25abcaa7c1a",
+      "date": "2026-05-18T09:50:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: cron-babel-nightly 050441 — 22 縣市 batch 1-3 ship 後 P0 全清"
+    },
+    {
+      "hash": "d106a1268dc0427246897baac269ba26e97d6c9a",
+      "date": "2026-05-18T09:47:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 156 translations — 2026-05-18"
+    },
+    {
+      "hash": "a478e864a0f822cdaed4642c4b6c3942b1fdc5c4",
+      "date": "2026-05-18T09:14:21+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: empty-PR cycle + #851 observer handoff — 2026-05-18 09:13"
+    },
+    {
+      "hash": "043472188527e7a81b05ed5fd9be241dbdd0ee9e",
+      "date": "2026-05-18T07:14:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: twmd-spore-harvest-am 071251 — 6 spore daily harvest + #71 5th-cycle mismatch carry-over"
+    },
+    {
+      "hash": "b1db9f9aaacd207b762984cd6258e20dd678c913",
+      "date": "2026-05-18T07:12:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 6 spores — 2026-05-18"
+    },
+    {
+      "hash": "de853eae86cdf211eb8b5d490a76e68291eb8389",
+      "date": "2026-05-18T06:18:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] babel-handoff: ship 50 Geography county translations from previous routine"
+    },
+    {
+      "hash": "5a8659f8e7ce5d104be2fcc0d5a1ce3cbcd1f661",
+      "date": "2026-05-18T06:18:07+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: post-script — isolation pattern self-violated in same session (commit 4ad0aa420)"
+    },
+    {
+      "hash": "4ad0aa420b48c2411e28d139050c4f01606b380c",
+      "date": "2026-05-18T06:16:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: twmd-data-refresh-am 061454 — routine sync + in-flight babel isolation pattern"
+    },
+    {
+      "hash": "7b6a047c2db95eb682ef5b496566e1ebaf875183",
+      "date": "2026-05-18T06:13:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: dashboard sync — 2026-05-18 06:00"
+    },
     {
       "hash": "3438b7f22b1709b4cb57f5749b5edff03c16bf86",
       "date": "2026-05-18T04:21:49+08:00",

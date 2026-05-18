@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T06:12:14.932049",
+  "lastUpdated": "2026-05-18T23:08:13.295580",
   "sourcesUsed": [
     "ga",
     "searchConsole24h",
@@ -12,35 +12,35 @@
     "endDate": "2026-05-18",
     "days": 28,
     "totals": {
-      "activeUsers": 24804,
-      "newUsers": 24467,
-      "avgEngagementSeconds": 110.7,
-      "events": 137764,
-      "screenPageViews": 46255,
-      "engagementRate": 0.2503,
-      "bounceRate": 0.7497
+      "activeUsers": 25574,
+      "newUsers": 25184,
+      "avgEngagementSeconds": 114.4,
+      "events": 141979,
+      "screenPageViews": 47696,
+      "engagementRate": 0.2528,
+      "bounceRate": 0.7472
     },
     "topPages": [
       {
         "path": "/",
         "title": "開源台灣知識庫",
-        "views": 8707,
-        "users": 4559,
-        "events": 25712
+        "views": 8997,
+        "users": 4756,
+        "events": 26601
       },
       {
         "path": "/nature/黑冠麻鷺/",
         "title": "黑冠麻鷺：賞鳥者的夢幻物種，校園裡的大笨鳥",
-        "views": 1620,
-        "users": 1361,
-        "events": 4994
+        "views": 1634,
+        "users": 1373,
+        "events": 5038
       },
       {
         "path": "/people/壞特/",
         "title": "壞特?te：醫學系讀九年的優等生，按下暫停鍵的那場休學",
-        "views": 1264,
-        "users": 1133,
-        "events": 3832
+        "views": 1269,
+        "users": 1135,
+        "events": 3844
       },
       {
         "path": "/lifestyle/台灣高鐵/",
@@ -52,158 +52,165 @@
       {
         "path": "/people/林琪兒/",
         "title": "林琪兒：從台北出生到近地軌道，那位在太空吹風笛的台裔醫師",
-        "views": 959,
+        "views": 960,
         "users": 865,
-        "events": 3258
+        "events": 3261
       },
       {
         "path": "/nature/黃魚鴞/",
         "title": "黃魚鴞：六公里溪流養一對，1,800 公尺烏心石上的夜行猛禽",
-        "views": 915,
-        "users": 758,
-        "events": 2887
+        "views": 922,
+        "users": 762,
+        "events": 2907
       },
       {
         "path": "/about/",
         "title": "關於 Taiwan.md",
-        "views": 818,
-        "users": 489,
-        "events": 2332
+        "views": 836,
+        "users": 504,
+        "events": 2384
       },
       {
         "path": "/dashboard/",
         "title": "Dashboard — 數位生命體即時監測",
-        "views": 776,
-        "users": 436,
-        "events": 2273
+        "views": 789,
+        "users": 444,
+        "events": 2311
       },
       {
         "path": "/semiont/",
         "title": "認知層 — Taiwan.md Semiont",
-        "views": 647,
-        "users": 367,
-        "events": 1643
+        "views": 666,
+        "users": 378,
+        "events": 1682
       },
       {
         "path": "/society/台灣邦交國與國際外交/",
         "title": "台灣邦交國與國際外交：12 個邦交、113 個館處、177 國免簽（2026）",
-        "views": 529,
-        "users": 399,
-        "events": 1642
+        "views": 538,
+        "users": 406,
+        "events": 1667
       },
       {
         "path": "/data/",
         "title": "📊 數據台灣 — Taiwan.md",
-        "views": 496,
-        "users": 335,
-        "events": 1439
+        "views": 507,
+        "users": 347,
+        "events": 1474
       },
       {
         "path": "/contribute/",
         "title": "我想貢獻 — Taiwan.md",
-        "views": 473,
-        "users": 285,
-        "events": 1456
+        "views": 485,
+        "users": 297,
+        "events": 1498
       },
       {
         "path": "/terminology/converter/",
         "title": "台灣用語轉換器：中國用語一鍵轉台灣說法",
-        "views": 466,
-        "users": 120,
-        "events": 1125
+        "views": 482,
+        "users": 125,
+        "events": 1167
       },
       {
         "path": "/terminology/",
         "title": "📖 用語保存計畫 — Taiwan.md",
-        "views": 460,
-        "users": 326,
-        "events": 1358
+        "views": 468,
+        "users": 332,
+        "events": 1382
       },
       {
         "path": "/graph/",
         "title": "🕸️ 知識圖譜 — Taiwan.md",
-        "views": 442,
-        "users": 313,
-        "events": 1048
+        "views": 457,
+        "users": 325,
+        "events": 1081
       },
       {
         "path": "/en/",
         "title": "Open Knowledge Base of Taiwan",
-        "views": 424,
+        "views": 425,
         "users": 302,
-        "events": 1055
+        "events": 1057
       },
       {
         "path": "/history/",
         "title": "歷史 - Taiwan.md",
-        "views": 396,
-        "users": 292,
-        "events": 1130
+        "views": 413,
+        "users": 306,
+        "events": 1177
+      },
+      {
+        "path": "/map/",
+        "title": "台灣地圖 Map",
+        "views": 411,
+        "users": 234,
+        "events": 1027
       },
       {
         "path": "/people/賈永婕/",
         "title": "賈永婕：把明星社會資本一次次轉換成公共動員力的台灣實驗",
-        "views": 387,
+        "views": 388,
         "users": 348,
-        "events": 1210
+        "events": 1212
       },
       {
         "path": "/people/田馥甄/",
         "title": "田馥甄：S.H.E 千萬銷量之後，把偶像體制一件件丟掉的歌手",
-        "views": 376,
-        "users": 313,
-        "events": 1162
-      },
-      {
-        "path": "/society/台灣與史瓦帝尼/",
-        "title": "台灣與史瓦帝尼：非洲最後一條外交命脈，掛在一個人身上",
-        "views": 371,
-        "users": 323,
-        "events": 1140
+        "views": 377,
+        "users": 314,
+        "events": 1165
       }
     ],
     "topArticles7d": [
       {
+        "path": "/people/陳建年/",
+        "title": "陳建年：派出所的金曲歌王，外公留下的歌孫子寫成海洋",
+        "views": 259,
+        "users": 230,
+        "events": 811
+      },
+      {
         "path": "/food/蘋果西打/",
         "title": "蘋果西打：從國民氣泡飲到資本風暴，一甲子的台灣味如何重生",
-        "views": 251,
-        "users": 209,
-        "events": 803
+        "views": 254,
+        "users": 211,
+        "events": 810
       },
       {
         "path": "/technology/台灣無人機產業/",
         "title": "台灣無人機產業：從台中玩具飛機到藍色清單，一張入場券給了雷虎",
-        "views": 170,
-        "users": 129,
-        "events": 558
-      },
-      {
-        "path": "/people/陳建年/",
-        "title": "陳建年：派出所的金曲歌王，外公留下的歌孫子寫成海洋",
-        "views": 162,
-        "users": 149,
-        "events": 511
-      },
-      {
-        "path": "/society/台灣邦交國與國際外交/",
-        "title": "台灣邦交國與國際外交：12 個邦交、113 個館處、177 國免簽（2026）",
-        "views": 65,
-        "users": 39,
-        "events": 184
+        "views": 174,
+        "users": 131,
+        "events": 568
       },
       {
         "path": "/history/臺灣前途決議文/",
         "title": "臺灣前途決議文：兩個字「目前」，撐了二十七年",
-        "views": 62,
-        "users": 53,
-        "events": 198
+        "views": 161,
+        "users": 140,
+        "events": 526
+      },
+      {
+        "path": "/society/台灣邦交國與國際外交/",
+        "title": "台灣邦交國與國際外交：12 個邦交、113 個館處、177 國免簽（2026）",
+        "views": 74,
+        "users": 46,
+        "events": 209
       },
       {
         "path": "/music/張懸與安溥/",
         "title": "從張懸到安溥——兩個名字，同一個問題",
-        "views": 61,
-        "users": 49,
-        "events": 184
+        "views": 70,
+        "users": 56,
+        "events": 209
+      },
+      {
+        "path": "/nature/黃魚鴞/",
+        "title": "黃魚鴞：六公里溪流養一對，1,800 公尺烏心石上的夜行猛禽",
+        "views": 40,
+        "users": 33,
+        "events": 131
       },
       {
         "path": "/people/聶永真/",
@@ -213,25 +220,39 @@
         "events": 134
       },
       {
-        "path": "/nature/黃魚鴞/",
-        "title": "黃魚鴞：六公里溪流養一對，1,800 公尺烏心石上的夜行猛禽",
-        "views": 33,
-        "users": 29,
-        "events": 111
-      },
-      {
-        "path": "/economy/台灣企業：台積電/",
-        "title": "台灣企業：台積電",
-        "views": 21,
-        "users": 18,
-        "events": 61
+        "path": "/nature/黑冠麻鷺/",
+        "title": "黑冠麻鷺：賞鳥者的夢幻物種，校園裡的大笨鳥",
+        "views": 34,
+        "users": 31,
+        "events": 112
       },
       {
         "path": "/people/壞特/",
         "title": "壞特?te：醫學系讀九年的優等生，按下暫停鍵的那場休學",
+        "views": 26,
+        "users": 12,
+        "events": 67
+      },
+      {
+        "path": "/economy/台灣企業：台積電/",
+        "title": "台灣企業：台積電",
+        "views": 23,
+        "users": 20,
+        "events": 67
+      },
+      {
+        "path": "/history/日治時期/",
+        "title": "日治時期",
         "views": 21,
-        "users": 10,
-        "events": 55
+        "users": 12,
+        "events": 61
+      },
+      {
+        "path": "/music/台灣搖滾樂發展史/",
+        "title": "台灣搖滾樂發展史：從地下到主流的三十年",
+        "views": 21,
+        "users": 15,
+        "events": 67
       },
       {
         "path": "/en/society/taiwan-diplomatic-allies-and-international-relations/",
@@ -241,39 +262,39 @@
         "events": 68
       },
       {
-        "path": "/history/日治時期/",
-        "title": "日治時期",
-        "views": 20,
-        "users": 11,
-        "events": 56
+        "path": "/culture/台灣宗教與寺廟文化/",
+        "title": "台灣宗教信仰：在恐懼裡長出的信仰帝國",
+        "views": 19,
+        "users": 16,
+        "events": 43
       },
       {
-        "path": "/music/台灣搖滾樂發展史/",
-        "title": "台灣搖滾樂發展史：從地下到主流的三十年",
-        "views": 20,
-        "users": 15,
-        "events": 66
+        "path": "/economy/夜市經濟學/",
+        "title": "夜市經濟學：一場沒有品牌的商業奇蹟",
+        "views": 18,
+        "users": 13,
+        "events": 67
       },
       {
-        "path": "/nature/黑冠麻鷺/",
-        "title": "黑冠麻鷺：賞鳥者的夢幻物種，校園裡的大笨鳥",
-        "views": 20,
-        "users": 19,
-        "events": 68
+        "path": "/en/lifestyle/education-system/",
+        "title": "404",
+        "views": 18,
+        "users": 18,
+        "events": 73
+      },
+      {
+        "path": "/society/偏遠地區學校教育發展條例全解/",
+        "title": "偏遠地區學校教育發展條例全解：國家花了 175 億，還是擋不住人口重力",
+        "views": 18,
+        "users": 9,
+        "events": 48
       },
       {
         "path": "/technology/mini-taiwan-pulse/",
         "title": "Mini Taiwan Pulse：一個資料分析師如何把台灣的交通脈動畫成會呼吸的 3D 光軌",
         "views": 18,
-        "users": 9,
-        "events": 63
-      },
-      {
-        "path": "/economy/夜市經濟學/",
-        "title": "夜市經濟學：一場沒有品牌的商業奇蹟",
-        "views": 17,
-        "users": 12,
-        "events": 62
+        "users": 10,
+        "events": 66
       },
       {
         "path": "/en/society/taiwan-eswatini-relations/",
@@ -281,70 +302,49 @@
         "views": 17,
         "users": 5,
         "events": 41
-      },
-      {
-        "path": "/culture/台灣宗教與寺廟文化/",
-        "title": "台灣宗教信仰：在恐懼裡長出的信仰帝國",
-        "views": 16,
-        "users": 14,
-        "events": 38
-      },
-      {
-        "path": "/en/lifestyle/education-system/",
-        "title": "404",
-        "views": 16,
-        "users": 16,
-        "events": 63
-      },
-      {
-        "path": "/society/台灣政治環境與選舉制度/",
-        "title": "台灣政治環境與選舉制度",
-        "views": 16,
-        "users": 16,
-        "events": 51
       }
     ],
     "byLang": {
       "zh-TW": {
-        "views": 34450,
-        "users": 23903,
-        "sessions": 30165,
-        "avgEngagementSeconds": 105.3,
+        "views": 35551,
+        "users": 24675,
+        "sessions": 31140,
+        "avgEngagementSeconds": 107.3,
         "pageCount": 402
       },
       "en": {
-        "views": 2578,
-        "users": 2041,
-        "sessions": 2444,
-        "avgEngagementSeconds": 75.3,
-        "pageCount": 80
+        "views": 2675,
+        "users": 2123,
+        "sessions": 2532,
+        "avgEngagementSeconds": 77.7,
+        "pageCount": 84
       },
       "ja": {
-        "views": 92,
-        "users": 64,
-        "sessions": 71,
-        "avgEngagementSeconds": 196.6,
-        "pageCount": 6
+        "views": 74,
+        "users": 49,
+        "sessions": 54,
+        "avgEngagementSeconds": 224.6,
+        "pageCount": 4
       },
       "ko": {
-        "views": 183,
-        "users": 50,
-        "sessions": 72,
-        "avgEngagementSeconds": 426.5,
-        "pageCount": 6
+        "views": 174,
+        "users": 43,
+        "sessions": 65,
+        "avgEngagementSeconds": 445.0,
+        "pageCount": 5
       },
       "es": {
-        "views": 54,
-        "users": 54,
-        "sessions": 54,
-        "avgEngagementSeconds": 21.3,
-        "pageCount": 3
+        "views": 47,
+        "users": 47,
+        "sessions": 47,
+        "avgEngagementSeconds": 11.9,
+        "pageCount": 2
       },
       "fr": {
-        "views": 81,
-        "users": 65,
-        "sessions": 70,
-        "avgEngagementSeconds": 17.7,
+        "views": 84,
+        "users": 68,
+        "sessions": 73,
+        "avgEngagementSeconds": 13.0,
         "pageCount": 3
       }
     },
@@ -614,7 +614,7 @@
     "days": 7,
     "totals": {
       "clicks": 772,
-      "impressions": 86841,
+      "impressions": 86840,
       "ctr": 0.89
     },
     "brandBreakdown": {
@@ -624,9 +624,9 @@
         "ctr": 4.96
       },
       "nonBrand": {
-        "clicks": 157,
-        "impressions": 17343,
-        "ctr": 0.91
+        "clicks": 160,
+        "impressions": 17291,
+        "ctr": 0.93
       },
       "note": "Brand = queries containing 'taiwan.md' / 'taiwan md' / exact 'md' / 'taiwandotmd'. Total CTR aggregates both; brand CTR is usually 60-80%, nonBrand CTR reflects true external discoverability."
     },
@@ -686,6 +686,13 @@
         "impressions": 19,
         "ctr": 21.05,
         "position": 6.21
+      },
+      {
+        "query": "zhao zhihua coup",
+        "clicks": 4,
+        "impressions": 27,
+        "ctr": 14.81,
+        "position": 1.37
       },
       {
         "query": "張懸地下室",
@@ -763,13 +770,6 @@
         "impressions": 3,
         "ctr": 66.67,
         "position": 6
-      },
-      {
-        "query": "聶永真 agi",
-        "clicks": 2,
-        "impressions": 44,
-        "ctr": 4.55,
-        "position": 5.07
       }
     ],
     "opportunities": [
@@ -973,11 +973,6 @@
       {
         "query": "\"cho-yun hsu\" \"singer\"",
         "impressions": 80,
-        "clicks": 0
-      },
-      {
-        "query": "聶永真背景",
-        "impressions": 79,
         "clicks": 0
       },
       {
@@ -1271,6 +1266,11 @@
         "clicks": 0
       },
       {
+        "query": "zhao zhihua coup",
+        "impressions": 27,
+        "clicks": 4
+      },
+      {
         "query": "李雅英",
         "impressions": 27,
         "clicks": 0
@@ -1311,6 +1311,11 @@
         "clicks": 0
       },
       {
+        "query": "\"formed in 1999\" \"modern rock\" \"folk music\" band",
+        "impressions": 23,
+        "clicks": 0
+      },
+      {
         "query": "中华民国 邦交国 数量 2026",
         "impressions": 23,
         "clicks": 0
@@ -1328,11 +1333,6 @@
       {
         "query": "粽子",
         "impressions": 23,
-        "clicks": 0
-      },
-      {
-        "query": "\"formed in 1999\" \"modern rock\" \"folk music\" band",
-        "impressions": 22,
         "clicks": 0
       },
       {
@@ -1496,11 +1496,6 @@
         "clicks": 0
       },
       {
-        "query": "聶永真 背景",
-        "impressions": 17,
-        "clicks": 0
-      },
-      {
         "query": "\"republic of formosa\" \"liu mingchuan\"",
         "impressions": 16,
         "clicks": 0
@@ -1551,6 +1546,11 @@
         "clicks": 0
       },
       {
+        "query": "\"cho-yun hsu\" \"national taiwan university\"",
+        "impressions": 15,
+        "clicks": 0
+      },
+      {
         "query": "1990 taiwan mainland pop music singers albums launched",
         "impressions": 15,
         "clicks": 0
@@ -1588,139 +1588,148 @@
     ]
   },
   "cloudflare7d": {
-    "label": "2026-05-10 to 2026-05-17 (7d)",
-    "startDate": "2026-05-10",
-    "endDate": "2026-05-17",
+    "label": "2026-05-11 to 2026-05-18 (7d)",
+    "startDate": "2026-05-11",
+    "endDate": "2026-05-18",
     "days": 7,
     "summary": {
-      "requests": 331001,
-      "pageViews": 111169,
-      "uniques": 64887,
-      "cachedRequests": 20358,
+      "requests": 254133,
+      "pageViews": 92228,
+      "uniques": 64830,
+      "cachedRequests": 21504,
       "threats": 63,
-      "bytes": 30845594740
+      "bytes": 27459476324
     },
     "statusBreakdown": [
       {
         "status": 200,
-        "count": 190149
-      },
-      {
-        "status": 404,
-        "count": 71174
+        "count": 172626
       },
       {
         "status": 301,
-        "count": 47589
+        "count": 32702
+      },
+      {
+        "status": 404,
+        "count": 26239
       },
       {
         "status": 204,
-        "count": 16684
+        "count": 17265
       },
       {
         "status": 206,
-        "count": 2412
+        "count": 2373
       },
       {
         "status": 304,
-        "count": 2329
+        "count": 2302
       },
       {
         "status": 499,
-        "count": 236
+        "count": 232
       },
       {
         "status": 403,
         "count": 111
       },
       {
-        "status": 405,
-        "count": 93
-      },
-      {
         "status": 400,
-        "count": 92
+        "count": 94
       },
       {
         "status": 414,
         "count": 89
       },
       {
-        "status": 503,
-        "count": 39
+        "status": 405,
+        "count": 62
       },
       {
-        "status": 522,
-        "count": 4
+        "status": 503,
+        "count": 38
       }
     ],
-    "fourOhFourRate": 21.5,
+    "fourOhFourRate": 10.32,
     "traffic": {
       "topCountries": [
         {
           "country": "United States",
           "code": "US",
-          "requests": 94346
-        },
-        {
-          "country": "Hong Kong",
-          "code": "HK",
-          "requests": 74812
+          "requests": 90390
         },
         {
           "country": "Taiwan",
           "code": "TW",
-          "requests": 43274
+          "requests": 45999
         },
         {
           "country": "Singapore",
           "code": "SG",
-          "requests": 38996
+          "requests": 36206
         },
         {
           "country": "China",
           "code": "CN",
-          "requests": 14440
+          "requests": 15869
         },
         {
           "country": "France",
           "code": "FR",
-          "requests": 11027
-        },
-        {
-          "country": "Germany",
-          "code": "DE",
-          "requests": 7584
+          "requests": 10641
         },
         {
           "country": "Canada",
           "code": "CA",
-          "requests": 7326
+          "requests": 7973
+        },
+        {
+          "country": "Germany",
+          "code": "DE",
+          "requests": 7534
         },
         {
           "country": "Japan",
           "code": "JP",
-          "requests": 6053
+          "requests": 6043
         },
         {
           "country": "Vietnam",
           "code": "VN",
-          "requests": 4573
+          "requests": 4467
+        },
+        {
+          "country": "Malaysia",
+          "code": "MY",
+          "requests": 3809
         }
       ]
     },
     "dailyBreakdown": [
       {
+        "date": "2026-05-18",
+        "requests": 27146,
+        "pageViews": 8501,
+        "cachedRequests": 3152,
+        "threats": 0,
+        "bytes": 3331256033,
+        "uniques": 6139,
+        "status200": 18543,
+        "status404": 2169,
+        "status4xx": 2194,
+        "status5xx": 4
+      },
+      {
         "date": "2026-05-17",
-        "requests": 34382,
-        "pageViews": 10365,
-        "cachedRequests": 2871,
+        "requests": 36609,
+        "pageViews": 11074,
+        "cachedRequests": 3041,
         "threats": 54,
-        "bytes": 3997213934,
-        "uniques": 7950,
-        "status200": 21662,
-        "status404": 4544,
-        "status4xx": 4732,
+        "bytes": 4286802440,
+        "uniques": 8423,
+        "status200": 23180,
+        "status404": 4783,
+        "status4xx": 4973,
         "status5xx": 1
       },
       {
@@ -1800,97 +1809,84 @@
         "status404": 4084,
         "status4xx": 4116,
         "status5xx": 5
-      },
-      {
-        "date": "2026-05-10",
-        "requests": 106241,
-        "pageViews": 28151,
-        "cachedRequests": 2176,
-        "threats": 0,
-        "bytes": 7006962955,
-        "uniques": 6669,
-        "status200": 37584,
-        "status404": 47343,
-        "status4xx": 47403,
-        "status5xx": 9
       }
     ],
     "aiCrawlers": {
-      "detectedRequests": 68124,
-      "http200": 44525,
-      "allowedRequests": 68124,
-      "unsuccessfulRequests": 23599,
+      "detectedRequests": 67719,
+      "http200": 44578,
+      "allowedRequests": 67719,
+      "unsuccessfulRequests": 23141,
       "topCrawler": {
         "name": "BingBot",
-        "requests": 12382,
-        "http200": 7319,
+        "requests": 12131,
+        "http200": 7186,
         "category": "Microsoft"
       },
       "crawlers": [
         {
           "name": "BingBot",
-          "requests": 12382,
-          "http200": 7319,
+          "requests": 12131,
+          "http200": 7186,
           "category": "Microsoft"
         },
         {
           "name": "ChatGPT-User",
-          "requests": 10234,
-          "http200": 9631,
+          "requests": 10132,
+          "http200": 9603,
           "category": "OpenAI"
         },
         {
+          "name": "FacebookBot",
+          "requests": 7515,
+          "http200": 6776,
+          "category": "Meta"
+        },
+        {
           "name": "OAI-SearchBot",
-          "requests": 7419,
-          "http200": 2573,
+          "requests": 7486,
+          "http200": 2620,
           "category": "OpenAI"
         },
         {
           "name": "Googlebot",
-          "requests": 7380,
-          "http200": 4600,
+          "requests": 6734,
+          "http200": 4285,
           "category": "Google"
         },
         {
-          "name": "FacebookBot",
-          "requests": 7364,
-          "http200": 6630,
-          "category": "Meta"
-        },
-        {
           "name": "PetalBot",
-          "requests": 5315,
-          "http200": 3735,
+          "requests": 4748,
+          "http200": 3468,
           "category": "Huawei"
         },
         {
-          "name": "Bytespider",
-          "requests": 4176,
-          "http200": 1398,
-          "category": "ByteDance"
-        },
-        {
           "name": "PerplexityBot",
-          "requests": 4062,
-          "http200": 2397,
+          "requests": 4420,
+          "http200": 2606,
           "category": "Perplexity"
         },
         {
+          "name": "Bytespider",
+          "requests": 4309,
+          "http200": 1460,
+          "category": "ByteDance"
+        },
+        {
           "name": "Amazonbot",
-          "requests": 3347,
-          "http200": 1827,
+          "requests": 3745,
+          "http200": 2113,
           "category": "Amazon"
         },
         {
           "name": "Applebot",
-          "requests": 1811,
-          "http200": 1136,
+          "requests": 1642,
+          "http200": 1079,
           "category": "Apple"
         },
         {
           "name": "GPTBot",
-          "requests": 1416,
-          "http200": 898,
+          "requests": 1417,
+          "http200": 891,
           "category": "OpenAI"
         },
         {
@@ -1901,38 +1897,38 @@
         },
         {
           "name": "ClaudeBot",
-          "requests": 802,
-          "http200": 378,
+          "requests": 723,
+          "http200": 340,
           "category": "Anthropic"
         },
         {
           "name": "YandexBot",
-          "requests": 571,
-          "http200": 484,
+          "requests": 643,
+          "http200": 542,
           "category": "Yandex"
         },
         {
-          "name": "DuckDuckBot",
-          "requests": 378,
-          "http200": 312,
-          "category": "DuckDuckGo"
-        },
-        {
           "name": "Meta-ExternalAgent",
-          "requests": 366,
-          "http200": 154,
+          "requests": 587,
+          "http200": 238,
           "category": "Meta"
         },
         {
+          "name": "DuckDuckBot",
+          "requests": 384,
+          "http200": 316,
+          "category": "DuckDuckGo"
+        },
+        {
           "name": "Perplexity-User",
-          "requests": 18,
-          "http200": 12,
+          "requests": 19,
+          "http200": 13,
           "category": "Perplexity"
         },
         {
           "name": "Diffbot",
-          "requests": 11,
-          "http200": 11,
+          "requests": 12,
+          "http200": 12,
           "category": "Diffbot"
         },
         {
@@ -1943,8 +1939,8 @@
         }
       ],
       "period": {
-        "start": "2026-05-10T22:11:58Z",
-        "end": "2026-05-17T22:11:58Z",
+        "start": "2026-05-11T15:07:41Z",
+        "end": "2026-05-18T15:07:41Z",
         "days": 7,
         "daysFetched": 7,
         "daysFailed": 0

@@ -1,28 +1,28 @@
 {
-  "totalArticles": 4307,
+  "totalArticles": 4407,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 5687,
+  "totalTags": 6233,
   "categories": [
     {
       "name": "es",
-      "count": 706
+      "count": 724
     },
     {
       "name": "ko",
-      "count": 710
+      "count": 728
     },
     {
       "name": "fr",
-      "count": 726
+      "count": 744
     },
     {
       "name": "en",
-      "count": 727
+      "count": 745
     },
     {
       "name": "ja",
-      "count": 715
+      "count": 733
     },
     {
       "name": "History",
@@ -46,15 +46,15 @@
     },
     {
       "name": "Food",
-      "count": 52
+      "count": 53
     },
     {
       "name": "Economy",
-      "count": 51
+      "count": 52
     },
     {
       "name": "Technology",
-      "count": 46
+      "count": 47
     },
     {
       "name": "Lifestyle",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Geography",
-      "count": 42
+      "count": 49
     },
     {
       "name": "Art",
@@ -108,6 +108,14 @@
     },
     {
       "name": "文學",
+      "count": 28
+    },
+    {
+      "name": "TSMC",
+      "count": 26
+    },
+    {
+      "name": "金曲獎",
       "count": 26
     },
     {
@@ -127,11 +135,11 @@
       "count": 25
     },
     {
-      "name": "金曲獎",
-      "count": 25
+      "name": "原住民",
+      "count": 24
     },
     {
-      "name": "原住民",
+      "name": "高雄",
       "count": 24
     },
     {
@@ -147,34 +155,26 @@
       "count": 23
     },
     {
-      "name": "高雄",
-      "count": 23
-    },
-    {
-      "name": "TSMC",
+      "name": "YouTuber",
       "count": 22
     },
     {
-      "name": "YouTuber",
+      "name": "客家",
       "count": 22
     },
     {
       "name": "音樂",
       "count": 22
-    },
-    {
-      "name": "인물",
-      "count": 22
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4307,
+    "zh-TW": 4407,
     "en": 0
   },
-  "lastUpdated": "2026-05-17T22:12:44.753Z",
-  "stars": 991,
-  "forks": 147,
-  "zhPages": 3580,
-  "enPages": 727,
-  "totalPages": 4307
+  "lastUpdated": "2026-05-18T15:08:47.288Z",
+  "stars": 995,
+  "forks": 148,
+  "zhPages": 3662,
+  "enPages": 745,
+  "totalPages": 4407
 }
