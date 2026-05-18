@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-18T23:08:45+08:00",
-    "zhCommitHead": "9acb6605f",
-    "totalZh": 731,
+    "lastUpdated": "2026-05-19T05:06:25+08:00",
+    "zhCommitHead": "2cfdddc81",
+    "totalZh": 732,
     "activeLanguages": [
       "en",
       "ja",
@@ -12,43 +12,43 @@
     ],
     "summary": {
       "en": {
-        "total_zh": 731,
-        "fresh": 600,
+        "total_zh": 732,
+        "fresh": 607,
         "stale": 115,
-        "metadata_stale": 7,
-        "missing": 9,
+        "metadata_stale": 0,
+        "missing": 10,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 731,
-        "fresh": 597,
+        "total_zh": 732,
+        "fresh": 604,
         "stale": 118,
-        "metadata_stale": 7,
-        "missing": 9,
+        "metadata_stale": 0,
+        "missing": 10,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 731,
-        "fresh": 594,
+        "total_zh": 732,
+        "fresh": 601,
         "stale": 121,
-        "metadata_stale": 7,
-        "missing": 9,
+        "metadata_stale": 0,
+        "missing": 10,
         "orphan": 0
       },
       "es": {
-        "total_zh": 731,
-        "fresh": 599,
+        "total_zh": 732,
+        "fresh": 606,
         "stale": 116,
-        "metadata_stale": 7,
-        "missing": 9,
+        "metadata_stale": 0,
+        "missing": 10,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 731,
-        "fresh": 597,
+        "total_zh": 732,
+        "fresh": 604,
         "stale": 118,
-        "metadata_stale": 7,
-        "missing": 9,
+        "metadata_stale": 0,
+        "missing": 10,
         "orphan": 0
       }
     },
@@ -2453,6 +2453,31 @@
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "Music/周蕙.md": {
+      "zh": {
+        "lastCommit": "4183834d",
+        "lastModified": "2026-05-19T00:40:14+08:00",
+        "contentHash": "sha256:94c157b4ce51fa75",
+        "bodyHash": "sha256:2eee04086207a2ca"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },
@@ -6487,77 +6512,67 @@
         "en": {
           "path": "en/Technology/taiwan-drone-industry.md",
           "translatedFrom": "Technology/台灣無人機產業.md",
-          "sourceCommitSha": "29ba6a9a",
+          "sourceCommitSha": "b1db9f9a",
           "sourceContentHash": "sha256:9165b111d87b4581",
           "sourceBodyHash": "sha256:88f1bf8039ff02f6",
           "translatedAt": "2026-05-10T22:52:30+08:00",
           "translationLastCommit": "4ad0aa42",
           "translationLastModified": "2026-05-18T06:16:48+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Technology/taiwan-drone-industry.md",
           "translatedFrom": "Technology/台灣無人機產業.md",
-          "sourceCommitSha": "29ba6a9a",
+          "sourceCommitSha": "b1db9f9a",
           "sourceContentHash": "sha256:9165b111d87b4581",
           "sourceBodyHash": "sha256:88f1bf8039ff02f6",
           "translatedAt": "2026-05-10T22:52:30+08:00",
           "translationLastCommit": "4ad0aa42",
           "translationLastModified": "2026-05-18T06:16:48+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Technology/taiwan-drone-industry.md",
           "translatedFrom": "Technology/台灣無人機產業.md",
-          "sourceCommitSha": "29ba6a9a",
+          "sourceCommitSha": "b1db9f9a",
           "sourceContentHash": "sha256:9165b111d87b4581",
           "sourceBodyHash": "sha256:88f1bf8039ff02f6",
           "translatedAt": "2026-05-10T22:52:30+08:00",
           "translationLastCommit": "4ad0aa42",
           "translationLastModified": "2026-05-18T06:16:48+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Technology/taiwan-drone-industry.md",
           "translatedFrom": "Technology/台灣無人機產業.md",
-          "sourceCommitSha": "29ba6a9a",
+          "sourceCommitSha": "b1db9f9a",
           "sourceContentHash": "sha256:9165b111d87b4581",
           "sourceBodyHash": "sha256:88f1bf8039ff02f6",
           "translatedAt": "2026-05-10T22:52:31+08:00",
           "translationLastCommit": "4ad0aa42",
           "translationLastModified": "2026-05-18T06:16:48+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Technology/taiwan-drone-industry.md",
           "translatedFrom": "Technology/台灣無人機產業.md",
-          "sourceCommitSha": "29ba6a9a",
+          "sourceCommitSha": "b1db9f9a",
           "sourceContentHash": "sha256:9165b111d87b4581",
           "sourceBodyHash": "sha256:88f1bf8039ff02f6",
           "translatedAt": "2026-05-10T22:52:31+08:00",
           "translationLastCommit": "4ad0aa42",
           "translationLastModified": "2026-05-18T06:16:48+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -8047,77 +8062,67 @@
         "en": {
           "path": "en/Technology/taiwan-ai-in-daily-life.md",
           "translatedFrom": "Technology/台灣AI日常.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:2eb63bb848ef2986",
+          "sourceCommitSha": "96945e45",
+          "sourceContentHash": "sha256:82fef06f2fdc35ad",
           "sourceBodyHash": "sha256:21f036f1bf71fe83",
           "translatedAt": "2026-05-01T14:11:02+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Technology/taiwan-ai-in-daily-life.md",
           "translatedFrom": "Technology/台灣AI日常.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:2eb63bb848ef2986",
+          "sourceCommitSha": "96945e45",
+          "sourceContentHash": "sha256:82fef06f2fdc35ad",
           "sourceBodyHash": "sha256:21f036f1bf71fe83",
           "translatedAt": "2026-05-01T18:02:56+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Technology/taiwan-ai-in-daily-life.md",
           "translatedFrom": "Technology/台灣AI日常.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:2eb63bb848ef2986",
+          "sourceCommitSha": "96945e45",
+          "sourceContentHash": "sha256:82fef06f2fdc35ad",
           "sourceBodyHash": "sha256:21f036f1bf71fe83",
           "translatedAt": "2026-04-14T06:47:03+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Technology/taiwan-ai-in-daily-life.md",
           "translatedFrom": "Technology/台灣AI日常.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:2eb63bb848ef2986",
+          "sourceCommitSha": "96945e45",
+          "sourceContentHash": "sha256:82fef06f2fdc35ad",
           "sourceBodyHash": "sha256:21f036f1bf71fe83",
           "translatedAt": "2026-05-01T22:19:10+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Technology/taiwan-ai-in-daily-life.md",
           "translatedFrom": "Technology/台灣AI日常.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:2eb63bb848ef2986",
+          "sourceCommitSha": "96945e45",
+          "sourceContentHash": "sha256:82fef06f2fdc35ad",
           "sourceBodyHash": "sha256:21f036f1bf71fe83",
           "translatedAt": "2026-04-14T12:32:55+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+1 -0"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -32847,77 +32852,67 @@
         "en": {
           "path": "en/People/yoga-lin.md",
           "translatedFrom": "People/林宥嘉.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:ff4d0a0deab286ca",
+          "sourceCommitSha": "b358c802",
+          "sourceContentHash": "sha256:81084f8c4d60488a",
           "sourceBodyHash": "sha256:e37ed40c36801365",
           "translatedAt": "2026-05-01T12:53:58+08:00",
           "translationLastCommit": "b358c802",
           "translationLastModified": "2026-05-18T23:10:19+09:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/People/yoga-lin.md",
           "translatedFrom": "People/林宥嘉.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:ff4d0a0deab286ca",
+          "sourceCommitSha": "b358c802",
+          "sourceContentHash": "sha256:81084f8c4d60488a",
           "sourceBodyHash": "sha256:e37ed40c36801365",
           "translatedAt": "2026-05-01T18:02:56+08:00",
           "translationLastCommit": "b358c802",
           "translationLastModified": "2026-05-18T23:10:19+09:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/People/yoga-lin.md",
           "translatedFrom": "People/林宥嘉.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:ff4d0a0deab286ca",
+          "sourceCommitSha": "b358c802",
+          "sourceContentHash": "sha256:81084f8c4d60488a",
           "sourceBodyHash": "sha256:e37ed40c36801365",
           "translatedAt": "2026-05-01T20:54:10+08:00",
           "translationLastCommit": "b358c802",
           "translationLastModified": "2026-05-18T23:10:19+09:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/People/yoga-lin.md",
           "translatedFrom": "People/林宥嘉.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:ff4d0a0deab286ca",
+          "sourceCommitSha": "b358c802",
+          "sourceContentHash": "sha256:81084f8c4d60488a",
           "sourceBodyHash": "sha256:e37ed40c36801365",
           "translatedAt": "2026-05-01T20:54:23+08:00",
           "translationLastCommit": "b358c802",
           "translationLastModified": "2026-05-18T23:10:19+09:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/People/yoga-lin.md",
           "translatedFrom": "People/林宥嘉.md",
-          "sourceCommitSha": "4b6d28c5",
-          "sourceContentHash": "sha256:ff4d0a0deab286ca",
+          "sourceCommitSha": "b358c802",
+          "sourceContentHash": "sha256:81084f8c4d60488a",
           "sourceBodyHash": "sha256:e37ed40c36801365",
           "translatedAt": "2026-05-01T20:54:17+08:00",
           "translationLastCommit": "b358c802",
           "translationLastModified": "2026-05-18T23:10:19+09:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+3 -3"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -42070,67 +42065,67 @@
         "en": {
           "path": "en/Food/braised-pork-rice.md",
           "translatedFrom": "Food/台灣滷肉飯.md",
-          "sourceCommitSha": "d6e87d07",
-          "sourceContentHash": "sha256:a48bbcb702fb632d",
+          "sourceCommitSha": "30569f74",
+          "sourceContentHash": "sha256:6170c025ca20811f",
           "sourceBodyHash": "sha256:41cfdb3eed2dcde1",
           "translatedAt": "2026-05-17T06:00:00Z",
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "sha-lost-body-match"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Food/braised-pork-rice.md",
           "translatedFrom": "Food/台灣滷肉飯.md",
-          "sourceCommitSha": "d6e87d07",
-          "sourceContentHash": "sha256:a48bbcb702fb632d",
+          "sourceCommitSha": "30569f74",
+          "sourceContentHash": "sha256:6170c025ca20811f",
           "sourceBodyHash": "sha256:41cfdb3eed2dcde1",
           "translatedAt": "2026-05-17T05:33:00Z",
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "sha-lost-body-match"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Food/braised-pork-rice.md",
           "translatedFrom": "Food/台灣滷肉飯.md",
-          "sourceCommitSha": "d6e87d07",
-          "sourceContentHash": "sha256:a48bbcb702fb632d",
+          "sourceCommitSha": "30569f74",
+          "sourceContentHash": "sha256:6170c025ca20811f",
           "sourceBodyHash": "sha256:41cfdb3eed2dcde1",
           "translatedAt": "2026-05-17T05:33:00Z",
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "sha-lost-body-match"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Food/braised-pork-rice.md",
           "translatedFrom": "Food/台灣滷肉飯.md",
-          "sourceCommitSha": "d6e87d07",
-          "sourceContentHash": "sha256:a48bbcb702fb632d",
+          "sourceCommitSha": "30569f74",
+          "sourceContentHash": "sha256:6170c025ca20811f",
           "sourceBodyHash": "sha256:41cfdb3eed2dcde1",
           "translatedAt": "2026-05-17T05:33:00Z",
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "sha-lost-body-match"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Food/braised-pork-rice.md",
           "translatedFrom": "Food/台灣滷肉飯.md",
-          "sourceCommitSha": "d6e87d07",
-          "sourceContentHash": "sha256:a48bbcb702fb632d",
+          "sourceCommitSha": "30569f74",
+          "sourceContentHash": "sha256:6170c025ca20811f",
           "sourceBodyHash": "sha256:41cfdb3eed2dcde1",
           "translatedAt": "2026-05-17T05:33:00Z",
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "sha-lost-body-match"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -43072,77 +43067,67 @@
         "en": {
           "path": "en/Food/apple-cider.md",
           "translatedFrom": "Food/蘋果西打.md",
-          "sourceCommitSha": "29ba6a9a",
+          "sourceCommitSha": "b1db9f9a",
           "sourceContentHash": "sha256:d5c03b3e99b6070e",
           "sourceBodyHash": "sha256:9492c1f3797c0e5c",
           "translatedAt": "2026-05-12T11:51:04+08:00",
           "translationLastCommit": "4ad0aa42",
           "translationLastModified": "2026-05-18T06:16:48+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -2"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Food/apple-cider.md",
           "translatedFrom": "Food/蘋果西打.md",
-          "sourceCommitSha": "29ba6a9a",
+          "sourceCommitSha": "b1db9f9a",
           "sourceContentHash": "sha256:d5c03b3e99b6070e",
           "sourceBodyHash": "sha256:9492c1f3797c0e5c",
           "translatedAt": "2026-05-12T11:51:04+08:00",
           "translationLastCommit": "4ad0aa42",
           "translationLastModified": "2026-05-18T06:16:48+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -2"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Food/apple-cider.md",
           "translatedFrom": "Food/蘋果西打.md",
-          "sourceCommitSha": "29ba6a9a",
+          "sourceCommitSha": "b1db9f9a",
           "sourceContentHash": "sha256:d5c03b3e99b6070e",
           "sourceBodyHash": "sha256:9492c1f3797c0e5c",
           "translatedAt": "2026-05-12T11:51:04+08:00",
           "translationLastCommit": "4ad0aa42",
           "translationLastModified": "2026-05-18T06:16:48+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -2"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Food/apple-cider.md",
           "translatedFrom": "Food/蘋果西打.md",
-          "sourceCommitSha": "29ba6a9a",
+          "sourceCommitSha": "b1db9f9a",
           "sourceContentHash": "sha256:d5c03b3e99b6070e",
           "sourceBodyHash": "sha256:9492c1f3797c0e5c",
           "translatedAt": "2026-05-12T11:51:05+08:00",
           "translationLastCommit": "4ad0aa42",
           "translationLastModified": "2026-05-18T06:16:48+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -2"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Food/apple-cider.md",
           "translatedFrom": "Food/蘋果西打.md",
-          "sourceCommitSha": "29ba6a9a",
+          "sourceCommitSha": "b1db9f9a",
           "sourceContentHash": "sha256:d5c03b3e99b6070e",
           "sourceBodyHash": "sha256:9492c1f3797c0e5c",
           "translatedAt": "2026-05-12T11:51:05+08:00",
           "translationLastCommit": "4ad0aa42",
           "translationLastModified": "2026-05-18T06:16:48+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+6 -2"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -44144,67 +44129,67 @@
         "en": {
           "path": "en/Food/bubble-tea.md",
           "translatedFrom": "Food/珍珠奶茶.md",
-          "sourceCommitSha": "d6e87d07",
-          "sourceContentHash": "sha256:0cf880e658e73d67",
+          "sourceCommitSha": "30569f74",
+          "sourceContentHash": "sha256:d90e80b19559290b",
           "sourceBodyHash": "sha256:9bc13bf8c8054628",
           "translatedAt": "2026-05-16T21:50:00Z",
           "translationLastCommit": "cf90406b",
           "translationLastModified": "2026-05-17T06:12:59+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "sha-lost-body-match"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Food/bubble-tea.md",
           "translatedFrom": "Food/珍珠奶茶.md",
-          "sourceCommitSha": "d6e87d07",
-          "sourceContentHash": "sha256:0cf880e658e73d67",
+          "sourceCommitSha": "30569f74",
+          "sourceContentHash": "sha256:d90e80b19559290b",
           "sourceBodyHash": "sha256:9bc13bf8c8054628",
           "translatedAt": "2026-05-17T06:35:00Z",
           "translationLastCommit": "3521fd77",
           "translationLastModified": "2026-05-17T06:34:49+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "sha-lost-body-match"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Food/bubble-tea.md",
           "translatedFrom": "Food/珍珠奶茶.md",
-          "sourceCommitSha": "d6e87d07",
-          "sourceContentHash": "sha256:0cf880e658e73d67",
+          "sourceCommitSha": "30569f74",
+          "sourceContentHash": "sha256:d90e80b19559290b",
           "sourceBodyHash": "sha256:9bc13bf8c8054628",
           "translatedAt": "2026-05-16T22:20:00Z",
           "translationLastCommit": "3521fd77",
           "translationLastModified": "2026-05-17T06:34:49+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "sha-lost-body-match"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Food/bubble-tea.md",
           "translatedFrom": "Food/珍珠奶茶.md",
-          "sourceCommitSha": "d6e87d07",
-          "sourceContentHash": "sha256:0cf880e658e73d67",
+          "sourceCommitSha": "30569f74",
+          "sourceContentHash": "sha256:d90e80b19559290b",
           "sourceBodyHash": "sha256:9bc13bf8c8054628",
           "translatedAt": "2026-05-16T22:20:03Z",
           "translationLastCommit": "3521fd77",
           "translationLastModified": "2026-05-17T06:34:49+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "sha-lost-body-match"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Food/bubble-tea.md",
           "translatedFrom": "Food/珍珠奶茶.md",
-          "sourceCommitSha": "d6e87d07",
-          "sourceContentHash": "sha256:0cf880e658e73d67",
+          "sourceCommitSha": "30569f74",
+          "sourceContentHash": "sha256:d90e80b19559290b",
           "sourceBodyHash": "sha256:9bc13bf8c8054628",
           "translatedAt": "2026-05-17T06:15:00Z",
           "translationLastCommit": "3521fd77",
           "translationLastModified": "2026-05-17T06:34:49+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "sha-lost-body-match"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -45579,77 +45564,67 @@
         "en": {
           "path": "en/History/resolution-on-taiwans-future.md",
           "translatedFrom": "History/臺灣前途決議文.md",
-          "sourceCommitSha": "1f0b41e4d",
+          "sourceCommitSha": "b1db9f9a",
           "sourceContentHash": "sha256:4f37e9db9519dd6b",
           "sourceBodyHash": "sha256:c8ff273540a02078",
           "translatedAt": "2026-05-18T05:08:07+08:00",
           "translationLastCommit": "d106a126",
           "translationLastModified": "2026-05-18T09:47:16+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/History/resolution-on-taiwans-future.md",
           "translatedFrom": "History/臺灣前途決議文.md",
-          "sourceCommitSha": "1f0b41e4d",
+          "sourceCommitSha": "b1db9f9a",
           "sourceContentHash": "sha256:4f37e9db9519dd6b",
           "sourceBodyHash": "sha256:c8ff273540a02078",
           "translatedAt": "2026-05-18T05:08:08+08:00",
           "translationLastCommit": "d106a126",
           "translationLastModified": "2026-05-18T09:47:16+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/History/resolution-on-taiwans-future.md",
           "translatedFrom": "History/臺灣前途決議文.md",
-          "sourceCommitSha": "1f0b41e4d",
+          "sourceCommitSha": "b1db9f9a",
           "sourceContentHash": "sha256:4f37e9db9519dd6b",
           "sourceBodyHash": "sha256:c8ff273540a02078",
           "translatedAt": "2026-05-18T05:08:08+08:00",
           "translationLastCommit": "d106a126",
           "translationLastModified": "2026-05-18T09:47:16+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/History/resolution-on-taiwans-future.md",
           "translatedFrom": "History/臺灣前途決議文.md",
-          "sourceCommitSha": "1f0b41e4d",
+          "sourceCommitSha": "b1db9f9a",
           "sourceContentHash": "sha256:4f37e9db9519dd6b",
           "sourceBodyHash": "sha256:c8ff273540a02078",
           "translatedAt": "2026-05-18T05:08:09+08:00",
           "translationLastCommit": "d106a126",
           "translationLastModified": "2026-05-18T09:47:16+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/History/resolution-on-taiwans-future.md",
           "translatedFrom": "History/臺灣前途決議文.md",
-          "sourceCommitSha": "1f0b41e4d",
+          "sourceCommitSha": "b1db9f9a",
           "sourceContentHash": "sha256:4f37e9db9519dd6b",
           "sourceBodyHash": "sha256:c8ff273540a02078",
           "translatedAt": "2026-05-18T05:08:09+08:00",
           "translationLastCommit": "d106a126",
           "translationLastModified": "2026-05-18T09:47:16+08:00",
           "inferred": false,
-          "status": "metadata-stale",
-          "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+7 -7"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },

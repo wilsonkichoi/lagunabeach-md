@@ -18,8 +18,8 @@ lastVerified: 2026-05-16
 lastHumanReview: true
 featured: true
 translatedFrom: 'Food/台灣滷肉飯.md'
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:a48bbcb702fb632d'
+sourceCommitSha: '30569f74'
+sourceContentHash: 'sha256:6170c025ca20811f'
 sourceBodyHash: 'sha256:41cfdb3eed2dcde1'
 translatedAt: '2026-05-17T05:33:00Z'
 ---

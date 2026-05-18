@@ -10,8 +10,8 @@ readingTime: 8
 featured: false
 translatedFrom: 'Technology/台灣AI日常.md'
 lastVerified: 2026-03-29
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:2eb63bb848ef2986'
+sourceCommitSha: '96945e45'
+sourceContentHash: 'sha256:82fef06f2fdc35ad'
 sourceBodyHash: 'sha256:21f036f1bf71fe83'
 translatedAt: '2026-04-14T06:47:03+08:00'
 ---

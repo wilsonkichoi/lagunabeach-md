@@ -13,8 +13,8 @@ image: 'https://upload.wikimedia.org/wikipedia/commons/1/18/Classic_bubble_tea.j
 imageAlt: '珍珠奶茶'
 imageCredit: 'Wikimedia Commons, CC BY-SA'
 translatedFrom: 'Food/珍珠奶茶.md'
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:0cf880e658e73d67'
+sourceCommitSha: '30569f74'
+sourceContentHash: 'sha256:d90e80b19559290b'
 sourceBodyHash: 'sha256:9bc13bf8c8054628'
 translatedAt: '2026-05-16T21:50:00Z'
 ---

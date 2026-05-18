@@ -11,9 +11,9 @@ lastVerified: 2026-05-17
 lastHumanReview: false
 featured: false
 translatedFrom: History/臺灣前途決議文.md
-sourceCommitSha: 1f0b41e4d
-sourceContentHash: sha256:4f37e9db9519dd6b
-sourceBodyHash: sha256:c8ff273540a02078
+sourceCommitSha: 'b1db9f9a'
+sourceContentHash: 'sha256:4f37e9db9519dd6b'
+sourceBodyHash: 'sha256:c8ff273540a02078'
 translatedAt: 2026-05-18T05:08:08+08:00
 ---
 
