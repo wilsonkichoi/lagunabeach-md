@@ -116,6 +116,16 @@ export interface Props {
    * tight   = tracking-[0.08em]   (taiwan-shape — narrower editorial)
    */
   eyebrowTracking?: 'default' | 'tight';
+
+  /**
+   * Hero layout mode.
+   * - 'centered' (default) — classic tall hero with title centered, eyebrow on top, subtitle below
+   * - 'inline'             — slim horizontal strip; title + subtitle side-by-side (wraps on mobile),
+   *                          left-aligned, minimal vertical padding. Use for content-heavy pages
+   *                          (map / data dashboards) where the hero must not eat first-fold viewport.
+   *                          When 'inline', titleSize/padding/eyebrow are overridden to compact values.
+   */
+  layout?: 'centered' | 'inline';
 }
 
 const {
@@ -126,7 +136,7 @@ const {
   titleVariant = 'solid',
   titleColor,
   titleGradient,
-  titleSize = 'lg',
+  titleSize: titleSizeProp = 'lg',
   titleFont = 'display',
   titleWeight = 'black',
   titleTracking = 'tight',
@@ -135,18 +145,26 @@ const {
   bgColor,
   bgGradient,
   containerWidth = 'default',
-  padding = 'default',
+  padding: paddingProp = 'default',
   accentColor,
   eyebrowTracking = 'default',
+  layout = 'centered',
 } = Astro.props;
 
+// Inline layout overrides — smaller title, tighter padding, left-aligned strip
+const isInline = layout === 'inline';
+const titleSize = isInline ? 'sm' : titleSizeProp;
+const padding = isInline ? 'inline' : paddingProp;
+
 // ── Title size presets ──
-const titleSizeClass = {
-  sm: 'text-[2.2rem] max-[640px]:text-[1.6rem]',
-  md: 'text-[2.8rem] max-[600px]:text-[2rem]',
-  lg: 'text-[3.5rem] max-[768px]:text-[2.5rem] max-[480px]:text-[2rem]',
-  clamp: 'text-[clamp(2.5rem,6vw,3.5rem)]',
-}[titleSize];
+const titleSizeClass = isInline
+  ? 'text-[1.5rem] max-[640px]:text-[1.25rem]'
+  : {
+      sm: 'text-[2.2rem] max-[640px]:text-[1.6rem]',
+      md: 'text-[2.8rem] max-[600px]:text-[2rem]',
+      lg: 'text-[3.5rem] max-[768px]:text-[2.5rem] max-[480px]:text-[2rem]',
+      clamp: 'text-[clamp(2.5rem,6vw,3.5rem)]',
+    }[titleSize];
 
 // ── Title font stack ──
 // 'display' applies the `hero-title` class so justfont's dynamic
@@ -204,10 +222,11 @@ const isFullWidth = containerWidth === 'full';
 
 // ── Vertical padding presets ──
 const paddingClass = {
+  inline: 'py-5 max-[768px]:py-4',
   compact: 'py-8 max-[768px]:py-6',
   default: 'py-16 max-[768px]:py-8',
   spacious: 'py-20 max-[768px]:py-12',
-}[padding];
+}[padding] || 'py-5';
 
 // ── Horizontal padding ──
 // When there's a bg fill (solid or gradient), put px on the section so
@@ -258,7 +277,10 @@ const hasFooter = Astro.slots.has('footer');
 <section class:list={['page-hero', sectionPaddingX]} style={sectionStyle}>
   <div
     class:list={[
-      'mx-auto text-center',
+      'mx-auto',
+      isInline
+        ? 'flex flex-row flex-wrap items-baseline gap-x-4 gap-y-1 text-left max-[640px]:flex-col max-[640px]:items-start'
+        : 'text-center',
       containerWidthClass,
       innerPaddingX,
       paddingClass,
@@ -267,7 +289,7 @@ const hasFooter = Astro.slots.has('footer');
     style={containerWidthStyle}
   >
     {
-      hasEyebrow && (
+      hasEyebrow && !isInline && (
         <p
           class:list={[
             'mb-3 text-[0.9rem] uppercase',
@@ -285,7 +307,7 @@ const hasFooter = Astro.slots.has('footer');
       hasTitle && (
         <h1
           class:list={[
-            'mb-4',
+            isInline ? 'm-0' : 'mb-4',
             titleFontClass,
             titleWeightClass,
             titleTrackingClass,
@@ -304,7 +326,9 @@ const hasFooter = Astro.slots.has('footer');
         (subtitleHtml ? (
           <p
             class:list={[
-              'mx-auto mt-4 max-w-[600px] text-[1.3rem] leading-[1.7] max-[768px]:text-[1.1rem]',
+              isInline
+                ? 'm-0 text-[0.9rem] leading-[1.4] max-[640px]:text-[0.85rem]'
+                : 'mx-auto mt-4 max-w-[600px] text-[1.3rem] leading-[1.7] max-[768px]:text-[1.1rem]',
               subtitleToneClass,
             ]}
             set:html={subtitleHtml}
@@ -312,7 +336,9 @@ const hasFooter = Astro.slots.has('footer');
         ) : (
           <p
             class:list={[
-              'mx-auto mt-4 max-w-[600px] text-[1.3rem] leading-[1.7] max-[768px]:text-[1.1rem]',
+              isInline
+                ? 'm-0 text-[0.9rem] leading-[1.4] max-[640px]:text-[0.85rem]'
+                : 'mx-auto mt-4 max-w-[600px] text-[1.3rem] leading-[1.7] max-[768px]:text-[1.1rem]',
               subtitleToneClass,
             ]}
           >

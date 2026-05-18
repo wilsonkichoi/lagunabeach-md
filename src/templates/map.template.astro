@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import PageHero from '../components/PageHero.astro';
+import ArticleCard from '../components/ArticleCard.astro';
 import markersData from '../data/map-markers.json';
 import counties22Data from '../data/counties-22.json';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
@@ -37,13 +38,24 @@ const routesData = getMapRoutes(t);
       sidebar list pattern (.sidebar-article-item, .article-*,
       .category-group*), and the route picker (.route-btn states).
     -->
-    <!-- 緊湊 hero：1 行 title + 1 行 subtitle，不佔太多上方空間 -->
-    <section class="map-compact-hero">
-      <div class="map-compact-inner">
-        <h1 class="map-compact-title">{t('map.hero.title')}</h1>
-        <p class="map-compact-subtitle">{t('map.hero.subtitle')}</p>
-      </div>
-    </section>
+    <!-- Compact hero — 用共用 PageHero 的 layout="inline" variant -->
+    <PageHero
+      layout="inline"
+      bgVariant="gradient"
+      bgGradient="linear-gradient(135deg, #1a3c34 0%, #14532d 100%)"
+      bgTone="dark"
+      titleVariant="inherit"
+      titleFont="sans"
+      titleWeight="bold"
+      containerWidth="wide"
+      title={t('map.hero.title')}
+      subtitle={t('map.hero.subtitle')}
+    />
+
+    <!-- Hidden: 確保 ArticleCard 的 is:global CSS 被 bundled 進頁面（即使動態 innerHTML 用） -->
+    <div style="display:none" aria-hidden="true">
+      <ArticleCard title="_" density="compact" />
+    </div>
 
     <!-- 隱藏：保留 regionFilters / categoryFilters DOM 給既有 JS 用，但實際 UI 在 sidebar -->
     <div id="hiddenFiltersHost" style="display:none">
@@ -717,97 +729,18 @@ const routesData = getMapRoutes(t);
     border-color: #16a34a;
   }
 
-  /* === Unified article card（套用到所有 sidebar 文章 / route stops） === */
-  /* sidebar-article-item 套上 article-card class；route-stop-card 也用同一系列 */
-  :global(.article-card),
-  :global(.sidebar-article-item) {
+  /* Article card 樣式全部在 src/components/ArticleCard.astro 內 is:global，
+     map.template 不需重複定義；route-stop-card 客製化也內化進 ArticleCard。
+     Sidebar legacy class .sidebar-article-item 同時帶 article-card class
+     確保套用 base styles，下方僅補 dynamic-only legacy alias： */
+  :global(.sidebar-article-item:not(.article-card)) {
+    /* fallback for any legacy callsite that didn't get article-card class */
     display: flex;
-    align-items: flex-start;
-    gap: 10px;
     padding: 12px 14px;
-    margin: 6px 0;
     border: 1px solid #e5e7eb;
     border-radius: 10px;
     background: white;
-    cursor: pointer;
-    transition:
-      transform 0.16s,
-      border-color 0.16s,
-      box-shadow 0.16s,
-      background 0.16s;
-    text-decoration: none;
-    color: inherit;
-    text-align: left;
-    font-family: inherit;
-    width: 100%;
-  }
-  :global(.article-card:hover),
-  :global(.sidebar-article-item:hover) {
-    border-color: #16a34a;
-    background: #fafdf6;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 10px rgba(22, 163, 74, 0.08);
-  }
-  :global(.article-card-body) {
-    flex: 1;
-    min-width: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-  }
-  :global(.article-card-title) {
-    font-size: 0.9rem;
-    font-weight: 700;
-    color: #14532d;
-    margin: 0;
-    line-height: 1.35;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-  }
-  :global(.article-card-desc) {
-    font-size: 0.78rem;
-    color: #6b7280;
-    line-height: 1.45;
-    margin: 0;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-  }
-  :global(.article-card-cta) {
-    font-size: 0.72rem;
-    color: #16a34a;
-    font-weight: 600;
-    margin-top: 2px;
-  }
-  :global(.article-card-meta) {
-    font-size: 0.7rem;
-    color: #9ca3af;
-    margin-top: 2px;
-    font-weight: 500;
-  }
-  :global(.article-card-dot) {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    flex-shrink: 0;
-    margin-top: 6px;
-  }
-  /* Route stop card 的數字徽章（在 article-card 內左側）*/
-  :global(.route-stop-card .stop-number) {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.85rem;
-    font-weight: 700;
-    flex-shrink: 0;
-    margin-top: 2px;
+    margin: 6px 0;
   }
 
   .article-category-dot {
@@ -968,43 +901,6 @@ const routesData = getMapRoutes(t);
     padding: 2rem 0;
     color: #6b7280;
     font-size: 0.9rem;
-  }
-
-  /* === Compact hero（佔最小空間）=== */
-  .map-compact-hero {
-    background: linear-gradient(135deg, #1a3c34 0%, #14532d 100%);
-    padding: 1.25rem 1rem;
-    color: white;
-  }
-  .map-compact-inner {
-    max-width: 1400px;
-    margin: 0 auto;
-    display: flex;
-    align-items: baseline;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-  .map-compact-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin: 0;
-    color: white;
-  }
-  .map-compact-subtitle {
-    font-size: 0.9rem;
-    margin: 0;
-    color: rgba(255, 255, 255, 0.78);
-    line-height: 1.4;
-  }
-  @media (max-width: 640px) {
-    .map-compact-inner {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 0.35rem;
-    }
-    .map-compact-title {
-      font-size: 1.25rem;
-    }
   }
 
   /* === Route bar — 緊湊 pill 水平 scroll bar === */
@@ -1838,9 +1734,9 @@ const routesData = getMapRoutes(t);
               ?.scrollIntoView({ block: 'start', behavior: 'smooth' });
           }
         } else {
-          // fallback: 直接 navigate
+          // fallback: 開新分頁
           const data = counties22[countyName];
-          if (data) window.location.assign(data.link);
+          if (data) window.open(data.link, '_blank', 'noopener');
         }
       });
     });
@@ -1927,7 +1823,7 @@ const routesData = getMapRoutes(t);
       ? `${deep.readingTime} ${i18n_readingTime}`
       : '';
     return `
-      <a class="deep-article-card" href="${deep.link}" target="_self">
+      <a class="deep-article-card" href="${deep.link}" target="_blank" rel="noopener noreferrer">
         ${heroHTML}
         <div class="deep-card-body">
           <span class="deep-card-badge">📖 22 縣市系列 · 深度文章</span>
