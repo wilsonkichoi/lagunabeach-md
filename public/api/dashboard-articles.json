@@ -1,5 +1,36 @@
 [
   {
+    "title": "周蕙：唱了 25 年〈約定〉的女聲，從漫畫娃娃到小巨蛋的長跑",
+    "slug": "周蕙",
+    "category": "music",
+    "subcategory": "歌手",
+    "date": "2026-05-19",
+    "lastModified": "2026-05-19",
+    "lastVerified": "2026-05-19",
+    "lastHumanReview": false,
+    "featured": false,
+    "wordCount": 6947,
+    "tagCount": 0,
+    "tags": [],
+    "translations": {
+      "en": false,
+      "ja": false,
+      "ko": false,
+      "es": false,
+      "fr": false
+    },
+    "revision": 1,
+    "commitHash": "4183834d",
+    "commitSubject": "🧬 [routine] twmd-rewrite: 周蕙 NEW — 2026-05-19",
+    "description": "1999 年福茂發行《周蕙精選》，封面用一隻叫蕙兒的漫畫娃娃代替她本人的臉。〈約定〉走進每一間 KTV、走過 25 年，她的本人卻始終比歌晚一步被認出來。2026 年 4 月 25 日她第一次站上小巨蛋，演唱會尾聲卻宣布聲帶萎縮，「不曉得這會不會是最後一次唱歌給大家聽」。一個翻唱歌手的 25 年長跑。",
+    "healthScore": 43,
+    "qualityScore": 0,
+    "formatIssues": 0,
+    "hasOverview": true,
+    "hasReading": true,
+    "fnCount": 34
+  },
+  {
     "title": "台灣科技園區外圍商圈生態",
     "slug": "台灣科技園區外圍商圈生態",
     "category": "economy",

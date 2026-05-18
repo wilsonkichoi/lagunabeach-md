@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T15:08:47.700Z",
+  "lastUpdated": "2026-05-18T22:12:14.641Z",
   "languages": [
     "zh-TW",
     "en",
@@ -10,72 +10,72 @@
   ],
   "summary": {
     "zh-TW": {
-      "total": 729,
+      "total": 730,
       "percentage": 100,
-      "fresh": 729,
+      "fresh": 730,
       "stale": 0,
       "missing": 0,
       "deficit": 0
     },
     "en": {
       "total": 722,
-      "percentage": 98.8,
+      "percentage": 98.6,
       "fresh": 600,
       "metadataStale": 7,
       "stale": 115,
-      "missing": 9,
+      "missing": 10,
       "orphan": 0,
-      "deficit": 9,
-      "freshPct": 82.1,
-      "bodyFreshPct": 83
+      "deficit": 10,
+      "freshPct": 82,
+      "bodyFreshPct": 82.9
     },
     "ja": {
       "total": 722,
-      "percentage": 98.8,
+      "percentage": 98.6,
       "fresh": 597,
       "metadataStale": 7,
       "stale": 118,
-      "missing": 9,
+      "missing": 10,
       "orphan": 0,
-      "deficit": 9,
-      "freshPct": 81.7,
-      "bodyFreshPct": 82.6
+      "deficit": 10,
+      "freshPct": 81.6,
+      "bodyFreshPct": 82.5
     },
     "ko": {
       "total": 722,
-      "percentage": 98.8,
+      "percentage": 98.6,
       "fresh": 594,
       "metadataStale": 7,
       "stale": 121,
-      "missing": 9,
+      "missing": 10,
       "orphan": 0,
-      "deficit": 9,
-      "freshPct": 81.3,
-      "bodyFreshPct": 82.2
+      "deficit": 10,
+      "freshPct": 81.1,
+      "bodyFreshPct": 82.1
     },
     "es": {
       "total": 722,
-      "percentage": 98.8,
+      "percentage": 98.6,
       "fresh": 599,
       "metadataStale": 7,
       "stale": 116,
-      "missing": 9,
+      "missing": 10,
       "orphan": 0,
-      "deficit": 9,
-      "freshPct": 81.9,
-      "bodyFreshPct": 82.9
+      "deficit": 10,
+      "freshPct": 81.8,
+      "bodyFreshPct": 82.8
     },
     "fr": {
       "total": 722,
-      "percentage": 98.8,
+      "percentage": 98.6,
       "fresh": 597,
       "metadataStale": 7,
       "stale": 118,
-      "missing": 9,
+      "missing": 10,
       "orphan": 0,
-      "deficit": 9,
-      "freshPct": 81.7,
-      "bodyFreshPct": 82.6
+      "deficit": 10,
+      "freshPct": 81.6,
+      "bodyFreshPct": 82.5
     }
   },
   "matrix": {
@@ -384,41 +384,41 @@
       }
     },
     "music": {
-      "zh-TW": 31,
+      "zh-TW": 32,
       "en": {
         "count": 31,
         "fresh": 24,
         "stale": 7,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "ja": {
         "count": 31,
         "fresh": 24,
         "stale": 7,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "ko": {
         "count": 31,
         "fresh": 24,
         "stale": 7,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "es": {
         "count": 31,
         "fresh": 24,
         "stale": 7,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       },
       "fr": {
         "count": 31,
         "fresh": 24,
         "stale": 7,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 1
       }
     },
     "nature": {
@@ -576,6 +576,7 @@
   },
   "missing": {
     "en": [
+      "Music/周蕙：唱了 25 年〈約定〉的女聲，從漫畫娃娃到小巨蛋的長跑.md",
       "Economy/台灣科技園區外圍商圈生態.md",
       "Food/台灣美食總覽：沒有一道菜是純粹台灣的，每一道菜都是最台灣的.md",
       "Geography/台中市：1887 年差點當首都，2010 年才變第二大直轄市.md",
@@ -588,6 +589,7 @@
       "Technology/半導體產業.md"
     ],
     "ja": [
+      "Music/周蕙：唱了 25 年〈約定〉的女聲，從漫畫娃娃到小巨蛋的長跑.md",
       "Economy/台灣科技園區外圍商圈生態.md",
       "Food/台灣美食總覽：沒有一道菜是純粹台灣的，每一道菜都是最台灣的.md",
       "Geography/台中市：1887 年差點當首都，2010 年才變第二大直轄市.md",
@@ -599,6 +601,7 @@
       "Geography/高雄市：1979 升格直轄市那一年，台北的監獄裡關著八個高雄人.md"
     ],
     "ko": [
+      "Music/周蕙：唱了 25 年〈約定〉的女聲，從漫畫娃娃到小巨蛋的長跑.md",
       "Economy/台灣科技園區外圍商圈生態.md",
       "Food/台灣美食總覽：沒有一道菜是純粹台灣的，每一道菜都是最台灣的.md",
       "Geography/台中市：1887 年差點當首都，2010 年才變第二大直轄市.md",
@@ -610,6 +613,7 @@
       "Geography/高雄市：1979 升格直轄市那一年，台北的監獄裡關著八個高雄人.md"
     ],
     "es": [
+      "Music/周蕙：唱了 25 年〈約定〉的女聲，從漫畫娃娃到小巨蛋的長跑.md",
       "Economy/台灣科技園區外圍商圈生態.md",
       "Food/台灣美食總覽：沒有一道菜是純粹台灣的，每一道菜都是最台灣的.md",
       "Geography/台中市：1887 年差點當首都，2010 年才變第二大直轄市.md",
@@ -621,6 +625,7 @@
       "Geography/高雄市：1979 升格直轄市那一年，台北的監獄裡關著八個高雄人.md"
     ],
     "fr": [
+      "Music/周蕙：唱了 25 年〈約定〉的女聲，從漫畫娃娃到小巨蛋的長跑.md",
       "Economy/台灣科技園區外圍商圈生態.md",
       "Food/台灣美食總覽：沒有一道菜是純粹台灣的，每一道菜都是最台灣的.md",
       "Geography/台中市：1887 年差點當首都，2010 年才變第二大直轄市.md",

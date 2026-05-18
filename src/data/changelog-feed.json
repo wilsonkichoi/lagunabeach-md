@@ -1,7 +1,55 @@
 {
-  "generatedAt": "2026-05-18T15:08:46.325Z",
+  "generatedAt": "2026-05-18T22:12:13.209Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "2cfdddc81f20da5a85fafec03a7d5500efc92b2d",
+      "date": "2026-05-19T01:54:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory + diary: session 014951-manual-peer-pansci — Taiwan.md 第一個 MOU partner + Stage 1-5 全跑完"
+    },
+    {
+      "hash": "2dc26e3b605156b8e774010a79747ffc7986e7e0",
+      "date": "2026-05-19T01:49:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] inbox: PanSci P0×5 系列入 ARTICLE-INBOX (Stage 5 工作卡 ship)"
+    },
+    {
+      "hash": "74d643d89f06dafd765739f74d0a1bafaf08183c",
+      "date": "2026-05-19T01:46:13+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] about: PanSci 為第二個 Content Curation Partner（per MOU §2.2）"
+    },
+    {
+      "hash": "4d959b0d9d29bf9932b67cc679311edb0931819f",
+      "date": "2026-05-19T00:43:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-19-000642-routine-rewrite — 周蕙 NEW ship + INBOX hint 5-fact 修正"
+    },
+    {
+      "hash": "4183834da42cc53b1bd1d0e7f13d47d3309dcee0",
+      "date": "2026-05-19T00:40:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite: 周蕙 NEW — 2026-05-19"
+    },
+    {
+      "hash": "fa30da18a8c6706ff35ee7bd1b8df0b9c340400d",
+      "date": "2026-05-19T00:05:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] peer: PanSci Stage 4 corpus analysis report (9-part / 599 行)"
+    },
+    {
+      "hash": "5459d7f601ddf77201af40bcad0a8351457d94c7",
+      "date": "2026-05-18T23:12:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: twmd-data-refresh-pm 230958 — PM 23:00 dashboard sync + dashboard-immune.json stale gate handoff"
+    },
+    {
+      "hash": "5d0c51972d71a6a0b0a8bc435f69213d48ee2bc1",
+      "date": "2026-05-18T23:09:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-05-18 23:09"
+    },
     {
       "hash": "9acb6605fdd738e2aa8ee9f2334e0a87140bfaf1",
       "date": "2026-05-18T22:17:25+08:00",
