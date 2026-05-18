@@ -17,7 +17,7 @@ tags:
   - '製作人'
   - '屏東'
 readingTime: 10
-lastVerified: 2026-04-20
+lastVerified: 2026-05-18
 lastHumanReview: false
 translatedFrom: People/林宥嘉.md
 sourceCommitSha: '4b6d28c5'
@@ -127,7 +127,7 @@ Cette lettre de démission écrite par son corps, il l'a finalement reçue avec 
 
 ## Références
 
-[^1]: [Apple Daily : Yoga Lin est un riche héritier, son grand-père propriétaire foncier lui offre un bien immobilier de 50 millions (2020-12-03)](https://tw.appledaily.com/property/20201203/XNHTJ7XXWJHQ7BR7DD3EUZBWAY/) — La famille Lin de Chaozhou, Pingtung, a d'abord fait fortune dans les matériaux de construction avant de se tourner vers l'immobilier ; détails sur l'origine de Yoga Lin au sein d'une famille de grands propriétaires fonciers.
+[^1]: [Mirror Media : L'origine aisée de Yoga Lin révélée — le « grand-père propriétaire foncier » offre un logement de plusieurs dizaines de millions à sa belle-fille (2020-12-03)](https://mirrormedia.mg/story/20201203ent010) — La famille Lin de Chaozhou, Pingtung, a d'abord fait fortune dans les matériaux de construction avant de se tourner vers l'immobilier ; détails sur l'origine de Yoga Lin au sein d'une famille de grands propriétaires fonciers. (L'URL Apple Daily d'origine est hors service ; renvoie au reportage du même jour dans Mirror Media.)
 
 [^2]: [Wikipedia : Yoga Lin](https://zh.wikipedia.org/zh-hant/%E6%9E%97%E5%AE%A5%E5%98%89) — Contient les données complètes sur le 25/25 parfait lors de la finale du 6 juillet 2007 avec « Creep » + « Last Order », les 11 notes parfaites, la qualification « psychédélique » par Tsao Jingying lors du PK du 9 mars 2007, les listes de producteurs de chaque album, et la chronologie du mariage.
 
@@ -147,7 +147,7 @@ Cette lettre de démission écrite par son corps, il l'a finalement reçue avec 
 
 [^10]: [ETtoday : Un être cher n'a plus que 2 mois à vivre ! Yoga Lin, « malade depuis 4 ans », se confie rarement (2023-09)](https://star.ettoday.net/news/2586449) — Interview originale de septembre 2023 révélant pour la première fois le diagnostic de cancer du pancréas en phase terminale d'une personne proche et l'aggravation du SII.
 
-[^11]: [UDN Economic News : Après 8 ans de creux et de transformation identitaire, Yoga Lin chante sa vie du noir au lumineux avec _Love, Lord_](https://money.udn.com/money/story/123668/7944483) — Reportage complet sur la transformation identitaire pendant les huit ans de blanc, incluant les détails du processus de production où il prend en charge « toute la chaîne » en tant que producteur.
+[^11]: [TVBS News : Yoga Lin dévoile huit ans de travail et proclame « l'amour est roi » (2024)](https://news.tvbs.com.tw/entertainment/2424666) — Couverture de *Love, Lord* après huit ans d'absence, thèmes de l'album et rôle de producteur. (L'URL UDN Economic Daily d'origine est hors service ; renvoie au reportage TVBS de 2024.)
 
 [^12]: [KKBOX : [Interview] 500 chansons / Yoga Lin — un chanteur chante sa propre vie](https://www.kkbox.com/tw/en/column/showbiz-0-10151-1.html) — Interview approfondie où Yoga Lin revient sur 10 chansons clés de sa vie, en tant que « playlist qui le définit » choisie par lui-même.
 

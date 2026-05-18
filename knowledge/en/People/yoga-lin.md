@@ -17,7 +17,7 @@ subcategory: '流行音樂'
 author: 'Taiwan.md Contributors'
 date: 2026-04-20
 readingTime: 10
-lastVerified: 2026-04-20
+lastVerified: 2026-05-18
 lastHumanReview: false
 researchReport: reports/research/2026-04/林宥嘉.md
 translatedFrom: 'People/林宥嘉.md'
@@ -128,7 +128,7 @@ The letter of resignation his body wrote — he answered it in the end with an a
 
 ## References
 
-[^1]: [Apple Daily: Yoga Lin Is a Third-Generation Tycoon, Grandfather Gave 50 Million Property to Daughter-in-Law (2020-12-03)](https://tw.appledaily.com/property/20201203/XNHTJ7XXWJHQ7BR7DD3EUZBWAY/) — The Lin family of Chaozhou, Pingtung, ran a building materials business before moving into real estate; explains Yoga Lin's background as a large landowner family.
+[^1]: [Mirror Media: Yoga Lin's wealthy family background revealed — "landowner grandfather" gifted daughter-in-law a home worth tens of millions (2020-12-03)](https://mirrormedia.mg/story/20201203ent010) — The Lin family of Chaozhou, Pingtung, ran a building materials business before moving into real estate; explains Yoga Lin's background as a large landowner family. (Original Apple Daily URL is defunct; cites same-day Mirror Media report.)
 
 [^2]: [Wikipedia: Yoga Lin](https://zh.wikipedia.org/zh-hant/%E6%9E%97%E5%AE%A5%E5%98%89) — Contains the complete records of the 2007-07-06 Star Champion Finals "Creep" + "Last Order" perfect 25 points, 11 perfect scores, Tao Jing-ying's 2007-03-09 PK round naming of "hypnotic," yearly album producers lists, and marriage timeline.
 
@@ -148,7 +148,7 @@ The letter of resignation his body wrote — he answered it in the end with an a
 
 [^10]: [ETtoday: A Loved One Declared Two Months Left! Yoga Lin "Sick for 4 Years" Rarely Opens Up (2023-09)](https://star.ettoday.net/news/2586449) — September 2023 first-hand interview first disclosing the loved one's stage three pancreatic cancer diagnosis and IBS worsening accordingly.
 
-[^11]: [UDN Economic Daily: After 8 Years of Lows and Identity Transformation, Yoga Lin Uses "Love, Lord" to Perform His Journey from Dark to Bright](https://money.udn.com/money/story/123668/7944483) — Full report of the eight-year blank period's identity transformation; contains details of his "end-to-end command" of the production process as he became a producer.
+[^11]: [TVBS News: Yoga Lin reveals eight years of work, declares "love is king" (2024)](https://news.tvbs.com.tw/entertainment/2424666) — Coverage of *Love, Lord* after an eight-year gap, album themes, and his role as producer. (Original UDN Economic Daily URL is defunct; cites TVBS 2024 album report.)
 
 [^12]: [KKBOX: Interview — 500 Songs / Yoga Lin — A Singer Performing His Own Life](https://www.kkbox.com/tw/en/column/showbiz-0-10151-1.html) — Yoga Lin's in-depth interview recounting 10 key songs in his personal life as a "playlist that defines himself" chosen by himself.
 
