@@ -59,6 +59,19 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 台灣美食總覽 NEW — 2026-05-18 2026-05-18-135830-manual（Food 全景深度文 — 從原住民石板烤山豬到米其林 419 家、從 1949 眷村牛肉麵到 1986 春水堂珍奶 / Food 美食總覽 / 7234 字 / 69 footnote / 10 inline + 1 hero = 11 Wikimedia images）
+
+- **Article**: [knowledge/Food/台灣美食總覽.md](../../knowledge/Food/台灣美食總覽.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式（main session Opus + 2 平行 general-purpose research agents：Agent A 30+ WebSearch facts + Agent B 16 WebFetch image license verification）
+- **核心矛盾**（24 字）：「沒有一道菜是純粹台灣的，每一道菜都是最台灣的」
+- **Hook**：1949 嘉義噴水池圓環林添壽火雞肉飯（美軍火雞 + 蓬萊米 + 閩南滷汁）→ 原住民 16 族「就地」吃法（阿美十心菜 / 排灣吉拿富 / 卑南 binaleng / 泰雅馬告）→ 客家「肥鹹香」三特色（四炆四炒、薑絲炒大腸、擂茶）→ 1865 陶德烏龍茶 Formosa Oolong → 1925 磯永吉竹子湖蓬萊米 → 1949 121 萬移民八大菜系 → 川味牛肉麵高雄岡山起源（焦桐「四川沒有川味牛肉麵」逐字引語）→ 1958 鼎泰豐 + 1972 轉型 + 1995 楊紀華 18 摺 + 160 海外門市 → 1950s 美援麵粉「以麵代米」運動 + 1955 永和豆漿 → 1986 春水堂 vs 翰林珍珠奶茶 10 年官司 → 2018 米其林進台 + 2025 419 家 / 3 三星 / 144 必比登 / 7 綠星 → 阿燦師辦桌 20,000 場 + 疫情縮水 9 成（報導者逐字引語）→ Vegan 全球第三 14% + 食農教育法 2022 + foodpanda 18 億美元 GMV + 2011 塑化劑/2013 大統/2014 餿水油食安三部曲 → 結尾閉環回噴水池火雞肉飯
+- **品質**：7,234 CJK / 69 footnotes / 10 inline + 1 hero = 11 圖 / 9 narrative H2（島嶼底層 + 1949 眷村 + 美援早餐 + 春水堂珍奶 + 夜市辦桌 + 米其林 + 新住民永續 + 回到噴水池閉環）/ Em-dashes 7 處（從原 63 大幅刪減）/ 對位句 2 處（核心 anchor + 阿燦師逐字引語，均合法保留）/ Stage 4 hard=0 / Stage 3.5 hard=0 / prose-health score=1 pass
+- **Research**: [reports/research/2026-05/台灣美食總覽.md](../../reports/research/2026-05/台灣美食總覽.md) + [-part1-facts.md](../../reports/research/2026-05/台灣美食總覽-part1-facts.md)（140 facts / 8 quotes / 48+ sources / 13 一手 / 17 紅旗）+ [-part2-media.md](../../reports/research/2026-05/台灣美食總覽-part2-media.md)（17 image candidates / 16 WebFetch license verification）
+- **FACTCHECK**: 17 agent 紅旗 — RAW 已停業 2024-12-31 / 頤宮主廚陳泰榮 2024 離職 / 焦桐「鄉愁」論述限 1949 後脈絡 / 嘉義火雞肉飯「美軍說」是地方傳說（用 hedging）/ 早餐店 18,919 家、素食 5,300 家、辦桌 20,000 場 single-source（用「約」處理）/ 春水堂 1983 創立 vs 1986/1987 珍奶發明區分
+- **Cross-link**: 16 forward（原住民 / 客家 / 眷村 / 牛肉麵 / 滷肉飯 / 夜市 / 小吃 / 珍奶 / 手搖飲 / 茶 / 辦桌 / 米其林 / 早餐 / 新住民 / 素食 / 水果 + Hub）+ 4 reverse（Food Hub Featured 區塊 + 牛肉麵 / 滷肉飯 / 珍奶 各加 reverse link）— 16 篇 sibling 完整 reverse 留待後續 polish
+- **媒體**: 11 張 Wikimedia 圖（饒河夜市 hero / 排灣吉拿富 / 滷肉飯 / 牛肉麵 / 小籠包 / 珍奶 CC0 / 蚵仔煎 / 廟口烤山豬 + 小米酒 / 阿里山茶園 / 鳳梨酥）— 雞排圖 Wikimedia 429 rate-limit，從 17 候選刪為 11 ship 數量
+- **Notes**: 字數 7234 介於 4500 hard threshold 跟 22 縣市文章 8000-14000 範圍之間，作為 Food 類別第一篇全景深度文合理。核心矛盾 anchor 整篇 5 次貫穿（description + 開場 + 焦桐 callout + 珍奶段 + 結尾閉環）。觀察者明示「盡可能多抓圖跟媒體素材」目標達成（11 張全 PD/CC 授權）+「盡可能引用」目標達成（69 footnote ~6500 字 平均 ~94 字/footnote 高密度）。
+
 ### 新北市 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 5 **finale** — 包圍台北的環狀都會 401 萬人撐起首都 1629 紅毛城比台北早 200 年 / Geography 縣市 / 14015 字 / 31 footnote / 6 Wikimedia images）
 
 - **Article**: [knowledge/Geography/新北市.md](../../knowledge/Geography/新北市.md)
