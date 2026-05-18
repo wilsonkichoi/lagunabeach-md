@@ -59,6 +59,50 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 高雄市 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 4 — 1979 升格直轄市那一年台北的監獄裡關著八個高雄人 / Geography 縣市 / 9132 字 / 33 footnote / 6 Wikimedia images）
+
+- **Article**: [knowledge/Geography/高雄市.md](../../knowledge/Geography/高雄市.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 cost-split v2 — Opus main Stage 0 + Sonnet sub-agent Stage 1 + Opus sub-agent Stage 2-5 (commit 6b429cf54)
+- **核心矛盾**（29 字）：「高雄是台灣民主的傷口：1979 同一年升格直轄市，也爆發了美麗島事件」
+- **Hook**：1979/07/01 升格台灣第二個直轄市 + 1979/12/10 美麗島事件大港埔圓環 + 1980/02/28 林宅血案（**台北信義路三段 31 巷 16 號**，三處重申不在高雄不在宜蘭）+ 1947 二二八彭孟緝雄中保衛戰 + 1966 加工出口區（世界最早之一）+ 中鋼 1971/12/03 + 1987-1990 後勁反五輕公投 61% + 1993-1999 連續七年全球第三大貨櫃港 + 2009/08/08 莫拉克小林村 474 人活埋 + 2014/06/26 拉阿魯哇族 + 卡那卡那富族正名 / 2010/12/25 縣市合併 38 區 / 2018 韓國瑜 892,545 票 + 2020 罷免 939,090 票 / 衛武營 2018/10/13 開館
+- **品質**：9,132 CJK / 33 footnotes / 5 inline + 1 hero = 6 圖 / 14 narrative H2（多但每節獨立 anchor）/ Stage 4 hard=0 / Stage 3.5 hard=0 / prose-health score=2 pass
+- **Research**: [reports/research/2026-05/高雄市.md](../../reports/research/2026-05/高雄市.md) — Stage 1 44 次搜尋 / 18 verbatim quotes / 7 ⚠️ fact flags audit pass
+- **FACTCHECK**（emergent three-layer 源頭）：林宅血案 Stage 0 主 session 預設寫宜蘭被 Sonnet 抓到三源確認 → 台北信義路三段 31 巷 16 號（Wikipedia + 國家人權記憶庫 + Sonnet）；其他 fact flag：1924/12/25 升格用「1924 年（大正 13 年）」避指 single source / 1993-1999 連續七年世界第三大貨櫃港（精確化 1980s 第三）/ 1968 中島貨櫃模糊為 1960 後期 / 小林村 474 人活埋（含失蹤）/ 加工出口區世界最早之一保守 / 中鋼 1971/12/03 成立 + 1977 第一階段完工
+- **Cross-link**: 14 forward (基隆 / 屏東 sibling + 二二八 / 美麗島 / 林宅血案 / 解嚴 / 加工出口區 / 原住民 / 客家 / 88風災)
+
+### 台南市 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 4 — 261 年首府 400 年古蹟 21 世紀晶片疊在同一片土地 / Geography 縣市 / 7279 字 / 28 footnote / 6 Wikimedia images）
+
+- **Article**: [knowledge/Geography/台南市.md](../../knowledge/Geography/台南市.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 cost-split v2 — Opus main Stage 0 + Sonnet sub-agent Stage 1 (61 searches) + Opus sub-agent Stage 2-5 (commit 925aca59e)
+- **核心矛盾**（≤30 字）：「261 年首府、400 年古蹟、21 世紀晶片，疊在同一片土地上」
+- **Hook**：1624 荷蘭熱蘭遮城 + 1661/04/30 鄭成功登陸鹿耳門 + 1662/02/01 揆一簽《鄭荷和約》+ 02/09 撤離（雙日期 disambiguate）+ 1665 陳永華建孔廟全台首學 + 1684 清廷設台灣府 + 1885 台灣建省省會北移台北（261 年首府身分結束）+ 1947/03/13 湯德章民生綠園 + 1875-1876 億載金城 + 1992 七股黑面琵鷺槍聲 + 2010/12/25 縣市合併 37 區 + **2025/10/17 西拉雅族正名立法院通過** + **2025/10/23 賴清德公布**（389 年把名字拿回來）+ 2023 南科年營業額一兆五千億超越竹科
+- **品質**：7,279 CJK / 28 footnotes / 5 inline + 1 hero = 6 圖 / 9 narrative H2 / Stage 4 hard=0 / Stage 3.5 hard=0 / prose-health score=3 ≤ 3 pass / 破折號 0（從初稿 27 個全清）
+- **Research**: [reports/research/2026-05/台南市.md](../../reports/research/2026-05/台南市.md) — Stage 1 61 次搜尋 / 21 verbatim quotes / 9 ⚠️ fact flags audit pass
+- **FACTCHECK**: 9 flags — Flag #2 揆一投降高優先 → 1662/2/1 簽約 2/9 撤離雙日期 disambiguate / Flag #8 西拉雅族正名 → 2025/10/17 立法 + 2025/10/23 公布 / Flag #1 鹿耳門 → 1661/4/30 西曆 = 永曆十五年四月初一 / Flag #4 億載金城 → 1874/09 動工 1876/08 完工 / 1885 鹽水蜂炮 / 揆一中文名統一
+- **Cross-link**: sibling 加到 基隆 / 嘉義市 / 屏東縣 / 高雄市（南部 sibling）
+
+### 桃園市 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 4 — 台灣的進出口最多客家最多移工全在這塊台地上 / Geography 縣市 / 5183 字 / 25 footnote / 5 Wikimedia images）
+
+- **Article**: [knowledge/Geography/桃園市.md](../../knowledge/Geography/桃園市.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 cost-split v2 — Opus main Stage 0 + **Sonnet sub-agent retry**（前 agent JSONL 卡死 6 小時 → TaskStop + 重 spawn with 45 search hard limit）+ Opus sub-agent Stage 2-5 (commit 32ce121bf)
+- **核心矛盾**（28 字）：「台灣的進出口、最多的客家人、最多的移工，全在這塊台地上」
+- **Hook**：1977/11/19 中壢事件警方開槍打死中央大學學生江文國 + 19 歲張治平 → 許信良 23 萬比 14 萬高票當選 / 1979/02/26 中正國際機場啟用（2006 改名桃園國際）/ 2014/12/25 升格第六都最年輕直轄市 / 客家逾八十萬全國最多（中壢/平鎮/楊梅/龍潭/新屋）/ 移工 13 萬 2,158 人全國最多 / 1964 石門水庫 + 大漢溪三萬年前河川襲奪 / 1895 乙未戰爭桃園戰場（江國輝大嵙崁領袖）/ 復興區泰雅族 + 慈湖兩蔣陵寢 / 海客文化 + 約 10 座石滬 / 80 個眷村全台最多 / 機場捷運超過 1,277 億 2017 通車 / 開場「凌晨四點的桃園機場第一航廈」→ 結尾「第一班飛機要起飛了」首尾呼應 + 三層 anchor stack
+- **品質**：5,183 CJK / 25 footnotes / 4 inline + 1 hero = 5 圖 / 8 narrative H2 / 0 chronicle-lead / Stage 4 hard=0 / Stage 3.5 hard=0 / prose-health score=2 pass
+- **Research**: [reports/research/2026-05/桃園市.md](../../reports/research/2026-05/桃園市.md) — Stage 1 45 次搜尋 / 18 verbatim quotes / 7 ⚠️ fact flags audit pass
+- **FACTCHECK**: 客家逾八十萬保守表述 / 大溪老街洋風牌樓厝（非正統巴洛克）caveat 約定俗成 / 石滬約 10 座（另來源 11）/ 江國輝大嵙崁領袖（與姜紹祖北埔抗日三傑區隔）/ 1974/07/29 中山高 / 80 個眷村 / 1,277 億+
+- **Notes**: agent retry 是這次 batch 4 的關鍵 lesson — 前 Sonnet agent JSONL stop 在 5/18 04:31 後 6 小時沒動，TaskStop + spawn 新 agent with 45 search hard limit 解決。寫進 cron data-refresh isolation pattern carryover（commit 4ad0aa420 + post-script 5a8659f8e）
+
+### 新竹市 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 4 — 1733 年種竹為城的竹塹 1980 年長出台積電的搖籃 / Geography 縣市 / 6939 字 / 23 footnote / 4 Wikimedia images）
+
+- **Article**: [knowledge/Geography/新竹市.md](../../knowledge/Geography/新竹市.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 cost-split v2 — Opus main Stage 0 + Sonnet sub-agent Stage 1 (44 searches) + Opus sub-agent Stage 2-5 (commit 85634f83b)
+- **核心矛盾**（29 字）：「1733 年種竹為城的竹塹，1980 年長出台積電的搖籃，同一座風城，差了 247 年」
+- **Hook**：1733 雍正十一年淡水同知徐治民植莿竹圍 1408 公尺圓形土城 + 1827 道光七年磚石城獲准 + 1828 動工 + 1829 完工 + 迎曦門 / 1953-1974 黑蝙蝠中隊 148 人殉職（從風城起飛偵察中國大陸 838 架次）/ 1956 清華 + 1958 交大在台復校 / 1980/12/15 蔣經國揭幕新竹科學工業園區 + 1987/02/21 台積電創立 / 1748 都城隍廟（唯一都城隍位階）/ 1715 隆恩圳 / 1925 玻璃廠 + 米粉 + 貢丸（風城九降風的工業副產品）/ 開場 1733 verbatim + 莿竹城牆 → 結尾「靠風活了 293 年」閉環
+- **品質**：6,939 CJK / 23 footnotes / 3 inline + 1 hero = 4 圖 / 8 narrative H2 + 3 ending / Stage 4 hard=0 / prose-health score=1 pass / 對位句 2 / 破折號 13（從初稿 27 降到 13）
+- **Research**: [reports/research/2026-05/新竹市.md](../../reports/research/2026-05/新竹市.md) — Stage 1 44 次搜尋 / 18 verbatim quotes / 7 ⚠️ fact flags audit pass
+- **FACTCHECK**: 7 flags — 淡水廳遷治糾正 Stage 0「1725」為「1723 設廳 1731 分轄 1733 遷竹塹」/ 竹塹城 1827 倡議 1828 動工 1829 完工 / 黑蝙蝠 148 人（vs 客新聞 147 caveat）+ 1974 年底停偵察 / 隆恩圳 1715 / 玻璃廠 1925 / 城隍廟 1747 倡議 1748 落成
+- **Cross-link**: sibling 加到 基隆 / 嘉義市 / 苗栗 / 南投 / 桃園 / 新竹縣 6 條 + 4 topical（半導體 / 台積電 / 冷戰 / 科學園區 / 雞籠中元祭）
+
 ### 南投縣 NEW — 2026-05-18 2026-05-18-004535-manual（22 縣市系列 batch 3 — 唯一不靠海的縣 921 震央就在它的中心 / Geography 縣市 / 6533 字 / 24 footnote / 6 Wikimedia images）
 
 - **Article**: [knowledge/Geography/南投縣.md](../../knowledge/Geography/南投縣.md)
