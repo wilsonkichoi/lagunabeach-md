@@ -232,6 +232,18 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-19 cron-babel-nightly 050500 — §義務鐵律 quality_gate 分母定義不明，session 算 7.8% vs 算 12.4% 之間擺盪
+
+- **原則**：SQUEEZE-MODELS-MAX-PIPELINE §義務鐵律 v3.4 寫「stale_total 顯著下降 ≥ 10% OR all P0+P1 cleared OR stale_total == 0」當 quality_gate，但「stale_total」分母沒明定是哪個量。本 session 兩個合理候選都試了：(A) status.py 「Stale + Missing」欄位加總 = 588 + 50 = 638，分子 50 cleared → 7.8% 未過 (B) prioritize-batch.py priority report total candidates 中所有非 skip = 688（P0=50 + P1=346 + P2=242 + P2.5=35 + P3=15），分子 85 cleared（含 P2.5 bump）→ 12.4% 過。session 一度算 (A) 卡關，重算 (B) 通過。pipeline canonical 沒寫清「該用哪個分母 + P2.5 算不算 stale」就讓未來 session 重摸。
+- **觸發**：2026-05-19 05:00 cron babel-nightly routine，跑完 P0 cascade 50/50 + P2.5 bump 35/35 後算 quality_gate 卡了 ~3 分鐘想分母定義。Memory Beat 5 已記。
+- **可能層級**：
+  - 操作規則 → SQUEEZE-MODELS-MAX-PIPELINE §義務鐵律段直接補一句「stale_total = prioritize-batch.py --report 中 P0+P1+P2+P2.5+P3 加總，不是 status.py stale 欄位」
+  - 工具 → status.py / prioritize-batch.py 都加 `--quality-gate-baseline` flag 直接 emit 該用的分母值，session 不用自己組合
+  - REFLEXES 候選 → 「Pipeline 量化 gate 必須顯式定義分母 + 排除什麼進 numerator」這條一般化原則
+- **儀器化候選**：(A) prioritize-batch.py 加 `--quality-gate` flag 直接吐 stale_total 數值 (B) §義務鐵律段補上 ascii spine 中標 baseline / cleared / decreased %（不要讓 session 自己組合）
+- **verification_count**: 1（首次觀察 — 對應的 5/9 / 5/10 / 5/11 三次 babel 也都靠 session 自行解讀，但沒留下 explicit 算錯 → 算對的 trace）
+- **severity**: minor（不影響 routine 收尾，只增加 session 認知負擔；但下次 routine 必再撞）
+
 ### 2026-05-17 twmd-babel-nightly 050440 — diff-patch hash 算法不一致 bug 第 2 次咬人 (vc=4)，LESSONS 進 buffer ≠ 升 ship plan
 
 - **原則**：`diff-patch-prepare.py` 用 `hash_content()` 計算 expected_new_content_hash / expected_new_body_hash 寫進 task spec，但 `status.py` 對 zh source 算 contentHash / bodyHash 用 `body_hash()` + `body_hash_pure()` 不同算法。Sub-agent 忠實寫進 frontmatter 的 hash 永遠對不上 status.py 認的 hash。Body 正確 patch ≠ status.py 認可 fresh — 整批 Tier 0a 患者需要 post-processing scoped repair script 重寫 sourceContentHash + sourceBodyHash。**LESSONS 進 buffer 不等於升 ship plan**：2026-05-09 commit `56caebda7` LESSONS 已記，兩週後同 bug 在大 scale 下再爆。
