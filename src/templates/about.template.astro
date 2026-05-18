@@ -1467,6 +1467,25 @@ const t = useTranslations(lang);
                   </p>
                 </div>
               </div>
+              <div class="sponsor-card">
+                <div class="sponsor-card-logo">
+                  <a
+                    href="https://pansci.asia/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src="/images/pansci-logo.png" alt="泛科學 PanSci" />
+                  </a>
+                </div>
+                <div class="sponsor-card-content">
+                  <p class="sponsor-contribution-title">
+                    {t('about.sponsors.pansci.story.title')}
+                  </p>
+                  <p class="sponsor-contribution">
+                    {t('about.sponsors.pansci.story.desc')}
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -2897,6 +2916,11 @@ const t = useTranslations(lang);
     width: 100%;
     max-width: 160px;
     height: auto;
+    /* 蓋掉 global.css main img 的 object-fit:cover + border-radius:12px
+       — logo 要顯示完整，不能裁切，不需圓角 */
+    object-fit: contain !important;
+    border-radius: 0 !important;
+    max-height: none !important;
   }
   .sponsor-card-content {
     flex: 1;

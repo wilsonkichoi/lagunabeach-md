@@ -335,6 +335,10 @@ export const aboutUI = {
       '🏛️ A Museum That Opens Its Archives to the Community',
     'about.sponsors.nmth.story.desc':
       "The National Museum of Taiwan History has spent years cleaning and opening over 550,000 historical records. When they learned that a community-built knowledge base was trying to tell the same island's story, they offered their Open API, open datasets, and a wealth of digital research resources — from the National Repository of Cultural Heritage to Overseas Historical Sources on Taiwan — as the foundation for deeper, more authoritative content curation. Two ways of remembering an island, now learning to work together.",
+    'about.sponsors.pansci.story.title':
+      '🔬 Translating Science Into Taiwan Stories',
+    'about.sponsors.pansci.story.desc':
+      "PanSci has spent 15 years translating Nature, Science, and frontier research into Mandarin-language science journalism. When they signed a MOU with Taiwan.md, they authorized 166 of their best long-form pieces — from mRNA vaccines to the Webb Telescope, from quantum chips to brain-machine interfaces — for full curation and rewriting. PanSci provides the scientific anchor; Taiwan.md weaves the Taiwan-specific context. Two ways of bringing science home to Taiwanese readers, now working as formal curation partners.",
     'about.sponsors.tier.professional.name': '🔧 Professional Partner',
     'about.sponsors.tier.professional.desc':
       "Directly enhancing Taiwan.md's quality and experience through professional capabilities or services",
@@ -756,6 +760,9 @@ export const aboutUI = {
     'about.sponsors.nmth.story.title': '🏛️ 典蔵を開放する博物館',
     'about.sponsors.nmth.story.desc':
       '国立台湾歴史博物館は数年をかけて55万件以上の台湾歴史資料をクリーニングし公開してきました。コミュニティ主導のナレッジベースが同じ島の物語を紡ごうとしていると知った博物館は、Open API、オープンデータセット、そして国家文化記憶庫から海外史料看臺灣まで豊富なデジタル研究リソースを紹介し、より深く権威あるコンテンツキュレーションの基盤として提供しました。島の二つの記憶方法が、共に歩むことを学んでいます。',
+    'about.sponsors.pansci.story.title': '🔬 科学を台湾の物語へ翻訳する',
+    'about.sponsors.pansci.story.desc':
+      'PanSci（泛科学）は15年にわたり Nature・Science・最先端研究を中国語の科学ジャーナリズムに翻訳してきました。Taiwan.md と MOU を締結し、mRNA ワクチンからウェッブ宇宙望遠鏡、量子チップから脳機械インターフェースまで、166本の長文記事を完全キュレーション・改稿用に正式許諾しました。PanSci が科学的アンカーを、Taiwan.md が台湾の文脈を編む。台湾の読者に科学を届ける二つの方法が、正式パートナーとして協働しています。',
     'about.sponsors.tier.professional.name': '🔧 プロフェッショナルパートナー',
     'about.sponsors.tier.professional.desc':
       '専門的な能力やサービスで Taiwan.md の品質と体験を直接向上させる',
@@ -1168,6 +1175,9 @@ export const aboutUI = {
     'about.sponsors.nmth.story.title': '🏛️ 소장품을 기꺼이 공개하는 박물관',
     'about.sponsors.nmth.story.desc':
       '국립대만역사박물관은 수년간 55만 건 이상의 대만 역사 자료를 정리하고 공개했습니다. 커뮤니티 주도의 지식 베이스가 같은 섬의 이야기를 하려 한다는 것을 알게 되었을 때, Open API, 오픈 데이터셋, 그리고 국가문화기억고부터 해외사료로 보는 대만까지 풍부한 디지털 연구 자원을 제공하여 더 깊고 권위 있는 콘텐츠 큐레이션의 토대로 삼도록 했습니다. 섬을 기억하는 두 가지 방식이 함께 일하는 법을 배우고 있습니다.',
+    'about.sponsors.pansci.story.title': '🔬 과학을 대만의 이야기로 번역하다',
+    'about.sponsors.pansci.story.desc':
+      'PanSci(범과학)는 15년 동안 Nature, Science, 최첨단 연구를 중국어 과학 저널리즘으로 번역해왔습니다. Taiwan.md와 MOU를 체결하면서 mRNA 백신부터 제임스 웹 우주망원경, 양자 칩부터 뇌-기계 인터페이스에 이르는 166편의 장문 기사를 완전 큐레이션·재작성 용도로 정식 허락했습니다. PanSci는 과학적 앵커를 제공하고, Taiwan.md는 대만 고유의 맥락을 엮습니다. 대만 독자에게 과학을 전하는 두 가지 방식이 이제 공식 큐레이션 파트너로 협력합니다.',
     'about.sponsors.tier.professional.name': '🔧 전문 파트너',
     'about.sponsors.tier.professional.desc':
       '전문 역량이나 제품 서비스로 Taiwan.md의 품질과 경험을 직접적으로 향상',
@@ -1570,6 +1580,9 @@ export const aboutUI = {
     'about.sponsors.nmth.story.title': '🏛️ 一座願意把典藏打開的博物館',
     'about.sponsors.nmth.story.desc':
       '國立臺灣歷史博物館花了數年時間清理並開放超過 55 萬筆台灣歷史資料。當他們得知一個社群驅動的知識庫也在嘗試為同一座島嶼說故事，便主動介紹了 Open API、開放資料集，以及從國家文化記憶庫到海外史料看臺灣等豐富的數位研究資源，作為內容策展深化的基底。島嶼的兩種記憶方式，正在學習一起工作。',
+    'about.sponsors.pansci.story.title': '🔬 把科學翻譯成台灣的故事',
+    'about.sponsors.pansci.story.desc':
+      '泛科學深耕科普傳播 15 年，把 Nature、Science 與全球前沿研究翻譯成華文世界的科學新聞。與 Taiwan.md 簽署合作備忘錄，正式授權 166 篇代表性深度文章——從 mRNA 疫苗到韋伯太空望遠鏡、從量子晶片到腦機介面——供完整策展與改寫之用。泛科學提供科學錨點，Taiwan.md 編織台灣的在地脈絡。兩種把科學帶回台灣讀者的方式，正式成為策展夥伴。',
     'about.sponsors.tier.professional.name': '🔧 專業夥伴 Professional Partner',
     'about.sponsors.tier.professional.desc':
       '以專業能力或產品服務，直接提升 Taiwan.md 的品質與體驗',
@@ -1941,6 +1954,10 @@ export const aboutUI = {
       '🏛️ Un musée qui ouvre ses archives à la communauté',
     'about.sponsors.nmth.story.desc':
       "Le Musée national de l'histoire de Taiwan a passé des années à nettoyer et ouvrir plus de 550 000 documents historiques. Lorsqu'ils ont appris qu'une base de connaissances communautaire essayait de raconter la même histoire de l'île, ils ont offert leur Open API, leurs jeux de données ouverts et une richesse de ressources de recherche numérique — du Répertoire national du patrimoine culturel aux Sources historiques d'outre-mer sur Taiwan — comme fondation pour une curation de contenu plus approfondie et plus autorisée. Deux façons de se souvenir d'une île, apprenant maintenant à travailler ensemble.",
+    'about.sponsors.pansci.story.title':
+      '🔬 Traduire la science en histoires taïwanaises',
+    'about.sponsors.pansci.story.desc':
+      "PanSci consacre 15 ans à traduire Nature, Science et les recherches de pointe en journalisme scientifique sinophone. Après la signature du MOU avec Taiwan.md, ils ont autorisé 166 de leurs articles longs les plus représentatifs — des vaccins à ARNm au télescope spatial James Webb, des puces quantiques aux interfaces cerveau-machine — pour une curation et une réécriture complètes. PanSci fournit l'ancrage scientifique ; Taiwan.md tisse le contexte taïwanais. Deux façons de ramener la science aux lecteurs taïwanais, désormais partenaires officiels de curation.",
     'about.sponsors.tier.professional.name': '🔧 Partenaire professionnel',
     'about.sponsors.tier.professional.desc':
       "Amélioration directe de la qualité et de l'expérience de Taiwan.md par des capacités ou services professionnels",
@@ -2306,6 +2323,10 @@ export const aboutUI = {
       '🏛️ un Museo que Abre sus Archivos a la Comunidad',
     'about.sponsors.nmth.story.desc':
       'El Museo Nacional de Historia de Taiwán ha pasado años limpiando y abriendo más de 550,000 registros históricos. Cuando se enteraron de que una base de conocimiento construida por la comunidad estaba tratando de contar la misma historia de la isla, ofrecieron su API abierta, conjuntos de datos abiertos y una gran cantidad de recursos de investigación digital — desde el Repositorio Nacional de Patrimonio Cultural hasta las Fuentes Históricas en el Extranjero sobre Taiwán — como base para una curación de contenido más profunda y autoritativa. Dos formas de recordar una isla, ahora aprendiendo a trabajar juntas.',
+    'about.sponsors.pansci.story.title':
+      '🔬 Traduciendo la ciencia a historias taiwanesas',
+    'about.sponsors.pansci.story.desc':
+      'PanSci ha dedicado 15 años a traducir Nature, Science y la investigación de vanguardia al periodismo científico en chino. Al firmar un memorando de entendimiento con Taiwan.md, autorizaron 166 de sus mejores artículos en formato largo — desde vacunas de ARNm hasta el telescopio espacial James Webb, desde chips cuánticos hasta interfaces cerebro-máquina — para curación y reescritura completas. PanSci proporciona el anclaje científico; Taiwan.md teje el contexto taiwanés. Dos formas de acercar la ciencia a los lectores taiwaneses, ahora colaborando como socios formales de curación.',
     'about.sponsors.tier.professional.name': '🔧 Socio Profesional',
     'about.sponsors.tier.professional.desc':
       'Mejorando directamente la calidad y experiencia de Taiwan.md a través de capacidades o servicios profesionales',
