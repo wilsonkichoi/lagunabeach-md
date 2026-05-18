@@ -59,6 +59,19 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 台灣科技園區外圍商圈生態 NEW (contributor PR #1076) — 2026-05-18 2026-05-18-221353-twmd-maintainer-pm（k66inthesky 首次 PR / Economy / 4,604 字 / 13 footnote / 0 圖 待補）
+
+- **Article**: [knowledge/Economy/台灣科技園區外圍商圈生態.md](../../knowledge/Economy/台灣科技園區外圍商圈生態.md)
+- **Pipeline**: contributor PR ship — maintainer B 路徑 hard gate（紅旗 + CI + close-hard-gate + footnote audit + article-health.py local 全 plugin pass）
+- **核心反直覺句**：「90 分鐘午餐爆量、傍晚 6 點半後蒸發」— 五大科技園區（南軟/內科/竹科/中科/南科）外圍商圈單峰現象是結構性特徵不是個別經營問題
+- **Hook**：南港軟體園區三重路/園區街/經貿二路 → 內科 5,750 家公司 + 南軟 24,443 員工 / 5,804 億營收 → 文湖線雙峰通勤曲線 → 三種餐廳分化路徑（純午市/早午餐型/連鎖品牌）→ 竹科金山街反例（離園區 1km 以外晚餐興旺）→ 2025-03-20 LaLaport 開幕對單峰商圈結構性衝擊
+- **品質**：4,604 CJK / 13 footnotes (政府開放數據 + 園區官網 + 學術論文 + 主流商業媒體) / 0 圖（contributor self-disclose 純文字貢獻）/ article-health.py 17 plugin hard=0 全 pass / prose-health score=0 / 對位句 0 處 / 破折號 ≤ 限
+- **FACTCHECK 抽樣 audit**：✅ data.taipei 南港軟體園區廠商資料名錄 dataset (id=6b7c48b4...) / ✅ 中央社 2025-03-20 LaLaport 開幕報導 URL+標題+日期完全對應 / nhu.edu.tw 學術論文 SSL cert 不可達（不阻擋 merge，infrastructure issue 非 hallucination 訊號）
+- **Contributor**：@k66inthesky（Lana Chen，首次 PR）— AI-assisted draft + 在地觀察 + 事實校正 + source 驗證分工，lastHumanReview: true，AI 揭露做得很好
+- **Cross-link**: 待後續 polish — 可連結到 [[南港軟體園區]]、[[內湖科技園區]]、[[新竹科學園區]]、[[半導體產業]] 等 sibling
+- **Notes**: PR 上無 CI checks（fork PR 首次貢獻 workflow 未自動觸發），用 local article-health.py 全 plugin 17 個 hard=0 + footnote 抽樣 WebFetch 2/2 驗證取代 CI gate。圖片補完進入 ARTICLE-INBOX (hero + scene-mid 共 3 張)
+- **同 cycle 另一 PR**: #1075 docs(yoga-lin) footnotes parity — dreamline2 (Wilson Chen) 校正林宥嘉 5 語系 footnote (失效 [^1] 蘋果日報→鏡週刊 / [^11] UDN→TVBS / ko 結尾補完)，6 files +61/-17，URL 抽樣 WebFetch 2/2 verified，CI review workflow false-positive（review-pr.sh L1 把 `en/ja/ko/es/fr` 當 invalid category）已標記給下 cycle 修
+
 ### 台灣人工智慧學校 NEW — 2026-05-18 2026-05-18-145200-twmd-rewrite（陳昇瑋創辦的 AIA 人物 × 制度雙層深度文 / Technology / 5,181 字 / 33 footnote / 3 inline + 1 hero = 4 圖）
 
 - **Article**: [knowledge/Technology/台灣人工智慧學校.md](../../knowledge/Technology/台灣人工智慧學校.md)
