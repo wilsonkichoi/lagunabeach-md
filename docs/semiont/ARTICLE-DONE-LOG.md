@@ -59,6 +59,19 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 周蕙 NEW — 2026-05-19 2026-05-19-000642-routine-rewrite（〈約定〉25 年 KTV anchor 唱了 25 年的女聲 / 漫畫娃娃出道到小巨蛋首攻 / Music 歌手 / 4616 字 / 34 footnote / 2 inline + 1 hero = 3 fair-use 影像）
+
+- **Article**: [knowledge/Music/周蕙.md](../../knowledge/Music/周蕙.md)
+- **Pipeline**: REWRITE-PIPELINE v6 — NEW 模式 (Fresh)，cron `twmd-rewrite-daily` 00:00 fire，main-direct ship per ROUTINE.md v2.3
+- **核心矛盾**：「銷量百萬卻 25 年扛著『翻唱歌手』標籤的女聲」— 商業成功與藝術標籤之間的長期錯位
+- **Hook**：1999 福茂發行《周蕙精選》封面用漫畫娃娃代替本人；〈約定〉走進每間 KTV 25 年；2026-04-25 小巨蛋首攻當晚宣布聲帶萎縮
+- **品質**：4616 CJK chars / 34 footnotes / 3 images (fair use editorial commentary on the original works) / rewrite-stage-4 hard=0 warn=0 / rewrite-stage-3-5 hard=0 warn=0 / 破折號 ≤ 8
+- **Research**: [reports/research/2026-05/周蕙.md](../../reports/research/2026-05/周蕙.md) — 30 sources / ARTICLE-INBOX hint 多項修正（1977-03-26 高雄 / 中華藝校而非大同高中 / 〈約定〉姚若龍詞陳小霞曲而非葉良俊 / 明確未參加《我是歌手》第一季 / 光禹《夜光家族》合作關係 hint 不成立）
+- **大事實修正**：(a) 出生 1977-03-26 高雄市，非 1979-12-31 (b) 學歷：高雄中華藝校影劇科，非大同高中 / 文化大學新聞系 (c)〈約定〉作詞姚若龍 / 作曲陳小霞 / 編曲陳飛午（非葉良俊；hint 寫「十一郎詞」也錯）(d) 王菲粵語原版收錄 1997《玩具》EP（非《冷雨》/ 非 1996）(e)《我是歌手》第一季首發 7 位歌手不含周蕙
+- **Cross-link**: 張懸與安溥 / 台灣KTV文化 / 台灣流行音樂 / 流行音樂與金曲獎（forward only — reverse cross-link defer 給 manual session 觸發，避開 4 sibling 連環檢查 scope creep）
+- **待觀察者驗證**：父親離世年份（2007 / 2009 / 2011 三說法），本文採模糊「2007 前後」處理；季忠平捲走 2400 萬數字僅 single-source（夏小強世界轉述）；2014《中國好聲音》第三季導師細節未三源驗證
+- **時效彩蛋**：2026-04-25 小巨蛋演唱會聲帶萎縮宣告距 ship 24 天，是文章天然的高潮收尾，閉環 1999 漫畫娃娃 → 2026 真人首攻 25 年弧線
+
 ### 台灣科技園區外圍商圈生態 NEW (contributor PR #1076) — 2026-05-18 2026-05-18-221353-twmd-maintainer-pm（k66inthesky 首次 PR / Economy / 4,604 字 / 13 footnote / 0 圖 待補）
 
 - **Article**: [knowledge/Economy/台灣科技園區外圍商圈生態.md](../../knowledge/Economy/台灣科技園區外圍商圈生態.md)
