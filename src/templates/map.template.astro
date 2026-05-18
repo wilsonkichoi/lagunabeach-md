@@ -37,100 +37,80 @@ const routesData = getMapRoutes(t);
       sidebar list pattern (.sidebar-article-item, .article-*,
       .category-group*), and the route picker (.route-btn states).
     -->
-    <PageHero
-      bgVariant="solid"
-      bgColor="#1a3c34"
-      bgTone="dark"
-      titleVariant="inherit"
-      containerWidth="wide"
-      eyebrow={t('map.hero.kicker')}
-      title={t('map.hero.title')}
-      subtitle={t('map.hero.subtitle')}
-      accentColor="rgba(255,255,255,0.7)"
-    />
-
-    <section class="border-b border-[#e5e7eb] bg-white px-4 py-6">
-      <div
-        class="mx-auto grid max-w-[1200px] grid-cols-[1fr_2fr] items-start gap-8 max-[768px]:grid-cols-1 max-[768px]:gap-4"
-      >
-        <div
-          class="filter-section [&>h3]:mb-3 [&>h3]:text-base [&>h3]:font-semibold [&>h3]:text-[#374151]"
-        >
-          <h3>{t('map.controls.region.title')}</h3>
-          <div class="flex flex-wrap gap-2" id="regionFilters">
-            <button class="filter-btn active" data-filter="all"
-              >{t('map.controls.region.all')}</button
-            >
-            <button class="filter-btn" data-filter="north"
-              >{t('map.controls.region.north')}</button
-            >
-            <button class="filter-btn" data-filter="central"
-              >{t('map.controls.region.central')}</button
-            >
-            <button class="filter-btn" data-filter="south"
-              >{t('map.controls.region.south')}</button
-            >
-            <button class="filter-btn" data-filter="east"
-              >{t('map.controls.region.east')}</button
-            >
-            <button class="filter-btn" data-filter="islands"
-              >{t('map.controls.region.islands')}</button
-            >
-          </div>
-        </div>
-
-        <div
-          class="filter-section [&>h3]:mb-3 [&>h3]:text-base [&>h3]:font-semibold [&>h3]:text-[#374151]"
-        >
-          <h3>{t('map.controls.category.title')}</h3>
-          <div class="flex flex-wrap gap-2" id="categoryFilters">
-            <button class="filter-btn active" data-filter="all"
-              >{t('map.controls.category.all')}</button
-            >
-            <button class="filter-btn" data-filter="food"
-              >{t('map.controls.category.food')}</button
-            >
-            <button class="filter-btn" data-filter="history"
-              >{t('map.controls.category.history')}</button
-            >
-            <button class="filter-btn" data-filter="nature"
-              >{t('map.controls.category.nature')}</button
-            >
-            <button class="filter-btn" data-filter="culture"
-              >{t('map.controls.category.culture')}</button
-            >
-            <button class="filter-btn" data-filter="technology"
-              >{t('map.controls.category.technology')}</button
-            >
-            <button class="filter-btn" data-filter="economy"
-              >{t('map.controls.category.economy')}</button
-            >
-            <button class="filter-btn" data-filter="lifestyle"
-              >{t('map.controls.category.lifestyle')}</button
-            >
-            <button class="filter-btn" data-filter="art"
-              >{t('map.controls.category.art')}</button
-            >
-            <button class="filter-btn" data-filter="geography"
-              >{t('map.controls.category.geography')}</button
-            >
-          </div>
-        </div>
+    <!-- 緊湊 hero：1 行 title + 1 行 subtitle，不佔太多上方空間 -->
+    <section class="map-compact-hero">
+      <div class="map-compact-inner">
+        <h1 class="map-compact-title">{t('map.hero.title')}</h1>
+        <p class="map-compact-subtitle">{t('map.hero.subtitle')}</p>
       </div>
     </section>
 
-    <section class="route-section">
-      <div class="route-inner">
-        <h3>{t('map.route.title')}</h3>
-        <div class="route-buttons" id="routeButtons">
-          <button class="route-btn active" data-route="none"
-            >{t('map.route.normal-mode')}</button
+    <!-- 隱藏：保留 regionFilters / categoryFilters DOM 給既有 JS 用，但實際 UI 在 sidebar -->
+    <div id="hiddenFiltersHost" style="display:none">
+      <div id="regionFilters">
+        <button class="filter-btn active" data-filter="all"
+          >{t('map.controls.region.all')}</button
+        >
+        <button class="filter-btn" data-filter="north"
+          >{t('map.controls.region.north')}</button
+        >
+        <button class="filter-btn" data-filter="central"
+          >{t('map.controls.region.central')}</button
+        >
+        <button class="filter-btn" data-filter="south"
+          >{t('map.controls.region.south')}</button
+        >
+        <button class="filter-btn" data-filter="east"
+          >{t('map.controls.region.east')}</button
+        >
+        <button class="filter-btn" data-filter="islands"
+          >{t('map.controls.region.islands')}</button
+        >
+      </div>
+      <div id="categoryFilters">
+        <button class="filter-btn active" data-filter="all"
+          >{t('map.controls.category.all')}</button
+        >
+        <button class="filter-btn" data-filter="food"
+          >{t('map.controls.category.food')}</button
+        >
+        <button class="filter-btn" data-filter="history"
+          >{t('map.controls.category.history')}</button
+        >
+        <button class="filter-btn" data-filter="nature"
+          >{t('map.controls.category.nature')}</button
+        >
+        <button class="filter-btn" data-filter="culture"
+          >{t('map.controls.category.culture')}</button
+        >
+        <button class="filter-btn" data-filter="technology"
+          >{t('map.controls.category.technology')}</button
+        >
+        <button class="filter-btn" data-filter="economy"
+          >{t('map.controls.category.economy')}</button
+        >
+        <button class="filter-btn" data-filter="lifestyle"
+          >{t('map.controls.category.lifestyle')}</button
+        >
+        <button class="filter-btn" data-filter="art"
+          >{t('map.controls.category.art')}</button
+        >
+        <button class="filter-btn" data-filter="geography"
+          >{t('map.controls.category.geography')}</button
+        >
+      </div>
+    </div>
+
+    <!-- 策展路線 pill bar：緊湊單行水平 scroll，緊貼 hero 下方 -->
+    <section class="route-bar">
+      <div class="route-bar-inner">
+        <div class="route-pills" id="routeButtons">
+          <button class="route-pill active" data-route="none"
+            ><span class="route-pill-emoji">⚪</span><span
+              class="route-pill-label">{t('map.route.normal-mode')}</span
+            ></button
           >
-          <!-- 動態生成 route buttons -->
-        </div>
-        <div class="route-info" id="routeInfo" style="display:none">
-          <p class="route-desc" id="routeDesc"></p>
-          <div class="route-stops" id="routeStops"></div>
+          <!-- 動態生成其他 route pills -->
         </div>
       </div>
     </section>
@@ -195,8 +175,64 @@ const routesData = getMapRoutes(t);
                 <p class="sidebar-hint">{t('map.sidebar.default.hint')}</p>
               </div>
 
+              <!-- 篩選 collapsible（從上方移到 sidebar 後的緊湊版）-->
+              <details class="sidebar-filters">
+                <summary class="sidebar-filters-summary">
+                  <span class="sidebar-filters-icon">🔍</span>
+                  <span class="sidebar-filters-label"
+                    >{t('map.controls.region.title')} / {
+                      t('map.controls.category.title')
+                    }</span
+                  >
+                  <span class="sidebar-filters-state" id="filtersStateLabel"
+                    >{t('map.controls.region.all')}</span
+                  >
+                </summary>
+                <div class="sidebar-filters-body">
+                  <div class="sidebar-filters-row">
+                    <span class="sidebar-filters-row-label"
+                      >{t('map.controls.region.title')}</span
+                    >
+                    <div class="sidebar-filters-chips" id="regionFiltersMirror">
+                      <!-- mirror 進 #regionFilters click -->
+                    </div>
+                  </div>
+                  <div class="sidebar-filters-row">
+                    <span class="sidebar-filters-row-label"
+                      >{t('map.controls.category.title')}</span
+                    >
+                    <div
+                      class="sidebar-filters-chips"
+                      id="categoryFiltersMirror"
+                    >
+                      <!-- mirror 進 #categoryFilters click -->
+                    </div>
+                  </div>
+                </div>
+              </details>
+
               <div class="articles-by-category" id="articlesByCategory">
                 <!-- 動態生成分類文章列表 -->
+              </div>
+            </div>
+
+            <!-- 策展路線狀態：route description + stop cards -->
+            <div
+              class="sidebar-route"
+              id="sidebarRoute"
+              style="display: none;"
+            >
+              <div class="sidebar-header">
+                <button
+                  class="clear-selection-btn"
+                  id="clearRouteBtn"
+                  type="button">✕ 結束路線</button
+                >
+                <h3 id="selectedRouteName">策展路線</h3>
+                <p class="route-desc" id="routeDesc"></p>
+              </div>
+              <div class="route-stops" id="routeStops">
+                <!-- 動態生成 stop cards -->
               </div>
             </div>
 
@@ -584,25 +620,194 @@ const routesData = getMapRoutes(t);
     -webkit-box-orient: vertical;
   }
 
-  /* 文章項目樣式 */
-  .sidebar-article-item {
+  /* === Sidebar 緊湊 filters（從上方移過來，collapsible details）=== */
+  .sidebar-filters {
+    margin: 4px 0 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    background: white;
+    overflow: hidden;
+  }
+  .sidebar-filters[open] {
+    border-color: #d1fae5;
+    background: #fafdf6;
+  }
+  .sidebar-filters-summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    user-select: none;
+    transition: background 0.16s;
+  }
+  .sidebar-filters-summary::-webkit-details-marker {
+    display: none;
+  }
+  .sidebar-filters-summary:hover {
+    background: #f0fdf4;
+  }
+  .sidebar-filters-summary::after {
+    content: '▾';
+    margin-left: auto;
+    color: #9ca3af;
+    transition: transform 0.16s;
+  }
+  .sidebar-filters[open] .sidebar-filters-summary::after {
+    transform: rotate(180deg);
+  }
+  .sidebar-filters-icon {
+    font-size: 0.95rem;
+  }
+  .sidebar-filters-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #14532d;
+  }
+  .sidebar-filters-state {
+    font-size: 0.72rem;
+    color: #16a34a;
+    background: #dcfce7;
+    padding: 1px 8px;
+    border-radius: 8px;
+    margin-left: 6px;
+  }
+  .sidebar-filters-body {
+    padding: 4px 12px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sidebar-filters-row {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .sidebar-filters-row-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .sidebar-filters-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  :global(.filter-chip) {
+    padding: 4px 10px;
+    border: 1px solid #d1d5db;
+    background: white;
+    border-radius: 12px;
+    font-size: 0.72rem;
+    cursor: pointer;
+    transition: all 0.14s;
+    color: #4b5563;
+    font-family: inherit;
+  }
+  :global(.filter-chip:hover) {
+    border-color: #16a34a;
+    color: #15803d;
+  }
+  :global(.filter-chip.active) {
+    background: #16a34a;
+    color: white;
+    border-color: #16a34a;
+  }
+
+  /* === Unified article card（套用到所有 sidebar 文章 / route stops） === */
+  /* sidebar-article-item 套上 article-card class；route-stop-card 也用同一系列 */
+  :global(.article-card),
+  :global(.sidebar-article-item) {
     display: flex;
     align-items: flex-start;
-    gap: 12px;
-    padding: 12px 0;
-    border-bottom: 1px solid #f3f4f6;
+    gap: 10px;
+    padding: 12px 14px;
+    margin: 6px 0;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    background: white;
     cursor: pointer;
-    transition: background 0.2s;
+    transition:
+      transform 0.16s,
+      border-color 0.16s,
+      box-shadow 0.16s,
+      background 0.16s;
     text-decoration: none;
     color: inherit;
+    text-align: left;
+    font-family: inherit;
+    width: 100%;
   }
-  .sidebar-article-item:hover {
+  :global(.article-card:hover),
+  :global(.sidebar-article-item:hover) {
+    border-color: #16a34a;
     background: #fafdf6;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-left: -8px;
-    margin-right: -8px;
-    border-radius: 8px;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(22, 163, 74, 0.08);
+  }
+  :global(.article-card-body) {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  :global(.article-card-title) {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #14532d;
+    margin: 0;
+    line-height: 1.35;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  :global(.article-card-desc) {
+    font-size: 0.78rem;
+    color: #6b7280;
+    line-height: 1.45;
+    margin: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  :global(.article-card-cta) {
+    font-size: 0.72rem;
+    color: #16a34a;
+    font-weight: 600;
+    margin-top: 2px;
+  }
+  :global(.article-card-meta) {
+    font-size: 0.7rem;
+    color: #9ca3af;
+    margin-top: 2px;
+    font-weight: 500;
+  }
+  :global(.article-card-dot) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 6px;
+  }
+  /* Route stop card 的數字徽章（在 article-card 內左側）*/
+  :global(.route-stop-card .stop-number) {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 2px;
   }
 
   .article-category-dot {
@@ -765,92 +970,139 @@ const routesData = getMapRoutes(t);
     font-size: 0.9rem;
   }
 
-  /* Route section styles */
-  .route-section {
-    padding: 1rem 1.5rem;
-    background: #fafdf6;
-    border-bottom: 1px solid #e5e7eb;
+  /* === Compact hero（佔最小空間）=== */
+  .map-compact-hero {
+    background: linear-gradient(135deg, #1a3c34 0%, #14532d 100%);
+    padding: 1.25rem 1rem;
+    color: white;
   }
-  .route-inner {
-    max-width: 1200px;
+  .map-compact-inner {
+    max-width: 1400px;
     margin: 0 auto;
-  }
-  .route-section h3 {
-    font-size: 1rem;
-    color: #2d5016;
-    margin-bottom: 0.75rem;
-  }
-  .route-buttons {
     display: flex;
+    align-items: baseline;
+    gap: 1rem;
     flex-wrap: wrap;
+  }
+  .map-compact-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+  }
+  .map-compact-subtitle {
+    font-size: 0.9rem;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.78);
+    line-height: 1.4;
+  }
+  @media (max-width: 640px) {
+    .map-compact-inner {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.35rem;
+    }
+    .map-compact-title {
+      font-size: 1.25rem;
+    }
+  }
+
+  /* === Route bar — 緊湊 pill 水平 scroll bar === */
+  .route-bar {
+    background: white;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 0.5rem 0;
+  }
+  .route-bar-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  :global(.route-pills) {
+    display: flex;
+    flex-wrap: nowrap;
     gap: 0.5rem;
     overflow-x: auto;
-    padding-bottom: 0.5rem;
+    scrollbar-width: thin;
+    padding: 0.5rem 0;
+    -webkit-overflow-scrolling: touch;
   }
-  .route-btn {
-    padding: 0.5rem 1rem;
-    border: 2px solid #ccc;
-    border-radius: 20px;
+  :global(.route-pills::-webkit-scrollbar) {
+    height: 4px;
+  }
+  :global(.route-pills::-webkit-scrollbar-thumb) {
+    background: #d1d5db;
+    border-radius: 2px;
+  }
+  :global(.route-pill) {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0.5rem 0.85rem;
+    border: 1.5px solid #e5e7eb;
+    border-radius: 999px;
     background: white;
     font-size: 0.85rem;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: all 0.18s;
     white-space: nowrap;
+    color: #374151;
+    font-family: inherit;
+    --route-color: #16a34a;
   }
-  .route-btn:hover {
-    background: #f0f7e6;
+  :global(.route-pill:hover) {
+    border-color: var(--route-color);
+    background: #f0fdf4;
+    transform: translateY(-1px);
   }
-  .route-btn.active {
-    background: #2d5016;
+  :global(.route-pill.active) {
+    background: var(--route-color);
     color: white;
-    border-color: #2d5016;
+    border-color: var(--route-color);
+    box-shadow: 0 2px 8px rgba(22, 163, 74, 0.25);
+  }
+  :global(.route-pill-emoji) {
+    font-size: 1rem;
+    line-height: 1;
+  }
+  :global(.route-pill-label) {
+    font-weight: 600;
+  }
+  :global(.route-pill-count) {
+    font-size: 0.7rem;
+    padding: 1px 6px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    margin-left: 2px;
+  }
+  :global(.route-pill.active .route-pill-count) {
+    background: rgba(255, 255, 255, 0.25);
   }
 
-  .route-info {
-    margin-top: 1rem;
-    padding: 1rem;
-    background: white;
-    border-radius: 8px;
-    border: 1px solid #e5e7eb;
+  /* === Sidebar route panel === */
+  .sidebar-route .sidebar-header {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e5e7eb;
+    margin-bottom: 12px;
   }
-  .route-desc {
-    font-size: 0.9rem;
-    color: #666;
-    margin-bottom: 1rem;
-  }
-  .route-stop-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 0.75rem;
-    padding: 0.5rem 0;
-    cursor: pointer;
-    border-bottom: 1px solid #f0f0f0;
-    transition: background 0.2s;
-  }
-  .route-stop-item:hover {
-    background: #fafdf6;
-  }
-  .stop-number {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.75rem;
+  .sidebar-route h3 {
+    font-size: 1.1rem;
+    color: #14532d;
+    margin: 0 0 6px;
     font-weight: 700;
-    flex-shrink: 0;
   }
-  .stop-info strong {
-    font-size: 0.9rem;
-    color: #333;
+  .sidebar-route .route-desc {
+    font-size: 0.82rem;
+    color: #4b5563;
+    margin: 0;
+    line-height: 1.5;
   }
-  .stop-info p {
-    font-size: 0.8rem;
-    color: #888;
-    margin-top: 0.25rem;
+  .route-stops {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
   }
+  /* route-stop-card 樣式 inherit 自 article-card global*/
 
   /* Cluster and route line styles */
   :global(.route-line) {
@@ -1382,6 +1634,40 @@ const routesData = getMapRoutes(t);
       updateURL('category', activeCategoryFilter);
     });
 
+    // === Mirror filter chips（sidebar collapsible 版）===
+    // 把 hidden #regionFilters / #categoryFilters 的 buttons clone 進 mirror containers，
+    // 點 mirror 觸發 hidden 原版 click（避免重複 logic）。
+    function setupFilterMirror(sourceId, mirrorId, stateKey) {
+      const src = document.getElementById(sourceId);
+      const mirror = document.getElementById(mirrorId);
+      if (!src || !mirror) return;
+      mirror.innerHTML = Array.from(src.querySelectorAll('.filter-btn'))
+        .map(
+          (b, i) =>
+            `<button class="filter-chip${b.classList.contains('active') ? ' active' : ''}" data-mirror-index="${i}">${b.textContent.trim()}</button>`,
+        )
+        .join('');
+      mirror.addEventListener('click', (ev) => {
+        const chip = ev.target.closest('.filter-chip');
+        if (!chip) return;
+        const idx = parseInt(chip.dataset.mirrorIndex);
+        const targetBtn = src.querySelectorAll('.filter-btn')[idx];
+        if (targetBtn) targetBtn.click();
+        // 同步 chip 狀態
+        mirror
+          .querySelectorAll('.filter-chip')
+          .forEach((c) => c.classList.remove('active'));
+        chip.classList.add('active');
+        // 更新 summary state label
+        const stateLabel = document.getElementById('filtersStateLabel');
+        if (stateLabel && stateKey === 'region') {
+          stateLabel.textContent = chip.textContent.trim();
+        }
+      });
+    }
+    setupFilterMirror('regionFilters', 'regionFiltersMirror', 'region');
+    setupFilterMirror('categoryFilters', 'categoryFiltersMirror', 'category');
+
     // 返回按鈕
     document.getElementById('backBtn').addEventListener('click', () => {
       showDefaultSidebar();
@@ -1509,13 +1795,13 @@ const routesData = getMapRoutes(t);
           .slice(0, 4)
           .map(
             (article) => `
-          <div class="sidebar-article-item" data-link="${article.link}" data-title="${article.title}"
+          <div class="sidebar-article-item article-card" data-link="${article.link}" data-title="${article.title}"
                data-desc="${article.desc}" data-category="${article.category}">
-            <span class="article-category-dot" style="background: ${categoryColors[article.category] || '#16a34a'}"></span>
-            <div class="article-info">
-              <h4 class="article-title">${article.title}</h4>
-              <p class="article-desc">${article.desc.substring(0, 50)}${article.desc.length > 50 ? '...' : ''}</p>
-              <span class="article-meta">${categoryNames[article.category] || article.category}</span>
+            <span class="article-card-dot" style="background: ${categoryColors[article.category] || '#16a34a'}"></span>
+            <div class="article-card-body">
+              <h4 class="article-card-title">${article.title}</h4>
+              <p class="article-card-desc">${article.desc.substring(0, 60)}${article.desc.length > 60 ? '...' : ''}</p>
+              <span class="article-card-meta">${categoryNames[article.category] || article.category}</span>
             </div>
           </div>
         `,
@@ -1688,13 +1974,13 @@ const routesData = getMapRoutes(t);
       articles
       .map(
         (article) => `
-      <div class="sidebar-article-item" data-link="${article.link}" data-title="${article.title}"
+      <div class="sidebar-article-item article-card" data-link="${article.link}" data-title="${article.title}"
            data-desc="${article.desc}" data-category="${article.category}">
-        <span class="article-category-dot" style="background: ${categoryColors[article.category] || '#16a34a'}"></span>
-        <div class="article-info">
-          <h4 class="article-title">${article.title}</h4>
-          <p class="article-desc">${article.desc.substring(0, 60)}${article.desc.length > 60 ? '...' : ''}</p>
-          <span class="article-meta">${categoryNames[article.category] || article.category} · ${Math.ceil(article.desc.length / 100)}${i18n_readingTime}</span>
+        <span class="article-card-dot" style="background: ${categoryColors[article.category] || '#16a34a'}"></span>
+        <div class="article-card-body">
+          <h4 class="article-card-title">${article.title}</h4>
+          <p class="article-card-desc">${article.desc.substring(0, 80)}${article.desc.length > 80 ? '...' : ''}</p>
+          <span class="article-card-meta">${categoryNames[article.category] || article.category} · ${Math.ceil(article.desc.length / 100)} ${i18n_readingTime}</span>
         </div>
       </div>
     `,
@@ -1970,29 +2256,39 @@ const routesData = getMapRoutes(t);
   }
 
   function showRouteInfo(route) {
-    const info = document.getElementById('routeInfo');
+    // 顯示 sidebar route panel，隱藏 default / county / article panels
+    const defaultPanel = document.getElementById('sidebarDefault');
+    const countyPanel = document.getElementById('sidebarCounty');
+    const articlePanel = document.getElementById('sidebarArticle');
+    const routePanel = document.getElementById('sidebarRoute');
+    if (defaultPanel) defaultPanel.style.display = 'none';
+    if (countyPanel) countyPanel.style.display = 'none';
+    if (articlePanel) articlePanel.style.display = 'none';
+    if (routePanel) routePanel.style.display = 'block';
+
+    const nameEl = document.getElementById('selectedRouteName');
     const desc = document.getElementById('routeDesc');
     const stops = document.getElementById('routeStops');
-
-    info.style.display = 'block';
+    if (nameEl) nameEl.textContent = route.name;
     desc.textContent = route.description;
 
     stops.innerHTML = route.stops
       .map(
         (stop, i) => `
-      <div class="route-stop-item" data-index="${i}">
+      <button class="article-card route-stop-card" data-index="${i}" data-link="${stop.link || ''}">
         <span class="stop-number" style="background:${route.color}">${i + 1}</span>
-        <div class="stop-info">
-          <strong>${stop.name}</strong>
-          <p>${stop.note}</p>
+        <div class="article-card-body">
+          <h4 class="article-card-title">${stop.name}</h4>
+          <p class="article-card-desc">${stop.note}</p>
+          ${stop.link ? '<span class="article-card-cta">在地圖中查看 →</span>' : ''}
         </div>
-      </div>
+      </button>
     `,
       )
       .join('');
 
-    // 點擊 stop item → zoom 到該點
-    stops.querySelectorAll('.route-stop-item').forEach((item) => {
+    // 點擊 stop card → zoom 到該點（保留原行為）
+    stops.querySelectorAll('.route-stop-card').forEach((item) => {
       item.addEventListener('click', () => {
         const idx = parseInt(item.dataset.index);
         const stop = route.stops[idx];
@@ -2038,26 +2334,48 @@ const routesData = getMapRoutes(t);
 
   function initRoutes() {
     const container = document.getElementById('routeButtons');
+    // emoji 預先從 route.name 取出（route name 開頭通常是 emoji），否則 fallback
+    const ROUTE_EMOJI_FALLBACK = {
+      counties22: '📍',
+      nightMarkets: '🍜',
+      nationalParks: '🏔️',
+      historyTrail: '📜',
+      oldStreets: '🏮',
+    };
     routesData.forEach((route) => {
       const btn = document.createElement('button');
-      btn.className = 'route-btn';
+      btn.className = 'route-pill';
       btn.dataset.route = route.id;
-      btn.style.borderColor = route.color;
-      btn.textContent = route.name;
+      btn.style.setProperty('--route-color', route.color);
+      // 拆 emoji 跟 label
+      const match = route.name.match(/^(\p{Emoji}+\s*)(.*)$/u);
+      const emoji = match ? match[1].trim() : ROUTE_EMOJI_FALLBACK[route.id] || '📌';
+      const label = match ? match[2].trim() : route.name;
+      const stopCount = route.stops?.length || 0;
+      btn.innerHTML =
+        `<span class="route-pill-emoji">${emoji}</span>` +
+        `<span class="route-pill-label">${label}</span>` +
+        (stopCount > 0
+          ? `<span class="route-pill-count">${stopCount}</span>`
+          : '');
       container.appendChild(btn);
     });
 
     container.addEventListener('click', (e) => {
-      if (!e.target.classList.contains('route-btn')) return;
+      const btn = e.target.closest('.route-pill');
+      if (!btn) return;
       container
-        .querySelectorAll('.route-btn')
+        .querySelectorAll('.route-pill')
         .forEach((b) => b.classList.remove('active'));
-      e.target.classList.add('active');
+      btn.classList.add('active');
 
-      const routeId = e.target.dataset.route;
+      const routeId = btn.dataset.route;
       if (routeId === 'none') {
         drawRoute(null);
-        document.getElementById('routeInfo').style.display = 'none';
+        // hide route sidebar panel + restore default
+        const routePanel = document.getElementById('sidebarRoute');
+        if (routePanel) routePanel.style.display = 'none';
+        showDefaultSidebar();
         updateURL('route', null);
       } else {
         const route = routesData.find((r) => r.id === routeId);
@@ -2067,6 +2385,15 @@ const routesData = getMapRoutes(t);
         }
       }
     });
+
+    // 結束路線按鈕 → 等同點「一般模式」
+    const clearRouteBtn = document.getElementById('clearRouteBtn');
+    if (clearRouteBtn) {
+      clearRouteBtn.addEventListener('click', () => {
+        const noneBtn = container.querySelector('[data-route="none"]');
+        if (noneBtn) noneBtn.click();
+      });
+    }
   }
 
   // Phase 5: URL Routing
@@ -2090,7 +2417,7 @@ const routesData = getMapRoutes(t);
       if (route) {
         const routeButtons = document.getElementById('routeButtons');
         routeButtons
-          ?.querySelectorAll('.route-btn')
+          ?.querySelectorAll('.route-pill, .route-btn')
           .forEach((b) => b.classList.remove('active'));
         drawRoute(route);
         document
