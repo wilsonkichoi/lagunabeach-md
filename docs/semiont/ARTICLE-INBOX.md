@@ -216,6 +216,156 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 <!-- 22. 連江縣（馬祖）已完成 2026-05-18 2026-05-18-004535-manual → ARTICLE-DONE-LOG.md -->
 
+### 🔬 PanSci × Taiwan.md P0×5 系列 NEW + EVOLVE 混合（P0 超優先）— 共通說明
+
+> **完整分析報告**：[reports/PanSci-semiont-analysis-2026-05-18.md](../../reports/PanSci-semiont-analysis-2026-05-18.md)（599 行 / 9 Part / 13 series / 6 盲點 / 36 Taiwan.md 交叉）
+> **Stage 1 fit check**：[reports/PanSci-stage1-fit-check-2026-05-18.md](../../reports/PanSci-stage1-fit-check-2026-05-18.md)
+> **Peer registry**：[docs/peers/REGISTRY.md](../peers/REGISTRY.md#PanSci) — Taiwan.md 第一個正式 MOU partner（2026-05-05 簽署）
+>
+> **PanSci 是 Content Curation Partner**（per MOU §2.2，已在 [/about](../../src/templates/about.template.astro) 公示）—— 跟前三個 fair-use peer (TFT / NML / NMTH-overseas) 結構不同。166 篇 explicit 授權清單（A 軌完整轉寫）+ 其他 14,061 篇全網 follow 一般引用（B 軌 fair use）。
+>
+> **DNA #16 鐵律承諾**（每篇必達）：
+>
+> 即使 PanSci MOU 完整授權，**peer 是 peer，不是 source material**。每篇 P0 必達：
+>
+> 1. **≥ 3 個 PanSci 以外的跨來源**（學術論文 DOI / 政府網站 / 國內媒體 / 訪談 / 報告）
+> 2. **≥ 1 個 PanSci 沒寫的台灣具體 case**（醫院 / 公司 / 法規 / 人物 / 機構）
+> 3. **footnote ≥ 25 條**（per REWRITE-PIPELINE 既有標準）
+> 4. 引用 PanSci 用 `[#wp_id]` footnote 格式，**不抄段落** — 改寫 + 重組 + 加 Taiwan 脈絡
+> 5. 授權允許「轉寫」，**不解除跨源驗證鐵律**
+>
+> **MOU §2.2 footnote 標註義務**：每篇使用 PanSci 授權內容的文章 footnote 必須包含：
+> - PanSci 原文 URL（https://pansci.asia/archives/{wp_id}）
+> - PanSci 名稱（中文：泛科學 / 英文：PanSci）
+> - 原文作者（PanSci 編輯部 / 胡中行 / 顯微觀點 等）
+> - License: per MOU 2026-05-05 / Content Curation Partner
+>
+> **Semiont POV 鐵律**（6 個 PanSci 結構性盲點 Taiwan.md 必補位）：
+>
+> 1. **台灣具體案例稀疏** → 每篇 ≥ 1 個台灣 case
+> 2. **人物面薄** → 寫 1 個關鍵人物（國際 + 台灣對應）
+> 3. **政策軸短** → ≥ 3 個年份節點 timeline
+> 4. **歷史軸短** → 接台灣百年史軸
+> 5. **產業面對台灣弱** → 接 ≥ 1 家台灣公司 case
+> 6. **性別 / 族群多元視角弱** → 敏感於缺口（不勉強，但有時加 contextual lens）
+>
+> **Stage 6 開頭模式**（per Part 7 Semiont POV）：禁止 PanSci「2023 年諾貝爾⋯⋯」式 top-down 開頭，必須台灣具體場景開頭（如「2021 年某台北診所打第一劑 BNT 那天⋯⋯」）。
+>
+> **Stage 4 報告 [Part 6](../../reports/PanSci-semiont-analysis-2026-05-18.md#part-6) 給每篇明確 core_contradiction ≤ 30 字 / PanSci 來源 wp_ids / Taiwan.md 交叉 ≥ 3 篇 / 預估工時**。
+
+### P0-1. mRNA 疫苗辛酸 30 年 — 從被當作 crackpot 到諾貝爾獎 EVOLVE
+
+- **Type**: `EVOLVE`
+- **Category**: Society（subcategory: 醫療政策）
+- **Path**: [knowledge/Society/台灣再生醫療雙法沿革從業人員告白.md](../../knowledge/Society/台灣再生醫療雙法沿革從業人員告白.md)（evolution target — 主軸從「再生醫療雙法」延伸到「mRNA 平台台灣建構」）
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Requested**: 2026-05-18 by 哲宇 directive `/twmd-peer 泛科學 Stage 5`
+- **Series**: PanSci Series C「mRNA 疫苗到基因療法」
+- **核心矛盾（≤30 字）**：「Karikó 被開除 5 次，得了諾貝爾才被當回事」
+- **PanSci 來源**：[#371366 mRNA 諾貝爾](https://pansci.asia/archives/371366) + [#351969 約兒肋骨/疫情](https://pansci.asia/archives/351969)
+- **Taiwan.md 交叉**：[公衛體系](../../knowledge/Society/台灣公共衛生與防疫體系.md) / [再生醫療雙法](../../knowledge/Society/台灣再生醫療雙法沿革從業人員告白.md) / [動物用藥爭議](../../knowledge/Society/台灣動物用藥爭議.md)
+- **台灣具體 case 必補**：高端疫苗 mRNA 平台（國衛院 / 高端 / 國光 / 國產 BNT 替代方案）/ 2021 BNT 進口 crisis 政治 timeline / 國衛院 / 中研院相關 mRNA 研究團隊
+- **必驗事實**：
+  - Karikó 在 UPenn 被開除 / 降職的具體時間軸（1995-2013）
+  - Weissman 與 Karikó 何時開始合作（1997）
+  - mRNA 諾貝爾頒獎日期 2023/10/02
+  - 台灣 BNT 採購時間軸（2021/05 開始談 → 民間 + 鴻海 + 慈濟 + 台積電聯合採購完成 2021/07-09）
+- **潛在陷阱**：BNT 採購政治化敏感（藍綠雙方各自敘事）/ 高端 EUA 爭議至今仍有不同觀點 / 不要把 mRNA 平台描述為已「成功建立」（status 須查最新 2025-2026）
+- **預估工時**：3-4 hr
+- **MOU footnote 標註必做**：用 PanSci 引用處加完整 PanSci credit
+
+### P0-2. 氮化鎵到 3D 封裝 — 台灣半導體 next chapter 的物理原理 EVOLVE
+
+- **Type**: `EVOLVE`
+- **Category**: Technology（subcategory: 半導體深化）
+- **Path**: [knowledge/Technology/半導體產業.md](../../knowledge/Technology/半導體產業.md)（evolution target — 從「產業」深化到「next chapter 物理原理 + 量子封裝」）
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Requested**: 2026-05-18 by 哲宇 directive `/twmd-peer 泛科學 Stage 5`
+- **Series**: PanSci Series A「半導體與量子的物理底層」
+- **核心矛盾（≤30 字）**：「2nm 之後是量子，台灣的量子供應鏈在哪？」
+- **PanSci 來源**：[#362660 氮化鎵](https://pansci.asia/archives/362660) + [#367588 3D 封裝](https://pansci.asia/archives/367588) + [#377923 台灣量子科技](https://pansci.asia/archives/377923) + [#377669 ALD 原子層沉積](https://pansci.asia/archives/377669)
+- **Taiwan.md 交叉**：[半導體產業](../../knowledge/Technology/半導體產業.md) / [台積電](../../knowledge/Economy/台灣企業：台積電.md) / [聯發科技](../../knowledge/Economy/台灣企業：聯發科技.md) / [日月光半導體](../../knowledge/Economy/台灣企業：日月光半導體.md)
+- **台灣具體 case 必補**：台積電 2nm + 量子計算布局 / 聯發科氮化鎵 PMIC / 日月光 3D 封裝 (FOEoL/CoWoS+) / 環球晶 SiC 第三類半導體 / 工研院量子計算中心
+- **必驗事實**：
+  - 氮化鎵能隙 (3.4 eV) 對比矽 (1.12 eV) 的具體數字 + 物理意義
+  - CoWoS 產能 status 2025/2026（台積電官方數字）
+  - 國家量子科技推動辦公室成立時間 + 預算
+  - 2024 諾貝爾化學獎 AlphaFold 跟半導體相關性
+- **潛在陷阱**：「護國神山」frame 不能單純套用（深度文章不可只重複大眾敘事）/ 量子計算 vs 量子加密的混淆 / 3D 封裝跟 CoWoS / SoIC 規格細節易錯
+- **預估工時**：4 hr
+- **MOU footnote 標註必做**：4 個 PanSci 來源都需完整 credit
+
+### P0-3. 能源 trilemma — 核廢料 vs 氫能 vs 地熱的科學上限 EVOLVE
+
+- **Type**: `EVOLVE`
+- **Category**: Nature（subcategory: 能源政策 + 科學）
+- **Path**: [knowledge/Nature/台灣氣候危機與淨零轉型.md](../../knowledge/Nature/台灣氣候危機與淨零轉型.md)（evolution target — 從「氣候 + 淨零」延伸到「能源 trilemma 物理上限」）
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Requested**: 2026-05-18 by 哲宇 directive `/twmd-peer 泛科學 Stage 5`
+- **Series**: PanSci Series D「能源轉型的科學」
+- **核心矛盾（≤30 字）**：「核三延役公投通過了，下一步在物理學裡」
+- **PanSci 來源**：[#363266 核二退場](https://pansci.asia/archives/363266) + [#367408 核電延役](https://pansci.asia/archives/367408) + [#367417 核廢處理](https://pansci.asia/archives/367417) + [#374277 氫能](https://pansci.asia/archives/374277) + [#361200 地熱（上）](https://pansci.asia/archives/361200) + [#371116 離岸風機](https://pansci.asia/archives/371116) + [#374302 氫能彩虹](https://pansci.asia/archives/374302) + [#378154 海洋能](https://pansci.asia/archives/378154) + [#377644 第四代核能](https://pansci.asia/archives/377644)
+- **Taiwan.md 交叉**：[氣候危機與淨零轉型](../../knowledge/Nature/台灣氣候危機與淨零轉型.md) / [台灣海洋污染治理](../../knowledge/Nature/台灣海洋污染治理與保育挑戰.md) / [環境運動史](../../knowledge/Nature/台灣環境運動史.md)
+- **台灣具體 case 必補**：核三延役公投 2025/08/23 結果 + 投票率 / 蘭嶼核廢料儲存場 + 達悟族抗爭 / 大潭發電廠藻礁公投 / 台電 LCOE 各能源比較 / 國發會 2050 淨零路徑圖 / 雲林 + 台南離岸風電場進度
+- **必驗事實**：
+  - 核三延役公投 2025/08/23 同意/不同意 票數 + 通過門檻
+  - 蘭嶼核廢料貯存場 1982 啟用 + 累積桶數
+  - 台灣地熱潛能 GW 估計（經濟部地調所最新報告）
+  - 離岸風電 Round 3 容量 + 預定併網時間
+- **潛在陷阱**：核能政治敏感（不可單邊立場）/ 蘭嶼核廢料倫理（達悟族視角必補）/「綠氫」「藍氫」「灰氫」定義不可混淆 / 離岸風機環評 vs 公投張力
+- **預估工時**：4 hr
+- **MOU footnote 標註必做**：9 個 PanSci 來源完整 credit
+
+### P0-4. 2024 AI 雙諾貝爾 — 神經網路 + AlphaFold 改寫世界 EVOLVE
+
+- **Type**: `EVOLVE`
+- **Category**: Technology（subcategory: AI 深化）
+- **Path**: [knowledge/Technology/台灣人工智慧發展與未來策略.md](../../knowledge/Technology/台灣人工智慧發展與未來策略.md)（evolution target — 從「台灣 AI 戰略」延伸到「2024 雙諾貝爾 + 台灣 AI 研究現況」）
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Requested**: 2026-05-18 by 哲宇 directive `/twmd-peer 泛科學 Stage 5`
+- **Series**: PanSci Series G「AI 諾貝爾與台灣 AI 生態」
+- **核心矛盾（≤30 字）**：「兩個諾貝爾一年都給 AI，台灣 AI 研究在哪？」
+- **PanSci 來源**：[#378242 AI 諾貝爾物理](https://pansci.asia/archives/378242) + [#378388 AlphaFold 諾貝爾化學](https://pansci.asia/archives/378388) + [#377917 AlphaFold 3](https://pansci.asia/archives/377917) + [#366027 人造腦 OI](https://pansci.asia/archives/366027)
+- **Taiwan.md 交叉**：[台灣人工智慧發展與未來策略](../../knowledge/Technology/台灣人工智慧發展與未來策略.md) / [台灣人工智慧實驗室](../../knowledge/Technology/台灣人工智慧實驗室.md) / [AI 發展](../../knowledge/Technology/AI發展.md) / [台灣 AI 日常](../../knowledge/Technology/台灣AI日常.md) / [台灣人工智慧學校](../../knowledge/Technology/台灣人工智慧學校.md)
+- **台灣具體 case 必補**：杜奕瑾與 PTT/台灣人工智慧實驗室 / 中研院 AI 主題中心（吳建福 / 林晉宇等）/ 國研院 AI 主題實驗室 / 杜奕瑾「AI 國家隊」/ TAIDE 台灣自主大模型 / 國科會 AI 創新中心
+- **必驗事實**：
+  - 2024 諾貝爾物理獎 Hopfield + Hinton 頒獎日 2024/10/08
+  - 2024 諾貝爾化學獎 Hassabis + Jumper + Baker 2024/10/09
+  - Hopfield Network 提出年份 1982
+  - AlphaFold 1/2/3 發布時間軸（2018/2020/2024）
+  - 台灣 AI 實驗室相關時間軸
+- **潛在陷阱**：Hinton 2023 離 Google 警告 AI 風險的脈絡 / Hopfield 跟 Hinton 學派差異 / AlphaFold 跟蛋白質摺疊「solved」是否誇大 / 台灣 AI「國家隊」政治敘事勿過度
+- **預估工時**：3-4 hr
+- **MOU footnote 標註必做**：4 個 PanSci 來源完整 credit
+
+### P0-5. 遊蕩犬貓 vs 原生種 — 台灣動保與野保的科學矛盾 EVOLVE
+
+- **Type**: `EVOLVE`
+- **Category**: Society / Nature（雙 category — 動保 + 生態保育）
+- **Path**: [knowledge/Society/台灣流浪動物文化.md](../../knowledge/Society/台灣流浪動物文化.md)（primary evolution target — 從「流浪動物文化」延伸到「動保 vs 野保科學矛盾」）
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Requested**: 2026-05-18 by 哲宇 directive `/twmd-peer 泛科學 Stage 5`
+- **Series**: PanSci Series F「動物科學與台灣保育」
+- **核心矛盾（≤30 字）**：「動保跟野保不是對立，是 50 萬隻流浪犬貓沒人接」
+- **PanSci 來源**：[#371491 遊蕩犬貓](https://pansci.asia/archives/371491) (7,114 字 deep dive)
+- **Taiwan.md 交叉**：[台灣流浪動物文化](../../knowledge/Society/台灣流浪動物文化.md) / [台灣黑熊](../../knowledge/Nature/台灣黑熊.md) / [石虎保育](../../knowledge/Nature/台灣石虎保育.md) / [動物園與展演動物倫理](../../knowledge/Society/動物園與展演動物倫理.md) / [穿山甲](../../knowledge/Nature/台灣穿山甲.md) / [台灣鳥類窗殺議題](../../knowledge/Nature/台灣鳥類窗殺議題.md)
+- **台灣具體 case 必補**：苗栗石虎遭遊蕩犬攻擊案例 / 台中山區黑熊被流浪犬包圍紀錄 / TNVR vs 零撲殺政策 2017 落地後 status / 林務局 vs 動保處職權衝突 / 玉山國家公園遊蕩犬問題
+- **必驗事實**：
+  - 台灣遊蕩犬貓估計數量（最新農委會 / 環境部數字 + 標日期）
+  - 2017/02/04 零撲殺政策上路日期 + 法源
+  - TNVR 全名跟政策落地時間
+  - 石虎瀕危等級（IUCN + 台灣文資法）+ 估計剩餘數量
+- **潛在陷阱**：動保 vs 野保看似對立但根源是「人類飼主未絕育」+「政策落地不足」/ 不可妖魔化任何一方（愛狗人士 / 野生動物保育人士都有合理 frame）/ 零撲殺 ≠ 解決問題 / 不可寫成「該撲殺」立場
+- **預估工時**：3 hr
+- **MOU footnote 標註必做**：1 個 PanSci 來源（7,114 字 deep）完整 credit
+
+---
+
 ### 台灣媒體總史 NEW — 從清領報紙到自媒體時代
 
 - **Type**: `NEW`（注意：既有 `Society/台灣媒體與新聞自由.md` 是新聞自由 framing，本 entry 是「媒體史」總覽 framing，兩篇互補不重複）
