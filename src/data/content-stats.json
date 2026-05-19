@@ -3,7 +3,7 @@
     "About": 30,
     "Art": 168,
     "Culture": 301,
-    "Economy": 261,
+    "Economy": 262,
     "Food": 265,
     "Geography": 245,
     "History": 210,
@@ -260,6 +260,10 @@
     {
       "date": "2026-05-19",
       "count": 3
+    },
+    {
+      "date": "2026-05-20",
+      "count": 1
     }
   ],
   "updated": "2026-05-19"

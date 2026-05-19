@@ -1,5 +1,47 @@
 [
   {
+    "title": "台灣前 50 大企業：護國神山撐起一張表，也撐起一個單點故障的國家",
+    "slug": "台灣前50大企業",
+    "category": "economy",
+    "subcategory": "Economy",
+    "date": "2026-05-20",
+    "lastModified": "2026-05-20",
+    "lastVerified": "2026-05-20",
+    "lastHumanReview": false,
+    "featured": false,
+    "wordCount": 6796,
+    "tagCount": 10,
+    "tags": [
+      "企業",
+      "市值",
+      "台積電",
+      "產業結構",
+      "半導體",
+      "金融",
+      "傳產",
+      "AI",
+      "家族企業",
+      "集中度"
+    ],
+    "translations": {
+      "en": false,
+      "ja": false,
+      "ko": false,
+      "es": false,
+      "fr": false
+    },
+    "revision": 1,
+    "commitHash": "50fbcf0c",
+    "commitSubject": "🧬 [routine] twmd-rewrite: 台灣前 50 大企業 NEW — 2026-05-20",
+    "description": "2026 年 5 月 19 日，台積電一家公司的市值占整個台灣加權指數 31.51%，占台股總市值約四成；50 大公司加總撐起一個 GDP，但其中一家就綁架了這個 GDP 的命運。電子業 36%、金融 25%、傳產 10%，所謂「電金傳產」三足鼎立其實由電子業一條腿撐起半個身體。從寧夏夜市黃仁勳跟張忠謀合照那一晚，到凱旋三路凌晨 32 條人命，這張排行榜既是台灣不可取代的脊椎，也是它最脆弱的單點故障。",
+    "healthScore": 53,
+    "qualityScore": 0,
+    "formatIssues": 0,
+    "hasOverview": true,
+    "hasReading": true,
+    "fnCount": 31
+  },
+  {
     "title": "台灣企業：台積電",
     "slug": "台灣企業台積電",
     "category": "economy",

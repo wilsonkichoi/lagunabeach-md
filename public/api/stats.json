@@ -1,8 +1,8 @@
 {
-  "totalArticles": 4458,
+  "totalArticles": 4459,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 6441,
+  "totalTags": 6447,
   "categories": [
     {
       "name": "es",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Economy",
-      "count": 52
+      "count": 53
     },
     {
       "name": "Technology",
@@ -96,7 +96,7 @@
     },
     {
       "name": "企業",
-      "count": 60
+      "count": 61
     },
     {
       "name": "科技與企業",
@@ -115,15 +115,15 @@
       "count": 28
     },
     {
+      "name": "半導體",
+      "count": 27
+    },
+    {
       "name": "金曲獎",
       "count": 26
     },
     {
       "name": "體育",
-      "count": 26
-    },
-    {
-      "name": "半導體",
       "count": 26
     },
     {
@@ -147,15 +147,15 @@
       "count": 24
     },
     {
+      "name": "AI",
+      "count": 24
+    },
+    {
       "name": "民主化",
       "count": 23
     },
     {
       "name": "文化",
-      "count": 23
-    },
-    {
-      "name": "AI",
       "count": 23
     },
     {
@@ -168,13 +168,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4458,
+    "zh-TW": 4459,
     "en": 0
   },
-  "lastUpdated": "2026-05-19T15:09:56.255Z",
+  "lastUpdated": "2026-05-19T22:12:31.645Z",
   "stars": 999,
   "forks": 149,
-  "zhPages": 3703,
+  "zhPages": 3704,
   "enPages": 755,
-  "totalPages": 4458
+  "totalPages": 4459
 }

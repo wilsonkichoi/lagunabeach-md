@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-05-19T15:09:55.265Z",
+  "generatedAt": "2026-05-19T22:12:30.548Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "f3e3541b6f11f9e8e25c2593d6c0b6b858577b4f",
+      "date": "2026-05-20T00:42:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-20-000836-cron-rewrite-daily — 台灣前 50 大企業 NEW ship + Bias 1 紀律驗證"
+    },
+    {
+      "hash": "50fbcf0cc606033826bc42a8000a5d723ba1adce",
+      "date": "2026-05-20T00:39:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite: 台灣前 50 大企業 NEW — 2026-05-20"
+    },
+    {
+      "hash": "923a8893a795618087b6ab7ad5212b1b186c4dd8",
+      "date": "2026-05-19T23:14:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: twmd-data-refresh-pm 231127 — PM 23:00 sync + immune.json D+2 carry-over"
+    },
+    {
+      "hash": "527123e0e8f65233ee098833b83ff0f72fa08fee",
+      "date": "2026-05-19T23:11:07+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-05-19 23:11"
+    },
     {
       "hash": "43018156effd6a62b5dd23101ea379ac535e9493",
       "date": "2026-05-19T22:12:50+08:00",

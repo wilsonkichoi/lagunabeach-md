@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T15:09:56.538Z",
+  "lastUpdated": "2026-05-19T22:12:32.076Z",
   "languages": [
     "zh-TW",
     "en",
@@ -10,72 +10,72 @@
   ],
   "summary": {
     "zh-TW": {
-      "total": 730,
+      "total": 731,
       "percentage": 100,
-      "fresh": 730,
+      "fresh": 731,
       "stale": 0,
       "missing": 0,
       "deficit": 0
     },
     "en": {
       "total": 732,
-      "percentage": 100,
+      "percentage": 99.9,
       "fresh": 605,
       "metadataStale": 6,
       "stale": 121,
-      "missing": 0,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 82.7,
-      "bodyFreshPct": 83.5
+      "deficit": 1,
+      "freshPct": 82.5,
+      "bodyFreshPct": 83.4
     },
     "ja": {
       "total": 732,
-      "percentage": 100,
+      "percentage": 99.9,
       "fresh": 602,
       "metadataStale": 6,
       "stale": 124,
-      "missing": 0,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 82.2,
-      "bodyFreshPct": 83.1
+      "deficit": 1,
+      "freshPct": 82.1,
+      "bodyFreshPct": 82.9
     },
     "ko": {
       "total": 732,
-      "percentage": 100,
+      "percentage": 99.9,
       "fresh": 599,
       "metadataStale": 6,
       "stale": 127,
-      "missing": 0,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 81.8,
-      "bodyFreshPct": 82.7
+      "deficit": 1,
+      "freshPct": 81.7,
+      "bodyFreshPct": 82.5
     },
     "es": {
       "total": 732,
-      "percentage": 100,
+      "percentage": 99.9,
       "fresh": 604,
       "metadataStale": 6,
       "stale": 122,
-      "missing": 0,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 82.5,
-      "bodyFreshPct": 83.3
+      "deficit": 1,
+      "freshPct": 82.4,
+      "bodyFreshPct": 83.2
     },
     "fr": {
       "total": 732,
-      "percentage": 100,
+      "percentage": 99.9,
       "fresh": 602,
       "metadataStale": 6,
       "stale": 124,
-      "missing": 0,
+      "missing": 1,
       "orphan": 0,
-      "deficit": 0,
-      "freshPct": 82.2,
-      "bodyFreshPct": 83.1
+      "deficit": 1,
+      "freshPct": 82.1,
+      "bodyFreshPct": 82.9
     }
   },
   "matrix": {
@@ -194,41 +194,41 @@
       }
     },
     "economy": {
-      "zh-TW": 52,
+      "zh-TW": 53,
       "en": {
         "count": 50,
         "fresh": 47,
         "stale": 3,
-        "missing": 0,
-        "deficit": 2
+        "missing": 1,
+        "deficit": 3
       },
       "ja": {
         "count": 50,
         "fresh": 47,
         "stale": 3,
-        "missing": 0,
-        "deficit": 2
+        "missing": 1,
+        "deficit": 3
       },
       "ko": {
         "count": 50,
         "fresh": 47,
         "stale": 3,
-        "missing": 0,
-        "deficit": 2
+        "missing": 1,
+        "deficit": 3
       },
       "es": {
         "count": 50,
         "fresh": 47,
         "stale": 3,
-        "missing": 0,
-        "deficit": 2
+        "missing": 1,
+        "deficit": 3
       },
       "fr": {
         "count": 50,
         "fresh": 47,
         "stale": 3,
-        "missing": 0,
-        "deficit": 2
+        "missing": 1,
+        "deficit": 3
       }
     },
     "food": {
@@ -576,7 +576,20 @@
   },
   "missing": {
     "en": [
+      "Economy/台灣前 50 大企業：護國神山撐起一張表，也撐起一個單點故障的國家.md",
       "Technology/半導體產業：從 RCA 技轉到氮化鎵與量子封裝的 50 年材料革命.md"
+    ],
+    "ja": [
+      "Economy/台灣前 50 大企業：護國神山撐起一張表，也撐起一個單點故障的國家.md"
+    ],
+    "ko": [
+      "Economy/台灣前 50 大企業：護國神山撐起一張表，也撐起一個單點故障的國家.md"
+    ],
+    "es": [
+      "Economy/台灣前 50 大企業：護國神山撐起一張表，也撐起一個單點故障的國家.md"
+    ],
+    "fr": [
+      "Economy/台灣前 50 大企業：護國神山撐起一張表，也撐起一個單點故障的國家.md"
     ]
   },
   "statusSource": "translation-status.json",
