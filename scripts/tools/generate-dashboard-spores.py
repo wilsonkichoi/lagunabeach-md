@@ -649,8 +649,12 @@ def compute_backfill_warnings(entries, today_iso=None):
 
     v1.2 (2026-04-20 γ): 再排除「已撤回」孢子（article 含 `已撤回` / `撤回` / `withdrawn`）。
     觸發：#28 李洋（事實錯誤撤回）連續 6 天當 waiting 顯示，dashboard 噪音。
+
+    v1.3 (2026-05-19): 再排除「未發布」孢子（article 含 `未發布` / `not_posted` / `NOT_POSTED`）。
+    觸發：#71 X drone 連 6 cycle mismatch — URL clerical 誤植 + X 版實際未發布，造成 routine 在錯 row 空轉一週。
+    語意區隔：「未發布」= 從沒發出，「已撤回」= 發了又收回；exclusion 效果相同但 audit trail 分離。
     """
-    withdrawn_markers = ("已撤回", "撤回", "withdrawn")
+    withdrawn_markers = ("已撤回", "撤回", "withdrawn", "未發布", "not_posted", "NOT_POSTED")
     if today_iso:
         today_dt = datetime.fromisoformat(today_iso).date()
     else:

@@ -12,14 +12,5 @@
       "spore_id": "associated #N from SPORE-LOG (optional)"
     }
   },
-  "fingerprints": {
-    "https://x.com/taiwandotmd/status/2053101189034860856": {
-      "fingerprint": "872bef011794e0bd",
-      "first_recorded": "2026-05-16T12:06:32",
-      "first_sentence": "1979 雷虎在台中做玩具飛機 🏭 → 2025-09-21 Overkill 通過 Blue UAS",
-      "emojis": ["🏭"],
-      "utm_campaign": "s71",
-      "spore_id": "71"
-    }
-  }
+  "fingerprints": {}
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T23:12:38.227288Z",
+  "lastUpdated": "2026-05-19T14:04:22.007721Z",
   "schemaVersion": "1.1",
   "totals": {
     "count": 77,
@@ -211,14 +211,6 @@
   },
   "backfillWarnings": [
     {
-      "n": 71,
-      "article": "台灣無人機產業",
-      "platform": "x",
-      "publishedDays": 9,
-      "status": "OVERDUE",
-      "url": "https://x.com/taiwandotmd/status/2053101189034860856"
-    },
-    {
       "n": 77,
       "article": "臺灣前途決議文",
       "platform": "x",
@@ -386,7 +378,7 @@
     },
     {
       "n": 71,
-      "article": "台灣無人機產業",
+      "article": "台灣無人機產業【未發布】",
       "platform": "x",
       "publishDate": "2026-05-10",
       "daysSincePublish": 9,

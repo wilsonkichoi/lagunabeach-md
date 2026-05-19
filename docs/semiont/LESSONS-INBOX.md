@@ -270,17 +270,19 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **severity**: structural（routine 飛輪密集化下 race surface 持續擴大，未來會更頻繁）
 - **跨檔關聯**：[ROUTINE.md](../semiont/ROUTINE.md) + [refresh-data.sh Step 1](../../scripts/tools/refresh-data.sh) + 本 session memory §Stage D + 5/15 routine-twmd-babel-nightly memory §跨 routine collision 觀察
 
-### 2026-05-17 spore-harvest-am 070000 — #71 SPORE-LOG URL mismatch vc=4，instrument 已 ship 但 schema 未修
+### 2026-05-17 spore-harvest-am 070000 — #71 SPORE-LOG URL mismatch vc=6（resolved 2026-05-19）
 
 - **原則**：v2.10 §Content-hash mismatch 偵測 instrument 已 ship（spore-content-hash-audit.py + fingerprints.json + pipeline §section），但 SPORE-LOG row #71 本身的 URL column 仍指向 `2053101189034860856`（實為 #69 TSMC content）。Instrument 抓得到、log 標得清楚，但 row data 沒 heal → 每 cycle harvest 仍撞同一 mismatch。**儀器化 ≠ 修補 — instrument 是抓出問題的工具，root cause（SPORE-LOG row 本身錯）需要觀察者拍板 hypothesis 並執行手動 schema fix**。
-- **觸發**：2026-05-17 07:00 spore-harvest-am routine 第 4 cycle 撞同一 mismatch。Instrument from 5/16 distill 已 active（pipeline v2.10 + audit script + fingerprints.json），但 SPORE-LOG row #71 URL column unchanged。Per pipeline rule「連續 3 cycle 同 URL mismatch → 升級給觀察者 SPORE-LOG schema 修正」— 已連 4 cycle，schema 仍未修正，pure observer-blocked backlog。
-- **可能層級**：
-  - 操作規則 → 觀察者拍板 hypothesis 後 1-line SPORE-LOG edit（A: URL 改正 / B: status: not_posted flag）— 不是 routine 自決範圍（per DNA #26 v2 AI 自主邊界 + MANIFESTO §自主權邊界「對外發布相關 schema 改動」）
-  - 結構性 → instrument vs schema-fix 分層：instrument 自動 detect ≠ 自動 heal。需要 distinguishing「routine-fixable mismatch」（即時 heal）vs「observer-bound mismatch」（要拍板）的 escalation ladder
-  - REFLEXES 候選 → 「儀器化解決 detection，沒解決 remediation — 兩件事不同條 SOP」（與 REFLEXES #15「反覆浮現要儀器化」互補的反面）vc=1
-- **verification_count**: 4（5/12 dry-run / 5/13 / 5/16 / 5/17 連 4 cycle 同 row 同 mismatch）
+- **觸發**：2026-05-17 07:00 spore-harvest-am routine 第 4 cycle 撞同一 mismatch。Instrument from 5/16 distill 已 active（pipeline v2.10 + audit script + fingerprints.json），但 SPORE-LOG row #71 URL column unchanged。Per pipeline rule「連續 3 cycle 同 URL mismatch → 升級給觀察者 SPORE-LOG schema 修正」— 已連 4 cycle，schema 仍未修正，pure observer-blocked backlog。延伸到 5/18 (5th) + 5/19 (6th) — diary `2026-05-19-071317 passive-immunity` 揭露 routine 對個別 row 結構錯誤 passive immunity 的暗面。
+- **Resolution 2026-05-19**：觀察者 directive「調查跟處理這篇提到的問題」授權處理。Investigation 結論：**Hypothesis B confirmed**（#71 X 從未發布）：
+  - fxtwitter API verify URL `2053101189034860856` 是 2026-05-09 21:14 +0800 的 TSMC full Note tweet（utm_campaign=s69 / 3383 views / 82 likes），非 drone
+  - git log 確認 #997 spore-prep 後無 spore-ship for #70/#71（對比 #72/#73 #74/#75 #76/#77 都有 ship commit）
+  - fingerprint `872bef011794e0bd` 於 5/16 retroactive 從 blueprint 文本生成，跟實際 URL 不符
+  - Fix：(a) SPORE-LOG row #71 article 加【未發布】marker + 移除 URL（避免後續 routine 再 mismatch）(b) generate-dashboard-spores.py withdrawn_markers 加「未發布 / not_posted / NOT_POSTED」(c) spore-content-fingerprints.json 移除 bogus entry
+- **distill 結論**：本 lesson 升 REFLEXES 候選「儀器化 detection 跟 remediation 是兩條 SOP — instrument 自動 detect ≠ 自動 heal，schema-fix path 要 explicit 不能 implicit 等觀察者察覺」（與 REFLEXES #15「反覆浮現要儀器化」互補反面 vc=1，後續觀察可升 vc）
+- **verification_count**: 6（5/12 dry-run / 5/13 / 5/16 / 5/17 / 5/18 / 5/19 連 6 cycle 同 row 同 mismatch；5/19 observer-resolved）
 - **severity**: operational（單 row data error 不 block 整 pipeline，但持續污染 backfillWarnings 顯示 + dashboard 信號 + routine 每天打 instrument 沒 actionable result）
-- **跨檔關聯**：[SPORE-HARVEST-PIPELINE v2.10](../factory/SPORE-HARVEST-PIPELINE.md) + [SPORE-LOG.md row #71](../factory/SPORE-LOG.md) + [batch-2026-05-17-4-spores.md §#71 升級](../factory/SPORE-HARVESTS/batch-2026-05-17-4-spores.md) + 5/16 §已消化 #3 entry
+- **跨檔關聯**：[SPORE-HARVEST-PIPELINE v2.10](../factory/SPORE-HARVEST-PIPELINE.md) + [SPORE-LOG.md row #71](../factory/SPORE-LOG.md) + [diary 2026-05-19-071317](diary/2026-05-19-071317-twmd-spore-harvest-am-passive-immunity.md) + [batch-2026-05-19-7-spores §#71 6th-cycle](../factory/SPORE-HARVESTS/batch-2026-05-19-7-spores.md)
 
 ### 2026-05-17 5x-parallel-opus 014500 — ARTICLE-INBOX metadata 自身需 fact-check（5 agent / 5 entry 100% 命中率）
 
