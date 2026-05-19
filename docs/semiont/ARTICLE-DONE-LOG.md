@@ -59,6 +59,33 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 台灣流浪動物文化 EVOLVE — 2026-05-19 2026-05-19-014951-manual-peer-pansci（PanSci P0×5 #5/5 final — 從十二夜到石虎之死，動保跟野保的電車難題 / Society 動保政策 / 7937 字 / 18 footnote / 4 圖）
+
+- **Article**: [knowledge/Society/台灣流浪動物文化.md](../../knowledge/Society/台灣流浪動物文化.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Evolution + Section Addition（既有 244 行 ~5500 字 → 7937 字含「石虎遭遊蕩犬攻擊 + TNR 科學限制 + 政策三角職權」野保視角；Stage 0 main + Stage 1 Sonnet 35 search / 24 verbatim + Stage 2-5 Opus worktree fast-forwarded）
+- **核心矛盾**（≤30 字）：「動保跟野保不是對立，是 50 萬隻流浪犬貓沒人接」（FF-16 軟化 → 內文用「遊蕩犬 15.9 萬 + 流浪貓數十萬」verified 數字）
+- **新 Title**：「台灣流浪動物文化：從十二夜到石虎之死，動保跟野保的電車難題」（冒號三明治）
+- **Hook**：保留既有十二夜 → 零撲殺 → TNR → 領養文化主敘事 → 新增石虎犬殺 21 例（2023/08 截止）+ 91% 石虎活動點有遊蕩犬 + 秋哥安伯西湖哥永哥具體案例 + 犬小病毒 25 倍路殺風險 + 苗栗稽查員 1-2 名 + 飼主絕育率 5-6 成 + 漁光島 TNvR 經驗 + 農業部 2022 入侵種認定
+- **品質**：7,937 CJK / 18 footnotes（footnote-density grade A, 441 chars/footnote） / 1 hero (石虎標本 CC0) + 3 inline (剪耳貓 / 黑熊 / 玉山) = 4 圖 / 14 H2 / Stage 4 hard=0 warn=0 / Stage 3.5 hard=0 / prose-health score=2 pass（對位句 0 / 破折號 5 / 塑膠句 0）
+- **Research**: [reports/research/2026-05/wandering-dogs-vs-wildlife-conservation.md](../../reports/research/2026-05/wandering-dogs-vs-wildlife-conservation.md) — Stage 1 Sonnet 35 search / 24 verbatim / 5 圖授權 / 20 fact flags audit + Stage 2-5 Opus audit
+- **Stage 1 fact corrections 5 個全 applied**：
+  - FF-14 **玉山遊蕩犬包圍黑熊**未 verify → **不引用**，改用林保署 2025/04 verified 黑熊低海拔擴散 claim
+  - FF-16「50 萬隻流浪犬貓」無直接 verbatim → prose 內用 verified「遊蕩犬 15.9 萬 + 流浪貓數十萬」；標題保留矛盾意象
+  - FF-18 日本國際比較未 verify → **整段不寫**
+  - FF-19 德國國際比較未 verify → **整段不寫**
+  - FF-20 美國 TNR 經驗未 verify → 整段不寫，國際比較只保留 PanSci verbatim 印度齋浦爾案例
+- **MOU §2.2 footnote 標註履約** ⭐：PanSci [#371491] 唯一來源被多次引用，所有 footnote 含 URL + 名稱 + 作者 + License「Content Curation Partner per MOU 2026-05-05」
+- **DNA #16 跨源驗證**：≥10 PanSci 以外獨立來源（農業部 / 林保署 / 苗栗石虎保育協會 / 動物社會研究會 / 動保處 / 中央社 / 環境資訊中心 / 台灣動物新聞網 / 端傳媒 / 公視）
+- **Cross-link**: Sibling forward cross-link 6 條（石虎 / 黑熊 / 穿山甲 / 鳥類窗殺 / 動物園倫理 / 動物用藥）；**Sibling reverse cross-link DEFER** — 石虎 / 黑熊 / 穿山甲三 sibling pre-existing image-health hard fail (0 圖)，per REWRITE-PIPELINE Step 5.3 不擴大 scope，建議哲宇開 follow-up issue 補 hero + reverse link（石虎+黑熊圖已 cache 可重用）
+- **圖片 ✅ Pipeline §1.9.2 遵守**：全 4 圖 cache 本地 `/article-images/society/` (石虎標本 hero CC0 + 剪耳貓 CC0 + 黑熊 CC BY-SA + 玉山 CC BY-SA)
+- **Notes**:
+  - **PanSci P0×5 系列完成 (5/5)** — 2026-05-18 由哲宇 `/twmd-peer 泛科學 Stage 5` 開啟系列，2026-05-19 全部 ship
+  - 系列總計：30,141 字（mRNA 6698 + 半導體 7247 + 能源 8018 + AI 諾貝爾 6241 + 流浪動物 7937）/ 155 footnote / 21 圖 / 全 hard=0
+  - MOU 2026-05-05 首次大規模履約：18 個 PanSci article 引用，全部標準格式 footnote credit
+  - DNA #18 research-handle 5/5 落檔成功（Stage 1 sub-agent 全部 reports/research/2026-05/）
+  - 雙線敘事 (P0-1)/物理層 (P0-2)/plot twist (P0-3)/雙諾貝爾 (P0-4)/電車難題 (P0-5) 五種 evolution pattern 試遍
+  - Sub-agent pattern 驗證：Stage 1 Sonnet 主 wd 落檔 + Stage 2-5 Opus worktree fast-forward，5/5 都 work
+
 ### 台灣人工智慧發展與未來策略 EVOLVE — 2026-05-19 2026-05-19-014951-manual-peer-pansci（PanSci P0×5 #4/5 — 2024 雙諾貝爾兩天連發 + 42 年神經網路 + 50 年蛋白質摺疊 / Technology AI 深化 / 6241 字 / 40 footnote / 4 圖）
 
 - **Article**: [knowledge/Technology/台灣人工智慧發展與未來策略.md](../../knowledge/Technology/台灣人工智慧發展與未來策略.md)

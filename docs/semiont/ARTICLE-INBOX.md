@@ -261,27 +261,7 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 <!-- P0-4 2024 AI 雙諾貝爾 已完成 2026-05-19 2026-05-19-014951-manual-peer-pansci → ARTICLE-DONE-LOG.md (PanSci P0×5 #4/5 — 42 年神經網路 + 50 年蛋白質摺疊 / 6241 字 / 40 footnote / 4 圖 / hard=0) -->
 
-### P0-5. 遊蕩犬貓 vs 原生種 — 台灣動保與野保的科學矛盾 EVOLVE
-
-- **Type**: `EVOLVE`
-- **Category**: Society / Nature（雙 category — 動保 + 生態保育）
-- **Path**: [knowledge/Society/台灣流浪動物文化.md](../../knowledge/Society/台灣流浪動物文化.md)（primary evolution target — 從「流浪動物文化」延伸到「動保 vs 野保科學矛盾」）
-- **Priority**: `P0`
-- **Status**: `pending`
-- **Requested**: 2026-05-18 by 哲宇 directive `/twmd-peer 泛科學 Stage 5`
-- **Series**: PanSci Series F「動物科學與台灣保育」
-- **核心矛盾（≤30 字）**：「動保跟野保不是對立，是 50 萬隻流浪犬貓沒人接」
-- **PanSci 來源**：[#371491 遊蕩犬貓](https://pansci.asia/archives/371491) (7,114 字 deep dive)
-- **Taiwan.md 交叉**：[台灣流浪動物文化](../../knowledge/Society/台灣流浪動物文化.md) / [台灣黑熊](../../knowledge/Nature/台灣黑熊.md) / [石虎保育](../../knowledge/Nature/台灣石虎保育.md) / [動物園與展演動物倫理](../../knowledge/Society/動物園與展演動物倫理.md) / [穿山甲](../../knowledge/Nature/台灣穿山甲.md) / [台灣鳥類窗殺議題](../../knowledge/Nature/台灣鳥類窗殺議題.md)
-- **台灣具體 case 必補**：苗栗石虎遭遊蕩犬攻擊案例 / 台中山區黑熊被流浪犬包圍紀錄 / TNVR vs 零撲殺政策 2017 落地後 status / 林務局 vs 動保處職權衝突 / 玉山國家公園遊蕩犬問題
-- **必驗事實**：
-  - 台灣遊蕩犬貓估計數量（最新農委會 / 環境部數字 + 標日期）
-  - 2017/02/04 零撲殺政策上路日期 + 法源
-  - TNVR 全名跟政策落地時間
-  - 石虎瀕危等級（IUCN + 台灣文資法）+ 估計剩餘數量
-- **潛在陷阱**：動保 vs 野保看似對立但根源是「人類飼主未絕育」+「政策落地不足」/ 不可妖魔化任何一方（愛狗人士 / 野生動物保育人士都有合理 frame）/ 零撲殺 ≠ 解決問題 / 不可寫成「該撲殺」立場
-- **預估工時**：3 hr
-- **MOU footnote 標註必做**：1 個 PanSci 來源（7,114 字 deep）完整 credit
+<!-- P0-5 遊蕩犬貓 vs 原生種 已完成 2026-05-19 2026-05-19-014951-manual-peer-pansci → ARTICLE-DONE-LOG.md (PanSci P0×5 #5/5 final — 動保跟野保的電車難題 / 7937 字 / 18 footnote / 4 圖 / hard=0) -->
 
 ---
 
