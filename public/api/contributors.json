@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T22:12:14.539Z",
+  "lastUpdated": "2026-05-19T15:09:56.604Z",
   "totals": {
     "contributors": 52,
     "activeWindow": "last 30d"
@@ -7,16 +7,16 @@
   "leaderboard": [
     {
       "login": "frank890417",
-      "commits": 3124,
+      "commits": 3150,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-05-19 01:54:01 +0800",
+      "lastCommitAt": "2026-05-19 22:12:50 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 668,
-        "system": 2047,
-        "translation": 660
+        "content": 676,
+        "system": 2062,
+        "translation": 663
       }
     },
     {
@@ -49,16 +49,16 @@
     },
     {
       "login": "dreamline2",
-      "commits": 37,
+      "commits": 38,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4657845?v=4",
       "profileUrl": "https://github.com/dreamline2",
       "firstCommitAt": "2026-04-03 17:23:59 +0900",
-      "lastCommitAt": "2026-05-18 23:10:19 +0900",
+      "lastCommitAt": "2026-05-19 23:05:02 +0900",
       "primaryArea": "translation",
       "breakdown": {
         "content": 7,
         "system": 19,
-        "translation": 19
+        "translation": 20
       }
     },
     {
@@ -361,16 +361,16 @@
   "topSystem": [
     {
       "login": "frank890417",
-      "commits": 3124,
+      "commits": 3150,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-05-19 01:54:01 +0800",
+      "lastCommitAt": "2026-05-19 22:12:50 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 668,
-        "system": 2047,
-        "translation": 660
+        "content": 676,
+        "system": 2062,
+        "translation": 663
       }
     },
     {
@@ -447,16 +447,16 @@
     },
     {
       "login": "dreamline2",
-      "commits": 37,
+      "commits": 38,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4657845?v=4",
       "profileUrl": "https://github.com/dreamline2",
       "firstCommitAt": "2026-04-03 17:23:59 +0900",
-      "lastCommitAt": "2026-05-18 23:10:19 +0900",
+      "lastCommitAt": "2026-05-19 23:05:02 +0900",
       "primaryArea": "translation",
       "breakdown": {
         "content": 7,
         "system": 19,
-        "translation": 19
+        "translation": 20
       }
     },
     {
@@ -503,22 +503,8 @@
     }
   ],
   "weeklyActive": 6,
-  "monthlyActive": 12,
+  "monthlyActive": 11,
   "recentlyJoined": [
-    {
-      "login": "kevinyay945",
-      "commits": 1,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17717808?v=4",
-      "profileUrl": "https://github.com/kevinyay945",
-      "firstCommitAt": "2026-04-19 19:57:52 +0800",
-      "lastCommitAt": "2026-04-19 19:57:52 +0800",
-      "primaryArea": "system",
-      "breakdown": {
-        "content": 0,
-        "system": 1,
-        "translation": 0
-      }
-    },
     {
       "login": "assanges",
       "commits": 1,

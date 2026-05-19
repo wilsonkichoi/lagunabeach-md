@@ -1,7 +1,169 @@
 {
-  "generatedAt": "2026-05-18T22:12:13.209Z",
+  "generatedAt": "2026-05-19T15:09:55.265Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "43018156effd6a62b5dd23101ea379ac535e9493",
+      "date": "2026-05-19T22:12:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-pm: PR #1077 dreamline2 麟洋配 footnotes 5 langs ship + 多核心碰撞乾淨對接 — 2026-05-19 22:13"
+    },
+    {
+      "hash": "5e97688c3118426782152f645fee59175578f4cf",
+      "date": "2026-05-19T22:05:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] fix(spore): #71 X drone 6th-cycle mismatch resolved — Hypothesis B confirmed (從未發布)"
+    },
+    {
+      "hash": "c32d210ff6d652ce45b8772a472b7c84e9f2869a",
+      "date": "2026-05-19T23:05:02+09:00",
+      "author": "Wilson Chen",
+      "message": "docs(people): add footnotes for Lin-Yang duo articles (#1077)"
+    },
+    {
+      "hash": "501c5ec860957d34eae96e63731930d842e88fd3",
+      "date": "2026-05-19T15:59:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: PanSci P0×5 系列收官 + 三個 lesson"
+    },
+    {
+      "hash": "ea193de148240ab4312de9bd3108f44ea95ae2ca",
+      "date": "2026-05-19T15:55:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [twmd-rewrite] P0-5 finalize: INBOX move + DONE-LOG append + PanSci P0×5 系列完成 (5/5)"
+    },
+    {
+      "hash": "30a8f7dd0c0e4280abe1a01eb4eaafa86af64537",
+      "date": "2026-05-19T15:53:12+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [twmd-rewrite] P0-5 polish: description 擴至 123 字 (canonical 120-160 range)"
+    },
+    {
+      "hash": "b34be4e07541109af2e1d696e4b3f14a8c97c93c",
+      "date": "2026-05-19T15:51:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [twmd-rewrite] P0-5 evolve+section-addition: 台灣流浪動物文化 → 從十二夜到石虎之死，動保跟野保的電車難題"
+    },
+    {
+      "hash": "2277d37f088c1c3d4cde2cb818260293edf72b99",
+      "date": "2026-05-19T15:15:07+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [twmd-rewrite] P0-4 finalize: INBOX move + DONE-LOG append + Stage 1+2-5 audit merge"
+    },
+    {
+      "hash": "dbb8d44cb509669e5cc166992a8d3ada9655cc54",
+      "date": "2026-05-19T15:11:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [twmd-rewrite] P0-4 evolve+section-addition: 2024 雙諾貝爾 → 台灣人工智慧發展與未來策略"
+    },
+    {
+      "hash": "1d54cbe522599669269e42a47f1296b55c3db061",
+      "date": "2026-05-19T14:46:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 evolve(nature): 台灣氣候危機與淨零轉型 — 核三公投沒過台電送件核安會的 plot twist (PanSci P0×5 #3/5)"
+    },
+    {
+      "hash": "ff6d4cd25cb0caedc5ff6ea65027acbc19916f44",
+      "date": "2026-05-19T14:20:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: P0-5 遊蕩犬貓 vs 野生種 Stage 0 (PanSci P0×5 #5/5)"
+    },
+    {
+      "hash": "3f8d7535adf5373b8214c8f9047d11df706e81b1",
+      "date": "2026-05-19T14:18:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: P0-4 2024 AI 雙諾貝爾 Stage 0 (PanSci P0×5 #4/5)"
+    },
+    {
+      "hash": "20f4c57e06b729f11b2470d0cdc953d071ea0b8c",
+      "date": "2026-05-19T14:16:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: P0-3 能源 trilemma Stage 1 (PanSci P0×5 #3/5)"
+    },
+    {
+      "hash": "b900f18da319b363d0705371c6c2e1080bfa7e3f",
+      "date": "2026-05-19T14:04:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: P0-2 半導體產業 × 物理層 (PanSci P0×5 #2/5)"
+    },
+    {
+      "hash": "90c2ef04b62af47d625bb95d00ea0730689da6e1",
+      "date": "2026-05-19T13:51:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: P0-3 能源 trilemma Stage 0 (PanSci P0×5 #3/5)"
+    },
+    {
+      "hash": "3469058fdd4511624a0a1fd8cd15df6c1b4a128e",
+      "date": "2026-05-19T13:49:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: P0-2 氮化鎵到 3D 封裝 Stage 0+1 (PanSci P0×5 #2/5)"
+    },
+    {
+      "hash": "9a60e8fdf38807e82becc2955659fdb969f83df4",
+      "date": "2026-05-19T13:36:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: P0-1 台灣再生醫療雙法 × mRNA 30 年 (PanSci P0×5 #1/5)"
+    },
+    {
+      "hash": "60ec398b550a90ffd4443ffef0d7b5011b828747",
+      "date": "2026-05-19T13:21:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: P0-1 mRNA 疫苗辛酸 30 年 Stage 0+1 (PanSci × Taiwan.md MOU partner 系列首篇)"
+    },
+    {
+      "hash": "176c478c8119ff9b7c946f018c0eb3fb72467c19",
+      "date": "2026-05-19T09:13:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: empty PR cycle + #851 observer handoff (Zaious 5/16 reply 3-day pending) — 2026-05-19 09:11"
+    },
+    {
+      "hash": "f0eee51f870497e41bd17dd0fcbf8bebe7b7c69f",
+      "date": "2026-05-19T07:17:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory + diary: session 071317-twmd-spore-harvest-am — 7 spore harvest + #71 6th-cycle mismatch escalation L2 + routine passive immunity 反芻"
+    },
+    {
+      "hash": "c916f28dddf8efe82b3130457d4f9e3d0390f312",
+      "date": "2026-05-19T07:13:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 7 spores — 2026-05-19"
+    },
+    {
+      "hash": "6e7bcd2a20e1fc6a7809c5f96facbe9f554525cc",
+      "date": "2026-05-19T07:12:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] lessons: cron-babel-nightly 050500 — §義務鐵律 quality_gate 分母定義不明 (vc=1)"
+    },
+    {
+      "hash": "12da0819e2e902e5e197060cd815a2b0baa729d4",
+      "date": "2026-05-19T07:11:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-19-050500-cron-babel-nightly — P0 missing 全清 + P2.5 全清 + cascade codex/owl 接力 + isolation v2 第二次活捉"
+    },
+    {
+      "hash": "a70355a372fe996904db559237cf72a2c8dca9b7",
+      "date": "2026-05-19T07:07:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: P0 cascade tail ship + P2.5 bumps — 2026-05-19"
+    },
+    {
+      "hash": "eb9bad2aca88c59a032feef4210001a186f7228f",
+      "date": "2026-05-19T06:17:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-19-061431-twmd-data-refresh-am — 隔離模式 v2 vc=2 驗證 + babel concurrent 揭露"
+    },
+    {
+      "hash": "28d18a42e93cd4f175b5cd041dcf77c2bd42b06d",
+      "date": "2026-05-19T06:14:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] babel-handoff: ship 71 translations from in-flight babel routine — 2026-05-19"
+    },
+    {
+      "hash": "7ad7b602b700e85f7770bcd78b6c0d735a1f2238",
+      "date": "2026-05-19T06:13:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: dashboard sync — 2026-05-19 06:13"
+    },
     {
       "hash": "2cfdddc81f20da5a85fafec03a7d5500efc92b2d",
       "date": "2026-05-19T01:54:01+08:00",

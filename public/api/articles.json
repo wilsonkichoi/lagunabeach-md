@@ -170,6 +170,19 @@
     "path": "ko/Society/the-reporter-investigative-journalism.md"
   },
   {
+    "title": "'주혜: 25년간 〈약속〉을 부른 여성 목소리, 만화 속 인형에서 새규까지의 장거리 주자'",
+    "description": "'1999년 포리(福茂)가 《주혜 선집》을 발매했을 때, 표지에는 그녀 본인의 얼굴 대신 '혜이(蕙兒)'라는 이름의 만화 인형이 실렸다. 〈약속〉은 모든 KTV를 누비며 25년을 걸어왔지만, 그녀 본인은 언제나 노래보다 한 발짝 늦게 알려졌다. 2026년 4월 25일 그녀는 처음으로 타이베이 새규(小巨蛋)에 올랐고, 콘서트 막바지에 성대 위축을 고하며 '이것이 여러분께 마지막으로 노래하는 것이 될지 모르겠다'고 말했다. 커버 싱어의 25년 장거리 주행.'",
+    "category": "ko",
+    "tags": [
+      "["
+    ],
+    "url": "https://taiwan.md/ko/Music/chou-hui",
+    "readingTime": 60,
+    "featured": false,
+    "date": "2026-05-19",
+    "path": "ko/Music/chou-hui.md"
+  },
+  {
     "title": "'쩡보언: 웃음의 지점은 계산했지만, 사회는 계산하지 못했다'",
     "description": "1990년생 쩡보언은 젠궈중학 책걸상 위의 이어폰에서 출발해, 국립대만대학교 외국어문학·심리학 복수전공, 런던대학교 뇌와 마음 과학, 파리 제6대학교 통합생물학 석사 과정을 거쳐 박사과정 지원을 앞두고 스탠드업 코미디로 방향을 틀었다. 그는 셰정하오와 사타이어 엔터테인먼트를 공동 창업해, 대만 토크쇼를 코미디 클럽 카미디의 Open Mic에서 1만 3천 명 규모의 타이베이 아레나까지 밀어 올렸다. 동시에 신경과학자다운 정밀함으로 정난룽 농담, 배달원 영상, 오락세 소송에 담긴 사회적 감정의 무게를 잘못 계산했다.",
     "category": "ko",
@@ -1708,16 +1721,7 @@
     "title": "王齊麟與李洋（麟洋配）",
     "description": "從國中同學到奧運金牌：「麟洋配」34分鐘內直落二擊敗中國，寫下台灣羽球史上第一面奧運金牌",
     "category": "People",
-    "tags": [
-      "運動員",
-      "王齊麟",
-      "李洋",
-      "麟洋配",
-      "羽球",
-      "東京奧運",
-      "巴黎奧運",
-      "金牌"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/People/%E9%BA%9F%E6%B4%8B%E9%85%8D",
     "readingTime": 25,
     "featured": true,
@@ -1730,7 +1734,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/People/golden-duo-chi-lin-yang",
-    "readingTime": 21,
+    "readingTime": 22,
     "featured": true,
     "date": "2026-03-19",
     "path": "ja/People/golden-duo-chi-lin-yang.md"
@@ -1820,19 +1824,23 @@
     "path": "ja/Technology/semiconductor-industry.md"
   },
   {
-    "title": "半導體產業",
-    "description": "從張忠謀的歷史賭注到2奈米時代：台積電如何讓台灣成為全球科技命脈",
+    "title": "半導體產業：從 RCA 技轉到氮化鎵與量子封裝的 50 年材料革命",
+    "description": "台灣護國神山靠代工稱霸全球先進製程，但快充頭裡的氮化鎵、AI 晶片下的 CoWoS、量子位元上方的稀釋冷凍機,下一個 50 年的材料科學戰場才剛擺開。",
     "category": "Technology",
     "tags": [
       "半導體",
       "TSMC",
       "台積電",
+      "氮化鎵",
+      "3D封裝",
+      "CoWoS",
+      "量子電腦",
       "先進製程",
-      "科技島",
-      "矽盾"
+      "矽盾",
+      "材料科學"
     ],
     "url": "https://taiwan.md/Technology/%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%94%A2%E6%A5%AD",
-    "readingTime": 21,
+    "readingTime": 60,
     "featured": true,
     "date": "2026-03-17",
     "path": "Technology/半導體產業.md"
@@ -1847,6 +1855,17 @@
     "featured": false,
     "date": "2026-05-18",
     "path": "Geography/台中市.md"
+  },
+  {
+    "title": "台中市：1887年に首都になりかけ、2010年にようやく第2の直轄市となった都市",
+    "description": "1887年、劉銘伝は台湾建省を上奏し、省城は彰化県橋仔頭（現在の台中市街地）に選ばれ、八卦形の城郭が計画されました。1889年に築城が始まりました。1894年に邵友濂が着任すると、省会は台北へ北遷し、台中省城は工事を停止しました。1920年10月1日、日本人はここに台中州を設置しました。1955年、東海大学が大度山で起工し、1963年に路思義教堂が完成しました。1999年9月21日未明、車籠埔断層は南投集集から台中東勢まで一気に裂け、東勢鎮では358人が亡くなりました。2010年12月25日、県市合併により直轄市へ昇格し、29区となりました。2016年、伊東豊雄の国家歌劇院が西屯区で開幕しました。286万人が、この123年待った都市に暮らしています。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Geography/taichung-city",
+    "readingTime": 87,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/taichung-city.md"
   },
   {
     "title": "台北 101：從「看門狗」到「金色的蛇」，一座地標的政經與風水豪賭",
@@ -1880,6 +1899,17 @@
     "featured": false,
     "date": "2026-05-18",
     "path": "Geography/台北市.md"
+  },
+  {
+    "title": "台北市：一つの都市に並ぶ三つの時間、1738年の龍山寺が2004年の101を見ています",
+    "description": "万華には1738年の龍山寺があります。3キロ離れた場所では、2004年の元旦前夜、台北101が、日本統治期の松山倉庫と戦後の四四兵工廠だった土地に完成し、その瞬間に世界一高いビルとなりました。さらに大稲埕へ行くと、1860年代に李春生が一隻分の烏龍茶で北台湾全体の対外貿易を支えました。同じ盆地に、1738、1885、2004という三つの時間が並んでいます。1875年に沈葆楨が台北府を設置し、1920年に日本人が三つの市街を合わせて台北市とし、1947年に林江邁のあの私煙草が二二八を引き起こし、1949年に国府が120万人を伴って台北へ移り、1967年に台湾初の直轄市へ昇格し、1990年に野百合が中正紀念堂で七日六夜座り込みました。12の区は、それぞれ異なる世紀を生きています。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Geography/taipei-city",
+    "readingTime": 81,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/taipei-city.md"
   },
   {
     "title": "台北鼠患：從 1896 年總督府的鼠疫令，到 2026 年大安區的漢他病毒",
@@ -1985,6 +2015,17 @@
     "featured": false,
     "date": "2026-05-18",
     "path": "Geography/台南市.md"
+  },
+  {
+    "title": "台南市：261 年の首府、400 年の古跡、21 世紀のチップが同じ土地に重なっています",
+    "description": "1624 年、オランダ人は大員の砂丘でゼーランディア城の建設を始め、1662 年 2 月 1 日、フレデリック・コイエットはこの城で降伏文書に署名し、2 月 9 日に 2,000 人のオランダ人を率いて浜辺を離れました。1665 年、陳永華が孔子廟を建て、「全台首学」となりました。1684 年、清朝は現在の台南に台湾府を置き、1885 年に台湾が省となり、省会が台北へ北遷したことで、261 年にわたる首府としての地位は終わりました。1947 年 3 月 13 日正午、湯徳章は民生緑園で縛り上げられてトラックに乗せられ、市中を引き回された後、三発の銃声が響きました。2010 年 12 月 25 日、県市合併により 37 区、186 万人の都市となりました。2023 年、南科の年間売上高は 1 兆 5,000 億元となり、竹科を上回りました。三層の歴史が、同じ嘉南平原中部に重なっています。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Geography/tainan-city",
+    "readingTime": 95,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/tainan-city.md"
   },
   {
     "title": "台風休暇：誰の休みで、誰の勤務か",
@@ -3474,6 +3515,29 @@
     "path": "ja/Nature/taiwan-blue-magpie.md"
   },
   {
+    "title": "台湾グルメ総覧：純粋に台湾だけの料理はなく、すべての料理が最も台湾的です",
+    "description": "1949 年、嘉義の噴水池ロータリー脇で、林添壽は米軍が飼い残した七面鳥を薄切りにして白飯にのせ、閩南系の煮込みだれをかけました。原住民族の石板焼き山豚、客家の生姜千切り入り豚大腸炒め、眷村の四川風牛肉麺から、1986 年に台中で発明されたタピオカミルクティー、さらに 2025 年にミシュランが収録した 419 軒のレストランまで。この島は四百年をかけ、借りてきた一皿一皿を自分たちの方法で煮込んできました。",
+    "category": "ja",
+    "tags": [
+      "グルメ",
+      "食",
+      "食べ物",
+      "台湾文化",
+      "移民",
+      "ミシュラン",
+      "夜市",
+      "タピオカミルクティー",
+      "牛肉麺",
+      "魯肉飯",
+      "辦桌"
+    ],
+    "url": "https://taiwan.md/ja/Food/taiwan-food-overview",
+    "readingTime": 102,
+    "featured": true,
+    "date": "2026-05-18",
+    "path": "ja/Food/taiwan-food-overview.md"
+  },
+  {
     "title": "台湾ゲームジャム・コミュニティ：Global Game Jamの台湾上陸からKUSO GAME JAMの「廃作哲学」まで",
     "description": "台湾のゲームジャム・コミュニティが10年間でいかにインディーゲームのエコシステムのインキュベーターと試験場へと成長したか——Global Game Jamの台湾への着地から、KUSO GAME JAMが「廃作」を哲学とするまで。",
     "category": "ja",
@@ -3516,6 +3580,24 @@
     "featured": false,
     "date": "2026-03-18",
     "path": "ja/Technology/taiwan-software-industry-development.md"
+  },
+  {
+    "title": "台湾テクノパーク周辺のビジネスエリア生態",
+    "description": "南港ソフトウェアパーク、内湖テクノロジーパーク、新竹サイエンスパーク、中部サイエンスパーク、南部サイエンスパークの周辺レストランがなぜランチのみとなり、ディナー営業が次々と廃止されるのか。本記事では、通勤パターン、BOT分区管理、そして残業文化の変化という3つの観点から台湾のテクノロジーコリドーにおける単峰性ビジネスエリア現象を分析し、2025年3月のLaLaport開業が三重路・園區街の伝統的なランチ店舗に与えた構造的インパクトを追跡する。",
+    "category": "ja",
+    "tags": [
+      "テクノロジーパーク",
+      "ビジネスエリア経済",
+      "南港ソフトウェアパーク",
+      "内湖テクノロジーパーク",
+      "通勤",
+      "都市計画"
+    ],
+    "url": "https://taiwan.md/ja/Economy/tech-park-peripheral-business-ecosystem",
+    "readingTime": 38,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Economy/tech-park-peripheral-business-ecosystem.md"
   },
   {
     "title": "台湾デジタル映像・アニメーション産業",
@@ -5601,18 +5683,20 @@
     "path": "Technology/台灣5G網路建設與數位轉型.md"
   },
   {
-    "title": "台灣人工智慧發展與未來策略",
-    "description": "全世界訓練 AI 的晶片九成來自台灣，但這座島的 AI 野心不只是當代工廠——從 PTT 創辦人建立的 AI 實驗室，到政府押注的繁體中文大型語言模型 TAIDE，台灣正在硬體霸權之上長出自己的 AI 靈魂。",
+    "title": "台灣人工智慧發展與未來策略：硬體入場券拿到了，下一場仗在哪",
+    "description": "2024 年 10 月 8 日諾貝爾物理頒給 Hopfield 與 Hinton，隔天化學頒給 AlphaFold 三人。同年 5 月 29 日，黃仁勳在台北寧夏夜市跟張忠謀吃蚵仔煎。台灣製造了全球 90% 的 AI 伺服器、72% 的先進晶圓，卻在 42 年神經網路與 50 年蛋白質摺疊難題的解答裡缺席。從 PTT 創辦人杜奕瑾的 Taiwan AI Labs 到國科會押注的繁中 LLM 模型 TAIDE，這座島只當代工廠還夠嗎？",
     "category": "Technology",
     "tags": [
       "人工智慧",
       "AI",
       "半導體",
       "科技政策",
-      "數位轉型"
+      "數位轉型",
+      "諾貝爾獎",
+      "AlphaFold"
     ],
     "url": "https://taiwan.md/Technology/%E5%8F%B0%E7%81%A3%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E7%99%BC%E5%B1%95%E8%88%87%E6%9C%AA%E4%BE%86%E7%AD%96%E7%95%A5",
-    "readingTime": 31,
+    "readingTime": 69,
     "featured": true,
     "date": "2026-03-19",
     "path": "Technology/台灣人工智慧發展與未來策略.md"
@@ -5631,7 +5715,7 @@
       "PTT"
     ],
     "url": "https://taiwan.md/Technology/%E5%8F%B0%E7%81%A3%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E5%AF%A6%E9%A9%97%E5%AE%A4",
-    "readingTime": 8,
+    "readingTime": 9,
     "featured": true,
     "date": "2026-03-19",
     "path": "Technology/台灣人工智慧實驗室.md"
@@ -7074,8 +7158,8 @@
     "path": "Society/台灣政治環境與選舉制度.md"
   },
   {
-    "title": "台灣流浪動物文化",
-    "description": "從十二夜的眼淚到零撲殺的承諾，一座島嶼如何重新學會對待街上的生命",
+    "title": "台灣流浪動物文化：從十二夜到石虎之死，動保跟野保的電車難題",
+    "description": "2013 年《十二夜》讓全島流淚，2017 年 2 月台灣成為東亞第一個零撲殺國家。八年後的 2023 年 5 月 11 日傍晚六點，一隻小石虎死在遊蕩貓嘴下；農業部 2022 年調查全國遊蕩犬 15 萬 9697 隻、台灣石虎保育協會自動相機發現 91% 的石虎活動點都有狗。動保跟野保不是對立，是這座島嶼還有上百萬隻沒人接的命，這篇文章不站邊，講還沒答完的題。",
     "category": "Society",
     "tags": [
       "流浪動物",
@@ -7083,12 +7167,15 @@
       "零撲殺",
       "TNR",
       "十二夜",
+      "石虎",
+      "遊蕩犬",
+      "動保野保",
       "收容所",
       "領養文化"
     ],
     "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E6%B5%81%E6%B5%AA%E5%8B%95%E7%89%A9%E6%96%87%E5%8C%96",
-    "readingTime": 19,
-    "featured": false,
+    "readingTime": 54,
+    "featured": true,
     "date": "2026-03-18",
     "path": "Society/台灣流浪動物文化.md"
   },
@@ -7432,14 +7519,14 @@
     "path": "Geography/氣候.md"
   },
   {
-    "title": "台灣氣候危機與淨零轉型",
-    "description": "升溫速度比全球快一半、98% 能源靠進口——一座島嶼賭上 9 兆台幣重建自己的能源系統",
+    "title": "台灣氣候危機與淨零轉型：核三公投沒過那天，物理上限的選擇才剛開始",
+    "description": "2025 年 8 月 23 日核三延役公投：434 萬同意票、74% 贊成，投票率 29.53% 沒到門檻。公投沒過，隔天賴清德開出三原則，七個月後台電在 2026 年 3 月 27 日把延役申請送進核安會。98% 能源靠進口、9 兆台幣淨零、地熱目標 200 MW 只蓋出 7.4 MW、離岸風電裝置量全球第七、Onkalo 終極處置場、TerraPower 第四代核電——這座島嶼的能源題從來不是政治題，是物理上限題。",
     "category": "Nature",
     "tags": [],
     "url": "https://taiwan.md/Nature/%E5%8F%B0%E7%81%A3%E6%B0%A3%E5%80%99%E5%8D%B1%E6%A9%9F%E8%88%87%E6%B7%A8%E9%9B%B6%E8%BD%89%E5%9E%8B",
-    "readingTime": 27,
+    "readingTime": 77,
     "featured": true,
-    "date": "2026-04-04",
+    "date": "2026-05-19",
     "path": "Nature/台灣氣候危機與淨零轉型.md"
   },
   {
@@ -9800,6 +9887,26 @@
     "path": "ja/Economy/pxmart-supermarket.md"
   },
   {
+    "title": "再生醫療雙法 × mRNA 30 年：兩種救命藥怎麼被國家納管",
+    "description": "2023 年 Karikó 與 Weissman 拿諾貝爾獎那天，距離她在賓州大學被降職整整 28 年。2021 年 9 月 2 日 BNT 第一批 93 萬劑落地桃機那一刻，距離她 1997 年跟 Weissman 在影印機前撞見也已 24 年。本文以「再生醫療雙法 2024」與「mRNA 30 年辛酸」雙線並置，從匈牙利移民女科學家的玩具熊到桃園科學園區的無塵室，看國家怎麼納管兩種完全不同的救命藥——細胞，跟分子。",
+    "category": "Society",
+    "tags": [
+      "再生醫療雙法",
+      "細胞製備",
+      "mRNA 疫苗",
+      "COVID-19",
+      "Karikó",
+      "BNT",
+      "醫療人權",
+      "GMP"
+    ],
+    "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E5%86%8D%E7%94%9F%E9%86%AB%E7%99%82%E9%9B%99%E6%B3%95%E6%B2%BF%E9%9D%A9%E5%BE%9E%E6%A5%AD%E4%BA%BA%E5%93%A1%E5%91%8A%E7%99%BD",
+    "readingTime": 65,
+    "featured": true,
+    "date": "2026-05-19",
+    "path": "Society/台灣再生醫療雙法沿革從業人員告白.md"
+  },
+  {
     "title": "冰河孑遺的微笑：台灣山椒魚的百年身世與科技守護之路",
     "description": "在台灣高山深處，五種特有種山椒魚默默承載著冰河時期的記憶。牠們是高山生態指標，也是一段百年來科學家不斷探索、正名、甚至付出生命的故事。2025 年人工孵化技術的突破，為這些「微笑的高山精靈」帶來新希望。",
     "category": "Nature",
@@ -11543,6 +11650,17 @@
     "featured": false,
     "date": "2026-03-23",
     "path": "People/周杰倫.md"
+  },
+  {
+    "title": "周蕙：25年間〈約定〉を歌い続けた女性の声、漫画キャラから小巨蛋への長距離走",
+    "description": "1999年、福茂レコードから『周蕙精選』がリリースされた。表紙には本人の顔ではなく、蕙兒（ホェイ）という漫画のキャラクターが使われた。〈約定〉はすべてのKTVに浸透し、25年を歩み続けたが、本人はいつも歌より一歩遅れて認識される存在だった。2026年4月25日、彼女は初めて台北小巨蛋のステージに立った。コンサートの終盤で声帯萎縮を公表し、「これが皆さんの前で歌える最後になるかもしれない」と語った。カバーソング歌手の25年間の長距離走。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Music/chou-hui",
+    "readingTime": 53,
+    "featured": false,
+    "date": "2026-05-19",
+    "path": "ja/Music/chou-hui.md"
   },
   {
     "title": "周蕙：唱了 25 年〈約定〉的女聲，從漫畫娃娃到小巨蛋的長跑",
@@ -14258,6 +14376,30 @@
     "path": "ja/People/gwei-lun-mei-versatile-taiwanese-actress.md"
   },
   {
+    "title": "桃園市：台湾の輸出入、最多の客家人、最多の外国人労働者、すべてがこの台地の上にある",
+    "description": "1977年11月19日の夕暮れ、数万人の民衆が中壢警察署を包囲し、警察が民衆に向けて発砲して中央大学の学生江文国と19歳の張治平が死亡し、許信良は23万票対14万票で桃園県長に当選した。1年3か月後の1979年2月26日、中正国際空港が開業し、台湾の対外の玄関口が基隆港からこの台地に移った。2014年12月25日、桃園は第6の直轄市に昇格し、六都の中で最後となった。現在、235万人がこの1,221平方キロメートルの台地に住んでおり、客家系住民は80万人以上で全国最多、外国人労働者は13万2,158人も全国最多である。桃園は台湾で最も多様な境界である。",
+    "category": "ja",
+    "tags": [
+      "桃園",
+      "桃園市",
+      "北部",
+      "機場",
+      "客家",
+      "中壢事件",
+      "石門水庫",
+      "大溪老街",
+      "埤塘",
+      "移工",
+      "泰雅族",
+      "22縣市系列"
+    ],
+    "url": "https://taiwan.md/ja/Geography/taoyuan-city",
+    "readingTime": 70,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/taoyuan-city.md"
+  },
+  {
     "title": "桃園市：台灣的進出口、最多的客家人、最多的移工，全在這塊台地上",
     "description": "1977 年 11 月 19 日傍晚，上萬民眾包圍中壢分局，警方開槍打死中央大學學生江文國跟 19 歲張治平，許信良以 23 萬比 14 萬高票當選桃園縣長。一年三個月後，1979 年 2 月 26 日中正國際機場啟用，台灣的對外大門從基隆港搬到這片台地。2014 年 12 月 25 日，桃園升格成第六都，是六都裡最後一個。今天 235 萬人住在這 1,221 平方公里的台地上，客家逾八十萬全國最多，移工 13 萬 2,158 人也全國最多。桃園是台灣最多元的邊界。",
     "category": "Geography",
@@ -14733,6 +14875,33 @@
     "featured": false,
     "date": "2026-05-18",
     "path": "Geography/高雄市.md"
+  },
+  {
+    "title": "高雄市：1979年に直轄市へ昇格したその年、台北の監獄には八人の高雄人が収監されていました",
+    "description": "1979年7月1日、高雄は台湾で二番目の直轄市へ昇格しました。12月10日の世界人権デー、美麗島雑誌社が大港埔ロータリーで行った演説は、催涙ガス下の衝突へと変わりました。八人が有罪判決を受け、1980年2月28日には林義雄の台北市信義路の自宅で血の惨事が伝えられました。同じ1979年に、高雄は行政上の栄誉を得ると同時に、戦後台湾で最も重い政治的弾圧をのみ込みました。271万人が38区に散らばり、旗津の砂州、那瑪夏のブヌン族集落、中鋼の煙突、衛武営のアルミ合金屋根が一つの市の中で共存しています。この都市は45年をかけて、傷口を自らの形へと縫い合わせてきました。",
+    "category": "ja",
+    "tags": [
+      "高雄",
+      "高雄市",
+      "南部",
+      "直轄市",
+      "高雄港",
+      "美麗島事件",
+      "愛河",
+      "中鋼",
+      "衛武営",
+      "六合夜市",
+      "光のドーム",
+      "美濃",
+      "那瑪夏",
+      "八八水害",
+      "22県市シリーズ"
+    ],
+    "url": "https://taiwan.md/ja/Geography/kaohsiung-city",
+    "readingTime": 89,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/kaohsiung-city.md"
   },
   {
     "title": "偏遠地區學校教育發展條例全解：國家花了 175 億，還是擋不住人口重力",
@@ -15212,24 +15381,6 @@
     "featured": false,
     "date": "2026-04-13",
     "path": "Music/張懸與安溥.md"
-  },
-  {
-    "title": "從無塵室看見奇蹟的法制化：台灣再生醫療雙法沿革從業人員告白",
-    "description": "2024 年 6 月 4 日，台灣《再生醫療法》與《再生醫療製劑條例》三讀通過，細胞治療從「特許嘗試」正式走進國家法規監管。本文由第一線細胞製備人員視角，剖析法規沿革、「附附款許可」的倫理攻防，以及 ISO 5 無塵室裡守護「救命藥」的真實重量。",
-    "category": "Society",
-    "tags": [
-      "再生醫療雙法",
-      "細胞製備",
-      "GTP",
-      "生技醫療",
-      "醫療人權",
-      "GMP"
-    ],
-    "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E5%86%8D%E7%94%9F%E9%86%AB%E7%99%82%E9%9B%99%E6%B3%95%E6%B2%BF%E9%9D%A9%E5%BE%9E%E6%A5%AD%E4%BA%BA%E5%93%A1%E5%91%8A%E7%99%BD",
-    "readingTime": 14,
-    "featured": false,
-    "date": "2026-04-24",
-    "path": "Society/台灣再生醫療雙法沿革從業人員告白.md"
   },
   {
     "title": "教育制度與升學文化",
@@ -17781,6 +17932,32 @@
     "path": "Geography/新北市.md"
   },
   {
+    "title": "新北市：台北を囲む環状都市圏、401万人が首都の通勤・工業・記憶を支えています",
+    "description": "淡水紅毛城は、1628年にスペイン人が最初のレンガを積んでから398年になります。1875年に沈葆楨が台北府を設置する247年前のことです。現在、新北市の29区は台北市の12区を囲み、401万人が台湾最大の直轄市に暮らし、39万人が県市を越えて台北へ通勤しています。しかしこの「環状都市圏」は台北のベッドタウンではありません。1853年の板橋林家、1869年に淡水から輸出されニューヨークで売られた烏龍茶、1890年代のアジア第一の金鉱である九份・金瓜石、1929年に石炭を運んだ平渓鉄道、1947年に李梅樹が始めた三峡祖師廟の彫刻、烏来タイヤル族の德拉楠部落があります。新北は台湾400年の縮図であり、たまたま台北市の中にないだけです。",
+    "category": "ja",
+    "tags": [
+      "新北",
+      "新北市",
+      "北部",
+      "板橋",
+      "淡水",
+      "九份",
+      "金瓜石",
+      "三峡",
+      "鶯歌",
+      "烏来",
+      "平渓",
+      "貢寮",
+      "環状都市圏",
+      "22県市シリーズ"
+    ],
+    "url": "https://taiwan.md/ja/Geography/new-taipei-city",
+    "readingTime": 105,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/new-taipei-city.md"
+  },
+  {
     "title": "新生態藝術環境：1992 年永福路那棟四百坪老屋，跑在補助結構前面的七年",
     "description": "1992 年 6 月，杜昭賢在台南永福路一棟四百多坪老建築開了「新生態藝術環境」。國藝會還沒成立，南藝大還沒開校，文建會「閒置空間再利用」政策還沒上線。它撐了七年，到 1999 年熄燈時，台灣當代藝術的機構神經系統剛好開始長出來。",
     "category": "Art",
@@ -17841,6 +18018,34 @@
     "featured": false,
     "date": "2026-05-18",
     "path": "Geography/新竹市.md"
+  },
+  {
+    "title": "新竹市：1733年に竹を植えて築かれた竹塹、1980年に台積電を生んだ揺籃",
+    "description": "1733年（雍正11年）、淡水同知の徐治民が四周に茨竹を植え、周囲1408メートルの円形土城を築きました。1829年に石造城壁が完成し、東門の迎曦門は今も護城川のそばに立っています。247年後の1980年12月15日、蔣経国は迎曦門から5キロメートル離れた場所で台湾初の科学工業園区のテープカットを行いました。1953年から1974年にかけて、黒蝙蝠中隊の148人がこの風の街から中国大陸への偵察任務に飛び立ち、二度と帰ってきませんでした。45万人が住む省轄市が、冷戦最前線、北部で最も早く築かれた漢人都市、二つの頂尖大学、そして世界の半導体高品位チップ90%の起点を支えています。風城というあだ名は文学的ですが、この街のすべての産業は風と関係しています。",
+    "category": "ja",
+    "tags": [
+      "新竹",
+      "新竹市",
+      "北部",
+      "風城",
+      "竹塹城",
+      "迎曦門",
+      "黒蝙蝠中隊",
+      "新竹科学工業園区",
+      "台積電",
+      "城隍廟",
+      "米粉",
+      "貢丸",
+      "ガラス工芸",
+      "清華大学",
+      "陽明交通大学",
+      "22県市シリーズ"
+    ],
+    "url": "https://taiwan.md/ja/Geography/hsinchu-city",
+    "readingTime": 67,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ja/Geography/hsinchu-city.md"
   },
   {
     "title": "新竹県：235年の義民信仰と台湾最高の1人当たり所得が、同じ頭前渓沿いにあります",
@@ -24497,6 +24702,30 @@
     "path": "en/People/cho-yun-hsu-bridging-historian.md"
   },
   {
+    "title": "Chou Hui : la voix féminine qui chante « Yueding » depuis 25 ans, de la poupée dessinée au marathon du Taipei Arena",
+    "description": "En 1999, Linfair Records publie *Chou Hui Selection*, dont la couverture arbore une poupée de dessin animé nommée Hui Er à la place du visage de l'artiste. « Yueding » entre dans chaque salle de karaoke et traverse 25 ans, mais son interprète reste toujours un pas derrière sa propre chanson. Le 25 avril 2026, elle monte pour la première fois sur la scène du Taipei Arena, puis annonce en fin de concert une atrophie des cordes vocales : « Je ne sais pas si ce sera la dernière fois que je chante pour vous. » Le marathon de 25 ans d'une chanteuse de reprises.",
+    "category": "fr",
+    "tags": [
+      "["
+    ],
+    "url": "https://taiwan.md/fr/Music/chou-hui",
+    "readingTime": 139,
+    "featured": false,
+    "date": "2026-05-19",
+    "path": "fr/Music/chou-hui.md"
+  },
+  {
+    "title": "Chou Hui: la voz femenina que cantó \"Yueding\" durante 25 años, del muñeco de cómic al maratón del Taipei Arena",
+    "description": "En 1999, Linfair Records lanzó \"Chou Hui Jingxuan\" (Selección de Chou Hui), con un muñeco de cómic llamado Hui Er en la portada en lugar del rostro de la cantante. \"Yueding\" entró en cada karaoke de Taiwán y recorrió 25 años, pero su intérprete siempre fue reconocida un paso después que su canción. El 25 de abril de 2026 pisó por primera vez el Taipei Arena, y al final del concierto anunció que sus cuerdas vocales se habían atrofiado: \"No sé si esta será la última vez que cante para ustedes\". Un maratón de 25 años de una cantante de versiones.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Music/chou-hui",
+    "readingTime": 137,
+    "featured": false,
+    "date": "2026-05-19",
+    "path": "es/Music/chou-hui.md"
+  },
+  {
     "title": "Chou Tzu-yu",
     "description": "Une jeune fille de Tainan qui n'avait jamais parlé de politique, transformée en symbole de l'identité taïwanaise par huit secondes de drapeau. Dix ans plus tard, au Grand Dôme de Taipei, elle lisait une lettre manuscrite : « Je ne suis pas partie, non par sagesse, mais parce que j'en avais vraiment le désir. »",
     "category": "fr",
@@ -24808,6 +25037,144 @@
     "featured": false,
     "date": "2026-05-18",
     "path": "es/Geography/chiayi-city.md"
+  },
+  {
+    "title": "Ciudad de Hsinchu: la muralla de bambú de Zhúqiàn plantada en 1733, cuna de TSMC nacida en 1980",
+    "description": "En 1733, undécimo año del reinado de Yongzheng, el magistrado de la prefectura de Tamsui, Xu Zhimin, plantó bambú espinoso (cìzhú) alrededor del asentamiento de Zhúqiàn, formando una muralla circular de tierra de 1408 metros de circunferencia. En 1829 se completó la muralla de ladrillo y piedra; la puerta oriental, Puerta Yingxi (迎曦門), sigue en pie junto al foso. 247 años después, el 15 de diciembre de 1980, Chiang Ching-kuo cortó la cinta roja del primer parque científico de Taiwán, a 5 kilómetros de la Puerta Yingxi. Entre 1953 y 1974, 148 miembros del Escuadrón Murciélago Negro (黑蝙蝠中隊) despegaron de esta ciudad del viento para realizar misiones de reconocimiento sobre China continental y nunca regresaron. Una ciudad subprovincial de 450 000 habitantes sostuvo el frente de la Guerra Fría, fue la ciudad han más antigua del norte, alberga dos universidades de élite y es el punto de partida del 90 % de los chips de gama alta del mundo. El apodo \"Ciudad del Viento\" suena literario, pero todas las industrias de esta ciudad están relacionadas con el viento.",
+    "category": "es",
+    "tags": [
+      "Hsinchu",
+      "Ciudad de Hsinchu",
+      "norte",
+      "Ciudad del Viento",
+      "Ciudad de Zhúqiàn",
+      "Puerta Yingxi",
+      "Escuadrón Murciélago Negro",
+      "Parque Científico de Hsinchu",
+      "TSMC",
+      "Templo del Dios de la Ciudad",
+      "fideos de arroz",
+      "bolas de cerdo",
+      "artesanía del vidrio",
+      "Universidad Nacional de Tsing Hua",
+      "Universidad Nacional Yang Ming Chiao Tung",
+      "serie de 22 ciudades y condados"
+    ],
+    "url": "https://taiwan.md/es/Geography/hsinchu-city",
+    "readingTime": 220,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/hsinchu-city.md"
+  },
+  {
+    "title": "Ciudad de Kaohsiung: en 1979, el año en que fue elevada a municipio especial, ocho kaohsiungueses estaban presos en una cárcel de Taipéi",
+    "description": "El 1 de julio de 1979, Kaohsiung fue elevada a segundo municipio especial de Taiwán. El 10 de diciembre, Día Mundial de los Derechos Humanos, el acto de la revista Formosa en la rotonda de Dagangpu terminó convertido en un enfrentamiento bajo gases lacrimógenos. Ocho personas fueron condenadas y, el 28 de febrero de 1980, se conoció la masacre ocurrida en la casa de Lin Yi-hsiung, en la calle Xinyi de Taipéi. En ese mismo 1979, Kaohsiung obtuvo gloria administrativa y también tragó la represión política más dura del Taiwán de posguerra. 2,71 millones de personas repartidas en 38 distritos; la barra arenosa de Cijin, las comunidades bunun de Namasia, las chimeneas de China Steel y el techo de aleación de aluminio de Weiwuying conviven en una misma ciudad. Esta ciudad tardó 45 años en coser sus heridas hasta darles una forma propia.",
+    "category": "es",
+    "tags": [
+      "Kaohsiung",
+      "Ciudad de Kaohsiung",
+      "sur",
+      "municipio especial",
+      "puerto de Kaohsiung",
+      "Incidente de Formosa",
+      "río Amor",
+      "China Steel",
+      "Weiwuying",
+      "Mercado nocturno de Liuhe",
+      "Cúpula de Luz",
+      "Meinong",
+      "Namasia",
+      "tifón Morakot",
+      "serie de 22 condados y ciudades"
+    ],
+    "url": "https://taiwan.md/es/Geography/kaohsiung-city",
+    "readingTime": 269,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/kaohsiung-city.md"
+  },
+  {
+    "title": "Ciudad de Nuevo Taipéi: la metrópolis anular que rodea Taipéi, donde 4,01 millones de personas sostienen los desplazamientos, la industria y la memoria de la capital",
+    "description": "Desde que los españoles colocaron el primer ladrillo del Fuerte Santo Domingo de Tamsui en 1628, han pasado 398 años. Eso fue 247 años antes de que Shen Baozhen estableciera la Prefectura de Taipéi en 1875. Hoy, los 29 distritos de la Ciudad de Nuevo Taipéi rodean los 12 distritos de la Ciudad de Taipéi; 4,01 millones de personas viven en el mayor municipio especial de todo Taiwán, y 390.000 cruzan límites municipales para trabajar en Taipéi. Pero esta “metrópolis anular” no es una ciudad dormitorio de Taipéi: allí están la familia Lin de Banqiao de 1853, el té oolong que salió de Tamsui en 1869 y se vendió en Nueva York, Jiufen y Jinguashi, la primera mina de oro de Asia en la década de 1890, el Ferrocarril de Pingxi de 1929 que transportaba carbón, las tallas del Templo Zushi de Sanxia iniciadas por Li Meishu en 1947, y la comunidad Tranan del pueblo atayal en Wulai. Nuevo Taipéi es una síntesis de 400 años de Taiwán, justo fuera de la Ciudad de Taipéi.",
+    "category": "es",
+    "tags": [
+      "Nuevo Taipéi",
+      "Ciudad de Nuevo Taipéi",
+      "norte",
+      "Banqiao",
+      "Tamsui",
+      "Jiufen",
+      "Jinguashi",
+      "Sanxia",
+      "Yingge",
+      "Wulai",
+      "Pingxi",
+      "Gongliao",
+      "metrópolis anular",
+      "serie de 22 condados y ciudades"
+    ],
+    "url": "https://taiwan.md/es/Geography/new-taipei-city",
+    "readingTime": 310,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/new-taipei-city.md"
+  },
+  {
+    "title": "Ciudad de Taichung: casi fue capital en 1887 y recién en 2010 se convirtió en la segunda mayor municipalidad especial",
+    "description": "En 1887, Liu Mingchuan solicitó establecer la provincia de Taiwán; la capital provincial se eligió en Qiaozitou, condado de Changhua (actual zona urbana de Taichung), con una ciudad amurallada planificada en forma de bagua. La construcción comenzó en 1889. Tras asumir Shao Youlian en 1894, la capital provincial fue trasladada al norte, a Taipéi, y la ciudad provincial de Taichung quedó inconclusa. El 1 de octubre de 1920, los japoneses establecieron aquí la prefectura de Taichung. En 1955, la Universidad Tunghai inició obras en el monte Dadu, y en 1963 se completó la Capilla Conmemorativa Luce. En la madrugada del 21 de septiembre de 1999, la falla de Chelungpu desgarró el terreno desde Jiji, Nantou, hasta Dongshi, Taichung; en el pueblo de Dongshi murieron 358 personas. El 25 de diciembre de 2010, la fusión de ciudad y condado elevó a Taichung a municipalidad especial, con 29 distritos. En 2016, el Teatro Nacional de Taichung de Toyo Ito abrió en el distrito de Xitun. 2,86 millones de personas viven en esta ciudad que esperó 123 años.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Geography/taichung-city",
+    "readingTime": 262,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/taichung-city.md"
+  },
+  {
+    "title": "Ciudad de Tainan: 261 años de capital, 400 años de monumentos y chips del siglo XXI superpuestos sobre la misma tierra",
+    "description": "En 1624, los neerlandeses comenzaron a construir el fuerte Zeelandia sobre las dunas de Tayouan; el 1 de febrero de 1662, Frederik Coyett firmó allí la capitulación y el 9 de febrero abandonó la playa con dos mil neerlandeses. En 1665, Chen Yonghua construyó el templo de Confucio, que se convirtió en la “primera escuela de todo Taiwán”. En 1684, la corte Qing estableció la prefectura de Taiwán en la actual Tainan; en 1885, al crearse la provincia de Taiwán y trasladarse la capital provincial al norte, a Taipéi, terminó su condición de capital durante 261 años. Al mediodía del 13 de marzo de 1947, Tang Te-chang fue atado, subido a un camión en Minsheng Green Park para ser exhibido por las calles y luego cayeron tres disparos. El 25 de diciembre de 2010, la fusión de ciudad y condado produjo 37 distritos y 1,86 millones de habitantes. En 2023, la facturación anual del Parque Científico del Sur alcanzó 1,5 billones de dólares taiwaneses y superó al Parque Científico de Hsinchu. Tres capas de historia pesan sobre el mismo tramo medio de la llanura de Chianan.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Geography/tainan-city",
+    "readingTime": 269,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/tainan-city.md"
+  },
+  {
+    "title": "Ciudad de Taipéi: tres tiempos dentro de una ciudad, el templo Longshan de 1738 mirando al 101 de 2004",
+    "description": "En Wanhua hay un templo Longshan de 1738. A tres kilómetros, en la víspera de Año Nuevo de 2004, el Taipei 101 se inauguró en terrenos que habían sido el almacén Songshan durante el dominio japonés y, después de la guerra, el Arsenal 44; en ese momento fue el edificio más alto del mundo. Si uno camina hasta Dadaocheng, en la década de 1860 Li Chunsheng sostuvo todo el comercio exterior del norte de Taiwán con un cargamento de té oolong. En una misma cuenca, 1738, 1885 y 2004 están colocados lado a lado. En 1875 Shen Baozhen estableció la prefectura de Taipéi; en 1920 los japoneses unieron tres barrios comerciales para formar la ciudad de Taipéi; en 1947 el paquete de cigarrillos de Lin Jiangmai encendió el Incidente del 28 de Febrero; en 1949 el Gobierno Nacionalista trasladó a 1,2 millones de personas a Taipéi; en 1967 fue elevada a la primera municipalidad especial de todo Taiwán; en 1990 el movimiento estudiantil Lirio Silvestre permaneció sentado siete días y seis noches en el Salón Conmemorativo de Chiang Kai-shek. Doce distritos viven en siglos distintos.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Geography/taipei-city",
+    "readingTime": 246,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/taipei-city.md"
+  },
+  {
+    "title": "Ciudad de Taoyuan: la puerta de entrada y salida de Taiwán, la mayor población hakka, la mayor población de trabajadores migrantes, todo sobre esta meseta",
+    "description": "El 19 de noviembre de 1977, al anochecer, decenas de miles de personas rodearon la estación de policía de Zhongli. La policía disparó desde posiciones elevadas, matando al estudiante de la Universidad Nacional Central Jiang Wenguo y a Zhang Zhiping, de 19 años. Xun Xianliang fue elegido magistrado del condado de Taoyuan con 230.000 votos contra 140.000. Tres meses después, el 26 de febrero de 1979, se inauguró el Aeropuerto Internacional de Taoyuan (entonces Aeropuerto Internacional Chiang Kai-shek), y la puerta exterior de Taiwán se trasladó del puerto de Keelung a esta meseta. El 25 de diciembre de 2014, Taoyuan se convirtió en la sexta municipalidad especial, la última de las seis. Hoy 2,35 millones de personas viven en esta meseta de 1.221 kilómetros cuadrados: más de 800.000 hakka, la mayor cifra nacional, y 132.158 trabajadores migrantes, también la mayor cifra nacional. Taoyuan es la frontera más diversa de Taiwán.",
+    "category": "es",
+    "tags": [
+      "Taoyuan",
+      "Ciudad de Taoyuan",
+      "norte",
+      "aeropuerto",
+      "hakka",
+      "Incidente de Zhongli",
+      "Presa Shimen",
+      "Calle Vieja de Daxi",
+      "estanques",
+      "trabajadores migrantes",
+      "pueblo atayal",
+      "serie de 22 condados y ciudades"
+    ],
+    "url": "https://taiwan.md/es/Geography/taoyuan-city",
+    "readingTime": 218,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Geography/taoyuan-city.md"
   },
   {
     "title": "Cocina de las villas de dependientes militares en Taiwán",
@@ -26854,6 +27221,24 @@
     "featured": false,
     "date": "2026-03-18",
     "path": "es/Economy/circular-economy-and-resource-recycling.md"
+  },
+  {
+    "title": "Ecosistema comercial periférico de los parques tecnológicos de Taiwán",
+    "description": "¿Por qué los restaurantes en las inmediaciones del Parque Software de Nankang, el Parque Tecnológico de Neihu, el Parque Científico de Hsinchu, el Parque Científico Central y el Parque Científico del Sur solo ofrecen almuerzo y han ido eliminando la cena? Este artículo descompone el fenómeno del comercio unipico en el corredor tecnológico de Taiwán desde tres perspectivas: patrones de desplazamiento, zonificación regulada por concesiones BOT y cambios en la cultura de las horas extras, y rastrea el impacto estructural que la inauguración de LaLaport en marzo de 2025 ha tenido sobre los establecimientos tradicionales de almuerzo en la Calle Sanzhong y la Calle Yuanqu.",
+    "category": "es",
+    "tags": [
+      "parque tecnológico",
+      "economía comercial",
+      "Parque Software de Nankang",
+      "Parque Tecnológico de Neihu",
+      "desplazamiento",
+      "planificación urbana"
+    ],
+    "url": "https://taiwan.md/es/Economy/tech-park-peripheral-business-ecosystem",
+    "readingTime": 112,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "es/Economy/tech-park-peripheral-business-ecosystem.md"
   },
   {
     "title": "Ecosistema de startups",
@@ -30027,6 +30412,62 @@
     "path": "en/People/su-wei-hsieh-wimbledon-champion.md"
   },
   {
+    "title": "Hsinchu : la cité de bambou de Zhuqian plantée en 1733, berceau de TSMC en 1980",
+    "description": "En 1733, onzième année du règne de Yongzheng, le sous-préfet de Tamsui Xu Zhimin planta des bambous épineux tout autour de Zhuqian, érigant une muraille de terre circulaire de 1 408 mètres de circonférence. En 1829, la cité de pierre et brique fut achevée ; la porte orientale Yingximen se dresse encore aujourd'hui au bord du fossé. 247 ans plus tard, le 15 décembre 1980, Jiang Jingguo coupa le ruban rouge du premier parc scientifique de Taïwan, à 5 km de Yingximen. Entre 1953 et 1974, 148 membres de l'Escadrille des Chauves-souris noires décollèrent de cette cité du vent pour des missions de reconnaissance en Chine continentale, sans jamais revenir. Cette municipalité provinciale de 450 000 habitants a porté le front de la Guerre froide, abrité la plus ancienne cité han du nord, deux universités d'élite et le point de départ de 90 % des puces haut de gamme mondiales. Le surnom de « cité du vent » est poétique, mais toutes les industries de cette ville sont liées au vent.",
+    "category": "fr",
+    "tags": [
+      "Hsinchu",
+      "Municipalité de Hsinchu",
+      "Nord",
+      "Cité du vent",
+      "Cité de Zhuqian",
+      "Porte Yingximen",
+      "Escadrille des Chauves-souris noires",
+      "Parc scientifique de Hsinchu",
+      "TSMC",
+      "Temple du Dieu de la Cité",
+      "Vermicelles de riz",
+      "Boulettes de viande",
+      "Art du verre",
+      "Université Tsing Hua",
+      "Université Yang Ming Chiao Tung",
+      "Série des 22 municipalités et comtés"
+    ],
+    "url": "https://taiwan.md/fr/Geography/hsinchu-city",
+    "readingTime": 218,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/hsinchu-city.md"
+  },
+  {
+    "title": "Hsinchu City: The Bamboo Fortress Planted in 1733, the Cradle That Grew TSMC in 1980",
+    "description": "In 1733, the 11th year of the Yongzheng reign, Magistrate Xu Zhimin of the Tamsui Subprefecture planted thorny bamboo all around the settlement, enclosing a circular earthen wall 1,408 meters in circumference. In 1829, the brick-and-stone city was completed; the East Gate, Yingximen (Gate of Greeting the Dawn), still stands beside its moat today. 247 years later, on December 15, 1980, Chiang Ching-kuo cut the red ribbon for Taiwan's first science park, just 5 kilometers from Yingximen. Between 1953 and 1974, 148 members of the Black Bat Squadron took off from this Wind City to conduct reconnaissance over mainland China and never came back. A provincial city of 450,000 people that held the Cold War front line, the earliest Han-built city in northern Taiwan, two top universities, and the starting point of 90% of the world's advanced semiconductor chips. The nickname 'Wind City' sounds literary, but every industry in this city is connected to the wind.",
+    "category": "en",
+    "tags": [
+      "Hsinchu",
+      "Hsinchu City",
+      "Northern Taiwan",
+      "Wind City",
+      "Zhujian City",
+      "Yingximen",
+      "Black Bat Squadron",
+      "Hsinchu Science Park",
+      "TSMC",
+      "City God Temple",
+      "Rice Noodles",
+      "Meatballs",
+      "Glass Craft",
+      "National Tsing Hua University",
+      "National Yang Ming Chiao Tung University",
+      "22 Counties and Cities Series"
+    ],
+    "url": "https://taiwan.md/en/Geography/hsinchu-city",
+    "readingTime": 194,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/hsinchu-city.md"
+  },
+  {
     "title": "Hsinchu County: A 235-Year Yimin Faith and Taiwan’s Highest Per Capita Income Along the Same Touqian River",
     "description": "In the winter of 1788, Baozhong Pavilion was founded on a hillside in Xinpu to collectively bury more than 200 Hakka yimin who died in the Lin Shuangwen Rebellion. Two hundred thirty-five years later, the rotating ritual circuit of the Yimin Festival on the twentieth day of the seventh lunar month is still running among the Fifteen Lianzhuang. Five kilometers away, Zhubei City ranked first among Taiwan’s 368 townships, towns, cities, and districts in 2025 with per capita income of NT$1.442 million, magnetized by TSMC’s Baoshan Phase II 2-nanometer wafer fab. Hsinchu County is 67.8% Hakka, the highest share in Taiwan. But among the 220,000 people in the county seat of Zhubei, fewer young Hakka people can afford homes in their own hometown.",
     "category": "en",
@@ -31753,6 +32194,33 @@
     "path": "fr/People/kao-chun-ming.md"
   },
   {
+    "title": "Kaohsiung City: In 1979, the Year It Became a Special Municipality, Eight Kaohsiung People Were Held in a Taipei Prison",
+    "description": "On July 1, 1979, Kaohsiung was upgraded to become Taiwan's second special municipality. On December 10, Human Rights Day, a speech organized by Formosa Magazine at the Dagangpu Roundabout turned into a clash under tear gas. Eight people were sentenced. On February 28, 1980, a bloodshed occurred at Lin Yi-hsiung's home on Xinyi Road in Taipei. In the same year, 1979, Kaohsiung received administrative honor and swallowed the heaviest political repression in postwar Taiwan. Its 2.71 million people are spread across 38 districts: the Cijin sandbar, Bunun communities in Namaxia, China Steel smokestacks, and Weiwuying's aluminum-alloy roof all share the same city. Over 45 years, this city has stitched its wounds into a shape of its own.",
+    "category": "en",
+    "tags": [
+      "Kaohsiung",
+      "Kaohsiung City",
+      "Southern Taiwan",
+      "Special Municipality",
+      "Port of Kaohsiung",
+      "Formosa Incident",
+      "Love River",
+      "China Steel",
+      "Weiwuying",
+      "Liuhe Night Market",
+      "Dome of Light",
+      "Meinong",
+      "Namaxia",
+      "Typhoon Morakot Disaster",
+      "22 Counties and Cities Series"
+    ],
+    "url": "https://taiwan.md/en/Geography/kaohsiung-city",
+    "readingTime": 245,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/kaohsiung-city.md"
+  },
+  {
     "title": "Kaohsiung Incident (Formosa Incident)",
     "description": "A military trial designed to crush the democratic opposition movement unexpectedly became, through live media coverage, the most powerful propaganda film for Taiwan democracy.",
     "category": "en",
@@ -32272,6 +32740,24 @@
     "featured": false,
     "date": "2026-04-01",
     "path": "fr/Nature/orchid-island-ecosystem.md"
+  },
+  {
+    "title": "L'écosystème des zones commerciales périphériques des parcs technologiques taïwanais",
+    "description": "Pourquoi les restaurants autour du parc logiciel de Nangang, du parc scientifique de Neihu, du parc scientifique de Hsinchu, du parc scientifique du centre Taïwan et du parc scientifique du sud Taïwan ne servent plus que le déjeuner, et ferment le soir. Cet article démonte le phénomène de zone commerciale unimodale le long du corridor technologique taïwanais sous trois angles : les schémas de trajet domicile-travail, la réglementation des zones BOT et l'évolution de la culture des heures supplémentaires. Il suit également l'impact structurel de l'ouverture de LaLaport en mars 2025 sur les commerces traditionnels du déjeuner de la route Sanzhong et de la rue du Parc.",
+    "category": "fr",
+    "tags": [
+      "parc technologique",
+      "économie de quartier",
+      "parc logiciel de Nangang",
+      "parc scientifique de Neihu",
+      "trajet domicile-travail",
+      "urbanisme"
+    ],
+    "url": "https://taiwan.md/fr/Economy/tech-park-peripheral-business-ecosystem",
+    "readingTime": 111,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Economy/tech-park-peripheral-business-ecosystem.md"
   },
   {
     "title": "L'écosystème forestier de Taïwan",
@@ -39890,6 +40376,58 @@
     "path": "en/Art/new-ecological-art-environment.md"
   },
   {
+    "title": "New Taipei : la métropole annulaire qui entoure Taipei, où 4,01 millions d’habitants portent les trajets pendulaires, l’industrie et la mémoire de la capitale",
+    "description": "Depuis que les Espagnols ont posé la première brique du fort San Domingo de Tamsui en 1628, 398 ans se sont écoulés. C’était 247 ans avant que Shen Baozhen n’établisse la préfecture de Taipei en 1875. Aujourd’hui, les 29 districts de New Taipei entourent les 12 districts de Taipei ; 4,01 millions de personnes vivent dans cette municipalité spéciale, la plus peuplée de Taïwan, et 390 000 traversent les limites municipales pour aller travailler à Taipei. Mais cette « métropole annulaire » n’est pas une cité-dortoir de Taipei : elle porte la famille Lin de Banqiao en 1853, le thé oolong expédié de Tamsui jusqu’à New York en 1869, les premières mines d’or d’Asie à Jiufen et Jinguashi dans les années 1890, la ligne ferroviaire de Pingxi qui transportait le charbon en 1929, les sculptures du temple Zushi de Sanxia commencées par Li Meishu en 1947, et le village Tranan des Atayal de Wulai. New Taipei est un condensé de 400 ans d’histoire taïwanaise, situé précisément hors de la ville de Taipei.",
+    "category": "fr",
+    "tags": [
+      "New Taipei",
+      "ville de New Taipei",
+      "Nord",
+      "Banqiao",
+      "Tamsui",
+      "Jiufen",
+      "Jinguashi",
+      "Sanxia",
+      "Yingge",
+      "Wulai",
+      "Pingxi",
+      "Gongliao",
+      "métropole annulaire",
+      "série des 22 villes et comtés"
+    ],
+    "url": "https://taiwan.md/fr/Geography/new-taipei-city",
+    "readingTime": 304,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/new-taipei-city.md"
+  },
+  {
+    "title": "New Taipei City: The Ring Metropolis Around Taipei, Where 4.01 Million People Sustain the Capital’s Commute, Industry, and Memory",
+    "description": "Fort San Domingo in Tamsui has stood for 398 years since the Spanish laid its first brick in 1628. That is 247 years before Shen Baozhen established Taipei Prefecture in 1875. Today, New Taipei City’s 29 districts surround Taipei City’s 12 districts; 4.01 million people live in Taiwan’s largest special municipality, and 390,000 commute across city and county lines to work in Taipei. But this “ring metropolis” is not Taipei’s bedroom community: it has the Banqiao Lin Family from 1853, oolong tea shipped from Tamsui to New York in 1869, Jiufen and Jinguashi as Asia’s first gold-mining district in the 1890s, the Pingxi Railway that carried coal in 1929, the Sanxia Zushi Temple carvings begun by Li Mei-shu in 1947, and the Tranan community of the Atayal people in Wulai. New Taipei is a microcosm of Taiwan’s 400 years, located just outside Taipei City.",
+    "category": "en",
+    "tags": [
+      "New Taipei",
+      "New Taipei City",
+      "Northern Taiwan",
+      "Banqiao",
+      "Tamsui",
+      "Jiufen",
+      "Jinguashi",
+      "Sanxia",
+      "Yingge",
+      "Wulai",
+      "Pingxi",
+      "Gongliao",
+      "Ring Metropolis",
+      "22 Cities and Counties Series"
+    ],
+    "url": "https://taiwan.md/en/Geography/new-taipei-city",
+    "readingTime": 292,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/new-taipei-city.md"
+  },
+  {
     "title": "Nieh Yung-jen : premier membre taïwanais de l'AGI, vingt ans de création des pochettes de disques aux systèmes d'identité nationale",
     "description": "Nieh Yung-jen (né en 1977) est le premier designer taïwanais à avoir été admis à l'Alliance Graphique Internationale (AGI), l'association suisse de design graphique. Trois fois lauréat du Golden Melody Award pour le meilleur design de pochette d'album, il a travaillé dans des domaines aussi variés que les couvertures d'albums de musique pop (Sodagreen, Yoga Lin, Hebe Tien), l'édition de livres, les mouvements citoyens (publicité « Democracy at 4am » dans le New York Times à l'aube du Mouvement du Tournesol en 2014, campagne « Taiwan Can Help » contre Tedros en 2020 ayant récolté dix millions en huit heures), les campagnes politiques (identité visuelle « Light Up Taiwan » pour Tsai Ing-wen en 2016 et visuels des deux cérémonies d'investiture présidentielle), les systèmes d'identité d'entreprises publiques (Ministère de l'Économie, Administration du Tourisme, CPC Corporation, Taipower), et les espaces artistiques (Taichung Green Museumbrary, pavillon taïwanais de la Biennale de Venise). Son studio Aaron Nieh Workshop est présent à Taipei et dans les entrepôts de Pier-2 à Kaohsiung ; il a étudié en Belgique et à Londres sans obtenir de diplôme dans aucune des trois écoles fréquentées ; il déclare : « Avant d'être le designer Nieh Yung-jen, il était le citoyen Nieh Yung-jen. » À partir de 2024, il a remporté consécutivement quatre marchés d'identité visuelle d'entreprises publiques ; le 8 mai 2026, le lancement du nouveau logo de Taipower a déclenché une controverse de « favoritisme politique ».",
     "category": "fr",
@@ -40370,6 +40908,52 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "es/Food/taiwan-bread-and-baking.md"
+  },
+  {
+    "title": "Panorama de la gastronomía taiwanesa: ningún plato es puramente taiwanés, y cada plato es lo más taiwanés que existe",
+    "description": "En 1949, junto a la rotonda de la fuente de Chiayi, Lin Tianshou cortó en rebanadas el pavo que había sobrado de las tropas estadounidenses, lo puso sobre arroz blanco y lo bañó con una salsa estofada minnan. Del jabalí asado sobre piedra de los pueblos indígenas, el intestino grueso salteado con jengibre de los hakka y la sopa de fideos con carne de res al estilo sichuanés de las aldeas militares, hasta el té con leche de perlas inventado en Taichung en 1986 y los 419 restaurantes incluidos por Michelin en 2025. Esta isla pasó cuatrocientos años cocinando cada plato prestado a su propia manera.",
+    "category": "es",
+    "tags": [
+      "gastronomía",
+      "comida",
+      "alimentos",
+      "cultura taiwanesa",
+      "migración",
+      "Michelin",
+      "mercado nocturno",
+      "té con leche de perlas",
+      "sopa de fideos con carne de res",
+      "arroz con cerdo estofado",
+      "banquete al aire libre"
+    ],
+    "url": "https://taiwan.md/es/Food/taiwan-food-overview",
+    "readingTime": 247,
+    "featured": true,
+    "date": "2026-05-18",
+    "path": "es/Food/taiwan-food-overview.md"
+  },
+  {
+    "title": "Panorama de la gastronomie taïwanaise : aucun plat n’est purement taïwanais, chaque plat est ce qu’il y a de plus taïwanais",
+    "description": "En 1949, près du rond-point de la fontaine de Chiayi, Lin Tianshou déposa des tranches de dinde, élevées en surplus par l’armée américaine, sur du riz blanc et les arrosa d’une sauce braisée minnan. Du sanglier autochtone grillé sur pierre, du gros intestin sauté au gingembre hakka et des nouilles au bœuf sichuanaises des villages de dépendants militaires jusqu’au thé aux perles inventé à Taichung en 1986, puis aux 419 restaurants retenus par Michelin en 2025. Cette île a passé quatre cents ans à cuisiner chaque plat emprunté à sa propre manière.",
+    "category": "fr",
+    "tags": [
+      "gastronomie",
+      "alimentation",
+      "nourriture",
+      "culture taïwanaise",
+      "immigration",
+      "Michelin",
+      "marchés de nuit",
+      "thé aux perles",
+      "nouilles au bœuf",
+      "riz au porc braisé",
+      "banquets de rue"
+    ],
+    "url": "https://taiwan.md/fr/Food/taiwan-food-overview",
+    "readingTime": 259,
+    "featured": true,
+    "date": "2026-05-18",
+    "path": "fr/Food/taiwan-food-overview.md"
   },
   {
     "title": "PanSci : du trou noir de l'information scientifique à l'industrie du savoir dans les algorithmes",
@@ -43555,6 +44139,52 @@
     "path": "es/People/tai-yu-wu.md"
   },
   {
+    "title": "Taichung City: Nearly the Capital in 1887, Taiwan's Second-Largest Special Municipality Only in 2010",
+    "description": "In 1887, Liu Mingchuan petitioned to establish Taiwan as a province, selecting Qiaozitou in Changhua County, today’s central Taichung, as the provincial capital and planning an eight-trigram-shaped walled city. Construction began in 1889. After Shao Youlian took office in 1894, the provincial capital moved north to Taipei, and work on Taichung’s provincial city stopped. On October 1, 1920, the Japanese established Taichung Prefecture here. In 1955, Tunghai University broke ground on Dadu Mountain; in 1963, Luce Memorial Chapel was completed. In the early hours of September 21, 1999, the Chelungpu Fault tore from Jiji in Nantou all the way to Dongshi in Taichung, killing 358 people in Dongshi Township. On December 25, 2010, the county and city merged and were upgraded into a 29-district special municipality. In 2016, Toyo Ito’s National Taichung Theater opened in Xitun District. 2.86 million people live in this city that waited 123 years.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Geography/taichung-city",
+    "readingTime": 245,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/taichung-city.md"
+  },
+  {
+    "title": "Tainan : 261 ans de capitale, 400 ans de vestiges, des puces du XXIe siècle superposés sur une même terre",
+    "description": "En 1624, les Néerlandais commencèrent à construire Fort Zeelandia sur les dunes de Tayouan ; le 1er février 1662, Coyett signa dans cette forteresse l'acte de reddition, puis le 9 février quitta la plage avec deux mille Néerlandais. En 1665, Chen Yonghua fit construire le temple de Confucius, devenu la « première école de tout Taïwan ». En 1684, les Qing établirent la préfecture de Taïwan dans l'actuel Tainan ; en 1885, Taïwan devint province, la capitale provinciale fut déplacée vers le nord à Taipei, et 261 ans de statut de capitale prirent fin. Le 13 mars 1947 à midi, Tang Te-chang fut ligoté, hissé sur un camion à Minsheng Green Park, promené dans les rues, puis trois coups de feu retentirent. Le 25 décembre 2010, la fusion ville-comté créa 37 districts et 1,86 million d'habitants. En 2023, le chiffre d'affaires annuel du STSP atteignit 1 500 milliards de dollars taïwanais et dépassa celui du Hsinchu Science Park. Trois strates d'histoire pèsent sur un même tronçon central de la plaine de Jianan.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Geography/tainan-city",
+    "readingTime": 272,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/tainan-city.md"
+  },
+  {
+    "title": "Tainan City: 261 Years as Capital, 400 Years of Monuments, and 21st-Century Chips Layered on the Same Land",
+    "description": "In 1624, the Dutch began building Fort Zeelandia on the dunes of Tayouan; on February 1, 1662, Frederik Coyett signed the surrender papers in that fort, and on February 9 left the beach with 2,000 Dutch people. In 1665, Chen Yonghua built the Confucius Temple, later known as Taiwan's First Academy. In 1684, the Qing court established Taiwan Prefecture in present-day Tainan; in 1885 Taiwan became a province, the provincial capital moved north to Taipei, and Tainan's 261-year status as capital ended. At noon on March 13, 1947, Tang Te-chang was bound, forced onto a truck at Minsheng Green Park, paraded through the streets, and then three gunshots rang out. On December 25, 2010, city-county merger created 37 districts and a population of 1.86 million. In 2023, Southern Taiwan Science Park's annual revenue reached NT$1.5 trillion, surpassing Hsinchu Science Park. Three layers of history press down on the same middle stretch of the Chianan Plain.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Geography/tainan-city",
+    "readingTime": 251,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/tainan-city.md"
+  },
+  {
+    "title": "Taipei : trois temps dans une même ville, le temple Longshan de 1738 face au 101 de 2004",
+    "description": "Le quartier de Wanhua abrite le temple Longshan, construit en 1738. À trois kilomètres de là, la veille du Nouvel An 2004, le Taipei 101 a été inauguré sur un terrain qui fut d'abord l'entrepôt militaire de Songshan sous l'ère japonaise, puis l'arsenal 44 après-guerre : il était alors le plus haut gratte-ciel du monde. En se dirigeant vers Dadaocheng, dans les années 1860, Li Chunsheng a soutenu l'ensemble du commerce extérieur du nord de Taïwan grâce à un seul navire de thé Oolong. Dans le même bassin, trois époques coexistent : 1738, 1885, 2004. En 1875, Shen Baozhen établit la préfecture de Taipei ; en 1920, les Japonais fusionnent trois quartiers pour créer la ville de Taipei ; en 1947, le paquet de cigarettes de Lin Jiangmai déclenche le 228 ; en 1949, le gouvernement nationaliste s'installe à Taipei avec 1,2 million de personnes ; en 1967, Taipei devient la première municipalité spéciale de Taïwan ; en 1990, le mouvement du Lys sauvage occupe la place du Mémorial Chiang Kai-shek pendant sept jours et six nuits. Douze districts, vivant dans des siècles différents.",
+    "category": "fr",
+    "tags": [
+      "["
+    ],
+    "url": "https://taiwan.md/fr/Geography/taipei-city",
+    "readingTime": 241,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/taipei-city.md"
+  },
+  {
     "title": "Taipei 101 : Du « chien de garde » au « serpent doré », le pari politico-économique et feng shui d'un monument emblématique",
     "description": "Taipei 101 n'est pas simplement un gratte-ciel : c'est le jeu politico-économique entre Chen Shui-bian et Peng Huan-nan, l'expérience feng shui de Lee Chung-yuan, et le « boss final » sous les pieds d'Alex Honnold. De 59 à 101 étages, l'évolution de ce « bassin à trésors » révèle les rapports de pouvoir et les mystères qui se cachent derrière.",
     "category": "fr",
@@ -43586,6 +44216,17 @@
     "featured": false,
     "date": "2026-05-04",
     "path": "en/Geography/taipei-101.md"
+  },
+  {
+    "title": "Taipei City: Three Times Within One City, Longshan Temple of 1738 Looking at Taipei 101 of 2004",
+    "description": "Wanhua has Longshan Temple, built in 1738. Three kilometers away, on New Year's Eve 2004, Taipei 101 was completed on land that had been the Japanese-era Songshan Warehouse and the postwar 44th Arsenal; at that moment it was the tallest building in the world. Walk again to Dadaocheng, where in the 1860s Li Chunsheng used one shipload of oolong tea to sustain all of northern Taiwan's external trade. In the same basin, the three times of 1738, 1885, and 2004 sit side by side. In 1875 Shen Baozhen established Taipei Prefecture; in 1920 the Japanese merged three market towns into Taipei City; in 1947 Lin Jiangmai's packet of illicit cigarettes ignited the February 28 Incident; in 1949 the Nationalist government brought 1.2 million people to Taipei; in 1967 it was upgraded into Taiwan's first special municipality; in 1990 the Wild Lily movement sat at Chiang Kai-shek Memorial Hall for seven days and six nights. Twelve districts, living in different centuries.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Geography/taipei-city",
+    "readingTime": 231,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/taipei-city.md"
   },
   {
     "title": "Taipei's Rat Problem: From the 1896 Governor-General's Plague Decree to the 2026 Hantavirus Case in Da'an District",
@@ -46566,6 +47207,29 @@
     "path": "en/Economy/formosa-plastics-group.md"
   },
   {
+    "title": "Taiwanese Food Overview: No Dish Is Purely Taiwanese; Every Dish Is Taiwan at Its Most Taiwanese",
+    "description": "Beside the Chiayi Fountain Roundabout in 1949, Lin Tian-shou sliced turkey left from U.S. military rearing, laid it over white rice, and poured on a Minnan braising sauce. From Indigenous stone-slab-grilled wild boar, Hakka stir-fried pork intestine with shredded ginger, and military dependents' village Sichuan-style beef noodle soup to the bubble tea invented in Taichung in 1986, and then to the 419 restaurants included by Michelin in 2025. Over four hundred years, this island has cooked every borrowed dish into its own way.",
+    "category": "en",
+    "tags": [
+      "Cuisine",
+      "Food",
+      "Food",
+      "Taiwanese Culture",
+      "Migration",
+      "Michelin",
+      "Night Markets",
+      "Bubble Tea",
+      "Beef Noodle Soup",
+      "Lu Rou Fan",
+      "Bando"
+    ],
+    "url": "https://taiwan.md/en/Food/taiwan-food-overview",
+    "readingTime": 243,
+    "featured": true,
+    "date": "2026-05-18",
+    "path": "en/Food/taiwan-food-overview.md"
+  },
+  {
     "title": "Taiwanese Glove Puppetry (Budaixi): From Temple-Square Bans to the Palm-Held Universe of Thunderbolt Fantasy",
     "description": "On March 2, 1970, Huang Jun-hsiung's Shih Yen-wen brought Taiwan's factories to a halt and emptied classrooms, scoring a 97% TV rating; four years later the government banned it on grounds of 'disrupting normal work schedules.' This palm-held art, having endured Kominka suppression, TV bans, and the videotape revolution, finally cracked open the global anime market with Thunderbolt Fantasy.",
     "category": "en",
@@ -46944,6 +47608,30 @@
     "path": "en/People/tanya-chua-singer.md"
   },
   {
+    "title": "Taoyuan : les importations-exportations de Taïwan, le plus grand nombre de Hakkas, le plus grand nombre de travailleurs migrants, tout sur ce plateau",
+    "description": "Le 19 novembre 1977 en fin d'après-midi, des dizaines de milliers de personnes encerclèrent le poste de police de Zhongli. La police tira depuis des positions surélevées, tuant Jiang Wenguo, étudiant à l'Université centrale, et Zhang Ziping, 19 ans. Xu Xinliang fut élu magistrat du comté de Taoyuan avec 230 000 voix contre 140 000. Un an et trois mois plus tard, le 26 février 1979, l'aéroport international de Zhongzheng (aujourd'hui aéroport international de Taoyuan) entra en service, déplaçant la porte d'entrée internationale de Taïwan du port de Keelung vers ce plateau. Le 25 décembre 2014, Taoyuan devint la sixième municipalité spéciale, la dernière des six. Aujourd'hui, 2,35 millions de personnes vivent sur ce plateau de 1 221 km², les Hakkas y sont plus de 800 000 — le plus grand nombre du pays — et les travailleurs migrants 132 158 — également le plus grand nombre du pays. Taoyuan est la frontière la plus diverse de Taïwan.",
+    "category": "fr",
+    "tags": [
+      "Taoyuan",
+      "Municipalité de Taoyuan",
+      "Nord",
+      "Aéroport",
+      "Hakka",
+      "Incident de Zhongli",
+      "Barrage de Shimen",
+      "Vieille rue de Daxi",
+      "Étangs-réservoirs (pitang)",
+      "Travailleurs migrants",
+      "Peuple Atayal",
+      "Série des 22 municipalités et comtés"
+    ],
+    "url": "https://taiwan.md/fr/Geography/taoyuan-city",
+    "readingTime": 176,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/taoyuan-city.md"
+  },
+  {
     "title": "Taoyuan Airport: From the 'Chiang' Name of the Ten Major Projects to the Billion-Dollar Trial of the 2026 National Gateway",
     "description": "In April 2026, the roof of the Taoyuan Airport Terminal 3 was officially topped out, marking that this national gateway, costing NT$128.3 billion, is about to be reborn. From the birth of 'Chiang Kai-shek International Airport' in 1979, the low point of flooding in 2016, to the transit boom triggered by the opening of the North Concourse in 2025, Taoyuan Airport is attempting to regain its lost coordinates in the competition for Asian aviation hubs.",
     "category": "ko",
@@ -46964,6 +47652,30 @@
     "featured": false,
     "date": "2026-05-03",
     "path": "en/Lifestyle/taoyuan-airport.md"
+  },
+  {
+    "title": "Taoyuan City: Taiwan's Gateway for Imports and Exports, the Largest Hakka Population, the Most Migrant Workers — All on This Tableland",
+    "description": "On the evening of November 19, 1977, tens of thousands of people surrounded the Zhongli Police Station. Police opened fire from elevated positions, killing Chiang Wen-kuo, a student at National Central University, and 19-year-old Chang Chih-ping. Hsin-liang Hsu was elected Taoyuan County Magistrate by a landslide margin of 230,000 to 140,000 votes. One year and three months later, on February 26, 1979, Chiang Kai-shek International Airport opened, and Taiwan's gateway to the world moved from Keelung Harbor to this tableland. On December 25, 2014, Taoyuan was upgraded to a special municipality — the sixth and last of the six. Today 2.35 million people live on this 1,221-square-kilometer tableland. The Hakka population exceeds 800,000, the most of any county or city in Taiwan, and the migrant worker population of 132,158 is also the highest in the nation. Taoyuan is Taiwan's most diverse border.",
+    "category": "en",
+    "tags": [
+      "桃園",
+      "桃園市",
+      "北部",
+      "機場",
+      "客家",
+      "中壢事件",
+      "石門水庫",
+      "大溪老街",
+      "埤塘",
+      "移工",
+      "泰雅族",
+      "22縣市系列"
+    ],
+    "url": "https://taiwan.md/en/Geography/taoyuan-city",
+    "readingTime": 198,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Geography/taoyuan-city.md"
   },
   {
     "title": "Tawny Fish Owl: One Pair per Six Kilometers of Stream, a Nocturnal Raptor in a 1,800-Meter Michelia Tree",
@@ -47438,6 +48150,24 @@
     "featured": false,
     "date": "2026-03-23",
     "path": "en/Economy/economic-miracle.md"
+  },
+  {
+    "title": "The Ecosystem of Peripheral Business Districts Around Taiwan's Tech Parks",
+    "description": "Why do restaurants around the peripheries of Nangang Software Park, Neihu Technology Park, Hsinchu Science Park, Central Taiwan Science Park, and Southern Taiwan Science Park increasingly only serve lunch while dinner services shut down one after another? This article unpacks the single-peak business district phenomenon along Taiwan's technology corridor through three lenses: commuting patterns, BOT zoning controls, and shifts in overtime culture. It also tracks the structural impact of LaLaport's March 2025 opening on traditional lunch-district eateries along Sanzhong Road and Yuanqu Street.",
+    "category": "en",
+    "tags": [
+      "科技園區",
+      "商圈經濟",
+      "南港軟體園區",
+      "內湖科技園區",
+      "通勤",
+      "都市規劃"
+    ],
+    "url": "https://taiwan.md/en/Economy/tech-park-peripheral-business-ecosystem",
+    "readingTime": 98,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "en/Economy/tech-park-peripheral-business-ecosystem.md"
   },
   {
     "title": "The Evolution of Taiwan Mandarin — Four Hundred Years of Linguistic Stratigraphy",
@@ -48885,6 +49615,44 @@
     "path": "en/Music/village-armed-youth.md"
   },
   {
+    "title": "Ville de Kaohsiung : en 1979, l’année de son élévation au rang de municipalité spéciale, huit habitants de Kaohsiung étaient enfermés dans une prison de Taipei",
+    "description": "Le 1er juillet 1979, Kaohsiung devint la deuxième municipalité spéciale de Taïwan ; le 10 décembre, Journée mondiale des droits de l’homme, le meeting de la revue Formosa au rond-point de Dagangpu se transforma en affrontement sous les gaz lacrymogènes. Huit personnes furent condamnées ; le 28 février 1980, un massacre eut lieu au domicile de Lin Yi-hsiung, rue Xinyi à Taipei. Cette même année 1979, Kaohsiung reçut une gloire administrative et avala aussi la répression politique la plus lourde du Taïwan d’après-guerre. Ses 2,71 millions d’habitants sont dispersés dans 38 districts ; le cordon sableux de Cijin, les villages bunun de Namaxia, les cheminées de China Steel et le toit d’aluminium de Weiwuying cohabitent dans une même ville, qui a passé 45 ans à recoudre ses blessures jusqu’à leur donner sa propre forme.",
+    "category": "fr",
+    "tags": [
+      "Kaohsiung",
+      "Ville de Kaohsiung",
+      "Sud",
+      "Municipalité spéciale",
+      "Port de Kaohsiung",
+      "Incident de Formosa",
+      "Rivière de l’Amour",
+      "China Steel",
+      "Weiwuying",
+      "Marché de nuit de Liuhe",
+      "Dôme de Lumière",
+      "Meinong",
+      "Namaxia",
+      "Catastrophe du 8 août",
+      "Série des 22 villes et comtés"
+    ],
+    "url": "https://taiwan.md/fr/Geography/kaohsiung-city",
+    "readingTime": 264,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/kaohsiung-city.md"
+  },
+  {
+    "title": "Ville de Taichung : en 1887, elle faillit devenir capitale ; en 2010 seulement, elle devint la deuxième plus grande municipalité spéciale",
+    "description": "En 1887, Liu Mingchuan demanda par mémoire la création de la province de Taïwan ; la capitale provinciale fut choisie à Qiaozitou, dans le comté de Changhua (aujourd’hui le centre de Taichung), avec un plan de ville en forme de bagua. La construction des remparts commença en 1889. Après l’entrée en fonction de Shao Youlian en 1894, la capitale provinciale fut déplacée au nord, à Taipei, et les travaux de la capitale provinciale de Taichung furent interrompus. Le 1er octobre 1920, les Japonais établirent ici la préfecture de Taichung. En 1955, l’université Tunghai posa la première pierre sur le mont Dadu ; en 1963, la chapelle Luce fut achevée. À l’aube du 21 septembre 1999, la faille de Chelungpu déchira le sol depuis Jiji, dans le Nantou, jusqu’à Dongshi, à Taichung ; 358 personnes moururent dans le canton de Dongshi. Le 25 décembre 2010, la ville et le comté fusionnèrent et furent élevés au rang de municipalité spéciale, avec 29 districts. En 2016, l’Opéra national conçu par Toyo Ito ouvrit à Xitun. 2,86 millions de personnes vivent dans cette ville qui a attendu 123 ans.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Geography/taichung-city",
+    "readingTime": 273,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/taichung-city.md"
+  },
+  {
     "title": "Vino Shaoxing de Puli: el 'licor nacional taiwanés' que un régimen en el exilio inventó en 1952",
     "description": "La fábrica se construyó en 1917, pero la primera tinaja de vino Shaoxing no salió hasta 1952, justo después de la retirada del gobierno nacionalista. La historia de la destilería de Puli es un experimento que, a base de arroz glutinoso y agua de pozo, condensó la nostalgia política en una mercancía. Cuando hoy coges en el 7-Eleven un cuenco de fideos instantáneos de pollo huadiao, lo que llevas en la mano es un sabor de la historia taiwanesa de posguerra.",
     "category": "es",
@@ -49036,7 +49804,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/People/lin-yang-duo-taiwan-badminton-champions",
-    "readingTime": 39,
+    "readingTime": 42,
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/lin-yang-duo-taiwan-badminton-champions.md"
@@ -49047,7 +49815,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/People/golden-duo-chi-lin-yang",
-    "readingTime": 50,
+    "readingTime": 51,
     "featured": true,
     "date": "2026-03-19",
     "path": "fr/People/golden-duo-chi-lin-yang.md"
@@ -49058,7 +49826,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/People/golden-duo-chi-lin-yang",
-    "readingTime": 57,
+    "readingTime": 59,
     "featured": true,
     "date": "2026-03-19",
     "path": "es/People/golden-duo-chi-lin-yang.md"
@@ -49353,6 +50121,19 @@
     "featured": false,
     "date": "2026-03-24",
     "path": "en/Technology/taiwan-disaster-medicine-system.md"
+  },
+  {
+    "title": "Where Chou: The Voice Behind 'Yue Ding' for 25 Years, From Cartoon Doll to Taipei Arena",
+    "description": "In 1999, Linfair Records released 'Where Chou's Greatest Hits,' its cover featuring a cartoon doll named Hui-er in place of the singer's own face. 'Yue Ding' entered every KTV room and endured for 25 years, yet the woman behind the voice was always recognized a step later than her song. On April 25, 2026, she stepped onto the stage of Taipei Arena for the first time, only to announce vocal cord atrophy at the end of the concert: 'I don't know if this will be the last time I sing for everyone.' A cover singer's 25-year marathon.",
+    "category": "en",
+    "tags": [
+      "["
+    ],
+    "url": "https://taiwan.md/en/Music/chou-hui",
+    "readingTime": 127,
+    "featured": false,
+    "date": "2026-05-19",
+    "path": "en/Music/chou-hui.md"
   },
   {
     "title": "Where Did Taiwan's Moral Education Go: A Course That Was Cancelled, and a Responsibility No One Has Picked Up in Twenty Years",
@@ -50791,6 +51572,33 @@
     "path": "en/People/zun.md"
   },
   {
+    "title": "가오슝시: 1979년 직할시로 승격되던 그해, 타이베이의 감옥에는 가오슝 사람 여덟 명이 갇혀 있었다",
+    "description": "1979년 7월 1일 가오슝은 타이완의 두 번째 직할시로 승격되었고, 12월 10일 세계 인권의 날에는 메이리다오 잡지사가 다강푸 로터리에서 연설을 열려던 일이 최루탄 아래의 충돌로 변했다. 여덟 명이 형을 선고받았고, 1980년 2월 28일 린이슝의 타이베이 신이로 자택에서는 참극이 전해졌다. 같은 1979년에 가오슝은 행정적 영예를 얻었고, 전후 타이완에서 가장 무거운 정치적 탄압도 삼켰다. 271만 명은 38개 구에 흩어져 있고, 치진 사주, 나마샤 부눈족 부락, 중국강철의 굴뚝, 웨이우잉의 알루미늄 합금 지붕이 한 도시에 함께 산다. 이 도시는 45년에 걸쳐 상처를 자기만의 형태로 꿰매 왔다.",
+    "category": "ko",
+    "tags": [
+      "가오슝",
+      "가오슝시",
+      "남부",
+      "직할시",
+      "가오슝항",
+      "메이리다오 사건",
+      "아이허",
+      "중국강철",
+      "웨이우잉",
+      "류허 야시장",
+      "빛의 돔",
+      "메이눙",
+      "나마샤",
+      "88 수해",
+      "22개 현시 시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/kaohsiung-city",
+    "readingTime": 106,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/kaohsiung-city.md"
+  },
+  {
     "title": "가오쥔밍",
     "description": "한 번도 만난 적 없는 낯선 사람을 위해 목사는 자신의 목숨과 교회를 걸었다. 메이리다오 사건 뒤에 숨겨진 신앙의 선택",
     "category": "ko",
@@ -51789,6 +52597,24 @@
     "path": "ko/Economy/taiwan-machine-tool-industry.md"
   },
   {
+    "title": "대만 과학기술단지 주변 상권 생태",
+    "description": "난강 소프트웨어단지, 네이후 과학기술단지, 신주 과학단지, 중부 과학단지, 남부 과학단지 주변 식당들이 왜 점심만 남기고 저녁 영업을 잇달아 중단하는가. 본 글은 통근 패턴, BOT 용도구역 규제, 야근 문화 변화 세 가지 측면에서 대만 과학기술 코리도의 단봉(單峰) 상권 현상을 분석하고, 2025년 3월 라라포트 개점이 싼충루(三重路), 위안취제(園區街) 전통 점심 상권 점포들에 가한 구조적 충격을 추적한다.",
+    "category": "ko",
+    "tags": [
+      "과학기술단지",
+      "상권 경제",
+      "난강 소프트웨어단지",
+      "네이후 과학기술단지",
+      "통근",
+      "도시계획"
+    ],
+    "url": "https://taiwan.md/ko/Economy/tech-park-peripheral-business-ecosystem",
+    "readingTime": 44,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Economy/tech-park-peripheral-business-ecosystem.md"
+  },
+  {
     "title": "대만 교사의 생활지도 딜레마: 회초리가 사라진 이후 입도 열지 못하는 이십 년",
     "description": "2006년 대만이 학교 내 체벌을 금지하는 법률을 제정하며 세계 109번째 무체벌 국가가 되었다. 그러나 이 법률이 통과될 때 「체벌」에 대한 명확한 정의도, 대체 생활지도 방안도 마련되지 않았다. 그 결과 강단 위의 회초리는 사라졌고, 교사의 생활지도 자신감도 함께 사라졌다. 한쪽에서는 과잉행동장애 학생이 벨트로 묶이는 일이 발생하고, 다른 한쪽에서는 교사가 아무것도 통제하지 않는 것을 선택한다.",
     "category": "ko",
@@ -52418,6 +53244,29 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "ko/Culture/taiwan-cultural-creative-park-development.md"
+  },
+  {
+    "title": "대만 미식 총람: 순수하게 대만적인 음식은 없지만, 모든 음식은 가장 대만적이다",
+    "description": "1949년 자이 분수 원형교차로 옆에서 린톈서우는 미군이 기르고 남은 칠면조를 얇게 썰어 흰밥 위에 얹고 민난식 조림 소스를 끼얹었다. 원주민의 석판구이 산돼지고기, 하카의 생강채 돼지곱창볶음, 군인마을의 쓰촨식 우육면에서 1986년 타이중에서 발명된 버블티, 그리고 2025년 미쉐린에 수록된 419개 식당까지. 이 섬은 사백 년에 걸쳐 빌려온 모든 음식을 자기 방식으로 끓여냈다.",
+    "category": "ko",
+    "tags": [
+      "미식",
+      "음식",
+      "식품",
+      "대만 문화",
+      "이민",
+      "미쉐린",
+      "야시장",
+      "버블티",
+      "우육면",
+      "루러우판",
+      "반줘"
+    ],
+    "url": "https://taiwan.md/ko/Food/taiwan-food-overview",
+    "readingTime": 116,
+    "featured": true,
+    "date": "2026-05-18",
+    "path": "ko/Food/taiwan-food-overview.md"
   },
   {
     "title": "대만 민요와 가요: 도용당하고 세계에 알려지기까지",
@@ -56285,6 +57134,32 @@
     "path": "ko/Culture/divine-pig-festival.md"
   },
   {
+    "title": "신베이시: 타이베이를 둘러싼 환상형 대도시, 401만 명이 떠받치는 수도의 통근, 산업, 기억",
+    "description": "단수이 훙마오청은 1628년 스페인인이 첫 벽돌을 쌓은 때부터 이미 398년이 지났다. 1875년 선바오전이 타이베이부를 설치한 것보다 247년 앞선다. 오늘날 신베이시 29개 구는 타이베이시 12개 구를 둘러싸고 있으며, 401만 명이 타이완 최대 직할시인 이 도시에 살고, 39만 명이 현·시 경계를 넘어 타이베이로 출근한다. 그러나 이 '환상형 대도시'는 타이베이의 베드타운이 아니다. 이곳에는 1853년 반차오 린 가문, 1869년 단수이에서 출항해 뉴욕으로 팔려 간 우롱차, 1890년대 아시아 제일의 금광 지우펀·진과스, 1929년 석탄을 운반하던 핑시 철도, 1947년 리메이수가 시작한 싼샤 조사묘 조각, 우라이 타이야족 더라난 부락이 있다. 신베이는 타이완 400년의 축소판이며, 마침 타이베이시 안에 있지 않을 뿐이다.",
+    "category": "ko",
+    "tags": [
+      "신베이",
+      "신베이시",
+      "북부",
+      "반차오",
+      "단수이",
+      "지우펀",
+      "진과스",
+      "싼샤",
+      "잉거",
+      "우라이",
+      "핑시",
+      "궁랴오",
+      "환상형 대도시",
+      "22개 현·시 시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/new-taipei-city",
+    "readingTime": 124,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/new-taipei-city.md"
+  },
+  {
     "title": "신생 벤처 생태계",
     "description": "대만 신생 벤처 생태계의 발전 과정, 초기의 도전부터 현재의 액셀러레이터, 벤처투자 환경과 유니콘 추구까지",
     "category": "ko",
@@ -56301,6 +57176,34 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "ko/Economy/taiwan-startup-ecosystem-overview.md"
+  },
+  {
+    "title": "신시 시: 1733년 대나무로 성을 쌓은 죽첩, 1980년 TSMC를 낳은 요람",
+    "description": "1733년 옹정 11년, 담수동지 서치민이 사방에 가시나무를 심어 둘레 1,408미터의 원형 흙성을 쌓았다. 1829년 전석성 완공, 동문 영희문은 오늘도 호성 옆에 서 있다. 247년 후, 1980년 12월 15일, 장경국이 영희문에서 5킬로미터 떨어진 곳에서 대만 최초의 과학단지 리본을 잘랐다. 1953년부터 1974년 사이, 흑박쥐중대 148명이 이 바람의 도시에서 이륙해 중국 본토를 정찰하고 돌아오지 못했다. 45만 명이 사는 성할시가 냉전 전선, 북부 최초 건성, 두 개의 명문 대학, 그리고 글로벌 반도체 90% 고급 칩의 출발점을 떠받치고 있다. 바람의 도시라는 별명은 문학적이지만, 이 도시의 모든 산업은 바람과 관련이 있다.",
+    "category": "ko",
+    "tags": [
+      "신시",
+      "신시 시",
+      "북부",
+      "바람의 도시",
+      "죽첩성",
+      "영희문",
+      "흑박쥐중대",
+      "신시 과학단지",
+      "TSMC",
+      "성황묘",
+      "미분",
+      "공완",
+      "유리 공예",
+      "칭화대학교",
+      "양명교통대학교",
+      "22현시 시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/hsinchu-city",
+    "readingTime": 80,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/hsinchu-city.md"
   },
   {
     "title": "신주현: 235년의 의민 신앙과 대만 최고 1인당 소득이 같은 터우첸강에 살다",
@@ -57024,7 +57927,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/People/golden-duo-chi-lin-yang",
-    "readingTime": 21,
+    "readingTime": 23,
     "featured": true,
     "date": "2026-03-19",
     "path": "ko/People/golden-duo-chi-lin-yang.md"
@@ -59199,6 +60102,41 @@
     "path": "ko/Technology/east-asian-input-methods.md"
   },
   {
+    "title": "타오위안시: 타이완의 수출입, 최다 객가인, 최다 이주 노동자, 모두 이 대지 위에",
+    "description": "1977년 11월 19일 저녁, 수만 명의 시민이 중리 경찰서를 포위하고, 경찰은 시민들에게 발포하여 중앙대학 학생 장원궈와 19세 장치핑이 사망했다. 쉰신량은 23만 대 14만의 압도적 표차로 타오위안 현장에 당선되었다. 1년 3개월 후인 1979년 2월 26일 중정국제공항이 개항하면서 타이완의 대외 관문이 지룽 항구에서 이 대지로 옮겨졌다. 2014년 12월 25일, 타오위안은 제6직할시로 승격되어 여섯 직할시 중 마지막이 되었다. 오늘날 235만 명이 이 1,221㎢의 대지에 살고 있으며, 객가인 80만 명 이상으로 전국 최다, 이주 노동자 13만 2,158명도 전국 최다이다. 타오위안은 타이완에서 가장 다양한 경계이다.",
+    "category": "ko",
+    "tags": [
+      "타오위안",
+      "타오위안시",
+      "북부",
+      "공항",
+      "객가",
+      "중리사건",
+      "스먼 저수지",
+      "다시 올드스트리트",
+      "피탕(저수지)",
+      "이주 노동자",
+      "타이야족",
+      "22현시 시리즈"
+    ],
+    "url": "https://taiwan.md/ko/Geography/taoyuan-city",
+    "readingTime": 80,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/taoyuan-city.md"
+  },
+  {
+    "title": "타이난시: 261년의 수도, 400년의 고적, 21세기 칩이 같은 땅 위에 겹쳐진 곳",
+    "description": "1624년 네덜란드인은 다위안의 사구 위에 질란디아성을 짓기 시작했고, 1662년 2월 1일 코이에트는 이 성에서 항복문서에 서명했으며, 2월 9일 2,000명의 네덜란드인을 데리고 해변을 떠났다. 1665년 진융화가 공묘를 세워 “전 대만 최초의 학당”이 되었다. 1684년 청 조정은 오늘날의 타이난에 대만부를 설치했고, 1885년 대만이 성으로 승격되어 성도가 타이베이로 북상하면서 261년에 걸친 수도의 지위가 끝났다. 1947년 3월 13일 정오, 탕더장은 민성녹원에서 온몸이 묶인 채 트럭에 실려 거리를 끌려다닌 뒤 세 발의 총성과 함께 쓰러졌다. 2010년 12월 25일 현과 시가 통합되어 37개 구, 186만 명의 도시가 되었다. 2023년 남부과학단지의 연간 매출은 1조 5천억 대만달러로 신주과학단지를 넘어섰다. 세 층의 역사가 같은 자난평원 중단부를 짓누르고 있다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Geography/tainan-city",
+    "readingTime": 111,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/tainan-city.md"
+  },
+  {
     "title": "타이둥현: 두 외딴섬, 하나는 36년 동안 정치범을 가두었고, 하나는 42년 동안 핵폐기물을 저장했다",
     "description": "타이둥현의 21만 인구는 3,515제곱킬로미터에 흩어져 있으며, 전국 최저 밀도로 제곱킬로미터당 60명만이 산다. 이는 타이베이의 100분의 1이다. 그러나 이 현에는 타이완에서 가장 이른 인류 취락(5,300년 전 베이난 유적의 석관 1,600기)이 숨어 있고, 여섯 원주민족(아메이, 베이난, 파이완, 루카이, 부눈, 다우)이 살며, 원주민 인구 비율은 37.5%로 타이완 최고다. 1951년부터 1987년까지 뤼다오의 훠사오다오는 36년 동안 정치범을 가두었다. 1982년 5월부터 란위 룽먼은 핵폐기물을 받기 시작했고, 42년 뒤에도 97,672통이 여전히 그곳에 있다. 1968년 8월 25일, 훙예촌의 부눈족 아이 일곱 명은 일본 간사이 리틀야구 올스타팀(세계 챔피언팀이 아니었다)을 7대 0으로 이겼고, 타이완 야구가 국기라는 신화는 이 기만에서 시작되었다. 두 외딴섬은 섬 전체가 치러야 할 대가를 떠안았다.",
     "category": "ko",
@@ -59230,6 +60168,17 @@
     "featured": false,
     "date": "2026-05-05",
     "path": "ko/Society/taipei-rat-problem.md"
+  },
+  {
+    "title": "타이베이시: 한 도시 안의 세 시간, 1738년 룽산사가 2004년의 101을 바라보다",
+    "description": "완화에는 1738년의 룽산사가 있다. 3킬로미터 밖, 2004년 새해 전야에 타이베이 101은 일제강점기 마쓰야마 창고와 전후 44병공창이 있던 땅 위에 완공되었고, 그 순간 세계 최고층 건물이었다. 다시 다다오청으로 걸어가면, 1860년대 리춘성은 배 한 척 분량의 우롱차로 북부 타이완 전체의 대외무역을 떠받쳤다. 같은 분지 안에 1738, 1885, 2004라는 세 시간이 나란히 놓여 있다. 1875년 선바오전이 타이베이부를 설치했고, 1920년 일본인은 세 시가지를 합쳐 타이베이시를 만들었으며, 1947년 린장마이의 사제 담배 한 꾸러미가 2·28에 불을 붙였고, 1949년 국민정부가 120만 명을 데리고 타이베이로 옮겨 왔으며, 1967년 타이완 최초의 직할시로 승격되었고, 1990년 야생백합은 중정기념당에서 7일 6야를 앉아 있었다. 12개 구는 서로 다른 세기 속에 산다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Geography/taipei-city",
+    "readingTime": 99,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/taipei-city.md"
   },
   {
     "title": "타이베이에서 가장 가까운 항구, 타이베이에서 가장 보이지 않는 도시 — 지롱(基隆)",
@@ -59862,6 +60811,17 @@
     "featured": false,
     "date": "2026-03-24",
     "path": "ko/History/tamkang-high-school.md"
+  },
+  {
+    "title": "타이중시: 1887년에 수도가 될 뻔했고, 2010년에야 두 번째로 큰 직할시가 되다",
+    "description": "1887년 류밍촨은 타이완 건성(建省)을 상주했고, 성도는 장화현 차오쯔터우(오늘날 타이중 시내)에 정해졌으며, 팔괘형 성곽 도시가 계획되었다. 1889년에 축성이 시작되었다. 1894년 사오유롄이 부임한 뒤 성회는 타이베이로 북천했고, 타이중 성도 공사는 중단되었다. 1920년 10월 1일 일본인은 이곳에 타이중주를 설치했다. 1955년 둥하이 대학이 다두산에서 기공했고, 1963년 루스 기념 예배당이 준공되었다. 1999년 9월 21일 새벽, 처룽푸 단층이 난터우 지지에서 타이중 둥스까지 찢고 올라왔고, 둥스진에서 358명이 사망했다. 2010년 12월 25일 현과 시가 합병되어 직할시로 승격했고, 29개 구가 되었다. 2016년 이토 도요가 설계한 국가가극원이 시툰구에서 개관했다. 286만 명이 123년을 기다린 이 도시에 살고 있다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Geography/taichung-city",
+    "readingTime": 105,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "ko/Geography/taichung-city.md"
   },
   {
     "title": "탁수계공사: 대만어, 펑크, 농민, 그리고 30년 늦게 도상한 트로피",

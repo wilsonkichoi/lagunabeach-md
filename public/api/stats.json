@@ -1,28 +1,28 @@
 {
-  "totalArticles": 4408,
+  "totalArticles": 4458,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 6233,
+  "totalTags": 6441,
   "categories": [
     {
       "name": "es",
-      "count": 724
+      "count": 734
     },
     {
       "name": "ko",
-      "count": 728
+      "count": 738
     },
     {
       "name": "fr",
-      "count": 744
+      "count": 754
     },
     {
       "name": "en",
-      "count": 745
+      "count": 755
     },
     {
       "name": "ja",
-      "count": 733
+      "count": 743
     },
     {
       "name": "History",
@@ -107,12 +107,12 @@
       "count": 31
     },
     {
-      "name": "文學",
-      "count": 28
+      "name": "TSMC",
+      "count": 30
     },
     {
-      "name": "TSMC",
-      "count": 26
+      "name": "文學",
+      "count": 28
     },
     {
       "name": "金曲獎",
@@ -135,11 +135,15 @@
       "count": 25
     },
     {
-      "name": "原住民",
+      "name": "高雄",
+      "count": 25
+    },
+    {
+      "name": "客家",
       "count": 24
     },
     {
-      "name": "高雄",
+      "name": "原住民",
       "count": 24
     },
     {
@@ -159,22 +163,18 @@
       "count": 22
     },
     {
-      "name": "客家",
-      "count": 22
-    },
-    {
       "name": "音樂",
       "count": 22
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4408,
+    "zh-TW": 4458,
     "en": 0
   },
-  "lastUpdated": "2026-05-18T22:12:14.171Z",
-  "stars": 996,
+  "lastUpdated": "2026-05-19T15:09:56.255Z",
+  "stars": 999,
   "forks": 149,
-  "zhPages": 3663,
-  "enPages": 745,
-  "totalPages": 4408
+  "zhPages": 3703,
+  "enPages": 755,
+  "totalPages": 4458
 }
