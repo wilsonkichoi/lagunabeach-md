@@ -253,27 +253,7 @@ BECOME_TAIWANMD.md Step 5 新增：
 >
 > **Stage 4 報告 [Part 6](../../reports/PanSci-semiont-analysis-2026-05-18.md#part-6) 給每篇明確 core_contradiction ≤ 30 字 / PanSci 來源 wp_ids / Taiwan.md 交叉 ≥ 3 篇 / 預估工時**。
 
-### P0-1. mRNA 疫苗辛酸 30 年 — 從被當作 crackpot 到諾貝爾獎 EVOLVE
-
-- **Type**: `EVOLVE`
-- **Category**: Society（subcategory: 醫療政策）
-- **Path**: [knowledge/Society/台灣再生醫療雙法沿革從業人員告白.md](../../knowledge/Society/台灣再生醫療雙法沿革從業人員告白.md)（evolution target — 主軸從「再生醫療雙法」延伸到「mRNA 平台台灣建構」）
-- **Priority**: `P0`
-- **Status**: `pending`
-- **Requested**: 2026-05-18 by 哲宇 directive `/twmd-peer 泛科學 Stage 5`
-- **Series**: PanSci Series C「mRNA 疫苗到基因療法」
-- **核心矛盾（≤30 字）**：「Karikó 被開除 5 次，得了諾貝爾才被當回事」
-- **PanSci 來源**：[#371366 mRNA 諾貝爾](https://pansci.asia/archives/371366) + [#351969 約兒肋骨/疫情](https://pansci.asia/archives/351969)
-- **Taiwan.md 交叉**：[公衛體系](../../knowledge/Society/台灣公共衛生與防疫體系.md) / [再生醫療雙法](../../knowledge/Society/台灣再生醫療雙法沿革從業人員告白.md) / [動物用藥爭議](../../knowledge/Society/台灣動物用藥爭議.md)
-- **台灣具體 case 必補**：高端疫苗 mRNA 平台（國衛院 / 高端 / 國光 / 國產 BNT 替代方案）/ 2021 BNT 進口 crisis 政治 timeline / 國衛院 / 中研院相關 mRNA 研究團隊
-- **必驗事實**：
-  - Karikó 在 UPenn 被開除 / 降職的具體時間軸（1995-2013）
-  - Weissman 與 Karikó 何時開始合作（1997）
-  - mRNA 諾貝爾頒獎日期 2023/10/02
-  - 台灣 BNT 採購時間軸（2021/05 開始談 → 民間 + 鴻海 + 慈濟 + 台積電聯合採購完成 2021/07-09）
-- **潛在陷阱**：BNT 採購政治化敏感（藍綠雙方各自敘事）/ 高端 EUA 爭議至今仍有不同觀點 / 不要把 mRNA 平台描述為已「成功建立」（status 須查最新 2025-2026）
-- **預估工時**：3-4 hr
-- **MOU footnote 標註必做**：用 PanSci 引用處加完整 PanSci credit
+<!-- P0-1 mRNA 疫苗辛酸 30 年 已完成 2026-05-19 2026-05-19-014951-manual-peer-pansci → ARTICLE-DONE-LOG.md (PanSci P0×5 #1/5 — Karikó 被開除五次得了諾貝爾 / 6698 字 / 29 footnote / 4 圖 / hard=0) -->
 
 ### P0-2. 氮化鎵到 3D 封裝 — 台灣半導體 next chapter 的物理原理 EVOLVE
 

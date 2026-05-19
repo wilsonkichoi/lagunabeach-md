@@ -59,6 +59,32 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 台灣再生醫療雙法沿革從業人員告白 EVOLVE — 2026-05-19 2026-05-19-014951-manual-peer-pansci（PanSci P0×5 #1/5 — mRNA 疫苗辛酸 30 年雙線整合 / Society 醫療政策 / 6698 字 / 29 footnote / 4 圖）
+
+- **Article**: [knowledge/Society/台灣再生醫療雙法沿革從業人員告白.md](../../knowledge/Society/台灣再生醫療雙法沿革從業人員告白.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Evolution + Section Addition 模式（既有 131 行 ~3400 字 → 6698 字雙線敘事；Stage 0 main session + Stage 1 Sonnet sub-agent + Stage 2-5 Opus sub-agent）
+- **核心矛盾**（≤30 字）：「台灣人搶打 BNT 的那一天，沒人知道疫苗瓶裡的 mRNA 曾被學術界嫌棄 30 年」
+- **新 Title**：「再生醫療雙法 × mRNA 30 年：兩種救命藥怎麼被國家納管」（雙線 hook）
+- **Hook**：開場 2021/09/02 桃機 BNT 第一批 93 萬劑卸貨 → 接 Karikó 1997 影印機相遇 + UPenn 五次降職 + 2005 Immunity 論文 + 2013 BioNTech + 2020 COVID + 2021 台北 12 小時 + 2024 雙法 + 倫理紅線
+- **品質**：6,698 CJK / 29 footnotes / 1 hero + 3 inline = 4 圖 / 10 narrative H2 / Stage 4 hard=0 / Stage 3.5 hard=0 / prose-health score=2 pass（對位句 1 / 破折號 3）
+- **Research**: [reports/research/2026-05/mrna-vaccine-karikó-taiwan.md](../../reports/research/2026-05/mrna-vaccine-karikó-taiwan.md) — Stage 1 42 搜尋 / 10 章 / 19 verbatim / 3 圖授權 / 8 fact flags audit pass
+- **FACTCHECK 8 flags 全處置**：
+  - FF-01「四次降職」→ 改「降職」單一表述
+  - FF-02 2005 論文拒稿 Nature/Science → 未寫入避開未確認
+  - FF-03 苦笑/不可能引語 → PanSci credit per MOU
+  - FF-04 郭台銘日期 → 用 timeline node 不引具體聲明
+  - FF-05 高端 EUA 8 審委 → 「被指控撤換審查委員」概括語言
+  - FF-06 BNT EUA 日期 → 「8 月初」軟性
+  - FF-07 2021 死亡人數 → 「五百多條人命」概括 caveat
+  - FF-08 韋斯曼「惡作劇」→ 未引用避開未確認
+- **MOU §2.2 footnote 標註履約** ⭐：PanSci [#371366] 引用於 [^3]，含完整 PanSci URL + 名稱（泛科學）+ 作者（PanSci 編輯部）+ 發表日期 + License 註記「Content Curation Partner per MOU 2026-05-05」 — **Taiwan.md 第一篇正式使用 MOU 授權內容的文章**
+- **DNA #16 跨源驗證**：≥6 PanSci 以外獨立來源（Nobel.org / 衛福部疾管署 / 行政院 / 鴻海 / 中研院 / 遠見）
+- **Cross-link**: Sibling reverse cross-link 補進 [台灣公共衛生與防疫體系](../../knowledge/Society/台灣公共衛生與防疫體系.md) + [台灣動物用藥爭議](../../knowledge/Society/台灣動物用藥爭議.md)
+- **Notes**:
+  - PanSci P0×5 系列首篇 ship — Stage 6 第 1/5 完成
+  - Sub-agent pattern 對比 hung 教訓：Stage 1 Sonnet 順 42 search / Stage 2-5 Opus 30 min wall-clock 順
+  - 富文本 6 個（4 策展人筆記 + 1 你知道嗎 + 1 警句 + 2 爭議觀點）
+
 ### 周蕙 NEW — 2026-05-19 2026-05-19-000642-routine-rewrite（〈約定〉25 年 KTV anchor 唱了 25 年的女聲 / 漫畫娃娃出道到小巨蛋首攻 / Music 歌手 / 4616 字 / 34 footnote / 2 inline + 1 hero = 3 fair-use 影像）
 
 - **Article**: [knowledge/Music/周蕙.md](../../knowledge/Music/周蕙.md)

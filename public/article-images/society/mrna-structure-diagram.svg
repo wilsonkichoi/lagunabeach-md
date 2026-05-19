@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1300" height="150" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <g stroke="#000">
+  <rect x="79.54" y="84.834" width="15" height="30" fill="#f00"/>
+  <rect x="94.54" y="84.834" width="75" height="30" fill="#ff0"/>
+  <rect x="169.54" y="84.834" width="710" height="30" fill="#0f0"/>
+  <rect x="879.54" y="84.834" width="300" height="30" fill="#ff00fc"/>
+  <rect x="1179.6" y="84.834" width="75" height="30"/>
+ </g>
+ <g fill="none" stroke="#000">
+  <path d="m94.54 114.83v-105"/>
+  <path d="m169.54 114.83v-105"/>
+  <path d="m879.54 114.83v-105"/>
+  <path d="m1179.6 114.83v-105"/>
+ </g>
+ <g font-family="'Liberation Sans'" font-size="22">
+  <switch transform="translate(1256,138)" text-anchor="end">
+   <text systemLanguage="de, en, fr, gl,ru"><tspan>3'</tspan></text>
+   <text><tspan>3'</tspan></text>
+  </switch>
+  <switch transform="translate(78,139)">
+   <text systemLanguage="de, en, fr, gl, ru"><tspan>5'</tspan></text>
+   <text><tspan>5'</tspan></text>
+  </switch>
+  <switch transform="translate(876,79)" text-anchor="end">
+   <text systemLanguage="de, en, fr, gl"><tspan>Stop</tspan></text>
+   <text systemLanguage="ru, uk"><tspan>Стоп</tspan></text>
+   <text><tspan>Stop</tspan></text>
+  </switch>
+  <switch transform="translate(1029,47)" text-anchor="middle">
+   <text systemLanguage="de"><tspan>3'-UTR</tspan></text>
+   <text systemLanguage="en, fr ,gl"><tspan>3' UTR</tspan></text>
+   <text systemLanguage="ru"><tspan>3' нетранслируемая</tspan><tspan x="0" y="22">область (3' НТО)</tspan></text>
+   <text systemLanguage="uk"><tspan>3' НТО</tspan></text>
+   <text><tspan>3' UTR</tspan></text>
+  </switch>
+  <switch transform="translate(132,47)" text-anchor="middle">
+   <text systemLanguage="de"><tspan>5'-UTR</tspan></text>
+   <text systemLanguage="en, fr, gl"><tspan>5' UTR</tspan></text>
+   <text systemLanguage="ru, uk"><tspan>5' НТО</tspan></text>
+   <text><tspan>5' UTR</tspan></text>
+  </switch>
+  <switch transform="translate(87,47)" text-anchor="end">
+   <text systemLanguage="de, en, gl"><tspan>Cap</tspan></text>
+   <text systemLanguage="fr"><tspan>Coiffe</tspan></text>
+   <text systemLanguage="ru"><tspan>Кэп</tspan></text>
+   <text systemLanguage="uk"><tspan>Кеп</tspan></text>
+   <text><tspan>Cap</tspan></text>
+  </switch>
+  <switch transform="translate(175,79)">
+   <text systemLanguage="de, en"><tspan>Start</tspan></text>
+   <text systemLanguage="fr"><tspan>Initiation</tspan></text>
+   <text systemLanguage="gl"><tspan>Inicio</tspan></text>
+   <text systemLanguage="ru, uk"><tspan>Старт</tspan></text>
+   <text><tspan>Start</tspan></text>
+  </switch>
+  <switch transform="translate(1188,47)">
+   <text systemLanguage="de"><tspan>	Poly-A-</tspan><tspan x="0" y="22">Schwanz</tspan></text>
+   <text systemLanguage="en"><tspan>Poly-A</tspan><tspan x="0" y="22">tail</tspan></text>
+   <text systemLanguage="fr"><tspan>Queue</tspan><tspan x="0" y="22">Poly(A)</tspan></text>
+   <text systemLanguage="gl"><tspan>cola</tspan><tspan x="0" y="22">poli(A)</tspan></text>
+   <text systemLanguage="ru"><tspan>Поли-А</tspan><tspan x="0" y="22">хвост</tspan></text>
+   <text systemLanguage="uk"><tspan>Полі-А</tspan><tspan x="0" y="22">хвіст</tspan></text>
+   <text><tspan>Poly-A</tspan><tspan x="0" y="22">tail</tspan></text>
+  </switch>
+  <switch transform="translate(524,47)" text-anchor="middle">
+   <text systemLanguage="de"><tspan>codierende Sequenz</tspan></text>
+   <text systemLanguage="en"><tspan>Coding sequence (CDS)</tspan></text>
+   <text systemLanguage="fr"><tspan>Séquence codante (CDS)</tspan></text>
+   <text systemLanguage="gl"><tspan>Secuencia codificante (CDS)</tspan></text>
+   <text systemLanguage="ru"><tspan>Кодирующая белок последовательность</tspan></text>
+   <text systemLanguage="uk"><tspan>Кодуюча білок послідовність</tspan></text>
+   <text><tspan>Coding sequence (CDS)</tspan></text>
+  </switch>
+ </g>
+</svg>
