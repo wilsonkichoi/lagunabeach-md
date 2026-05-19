@@ -1,749 +1,594 @@
 ---
-title: 'Pollution marine à Taïwan : gouvernance et défis de conservation'
-description: 'Face aux déchets océaniques, à la surpêche et au changement climatique, tour d'horizon de la situation actuelle, des défis et des solutions innovantes pour la préservation des mers de Taïwan'
+title: 'Défis de la gouvernance de la pollution marine et de la conservation à Taïwan'
+description: "Face aux déchets marins, à la surpêche et au changement climatique, cet article examine l'état actuel, les défis et les solutions innovantes de la conservation marine à Taïwan."
 date: 2026-03-18
-tags: ['conservation marine', 'pollution marine', 'déchets océaniques', 'commission océanique', 'pêche durable']
-subcategory: 'Conservation et environnement'
+author: 'Taiwan.md'
 category: 'Nature'
-author: 'Taiwan.md Translation Team'
+subcategory: '保育與環境'
+tags: ['conservation marine', 'pollution marine', 'déchets marins', 'Commission océanique', 'pêche durable']
 readingTime: 15
-featured: true
 lastVerified: 2026-03-19
-translatedFrom: "Nature/台灣海洋污染治理與保育挑戰.md"
-sourceCommitSha: "a05d2431"
-sourceContentHash: "sha256:7b5e9520f2ce542e"
-sourceBodyHash: 'sha256:65690f9882d428bc'
-translatedAt: "2026-04-14T19:22:44+08:00"
+lastHumanReview: false
+featured: true
+translatedFrom: 'Nature/台灣海洋污染治理與保育挑戰.md'
+sourceCommitSha: '1d54cbe52'
+sourceContentHash: 'sha256:3725125046bb0302'
+sourceBodyHash: 'sha256:c208c01efc93c70e'
+translatedAt: '2026-05-20T05:08:34+08:00'
 ---
 
-# Pollution marine à Taïwan : gouvernance et défis de conservation
+# Défis de la gouvernance de la pollution marine et de la conservation à Taïwan
 
-## En 30 secondes
+## Aperçu en 30 secondes
 
-Entourée de toutes parts par la mer, Taïwan bénéficie d'une richesse marine exceptionnelle — mais fait face à une pollution océanique particulièrement sévère. Chaque année, les déchets plastiques dominent les flux qui atteignent le littoral : bouteilles PET, bouchons et pailles occupent les trois premières places du classement. En 2019, la Commission océanique est créée pour coordonner l'ensemble des affaires maritimes nationales. En 2025, la Loi sur la conservation marine entre officiellement en vigueur, dotant le pays d'un cadre juridique complet. À travers des initiatives comme la protection des tortues de mer de Xiao Liuqiu, la reconversion de la pêche et les politiques anti-plastique, Taïwan s'impose progressivement comme un acteur majeur de la durabilité marine dans la région Asie-Pacifique.
+Chaque année, les déchets qui affluent dans les eaux territoriales de Taïwan sont principalement constitués de plastique, les bouteilles en PET, les bouchons et les pailles figurant au sommet du classement. La Commission océanique a été créée en 2018, et la *Loi sur la conservation marine* a été adoptée en troisième lecture le 12 juillet 2024, puis est entrée en vigueur le 1er juillet 2025, établissant ainsi les fondements juridiques de la conservation marine.
 
-**Mots-clés** : déchets océaniques, Loi sur la conservation marine, protection des tortues, pêche durable, Commission océanique, pollution plastique
+La conservation des tortues marines à Liuqiu, la transformation des pêcheries et les politiques de réduction du plastique constituent les trois axes principaux de la promotion du développement durable marin à Taïwan.
+
+Les défis de la conservation marine à Taïwan couvrent trois dimensions — construction juridique, gouvernance de la pollution et adaptation climatique — qui sont indissociables.
+
+**Mots-clés** : déchets marins, Loi sur la conservation marine, conservation des tortues marines, pêche durable, Commission océanique, pollution plastique
 
 ## Pourquoi c'est important
 
-La préservation des océans revêt une importance stratégique multiple pour Taïwan, intimement liée à son développement durable :
+La conservation marine revêt une importance stratégique multiple pour Taïwan. L'océan fournit des services écosystémiques tels que les ressources halieutiques, la régulation climatique et les activités touristiques et récréatives ; la valeur de production des industries liées à l'océan dépasse 1 000 milliards de dollars taïwanais, ce qui en fait l'un des piliers économiques de Taïwan.
 
-- **Services écosystémiques** : les océans fournissent des ressources halieutiques, régulent le climat et offrent des espaces de loisirs et de tourisme
-- **Valeur économique** : les secteurs liés à la mer génèrent plus de 1 000 milliards de nouveaux dollars taïwanais
-- **Sécurité alimentaire** : la pollution marine affecte directement la qualité des produits de la mer et la santé humaine
-- **Responsabilité régionale** : situé dans le Pacifique occidental, Taïwan porte une responsabilité à l'échelle de la région
-- **Adaptation climatique** : des océans en bonne santé constituent un rempart essentiel face au changement climatique
-- **Justice intergénérationnelle** : préserver les ressources marines pour les générations futures
+La pollution marine affecte directement la qualité des produits de la mer et la santé humaine, et Taïwan, situé dans le Pacifique occidental, assume également une responsabilité régionale en matière de conservation marine.
 
-## État des lieux de la pollution marine à Taïwan
+Un océan en bonne santé constitue la base de la lutte contre le changement climatique, tout en incarnant la justice intergénérationnelle : la protection d'aujourd'hui détermine si les générations futures pourront continuer à utiliser ces ressources.
 
-### Le problème des déchets en mer
+## État actuel de la pollution marine à Taïwan
 
-Selon les enquêtes menées par l'Agence de conservation marine de la Commission océanique et par des organisations citoyennes, la situation est préoccupante.
+Entourée par la mer sur ses quatre côtés, Taïwan fait face à des sources complexes de déchets marins : la pollution d'origine terrestre, les déchets de pêche et les orpailleurs transfrontaliers constituent ensemble une menace.
 
-**Principaux types de déchets recensés** (d'après les données de nettoyage de plages de la Wild Bird Society of Taiwan, 2016-2023) :
+Selon les enquêtes à long terme de l'Agence de conservation marine de la Commission océanique, les déchets sur les côtes taïwanaises sont principalement composés de produits plastiques, et la répartition du problème varie de la côte nord aux îles de la côte est.
 
-| Rang | Type de déchet      | Quantité annuelle moyenne | Part   |
-| ---- | ------------------- | ------------------------- | ------ |
-| 1    | Bouteilles PET      | 37 657 unités             | 18,2 % |
-| 2    | Bouchons plastique  | 29 844 unités             | 14,4 % |
-| 3    | Pailles             | 22 660 unités             | 10,9 % |
-| 4    | Sacs plastique      | 21 358 unités             | 10,3 % |
-| 5    | Gobelets à emporter | 17 694 unités             | 8,5 %  |
-| 6    | Couverts jetables   | 17 392 unités             | 8,4 %  |
+Outre les déchets visibles de grande taille, les microplastiques et les polluants chimiques représentent une crise invisible bien plus difficile à éliminer, avec des répercussions à long terme sur la vie marine et la santé humaine.
 
-**Zones de pollution prioritaires** :
+### Le problème des déchets marins
 
-- **Côte nord** : les environs de Ruifang et Jinshan, balayés par les vents de nord-est, accumulent de grandes quantités de déchets transfrontaliers
-- **Côte ouest** : les zones industrielles de Changhua et Yunlin sont les plus touchées par la pollution industrielle
-- **Côte est** : les courants du Pacifique y apportent des déchets hauturiers
-- **Îles périphériques** : Penghu et Xiao Liuqiu subissent une pression touristique croissante
+Selon les enquêtes menées par l'Agence de conservation marine de la Commission océanique et par des organisations civiles, le problème des déchets marins à Taïwan est grave :[^1]
 
-### Les microplastiques, pollution invisible
+**Statistiques des principaux types de déchets marins** (d'après les données de nettoyage de plages de la Société de protection des espaces sauvages, 2016-2023) :
 
-Les microplastiques — fragments de moins de 5 mm — sont devenus l'un des fléaux silencieux des océans.
+| Rang | Type de déchet | Nombre annuel moyen | Part |
+|------|----------------|---------------------|------|
+| 1 | Bouteilles en PET | 37 657 unités | 18,2 % |
+| 2 | Bouchons en plastique | 29 844 unités | 14,4 % |
+| 3 | Pailles | 22 660 unités | 10,9 % |
+| 4 | Sacs en plastique | 21 358 unités | 10,3 % |
+| 5 | Gobelets à emporter | 17 694 unités | 8,5 % |
+| 6 | Vaisselle jetable | 17 392 unités | 8,4 % |
 
-**Origines** :
+**Analyse des points chauds de pollution** :
 
-- Dégradation de macrodéchets plastiques
-- Lavage de vêtements synthétiques
-- Usure des pneumatiques
-- Produits cosmétiques et d'hygiène
-- Fuites de matières premières industrielles
+- **Côte nord** : Les zones de Ruifang et Jinshan, sous l'influence du mousson du nord-est, accumulent de grandes quantités de déchets marins transnationaux.
+- **Côte ouest** : La pollution est plus sévère dans les zones industrielles côtières de Changhua et Yunlin.
+- **Côte est** : Les courants du Pacifique apportent des déchets de haute mer.
+- **Régions insulaires** : Penghu et Liuqiu sont affectées par la pression touristique.
+
+### La pollution par les microplastiques
+
+Les microplastiques (particules de plastique d'un diamètre inférieur à 5 mm) sont devenus des tueurs silencieux des océans :
+
+**Sources de pollution** : La décomposition des grands déchets plastiques, le lavage des vêtements en fibres synthétiques, les particules d'usure des pneus, les cosmétiques et produits d'entretien, ainsi que les fuites de matières premières industrielles, constituent les cinq principales sources de microplastiques.
 
 **Impacts environnementaux** :
 
-- Ingestion par la faune marine, altération du système digestif
-- Bioaccumulation dans la chaîne alimentaire, menace pour la santé humaine
-- Adsorption de substances toxiques, augmentation de l'écotoxicité
-- Perturbation du phytoplancton, déstabilisation de la base de l'écosystème marin
+- Ingestion par la vie marine, affectant le système digestif
+- Bioaccumulation dans la chaîne alimentaire, menaçant la santé humaine
+- Adsorption de substances toxiques, augmentant la toxicité environnementale
+- Impact sur le plancton, perturbant les fondements de l'écosystème marin
 
-**Données de surveillance** (Academia Sinica) — concentrations de microplastiques dans les eaux entourant Taïwan :
+**Données de surveillance** :
+Selon une recherche de l'Academia Sinica, les concentrations de microplastiques dans les eaux autour de Taïwan sont les suivantes :[^2]
 
-- Détroit de Taïwan : 0,48 – 4,12 particules/m³
-- Mer de Chine orientale : 0,12 – 3,45 particules/m³
-- Nord de la mer de Chine méridionale : 0,33 – 2,84 particules/m³
-- Pacifique : 0,08 – 1,96 particules/m³
+- Détroit de Taïwan : 0,48-4,12 particules/m³
+- Mer de Chine orientale : 0,12-3,45 particules/m³
+- Nord de la mer de Chine méridionale : 0,33-2,84 particules/m³
+- Pacifique : 0,08-1,96 particules/m³
 
-### Pollution chimique
+### La pollution chimique
 
-La pollution chimique héritée du développement industriel constitue un autre défi de taille.
+La pollution chimique engendrée par le développement industriel constitue un autre défi majeur :
 
-**Principales sources** :
+**Principales sources de pollution** :
 
-- Rejets des industries pétrochimiques
-- Ruissellement de pesticides agricoles
-- Émissions de métaux lourds
+- Eaux usées de l'industrie pétrochimique
+- Ruissellement des pesticides agricoles
+- Émissions de métaux lours
 - Polluants organiques persistants (POP)
 
-**Substances prioritaires** :
+**Substances polluantes prioritaires** :
 
 - **Métaux lourds** : mercure, cadmium, plomb, cuivre
-- **Pesticides résiduels** : DDT, PCB
-- **Produits pétroliers** : hydrocarbures aromatiques polycycliques (HAP)
+- **Résidus de pesticides** : DDT, PCB
+- **Produits pétrochimiques** : hydrocarbures aromatiques polycycliques (HAP)
 - **Polluants émergents** : résidus pharmaceutiques, perturbateurs endocriniens
 
-## Cadre juridique et institutionnel
+## Développement du cadre juridique de la conservation marine
 
-### La Commission océanique
+La construction du cadre juridique de la conservation marine à Taïwan est un passage d'une gestion fragmentée à une gouvernance unifiée.
 
-Créée le 28 avril 2019, la Commission océanique coordonne l'ensemble des affaires maritimes nationales.
+La création de la Commission océanique en 2018 a intégré les affaires maritimes auparavant dispersées entre plusieurs ministères ; l'adoption de la *Loi sur la conservation marine* en troisième lecture en 2024 a fourni une base juridique claire à l'ensemble du système de conservation.
+
+Ces deux jalons marquent la transition de la gouvernance marine taïwanaise d'une réponse passive à une planification proactive.
+
+### Création de la Commission océanique
+
+Le 28 avril 2018, la Commission océanique a été officiellement créée pour coordonner les affaires maritimes nationales :
 
 **Structure organisationnelle** :
 
-- **Commission océanique** : pilotage et coordination des politiques
-- **Garde-côtes** : maintien de l'ordre et sécurité en mer
-- **Agence de conservation marine** : protection des écosystèmes et lutte contre la pollution
-- **Institut national de recherche océanique** : recherche scientifique et développement technologique
+- **Commission océanique** : coordination et planification des politiques
+- **Agence de garde côtière** : application de la loi et sécurité maritime
+- **Agence de conservation marine** : conservation écologique et prévention de la pollution
+- **Institut national de recherche marine** : recherche scientifique et développement technologique
 
-**Missions principales** :
+**Responsabilités principales** :
 
 1. Planification et promotion des politiques maritimes
-2. Sécurité en mer
+2. Maintien de la sécurité maritime
 3. Protection de l'environnement marin
-4. Développement et gestion des ressources océaniques
-5. Recherche en sciences marines
+4. Exploitation et gestion des ressources marines
+5. Recherche scientifique marine
 
-### La Loi sur la conservation marine
+### Processus législatif de la Loi sur la conservation marine
 
-Après plusieurs années de débats, la Loi sur la conservation marine a été adoptée en troisième lecture en juillet 2025.
+La *Loi sur la conservation marine* a fait l'objet de discussions pendant plusieurs années avant d'être adoptée en troisième lecture le 12 juillet 2024, puis d'entrer en vigueur le 1er juillet 2025 :
 
 **Contexte législatif** :
 
-- Absence d'un cadre juridique unifié pour la conservation marine
-- Dispersion des réglementations existantes entre de nombreux ministères, rendant leur application difficile
-- Pression des tendances internationales en matière de conservation
-- Plaidoyer de longue date des associations environnementales
+- Absence d'un cadre juridique unifié de conservation marine à Taïwan
+- Réglementations existantes dispersées entre plusieurs ministères, rendant leur application difficile
+- Exigences des tendances internationales de conservation marine
+- Plaidoyer de longue date des organisations environnementales civiles
 
-**Points clés de la loi** :
+**Contenu principal du projet de loi** :
 
-#### 1. Système d'aires marines protégées
+#### 1. Système de zones de conservation marine
 
-- Mise en place d'un système de classification des aires marines protégées
-- Zonage fonctionnel : zone centrale de conservation, zone tampon, zone d'utilisation durable
-- Objectifs de conservation et mesures de gestion clairement définis
+- Établissement d'un système de classification des zones de protection marine
+- Zonage fonctionnel : zones de conservation centrales, zones tampons, zones d'utilisation durable
+- Définition claire des objectifs de conservation et des mesures de gestion
 
-#### 2. Réglementation des déchets marins
+#### 2. Régulation des déchets marins
 
 - Réduction à la source : restriction des produits plastiques à usage unique
-- Système de surveillance : mise en place d'un réseau de monitoring des déchets marins
-- Responsabilité de nettoyage : obligation pour les usagers de la mer
+- Système de surveillance : mise en place d'un réseau de surveillance des déchets marins
+- Obligation de nettoyage : responsabilité de nettoyage des utilisateurs des zones maritimes
 
 #### 3. Prévention de la pollution marine
 
-- Renforcement du contrôle des pollutions d'origine terrestre
+- Renforcement du contrôle de la pollution d'origine terrestre
 - Réglementation de la pollution par les navires
 - Mise en place de mécanismes d'intervention d'urgence
 
 #### 4. Protection de la biodiversité
 
 - Mesures de protection des espèces menacées
-- Plans de restauration des habitats
-- Contrôle des espèces invasives
+- Programmes de restauration des habitats
+- Contrôle des espèces invasives exotiques
 
-#### 5. Application et sanctions
+#### 5. Application de la loi et sanctions
 
-- Mécanisme de coordination inter-administrations
-- Clarification des sanctions pour les infractions
-- Système de prime aux lanceurs d'alerte
+- Mécanisme de coordination de l'application de la loi interministériel
+- Sanctions clairement définies pour les infractions
+- Système de récompenses pour les signalements
 
-**Forces motrices de la loi** :
+**Forces motrices du processus législatif** :
 
-- Pétition de 160 000 signatures portée par Greenpeace
-- Plaidoyer d'une coalition d'associations environnementales
-- Recommandations d'experts et de chercheurs
-- Pression des tendances internationales en matière d'environnement
+- Pétition de 160 000 signatures de Greenpeace
+- Plaidoyer d'une coalition d'organisations environnementales civiles
+- Recommandations politiques d'experts et d'universitaires
+- Pression des tendances environnementales internationales
 
-## La protection des tortues de mer : le modèle Xiao Liuqiu
+## Conservation des tortues marines : le modèle de Liuqiu
 
-### Une crise silencieuse
+Liuqiu est l'île où la densité de tortues marines est la plus élevée à Taïwan, et constitue le cas de succès le plus représentatif de la conservation locale.
 
-Xiao Liuqiu abrite la plus forte densité de tortues de mer à Taïwan, mais ces animaux y font face à de sérieuses menaces.
+En combinant les efforts du gouvernement, des institutions universitaires et des organisations civiles, la communauté locale a développé un modèle intégré conciliant protection écologique et développement touristique.
 
-**Espèces présentes** :
+Les résultats de la restauration de la population de tortues vertes prouvent que la gestion autonome communautaire peut produire des changements significatifs avec des ressources limitées ; mais le blanchissement massif des coraux en 2020 nous rappelle que ces résultats restent vulnérables face aux pressions du changement climatique.
 
-- **Tortue verte** : espèce principale, observable toute l'année
-- **Tortue imbriquée** : observations occasionnelles
-- **Tortue olivâtre** : population très restreinte
+### Crise écologique des tortues marines à Liuqiu
+
+Liuqiu abrite la plus forte densité de tortues marines de Taïwan, mais celles-ci font face à de graves menaces pour leur survie :
+
+**Espèces et populations de tortues marines** :
+
+- **Tortue verte** : espèce principale, visible toute l'année
+- **Tortue imbriquée** : occasionnellement observée
+- **Tortue olivâtre** : population rare
 
 **Principales menaces** :
 
-1. **Déchets marins** : ingestion de sacs plastiques entraînant des obstructions digestives
-2. **Activités de pêche** : prises accidentelles et enchevêtrement dans les filets dérivants
-3. **Pression touristique** : perturbation liée à la plongée et dégradation des habitats
-4. **Dégradation des habitats** : blanchissement des coraux et régression des herbiers marins
-
-### Un modèle de conservation innovant
-
-Xiao Liuqiu a développé une approche originale de protection des tortues de mer.
-
-#### Participation communautaire
-
-**L'Association Liuqiu** mène une action locale de première ligne :
-
-- Réseau bénévole de plongeurs pour le sauvetage des tortues
-- Soins aux tortues blessées et remise à l'eau
-- Formation de scientifiques citoyens spécialisés en milieu marin
-- Surveillance des écosystèmes récifaux
-
-#### Écotourisme responsable
-
-**Reconversion vers un tourisme durable** :
-
-- Promotion d'une plongée responsable
-- Formation des guides à l'éducation écologique
-- Réflexion sur la régulation de la capacité d'accueil
-- Certification « Tortue-Friendly »
-
-#### Zéro plastique à l'échelle insulaire
-
-**Programme Xiao Liuqiu sans plastique** :
-
-- Initiative « île sans plastique »
-- Certification des commerces engagés
-- Campagne incitant les visiteurs à apporter leurs propres couverts
-- Surveillance et collecte des déchets marins
-
-### Résultats et défis persistants
-
-**Avancées positives** :
-
-- Taux de succès du sauvetage des tortues porté à 85 %
-- 30 à 50 tortues sauvées par an en moyenne
-- Sensibilisation environnementale des visiteurs nettement améliorée
-- 70 % des commerces locaux engagés dans la démarche zéro plastique
-
-**Défis non résolus** :
-
-- Affluence touristique en constante progression (plus d'un million de visiteurs par an)
-- Blanchissement des coraux toujours présent
-- Régression continue des herbiers marins
-- Coordination complexe entre acteurs de la conservation
-
-## Vers une pêche durable
-
-### La surpêche : une ressource en péril
-
-Le secteur halieutique taïwanais fait face à une crise d'épuisement des ressources.
-
-**Tendance à la baisse des captures** :
-
-- Années 1980 : 1,4 million de tonnes par an
-- Années 2000 : 1,2 million de tonnes par an
-- Années 2020 : 800 000 tonnes par an
-- **Recul de plus de 40 % en quarante ans**
-
-**Principales causes** :
-
-1. **Surexploitation** : pression de pêche supérieure à la capacité de renouvellement des ressources
-2. **Destruction des habitats** : le chalutage de fond ravage les écosystèmes benthiques
-3. **Changement climatique** : la hausse des températures modifie la distribution des espèces
-4. **Pollution** : la dégradation de la qualité de l'eau affecte les zones de pêche
-
-### Politiques de pêche durable
-
-Le gouvernement déploie plusieurs mesures pour assurer la durabilité du secteur.
-
-#### 1. Gestion des ressources halieutiques
-
-**Système de total admissible des captures (TAC)** :
-
-- Plafonds annuels de capture fixés pour les principales espèces
-- Évaluation scientifique de l'état des ressources
-- Mécanisme de répartition des quotas entre navires
-
-**Périodes et zones de protection** :
-
-- Interdiction de pêche pendant les périodes de reproduction des espèces clés
-- Création de zones de conservation des ressources halieutiques
-- Mesures de protection des poissons de récifs coralliens
-
-#### 2. Réforme des engins et méthodes de pêche
-
-**Promotion d'engins sélectifs** :
-
-- Augmentation de la taille des mailles pour éviter la capture de juvéniles
-- Dispositifs d'exclusion pour limiter les prises accessoires
-- Développement d'engins respectueux des tortues
-
-**Encadrement du chalutage de fond** :
-
-- Restriction des zones d'exploitation
-- Standardisation des engins
-- Surveillance des captures par espèce
-
-#### 3. Soutien à la reconversion de la pêche
-
-**Promotion de l'aquaculture écologique** :
-
-- Technologies d'élevage en circuit fermé
-- Certification des produits de la mer biologiques
-- Systèmes d'aquaponie
-
-**Développement du tourisme halieutique** :
-
-- Accompagnement des bateaux de pêche de loisir
-- Promotion du tourisme dans les villages de pêcheurs
-- Mise en place de fermes marines
+1. **Déchets marins** : ingestion de sacs plastiques provoquant des occlusions digestives
+2. **Activités de pêche** : prises accessoires et enchevêtrement dans les filets maillants dérivants
+3. **Pression touristique** : perturbation par la plongée et destruction des habitats
+4. **Dégradation des habitats** : blanchissement des coraux et réduction des herbiers
 
 ### Modèles de conservation innovants
 
-#### Les pêcheurs, gardiens de l'océan
+Liuqiu a développé un modèle unique de conservation des tortues marines :
 
-**Programme « Pêcheurs pour la mer »** :
+#### Conservation participative communautaire
 
-- Flotte de pêcheurs participant au nettoyage en mer
-- Mécanisme d'incitation à la collecte des déchets marins
-- Contribution à la surveillance des écosystèmes marins
+Les actions de conservation locales menées par l'**Association Laoguyu de Taïwan** :
 
-**Promotion de méthodes de pêche responsables** :
+- Réseau de sauvetage des tortues marines par des plongeurs bénévoles
+- Soins et remise en liberté des tortues marines blessées ou malades
+- Formation de citoyens scientifiques marins
+- Surveillance de l'écosystème corallien
 
-- Formation aux techniques favorables aux tortues
-- Accompagnement technique pour réduire les captures accidentelles
-- Subventions à la modification des engins
+#### Combinaison tourisme et conservation
+
+**Transition vers l'écotourisme** :
+
+- Promotion du tourisme de plongée responsable
+- Formation des guides à l'éducation écologique
+- Études sur la limitation de la capacité d'accueil touristique
+- Système de certification « tortue-friendly »
+
+#### Pratique de la vie sans plastique
+
+**Programme de réduction du plastique sur l'île** :
+
+- Initiative « Île sans plastique » de Liuqiu
+- Certification de réduction du plastique pour les commerçants
+- Mouvement d'apport de vaisselle réutilisable par les visiteurs
+- Surveillance et nettoyage des déchets marins
+
+### Résultats et défis de la conservation
+
+**Résultats de la conservation** :
+
+- Taux de réussite du sauvetage des tortues marines porté à 85 %
+- Sauvetage annuel moyen de 30 à 50 tortues marines
+- Sensibilisation environnementale des visiteurs significativement accrue
+- Taux de participation des commerçants locaux à la réduction du plastique atteignant 70 %
+
+**Problèmes encore non résolus** :
+
+- Le nombre de visiteurs dépasse 1 million par an, intensifiant la pression
+- Le problème du blanchissement des coraux n'est pas encore résolu
+- La superficie des herbiers diminue d'année en année
+- La coordination de la conservation transfrontalière est complexe
+
+## Transition vers une pêche durable
+
+L'industrie de la pêche à Taïwan a fait face à un déclin sévère de ses ressources au cours des quarante dernières années : les prises annuelles sont passées de 1,4 million de tonnes dans les années 1980 à moins de 800 000 tonnes aujourd'hui, soit une baisse de plus de 40 %.
+
+L'interaction entre la surpêche, la destruction des habitats et le changement climatique rend ce problème difficile à résoudre par une seule politique.
+
+Ces dernières années, le gouvernement a promu le système de total admissible de captures (TAC), la réforme des engins de pêche et la transition vers la pêche touristique, cherchant à trouver un équilibre entre les moyens de subsistance des pêcheurs et la durabilité écologique.
+
+### Le problème de la surpêche
+
+L'industrie de la pêche taïwanaise fait face à une crise d'épuisement des ressources :
+
+**Tendance à la baisse des prises** :
+
+- Années 1980 : prises annuelles de 1,4 million de tonnes
+- Années 2000 : prises annuelles de 1,2 million de tonnes
+- Années 2020 : prises annuelles de 800 000 tonnes
+- **Baisse de plus de 40 % en 40 ans**
+
+**Causes principales** :
+
+1. **Surpêche** : l'intensité de la pêche dépasse la capacité de régénération des ressources
+2. **Destruction des habitats** : le chalutage de fond détruit l'écosystème des fonds marins
+3. **Changement climatique** : la hausse de la température de la mer affecte la répartition des poissons
+4. **Impact de la pollution** : la détérioration de la qualité de l'eau affecte la qualité des zones de pêche
+
+### Politiques de pêche durable
+
+Le gouvernement a mis en œuvre plusieurs mesures pour une pêche durable :
+
+#### 1. Gestion des ressources halieutiques
+
+**Système de total admissible de captures (TAC)** :
+
+- Fixation de plafonds de capture annuels pour les principales espèces
+- Évaluation scientifique de l'état des ressources
+- Mécanisme d'attribution des quotas aux navires de pêche
+
+**Périodes et zones de interdiction de pêche** :
+
+- Interdiction de la capture pendant les périodes de reproduction des espèces importantes
+- Création de zones de conservation des ressources halieutiques
+- Mesures de protection des poissons des récifs coralliens
+
+#### 2. Réforme des engins et méthodes de pêche
+
+**Promotion des engins sélectifs** :
+
+- Augmentation de la taille des mailles des filets pour éviter la capture des juvéniles
+- Dispositifs d'échappement pour prévenir les prises accessoires
+- Développement d'engins de pêche respectueux des tortues marines
+
+**Réglementation du chalutage de fond** :
+
+- Restriction des zones de pêche
+- Standardisation des spécifications des filets
+- Surveillance des espèces capturées
+
+#### 3. Soutien à la transition des pêcheries
+
+**Promotion de l'aquaculture écologique** :
+
+- Technologies d'aquaculture en circuit fermé
+- Certification biologique des produits aquacoles
+- Systèmes de symbiose poissons-légumes
+
+**Développement de la pêche touristique** :
+
+- Accompagnement de l'exploitation de navires de pêche de loisir
+- Promotion du tourisme dans les villages de pêcheurs
+- Création de fermes marines maritimes
+
+### Modèles de conservation innovants
+
+#### Participation des pêcheurs à la conservation
+
+**Programme de protection de l'océan par les pêcheurs** :
+
+- Flotte de navires de nettoyage maritime par les pêcheurs
+- Mécanisme de récompense pour la collecte de déchets marins
+- Assistance à la surveillance de l'écosystème marin
+
+**Promotion des méthodes de pêche respectueuses** :
+
+- Formation aux méthodes de pêche respectueuses des tortues marines
+- Conseil technique pour la réduction des prises accessoires
+- Subventions pour l'amélioration des engins de pêche
 
 #### Gestion assistée par la technologie
 
-**Système de surveillance des navires (VMS)** :
+**Système de surveillance des navires de pêche (VMS)** :
 
-- Suivi GPS de la position des bateaux
-- Déclarations de captures en temps réel
-- Détection des activités illégales
+- Suivi GPS de la position des navires de pêche
+- Déclaration en temps réel des captures
+- Surveillance des activités illégales
 
-**Exploitation des mégadonnées halieutiques** :
+**Application des mégadonnées à la pêche** :
 
-- Analyse statistique des captures
+- Analyse des statistiques de captures
 - Modèles d'évaluation des ressources
 - Gestion prédictive
 
-## Stratégies de lutte contre la pollution marine
+## Stratégies de prévention et de gouvernance de la pollution marine
+
+La gouvernance de la pollution marine doit progresser simultanément sur trois niveaux : la réduction à la source pour empêcher les déchets d'atteindre l'océan, les opérations de nettoyage actif pour réduire la pollution déjà présente, et les réseaux de surveillance qui fournissent une base scientifique.
+
+Taïwan a mis en œuvre des politiques de restriction du plastique depuis 2002, et après trois phases d'élargissement, un cadre réglementaire relativement complet a été établi.
+
+Les mouvements citoyens de nettoyage de plages et la participation à la science citoyenne ont conféré à ce système de prévention un large soutien social.
 
 ### Politiques de réduction à la source
 
-#### Le déploiement progressif des restrictions plastique
+#### Mise en œuvre progressive des politiques de restriction du plastique
 
-La politique taïwanaise de limitation du plastique s'est élargie par étapes.
+Les politiques de restriction du plastique à Taïwan ont été élargies en trois phases :[^3]
 
 **Première phase (2002)** :
 
-- Interdiction des sacs plastique gratuits dans les hypermarchés et supermarchés
-- Règles d'épaisseur minimale et mise en place d'une tarification
+- Interdiction de la distribution gratuite de sacs plastiques dans les grandes surfaces et supermarchés
+- Restrictions d'épaisseur et système de facturation
 
 **Deuxième phase (2018)** :
 
-- Extension à l'ensemble du commerce de détail
-- Interdiction des pailles plastique à usage unique dans les établissements de boissons
+- Extension à tous les commerces de détail
+- Interdiction des pailles en plastique à usage unique dans les boutiques de boissons
 
 **Troisième phase (2025)** :
 
-- Interdiction totale des ustensiles plastique à usage unique dans la restauration
-- Exigences d'emballages écologiques pour les plateformes de livraison
+- Interdiction totale des produits plastiques à usage unique dans la restauration
+- Exigences d'emballage écologique pour les plateformes de livraison
 
-#### Économie circulaire
+#### Promotion de l'économie circulaire
 
-**Recyclage et valorisation des plastiques** :
+**Recyclage et réutilisation du plastique** :
 
-- Taux de recyclage des bouteilles PET : 95 %
+- Taux de recyclage des bouteilles en PET atteignant 95 %
 - Technologies de recyclage chimique des plastiques usagés
-- Utilisation de matières recyclées issues des déchets marins
+- Application de matériaux recyclés issus de déchets marins
 
 **Développement de matériaux alternatifs** :
 
 - Plastiques biodégradables
 - Emballages en fibres naturelles
-- Produits réutilisables
+- Conception de produits réutilisables
 
-### Actions de nettoyage en mer
+### Opérations de nettoyage maritime
 
-#### Initiatives gouvernementales
+#### Nettoyage dirigé par le gouvernement
 
-**Collecte des déchets flottants** :
+**Élimination des déchets flottants** :
 
-- Patrouilles et collectes régulières des garde-côtes
-- Partenariats avec des bateaux de pêche pour la collecte des déchets
-- Nettoyages ciblés sur les îles périphériques
+- Patrouilles et nettoyages maritimes réguliers par l'Agence de garde côtière
+- Collaboration avec les navires de pêche pour la collecte de déchets marins
+- Nettoyage prioritaire des régions insulaires
 
 **Nettoyage du littoral** :
 
-- Opérations régulières des collectivités locales
+- Nettoyages réguliers par les gouvernements locaux
 - Mobilisation de bénévoles environnementaux
-- Programme de parrainage des plages par des entreprises
+- Programmes d'adoption de côtes par des entreprises
 
-#### Mobilisation citoyenne
+#### Actions de participation citoyenne
 
-**Grand mouvement national de nettoyage des plages** :
+**Mouvement de nettoyage de plages pour tous** :
 
-- 200 000 participants par an en moyenne
-- 500 à 800 tonnes de déchets collectés
-- Participation à l'action internationale ICC (International Coastal Cleanup)
+- Participation annuelle moyenne de 200 000 personnes
+- Nettoyage de 500 à 800 tonnes de déchets marins
+- Participation à l'International Coastal Cleanup (ICC)
 
-**Technologies de collecte innovantes** :
+**Technologies de nettoyage innovantes** :
 
-- Développement de dispositifs d'interception des déchets en mer
+- Développement de dispositifs d'interception des déchets marins
 - Technologies de filtration des microplastiques
-- Tri des déchets assisté par intelligence artificielle
+- Tri assisté par IA des déchets marins
 
-### Réseau de surveillance de la pollution
+### Réseaux de surveillance de la pollution
 
-#### Surveillance de l'environnement marin
+### Surveillance de l'environnement marin
 
 **Système de surveillance de la qualité de l'eau** :
 
-- 50 stations de mesure régulières
-- Analyses des métaux lourds et des polluants organiques
-- Publication des données en temps réel
+- Surveillance régulière par 50 stations de mesure
+- Détection des métaux lourds et des polluants organiques
+- Publication en temps réel des données
 
-**Programme de biosurveillance** :
+**Programmes de biosurveillance** :
 
-- Évaluation de l'état de santé des espèces indicatrices
+- Évaluation de la santé des espèces indicatrices
 - Surveillance de l'accumulation de polluants dans les tissus
-- Indicateurs de santé des écosystèmes
+- Indicateurs de santé de l'écosystème
 
-#### Surveillance innovante des déchets marins
+#### Innovations dans la surveillance des déchets marins
 
-**Science citoyenne** :
+**Participation à la science citoyenne** :
 
-- Enquêtes rapides sur les déchets marins
-- Réseau de bénévoles surveillants
-- Application mobile pour le signalement en temps réel
+- Enquêtes rapides de dépistage des déchets marins
+- Réseaux de surveillance par des bénévoles
+- Signalement en temps réel via applications mobiles
 
 **Surveillance assistée par la technologie** :
 
-- Télédétection satellitaire
-- Drones de surveillance
-- Modèles de prédiction des trajectoires de dérive
+- Technologie de télédétection par satellite
+- Patrouilles par drones
+- Modèles de prévention des trajectoires de dérive
 
 ## Changement climatique et acidification des océans
 
-### Les effets du réchauffement marin
+Parmi toutes les menaces qui pèsent sur l'océan, le changement climatique est le problème mondial le plus difficile à résoudre par des actions locales.
 
-Le changement climatique affecte profondément les écosystèmes marins de Taïwan.
+La température de surface des eaux autour de Taïwan a augmenté de 1,2 °C au cours des 50 dernières années, et le degré d'acidification des océans s'est intensifié avec l'augmentation de la concentration atmosphérique de CO₂.
 
-**Tendance au réchauffement de la surface des mers** :
+L'événement de blanchissement des coraux le plus massif de l'histoire de Taïwan en 2020 a été une manifestation concentrée de cette tendance à long terme : quelle que soit la qualité des efforts de conservation locaux, ils ne peuvent à eux seuls contrer l'impact du réchauffement climatique.
 
-- Hausse de 1,2 °C sur les cinquante dernières années
-- Augmentation de la fréquence des dépassements des 30 °C en été
-- Multiplication des événements de canicule marine
+### Impacts du réchauffement océanique
 
-**Impacts sur les écosystèmes** :
+Au cours des 50 dernières années, la température de surface de la mer autour de Taïwan a augmenté de 1,2 °C, la fréquence des températures estivales dépassant 30 °C s'est accrue, et les vagues de chaleur marines sont devenues plus fréquentes. Les impacts sur les écosystèmes sont désormais pleinement visibles : le blanchissement des coraux le plus massif de l'histoire de Taïwan en 2020, la migration vers le nord des espèces tempérées et l'augmentation des espèces tropicales, la régression des herbiers due aux températures élevées, et les changements dans la composition du plancton affectant les fondements de l'ensemble de la chaîne alimentaire.
 
-- **Blanchissement des coraux** : épisode majeur de blanchissement à Taïwan en 2020
-- **Déplacement des espèces** : les poissons des zones tempérées remontent vers le nord, les espèces tropicales progressent
-- **Recul des herbiers marins** : les chaleurs excessives entraînent la mort des herbiers
-- **Modification du plancton** : perturbation de la base de la chaîne alimentaire
+### Le problème de l'acidification des océans
 
-### L'acidification des océans
-
-L'augmentation des concentrations de CO₂ atmosphérique entraîne une acidification progressive des océans.
-
-**Mécanisme** :
-
-- Dissolution du CO₂ atmosphérique dans l'eau de mer
-- Formation d'acide carbonique, abaissement du pH
-- Diminution de la saturation en carbonate de calcium
-
-**Impacts écologiques** :
-
-- **Mollusques et crustacés** : difficultés de formation des coquilles
-- **Coraux** : ralentissement de la croissance squelettique
-- **Plancton** : diminution des organismes calcifiants
-- **Chaîne alimentaire** : les perturbations au niveau des producteurs primaires se répercutent sur l'ensemble de l'écosystème
+Le CO₂ atmosphérique dissous dans l'eau de mer forme de l'acide carbonique, entraînant une baisse du pH et une réduction de la saturation en carbonate de calcium. Les organismes qui dépendent du carbonate de calcium pour former leurs coquilles sont les plus touchés : la formation des coquilles des mollusques et crustacés est compromise, la croissance des squelettes coralliens est entravée, les organismes planctoniques calcifiants diminuent, affectant la structure de base de l'ensemble de la chaîne alimentaire.
 
 ### Stratégies d'adaptation
 
-#### Renforcement de la résilience écologique
-
-**Réseau d'aires protégées** :
-
-- Création de « refuges climatiques »
-- Protection de la diversité génétique
-- Maintien de la connectivité écologique
-
-**Programme de restauration des coraux** :
-
-- Sélection de souches de coraux résistantes à la chaleur
-- Développement des techniques de transplantation
-- Construction de récifs artificiels
-
-#### Systèmes d'alerte précoce
-
-**Réseau d'observation océanique** :
-
-- Surveillance en temps réel des températures marines
-- Suivi des niveaux d'acidification
-- Alerte aux événements extrêmes
-
-**Évaluation des risques** :
-
-- Identification des espèces vulnérables
-- Évaluation des habitats critiques
-- Analyse des capacités d'adaptation
+Les stratégies d'adaptation climatique progressent sur deux niveaux. En matière de résilience écologique, la création de refuges climatiques (Climate Refugia) protège la diversité génétique, le maintien de la connectivité écologique, ainsi que la promotion de la culture de souches de coraux thermorésistants et la construction de récifs artificiels. Concernant les systèmes d'alerte précoce, un réseau de surveillance en temps réel de la température de la mer, le suivi du degré d'acidification et l'évaluation des risques pour les espèces vulnérables fournissent une capacité d'alerte précoce, permettant aux gestionnaires d'agir avant la survenance d'événements extrêmes.
 
 ## Coopération internationale et responsabilité régionale
 
+L'océan est un bien commun qui transcende les frontières nationales, et la pollution transfrontalière ainsi que la conservation des espèces migratrices nécessitent une coopération régionale.
+
+Bien que Taïwan soit confronté à des limitations en matière de représentation diplomatique formelle, il participe à la gouvernance marine internationale par la voie de la diplomatie scientifique et des canaux d'organisations non gouvernementales.
+
+Cette stratégie d'« échanger la science contre un siège » permet à Taïwan de maintenir une visibilité et une influence internationales considérables sur des sujets spécifiques.
+
 ### Participation aux conventions internationales
 
-Malgré les contraintes politiques, Taïwan s'engage activement dans la conservation marine internationale.
+Taïwan participe à la conservation marine internationale par plusieurs canaux : dans le cadre des mécanismes de coopération régionale, il est membre de l'Organisation des sciences marines du Pacifique Nord (PICES), du Partenariat pour les politiques marines de l'APEC et du Partenariat pour les mers d'Asie de l'Est (PEMSEA) ; dans le réseau des organisations non gouvernementales, il entretient des liens avec l'UICN, le Partenariat mondial sur les déchets marins (GPML) et l'Alliance internationale pour les récifs coralliens (ICRI).
 
-**Mécanismes de coopération régionale** :
+### Diplomatie maritime
 
-- Organisation des sciences marines du Pacifique Nord (PICES)
-- Partenariat pour la politique maritime dans le cadre de l'APEC
-- Partenariat pour les mers d'Asie de l'Est (PEMSEA)
+La diplomatie maritime de Taïwan repose sur la coopération scientifique et l'assistance technique. Les visites réciproques de navires de recherche et les échanges de scientifiques constituent des canaux réguliers pour maintenir les relations bilatérales ; la fourniture de technologies de gestion durable des pêcheries aux alliés du Pacifique est un moyen concret pour Taïwan de renforcer son influence régionale dans un espace diplomatique limité.
 
-**Réseaux d'organisations non gouvernementales** :
+### Gouvernance marine régionale
 
-- Union internationale pour la conservation de la nature (UICN)
-- Partenariat mondial pour les déchets marins (GPML)
-- International Coral Reef Initiative (ICRI)
+Les déchets marins transfrontaliers sont un problème commun à l'Asie de l'Est : Taïwan participe à des études sur les trajectoires de dérive avec la Chine, le Japon et la Corée du Sud, et collabore avec ses partenaires régionaux pour promouvoir la gestion des déchets de pêche et l'échange de technologies de pollution. En matière de protection de la biodiversité, la coopération transnationale pour la conservation des cétacés et la protection des voies de migration des oiseaux d'Asie de l'Est-Australie constituent des cas représentatifs de la participation de Taïwan à la gouvernance écologique régionale.
 
-### La diplomatie par les océans
+## Technologies innovantes et solutions
 
-**Diplomatie scientifique** :
+Face aux limites des méthodes de conservation traditionnelles, Taïwan commence à introduire des innovations technologiques dans le travail de conservation marine.
 
-- Coopération internationale en recherche océanique
-- Échanges de navires de recherche
-- Programmes de visites entre scientifiques
+Des bouées intelligentes à la surveillance assistée par IA, de l'impression 3D de coraux au recyclage des filets de pêche, ces expérimentations innovantes sont pour certaines déjà en application pratique, tandis que d'autres en sont encore au stade expérimental.
 
-**Assistance technique** :
+L'observation de Chen Zhaolun de l'Academia Sinica mérite d'être retenue : « La technologie ne peut que gagner du temps ; la vraie solution reste la réduction des émissions de gaz à effet de serre. » La technologie est un outil auxiliaire et ne peut se substituer à un changement fondamental.
 
-- Fourniture de technologies marines aux alliés du Pacifique
-- Partage d'expériences en gestion durable de la pêche
-- Renforcement des capacités en conservation marine
+### Développement des technologies marines
 
-### Gouvernance maritime régionale
+En matière de surveillance, les systèmes de bouées intelligentes permettent un suivi en temps réel de la qualité de l'eau, des courants et des vagues, et les plateformes de mégadonnées marines combinées à l'apprentissage automatique soutiennent l'évaluation des ressources halieutiques et l'évaluation de la santé des écosystèmes. En matière de nettoyage, les dispositifs d'interception des déchets marins, les robots de tri automatique et les technologies de filtration des microplastiques entrent progressivement en application ; les technologies d'impression 3D de coraux, les drones de semis d'herbiers et les techniques de construction de récifs artificiels ouvrent de nouvelles possibilités pour les travaux de restauration.
 
-#### Coopération transfrontalière sur les déchets marins
+### Application des sciences des matériaux
 
-**Coopération en mer d'Asie de l'Est** :
+Le développement de matériaux respectueux de l'environnement marin comprend les plastiques biodégradables en milieu marin (plastiques à base d'algues, matériaux dérivés de la chitine) et la réutilisation des déchets marins (fibres recyclées à partir de filets de pêche, tissus fabriqués à partir de bouteilles usagées, articles de sport produits à partir de déchets marins). Ces innovations matérielles cherchent à résoudre le problème des plastiques à usage unique à la source, dès la conception des produits.
 
-- Études des trajectoires de dérive des déchets marins avec le Japon et la Corée
-- Coopération sur la gestion des déchets issus de la pêche
-- Échanges de technologies de prévention de la pollution
+### Innovations numériques
 
-#### Protection de la biodiversité
+Les plateformes de science citoyenne permettent à davantage de personnes de participer aux efforts de conservation. Les applications de conservation marine permettent de signaler en temps réel les déchets marins et d'enregistrer les observations d'espèces ; la technologie VR est utilisée pour l'éducation à l'écologie marine et pour des expériences immersives de l'impact de la pollution, permettant à ceux qui n'ont jamais plongé de ressentir l'état actuel de l'océan.
 
-**Conservation des oiseaux migrateurs et des espèces marines** :
+## Bénéfices économiques et transition industrielle
 
-- Protection de la route migratoire Asie de l'Est – Australasie
-- Coopération internationale pour la protection des cétacés
-- Actions régionales de protection des tortues de mer
+La relation entre la conservation marine et le développement économique a longtemps été perçue à tort comme une compétition à somme nulle.
 
-## Innovations technologiques et solutions
+En réalité, un écosystème marin en bonne santé constitue la base du tourisme maritime, de la pêche durable et de l'industrie des technologies marines ; investir dans la conservation, c'est investir dans l'avenir de l'industrie.
 
-### Développements en technologies marines
+La valeur de production annuelle de l'écotourisme à Taïwan a atteint 50 milliards de dollars taïwanais, et la prime de prix du marché pour les produits aquacoles biologiques offre également à certains pêcheurs une incitation à la transition ; cette logique selon laquelle « la conservation crée de la valeur » est le langage clé pour convaincre le secteur industriel de soutenir les politiques de conservation.
 
-#### Innovations en matière de surveillance
+### Développement de l'économie bleue
 
-**Système de bouées intelligentes** :
+Les industries liées à l'océan à Taïwan couvrent trois domaines : le tourisme, la pêche et la technologie. La valeur de production de l'écotourisme atteint 50 milliards de dollars taïwanais, avec un taux de croissance annuel du tourisme de plongée de 15 % ; la prime de prix des produits aquacoles biologiques est de 30 à 50 %, et la certification écologique renforce la compétitivité sur le marché ; l'exportation d'équipements de surveillance marine, l'exportation de technologies de dessalement de l'eau de mer et l'énergie éolienne en mer représentent le potentiel commercial des technologies marines.
 
-- Surveillance en temps réel de la qualité de l'eau
-- Observation des courants et des vagues
-- Suivi des activités biologiques
+### Soutien par la finance verte
 
-**Mégadonnées océaniques** :
+Les instruments de finance durable intègrent progressivement des indicateurs de conservation marine : les investissements ESG incluent les indicateurs marins dans leurs critères de notation, l'émission d'obligations bleues fournit un financement de projets pour les initiatives marines, et l'évaluation de la valeur des services écosystémiques et la quantification économique des fonctions de puits de carbone jettent les bases d'un système de comptabilité du capital naturel.
 
-- Modèles de prédiction de la pollution par apprentissage automatique
-- Modèles d'évaluation des ressources halieutiques
-- Évaluation de la santé des écosystèmes
+## Perspectives d'avenir et défis
 
-#### Avancées dans les technologies de collecte
+Le cadre d'objectifs pour 2030 fournit des orientations quantifiées pour les efforts, mais leur réalisation nécessite une gouvernance transversale, une collaboration internationale et un changement simultané des comportements sociaux.
 
-**Innovations pour la collecte des déchets marins** :
+Le plus grand défi auquel Taïwan est confronté n'est pas le manque de technologies ou d'outils politiques, mais la complexité de l'intégration institutionnelle et la nature à long terme de la mobilisation sociale.
 
-- Dispositifs d'interception en mer
-- Robots de tri automatique
-- Technologies de filtration des microplastiques
+Dans cette perspective, le modèle de Liuqiu, qui illustre une voie de « gestion autonome communautaire + participation citoyenne », pourrait avoir une résilience à long terme supérieure à celle de tout programme gouvernemental.
 
-**Technologies de restauration biologique** :
+### Objectifs de la vision 2030
 
-- Impression 3D de coraux
-- Drones de semis de posidonies
-- Construction de bioherbiers
+Les trois catégories d'objectifs fixés par le gouvernement couvrent la réduction de la pollution (réduction de 50 % des déchets marins, taux d'interdiction des plastiques à usage unique de 90 %, taux de conformité de la qualité de l'eau de mer de 95 %), la restauration écologique (superficie des zones de protection marine atteignant 20 %, taux de couverture corallienne revenu au niveau des années 1990, récupération de 30 % de la biomasse des espèces de poissons importantes) et la participation sociale (500 000 participations annuelles au nettoyage de plages, taux de pénétration de l'éducation environnementale de 80 %, taux de participation à la conservation des communautés côtières de 70 %).
 
-### Matériaux à faible impact marin
+### Défis à résoudre
 
-**Plastiques biodégradables** :
+La conservation marine à Taïwan fait face à trois obstacles structurels. En matière de gouvernance transversale, la répartition des responsabilités entre le gouvernement central et les collectivités locales n'est pas encore clarifiée, et l'efficacité des mécanismes de coordination interministérielle doit être améliorée. En matière de représentation internationale, l'absence de siège officiel place Taïwan dans une position défavorable pour l'accès à l'information et l'élaboration de normes techniques. En matière de comportement social, le changement lent des habitudes de consommation, les écarts de sensibilisation environnementale entre zones urbaines et rurales, et la logique de décision donnant la priorité aux considérations économiques affaiblissent la force d'exécution des politiques.
 
-- Matériaux dégradables en milieu marin
-- Plastiques à base d'algues
-- Matériaux dérivés de la chitine
+### Voies de solutions innovantes
 
-**Valorisation des déchets marins** :
+#### Renforcement par la technologie
 
-- Fabrication d'articles de sport à partir de déchets marins
-- Recyclage des filets de pêche en fibres textiles
-- Production de vêtements à partir de bouteilles plastique
-
-### Applications numériques innovantes
-
-#### Plateformes de science citoyenne
-
-**Applications de conservation marine** :
-
-- Signalement en temps réel des déchets marins
-- Enregistrement des observations d'espèces
-- Apprentissage des connaissances en conservation
-
-**Éducation en réalité virtuelle** :
-
-- Expériences VR immersives dans des écosystèmes marins
-- Simulation des impacts de la pollution
-- Formation à l'action de conservation
-
-## Économie bleue et reconversion industrielle
-
-### Le développement de l'économie bleue
-
-Conservation marine et développement économique ne s'opposent pas — ils se renforcent mutuellement.
-
-**Tourisme maritime durable** :
-
-- Valeur annuelle de l'écotourisme : 50 milliards de NT$
-- Croissance annuelle du tourisme de plongée : 15 %
-- Développement stable de l'industrie d'observation des baleines
-
-**Valeur de la pêche durable** :
-
-- Prime de prix de 30 à 50 % pour les produits de la mer biologiques
-- Les certifications écologiques renforcent la compétitivité sur le marché
-- Modèles d'exploitation mixtes : pêche et tourisme
-
-**Industries technologiques marines** :
-
-- Exportation d'équipements de surveillance océanique
-- Transfert de technologies de dessalement de l'eau de mer
-- Développement de l'industrie éolienne offshore
-
-### Financement vert
-
-**Tendances de l'investissement durable** :
-
-- Intégration des indicateurs de conservation marine dans les critères ESG
-- Émission d'obligations bleues pour financer les projets marins
-- Investissement d'impact orienté vers les océans
-
-**Incitations économiques à la conservation** :
-
-- Évaluation de la valeur des services écosystémiques
-- Valorisation économique des puits de carbone bleu
-- Comptabilité du capital naturel
-
-## Perspectives et défis à venir
-
-### Objectifs 2030
-
-Le gouvernement s'est fixé des ambitions claires en matière de conservation marine.
-
-**Réduction de la pollution** :
-
-- Réduction de 50 % des déchets marins
-- Interdiction de 90 % des plastiques à usage unique
-- Taux de conformité de la qualité de l'eau à 95 %
-
-**Restauration écologique** :
-
-- Couverture des aires marines protégées portée à 20 %
-- Rétablissement du taux de couverture corallienne au niveau des années 1990
-- Reconstitution de 30 % des stocks des espèces clés
-
-**Participation sociale** :
-
-- 500 000 participants par an aux opérations de nettoyage des plages
-- 80 % de la population touchée par l'éducation à l'environnement marin
-- 70 % des communautés côtières engagées dans la conservation
-
-### Défis persistants
-
-#### La complexité de la gouvernance multi-acteurs
-
-**Besoins d'intégration institutionnelle** :
-
-- Répartition des compétences entre État et collectivités locales
-- Mécanismes de coordination inter-ministériels
-- Plateformes de coopération entre secteurs public, privé, académique et associatif
-
-#### Les contraintes politiques internationales
-
-**Difficultés d'accès aux organisations internationales** :
-
-- Absence de représentation formelle
-- Accès incomplet à l'information
-- Divergences de normes techniques
-
-#### La transformation des comportements sociaux
-
-**Promotion des modes de vie durables** :
-
-- Évolution lente des habitudes de consommation
-- Écart de sensibilisation environnementale entre villes et campagnes
-- Priorité accordée aux considérations économiques
-
-### Pistes d'innovation
-
-#### Transformation numérique
-
-**Applications numériques avancées** :
-
-- Réseau IoT de surveillance des océans
-- Traçabilité halieutique par blockchain
-- Aide à la décision assistée par intelligence artificielle
+La transformation numérique apporte de nouveaux outils à la conservation marine : les réseaux de surveillance marine IoT permettent de suivre en temps réel les changements de qualité de l'eau, la technologie blockchain assure la traçabilité des pêcheries pour garantir la durabilité, et les systèmes assistés par IA soutiennent l'analyse décisionnelle.
 
 #### Innovation sociale
 
-**Partenariats pluriels** :
+Les partenariats multiples constituent la base sociale de la conservation marine : les entreprises combinent leur responsabilité sociale avec des actions de conservation, les communautés locales établissent des mécanismes de gestion autonome, et la participation active des jeunes générations insuffle une nouvelle énergie à la conservation.
 
-- Intégration de la responsabilité sociale des entreprises dans la conservation
-- Gestion autonome par les communautés locales
-- Engagement de la jeunesse
+#### Innovation politique
 
-#### Innovation dans les politiques publiques
-
-**Outils économiques** :
-
-- Principe pollueur-payeur
-- Système de paiements pour services écosystémiques
-- Primes de performance liées aux résultats en conservation
+L'application d'instruments politiques comprend : la promotion du principe pollueur-payeur, l'établissement d'un système de paiement pour les services écosystémiques, et l'introduction de mécanismes de récompense basés sur les performances de conservation, permettant aux efforts de conservation d'obtenir un soutien financier à long terme.
 
 ## Conclusion
 
-La gouvernance de la pollution marine et la conservation des écosystèmes à Taïwan se trouvent à un tournant décisif. L'adoption de la Loi sur la conservation marine marque la consolidation d'un socle juridique solide. Le modèle de protection des tortues de Xiao Liuqiu illustre la puissance de l'engagement communautaire. La reconversion progressive de la pêche démontre que la dynamique économique et la préservation de la nature peuvent aller de pair.
+Les efforts de gouvernance de la pollution marine et de conservation à Taïwan se trouvent à un tournant crucial. L'adoption de la *Loi sur la conservation marine* marque l'établissement des fondements juridiques, le modèle de conservation des tortues marines de Liuqiu démontre la force de la participation communautaire, et la transition vers une pêche durable prouve la possibilité d'une synergie entre économie et conservation.
 
-Pourtant, face aux défis planétaires que sont le changement climatique, l'acidification des océans et la pollution transfrontalière, Taïwan doit sans cesse innover. En combinant innovation technologique, mobilisation sociale et coopération internationale — avec un accompagnement politique fort et la vitalité de la société civile —, Taïwan a toutes les chances de s'imposer comme une référence en matière de conservation marine dans la région Asie-Pacifique.
+Face aux défis mondiaux tels que le changement climatique, l'acidification des océans et la pollution transfrontalière, Taïwan doit progresser simultanément sur trois fronts — innovation technologique, participation sociale et coopération internationale — en combinant l'orientation des politiques gouvernementales et la vitalité de la société civile, pour construire un modèle de conservation marine pouvant servir de référence.
 
-La préservation des océans n'est pas seulement une question environnementale : c'est un impératif de justice entre les générations. Les actions menées aujourd'hui décideront si les générations futures pourront encore jouir de la richesse de ces mers. Unissons-nous pour protéger cet héritage précieux, et bâtissons ensemble les fondations d'un avenir durable pour Taïwan.
+Le cœur de la conservation marine est l'équité intergénérationnelle : les décisions d'aujourd'hui déterminent si les générations futures pourront continuer à bénéficier de ces ressources. Protéger cet océan est l'engagement de cette génération envers la suivante.
 
-## Sources
+**Pour aller plus loin** :
 
-1. Agence de conservation marine, Commission océanique (2024). _Livre blanc sur la conservation marine de Taïwan_. [En ligne](https://www.oca.gov.tw/)
-2. Bureau taïwanais de Greenpeace (2025). "La Loi sur la conservation marine adoptée en troisième lecture, un filet de protection pour les océans de Taïwan !" [En ligne](https://www.greenpeace.org/taiwan/update/35872/)
-3. Bureau taïwanais de Greenpeace (2022). "La Loi sur la conservation marine ne peut plus attendre ! Greenpeace se joint à de nombreuses organisations et experts pour défendre nos océans." [En ligne](https://www.greenpeace.org/taiwan/update/30154/)
-4. Yuan exécutif (2024). "Politique prioritaire : la Loi sur la conservation marine." [En ligne](https://www.ey.gov.tw/Page/5A8A0CB5B41DA11E/8d360b7c-158b-4c9c-900f-2b7adeeef9c9)
-5. Réseau de conservation marine (2024). "Statistiques sur les déchets marins." [En ligne](https://iocean.oca.gov.tw/OCA_OceanConservation/PUBLIC/Marine_Litter.aspx)
-6. National Geographic Taïwan (2020). "Une enquête d'un an sur les déchets marins révèle la vérité sur la pollution du littoral taïwanais !" [En ligne](https://www.natgeomedia.com/environment/article/content-8745.html)
-7. Bureau taïwanais de Greenpeace (2020). _Rapport « Que cache la mer ? — Bilan général des déchets sur les côtes de Taïwan »_. [En ligne](https://www.greenpeace.org/taiwan/update/15198/)
-8. Indigo Waters Environmental Consultancy (2023). "10 choses à savoir sur les déchets marins." [En ligne](https://www.indigowaters.org/10-things-you-need-to-know-about-marine-debris-zh)
-9. Ocean World (2024). "Comprendre les déchets marins." [En ligne](https://www.oceanworld.com.tw/load_page/get_education_page/4)
-10. Wild Bird Society of Taiwan (2023). _Rapport annuel sur les déchets côtiers de Taïwan_.
-11. Association Liuqiu (2024). _Rapport sur les résultats de la protection des tortues de mer à Xiao Liuqiu_.
-12. Centre de recherche sur la biodiversité, Academia Sinica (2023). _Rapport d'enquête sur les microplastiques dans les eaux marines de Taïwan_.
+- [Crise climatique et transition vers la neutralité carbone à Taïwan](/nature/台灣氣候危機與淨零轉型) — Blanchissement des coraux à la prise d'eau de la centrale nucléaire de He-Mu, conflits entre l'énergie éolienne en mer et la pêche, controverses d'évaluation environnementale du terminal GNL d'algues : comment la transition climatique reconfigure le champ de bataille de la gouvernance marine
+
+## Références
+
+[^1]: [Statistiques sur les déchets marins — Réseau de conservation marine](https://iocean.oca.gov.tw/OCA_OceanConservation/PUBLIC/Marine_Litter.aspx) — Statistiques des données de nettoyage de plages de la Société de protection des espaces sauvages, 2016-2023.
+[^2]: [Enquête sur les microplastiques marins à Taïwan — Centre de recherche sur la biodiversité, Academia Sinica](https://www.oca.gov.tw/) — Rapport d'enquête sur les concentrations de microplastiques dans les eaux autour de Taïwan.
+[^3]: [Adoption en troisième lecture de la *Loi sur la conservation marine* — Greenpeace Taïwan](https://www.greenpeace.org/taiwan/update/35872/) — Confirmation de l'adoption en troisième lecture de la *Loi sur la conservation marine* le 12 juillet 2024.
+[^4]: [Agence de conservation marine de la Commission océanique](https://www.oca.gov.tw/) — *Livre blanc sur la conservation marine à Taïwan*, édition 2024.
+[^5]: [Politique importante de la *Loi sur la conservation marine* — Yuan exécutif](https://www.ey.gov.tw/Page/5A8A0CB5B41DA11E/8d360b7c-158b-4c9c-900f-2b7adeeef9c9) — Explication de la politique de la *Loi sur la conservation marine* par le Yuan exécutif.
+[^6]: [Enquête rapide de dépistage des déchets marins après un an de travail, révélant la vérité de la pollution des côtes taïwanaises — National Geographic](https://www.natgeomedia.com/environment/article/content-8745.html) — Données d'enquête sur la densité des déchets sur les côtes taïwanaises.
+[^7]: [10 choses essentielles à savoir sur les déchets marins — Indigo Waters Consulting](https://www.indigowaters.org/10-things-you-need-to-know-about-marine-debris-zh) — Enquête sur la densité des déchets sous-marins par Indigo Waters Consulting, 2020.
+[^8]: [La *Loi sur la conservation marine* ne peut plus attendre — Greenpeace Taïwan](https://www.greenpeace.org/taiwan/update/30154/) — Processus de plaidoyer des organisations civiles pour la législation sur la conservation marine.
+[^9]: [Comprendre les déchets marins — Ocean World](https://www.oceanworld.com.tw/load_page/get_education_page/4) — Analyse des types et sources de déchets marins.
+[^10]: [« La mer, c'est quoi ce "plastique" ? — Bilan général des déchets sur les côtes taïwanaises » — Greenpeace](https://www.greenpeace.org/taiwan/update/15198/) — Enquête sur les types et la distribution des déchets sur les côtes taïwanaises.
+[^11]: [Résultats de la conservation des tortues marines à Liuqiu — Association Laoguyu de Taïwan](https://www.oca.gov.tw/ch/home.jsp?id=131&parentpath=0,4,127) — Modèle et résultats de la conservation des tortues marines à Liuqiu.
+[^12]: [Premier blanchissement massif des coraux à l'échelle nationale en 2024 — Notre Île](https://ourisland.pts.org.tw/content/7392) — Rapport d'enquête sur le blanchissement des coraux à Taïwan en 2020.

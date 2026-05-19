@@ -1,479 +1,249 @@
 ---
-title: "L'essor du hip-hop et du rap taïwanais"
-description: 'Des pionniers comme 大支 (Dwagie) et 熱狗 (MC HotDog) à 頑童MJ116 (MJ116), en passant par 蛋堡 (Soft Lipa) et Leo王 (Leo Wang), la localisation de la culture hip-hop taïwanaise et sa reconnaissance aux Golden Melody Awards'
+title: 'Développement du hip-hop et du rap à Taïwan'
+description: "De Dwagie et MC HotDog à MJ116, Soft Lipa et Leo Wang : l'ancrage local de la culture hip-hop taïwanaise et sa reconnaissance par les Golden Melody Awards"
 date: 2026-03-19
-tags:
-  [musique, hip-hop, rap, Hip-Hop, Rap, Golden Melody Awards, musique populaire]
-subcategory: '獨立與搖滾'
 author: 'Taiwan.md'
-readingTime: 9
-featured: true
 category: 'Music'
+subcategory: '獨立與搖滾'
+tags: ['musique', 'hip-hop', 'rap', 'Hip-Hop', 'Rap', 'Prix Golden Melody', 'musique populaire']
+readingTime: 9
 lastVerified: 2026-03-19
-lastHumanReview: false
-translatedFrom: Music/台灣嘻哈與饒舌發展.md
-sourceCommitSha: abf94a40
-sourceContentHash: sha256:7966c0692e2a3fd0
-sourceBodyHash: 'sha256:19d33338e53cee03'
-translatedAt: 2026-05-01T20:54:17+08:00
+lastHumanReview: true
+featured: true
+translatedFrom: 'Music/台灣嘻哈與饒舌發展.md'
+sourceCommitSha: '0f8fae0ae'
+sourceContentHash: 'sha256:e11c21a45fe57f10'
+sourceBodyHash: 'sha256:a49d6f675166d3c1'
+translatedAt: '2026-05-20T05:08:34+08:00'
 ---
 
-# L'essor du hip-hop et du rap taïwanais
+# Développement du hip-hop et du rap à Taïwan
 
-Lorsque les premières mesures de rap chinois résonnèrent à Taïwan, personne n'aurait imaginé que cette forme musicale née dans les rues américaines s'épanouirait sur cette île, développant une saveur proprement taïwanaise. Des tentatives pionnières de 大支 (Dwagie) et 熱狗 (MC HotDog) à la fin des années 1990, au succès commercial de 頑童MJ116 (MJ116) dans les années 2010, puis aux percées artistiques de la nouvelle génération incarnée par 蛋堡 (Soft Lipa) et Leo王 (Leo Wang), le hip-hop taïwanais n'a pas seulement trouvé sa propre voix : il a conquis une place majeure dans le paysage musical sinophone.
+> **Vue d'ensemble en 30 secondes :** Le hip-hop taïwanais part, à la fin des années 1990, des créations underground de Dwagie et MC HotDog ; il passe ensuite par la construction communautaire du label MACHI, la percée commerciale de MJ116, le tournant littéraire de Soft Lipa, jusqu'à la victoire de Leo Wang comme meilleur chanteur mandarin aux Golden Melody Awards en 2019. Le hip-hop entre alors pleinement dans les genres dominants. Le rap en taïwanais, en hakka et en langues autochtones se développe en parallèle, tandis que des émissions de concours comme *The Rappers* contribuent encore à sa diffusion.
 
-Le parcours du hip-hop taïwanais est à la fois celui d'une transplantation et d'une localisation d'un genre musical, et celui d'une jeune génération en quête d'identité et de moyens d'expression. De l'imitation initiale des modèles américains à l'intégration progressive de la langue, de la culture et des enjeux sociaux taïwanais, les rappeurs de l'île ont utilisé rimes et beats pour raconter des histoires propres à ce territoire.
+Lorsque les premiers rythmes de rap en chinois ont résonné à Taïwan, personne n'imaginait que cette forme musicale venue des rues américaines prendrait racine sur l'île au point d'y développer une saveur spécifiquement taïwanaise. Des essais pionniers de Dwagie et MC HotDog à la fin des années 1990 au succès commercial de MJ116 dans les années 2010, puis aux percées artistiques d'une nouvelle génération comme Soft Lipa et Leo Wang, le hip-hop taïwanais a non seulement trouvé sa propre voix, mais aussi conquis une place importante dans la cartographie de la musique sinophone.
 
-## Les origines et les débuts du hip-hop taïwanais
+L'histoire du hip-hop taïwanais est à la fois celle de la transplantation et de la localisation d'un genre musical, et celle d'une jeune génération taïwanaise cherchant des voies d'identification et d'expression. De l'imitation initiale des modèles américains à l'intégration ultérieure des langues, des cultures et des enjeux sociaux de Taïwan, les rappeurs taïwanais racontent, par les beats et les rimes, des histoires propres à cette île.
 
-### La fin des années 1990 : l'ère des pionniers
+## Origines et premiers développements du hip-hop taïwanais
+
+### Fin des années 1990 : l'ère des pionniers
 
 **L'introduction du hip-hop :**
-À la fin des années 1990, avec la démocratisation d'Internet et la diffusion de la culture MTV, le hip-hop américain commença à se répandre parmi les jeunes Taïwanais. Via la câble et les CD importés, ils découvrirent les œuvres de rappeurs américains emblématiques tels que Tupac, Notorious B.I.G. et Dr. Dre.
+À la fin des années 1990, avec la diffusion d'Internet et de la culture MTV, le hip-hop américain commence à circuler parmi les jeunes Taïwanais. Par la télévision câblée et les CD importés, ils découvrent les œuvres de grandes figures américaines du rap comme Tupac, The Notorious B.I.G. ou Dr. Dre.
 
-**Le défi linguistique et la percée :**
-Le problème initial était linguistique : le hip-hop repose fortement sur le rythme de la langue et les jeux de mots, et les caractéristiques tonales du mandarin diffèrent radicalement de celles de l'anglais. Les premiers passionnés durent trouver comment adapter le mandarin aux règles du beat et des rimes hip-hop.
+**Le défi et la percée linguistiques :**
+Le premier problème est celui de la langue : le hip-hop repose fortement sur le rythme verbal et les jeux de mots, alors que les caractéristiques tonales du chinois diffèrent radicalement de celles de l'anglais. Les premiers amateurs de hip-hop doivent explorer la manière d'adapter le chinois aux règles de beat et de rime du rap.
 
-**大支 (Dwagie) : pionnier du rap taïwanais :**
-大支 (Dwagie) (œuvres majeures : 《人》, 《台客》) est unanimement reconnu comme l'un des pionniers les plus importants du rap taïwanais. Il fut parmi les premiers à tenter d'écrire du rap en chinois, n'hésitant pas à employer le taïwanais (hokkien) et le langage cru, établissant ainsi un ton « ancré dans le réel » pour les générations suivantes.
+**Dwagie : pionnier du rap taïwanais :**
+Dwagie, dont les œuvres représentatives incluent *Human* et *Taike*, est largement reconnu comme un pionnier du rap taïwanais. Il est parmi les premiers à tenter de créer du rap en chinois, sans éviter l'usage du taïwanais ni des grossièretés, établissant pour le rap taïwanais ultérieur un ton « ancré dans le réel ».
 
-**Caractéristiques des débuts :**
+Les caractéristiques des débuts se concentrent dans une phase d'apprentissage allant de l'imitation à la localisation : imitation du style West Coast américain, usage abondant du mélange anglais-chinois, thèmes centrés sur la culture de rue et l'esprit de rébellion des jeunes, production relativement rudimentaire et largement underground, statut de rue déterminé par la capacité en freestyle, très peu d'albums officiellement publiés, et paroles utilisant souvent jurons et langage direct comme marqueurs d'authenticity.
 
-- Imitation du style West Coast américain
-- Usage massif d'un mélange d'anglais et de chinois
-- Thèmes centrés sur la culture de rue et l'esprit de rébellion juvénile
-- Qualité de production relativement rudimentaire, essentiellement underground
+La différence fondamentale entre le système tonal du chinois et l'anglais oblige les premiers rappeurs taïwanais à élaborer des stratégies de rime spécifiques. Le rap anglophone repose sur la rime de syllabes finales, tandis que les quatre tons du chinois obéissent à leurs propres règles ; copier purement les techniques anglaises produit souvent un résultat raide. La solution de pionniers comme Dwagie consiste à embrasser délibérément l'« imperfection » : transformer l'accent taïwanais, les rimes imparfaites et l'insertion de mots anglais en traits distinctifs du hip-hop taïwanais, plutôt que d'essayer d'imiter une prononciation américaine standard. Ce choix, qui pouvait alors sembler être un compromis, devient ensuite l'une des caractéristiques locales les plus importantes du hip-hop taïwanais.
 
-### Le début des années 2000 : l'émergence d'une culture underground
+### Début des années 2000 : l'essor de la culture underground
 
-**La scène musicale underground :**
-Au début des années 2000, une scène hip-hop underground commença à se structurer à Taïwan :
+Au début des années 2000, un milieu hip-hop underground commence à se former à Taïwan. Les lieux importants incluent Legacy Taipei, salle de concerts underground ; The Wall, haut lieu des musiques alternatives ; LUXY, qui associe culture des clubs nocturnes et hip-hop ; les points de graffiti de rue à Ximending et dans le district de Xinyi ; ainsi que des studios d'enregistrement à bas coût aménagés dans des sous-sols privés de Taipei, où naissent les premiers disques.
 
-**Lieux de rassemblement importants :**
+La culture freestyle prend également forme à cette période. Des battles commencent à apparaître : les compétitions techniques de rap improvisé et les échanges de savoir-faire entre MC constituent le noyau de formation de la communauté hip-hop ; des Beat Markets underground, où les producteurs échangent des beats, forment des marchés musicaux informels. Les victoires se décident par vote ou acclamation immédiate du public présent, sans jury ni règles fixes. La culture battle établit le système de réputation et la hiérarchie discursive du premier milieu hip-hop taïwanais.
 
-- **Legacy Taipei** : lieu majeur de concerts underground
-- **The Wall** : bastion de la musique alternative
-- **LUXY** : point de rencontre entre culture clubbing et hip-hop
-- **Points de graffiti** : culture du graffiti dans Xinyi, Ximending et d'autres quartiers
+Les quatre éléments du hip-hop américain, MC/Rap, DJ, Breaking et Graffiti, s'enracinent progressivement à Taïwan. **MC/Rap** suit la voie du développement des techniques de rap en chinois et de la construction d'un système local de rimes ; **DJ** se combine avec la culture électronique et la scène des clubs, avec un certain chevauchement entre les cercles de DJ et de hip-hop taïwanais ; **Breaking**, la danse de rue, se diffuse dans les campus et les rues et devient le premier élément à entrer dans le champ visuel dominant ; **Graffiti** apparaît dans l'espace urbain, avec une concentration autour de Ximending. Certains acteurs du milieu définissent le « cinquième élément », **Knowledge**, comme la connaissance de soi et la conscience communautaire sur le plan spirituel.
 
-**La culture freestyle :**
+### Le label MACHI et le milieu underground du hip-hop taïwanais
 
-- Apparition de battles (battles de rap)
-- Compétitions d'improvisation (freestyle)
-- Joutes techniques entre MCs
-- Noyau de formation des communautés hip-hop
+MACHI, aussi appelé à ses débuts Laodage et Bingkuai, est l'un des premiers labels hip-hop taïwanais dotés d'une forme organisée. Il joue un rôle d'incubateur clé dans le milieu hip-hop underground du début des années 2000.[^2]
 
-**La localisation des quatre éléments :**
-Les quatre piliers du hip-hop américain (MC/Rap, DJ, Breaking, Graffiti) prirent progressivement racine à Taïwan :
+La composition du label est nette : Dwagie en est un membre central, chargé de l'écriture et des liens communautaires ; Xiao Gui est connu pour ses rimes fluides et son humour ; Benz, de son vrai nom Chang Che-ming, s'occupe de la production de beats et est le designer sonore des débuts du label ; Kid excelle dans le rap en taïwanais et pose les bases d'une voie hip-hop en langue taïwanaise.
 
-- **MC/Rap** : développement des techniques de rap en mandarin
-- **DJ** : fusion de la culture électro avec la scène clubbing
-- **Breaking** : diffusion de la danse hip-hop dans les écoles et la rue
-- **Graffiti** : apparition de l'art du graffiti dans l'espace urbain
+L'influence du label se déploie dans cinq directions : il établit l'esthétique « taike » du hip-hop taïwanais, en embrassant plutôt qu'en fuyant l'identité locale ; ses premiers albums circulent dans le marché underground, créant un mode de diffusion par bouche-à-oreille ; il forme les habitudes créatives précoces de plusieurs rappeurs ensuite devenus connus ; il institue, au cœur du hip-hop taïwanais, une valeur centrée sur la critique du contenu, influençant toute une génération de créateurs ; il légitime la place du taïwanais dans la création hip-hop, de sorte que les générations suivantes ne considèrent plus le fait de « parler taïwanais » comme un choix à justifier.
 
-## Percée commerciale et conquête du grand public
+Même si la période underground de MACHI dispose rarement de chiffres de vente précis, son statut légendaire au sein de la communauté hip-hop est bien réel : les cassettes et CD enregistrés à l'époque circulent par des canaux informels et constituent la tradition orale de l'histoire du hip-hop taïwanais. Cette circulation non commerciale confère au contraire à la musique de MACHI une « crudité » difficile à reproduire.
 
-### Le milieu des années 2000 : le succès commercial de 熱狗 (MC HotDog)
+## Percée commerciale et entrée dans le courant dominant
 
-**熱狗 (MC HotDog) :**
-L'émergence de 熱狗 (MC HotDog) marqua un tournant dans la commercialisation du hip-hop taïwanais :
+### Milieu des années 2000 : le succès commercial de MC HotDog
 
-**Œuvres majeures :**
+L'apparition de MC HotDog marque le tournant commercial du hip-hop taïwanais. Ses œuvres représentatives incluent *Korean Wave Is Coming* (2007, satire du phénomène social de la vague coréenne), *My Life* (description des difficultés quotidiennes des jeunes Taïwanais) et *Mr. Almost* (critique de la mentalité de compromis passif dans la société taïwanaise).
 
-- 《韓流來襲》 (2007) : une satire du phénomène de la vague coréenne (Hallyu)
-- 《我的生活》 : une description des difficultés quotidiennes de la jeunesse taïwanaise
-- 《差不多先生》 : une critique de la mentalité du « à peu près » dans la société taïwanaise
+Sur le plan musical, MC HotDog utilise abondamment le mélange du taïwanais et du chinois, ses paroles reflètent directement la réalité sociale taïwanaise, sa musicalité plus mélodique facilite l'acceptation par le grand public, et la qualité de production bénéficie de l'appui des maisons de disques dominantes. Il réduit délibérément l'attachement à une image hip-hop « hardcore », rendant ses chansons plus accessibles aux auditeurs ordinaires. Son succès fait entrer pour la première fois le hip-hop taïwanais dans le champ des médias dominants et pousse les maisons de disques à remarquer le potentiel commercial de ce genre musical.
 
-**Caractéristiques musicales :**
+### Investissement des maisons de disques et industrialisation
 
-- Usage massif d'un mélange de taïwanais et de mandarin
-- Paroles reflétant directement la réalité sociale taïwanaise
-- Mélodicité prononcée, facilitant l'accès au grand public
-- Qualité de production soutenue par les grandes maisons de disques
+Les grandes maisons de disques commencent à investir : Rock Records signe certains rappeurs et leur fournit des ressources de production ; HIM International investit dans la production hip-hop afin d'élargir son marché ; B'in Music soutient les créations alternatives en leur donnant une certaine liberté artistique. Parallèlement, des labels indépendants spécialisés dans le hip-hop, comme plus tard Bace Camp, émergent également.
 
-**Impact social :**
-Le succès de 熱狗 permit au hip-hop taïwanais d'accéder pour la première fois aux médias grand public, et incita les labels à s'intéresser au potentiel commercial de ce genre musical.
+Le niveau de production s'élève en conséquence : investissement dans du matériel d'enregistrement professionnel, participation d'ingénieurs du son de niveau international, augmentation des budgets de clips musicaux, modernisation des méthodes de promotion et de marketing, apparition d'occasions de licences et de collaborations internationales. Côté exposition médiatique, les émissions musicales télévisées commencent à diffuser des chansons de rap taïwanais, les plateformes en ligne deviennent des canaux majeurs de circulation, les festivals de musique invitent des rappeurs à se produire, les collaborations transversales se multiplient, et le marché publicitaire s'ouvre progressivement aux artistes hip-hop.
 
-### L'investissement des maisons de disques et l'industrialisation
+## Innovations et percées d'une nouvelle génération
 
-**L'engagement des grands labels :**
+### Années 2010 : développement pluralisé
 
-- **Rock Records** : signature de plusieurs rappeurs
-- **HIM International Music** : investissement dans la production hip-hop
-- **BinMusic** : soutien à la création musicale alternative
-- **Labels indépendants** : émergence de petites structures spécialisées dans le hip-hop
+MJ116, composé de E.SO, Kenzy et Muta, devient le groupe commercialement le plus prospère de l'histoire du hip-hop taïwanais. Son style musical fusionne éléments pop et beats hip-hop ; ses paroles humoristiques et pleines d'esprit sont proches de la vie des jeunes ; il utilise largement le langage populaire d'Internet et les références à l'actualité, tout en collaborant fréquemment avec des chanteurs pop. Ses œuvres représentatives incluent *Fresh Game*, importante pour établir le style du groupe, *9PM*, chanson pop marquante en collaboration avec Chunyan, et *Champagne*, qui décrit la culture de la vie nocturne.
 
-**L'amélioration de la qualité de production :**
+Sur le plan commercial, les billets de leurs concerts se vendent à plusieurs reprises en quelques instants, leurs contrats d'ambassadeurs couvrent de nombreuses marques, leur participation aux œuvres audiovisuelles est élevée, et leur influence sur les réseaux sociaux est considérable. En développant une activité de divertissement transversale à partir du hip-hop, ils brouillent la frontière entre musicien et artiste médiatique.
 
-- Investissement dans des équipements d'enregistrement professionnels
-- Participation de mixeurs de renommée internationale
-- Augmentation des budgets de production des clips vidéo
-- Modernisation des stratégies de promotion et de marketing
+### L'essor du rap lettré
 
-**La visibilité médiatique accrue :**
+Soft Lipa représente une autre facette du rap taïwanais : la dimension littéraire et introspective. Ses paroles possèdent une poésie et une réflexion philosophique ; ses beats, relativement lents, conviennent à l'expression d'émotions complexes ; il utilise abondamment métaphores et images, s'intéresse au monde intérieur individuel et à l'observation sociale, et refuse les slogans simplistes d'« ancrage dans le réel » pour se tourner vers l'expérimentation esthétique de la langue elle-même. Ses œuvres représentatives incluent *The Unknown Internal Renovation of Du Chen-hsi*, classique d'auto-analyse, *After Shave*, description émotionnelle délicate, et *Process*, expression musicale d'une philosophie de vie. Le succès de Soft Lipa prouve que le rap taïwanais peut porter les ambitions artistiques des intellectuels sans devoir nécessairement dépendre du cadre de la culture de rue.
 
-- Les émissions musicales télévisées commencèrent à diffuser du rap taïwanais
-- Les plateformes en ligne devinrent des canaux de diffusion essentiels
-- Les festivals de musique invitèrent des rappeurs à se produire
-- Les opportunités de collaborations intergenres se multiplièrent
+### La percée expérimentale de Leo Wang
 
-## Innovation et percées de la nouvelle génération
+Leo Wang incarne l'esprit expérimental le plus avant-gardiste du hip-hop taïwanais. Stylistiquement, il mène des expérimentations musicales audacieuses et des fusions transversales, combinant musique électronique, jazz et de nombreux autres éléments ; ses paroles regorgent de jeux de langage inventifs, et ses performances scéniques sont fortement théâtrales et artistiques. Il refuse toute définition stylistique unique : chaque album constitue une nouvelle remise en cause de soi. Ses œuvres représentatives incluent *Wubing Shenyin*, portrait précis de l'état d'esprit des jeunes modernes, et *Clown*, réflexion sur les rôles sociaux.
 
-### Les années 2010 : un développement pluriel
+> ⚠️ Correction du 2026-04-29 (Issue #680 par @slashpot) : la version originale citait à tort *Homemade Music* comme œuvre représentative de Leo Wang ; il s'agit en réalité d'une œuvre de Soft Lipa. Elle a été retirée afin d'éviter toute confusion, et les deux œuvres représentatives correctes ont été conservées.
 
-**La popularisation par 頑童MJ116 (MJ116) :**
-頑童MJ116 (MJ116) (membres : 瘦子E.SO, 小春, 大淵) est devenu le groupe hip-hop le plus commercialement de l'histoire du hip-hop taïwanais :
+**Reconnaissance par les prix :**
+Leo Wang est nommé à plusieurs reprises aux Golden Melody Awards et remporte le prix du meilleur chanteur mandarin. C'est la première fois qu'un artiste hip-hop taïwanais obtient le prix du meilleur chanteur mandarin aux Golden Melody Awards.
 
-**Style musical :**
+## L'écriture critique de Dwagie et son intervention sociale
 
-- Fusion d'éléments pop avec des beats hip-hop
-- Paroles humoristiques et décalées, proches du quotidien des jeunes
-- Usage massif d'argot internet et de références à l'actualité
-- Collaborations intergenres avec des artistes pop
+Dwagie est la figure la plus représentative de la conscience critique sociale dans le hip-hop taïwanais. De la forme au contenu, sa création constitue une intervention continue dans la politique et la culture taïwanaises.[^3]
 
-**Œuvres majeures :**
+L'évolution des thèmes critiques de Dwagie suit quatre directions : l'« identité taike », avec la chanson *Taike*, qui défie directement l'étiquette discriminatoire appliquée à la culture populaire taïwanaise et transforme « taike » d'un stigmate en déclaration identitaire fière ; l'« inégalité sociale », avec la série *Human*, qui explore profondément les difficultés des jeunes Taïwanais dans les structures capitalistes ; la « corruption politique », avec plusieurs œuvres visant directement les collusions politico-économiques et les pièges du système démocratique ; et la « critique des médias », qui dénonce la détérioration des médias taïwanais et la prolifération de la culture du commérage.
 
-- 《Fresh Game》 : un album fondateur qui établit le style du groupe
-- 《9PM》 : un tube populaire en collaboration avec 春艷 (Chunyan)
-- 《香檳》 : une œuvre emblématique décrivant la culture de la vie nocturne
+Sur le plan linguistique, il mêle délibérément taïwanais, mandarin et grossièretés afin de produire un choc verbal ; il cite proverbes populaires et argot taïwanais pour établir une base linguistique enracinée ; et il renforce la puissance de pénétration de ses messages critiques par la densité des rimes et l'organisation syllabique.
 
-**Succès commercial :**
+**Influence :**
+Dwagie établit dans le hip-hop taïwanais une norme morale consistant à « dire la vérité ». Beaucoup d'artistes plus jeunes, même lorsqu'ils s'éloignent de son style sur le plan commercial, continuent de considérer son attitude directe à l'égard des enjeux sociaux comme le cœur de l'esprit hip-hop.
 
-- Concerts régulièrement complets en quelques minutes
-- Endorsements couvrant des marques variées
-- Forte présence dans les productions audiovisuelles
-- Influence considérable sur les réseaux sociaux
+## Reconnaissance et validation par les Golden Melody Awards
 
-### L'émergence du rap « littéraire »
+### Transformation de la place du hip-hop aux Golden Melody Awards
 
-**蛋堡 (Soft Lipa) et le rap littéraire :**
-蛋堡 (Soft Lipa) incarne une autre facette du rap taïwanais : la dimension littéraire et introspective :
+**Marginalisation des débuts :**
+Au début des Golden Melody Awards, le hip-hop est considéré comme un genre non dominant et obtient rarement des nominations dans les catégories importantes.
 
-**Caractéristiques musicales :**
+**Processus de reconnaissance :**
+À mesure que la qualité du hip-hop taïwanais augmente et que son acceptation sociale progresse, les Golden Melody Awards commencent à prendre ce genre musical au sérieux :
 
-- Paroles empreintes de poésie et de réflexion philosophique
-- Beats relativement lents, propices à l'expression d'émotions complexes
-- Usage abondant de métaphores et d'images
-- Attention portée au monde intérieur et à l'observation sociale
+**Jalons des Golden Melody Awards :**
 
-**Œuvres majeures :**
+Lors de la 30e édition des Golden Melody Awards en 2019, Leo Wang remporte le prix du meilleur chanteur mandarin[^1], première victoire d'un artiste hip-hop taïwanais dans cette catégorie. En 2020, Leo Wang est de nouveau nommé, et la même année Chunyan remporte le prix du meilleur parolier pour *Encounter*. En 2021, plusieurs artistes hip-hop sont nommés dans des catégories majeures, signe que la reconnaissance du hip-hop dans le système de jury s'est stabilisée.
 
-- 《你所不知道的杜振熙之內部整修》 : une introspection devenue un classique
-- 《收斂水》 : une description émotionnelle d'une grande finesse
-- 《過程》 : une expression musicale de la philosophie de la vie
+### Ajustement des critères de jury
 
-**Influence culturelle :**
-Le succès de 蛋堡 (Soft Lipa) a prouvé que le rap taïwanais pouvait dépasser le cadre de la culture de rue pour devenir une forme d'expression artistique intellectuelle.
+**Importance accordée à la musicalité :**
+Les jurys des Golden Melody Awards commencent à valoriser la musicalité et la qualité créative du hip-hop, et non plus seulement son succès commercial :
 
-### Les expérimentations de Leo王 (Leo Wang)
+L'évolution des critères d'évaluation couvre cinq aspects : la qualité littéraire et la profondeur intellectuelle de l'écriture, le professionnalisme et le degré d'innovation de la production musicale, la maturité technique et le style personnel de l'interprétation, la cohérence du concept d'ensemble, ainsi que l'évaluation de l'influence culturelle et de la contribution à long terme. Durant cette période, les jurys reconnaissent la place du hip-hop dans la culture taïwanaise et son influence sur les jeunes générations.
 
-**L'innovation musicale de Leo王 (Leo Wang) :**
-Leo王 (Leo Wang) représente l'esprit expérimental le plus avant-gardiste du hip-hop taïwanais :
+## Influence des concours télévisés hip-hop
 
-**Caractéristiques stylistiques :**
+### *The Rap of China* et les participants taïwanais
 
-- Audaces expérimentales et fusions intergenres
-- Intégration d'éléments d'électro, de jazz et d'autres styles
-- Paroles regorgeant de jeux de mots créatifs
-- Performances scéniques théâtrales et artistiques
+**Occasions de participer de l'autre côté du détroit :**
+Des émissions de Chine continentale comme *The Rap of China* offrent une scène plus vaste aux rappeurs taïwanais :
 
-**Œuvres majeures :**
+Parmi les participants taïwanais, **PACT** attire l'attention par son style singulier, **BCW** montre plusieurs facettes, tandis que **J.Sheon** apporte une approche fusionnant R&B et rap. Plusieurs musiciens taïwanais occupent aussi des rôles de producteurs. Cette participation transdétroit fait connaître au public chinois continental les caractéristiques du rap chinois à la taïwanaise, et les collaborations entre musiciens des deux rives augmentent ensuite.
 
-- 《無病呻吟》 : une description précise de l'état d'esprit de la jeunesse contemporaine
-- 《小丑》 : une réflexion sur le rôle social que chacun joue
+### L'essor des concours locaux
 
-> ⚠️ Correction du 2026-04-29 (Issue #680 par @slashpot) : la version originale mentionnait à tort 《家常音樂》 comme œuvre de Leo王 (Leo Wang) ; il s'agit en réalité d'une œuvre de 蛋堡 (Soft Lipa). Cette entrée a été retirée pour éviter toute confusion, et les deux œuvres correctes ont été conservées.
+**The Rappers :**
+Des concours hip-hop locaux commencent à apparaître à Taïwan :
 
-**Recompenses :**
-Leo王 (Leo Wang) a été nommé à plusieurs reprises aux Golden Melody Awards et a remporté le prix du meilleur artiste masculin en mandarin, devenant le premier artiste hip-hop taïwanais à recevoir cette plus haute distinction.
+Leurs caractéristiques se concentrent en quatre points : mettre en avant les traits de la culture rap locale taïwanaise, utiliser les langues locales comme le taïwanais et le hakka, s'intéresser aux enjeux sociaux taïwanais, et former une nouvelle génération de talents du rap local.
 
-## La reconnaissance aux Golden Melody Awards
+Sur le plan social, ce type d'émission accroît l'acceptation du hip-hop par le grand public, découvre davantage de talents musicaux potentiels, construit une chaîne industrielle hip-hop plus complète, favorise la popularisation de la culture hip-hop, et renforce la visibilité de l'ensemble de la communauté hip-hop par la plateforme télévisuelle.
 
-### L'évolution du statut du hip-hop aux Golden Melody Awards
+## L'essor du hip-hop à l'ère du streaming (2015 à aujourd'hui)
 
-**La marginalisation initiale :**
-À leur création, les Golden Melody Awards considéraient le hip-hop comme un genre non mainstream, rarement nommé dans les catégories majeures.
+Avec la diffusion rapide à Taïwan de plateformes de streaming comme KKBOX, Spotify et Apple Music, les modes de circulation du hip-hop connaissent une transformation structurelle : alors qu'ils dépendaient autrefois de la distribution par les maisons de disques et de l'exposition radiophonique, ils reposent désormais sur la distribution algorithmique et la recherche active des auditeurs.[^4]
 
-**Une reconnaissance progressive :**
-Avec l'amélioration de la qualité du hip-hop taïwanais et l'acceptation sociale croissante, les Golden Melody Awards ont commencé à accorder une légitimité à ce genre :
+L'influence des plateformes de streaming apparaît principalement à trois niveaux : les mécanismes de recommandation algorithmique permettent au hip-hop underground de dépasser les limites de la radio traditionnelle et d'être trouvé avec précision par des publics potentiels ; avec la stratégie des singles numériques, l'album n'est plus le seul format de publication, et la mise à jour rapide par singles devient la norme pour maintenir la visibilité des artistes hip-hop ; enfin, les habitudes d'écoute changent, les beats hip-hop courts et denses ayant un avantage sur les plateformes de streaming, car ils correspondent aux usages d'écoute fragmentée.
 
-**Jalons importants :**
+**La pénétration du hip-hop dans les classements annuels de KKBOX :**
+Dans les rapports musicaux annuels publiés par KKBOX, les écoutes de la catégorie hip-hop/rap augmentent continuellement entre 2015 et 2022, passant progressivement d'un goût de niche à une présence chez les auditeurs de toutes générations. MJ116, Soft Lipa, Chunyan et d'autres artistes entrent à plusieurs reprises dans le top 100 annuel général, montrant que le hip-hop n'est plus seulement une subculture, mais fait désormais partie de la consommation dominante.
 
-- **2018** : Leo王 (Leo Wang) remporte le prix du meilleur album en mandarin pour 《無病呻吟》
-- **2019** : Leo王 (Leo Wang) remporte le prix du meilleur artiste masculin en mandarin
-- **2020** : 春艷 (Chunyan) remporte le prix du meilleur parolier pour 《艷遇》
-- **2021** : plusieurs artistes hip-hop nommés dans des catégories majeures
+**L'appui des vidéos courtes au hip-hop :**
 
-### L'ajustement des critères de jugement
+- TikTok, version internationale de Douyin, et YouTube Shorts permettent aux hooks hip-hop de se propager rapidement de manière virale
+- Les Rap Challenges deviennent une forme d'interaction sociale, permettant au grand public de participer à la création
+- Certains chanteurs underground deviennent célèbres du jour au lendemain grâce aux vidéos courtes, en contournant les mécanismes de sélection des maisons de disques traditionnelles
 
-**L'importance accordée à la musicalité :**
-Les jurés des Golden Melody Awards ont commencé à valoriser la musicalité et la qualité créative du hip-hop, au-delà du seul succès commercial :
+## Hip-hop, audiovisuel et documentation
 
-**Évolution des critères d'évaluation :**
+La culture hip-hop taïwanaise entre progressivement dans les récits audiovisuels et devient un objet d'archive et de représentation.[^5]
 
-- Qualité littéraire de l'écriture des paroles
-- Professionnalisme de la production musicale
-- Maîtrise technique du chant
-- Cohérence du concept d'ensemble
-- Évaluation de l'impact culturel
+**Émissions de concours :**
 
-**Reconnaissance de la portée culturelle :**
-Les jurés ont progressivement pris conscience de la place centrale du hip-hop dans la culture taïwanaise et de son influence sur les jeunes générations.
+- **The Rappers** (2021, KKTV/Disney+ Hotstar) : premier grand concours hip-hop local taïwanais, réunissant amateurs et chanteurs connus sur une même scène compétitive ; sa première saison suscite de vastes discussions
+- **The Rappers 2** (2022) : poursuit la voie pluraliste du programme précédent, attentive au rap en taïwanais et au rap en langues autochtones
 
-## L'impact des émissions de télé-crochet hip-hop
+**Formes documentaires :**
 
-### 《中國新說唱》 et les participants taïwanais
+- De grands médias publient progressivement des entretiens approfondis avec des artistes hip-hop, comme les séries de portraits de musiciens de *Mirror Media*, *ELLE* et d'autres publications
+- Des chaînes YouTube comme « Gourmet's Road to Self-Learning » et « Onomatopoeia TW » produisent des dossiers sur la culture hip-hop et documentent l'écologie de la communauté hip-hop taïwanaise
+- Les retransmissions annuelles des Golden Melody Awards offrent chaque année des segments de performance d'artistes hip-hop, devenant des archives historiques
 
-**Des opportunités au-delà du détroit :**
-Les émissions chinoises comme 《中國新說唱》 (The Rap of China) ont offert aux rappeurs taïwanais une scène plus vissante :
+**Passages vers l'audiovisuel :**
 
-**Performances des participants taïwanais :**
+- Des artistes hip-hop comme MJ116 jouent dans des séries télévisées et des publicités, élargissant la connaissance du genre auprès de publics non centraux
+- Les bandes-son hip-hop entrent progressivement dans la publicité commerciale taïwanaise, reflétant l'usage par les marques de l'énergie culturelle du hip-hop
 
-- **派克特 (Pact)** : remarqué pour son style unique dans l'émission
-- **BCW** : a montré la diversité du hip-hop taïwanais
-- **J.Sheon** : un style mêlant R&B et hip-hop
-- Plusieurs musiciens taïwanais ont participé en tant que producteurs
+## Caractéristiques locales du hip-hop taïwanais
 
-**Impact sur les échanges culturels :**
+### Usages innovants des langues
 
-- Diffusion de la culture rap taïwanaise vers le continent
-- Augmentation des collaborations entre musiciens des deux rives
-- Reconnaissance des particularités du rap en mandarin taïwanais
-- Élargissement de la taille du marché
+L'une des grandes caractéristiques du hip-hop taïwanais est son usage pluriel des langues. Les techniques de rap en chinois développent des méthodes innovantes pour accorder les tons aux beats, utilisent les jeux de caractères et les doubles sens, intègrent des références à la littérature classique, mobilisent souplement le langage populaire d'Internet, et citent des expressions propres à Taïwan ainsi qu'un vocabulaire à forte couleur locale.
 
-### L'émergence d'émissions locales
+Le rap en taïwanais conserve quant à lui les traits phonétiques de cette langue, utilise proverbes et expressions idiomatiques taïwanaises, et manifeste la profondeur de la culture locale ; des artistes comme GorDoN établissent une esthétique indépendante du rap taïwanais. Du côté du hakka et des langues autochtones, quelques rappeurs essaient de créer en hakka, tandis que des rappeurs autochtones incorporent des éléments de leurs langues, offrant une expression musicale de la pluralité linguistique, culturelle et identitaire.
 
-**《大嘻哈時代》 (The Rappers) :**
-Des émissions de télé-crochet hip-hop locales ont vu le jour à Taïwan :
+### Attention aux enjeux sociaux
 
-**Caractéristiques de l'émission :**
+Les rappeurs taïwanais abordent fréquemment des questions sociales dans leurs œuvres. Sur les plans politique et social, la participation politique des jeunes, la pression économique et les difficultés professionnelles, la justice résidentielle et le problème des prix de l'immobilier, la protection de l'environnement et le développement durable, l'identité ethnique et la justice transitionnelle, certaines œuvres touchant l'histoire des peuples autochtones, ainsi que la critique des médias et la manipulation de l'information, sont des thèmes courants.
 
-- Mise en valeur des spécificités du rap local taïwanais
-- Usage du taïwanais, du hakka et d'autres langues locales
-- Attention portée aux enjeux sociaux taïwanais
-- Formation d'une nouvelle génération de rappeurs locaux
+Sur le plan de l'identité culturelle, ils discutent de la subjectivité taïwanaise, du dialogue entre cultures venues de l'extérieur et cultures locales, des différences générationnelles et des conflits de valeurs, de la préservation culturelle sous la mondialisation, des politiques linguistiques et du statut du taïwanais, question particulièrement visible dans le contexte du rap en taïwanais, ainsi que de l'appropriation sélective et du refus de certains éléments de la culture hip-hop américaine. Sur le plan du réalisme quotidien, ils décrivent la réalité de la vie urbaine, l'amour et l'amitié chez les jeunes, les relations familiales et l'expression de l'affection, ainsi que la tension entre poursuite des rêves et compromis avec la réalité.
 
-**Impact social :**
+### Fusion et innovation des styles musicaux
 
-- Augmentation de l'acceptation du hip-hop par le grand public
-- Découverte de nouveaux talents
-- Construction d'une chaîne industrielle hip-hop plus complète
-- Démocratisation de la culture hip-hop
+Les artistes hip-hop taïwanais explorent activement les collaborations transversales. Dans la fusion avec la musique électronique, l'association de beats EDM et de rap, les essais en dubstep et trap, l'utilisation des techniques de production électronique et l'influence de la culture des clubs sont des directions fréquentes. Les éléments de musique traditionnelle incluent l'échantillonnage d'instruments classiques, l'intégration d'éléments d'opéra traditionnel, l'influence du folk et des musiques autochtones, ainsi que l'expression musicale d'une esthétique orientale. Dans la commercialisation par la pop, les collaborations avec des chanteurs pop dominants, une orientation créative plus mélodique, les chansons publicitaires et les musiques pour l'audiovisuel, ainsi que les usages musicaux transmédiatiques sont déjà devenus des pratiques courantes.
 
-## Les spécificités de la localisation du hip-hop taïwanais
+## Musiciens et œuvres importants
 
-### L'innovation dans l'usage des langues
+### Première génération de pionniers
 
-**Le multilinguisme :**
-L'une des grandes caractéristiques du hip-hop taïwanais est la diversité linguistique :
+La première génération du rap taïwanais a pour mission de franchir les obstacles linguistiques et d'établir un style local. **Dwagie**, avec *Human* et *Taike*, construit le fond critique du rap taïwanais ; ses paroles disent à la scène que l'ancrage dans le réel n'est pas un défaut, mais un étendard. **MC HotDog** prend en charge l'autre versant, celui de la commercialisation : *Korean Wave Is Coming* fait apparaître pour la première fois le hip-hop dans les discussions des médias dominants, poussant les maisons de disques à comprendre que ce marché mérite des investissements. **Le label MACHI** construit dans l'underground des bases industrielles, incube plusieurs musiciens ensuite devenus connus et établit la place de l'« esthétique locale » dans le hip-hop taïwanais.
 
-**Techniques de rap en mandarin :**
+### Deuxième génération d'innovateurs
 
-- Méthodes innovantes pour adapter les tons au rythme
-- Jeux de mots et doubles sens
-- Intégration de références littéraires classiques
-- Usage agile de l'argot internet
+La deuxième génération se développe simultanément sur les voies commerciale et artistique. **Soft Lipa**, avec des œuvres comme *The Unknown Internal Renovation of Du Chen-hsi*, entraîne le rap vers la philosophie et la littérature ; ses paroles recherchent la précision des images plutôt que l'impact spectaculaire des rimes. **MJ116** suit une autre voie : *Fresh Game* et *9PM* emballent le hip-hop comme un produit pop que tout le monde peut aimer ; concerts vendus en quelques instants, contrats d'ambassadeurs partout, ils font passer ce genre de la subculture au système du divertissement dominant. **GorDoN**, avec *Gan Da Shi* et *Dao Zhen Lai*, maintient la direction du rap en taïwanais, faisant des langues locales non plus un simple ornement dans la scène hip-hop, mais une voie créative indépendante.
 
-**Le développement du rap en taïwanais :**
+### Troisième génération d'expérimentateurs
 
-- Techniques préservant les particularités phonologiques du taïwanais
-- Usage de proverbes et expressions idiomatiques taïwanaises
-- Expression d'une culture locale enracinée
-
-**Le hakka et les langues autochtones :**
-
-- Quelques rappeurs ont tenté de créer en hakka
-- Des rappeurs autochtones intègrent des éléments de leur langue maternelle
-- Présentation d'une culture multilingue
-- Expression musicale de l'identité ethnique
-
-### L'attention portée aux enjeux sociaux
-
-**Le reflet des réalités sociales taïwanaises :**
-Les rappeurs taïwanais abordent fréquemment des questions sociales dans leurs œuvres :
-
-**Enjeux politiques et sociaux :**
-
-- Engagement politique et préoccupations sociales de la jeunesse
-- Pression économique et difficultés professionnelles
-- Justice du logement et crise immobilière
-- Protection de l'environnement et développement durable
-
-**Identité culturelle :**
-
-- Débats sur la subjectivité taïwanaise
-- Dialogue entre cultures étrangères et culture locale
-- Conflits générationnels et de valeurs
-- Préservation culturelle dans la mondialisation
-
-**Réalisme du quotidien :**
-
-- Description fidèle de la vie urbaine
-- Amour et amitié chez les jeunes
-- Relations familiales et expression de l'affection
-- Quête de compromis entre rêves et réalité
-
-### L'innovation par la fusion des styles musicaux
-
-**Les croisements avec d'autres genres :**
-Les artistes hip-hop taïwanais explorent activement les collaborations intergenres :
-
-**Fusion avec la musique électronique :**
-
-- Combinaison de beats EDM et de rap
-- Expérimentations dubstep et trap
-- Usage des techniques de production électro
-- Influence de la culture clubbing
-
-**Éléments de musique traditionnelle :**
-
-- Échantillonnage d'instruments classiques
-- Intégration d'éléments d'opéra traditionnel
-- Influence du folk et de la musique autochtone
-- Expression musicale d'une esthétique orientale
-
-**La commercialisation par la pop :**
-
-- Collaborations avec des artistes pop grand public
-- Orientations créatives plus mélodiques
-- Chansons publicitaires et bandes originales
-- Applications musicales transmédia
-
-## Artistes et œuvres marquants
-
-### La première génération de pionniers
-
-**大支 (Dwagie) :**
-
-- L'un des fondateurs majeurs du rap taïwanais
-- Œuvres majeures : 《人》, 《台客》
-- Influence : établissement du style fondamental du rap taïwanais
-
-**熱狗 (MC HotDog) :**
-
-- L'archétype du succès commercial
-- Œuvres majeures : 《韓流來襲》, 《我的生活》
-- Influence : introduction du hip-hop taïwanais dans le paysage grand public
-
-**MACHI :**
-
-- Promoteur essentiel de la culture hip-hop underground
-- A formé de nombreux rappeurs renommés
-- Influence : construction des bases industrielles du hip-hop taïwanais
-
-### La deuxième génération d'innovateurs
-
-**蛋堡 (Soft Lipa) :**
-
-- Figure de proue du rap littéraire
-- Œuvre majeure : 《你所不知道的杜振熙之內部整修》
-- Influence : élévation du niveau artistique du rap taïwanais
-
-**頑童MJ116 (MJ116) :**
-
-- Le groupe hip-hop au plus grand succès commercial
-- Œuvres majeures : 《Fresh Game》, 《9PM》
-- Influence : propulsion du hip-hop taïwanais vers le marché commercial grand public
-
-**國蛋 (GorDoN) :**
-
-- Figure majeure du rap en taïwanais
-- Œuvres majeures : 《幹大事》, 《到陣來》
-- Influence : promotion du développement du rap en taïwanais
-
-### La troisième génération d'expérimentateurs
-
-**Leo王 (Leo Wang) :**
-
-- Chef de file de la musique expérimentale
-- Œuvres majeures : 《無病呻吟》, 《小丑》
-- Influence : obtention de la reconnaissance aux Golden Melody Awards, élévation du statut artistique du hip-hop
-
-**ØZI :**
-
-- Nouvelle génération à vision internationale
-- Œuvre majeure : album 《B.O.》
-- Influence : connexion entre le hip-hop taïwanais et la scène internationale
-
-**J.Sheon :**
-
-- Archétype de la fusion R&B et hip-hop
-- Œuvres majeures : 《街頭》, 《輸情歌》
-- Influence : ouverture de nouvelles possibilités de fusion entre genres musicaux
+L'axe principal de la troisième génération est de briser les frontières établies par les deux précédentes. **Leo Wang**, avec *Wubing Shenyin* et *Clown*, accomplit la reconnaissance du hip-hop dans le système des Golden Melody Awards ; le prix du meilleur chanteur mandarin en 2019 constitue une déclaration officielle du jury sur l'artisticité du hip-hop. **ØZI**, avec l'album *B.O.*, établit pour le hip-hop taïwanais un contexte international lisible, permettant à ses œuvres de dialoguer avec le milieu hip-hop anglophone. **J.Sheon** introduit la mélodicité du R&B dans la structure du rap ; *Street* et *Lose to Love Songs* ouvrent une porte aux auditeurs qui trouvent le hip-hop pur trop dur.
 
 ## Développement industriel et perspectives d'avenir
 
-**La professionnalisation de la chaîne de production :**
+### Consolidation de la chaîne industrielle musicale
 
-- Augmentation du nombre de studios d'enregistrement professionnels
-- Formation de talents en production musicale
-- Amélioration du niveau technique du mixage
-- Augmentation des opportunités de coopération internationale
+La chaîne industrielle du hip-hop taïwanais devient plus mature après les années 2010. Côté production, l'amélioration du niveau des studios professionnels et des techniques de mixage permet à la qualité de production locale taïwanaise de se rapprocher des standards internationaux ; l'augmentation des collaborations internationales offre également aux producteurs et musiciens des échanges techniques plus larges. Côté promotion, les plateformes musicales numériques remplacent la radio traditionnelle comme canaux centraux, les réseaux sociaux et les performances en festival avancent en parallèle, et les collaborations transversales deviennent une pratique standard pour maintenir la visibilité. Dans le modèle économique, les recettes de concerts, les contrats d'ambassadeurs, les licences de droits et les musiques pour l'audiovisuel composent ensemble une structure de revenus diversifiée, permettant aux musiciens de ne plus vivre seulement des ventes de disques.
 
-**La diversification de la promotion et de la distribution :**
+### Possibilités d'internationalisation
 
-- Importance des plateformes de musique numérique
-- Stratégies de marketing sur les réseaux sociaux
-- Opportunités de concerts en festivals
-- Promotion par collaborations intergenres
+L'internationalisation du hip-hop taïwanais suit deux voies. La première passe par le marché sinophone, Chine continentale, communautés chinoises d'Asie du Sud-Est et diaspora d'outre-mer, où les traits linguistiques du rap taïwanais deviennent un avantage différenciant. La seconde suit une route anglophone ou bilingue, en se connectant directement au milieu hip-hop anglophone ; ØZI représente la possibilité de cette direction. Sur le plan culturel, le hip-hop taïwanais est aussi une forme d'exportation : mélange de plusieurs langues, conscience critique locale, liberté d'expression d'une société démocratique, autant d'attributs qui possèdent une lisibilité propre dans la scène hip-hop mondiale.
 
-**L'innovation des modèles économiques :**
+### Défis et occasions
 
-- Recettes des billetteries de concerts
-- Endorsements et licences de produits
-- Gestion des droits d'auteur musicaux
-- Marché des bandes originales audiovisuelles
+L'ère du streaming rend la diffusion du hip-hop plus facile, mais la dilution du partage des revenus liés aux droits comprime aussi les gains des musiciens. La culture des vidéos courtes fragmente encore davantage l'attention : comment faire écouter une œuvre de rap complète jusqu'au bout à l'ère algorithmique est une question à laquelle chaque créateur réfléchit. La pression concurrentielle des musiques internationales, en particulier la K-pop et le hip-hop occidental, continue de réduire l'espace de marché de la musique locale. De l'autre côté, les applications technologiques et les collaborations transnationales apportent de nouvelles possibilités, tandis que le soutien des politiques en faveur des industries culturelles et créatives se met progressivement en place. Le hip-hop taïwanais cherche sa position dans cette tension.
 
-### Les possibilités d'internationalisation
+Le hip-hop et le rap taïwanais ont parcouru un chemin allant de l'underground au courant dominant, de l'imitation à l'innovation. Ce processus n'est pas seulement l'évolution d'un style musical ; il est aussi le résultat d'une négociation continue entre langue, identité et critique sociale sur une même plateforme. Dwagie choisit de dire la vérité par les grossièretés, Leo Wang choisit de subvertir les formes par l'expérimentation, MJ116 choisit d'ouvrir le marché par l'humour : chaque génération de musiciens a une réponse différente à la question de savoir ce que devrait être le « hip-hop taïwanais », et cette différence constitue précisément la partie la plus vivante de cette scène.
 
-**L'expansion du marché sinophone :**
+Il est un vecteur important de l'expression culturelle et de l'identification des jeunes générations taïwanaises, et il enregistre aussi la manière dont une génération raconte, par les beats et les rimes, les histoires appartenant à cette île.
 
-- Opportunités sur le marché continental chinois
-- Marché des communautés d'Asie du Sud-Est
-- Communautés chinoises d'outre-mer
-- Influence de la sphère culturelle sinophone
+À mesure que de plus en plus d'excellents musiciens s'engagent dans la création, l'avenir du hip-hop taïwanais est plein de possibilités. Dans l'innovation artistique, le succès commercial ou l'influence culturelle, le hip-hop taïwanais peut encore accumuler davantage de poids dans la cartographie de la musique sinophone et devenir une nouvelle force d'exportation culturelle de Taïwan.
 
-**La valeur de l'exportation culturelle :**
+## Lectures complémentaires
 
-- Démonstration du soft power culturel taïwanais
-- Diffusion de valeurs pluralistes
-- Incarnation de l'esprit de liberté démocratique
-- Compétitivité internationale des industries créatives
-
-### Défis et opportunités
-
-**Défis commerciaux :**
-
-- Revenus des droits d'auteur à l'ère du streaming
-- Impact de la culture des vidéos courtes sur la musique longue
-- Pression concurrentielle de la musique internationale
-- Évolution rapide des goûts des jeunes auditeurs
-
-**Défis culturels :**
-
-- Équilibre entre spécificité locale et internationalisation
-- Arbitrage entre commercialité et artisticité
-- Transmission intergénérationnelle et innovation
-- Développement inclusif d'une culture plurielle
-
-**Opportunités futures :**
-
-- Nouvelles possibilités offertes par la technologie
-- Augmentation des coopérations transnationales
-- Opportunités des nouvelles plateformes médiatiques
-- Soutien politique aux industries culturelles et créatives
-
-Le hip-hop et le rap taïwanais sont passés de la marge au mainstream, de l'imitation à l'innovation, illustrant la trajectoire singulière de ce genre musical sur l'île. Il ne s'agit pas seulement de l'évolution d'une forme musicale, mais aussi d'un vecteur essentiel d'expression culturelle et d'identité pour les jeunes générations taïwanaises.
-
-Avec un nombre croissant d'artistes talentueux qui se consacrent à la création, l'avenir du hip-hop taïwanais est riche de possibilités. Que ce soit en matière d'innovation artistique, de succès commercial ou d'influence culturelle, le hip-hop taïwanais est en passe de conquérir une place encore plus importante dans le paysage musical sinophone, devenant une nouvelle force d'exportation culturelle pour Taïwan.
+- [StreetVoice — espace des artistes hip-hop taïwanais](https://streetvoice.tw/)
+- [KKBOX Music News — dossiers hip-hop et rap](https://www.kkbox.com/)
+- [Chaîne officielle de *The Rappers* (Disney+ Hotstar)](https://www.disneyplus.com/)
 
 ## Références
 
-- [Site officiel des Golden Melody Awards](https://gma.tavis.tw/)
-- [StreetVoice 街聲](https://streetvoice.tw/)
-- [KKBOX 音樂情報](https://www.kkbox.com/)
-- [博客來音樂館](https://www.books.com.tw/web/music/)
-- [台灣嘻哈文化發展研究](https://www.academia.edu/)
-- [風傳媒音樂報導](https://www.storm.mg/category/117)
-- Site officiel de MACHI DOGGO
-- Réseaux sociaux officiels de 頑童MJ116 (MJ116)
+[^1]: [Liste officielle des lauréats des Golden Melody Awards (30e édition)](https://gma.tavis.tw/) — Leo Wang (Wang Chi-yao) a été nommé avec *Wubing Shenyin* et a remporté en 2019 le prix du meilleur chanteur mandarin pour sa performance scénique
+[^2]: [StreetVoice](https://streetvoice.tw/) — archives complètes des artistes hip-hop taïwanais, avec des présentations de Dwagie, MC HotDog, MJ116, Soft Lipa et d'autres, ainsi que l'histoire du label MACHI
+[^3]: [Reportages musicaux de Storm Media](https://www.storm.mg/category/117) — analyses des paroles socialement critiques de Dwagie et reportages sur la culture hip-hop taïwanaise
+[^4]: [KKBOX Music News](https://www.kkbox.com/) — données d'écoute du hip-hop taïwanais à l'ère du streaming et rapports de classements annuels
+[^5]: [Espace musique de Books.com.tw](https://www.books.com.tw/web/music/) — registres de ventes de disques physiques et de produits audiovisuels liés au hip-hop taïwanais
+[^6]: [Articles de recherche sur le hip-hop taïwanais sur Academia.edu](https://www.academia.edu/) — rassemble des travaux universitaires liés au développement de la culture hip-hop taïwanaise
+[^7]: [Instagram officiel de MJ116 @mj116_tpc](https://www.instagram.com/mj116_tpc/) — réseau social officiel, informations de concerts et archives de collaborations commerciales ; voir aussi [Facebook](https://www.facebook.com/mj116tpc/)

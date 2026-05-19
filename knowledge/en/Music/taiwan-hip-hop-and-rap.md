@@ -1,478 +1,249 @@
 ---
-title: "The Development of Hip-Hop and Rap in Taiwan"
-description: "From Dwagie and MC HotDog to MJ116, Soft Lipa, and Leo Wang — the localization of Taiwanese hip-hop culture and its recognition at the Golden Melody Awards"
-date: 2026-03-19
-author: "Taiwan.md"
-category: "Music"
-subcategory: "獨立與搖滾"
-tags: ["音樂", "嘻哈", "饒舌", "Hip-Hop", "Rap", "金曲獎", "流行音樂"]
+title: 'Development of Taiwan Hip-Hop and Rap'
+description: "From Dwagie and MC HotDog to MJ116, Soft Lipa, and Leo Wang: the localization of Taiwan hip-hop culture and its recognition by the Golden Melody Awards"
+date: '2026-03-19'
+author: 'Taiwan.md'
+category: 'Music'
+subcategory: '獨立與搖滾'
+tags: ['Music', 'Hip-Hop', 'Rap', 'Hip-Hop', 'Rap', 'Golden Melody Awards', 'Popular Music']
 readingTime: 9
-lastVerified: 2026-03-19
+lastVerified: '2026-03-19'
 lastHumanReview: true
 featured: true
-translatedFrom: "Music/台灣嘻哈與饒舌發展.md"
-sourceCommitSha: "f712b7242"
-sourceContentHash: "sha256:652bfc67516391eb"
-sourceBodyHash: "sha256:335c25f53e239997"
-translatedAt: "2026-05-17T05:34:48+08:00"
+translatedFrom: 'Music/台灣嘻哈與饒舌發展.md'
+sourceCommitSha: '0f8fae0ae'
+sourceContentHash: 'sha256:e11c21a45fe57f10'
+sourceBodyHash: 'sha256:a49d6f675166d3c1'
+translatedAt: '2026-05-20T05:08:27+08:00'
 ---
 
-# The Development of Hip-Hop and Rap in Taiwan
+# Development of Taiwan Hip-Hop and Rap
 
-> **30-Second Overview:** Taiwanese hip-hop began in the late 1990s with the underground work of Dwagie and MC HotDog, went through the community-building of the MACHI label, the commercial breakthrough of MJ116, the literary turn of Soft Lipa, and culminated in Leo Wang winning the Golden Melody Award for Best Mandarin Male Vocalist in 2019 — marking hip-hop's formal entry into the mainstream. Hokkien, Hakka, and Indigenous-language rap developed in parallel, while talent shows like *The Rappers* further drove popularization.
+> **30-second overview:** Taiwan hip-hop began with the underground work of Dwagie and MC HotDog in the late 1990s, then moved through MACHI's label-based community building, MJ116's commercial breakthrough, Soft Lipa's literary turn, and Leo Wang's 2019 Golden Melody Award for Best Mandarin Male Singer. Hip-hop formally entered the mainstream as an established genre. Rap in Taiwanese Hokkien, Hakka, and Indigenous languages developed in parallel, while talent shows such as *The Rappers* further advanced its popularization.
 
-When the first Chinese rap beat sounded in Taiwan, no one imagined that this musical form born on American streets would take root on this island and blossom into something with a distinctly Taiwanese flavor. From the pioneering experiments of Dwagie and MC HotDog in the late 1990s, to the commercial success of MJ116 in the 2010s, to the artistic breakthroughs of a new generation including Soft Lipa and Leo Wang, Taiwanese hip-hop has not only found its own voice but also secured an important place on the map of Chinese-language music.
+When the first Chinese-language rap beat sounded in Taiwan, no one imagined that this musical form from the streets of the United States would take root on the island and develop a distinctive Taiwanese flavor. From the pioneering experiments of Dwagie and MC HotDog in the late 1990s, to MJ116's commercial success in the 2010s, and then to the artistic breakthroughs of a new generation represented by Soft Lipa and Leo Wang, Taiwan hip-hop not only found its own voice but also secured an important position on the map of Mandarin-language music.
 
-The trajectory of Taiwanese hip-hop is both a story of musical transplantation and localization, and a process through which younger generations of Taiwanese sought identity and channels of expression. From initially emulating American templates to later weaving in Taiwan's languages, culture, and social issues, Taiwanese rappers have used beats and rhymes to tell stories unique to this island.
+The development of Taiwan hip-hop has been both a process of genre transplantation and localization, and a process through which younger generations in Taiwan searched for identity and channels of expression. From initial imitation of American models to later integration with Taiwan's languages, culture, and social issues, Taiwan rappers have used beats and rhyme to tell stories that belong specifically to this island.
 
-## Origins and Early Development
+## Origins and Early Development of Taiwan Hip-Hop
 
-### The Late 1990s: The Pioneer Era
+### Late 1990s: The Pioneer Era
 
-**The Introduction of Hip-Hop:**
-In the late 1990s, as the internet became widespread and MTV culture spread, American hip-hop began circulating among young people in Taiwan. Through cable TV and imported CDs, they encountered the work of American rap icons such as Tupac, Notorious B.I.G., and Dr. Dre.
+**The introduction of hip-hop music:**
+In the late 1990s, as the internet became more widespread and MTV culture circulated, American hip-hop music began to spread among young people in Taiwan. Through cable television and imported CDs, young listeners encountered the work of American rap superstars such as Tupac, the Notorious B.I.G., and Dr. Dre.
 
-**The Language Challenge and Breakthrough:**
-The initial problem was language: hip-hop relies heavily on rhythmic feel and wordplay, and the tonal nature of Chinese is fundamentally different from English. Early hip-hop enthusiasts had to figure out how to make Chinese fit hip-hop's beats and rhyme schemes.
+**The challenge and breakthrough of language:**
+The initial problem was language: hip-hop music depends heavily on linguistic rhythm and wordplay, while Chinese tonal features differ sharply from English. Early hip-hop enthusiasts had to explore how Chinese could adapt to hip-hop's rules of beat and rhyme.
 
-**Dwagie: Pioneer of Taiwanese Rap:**
-Dwagie (notable works: *People*, *Taiwanese*) is widely recognized as the pioneer of Taiwanese rap. He was among the first to attempt rap in Chinese and did not shy away from using Hokkien and profanity, establishing a "down-to-earth" tone for later Taiwanese rap.
+**Dwagie: a pioneer of Taiwan rap:**
+Dwagie, known for works such as "People" and "Taike," is widely recognized as a pioneer of Taiwan rap. He was among the earliest artists to attempt rap composition in Chinese, and he did not avoid using Taiwanese Hokkien or profanity, establishing a grounded tone for later Taiwan rap.
 
-**Early Characteristics:**
+Early characteristics centered on a learning stage of "from imitation to localization": imitation of American West Coast styles, extensive code-mixing between English and Chinese, themes focused on street culture and young people's rebellious attitudes, relatively rough production standards mainly associated with underground creation, street status determined by freestyle ability with very few formal record releases, and lyrics that often used profanity and direct language as markers of authenticity.
 
-- Imitation of American West Coast style
-- Heavy mixing of English and Chinese
-- Themes centered on street culture and youthful rebellion
-- Relatively rudimentary production quality, mostly underground work
-- Freestyle ability determined street credibility; very few released formal records
-- Lyrics often used profanity and blunt language as markers of authenticity
+The fundamental difference between the Chinese tonal system and English forced early Taiwan rappers to develop distinctive rhyme strategies. English rap relies on final-syllable rhyme, whereas the four tones of Chinese each have their own rules, and straightforward copying of English techniques often sounded stiff. The solution developed by pioneers such as Dwagie was to deliberately embrace "flaws": Taiwanese Hokkien accents, imperfect rhymes, and code-mixing with inserted English words were transformed into recognizable features of Taiwan hip-hop, rather than treated as failures to imitate authentic American pronunciation. At the time, this choice looked like a compromise, but it later became one of Taiwan hip-hop's most important local characteristics.
 
-**The Language Dilemma and Breakthrough Strategies:**
-The fundamental differences between the Chinese tonal system and English meant that early Taiwanese rappers had to develop unique rhyme strategies. English rap relies on end-syllable rhyming, while the four tones of Mandarin each follow their own rules — simply copying English techniques often felt stiff. The solution that pioneers like Dwagie arrived at was to deliberately embrace "imperfection": turning Hokkien accents, imperfect rhymes, and code-switching between Chinese and English into defining features of Taiwanese hip-hop, rather than trying to mimic authentic American pronunciation. What seemed like a compromise at the time later became Taiwanese hip-hop's most important local characteristic.
+### Early 2000s: The Rise of Underground Culture
 
-### The Early 2000s: The Rise of Underground Culture
+In the early 2000s, an underground hip-hop cultural scene began to form in Taiwan. Important gathering places included Legacy Taipei, an underground music venue; The Wall, a hub for alternative music; LUXY, where nightclub culture intersected with hip-hop; street graffiti spots in Ximending and Xinyi District; and low-cost recording studios converted from private basements in Taipei, where many early records were made.
 
-**The Underground Music Scene:**
-In the early 2000s, an underground hip-hop community began to take shape in Taiwan:
+Freestyle culture also took shape during this period. Battle competitions began to appear, and improvisational rap contests and exchanges of technique among MCs formed the core of hip-hop community formation. Underground Beat Markets, where producers exchanged beats, became informal music marketplaces. Winners and losers were determined in real time by audience votes or cheers, with no judges and no formal rules. Battle culture established the early Taiwan hip-hop scene's system of reputation and discursive hierarchy.
 
-**Key Gathering Places:**
+The four elements of American hip-hop, MC/Rap, DJ, Breaking, and Graffiti, gradually took root in Taiwan. **MC/Rap** followed a path of developing Chinese-language rap techniques and establishing local rhyme systems. **DJ** culture merged with electronic music and nightclub scenes, with partial overlap between Taiwan's DJ and hip-hop circles. **Breaking** became popular on campuses and in the streets, and was the first element to enter mainstream visibility. **Graffiti** appeared in urban spaces, with the Ximending area becoming a gathering point. Some people within the scene defined the "fifth element," **Knowledge**, as self-understanding and community consciousness at the spiritual level.
 
-- **Legacy Taipei**: An important underground music venue
-- **The Wall**: A hub for alternative music
-- **LUXY**: Where nightclub culture met hip-hop
-- **Graffiti spots**: Street art culture in areas like Xinyi District and Ximending
-- **Underground studios**: Low-cost recording spaces converted from private basements in Taipei, where early records were born
+### The MACHI Label and Taiwan's Underground Hip-Hop Scene
 
-**Freestyle Culture:**
+MACHI, in its early period also known as Lao Da Ge and Bing Kuai, was one of Taiwan's earliest organized hip-hop labels and played a crucial incubating role in the underground hip-hop scene of the early 2000s.[^2]
 
-- Battle competitions began to emerge
-- Contests of improvisational rap skill
-- Artistic sparring between MCs
-- The core around which hip-hop communities formed
-- Underground beat markets: producers traded beats, forming informal music bazaars
-- Winners were determined by real-time audience voting or cheering — no judges, no rules
-- Battle culture established the early Taiwanese hip-hop scene's reputation system and hierarchy of discourse
+The label's membership was clear: Dwagie was a core member responsible for lyrics and community connections; Xiao Gui was known for smooth rhymes and a sense of humor; Benz, born Chang Che-ming, handled beat production and was the label's early sound designer; and Kid specialized in Taiwanese Hokkien rap, laying the foundation for a Taiwanese-language hip-hop direction.
 
-**Localization of the Four Elements:**
-The four elements of American hip-hop (MC/Rap, DJ, Breaking, Graffiti) gradually took root in Taiwan:
+The label's influence moved in five directions: it established a "taike" aesthetic for Taiwan hip-hop, embracing rather than evading local identity; early albums circulated through underground markets, creating a word-of-mouth model of dissemination; it cultivated the early creative habits of several later well-known rappers; it established critical content as a core value of Taiwan hip-hop, influencing an entire generation of creators; and it affirmed the legitimacy of Taiwanese Hokkien in hip-hop composition, so that later artists no longer treated "speaking Taiwanese" as a choice requiring defense.
 
-- **MC/Rap**: Development of Chinese rap techniques, establishment of a local rhyme system
-- **DJ**: Electronic music culture merged with the nightclub scene; Taiwan's DJ and hip-hop circles partially overlapped
-- **Breaking**: Street dance culture spread through campuses and streets, becoming the first element to enter mainstream view
-- **Graffiti**: Urban graffiti art appeared in public spaces, with the Ximending area becoming a gathering point
-- **Knowledge**: Some in the community defined a "fifth element" as self-awareness and community consciousness on a spiritual level
-
-### The MACHI Label and the Taiwanese Hip-Hop Underground
-
-MACHI (also known in its early days as Big Brother and Ice) was one of Taiwan's earliest organized hip-hop labels, playing a crucial incubation role in the underground hip-hop scene of the early 2000s.[^2]
-
-**Label Members and Development:**
-
-- **Dwagie**: Core member, responsible for lyrics and community connections
-- **Xiao Gui**: Known for smooth rhymes and humor
-- **Benz** (real name: Zhang Zheming): Handled beat production, the label's early sound designer
-- **Kid**: Skilled in Hokkien rap, laid the groundwork for the Hokkien hip-hop path
-
-**Label Influence:**
-
-- Established the "Taiwanese" (*Tai-ke*) aesthetic in Taiwanese hip-hop — embracing rather than avoiding local identity
-- Early albums circulated through underground markets, spreading by word of mouth
-- Cultivated the early creative habits of many later well-known rappers
-- Established "content with critical substance" as a core value of Taiwanese hip-hop, influencing an entire generation of creators
-- Legitimized Hokkien in hip-hop creation, so that later artists no longer saw "speaking Taiwanese" as a choice requiring justification
-
-Although the MACHI label's underground period rarely had precise sales figures, its legendary status within the hip-hop community is real: early cassette tapes and CDs circulated through informal channels, forming an oral tradition in Taiwanese hip-hop history. This non-commercial mode of distribution actually gave MACHI's music an irreplicable sense of "rawness."
+Although the underground period of the MACHI label rarely left precise sales figures, its legendary status within the hip-hop community undeniably exists. Early cassette and CD recordings circulated through informal channels, forming part of the oral tradition of Taiwan hip-hop history. This non-commercial mode of circulation gave MACHI's music a rawness that was difficult to reproduce.
 
 ## Commercial Breakthrough and Mainstreaming
 
-### The Mid-2000s: MC HotDog's Commercial Success
+### Mid-2000s: MC HotDog's Commercial Success
 
-**MC HotDog:**
-MC HotDog's emergence marked a commercial turning point for Taiwanese hip-hop:
+The emergence of MC HotDog marked a commercial turning point for Taiwan hip-hop. Representative works include "The Korean Wave Is Coming" (2007), which satirized the social phenomenon of Korean Wave culture; "My Life," which described the everyday predicaments of young people in Taiwan; and "Mr. Almost," which criticized the complacent mentality of Taiwanese society.
 
-**Representative Works:**
+Musically, MC HotDog used extensive mixing of Taiwanese Hokkien and Chinese, wrote lyrics that directly reflected Taiwanese social realities, employed stronger melodic elements that were easier for the public to accept, and worked with the production standards of mainstream record companies. He also deliberately reduced his attachment to a "hardcore" hip-hop image, making his songs more accessible to general listeners. His success brought Taiwan hip-hop into mainstream media visibility for the first time and made record companies begin to notice the genre's commercial potential.
 
-- *Korean Wave Invasion* (2007): A satirical take on the Korean Wave cultural phenomenon
-- *My Life*: Describing the everyday struggles of young Taiwanese
-- *Mr. Almost*: Critiquing Taiwan's culture of complacency and "good enough" attitudes
+### Record Company Investment and Industrialization
 
-**Musical Characteristics:**
+Mainstream record companies began to invest: Rock Records signed some rappers and provided production resources; HIM International Music invested in hip-hop production to expand its market territory; B'in Music supported alternative music creation and gave artists a degree of artistic freedom. At the same time, independent labels devoted specifically to hip-hop music, such as the later Bace Camp, also began to emerge.
 
-- Heavy mixing of Hokkien and Chinese
-- Lyrics directly reflecting Taiwanese social reality
-- Strong melodic accessibility, easily accepted by mainstream audiences
-- Production quality backed by a major record label
-- Deliberately lowered the attachment to hip-hop's "hardcore" image, making songs more accessible to general listeners
+Production standards rose accordingly: professional recording equipment was introduced, international-level mixing engineers participated, music video production budgets increased, promotion and marketing methods modernized, and overseas licensing and collaboration opportunities began to appear. On the media exposure side, television music programs began to play Taiwan rap songs, internet platforms became important distribution channels, music festivals invited rappers to perform, cross-genre collaboration opportunities increased, and the advertising endorsement market gradually opened to hip-hop musicians.
 
-**Social Impact:**
-MC HotDog's success brought Taiwanese hip-hop into mainstream media view for the first time and made record companies aware of the genre's commercial potential.
-
-### Record Label Investment and Industrialization
-
-**Major Label Participation:**
-
-- **Rock Records**: Signed select rappers, providing production resources
-- **HIM International Music**: Invested in hip-hop production, expanding market reach
-- **BinMusic**: Supported alternative music creation, granting artistic freedom
-- **Independent labels**: Small companies specializing in hip-hop emerged, such as the later Bace Camp
-
-**Improved Production Quality:**
-
-- Investment in professional recording equipment
-- Participation of internationally recognized mixers
-- Increased music video production budgets
-- Modernized promotional and marketing strategies
-- Overseas licensing and collaboration opportunities began to appear
-
-**Increased Media Exposure:**
-
-- Television music programs began playing Taiwanese rap songs
-- Online platforms became important distribution channels
-- Music festivals invited rappers to perform
-- Cross-disciplinary collaboration opportunities increased
-- The advertising endorsement market gradually opened up to hip-hop artists
-
-## Innovation and Breakthroughs of a New Generation
+## Innovation and Breakthroughs by a New Generation
 
 ### The 2010s: Diversified Development
 
-**The Popularization of MJ116:**
-MJ116 (members: E.SO, Kenzy, Muta) became the most successful commercial group in Taiwanese hip-hop history:
+MJ116, whose members are E.SO, Kenzy, and Muta, became the most commercially successful group in Taiwan hip-hop history. Their musical style fused pop elements with hip-hop beats, their humorous lyrics stayed close to young people's lives, they made extensive use of internet slang and topical references, and they frequently collaborated across genres with pop singers. Representative works include *Fresh Game*, an important work that established the group's style; "9PM," a pop hit made in collaboration with Chunyan; and "Champagne," which describes nightlife culture.
 
-**Musical Style:**
+In terms of commercial achievements, their concert tickets repeatedly sold out immediately, their endorsements covered a wide range of brands, they participated extensively in film and television projects, and their social media influence was enormous. Through cross-disciplinary entertainment work built on a hip-hop foundation, they broke down the boundary between musician and entertainer.
 
-- Blending pop elements with hip-hop beats
-- Humorous, witty lyrics close to young people's lives
-- Heavy use of internet slang and current-event references
-- Cross-disciplinary collaborations with pop singers
+### The Rise of Indie-Literary Rap
 
-**Representative Works:**
-
-- *Fresh Game*: An important work that established the group's style
-- *9PM*: A pop hit in collaboration with Chunyan
-- *Champagne*: A representative work depicting nightlife culture
-
-**Commercial Achievements:**
-
-- Concert tickets repeatedly sold out within seconds
-- Endorsements spanning a wide range of brands
-- High-profile involvement in film and television
-- Massive social media influence
-- Cross-disciplinary entertainment careers built on hip-hop, blurring the line between musician and entertainer
-
-### The Rise of Indie Rap
-
-**Soft Lipa's Literary Rap:**
-Soft Lipa represents another dimension of Taiwanese rap — literariness and introspection:
-
-**Musical Characteristics:**
-
-- Lyrics with poetic and philosophical qualities
-- Relatively slow beats, suited to expressing complex emotions
-- Extensive use of metaphor and imagery
-- Focus on the inner world of the individual and social observation
-- Rejecting simple "down-to-earth" slogans in favor of aesthetic experimentation with language itself
-
-**Representative Works:**
-
-- *The Internal Renovation of Du Zhen-Xi That You Don't Know About*: A classic work of self-analysis
-- *Aftershave*: Delicate emotional description
-- *The Process*: A musical expression of life philosophy
-
-**Cultural Impact:**
-Soft Lipa's success proved that Taiwanese rap could carry the artistic pursuits of the intellectual class without necessarily being tied to a street-culture framework.
+Soft Lipa represents another side of Taiwan rap: literariness and introspection. His lyrics are poetic and philosophically reflective, his beats are relatively slow and suited to expressing complex emotions, he makes extensive use of metaphor and imagery, he focuses on the individual's inner world and social observation, and he rejects simple slogans of being "grounded," turning instead toward aesthetic experimentation with language itself. Representative works include *The Unknown Interior Renovation of Tu Chen-hsi*, a classic of self-analysis; "Astringent Lotion," a delicate description of feeling; and "Process," a musical expression of life philosophy. Soft Lipa's success proved that Taiwan rap could carry intellectual artistic pursuits without necessarily depending on the framework of street culture.
 
 ### Leo Wang's Experimental Breakthrough
 
-**Leo Wang's Musical Innovation:**
-Leo Wang represents the most avant-garde experimental spirit in Taiwanese hip-hop:
+Leo Wang represents the most avant-garde experimental spirit in Taiwan hip-hop. Stylistically, he undertakes bold musical experiments and cross-genre fusion, combining elements such as electronic music and jazz. His lyrics are full of creative wordplay, and his live performances are highly theatrical and artistic. He rejects definition by a single style; each album is a new act of self-subversion. Representative works include "Moaning Without Illness," a precise portrayal of the mentality of contemporary young people, and "Clown," a reflection on social role-playing.
 
-**Stylistic Characteristics:**
+> ⚠️ 2026-04-29 correction (Issue #680 by @slashpot): The original version mistakenly listed *Homemade Music* as one of Leo Wang's representative works; it is in fact a work by Soft Lipa. It has been removed to avoid misleading readers, while the two correct representative works have been retained.
 
-- Bold musical experimentation and cross-genre fusion
-- Incorporating electronic music, jazz, and other diverse elements
-- Lyrics full of creative wordplay
-- Live performances with strong dramatic and artistic qualities
-- Refusing to be defined by a single style — each album is a complete act of self-subversion
+**Award recognition:**
+Leo Wang has been nominated for the Golden Melody Awards multiple times and won Best Mandarin Male Singer, making him the first Taiwan hip-hop musician to receive that Golden Melody Award.
 
-**Representative Works:**
+## Dwagie's Critical Writing and Social Intervention
 
-- *Hypochondriac*: A precise depiction of the modern young person's state of mind
-- *Clown*: A reflection on social role-playing
+Dwagie is the most socially critical representative figure in Taiwan hip-hop. From form to content, his work constitutes an ongoing intervention in Taiwan's politics and culture.[^3]
 
-> ⚠️ 2026-04-29 Correction (Issue #680 by @slashpot): The original version incorrectly listed *Home Cooking Music* as a Leo Wang work; it is actually by Soft Lipa. It has been removed to avoid confusion, and the two correct representative works have been retained.
+The evolution of Dwagie's critical themes has four directions: "taike identity," in which the song "Taike" directly challenges discriminatory labels applied to Taiwanese popular culture and transforms "taike" from a stigma into a proud declaration of identity; "social inequality," with the "People" series deeply exploring the predicament of young people in Taiwan within capitalist structures; "political corruption," with multiple works directly targeting collusion between politics and business and the traps of democratic institutions; and "media criticism," criticizing the deterioration of Taiwanese media and the spread of gossip culture.
 
-**Award Recognition:**
-Leo Wang was nominated for the Golden Melody Awards multiple times and won Best Mandarin Male Vocalist — the first time a Taiwanese hip-hop artist received this award.
-
-## Dwagie's Critical Writing and Social Engagement
-
-Dwagie is the most socially critical figure in Taiwanese hip-hop. His work, in both form and content, constitutes a continuous intervention into Taiwanese politics and culture.[^3]
-
-**Evolution of Critical Themes:**
-
-- **Taiwanese identity**: The song *Taiwanese* directly challenged discriminatory labels applied to Taiwan's everyday folk culture, transforming "Tai-ke" from a stigma into a proud declaration of identity
-- **Social inequality**: The *People* series deeply explores the predicament of young Taiwanese within capitalist structures
-- **Political corruption**: Multiple works directly address collusion between politicians and business, and the pitfalls of democratic institutions
-- **Media criticism**: Critiques of the deterioration of Taiwanese media and the proliferation of tabloid culture
-
-**Language Strategies:**
-
-- Deliberately mixing Hokkien, Mandarin, and profanity to create linguistic collision
-- Drawing on Taiwanese folk proverbs and slang to establish a grassroots linguistic foundation
-- Using rhyme density and syllable arrangement to strengthen the penetrating power of critical messages
+In language strategy, he deliberately mixes Taiwanese Hokkien, Mandarin, and profanity to create linguistic collision, cites Taiwanese folk sayings and slang to establish a grassroots linguistic base, and uses rhyme density and syllabic arrangement to strengthen the force of his critical messages.
 
 **Influence:**
-Dwagie established a moral standard of "telling the truth" in Taiwanese hip-hop. Many later artists, even those whose commercial paths diverged from Dwagie's style, still regard his forthright attitude toward social issues as the core of hip-hop spirit.
+Dwagie established a moral norm of "speaking the truth" in Taiwan hip-hop. Many later artists, even when their commercial routes diverged far from Dwagie's style, still regard his direct attitude toward social issues as central to the spirit of hip-hop.
 
-## Golden Melody Award Recognition
+## Recognition and Affirmation by the Golden Melody Awards
 
 ### The Changing Status of Hip-Hop at the Golden Melody Awards
 
-**Early Marginalization:**
-In the early years of the Golden Melody Awards, hip-hop was viewed as a non-mainstream genre and rarely received nominations in major categories.
+**Early marginalization:**
+In the early years after the Golden Melody Awards were founded, hip-hop was regarded as a non-mainstream genre and rarely received nominations for major awards.
 
-**The Path to Recognition:**
-As the quality of Taiwanese hip-hop improved and social acceptance grew, the Golden Melody Awards began to take the genre seriously:
+**The process of recognition:**
+As the quality of Taiwan hip-hop improved and social acceptance increased, the Golden Melody Awards began to take the genre seriously:
 
-**Golden Melody Milestones:**
-At the 30th Golden Melody Awards in 2019, Leo Wang won Best Mandarin Male Vocalist[^1] — the first time a Taiwanese hip-hop artist received this award. In 2020, Leo Wang was nominated again, and Chunyan's *Serendipity* won Best Lyricist. In 2021, multiple hip-hop artists were nominated in major categories, and hip-hop's standing within the judging system had stabilized.
+**Golden Melody Award milestones:**
+
+At the 30th Golden Melody Awards in 2019, Leo Wang won Best Mandarin Male Singer,[^1] the first time a Taiwan hip-hop musician received the award. In 2020, Leo Wang was nominated again, and that same year Chunyan's *Yanyu* won Best Lyricist. In 2021, multiple hip-hop musicians were nominated for major awards, showing that hip-hop's recognition within the judging system had become increasingly stable.
 
 ### Adjustments in Judging Criteria
 
-**Emphasis on Musicality:**
-Golden Melody judges began to value the musicality and creative quality of hip-hop, not just its commercial success:
+**Emphasis on musicality:**
+Golden Melody Award judges began to value the musicality and creative quality of hip-hop, rather than only its commercial success:
 
-**Evolution of Scoring Criteria:**
+The evolution of scoring criteria covered five dimensions: the literariness and intellectual depth of lyric writing, the professionalism and innovation of music production, the maturity of vocal technique and individual style, the completeness of the overall concept, and the assessment of cultural influence and long-term contribution. During this period, judges acknowledged hip-hop's place in Taiwanese culture and its influence on younger generations.
 
-- Literary quality and intellectual depth of lyric writing
-- Professionalism and innovation in music production
-- Maturity of vocal technique and personal style
-- Integrity of the overall concept
-- Assessment of cultural influence and long-term contribution
+## The Influence of Hip-Hop Talent Shows
 
-**Recognition of Cultural Significance:**
-During this period, judges acknowledged hip-hop's place in Taiwanese culture and its influence on younger generations.
+### *The Rap of China* and Taiwan Participants
 
-## The Impact of Hip-Hop Talent Shows
+**Opportunities to compete across the strait:**
+Mainland Chinese programs such as *The Rap of China* provided Taiwan rappers with a larger stage:
 
-### *The Rap of China* and Taiwanese Participants
+Among Taiwan participants, **PACT** drew attention with his distinctive style, **BCW** showed versatility, **J.Sheon** brought an R&B fusion approach, and several Taiwan musicians also served as producers. This kind of cross-strait participation introduced the characteristics of Taiwanese Chinese-language rap to mainland audiences, and cooperation between musicians on both sides of the strait increased as a result.
 
-**Cross-Strait Opportunities:**
-Mainland Chinese programs like *The Rap of China* offered Taiwanese rappers a larger stage:
-
-Among Taiwanese contestants, **Pacter** drew attention with his unique style, **BCW** showcased versatility, and **J.Sheon** brought an R&B-fusion approach. Several other Taiwanese musicians also served as producers. This cross-strait participation exposed mainland audiences to the characteristics of Taiwanese Mandarin rap, and collaborations between musicians on both sides of the strait increased as a result.
-
-### The Rise of Domestic Talent Shows
+### The Rise of Local Talent Shows
 
 **The Rappers:**
-Taiwanese-produced hip-hop talent shows began to emerge:
+Local hip-hop talent shows began to appear in Taiwan:
 
-**Program Characteristics:**
+The program's features centered on four points: highlighting the characteristics of Taiwan's local rap culture, using local languages such as Taiwanese Hokkien and Hakka, focusing on Taiwanese social issues, and cultivating a new generation of local rap talent.
 
-- Highlighting features of Taiwanese local rap culture
-- Using Hokkien, Hakka, and other local languages
-- Addressing Taiwanese social issues
-- Cultivating a new generation of local rap talent
+In terms of social influence, such programs increased public acceptance of hip-hop music, discovered more potential musical talent, established a more complete hip-hop industry chain, promoted the popularization of hip-hop culture, and used the program platform to raise the visibility of the overall hip-hop community.
 
-**Social Impact:**
+## The Rise of Hip-Hop in the Streaming Era (2015-Present)
 
-- Increased public acceptance of hip-hop music
-- Discovery of more potential musical talent
-- Building a more complete hip-hop music industry chain
-- Driving the popularization of hip-hop culture
-- Using the program platform to raise the visibility of the overall hip-hop community
+As streaming platforms such as KKBOX, Spotify, and Apple Music rapidly became widespread in Taiwan, the way hip-hop music circulated underwent a structural transformation: where it had once depended on record-company distribution and radio exposure, it now depended on algorithmic distribution and listeners' active searches.[^4]
 
-## The Streaming-Era Hip-Hop Rise (2015–Present)
+The influence of streaming platforms appears mainly on three levels: algorithmic recommendation mechanisms allow underground hip-hop to break through the limits of traditional radio and be precisely discovered by potential audiences; under digital single strategies, albums are no longer the only release format, and rapid single updates have become the mainstream way for hip-hop musicians to maintain visibility; and in terms of changing listening habits, short, dense hip-hop beats have an advantage on streaming platforms, fitting fragmented listening contexts.
 
-As streaming platforms such as KKBOX, Spotify, and Apple Music rapidly gained popularity in Taiwan, the way hip-hop music is distributed underwent a structural shift: where the industry once relied on record-store distribution and radio airplay, it now depends on algorithmic recommendation and active listener search.[^4]
+**Hip-hop penetration on KKBOX annual charts:**
+In KKBOX's annual music reports, the number of plays in the hip-hop/rap category continued to grow between 2015 and 2022, gradually moving from niche taste into audiences across generations. Artists such as MJ116, Soft Lipa, and Chunyan repeatedly entered the annual overall top 100, showing that hip-hop was no longer only a subculture but had become part of mainstream consumption.
 
-**Impact of Streaming Platforms:**
+**Short-form video's boost to hip-hop:**
 
-- **Algorithmic recommendation**: Streaming platforms' recommendation mechanisms allow underground hip-hop to break through traditional radio limitations and be precisely discovered by potential audiences
-- **Digital single strategy**: Albums are no longer the only release format; rapid single releases have become the mainstream model for hip-hop artists to maintain visibility
-- **Changing listening habits**: Short, high-density hip-hop beats have an advantage on streaming platforms, fitting the fragmented listening patterns of the era
-
-**Hip-Hop Penetration on KKBOX Annual Charts:**
-In KKBOX's annual music reports, hip-hop/rap category streaming numbers grew continuously from 2015 to 2022, gradually moving from niche taste into listeners of all generations. Artists such as MJ116, Soft Lipa, and Chunyan have repeatedly appeared on the annual overall top-100 charts, showing that hip-hop is no longer just a subculture but has become part of mainstream consumption.
-
-**Short-Form Video as a Hip-Hop Accelerator:**
-
-- TikTok and YouTube Shorts enable hip-hook segments to go viral rapidly
-- Rap challenges become a form of social interaction, inviting the general public to participate in creation
-- Some underground artists achieve overnight fame through short-form video, bypassing the traditional record-label gatekeeping mechanism
+- TikTok and YouTube Shorts allow hip-hop hook sections to spread virally at high speed
+- Rap challenges have become a form of social media interaction, allowing the general public to participate in creation
+- Some underground singers have become popular overnight through short-form video, bypassing traditional record-company gatekeeping mechanisms
 
 ## Hip-Hop in Film, Television, and Documentary
 
-Taiwanese hip-hop culture has gradually entered the realm of visual narrative, becoming an object of documentation and representation.[^5]
+Taiwan hip-hop culture has gradually entered film and television narrative, becoming an object of documentation and representation.[^5]
 
-**Talent Shows:**
+**Talent shows:**
 
-- ***The Rappers*** (2021, KKTV/Disney+ Hotstar): Taiwan's first large-scale domestic hip-hop talent show, featuring both amateurs and established artists competing on the same stage, generating widespread discussion after its first season
-- ***The Rappers 2*** (2022): Continued the previous season's focus on Hokkien rap and Indigenous-language rap as part of a diverse approach
+- **The Rappers** (2021, KKTV/Disney+ Hotstar): Taiwan's first large-scale local hip-hop talent show, bringing amateurs and well-known singers onto the same competitive stage and generating broad discussion after its first season aired
+- **The Rappers 2** (2022): continued the previous season's diverse orientation by focusing on Taiwanese Hokkien rap and Indigenous-language rap
 
-**Documentary Formats:**
+**Documentary forms:**
 
-- Major media outlets have produced in-depth documentary profiles of hip-hop artists, including portrait series by *Mirror Media* and *ELLE*
-- YouTube channels such as "美食家的自學之路" and "狀聲詞TW" have produced hip-hop culture specials documenting the ecology of the Taiwanese hip-hop community
-- Golden Melody Awards live broadcasts annually feature performance segments by hip-hop artists, serving as historical archives
+- Major media outlets have successively released in-depth documentary interviews with hip-hop musicians, such as musician portrait series in *Mirror Media*, *ELLE*, and other publications
+- YouTube channels such as "Gourmet's Self-Learning Path" and "Onomatopoeia TW" have produced features on hip-hop culture, documenting the ecology of Taiwan's hip-hop community
+- Golden Melody Award livestreams provide performance segments by hip-hop musicians every year, becoming a historical archive
 
-**Cross-Disciplinary Film and Television:**
+**Film and television crossover:**
 
-- Hip-hop artists such as MJ116 have appeared in TV dramas and commercials, expanding awareness among non-core audiences
-- Hip-hop soundtracks have gradually entered Taiwanese commercial advertising, reflecting brands' borrowing of hip-hop cultural energy
+- Hip-hop artists such as MJ116 have appeared in television dramas and advertisements, expanding awareness among non-core audiences
+- Hip-hop soundtracks have gradually entered Taiwanese commercial advertising, reflecting brands' attempts to draw on the energy of hip-hop culture
 
-## Characteristics of Localized Taiwanese Hip-Hop
+## Localized Characteristics of Taiwan Hip-Hop
 
-### Innovative Use of Language
+### Innovative Uses of Language
 
-**Multilingual Mixing:**
-One of the defining features of Taiwanese hip-hop is its multilingual diversity:
+One major characteristic of Taiwan hip-hop is its diverse use of language. Chinese-language rap techniques have developed innovative ways to coordinate tones with beats, use wordplay and puns, incorporate allusions from classical literature, flexibly deploy internet slang, and cite Taiwan-specific colloquialisms and locally colored vocabulary.
 
-**Chinese Rap Techniques:**
+Taiwanese Hokkien rap preserves techniques based on Taiwanese phonetic features and uses Taiwanese sayings and idioms, displaying the depth of local culture. Artists such as GorDoN have established an independent aesthetic for Taiwanese Hokkien rap. At the levels of Hakka and Indigenous languages, a small number of rappers have attempted to create in Hakka, while Indigenous rappers have incorporated elements of their own languages, presenting musical expressions of multilingual culture and ethnic identity.
 
-- Innovative methods of matching tones to beats
-- Use of wordplay and double entendres
-- Incorporation of classical literary allusions
-- Flexible use of internet slang
-- References to uniquely Taiwanese colloquialisms and locally flavored vocabulary
+### Attention to Social Issues
 
-**Development of Hokkien Rap:**
+Taiwan rappers frequently discuss social issues in their work. At the political and social levels, common themes include young people's political participation, economic pressure and workplace predicaments, housing justice and housing prices, environmental protection and sustainable development, ethnic identity and transitional justice, with some singers' works touching on Indigenous history, as well as media criticism and information manipulation.
 
-- Techniques for preserving Hokkien phonetic characteristics
-- Use of Hokkien proverbs and idioms
-- Expression of local cultural depth
-- Artists like GorDoN establishing an independent aesthetic for Hokkien rap
+At the level of cultural identity, they discuss Taiwanese subjectivity, dialogue between foreign and local cultures, generational differences and value conflicts, cultural preservation under globalization, debates over language policy and the status of Taiwanese Hokkien, especially in the context of Taiwanese-language rap, and the selective appropriation and rejection of American hip-hop culture. At the level of everyday realism, they portray the realities of urban life, young people's love and friendship, family relationships and expressions of affection, and the tension between pursuing dreams and compromising with reality.
 
-**Hakka and Indigenous Languages:**
+### Fusion and Innovation in Musical Style
 
-- A small number of rappers have experimented with Hakka-language creation
-- Indigenous rappers have incorporated elements of their heritage languages
-- Presentation of multilingual and multicultural diversity
-- Musical expression of ethnic identity
+Taiwan hip-hop musicians actively experiment with cross-genre collaboration. In electronic music fusion, common directions include combining EDM beats with rap, experimenting with Dubstep and Trap styles, using electronic production techniques, and drawing influence from nightclub culture. Traditional musical elements include the sampling of classical instruments, the incorporation of traditional opera elements, the influence of folk and Indigenous music, and musical expressions of Eastern aesthetics. In the commercialization of popular music, collaboration with mainstream pop singers, more melodic creative directions, advertising songs and film or television scores, and cross-media musical applications have all become routine practices.
 
-### Engagement with Social Issues
-
-**Reflections of Taiwanese Social Phenomena:**
-Taiwanese rappers frequently address social issues in their work:
-
-**Political and Social Issues:**
-
-- Young people's political participation and social concern
-- Economic pressure and workplace struggles
-- Housing justice and the cost of living
-- Environmental protection and sustainable development
-- Ethnic identity and transitional justice (some artists' works touch on Indigenous history)
-- Media criticism and information manipulation
-
-**Cultural Identity:**
-
-- Discussions of Taiwanese subjectivity
-- Dialogue between foreign and intercultural influences and local culture
-- Generational differences and value conflicts
-- Cultural preservation under globalization
-- Language policy and the status of Hokkien (especially prominent in the context of Hokkien rap)
-- Selective appropriation and rejection of American hip-hop culture
-
-**Realism of Daily Life:**
-
-- Authentic depictions of urban life
-- Young people's love and friendship
-- Family relationships and familial affection
-- The pursuit of dreams and compromise with reality
-
-### Musical Style Fusion and Innovation
-
-**Integration with Other Genres:**
-Taiwanese hip-hop artists actively experiment with cross-disciplinary collaboration:
-
-**Electronic Music Fusion:**
-
-- Combining EDM beats with rap
-- Experimentation with Dubstep and Trap styles
-- Application of electronic music production techniques
-- Influence of nightclub culture
-
-**Traditional Music Elements:**
-
-- Sampling of classical instruments
-- Incorporation of traditional opera elements
-- Influence of folk and Indigenous music
-- Musical expression of Eastern aesthetics
-
-**Pop Commercialization:**
-
-- Collaborations with mainstream pop singers
-- More melodic creative directions
-- Advertising songs and film/TV soundtracks
-- Cross-media musical applications
-
-## Important Artists and Works
+## Important Musicians and Works
 
 ### First-Generation Pioneers
 
-The first generation of Taiwanese rap was defined by the mission of breaking through language barriers and establishing a local style. **Dwagie** built the critical foundation of Taiwanese rap with *People* and *Taiwanese*, telling the scene that being down-to-earth is not a flaw but a banner. **MC HotDog** took on the commercial side — *Korean Wave Invasion* brought hip-hop into mainstream media discussion for the first time, making record companies realize this market was worth investing in. **The MACHI label** built an industry foundation underground, incubating many later well-known musicians and establishing the place of "local aesthetics" in Taiwanese hip-hop.
+The first generation of Taiwan rap took breaking through language barriers and establishing local style as its mission. **Dwagie** used "People" and "Taike" to construct the critical undertone of Taiwan rap; his lyrics told the scene that being grounded was not a flaw, but a banner. **MC HotDog** took on the commercial side: "The Korean Wave Is Coming" brought hip-hop into mainstream media discussion for the first time and made record companies realize that this market was worth investing in. **The MACHI label** built an industrial foundation underground, incubated several later well-known musicians, and established the place of "local aesthetics" within Taiwan hip-hop.
 
 ### Second-Generation Innovators
 
-The second generation pursued both commercial and artistic paths simultaneously. **Soft Lipa**, with works such as *The Internal Renovation of Du Zhen-Xi That You Don't Know About*, pulled rap toward philosophy and literature; his lyrics pursued precision of imagery rather than the shock value of rhymes. **MJ116** went the other way: *Fresh Game* and *9PM* packaged hip-hop as a pop commodity everyone could enjoy — sold-out concerts, ubiquitous endorsements, delivering the genre from subculture into the mainstream entertainment system. **GorDoN**, with *Big Moves* and *Together*, held the line on Hokkien rap, making local language in the hip-hop scene not just a garnish but an independent creative path.
+The second generation developed along both commercial and artistic paths. **Soft Lipa** used works such as *The Unknown Interior Renovation of Tu Chen-hsi* to pull rap toward philosophy and literature; his lyrics pursue precision of imagery rather than the shock value of rhyme. **MJ116** took another route: *Fresh Game* and "9PM" packaged hip-hop as a pop product that everyone could enjoy. With instantly sold-out concerts and endorsements everywhere, they brought the genre from subculture into the mainstream entertainment system. **GorDoN**'s "Doing Big Things" and "Come Together" held the direction of Taiwanese Hokkien rap, making local language within the hip-hop scene not merely an ornament but an independent creative route.
 
-### Third-Generation Experimenters
+### Third-Generation Experimentalists
 
-The third generation's central axis is breaking the boundaries established by the previous two. **Leo Wang**, with *Hypochondriac* and *Clown*, completed hip-hop's identity confirmation within the Golden Melody Awards system — the 2019 Best Mandarin Male Vocalist award was the judges' formal declaration of hip-hop's artistic legitimacy. **ØZI**, with the album *B.O.*, established a clear international context for Taiwanese hip-hop, enabling his work to find a conversational position within the English-language hip-hop world. **J.Sheon** brought R&B's melodic sensibility into rap's structural framework — *Street* and *Love Song Loser* are doors left open for listeners who find pure hip-hop too hard-edged.
+The main axis of the third generation is breaking the boundaries established by the previous two generations. **Leo Wang** used "Moaning Without Illness" and "Clown" to complete hip-hop's confirmation of identity within the Golden Melody Award system; the 2019 Best Mandarin Male Singer award was the judges' formal declaration of hip-hop's artistic value. **ØZI** used the album *B.O.* to establish a clear international context for Taiwan hip-hop, allowing his work to find a position for dialogue within English-language hip-hop circles. **J.Sheon** brought the melodic qualities of R&B into rap structures; "Street" and "Lost Love Song" left a door open for listeners who found pure hip-hop too hard-edged.
 
-## Industry Development and Future Outlook
+## Industry Development and Future Prospects
 
-### Maturation of the Music Industry Chain
+### The Maturation of the Music Industry Chain
 
-Taiwanese hip-hop's industry chain matured after the 2010s. On the production side, improvements in professional studio and mixing technology brought local production quality close to international standards; increased international collaboration opportunities also gave producers and musicians broader technical exchange. On the promotion side, digital music platforms replaced traditional radio as the core channel, with social media and music festival performances running in parallel, and cross-disciplinary collaboration becoming standard practice for maintaining visibility. In terms of business models, concert revenue, merchandise endorsements, licensing royalties, and film/TV soundtracks together constitute a diversified income structure, allowing musicians to make a living beyond record sales alone.
+Taiwan hip-hop's industry chain matured after the 2010s. On the production side, improvements in professional studios and mixing technology allowed local production quality in Taiwan to approach international standards; increased opportunities for international collaboration also gave producers and musicians broader technical exchange. On the promotion side, digital music platforms replaced traditional radio as core channels, social media and music festival performances operated in parallel, and cross-disciplinary collaboration became a standard method for maintaining visibility. In terms of business models, concert box office revenue, product endorsements, copyright licensing, and film and television scoring together formed a diversified income structure, so musicians no longer had to survive solely on record sales.
 
-### Possibilities of Internationalization
+### Possibilities for Internationalization
 
-Taiwanese hip-hop's internationalization has two paths. One is through the Chinese-language market — mainland China, Southeast Asian Chinese communities, and overseas diaspora — making the linguistic characteristics of Taiwanese rap a differentiated advantage. The other is an English-language or bilingual creative route, directly connecting with the English-language hip-hop world; ØZI represents the possibility of this direction. Taiwanese hip-hop is also a form of cultural export: multilingual mixing, local critical consciousness, and the freedom of expression in a democratic society — these attributes have their own distinctiveness in the global hip-hop landscape.
+Taiwan hip-hop has two paths toward internationalization. One is through the Mandarin-language market: mainland China, Chinese communities in Southeast Asia, and overseas Chinese communities, where the linguistic characteristics of Taiwanese rap can become a point of differentiation. The other is through English-language or bilingual creation, connecting directly with English-language hip-hop circles; ØZI represents the possibilities of this direction. Taiwan hip-hop is also a form of cultural export: multilingual mixing, local critical consciousness, and freedom of expression in a democratic society are attributes that give it recognizability within the global hip-hop scene.
 
 ### Challenges and Opportunities
 
-The streaming era has made hip-hop distribution easier, but the thinning of royalty shares has also compressed musicians' income. Short-form video culture has further fragmented attention — how to get a complete rap piece listened to all the way through in the age of algorithms is a question every creator is thinking about. Competitive pressure from international music (especially K-pop and Western hip-hop) continues to compress the market space for local music. On the other hand, technology applications and cross-border collaboration bring new possibilities, and cultural and creative industry policy support is gradually falling into place. Taiwanese hip-hop is finding its position within this push and pull.
+The streaming era has made hip-hop easier to circulate, but the thinning of copyright revenue sharing has also compressed musicians' income. Short-form video culture has further fragmented attention, and how to get a complete rap work heard in full in the algorithmic era is a question every creator is considering. Competitive pressure from international music, especially K-pop and Western hip-hop, continues to compress the market space for local music. At the same time, technological applications and transnational collaboration bring new possibilities, and policy support for the cultural and creative industries is gradually falling into place. Taiwan hip-hop is searching for its position within this tug-of-war.
 
-Taiwanese hip-hop and rap has traveled a journey from underground to mainstream, from imitation to innovation. This process is not just the evolution of a musical style, but the result of language, identity, and social critique continuously negotiating on the same platform. Dwagie chose to speak truth through profanity; Leo Wang chose to subvert form through experimentation; MJ116 chose to open the market through humor — each generation of musicians has a different answer to "what should Taiwanese hip-hop be," and this very difference is the most vital thing about this scene.
+Taiwan hip-hop and rap have moved from underground to mainstream and from imitation to innovation. This process is not only the evolution of a musical style, but also the result of ongoing negotiation among language, identity, and social critique on the same platform. Dwagie chose to use profanity to tell the truth, Leo Wang chose to subvert form through experimentation, and MJ116 chose to open the market through humor. Each generation of musicians has offered a different answer to the question of what "Taiwan hip-hop" should be, and that difference itself is the most vital part of the scene.
 
-It is an important vehicle for cultural expression and identity among Taiwan's younger generations, and it records how a generation used beats and rhymes to tell stories belonging to this island.
+It is an important vehicle for cultural expression and identity among Taiwan's younger generations, and it also records how a generation has used beats and rhyme to tell stories belonging to this island.
 
-As more and more outstanding musicians devote themselves to creation, the future of Taiwanese hip-hop is full of possibilities. Whether in artistic innovation, commercial success, or cultural influence, Taiwanese hip-hop is poised to accumulate greater weight on the map of Chinese-language music and become a new force in Taiwan's cultural export.
+As more and more outstanding musicians devote themselves to creation, the future of Taiwan hip-hop is full of possibilities. Whether in artistic innovation, commercial success, or cultural influence, Taiwan hip-hop has the potential to accumulate greater weight on the map of Mandarin-language music and become a new force in Taiwanese cultural export.
 
 ## Further Reading
 
-- [StreetVoice — Taiwanese Hip-Hop Artist Section](https://streetvoice.tw/)
-- [KKBOX Music News — Hip-Hop & Rap Features](https://www.kkbox.com/)
-- [*The Rappers* Official Channel (Disney+ Hotstar)](https://www.disneyplus.com/)
+- [StreetVoice — Taiwan Hip-Hop Musicians Section](https://streetvoice.tw/)
+- [KKBOX Music Intelligence — Hip-Hop and Rap Features](https://www.kkbox.com/)
+- [Official Channel of *The Rappers* (Disney+ Hotstar)](https://www.disneyplus.com/)
 
 ## References
 
-[^1]: [Golden Melody Awards Official Winners List (30th Edition)](https://gma.tavis.tw/) — Leo Wang (Wang Ji-yao) was nominated with *Hypochondriac* and won Best Mandarin Male Vocalist in 2019 for his live performance
-[^2]: [StreetVoice](https://streetvoice.tw/) — Complete archive of Taiwanese hip-hop artists, including profiles of Dwagie, MC HotDog, MJ116, Soft Lipa, and the history of the MACHI label
-[^3]: [Storm Media Music Reports](https://www.storm.mg/category/117) — Analysis of Dwagie's socially critical lyrics and coverage of Taiwanese hip-hop culture
-[^4]: [KKBOX Music News](https://www.kkbox.com/) — Streaming-era Taiwanese hip-hop listening data and annual chart reports
-[^5]: [Books.com.tw Music Section](https://www.books.com.tw/web/music/) — Sales records of Taiwanese hip-hop related physical records and audiovisual products
-[^6]: [Academia.edu Taiwanese Hip-Hop Research Papers](https://www.academia.edu/) — Academic research papers on the development of Taiwanese hip-hop culture
-[^7]: [MJ116 Instagram @mj116_tpc](https://www.instagram.com/mj116_tpc/) — Official social media, performance information, and commercial collaboration records; also see [Facebook](https://www.facebook.com/mj116tpc/)
+[^1]: [Official Golden Melody Awards winners list (30th edition)](https://gma.tavis.tw/) — Leo Wang, Wang Chi-yao, was nominated for *Moaning Without Illness* and won Best Mandarin Male Singer in 2019 for his live performance
+[^2]: [StreetVoice](https://streetvoice.tw/) — Complete profiles of Taiwan hip-hop musicians, including Dwagie, MC HotDog, MJ116, Soft Lipa, and others, as well as the history of the MACHI label
+[^3]: [Storm Media music coverage](https://www.storm.mg/category/117) — Analysis of Dwagie's socially critical lyrics and reporting on Taiwan hip-hop culture
+[^4]: [KKBOX Music Intelligence](https://www.kkbox.com/) — Listening data and annual chart reports on Taiwan hip-hop music in the streaming era
+[^5]: [Books.com.tw Music Store](https://www.books.com.tw/web/music/) — Sales records for physical albums and audiovisual products related to Taiwan hip-hop
+[^6]: [Academia.edu papers on Taiwan hip-hop](https://www.academia.edu/) — Academic research papers related to the development of Taiwan hip-hop culture
+[^7]: [MJ116 Instagram @mj116_tpc](https://www.instagram.com/mj116_tpc/) — Official social media with performance information and commercial collaboration records; see also [Facebook](https://www.facebook.com/mj116tpc/)

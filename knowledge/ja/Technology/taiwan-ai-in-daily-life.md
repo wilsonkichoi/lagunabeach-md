@@ -12,8 +12,8 @@ lastVerified: 2026-03-29
 featured: false
 lastHumanReview: false
 translatedFrom: 'Technology/台灣AI日常.md'
-sourceCommitSha: '96945e45'
-sourceContentHash: 'sha256:82fef06f2fdc35ad'
+sourceCommitSha: 'dbb8d44c'
+sourceContentHash: 'sha256:7da35707a5ff83dd'
 sourceBodyHash: 'sha256:21f036f1bf71fe83'
 translatedAt: '2026-05-01T18:02:56+08:00'
 ---

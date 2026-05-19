@@ -1,162 +1,182 @@
 ---
-title: "Where Did Taiwan's Moral Education Go: A Course That Was Cancelled, and a Responsibility No One Has Picked Up in Twenty Years"
-description: "Before 1993, every Taiwanese elementary school student had a weekly 'Morality and Health' class; every junior high student had 'Civics and Morality.' The Nine-Year Integrated Curriculum eliminated both courses and 'integrated' moral education into seven subject domains. The result: nearly 60 pages of Social Studies curriculum guidelines that barely mention the word 'morality,' 78% of teachers saying moral education is what most needs strengthening, yet no teacher in any subject considering it their own responsibility."
+title: "Where Did Taiwan's Moral Education Go: A Cancelled Class and Two Decades of Unclaimed Responsibility"
+description: "Before 1993, every elementary school student in Taiwan took 'Morality and Health' each week, and every junior high student took 'Citizenship and Morality.' The Nine-Year Integrated Curriculum abolished both subjects, 'infusing' moral education into seven major learning areas. The result: in nearly 60 pages of social studies curriculum guidelines, the word 'morality' barely appeared; 78% of teachers said moral education was what most needed strengthening, yet no subject teacher felt it was their responsibility."
 date: 2026-04-25
-tags:
-  - 'Moral Education'
-  - 'Character Education'
-  - 'Nine-Year Integrated Curriculum'
-  - 'Education Reform'
-  - 'Curriculum Guidelines'
-  - 'Character'
-  - 'Values'
-  - 'Civics and Morality'
+author: 'Taiwan.md Contributors'
 category: 'Society'
 subcategory: '教育'
-author: 'Taiwan.md Contributors'
-featured: false
+tags:
+  [
+    'Moral Education',
+    'Character Education',
+    'Nine-Year Integrated Curriculum',
+    'Education Reform',
+    'Curriculum Guidelines',
+    'Character',
+    'Values',
+    'Citizenship and Morality',
+  ]
 readingTime: 11
 lastVerified: 2026-04-25
 lastHumanReview: false
+featured: false
 translatedFrom: 'Society/台灣的道德課去哪了.md'
-sourceCommitSha: '2c96c034'
-sourceContentHash: 'sha256:3adbaa9747565b49'
-sourceBodyHash: 'sha256:4d83beba3ad84c03'
-translatedAt: '2026-05-01T08:56:11+08:00'
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:9e2e35c86cfffed4'
+sourceBodyHash: 'sha256:def0fbd84e75d95c'
+translatedAt: '2026-05-20T05:08:27+08:00'
 ---
 
-> **30-second overview:** In 1993 and 1994, Taiwan's Ministry of Education eliminated the dedicated subjects "Morality and Health" (elementary school) and "Civics and Morality" (junior high school), merging moral education into the seven learning domains of the Nine-Year Integrated Curriculum. This cancellation occurred without any prior discussion about whether moral education should continue, and without any empirical investigation of the existing curriculum's effectiveness. A 2001 survey by the King Car Education Foundation found that 78% of elementary school teachers considered moral education the area most in need of strengthening. More than twenty years on, moral education in Taiwan's curriculum has become a no-man's-land — everyone considers it important, but no one considers it their responsibility.
+> **30-Second Overview:** In 1993 and 1994, the Ministry of Education cancelled the standalone subjects of "Morality and Health" in elementary schools and "Citizenship and Morality" in junior high schools, respectively, folding moral education into the seven learning areas of the Nine-Year Integrated Curriculum. But this cancellation was carried out without any prior discussion on whether moral education should continue, and without any investigation into the effectiveness of existing moral education programs. A 2001 survey by the King Car Education Foundation found that 78% of elementary school teachers believed moral education was what most needed strengthening. More than two decades later, moral education in Taiwan's curriculum has become a no-man's-land that "everyone thinks is important, but no one feels responsible for."
 
 ---
 
-## The Era of One Central Virtue Per Week
+## The Era of a Weekly Central Virtue
 
-Taiwanese over the age of forty will likely remember one thing: in elementary school, every week had a "central virtue" (中心德目).
+Anyone in Taiwan over forty probably remembers one thing: in elementary school, there was a "central virtue" each week.
 
-It might have been honesty. It might have been punctuality. It might have been responsibility. The teacher would announce the week's virtue at Monday assembly, and every aspect of moral life education that week would orbit around it. This system derived from the Ministry of Education's mandated "Eighteen Central Virtues," paired with dedicated courses — "Morality and Health" in elementary school and "Civics and Morality" in junior high — with fixed class hours, textbooks, and exams[^1].
+It might be honesty, punctuality, or responsibility. The teacher would announce the week's virtue at the Monday morning assembly, and the entire week's life education revolved around it. This system came from the Ministry of Education's prescribed "Eighteen Central Virtues," paired with dedicated courses—"Morality and Health" (elementary) and "Citizenship and Morality" (junior high)—with fixed class periods, textbooks, and exams[^1].
 
-Whether a virtue-a-week can actually raise morally sound children is, of course, worth questioning. But at least in that era, "morality" had a clear place in school: someone was responsible for teaching it, time was set aside to teach it, and teaching materials existed.
+Whether a weekly virtue could actually raise morally sound children is certainly debatable. But at least in that era, "morality" had a clear place in school: someone was responsible to teach it, there was time allocated for it, and there were materials to use.
 
 Then it was cancelled.
 
 ---
 
-## How the Cancellation Happened: No Discussion, No Investigation
+## How It Was Cancelled: No Discussion, No Investigation
 
-Starting in the 2001 school year (beginning of the 2001–2002 academic year), Taiwan began implementing the "Nine-Year Integrated Curriculum for Elementary and Junior High Schools" from Grade 1. The new curriculum consolidated what had been individual subjects into seven learning domains: Language Arts, Health and Physical Education, Social Studies, Arts and Humanities, Mathematics, Natural Science and Life Technology, and Integrated Activities[^1].
+In the 2001 academic year, Taiwan began implementing the "Nine-Year Integrated Curriculum for Elementary and Junior High Schools" starting from first grade. The new curriculum consolidated the previously separate subject structure into seven major learning areas: Language; Health and Physical Education; Social Studies; Arts and Humanities; Mathematics; Science and Technology; and Integrated Activities[^1].
 
-Missing from these seven domains: the former elementary school subject "Morality and Health" and the former junior high subject "Civics and Morality." Moral education was declared "integrated" into all learning domains.
+Among these seven areas, the former elementary "Morality and Health" and junior high "Citizenship and Morality" were conspicuously absent. Moral education was declared to have been "infused" into each learning area.
 
-Educational philosophy scholar Li Feng-ju noted in 2004 research the absurdity of this cancellation: the Nine-Year Integrated Curriculum had never engaged in any discussion about whether elementary and junior high students ought to receive moral education, had never conducted any empirical investigation of the effectiveness of moral education, and yet abruptly cancelled the new "Morality and Health" (elementary) and "Civics and Morality" (junior high) curricula that had only been published in 1993 and 1994 respectively[^1].
+It should be noted that the old "Citizenship and Morality" course was not a neutral space for moral education. Its predecessor can be traced back to the "Party Principles" subject (teaching the Three Principles of the People) promulgated by the Nationalist government in 1928, renamed "Citizenship" in 1932, and merged with "Citizenship Training" in 1962. During the martial law period, the primary goal of the citizenship curriculum was to promote a Greater China ideology rooted in the Three Principles of the People, instilling national spirit, patriotic education, the Four Virtues and Eight Ethics, and Chinese cultural content[^13]. In 1995, the Three Principles of the People was removed from the university entrance exam, and in 2006, the high school "Three Principles of the People" course was officially renamed "Citizenship and Society"[^14]. In other words, the old "Citizenship and Morality" carried the political imprint of the authoritarian era—a context that cannot be ignored when discussing its disappearance.
 
-In other words, a course was cancelled not because "surveys proved it was ineffective" or "discussions produced consensus that it was unnecessary" — it was quietly removed during a structural restructuring of the curriculum. No one was held accountable for this decision; no one explained why.
+But even accounting for that political context, the Nine-Year Integrated Curriculum's handling of moral education's place in 2001 remained problematic. Educational philosophy scholar Li Feng-ju pointed out in a 2004 study that the curriculum never discussed whether moral education should be implemented for elementary and junior high students, nor conducted any empirical investigation into its effectiveness, before abruptly cancelling the newly revised "Morality and Health" and "Citizenship and Morality" curricula that had only been announced in 1993 and 1994, respectively[^1].
 
----
-
-## The Result of "Integration": Nearly 60 Pages of Curriculum Guidelines That Barely Mention "Morality"
-
-The new curriculum claimed to integrate moral instruction into all subject domains, but this claim immediately ran into two problems[^1].
-
-The first was theoretical. The Nine-Year Integrated Curriculum was influenced by postmodern thought, emphasizing anti-foundationalism, anti-authoritarianism, and pluralism. Within this framework, people grew increasingly skeptical and distrustful of "the foundations of morality." Chang Hsiu-hsiung noted that the curriculum goals of the Nine-Year Integrated Curriculum's Social Studies domain appeared to convey messages of "value neutrality" and "ethical freedom," with almost no reference to the inheritance of traditional and excellent cultural values[^1].
-
-More concretely: the six major themes of the Nine-Year Integrated Curriculum (information technology, environment, gender, human rights, career development, home economics, etc.) also did not treat "morality" as a major theme. Even within the Social Studies domain most closely related to moral education, the nearly 60 pages of curriculum guidelines almost entirely avoided the word "morality"[^1].
-
-Education scholar Chang Hsiu-hsiung called this a "moral education crisis": such a curriculum "lacking morality" (缺德 — a pun in Chinese meaning both "lacking moral education" and "morally bankrupt") could easily mislead teachers and students into believing, since none of the learning domains, core competencies, or major themes touched on morality at all, that moral education was unnecessary[^1].
-
-The second problem was practical. The "integration model" resembles the Western approach of "values across the curriculum," which assumes that moral education is comprehensive and that all teachers participate. A Chinese language class can discuss the ethics of abortion; a social studies class can discuss law and human rights[^2].
-
-This sounds ideal. But British educational philosopher R. Straughan had long pointed out two fundamental problems with this model: first, how can we ensure that all teachers, beyond teaching their main subjects, adequately attend to the moral dimensions of their domain? And second, even when teachers do attend to these dimensions, moral education inherently involves relevant theories from moral philosophy, and teaching and learning it requires specialized knowledge and methods — how can we ensure that teachers handle diverse moral issues appropriately in classroom instruction[^2]?
-
-Without the attention and professional engagement of teachers, moral education will effectively become a no-man's-land within the Nine-Year Integrated Curriculum, lacking any genuine moral teaching activity[^1].
+In other words, removing the political indoctrination elements from the old curriculum was reasonable, but discarding along with it the question of "how moral education should have its own place in the new system" was not. This decision did not come from a deliberated conclusion that "everyone agreed it was unnecessary"—it was quietly removed amid the structural adjustments of curriculum reform.
 
 ---
 
-## 78% of Teachers Said: Moral Education Is What Most Needs Strengthening
+## The Result of "Infusion": The Word "Morality" Barely Appears in Nearly 60 Pages of Guidelines
 
-The response in the field after the cancellation was direct.
+The new curriculum advocated integrating moral education into all subject learning areas, but this claim immediately ran into two dilemmas[^1].
 
-On September 28, 2001 (Teacher's Day), the King Car Education Foundation conducted a sampling survey of teachers at elementary schools with more than 300 students in Taipei City and County, achieving effective returns of 722 questionnaires from 24 schools. Results showed: approximately 78% of surveyed teachers considered moral education to be the area most in need of strengthening. Character education came second at approximately 75%, followed by life education and living education in that order[^1].
+The first was at the theoretical level. The Nine-Year Integrated Curriculum was influenced by postmodernist thought, emphasizing anti-foundationalism, anti-authoritarianism, and pluralism. Under this framework, people grew increasingly skeptical and distrustful of the "foundations of morality." Chang Hsiu-hsiung noted that the curriculum goals of the "Social Studies" learning area in the Nine-Year Integrated Curriculum seemed to convey messages of "value neutrality" and "ethical freedom," with almost no mention of inheriting traditional cultural values and virtues[^1].
 
-78% of teachers believed moral education most needed strengthening — yet the curriculum guidelines had removed the "morality" course entirely. The calls from teachers and the direction of policy were running in exactly opposite directions.
+More specifically, the six major themes of the Nine-Year Integrated Curriculum (information, environment, gender, human rights, career development, home economics, etc.) did not include "morality" as a key theme. Even in the provisional guidelines, the "Social Studies" learning area—the one most closely related to moral education—avoided the word "morality" almost entirely across its nearly 60 pages of explanatory text[^1].
+
+Educational scholar Chang Hsiu-hsiung called this a "moral education crisis": such a "morality-deficient" curriculum was highly likely to mislead teachers and students into thinking that since learning areas, core competencies, and major themes made no mention of morality, moral education must be unnecessary[^1].
+
+The second dilemma was at the practical level. The "infusion" model resembles the Western "values across the curriculum" approach. It assumes moral education is the responsibility of all teachers. Language class can discuss the ethics of abortion; social studies class can discuss law and human rights[^2].
+
+This sounds ideal. But British educational philosopher R. Straughan had long pointed out two fundamental problems with this model: first, how can we ensure that all teachers, on top of their primary subject teaching, also pay sufficient attention to the moral dimensions of their learning area? Second, even if teachers do notice, since moral education itself involves related doctrines in moral philosophy, requiring specialized knowledge and methods for teaching and learning, how can we ensure teachers can properly handle various moral issues in the classroom[^2]?
+
+Without teachers' attention and professional support, moral education would effectively become a no-man's-land in the Nine-Year Integrated Curriculum, lacking genuine moral instruction activities[^1].
 
 ---
 
-## "Respect and Care": A Three-Year Experiment by a Group of Scholars
+## 78% of Teachers Said: What Most Needs Strengthening Is Moral Education
+
+The on-the-ground response after the cancellation was direct.
+
+On September 28, 2001 (Teacher's Day), the King Car Education Foundation conducted a survey of elementary school teachers at schools with over 300 students in Taipei City and County, collecting 722 valid questionnaires from 24 schools. The results showed: the area teachers believed most needed strengthening was moral education, at approximately 78%. This was followed by character education at about 75%, then life education and life skills education[^1].
+
+Seventy-eight percent of teachers believed moral education most needed strengthening, yet the curriculum guidelines had removed the subject of "morality." The teachers' call and the policy direction were completely at odds.
+
+---
+
+## "Respect and Care": A Three-Year Experiment by a Team of Scholars
 
 Faced with this vacuum, some tried to fill it.
 
-Beginning in 2001, Professor Huang Guang-xiong — former Dean of the College of Education at National Chung Cheng University — led a three-year "Integrated School Moral Teaching Improvement Program," funded through the Ministry of Education's Office of Academic Affairs Humanities and Social Sciences Education Improvement Plan. The research team included Professor Ke Hua-wei from the Psychology Department, Professor Zhang Zhen-dong from the Social Welfare Department, Assistant Professor Xu Han from the Philosophy Department, and educational philosophy scholars from the Graduate Institute of Education[^3].
+Starting in 2001, former Dean of the College of Education at National Chung Cheng University, Professor Huang Kuang-hsiung, led a three-year "Integrated School Moral Education Improvement Project," funded by the Ministry of Education's Advisory Office Humanities and Social Sciences Education Improvement Program. the research team included Professor Ko Hua-wei (Psychology), Professor Chang Chen-tung (Social Welfare), Assistant Professor Hsu Han (Philosophy), and scholars of philosophy of education from the Graduate Institute of Education[^3].
 
-The first year's goal was to "re-evaluate and critically inherit traditional ethical and moral values." The research team — ethicists, sociologists, psychologists, and education scholars each analyzing the elements and content of morality from their disciplinary expertise — met every three weeks. After a year of research, reflection, and discussion, they concluded that "respect" and "care" are the two moral elements currently best suited to achieving students' needs in moral cognition and emotional development[^1].
+The first year's goal was "re-evaluating and critically inheriting traditional ethical and moral values." The team—comprising an ethicist, a sociologist, a psychologist, and an educator—analyzed the elements and content of morality from their respective disciplinary expertise, meeting every three weeks. After a year of research, reflection, and discussion, they concluded that "respect" and "care" were the moral elements most needed for students' moral cognitive and affective development at the present time[^1].
 
 Why "respect" and "care"?
 
-"Respect" derives from the Kantian tradition of moral philosophy. Kant argued that moral action must arise from duty, and his categorical imperative demands treating persons as ends in themselves and never merely as means. Educational philosopher R. S. Peters identified "respecting others" as a moral procedural principle: respecting others as independent beings with desires, choices, and goals[^1].
+"Respect" comes from Kant's moral philosophy tradition. Kant argued that moral action must arise from duty, and his categorical imperative demands "treating people as ends, never merely as means." Educational philosopher R. S. Peters further identified "respect for others" as a procedural moral principle: respecting others as independent beings with desires, choices, and goals[^1].
 
-"Care" comes from the ethics of care developed by Carol Gilligan and Nel Noddings. Noddings pointed to the natural caring sentiment within human nature as the motivating force behind moral practice. She believed that the aim of education should be to encourage the growth of competence, care, love, and lovability in people[^1].
+"Care" comes from the ethics of care developed by Carol Gilligan and Nel Noddings. Noddings pointed out that natural caring sentiment in human nature is the driving force of moral practice. She argued that the purpose of education should be to encourage the growth of competent, caring, loving, and lovable people[^1].
 
-In the second year, the team worked with curriculum and pedagogy scholars to construct moral teaching curricula, methods, materials, and assessment programs incorporating "respect" and "care" across all learning domains of the Nine-Year Integrated Curriculum. At the "Moral Teaching Workshop" held in November 2002, 56 participants divided into six groups according to the seven learning domains, and over three days of mutual exchange, discussion, and hands-on design, developed six teaching programs incorporating "respect" and "care" into different learning domains[^1].
+In the second year, the team, working with teaching and curriculum scholars, developed moral education curricula, pedagogies, materials, and assessment plans infused into each learning area of the Nine-Year Integrated Curriculum, based on the two core elements of "respect" and "care." At a "Moral Education Workshop" held in November 2002, 56 workshop participants divided into six groups by learning area. After three days of exchange, discussion, and hands-on design, they developed six sets of "respect" and "care" teaching plans integrated into each learning area[^1].
 
-The third year entered elementary school classrooms to conduct action research on moral teaching experiments. For example, researchers designed an environment-caring curriculum to accompany the fifth-grade Chinese language lesson "Ayu," and guided students to respect and care for nature and life by connecting the Chinese language lesson "The Last Leaf" with the SARS outbreak then occurring[^1].
+The third year moved into elementary school classrooms for action research on moral education experiments. For example, researchers designed a course on caring for the environment to accompany the fifth-grade Mandarin text "Sweetfish," and used the Mandarin text "The Last Leaf" along with the SARS outbreak at the time to guide students in respecting and caring for nature and life[^1].
 
-This research proved one thing: within the Nine-Year Integrated framework, moral education can work. But it requires interdisciplinary expert teams, three years of research time, dedicated project funding from the Ministry of Education, and willing teachers. These conditions are almost never simultaneously available in the day-to-day operations of ordinary schools.
-
----
-
-## Character Education: An Import from America, or Old Wine in New Bottles?
-
-In February 2004, the Ministry of Education convened a "Character and Moral Education Working Group" meeting, attempting to use "character education" to fill the moral education vacuum left by the Nine-Year Integrated Curriculum[^2].
-
-Character education's roots trace back to Aristotle's virtue ethics. The Greek _arete_ (Latin _virtus_) originally meant "excellence," and only later became linked to the moral dimension of "virtue." Character education in the United States went through multiple turns: traditional virtue inculcation before the 1920s; the experimental refutation by Hartshorne and May (1928–1930 — approximately 100 experiments on "honesty and deception," with one conclusion being that "school moral education has no influence on an individual's character development"); the rise of values clarification in the 1960s; the dominance of Kohlberg's cognitive moral development theory; and then the resurgence of new character education from the late 1980s onward[^2].
-
-Some scholars also raised questions about Taiwan's direct importation of American character education. First, Taiwan's history, culture, and social context differ from America's — directly transplanting curricula and educational programs promoted by various American character education organizations seems inappropriate. Second, Taiwan already has a long tradition of moral education, cultivating well-rounded character through ritual and musical cultivation — a central concern of traditional education. Is it really necessary to learn from America? Or is this perhaps a side effect of a decade of educational reforms that looked to America for guidance, leaving Taiwan lacking confidence in its own cultural traditions[^2]?
-
-More pointedly, American critical pedagogy scholar Alfie Kohn observed: "Most of what goes by the name of character education today is a collection of exhortations and extrinsic inducements designed to make children work harder and do what they're told." Even where other values such as care and fairness are promoted simultaneously, inculcatory methods of instruction remain favored[^2].
-
-Kohn also exposed a phenomenon that is simultaneously absurd and recognizable: "If today is Tuesday, then it must be honesty." In American schools implementing new character education, one value after another is designated, each with its own corresponding day, week, and month — a spectacle almost identical to Taiwan's former practice of one central virtue per week[^2].
+This research proved one thing: under the Nine-Year Integrated Curriculum framework, moral education could be done. But it required an interdisciplinary team of experts, three years of research time, dedicated Ministry of Education project funding, and willing teachers. These conditions are almost impossible to assemble simultaneously in the daily operations of an ordinary school.
 
 ---
 
-## Twenty Years Later: Is Moral Education Still in a No-Man's-Land?
+## Character Education: An Imported American Solution, or Old Wine in New Bottles?
 
-The Ministry of Education's response was to launch the "Character Education Promotion Program." According to the records of the Seventh _Republic of China Education Yearbook_, the Ministry of Education — following the conclusions of the 2003 National Education Development Conference — established the "Character Education Working Group" and promulgated the first-phase program (2004–2008) on December 16, 2004. A revised second phase was promulgated in 2009 (2009–2013); the third phase (2014–2018) focused on the practice and deepening of "core character values" and "behavioral standards"[^4][^12]. The Yearbook also recorded a key 2006 resolution: to incorporate central virtues and behavioral standards into relevant school learning domains and flexible learning periods[^12]. A 2009 survey summarized the top ten core character values prioritized by schools at all levels: respect for life, filial piety and respect for elders, responsibility and conscientiousness, honesty and trustworthiness, teamwork, autonomy and self-discipline, proactive engagement, humility and courtesy, care and doing good, and environmental protection[^12].
+In February 2004, the Ministry of Education convened a "Character and Moral Education Working Group" meeting, attempting to fill the moral education vacuum left by the Nine-Year Integrated Curriculum with "character education"[^2].
 
-However, the 108 Curriculum Guidelines (2019) still contain no independent subject for "Life and Ethics" or "Civics and Morality," and the controversy over curriculum "lacking morality" continues to the present[^8]. Commentator Duan Hsin-yi observed that during the Nine-Year Integrated Curriculum period, a gap appeared in moral education that affected the values formation of an entire generation[^9].
+The roots of character education can be traced back to Aristotle's virtue ethics. The Greek word *arete* (Latin *virtus*) originally meant "excellence" and later became associated with the moral dimension of "virtue." Character education in the United States has undergone multiple turns: traditional virtue inculcation before the 1920s, the Hartshorne & May experiments that negated it (1928–1930, roughly 100 experiments on "honesty and deception," concluding in part that "school moral education has no effect on individual character development"), the rise of values clarification in the 1960s, the dominance of Kohlberg's moral cognitive development theory, and the resurgence of the new character education movement in the late 1980s[^2].
 
-The structural problem has never changed: in Taiwan's curriculum, moral education has no independent class hours, no dedicated teacher, no systematic teaching materials. It is expected to "naturally integrate" into every class — which in practice means no one is specifically responsible. The Yearbook recorded that during the program's implementation, 103 schools were designated as character education model schools in the 2010 school year, growing to 238 by 2011[^12] — but against a backdrop of more than 3,000 elementary and junior high schools across Taiwan, those numbers reveal the limits of coverage.
+Some scholars have questioned Taiwan's direct importation of American character education. First, Taiwan's historical, cultural, and social context differs from that of the United States, making it seemingly inappropriate to directly transplant curricula and programs promoted by various American character education organizations. Second, Taiwan itself has a long tradition of moral education—cultivating sound character through ritual and music has always been the centerpiece of traditional education. Is it necessary to seek lessons from America? Or might this be one of the aftereffects of a decade of education reforms looking to America as the model, resulting in a loss of confidence in one's own cultural traditions[^2]?
 
-Taiwan is not short of moral education theory. From Kant's deontology to Noddings' ethics of care, from Kohlberg's cognitive development to Aristotle's virtue ethics, academic discussion has never stopped. Chen Guang-hui's 2001 research noted that numerous scholars agreed Taiwan's moral education needed strengthening, not ignoring or even eliminating[^10]. Taiwan is also not short of researchers who have run experiments: the three-year action research by Huang Guang-xiong, Ke Hua-wei, and others proved that integrating moral instruction around "respect and care" within the Nine-Year Integrated framework is achievable[^3].
+More pointedly, American critical pedagogy scholar Alfie Kohn has noted: "Today the term character education mostly refers to a collection of admonishments and extrinsic incentives designed to make children work harder and do what they are told." Even when other values such as care and fairness are simultaneously promoted, it still amounts to a preference for indoctrinatory teaching methods[^2].
 
-What is missing is a policy-level decision: who will teach it, when, with what materials, and how it will be assessed. The answers to these questions were already contained in the overall framework of the Nine-Year Integrated Curriculum Guidelines — they simply were never concretely implemented as classroom-level supporting measures[^11].
+Kohn also exposed a phenomenon that is laughable in its irony: "If today is Tuesday, then it must be honesty." In American schools implementing the new character education, value after value is assigned its own corresponding day, week, and month. This scene is virtually identical to Taiwan's former practice of a weekly central virtue[^2].
 
-These questions have remained suspended since the Nine-Year Integrated Curriculum launched in 2001 — for nearly a quarter of a century. And during that time, an entire generation of Taiwanese students grew up without a dedicated moral education class. They learned Chinese, mathematics, English, and science; they learned to assemble learning portfolios and prepare for the General Scholastic Ability Test; but not once did any class systematically discuss with them "what is the right thing to do" and "why do the right thing."
+---
 
-Confucius said more than two thousand years ago: "Lead them with government policies and regulate them with punishments, and the people will avoid wrongdoing but feel no shame. Lead them with virtue and regulate them with ritual, and the people will have a sense of shame and will also do what is right." If moral education relies only on law and punishment to maintain minimum standards, it cultivates people who know "what must not be done." But what a society truly needs are people who know "what is worth doing"[^1].
+## Twenty Years Later: Is Moral Education Still a No-Man's-Land?
+
+The Ministry of Education's response was to launch the "Character Education Promotion Program." According to the seventh *Republic of China Education Yearbook*, the Ministry established a "Character Education Working Group" based on conclusions from the 2003 "National Education Development Conference," promulgating the first phase of the program on December 16, 2004 (2004–2008), revising and issuing the second phase in 2009 (2009–2013), and focusing the third phase (2014–2018) on the practice and deepening of "core character values" and "codes of conduct"[^4][^12]. The yearbook also recorded a key resolution from the 2006 academic year onward: incorporating central virtues and codes of conduct into relevant learning areas and flexible learning periods in schools[^12]. A 2009 survey identified the top ten core character values across all school levels, in order: respect for life, filial piety and respect for elders, responsibility and diligence, honesty and trustworthiness, teamwork, self-discipline, proactivity, humility and courtesy, caring and benevolence, and environmental protection[^12].
+
+The 2019 Curriculum Guidelines (the "108 Curriculum") took a different approach. The new guidelines replaced the previous "core competencies" with "core literacy," divided into three dimensions and nine items. Under the "Social Participation" dimension, "**Moral Practice and Civic Awareness**" is one of the nine literacies[^15]. The civic education components of the old "Citizenship and Morality" course—covering democracy, law, rights, and obligations—were transformed at the high school level into "Citizenship and Society," replacing the old virtue-inculcation model with competency-oriented inquiry-based teaching; at the junior high level, they were consolidated into the "Social Studies" learning area[^14].
+
+Thus, Taiwan's elementary and secondary school timetables present a peculiar distribution: citizenship has its own subject, social studies has its area, literacy has its indicators, but morality has no place of its own. It exists in the "descriptions" of every subject but not on the "timetable" of any subject. "Moral Practice" is part of academic achievement, but there are no dedicated class periods, no dedicated teachers, and no dedicated assessments. In the daily operations of a school, it easily becomes a state of "everyone is responsible, no one is accountable."
+
+Five years after the 108 Curriculum's implementation, frontline criticism has accumulated. A 2022 United Daily News special report identified five major dilemmas the curriculum had fallen into after three years, including "policy spinning its wheels," "doubled pressure," and "excessive burden on the teaching gap"—the gap between curriculum ideals and practice becoming the central controversy[^16]. The EdYouth team, composed of current high school students, published the *108 Curriculum Observation Report* in 2023, directly stating that while the curriculum's intentions were good, implementation at the high school level needed strengthening, and that students' experience of competency-oriented courses showed a clear gap from the policy's intended goals[^17].
+
+These critiques focused primarily on issues such as learning portfolios, examination and admissions systems, and unequal cross-school learning resources. While "Moral Practice and Civic Awareness" was written into the curriculum guidelines, the measurement mechanisms in the teaching field—what counts as meeting the standard, who does the assessment, and how assessment results are used—still lack clear answers. A literacy indicator listed as a core goal but lacking supporting infrastructure may not be so different, in terms of the education students actually receive, from a cancelled subject. That is a question worth asking.
+
+The structural problem has never changed: moral education in Taiwan's curriculum has no independent class periods, no dedicated teachers, and no systematic teaching materials. It is expected to be "naturally infused" into every class, which in practice means no one is specifically responsible for it. The yearbook recorded that during the program's promotion period, there were 103 schools designated as Character Education Deep-Root Schools in the 2010 academic year, increasing to 238 in the 2011 academic year[^12]. But against the scale of over 3,000 elementary and junior high schools nationwide, these numbers illustrate the limitations of coverage.
+
+Taiwan does not lack theories of moral education. From Kant's deontology to Noddings' ethics of care, from Kohlberg's cognitive development to Aristotle's virtue ethics, academic discussion has never ceased. Chen Kuang-hui noted in a 2001 study that numerous scholars believed Taiwan's moral education needed strengthening, not neglect or even abolition[^10]. Taiwan also does not lack researchers who have conducted experiments: the three-year action research by Huang Kuang-hsiung, Ko Hua-wei, and others proved that integrating "respect and care" moral education within the Nine-Year Integrated Curriculum framework was feasible[^3].
+
+What has been lacking is a policy-level decision: Who teaches it? When is it taught? What materials are used? How is it assessed? And the answers to these questions were originally in the general guidelines of the Nine-Year Integrated Curriculum—they were just never concretely implemented as teaching-field support[^11].
+
+These questions have hung in the air for nearly a quarter century, from the launch of the Nine-Year Integrated Curriculum in 2001 to the present. During this time, an entire generation of Taiwanese students grew up without a dedicated moral education class. They learned Mandarin, math, English, and science; they learned to write learning portfolios and prepare for the college entrance exam. But there was never a single class that systematically discussed with them "what the right thing to do is" and "why one should do the right thing."
+
+Confucius said over two thousand years ago: "Guide them with government and regulate them with punishments, and the people will evade [the law] but have no sense of shame. Guide them with virtue and regulate them with ritual, and they will have a sense of shame and will also be upright." If moral education relies only on law and punishment to maintain a baseline, it produces people who know "what not to do." But what a society truly needs is people who know "what is worth doing"[^1].
 
 ---
 
 ## References
 
-[^1]: Li Feng-ju (2004). Difficulties and breakthroughs in implementing moral education under the Nine-Year Integrated Curriculum. _Student Guidance_, 92, 38–55 — contains King Car Foundation survey data, moral education crisis analysis, "Respect and Care" improvement program
+[^1]: Li Feng-ju (2004). Dilemmas and Breakthroughs in Implementing Moral Education in the Nine-Year Integrated Curriculum. *Student Counseling*, 92, 38–55 — Includes King Car Foundation survey data, moral education crisis analysis, and the "Respect and Care" improvement project
 
-[^2]: Li Feng-ju (2004). Re-turn or neo-conservatism in moral education? Some questions and expectations about character education. Tunghai University Teacher Education Center and Graduate Institute of Education "Character Education Academic Conference" — contains history of character education's various turns, Kohn's critique, questions about Taiwan-specific localization
+[^2]: Li Feng-ju (2004). A New Turn in Moral Education or Neo-Conservatism? Some Questions and Expectations Regarding Character Education. *Character Education Academic Symposium*, Center for Teacher Education and Graduate Institute of Education, Tunghai University — Covers the historical turns of character education, Kohn's critique, and questions of localization in Taiwan
 
-[^3]: Huang Guang-xiong, Li Feng-ju, Ke Hua-wei, Zhang Zhen-dong, Xu Han (2001). Integrated School Moral Teaching Improvement Program (I): Moral elements. Chiayi: National Chung Cheng University College of Education — three-year Ministry of Education project
+[^3]: Huang Kuang-hsiung, Li Feng-ju, Ko Hua-wei, Chang Chen-tung, Hsu Han (2001). Integrated School Moral Education Improvement Project (I): Moral Elements. Chiayi: College of Education, National Chung Cheng University — Three-year Ministry of Education project
 
-[^4]: [Ministry of Education Character Education Promotion Program (Third Phase, 2014–2018)](https://ws.moe.edu.tw/001/Upload/10/relfile/8787/80239/0d4f538a-6498-4d88-8b0c-ee6c6d591194.pdf) — Ministry of Education official PDF
+[^4]: [Ministry of Education Character Education Promotion Program (Phase III, 2014–2018)](https://ws.moe.edu.tw/001/Upload/10/relfile/8787/80239/0d4f538a-6498-4d88-8b0c-ee6c6d591194.pdf) — Official Ministry of Education PDF: see original link for full text
 
-[^5]: Chang Hsiu-hsiung (2002). Civic moral education in the "Social Studies" domain of the Nine-Year Integrated Curriculum. _Journal of Civics and Moral Education_, 11, 39–52 — source of the "moral education crisis" concept
+[^5]: Chang Hsiu-hsiung (2002). Civic and Moral Education in the "Social Studies" Learning Area of the Nine-Year Integrated Curriculum. *Citizenship Training Journal*, 11, 39–52 — Source of the "moral education crisis" concept
 
-[^6]: Noddings, N. (1992). [The Challenge to Care in Schools: An Alternative Approach to Education](https://www.google.com/books/edition/The_Challenge_to_Care_in_Schools/). New York: Teachers College, Columbia University Press — classic text in the ethics of care
+[^6]: [The challenge to care in schools: An alternative approach to education](https://www.google.com/books/edition/The_Challenge_to_Care_in_Schools/) — Noddings, N. (1992). New York: Teachers College, Columbia University Press — Classic work on the ethics of care
 
-[^7]: [Analysis of the Development of Character Education in Taiwan, 1949–2014](https://jepr.ntue.edu.tw/JEPR/upload/journal/prog/68b2ea8d_20151228.pdf) — _Journal of Educational Practice and Research_, 28(2), 33–58, 2015. Overview of character education policy changes
+[^7]: [Analysis of the Evolution of Character Education in Taiwan, 1949–2014](https://jepr.ntue.edu.tw/JEPR/upload/journal/prog/68b2ea8d_20151228.pdf) — *Educational Practice and Research*, 28(2), 33–58, 2015. Comprehensive overview of character education policy changes
 
-[^8]: [The 12-Year National Education Curriculum Guidelines Contain Neither "Life and Ethics" nor "Civics and Morality" — the Curriculum "Lacking Morality" Has Sparked Major Controversy](https://cdn-news.org/news/11077) — Christian Tribune, 2017. Social controversy over the 12-Year National Education curriculum guidelines lacking character education
+[^8]: [The 12-Year Basic Education Curriculum Has No "Life and Ethics" or "Citizenship and Morality"—The "Morality-Deficient" Curriculum Sparks Major Controversy](https://cdn-news.org/news/11077) — *Christian Tribune*, 2017. Social controversy over the absence of character education in the 12-Year Basic Education curriculum
 
-[^9]: [Reversing the Ethics-Deficient Education](https://tw.news.yahoo.com/%E7%BF%BB%E8%BD%89%E7%BC%BA%E5%BE%B7%E7%9A%84%E6%95%99%E8%82%B2-201000334.html) — Yahoo News repost, analyzing field difficulties in education after the curriculum eliminated the morality subject
+[^9]: [Flipping Morality-Deficient Education](https://tw.news.yahoo.com/%E7%BF%BB%E8%BD%89%E7%BC%BA%E5%BE%B7%E7%9A%84%E6%95%99%E8%82%B2-201000334.html) — Yahoo News reprint, analyzing the dilemmas in the teaching field after the cancellation of the morality subject
 
-[^10]: Chen Guang-hui (2001). Current status and development trends in moral education at elementary and junior high schools in Taiwan. _Journal of Humanities and Social Science Teaching_, 2(1), 51–75 — analysis of the current state of moral education
+[^10]: Chen Kuang-hui (2001). The Current State and Development Trends of Moral Education in Elementary and Secondary Schools in Taiwan. *Humanities and Social Sciences Teaching Newsletter*, 2(1), 51–75 — Analysis of the current state of moral education
 
-[^11]: [CIRN Nine-Year Integrated Curriculum Guidelines](https://cirn.moe.edu.tw/Guildline/index.aspx?sid=9) — Ministry of Education National Elementary and Junior High School Curriculum and Instruction Resources Integration Platform, original texts of the Nine-Year Integrated Curriculum overall framework and domain-specific guidelines
+[^11]: [CIRN Nine-Year Integrated Curriculum Guidelines](https://cirn.moe.edu.tw/Guildline/index.aspx?sid=9) — Ministry of Education National Elementary and Secondary Curriculum and Teaching Resources Integration Platform, original documents of the Nine-Year Integrated Curriculum general guidelines and area-specific guidelines
 
-[^12]: Ministry of Education (2012). Seventh _Republic of China Education Yearbook_, Volume 10, "Student Affairs and Guidance," Chapter 2, "Character and Life Education." Ministry of Education — official primary source, containing the implementation process of the Character Education Promotion Program, the 2006 school year resolution on central virtues, core values survey, and numbers of character education model schools
+[^12]: Ministry of Education (2012). *Seventh Republic of China Education Yearbook*, Part X "Student Affairs and Counseling," Chapter 2 "Character and Life Education." Ministry of Education — Official primary source, including the Character Education Promotion Program implementation history, the 2006 academic year central virtue resolution, core value survey, and numbers of Character Education Deep-Root Schools
+
+[^13]: [Reexamining Citizenship: Reflections on the Formulation of the New High School "Citizenship and Society" Curriculum Guidelines](https://www.ios.sinica.edu.tw/people/personal/mk/mk2009-1.pdf) — Institute of Sociology, Academia Sinica, 2009. Covers the 1928 "Party Principles" origin, Three Principles of the People/national spirit/Four Virtues and Eight Ethics indoctrination during martial law, and the complete history of power structure loosening after the lifting of martial law
+
+[^14]: [Disappeared for 9 Years—Three Principles of the People Returns to High School Citizenship Textbooks](https://news.ltn.com.tw/news/focus/paper/913103) — *Liberty Times*, 2015. Includes key dates such as the 1995 removal of the Three Principles of the People from the university entrance exam and the 2006 renaming to "Citizenship and Society"
+
+[^15]: [Core Literacy — CIRN 12-Year Basic Education Curriculum Guidelines](https://cirn.moe.edu.tw/WebContent/index.aspx?sid=11&mid=12504) — Ministry of Education National Elementary and Secondary Curriculum and Teaching Resources Integration Platform. Three dimensions and nine items, including the official definition of the "Moral Practice and Civic Awareness" literacy
+
+[^16]: [Policy Spinning Its Wheels, Pressure Doubled—108 Curriculum Falls into Five Major Dilemmas After Three Years](https://vip.udn.com/newmedia/2022/12-years-education/problem/) — United Daily News 12-Year Basic Education Special Report, 2022. Frontline review after curriculum implementation
+
+[^17]: [108 Curriculum Observation Report — EdYouth](https://www.edyouth.org/108report) — Published in 2023 by the EdYouth team, composed of current high school students. The second observation report, examining the gap between curriculum ideals and implementation from the student perspective

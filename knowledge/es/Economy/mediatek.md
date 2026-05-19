@@ -12,8 +12,8 @@ featured: false
 lastVerified: 2026-03-25
 lastHumanReview: false
 translatedFrom: Economy/台灣企業：聯發科技.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:dfb20f69ec36c9e6'
+sourceCommitSha: 'b900f18d'
+sourceContentHash: 'sha256:51c6274e50fa4d01'
 sourceBodyHash: 'sha256:ca7ccf342ddb45cb'
 translatedAt: 2026-05-02T01:17:17+08:00
 ---

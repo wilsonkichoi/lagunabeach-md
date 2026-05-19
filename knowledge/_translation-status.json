@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-19T23:09:54+08:00",
-    "zhCommitHead": "43018156e",
-    "totalZh": 732,
+    "lastUpdated": "2026-05-20T05:06:36+08:00",
+    "zhCommitHead": "f3e3541b6",
+    "totalZh": 733,
     "activeLanguages": [
       "en",
       "ja",
@@ -12,43 +12,43 @@
     ],
     "summary": {
       "en": {
-        "total_zh": 732,
+        "total_zh": 733,
         "fresh": 605,
         "stale": 121,
         "metadata_stale": 6,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 732,
+        "total_zh": 733,
         "fresh": 602,
         "stale": 124,
         "metadata_stale": 6,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 732,
+        "total_zh": 733,
         "fresh": 599,
         "stale": 127,
         "metadata_stale": 6,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       },
       "es": {
-        "total_zh": 732,
+        "total_zh": 733,
         "fresh": 604,
         "stale": 122,
         "metadata_stale": 6,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 732,
+        "total_zh": 733,
         "fresh": 602,
         "stale": 124,
         "metadata_stale": 6,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       }
     },
@@ -3898,6 +3898,31 @@
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "Economy/台灣前50大企業.md": {
+      "zh": {
+        "lastCommit": "50fbcf0c",
+        "lastModified": "2026-05-20T00:39:45+08:00",
+        "contentHash": "sha256:01adc215d02d77f4",
+        "bodyHash": "sha256:87d34ddd076d7458"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },

@@ -1,512 +1,248 @@
 ---
-title: "Taiwan's Industrial Transformation and Upgrading: From Manufacturing Powerhouse to Innovation Leader"
-description: "Taiwan's industrial structure has shifted from labor-intensive to knowledge-intensive. Through policies such as the 5+2 Industrial Innovation Plan and the Six Core Strategic Industries, the government has driven the upgrading of traditional manufacturing and the development of emerging industries."
-date: '2026-03-19'
+title: "Taiwan's Industrial Transformation and Upgrading: From Manufacturing Powerhouse to Innovation Powerhouse"
+description: "Taiwan's industrial structure has shifted from labor-intensive to knowledge-intensive, with policies such as the 5+2 Industrial Innovation Plan and the Six Core Strategic Industries advancing the upgrading of traditional manufacturing and the development of emerging industries."
+date: 2026-03-19
 author: 'Taiwan.md'
 category: 'Economy'
 subcategory: '經濟發展'
-tags: ['經濟', '產業政策', '轉型升級', '創新', '製造業', '高科技']
-readingTime: '15'
-lastVerified: '2026-03-19'
-lastHumanReview: 'false'
-featured: 'true'
+tags: ['Economy', 'Industrial Policy', 'Transformation and Upgrading', 'Innovation', 'Manufacturing', 'High Technology']
+readingTime: 15
+lastVerified: 2026-03-19
+lastHumanReview: true
+featured: true
 translatedFrom: 'Economy/台灣產業轉型升級.md'
-sourceCommitSha: 'f712b7242'
-sourceContentHash: 'sha256:4affb5baf55fb635'
-sourceBodyHash: 'sha256:3d5b6f18581f8cf5'
-translatedAt: '2026-05-17T05:34:48+08:00'
+sourceCommitSha: '0f8fae0ae'
+sourceContentHash: 'sha256:aba9e669961d71ce'
+sourceBodyHash: 'sha256:4a2bc57ff97cab00'
+translatedAt: '2026-05-20T05:08:27+08:00'
 ---
 
-# Taiwan's Industrial Transformation and Upgrading: From Manufacturing Powerhouse to Innovation Leader
+# Taiwan's Industrial Transformation and Upgrading: From Manufacturing Powerhouse to Innovation Powerhouse
 
-## 30-Second Overview
-
-Taiwan's industry has undergone a complete transformation from an agricultural society and labor-intensive manufacturing to knowledge-intensive high-tech industries. Through government-driven policies such as the "5+2 Industrial Innovation Plan" and the "Six Core Strategic Industries," Taiwan is shifting from a "manufacturing powerhouse" to an "innovation leader," finding a new position in the restructuring of global supply chains and building competitive advantages in semiconductors, precision machinery, biotech and healthcare, and other fields.
-
-**Keywords:** industrial transformation, 5+2 industries, strategic industries, smart manufacturing, innovation R&D, industrial upgrading
+> **30-second overview:** Since 1945, Taiwan's industries have undergone four stages of transformation: agriculture (1945-1960s) → labor-intensive light industry (1960s-1980s) → parallel development of heavy industry and high technology (1980s-2000s) → knowledge economy (2000-present). Key milestones include the Kaohsiung Export Processing Zone in 1966, the Ten Major Construction Projects in 1974, Hsinchu Science Park in 1980, and the founding of TSMC in 1987. The Tsai Ing-wen administration launched the "5+2 Industrial Innovation Plan" in 2016 and proposed the "Six Core Strategic Industries" in 2020. In 2024, TSMC held more than 60% of the global foundry market, while MediaTek held more than 30% of the mobile phone chip market. These are representative coordinates of Taiwan's shift from a "manufacturing powerhouse" to an "innovation powerhouse."
 
 ---
 
 ## Why It Matters
 
-Taiwan's industrial transformation and upgrading are critical to national competitiveness and sustainable economic development:
-
-### An Inevitable Choice in Global Competition
-
-Facing the rise of mainland China's manufacturing sector and low-cost competition from Southeast Asia, Taiwan must shift from cost competition to value competition, creating new competitive advantages through technology innovation, brand building, and high value-added creation.
-
-### Building Supply Chain Resilience
-
-The COVID-19 pandemic and geopolitical shifts have highlighted the importance of supply chain resilience. Taiwan needs to move from pure manufacturing and OEM/ODM toward becoming a master of key technologies amid global supply chain restructuring.
-
-### The Imperative of Sustainable Development
-
-In response to climate change and ESG (Environmental, Social, and Governance) requirements, traditional energy-intensive and high-pollution manufacturing must transform toward a green economy and circular economy.
+Taiwan's industrial transformation and upgrading are central to national competitiveness and sustainable economic development. Facing the rise of manufacturing in mainland China and low-cost competition from Southeast Asia, Taiwan must shift from cost competition to value competition, using technological innovation, brand building, and high value-added activities to find new competitive advantages. The COVID-19 pandemic and geopolitical changes have further underscored the importance of supply-chain resilience: in the restructuring of global supply chains, Taiwan needs to move from pure manufacturing subcontracting toward control over key technologies. At the same time, climate change and ESG standards require traditional energy-intensive and highly polluting manufacturing industries to move toward green and circular economies.
 
 ---
 
 ## Four Stages of Industrial Evolution
 
-### Stage 1: Agricultural Society (1945–1960s)
+### Stage One: Agricultural Society (1945-1960s)
 
-Post-war Taiwan was predominantly agricultural:
+In the early postwar period, Taiwan was primarily agricultural. Agriculture accounted for more than 30% of GDP, and agricultural products such as rice and cane sugar were the main exports used to earn foreign exchange.
 
-- **Economic structure:** Agriculture accounted for over 30% of GDP
-- **Main products:** Rice, sugar, and other agricultural products
-- **Export orientation:** Agricultural products exchanged for foreign exchange
+**U.S. Aid and Land Reform: The Two Pillars of Postwar Reconstruction**
 
-**U.S. Aid and Land Reform: Two Pillars of Post-War Reconstruction**
+Between 1950 and 1965, total U.S. economic aid to Taiwan was approximately US$1.5 billion. On average, the United States provided about US$100 million per year in material, technical, and financial support, accounting for roughly 40% of Taiwan's capital formation during the period[^1]. U.S. aid not only filled postwar material shortages but also supplied the initial capital for basic industries such as synthetic fibers, glass, and plastics. It was a key external resource in Taiwan's transition from agriculture to light industry.
 
-From 1950 to 1965, U.S. economic aid to Taiwan totaled approximately US$1.5 billion, providing an average of about US$100 million per year in goods, technology, and financial support, equivalent to 5–10% of Taiwan's GNP during the same period. U.S. aid not only filled post-war material shortages but also established the initial capital for basic industries such as synthetic fibers, glass, and plastics, serving as a critical external resource for Taiwan's shift from agriculture to light industry.
+Land reform during the same period was completed in three stages. The 1949 "37.5% Rent Reduction" capped tenant farmers' land rent at 37.5% of the harvest[^2]. The 1951 "Sale of Public Farmland" transferred public arable land to tenant farmers. The 1953 "Land-to-the-Tiller" program compulsorily purchased landlords' holdings beyond the retention limit and resold the land to tenant farmers. Across the three stages, more than 280,000 tenant-farmer households obtained owner-cultivated land. This dismantled the traditional landlord class, while the released rural surplus population became a later source of labor for light industry and cities. Compensation received by landlords was partly converted into industrial investment, such as shares in the four major state-owned companies Taiwan Cement, Taiwan Paper, Taiwan Agriculture and Forestry, and Taiwan Industrial and Mining. This completed a historic conversion from land capital to industrial capital.
 
-Land reform carried out during the same period was completed in three stages: In 1949, the "37.5% Rent Reduction" capped tenant farm rents at 37.5% of the harvest; in 1951, "Public Land Release" transferred public farmland to tenant farmers; and in 1953, "Land to the Tiller" compulsorily acquired land from landlords exceeding retention limits and resold it to tenant farmers. Across the three stages, more than 280,000 tenant farming households acquired their own land, dismantling the traditional landlord class. The surplus rural population released became the labor supply for light industry and urban workforce development. Compensation received by landlords was partially converted into industrial investment (such as shares in the four public enterprises: Taiwan Cement, Taiwan Paper, Taiwan Agriculture and Forestry, and Taiwan Mining and Industry), completing the historic transformation from land capital to industrial capital.
+### Stage Two: The Age of Light Industry (1960s-1980s)
 
-### Stage 2: Light Industry Era (1960s–1980s)
+Through the export processing zone policy, Taiwan developed labor-intensive light industry. Textiles, including garments and footwear, became major exports; the assembly of consumer electronics such as televisions and radios laid the foundation for the electronics industry; and Formosa Plastics Group established the framework of the petrochemical industry. The phrase that defined this era was "the living room as factory," when large numbers of households participated in export production chains through subcontracted work.
 
-Through export processing zone policies, labor-intensive light industries were developed:
+**The Major Policy Turn from Import Substitution to Export Orientation**
 
-- **Textile industry:** Garments and footwear as major exports
-- **Electronics assembly:** Assembly of televisions, radios, and other home appliances
-- **Petrochemical industry:** Formosa Plastics Group laid its foundation
-- **Characteristic:** The "living room as factory" home-based subcontracting model
+In the early 1960s, Taiwan encountered the market-size limits of import-substitution industrialization: domestic demand was limited, and domestic products were difficult to expand further. In 1960, the government promulgated the Statute for the Encouragement of Investment, offering tax reductions and exemptions to attract foreign capital. In 1965, it passed the Act for the Establishment and Administration of Export Processing Zones, and on December 3, 1966, established the world's first export processing zone, the Kaohsiung Export Processing Zone[^3]. This institutional innovation, led by Minister of Economic Affairs K. T. Li, allowed firms to process imported raw materials inside the zone and export all products tax-free. The design later became a model studied by the Shenzhen Special Economic Zone and Singapore's Jurong Industrial Estate. The Nanzih Export Processing Zone was established in 1969, followed by the Taichung Export Processing Zone in 1971. Together, the three major zones employed more than 60,000 workers, and the foreign exchange they generated became a key foundation of Taiwan's foreign-trade surplus.
 
-**The Major Policy Shift from Import Substitution to Export Orientation**
+**The Ten Major Construction Projects: Infrastructure Investment as State Will**
 
-In the early 1960s, Taiwan faced a market-scale bottleneck in import-substitution industrialization—the domestic market was too limited for domestic products to expand further. In 1960, the government promulgated the "Statute for Encouragement of Investment," offering tax incentives to attract foreign capital. In 1965, the "Export Processing Zone Establishment and Management Act" was passed, and on December 3, 1966, the world's first export processing zone, the "Kaohsiung Export Processing Zone," was established. This innovative system, spearheaded by Minister of Economic Affairs K. T. Li—where firms processed imported raw materials within the zone and all products were exported tax-free—became a model for the later Shenzhen Special Economic Zone and Singapore's Jurong Industrial Estate. The Nanzih Export Processing Zone opened in 1969 and the Taichung Export Processing Zone in 1971. The three zones collectively employed over 60,000 workers and generated foreign exchange that became a key foundation for Taiwan's trade surplus.
+After the first oil crisis in 1973, Premier Chiang Ching-kuo promoted the "Ten Major Construction Projects" from 1974 to 1979. Total investment was approximately NT$209.4 billion, equal to 25-30% of GDP at the time. The projects covered six infrastructure works, including the Sun Yat-sen Freeway, railway electrification, the North-Link Railway, Taoyuan International Airport, Taichung Harbor, and Su'ao Harbor; three heavy-industry projects, including China Steel, China Shipbuilding, and the petrochemical industry; and nuclear power plants[^4]. The Ten Major Construction Projects not only sustained Taiwan's economic growth during a global recession marked by soaring oil prices, but also laid the infrastructure and heavy-industrial foundation for subsequent industrial upgrading. They remain a representative case of the "developmental state" model.
 
-**Ten Major Constructions: Infrastructure Investment as National Will**
+### Stage Three: Heavy Industry and High Technology (1980s-2000s)
 
-After the first oil crisis in 1973, Premier Chiang Ching-kuo launched the "Ten Major Constructions" (1974–1979), with a total investment of approximately NT$209.4 billion (25–30% of GDP at the time). The projects encompassed six infrastructure items (Sun Yat-sen Freeway, railway electrification, North-Link Line, Taoyuan International Airport, Taichung Port, and Su'ao Port), three heavy industries (China Steel, China Shipbuilding, and the petrochemical industry), and a nuclear power plant. The Ten Major Constructions not only sustained Taiwan's economic growth during the global recession triggered by soaring oil prices but also laid the infrastructure and heavy industrial foundation for subsequent industrial upgrading, representing a classic case of the "developmental state" model.
+After the Ten Major Construction Projects, Taiwan advanced heavy industry and high technology in parallel. In petrochemicals, the Sixth Naphtha Cracker project was completed. In steel, China Steel sustained a pillar industry. In semiconductors, the founding of TSMC in 1987 established the basis of the foundry model. The PC industrial chain was also fully established during this period.
 
-### Stage 3: Heavy Industry and High Technology (1980s–2000s)
+**Hsinchu Science Park and the Semiconductor Industry: A Cradle of High Technology**
 
-Following the Ten Major Constructions, heavy industry and high technology advanced in parallel:
+Hsinchu Science Park was formally established on December 15, 1980. It was Taiwan's first science park, planned under the leadership of the National Science Council and modeled on the Stanford Industrial Park in Silicon Valley, with the park combining universities and firms in a symbiotic ecosystem[^5]. In its early years, Hsinchu Science Park attracted Chinese American and returning overseas Taiwanese scholars to start companies. As the Industrial Technology Research Institute actively cultivated semiconductor technology, the park became the core cluster of Taiwan's semiconductor industry by the late 1980s.
 
-- **Petrochemical industry:** Completion of the Sixth Naphtha Cracker Complex
-- **Steel industry:** China Steel became a pillar industry
-- **Semiconductors:** TSMC was founded, establishing the foundation for foundry services
-- **Information industry:** A complete PC industry chain was established
+The foundation of the semiconductor industry can be traced to the establishment of ITRI's Electronics Research and Service Organization in 1973. In 1976, ITRI acquired RCA semiconductor technology licensing and sent 19 engineers to the United States for training, including Robert Tsao and Shih Chin-tay. This group became the technical backbone of later companies such as United Microelectronics Corporation, TSMC, and Vanguard International Semiconductor[^6]. UMC was founded in 1980, TSMC was founded by Morris Chang in 1987, and UMC invested US$160 million to build an 8-inch wafer fab in 1994. Within these 14 years, Taiwan built a complete semiconductor industrial chain from scratch. In 2024, TSMC's share of the global foundry market exceeded 60%[^7], which is the origin of its reputation as the "sacred mountain protecting the nation."
 
-**Hsinchu Science Park and the Semiconductor Industry: Cradle of High Technology**
+### Stage Four: The Knowledge Economy Era (2000-Present)
 
-The Hsinchu Science Park was officially established on December 15, 1980, as Taiwan's first science park. Planned by the National Science Council and modeled after the Stanford Industrial Park in Silicon Valley, USA (integrating a university with enterprises within the park), the Hsinchu Park initially attracted overseas Chinese and returning scholars to start businesses. As the Industrial Technology Research Institute (ITRI) actively cultivated semiconductor technology, the park became the core cluster of Taiwan's semiconductor industry in the late 1980s.
+Taiwan has shifted toward a knowledge-intensive and technology-oriented industrial structure. Semiconductors occupy the leading position in global foundry services. Precision machinery has extended from machine tools to whole-plant automation equipment. Biotechnology and medical industries have entered pharmaceutical and medical-device contract manufacturing. Green-energy technology has established staged positions in supply chains for solar and wind power.
 
-The foundational history of the semiconductor industry can be traced to the establishment of ITRI's Electronics Research and Service Organization (ERSO) in 1973. In 1976, 19 engineers were sent to the U.S. for training under a semiconductor technology licensing agreement with RCA (including H. C. Tzu, Shih-Chin Tze, and others), and these individuals became the technical backbone of future companies such as UMC, TSMC, and Vanguard International Semiconductor. UMC was founded in 1980, TSMC was established by Morris Chang in 1987, and in 1994 UMC invested US$160 million to build an 8-inch wafer fab. Within these 14 years, Taiwan built a complete semiconductor industry chain from scratch. In 2024, TSMC's global foundry market share exceeded 60%, giving rise to its reputation as the "Sacred Mountain Protecting the Nation."
+**Comparison with the Four Asian Tigers: Features of the Taiwan Model**
 
-### Stage 4: Knowledge Economy Era (2000–Present)
+From the 1960s to the 1990s, the Four Asian Tigers, Taiwan, South Korea, Hong Kong, and Singapore, were grouped together as newly industrialized economies, but each followed a different development path. The **South Korean model** was led by chaebol conglomerates in large-scale heavy industry. Samsung, LG, Hyundai, and other conglomerates developed steel, shipbuilding, automobiles, and electronics with government support. The **Singapore model** relied on a strong state to attract multinational corporations to establish factories and built a hub for entrepot trade and financial services. The **Hong Kong model** used a laissez-faire market and British legal system to establish a financial and trade hub, but lacked a complete manufacturing base.
 
-A shift toward knowledge-intensive, technology-driven industries:
-
-- **Semiconductors:** Global foundry leadership
-- **Precision machinery:** Machine tools, automation equipment
-- **Biotech and healthcare:** Pharmaceuticals, medical devices
-- **Green energy technology:** Solar power, wind power
-
-**Comparison of the Four Asian Tigers: Characteristics of the Taiwan Model**
-
-From the 1960s to the 1990s, the Four Asian Tigers (Taiwan, South Korea, Hong Kong, and Singapore) were collectively recognized as newly industrialized economies, each following a different development path. The **South Korean model** was dominated by chaebols (conglomerates) leading large-scale heavy industry, with groups such as Samsung, LG, and Hyundai developing steel, shipbuilding, automotive, and electronics with government support. The **Singapore model** featured strong government leadership attracting multinational corporations to set up factories, establishing a transshipment trade and financial services center. The **Hong Kong model** relied on a laissez-faire market and the British legal system to build a financial and trade hub, lacking a complete manufacturing base.
-
-The **uniqueness of the Taiwan model** lies in the combination of "SMEs + high-tech OEM/ODM": In the 1980s, Taiwan's small and medium enterprises (fewer than 200 employees) accounted for over 97% of all businesses, serving as the core engine of the "living room as factory" model and trade surpluses. Meanwhile, the semiconductor and PC industries were cultivated by public research institutions (ITRI) and nurtured with national capital (the National Development Fund) before being transformed into private high-tech companies. This "flexible SME exports + strategic high-tech nurturing" dual engine, compared to South Korea's chaebol concentration, Singapore's government-led approach, and Hong Kong's financial services focus, established a more decentralized and resilient industrial structure—a key reason for Taiwan's relative stability during the 1997 Asian Financial Crisis and the 2008 Global Financial Crisis.
+The **distinctiveness of the Taiwan model** lies in the combination of "small and medium-sized enterprises plus high-tech contract manufacturing." In the 1980s, Taiwan's SMEs, defined as firms with fewer than 200 employees, accounted for more than 97% of all enterprises and became the core engine of the "living room as factory" economy and foreign-trade surpluses. During the same period, the semiconductor and PC industries were cultivated by public research institutions such as ITRI and supported by state capital such as the National Development Fund, before transforming into private high-tech companies. This dual engine of "flexible SME exports plus strategic high-tech cultivation" created a more dispersed and resilient industrial structure than South Korea's chaebol concentration, Singapore's state-led model, or Hong Kong's financial services. It was a key reason for Taiwan's relative stability during the 1997 Asian financial crisis and the 2008 global financial crisis.
 
 ---
 
 ## Core Transformation Challenges
 
-### The Dilemma of the Smile Curve
+### The Smile Curve Dilemma
 
-The "Smile Curve," proposed by Acer founder Stan Shih in 1992, depicts the reality of the manufacturing value chain: the two ends of the curve (left end "R&D and design," right end "branding and distribution") have high value-added, while the middle segment "manufacturing" has the lowest value-added. Taiwan's electronics industry has long been concentrated in the middle of the curve—performing world-class OEM/ODM, but with gross margins persistently compressed to 3–5%. At its peak, Taiwan's PC industry had an annual output value exceeding US$100 billion, but most of the profits flowed upstream to Intel and Microsoft and downstream to Dell and HP, leaving limited actual profit for local firms.
+The "Smile Curve," proposed by Acer founder Stan Shih in 1992, depicts the real structure of value chains in manufacturing: the two ends of the curve, the left end of "R&D and design" and the right end of "branding and channels," have high added value, while the middle segment of "manufacturing" has the lowest added value[^8]. Taiwan's electronics industry long concentrated in the middle of the curve, performing world-class contract manufacturing while gross margins remained compressed in the 3-5% range. At the height of Taiwan's PC industry, annual output value exceeded US$100 billion, but most profits flowed upstream to Intel and Microsoft and downstream to Dell and HP. Local firms retained only limited profits.
 
-The two paths to break through the Smile Curve—upstream R&D (such as ASML's EUV lithography equipment or TSMC's advanced process technology) or downstream branding (such as Apple's iPhone ecosystem)—both require 10–20 years of accumulation. This has been the core challenge of Taiwan's industrial upgrading since the 1990s. TSMC chose to go left (extreme process R&D), while ASUS and HTC chose to go right (own-brand strategies). Yet the number of Taiwanese enterprises that have successfully crossed the middle segment remains small, and most small and medium manufacturers are still seeking digital transformation solutions at the bottom of the curve.
+There are two paths to breaking through the smile curve: moving upstream into R&D, as in ASML's EUV lithography equipment or TSMC's advanced processes, or moving downstream into branding, as in Apple's iPhone ecosystem. Both require 10-20 years of accumulation. This has been the core challenge of Taiwan's industrial upgrading since the 1990s. TSMC chose to move left, toward extreme process R&D. ASUS and HTC chose to move right, toward own-brand development. But Taiwanese firms that have successfully crossed beyond the middle segment remain few, and most SME manufacturers are still seeking paths for digital transformation at the bottom of the curve.
 
-### The Predicament of Traditional Manufacturing
+### The Difficulties of Traditional Manufacturing
 
-Taiwan's traditional manufacturing sector faces multiple challenges:
+Taiwan's traditional manufacturing industries face multiple challenges. Cost pressure comes from across-the-board increases in land, labor, and energy prices, increasingly stringent environmental regulations, and the appreciation of the New Taiwan dollar, which weakens export competitiveness. The technology gap appears in three dimensions: insufficient R&D investment, lack of key core technologies, and low product added value. On the market side, diversified consumer demand, shorter product life cycles, and rising demand for customization force firms to continuously adjust production flexibility.
 
-**Cost pressures:**
+### The Challenge of Talent Structure
 
-- Rising land, labor, and energy costs
-- Increasingly stringent environmental regulations
-- New Taiwan dollar appreciation affecting export competitiveness
-
-**Technology gaps:**
-
-- Insufficient R&D investment
-- Lack of key core technologies
-- Low product value-added
-
-**Market changes:**
-
-- Diversifying consumer demand
-- Shortening product life cycles
-- Increasing demand for customization
-
-### Talent Structure Challenges
-
-Industrial transformation requires simultaneous adjustment of the talent structure:
-
-- **Skills gap:** Traditional skills do not match the needs of emerging industries
-- **Generational divide:** Young people are unwilling to enter manufacturing
-- **Global competition:** Intense worldwide competition for talent
+Industrial transformation requires the talent structure to adjust at the same time. The current bottlenecks are threefold: a skills gap between traditional skills and the needs of emerging industries, a generational break as young people are reluctant to enter manufacturing, and international competitive pressure amid the global race for talent.
 
 ---
 
-## Government-Driven Transformation Strategies
+## Government-Led Transformation Strategies
 
-### 5+2 Industrial Innovation Plan (2016–2020)
+### The 5+2 Industrial Innovation Plan (2016-2020)
 
-A key industrial policy advanced by the Tsai Ing-wen administration:
+After taking office, the Tsai Ing-wen administration promoted a flagship industrial policy targeting five major innovative industries: the Asia Silicon Valley plan, as a base for Internet of Things innovation and R&D; biomedicine, focused on precision medicine and new drug development; green energy technology, including solar and wind power; smart machinery, including Industry 4.0 and smart manufacturing; and the national defense industry, including indigenous defense and aerospace. It added two major foundations: new agriculture, including technology agriculture and Agriculture 4.0, and the circular economy, focused on resource circulation and reuse. Together, these formed the "5+2" policy framework.
 
-**Five Major Innovation Industries:**
+### The Six Core Strategic Industries (2020-2024)
 
-1. **Asia·Silicon Valley:** IoT innovation and R&D base
-2. **Biotechnology and Pharmaceuticals:** Precision medicine, new drug development
-3. **Green Energy Technology:** Solar power, wind power
-4. **Smart Machinery:** Industry 4.0, smart manufacturing
-5. **Defense Industry:** Indigenous defense, aerospace industry
-
-**Two Major Infrastructure Initiatives:**
-
-- **New Agriculture:** Technology-driven agriculture, Agriculture 4.0
-- **Circular Economy:** Resource recycling and reuse
-
-### Six Core Strategic Industries (2020–2024)
-
-Responding to pandemic impacts and geopolitical changes:
-
-1. **Information and Digital-Related Industries:** 5G, AI, cloud computing
-2. **Cybersecurity Excellence Industry:** Information security, network security
-3. **Taiwan Precision Health Industry:** Precision medicine, health big data
-4. **Renewable Energy Industry:** Offshore wind power, solar energy
-5. **Defense and Strategic Industries:** Indigenous aircraft, indigenous naval vessels
-6. **People's Livelihood and War Preparedness Industries:** Masks, protective equipment
+In response to the shock of the pandemic and geopolitical restructuring, the Tsai administration upgraded its policy framework in 2020 into the Six Core Strategic Industries: information and digital industries, including 5G, AI, and cloud computing; cybersecurity excellence, including information security and network security; precision health, including precision medicine and big health data; renewable energy, including offshore wind power and solar power; national defense and strategic industries, including indigenous military aircraft and naval vessels; and livelihood and strategic stockpile industries, including masks and protective equipment. This framework responded to the supply-chain vulnerabilities exposed by COVID-19 and the demand for strategic autonomy amid the U.S.-China technology war.
 
 ### Four Major Strategies for Industrial Upgrading and Transformation
 
-**Push for Higher Value/Quality:**
-
-- Enhance product grade and value
-- Develop high value-added manufacturing
-- Build own brands
-
-**Fill Critical Gaps:**
-
-- Build a complete industrial supply chain
-- Master key core technologies
-- Reduce external dependencies
-
-**Expand System Capabilities:**
-
-- Build system solution capabilities
-- Shift from component supply to total solutions
-- Provide value-added services
-
-**Nurture Emerging Industries:**
-
-- Accelerate the promotion of emerging industries
-- Cultivate future growth engines
-- Create new industrial value chains
+The government has broken industrial upgrading into four work directions. "Promoting higher value and quality" focuses on improving product grade and added value and building independent brands. "Filling key gaps" targets complete industrial supply chains and control of core technologies to reduce external dependence. "Expanding systems" encourages firms to move from component supply toward system solutions and value-added services. "Cultivating emerging industries" accelerates incubation of emerging industries and develops future growth engines.
 
 ---
 
-## Key Industry Transformation Case Studies
+## Key Examples of Industrial Transformation
 
-### Digital Transformation of Traditional Manufacturing
+### Digital Transformation in Traditional Manufacturing
 
-**Textile Industry:**
+**Textiles** have introduced automated production equipment into smart manufacturing and shortened response times from design to finished product. Innovation directions include functional fabrics for sports and medical use, as well as circular-economy models based on recycled fibers and sustainable production.
 
-- **Smart manufacturing:** Introduction of automated production equipment
-- **Quick response:** Shortening the time from design to finished product
-- **Functional fabrics:** Development of specialized materials for sports and medical use
-- **Circular economy:** Recycled fibers, sustainable production
+**Machinery** is moving toward Industry 4.0 by integrating the Internet of Things, big data, and AI. Flexible manufacturing systems support customized production. Preventive maintenance and remote monitoring services, using sensors to predict equipment failures, are also becoming more widespread.
 
-**Machinery Industry:**
+**Food** is shifting from contract manufacturing toward refined own-brand strategies, adding health-oriented appeals through functional foods and organic products while expanding into overseas markets. Blockchain technology has also begun to be used for food-source traceability management.
 
-- **Industry 4.0:** Integration of IoT, big data, and AI
-- **Customized production:** Flexible manufacturing systems
-- **Predictive maintenance:** Sensor-based equipment failure prediction
-- **Remote services:** Remote monitoring and maintenance
+### Continuous Innovation in High-Tech Industries
 
-**Food Industry:**
+**Semiconductors** continue to advance 3-nanometer and 2-nanometer processes, together with heterogeneous integration technologies such as system-in-package. Applications have extended to automotive chips and AI chips, while investment has also gone into R&D for next-generation semiconductor materials.
 
-- **Premiumization:** Shifting from OEM to own brands
-- **Health orientation:** Functional foods, organic products
-- **Internationalization:** Entering overseas markets
-- **Traceability management:** Blockchain technology for food source tracking
-
-### Continued Innovation in High-Tech Industries
-
-**Semiconductors:**
-
-- **Advanced processes:** 3nm, 2nm technology leadership
-- **Heterogeneous integration:** System-in-Package (SiP)
-- **Specialized applications:** Automotive chips, AI chips
-- **Material innovation:** Next-generation semiconductor materials
-
-**Precision Machinery:**
-
-- **Intelligentization:** Combining AI with robotic arms
-- **Precision manufacturing:** Nanometer-level processing technology
-- **Energy efficiency and environmental protection:** Green manufacturing technology
-- **Customization:** Development for specific industry needs
+**Precision machinery** combines AI and robotic arms to move toward intelligent production, nanometer-scale precision manufacturing, green energy-saving technologies, and customized design for the needs of specific industries.
 
 ---
 
-## Transformation and Upgrading of the Service Sector
+## Transformation and Upgrading in Services
 
-### The Digital Transformation Wave
+### The Wave of Digital Transformation
 
-The pandemic accelerated the digitization of the service sector:
+The pandemic accelerated comprehensive digitalization in Taiwan's service industries. **Retail** is moving toward omnichannel integration of online and offline channels; AI recommendation systems are driving personalization; and automated unmanned stores, eco-friendly packaging, and lower-carbon delivery are advancing sustainable consumption at the same time. **Food and beverage** has seen delivery platforms change distribution structures, smart kitchens introduce automated cooking equipment, and cloud POS systems and mobile payments become standard. Some high-end restaurants also use blockchain for ingredient traceability. **Finance** has seen the emergence of digital banks that operate as pure online banks, financial technology based on blockchain and AI risk control, open banking through API integration, and sustainable finance centered on green finance and ESG investment.
 
-**Retail:**
+### Innovative Development in Cultural and Creative Industries
 
-- **Omnichannel:** Online-offline integration
-- **Personalization:** AI recommendation systems
-- **Unmanned stores:** Automated retail
-- **Sustainable consumption:** Eco-friendly packaging, carbon-reduction delivery
-
-**Food and Beverage:**
-
-- **Delivery platforms:** Digitized delivery services
-- **Smart kitchens:** Automated cooking equipment
-- **Cloud POS:** Digital ordering, mobile payments
-- **Ingredient traceability:** Blockchain technology applications
-
-**Finance:**
-
-- **Digital banking:** Pure online banking services
-- **Fintech:** Blockchain, AI risk control
-- **Open banking:** API-integrated services
-- **Sustainable finance:** ESG investing, green finance
-
-### Innovation and Development of the Cultural and Creative Industries
-
-Combining technology and creativity:
-
-- **Digital content:** Games, animation, video
-- **Experience economy:** Immersive experience design
-- **IP licensing:** Intellectual property commercialization
-- **Cultural technology:** AR/VR applications
+Cultural and creative industries combine technology and creativity and are developing in four directions: digital content in games, animation, and audiovisual media; the experience economy based on immersive experience design; IP licensing through the commercialization of intellectual property; and cultural technology using AR/VR applications.
 
 ---
 
-## Key Elements of Successful Transformation
+## Key Factors in Successful Transformation
 
-### Policy Support Systems
+### Policy Support System
 
-**Capital injection:**
-
-- National Development Fund investments
-- Science and Technology Development Fund
-- SME Development Fund
-- Tax incentives under the Statute for Industrial Innovation
-
-**Infrastructure:**
-
-- 5G network construction
-- Digital infrastructure
-- R&D park expansion
-- Talent cultivation bases
-
-**Regulatory adaptation:**
-
-- Regulatory sandbox mechanisms
-- Deregulation
-- Legal frameworks for emerging technologies
-- Cross-ministerial coordination mechanisms
+The policy support system operates on three levels. In funding, it includes investment from the National Development Fund, the science and technology development fund, the SME development fund, and tax incentives under the Statute for Industrial Innovation. In infrastructure, it covers 5G network construction, digital infrastructure, expansion of R&D parks, and talent-training bases. In regulatory adaptation, it uses regulatory sandboxes, deregulation, legalization of emerging technologies, and interministerial coordination mechanisms to give emerging industries adequate room for experimentation.
 
 ### Industry-Academia-Research Collaboration
 
-**Technology R&D:**
+In technological R&D, public research institutions such as ITRI and the Institute for Information Industry, together with university R&D centers, corporate R&D alliances, and international technology cooperation, form a multilayered R&D network. Talent cultivation relies on industry-academia special programs, internship matching programs, in-service training, and overseas talent recruitment to fill gaps.
 
-- Public research institutions (ITRI, III, etc.)
-- University R&D centers
-- Corporate R&D alliances
-- International technology cooperation
+### Corporate Innovation Capacity
 
-**Talent cultivation:**
-
-- Industry-academia collaboration programs
-- Internship matching programs
-- On-the-job training
-- Overseas talent recruitment
-
-**Corporate innovation capabilities:**
-
-- **R&D investment:** Taiwan's corporate R&D expenditure as a share of GDP reaches 3.5%, among the highest globally
-- **Patent portfolio:** Active international patent applications to protect core technologies
-- **International cooperation:** Strategic alliances with multinational corporations to access technology and markets
+Taiwan's corporate R&D expenditure has reached 3.5% of GDP, placing it among the world's leading economies. Firms also actively apply for international patents to protect core technologies and form strategic alliances with multinational corporations to obtain technology and market channels.
 
 ---
 
-## Driving Digital Transformation
+## Advancing Digital Transformation
 
 ### Introduction of Smart Manufacturing
 
-Manufacturing improves efficiency through digital technology:
+Manufacturing improves efficiency through digital technology. Manufacturing execution systems (MES) make it possible to access real-time production information, automate quality control, and optimize equipment efficiency. Predictive maintenance uses IoT sensors to monitor equipment and AI to forecast failure timing, sharply reducing downtime losses. Flexible manufacturing systems support rapid production-line and mold changes, small-batch diversified production, and fulfillment of customization needs.
 
-**Manufacturing Execution Systems (MES):**
+### Supply-Chain Digitalization
 
-- Real-time production information monitoring
-- Automated quality control
-- Equipment efficiency optimization
-
-**Predictive Maintenance:**
-
-- IoT sensors monitoring equipment
-- AI predicting failure times
-- Reducing downtime losses
-
-**Flexible Manufacturing Systems:**
-
-- Quick changeover and mold switching
-- Small-batch, diversified production
-- Meeting customized demand
-
-### Supply Chain Digitization
-
-Building transparent, resilient supply chains:
-
-**Digital twins:** Virtual-real integrated supply chain simulation
-
-**Blockchain traceability:** Ensuring transparent product provenance
-
-**Demand forecasting:** AI analysis of market demand changes
+Building transparent and resilient supply chains requires a combination of three technologies: digital twins for integrated physical-virtual supply-chain simulation, blockchain traceability to ensure transparent product histories, and AI analysis for demand forecasting and tracking market changes.
 
 ---
 
-## Challenges and Opportunities
+## Challenges and Opportunities Ahead
 
-### Ongoing Challenges
+### Persistent Challenges
 
-**International competition:**
-
-- Manufacturing competition from mainland China
-- Low-cost advantages in Southeast Asia
-- Technology leadership pressure from the U.S. and Europe
-
-**Internal constraints:**
-
-- Land, labor, and energy costs
-- Environmental regulatory restrictions
-- Difficulty accessing capital (for SMEs)
-
-**Technology gaps:**
-
-- Key technologies still reliant on imports
-- Insufficient basic research investment
-- Weak links in certain parts of the industrial chain
+At the level of international competition, Taiwan simultaneously faces three pressures: manufacturing competition from mainland China, Southeast Asia's low-cost advantages, and the technological lead of Europe and the United States. Internal constraints include rising land, labor, and energy costs, increasingly stringent environmental regulations, and difficult access to funding for SMEs. In terms of technology gaps, key technologies still depend on imports, investment in basic research remains insufficient, and some segments of industrial chains are still weak.
 
 ### Emerging Opportunities
 
-**Geopolitical restructuring:**
-
-- Supply chain localization trends
-- Friend-shoring
-- Position as a trustworthy supplier
-
-**Sustainable development demand:**
-
-- Green manufacturing opportunities
-- Circular economy models
-- Carbon neutrality technology needs
-
-**The digital economy wave:**
-
-- 5G application opportunities
-- AIoT industry opportunities
-- Cybersecurity industry growth
+Geopolitical restructuring has brought trends toward supply-chain localization, friend-shoring, and Taiwan's strategic position as a trusted supplier. Sustainable-development needs are creating opportunities in green manufacturing, circular-economy models, and carbon-neutral technologies. The wave of the digital economy has opened three growth lines: 5G applications, AIoT industries, and the cybersecurity industry.
 
 ---
 
 ## Future Development Directions
 
-### 2030 Industrial Vision
+### Industrial Vision for 2030
 
-**Innovation-driven:**
-
-- R&D expenditure reaching 4% of GDP
-- Doubling the number of startups
-- Cultivating unicorn companies
-
-**Sustainable development:**
-
-- 2050 net-zero carbon emissions target
-- Widespread adoption of circular economy models
-- Establishment of a green finance system
-
-**Digital transformation:**
-
-- Full-sector digitization
-- Smart city construction
-- Digital government services
+In innovation orientation, the government's goal is to raise R&D expenditure as a share of GDP from 3.5% to 4%, while doubling the number of startups and cultivating unicorns. In sustainable development, the vision aligns with the 2050 net-zero emissions target, the spread of circular-economy models, and the establishment of a green financial system. In digital transformation, the aim is to advance on multiple axes: digitalization across all industries, smart-city construction, and digital government services.
 
 ### Key Strategic Directions
 
-**Strengthening the innovation ecosystem:**
-
-- Establishing innovation clusters
-- Promoting cross-domain collaboration
-- International innovation linkages
-
-**Deepening digital applications:**
-
-- Promoting AI adoption across industries
-- Building 5G application testbeds
-- Developing Web 3.0 industries
-
-**Expanding international connections:**
-
-- Participating in international supply chain restructuring
-- Establishing key partnerships
-- Promoting bilateral industry cooperation
+There are three main axes for achieving this vision: strengthening the innovation ecosystem by establishing innovation clusters, promoting cross-domain cooperation, and linking with international innovation networks; deepening digital applications through industrial AI adoption, 5G application fields, and Web 3.0 industries; and expanding international connections by participating in supply-chain restructuring, establishing key partnerships, and promoting bilateral industrial cooperation.
 
 ---
 
-## Success Stories
+## Success Cases
 
-### TSMC: The Sacred Mountain Protecting the Nation
+### TSMC's Status as the Sacred Mountain Protecting the Nation
 
-From a foundry to a global semiconductor leader:
+From a foundry to a global semiconductor leader, TSMC possesses the world's most advanced process technologies and a top-tier client base including Apple and NVIDIA, while also driving the cluster effects of Taiwan's entire semiconductor industrial chain. Since Morris Chang founded TSMC in 1987 under the "pure-play foundry" model, it has become an irreplaceable link in global semiconductor manufacturing.
 
-- **Technology leadership:** The world's most advanced process technology
-- **Customer trust:** Top-tier clients including Apple and NVIDIA
-- **Ecosystem:** Driving the entire semiconductor industry supply chain
+### Giant Manufacturing's Path to Branding
 
-### Giant Manufacturing: The Path from OEM to Brand
+Giant Manufacturing, known through the Giant bicycle brand, was founded by King Liu in Dajia, Taichung, in 1972. In its early years it mainly produced bicycles on contract for brands such as Schwinn in the United States[^9]. After Schwinn shifted orders to Shenzhen, China, in the 1980s, Liu decided to create the "Giant" brand and enter European and American markets. Giant established its first overseas base in the Netherlands in 1986 and entered the Chinese market in 1992. In 2024, Giant sold more than 6 million bicycles worldwide annually, making it one of the world's largest bicycle brands and a representative case of Taiwan's manufacturing sector shifting from contract manufacturing to brand management. Its product lines cover carbon-fiber frames and electric-assist bicycles, and its global production and sales networks continue to expand.
 
-Transitioning from contract manufacturing to own-brand operations:
+### MediaTek's Chip Kingdom
 
-- **Giant brand:** A world-renowned bicycle brand
-- **Technology innovation:** Carbon fiber materials, electric assist
-- **Global footprint:** Cross-border production and sales network
+MediaTek was spun off from United Microelectronics Corporation in 1997. It initially entered the market through optical-storage DVD chips and shifted toward mobile phone chips starting in 2003[^10]. MediaTek's "Turn-key Solution" allowed Chinese shanzhai phone manufacturers to rapidly produce low-cost smartphones, establishing its leading position in global mid- and low-end mobile phone chips in the 2010s. In 2019, it launched the high-end Dimensity 5G chip series and began competing directly with Qualcomm in the mid- to high-end SoC market. In 2024, MediaTek held more than 30% of the global mobile phone chip market. It is a representative Taiwanese fabless semiconductor company and a concrete outcome of mid- to high-end market positioning and sustained high R&D investment.
 
-Giant Manufacturing (捷安特) was founded by King Liu (劉金標) in Dajia, Taichung, in 1972, initially manufacturing bicycles on an OEM basis for brands such as Schwinn. In the 1980s, after Schwinn shifted orders to Shenzhen, China, Liu decided to create the "Giant" brand to enter European and American markets. In 1986, Giant established its first overseas office in the Netherlands, and in 1992 it entered the Chinese market. In 2024, Giant sold over 6 million bicycles globally, making it one of the world's largest bicycle brands and demonstrating the possibility for Taiwan's manufacturing sector to transition from OEM to brand management.
+---
 
-### MediaTek: The Chip Kingdom
+## Further Reading
 
-From PC chips to mobile and AIoT:
-
-- **Technology transition:** From DVD chips to mobile processors
-- **Market strategy:** Mid-to-high-end market positioning
-- **Innovation investment:** Sustained high R&D spending
-
-MediaTek was spun off from UMC in 1997, initially entering the market with optical storage (DVD) chips before pivoting to mobile phone chips in 2003. MediaTek's "Turn-key Solution" (one-stop solution) enabled Chinese white-label phone manufacturers to rapidly produce low-cost smartphones, establishing MediaTek as the global leader in low-to-mid-range mobile chips in the 2010s. In 2019, MediaTek launched the high-end Dimensity series of 5G chips, competing head-to-head with Qualcomm in the mid-to-high-end SoC market. In 2024, MediaTek's global mobile chip market share exceeded 30%, making it Taiwan's representative fabless semiconductor enterprise.
+- [Semiconductor Industry](/technology/半導體產業) — From the 1976 RCA technology transfer to a 60% global market share in 2024, how this core industry that began in Hsinchu Science Park became the "sacred mountain protecting the nation"
+- [Morris Chang](/people/張忠謀) — The key figure who founded TSMC in 1987 and the central driver of Taiwan's semiconductor industry from its beginnings
+- [Taiwan's Foreign Trade and Global Supply Chains](/economy/台灣外貿與全球供應鏈) — The long trajectory from foreign exchange generated by export processing zones to semiconductors as the main export force in 2024
+- [Startup Ecosystem](/economy/新創生態系) — Another path from manufacturing transformation to innovation powerhouse: the development of startups and fabless semiconductors after the 1990s
+- [Taiwan's Artificial Intelligence Development and Future Strategy](/technology/台灣人工智慧發展與未來策略) — The next wave of industrial transformation after 2024: strategic positioning from hardware dominance to AI applications
 
 ---
 
 ## References
 
-### Related Articles
+[^1]: [U.S. Aid — Wikipedia](https://zh.wikipedia.org/zh-tw/%E7%BE%8E%E6%8F%B4) — From 1950 to 1965, total U.S. economic aid to Taiwan was approximately US$1.5 billion, averaging about US$100 million per year. It accounted for roughly 40% of Taiwan's capital formation, about 40% of imports, and about 38% of gross investment during the same period, and was a key external resource in Taiwan's transition from agriculture to light industry.
 
-### References
+[^2]: [37.5% Rent Reduction — Wikipedia](https://zh.wikipedia.org/zh-tw/%E4%B8%89%E4%B8%83%E4%BA%94%E6%B8%9B%E7%A7%9F) — The first stage of Taiwan's land reform, implemented in 1949, capped tenant farmers' land rent at 37.5% of the total annual harvest of the main crop. It formed the basis for the subsequent Sale of Public Farmland in 1951 and Land-to-the-Tiller in 1953.
 
-- [Industrial Development Administration, Ministry of Economic Affairs](https://www.ida.gov.tw/)
-- [National Development Council Industry Development Reports](https://www.ndc.gov.tw/)
-- [Chung-Hua Institution for Economic Research Industry Analysis](https://www.cier.edu.tw/)
-- [ITRI Industry, Science and Technology International Strategy Center](https://ieknet.iek.org.tw/)
-- *2024 Survey on the Current Status and Needs of Enterprise Transformation in Taiwan* (PwC)
-- [Executive Yuan "Six Core Strategic Industries" Policy Document](https://www.ey.gov.tw/Page/5A8A0CB5B41DA11E/7a65a06e-3f71-4c68-b368-85549fbca5d1)
+[^3]: [Kaohsiung Export Processing Zone — Wikipedia](https://zh.wikipedia.org/zh-tw/%E9%AB%98%E9%9B%84%E5%8A%A0%E5%B7%A5%E5%87%BA%E5%8F%A3%E5%8D%80) — Established on December 3, 1966, and planned under the leadership of Minister of Economic Affairs K. T. Li, it was the world's first export processing zone. The Nanzih zone was established in 1969 and the Taichung zone in 1971, creating the core foundation for Taiwan's export-oriented light industry and later becoming a model studied by the Shenzhen Special Economic Zone and Singapore's Jurong Industrial Estate.
 
----
+[^4]: [Ten Major Construction Projects — Wikipedia](https://zh.wikipedia.org/zh-tw/%E5%8D%81%E5%A4%A7%E5%BB%BA%E8%A8%AD) — A national major construction program promoted by Premier Chiang Ching-kuo from 1974 to 1979, with total investment of approximately NT$209.4 billion. It included ten projects such as the Sun Yat-sen Freeway, railway electrification, Taoyuan Airport, China Steel, China Shipbuilding, the petrochemical industry, and nuclear power generation.
 
-*Taiwan's industrial transformation and upgrading is an ongoing process—from labor-intensive to knowledge-intensive, from contract manufacturing to innovation R&D, from the domestic market to global deployment. Amid global economic upheaval, Taiwan must continue to innovate and deepen its transformation to maintain competitive advantage and move toward the goal of becoming an innovation leader.*
+[^5]: [Hsinchu Science Park — Wikipedia](https://zh.wikipedia.org/zh-tw/%E6%96%B0%E7%AB%B9%E7%A7%91%E5%AD%B8%E5%9C%92%E5%8D%80) — Established on December 15, 1980, it was Taiwan's first science park. Modeled on the Stanford Industrial Park in Silicon Valley, with universities and firms developing symbiotically, it was planned under the leadership of the National Science Council and became the core cluster of Taiwan's semiconductor industry by the late 1980s.
+
+[^6]: [Industrial Technology Research Institute — Wikipedia](https://zh.wikipedia.org/zh-tw/%E5%B7%A5%E6%A5%AD%E6%8A%80%E8%A1%93%E7%A0%94%E7%A9%B6%E9%99%A2) — A public research institution established in 1973. In 1976, it obtained RCA semiconductor technology licensing and sent 19 engineers to the United States for training, including Robert Tsao and Shih Chin-tay. It became a cradle of technical talent for later semiconductor companies such as United Microelectronics Corporation in 1980, TSMC in 1987, and Vanguard International Semiconductor.
+
+[^7]: [Taiwan Semiconductor Manufacturing Company — Wikipedia](https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E7%81%A3%E7%A9%8D%E9%AB%94%E9%9B%BB%E8%B7%AF%E8%A3%BD%E9%80%A0) — Founded by Morris Chang in 1987, it was the world's first dedicated pure-play foundry. In 2024, its share of the global foundry market exceeded 60%, and its advanced processes covered 3 nanometers and 2 nanometers. It is the origin of the phrase "sacred mountain protecting the nation."
+
+[^8]: [Smile Curve — Wikipedia](https://zh.wikipedia.org/zh-tw/%E5%BE%AE%E7%AC%91%E6%9B%B2%E7%B7%9A) — A theory of manufacturing value chains proposed by Acer founder Stan Shih in 1992. It depicts the two ends of the curve, R&D and design and branding and channels, as having high added value, while the middle segment, manufacturing, has the lowest added value. It has been a core conceptual tool in Taiwan's industrial upgrading discourse since the 1990s.
+
+[^9]: [Giant Group — Wikipedia](https://zh.wikipedia.org/zh-tw/%E5%B7%A8%E5%A4%A7%E9%9B%86%E5%9C%98) — A bicycle manufacturer founded by King Liu in Dajia, Taichung, in 1972. It initially produced for Schwinn on contract, then created the "Giant" brand in 1986 to enter European and American markets. It established its first overseas base in the Netherlands in 1986 and entered the Chinese market in 1992. It is a representative case of Taiwan's manufacturing sector shifting from contract manufacturing to own-brand development.
+
+[^10]: [MediaTek — Wikipedia](https://zh.wikipedia.org/zh-tw/%E8%81%AF%E7%99%BC%E7%A7%91%E6%8A%80) — Spun off from United Microelectronics Corporation in 1997, it began with DVD optical-storage chips and shifted to mobile phone chips in 2003. In 2019, it launched the Dimensity 5G series to compete with Qualcomm in the mid- to high-end SoC market. It is a representative Taiwanese fabless semiconductor company.
+
+### Related Official Resources
+
+- [Industrial Development Administration, Ministry of Economic Affairs](https://www.ida.gov.tw/) — The official implementing agency for the 5+2 Industrial Innovation Plan and Six Core Strategic Industries policies.
+- [National Development Council Industrial Development Reports](https://www.ndc.gov.tw/) — Policy reports issued by the NDC on Taiwan's industrial structure, R&D investment, talent cultivation, and related topics.
+- [Chung-Hua Institution for Economic Research Industrial Analysis](https://www.cier.edu.tw/) — CIER's industrial analysis database, including analytical reports on manufacturing, services, semiconductors, and other fields.
+- [Industrial Economics and Knowledge Center, ITRI](https://ieknet.iek.org.tw/) — IEK provides information on Taiwan's industrial technology trends and international comparisons.
+- [Executive Yuan Policy Document on the "Six Core Strategic Industries"](https://www.ey.gov.tw/Page/5A8A0CB5B41DA11E/7a65a06e-3f71-4c68-b368-85549fbca5d1) — The official policy document for the core strategic industries proposed by the Tsai Ing-wen administration in 2020.
