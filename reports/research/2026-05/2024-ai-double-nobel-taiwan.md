@@ -142,3 +142,48 @@ Target: `knowledge/Technology/台灣人工智慧發展與未來策略.md`（176 
 ### Stage 0 Hard Gate ✅
 
 ## Stage 1 研究筆記（待 sub-agent append）
+
+## Stage 1 + 2-5 audit (sub-agent 2026-05-19)
+
+**Stage 1 fact corrections applied** (all 10 in task spec):
+
+- FF-1 寧夏夜市 2024/05/29 ✅ (article L48: "2024 年 5 月 29 日傍晚")
+- FF-2 杜奕瑾 2017/04 Taiwan AI Labs ✅ (article L116: "2017 年 4 月")
+- FF-3 黃仁勳成大名譽博士 unverified → 整段不寫 ✅
+- FF-4 TAIDE 2024/04 商用 8B + 學研 13B ✅ (article L182: "TAIDE-LX-7B 和學研版 TAIDE-LX-13B")
+- FF-5 Hopfield + Hinton 2024/10/08 獎金平分 ✅
+- FF-6 Hassabis+Jumper+Baker 2024/10/09 (Baker 一半 + H+J 共享一半) ✅
+- FF-7 AlphaFold 2 CASP14 2020/11/30 GDT 92.4 ✅
+- FF-8 AlphaFold 3 2024/05/08 Nature ✅
+- FF-9 AlexNet 2012 top-5 error 15.3% vs 26.2% ✅
+
+**Stage 3.5 FACTCHECK fact atoms verified (Nobel + AlphaFold core)**:
+
+- 2024 Nobel Physics 10/08, Hopfield + Hinton, 11M SEK split equally (nobelprize.org)
+- 2024 Nobel Chemistry 10/09, Baker (half) + Hassabis/Jumper (joint half) (nobelprize.org)
+- AlphaFold 2 CASP14 GDT 92.4 median (Nature 2020-11-30 coverage)
+- AlphaFold 3 published 2024-05-08 Nature 630:493-500 (wikipedia AlphaFold)
+- Hopfield 1982 PNAS paper title verified (en.wikipedia/John_Hopfield)
+- Hinton birth 1947-12-06 London Wimbledon, joined Google 2013-03 via DNNresearch $44M (en.wikipedia/Geoffrey_Hinton)
+- Hinton 2023 quitting Google quotes verified verbatim (BBC + wikipedia)
+- Hassabis chess prodigy + 17 yo Theme Park 1994 + DeepMind 2010 founded + Google £400M 2014 (en.wikipedia/Demis_Hassabis)
+
+**Stage 4 article-health.py --profile=rewrite-stage-4**: hard=0 warn=0 ✅
+**Stage 3.5 article-health.py --profile=rewrite-stage-3-5**: hard=0 warn=0 ✅
+**Full sweep (16 plugins)**: hard=0 warn=5 (all under-threshold, prose-health score=1 ≤ 3 pass) ✅
+
+**Image cache** (Stage 4.5):
+
+- hero: `/article-images/technology/alphafold-cbln1-structure-2025.png` (840x610, aspect 1.38, CC BY 4.0, BQUB25-UPoch)
+- inline 1: `/article-images/technology/hinton-nobel-2024.jpg` (838x1118, aspect 0.75, CC BY-SA 4.0, Arthur Petron WikiPortraits Nobel Week 2024-12-08)
+- inline 2: `/article-images/technology/hopfield-nobel-2024.jpg` (900x1109, aspect 0.81, CC BY-SA 4.0, Arthur Petron 2024-12-08)
+- inline 3: `/article-images/technology/tsmc-fab5-hsinchu-2010.jpg` (1400x937, aspect 1.49, existing cache)
+
+**Hassabis 候選棄用** — 576x864 aspect 0.67 < 0.75 inline floor, 換 tsmc-fab5 reuse 補硬體段視覺呼吸。
+
+**Sibling reverse cross-link**:
+
+- knowledge/Technology/台灣人工智慧實驗室.md ← reciprocal link added
+- knowledge/Technology/台灣AI日常.md ← reciprocal link added
+
+**Final stats**: 6241 CJK chars / 28 footnote (20 既有 + 8 新 N1-N8 + 11 supplementary N9-N20 PanSci/外部) / 4 圖 / 14 H2 (含結尾)
