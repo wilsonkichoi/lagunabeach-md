@@ -255,27 +255,7 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 <!-- P0-1 mRNA 疫苗辛酸 30 年 已完成 2026-05-19 2026-05-19-014951-manual-peer-pansci → ARTICLE-DONE-LOG.md (PanSci P0×5 #1/5 — Karikó 被開除五次得了諾貝爾 / 6698 字 / 29 footnote / 4 圖 / hard=0) -->
 
-### P0-2. 氮化鎵到 3D 封裝 — 台灣半導體 next chapter 的物理原理 EVOLVE
-
-- **Type**: `EVOLVE`
-- **Category**: Technology（subcategory: 半導體深化）
-- **Path**: [knowledge/Technology/半導體產業.md](../../knowledge/Technology/半導體產業.md)（evolution target — 從「產業」深化到「next chapter 物理原理 + 量子封裝」）
-- **Priority**: `P0`
-- **Status**: `pending`
-- **Requested**: 2026-05-18 by 哲宇 directive `/twmd-peer 泛科學 Stage 5`
-- **Series**: PanSci Series A「半導體與量子的物理底層」
-- **核心矛盾（≤30 字）**：「2nm 之後是量子，台灣的量子供應鏈在哪？」
-- **PanSci 來源**：[#362660 氮化鎵](https://pansci.asia/archives/362660) + [#367588 3D 封裝](https://pansci.asia/archives/367588) + [#377923 台灣量子科技](https://pansci.asia/archives/377923) + [#377669 ALD 原子層沉積](https://pansci.asia/archives/377669)
-- **Taiwan.md 交叉**：[半導體產業](../../knowledge/Technology/半導體產業.md) / [台積電](../../knowledge/Economy/台灣企業：台積電.md) / [聯發科技](../../knowledge/Economy/台灣企業：聯發科技.md) / [日月光半導體](../../knowledge/Economy/台灣企業：日月光半導體.md)
-- **台灣具體 case 必補**：台積電 2nm + 量子計算布局 / 聯發科氮化鎵 PMIC / 日月光 3D 封裝 (FOEoL/CoWoS+) / 環球晶 SiC 第三類半導體 / 工研院量子計算中心
-- **必驗事實**：
-  - 氮化鎵能隙 (3.4 eV) 對比矽 (1.12 eV) 的具體數字 + 物理意義
-  - CoWoS 產能 status 2025/2026（台積電官方數字）
-  - 國家量子科技推動辦公室成立時間 + 預算
-  - 2024 諾貝爾化學獎 AlphaFold 跟半導體相關性
-- **潛在陷阱**：「護國神山」frame 不能單純套用（深度文章不可只重複大眾敘事）/ 量子計算 vs 量子加密的混淆 / 3D 封裝跟 CoWoS / SoIC 規格細節易錯
-- **預估工時**：4 hr
-- **MOU footnote 標註必做**：4 個 PanSci 來源都需完整 credit
+<!-- P0-2 氮化鎵到 3D 封裝 已完成 2026-05-19 2026-05-19-014951-manual-peer-pansci → ARTICLE-DONE-LOG.md (PanSci P0×5 #2/5 — 50 年材料革命 + 量子站位仍空著 / 7247 字 / 23 footnote / 4 圖 / hard=0) -->
 
 ### P0-3. 能源 trilemma — 核廢料 vs 氫能 vs 地熱的科學上限 EVOLVE
 

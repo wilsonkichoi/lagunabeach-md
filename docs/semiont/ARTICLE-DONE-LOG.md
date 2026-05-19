@@ -59,6 +59,31 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 半導體產業 EVOLVE — 2026-05-19 2026-05-19-014951-manual-peer-pansci（PanSci P0×5 #2/5 — 氮化鎵到 3D 封裝到量子封裝 50 年材料革命 / Technology 半導體 / 7247 字 / 23 footnote / 4 圖）
+
+- **Article**: [knowledge/Technology/半導體產業.md](../../knowledge/Technology/半導體產業.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Evolution + Section Addition（既有 253 行 ~6000 字 → 7247 字含物理科學層；Stage 0 main + Stage 1 Sonnet 38 search + Stage 2-5 Opus 13 min）
+- **核心矛盾**（≤30 字）：「台灣護國神山靠代工稱霸全球先進製程，但下一個 50 年的材料科學戰場才剛擺開」
+- **新 Title**：「半導體產業：從 RCA 技轉到氮化鎵與量子封裝的 50 年材料革命」（冒號三明治）
+- **Hook**：保留既有 1985 李國鼎 + 張忠謀對話開場 → 新增物理層（50 年材料譜系 / 你的快充頭氮化鎵 / 環球晶 SiC 8 吋 / NVIDIA CoWoS+ 月產 7.5 萬片 / ALD 原子層 / 中研院 20 位元量子 / 三條量子路線 / Microsoft Majorana 1）→ Nokia 3310 vs 240W 快充頭首尾呼應
+- **品質**：7,247 CJK / 23 footnotes（footnote-density plugin hard=0 / ~315 char per footnote） / 1 hero + 3 inline = 4 圖 / 14 H2（12 narrative + 2 收尾）/ 8 富文本（策展 3 + 你知道嗎 2 + 爭議 2 + 警句 1）/ Stage 4 hard=0 / Stage 3.5 hard=0 / prose-health score=2 pass
+- **Research**: [reports/research/2026-05/gan-3d-packaging-semiconductor-evolution.md](../../reports/research/2026-05/gan-3d-packaging-semiconductor-evolution.md) — Stage 1 38 search / 15 章 / 24 verbatim / 5 圖授權 / 7 fact flags audit pass
+- **FACTCHECK 7 flags 全處置**：
+  - FF-1 GaN 遷移率 → 避用此論述，改用能隙 3 倍 / 崩潰電壓 10 倍 / 工作頻率 10 倍確定數字
+  - FF-2 **台積電 2027 退出 GaN 代工**（重要新發現，技術授權給 VIS / GF）
+  - FF-3 SiC 2025 中國供過於求 + NVIDIA Rubin 復甦
+  - FF-4 ALD 1974 研發 / 1977 技術成型雙年份
+  - FF-5 修正量子辦公室時間：2022 量子國家隊 / 2026 經濟部辦公室成立（推翻 Stage 0 hypothesis）
+  - FF-6 黃仁勳引語轉述不加引號
+  - FF-7 楠梓 1844 鄭家祖墳無 source verify → 移除，改寫 §環境代價聚焦水電工時
+- **MOU §2.2 footnote 標註履約** ⭐：4 個 PanSci 來源 footnote [^7][^12][^14][^17] 全含 URL + 名稱 + 作者 + License「Content Curation Partner per MOU 2026-05-05」
+- **DNA #16 跨源驗證**：≥10 PanSci 以外獨立來源（台積電官網 / 中研院 / 中央社 / iThome / Digitimes / SemiAnalysis / TrendForce / TechNews / Focus Taiwan / 天下雜誌）
+- **Cross-link**: Sibling reverse cross-link 補進 [台積電](../../knowledge/Economy/台灣企業：台積電.md) + [聯發科技](../../knowledge/Economy/台灣企業：聯發科技.md) + [日月光](../../knowledge/Economy/台灣企業：日月光半導體.md)（日月光順便補回 missing **延伸閱讀** section 解 warning）
+- **Notes**:
+  - PanSci P0×5 #2/5 ship — Stage 6 第 2/5 完成
+  - Stage 2-5 Opus sub-agent 13 min wall-clock，再次驗證 sub-agent pattern 可行（前 P0-1 30 min）
+  - 圖檔：silicon-vs-gan-charger-2025.jpg (hero) + tsmc-fab5-hsinchu-2010.jpg + silicon-wafers-museum-2017.jpg
+
 ### 台灣再生醫療雙法沿革從業人員告白 EVOLVE — 2026-05-19 2026-05-19-014951-manual-peer-pansci（PanSci P0×5 #1/5 — mRNA 疫苗辛酸 30 年雙線整合 / Society 醫療政策 / 6698 字 / 29 footnote / 4 圖）
 
 - **Article**: [knowledge/Society/台灣再生醫療雙法沿革從業人員告白.md](../../knowledge/Society/台灣再生醫療雙法沿革從業人員告白.md)
