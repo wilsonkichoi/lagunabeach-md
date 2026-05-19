@@ -59,6 +59,21 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 台灣前 50 大企業 NEW — 2026-05-20 2026-05-20-000836-cron-rewrite-daily（autonomous routine — 護國神山撐起一張表，也撐起一個單點故障的國家 / Economy 結構性策展 / 4942 字 / 31 footnote / 3 圖）
+
+- **Article**: [knowledge/Economy/台灣前50大企業.md](../../knowledge/Economy/台灣前50大企業.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式（既有 Economy 30+ 個別公司條目作 cross-link backbone，但無「前 50 大」結構性策展 entry，true gap）
+- **核心矛盾**（≤30 字）：「50 家撐起一個 GDP，一家綁架一個 GDP；護國神山也是單點故障。」（Stage 0 三足鼎立假設被 Stage 1 推翻 — 實際電子 36% / 金融 25% / 傳產 10%，是電子業一條腿撐起半個身體）
+- **新 Title**：「台灣前 50 大企業：護國神山撐起一張表，也撐起一個單點故障的國家」（冒號三明治）
+- **Hook**：寧夏夜市 2024-05-28 黃仁勳 × 張忠謀 × 蔡力行 × 林百里 × 姚仁喜 5 人 → COMPUTEX 2024-06-02 台灣地圖 slide 隔天 40+ 公司股價漲 → 50 大產業切片 → 台積電獨大集中度（加權 31.51% / 全球晶圓代工 71% / 占出口 34.7% / 占稅收 8.1%） → AI 浪潮 3 年漲 6 倍 / 4.2 倍 / 1.8 倍 → 七大家族 + 完全專業經理人 → 義美和泰新光人壽看不見的 30% → 麥寮六輕 / 高雄氣爆 32 死 / 中鋼霾害 → 結尾「身體結構圖」
+- **品質**：4,942 CJK / 31 footnotes / 1 hero (台積電新竹 PD) + 2 inline (台北 101 CC BY / 麥寮六輕 CC BY-SA) = 3 圖 / 7 H2 / Stage 4 full all-plugin hard=0 warn=1（仅「prose-health score: 1 ≤ 3 pass — 未人工審核」結構性 warn，per 周蕙 NEW / PanSci P0×5 同模式 shipped 先例）/ Stage 3.5 hard=0 warn=0 / prose-health score=1 pass（對位句 0 / 破折號 0 / 塑膠句 0 / AI ritual 0）
+- **Research**: [reports/research/2026-05/台灣前50大企業.md](../../reports/research/2026-05/台灣前50大企業.md) — Stage 0 觀點成型（6 questions + 6 切入點 + 3 candidates 收斂）+ Stage 1 general-purpose agent ~40 search / 7 WebFetch（鉅亨網 + companiesmarketcap.com + HiStock 三源 cross / 集中度 high_confidence 9 條 + single_source 5 條 + unverified 8 條 flag）
+- **Stage 1 plot twist 校正**：Stage 0 三足鼎立假設被 Stage 1 推翻，寫作 framing 校正為「電子腿撐起半個身體」+「台積電一家綁架了 50 家」
+- **三源驗證 unverified 8 個全 applied**：(a) 「占稅收 15%」常見誤引 → 改用 8.1% 公司自揭露 (b) 「占出口 36%」誤引 → 改用 34.7% 半導體業 (c) 「占 GDP 7%」軟引用 + 附 footnote 註明 (d) 1301 台塑 / 2207 和泰邊界 case 註明 (e) 黃仁勳 2025 中文逐字 quote 找不到 → 用英文 verbatim
+- **Cross-link**: 13 個 (/economy/台灣企業：X) 雙向（hub-to-spoke 結構，現有條目作 backbone）+ 3 個跨類別（/technology/半導體產業, /society/台灣國防與軍事現代化, /economy/台灣中小企業與隱形冠軍, /economy/台灣股市與資本市場）
+- **AI agent leverage**：本主題對應 GPTBot / Perplexity / ChatGPT-User 等 AI 引擎回答「Top Taiwan companies」類查詢的高頻 source 缺口（per ARTICLE-INBOX entry Cloudflare 14K+10K+9K crawler 數據）。預期下週 SC opportunities cluster ~600 imp / 17 clicks 將 surface 此 page
+- **Routine context**: 2026-05-20 autonomous cron-rewrite-daily（00:00 +0800 fire），Opus，無觀察者在 loop。Bias 1 過濾排除政治敏感性高的 3 個 P0 候選（媒體總史 / 體育 / LGBTQ 平權），選擇低敏 Economy 結構性策展。snapshot 鎖 2026-05-19 盤後即時資料
+
 ### 台灣流浪動物文化 EVOLVE — 2026-05-19 2026-05-19-014951-manual-peer-pansci（PanSci P0×5 #5/5 final — 從十二夜到石虎之死，動保跟野保的電車難題 / Society 動保政策 / 7937 字 / 18 footnote / 4 圖）
 
 - **Article**: [knowledge/Society/台灣流浪動物文化.md](../../knowledge/Society/台灣流浪動物文化.md)
