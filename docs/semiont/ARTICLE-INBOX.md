@@ -259,28 +259,7 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 <!-- P0-3 能源 trilemma 已完成 2026-05-19 2026-05-19-014951-manual-peer-pansci → ARTICLE-DONE-LOG.md (PanSci P0×5 #3/5 — Stage 1 plot twist 公投沒過但台電送件核安會 / 8018 字 / 45 footnote / 4 圖 + 1 hero / hard=0) -->
 
-### P0-4. 2024 AI 雙諾貝爾 — 神經網路 + AlphaFold 改寫世界 EVOLVE
-
-- **Type**: `EVOLVE`
-- **Category**: Technology（subcategory: AI 深化）
-- **Path**: [knowledge/Technology/台灣人工智慧發展與未來策略.md](../../knowledge/Technology/台灣人工智慧發展與未來策略.md)（evolution target — 從「台灣 AI 戰略」延伸到「2024 雙諾貝爾 + 台灣 AI 研究現況」）
-- **Priority**: `P0`
-- **Status**: `pending`
-- **Requested**: 2026-05-18 by 哲宇 directive `/twmd-peer 泛科學 Stage 5`
-- **Series**: PanSci Series G「AI 諾貝爾與台灣 AI 生態」
-- **核心矛盾（≤30 字）**：「兩個諾貝爾一年都給 AI，台灣 AI 研究在哪？」
-- **PanSci 來源**：[#378242 AI 諾貝爾物理](https://pansci.asia/archives/378242) + [#378388 AlphaFold 諾貝爾化學](https://pansci.asia/archives/378388) + [#377917 AlphaFold 3](https://pansci.asia/archives/377917) + [#366027 人造腦 OI](https://pansci.asia/archives/366027)
-- **Taiwan.md 交叉**：[台灣人工智慧發展與未來策略](../../knowledge/Technology/台灣人工智慧發展與未來策略.md) / [台灣人工智慧實驗室](../../knowledge/Technology/台灣人工智慧實驗室.md) / [AI 發展](../../knowledge/Technology/AI發展.md) / [台灣 AI 日常](../../knowledge/Technology/台灣AI日常.md) / [台灣人工智慧學校](../../knowledge/Technology/台灣人工智慧學校.md)
-- **台灣具體 case 必補**：杜奕瑾與 PTT/台灣人工智慧實驗室 / 中研院 AI 主題中心（吳建福 / 林晉宇等）/ 國研院 AI 主題實驗室 / 杜奕瑾「AI 國家隊」/ TAIDE 台灣自主大模型 / 國科會 AI 創新中心
-- **必驗事實**：
-  - 2024 諾貝爾物理獎 Hopfield + Hinton 頒獎日 2024/10/08
-  - 2024 諾貝爾化學獎 Hassabis + Jumper + Baker 2024/10/09
-  - Hopfield Network 提出年份 1982
-  - AlphaFold 1/2/3 發布時間軸（2018/2020/2024）
-  - 台灣 AI 實驗室相關時間軸
-- **潛在陷阱**：Hinton 2023 離 Google 警告 AI 風險的脈絡 / Hopfield 跟 Hinton 學派差異 / AlphaFold 跟蛋白質摺疊「solved」是否誇大 / 台灣 AI「國家隊」政治敘事勿過度
-- **預估工時**：3-4 hr
-- **MOU footnote 標註必做**：4 個 PanSci 來源完整 credit
+<!-- P0-4 2024 AI 雙諾貝爾 已完成 2026-05-19 2026-05-19-014951-manual-peer-pansci → ARTICLE-DONE-LOG.md (PanSci P0×5 #4/5 — 42 年神經網路 + 50 年蛋白質摺疊 / 6241 字 / 40 footnote / 4 圖 / hard=0) -->
 
 ### P0-5. 遊蕩犬貓 vs 原生種 — 台灣動保與野保的科學矛盾 EVOLVE
 

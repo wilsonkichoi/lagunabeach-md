@@ -59,6 +59,35 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 台灣人工智慧發展與未來策略 EVOLVE — 2026-05-19 2026-05-19-014951-manual-peer-pansci（PanSci P0×5 #4/5 — 2024 雙諾貝爾兩天連發 + 42 年神經網路 + 50 年蛋白質摺疊 / Technology AI 深化 / 6241 字 / 40 footnote / 4 圖）
+
+- **Article**: [knowledge/Technology/台灣人工智慧發展與未來策略.md](../../knowledge/Technology/台灣人工智慧發展與未來策略.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Evolution + Section Addition（既有 176 行 ~5000 字 → 6241 字含「2024 雙諾貝爾 + Hopfield 1982 + Hinton 1986/2023 + AlphaFold 50 年摺疊」科學層；Stage 0 main + Stage 1 Sonnet 43 search / 15 WebFetch / 60 verbatim + Stage 2-5 Opus worktree fast-forwarded）
+- **核心矛盾**（≤30 字）：「兩個諾貝爾一年都給 AI，台灣 AI 研究在哪？」
+- **新 Title**：「台灣人工智慧發展與未來策略：硬體入場券拿到了，下一場仗在哪」（冒號三明治）
+- **Hook**：保留 2024/05/29 寧夏夜市黃仁勳 + 張忠謀 + 林百里 + 蔡力行飯局開場 → 新增 2024/10/08 諾貝爾物理 Hopfield+Hinton + 2024/10/09 諾貝爾化學 Hassabis+Jumper+Baker 兩天連發 → Hopfield 1982 PNAS spin glass 42 年 → Hinton 1986 backprop + 2023/05 離開 Google 警告 → AlphaFold CASP13 2018 / CASP14 2020 GDT 92.4 / AF3 2024/05/08 Nature → 杜奕瑾 2017/04 AI Labs + TAIDE 2023/04 啟動 + 2024/04 商用 8B+13B
+- **品質**：6,241 CJK / 40 footnotes（footnote-density hard=0）/ 1 hero (AlphaFold protein) + 3 inline (Hinton / Hopfield Nobel Week / TSMC Fab5 reuse) = 4 圖 / 14 H2 含結尾 / Stage 4 hard=0 warn=0 / Stage 3.5 hard=0 / prose-health score=1 pass
+- **Research**: [reports/research/2026-05/2024-ai-double-nobel-taiwan.md](../../reports/research/2026-05/2024-ai-double-nobel-taiwan.md) — Stage 0 main + Stage 1 Sonnet 43 search / 15 WebFetch / 60 verbatim / 5 圖授權 / 15 fact flags audit + Stage 2-5 Opus audit summary
+- **Stage 1 fact corrections 10 個全 applied**：
+  - FF-1 寧夏夜市改 2024/05/29（非 6/4），Computex 演講 2024/06/02
+  - FF-2 杜奕瑾台灣人工智慧實驗室 2017/04 創辦（非 2018）
+  - FF-3 黃仁勳成大名譽博士 unverified → 移除（只用交大 2017 + 台大 2020）
+  - FF-4 TAIDE 2024/04 商用版 8B + 學研版 13B（非 70B）
+  - FF-5 Hopfield+Hinton 2024/10/08 諾貝爾物理 獎金平分
+  - FF-6 Hassabis+Jumper+Baker 2024/10/09 諾貝爾化學（Baker 半 + H+J 共享半）
+  - FF-7 AlphaFold 2 CASP14 2020/11/30 GDT 92.4 中位數
+  - FF-8 AlphaFold 3 2024/05/08 Nature 630:493-500
+  - FF-9 AlexNet 2012 top-5 error 15.3% vs 26.2%
+  - FF-10 Transformer 2017 引用「超過 60,000」（軟化避免誇大）
+- **MOU §2.2 footnote 標註履約** ⭐：4 個 PanSci 來源 footnote 全含 URL + 名稱 + 作者 + License「Content Curation Partner per MOU 2026-05-05」
+- **DNA #16 跨源驗證**：≥8 PanSci 以外獨立來源（nobelprize.org / Nature / NYT / BBC / DeepMind blog / EBI / 端傳媒 / 中央社 / Wikipedia EN）
+- **Cross-link**: Sibling reverse cross-link 補進 [台灣人工智慧實驗室](../../knowledge/Technology/台灣人工智慧實驗室.md) + [台灣 AI 日常](../../knowledge/Technology/台灣AI日常.md)
+- **圖片 ✅ Pipeline §1.9.2 遵守**：全 4 圖 cache 本地 `/article-images/technology/` (AlphaFold CBLN1 hero + Hinton + Hopfield + TSMC Fab5 reuse)
+- **Notes**:
+  - PanSci P0×5 #4/5 ship — Stage 6 第 4/5 完成
+  - Stage 1 Sonnet 落檔成功 518 行（DNA #18 research-handle 驗證）；Stage 2-5 Opus worktree 因從早期 HEAD 派生看到只 145 行，自跑核心 fact verify 並落 audit section；main session merge conflict resolve 保留兩個 audit
+  - 字數 6241 略低於目標 7500-8500（密度平衡優先，已 cover 所有 fact corrections + 新 4 H2，留延展空間給未來迭代）
+
 ### 台灣氣候危機與淨零轉型 EVOLVE — 2026-05-19 2026-05-19-014951-manual-peer-pansci（PanSci P0×5 #3/5 — 公投沒過台電送件核安會的 plot twist / Nature 能源政策 / 8018 字 / 45 footnote / 4 圖 + 1 hero）
 
 - **Article**: [knowledge/Nature/台灣氣候危機與淨零轉型.md](../../knowledge/Nature/台灣氣候危機與淨零轉型.md)
