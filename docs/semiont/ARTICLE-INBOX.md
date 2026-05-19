@@ -257,27 +257,7 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 <!-- P0-2 氮化鎵到 3D 封裝 已完成 2026-05-19 2026-05-19-014951-manual-peer-pansci → ARTICLE-DONE-LOG.md (PanSci P0×5 #2/5 — 50 年材料革命 + 量子站位仍空著 / 7247 字 / 23 footnote / 4 圖 / hard=0) -->
 
-### P0-3. 能源 trilemma — 核廢料 vs 氫能 vs 地熱的科學上限 EVOLVE
-
-- **Type**: `EVOLVE`
-- **Category**: Nature（subcategory: 能源政策 + 科學）
-- **Path**: [knowledge/Nature/台灣氣候危機與淨零轉型.md](../../knowledge/Nature/台灣氣候危機與淨零轉型.md)（evolution target — 從「氣候 + 淨零」延伸到「能源 trilemma 物理上限」）
-- **Priority**: `P0`
-- **Status**: `pending`
-- **Requested**: 2026-05-18 by 哲宇 directive `/twmd-peer 泛科學 Stage 5`
-- **Series**: PanSci Series D「能源轉型的科學」
-- **核心矛盾（≤30 字）**：「核三延役公投通過了，下一步在物理學裡」
-- **PanSci 來源**：[#363266 核二退場](https://pansci.asia/archives/363266) + [#367408 核電延役](https://pansci.asia/archives/367408) + [#367417 核廢處理](https://pansci.asia/archives/367417) + [#374277 氫能](https://pansci.asia/archives/374277) + [#361200 地熱（上）](https://pansci.asia/archives/361200) + [#371116 離岸風機](https://pansci.asia/archives/371116) + [#374302 氫能彩虹](https://pansci.asia/archives/374302) + [#378154 海洋能](https://pansci.asia/archives/378154) + [#377644 第四代核能](https://pansci.asia/archives/377644)
-- **Taiwan.md 交叉**：[氣候危機與淨零轉型](../../knowledge/Nature/台灣氣候危機與淨零轉型.md) / [台灣海洋污染治理](../../knowledge/Nature/台灣海洋污染治理與保育挑戰.md) / [環境運動史](../../knowledge/Nature/台灣環境運動史.md)
-- **台灣具體 case 必補**：核三延役公投 2025/08/23 結果 + 投票率 / 蘭嶼核廢料儲存場 + 達悟族抗爭 / 大潭發電廠藻礁公投 / 台電 LCOE 各能源比較 / 國發會 2050 淨零路徑圖 / 雲林 + 台南離岸風電場進度
-- **必驗事實**：
-  - 核三延役公投 2025/08/23 同意/不同意 票數 + 通過門檻
-  - 蘭嶼核廢料貯存場 1982 啟用 + 累積桶數
-  - 台灣地熱潛能 GW 估計（經濟部地調所最新報告）
-  - 離岸風電 Round 3 容量 + 預定併網時間
-- **潛在陷阱**：核能政治敏感（不可單邊立場）/ 蘭嶼核廢料倫理（達悟族視角必補）/「綠氫」「藍氫」「灰氫」定義不可混淆 / 離岸風機環評 vs 公投張力
-- **預估工時**：4 hr
-- **MOU footnote 標註必做**：9 個 PanSci 來源完整 credit
+<!-- P0-3 能源 trilemma 已完成 2026-05-19 2026-05-19-014951-manual-peer-pansci → ARTICLE-DONE-LOG.md (PanSci P0×5 #3/5 — Stage 1 plot twist 公投沒過但台電送件核安會 / 8018 字 / 45 footnote / 4 圖 + 1 hero / hard=0) -->
 
 ### P0-4. 2024 AI 雙諾貝爾 — 神經網路 + AlphaFold 改寫世界 EVOLVE
 

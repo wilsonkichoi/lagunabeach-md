@@ -59,6 +59,34 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 台灣氣候危機與淨零轉型 EVOLVE — 2026-05-19 2026-05-19-014951-manual-peer-pansci（PanSci P0×5 #3/5 — 公投沒過台電送件核安會的 plot twist / Nature 能源政策 / 8018 字 / 45 footnote / 4 圖 + 1 hero）
+
+- **Article**: [knowledge/Nature/台灣氣候危機與淨零轉型.md](../../knowledge/Nature/台灣氣候危機與淨零轉型.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Evolution + Section Addition（既有 172 行 → 8018 字含「物理上限 + plot twist 行政推進」雙層；Stage 0 main + Stage 1 Sonnet 42 search + Stage 2-5 Opus + main session post-fix）
+- **核心矛盾**（≤30 字）：「公投沒過，台電卻在走回核電的路」（**Stage 1 plot twist 推翻 Stage 0 假設**）
+- **新 Title**：「台灣氣候危機與淨零轉型：核三公投沒過那天，物理上限的選擇才剛開始」（冒號三明治）
+- **Hook**：2025/08/23 公投 434 萬同意票、74% 贊成但投票率 29.53% 沒過門檻 → 隔天賴清德三原則 → 2026/03/27 台電送核安會延役申請 → 進入物理上限三角（核廢 / 氫能彩虹 / 地熱 27 倍缺口）→ Onkalo 終極處置 + TerraPower 第四代 + 蘭嶼 97672 桶
+- **品質**：8,018 CJK / 45 footnotes（footnote-density hard=0）/ 1 hero (核三廠 M. Weitzel) + 4 inline (Onkalo / 海能風場 / 西湖服務區太陽能) = 5 圖 / 14 H2 / 8 富文本 / Stage 4 hard=0 warn=0 / prose-health score=3 pass
+- **Research**: [reports/research/2026-05/energy-trilemma-taiwan-nuclear-hydrogen-geothermal.md](../../reports/research/2026-05/energy-trilemma-taiwan-nuclear-hydrogen-geothermal.md) — Stage 1 42 搜尋 / 22 verbatim / 5 圖授權 / 8 fact flags audit pass
+- **Stage 1 plot twist** ⭐：原 Stage 0 假設「公投通過」→ Stage 1 user-input 揭露「投票率 29.53% 沒到 25% 同意門檻 / 公投沒過 / 但隔天賴清德三原則 + 七個月後台電送件」推翻原 hypothesis，核心矛盾改寫為「公投沒過卻在走回核電的路」
+- **FACTCHECK 8 flags 全處置**：
+  - FF-1 公投投票率 29.53% verified（中選會官方）
+  - FF-2 核三 1 號機 2024/07/27、2 號機 2025/05/17 退役日期 verified
+  - FF-3 蘭嶼 97,672 桶累積數字 verified（台電年報）
+  - FF-4 地熱 27 倍缺口（200 MW 目標 vs 7.4 MW 商轉）verified（能源署）
+  - FF-5 9 兆台幣淨零路徑圖 verified（國發會 2050）
+  - FF-6 Onkalo 啟用 2025/01 商轉 verified（Posiva 官方）
+  - FF-7 TerraPower 動工 2024/06/10 + Bill Gates 投資 verified
+  - FF-8 海能風場 376 MW + 西湖服務區太陽能 verified
+- **MOU §2.2 footnote 標註履約** ⭐：9 個 PanSci 來源 footnote 全含 URL + 名稱 + 作者 + License「Content Curation Partner per MOU 2026-05-05」
+- **DNA #16 跨源驗證**：≥12 PanSci 以外獨立來源（中選會 / 國發會 / 能源署 / 台電 / 經濟部 / 中央社 / TechOrange / Bloomberg / Reuters / Posiva / IAEA / NREL）
+- **圖片來源 ⚠️ Post-write fix**：Stage 2-5 sub-agent 違反 pipeline §1.9.2「永遠 cache 本地」hot-linked 4 張 Wikimedia → main session 補修：curl 下載 4 張 + sips -Z 2000 resize 2 張 (Onkalo 4.3MB→707KB / 西湖 6.4MB→804KB) + 加 hero 到 frontmatter + sed 改寫 markdown 4 處 URL + 補 `## 圖片來源` section (CC 來源 cite)
+- **Cross-link**: Sibling reverse cross-link 補進 [台灣海洋污染治理與保育挑戰](../../knowledge/Nature/台灣海洋污染治理與保育挑戰.md) + [台灣環境正義與鄰避爭議](../../knowledge/Society/台灣環境正義與鄰避爭議.md)
+- **Notes**:
+  - PanSci P0×5 #3/5 ship — Stage 6 第 3/5 完成
+  - Stage 1 plot twist 是這次 pipeline 最重要 lesson：Stage 0 hypothesis 可能錯，Stage 1 必須用 search 推翻不是 confirm
+  - Sub-agent hot-link 違規 = post-write fix workflow 已 routinize（為 P0-4 P0-5 sub-agent 註記）
+
 ### 半導體產業 EVOLVE — 2026-05-19 2026-05-19-014951-manual-peer-pansci（PanSci P0×5 #2/5 — 氮化鎵到 3D 封裝到量子封裝 50 年材料革命 / Technology 半導體 / 7247 字 / 23 footnote / 4 圖）
 
 - **Article**: [knowledge/Technology/半導體產業.md](../../knowledge/Technology/半導體產業.md)
