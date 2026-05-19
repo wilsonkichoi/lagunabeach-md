@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T22:12:30.477189Z",
+  "lastUpdated": "2026-05-19T23:10:01.365093Z",
   "schemaVersion": "1.1",
   "totals": {
     "count": 77,
@@ -32,7 +32,7 @@
       "url": "https://x.com/taiwandotmd/status/2056026352298688935",
       "highlight": "**同 #76 內容**：X inline URL 版（utm_campaign=s77）。哲宇拍板 Threads + X 雙平台 fan out — 政治/制度題目 + 即時新聞熱度（2026.5.17 賴清德定調台獨意涵當天）。同日 ship 同主題 article (commit `3ec013e64`)，spore v1 → v2 紀實感重寫（觀察者 callout「更有紀實文學故事感」+ A2 首尾呼應強化「兩個字」icon），327 CJK / 5 段 / 段密度 1/65 sweet spot。Blueprint: [SPORE-BLUEPRINTS/76-臺灣前途決議文.md](SPORE-BLUEPRINTS/76-臺灣前途決議文.md)。",
       "views_7d": null,
-      "views_latest": 186,
+      "views_latest": 210,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -48,7 +48,7 @@
       "url": "https://www.threads.com/@taiwandotmd/post/DYca5etE80R",
       "highlight": "**/twmd-spore 直接觸發 + v1→v2 紀實感校準**：開場「1999 年初，民進黨總部，郭正亮接陳水扁透過秘書長游錫堃下的任務⋯⋯他在草稿裡寫下『國號中華民國』」場景 icon → 「林濁水拿過草稿，在『國號』前加了兩個字：『目前』。『扁系很不高興。』林濁水後來在訪談裡回憶」場景化引語 → 1999.5.8 高雄通過 + 2000 陳水扁 39.3% 政黨輪替 → 二十七年後 2026.5.17 賴清德回應川習會「中華民國和中華人民共和國互不隸屬」+ 林濁水臉書「很得宜」三字 → 首尾呼應收「二十七年前他在草稿上加進去的兩個字『目前』，今天仍然是民進黨整個兩岸論述的定錨」。Tier 1b 具體性槓桿（「兩個字」「目前」「扁系很不高興」具體 anchor + 27 年反差 hook）+ 中段結構性題目疊加。prose-health hard=0 / spore-writing hard=0 / 三板斧 不是 0 / —— 0 / 不僅 0 ✅✅✅ / 327 CJK / 5 段（79/91/45/76/36 CJK 長場景+短轉場節奏）/ 段密度 1/65 sweet spot。Fact-check 16 atoms verified（含 v2 強化「林濁水訪談裡回憶」場景化）。配圖 landscape 1600×900 + square 1080×1080（local dev 4321 重生避 prod 404 lag）。Threads 主貼不含 URL，self-reply 加 utm_campaign=s76 連結。**v1→v2 callout polish**：哲宇「孢子可以長一點點還有引人入勝些 更有紀實文學故事感」→ 從 255 CJK / 7 段資訊性開場 → 327 CJK / 5 段場景化 prose（補「擺在桌上的草稿」「拿過草稿」「林濁水後來在訪談裡回憶」具象動作 + A2 首尾呼應「加進去的兩個字」開場↔結尾 icon）。Blueprint: [SPORE-BLUEPRINTS/76-臺灣前途決議文.md](SPORE-BLUEPRINTS/76-臺灣前途決議文.md)。",
       "views_7d": null,
-      "views_latest": 26000,
+      "views_latest": 27000,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -64,7 +64,7 @@
       "url": "https://x.com/taiwandotmd/status/2055881969976873375",
       "highlight": "**同 #74 內容**：X inline URL 版（utm_campaign=s75）。哲宇拍板 fan out X — 4 天王 + 警察 dual life 對 X niche 文化／音樂社群可能 resonant，加上原住民語專輯 + 蘭嶼 22 年敘事適合英文圈延伸。Blueprint: [SPORE-BLUEPRINTS/74-陳建年.md](SPORE-BLUEPRINTS/74-陳建年.md)。",
       "views_7d": null,
-      "views_latest": 9569,
+      "views_latest": 10021,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -312,7 +312,7 @@
     {
       "week": "2026-W20",
       "published": 6,
-      "avgViews": 16265
+      "avgViews": 16511
     }
   ],
   "harvestStatus": [
@@ -323,8 +323,8 @@
       "publishDate": "2026-05-17",
       "daysSincePublish": 3,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-05-19 07:00"
+      "harvestCount": 3,
+      "lastHarvest": "2026-05-20 07:00"
     },
     {
       "n": 76,
@@ -333,8 +333,8 @@
       "publishDate": "2026-05-17",
       "daysSincePublish": 3,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-05-19 07:00"
+      "harvestCount": 3,
+      "lastHarvest": "2026-05-20 07:00"
     },
     {
       "n": 75,
@@ -343,8 +343,8 @@
       "publishDate": "2026-05-17",
       "daysSincePublish": 3,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-05-19 07:00"
+      "harvestCount": 3,
+      "lastHarvest": "2026-05-20 07:00"
     },
     {
       "n": 74,
@@ -353,8 +353,8 @@
       "publishDate": "2026-05-17",
       "daysSincePublish": 3,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-05-19 07:00"
+      "harvestCount": 3,
+      "lastHarvest": "2026-05-20 07:00"
     },
     {
       "n": 73,
