@@ -21,8 +21,8 @@ subcategory: '影視與媒體'
 author: 'Taiwan.md'
 featured: true
 lastVerified: 2026-03-31
-lastHumanReview: true---
-
+lastHumanReview: true
+---
 > **30-Second Overview:** In 1962 TTV launched and Taiwan entered the television age; in 1998 PTS was established as the first non-commercial public media; in 2016 Qseries achieved a 0.5% ratings share yet took Taiwanese drama beyond the idol drama and folk opera mold. From "party-government-military monopoly" to "gentle revolution," Taiwan's television industry across 54 years is a history of who held the power to tell stories.
 
 ---

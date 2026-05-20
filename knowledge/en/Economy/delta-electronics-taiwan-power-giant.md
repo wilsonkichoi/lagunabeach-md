@@ -22,8 +22,8 @@ readingTime: 15
 category: Economy
 featured: true
 lastVerified: 2026-03-22
-lastHumanReview: false---
-
+lastHumanReview: false
+---
 > **30-Second Overview:** In 1971, a war refugee founded a company with NT$300,000 in Xinzhuang.
 > 55 years later it became the world's largest manufacturer of switching power supplies, with revenues exceeding NT$554.9 billion.
 > More astonishing: he got his name into space — asteroid 168126 is called "Chengbruce."

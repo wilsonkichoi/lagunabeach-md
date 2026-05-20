@@ -22,8 +22,8 @@ subcategory: 'Traditional Crafts'
 author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-04-07
-lastHumanReview: false---
-
+lastHumanReview: false
+---
 # Taiwan Indigo Dyeing
 
 ## 30-Second Overview

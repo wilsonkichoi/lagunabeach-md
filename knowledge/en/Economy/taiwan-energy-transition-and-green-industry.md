@@ -8,8 +8,8 @@ readingTime: 12
 author: 'Taiwan.md Translation Team'
 featured: false
 lastVerified: 2026-03-19
-lastHumanReview: false---
-
+lastHumanReview: false
+---
 # Taiwan's Energy Transition and Green Energy Industries
 
 > **30-Second Overview:** Taiwan is in the middle of the biggest energy transition in its history. In 2024, renewable energy rose above 11.6% of total electricity generation for the first time. Solar photovoltaics contributed the most, producing 14.9 billion kWh, while wind generation grew 66%. The government has committed to net-zero emissions by 2050 and aims to reach 20 GW of solar capacity and 13.1 GW of offshore wind by 2030. This is not just a policy adjustment. It is a broader remake of Taiwan's industrial structure and a major opening for technological innovation.

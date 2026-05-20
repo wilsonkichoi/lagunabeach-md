@@ -20,8 +20,8 @@ category: 'Technology'
 author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-03-20
-lastHumanReview: true---
-
+lastHumanReview: true
+---
 # Taiwan's Digital Animation and Imagery Industry
 
 > **30-Second Overview:** Taiwan was once the world's largest animation contract manufacturing kingdom — at its peak, one in every three television animations in the world passed through Taiwanese hands. From Wang Film Productions drawing Disney's _Mulan_ and _The Little Mermaid_, to CGCG Inc. winning a Daytime Emmy, to Reno Studios bringing _Detention_ a Golden Horse Award for Best Visual Effects — this island's animators have written a half-century industry epic of transformation from OEM to original content.

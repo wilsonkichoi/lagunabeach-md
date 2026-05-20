@@ -22,8 +22,8 @@ category: 'Culture'
 author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-03-30
-lastHumanReview: true---
-
+lastHumanReview: true
+---
 # Taiwan's Ethnic Groups
 
 > **30-second overview:** In 2016, Taiwan's president formally apologized to indigenous peoples at the Presidential Office, acknowledging four hundred years of harm — yet outside the gates, some tribal members were blocked by police shields, refusing to accept the apology on their behalf. Taiwan has five major ethnic groups (Minnan, Hakka, Indigenous, Mainlanders, and New Immigrants), but this classification was only invented in 1993 — and from the beginning, it left certain people out.

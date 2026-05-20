@@ -1,6 +1,6 @@
 ---
-title: 'The Ecosystem of Peripheral Business Districts Around Taiwan's Tech Parks'
-description: 'Why do restaurants around the peripheries of Nangang Software Park, Neihu Technology Park, Hsinchu Science Park, Central Taiwan Science Park, and Southern Taiwan Science Park increasingly only serve lunch while dinner services shut down one after another? This article unpacks the single-peak business district phenomenon along Taiwan's technology corridor through three lenses: commuting patterns, BOT zoning controls, and shifts in overtime culture. It also tracks the structural impact of LaLaport's March 2025 opening on traditional lunch-district eateries along Sanzhong Road and Yuanqu Street.'
+title: "The Ecosystem of Peripheral Business Districts Around Taiwan's Tech Parks"
+description: "Why do restaurants around the peripheries of Nangang Software Park, Neihu Technology Park, Hsinchu Science Park, Central Taiwan Science Park, and Southern Taiwan Science Park increasingly only serve lunch while dinner services shut down one after another? This article unpacks the single-peak business district phenomenon along Taiwan's technology corridor through three lenses: commuting patterns, BOT zoning controls, and shifts in overtime culture. It also tracks the structural impact of LaLaport's March 2025 opening on traditional lunch-district eateries along Sanzhong Road and Yuanqu Street."
 date: '2026-05-18'
 author: 'Taiwan.md'
 category: 'Economy'

@@ -19,8 +19,8 @@ author: 'Taiwan.md Contributors'
 date: 2026-04-25
 readingTime: 10
 lastVerified: 2026-04-25
-lastHumanReview: false---
-
+lastHumanReview: false
+---
 > **30-second overview:**
 > That cup of bubble tea you drink every day has an 80% chance of coming from Nantou's Mingjian. This tea-growing area — which once rivaled Lugu's Dongding in reputation as "Puchung Tea" — took a path of standardization and scale after being renamed "Songbai Evergreen Tea" in 1975. However, an incinerator siting plan that erupted at the end of 2024 has put this "invisible heart" of Taiwan's bubble tea kingdom on the front lines of an unprecedented battle for food safety and survival.
 

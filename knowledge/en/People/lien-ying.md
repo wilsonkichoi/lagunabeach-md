@@ -24,8 +24,8 @@ readingTime: 10
 lastVerified: 2026-04-23
 lastHumanReview: false
 category: People
-featured: false---
-
+featured: false
+---
 > **30-second overview:** Lien Ying (Erin), born April 27, 1999 in Taichung. She began studying ballet, folk dance, and Chinese classical dance in second grade, switching to street dance in high school. In 2020 she competed on _Diamond Generation DD52_, and in the second episode she said to mentor Pan Wei-Po: "I want everyone to know the standard of dance a girl group should have" — a line that became her defining label. The DD52 runner-up team Storm Spades debuted as [HUR+](/people/HUR-plus), and she was the main dancer. In 2025 she released her debut solo EP _EZ_, a hip-hop/R&B record with Taiwanese-language elements and a street sound that deliberately avoided the safe ballad path. On her birthday in 2026, fans crowdfunded a stage at Dadaocheng where she premiered a new song, "A Second Too Late." She continues to release group albums while pushing her solo career simultaneously — the first girl group member in Taiwan to do this.
 
 June 19, 2020. Episode two of _Diamond Generation DD52_.

@@ -22,8 +22,8 @@ readingTime: 13
 featured: false
 category: 'Nature'
 lastVerified: 2026-03-20
-lastHumanReview: false---
-
+lastHumanReview: false
+---
 # Taiwan's Marine Ecology and Coral Reef Conservation
 
 Taiwan lies in the western Pacific, with a maritime territory of 170,000 square kilometers — 4.7 times its land area. The Kuroshio Current and the China Coastal Current converge here, creating rich and diverse marine ecosystems. From tropical coral reefs to temperate rocky reefs, Taiwan's waters are home to more than 3,000 species of fish, 1,000 species of mollusks, and 32 species of cetaceans — ranking among the most biodiverse in the world.

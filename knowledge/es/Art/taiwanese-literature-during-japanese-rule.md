@@ -12,8 +12,8 @@ sourceCommitSha: 'f99a9959'
 sourceContentHash: 'sha256:19723b834d9cebfa'
 sourceBodyHash: 'sha256:f40bf580a8b9cd38'
 translatedAt: '2026-05-01T20:54:23+08:00'
-featured: false---
-
+featured: false
+---
 # La literatura taiwanesa durante el período colonial japonés
 
 En la primavera de 1895, el destino literario de Taiwán inició un capítulo completamente nuevo entre las firmas del Tratado de Shimonoseki. Si la literatura taiwanesa durante el período de dominio chino Qing se gestó lentamente dentro del seno de la cultura tradicional china, los cincuenta años del período colonial japonés representaron el nacimiento doloroso pero glorioso de la literatura taiwanesa como una vida literaria independiente, bajo el fuerte impacto de la modernidad occidental.

@@ -21,8 +21,8 @@ date: 2026-04-24
 featured: false
 readingTime: 8
 lastVerified: 2026-04-24
-lastHumanReview: false---
-
+lastHumanReview: false
+---
 > **30-second overview:** Pineapple cake is the intersection of Taiwan's agriculture and baking craftsmanship. Founded by Yan Shin-Fa in Taichung in 1945, it shifted to a smooth winter melon filling in the 1970s when pineapple exports declined, then returned to public awareness via SunnyHills' "native pineapple" approach after 2009. Today, this small golden brick has an annual production value exceeding NT$25 billion and has become the most representative Taiwanese flavor in the minds of foreign visitors.
 
 September 1945. At "Yan Hsin-Chen Trading Company" (now Yan Shin-Fa Bakery) on Chengkung Road in Taichung, second-generation heir Yan Shu-Mu was busy improving traditional wedding pastries. Running for public office, he came up with a small treat that would be convenient for entertaining campaign workers and that symbolized the auspicious "bumper harvest" omen: he miniaturized the traditional oversized "phoenix cake" and incorporated Western-style shortbread techniques learned in Japan. This was the prototype of the modern pineapple cake[^1].

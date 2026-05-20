@@ -24,8 +24,8 @@ readingTime: 14
 lastVerified: 2026-04-23
 lastHumanReview: false
 category: People
-featured: false---
-
+featured: false
+---
 > **30-second overview:** HUR+ (originally HUR), 2020 runners-up of _Diamond Generation DD52_ — six members from "Storm Spades" debuted, with producer Felipe.Z founding AOA Entertainment Lab. They lost the finale by 2.5 points, but the champion group G.O.F saw their momentum collapse within a year, and fellow debut group PINK FUN was rocked by member departures. Six years on, HUR+ is the only one of the three groups still releasing albums. Three albums (_REVELATION_, _Crimzon_, _9OF9 ARCANA_), a crowdfunding campaign that broke NT$1.5 million in ten minutes for a South Korea promotional trip, and members from Mongolia, the UK, Indonesia, and Vietnam. Felipe.Z said: "If you use the same Korean formula, how could Taiwan ever win?"
 
 September 4, 2020, evening. The finale of _Diamond Generation DD52_.

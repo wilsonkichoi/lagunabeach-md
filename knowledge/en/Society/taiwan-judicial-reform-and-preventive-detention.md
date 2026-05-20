@@ -22,8 +22,8 @@ date: 2026-04-17
 readingTime: 12
 lastVerified: 2026-04-17
 lastHumanReview: false
-featured: false---
-
+featured: false
+---
 > **30-second overview:** On April 17, 2026, the Legislative Yuan passed a third-reading amendment to the Code of Criminal Procedure, adding **drunk driving causing death or injury** and **child sexual exploitation** to the scope of preventive detention. When this system was introduced in 1997 as a "last resort," it was limited to a handful of serious crimes; 29 years later it has gradually become a routine tool. The impetus for expansion came from the explosion in child sexual exploitation cases from 1,213 cases in 2019 to 3,354 cases in 2023[^11]; opposing voices have pointed out that this may erode the constitutional baseline of the presumption of innocence[^8]. Simultaneously in 2025, the Legislative Yuan also amended the Court Organization Act to allow victims to petition to view deliberation records after verdict. The center of gravity in the judiciary is quietly shifting from "procedural protections for offenders" toward "victims' right to know."[^5]
 
 ## A Legislative Act That Seems Contradictory

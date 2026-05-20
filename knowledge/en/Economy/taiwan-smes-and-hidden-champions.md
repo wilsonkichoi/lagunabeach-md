@@ -23,8 +23,8 @@ author: 'Taiwan.md'
 readingTime: 14
 featured: true
 lastVerified: 2026-03-24
-lastHumanReview: false---
-
+lastHumanReview: false
+---
 # Taiwan's SMEs and Hidden Champions
 
 ## 30-Second Overview

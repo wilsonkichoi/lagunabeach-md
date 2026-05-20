@@ -19,8 +19,8 @@ author: 'Taiwan.md Contributors'
 date: 2026-04-30
 readingTime: 8
 lastVerified: 2026-04-30
-lastHumanReview: false---
-
+lastHumanReview: false
+---
 > **Panorama en 30 segundos:** La espátula menor fue una especie en peligro crítico con menos de 300 ejemplares en el mundo. Tras tres décadas de esfuerzos transnacionales, su población ha superado los 7.000, y más del 60 % elige pasar el invierno en Taiwán. Es un modelo de éxito en conservación, pero a medida que los números crecen, estas distinguidas aves se ven forzadas a abandonar las áreas protegidas centrales, buscando el siguiente hábitat seguro entre paneles solares, perros callejeros y el letal botulismo.
 
 A finales de la década de 1980, el registro global de espátula menor (Platalea minor) llegó a ser inferior a 300 ejemplares, una cifra prácticamente equivalente a la extinción.[^1] En aquel entonces, esta ave migratoria —dotada de un pico aplanado en forma de espátula y el rostro de tonalidad oscura— fue clasificada por la Unión Internacional para la Conservación de la Naturaleza (UICN) como especie «en peligro (EN)». Sin embargo, los datos del censo sincrónico global publicados en abril de 2026 muestran que la población total ha alcanzado los 7.746 ejemplares, con Taiwán registrando un máximo histórico de 4.719.[^1][^2]

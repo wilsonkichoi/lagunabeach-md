@@ -19,8 +19,8 @@ date: 2026-04-17
 readingTime: 12
 lastVerified: 2026-04-17
 lastHumanReview: true
-featured: false---
-
+featured: false
+---
 > **30-second overview:** "Hsu Mei-hua" is an anonymous pseudonym, not a real name. She appeared at two critical moments in Taiwan's civil society: in 2015 she was one of the "Four Horsemen," helping to block China's Tsinghua Unigroup's serial acquisitions of Taiwan's three major semiconductor packaging and testing firms (Powertech, Siliconware Precision, and Nanya Technology) — a combined scale approaching nine hundred billion New Taiwan dollars; in 2025 she again became the "funding hub" of the Great Recall movement, with supporters directly wiring money to vendors for LED campaign vehicles, printed materials, and processions — she herself handled not a single cent. The recall ultimately failed 31-to-0, which she called "the most successful failed operation." The ten-year arc of this pseudonym distills a section of the spectrum of Taiwan's civil society, moving from the front lines of tech-economy defense to democratic mobilization.
 
 On February 23, 2026, Newtalk published a report on Hsu Mei-hua's first interview given under her pseudonym.[^1] The report didn't reveal her real name — Hsu Mei-hua never was. This is a pseudonym, a name she began using on Facebook in the autumn and winter of 2022.[^1] The report included one particularly precise line: "Throughout the conversation, traces of the logic and discipline of someone with a media background were evident."

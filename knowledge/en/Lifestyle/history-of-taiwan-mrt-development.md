@@ -27,8 +27,8 @@ readingTime: 15
 featured: true
 category: 'Lifestyle'
 lastVerified: 2026-03-23
-lastHumanReview: false---
-
+lastHumanReview: false
+---
 # History of Taiwan's MRT Development: An Urban Evolution Written in Blood and Money
 
 > **30-second overview:** Over 30 years, Taiwan has invested more than NTD 1 trillion in its MRT network — yet even the highest-ridership system, the Taipei Metro, needs advertising revenue to turn a profit. From the NTD 1.64 billion lawsuit against French firm Matra to the 209-tonne steel beam that killed four people in Taichung, this is a story of ambition, cost, and the long process of learning from mistakes.

@@ -11,8 +11,8 @@ translatedFrom: 'Art/FAB DAO與百岳計畫.md'
 readingTime: 8
 featured: false
 lastVerified: 2026-03-24
-lastHumanReview: false---
-
+lastHumanReview: false
+---
 # La máquina perpetua de donaciones: FAB DAO y el experimento social del Proyecto Cien Cimas
 
 ## El punto de partida: una bandera que cambió las reglas

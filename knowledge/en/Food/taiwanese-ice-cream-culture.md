@@ -1,6 +1,6 @@
 ---
 title: 'Taiwanese Ice Cream Culture'
-description: 'From Tainan's Tainan Mango Shaved Ice to the Snow Ice Revolution, exploring Taiwan's unique culture of eating ice even in winter'
+description: "From Tainan's Tainan Mango Shaved Ice to the Snow Ice Revolution, exploring Taiwan's unique culture of eating ice even in winter"
 date: 2026-03-19
 author: 'Taiwan.md Contributors'
 category: 'Food'

@@ -21,8 +21,8 @@ author: 'Taiwan.md Contributors'
 date: 2026-04-20
 readingTime: 8
 lastVerified: 2026-04-21
-lastHumanReview: false---
-
+lastHumanReview: false
+---
 ## The Divine Pig Festival: A Century of Tension Between Taiwanese Faith and Animal Welfare
 
 > **30-second overview:** The divine pig (shen-zhu) tradition is a sacrificial ritual among Taiwan's Hokkien and Hakka communities, in which an enormous pig is offered to the gods as an expression of devotion. Its origins trace to the Yimin faith of Qing-dynasty Taiwan. In 1847, Lin Qiu-Hua's offering of a whole pig and sheep after passing the military imperial examination is considered one founding moment. During the Japanese colonial period, after the Sanxia farmers' association was established in 1900, official promotion of "raising big pigs" transformed the custom of pig offerings into competitive "divine pig contests." In traditional folk belief, after the divine pig undergoes the "consecration" (xiàn rèn fā zhū) ritual, its soul "transforms to immortality" and becomes a divine beast at the god's side — this spiritual dimension explains why devotees invest such tremendous resources in raising these animals. But modern divine pig contests, driven by extreme weight targets, involve pigs confined for extended periods in cramped pens (xiàkū), forced feeding, and skeletal deformity — conditions animal welfare organizations have condemned as "collective animal cruelty dressed up as face-saving." Festivals across Taiwan are attempting transitions using "eco-friendly divine pigs" or rice-based replicas, seeking a balance between faith and animal ethics.

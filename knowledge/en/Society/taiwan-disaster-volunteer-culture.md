@@ -1,6 +1,6 @@
 ---
-title: 'Shovel Supermen and Island Synchronicity: How Taiwan's Disaster Volunteer Culture Shapes National Identity'
-description: 'Starting from the "shovel supermen" of the 2025 Mataian flood, this article looks back at Taiwan's accumulated disaster volunteer culture since the 1999 921 Chi-Chi earthquake, the flood creation myth and community resilience of the Fata'an (Mataian) tribe, the Tzu Chi model versus the three competing command posts within 500 meters of Guangfu Station, and the moment when Chen Chien-nian's song "We Are Compatriots" became concrete action in the floodwaters.'
+title: "Shovel Supermen and Island Synchronicity: How Taiwan's Disaster Volunteer Culture Shapes National Identity"
+description: "Starting from the 'shovel supermen' of the 2025 Mataian flood, this article looks back at Taiwan's accumulated disaster volunteer culture since the 1999 921 Chi-Chi earthquake, the flood creation myth and community resilience of the Fata'an (Mataian) tribe, the Tzu Chi model versus the three competing command posts within 500 meters of Guangfu Station, and the moment when Chen Chien-nian's song 'We Are Compatriots' became concrete action in the floodwaters."
 date: '2026-03-24'
 author: 'Taiwan.md Contributors'
 category: 'Society'

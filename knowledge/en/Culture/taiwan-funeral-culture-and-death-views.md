@@ -22,8 +22,8 @@ author: 'Taiwan.md'
 featured: false
 readingTime: 13
 lastVerified: 2026-04-08
-lastHumanReview: false---
-
+lastHumanReview: false
+---
 > **30-Second Overview:** In 2009, Master Shengyan passed away. His will said simply: "No death notices, no burial mound, no gravestone." His ashes were planted beneath a tree at Jinshan Environmental Life Park, without a name inscribed. That year, Taiwan's cremation rate was already approaching 90% — and by 2024 it had surged to 98.7%, with almost no one choosing burial anymore. From the pole-dancing atop electric flower cars in funeral processions to families quietly scattering ashes at Yongli Park — Taiwan's way of facing death is turning over at the pace of one generation.
 
 On February 3, 2009, Master Shengyan passed away in Taipei at the age of seventy-nine. His will was unusually brief: no death notices, no Buddhist services, no burial mound, no gravestone, no funeral banner, no memorial tablet[^1]. His ashes were planted in the ground at Jinshan Environmental Life Park, with a tree planted above them, no name inscribed. A religious leader who had influenced millions of followers chose to disappear like a fallen leaf.
