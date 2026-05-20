@@ -63,9 +63,10 @@ def main():
             log(f"      {p}")
 
     # ----- 1. 存在 + frontmatter completeness (REFLEXES #31) -----
-    log("[1/8] 存在 + frontmatter 4 欄位完整度...")
+    log("[1/8] 存在 + frontmatter 4 欄位完整度 + translatedFrom 值等於 zh_path...")
     missing_files = []
     bad_frontmatter = []
+    translated_from_mismatch = []  # 2026-05-20: LLM agent 偶爾把 translatedFrom 改字（頼→賴 等）regression
     for a in articles:
         p = REPO / a["en_path"]
         if not p.exists():
@@ -78,6 +79,16 @@ def main():
                     bad_frontmatter.append(f"{a['en_path']}: missing key '{key}'")
                 else:
                     bad_frontmatter.append(f"{a['en_path']}: empty value for '{key}'")
+        # translatedFrom value MUST equal zh_path (per prepare-batch.py placeholder)
+        # — 防 LLM agent 把人名字符自動「正規化」（旧字体 / 新字体 / 簡繁互換）regress 成 orphan
+        m = re.search(r"^translatedFrom:\s*['\"]?([^'\"\n]+?)['\"]?\s*$", text, re.M)
+        if m:
+            actual_tf = m.group(1).strip()
+            expected_tf = a["zh_path"]
+            if actual_tf != expected_tf:
+                translated_from_mismatch.append(
+                    f"{a['en_path']}: translatedFrom='{actual_tf}' ≠ zh_path='{expected_tf}'"
+                )
     if missing_files:
         log(f"   ❌ {len(missing_files)} file(s) not written:")
         for f in missing_files:
@@ -88,7 +99,13 @@ def main():
         for b in bad_frontmatter[:10]:
             log(f"      {b}")
             errors.append(b)
-    log(f"   {len(articles) - len(missing_files) - len(bad_frontmatter)} OK")
+    if translated_from_mismatch:
+        log(f"   ❌ {len(translated_from_mismatch)} translatedFrom value mismatch (LLM regression risk):")
+        for m in translated_from_mismatch[:10]:
+            log(f"      {m}")
+            errors.append(m)
+    ok_count = len(articles) - len(missing_files) - len(bad_frontmatter) - len(translated_from_mismatch)
+    log(f"   {ok_count} OK")
 
     # ----- 2. YAML pre-flight (escape bugs) -----
     log("[2/8] YAML pre-flight check...")

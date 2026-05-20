@@ -10,7 +10,7 @@ readingTime: 12
 lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
-translatedFrom: 'People/頼清德.md'
+translatedFrom: 'People/賴清德.md'
 sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:e9ba487782481314'
 sourceBodyHash: 'sha256:7455a72c92fc69c9'
