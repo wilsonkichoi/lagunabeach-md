@@ -1,15 +1,27 @@
 {
-  "generated_at": "2026-05-19T22:12:54.740Z",
+  "generated_at": "2026-05-20T02:49:33.233Z",
   "status": "ok",
   "summary": {
-    "latest_build_seconds": 836,
-    "avg_build_seconds_7d": 836,
-    "avg_build_seconds_30d": 830,
+    "latest_build_seconds": 847,
+    "avg_build_seconds_7d": 833,
+    "avg_build_seconds_30d": 833,
     "current_page_count": 1,
-    "ms_per_page_latest": 836000,
+    "ms_per_page_latest": 847000,
     "flag_slow": true
   },
   "trend": [
+    {
+      "run_id": 26130956771,
+      "started_at": "2026-05-19T23:13:05Z",
+      "build_seconds": 847,
+      "url": "https://github.com/frank890417/taiwan-md/actions/runs/26130956771/job/76855748769"
+    },
+    {
+      "run_id": 26128644603,
+      "started_at": "2026-05-19T22:16:39Z",
+      "build_seconds": 816,
+      "url": "https://github.com/frank890417/taiwan-md/actions/runs/26128644603/job/76848454468"
+    },
     {
       "run_id": 26111488391,
       "started_at": "2026-05-19T16:43:40Z",
@@ -75,30 +87,6 @@
       "started_at": "2026-05-18T22:17:35Z",
       "build_seconds": 837,
       "url": "https://github.com/frank890417/taiwan-md/actions/runs/26063684254/job/76629607944"
-    },
-    {
-      "run_id": 26050773698,
-      "started_at": "2026-05-18T17:56:32Z",
-      "build_seconds": 818,
-      "url": "https://github.com/frank890417/taiwan-md/actions/runs/26050773698/job/76586711755"
-    },
-    {
-      "run_id": 26047118798,
-      "started_at": "2026-05-18T16:44:20Z",
-      "build_seconds": 823,
-      "url": "https://github.com/frank890417/taiwan-md/actions/runs/26047118798/job/76574296473"
-    },
-    {
-      "run_id": 26045184004,
-      "started_at": "2026-05-18T16:05:27Z",
-      "build_seconds": 829,
-      "url": "https://github.com/frank890417/taiwan-md/actions/runs/26045184004/job/76567322156"
-    },
-    {
-      "run_id": 26042318701,
-      "started_at": "2026-05-18T15:12:50Z",
-      "build_seconds": 817,
-      "url": "https://github.com/frank890417/taiwan-md/actions/runs/26042318701/job/76557124350"
     }
   ]
 }

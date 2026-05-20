@@ -1,107 +1,103 @@
 ---
-title: 'Polilla Atlas de Taiwán'
-description: 'La polilla más grande del mundo, con las alas extendidas como un libro abierto: no come en toda su vida, solo vuela una vez'
+title: "La polilla atlas de Taiwán"
+description: "Con una envergadura alar de hasta 25-30 cm, es una de las polillas de mayor envergadura del mundo; sus alas desplegadas parecen un libro abierto. No come en toda su vida adulta, solo vuela una vez."
 date: 2026-03-19
-author: 'Taiwan.md Contributors'
-subcategory: '野生動物'
-tags:
-  [
-    'Polilla Atlas',
-    'Polilla cabeza de serpiente',
-    'Polilla Atlas',
-    'Polillas',
-    'Conservación',
-    'Insectos',
-    'Ecología',
-  ]
+author: "Taiwan.md Contributors"
+category: "Nature"
+subcategory: "野生動物"
+tags: ["polilla atlas", "polilla cabeza de serpiente", "Atlas Moth", "polillas", "conservación", "insectos", "ecología"]
 readingTime: 10
 lastVerified: 2026-03-19
 lastHumanReview: false
 featured: false
-translatedFrom: 'Nature/台灣皇蛾.md'
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:04090b613f5ed578'
-sourceBodyHash: 'sha256:a6fc776d191702d7'
-translatedAt: '2026-05-01T22:19:10+08:00'
-category: Nature
+translatedFrom: "Nature/台灣皇蛾.md"
+sourceCommitSha: "f712b7242"
+sourceContentHash: "sha256:c0def8638e893fc6"
+sourceBodyHash: "sha256:b3b31dae4152e213"
+translatedAt: "2026-05-20T05:08:32+08:00"
 ---
 
-# Polilla Atlas de Taiwán: la polilla más grande del mundo, la leyenda de las alas gigantes que no comen en toda su vida
+# La polilla atlas de Taiwán: una de las polillas de mayor envergadura del mundo, la leyenda de unas alas gigantes que nunca comen
 
 ## Resumen en 30 segundos
 
-Es la polilla más grande del mundo, con una envergadura alar de entre 25 y 30 centímetros, más ancha que la mayoría de los portátiles. Se la conoce comúnmente como polilla cabeza de serpiente, debido a los patrones realistas de cabezas de serpiente en las puntas de sus alas. Su belleza más cruel es que los adultos carecen de piezas bucales: tras emerger de la crisálida, solo pueden sobrevivir de 1 a 2 semanas gracias a la grasa almacenada durante la etapa larvaria, con el único propósito de reproducirse y morir. Taiwán es uno de los pocos lugares del mundo que aún alberga poblaciones silvestres de esta polilla, aunque en los últimos años se ha vuelto cada vez más rara.
+Con una envergadura alar de hasta 25-30 cm, es una de las polillas de mayor envergadura del mundo; la superficie de sus alas es la segunda más grande del planeta (solo superada por la polilla Hércules de Australia), más amplia que tu portátil. Conocida popularmente como "polilla cabeza de serpiente" por el realista patrón en forma de cabeza de serpiente en la punta de sus alas. La belleza más cruel: el adulto carece de aparato bucal y, tras la eclosión, solo puede sobrevivir 1-2 semanas con las grasas acumuladas en la fase larval; su único propósito es reproducirse y morir. Taiwán es uno de los pocos lugares del mundo que aún alberga poblaciones silvestres de polilla atlas, pero cada vez es más difícil encontrarla.
 
 ## ¿Por qué es importante?
 
-La polilla Atlas es un indicador de la salud de los ecosistemas. Su presencia indica que los bosques de una zona son lo suficientemente saludables y tienen una biodiversidad lo suficientemente rica. Cuando la polilla Atlas desaparece, suele significar que toda la cadena ecológica está colapsando. En Taiwán, el hábitat de esta polilla son precisamente nuestros bosques de baja y media altitud más preciados: islas verdes rodeadas por la presión del desarrollo humano, que aún sobreviven tenazmente.
+La polilla atlas es un indicador de la salud del ecosistema. Su presencia señala que un bosque es lo suficientemente sano y que la biodiversidad es lo bastante rica. Cuando la polilla atlas desaparece, generalmente significa que toda la cadena ecológica se está desmoronando. En Taiwán, su hábitat se concentra en bosques de baja y mediana altitud, esas islas verdes rodeadas de presión por el desarrollo humano que, sin embargo, siguen resistiendo con tenacidad.[^2] Estos ecosistemas de colinas bajas suelen ser ignorados, pero constituyen una región clave para la biodiversidad terrestre de Taiwán: aquí también habitan especies tan valiosas como el leopardo nublado de Formosa y el pangolín. La aparición de la polilla atlas es un espejo de la salud ecológica; su ausencia, una señal de alarma que debe tomarse en serio.
 
-## Una guía natural de alas extendidas
+## Un atlas natural desplegado en alas
 
-Se conoce a la polilla Atlas (nombre científico: _Attacus atlas_) como el «mapa volante». Al extender sus alas, el fondo castaño rojizo está cubierto de líneas y patrones complejos, similar a mapas antiguos o cartas náuticas. Lo más especial son las puntas de las alas: el patrón que le da su nombre común de «polilla cabeza de serpiente».
+La polilla atlas (nombre científico: _Attacus atlas_) es conocida como "el mapa volador". Con las alas desplegadas, su color base castaño rojizo se cubre de líneas y patrones complejos que recuerdan a un mapa antiguo o una carta de navegación. Lo más distintivo es la punta de las alas, el patrón que le da el nombre de "polilla cabeza de serpiente".
 
-Los patrones en la parte frontal de las alas no solo se parecen a cabezas de serpiente: cuando la polilla Atlas se siente amenazada, agita las alas y el patrón imita vívidamente la postura de amenaza de una cobra. No es una coincidencia, sino una obra maestra de la evolución de millones de años: una estrategia perfecta de engaño a los depredadores.
+El diseño de la parte frontal de las alas no solo se asemeja a una cabeza de serpiente: cuando la polilla atlas se siente amenazada y agita las alas, el patrón cobra vida e imita vívidamente la postura intimidante de una cobra. Es una obra maestra de millones de años de evolución, una estrategia de engaño de precisión.
 
-La superficie alar de la polilla Atlas puede alcanzar los 400 centímetros cuadrados, siendo la segunda polilla con mayor superficie alar del mundo (solo superada por la polilla Hércules de Australia). Pero en cuanto a la envergadura alar pura, la polilla Atlas es casi inigualable. Las hembras son más grandes que los machos, pero estos últimos tienen antenas más anchas y plumosas, capaces de detectar las feromonas liberadas por las hembras a varios kilómetros de distancia.
+La superficie alar de la polilla atlas puede alcanzar los 400 cm², lo que la convierte en la segunda polilla con mayor superficie alar del mundo (solo superada por la polilla Hércules de Australia). En cuanto a envergadura, la polilla atlas se encuentra entre las más grandes del planeta. Las hembras son más grandes que los machos, pero estos poseen antenas más anchas y plumosas, capaces de detectar las feromonas liberadas por la hembra a varios kilómetros de distancia.
 
-## Distribución del rey de las polillas de Taiwán
+## La reina de las polillas de Taiwán y su distribución
 
-En Taiwán, la polilla Atlas se distribuye principalmente en zonas montañosas de baja a media altitud (por debajo de los 1000 metros sobre el nivel del mar), prefiriendo ambientes cálidos y húmedos. Se tienen registros de esta polilla desde el norte (Yangmingshan), el centro (montaña Bagua), el sur (Kenting) hasta el este (valle longitudinal de Huadong).
+En Taiwán, la polilla atlas se distribuye principalmente en zonas montañosas de baja a mediana altitud (por debajo de los 1000 m sobre el nivel del mar), en ambientes cálidos y húmedos. Desde el monte Yangmingshan en el norte, la montaña Bagua en el centro, el parque nacional de Kenting en el sur hasta el valle de Huatung en el este, se han registrado avistamientos de polilla atlas.[^1] Un caso especialmente notable es el campamento "Tercer Lugar Secreto" de Sanwan en Miaoli, donde en 2019 un fotógrafo aficionado logró capturar imágenes de la polilla atlas. Estos entornos de colinas bajas con escaso desarrollo son el último refugio de la especie. Los bordes de campamentos, granjas y huertos, aunque parezcan insignificantes, son islas ecológicas de las que depende la fauna silvestre de Taiwán. La polilla atlas es principalmente nocturna; la hembra deposita sus huevos agrupados en el envés de las hojas tras el apareamiento; el macho, con más de 300 000 receptores olfativos en sus antenas, detecta las feromonas a varios kilómetros y localiza con precisión a la hembra.
 
-Cabe destacar especialmente el área de acampada del Santuario Sanwan N.º 3 en Miaoli: en 2019, aún se fotografiaron ejemplares de polilla Atlas en este lugar. Estos ambientes de montaña baja con bajo nivel de desarrollo son el último refugio de la polilla Atlas. Estas áreas de acampada, granjas y bordes de huertos, que parecen insignificantes, son islas ecológicas fundamentales para la supervivencia de la fauna silvestre de Taiwán.
+## Un poema cruel en el ciclo de vida
 
-## El ciclo vital: un poema cruel
+La vida de la polilla atlas es un poema a la vez cruel y hermoso.
 
-La vida de la polilla Atlas es un poema cruel y hermoso.
+**Fase de huevo y larva**: la hembra deposita huevos esféricos de apenas 2,5 mm de diámetro en el envés de las hojas de la planta huésped, poniendo varias decenas por lote. La oruga verde que emerge posee espinas cerosas blancas en el dorso y se alimenta de plantas como guayaba, canela y cítricos. Tras seis mudas sucesivas, alcanza los 11,5 cm de largo y 2,5 cm de grosor. Esta es la única etapa en la que la polilla atlas se alimenta; toda la grasa necesaria se acumula aquí.
 
-**Etapa de huevo**: Las hembras ponen huevos esféricos de solo 2,5 milímetros de diámetro en el envés de las hojas de las plantas hospederas, unos pocos docenos por puesta.
+**Fase de pupa y adulto**: la oruga teje un capullo entre hojas secas, de 7-8 cm de largo, fijado a las ramas con hilos de seda; la metamorfosis dura aproximadamente cuatro semanas. El adulto que emerge tiene el aparato bucal atrofiado y no puede alimentarse; sobrevive únicamente con las grasas almacenadas en la fase larval y debe encontrar pareja, aparearse y reproducirse en un plazo de 1-2 semanas, tras lo cual muere. Esta estrategia concentra toda la energía en la reproducción, sin necesidad de arriesgarse en la búsqueda de alimento, lo que paradójicamente aumenta la eficiencia de la transmisión genética.
 
-**Etapa larvaria (fase de oruga)**: Esta es la única etapa en la que la polilla Atlas se alimenta. Las orugas verdes tienen espinas cerosas blancas en el dorso y se alimentan de plantas como la guayaba, la canela y los cítricos, mudando de piel continuamente mientras crecen. Tras seis estadios larvarios, alcanzan finalmente 11,5 centímetros de longitud y 2,5 centímetros de grosor.
+## El código evolutivo del patrón de cabeza de serpiente
 
-**Etapa de pupa**: Las orugas tejen capullos de 7 a 8 centímetros de longitud entre las hojas secas, que fijan a las ramas con hilos de seda. Esta etapa dura aproximadamente cuatro semanas.
+¿Por qué la punta de las alas de la polilla atlas evolucionó hacia un patrón tan realista de cabeza de serpiente? La respuesta es la "mimetización batesiana" (Batesian mimicry), es decir, la imitación de un organismo peligroso para ahuyentar a los depredadores. En 2006, el investigador británico Hossler documentó en detalle las propiedades ópticas del patrón de la punta alar de la polilla atlas, señalando que los efectos visuales bajo distintos ángulos de luz confunden eficazmente a los depredadores. En 2015, investigadores taiwaneses registraron en el monte Yangmingshan el comportamiento defensivo de la polilla atlas ante un ataque de aves, confirmando el efecto disuasorio del movimiento de la punta alar frente a los depredadores.
 
-**Etapa de adulto**: Esta es la fase más dramática. Las polillas Atlas recién emergidas carecen de piezas bucales completas, por lo que no pueden alimentarse y solo sobreviven gracias a la grasa almacenada en la etapa larvaria. Su vida es una historia de amor en cuenta regresiva: deben encontrar pareja, copular y reproducirse en un plazo de 1 a 2 semanas, para luego morir.
+Cuando aves u otros depredadores se aproximan, la polilla atlas agita rápidamente las alas, haciendo que el patrón de la punta parezca dos cabezas de serpiente balanceándose de un lado a otro. Este instante de engaño visual suele bastar para que el depredador vacile, dando a la polilla atlas la oportunidad de escapar.
 
-Esta estrategia de vida de «adultos que no se alimentan» parece cruel, pero en realidad es una elección evolutiva eficiente. Al no necesitar buscar alimento, no se exponen a los depredadores; toda su energía se dedica a la reproducción, lo que aumenta la eficiencia en la transmisión de genes.
+Lo más sofisticado es que este patrón de cabeza de serpiente produce distintos efectos visuales según el ángulo de la luz. En la penumbra del sotobosque, cuando la luz del sol se filtra entre las hojas creando un mosaico de sombras, la polilla atlas en reposo se funde casi por completo con las hojas secas. Pero al ser perturbada, el patrón de cabeza de serpiente cobra vida de repente.
 
-## El código evolutivo de los patrones de cabeza de serpiente
+## La crisis de conservación de la polilla atlas en Taiwán
 
-¿Por qué han evolucionado los patrones de cabezas de serpiente tan realistas en las puntas de las alas de la polilla Atlas? La respuesta es el mimetismo batesiano (Batesian mimicry): imitar a organismos peligrosos para ahuyentar a los depredadores.
+La polilla atlas de Taiwán enfrenta una grave crisis de supervivencia. Aunque no ha sido incluida formalmente en la lista de especies protegidas, el tamaño de sus poblaciones silvestres ha disminuido notablemente. Las principales amenazas incluyen:
 
-Cuando se acercan aves u otros depredadores, la polilla Atlas agita rápidamente las alas, haciendo que los patrones en las puntas parezcan dos cabezas de serpiente que se balancean de un lado a otro. Este engaño visual instantáneo suele ser suficiente para que el depredador dude y la polilla Atlas gane tiempo para escapar.
+La pérdida de hábitat es la amenaza más directa: los bosques de baja y mediana altitud sufren una fuerte presión de desarrollo, y la expansión de zonas residenciales, industriales y agrícolas comprime el espacio vital de la polilla atlas. Según datos de la Red de Biodiversidad de Taiwán (TBN) de 2020, los avistamientos de polilla atlas se concentran en zonas de colinas bajas de los condados de Miaoli, Nantou y Hualien, mientras que las áreas urbanizadas prácticamente carecen de registros. La iluminación artificial nocturna interfiere con el sistema de navegación de la polilla atlas, impidiendo que los machos sigan con precisión el rastro de feromonas; el uso intensivo de pesticidas en los árboles frutales huésped amenaza directamente la supervivencia de las larvas; el cambio climático altera la temperatura y la humedad, afectando los ciclos reproductivos y la distribución de las plantas huésped. Las características del ciclo vital de la polilla atlas la hacen especialmente vulnerable: vida adulta corta, rango de actividad limitado y dependencia de plantas huésped específicas. Estas cualidades, que en un entorno estable son ventajas, se convierten en debilidades ante un mundo en rápida transformación.
 
-Lo más ingenioso es que este patrón de cabeza de serpiente produce diferentes efectos visuales según el ángulo de la luz. En el suelo del bosque, con poca luz, cuando el sol se filtra a través de las hojas creando sombras moteadas, la polilla Atlas en reposo se funde casi por completo con las hojas secas. Pero una vez que se asusta, el patrón de cabeza de serpiente «cobra vida» de repente.
+## La polilla atlas en la cultura popular taiwanesa
 
-## La crisis de conservación de la polilla Atlas de Taiwán
+En la cultura popular taiwanesa, la polilla atlas tiene un nombre imponente: "mariposa reina". Aunque no es una mariposa, este nombre refleja la admiración que inspira su enorme tamaño. En las regiones hakka circula la creencia de que "si una polilla nocturna entra en casa, vendrá un invitado importante"; la visita de una polilla atlas al hogar se considera un buen augurio. En las culturas indígenas, las polillas grandes suelen verse como encarnaciones de los espíritus ancestrales; según las leyendas atayal, aquellas polillas de gran tamaño con patrones oculares en las alas son los ojos de los ancestros vigilando la tribu. Hoy en día, estos "invitados importantes" visitan cada vez menos las zonas rurales de Taiwán.
 
-La polilla Atlas de Taiwán enfrenta una grave crisis de supervivencia. Aunque no está incluida formalmente en la lista de especies protegidas, su población silvestre ha disminuido significativamente. Las principales amenazas son:
+## Reparto de nichos ecológicos con otras polillas grandes de Taiwán
 
-**Pérdida de hábitat**: Los bosques de baja y media altitud son las zonas con mayor presión de desarrollo en Taiwán. La expansión de zonas residenciales, industriales y agrícolas reduce directamente el espacio vital de la polilla Atlas.
+Taiwán alberga otras especies de polillas grandes, cada una ocupando un nicho ecológico distinto:
 
-**Contaminación lumínica**: La polilla Atlas es un insecto nocturno, y la excesiva iluminación artificial interfiere con su sistema de navegación, impidiendo que los machos rastreen con precisión las feromonas de las hembras.
+La **polilla luna de cola larga** (_Actias selene_) tiene alas de color verde pálido con largas extensiones en las alas traseras, prefiere ambientes de mayor altitud y sus larvas se alimentan de plantas de la familia Fagaceae. La **polilla de ojo transparente** (_Rhodinia fugax_) presenta "ventanas" transparentes en las alas; su distribución se solapa con la de la polilla atlas, pero prefiere entornos más montañosos. La **polilla golondrina** (_Urapteroides astheniata_) tiene alas con forma de cola de golondrina, vuela a gran velocidad y se encuentra principalmente en altitudes medias y altas, por lo que compite menos con la polilla atlas por el hábitat.
 
-**Uso de pesticidas**: Las plantas hospederas de las larvas de la polilla Atlas suelen ser árboles frutales, por lo que el uso masivo de pesticidas amenaza directamente la supervivencia de las larvas.
+Estas polillas grandes constituyen conjuntamente un eslabón esencial del ecosistema nocturno de Taiwán. Son fuente de alimento para numerosas arañas, aves y murciélagos, y al mismo tiempo actúan como polinizadoras de plantas. Según estadísticas de la Red de Biodiversidad de Taiwán (TBN) de 2022, el número de avistamientos reportados de polillas grandes disminuyó aproximadamente un 15 % respecto a 2018, lo que indica que las poblaciones de insectos nocturnos están en retroceso. La pérdida de cualquiera de estas especies afectaría al equilibrio ecológico en su conjunto.
 
-**Cambio climático**: Los cambios en la temperatura y la humedad afectan el ciclo reproductivo de la polilla Atlas y alteran la distribución de sus plantas hospederas.
+## Protección del hábitat: dejar un cielo para la polilla atlas
 
-Es preocupante que las características de su ciclo biológico hagan que la polilla Atlas sea especialmente vulnerable a los cambios ambientales. Su corta vida adulta, su limitado rango de actividad y su dependencia de plantas hospederas específicas son ventajas en ambientes estables, pero se convierten en debilidades en el entorno moderno de cambios rápidos.
+Proteger a la polilla atlas equivale a proteger la biodiversidad de los bosques de baja altitud de Taiwán. El hecho de que en el campamento de Sanwan en Miaoli se puedan fotografiar polillas atlas demuestra que es posible encontrar un equilibrio entre la actividad humana moderada y la conservación de la naturaleza; los entornos semiartificiales, si se gestionan adecuadamente, pueden convertirse en refugios para la fauna silvestre. En cuanto a la reducción de la contaminación lumínica, el uso de luminarias dirigidas hacia abajo y la elección de luz amarilla, menos atractiva para los insectos, pueden reducir la perturbación de los insectos nocturnos. Plantar las especies huésped de la polilla atlas en parques, campus escolares y zonas residenciales proporciona hábitats de paso. La participación ciudadana en ciencia ciudadana también es crucial: fotógrafos aficionados y observadores de la naturaleza que registren los lugares y momentos de aparición de la polilla atlas contribuyen a construir una base de datos completa sobre la distribución de sus poblaciones.
 
-## La polilla Atlas en la cultura popular de Taiwán
+## Datos sorprendentes
 
-En la cultura popular de Taiwán, la polilla Atlas tiene un nombre sonoro: «mariposa rey». Aunque no es una mariposa, este nombre refleja el respeto que inspira su enorme tamaño.
+Las capacidades sensoriales de la polilla atlas son asombrosas: los machos poseen más de 300 000 receptores olfativos en las antenas y pueden detectar las feromonas de la hembra a más de 10 kilómetros de distancia, con una sensibilidad muy superior a la de cualquier detector artificial. Su nombre en inglés, "Atlas Moth", proviene del titán de la mitología griega que sostenía la Tierra sobre sus hombros; otra teoría apunta a que las líneas de sus alas se asemejan a un mapa. Mothra, la criatura de la saga Godzilla, fue diseñada tomando como modelo a la polilla atlas.
 
-En las zonas hakka existe un dicho: «Si entra una polilla nocturna en casa, llegará un invitado importante». Se considera un buen augurio que la polilla Atlas entre en el hogar. Sin embargo, hoy en día estos «invitados importantes» visitan cada vez menos las zonas rurales de Taiwán.
+En cuanto al aprovechamiento de materiales, en la India se fabrica "fagara", una seda derivada del capullo de la polilla atlas, con una densidad un 80 % superior a la seda convencional y una textura tan gruesa como la lana. En la tradición popular taiwanesa, las cáscaras de las pupas de polilla atlas se utilizaban para fabricar pequeños monederos, resistentes e impermeables.
 
-En la cultura de los pueblos indígenas, las polillas gigantes suelen considerarse encarnaciones de los ancestros. Los tayal tienen una leyenda que dice que las grandes polillas con patrones oculares en las alas son los ojos de los ancestros que vigilan la seguridad de la tribu.
+Su estrategia reproductiva también es singular: generalmente se aparea una sola vez en la vida; tras el apareamiento, la hembra libera una anti-feromona que impide la aproximación de otros machos. Para conservar sus reservas de grasa, la polilla atlas solo vuela cuando es necesario; la mayor parte del tiempo permanece inmóvil sobre el tronco de un árbol, con los patrones de sus alas fusionándose casi por complejos con la corteza, siendo difícil de detectar incluso a menos de 50 cm de distancia.
 
-## División de nichos ecológicos con otras polillas grandes de Taiwán
+## Referencias
 
-Taiwán alberga otras varias especies de polillas grandes, cada una ocupando un nicho ecológico diferente:
+[^1]: [Registros de observación de la polilla atlas en Taiwán en iNaturalist](https://taiwan.inaturalist.org/taxa/125071-Attacus-atlas) — Avistamientos y datos de distribución de la polilla atlas en Taiwán.
+[^2]: [Red de Biodiversidad de Taiwán](https://www.tbn.org.tw/) — Distribución de la polilla atlas y base de datos de especímenes.
+[^3]: [Agencia Forestal y de Conservación de la Naturaleza del Ministerio de Agricultura](https://www.forest.gov.tw/) — Políticas y recursos relacionados con la conservación de polillas en Taiwán.
+[^4]: [Polilla atlas - Wikipedia](https://zh.wikipedia.org/zh-tw/皇蛾) — Descripción de la morfología, distribución y hábitos ecológicos de la polilla atlas.
+[^5]: [Attacus atlas - Picture Insect](https://pictureinsect.com/zh-tw/wiki/Attacus_atlas.html) — Ciclo vital y características de identificación de la polilla atlas.
 
-**Polilla cola de golondrina verde**: Sus alas son de color verde pálido y tienen colas largas en las alas posteriores. Prefieren ambientes de mayor altitud y sus larvas se alimentan de plantas de la familia Fagaceae.
+Lectura complementaria:
 
-**Polilla de alas con ventanas transparentes**: Sus alas tienen «ventanas» transparentes, un diseño endémico de Taiwán. Su distribución se superpone a la de la polilla Atlas, pero prefiere ambientes montañosos.
+- *Crónicas de insectos de Taiwán* — de Zhang Yongren
+- *Técnicas de fotografía ecológica de lepidópteros* — lectura esencial para aficionados a la fotografía
 
-**Polilla cola de golondrina gigante**: Sus alas tienen forma de cola de golondrina y vuelan rápido. Se activan principalmente en zonas de media y alta altitud, con poca competencia por el nicho con la polilla Atlas.
+---
 
-Estas polillas grandes constituyen juntas un eslabón fundamental del ecosistema nocturno de Taiwán. Son fuente de alimento para muchas arañas, aves y murciélagos, y además son polinizadores de plantas. La pérdida de cualquiera de ellas
+*La historia de la polilla atlas de Taiwán nos recuerda que, en este mundo en rápida transformación, ciertas bellezas se están desvaneciendo en silencio. Cada encuentro fortuito en el monte puede ser el último. Protegerlas es proteger nuestro propio hogar.*

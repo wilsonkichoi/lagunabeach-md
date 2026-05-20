@@ -1,131 +1,128 @@
 ---
-title: 'Zheng Nanrong'
-description: "He prepared 24 magazine licenses before the launch, knowing the government would shut down his publications — how an 'outsider boy' died for the freedom of speech of the entire island"
+title: 'Zheng Nanrong: la ecuación de un hijo de inmigrante continental que cambió su vida por la libertad de expresión'
+description: "En 1947, durante el Incidente del 28 de Febrero, el padre de Zheng, Zheng Musen, fue escondido por sus vecinos taiwaneses y así sobrevivió. Cuarenta y un años después, el hijo mayor de aquella pareja, Zheng Nanrong, encendió gasolina en su propia oficina editorial. En 1984 fundó la revista *Era de la Libertad*, operó con 24 licencias y fue censurada 18 veces sin dejar de publicarse; en 1988 publicó el *Proyecto de Constitución de la República de Taiwán* redactado por Xu Shikai, y el 7 de abril de 1989 se inmoló. A partir de entonces, Ye Julán ingresó en la política, desempeñándose sucesivamente como legisladora, ministra de Transportes, presidenta del Consejo de Asuntos Hakka, viceprimera ministra del Yuan Ejecutivo y secretaria general de la Oficina Presidencial. La decisión de Zheng sigue siendo objeto de controversia: sus partidarios la consideran un martirio por una causa, mientras que sus críticos la juzgan una elección personal extrema. La libertad de expresión en Taiwán es hoy algo tan cotidiano que muchos han olvidado que alguna vez hubo que pagarla con la vida."
 date: 2026-03-25
-tags:
-  [
-    'Democratic Movement',
-    'Freedom of Speech',
-    'Free Era',
-    'Martyr',
-    'February 28',
-    'Taiwan Independence',
-  ]
-subcategory: 'Politics and Democracy'
-featured: true
-lastVerified: 2026-03-25
+author: 'Taiwan.md Contributors'
+category: 'People'
+subcategory: '政治與民主'
+tags: ['Movimiento democrático', 'Libertad de expresión', 'Era de la Libertad', 'Mártir', '228', 'Independencia de Taiwán']
+lastVerified: 2026-05-13
 lastHumanReview: false
-translatedFrom: 'People/鄭南榕.md'
-sourceCommitSha: '905dadba'
-sourceContentHash: 'sha256:8343cc68a2670916'
-sourceBodyHash: 'sha256:e8dd956e4b216bc3'
-translatedAt: '2026-05-02T14:15:00+08:00'
-category: People
+featured: true
+translatedFrom: People/鄭南榕.md
+sourceCommitSha: 18157ab5d
+sourceContentHash: sha256:97d9bc4f07653a81
+sourceBodyHash: sha256:91b4c7638f35fd2f
+translatedAt: 2026-05-20T05:08:32+08:00
 ---
 
 # Zheng Nanrong
 
-When the February 28 Incident broke out in 1947, a family in Hanzhong Street, Taipei, hid inside their house, trembling. Zheng Nanrong's father, Zheng Musen, was an "outsider" from Fuzhou; people on the street were beating outsiders. It was their Taiwanese neighbors next door who hid them, saving the family's lives.
+En 1947, cuando estalló el Incidente del 28 de Febrero, una familia en la calle Hankou de Taipéi se temblaba escondida en su casa. El padre, Zheng Musen, era un «continental» (waishengren) procedente de Fuzhou, y en las calles se estaba persiguiendo y golpeando a los continentales. Fueron los vecinos taiwaneses de al lado quienes los escondieron, salvando así la vida de toda la familia.
 
-Seven months later, the couple's eldest son was born, named Nanrong.
+Siete meses después, nació el hijo mayor de aquella pareja, al que llamaron Nanrong.
 
-Forty-one years later, this "outsider boy" saved by Taiwanese people ignited gasoline in his own magazine office, fighting for the right of all Taiwanese people to speak.
+Cuarenta y un años más tarde, aquel «chico continental» al que los taiwaneses habían salvado la vida, encendió gasolina en su propia oficina editorial por el derecho de todos los taiwaneses a hablar.
 
-> **✦** Zheng Nanrong did not die out of despair, but out of a precisely calculated belief: If one is not afraid to die, the living have no reason to keep silent.
+> **✦** Su muerte nació de una creencia calculada con precisión: si ni siquiera la muerte le daba miedo, los vivos no tenían razón alguna para callarse.
 
-## The Man Who Couldn't Find His Place
+## Una persona que no encontraba su lugar
 
-Zheng Nanrong's early life was a story of constantly searching for his identity.
+La primera mitad de la vida de Zheng Nanrong fue una historia de búsqueda constante de identidad.
 
-He grew up in Luodong, Yilan, where his father ran a barbershop in the Zhongxing Paper Mill welfare society. On the first day of elementary school, he was mocked by classmates for being an "outsider" and got into a fight. Afterward, he and his younger brothers identified as locals (Provincial people), used Taiwanese Hokkien as their mother tongue, and joined the "Provincial camp" to fight with other outsider children. He experienced the absurdity of provincial identity from the age of six.
+Creció en Luodong, Yilan. Su padre regentaba un salón de belleza en la tienda de beneficios de la fábrica de papel Zhongxing. El primer día de primaria, sus compañeros se burlaron de él por ser «continental» y terminó peleando. A partir de entonces, él y sus hermanos se consideraron «nativos» (benshengren), adoptaron el taiwanés como lengua materna y se unieron al «bando de los nativos» para pelear contra otros niños continentales. Lo absurdo de la división por origen provincial lo experimentó desde los seis años.
 
-He ranked first in the Yilan High School entrance exam and then entered Jian Guo High School. His father wanted him to attend Taipei Institute of Technology, a five-year program, but Zheng Nanrong insisted on attending Jian Guo High School. For the college entrance exam, he abandoned his preferred humanities subjects and chose the Department of Engineering Science at National Cheng Kung University — because his family needed him to earn money quickly to support his younger brothers.
+Fue el mejor alumno de su promoción en la Secundaria de Yilan y luego ingresó en la Secundaria Jianguo. Su padre quería que estudiara en el Instituto Politécnico de Taipéi, donde se graduaba en cinco años, pero Zheng Nanrong insistió en quedarse en Jianguo. Para el examen de ingreso universitario abandonó las humanidades, que eran su vocación, y eligió la carrera de Ingeniería Científica en la Universidad Nacional de Cheng Kung, porque la familia necesitaba que empezara a ganar dinero cuanto antes para mantener a sus hermanos.
 
-After studying for a year, he realized it wasn't what he wanted. He took a leave of absence, retake the exam, and entered the Department of Philosophy at Fu Jen Catholic University. He transferred again to the Department of Philosophy at National Taiwan University. There, he visited the [confined Professor Yin Haiguang](https://zh.wikipedia.org/wiki/%E6%AE%B7%E6%B5%B7%E5%85%89) weekly, reading Hu Shi, reading Li Ao, and reading classical liberalism. He found a belief: China's history could not produce a society of liberal democracy; Taiwan must forge its own path.
+Tras un año de estudios, descubrió que aquello no era lo que buscaba. Dejar de estudiar, se presentó de nuevo al examen e ingresó en la Facultad de Filosofía de la Universidad Fu Jen. Luego se trasladó a la Facultad de Filosofía de la Universidad Nacional de Taiwán. Allí visitaba cada semana al profesor Yin Haiguang, que estaba bajo arresto domiciliario, y leía a Hu Shih, a Li Ao y los textos del liberalismo clásico. Encontró una convicción: la historia de China no podía generar una sociedad libre y democrática; Taiwán debía caminar su propio camino.
 
-However, he refused to take the Nationalist Party's required course, "Thought of the Father of the Nation," so he never received a graduation certificate.
+Pero se negó a cursar la asignatura obligatoria impuesta por el Kuomintang, «Pensamiento del Padre de la Nación», y por lo tanto nunca obtuvo el título de graduado.
 
-After his military service, Zheng Nanrong worked in textile exports, sold solar water heaters, imported Swiss throat lozenges, and ran a magazine distribution business. All failed. It was not until he was thirty-four that he found his battlefield — not the market, but magazines.
+Tras cumplir el servicio militar, Zheng Nanrong trabajó en exportación de textiles, vendió calentadores solares de agua, importó pastillas suizas para la garganta y abrió una distribuidora de publicaciones. Todo fracasó. No fue hasta los treinta y cuatro años que encontró su campo de batalla: las revistas.
 
-> **📝 Curator's Note**
-> Zheng Nanrong's wife, Ye Ju-lan, is a Hakka from Miaoli. Her father strongly opposed the marriage due to provincial identity issues. Zheng Nanrong pursued Ye Ju-lan by sending letters, having others deliver messages, and even sending telegrams. The two finally married with a notarized certificate at the Taipei Court, and were only recognized by their families a year later. A boy mocked for his provincial identity married a girl opposed for hers — their lives were spent fighting the cages of identity.
+> **📝 Nota del curador**
+> La esposa de Zheng Nanrong, Ye Julán, es hakka de Miaoli. Su suegro se opuso radicalmente al matrimonio por motivos de origen provincial. Zheng Nanrong cortejó a Ye Julán enviando cartas por correo, pidiendo a conocidos que le llevaran mensajes e incluso enviando telegramas. Finalmente se casaron ante notario en un juzgado de Taipéi, y un año después la familia los reconoció. Un niño ridiculizado por su origen provincial se casó con una niña rechazada por el mismo motivo: toda su vida lucharon contra la jaula de la identidad.
 
-## Twenty-four Licenses
+## Veinticuatro licencias
 
-On March 12, 1984, the [Free Era Weekly](https://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E6%99%82%E4%BB%A3%E5%91%A8%E5%88%8A) was launched. Founder Zheng Nanrong, Director Li Ao, President Chen Shui-bian, Publisher Lin Shih-yu. The slogan was just one sentence: "Strive for 100% freedom."
+El 12 de marzo de 1984 se publicó el primer número de la *Semanario Era de la Libertad*.[^1] El fundador era Zheng Nanrong, el director Li Ao, el presidente Chen Shui-bian y el editor Lin Shiyu. Su eslogan era uno solo: «Luchar por el cien por cien de libertad.»
 
-But Zheng Nanrong did something no one expected: Before the launch, he collected university graduation certificates everywhere and applied to the Department of Information for **24 magazine licenses**.
+Pero Zheng Nanrong hizo algo que nadie esperaba: antes del lanzamiento, reunió por todas partes certificados de graduación universitaria y solicitó a la Oficina de Prensa **24 licencias de publicación**.[^1]
 
-He knew the government would ban the publication. If one was banned, the next would immediately be published with a new license, still bearing the word "Era" in its title. He used up 18 licenses in the end. The government banned it 18 times, and he published it 18 times.
+Porque sabía que el gobierno censuraría la revista. Cuando una fuera prohibida, la siguiente saldría inmediatamente con una nueva licencia, y el título seguiría llevando la palabra «Era». Al final utilizó varias de ellas. El gobierno la censuró en múltiples ocasiones, y él simplemente cambiaba de licencia y seguía publicando. Cada licencia tenía su uso calculado antes incluso de que la revista viera la luz.
 
-This was not impulsiveness; it was systematic resistance.
+La *Era de la Libertad* publicaba durante la ley marcial aquello que el gobierno no permitía decir: reformas políticas, protección de derechos humanos, igualdad étnica y el futuro de Taiwán, además de ofrecer espacio a los movimientos medioambientales y a las demandas de los pueblos indígenas, siendo uno de los pocos medios de la época dispuestos a acoger una amplia gama de causas sociales. Cada número bailaba sobre la punta de un cuchillo. Zheng Nanrong fue acusado en varias ocasiones, pero nunca retrocedió. Decía: «Para alguien con mi profunda formación intelectual, publicar una revista es la forma más apropiada de poner en práctica mis convicciones.»
 
-_Free Era_ specialized in publishing what the government forbade during the Martial Law period: political reform, human rights protection, ethnic equality, and the future of Taiwan. Every issue danced on the edge of a knife. Zheng Nanrong was prosecuted multiple times, but he never retreated. He said, "For someone with my deep ideological training, running a magazine is the most appropriate way to practice faith."
+En 1987, la *Era de la Libertad* hizo algo sin precedentes: organizó públicamente un acto conmemorativo del Incidente del 28 de Febrero. Fue la primera vez en cuarenta años que un medio público se atrevía a hablar del 228.[^2]
 
-In 1987, _Free Era_ did something unprecedented — it publicly launched an event commemorating the February 28 Incident. For the first time in forty years, an open media dared to discuss February 28.
+## Aquel proyecto de constitución
 
-## The Constitutional Draft
+En diciembre de 1988, Zheng Nanrong publicó en el número 254 de la *Era de la Libertad* el *Proyecto de Constitución de la República de Taiwán*, redactado por Xu Shikai.[^3]
 
-In December 1988, Zheng Nanrong published the [Taiwan Republic Constitution Draft](https://zh.wikipedia.org/wiki/%E8%A8%B1%E4%B8%96%E6%A5%B7) drafted by [Hsu Shih-kai](https://zh.wikipedia.org/wiki/%E8%A8%B1%E4%B8%96%E6%A5%B7) in the 254th issue of _Free Era_.
+En aquella época, abogar por la independencia de Taiwán equivalía al delito de sedición, castigado con la pena de muerte.
 
-At that time, advocating for Taiwan independence was equivalent to the crime of rebellion, punishable by death.
+Zheng Nanrong sabía perfectamente lo que esto significaba. Pero consideraba que si a los ciudadanos de un país no se les permitía ni siquiera «discutir» el futuro de ese país, entonces la libertad de expresión de ese país era una farsa. Lo que quería defender era la legitimidad de **la discusión en sí misma** —si la independencia de Taiwán era correcta o no era otra cuestión.
 
-Zheng Nanrong fully understood what this meant. But he believed that if a country's people are not even allowed to "discuss" the future of that country, then the freedom of speech in that country is fake. What he wanted to prove was not whether Taiwan independence was correct — but that **the discussion itself** must be protected.
+El 21 de enero de 1989, un fiscal acusó a Zheng Nanrong del delito de sedición y lo citó a comparecer ante el tribunal.[^2]
 
-On January 21, 1989, prosecutors charged Zheng Nanrong with suspected rebellion and summoned him to court.
+Él se negó.
 
-He refused.
+Se encerró en la oficina editorial de la revista en el distrito de Songshan, Taipéi, y anunció públicamente:
 
-He locked himself in the magazine office in Songshan District, Taipei, and announced to the outside world:
+**«El Kuomintang no puede atrapar mi persona; solo puede atrapar mi cadáver.»**
 
-**"The Kuomintang cannot catch my person, only my corpse."**
+## El siete de abril
 
-## April 7
+Setenta y un días de autoconfinamiento.
 
-Seventy-one days of self-imprisonment.
+En la madrugada del 7 de abril de 1989, el entonces jefe de la sección criminal de la comisaría de Zhongshan, Hou Youyi, dirigió un operativo para derribar la puerta de la oficina editorial.[^4] Zheng Nanrong se retiró a la sala del editor en jefe, cerró la puerta con llave y encendió la gasolina que ya tenía preparada.
 
-On the morning of April 7, 1989, Hou Youyi, then the Criminal Investigation Group Leader of the Zhongshan Branch, led a team to launch a door-breaking assault on the magazine office. Zheng Nanrong retreated into the Editor-in-Chief's office, locked the door, and ignited the gasoline he had prepared long ago.
+Murió a los cuarenta y un años. Su hija, Zheng Zhumei, tenía nueve.
 
-He died at the age of forty-one. His daughter, Zheng Zhu-mei, was nine years old.
+Siete días después, otro activista, Zhan Yihua, se inmoló en el cortejo fúnebre de Zheng Nanrong, frente a la Oficina Presidencial.[^4]
 
-Seven days later, another social activist, [Zhan Yihua](https://zh.wikipedia.org/wiki/%E8%A9%B9%E7%9B%8A%E6%A8%BA), committed self-immolation in the procession of Zheng Nanrong's funeral, in front of the Presidential Office.
+> **💡 ¿Sabías que...?**
+> Hou Youyi, quien dirigió el operativo de allanamiento, se convirtió posteriormente en alcalde de la ciudad de Nuevo Taipéi. Este episodio sigue siendo uno de los recuerdos más sensibles de la política taiwanesa: el nombre de quien ejerció el poder público y el del mártir conviven simultáneamente en la vida cotidiana de esta isla.
 
-> **💡 Did You Know**
-> Hou Youyi, who executed the assault, later became the Mayor of New Taipei City. This history remains one of the most sensitive memories in Taiwanese politics today — the names of the perpetrator and the martyr live simultaneously in the daily life of this island.
+## Después del fuego
 
-## After the Fire
+La muerte de Zheng Nanrong lanzó una bomba de impacto sobre la sociedad taiwanesa.
 
-Zheng Nanrong's death sent a shockwave through Taiwanese society.
+Muchas personas que hasta entonces habían permanecido en silencio empezaron a hablar. Intelectuales, abogados, docentes —aquellos que durante años habían guardado silencio por miedo— vieron que alguien podía entregar su vida por «el derecho a hablar», y de pronto sintieron que no tenían razón para seguir callados.
 
-Many previously silent people began to speak. Intellectuals, lawyers, teachers — those who had remained quiet for years out of fear — saw that one person could pay with his life for the "right to speak," and suddenly felt they had no reason to keep silent.
+Su esposa, Ye Julán, no se derrumbó. Entró por la puerta que su marido había abierto con su vida: ingresó en la política y ocupó sucesivamente los cargos de legisladora, ministra de Transportes, presidenta del Consejo de Asuntos Hakka, viceprimera ministra del Yuan Ejecutivo, y entre 2006 y 2007 fue secretaria general de la Oficina Presidencial.[^5] Su hija Zheng Zhumei, ya adulta, se incorporó al trabajo de la fundación, preservando el legado espiritual de su padre.
 
-His wife, Ye Ju-lan, did not collapse. She walked through the door her husband had opened with his life — entering politics, serving successively as a Legislator, Minister of Transportation and Communications, Chairman of the Council of Indigenous Peoples, and finally as Vice Premier. His daughter, Zheng Zhu-mei, grew up to work in the foundation, guarding her father's spiritual legacy.
+La trayectoria de esta familia se convirtió en un caso poco frecuente de «duelo privado convertido en fuerza pública» en el movimiento democrático taiwanés: una pérdida personal transformada en energía política para toda una generación.
 
-A family's trauma was transformed into an asset for the entire island.
+> **⚖️ Perspectiva de controversia**
+> La decisión de Zheng Nanrong sigue admitiendo distintas interpretaciones. Sus partidarios consideran la inmolación una declaración de convicción calculada con precisión, y sostienen que pagó el precio más alto para garantizar que la cuestión de la libertad de expresión no pudiera ser ignorada. Sus críticos, en cambio, juzgan la inmolación una elección personal extrema, una forma desproporcionada de perseguir un objetivo que difuminó las posibles vías de reforma a través de la resistencia institucional; Hou Youyi ejecutó una orden de arresto legal y no puede ser reducido simplemente a la categoría de «agresor». Ambos marcos interpretativos coexisten en el debate sobre la historia democrática de Taiwán, y el lector puede formarse su propio juicio.
 
-On December 22, 2016, the Executive Yuan officially designated April 7 as [Freedom of Speech Day](<https://zh.wikipedia.org/wiki/%E8%A8%80%E8%AB%96%E8%87%AA%E7%94%B1%E6%97%A5_(%E8%87%BA%E7%81%A3)>). The [Zheng Nanrong Memorial Hall](https://www.nfreedommemorialfoundation.org/) in Taipei (the original magazine office site) preserves his last office, with burn marks still remaining on the walls.
+El 22 de diciembre de 2016, el Yuan Ejecutivo designó oficialmente el 7 de abril como «[Día de la Libertad de Expresión](https://zh.wikipedia.org/wiki/%E8%A8%80%E8%AB%96%E8%87%AA%E7%94%B1%E6%97%A5_(%E8%87%BA%E7%81%A3))».[^6] El [Museo Conmemorativo de Zheng Nanrong](https://www.nfreedommemorialfoundation.org/) en Taipéi (antigua sede de la revista) conserva su última oficina, donde las paredes aún conservan las marcas del fuego.
 
-## The Legacy of an Activist Thinker
+## El legado de un pensador de acción
 
-Zheng Nanrong liked to call himself an "activist thinker." This term accurately describes him: he did not just think about freedom; he lived freedom as a practice.
+A Zheng Nanrong le gustaba llamarse a sí mismo «pensador de acción». El término lo describe con precisión: no solo reflexionaba sobre la libertad, sino que convertía la libertad en una práctica vivida.
 
-His core belief was extremely simple: **All viewpoints, including those you disagree with, must be freely discussable.** Unification and independence can be discussed, the system can be questioned, the government can be criticized. Not because these viewpoints are necessarily correct, but because "not allowing discussion" is itself violence.
+Su convicción central era extraordinariamente simple: **todas las opiniones, incluidas aquellas con las que no estás de acuerdo, deben poder discutirse libremente.** La unificación o la independencia pueden debatirse, el sistema puede cuestionarse, el gobierno puede criticarse. Porque «prohibir la discusión» es en sí mismo una forma de violencia —más fundamental que cualquier censura de contenido concreto.
 
-Today in Taiwan, people can curse the president on the internet, protest with signs on the streets, and debate any issue in the media. This free air is so commonplace that many have forgotten it once had to be exchanged for a life.
+En el Taiwán de hoy, la gente puede insultar al presidente en internet, protestar con carteles en la calle y debatir cualquier tema en los medios. Este aire de libertad es tan cotidiano que muchos han olvidado que alguna vez hubo que pagarlo con la vida.
 
-Zheng Nanrong reminds us not of a tragic story, but of a simple equation: The price of freedom is always cheaper than losing freedom. He paid the first bill for this island.
+Lo que Zheng Nanrong dejó es una pregunta que sigue abierta al debate: ¿por qué alguien estaría dispuesto a dar su vida por el derecho de otros a hablar? Sea cual sea tu respuesta, el fuego que él encendió en 1989 cambió efectivamente la percepción de los taiwaneses sobre el peso de la libertad de expresión.
 
----
+## Referencias
 
-_Reference materials:_
+[^1]: [自由时代周刊 — 维基百科](https://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E6%99%82%E4%BB%A3%E5%91%A8%E5%88%8A) — Confirma la fecha de fundación, 12 de marzo de 1984, la solicitud de 24 licencias y el registro de 18 censuras.
+[^2]: [郑南榕基金会．纪念馆](https://www.nfreedommemorialfoundation.org/) — Cronología biográfica: organización pública de la conmemoración del 228 en 1987; secuencia temporal de la acusación por sedición del 21 de enero de 1989.
+[^3]: [许世楷 — 维基百科](https://zh.wikipedia.org/wiki/%E8%A8%B1%E4%B8%96%E6%A5%B7) — Antecedentes del autor del *Proyecto de Constitución de la República de Taiwán*; el proceso que condujo a la acusación tras su publicación en el número 254 de la *Era de la Libertad*.
+[^4]: [郑南榕 — 维基百科](https://zh.wikipedia.org/wiki/%E9%84%AD%E5%8D%97%E6%A6%95) — Confirma que el operativo del 7 de abril de 1989 fue dirigido por Hou Youyi de la comisaría de Zhongshan; Zhan Yihua se inmoló siete días después durante el cortejo fúnebre.
+[^5]: [叶菊兰 — 维基百科](https://zh.wikipedia.org/wiki/%E8%91%89%E8%8F%8A%E8%98%AD) — Confirma los cargos públicos ocupados: legisladora, ministra de Transportes, presidenta del Consejo de Asuntos Hakka, viceprimera ministra del Yuan Ejecutivo y secretaria general de la Oficina Presidencial (2006–2007).
+[^6]: [言论自由日 — 行政院](https://www.ey.gov.tw/) — Comunicado de la designación del 7 de abril como Día de la Libertad de Expresión, aprobado el 22 de diciembre de 2016.
 
-- [Zheng Nanrong Foundation . Memorial Hall](https://www.nfreedommemorialfoundation.org/) — Biography introduction, artifact collection, commemorative activities
-- [Wikipedia: Zheng Nanrong](https://zh.wikipedia.org/wiki/%E9%84%AD%E5%8D%97%E6%A6%95) — Complete biography and historical context
-- [Free Era Weekly — National Library Collection](https://www.ncl.edu.tw/) — Historical journal full text
-- [Freedom of Speech Day — Executive Yuan](https://www.ey.gov.tw/) — 2016 official notification
-- [Ministry of Culture — Freedom of Speech Day](https://www.moc.gov.tw/) — Official commemorative information
-- [National Human Rights Museum](https://www.nhrm.gov.tw/) — White Terror and democratic movement oral history
-- [Hsu Shih-kai's Taiwan Republic Constitution Draft](https://zh.wikipedia.org/wiki/%E8%A8%B1%E4%B8%96%E6%A5%B7) — Background of the document that triggered the prosecution
-- Hu Huiling, _A Century of Pursuit: The Story of Taiwan's Democratic Movement_ — Detailed records of Zheng Nanrong and the non-party movement
-- [February 28 Incident Memorial Foundation](https://www.228.org.tw/) — Connection between Zheng Nanrong's family and the February 28 Incident
-- [Formosa Incident](https://zh.wikipedia.org/wiki/%E7%BE%8E%E9%BA%97%E5%B3%B6%E4%BA%8B%E4%BB%B6) — Key event that catalyzed Zheng Nanrong's involvement in social activism
+**Lecturas complementarias**
+
+- [曾博恩](/people/曾博恩) — En agosto de 2019, el presentador de *夜夜秀 de Boen* citó en un segmento de Open Mic la inmolación de Zheng Nanrong, provocando una fuerte reacción social y la primera suspensión de su colaboración con Satyr.
+- [Museo Nacional de Derechos Humanos](https://www.nhrm.gov.tw/) — Historia oral del Terror Blanco y el movimiento democrático.
+- Hu Huiling, *百年追求：台湾民主运动的故事* — Registro detallado de Zheng Nanrong y el movimiento disidente.
+- [Fundación Conmemorativa del Incidente del 28 de Febrero](https://www.228.org.tw/) — La conexión entre la familia Zheng Nanrong y el 228.
+- [美麗島事件 — 維基百科](https://zh.wikipedia.org/wiki/%E7%BE%8E%E9%BA%97%E5%B3%B6%E4%BA%8B%E4%BB%B6) — El evento clave que impulsó a Zheng Nanrong a involucrarse en el activismo social.
+- Documental *自由的靈魂 Nylon* (director: Cai Chonglong, 2009) — Reconstrucción de la vida de Zheng Nanrong y de su decisión de inmolación a través de entrevistas a los protagonistas e imágenes de archivo.

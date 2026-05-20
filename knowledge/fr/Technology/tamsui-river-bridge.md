@@ -1,106 +1,107 @@
 ---
 title: "Le pont de Tamsui : à l'horizon de l'estuaire, un monument colossal conçu pour la « transparence »"
-description: "Le pont de Tamsui devrait être inauguré le 12 mai 2026. Conçu par l'équipe de l'architecte Zaha Hadid, ce pont à haubans asymétrique à pylône unique, fruit de trente ans de planification, tente de concilier la préservation du coucher de soleil de Tamsui et le désenclavement routier, redéfinissant le paysage estuaire de Taïwan par ses lignes fluides."
+description: "Le pont de Tamsui devrait être inauguré le 12 mai 2026. Conçu par l'équipe de l'architecte Zaha Hadid, ce pont à haubans asymétrique à pylône unique, fruit de trente ans de planification, tente de concilier la préservation du coucher de soleil sur Tamsui et la fluidification du trafic, redéfinissant le paysage de l'estuaire par ses lignes fluides."
 date: 2026-04-29
-author: 'Taiwan.md Contributors'
-category: Technology
-tags:
-  [
-    'Pont de Tamsui',
-    'Zaha Hadid',
-    'Coucher de soleil de Tamsui',
-    'Infrastructures de transport',
-    'Esthétique architecturale',
-    "Protection de l'environnement",
-    'Génie civil',
+author: "Taiwan.md Contributors"
+category: "Technology"
+subcategory: "科技園區"
+tags: [
+    "淡江大橋",
+    "Zaha Hadid",
+    "淡水夕照",
+    "交通建設",
+    "建築美學",
+    "環境保護",
+    "工程技術",
   ]
 readingTime: 10
 lastVerified: 2026-04-29
 lastHumanReview: false
-translatedFrom: Technology/淡江大橋.md
-sourceCommitSha: 751831b2
-sourceContentHash: sha256:49327f6673debe98
-sourceBodyHash: 'sha256:a0b72b981b016b86'
-translatedAt: 2026-05-01T20:54:17+08:00
+featured: false
+translatedFrom: "Technology/淡江大橋.md"
+sourceCommitSha: "4b6d28c54"
+sourceContentHash: "sha256:58ac62b3c0ac9558"
+sourceBodyHash: "sha256:2f938b13f0ca156c"
+translatedAt: "2026-05-20T05:08:34+08:00"
 ---
 
-> **En bref (30 secondes) :**
-> Après sept appels d'offres infructueux et trente ans de controverses et d'attentes, le pont de Tamsui devrait être inauguré le 12 mai 2026. Il relie Tamsui à Bali et constitue un repère sculptural signé par l'équipe de la grande architecte Zaha Hadid. Sa structure asymétrique à pylône unique vise à minimiser l'obstruction du coucher de soleil de Tamsui, maintenant un équilibre fragile et magnifique entre le génie civil et le paysage naturel de l'estuaire.
+> **En 30 secondes :**
+> Après 7 appels d'offres infructueux et 30 ans de controverses et d'attentes, le pont de Tamsui devrait être inauguré le 12 mai 2026. Il relie Tamsui à Bali et constitue un repère sculptural laissé à Taïwan par l'équipe de la grande architecte Zaha Hadid. Sa structure asymétrique à pylône unique minimise l'obstruction du coucher de soleil sur Tamsui, maintenant un équilibre fragile et magnifique entre ingénierie et paysage naturel à l'embouchure du fleuve.
 
-Dans une interview-conférence à l'approche de l'inauguration, Shao-Wei Huang, directeur adjoint de Zaha Hadid Architects, a rappelé au public que ce pont deviendrait également un lieu de promenade et de loisirs [^1]. Selon le calendeur des activités publié par la Direction générale des autoroutes et la municipalité de Nouveau Taipei, le pont de Tamsui devrait être officiellement inauguré le 12 mai 2026 [^3]. D'une longueur totale de 920 mètres avec une portée principale de 450 mètres, cette structure colossale bat le record mondial des ponts à haubans à pylône unique [^7], mais ce qui retient le plus l'attention, c'est sa tentative de devenir « invisible » dans le paysage.
+Huang Shaowei, directeur adjoint de Zaha Hadid Architects, a rappelé lors d'une interview en avant-première que ce pont deviendra également un lieu de loisirs [^1]. Selon le calendaire publié par la Direction des routes et la municipalité de Nouveau Taipei, le pont de Tamsui devrait être officiellement inauguré le 12 mai 2026 [^3]. Cette structure monumentale de 920 mètres de long, avec une portée principale de 450 mètres, bat le record mondial pour un pont à haubans à pylône unique [^7]. Mais ce qui retient le plus l'attention, c'est sa tentative de devenir « invisible » dans le paysage.
 
-### Trente ans d'attente : des « Six ans de construction nationale » aux « sept appels d'offres infructueux »
+### Trente ans d'attente : des « Six Années de Construction Nationale » aux « Sept Appels d'Offres Infructueux »
 
-L'histoire du pont de Tamsui remonte aux projets de construction des années 1980. En 1992, il fut intégré au programme des « Six ans de construction nationale » de l'époque, dans le but de relier la nouvelle ville de Danhai au port de Taipei à Bali [^8]. Cependant, ce projet a mis trente ans à se concrétiser.
+L'histoire du pont de Tamsui remonte aux plans de construction des années 1980. En 1992, il fut intégré au programme des « Six Années de Construction Nationale » de l'époque, destiné à relier la nouvelle ville de Danhai au port de Taipei à Bali [^8]. Cependant, ce projet a mis trente ans à se concrétiser.
 
-Les raisons du retard sont complexes. Initialement, le développement de la nouvelle ville de Danhai n'a pas répondu aux attentes, puis le projet s'est enlisé dans de longues batailles d'évaluation environnementale [^2]. Les défenseurs du patrimoine culturel et historique craignaient que la structure du pont ne coupe l'horizon de l'estuaire de Tamsui, obscurcissant à jamais le célèbre « coucher de soleil de Tamsui » [^6] ; les groupes écologistes, quant à eux, redoutaient que la zone naturelle protégée de Wazihwei, côté Bali, ne perde ses habitats d'oiseaux migrateurs à cause des travaux [^2].
+Les retards ont eu des causes complexes. Initialement dus au développement insuffisant de la nouvelle ville de Danhai, ils se sont prolongés par de longues batailles d'évaluations environnementales [^2]. Les défenseurs du patrimoine culturel craignaient que le pont ne coupe l'horizon de l'estuaire de Tamsui, obscurcissant le célèbre « coucher de soleil de Tamsui » [^6] ; les groupes écologistes s'inquiétaient que la zone naturelle protégée de Wazihwei, côté Bali, ne perde ses habitats d'oiseaux migrateurs à cause des travaux [^2].
 
-« C'est un habitat d'incubation stable », a déclaré Chuan-Xia Zhou, bénévole de la Société de protection de la nature sauvage, en enfilant ses bottes de caoutchouc pour documenter la reproduction abondante du gravelot à collier interrompu sur les vasières de Wazihwei [^2]. La réserve naturelle de Wazihwei est l'une des rares zones humides de Taïwan à avoir conservé un écosystème estuaire intact, abritant une riche mangrove, refuge des poissons-grenouilles (_Periophthalmus_) et des crabes violonistes (_Uca_), ainsi qu'une escale essentielle pour de nombreux oiseaux migrateurs. Pour répondre à ces préoccupations, l'équipe d'ingénierie a révisé le design à plusieurs reprises, déplaçant les rampes d'accès côté Bali de 500 mètres vers le sud afin d'éviter la réserve, et a finalement opté pour un concours international afin de trouver la meilleure solution alliant esthétique et respect de l'environnement [^2].
+« C'est un habitat d'incubation stable », a déclaré Zhou Chuanxia, bénévole de la Société de Protection de la Nature Sauvage, en enregistrant la reproduction abondante du gravelot à collier interrompu sur les vasières de Wazihwei [^2]. La zone naturelle protégée de Wazihwei est l'une des rares zones humides de Taïwan à conserver un écosystème estuaire complet, abritant une riche mangrove, foyer de poissons-grenouilles et de crabes violonistes, et servant d'étape cruciale pour de nombreux oiseaux migrateurs. Pour répondre à ces préoccupations, l'équipe d'ingénierie a révisé le design à plusieurs reprises, déplaçant la rampe d'accès de Bali de 500 mètres vers le sud pour éviter la zone protégée, et a finalement opté pour un concours international afin de trouver la meilleure solution esthétique et environnementale [^2].
 
-| Point d'impact                                      | Conséquence                                                                                             | Mesure d'atténuation                                                                                                                  |
-| :-------------------------------------------------- | :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------ |
-| Paysage du coucher de soleil de Tamsui              | La structure du pont pourrait masquer le coucher de soleil                                              | Adoption d'un design de pont à haubans asymétrique à pylône unique, réduisant l'obstruction visuelle [^1]                             |
-| Écosystème de la réserve naturelle de Wazihwei      | Les travaux risquent de détruire les habitats d'oiseaux migrateurs                                      | Déplacement des rampes côté Bali de 500 mètres vers le sud, évitant la réserve [^2]                                                   |
-| Complexité technique et appels d'offres infructueux | Traverser la rivière Tamsui représente un défi technique majeur ; sept appels d'offres infructueux [^7] | Concours international ayant conduit à la sélection de l'équipe Zaha Hadid, améliorant le design et les méthodes de construction [^7] |
+| Point d'achoppement | Impact | Mesure corrective |
+| :------------------- | :--------------------------------------- | :------------------------------------------------ |
+| Paysage du coucher de soleil de Tamsui | Le pont pourrait masquer le coucher de soleil | Adoption d'un design à haubans asymétrique à pylône unique, réduisant l'obstruction visuelle [^1] |
+| Écosystème de la zone protégée de Wazihwei | Les travaux risquent de détruire les habitats d'oiseaux | Déplacement de la rampe de Bali de 500 mètres vers le sud, évitant la zone protégée [^2] |
+| Difficultés techniques et appels d'offres | Traversée du fleuve Tamsui, défis techniques élevés, 7 appels d'offres infructueux [^7] | Concours international avec l'équipe Zaha Hadid, améliorant design et méthodes [^7] |
 
-📝 Note du commissaire : Ce projet d'infrastructure de transport a dû concilier simultanément deux valeurs publiques — le « progrès » et la « préservation ».
+📝 Note du curateur : Ce projet d'infrastructure traite simultanément les valeurs publiques du « progrès » et de la « préservation ».
 
-### L'œuvre posthume de l'architecte : quand l'acier épouse la danse et repousse les limites du génie civil
+### L'œuvre posthume de la Dame d'Architecture : Quand l'acier danse et repousse les limites de l'ingénierie
 
-En 2015, l'équipe de la défunte architecte de renommée mondiale Zaha Hadid a remporté le concours [^1]. Cette « dame de l'architecture », célèbre dans le monde entier pour ses courbes, a insufflé une âme au pont de Tamsui. Le design s'inspire de la posture d'un danseur du Cloud Gate Dance Theatre en plein saut, ainsi que des lignes ondulantes du mont Guanyin [^1] [^4].
+En 2015, l'équipe de la défunte architecte Zaha Hadid a remporté le concours [^1]. Cette Dame d'Architecture, mondialement reconnue pour ses « courbes », a insufflé une âme au pont de Tamsui. L'inspiration provient de la posture de saut des danseurs du Cloud Gate Dance Theatre et des lignes ondulantes de la Montagne Guanyin [^1] [^4].
 
-Afin de ne pas obstruer le coucher de soleil, l'équipe ZHA a opté avec audace pour une structure de pont à haubans asymétrique à pylône unique. Contrairement aux designs symétriques traditionnels à deux pylônes, un pylône unique réduit au minimum l'obstruction visuelle. Le pylône lui-même fusionne des formes tridimensionnelles mêlant arêtes et surfaces courbes. Si l'on pose une bille sur la surface du pylône, elle roule le long du plan fluide sans se coincer [^1]. Ce design aux surfaces complexes impose des exigences extrêmes en matière de précision de construction : chaque élément en acier doit être préfabriqué et installé avec une exactitude rigoureuse.
+Pour ne pas obstruer le coucher de soleil, l'équipe ZHA a osé adopter une structure de « pont à haubans asymétrique à pylône unique ». Contrairement aux designs symétriques traditionnels à deux pylônes, un pylône unique minimise l'obstruction visuelle. Le pylône lui-même fusionne des formes 3D angulaires et courbes. Si vous placez une bille sur sa surface, elle roulera le long du plan fluide sans se coincer [^1]. Ce design de surface complexe exige une précision de construction extrême, chaque composant en acier devant être préfabriqué et installé avec exactitude.
 
-Les défis techniques s'étendent également à l'environnement estuaire. Le pont de Tamsui est situé à l'embouchure de la rivière Tamsui, où la géologie du lit fluvial est complexe et où la structure doit résister aux puissants vents du nord-est et aux assauts des typhons. Les fondations du pylône principal reposent sur des pieux tubulaires de grand diamètre (8 mètres), enfoncés à plusieurs dizaines de mètres dans le lit de la rivière, afin d'assurer la stabilité de l'ensemble. De plus, la structure a été conçue en tenant pleinement compte de la résistance au vent et aux séismes, intégrant des amortisseurs avancés et des systèmes d'isolation sismique pour faire face à l'environnement géologique de Taïwan, particulièrement sujet aux tremblements de terre [^5] [^7].
+Les défis d'ingénierie s'étendent également à l'environnement estuaire. Le pont de Tamsui est situé à l'embouchure du fleuve Tamsui, avec une géologie complexe du lit du fleuve, devant résister aux puissants vents du nord-est et aux typhons. Les fondations du pylône principal utilisent des pieux tubulaires de très grand diamètre, atteignant 8 mètres, enfoncés à plusieurs dizaines de mètres dans le lit du fleuve pour assurer la stabilité structurelle. De plus, le pont a été conçu en tenant compte des performances antisismiques et anti-vent, utilisant des amortisseurs avancés et des systèmes d'isolation sismique pour faire face à l'environnement géologique sismiquement actif de Taïwan [^5] [^7].
 
-Les 126 mâts d'éclairage paysager du pont suivent la courbure du tablier, variant progressivement en hauteur, en inclinaison et en forme de courbure. La nuit, lorsque les lumières s'allument, la température de couleur est maintenue en dessous de 3000 K dans des tons chauds, réduisant ainsi la pollution lumineuse pour l'écosystème tout en dessinant une sensation de mouvement rythmé à la surface de la rivière [^1] [^4].
+Les 126 poteaux lumineux du pont suivent la courbe du tabard, variant progressivement en hauteur, angle d'inclinaison et forme de courbure. La nuit, lorsque les lumières s'allument, la température de couleur est maintenue en dessous de 3000K dans des tons chauds, réduisant la pollution lumineuse pour l'écosystème tout en dessinant une sensation de mouvement dansant sur la surface du fleuve [^1] [^4].
 
-📝 Note du commissaire : Le bon design met souvent son énergie à préserver la beauté qui existait déjà.
+📝 Note du curateur : Un bon design met souvent son énergie à préserver la beauté qui existe déjà.
 
-### La surprise du solstice d'été : quand l'architecture s'aligne avec la nature
+### La surprise du solstice d'été : Quand l'architecture s'aligne avec la nature
 
-Le pont de Tamsui recèle une délicate prouesse géométrique : chaque année, le 21 juin, au moment du solstice d'été, le soleil couchant se trouve exactement dans l'alignement du pylône principal [^1]. Ce résultat découle de calculs précis de la trajectoire du soleil couchant au fil des saisons.
+Le pont de Tamsui cache une ingénieuse astuce géométrique : chaque année, le 21 juin, au solstice d'été, l'angle du coucher de soleil se positionnera exactement entre le pylône principal [^1]. Cela résulte de calculs précis des trajectoires du coucher de soleil au fil des saisons.
 
-« Nous espérons que les gens se souviendront de ce moment — sur l'eau, sur le pont, sur la rive — et qu'ils viendront ensemble admirer l'émotion suscitée par le coucher de soleil et la lumière scintillante sur l'eau », a exprimé Yu-Xiu Chen, ancienne directrice de l'Administration du tourisme du ministère des Transports [^1]. Ce pont remplit sa fonction de passage, mais intègre également l'arrêt et la contemplation dans sa conception.
+« Nous espérons que les gens se souviendront de ce moment, sur l'eau, sur le pont, sur la rive, pour apprécier ensemble l'émotion du coucher de soleil et des reflets scintillants. » a exprimé Chen Yu-hsiu, ancienne directrice de l'Administration du Tourisme du Ministère des Transports [^1]. Ce pont assume sa fonction de passage tout en intégrant l'arrêt et l'observation dans son design.
 
-Cependant, cette exigence esthétique cache une difficulté technique considérable. En raison de la complexité excessive des méthodes de construction et des risques élevés, les entreprises nationales ont hésité à soumissionner, ce qui a conduit à sept appels d'offres infructueux [^7]. Lin Fu-Shan, directeur de la Direction générale des autoroutes du ministère des Transports, se souvient : « C'est la persévérance dans la beauté du design et des méthodes de construction du pont de Tamsui qui a été la clé. » Cela a nécessité la résilience de trois générations de responsables des transports pour que cette esthétique « se compliquant elle-même » soit reproduite à 100 % [^1].
+Cependant, derrière cette persévérance esthétique se cache une difficulté d'ingénierie extrême. Le pont de Tamsui, en raison de sa complexité technique et des risques élevés, a vu les entreprises nationales hésiter à soumissionner, avec 7 appels d'offres infructueux [^7]. Lin Fushan, directeur de la Direction des Routes du Ministère des Transports, se souvient : « La persévérance dans le maintien de l'esthétique du design et des méthodes de construction du pont de Tamsui a été la clé. » Cela a nécessité la résilience de trois générations de professionnels des transports pour que cette esthétique « se compliquant la vie » soit reproduite à 100% [^1].
 
-### Défis et perspectives : cheval de Troie ou porte d'entrée ?
+### Défis et avenir : Cheval de Troie ou porte d'entrée ?
 
-Selon l'évaluation des bénéfices à l'ouverture, le trajet entre Tamsui et Bali pourrait être réduit de 15 kilomètres, économisant environ 25 minutes [^3] [^5], mais les controverses ne sont pas entièrement dissipées. Rui-Mao Huang, professeur d'architecture à l'université de Tamsui, a exprimé sa crainte que ce pont ne ressemble au cheval de Troie de la légende, attirant un afflux de touristes au-delà de la capacité d'accueil et détériorant ainsi la qualité de la petite ville de Tamsui [^2].
+Selon l'évaluation des bénéfices de l'inauguration, le trajet entre Tamsui et Bali pourrait être réduit de 15 kilomètres, économisant environ 25 minutes [^3] [^5], mais les controverses ne sont pas entièrement dissipées. Huang Ruei-mao, professeur d'architecture à l'Université de Tamsui, s'est inquiété que ce pont ressemble au « cheval de Troie », introduisant un flux touristique excessif qui nuirait à la qualité de la petite ville de Tamsui [^2].
 
-| Bénéfice transport           | Avant (estimation) | Après (estimation) | Gain de temps/distance |
-| :--------------------------- | :----------------- | :----------------- | :--------------------- |
-| Trajet Tamsui–Bali           | 30–40 minutes      | 5–15 minutes       | 25 minutes             |
-| Détour par le pont de Kuandu | 15 km              | 0 km               | 15 km                  |
+| Bénéfice de transport | Avant amélioration (estimation) | Après amélioration (estimation) | Temps/distance économisés |
+| :--------------- | :------------- | :------------- | :------------ |
+| Trajet Tamsui-Bali | 30-40 minutes | 5-15 minutes | 25 minutes |
+| Détour par le pont de Kuandu | 15 kilomètres | 0 kilomètre | 15 kilomètres |
 
-Par ailleurs, l'effet de corridor de vent au niveau du pylône principal et les questions de sécurité des voies motocyclistes restent des sujets de discussion au sein des communautés locales [^3]. Le bureau des transports a également prévu de tester quatre nouvelles lignes de bus après l'ouverture, dans le but d'orienter les flux touristiques et de réduire l'impact des véhicules privés sur la vieille rue de Tamsui [^3].
+De plus, l'effet de vent au niveau du pylône principal et les problèmes de sécurité des voies motocyclistes restent des sujets de discussion au sein de la communauté locale [^3]. Le bureau des transports a également prévu d'exploiter 4 nouvelles lignes de bus en phase d'essai après l'inauguration, tentant de guider les flux touristiques et de réduire l'impact des véhicules privés sur les rues historiques [^3].
 
-L'estuaire de Tamsui est depuis l'antiquité une porte d'entrée majeure de Taïwan, porteuse d'une riche mémoire historique et culturelle — des comptoirs commerciaux de l'ère des grandes découvertes aux champs de bataille anciens de la guerre franco-chinoise, jusqu'à la destination touristique qu'elle est aujourd'hui. La construction du pont de Tamsui représente une percée en matière de génie civil routier et ajoute un nouveau chapitre historique à cette terre. Dressé dans l'estuaire de Tamsui, il agit comme un immense cadre invitant le monde à reconsidérer cet ancien estuaire, tout en nous mettant au défi de trouver, dans la modernisation, l'équilibre entre le développement et la coexistence avec l'environnement et l'histoire.
+L'estuaire de Tamsui a historiquement été une porte d'entrée importante pour Taïwan, portant de riches mémoires historiques et culturelles, des comptoirs commerciaux de l'ère des Grandes Découvertes aux champs de bataille anciens de la Guerre Sino-Française, jusqu'aux destinations touristiques d'aujourd'hui. La construction du pont de Tamsui représente une percée en ingénierie des transports et ajoute un nouveau chapitre historique à cette terre. Il se dresse à l'estuaire de Tamsui, comme un immense cadre photo, invitant le monde à redécouvrir cet ancien estuaire, tout en nous mettant au défi de trouver un équilibre entre développement moderne et coexistence avec l'environnement et l'histoire.
 
-L'achèvement du pont de Tamsui marque une étape importante dans le passage des infrastructures publiques taïwanaises de la « primauté de la fonction » à la « pratique esthétique ». Dressé dans l'estuaire de Tamsui, il agit comme un immense cadre invitant le monde à reconsidérer cet ancien estuaire.
+L'achèvement du pont de Tamsui marque une étape importante dans la transition des infrastructures publiques taïwanaises de la « primauté fonctionnelle » à la « pratique esthétique ». Il se dresse à l'estuaire de Tamsui, comme un immense cadre photo, invitant le monde à redécouvrir cet ancien estuaire.
 
-📝 Note du commissaire : Le pont relie deux rives, mais la véritable traversée, c'est d'avoir appris à coexister avec la nature dans l'acte de construire.
+📝 Note du curateur : Le pont relie les deux rives, mais le véritable franchissement est notre apprentissage de la coexistence avec la nature dans la construction.
 
 ## Pour aller plus loin
 
-- [Système de transport de Taïwan](/lifestyle/台灣交通系統) — Replacer le pont dans le contexte global des routes, ponts et transports en commun de Taïwan.
-- [Développement urbain et disparités rurales-urbaines à Taïwan](/geography/台灣都市發展與城鄉差距) — Comprendre comment les grandes infrastructures de transport transforment la démographie régionale et le marché immobilier.
+- [Système de transport taïwanais](/lifestyle/台灣交通系統) — Replacer dans le contexte global des routes, ponts et transports en commun de Taïwan.
+- [Développement urbain et disparités rurales-urbaines à Taïwan](/geography/台灣都市發展與城鄉差距) — Comprendre comment les grandes infrastructures de transport modifient la population régionale et le marché immobilier.
 
 ## Références
 
-[^1]: [Shopping Design : Le pont de Tamsui ouvre le 12/05 ! L'équipe Zaha Hadid dévoile les secrets de conception](https://www.shoppingdesign.com.tw/post/view/13359) — Fournit le contexte, les données ou la chronologie des événements relatifs à cet article, servant de base narrative et de vérification.
+[^1]: [Shopping Design : Le pont de Tamsui ouvre le 12 mai ! L'équipe Zaha Hadid dévoile les secrets du design](https://www.shoppingdesign.com.tw/post/view/13359) — Fournit le contexte, les données ou les événements pertinents pour cet article, servant de base narrative et de vérification.
 
-[^2]: [Notre île : Les amours et les haines du pont de Tamsui](https://ourisland.pts.org.tw/content/770) — Fournit le contexte, les données ou la chronologie des événements relatifs à cet article, servant de base narrative et de vérification.
+[^2]: [Notre Île : Amour et Haine pour le Pont de Tamsui](https://ourisland.pts.org.tw/content/770) — Fournit le contexte, les données ou les événements pertinents pour cet article, servant de base narrative et de vérification.
 
-[^3]: [Taidaily : Le pont de Tamsui ouvre en mai — Nouveau Taipei et la Direction des autoroutes organisent une série d'événements](https://taidaily.com/2026/04/29/571985/) — Fournit le contexte, les données ou la chronologie des événements relatifs à cet article, servant de base narrative et de vérification.
+[^3]: [Taidaily : Le pont de Tamsui ouvre en mai, Nouveau Taipei et la Direction des Routes organisent des événements](https://taidaily.com/2026/04/29/571985/) — Fournit le contexte, les données ou les événements pertinents pour cet article, servant de base narrative et de vérification.
 
-[^4]: [Marie Claire : Le plus grand pont à haubans asymétrique à pylône unique au monde — 126 mâts dessinant la danse nocturne](https://www.marieclaire.com.tw/lifestyle/news/92982) — Fournit le contexte, les données ou la chronologie des événements relatifs à cet article, servant de base narrative et de vérification.
+[^4]: [Marie Claire : Le plus grand pont à haubans asymétrique à pylône unique au monde, 126 poteaux lumineux dessinant la danse nocturne](https://www.marieclaire.com.tw/lifestyle/news/92982) — Fournit le contexte, les données ou les événements pertinents pour cet article, servant de base narrative et de vérification.
 
-[^5]: [Site officiel du pont de Tamsui — Direction des autoroutes](https://djbridge.thb.gov.tw/) — Fournit le contexte, les données ou la chronologie des événements relatifs à cet article, servant de base narrative et de vérification.
+[^5]: [Zone spéciale du pont de Tamsui - Direction des Routes](https://djbridge.thb.gov.tw/) — Fournit le contexte, les données ou les événements pertinents pour cet article, servant de base narrative et de vérification.
 
-[^6]: [Centre d'information environnementale : L'horizon et la ligne de ciel que Tamsui est sur le point de perdre](https://e-info.org.tw/node/72404) — Fournit le contexte, les données ou la chronologie des événements relatifs à cet article, servant de base narrative et de vérification.
+[^6]: [Centre d'Information Environnementale : L'horizon et la ligne d'horizon que Tamsui est sur le point de perdre](https://e-info.org.tw/node/72404) — Fournit le contexte, les données ou les événements pertinents pour cet article, servant de base narrative et de vérification.
 
-[^7]: [Business Today : Compte à rebours avant l'ouverture du pont de Tamsui — un repère mondial ayant accompli 8 « missions impossibles »](https://www.businesstoday.com.tw/article/category/192008/post/202604160051/) — Fournit le contexte, les données ou la chronologie des événements relatifs à cet article, servant de base narrative et de vérification.
+[^7]: [Business Today : Compte à rebours avant l'ouverture du pont de Tamsui, un repère mondial accomplissant 8 « missions impossibles »](https://www.businesstoday.com.tw/article/category/192008/post/202604160051/) — Fournit le contexte, les données ou les événements pertinents pour cet article, servant de base narrative et de vérification.
 
-[^8]: [Wikipédia : Pont de Tamsui](https://zh.wikipedia.org/zh-tw/%E6%B7%A1%E6%B1%9F%E5%A4%A7%E6%A9%8B) — Fournit le contexte, les données ou la chronologie des événements relatifs à cet article, servant de base narrative et de vérification.
+[^8]: [Wikipedia : Pont de Tamsui](https://zh.wikipedia.org/zh-tw/%E6%B7%A1%E6%B1%9F%E5%A4%A7%E6%A9%8B) — Fournit le contexte, les données ou les événements pertinents pour cet article, servant de base narrative et de vérification.

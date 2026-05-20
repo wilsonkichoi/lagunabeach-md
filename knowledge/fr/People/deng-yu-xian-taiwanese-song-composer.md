@@ -1,72 +1,94 @@
 ---
-title: 'Teng Yu-hsien'
-description: 'Père de la chanson taïwanaise, compositeur des classiques du folklore taïwanais tels que « Wang Chun Feng », « Yu Ye Hua » et « Yue Ye Chou »'
+title: "Deng Yu-xian : Hakka 1906, les Quatre Chansons des Pluies d'Avril — Les trente-neuf ans du père de la chanson taïwanaise"
+description: "Né le 21 juillet 1906 dans une famille hakka de Longtan, Taoyuan, sous le nom de Deng Bingyan. Diplômé d'une école normale, il est recruté en 1933 par la maison de disques Columbia. Ses quatre chefs-d'œuvre, les « Quatre Chansons des Pluies d'Avril » (Quatre Saisons Rouges / Nuit Lunaire Mélancolique / Attente du Vent de Printemps / Fleurs sous la Pluie Nocturne), sont encore chantés aujourd'hui. En 1939, il rejoint l'école publique de Qionglin, Hsinchu, comme enseignant. Il meurt le 11 juin 1944 à l'hôpital de Zhudong, à l'âge de 39 ans."
 date: 2026-03-19
-tags:
-  [
-    'musique',
-    'chanson taïwanaise',
-    'compositeur',
-    'période japonaise',
-    'musique classique',
-    'Taoyuan',
-  ]
-subcategory: 'Musique'
-category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 6
-featured: false
-lastVerified: 2026-03-19
-translatedFrom: 'People/鄧雨賢.md'
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:e8046886d7414c75'
-sourceBodyHash: 'sha256:02cd0544fb20b8a9'
-translatedAt: '2026-04-14T19:19:05+08:00'
+author: "Taiwan.md"
+category: "People"
+subcategory: "音樂"
+tags: ["音樂", "Chanson taïwanaise", "Compositeur", "Période coloniale japonaise", "Taoyuan", "Hakka"]
+readingTime: "# design_rationale:\n#   why_this_hook: \"用「四月望雨」四個字標題切入——這四首歌不只是代表作，是他整個創作生命的濃縮。\"\n#   whats_excluded: \"各歌曲音樂理論分析；與詞人合作細節的逐條梳理；桃園紀念活動清單\"\n#   where_it_hedges: \"《雨夜花》原曲名「春之雨」需更多史料佐證（P0⚠️）；已移除「台北病逝」幻覺，以竹東醫院為準\""
+lastVerified: 2026-05-07
+lastHumanReview: "true"
+featured: "false"
+translatedFrom: "People/鄧雨賢.md"
+sourceCommitSha: "0f8fae0ae"
+sourceContentHash: "sha256:03f4c1611aa95a6c"
+sourceBodyHash: "sha256:0d86dfd69dceab10"
+translatedAt: "2026-05-20T05:08:34+08:00"
 ---
 
-# Teng Yu-hsien : le fondateur de la chanson taïwanaise
+# Deng Yu-xian : Hakka 1906, les Quatre Chansons des Pluies d'Avril — Les trente-neuf ans du père de la chanson taïwanaise
 
-Teng Yu-hsien (1906–1944), de son vrai nom Teng Ping-yen, est né dans une famille hakka à Longtan, Taoyuan. Il est l'un des compositeurs les plus importants de l'histoire de la musique populaire taïwanaise, honoré du titre de « Père de la chanson taïwanaise ». En seulement trente-huit ans d'existence, il a créé des œuvres fondatrices telles que _Wang Chun Feng_ (望春風), _Yu Ye Hua_ (雨夜花) et _Yue Ye Chou_ (月夜愁) — des chansons qui demeurent aujourd'hui des emblèmes de la musique taïwanaise en langue hokkien et qui ont posé les bases de toute la musique populaire de Taïwan.
+> **En 30 secondes :** Deng Yu-xian naît le 21 juillet 1906 dans une famille hakka de Longtan, Taoyuan, sous le nom de Deng Bingyan.[^1] Diplômé d'une école normale (ancêtre de l'actuelle université normale), il enseigne d'abord dans une école primaire. En 1933, il est recruté par la maison de disques Columbia comme compositeur exclusif,[^2] et compose la même année *Attente du Vent de Printemps* (paroles : Li Linqiu). Ses quatre chefs-d'œuvre, réunis sous le nom de « Quatre Chansons des Pluies d'Avril » : *Quatre Saisons Rouges*, *Nuit Lunaire Mélancolique*, *Attente du Vent de Printemps*, *Fleurs sous la Pluie Nocturne*.[^1] À partir de 1939, il enseigne à l'école publique de Qionglin, Hsinchu.[^3] Il meurt le 11 juin 1944 à l'hôpital de Zhudong, à l'âge de 39 ans.[^3]
 
-## Éveil musical et formation
+## 1906, une famille hakka à Longtan, Taoyuan
 
-Teng Yu-hsien est issu d'une famille cultivée ; son père, Teng Teng, était lettré reconnu dans la région. Dès l'enfance, il manifeste des dispositions musicales exceptionnelles. En 1920, il entre à l'École normale du Gouvernement général de Taïwan — l'ancêtre de l'actuelle Université nationale normale de Taïwan — où il reçoit une formation rigoureuse à la musique occidentale : piano, violon et chant.
+Deng Yu-xian naît le 21 juillet 1906 à Longtan, Taoyuan, sous le nom de Deng Bingyan. Issu d'une famille hakka de lettrés, son père Deng Teng est un *xiucai* (licencié du système impérial chinois).[^1] Dès l'enfance, il montre un talent musical. Il intègre l'école normale du Gouvernement général de Taïwan (ancêtre de l'actuelle Université nationale normale de Taïwan), où il reçoit une formation occidentale classique en musique, apprenant le piano et le violon.[^1]
 
-Après avoir obtenu son diplôme en 1925, il exerce brièvement comme instituteur avant de se consacrer entièrement à la composition. À cette époque, Taïwan, sous administration japonaise, vit une rencontre intense entre les influences occidentales et la tradition locale, créant un terrain particulièrement propice à l'éclosion d'une musique populaire originale. C'est dans ce contexte que Teng Yu-hsien entame sa carrière de compositeur.
+Après son diplôme de l'école normale en 1925, il enseigne dans une école primaire avant de se consacrer à la composition musicale.
 
-## Le créateur de la chanson populaire en hokkien
+La formation en musique occidentale dispensée par l'école normale constitue une ressource extrêmement rare à Taïwan dans les années 1920-1930. Les compositeurs capables de jouer du piano, de comprendre l'harmonie et de lire une partition en notation occidentale se comptent sur les doigts de la main — Deng Yu-xian est l'un d'entre eux. Ce bagage technique lui permettra, par la suite, de combiner les caractéristiques tonales des paroles en taïwanais avec des formes musicales occidentales, créant des œuvres qui allient rigueur académique et intuition sonore populaire.
 
-Les années 1930 constituent l'âge d'or de la chanson taïwanaise en langue hokkien, et Teng Yu-hsien en est le principal artisan. En 1933, sa mélodie _Wang Chun Feng_, mise en paroles par le parolier Li Lin-chiu, devient la première véritable chanson populaire taïwanaise au sens moderne du terme. Elle marie les techniques harmoniques occidentales aux éléments de la musique traditionnelle locale, ouvrant ainsi une nouvelle ère pour la chanson taïwanaise.
+## La maison de disques Columbia et la naissance d'*Attente du Vent de Printemps*
 
-_Yu Ye Hua_ (1934) est sans doute son chef-d'œuvre. Sa mélodie d'une beauté saisissante est encore chantée partout à Taïwan aujourd'hui. Fait notable : la mélodie avait d'abord été composée pour une chanson en japonais intitulée _Haru no Ame_ (Pluie de printemps), avant que le parolier Chou Tien-wang ne la revête de paroles en hokkien — version qui connut un succès bien plus durable. Cet épisode témoigne de la richesse et de la complexité de la vie culturelle taïwanaise de l'époque.
+En 1933, Deng Yu-xian est recruté par la maison de disques Columbia comme compositeur exclusif.[^2] La même année, il compose la mélodie d'*Attente du Vent de Printemps*, sur des paroles en taïwanais écrites par Li Linqiu. Cette chanson, qui intègre l'harmonie occidentale dans une mélodie traditionnelle taïwanaise, devient l'une des premières œuvres représentatives de la chanson populaire en taïwanais.
 
-## Style musical et caractéristiques créatives
+Columbia est alors l'une des plus grandes maisons de disques commerciales de Taïwan. Être engagé comme compositeur exclusif signifie accéder au mécanisme de production le plus central de la musique populaire taïwanaise : ses œuvres disposent d'un enregistrement commercial et de circuits de distribution. Cette structure est une condition essentielle à la diffusion rapide des Quatre Chansons des Pluies d'Avril.
 
-Le style de composition de Teng Yu-hsien se distingue par un mariage subtil entre les techniques harmoniques occidentales et les éléments musicaux propres à Taïwan. Il maîtrise parfaitement la théorie harmonique européenne, mais ses lignes mélodiques portent une couleur taïwanaise indéniable. Cette synthèse entre Orient et Occident devient la marque de fabrique de la chanson taïwanaise hokkien.
+La version originale d'*Attente du Vent de Printemps* est interprétée par Chun Chun (Liu Qingxiang). Le mois exact de sa première publication reste à confirmer par des sources primaires. Les premières paroles — « Seule la nuit, compagnie de la lampe, le vent de printemps souffle en face » — comptent parmi les premières chansons de l'histoire de la chanson taïwanaise à traduire le monde intérieur d'une jeune femme en attente de mariage dans un langage moderne. La structure mélodique repose sur un cadre harmonique occidental, mais le sens des paroles est entièrement celui de la langue orale rurale taïwanaise. Deng Yu-xian utilise la théorie apprise à l'école normale pour trouver les profils sonores les plus adaptés aux tons du taïwanais.
 
-Ses œuvres traitent principalement de l'amour, du mal du pays et des mélancolies que suscite le cours du temps. Sa langue musicale, à la fois simple et profonde, touche directement le grand public. Des chansons comme _Yue Ye Chou_ et _Yu Ye Hua_ révèlent une perception aiguë de la condition humaine et une sensibilité particulière aux mutations de l'époque.
+## Les Quatre Chansons des Pluies d'Avril : quatre chefs-d'œuvre
 
-## Collaboration avec les grands paroliers
+Les quatre œuvres les plus célèbres de Deng Yu-xian sont réunies sous le nom de « Quatre Chansons des Pluies d'Avril », formé à partir du premier caractère de chaque titre.[^1] Les quatre chansons sont composées entre 1933 et 1934 : *Quatre Saisons Rouges* (1933, paroles : Zhou Tianwang, la nostalgie à travers les saisons), *Nuit Lunaire Mélancolique* (1933, paroles : Zhou Tianwang, la solitude par nuit de lune), *Attente du Vent de Printemps* (1933, paroles : Li Linqiu, l'attente d'une jeune femme), *Fleurs sous la Pluie Nocturne* (1934, paroles : Zhou Tianwang, la mélancolie des fleurs tombées).
 
-Le succès de Teng Yu-hsien doit beaucoup à ses partenariats avec des paroliers de talent. Il entretient une fructueuse collaboration avec Li Lin-chiu, Chou Tien-wang, Su Tung et d'autres, qui habillent ses mélodies de paroles proches de la vie quotidienne des Taïwanais, permettant ainsi à sa musique de toucher véritablement le cœur du peuple.
+*Fleurs sous la Pluie Nocturne* aurait d'abord existé sous forme de mélodie en japonais (le titre original « Pluie de Printemps » est avancé), avant que Zhou Tianwang n'écrive des paroles en taïwanais (P0⚠️ cette affirmation nécessite davantage de preuves documentaires).[^1]
 
-La collaboration avec Li Lin-chiu reste la plus emblématique : le succès de _Wang Chun Feng_ établit un modèle de coopération entre musicien et parolier qui influencera durablement la musique populaire taïwanaise.
+Le trait commun aux quatre chansons est une structure émotionnelle simple mais profonde : la nostalgie, la solitude, l'attente, la disparition — des registres émotionnels qui résonnent à travers toutes les époques. Deng Yu-xian ne les enveloppe pas d'un langage musical complexe, mais laisse la mélodie épouser étroitement le sens des paroles. Cette proximité permet aux Quatre Chansons des Pluies d'Avril d'être réinterprétées par des chanteurs de générations successives sans perdre leur pertinence, des décennies plus tard.
 
-## Contraintes d'une époque et grandeur artistique
+## Sous le contrôle de guerre, du disque à l'école publique de Qionglin
 
-La carrière créatrice de Teng Yu-hsien se déroule entièrement sous la domination coloniale japonaise. Les restrictions politiques et l'ombre de la guerre pèsent sur son œuvre. Après l'éclatement de la guerre sino-japonaise en 1937, les autorités japonaises resserrent leur contrôle culturel, réduisant considérablement l'espace de création pour les chansons en hokkien. Malgré ce contexte difficile, Teng Yu-hsien continue de composer avec ténacité, témoignant de la résilience propre aux grands artistes.
+Après le déclenchement de la guerre sino-japonaise en 1937, les autorités japonaises renforcent le contrôle culturel, réduisant l'espace de création pour les chansons en taïwanais. En 1939, Deng Yu-xian s'installe à Qionglin, Hsinchu, où il enseigne dans l'école publique locale jusqu'à la fin de sa vie.[^3]
 
-En 1944, il succombe à la tuberculose à Taipei, à l'âge de trente-huit ans seulement. Bien que sa vie ait été brève, les œuvres qu'il a laissées constituent un patrimoine culturel essentiel de Taïwan et ont inspiré d'innombrables créateurs après lui.
+Le passage de compositeur à plein temps chez Columbia à instituteur dans une école publique de Qionglin n'est pas seulement un changement de carrière : c'est la guerre qui met fin à son âge d'or créatif. Ses quatre chansons les plus importantes sont toutes concentrées dans une fenêtre de moins de deux ans, avant la guerre. Après avoir quitté l'industrie du disque, il revient sur la trajectoire de son école normale originelle : enseigner, plutôt que composer.
 
-## Postérité et place dans la culture taïwanaise
+## 39 ans à l'hôpital de Zhudong, et les Quatre Chansons des Pluies d'Avril après lui
 
-Les compositions de Teng Yu-hsien ont transcendé le temps pour devenir de véritables classiques. Des artistes comme Teresa Teng, Chiang Hui et Yeh Chi-tien ont repris ses chansons à différentes époques, leur insufflant chaque fois une vie nouvelle.
+Le 11 juin 1944, Deng Yu-xian meurt à l'hôpital de Zhudong, à l'âge de 39 ans.[^3]
 
-En 2006, à l'occasion du centenaire de sa naissance, des manifestations commémoratives ont été organisées dans tout Taïwan. Le gouvernement du comté de Taoyuan a notamment inauguré le Parc culturel musical Teng Yu-hsien, dédié à ce précurseur de la musique taïwanaise. Son histoire et sa musique continuent d'inspirer les créateurs d'aujourd'hui, prouvant que les œuvres d'art véritablement grandes possèdent une valeur éternelle.
+(Note : certaines sources mentionnent à tort « Taipei » comme lieu de décès ; l'hôpital de Zhudong fait foi.)
+
+Les Quatre Chansons des Pluies d'Avril et ses autres œuvres sont par la suite reprises par des générations de chanteurs, de Teresa Teng à Jody Chiang, et continuent d'être interprétées. En 2006, le comté de Taoyuan établit le Parc culturel musical Deng Yu-xian pour commémorer le centenaire de sa naissance.[^4]
+
+La postérité de Deng Yu-xian se précise progressivement au fil des décennies suivant sa mort, à mesure que la conscience culturelle taïwanaise renaît. La débat sur la littérature nativiste des années 1970, puis la réévaluation de la culture taïwanaise après la levée de la loi martiale en 1987, replacent les Quatre Chansons des Pluies d'Avril dans le cadre de la discussion sur l'identité culturelle taïwanaise. Son nom passe progressivement de l'étiquette « vieille chanson » à une reconnaissance historique de fondateur de la musique populaire taïwanaise.
+
+Deng Yu-xian n'a laissé aucun entretien écrit complet. Son époque de création est la période coloniale japonaise ; les sources primaires qui subsistent sont principalement des partitions et des enregistrements sur disque. On le connaît à travers ses chansons : la direction mélodique, la logique de l'adaptation paroles-musique, sont son langage le plus direct.
+
+Dans les décennies qui suivent, les reprises par Teresa Teng et Jody Chiang offrent aux Quatre Chansons des Pluies d'Avril de nouveaux publics à chaque génération. Chaque reprise recadre ces chansons dans le contexte de leur époque, mais la mélodie elle-même n'a jamais eu besoin d'être modifiée. Une mélodie qui peut être interprétée par des chanteurs de décennies différentes sans perdre sa force est l'auto-déclaration la plus silencieuse de Deng Yu-xian.
+
+**Idée reçue → Lecture plus précise :** Deng Yu-xian est souvent appelé le « père de la chanson taïwanaise », au sens de « fondateur de la chanson populaire en taïwanais ». Sa contribution ne réside pas dans la création de la première chanson en taïwanais de l'histoire musicale, mais dans l'utilisation des techniques d'harmonie occidentale apprises à l'école normale pour donner, pour la première fois, à la chanson taïwanaise une structure mélodique moderne susceptible d'être réinterprétée indéfiniment. Le titre de « père » est une reconnaissance de sa contribution fondatrice, pas une revendication de primauté sur l'ensemble du genre.
+
+> 🎙️ **Note du curateur :** Les 39 ans de Deng Yu-xian représentent la répartition la plus déséquilibrée de l'histoire de la chanson taïwanaise : un pic de création concentré entre 1933 et 1934, moins de deux ans, quatre chansons ; puis le silence imposé par le contrôle de guerre, puis la mort à 39 ans.
+>
+> Mais les quatre chansons des Quatre Chansons des Pluies d'Avril lui ont survécu quatre-vingts ans. *Attente du Vent de Printemps* reste aujourd'hui l'une des plus anciennes chansons dont le plus grand nombre de Taïwanais peuvent fredonner la mélodie — non pas parce qu'elle figure dans les manuels scolaires, mais parce que la mélodie conserve un espace d'interprétation à chaque génération.
+>
+> Un Hakka composant des chansons en taïwanais, une formation occidentale à l'école normale confrontée au contrôle culturel de la période coloniale japonaise : ses conditions de création sont elles-mêmes un point de convergence de multiples forces culturelles. Ce qu'il a laissé à ce point de convergence sont les premières coordonnées de la musique populaire taïwanaise.
+>
+> Il meurt à 39 ans, sans laisser d'entretien, sans laisser de mémoire. Il laisse quatre mélodies. La manière dont les générations futures l'évaluent dépend largement du contexte dans lequel ces quatre mélodies sont rechantées. Chaque reprise est une réinterprétation de lui-même.
+
+Parti d'une famille hakka de lettrés à Longtan, Taoyuan, passant par la maison de disques Columbia, par une carrière d'enseignant à Qionglin, puis par la mort à 39 ans à l'hôpital de Zhudong, sa vie est courte, mais quatre mélodies lui ont survécu quatre-vingts ans, et continuent.
+
+Ce fait, en lui-même, est l'une des démonstrations les plus simples et les plus puissantes de l'histoire de la musique populaire taïwanaise : une bonne chanson peut vivre plus longtemps, plus largement et plus loin que son auteur.
+
+**Pour aller plus loin** : [Deng Yu-xian — Wikipédia](https://zh.wikipedia.org/zh-tw/鄧雨賢) ｜ [Bibliothèque de l'UNNT : Exposition spéciale Deng Yu-xian](http://archives.lib.ntnu.edu.tw/exhibitions/DengYuShian/master.jsp) ｜ [Parc culturel musical Deng Yu-xian de la ville de Taoyuan](https://www.tyac.gov.tw/)
 
 ## Références
 
-- [Parc culturel musical Teng Yu-hsien](https://www.tyac.gov.tw/home.jsp?id=10&parentpath=0,6,10) — Site officiel du Bureau de la culture de la ville de Taoyuan
-- [Wikipédia : Teng Yu-hsien](https://zh.wikipedia.org/wiki/%E9%84%A7%E9%9B%A8%E8%B3%A2) — Biographie détaillée et liste des œuvres
-- [Portraits de la musique taïwanaise : Teng Yu-hsien](https://music.ncfta.gov.tw/zh-tw/index/composers) — Centre national du cinéma et des archives audiovisuelles de Taïwan
-- [Grande encyclopédie taïwanaise : Teng Yu-hsien](https://nrch.culture.tw/zh-tw/encyc/detail/a.cfm?id=1134) — Présentation officielle par le ministère de la Culture
+[^1]: [Wikipédia : Deng Yu-xian](https://zh.wikipedia.org/zh-tw/鄧雨賢) — Confirme la naissance le 21 juillet 1906 à Longtan, Taoyuan, le nom de naissance Deng Bingyan, les études à l'école normale, les quatre chefs-d'œuvre des Quatre Chansons des Pluies d'Avril (Quatre Saisons Rouges / Nuit Lunaire Mélancolique / Attente du Vent de Printemps / Fleurs sous la Pluie Nocturne), et le titre de « père de la chanson taïwanaise ».
+
+[^2]: [Storm.mg : Deng Yu-xian et la maison de disques Columbia](https://www.storm.mg/lifestyle/237234) — Confirme le recrutement en 1933 par Columbia comme compositeur exclusif.
+
+[^3]: [Bibliothèque de l'UNNT : Exposition spéciale Deng Yu-xian](http://archives.lib.ntnu.edu.tw/exhibitions/DengYuShian/master.jsp) — Confirme l'enseignement à l'école publique de Qionglin, Hsinchu, à partir de 1939, et le décès le 11 juin 1944 à l'hôpital de Zhudong (et non à Taipei), à l'âge de 39 ans.
+
+[^4]: [Parc culturel musical Deng Yu-xian de la ville de Taoyuan](https://www.tyac.gov.tw/home.jsp?id=10&parentpath=0,6,10) — Contient des informations sur les commémorations du centenaire de sa naissance et la création du parc.
+
+[^5]: [Nippon.com : Les chansons en taïwanais de Deng Yu-xian](https://www.nippon.com/hk/japan-topics/g02160/) — Reportage sur le contexte de création de Deng Yu-xien et l'environnement musical taïwanais sous la période coloniale japonaise.

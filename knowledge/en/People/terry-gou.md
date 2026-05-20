@@ -1,112 +1,104 @@
 ---
-title: 'Terry Gou: Banqiao 1950, Hon Hai Plastics 1974 — Founder of a Manufacturing Empire'
-description: "Born October 18, 1950 in Taipei County's Banqiao. Founded Hon Hai Plastics Enterprise with NT$100,000 in 1974 (10 employees). Moved into PC connectors in 1981, renamed the company Hon Hai Precision in 1982. Handed over the chairmanship to Young Liu in June 2019. In 2021, the Yonglin Foundation partnered with TSMC and Foxconn to donate BNT vaccines. In 2023, ran for president as an independent but withdrew three hours before the registration deadline despite collecting 902,389 valid signatures. Fortune 500 rank #32 in 2024; Taiwan's richest person in 2026 at US$15.3 billion."
+title: 'Terry Gou: Banqiao 1950, Hon Hai Plastics 1974, and the Founder of a Contract-Manufacturing Empire'
+description: "Born in Banqiao, Taipei County, on 1950/10/18. Founded Hon Hai Plastics Enterprise in 1974 with NT$100,000 and 10 employees. Entered PC connectors in 1981; renamed the company Hon Hai Precision in 1982. Handed the chairmanship to Young Liu in 2019/6. In 2021, the Yonglin Foundation worked with TSMC and Hon Hai to donate BNT vaccines. In 2023, withdrew from an independent presidential bid three hours before registration. Hon Hai ranked No. 32 on the 2024 Fortune 500; Gou was Taiwan's richest person in 2026 with US$15.3 billion."
 date: 2026-03-19
-category: 'People'
-tags:
-  [
-    'Technology and Enterprise',
-    'Foxconn',
-    'Manufacturing',
-    'Entrepreneur',
-    'Fortune 500',
-    'Yonglin Foundation',
-  ]
-subcategory: '科技與企業'
 author: 'Taiwan.md'
-featured: false
-lastVerified: 2026-05-07
-translatedFrom: 'People/郭台銘.md'
-sourceCommitSha: '4b6d28c54'
-sourceContentHash: 'sha256:9965ca6354b224da'
-sourceBodyHash: 'sha256:cef8ceeeeb55c8e8'
-translatedAt: '2026-05-13T09:30:28+08:00'
-lastHumanReview: false
+category: 'People'
+subcategory: '科技與企業'
+tags: ['Technology and Business', 'Hon Hai', 'Manufacturing', 'Entrepreneur', 'Fortune 500', 'Yonglin Foundation']
 readingTime: 8
+lastVerified: 2026-05-07
+lastHumanReview: true
+featured: false
+translatedFrom: 'People/郭台銘.md'
+sourceCommitSha: '0f8fae0ae'
+sourceContentHash: 'sha256:981dd62862f57c30'
+sourceBodyHash: 'sha256:6bf98169f185af90'
+translatedAt: '2026-05-20T05:08:27+08:00'
 ---
 
-# Terry Gou: Banqiao 1950, Hon Hai Plastics 1974 — Founder of a Manufacturing Empire
+# Terry Gou: Banqiao 1950, Hon Hai Plastics 1974, and the Founder of a Contract-Manufacturing Empire
 
-> **30-Second Overview:** Terry Gou (Guo Tai-ming) was born October 18, 1950 in Banqiao, Taipei County.[^1] In 1974 he borrowed NT\,000 from a rotating credit club his mother participated in and founded "Hon Hai Plastics Enterprise," with 10 employees, initially making television set control knobs.[^2] In 1981 the company developed PC connectors; in 1982 it was renamed "Hon Hai Precision Industry."[^2] In June 2019 he handed the chairmanship to Young Liu and entered the KMT presidential primary, then withdrew.[^3] In 2021, the Yonglin Foundation partnered with TSMC and Foxconn, each purchasing 5 million doses of BNT vaccines to help Taiwan fight the pandemic.[^4] In 2023, running as an independent candidate, he collected **902,389 valid petition signatures** — second-highest in Taiwan electoral history — but announced his withdrawal three hours before the registration deadline.[^5] Foxconn's 2024 combined revenue was NT\.8596 trillion, Fortune 500 rank #32.[^6] As of March 2026, his net worth is approximately US\.3 billion, once again Taiwan's richest person.[^7]
+> **30-second overview:** Terry Gou was born on October 18, 1950, in Banqiao, Taipei County.[^1] In 1974, using NT$100,000 raised by his mother through a rotating credit association, he founded “Hon Hai Plastics Enterprise,” with 10 employees, mainly producing television knobs.[^2] In 1981, the company developed PC connectors; in 1982, it was renamed “Hon Hai Precision Industry.”[^2] In June 2019, Gou handed the chairmanship to Young Liu, and that same year entered and then withdrew from the Kuomintang presidential primary.[^3] In 2021, the Yonglin Foundation worked with TSMC and Hon Hai, with each party donating 5 million BNT vaccine doses to help Taiwan fight the pandemic.[^4] In 2023, he again sought the presidency through an independent petition drive, with Tammy Lai as his running mate; the petition reached 902,389 people, the second-highest total in Taiwan’s history, before he announced his withdrawal three hours before registration.[^5] In 2024, Hon Hai reported consolidated revenue of NT$6.8596 trillion and ranked No. 32 on the Fortune 500.[^6] In March 2026, Gou’s net worth was about US$15.3 billion, making him Taiwan’s richest person once again.[^7]
 
-## October 18, 1950, Banqiao, Taipei
+## A Military Dependent’s Child from Banqiao
 
-Terry Gou was born October 18, 1950 in Banqiao, Taipei County (today Banqiao District, New Taipei City), the son of a mainlander military serviceman from a modest background.[^1] After graduating from what is now National Taiwan Ocean University (then the Chinese Maritime Junior College), he briefly worked in shipping before pivoting to entrepreneurship.
+Terry Gou was born on October 18, 1950, in Banqiao, Taipei County, now Banqiao District, New Taipei City. His father was a mainlander soldier, and the family was poor.[^1] After graduating from China Maritime College, now National Taiwan Ocean University, he worked briefly in the shipping industry before turning to entrepreneurship.
 
-## 1974: Hon Hai Plastics, Started with NT\,000
+## His Mother’s Rotating Credit Association: NT$100,000, 10 People, Television Knobs
 
-In 1974, Gou borrowed NT\,000 from his mother's rotating credit club savings and founded "Hon Hai Plastics Enterprise Co., Ltd.," with just 10 employees, primarily manufacturing television control knobs and other plastic components.[^2]
+In 1974, Gou borrowed NT$100,000 that his mother had obtained through a rotating credit association, known in Taiwan as a biaohui, and founded “Hon Hai Plastics Enterprise Co., Ltd.” The company had only 10 employees and mainly produced plastic parts such as television knobs.[^2]
 
-From NT\,000 and 10 people at Hon Hai Plastics to NT\.8596 trillion in revenue and Fortune 500 rank #32 at Foxconn — that numerical span stretches across a full 50 years. Gou's career is a complete cross-section of Taiwan's manufacturing industry, from component subcontracting to occupying a core position in the global electronics supply chain. He is not an isolated case in Taiwan's electronics industry — he is the personification of an entire industrial era.
+The Hon Hai Plastics of NT$100,000 and 10 people, and the Hon Hai of 2024 with NT$6.8596 trillion in revenue and a No. 32 Fortune 500 ranking, are separated by a numerical span that runs across a full 50 years. Gou’s career is a complete cross-section of Taiwan’s manufacturing sector as it moved from component contract manufacturing to the core of the global electronics supply chain. He is not a single case in Taiwan’s electronics industry, but a condensation of an entire industrial era.
 
-## 1981: PC Connectors; 1982: Renamed Hon Hai Precision
+## From Knobs to PC Connectors: The Choice of Precision Manufacturing
 
-In 1981, Foxconn entered PC connector production, riding the PC industry's rapid growth wave.[^2] In 1982, the company was renamed "Hon Hai Precision Industry Co., Ltd.," with capital of NT\ million, cementing precision manufacturing as its core identity.[^2]
+In 1981, Hon Hai entered the production of personal-computer connectors, riding the rapid growth of the PC industry.[^2] In 1982, the company was renamed “Hon Hai Precision Industry Co., Ltd.,” with capital of NT$16 million, establishing precision manufacturing as its core position.[^2]
 
-Connectors are among the most fundamental yet indispensable components in the PC industry — motherboards, power supplies, graphics cards, and peripherals all need connectors to assemble. Gou's shift from control knobs to connectors was a strategic decision: he chose a position in the industry that "will never be made obsolete." Foxconn later expanded from connectors to assembly contract manufacturing, chassis, and molds — each step an extension of that "precision manufacturing core" identity.
+Connectors are among the most basic yet indispensable components in the PC industry: motherboards, power supplies, graphics cards, and external peripherals all require connectors for assembly. Gou’s move from knobs to connectors was a strategic decision. He chose an industrial position that would “absolutely never be eliminated.” Hon Hai later expanded from connectors into assembly contracting, casings, and molds, and each step was built as an extension of this “core positioning in precision manufacturing.”
 
-## 1990s: Moving to Shenzhen — The Rise of a Manufacturing Empire
+## Shenzhen’s Million-Person Factory
 
-In the 1990s, Gou established production bases in Shenzhen, combining Mainland China's cost advantages with Foxconn's precision manufacturing capabilities for rapid scale expansion. After the iPhone launched in 2007, Foxconn became Apple's primary contract manufacturer, at its peak employing over 1 million workers — earning the label "manufacturing empire" from media worldwide.
+In the 1990s, Gou established a production base in Shenzhen, combining mainland China’s low-cost advantages with Hon Hai’s precision-manufacturing technology, and the company’s scale expanded rapidly. After the iPhone was introduced in 2007, Hon Hai became Apple’s major contract-manufacturing partner. At its peak, it employed more than one million workers, and the media described it as a “contract-manufacturing empire.”
 
-The Foxconn-Apple contract relationship is one of the most important bilateral relationships in the global consumer electronics supply chain. Foxconn assembles the majority of iPhones, a position that makes Taiwan indispensable in Apple's supply chain strategy — even as Apple has actively diversified risk, Foxconn remains a core node.
+The contract-manufacturing relationship between Apple and Hon Hai is one of the most important bilateral relationships in the global consumer-electronics supply chain. Hon Hai assembles most iPhones, and that position gives Taiwan an irreplaceable role in Apple’s supply-chain strategy. Even as Apple has actively diversified risk, Hon Hai remains a core link.
 
-## 2019: Handing Over to Young Liu, First Presidential Run
+## Handing the Reins to Young Liu, and First Entering Politics
 
-In June 2019, Gou handed the Foxconn chairmanship to Young Liu, shifting himself to the role of group founder.[^3] That same year, Gou announced he was running in the 2020 Republic of China presidential election, advocating a businesslike approach to governing and emphasizing stabilizing cross-strait relations.
+In June 2019, Gou handed the chairmanship of Hon Hai to Young Liu and shifted his own title to group founder.[^3] That same year, Gou announced a run in the 2020 Republic of China presidential election, advocating governance through an entrepreneur’s mindset and emphasizing the stabilization of cross-strait relations.
 
-In the KMT presidential primary poll in July 2019, Kaohsiung Mayor [Han Kuo-yu](/en/People/han-kuo-yu/) defeated Gou 44.8% to 27.7%.[^3] On September 12, Gou announced his resignation from the KMT; on the night of September 16, he issued a statement as Foxconn Group founder declaring his decision to "not participate in the 2020 petition presidential candidacy."[^3] The key behind this withdrawal was coordination efforts from KMT vice chairman Hao Lung-pin and others — Gou ultimately chose not to split the pan-blue vote.
+In the Kuomintang presidential primary polling in July 2019, Kaohsiung mayor [Han Kuo-yu](/en/People/han-kuo-yu/) defeated Gou, 44.8% to 27.7%.[^3] On September 12, Gou announced that he was leaving the party. Late at night on September 16, in his capacity as founder of the Hon Hai Group, he issued a statement deciding that he would “not take part in the 2020 petition campaign for president.”[^3] The key to this withdrawal was coordination and communication by Kuomintang vice chair Hau Lung-bin and others: Gou ultimately chose not to split the pan-blue vote.
 
-The first campaign's exit set the stage for his very different approach in 2024: an independent petition candidacy, bypassing the party mechanism entirely.
+The exit from his first presidential attempt shaped the very different path he chose when he tried again in 2024: an independent petition drive that bypassed party mechanisms.
 
-## 2021: Yonglin Foundation BNT Vaccine Donation
+## Fifteen Million BNT Doses: Business Capacity Supplementing Government Speed
 
-When Taiwan's COVID-19 situation deteriorated in May 2021 and the government's vaccine procurement hit difficulty, Gou personally initiated the Yonglin Foundation's BNT vaccine procurement plan.[^4] He went public on May 23; the Foundation submitted its application to the FDA on June 1; the Executive Yuan formally authorized the purchase on June 18 — exactly seven weeks from start to finish.
+In May 2021, as Taiwan’s COVID-19 outbreak intensified and the government encountered difficulties in vaccine procurement, Gou, in his personal capacity, launched the Yonglin Foundation’s BNT vaccine procurement plan.[^4] He made a public appeal on May 23; on June 1, the foundation filed documents with the Food and Drug Administration; on June 18, the Executive Yuan formally authorized the plan. The whole process took exactly seven weeks.
 
-The final result: TSMC, Foxconn, and the Yonglin Charitable Foundation each purchased 5 million doses of BNT vaccine — 15 million total — sourced directly from the BNT manufacturer, made and labeled at the factory, and shipped directly to Taiwan, donated to the CDC under the Ministry of Health and Welfare.[^4] This was the largest private vaccine donation in Taiwan's pandemic response history, and it made "businesses using commercial power to make up for government procurement speed" a widely discussed public policy model.
+In the end, TSMC, Hon Hai, and the Yonglin Charity Foundation each purchased 5 million BNT vaccine doses, for a total of 15 million doses. They were procured directly from the original manufacturer, manufactured and labeled by the original manufacturer, shipped directly to Taiwan, and donated to the Centers for Disease Control under the Ministry of Health and Welfare.[^4] This was the largest private vaccine donation in Taiwan’s pandemic-response history, and it turned the idea of “entrepreneurs using commercial capacity to supplement the speed of government procurement” into a widely discussed model for public issues.
 
-For Gou personally, the significance of this action extended beyond commerce — he used his personal credibility (and his communication channels with Beijing) to unlock the most politically sensitive node in the BNT vaccine procurement process, providing substantial assistance at a critical moment in Taiwan's public health defense.
+For Gou personally, the action’s significance went beyond business. He used his personal prestige, along with his communication capacity with Beijing, to unlock the most politically sensitive node in the BNT vaccine procurement process at the time, providing substantive help at a critical moment in Taiwan’s public-health response.
 
-## 2023: Independent Candidacy and the "Choosing to Yield" Withdrawal
+## From 900,000 Petition Signatures to Withdrawal Three Hours Before Registration
 
-On August 28, 2023, Gou held a press conference for his "Mainstream Public Opinion Grand Alliance," announcing his candidacy for the 2024 presidential election as an independent.[^5] On September 14, he announced his running mate: spiritual writer and entertainer Lai Pei-hsia — who expeditiously renounced her American citizenship to meet the eligibility requirements.
+On August 28, 2023, Gou held a press conference for the “Mainstream Public Opinion Alliance” and announced that he would run as an independent candidate in the 2024 presidential election.[^5] On September 14, he announced that his running mate would be spiritual writer and entertainer Tammy Lai. Lai rapidly renounced her U.S. citizenship to meet eligibility requirements.
 
-The petition process was exceptionally rare in Taiwan's political history: from September 20 to November 1, Gou's team collected **902,389 valid signatures** — the **second-highest petition count in Taiwan's public election history**.[^5] That figure by itself is a public opinion sample, demonstrating that even amid the 2024 election's political atmosphere, a large number of voters still wanted a third path.
+The petition process was highly unusual in Taiwan’s political history. From its launch on September 20 to the deadline on November 1, Gou’s team collected **902,389 valid petition signatures**, the **second-highest number of signatures in the history of Taiwan’s public-office elections**.[^5] The number itself was a sample of public opinion, showing that amid the political atmosphere of the 2024 election, a large number of voters still hoped for a third path.
 
-But **three hours** before the candidate registration deadline, Gou announced his withdrawal, with a statement titled: **"Choosing to Yield — This Is All the Love I Can Offer My Homeland."**[^5] He called for "completing the party rotation" and directed his supporters toward other candidates.
+But **three hours** before the candidate-registration deadline, Gou announced his withdrawal. The statement was titled “**Choosing to Enable Others Is Already All the Love I Can Give to My Homeland**.”[^5] He called for “the completion of party rotation,” directing his supporters toward other candidates.
 
-Two campaigns, two withdrawals at the final stage — Gou's political trajectory exhibits a distinctive tension: he enters every time, but retreats every time just before the decisive moment. This pattern is unique in Taiwan's political history — he uses each entry to accumulate a public opinion sample, but uses each withdrawal to avoid a possible vote-splitting effect.
+Two campaigns, both ending in withdrawal at the final stage: Gou’s trajectory of political participation presents a distinctive tension. Each time he entered the field, and each time he stepped back just before the final step. This pattern is unique in Taiwan’s political history. With each entry, he accumulated a sample of public opinion; with each exit, he avoided a possible splitting effect.
 
-## 2026: Resigned from Foxconn Board, US\.3 Billion — Taiwan's Richest
+## US$15.3 Billion, and Repeated Turns
 
-Gou has resigned from the Foxconn board (citing "personal reasons").[^7] As of March 2026, his net worth is approximately US\.3 billion, once again Taiwan's richest person.[^7]
+Gou has resigned from his position as a Hon Hai director, citing “personal reasons.”[^7] In March 2026, his net worth was about US$15.3 billion, making him Taiwan’s richest person once again.[^7]
 
-From the NT\,000 control-knob factory of Hon Hai Plastics to a Fortune 500 #32 manufacturing empire; from the 2019 KMT primary candidate to the 2021 BNT vaccine champion to the 2023 "choosing to yield" independent candidate — Gou's professional and public career traces a trajectory of **expansion from manufacturing to capital to public participation**.
+From Hon Hai Plastics, a NT$100,000 knob factory, to a contract-manufacturing empire ranked No. 32 on the Fortune 500; from a Kuomintang primary contender in 2019, to a promoter of BNT vaccines in 2021, to an independent candidate who “chose to enable others” in 2023, Gou’s professional and public life traces an expanding arc **from manufacturing to capital to public participation**.
 
-**Common narrative → more precise reading:** Terry Gou is often positioned as "the entrepreneur who ran for president twice but never finished." But a more precise reading is: he is one of the few Taiwanese entrepreneurs who has straddled all four domains of commerce, manufacturing, public health response, and electoral mobilization. The **902,389-signature** figure and the **15 million BNT doses** figure are both real marks in Taiwan's public memory — not a heroic narrative, but a concrete record of an entrepreneur using personal resources and credibility to intervene in the public sphere.
+**Common phrasing → more precise reading**: Gou is often positioned as an entrepreneur who “ran for president twice but did not finish either campaign.” The more precise reading is this: he is one of the few Taiwanese entrepreneurs able to cross four domains: business, manufacturing, public-health response, and electoral mobilization. The figure of **902,389 petition signatures** and the figure of **15 million BNT doses** are both real marks in Taiwan’s public memory. They are not material for a heroic narrative, but concrete records of an entrepreneur intervening in the public sphere with personal resources and prestige.
 
-> 🎙️ **Editorial note**: Gou's political participation differs from the typical entrepreneur-donates-to-candidates model — he stepped into the arena himself, submitting himself directly to public judgment. That choice is itself a special case in Taiwan's business-politics relationship: he is **one of the very few Formosa Plastics-level entrepreneurs who was willing to expose himself to direct public assessment**.
+> **Curator’s note:** Gou’s political participation differs from the usual pattern of entrepreneurs “donating money to candidates”: he personally entered the field and personally subjected himself to public scrutiny. That choice itself is an exceptional case in Taiwan’s political-business relations. He is **one of the very few Formosa Plastics-level entrepreneurs willing to expose himself to direct public evaluation**.
 >
-> The 2021 BNT vaccine donation, at the moment of Taiwan's sharpest public anxiety over vaccine procurement, used his personal brand power to push through a national-level public health node. That successful intervention gave his 2023 "businesslike governance" pitch a concrete, verifiable precedent to stand on.
+> In the 2021 BNT vaccine donation, at a moment when Taiwanese society was most sensitive to controversy over vaccine procurement, he used the power of his personal brand to advance a national-level public-health node. The success of that intervention gave his “entrepreneurial governance” appeal, when he ran again in 2023, a concrete and verifiable precedent.
 >
-> The 2023 "choosing to yield" withdrawal is one of the rare cases in Taiwan electoral history where a candidate voluntarily relinquished already-built competitive standing — 902,389 signatures is not a small matter, but he chose not to pull the trigger. The manner of that exit is more worth recording than the high-profile entry.
+> The 2023 withdrawal under the banner of “choosing to enable others” was a rare case in Taiwan’s electoral history: a candidate voluntarily giving up a competitive qualification that had already been established. Nine hundred thousand petition signatures were no small matter, yet he chose not to activate them. The manner of this exit is even more worth recording than the high-profile entry.
 
-From the Shenzhen factory floor, Apple contract manufacturing, the Yonglin Foundation vaccine, to the "Mainstream Public Opinion Grand Alliance" press conference — Gou's trajectory is an overlapping cross-section of Taiwan's manufacturing era and the post-manufacturing era. He is more than an entrepreneur; he is the personified representative of Taiwan's electronics industry globalization, and the complete case study of how "entrepreneurs participate in the public sphere" in this generation.
+From Shenzhen factories, Apple contract manufacturing, and Yonglin Foundation vaccines to the “Mainstream Public Opinion Alliance” press conference, Gou’s trajectory is an overlapping cross-section of Taiwan’s manufacturing era and post-manufacturing era. He is not only an entrepreneur. He is a personalized representative of the globalization of Taiwan’s electronics industry, and a full case study for this generation’s question of how entrepreneurs participate in the public sphere.
 
-**Further reading:** [Terry Gou — Wikipedia](https://zh.wikipedia.org/zh-tw/郭台銘) | [Foxconn Group: Founder Profile](https://www.honhai.com/zh-tw/about/group-profile/founder)
+**Further reading**: [Terry Gou — Wikipedia](https://zh.wikipedia.org/zh-tw/郭台銘) | [Hon Hai Group: Founder Profile](https://www.honhai.com/zh-tw/about/group-profile/founder)
 
 ## References
 
-[^1]: [Wikipedia: Terry Gou](https://zh.wikipedia.org/zh-tw/郭台銘) — Confirms birth date October 18, 1950 in Banqiao, Taipei County (today Banqiao District, New Taipei City), NTOU predecessor (maritime junior college), family background.
+[^1]: [Wikipedia: Terry Gou](https://zh.wikipedia.org/zh-tw/郭台銘) — Confirms that he was born on October 18, 1950, in Banqiao, Taipei County, now Banqiao District, New Taipei City; attended the maritime college that preceded National Taiwan Ocean University; and had this family background.
 
-[^2]: [Foxconn Group: Founder profile](https://www.honhai.com/zh-tw/about/group-profile/founder) — Confirms 1974 founding of "Hon Hai Plastics Enterprise" (NT\,000 / 10 people / TV control knobs); 1981 PC connectors; 1982 renamed "Hon Hai Precision Industry," capital NT\ million.
+[^2]: [Hon Hai Group: Founder Profile](https://www.honhai.com/zh-tw/about/group-profile/founder) — Confirms the 1974 founding of “Hon Hai Plastics Enterprise” (NT$100,000 / 10 people / television knobs); PC connectors in 1981; and the 1982 renaming as “Hon Hai Precision Industry,” with capital of NT$16 million.
 
-[^3]: [CommonWealth Magazine: Why did Terry Gou withdraw at the last moment?](https://www.cw.com.tw/article/5096880) — Confirms 2019 KMT presidential primary poll: Han Kuo-yu 44.8% vs. Gou 27.7%; September 12 KMT resignation; September 16 late-night statement of non-participation in 2020 race; Hao Lung-pin's coordination in the withdrawal.
+[^3]: [CommonWealth Magazine: Why Did Terry Gou Withdraw at the Last Moment?](https://www.cw.com.tw/article/5096880) — Confirms that in the 2019 Kuomintang presidential primary polling, Han Kuo-yu defeated Gou 44.8% to 27.7%; that Gou left the party on September 12 and issued a late-night statement on September 16 saying he would not participate in the 2020 presidential campaign; and the circumstances of Hau Lung-bin’s coordination of the withdrawal.
 
-[^4]: [Foxconn Technology Group: TSMC, Foxconn, and Yonglin Foundation complete BNT vaccine donation](https://www.foxconn.com/zh-tw/press-center/events/csr-events/644) — Confirms May 23 public announcement, June 1 FDA submission, June 18 Executive Yuan authorization; TSMC, Foxconn, and Yonglin Foundation each purchasing 5 million doses of BNT directly from the manufacturer, factory-made, factory-labeled, shipped directly to Taiwan, totaling 15 million doses donated to the CDC under the Ministry of Health and Welfare.
+[^4]: [Hon Hai Technology Group: TSMC, Hon Hai, and the Yonglin Foundation Complete Donation of BNT Vaccines](https://www.foxconn.com/zh-tw/press-center/events/csr-events/644) — Confirms the public appeal on May 23, 2021; the June 1 filing; the Executive Yuan’s June 18 authorization; and that TSMC, Hon Hai, and the Yonglin Foundation each purchased 5 million BNT doses directly from the original manufacturer, manufactured and labeled by the original manufacturer, shipped directly to Taiwan, for a total donation of 15 million doses to the Ministry of Health and Welfare’s Centers for Disease Control.
 
-[^5]: [Business Today: Terry Gou's withdrawal statement revealed](https://www.businesstoday.com.tw/article/category/183027/post/202311240009/) — Confirms August 28, 2023 announcement of independent candidacy; September 14 announcement of Lai Pei-hsia as running mate; 902,389 valid signatures (second-highest in Taiwan public election history); withdrawal "three hours before" registration deadline with "Choosing to Yield" statement; call to "complete party rotation."
+[^5]: [Business Today: Terry Gou’s Withdrawal Statement Revealed](https://www.businesstoday.com.tw/article/category/183027/post/202311240009/) — Confirms the August 28, 2023 announcement of an independent presidential run; the September 14 announcement of Tammy Lai as running mate; 902,389 valid petition signatures, the second-highest total in Taiwan’s public-office election history; the withdrawal three hours before registration through a statement titled “Choosing to Enable Others”; and the call to “complete party rotation.”
 
-[^6]: [Business Next: Foxconn 2024 financial report](https://www.bnext.com.tw/article/83290/foxconn-good-2025) — Confirms 2024 Foxconn combined revenue NT$6.8596 trillion, Fortune 500 rank #32.
+[^6]: [Business Next: Hon Hai’s 2024 Financial Report](https://www.bnext.com.tw/article/83290/foxconn-good-2025) — Confirms Hon Hai’s 2024 consolidated revenue of NT$6.8596 trillion and its No. 32 ranking on the Fortune 500.
 
-[^7]: [Wikipedia: Terry Gou (recent)](https://zh.wikipedia.org/zh-tw/郭台銘) — Confirms Gou has resigned from Foxconn board ("personal reasons"); March 2026 net worth approximately US$15.3 billion, Taiwan's richest.
+[^7]: [Wikipedia: Terry Gou (Recent Developments)](https://zh.wikipedia.org/zh-tw/郭台銘) — Confirms that Gou has resigned as a Hon Hai director, citing “personal reasons”; and that in March 2026 his net worth was about US$15.3 billion, making him Taiwan’s richest person.

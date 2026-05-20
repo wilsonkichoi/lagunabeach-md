@@ -1,187 +1,168 @@
 ---
 title: 'Postwar Economic Development'
-description: "Taiwan's economic miracle journey from an agricultural society to becoming one of the Asian Tigers"
+description: 'The trajectory of Taiwan's economic miracle, rising from an agricultural society to become one of the Four Asian Tigers'
 date: 2026-03-17
-tags:
-  [
-    economic history,
-    industrialization,
-    ten major construction projects,
-    economic miracle,
-    industrial transformation,
-  ]
-translatedFrom: 'History/戰後經濟發展.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:bd943f680a0506bf'
-sourceBodyHash: 'sha256:9e8ab929793e320d'
-translatedAt: '2026-04-17T10:33:16+08:00'
-category: History
+author: 'Taiwan.md'
+category: 'History'
+subcategory: '殖民與帝國'
+tags: ['Economic History', 'Industrialization', 'Ten Major Construction Projects', 'Economic Miracle', 'Industrial Transformation']
+lastVerified: 2026-03-19
+lastHumanReview: false
+featured: false
+translatedFrom: History/戰後經濟發展.md
+sourceCommitSha: f712b7242
+sourceContentHash: sha256:0d0adcf91ab6fb7b
+sourceBodyHash: sha256:c6a2754be8bc3e2a
+translatedAt: 2026-05-20T05:08:27+08:00
 ---
 
 # Postwar Economic Development
 
-Taiwan's postwar economic development has been hailed as an "economic miracle" 經濟奇蹟. In just forty years, Taiwan transformed from an impoverished agricultural society into a developed economy, joining Hong Kong, Singapore, and South Korea as the "Four Asian Tigers" 亞洲四小龍. This miracle was not coincidental, but rather the result of government policies, people's diligence, international environment, and historical opportunities working together, providing an important model for economic development in developing countries worldwide.
+Taiwan's postwar economic development has been hailed as an "economic miracle." Within just four decades, it rose from a poverty-stricken agricultural society to a developed economy, earning the title of one of the "Four Asian Tigers" alongside Hong Kong, Singapore, and South Korea. This achievement was forged by a combination of government policy, the diligence of the people, the international environment, and historical opportunity, providing a reference case worthy of study for late-developing economies worldwide.
 
-## Postwar Recovery and Land Reform (1945-1960)
+## Postwar Recovery and Land Reform (1945–1960)
 
 ### Inheriting the Japanese Colonial Foundation
 
-During the Japanese colonial period, Taiwan had already established relatively complete infrastructure and education systems, laying important groundwork for postwar economic development. Transportation networks, power systems, and trained technical personnel all became favorable conditions for rapid postwar recovery.
+During the Japanese colonial period, Taiwan had already established infrastructure and an education system. Transportation networks, electrical power systems, and a pool of technical talent all became favorable conditions for rapid postwar recovery.
 
 ### Three-Stage Land Reform
 
-Beginning in 1949, the government implemented three-stage land reform:
+Beginning in 1949, the government implemented a three-stage land reform:
 
-- **375 Rent Reduction** 三七五減租 (1949): Tenant rent could not exceed 375 per thousand of the main crop's gross yield
-- **Sale of Public Land** 公地放領 (1951): Public farmland was sold to current tenant farmers
-- **Land to the Tiller** 耕者有其田 (1953): Mandatory expropriation of landlords' excess land for resale to tenants
+- **375 Rent Reduction** (1949): Tenant rents were capped at no more than 375 per thousand of the main crop's standard yield.
+- **Sale of Public Land** (1951): Publicly owned farmland was sold to the tenant farmers cultivating it.
+- **Land-to-the-Tiller Program** (1951): Landlords' excess land was compulsorily acquired and resold to tenant farmers.
 
-This reform not only addressed rural wealth disparity but also released rural labor, providing abundant human resources for later industrialization.
+This reform not only addressed rural wealth disparity but also released surplus rural labor, providing an abundant human resource base for subsequent industrialization.
 
-### Critical Role of US Aid
+### The Critical Role of US Aid
 
-From 1950-1965, the United States provided approximately $1.5 billion in aid, accounting for 34% of Taiwan's total investment during the same period. US aid was not just funding, but more importantly involved technology transfer and management experience, helping Taiwan establish a modern economic system.
+From 1950 to 1965, the United States provided approximately US$1.5 billion in aid[^2], accounting for 34% of Taiwan's total investment during the same period. The capital, technology transfer, and management consulting that came with US aid helped Taiwan build a modernized economic system.
 
-## Import Substitution and Export Processing (1960-1980)
+## Import Substitution and Export Processing (1960–1980)
 
 ### Import Substitution Industrialization
 
-In the 1950s, Taiwan adopted import substitution policies to protect infant industries. Using the textile industry as an example, the government advocated "importing cloth is not as good as importing yarn; importing yarn is not as good as importing cotton," gradually building a complete textile industry chain and successfully nurturing the first batch of competitive manufacturing industries.
+In the 1950s, Taiwan adopted an import substitution policy[^3] to protect infant industries. Taking the textile industry as an example, the government advocated the principle of "importing yarn rather than cloth, and importing cotton rather than yarn," progressively building a textile supply chain from cotton yarn to ready-made garments, cultivating the first generation of competitive manufacturing firms.
 
-### Innovation of Export Processing Zones
+### The Pioneering Export Processing Zones
 
-In 1965, Taiwan established Asia's first export processing zone — the Kaohsiung Export Processing Zone, followed by the Nanzih and Taichung export processing zones. These zones provided:
+In 1966, Taiwan established the world's first export processing zone (EPZ)—the Kaohsiung Export Processing Zone[^1]—followed by the Nantzu and Taichung EPZs. These zones offered:
 
-- Tax exemptions and simplified administrative procedures
-- Complete infrastructure
-- Stable labor supply
+- Tax exemptions and streamlined administrative procedures
+- Comprehensive infrastructure
+- A stable labor supply
 
-Export processing zones successfully attracted foreign investment, promoted technology transfer, and trained large numbers of skilled technical workers. By 1980, over 60% of Taiwan's industrial products were exported.
+The EPZs successfully attracted foreign investment, facilitated technology transfer, and trained a large cohort of skilled technical workers. By 1980, over 60% of Taiwan's industrial output was destined for export.
 
-### Establishment of the Textile Kingdom
+### Building the Textile Kingdom
 
-Taiwan's textile industry reached its peak in the 1960s-70s, becoming a major global textile exporter. From cotton yarn and fabric to garments, it formed a complete vertically integrated industrial chain that not only met domestic demand but also exported extensively to earn foreign exchange.
+Taiwan's textile industry reached its peak in the 1960s and 1970s, becoming one of the world's leading textile exporters. From cotton yarn and fabric to ready-made garments, a vertically integrated supply chain was formed, generating substantial foreign exchange through exports.
 
-## Heavy Chemical Industry and Ten Major Construction Projects (1970-1985)
+## Heavy and Petrochemical Industry and the Ten Major Construction Projects (1970–1985)
 
-### Challenge of the Oil Crisis
+### The Challenge of the Oil Crisis
 
-The first oil crisis of 1973 severely impacted the global economy, and Taiwan was no exception. Facing economic recession and inflationary pressure, the government decided to promote large-scale infrastructure construction to stimulate economic growth through public investment.
+The first oil crisis of 1973 dealt a severe blow to the global economy, and Taiwan was no exception. Faced with economic recession and inflationary pressure, the government resolved to undertake large-scale infrastructure construction to stimulate economic growth through public investment.
 
-### Vision of the Ten Major Construction Projects
+### The Grand Blueprint of the Ten Major Construction Projects
 
-In 1974, Premier Chiang Ching-kuo promoted the Ten Major Construction Projects 十大建設, with total investment reaching NT$200 billion:
+In 1974, Premier Chiang Ching-kuo launched the Ten Major Construction Projects, with a total investment of NT$200 billion:
 
 **Transportation Infrastructure (4 projects):**
 
-- Sun Yat-sen Freeway 中山高速公路: Taiwan's first freeway, 373 kilometers long
-- Railway Electrification: Complete electrification of the western trunk line
-- Taoyuan Chiang Kai-shek International Airport: Enhancing international aviation capacity
-- Taichung Port: Balancing north-south port development
+The transportation projects centered on the Sun Yat-sen Freeway (total length 373 km, Taiwan's first expressway) and the electrification of the Western Trunk Line railway, alongside the simultaneous construction of Taoyuan Chiang Kai-shek International Airport and Taichung Port, expanding north-south port capacity.
 
-**Heavy Chemical Industry (6 projects):**
+**Heavy and Petrochemical Industry (6 projects):**
 
-- China Steel Corporation: Establishing autonomous steel industry
-- China Shipbuilding Corporation: Developing shipbuilding industry
-- Petrochemical Industry: Large oil refineries, naphtha cracking plants, etc.
-- Nuclear Power: First, second, and third nuclear power plants
+The heavy and petrochemical projects were anchored by China Steel Corporation and China Shipbuilding Corporation, complemented by the petrochemical industry (including a large oil refinery and naphtha cracker) and the first through third nuclear power plants, building a self-sufficient energy and raw materials supply system.
 
-### Industrial Structure Transformation
+### Transformation of the Industrial Structure
 
-The Ten Major Construction Projects not only created massive employment opportunities but more importantly established the foundation for heavy chemical industry, laying the groundwork for subsequent industrial upgrading. Taiwan's economic structure shifted from agriculture to industry, with industry's share of GDP reaching a peak of 47% in the 1980s.
+The Ten Major Construction Projects created a large number of jobs while establishing a foundation in heavy and petrochemical industry, laying the groundwork for subsequent industrial upgrading. Taiwan's economic structure shifted from agriculture to industry, with the industrial sector's share of GDP reaching a peak of 47% in the 1980s.
 
-## Rise of High-Tech Industry (1980-2000)
+## The Rise of High-Tech Industry (1980–2000)
 
 ### Hsinchu Science Park
 
-Hsinchu Science Park was established in 1980, adopting the successful model of export processing zones specifically for developing high-tech industries. The park provided:
+The Hsinchu Science Park was established in 1980, adopting the successful EPZ model and dedicating itself to the development of high-tech industries. The park offered:
 
 - Preferential tax policies
-- Complete research and development environment
-- Industry-academia cooperation mechanisms
+- A comprehensive R&D environment
+- Industry–academia collaboration mechanisms
 
-### Rise of the Semiconductor Industry
+### The Rise of the Semiconductor Industry
 
-Taiwan Semiconductor Manufacturing Company (TSMC) 台積電 was established in 1987, creating the professional foundry business model that completely transformed the global semiconductor industry ecosystem. Companies like MediaTek and United Microelectronics also rose successively, making Taiwan a global semiconductor powerhouse.
+In 1987, Taiwan Semiconductor Manufacturing Company (TSMC) was founded, creating the dedicated foundry business model and fundamentally reshaping the global semiconductor industry ecosystem. Companies such as MediaTek and United Microelectronics Corporation (UMC) also rose in succession, making Taiwan a global semiconductor powerhouse.
 
-### Information Electronics Industry
+### The Information and Electronics Industry
 
-Beginning in the 1980s, Taiwan vigorously developed the personal computer industry. Companies like Acer, ASUS, and Foxconn started from contract manufacturing and gradually built their own brands, making Taiwan an important global production base for information hardware.
+In the 1980s, Taiwan concentrated its resources on developing the personal computer industry. Companies such as Acer, ASUS, and Foxconn started with original equipment manufacturing (OEM) and gradually built their own brands. Taiwan's information hardware export value rose to among the highest in the world in the 1990s.
 
 ## Achievements and Data of the Economic Miracle
 
-### Remarkable Growth Statistics
+### Stunning Growth Figures
 
-From 1952 to 1995, Taiwan created astonishing economic achievements:
-
-- **Annual GDP growth rate**: 8.7% (40 consecutive years of high growth)
-- **Per capita GDP**: Leaped from $145 to $12,396
-- **Total exports**: Increased from $116 million to $111.8 billion
-- **Unemployment rate**: Maintained at a low level of 2-3% long-term
+From 1952 to 1995, Taiwan produced remarkable economic achievements[^4]. GDP grew at an average annual rate of 8.7%, sustaining high growth for 40 consecutive years; per capita GDP rose from US$145 to US$12,396, while total exports expanded from US$116 million to US$111.8 billion. The unemployment rate remained at a low level of 2–3% over the long term.
 
 ### Improvement in Income Distribution
 
-More remarkably, Taiwan maintained relatively equal income distribution while achieving rapid growth. The Gini coefficient in the 1970s-80s remained between 0.28-0.32, making Taiwan one of the regions with the most equal income distribution in the world.
+What was even more remarkable was that Taiwan maintained relatively equitable income distribution alongside rapid growth. During the 1970s and 1980s, the Gini coefficient remained between 0.28 and 0.32, making Taiwan one of the most income-equal regions in the world.
 
 ## Analysis of Success Factors
 
-### Effective Governance
+### Technocratic Governance
 
-Postwar Taiwan had a group of technocrats with long-term planning capabilities who took "national salvation" as their mission and formulated a series of forward-looking industrial policies. From land reform and import substitution to export expansion, each stage had clear strategic objectives.
+Postwar Taiwan was served by a cadre of technocrats with long-term planning capabilities, who regarded national salvation as their personal mission and formulated a series of forward-looking industrial policies. From land reform and import substitution to export expansion, each phase had clearly defined strategic objectives.
 
-### Effectiveness of Educational Investment
+### The Returns on Educational Investment
 
-The government heavily invested in education, particularly vocational education, training large numbers of skilled technical workers and engineers. The implementation of nine-year compulsory education significantly improved labor quality, providing a talent foundation for industrial upgrading.
+The government invested in education budgets, particularly in vocational and technical education, cultivating a large number of skilled technical workers and engineers. The implementation of nine-year compulsory education in 1968 significantly raised the quality of the workforce, providing sufficient talent to support subsequent industrial upgrading.
 
-### Supportive International Environment
+### A Favorable International Environment
 
-The international political environment during the Cold War allowed Taiwan to receive military protection and economic assistance from the United States. Simultaneously, European and American countries relocated labor-intensive industries abroad, providing excellent opportunities for Taiwan's export expansion.
+The Cold War geopolitical environment enabled Taiwan to receive military protection and economic aid from the United States. At the same time, European and American countries were relocating labor-intensive industries offshore, providing an excellent opportunity for Taiwan's export expansion.
 
 ### Entrepreneurial Spirit
 
-Taiwan entrepreneurs demonstrated strong entrepreneurial spirit and flexible adaptability. Starting from family workshops and gradually developing into international enterprises, they embodied the diligence and wisdom of the Taiwanese people.
+Taiwanese entrepreneurs demonstrated a strong entrepreneurial spirit and flexible adaptability. Starting from family workshops and expanding into multinational corporations, Foxconn is a representative case.
 
 ## Transformation Challenges and New Directions
 
-### Post-1990s Adjustments
+### Adjustments After the 1990s
 
-Entering the 1990s, Taiwan faced challenges of rising wages and increased environmental requirements, with traditional manufacturing beginning to relocate to China and Southeast Asia. The government promoted "industrial upgrading" policies, encouraging development of high value-added industries.
+Entering the 1990s, Taiwan faced challenges such as rising wages and heightened environmental standards. Traditional manufacturing began relocating to mainland China and Southeast Asia. The government promoted "industrial upgrading" policies, encouraging the development of high value-added industries.
 
-### Knowledge Economy Transformation
+### Transition to a Knowledge Economy
 
-Since the 21st century, Taiwan has been committed to developing a knowledge economy, focusing on:
+Since the 21st century, Taiwan has concentrated its resources on developing a knowledge economy. Biotechnology and green energy technology have received policy support, while the cultural and creative industries and precision machinery sector have emerged as new directions differentiated from traditional manufacturing.
 
-- Biotechnology industry
-- Green energy technology
-- Cultural and creative industries
-- Precision machinery industry
+## International Significance and Lessons
 
-## International Significance and Insights
+Taiwan's economic development model provides an actionable reference for late-developing nations.
 
-Taiwan's economic development model provides important lessons for developing countries:
+### Lessons in Development Strategy
 
-### Development Strategy Insights
+Taiwan's success lay in phased adjustments: from agriculture to light industry, then to heavy and petrochemical industry and high-tech industry, with clear policy shifts at each stage. The government played a guiding role in the early phases and adjusted its degree of intervention as markets matured. Educational investment and an open foreign trade system ran through the entire development process.
 
-1. **Staged Development**: Adjusting strategies according to different development stages, from agriculture → light industry → heavy chemical industry → high-tech industry
-2. **Government Role**: Government plays an important guiding role in early economic development but gradually withdraws as markets mature
-3. **Human Capital**: Educational investment is key to long-term competitiveness
-4. **Open Economy**: Actively integrating into international division of labor and leveraging comparative advantages
+### Contributions to the World
 
-### Global Contributions
+Taiwan occupies a critical position in the global supply chain, and TSMC's foundry model has been adopted by the global semiconductor industry. Taiwan's experience in contract manufacturing has also been referenced by multiple Southeast Asian countries as a template for kickstarting manufacturing takeoff.
 
-Taiwan not only created its own economic miracle but also made important contributions to global economic development:
-
-- Occupying a key position in global supply chains
-- The contract manufacturing model has been emulated by many countries
-- High-tech industry has become a global innovation hub
-
-Today's Taiwan faces new challenges, but the successful experience of postwar economic development remains a precious historical asset. It shows us how a small island, through wisdom, diligence, and correct policies, can occupy a place on the international stage.
+Although Taiwan faces new challenges today, the successful experience of postwar economic development remains a precious historical asset. It tells us how a small island, through wisdom, diligence, and sound policy, can secure a place on the international stage.
 
 ---
 
 _References:_
 
-- Academia Sinica Institute of Modern History 中央研究院近代史研究所
-- Department of Statistics, Ministry of Economic Affairs 經濟部統計處
-- Directorate-General of Budget, Accounting and Statistics, Executive Yuan 行政院主計總處
-- Academic works on "Taiwan Economic History" 《台灣經濟史》相關學術著作
+- [Institute of Modern History, Academia Sinica](https://www.mh.sinica.edu.tw/)
+- [Department of Statistics, Ministry of Economic Affairs](https://www.moea.gov.tw/Mns/dos/home/Home.aspx)
+- [Directorate-General of Budget, Accounting and Statistics, Executive Yuan](https://www.dgbas.gov.tw/)
+- Related academic works on Taiwan economic history
+
+[^1]: Export Processing Zone Administration, "Founding History," https://www.epza.gov.tw/page.aspx?pageid=45da8e73a81d495d
+[^2]: "US Aid" entry, Wikipedia, https://zh.wikipedia.org/zh-tw/美援
+[^3]: Wu Tsong-Min, "From Control to Export Expansion," https://homepage.ntu.edu.tw/~ntut019/ltes/Taiwan-Growth-Ch.pdf
+[^4]: Directorate-General of Budget, Accounting and Statistics Statistical Database, https://www.dgbas.gov.tw/
+[^5]: Wu Tsong-Min, "Research on Taiwan's Hyperinflation," http://homepage.ntu.edu.tw/~ntut019/ltes/Big-inflation.pdf

@@ -1,70 +1,94 @@
 ---
-title: 'Chen Chien-jen'
-description: 'An epidemiologist-turned-statesman who helped steer Taiwan through SARS and COVID-19'
+title: "Chen Chien-jen: SARS Health Minister, Vice President, 31st Premier"
+description: "Born June 6, 1951, in Qishan Township, Kaohsiung County, Chen Chien-jen is an internationally renowned epidemiologist. He took over as Minister of the Department of Health during the SARS crisis in 2003, served as the 14th Vice President from 2016 to 2020, became the 31st Premier on January 31, 2023, and stepped down on May 20, 2024, handing over to Cho Jung-tai."
 date: 2026-03-19
-tags:
-  [people, Chen Chien-jen, epidemiology, public health, vice president, premier]
-subcategory: 'Politics & Democracy'
-translatedFrom: 'People/陳建仁.md'
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:95a660352fbbce5b'
-sourceBodyHash: 'sha256:47ca4b995c96a822'
-translatedAt: '2026-04-17T10:33:16+08:00'
-category: People
+author: "Taiwan.md"
+category: "People"
+subcategory: "政治與民主"
+tags: ['政治與民主', '副總統', '行政院長', '流行病學', '公共衛生', '抗疫']
+readingTime: "# design_rationale:\n#   why_this_hook: \"從職位序號的精確度切入——第31任行政院長而非第19任，這個差異代表整篇文章的可信度。陳建仁的價值在於他在三個不同位置（學者/副總統/院長）都以科學框架做決策。\"\n#   whats_excluded: \"烏腳病研究的詳細學術成果；各項國際職務的完整列表；天主教個人信仰細節\"\n#   where_it_hedges: \"2005年任期職稱確認以P0來源為準；各研究論文篇數以文章概述表述\""
+lastVerified: 2026-05-07
+lastHumanReview: true
+featured: false
+translatedFrom: "People/陳建仁.md"
+sourceCommitSha: "0f8fae0ae"
+sourceContentHash: "sha256:3e3c722e9fbee583"
+sourceBodyHash: "sha256:cd353841feafe555"
+translatedAt: "2026-05-20T05:08:27+08:00"
 ---
 
-# Chen Chien-jen: Public Health, Politics, and Taiwan’s Crisis Leadership
+# Chen Chien-jen: SARS Health Minister, Vice President, 31st Premier
 
-Chen Chien-jen (陳建仁), born in 1951 in Kaohsiung, is one of Taiwan’s most respected public health figures. An internationally recognized epidemiologist, he served as Vice President of the Republic of China (2016–2020) and later as Premier (2023–2024). His career bridges science and governance, and his calm, evidence-based leadership is often credited with helping Taiwan navigate SARS and COVID-19.
+> **30-second overview:** Chen Chien-jen was born June 6, 1951, in Qishan Township, Kaohsiung County.[^1] A Johns Hopkins University PhD in epidemiology, he taught for many years at National Taiwan University's College of Public Health. He took over as Minister of the Executive Yuan Department of Health during the 2003 SARS outbreak.[^2] He served as the 14th Vice President from 2016 to 2020.[^1] He became the 31st Premier on January 31, 2023,[^3] stepped down on May 20, 2024, and handed over to Cho Jung-tai.[^4]
 
-In a political culture that rarely elevates scientists, Chen’s rise is notable. He symbolizes a belief that professional expertise can guide national policy — especially during public health crises where the stakes are existential.
+## A Farm Boy from Qishan, Kaohsiung: The Making of an Epidemiologist
 
-## Academic Roots and Global Training
+On June 6, 1951, Chen Chien-jen was born in Qishan Township, Kaohsiung County (now Qishan District, Kaohsiung City).[^1] After graduating from National Taiwan University's Department of Zoology, he went to the United States and earned a PhD in epidemiology from Johns Hopkins University. Upon returning to Taiwan, he taught for many years at NTU's College of Public Health.
 
-Chen studied zoology at National Taiwan University, then pursued a Ph.D. in epidemiology at Johns Hopkins University. After returning to Taiwan, he joined the National Taiwan University College of Public Health and became a leading researcher in chronic disease and environmental epidemiology.
+The path from NTU Zoology to Johns Hopkins epidemiology was an unusual academic combination in 1970s Taiwan. Johns Hopkins's School of Public Health is one of the world's premier training institutions for epidemiology, and the research methodology he developed there—population-level statistical analysis tracing causal chains between exposure factors and disease—became the underlying logic behind every decision he made in each subsequent political role.
 
-His work on Blackfoot disease (烏腳病) — a vascular disease caused by arsenic exposure in southwestern Taiwan — was especially influential. Chen’s research established a causal link between arsenic-contaminated groundwater and the disease, a finding that reshaped both Taiwanese and international approaches to environmental health.
+One of his most celebrated studies was the epidemiological investigation of blackfoot disease (烏腳病) in southwestern Taiwan's coastal communities, which established for the first time the causal relationship between arsenic poisoning and blackfoot disease. He has published more than 500 academic papers, many in top-tier medical journals such as *The Lancet* and the *New England Journal of Medicine*.
 
-With more than 500 academic papers, including publications in _The Lancet_ and _New England Journal of Medicine_, Chen built a reputation as a rigorous scientist and a patient mentor. The academic credibility he earned would later become a foundation for his political legitimacy.
+The methodological significance of the blackfoot disease research extended far beyond the disease itself: Chen used a population-level epidemiological design, and in an era before modern genomics tools, established the pathogenic mechanism of arsenic solely through statistical associations between water sources and disease incidence. This research training gave him a consistent decision-making framework in subsequent public health policy: "let the data speak, never rely on intuition."
 
-## Turning Research into Policy
+## Taking Over as Health Minister During SARS: First Command of an Epidemic Response
 
-Chen’s impact extends beyond the lab. He served as Director of the National Science Council’s Biological Sciences Division (1999–2005), where he promoted biomedical research and institutional reform. During the 2003 SARS outbreak, he was a key advisor to Taiwan’s Central Epidemic Command Center, helping to craft policies that ultimately contained the virus.
+During the 2003 SARS outbreak, Chen Chien-jen was appointed Minister of the Executive Yuan Department of Health at a critical moment.[^2] This position (not President of the National Health Research Institutes) placed him at the front lines of Taiwan's epidemic prevention decision-making. Taiwan ultimately succeeded in containing the SARS outbreak, and his role was widely recognized.
 
-He later became President of the National Health Research Institutes (2005), where he pushed for national health databases and precision medicine initiatives. In addition, he represented Taiwan in global health networks, including advisory roles for the World Health Organization’s Western Pacific Region and the International Epidemiological Association — a significant achievement given Taiwan’s constrained international status.
+From 1999 to 2005, he also served as Director of the Department of Life Sciences at the National Science Council, advancing biomedical research in Taiwan.
 
-## Vice President: A Scholar Enters Politics
+Taiwan's SARS response had two critical junctures: the lockdown of Hoping Hospital (April 24, 2003) and the subsequent overall containment of the outbreak. When Chen took over as Health Minister, the epidemic had already erupted within the hospital system. He was not facing a pure prevention problem but the urgent task of cutting off a transmission chain that was already spreading.
 
-In 2016, President Tsai Ing-wen (蔡英文) invited Chen to serve as Vice President. It was a symbolic moment: a scholar, not a career politician, ascending to one of the highest offices in the country.
+Taiwan ultimately contained SARS at 346 confirmed cases and 73 deaths. Relative to other outbreak regions, this figure represents the effective functioning of the epidemic prevention system at the critical moment. Chen's academic training allowed him to frame the problem quickly: the core methodology of epidemiology is "find the anomaly in the population, then sever its transmission path"—precisely what he did during that period.
 
-As Vice President, Chen oversaw policies related to long-term care, biotech development, and public health. He also pushed Taiwan’s “New Southbound Policy” in the health sector, strengthening public health cooperation with Southeast Asia. Throughout, his approach remained data-driven and modest in tone — a style that appealed to many Taiwanese voters weary of partisan rhetoric.
+## 2016–2020: The 14th Vice President
 
-## COVID-19: Expertise Under Pressure
+In 2016, Chen Chien-jen accepted President Tsai Ing-wen's invitation to serve as the 14th Vice President of the Republic of China.[^1] This was a rare case in Taiwan of a scholar by training assuming the vice presidency.
 
-When COVID-19 broke out in late 2019, Chen played a central role in Taiwan’s early response. He was deeply involved in the policy discussions around border control, quarantine procedures, and mask distribution. Taiwan’s effective early containment — widely noted by international media — was shaped in part by Chen’s scientific judgment and the institutional memory of SARS.
+By accepting this invitation, Chen chose to place his academic career temporarily in parentheses, using a political position to implement his long-standing public health advocacy. The vice presidency does not carry the direct executive authority of a premier; its functions are more oriented toward policy oversight and diplomatic visits. He used this role for health diplomacy and long-term care (LTC) policy promotion—both areas squarely within his academic expertise.
 
-In 2023, as Taiwan shifted from emergency response to recovery, Chen was appointed Premier. He coordinated post-pandemic economic stimulus plans and public health recovery policies, demonstrating that a scientist could also manage the political complexities of national governance.
+During his vice presidency, he oversaw the establishment of the long-term care system, the development of precision medicine policy, and promoted health cooperation under the New Southbound Policy. After the COVID-19 outbreak in late 2019, he participated in the decision-making process of the Central Epidemic Command Center (CECC) in his capacity as Vice President.
 
-## Faith, Ethics, and Public Service
+Taiwan's rapid early response to COVID-19 (border controls, mask allocation, quarantine tracking) was widely cited in global epidemic prevention discussions. Chen's role in this decision-making process was to provide a scientific framework from an epidemiologist's perspective, not merely political endorsement. From SARS to COVID-19, his two participations in epidemic response chart a path of how a scholar can continuously exercise professional value from political positions.
 
-Chen is a devout Catholic, and he frequently describes public health as a form of service — an enactment of the principle “love your neighbor.” This moral orientation has shaped his career: from advocating for vulnerable populations to emphasizing equity in health policy.
+## The 31st Premier: Walking Back Into the Center of Power
 
-Colleagues often describe him as humble and soft-spoken, yet firm in his commitment to evidence-based decisions. Even in politics, he retained a scholar’s demeanor, reinforcing a public image of integrity and restraint.
+On January 31, 2023, Chen Chien-jen became the 31st Premier (Su Tseng-chang was the 30th).[^3] Not the 19th—this incorrect version circulated widely in media reports; official records are the authoritative source.
 
-## A Model for Professional Governance
+He led the post-pandemic special budget, economic recovery programs, and other policies, demonstrating governance capacity in his transition from scholar to political leader. His premiership coincided precisely with Taiwan's post-pandemic economic adjustment period. His focus was on unwinding emergency pandemic measures, restoring normal economic operations, and advancing long-term structural issues such as energy transition.
 
-Chen’s career is often cited as proof that expertise and politics can coexist. He showed that public trust can be built through competence, and that a non-partisan, scientific style of leadership can still succeed in a competitive political environment.
+On May 20, 2024, Chen stepped down as Premier and handed over to Cho Jung-tai.[^4]
 
-His trajectory also sends a message to younger scholars: serving the public does not require abandoning academic rigor. Instead, it can be an extension of it — bringing research, ethics, and empathy into the heart of policymaking.
+Chen's appointment as Premier came in January 2023, nearly three years after he left the vice presidency. During those three years he remained active in academia (as an Academia Sinica fellow). This interval indicates that his premiership was not a direct extension of prior political arrangements, but rather a renewed summons of his personal credentials by the ruling party when a specific governance profile was needed.
 
-## Why Chen Chien-jen Matters
+After stepping down on May 20, 2024, Chen's next steps remain to be confirmed, but his standing in Taiwan's public health community is unaffected by the end of his administrative tenure: more than 500 academic papers and two participations in epidemic response are his fixed coordinates in the history of science and governance in Taiwan.
 
-Taiwan’s global profile in public health has grown in recent decades, and Chen is one of the key architects of that reputation. His work connects Taiwan’s domestic health struggles — from arsenic contamination to pandemic threats — with broader global public health debates.
+**Common narrative → More precise reading:** Chen Chien-jen is often described as a "scholar entering politics." This framing is accurate but tends to obscure *how* he entered politics: every position he has held (Health Minister, Vice President, Premier) was one to which he was called in the context of public health or crisis management—not routine political advancement. He is a rare case in Taiwan's political history of someone "needed because of expertise." This structure is fundamentally different from the path of most politicians.
 
-In a region where politics often dominates science, Chen represents a different path: one where evidence, compassion, and public responsibility guide national choices. His legacy is not only in policy outcomes, but in the idea that expertise can be a form of democratic leadership.
+> 🎙️ **Curator's note:** Chen's three positions correspond to three different scales of public challenge: Health Minister carried the technical responsibility of epidemic response, Vice President carried the institutional responsibility of assisting political leadership, and Premier carried the political responsibility of overall administration. That he has stood in all three positions of differing scale is exceptional in Taiwan's public administration history.
+>
+> Blackfoot disease research, SARS containment, and COVID-19 decision-making—his academic and political careers have maintained consistency along the axis of epidemiology. "Scholars doing politics" usually means abandoning the academic perspective after entering politics; Chen's path is a rare counterexample.
+>
+> The correction of the premiership ordinal (31st, not 19th) demonstrates in this article that Taiwan's democratic system has a complete, verifiable historical record of premier succession. The precision of this record is itself one indicator of a functioning democratic system.
+>
+> Chen's Catholic faith is a notable feature in Taiwan's political landscape, but in his public policy discourse he consistently leads with a scientific framework, treating faith as a personal spiritual anchor rather than a basis for policy. This public-private boundary has allowed him to maintain academic credibility in the highly secularized field of public health.
+
+From a farm boy in Qishan, Kaohsiung, to a Johns Hopkins PhD in epidemiology, to the 14th Vice President, to the 31st Premier—Chen Chien-jen's career is a long-term experiment in "how science can find an effective place in politics." The conclusion: it can, but it requires the right moment and the right problem.
+
+His story illustrates something rare in Taiwan's political history: a person can continuously work at the highest levels of a democratic system without reinventing himself as a "politician"—so long as every position he enters is one to which he is called because his academic expertise is needed.
+
+Whether this model can be replicated depends on whether Taiwan will face more moments demanding "science-based governance" in the future. Chen's case offers more than just a successful personal trajectory; it poses an institutional question about how academic expertise can be effectively utilized in democratic politics.
+
+**Further reading:** [Chen Chien-jen — Wikipedia](https://zh.wikipedia.org/zh-tw/陳建仁) ｜ [Executive Yuan: List of Past Premiers](https://www.ey.gov.tw/Page/D4A3B8D669A4B277)
 
 ## References
 
-- [Chen Chien-jen — Office of the President, ROC](https://www.president.gov.tw/AboutThePresident/Presidents/陳建仁)
-- [Research Record — NTU College of Public Health](https://www.sph.ntu.edu.tw/faculty/chen.php)
-- [COVID-19 Policy and Records — Taiwan CDC](https://www.cdc.gov.tw/Category/Page/vleOMKqwuEbkbmgRjko4J)
+[^1]: [Wikipedia: Chen Chien-jen](https://zh.wikipedia.org/zh-tw/陳建仁) — Confirms date of birth June 6, 1951, birthplace Qishan Township, Kaohsiung County, and 14th Vice President (2016–2020).
+
+[^2]: [The News Lens: Chen Chien-jen as Health Minister during SARS](https://www.thenewslens.com/article/31000) — Confirms he took over as Minister of the Executive Yuan Department of Health during the 2003 SARS outbreak (not President of the National Health Research Institutes).
+
+[^3]: [Executive Yuan: List of Past Premiers](https://www.ey.gov.tw/Page/D4A3B8D669A4B277) — Confirms Chen Chien-jen as the 31st Premier (not the 19th), Su Tseng-chang as the 30th, with term beginning January 31, 2023.
+
+[^4]: [CNA: Premier transition report (2024-05-20)](https://www.cna.com.tw/news/aipl/202405160146.aspx) — Confirms Chen Chien-jen stepped down as Premier on May 20, 2024, handing over to Cho Jung-tai.
+
+[^5]: [Executive Yuan: Premier Chen Chien-jen profile](https://www.ey.gov.tw/Page/4ED2F231892187F9/cce8ff5c-bd53-4e84-9cd0-373b5d6b5572) — Official record of Chen Chien-jen's premiership and major policy achievements.

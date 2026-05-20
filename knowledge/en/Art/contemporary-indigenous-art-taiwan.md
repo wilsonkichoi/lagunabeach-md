@@ -1,166 +1,163 @@
 ---
 title: 'Contemporary Indigenous Art in Taiwan'
-description: 'From traditional crafts to contemporary creation, explore how Taiwanese indigenous artists find their voice on the global art stage, redefining the dialogue between indigenous identity and contemporary art'
+description: "From traditional crafts to contemporary creation, exploring how Taiwan's Indigenous artists speak on the global art stage and redefine the dialogue between Indigenous identity and contemporary art"
 date: 2026-03-20
-tags:
-  [
-    indigenous art,
-    contemporary art,
-    traditional crafts,
-    identity,
-    artists,
-    cultural revitalization,
-  ]
 author: 'Taiwan.md Contributors'
+category: 'Art'
+subcategory: '當代藝術'
+tags: ['Indigenous Peoples', 'Contemporary Art', 'Traditional Crafts', 'Identity', 'Artists', 'Cultural Revitalization']
 readingTime: 8
-featured: false
-category: Art
 lastVerified: 2026-03-20
 lastHumanReview: false
+featured: false
 translatedFrom: 'Art/台灣原住民當代藝術.md'
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:83bc82b565683352'
-sourceBodyHash: 'sha256:638772e575206c29'
-translatedAt: '2026-04-14T12:25:09+08:00'
+sourceCommitSha: 'f712b7242'
+sourceContentHash: 'sha256:8e3303199d60c0c9'
+sourceBodyHash: 'sha256:83f9f1bad3cb5feb'
+translatedAt: '2026-05-20T05:08:27+08:00'
 ---
 
 # Contemporary Indigenous Art in Taiwan
 
-Contemporary indigenous art in Taiwan has undergone remarkable transformation over the past 30 years. Beginning in the 1990s, a group of indigenous artists started to leave their tribal communities and enter the mainstream art world, using their creations to redefine what constitutes "indigenous art." They are no longer merely preservers of traditional crafts, but active creators engaged in dialogue with contemporary issues, showcasing the rich facets of Taiwanese indigenous culture on international art stages.
+Contemporary Indigenous art in Taiwan has undergone a profound transformation over the past 30 years. Beginning in the 1990s, a group of Indigenous artists moved beyond their communities and entered the mainstream art world, using their work to redefine what “Indigenous art” means. Beyond serving as preservers of traditional crafts, they also became creators in dialogue with contemporary issues, presenting the many faces of Taiwan’s Indigenous cultures across diverse art platforms[^1].
 
 ## From Traditional Crafts to Contemporary Transformation
 
-### Artistic Foundations of Traditional Crafts
+### The Artistic Foundations of Traditional Crafts
 
-Taiwan's indigenous groups all possess exquisite traditional craft techniques, which serve as important nourishment for contemporary creation. Atayal weaving, Paiwan wood carving, Amis pottery, and Tao boat-building crafts—each technique embodies profound cultural meaning and aesthetic principles.
+Each of Taiwan’s Indigenous peoples possesses sophisticated traditional craft techniques, and these skills have become vital nourishment for contemporary creation. Atayal weaving, Paiwan woodcarving, Amis pottery, and Tao boatbuilding each contain deep cultural meanings and aesthetic ideas.
 
-Atayal weaving is the most intricate. Traditional ground-loom textiles feature geometric patterns including diamonds and stripes, with each pattern having specific names and meanings. The "Ancestral Eyes" pattern represents ancestral protection, while "Sun Rays" symbolizes life force. These patterns are not merely decorative but carriers of tribal memory.
+Atayal weaving is especially refined. Textiles woven on traditional ground looms use geometric motifs such as diamonds and stripes, and each motif has a specific name and meaning. The “eye of the ancestral spirits” pattern represents ancestral protection, while “sunlight rays” symbolize the force of life. These patterns are not merely decorative; they are carriers of collective memory.
 
-Paiwan wood and stone carving techniques are equally impressive. The hundred-pace snake pattern (百步蛇紋), human head motifs, and sun patterns are the most classic elements, embodying Paiwan reverence for nature and ancestors. Traditional wood carvings were primarily used to decorate chiefs' houses, displaying noble status and social hierarchy.
+Paiwan woodcarving and stone carving are equally striking. The hundred-pace viper motif, human-head motif, and sun motif are the most classic elements, embodying Paiwan reverence for the natural world and for ancestors. Traditional woodcarving was often used to decorate the houses of chiefs, displaying noble status and social rank.
 
-These traditional techniques face transmission crises in contemporary times, but they also provide rich materials and inspiration for contemporary artistic creation. Many indigenous artists reinterpret these traditional elements in their work, allowing ancient techniques to find new life in modern contexts.
+These traditional skills face crises of transmission in the contemporary era, but they also provide rich materials and sources of inspiration for contemporary art. Many Indigenous artists reinterpret these traditional elements in their work, allowing ancient techniques to gain new life in modern contexts.
 
-### Transition from Traditional to Contemporary
+### The Transition from Tradition to the Contemporary
 
-In the late 1980s, Taiwanese society began to value multiculturalism, and indigenous art gradually gained attention. The 1988 "Taiwan Indigenous Arts Festival" marked an important starting point for indigenous art entering mainstream art systems. This event not only showcased traditional crafts but also encouraged innovative creation.
+In the late 1980s, Taiwanese society began to place greater emphasis on multiculturalism, and the visibility of Indigenous art increased. The 1988 “Taiwan Indigenous Art Festival” marked the starting point for Indigenous art’s entry into the mainstream art system[^1]. The event not only exhibited traditional crafts but also encouraged innovative creation.
 
-During the same period, some indigenous artists began receiving modern art education, learning Western artistic techniques such as oil painting, sculpture, and printmaking. During their learning process, they contemplated how to combine traditional culture with modern art, initiating exploration into the "contemporization of traditional crafts."
+During the same period, some Indigenous artists began receiving modern art education, studying Western techniques such as oil painting, sculpture, and printmaking. In the course of this training, they reflected on how to combine traditional culture with modern art, opening up an exploration of the “contemporization of traditional crafts.”
 
-This transitional process was not smooth. Early works were often questioned as being "not traditional enough" or "not contemporary enough," forcing artists to find balance between maintaining cultural authenticity and pursuing artistic innovation. After years of exploration, contemporary Taiwanese indigenous art gradually developed its own characteristics and vocabulary.
+This transition was not smooth. Early works were often questioned as either “not traditional enough” or “not contemporary enough,” and artists had to find a balance between maintaining cultural authenticity and pursuing artistic innovation. After years of experimentation, contemporary Indigenous art in Taiwan gradually developed its own distinctive features and vocabulary.
 
-## Important Artists and Creative Journeys
+## Major Artists and Creative Trajectories
 
 ### First-Generation Pioneers
 
-**Sakinu Pawavalung** (撒古流‧巴瓦瓦隆) is an important pioneer of contemporary Taiwanese indigenous art. This Paiwan artist began creating in the 1980s, combining traditional Paiwan wood carving techniques with contemporary installation art concepts. His "Ancestral House Series" transformed traditional house concepts into large-scale installation works, recreating sacred Paiwan spaces within museum environments.
+**Sakinu Pawavalung** is an important pioneer of contemporary Indigenous art in Taiwan. This Paiwan artist began creating in the 1980s, combining traditional Paiwan woodcarving techniques with concepts from contemporary installation art. His *Ancestral Spirit House Series* transforms the idea of the traditional house into large-scale installations, re-creating Paiwan sacred space within the museum.
 
-Sakinu's creation is not just artistic expression but also cultural revitalization practice. He established a workshop in Sandimen Township, Pingtung County, cultivating wood carving techniques among the younger generation and teaching traditional skills to urban indigenous youth. He often says: "The carving knife is my pen, and wood is my canvas."
+Cultural revitalization is the central concern of Sakinu’s practice. He established a studio in Sandimen, Pingtung County, where he trains a younger generation in woodcarving and transmits traditional skills to urban Indigenous youth. For related creative ideas, see the artist pages of the [Council of Indigenous Peoples’ Taiwan Indigenous Peoples Cultural Development Center](https://www.tacp.gov.tw/).
 
-**Yuma Taru** (尤瑪‧達陸) is an important advocate for Atayal weaving art. Since the 1990s, she has devoted herself to revitalizing traditional weaving, not only preserving traditional techniques but also advancing weaving art into the contemporary art field. Her "Willow Studio" (野桐工坊) has become an important base for Atayal weaving culture.
+**Yuma Taru** is a major advocate for Atayal weaving art. Since the 1990s, she has devoted herself to revitalizing traditional weaving, not only preserving traditional techniques but also bringing weaving into the field of contemporary art. The “Lihang Studio” she founded has become a key base for promoting Atayal weaving culture[^2].
 
-Yuma's textile works maintain traditional techniques while boldly experimenting with new color and pattern combinations. Her large-scale textile installation "Words of Ancestors" (祖靈的話語) was exhibited at the 2010 Taipei Biennial, allowing the international art world to see the contemporary charm of Taiwanese indigenous weaving art.
+While maintaining traditional techniques, Yuma’s textile works boldly experiment with new combinations of colors and patterns. Her large-scale textile installation *Words of the Ancestral Spirits* was exhibited at the 2010 Taipei Biennial, allowing the international art world to see the contemporary appeal of Taiwan’s Indigenous weaving.
 
-### Second-Generation Breakthrough Artists
+### Second-Generation Breakthrough Figures
 
-**Rahic Talif** (拉黑子‧達立夫) is a contemporary artist of Amis descent who boldly challenges the boundaries between tradition and modernity. In 2019, he represented Taiwan at the Venice Biennale, becoming the first indigenous artist to represent Taiwan.
+**Rahic Talif** is a contemporary artist of Amis background whose work boldly challenges the boundary between tradition and modernity. He has participated in major international exhibitions many times and is one of the most visible artists representing contemporary Indigenous art from Taiwan in international contexts[^2].
 
-Rahic's "Wishing/Indigenous" (願/原) series explores the complexity of indigenous identity. He creates large installations using driftwood, discarded items, and modern materials, reflecting the situation of indigenous peoples in modern society. The driftwood in his works symbolizes uprooted indigenous peoples while also demonstrating tenacious vitality.
+Rahic’s *Wish/Origin* series explores the complexity of Indigenous identity. Using driftwood, discarded objects, and modern materials, he creates large-scale installations that reflect the situation of Indigenous peoples in modern society. In his works, driftwood symbolizes uprooted Indigenous people, while also conveying tenacious vitality.
 
-His creative methods integrate performance art, installation art, and video art, breaking free from traditional media limitations. His Venice Biennale work "Dwelling and So the Soul Goes Onward" used Amis traditional songs and contemporary video technology to create a stunning audiovisual experience.
+His creative methods combine performance art, installation art, and video art, breaking the limits of traditional media. In the Venice Biennale work *If You Were to Stand at the Center of the World and Shout Love*, he used traditional Amis songs and contemporary video technology to create a powerful audiovisual experience.
 
-**An Sheng-hui** (安聖惠) is a Paiwan ceramic artist who elevates traditional pottery crafts to the heights of modern ceramics. Her works combine traditional Paiwan pottery forms and firing techniques but are more free and experimental in form and concept.
+**An Sheng-hui** is a Paiwan ceramic artist whose work brings traditional pottery techniques to the level of modern ceramic art. Her works combine the forms and firing techniques of Paiwan traditional pottery, but are freer and more experimental in form and concept.
 
-An's "Memory of the Land" series uses clay to record Paiwan tribal spaces and life memories. She collects soil from different tribes and mixes them for firing, allowing each piece to carry the history and memory of specific places.
+An Sheng-hui’s *Land Memory* series uses clay to record Paiwan community spaces and memories of everyday life. She collects soil from different communities and mixes it into fired ceramics, allowing each work to carry the history and memory of a specific place.
 
 ### Third-Generation Innovators
 
-**Eleng Luluan** (峨冷‧魯魯安) is a curator and artist of Rukai descent who has long been committed to promoting contemporary indigenous art development. Her "Art Festival on the Slope" has become an important platform for indigenous art, showcasing the creative energy of new-generation indigenous artists.
+**Eleng Luluan** is a Rukai curator and artist who has long worked to advance the development of contemporary Indigenous art. The “Art Festival on the Slope” that she curated is an important platform for presenting the creative energy of a new generation of Indigenous artists. For details, see related information from the Indigenous Peoples Cultural Foundation.
 
-Eleng's curatorial philosophy emphasizes "de-marginalization." She believes indigenous art should not be viewed as "special" or "other" but should be an important component of contemporary Taiwanese art. Her exhibition "So That's How It Is" (原來如此) re-examined the development trajectory of Taiwanese indigenous art and received high praise from the art world.
+Eleng’s curatorial philosophy emphasizes “de-marginalization.” She argues that Indigenous art should not be treated as “special” or as “the other,” but should instead be understood as an important component of contemporary art in Taiwan. Her exhibition *So That Is How It Is* reorganized the developmental context of Indigenous art in Taiwan and received high praise from the art world.
 
-**Lin Jie-wen** (林介文) is a young Amis artist whose creations extensively use new media technology. His VR work "The Sea of the Amis" (阿美族的海) immerses viewers in Amis marine culture, experiencing traditional fishing and hunting life.
+**Lin Jie-wen** is a younger-generation Amis artist whose work makes extensive use of new media technologies. His VR work *The Amis Sea* immerses viewers in Amis ocean culture and allows them to experience traditional fishing and hunting life.
 
-Lin's work reflects the cultural experience of digital-generation indigenous people. He says: "Our generation of indigenous people grew up in the digital world, so creating with digital media is natural. The key is how to use modern technology to convey ancient wisdom."
+Lin Jie-wen’s practice reflects the cultural experience of Indigenous people in the digital generation. He has said: “Our generation of Indigenous people has lived in a digital world since childhood, so creating with digital media is very natural. The key is how to use modern technology to convey ancient wisdom.”
 
 ## Contemporary Issues and Cultural Dialogue
 
-### Exploration of Identity
+### Explorations of Identity
 
-The core issue facing indigenous contemporary artists is identity. Most grew up in Han-dominated urban society, and their connection to traditional culture may be fragmented or ambiguous. How to reconnect with cultural roots while establishing contemporary identity is an important theme in many artists' work.
+The core issue facing contemporary Indigenous artists is identity. Most grew up in urban societies dominated by Han people, and their connections to traditional culture may have been fractured or become indistinct. How to reconnect with cultural roots while establishing a contemporary identity is an important theme in the work of many artists.
 
-**Etan Pavavalung** (伊誕‧巴瓦瓦隆)'s photographic work "Who Are We" (我們是誰) documents the life patterns of urban indigenous people. He photographs indigenous workers, students, and office workers working in Taipei, showing their efforts to maintain cultural identity in urban life.
+**Etan Pavavalung**’s photographic work *Who Are We* documents the lives of urban Indigenous people. He photographs Indigenous laborers, students, and office workers in Taipei, showing their efforts to maintain cultural identity within urban life.
 
-In these photos, we see office workers in suits wearing traditional necklaces, students working at convenience stores who speak tribal languages, and families living in apartments who still conduct traditional ceremonies. These images reflect the complexity and diversity of contemporary indigenous identity.
+In these photographs, we see office workers wearing suits while also wearing traditional necklaces, students working part-time in convenience stores while still speaking their Indigenous languages, and families living in apartments while continuing to perform traditional rituals. These images reflect the complexity and diversity of contemporary Indigenous identity.
 
 ### Land and Environmental Issues
 
-Land is fundamental to indigenous culture and an important theme in contemporary artistic creation. Many artists express concern about land development and environmental destruction through their works, advocating for indigenous land rights.
+Land is the foundation of Indigenous culture and an important theme in contemporary art. Many artists use their work to express concern about land development and environmental destruction, speaking up for the land rights of Indigenous peoples.
 
-**Siki Sufin** (希巨‧蘇飛) is an Atayal artist whose large-scale land art work "Mother's Call" (母親的呼喚) was exhibited in Jianshi Township, Hsinchu County. The work uses local stone materials stacked into a giant spiral structure, symbolizing Mother Earth's embrace. Traditional plants are planted around the work, recreating Atayal plant utilization knowledge.
+**Siki Sufin**, an Atayal artist, exhibited his large-scale land art work *Mother’s Calling* in Jianshi Township, Hsinchu County. The work uses local stone to form a huge spiral structure, symbolizing the embrace of Mother Earth. Traditional plants are planted around the work, re-creating Atayal knowledge of plant use.
 
-This work is not only aesthetic creation but also a vehicle for environmental education and cultural transmission. While viewing the artwork, audiences also learn about Atayal ecological wisdom.
+This work serves both aesthetic and environmental-education functions, while also acting as a site of cultural transmission. As viewers look at the work, they also learn about Atayal ecological wisdom.
 
-**Adaw Palaf Langasan** (阿道‧巴辣夫‧冉而山) is a Puyuma artist whose video work "Songs of Nuclear Waste" (核廢料的歌聲) documents the Tao people's protests against nuclear waste storage facilities on Lanyu Island. In the work, Tao elders use traditional songs to express their anger and sorrow over environmental pollution.
+**Adaw Palaf Langasan**, a Puyuma artist, created the video work *Songs of Nuclear Waste*, which documents the Tao people of Orchid Island and their resistance to the nuclear-waste storage site. In the work, Tao elders use traditional songs to express anger and grief over environmental pollution.
 
-These creations demonstrate indigenous artists' sense of social responsibility—they are not only aesthetic creators but also guardians of culture and environment.
+These works demonstrate Indigenous artists’ sense of social responsibility: they are at once aesthetic creators, cultural guardians, and voices for environmental issues.
 
 ### Gender and Family Memory
 
-In recent years, the voices of female indigenous artists have become increasingly important. From perspectives as women and mothers, they explore gender roles and family transmission in indigenous culture.
+In recent years, the voices of Indigenous women artists have become increasingly important. From the perspectives of women and mothers, they examine gender roles and family transmission within Indigenous cultures.
 
-**Iyo Kacaw** (伊佑‧噶照) is an Amis female artist whose installation "Mother's Hands" (母親的手) recreates Amis women's living spaces. The work centers on a giant stone mortar surrounded by various traditional living utensils, symbolizing women's important position in tribal cultural transmission.
+**Iyo Kacaw** is an Amis woman artist whose installation *Mother’s Hands* re-creates the living space of Amis women. At the center of the work is a huge stone mortar, surrounded by various traditional everyday tools, symbolizing the important position of women in the transmission of community culture.
 
-The Amis are a matrilineal society where women hold important positions in families. Iyo's work reminds viewers that women's wisdom and contributions in indigenous culture are often overlooked and deserve rediscovery and respect.
+The Amis are a matrilineal society, and women hold an important position in the family. Iyo’s work reminds viewers that women’s wisdom and contributions within Indigenous cultures are often overlooked and deserve to be rediscovered and respected.
 
-**Wan-mao Lu Sen-bao** (芫茂‧陸森寶) is a Puyuma female artist whose fiber art work "Grandmother's Stories" (祖母的故事) uses traditional weaving techniques to create modern sculpture. In the work, various plant fibers interweave into complex web-like structures, symbolizing the transmission of family memory.
+**Wan-mao Lu Sen-bao** is a Puyuma woman artist whose fiber-art work *Grandmother’s Stories* uses traditional weaving techniques to create modern sculpture. In the work, various plant fibers interweave into complex net-like structures, symbolizing the transmission of family memory.
 
-She says: "Grandmother's stories are woven by hand—every knot is a memory, every thread is a piece of history. My work is to make these invisible stories visible."
+She has said: “Grandmother’s stories are woven by hand. Every knot is a memory, and every thread is a piece of history. My work is meant to make these invisible stories visible.”
 
-## International Stage and Global Dialogue
+## International Stages and Global Dialogue
 
-### Breakthrough at Venice Biennale
+### The Venice Biennale and International Platforms
 
-Rahic Talif's representation of Taiwan at the 2019 Venice Biennale marked an important breakthrough for Taiwanese indigenous art on the international stage. His exhibition "Dwelling and So the Soul Goes Onward" received high attention from the international art world.
+In recent years, Taiwan’s Indigenous artists have become more visible in international exhibitions, with the Venice Biennale among the important stages. Rahic Talif’s work *If You Were to Stand at the Center of the World and Shout Love* has been shown in multiple international exhibitions. Using the traditional Amis song *The Elder’s Drinking Song* as its sonic background, it allows audiences from around the world to hear the voices of Taiwan’s Indigenous peoples[^2].
 
-The significance of this participation lies not only in artistic achievement but also in cultural symbolism. An artist from a Taiwanese indigenous tribe standing on the world's most important art stage, speaking for indigenous peoples—this was unimaginable in the past.
-
-Rahic's Venice work emphasized the concept of "empathy," inviting viewers to feel indigenous life experience. He used the traditional Amis song "Old Man's Drinking Song" (老人飲酒歌) as the exhibition's sound background, allowing audiences from around the world to hear Taiwanese indigenous voices.
+The participation of Taiwan’s Indigenous artists in international settings carries symbolic significance for establishing the subjectivity of Indigenous culture. A creator from an Indigenous community in Taiwan speaking for Indigenous peoples in the international art field was a form of cultural visibility that was nearly absent before the 1990s.
 
 ### International Networks of Indigenous Art
 
-Taiwanese indigenous artists actively participate in international indigenous art networks, exchanging and collaborating with indigenous artists from Canada, Australia, New Zealand, and other countries. This transnational connection is not only artistic exchange but also an important part of indigenous rights movements.
+Taiwan’s Indigenous artists have built transnational connections, engaging in exchanges and collaborations with Indigenous artists from countries such as Canada, Australia, and New Zealand[^7]. These transnational links have the dual character of artistic exchange and Indigenous rights movements[^7].
 
-The 2018 "Pacific Indigenous Contemporary Art Exhibition" held at Taipei Fine Arts Museum invited indigenous artists from Taiwan, Philippines, Indonesia, Australia, and other countries to exhibit together. This exhibition demonstrated the diversity and commonality of Austronesian culture.
+In 2018, the “Contemporary Indigenous Art Exhibition of Pacific Island Nations” was held at the Taipei Fine Arts Museum, inviting Indigenous artists from Taiwan, the Philippines, Indonesia, Australia, and other countries to exhibit together. The exhibition presented both the diversity and commonality of Austronesian cultures.
 
-Non-indigenous artists like **Tong Yang-tze** (董陽孜) also actively support indigenous art development, collaborating with multiple indigenous artists to promote cross-cultural dialogue. This cross-ethnic cooperation model brings new perspectives and possibilities to Taiwan's art world.
+Non-Indigenous artists such as **Tong Yang-tze** have also supported the development of Indigenous art, collaborating with several Indigenous artists to promote cross-cultural dialogue. This model of cross-ethnic collaboration has brought new perspectives and possibilities to Taiwan’s art world.
 
 ## Market Development and Industrialization
 
 ### Opportunities and Challenges in the Art Market
 
-Contemporary Taiwanese indigenous art is gradually gaining recognition in the market but still faces some challenges. Traditional crafts have a stable collecting market, but market awareness of contemporary art works still has room for growth.
+Recognition of contemporary Indigenous art in Taiwan’s market has increased in recent years, but it still faces certain challenges. Traditional crafts have a stable collectors’ market, while market recognition of contemporary artworks still has room to grow.
 
-Public museums such as Kaohsiung Museum of Fine Arts and Taipei Fine Arts Museum actively collect contemporary indigenous art works, establishing standards for the market. Private galleries and collectors are also beginning to pay attention to this field, but the overall market scale remains limited.
+Public museums such as the Kaohsiung Museum of Fine Arts and the Taipei Fine Arts Museum have already collected a substantial number of contemporary Indigenous artworks, helping establish standards for the market[^3]. Private galleries and collectors have also begun paying attention to this field, though the overall market remains limited in scale.
 
-An important trend is discussion of "cultural authenticity." Collectors and curators increasingly value works' cultural backgrounds and creators' identity, which is both opportunity and challenge for indigenous artists.
+One important trend is the discussion of “cultural authenticity.” Collectors and curators increasingly value the cultural backgrounds of works and the identities of their creators, which presents both opportunities and challenges for Indigenous artists.
 
-### Development of Cultural Creative Industries
+### Development of the Cultural and Creative Industries
 
-Indigenous art develops not only in the pure art field but also combines with cultural creative industries to develop diverse products and services.
+Indigenous art is developing not only in the field of fine art but also in combination with the cultural and creative industries, producing diverse products and services.
 
-The "Indigenous Cultural Creative Industry Cluster" established in Chenggong Town, Taitung County, brings together multiple indigenous artists and craftsmen to develop creative products with cultural characteristics. Products include modernized textile accessories, daily necessities incorporating traditional patterns, and clothing designs with indigenous elements.
+The “Indigenous Cultural and Creative Industry Cluster” was established in Chenggong Township, Taitung County, bringing together multiple Indigenous artists and craftspeople to develop creative products with cultural characteristics. Products include modernized textile accessories, everyday goods incorporating traditional patterns, and clothing designs using Indigenous elements.
 
-These industrialization attempts face the challenge of balancing "commercialization" and "cultural authenticity." How to maintain cultural content while pursuing commercial development is an issue the industry must address.
+These attempts at industrialization face the issue of balancing “commercialization” and “cultural authenticity.” How to maintain cultural substance while pursuing commercial development is a challenge the industry must confront.
 
-Contemporary Taiwanese indigenous art has traveled the path from periphery to center over the past 30 years. Artists have proven through their creations that indigenous culture is not merely cultural heritage needing protection but contemporary force capable of dialogue with the world. Their works not only showcase the richness of indigenous culture but also inject unique vitality into contemporary Taiwanese art. In the era of globalization, these voices from the tribes appear even more precious and important.
+Over the past 30 years, contemporary Indigenous art in Taiwan has moved from the margins toward the center. Through their work, artists have shown that Indigenous culture is not merely cultural heritage in need of protection, but also a contemporary force capable of engaging the world in dialogue.
+
+Rahic Talif’s installations, Sabu Kacaw’s photography, and Iyo Kacaw’s woven sculptures have long since moved beyond the framework of “community crafts,” becoming works that coexist with global contemporary art in artistic venues from Venice and Taipei to New York. Their works not only reveal the richness of Indigenous cultures but also inject irreplaceable vitality into contemporary art in Taiwan.
+
+In an age of globalization, these voices from Indigenous communities appear all the more precious and important, because what they carry are memories and experiences that cannot be replicated anywhere else.
 
 ## References
 
-- [Indigenous Peoples Culture Foundation](https://www.tacp.gov.tw/) — Contemporary indigenous art development information
-- [Taiwan Fine Arts Museum](https://www.museum.ntm.gov.tw/) — Contemporary art exhibition information
-- [Taiwan Pavilion, Venice Biennale](https://www.venezia.culture.tw/) — 2019 Rahic exhibition materials
-- Kao, Jun-honn (2019). _Transverse Records: Taiwan's Mountain Warfare, Empire and Images_, Gusa Publishing
-- Hu, Tai-li (2018). _Indigenous Art Field Notes_, Artist Publishing
-- Eleng Luluan (2020). _Art on the Slope: Essays on Contemporary Indigenous Art_, Spring Hill Publishing
-- [Database of Contemporary Indigenous Literature and Culture in Taiwan](http://140.109.24.175/iplm/) — Established by National Sun Yat-sen University
-- Sakinu Pawavalung (2017). _Carving Memory: Cultural Reflections of Paiwan Wood Carver Sakinu_, Yuan-Liou Publishing
+[^1]: [Indigenous Peoples Art Development Center](https://www.tacp.gov.tw/) — Information on the development of contemporary Indigenous art
+[^2]: Lin Chien-cheng (2002), [*Field Notes on Taiwanese Indigenous Art*](https://www.books.com.tw/products/0010192578), Artist Publishing
+[^3]: [Taiwan Biennial](https://www.museum.ntm.gov.tw/) — Contemporary art exhibition information
+[^4]: [Taiwan Pavilion at the Venice Biennale](https://www.venezia.culture.tw/) — Archives of past Taiwan Pavilions
+[^5]: Kao Jun-honn (2017), [*Transverse Chronicle: Taiwan’s Mountain-Forest Wars, Empire, and Images*](https://www.books.com.tw/products/0010768319), Walkers Cultural Enterprise
+[^7]: [Taiwan Modern and Contemporary Indigenous Literature and Culture Database](http://140.109.24.175/iplm/) — Established by National Sun Yat-sen University
+
+---
+
+_Further reading: [History of Taiwan’s Indigenous Peoples and the Name Rectification Movement](/en/History/indigenous-peoples-history-and-naming-movement/) · [Land Justice and Traditional Territories of Taiwan’s Indigenous Peoples](/en/Society/indigenous-land-justice-and-traditional-territories/) · [Cultural Map of Taiwan’s 16 Indigenous Peoples](/en/Culture/indigenous-peoples-16-tribes-cultural-map/) · [Taiwan’s Indigenous Language Revitalization Movement](/en/Culture/indigenous-language-revitalization-movement/) · [Taiwan Indigenous Foodways](/en/Food/taiwan-indigenous-foodways/) · [Taiwanese Indigenous Ecological Wisdom and Environmental Conservation](/en/Nature/taiwanese-indigenous-ecological-wisdom-conservation/)_

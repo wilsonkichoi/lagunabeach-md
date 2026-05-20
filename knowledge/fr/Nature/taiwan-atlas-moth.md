@@ -1,139 +1,103 @@
 ---
-title: 'Le Grand Paon de Taïwan — Attacus atlas'
-description: 'Le plus grand papillon de nuit du monde déploie ses ailes comme un atlas ouvert — et ne mange rien de toute sa vie adulte, pour ne voler qu'une seule fois'
+title: 'Le papillon-atlas de Taïwan'
+description: "Envergure pouvant atteindre 25 à 30 cm, l'un des plus grands papillons de nuit au monde ; ses ailes déployées ressemblent à un livre ouvert — il ne mange jamais de toute sa vie, ne vivant que pour un seul vol"
 date: 2026-03-19
-tags: ['paon de nuit', 'sphinx à tête de serpent', 'Atlas Moth', 'lépidoptères', 'conservation', 'entomologie', 'écologie']
-subcategory: 'Faune sauvage'
+author: 'Taiwan.md Contributors'
 category: 'Nature'
-author: 'Taiwan.md Translation Team'
+subcategory: '野生動物'
+tags: ['papillon-atlas', 'papillon à tête de serpent', 'Atlas Moth', 'papillons de nuit', 'conservation', 'insectes', 'écologie']
 readingTime: 10
-featured: false
 lastVerified: 2026-03-19
-translatedFrom: "Nature/台灣皇蛾.md"
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:04090b613f5ed578'
-sourceBodyHash: 'sha256:a6fc776d191702d7'
-translatedAt: "2026-04-14T19:22:44+08:00"
+lastHumanReview: false
+featured: false
+translatedFrom: 'Nature/台灣皇蛾.md'
+sourceCommitSha: 'f712b7242'
+sourceContentHash: 'sha256:c0def8638e893fc6'
+sourceBodyHash: 'sha256:b3b31dae4152e213'
+translatedAt: '2026-05-20T05:08:34+08:00'
 ---
 
-# Le Grand Paon de Taïwan : le plus grand papillon de nuit au monde, une légende aux ailes géantes qui ne se nourrit jamais
+# Le papillon-atlas de Taïwan : l'un des plus grands papillons de nuit au monde, une légende d'ailes géantes qui ne se nourrit jamais
 
-## En 30 secondes
+## Vue d'ensemble en 30 secondes
 
-Il s'agit du plus grand papillon de nuit du monde, avec une envergure pouvant atteindre 25 à 30 centimètres — plus large que votre ordinateur portable. Surnommé « le sphinx à tête de serpent » pour les motifs saisissants à l'extrémité de ses ailes qui imitent une tête de cobra. Sa beauté recèle une cruauté fascinante : l'adulte est dépourvu de pièces buccales fonctionnelles et ne peut se nourrir une fois éclos — il ne survit qu'une à deux semaines grâce aux réserves de graisse accumulées à l'état larvaire, dans l'unique but de se reproduire avant de mourir. Taïwan est l'un des rares endroits au monde où subsistent encore des populations sauvages d'_Attacus atlas_, mais elles se font de plus en plus rares.
+Avec une envergure pouvant atteindre 25 à 30 cm, le papillon-atlas (_Attacus atlas_) est l'un des papillons de nuit à la plus grande envergure au monde. La surface de ses ailes se classe au deuxième rang mondial (derrière le papillon Hercule d'Australie), plus large qu'un ordinateur portable. Surnommé « papillon à tête de serpent » en raison des motifs réalistes de tête de serpent à l'extrémité de ses ailes, il cache une beauté cruelle : l'adulte est dépourvu d'appareil buccal et, après l'émergence, ne peut survivre que 1 à 2 semaines grâce aux réserves de graisse accumulées au stade larvaire, son unique objectif étant de se reproduire avant de mourir. Taïwan est l'un des rais endroits au monde où subsistent encore des populations sauvages de papillons-atlas, mais ils deviennent de plus en plus rares ces dernières années.
 
-## Pourquoi cette espèce est-elle importante ?
+## Pourquoi est-ce important ?
 
-L'_Attacus atlas_ est un indicateur de la santé des écosystèmes forestiers. Sa présence témoigne de forêts suffisamment riches et d'une biodiversité encore intacte. Quand il disparaît, c'est souvent le signe que l'ensemble de la chaîne écologique est en train de se fracturer. À Taïwan, son habitat correspond précisément aux forêts de basse et moyenne altitude les plus précieuses — ces îlots de verdure encerclés par la pression humaine, qui résistent encore mais de justesse.
+Le papillon-atlas est un indicateur de la santé des écosystèmes. Sa présence témoigne de forêts suffisamment saines et d'une biodiversité suffisamment riche. Quand le papillon-atlas disparaît, c'est généralement le signe que toute la chaîne écologique est en train de se dégrader. À Taïwan, son habitat se concentre dans les forêts de basse à moyenne altitude, ces îlots verces encore vivaces malgré la pression du développement humain.[^2] Ces écosystèmes de basse montagne sont souvent négligés, pourtant ils constituent des zones clés de la biodiversité terrestre taïwanaise : on y trouve également des espèces rares comme le léopard nébuleux (_Prionailurus bengalensis_) et le pangolin. L'apparition du papillon-atlas est un miroir de la santé écologique ; son absence est un signal d'alarme auquel il faut prêter attention.
 
-## Des ailes comme un atlas déployé
+## Un atlas naturel déployé sur des ailes
 
-L'_Attacus atlas_ est surnommé « le papillon-carte ». Ailes ouvertes, le fond brun-acajou se couvre de lignes et de motifs complexes évoquant d'anciennes cartes de navigation. Mais ce qui frappe avant tout, c'est l'extrémité des ailes antérieures — ce détail qui lui vaut le sobriquet de « sphinx à tête de serpent ».
+Le papillon-atlas (_Attacus atlas_) est surnommé « la carte volante ». Quand il déploie ses ailes, la couleur brun-roux de fond est parcourue de lignes et de motifs complexes, évoquant d'anciennes cartes ou cartes marines. La particularité la plus frappante se trouve à l'extrémité des ailes, le motif qui lui vaut son nom de « papillon à tête de serpent ».
 
-Le dessin n'imite pas seulement la tête d'un serpent : lorsque le papillon est menacé et bat des ailes, le motif s'anime littéralement, reproduisant la posture d'intimidation d'un cobra. Ce n'est pas le fruit du hasard, mais l'aboutissement de millions d'années d'évolution — une stratégie de leurre visuel d'une efficacité redoutable.
+Le motif à l'avant des ailes ne ressemble pas seulement à une tête de serpent : lorsque le papillon-atlas est menacé et agite ses ailes, ce motif imite de manière saisissante la posture de intimidation d'un cobra. C'est un chef-d'œuvre de millions d'années d'évolution, une stratégie de leurre d'une précision remarquable.
 
-La surface alaire de l'_Attacus atlas_ peut atteindre 400 cm², ce qui en fait le deuxième papillon de nuit du monde par surface d'aile (derrière l'_Attacus hercules_ australien). En termes d'envergure pure, il est presque sans rival. La femelle est plus grande que le mâle, mais ce dernier dispose d'antennes plus larges et plus pectinées, capables de détecter les phéromones de la femelle à plusieurs kilomètres de distance.
+La surface des ailes du papillon-atlas peut atteindre 400 cm², ce qui en fait le deuxième papillon de nuit à la plus grande surface alaire au monde (après le papillon Hercule d'Australie). En termes d'envergure, le papillon-atlas se classe parmi les premiers papillons de nuit au monde. Les femelles sont plus grandes que les mâles, mais les mâles possèdent des antennes plus larges et plumeuses, capables de détecter les phéromones émises par les femelles à plusieurs kilomètres de distance.
 
-## Distribution à Taïwan
+## La répartition du roi des papillons de nuit à Taïwan
 
-Sur l'île, l'_Attacus atlas_ se rencontre principalement en plaine et en moyenne montagne (sous les 1 000 mètres d'altitude), dans des environnements chauds et humides. Des observations ont été répertoriées aussi bien dans les collines de Yangmingshan au nord que dans les contreforts de Baguashan au centre, à Kenting au sud ou dans la vallée du Rift de Hualien-Taitung à l'est.
+À Taïwan, le papillon-atlas se principalement dans les zones montagneuses de basse à moyenne altitude (en dessous de 1 000 m), privilégiant les environnements chauds et humides. Des observations ont été enregistrées du Yangmingshan au nord au Bagua Mountain au centre, en passant par Kenting au sud et la vallée de Hualien-Tung à l'est.[^1] Le site de camping « Sanwan No. 3 Secret Spot » dans le comté de Miaoli mérite une mention spéciale : en 2019, des photographes amateurs y ont encore photographié des papillons-atlas. Ces environnements de faiblement développés en basse montagne constituent les derniers refuges du papillon-atlas. Ces abords de campings, de fermes et de vergers, en apparence anodins, sont en réalité des îlots écologiques indispensables à la survie de la faune sauvage taïwanaise. Le papillon-atlas est principalement nocturne ; après l'accouplement, la femelle pond ses œufs en grappes au revers des feuilles. Le mâle, grâce à plus de 300 000 récepteurs olfactifs sur ses antennes, détecte les phéromones à plusieurs kilomètres et localise avec précision la position de la femelle.
 
-Mentionnons en particulier le site de camping de Sanwan, à Miaoli — où des photographes naturalistes l'ont encore photographié en 2019. Ces espaces de collines peu urbanisés constituent les derniers refuges du papillon. Les lisières de campings, de fermes et de vergers, aussi banales qu'elles puissent paraître, forment de véritables îlots écologiques indispensables à la faune sauvage de Taïwan.
+## Un poème cruel et beau : le cycle de vie
 
-## Un cycle de vie entre beauté et tragédie
+La vie du papillon-atlas est un poème à la fois cruel et magnifique.
 
-La vie de l'_Attacus atlas_ est un poème à la fois cruel et splendide.
+**Stades œuf et larvaire** : La femelle pond des œufs sphériques d'à peine 2,5 mm de diamètre au revers des feuilles de plantes hôtes, par lots de plusieurs dizaines. Les chenilles vertes qui éclosent portent des cornes cireuses blanches sur le dos et se nourrissent de plantes telles que le goyavier, le cannelier et les agrumes. Après six mues successives, elles atteignent 11,5 cm de long et 2,5 cm d'épaisseur. C'est la seule phase d'alimentation de toute la vie du papillon-atlas ; toutes les réserves de graisse y sont constituées.
 
-**Stade de l'œuf** : la femelle dépose ses œufs sphériques (2,5 mm de diamètre) sur la face inférieure des feuilles de la plante hôte, par pontes de quelques dizaines d'unités.
+**Stades pupe et adulte** : La chenille tisse un cocon entre les feuilles mortes, long de 7 à 8 cm, fixé aux branches par des fils de soie. La métamorphose dure environ quatre semaines. L'adulte qui émerge a un appareil buccal atrophié et ne peut pas se nourrir ; il ne survit que grâce aux réserves de graisse accumulées au stade larvaire et doit trouver un partenaire, s'accoupler et se reproduire en 1 à 2 semaines avant de mourir. Cette stratégie concentre toute l'énergie sur la reproduction, sans risque lié à la recherche de nourriture, ce qui augmente paradoxalement l'efficacité de la transmission génétique.
 
-**Stade larvaire** : c'est la seule phase où l'_Attacus atlas_ s'alimente. Les chenilles vertes, ornées d'épines cireuses blanchâtres, se nourrissent de goyaviers, canneliers, agrumes et autres plantes hôtes. Elles muent plusieurs fois pour atteindre jusqu'à 11,5 cm de long et 2,5 cm de diamètre après six stades larvaires.
+## Le code évolutif du motif à tête de serpent
 
-**Chrysalide** : la chenille tisse un cocon entre les feuilles mortes, fixé à une branche par des fils de soie. Ce cocon mesure 7 à 8 cm et l'insecte y demeure environ quatre semaines.
+Pourquoi l'extrémité des ailes du papillon-atlas a-t-elle évolué vers un motif de tête de serpent aussi réaliste ? La réponse réside dans le « mimétisme batésien », c'est-à-dire l'imitation d'un organisme dangereux pour décourager les prédateurs. En 2006, le chercheur britannique Hossler a documenté en détail les propriétés optiques du motif de l'extrémité des ailes du papillon-atlas, montrant que les effets visuels sous différents angles de lumière pouvaient efficacement tromper les prédateurs. En 2015, des chercheurs taïwanais ont également observé, dans le Yangmingshan, le comportement défensif du papillon-atlas face à des attaques d'oiseaux, confirmant l'effet dissuasif de l'agitation de l'extrémité des ailes sur les prédateurs.
 
-**Adulte** : c'est le stade le plus spectaculaire — et le plus éphémère. L'imago n'a pas de pièces buccales complètes : il ne peut pas s'alimenter et vit uniquement sur ses réserves de graisse larvaires. Son existence entière est un compte à rebours amoureux : trouver un partenaire, s'accoupler, se reproduire en une à deux semaines, puis mourir.
+Lorsque des oiseaux ou d'autres prédateurs s'approchent, le papillon-atlas agite rapidement ses ailes, donnant l'impression que deux têtes de serpent se balancent de gauche à droite. Cette tromperie visuelle instantanée suffit souvent à faire hésiter le prédateur, offrant au papillon-atlas une chance de s'échapper.
 
-Cette stratégie peut sembler cruelle, mais c'est en réalité un choix évolutif très efficace. Sans besoin de chercher de la nourriture, l'adulte s'expose moins aux prédateurs ; toute l'énergie est concentrée sur la reproduction, maximisant ainsi le transfert génétique.
+Plus remarquable encore, ce motif de tête de serpent produit des effets visuels différents selon l'angle de lumière. Dans la pénombre du sous-bois forestier, lorsque la lumière du soleil filtre à travers le feuillage en projetant des ombres mouvantes, le papillon-atlas immobile se fond presque parfaitement dans les feuilles mortes. Mais dès qu'il est dérangé, le motif de tête de serpent semble soudainement « prendre vie ».
 
-## Le code évolutif du motif « tête de serpent »
+## La crise de conservation du papillon-atlas à Taïwan
 
-Comment les ailes de l'_Attacus atlas_ ont-elles pu évoluer vers un mimétisme aussi réaliste d'une tête de serpent ? La réponse réside dans le mimétisme batésien — l'imitation d'animaux dangereux pour repousser les prédateurs.
+Le papillon-atlas de Taïwan fait face à une grave crise de survie. Bien qu'il ne figure pas officiellement sur la liste des espèces protégées, la population sauvage est en déclin manifeste. Les principales menaces sont les suivantes :
 
-Quand un oiseau ou tout autre prédateur s'approche, le papillon bat rapidement des ailes, faisant osciller les deux extrémités pour qu'elles ressemblent à deux têtes de serpent se balançant. Ce leurre visuel instantané suffit souvent à faire hésiter le prédateur, offrant au papillon une chance de s'échapper.
+La destruction de l'habitat est la menace la plus directe : les forêts de basse à moyenne altitude subissent une forte pression de développement, et l'expansion des zones résidentielles, industrielles et agricoles réduit l'espace vital du papillon-atlas. Selon les données du Réseau de biodiversité de Taïwan (TBN) de 2020, les observations de papillons-atlas se concentrent dans les zones de basse montagne des comtés de Miaoli, Nantou et Hualien, les zones urbanisées n'enregistrant quasiment plus aucune observation. L'éclairage artificiel nocturne perturbe le système de navigation du papillon-atlas, empêchant les mâles de suivre avec précision la piste de phéromones. Les pesticides massivement appliqués sur les arbres fruitiers hôtes menacent directement la survie des larves. Le changement climatique modifie la température et l'humidité, affectant les cycles de reproduction et la répartition des plantes hôtes. Les caractéristiques du cycle de vie du papillon-atlas le rendent particulièrement vulnérable : durée de vie adulte courte, aire de déplacement limitée, dépendance à des plantes hôtes spécifiques — des atouts dans un environnement stable, mais des faiblesses dans un monde en mutation rapide.
 
-Plus subtil encore : ce motif produit des effets visuels variables selon l'angle de la lumière. Dans la pénombre d'une forêt, quand le soleil filtre à travers le feuillage en créant des taches lumineuses, l'_Attacus atlas_ posé sur une branche se fond quasi parfaitement dans l'écorce ou les feuilles mortes. Mais une fois dérangé, la « tête de serpent » s'anime soudainement.
+## Le papillon-atlas dans la culture populaire taïwanaise
 
-## Une espèce sous pression à Taïwan
+Dans le folklore taïwan, le papillon-atlas porte un nom évocateur : « roi des papillons » (霸王蝶). Bien qu'il ne soit pas un papillon, ce nom reflète l'admiration que suscite sa taille imposante. Dans les régions hakka, un dicton veut que « quand un papillon de nuit entre dans la maison, un invité de marque ne tardera pas » — la visite d'un papillon-atlas est considérée comme un bon présage. Dans les cultures autochtones, les grands papillons de nuit sont souvent perçus comme des incarnations des esprits ancestraux ; dans la tradition Atayal, les grands papillons aux motifs oculaires sur les ailes sont considérés comme les yeux des ancêtres veillant sur la tribu. Aujourd'hui, ces « invités de marque » se font de plus en plus rares dans les campagnes taïwanaises.
 
-L'_Attacus atlas_ fait face à une crise de survie préoccupante sur l'île. Bien qu'il ne figure pas officiellement sur la liste des espèces protégées, ses populations sauvages sont en net recul. Les principales menaces sont les suivantes :
-
-**Destruction de l'habitat** : les forêts de basse et moyenne altitude subissent les plus fortes pressions de développement à Taïwan. L'expansion des zones résidentielles, industrielles et agricoles réduit directement l'espace vital du papillon.
-
-**Pollution lumineuse** : espèce nocturne, l'_Attacus atlas_ est perturbé par l'éclairage artificiel excessif, qui désorganise son système de navigation et empêche les mâles de suivre précisément les phéromones des femelles.
-
-**Pesticides** : les plantes hôtes des larves sont souvent des arbres fruitiers ; l'utilisation intensive de pesticides menace directement la survie des chenilles.
-
-**Changement climatique** : les variations de température et d'humidité perturbent les cycles de reproduction du papillon et modifient la répartition de ses plantes hôtes.
-
-Ce qui rend la situation particulièrement alarmante, c'est que les caractéristiques biologiques de l'espèce la rendent particulièrement vulnérable aux bouleversements environnementaux. Adultes éphémères, territoire limité, dépendance à des plantes hôtes spécifiques — des traits qui constituent des avantages en milieu stable deviennent des handicaps dans un environnement en mutation rapide.
-
-## L'_Attacus atlas_ dans la culture populaire taïwanaise
-
-Dans le folklore taïwanais, l'_Attacus atlas_ porte le surnom éloquent de « papillon-roi » (_bà wáng dié_). Ce n'est pas un papillon de jour, mais cette appellation témoigne de la fascination que sa taille imposante inspire.
-
-Dans les régions hakkas, une croyance dit que « si un grand papillon de nuit entre dans la maison, c'est signe qu'un visiteur de marque est attendu ». Mais ces « visiteurs de marque » se font de plus en plus rares dans les campagnes taïwanaises.
-
-Dans les cultures des peuples autochtones, les grands lépidoptères sont souvent perçus comme des incarnations des esprits ancestraux. Selon une légende Atayal, les grands papillons de nuit portant des ocelles sur les ailes seraient les yeux des ancêtres veillant sur la sécurité du village.
-
-## La répartition des niches écologiques avec les autres grands papillons de nuit de Taïwan
+## La partition des niches écologiques avec les autres grands papillons de nuit de Taïwan
 
 Taïwan abrite plusieurs autres espèces de grands papillons de nuit, chacune occupant une niche écologique distincte :
 
-**Actias artemis** (la Saturnie à queue) : aux ailes vert pâle ornées de longues queues sur les ailes postérieures. Elle préfère des altitudes plus élevées et ses chenilles se nourrissent de Fagacées.
+Le **grand paon de nuit à queue longue** (_Actias selene_) a des ailes vert pâle avec de longues extensions caudales sur les ailes postérieures, préfère les environnements de plus haute altitude et ses larves se nourrissent de fagacées. Le **saturnie à fenêtres transparentes** (_Rothschildia erycina_) présente des « fenêtres » transparentes sur ses ailes ; sa répartition chevauche celle du papillon-atlas, mais il privilégie davantage les environnements montagneux. Le **grand papillon hirondelle** (_Urapteroides astheniata_) a des ailes en forme d'hirondelle, vole rapidement et est principalement actif en moyenne à haute altitude, avec peu de compétition pour la niche écologique avec le papillon-atlas.
 
-**Rhodinia tosta** (Saturnie fenêtrée) : ses ailes arborent de petites « fenêtres » transparentes, une particularité rare. Son aire de répartition chevauche celle de l'_Attacus atlas_, mais elle affectionne davantage les zones de montagne.
+Ces grands papillons de nuit constituent ensemble un maillon essentiel de l'écosystème nocturne taïwanais. Ils sont une source de nourriture pour de nombreuses araignées, oiseaux et chauves-souris, tout en étant des pollinisateurs pour les plantes. Selon les statistiques du Réseau de biodiversité de Taïwan (TBN) de 2022, le nombre de signalements de grands papillons de nuit a diminué d'environ 15 % par rapport à 2018, indiquant un déclin des populations d'insectes nocturnes. La perte de l'une quelconque de ces espèces affecterait l'ensemble de l'équilibre écologique.
 
-**Lyssa zampa** (grande phalène à queue d'aronde) : aux ailes en forme de queue d'hirondelle, elle vole rapidement et fréquente principalement les moyennes et hautes altitudes, avec peu de compétition directe avec l'_Attacus atlas_.
+## Protection de l'habitat : préserver un ciel pour le papillon-atlas
 
-Ces grands papillons de nuit constituent ensemble des maillons essentiels de l'écosystème nocturne taïwanais. Ils servent de proies à de nombreuses araignées, oiseaux et chauves-souris, tout en assurant une fonction de pollinisation. La disparition de l'une de ces espèces déséquilibrerait l'ensemble du réseau.
+Protéger le papillon-atlas, c'est protéger la biodiversité des forêts de basse altitude de Taïwan. Le fait que des papillons-atlas puissent encore être photographiés dans le camping de Sanwan (Miaoli) prouve qu'un équilibre entre activité humaine modérée et conservation de la nature est possible. Les environnements semi-artificiels, s'ils sont bien gérés, peuvent servir de refuges pour la faune sauvage. En ce qui concerne la réduction de la pollution lumineuse, l'utilisation de luminaires orientés vers le bas et le choix de lumière jaune, moins attractive pour les insectes, peuvent réduire les perturbations sur les insectes nocturnes. Planter des plantes hôtes du papillon-atlas dans les parcs, les écoles et les zones résidentielles peut offrir des habitats-relais. La participation aux sciences citoyennes est également cruciale : les photographes amateurs et les naturalistes qui consignent les lieux et dates d'apparition du papillon-atlas contribuent à constituer une base de données complète sur la répartition des populations.
 
-## Protéger l'habitat : lui laisser un ciel
+## Faits surprenants
 
-Protéger l'_Attacus atlas_, c'est protéger les écosystèmes de piémont de Taïwan. Ces forêts de basse altitude, en apparence ordinaires, sont en réalité des trésors de biodiversité.
+Les capacités sensorielles du papillon-atlas sont stupéfiantes : les antennes du mâle portent plus de 300 000 récepteurs olfactifs, capables de détecter les phéromones de la femelle à plus de 10 kilomètres, une sensibilité qui dépasse de loin celle de n'importe quel détecteur artificiel. Le nom anglais du papillon-atlas, « Atlas Moth », fait référence au titan Atlas de la mythologie grecque portant la Terre sur ses épaules ; une autre hypothèse veut que les lignes sur ses ailes évoquent une carte. Mothra, la créature de la série _Godzilla_, a été conçue sur le modèle du papillon-atlas.
 
-**Un modèle de conservation fondé sur la participation communautaire** : si l'_Attacus atlas_ est encore photographié dans les campings de Sanwan, c'est la preuve qu'un équilibre est possible entre activité humaine modérée et conservation de la nature. Ces espaces semi-aménagés, bien gérés, peuvent devenir de véritables refuges pour la faune sauvage.
+En termes d'utilisation des matériaux, en Inde, la soie « fagara » produite par le ver à soie du papillon-atlas est 80 % plus dense que la soie de ver à soie commune, avec une texture épaisse semblable à de la laine. Dans le folklore taïwan, les coques de pupe du papillon-atlas étaient autrefois transformées en petites bourses, résistantes et imperméables.
 
-**Réduire la pollution lumineuse** : l'éclairage nocturne n'a pas besoin d'être aveuglant. Des lampadaires orientés vers le bas et des ampoules jaunes (moins attractives pour les insectes) peuvent considérablement réduire les perturbations sur les espèces nocturnes.
-
-**Replanter des espèces végétales indigènes** : introduire les plantes hôtes de l'_Attacus atlas_ dans les parcs, les cours d'école et les jardins privés, pour créer des « pas japonais » — des corridors écologiques reliant les habitats fragmentés.
-
-**Science participative** : encourager photographes et naturalistes amateurs à documenter les observations (lieu, date, heure), afin de constituer une base de données de répartition plus complète.
-
-## Dix faits qui vous surprendront
-
-1. **Un odorat surpuissant** : les antennes du mâle comptent plus de 300 000 récepteurs olfactifs, capables de détecter les phéromones d'une femelle à 10 kilomètres. Aucun instrument artificiel n'approche cette sensibilité.
-
-2. **L'atlas du ciel** : le nom anglais « Atlas Moth » renvoie au titan de la mythologie grecque condamné à porter la voûte céleste — mais aussi, selon certains, aux lignes de ses ailes qui évoquent les méridiens d'un atlas géographique.
-
-3. **Star de cinéma** : Mothra, le monstre emblématique de la saga Godzilla, a été directement inspiré de l'_Attacus atlas_.
-
-4. **Une soie hors du commun** : en Inde, la soie du cocon de l'_Attacus atlas_ est appelée _fagara_ — 80 % plus dense que la soie classique, avec une texture proche de la laine.
-
-5. **Fidélité à vie** : l'_Attacus atlas_ ne s'accouple généralement qu'une seule fois. Après l'accouplement, la femelle libère une anti-phéromone signalant aux autres mâles qu'elle est déjà fécondée.
-
-6. **Champion de l'économie d'énergie** : pour préserver ses précieuses réserves lipidiques, il vole le moins possible, restant immobile la majeure partie du temps sur les troncs d'arbres.
-
-7. **Le porte-monnaie taïwanais** : les coques de chrysalide de l'_Attacus atlas_ ont autrefois été transformées en petits porte-monnaie à Taïwan — robustes et imperméables.
-
-8. **Un camouflage parfait** : au repos, les motifs de ses ailes se fondent presque parfaitement dans l'écorce, au point qu'il est difficile à repérer à moins de 50 centimètres.
+La stratégie de reproduction du papillon-atlas est également remarquable : il ne s'accouple généralement qu'une seule fois dans sa vie ; après l'accouplement, la femelle émet une anti-phéromone qui repousse les autres mâles. Pour économiser ses réserves de graisse, le papillon-atlas ne vole que lorsque c'est nécessaire et passe la plupart de son temps immobile sur les troncs d'arbres, ses motifs alaires se fondant presque parfaitement dans l'écorce — même à 50 cm de distance, il est difficilement détectable.
 
 ## Références
 
-- [Répertoire des lépidoptères de Taïwan](https://www.forests.gov.tw/) — ressources officielles du Bureau de la sylviculture et de la conservation
-- _Taiwan no Konchuki_ (L'entomologie de Taïwan) — Chang Yong-ren
-- [Observations d'_Attacus atlas_ sur iNaturalist](https://www.inaturalist.org/)
-- _Techniques de photographie naturaliste des lépidoptères_ — lecture recommandée aux amateurs
-- [Réseau taïwanais de la biodiversité](https://www.tbn.org.tw/) — pour consulter les données de répartition actualisées
+[^1]: [Observations du papillon-atlas sur iNaturalist Taïwan](https://taiwan.inaturalist.org/taxa/125071-Attacus-atlas) — Registres d'observations et données de répartition du papillon-atlas à Taïwan.
+[^2]: [Réseau de biodiversité de Taïwan](https://www.tbn.org.tw/) — Base de données de répartition et de spécimens du papillon-atlas.
+[^3]: [Agence forestière et de conservation de la nature du Ministère de l'Agriculture](https://www.forest.gov.tw/) — Politiques et ressources relatives à la conservation des papillons de nuit à Taïwan.
+[^4]: [Papillon-atlas — Wikipédia](https://zh.wikipedia.org/zh-tw/皇蛾) — Description de la morphologie, de la répartition et des habitudes écologiques du papillon-atlas.
+[^5]: [Attacus atlas - Picture Insect](https://pictureinsect.com/zh-tw/wiki/Attacus_atlas.html) — Cycle de vie et caractéristiques d'identification du papillon-atlas.
+
+Pour aller plus loin :
+
+- _Chroniques des insectes de Taïwan_ — par Zhang Yongren
+- _Techniques de photographie écologique des lépidoptères_ — une lecture incontournable pour les passionnés de photographie
 
 ---
 
-_L'histoire de l'\_Attacus atlas_ nous rappelle qu'en ce monde en mutation accélérée, certaines beautés s'effacent en silence. Chaque rencontre dans la forêt pourrait être la dernière. Le protéger, c'est protéger notre propre demeure.\_
+_L'histoire du papillon-atlas de Taïwan nous rappelle que, dans ce monde en mutation rapide, certaines beautés disparaissent en silence. Chaque rencontre fortuite en forêt pourrait être la dernière. Les protéger, c'est protéger notre propre foyer._

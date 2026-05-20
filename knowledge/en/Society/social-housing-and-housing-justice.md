@@ -1,528 +1,303 @@
 ---
 title: 'Social Housing and Housing Justice'
-description: 'How Taiwan uses social housing policy to achieve housing justice, ensuring everyone has a place to settle and live'
+description: 'How Taiwan uses social housing policy to realize housing justice, ensuring everyone has a place to call home'
 date: 2026-03-18
-tags:
-  [
-    'social housing',
-    'housing justice',
-    'housing policy',
-    'lease-and-management',
-    'urban renewal',
-  ]
-subcategory: '人權與平等'
-category: 'Society'
 author: 'Taiwan.md'
+category: 'Society'
+subcategory: '人權與平等'
+tags: ['社會住宅', '居住正義', '住宅政策', '包租代管', '都市更新']
 readingTime: 13
-featured: false
 lastVerified: 2026-03-19
 lastHumanReview: false
+featured: false
 translatedFrom: 'Society/社會住宅與居住正義.md'
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:98f75466eab59da6'
-sourceBodyHash: 'sha256:753e4d8b4e01e195'
-translatedAt: '2026-05-02T11:00:00+08:00'
+sourceCommitSha: 'f712b7242'
+sourceContentHash: 'sha256:5d1fa82481f0de8a'
+sourceBodyHash: 'sha256:0c75c60def3a136b'
+translatedAt: '2026-05-20T05:08:27+08:00'
 ---
 
 # Social Housing and Housing Justice
 
 ## 30-Second Overview
 
-Housing is a basic need of the people and an important responsibility of the government. Since 2016, Taiwan has been pursuing the "8-year, 200,000-unit social housing" policy, advancing on twin tracks of direct construction and lease-and-management, dedicated to realizing "housing justice." This is not just about building houses — it's a reconstruction of social values, returning housing from a "commodity" to its essence as the "right to dwell."
+Housing is a basic human need and a key government responsibility. Since 2016, Taiwan has pursued an "8-Year 200,000-Unit Social Housing" policy, advancing on two tracks — direct construction and rent-subsidy intermediation (包租代管) — to realize "housing justice." This policy attempts to reframe the nature of housing, shifting it from a pure commodity back toward a guarantee of the right to adequate shelter.
 
-Keywords: social housing, housing justice, lease-and-management, Housing Act, youth security of residence, housing for the disadvantaged
+By the end of 2024, the policy had completed approximately 213,000 units, exceeding its target. Yet high housing prices and rental market difficulties have not dissolved alongside it. The role and limitations of social housing remain a central issue in Taiwan's policy debates.
+
+Keywords: social housing, housing justice, rent-subsidy intermediation, Housing Act, youth housing security, housing for vulnerable groups
 
 ## Why It Matters
 
-Housing is not just a place that shelters from wind and rain — it is the foundation for citizens to settle, build families, and pursue dreams. When the price-to-income ratio reaches 15–20 times, many young people "can't afford to buy and can't rent well," and social housing has become an important tool for the government to realize housing justice.
+Housing is the foundation on which people build their lives, raise families, and pursue their dreams. When the price-to-income ratio reaches 15–20, many young people fall into the trap of being "unable to buy, unable to rent well." Social housing has become a key policy tool for the government's response to housing justice.
 
-For Taiwan, the social housing policy represents:
+The significance of social housing policy goes beyond building houses. It represents a choice: enabling economically disadvantaged groups to enjoy decent living quality, giving young people the chance to settle, and using urban renewal to improve aging communities.
 
-- **Social fairness**: Allowing the economically disadvantaged to enjoy adequate housing quality
-- **Intergenerational justice**: Giving young people the opportunity to settle without bearing heavy mortgages
-- **Urban development**: Guiding urban regeneration and improving old neighborhoods
-- **Social harmony**: Reducing social conflicts arising from housing problems
+From an international comparative perspective, Taiwan's proportion of social housing remains on the lower side. But the rapid expansion since 2016 has moved this issue from the margins to the mainstream of policy.
 
-## Current State of Taiwan's Housing Problems
+- **Social equity**: Enabling economically disadvantaged groups to enjoy decent living quality
+- **Intergenerational justice**: Giving young people the chance to settle without bearing crushing mortgage debt
+- **Urban development**: Guiding urban regeneration and improving aging community environments
+- **Social harmony**: Reducing social tensions arising from housing problems
 
-### Housing Difficulties in the High-Price Era
+## The Current State of Taiwan's Housing Problems
 
-**The price-to-income ratio remains high**
+### The Housing Dilemma in the Era of High Prices
 
-- Taipei's price-to-income ratio is around 15–16 times (2024 data)
-- New Taipei is around 12–13 times; Taoyuan around 9–10 times
-- The reasonable international standard is around 5–6 times
-- An ordinary household needs to neither eat nor drink for 10–15 years to buy a home
+Taipei's price-to-income ratio stands at approximately 15–16 (2024 data), New Taipei City at around 12–13, and Taoyuan at about 9–10 — far exceeding the internationally reasonable standard of 5–6.[^4] An average family would need 10–15 years of income, without spending on anything else, to purchase a home. Many young people are forced to turn to the rental market.
 
-**The rental market is troubled**
+But the rental market is equally fraught: a large proportion of rentals operate in the "black market," landlords commonly do not report rental income for tax purposes, rents are opaque, short-term leases are the norm, and tenant rights lack effective protection. These two overlapping dilemmas make housing one of the most urgent policy issues in Taiwanese society.
 
-- High proportion of rental black market; most landlords unwilling to declare taxes
-- Rents are non-transparent, with no bargaining power
-- Rental quality varies; tenant rights lack protection
-- Short-term leases prevail, lacking residential stability
+**Housing Needs of Specific Groups**
 
-**Special groups' housing needs**
+- **Young people**: Salaries cannot keep up with housing prices; buying a home is out of reach
+- **Single-parent families**: Heavy economic burden, limited rental options
+- **Elderly**: Fixed incomes are declining, creating housing insecurity
+- **People with disabilities**: Require accessible environments; options are even scarcer
 
-- **Youth**: Wages can't catch up with housing prices; buying a home is out of reach
-- **Single-parent families**: Heavy economic burden, limited rental choices
-- **Elderly**: Reduced fixed income, facing residential risk
-- **People with disabilities**: Need barrier-free environments, fewer choices
+### Policy Evolution Background
 
-### Background of Policy Evolution
+**Early Housing Policy (1950–2010)**
+Taiwan's early housing policy focused on "encouraging home purchases":
 
-**Early housing policy (1950–2010)**
-Taiwan's early housing policy emphasized "encouraging home purchase":
+- Public housing (國宅) policy: Building public housing for sale at preferential rates
+- Preferential home-purchase loans: Supporting home buying through financial policy
+- Tax refunds on replacement purchases, first-time-buyer incentives: Tax benefits to encourage buying
+- Problem: Primary beneficiaries were the middle class; disadvantaged groups benefited limitedly
 
-- National housing policy: Building national housing for sale at preferential prices
-- Preferential home-purchase loans: Supporting home purchase through financial policy
-- Repurchase tax refund, first-time buyer preferences: Tax incentives encouraging home purchase
-- Problem: Main beneficiaries were the middle class; the disadvantaged benefited little
+**Enactment of the Housing Act (2011–2016)**
+The Housing Act was enacted in 2011, establishing a new direction for housing policy:[^3]
 
-**The Housing Act (2011–2016)**
-The _Housing Act_ enacted in 2011 established a new direction for housing policy:
-
-- Listing the "right to housing" as a basic human right
-- Establishing the legal foundation for social housing
-- Promoting rent subsidy systems
-- But execution was weak; social housing construction was slow
+- Establishing the "right to housing" as a basic human right
+- Creating the legal foundation for social housing
+- Promoting a rent subsidy system
+- But enforcement was insufficient, and social housing construction proceeded slowly
 
 ## Social Housing Policy Content
 
-### 8-Year, 200,000-Unit Plan
+### The 8-Year 200,000-Unit Plan
 
-After the new government took office in 2016, it proposed the "8-year, 200,000-unit social housing" policy:
+After the new administration took office in 2016, it proposed the "8-Year 200,000-Unit Social Housing" policy:[^2]
 
-**Policy goals**
+**Policy Targets**
 
-- Build 200,000 social housing units from 2017–2024
-- Direct construction: 120,000 units
-- Lease-and-management: 80,000 units
-- Total investment approximately NT$440 billion
+- Construct 200,000 social housing units from 2017 to 2024
+- 120,000 units through direct construction
+- 80,000 units through rent-subsidy intermediation (包租代管)
+- Total investment approximately NT$44 billion
 
-**Implementation strategy**
+**Implementation Strategy**
 
-1. **Central-local cooperation**: Coordinated planning by the National Housing and Urban Regeneration Center (HURC)
-2. **Diverse land sources**: National land, urban renewal allocations, donations, etc.
-3. **Innovative financing mechanisms**: Housing fund, Forward-Looking Infrastructure special budget
-4. **Professional team execution**: Establishing dedicated agencies to improve execution efficiency
+1. **Central-local cooperation**: The National Housing and Urban Renewal Center (國家住都中心) coordinates planning
+2. **Diverse land sources**: State-owned land, urban renewal allocations, donations, etc.
+3. **Innovative financing mechanisms**: Housing Fund, special budgets under the Forward-Looking Infrastructure Development Program
+4. **Professional team execution**: Establishing dedicated agencies to improve implementation efficiency
 
-### Twin-Track Model
+### Dual-Track Approach
 
-**Track One: Direct construction**
-The government directly builds, holds, and manages social housing:
+**Track 1: Direct Construction**
+The government directly constructs, owns, and manages social housing:
 
 - Construction target: 120,000 units
-- Funding sources: Housing fund, special budget
-- Management: Government direct or commissioned to private management
-- Features: Better quality control; can plan complete community functions
+- Funding sources: Housing Fund, special budgets
+- Management: Government-operated or outsourced to private management
+- Feature: Better quality control; complete community facilities can be planned
 
-**Track Two: Lease-and-management**
-Government cooperates with private landlords to match disadvantaged tenants:
+**Track 2: Rent-Subsidy Intermediation (包租代管)**
+The government partners with private landlords to match vulnerable tenants:
 
 - Target units: 80,000
-- Operating modes:
-  - **Lease**: Government rents private homes and subleases to the disadvantaged
-  - **Manage**: Helps landlords rent out, providing management services
-- Advantages: Activates idle homes, quickly increases social housing supply
+- Operating models:
+  - **Rental intermediation (包租)**: The government leases private housing and sublets it to vulnerable households
+  - **Management intermediation (代管)**: Assisting landlords with tenant sourcing and providing management services
+- Advantage: Activates vacant housing stock, rapidly increasing social housing supply
 
-### Implementation Statistics
+### Implementation Results Statistics
 
-**As of end of 2024**
+**Statistics as of the End of 2024**
 
-- Direct construction: cumulative 96,000 units (target met)
-- Lease-and-management: cumulative 68,000 units
-- Total: 164,000 units, achievement rate about 82%
-- Estimated to smoothly reach 200,000-unit target by end of 2024
+- By the end of 2024, approximately 213,000 units had been completed, exceeding the 200,000-unit target with an achievement rate of 107%[^1]
 
-**Geographic distribution**
+**Regional Distribution**
 
-- Six special municipalities account for about 75%, mainly Taipei-New Taipei, Taoyuan, Taichung
-- New Taipei: 32,000 units (most)
-- Taipei: 28,000 units
-- Taoyuan: 21,000 units
-- Taichung: 19,000 units
+- The six special municipalities account for approximately 75%, concentrated in Taipei-New Taipei, Taoyuan, and Taichung
+- New Taipei City: 32,000 units (the most)
+- Taipei City: 28,000 units
+- Taoyuan City: 21,000 units
+- Taichung City: 19,000 units
 
 ## Social Housing Design Philosophy
 
-### Social Mixing Principle
+Taiwan's social housing design philosophy starts from "social mix" (社會混居), deliberately avoiding the poverty concentration problems seen in Hong Kong public housing or American social housing, allowing residents of different backgrounds to live together.
 
-**Eligibility design**
+### Social Mix Principle
 
-- Disadvantaged households: 30% reserved
-- General households: 70% (priority for youth, newlywed, child-rearing households)
-- Avoid concentration of poverty, promote social integration
-- Periodic lottery system to ensure fairness
+Vulnerable households are guaranteed a 30% occupancy ratio, while general households (prioritizing youth, newlyweds, and families with children) account for 70%. Regular lotteries ensure fairness. The scope of vulnerable groups as defined by the Housing Act is broad, covering low-income households, households in special circumstances, families raising three or more minor children, elderly persons, victims of domestic violence, people with disabilities, Indigenous peoples, disaster victims, and others.
 
-**Scope of disadvantaged groups**
-According to the _Housing Act_ definition, includes:
+**Scope of Vulnerable Groups**
+As defined by the Housing Act, these include:
 
-- Low-income and middle-low-income households
-- Special-circumstance families
+- Low-income and lower-middle-income households
+- Households in special circumstances
 - Families raising three or more minor children
-- Those completing placement at care institutions or foster families unable to return home
+- Those unable to return home after placement in foster care or institutional care
 - Persons aged 65 and above
 - Victims of domestic violence or sexual assault and their children
-- Persons with disabilities
-- Persons infected with HIV or with AIDS
+- People with disabilities
+- Persons infected with HIV or living with AIDS
 - Indigenous peoples
 - Disaster victims
 - Homeless persons
-- Others recognized by the competent authority
+- Others designated by the competent authority
 
 ### Community Facility Planning
 
-**Essential facilities**
+**Essential Facilities**
 
-- Barrier-free environment: Accessible ramps, elevators, room design
-- Kindergarten: Priority placement of non-profit kindergartens
-- Long-term care points: Day care centers, care points
-- Community activity space: Assembly halls, reading rooms
-- Commercial facilities: Convenience stores, laundries, and other convenient services
+- Barrier-free environment: Accessible ramps, elevators, and unit designs
+- Childcare: Priority given to non-profit kindergartens
+- Long-term care stations: Day care centers, community care gathering points
+- Community activity spaces: Assembly halls, reading rooms
+- Commercial facilities: Convenience stores, laundromats, and other neighborhood services
 
-**Innovative design**
+**Innovative Design**
 
-- **Youth start-up space**: Providing studios for young entrepreneurs
-- **Shared kitchens**: Promoting resident interaction
-- **Rooftop farms**: Urban agriculture, environmental education
-- **Recycling centers**: Promoting circular economy concepts
-- **Smart communities**: Introducing IoT equipment to improve management efficiency
+In recent years, social housing has continued to experiment with innovative facilities. Maker spaces provide youth entrepreneurship studios, while shared kitchens promote resident interaction. Rooftop farms combine urban agriculture with environmental education, and resource recycling centers advance circular economy principles. Some newer developments have introduced IoT devices to create smart community management platforms.
 
-### Rent Burden Principle
+### Rent Affordability Principle
 
-**85% of market price principle**
+**85% of Market Rate Principle**
 
-- Rent set at 85% of surrounding market rates
-- Avoiding excessive subsidy that distorts the market
-- Ensuring affordability for general households
+- Rents are set at 85% of surrounding market rates
+- Avoids excessive subsidies that could distort the market
+- Ensures affordability for general households
 
-**Tiered subsidy system**
+**Tiered Subsidy System**
 
-- Tier 1 (very low income): 30% of rent
-- Tier 2 (low-income households): 50% of rent
-- Tier 3 (middle-low-income households): 70% of rent
-- Tier 4 (general households): 85% of market price
+- Tier 1 (Extremely low income): Rent at 30% of market rate
+- Tier 2 (Low-income households): Rent at 50% of market rate
+- Tier 3 (Lower-middle-income households): Rent at 70% of market rate
+- Tier 4 (General households): 85% of market rate
 
-## Important Social Housing Cases
+## Notable Social Housing Cases
 
-### Taipei Health Public Housing
+Taiwan's social housing cases demonstrate a range of approaches from design philosophy to community building. Several representative projects have become national policy benchmarks. Taipei Jiankang Social Housing (completed 2017), New Taipei Zhonghe Youth Social Housing (2019), and Taoyuan Bade Social Housing (2020) represent different scales and design orientations.
 
-**Basic information**
+What these three cases share is a vision that goes beyond purely residential functions, integrating public facilities such as kindergartens, long-term care stations, and youth entrepreneurship spaces into social housing to form composite community living spheres. This "social housing as community" planning philosophy has gradually influenced the design of subsequent new developments.
 
-- Location: Zhongshan District, Taipei
-- Units: 1,400
-- Completion: 2017
-- Features: Taipei's first large-scale social housing
+### Taipei Jiankang Social Housing
 
-**Innovative design**
+Located in Zhongshan District, Taipei, Jiankang Social Housing was completed in 2017 with 1,400 units, making it Taipei City's first large-scale social housing development. The building facade features vertical greening design to mitigate the urban heat island effect. Inside, it houses a non-profit kindergarten, a senior day care center, and a youth entrepreneurship space called the "Jiankang Creative Base for Happy Living." It also introduced a smart parking system and a community app for management.
 
-- Vertical green walls, mitigating urban heat island effect
-- Non-profit kindergarten, senior day care center
-- Youth entrepreneurship space "Health Lohas Creative Base"
-- Smart parking system, community app management
-
-**Social impact**
-
-- Changed public stereotypes of social housing as "slums"
-- Spurred development of surrounding business districts
-- Became a benchmark for other cities' social housing planning
+The most important social significance of this case lies in changing the public stereotype that social housing equates to "slums." It also spurred revitalization of the surrounding commercial district, becoming a benchmark for social housing planning in other counties and cities.
 
 ### New Taipei Zhonghe Youth Social Housing
 
-**Basic information**
-
-- Location: Zhonghe District, New Taipei
-- Units: 522
-- Completion: 2019
-- Features: Combined urban renewal with social housing
-
-**Planning highlights**
-
-- One building containing social housing, mall, office space
-- Community-based long-term care institution
-- Rooftop farm, rainwater recycling system
-- Awarded Diamond-level Green Building certification
-
-**Community-building results**
-
-- Established a "Youth Participation Group"
-- Regularly held community festival activities
-- Built a community shared resource platform
-- Resident satisfaction survey above 85%
+Completed in 2019 with 522 units, New Taipei Zhonghe Youth Social Housing is most notable for combining urban renewal with social housing. The same building incorporates social housing, retail space, and office space. It includes a community-based long-term care facility, a rooftop farm, and a rainwater recycling system, earning a Diamond-level green building certification. On the community governance front, residents formed a "Youth Participation Group" and regularly organize community festival events. Resident satisfaction surveys reached over 85%, making it one of Taiwan's successful cases of social housing community building.
 
 ### Taoyuan Bade Social Housing
 
-**Basic information**
+Completed in 2020 with 1,003 units, Taoyuan Bade Social Housing is the largest single social housing project in Taiwan. The site is adjacent to light rail transit infrastructure, with 300 scooter parking spaces and 50 car parking spaces. Commercial facilities include well-known brands such as PX Mart and Starbucks. Community amenities include a kindergarten, a long-term care center, and an activity center. On the management side, it uses an AI facial recognition access control system and a community app integrating various services, and has established a community volunteer system. It is one of the most technologically advanced social housing cases in Taiwan.
 
-- Location: Bade District, Taoyuan
-- Units: 1,003
-- Completion: 2020
-- Features: Taiwan's largest single social housing project
+## Rent-Subsidy Intermediation Policy
 
-**Design features**
+Rent-subsidy intermediation is the second track of Taiwan's social housing policy. Through government intervention in the private rental market, it rapidly increases social housing supply while activating vacant housing stock. As of the end of 2024, approximately 68,000 units had been matched, benefiting around 27,000 vulnerable households.
 
-- Combined with light rail transit construction
-- Set up 300 motorcycle parking spaces, 50 car parking spaces
-- Commercial facilities including PX Mart, Starbucks and other well-known brands
-- Complete community facilities: kindergarten, long-term care center, activity center
+### Operating Models
 
-**Management innovation**
+**Rental Intermediation (包租) Model**
+The government leases private housing through professional operators and sublets it to vulnerable households:
 
-- Introduced AI facial recognition access control system
-- Community app integrating various services
-- Established community volunteer system
-- Promoted "cashless community" concept
+- Lease term: 3 years, extendable up to 6 years
+- Government lease price: 80–90% of market rate
+- Sublet price: 60–70% of market rate
+- The government bears the vacancy risk
 
-## Lease-and-Management Policy
+**Management Intermediation (代管) Model**
 
-### Operating Modes
+The government matches landlords with tenants, with professional operators responsible for tenant screening, rent collection, and maintenance coordination. The government provides renovation subsidies (up to NT$10,000–30,000 per unit), reduced housing and land value taxes, home safety insurance coverage, and dispute mediation and legal consultation services to reduce landlords' rental risks.
 
-**Lease mode**
-The government leases private homes through professional vendors and subleases to disadvantaged households:
+### Implementation Mechanisms and Results
 
-- Lease term: 3 years, can be extended up to 6 years
-- Government leasing price: 80–90% of market rate
-- Sublease price: 60–70% of market rate
-- Government bears vacancy risk
+Approximately 200 operators currently participate, spanning residential services, real estate brokerage, and property management. As of the end of 2024, rent-subsidy intermediation had matched approximately 68,000 units, with around 55,000 participating landlords, approximately 27,000 beneficiary vulnerable households, and approximately NT$120 billion in private housing investment mobilized.
 
-**Management mode**
-The government matches landlords with tenants and provides professional management services:
-
-- Landlords provide homes; tenants pay rent
-- Professional vendors are responsible for tenant screening, rent collection, repair coordination
-- Government provides repair subsidies, tax reductions
-- Reduces landlord rental risk
-
-### Implementation Mechanism
-
-**Professional vendor participation**
-
-- Residential service businesses: Responsible for property matching, management
-- Real estate brokerage businesses: Assist with rental market surveys, negotiation
-- Property management businesses: Provide property maintenance, customer service
-- About 200 vendors currently participate
-
-**Government support measures**
-
-- **Tax preferences**: House tax, land value tax reductions
-- **Repair subsidies**: Up to NT$10,000–30,000 per unit
-- **Home safety insurance**: Government insures on behalf
-- **Dispute mediation**: Provides legal consultation assistance
-
-### Results and Review
-
-**Implementation results**
-
-- As of end of 2024, lease-and-management has matched about 68,000 units
-- About 55,000 participating landlords
-- About 27,000 disadvantaged households benefited
-- Driven NT$120 billion in private housing investment
-
-**Challenges faced**
-
-- **Limited landlord acceptance**: Concerns about tenant quality, property damage
-- **Concentrated source areas**: Mostly in metropolitan areas, insufficient sources in rural areas
-- **Rent levels still high**: Still burdensome for the most disadvantaged
-- **Uneven management quality**: Service quality varies among vendors
+Key challenges include: some landlords' reluctance to participate due to concerns about tenant quality, the concentration of available units in metropolitan areas, the fact that extremely vulnerable households still struggle with current rent levels, and significant variations in service quality among different operators.
 
 ## Policy Effects and Social Impact
 
-### Quantitative Effect Analysis
+### Quantitative Impact Analysis
 
-**Supply-side impact**
-
-- Increased rental market supply by about 200,000 units
-- Slowed market rent increases
-- Improved rental market transparency
-- Improved rental quality standards
-
-**Demand-side impact**
-
-- Solved housing problems for about 400,000–500,000 people
-- Increased youth housing security ratio
-- Enhanced housing stability for the disadvantaged
-- Reduced family pressure to buy homes
-
-**Industry impact**
-
-- Spawned the residential service industry
-- Drove development of construction and renovation industries
-- Created about 30,000–40,000 jobs
-- Promoted urban renewal project volume
+On the supply side, the social housing policy has added approximately 200,000 units to the rental market, market rent increases have moderated, and rental market transparency has improved alongside the promotion of the rent-subsidy intermediation system. On the demand side, the policy is estimated to have resolved the housing problems of approximately 400,000–500,000 people, increased housing stability for vulnerable groups, and improved youth housing security ratios. The ripple effects on the industry side are equally significant: a residential services industry has emerged, driving development in construction and renovation, and creating approximately 30,000–40,000 jobs.
 
 ### Social Impact Assessment
 
-**Realization of housing justice**
-Social housing policy lets more people enjoy adequate housing:
+**Realizing Housing Justice**
 
-- **Spatial quality**: New social housing quality exceeds general rentals
-- **Community environment**: Complete planning of community facilities and functions
-- **Residential stability**: Provides longer-term housing security
-- **Reasonable burden**: Rent levels relatively more affordable than the market
+The spatial quality of newly built social housing is generally superior to that of typical rentals. Community facilities are comprehensively planned, rent levels are more affordable relative to the market, and longer-term housing security is provided. For groups that have long occupied a disadvantaged position in the rental market, this represents a tangible improvement.
 
-**Promoting social integration**
-Mixed-living design breaks class segregation:
+**Social Integration and Urban Development**
 
-- Disadvantaged and general households living together
-- Promotes mutual understanding among different groups
-- Avoids concentration of poverty zones
-- Enhances overall community quality of life
-
-**Driving urban development**
-Social housing becomes a catalyst for urban regeneration:
-
-- Improves environmental quality of old neighborhoods
-- Drives surrounding commercial activity
-- Improves land use efficiency
-- Promotes development of public transit
+Mixed-income design allows vulnerable and general households to live together, avoiding the concentration of poverty. Some social housing cases have also driven development in surrounding commercial districts, serving as catalysts for urban regeneration in aging communities and improving overall community environmental quality.
 
 ## International Experience Comparison
 
-### Singapore HDB System
+### Singapore's HDB System
 
-**Policy features**
+Singapore is known for its government-led, large-scale construction of HDB (Housing and Development Board) flats, with approximately 85% of the population living in HDB housing. An ethnic quota system promotes ethnic integration, and linkage with the pension system encourages homeownership. Taiwan can learn from its long-term stable policy execution and comprehensive community planning philosophy, but Taiwan places greater emphasis on rental rather than ownership, making the overall direction somewhat different.
 
-- Government-led, large-scale construction of HDB flats
-- 85% of nationals live in HDB
-- Racial quota system, promoting ethnic integration
-- Combined with pension system, encouraging home purchase
+### Dutch Social Housing
 
-**Lessons Taiwan can learn**
-
-- Long-term stable policy execution
-- Complete community planning concept
-- Multi-ethnic integration mechanisms
-
-### Netherlands Social Housing
-
-**Policy features**
-
-- Social housing accounts for 30% of national housing
-- Built and managed by housing associations (non-profits)
-- Income tier system ensuring fair distribution
-- Emphasis on architectural design and environmental quality
-
-**Lessons Taiwan can learn**
-
-- Non-profit organization participation mechanisms
-- Refined architectural design philosophy
-- Sustainable development environmental considerations
+Dutch social housing accounts for approximately 34% of the national housing stock (2023 statistics), constructed and managed by non-profit housing associations, with an income-based tiered system ensuring fair allocation. The Netherlands' emphasis on architectural design quality and sustainable environments provides a reference for Taiwan in terms of quality orientation.
 
 ### Hong Kong Public Housing
 
-**Policy features**
-
-- 45% of population lives in public housing
-- Divided into public rental housing and Home Ownership Scheme
-- Strict eligibility review
-- Centralized large-scale development
-
-**Differences from Taiwan experience**
-
-- Taiwan emphasizes social mixing more
-- Avoids large-scale concentrated development
-- Focuses on completeness of community facilities
+Approximately 45% of Hong Kong's population lives in public housing, divided into public rental housing and Home Ownership Scheme flats. Taiwan has consciously differentiated itself from the Hong Kong model: placing greater emphasis on social mix, avoiding large-scale concentrated development, and focusing on comprehensive community facility support to prevent "poverty concentration."
 
 ## Future Challenges and Development
 
-### Main Challenges
+### Major Challenges
 
-**Difficulty acquiring land**
+Social housing policy faces four main structural challenges. Land acquisition is the first hurdle: urban land is scarce and expensive, landowner cooperation willingness is low, urban planning change procedures are complex, and public NIMBY ("Not In My Backyard") sentiment toward social housing being built nearby makes site selection extremely difficult. On the financial side, rising construction costs, long-term operating expenses, and Housing Fund pressures also crowd out government budgets.
 
-- Urban land scarce and expensive
-- Low landowner cooperation willingness
-- Complex urban planning change procedures
-- Public opposition (NIMBY effect)
-
-**Heavy fiscal burden**
-
-- Rising construction costs
-- Long-term operation and management expenses
-- Financial pressure on housing fund
-- Crowding out other public construction budgets
-
-**Social acceptance**
-
-- Some citizens still hold stereotypes
-- Worry about impact on surrounding property prices
-- Community integration takes time
-- Requires continued communication
-
-**Complex management and operation**
-
-- Difficult to manage residents with different needs
-- High maintenance costs for community facilities
-- Higher resident turnover rates
-- Requires professional management teams
+Some members of the public still hold the "slum" stereotype about social housing, worrying about impacts on surrounding property values. Community integration requires time and ongoing communication. On the management front, cohabitation of residents with different needs, community facility maintenance costs, and high resident turnover rates place high demands on the professional capabilities of management teams.
 
 ### Future Development Directions
 
-**Policy continuation and deepening**
-
-- Establish long-term stable construction mechanisms
-- Amend the Housing Act, strengthen legal basis
-- Establish social housing quality standards
-- Promote dedicated social housing legislation
-
-**Innovative financing models**
-
-- Introduce private capital participation
-- Develop social housing REITs
-- Promote land trust system
-- Establish circular utilization mechanisms
-
-**Smart management**
-
-- Introduce IoT smart management systems
-- Build big data analysis capabilities
-- Promote community app integrated services
-- Develop AI customer service systems
-
-**Sustainable development orientation**
-
-- Introduce green building certification system
-- Promote circular economy concepts
-- Develop community energy systems
-- Build carbon-neutral demonstration communities
-
-**Regional balanced development**
-
-- Promote social housing in non-urban areas
-- Combined with local industrial development needs
-- Coordinated with public transit development
-- Promote urban-rural balanced development
+Policy recommendations from the industry cover several areas: amending the Housing Act, strengthening the legal basis, and promoting dedicated social housing legislation are institutional priorities. In terms of financing innovation, introducing private capital, developing social housing REITs, and land trust systems can help expand resource sources. Smart management (IoT systems, community app integration) and the promotion of green building certification are paths to quality improvement. Regional balanced development also deserves attention: social housing is currently highly concentrated in the six special municipalities, and housing needs in non-urban areas await greater policy focus.
 
 ## Conclusion: Toward Housing Justice
 
-Social housing is not just a housing policy but a practice of social values. From 2016, Taiwan started pushing the 8-year, 200,000-unit plan, not only nearing the quantitative target but also building a "Taiwan Model" in quality:
+Social housing embodies the practice of social values, not merely a housing policy. Since Taiwan began promoting the 8-Year 200,000-Unit Plan in 2016, it has not only come close to meeting its quantitative targets but has also established a "Taiwan model" in qualitative terms:
 
-**Features of the Taiwan experience**
+The characteristics of Taiwan's social housing lie in several core choices: using mixed-income design to avoid poverty concentration, complementing direct construction with rent-subsidy intermediation on dual tracks, emphasizing design aesthetics and community functionality, and adapting to Taiwan's climate and cultural characteristics. This "Taiwan model" is still being refined, but it has already formed an identifiable policy path.
 
-- **Social mixing**: Avoiding poverty concentration, promoting social integration
-- **Twin-track approach**: Direct construction and lease-and-management complementing each other
-- **Quality orientation**: Emphasizing design aesthetics and community function
-- **Localized design**: Combined with Taiwan's climate and cultural characteristics
+**A Vision for the Future**
+Ensuring that everyone living in Taiwan, regardless of economic means, can enjoy a decent, stable, and dignified living environment. Only by achieving this goal can Taiwan build a fairer and more inclusive society.
 
-**Future vision**
-Let everyone living in Taiwan, regardless of economic ability, enjoy a suitable, stable, and dignified residential environment. This is not only about solving housing problems, but an important step in building a fairer, more inclusive society.
+Realizing housing justice requires the joint efforts of all of society. The government provides the policy framework and resources, professionals contribute technology and creativity, and the public offers understanding and support — only then can social housing truly fulfill its role and propel Taiwanese society forward.
 
-Realizing housing justice requires the joint efforts of all society. Government provides policy frameworks and resources, professionals contribute techniques and creativity, citizens give understanding and support — only then can social housing truly become an important force for Taiwanese society to move forward.
+**Further Reading**:
 
-**Further reading**:
+- [Iron-Sheet Houses](/society/鐵皮屋) — The governance dilemma of 716,000 illegal structures across Taiwan; rooftop additions and unauthorized construction are part of the underlying structure of the housing justice issue
+- [Taiwan Environmental Justice and NIMBY Controversies](/society/台灣環境正義與鄰避爭議) — The land-use extension of housing issues: unequal distribution of environmental risks and community conflicts over NIMBY facilities
 
-- [Taiwan Tin Shed Houses](/society/鐵皮屋) — The governance dilemma of 716,000 illegal structures across Taiwan; tin-roofed extensions and illegal construction are part of the underlying structure of housing justice issues
-- [Taiwan Environmental Justice and NIMBY Conflicts](/society/台灣環境正義與鄰避爭議) — The land-use extension of housing issues: unequal distribution of environmental risk and community conflicts over NIMBY facilities
+[^1]: Ministry of the Interior, National Land Management Agency, "Social Housing Promotion Results Report," December 2024, https://pip.moi.gov.tw/v3/b/SCRB0501.aspx?mode=7
+[^2]: Executive Yuan, "Social Housing Construction Plan," March 2024 approved version, https://www.ey.gov.tw/Page/5A8A0CB5B41DA11E/7345b2c6-1314-4fda-8e21-18b012466827
+[^3]: Laws & Regulations Database of the Republic of China, "Housing Act (2017 Amended Version)," https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070195
+[^4]: Tsuei Ma Ma Foundation, "Rental Market Status Survey Report," 2024, https://www.tmm.org.tw/
+[^5]: National Housing and Urban Renewal Center, "Social Housing Construction Plan Implementation Results," 2024, https://www.hurc.org.tw/
 
 ## References
 
-1. [Construction and Planning Agency, Ministry of the Interior](https://pip.moi.gov.tw/v3/b/SCRB0501.aspx?mode=7), "Social Housing Promotion Results Report," December 2024
-2. [National Housing and Urban Regeneration Center](https://www.hurc.org.tw/), "Social Housing Construction Plan Implementation Results," 2024
-3. [Executive Yuan, "Social Housing Construction Plan," March 2017 ratified version](https://www.ey.gov.tw/Page/5A8A0CB5B41DA11E/7345b2c6-1314-4fda-8e21-18b012466827)
-4. [Housing Act (2017 revised version), National Laws and Regulations Database](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070195)
-5. [Urban Renewal R&D Foundation](https://www.ur.org.tw/), "Urban Renewal Promotion Statistics," 2024
+1. [Ministry of the Interior, National Land Management Agency](https://pip.moi.gov.tw/v3/b/SCRB0501.aspx?mode=7), "Social Housing Promotion Results Report," December 2024
+2. [National Housing and Urban Renewal Center](https://www.hurc.org.tw/), "Social Housing Construction Plan Implementation Results," 2024
+3. [Executive Yuan, "Social Housing Construction Plan," March 2017 approved version](https://www.ey.gov.tw/Page/5A8A0CB5B41DA11E/7345b2c6-1314-4fda-8e21-18b012466827)
+4. [Housing Act (2017 Amended Version), Laws & Regulations Database of the Republic of China](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070195)
+5. [Urban Redevelopment Research and Development Foundation](https://www.ur.org.tw/), "Urban Renewal Promotion Results Statistics," 2024
 6. [Wikipedia, "Taiwan Social Housing" entry](https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E7%81%A3%E7%A4%BE%E6%9C%83%E4%BD%8F%E5%AE%85), March 2024 version
-7. [Urban Renewal All Pass, "Direct Construction and Lease-and-Management Numbers Hit New Highs"](https://urbanrenewal.wealth.com.tw/news-detail/1102), 2024
-8. [Department of Urban Development, Taipei City Government](https://udd.gov.taipei/), "Social Housing Policy White Paper," 2023
-9. [Department of Urban and Rural Development, New Taipei City Government](https://www.planning.ntpc.gov.tw/home.jsp?id=68301de1098d53bb), "New Taipei City Social Housing Development Plan," 2024
+7. [Urban Renewal Complete Guide, "Direct Construction and Rent-Subsidy Intermediation Numbers Hit Record High" report](https://urbanrenewal.wealth.com.tw/news-detail/1102), 2024
+8. [Taipei City Department of Urban Development](https://udd.gov.taipei/), "Social Housing Policy White Paper," 2023
+9. [New Taipei City Urban and Rural Development Bureau](https://www.planning.ntpc.gov.tw/home.jsp?id=68301de1098d53bb), "New Taipei City Social Housing Development Plan," 2024
 10. [Taoyuan City Housing Development Office](https://ohd.tycg.gov.tw/), "Taoyuan City Social Housing Promotion Results," 2024
 11. [Tsuei Ma Ma Foundation](https://www.tmm.org.tw/), "Rental Market Status Survey Report," 2024
-12. [Social Housing Promotion Alliance](https://socialhousingtw.blogspot.com/), "Social Housing Policy Recommendations," 2023
+12. [Social Housing Advocacy Coalition](https://socialhousingtw.blogspot.com/), "Social Housing Policy Recommendations," 2023

@@ -1,179 +1,157 @@
 ---
-title: 'La conservation marine à Taïwan : pourquoi trente ans d'efforts n'ont pas suffi à sauver les coraux ?'
-description: 'En 2020, Taïwan a connu le plus grand épisode de blanchissement corallien de son histoire. De Xiaoliuqiu à l'atoll de Dongsha, même les récifs protégés ont péri sous la chaleur. Que nous révèle ce désastre ?'
+title: 'Conservation marine à Taïwan : pourquoi un système bâti en 30 ans n''a pas pu empêcher un blanchissement corallien ?'
+description: 'En 2020, les eaux taïwanaises ont connu le plus grand blanchissement corallien de leur histoire. De Liuqiu au récif de Dongsha, même les coraux des aires protégées ont succombé à la chaleur. Quels problèmes cela a-t-il révélés ?'
 date: 2026-03-18
-tags: ['conservation marine', 'protection de l'environnement', 'pollution marine', 'récifs coralliens', 'parcs marins nationaux']
-subcategory: 'Parcs nationaux et sentiers'
+author: 'Taiwan.md'
 category: 'Nature'
-author: 'Taiwan.md Translation Team'
+subcategory: '國家公園與步道'
+tags: ['conservation marine', 'protection de l''environnement', 'pollution marine', 'récifs coralliens', 'parc national marin']
 readingTime: 8
-featured: true
 lastVerified: 2026-03-23
-translatedFrom: "Nature/台灣海洋保育與挑戰.md"
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:b277d24628428df0'
-sourceBodyHash: 'sha256:21aa63cb636df052'
-translatedAt: "2026-04-14T19:22:26+08:00"
+lastHumanReview: false
+featured: true
+translatedFrom: 'Nature/台灣海洋保育與挑戰.md'
+sourceCommitSha: 'f712b7242'
+sourceContentHash: 'sha256:0c4a6676abd7e73d'
+sourceBodyHash: 'sha256:fe639063298f999a'
+translatedAt: '2026-05-20T05:08:34+08:00'
 ---
 
-# La conservation marine à Taïwan : pourquoi trente ans d'efforts n'ont pas suffi à sauver les coraux ?
+# Conservation marine à Taïwan : pourquoi un système bâti en 30 ans n'a pas pu empêcher un blanchissement corallien ?
 
-> **En 30 secondes** : À l'été 2020, Taïwan a traversé le pire épisode de blanchissement corallien jamais enregistré. Xiaoliuqiu, l'atoll de Dongsha et d'autres zones protégées n'ont pas été épargnées. Cette « vague de chaleur marine » a mis en lumière une réalité implacable : le système de protection construit sur trente ans s'est révélé impuissant face au changement climatique. La densité de déchets dans les eaux taïwanaises atteint 102 kg par km² — plus qu'au Japon, en Corée ou en Chine — mais la réussite de la restauration de la tortue verte offre une lueur d'espoir.
+> **En bref (30 secondes)** : au cours de l'été 2020, Taïwan a connu le plus grand blanchissement corallien de son histoire, touchant même des aires protégées telles que Liuqiu et le récif de Dongsha. Cette « vague de chaleur marine » a mis en lumière un fait brutal : le système de conservation bâti en 30 ans s'est révélé impuissant face au changement climatique. La densité de déchets dans les eaux taïwanaises atteint 102 kg par km², un chiffre supérieur à ceux du Japon, de la Corée du Sud et de la Chine, mais le succès de la réhabilitation des tortues vertes redonne espoir.
 
-En juillet 2020, Kuo Chao-yang, chercheur postdoctoral à l'Academia Sinica, a plongé dans les eaux de Xiaoliuqiu et découvert « un paysage que je n'avais jamais vu en dix ans de plongée » : de vastes étendues de coraux décolorés, réduits à des squelettes blanchis. Ce n'était pas un cas isolé. De Kenting à l'île Verte, des Penghu à l'atoll de Dongsha, les récifs coralliens de Taïwan faisaient face à une crise existentielle sans précédent.
+En juillet 2020, Guo Zhaoyang, chercheur postdoctoral à l'Academia Sinica, a plongé dans les eaux de Liuqiu et a observé un spectacle qu'il n'avait « jamais vu en dix ans de plongée » : d'immenses étendues de coraux dépouillés de leurs couleurs, réduits à des squelettes blancs. Ce n'était pas un cas isolé. Les récifs coralliens autour de Taïwan, de Kenting à Lüdao, de Penghu à Dongsha, traversent une crise sans précédent.
 
-Cette année-là, Taïwan n'a été touché par aucun typhon pour la première fois en cinquante-six ans. Sans les typhons pour brasser et refroidir les eaux, la mer s'est réchauffée comme une casserole à feu doux, et les coraux ont littéralement péri de chaleur. Ce qui a le plus surpris les scientifiques : même l'atoll de Dongsha, parc marin national depuis 2007, n'a pas échappé au désastre.
+Cette année-là, pour la première fois en 56 ans, aucun typhon n'a touché Taïwan. Sans le brassage et le refroidissement provoqués par les typhons, l'eau de mer a mijoté comme une soupe à feu doux, et les coraux sont « morts de chaleur ». Plus surprenant encore : même le récif de Dongsha, parc national marin créé en 2007, n'a pas été épargné par cette catastrophe.
 
-> **📝 Note éditoriale**  
-> L'histoire de la conservation marine à Taïwan est, en réalité, une course contre la montre : les institutions de protection que l'humanité bâtit peuvent-elles se déployer plus vite que le changement climatique ne détruit ?
+> **📝 Note du commissaire**  
+> L'histoire de la conservation marine à Taïwan est celle d'une course contre la montre : la vitesse à laquelle l'être humain met en place des protections peut-elle rattraper celle à laquelle le changement climatique détruit ?
 
-## Le dérèglement de 2020 : le plus grand blanchissement corallien de l'histoire
+## L'emballement de 2020 : le plus grand blanchissement corallien de l'histoire
 
-| 55 %                                  | 30 %                                              |
-| ------------------------------------- | ------------------------------------------------- |
-| Taux de mortalité estimé à Xiaoliuqiu | Pertes estimées sur la côte nord-est et à Kenting |
+| 55 %                 | 30 %                 |
+| -------------------- | -------------------- |
+| Mortalité corallienne estimée à Liuqiu | Pertes estimées sur la côte nord-est et à Kenting |
 
-Quelle était l'ampleur du blanchissement de 2020 ? Chen Chao-lun, du Centre de biodiversité de l'Academia Sinica, l'a qualifié de « sans précédent ». L'épisode a touché non seulement les foyers habituels du sud de Taïwan, mais aussi des zones qui n'avaient jamais connu de blanchissement massif : Xiaoliuqiu, les quatre îles méridionales des Penghu, la côte nord-est — toutes submergées par la chaleur.
+Quelle a été la gravité du blanchissement de 2020 ? Chen Zhaolun, du Centre de recherche en biodiversité de l'Academia Sinica, l'a qualifié de « sans précédent ». L'événement ne s'est pas limité aux zones habituelles du sud de Taïwan : des sites n'ayant jamais connu de blanchissement massif, comme Liuqiu, les quatre îles du sud de Penghu et la côte nord-est, ont tous été « touchés ».
 
-**Qu'est-ce que le blanchissement corallien ?** Les coraux abritent des algues symbiotiques qui leur fournissent nutriments et couleurs. Lorsque la température monte ou que les conditions se dégradent, ils expulsent ces algues et blanchissent. Si la chaleur persiste trop longtemps, le corail meurt.
+**Qu'est-ce que le blanchissement corallien ?** Les coraux abritent des algues symbiotiques qui leur fournissent nutriments et couleur. Lorsque la température de l'eau augmente ou que l'environnement se dégrade, les coraux expulsent ces algues et perdent leur couleur, devenant blancs. Si la chaleur persiste trop longtemps, les coraux meurent.
 
-L'équipe de recherche a suivi 28 250 colonies de coraux sur 62 sites de surveillance à travers Taïwan : 52 % d'entre elles présentaient un stress thermique à des degrés divers, et 31 % étaient condamnées à mourir même si la température revenait à la normale. Que signifie ce chiffre ? Quand plus de 30 % des coraux périssent, la biodiversité s'effondre brutalement — les poissons perdent leurs nurseries et la chaîne alimentaire marine commence à se désintégrer.
+L'équipe de recherche a surveillé 28 250 colonies de coraux sur 62 sites à Taïwan et a constaté que 52 % souffraient de stress thermique à des degrés divers, dont 31 % finiraient par mourir même après une baisse de la température de l'eau. Que signifie ce chiffre ? Lorsque plus de 30 % des coraux meurent, la biodiversité s'effondre brutalement : les bancs de poissons perdent leurs nurseries et la chaîne alimentaire marine s'en trouve déstabilisée.
 
 > **⚠️ Alerte climatique**  
-> En 2020, les eaux de Taïwan ont subi un stress thermique supérieur à 15 degrés-semaines de chaleur, dépassant l'épisode de grand blanchissement de 1998 (stress de 10). C'était l'année la plus chaude jamais enregistrée pour les températures marines à Taïwan.
+> En 2020, le stress thermique subi par les eaux taïwanaises a dépassé 15, un niveau plus élevé que lors du grand blanchissement de 1998 (stress thermique de 10). C'est l'année la plus chaude jamais enregistrée dans l'histoire météorologique de Taïwan.
 
-L'ironie est cruelle : Xiaoliuqiu était jusqu'alors le « élève modèle » de la conservation marine taïwanaise. De 26 tortues vertes en 2009, la population a été restaurée à plus de 500 individus en 2023, avec un taux de couverture corallienne maintenu au-dessus de 60 %. Pourtant, face à la « vague de chaleur marine » induite par le changement climatique, même les efforts de conservation locale les plus exemplaires sont apparus dérisoires.
+Le plus ironique, c'est que Liuqiu était considérée comme un « élève modèle » de la conservation marine taïwanaise. La population de tortues vertes était passée de quelques individus à plusieurs centaines (selon les relevés de l'Agence de conservation marine), et le taux de couverture corallienne se maintenait au-dessus de 60 % avant le blanchissement de 2020. Mais face à la « vague de chaleur marine » provoquée par le changement climatique, même les efforts locaux de conservation les plus aboutis paraissent dérisoires.
 
-## Une île cernée de déchets : les chiffres parlent d'eux-mêmes
+## Une île cernée par les déchets : les chiffres parlent
 
-Entourée de toutes parts par la mer, Taïwan fait subir à cet océan une pression considérable. D'après une enquête de 2020 menée par l'agence de conseil environnemental Cheng Yang, **la densité de déchets marins sur les fonds du littoral ouest de Taïwan atteint 102 kg par km²** — un chiffre qui dépasse tous les relevés disponibles pour le Japon, la Corée du Sud et la Chine.
+Taïwan est entourée par la mer, mais celle-ci subit d'énormes pressions. Selon une étude de 2020 menée par le cabinet de conseil Chengyang Environmental Consultants, **la densité de déchets au large de la côte ouest de Taïwan atteint 102 kg par km²**, un chiffre supérieur aux relevés existants pour les côtes japonaises, sud-coréennes et chinoises.
 
-Le site le plus pollué relevé lors de l'enquête se situe au large du fleuve Tamsui : les prises comptaient plus de 200 objets déchets contre seulement une soixantaine d'organismes marins (coquillages et gastéropodes). D'où viennent ces déchets ?
+Le site d'échantillonnage le plus pollué se trouvait au large de la rivière Tamsui : les déchets remontés (plus de 200 pièces) étaient plus nombreux que les organismes vivants (une soixantaine de coquillages). D'où viennent ces déchets ?
 
 **Analyse des sources de pollution** :
 
-- **Pollution terrestre (70-80 %)** : déchets ménagers transportés par les rivières
-- **Déchets de la pêche (15-20 %)** : filets abandonnés, polystyrène
-- **Pollution transfrontalière (5-10 %)** : déchets dérivant des pays voisins
+- **Pollution d'origine terrestre (70-80 %)** : déchets ménagers transportés par les rivières
+- **Déchets de pêche (15-20 %)** : filets abandonnés, polystyrène expansé
+- **Pollution transfrontalière (5-10 %)** : déchets flottants en provenance de pays voisins
 
-Chaque année, environ 12,7 millions de tonnes de plastique se déversent dans les océans à travers le monde. Selon les enquêtes rapides sur les déchets côtiers menées par l'Agence pour la protection de l'environnement de Taïwan, la densité de déchets sur les côtes taïwanaises est en moyenne de 1 855 objets par kilomètre, dont 82,7 % en plastique.
+Chaque année, environ 12,7 millions de tonnes de déchets plastiques pénètrent dans les océans à l'échelle mondiale. Selon l'inventaire rapide des déchets marins du ministère de l'Environnement, la densité de déchets sur les côtes taïwanaises s'élève en moyenne à 1 855 pièces par kilomètre, dont 82,7 % sont en plastique.
 
 > **💡 Le saviez-vous ?**  
-> Selon un rapport du WWF de 2022, 2 141 espèces marines dans le monde sont confrontées à la pollution plastique ; 90 % des oiseaux marins et 50 % des tortues marines ont déjà ingéré du plastique.
+> Selon un rapport de 2022 du Fonds mondial pour la nature (WWF), 2 141 espèces marines dans le monde sont affectées par la pollution plastique, 90 % des oiseaux de mer et 50 % des tortues marines ayant déjà ingéré du plastique.
 
-Le problème des microplastiques est encore plus préoccupant. En 2022, Greenpeace a testé les habitats de six espèces animales protégées à Taïwan et détecté des microplastiques dans les excréments des animaux comme dans les eaux de leurs zones de vie. Même les espèces terrestres protégées ne peuvent échapper aux conséquences de la pollution marine.
+Plus préoccupant encore : la question des microplastiques. En 2022, Greenpeace a réalisé des analyses dans les habitats de six espèces protégées à Taïwan et a détecté des microplastiques en forte proportion dans les excréments des animaux et dans les eaux de leurs habitats. Même les espèces terrestres protégées n'échappent pas aux conséquences de la pollution marine.
 
-## Trente ans de construction d'un système de protection : acquis et limites
+## Trente ans de construction d'un système de conservation et ses limites
 
-Face à la crise marine, Taïwan n'est pas resté inactif. Le 28 avril 2018, Taïwan a créé la Commission des affaires océaniques, regroupant des compétences jusqu'alors dispersées entre plusieurs ministères. Premier ministère central établi dans le sud de Taïwan, il symbolise l'importance accordée par l'État aux affaires maritimes.
+Face à la crise marine, Taïwan n'est pas restée les bras croisés. Le 28 avril 2018, le pays a créé le Comité des affaires maritimes (海洋委員會), unifiant les compétences autrefois dispersées entre plusieurs ministères. C'est le premier ministère central établi dans le sud de Taïwan, symbolisant l'importance accordée par l'État aux affaires maritimes.
 
-**Structure de la Commission des affaires océaniques** :
+**Structure organisationnelle du Comité des affaires maritimes** : le Comité coordonne la politique maritime ; l'Agence de conservation marine est chargée de la protection de l'environnement ; la Garde côtière assure l'application de la loi et les secours en mer ; l'Institut national de recherche marine fournit un appui scientifique.
 
-- **Commission des affaires océaniques** : coordination de la politique maritime
-- **Agence de conservation des océans** : protection de l'environnement marin
-- **Administration de la sécurité maritime** : application de la loi en mer et sauvetage
-- **Institut national de recherche océanographique** : soutien scientifique
+Le réseau d'aires marines protégées actuellement en place à Taïwan comprend :
 
-Le réseau actuel d'aires marines protégées à Taïwan comprend :
+1. **Parc national du récif de Dongsha** (2007) : 353 000 hectares, le premier parc national marin de Taïwan
+2. **Parc national des quatre îles du sud de Penghu** (2014) : 35 000 hectares, protégeant la géologie basaltique et l'écosystème marin
+3. **Zone de conservation des ressources halieutiques de Liuqiu** : un modèle de réussite associant gouvernement, monde académique et société civile
 
-1. **Parc national de l'atoll de Dongsha** (2007) : 353 000 hectares, premier parc national marin de Taïwan
-2. **Parc national des quatre îles méridionales des Penghu** (2014) : 35 000 hectares, protégeant la géologie basaltique et les écosystèmes marins
-3. **Zone de conservation des ressources halieutiques de Xiaoliuqiu** : modèle de coopération réussie entre gouvernement, universités et société civile
+Mais la catastrophe du blanchissement corallien de 2020 a mis en évidence un problème fondamental : **le concept d'aire protégée repose sur le « contrôle des perturbations humaines », or le changement climatique est un problème mondial qu'on ne peut résoudre en traçant simplement une limite.**
 
-Mais la catastrophe de 2020 a mis en évidence un problème fondamental : **le concept d'aires protégées repose sur le contrôle des perturbations humaines, alors que le changement climatique est un phénomène mondial qu'aucun périmètre ne peut contenir.**
+## Le miracle de Liuqiu : les enseignements d'un succès de conservation
 
-## Le miracle de Xiaoliuqiu : ce qu'une réussite nous enseigne
+Malgré les défis climatiques, les résultats obtenus à Liuqiu méritent attention. Comment cette île corallienne de seulement 6,8 km² est-elle devenue une vitrine de la conservation marine taïwanaise ?
 
-Malgré les défis climatiques, les résultats obtenus à Xiaoliuqiu méritent qu'on s'y attarde. Comment cette île corallienne de seulement 6,8 km² est-elle devenue la vitrine de la conservation marine à Taïwan ?
+**Résultats de la conservation à Liuqiu** :
 
-**Bilan de la conservation à Xiaoliuqiu** :
+- **Réhabilitation de la population de tortues vertes** : la population est passée de quelques individus à plusieurs centaines (selon les relevés de l'Agence de conservation marine)
+- **Densité de tortues marines** : selon l'Agence de conservation marine, une moyenne de 637 observations le long des côtes, avec un pic de 981 en novembre
+- **Taux de couverture corallienne** : gravement affecté après le blanchissement massif de 2020, il se maintenait auparavant au-dessus de 60 %
 
-- **Restauration de la population de tortues vertes** : de 26 individus en 2009 à plus de 500 en 2023
-- **Densité de tortues marines** : selon l'Agence de conservation des océans, une moyenne de 637 tortues observées le long des côtes, avec un pic de 981 en novembre
-- **Couverture corallienne** : maintenue au-dessus de 60 %, même lorsque d'autres zones enregistraient un déclin
+La clé du succès réside dans un « modèle de coopération tripartite » :
 
-La clé du succès réside dans un « modèle tripartite » :
+1. **Politiques publiques** : création de zones de conservation des ressources halieutiques, restriction des méthodes de pêche destructrices
+2. **Appui scientifique** : suivi à long terme par des institutions académiques comme l'Université Sun Yat-sen
+3. **Engagement local** : des ONG telles que Haiyong Studio et Lao Gu Yu Association promeuvent la science citoyenne marine
 
-1. **Politique gouvernementale** : création d'une zone de conservation des ressources halieutiques, interdiction des méthodes de pêche destructrices
-2. **Soutien scientifique** : suivi à long terme par des institutions académiques comme l'Université Sun Yat-sen
-3. **Gardiens locaux** : ONG comme Hai Yong Studio et l'Association Laogouyu promouvant la science citoyenne marine
+> **📝 Observation du commissaire**  
+> Le succès de Liuqiu illustre la force de la mobilisation sociale. Les moniteurs de plongée locaux sont devenus des « scientifiques citoyens de la mer », les gérants de chambres d'hôtes promeuvent une « alimentation respectueuse de l'océan », et la conservation est devenue un mouvement impliquant toute l'île.
 
-> **📝 Observation éditoriale**  
-> Le succès de Xiaoliuqiu ne tient pas qu'à la technique — c'est aussi un prodige de mobilisation sociale. Des moniteurs de plongée locaux sont devenus « scientifiques citoyens de la mer » ; des propriétaires de gîtes ont promu une « alimentation respectueuse des océans ». La conservation est devenue un mouvement insulaire à part entière.
+Mais même ce cas d modèle a subi en 2020 une perte de 55 % de ses coraux. Cela nous rappelle que **les efforts locaux de conservation sont nécessaires, mais pas suffisants.**
 
-Pourtant, même ce modèle exemplaire a subi une mortalité corallienne de 55 % en 2020. Un rappel essentiel : **les efforts de conservation locale sont nécessaires, mais pas suffisants.**
+## Technologie contre nature : les innovations taïwanaises
 
-## Technologie contre nature : les innovations tentées par Taïwan
-
-Face aux limites des approches traditionnelles, Taïwan a commencé à explorer des solutions technologiques :
+Face aux limites des méthodes de conservation traditionnelles, Taïwan commence à explorer des solutions technologiques :
 
 **Technologies de surveillance** :
 
-- Télédétection satellitaire pour le suivi des variations de température marine
-- Identification des déchets marins par intelligence artificielle et traitement d'images
-- Systèmes de surveillance de la qualité de l'eau en temps réel
+- Télédétection par satellite pour suivre les variations de température de l'eau de mer
+- Reconnaissance d'images par intelligence artificielle pour identifier les types de déchets marins
+- Systèmes de surveillance en temps réel de la qualité de l'eau
 
 **Techniques de restauration** :
 
-- Reproduction artificielle et transplantation de coraux
-- Expériences de séquestration du carbone par l'algoculture
-- Robots collecteurs de déchets marins
+- Reproduction et transplantation artificielle de coraux
+- Expérimentation de puits de carbone par la culture d'algues
+- Robots de collecte des déchets marins
 
-Mais Chen Chao-lun de l'Academia Sinica met en garde : « La technologie ne fait que gagner du temps. La vraie solution reste la réduction des émissions de gaz à effet de serre. »
+Mais Chen Zhaolun, de l'Academia Sinica, rappelle : « La technologie ne peut que nous gagner du temps ; la vraie solution reste la réduction des émissions de gaz à effet de serre. »
 
-## L'avenir des océans sous le changement climatique
+## L'avenir des océans face au changement climatique
 
-Les mers de Taïwan font face à une triple menace :
+Les océans autour de Taïwan font face à une triple menace :
 
-1. **Acidification des océans** : le CO₂ atmosphérique dissous dans l'eau de mer fait baisser le pH de 0,002 à 0,003 par an
-2. **Montée du niveau de la mer** : une élévation de 1,4 à 3,4 mm par an
-3. **Événements climatiques extrêmes** : intensification des typhons, allongement des périodes de forte chaleur
+1. **Acidification des océans** : le CO₂ atmosphérique se dissout dans l'eau de mer, le pH diminuant de 0,002 à 0,003 par an
+2. **Montée du niveau de la mer** : à un rythme de 1,4 à 3,4 mm par an
+3. **Événements climatiques extrêmes** : intensification des typhons, prolongation des périodes de chaleur
 
-Ces défis sont d'ordre mondial et ne peuvent être résolus par un seul pays. Mais l'expérience de Taïwan — de la protection intégrale de l'atoll de Dongsha à la mobilisation communautaire de Xiaoliuqiu, en passant par la douloureuse leçon du blanchissement de 2020 — offre un précieux témoignage pour le reste du monde.
+Ce sont des problèmes mondiaux qu'aucun pays ne peut résoudre seul. L'expérience de Taïwan — de la protection intégrale du récif de Dongsha à la mobilisation communautaire de Liuqiu, en passant par la leçon douloureuse du blanchissement corallien de 2020 — offre de précieux enseignements.
 
-## Ce que vous pouvez faire : un guide d'action concret
+## Que peut faire chacun ? Guide pratique d'action
 
-Face à des enjeux aussi colossaux, les gestes individuels peuvent sembler dérisoires. Pourtant, la force collective ne doit pas être sous-estimée.
+Face à un défi d'une telle ampleur, les gestes individuels peuvent sembler dérisoires, mais la force collective ne doit pas être sous-estimée :
 
-**Réduire le plastique au quotidien** :
+La première étape pour réduire le plastique au quotidien est de refuser les plastiques à usage unique, de choisir des produits sans emballage plastique et de soutenir les entreprises de l'économie circulaire. Du côté de la consommation, opter pour des produits de la mer certifiés MSC (Conseil pour la gestion des pêcheries durables), utiliser des crèmes solaires respectueuses des coraux et participer personnellement à des opérations de nettoyage des plages et des fonds marins peuvent avoir un impact concret. Sur le plan politique, il est possible de suivre les projets de loi sur la conservation marine, de soutenir la législation de réduction des émissions de carbone et de maintenir une vigilance sur la performance environnementale des entreprises.
 
-- Refuser les produits plastiques à usage unique
-- Choisir des articles avec peu ou pas d'emballage
-- Soutenir les entreprises engagées dans l'économie circulaire
+> **✦** « Nous ne pouvons pas protéger un océan vivant sur une planète morte. » (Programme des Nations Unies pour l'environnement)
 
-**Consommation respectueuse des océans** :
+## Conclusion : le temps presse
 
-- Choisir des fruits de mer issus de la pêche durable (label MSC)
-- Utiliser des crèmes solaires respectueuses des coraux
-- Participer aux nettoyages de plages et de fonds marins
+L'histoire de la conservation marine à Taïwan est celle d'une course contre la montre. Nous avons mis 30 ans à bâtir des systèmes de protection, produit des succès comme celui de Liuqiu, mais la vitesse de destruction du changement climatique est peut-être plus rapide encore.
 
-**S'impliquer dans les politiques publiques** :
+La catastrophe du blanchissement corallien de 2020 est un avertissement. Elle montre que la création d'aires protégées et le nettoyage des déchets marins sont nécessaires, mais que le changement climatique constitue la menace fondamentale, exigeant une action à l'échelle mondiale.
 
-- Suivre l'actualité des politiques de conservation marine
-- Soutenir les législations en faveur de la réduction des émissions
-- Contrôler les performances environnementales des entreprises
+Taïwan est entourée par la mer : le sort de l'océan est le sort de l'île. Alors que nous protégeons ce foyer bleu pour les générations futures, le temps presse. Chaque degré de réchauffement supplémentaire, chaque déchet plastique qui pénètre dans l'océan, chaque occasion manquée de réduire les émissions de carbone détermine l'avenir des eaux taïwanLa bonne nouvelle, c'est que la réhabilitation des tortues vertes à Liuqiu prouve que des stratégies de conservation appropriées peuvent fonctionner. La mauvaise nouvelle, c'est que de tels résultats restent fragiles face au changement climatique. Nous devons trouver un équilibre entre conservation et décarbonation, et établir un lien entre action locale et réflexion mondiale.
 
-> **✦** « Nous ne pouvons pas protéger un océan vivant sur une planète morte. » — Programme des Nations Unies pour l'environnement
-
-## Conclusion : le compte à rebours est lancé
-
-L'histoire de la conservation marine à Taïwan est une course contre la montre. Trente ans ont été nécessaires pour bâtir un système de protection et faire émerger des modèles de réussite comme Xiaoliuqiu — mais le changement climatique pourrait aller encore plus vite.
-
-Le désastre de 2020 n'est pas un épilogue : c'est un avertissement. Il nous rappelle que **la conservation ne se limite pas à délimiter des zones protégées ou à ramasser des déchets marins — c'est une bataille mondiale contre le changement climatique.**
-
-Taïwan est une île entourée de mer. Le destin de cet océan est indissociable du destin de l'île. Alors que nous cherchons à préserver cet espace bleu pour les générations à venir, le compte à rebours est lancé. Chaque degré de réchauffement, chaque morceau de plastique rejeté en mer, chaque opportunité de réduction des émissions manquée décide de l'avenir des océans de Taïwan.
-
-La bonne nouvelle, c'est que la restauration de la tortue verte à Xiaoliuqiu prouve qu'une stratégie de conservation bien menée donne des résultats. La mauvaise, c'est que ces acquis restent fragiles face au changement climatique. Nous devons trouver un équilibre entre conservation et décarbonation, entre action locale et pensée globale.
-
-C'est à cette seule condition que les océans de Taïwan pourront, dans les trente prochaines années, non seulement survivre, mais renaître.
+Ce n'est qu'à cette condition que les océans de Taïwan pourront, dans les 30 prochaines années, connaître une renaissance plutôt qu'une simple survie.
 
 ## Références
 
-1. [Plateforme d'observation du blanchissement corallien à Taïwan — Centre de biodiversité de l'Academia Sinica](https://github.com/Bio-Div-Taiwan/Taiwan-Coral-Bleaching-Platform)
-2. [Premier blanchissement corallien national de grande ampleur depuis 56 ans — Our Island](https://ourisland.pts.org.tw/content/7392)
-3. [Enquête sur les déchets sous-marins — The Reporter](https://www.twreporter.org/a/marine-litter)
-4. [Journée mondiale de la Terre 2024 : le tsunami plastique — Our Island](https://ourisland.pts.org.tw/content/10717)
-5. [Structure de la Commission des affaires océaniques](https://www.oac.gov.tw/ch/home.jsp?id=19&parentpath=0%2C1)
-6. [Programme de suivi des tortues marines à Xiaoliuqiu — Agence de conservation des océans](https://www.oca.gov.tw/ch/home.jsp?id=131&parentpath=0,4,127)
-7. [Rapport sur l'impact de la pollution plastique marine — WWF](https://www.sow.org.tw/sites/sow/files/u26227/shi_jie_zi_ran_ji_jin_hui_yan_jiu_zhai_yao__hai_yang_su_jiao_wu_ran_dui_hai_yang_wu_zhong_sheng_wu_duo_yang_xing_he_sheng_tai_xi_tong_de_ying_xiang_zhong_wen_ban_20221205_0.pdf)
-8. [État d'avancement du traité mondial sur le plastique — PNUE](https://www.unep.org/news-and-stories/story/global-plastics-treaty-what-we-know-so-far)
+[^1]: [Structure organisationnelle du Comité des affaires maritimes](https://www.oac.gov.tw/ch/home.jsp?id=19&parentpath=0%2C1) — Confirmation de la création du Comité des affaires maritimes le 28 avril 2018.
+[^2]: [Premier blanchissement corallien massif à l'échelle nationale en 2020 - 我們的島](https://ourisland.pts.org.tw/content/7392) — Données de l'étude portant sur 62 sites de surveillance et 28 250 colonies de coraux.
+[^3]: [Rapport sur les déchets sous-marins - 報導者](https://www.twreporter.org/a/marine-litter) — Étude de 2020 de Chengyang Environmental Consultants sur la densité des déchets sous-marins.
+[^4]: [Un an d'inventaire rapide des déchets marins révélant la vérité sur la pollution des côtes taïwanaises - 國家地理](https://www.natgeomedia.com/environment/article/content-8745.html) — Données sur la densité des déchets côtiers et la proportion de plastique à Taïwan.
+[^5]: [Rapport sur l'impact de la pollution plastique marine - Fonds mondial pour la nature](https://www.sow.org.tw/sites/sow/files/u26227/shi_jie_zi_ran_ji_jin_hui_yan_jiu_zhai_yao__hai_yang_su_jiao_wu_ran_dui_hai_yang_wu_zhong_sheng_wu_duo_yang_xing_he_sheng_tai_xi_tong_de_ying_xiang_zhong_wen_ban_20221205_0.pdf) — Rapport de 2022 : 2 141 espèces dans le monde affectées par la pollution plastique.
+[^6]: [Plateforme d'observation du blanchissement corallien à Taïwan - Centre de recherche en biodiversité de l'Academia Sinica](https://github.com/Bio-Div-Taiwan/Taiwan-Coral-Bleaching-Platform) — Base de données de surveillance du blanchissement corallien de l'Academia Sinica.
+[^7]: [Programme de surveillance des tortues marines de Liuqiu - Agence de conservation marine](https://www.oca.gov.tw/ch/home.jsp?id=131&parentpath=0,4,127) — Données d'enquête sur la population de tortues marines de Liuqiu.
+[^8]: [État d'avancement de la convention mondiale sur les plastiques - Programme des Nations Unies pour l'environnement](https://www.unep.org/news-and-stories/story/global-plastics-treaty-what-we-know-so-far) — Progrès de la convention mondiale sur les plastiques du PNUE.

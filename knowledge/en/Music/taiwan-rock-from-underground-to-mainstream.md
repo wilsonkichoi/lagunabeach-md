@@ -1,188 +1,188 @@
 ---
-title: 'Taiwan Rock: From Underground Rebellion to Mainstream'
-description: "From 1980s underground rock to the 1990s band boom, how Taiwan's rock music moved from the margins to the mainstream and became a major force in Mandarin-language rock."
+title: 'A History of Taiwanese Rock: Thirty Years from the Underground to the Mainstream'
+description: 'From underground rock in the 1980s to the rise of bands in the 1990s, how Taiwanese rock moved from the margins into the mainstream and became a major force in Mandopop rock'
 date: 2026-03-18
-tags: ['rock', 'music history', 'underground music', 'bands', 'Taiwan music']
-subcategory: '獨立與搖滾'
 author: 'Taiwan.md'
+category: 'Music'
+subcategory: '獨立與搖滾'
+tags: ['Rock Music', 'Music History', 'Underground Music', 'Bands', 'Taiwanese Music']
 readingTime: 12
-featured: true
 lastVerified: 2026-03-19
-lastHumanReview: false
+lastHumanReview: true
+featured: true
 translatedFrom: 'Music/台灣搖滾樂發展史.md'
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:9d76f310b8c2b867'
-sourceBodyHash: 'sha256:73497d3dfb386763'
-translatedAt: '2026-05-01T14:11:02+08:00'
-category: Music
+sourceCommitSha: '0f8fae0ae'
+sourceContentHash: 'sha256:13d6a9f56e217d21'
+sourceBodyHash: 'sha256:ad9585c482ee1d52'
+translatedAt: '2026-05-20T05:08:27+08:00'
 ---
 
-# Taiwan Rock: From Underground Rebellion to Mainstream — Thirty Years
+# A History of Taiwanese Rock: Thirty Years from the Underground to the Mainstream
 
-## 30-Second Overview
+> **30-second overview:** From underground rebellion in the 1980s to the rise of bands in the 1990s, Taiwanese rock underwent an evolution spanning three decades. Independent labels such as Crystal Records and Taiwan Colors Music nurtured a generation of rock musicians. From LTK Commune's experiments to Mayday's commercial success, Taiwanese rock moved from the margins into the mainstream and secured a place in the landscape of Mandopop rock.
 
-Taiwan's rock music evolved from 1980s underground rebellion to the 1990s band boom. Independent labels including Crystal Records and Corner Music nurtured a generation of rock musicians — from the experimental noise of Loh Tsui Kwan Commune (濁水溪公社) to the commercial success of Mayday, Taiwan's rock music moved from the margins to the mainstream in thirty years, becoming a major force in Mandarin-language rock.
-
-**Keywords:** underground music, Crystal Records, band era, Taiwanese folk rock (台客搖滾), indie music
+**Keywords:** underground music, Crystal Records, band era, Taike rock, independent music
 
 ## Why It Matters
 
-The development trajectory of Taiwan's rock music reflects Taiwan's social transformation: from the taboo of the martial law era to the openness after lifting of martial law, from Western imitation to local innovation. This is not merely a change in musical style — it is a reflection of cultural identity and creative freedom. Taiwan's rock music brought unprecedented energy and attitude to Mandarin-language music, influencing the musical ecology of the entire Mandarin-speaking world.
+The development of Taiwanese rock reflects Taiwan's broader social transformation: from the taboos of the martial-law period to the openness that followed its lifting, and from imitation of the West to local innovation. This is a history of changing musical styles, but also a condensed record of cultural identity and creative freedom. Taiwanese rock brought unprecedented energy and attitude to Chinese-language music and influenced the musical ecology of the entire Sinophone world.
 
-## The Awakening Period (1980–1987): Seeds Underground
+## The Formative Period (1980-1987): Seeds Underground
 
-### Musical Rebellion Under Martial Law
+### Musical Rebellion under Martial Law
 
-In the early 1980s, Taiwan was still under martial law, but the campus folk song movement had already led young people to pay attention to local musical creation. Unlike the gentle folk songs, rock music carried the rebellious spirit of the West, becoming a vehicle for youth subculture.
+In the early 1980s, Taiwan was still under martial law, but the influence of the campus folk movement had already led young people to pay attention to local musical creation. Unlike the comparatively gentle tone of folk music, rock carried a Western spirit of rebellion and became an expressive channel for youth subculture.
 
-Early Taiwanese rock music developed primarily in pubs and small performance venues; most musicians were amateur creators whose lyrics often touched on social issues. Though constrained by the political environment, rock music's anti-establishment spirit was quietly taking root underground.
+Early Taiwanese rock developed mainly in pubs and small performance venues. Most musicians were amateur creators, and their lyrics often touched on social issues. Although constrained by the political environment, rock's anti-establishment spirit was already quietly taking root underground.
 
 ### Key Figures and Scenes
 
-- **Lo Ta-yu**: not purely rock, but his critical spirit influenced later rock musicians
+- **Lo Ta-yu**: not a pure rock musician, but his critical spirit influenced later rock artists
 - **Double X**: one of Taiwan's earliest punk bands
-- **Performance venues**: early live houses such as Hsiyuan (息壤) and Scarecrow (稻草人)
+- **Performance venues**: early live houses such as Soil and Scarecrow
 
-## The Breakthrough Period (1987–1992): Crystal's Revolution
+## The Breakthrough Period (1987-1992): Crystal's Revolution
 
-### Crystal Records' Milestone
+### The Milestone of Crystal Records
 
-In 1987, Jen Chiang-ta took over **Crystal Records** and, with Ho Ying-yi and Chen Kong-hui, founded _Rock Passenger_ (搖滾客) magazine, beginning the systematic promotion of underground music. Crystal Records not only released records but also provided a platform for underground musicians through the "Taipei New Music Festival."
+In 1987, Jen Chiang-ta took over **Crystal Records**, promoted publications such as *Rockers*, and began systematically promoting underground music.[^1] Crystal Records did more than release records; through the "Taipei New Music Festival," it also provided a stage for underground musicians.
 
-The musicians who participated in the third Taipei New Music Festival in 1989 were assembled into the compilation album **_Completely Out of Tune_** (完全走調) — a crucial milestone in Taiwan's underground music, collecting early works by multiple bands that later became well known.
+After the third Taipei New Music Festival in 1989, participating musicians were collected in the compilation ***Completely Out of Tune***, which included early works by several bands that later became well known. It remains a primary document for the study of Taiwanese underground music.[^2]
 
-### Key Releases and Their Impact
+### Major Releases and Influence
 
-- **_The Lies of an Idiot_** (白癡的謊言, 1987): Double X album, a landmark of Taiwan's punk scene
-- **_Voice of Rock — New Music Encyclopedia_** (搖滾之聲—新音樂百科全書, 1990): systematic introduction to new music, treated as scripture by music fans
-- **Blacklist Studio's _Songs of Madness_** (抓狂歌): a breakthrough work combining rock and Taiwanese-language creativity
+- ***Lies of an Idiot*** (1987): an album by Double X and a representative work of Taiwanese punk
+- ***The Sound of Rock: New Music Encyclopedia*** (1990): a systematic introduction to new music, regarded by fans as a bible
+- **Black List Studio's *Songs of Madness***: a breakthrough work combining rock with Taiwanese-language songwriting
 
-## The Explosive Period (1992–1999): The Golden Era of Bands
+### Black List Studio and the New Taiwanese Song Movement
 
-### The Rise of Multiple Labels
+In 1989, Black List Studio released *Songs of Madness*, using Taiwanese-language rock to directly criticize political reality and leaving an unmistakable mark on Taiwan's post-martial-law music history. Principal creator Chen Ming-chang combined acoustic guitar with Southern Min lyrics to speak for the oppressed working and farming classes; Will Lin used modern rock arrangements as the foundation, bringing "Taiwanese into rock" onto music's main stage.
 
-Beyond Crystal Records, independent labels including **Corner Music** (角頭音樂) and **Real Word Music** (真言社) were established in succession, providing platforms for rock bands of different styles. Taiwan's rock music in this period began to show a diverse face:
+The success of *Songs of Madness* triggered the broader "New Taiwanese Song Movement." Chen Ming-chang, Bobby Chen, Yeh Chi-tien, Lim Giong, and others successively created rock and folk music in Taiwanese or with Southern Min inflections, breaking the Mandarin-dominated framework of popular music at the time and helping Taiwanese regain a place in mainstream media.
 
-- **Experimental noise**: Loh Tsui Kwan Commune (濁水溪公社), Clippers Electric Big Band (夾子電動大樂隊)
-- **Taiwanese folk rock (台客搖滾)**: Pig Head Skin (豬頭皮), Torakku (脫拉庫)
-- **Punk hardcore**: 88 Balaz (四分衛), Luantan (亂彈)
-- **Alternative rock**: Guts (骨肉皮), Ladybug
+This movement also laid a dual foundation for later Taike rock and the independent music scene: linguistic liberation made local color a resource for creation rather than a taboo, while spiritual rebellion carried forward the questioning of social reality that had begun with the campus folk movement.
+
+## The Explosion Period (1992-1999): The Golden Age of Bands
+
+### The Rise of Diverse Labels
+
+In addition to Crystal Records, independent labels such as **Taiwan Colors Music** and **Magic Stone** were established in succession, providing platforms for rock bands of different styles. Taiwanese rock in this period began to show a more plural character:
+
+LTK Commune and Clippers pursued experimental noise; Jutoupi and TOLAKU moved along the line of Taike rock, a locally inflected Taiwanese grassroots rock style; punk and hardcore were represented by Quarterback and Luantan; alternative rock included Skeleton Skin and Ladybug.
 
 ### Important Bands and Works
 
-**Loh Tsui Kwan Commune (濁水溪公社, 1989–)**
-Established in 1989 after the lifting of martial law, known for experimental noise and political critique. Lead vocalist Ko Jen-chien's screaming vocal style and the band's avant-garde arrangements pushed Taiwan's rock music to the boundary of extreme experimentation.
+**LTK Commune** (1989-)
+Founded in 1989 after the lifting of martial law, the band became known for experimental noise and political critique. Lead singer Ko Jen-chien's roaring vocal style and the band's avant-garde arrangements pushed Taiwanese rock toward the realm of extreme experimentation.
 
-**88 Balaz (四分衛, 1995–)**
-A punk band led by Tiger God (Chen Ru-shan), known for concise, powerful guitar riffs and direct lyrics. Their signature track _Rise Up_ (起來) became a classic of 1990s Taiwanese rock.
+**Quarterback** (1995-)
+A punk band led by Tiger God, or Chen Ru-shan, known for concise, forceful guitar riffs and direct lyrics. Its representative song "Get Up" became a classic of 1990s Taiwanese rock.
 
-**A-Hsiang of Luantan (亂彈阿翔, 1990–)**
-An innovative attempt to combine traditional instruments with rock; A-Hsiang's vocal style fused traditional Taiwanese theater with rock energy, creating the distinctive "luantan rock" style.
+**Luantan Ascent** (1990-)
+An innovative attempt to combine traditional instruments with rock. Ascent's vocal style fused Taiwanese traditional opera with rock energy, creating the distinctive style of "Luantan rock."
 
-## The Mainstreaming Period (1997–2005): From Underground to Stage
+## The Mainstreaming Period (1997-2005): From Underground to Stage
 
 ### Chairman Band's Taiwanese-Language Rock
 
-**Chairman Band** (董事長樂團), established in 1997, became the emblem of Taiwanese-language rock with fluid Taiwanese-language vocals and an accessible rock style. The name "Chairman" (董事長) means every member can create and sing — expressing the band's democratic spirit.
+Founded in 1997, **Chairman Band** became a representative of Taiwanese-language rock through fluent Taiwanese singing and an accessible rock style.[^3] The band name "Chairman" implies that every member can compose and sing, expressing the band's democratic spirit.
 
 Major works:
 
-- _Gods Protect Taiwan_ (眾神護台灣): a representative work combining religious culture and rock
-- _Long Live_ (萬歲): an important album celebrating the band's founding
-- _You Don't Understand_ (你袂了解): a rock narrative of ordinary Taiwanese life
+- *God Bless Taiwan*: a representative work combining religious culture and rock
+- *Long Live*: a representative album celebrating the band's founding
+- *You Don't Understand*: a rock narrative that presents the everyday life of ordinary Taiwanese people
 
 ### The Mayday Phenomenon
 
-**Mayday**, which officially debuted in 1999, pushed Taiwanese rock music to unprecedented commercial heights. Although their musical style is relatively mainstream, their sincere emotional expression and uplifting lyrics brought rock out of a niche and into the shared memory of the general public. Their signature track _Stubborn_ ([倔強](https://www.youtube.com/watch?v=w_OfGctVLdE)) became a generational youth anthem.
+**Mayday**, which officially debuted in 1999, pushed Taiwanese rock to an unprecedented commercial height. Although its musical style was relatively mainstream, its sincere emotional expression and inspirational lyrics brought rock out of niche circles and turned it into a shared memory of the general public. Its representative work "[Stubborn](https://www.youtube.com/watch?v=w_OfGctVLdE)" became a mark of youth for a generation.[^4]
 
-Mayday's success proved the market potential of Taiwan's rock music and provided a commercial model reference for later bands.
+Mayday's success proved the market potential of Taiwanese rock and also provided later bands with a reference model for commercial operations.
 
-### Establishing Live House Culture
+All members of Mayday came from student bands during their Taipei high-school years. In 1995, with "Ashin" Chen Hsin-hung at the core, they began performing at the Wood Boat folk restaurant. After joining Rock Records in 1999, their first self-titled album was recognized by the Golden Melody Awards. In the 2000s, they continued to enter the markets of Hong Kong, mainland China, and Southeast Asia, and through world tours at large venues such as Beijing's Bird's Nest and Taipei Arena, they established a milestone status in Mandopop rock.
 
-The rise of live houses including **Witch House** (女巫店, 1996–) and **Underground Society** (地下社會, 1996–2013) provided rock bands with stable performance venues. These small performance spaces were not only places for bands to hone their craft but became cultural gathering points for music fans.
+Mayday has also operated independently through the label B'in Music, organizing talent projects such as "The Next Big Thing" and actively supporting younger bands. In doing so, the group further transformed from creators into an important supporting force within Taiwan's independent music ecology.
 
-## Multi-directional Development in the New Century (2005–)
+### The Establishment of Live House Culture
+
+The rise of live houses such as **Witch House** (1996-) and **Underworld** (1996-2013) provided rock bands with stable performance venues. These small performance spaces were not only places for bands to hone their skills, but also cultural hubs where fans could gather and exchange ideas.
+
+The addition of Riverside Music Cafe (1999-) helped create a live house cluster around the National Taiwan University Gongguan area. In 2013, Underworld was forced to close because of a lease dispute, prompting broad discussion in the music world about venue preservation. This ultimately led the Ministry of Culture to launch a subsidy program for music performance spaces, providing institutional support for the survival of later live houses.
+
+## Diversification in the New Century (2005-)
 
 ### The Revival of Independent Music
 
-Entering the 21st century, Taiwan's rock music faced both the challenges and opportunities of the internet age. Although CD sales declined, online platforms provided independent bands with new channels for publishing.
+After entering the twenty-first century, Taiwanese rock faced both challenges and opportunities in the internet age. Although CD sales declined, online platforms provided independent bands with new channels for release.
 
-Major music festivals including **Hohaiyan Rock Festival** (海洋音樂祭, 2000–) and **Spring Scream** (春天吶喊, 1995–) provided rock bands with opportunities to perform alongside international acts and cultivated more rock music fans.
+Large music festivals such as the **Hohaiyan Rock Festival** (2000-) and **Spring Scream** (1995-) gave rock bands opportunities to perform on the same stage as international bands and also cultivated more rock fans.[^5]
+
+Founded in Kenting in 1995, Spring Scream introduced the Western concept of outdoor music festivals through foreign residents and became an iconic rock festival in Taiwan that ran for more than twenty consecutive years. Hohaiyan Rock Festival, by contrast, focused on supporting local bands. Winners of the Hohaiyan Grand Prize, such as No Party for Cao Dong and Crispy, entered the core field of visibility in the independent music scene because of the award.
 
 ### New-Generation Bands
 
-- **Sodagreen (蘇打綠)**: a fresh style fusing folk and rock
-- **Fire EX. (滅火器)**: a new-generation representative carrying on the Taiwan folk rock tradition
-- **No Party for Cao Dong (草東沒有派對)**: the alternative rock rising star of the internet generation
-- **Sunset Rollercoaster (告五人)**: combining indie rock with pop elements
+Sodagreen opened the market with a fresh folk-rock style; Fire EX. inherited the tradition of Taike rock; No Party for Cao Dong became an alternative-rock rising star of the internet generation; and Accusefive combined independent rock with pop elements. Each found a different audience position.
 
-## The Characteristics of Taiwan's Rock Music
+In 2016, No Party for Cao Dong won Best New Artist and Best Band at the Golden Melody Awards with its first self-titled album, becoming one of the representative cases of local rock gaining the broadest attention after the rise of streaming music in Taiwan. The band won major annual awards without signing to a mainstream label, which also brought the commercial possibilities of independent music back into public view.
+
+## Characteristics of Taiwanese Rock
 
 ### Localized Innovation
 
-The greatest characteristic of Taiwan's rock music is combining Western rock with local culture to create a distinctive "Taiwanese folk rock" (台客搖滾) style:
+The greatest characteristic of Taiwanese rock lies in its combination of Western rock with local culture, creating the distinctive style of "Taike rock." Taiwanese, Hakka, and Indigenous languages entered lyrics; traditional instruments were placed alongside electric instruments; and subject matter expanded from political critique to ordinary people's lives, forming a diverse landscape.
 
-- **Language use**: incorporation of Taiwanese (Hokkien), Hakka, and indigenous languages
-- **Instrument fusion**: combining traditional instruments with electric instruments
-- **Thematic expression**: diverse topics from political critique to ordinary life
+### A Tradition of Social Concern
 
-### The Tradition of Social Concern
+Inheriting the socially engaged spirit of the campus folk movement, Taiwanese rock often touches on social issues. LTK Commune and Chthonic are known for strong political positions; 1976 and 929 have addressed environmental issues; Fire EX. has continued to speak for social justice. This thread extends from before the lifting of martial law to the present and constitutes an important trait that distinguishes Taiwanese rock from commercial pop.
 
-Inheriting the social concern spirit of the folk song movement, Taiwan's rock music frequently addresses social issues:
-
-- **Political critique**: Loh Tsui Kwan Commune and Chthonic's expressions of political stance
-- **Environmental issues**: 1976 and 929's environmental concerns
-- **Social justice**: Fire EX.'s attention to social issues
-
-🎵 **Taiwanese Rock Classics**: [Mayday's "Stubborn"](https://www.youtube.com/watch?v=w_OfGctVLdE) | [Chthonic's "Takasago Army" (鎮魂醒靈寺)](https://www.youtube.com/watch?v=Ynb9vFd0iNg)
+🎵 **Taiwanese Rock Classics**: [Mayday, "Stubborn"](https://www.youtube.com/watch?v=w_OfGctVLdE) | [Chthonic, "Supreme Pain for the Tyrant"](https://www.youtube.com/watch?v=Ynb9vFd0iNg)
 
 ## International Influence and Status
 
-### Pioneer of Mandarin-Language Rock
+### A Pioneer of Mandopop Rock
 
-Taiwan's rock music holds an important position in the Mandarin-language music world:
-
-1. **Innovative spirit**: the first to localize rock music, influencing rock development in Hong Kong and mainland China
-2. **Industry model**: established a complete industry chain from independent label to mainstream market
-3. **Cultural export**: the success of bands like Mayday among overseas Chinese audiences, expanding the reach of Taiwan's music
+Taiwanese rock has a pioneering status in the Chinese-language music world. Taiwan was among the first to localize rock music, influencing the development of rock in Hong Kong and China. A complete industrial chain, from independent labels to the mainstream market, was also established here. The success of bands such as Mayday among overseas Chinese communities further expanded the visibility of Taiwanese music.
 
 ### Cross-Border Collaboration
 
-Taiwan's rock bands actively participate in international music festivals and collaborate with overseas musicians:
-
-- **Chthonic's** profile in the European metal music scene
-- **Chairman Band's** exchanges with Japanese musicians
-- **Sodagreen's** successful touring in the Asian region
+Taiwanese rock bands have actively participated in international music festivals and collaborated with overseas musicians: Chthonic has established recognition in the European metal scene, Chairman Band has maintained long-term exchanges with Japanese musicians, and Sodagreen's Asian tours have also found a stable market.
 
 ## Challenges and the Future
 
-### Industry Difficulties
+### Industrial Difficulties
 
-- **Digital impact**: streaming music has changed music consumption patterns
-- **Shrinking market**: intensified competition in the Mandarin-language music market
-- **Venue issues**: difficulties in live house operations; insufficient performance spaces
+Streaming music has changed patterns of music consumption, causing CD revenue to shrink sharply. Competition in the Chinese-language market has intensified, while rising live house rents and a shortage of venues have compressed the living space of rock bands.
 
 ### New Opportunities
 
-- **Music festival culture**: large music festivals provide new performance platforms
-- **Online media**: YouTube, Spotify, and other platforms lower barriers to publishing
-- **Cross-industry collaboration**: integration with film, television, and advertising industries
+At the same time, large music festivals have provided new performance platforms for rock. Streaming platforms such as YouTube and Spotify have lowered the threshold for publication, and cross-sector collaborations with the film, television, and advertising industries have also brought new sources of income.
 
 ## Cultural Significance and Legacy
 
-Thirty years of development in Taiwan's rock music have not only created a rich body of musical works — more importantly, they have established a value system of creative freedom and cultural diversity. From underground rebellion to mainstream acceptance, Taiwan's rock music has proven that local culture and international language can be successfully integrated, providing valuable experience and inspiration for later musicians.
+Thirty years of Taiwanese rock have left behind a large body of musical works and established a value system centered on creative freedom and cultural plurality. From underground rebellion to mainstream acceptance, Taiwanese rock has proven that local culture and international languages can be successfully combined, providing later musicians with valuable experience and inspiration.
 
-Today, when we listen to Loh Tsui Kwan Commune's experimental noise, Chairman Band's Taiwanese-language rock, or Mayday's uplifting anthems, we are hearing not just music but also the sonic memory of Taiwan's social transformation — a musical testimony to the spirit of free creation.
+In this process, language has also been a key variable: from Mandarin to Taiwanese, and then to the inclusion of Indigenous languages, the vocabulary of Taiwanese rock has continued to expand alongside social opening. Every breakthrough at the boundary of language has been accompanied by a release of creative energy.
+
+Today, when we hear LTK Commune's experimental noise, Chairman Band's Taiwanese-language rock, or Mayday's inspirational songs, what we hear is the sonic memory of Taiwan's social transformation and the testimony left by the spirit of free creation in musical form.
+
+**Further Reading**: [Taiwanese rock music — Wikipedia](https://zh.wikipedia.org/wiki/臺灣搖滾樂) | [Bureau of Audiovisual and Music Industry Development, Ministry of Culture](https://www.bamid.gov.tw/) | [The Next Big Thing | B'in Music](https://www.bin-music.com/) | [Hohaiyan Rock Festival](https://www.hohaiyan.com/)
 
 ## References
 
-1. Jen Chiang-ta, Ho Ying-yi, Chen Kong-hui (eds.), _Voice of Rock — New Music Encyclopedia_, Crystal Records, 1990. [Crystal Records — Wikipedia](https://zh.wikipedia.org/zh-tw/%E6%B0%B4%E6%99%B6%E5%94%B1%E7%89%87)
-2. [_Taiwan Rock Context Article_, PTT RockMetal board, 2022](https://www.ptt.cc/bbs/RockMetal/M.1652359027.A.050.html)
-3. [Fresh Music, _The Seeds of Taiwan's Independent Music: A Small Retrospective on Crystal Records' 30 Years_, 2016](https://freshmusic.sg/2016/12/11/crystal/)
-4. [Music Conspiracy Notes, _The Pioneer of Taiwan's Underground Music — Crystal Records' New Music Path_](http://jeph.bluecircus.net/archives/44)
-5. [PeoPo Citizen Journalism, _Besides "Mayday," Taiwan's Five Bands You Should Know Even More!_, 2013](https://www.peopo.org/news/252181)
-6. [Vocus, _Introduction to Taiwan's 1990s Bands and Their Classic Songs_, 2025](https://vocus.cc/article/675a8f37fd897800019cc23a)
-7. [Wikipedia, "Chairman Band" entry](https://zh.wikipedia.org/zh-hant/%E8%91%A3%E4%BA%8B%E9%95%B7%E6%A8%82%E5%9C%98)
-8. [Bureau of Audiovisual and Music Industry Development, Ministry of Culture](https://www.bamid.gov.tw/)
-9. [Taiwan Music Hall Website Resources](https://musiciantw.ncfta.gov.tw/)
-10. [Golden Melody Awards Historical Winners](https://gma.tavis.tw/)
+- Jen Chiang-ta et al., eds., *The Sound of Rock: New Music Encyclopedia*, Crystal Records, 1990. [Crystal Records, Wikipedia](https://zh.wikipedia.org/zh-tw/%E6%B0%B4%E6%99%B6%E5%94%B1%E7%89%87)
+- [*A Contextual Essay on Taiwanese Rock*, PTT RockMetal board, 2022](https://www.ptt.cc/bbs/RockMetal/M.1652359027.A.050.html)
+- [Freshmusic website, *The Seeds of Taiwanese Independent Music: A Brief 30th-Anniversary Retrospective on Crystal Records*, 2016](https://freshmusic.sg/2016/12/11/crystal/)
+- [InMusic Journal, *A Promoter of Taiwanese Underground Music: Crystal Records' Path of New Music*](http://jeph.bluecircus.net/archives/44)
+- [PeoPo Citizen Journalism, *Beyond "Mayday": Five Major Taiwanese Bands You Should Know Even More*, 2013](https://www.peopo.org/news/252181)
+- [Vocus, *An Introduction to Taiwanese Bands of the 1990s and Appreciation of Their Classic Songs*, 2025](https://vocus.cc/article/675a8f37fd897800019cc23a)
+- [Wikipedia, "Chairman Band" entry](https://zh.wikipedia.org/zh-hant/%E8%91%A3%E4%BA%8B%E9%95%B7%E6%A8%82%E5%9C%98)
+- [Bureau of Audiovisual and Music Industry Development, Ministry of Culture](https://www.bamid.gov.tw/)
+- [Taiwan Music Institute website resources](https://musiciantw.ncfta.gov.tw/)
+- [Golden Melody Awards historical winners](https://gma.tavis.tw/)
+
+[^1]: Freshmusic website, *The Seeds of Taiwanese Independent Music: A Brief 30th-Anniversary Retrospective on Crystal Records*, 2016. https://freshmusic.sg/2016/12/11/crystal/
+[^2]: InMusic Journal, *A Promoter of Taiwanese Underground Music: Crystal Records' Path of New Music*. http://jeph.bluecircus.net/archives/44
+[^3]: Wikipedia, *Chairman Band*. https://zh.wikipedia.org/zh-hant/%E8%91%A3%E4%BA%8B%E9%95%B7%E6%A8%82%E5%9C%98
+[^4]: PTT RockMetal board, *A Contextual Essay on Taiwanese Rock*, 2022. https://www.ptt.cc/bbs/RockMetal/M.1652359027.A.050.html
+[^5]: Bureau of Audiovisual and Music Industry Development, Ministry of Culture, music festival event records. https://www.bamid.gov.tw/

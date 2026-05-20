@@ -1,92 +1,95 @@
 ---
-title: 'Huang Chun-ming'
-description: "Autor de 'El gran muñeco del hijo' y 'Los días de mirar el mar', escritor representativo de la literatura rural de Yilan"
+title: 'Huang Chun-ming: Luodong 1935, cronista de los pequeños personajes de "Un día para ver el mar" a "El gran muñeco del hijo"'
+description: 'Nació el 13 de febrero de 1935 en Luodong, Yilan. "Un día para ver el mar" (1967) y "El gran muñeco del hijo" (1969) representan el núcleo de la literatura nativista taiwanesa centrada en los pequeños personajes. Debate de la literatura nativista en 1977. Ganador del Premio Literario Wu San-lien y del Premio Nacional de Artes Literarias. Su segundo hijo, Huang Kuo-chun (escritor), se suicidó el 20 de junio de 2003. Hou Hsiao-hsien llevó su obra al cine en 1983. Sigue vivo en 2026.'
 date: 2026-03-19
-tags:
-  [
-    personaje,
-    Huang Chun-ming,
-    El gran muñeco del hijo,
-    Los días de mirar el mar,
-    literatura rural,
-    Yilan,
-    gente común,
-  ]
+author: 'Taiwan.md'
+category: 'People'
 subcategory: '文學'
-lastVerified: 2026-03-19
-lastHumanReview: false
-translatedFrom: People/黃春明.md
-sourceCommitSha: a05d2431
-sourceContentHash: sha256:2ec7b54fb5bdb0ff
-sourceBodyHash: 'sha256:f81c1b7fb667e89e'
-translatedAt: 2026-05-01T22:19:10+08:00
-category: People
+tags: ['文學', '鄉土文學', '宜蘭', '小人物', '兒子的大玩偶', '看海的日子']
+readingTime: '# design_rationale:
+#   why_this_hook: "從作品年份的正確順序切入（看海1967先於兒子1969）——確認時序也是確認事實準確性的方式。"
+#   whats_excluded: "各短篇逐章分析；黃大魚兒童劇團歷年劇目；宜蘭文化活動細節"
+#   where_it_hedges: "〈看海的日子〉1967年發表時間以維基為準（P0⚠️建議實證確認）"'
+lastVerified: 2026-05-07
+lastHumanReview: true
+featured: false
+translatedFrom: 'People/黃春明.md'
+sourceCommitSha: '0f8fae0ae'
+sourceContentHash: 'sha256:fa94afa39f837939'
+sourceBodyHash: 'sha256:59fc287ce8c0baeb'
+translatedAt: '2026-05-20T05:08:32+08:00'
 ---
 
-# Huang Chun-ming: cronista de la vida de la gente común
+# Huang Chun-ming: Luodong 1935, cronista de los pequeños personajes de "Un día para ver el mar" a "El gran muñeco del hijo"
 
-Huang Chun-ming es uno de los escritores más representativos de la literatura rural taiwanesa, un maestro literario que retrata con una prosa cálida la vida de las clases populares. Nacido en 1935 en Luodong, Yilan, se profundamente arraigado en esta tierra, registrando con palabras las alegrías y tristezas de la gente común durante los cambios sociales de Taiwán. Desde _El gran muñeco del hijo_ hasta _Los días de mirar el mar_, desde _El sabor de la manzana_ hasta _Sayonara, adiós_, las obras de Huang Chun-ming están llenas de compasión por la naturaleza humana y de un profundo afecto por la tierra. Sus personajes son siempre gente común y corriente: ciclistas de triciclo, tenderos, prostitutas, campesinos; pero bajo su delicada descripción, todos irradian un resplandor conmovedor, mostrando la dignidad y la resiliencia del ser humano.
+> **Resumen en 30 segundos:** Huang Chun-ming nació el 13 de febrero de 1935 en Luodong, Yilan, y sus raíces están profundamente ligadas a esa región. Su obra se centra en los pequeños personajes de los estratos más bajos de la sociedad.[^1] "Un día para ver el mar" se publicó aproximadamente en 1967 (P0⚠️ se recomienda verificar el año exacto), y "El gran muñeco del hijo" en 1969.[^1] En 1977 estalló el debate de la literatura nativista, y Huang Chun-ming fue uno de los escritores más discutidos.[^2] Recibió el Premio Literario Wu San-lien y el Premio Nacional de Artes Literarias.[^1] En 1983, Hou Hsiao-hsien dirigió la película homónima.[^3] Su segundo hijo, Huang Kuo-chun (escritor), se suicidó el 20 de junio de 2003.[^4] En 2026, Huang Chun-ming sigue vivo.
 
-## Los años de formación en Yilan
+## Nacido en Luodong: el observatorio del maestro de primaria
 
-Huang Chun-ming nació el 13 de febrero de 1935 en el pueblo de Luodong, en el condado de Yilan, una pequeña localidad situada en la llanura de Lanyang que más tarde se convertiría en el escenario fundamental de su obra literaria. Su padre regentaba un pequeño negocio y la situación económica familiar no era próspera. Durante su infancia, Huang Chun-ming asistió a la escuela pública de Luodong, en una época en la que Taiwán aún se encontraba bajo dominio japonés, por lo que recibió una educación de estilo japonés.
+Huang Chun-ming nació el 13 de febrero de 1935 en el municipio de Luodong, Yilan, y creció en un Taiwán marcado por el final del periodo colonial japonés y la agitación de la posguerra.[^1] Su padre regentaba un pequeño negocio y la familia no gozaba de holgura económica.
 
-Tras la guerra, el régimen político de Taiwán cambió y el sistema educativo se transformó en consecuencia. Huang Chun-ming ingresó en la secundaria de Yilan y comenzó a familiarizarse con la literatura china. Durante este período, leyó extensamente obras de literatura clásica, y en particular novelas por capítulos como _A la orilla del agua_ (_Shuihu Zhuan_) y _Romance de los Tres Reinos_ (_Sanguo Yanyi_), que ejercieron una profunda influencia en él. La vívida descripción de los personajes humildes en estas obras sentó las bases importantes para su futura creación literaria.
+Tras graduarse en la Escuela Normal de Taipéi (hoy Universidad Nacional de Educación de Taipéi) en la especialidad de arte, regresó a Yilan para ejercer como maestro de escuela primaria, inmerso durante años en la vida cotidiana de las comunidades rurales y las clases populares. Esas observaciones de la vida real se convirtieron con el tiempo en la materia prima de toda su narrativa.
 
-Tras graduarse de la secundaria, Huang Chun-ming ingresó en la Escuela Normal de Taipéi (actual Universidad de Educación de Taipéi), donde se especializó en artes. Su experiencia en la escuela normal no solo le proporcionó una formación educativa formal, sino que también cultivó su interés por las artes plásticas y la música. Esta formación artística diversa se integró posteriormente en su creación literaria, dotando de una rica dimensión artística a sus obras.
+El puesto de maestro de primaria le otorgó a Huang Chun-ming un observatorio único: se situaba en la frontera entre el conocimiento y la ignorancia, entre la ciudad y el campo, enfrentándose día a día a la realidad de los niños rurales. Esta posición dotó a sus novelas de una estructura propia del intelectual, pero también de la textura auténtica de la vida de los más desfavorecidos.
 
-## Carrera docente y despertar creativo
+## "Un día para ver el mar": la prostituta Bai Mei y la mirada sin juicio
 
-Tras graduarse, Huang Chun-ming regresó a Yilan para ejercer como maestro de escuela primaria, un cargo que desempeñó durante más de una década. Como maestro rural, entró en contacto con estudiantes y familias de muy diversos orígenes, lo que le permitió comprender a fondo la realidad de la sociedad rural taiwanesa. Estas experiencias vitales se convirtieron en un material valioso para su obra posterior.
+"Un día para ver el mar" se publicó aproximadamente en 1967.[^1] La historia retrata a Bai Mei, una prostituta que se gana la vida en la ciudad para mantener a su hijo en el campo, presentando el mundo interior de una mujer marginal desde la empatía y no desde la condena moral. Se recomienda consultar los registros originales de revistas literarias para confirmar el año exacto de publicación.
 
-En 1956, a los 21 años, Huang Chun-ming comenzó a experimentar con la creación literaria y publicó su primera obra, _El barrendero_ (_Qingdaofu_), en el suplemento literario del _United Daily News_. Este relato, que describe la vida cotidiana de un barrendero, aunque breve, ya mostraba su tendencia creativa a centrarse en la gente común. En los años siguientes, publicó sucesivamente varios cuentos cortos y fue ganando poco a poco reconocimiento en el mundo literario.
+Lo singular de "Un día para ver el mar" reside en su tono humanista: Bai Mei es prostituta, pero la perspectiva narrativa de Huang Chun-ming no emite juicio moral alguno, solo una profunda compasión. Esta actitud de "no juzgar, solo observar" constituye el fundamento espiritual más constante de su literatura nativista; en aquella época, dicha actitud era en sí misma una postura literaria.
 
-La década de 1960 constituyó un período de inflexión importante en la creación de Huang Chun-ming. La sociedad taiwanesa atravesaba entonces un rápido proceso de modernización, y la sociedad agrícola tradicional se enfrentaba a un enorme impacto. Como maestro rural, Huang Chun-ming fue testigo directo de cómo estos cambios afectaban la vida de la gente común, y estas observaciones se convirtieron en un tema central de su obra.
+## "El gran muñeco del hijo": la payasada de Kun-shu y la dignidad
 
-## _El gran muñeco del hijo_: la gente común ante el impacto de la modernización
+En 1969 se publicó "El gran muñeco del hijo".[^1] La historia describe a Kun-shu, un padre que se disfraza de payaso para hacer publicidad y así mantener a su familia. Cuando la agencia publicitaria quiebra, su hijo llora sin consuelo al no ver al payaso que ya conocía. El núcleo de este relato es la difícil situación de supervivencia y la dignidad humana de los pequeños personajes frente al impacto de la modernización.
 
-_El gran muñeco del hijo_ (_Erzi de wan'ou_), publicado en 1969, es una de las obras más célebres de Huang Chun-ming. El relato describe a un padre que, para mantener a su familia, se disfraza de payaso para publicitar productos; cuando la empresa publicitaria quiebra y él pierde el empleo, su hijo llora y se desconsuela al no ver a su payaso familiar. Esta historia en apariencia sencilla revela con profundidad las dificultades de supervivencia y las cuestiones de dignidad humana a las que se enfrenta la gente común en el proceso de modernización.
+En 1983, Hou Hsiao-hsien dirigió la película adaptada *El gran muñeco del hijo*, uno de los hitos fundamentales del Nuevo Cine Taiwanés.[^3] El éxito de la adaptación de Hou se debe en gran medida a la concreción de la obra original de Huang Chun-ming: Kun-shu no es un personaje conceptual de "pequeño personaje marginal", sino una persona real con dificultades precisas y acciones concretas. El lenguaje narrativo se transformó en lenguaje cinematográfico, y gracias a esa concreción, no se perdió en el proceso.
 
-El protagonista de la novela, Kunshu, es un campesino bondadoso y honesto que, para alimentar a su esposa e hijos, se ve obligado a dejar de lado su dignidad y a recorrer las calles con carteles publicitarios colgados del cuerpo. A través de este personaje, Huang Chun-ming muestra las dificultades que enfrenta la gente común durante el período de transición social de Taiwán: los modos de vida tradicionales se desmoronan, mientras que las nuevas formas de supervivencia están llenas de incertidumbre.
+La cuestión central de "El gran muñeco del hijo" no reside solo en la pobreza, sino en la dignidad: el hecho de que Kun-shu se disfrace de payaso vincula su medio de subsistencia con la imagen que su hijo tiene de él. Cuando la agencia publicitaria cierra y el disfraz de payaso desaparece, el llanto del hijo revela la pérdida más difícil de articular en el proceso de modernización: la impotencia de verse obligado a elegir qué rostro presentar al mundo.
 
-El éxito de este relato no reside únicamente en su profunda perspicacia social, sino también en la cálida compasión del autor hacia la naturaleza humana. A pesar de la difícil situación del protagonista, Huang Chun-ming no recurre a un tono pesimista, sino que, a través de una delicada descripción psicológica y diálogos humorísticos, muestra la fortaleza y la dignidad de la gente común ante la adversidad.
+La escritura de Huang Chun-ming sobre los pequeños personajes nunca es lastimera; habla pegado a las personas. Ese "modo de hacer" hace que sus novelas sigan siendo vigentes décadas después.
 
-## _Los días de mirar el mar_: canto a la vida de una mujer marginal
+## Su posición en el debate de la literatura nativista de 1977
 
-_Los días de mirar el mar_ (_Kan hai de rizi_), publicado en 1967, es otra obra fundamental de Huang Chun-ming. El relato describe a una prostituta llamada Bai Mei, que se dedica al comercio carnal en la ciudad para mantener a su hijo, quien vive en el campo. A pesar de su condición humilde, conserva siempre el amor maternal y la aspiración a una vida mejor.
+En 1977 estalló el "debate de la literatura nativista", en el que los críticos cuestionaron la postura política de esta corriente. Huang Chun-ming fue uno de los escritores más debatidos en dicho enfrentamiento.[^2] No cedió ni se retractó, y continuó firme en su dirección creativa de dar voz a las clases populares.
 
-Esta novela generó una considerable controversia en su época, ya que abordaba de manera directa la vida de una prostituta y desafiaba las concepciones morales tradicionales. Sin embargo, Huang Chun-ming no eludió este tema delicado, sino que, con una actitud de empatía y comprensión, mostró el mundo interior de esta mujer marginal. Aunque Bai Mei ejerce una profesión socialmente despreciada, su amor por su hijo es puro y su actitud ante la vida es positiva.
+El impacto del debate de la literatura nativista sobre Huang Chun-ming radicó en que su obra fue forzada a encajar en un marco político que él no había buscado. Él escribía sobre pequeños personajes porque existían de verdad y necesitaban ser vistos; la dimensión política fue un marco interpretativo impuesto por otros. Tras el debate, su postura no cambió: eligió seguir haciendo con la literatura lo que siempre había hecho — hacer visibles a esas personas.
 
-El título del relato, _Los días de mirar el mar_, posee un profundo significado simbólico. El mar representa la esperanza y la libertad; el hecho de que Bai Mei sea capaz de "mirar el mar" en medio de su vida difícil indica que no ha perdido la aspiración a un futuro mejor. Esta trascendencia espiritual es precisamente el resplandor de la naturaleza humana que Huang Chun-ming desea transmitir.
+## Premios literarios
 
-## Abanderado del movimiento de literatura rural
+Huang Chun-ming ha recibido el Premio Literario Wu San-lien y el Premio Nacional de Artes Literarias.[^1] Ambos galardones representan el máximo reconocimiento de la esfera literaria taiwanesa a una trayectoria creativa sostenida: el Premio Wu San-lien valora la calidad literaria intrínseca de la obra, mientras que el Premio Nacional de Artes Literarias es una evaluación global de la contribución de toda una carrera. Que Huang Chun-ming haya obtenido ambos premios demuestra que su escritura sobre los pequeños personajes, bajo los estrictos criterios de los jurados literarios, nunca fue mera exhibición de "sentimiento rural".
 
-En la década de 1970, surgió en el mundo literario taiwanés el movimiento de literatura rural, y Huang Chun-ming se convirtió en una de sus figuras representativas más importantes. A diferencia de la pionera escritura rural de Zhong Lihe (鍾理和), Huang Chun-ming se centró más en las condiciones de vida de los habitantes rurales y de los grupos marginados urbanos bajo el impacto de la modernización. Sus obras reflejan el complejo panorama de la sociedad taiwanesa en un período de transición.
+## El fallecimiento de su segundo hijo Huang Kuo-chun en 2003
 
-El movimiento de literatura rural enfatizaba que la literatura debía reflejar la realidad local y preocuparse por la vida de las clases populares. La creación de Huang Chun-ming se ajustaba plenamente a estos requisitos: nunca eludía deliberadamente los problemas sociales, sino que mostraba su complejidad a través de historias vívidas. Sus personajes se encuentran a menudo en los márgenes de la sociedad, pero todos poseen cualidades dignas de respeto.
+Huang Kuo-chun, segundo hijo de Huang Chun-ming y también escritor, se suicidó el 20 de junio de 2003.[^4] Entre sus obras se encuentra *Preguntas al agua* (*Shui Wen*), y su figura constituye un componente esencial de la memoria familiar y literaria de los Huang en el panorama literario taiwanés.
 
-En 1977 estalló el "Debate sobre la literatura rural", y esta corriente fue objeto de cuestionamientos y ataques políticos. En ese período delicado, Huang Chun-ming no transigió ni retrocedió, sino que continuó fiel a sus principios creativos. Consideraba que la misión de la literatura era reflejar la vida real y preocuparse por el destino de la gente común.
+El fallecimiento de Huang Kuo-chun fue el momento más doloroso en la vida personal de Huang Chun-ming, y también una pérdida compartida por toda la comunidad literaria taiwanés. Heredó el espíritu de la literatura nativista de la generación de su padre, pero lo condujo hacia una vía de escritura más introspectiva y personal. Ese camino no llegó a completarse, y la brecha que dejó representa la interrupción de una posible dirección literaria, algo más difícil de llenar que la desaparición de un escritor.
 
-## Creación diversificada y promoción cultural
+En 2026, Huang Chun-ming sigue vivo.
 
-Además de su obra narrativa, Huang Chun-ming incursionó en múltiples ámbitos culturales. Escribió obras de literatura infantil, preocupándose por la educación y el desarrollo de las nuevas generaciones. También incursionó en la dramaturgia, adaptando sus novelas al teatro, y expresando la misma preocupación humanista a través de distintas formas artísticas.
+Nacido en 1935, Huang Chun-ming supera en 2026 los 90 años de edad, siendo uno de los representantes más importantes aún vivos de la generación de la literatura nativista taiwanesa. En sus últimos años ha mantenido un compromiso constante con la cultura infantil; el trabajo del Teatro Infantil Gran Pez Amarillo (*Huang Da Yu*) prolonga su dedicación a la preservación de la cultura local de Yilan. De la novela al teatro, su "atención a los más vulnerables" nunca se ha interrumpido.
 
-A partir de la década de 1980, Huang Chun-ming dedicó más energía a la promoción de la cultura local de Yilan. Participó en la fundación del "Grupo de Teatro Infantil Huang Dayu", dedicado a la educación teatral infantil. También participó activamente en la construcción cultural de Yilan, impulsando el desarrollo de la literatura local.
+**Lectura convencional → Lectura más precisa:** Huang Chun-ming suele ser catalogado como "escritor nativista de Yilan", pero esa etiqueta regional oscurece la universalidad de su obra. Los pequeños personajes que retrata (prostitutas, vendedores ambulantes, trabajadores migrantes) son figuras concretas del periodo de acelerada modernización de Taiwán, pero su situación refleja los costos que aparecen en cualquier sociedad en proceso de modernización rápida. No escribe sobre "Yilan", escribe sobre "las personas olvidadas por el desarrollo".
 
-Huang Chun-ming sentía un profundo afecto por la tierra de Yilan, y siempre sostuvo que los escritores debían arraigarse en la tierra que conocían para extraer de ella los nutrientes de su creación. Esta concepción literaria influyó en muchos escritores posteriores y contribuyó de manera importante al desarrollo de la literatura local taiwanesa.
+> 🎙️ **Nota del comisario:** Huang Chun-ming es uno de los escritores de la literatura nativista taiwanesa que ha logrado con mayor éxito trascender los dos ejes de la "valoración interna literaria" y la "recepción del lector general". Sus historias han sido adaptadas al cine (versión de Hou Hsiao-hsien), incluidas en libros de texto y reconocidas por jurados de premios literarios — ese reconocimiento multinivel demuestra que su lenguaje posee una amplitud de penetración poco común.
+>
+> El fallecimiento de su segundo hijo Huang Kuo-chun en 2003 fue el momento más doloroso de su vida personal. Las obras que Huang Kuo-chun dejó atrás son igualmente valoradas por el mundo literario. La influencia que esa tragedia tuvo en la obra posterior de Huang Chun-ming es el capítulo más difícil de articular — y el que menos debería omitirse — en su biografía literaria.
+>
+> Los 91 años de vida de Huang Chun-ming abarcan todo el proceso de Taiwán desde el final del periodo colonial japonés, la agitación de la posguerra, el debate de la literatura nativista hasta la transformación cultural taiwanesa de los años 2000. Sus novelas documentan a las personas olvidadas por la rápida modernización durante ese proceso, y él mismo se ha convertido en uno de los testigos más perdurables de esa historia.
 
-## Logros literarios e influencia contemporánea
+De maestro de primaria en Luodong a figura representativa de la literatura nativista taiwanesa, de la novela al teatro infantil, los 91 años de vida de Huang Chun-ming son la demostración de una dedicación de seis décadas a "prestar atención a las personas que tiene cerca".
 
-Las obras de Huang Chun-ming ocupan un lugar importante en la historia de la literatura taiwanesa. Junto con escritores como Bai Xianyong (白先勇) y Wang Wenxing (王文興), constituye una parte fundamental del panorama de la literatura moderna taiwanesa. La diferencia radica en que, si Bai Xianyong se centró en el mundo espiritual de los intelectuales urbanos, Huang Chun-ming puso su atención en la realidad vital de las clases populares.
+En 2026 sigue vivo, y ese hecho en sí mismo es la respuesta más silenciosa a todos los que cuestionaron la vía de la literatura nativista: el camino que eligió lo ha recorrido durante sesenta años, y sigue recorriéndolo.
 
-Su lenguaje narrativo es sencillo y vívido, impregnado de la atmósfera cotidiana de Taiwán. Sabía emplear dialectos y jerga local, dotando a los diálogos de los personajes de una autenticidad notable. Al mismo tiempo, era hábil en el uso del símbolo y la metáfora, otorgando a sus obras un significado profundo. Este estilo de escritura, accesible tanto para el lector culto como para el popular, confiere a sus obras tanto valor literario como una amplia audiencia.
-
-Muchas de sus obras han sido adaptadas al cine y a la televisión, siendo la más célebre la película _El gran muñeco del hijo_, dirigida por Hou Hsiao-hsien. El éxito de estas adaptaciones audiovisuales amplió aún más la influencia de su obra, permitiendo que más personas descubrieran el encanto de la literatura rural taiwanesa.
-
-En los últimos años, a pesar de su avanzada edad, Huang Chun-ming sigue activo en el mundo literario. Continúa creando nuevas obras y participando en diversas actividades literarias. Su espíritu creativo y su compromiso humanista siguen conmoviendo a las nuevas generaciones de lectores, demostrando que las obras literarias verdaderamente excelentes poseen un valor que trasciende las épocas.
+**Lecturas complementarias:** [Huang Chun-ming — Wikipedia](https://zh.wikipedia.org/zh-tw/黃春明) ｜ [The Reporter: Literatura nativista y Huang Chun-ming](https://www.twreporter.org/a/1970s-taiwan-nativist-literature-huang-chunming) ｜ [Museo Nacional de Literatura Taiwanesa](https://www.nmtl.gov.tw/)
 
 ## Referencias
 
-- [Obras completas de Huang Chun-ming – Unitas](https://unitas.udngroup.com.tw/author/1234567) – Página de las obras de Huang Chun-ming en la editorial Unitas
-- [Oficina de Cultura del Gobierno del Condado de Yilan – Museo Literario Huang Chun-ming](https://www.ilanccb.gov.tw/News_Content.aspx?n=299&s=456789) – Presentación oficial del Museo Literario Huang Chun-ming en Yilan
-- [Museo Nacional de Literatura Taiwanesa – Archivo digital de Huang Chun-ming](https://www.nmtl.gov.tw/informationlist_178.html) – Materiales y estudios relacionados con Huang Chun-ming en el Museo Nacional de Literatura Taiwanesa
+[^1]: [Wikipedia: Huang Chun-ming](https://zh.wikipedia.org/zh-tw/黃春明) — Confirma el nacimiento el 13 de febrero de 1935 en Luodong, Yilan; "Un día para ver el mar" (aprox. 1967), "El gran muñeco del hijo" (1969); premios Wu San-lien y Nacional de Artes Literarias.
+
+[^2]: [The Reporter: Debate de la literatura nativista taiwanesa en los años 70](https://www.twreporter.org/a/1970s-taiwan-nativist-literature-huang-chunming) — Incluye los detalles del debate de la literatura nativista de 1977 y la posición de Huang Chun-ming en el mismo.
+
+[^3]: [Wikipedia: El gran muñeco del hijo (película)](<https://zh.wikipedia.org/zh-tw/兒子的大玩偶_(電影)>) — Confirma que Hou Hsiao-hsien dirigió *El gran muñeco del hijo* en 1983, obra representativa del Nuevo Cine taiwanés.
+
+[^4]: [Reportaje relacionado: Fallecimiento de Huang Kuo-chun en 2003](https://zh.wikipedia.org/zh-tw/黃國峻) — Confirma que Huang Kuo-chun, segundo hijo de Huang Chun-ming (escritor), se suicidó el 20 de junio de 2003.
+
+[^5]: [Museo Nacional de Literatura Taiwanesa: Archivo digital de Huang Chun-ming](https://www.nmtl.gov.tw/) — Colección de obras y datos biográficos de Huang Chun-ming.

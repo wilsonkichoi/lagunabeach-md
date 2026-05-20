@@ -1,101 +1,104 @@
 ---
-title: 'Lu Guan-wei: Founder of Junyi Academy'
-description: "Chairman and CEO of Taiwan's Junyi Academy Education Foundation — a National Taiwan University Medical School graduate who gave up medicine to use AI-driven adaptive learning to let 5.28 million Taiwanese children advance at their own pace, turning 'educational equity' from slogan into daily practice."
+title: "Lu Guan-Wei"
+description: "A National Taiwan University medical school graduate who left medicine to teach, Lu Guan-Wei is the chairman and CEO of Junyi Academy. Using AI-powered adaptive learning, he has enabled 5.28 million children across Taiwan to learn at their own pace — turning 'educational equity' from a slogan into everyday reality."
 date: 2026-04-05
+author: "Taiwan.md"
+category: "People"
+subcategory: "教育與社會"
 tags:
   [
-    'education',
-    'Junyi Academy',
-    'online learning',
-    'education technology',
-    'social enterprise',
-    'rural education',
-    'AI education',
-    'adaptive learning',
+    "Education",
+    "Junyi Academy",
+    "Online Learning",
+    "EdTech",
+    "Social Enterprise",
+    "Rural Education",
+    "AI Education",
+    "Adaptive Learning",
   ]
-subcategory: '教育與社會'
-author: 'Taiwan.md'
 readingTime: 7
-category: 'People'
-translatedFrom: 'People/呂冠緯.md'
-sourceCommitSha: '84ed9453'
-sourceContentHash: 'sha256:743ecf11453dec54'
-sourceBodyHash: 'sha256:e745c8c9be8a26cb'
-translatedAt: '2026-05-01T13:44:02+08:00'
+lastVerified: 2026-04-05
+lastHumanReview: false
+featured: false
+translatedFrom: People/呂冠緯.md
+sourceCommitSha: 4b6d28c54
+sourceContentHash: sha256:28ed6db1c088c105
+sourceBodyHash: sha256:fc65e6f7ec999bbf
+translatedAt: 2026-05-20T05:08:27+08:00
 ---
 
-# Lu Guan-wei: Letting Every Taiwanese Child Learn at Their Own Pace
+# Lu Guan-Wei: Enabling Every Child in Taiwan to Learn at Their Own Pace
 
-**Thirty-Second Overview**
-A top graduate of NTU Medical School who passed his medical license exam, Lu Guan-wei decided in 2013 not to put on a white coat — and instead went to record free math videos. Twelve years later, he has built Junyi Academy (均一教育平台) into Taiwan's largest nonprofit online learning system, with a cumulative 5.28 million users and 270,000 active monthly learners, using AI to place children in remote areas on the same starting line as children in cities.[^1]
-This is not charity — this is his way of treating "education" as the most urgently needed digital infrastructure in Taiwan.
+**At a Glance in 30 Seconds**
+You know what? Lu Guan-Wei — a top graduate of NTU's medical school who had already earned his medical license — decided in 2013 not to put on a white coat and instead went to record free math videos. Twelve years later, he built Junyi Academy into Taiwan's largest nonprofit online learning platform, with 5.28 million registered users and 270,000 monthly active learners, using AI to put rural and urban children on the same starting line.[^1]
+This isn't charity. He treats "education" as Taiwan's most critical digital infrastructure.
 
-## From Doctor to Educator
+## From Physician to Educator
 
-At the start of 2013, Lu Guan-wei had just graduated from NTU Medical School. He had his medical license in hand.
-In most people's eyes, he was already living proof of success.
-But he chose a different path — joining the Cheng-Zhi Education Foundation to record the first math video for Junyi Academy.
+In early 2013, Lu Guan-Wei had just graduated from NTU's medical school and obtained his medical license.
+In most people's eyes, this path already spelled success.
+But he chose another — joining the Chengzhi Education Foundation and recording the very first math video for Junyi Academy.
 
-He has said that a doctor can save one patient at a time, but education can change the future of millions of families.[^2]
-This decision was later called by many in Taiwan's education community "an entropy-reversing action."
+He said a doctor can only save one patient at a time, but education can change the future of millions of families.[^2]
+This decision was later called by many "an act of reverse entropy in Taiwan's education world."
 
-Curator's note: A medical school graduate bringing "evidence-based practice" from the clinic into the classroom is not just a career pivot — it is the most direct possible response to the urban-rural education gap in Taiwan.
+📝 **Curator's Note**: A medical student brought "evidence-based practice" from the clinic into the classroom. This wasn't just a career pivot — it was the most direct response to Taiwan's urban-rural education gap.
 
 ## Junyi Academy
 
-"Junyi" (均一) is composed of the characters for "equal" and "excellent."
-The platform covers complete curricula from elementary school through senior high school in mathematics, natural science, and language arts, and the entire site is permanently free of charge.
-As of the end of 2025, official data show:[^3]
+"Junyi" (均一) means "equal and first-class."
+The platform covers elementary through high school, offering complete courses in math, science, language arts, and more — all permanently free.
+As of the end of 2025, official figures show:[^3]
 
-| Item                                | Data              |
-| ----------------------------------- | ----------------- |
-| Registered users                    | Over 5.28 million |
-| Monthly active users                | Over 270,000      |
-| Number of videos                    | Over 41,000       |
-| Number of practice problems         | Over 108,000      |
-| Proportion of rural schools served  | Nearly 25%        |
-| Children receiving learning support | Over 14,500       |
+| Metric                              | Data                    |
+| ----------------------------------- | ----------------------- |
+| Registered users                    | Over 5.28 million       |
+| Monthly active users                | Over 270,000            |
+| Number of videos                    | Over 41,000             |
+| Number of practice problems         | Over 108,000            |
+| Proportion serving rural schools    | Nearly 25%              |
+| Children in remedial learning       | Over 14,500             |
 
 ## The Philosophy of Adaptive Learning
 
-Lu Guan-wei's most central belief is "adaptive learning": education should adapt to children, not children adapting to a standardized pace.
+Lu Guan-Wei's core belief is "adaptive learning": education should adapt to the child, not the other way around.
 
-The platform uses AI to analyze learning trajectories and has developed tools including Jutor (an AI English tutor), a 10-minute diagnostic system, and a real-time question-and-answer notebook.
-Children who fall behind can go back and fill in foundational gaps; children who learn quickly can explore ahead of the curriculum.
-This is almost impossible in a traditional classroom, but on Junyi Academy it is already the daily reality for 270,000 people.[^4]
+The platform uses AI to analyze learning trajectories, developing tools such as Jutor (an AI English tutor), a 10-minute diagnostic system, and a real-time question notebook.
+Children who fall behind can go back to fill in foundational gaps; those who learn quickly can explore ahead.
+This is nearly impossible in a traditional classroom, but on Junyi Academy, it is already the daily reality for 270,000 learners.[^4]
 
-Curator's note: After the pandemic, Taiwan saw an M-shaped learning divide — urban children accelerating, rural children falling further behind. Junyi uses AI to transform the "standardized-pace classroom" into a "personalized track," and this is precisely the structural gap that technology can genuinely fill.
+📝 **Curator's Note**: After the pandemic, Taiwan saw a growing M-shaped learning divide — urban children accelerated while rural children fell further behind. Junyi uses AI to transform the "one-pace-fits-all" classroom into a "personalized track," precisely the structural gap that technology can truly bridge.
 
-## Social Enterprise Practice and Challenges
+## Social Enterprise in Practice and Its Challenges
 
-Junyi is a nonprofit organization; all content is completely free, and funding comes almost entirely from private donations.
-Lu Guan-wei positions education as "infrastructure" — like roads and running water, something every child should be able to access as a public good, free of charge.
+Junyi is a nonprofit organization. All content is entirely free, and funding comes almost entirely from private donations.
+Lu positions education as "infrastructure" — like roads and running water, something every child should be able to use freely as a public good.
 
-But he has never concealed the challenges: traditional education circles still have reservations about digital tools; teacher turnover in rural areas is high; the platform must continuously fundraise to maintain its independence.
-The path he has chosen was never the easiest one, yet twelve years of work have proven — in Taiwan, a social enterprise is not merely a slogan, but a force capable of genuinely changing the lives of millions of people.[^5]
+But he never hides the challenges: the traditional education sector still has reservations about digital tools, rural teacher turnover remains high, and the platform must continuously fundraise to maintain its independence.
+The path he chose was never the easiest one, but over twelve years he has proven that in Taiwan, social enterprise is more than a slogan — it is a force that can genuinely transform millions of lives.[^5]
 
-Curator's note: While everyone else is still discussing "education reform," Lu Guan-wei has already turned reform into the daily practice of 270,000 people. This is the "urgent patience" that Taiwan most needs.
+📝 **Curator's Note**: While others are still debating "education reform," Lu Guan-Wei has already made reform into a daily reality used by 270,000 people every day. This is the "urgent patience" Taiwan needs most.
 
 ## Further Reading
 
-- Yeh Ping-cheng (葉丙成): PaGamO gamified learning platform — another path of educational innovation
-- Huang Kuo-chen (黃國珍): Pin-Xue-Tang reading literacy education — cultivating thinking rather than memorization
-- Stan Shih (嚴長壽): The tourism patriarch who turned to rural education
-- Audrey Tang (唐鳳): The intersection of digital governance and education technology
+- [Ye Bing-Cheng](/people/葉丙成): PaGamO gamified learning platform — another path of education innovation
+- [Huang Guo-Zhen](/people/黃國珍): Reading literacy education at Pinshuetang — cultivating thinking over memorization
+- [Yen Chang-Shou](/people/嚴長壽): The godfather of tourism who turned to rural education
+- [Audrey Tang](/people/唐鳳): Where digital governance meets education technology
 
 ## References and Footnotes
 
 [^1]: Junyi Academy Education Foundation 2025 Annual Impact Report
 
-[^2]: Lu Guan-wei Medium essay, "The Knight Who Flips Education"
+[^2]: Lu Guan-Wei's Medium essay, "The Swordsman of Flipped Education"
 
-[^3]: Junyi Academy Education Foundation official website latest data (updated December 2025)
+[^3]: Latest data from the official Junyi Academy website (updated December 2025)
 
-[^4]: Ibid., AI tools usage data
+[^4]: Ibid., AI tool usage data
 
-[^5]: Business Weekly interview, "Picking Up the Baton: How Lu Guan-wei Is Transforming Education"
+[^5]: Business Weekly interview, "Taking Up the Baton: How Lu Guan-Wei Is Transforming Education"
 
-Source links:
+Source Links:
 
 - Junyi Academy official website: https://www.junyiacademy.org/
 - 2025 Annual Impact Report: https://official.junyiacademy.org/2025-annual-report/

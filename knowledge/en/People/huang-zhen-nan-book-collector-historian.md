@@ -1,101 +1,65 @@
 ---
-title: "Huang Zhen-nan: The Takenouchi Yutaka of Book Collecting and Taiwan's Living History Source"
-description: 'Huang Zhen-nan is a Taiwanese cultural historian, book collector, and writer who gained fame through his PTT username Sizumaru and runs the "Living Water Bookstore" social media presence sharing Taiwan history and antiquarian book culture. Author of "The Most Entertaining Taiwan History Ever," he''s dubbed "the Takenouchi Yutaka of book collecting" for making serious Taiwan history accessible and engaging.'
-date: 2026-03-20T00:00:00Z
-updated: 2026-03-20T00:00:00Z
-tags:
-  [
-    'Taiwan history',
-    'book collector',
-    'Huang Zhen-nan',
-    'Taiwanese history',
-    'Living Water Bookstore',
-  ]
-subcategory: 'Literature'
-author: 'Taiwan.md Contributors (sourced from Wikipedia and public reports)'
-difficulty: 'intermediate'
-readingTime: 10
-category: 'People'
-featured: false
+title: "Huang Zhen-nan"
+description: "Huang Zhen-nan is a Taiwanese cultural historian, book collector, and writer. Through his 'Huoshuilaifang' page, he shares Taiwan's history and old-book culture. He is the author of works such as *The Most Hilarious History of Taiwan*."
+date: 2026-03-20
+author: "Taiwan.md Contributors"
+category: "People"
+subcategory: "文學"
+tags: ["台灣文史", "藏書家", "黃震南", "台灣歷史", "活水來冊房"]
 lastVerified: 2026-03-20
 lastHumanReview: false
-translatedFrom: 'People/黃震南.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:26157944457addef'
-sourceBodyHash: 'sha256:5572b1dffb016fcd'
-translatedAt: '2026-04-14T12:25:09+08:00'
+featured: false
+translatedFrom: "People/黃震南.md"
+sourceCommitSha: "18157ab5d"
+sourceContentHash: "sha256:e3d5f3c7c92e369d"
+sourceBodyHash: "sha256:0c3024d2af149e55"
+translatedAt: "2026-05-20T05:08:27+08:00"
 ---
 
-# Huang Zhen-nan: The Takenouchi Yutaka of Book Collecting and Taiwan's Living History Source
+# Huang Zhen-nan: A Family of Bibliophiles and a Living Source of Taiwan's Cultural History
 
-## 30-Second Overview
+> **30-second overview:** Huang Zhen-nan is a Taiwanese cultural historian and book collector, born in 1980 in Liujiao Township, Chiayi County. Together with his father, Huang Zhe-yong, he developed a complementary "father in the south, son in the north" book-collecting model. In 2009, he founded the "Huoshuilaifang" Facebook page, using a humorous tone to promote Taiwan history and old-book culture. His works include *The Most Hilarious History of Taiwan* and *A Home of Books*, and the media has called him the storyteller of Taiwan's cultural history scene.
 
-Starting from a scholarly family in Liujiao, Chiayi, Huang Zhen-nan could read at age two and later formed a north-south book collecting partnership with his father. Since 2009, through his "Living Water Bookstore" social media presence, he has shared Taiwan history and antiquarian book culture. Author of "The Most Entertaining Taiwan History Ever" and "The Book Collecting Family," he's known as "the Takenouchi Yutaka of book collecting" for using humor to transform Taiwan cultural history from niche academic pursuit into popular fascination, preserving Taiwan's literary heritage while inspiring young people to love reading.
+## A Family of Bibliophiles and Upbringing
 
-**Keywords**: Book collector, Taiwan history, Living Water Bookstore, Nishikawa Mitsuru, Tsai Pei-huo, second-generation bibliophile
+Huang Zhen-nan was born in 1980 in Liujiao Township, Chiayi County. From a young age, he followed his father, Huang Zhe-yong (a researcher of folk literature and Chinese studies), on visits to used bookstores. His father came from a third-class poor household yet was passionate about book collecting—this devotion to the written word ran through the family. After graduating from university, Huang Zhen-nan worked in northern Taiwan while his father remained in the south, forming a "father in the south, son in the north" complementary model in which they separately collected Taiwanese literature, traditional literary works, and various historical books.[^1]
 
----
+Huang Zhen-nan's interest in book collecting began with the wuxia novels of Wen Rui'an from the 1980s to 1990s, gradually expanding to include pure literature, Taiwanese historical materials, and publications from the Japanese colonial period. He graduated from the Department of Language Education at National Taichung University of Education and earned a master's degree from the Department of Taiwan Languages and Literature at National Taiwan Normal University. This academic background gave him the ability to identify editions and verify historical materials while amassing a large collection.
 
-## 5-Minute Deep Dive
+## The Birth of "Huoshuilaifang"
 
-### Scholarly Heritage: From Liujiao, Chiayi to North-South Division of Labor
+In 2009, Huang Zhen-nan founded the blog and Facebook page "Huoshuilaifang," a name drawn from a line by the Song-dynasty poet Zhu Xi: "Because there is a living source at the head of the stream." With a humorous and engaging tone, he brought Taiwan history and old-book culture from academic circles into the view of general readers, making serious historical documents both entertaining and accessible.[^2]
 
-Born in 1980/1981 in Liujiao Township, Chiayi County, Huang Zhen-nan began frequenting used bookstores from childhood with his father Huang Zhe-yong (a researcher of folk literature and Chinese classical studies). Despite his father's impoverished background, the family maintained a passion for book collecting. After university graduation, Huang worked in northern Taiwan, forming a "southern father, northern son" complementary mode where they jointly collected Taiwan historical documents and traditional literary works. His collecting interests began with Wen Ruian's martial arts novels before expanding to pure literature and Taiwan historical materials.
+The page has accumulated considerable influence in Taiwan's cultural history community. Many online writers focused on Taiwan history have been inspired by his early posting style on PTT (Taiwan's largest online bulletin board). He combines a collector's eye with a storyteller's skill, giving every item in his collection a chance to be rediscovered.
 
-### Birth and Impact of "Living Water Bookstore"
+## Major Works
 
-In 2009, he established a blog and Facebook page called "Living Water Bookstore" (取自朱熹詩句「為有源頭活水來」, from Zhu Xi's poem about living water from the source), sharing Taiwan history, antiquarian book culture, and reading insights with humor and wit. The page has accumulated nearly 90,000 followers, with many cultural history influencers (such as Maya-ren and Xie Jin-yu) inspired by his PTT Gossiping Board posts. He not only collects but transforms collecting into "storytelling," making serious history both entertaining and accessible.
+His breakout work, *The Most Hilarious History of Taiwan*, tells Taiwan's history in a relaxed style, drawing young readers into what was once considered a niche field of local history. In 2017, Huang Zhen-nan co-authored *Refusing to Be Forgotten: Oral Memories of RCA Workers' Injuries* with Tsai Hui-pin, a staff member at the National Museum of Taiwan History. The book records firsthand oral accounts from workers involved in the environmental pollution and occupational disease cases at the Radio Corporation of America (RCA) in Taiwan, representing an extension of Huang's cultural-historical methodology into labor history and oral history.[^3]
 
-### Representative Works and Collecting Focus
+His subsequent publication, *A Home of Books: My Father, Myself, and Sometimes My Mother*, documents three generations of book collecting in his family—his father collected Taiwanese literature and Chinese classical texts, while his mother collected antiquities. Their tastes differed, yet together they formed a rare cultural portrait of a family.[^3]
 
-His breakout work "The Most Entertaining Taiwan History Ever" uses a lighthearted style to narrate Taiwan history, attracting young readers. He subsequently published "The Book Collecting Family: My Father, Myself, and Sometimes My Mother," documenting three generations of family collecting stories (his mother collects ancient artifacts). His collecting focuses include Japanese colonial period Nishikawa Mitsuru limited edition deluxe books (such as the hand-colored "Picture Book Momotaro") and social activist Tsai Pei-huo's handwritten notes, emphasizing edition characteristics and historical value.
+He also co-edited *Reading Books to Know Taiwan* with his father Huang Zhe-yong, and co-edited *A New Bibliography of Traditional Chinese Literature in Taiwan* with Professor Wu Fu-chu. His academic paper *Taking Books to School: Traditional Taiwanese Primers* represents a body of bibliographic work that stands alongside his collecting practice.
 
----
+## Collecting Focus and Philosophy
 
-## Complete In-Depth Information
+Huang Zhen-nan's collection spans Qing-dynasty primers, Japanese colonial–period newspapers and magazines, postwar literary journals, personal correspondence, Han poetry, and wuxia comics from the 1960s to the 1980s. Nishikawa Mitsuru, a Japanese colonial–period writer known for his meticulous attention to book design, is a particular focus—his limited-edition fine-bound books (including hand-colored special editions such as *Picture Book Momotaro*) are among Huang's most sought-after acquisitions. Nishikawa's book design holds a unique place in the history of Taiwanese book arts. Huang has also obtained handwritten notes by social activist Tsai Pei-huo, a recent and precious acquisition that brought him into close contact with the political currents of the Japanese colonial period. (The above collection details come from interview reports; for specifics, refer to Huang Zhen-nan's own account.)[^4]
 
-### Detailed Biography and Educational Background
+He maintains a policy of "sharing only, no lending," born from a personal experience of a borrowed book never being returned. Behind this principle is his view of collected books as historical objects: every artifact bears the life traces of ordinary people and the urban memory of Taiwan, and once damaged, it cannot be restored.
 
-Huang Zhen-nan graduated from National Taichung University of Education's Department of Language Education and earned a master's degree from National Taiwan Normal University's Department of Taiwan Literature. He co-edited "Reading Books to Know Taiwan" with his father Huang Zhe-yong and "New Compilation of Traditional Chinese Literature Bibliography in Taiwan" with Professor Wu Fu-zhu, writing the thesis "Taking Schoolbags to School: Traditional Enlightenment Materials in Taiwan." From university, he expanded his collection through online auctions and Taipei's used bookstores (Old Fragrance House, Ancient and Modern, Hundred Cities Hall). His collection now spans Qing dynasty primers, Japanese colonial newspapers, post-war literary magazines, correspondence, Chinese poetry, and 1960s-1980s martial arts comics.
+## Cultural Significance
 
-### Collecting Philosophy and Practice
+In today's fast-flowing information landscape, Huang Zhen-nan's contribution lies in "translation"—transforming dusty documents sleeping in private collections and libraries into stories that the general public can read. From a local perspective, he promotes Taiwan history in everyday language, giving serious historical research a broader point of contact.[^5]
 
-Huang advocates "pure exchange, no lending" due to past experiences with unreturned books. He views collecting as personal property, particularly valuing editions and historical context. Nishikawa Mitsuru works are his favorites, considering their binding design unique in Taiwan book history; Tsai Pei-huo's notes represent his most important acquisition of the past decade, witnessing Japanese colonial period social movements. These collections aren't just paper—they're life trajectories of ordinary Taiwanese people and urban memories.
+His family's book-collecting model also reflects the grassroots power of cultural preservation in Taiwan. Beyond academic institutions, there are people who, through personal passion and family tradition, have safeguarded these paper artifacts amid the wave of digitization.
 
-### Contemporary Significance: Making Taiwan History Both "Entertaining" and Grounded
+## References
 
-In the AI era amid information explosion, Huang's contribution lies in "translation": transforming dry documents into digestible stories for the masses. He not only preserves literary heritage but promotes Taiwan history from local perspectives using internationally comprehensible language, avoiding pure data compilation. Many readers say after reading his books or pages, "Amazing Taiwan history knowledge increased!" This embodies Taiwan.md's emphasis on having "perspective and warmth."
+[^1]: [Huang Zhen-nan — Wikipedia](https://zh.wikipedia.org/zh-tw/%E9%BB%83%E9%9C%87%E5%8D%97) — Primary biography, educational background, and book-collecting details.
+[^2]: [Huoshuilaifang Facebook Page](https://www.facebook.com/ngtsinlam) — Sharing records and book-collecting updates since its founding in 2009.
+[^3]: [*The Most Hilarious History of Taiwan* Book Page](https://www.books.com.tw/products/0010722013) — Books.com.tw listing with publication information and reader reviews.
+[^4]: [Interview with Book Collector Huang Zhen-nan — Creative Comic](https://www.creative-comic.tw/special_topics/2) — Family book-collecting stories and details on Nishikawa Mitsuru and Tsai Pei-huo related items.
+[^5]: [Newtalk Book Recommendation Report](https://newtalk.tw/news/view/2026-02-18/1020552) — Huang Zhen-nan's views on promoting Taiwan history reading and his book recommendations.
 
-### Extended Discussion
+## Further Reading
 
-Huang's family collecting model (father-son complementarity, mother collecting antiques) reflects grassroots power in Taiwan's folk cultural preservation. In the digital wave, his "no lending" principle also reminds us of the preciousness and protection responsibilities of physical documents.
-
----
-
-## Extended Reflection
-
-### Discussion Questions
-
-1. In the digital age, how can physical antiquarian book collecting continue influencing young generations' understanding of Taiwan history?
-2. Can Huang Zhen-nan's humorous storytelling style serve as a "local internationalization" example for more cultural historians to emulate?
-3. If you had the chance to borrow a Nishikawa Mitsuru limited edition, how would you "activate" it to expose more people to Taiwan's literary heritage?
-
----
-
-### References / Sources
-
-## Data Sources
-
-- [Huang Zhen-nan - Wikipedia](https://zh.wikipedia.org/zh-tw/%E9%BB%83%E9%9C%87%E5%8D%97) (Primary biography and collecting details)
-- ["The Most Entertaining Taiwan History Ever" Book Page](https://www.books.com.tw/products/0010722013)
-- [Living Water Bookstore Facebook Page](https://www.facebook.com/ngtsinlam) (Latest shares and reading insights)
-- [Book Collector Huang Zhen-nan Interview - Creative Comic](https://www.creative-comic.tw/special_topics/2) (Family collecting stories)
-- [Newtalk Book Recommendation Report](https://newtalk.tw/news/view/2026-02-18/1020552) (His perspectives on promoting Taiwan history reading)
-
----
-
-## Cultural Context for International Readers
-
-Huang Zhen-nan's nickname "the Takenouchi Yutaka of book collecting" references the handsome Japanese actor, suggesting someone who makes scholarly pursuits appear cool and attractive. His "Living Water Bookstore" concept draws from classical Chinese literature while his collecting focuses on materials that document Taiwan's colonial transitions, making him a bridge between traditional Chinese scholarship and Taiwan's unique modern history.
-
-The significance of collectors like Huang lies in Taiwan's complex political history—many historical documents were destroyed, suppressed, or lost during various regime changes. Private collectors often preserved materials that official institutions couldn't or wouldn't maintain, making their work crucial for contemporary understanding of Taiwan's past.
+- [Huoshuilaifang](https://www.facebook.com/ngtsinlam) — Huang Zhen-nan's page for sharing Taiwan history and old-book culture

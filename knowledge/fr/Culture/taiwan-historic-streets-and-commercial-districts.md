@@ -1,233 +1,250 @@
 ---
-title: 'Les vieilles rues de Taïwan : culture et quartiers commerciaux historiques'
-description: 'Des ports animés de l'époque Qing aux façades baroques de l'ère japonaise, les vieilles rues de Taïwan sont une histoire populaire écrite dans la brique et la tuile'
+title: "La culture des rues historiques de Taïwan et ses quartiers commerciaux"
+description: "De la prospérité portuaise sous la dynastie Qing aux façades baroques de l'époque coloniale japonaise, les rues historiques de Taïwan sont une histoire populaire écrite en briques et en tuiles"
 date: 2026-03-20
-tags: ['vieilles rues', 'quartiers historiques', 'patrimoine culturel', 'tourisme', 'architecture']
-subcategory: 'Vieilles rues et quartiers commerçants'
-category: 'Culture'
-author: 'Taiwan.md Translation Team'
-featured: false
+author: "Taiwan.md"
+category: "Culture"
+subcategory: "老街與商圈"
+tags: ["rues historiques", "quartiers historiques", "préservation culturelle", "tourisme", "architecture"]
 lastVerified: 2026-03-20
+lastHumanReview: "true"
+featured: "false"
 translatedFrom: "Culture/台灣老街文化與商業街區.md"
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:979c4f4ab814a0ca'
-sourceBodyHash: 'sha256:58eb03f7f8ab81ca'
-translatedAt: "2026-04-14T12:34:01+08:00"
+sourceCommitSha: "f712b7242"
+sourceContentHash: "sha256:3d3e165195c66961"
+sourceBodyHash: "sha256:daf4460c4d51a719"
+translatedAt: "2026-05-20T05:08:34+08:00"
 ---
 
-# Les vieilles rues de Taïwan : culture et quartiers commerciaux historiques
+# La culture des rues historiques de Taïwan et ses quartiers commerciaux
 
-> **En 30 secondes :** Taïwan compte plus de 30 rues historiques remarquablement préservées. De Dihua Street, ouverte au commerce dès 1851, à Lukang — l'une des trois grandes villes marchandes de l'époque Qing —, en passant par Jiufen, que l'or a enrichie et le cinéma a ressuscitée, jusqu'à Sanxia, surnommée « la plus belle rue baroque de l'île » : chaque vieille rue est un fragment de temps suspendu, qui témoigne des dynamiques économiques, des sensibilités architecturales et de la vie quotidienne de son époque.
+> **Aperçu en 30 secondes :** Taïwan compte plus de 30 rues historiques bien préservées : Dihua Street, ouverte dès 1851, Lukang — l'un des trois grands ports de la dynastie Qing selon l'adage « un Fû, deux Lû, trois Mông-Kah » —, Jiufen, rendue prospère par les mines d'or puis renaissante grâce au cinéma, et Sanxia Old Street, surnommée « la plus belle rue baroque de Taïwan ». Chaque rue historique est un figement du temps, témoignant des pulsions économiques, de l'esthétique architecturale et de la vie quotidienne populaire de différentes époques.
 
-## Comment les vieilles rues sont nées
+## Comment naissent les rues historiques
 
-La formation des vieilles rues de Taïwan repose presque toujours sur trois éléments : **les voies d'eau, les produits locaux et les marchés**.
+La formation des rues historiques de Taïwan repose presque toujours sur trois éléments : **voies navigables, productions locales et marchés**.
 
-Sous la dynastie Qing, l'économie taïwanaise reposait principalement sur le commerce agricole, et les villes portuaires furent naturellement les premières à prospérer. L'adage « Yi fu er lu san Mengxia » — « Tainan en premier, Lukang en second, Wanhua en troisième » — décrit le classement des trois grandes places commerciales de l'époque Qing : Tainan (la préfecture), Lukang et Wanhua (Mengxia), toutes trois situées sur des ports. Les navires marchands attiraient les foules, les foules engendraient les boutiques, et les boutiques s'étendaient depuis les quais vers l'intérieur des terres, formant ainsi les premières « rues ».
+Sous la dynastie Qing, l'économie taïwanaise reposait principalement sur le commerce agricole, et les villes portuaires prospéraient naturellement en premier. L'adage « un Fû, deux Lû, trois Mông-Kah » (一府二鹿三艋舺) décrit le classement des trois grands centres commerciaux de l'époque : Tainan (府城), Lukang (鹿港) et Wanhua / Mông-Kah (萬華 / 艋舺), tous trois ports. Les navires marchands attiraient les foules, les foules attiraient les boutiques, et les boutiques s'étendaient depuis les quais vers l'intérieur des terres, formant les premières « rues ».
 
-À l'époque japonaise (1895-1945), le gouvernement général mit en œuvre le programme de « réaménagement urbain », élargissant et rectifiant les ruelles étroites et sinueuses, et imposant des normes pour les façades, la hauteur des arcades et les équipements sanitaires. C'est pourquoi tant de maisons dans les vieilles rues de Taïwan, bien que construites par des familles du Fujian, arborent des chapiteaux de colonnes baroques : c'est l'esthétique européenne introduite par l'administration coloniale japonaise, réinterprétée par des artisans locaux selon leur propre sensibilité, pour donner naissance à un style unique — le « baroque à la taïwanaise ».
+Durant la période coloniale japonaise (1895-1945), le gouvernement général lança les « corrections urbaines » (市區改正), élargissant et rectifiant les rues auparavant sinueuses et étroites, imposant des normes pour les façades, la hauteur des arcades et les équipements sanitaires. C'est pourquoi de nombreuses maisons des rues historiques taïwanaises, bien que construites par des Hoklo (Minnan), présentent des chapiteaux sculptés de style baroque : il s'agit d'une esthétique de rue européenne introduite par le gouvernement colonial japonais, réinterprétée à sa manière par des artisans locaux, qui finit par devenir un « baroque à la taïwanaise » unique.
 
-## Dix rues à connaître absolument
+## Dix rues historiques à connaître
 
-### Dihua Street (Dadaocheng, Taipei) — Le berceau du commerce taipéien
+### Dihua Street (Dadaocheng, Taipei) : le point de départ du commerce à Taipei
 
-Les premières boutiques de Dihua Street apparaissent en **1851** (première année de l'ère Xianfeng), soit plus de trente ans avant la fondation officielle de Taipei. En 1853, après leur défaite dans la querelle intercommunautaire de Tīng-ē-kau, les habitants de Mengxia originaires de Tong'an (Quanzhou) se réfugièrent à Dadaocheng et y établirent leurs commerces, formant le « marché central ».
+Les premiers commerces de Dihua Street apparurent dès **1851** (première année du règne de Xianfeng), soit plus de trente ans avant la fondation de la ville de Taipei. En 1853, les habitants de Mông-Kah originaires de Quanzhou, défaits lors des affrontements entre les factions Shang et Xia (頂下郊拼), se réfugièrent à Dadaocheng et y établirent des boutiques, formant la « rue du Milieu » (中街).
 
-Sous l'administration japonaise, Dihua Street se spécialisa dans les denrées du Nord et du Sud, puis dans le thé ; le riz, les tissus et la pharmacopée chinoise vinrent ensuite s'y ajouter. Des humbles boutiques à façade hokkien aux imposantes devantures baroques, l'ensemble de la rue documente un siècle de transformations commerciales à Taipei.
+Durant la période japonaise, Dihua Street se spécialisa dans les produits alimentaires divers du nord et du sud ainsi que dans le commerce du thé, puis s'ajoutèrent le riz, les tissus et la médecine chinoise. Des boutiques sobres de style minnan aux façades ornées de décorations baroques élaborées, l'ensemble de la rue retrace un siècle d'évolution commerciale à Taipei.
 
-**Aujourd'hui :**
+**Caractéristiques actuelles :**
 
-- **Marché du Nouvel An** : chaque année, avant le Nouvel An lunaire, le marché annuel de Dihua Street est le rendez-vous traditionnel le plus animé de Taipei.
-- **Marché Yongle** : le plus grand centre de vente en gros de tissus de l'île.
-- **Temple Xiahai Chenghuang** : fondé en 1859, célèbre pour son dieu de l'amour, il attire de nombreux visiteurs du monde entier.
-- Ces dernières années, des marques de création et des cafés se sont installés dans la rue, faisant de ce quartier en mutation un modèle de renouveau urbain à Taipei.
+- **La grande rue des provisions du Nouvel An** (年貨大街) : le marché traditionnel le plus animé de Taipei chaque année avant le Nouvel An lunaire
+- **Le marché Yongle** (永樂市場) : le plus grand centre de vente en gros de tissus de Taïwan
+- **Le temple de la divinité tutélaire de la ville de Xiahai** (霞海城隍廟) : fondé en 1859, célèbre pour son Dieu de l'Amour (月老), attirant de nombreux visiteurs internationaux
+- De nombreuses marques créatives et cafés s'y sont installés ces dernières années, faisant de cette régénération urbaine un modèle de renouvellement urbain à Taipei
 
-> **Sources :** [Tourism Administration, MOTC — Dihua Street](https://www.taiwan.net.tw/m1.aspx?sNo=0001016&id=R108) ; [Wikipedia — Dihua Street](https://zh.wikipedia.org/zh-tw/%E8%BF%AA%E5%8C%96%E8%A1%97)
-
----
-
-### Vieille rue de Lukang (Changhua) — La deuxième ville de Taïwan sous les Qing
-
-En 1784 (49e année du règne de Qianlong), Lukang fut officiellement ouverte comme port d'échanges avec Shejian, dans le Fujian. De 1785 à 1850 environ, Lukang connut son apogée commerciale : sa population atteignit plusieurs dizaines de milliers d'habitants, et elle était la deuxième ville de l'île.
-
-Cependant, l'ensablement progressif du port priva Lukang de sa vocation maritime — ce qui eut pour heureux effet de préserver un grand nombre de bâtiments historiques, à l'abri des destructions du développement moderne.
-
-**Aujourd'hui :**
-
-- **Ruelles de Yaolin et Putou** : l'ensemble le mieux conservé d'architecture hokkien de l'époque Qing, avec ses ruelles de briques rouges et ses murs de jarres grises.
-- **Ruelle du Frôlement** (Moru Xiang) : en son point le plus étroit, à peine 70 centimètres de large, cette ruelle vieille de près de 200 ans tirerait son nom d'un jeu de mots sur « ruelle Menglin ».
-- **Temple Longshan de Lukang** : monument national classé, construit en 1786, considéré comme le plus beau temple de l'époque Qing de Taïwan.
-- **Temple Tianhou de Lukang** : dédié à la déesse Mazu venue de Meizhou, il est, avec le temple Chaotian de Beigang, l'un des deux grands temples dédiés à Mazu sur l'île.
-- **Artisanat traditionnel** : sculpture sur bois, orfèvrerie en étain, confiseries et pâtisseries traditionnelles — le savoir-faire artisanal est encore vivant dans la vieille rue.
-
-> **Sources :** [Portail touristique du comté de Changhua — Vieille rue de Lukang](https://tourism.chcg.gov.tw/AttractionsContent.aspx?id=152) ; Archives historiques de la porte de Luohan
+> **Sources :** [Administration du Tourisme — Dihua Street](https://www.taiwan.net.tw/m1.aspx?sNo=0001016&id=R108) ; [Wikipédia — Dihua Street](https://zh.wikipedia.org/zh-tw/%E8%BF%AA%E5%8C%96%E8%A1%97)
 
 ---
 
-### Vieille rue de Jiufen (Ruifang, Nouveau Taipei) — La légende d'une cité montagnarde, de l'or au cinéma
+### Lukang Old Street (Changhua) : la deuxième ville de Taïwan sous les Qing
 
-L'histoire de Jiufen remonte à **1890**. Cette année-là, lors de la construction de la ligne de chemin de fer reliant Jilong à Taipei par Liu Mingchuan, des ouvriers découvrirent de l'or alluvionnaire dans la rivière Badu. Les chercheurs d'or remontèrent le courant et, en 1893, une veine aurifère fut mise au jour dans les montagnes de Jiufen ; en 1894, le gisement principal de Jinguashi fut découvert. La paisible montagne Jilong retrouva alors sa vie et son animation.
+En la 49ᵉ année du règne de Qianlong (1784), Lukang fut officiellement ouvert comme port de traversée face à Zhangzhou (Quanzhou) en Chine continentale. La période allant de la 50ᵉ année de Qianlong à la 30ᵉ année de Daoguang (environ 1785-1850) marqua l'apogée du commerce à Lukang, dont la population atteignit des dizaines de milliers d'habitants, en faisant la deuxième ville de Taïwan.
 
-Durant l'occupation japonaise, l'exploitation aurifère atteignit son apogée et la population de Jiufen explosa. Les flancs de la montagne se couvrirent de maisons serrées, formant le long d'escaliers abrupts un type de rue unique en son genre, propre aux « villes de montagne ». Dans les années 1960, les gisements s'épuisèrent, Jiufen périclita et sombra presque dans l'oubli.
+Cependant, l'envasement du port fit perdre à Lukang sa fonction maritime et entraîna son déclin — ce qui permit paradoxalement de préserver un grand nombre de bâtiments historiques non détruits par le développement moderne.
 
-Le tournant vint en **1989** : Hou Hsiao-hsien tourna _La Cité des douleurs_ à Jiufen. Ce film remporta le Lion d'or à la Mostra de Venise, ramenant Jiufen sous les feux de la scène mondiale. Plus tard, certains associèrent Jiufen aux thermes du film _Le Voyage de Chihiro_ de Miyazaki Hayao — association que Miyazaki lui-même a démentie —, mais depuis lors, Jiufen est devenu une étape incontournable pour les visiteurs du monde entier.
+**Caractéristiques actuelles :**
 
-**Aujourd'hui :**
+Les rues Yaolin et Putou abritent le groupe le plus complet d'architectures minnan de la dynastie Qing à Lukang : ruelles de briques rouges, murs de tuiles grises et jarres encastrées, un lieu prisé pour les photos. La « rue des caresses » (摸乳巷), dont le passage le plus étroit ne fait qu'environ 70 cm, date de près de 200 ans ; son nom d'origine pourrait être une déformation phonétique de « rue Menglin » (夢麟巷)[^6].
 
-- **L'escalier de la rue Shujian** : l'escalier le plus emblématique de Jiufen, bordé de maisons de thé ornées de lanternes rouges.
-- **Maison de thé A-Mei** : le bâtiment le plus souvent photographié par les touristes.
-- **Rue Jishan** : la rue commerçante principale, avec ses petits plats (boules de taro, galettes d'herbe, boulettes de poisson) et ses souvenirs.
-- **Cinéma Shengping** : construit en 1934, restauré et transformé en espace d'exposition.
-- **Défi touristique** : la foule du week-end et les embouteillages sont un problème récurrent depuis des années.
+- **Le temple Longshan de Lukang** : monument historique national, construit en 1786, considéré comme le plus beau temple de la dynastie Qing à Taïwan
+- **Le temple Tianhou de Lukang** : dédié à la déesse Matsu de Meizhou, il figure parmi les deux plus grands temples de Matsu de Taïwan avec le temple Chaotian de Beigang
+- **Artisanat traditionnel** : sculpture sur bois, étain, confiserie, pâtisseries et autres métiers manuels restent actifs dans la rue historique
 
-> **Sources :** [Wikipedia — Jiufen](https://zh.wikipedia.org/zh-tw/%E4%B9%9D%E4%BB%BD) ; [Wikipedia — La Cité des douleurs](https://zh.wikipedia.org/zh-tw/%E6%82%B2%E6%83%85%E5%9F%8E%E5%B8%82) ; [Archives numériques de géologie de l'université nationale de Taïwan — Histoire de l'exploitation aurifère à Jinguashi et Jiufen](http://tcmb.digital.ntu.edu.tw/memory/geology/story_keelung/story3.html)
+> **Sources :** [Réseau d'information touristique de Changhua — Lukang Old Street](https://tourism.chcg.gov.tw/AttractionsContent.aspx?id=152) ; archives historiques de Luohanmen
 
 ---
 
-### Vieille rue de Sanxia (Nouveau Taipei) — Les plus belles maisons baroques de l'île
+### Jiufen Old Street (Ruifang, Nouveau Taipei) : une légende de montagne, des mines d'or au cinéma
 
-L'histoire de la vieille rue de Sanxia s'ouvre sur un épisode dramatique : en **1895**, la population locale résistante fut châtiée par l'armée japonaise, qui incendia la rue entière. Les habitants la reconstruisirent eux-mêmes. Puis en **1916** (5e année de l'ère Taisho), le gouvernement japonais lança le programme de « réaménagement urbain » : les habitants financèrent de leur poche la transformation des façades traditionnelles en devantures néo-européennes — colonnes grecques, arcs romains, ornements baroques, mêlant éléments occidentaux, motifs familiaux japonais et symboles culturels chinois.
+L'histoire de Jiufen commence en **1890**. À cette époque, Liu Mingchuan construisit le chemin de fer entre Keelung et Taipei, et les ouvriers découvrent de l'or alluvial dans le lit de la rivière Keelung au niveau de Badu. Les chercheurs d'or remontèrent le courant et découvrirent en 1893 un filon aurifère au mont Jiufen, puis en 1894 le gisement principal de Jinguashih — la montagne silencieuse du mont Keelung devint soudainement grouillante de monde.
 
-Ce tronçon d'environ 200 mètres de la rue Minquan Sud, avec ses arcades de briques rouges qui se succèdent sans interruption, est le groupe de maisons baroques de l'époque japonaise le mieux conservé de Taïwan. En 2007, lors de la cérémonie des Prix mondiaux d'excellence en immobilier (FIABCI) à Barcelone, le « projet de rénovation de la vieille rue de Sanxia » a remporté le deuxième prix mondial dans la catégorie Bâtiments publics et architectures spéciales.
+Durant la période coloniale japonaise, l'exploitation des mines d'or atteignit son apogée, la population de Jiufen explosa, et des maisons serrées les unes contre les autres couvrirent les pentes, formant des rues de « ville de montagne » le long d'escaliers escarpés. Dans les années 1960, l'épuisement des ressources minières entraîna le déclin rapide de Jiufen, qui faillit être oubliée du monde.
 
-**Aujourd'hui :**
+Le tournant survint en **1989** : le film de Hou Hsiao-hsien, ***A City of Sadness*** (*悲情城市*), fut tourné à Jiufen. Ce film remporta le Lion d'or à la Mostra de Venise, redonnant à Jiufen une visibilité mondiale. Par la suite, certains associèrent Jiufen aux bains publics du film d'animation *Spirited Away* (神隱少女) de Hayao Miyazaki (bien que Miyazaki lui-même ait démenti cette inspiration), et Jiifen devint une destination incontournable pour les touristes internationaux visitant Taïwan.
 
-- **Les arcades de briques rouges** : les arches continues des portiques couverts sont le paysage le plus caractéristique de la vieille rue de Sanxia.
-- **Temple Zushimiou (Qingshui)** : reconstruit sous la direction du peintre précurseur taïwanais Li Meishu (de 1947 jusqu'à sa mort en 1983), célèbre pour ses sculptures sur pierre et sur bois d'une finesse exceptionnelle, surnommé « le palais des arts orientaux ».
-- **Teinture à l'indigo** : Sanxia fut autrefois le plus grand centre de teinturerie du nord de Taïwan ; des ateliers proposent aujourd'hui des initiations pratiques.
-- **Pain en corne de taureau** : la spécialité culinaire emblématique de la vieille rue de Sanxia.
+**Caractéristiques actuelles :**
 
-> **Sources :** [Tourism Administration, MOTC — Vieille rue de Sanxia](https://www.taiwan.net.tw/m1.aspx?sNo=0001091&id=R13) ; [Wikipedia — Vieille rue de Sanxia](https://zh.wikipedia.org/zh-tw/%E4%B8%89%E5%B3%BD%E8%80%81%E8%A1%97) ; [Bureau du district de Sanxia, ville de Nouveau Taipei](https://www.sanxia.ntpc.gov.tw/)
+L'escalier de Qiyi Road est le paysage le plus emblématique de Jiufen, bordé de salons de thé aux lanternes rouges suspendues ; le salon de thé A-Mei est le bâtiment le plus photographié par les touristes[^4].
 
----
+- **Jishan Street** : la rue commerciale principale, avec des spécialités locales (boules de taro, gâteaux d'herbes, boulettes de poisson) et des souvenirs
+- **Le cinéma Shengping** : un ancien cinéma construit en 1934, restauré et transformé en espace d'exposition
+- **Défis touristiques** : la foule dense les jours fériés et la congestion routière sont des problèmes chroniques
 
-### Vieille rue de Daxi (Taoyuan) — Façades baroques et culte du dieu de la Guerre
-
-Le développement du quartier de façades baroques de Daxi débuta en **1912** (première année de l'ère Taisho), lorsque le gouvernement général de Taïwan lança le « Plan de réaménagement urbain de Dakekan ». Les rues furent élargies et les habitants en profitèrent pour orner leurs nouvelles façades d'extravagants décors baroques : colonnes classiques, arcs, ornements floraux.
-
-Sous les Qing, Daxi était, grâce à la navigation sur la rivière Dahan, un centre de redistribution du camphre, du thé, du bois et du charbon. Des marchands anglais, allemands et espagnols y tenaient boutique ; comptoirs commerciaux étrangers et maisons de thé se succédaient dans la rue. La fonction commerciale s'est depuis muée en tourisme, mais les façades sculptées et ornées de stuc sont restées intactes.
-
-**Aujourd'hui :**
-
-- **Les rues Heping, Zhongshan et Zhongyang** : les trois artères où les maisons historiques sont les mieux conservées.
-- **Tofu séché de Daxi** : la spécialité la plus représentative de la vieille rue, avec plusieurs maisons centenaires encore actives.
-- **Grand Daxi Xi (Daxi Daxi)** : chaque année, le 24e jour du 6e mois lunaire, la procession d'anniversaire du dieu Guan (Guansheng Dijun) est la fête populaire la plus grandiose de Daxi, classée par le ministère de la Culture parmi les « patrimoines culturels immatériels de Taïwan ».
-- **Musée écologique de l'artisanat du bois de Daxi** : un concept muséal qui s'étend à l'ensemble du quartier, reliant les vieux bâtiments aux industries locales.
-
-> **Sources :** [Wikipedia — Vieille rue de Daxi](https://zh.wikipedia.org/zh-tw/%E5%A4%A7%E6%BA%94%E8%80%81%E8%A1%97) ; [Portail touristique de Taoyuan](https://travel.tycg.gov.tw/zh-tw/travel/attraction/414)
+> **Sources :** [Wikipédia — Jiufen](https://zh.wikipedia.org/zh-tw/%E4%B9%9D%E4%BB%BD) ; [Wikipédia — A City of Sadness](https://zh.wikipedia.org/zh-tw/%E6%82%B2%E6%83%85%E5%9F%8E%E5%B8%82) ; [Archives numériques de géologie de l'Université nationale de Taïwan — Histoire de l'exploitation de l'or à Jinguashih et Jiufen](http://tcmb.digital.ntu.edu.tw/memory/geology/story_keelung/story3.html)
 
 ---
 
-### Vieille rue de Danshui (Nouveau Taipei) — Quatre siècles de paysage à l'embouchure du fleuve
+### Sanxia Old Street (Sanxia, Nouveau Taipei) : la plus belle rue baroque de Taïwan
 
-L'histoire de Danshui remonte à 1628, lorsque les Espagnols construisirent le « Fort Santo Domingo » ; en 1642, les Hollandais chassèrent les Espagnols et rebâtirent la forteresse sur le même emplacement — c'est l'actuel **Fort Rouge** (Hongmaocheng), ainsi nommé parce que les habitants du Fujian appelaient les Hollandais « les roux »). En 1867, les Britanniques louèrent le Fort Rouge et y ajoutèrent à l'est un consulat britannique.
+L'histoire de Sanxia Old Street commence par un épisode dramatique : en **1895**, les habitants de Sanxia, s'étant soulevés contre l'armée japonaise, virent leur rue entièrement incendiée par les troupes. Les résidents la reconstruisirent ensuite par eux-mêmes. En **1916** (5ᵉ année de Taishō), sous la direction du gouvernement japonais dans le cadre des « corrections urbaines », les habitants financèrent eux-mêmes la transformation de leurs maisons traditionnelles en façades d'inspiration européenne — ordres grecs, arcs romains, décorations baroques — mêlant éléments de maisons occidentales, emblèmes familiaux japonais (家紋) et motifs culturels chinois.
 
-La vieille rue de Danshui désigne en général l'axe Zhongzheng Road (du débarcadère à l'intersection avec Zhongshan Road), ainsi que la rue Chongjian sur le flanc de la colline — la plus ancienne artère de Danshui, bordée de nombreuses vieilles maisons en bois et en brique.
+Ce tronçon d'environ 200 mètres dans la partie sud de Minquan Street, avec ses galeries continues de briques rouges, constitue le groupe le plus complet de façades baroques de la période coloniale japonaise à Taïwan. En 2007, lors du Prix international d'or de l'architecture (FIABCI) à Barcelone, le « projet de rénovation de Sanxia Old Street » reçut le deuxième prix mondial dans la catégorie « secteur public et architectures spéciales ».
 
-**Aujourd'hui :**
+**Caractéristiques actuelles :**
 
-- **A-gei** : du tofu creux farci de vermicelles sautés, scellé avec de la pâte de poisson puis cuit à la vapeur ; son nom vient d'une translittération partielle du japonais _abura-age_ (油揚げ).
-- **Œufs de fer, boulettes de poisson, frites de poisson** : les classiques de la rue.
-- **Coucher de soleil sur la rivière Danshui** : le spot de coucher de soleil le plus prisé de la grande région de Taipei.
-- **Fort Rouge + Petit Palais Blanc + Batterie de Hobe** : trois monuments historiques en circuit, qui racontent quatre siècles d'échanges commerciaux internationaux à Danshui.
-- Accès facile : station terminus de la ligne MRT Danshui.
+Les arcs continus des arcades sont le paysage le plus reconnaissable de Sanxia Old Street ; le temple du ancêtre fondateur de Qingshui, reconstruit sous la direction de l'artiste taïwanais Li Mei-shu (à partir de 1947 jusqu'à son décès en 1983), est célèbre pour ses sculptures sur pierre et sur bois d'une grande finesse, et est considéré comme un « palais de l'art oriental »[^3].
 
-> **Sources :** [Tourism Administration, MOTC — Fort Rouge de Danshui](https://www.taiwan.net.tw/m1.aspx?sNo=0001016&id=2129) ; [Office du tourisme de Nouveau Taipei — Vieille rue de Danshui](https://newtaipei.travel/zh-tw/attractions/detail/109658) ; [Wiki Danshui](http://tamsui.dils.tku.edu.tw/wiki/index.php/%E6%B7%A1%E6%B0%B4%E8%80%81%E8%A1%97)
+- **L'art de la teinture à l'indigo** : Sanxia était autrefois le plus grand centre de teinture de tissus du nord de Taïwan ; des ateliers d'initiation sont aujourd'hui proposés
+- **Les croissants dorés de Niu Jiao** (金牛角麵包) : la pâtisserie emblématique de Sanxia Old Street
 
----
-
-### Vieille rue d'Anping (Tainan) — La rue la plus ancienne de Taïwan
-
-La vieille rue d'Anping (rue Yanping) est la première artère tracée par les Hollandais à Anping, remontant aux **années 1620** sous l'administration néerlandaise. À l'origine, la rue n'était guère large que pour laisser passer piétons et charrettes. L'architecture du quartier mêle des influences néerlandaises, Qing et japonaises, faisant de ce lieu l'un des ensembles historiques aux strates les plus riches de Taïwan.
-
-**Aujourd'hui :**
-
-- **Fort Anping** (ruines de Zeelandia) : la plus ancienne forteresse de Taïwan, construite par les Hollandais en 1624.
-- **Culture des lions à l'épée (Jianshi)** : décoration apotropaïque propre à Anping. Selon la tradition, elle trouverait son origine dans la coutume des soldats de l'époque de Koxinga d'accrocher leurs épées sur des boucliers ornés de têtes de lions. Elle est aujourd'hui devenue l'emblème culturel d'Anping.
-- **Exploration des ruelles** : Jasmin Lane, Fard Lane et d'autres passages labyrinthiques conservent la physionomie des anciens hameaux.
-- **Petits plats** : galettes aux crevettes, huîtres à la poêle, tofu en fleur, rouleaux aux crevettes d'Anping — autant de classiques locaux.
-- **Comptoir commercial Deji (Tait & Co.)** : établi en 1867 par des négociants britanniques, aujourd'hui transformé en espace d'exposition historique.
-
-> **Sources :** [Portail touristique de Tainan — Vieille rue d'Anping](https://www.twtainan.net/zh-tw/attractions/detail/812/)
+> **Sources :** [Administration du Tourisme — Sanxia Old Street](https://www.taiwan.net.tw/m1.aspx?sNo=0001091&id=R13) ; [Wikipédia — Sanxia Old Street](https://zh.wikipedia.org/zh-tw/%E4%B8%89%E5%B3%BD%E8%80%81%E8%A1%97) ; [Mairie du district de Sanxia, Nouveau Taipei](https://www.sanxia.ntpc.gov.tw/)
 
 ---
 
-### Vieille rue de Beipu (Hsinchu) — La densité de monuments historiques la plus élevée de l'île
+### Daxi Old Street (Taoyuan) : façades baroques et culte de Guan Sheng Di Jun
 
-La vieille rue de Beipu ne mesure que 200 mètres à peine, mais elle abrite **7 monuments classés** — la plus forte densité de Taïwan. C'était le cœur commerçant de Beipu sous les Qing, et un témoignage essentiel de la colonisation hakka.
+Le groupe architectural de Daxi Old Street remonte à **1912** (première année de Taishō), lorsque le gouvernement général de Taïwan lança le « plan de correction urbaine de Dakukan Street », élargissant les routes. Les résidents en profitèrent pour orner les façades de leurs nouvelles maisons de décorations de style baroque.
 
-- **Jinguangfu Gongguan** (monument national) : fondé en 1835, il témoigne du défrichement commun des pionniers hoklo et hakka.
-- **Tianshui Tang** : la résidence ancestrale du clan Jiang, classée avec Jinguangfu comme monument national.
-- **Villa occidentale de Jiang Axin** : chef-d'œuvre architectural mêlant influences chinoises et occidentales, construite par un riche marchand de thé de l'époque japonaise.
-- **Temple Citian** : monument classé au niveau du comté, centre de vie religieuse de la vieille rue.
-- **Gastronomie hakka** : thé battu traditionnel (_lei cha_), kaki plat séché (_shi bing_), nouilles _ban tiao_ hakka.
-- Pas une seule enseigne de chaîne dans toute la rue : une atmosphère de village hakka authentique et préservée.
+Sous les Qing, Daxi, grâce à la navigabilité de la rivière Dahan, était un centre de collecte et de distribution de camphre, de thé, de bois et de charbon. Des commerçants britanniques, allemands et espagnols y avaient établi des boutiques, et des maisons de commerce et des salons de thé bordaient la rue. Aujourd'hui, la fonction commerciale a cédé la place au tourisme, mais les façades ornées de sculptures en pierre et en stuc demeurent intactes.
 
-> **Sources :** [Tourism Administration, MOTC — Vieille rue de Beipu](https://www.taiwan.net.tw/m1.aspx?sNo=0001108&id=A12-00275)
+**Caractéristiques actuelles :**
 
----
+Les rues Heping, Zhongshan et Zhongyang sont les trois axes où les maisons historiques de Daxi sont le mieux préservées ; le tofu séché de Daxi est le produit le plus emblématique de la rue historique, avec plusieurs enseignes centenaires[^5].
 
-### Vieille rue de Qishan (Kaohsiung) — Les souvenirs d'une cité bananière
+- **La grande fête de Daxi** (大溪大禧) : la procession annuelle pour l'anniversaire de Guan Sheng Di Jun (關聖帝君), le 24ᵉ jour du sixième mois lunaire, est la plus grande célébration folklorique de Daxi ; elle est inscrite par le ministère de la Culture au patrimoine culturel immatériel de Taïwan
+- **Le musée écologique de l'art du bois de Daxi** : un concept de « musée à ciel ouvert » reliant les bâtiments anciens et les industries locales
 
-Qishan, anciennement appelée « Qiwei », était dès l'époque Qing une région agricole importante du sud de Taïwan. Sous l'administration japonaise, avec l'essor de l'industrie sucrière et de la banane, Qishan devint un pôle économique majeur sur la ligne de montagne de Kaohsiung. Dans les **années 1950-1960**, les bananes de Qishan furent exportées en masse vers le Japon, rapportant à Taïwan d'importantes devises étrangères : c'est de là que vient la réputation de « **Royaume de la banane** ».
-
-**Aujourd'hui :**
-
-- Une coexistence originale **d'architecture baroque en briques rouges et de portiques couverts en arc de grès**, conférant au quartier une grande diversité stylistique.
-- **Gare de Qishan (Musée de la voie ferrée sucrière)** : ancienne gare de la ligne sucrière Qiwei de l'époque japonaise, restaurée et transformée en espace culturel.
-- **Salle des arts martiaux de Qishan (Wude Dian)** : ancienne salle d'entraînement aux arts martiaux japonais de l'ère coloniale.
-- **Gâteau à la banane, rouleau à la banane** : les spécialités locales, surnommées le « Tokyo Banana taïwanais ».
-- Ces dernières années, Qishan a parfois dépassé Jiufen en nombre de visiteurs selon les statistiques de l'Office du tourisme.
-
-> **Sources :** [Portail touristique de Kaohsiung — Vieille rue de Qishan](https://khh.travel/zh-tw/attractions/detail/157/)
+> **Sources :** [Wikipédia — Daxi Old Street](https://zh.wikipedia.org/zh-tw/%E5%A4%A7%E6%BA%AA%E8%80%81%E8%A1%97) ; [Réseau de guides touristiques de Taoyuan](https://travel.tycg.gov.tw/zh-tw/travel/attraction/414)
 
 ---
 
-### Vieille rue de Neiwan (Hengshan, Hsinchu) — L'atmosphère nostalgique d'une bourgade montagnarde hakka
+### Tamsui Old Street (Tamsui, Nouveau Taipei) : quatre siècles de paysage à l'embouchure du fleuve
 
-Neiwan est situé dans le district de Hengshan, comté de Hsinchu, à majorité hakka. Une gare ferroviaire fut construite à l'époque japonaise pour les besoins du transport forestier et minier, et le bourg se développa progressivement autour d'elle.
+L'histoire de Tamsui remonte à 1628, lorsque les Espagnols construisirent la « Fort Santo Domingo » (聖多明哥城) ; en 1642, les Hollandais chassèrent les Espagnols et reconstruisirent sur le même site — c'est l'actuel **Fort San Domingo** (紅毛城, littéralement « château aux cheveux rouges », nom donné par les Hoklo aux Hollandais). En 1867, la Grande-Bretagne loua le Fort San Domingo et ajouta un consulat britannique à l'est.
 
-**Aujourd'hui :**
+Tamsui Old Street désigne généralement le tronçon de Zhongshan Road (du ferry à l'intersection avec Zhongshan Road), ainsi que Chongjian Street en hauteur. Chongjian Street est la plus ancienne rue de développement de Tamsui, bordée de nombreuses maisons anciennes en bois et en briques.
 
-- **Gare de Neiwan** : terminus de la ligne de Neiwan, la gare en bois elle-même est un lieu chargé de nostalgie.
-- **Cinéma de Neiwan** : ancien cinéma des années 1950, aujourd'hui restaurant et espace d'exposition.
-- **Pont suspendu de Neiwan** : promenade panoramique enjambant la rivière Youlo.
-- **Bandes dessinées de Liu Xingqin** : les personnages « Grande Tante » et « A-San Ge » du dessinateur local Liu Xingqin ornent les rues du village.
-- **Petits plats hakka** : zongzi aux fleurs de gingembre sauvage, galettes de légumes violets, mochi hakka, smoothie au thé battu.
+**Caractéristiques actuelles :**
 
-> **Sources :** [TravelKing — Vieille rue de Neiwan](https://www.travelking.com.tw/tourguide/scenery103119.html)
+L'« age » (阿給) est la spécialité culinaire emblématique de Tamsui : un tofu frit farci de vermicelles sautés et scellé avec du poisson haché, dont le nom vient du japonais « abura-age » (油揚げ) ; le coucher de soleil sur les rives de la rivière Tamsui est l'un des sites les plus prisés de la métropole de Taipei[^8].
 
-## Le code architectural des vieilles rues de Taïwan
+- **Œufs durcis (鐵蛋), boulettes de poisson, chips de poisson** : les snacks classiques de la rue historique
+- **Fort San Domingo + Petit Palais Blanc + Fort de Hobe** : trois monuments historiques reliés entre eux, témoignant de quatre siècles d'histoire du commerce international à Tamsui
+- Transport pratique : accessible directement par la terminus de la ligne MRT de Tamsui
 
-En parcourant les vieilles rues de Taïwan, l'architecture elle-même se lit comme un manuel d'histoire.
+> **Sources :** [Administration du Tourisme — Fort San Domingo de Tamsui](https://www.taiwan.net.tw/m1.aspx?sNo=0001016&id=2129) ; [Réseau de tourisme de Nouveau Taipei — Tamsui Old Street](https://newtaipei.travel/zh-tw/attractions/detail/109658) ; [Wiki de Tamsui](http://tamsui.dils.tku.edu.tw/wiki/index.php/%E6%B7%A1%E6%B0%B4%E8%80%81%E8%A1%97)
 
-**Maison de commerce hokkien** (époque Qing) : la « maison en bambou » (_zhuganzuo_) — étroite en façade, profonde en intérieur. Le rez-de-chaussée est commercial, le premier étage résidentiel. Murs porteurs en briques rouges, toit à deux pans terminés en « queue d'hirondelle » ; la façade peut être ornée de sculptures sur pierre ou de céramiques Jiaozhitao.
+---
 
-**Baroque à la taïwanaise** (époque japonaise) : produit du programme de « réaménagement urbain » conduit par l'administration japonaise. La profondeur caractéristique de la maison de commerce est conservée, mais la façade adopte un vocabulaire néo-européen : composition symétrique, ordres classiques, arcs, motifs végétaux. Les matériaux évoluent du bois et de la brique traditionnels vers le béton armé et le crépi lavé. Chaque façade est la carte de visite du propriétaire : plus elle est ornementée, plus prospère est le commerce. Les vieux quartiers baroques de Sanxia, Daxi et Qishan en sont les exemples les plus représentatifs.
+### Anping Old Street (Tainan) : la plus ancienne rue de Taïwan
 
-**L'arcade** (_tingzijiao_) : l'élément architectural le plus fonctionnel des vieilles rues de Taïwan. Ce corridor public formé par le retrait du rez-de-chaussée offre ombre et abri contre la pluie, tout en prolongeant l'espace marchand. Ce dispositif, bien adapté au climat subtropical, génère une qualité spatiale unique dans la rue taïwanaise.
+Anping Old Street (Yanping Old Street) est la première rue construite par les Hollandais à Anping, remontant aux **années 1620**, à l'époque de la colonisation néerlandaise. À l'origine, la rue n'était praticable que par les piétons et les charrettes, et le parcellaire n'était pas large. Les bâtiments y mêlent les styles hollandais, Qing et japonais, constituant l'un des quartiers aux strates historiques les plus riches de Taïwan.
+
+**Caractéristiques actuelles :**
+
+Le château d'Anping (site de Fort Zeelandia) est le plus ancien château de Taïwan, construit par les Hollandais en 1624 ; la culture du « lion-épée » (劍獅) est un ornement apotropaïque propre à Anping, dont l'origine remonterait aux coutumes des troupes stationnées à l'époque de Zheng Chenggong, et qui est devenu un symbole culturel d'Anping[^7].
+
+- **Exploration des ruelles** : les ruelles complexes comme la rue du jasmin (茉莉巷) et la rue du rouge à joues (胭脂巷) conservent l'atmosphère d'un ancien village
+- **Spécialités locales** : galettes de crevettes, omelettes d'huîtres, tofu soyeux, rouleaux de crevettes d'Anping
+- **La maison de commerce Tait & Co.** (德記洋行) : un comptoir commercial établi par des marchands britanniques en 1867, aujourd'hui espace d'exposition historique
+
+> **Sources :** [Réseau touristique de Tainan — Anping Old Street](https://www.twtainan.net/zh-tw/attractions/detail/812/)
+
+---
+
+### Beipu Old Street (Hsinchu) : la rue historique à la plus forte densité de monuments de Taïwan
+
+Beipu Old Street ne fait que 200 mètres de long, mais abrite **7 monuments historiques**, la plus forte densité de tout Taïwan. C'était le centre commercial le plus animé de Beipu sous les Qing, et un témoignage important de l'histoire du défrichement par les Hakka.
+
+Le bureau de Jinguangfu (monument historique national, 1835) retrace l'histoire du défrichement commun par les pionniers minnan et hakka, tandis que le salon Tianshui est l'ancêtre de la famille Jiang ; les deux sont regroupés en un seul monument historique national.
+
+- **La maison occidentale de Jiang Axin** : construite par un riche marchand de thé durant la période japonaise, un chef-d'œuvre architectural mêlant styles chinois et occidental
+- **Le temple Ci Tian** : monument historique de niveau comté, centre de culte de la rue historique
+- **Cuisine hakka** : thé broyé (擂茶), gâteaux de kakis, nouilles de riz hakka
+- Aucune enseigne de chaîne commerciale n'est visible dans toute la rue, préservant l'atmosphère pure d'un village hakka
+
+> **Sources :** [Administration du Tourisme — Beipu Old Street](https://www.taiwan.net.tw/m1.aspx?sNo=0001108&id=A12-00275)
+
+---
+
+### Qishan Old Street (Kaohsiung) : la mémoire bananière du « royaume de la banane »
+
+Qishan, anciennement appelée « Qiwi » (旗尾), était déjà une importante région agricole du sud de Taïwan sous les Qing. Durant la période coloniale japonaise, avec l'essor de l'industrie sucrière et bananière, Qishan devint un pôle économique de la région montagneuse de Kaohsiung. Dans les **années 1950-60**, les bananes de Qishan furent massivement exportées vers le Japon, rapportant à Taïwan d'importantes devises — le surnom de « **royaume de la banane** » (香蕉王國) naquit précisément ici.
+
+**Caractéristiques actuelles :**
+
+Qishan Old Street conserve un paysage rare où coexistent des bâtiments de briques rouges de style baroque et des arcades en grès ; la gare de Qishan (musée de l'histoire du chemin de fer sucrier) est une ancienne gare de la ligne sucrière de Qiwi de la période japonaise, restaurée en espace culturel[^9].
+
+- **Le hall de la vertu martiale de Qishan** : un dojo d'arts martiaux de la période japonaise
+- **Gâteaux et roulés à la banane** : des souvenirs locaux surnommés la version taïwanaise des « Tokyo Banana »
+- Ces dernières années, Qishan a parfois dépassé Jiufen en nombre de visiteurs selon les statistiques de l'Administration du Tourisme, devenant l'une des rues historiques les plus fréquentées
+
+> **Sources :** [Réseau touristique de Kaohsiung — Qishan Old Street](https://khh.travel/zh-tw/attractions/detail/157/)
+
+---
+
+### Neiwan Old Street (Hengshan, Hsinchu) : la nostalgie d'une ville de montagne hakka
+
+Neiwan se trouve dans le canton de Hengshan, dans le comté de Hsinchu, et sa population est majoritairement hakka. Durant la période coloniale japonaise, une gare ferroviaire fut établie pour les besoins du transport forestier et minier, permettant au hameau de se développer.
+
+**Caractéristiques actuelles :**
+
+La gare de Neiwan est le terminus de la ligne ferroviaire de Neiwan ; la gare en bois est en soi un site nostalgique ; le cinéma de Neiwan, construit dans les années 1950, est aujourd'hui un restaurant et un espace d'exposition[^1].
+
+- **Le pont suspendu de Neiwan** : une passerelle panoramique enjambant la rivière Youluo
+- **Les bandes dessinées de Liu Xingqin** : les personnages « Tante » (大嬸婆) et « Frère A San » (阿三哥) du dessinateur local Liu Xingqin sont omniprésents dans les rues
+- **Spécialités hakka** : raviolis de viande à la fleur de gingembre sauvage, brioches aux légumes violets, gâteaux de riz gluant hakka, milk-shake au thé broyé
+
+> **Sources :** [TravelKing — Neiwan Old Street](https://www.travelking.com.tw/tourguide/scenery103119.html)
+
+## Le code architectural des rues historiques de Taïwan
+
+En pénétrant dans les rues historiques de Taïwan, l'architecture elle-même est un manuel d'histoire. Les styles architecturaux des rues historiques taïwanaises se répartissent principalement en trois catégories : les maisons de rue minnan de la dynastie Qing, le baroque à la taïwanaise de la période coloniale japonaise, et le design des arcades (亭仔腳) qui traverse les deux époques.
+
+Ces trois styles coexistent souvent dans une même rue, reflétant la superposition de conceptions architecturales d'époques différentes. Reconnaître ce vocabulaire architectural est la première étape pour lire les rues historiques de Taïwan[^1].
+
+**Les maisons de rue minnan** (dynastie Qing) : des « maisons-bâtons de bambou » (竹竿厝) étroites en façade et profondes, le rez-de-chaussée servant de boutique et l'étage d'habitation. Murs porteurs en briques rouges, toits à pignon avec faîteaux relevés en queue d'hirondelle, la façade pouvant comporter des décorations en pierre sculptée ou en céramique de Cochinchine.
+
+**Le baroque à la taïwanaise** (période japonaise) : produit des « corrections urbaines » menées par le gouvernement japonais. Le plan profond des maisons de rue fut conservé, mais les façades furent transformées en style pseudo-européen — composition symétrique, ordres classiques, arcs, motifs floraux et végétaux. Les matériaux évoluèrent des briques et bois traditionnels au béton armé et au granulat lavé. Chaque façade était une carte de visite du propriétaire : plus elle était élaborée, meilleure était l'affaires. Les façades baroques de Sanxia, Daxi et Qishan sont les plus représentatives.
+
+**Les arcades (亭仔腳)** : l'élément architectural le plus pratique des rues historiques taïwanaises. Un couloir public formé par le retrait du rez-de-chaussée, protégeant du soleil et de la pluie, et servant également d'extension de l'espace commercial. Cette conception s'adapte au climat subtropical et crée un sens de l'espace de rue proprement taïwanais.
+
+**Le rôle des artisans traditionnels** : les décorations fines du baroque à la taïwanaise reposent sur des savoir-faire accumulés par plusieurs générations d'artisans. Les sculpteurs en stuc réalisent les reliefs floraux et aviaires sur les façades, les spécialistes du granulat lavé imitent la texture de la pierre, et les peintres utilisent des pigments minéraux pour représenter des scènes de la vie populaire. Ces techniques sont en partie perpétuées grâce au système de « maîtres artisans du patrimoine culturel immatériel » du ministère de la Culture, mais les ruptures de transmission sont un problème généralisé — lorsqu'un bâtiment ancien est endommagé, il est souvent difficile de trouver des artisans maîtrisant les techniques d'origine pour le restaurer. Le projet de restauration des façades de Sanxia Old Street, lancé en 2004, avait recruté spécifiquement des maîtres artisans familiers avec les techniques de granulat lavé de la période japonaise ; lors des restaurations ultérieures, il fut difficile de retrouver les mêmes équipes.
+
+Les détails architecturaux permettent également de dater la construction d'une rue historique : les murs en granulat lavé sont courants dans les années 1920-30, la maçonnerie en briques apparentes date généralement de la période Qing aux années 1910, et les structures en béton armé se répandirent après 1930. Les blasons familiaux et les symboles professionnels sur les façades — des ciseaux pour le commerce du tissu, un boulier pour une maison de change — sont une porte d'entrée visuelle pour lire l'histoire commerciale de la rue.
 
 ## Le dilemme de la préservation
 
-Le plus grand défi auquel font face les vieilles rues de Taïwan n'est pas l'effondrement des bâtiments, mais **l'homogénéisation commerciale**.
+Le plus grand défi auquel font face les rues historiques de Taïwan est l'**homogénéisation commerciale**, et non simplement la question de la préservation architecturale.
 
-Dès qu'une vieille rue devient un site touristique, les loyers grimpent, les commerces locaux cèdent la place à des enseignes de chaînes ou à un tourniquet de « spécialités de vieille rue » interchangeables. On finit par trouver, du nord au sud, les mêmes saucisses grillées, les mêmes calmars rôtis, les mêmes limonades à billes. La vieille rue n'est plus qu'un marché nocturne dans une enveloppe historique.
+Lorsqu'une rue historique devient un site touristique, les loyers augmentent, les commerces locaux d'origine sont remplacés par des chaînes ou des stands de « spécialités de rue historique » interchangeables. On constate que les produits vendus dans les rues historiques du nord au sud se ressemblent de plus en plus : saucisses, calamars grillés, limonade à billes. La rue historique devient un marché nocturne (夜市) enfermé dans une coquille de bâtiments historiques.
 
-Dihua Street constitue un exemple de réussite relative : grâce à une stratégie alliant renouveau urbain et installation de marques de création, la rue a su conserver son commerce de gros en denrées du Sud et du Nord tout en accueillant des marques indépendantes, des ateliers de design et des cafés, créant un écosystème où l'ancien et le nouveau cohabitent. Lukang, de son côté, a su maintenir son identité culturelle grâce à la transmission de l'artisanat traditionnel (sculpture sur bois, orfèvrerie en étain).
+Les cas relativement réussis sont Dihua Street : grâce à une stratégie de renouvel urbain et d'implantation de marques créatives, elle a préservé le commerce traditionnel de vente en gros de produits alimentaires du nord et du sud tout en accueillant des marques indépendantes, des studios de design et des cafés, formant un écosystème de coexistence entre ancien et nouveau. Lukang, quant à elle, maintient l'identité culturelle de sa rue historique grâce à la transmission de son artisanat traditionnel (sculpture sur bois, étain).
 
-Une autre dimension du défi est **la capacité d'accueil touristique**. La foule des week-ends à Jiufen a sérieusement dégradé la qualité de vie des habitants et l'expérience des visiteurs, et les embouteillages y restent un problème chronique.
+Un autre défi réside dans la **capacité d'accueil touristique**. La foule les jours fériés à Jiufen affecte gravement la qualité de vie des résidents et l'expérience des visiteurs ; la congestion routière est un problème non résolu depuis longtemps. Le gouvernement de Nouveau Taipei a étudié à plusieurs reprises des mesures de régulation du trafic, notamment la restriction de l'accès aux véhicules privés le week-end et la mise en place de navettes de liaison, mais en raison des protestations des commerces et des difficultés d'exécution, les résultats sont restés limités.
 
-Le ministère de la Culture et les gouvernements locaux s'emploient à revitaliser les vieilles rues dans le cadre de « plans de préservation et de régénération des quartiers historiques », comprenant des subventions pour la restauration des monuments, des réglementations architecturales et un soutien aux industries traditionnelles. Comment trouver l'équilibre entre économie touristique et préservation culturelle — c'est la question que chaque vieille rue doit affronter.
+**Mécanismes gouvernementaux de préservation :** Le ministère de la Culture promeut la revitalisation des rues historiques par le biais du « Plan de préservation et de revitalisation des quartiers historiques », comprenant des subventions pour la restauration des façades (pouvant couvrir jusqu'à 60 % des coûts de rénovation), des réglementations sur les façades, des subventions pour l'amélioration de la libre circulation dans les arcades, ainsi que la reconnaissance et le soutien à la transmission des maîtres artisans traditionnels. La ville de Tainan, en classant la vieille ville d'Anping comme « zone de paysage historique » sous gestion unifiée, constitue l'un des exemples les plus complets de système de préservation locale.
+
+**Nouvelles approches par le design :** Le modèle de « design dans les quartiers historiques » a gagné en importance ces dernières années. La rue Shennong à Tainan, bien qu'elle ne soit pas une rue historique majeure, a formé un pôle créatif grâce à l'installation d'artistes et à un projet d'éclairage nocturne, attirant des voyageurs autonomes et évitant la pression de la concurrence par les prix et de l'homogénéisation. Le concept du musée écologique de l'art du bois de Daxi, « tout le quartier est un musée », permet à la préservation architecturale et à la vie quotidienne des résidents de coexister, et est considéré comme un modèle conciliant culture et qualité de vie. Trouver un équilibre entre économie touristique et préservation culturelle est un défi auquel chaque rue historique est confrontée. Les chercheurs soulignent que la préservation réussie d'une rue historique ne consiste pas à « figer le temps », mais à permettre au quartier d'être continuellement habité et vécu — car le véritable sens de l'histoire provient de l'accumulation quotidienne des générations, et non d'une reconstitution muséale de décors.
+
+## Pour aller plus loin
+
+- [Bureau des biens culturels du ministère de la Culture — Base de données des bâtiments historiques](https://nchdb.boch.gov.tw/) : recherche et consultation des bâtiments historiques et monuments inscrits à Taïwan
+- [Musée écologique de l'art du bois de Daxi](https://www.wem.ntpc.gov.tw/) : un exemple de préservation culturelle conçu comme un musée à l'échelle d'un quartier
+- [Musée des arts et traditions populaires de Lukang](https://www.lukangarts.org.tw/) : exposition permanente sur l'artisanat populaire de la dynastie Qing et l'architecture traditionnelle
 
 ## Références
 
-- [Tourism Administration, MOTC — Sites touristiques des vieilles rues de Taïwan](https://www.taiwan.net.tw/)
-- [Wikipedia — Dihua Street](https://zh.wikipedia.org/zh-tw/%E8%BF%AA%E5%8C%96%E8%A1%97)
-- [Wikipedia — Vieille rue de Sanxia](https://zh.wikipedia.org/zh-tw/%E4%B8%89%E5%B3%BD%E8%80%81%E8%A1%97)
-- [Wikipedia — Jiufen](https://zh.wikipedia.org/zh-tw/%E4%B9%9D%E4%BB%BD)
-- [Wikipedia — Vieille rue de Daxi](https://zh.wikipedia.org/zh-tw/%E5%A4%A7%E6%BA%94%E8%80%81%E8%A1%97)
-- [Portail touristique du comté de Changhua — Vieille rue de Lukang](https://tourism.chcg.gov.tw/AttractionsContent.aspx?id=152)
-- [Portail touristique de Tainan — Vieille rue d'Anping](https://www.twtainan.net/zh-tw/attractions/detail/812/)
-- [Office du tourisme de Nouveau Taipei — Vieille rue de Danshui](https://newtaipei.travel/zh-tw/attractions/detail/109658)
-- [Portail touristique de Kaohsiung — Vieille rue de Qishan](https://khh.travel/zh-tw/attractions/detail/157/)
-- [Archives numériques de géologie de l'université nationale de Taïwan — Histoire de l'exploitation aurifère à Jinguashi et Jiufen](http://tcmb.digital.ntu.edu.tw/memory/geology/story_keelung/story3.html)
+[^1]: [Administration du Tourisme — Sites des rues historiques de Taïwan](https://www.taiwan.net.tw/) — Panorama des informations touristiques sur les rues historiques de Taïwan, avec cartes et planification d'itinéraires
+[^2]: [Wikipédia — Dihua Street](https://zh.wikipedia.org/zh-tw/%E8%BF%AA%E5%8C%96%E8%A1%97) — Chronique historique de Dihua Street, styles architecturaux et développement commercial de Dadaocheng
+[^3]: [Wikipédia — Sanxia Old Street](https://zh.wikipedia.org/zh-tw/%E4%B8%89%E5%B3%BD%E8%80%81%E8%A1%97) — Historique de la restauration du groupe architectural baroque de Sanxia et documents sur la reconstruction du temple du ancêtre fondateur dirigée par Li Mei-shu
+[^4]: [Wikipédia — Jiufen](https://zh.wikipedia.org/zh-tw/%E4%B9%9D%E4%BB%BD) — Histoire des mines d'or de Jiufen, lieu de tournage de *A City of Sadness* de Hou Hsiao-hsien et situation touristique actuelle
+[^5]: [Wikipédia — Daxi Old Street](https://zh.wikipedia.org/zh-tw/%E5%A4%A7%E6%BA%AA%E8%80%81%E8%A1%97) — Groupe de façades baroques de Daxi et présentation de la grande fête de Guan Sheng Di Jun
+[^6]: [Réseau d'information touristique de Changhua — Lukang Old Street](https://tourism.chcg.gov.tw/AttractionsContent.aspx?id=152) — Informations sur le groupe architectural minnan de Lukang, le temple Longshan, le temple Tianhou et l'artisanat traditionnel
+[^7]: [Réseau touristique de Tainan — Anping Old Street](https://www.twtainan.net/zh-tw/attractions/detail/812/) — Explications sur le château d'Anping, la culture du lion-épée et l'histoire de Yanping Old Street
+[^8]: [Réseau de tourisme de Nouveau Taipei — Tamsui Old Street](https://newtaipei.travel/zh-tw/attractions/detail/109658) — Présentation des sites du Fort San Domingo, de Tamsui Old Street et de Chongjian Street
+[^9]: [Réseau touristique de Kaohsiung — Qishan Old Street](https://khh.travel/zh-tw/attractions/detail/157/) — Histoire du « royaume de la banane » de Qishan, façades baroques et informations sur le musée de l'histoire du chemin de fer sucrier
+[^10]: [Archives numériques de géologie de l'Université nationale de Taïwan — Histoire de l'exploitation de l'or à Jinguashih et Jiufen](http://tcmb.digital.ntu.edu.tw/memory/geology/story_keelung/story3.html) — Archives numériques sur l'histoire minière de Jiufen, incluant la géologie des mines et la datation des périodes d'exploitation
+[^11]: [Administration du Tourisme — Dihua Street](https://www.taiwan.net.tw/m1.aspx?sNo=0001016&id=R108) — Présentation officielle du marché Yongle, du temple de la divinité tutélaire de Xiahai et de la grande rue des provisions du Nouvel An
+[^12]: [Administration du Tourisme — Sanxia Old Street](https://www.taiwan.net.tw/m1.aspx?sNo=0001091&id=R13) — Plan de restauration architecturale de Sanxia Old Street et renaissance de l'art de la teinture à l'indigo

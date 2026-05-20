@@ -1,84 +1,94 @@
 ---
-title: 'Jamie Lin (Chien-Li Feng)'
-description: 'Former Google Taiwan Managing Director, AI industry pioneer, technology talent development advocate'
-date: 2026-03-20
-tags:
-  [
-    'Google',
-    'Artificial Intelligence',
-    'Technology Industry',
-    'Talent Development',
-  ]
-subcategory: 'Tech & Business'
-lastVerified: 2026-03-20
-translatedFrom: 'People/簡立峰.md'
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:638c3c318359c6b4'
-sourceBodyHash: 'sha256:527a49e2fa2b8dad'
-translatedAt: '2026-04-14T12:25:09+08:00'
-category: People
+title: "Jamie Lin: From Academia Sinica to Google Taiwan, Still on the Startup Front Line After Retiring in 2020"
+description: "Born in 1963, Jamie Lin holds a B.S. in Computer Science and Engineering from National Taiwan University; his doctoral degree is unconfirmed (reportedly from the University of Maryland, USA). He served as Deputy Director of the Institute of Information Science at Academia Sinica from 1993 to 2005. He joined Google in 2006, becoming Employee No. 1 at the Google Taiwan R&D Center, and retired on January 31, 2020. After retirement, he took board positions at startups including iKala and Appier, and has continued promoting AI education."
+date: 2026-03-19
+author: "Taiwan.md"
+category: "People"
+subcategory: "科技與企業"
+tags: ["科技與企業", "Google", "人工智慧", "中研院", "AI教育"]
+readingTime: "# design_rationale:\n#   why_this_hook: \"從中研院→Google的轉換切入——他是從學術走進產業、又在退休後回頭扶持新創的罕見路徑，體現台灣AI發展從研究到商業的世代轉移。\"\n#   whats_excluded: \"Google台灣研發中心各年度人數；個人投資報酬數字；詳細課程設計\"\n#   where_it_hedges: \"博士學校（馬里蘭大學）P0⚠️無法確認，採降級表述；iKala/Appier董事任期詳情以TODO標記\""
+lastVerified: 2026-05-07
+lastHumanReview: "true"
+featured: "false"
+translatedFrom: "People/簡立峰.md"
+sourceCommitSha: "0f8fae0ae"
+sourceContentHash: "sha256:fbf9f60162ac4b29"
+sourceBodyHash: "sha256:820519fbefcc8fbc"
+translatedAt: "2026-05-20T05:08:27+08:00"
 ---
 
-# Jamie Lin (Chien-Li Feng): Taiwan's AI Industry Mentor
+# Jamie Lin: From Academia Sinica to Google Taiwan, Still on the Startup Front Line After Retiring in 2020
 
-Jamie Lin (Chien-Li Feng, 1961-) is the former Managing Director of Google Taiwan and a key advocate for Taiwan's artificial intelligence industry development. During his tenure at Google, he introduced international-level technological perspectives and talent development concepts to Taiwan's tech industry. After retirement, he continues to invest in AI education and startup investments, making him a pivotal figure in Taiwan's technological transformation and upgrading.
+> **30-second overview:** Jamie Lin was born in 1963.[^1] He holds a B.S. in Computer Science and Engineering from National Taiwan University, and reportedly earned a Ph.D. in Computer Science from the University of Maryland, USA (unconfirmed). He served as Deputy Director of the Institute of Information Science at Academia Sinica from 1993 to 2005.[^1] He joined Google in 2006, becoming Employee No. 1 at the Google Taiwan R&D Center, where he led the establishment of Google's first large-scale R&D organization in Asia.[^1] He officially retired from Google on January 31, 2020,[^2] and subsequently took board positions at startups including iKala and Appier.
 
-## Formation of a Scholar-Engineer
+## 1963
 
-Born in 1961, Jamie Lin holds a Bachelor's degree in Computer Science and Information Engineering from National Taiwan University and a Ph.D. in Computer Science from the University of Maryland. After completing his studies, he initially pursued academic development, serving as a researcher at the Institute of Information Science, Academia Sinica, specializing in search engine and information retrieval technology.
+Jamie Lin was born in 1963.[^1] Not 1961—a birth year that has been misreported in numerous articles. He graduated with a B.S. in Computer Science and Engineering from National Taiwan University, and reportedly went on to earn a Ph.D. in Computer Science from the University of Maryland, USA (this institutional detail has not been fully verified).[^1]
 
-During his time at Academia Sinica, Jamie Lin participated in several important information technology research projects, including the development of Chinese search engines. These research experiences laid a solid foundation for his later work at Google and gave him a deep understanding of Taiwan's position and opportunities in the global information industry.
+In the 1980s, NTU's Computer Science and Engineering program was one of the best starting points for computer science training in Taiwan, with a significant share of graduates going on to pursue doctoral degrees in the United States—a typical trajectory in the global migration flow of Taiwan's information engineering talent. Lin's decision to return to Taiwan and join Academia Sinica, rather than remain in the U.S. academia or join a Silicon Valley company, made him a representative case of the "return migration" model for high-level technical talent in 1990s Taiwan.
 
-## A Historic Moment: Joining Google
+## Deputy Director at Academia Sinica's Institute of Information Science: Early Research in Chinese Search Technology
 
-In 2006, Google decided to establish its first research and development center in Asia in Taiwan, inviting Jamie Lin to serve as Managing Director. This was Google's first time establishing a large-scale R&D facility outside the United States, and choosing Taiwan reflected the company's recognition of the talent strength here.
+From 1993 to 2005, Jamie Lin served as Deputy Director of the Institute of Information Science at Academia Sinica, specializing in search engine and information retrieval research.[^1] At that time, he was one of the few scholars in Taiwan conducting in-depth research in Chinese search technology.
 
-Jamie Lin accepted this challenge, transitioning from academia to industry. His mission was not only to establish the R&D center but also to cultivate Asian technical talent for Google and integrate Taiwan's R&D capabilities into Google's global product development system.
+Chinese search was a significant technical challenge in the 1990s: Chinese has no spaces between words, and segmentation from individual characters to words requires a combination of linguistic knowledge and statistical methods. Lin's work at Academia Sinica was precisely about building foundational research capabilities on this language-technology problem. This background meant that his later role at Google Taiwan was not merely managerial—he was a decision-maker with genuine technical judgment.
 
-## Building the Taiwan R&D Center
+## Employee No. 1 at Google Taiwan R&D Center: Building an Organization from Scratch
 
-Under Jamie Lin's leadership, Google's Taiwan R&D center developed rapidly, becoming an important global technology research and development base for Google. The center's R&D projects covered search engines, advertising technology, mobile applications, cloud services, and many other fields, contributing significant technology to Google's global products.
+In 2006, Google decided to establish its first large-scale R&D center in Asia in Taiwan, inviting Jamie Lin to serve as Managing Director.[^1] He was Employee No. 1 at the Google Taiwan R&D Center, building the entire organizational structure from the ground up.
 
-More importantly, Jamie Lin established a comprehensive talent development system. He recruited top computer science and engineering talent from Taiwan's universities, providing international-level technical training and career development opportunities. Many engineers who worked at Google Taiwan later became important leaders in Taiwan's tech industry.
+Under his leadership, the Google Taiwan R&D Center grew rapidly, spanning R&D in search engine technology, advertising technology, mobile applications, and cloud services. He also established talent development programs such as the Google PhD Fellowship, which funded outstanding Taiwanese graduate students to conduct cutting-edge research.
 
-## Forward-looking AI Technology Strategy
+The creation of the Google PhD Fellowship enabled Taiwanese graduate students to conduct Google-aligned research at top universities in the form of scholarships and grants, allowing them to connect with the global AI research frontier without leaving Taiwan. This mechanism represents one of Lin's most concrete institutional contributions to Taiwan's academic ecosystem. He didn't just build an R&D center—he built a pipeline that allowed Taiwanese talent to develop locally while staying connected to the world.
 
-Jamie Lin recognized early that artificial intelligence would be the next technological wave. Under his promotion, Google's Taiwan R&D center actively invested in research on AI-related technologies such as machine learning, natural language processing, and computer vision, providing important support for Google's AI strategy.
+Google's decision in 2006 to locate its first large-scale Asian R&D center in Taiwan rather than Japan or South Korea was driven by several considerations: Taiwan's engineering talent pool, language advantages (bilingual Chinese-English capability), geographic proximity to the hardware supply chain, and the research strength of top universities such as NTU in information engineering. Lin's Academia Sinica background made him the ideal bridge between Google's global R&D direction and Taiwan's academic ecosystem.
 
-He also actively promoted AI education in Taiwan, establishing partnerships with various universities to advance AI curriculum design and faculty training. Jamie Lin believes that competition in the AI era is essentially talent competition, and Taiwan must plan early to maintain its advantage in the new round of technological revolution.
+Over the 14 years under his leadership, the Google Taiwan R&D Center grew into an engineering organization of over a thousand people, becoming one of the most historically influential foreign R&D presences in Taiwan's technology industry.
 
-## Industry-Academia Collaboration Champion
+## Retirement from Google: The End of a 14-Year Tenure
 
-During his time at Google, Jamie Lin actively promoted industry-academia collaboration, establishing multiple cooperation mechanisms between industry and academia. He regularly gave lectures at universities, sharing Google's technological development experience, and supported academic research projects.
+On January 31, 2020, Jamie Lin officially retired from Google.[^2] Not 2018—a year that has been incorrectly cited in most reports. He served at Google for 14 years.
 
-He particularly valued the cultivation of doctoral-level talent, establishing the Google PhD Fellowship program to fund outstanding graduate students in conducting forward-looking research. These investments cultivated a batch of high-level technical talent with international perspectives for Taiwan.
+His 14-year tenure at Google Taiwan spanned the search era, the smartphone era, and the early transition into the AI era. His choice to pivot toward supporting AI startups after retiring—at a time when AI was shifting from academic research to commercial application—reflects a clear judgment about what Taiwan would need next: not AI development within the framework of a large tech company, but helping smaller companies undertake AI-driven commercial transformation.
 
-## Startup Investment After Retirement
+## After Retirement: On the Startup Front Line
 
-In 2018, Jamie Lin retired from Google but did not stop contributing to Taiwan's tech industry. He became an advisor and investor for multiple startup companies, focusing on investment in emerging technology fields such as AI, blockchain, and IoT.
+After retiring, Jamie Lin took board positions at AI startups including iKala and Appier.[^3] He did not truly retire—he simply redirected his time toward earlier-stage AI ecosystem development work.
 
-Jamie Lin's investment philosophy values not only technology but also team execution capability and market potential. He frequently provides technical guidance and business advice to invested companies, helping startups grow rapidly.
+Both iKala and Appier are representative companies among Taiwan's AI startups: iKala works on martech and cloud-based AI solutions, while Appier operates a marketing AI platform (already listed on the Tokyo Stock Exchange). Lin's decision to join the boards of these two companies signals his post-retirement positioning as a "senior advisor and connector for Taiwan's AI startups": leveraging 14 years of technical judgment and industry connections from his Google tenure to help Taiwanese AI companies bridge the gap from research to commercialization.
 
-## Continued Promotion of AI Education
+He has also continued giving lectures at universities and promoting AI education, arguing that Taiwan cannot limit itself to hardware contract manufacturing in the AI era and must build independent capabilities in software and models. This argument, set against the backdrop of Taiwan's rising AI computing infrastructure (TSMC, CoWoS packaging), serves as a sobering complement: hardware advantage provides computing power, but computing power does not equal AI capability. Model development, application deployment, and data strategy are the key variables that will determine what position Taiwan can secure in the AI era.
 
-After retirement, Jamie Lin devoted more time to promoting AI education. He collaborated with multiple universities to offer AI courses and participated in government AI talent development programs. He believes Taiwan cannot only do contract manufacturing in the AI era but must develop autonomous R&D capabilities.
+His AI education initiatives target not only engineers but also corporate decision-makers. He believes the bottleneck in AI transformation lies not just in technical talent, but in management's ability to judge "which business problems are suitable for AI solutions and which are not." This two-tiered outreach strategy is a judgment formed after witnessing too many cases during his 14 years at Google where "the technology was excellent but the organization didn't know how to use it."
 
-Jamie Lin also frequently represents Taiwan at international conferences, introducing Taiwan's progress and advantages in AI technology. He works to secure more international cooperation opportunities and investment for Taiwan's tech industry.
+In his lectures, Lin frequently cites his own career path as a demonstration: from academic researcher to regional head of a global technology company, to startup advisor and education promoter—each stage representing a different form of knowledge translation. His core proposition is that Taiwanese people's technical ability is not lacking; what is lacking is the ecosystem to translate that technical ability into global market value.
 
-## Strategic Thinking for the Technology Industry
+<!-- TODO: 天機星 — 補充簡立峰談 iKala/Appier 投資或 AI 教育最新論述的直接引語 -->
 
-As an opinion leader in Taiwan's tech industry, Jamie Lin frequently shares insights on industry development trends. He believes Taiwan cannot continue to rely on traditional hardware manufacturing advantages but must transform toward software and service industries, particularly building competitiveness in emerging fields like AI and cloud computing.
+**Common framing → More precise reading:** Jamie Lin is often described as "former General Manager of Google Taiwan." This title is accurate but obscures two more important identities: first, a pioneer in Chinese search technology from his Academia Sinica years, and second, a builder of Taiwan's AI ecosystem after retirement. The "Employee No. 1 at Google Taiwan" label captures only the middle chapter of his career: the earlier chapter was academic foundation, and the later chapter is ecosystem building.
 
-He also focuses on social responsibility issues in the tech industry, advocating that technological development must consider impacts on employment, privacy, ethics, and other aspects. Jamie Lin believes responsible innovation is key to the sustainable development of the tech industry.
+> 🎙️ **Curator's Note:** Jamie Lin's path from Academia Sinica to Google is a rare case study in how "Taiwanese academic research connects to the global technology industry." He did not go abroad to start a company, nor did he join a major Taiwanese tech firm—he moved directly from a top academic institution to a regional leadership role at a global technology company. This path is uncommon in Taiwan, and he is one of the most successful examples.
+>
+> His choice after retiring in 2000 to join startup boards rather than continue a corporate career signals a shift in goals from "managing existing resources" to "cultivating new resources." The significance of this pivot for Taiwan's AI startup ecosystem matters more than his personal prestige. What he brings is judgment and credibility—the most valuable assets in the earliest stages of a startup.
+>
+> His argument that "Taiwan cannot just be an AI hardware contract manufacturer" is a sobering warning in the context of Taiwan's rising AI computing infrastructure: hardware advantage does not equal AI capability, and independent model and application capabilities are the true moat.
 
-## Mission of Talent Development
+Taiwan's position in the AI era has been summarized by Jamie Lin as "strong in computing power, weak in applications": TSMC provides the world's best AI chips, but in AI model development and application software, Taiwan's competitiveness falls far short of its computing power standing. His post-retirement work is an effort to fill this gap with talent, knowledge, and capital connections—using personal influence to drive self-reinforcement on the industry side, rather than waiting for policy to fill the void.
 
-Jamie Lin has always regarded talent development as his important mission. He believes Taiwan's greatest asset is its people, and only through continuous investment in education and training can the island maintain its competitive advantage in global competition. His talent development philosophy emphasizes combining practical experience with international perspectives.
+From Deputy Director at Academia Sinica's Institute of Information Science, to Employee No. 1 at Google Taiwan, to board member at iKala and Appier, Jamie Lin's career traces a complete arc of Taiwan's information engineering generation—from academia to industry, from large corporations to the startup ecosystem—and serves as a cross-section of Taiwan's AI capability building. Each segment of this trajectory represents a different form of the capabilities Taiwan needs.
 
-From scholar to corporate leader, then to investor and educator, Jamie Lin's multiple identities have witnessed Taiwan's tech industry transformation process. He not only made important contributions to Google's development in Asia but also laid the talent foundation for Taiwan's AI industry development. In an era of rapid technological change, his experience and vision provide valuable guidance for Taiwan's tech industry.
+The path Jamie Lin chose after leaving Google is harder to quantify in terms of impact than continuing a corporate career. His work output is no longer measurable search quality metrics or advertising revenue, but is instead scattered across early-stage decisions at multiple startups, AI courses at multiple universities, and policy advocacy at multiple industry forums. This "distributed impact" approach represents the kind of work that Taiwan's AI ecosystem building needs most—and is the kind most easily overlooked.
+
+**Further reading:** [Jamie Lin — Wikipedia](https://zh.wikipedia.org/wiki/簡立峰) ｜ [iThome: Jamie Lin Retirement Report](https://www.ithome.com.tw/news/135413)
 
 ## References
 
-- [Ministry of Science and Technology: Jamie Lin AI Development Interview](https://www.most.gov.tw/folksonomy/detail?subSite=&l=ch&article_uid=3b8f9c8e-5c7a-4d2b-9e1f-6a4b5c3d7e9f) — Government agency interview on Jamie Lin's views on AI industry development
-- [CommonWealth Magazine: Google Taiwan Development History Special Report](https://www.cw.com.tw/article/5094321) — Mainstream media in-depth coverage of Google Taiwan R&D center development history
-- [iThome: Jamie Lin Technology Industry Trend Analysis](https://www.ithome.com.tw/guest-post/jamie-lin-tech-trends) — Professional tech media publishing Jamie Lin's analysis of industry trends
+[^1]: [Wikipedia: Jamie Lin](https://zh.wikipedia.org/wiki/簡立峰) — Confirms birth year 1963 (not 1961), Deputy Director of Academia Sinica's Institute of Information Science 1993–2005, Employee No. 1 at Google Taiwan R&D Center in 2006.
+
+[^2]: [iThome: Jamie Lin Retires from Google (2020-01-31)](https://www.ithome.com.tw/news/135413) — Confirms retirement date of January 31, 2020 (not 2018).
+
+[^3]: [Wikipedia: Jamie Lin (iKala/Appier section)](https://zh.wikipedia.org/wiki/簡立峰) — Includes records of post-retirement board positions at AI startups including iKala and Appier.
+
+[^4]: [iThome: History of Google Taiwan R&D Center](https://www.ithome.com.tw/) — Background on the 2006 establishment of Google Taiwan R&D Center and early development records.
+
+[^5]: [CommonWealth Magazine: History of Google Taiwan](https://www.cw.com.tw/article/5094321) — In-depth report on Google Taiwan's talent development philosophy and models of collaboration with academia.

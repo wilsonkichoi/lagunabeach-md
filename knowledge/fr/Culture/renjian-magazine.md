@@ -1,174 +1,175 @@
 ---
 title: 'Le magazine Renjian'
-description: '47 numéros, quatre ans, une révolution silencieuse menée par la photographie et l'écriture — aux origines du journalisme littéraire à Taïwan'
+description: "47 numéros, quatre ans, une révolution discrète lancée par la photographie et l'écriture - le point de départ de la littérature de reportage à Taïwan"
 date: 2026-03-19
-tags:
-  ['magazine Renjian', 'Chen Yingzhen', 'journalisme littéraire', 'photojournalisme', 'mouvements sociaux', 'années 80', 'fin de la loi martiale']
-subcategory: 'Édition et médias'
+author: 'Taiwan.md Contributors'
 category: 'Culture'
-author: 'Taiwan.md Translation Team'
+subcategory: '出版與媒體'
+tags: ['magazine Renjian', 'Chen Yingzhen', 'littérature de reportage', 'photographie de reportage', 'mouvements sociaux', 'années 1980', 'levée de la loi martiale']
 readingTime: 12
-featured: false
 lastVerified: 2026-03-19
-translatedFrom: "Culture/人間雜誌.md"
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:71f7c3d911b14d72'
-sourceBodyHash: 'sha256:39b5ed0bb97ef89b'
-translatedAt: "2026-04-14T12:33:38+08:00"
+lastHumanReview: true
+featured: false
+translatedFrom: 'Culture/人間雜誌.md'
+sourceCommitSha: 'f712b7242'
+sourceContentHash: 'sha256:2ffcb35d7f3de902'
+sourceBodyHash: 'sha256:b931a657eacbce86'
+translatedAt: '2026-05-20T05:08:34+08:00'
 ---
 
 # Le magazine Renjian
 
-## En 30 secondes
+## Aperçu en 30 secondes
 
-En novembre 1985, un magazine intitulé _Renjian_ (« Le monde des hommes ») voit le jour à Taipei. Son fondateur, Chen Yingzhen — qui signe sous le pseudonyme Xu Nancun — accomplit en 47 numéros et quatre ans ce que personne n'osait faire : braquer l'objectif sur les paysans, les ouvriers, les peuples autochtones, sur cette Taïwan réelle que le gouvernement qualifiait de « côté sombre ».
+En novembre 1985, une revue appelée 《Renjian》 naît à Taipei. Son fondateur, Chen Yingzhen (nom de plume : Xu Nancun), emploie 47 numéros et quatre ans à faire une chose que personne n’osait alors entreprendre : braquer l’objectif sur les paysans, les ouvriers, les peuples autochtones, sur ces réalités de Taïwan que le gouvernement considérait comme une « face sombre ».
 
-Ce n'était ni un magazine politique ni une revue littéraire, mais une révolution silencieuse conduite par l'image et le texte. Il a formé toute une génération de journalistes et de photographes, changé le regard des Taïwanais sur leur propre terre, puis disparu discrètement en 1989, emporté par des difficultés financières.
+Ce fut une révolution discrète lancée par la photographie et l’écriture, ni magazine politique ni revue littéraire. Elle forma toute une génération d’écrivains de reportage littéraire et de photographes, transforma la manière dont les Taïwanais regardaient leur propre terre, puis cessa discrètement de paraître en 1989 sous la pression financière.
 
-## Pourquoi c'est important
+47 numéros, quatre ans : c’est le point de départ de la littérature de reportage à Taïwan, et l’une des sources de la tradition actuelle de la photographie de reportage.
 
-Ce que nous tenons aujourd'hui pour acquis — le photojournalisme, l'attention portée aux plus vulnérables, l'art de raconter une histoire par l'image — était proprement révolutionnaire dans les années 1980.
+## Pourquoi c’est important
 
-_Renjian_ est le point de départ du journalisme littéraire à Taïwan. Il a démontré une chose : la véritable force ne réside pas dans les grands discours, mais dans la capacité à observer, témoigner, découvrir avec constance. Tandis que tout le monde prenait position sur l'échiquier politique, Chen Yingzhen choisissait une autre voie — pointer l'objectif sur les gens qui vivaient vraiment de cette terre.
+Ce que nous tenons aujourd’hui pour acquis - la « photographie de reportage », l’attention portée aux personnes vulnérables, l’usage de l’image pour raconter des histoires - était révolutionnaire dans les années 1980.
 
-Le magazine n'a existé que quatre ans, mais les graines qu'il a semées germent encore aujourd'hui.
+Le magazine 《Renjian》 est le point de départ de la littérature de reportage taïwanaise. Il a démontré une chose : la véritable force ne réside pas dans les appels tonitruants, mais dans le fait de consigner, de témoigner et de découvrir avec discrétion. Alors que tout le monde prenait position politiquement, Chen Yingzhen choisit une autre voie : braquer l’objectif sur les personnes vivant réellement sur cette terre.
 
-## Chen Yingzhen : un homme, un magazine
+Cette revue n’a existé que quatre ans, mais les graines qu’elle a semées continuent de germer aujourd’hui.
 
-Chen Yingzhen, de son vrai nom Chen Yongshan, est né en 1937 à Danshui. Sa vie ressemble à un condensé de l'histoire d'après-guerre de Taïwan — complexe, contradictoire, controversée, mais toujours animée d'une conviction profonde.
+## Chen Yingzhen : un homme et une revue
 
-En 1968, à 31 ans, il est condamné pour rébellion après avoir fondé un cercle de lecture. Il passe sept ans dans la prison de l'île Verte. Cette expérience marque durablement sa pensée et son écriture. Il lit Lu Xun, Tchekhov, Akutagawa, et réfléchit à la manière dont la littérature peut s'engager dans le réel, donner une voix à ceux qui se taisent.
+Chen Yingzhen, de son vrai nom Chen Yongshan, est né en 1937 à Zhunan, dans le comté de Miaoli (alors district de Zhunan, préfecture de Hsinchu), avant d’étudier à l’école spécialisée d’anglais Tamkang. [^1] Sa vie fut complexe, contradictoire, pleine de controverses, mais elle reflète aussi les multiples dimensions de l’histoire taïwanaise d’après-guerre, tout en témoignant d’une fidélité constante à certaines convictions.
 
-Libéré, il devient une plume majeure du magazine _Xiachao_, perpétuant une tradition de pensée de gauche. Mais le climat politique des années 1980 à Taïwan le laisse perplexe : « Le Guomindang frappait sur deux fronts à la fois — d'un côté les soi-disant communistes, nous de _Xiachao_ ; de l'autre, les indépendantistes. En tant que cible, nous partagions le même sort que l'opposition, mais je ne pouvais pas m'aligner sur ses positions… C'est là que j'ai pensé : autant ouvrir un nouveau front. »
+En 1968, Chen Yingzhen, alors âgé de 31 ans, fut condamné à dix ans de prison pour rébellion en raison de l’organisation d’un groupe de lecture. Il bénéficia ensuite d’une amnistie spéciale après la mort de Chiang Kai-shek en 1975, et fut libéré par anticipation après environ sept ans d’incarcération effective. [^2] Cette expérience marqua profondément sa création et sa pensée ultérieures. Il lisait Lu Xun, Tchekhov, Akutagawa Ryunosuke, et se demandait comment la littérature pouvait intervenir dans la réalité, comment elle pouvait donner voix aux silencieux.
 
-Ce « nouveau front », c'est _Renjian_.
+Après sa sortie de prison, Chen Yingzhen revint dans le monde littéraire comme auteur de la revue 《Xiachao》, prolongeant la tradition intellectuelle de gauche. Mais le climat politique taïwanais des années 1980 le déconcerta. Selon des matériaux biographiques relatifs à Chen Yingzhen, il aurait exprimé l’idée que le Kuomintang réprimait à la fois la gauche et l’opposition dangwai, et que, ne pouvant adhérer à la ligne du Kuomintang tout en étant en désaccord avec certaines positions dangwai, il décida d’« ouvrir un autre front ».
 
-## Contexte : Taïwan dans les années 1980, à la veille de la levée de la loi martiale
+Cet « autre front », ce fut le magazine 《Renjian》.
 
-Taïwan des années 1980 est à la veille d'un bouleversement majeur. Chiang Ching-kuo est encore au pouvoir, la loi martiale n'est pas encore levée, mais les couches profondes de la société sont déjà en mouvement. Le miracle économique n'apporte pas que de la prospérité : il creuse les inégalités, pollue l'environnement et bafoue les droits des travailleurs.
+## Contexte historique : Taïwan avant la levée de la loi martiale dans les années 1980
 
-Le monde rural se vide, les jeunes convergent vers les usines, la culture traditionnelle résiste tant bien que mal aux vagues de la modernisation. Les peuples autochtones font face à une menace d'effacement culturel. Les anciens soldats du continent sont nostalgiques d'une maison à laquelle ils ne peuvent pas retourner. Les nouveaux migrants cherchent à survivre en marge des villes.
+Dans les années 1980, Taïwan se trouvait à la veille de transformations radicales. Chiang Ching-kuo était encore au pouvoir, la loi martiale n’avait pas encore été levée, mais les couches populaires de la société commençaient déjà à s’agiter. Le décollage économique avait apporté la prospérité, mais aussi les écarts de richesse, la pollution environnementale et les problèmes de droits du travail.
 
-Ces histoires, les grands médias ne les racontaient pas. Le gouvernement les considérait comme des « sujets négatifs » susceptibles de nuire à l'image internationale de Taïwan. L'opposition, absorbée par la lutte politique, n'avait pas les moyens de s'intéresser aux marges sociales.
+Les campagnes déclinaient, les jeunes affluaient vers les usines, la culture traditionnelle luttait dans la vague de modernisation. Les peuples autochtones faisaient face à une crise d’extinction culturelle, les anciens soldats éprouvaient la nostalgie du pays natal sans pouvoir y retourner, les nouveaux migrants tentaient de survivre aux marges urbaines.
 
-C'est dans cet interstice que _Renjian_ a trouvé sa place.
+Ces histoires, les médias dominants ne les rapportaient pas. Le gouvernement considérait qu’il s’agissait de « sujets négatifs » susceptibles de nuire à l’image internationale de Taïwan. Les médias dangwai étaient absorbés par la lutte politique et n’avaient plus la capacité de s’intéresser aux couches inférieures de la société.
 
-## Ce que contenaient 47 numéros
+C’est précisément dans cet interstice que 《Renjian》 trouva sa place.
 
-La ligne éditoriale de _Renjian_ tenait en une phrase : « Un magazine qui informe, découvre, documente, témoigne et commente, par l'image et le texte. »
+## Ce que contenaient les 47 numéros
 
-Seize mots en chinois. Difficile d'imaginer aujourd'hui à quel point c'était radical.
+La mission éditoriale de 《Renjian》 était simple : « une revue qui mène, par l’image et par le texte, un travail de reportage, de découverte, de consignation, de témoignage et de commentaire ».
 
-Chaque numéro de _Renjian_ était une coupe transversale de la société taïwanaise. On y trouvait :
+Mais il est difficile, aujourd’hui, d’imaginer à quel point ces 16 caractères chinois étaient radicaux à l’époque.
 
-**Dossiers sur le monde rural** — pas une idylle romanesque, mais la lutte réelle pour survivre. La pollution aux pesticides, les expropriations foncières, l'exode des jeunes actifs : des enjeux qui sont encore d'actualité aujourd'hui apparaissaient déjà dans les pages de _Renjian_ il y a trente-cinq ans.
+Chaque numéro de 《Renjian》 ressemblait à une coupe transversale de la société taïwanaise. On y trouvait :
 
-**Portraits d'ouvriers** — les enfants au travail dans les usines, les mineurs au fond des puits, les accidents mortels sur les chantiers. Ces voix ont été amplifiées pour la première fois ; quelqu'un s'est enfin accroupi pour les écouter.
+**Dossiers ruraux** - Des enregistrements réels des luttes de survie dans les campagnes, et non des idylles rurales romantisées. Pollution par les pesticides, expropriations foncières, exode des jeunes adultes : ces enjeux actuels apparaissaient déjà dans les pages de 《Renjian》 il y a 35 ans.
 
-**Cultures des peuples autochtones** — non pas les spectacles de danse pour touristes, mais la crise de la transmission culturelle, les conflits autour des droits fonciers, les questions identitaires dans un Taïwan en pleine mutation.
+**Histoires ouvrières** - Des enfants travailleurs dans les usines, des ouvriers dans les mines, des accidents mortels sur les chantiers. Pour la première fois, les voix de ces personnes furent amplifiées ; pour la première fois, quelqu’un acceptait de s’accroupir pour les écouter parler.
 
-**Artisanat et traditions populaires** — des savoir-faire en voie de disparition, la sagesse manuelle des vieux maîtres artisans, un patrimoine culturel menacé par l'industrialisation.
+**Cultures autochtones** - La revue documentait la crise de la transmission culturelle, les controverses autour des droits fonciers, les troubles identitaires sous l’impact de la modernisation, et non des spectacles de chants et de danses façon brochure touristique.
 
-Chaque reportage était accompagné d'une abondance de photographies — non comme de simples illustrations, mais comme un langage narratif à égalité avec le texte. Les photographes s'immergeaient sur le terrain pour saisir ces instants que personne ne regardait.
+**Arts et artisanats populaires** - Des techniques sur le point de disparaître, le savoir manuel des maîtres artisans, le patrimoine culturel sous la vague de l’industrialisation.
 
-## La révolution du photojournalisme
+Chaque reportage était accompagné d’un grand nombre de photographies, placées aux côtés du texte comme un langage narratif égal, et non comme de simples illustrations décoratives. Les photographes entraient profondément sur le terrain, captant par l’objectif ces instants négligés.
 
-Avant _Renjian_, il n'existait pas véritablement de « photojournalisme » à Taïwan au sens propre du terme.
+## La révolution de la photographie de reportage
 
-Wang Xin, premier directeur photo du magazine, en formula la définition : la photographie de reportage doit avoir un caractère « informatif et directif » ; elle est « une attitude critique et une force de réforme ».
+Avant 《Renjian》, il n’existait pas à Taïwan de véritable « photographie de reportage » au sens plein du terme.
 
-Ce n'est ni la photographie d'art ni la photographie de presse ordinaire, mais un nouveau langage médiatique. Le photographe n'est pas seulement un témoin — il est un observateur critique, un agent de changement.
+Le premier rédacteur photo, Wang Xin, donna une définition de ce concept : la photographie de reportage devait posséder une « fonction informative et directrice » ; elle était « une attitude critique et une force de critique réformatrice ».
 
-Guan Xiaorong plonge avec les paysans dans les champs. Ruan Yizhong s'enfonce dans les villages autochtones. Cai Mingde photographie la vie des laissés-pour-compte des villes. Leurs images ont une tension particulière : elles documentent le réel avec rigueur tout en étant traversées par une profonde humanité.
+C’était un nouveau langage médiatique, ni photographie d’art ni photographie de presse. Le photographe y était témoin, critique, réformateur.
 
-Ces photographes sont tous devenus des figures majeures du photojournalisme taïwanais — mais leur formation a commencé à _Renjian_.
+L’objectif de Guan Xiaorong suivait les paysans dans les champs ; Ruan Yizhong entrait profondément dans les villages autochtones ; Cai Mingde photographiait la vie des personnes aux marges de la ville. Leurs images possédaient à la fois la précision d’un enregistrement objectif de la réalité et une attention humaniste portée aux personnes photographiées.
 
-## Le numéro 15 : le scoop sur l'incident de l'aéroport de Taoyuan
+Tous ces photographes s’imposèrent ensuite dans le champ taïwanais de la photographie de reportage, et leur lieu d’éveil fut 《Renjian》.
 
-Le 30 novembre 1986, Xu Xinliang et d'autres militants d'opposition figurant sur la liste noire tentent de rentrer à Taïwan depuis le Japon — et se voient refuser l'accès. Le Parti démocratique progressiste mobilise des milliers de sympathisants à l'aéroport de Taoyuan. Les forces de l'ordre déploient des camions à eau chargés de colorant rouge, destiné à marquer les manifestants. Le face-à-face dure dix heures.
+## Cai Mingde et l’enregistrement des marges urbaines
 
-Ce soir-là, les trois chaînes de télévision officielles ne diffusent que les images de projectiles lancés par la foule, qualifiant les manifestants de « voyous ». Le seul journal qui ose publier les images des violences policières est le _Zili Wanbao_, dont le rédacteur en chef s'appelle Yan Wenshan.
+Cai Mingde fut, parmi les photographes de 《Renjian》, celui qui se concentra le plus sur les couches urbaines populaires. Il parcourut longtemps les quartiers de Wanhua et de Zhonghua Road à Taipei, documentant la vie des sans-abri, des vendeurs de temple, des anciens soldats, des jeunes prostituées et des travailleurs marginalisés. Son travail photographique s’étendit sur plus de dix ans, de 1985 à 1995. [^4]
 
-En janvier 1987, le numéro 15 de _Renjian_ consacre un reportage exclusif à Yan Wenshan, révélant l'autre face de l'incident de Taoyuan. Dans un contexte où les télévisions étaient sous contrôle du parti-État et où la grande presse observait le silence, ce reportage ne relevait pas simplement du journalisme — c'était un défi frontal à la question de qui a le droit de définir la vérité.
+L’une de ses œuvres représentatives est la « série Wanhua » : l’objectif suit des personnes âgées errant dans le secteur de Bopiliao, passant le temps aux abords des temples et aux limites de l’existence. Ces photographies ne sont pas un regard de pitié, mais un accompagnement d’égal à égal. La singularité de Cai Mingde tient à sa capacité à faire oublier aux personnes photographiées l’existence de l’objectif.
 
-## « Ouvrir un nouveau front » : ni Guomindang ni opposition
+Une autre série, « Les Taipeïens », documente ceux que le processus de métropolisation des années 1990 a laissés derrière lui : vieilles maisons démolies, ouvriers du bâtiment logés provisoirement dans des baraquements, anciens soldats venus de Chine continentale survivant dans les marchés de nuit. Ces œuvres devinrent ensuite des archives visuelles de l’histoire des transformations urbaines de Taïwan, régulièrement citées dans les recherches sur l’histoire de la photographie.
 
-Les positions politiques de Chen Yingzhen ont toujours suscité la controverse. Homme de gauche partisan de la réunification, il s'opposait à l'indépendance de Taïwan — une position ultra-minoritaire dans le Taïwan d'aujourd'hui comme d'hier.
+L’esthétique photographique de Cai Mingde insiste sur la « non-intervention » : être présent, enregistrer, partir ; ne pas transformer la situation de la personne photographiée, laisser seulement l’image parler. Parmi les photographes de 《Renjian》, cette attitude est celle qui se rapproche le plus de la tradition documentaire.
 
-Mais l'importance de _Renjian_ ne tient pas aux convictions politiques de son fondateur, elle tient à la « troisième voie » qu'il a ouverte.
+## Numéro 15 : l’exclusivité sur l’incident de l’aéroport de Taoyuan
 
-Tandis que le Guomindang s'attachait à maintenir l'ordre et que l'opposition menait sa lutte politique, Chen Yingzhen choisissait un terrain radicalement différent : l'engagement social. Il ne débattait ni de réunification ni d'indépendance, ni de démocratie au sens étroit. Il posait une seule question : comment vivent les gens sur cette terre ?
+Le 30 novembre 1986, des figures dangwai inscrites sur liste noire, dont Xu Xinliang, tentèrent de revenir à Taïwan par avion depuis le Japon et en furent empêchées. Le Parti démocrate progressiste mobilisa plus d’un millier de sympathisants à l’aéroport de Taoyuan en soutien ; l’armée et la police déployèrent des canons à eau pour les disperser. Un colorant rouge avait été ajouté à l’eau afin d’identifier les manifestants. Les deux camps restèrent face à face pendant dix heures.
 
-Ce point de vue a permis à _Renjian_ d'échapper aux tourbillons politiques tout en acquérant une force qui les dépassait. Les paysans n'ont pas de couleur politique, les ouvriers non plus, les peuples autochtones non plus. La souffrance est universelle — la sollicitude devrait l'être aussi.
+Ce soir-là, les trois chaînes de télévision officielles ne diffusèrent que des images de civils jetant des pierres, qualifiant les protestataires de « foule violente ». Le seul journal qui osa publier des images de violences commises par l’armée et la police fut l’Independence Evening Post, dont Yan Wenshuan était rédacteur en chef.
 
-## Les talents formés, les graines laissées
+En janvier 1987, le numéro 15 de 《Renjian》 publia un entretien exclusif avec Yan Wenshuan, révélant en profondeur l’autre face de l’incident de l’aéroport de Taoyuan. À une époque où les chaînes de télévision étaient contrôlées par le parti-État et où la plupart des médias se taisaient, cet entretien lançait un défi frontal à la question de savoir « qui a le droit de définir la vérité ».
 
-_Renjian_ a façonné toute une génération de journalistes et de photographes :
+## « Ouvrir un autre front » : ni Kuomintang ni dangwai
 
-**Chen Lie** — devenu un essayiste majeur, dont l'œuvre _Les Années sur Terre_ documente la vie des prisonniers politiques sur l'île Verte.
+La position politique de Chen Yingzhen a toujours été très controversée. Il était un intellectuel de gauche favorable à l’unification, soutenait l’unification entre les deux rives du détroit et s’opposait à l’indépendance de Taïwan. Cette position est aujourd’hui absolument minoritaire à Taïwan ; elle n’était déjà pas acceptée par le courant dominant de l’époque.
 
-**Lan Bozhou** — héritier de la tradition de gauche de Chen Yingzhen, auteur du grand reportage _La Chanson du chariot couvert_.
+Mais l’importance de 《Renjian》 ne réside pas dans les opinions politiques de Chen Yingzhen, mais dans la « troisième voie » que la revue a ouverte.
 
-**Guan Xiaorong** — figure de la photographie rurale, dont l'objectif a suivi les transformations de la société agricole taïwanaise.
+Lorsque le Kuomintang s’employait à maintenir l’ordre et que le mouvement dangwai se consacrait à la lutte, Chen Yingzhen choisit un terrain entièrement différent : l’attention sociale. Il ne parlait pas d’unification ou d’indépendance, ni de démocratie ; il posait une seule question : comment vivent les personnes sur cette terre ?
 
-**Ruan Yizhong** — patriarche de la photographie humaniste à Taïwan, dont les recueils _Rumeurs de Taipei_ et _Notes de Bachi Men_ ont marqué durablement les esprits.
+Cet angle permit à 《Renjian》 d’éviter le tourbillon politique, mais lui donna aussi une force qui dépassait la politique. Les paysans ne se divisent pas entre bleu et vert, les ouvriers ne se divisent pas entre unification et indépendance, les peuples autochtones ne se divisent pas selon les partis. La souffrance est commune ; l’attention devrait l’être aussi.
 
-**Cai Mingde** — spécialiste des marges urbaines, chroniqueur de la condition humaine dans Taïwan en pleine transition.
+## Les personnes formées et les graines laissées
 
-Tous sont devenus des figures importantes de la culture taïwanaise, mais tous ont commencé à _Renjian_. Et plus essentiel encore : ils ont perpétué son esprit — regarder les plus fragiles avec bienveillance, documenter le réel avec le soin du métier.
+Le magazine 《Renjian》 forma toute une génération de talents taïwanais dans la littérature de reportage et la photographie. Côté écriture, Chen Lie devint ensuite célèbre pour ses essais, notamment Les années sur terre, qui documente la vie des prisonniers politiques de Green Island ; Lan Bozhou hérita de la tradition de gauche de Chen Yingzhen et écrivit des œuvres majeures de littérature de reportage, telles que Le Chant du chariot bâché.
 
-## Après la fermeture
+Côté photographie, Guan Xiaorong est une figure représentative de la photographie rurale, ayant documenté par l’objectif les transformations de la société agricole taïwanaise ; les œuvres de Ruan Yizhong, Rumeurs de Taipei et Notes de Bachimen, constituent des jalons de l’histoire de la photographie taïwanaise ; Cai Mingde se concentra sur les personnes aux marges de la ville, documentant la pluralité des existences humaines dans une période de transformation sociale.
 
-En septembre 1989, _Renjian_ cesse de paraître, contraint par des difficultés financières. 47 numéros, quatre ans, une époque de documentation s'achève.
+Toutes ces personnes accomplirent ensuite des parcours remarquables dans le monde culturel taïwanais, et toutes eurent pour point de départ le magazine 《Renjian》. Elles prolongèrent la méthode centrale de 《Renjian》 : regarder les personnes vulnérables avec chaleur, documenter le réel avec des techniques professionnelles.
 
-Chen Yingzhen s'installe par la suite à Pékin, où il meurt en 2016. Ses positions politiques continuent de diviser, mais personne ne peut contester sa valeur littéraire ni la place historique de _Renjian_.
+L’influence de 《Renjian》 sur la littérature de reportage taïwanaise se reflète aussi dans les pratiques médiatiques ultérieures. Le concept de « journaliste citoyen » qui émergea dans les années 1990, puis l’orientation thématique de la vague documentaire après les années 2000 (cultures des peuples autochtones, enjeux ruraux, droits du travail), portent tous la continuité de la ligne de 《Renjian》. Lors de sa fondation, The Reporter cita dans plusieurs articles 《Renjian》 comme précurseur du reportage d’investigation à Taïwan ; cette filiation n’a jamais été interrompue. [^6]
 
-La disparition du magazine n'a pas tari le journalisme littéraire à Taïwan — au contraire. Les graines semées ont fleuri dans des domaines très divers. Des médias aux ONG, de la photographie au documentaire, l'esprit de _Renjian_ se perpétue sous de multiples formes.
+**L’héritage contemporain de l’esprit de 《Renjian》 :**
 
-Quand on regarde aujourd'hui les grands reportages de la télévision publique, l'attention des médias indépendants aux populations vulnérables, ou les documentaristes qui s'enfoncent dans les régions reculées, on retrouve partout l'ombre de _Renjian_.
+- **The Reporter** : fondé en 2015 par d’anciens professionnels des médias dominants, prolonge la tradition du reportage approfondi
+- **Notre île, de la PTS** : reportages sur les enjeux environnementaux, héritant de l’attention de 《Renjian》 à la terre
+- **Documentaires indépendants** : les trajectoires d’œuvres de réalisateurs tels que Hou Hsiao-hsien et Chi Po-lin peuvent être rattachées à l’attention sociale de l’époque de 《Renjian》
+- **Mouvement d’enregistrement communautaire** : les « ateliers d’enregistrement par l’image » des universités communautaires à travers Taïwan constituent aussi une pratique de terrain de l’esprit de 《Renjian》
 
-## Faits remarquables
+## Le parcours militant de Chen Yingzhen et 《Renjian》
 
-1. **47 numéros, zéro slogan politique** — Malgré les convictions affichées de son fondateur, les 47 numéros de _Renjian_ n'abordent pratiquement pas la question de l'indépendance ou de la réunification, se concentrant entièrement sur les enjeux sociaux.
+Avant de fonder 《Renjian》, Chen Yingzhen avait déjà vingt ans d’expérience dans les mouvements sociaux de gauche. Le groupe de lecture des années 1960 fut un lieu de rassemblement intellectuel pour lui et un groupe d’enseignants et d’étudiants de l’Université nationale de Taïwan, où l’on discutait Lu Xun, Zola, Marx ; la condamnation de 1968 lui fit comprendre le prix à payer pour mener un mouvement de pensée dans le Taïwan de la loi martiale. [^2]
 
-2. **Le scoop du numéro 15** — En janvier 1987, le numéro 15 publie en exclusivité un entretien avec Yan Wenshan, rédacteur en chef du _Zili Wanbao_, révélant les coulisses de l'incident de l'aéroport de Taoyuan en décembre 1986 — une onde de choc dans le paysage politique taïwanais.
+Après sa sortie de prison dans les années 1980, Chen Yingzhen fit face à une situation plus complexe. Le mouvement dangwai montait en puissance, mais sa ligne principale relevait du nationalisme taïwanais ; le Kuomintang continuait de réprimer, mais son centre de gravité se déplaçait vers la construction économique. Chen Yingzhen choisit une troisième voie, ni parti d’opposition ni simple camp hors pouvoir : faire des enjeux sociaux la porte d’entrée de la résistance.
 
-3. **Quatre rédacteurs en chef, un seul style** — Pan Tingsong, Gao Xinjiang, Chen Yingzhen (sous le pseudonyme Xu Nancun) et Zhong Qiao se succèdent à la rédaction, mais le style du magazine demeure constant — preuve d'une ligne éditoriale solide.
+《Renjian》 n’était pas une publication militante. Mais derrière chaque histoire qu’elle documentait se trouvait une logique de mouvement social : le déclin rural relevait de la politique foncière, les morts et blessures au travail relevaient du droit du travail, le déracinement des peuples autochtones relevait de la politique culturelle. Chen Yingzhen choisit de laisser les lecteurs tirer eux-mêmes leurs conclusions plutôt que de leur fournir des réponses politiques. Cette méthode, « ne pas le dire directement, mais faire naître une douleur au cœur », est précisément la raison pour laquelle 《Renjian》 put franchir les positions politiques et laisser une empreinte aussi bien chez des lecteurs conservateurs que progressistes.
 
-4. **Un poids écrasant de la photographie** — Les photos occupent près de 40 % de chaque numéro, ce qui était exceptionnel dans la presse magazine taïwanaise de l'époque.
+## Après l’arrêt de la revue
 
-5. **Une influence hors de proportion avec le tirage** — _Renjian_ n'était pas un grand tirage, mais presque chaque numéro déclenchait une attention médiatique et un débat social bien au-delà de ses chiffres de diffusion.
+En septembre 1989, le magazine 《Renjian》 cessa de paraître sous la pression financière. 47 numéros, quatre années : l’enregistrement d’une époque s’achevait là.
 
-6. **La contradiction féconde de Chen Yingzhen** — Homme de gauche partisan de la réunification, il a pourtant fait de _Renjian_ le miroir le plus ancré dans la vie taïwanaise locale. Cette contradiction est précisément ce qui a donné sa singularité au magazine.
+La cause de l’arrêt ne fut pas seulement financière. 1989 fut aussi l’année de l’incident du 4 juin à Tian’anmen ; les forces de gauche dans la société taïwanaise entrèrent dans des divisions, une partie des intellectuels vit ses illusions sur le système chinois se briser, et la ligne de gauche favorable à l’unification portée par Chen Yingzhen fit face à des tensions encore plus fortes. Dans un tel contexte politique, il devint plus difficile encore d’obtenir un soutien extérieur face aux pressions financières.
 
-7. **Le regret des trois numéros manquants** — _Renjian_ prévoyait de terminer symboliquement à 50 numéros, mais la pression financière l'en a empêché.
+Chen Yingzhen s’installa ensuite à Pékin, où il mourut en 2016 à l’âge de 79 ans. Ses positions politiques continuèrent de susciter la controverse, mais personne ne peut nier ses accomplissements littéraires ni la valeur historique du magazine 《Renjian》. Des institutions telles que le Musée national de la littérature taïwanaise et la Bibliothèque nationale conservent l’ensemble complet de 《Renjian》 et organisent régulièrement des expositions et des colloques à son sujet.
 
-8. **Un hommage de génération en génération** — De nombreuses œuvres de journalisme littéraire taïwanais citent _Renjian_ dans leurs remerciements, le reconnaissant comme une source fondatrice.
+Après l’arrêt de 《Renjian》, la littérature de reportage taïwanaise ne disparut pas. Les talents formés par la revue se dispersèrent dans les médias, les ONG, la photographie et le documentaire ; l’« esprit Renjian » continua d’agir sous différentes formes.
+
+Aujourd’hui, lorsque nous voyons les reportages d’investigation de la PTS, l’attention des médias indépendants aux personnes vulnérables, ou des documentaristes entrer dans des villages reculés pour filmer, nous pouvons encore retrouver l’ombre du magazine 《Renjian》.
+
+## Chiffres et détails clés
+
+Quelques chiffres permettent de situer 《Renjian》 : 47 numéros, quatre ans, la photographie occupant près de 40 % de l’espace, alors même que son fondateur Chen Yingzhen était un intellectuel de gauche favorable à l’unification. Les chiffres eux-mêmes indiquent déjà l’existence d’une contradiction.
+
+Malgré la forte coloration politique de Chen Yingzhen, les 47 numéros de 《Renjian》 n’abordèrent presque pas la controverse entre unification et indépendance, se concentrant sur les enjeux sociaux. Les quatre rédacteurs en chef successifs (Pan Tingsong, Gao Xinjiang, Chen Yingzhen sous le nom de plume Xu Nancun, et Zhong Qiao) maintinrent un style constant, ce qui montre la clarté de la ligne éditoriale.
+
+En janvier 1987, le numéro 15 publia un entretien exclusif avec Yan Wenshuan, rédacteur en chef de l’Independence Evening Post, révélant les dessous de l’incident de l’aéroport de Taoyuan de décembre 1986. 《Renjian》 prévoyait initialement de publier 50 numéros avant de s’arrêter ; la pression financière l’obligea à conclure au numéro 47, trois numéros plus tôt que prévu.
+
+Le tirage n’était pas élevé, mais presque chaque numéro suscita l’attention des médias et des débats sociaux. De nombreuses œuvres taïwanaises ultérieures de littérature de reportage mentionnent 《Renjian》 dans leurs remerciements, le considérant comme une source d’éveil.
 
 ## Références
 
-### Sources primaires
-
-- _Renjian_, numéros 1 à 47 (1985-1989) — collection complète disponible dans les grandes bibliothèques de Taïwan
-
-### Ouvrages connexes
-
-- Chen Yingzhen, [_Œuvres complètes de Chen Yingzhen_](https://www.books.com.tw/products/0010775375) — pour comprendre la pensée du fondateur à travers son œuvre littéraire
-- Lan Bozhou, [_La Chanson du chariot couvert_](https://www.books.com.tw/products/0010960287) — œuvre représentative d'un journaliste formé par _Renjian_
-- Guan Xiaorong, [_Photographes de Taïwan : Guan Xiaorong_](https://www.books.com.tw/products/0010883030) — recueil de photographies du photographe phare de _Renjian_
-- Ruan Yizhong, [_L'Homme et la Terre_](https://www.books.com.tw/products/0010712291) — œuvre maîtresse du grand maître de la photographie humaniste taïwanaise
-
-### Articles académiques
-
-- _Le journalisme littéraire et la société taïwanaise : l'exemple du magazine Renjian_
-- _Étude de la culture des magazines taïwanais dans les années 1980_
-- _Chen Yingzhen et l'engagement social du magazine Renjian_
-
-### Documents audiovisuels
-
-- _Le Pays invisible_ — réalisé par Huang Mingchuan, sur Chen Yingzhen et la littérature de gauche à Taïwan
-- Archives vidéo liées au magazine _Renjian_ — fonds numériques des bibliothèques universitaires
+[^1]: Wikipédia, entrée « Chen Yingzhen », https://zh.wikipedia.org/wiki/陳映真 (explication sur le lieu de naissance, Zhunan) ; Dictionnaire de la littérature taïwanaise, entrée Chen Yingzhen
+[^2]: Wikipédia, entrée « Chen Yingzhen », https://zh.wikipedia.org/wiki/陳映真 ; voir aussi Lan Bozhou, Terreur blanche (Taipei : Yang-Chih Book, 1993), sur l’affaire du groupe de lecture des années 1960 (livre épuisé, consultable dans les collections de la Bibliothèque nationale, https://www.ncl.edu.tw/)
+[^4]: Magazine 《Renjian》, numéros 1 à 47 (1985-1989), conservés dans les principales bibliothèques de Taïwan ; Réseau d’information sur les périodiques de la Bibliothèque nationale, https://tpl.ncl.edu.tw/NclService/JournalContent?id=AJ00000029
+[^5]: Chen Yingzhen, [Œuvres complètes de Chen Yingzhen](https://www.books.com.tw/products/0010775375) ; Lan Bozhou, [Le Chant du chariot bâché](https://www.books.com.tw/products/0010960287) ; Ruan Yizhong, [Les hommes et la terre](https://www.books.com.tw/products/0010712291)
+[^6]: Le Royaume invisible, réalisé par Huang Mingchuan (1985), à propos de Chen Yingzhen et de la littérature taïwanaise de gauche ; The Reporter, « Trente ans du magazine Renjian », https://www.twreporter.org/
 
 ---
 
-_47 numéros, quatre ans, la persévérance d'un homme, l'idéal d'une communauté, le témoignage d'une époque. *Renjian* nous rappelle que la véritable force ne réside pas dans la puissance d'une voix, mais dans la volonté de se baisser pour entendre la voix la plus vraie qui monte de la terre._
+_47 numéros de revue, quatre ans, l’insistance d’un homme, l’idéal d’un groupe, l’enregistrement d’une époque. Le magazine 《Renjian》 nous rappelle ceci : la véritable force ne tient pas au volume de la voix, mais à la volonté de se pencher pour entendre les voix les plus réelles de la terre._
+
+_Son influence a duré plus longtemps que sa vie._

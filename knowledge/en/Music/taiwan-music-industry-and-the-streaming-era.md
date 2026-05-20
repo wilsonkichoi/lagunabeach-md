@@ -1,234 +1,230 @@
 ---
-translatedFrom: 'Music/台灣音樂產業與串流時代.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:e8d2c98ba6bf8e0d'
-sourceBodyHash: 'sha256:cfd94d19f3ed25b0'
-translatedAt: '2026-05-01T14:11:02+08:00'
-title: "Taiwan's Music Industry and the Streaming Era: From Record Stores to Digital Platforms"
-description: "How Taiwan's music industry moved from the golden age of record stores through a piracy crisis, pioneered KKBOX as the world's first legal streaming service, and arrived at today's digital music ecosystem coexisting with Spotify and Apple Music."
+title: "Taiwan's Music Industry and the Streaming Era: The Transformation from Record Stores to Digital Platforms"
+description: "An examination of how Taiwan's music industry moved from the golden age of record stores through the piracy crisis, pioneered KKBOX as the world's first legal streaming platform, and arrived at today's digital music ecosystem alongside Spotify and Apple Music"
 date: 2026-03-19
-tags:
-  [
-    'music industry',
-    'streaming music',
-    'KKBOX',
-    'digital music',
-    'record stores',
-    'independent music',
-  ]
-subcategory: 'Independent & Rock'
-author: 'Taiwan.md'
+author: "Taiwan.md"
+category: "Music"
+subcategory: "獨立與搖滾"
+tags: ["Music industry", "Streaming music", "KKBOX", "Digital music", "Record stores", "Independent music"]
 readingTime: 15
-featured: true
-category: 'Music'
 lastVerified: 2026-03-19
 lastHumanReview: false
+featured: true
+translatedFrom: "Music/台灣音樂產業與串流時代.md"
+sourceCommitSha: "f712b7242"
+sourceContentHash: "sha256:f71f072559f005b7"
+sourceBodyHash: "sha256:39fa5a6a860830cc"
+translatedAt: "2026-05-20T05:08:27+08:00"
 ---
 
-# Taiwan's Music Industry and the Streaming Era: From Record Stores to Digital Platforms
+# Taiwan's Music Industry and the Streaming Era: The Transformation from Record Stores to Digital Platforms
 
 ## 30-Second Overview
 
-Taiwan's music industry moved through the golden age of record stores (the 1990s) and the devastating piracy crisis, then saw KKBOX become the world's first legal streaming music service in 2005, and has since reached the present era where international platforms such as Spotify and Apple Music coexist. This transformation changed not only listener consumption habits but also reshaped the creative ecosystem for musicians — shifting from dependence on album sales toward streaming play data and live performance revenue.
+Taiwan's music industry has passed through the golden age of record stores in the 1990s, the severe blow of the piracy crisis, KKBOX becoming the world's first legal streaming music service in 2005, and the later arrival of international platforms such as Spotify and Apple Music. This transformation changed listeners' consumption habits and also reshaped musicians' creative ecosystem, shifting from reliance on record sales toward streaming playback data and live performance income.
+
+Taiwan's experience offers a useful reference point within similar stories of digital transformation across Asia. This article begins with the record industry's heyday in the 1990s and traces the path to today's streaming ecosystem.
+
+This article takes about 15 minutes to read and is suited to readers interested in the history of the music industry, digital transformation, or the development of KKBOX.
 
 **Keywords:** record stores, piracy, KKBOX, streaming music, independent music, digital transformation
 
 ## Why It Matters
 
-Taiwan's experience with digital transformation in the music industry is a pioneer for the greater Chinese-speaking world. From KKBOX's innovation to independent musicians' digital distribution strategies, Taiwan's experience has influenced the development trajectory of the entire Asian music market. This transformation is not merely a technological upgrade — it is a critical case study in how a cultural industry adapts to the digital era.
+Taiwan's experience of digital transformation in the music industry moved relatively early within the global Sinophone world. From KKBOX's innovation to the digital distribution strategies of independent musicians, the Taiwan case influenced the development trajectory of the entire Asian music market.
 
-## Golden Age Memories (1990–2002)
+The significance of this transformation case lies in how it shows a cultural industry finding and implementing a legal business model after the shock of piracy. For those studying digital transformation, Taiwan is a case worth observing.
 
-### The Record Store's Heyday
+## Memories of the Golden Age (1990-2002)
 
-The 1990s were the golden era of Taiwan's record industry. There were over 3,000 record stores across Taiwan — chains like Rose Records (玫瑰大眾) and Jia Jia Records (佳佳), along with smaller neighborhood shops at street corners and in alleyways — forming a dense network of music consumption. Every Friday was "new release day"; fans would make special trips to the record store to purchase the latest albums, and the sales staff were thoroughly familiar with every album's distinct qualities.
+### The Glory Years of Record Stores
 
-In those years, it was entirely normal for a single album to sell hundreds of thousands of copies. [Jay Chou](/en/people/jay-chou/)'s debut album Jay (2000) sold over 300,000 copies in Taiwan alone. [Mayday](/en/music/mayday-band/)'s Second Life (第二人生, 2001) set a record of 500,000 copies sold. Record stores were not just places to buy music — they were social spaces for music lovers.
+The 1990s were the golden age of Taiwan's record industry. At the time, Taiwan had more than 3,000 record stores, from chains such as Rose Records, Tachung Records, and Chia Chia Record to small record shops tucked into neighborhood streets and alleys, together forming a dense network of music consumption. Every Friday was "new release day," when fans would make a special trip to record stores to buy the latest albums, and sales staff were invariably familiar with the characteristics of each release.
 
-### The Complete Ecology of the Industry Structure
+In that era, it was normal for an album to sell several hundred thousand copies. [Jay Chou](/en/People/jay-chou/)'s debut album *Jay*, released in 2000, sold more than 300,000 copies in Taiwan, while [Mayday](/en/Music/mayday-band/)'s *People Life, Ocean Wild* (2001) set a sales record of 500,000 copies.[^1] Record stores were not only places to buy music; they were also social spaces for music lovers.
 
-At the time, Taiwan possessed a complete music industry chain:
+### A Complete Industrial Ecosystem
 
-- **Major record labels:** Rock Records (滾石), Flying Saucer Records (飛碟), Hwa Nan Records (豐華), Capital Artists (科藝百代)
-- **Distribution channels:** The Big Five, Rose Records, Jia Jia Records
-- **Media promotion:** Television music programs, radio stations, music magazines
-- **Adjacent industries:** Music video production, concert production
+At the time, Taiwan had a well-functioning music industry chain. Major record companies such as Rock Records, UFO Records, Forward Music, and EMI led production, while distribution channels such as Five Music, Rose Records, Tachung Records, and Chia Chia Record delivered physical albums across Taiwan.
 
-This ecosystem made Taiwan the production center of Mandopop music; many Hong Kong and Singaporean artists came to Taiwan to record and produce albums.
+- **Media promotion**: television music programs, radio stations, music magazines
+- **Peripheral industries**: music video production, concert planning
 
-## Piracy Impact and Industry Crisis (2000–2005)
+This ecosystem made Taiwan a production center for Mandopop. Many singers from Hong Kong and Singapore came to Taiwan to record and produce albums.
 
-### The Devastating Blow of Digital Piracy
+## The Shock of Piracy and the Industry Crisis (2000-2005)
 
-In the early 2000s, the spread of the internet and advances in CD-burning technology created severe piracy problems. Peer-to-peer software such as Napster and Kazaa made music freely downloadable, dealing a devastating blow to physical music sales. Taiwan's record sales began plummeting sharply from their 1999 peak, and multiple record stores closed in succession.
+### The Devastating Impact of Digital Piracy
 
-Statistical data shows that Taiwan's music market shrank from NTD 15 billion at its 1999 peak to under NTD 5 billion by 2005. Many record companies were forced to lay off staff or shut down; music production budgets were drastically cut.
+In the early 2000s, the spread of the internet and advances in CD burning technology brought a serious piracy problem. P2P software such as Napster and Kazaa made it possible to download music for free, badly damaging physical record sales. Taiwan's record sales fell rapidly from their 1999 peak, and many record stores closed one after another.
 
-### The Industry's Struggles and Attempts at Solutions
+Statistics show that the size of Taiwan's music market shrank from NT$15 billion in 1999 to less than NT$5 billion in 2005. Many record companies were forced to lay off staff or close, and music production budgets were sharply reduced.
 
-Facing the crisis, the record industry attempted various countermeasures:
+### Industry Struggles and Experiments
 
-- **Copy-protected CDs:** Adding copy-protection technology, with limited effect
-- **Price reduction strategies:** Launching lower-priced albums in hopes of competing with piracy
-- **Digital rights management:** Partnering with telecommunications companies to offer paid downloads
+Facing the crisis, the record industry tried various countermeasures:
 
-None of these measures could stem the piracy flood. The traditional record industry urgently needed a new business model.
+- **Copy-protected CDs**: adding anti-copying technology, though with limited effect
+- **Price reduction strategies**: releasing budget albums in the hope of competing with piracy
+- **Digital rights management**: working with telecom operators to launch paid downloads
 
-## The Taiwanese Innovation in Streaming Music (2005–2010)
+Yet none of these measures could stop the tide of piracy. The traditional record industry urgently needed a new business model.
+
+## Taiwan's Streaming Music Innovation (2005-2010)
 
 ### KKBOX: The World's First Legal Streaming Service
 
-In 2005, Lin Guan-chun (林冠群), founder of Yong-Jing Network Communications (願境網訊), launched **KKBOX** — the world's first legal paid streaming music service. This breakthrough innovation predated Spotify's official launch by three years.
+In 2005, Chris Lin, founder of Skysoft, launched **KKBOX**, making it the world's first service to provide legal paid streaming music. This breakthrough innovation came three years before Spotify's official launch.
 
-KKBOX's core concept was "listen to music anytime, anywhere," with a monthly fee of NTD 149 giving access to a library of one million songs. This pricing strategy struck a clever balance between convenience and reasonable cost — one month's subscription was roughly equivalent to half the price of a single CD.
+KKBOX's core concept was "listen to music anytime, anywhere." Users could listen to millions of songs for NT$149 per month. This pricing strategy deftly balanced convenience and reasonable cost: one month's fee was roughly equal to half the price of a CD.
 
-### Business Model Innovation
+### Innovation in the Business Model
 
-KKBOX was not just a technological innovation but a revolution in business model:
+KKBOX was not only a technological innovation but also a revolution in business model:
 
-- **Subscription revenue:** Stable monthly fee income replacing uncertain single-track sales
-- **Data analytics:** Capturing user listening habits, providing personalized recommendations
-- **Rights revenue sharing:** Establishing new revenue distribution models with record labels
-- **Cross-device integration:** Seamless experience across mobile, computer, and web
+- **Subscription revenue**: stable monthly fee income replacing uncertain single-track sales
+- **Data analysis**: understanding users' listening habits and providing personalized recommendations
+- **Copyright revenue sharing**: establishing a new revenue distribution model with record companies
+- **Cross-device integration**: seamless connection across mobile phones, computers, and the web
 
 ### Early Challenges and Breakthroughs
 
-KKBOX faced considerable difficulties at the outset. Many record companies were skeptical of the new model, worried it would cannibalize physical sales. Bandwidth limitations also affected audio quality. But Lin Guan-chun's team persisted, gradually persuading the major record labels to participate.
+KKBOX faced many difficulties in its early stage. Many record companies were skeptical of the new model and worried it would affect physical sales. Internet bandwidth limitations also affected audio quality. But Chris Lin's team persisted, persuading major record companies to join one by one.
 
-By 2008, KKBOX had over one million users, demonstrating the viability of streaming music in the Asian market.
+By 2008, KKBOX already had more than one million users, proving the viability of streaming music in Asian markets.
 
-## International Platform Entry and Competition (2010–2020)
+## The Arrival and Competition of International Platforms (2010-2020)
 
-### Spotify's Powerful Arrival
+### Spotify's Forceful Entry
 
-In 2013, Spotify officially entered the Taiwan market, carrying the advantages of the world's largest streaming platform and a superior algorithmic recommendation system. Spotify offered a free version (with ads) and a paid version, attracting a large number of younger users.
+In 2013, Spotify officially entered the Taiwan market, bringing the advantages of the world's largest streaming platform and a stronger algorithmic recommendation system. Spotify offered both a free version with advertisements and a paid version, attracting large numbers of young users.
 
-Spotify's advantages included:
+Spotify's strengths included:
 
-- **More precise recommendation algorithms:** Features like "Discover Weekly" were deeply popular with users
-- **Social features:** Sharing playlists and seeing what friends were listening to
-- **International content:** Rich resources in Western and global music
-- **Podcast integration:** Not just music but an audio entertainment platform
+- **More precise recommendation algorithms**: features such as Discover Weekly were highly popular with users
+- **Social features**: users could share playlists and see what friends were listening to
+- **International content**: rich European and American music resources
+- **Podcast integration**: not only music, but an audio entertainment platform
 
-### Apple Music and YouTube Music Join the Field
+### The Addition of Apple Music and YouTube Music
 
-Apple Music entered Taiwan in 2015, rapidly gaining market share through deep integration with the iPhone. YouTube Music leveraged YouTube's massive video resources to offer a music video viewing experience.
+In 2015, Apple Music entered Taiwan and quickly gained market share through deep integration with the iPhone. YouTube Music drew on YouTube's vast audiovisual resources to provide an MV viewing experience.
 
-The competition from these international platforms matured the Taiwan streaming music market and gave users far more choices.
+Competition among these international platforms made Taiwan's streaming music market more mature and gave users more choices.
 
-### KKBOX's Localization Advantages
+### KKBOX's Localization Advantage
 
-Facing international competition, KKBOX leveraged its localization strengths:
+Facing international competition, KKBOX drew on its localization advantages:
 
-- **Deep cultivation of Mandopop:** Closer relationships with Mandarin-speaking artists
-- **Local events:** The KKBOX Music Awards (風雲榜) and other ceremonies
-- **Cross-sector partnerships:** Bundled offerings with telecom companies and financial institutions
-- **Hi-Res audio quality:** Pioneer in providing high-resolution music services in Taiwan
+- **Deep cultivation of Mandopop**: building closer relationships with Mandopop artists
+- **Local events**: awards ceremonies such as the KKBOX Music Awards
+- **Cross-sector cooperation**: bundled plans with telecom and financial companies
+- **Hi-Res audio quality**: taking the lead in providing high-resolution music services
 
-## Digital Opportunities for Independent Musicians (2015–Present)
+## Digital Opportunities for Independent Musicians (2015-Present)
 
-### Sharply Lowered Distribution Barriers
+Digital streaming dismantled the gatekeeping role of record companies and gave independent musicians the opportunity to reach listeners directly. This structural change transformed the shape of Taiwan's independent music ecosystem.
 
-The biggest change in the streaming era has been the dramatic lowering of barriers to music distribution. In the past, musicians needed to sign with a record label to release an album. Now, through digital distribution platforms such as DistroKid, TuneCore, and Street Voice (街聲), independent musicians can upload their work directly to all major streaming platforms.
+### A Dramatically Lower Distribution Threshold
 
-### Success Story: No Party for Cao Dong (草東沒有派對)
+The biggest change in the streaming era was the lower threshold for music distribution. In the past, musicians needed to sign with a record company to release an album. Now, through digital distribution platforms such as DistroKid, TuneCore, and StreetVoice, independent musicians can directly place their work on major streaming platforms.
 
-No Party for Cao Dong is the exemplary success story of independent music in Taiwan's streaming era. Their 2016 album Ugly Slave (醜奴兒) had no major label support, yet went viral on social media and streaming platforms. The song "Blow Wind" (大風吹) accumulated over 50 million views on YouTube, demonstrating the explosive reach that quality creative work can achieve in the digital era.
+### Success Case: No Party for Cao Dong
+
+**No Party for Cao Dong** is a successful example of Taiwanese independent music in the streaming era. Their 2016 album *The Servile* had no support from a major record company, yet it exploded on social media and streaming platforms. The song "Simon Says" accumulated more than 50 million views on YouTube, proving the explosive potential of high-quality creative work in the digital age.
 
 ### New Revenue Models
 
-Independent musicians have developed multiple revenue streams:
+Independent musicians' income no longer depends on a single channel. Streaming royalties may be slight for each individual track, but they can accumulate meaningfully, while live performances in live houses and at music festivals provide another important source of income.
 
-- **Streaming royalties:** Although per-track earnings are modest, cumulative plays can be substantial
-- **Live performances:** Live house and music festival performance income
-- **Merchandise:** T-shirts, vinyl records, and other physical items
-- **Sponsorship collaborations:** Brand endorsements and advertising partnerships
-- **Teaching services:** Online music courses and workshops
+- **Merchandise**: physical products such as T-shirts and vinyl records
+- **Sponsorship cooperation**: brand endorsements and advertising partnerships
+- **Teaching services**: online music courses and workshops
 
 ## A Data-Driven Music Industry
 
-### The Importance of Play Data
+### The Importance of Playback Data
 
-The streaming era has made the music industry far more data-driven. Metrics such as play counts, completion rates, and the rate at which listeners add songs to playlists have become key indicators of a song's success.
+The streaming era has made the music industry more data-oriented. Play counts, completion rates, and the proportion of users adding a song to playlists are all concrete indicators for assessing a song's performance.
 
-[Jay Chou](/en/people/jay-chou/)'s "Blue and White Porcelain" (青花瓷) has accumulated over 100 million streams in Spotify Taiwan; [Mayday](/en/music/mayday-band/)'s "Stubborn" (倔強) has over 80 million streams — data that reflects the enduring vitality of classic songs in the digital era.
+[Jay Chou](/en/People/jay-chou/)'s "Blue and White Porcelain" has accumulated more than 100 million plays on Spotify Taiwan, while [Mayday](/en/Music/mayday-band/)'s "Stubborn" has also reached 80 million plays. These figures reflect the continued vitality of classic songs in the digital age.
 
-### The Impact of Personalized Recommendation
+### The Influence of Personalized Recommendations
 
-The algorithmic recommendation systems of streaming platforms have profoundly influenced how listeners discover music. Features like Spotify's "Daily Mix" and KKBOX's "Recommended for You" make it easier for listeners to encounter a wider variety of music.
+Algorithmic recommendations on streaming platforms have deeply influenced how listeners discover music. Features such as Spotify's Daily Mix and KKBOX's "Recommended for You" make it easier for listeners to encounter a wider range of musical genres.
 
-### The Transformation of Chart Culture
+### Changes in Chart Culture
 
-Traditional record sales charts have been replaced by streaming charts. KKBOX's Annual Music Awards (風雲榜), Spotify's Viral 50, and similar charts have become the new music indicators, reflecting listener preferences in real time.
+Traditional record sales charts have been replaced by streaming charts. The KKBOX charts and Spotify Viral Chart have become new music indicators, reflecting listeners' preferences in real time.
 
-## Pandemic-Accelerated Industry Transformation (2020–Present)
+## Industry Change Accelerated by the Pandemic (2020-Present)
 
-### COVID-19's Catalytic Effect
+### The Catalytic Effect of COVID-19
 
-The COVID-19 pandemic in 2020 devastated the live music industry but dramatically increased streaming music consumption. According to statistics, Taiwan's streaming music audience grew by over 30% in 2020, with many middle-aged and older listeners beginning to use streaming services for the first time.
+In 2020, the COVID-19 pandemic hit the live music industry hard, but it also substantially increased streaming music usage. According to statistics, Taiwan's streaming music audience grew by more than 30% in 2020, and many middle-aged and older listeners also began using streaming services.
 
 ### The Rise of Online Concerts
 
-During the pandemic, many artists began experimenting with online concerts. [Mayday](/en/music/mayday-band/)'s 2020 online concert attracted over 30 million simultaneous online viewers, setting a record for Mandopop live streaming.
+During the pandemic, many singers began experimenting with online concerts. [Mayday](/en/Music/mayday-band/)'s 2020 online concert attracted more than 30 million concurrent viewers, setting a record for Mandopop livestreaming.
 
 ### The Rise of Podcasts
 
-Audio content is not limited to music. Podcasts developed rapidly in Taiwan. Both Spotify and KKBOX increased their investment in Podcast content, and musicians began producing their own Podcast programs.
+Audio content is not limited to music. Podcasts developed rapidly in Taiwan. Spotify and KKBOX both increased investment in podcast content, and musicians also began producing their own podcast programs.
 
-## Current Challenges and Future Outlook
+## Current Challenges and Future Prospects
 
-### The Royalty Distribution Dispute
+### Disputes over Royalty Distribution
 
-The distribution of streaming platform royalties has been a persistent source of controversy. Musicians broadly consider per-play revenue shares to be too low, requiring millions of streams to earn a reasonable income. This has led many musicians to place greater emphasis on live performance and merchandise sales.
+The distribution of royalties by streaming platforms has long been controversial. Musicians generally believe that revenue sharing per play is too low and that millions of plays are needed to obtain reasonable income. This has pushed many musicians to place greater emphasis on live performances and merchandise sales.
 
 ### The Challenge of Musical Diversity
 
-While algorithmic recommendations are convenient, they can also create an "echo chamber effect," trapping listeners within similar musical genres. Balancing personalized recommendation with musical diversity is a challenge facing every platform.
+Although algorithmic recommendations are convenient, they may also create an "echo chamber effect," trapping listeners within similar musical genres. How to balance personalized recommendations with musical diversity is a challenge facing platforms.
 
 ### The Development of Hi-Res Audio
 
-As internet bandwidth increases, high-resolution audio has become a new trend. KKBOX was a pioneer in launching Hi-Res services in Taiwan; Apple Music has since followed by offering lossless audio, meeting the demands of audiophiles.
+As internet bandwidth improves, high-resolution music has become a new trend. KKBOX took the lead in launching Hi-Res services in Taiwan, and Apple Music followed with lossless audio quality, meeting the needs of audiophiles.
 
-### Web3 and Music NFTs
+### Web3 and NFT Music
 
-Blockchain technology is bringing new possibilities to the music industry. Music NFTs allow fans to own unique digital music assets, and smart contracts can automatically distribute royalties to relevant creators. Although still in an early phase, these developments are worth watching.
+Blockchain technology has brought new possibilities to the music industry. Music NFTs allow fans to own unique digital music assets, while smart contracts can automatically distribute royalties to related creators. Although this remains in an early stage, its future development is worth watching.
 
-## Cultural and Social Impacts
+## Cultural and Social Impact
 
 ### Changes in Listening Habits
 
-The streaming era has transformed how people listen to music:
+The streaming era has changed people's music-listening habits:
 
-- **From albums to individual tracks:** Listeners increasingly prefer individual songs over complete albums
-- **Playlist culture:** Personal playlists have become a new form of music curation
-- **Anytime, anywhere:** Music consumption is no longer constrained by time or location
-- **Cross-language listening:** Easier than ever to discover music in different languages
+- **From albums to singles**: listeners are more inclined to listen to individual songs rather than complete albums
+- **Playlist culture**: personalized playlists have become a new form of music curation
+- **Anytime, anywhere**: music consumption is no longer limited by time or place
+- **Cross-language listening**: it is easier to encounter music in different languages
 
 ### The Democratization of the Music Industry
 
-Streaming platforms have lowered the barriers to music creation and distribution, giving more independent musicians the opportunity to be heard. This democratization has made the music industry more diverse and given listeners richer choices.
+Streaming platforms have lowered the threshold for music creation and distribution, giving more independent musicians the chance to be heard. This democratization has made the music industry more open and has also given listeners a wider range of choices.
 
-### Narrowing Generational Divides
+### Narrowing Generational Differences
 
-The recommendation algorithms of streaming platforms have enabled listeners of different generations to discover music from across different eras. Younger listeners have started discovering classic songs from the 1980s and 1990s; middle-aged listeners have found emerging artists through the platforms.
+The recommendation algorithms of streaming platforms allow listeners from different generations to encounter music from various eras. Young people have begun listening to classic songs from the 1980s and 1990s, while middle-aged listeners are also discovering new-generation musicians through platforms.
 
 ## Conclusion: From Revolution to Everyday Life
 
-Taiwan's music industry's path of digital transformation has been full of challenges and innovation. From KKBOX's global first to today's multi-platform coexistence, this process has not only changed how music is consumed — it has redefined the value and meaning of music itself.
+The path of digital transformation in Taiwan's music industry has been full of challenges and innovation. From KKBOX's world-first initiative to today's multi-platform ecosystem, this process has changed how music is consumed and shaken the business logic once built around physical records.
 
-For musicians, the streaming era is both challenge and opportunity. While per-track revenues are modest, global reach has expanded; while competition is intense, creative freedom has increased. The music industry of the future will be more diversified, with technology and creativity combining to produce even more possibilities.
+For musicians, the streaming era is both a challenge and an opportunity. Royalties for individual tracks are thin, but the potential audience reach is wider; competition is fierce, but the barriers to entry have also been lowered. The combination of technology and creativity has, over the past decade, produced a group of musicians who could not have emerged in the past.
 
-For listeners, we are living in the richest era in the history of music. Nearly all music is within reach, and personalized recommendations enable us to discover more wonderful sounds. But while enjoying this convenience, let's not forget to support the musicians we love — so that good music can continue to be made.
+For listeners, there is more music to choose from than in any previous era, but this abundance has also diluted attention. How to actively find good music beyond the bubble of algorithmic recommendations has become a new listening challenge.
 
 ## References
 
-1. [KKBOX Official Website](https://www.kkbox.com/) — KKBOX's development history and service overview
-2. [History of Taiwan's Music Industry Development, Bureau of Audiovisual and Music Industry Development, Ministry of Culture](https://www.bamid.gov.tw/) — Official industry statistics
-3. [How Streaming Music Is Changing Taiwan's Music Ecosystem, INSIDE, 2020](https://www.inside.com.tw/article/21245-streaming-music-taiwan) — Streaming music market analysis
-4. [KKBOX Founder Lin Guan-chun: Taiwan's Path of Innovation in Music Streaming, Business Weekly, 2018](https://www.businessweekly.com.tw/focus/blog/3007895) — Interview with KKBOX founder
-5. [Analysis of Spotify's Taiwan Market Entry Strategy, Brain Magazine, 2014](https://www.brain.com.tw/news/articlecontent?ID=19234) — International platform competitive analysis
-6. [No Party for Cao Dong: The Digital Success Story of Independent Music, The News Lens, 2017](https://www.thenewslens.com/article/68492) — Independent music case study
-7. [Taiwan Music Streaming Market Survey Report, MIC/III, 2021](https://mic.iii.org.tw/aisp/reports.aspx?id=CDOC20210324001) — Market statistics
-8. [The Impact of COVID-19 on Taiwan's Music Industry, Ministry of Culture, 2021](https://www.moc.gov.tw/information_250_137321.html) — Pandemic impact analysis
-9. [Wikipedia: KKBOX entry](https://zh.wikipedia.org/wiki/KKBOX) — Platform development history
-10. [Digital Music Copyright and Revenue-Sharing Mechanisms, Music Authors Copyright Association of Chinese Taipei](http://www.must.org.tw/) — Rights distribution mechanism overview
+[^1]: Mayday's 2001 album was *People Life, Ocean Wild*; *Second Round* was released in 2011. See the [Mayday Wikipedia entry](https://zh.wikipedia.org/wiki/%E4%BA%94%E6%9C%88%E5%A4%A9)
+[^2]: [KKBOX official website](https://www.kkbox.com/) — KKBOX development history and service introduction
+[^3]: [*The History of Taiwan's Music Industry Development*, Bureau of Audiovisual and Music Industry Development, Ministry of Culture](https://www.bamid.gov.tw/) — official industry statistics
+[^4]: [*Streaming Music Changes Taiwan's Music Ecosystem*, INSIDE, 2020](https://www.inside.com.tw/article/21245-streaming-music-taiwan) — streaming music market analysis
+[^5]: [*KKBOX Founder Chris Lin*, Business Weekly, 2018](https://www.businessweekly.com.tw/focus/blog/3007895) — interview with the KKBOX founder
+[^6]: [*Analysis of Spotify's Strategy for Entering the Taiwan Market*, Brain Magazine, 2014](https://www.brain.com.tw/news/articlecontent?ID=19234) — analysis of international platform competition
+[^7]: [*No Party for Cao Dong: The Digital Success Model of Independent Music*, The News Lens, 2017](https://www.thenewslens.com/article/68492) — independent music case analysis
+[^8]: [*Taiwan Music Streaming Market Survey Report*, MIC, Institute for Information Industry, 2021](https://mic.iii.org.tw/aisp/reports.aspx?id=CDOC20210324001) — market data statistics
+[^9]: [*The Impact of COVID-19 on Taiwan's Music Industry*, Ministry of Culture, 2021](https://www.moc.gov.tw/information_250_137321.html) — pandemic impact analysis
+[^10]: [*Digital Music Copyright and Royalty Distribution Mechanisms*, Music Copyright Society of Chinese Taipei](http://www.must.org.tw/) — explanation of copyright distribution mechanisms
