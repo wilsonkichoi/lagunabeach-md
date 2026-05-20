@@ -8,8 +8,8 @@ subcategory: '氣候與溫泉'
 tags: ['agricultura', 'paisaje', 'industria', 'seguridad alimentaria', 'geografía']
 readingTime: 12
 lastVerified: 2026-03-19
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Geography/台灣農業地景與產業分布.md'
 sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:5fcedd0ad0dc94f7'

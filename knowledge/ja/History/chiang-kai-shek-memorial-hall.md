@@ -15,7 +15,7 @@ tags:
   ]
 readingTime: '9'
 lastVerified: '2026-04-10'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'History/中正紀念堂.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:69baf41d38c3c7aa'

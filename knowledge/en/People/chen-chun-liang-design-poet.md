@@ -7,8 +7,8 @@ category: 'People'
 subcategory: '藝術與設計'
 tags: ['設計師', '平面設計', '設計教育', '自由落體', '設計詩人']
 lastVerified: '2026-05-13'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/陳俊良.md'
 sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:e8fd773cb48092fd'

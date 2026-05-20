@@ -18,8 +18,8 @@ tags:
   ]
 readingTime: '25'
 lastVerified: '2026-05-02'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'History/台灣出國史.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:8d6508c76f18f1af'

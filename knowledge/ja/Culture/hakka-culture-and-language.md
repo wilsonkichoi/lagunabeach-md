@@ -8,8 +8,8 @@ subcategory: "'族群文化'"
 tags: ['客家', '言語', '文化', '硬頸精神', '六堆', '還我母語運動']
 readingTime: '14'
 lastVerified: '2026-04-05'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Culture/客家文化與語言.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:b7e6cdcd3f8a0bf5'

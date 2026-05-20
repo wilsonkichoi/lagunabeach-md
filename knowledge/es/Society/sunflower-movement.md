@@ -13,8 +13,8 @@ tags:
     'Tecnología cívica',
   ]
 lastVerified: '2026-04-12'
-lastHumanReview: 'false'
-featured: 'true'
+lastHumanReview: false
+featured: true
 translatedFrom: 'Society/太陽花學運.md'
 sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:3a8798103fc8c01b'

@@ -6,13 +6,12 @@ author: "Taiwan.md"
 category: "People"
 subcategory: "文學"
 tags: ['文學', '現代文學', '台北人', '孽子', '崑曲', '白崇禧']
-readingTime: '# design_rationale:
-#   why_this_hook: "從《台北人》到青春版牡丹亭——他的生涯跨越了現代小說與傳統戲曲的兩個高峰，時間軸本身就是故事。"
+readingTime: 7
 #   whats_excluded: "各短篇小說個別分析；崑曲技術細節；家族政治史細節"
 #   where_it_hedges: "已移除「2018年第七屆紅樓夢獎決審團獎」幻覺（該屆得主是《青蚨子》《望春風》，非白先勇）；中山文藝獎無法驗證（已移除，以2003國家文藝獎為準）"'
 lastVerified: 2026-05-07
-lastHumanReview: "true"
-featured: "false"
+lastHumanReview: true
+featured: false
 translatedFrom: "People/白先勇.md"
 sourceCommitSha: "7415dcaae"
 sourceContentHash: "sha256:27b9c46e9dd00321"

@@ -6,10 +6,10 @@ author: "Taiwan.md"
 category: "People"
 subcategory: "音樂"
 tags: ["音樂", "創作歌手", "音樂製作人", "華語流行", "抒情歌曲", "人生哲學"]
-readingTime: "# design_rationale:\n#   why_this_hook: \"從反差切入——製作別人三十年的人，最後才用《山丘》說自己。這個時序本身就是李宗盛音樂哲學的體現：先幫別人，再面對自己。\"\n#   whats_excluded: \"各製作專輯的完整歌手列表；個人婚姻關係；音樂工廠成員名單\"\n#   where_it_hedges: \"1986年首專月份（1月）以Wikipedia為準；2024-2026巡演細節以TODO標記\""
+readingTime: 7
 lastVerified: 2026-05-07
-lastHumanReview: "true"
-featured: "false"
+lastHumanReview: true
+featured: false
 translatedFrom: "People/李宗盛.md"
 sourceCommitSha: "0f8fae0ae"
 sourceContentHash: "sha256:69aa6e90b214c097"

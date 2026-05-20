@@ -7,8 +7,8 @@ category: 'Society'
 subcategory: '国際関係'
 tags: ['外交', '国際関係', '民主', '経済協力', 'リトアニア', '地政学']
 lastVerified: 2026-05-05
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Society/台灣與立陶宛.md'
 sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:dc43efb5979a3c8f'

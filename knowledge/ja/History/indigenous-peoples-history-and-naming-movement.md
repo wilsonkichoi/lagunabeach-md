@@ -5,8 +5,8 @@ date: '2026-03-29'
 category: 'History'
 subcategory: '史前と原住民'
 tags: ['原住民族', '正名運動', 'アイデンティティ', '社会運動', '文化保存']
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'History/台灣原住民族歷史與正名運動.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:e4ab0082a9409924'

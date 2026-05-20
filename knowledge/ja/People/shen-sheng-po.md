@@ -15,8 +15,8 @@ subcategory: '藝術與設計'
 author: 'Taiwan.md Contributors'
 readingTime: '8'
 lastVerified: '2026-03-23'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/沈聖博.md'
 sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:36208e14ce1c380c'

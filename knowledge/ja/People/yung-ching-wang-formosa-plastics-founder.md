@@ -6,8 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '科技與企業'
 tags: ['科技與企業', '台塑グループ', '石油化学工業', '六軽', '起業家']
-readingTime: '# design_rationale:
-#   why_this_hook: "從六輕奮戰二十年切入——這個事實比任何「米店到帝國」的起點更能定義王永慶：他是一個願意跟政府打長期消耗戰的人，而且打贏了。"
+readingTime: 7
 #   whats_excluded: "台塑集團各旗下公司的詳細財務數字；三房家族系譜；六軽的環境爭議細節"
 #   where_it_hedges: "德州投資確切年份（1986或1980，P0待確認）；三房爭產的法律最終結果以已報導部分為準"'
 lastVerified: 2026-05-07

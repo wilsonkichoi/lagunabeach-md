@@ -8,8 +8,8 @@ subcategory: '社群與數位文化'
 tags: ['BBS', '無名小站', 'Facebook', 'LINE', 'Threads', '網路文化', '社群平台']
 readingTime: '9'
 lastVerified: '2026-03-29'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Technology/台灣網路社群遷徙史.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:c3630708a8986b72'

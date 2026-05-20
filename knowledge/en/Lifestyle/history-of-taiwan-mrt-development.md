@@ -27,8 +27,7 @@ readingTime: 15
 featured: true
 category: 'Lifestyle'
 lastVerified: 2026-03-23
-lastHumanReview: false
----
+lastHumanReview: false---
 
 # History of Taiwan's MRT Development: An Urban Evolution Written in Blood and Money
 

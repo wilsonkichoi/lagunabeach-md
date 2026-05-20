@@ -6,10 +6,10 @@ author: "Taiwan.md"
 category: "People"
 subcategory: "文學"
 tags: ["文學", "鄉土文學", "原鄉人", "笠山農場", "美濃", "客家"]
-readingTime: "# design_rationale:\n#   why_this_hook: \"「倒在血泊裡的筆耕者」是他最準確的人生縮影，不是比喻，他真的在修改稿件時咳血去世。\"\n#   whats_excluded: \"每部小說的逐章情節分析；美濃公學校學籍記錄；東北生活細節\"\n#   where_it_hedges: \"「台灣鄉土文學之父」稱號有爭議（賴和才是公認的台灣新文學之父）；《原鄉人》為短篇（非長篇），1959年寫成；已修正開頭「45年」幻覺為44歲\""
+readingTime: 7
 lastVerified: 2026-05-07
-lastHumanReview: "true"
-featured: "false"
+lastHumanReview: true
+featured: false
 translatedFrom: "People/鍾理和.md"
 sourceCommitSha: "0f8fae0ae"
 sourceContentHash: "sha256:cddbfe1c856d1966"

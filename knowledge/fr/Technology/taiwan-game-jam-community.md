@@ -8,8 +8,8 @@ subcategory: '遊戲產業'
 tags: ['jeu', 'jeu indépendant', 'Game Jam', 'communauté', 'KUSO', 'création']
 readingTime: 8
 lastVerified: 2026-04-27
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Technology/台灣Game-Jam社群.md'
 sourceCommitSha: 'f99a9959'
 sourceContentHash: 'sha256:f932c57f5b497190'

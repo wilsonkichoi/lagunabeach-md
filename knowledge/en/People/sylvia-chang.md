@@ -6,8 +6,7 @@ author: "Taiwan.md"
 category: "People"
 subcategory: "電影與戲劇"
 tags: ["電影", "導演", "演員", "歌手", "編劇"]
-readingTime: '# design_rationale:
-#   why_this_hook: "從《童年》vs《外婆的澎湖灣》的分野切入——《童年》是她的，《外婆的澎湖灣》不是，這個精確度代表她整個職業生涯的態度：每個身份都是真的，不是標籤。"
+readingTime: 7
 #   whats_excluded: "各部電影的詳細票房數字；與導演楊德昌的關係細節；金馬獎評審主席任期記錄"
 #   where_it_hedges: "近年動態以TODO標記，待天機星確認"'
 lastVerified: 2026-05-07

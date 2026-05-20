@@ -8,7 +8,7 @@ subcategory: '科技與企業'
 tags: ['人物', '黄仁勲', 'NVIDIA', 'AI', '半導体', '科学技術', '台南', 'GPU']
 lastVerified: '2026-04-07'
 lastHumanReview: '2026-04-07'
-featured: 'true'
+featured: true
 translatedFrom: 'People/黃仁勳.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:588ff4df368e93d2'

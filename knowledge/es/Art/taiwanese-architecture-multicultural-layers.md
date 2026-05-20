@@ -7,8 +7,8 @@ category: 'Art'
 subcategory: '建築'
 tags: ['建築', '文化', '歷史', '原住民', '日治']
 lastVerified: 2026-03-28
-lastHumanReview: 'true'
-featured: 'true'
+lastHumanReview: true
+featured: true
 translatedFrom: 'Art/台灣建築.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:97939516b3de2749'

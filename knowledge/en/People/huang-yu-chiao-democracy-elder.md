@@ -21,8 +21,7 @@ tags:
 author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-04-05
-lastHumanReview: true
----
+lastHumanReview: true---
 
 > **30-Second Overview:** At around 4 p.m. on November 19, 1977, outside the Zhongli Police Precinct. Fifty-eight-year-old provincial assembly candidate Huang Yu-chiao stood together with Precinct Chief Ho Fu-ming and Hsu Hsin-liang's brother Hsu Kuo-tai at the entrance, calling on the crowd to "respect the rule of law and not act blindly." She was not an instigator of the Zhongli Incident — she was a restrainer. Yet that same evening she was still elected provincial assemblywoman alongside Hsu Hsin-liang, and went on to win four consecutive terms, becoming known together with Su Hung Yueh-chiao of Yunlin as the "Twin Beauties of the North and South." This is a figure from the history of Taiwan's democratic movement who is easily romanticized but is actually far more complex.
 

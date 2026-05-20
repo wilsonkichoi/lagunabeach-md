@@ -7,8 +7,8 @@ category: 'People'
 subcategory: '藝術と文化人物'
 tags: ['監督', 'テレビ', '映画', '植劇場', '公視', '金鐘賞', 'LGBTQ+']
 lastVerified: '2026-03-28'
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'People/王小棣.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:585e0e43e012a49f'

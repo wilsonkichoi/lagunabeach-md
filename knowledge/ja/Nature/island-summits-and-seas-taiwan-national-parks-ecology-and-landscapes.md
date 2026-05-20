@@ -8,8 +8,8 @@ subcategory: '國家公園與步道'
 tags: ['国立公園', '生態保全', '自然景観', '生物多様性', '環境保護']
 readingTime: 12
 lastVerified: 2026-03-19
-lastHumanReview: 'false'
-featured: 'true'
+lastHumanReview: false
+featured: true
 translatedFrom: 'Nature/台灣國家公園.md'
 sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:c51eb1a165d6a2f5'

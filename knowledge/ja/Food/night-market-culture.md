@@ -7,8 +7,8 @@ category: 'Food'
 subcategory: '飲食場景'
 tags: ['夜市', '小吃', '文化', '観光', '庶民生活']
 lastVerified: '2026-03-21'
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Food/夜市文化.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:cad0161e7864d0ae'

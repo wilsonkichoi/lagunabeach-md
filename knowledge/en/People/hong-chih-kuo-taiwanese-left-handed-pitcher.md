@@ -6,7 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '體育'
 tags: ['體育', '棒球', 'MLB', '道奇隊', '左投']
-readingTime: "# design_rationale:\n#   why_this_hook: \"從傷病和里程碑的對立切入——他不是一帆風順的英雄，他是一個手肘一再說不、卻還是投出台灣第一的選手。\"\n#   whats_excluded: \"各次手術的醫療細節；回台後各球隊生涯的逐年記錄；個人資產與薪資\"\n#   where_it_hedges: \"道奇簽約確切年份（部分資料說2001，另有說法不同）；中華職棒選秀年份細節\""
+readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false

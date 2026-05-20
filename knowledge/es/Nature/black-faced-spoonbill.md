@@ -19,8 +19,7 @@ author: 'Taiwan.md Contributors'
 date: 2026-04-30
 readingTime: 8
 lastVerified: 2026-04-30
-lastHumanReview: false
----
+lastHumanReview: false---
 
 > **Panorama en 30 segundos:** La espátula menor fue una especie en peligro crítico con menos de 300 ejemplares en el mundo. Tras tres décadas de esfuerzos transnacionales, su población ha superado los 7.000, y más del 60 % elige pasar el invierno en Taiwán. Es un modelo de éxito en conservación, pero a medida que los números crecen, estas distinguidas aves se ven forzadas a abandonar las áreas protegidas centrales, buscando el siguiente hábitat seguro entre paneles solares, perros callejeros y el letal botulismo.
 

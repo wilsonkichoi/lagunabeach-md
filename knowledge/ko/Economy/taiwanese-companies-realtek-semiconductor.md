@@ -7,8 +7,8 @@ category: 'Economy'
 subcategory: '企業列傳'
 tags: ['Economy', '기업', '반도체', 'IC설계']
 lastVerified: 2026-03-20
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Economy/台灣企業：瑞昱半導體.md'
 sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:bc61864ded99ef44'

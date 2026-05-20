@@ -6,7 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '科技與企業'
 tags: ['科技與企業', '和碩聯合', '電子代工', 'ODM', '能源政策']
-readingTime: '# design_rationale:\n#   why_this_hook: "학력의 정확성에서 출발한다——타이베이공전은 대만대 전기공학과가 아니며, 이 차이는 태자현의 전체 경로가 가진 특성을 대변한다: 그는 전형적인 기술 엘리트가 아니었지만 애플 최대 위탁생산 공장 중 하나를 세웠다."\n#   whats_excluded: "화숙 각 연도 재무제표; 성핀 투자 정확한 지분 비율; 타이베이공전 동기 동문"\n#   where_it_hedges: "성핀 투자 정확한 시기(2019, P0⚠️ 확인 대기); 원자력·재생에너지 공존 주장의 정치적 영향"'
+readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false

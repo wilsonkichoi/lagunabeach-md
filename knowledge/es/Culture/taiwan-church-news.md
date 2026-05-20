@@ -16,8 +16,8 @@ tags:
   - 'Política lingüística'
 readingTime: '10'
 lastVerified: '2026-04-29'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Culture/台灣教會公報.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:3439ffa9774025fa'

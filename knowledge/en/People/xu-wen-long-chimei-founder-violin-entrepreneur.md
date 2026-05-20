@@ -5,11 +5,11 @@ date: 2026-03-19
 author: "Taiwan.md"
 category: "People"
 subcategory: "科技與企業"
-tags: "['科技與企業', '奇美集團', '企業家', '音樂藝術', '博物館', '文化推廣', '台南']"
-readingTime: "# design_rationale:\n#   why_this_hook: \"1362把提琴全球最多 + 博物館免費開放，這兩個數字才能說清楚他為什麼不只是石化業的奇美，而是台南的文化遺產。\"\n#   whats_excluded: \"奇美集團各業務單元詳細財報；提琴收藏名單；博物館建築設計細節\"\n#   where_it_hedges: \"博物館現行免費開放政策P0⚠️建議確認是否仍持續\""
+tags: ['科技與企業', '奇美集團', '企業家', '音樂藝術', '博物館', '文化推廣', '台南']
+readingTime: 7
 lastVerified: 2026-05-07
-lastHumanReview: "true"
-featured: "false"
+lastHumanReview: true
+featured: false
 translatedFrom: "People/許文龍.md"
 sourceCommitSha: "0f8fae0ae"
 sourceContentHash: "sha256:720cd768af91d1c3"

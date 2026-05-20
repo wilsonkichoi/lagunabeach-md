@@ -7,7 +7,7 @@ author: 'Taiwan.md Contributors'
 date: '2026-04-18'
 readingTime: '8'
 lastVerified: '2026-04-18'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'Food/台灣火鍋.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:94b3cc7ad435a8c7'

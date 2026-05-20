@@ -18,8 +18,7 @@ image: ''
 featured: false
 author: 'Taiwan.md'
 lastVerified: 2026-04-27
-lastHumanReview: false
----
+lastHumanReview: false---
 
 # 三人の外国人が見た乙未の役：写真師のアルバム、記者の手帳、牧師の日記
 

@@ -14,8 +14,8 @@ tags:
   ]
 readingTime: '12'
 lastVerified: '2026-03-19'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Technology/台灣軟體產業發展.md'
 sourceCommitSha: '24efd20f3'
 sourceContentHash: 'sha256:e6d1dafa422fe928'

@@ -6,8 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '體育'
 tags: ['體育', '網球', '溫布頓', '大滿貫', '女雙', '職業網球']
-readingTime: '# design_rationale:
-#   why_this_hook: "「台灣首位大滿貫冠軍」是2013的一次性事件；「七座金盃」才是她整個職業生涯的重量。兩個並列，才能說完她。"
+readingTime: 7
 #   whats_excluded: "各場決賽逐球技術分析；2016奧運教練事件爭議細節；WTA女雙世界第一達成的確切日期"
 #   where_it_hedges: "2014法網、2019溫布頓、2023溫布頓的搭檔姓名P0無提供，TODO補確認；2025溫布頓成績來源Focus Taiwan"'
 lastVerified: 2026-05-07

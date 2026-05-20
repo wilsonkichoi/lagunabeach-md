@@ -17,8 +17,8 @@ tags:
   ]
 readingTime: '16'
 lastVerified: '2026-05-10'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Technology/台灣無人機產業.md'
 sourceCommitSha: '5e97688c'
 sourceContentHash: 'sha256:9165b111d87b4581'

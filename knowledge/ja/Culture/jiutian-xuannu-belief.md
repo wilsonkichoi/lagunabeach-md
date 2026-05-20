@@ -8,8 +8,8 @@ subcategory: '宗教と民俗'
 tags: ['九天玄女', '陣頭', '九天民俗技藝団', '民間信仰', '廟宇文化', '許振栄']
 readingTime: '12'
 lastVerified: '2026-03-27'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Culture/九天玄女信仰.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:1910ee0829efda65'

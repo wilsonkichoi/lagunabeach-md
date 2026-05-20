@@ -22,8 +22,7 @@ author: 'Taiwan.md'
 date: 2026-04-28
 readingTime: 12
 lastVerified: 2026-04-28
-lastHumanReview: false
----
+lastHumanReview: false---
 
 # 蘇巧慧：「衝衝衝」の影の下で、法律と細部で新北を縫い合わせるキュレーター
 

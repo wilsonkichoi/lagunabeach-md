@@ -7,8 +7,8 @@ category: 'Food'
 subcategory: '烘焙與甜點'
 tags: ['パン', 'ベーカリー', '呉宝春', '台湾式パン', '85°C']
 lastVerified: '2026-03-19'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Food/台灣麵包與烘焙.md'
 sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:e4c169783e32f5c2'

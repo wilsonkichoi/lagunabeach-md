@@ -16,8 +16,8 @@ tags:
     '評論平台',
   ]
 lastVerified: '2026-05-05'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Society/想想論壇.md'
 sourceCommitSha: '4cd497a8f'
 sourceContentHash: 'sha256:bcaa0405d5ac9323'

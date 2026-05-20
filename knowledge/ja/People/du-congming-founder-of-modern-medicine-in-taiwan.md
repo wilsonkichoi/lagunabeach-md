@@ -15,8 +15,8 @@ tags:
     '高雄医学大学',
   ]
 lastVerified: '2026-03-31'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/杜聰明.md'
 sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:cda33c38cf5ae9bc'

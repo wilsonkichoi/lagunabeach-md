@@ -6,8 +6,7 @@ author: "Taiwan.md"
 category: "People"
 subcategory: "音樂"
 tags: ["音樂", "創作歌手", "華語流行", "新加坡", "流行音樂", "金曲獎"]
-readingTime: '# design_rationale:
-#   why_this_hook: "從《江南》2004到JJ20 260萬觀眾——20年的跨度比任何形容詞都說清楚他在樂壇的位置。"
+readingTime: 7
 #   whats_excluded: "各專輯逐首歌評；音樂理論分析；代言品牌清單；JJ20確切城市清單"
 #   where_it_hedges: "心臟病需日常用藥：來源bandsintown，醫療細節以本人公開聲明為準"'
 lastVerified: 2026-05-08

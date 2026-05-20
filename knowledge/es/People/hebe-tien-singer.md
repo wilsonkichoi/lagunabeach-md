@@ -22,8 +22,8 @@ tags:
   ]
 readingTime: '18'
 lastVerified: '2026-04-26'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/田馥甄.md'
 sourceCommitSha: '5db9f136'
 sourceContentHash: 'sha256:a39194b2f4737484'

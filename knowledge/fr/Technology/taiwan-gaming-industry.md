@@ -15,8 +15,8 @@ tags:
   ]
 readingTime: 11
 lastVerified: 2026-03-19
-lastHumanReview: 'false'
-featured: 'true'
+lastHumanReview: false
+featured: true
 translatedFrom: 'Technology/台灣遊戲產業與數位娛樂.md'
 sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:431ea1bf9d43ad2f'

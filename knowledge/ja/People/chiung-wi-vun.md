@@ -7,8 +7,8 @@ category: 'People'
 subcategory: '學術與教育'
 tags: ['言語学者', '台湾語文運動', '母語教育', 'ベトナム研究']
 lastVerified: '2026-03-23'
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'People/蔣為文.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:46faaa4a99788548'

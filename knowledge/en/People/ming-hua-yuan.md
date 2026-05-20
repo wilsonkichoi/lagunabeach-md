@@ -6,7 +6,7 @@ author: "Taiwan.md"
 category: "People"
 subcategory: "藝術與設計"
 tags: ["藝術與設計", "歌仔戲", "傳統藝術", "表演藝術", "四代傳承"]
-readingTime: '# design_rationale:\n#   why_this_hook: "從創立地的精確度切入——不是屏東潮州，是台南。這個細節代表整篇文章的可信度，也讓讀者理解明華園的真實起點。"\n#   whats_excluded: "各劇目完整演出場次與票房數字；各子團歷年負責人名單；政府補助金額"\n#   where_it_hedges: "亞維儂藝術節（P0⚠️待確認）；2009小巨蛋演出（P0無法確認，已移除）"'
+readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false

@@ -14,8 +14,8 @@ tags:
     "RuPaul's Drag Race",
   ]
 lastVerified: '2026-04-18'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/妮妃雅.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:10538bd4034afd34'

@@ -7,8 +7,8 @@ category: 'Culture'
 subcategory: '藝術園區'
 tags: ['文創園區', '舊建築活化', '創意產業', '都市更新', '文化保存']
 lastVerified: 2026-03-19
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Culture/台灣文化創意園區發展.md'
 sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:e1fa112b66596f53'

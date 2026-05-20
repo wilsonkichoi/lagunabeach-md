@@ -15,8 +15,7 @@ readingTime: 8
 category: 'Economy'
 lastVerified: 2026-03-29
 featured: false
-lastHumanReview: false
----
+lastHumanReview: false---
 
 > Taiwan's influencer advertising market totals approximately USD 210 million — less than 1% of America's. Yet a mid-tier Taiwanese creator typically manages 5–7 platforms simultaneously — YouTube, Instagram, Facebook, Threads, Podcast, blog, LINE — nearly twice as many as a U.S. creator at the same level. A tiny market, an extremely fragmented platform landscape, monetization driven by affiliate marketing rather than subscriptions: this is a game played by entirely different rules.
 

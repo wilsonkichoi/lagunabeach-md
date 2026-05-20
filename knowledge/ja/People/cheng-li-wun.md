@@ -8,8 +8,8 @@ subcategory: '政治人物'
 tags: ['政治人物', '国民党', '海峡両岸関係', '学運世代', '2026']
 readingTime: '12'
 lastVerified: '2026-04-11'
-lastHumanReview: 'false'
-featured: 'true'
+lastHumanReview: false
+featured: true
 translatedFrom: 'People/鄭麗文.md'
 sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:d7d8adfe5a1c7158'

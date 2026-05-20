@@ -7,8 +7,8 @@ category: 'People'
 subcategory: '政治與民主'
 tags: ['政治', '民主運動', '高雄', '人權']
 lastVerified: 2026-04-17
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/陳菊.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:b0c2ac2ae0cad64d'

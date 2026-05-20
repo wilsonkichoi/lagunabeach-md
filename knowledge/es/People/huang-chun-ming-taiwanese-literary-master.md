@@ -6,8 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '文學'
 tags: ['文學', '鄉土文學', '宜蘭', '小人物', '兒子的大玩偶', '看海的日子']
-readingTime: '# design_rationale:
-#   why_this_hook: "從作品年份的正確順序切入（看海1967先於兒子1969）——確認時序也是確認事實準確性的方式。"
+readingTime: 7
 #   whats_excluded: "各短篇逐章分析；黃大魚兒童劇團歷年劇目；宜蘭文化活動細節"
 #   where_it_hedges: "〈看海的日子〉1967年發表時間以維基為準（P0⚠️建議實證確認）"'
 lastVerified: 2026-05-07

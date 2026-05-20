@@ -5,7 +5,7 @@ date: '2026-03-19'
 tags: ['企業家', '広達電脳', 'ODM受託製造', '人工知能']
 subcategory: '科技與企業'
 lastVerified: '2026-03-19'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'People/林百里.md'
 sourceCommitSha: 'a05d2431'
 sourceContentHash: 'sha256:6e151fb80e93cea0'

@@ -21,8 +21,7 @@ author: 'Taiwan.md'
 date: 2026-04-27
 readingTime: 8
 lastVerified: 2026-04-27
-lastHumanReview: false
----
+lastHumanReview: false---
 
 # 交工樂隊（こうこうがくたい）
 

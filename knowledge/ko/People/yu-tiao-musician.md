@@ -24,8 +24,8 @@ tags:
   ]
 readingTime: '8'
 lastVerified: '2026-04-27'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/魚條.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:bd29d1a24daa64e4'

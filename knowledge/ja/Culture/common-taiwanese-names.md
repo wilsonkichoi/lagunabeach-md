@@ -8,7 +8,7 @@ date: '2026-04-19'
 readingTime: '6'
 lastVerified: '2026-04-19'
 lastHumanReview: '2026-04-19'
-featured: 'false'
+featured: false
 translatedFrom: 'Culture/菜市場名.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:4f24d54138c9fd30'

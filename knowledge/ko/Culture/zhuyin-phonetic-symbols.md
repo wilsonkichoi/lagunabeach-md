@@ -8,8 +8,8 @@ subcategory: '언어와 문자'
 tags: ['주음', '언어', '교육', '문화적 정체성', '입력법', 'ㄅㄆㄇ']
 readingTime: 12
 lastVerified: 2026-03-19
-lastHumanReview: 'true'
-featured: 'true'
+lastHumanReview: true
+featured: true
 translatedFrom: 'Culture/注音符號.md'
 sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:60ed5696349fd181'

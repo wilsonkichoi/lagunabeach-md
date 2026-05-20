@@ -6,10 +6,10 @@ author: "Taiwan.md"
 category: "People"
 subcategory: "政治與民主"
 tags: ["政治與民主", "Vice-président", "Président du Yuan exécutif", "Épidémiologie", "Santé publique", "Lutte contre les épidémies"]
-readingTime: "# design_rationale:\n#   why_this_hook: \"從職位序號的精確度切入——第31任行政院長而非第19任，這個差異代表整篇文章的可信度。陳建仁的價值在於他在三個不同位置（學者/副總統/院長）都以科學框架做決策。\"\n#   whats_excluded: \"烏腳病研究的詳細學術成果；各項國際職務的完整列表；天主教個人信仰細節\"\n#   where_it_hedges: \"2005年任期職稱確認以P0來源為準；各研究論文篇數以文章概述表述\""
+readingTime: 7
 lastVerified: 2026-05-07
-lastHumanReview: "true"
-featured: "false"
+lastHumanReview: true
+featured: false
 translatedFrom: "People/陳建仁.md"
 sourceCommitSha: "0f8fae0ae"
 sourceContentHash: "sha256:3e3c722e9fbee583"

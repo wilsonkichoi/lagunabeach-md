@@ -18,8 +18,7 @@ category: '文化生活'
 author: 'idlccp1984'
 featured: false
 lastVerified: 2026-04-18
-lastHumanReview: false
----
+lastHumanReview: false---
 
 > **30-second overview:** In 2024, Taiwanese drag queen Nymphia Wind won the championship of the globally prominent _RuPaul's Drag Race_, becoming the first Taiwanese person to receive this honor. Her success not only brought Taiwan's drag art to the international stage but also, coinciding with Taiwan's "Gender Equality Education Day," demonstrated Taiwan's spirit of diversity and inclusion to the world. From underground parties to the Presidential Office, Nymphia Wind's story is a nearly 30-year history of self-empowerment by Taiwan's sexual minority communities. Using the banana as her symbol, she deeply integrated her personal life experience with Taiwan's culture, loudly declaring to the world Taiwan's existence and confidence.
 

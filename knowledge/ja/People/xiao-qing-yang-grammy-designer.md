@@ -14,8 +14,8 @@ tags:
     '台湾文化',
   ]
 lastVerified: 2026-03-19
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/蕭青陽.md'
 sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:0a577177f15f5897'

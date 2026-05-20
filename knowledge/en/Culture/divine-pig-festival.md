@@ -21,8 +21,7 @@ author: 'Taiwan.md Contributors'
 date: 2026-04-20
 readingTime: 8
 lastVerified: 2026-04-21
-lastHumanReview: false
----
+lastHumanReview: false---
 
 ## The Divine Pig Festival: A Century of Tension Between Taiwanese Faith and Animal Welfare
 

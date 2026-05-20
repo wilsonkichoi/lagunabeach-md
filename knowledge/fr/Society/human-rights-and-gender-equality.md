@@ -7,8 +7,8 @@ category: 'Society'
 subcategory: '人權與平等'
 tags: ['Society', '人權', '性別平等', '同性婚姻', '轉型正義']
 lastVerified: 2026-03-19
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Society/人權與性別平等.md'
 sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:22a18952ed1d65bb'

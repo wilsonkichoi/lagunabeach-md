@@ -125,6 +125,15 @@ def main():
                 yaml_bugs.append(f"{p}: backslash-apostrophe in YAML single-quote (sonnet bug)")
                 errors.append(yaml_bugs[-1])
                 break
+        # 2026-05-20: agent absorb YAML comments into previous key's value
+        # readingTime: "# design_rationale:\n#   why_this_hook: ..."  ← 全篇 build break
+        if re.search(r'^readingTime:\s*[\'"]#\s*design_rationale', fm, re.M | re.DOTALL):
+            yaml_bugs.append(f"{p}: readingTime absorbed YAML comments (# design_rationale block)")
+            errors.append(yaml_bugs[-1])
+        # tags as quoted string instead of array → blocks build (tags.map is not a function)
+        if re.search(r'^tags:\s*[\'"]\[', fm, re.M):
+            yaml_bugs.append(f"{p}: tags as quoted string instead of array (tags.map breaks)")
+            errors.append(yaml_bugs[-1])
         # Check for unquoted year as tag value (limit to actual tags block content)
         # Extract just the tags block to avoid false positives from date: 2026-04-30 etc
         tags_block_match = re.search(

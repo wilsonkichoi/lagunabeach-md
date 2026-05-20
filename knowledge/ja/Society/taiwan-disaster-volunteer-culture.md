@@ -16,8 +16,8 @@ tags: [
   ]
 readingTime: '14'
 lastVerified: '2026-05-17'
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Society/台灣災難志工文化.md'
 sourceCommitSha: 'c2f471732'
 sourceContentHash: 'sha256:d6c55754f67a687e'

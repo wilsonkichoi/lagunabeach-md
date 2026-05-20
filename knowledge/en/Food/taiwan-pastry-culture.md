@@ -18,8 +18,8 @@ tags:
     '飲食文化',
   ]
 lastVerified: '2026-05-03'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Food/台灣糕餅文化.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:bdb405b92fc10596'

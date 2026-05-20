@@ -15,7 +15,7 @@ tags:
   ]
 readingTime: '14'
 lastVerified: '2026-04-28'
-lastHumanReview: 'false'
+lastHumanReview: false
 image: '/article-images/people/lindgren-emu-2014.jpg'
 imageCredit: 'NASA/Bill Stafford'
 imageLicense: 'Public domain (NASA)'

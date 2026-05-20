@@ -6,8 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '音楽'
 tags: ['音楽', 'インディーズ音楽', '創作歌手', '年越しコンサート', 'フォーク', 'ロック']
-readingTime: '# design_rationale:
-#   why_this_hook: "從2020年口腔癌術後重返舞台切入——他不是一帆風順的傳奇，是一個連身體都說不、但還是繼續站上跨年舞台的頑固音樂人。"
+readingTime: 7
 #   whats_excluded: "各張專輯的完整曲目列表；與其他藝人合作細節；新格局合唱團時期的完整記錄"
 #   where_it_hedges: "跨年演唱會精確起始年（P0確認為1994，部分媒體說1993，本文採1994）；2020年病情細節以公開資訊為準"'
 lastVerified: 2026-05-07

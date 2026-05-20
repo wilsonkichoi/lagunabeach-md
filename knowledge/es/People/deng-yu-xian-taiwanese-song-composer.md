@@ -6,13 +6,12 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '音樂'
 tags: ['Música', 'Canción en taiwanés', 'Compositor', 'Período colonial japonés', 'Taoyuan', 'Hakka']
-readingTime: '# design_rationale:
-#   why_this_hook: "用「四月望雨」四個字標題切入——這四首歌不只是代表作，是他整個創作生命的濃縮。"
+readingTime: 7
 #   whats_excluded: "各歌曲音樂理論分析；與詞人合作細節的逐條梳理；桃園紀念活動清單"
 #   where_it_hedges: "《雨夜花》原曲名「春之雨」需更多史料佐證（P0⚠️）；已移除「台北病逝」幻覺，以竹東醫院為準"'
 lastVerified: 2026-05-07
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'People/鄧雨賢.md'
 sourceCommitSha: '0f8fae0ae'
 sourceContentHash: 'sha256:03f4c1611aa95a6c'

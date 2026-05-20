@@ -6,7 +6,7 @@ author: "Taiwan.md"
 category: "People"
 subcategory: "體育"
 tags: ["體育", "棒球", "日職", "阿美族", "原住民", "外野手"]
-readingTime: "# design_rationale:\n#   why_this_hook: \"火腿十年→巨人FA→獨立聯盟——這是一個職業球員的完整弧線，比「台東阿美族走向日職」更有力。\"\n#   whats_excluded: \"逐年打擊成績表；日職各球隊待遇比較；2024-2025獨立聯盟近況細節\"\n#   where_it_hedges: \"原文章誤說「與讀賣巨人隊簽約（2005）」和「高中就讀花蓮體中」，已修正：2005選秀被火腿選中，高中在日本讀\""
+readingTime: 7
 lastVerified: 2026-05-08
 lastHumanReview: false
 featured: false

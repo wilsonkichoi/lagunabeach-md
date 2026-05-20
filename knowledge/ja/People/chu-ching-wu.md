@@ -6,8 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '科學與學術'
 tags: ['科學與學術', '物理學家', '超導體', '香港科大', '休士頓大學']
-readingTime: '# design_rationale:
-#   why_this_hook: "從1987年1月那個溫度數字切入——93K不只是一個物理數字，是超导体史上跨越液氮門檻的那一天。"
+readingTime: 7
 #   whats_excluded: "BCS理論細節；歷年學術論文清單；超導應用工程規格"
 #   where_it_hedges: "諾貝爾候選資格為外界推測而非官方確認；2026 Tc=151K 以中時報導為準"'
 lastVerified: 2026-05-07

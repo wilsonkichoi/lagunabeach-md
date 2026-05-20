@@ -7,8 +7,8 @@ category: 'Technology'
 subcategory: '人工智慧'
 tags: ['Technology', 'IA', '人工智慧', 'industria tecnológica']
 lastVerified: 2026-03-20
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Technology/AI人工智慧產業.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:bc36a1af91d28cb5'

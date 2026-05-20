@@ -8,7 +8,7 @@ subcategory: '社會韌性'
 tags: ['文化', '日常', '歷史', '災難記憶', '地牛傳說']
 readingTime: '6'
 lastVerified: '2026-04-17'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'Society/地震.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:eb48495c8ad7ee41'

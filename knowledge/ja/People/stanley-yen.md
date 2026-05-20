@@ -16,8 +16,8 @@ subcategory: '教育與社會'
 author: 'Taiwan.md Contributors'
 readingTime: '12'
 lastVerified: '2026-04-06'
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'People/嚴長壽.md'
 sourceCommitSha: '5db9f136'
 sourceContentHash: 'sha256:bf2c8c297d2e1acd'

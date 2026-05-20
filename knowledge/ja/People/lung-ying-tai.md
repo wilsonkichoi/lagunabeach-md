@@ -6,10 +6,10 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '文学'
 tags: ['文学', '随筆', '野火集', '大江大海', '文化大臣', '公共知識人', '高雄']
-readingTime: '# design_rationale:\n#   why_this_hook: "21天再版24次是一個具體的歷史動作，不是形容詞。《野火集》的衝擊在這個數字裡。"\n#   whats_excluded: "《親愛的安德烈》《目送》逐章分析；文化部政策清單；與余秋雨對話細節"\n#   where_it_hedges: "出生地大寮（P0確認）vs 現行文章說左營（已修正）；博士學歷：紐約大學德國文學vs堪薩斯州立大學英文系（待確認，兩說均見於資料）"'
+readingTime: 7
 lastVerified: 2026-05-07
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/龍應台.md'
 sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:3f57d56cbfc66171'

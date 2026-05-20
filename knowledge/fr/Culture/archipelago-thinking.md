@@ -7,8 +7,8 @@ category: 'Culture'
 subcategory: '文化地理'
 tags: ['archipel', 'langues austronésiennes', 'Nusantara', 'histoire insulaire de Taïwan', 'peuples autochtones', 'géographie culturelle']
 lastVerified: '2026-05-17'
-lastHumanReview: 'false'
-featured: 'true'
+lastHumanReview: false
+featured: true
 translatedFrom: 'Culture/群島思維.md'
 sourceCommitSha: 'd6222fa5b'
 sourceContentHash: 'sha256:85cc96b2204c89cc'

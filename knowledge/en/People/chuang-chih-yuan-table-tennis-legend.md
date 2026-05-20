@@ -6,7 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '體育'
 tags: ['體育', '桌球', '奧運', '世界冠軍', '職業桌球']
-readingTime: "# design_rationale:\n#   why_this_hook: \"從2012年倫敦那場銅牌戰切入——他贏得過世界冠軍，走過六屆奧運，卻始終與奧運獎牌擦身。這個張力比任何數字都更能定義莊智淵。\"\n#   whats_excluded: \"各屆奧運的細部比分；與中國選手對戰的完整紀錄；德國聯賽逐年球隊移轉細節\"\n#   where_it_hedges: \"2000年雪梨是否確為第一屆（P0 confirms 六屆 2000-2024，部分資料有爭議）；2012年銅牌戰對手與比分待確認\""
+readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false

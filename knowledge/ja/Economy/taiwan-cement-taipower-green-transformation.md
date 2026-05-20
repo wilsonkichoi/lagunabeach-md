@@ -7,8 +7,8 @@ category: 'Economy'
 subcategory: '企業列傳'
 tags: ['Economy', '企業', 'セメント業', '建材', '国営民営化', 'グリーン転換']
 lastVerified: 2026-03-20
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Economy/台灣企業：台泥.md'
 sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:d4462b5c55abd9d2'

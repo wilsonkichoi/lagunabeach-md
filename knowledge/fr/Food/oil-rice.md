@@ -17,7 +17,7 @@ tags:
 readingTime: '10'
 lastVerified: '2026-04-28'
 lastHumanReview: '2026-04-28'
-featured: 'false'
+featured: false
 translatedFrom: 'Food/油飯.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:9645370116faf0ce'

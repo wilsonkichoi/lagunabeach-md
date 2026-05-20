@@ -15,8 +15,8 @@ tags:
   ]
 readingTime: '8'
 lastVerified: '2026-04-24'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Food/鳳梨酥.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:d40713778c8c010e'

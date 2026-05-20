@@ -7,8 +7,8 @@ category: 'Food'
 subcategory: '烘焙與甜點'
 tags: ['冰品', '芒果冰', '雪花冰', '剉冰', 'ICE MONSTER']
 lastVerified: 2026-03-19
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Food/台灣冰品文化.md'
 sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:4dac67a4f3297b76'

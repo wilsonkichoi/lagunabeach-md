@@ -18,8 +18,8 @@ tags:
   ]
 readingTime: '14'
 lastVerified: '2026-05-16'
-lastHumanReview: 'true'
-featured: 'true'
+lastHumanReview: true
+featured: true
 translatedFrom: 'Culture/台灣感性.md'
 sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:413833a72961c88e'

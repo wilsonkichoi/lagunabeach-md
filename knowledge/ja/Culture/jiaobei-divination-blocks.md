@@ -8,7 +8,7 @@ subcategory: '宗教與民俗'
 tags: ['民間信仰', '伝統工芸', '占い竹筊（せんばい）']
 readingTime: '8'
 lastVerified: '2026-03-27'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'Culture/擲筊.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:f8a1e86f13d5a657'

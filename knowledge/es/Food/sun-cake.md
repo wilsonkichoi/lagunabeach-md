@@ -15,7 +15,7 @@ tags:
   ]
 readingTime: '8'
 lastVerified: '2026-04-26'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'Food/太陽餅.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:9280fef1e637d1d1'

@@ -14,8 +14,8 @@ tags:
     'mèmes',
   ]
 lastVerified: '2026-05-07'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Lifestyle/台灣髮型介紹.md'
 sourceCommitSha: '490742919'
 sourceContentHash: 'sha256:f7d7ed191773a287'

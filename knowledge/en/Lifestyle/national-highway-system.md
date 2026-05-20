@@ -8,8 +8,8 @@ subcategory: '交通與移動'
 tags: [國道, 交通建設, 十大建設, 雪山隧道, ETC, 戰後台灣]
 readingTime: '10'
 lastVerified: '2026-05-03'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Lifestyle/高速公路.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:5a8bf0cfcaa7dbd2'

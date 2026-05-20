@@ -8,8 +8,8 @@ subcategory: '社區與日常'
 tags: ['朝食店', '地域文化', '人情味', 'コンビニエンスストア', '日常生活', '地域ネットワーク']
 readingTime: '8'
 lastVerified: '2026-03-19'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Society/早餐店阿姨與社區情報網.md'
 sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:8f83fb416bf59624'

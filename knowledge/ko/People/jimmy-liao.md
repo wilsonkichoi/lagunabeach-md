@@ -7,7 +7,7 @@ category: 'People'
 subcategory: '藝術與設計'
 tags:
   ['예술과 디자인', '그림책 작가', '삽화', '문학', '혈암', '이란', '영화 각색']
-readingTime: "# design_rationale:\n#   why_this_hook: \"혈암 이후를 출발점으로 삼는다——그는 순탄한 예술가가 아니라 죽음 앞에 선 뒤에야 비로소 진정한 창작의 길을 찾은 사람이다. 이것이 '그림책이 세상을 따뜻하게 한다'는 서사보다 지미를 더 정확하게 규정한다.\"\n#   whats_excluded: \"개별 그림책별 판매 수치; 지미 광장 각 설치물의 제작 일자; 주변 상품의 상업적 세부 사항\"\n#   where_it_hedges: \"지미 광장의 정확한 개장 연도는 위키피디아 기준 2013년 6월 말로 삼는다 (일부에서는 2014년이라고도 함)\""
+readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false

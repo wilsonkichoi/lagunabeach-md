@@ -16,8 +16,8 @@ tags:
   ]
 readingTime: '12'
 lastVerified: '2026-03-24'
-lastHumanReview: 'false'
-featured: 'true'
+lastHumanReview: false
+featured: true
 translatedFrom: 'Culture/傳統節慶與慶典.md'
 sourceCommitSha: 'a05d2431'
 sourceContentHash: 'sha256:3bac2c2faa70bd6e'

@@ -8,8 +8,8 @@ subcategory: '產業園區與商圈'
 tags: ['parque tecnológico', 'economía comercial', 'Parque Software de Nankang', 'Parque Tecnológico de Neihu', 'desplazamiento', 'planificación urbana']
 readingTime: '12'
 lastVerified: '2026-05-18'
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Economy/台灣科技園區外圍商圈生態.md'
 sourceCommitSha: '10c12c501'
 sourceContentHash: 'sha256:5188638d5f08c937'

@@ -6,7 +6,7 @@ author: "Taiwan.md"
 category: "People"
 subcategory: "科技與企業"
 tags: ["科技與企業", "Trend Micro", "Ciberseguridad", "Industria del software", "Internacionalización", "Emprendimiento social"]
-readingTime: "# design_rationale:\n#   why_this_hook: \"從學歷的精確度切入——輔仁大學數學系而非東海大學，這個細節代表整篇文章的可信度。一個從台灣出發卻把防毒軟體賣給全世界的人，值得精確記錄起點。\"\n#   whats_excluded: \"趨勢科技各年度財報；在台美日各地辦公室人數；個人資產\"\n#   where_it_hedges: \"PC-cillin 1991早期技術僅描述基本功能，不使用2008才有的「雲端掃毒」術語\""
+readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false

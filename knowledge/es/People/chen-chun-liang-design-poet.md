@@ -14,8 +14,8 @@ tags:
     'poeta del diseño',
   ]
 lastVerified: '2026-05-13'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/陳俊良.md'
 sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:e8fd773cb48092fd'

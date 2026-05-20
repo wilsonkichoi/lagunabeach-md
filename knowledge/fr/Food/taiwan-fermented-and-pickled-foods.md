@@ -8,8 +8,8 @@ subcategory: '食材與調味'
 tags: ['aliments fermentés', 'culture de la salaison', 'tofu malodorant', 'tofu fermenté', 'kimchi taïwanais', 'techniques traditionnelles', 'micro-organismes']
 readingTime: '15'
 lastVerified: '2026-03-19'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Food/台灣發酵食品與醃製文化.md'
 sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:c2ef664839dd9cc6'

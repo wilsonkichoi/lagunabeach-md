@@ -7,7 +7,7 @@ category: 'People'
 tags: ['해양문학', '흑조(黑潮)', '고래·돌고래 보전', '화롄(花蓮)', '향고래']
 readingTime: '12'
 lastVerified: '2026-04-29'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'People/廖鴻基.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:f70240af05eb54ba'

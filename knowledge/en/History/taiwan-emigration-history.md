@@ -7,8 +7,8 @@ category: 'History'
 tags: ['Going Abroad', '1979', 'Martial Law', 'Tourism', 'Passport', 'Study Abroad Wave', 'Foreign Exchange Control', 'Lin Xiantang', 'Freedom of Movement']
 readingTime: '25'
 lastVerified: '2026-05-02'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'History/台灣出國史.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:8d6508c76f18f1af'

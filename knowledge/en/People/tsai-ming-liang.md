@@ -7,8 +7,8 @@ category: "People"
 subcategory: "電影與戲劇"
 tags: ["導演", "蔡明亮", "慢電影", "威尼斯影展", "馬來西亞華人"]
 lastVerified: 2026-03-19
-lastHumanReview: "false"
-featured: "true"
+lastHumanReview: false
+featured: true
 translatedFrom: "People/蔡明亮.md"
 sourceCommitSha: "18157ab5d"
 sourceContentHash: "sha256:186f61e906714e37"

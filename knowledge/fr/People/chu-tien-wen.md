@@ -6,8 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '文學'
 tags: ['Littérature', 'Scénariste de cinéma', 'Hou Hsiao-hsien', 'Chu Hsi-ning', 'Littérature San San', 'Carnets d''un homme déserté']
-readingTime: '# design_rationale:
-#   why_this_hook: "從《三三集刊》到《悲情城市》的跨度切入——她不只是編劇，也是與侯孝賢共同構建一種影像語言的共同作者。"
+readingTime: 7
 #   whats_excluded: "各電影完整劇本分析；三三集刊歷年作者名單；學術研究論文清單"
 #   where_it_hedges: "出生地維基記台北（另有高雄鳳山一說，以台北為準）；侯孝賢失智確認時間（P0⚠️待確認具體年份）；首次執導《尋找河神》詳情（P0⚠️待確認）"'
 lastVerified: 2026-05-07

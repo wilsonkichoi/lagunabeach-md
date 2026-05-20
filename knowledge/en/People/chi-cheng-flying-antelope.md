@@ -6,7 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '體育'
 tags: ['體育', '田徑', '奧運', '跨欄', '世界紀錄']
-readingTime: "# design_rationale:\n#   why_this_hook: \"從1968年墨西哥奧運決賽那個瞬間切入——10秒51、一面銅牌、台灣第一。這個時刻是她奔跑生涯的定義點，也讓讀者在第一段就知道她跑出了什麼。\"\n#   whats_excluded: \"體育行政的詳細爭論；各項世界紀錄的完整技術細節；1966年100公尺世界紀錄的爭議史料（文中已適度標注）\"\n#   where_it_hedges: \"1966年100公尺世界紀錄（各來源說法不一，賽事地點與成績仍有歧異）；200公尺慕尼黑紀錄的確切年份；本名紀正平（未獲中文史料確認）\""
+readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false

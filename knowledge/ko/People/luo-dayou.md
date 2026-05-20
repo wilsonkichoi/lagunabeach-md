@@ -6,8 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '音樂'
 tags: ['음악', '싱어송라이터', '사회 비판', '대중음악', '지호야자']
-readingTime: '# design_rationale:
-#   why_this_hook: "의사 출신이라는 지점에서 접근한다—그는 음악 전공자가 아니라 방사선과 의사였으며, 이 출발점이 이후 그의 사회 관찰 시점을 더욱 설득력 있게 만든다."
+readingTime: 7
 #   whats_excluded: "각 앨범 수록곡 개별 분석; 가사 전문; 정치적 입장 상세"
 #   where_it_hedges: "중국의약학원 졸업 연도는 69학년도 기준 약 1980/81년으로 함(기존 1976년 설명은 오해의 소지 있음)"'
 lastVerified: 2026-05-07

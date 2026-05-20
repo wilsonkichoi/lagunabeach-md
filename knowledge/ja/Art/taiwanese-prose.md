@@ -8,8 +8,8 @@ subcategory: '文学'
 tags: ['散文', '文学', '台湾文学史', '女性作家', '生活书写', '自然书写']
 readingTime: '8'
 lastVerified: '2026-03-24'
-lastHumanReview: 'false'
-featured: 'true'
+lastHumanReview: false
+featured: true
 translatedFrom: 'Art/台灣散文.md'
 sourceCommitSha: '7415dcaae'
 sourceContentHash: 'sha256:073fd0e58756d2a3'

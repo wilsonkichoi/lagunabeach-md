@@ -18,8 +18,8 @@ tags:
   ]
 readingTime: '12'
 lastVerified: '2026-03-25'
-lastHumanReview: 'false'
-featured: 'true'
+lastHumanReview: false
+featured: true
 translatedFrom: 'Technology/科技園區發展.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:9c6e710290cc0283'

@@ -20,8 +20,8 @@ tags:
   ]
 readingTime: '16'
 lastVerified: '2026-04-11'
-lastHumanReview: 'false'
-featured: 'true'
+lastHumanReview: false
+featured: true
 translatedFrom: 'Society/偏遠地區學校教育發展條例全解.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:d99122254e2c5422'

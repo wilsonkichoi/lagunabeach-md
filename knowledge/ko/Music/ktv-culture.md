@@ -8,8 +8,8 @@ subcategory: '音樂產業'
 tags: ['KTV 문화', '카라오케', '홀리데이', '캐시박스', '프라이빗 룸 문화', '대중음악', '소셜 문화']
 readingTime: '12'
 lastVerified: '2026-03-19'
-lastHumanReview: 'true'
-featured: 'true'
+lastHumanReview: true
+featured: true
 translatedFrom: 'Music/台灣KTV文化.md'
 sourceCommitSha: '0f8fae0ae'
 sourceContentHash: 'sha256:f8fc5fbf087fa0bc'

@@ -7,8 +7,8 @@ category: 'People'
 subcategory: '音樂與表演'
 tags: ['人物', '周杰倫', '華語流行音樂', '歌手', '創作', 'R&B', '中國風']
 lastVerified: 2026-03-23
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/周杰倫.md'
 sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:f7b44615a84043f8'

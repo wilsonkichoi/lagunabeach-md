@@ -8,8 +8,8 @@ subcategory: '經濟發展'
 tags: ['경제', '산업 정책', '전환 및 업그레이드', '혁신', '제조업', '첨단 기술']
 readingTime: '15'
 lastVerified: '2026-03-19'
-lastHumanReview: 'true'
-featured: 'true'
+lastHumanReview: true
+featured: true
 translatedFrom: 'Economy/台灣產業轉型升級.md'
 sourceCommitSha: '0f8fae0ae'
 sourceContentHash: 'sha256:aba9e669961d71ce'

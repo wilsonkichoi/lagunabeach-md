@@ -7,8 +7,8 @@ category: 'Economy'
 subcategory: '企業列傳'
 tags: ['Economy', '企業', '金融業', '公營銀行', '國際金融']
 lastVerified: 2026-05-13
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Economy/台灣企業：兆豐金控.md'
 sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:19522eee779cb1b5'

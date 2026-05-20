@@ -7,8 +7,8 @@ category: "People"
 subcategory: "文學"
 tags: ["人物", "席慕蓉", "七里香", "無怨的青春", "詩人", "モンゴル族", "散文家"]
 lastVerified: 2026-03-19
-lastHumanReview: "false"
-featured: "false"
+lastHumanReview: false
+featured: false
 translatedFrom: "People/席慕蓉.md"
 sourceCommitSha: '7415dcaa'
 sourceContentHash: 'sha256:5d1d8e5f0b7eaefd'

@@ -8,8 +8,8 @@ subcategory: '藝術與設計'
 tags:
   ['디자이너', '그래픽 디자인', '디자인 교육', '프리이미지', '시적 디자이너']
 lastVerified: '2026-05-13'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/陳俊良.md'
 sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:e8fd773cb48092fd'

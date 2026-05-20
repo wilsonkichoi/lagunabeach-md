@@ -7,8 +7,8 @@ category: 'Economy'
 subcategory: '企業列傳'
 tags: ['Economy', '企業', '石化業', '化工']
 lastVerified: 2026-03-20
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Economy/台灣企業：長春石化.md'
 sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:52c5476d48498d3c'

@@ -8,8 +8,8 @@ subcategory: "產業園區與商圈"
 tags: ["parc technologique", "économie de quartier", "parc logiciel de Nangang", "parc scientifique de Neihu", "trajet domicile-travail", "urbanisme"]
 readingTime: 12
 lastVerified: 2026-05-18
-lastHumanReview: "true"
-featured: "false"
+lastHumanReview: true
+featured: false
 translatedFrom: "Economy/台灣科技園區外圍商圈生態.md"
 sourceCommitSha: "10c12c501"
 sourceContentHash: "sha256:5188638d5f08c937"

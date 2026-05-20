@@ -6,8 +6,7 @@ author: "Taiwan.md"
 category: "People"
 subcategory: "科技與企業"
 tags: ["科技與企業", "和碩聯合", "電子代工", "ODM", "能源政策"]
-readingTime: '# design_rationale:
-#   why_this_hook: "從學歷的精確度切入——台北工專不是台大電機，這個差異代表了童子賢整個路徑的特質：他不是典型的科技菁英，卻建起了蘋果最大代工廠之一。"
+readingTime: 7
 #   whats_excluded: "和碩各年度財報；誠品投資確切股份比例；台北工專同屆同學"
 #   where_it_hedges: "誠品投資確切時間（2019，P0⚠️待確認）；核綠共存主張的政治影響"'
 lastVerified: 2026-05-07

@@ -17,8 +17,8 @@ tags: [
   ]
 readingTime: '11'
 lastVerified: '2026-04-25'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Society/台灣的道德課去哪了.md'
 sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:9e2e35c86cfffed4'

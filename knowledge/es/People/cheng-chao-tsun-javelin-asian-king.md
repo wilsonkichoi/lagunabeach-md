@@ -6,8 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '體育'
 tags: ['Deportes', 'Atletismo', 'Lanzamiento de jabalina', 'Universiada', 'Récord asiático', 'Juegos Olímpicos de Tokio']
-readingTime: '# design_rationale:
-#   why_this_hook: "從『最後一擲逆轉』切入——91.36米不只是距離，是最後一投的戲劇性，以及亞洲標槍在那一秒改變的事實。"
+readingTime: 7
 #   whats_excluded: "助跑技術細節；各年度比賽逐場成績；訓練設施資訊"
 #   where_it_hedges: "2018雅加達亞運名次以73.86米第5為準（部分早期報導稱獲銀牌實為當年9月洲際盃成績）"'
 lastVerified: 2026-05-07

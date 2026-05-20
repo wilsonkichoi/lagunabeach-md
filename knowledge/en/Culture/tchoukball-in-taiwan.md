@@ -8,7 +8,7 @@ subcategory: '運動文化'
 tags: ['巧固球', 'Tchoukball', '台灣運動', '君子球', '世界冠軍', '校園體育']
 readingTime: '12'
 lastVerified: '2026-03-27'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'Culture/巧固球.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:01a29994f0cdcf17'

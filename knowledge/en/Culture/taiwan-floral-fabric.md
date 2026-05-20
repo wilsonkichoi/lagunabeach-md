@@ -8,8 +8,8 @@ subcategory: "族群文化"
 tags: ["文化", "客家", "紡織", "設計", "本土化", "文化復興"]
 readingTime: 12
 lastVerified: 2026-03-19
-lastHumanReview: "true"
-featured: "false"
+lastHumanReview: true
+featured: false
 translatedFrom: "Culture/台灣花布.md"
 sourceCommitSha: "f712b7242"
 sourceContentHash: "sha256:182944af338bcbd9"

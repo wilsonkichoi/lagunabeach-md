@@ -6,7 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '音樂'
 tags: ['音樂', '創作歌手', '社會批判', '流行音樂', '之乎者也']
-readingTime: "# design_rationale:\n#   why_this_hook: \"從醫師出身切入——他不是音樂科班，他是放射科醫師，這個起點讓他後來的社會觀察視角顯得更有說服力。\"\n#   whats_excluded: \"各專輯逐首歌曲分析；歌詞全文；政治立場細節\"\n#   where_it_hedges: \"中國醫藥學院畢業年份以69學年度約1980/81為準（原1976年說法有誤導）\""
+readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false

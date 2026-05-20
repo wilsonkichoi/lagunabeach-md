@@ -19,8 +19,8 @@ tags:
   ]
 readingTime: '12'
 lastVerified: '2026-03-29'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Food/台灣原住民飲食文化.md'
 sourceCommitSha: 'a05d2431'
 sourceContentHash: 'sha256:d67f3581051e39e8'

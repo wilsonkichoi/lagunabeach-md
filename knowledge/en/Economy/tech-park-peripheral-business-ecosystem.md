@@ -8,8 +8,8 @@ subcategory: '產業園區與商圈'
 tags: ['科技園區', '商圈經濟', '南港軟體園區', '內湖科技園區', '通勤', '都市規劃']
 readingTime: '12'
 lastVerified: '2026-05-18'
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Economy/台灣科技園區外圍商圈生態.md'
 sourceCommitSha: '10c12c501'
 sourceContentHash: 'sha256:5188638d5f08c937'

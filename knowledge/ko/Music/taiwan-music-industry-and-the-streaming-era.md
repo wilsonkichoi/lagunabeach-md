@@ -8,8 +8,8 @@ subcategory: '獨立與搖滾'
 tags: ['음악 산업', '스트리밍 음악', 'KKBOX', '디지털 음악', '레코드 매장', '인디 음악']
 readingTime: '15'
 lastVerified: '2026-03-19'
-lastHumanReview: 'false'
-featured: 'true'
+lastHumanReview: false
+featured: true
 translatedFrom: 'Music/台灣音樂產業與串流時代.md'
 sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:f71f072559f005b7'

@@ -6,8 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '科技與企業'
 tags: ['科技與企業', '英業達', '電子代工', 'ODM', 'サーバー']
-readingTime: '# design_rationale:
-#   why_this_hook: "從「士林高商起家」切入——這個事實本身就是最強的反差：沒有名校光環，卻建起了為科技巨頭供貨的代工帝國。"
+readingTime: 7
 #   whats_excluded: "英業達歷年財報細節；與台大電機校友會的關係；各代產品的技術規格細節"
 #   where_it_hedges: "筆電客戶名單（戴爾/惠普/聯想）部分待驗證，P0 確認的是伺服器端的 Facebook/微軟/Google；2023年交棒後現有職稱細節以遠見報導為準"'
 lastVerified: 2026-05-07

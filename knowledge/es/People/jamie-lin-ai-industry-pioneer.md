@@ -6,10 +6,10 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '科技與企業'
 tags: ['科技與企業', 'Google', 'Inteligencia artificial', 'Academia Sinica', 'Educación en IA']
-readingTime: '# design_rationale:\n#   why_this_hook: "從中研院→Google的轉換切入——他是從學術走進產業、又在退休後回頭扶持新創的罕見路徑，體現台灣AI發展從研究到商業的世代轉移。"\n#   whats_excluded: "Google台灣研發中心各年度人數；個人投資報酬數字；詳細課程設計"\n#   where_it_hedges: "博士學校（馬里蘭大學）P0⚠️無法確認，採降級表述；iKala/Appier董事任期詳情以TODO標記"'
+readingTime: 7
 lastVerified: '2026-05-07'
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'People/簡立峰.md'
 sourceCommitSha: '0f8fae0ae'
 sourceContentHash: 'sha256:fbf9f60162ac4b29'

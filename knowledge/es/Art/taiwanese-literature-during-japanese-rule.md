@@ -12,8 +12,7 @@ sourceCommitSha: 'f99a9959'
 sourceContentHash: 'sha256:19723b834d9cebfa'
 sourceBodyHash: 'sha256:f40bf580a8b9cd38'
 translatedAt: '2026-05-01T20:54:23+08:00'
-featured: false
----
+featured: false---
 
 # La literatura taiwanesa durante el período colonial japonés
 

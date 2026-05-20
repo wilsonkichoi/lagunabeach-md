@@ -16,8 +16,8 @@ tags:
     'estilo chino',
   ]
 lastVerified: 2026-03-23
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/周杰倫.md'
 sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:f7b44615a84043f8'

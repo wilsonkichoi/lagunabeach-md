@@ -7,8 +7,8 @@ category: "People"
 subcategory: "電影與戲劇"
 tags: ["陳玉勳", "導演", "喜劇電影", "熱帶魚", "總鋪師", "消失的情人節"]
 lastVerified: 2026-03-19
-lastHumanReview: "true"
-featured: "false"
+lastHumanReview: true
+featured: false
 translatedFrom: "People/陳玉勳.md"
 sourceCommitSha: "f712b7242"
 sourceContentHash: "sha256:bc132f506d9946e5"

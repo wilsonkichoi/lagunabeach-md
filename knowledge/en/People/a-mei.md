@@ -6,7 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '音樂'
 tags: ['音樂', '原住民', '卑南族', '天后', '同志平權', '流行音樂']
-readingTime: "# design_rationale:\n#   why_this_hook: \"從1996到2024的數字對比——121萬張首專到大巨蛋5場，數字本身說明了她的跨度。\"\n#   whats_excluded: \"各張專輯完整歌曲列表；商業代言清單；各演唱會場次細目\"\n#   where_it_hedges: \"張雨生發掘細節：各方說法略有出入，以維基百科為準；2023北京彩虹旗爭議另案記錄\""
+readingTime: 7
 lastVerified: 2026-05-08
 lastHumanReview: false
 featured: false

@@ -8,8 +8,8 @@ subcategory: '台灣小吃'
 tags: ['전륜병', '팥빵', '만단', '대만 소식', '이마가와야키', '식문화']
 readingTime: '12'
 lastVerified: '2026-04-28'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Food/車輪餅.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:75886d0c9c5c9b1f'

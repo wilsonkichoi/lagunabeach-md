@@ -8,8 +8,8 @@ subcategory: 'メディアと言論'
 tags: ['メディア', '報道の自由', '民主化', 'デジタル変革', 'メディアリテラシー']
 readingTime: '15'
 lastVerified: '2026-03-19'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Society/台灣媒體與新聞自由.md'
 sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:2b07b58b99abcb36'

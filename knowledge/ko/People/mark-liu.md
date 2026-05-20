@@ -6,7 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '科技與企業'
 tags: ['TSMC', '반도체', '지정학', '기업 리더십']
-readingTime: '# design_rationale:\n#   why_this_hook: "애리조나 공장 발표의 그 순간에서 출발한다——그가 발표한 모든 숫자 뒤에는 지정학적 계산이 있었지만, 그 자신은 언제나 엔지니어의 정밀한 언어로 이를 포장했다. 이 긴장감이 글 전체의 앵커다."\n#   whats_excluded: "TSMC 내부의 후계 경쟁 세부 사항(유드음 vs. 웨이자지아 노선 차이); 애리조나 공장 노동조합 갈등 및 지연 세부 사항; 장중모의 유드음 리더십에 대한 공개 평가"\n#   where_it_hedges: "애리조나 최종 투자 총액(2025년 3월 기준 1,650억 달러가 최신 발표 수치이며, 이후에도 조정 가능)"'
+readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false

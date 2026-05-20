@@ -18,7 +18,7 @@ tags:
   ]
 readingTime: '12'
 lastVerified: '2026-03-19'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'Nature/臺灣的鯨豚.md'
 sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:fa8568c6d129180a'

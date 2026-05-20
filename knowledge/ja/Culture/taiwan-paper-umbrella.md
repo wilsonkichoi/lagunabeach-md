@@ -8,7 +8,7 @@ subcategory: '客家文化'
 tags: ['美濃', '紙傘', '客家文化', '伝統工芸', '文化転換', '広進勝', '林享麟']
 readingTime: '10'
 lastVerified: '2026-04-21'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'Culture/紙傘.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:2b63bb823fbdea45'

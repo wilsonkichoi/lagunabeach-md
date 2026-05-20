@@ -6,8 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '音楽'
 tags: ['音楽', '先住民族', '卑南族', '天后', 'LGBTQ+平等', 'ポップミュージック']
-readingTime: '# design_rationale:
-#   why_this_hook: "1996年から2024年への数字の対比——121万枚のデビューアルバムから大巨蛋5公演へ、数字そのものが彼女の歩みを物語っている。"
+readingTime: 7
 #   whats_excluded: "各アルバムの全曲リスト；商業タイアップ一覧；各コンサートの公演詳細"
 #   where_it_hedges: "張雨生による発掘の詳細：各方面で説が若干異なるため、ウィキペディアを基準とする；2023年北京レインボーフラッグ問題は別途記録"'
 lastVerified: 2026-05-08

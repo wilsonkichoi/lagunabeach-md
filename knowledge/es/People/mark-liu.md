@@ -6,7 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '科技與企業'
 tags: ['TSMC', 'semiconductores', 'geopolítica', 'liderazgo empresarial']
-readingTime: "# design_rationale:\n#   why_this_hook: \"從亞利桑那廠那個時刻切入——他宣布的每個數字背後都有地緣政治計算，但他本人始終以工程師的精確語言包裝這一切。這個張力是整篇的 anchor。\"\n#   whats_excluded: \"台積電內部的接班競爭細節（劉德音 vs. 魏哲家路線差異）；亞利桑那工廠工會衝突與延誤細節；張忠謀對劉德音領導的公開評價\"\n#   where_it_hedges: \"亞利桑那最終投資總額（2025年3月的1,650億美元為最新公布數字，後續仍可能調整）\""
+readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false

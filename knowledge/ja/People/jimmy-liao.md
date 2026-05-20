@@ -6,8 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '藝術與設計'
 tags: ['藝術與設計', '絵本作家', 'イラスト', '文学', '白血病', '宜蘭', '映画化']
-readingTime: '# design_rationale:
-#   why_this_hook: "從血癌之後切入——他不是一帆風順的藝術家，他是在面對死亡後才找到真正創作路線的人。這比『繪本溫暖世界』更能定義幾米。"
+readingTime: 7
 #   whats_excluded: "各繪本逐冊銷量數字；幾米廣場每件裝置的建造日期；周邊商品商業細節"
 #   where_it_hedges: "幾米廣場確切開幕年份以維基百科2013年6月底為準（部分說法為2014年）"'
 lastVerified: 2026-05-07

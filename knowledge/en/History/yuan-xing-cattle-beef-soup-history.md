@@ -9,8 +9,8 @@ tags:
   ['源興牛', '台南牛肉湯', '溫體牛', '畜牧業', '台灣農業', '李登輝', '肉牛產業']
 readingTime: '9'
 lastVerified: '2026-03-25'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'History/源興牛與牛肉湯的歷史.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:ed10e8c11ed48896'

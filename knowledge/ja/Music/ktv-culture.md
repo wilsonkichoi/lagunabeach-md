@@ -8,8 +8,8 @@ subcategory: '音楽産業'
 tags: ['KTV文化', 'カラオケ', '好楽迪', '銭櫃', '個室文化', 'ポップミュージック', 'ソーシャルカルチャー']
 readingTime: '12'
 lastVerified: '2026-03-19'
-lastHumanReview: 'true'
-featured: 'true'
+lastHumanReview: true
+featured: true
 translatedFrom: 'Music/台灣KTV文化.md'
 sourceCommitSha: '0f8fae0ae'
 sourceContentHash: 'sha256:f8fc5fbf087fa0bc'

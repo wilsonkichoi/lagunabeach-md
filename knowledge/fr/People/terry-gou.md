@@ -6,10 +6,10 @@ author: "Taiwan.md"
 category: "People"
 subcategory: "科技與企業"
 tags: ["科技與企業", "鴻海", "製造業", "企業家", "Fortune 500", "永齡基金會"]
-readingTime: "# design_rationale:\n#   why_this_hook: \"從「10萬元旋鈕廠」到「Fortune 500第32名」——數字跨度比形容詞更有力。\"\n#   whats_excluded: \"管理哲學逐條分析；富士康勞工事件完整調查；MIH合作品牌細節\"\n#   where_it_hedges: \"辭任董事日期P0⚠️待確認；MIH品牌合作待驗證\""
+readingTime: 7
 lastVerified: 2026-05-07
-lastHumanReview: "true"
-featured: "false"
+lastHumanReview: true
+featured: false
 translatedFrom: "People/郭台銘.md"
 sourceCommitSha: "0f8fae0ae"
 sourceContentHash: "sha256:981dd62862f57c30"

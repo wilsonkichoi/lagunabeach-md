@@ -21,8 +21,8 @@ tags:
   - "22縣市系列"
 readingTime: "15"
 lastVerified: "2026-05-18"
-lastHumanReview: "false"
-featured: "false"
+lastHumanReview: false
+featured: false
 translatedFrom: "Geography/澎湖縣.md"
 sourceCommitSha: "dd6cd0156"
 sourceContentHash: "sha256:e10092be60773ede"

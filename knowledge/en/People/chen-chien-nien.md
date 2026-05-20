@@ -8,8 +8,8 @@ subcategory: '音樂'
 tags: ['Music', 'Indigenous peoples', 'Puyuma', 'Golden Melody Awards', 'Ocean', 'Lanyu', 'Police', 'Singer-songwriter']
 readingTime: '8'
 lastVerified: '2026-05-17'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/陳建年.md'
 sourceCommitSha: 'c916f28dd'
 sourceContentHash: 'sha256:098e1fee93f12455'

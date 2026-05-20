@@ -15,8 +15,8 @@ tags:
     'mamás cuentacuentos',
   ]
 lastVerified: '2026-03-28'
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Society/台灣志工文化與公益參與.md'
 sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:47c6a7bb7a1ac1e1'

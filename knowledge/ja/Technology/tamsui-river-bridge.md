@@ -16,8 +16,8 @@ tags: [
   ]
 readingTime: '10'
 lastVerified: '2026-04-29'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Technology/淡江大橋.md'
 sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:58ac62b3c0ac9558'

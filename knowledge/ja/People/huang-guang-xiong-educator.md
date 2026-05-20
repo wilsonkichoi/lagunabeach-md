@@ -16,8 +16,8 @@ tags:
   - '道徳教育'
 readingTime: '7'
 lastVerified: '2026-04-25'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/黃光雄.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:1b679db54adf9d80'

@@ -6,10 +6,10 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '科技與企業'
 tags: ['科技與企業', '台積電', '半導體', '晶圓代工', '製程技術']
-readingTime: '# design_rationale:\n#   why_this_hook: "交大→耶魯→德儀→台積電的路徑，加上2024年接任董事長——這是一個40年積累的位置，不是空降。"\n#   whats_excluded: "各代製程技術細節比較；台積電財報分析；與三星/英特爾競爭細節"\n#   where_it_hedges: "原文章誤植出生年1955→已修正為P0確認的1953；原誤植台大材料+史丹佛→已修正為交大電子+耶魯"'
+readingTime: 7
 lastVerified: '2026-05-08'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/魏哲家.md'
 sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:50d2aaef770f0d1e'

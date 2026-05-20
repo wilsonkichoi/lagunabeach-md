@@ -6,10 +6,10 @@ author: "Taiwan.md Contributors"
 category: "Music"
 subcategory: "傳統音樂"
 tags: ["música hakka", "canciones de montaña", "música de ocho sonidos hakka", "Lin Shengxiang", "Labor Exchange Band", "canciones en lengua hakka", "Golden Melody Awards"]
-readingTime: "# design_rationale:\n#   why_this_hook: \"林生祥2007拒獎：不是拿了就謝謝，而是把獎項本身當成議題——這才是客家音樂史最有力的錨點\"\n#   whats_excluded: \"榮興客家採茶劇團完整史；客委會組織架構；WOMAD詳細場次\"\n#   where_it_hedges: \"羅思容代表作《攬花去》（第23屆）確認，《天光》得獎資訊未能核實\""
+readingTime: 7
 lastVerified: 2026-05-13
-lastHumanReview: "true"
-featured: "false"
+lastHumanReview: true
+featured: false
 translatedFrom: "Music/台灣客家音樂.md"
 sourceCommitSha: "0f8fae0ae"
 sourceContentHash: "sha256:a1abbcd1a1bce08a"

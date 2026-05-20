@@ -6,7 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '體育'
 tags: ['육상', '트랙필드', '올림픽', '허들', '세계 기록']
-readingTime: '# design_rationale:\n#   why_this_hook: "1968년 멕시코 올림픽 결승전 그 순간에서 출발한다——10초51, 한 장의 동메달, 타이완 최초. 이 순간은 그녀의 달리기 인생의 정의점이며, 독자가 첫 문단에서 그녀가 무엇을 달렸는지 알 수 있게 한다."\n#   whats_excluded: "체육 행정의 상세한 논쟁; 각 세계 기록의 완전한 기술적 세부사항; 1966년 100m 세계 기록의 논란이 있는 사료 (본문에 적절히 표기됨)"\n#   where_it_hedges: "1966년 100m 세계 기록 (각 출처의 설명이 일치하지 않으며 대회 장소와 기록에 여전히 이견이 있음); 200m 뮌헨 기록의 정확한 연도; 본명 지정평 (중문 사료로 확인되지 않음)"'
+readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false

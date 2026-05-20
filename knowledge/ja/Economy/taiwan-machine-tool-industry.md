@@ -8,8 +8,8 @@ subcategory: '伝統産業'
 author: 'Taiwan.md'
 readingTime: '13'
 lastVerified: '2026-04-11'
-lastHumanReview: 'false'
-featured: 'true'
+lastHumanReview: false
+featured: true
 translatedFrom: 'Economy/台灣機械工具產業.md'
 sourceCommitSha: 'f99a9959'
 sourceContentHash: 'sha256:74fc634acab51c40'

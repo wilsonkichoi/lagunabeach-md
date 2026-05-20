@@ -22,8 +22,7 @@ category: 'Culture'
 author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-03-30
-lastHumanReview: true
----
+lastHumanReview: true---
 
 # Taiwan's Ethnic Groups
 

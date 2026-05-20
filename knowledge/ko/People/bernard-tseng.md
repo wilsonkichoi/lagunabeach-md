@@ -17,8 +17,8 @@ tags:
   ]
 readingTime: '22'
 lastVerified: '2026-05-13'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/曾博恩.md'
 sourceCommitSha: '86db85f3d'
 sourceContentHash: 'sha256:47cec189b7c7bcfc'

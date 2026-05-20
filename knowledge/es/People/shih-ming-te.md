@@ -6,13 +6,12 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '政治與民主'
 tags: ['Movimiento democrático', 'Incidente de Formosa', 'Víctima política', 'Movimiento de las Camisas Rojas contra Chen', 'Líder político']
-readingTime: '# design_rationale:
-#   why_this_hook: "選擇軍法庭上『請判我死刑』的場景——這個時刻最能定義施明德：不是英雄主義的表演，而是對整個審判邏輯的拒絕。以這個場景作為 anchor，讀者從一開始就站在『他到底在堅持什麼』的問題上。"
+readingTime: 7
 #   whats_excluded: "中國大陸媒體對其倒扁運動的定性（親藍工具論）；美麗島事件後黨外運動路線鬥爭的細節；部分學者對其貢獻的保留意見；紅衫軍中泛藍協作的具體指控"
 #   where_it_hedges: "坐牢確切年數（各來源介於25-26年，採較保守的二十五年以上表述）；1962年被捕的政治組織確切名稱（史料略有出入）"'
 lastVerified: '2026-05-07'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/施明德.md'
 sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:26dd4eef921bd1dc'

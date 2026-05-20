@@ -6,10 +6,10 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '體育'
 tags: ['스포츠', '테니스', '올림픽', '윔블던', '프로테니스']
-readingTime: '# design_rationale:\n#   why_this_hook: "從他父親和溫布頓的那個連結切入——他說那次踏上草地是替爸爸來的。這個 scene 比任何數字都更能定義這個人。"\n#   whats_excluded: "ATP 排名逐年細節；與台灣網球協會的公開摩擦；訓練方式與技術分析細節"\n#   where_it_hedges: "出生地（台北或桃園/三重各有資料，採最廣泛引用說法）；1966年溫哥華100公尺世界紀錄待更多史料確認"'
+readingTime: 7
 lastVerified: '2026-05-07'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/盧彥勳.md'
 sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:5495d96659e320ca'

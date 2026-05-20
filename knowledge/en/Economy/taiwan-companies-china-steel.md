@@ -7,8 +7,8 @@ category: 'Economy'
 subcategory: '企業列傳'
 tags: ['Economy', '企業', '鋼鐵業', '十大建設', '重工業']
 lastVerified: 2026-03-20
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Economy/台灣企業：中鋼.md'
 sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:204bc05a0920a7fd'

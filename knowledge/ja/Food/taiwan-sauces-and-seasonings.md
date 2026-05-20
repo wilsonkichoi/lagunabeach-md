@@ -8,8 +8,8 @@ subcategory: '食材與調味'
 tags: ['ソース', '調味料', '食文化', '台湾の味', '発酵食品']
 readingTime: 7
 lastVerified: '2026-03-20'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Food/台灣醬料與調味.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:80c0f5a5b4a4fc5f'

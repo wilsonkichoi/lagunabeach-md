@@ -7,8 +7,8 @@ category: 'Food'
 subcategory: '飲品文化'
 tags: ['아침', '계란빵', '샤오빠오유탸오', '융허두장', '메이얼메이', '아침집', '두장집']
 lastVerified: 2026-05-16
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Food/台灣早餐文化.md'
 sourceCommitSha: '85926aa3b'
 sourceContentHash: 'sha256:03f68d8696f5da84'

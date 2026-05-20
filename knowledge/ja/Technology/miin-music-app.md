@@ -7,8 +7,8 @@ category: 'Technology'
 subcategory: '數位治理と公民科技'
 tags: ['AI', '偽情報', 'デジタルレジリエンス', '杜奕瑾', '認知戦']
 lastVerified: 2026-04-01
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Technology/迷音Miin.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:86e79dfbeda52398'

@@ -6,7 +6,7 @@ category: 'Art'
 subcategory: "'文學'"
 date: '2026-03-18'
 lastVerified: '2026-03-19'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'Art/日治時期文學.md'
 sourceCommitSha: 'f99a9959'
 sourceContentHash: 'sha256:19723b834d9cebfa'

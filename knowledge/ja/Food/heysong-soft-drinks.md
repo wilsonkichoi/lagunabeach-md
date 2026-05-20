@@ -7,7 +7,7 @@ category: 'Food'
 tags: ['黒松サイダー', '黒松サルサパリラ', '台湾ブランド', '飲食文化', '張雨生']
 readingTime: '12'
 lastVerified: '2026-04-16'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'Food/黑松.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:764c87b479e4e9af'

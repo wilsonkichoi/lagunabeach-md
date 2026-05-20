@@ -15,8 +15,8 @@ tags:
   ]
 readingTime: '12'
 lastVerified: '2026-03-19'
-lastHumanReview: 'false'
-featured: 'true'
+lastHumanReview: false
+featured: true
 translatedFrom: 'Nature/台灣國家公園.md'
 sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:c51eb1a165d6a2f5'

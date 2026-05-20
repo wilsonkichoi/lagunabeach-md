@@ -19,7 +19,7 @@ tags:
   ]
 readingTime: '15'
 lastVerified: '2026-04-21'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'Lifestyle/吉祥物.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:075fe64fdc81a347'

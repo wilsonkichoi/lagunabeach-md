@@ -6,8 +6,7 @@ author: "Taiwan.md"
 category: "People"
 subcategory: "科技與企業"
 tags: ["科技與企業", "廣達電腦", "ODM代工", "人工智慧", "肺腺癌"]
-readingTime: '# design_rationale:
-#   why_this_hook: "「筆電代工之王」與「抗癌二十年」並列——後者是被完全遺漏的公開事實，不是八卦，而是本人多次公開談及的生命軌跡。"
+readingTime: 7
 #   whats_excluded: "廣達與各大廠代工合約細節；AI伺服器具體規格；兒子接班爭議細節（待確認）"
 #   where_it_hedges: "廣達筆電市占率「超過30%」無原始source（P0⚠️）；兒子接班時程待確認"'
 lastVerified: 2026-05-08

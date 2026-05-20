@@ -22,10 +22,10 @@ tags:
 category: '人物'
 subcategory: '音楽とパフォーマンス'
 author: 'Taiwan.md'
-featured: 'false'
+featured: false
 readingTime: '17'
 lastVerified: '2026-04-18'
-lastHumanReview: 'true'
+lastHumanReview: true
 researchReport: 'reports/research/2026-04/草東沒有派對.md'
 perspectives:
   - author: 'songstoryworks（采郁）'

@@ -16,8 +16,8 @@ tags:
   ]
 readingTime: '14'
 lastVerified: '2026-04-08'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Society/台灣公共衛生與防疫體系.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:58f409f32e8328d7'

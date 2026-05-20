@@ -27,8 +27,8 @@ tags:
   ]
 readingTime: '16'
 lastVerified: '2026-05-15'
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Art/紀柏豪.md'
 sourceCommitSha: '893f9e9cc'
 sourceContentHash: 'sha256:e9295abc417c9449'

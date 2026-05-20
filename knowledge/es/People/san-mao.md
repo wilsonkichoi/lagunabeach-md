@@ -6,7 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '文學'
 tags: ['三毛', '散文', '撒哈拉', '荷西', '橄欖樹', '滾滾紅塵', '流浪文學']
-readingTime: '# design_rationale:\n#   why_this_hook: "開場用國二數學老師墨圈事件——整篇文章的核心矛盾（逃離vs自由）從這一幕開始。讀者最熟悉的是撒哈拉，但最需要知道的是她為什麼去撒哈拉。"\n#   whats_excluded: "各本著作逐一評析；撒哈拉日常生活具體描寫（讀者去讀原著）；馬中欣《三毛真相》的逐條反駁；王洛賓關係的情感解讀（採信事實面不猜心理）"\n#   where_it_hedges: "Stage 0 假說「首映後五十多天去世」經驗證修正為25天；荷西死亡地點從 La Gomera/Gran Canaria 修正為 La Palma；年齡差從6歲修正為8歲；死因爭議四說並存不下判斷"'
+readingTime: 7
 lastVerified: 2026-05-17
 lastHumanReview: false
 featured: false

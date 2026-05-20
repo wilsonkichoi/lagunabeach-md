@@ -19,8 +19,8 @@ tags:
   ]
 readingTime: '15'
 lastVerified: '2026-03-19'
-lastHumanReview: 'false'
-featured: 'true'
+lastHumanReview: false
+featured: true
 translatedFrom: 'Technology/東亞文字輸入法.md'
 sourceCommitSha: '24efd20f3'
 sourceContentHash: 'sha256:d8c6f0fd322ce1e4'

@@ -16,8 +16,8 @@ tags:
   ]
 readingTime: '8'
 lastVerified: '2026-04-05'
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/陳士駿.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:a7528e9b7062bef0'

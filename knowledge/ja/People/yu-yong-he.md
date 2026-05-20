@@ -8,8 +8,8 @@ subcategory: '歴史と探検'
 tags: ['人物', '郁永河', '裨海紀遊', '清代', '探検', '北投', '硫黄', '台湾文学']
 readingTime: '10'
 lastVerified: '2026-03-25'
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'People/郁永河.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:4070459913f1808f'

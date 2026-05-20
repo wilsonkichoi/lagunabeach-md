@@ -20,8 +20,7 @@ category: 'Technology'
 author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-03-20
-lastHumanReview: true
----
+lastHumanReview: true---
 
 # Taiwan's Digital Animation and Imagery Industry
 

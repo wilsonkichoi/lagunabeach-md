@@ -6,7 +6,7 @@ author: "Taiwan.md"
 category: "People"
 subcategory: "體育"
 tags: ["體育", "舉重", "奧運", "金牌", "53公斤級", "雲林"]
-readingTime: "# design_rationale:\n#   why_this_hook: \"從兩面金牌的精確成績切入——219kg（遞補）和212kg（直接奪金）都是具體數字，不是形容詞。\"\n#   whats_excluded: \"技術動作生物力學分析；訓練課表細節；商業代言清單\"\n#   where_it_hedges: \"2012銀牌遞補金牌的金牌得主P0確認為趙常玲（哈薩克），原文有誤\""
+readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false

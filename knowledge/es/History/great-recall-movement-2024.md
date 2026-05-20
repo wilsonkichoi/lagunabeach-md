@@ -14,8 +14,8 @@ tags:
     '2025',
   ]
 lastVerified: '2026-04-13'
-lastHumanReview: 'true'
-featured: 'true'
+lastHumanReview: true
+featured: true
 translatedFrom: 'History/大罷免.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:6a3389f4e3aa59c9'

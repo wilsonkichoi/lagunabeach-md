@@ -7,8 +7,8 @@ category: "Culture"
 subcategory: "藝術園區"
 tags: ["parcs culturels créatifs", "réhabilitation d'anciens bâtiments", "industries créatives", "renouvellement urbain", "préservation culturelle"]
 lastVerified: 2026-03-19
-lastHumanReview: "true"
-featured: "false"
+lastHumanReview: true
+featured: false
 translatedFrom: "Culture/台灣文化創意園區發展.md"
 sourceCommitSha: "f712b7242"
 sourceContentHash: "sha256:e1fa112b66596f53"

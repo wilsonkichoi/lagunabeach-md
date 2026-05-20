@@ -7,8 +7,8 @@ category: 'Culture'
 subcategory: '老街と商圈'
 tags: ['老街', '歴史街区', '文化保存', '観光', '建築']
 lastVerified: 2026-03-20
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Culture/台灣老街文化與商業街區.md'
 sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:3d3e165195c66961'

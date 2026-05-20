@@ -8,8 +8,8 @@ subcategory: '教育'
 tags: ['教育', '受験', '十二年国教', '技職教育', '教育改革', '競争文化']
 readingTime: '14'
 lastVerified: '2026-03-19'
-lastHumanReview: 'false'
-featured: 'true'
+lastHumanReview: false
+featured: true
 translatedFrom: 'Society/教育制度與升學文化.md'
 sourceCommitSha: 'f712b7242'
 sourceContentHash: 'sha256:0a7458b73a859fea'

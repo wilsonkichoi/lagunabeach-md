@@ -19,7 +19,7 @@ tags:
 readingTime: '9'
 lastVerified: '2026-04-19'
 lastHumanReview: '2026-04-19'
-featured: 'false'
+featured: false
 translatedFrom: 'Culture/台灣動漫文化.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:ddc98c9c93f34f85'

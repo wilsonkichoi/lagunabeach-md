@@ -23,8 +23,7 @@ readingTime: 14
 featured: true
 category: 'Music'
 lastVerified: 2026-03-19
-lastHumanReview: false
----
+lastHumanReview: false---
 
 # Taiwan Screen Scoring: The Sound Aesthetics from Cinema to Game Music
 

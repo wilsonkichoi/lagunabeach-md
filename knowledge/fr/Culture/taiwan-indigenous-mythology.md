@@ -7,8 +7,8 @@ category: 'Culture'
 tags: ['Autochtones', 'Mythologie', 'Littérature orale', 'Culture taïwanaise']
 readingTime: '8'
 lastVerified: '2026-04-17'
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Culture/原住民神話.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:3ad9f28eb81ce704'

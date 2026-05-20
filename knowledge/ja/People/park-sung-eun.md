@@ -17,7 +17,7 @@ tags:
   ]
 readingTime: '8'
 lastVerified: '2026-05-13'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'People/朴星垠.md'
 sourceCommitSha: 'd6e87d07'
 sourceContentHash: 'sha256:887b51489bb209f2'

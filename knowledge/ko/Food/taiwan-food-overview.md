@@ -7,8 +7,8 @@ category: 'Food'
 subcategory: '美食總覽'
 tags: ['미식', '음식', '식품', '대만 문화', '이민', '미쉐린', '야시장', '버블티', '우육면', '루러우판', '반줘']
 lastVerified: '2026-05-18'
-lastHumanReview: 'false'
-featured: 'true'
+lastHumanReview: false
+featured: true
 translatedFrom: 'Food/台灣美食總覽.md'
 sourceCommitSha: '30569f742'
 sourceContentHash: 'sha256:2a9fd2a5149abab8'

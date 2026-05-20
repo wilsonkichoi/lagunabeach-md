@@ -6,7 +6,7 @@ tags: ['YouTuber', 'streaming de jeux', 'Minecraft', 'médias numériques']
 category: 'People'
 subcategory: '數位與媒體'
 author: 'Taiwan.md'
-featured: 'false'
+featured: false
 lastVerified: '2026-04-19'
 lastHumanReview: '2026-04-19'
 translatedFrom: 'People/阿神.md'

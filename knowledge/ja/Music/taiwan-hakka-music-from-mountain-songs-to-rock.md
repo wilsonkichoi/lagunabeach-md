@@ -6,8 +6,7 @@ author: 'Taiwan.md Contributors'
 category: 'Music'
 subcategory: '傳統音楽'
 tags: ['客家音楽', '山歌', '客家八音', '林生祥', '交工楽隊', '客語歌曲', '金曲賞']
-readingTime: '# design_rationale:
-#   why_this_hook: "林生祥2007拒獎：不是拿了就謝謝，而是把獎項本身當成議題——這才是客家音樂史最有力的錨點"
+readingTime: 7
 #   whats_excluded: "榮興客家採茶劇團完整史；客委會組織架構；WOMAD詳細場次"
 #   where_it_hedges: "羅思容代表作《攬花去》（第23屆）確認，《天光》得獎資訊未能核實"'
 lastVerified: 2026-05-13

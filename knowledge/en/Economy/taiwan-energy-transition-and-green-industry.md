@@ -8,8 +8,7 @@ readingTime: 12
 author: 'Taiwan.md Translation Team'
 featured: false
 lastVerified: 2026-03-19
-lastHumanReview: false
----
+lastHumanReview: false---
 
 # Taiwan's Energy Transition and Green Energy Industries
 

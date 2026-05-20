@@ -16,7 +16,7 @@ tags:
   ]
 readingTime: '12'
 lastVerified: '2026-04-28'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'People/蘇貞昌.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:479a8f6f5440400a'

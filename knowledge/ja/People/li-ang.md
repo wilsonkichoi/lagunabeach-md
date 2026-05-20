@@ -6,8 +6,7 @@ author: 'Taiwan.md'
 category: 'People'
 subcategory: '文學'
 tags: ['文学', '女性主義文学', '殺夫', '迷園', '鹿港', 'ジェンダー問題']
-readingTime: '# design_rationale:
-#   why_this_hook: "鹿港から切り込む——保守的な古鎮から最も急進的な女性主義作家が生まれたという対比こそが、彼女の作品の源泉である。"
+readingTime: 7
 #   whats_excluded: "各作品の詳細なプロット分析；学術論文の引用リスト；政治評論活動の詳細"
 #   where_it_hedges: "生年月日には4月5日と4月7日の二説がある（いずれも1952年4月として記載）；「2018年第22回国家文化芸術賞」の幻覚を除去済み（第22回受賞者は平路、黄明川などであり、李昂ではない）"'
 lastVerified: 2026-05-07

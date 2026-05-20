@@ -15,8 +15,8 @@ tags:
     'Ministerio cristiano',
   ]
 lastVerified: 2026-03-20
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'People/楊右任.md'
 sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:e2ade2405e5fac3e'

@@ -23,8 +23,8 @@ tags:
   ]
 readingTime: '26'
 lastVerified: '2026-05-19'
-lastHumanReview: 'true'
-featured: 'true'
+lastHumanReview: true
+featured: true
 translatedFrom: 'Nature/台灣氣候危機與淨零轉型.md'
 sourceCommitSha: '1d54cbe52'
 sourceContentHash: 'sha256:129f0464105d75fb'

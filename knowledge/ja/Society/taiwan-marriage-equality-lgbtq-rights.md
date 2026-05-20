@@ -9,8 +9,8 @@ tags:
   ['同性婚', 'ジェンダー平等', '人権', '司法', 'アジア初', '祁家威', 'LGBTQ+']
 readingTime: '12'
 lastVerified: '2026-03-22'
-lastHumanReview: 'false'
-featured: 'true'
+lastHumanReview: false
+featured: true
 translatedFrom: 'Society/台灣同婚與性別平權.md'
 sourceCommitSha: 'a05d2431'
 sourceContentHash: 'sha256:369f015f40df17bd'

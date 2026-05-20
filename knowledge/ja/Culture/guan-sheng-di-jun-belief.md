@@ -8,7 +8,7 @@ subcategory: '宗教と民俗'
 tags: ['関聖帝君', '恩主公', '行天宮', '民間信仰', '廟文化']
 readingTime: '10'
 lastVerified: '2026-03-26'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'Culture/關聖帝君信仰.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:0c930d5c5db17f02'

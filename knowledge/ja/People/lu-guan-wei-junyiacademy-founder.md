@@ -18,7 +18,7 @@ tags:
   ]
 readingTime: '7'
 lastVerified: '2026-04-05'
-lastHumanReview: 'false'
+lastHumanReview: false
 translatedFrom: 'People/呂冠緯.md'
 sourceCommitSha: '84ed9453'
 sourceContentHash: 'sha256:743ecf11453dec54'

@@ -17,8 +17,7 @@ date: 2026-04-17
 readingTime: 15
 lastVerified: 2026-04-17
 lastHumanReview: true
-featured: false
----
+featured: false---
 
 > **30-second overview:** Taiwan's current "six special municipalities and sixteen counties/cities" is the result of multiple rounds of political surgery over four hundred years. In the 17th century the Dutch used "landdag" (local councils) to monitor tribal communities; the Zheng clan and Qing dynasty periods inaugurated the Han Chinese county-and-prefecture system; the Japanese colonial era laid the skeleton of modern administrative divisions through "five provinces and three prefectures" and a place-name refinement campaign. This experiment nearly produced a city named after a historical figure in 1945, and in 2010 the five-municipalities reform absorbed sixty percent of Taiwan's population into directly administered municipalities — leaving a contemporary challenge of resource imbalance.
 

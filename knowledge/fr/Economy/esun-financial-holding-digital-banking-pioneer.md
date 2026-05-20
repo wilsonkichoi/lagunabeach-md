@@ -15,8 +15,8 @@ tags:
     'Huang Nanzhou',
   ]
 lastVerified: 2026-05-13
-lastHumanReview: 'true'
-featured: 'false'
+lastHumanReview: true
+featured: false
 translatedFrom: 'Economy/台灣企業：玉山金控.md'
 sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:3400938387db0838'

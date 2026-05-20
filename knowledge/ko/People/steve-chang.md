@@ -6,7 +6,7 @@ author: "Taiwan.md"
 category: "People"
 subcategory: "科技與企業"
 tags: ["科技與企業", "트렌드마이크로", "정보보안 산업", "소프트웨어 산업", "국제화", "사회적 기업"]
-readingTime: "# design_rationale:\n#   why_this_hook: \"학력의 정확성에서 출발한다—보인대학 수학과가 아닌 동해대학이 아님을 밝히는 이 세부 사항은 글 전체의 신뢰도를 대변한다. 대만에서 출발하여 바이러스 백신 소프트웨어를 세계에 판 사람의 출발점을 정확히 기록할 가치가 있다.\"\n#   whats_excluded: \"트렌드마이크로 각 연도 재무제표; 대만·미국·일본 각지 사무소 인원수; 개인 자산\"\n#   where_it_hedges: \"PC-cillin 1991년 초기 기술은 기본 기능만 서술하며, 2008년에 등장한 '클라우드 바이러스 검사' 용어는 사용하지 않는다\""
+readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false

@@ -7,8 +7,8 @@ category: 'Lifestyle'
 subcategory: '休閒與娛樂'
 tags: ['생활', '야생활', 'KTV', '심야식당', '대만']
 lastVerified: 2026-03-19
-lastHumanReview: 'false'
-featured: 'false'
+lastHumanReview: false
+featured: false
 translatedFrom: 'Lifestyle/夜生活與KTV文化.md'
 sourceCommitSha: '18157ab5d'
 sourceContentHash: 'sha256:3a356e2fbd9898dc'
