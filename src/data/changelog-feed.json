@@ -1,7 +1,103 @@
 {
-  "generatedAt": "2026-05-19T22:12:30.548Z",
+  "generatedAt": "2026-05-20T15:33:32.868Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "d5ed9ffc88002b0bdd04c97b7000a235af42b631",
+      "date": "2026-05-20T12:41:12+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: CI YAML round-3 — bool EOL eaten (37) + apostrophe escape (3)"
+    },
+    {
+      "hash": "06ed4c82fb13171fc15dc639732f220dea60779e",
+      "date": "2026-05-20T12:37:22+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal+evolve: CI/CD frontmatter corruption sweep — 321 files heal + verify-batch guard"
+    },
+    {
+      "hash": "fa289978d384810dc17b4cce51cadeffe5759791",
+      "date": "2026-05-20T12:15:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal+evolve: CI/CD orphan translatedFrom regression — defensive heal + architectural guard"
+    },
+    {
+      "hash": "89026b100b7fb4c351ac245fcb207c1b58dfedd6",
+      "date": "2026-05-20T12:06:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] media-weave: 泛科學系列 6 篇補圖片與影音坎入 (PanSci P0×5 + 泛科學.md)"
+    },
+    {
+      "hash": "241eee89c4293b9cf187404abd9ccaca76fc97ae",
+      "date": "2026-05-20T11:15:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] about: AIA Claude Code Showcase 簡報 PDF 上 repo + 6 langs 加外連"
+    },
+    {
+      "hash": "90235f8c3c10e6cc7f615d811b9a226357d61e6e",
+      "date": "2026-05-20T11:11:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] about: v1.8.0 milestone — 第一份 MOU + 第一場 showcase + 999 stars"
+    },
+    {
+      "hash": "f59e646824e1372326e30129952f1ef9f2aeeb5d",
+      "date": "2026-05-20T10:49:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] data-refresh: pre-release sync (sporeLinks + 多語 frontmatter)"
+    },
+    {
+      "hash": "65732e333997f3cc8955f28729cce14e2f822e6c",
+      "date": "2026-05-20T09:20:33+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: PR #1078 飲料封膜機 ship + post-merge build CI recovery — 2026-05-20 09:17"
+    },
+    {
+      "hash": "073a022895dda19fe733820c9312d92b1762e1b3",
+      "date": "2026-05-20T09:15:37+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] heal: PR #1078 飲料封膜機 polish — subcategory + featured + frontmatter order + 對位句 + 延伸閱讀"
+    },
+    {
+      "hash": "7149c9eadbf620b6c16ca9bef1bca0a21973fcfa",
+      "date": "2026-05-20T09:13:23+08:00",
+      "author": "idlccp1984",
+      "message": "Create 飲料封膜機.md (#1078)"
+    },
+    {
+      "hash": "6770a35851b37f877b128c6d15d38b3ef3b065d4",
+      "date": "2026-05-20T07:12:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-20-070000-twmd-spore-harvest-am — D+3 4-spore harvest + Tier 1a/news-boost trajectory insights"
+    },
+    {
+      "hash": "62e06e3b76da026a98f560832eef96908f10b059",
+      "date": "2026-05-20T07:10:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 4 spores — 2026-05-20"
+    },
+    {
+      "hash": "13d3414b61709e18bf5584f6d7eca7841177e5ce",
+      "date": "2026-05-20T06:16:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] babel-handoff-followup: 4 翻譯 mid-routine 寫入 — 2026-05-20 06:15"
+    },
+    {
+      "hash": "00b86f92810ec1fc05881ae39b465e8e1d822181",
+      "date": "2026-05-20T06:16:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-20-061430-twmd-data-refresh-am — AM dashboard sync + 隔離 v2 vc=3"
+    },
+    {
+      "hash": "e860007edb85e9c785f23982d3dae4b21129f99f",
+      "date": "2026-05-20T06:14:13+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] babel-handoff: ship 82 translations from in-flight babel routine — 2026-05-20 AM"
+    },
+    {
+      "hash": "2bac82b401a591fd9aa3fb93e2cdaaf710a7a276",
+      "date": "2026-05-20T06:13:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: dashboard sync — 2026-05-20 06:00"
+    },
     {
       "hash": "f3e3541b6f11f9e8e25c2593d6c0b6b858577b4f",
       "date": "2026-05-20T00:42:47+08:00",

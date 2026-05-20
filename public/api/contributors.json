@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T22:12:31.961Z",
+  "lastUpdated": "2026-05-20T15:33:35.966Z",
   "totals": {
     "contributors": 52,
     "activeWindow": "last 30d"
@@ -7,28 +7,28 @@
   "leaderboard": [
     {
       "login": "frank890417",
-      "commits": 3154,
+      "commits": 3169,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-05-20 00:42:47 +0800",
+      "lastCommitAt": "2026-05-20 12:41:12 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 677,
-        "system": 2066,
-        "translation": 664
+        "content": 679,
+        "system": 2076,
+        "translation": 673
       }
     },
     {
       "login": "idlccp1984",
-      "commits": 146,
+      "commits": 147,
       "avatarUrl": "https://avatars.githubusercontent.com/u/271929436?v=4",
       "profileUrl": "https://github.com/idlccp1984",
       "firstCommitAt": "2026-04-03 15:37:37 +0800",
-      "lastCommitAt": "2026-05-16 22:04:37 +0800",
+      "lastCommitAt": "2026-05-20 09:13:23 +0800",
       "primaryArea": "content",
       "breakdown": {
-        "content": 146,
+        "content": 147,
         "system": 0,
         "translation": 0
       }
@@ -289,14 +289,14 @@
   "topContent": [
     {
       "login": "idlccp1984",
-      "commits": 146,
+      "commits": 147,
       "avatarUrl": "https://avatars.githubusercontent.com/u/271929436?v=4",
       "profileUrl": "https://github.com/idlccp1984",
       "firstCommitAt": "2026-04-03 15:37:37 +0800",
-      "lastCommitAt": "2026-05-16 22:04:37 +0800",
+      "lastCommitAt": "2026-05-20 09:13:23 +0800",
       "primaryArea": "content",
       "breakdown": {
-        "content": 146,
+        "content": 147,
         "system": 0,
         "translation": 0
       }
@@ -361,16 +361,16 @@
   "topSystem": [
     {
       "login": "frank890417",
-      "commits": 3154,
+      "commits": 3169,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-05-20 00:42:47 +0800",
+      "lastCommitAt": "2026-05-20 12:41:12 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 677,
-        "system": 2066,
-        "translation": 664
+        "content": 679,
+        "system": 2076,
+        "translation": 673
       }
     },
     {
@@ -503,22 +503,8 @@
     }
   ],
   "weeklyActive": 6,
-  "monthlyActive": 11,
+  "monthlyActive": 10,
   "recentlyJoined": [
-    {
-      "login": "assanges",
-      "commits": 1,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4113063?v=4",
-      "profileUrl": "https://github.com/assanges",
-      "firstCommitAt": "2026-04-20 14:06:12 +0800",
-      "lastCommitAt": "2026-04-20 14:06:12 +0800",
-      "primaryArea": "system",
-      "breakdown": {
-        "content": 0,
-        "system": 1,
-        "translation": 0
-      }
-    },
     {
       "login": "expectingshadowland-maker",
       "commits": 1,

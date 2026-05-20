@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-20T02:48:58Z",
-  "max_total": 1980,
+  "generated": "2026-05-20T15:33:36Z",
+  "max_total": 1983,
   "modules": [
     {
       "name": "home",
@@ -16,12 +16,12 @@
     {
       "name": "about",
       "langs": {
-        "zh-TW": 242,
-        "en": 242,
-        "ja": 242,
-        "ko": 242,
-        "fr": 242,
-        "es": 242
+        "zh-TW": 245,
+        "en": 245,
+        "ja": 245,
+        "ko": 245,
+        "fr": 245,
+        "es": 245
       }
     },
     {
@@ -136,11 +136,11 @@
     }
   ],
   "lang_totals": {
-    "zh-TW": { "keys": 1980, "coverage_pct": 100.00 },
-    "en": { "keys": 1980, "coverage_pct": 100.00 },
-    "ja": { "keys": 1980, "coverage_pct": 100.00 },
-    "ko": { "keys": 1980, "coverage_pct": 100.00 },
-    "fr": { "keys": 1980, "coverage_pct": 100.00 },
-    "es": { "keys": 1981, "coverage_pct": 100.05 }
+    "zh-TW": { "keys": 1983, "coverage_pct": 100.00 },
+    "en": { "keys": 1983, "coverage_pct": 100.00 },
+    "ja": { "keys": 1983, "coverage_pct": 100.00 },
+    "ko": { "keys": 1983, "coverage_pct": 100.00 },
+    "fr": { "keys": 1983, "coverage_pct": 100.00 },
+    "es": { "keys": 1984, "coverage_pct": 100.05 }
   }
 }

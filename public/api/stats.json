@@ -1,28 +1,28 @@
 {
-  "totalArticles": 4459,
+  "totalArticles": 4465,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 6447,
+  "totalTags": 6972,
   "categories": [
     {
       "name": "es",
-      "count": 734
+      "count": 735
     },
     {
       "name": "ko",
-      "count": 738
+      "count": 739
     },
     {
       "name": "fr",
-      "count": 754
-    },
-    {
-      "name": "en",
       "count": 755
     },
     {
+      "name": "en",
+      "count": 756
+    },
+    {
       "name": "ja",
-      "count": 743
+      "count": 744
     },
     {
       "name": "History",
@@ -54,7 +54,7 @@
     },
     {
       "name": "Technology",
-      "count": 47
+      "count": 48
     },
     {
       "name": "Lifestyle",
@@ -88,34 +88,38 @@
   "topTags": [
     {
       "name": "Economy",
-      "count": 76
+      "count": 77
     },
     {
       "name": "人物",
-      "count": 63
+      "count": 64
     },
     {
       "name": "企業",
-      "count": 61
+      "count": 62
     },
     {
       "name": "科技與企業",
-      "count": 34
-    },
-    {
-      "name": "ODM",
-      "count": 31
+      "count": 42
     },
     {
       "name": "TSMC",
+      "count": 38
+    },
+    {
+      "name": "ODM",
       "count": 30
     },
     {
       "name": "文學",
-      "count": 28
+      "count": 30
     },
     {
-      "name": "半導體",
+      "name": "AI",
+      "count": 29
+    },
+    {
+      "name": "기업",
       "count": 27
     },
     {
@@ -123,11 +127,7 @@
       "count": 26
     },
     {
-      "name": "體育",
-      "count": 26
-    },
-    {
-      "name": "기업",
+      "name": "半導體",
       "count": 26
     },
     {
@@ -135,44 +135,44 @@
       "count": 25
     },
     {
+      "name": "客家",
+      "count": 25
+    },
+    {
       "name": "高雄",
       "count": 25
     },
     {
-      "name": "客家",
+      "name": "音樂",
       "count": 24
     },
     {
-      "name": "原住民",
-      "count": 24
-    },
-    {
-      "name": "AI",
-      "count": 24
+      "name": "인물",
+      "count": 23
     },
     {
       "name": "民主化",
       "count": 23
     },
     {
-      "name": "文化",
+      "name": "體育",
       "count": 23
     },
     {
-      "name": "YouTuber",
-      "count": 22
+      "name": "原住民",
+      "count": 23
     },
     {
-      "name": "音樂",
-      "count": 22
+      "name": "文化",
+      "count": 23
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4459,
+    "zh-TW": 4465,
     "en": 0
   },
-  "lastUpdated": "2026-05-19T22:12:31.645Z",
-  "stars": 999,
+  "lastUpdated": "2026-05-20T15:33:36.598Z",
+  "stars": 1000,
   "forks": 149,
   "zhPages": 3709,
   "enPages": 756,
