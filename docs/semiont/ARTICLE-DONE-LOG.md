@@ -59,6 +59,74 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### Wave 3 singletons batch — 江賢二 + 許倬雲 EVOLVE + 葉廷皓 + 台灣 BIM 與營建科技 NEW — 2026-05-22 2026-05-21-215830-manual（Wave 3 batch — 4 Opus agents 平行 ship + 校準 prompt v3 / 4 categories: Art × 2 + People × 1 + Technology × 1 / 5290+7908+6796+6384 = **26378 字** / 18+34+34+53 = **139 footnote** / 3+3+3+4 = **13 圖**）
+
+- **Articles** (4):
+  - [knowledge/Art/江賢二.md](../../knowledge/Art/江賢二.md) — P2 NEW「逃離臺灣四十五年，回家後才畫得出他這輩子最好的畫」
+  - [knowledge/People/許倬雲.md](../../knowledge/People/許倬雲.md) — P1 EVOLVE「兩根手指寫出一條中國史的長河，王力宏外舅公的九十五年」（11.7K → 27K body 擴展）
+  - [knowledge/Art/葉廷皓.md](../../knowledge/Art/葉廷皓.md) — P2 NEW「他說『非正確使用科技才有趣』，卻把一輩子花在『正確地教別人怎麼用工具』」（memorial / legacy piece — INBOX 寫他活躍實際 2024-11-12 已逝）
+  - [knowledge/Technology/台灣BIM與營建科技.md](../../knowledge/Technology/台灣BIM與營建科技.md) — P2 NEW「政府推 BIM 推 12 年，但真正爆發是 Anthropic MCP 規格 2024 出來的」
+- **Pipeline**: REWRITE-PIPELINE v6.0 × 3 Fresh + 1 EVOLVE 模式
+- **Orchestration**: 4 Opus agents 平行 dispatch from `wave3-orchestrate` worktree (off main `ebb1623b4`)。校準 prompt v3 補 5 點 from Wave 1+2 retrospective: (a) wiki-fetch.py 已知 latin-1 bug + concurrency lock + curl fallback 明示 (b) Prettier italic-paren incompatibility caveat (per 5/22 cron rewrite-daily 教訓) (c) Stage 1 真 40 actual WebSearch calls 不偷吃步「equivalent to 40」 (per Wave 2 北投 12 calls 教訓) (d) EVOLVE-specific 7-tag system (e) 當代藝術家圖荒 fair use editorial commentary scope.
+- **品質**: 所有 4 篇 Stage 3.5 + Stage 4 plugin 全部 hard=0 warn=0 on integrated branch.
+- **Research reports**:
+  - [reports/research/2026-05/jiang-chien.md](../../reports/research/2026-05/jiang-chien.md)
+  - [reports/research/2026-05/hsu-cho-yun-evolve.md](../../reports/research/2026-05/hsu-cho-yun-evolve.md)
+  - [reports/research/2026-05/yeh-ting-hao.md](../../reports/research/2026-05/yeh-ting-hao.md)
+  - [reports/research/2026-05/台灣BIM與營建科技.md](../../reports/research/2026-05/台灣BIM與營建科技.md)
+
+#### 🚨 校準 prompt v3 抓出 **11 條 INBOX brief fact correction** + 1 重大 framing 校正
+
+跨 4 篇撈出 INBOX brief 寫錯 / 漏寫 / hypothesis 推翻的事實——疊加 Wave 2 的 5 條共 **16 條 cumulative across Wave 2-3 immune system upgrade catch**。
+
+**江賢二 5 條校正**:
+| INBOX brief | 多源驗證後實際 |
+|---|---|
+| 1962 國立藝專畢業 | **師大藝術系**（NTNU 美術系前身） |
+| 2023 江賢二藝術園區開幕 | **2025-03-15 正式開幕** |
+| 安藤忠雄合作 | **林友寒**共同設計 |
+| 亞泥支持 | Single-source hearsay → 未進文章 |
+| 2010 國家文藝獎 | Wikipedia / paulchiang.org / ncafroc 三源都不確認 → 未進文章 |
+
+**許倬雲 4 條校正**:
+| INBOX hypothesis | 實際 |
+|---|---|
+| 姊姊許婉清是王力宏外婆 | **王力宏奶奶是許留芬（許倬雲大姐）**，許婉清是二妹 |
+| 王力宏 family branch only | **李建復**（〈龍的傳人〉原唱）是許婉清兒子，許倬雲外甥 |
+| 王力宏稱「外舅公」 | **七舅公**（許倬雲是 9 個兄弟姊妹中第 7） |
+| 唐獎獎金 1200 萬人民幣 | **NT$5,000 萬**（全捐設「許-孫獎學金」） |
+
+**BIM 1 條校正**:
+| INBOX assumption | 實際 |
+|---|---|
+| 中鼎工程 統一集團持股 | **2011 起最大股東是日商千代田化工建設**（Wikipedia 中文 verbatim） |
+
+**葉廷皓 1 條重大 framing 校正 + memorial piece**:
+| INBOX framing | 實際 |
+|---|---|
+| 「目前活躍 sound art / new media 創作者」 | **2024-11-12 過世，享年 43 歲** — article framing 從「活躍藝術家」整體改寫成 memorial / legacy piece |
+
+#### 🚨 新發現台灣華語文化譜系（許倬雲 EVOLVE surfaced）
+
+許倬雲 → 許婉清（二妹）→ 李模（女婿，教育部/經濟部次長）→ **李建復**（外甥，〈龍的傳人〉原唱）。跟 Wave 1 大稻埕 1932〈望春風〉/古倫美亞唱片 對位成台灣流行音樂史兩條錨——一是台語流行歌起點，一是 1980 中文民歌運動代表作。台灣現代華語文化精英譜系第一次在 Taiwan.md 完整成形。
+
+#### Stage 1 search count 強化生效 (Wave 2 retrospective fix)
+
+Wave 2 北投 agent 用「12 WebSearch equivalent to 40」偷吃步合理化 — Wave 3 prompt v3 明示「真 40 actual calls 不偷吃步」。實際 Wave 3 agents:
+
+- 江賢二: 40 WebSearch + 6 WebFetch = 46 calls
+- 許倬雲: 27 + 3 中英 WebSearch + 5 WebFetch + 1 Wikimedia API + 6 verify = 42 active research
+- 葉廷皓: 31 WebSearch + 12 WebFetch = 43 calls
+- BIM: 40 WebSearch + 3 WebFetch = 43 calls
+
+#### Wave 3 batch 完成總和
+
+**4 篇 / 26378 字 / 139 footnote / 13 images / 各 category (Art × 2 + People EVOLVE × 1 + Technology × 1) 多元覆蓋**。Wave 3 在 24 hr 內接著 Wave 2 batch 12 完成是 Taiwan.md 第二次達到 multi-wave 連發節奏。
+
+#### Branch context
+
+Wave 3 commits landed on `20260522-wave3-singletons` branch (off main `ebb1623b4` 在 wave2 merge 進 main 之前). 主 session 在 wave3-orchestrate worktree 操作避免 disrupt main (cron babel + twmd-rewrite-daily 並行 in-flight). 哲宇 後續 review 決定 merge strategy.
+
 ### P0-4 中山北路條通 / 林森北路 NEW — 2026-05-22 2026-05-22-000751-twmd-rewrite-daily（歷史街區 Taipei batch 1 接續 P0-4 — cron twmd-rewrite-daily 自動觸發 / Geography 歷史街區系列 P0 / 5918 字 / 41 footnote / 3 圖 / hard=0 warn=0）
 
 - **Article**: [knowledge/Geography/中山北路條通.md](../../knowledge/Geography/中山北路條通.md) — 「日本人鋪去神社的路，現在是日本商社最密集的街」
