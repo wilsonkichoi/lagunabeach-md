@@ -158,7 +158,20 @@ PICK → VERIFY → WRITE → SHIP → HARVEST
 
 ### 選文
 
-從知識庫選出 5-10 篇候選文章。
+**選文順序（2026-05-21 SPORE-INBOX 加入 intake layer）**：
+
+1. **SPORE-INBOX §Pending P0** → 抽到先做（觀察者明確點名 / REACTIVE 時事 / 趁熱）
+2. **SPORE-INBOX §Pending P1** → 抽到先做（旗艦人物 + 本週發行窗口）
+3. **dashboard-articles 自動候選池** → fallback rotation（per 下方 bash）
+4. **SPORE-INBOX §Pending P2/P3** → 沒新熱點時消化 backlog
+
+**讀 SPORE-INBOX 抽到 entry 後**：
+
+- entry status 從 `pending` 改為 `scheduled` （per [SPORE-INBOX §Auto-heartbeat 整合](SPORE-INBOX.md#auto-heartbeat-整合)）
+- 走 Stage 2 VERIFY 全 17 hard gate（沒 short-cut）
+- Stage 4 SHIP 完 → SPORE-LOG row append + SPORE-INBOX entry 整段刪除
+
+**dashboard-articles fallback（無 SPORE-INBOX entry 時用）** — 從知識庫選出 5-10 篇候選文章：
 
 ```bash
 # 從 dashboard-articles.json 隨機選 10 篇（2000+ 字、非 about）

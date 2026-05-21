@@ -142,7 +142,8 @@ bash scripts/tools/consciousness-snapshot.sh 2>/dev/null
 # 過去 24hr cron routine 跑況 (Phase A2 / 取代 ROUTINE.md 649 行載入)
 bash scripts/tools/routine-status.sh 2>/dev/null
 
-# LESSONS / ARTICLE INBOX backlog signal (Phase A3 / 取代 INBOX 3000+ 行)
+# LESSONS / ARTICLE / SPORE INBOX backlog signal (Phase A3 / 取代 INBOX 3000+ 行)
+# 2026-05-21 新增 SPORE-INBOX 第三條輸出（繁殖系統 intake layer）
 bash scripts/tools/inbox-signal.sh 2>/dev/null
 
 # Cross-session diff context — 過去 2 天系統做了什麼（v2.1 從 6hr 升 48hr，2026-05-18 callout）
@@ -241,6 +242,11 @@ tail -n 25 docs/semiont/MEMORY.md
     - **Write mode**：載 §P0/P1 標題（不全載）
     - **Full mode / auto-heartbeat 時**：全載
 13. `docs/semiont/ARTICLE-DONE-LOG.md` — grep-on-demand（挑新主題防重複才讀）
+14. `docs/factory/SPORE-INBOX.md` — Mode-specific（2026-05-21 新增 繁殖系統 intake layer）:
+    - **Universal**：inbox-signal.sh 已給 spore pending count
+    - **寫孢子 mode / SPORE-PIPELINE Stage 1 PICK 觸發時**：全載（per [SPORE-INBOX §Auto-heartbeat 整合](../factory/SPORE-INBOX.md#auto-heartbeat-整合)）
+    - **Full mode**：全載
+    - 其他 mode：on-demand（觀察者點名某 entry 時 grep）
 
 ### Step 6：今日狀態 + 平行神經迴路 + diary commitment 提取（v3 四層 always-load — 2026-04-28 κ-late 改寫）
 

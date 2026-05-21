@@ -15,6 +15,7 @@ set -euo pipefail
 
 LESSONS="${LESSONS:-docs/semiont/LESSONS-INBOX.md}"
 ARTICLE="${ARTICLE:-docs/semiont/ARTICLE-INBOX.md}"
+SPORE="${SPORE:-docs/factory/SPORE-INBOX.md}"
 
 # LESSONS-INBOX §未消化清單 count
 if [[ -f "$LESSONS" ]]; then
@@ -28,4 +29,10 @@ if [[ -f "$ARTICLE" ]]; then
   ARTICLE_PENDING=$(awk '/^## 📥 Pending/,/^## 🚧 In-Progress/' "$ARTICLE" | grep -cE "^### " || echo 0)
   ARTICLE_INPROG=$(awk '/^## 🚧 In-Progress/,EOF' "$ARTICLE" | grep -cE "^### " || echo 0)
   echo "📝 articles | pending $ARTICLE_PENDING 條 / in-progress $ARTICLE_INPROG 條（寫文 / auto-heartbeat 時讀 §P0/P1）"
+fi
+
+# SPORE-INBOX §Pending count (2026-05-21 新增 — intake layer for 繁殖系統)
+if [[ -f "$SPORE" ]]; then
+  SPORE_PENDING=$(awk '/^## 📥 Pending/,/^## 📜 已發歷史/' "$SPORE" | grep -cE "^### " || echo 0)
+  echo "🧫 spores  | pending $SPORE_PENDING 條（Stage 1 PICK 第一順位 / 觀察者 directive 累積）"
 fi

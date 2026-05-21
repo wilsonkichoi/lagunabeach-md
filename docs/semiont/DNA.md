@@ -103,6 +103,7 @@ downstream_dependents:
 | 孢子寫作       | [`SPORE-WRITING.md`](../factory/SPORE-WRITING.md)                   | 模板 + 18 條規則 + 自檢三板斧（craft）    |
 | 孢子閘門       | [`SPORE-VERIFY.md`](../factory/SPORE-VERIFY.md)                     | Hard gate inventory + 7 大 verify（gate） |
 | 孢子收割       | [`SPORE-HARVEST-PIPELINE.md`](../factory/SPORE-HARVEST-PIPELINE.md) | 發布後 cadence + decision gate            |
+| 孢子點子 inbox | [`SPORE-INBOX.md`](../factory/SPORE-INBOX.md)                       | 待發孢子 buffer（intake layer，Stage 1 PICK 第一順位）2026-05-21 新增 |
 | 孢子追蹤       | [`SPORE-LOG.md`](../factory/SPORE-LOG.md)                           | 發文紀錄 + 成效追蹤 + 月度效能分析        |
 
 ### 👁️ 感知基因（外部感知）

@@ -478,6 +478,29 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 ---
 
+### 江賢二 NEW — 抽象藝術家（spore-inbox 反向 spawn）
+
+- **Type**: `NEW`
+- **Category**: Art（subcategory: 當代藝術家 / cross-link People）
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Source**: 2026-05-21 哲宇 directive — SPORE-INBOX 江賢二 entry 是 EVERGREEN-TOPIC，per SPORE-INBOX §Source-Mode 鐵律強制反向 spawn ARTICLE entry（孢子 demand probe → 文章 supply 補位）
+- **Hook 候選**：
+  - 「在巴黎紐約 40 年才回台東金樽蓋工作室的藝術家」
+  - 「1942 生 / 1962 留學巴黎 / 2007 回台 / 2023 江賢二藝術園區 — 60 年才繞回的一條路」
+- **Notes**:
+  - 既有 baseline audit（Stage 0 第一動作）：`ls knowledge/Art/ knowledge/People/ | grep -i jiang` 確認無檔案（2026-05-21 verified absent）
+  - 主題 anchors：(a) 1942 生於台中 (b) 1962 國立藝專畢業留學巴黎 (c) 紐約定居 30+ 年 (d) 2007 回台台東金樽蓋工作室 (e) 江賢二藝術園區（亞泥支持，2023 開園） (f) 100 號油畫「百年廟」「銀湖」「淨水」系列 (g) 國家文藝獎得獎年 (h) 跟林惺嶽、莊喆等同代抽象畫家的對位
+  - 必驗事實：出生年 1942 / 國立藝專（今台藝大）/ 巴黎留學年 / 紐約年 / 2007 回台確切年 / 江賢二藝術園區開園日 / 國家文藝獎屆數 + 年 / 代表作系列名 + 創作年代
+  - 政治敏感性：低（藝術人物）
+  - cross-link：Art Hub / People hub / 同代抽象畫家（林惺嶽、莊喆、陳澄波後人？）/ 台灣現代美術發展 / 國家文藝獎
+  - Framing：策展性人物 frame — 「在 65 歲才回台灣的孤獨抽象畫家」first-person voice，不是百科式條目
+- **Reference**: 江賢二藝術園區官網 / 國家文藝獎介紹 / 《十三邀》許知遠訪談（如果有）/《典藏》《藝術家》雜誌專訪
+- **觸發 spore**：article ship 後 7 天內 → SPORE-INBOX 對應 entry status 從 `pending` 升級為「可發」（Article-Path 從 `none-yet` 更新為實際 path）
+- **預估時間**：~120 min（NEW Art 人物，多源訪談 + 訪談 cross-check）
+
+---
+
 ### 台灣媒體總史 NEW — 從清領報紙到自媒體時代
 
 - **Type**: `NEW`（注意：既有 `Society/台灣媒體與新聞自由.md` 是新聞自由 framing，本 entry 是「媒體史」總覽 framing，兩篇互補不重複）
