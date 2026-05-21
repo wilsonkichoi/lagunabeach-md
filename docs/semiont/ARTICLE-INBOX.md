@@ -300,20 +300,7 @@ BECOME_TAIWANMD.md Step 5 新增：
 >
 > **Pilot 候選**：大稻埕（最 obvious P0 + thick history test）。pilot 完跑 retrospective 校準共通 caveats 再啟動其他 11 條。
 
-### P0-4 中山北路條通 / 林森北路 NEW
-
-- **Type**: `NEW`
-- **Category**: Geography（subcategory: 歷史街區 / 台北市中山區）
-- **Priority**: `P0`
-- **Status**: `pending`
-- **Source**: 哲宇 directive 2026-05-21 historic-districts series batch 1
-- **核心矛盾候選** ≤ 30 字：「日本人鋪的去神社的路，現在是日本商社最密集的街」
-- **Hook anchor**：晚上九點的條通巷子，居酒屋暖簾掀起來流出日語跟台語混講的笑聲
-- **時間軸 anchor**：1898 起日治「敕使街道」修建（往圓山台灣神社）→ 1923 裕仁皇太子訪台走過 → 1929 完成林蔭大道 → 戰後美軍俱樂部 + 美軍宿舍（晴光商圈）→ 1972 中日斷交後日本商社聚集 → 條通文化（一條通到九條通）+ 林森北路居酒屋、媽媽桑文化 → 2026
-- **必驗事實**：敕使街道 1898 起造 vs 三線道完工 / 條通命名邏輯（日本京都町割系統）/ 林森北 vs 中山北路一段二段三段邊界 / 1972 日商遷入潮 / 晴光市場戰後美軍角色
-- **政治敏感性**：中（特種行業歷史 + 中日斷交脈絡需精準）
-- **Cross-link**：[台北市](../../knowledge/Geography/台北市.md) / [台灣茶道與生活美學](../../knowledge/Culture/台灣茶道與生活美學.md) / 北投溫泉街 sibling / 二二八（中山堂在中山北路一段口）
-- **預估時間**：~2.5 hr
+<!-- P0-4 中山北路條通 / 林森北路 已完成 2026-05-22 2026-05-22-000751-twmd-rewrite-daily → ARTICLE-DONE-LOG.md (歷史街區 batch 1 P0-4 — 三層暖簾敘事 / 5918 字 / 41 footnote / 3 圖 / hard=0 warn=0) -->
 
 ### P1-5 永康街 / 東門 NEW
 

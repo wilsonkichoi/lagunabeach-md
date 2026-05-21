@@ -59,6 +59,19 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### P0-4 中山北路條通 / 林森北路 NEW — 2026-05-22 2026-05-22-000751-twmd-rewrite-daily（歷史街區 Taipei batch 1 接續 P0-4 — cron twmd-rewrite-daily 自動觸發 / Geography 歷史街區系列 P0 / 5918 字 / 41 footnote / 3 圖 / hard=0 warn=0）
+
+- **Article**: [knowledge/Geography/中山北路條通.md](../../knowledge/Geography/中山北路條通.md) — 「日本人鋪去神社的路，現在是日本商社最密集的街」
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式，共通模板 7 H2（晚上九點的六條通 / 敕使來的那條路 / 神社毀於空難 / PX 漏進晴光市場 / 九台街變成林森北路 / 斷交之後日本人第二次點亮暖簾 / 廢娼之後賣的是曖昧 / 同一條路上的三層暖簾）
+- **Stage 0 觀點成型**：核心矛盾鎖「日本人鋪去神社的敕使街道，1972 中日斷交後成日本商社最密集的街」。三層 ideological overlay framing（1898 敕使 / 1951 美軍 / 1972 日商）
+- **Stage 1 研究**: general-purpose agent 跑 44 次搜尋（28 WebSearch + 16 WebFetch），落 471 行 research report — 8 verified quotes（席耶娜 / 子敏媽媽桑 / 神父郭藹文 / 端傳媒副標）+ 3 場景錨點候選 + 5 Wikimedia 圖片 candidate + 12 單源依賴 flag
+- **品質**: Stage 3.5 + Stage 4 plugin 全部 hard=0 warn=0
+  - footnote-format / footnote-density / frontmatter-format / format-structure / wikilink-target / link-target / cjk-punct / chronicle-lead / word-count (5918 = 132% of 4500 門檻) / image-health (3 張 = hero + 2 inline)
+- **媒體**: 2 張 Wikimedia Commons 圖（hero: zhongshan-grand-hotel-main-2010s.jpg peellden CC BY-SA 3.0 / inline 敕使街道 1932: chokushi-kaido-1932.jpg PD）
+- **Cross-link**: 雙向反向已補 — 大稻埕 / 西門町 / 艋舺 各加一條「同 batch 1 歷史街區 sibling」延伸閱讀
+- **校正**: Stage 0 hypothesis「1968 圓山火災」修正為 1995-06-27 琉璃瓦施工失火 / Stage 0「神腦廣場」未在 source 中找到改寫為菲律賓城商圈描述 / Stage 0「1972 斷交直接導致日商遷入具體公司 case」未 verify 改用結構性描述（per FACTCHECK Stage 3.4 場景級 audit）
+- **Routine context**: cron twmd-rewrite-daily 00:07 觸發 → 接續歷史街區 batch 1 P0-3（大稻埕 / 艋舺 / 西門町 21:00 manual ship）→ P0-4 完成。Batch 1 剩 P1-5 永康街 / P1-6 公館溫州街 / P1-7 寶藏巖 / P1-8 北投溫泉街 / P2-9 大龍峒 / P2-10 四四南村 / P2-11 士林 / P2-12 牯嶺街 共 8 條待續
+
 ### 歷史街區 Taipei batch 1 — 大稻埕 + 艋舺 + 西門町 NEW — 2026-05-21 2026-05-21-215830-manual（Wave 1 batch — 3 Opus agents 平行 ship + 主 session 整合 retrospective / Geography 歷史街區系列 P0 / 6539+6900+7137 = 20576 字 / 24+32+33 = 89 footnote / 5+6+5 = 16 圖）
 
 - **Articles**:
