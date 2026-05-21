@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T22:32:54.404Z",
+  "lastUpdated": "2026-05-21T15:09:45.377Z",
   "languages": [
     "zh-TW",
     "en",
@@ -10,72 +10,72 @@
   ],
   "summary": {
     "zh-TW": {
-      "total": 732,
+      "total": 735,
       "percentage": 100,
-      "fresh": 732,
+      "fresh": 735,
       "stale": 0,
       "missing": 0,
       "deficit": 0
     },
     "en": {
       "total": 732,
-      "percentage": 99.7,
+      "percentage": 99.3,
       "fresh": 673,
       "metadataStale": 2,
       "stale": 57,
-      "missing": 2,
+      "missing": 5,
       "orphan": 0,
-      "deficit": 2,
-      "freshPct": 91.7,
-      "bodyFreshPct": 92
+      "deficit": 5,
+      "freshPct": 91.3,
+      "bodyFreshPct": 91.6
     },
     "ja": {
       "total": 733,
-      "percentage": 99.9,
+      "percentage": 99.5,
       "fresh": 652,
       "metadataStale": 2,
       "stale": 79,
-      "missing": 1,
+      "missing": 4,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 88.8,
-      "bodyFreshPct": 89.1
+      "deficit": 4,
+      "freshPct": 88.5,
+      "bodyFreshPct": 88.7
     },
     "ko": {
       "total": 733,
-      "percentage": 99.9,
+      "percentage": 99.5,
       "fresh": 649,
       "metadataStale": 2,
       "stale": 82,
-      "missing": 1,
+      "missing": 4,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 88.4,
-      "bodyFreshPct": 88.7
+      "deficit": 4,
+      "freshPct": 88.1,
+      "bodyFreshPct": 88.3
     },
     "es": {
       "total": 732,
-      "percentage": 99.7,
+      "percentage": 99.3,
       "fresh": 661,
       "metadataStale": 2,
       "stale": 69,
-      "missing": 2,
+      "missing": 5,
       "orphan": 0,
-      "deficit": 2,
-      "freshPct": 90.1,
-      "bodyFreshPct": 90.3
+      "deficit": 5,
+      "freshPct": 89.7,
+      "bodyFreshPct": 90
     },
     "fr": {
       "total": 733,
-      "percentage": 99.9,
+      "percentage": 99.5,
       "fresh": 658,
       "metadataStale": 2,
       "stale": 73,
-      "missing": 1,
+      "missing": 4,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 89.6,
-      "bodyFreshPct": 89.9
+      "deficit": 4,
+      "freshPct": 89.3,
+      "bodyFreshPct": 89.6
     }
   },
   "matrix": {
@@ -270,41 +270,41 @@
       }
     },
     "geography": {
-      "zh-TW": 49,
+      "zh-TW": 52,
       "en": {
         "count": 49,
         "fresh": 42,
         "stale": 7,
-        "missing": 0,
-        "deficit": 0
+        "missing": 3,
+        "deficit": 3
       },
       "ja": {
         "count": 49,
         "fresh": 41,
         "stale": 8,
-        "missing": 0,
-        "deficit": 0
+        "missing": 3,
+        "deficit": 3
       },
       "ko": {
         "count": 49,
         "fresh": 41,
         "stale": 8,
-        "missing": 0,
-        "deficit": 0
+        "missing": 3,
+        "deficit": 3
       },
       "es": {
         "count": 49,
         "fresh": 42,
         "stale": 7,
-        "missing": 0,
-        "deficit": 0
+        "missing": 3,
+        "deficit": 3
       },
       "fr": {
         "count": 49,
         "fresh": 42,
         "stale": 7,
-        "missing": 0,
-        "deficit": 0
+        "missing": 3,
+        "deficit": 3
       }
     },
     "history": {
@@ -576,21 +576,36 @@
   },
   "missing": {
     "en": [
+      "Geography/大稻埕：800 公尺三個世紀，從 Formosa Tea 到二二八第一槍.md",
+      "Geography/艋舺：清領台北最熱鬧的地方，現在是台北平均年齡最老的區.md",
+      "Geography/西門町：日本人 1896 蓋的娛樂街，130 年後還是台北最年輕的街.md",
       "Technology/飲料封膜機：從一碗蘿蔔湯的啟發到全球手搖飲的技術支柱.md",
       "Technology/半導體產業：從 RCA 技轉到氮化鎵與量子封裝的 50 年材料革命.md",
       "People/林書豪：從 15 天被裁兩次到 TPBL 雙料 MVP 退休的籃球路.md"
     ],
     "ja": [
+      "Geography/大稻埕：800 公尺三個世紀，從 Formosa Tea 到二二八第一槍.md",
+      "Geography/艋舺：清領台北最熱鬧的地方，現在是台北平均年齡最老的區.md",
+      "Geography/西門町：日本人 1896 蓋的娛樂街，130 年後還是台北最年輕的街.md",
       "Technology/飲料封膜機：從一碗蘿蔔湯的啟發到全球手搖飲的技術支柱.md"
     ],
     "ko": [
+      "Geography/大稻埕：800 公尺三個世紀，從 Formosa Tea 到二二八第一槍.md",
+      "Geography/艋舺：清領台北最熱鬧的地方，現在是台北平均年齡最老的區.md",
+      "Geography/西門町：日本人 1896 蓋的娛樂街，130 年後還是台北最年輕的街.md",
       "Technology/飲料封膜機：從一碗蘿蔔湯的啟發到全球手搖飲的技術支柱.md"
     ],
     "es": [
+      "Geography/大稻埕：800 公尺三個世紀，從 Formosa Tea 到二二八第一槍.md",
+      "Geography/艋舺：清領台北最熱鬧的地方，現在是台北平均年齡最老的區.md",
+      "Geography/西門町：日本人 1896 蓋的娛樂街，130 年後還是台北最年輕的街.md",
       "Technology/飲料封膜機：從一碗蘿蔔湯的啟發到全球手搖飲的技術支柱.md",
       "Food/牛肉麵.md"
     ],
     "fr": [
+      "Geography/大稻埕：800 公尺三個世紀，從 Formosa Tea 到二二八第一槍.md",
+      "Geography/艋舺：清領台北最熱鬧的地方，現在是台北平均年齡最老的區.md",
+      "Geography/西門町：日本人 1896 蓋的娛樂街，130 年後還是台北最年輕的街.md",
       "Technology/飲料封膜機：從一碗蘿蔔湯的啟發到全球手搖飲的技術支柱.md"
     ]
   },

@@ -1,54 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-21T06:32:41+08:00",
-    "zhCommitHead": "adc69e4e9",
-    "totalZh": 734,
-    "activeLanguages": [
-      "en",
-      "ja",
-      "ko",
-      "es",
-      "fr"
-    ],
+    "lastUpdated": "2026-05-21T23:09:43+08:00",
+    "zhCommitHead": "bf939752a",
+    "totalZh": 737,
+    "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 734,
+        "total_zh": 737,
         "fresh": 673,
         "stale": 57,
         "metadata_stale": 2,
-        "missing": 2,
+        "missing": 5,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 734,
+        "total_zh": 737,
         "fresh": 652,
         "stale": 79,
         "metadata_stale": 2,
-        "missing": 1,
+        "missing": 4,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 734,
+        "total_zh": 737,
         "fresh": 649,
         "stale": 82,
         "metadata_stale": 2,
-        "missing": 1,
+        "missing": 4,
         "orphan": 0
       },
       "es": {
-        "total_zh": 734,
+        "total_zh": 737,
         "fresh": 661,
         "stale": 69,
         "metadata_stale": 2,
-        "missing": 2,
+        "missing": 5,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 734,
+        "total_zh": 737,
         "fresh": 658,
         "stale": 73,
         "metadata_stale": 2,
-        "missing": 1,
+        "missing": 4,
         "orphan": 0
       }
     },
@@ -15838,8 +15832,8 @@
     },
     "Society/泛科學.md": {
       "zh": {
-        "lastCommit": "adc69e4e",
-        "lastModified": "2026-05-20T23:51:11+08:00",
+        "lastCommit": "1e62d568",
+        "lastModified": "2026-05-21T09:17:30+08:00",
         "contentHash": "sha256:56debc6c7910d6f6",
         "bodyHash": "sha256:62844ef5ee6bcb04"
       },
@@ -15856,7 +15850,7 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 2,
+          "commitsBehind": 3,
           "diffSummary": "+35 -0"
         },
         "ja": {
@@ -15871,7 +15865,7 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 2,
+          "commitsBehind": 3,
           "diffSummary": "+35 -0"
         },
         "ko": {
@@ -15886,7 +15880,7 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 2,
+          "commitsBehind": 3,
           "diffSummary": "+35 -0"
         },
         "es": {
@@ -15901,7 +15895,7 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 2,
+          "commitsBehind": 3,
           "diffSummary": "+35 -0"
         },
         "fr": {
@@ -15916,7 +15910,7 @@
           "inferred": false,
           "status": "stale",
           "reason": "body-drift",
-          "commitsBehind": 2,
+          "commitsBehind": 3,
           "diffSummary": "+35 -0"
         }
       }
@@ -28766,8 +28760,8 @@
     },
     "People/陳建年.md": {
       "zh": {
-        "lastCommit": "f59e6468",
-        "lastModified": "2026-05-20T10:49:50+08:00",
+        "lastCommit": "1e62d568",
+        "lastModified": "2026-05-21T09:17:30+08:00",
         "contentHash": "sha256:098e1fee93f12455",
         "bodyHash": "sha256:f6d9c109d22f96cc"
       },
@@ -28784,8 +28778,8 @@
           "inferred": false,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 2,
+          "diffSummary": "+9 -9"
         },
         "ja": {
           "path": "ja/People/chen-chien-nien.md",
@@ -28799,8 +28793,8 @@
           "inferred": false,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 2,
+          "diffSummary": "+9 -9"
         },
         "ko": {
           "path": "ko/People/chen-chien-nien.md",
@@ -28814,8 +28808,8 @@
           "inferred": false,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 2,
+          "diffSummary": "+9 -9"
         },
         "es": {
           "path": "es/People/chen-chien-nien.md",
@@ -28829,8 +28823,8 @@
           "inferred": false,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 2,
+          "diffSummary": "+9 -9"
         },
         "fr": {
           "path": "fr/People/chen-chien-nien.md",
@@ -28844,8 +28838,8 @@
           "inferred": false,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 2,
+          "diffSummary": "+9 -9"
         }
       }
     },
@@ -45457,8 +45451,8 @@
     },
     "History/臺灣前途決議文.md": {
       "zh": {
-        "lastCommit": "f59e6468",
-        "lastModified": "2026-05-20T10:49:50+08:00",
+        "lastCommit": "1e62d568",
+        "lastModified": "2026-05-21T09:17:30+08:00",
         "contentHash": "sha256:4f37e9db9519dd6b",
         "bodyHash": "sha256:c8ff273540a02078"
       },
@@ -45475,8 +45469,8 @@
           "inferred": false,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 2,
+          "diffSummary": "+8 -8"
         },
         "ja": {
           "path": "ja/History/resolution-on-taiwans-future.md",
@@ -45490,8 +45484,8 @@
           "inferred": false,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 2,
+          "diffSummary": "+8 -8"
         },
         "ko": {
           "path": "ko/History/resolution-on-taiwans-future.md",
@@ -45505,8 +45499,8 @@
           "inferred": false,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 2,
+          "diffSummary": "+8 -8"
         },
         "es": {
           "path": "es/History/resolution-on-taiwans-future.md",
@@ -45520,8 +45514,8 @@
           "inferred": false,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 2,
+          "diffSummary": "+8 -8"
         },
         "fr": {
           "path": "fr/History/resolution-on-taiwans-future.md",
@@ -45535,8 +45529,8 @@
           "inferred": false,
           "status": "metadata-stale",
           "reason": "trailer-only-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+4 -4"
+          "commitsBehind": 2,
+          "diffSummary": "+8 -8"
         }
       }
     },
@@ -48655,6 +48649,31 @@
         }
       }
     },
+    "Geography/大稻埕.md": {
+      "zh": {
+        "lastCommit": "bf939752",
+        "lastModified": "2026-05-21T23:03:43+08:00",
+        "contentHash": "sha256:d61b93e3e8ff1aeb",
+        "bodyHash": "sha256:78b9a06d394cd175"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Geography/桃園市.md": {
       "zh": {
         "lastCommit": "32ce121b",
@@ -49265,6 +49284,31 @@
         }
       }
     },
+    "Geography/艋舺.md": {
+      "zh": {
+        "lastCommit": "bf939752",
+        "lastModified": "2026-05-21T23:03:43+08:00",
+        "contentHash": "sha256:f38de516b27d72ba",
+        "bodyHash": "sha256:fa151a7c959f0158"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "Geography/離島與海洋文化.md": {
       "zh": {
         "lastCommit": "a05d2431",
@@ -49412,6 +49456,31 @@
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "Geography/西門町.md": {
+      "zh": {
+        "lastCommit": "bf939752",
+        "lastModified": "2026-05-21T23:03:43+08:00",
+        "contentHash": "sha256:88c18346ad949a5a",
+        "bodyHash": "sha256:eb08bd0f8abd66a6"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },

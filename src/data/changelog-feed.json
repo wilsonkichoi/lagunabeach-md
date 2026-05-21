@@ -1,7 +1,109 @@
 {
-  "generatedAt": "2026-05-20T22:32:47.657Z",
+  "generatedAt": "2026-05-21T15:09:44.149Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "bf939752a142afcc2e545ae7792d558d24b7006e",
+      "date": "2026-05-21T23:03:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] integrate: Wave 1 歷史街區 batch — 大稻埕 + 艋舺 + 西門町 收網"
+    },
+    {
+      "hash": "9334f2b52655bdbf4b80c170a01dd86e6d85fb53",
+      "date": "2026-05-21T22:29:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 西門町 — EDITORIAL v6.3 + Pipeline v6.0"
+    },
+    {
+      "hash": "239752e9bebdff58c49e8805b6a52db1672d3786",
+      "date": "2026-05-21T22:23:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 大稻埕 — EDITORIAL v6.3 + Pipeline v6.0"
+    },
+    {
+      "hash": "806b6315493f9690de7e46f76bcde9d1c9a89b89",
+      "date": "2026-05-21T22:31:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 艋舺 — EDITORIAL v6.3 + Pipeline v6.0"
+    },
+    {
+      "hash": "e57448ebdd52abde3cb62a6839feae15f6814c36",
+      "date": "2026-05-21T22:27:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] organ: wiki-fetch.py — robust Wikimedia 429 mitigation tool"
+    },
+    {
+      "hash": "d59d9bbdc791f13322bb049ee9c5baee335b2f40",
+      "date": "2026-05-21T22:06:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-pm: empty PR cycle + manual 134013 orphan push + finale hard gate gap vc=3 — 2026-05-21 22:04"
+    },
+    {
+      "hash": "4fb9aa14a4d3a2adaecb99f90bb984b88bc9d382",
+      "date": "2026-05-21T13:45:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-21-134013-manual — 歷史街區 Taipei batch 12 + SPORE-INBOX 繁殖 intake 新器官"
+    },
+    {
+      "hash": "c2b07761b89f4f0e0da8231e9c74ef96ca2639b7",
+      "date": "2026-05-21T13:42:38+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] inbox: ARTICLE-INBOX append 2 P2 candidates — 台灣 BIM 與營建科技 + 台灣企業：中鼎工程"
+    },
+    {
+      "hash": "9d5896d26427f431627f06bcbb10d52c46ba8f7e",
+      "date": "2026-05-21T13:39:26+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] organ: SPORE-INBOX 繁殖系統 intake layer + 5 候選 batch 1"
+    },
+    {
+      "hash": "1078c2d36a5b789127230a4d53f7bb713e09f894",
+      "date": "2026-05-21T13:17:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-05-21-130933-manual — Maintainer ownership 從「等核准」改成「你主導」的那一刻"
+    },
+    {
+      "hash": "496feb9012601623d89829bb21ce1f30959819bc",
+      "date": "2026-05-21T13:13:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-21-130933-manual — #851 Zaious 3.5 天 carry-over reply ship + 4 輪 draft 三次 callout"
+    },
+    {
+      "hash": "c219db7be973cc1f27df78750926d11afa16ef05",
+      "date": "2026-05-21T13:11:21+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] inbox-planning: 歷史街區系列 NEW Taipei batch 12 + planning doc"
+    },
+    {
+      "hash": "532295b065892d0eb5cecec7841b9120b317e6ac",
+      "date": "2026-05-21T09:20:12+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-21-091730-twmd-spore-harvest-am — D+4 雙 plateau + 泛科學 D+1 +110%"
+    },
+    {
+      "hash": "1e62d5680d115b0bcdac5e130e745264c964d569",
+      "date": "2026-05-21T09:17:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 5 spores — 2026-05-21"
+    },
+    {
+      "hash": "37e139df48ffd26553b14f0ddc997c52d80a3e1e",
+      "date": "2026-05-21T09:16:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: empty PR cycle + multi-core collision narrative refinement — 2026-05-21 09:14"
+    },
+    {
+      "hash": "f958661fdddfeab2796a619a1c2341eeae8bfa09",
+      "date": "2026-05-21T09:13:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-21-091018-twmd-data-refresh-am + multi-core bundle maintainer-am (091028)"
+    },
+    {
+      "hash": "510276667f7e3b877d00f1cf2c0320b470b33215",
+      "date": "2026-05-21T09:10:07+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: dashboard sync — 2026-05-21 09:10"
+    },
     {
       "hash": "adc69e4e9be7d60bfad9ba27111b8464b3106767",
       "date": "2026-05-20T23:51:11+08:00",
