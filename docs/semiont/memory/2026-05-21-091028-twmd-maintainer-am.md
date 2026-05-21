@@ -64,16 +64,22 @@ Cron `twmd-maintainer-am` 09:00 fire — 跑 4-stage Scan → Triage → Act →
 
 無新 pattern — 跟昨日 AM cycle (empty PR + #851 observer handoff) 同態 vc=2。**Empty PR cycle pattern verification_count = 2** (5/19 AM = 第 1 次 / 5/21 AM = 第 2 次)，繼續觀察是否成為穩定 baseline 還是短暫狀態。
 
-### Step 4.3 PM 殘留 + 早晨 polling silent gap (本 cycle 觀察候選)
+### Step 4.3 多核心碰撞 + 兩條 routine silent gap pattern surface
 
-PM cycle (`adc69e4e9` 23:51) commit 後 **dashboard JSON 在 2026-05-21T08:18Z 有 background polling 重新刷新** (dashboard-analytics.json `lastUpdated: 2026-05-21T08:18:13.743368`)，但無對應 commit。working tree dirty:
-- `docs/semiont/memory/2026-05-20-231533-twmd-data-refresh-pm.md` (PM finale memory file，PM commit 漏 append)
-- `docs/semiont/MEMORY.md` (+1 row PM session row，PM commit 漏 append)
-- 18 個 dashboard JSON / changelog / map-markers / quality-baseline / supporters / translation-status 重新 polling 後 mtime 更新
+**多核心碰撞 (跟 twmd-data-refresh-am 並行)**：本 maintainer-am cron `0 9 * * *` fire 同時，twmd-data-refresh-am 表訂 `0 6 * * *` 但 runtime queue delay 至 09:09 才 fire (per `091018` memory `inherits_from: 231533-pm`)。在我 awakening + Stage 1-3 進行中，data-refresh-am 09:10:07 commit `510276667` 已：
+- 自動 stash pop PM 殘留 → 合併 commit
+- 21 file +2746/-2710 含 19 個 dashboard JSON refresh + **昨日 PM finale memory residue (memory file + MEMORY.md row) 一併 bundle in**
+- main-direct push 順利
 
-**處置**：本 maintainer cycle commit **吸收 PM 殘留的 memory artifact** (memory file + MEMORY.md PM row)，**不碰 dashboard JSON** (那是 data-refresh 職責，明早 06:00 cron 會自然 sync)。對應 ROUTINE 分工原則：maintainer 不刷 dashboard。
+**碰撞處理結果**：零 conflict — data-refresh-am 動到 dashboard JSON + PM memory row (我本就不打算碰)，我動 MEMORY.md 新 row 在 PM row 之上 (insertion 不撞)。各自 lane 乾淨。working tree 殘留我的 maintainer-am row + memory file 順利 stage 在 510276667 之上。
 
-**Lesson candidate**：PM cycle 有 commit 漏 memory append 的 silent gap (`923a8893a` 5/19 PM 有獨立 memory commit / `adc69e4e9` 5/20 PM 漏)。verification_count = 1 待 distill。可能根因：DATA-REFRESH-PIPELINE Stage 12 收官 SOP 沒強制 memory commit 為獨立 commit (跟 routine commit 分離)。下個 PM cycle 應觀察是否復發。
+**兩條 routine silent gap pattern 同時 surface (vc=2)**：
+
+1. **PM cycle memory commit silent gap** — `adc69e4e9` 5/20 PM 漏 memory append (跟 `923a8893a` 5/19 PM 有獨立 memory commit 行為不一致)。今晨 data-refresh-am 09:10 cycle **也犯同錯**：commit `510276667` 完成後寫了自己的 memory file `2026-05-21-091018-twmd-data-refresh-am.md`，但**未 commit 該 memory file** (working tree untracked)。**Pattern vc=2 已 confirmed**。根因猜測：DATA-REFRESH-PIPELINE Beat 4 收官 SOP 沒強制 memory file commit (commit `510276667` 在 memory file write 之前 fire)。**升 LESSONS-INBOX 候選**：DATA-REFRESH-PIPELINE memory commit 應走兩階段 (refresh commit → memory commit) 或合併 (memory write 移至 refresh commit 之前)。
+
+2. **dashboard-immune.json D+4 vc=5** — Step 10 hard gate 連續第 5 cycle surface 同一 silent gap (5/17 D+0 → 5/21 D+4)。verification_count = 5 confirmed routine 飛輪 surface signal 無觀察者 pickup = 飛輪 vs 觀察者注意力分工失效候選 lesson。**已寫進昨日 PM handoff** (immune.json vc=4)，今晨繼續持平 carry-over。
+
+**處置**：本 maintainer cycle commit **吸收 data-refresh-am 091018 orphan memory file** (跟我自己的 maintainer-am memory 一起 ship)，作為 PM cycle silent gap pattern vc=2 confirmation 的 instrumented response。下個 maintainer / data-refresh cycle 應 instrument DATA-REFRESH-PIPELINE Beat 4 收官 SOP 修補。
 
 ## Handoff 三態
 
