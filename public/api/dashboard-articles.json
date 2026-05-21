@@ -42,6 +42,45 @@
     "fnCount": 31
   },
   {
+    "title": "泛科學：從科學新聞黑洞到演算法裡的知識工業",
+    "slug": "泛科學",
+    "category": "society",
+    "subcategory": "媒體與言論",
+    "date": "2026-05-20",
+    "lastModified": "2026-05-20",
+    "lastVerified": "2026-05-07",
+    "lastHumanReview": false,
+    "featured": false,
+    "wordCount": 6403,
+    "tagCount": 7,
+    "tags": [
+      "媒體",
+      "科學傳播",
+      "科普",
+      "泛科學",
+      "數位媒體",
+      "教育",
+      "知識平台"
+    ],
+    "translations": {
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
+    },
+    "revision": 3,
+    "commitHash": "adc69e4e",
+    "commitSubject": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-05-20 23:51",
+    "description": "2011 年，鄭國威與徐挺耀把一個被砍掉的專案做成 PanSci 泛科學。學術研究後來把它視為台灣科學傳播民主化的重要節點；但它真正難題是，公共科學討論要靠廣告、課程、影音與演算法先活下來。",
+    "healthScore": 59,
+    "qualityScore": 0,
+    "formatIssues": 0,
+    "hasOverview": true,
+    "hasReading": true,
+    "fnCount": 21
+  },
+  {
     "title": "飲料封膜機：從一碗蘿蔔湯的啟發到全球手搖飲的技術支柱",
     "slug": "飲料封膜機",
     "category": "technology",
@@ -4991,45 +5030,6 @@
     "hasOverview": true,
     "hasReading": true,
     "fnCount": 30
-  },
-  {
-    "title": "泛科學：從科學新聞黑洞到演算法裡的知識工業",
-    "slug": "泛科學",
-    "category": "society",
-    "subcategory": "媒體與言論",
-    "date": "2026-05-20",
-    "lastModified": "2026-05-07",
-    "lastVerified": "2026-05-07",
-    "lastHumanReview": false,
-    "featured": false,
-    "wordCount": 6403,
-    "tagCount": 7,
-    "tags": [
-      "媒體",
-      "科學傳播",
-      "科普",
-      "泛科學",
-      "數位媒體",
-      "教育",
-      "知識平台"
-    ],
-    "translations": {
-      "en": true,
-      "ja": true,
-      "ko": true,
-      "es": true,
-      "fr": true
-    },
-    "revision": 2,
-    "commitHash": "4cd497a8",
-    "commitSubject": "🧬 [evolve] add PanSci article and frontmatter formatter",
-    "description": "2011 年，鄭國威與徐挺耀把一個被砍掉的專案做成 PanSci 泛科學。學術研究後來把它視為台灣科學傳播民主化的重要節點；但它真正難題是，公共科學討論要靠廣告、課程、影音與演算法先活下來。",
-    "healthScore": 56,
-    "qualityScore": 0,
-    "formatIssues": 0,
-    "hasOverview": true,
-    "hasReading": true,
-    "fnCount": 21
   },
   {
     "title": "臺灣大百科全書：五億元國家級知識夢",
