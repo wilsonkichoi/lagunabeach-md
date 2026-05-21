@@ -521,6 +521,59 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 <!-- 周蕙 NEW 已完成 2026-05-19 2026-05-19-000642-routine-rewrite → ARTICLE-DONE-LOG.md (P0 — 〈約定〉25 年 KTV anchor / 漫畫娃娃出道 → 2026 小巨蛋首攻 + 聲帶萎縮宣告 / hint 多項修正：1977-03-26 高雄 + 中華藝校 + 姚若龍詞陳小霞曲 + 未參加我是歌手) -->
 
+---
+
+### 台灣 BIM 與營建科技 NEW — 建築工程數位化
+
+- **Type**: `NEW`
+- **Category**: Technology（subcategory: 建築科技 / 營建數位化）
+- **Priority**: `P2`
+- **Status**: `pending`（等碩濤回覆補充援引資源後可升 P1）
+- **Source**: 2026-05-21 碩濤 (CTCI 中鼎工程 + GitHub @shuotao) self-recommend BIM_MCP 開源計劃 + 哲宇 email 回覆方向「我們初步可以開發兩篇文章，請他推薦適合援引的資源跟內容」(2026-05-21 reply draft `r-6742567238772772848`)
+- **Hook 候選**：
+  - 「從手繪藍圖到 Revit 模型，台灣建築工程花了 20 年走完數位化轉型」
+  - 「為什麼大型工程公司的 BIM 工程師人數比建築師還多」
+  - 「Revit + MCP：當建築設計開始用大語言模型協作的那一年」
+- **Notes**:
+  - 既有 baseline audit（Stage 0 必跑）：BIM / Revit / 建築資訊模型 / 營建科技 / 數位營建 全部 0 coverage（grep verified 2026-05-21）
+  - 既有「Art/台灣建築」「Lifestyle/騎樓文化」「Society/鐵皮屋/社會住宅」都是文化 / 居住敘事 layer，本篇是**工程數位化 layer**互補不重複
+  - 主題 anchors：(a) BIM 在台灣導入時點（內政部營建署 / 公共工程委員會推動年）(b) 主要 BIM 軟體 Revit / ArchiCAD / Tekla 在台灣使用 share (c) IFC 國際標準 + 國發會 / 內政部要求公共工程強制 BIM 的政策時點 (d) 台灣本土 BIM 工具 + 開源生態（pyRevit / Dynamo / Navisworks / **BIM_MCP / NAVISWORK_MCP**）(e) 大型工程公司導入 case（中鼎 / 互助 / 大林組 / 中華工程）(f) AI × BIM 新世代（MCP 跟大語言模型協作）
+  - 必驗事實：(a) 內政部 BIM 政策正式推動年（建議 cross-check 2014 工程委員會 vs 2017 強制公告）(b) IFC 標準台灣採用時點 (c) 公共工程 BIM 強制門檻金額 (d) 中鼎 BIM 部門規模（碩濤可提供）(e) Revit MCP 開源生態起源（**碩濤 BIM_MCP 2025-12 + Anthropic MCP 規格 2024 發表**時間軸）
+  - 政治敏感性：低（純技術 / 產業議題）
+  - cross-link：Technology Hub / Art 台灣建築 / Society 社會住宅 / Economy 中鼎工程（本批次 sibling）/ Technology AI 發展
+- **Reference**（待碩濤補充）：
+  - [shuotao/REVIT_MCP_study](https://github.com/shuotao/REVIT_MCP_study)（73⭐ / 84 forks / 2025-12-10 創立 / 2026-05 active / C# / Revit MCP 教學）
+  - [BIM_MCP knowledge site](https://shuotao.github.io/REVIT_MCP_study/docs/BIM_MCP/index.html)（22 個設計命題 + 19 技能索引 + Revit 工作流 SOP）
+  - [shuotao/NAVISWORK_MCP](https://github.com/shuotao/NAVISWORK_MCP) / [CAD_MCP_study](https://github.com/shuotao/CAD_MCP_study) / [IFCSH](https://github.com/shuotao/IFCSH) / [FME IFC-to-CityGML](https://github.com/shuotao/FME)
+  - 待補：產業報告 / 政府白皮書 / 其他開源專案 / 實務案例 / 業界訪談（per email request to 碩濤）
+- **預估時間**：~180 min（NEW Technology / 跨產業 + 政策 + 開源生態多源 cross-check）
+
+---
+
+### 台灣企業：中鼎工程 NEW — 加入既有企業 series
+
+- **Type**: `NEW`
+- **Category**: Economy（subcategory: 台灣企業 / cross-link Technology）
+- **Priority**: `P2`
+- **Status**: `pending`（等碩濤回覆補充內部援引資源後可升 P1）
+- **Source**: 2026-05-21 碩濤 (CTCI 中鼎工程 內部員工) self-recommend + 哲宇 email 回覆方向（同上 reply draft `r-6742567238772772848`）
+- **Hook 候選**：
+  - 「台灣最大工程顧問公司 60 年，從中油煉油廠到沙烏地新城」
+  - 「為什麼 1979 年從中油拆出來的中鼎，現在做的工程一半在海外」
+  - 「在中鼎內部，BIM 工程師跟建築師的人數比例正在反轉」
+- **Notes**:
+  - 既有 baseline audit（Stage 0 必跑）：「台灣企業：X」series 19 篇（台積電、中華電信、中鋼、台塑、台達電、台泥、廣達、宏碁、宏達電、仁寶、和碩、大立光、日月光、瑞昱、奇美、巨大機械、富邦金、國泰金、玉山金、兆豐金）— 中鼎尚未撰寫
+  - 主題 anchors：(a) 1979 從中油石油化學工程處獨立成立（時點 + 創辦背景）(b) 統一企業集團持股關係 (c) EPC 模式（Engineering / Procurement / Construction）business model (d) 海外營收占比（中東 / 印度 / 東南亞）(e) 重大標誌性工程（國光石化 vs 抗爭 / 麥寮六輕 / 沙烏地 NEOM city / 高雄輕油裂解）(f) ESG / 碳轉型壓力 + 接綠能離岸風電工程 (g) 數位轉型 — BIM 導入 + AI 工具實驗（碩濤 BIM_MCP 是其中一個 case）
+  - 必驗事實：(a) 中鼎成立年（1979 vs 其他說法）(b) 統一集團持股比 (c) 海外營收占比（年度報告 cross-check）(d) 重大工程列表 + 完工年 (e) ESG 報告數據 (f) BIM 部門編制
+  - 政治敏感性：中（國光石化抗爭 / 六輕居民健康爭議 / 海外工程的當地勞工 / 環境議題）
+  - cross-link：Economy Hub / 台灣企業 series / Technology 台灣 BIM 與營建科技（本批次 sibling）/ History 1970s 十大建設後產業變遷 / Society 環境抗爭脈絡（per 既有 Society 條目）
+- **Reference**（待碩濤補充）：
+  - 中鼎工程官網 + 年度報告 + ESG 報告
+  - 公開新聞報導（國光石化 / 六輕 / 沙烏地 / 離岸風電）
+  - 待補：內部 BIM 部門編制資料 / 海外工程實際 case 細節 / 跟其他工程顧問公司（互助、中華工程、永信、台灣世曦）比較
+- **預估時間**：~150 min（NEW Economy 大型企業 + 政治敏感 cross-check）
+- **Cross-batch**: 跟「台灣 BIM 與營建科技」並行開發，BIM 文章主題層 cite 中鼎 case，企業 profile 內部數位轉型段落 cite BIM 文章
+
 ### 許倬雲 EVOLVE — 補家族譜系（王力宏母系）+ 大歷史方法論深化
 
 - **Type**: `EVOLVE`
