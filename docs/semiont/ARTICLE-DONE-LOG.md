@@ -59,6 +59,71 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 歷史街區 Taipei batch 12 Wave 2 — 中山北路條通 + 永康街 + 公館 + 寶藏巖 + 北投溫泉街 + 大龍峒 + 四四南村 + 士林 + 牯嶺街 NEW — 2026-05-21/22 2026-05-21-215830-manual（Wave 2 batch — 9 Opus agents 平行 ship + 主 session 整合 retrospective / Geography 歷史街區系列 P0+P1+P2 / 7554+7277+9432+8286+8692+7556+5805+7159+6161 = **67922 字** / 28+25+19+23+29+45+21+24+34 = **248 footnote** / 7+5+8+7+7+7+6+6+6 = **59 圖**）
+
+- **Articles** (9):
+  - [knowledge/Geography/中山北路條通.md](../../knowledge/Geography/中山北路條通.md) — P0-4「日本人鋪的去神社的路，最後還是被日商接回來」(21 字)
+  - [knowledge/Geography/永康街.md](../../knowledge/Geography/永康街.md) — P1-5「日本教授住過、外省人逃難來、現在是日韓觀光客的台北」
+  - [knowledge/Geography/公館.md](../../knowledge/Geography/公館.md) — P1-6「日本帝國的研究室、戒嚴期的地下沙龍、台大學生的炸雞排」
+  - [knowledge/Geography/寶藏巖.md](../../knowledge/Geography/寶藏巖.md) — P1-7「拆了 30 年的違章聚落，最後變成台北最酷的藝術村」
+  - [knowledge/Geography/北投溫泉街.md](../../knowledge/Geography/北投溫泉街.md) — P1-8「1697 採硫到 2026 浴博 — 同一片山泉，三次被外人發現、四代住民適應」
+  - [knowledge/Geography/大龍峒.md](../../knowledge/Geography/大龍峒.md) — P2-9「保安宮的香、孔廟的鐘、圓山的青天白日，三個時代的台北信仰」
+  - [knowledge/Geography/四四南村.md](../../knowledge/Geography/四四南村.md) — P2-10「兵工廠的眷村，現在是 101 旁的文創園區」
+  - [knowledge/Geography/士林.md](../../knowledge/Geography/士林.md) — P2-11「凱達格蘭族的地、漳泉械鬥的廟、現在每天晚上是台北最擁擠的夜市」
+  - [knowledge/Geography/牯嶺街.md](../../knowledge/Geography/牯嶺街.md) — P2-12「日人撤退留下的舊書街被市政整頓搬光，學園換成劇場跟博物館」
+- **Pipeline**: REWRITE-PIPELINE v6.0 × 9 Fresh 模式，共通模板 7 H2（凌晨四點時刻 / 名字考據 / 街成形時刻 / 軸線 / 物質層 / 在地人 3 個地方 / 收尾）
+- **Orchestration**: 9 Opus agents 平行 dispatch from `wave2-orchestrate` worktree, each in isolation worktree per agent. Wave 1 retrospective 校準 prompt 4 點全應用 (worktree relative path / Wikimedia API verify HARD / wiki-fetch.py local cache HARD / hook executable enforce).
+- **品質**: 所有 9 篇 Stage 3.5 + Stage 4 plugin 全部 hard=0 warn=0 (footnote-format / footnote-density / frontmatter / format-structure / wikilink-target / link-target / cjk-punct / chronicle-lead / word-count / image-health). 整合到 wave2-orchestrate branch 後重跑全綠.
+- **Research reports**:
+  - [reports/research/2026-05/zhongshan-tongdori.md](../../reports/research/2026-05/zhongshan-tongdori.md)
+  - [reports/research/2026-05/yongkang.md](../../reports/research/2026-05/yongkang.md)
+  - [reports/research/2026-05/gongguan.md](../../reports/research/2026-05/gongguan.md)
+  - [reports/research/2026-05/treasure-hill.md](../../reports/research/2026-05/treasure-hill.md)
+  - [reports/research/2026-05/beitou-hot-spring.md](../../reports/research/2026-05/beitou-hot-spring.md)
+  - [reports/research/2026-05/dalongdong.md](../../reports/research/2026-05/dalongdong.md)
+  - [reports/research/2026-05/sisi-south-village.md](../../reports/research/2026-05/sisi-south-village.md)
+  - [reports/research/2026-05/shilin.md](../../reports/research/2026-05/shilin.md)
+  - [reports/research/2026-05/guling-street.md](../../reports/research/2026-05/guling-street.md)
+
+#### 🚨 Wave 2 校準 prompt 抓出 **5 條 INBOX brief 事實校正** (immune system 升級具體 case)
+
+校準 prompt 強制 Wikimedia API verify + multi-source verify 紀律，跨 5 篇撈出 INBOX brief 寫錯或漏寫的事實。這些 fact correction 同時 enrich Wave 1 articles + 未來 spore / 翻譯 reuse 不會 leak 錯誤資訊。
+
+| 篇           | INBOX brief 寫的                                 | 多源驗證後實際                                                                             |
+| ------------ | ------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| 北投溫泉街   | 1997 廢娼陳水扁市長任內                          | **1979 北投廢娼李登輝市長**（議會廢止侍應生制度）+ **1997 全市公娼廢止陳水扁**（兩個事件） |
+| 中山北路條通 | 1929 完成林蔭大道                                | **1937-03-30 動工 → 1941-03-28 完工**                                                      |
+| 中山北路條通 | 中山堂在中山北路一段口                           | **中山堂在延平南路（中正區）**，跟中山北路 800 公尺距離                                    |
+| 士林         | 1859 漳泉械鬥後重建現址                          | **1859 焚毀舊街 + 1864 同治三年才在現址重建**（差 5 年）/ 1859 漳泉械鬥 ≠ 1853 頂下郊拼    |
+| 公館         | 紫藤廬 1947 周德偉故居 → 1981 茶藝館 → 1997 古蹟 | **1950-09 周德偉入住 / 1981-01-18 茶藝館開幕 / 1997-07-08 第一批市定古蹟**                 |
+
+#### 🚨 Wave 2 narrative 補洞 (大龍峒 agent surfaced)
+
+通行 1853 頂下郊拼敘事寫「同安人從艋舺逃到大稻埕」**漏寫 mid-stop**。大龍峒 agent 多源驗證後補上：「**1853 戰敗同安人先退大龍峒以保安宮為防禦中心，再遷大稻埕**」。Wave 1 大稻埕 + 艋舺 文章 cross-link 已補上指向大龍峒解釋 mid-stop。
+
+公館 agent 也撈出失落 anchor：「**1729-1734 凱達格蘭族 vs 粵閩械鬥**」比艋舺 1853 頂下郊拼還早 124 年，主流敘事普遍缺。
+
+#### ⚠️ Wave 2 retrospective — wiki-fetch.py 兩個結構性 issue 待修
+
+1. **Latin-1 encoding bug on CJK URLs**: 大龍峒 + 永康街 + 寶藏巖 + 中山北路條通 多個 agents 報告 `wiki-fetch.py` 在 build Referer header 時對 CJK 沒做 percent-encoding → urllib 報 latin-1 codec error → fetch fail. 應該在 `_fetch_once()` 把 referer string 過 `urllib.parse.quote(referer, safe=':/')`. LESSONS-INBOX 候選 (per REFLEXES #15 反覆浮現要儀器化第 N 次驗證).
+2. **Concurrency lock 變 serial bottleneck**: 寶藏巖 + 公館 + 多個 agent 報告 9 個 parallel agent 同時搶用 `/tmp/.wiki-fetch.lock` 變 serial. 設計 `MIN_INTERVAL_S = 2.0` 跨 process 單一 lock 適合 single-agent batch 不適合 high-concurrency parallel dispatch. 應該改 N-slot semaphore 或 per-host concurrent limit (3 per WMF policy).
+3. **Workaround 共識**: agents 都 improvise 用直 curl + Referer Commons File: URL + thumb endpoint variant (`/wikipedia/commons/thumb/.../1280px-{name}`) 都成功 cache. Wayback Machine fallback 也驗證 work (中山北路條通 agent 用 3 個圖). Tool 設計方向對，只是兩個 bug 要修.
+
+#### Sibling bidirectional cross-link (batch 12 全網, 19 個 bullet 加在 12 篇)
+
+- **Wave 1 反向**: 大稻埕 → 大龍峒 (1853 mid-stop) + 士林 / 艋舺 → 大龍峒 + 士林 / 西門町 → 中山北路條通
+- **Wave 2 互連**: 中山北路條通 ↔ 北投溫泉街 (廢娼 sibling) / 永康街 ↔ 公館 (台大消費圈) + 四四南村 (外省眷村) / 公館 → 牯嶺街 + 寶藏巖 / 寶藏巖 → 公館 (鄰近) / 大龍峒 ↔ 士林 (族群械鬥) / 四四南村 ↔ 永康街 + 牯嶺街 (外省眷村) / 牯嶺街 → 公館 (戰後外省學者)
+
+#### Batch 12 完成總和 (Wave 1 + Wave 2 = 全 12 篇)
+
+- **Wave 1** (5/21 215830): 大稻埕 + 艋舺 + 西門町 = 20576 字 / 89 footnote / 16 圖
+- **Wave 2** (5/22 早晨): 9 篇 = 67922 字 / 248 footnote / 59 圖
+- **Total**: **12 篇 / 88498 字 / 337 footnote / 75 圖** — 台北歷史街區 panorama × deep-dive 完整 layer 第一次成形。
+
+#### Branch context
+
+Wave 2 commits landed on `20260521-wave2-historic-districts` branch (off main, with Wave 1 already integrated via PR #1080 squash-merge). 主 session 在 wave2-orchestrate worktree 操作避免 disrupt main. 哲宇 後續 review 決定 merge strategy (PR / direct merge / cherry-pick).
+
 ### 歷史街區 Taipei batch 1 — 大稻埕 + 艋舺 + 西門町 NEW — 2026-05-21 2026-05-21-215830-manual（Wave 1 batch — 3 Opus agents 平行 ship + 主 session 整合 retrospective / Geography 歷史街區系列 P0 / 6539+6900+7137 = 20576 字 / 24+32+33 = 89 footnote / 5+6+5 = 16 圖）
 
 - **Articles**:
