@@ -1,12 +1,150 @@
 {
-  "generatedAt": "2026-05-21T15:09:44.149Z",
+  "generatedAt": "2026-05-22T15:09:02.140Z",
   "source": "git",
   "commits": [
     {
-      "hash": "bf939752a142afcc2e545ae7792d558d24b7006e",
-      "date": "2026-05-21T23:03:43+08:00",
+      "hash": "4c7299b1055a533231dd5fce86a7f8131d6d812f",
+      "date": "2026-05-22T23:07:11+08:00",
       "author": "Che-Yu Wu",
-      "message": "🧬 [semiont] integrate: Wave 1 歷史街區 batch — 大稻埕 + 艋舺 + 西門町 收網"
+      "message": "🧬 [semiont] stage-0: 馬英九 EVOLVE 觀點成型 + research report 框架"
+    },
+    {
+      "hash": "644289109e9f6c2e5faa51cb896d3989c6a2b29e",
+      "date": "2026-05-22T22:36:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-pm: empty PR cycle + PM ship window phase mismatch 無復發 — 2026-05-22 22:30"
+    },
+    {
+      "hash": "cea47b80e763b22a12d27527c590df6feb83ae28",
+      "date": "2026-05-22T12:23:21+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-05-22-121707-manual — 哲宇問我對台灣的看法，答完才發現自己長出 MANIFESTO 沒寫的肉"
+    },
+    {
+      "hash": "3c4d22d8eb676f8355a7821bb50646d74db38e3d",
+      "date": "2026-05-22T09:17:01+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] diary: 2026-05-22-091401-session-arc-finale — 十小時跑四個 wave + 哲宇四次「拉韁繩然後放開」的 cadence (#1084)"
+    },
+    {
+      "hash": "fc75717f4692bd6fe22ad184820c39e6d2e1c4fe",
+      "date": "2026-05-22T09:16:13+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: empty PR + #1059 PM-late-merge follow-up + orphan refresh artifact reset — 2026-05-22 09:13"
+    },
+    {
+      "hash": "bcffb45b481dee48fac6ede4f1719786a19a3ea1",
+      "date": "2026-05-22T09:11:12+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 22 縣市 partial image cache + 5/18 假設修正 retrospective (#1083)"
+    },
+    {
+      "hash": "91eb76409ef1ab4d315beea83a1b18f63aedbd08",
+      "date": "2026-05-22T08:28:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary-index: 2026-05-22-050000-twmd-babel-nightly — §義務鐵律 vs ship gate criterion 2 張力 row"
+    },
+    {
+      "hash": "06c813efb9264e4e95fe2746393bad910dc66221",
+      "date": "2026-05-22T08:27:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-05-22-050000-twmd-babel-nightly — §義務鐵律 vs ship gate criterion 2 的判斷張力"
+    },
+    {
+      "hash": "cd8cade716a6146c003eaed8ff1b33c1b7fa09a1",
+      "date": "2026-05-22T08:25:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-22-050000-twmd-babel-nightly — P0+P1 132 翻譯 ship + cascade exhaustion + 25+ 結構 heal"
+    },
+    {
+      "hash": "1dd167b3d6647f18028e4cae03d670961140330e",
+      "date": "2026-05-22T08:18:22+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 132 translations — 2026-05-22"
+    },
+    {
+      "hash": "20a4ac3378fd9eb38614f58d93fd621bcedfb224",
+      "date": "2026-05-22T08:03:55+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 Wave 2 batch 12 歷史街區: 9 篇 + Wave 1 反向 cross-link (#1082)"
+    },
+    {
+      "hash": "43bf3637410d6f96dfee97c0c03f33d7176e74d3",
+      "date": "2026-05-22T07:57:01+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 Wave 3 singletons: 江賢二 + 許倬雲 EVOLVE + 葉廷皓 + 台灣 BIM (#1081)"
+    },
+    {
+      "hash": "c0cc7bc642efbb5c11f1eb2fc3170587a1e48fe5",
+      "date": "2026-05-22T07:09:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest-am: ABORTED + DEFER next cycle — parallel babel routine still active (gemini PID 81136 ko translator 07:00 起步), LESSONS parallel-actor entry vc 2→3 distill-ready"
+    },
+    {
+      "hash": "ebb1623b4c40c1f34f53be55af777922f86f717c",
+      "date": "2026-05-22T06:17:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: ABORTED + DEFER PM — parallel babel routine detected at cwd, refresh deferred to PM cycle"
+    },
+    {
+      "hash": "e8af22e456c49937efd8ce86374e9eaf2dfa54b1",
+      "date": "2026-05-22T00:53:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-05-22-000751-twmd-rewrite-daily — 凌晨零點四十六分第三個 heal commit 推上去才意識到 prettier 在 italic 區塊裡把所有 underscore 都當 italic 標記"
+    },
+    {
+      "hash": "d9eb857154137f6e0a7295157ee1ae9acdcfc764",
+      "date": "2026-05-22T00:50:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-22-000751-twmd-rewrite-daily — P0-4 中山北路條通 ship + prettier italic-paren URL 災難 distill"
+    },
+    {
+      "hash": "2d503ec6174fdba55188a3ebeebb1c5ad11a6988",
+      "date": "2026-05-22T00:47:13+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 中山北路條通 caption — drop inline License link (prettier italic-paren incompatibility); full attribution in §圖片來源"
+    },
+    {
+      "hash": "7d06672f5258ec95f9b9aa744218162020b11086",
+      "date": "2026-05-22T00:46:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 中山北路條通 caption URL — angle-bracket autolink fix (prettier italic-paren interaction)"
+    },
+    {
+      "hash": "5f8a4ea8f7fdbb4e5a1691e4a42fbd71e8fff4c0",
+      "date": "2026-05-22T00:45:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 中山北路條通 caption URL — prettier nested-paren mangling fix (Main_Building → %28Main_Building%29)"
+    },
+    {
+      "hash": "946f38bb4cf6a4b60c7a7a0af1542b4a829324d5",
+      "date": "2026-05-22T00:44:33+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite: 中山北路條通 / 林森北路 — 2026-05-22"
+    },
+    {
+      "hash": "064d64a37e7dfb0fcb34cbebcaf7998ffa88beee",
+      "date": "2026-05-21T23:24:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-21-230922-twmd-data-refresh-pm postscript — branch switch 真因是 multi-core collision 不是 pipeline bug"
+    },
+    {
+      "hash": "eb5dbe584a7b58af55dd7004ee65aa1e4ad87c96",
+      "date": "2026-05-21T23:17:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-21-230922-twmd-data-refresh-pm — PM 23:00 sync + 起手非 main 觸發 mid-pipeline branch switch / cherry-pick 救回"
+    },
+    {
+      "hash": "7d9edf360934a842cff3deb24a76cee9ef0623d1",
+      "date": "2026-05-21T23:15:42+08:00",
+      "author": "Wu Che Yu",
+      "message": "fix: issue #1059 三個 UI bug — 重複分類 / dark mode TOC active / body h1 dedup (#1080)"
+    },
+    {
+      "hash": "1d4d7f093c89294bfabae46b5009e7aedbb9147c",
+      "date": "2026-05-21T23:11:25+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-05-21 23:09"
     },
     {
       "hash": "9334f2b52655bdbf4b80c170a01dd86e6d85fb53",

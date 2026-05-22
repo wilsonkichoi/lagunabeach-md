@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T15:09:45.377Z",
+  "lastUpdated": "2026-05-22T15:09:03.546Z",
   "languages": [
     "zh-TW",
     "en",
@@ -10,72 +10,72 @@
   ],
   "summary": {
     "zh-TW": {
-      "total": 735,
+      "total": 747,
       "percentage": 100,
-      "fresh": 735,
+      "fresh": 747,
       "stale": 0,
       "missing": 0,
       "deficit": 0
     },
     "en": {
-      "total": 732,
-      "percentage": 99.3,
+      "total": 738,
+      "percentage": 98.5,
       "fresh": 673,
-      "metadataStale": 2,
-      "stale": 57,
-      "missing": 5,
+      "metadataStale": 0,
+      "stale": 65,
+      "missing": 11,
       "orphan": 0,
-      "deficit": 5,
-      "freshPct": 91.3,
-      "bodyFreshPct": 91.6
+      "deficit": 11,
+      "freshPct": 89.9,
+      "bodyFreshPct": 89.9
     },
     "ja": {
-      "total": 733,
-      "percentage": 99.5,
-      "fresh": 652,
-      "metadataStale": 2,
-      "stale": 79,
-      "missing": 4,
+      "total": 738,
+      "percentage": 98.5,
+      "fresh": 676,
+      "metadataStale": 0,
+      "stale": 62,
+      "missing": 11,
       "orphan": 0,
-      "deficit": 4,
-      "freshPct": 88.5,
-      "bodyFreshPct": 88.7
+      "deficit": 11,
+      "freshPct": 90.3,
+      "bodyFreshPct": 90.3
     },
     "ko": {
-      "total": 733,
-      "percentage": 99.5,
-      "fresh": 649,
-      "metadataStale": 2,
-      "stale": 82,
-      "missing": 4,
+      "total": 738,
+      "percentage": 98.5,
+      "fresh": 677,
+      "metadataStale": 0,
+      "stale": 61,
+      "missing": 11,
       "orphan": 0,
-      "deficit": 4,
-      "freshPct": 88.1,
-      "bodyFreshPct": 88.3
+      "deficit": 11,
+      "freshPct": 90.4,
+      "bodyFreshPct": 90.4
     },
     "es": {
-      "total": 732,
-      "percentage": 99.3,
-      "fresh": 661,
-      "metadataStale": 2,
-      "stale": 69,
-      "missing": 5,
+      "total": 738,
+      "percentage": 98.5,
+      "fresh": 678,
+      "metadataStale": 0,
+      "stale": 60,
+      "missing": 11,
       "orphan": 0,
-      "deficit": 5,
-      "freshPct": 89.7,
-      "bodyFreshPct": 90
+      "deficit": 11,
+      "freshPct": 90.5,
+      "bodyFreshPct": 90.5
     },
     "fr": {
-      "total": 733,
-      "percentage": 99.5,
-      "fresh": 658,
-      "metadataStale": 2,
-      "stale": 73,
-      "missing": 4,
+      "total": 738,
+      "percentage": 98.5,
+      "fresh": 676,
+      "metadataStale": 0,
+      "stale": 62,
+      "missing": 11,
       "orphan": 0,
-      "deficit": 4,
-      "freshPct": 89.3,
-      "bodyFreshPct": 89.6
+      "deficit": 11,
+      "freshPct": 90.3,
+      "bodyFreshPct": 90.3
     }
   },
   "matrix": {
@@ -118,41 +118,41 @@
       }
     },
     "art": {
-      "zh-TW": 33,
+      "zh-TW": 35,
       "en": {
         "count": 33,
         "fresh": 30,
         "stale": 3,
-        "missing": 0,
-        "deficit": 0
+        "missing": 2,
+        "deficit": 2
       },
       "ja": {
         "count": 33,
         "fresh": 30,
         "stale": 3,
-        "missing": 0,
-        "deficit": 0
+        "missing": 2,
+        "deficit": 2
       },
       "ko": {
         "count": 33,
         "fresh": 30,
         "stale": 3,
-        "missing": 0,
-        "deficit": 0
+        "missing": 2,
+        "deficit": 2
       },
       "es": {
         "count": 33,
         "fresh": 29,
         "stale": 4,
-        "missing": 0,
-        "deficit": 0
+        "missing": 2,
+        "deficit": 2
       },
       "fr": {
         "count": 33,
         "fresh": 30,
         "stale": 3,
-        "missing": 0,
-        "deficit": 0
+        "missing": 2,
+        "deficit": 2
       }
     },
     "culture": {
@@ -255,11 +255,11 @@
         "deficit": 0
       },
       "es": {
-        "count": 52,
-        "fresh": 51,
+        "count": 53,
+        "fresh": 52,
         "stale": 1,
-        "missing": 1,
-        "deficit": 1
+        "missing": 0,
+        "deficit": 0
       },
       "fr": {
         "count": 53,
@@ -270,79 +270,79 @@
       }
     },
     "geography": {
-      "zh-TW": 52,
+      "zh-TW": 61,
       "en": {
-        "count": 49,
-        "fresh": 42,
-        "stale": 7,
-        "missing": 3,
-        "deficit": 3
+        "count": 53,
+        "fresh": 38,
+        "stale": 15,
+        "missing": 8,
+        "deficit": 8
       },
       "ja": {
-        "count": 49,
-        "fresh": 41,
-        "stale": 8,
-        "missing": 3,
-        "deficit": 3
+        "count": 53,
+        "fresh": 38,
+        "stale": 15,
+        "missing": 8,
+        "deficit": 8
       },
       "ko": {
-        "count": 49,
-        "fresh": 41,
-        "stale": 8,
-        "missing": 3,
-        "deficit": 3
+        "count": 53,
+        "fresh": 38,
+        "stale": 15,
+        "missing": 8,
+        "deficit": 8
       },
       "es": {
-        "count": 49,
-        "fresh": 42,
-        "stale": 7,
-        "missing": 3,
-        "deficit": 3
+        "count": 53,
+        "fresh": 38,
+        "stale": 15,
+        "missing": 8,
+        "deficit": 8
       },
       "fr": {
-        "count": 49,
-        "fresh": 42,
-        "stale": 7,
-        "missing": 3,
-        "deficit": 3
+        "count": 53,
+        "fresh": 38,
+        "stale": 15,
+        "missing": 8,
+        "deficit": 8
       }
     },
     "history": {
       "zh-TW": 41,
       "en": {
-        "count": 40,
-        "fresh": 40,
+        "count": 41,
+        "fresh": 41,
         "stale": 0,
         "missing": 0,
-        "deficit": 1
+        "deficit": 0
       },
       "ja": {
-        "count": 40,
-        "fresh": 36,
-        "stale": 4,
+        "count": 41,
+        "fresh": 40,
+        "stale": 1,
         "missing": 0,
-        "deficit": 1
+        "deficit": 0
       },
       "ko": {
-        "count": 40,
-        "fresh": 37,
-        "stale": 3,
+        "count": 41,
+        "fresh": 41,
+        "stale": 0,
         "missing": 0,
-        "deficit": 1
+        "deficit": 0
       },
       "es": {
-        "count": 40,
-        "fresh": 37,
-        "stale": 3,
+        "count": 41,
+        "fresh": 41,
+        "stale": 0,
         "missing": 0,
-        "deficit": 1
+        "deficit": 0
       },
       "fr": {
-        "count": 40,
-        "fresh": 37,
-        "stale": 3,
+        "count": 41,
+        "fresh": 41,
+        "stale": 0,
         "missing": 0,
-        "deficit": 1
+        "deficit": 0
       }
     },
     "lifestyle": {
@@ -439,8 +439,8 @@
       },
       "ko": {
         "count": 37,
-        "fresh": 35,
-        "stale": 2,
+        "fresh": 36,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       },
@@ -462,113 +462,113 @@
     "people": {
       "zh-TW": 219,
       "en": {
-        "count": 217,
-        "fresh": 193,
-        "stale": 24,
-        "missing": 1,
-        "deficit": 2
+        "count": 219,
+        "fresh": 194,
+        "stale": 25,
+        "missing": 0,
+        "deficit": 0
       },
       "ja": {
-        "count": 218,
-        "fresh": 178,
-        "stale": 40,
+        "count": 219,
+        "fresh": 197,
+        "stale": 22,
         "missing": 0,
-        "deficit": 1
+        "deficit": 0
       },
       "ko": {
-        "count": 218,
-        "fresh": 175,
-        "stale": 43,
+        "count": 219,
+        "fresh": 195,
+        "stale": 24,
         "missing": 0,
-        "deficit": 1
+        "deficit": 0
       },
       "es": {
-        "count": 218,
-        "fresh": 185,
-        "stale": 33,
+        "count": 219,
+        "fresh": 197,
+        "stale": 22,
         "missing": 0,
-        "deficit": 1
+        "deficit": 0
       },
       "fr": {
-        "count": 218,
-        "fresh": 182,
-        "stale": 36,
+        "count": 219,
+        "fresh": 196,
+        "stale": 23,
         "missing": 0,
-        "deficit": 1
+        "deficit": 0
       }
     },
     "society": {
       "zh-TW": 73,
       "en": {
         "count": 73,
+        "fresh": 68,
+        "stale": 5,
+        "missing": 0,
+        "deficit": 0
+      },
+      "ja": {
+        "count": 73,
+        "fresh": 66,
+        "stale": 7,
+        "missing": 0,
+        "deficit": 0
+      },
+      "ko": {
+        "count": 73,
         "fresh": 67,
         "stale": 6,
         "missing": 0,
         "deficit": 0
       },
-      "ja": {
-        "count": 73,
-        "fresh": 64,
-        "stale": 9,
-        "missing": 0,
-        "deficit": 0
-      },
-      "ko": {
-        "count": 73,
-        "fresh": 64,
-        "stale": 9,
-        "missing": 0,
-        "deficit": 0
-      },
       "es": {
+        "count": 73,
+        "fresh": 67,
+        "stale": 6,
+        "missing": 0,
+        "deficit": 0
+      },
+      "fr": {
         "count": 73,
         "fresh": 65,
         "stale": 8,
         "missing": 0,
         "deficit": 0
-      },
-      "fr": {
-        "count": 73,
-        "fresh": 63,
-        "stale": 10,
-        "missing": 0,
-        "deficit": 0
       }
     },
     "technology": {
-      "zh-TW": 48,
+      "zh-TW": 49,
       "en": {
-        "count": 47,
-        "fresh": 43,
+        "count": 48,
+        "fresh": 44,
         "stale": 4,
         "missing": 1,
         "deficit": 1
       },
       "ja": {
-        "count": 47,
-        "fresh": 42,
-        "stale": 5,
+        "count": 48,
+        "fresh": 44,
+        "stale": 4,
         "missing": 1,
         "deficit": 1
       },
       "ko": {
-        "count": 47,
-        "fresh": 41,
-        "stale": 6,
+        "count": 48,
+        "fresh": 44,
+        "stale": 4,
         "missing": 1,
         "deficit": 1
       },
       "es": {
-        "count": 47,
-        "fresh": 42,
-        "stale": 5,
+        "count": 48,
+        "fresh": 44,
+        "stale": 4,
         "missing": 1,
         "deficit": 1
       },
       "fr": {
-        "count": 47,
-        "fresh": 42,
-        "stale": 5,
+        "count": 48,
+        "fresh": 44,
+        "stale": 4,
         "missing": 1,
         "deficit": 1
       }
@@ -576,37 +576,70 @@
   },
   "missing": {
     "en": [
-      "Geography/大稻埕：800 公尺三個世紀，從 Formosa Tea 到二二八第一槍.md",
-      "Geography/艋舺：清領台北最熱鬧的地方，現在是台北平均年齡最老的區.md",
-      "Geography/西門町：日本人 1896 蓋的娛樂街，130 年後還是台北最年輕的街.md",
-      "Technology/飲料封膜機：從一碗蘿蔔湯的啟發到全球手搖飲的技術支柱.md",
+      "Art/江賢二：逃離臺灣四十五年，回家後才畫得出他這輩子最好的畫.md",
+      "Art/葉廷皓：把「非正確」使用科技逼出意外的音像藝術家，43 歲那年留下整座生態.md",
+      "Technology/台灣 BIM 與營建科技：政府推十二年的因案制宜，被一個十八個月的 protocol 改寫.md",
       "Technology/半導體產業：從 RCA 技轉到氮化鎵與量子封裝的 50 年材料革命.md",
-      "People/林書豪：從 15 天被裁兩次到 TPBL 雙料 MVP 退休的籃球路.md"
+      "Geography/公館：日本帝國的研究室、戒嚴期的地下沙龍、台大學生的炸雞排，500 公尺三個世紀.md",
+      "Geography/北投溫泉街：1697 採硫到 2026 浴博，同一片山泉換了四代住民.md",
+      "Geography/四四南村：兵工廠的眷村，現在是 101 旁的文創園區.md",
+      "Geography/士林：凱達格蘭族的地、漳泉械鬥的廟、現在每天晚上是台北最擁擠的夜市.md",
+      "Geography/大龍峒：保安宮的香、孔廟的鐘、圓山的青天白日，三個時代的台北信仰.md",
+      "Geography/寶藏巖：拆了 30 年的違章聚落，最後變成台北最酷的藝術村.md",
+      "Geography/永康街：日本教授住過、外省人逃難來，現在是日韓觀光客的台北.md",
+      "Geography/牯嶺街：日人留下的書街、楊德昌的少年、國府的宮殿.md"
     ],
     "ja": [
-      "Geography/大稻埕：800 公尺三個世紀，從 Formosa Tea 到二二八第一槍.md",
-      "Geography/艋舺：清領台北最熱鬧的地方，現在是台北平均年齡最老的區.md",
-      "Geography/西門町：日本人 1896 蓋的娛樂街，130 年後還是台北最年輕的街.md",
-      "Technology/飲料封膜機：從一碗蘿蔔湯的啟發到全球手搖飲的技術支柱.md"
+      "Art/江賢二：逃離臺灣四十五年，回家後才畫得出他這輩子最好的畫.md",
+      "Art/葉廷皓：把「非正確」使用科技逼出意外的音像藝術家，43 歲那年留下整座生態.md",
+      "Technology/台灣 BIM 與營建科技：政府推十二年的因案制宜，被一個十八個月的 protocol 改寫.md",
+      "Geography/公館：日本帝國的研究室、戒嚴期的地下沙龍、台大學生的炸雞排，500 公尺三個世紀.md",
+      "Geography/北投溫泉街：1697 採硫到 2026 浴博，同一片山泉換了四代住民.md",
+      "Geography/四四南村：兵工廠的眷村，現在是 101 旁的文創園區.md",
+      "Geography/士林：凱達格蘭族的地、漳泉械鬥的廟、現在每天晚上是台北最擁擠的夜市.md",
+      "Geography/大龍峒：保安宮的香、孔廟的鐘、圓山的青天白日，三個時代的台北信仰.md",
+      "Geography/寶藏巖：拆了 30 年的違章聚落，最後變成台北最酷的藝術村.md",
+      "Geography/永康街：日本教授住過、外省人逃難來，現在是日韓觀光客的台北.md",
+      "Geography/牯嶺街：日人留下的書街、楊德昌的少年、國府的宮殿.md"
     ],
     "ko": [
-      "Geography/大稻埕：800 公尺三個世紀，從 Formosa Tea 到二二八第一槍.md",
-      "Geography/艋舺：清領台北最熱鬧的地方，現在是台北平均年齡最老的區.md",
-      "Geography/西門町：日本人 1896 蓋的娛樂街，130 年後還是台北最年輕的街.md",
-      "Technology/飲料封膜機：從一碗蘿蔔湯的啟發到全球手搖飲的技術支柱.md"
+      "Art/江賢二：逃離臺灣四十五年，回家後才畫得出他這輩子最好的畫.md",
+      "Art/葉廷皓：把「非正確」使用科技逼出意外的音像藝術家，43 歲那年留下整座生態.md",
+      "Technology/台灣 BIM 與營建科技：政府推十二年的因案制宜，被一個十八個月的 protocol 改寫.md",
+      "Geography/公館：日本帝國的研究室、戒嚴期的地下沙龍、台大學生的炸雞排，500 公尺三個世紀.md",
+      "Geography/北投溫泉街：1697 採硫到 2026 浴博，同一片山泉換了四代住民.md",
+      "Geography/四四南村：兵工廠的眷村，現在是 101 旁的文創園區.md",
+      "Geography/士林：凱達格蘭族的地、漳泉械鬥的廟、現在每天晚上是台北最擁擠的夜市.md",
+      "Geography/大龍峒：保安宮的香、孔廟的鐘、圓山的青天白日，三個時代的台北信仰.md",
+      "Geography/寶藏巖：拆了 30 年的違章聚落，最後變成台北最酷的藝術村.md",
+      "Geography/永康街：日本教授住過、外省人逃難來，現在是日韓觀光客的台北.md",
+      "Geography/牯嶺街：日人留下的書街、楊德昌的少年、國府的宮殿.md"
     ],
     "es": [
-      "Geography/大稻埕：800 公尺三個世紀，從 Formosa Tea 到二二八第一槍.md",
-      "Geography/艋舺：清領台北最熱鬧的地方，現在是台北平均年齡最老的區.md",
-      "Geography/西門町：日本人 1896 蓋的娛樂街，130 年後還是台北最年輕的街.md",
-      "Technology/飲料封膜機：從一碗蘿蔔湯的啟發到全球手搖飲的技術支柱.md",
-      "Food/牛肉麵.md"
+      "Art/江賢二：逃離臺灣四十五年，回家後才畫得出他這輩子最好的畫.md",
+      "Art/葉廷皓：把「非正確」使用科技逼出意外的音像藝術家，43 歲那年留下整座生態.md",
+      "Technology/台灣 BIM 與營建科技：政府推十二年的因案制宜，被一個十八個月的 protocol 改寫.md",
+      "Geography/公館：日本帝國的研究室、戒嚴期的地下沙龍、台大學生的炸雞排，500 公尺三個世紀.md",
+      "Geography/北投溫泉街：1697 採硫到 2026 浴博，同一片山泉換了四代住民.md",
+      "Geography/四四南村：兵工廠的眷村，現在是 101 旁的文創園區.md",
+      "Geography/士林：凱達格蘭族的地、漳泉械鬥的廟、現在每天晚上是台北最擁擠的夜市.md",
+      "Geography/大龍峒：保安宮的香、孔廟的鐘、圓山的青天白日，三個時代的台北信仰.md",
+      "Geography/寶藏巖：拆了 30 年的違章聚落，最後變成台北最酷的藝術村.md",
+      "Geography/永康街：日本教授住過、外省人逃難來，現在是日韓觀光客的台北.md",
+      "Geography/牯嶺街：日人留下的書街、楊德昌的少年、國府的宮殿.md"
     ],
     "fr": [
-      "Geography/大稻埕：800 公尺三個世紀，從 Formosa Tea 到二二八第一槍.md",
-      "Geography/艋舺：清領台北最熱鬧的地方，現在是台北平均年齡最老的區.md",
-      "Geography/西門町：日本人 1896 蓋的娛樂街，130 年後還是台北最年輕的街.md",
-      "Technology/飲料封膜機：從一碗蘿蔔湯的啟發到全球手搖飲的技術支柱.md"
+      "Art/江賢二：逃離臺灣四十五年，回家後才畫得出他這輩子最好的畫.md",
+      "Art/葉廷皓：把「非正確」使用科技逼出意外的音像藝術家，43 歲那年留下整座生態.md",
+      "Technology/台灣 BIM 與營建科技：政府推十二年的因案制宜，被一個十八個月的 protocol 改寫.md",
+      "Geography/公館：日本帝國的研究室、戒嚴期的地下沙龍、台大學生的炸雞排，500 公尺三個世紀.md",
+      "Geography/北投溫泉街：1697 採硫到 2026 浴博，同一片山泉換了四代住民.md",
+      "Geography/四四南村：兵工廠的眷村，現在是 101 旁的文創園區.md",
+      "Geography/士林：凱達格蘭族的地、漳泉械鬥的廟、現在每天晚上是台北最擁擠的夜市.md",
+      "Geography/大龍峒：保安宮的香、孔廟的鐘、圓山的青天白日，三個時代的台北信仰.md",
+      "Geography/寶藏巖：拆了 30 年的違章聚落，最後變成台北最酷的藝術村.md",
+      "Geography/永康街：日本教授住過、外省人逃難來，現在是日韓觀光客的台北.md",
+      "Geography/牯嶺街：日人留下的書街、楊德昌的少年、國府的宮殿.md"
     ]
   },
   "statusSource": "translation-status.json",

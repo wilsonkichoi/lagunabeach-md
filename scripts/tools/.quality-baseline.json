@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-05-21T15:09:45Z",
-  "total": 737,
-  "flagged": 314,
+  "timestamp": "2026-05-22T15:09:03Z",
+  "total": 749,
+  "flagged": 315,
   "files": [
     {
       "file": "music/拍謝少年.md",
@@ -173,6 +173,11 @@
       "file": "technology/台灣太空產業發展.md",
       "score": 6,
       "reasons": "未人工審核; 塑膠句1個; 後段清單堆砌34%; 品質衰退前25%後16%; 無腳註"
+    },
+    {
+      "file": "technology/台灣BIM與營建科技.md",
+      "score": 6,
+      "reasons": "空洞詞7個; 未人工審核; 破折號29個; 稀薄段落×1"
     },
     {
       "file": "technology/台灣災難醫療體系.md",
@@ -786,8 +791,8 @@
     },
     {
       "file": "people/許倬雲.md",
-      "score": 4,
-      "reasons": "空洞詞6個; 未人工審核; 塑膠句1個; 破折號6個"
+      "score": 8,
+      "reasons": "未人工審核; 連續bullet4行; 塑膠句3個; 破折號61個; 稀薄段落×1"
     },
     {
       "file": "people/陳建年.md",
