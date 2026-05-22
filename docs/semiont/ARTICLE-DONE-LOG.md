@@ -59,6 +59,19 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 落日飛車 NEW — 2026-05-23 2026-05-23-000000-twmd-rewrite-daily（cron daily 接續 ARTICLE-INBOX P0 — Sunset Rollercoaster 全英語 City Pop 樂團 14 年從台北師大路 Photo Booth 走到 Coachella Sonora 舞台）
+
+- **Article**: [knowledge/Music/落日飛車.md](../../knowledge/Music/落日飛車.md) — 4531 CJK chars / 8 H2 / 40 footnote / 3 圖（hero + 2 inline Puramyun31 攝 2018-04-06 演出，全 CC BY 2.5）
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式（既有 Hub 文章 Music/台灣獨立音樂.md 有 2 paragraph anchor 供 cross-link 但 NEW article 缺）
+- **核心矛盾**（Stage 1.4 鎖定，從 Stage 0 三候選 A/B/C 收斂）：「英文唱台北的夕陽，反而讓台灣最被聽見」— Bandcamp Daily / NME / 報導者 多源確認英語是「讓詩意自己浮出來」+ 印尼雅加達是 Spotify 月聽眾最多城市的事實放大張力
+- **Stage 1 falsifications（CRITICAL 7 條校正既有 Hub + INBOX）**：(1) 主唱國國前團不是 Manic Sheep — 實際是 Acid Lips / F.L.A.T CLUB / Boyz & Girl / 來吧！焙焙！（Hub 寫錯）(2) 2017 紐約 SummerStage 是錯的 — 實際 2016-07-16 Taiwanese Waves（Hub 寫錯）(3) 「2019/2022 Coachella 兩度」是錯的 — 只有 2023 一次，4/15+4/22 Sonora 舞台（INBOX 寫錯）(4) Taiwan News「Coachella 33 年首組」邏輯不可能（Coachella 1999 才開始），採 Blow「超過二十年來首組」(5) JinJi Kikko Records 不是廠牌名，廠牌是「夕陽音樂產業」(6) Hiatus 期間 Kuo + Lo 搞過 dark industrial side project「Forest」(7) 2015 國國 1300 度近視免役 + 結束 Algae 樂團吉他手 = 重組契機（Hub 完全沒提）
+- **品質**：40 footnote / 4531 字 / 對位句型 0 violations / 破折號密度低於 ≤15/1500 上限 / prose-health score 1 ≤ 3 pass / **Stage 4 rewrite-stage-4 hard=0 warn=0 全綠 ✅**
+- **Hook**：「落日飛車：從一張 Photo Booth 背景照走到 Coachella，全英語唱台北夕陽的 14 年」— 冒號三明治格式 v6.3 + Title 代表性 > 反諷 hook 原則
+- **8 H2 全 scene/物件/矛盾 anchor，0 編年體**：Photo Booth 裡那張 pre-set / Abbey Road 母帶，然後沒了 / 1300 度近視通知書 / Jinji 不是金桔 / Audiotree 那五首 / 沙漠裡的 Sonora 舞台 / 成為自己的光（含「你知道嗎」+「策展人筆記」×2 +「爭議觀點」+「✦ 結尾警句」5 個富文本元素）
+- **媒體授權**：3 圖全 Puramyun31 攝 2018-04-06 Wikimedia Commons CC BY 2.5 同場（hero (1).jpg + inline (5).jpg + (8).jpg）+ §圖片來源 section 完整 attribution
+- **Research**: [reports/research/2026-05/落日飛車.md](../../reports/research/2026-05/落日飛車.md) — Stage 0 §觀點成型 + Stage 1 agent 64 search deliverable（37 footnote / 15 verbatim quote / 完整 discography + lineup + tour + awards 表 + Wikimedia 9 圖 manifest）
+- **Hub 反向 cross-link 待補**：Music/台灣獨立音樂.md 段落 "2017 年紐約中央公園 SummerStage" 應更新為 2016 + 添加 [[落日飛車]] wikilink（Stage 5 deferred 為下一 routine 接力）
+
 ### 馬英九 EVOLVE — 2026-05-23 2026-05-22-121707-manual（哲宇 explicit /twmd-rewrite 觸發「深度研究進化馬英九文章」+ 拍板「立體 portrait + 多元觀點並陳」framing，不收斂為單一 thesis）
 
 - **Article**: [knowledge/People/馬英九.md](../../knowledge/People/馬英九.md) — EVOLVE 130 → 296 行（body **6573 字 CJK，146% of 4500 門檻**）

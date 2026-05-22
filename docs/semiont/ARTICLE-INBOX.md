@@ -1203,22 +1203,6 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Dev log**:
   - 2026-04-23 α（heartbeat）：Stage 0 事實修正執行——王福瑞段落兩個歸功錯誤已訂正（在地實驗創辦人改為黃文浩；失聲祭創辦人改為姚仲涵 + 北藝大同儕），footnote [^13][^14] 補齊，sync 完成。Stage 1 完整研究尚待後續 session。
 
-### 落日飛車
-
-- **Type**: `NEW`
-- **Category**: Music
-- **Priority**: `P0`
-- **Status**: `pending`
-- **Requested**: 2026-04-27 by session-6661575f (twindiemusic.com 分析任務)
-- **Notes**:
-  - 台灣最國際化的獨立樂團，2019/2022 年兩度登上 Coachella
-  - City Pop × Shoegaze 融合，全球市場知名度高
-  - twindiemusic.com 第一條收錄樂團
-  - 英文翻譯優先（國際 SEO gap 最明顯）
-  - 必驗事實：Coachella 年份、主要成員、代表專輯發行年（《Jinji Kikko》2017、《Soft Storm》2020）
-  - 敏感度：低
-- **Reference**: https://twindiemusic.com/
-
 ### 大象體操
 
 - **Type**: `NEW`
