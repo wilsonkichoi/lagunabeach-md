@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-23T00:52:56+08:00",
-    "zhCommitHead": "215a98b4c",
+    "lastUpdated": "2026-05-23T07:07:03+08:00",
+    "zhCommitHead": "dc79ff746",
     "totalZh": 750,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
         "total_zh": 750,
-        "fresh": 669,
-        "stale": 69,
+        "fresh": 684,
+        "stale": 66,
         "metadata_stale": 0,
-        "missing": 12,
+        "missing": 0,
         "orphan": 0
       },
       "ja": {
         "total_zh": 750,
-        "fresh": 672,
-        "stale": 66,
+        "fresh": 687,
+        "stale": 63,
         "metadata_stale": 0,
-        "missing": 12,
+        "missing": 0,
         "orphan": 0
       },
       "ko": {
         "total_zh": 750,
-        "fresh": 673,
-        "stale": 65,
+        "fresh": 688,
+        "stale": 62,
         "metadata_stale": 0,
-        "missing": 12,
+        "missing": 0,
         "orphan": 0
       },
       "es": {
         "total_zh": 750,
-        "fresh": 674,
-        "stale": 64,
+        "fresh": 689,
+        "stale": 61,
         "metadata_stale": 0,
-        "missing": 12,
+        "missing": 0,
         "orphan": 0
       },
       "fr": {
         "total_zh": 750,
-        "fresh": 672,
-        "stale": 66,
+        "fresh": 687,
+        "stale": 63,
         "metadata_stale": 0,
-        "missing": 12,
+        "missing": 0,
         "orphan": 0
       }
     },
@@ -2109,19 +2109,69 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Music/sunset-rollercoaster.md",
+          "translatedFrom": "Music/落日飛車.md",
+          "sourceCommitSha": "6620c2084",
+          "sourceContentHash": "sha256:6cf9d302ef67a163",
+          "sourceBodyHash": "sha256:9563b2f3f46da3f2",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Music/sunset-rollercoaster.md",
+          "translatedFrom": "Music/落日飛車.md",
+          "sourceCommitSha": "6620c2084",
+          "sourceContentHash": "sha256:6cf9d302ef67a163",
+          "sourceBodyHash": "sha256:9563b2f3f46da3f2",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Music/sunset-rollercoaster.md",
+          "translatedFrom": "Music/落日飛車.md",
+          "sourceCommitSha": "6620c2084",
+          "sourceContentHash": "sha256:6cf9d302ef67a163",
+          "sourceBodyHash": "sha256:9563b2f3f46da3f2",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Music/sunset-rollercoaster.md",
+          "translatedFrom": "Music/落日飛車.md",
+          "sourceCommitSha": "6620c2084",
+          "sourceContentHash": "sha256:6cf9d302ef67a163",
+          "sourceBodyHash": "sha256:9563b2f3f46da3f2",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Music/sunset-rollercoaster.md",
+          "translatedFrom": "Music/落日飛車.md",
+          "sourceCommitSha": "6620c2084",
+          "sourceContentHash": "sha256:6cf9d302ef67a163",
+          "sourceBodyHash": "sha256:9563b2f3f46da3f2",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -7199,19 +7249,69 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Technology/taiwan-bim-construction-tech.md",
+          "translatedFrom": "Technology/台灣BIM與營建科技.md",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:eb74ed8e8bb7aa41",
+          "sourceBodyHash": "sha256:76d8e776ea9fdea0",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Technology/taiwan-bim-construction-tech.md",
+          "translatedFrom": "Technology/台灣BIM與營建科技.md",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:eb74ed8e8bb7aa41",
+          "sourceBodyHash": "sha256:76d8e776ea9fdea0",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Technology/taiwan-bim-construction-tech.md",
+          "translatedFrom": "Technology/台灣BIM與營建科技.md",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:eb74ed8e8bb7aa41",
+          "sourceBodyHash": "sha256:76d8e776ea9fdea0",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Technology/taiwan-bim-construction-tech.md",
+          "translatedFrom": "Technology/台灣BIM與營建科技.md",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:eb74ed8e8bb7aa41",
+          "sourceBodyHash": "sha256:76d8e776ea9fdea0",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Technology/taiwan-bim-construction-tech.md",
+          "translatedFrom": "Technology/台灣BIM與營建科技.md",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:eb74ed8e8bb7aa41",
+          "sourceBodyHash": "sha256:76d8e776ea9fdea0",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -10939,19 +11039,69 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Art/chiang-hsien-yi.md",
+          "translatedFrom": "Art/江賢二.md",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:c38582a4b5f193c8",
+          "sourceBodyHash": "sha256:e7a4bdc28a3902e5",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Art/chiang-hsien-yi.md",
+          "translatedFrom": "Art/江賢二.md",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:c38582a4b5f193c8",
+          "sourceBodyHash": "sha256:e7a4bdc28a3902e5",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Art/chiang-hsien-yi.md",
+          "translatedFrom": "Art/江賢二.md",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:c38582a4b5f193c8",
+          "sourceBodyHash": "sha256:e7a4bdc28a3902e5",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Art/chiang-hsien-yi.md",
+          "translatedFrom": "Art/江賢二.md",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:c38582a4b5f193c8",
+          "sourceBodyHash": "sha256:e7a4bdc28a3902e5",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Art/chiang-hsien-yi.md",
+          "translatedFrom": "Art/江賢二.md",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:c38582a4b5f193c8",
+          "sourceBodyHash": "sha256:e7a4bdc28a3902e5",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -11339,19 +11489,69 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Art/yeh-ting-hao.md",
+          "translatedFrom": "Art/葉廷皓.md",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:e5384b49d3042d4c",
+          "sourceBodyHash": "sha256:68638d0c9d2b3a31",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Art/yeh-ting-hao.md",
+          "translatedFrom": "Art/葉廷皓.md",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:e5384b49d3042d4c",
+          "sourceBodyHash": "sha256:68638d0c9d2b3a31",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Art/yeh-ting-hao.md",
+          "translatedFrom": "Art/葉廷皓.md",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:e5384b49d3042d4c",
+          "sourceBodyHash": "sha256:68638d0c9d2b3a31",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Art/yeh-ting-hao.md",
+          "translatedFrom": "Art/葉廷皓.md",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:e5384b49d3042d4c",
+          "sourceBodyHash": "sha256:68638d0c9d2b3a31",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Art/yeh-ting-hao.md",
+          "translatedFrom": "Art/葉廷皓.md",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:e5384b49d3042d4c",
+          "sourceBodyHash": "sha256:68638d0c9d2b3a31",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -28776,77 +28976,67 @@
         "en": {
           "path": "en/People/cho-yun-hsu-bridging-historian.md",
           "translatedFrom": "People/許倬雲.md",
-          "sourceCommitSha": "f99a9959",
-          "sourceContentHash": "sha256:77e8dd6633b6a3b4",
-          "sourceBodyHash": "sha256:4b05f06a8d450f72",
-          "translatedAt": "2026-04-14T12:25:09+08:00",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:0c9949155c5c0648",
+          "sourceBodyHash": "sha256:57043271a01352ae",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+333 -67"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/People/cho-yun-hsu-bridging-historian.md",
           "translatedFrom": "People/許倬雲.md",
-          "sourceCommitSha": "f99a9959",
-          "sourceContentHash": "sha256:77e8dd6633b6a3b4",
-          "sourceBodyHash": "sha256:4b05f06a8d450f72",
-          "translatedAt": "2026-05-01T19:52:32+08:00",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:0c9949155c5c0648",
+          "sourceBodyHash": "sha256:57043271a01352ae",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+333 -67"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/People/cho-yun-hsu-bridging-historian.md",
           "translatedFrom": "People/許倬雲.md",
-          "sourceCommitSha": "f99a9959",
-          "sourceContentHash": "sha256:77e8dd6633b6a3b4",
-          "sourceBodyHash": "sha256:4b05f06a8d450f72",
-          "translatedAt": "2026-04-14T19:25:11+08:00",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:0c9949155c5c0648",
+          "sourceBodyHash": "sha256:57043271a01352ae",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+333 -67"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/People/cho-yun-hsu-bridging-historian.md",
           "translatedFrom": "People/許倬雲.md",
-          "sourceCommitSha": "f99a9959",
-          "sourceContentHash": "sha256:77e8dd6633b6a3b4",
-          "sourceBodyHash": "sha256:4b05f06a8d450f72",
-          "translatedAt": "2026-05-01T22:19:10+08:00",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:0c9949155c5c0648",
+          "sourceBodyHash": "sha256:57043271a01352ae",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+333 -67"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/People/cho-yun-hsu-bridging-historian.md",
           "translatedFrom": "People/許倬雲.md",
-          "sourceCommitSha": "f99a9959",
-          "sourceContentHash": "sha256:77e8dd6633b6a3b4",
-          "sourceBodyHash": "sha256:4b05f06a8d450f72",
-          "translatedAt": "2026-04-14T19:18:50+08:00",
+          "sourceCommitSha": "43bf36374",
+          "sourceContentHash": "sha256:0c9949155c5c0648",
+          "sourceBodyHash": "sha256:57043271a01352ae",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+333 -67"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -37841,77 +38031,67 @@
         "en": {
           "path": "en/People/ma-ying-jeou-cross-strait-reconciliation-leader.md",
           "translatedFrom": "People/馬英九.md",
-          "sourceCommitSha": "f99a9959",
-          "sourceContentHash": "sha256:b41414618f20f1f9",
-          "sourceBodyHash": "sha256:a0f41267758763fd",
-          "translatedAt": "2026-05-01T12:21:52+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "sourceCommitSha": "2b8f91a23",
+          "sourceContentHash": "sha256:1498ccd5109eb737",
+          "sourceBodyHash": "sha256:d4e7bc648af540da",
+          "translatedAt": "2026-05-23T00:54:07+08:00",
+          "translationLastCommit": "4edc55b3",
+          "translationLastModified": "2026-05-23T01:01:32+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+247 -66"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/People/ma-ying-jeou-cross-strait-reconciliation-leader.md",
           "translatedFrom": "People/馬英九.md",
-          "sourceCommitSha": "f99a9959",
-          "sourceContentHash": "sha256:b41414618f20f1f9",
-          "sourceBodyHash": "sha256:a0f41267758763fd",
-          "translatedAt": "2026-05-01T19:52:32+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "sourceCommitSha": "2b8f91a23",
+          "sourceContentHash": "sha256:1498ccd5109eb737",
+          "sourceBodyHash": "sha256:d4e7bc648af540da",
+          "translatedAt": "2026-05-23T00:54:08+08:00",
+          "translationLastCommit": "4edc55b3",
+          "translationLastModified": "2026-05-23T01:01:32+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+247 -66"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/People/ma-ying-jeou-cross-strait-reconciliation-leader.md",
           "translatedFrom": "People/馬英九.md",
-          "sourceCommitSha": "f99a9959",
-          "sourceContentHash": "sha256:b41414618f20f1f9",
-          "sourceBodyHash": "sha256:a0f41267758763fd",
-          "translatedAt": "2026-05-01T22:19:01+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "sourceCommitSha": "2b8f91a23",
+          "sourceContentHash": "sha256:1498ccd5109eb737",
+          "sourceBodyHash": "sha256:d4e7bc648af540da",
+          "translatedAt": "2026-05-23T00:54:08+08:00",
+          "translationLastCommit": "4edc55b3",
+          "translationLastModified": "2026-05-23T01:01:32+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+247 -66"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/People/ma-ying-jeou-cross-strait-reconciliation-leader.md",
           "translatedFrom": "People/馬英九.md",
-          "sourceCommitSha": "f99a9959",
-          "sourceContentHash": "sha256:b41414618f20f1f9",
-          "sourceBodyHash": "sha256:a0f41267758763fd",
-          "translatedAt": "2026-05-01T22:19:10+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "sourceCommitSha": "2b8f91a23",
+          "sourceContentHash": "sha256:1498ccd5109eb737",
+          "sourceBodyHash": "sha256:d4e7bc648af540da",
+          "translatedAt": "2026-05-23T00:54:08+08:00",
+          "translationLastCommit": "4edc55b3",
+          "translationLastModified": "2026-05-23T01:01:32+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+247 -66"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/People/ma-ying-jeou-cross-strait-reconciliation-leader.md",
           "translatedFrom": "People/馬英九.md",
-          "sourceCommitSha": "f99a9959",
-          "sourceContentHash": "sha256:b41414618f20f1f9",
-          "sourceBodyHash": "sha256:a0f41267758763fd",
-          "translatedAt": "2026-05-01T22:19:06+08:00",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "sourceCommitSha": "2b8f91a23",
+          "sourceContentHash": "sha256:1498ccd5109eb737",
+          "sourceBodyHash": "sha256:d4e7bc648af540da",
+          "translatedAt": "2026-05-23T00:54:08+08:00",
+          "translationLastCommit": "4edc55b3",
+          "translationLastModified": "2026-05-23T01:01:32+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+247 -66"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -47748,19 +47928,69 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Geography/yongkang-street.md",
+          "translatedFrom": "Geography/永康街.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:487b25e8723770a3",
+          "sourceBodyHash": "sha256:6a885fd47c57b5c2",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Geography/yongkang-street.md",
+          "translatedFrom": "Geography/永康街.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:487b25e8723770a3",
+          "sourceBodyHash": "sha256:6a885fd47c57b5c2",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Geography/yongkang-street.md",
+          "translatedFrom": "Geography/永康街.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:487b25e8723770a3",
+          "sourceBodyHash": "sha256:6a885fd47c57b5c2",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Geography/yongkang-street.md",
+          "translatedFrom": "Geography/永康街.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:487b25e8723770a3",
+          "sourceBodyHash": "sha256:6a885fd47c57b5c2",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Geography/yongkang-street.md",
+          "translatedFrom": "Geography/永康街.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:487b25e8723770a3",
+          "sourceBodyHash": "sha256:6a885fd47c57b5c2",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -48233,19 +48463,69 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Geography/guling-street.md",
+          "translatedFrom": "Geography/牯嶺街.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:60a94b0bc50deac1",
+          "sourceBodyHash": "sha256:cddbd35e35cf2d2e",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Geography/guling-street.md",
+          "translatedFrom": "Geography/牯嶺街.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:60a94b0bc50deac1",
+          "sourceBodyHash": "sha256:cddbd35e35cf2d2e",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Geography/guling-street.md",
+          "translatedFrom": "Geography/牯嶺街.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:60a94b0bc50deac1",
+          "sourceBodyHash": "sha256:cddbd35e35cf2d2e",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Geography/guling-street.md",
+          "translatedFrom": "Geography/牯嶺街.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:60a94b0bc50deac1",
+          "sourceBodyHash": "sha256:cddbd35e35cf2d2e",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Geography/guling-street.md",
+          "translatedFrom": "Geography/牯嶺街.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:60a94b0bc50deac1",
+          "sourceBodyHash": "sha256:cddbd35e35cf2d2e",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -48558,19 +48838,69 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Geography/gongguan.md",
+          "translatedFrom": "Geography/公館.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:8c674665d432e2f8",
+          "sourceBodyHash": "sha256:269fe229b33b29a3",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Geography/gongguan.md",
+          "translatedFrom": "Geography/公館.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:8c674665d432e2f8",
+          "sourceBodyHash": "sha256:269fe229b33b29a3",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Geography/gongguan.md",
+          "translatedFrom": "Geography/公館.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:8c674665d432e2f8",
+          "sourceBodyHash": "sha256:269fe229b33b29a3",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Geography/gongguan.md",
+          "translatedFrom": "Geography/公館.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:8c674665d432e2f8",
+          "sourceBodyHash": "sha256:269fe229b33b29a3",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Geography/gongguan.md",
+          "translatedFrom": "Geography/公館.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:8c674665d432e2f8",
+          "sourceBodyHash": "sha256:269fe229b33b29a3",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -49063,19 +49393,69 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Geography/beitou-hot-spring-street.md",
+          "translatedFrom": "Geography/北投溫泉街.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:1f142c7ded5634b0",
+          "sourceBodyHash": "sha256:03a51dfb5a6b4eb8",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Geography/beitou-hot-spring-street.md",
+          "translatedFrom": "Geography/北投溫泉街.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:1f142c7ded5634b0",
+          "sourceBodyHash": "sha256:03a51dfb5a6b4eb8",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Geography/beitou-hot-spring-street.md",
+          "translatedFrom": "Geography/北投溫泉街.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:1f142c7ded5634b0",
+          "sourceBodyHash": "sha256:03a51dfb5a6b4eb8",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Geography/beitou-hot-spring-street.md",
+          "translatedFrom": "Geography/北投溫泉街.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:1f142c7ded5634b0",
+          "sourceBodyHash": "sha256:03a51dfb5a6b4eb8",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Geography/beitou-hot-spring-street.md",
+          "translatedFrom": "Geography/北投溫泉街.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:1f142c7ded5634b0",
+          "sourceBodyHash": "sha256:03a51dfb5a6b4eb8",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -49163,19 +49543,69 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Geography/treasure-hill.md",
+          "translatedFrom": "Geography/寶藏巖.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:34c40d44d4f457e7",
+          "sourceBodyHash": "sha256:e2bebc0edf0593c1",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Geography/treasure-hill.md",
+          "translatedFrom": "Geography/寶藏巖.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:34c40d44d4f457e7",
+          "sourceBodyHash": "sha256:e2bebc0edf0593c1",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Geography/treasure-hill.md",
+          "translatedFrom": "Geography/寶藏巖.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:34c40d44d4f457e7",
+          "sourceBodyHash": "sha256:e2bebc0edf0593c1",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Geography/treasure-hill.md",
+          "translatedFrom": "Geography/寶藏巖.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:34c40d44d4f457e7",
+          "sourceBodyHash": "sha256:e2bebc0edf0593c1",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Geography/treasure-hill.md",
+          "translatedFrom": "Geography/寶藏巖.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:34c40d44d4f457e7",
+          "sourceBodyHash": "sha256:e2bebc0edf0593c1",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -50280,77 +50710,67 @@
         "en": {
           "path": "en/Geography/zhongshan-north-road-tiaotong.md",
           "translatedFrom": "Geography/中山北路條通.md",
-          "sourceCommitSha": "2d503ec61",
-          "sourceContentHash": "sha256:1cbc7b1359d93b1a",
-          "sourceBodyHash": "sha256:4a74852d8cd0b904",
-          "translatedAt": "2026-05-22T05:08:46+08:00",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:b588a53aa70524ed",
+          "sourceBodyHash": "sha256:c3fdba51ee1eb327",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
           "translationLastCommit": "1dd167b3",
           "translationLastModified": "2026-05-22T08:18:22+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+149 -131"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Geography/zhongshan-north-road-tiaotong.md",
           "translatedFrom": "Geography/中山北路條通.md",
-          "sourceCommitSha": "2d503ec61",
-          "sourceContentHash": "sha256:1cbc7b1359d93b1a",
-          "sourceBodyHash": "sha256:4a74852d8cd0b904",
-          "translatedAt": "2026-05-22T05:08:46+08:00",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:b588a53aa70524ed",
+          "sourceBodyHash": "sha256:c3fdba51ee1eb327",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
           "translationLastCommit": "1dd167b3",
           "translationLastModified": "2026-05-22T08:18:22+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+149 -131"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Geography/zhongshan-north-road-tiaotong.md",
           "translatedFrom": "Geography/中山北路條通.md",
-          "sourceCommitSha": "2d503ec61",
-          "sourceContentHash": "sha256:1cbc7b1359d93b1a",
-          "sourceBodyHash": "sha256:4a74852d8cd0b904",
-          "translatedAt": "2026-05-22T05:08:46+08:00",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:b588a53aa70524ed",
+          "sourceBodyHash": "sha256:c3fdba51ee1eb327",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
           "translationLastCommit": "1dd167b3",
           "translationLastModified": "2026-05-22T08:18:22+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+149 -131"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Geography/zhongshan-north-road-tiaotong.md",
           "translatedFrom": "Geography/中山北路條通.md",
-          "sourceCommitSha": "2d503ec61",
-          "sourceContentHash": "sha256:1cbc7b1359d93b1a",
-          "sourceBodyHash": "sha256:4a74852d8cd0b904",
-          "translatedAt": "2026-05-22T05:08:47+08:00",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:b588a53aa70524ed",
+          "sourceBodyHash": "sha256:c3fdba51ee1eb327",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
           "translationLastCommit": "1dd167b3",
           "translationLastModified": "2026-05-22T08:18:22+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+149 -131"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Geography/zhongshan-north-road-tiaotong.md",
           "translatedFrom": "Geography/中山北路條通.md",
-          "sourceCommitSha": "2d503ec61",
-          "sourceContentHash": "sha256:1cbc7b1359d93b1a",
-          "sourceBodyHash": "sha256:4a74852d8cd0b904",
-          "translatedAt": "2026-05-22T05:08:47+08:00",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:b588a53aa70524ed",
+          "sourceBodyHash": "sha256:c3fdba51ee1eb327",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
           "translationLastCommit": "1dd167b3",
           "translationLastModified": "2026-05-22T08:18:22+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 1,
-          "diffSummary": "+149 -131"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -50833,19 +51253,69 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Geography/dalongdong.md",
+          "translatedFrom": "Geography/大龍峒.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:2d241cf14a32c31c",
+          "sourceBodyHash": "sha256:a8ccdeedc763960a",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Geography/dalongdong.md",
+          "translatedFrom": "Geography/大龍峒.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:2d241cf14a32c31c",
+          "sourceBodyHash": "sha256:a8ccdeedc763960a",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Geography/dalongdong.md",
+          "translatedFrom": "Geography/大龍峒.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:2d241cf14a32c31c",
+          "sourceBodyHash": "sha256:a8ccdeedc763960a",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Geography/dalongdong.md",
+          "translatedFrom": "Geography/大龍峒.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:2d241cf14a32c31c",
+          "sourceBodyHash": "sha256:a8ccdeedc763960a",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Geography/dalongdong.md",
+          "translatedFrom": "Geography/大龍峒.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:2d241cf14a32c31c",
+          "sourceBodyHash": "sha256:a8ccdeedc763960a",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -51403,19 +51873,69 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Geography/44-south-village.md",
+          "translatedFrom": "Geography/四四南村.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:57f04d13463f00b4",
+          "sourceBodyHash": "sha256:1c7f0374da6219da",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Geography/44-south-village.md",
+          "translatedFrom": "Geography/四四南村.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:57f04d13463f00b4",
+          "sourceBodyHash": "sha256:1c7f0374da6219da",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Geography/44-south-village.md",
+          "translatedFrom": "Geography/四四南村.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:57f04d13463f00b4",
+          "sourceBodyHash": "sha256:1c7f0374da6219da",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Geography/44-south-village.md",
+          "translatedFrom": "Geography/四四南村.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:57f04d13463f00b4",
+          "sourceBodyHash": "sha256:1c7f0374da6219da",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Geography/44-south-village.md",
+          "translatedFrom": "Geography/四四南村.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:57f04d13463f00b4",
+          "sourceBodyHash": "sha256:1c7f0374da6219da",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -51428,19 +51948,69 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/Geography/shilin.md",
+          "translatedFrom": "Geography/士林.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:0c8f8c0da18a6937",
+          "sourceBodyHash": "sha256:69960ec7a7b5ee93",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/Geography/shilin.md",
+          "translatedFrom": "Geography/士林.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:0c8f8c0da18a6937",
+          "sourceBodyHash": "sha256:69960ec7a7b5ee93",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/Geography/shilin.md",
+          "translatedFrom": "Geography/士林.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:0c8f8c0da18a6937",
+          "sourceBodyHash": "sha256:69960ec7a7b5ee93",
+          "translatedAt": "2026-05-23T05:06:37+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/Geography/shilin.md",
+          "translatedFrom": "Geography/士林.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:0c8f8c0da18a6937",
+          "sourceBodyHash": "sha256:69960ec7a7b5ee93",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/Geography/shilin.md",
+          "translatedFrom": "Geography/士林.md",
+          "sourceCommitSha": "20a4ac337",
+          "sourceContentHash": "sha256:0c8f8c0da18a6937",
+          "sourceBodyHash": "sha256:69960ec7a7b5ee93",
+          "translatedAt": "2026-05-23T05:06:38+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
