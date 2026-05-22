@@ -3,66 +3,91 @@ session_id: '2026-05-23-070000-twmd-spore-harvest-am'
 date: '2026-05-23'
 handle: 'twmd-spore-harvest-am'
 mode: 'cron-routine'
-duration: '< 5 min'
-outcome: 'ABORTED + DEFER next cycle'
+duration: '~30 min'
+outcome: 'PASS with twist — sweep-in pattern meta-confirmed + 5 spores harvested after race resolved'
 ---
 
-# 2026-05-23 07:00 twmd-spore-harvest-am — ABORTED (parallel babel leftover at cwd)
+# 2026-05-23 07:00 twmd-spore-harvest-am — 5 spores harvest + meta-confirmed sweep-in
 
 ## 一句話
 
-Chrome MCP 連線 OK + 5 backfillWarnings (4×D+5 / 1×D+2) 都在 harvest 窗口，但 cwd 72 dirty files (12 modified + 60 untracked babel cascade leftover) 撞 Stage 1.5 DUAL WRITE collision surface 跟 Stage 3 sweep-in 風險 — abort 接住跟 06:13 data-refresh-am ABORT 同一 morning chain defer pattern。
+Chrome MCP 跑通 + 5 backfillWarning spores 都在 D+1-D+7 收割窗口 harvest 完，但前 15 分鐘走 abort 流程（72 dirty babel cascade leftover），LESSONS edit + abort memory 寫好的瞬間 babel routine 自己 sweep-in commit 把它們收進 babel commit `9fb45ede2`——meta-confirmation of「git add . && git commit silently absorb」pattern。Tree 清乾淨後 pivot 回正常 harvest 路徑。
 
-## Stage by stage
+## 時間軸
 
-| Stage               | 結果          | 摘要                                                                                                     |
-| ------------------- | ------------- | -------------------------------------------------------------------------------------------------------- |
-| 0 BECOME            | ✅ Micro mode | Universal core 載入完成，self-test Q1-3/Q4/Q8-11/Q14 全過                                                |
-| 1 git checkout/pull | ⚠️ skipped    | working tree 72 dirty，pull 會卡或 silent merge；不執行 pull                                             |
-| 2 spore-harvest     | ❌ aborted    | Chrome MCP 連線 PASS (Browser 1 isLocal)；5 backfillWarnings 都在窗口但不 harvest — 撞 collision surface |
-| 3 commit + push     | ⚠️ partial    | 只 commit LESSONS-INBOX vc bump + 本 memory；不 `git add .`                                              |
-| 4 finale            | ✅            | 本檔即是                                                                                                 |
+| Time   | 事件                                                                                                                                                                         |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 07:00  | cron fire / BECOME Micro start                                                                                                                                               |
+| 07:02  | Universal core 載完 / consciousness-snapshot 跑完 / git status 揭露 72 dirty                                                                                                 |
+| 07:04  | dashboard-spores.json 讀 5 backfillWarnings (4×D+5 / 1×D+2)                                                                                                                  |
+| 07:06  | ps aux 揭露 **NO active codex/babel/gemini** — pattern shift（leftover 而非 active process）                                                                                 |
+| 07:08  | abort 路徑：LESSONS-INBOX vc 3→5 + 寫 memory abort narrative                                                                                                                 |
+| ~07:10 | **PLOT TWIST**：babel routine 自己 commit `9fb45ede2 twmd-babel: 70 translations` 把 72 dirty + 我的 LESSONS edit + memory 全部 sweep-in 進 babel commit (meta-confirmation) |
+| 07:12  | Tree 清乾淨，pivot 回 harvest 路徑：select Chrome browser                                                                                                                    |
+| 07:15  | navigate + read_page #74 陳建年 Threads                                                                                                                                      |
+| 07:17  | navigate + read_page #76 臺灣前途決議文 Threads                                                                                                                              |
+| 07:19  | batch navigate + read_page #78 泛科學 Threads                                                                                                                                |
+| 07:21  | batch navigate + read_page #75 陳建年 X                                                                                                                                      |
+| 07:23  | batch navigate + read_page #77 臺灣前途決議文 X                                                                                                                              |
+| 07:25  | Write batch-2026-05-23-5-spores.md (atomic batch log SSOT)                                                                                                                   |
+| 07:28  | python3 generate-dashboard-spores.py → 80 spores / 7 warnings / 0 OVERDUE                                                                                                    |
+| 07:29  | python3 validate-spore-data.py → PASS with 5 warnings (3 sporeLinks drift / 2 pre-existing)                                                                                  |
+| 07:30  | Write memory final + commit + push + finale                                                                                                                                  |
 
-## 觸發訊號
+## Harvest 數據總覽
 
-- `routine-status.sh`：2026-05-23 06:13 twmd-data-refresh-am 自記「ABORTED + DEFER PM — parallel codex babel cascade detected at cwd (vc=4)」
-- `git status --porcelain`：72 行（12 modified knowledge/{en,es,fr,ja,ko}/{People/cho-yun-hsu, Geography/zhongshan-north-road} + 60 untracked 12 articles × 5 langs：chiang-hsien-yi / yeh-ting-hao / 44-south-village / beitou-hot-spring-street / dalongdong / gongguan / guling-street / shilin / treasure-hill / yongkang-street / sunset-rollercoaster / taiwan-bim-construction-tech）
-- `ps aux | grep -iE "codex|babel|gemini"`：**NO active translator process**（這次 leftover-mode，跟 5/22 active-mode 不同）
-- `public/api/dashboard-spores.json` mtime：2026-05-22 23:09（昨晚 PM refresh-data 後 stale 8hr，因今早 06:13 refresh ABORT）
+| #   | Slug           | Platform | D+  | Views                  | Likes | Reposts | Replies | Bookmarks |
+| --- | -------------- | -------- | --- | ---------------------- | ----- | ------- | ------- | --------- |
+| 74  | 陳建年         | Threads  | D+5 | 30,000 (3萬 rounded)   | 2,726 | -       | many+   | -         |
+| 75  | 陳建年         | X        | D+5 | 10,172                 | 282   | 45      | 2       | 23        |
+| 76  | 臺灣前途決議文 | Threads  | D+5 | 27,000 (2.7萬 rounded) | 353   | -       | many+   | -         |
+| 77  | 臺灣前途決議文 | X        | D+5 | 224                    | 17    | 3       | 1       | 1         |
+| 78  | 泛科學         | Threads  | D+2 | 1,624                  | 104   | -       | -       | -         |
 
-## 為什麼 abort 不 partial-harvest
+詳：[batch-2026-05-23-5-spores.md](../../factory/SPORE-HARVESTS/batch-2026-05-23-5-spores.md)
 
-1. **Stage 1.5 DUAL WRITE collision**：pipeline 鐵律要求每次 harvest 雙寫 knowledge/{cat}/{slug}.md sporeLinks frontmatter（5 langs × N articles）。leftover babel 已 modify cho-yun-hsu + zhongshan-north-road，若任一 backfill spore link 該 2 articles → 撞 babel 跑到一半的 frontmatter 改動，silent overwrite
-2. **Stage 3 sweep-in 風險**：task description Stage 3 寫 `git add . && git commit` — 會把 60 個 untracked 翻譯 + 12 個 modified frontmatter 全部 absorb 進「routine spore-harvest」commit，違反 atomic commit per concern 原則，造成 git log 不可審計
-3. **morning chain coherence**：06:13 refresh-am 已 ABORT 同 cwd，07:00 spore-harvest abort 跟它一致，09:13 maintainer-am 接到 dashboard 是 8hr stale 但 root cause 一致；若 spore-harvest 假裝沒事跑，會 fork 出 morning chain 內部不一致
-4. **dashboard-spores.json 不更新影響有限**：5 條 backfillWarning 都還在 D+1-D+7 窗口，明天 07:00 retry 仍是合法 cadence
+## 核心 patterns
 
-## 沒做的事 (defer 到下次)
+1. **跨平台 reach 倍數懸殊**：#74 陳建年 Threads:X = 3:1（人物題材對 X 守得住）vs #76 臺灣前途決議文 Threads:X = 120:1（結構性政治題目 X 衰減嚴重）— 未來政治/外交題目 X allocate 需重評
+2. **Engagement rate 跟 reach 反比**：#77 (X 224 views) engagement 9.8% 最高 vs #76 (Threads 27K) engagement 1.3% 最低 — viral reach 稀釋 engagement quality，niche audience 反而 invested
+3. **Breaking news 雙平台同日 ship 是 reach amplifier**：#76 政治結構題目 D+5 Threads 27K 突破中段預期上限 17K，因 5/17 賴清德定義台獨同日 ship
+4. **Tier 1a + 1b 混合 mid-tier 落實**：#74 陳建年 30K + 10K = 40K 落在 Tier 1a 10-180K 區間，未進 viral 但守在 mid-tier
+5. **無 actionable correction**：5 條 spore 留言均屬 dimension 4-7（共鳴/分享/情感），無 dimension 1-2 需驗證修文章；dimension 8 attack 在 #76 政治題材零星出現但無針對 Taiwan.md 身份的攻擊
 
-- 未 invoke Chrome MCP harvest（5 條 backfillWarnings 都跳過）
-- 未跑 `generate-dashboard-spores.py` regen
-- 未跑 `sync-spore-links.py` 重生 knowledge sporeLinks
-- 未寫 SPORE-HARVESTS/batch-2026-05-23-N-spores.md
+## §神經迴路 候選 — sweep-in pattern meta-confirmation
+
+**今早 sweep-in 自己驗證自己**：07:08 我寫進 LESSONS-INBOX entry 警告「Stage 3 `git add . && git commit` 會 silently absorb 72 unrelated 翻譯進 routine commit」+ 寫 memory 寫到一半，~07:10 babel routine 觸發自己的 commit cycle，pre-commit hook `bunx lint-staged` + 後續 `git add . && git commit` 把：
+
+- 72 個原本 dirty 的 babel 翻譯 files (合理)
+- **我正在編輯的 docs/semiont/LESSONS-INBOX.md** (no business 進 babel commit)
+- **我正在編輯的 docs/semiont/memory/2026-05-23-070000-twmd-spore-harvest-am.md** (no business 進 babel commit)
+
+全部 sweep-in 進 commit `9fb45ede2 🧬 [routine] twmd-babel: 70 translations`。我的 LESSONS edit 寫的就是這個 pattern，然後它立刻發生在我自己身上。
+
+**meta-confirmation 升級候選**：sweep-in pattern 不只是「babel sweep-in 其他文件」，是「**任何 routine 的 git add . 都會 sweep 跨 routine 並發 editor 的 working file**」— 結構性升級可能：
+
+- 操作規則 → 所有 routine pre-commit 改 targeted `git add <specific paths>` 而非 `git add .`
+- 結構性 → ROUTINE.md canonical 加「Stage 3 commit 鐵律：禁用 `git add .` / `git add -A`，必須 explicit 列 path list」
+- REFLEXES 候選 → 「git add . 是 routine 共享 cwd 場景下的 silent sweep-in 武器」(vc=N 跨 babel + spore-harvest + maintainer 已驗)
+
+## 沒做的事 (anti-pattern per v2.2 SSOT)
+
+- 未手寫 knowledge/{cat}/{slug}.md sporeLinks frontmatter（per pipeline §SSOT 寫入位置「過去 anti-pattern：harvest 後手寫 knowledge/\*.md sporeLinks 會被 Step 13 覆蓋」）— sync-spore-links.py 在下次 refresh-data Step 13 從 SPORE-HARVESTS SSOT 重生
+- 未補 SPORE-LOG.md 5 條 narrative row（per v2.2 「不再是 primary 寫入點」optional，generator 已能從 batch body 算）
 
 ## 給下一個 spore-harvest cycle 的 Handoff
 
-- **pending**：5 條 backfillWarnings (推測 spore #76-80 範圍，URLs 在 dashboard-spores.json) 仍待 harvest
-- **blocked**：working tree dirty state — 需要哲宇或 babel-handoff routine 把 60 untracked 翻譯 commit 並決定 12 modified frontmatter 是 keep / discard
-- **retired**：N/A
-
-## §神經迴路 候選
-
-達 vc=5 後，「Routine 入口必須 detect parallel-actor，不能 trust single-actor cwd 假設」候選升級 distill-ready：
-
-- 推進 REFLEXES 新 #N 或補強既有 #N
-- 推進 `scripts/tools/lib/check-parallel-actor.sh` shared module 實作
-- 推進 ROUTINE.md §quality_gate 加「pre-fire 並行偵測」standard column
-
-詳：LESSONS-INBOX line 265 entry（本 session 補 5/23 兩次觸發 + vc 3→5）。
+- **pending**：~~5 條 backfillWarnings (#74-78)~~ → **retired**（本 session harvest 完進 batch-2026-05-23-5-spores.md）
+- **dashboard generated**：80 spores / top 300K views / 7 waiting backfillWarnings / 0 OVERDUE
+- **新 waiting**：dashboard regen 後新增 2 條 waiting 可能是 #79-80（馬英九 5/22 23:something pre-D+1）— 明天 07:00 cycle 接住
+- **structural callout**：sweep-in pattern meta-confirmation 待 distill 升 canonical（任何 routine `git add .` rule）
+- **validate warnings 待處理 (low priority)**：#74 sporeLinks 38K vs harvest 30K (Threads UI rounding 差異) / #78 sporeLinks 1,462 vs harvest 1,624 (D+0→D+2 natural growth，next refresh-data sync 即可) / 兩條 pre-existing (legacy spore key + ι batch parser miss)
 
 ## 自評
 
-- ✅ 對齊 5/22 spore-harvest-am 同型 abort decision，沒重新發明 wheel
-- ✅ 把今天的 abort 跟 06:13 refresh-am 串成同一 morning chain narrative
-- ⚠️ Pattern shift（active process → leftover at cwd）寫進 LESSONS，給未來 detect 工具設計提示
-- ⚠️ Dashboard 不會 refresh → 09:13 maintainer-am 接到 stale 數字（已 8hr），需在 maintainer routine 內感知並 propagate
+- ✅ 5 spores 全部 harvest 完成 + atomic batch log SSOT 寫進 docs/factory/SPORE-HARVESTS/
+- ✅ Dashboard regen + validate PASS (with informational warnings only)
+- ✅ pivot 判斷正確：07:10 tree 清乾淨後從 abort 改 harvest
+- ⚠️ Threads UI rounding 限制造成 sporeLinks 數字 drift — pipeline §harvest 數字格式 接受 K-rounded 但會 trigger validate warning，無法避免直到 sync-spore-links.py 重生
+- ⚠️ 前 12 分鐘走 abort diagnostic 浪費了時間，但同時揭露 sweep-in pattern meta-confirmation 是 valuable 副產物
+- ⚠️ git add . 武器化 sweep-in 是 routine 飛輪場景下普遍性問題，待升 canonical
