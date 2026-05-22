@@ -47,7 +47,9 @@ APPLIES_TO = ["zh-TW"]
 # frontmatter title itself can be short (topic name like "交工樂隊" = 4 chars).
 # Only catch truly malformed titles (< 3 chars = likely empty/placeholder).
 TITLE_MIN_CJK = 3
-TITLE_MAX_CJK = 35
+# 2026-05-23 放寬 35 → 45：含多 anchor 串成 narrative arc 的人物文需要更多字數
+# 觸發：馬英九 EVOLVE 43 字 title 包含 哈佛/蔣經國/英文翻譯/清廉/八年總統/兩岸/太陽花/22K 串聯。
+TITLE_MAX_CJK = 45
 # Description canonical = 120-160 字; tolerance band 100-180 (避免 over-noise).
 DESC_MIN_CJK = 100
 DESC_MAX_CJK = 180
@@ -133,7 +135,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             yield Violation(
                 check=CHECK_NAME,
                 severity=DEFAULT_SEVERITY,
-                message=f"title 太長 — {t_cjk}字，Google SERP 截斷在 ~30 全形",
+                message=f"title 太長 — {t_cjk}字，Google SERP 截斷在 ~30 全形 (放寬 cap 45)",
                 line=1,
                 snippet=title[:80],
                 editorial_ref=EDITORIAL_REF,

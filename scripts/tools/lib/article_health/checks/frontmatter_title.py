@@ -8,7 +8,7 @@ Canonical: docs/editorial/EDITORIAL.md §Title 五原則 + §半形標點禁用
 Yields multiple violations (different severities) from a single check:
   - HARD: half-width punct in CJK title context (silent rendering issue)
   - WARN: vague adjective in title (per EDITORIAL §原則 3)
-  - WARN: title length > 35 effective chars (EDITORIAL recommends ≤ 30)
+  - WARN: title length > 45 effective chars (EDITORIAL recommends ≤ 35)
   - WARN (People only): missing colon sandwich (per EDITORIAL §原則 5)
   - WARN (People only): post-colon part < 8 weight (per EDITORIAL §原則 4)
 
@@ -134,15 +134,18 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                         editorial_ref="EDITORIAL.md §原則 4",
                     )
 
-    # 4. Length sanity (WARN) — recommend ≤ 30, hard cap at 35.
+    # 4. Length sanity (WARN) — recommend ≤ 35, hard cap at 45.
+    # 2026-05-23 放寬: 30→35 (recommend) / 35→45 (warn threshold)
+    # 觸發：馬英九 EVOLVE 43 字 title 包含 6 anchor 串成 narrative arc，
+    # 原 35 字 cap 對含多 anchor 的人物文太緊。
     length = _effective_length(title)
-    if length > 35:
+    if length > 45:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.WARN,
             message=(
-                f"title 過長 (effective length {length:.1f} > 35)"
-                " — EDITORIAL 建議 ≤ 30"
+                f"title 過長 (effective length {length:.1f} > 45)"
+                " — EDITORIAL 建議 ≤ 35"
             ),
             snippet=title,
             editorial_ref="EDITORIAL.md §Title 五原則",

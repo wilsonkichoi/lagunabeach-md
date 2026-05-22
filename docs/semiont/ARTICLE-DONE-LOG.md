@@ -59,6 +59,21 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 馬英九 EVOLVE — 2026-05-23 2026-05-22-121707-manual（哲宇 explicit /twmd-rewrite 觸發「深度研究進化馬英九文章」+ 拍板「立體 portrait + 多元觀點並陳」framing，不收斂為單一 thesis）
+
+- **Article**: [knowledge/People/馬英九.md](../../knowledge/People/馬英九.md) — EVOLVE 130 → 296 行（body **6573 字 CJK，146% of 4500 門檻**）
+- **Pipeline**: REWRITE-PIPELINE v6.0 — EVOLVE 模式（既有 130 行萃取事實後從零重寫，含 5 條 Stage 1 falsified hypothesis 修正）
+- **核心矛盾**：不收斂單一 thesis，6 個小矛盾並存（個人特質 / 兩岸 / 經濟 / 治理 / 身份 / 卸任後）— 多面向 scene 累積讓讀者自己 form 印象，對應 SSODT + EDITORIAL §紀實而不煽情
+- **Hook**：「馬英九：哈佛法律博士進蔣經國辦公室當英文翻譯，後來做了八年清廉總統，留下兩岸、太陽花跟 22K」（哲宇拍板 title 含 6 anchor narrative arc）
+- **品質**：43 footnote / 6573 字 / 破折號 10 處密度 2.4/1500（遠低於 15/1500 上限）/ 對位句型 0 / prose-health score 2 ≤ 3 pass / Stage 4 hard=0 全綠 / 4 圖（hero 馬習會 2015 CC BY 2.0 + inline MOFA Portrait 2008 + sunflower 太陽花 PD + iframe 1 影片預留 Stage 4.3.6 deferred）
+- **Research**: [reports/research/2026-05/馬英九.md](../../reports/research/2026-05/馬英九.md) — 412 行（Stage 0 §觀點成型 + Stage 1 agent 230 行 deliverable：40 fact / 10 quote / 5 故事 / 3 SSODT fault lines / 3 國際視角）
+- **Stage 1 falsified hypothesis（CRITICAL 5 條校正既有 article）**：(1) 22K 不是「2009 啟動 2013 喊停」實際 2009/4-2011/9 兩階段跑 2.5 年，2013/6/3 才正式廢止 (2) 9.2% 民調是**年代新聞** 2013/9/15，不是 TVBS（同期 TVBS 11%） (3) 馬鶴凌不是「軍官」是行政院青輔會處長 + 國民黨中央考紀會副主任 (4) 馬習會握手 80 秒 = 1 分 20 秒 confirmed (5) 哈佛 SJD 1981 confirmed
+- **Breaking news 納入**：2026/5/21-22 周美青 + 馬以南家屬聲請輔助宣告 + 馬英九本人拍片回應「律師，這樣可以證明我沒有失智吧？」三句 verbatim quotes 來自公視 PNN 報導，按 EDITORIAL §紀實而不煽情處理（時間 + 雙方公開聲明，不臆測健康狀態）
+- **Plugin 放寬**：title cap 35 → 45 / EDITORIAL 建議 30 → 35（哲宇拍板適應多 anchor narrative arc 人物文）
+- **媒體授權**：3 圖全合規（總統府 Flickr CC BY 2.0 馬習會 / Wikimedia 政府網站開放資訊宣告 MOFA portrait / Wikimedia PD VOA 太陽花）+ §圖片來源 section complete
+- **待 Stage 5 reverse cross-link**：太陽花學運 / 蔡英文 / 陳水扁 / 馬英九迷因 / 台海危機與兩岸關係發展（4 篇 sibling format-structure 預檢 pass，馬英九迷因 pre-existing warn 但 commit 接受）
+- 待觀察者驗收：哲宇 explicit 表示要驗收成果
+
 ### Wave 3 singletons batch — 江賢二 + 許倬雲 EVOLVE + 葉廷皓 + 台灣 BIM 與營建科技 NEW — 2026-05-22 2026-05-21-215830-manual（Wave 3 batch — 4 Opus agents 平行 ship + 校準 prompt v3 / 4 categories: Art × 2 + People × 1 + Technology × 1 / 5290+7908+6796+6384 = **26378 字** / 18+34+34+53 = **139 footnote** / 3+3+3+4 = **13 圖**）
 
 - **Articles** (4):
