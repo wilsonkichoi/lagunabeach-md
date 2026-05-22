@@ -1,20 +1,30 @@
 ---
-title: "Chen Chien-nien: el rey de los Golden Melody de la comisaría, el nieto que convirtió en océano las canciones dejadas por su abuelo materno"
-description: "Nació el 1 de agosto de 1967 en la aldea Nanwang, Beinan, Taitung. En 1986 se graduó de la Escuela de Policía y fue destinado a Guanshan, Taitung; sirvió en la policía durante 30 años y 10 meses. En 1999, a los 33 años, lanzó su primer álbum de composiciones, 《Océano》. En 2000, en la 11.ª edición de los Golden Melody Awards, derrotó a Jacky Cheung, Wang Leehom, David Tao y Harlem Yu para obtener el premio a Mejor Intérprete Masculino en Mandarín; en la misma edición, 〈Mito〉 obtuvo también el premio a Mejor Composición. Sobre el escenario de premiación seguía siendo policía. En septiembre de ese mismo año pidió el traslado a Lanyu para alejarse del ruido, y permaneció allí 17 años hasta su retiro. Su abuelo materno Lu Senbao fue el autor de 〈Hermosas espigas de arroz〉; al nieto le tomó treinta años sostener aquel hilo musical."
+title: 'Chen Chien-nien: el rey de los Golden Melody de la comisaría, el nieto que convirtió en océano las canciones dejadas por su abuelo materno'
+description: 'Nació el 1 de agosto de 1967 en la aldea Nanwang, Beinan, Taitung. En 1986 se graduó de la Escuela de Policía y fue destinado a Guanshan, Taitung; sirvió en la policía durante 30 años y 10 meses. En 1999, a los 33 años, lanzó su primer álbum de composiciones, 《Océano》. En 2000, en la 11.ª edición de los Golden Melody Awards, derrotó a Jacky Cheung, Wang Leehom, David Tao y Harlem Yu para obtener el premio a Mejor Intérprete Masculino en Mandarín; en la misma edición, 〈Mito〉 obtuvo también el premio a Mejor Composición. Sobre el escenario de premiación seguía siendo policía. En septiembre de ese mismo año pidió el traslado a Lanyu para alejarse del ruido, y permaneció allí 17 años hasta su retiro. Su abuelo materno Lu Senbao fue el autor de 〈Hermosas espigas de arroz〉; al nieto le tomó treinta años sostener aquel hilo musical.'
 date: 2026-05-17
-author: "Taiwan.md"
-category: "People"
-subcategory: "音樂"
-tags: ["música", "pueblos indígenas", "pueblo puyuma", "Golden Melody Awards", "océano", "Lanyu", "policía", "cantautor"]
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '音樂'
+tags:
+  [
+    'música',
+    'pueblos indígenas',
+    'pueblo puyuma',
+    'Golden Melody Awards',
+    'océano',
+    'Lanyu',
+    'policía',
+    'cantautor',
+  ]
 readingTime: 8
 lastVerified: 2026-05-17
 lastHumanReview: false
 featured: false
-translatedFrom: "People/陳建年.md"
-sourceCommitSha: "c916f28dd"
-sourceContentHash: "sha256:098e1fee93f12455"
-sourceBodyHash: "sha256:f6d9c109d22f96cc"
-translatedAt: "2026-05-20T05:08:32+08:00"
+translatedFrom: 'People/陳建年.md'
+sourceCommitSha: '1e62d568'
+sourceContentHash: 'sha256:098e1fee93f12455'
+sourceBodyHash: 'sha256:f6d9c109d22f96cc'
+translatedAt: '2026-05-20T05:08:32+08:00'
 ---
 
 # Chen Chien-nien: el rey de los Golden Melody de la comisaría, el nieto que convirtió en océano las canciones dejadas por su abuelo materno
@@ -107,7 +117,7 @@ Es decir, entre aquel premio de 2000 a Intérprete Masculino en Mandarín y el p
 _MV oficial de Taiwan Colors Music: 〈Hermoso corazón de Lanyu〉, incluida en su tercer álbum de composiciones, 《pongso no Tao》 (en tao, “isla de los seres humanos”), de 2021. Grabaciones de primera mano incorporadas lentamente durante 17 años en Lanyu, que más tarde ganarían el premio a Mejor Álbum en Lengua Indígena en los Golden Melody Awards de 2022._
 
 ![Retrato frontal cercano de Chen Chien-nien durante una actuación en Hsinchu, concentrado bajo una gorra frente al micrófono.](/article-images/people/chen-chien-nien-hsinchu-cropped-2018.jpg)
-_25 de marzo de 2018, primer plano de Chen Chien-nien durante una presentación en Hsinchu. Foto: Taiwania Justo. [Licencia vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_(cropped).jpg)._
+_25 de marzo de 2018, primer plano de Chen Chien-nien durante una presentación en Hsinchu. Foto: Taiwania Justo. [Licencia vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_(cropped).jpg).\_
 
 ## 〈Somos compatriotas〉: una letra escrita en 1999 que en 2024 se convirtió en canción de los espacios de ayuda tras el desastre
 
@@ -197,32 +207,58 @@ Aquellas canciones que dejó su abuelo materno, él no las “heredó” con én
 
 ## Referencias
 
-[^1]: [Chen Chien-nien (cantante) — Wikipedia](https://zh.wikipedia.org/zh-tw/%E9%99%B3%E5%BB%BA%E5%B9%B4_(%E6%AD%8C%E6%89%8B)) — Entrada de Wikipedia en chino sobre Chen Chien-nien; registra su fecha de nacimiento, 1 de agosto de 1967, su origen en la aldea Nanwang, su relación con su abuelo materno Lu Senbao, la promoción 114 de la clase de agentes, el traslado a Lanyu en septiembre de 2000 y su cargo de subdirector del puesto policial de Lanyu antes de retirarse en septiembre de 2017.
+[^1]: [Chen Chien-nien (cantante) — Wikipedia](<https://zh.wikipedia.org/zh-tw/%E9%99%B3%E5%BB%BA%E5%B9%B4_(%E6%AD%8C%E6%89%8B)>) — Entrada de Wikipedia en chino sobre Chen Chien-nien; registra su fecha de nacimiento, 1 de agosto de 1967, su origen en la aldea Nanwang, su relación con su abuelo materno Lu Senbao, la promoción 114 de la clase de agentes, el traslado a Lanyu en septiembre de 2000 y su cargo de subdirector del puesto policial de Lanyu antes de retirarse en septiembre de 2017.
+
 [^2]: [Baliwakes Lu Senbao — Base de datos de músicos taiwaneses, Centro de Música de Taiwán del Centro Nacional de Artes Tradicionales](http://musiciantw.ncfta.gov.tw/list.aspx?p=M037&c=&t=1) — Archivo oficial nacional de músicos; registra a Lu Senbao (1910-1988), graduado de la Escuela Normal de Tainan, y sus composiciones en puyuma desde la década de 1950, entre ellas 〈Montaña Beinan〉, 〈Canto de alabanza a los ancestros〉, 〈Canción de paseo〉, 〈Hermosas espigas de arroz〉, 〈Añoranza del terruño〉 y 〈Amor en Lanyu〉; se lo venera como “padre de la música puyuma”.
+
 [^3]: [El rey de los Golden Melody Chen Chien-nien se retirará tras 30 años en la policía — CNA, 2017-08-24](https://www.cna.com.tw/news/aloc/201708240285.aspx) — Noticia local de la Agencia Central de Noticias; registra que Chen Chien-nien empezó como agente en noviembre de 1986, acumuló 30 años y 10 meses de servicio, se retiró el 1 de septiembre, su cargo previo al retiro fue subdirector del puesto policial de Lanyu de la Policía del Condado de Taitung, y sirvió en la Subdivisión de Guanshan, la Subdivisión de Taitung, Lanyu, Yongle, Dongqing, Nanwang, Jianlan y Langdao.
+
 [^4]: [11.ª edición de los Golden Melody Awards — Wikipedia](https://zh.wikipedia.org/zh/%E7%AC%AC11%E5%B1%86%E9%87%91%E6%9B%B2%E7%8D%8E) — Celebrada el 29 de abril de 2000 en el Salón Conmemorativo de Sun Yat-sen, Taipéi; Chen Chien-nien obtuvo en la misma edición Mejor Intérprete Masculino en Mandarín (《Océano》) y Mejor Composición (〈Mito〉), y Samingad obtuvo Mejor Artista Revelación.
+
 [^5]: [Revisión de álbumes clásicos en mandarín: 《Océano》 de Chen Chien-nien derrotó a varios reyes del pop de Taiwán y Hong Kong — Fount Media](https://www.fountmedia.io/article/67037) — Revisión detallada del proceso de producción del álbum 《Océano》 de 1999, su modo de grabación (no entrar a un estudio de Taipéi, trasladar los equipos a Taitung), la escena de la 11.ª edición de los Golden Melody Awards de 2000 en la que derrotó a Jacky Cheung, Harlem Yu, David Tao y Wang Leehom, y su posterior elección como número uno del tramo 1993-2005 en 《Los 200 mejores álbumes de la música popular taiwanesa》.
+
 [^6]: [Chen Chien-nien canta Lanyu; la segunda mitad de la vida será para la familia y la salud — Liberty Times, 2018](https://ent.ltn.com.tw/news/paper/1210066) — Entrevista posterior al retiro; Chen Chien-nien habla de más de diez años de vida en Lanyu, su lista de retiro (fotografía, agricultura, vuelta a la isla en bicicleta), la experiencia de usar taparrabos y la elección de priorizar familia y salud. Fuente de varias citas textuales.
+
 [^7]: [Banda sonora pop “originaria”: Chen Chien-nien y Samingad — Taiwan Panorama](https://www.taiwan-panorama.com/Articles/Details?Guid=c2ed5937-22d3-4256-8724-d642a0fac5db&CatId=10) — Presenta en detalle el acercamiento de Chen Chien-nien a la música china en primer año de secundaria, la guitarra en segundo año, el Coro de cuatro cuerdas formado en la preparatoria en 1982, el concurso de nuevos talentos de Kaohsiung de 1984, la grabación de 《Océano》 y la reacción de su padre Chen Kuang-jung ante los Golden Melody Awards. Fuente de citas textuales.
+
 [^8]: [Banda sonora pop “originaria”: Chen Chien-nien y Samingad — Taiwan Panorama (misma fuente)](https://www.taiwan-panorama.com/Articles/Details?Guid=c2ed5937-22d3-4256-8724-d642a0fac5db&CatId=10) — Fuente de las citas textuales de Chen Chien-nien “¡Solo quería tener un álbum como recuerdo!” y “Como la música de Betel Nut Brothers…”, y de Lin Chih-hsing: “La mitad de estas canciones son experiencias de mi vida, y la otra mitad son impresiones de la vida de Chien-nien”.
+
 [^9]: [Taiwan Colors Music, incubadora de numerosos ganadores de los Golden Melody — Indigenous Sight](https://insight.ipcf.org.tw/article/445) — Revista de la Fundación Cultural Indígena; registra la fundación de Taiwan Colors Music en 1998, el papel de Cheng Chieh-jen como productor de numerosos álbumes de música indígena del sello, y su descripción como “figura clave que dio renombre a la música indígena”.
+
 [^10]: [Revisión de álbumes clásicos en mandarín: 《Océano》 de Chen Chien-nien — Fount Media (misma fuente)](https://www.fountmedia.io/article/67037) — Proporciona la cita textual del registro de grabación de 《Océano》: “Fuente del sonido de olas y marea / playa de Shanyuan, bahía de Dulan, Taitung; tres y cuarenta y tres de la tarde”, la cita textual “no seguir el modelo habitual de llevar al cantante a un estudio de Taipéi para grabar”, y los premios posteriores.
+
 [^11]: [Pau-dull = Chen Chien-nien – Océano = Ho-hai-yan Ocean (1999, vinilo) — Discogs](https://www.discogs.com/release/15957117) — Base de datos internacional de vinilos y CD; registra el lanzamiento de 《Océano》 en 1999, el número TCM003 de Taiwan Colors Music y el nombre artístico Pau-dull.
+
 [^12]: [Somos compatriotas — Letras en KKBOX](https://www.kkbox.com/tw/en/song/OkYSryWHwySdLLVgOl) — 〈Somos compatriotas〉, letra de Lin Chih-hsing, música de Chen Chien-nien, arreglo de Chen Chien-nien y Cheng Chieh-jen; incluida en 《Océano》, 1999.
+
 [^13]: [Tras derrotar a Jacky Cheung y ganar el Golden Melody, Chen Chien-nien iza la bandera antes de cantar — ETtoday, 2022](https://star.ettoday.net/news/2188019) — Crónica del concierto solista del 12 de febrero de 2022 en el Centro Internacional de Convenciones de Taipéi; registra la ceremonia de izado de bandera, la escena de comisaría de Lanyu en el escenario, unos 2.500 admiradores, y las citas textuales de Chen Chien-nien: “el trabajo de la policía es ser leal al país y fiel al líder”, “¡Estoy muy nervioso! Perdón, estoy muy emocionado” y “¡Sumimasen! ¡Siempre me equivoco en la primera canción!”.
+
 [^14]: [Samingad — Wikipedia](https://zh.wikipedia.org/zh-tw/%E7%B4%80%E6%9B%89%E5%90%9B) — Registra que Samingad nació en la aldea Nanwang de la ciudad de Taitung, es puyuma, su tío materno es Chen Chien-nien, su abuela Tseng Hsiu-hua fue representante de la transmisión de canciones puyuma, obtuvo el premio a Mejor Artista Revelación en la 11.ª edición de los Golden Melody Awards, y su primer álbum fue 《Sonidos del sol, el viento y la pradera》, de 1999.
+
 [^15]: [Chi Chia-ying (Jiajia) — Wikipedia](https://zh.wikipedia.org/zh-tw/%E7%B4%80%E5%AE%B6%E7%9B%88) — Registra que Chi Chia-ying usa el nombre artístico Jiajia, que su padre es bunun, su madre puyuma, su tío materno es Chen Chien-nien y su segunda hermana mayor es Samingad.
+
 [^16]: [Golden melodies — Taipei Times, 2000-04-27](https://www.taipeitimes.com/News/feat/archives/2000/04/27/33859) — Reportaje previo a la 11.ª edición de los Golden Melody Awards; cita a críticos que describen la música de Chen Chien-nien como “sincere, pure and naturally touching” y el significado de las nominaciones de Chen Chien-nien y Samingad como “an affirmation of Aboriginal musical achievement”.
+
 [^17]: [Aldea Nanwang — Wikipedia](https://zh.wikipedia.org/zh-tw/%E5%8D%97%E7%8E%8B%E9%83%A8%E8%90%BD) — Panorama de la aldea puyuma Sakuban/Nanwang, ubicada en el sector Nanwang de la ciudad de Taitung, una de las ocho comunidades tradicionales puyuma y la que conserva de forma más completa la cultura puyuma. Incluye la línea temporal de la incorporación constitucional de “pueblos indígenas” en 1994 y el movimiento de rectificación de nombres indígenas.
+
 [^18]: [Chen Chien-nien / 《pongso no Tao》 — Books.com.tw](https://www.books.com.tw/products/0020222996) — Página de presentación del tercer álbum de composiciones (lanzado el 5 de agosto de 2021, 17 canciones); registra que Chen Chien-nien “rotó por todas las comisarías de la isla durante más de diez años de servicio en Lanyu”, que “después del trabajo hacía montañismo, buceo, fotografía, aprendía la cultura tao y participaba en ceremonias indígenas”, y que “hacer un álbum para Lanyu fue siempre su mayor deseo mientras servía allí”.
+
 [^19]: [Álbum 《Tierra》 de Chen Chien-nien — Galaxy Internet Radio](http://www.iwant-radio.com/showinformation.php?sisn=7413) — Presentación del segundo álbum de composiciones, 《Tierra》; registra su lanzamiento el 1 de septiembre de 2002 por Taiwan Colors Music Co., sus 13 obras y cómo refleja la creación de Chen Chien-nien durante tres años en Lanyu, Taitung y Taipéi.
+
 [^20]: [Ceremonia de la 33.ª edición de los Golden Melody Awards — Lista de nominados y ganadores, tavis.tw](https://tavis.tw/gma/33rd/GMA/Nomination.htm) — Base de datos oficial de los Golden Melody Awards; registra que en 2022 Chen Chien-nien obtuvo con 《pongso no Tao》 el premio a Mejor Álbum en Lengua Indígena.
+
 [^21]: [Chen Chien-nien — Chen Jiannian / Wikipedia en inglés](https://en.wikipedia.org/wiki/Chen_Jiannian) — Entrada en inglés sobre Chen Chien-nien; registra explícitamente que “His maternal grandfather Senbao Lu was a composer and educator”, que “graduated from police academy in 1986, was first assigned to Guanshan, Taitung”, que “worked in Lanyu until his retirement on 1 September 2017”, y una cronología completa de álbumes y premios.
+
 [^22]: [Mi pueblo y otros pueblos, terruño y tierra ajena: ensayo sobre 《Resonancias del pueblo y afectos de la tierra: manuscritos de poesía sobre la nuez de betel (I)》 de Lin Chih-hsing — blog de estudios puyuma pinuyumayian](https://pinuyumayian2013.pixnet.net/blog/post/444738836) — Análisis del poema original 〈Somos compatriotas〉 incluido en el poemario de Lin Chih-hsing 《Resonancias del pueblo y afectos de la tierra: manuscritos de poesía sobre la nuez de betel》, su posterior difusión tras ser musicalizado por Chen Chien-nien, y el contexto de estudios del pueblo puyuma.
+
 [^23]: [La construcción de una “comunidad imaginada” en la canción indígena contemporánea: 〈Todos somos una familia〉 — Revista electrónica de literatura indígena del Consejo de Pueblos Indígenas](https://ihc.cip.gov.tw/EJournal/EJournalCat/355) — Artículo académico que analiza cómo canciones indígenas contemporáneas como 〈Somos compatriotas〉 moldean una “comunidad imaginada” transétnica, y discute el significado político de canciones como 〈Todos somos una familia〉.
+
 [^24]: [【Hito música pop】¿Cómo surgió con fuerza la música indígena taiwanesa después de la década de 1990? — StoryStudio × Museo Nacional de Historia de Taiwán](https://storystudio.tw/article/watch-Taiwan-NMTH/the-voice-of-Taiwan) — Ensayo de investigación cultural de StoryStudio; revisa el caso de muestreo de Difang por Enigma en los Juegos Olímpicos de Atlanta de 1996, el ascenso de A-mei en 1996 y toda la historia posterior de integración de la música indígena en la corriente principal.
+
 [^25]: A-mei (artículo interno de Taiwan.md People /people/張惠妹) — Registra que nació en 1972 en el municipio de Beinan, Taitung; que su primer álbum, 《Hermanas》, de 1996, vendió 1,21 millones de copias en Taiwán y cuatro millones en Asia, entre otros datos.
+
 [^26]: [Sangpuy — Wikipedia](https://zh.wikipedia.org/zh-tw/%E6%A1%91%E5%B8%83%E4%BC%8A) — Entrada sobre el músico indígena contemporáneo puyuma Sangpuy; registra que, como Chen Chien-nien, proviene del círculo cultural puyuma de Taitung; que después del terremoto del 21 de septiembre se sumó al colectivo musical Flying Fish and Clouded Leopard; y que grabó álbumes junto con Hu De-fu y otros, reflejando la influencia de Chen Chien-nien en generaciones posteriores de música indígena.
+
 [^27]: [Chen Chien-nien — Banco Nacional de Memoria Cultural](https://tcmb.culture.tw/zh-tw/detail?indexCode=Culture_Event&id=273173) — Entrada del Ministerio de Cultura en el Banco Nacional de Memoria Cultural sobre Chen Chien-nien; registra su posición como heredero de Lu Senbao, su estilo creativo que fusiona puyuma y mandarín, y su historial completo de premios: rey de los Golden Melody en la 11.ª edición, Mejor Productor de Álbum Instrumental Pop en la 18.ª edición, Mejor Productor de Álbum Pop en la 20.ª edición, y Mejor Álbum en Lengua Indígena en la 33.ª edición.
 
 ## Fuentes de imágenes
@@ -230,5 +266,5 @@ Aquellas canciones que dejó su abuelo materno, él no las “heredó” con én
 Este artículo utiliza 3 imágenes con licencia CC BY-SA 4.0, todas almacenadas en caché en `public/article-images/people/` para evitar enlaces directos al servidor de origen:
 
 - [Pur-dull in Hsinchu 2](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_2.jpg) — Foto: Taiwania Justo, 2018-03-25, CC BY-SA 4.0, Commons File:Pur-dull_in_Hsinchu_2.jpg (hero)
-- [Pur-dull in Hsinchu (cropped)](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_(cropped).jpg) — Foto: Taiwania Justo, 2018-03-25, CC BY-SA 4.0, Commons File:Pur-dull_in_Hsinchu_(cropped).jpg (inline 1)
+- [Pur-dull in Hsinchu (cropped)](<https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_(cropped).jpg>) — Foto: Taiwania Justo, 2018-03-25, CC BY-SA 4.0, Commons File:Pur-dull*in_Hsinchu*(cropped).jpg (inline 1)
 - [Pur-dull in Hsinchu](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu.jpg) — Foto: Taiwania Justo, 2018-03-25, CC BY-SA 4.0, Commons File:Pur-dull_in_Hsinchu.jpg (inline 2)

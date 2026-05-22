@@ -1,180 +1,179 @@
 ---
-title: 'Le développement économique de Taïwan après 1945'
-description: 'Comment Taïwan a accompli son miracle économique : d'une société agricole appauvrie au rang de l'un des Quatre Dragons asiatiques'
+title: "Développement économique d'après-guerre"
+description: "Le parcours de développement économique miraculeux de Taïwan, passant d'une société agricole à l'une des Quatre Tigres asiatiques"
 date: 2026-03-17
-tags: [histoire économique, industrialisation, dix grands chantiers, miracle économique, transformation industrielle]
-subcategory: 'Colonialisme et empires'
+author: 'Taiwan.md'
 category: 'History'
-author: 'Taiwan.md Translation Team'
-readingTime: 12
-featured: false
-translatedFrom: "History/戰後經濟發展.md"
+subcategory: '殖民與帝國'
+tags:
+  [
+    'Histoire économique',
+    'Industrialisation',
+    'Les Dix Grands Projets',
+    'Miracle économique',
+    'Transition industrielle',
+  ]
 lastVerified: 2026-03-19
 lastHumanReview: false
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:bd943f680a0506bf'
-sourceBodyHash: 'sha256:9e8ab929793e320d'
-translatedAt: "2026-04-14T12:31:57+08:00"
+featured: false
+translatedFrom: 'History/戰後經濟發展.md'
+sourceCommitSha: 'f712b7242'
+sourceContentHash: 'sha256:0d0adcf91ab6fb7b'
+sourceBodyHash: 'sha256:c6a2754be8bc3e2a'
+translatedAt: '2026-05-22T05:08:47+08:00'
 ---
 
-# Le développement économique de Taïwan après 1945
+# Développement économique d'après-guerre
 
-Ce que l'on appelle le « miracle économique taïwanais » est l'une des transformations les plus spectaculaires du XX^e siècle : en moins de quarante ans, Taïwan est passé d'un pays agricole parmi les plus pauvres d'Asie à une économie développée à part entière, rangé aux côtés de Hong Kong, Singapour et la Corée du Sud sous l'appellation de « Quatre Dragons asiatiques ». Ce miracle n'est pas sorti de nulle part. Il est le fruit d'une combinaison exceptionnelle de politiques publiques volontaristes, d'un tissu entrepreneurial tenace, d'un contexte international favorable et d'un enchaînement d'opportunités historiques — un modèle que de nombreux pays en développement ont depuis tenté de reproduire.
+Le développement économique de Taïwan après la Seconde Guerre mondiale est salué comme un « miracle économique ». En l'espace de quarante ans seulement, l'île est passée d'une société agricole pauvre à une économie développée, rejoignant Hong Kong, Singapour et la Corée du Sud au rang des « Quatre Tigres asiatiques ». Cette réussite, fruit conjugué de politiques gouvernementales, de la diligence populaire, du contexte international et d'opportunités historiques, constitue un cas d'étude précieux pour les pays en développement du monde entier.
 
-## Reconstruction et réforme agraire (1945–1960)
+## Reconstruction d'après-guerre et réforme agraire (1945-1960)
 
-### L'héritage de la période japonaise
+### L'héritage de la période coloniale japonaise
 
-Lorsque Taïwan passe sous administration de la République de Chine en 1945, l'île dispose déjà d'un capital infrastructurel significatif, hérité de cinquante années de colonisation japonaise. Réseau ferroviaire, système électrique, institutions éducatives : autant d'acquis qui permettent une reprise économique plus rapide que dans la plupart des territoires sortant de la guerre. La main-d'œuvre qualifiée formée sous l'ère Meiji constitue une ressource précieuse pour les années à venir.
+Durant la période de domination japonaise, Taïwan avait déjà mis en place des infrastructures et un système éducatif. Les réseaux de transport, les systèmes électriques et les talents techniques ont constitué des conditions favorables à une reconstruction rapide après la guerre.
 
-### La réforme agraire en trois temps
+### La réforme agraire en trois phases
 
-À partir de 1949, le gouvernement engage une réforme foncière ambitieuse, déployée en trois phases successives :
+À partir de 1949, le gouvernement a mis en œuvre une réforme agraire en trois phases :
 
-- **La réduction des fermages** (1949) : le loyer agricole est plafonné à 37,5 % de la récolte principale, mettant fin à des taux d'exploitation qui atteignaient parfois le double.
-- **La cession des terres publiques** (1951) : les terres cultivables appartenant à l'État sont vendues à prix préférentiel aux paysans qui les exploitent déjà.
-- **La terre à ceux qui la travaillent** (1953) : les propriétaires fonciers sont contraints de céder leurs terrains excédentaires, rachetés par l'État pour être revendus aux fermiers.
+- **Réduction des fermages à 37,5 ‰** (1949) : le loyer des fermages ne devait pas dépasser 375 pour mille du produit principal des cultures
+- **Cession des terres publiques** (1951) : attribution des terres publiques aux fermiers qui les exploitaient déjà
+- **La terre à celui qui la cultive** (1953) : expropriation obligatoire des terres excédentaires des propriétaires fonciers, revendues aux métayers
 
-Cette réforme règle une injustice structurelle enracinée depuis des générations, mais elle produit aussi un effet économique décisif : en libérant la main-d'œuvre rurale des contraintes féodales, elle alimente le vivier humain qui rendra possible l'industrialisation du pays dans la décennie suivante.
+Cette réforme n'a pas seulement résolu les inégalités de richesse en milieu rural, elle a également libéré la main-d'œuvre agricole, fournissant une abondante ressource humaine pour l'industrialisation ultérieure.
 
 ### Le rôle déterminant de l'aide américaine
 
-Entre 1950 et 1965, les États-Unis versent à Taïwan l'équivalent d'environ 1,5 milliard de dollars — soit 34 % du total des investissements taïwanais sur cette même période. Mais au-delà de l'argent, c'est le transfert de savoir-faire technique et de méthodes de gestion moderne qui constitue l'apport le plus durable. L'aide américaine aide Taïwan à construire les fondations institutionnelles d'une économie de marché fonctionnelle.
+Entre 1950 et 1965, les États-Unis ont fourni une aide d'environ 1,5 milliard de dollars américains[^2], représentant 34 % de l'investissement total de Taïwan durant la même période. Les transferts de capitaux, de technologies et l'expertise en gestion apportés par cette aide ont contribué à l'établissement d'un système économique moderne à Taïwan.
 
-## Substitution aux importations et zones franches (1960–1980)
+## Substitution aux importations et exportation de produits manufacturés (1960-1980)
 
-### La stratégie de substitution aux importations
+### L'industrialisation par substitution aux importations
 
-Dans les années 1950, Taïwan adopte une politique de protection des industries naissantes. Le secteur textile illustre parfaitement cette logique : plutôt que d'importer des vêtements finis, puis des tissus, puis du fil, le gouvernement encourage à chaque étape la production locale. C'est ainsi que se constitue, maillon par maillon, une filière textile intégrée et compétitive — première grande réussite industrielle de l'île.
+Dans les années 1950, Taïwan a adopté une politique de substitution aux importations[^3] pour protéger le développement de ses industries naissantes. Prenant l'industrie textile comme exemple, le gouvernement a préconisé le princieux « plutôt importer du coton que du fil, plutôt importer du fil que du tissu », établissant progressivement une chaîne industrielle textile allant du fil de coton aux vêtements finis, et formant ainsi la première génération d'industries manufacturières compétitives.
 
-### L'invention des zones de traitement des exportations
+### La création pionnière des zones de transformation pour l'exportation
 
-En 1965, Taïwan crée la première zone de traitement des exportations d'Asie, à Kaohsiung. Deux autres zones suivent bientôt, à Nanzih et à Taichung. Ces espaces francs offrent aux investisseurs étrangers un environnement sur mesure :
+En 1966, Taïwan a établi la première zone de transformation pour l'exportation au monde — celle de Kaohsiung[^1] — suivie par celles de Nantzu et Taichung. Ces zones offraient :
 
-- Exonérations fiscales et procédures administratives simplifiées
-- Infrastructures modernes et fiables
-- Accès à une main-d'œuvre abondante et disciplinée
+- Des avantages fiscaux (exonérations d'impôts) et des procédures administratives simplifiées
+- Des infrastructures complètes et modernes
+- Un approvisionnement stable en main-d'œuvre
 
-Le résultat dépasse les attentes. Les capitaux étrangers affluent, les technologies se transfèrent, et des milliers d'ouvriers acquièrent une qualification technique qui bénéficiera à l'ensemble de l'industrie taïwanaise. Dès 1980, plus de 60 % de la production industrielle est destinée à l'exportation.
+Les zones de transformation pour l'exportation ont attiré avec succès les investissements étrangers, favorisé les transferts de technologie et formé une main-d'œuvre qualifiée en grand nombre. En 1980, plus de 60 % des produits industriels taïwanais étaient destinés à l'exportation.
 
-### L'empire du textile
+### L'avènement du royaume du textile
 
-Dans les années 1960 et 1970, le textile taïwanais atteint son apogée. Des filatures aux ateliers de confection, la chaîne de valeur est entièrement maîtrisée localement. Cette industrie fournit les devises étrangères qui financent les grandes ambitions industrielles à venir.
+L'industrie textile taïwanaise a atteint son apogée dans les années 1960 et 1970, devenant l'un des principaux exportateurs mondiaux de produits textiles. Du fil de coton aux tissus et aux vêtements finis, une chaîne industrielle intégrée verticalement s'est formée, générant d'importantes devises grâce aux exportations massives.
 
-## L'industrie lourde et les Dix Grands Chantiers (1970–1985)
+## Industrie lourde et chimique et les Dix Grands Projets (1970-1985)
 
-### Le choc pétrolier comme catalyseur
+### Le défi du choc pétrolier
 
-Le premier choc pétrolier de 1973 frappe Taïwan de plein fouet, comme l'ensemble de l'économie mondiale. Face à la récession et à l'inflation, le gouvernement fait un pari audacieux : plutôt que de subir la crise, il choisit d'utiliser l'investissement public massif comme levier de relance — et comme tremplin vers une économie plus robuste.
+Le premier choc pétrolier de 1973 a durement frappé l'économie mondiale, et Taïwan n'a pas été épargné. Face à la récession économique et aux pressions inflationnistes, le gouvernement a décidé de lancer un vaste programme d'infrastructures pour stimuler la croissance économique par l'investissement public.
 
-### Les Dix Grands Chantiers de Chiang Ching-kuo
+### La vision des Dix Grands Projets
 
-En 1974, le Premier ministre Chiang Ching-kuo lance un programme d'infrastructures sans précédent, doté de 200 milliards de nouveaux dollars taïwanais. Ces projets se répartissent en deux grandes catégories :
+En 1974, le Premier ministre Chiang Ching-kuo a lancé les Dix Grands Projets, pour un investissement total de 200 milliards de dollars taïwanais :
 
 **Infrastructures de transport (4 projets) :**
 
-- L'autoroute Zhongshan : premier grand axe routier de l'île, long de 373 kilomètres, il relie Keelung à Kaohsiung.
-- L'électrification ferroviaire : l'intégralité de la ligne occidentale passe à la traction électrique.
-- L'aéroport international de Taoyuan : Taïwan se dote d'une porte d'entrée à la hauteur de ses ambitions.
-- Le port de Taichung : pour rééquilibrer le trafic maritime entre le nord et le sud de l'île.
+Les projets de transport étaient centrés sur l'autoroute nationale Zhongshan (longueur totale de 373 km, la première autoroute de Taïwan) et l'électrification de la ligne ferroviaire principale de la côte ouest, accompagnés de la construction simultanée de l'aéroport international de Taoyuan (Chiang Kai-shek) et du port de Taichung, afin d'accroître la capacité portuaire nord-sud.
 
-**Industries lourdes (6 projets) :**
+**Industrie lourde et chimique (6 projets) :**
 
-- China Steel Corporation : Taïwan se donne les moyens de produire son propre acier.
-- China Shipbuilding Corporation : développement d'une industrie navale nationale.
-- Complexe pétrochimique : raffineries et unités de craquage pour alimenter l'industrie.
-- Centrale nucléaire : construction des première, deuxième et troisième tranches.
+L'industrie lourde et chimique s'articulait autour de la China Steel Corporation et de la China Shipbuilding Corporation, complétée par l'industrie pétrochimique (comprenant une grande raffinerie et une unité de craquage d'essence légère) ainsi que les trois premières centrales nucléaires, constituant ainsi un système autonome d'approvisionnement en énergie et en matières premières.
 
-### Une économie qui change de visage
+### La transformation de la structure industrielle
 
-Ces Dix Grands Chantiers ne créent pas seulement des emplois à court terme : ils dotent Taïwan d'une base industrielle lourde qui conditionne toute la montée en gamme ultérieure. La part de l'industrie dans le PIB atteint 47 % au pic des années 1980 — une transformation structurelle qui marque une rupture définitive avec l'économie agricole d'avant-guerre.
+Les Dix Grands Projets ont créé un grand nombre d'emplois tout en établissant les bases de l'industrie lourde et chimique, posant les fondations de la modernisation industrielle ultérieure. La structure économique de Taïwan est passée de l'agriculture à l'industrie, la part de l'industrie dans le PIB atteignant un pic de 47 % dans les années 1980.
 
-## L'essor de la haute technologie (1980–2000)
+## L'essor des industries de haute technologie (1980-2000)
 
-### Le Parc scientifique de Hsinchu
+### Le parc scientifique de Hsinchu
 
-Fondé en 1980, le Parc scientifique de Hsinchu reprend la formule gagnante des zones franches en l'adaptant à la haute technologie. Fiscalité avantageuse, environnement propice à la recherche et développement, passerelles entre universités et entreprises : le cocktail fonctionne. Le parc devient le berceau de l'industrie semiconductrice taïwanaise.
+Le parc scientifique de Hsinchu a été fondé en 1980, s'inspirant du modèle réussi des zones de transformation pour l'exportation et se spécialisant dans les industries de haute technologie. Le parc offrait :
 
-### La naissance de l'industrie des semi-conducteurs
+- Des politiques fiscales avantageuses
+- Un environnement de recherche et développement de qualité
+- Des mécanismes de coopération entre l'industrie et les universités
 
-En 1987, la fondation de TSMC (Taiwan Semiconductor Manufacturing Company) change la donne mondiale. Morris Chang invente le modèle de la fonderie dédiée — une entreprise qui fabrique les puces conçues par d'autres, sans concevoir elle-même — et révolutionne ainsi toute la chaîne de valeur des semi-conducteurs. MediaTek, UMC et d'autres géants naissent dans ce sillage. Taïwan devient un acteur incontournable de l'électronique mondiale.
+### L'essor de l'industrie des semi-conducteurs
 
-### L'informatique personnelle
+En 1987, TSMC (Taiwan Semiconductor Manufacturing Company) a été fondé, créant le modèle économique de la fonderie spécialisée (foundry), transformant radicalement l'écosystème mondial de l'industrie des semi-conducteurs. Des entreprises telles que MediaTek et UMC ont également émergé par la suite, faisant de Taïwan un centre mondial de gravure de semi-conducteurs.
 
-Dès les années 1980, des entreprises comme Acer, Asus et Foxconn partent de la sous-traitance pour construire progressivement leurs propres marques. Taïwan s'impose comme l'un des principaux fournisseurs mondiaux de matériel informatique — une position qu'il occupe encore aujourd'hui dans des secteurs clés comme les serveurs et les composants.
+### L'industrie de l'électronique et de l'informatique
 
-## Les chiffres du miracle
+Dans les années 1980, Taïwan a concentré ses ressources sur le développement de l'industrie des ordinateurs personnels. Des entreprises comme Acer, Asus et Foxconn sont parties de la sous-traitance pour progressivement bâtir leurs propres marques. Le montant des exportations de matériel informatique taïwanais s'est hissé au premier rang mondial dans les années 1990.
 
-### Une croissance hors norme
+## Les réalisations et les données du miracle économique
 
-De 1952 à 1995, Taïwan affiche des performances économiques qui défient la comparaison :
+### Des chiffres de croissance remarquables
 
-| Indicateur                             | Valeur                                |
-| -------------------------------------- | ------------------------------------- |
-| Taux de croissance annuel moyen du PIB | 8,7 % (40 années consécutives)        |
-| PIB par habitant                       | De 145 $ à 12 396 $                   |
-| Exportations totales                   | De 116 millions $ à 111,8 milliards $ |
-| Taux de chômage                        | Maintenu entre 2 et 3 %               |
+De 1952 à 1995, Taïwan a réalisé des performances économiques éclatantes[^4]. Le taux de croissance annuel moyen du PIB a atteint 8,7 %, maintenu pendant 40 années consécutives de forte croissance ; le PIB par habitant est passé de 145 dollars à 12 396 dollars, tandis que le total des exportations est passé de 116 millions à 111,8 milliards de dollars. Le taux de chômage est resté durablement bas, entre 2 et 3 %.
 
-### Une prospérité partagée
+### L'amélioration de la répartition des revenus
 
-Ce qui rend le cas taïwanais particulièrement remarquable, c'est que cette croissance ne s'est pas faite au détriment de l'égalité sociale. Dans les années 1970–1980, le coefficient de Gini se maintient entre 0,28 et 0,32 — l'une des distributions de revenus les plus équilibrées du monde pour une économie en forte croissance. Croissance et équité : une combinaison rare, que peu de pays ont réussi à reproduire.
+Fait encore plus remarquable, Taïwan a maintenu une répartition des revenus relativement équitable tout en connaissant une croissance rapide. Dans les années 1970-1980, le coefficient de Gini s'est maintenu entre 0,28 et 0,32, faisant de Taïwan l'une des régions aux revenus les plus égalitairement répartis au monde.
 
-## Les facteurs de réussite
+## Analyse des facteurs de réussite
 
-### Une technocratie au service du long terme
+### La gouvernance par les technocrates
 
-Le gouvernement taïwanais de l'après-guerre peut s'appuyer sur une haute fonction publique compétente et motivée, animée d'un véritable sens de l'État. Ces technocrates élaborent des politiques industrielles cohérentes, adaptées à chaque étape du développement : réforme agraire, substitution aux importations, promotion des exportations, puis montée en gamme technologique. La continuité stratégique est l'un des actifs les plus précieux de ce modèle.
+Après la guerre, Taïwan a bénéficié d'une cohorte de technocrates dotés de capacités de planification à long terme, qui considéraient le « salut de la nation » comme leur mission et ont formulé une série de politiques industrielles prospectives. De la réforme agraire à la substitution aux importations puis à l'expansion des exportations, chaque étape s'est accompagnée d'objectifs stratégiques clairs.
 
-### L'investissement dans l'éducation
+### Les résultats de l'investissement dans l'éducation
 
-L'enseignement obligatoire de neuf ans, généralisé dès les années 1960, élève rapidement le niveau global de la main-d'œuvre. La priorité donnée à la formation technique et professionnelle produit les ingénieurs et les ouvriers qualifiés dont les industries naissantes ont besoin. L'accumulation de capital humain est l'un des socles invisibles mais décisifs du miracle taïwanais.
+Le gouvernement a consacré une part significative de son budget à l'éducation, en particulier à l'enseignement technique et professionnel, formant une main-d'œuvre qualifiée et de nombreux ingénieurs. La mise en place de l'enseignement obligatoire de neuf ans en 1968 a considérablement amélioré la qualité de la main-d'œuvre, fournissant les talents nécessaires à la modernisation industrielle ultérieure.
 
-### Un contexte géopolitique favorable
+### La conjonction favorable du contexte international
 
-La guerre froide place Taïwan sous le parapluie militaire et économique américain, lui garantissant une sécurité qui aurait été autrement hors de portée. Dans le même temps, les pays occidentaux cherchent à délocaliser leurs industries à forte intensité de main-d'œuvre — créant une demande externe que Taïwan saisit avec une remarquable agilité.
+Le contexte géopolitique de la Guerre froide a permis à Taïwan de bénéficier de la protection militaire et de l'aide économique des États-Unis. Parallèlement, les pays occidentaux ont délocalisé leurs industries à forte intensité de main-d'œuvre, offrant à Taïwan une opportunité exceptionnelle pour l'expansion de ses exportations.
 
-### L'esprit d'entreprise taïwanais
+### L'esprit d'entreprise
 
-De la petite fabrique familiale à la multinationale, les entrepreneurs taïwanais ont montré une capacité d'adaptation et une ténacité qui ont fait leur réputation mondiale. Cette culture du travail, de la débrouillardise et de la montée en compétence est l'ingrédient le moins quantifiable — et peut-être le plus essentiel — du miracle.
+Les entrepreneurs taïwanais ont fait preuve d'un esprit d'entreprise vigoureux et d'une capacité d'adaptation remarquable. Partant de petites entreprises familiales, ils se sont développés en groupes multinationaux — Foxconn en est un exemple emblématique.
 
-## Les défis de la transition
+## Les défis de la transition et les nouvelles orientations
 
-### Les ajustements des années 1990
+### Les ajustements à partir des années 1990
 
-L'entrée dans les années 1990 marque une inflexion : la hausse des salaires et le renforcement des normes environnementales rendent Taïwan moins compétitif pour les industries à forte intensité de main-d'œuvre. De nombreuses usines migrent vers la Chine continentale et l'Asie du Sud-Est. Le gouvernement répond en lançant une politique de « mise à niveau industrielle », visant à concentrer les ressources sur les secteurs à haute valeur ajoutée.
+À partir des années 1990, Taïwan a fait face à des défis tels que la hausse des salaires et le renforcement des exigences environnementales. Les industries manufacturières traditionnelles ont commencé à se déplacer vers la Chine continentale et l'Asie du Sud-Est. Le gouvernement a promu une politique de « modernisation industrielle », encourageant le développement des industries à forte valeur ajoutée.
 
-### Vers l'économie de la connaissance
+### La transition vers l'économie du savoir
 
-Depuis le tournant du millénaire, Taïwan investit résolument dans les secteurs d'avenir :
+Depuis le XXIe siècle, Taïwan a concentré ses ressources sur le développement de l'économie du savoir. Les biotechnologies et les technologies vertes ont bénéficié de soutiens politiques, tandis que les industries créatives et culturelles et la mécanique de précision ont constitué de nouvelles orientations se démarquant des industries manufacturières traditionnelles.
 
-- Biotechnologies et sciences de la vie
-- Technologies vertes et énergies renouvelables
-- Industries créatives et culturelles
-- Machines de précision et fabrication avancée
+## Signification internationale et enseignements
 
-## Une leçon pour le monde
+Le modèle de développement économique de Taïwan offre une référence opérationnelle pour les pays en développement.
 
-Le modèle taïwanais offre plusieurs enseignements que les économistes et les décideurs continuent d'étudier :
+### Les enseignements stratégiques de développement
 
-### Stratégies de développement
+Le succès de Taïwan réside dans ses ajustements progressifs par étapes : de l'agriculture à l'industrie légère, puis à l'industrie lourde et chimique et aux industries de haute technologie, chaque étape s'accompagnant d'une réorientation politique claire. Le gouvernement a joué un rôle de pilotage dans les phases initiales, puis a ajusté son degré d'intervention à mesure que le marché arrivait à maturité. L'investissement dans l'éducation et un système de commerce extérieur ouvert ont traversé l'ensemble du processus de développement.
 
-1. **Le développement par étapes** : adapter la stratégie à chaque stade de maturité — agriculture, industries légères, industrie lourde, haute technologie — plutôt que de chercher à tout faire en même temps.
-2. **Le rôle de l'État** : intervenir fortement en amont pour orienter et protéger, puis se retirer progressivement au fur et à mesure que le marché prend le relais.
-3. **Le capital humain** : l'investissement dans l'éducation est un pari de long terme dont le rendement est difficile à mesurer — et pratiquement impossible à surestimer.
-4. **L'ouverture internationale** : s'intégrer dans les chaînes de valeur mondiales, exploiter ses avantages comparatifs, ne pas craindre la concurrence.
+### La contribution au monde
 
-### La contribution de Taïwan au monde
+Taïwan occupe une position clé dans les chaînes d'approvisionnement mondiales, et le modèle de fonderie de TSMC a été adopté par l'industrie mondiale des semi-conducteurs. L'expérience taïwanaise en matière de sous-traitance a également été prise en compte par plusieurs pays d'Asie du Sud-Est comme modèle de référence pour le décollage de leurs industries manufacturières.
 
-Taïwan n'a pas seulement réussi pour lui-même. Il occupe aujourd'hui une position stratégique dans les chaînes d'approvisionnement mondiales, notamment dans les semi-conducteurs — un rôle qui a pris une dimension géopolitique considérable à l'ère de la compétition technologique sino-américaine. Son modèle de fonderie a été imité sur tous les continents. Ses ingénieurs et entrepreneurs ont essaimé dans le monde entier.
-
-L'histoire économique de Taïwan après 1945 est, in fine, celle d'une petite île qui a choisi de miser sur l'intelligence collective et la rigueur institutionnelle pour s'imposer sur la scène mondiale. Dans un contexte géopolitique incertain, cette résilience reste l'héritage le plus précieux — et le plus actuel — du miracle taïwanais.
+Aujourd'hui, bien que Taïwan fasse face à de nouveaux défis, l'expérience réussie de son développement économique d'après-guerre demeure un patrimoine historique précieux. Elle nous enseigne comment une petite île, grâce à la sagesse, à la diligence et à des politiques judicieuses, a su se tailler une place sur la scène internationale.
 
 ---
 
 _Références :_
 
-- [Institut d'histoire moderne, Academia Sinica](https://www.mh.sinica.edu.tw/)
-- [Bureau des statistiques du Ministère de l'Économie](https://www.moea.gov.tw/Mns/dos/home/Home.aspx)
-- [Directorate-General of Budget, Accounting and Statistics](https://www.dgbas.gov.tw/)
-- Travaux académiques sur l'histoire économique de Taïwan
+- [Institut d'histoire moderne, Académie sinique](https://www.mh.sinica.edu.tw/)
+- [Département des statistiques, Ministère des Affaires économiques](https://www.moea.gov.tw/Mns/dos/home/Home.aspx)
+- [Direction générale du budget, des comptes et des statistiques](https://www.dgbas.gov.tw/)
+- Ouvrages académiques sur l'histoire économique de Taïwan
+
+[^1]: Administration des zones de transformation pour l'exportation, « Historique de la création », https://www.epza.gov.tw/page.aspx?pageid=45da8e73a81d495d
+
+[^2]: Entrée « Aide américaine », Wikipédia, https://zh.wikipedia.org/zh-tw/美援
+
+[^3]: Wu Congmin, « De la régulation à l'expansion des exportations », https://homepage.ntu.edu.tw/~ntut019/ltes/Taiwan-Growth-Ch.pdf
+
+[^4]: Base de données statistiques de la Direction générale du budget, des comptes et des statistiques, https://www.dgbas.gov.tw/
+
+[^5]: Wu Congmin, « Étude sur l'hyperinflation à Taïwan », http://homepage.ntu.edu.tw/~ntut019/ltes/Big-inflation.pdf

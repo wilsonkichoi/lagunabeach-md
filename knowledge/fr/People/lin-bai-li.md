@@ -1,57 +1,78 @@
 ---
-title: 'Barry Lam (林百里)'
-description: 'Fondateur de Quanta Computer, roi de la sous-traitance d'ordinateurs portables, pionnier de la transition vers l'IA'
+title: "Lin Bai-Li : Shanghai 1949, fondateur de Quanta Computer et roi de l'ordinateur portable ODM, vingt ans contre le cancer"
+description: "Né le 24 avril 1949 à Shanghai. Cofondateur de Quanta Computer en 1988 avec Liang Ci-Zhen et d'autres. Diagnostic d'adénocarcinome pulmonaire en 2005 (plus de 20 ans de lutte contre le cancer). Chiffre d'affaires de Quanta dépassant 2 000 milliards de TWD en 2025, partenaire serveur important de NVIDIA, classé au Fortune 500. La question de la succession par son fils attire l'attention. Toujours président en 2026."
 date: 2026-03-19
-tags: ['entrepreneur', 'Quanta Computer', 'ODM', 'intelligence artificielle']
-subcategory: 'Technologie et entreprise'
+author: 'Taiwan.md'
 category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 5
+subcategory: '科技與企業'
+tags: ['科技與企業', '廣達電腦', 'ODM代工', '人工智慧', '肺腺癌']
+readingTime: 7
+#   whats_excluded: "廣達與各大廠代工合約細節；AI伺服器具體規格；兒子接班爭議細節（待確認）"
+#   where_it_hedges: "廣達筆電市占率「超過30%」無原始source（P0⚠️）；兒子接班時程待確認"'
+lastVerified: 2026-05-08
+lastHumanReview: true
 featured: false
-lastVerified: 2026-03-19
-translatedFrom: "People/林百里.md"
-sourceCommitSha: "a05d2431"
-sourceContentHash: "sha256:6e151fb80e93cea0"
-sourceBodyHash: 'sha256:df321a606bbc8935'
-translatedAt: "2026-04-14T19:15:55+08:00"
+translatedFrom: People/林百里.md
+sourceCommitSha: 0f8fae0ae
+sourceContentHash: sha256:4e6831b8d5040b1f
+sourceBodyHash: sha256:98f02f5d889ec6c6
+translatedAt: 2026-05-22T05:08:47+08:00
 ---
 
-# Barry Lam : du roi de l'ordinateur portable aux serveurs de l'ère de l'IA
+# Lin Bai-Li : Shanghai 1949, fondateur de Quanta Computer et roi de l'ordinateur portable ODM, vingt ans contre le cancer
 
-Barry Lam (né en 1949) est le fondateur et président du groupe Quanta Computer, l'un des acteurs les plus influents de l'industrie technologique de Taïwan. Sous sa direction, Quanta est passé d'une petite société informatique au plus grand fabricant mondial d'ordinateurs portables en sous-traitance. Ces dernières années, il s'est résolument tourné vers les serveurs pour l'intelligence artificielle, incarnant ainsi la capacité d'adaptation et la vision prospective caractéristiques de l'écosystème tech taïwanais.
+> **En 30 secondes :** Lin Bai-Li est né le 24 avril 1949 à Shanghai et a suivi sa famille à Taïwan.[^1] En 1988, il cofonde Quanta Computer avec Liang Ci-Zhen et d'autres, se concentrant initialement sur les cartes mères et les ordinateurs industriels, avant de se réorienter entièrement vers l'ODM d'ordinateurs portables.[^2] Quanta est devenu l'un des plus grands fabricants d'ordinateurs portables sous contrat au monde. En 2005, Lin Bai-Li a reçu un diagnostic d'adénocarcinome pulmonaire et a depuis évoqué publiquement son parcours de lutte contre le cancer, dépassant les 20 ans en 2026.[^3] En 2025, le chiffre d'affaires consolidé de Quanta a franchi les 2 000 milliards de dollars taïwanais, devenant un partenaire serveur important de NVIDIA et figurant au classement Fortune 500.[^4] En 2026, Lin Bai-Li occupe toujours la présidence de Quanta.[^5]
 
-## D'ingénieur à entrepreneur
+## Né à Shanghai, formé et élevé à Taïwan
 
-Né à Shanghai en 1949, Barry Lam s'installe à Taïwan avec sa famille et y poursuit des études en génie électrique à l'Université nationale de Taïwan. À la sortie de l'université, il rejoint Kinpo Electronics, où il accumule une solide expérience dans la fabrication électronique. En 1988, à l'âge de 39 ans, il cofonde Quanta Computer avec des associés, en se concentrant d'abord sur la production de cartes mères et d'ordinateurs industriels.
+Lin Bai-Li est né le 24 avril 1949 à Shanghai et s'est installé à Taïwan avec ses parents. Après avoir terminé ses études à Taïwan, il a intégré l'industrie électronique et accumulé une expérience en gestion de la production.[^1]
 
-Les débuts ne sont pas sans obstacles : concurrence féroce, ressources limitées. C'est la solidité de sa formation technique et sa capacité à lire les tendances du marché qui permettent à Lam de prendre une décision stratégique déterminante — se spécialiser dans la conception et la fabrication d'ordinateurs portables selon le modèle ODM (Original Design Manufacturer). Ce choix définira l'avenir de l'entreprise.
+## Fondation de Quanta Computer : du virage des cartes mères vers l'ODM portable
 
-## L'empire de la sous-traitance d'ordinateurs portables
+En 1988, à 39 ans, Lin Bai-Li cofonde Quanta Computer avec Liang Ci-Zhen et d'autres, se consacrant initialement à la fabrication de cartes mères et d'ordinateurs industriels.[^2] Dans les années 1990, Lin Bai-Li a anticipé la vague de demande pour les ordinateurs portables et a décidé de se consacrer pleinement à l'ODM (Original Design Manufacturing) de portables. Ce tournant stratégique est devenu la clé de l'ascension de Quanta.
 
-Dans les années 1990, la démocratisation des PC et l'essor de l'informatique mobile alimentent une croissance rapide du marché des ordinateurs portables. Barry Lam anticipe ce mouvement et concentre toutes les ressources de Quanta sur la conception et la production de laptops. Grâce à des capacités d'ingénierie supérieures et une gestion rigoureuse des coûts, l'entreprise séduit progressivement des géants comme Dell, HP et Apple.
+Grâce à ses capacités d'ingénierie et à sa maîtrise des coûts, Quanta a successivement obtenu des contrats de fabrication sous contrat auprès de grandes marques internationales. À son apogée, Quanta était l'un des plus grands fabricants d'ordinateurs portables au monde, occupant durablement une position de leader en termes de parts de marché.
 
-Dans les années 2000, Quanta s'impose comme le plus grand fabricant mondial d'ordinateurs portables, avec une part de marché qui dépasse ponctuellement les 30 %. Lam construit une chaîne d'approvisionnement intégrée, de la conception à la fabrication en passant par les achats, permettant à Quanta de répondre rapidement aux besoins de ses clients tout en maintenant une compétitivité tarifaire. Cette stratégie de positionnement aux deux extrémités de la « courbe du sourire » devient un modèle emblématique de l'industrie ODM taïwanaise.
+Les principaux clients de Quanta couvrent des marques mondiales de premier plan telles que HP, Dell et Apple. Pour ces clients, la valeur de Quanta ne réside pas seulement dans sa capacité de production, mais aussi dans sa capacité d'intégration — transformer les exigences de spécifications en solutions d'ingénierie — ce qui confère à Quanta une position de négociation dans la chaîne d'approvisionnement des portables constamment supérieure à celle des concurrents cantonnés à la pure fabrication.
 
-## L'exigence de l'innovation technologique
+**Discours courant → Lecture plus précise :** Quanta est souvent décrit comme un « fabricant sous contrat », mais l'ODM diffère fondamentalement de la pure fabrication sous contrat (OEM) : l'ODM implique une conception autonome. Les ingénieurs de Quanta sont des participants aux spécifications produit, pas de simples exécutants de fabrication. La compétitivité principale de Lin Bai-Li réside dans sa capacité d'intégration de la conception, pas seulement dans l'efficacité de la fabrication.
 
-Barry Lam n'a jamais cessé d'insister sur l'importance de l'innovation. Quanta investit massivement en recherche et développement, avec des avancées notables dans la gestion thermique, les designs ultra-fins et la gestion de l'énergie. Pour lui, un sous-traitant ne peut se contenter de rivaliser sur les prix ; il doit créer de la valeur par la technologie.
+## Diagnostic d'adénocarcinome pulmonaire et vingt ans de mandat présidentiel en lutte contre la maladie
 
-Quanta s'est également intéressé très tôt aux technologies liées à l'informatique en nuage, posant ainsi les bases de sa future transition vers les serveurs IA. Le bagage technique de Lam lui permet d'évaluer avec justesse les évolutions du secteur et de prendre les décisions d'investissement appropriées au bon moment.
+En 2005, Lin Bai-Li a reçu un diagnostic d'adénocarcinome pulmonaire.[^3] Depuis, il a évoqué à plusieurs reprises publiquement son attitude face à la vie en cohabitant avec le cancer. En 2026, cela fait plus de 20 ans qu'il poursuit son combat contre la maladie tout en dirigeant Quanta. Cette expérience est considérée par lui-même comme l'un des tournants de sa vision du travail, et a également attiré durablement l'attention extérieure sur la question de la succession chez Quanta.
 
-## La transformation réussie à l'ère de l'IA
+Continuer à travailler durablement tout en étant malade tout en maintenant un développement rapide de l'entreprise est l'un des récits personnels les plus souvent cités de la carrière de Lin Bai-Li : pas seulement une réussite commerciale, mais un témoignage public sur la force de volonté.
 
-Face au ralentissement du marché des PC, Barry Lam commence dès les années 2010 à se positionner sur l'intelligence artificielle et les serveurs en nuage. Convaincu que le calcul IA sera la prochaine grande vague technologique, il investit activement dans la R&D de serveurs GPU et d'équipements de calcul en périphérie de réseau.
+Lin Bai-Li a déclaré en public qu'après son diagnostic, il a commencé à réévaluer l'allocation de son temps : quelles tâches étaient absolument essentielles pour lui, et lesquelles pouvaient être confiées à l'organisation. Cette refonte de sa vision explique en partie pourquoi Quanta a pu maintenir un fonctionnement organisationnel efficace malgré la maladie prolongée de son dirigeant.
 
-Dans les années 2020, avec l'explosion de l'IA générative, Quanta s'impose comme un partenaire stratégique incontournable pour des fournisseurs de puces IA comme NVIDIA. Le cours de l'action s'envole portée par l'engouement pour l'IA, et Lam retrouve une place centrale dans l'attention des marchés. Cette reconversion réussie atteste une fois de plus de son remarquable sens des tendances technologiques.
+## Transformation à l'ère de l'IA : partenaire serveur de NVIDIA
 
-## Culture d'entreprise et responsabilité sociale
+Face au ralentissement de la croissance du marché des PC, Quanta a commencé à se positionner dans les serveurs cloud et IA à partir des années 2010. Après l'explosion de la vague de l'IA générative, Quanta est devenu un partenaire important de fabrication de serveurs pour des fabricants de puces IA comme NVIDIA.[^4] En 2025, le chiffre d'affaires consolidé de Quanta a franchi les 2 000 milliards de dollars taïwanais, lui permettant d'intégrer le classement Fortune 500.[^4]
 
-Barry Lam attache une grande importance à la culture d'entreprise, autour des valeurs fondamentales d'intégrité, de rigueur et d'innovation. Il s'engage également activement dans la philanthropie, en soutenant l'éducation et le développement culturel et artistique. La Fondation Quanta pour l'éducation et la culture mène depuis des années des programmes de vulgarisation scientifique pour former les talents technologiques de demain.
+Le système de fabrication de précision développé à l'ère des ordinateurs portables a trouvé de nouvelles applications à l'ère des serveurs IA. La transformation de Quanta relève d'un transfert de compétences : transplanter le système de fabrication de précision forgé à l'ère des portables vers la gamme de produits à plus haute valeur ajoutée unitaire que sont les serveurs IA.
 
-Figure emblématique de l'industrie tech taïwanaise, la philosophie de gestion de Lam et son expérience de transformation offrent un référentiel précieux pour de nombreuses entreprises. Il démontre qu'une industrie manufacturière traditionnelle peut, grâce à une innovation continue et à des repositionnements stratégiques audacieux, rester compétitive dans un monde en perpétuelle mutation.
+Les marges brutes des serveurs IA sont bien supérieures à celles des ordinateurs portables. Pour Quanta, il s'agit d'une mise à niveau structurelle. Les mêmes capacités de fabrication de précision permettent d'obtenir une valeur ajoutée unitaire plus élevée dans le domaine du matériel IA, ce qui explique également la réévaluation du cours de l'action de Quanta dans la vague de l'IA : le marché perçoit non seulement une augmentation des commandes, mais aussi une amélioration de la structure des marges.
+
+## La question de la succession
+
+Le plan de succession de Quanta attire l'attention extérieure, notamment concernant la question de la prise de relais par le fils de Lin Bai-Li.[^5] Le calendrier de succession n'a pas encore fait l'objet d'une annonce officielle publique. En 2026, Lin Bai-Li occupe toujours la présidence de Quanta.
+
+Dans le contexte des successions dans l'industrie technologique taïwanaise, il n'est pas rare que les fondateurs conservent la direction pendant de longues périodes. Le cas de Lin Bai-Li est particulier en ce qu'il continue à diriger tout en vivant avec un diagnostic d'adénocarcinome pulmonaire, ce qui maintient durablement l'attention extérieure sur la planification de la succession, même s'il n'a pas encore envoyé de signal clair de passation de pouvoir.
+
+> 🎙️ **Note du curateur :** Lin Bai-Li est une figure représentative de l'évolution de l'industrie taïwanaise de la fabrication sous contrat, passant de la « fabrication à bas coût » à l'« intégration de la conception ». La compétitivité de Quanta provient de l'intégration technique : reprendre les défis de conception des clients et faire participer les ingénieurs de Quanta à la résolution des spécifications en amont de la fabrication. Ce modèle, dupliqué des ordinateurs portables aux serveurs IA, constitue un transfert de compétences, pas un changement de modèle économique.
+
+De l'usine de cartes mères de 1988 à l'usine de serveurs IA classée Fortune 500 en 2025, Lin Bai-Li a mis 37 ans à positionner Quanta dans chaque vague industrielle, tout en occupant le poste de président pendant 20 ans avec un diagnostic d'adénocarcinome pulmonaire.
+
+**Pour aller plus loin :** [Lin Bai-Li — Wikipédia](https://zh.wikipedia.org/wiki/林百里) ｜ [Site officiel de Quanta Computer](https://www.quantatw.com/)
 
 ## Références
 
-- [Site officiel du groupe Quanta Computer : présentation du fondateur](https://www.quantatw.com/tw/about/founder) — Biographie officielle du fondateur par le groupe
-- [Ministère des Sciences et Technologies : histoire du développement ODM à Taïwan](https://www.most.gov.tw/sci/ch/detail?article_uid=5c8d4f1c-8e5c-4c65-9b5c-7f2a3d8e9c0f) — Dossier gouvernemental sur l'évolution de l'industrie ODM de sous-traitance
-- [CommonWealth Magazine : la voie de la transformation IA de Barry Lam](https://www.cw.com.tw/article/5098765) — Grand entretien médiatique sur la stratégie de transition IA de Quanta
+[^1]: [Wikipédia : Lin Bai-Li](https://zh.wikipedia.org/wiki/林百里) — Confirmation de la naissance le 24 avril 1949 à Shanghai, du parcours académique et des premières expériences.
+
+[^2]: [Groupe Quanta Computer : Présentation des fondateurs](https://www.quantatw.com/tw/about/founder) — Confirmation de la cofondation de Quanta Computer en 1988 par Lin Bai-Li, Liang Ci-Zhen et d'autres, du démarrage avec cartes mères et ordinateurs industriels, et de la transition vers l'ODM portable.
+
+[^3]: [Harvard Business Review Taïwan : Transformation IA de Lin Bai-Li](https://www.hbrtaiwan.com/article/23222/quanta-computer) — Inclut le diagnostic d'adénocarcinome pulmonaire de Lin Bai-Li (2005) et ses déclarations publiques sur plus de 20 ans de lutte contre le cancer.
+
+[^4]: [Business Next : Résultats financiers 2025 de Quanta](https://www.bnext.com.tw/) — Confirmation du chiffre d'affaires consolidé de Quanta dépassant 2 000 milliards de TWD en 2025, du partenariat serveur IA important avec NVIDIA, et de l'inclusion au Fortune 500.
+
+[^5]: [ETtoday Finance : Question de la succession chez Quanta](https://finance.ettoday.net/news/2981088) — Reportages liés à la controverse sur la succession du fils de Lin Bai-Li ; Lin Bai-Li est toujours président de Quanta en 2026 (Source : udn.com).

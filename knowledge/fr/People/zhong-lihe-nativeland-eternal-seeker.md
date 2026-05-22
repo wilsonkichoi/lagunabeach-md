@@ -1,85 +1,104 @@
 ---
-title: 'Chung Li-ho'
-description: "Auteur de « L'Homme de la terre natale », père de la littérature taïwanaise, écrivain acharné qui n'a jamais cessé de créer malgré la maladie et la pauvreté"
+title: 'Zhong Lihe : Meinong 1915, le laboureur des lettres tombé dans une mare de sang'
+description: 'Né le 15 décembre 1915 dans une famille hakka de Meinong, à Kaohsiung. Parti en Mandchourie chinoise en 1938, rentré à Taïwan en 1946. Œuvres représentatives : La Ferme de Lishan (roman), L’Homme du pays natal (nouvelle, achevée en 1959), Le Couple pauvre. Surnommé « le laboureur des lettres tombé dans une mare de sang », il est souvent honoré comme « père de la littérature taïwanaise du terroir » (titre controversé). Mort d’une hémoptysie le 4 août 1960, à l’âge de 44 ans.'
 date: 2026-03-19
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '文學'
 tags:
   [
-    personnage,
-    Chung Li-ho,
-    L'homme de la terre natale,
-    père de la littérature taïwanaise,
-    Ferme Lishan,
-    littérature terroir,
+    'littérature',
+    'littérature du terroir',
+    'L’Homme du pays natal',
+    'La Ferme de Lishan',
+    'Meinong',
+    'Hakka',
   ]
-subcategory: 'Littérature'
-category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 8
+readingTime: 7
+lastVerified: 2026-05-07
+lastHumanReview: true
 featured: false
 translatedFrom: 'People/鍾理和.md'
-lastVerified: 2026-03-19
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:5898ba9c26f93d0f'
-sourceBodyHash: 'sha256:886a58627386940c'
-translatedAt: '2026-04-14T19:19:21+08:00'
+sourceCommitSha: '0f8fae0ae'
+sourceContentHash: 'sha256:cddbfe1c856d1966'
+sourceBodyHash: 'sha256:59814996cd0ea2c6'
+translatedAt: '2026-05-22T05:08:47+08:00'
 ---
 
-# Chung Li-ho : un homme en quête perpétuelle de sa terre natale
+# Zhong Lihe : Meinong 1915, le laboureur des lettres tombé dans une mare de sang
 
-Chung Li-ho est l'une des figures les plus poignantes de la littérature moderne taïwanaise — un combattant des lettres qui a mis sa vie entière au service de son écriture. Né en 1915 à Meinong, dans le sud de Taïwan, il s'est éteint en 1960 dans son village natal, emporté par la tuberculose. En quarante-cinq ans d'existence, il a composé des œuvres durables comme _L'Homme de la terre natale_ et _La Ferme Lishan_, avec une obstination que ni la pauvreté, ni la maladie, ni l'isolement n'ont pu entamer. On l'appelle le « père de la littérature taïwanaise » — non seulement pour la valeur artistique de ses textes, mais parce qu'il a incarné, pour les générations suivantes, ce que signifie s'acharner à écrire contre vents et marées.
+> **Aperçu en 30 secondes :** Zhong Lihe est né le 15 décembre 1915 dans une famille hakka de Meinong, à Kaohsiung.[^1] En 1938, il partit en Mandchourie chinoise pour gagner sa vie, puis rentra à Taïwan en 1946.[^1] Ses œuvres représentatives sont La Ferme de Lishan (roman), L’Homme du pays natal (nouvelle, achevée en 1959) et Le Couple pauvre.[^1] Surnommé « le laboureur des lettres tombé dans une mare de sang », il est souvent honoré comme « père de la littérature taïwanaise du terroir » (titre controversé : Lai He est le père reconnu de la nouvelle littérature taïwanaise).[^2] Le 4 août 1960, alors qu’il corrigeait un manuscrit, il mourut d’une hémoptysie, à l’âge de 44 ans.[^1]
 
-## L'éveil littéraire d'un fils de Meinong
+## Une origine hakka dans le village de Meinong, à Kaohsiung
 
-De son vrai nom Chung Lian-he, il naît le 15 décembre 1915 dans une famille d'agriculteurs hakkas à Meinong. Ce bourg a su préserver une culture hakka profonde, et ses paysages, ses visages, sa langue se sont gravés dans la mémoire de l'enfant, alimentant plus tard toute sa création. Son père, paysan honnête, et sa mère, femme douce et aimante, lui offrent une enfance modeste mais chaleureuse.
+Zhong Lihe naquit le 15 décembre 1915 dans une famille paysanne hakka de Meinong, à Kaohsiung ; son nom d’origine était Zhong Lianhe.[^1] Meinong a conservé une culture hakka très dense, et ses paysages comme sa langue devinrent par la suite les principaux matériaux de son écriture.
 
-À l'école primaire, Chung Li-ho se montre brillant malgré la gêne financière. Il intègre l'École normale de Tainan — une opportunité rare pour un jeune garçon hakka de l'époque. Mais les difficultés économiques et des problèmes de santé l'obligent à interrompre ses études et à rentrer travailler la terre.
+Après avoir terminé l’école publique de Meinong, il fut admis à l’École normale de Tainan, mais les difficultés économiques de sa famille l’empêchèrent d’achever ses études ; il rentra dans son village pour travailler aux champs. Le jour, il accomplissait les travaux agricoles ; le soir, il lisait abondamment les œuvres d’écrivains modernes comme Lu Xun, Mao Dun et Lao She.
 
-Ces années à Meinong sont dures, mais c'est là que naît sa conscience littéraire. Le jour, les champs. Le soir, les livres. Il dévore la littérature chinoise et étrangère — Lu Xun, Mao Dun, Lao She lui ouvrent des horizons nouveaux et éveillent en lui un désir d'écrire.
+Cette formation littéraire autodidacte façonna la tonalité profonde de son écriture : elle n’avait pas la conscience structurelle d’une école académique, mais possédait un sens de la langue longuement poli par la vie même. Les traces de syntaxe hakka et le rythme du travail rural n’ont pas été lissés par l’angoisse de « bien apprendre la littérature » ; ils sont au contraire devenus l’empreinte linguistique la plus singulière de son œuvre.
 
-## Le tournant : les années mandchoues
+## 1938 : départ pour la Mandchourie ; 1946 : retour à Taïwan
 
-En 1938, à vingt-trois ans, Chung Li-ho prend une décision qui va changer le cours de sa vie : il quitte Meinong pour la Mandchourie, espérant améliorer le sort de sa famille et trouver un espace plus vaste pour exister. Il embarque pour Dalian et s'installe pour huit ans dans le nord-est de la Chine.
+En 1938, à l’âge de 23 ans, Zhong Lihe partit en Mandchourie chinoise (Dalian, Shenyang, Pékin) pour gagner sa vie, et ne put rentrer dans son village qu’en 1946, après la guerre.[^1] Ces huit années loin de chez lui approfondirent sa compréhension du « pays natal » ; cette expérience devint ensuite une source majeure pour nombre de ses nouvelles.
 
-Entre Shenyang et Pékin, l'expérience de l'exil lui révèle ce que signifie vraiment avoir une « terre natale ». Plus on s'en éloigne, plus elle pèse. Plus la vie est rude, plus l'attachement se resserre. Il commence à consigner ces émotions — poèmes, fragments, esquisses de la nostalgie qui l'habite.
+Durant ces huit années en Mandchourie, Zhong Lihe vécut sur la terre de la « patrie » en tant que Taïwanais de souche, mais découvrit qu’il n’était ni considéré comme Chinois, ni réellement en mesure de rentrer à Taïwan. Cette double marginalité lui donna une expérience corporelle très concrète de la question de « l’appartenance », qu’il transforma plus tard en interrogation récurrente sur la notion de « pays natal ».
 
-Quand le Japon capitule en 1945, Taïwan retrouve sa souveraineté. Chung Li-ho brûle de rentrer, mais le chaos de l'après-guerre le retient en Mandchourie. Ce n'est qu'en 1946 qu'il retrouve enfin Meinong, après huit ans d'absence. L'homme qui revient n'est plus le jeune paysan d'antan : c'est un écrivain mûri par l'épreuve, nourri d'expériences, porteur d'un projet littéraire.
+## La Ferme de Lishan : un portrait réaliste de la campagne taïwanaise
 
-## L'âge d'or de la création et _L'Homme de la terre natale_
+La Ferme de Lishan est le roman le plus important de Zhong Lihe.[^1] Situé dans la campagne hakka, il décrit les difficultés de survie des paysans sur une terre pauvre. Zhong Lihe venait lui-même d’une famille agricole et connaissait directement la misère rurale ; ses paysans ne sont pas idéalisés, et son œuvre est considérée comme un précédent majeur de la littérature taïwanaise du terroir.
 
-De retour à Taïwan, Chung Li-ho entre dans sa période la plus féconde. À partir de 1947, il publie des nouvelles qui le font remarquer sur la scène littéraire. Ses textes prennent pour décor les villages hakkas, leurs habitants ordinaires, leurs combats quotidiens et leurs aspirations profondes. La prose est sobre, le ton sincère, l'émotion tenace.
+L’importance de La Ferme de Lishan dans l’histoire littéraire taïwanaise ne tient pas seulement à sa précocité, mais aussi au fait que son écriture rurale n’adopte pas le regard extérieur d’un intellectuel urbain. Il n’est pas quelqu’un qui « va voir à la campagne » pour ensuite écrire à destination des lecteurs des villes : il vient de cette terre et écrit sa propre réalité. Cette perspective intérieure a par la suite influencé l’échelle d’écriture de la littérature taïwanaise du terroir.
 
-En 1956, il achève le premier jet de _L'Homme de la terre natale_, son roman le plus important. L'ouvrage s'inspire directement de sa propre trajectoire : l'errance loin du pays natal, le retour et le déchirement intérieur qui s'ensuit. Dans ce roman, la « terre natale » n'est pas seulement un lieu géographique — c'est une demeure de l'âme, un espace intérieur auquel on aspire sans jamais vraiment y revenir.
+## L’Homme du pays natal : une nouvelle achevée en 1959
 
-La rédaction se fait dans des conditions éprouvantes. Gravement tuberculeux, Chung Li-ho crache le sang régulièrement, mais continue à corriger ses manuscrits depuis son lit de malade. Il aurait dit : « Je veux finir d'écrire ma vie avant de mourir. » Cette obstination a touché d'innombrables lecteurs et est devenue l'une des légendes de la littérature taïwanaise.
+L’Homme du pays natal est une nouvelle que Zhong Lihe écrivit à partir de sa propre expérience de l’exil et de l’errance.[^1] Achevée en 1959, elle appartient aux œuvres importantes de la dernière période de sa vie. Dans le récit, le « pays natal » désigne un lieu d’ancrage spirituel ; l’adresse de Meinong n’en est que le point de départ.
 
-## _La Ferme Lishan_ : le vrai visage des campagnes
+Comme concept spirituel, le « pays natal » possède dans l’écriture de Zhong Lihe une dialectique singulière : il passa huit ans en « Chine » sans y éprouver d’appartenance, et ce n’est qu’après son retour à Meinong qu’il comprit que le véritable pays natal relevait de l’attachement affectif à une terre et à une langue, non d’une localisation géographique. Cette découverte à rebours confère à sa notion de « pays natal » une profondeur philosophique particulière dans la littérature taïwanaise.
 
-À côté de _L'Homme de la terre natale_, _La Ferme Lishan_ est l'autre pilier de son œuvre. Ce roman peint la misère des campagnes taïwanaises d'après-guerre et la lutte pour la survie des paysans. Le protagoniste Li Nanhui est un homme travailleur et honnête, mais la terre ingrate ne lui permet pas de nourrir sa famille.
+Zhong Lihe corrigeait ses manuscrits sur son lit de malade ; une formule célèbre lui est attribuée : « Je veux écrire ma vie jusqu’au bout, puis mourir » (il reste à vérifier si cette phrase est attestée par une source de première main).[^3]
 
-La force du livre tient à son authenticité. Chung Li-ho était lui-même fils de la terre et connaissait ces réalités de l'intérieur. Les paysans qu'il dépeint ne sont pas idéalisés : ils sont tels qu'ils sont, dans leur dignité et leur dénuement. La pauvreté y est montrée sans fard, et la critique sociale, sans ménagement.
+Quelle que soit l’origine exacte de cette phrase, elle décrit avec justesse une réalité : dans les dernières années de sa vie, alors que son corps était déjà gravement rongé par la tuberculose, il continuait d’écrire et de corriger. L’écriture était pour lui une course contre le temps ; pendant les dernières années où la tuberculose détruisait sa vie, il continuait d’écrire, continuait de reprendre ses textes. Cette attitude devint plus tard l’une des principales raisons du respect que lui vouèrent les générations suivantes.
 
-L'ouvrage a fait l'effet d'un coup de tonnerre dans les milieux littéraires. Beaucoup le considèrent comme le texte fondateur de la littérature du terroir taïwanais. En posant les bases de ce courant, Chung Li-ho a ouvert la voie à des auteurs comme Huang Chunming ou Wang Zhen-he, en prouvant que la littérature peut rendre compte fidèlement de la vie des gens ordinaires.
+<!-- TODO: 天機星 — 確認「我要把生命寫完，再死」的原始出處（書信/日記/訪談）；建議查 https://www.gjtaiwan.com/new/?p=9285 -->
 
-## Solitude et obstination
+## 44 ans, tombé sur ses manuscrits
 
-La carrière de Chung Li-ho fut jalonnée d'isolement et de refus. En un temps où la scène littéraire taïwanaise était encore peu structurée, ses textes peinaient à trouver des éditeurs. Les manuscrits lui revenaient, ou ne trouvaient tout simplement pas de tribune. À cette situation déjà précaire s'ajoutaient la gêne familiale et la maladie qui le rongeait.
+Le 4 août 1960, Zhong Lihe fut soudain pris d’une hémoptysie alors qu’il corrigeait un manuscrit ; transporté à l’hôpital, il ne put être sauvé. Il avait 44 ans.[^1]
 
-Rien de tout cela ne l'a fait renoncer. Il croyait en la valeur de la littérature, convaincu que les bonnes œuvres finissent toujours par trouver leur lecteur. Jusque dans les dernières semaines de sa vie, la tuberculose au stade avancé, il continuait à corriger _L'Homme de la terre natale_ d'une main tremblante.
+(Note : certains articles écrivent en ouverture qu’il eut « une courte vie de 45 ans ». C’est contradictoire : de décembre 1915 à août 1960, il n’avait en réalité pas encore 45 ans. L’âge exact est 44 ans.)
 
-Le 4 août 1960, alors qu'il retravaille ses manuscrits, il est pris d'une hémorragie. Il décède peu après, à quarante-quatre ans. _L'Homme de la terre natale_ n'était pas encore définitivement achevé — une perte que l'histoire littéraire taïwanaise ne cesse de regretter. Mais son esprit a survécu à sa mort, et continue d'inspirer les écrivains qui lui ont succédé.
+Il fut surnommé « le laboureur des lettres tombé dans une mare de sang ».[^1]
 
-## Un héritage fondateur
+Si ce surnom s’est transmis, c’est parce qu’il décrit à la fois la manière de sa mort et l’attitude de sa vie : au dernier moment, il choisit de continuer à faire ce qu’il jugeait le plus important. Cette attitude même est devenue le noyau spirituel que l’on mentionne nécessairement lorsqu’on parle de Zhong Lihe.
 
-Le titre de « père de la littérature taïwanaise » n'est pas décerné à la légère. L'œuvre de Chung Li-ho constitue un jalon essentiel dans l'histoire des lettres de l'île. Il est l'un des premiers à avoir ancré la création littéraire moderne dans le quotidien taïwanais, traçant ainsi une ligne directrice vers un enracinement local de la littérature.
+## Préciser les titres : père de la littérature du terroir, non père de la littérature taïwanaise
 
-Son attitude face à l'écriture a fait école. Créer dans l'adversité, sans jamais brader ses exigences — cette posture a galvanisé des générations d'auteurs. Des figures majeures comme Long Yingtai et Bai Xianyong ont publiquement exprimé leur admiration pour lui.
+Zhong Lihe est souvent honoré comme « père de la littérature taïwanaise du terroir », mais les titres de « père de la littérature taïwanaise » ou de « père de la nouvelle littérature taïwanaise » renvoient généralement à **Lai He** (1894-1943) : ce sont deux appellations différentes.[^2]
 
-Son œuvre a également posé les fondations de toute la littérature du terroir taïwanais. Les villages hakkas, les figures paysannes, la langue ancrée dans le local qu'il a convoqués dans ses textes sont devenus des références pour les auteurs qui ont suivi. Sans lui, le courant du terroir n'aurait sans doute pas connu le même essor.
+En 1976, la « Fondation culturelle et éducative Zhong Lihe » fut créée ; elle organise chaque année le « Prix littéraire Zhong Lihe » afin de découvrir de nouveaux écrivains.
 
-En 1976, la Fondation culturelle Chung Li-ho est créée pour perpétuer son héritage. Le Prix littéraire Chung Li-ho, décerné chaque année, est devenu l'une des récompenses les plus importantes de Taïwan, révélant et encourageant de nombreuses nouvelles plumes.
+Qu’un prix littéraire ait été fondé au nom d’un écrivain mort en 1960, et qu’il ait continué à exister jusqu’au XXIe siècle, montre que l’esprit littéraire de Zhong Lihe conserve une force symbolique durable dans la généalogie de la littérature taïwanaise du terroir. Son nom est devenu le support d’un certain critère : prêter attention à la terre, écrire le réel, ne pas se plier aux formats dominants.
+
+**Formule courante → lecture plus précise** : Zhong Lihe est souvent décrit dans un cadre « tragique » : pauvreté et maladie, mort précoce à 44 ans, chute dans une mare de sang. Mais ce cadre risque de masquer la force de ses œuvres mêmes. Sa littérature n’a jamais été un monument figé dans la souffrance ; elle est l’enregistrement honnête, par un créateur à la conscience problématique très nette, de la réalité rurale hakka. La tragédie fut sa situation, non sa littérature.
+
+> 🎙️ **Note curatoriale** : si les 44 années de la vie de Zhong Lihe ne laissent plus que l’image du « laboureur des lettres tombé dans une mare de sang », alors nous lui retirons ce qu’il a de plus important en tant qu’écrivain : la lucidité de son regard d’observation, l’honnêteté de sa langue, et les fondations littéraires concrètes que ses œuvres ont apportées à la constitution de la littérature taïwanaise du terroir.
+>
+> Lui et Lai He représentent deux sources différentes de la littérature taïwanaise : l’esprit antijaponais de Lai He est politique ; l’écriture rurale de Zhong Lihe est sociale. Ces deux lignes convergèrent plus tard dans les débats des années 1970 sur la littérature du terroir ; lui n’était déjà plus là, et son nom fut cité comme origine de cette tradition. C’est la place que les générations suivantes lui ont attribuée.
+>
+> Une vie de 44 ans n’a laissé que quelques livres, mais ces livres ont établi un critère : la littérature du terroir n’est jamais une nostalgie romantique de la campagne passée, mais l’enregistrement honnête de la vie réelle. Chaque fois que les générations suivantes citent son nom, elles confirment que ce critère demeure valable.
+
+De la famille paysanne hakka de Meinong à l’errance en Mandchourie, de la terre de Meinong aux corrections de manuscrits dans une mare de sang, la vie de Zhong Lihe constitue un exemple extrême de ce que peut signifier « donner à la littérature la même valeur que la vie » : il échangea les dernières forces de son corps contre l’achèvement de ses œuvres.
+
+**Pour aller plus loin** : [Zhong Lihe — Wikipédia](https://zh.wikipedia.org/zh-tw/鍾理和) ｜ [Fondation culturelle et éducative Zhong Lihe](http://www.jhong-li-ho.org.tw) ｜ [Mémorial Zhong Lihe de Meinong, Kaohsiung](https://heritage.khcc.gov.tw/)
 
 ## Références
 
-- [Fondation culturelle Chung Li-ho](http://www.jhong-li-ho.org.tw) — la fondation officielle chargée de promouvoir son œuvre et son esprit littéraire
-- [Bureau de la culture de la ville de Kaohsiung – Mémorial Chung Li-ho](https://heritage.khcc.gov.tw/home02.aspx?ID=$7001&IDK=2&AP=$7001_HISTORY-0) — présentation officielle du mémorial de Meinong
-- [Musée national de la littérature taïwanaise – Archives numériques Chung Li-ho](https://www.nmtl.gov.tw/informationlist_386.html) — archives numériques de son œuvre et de sa biographie
+[^1]: [Wikipédia : Zhong Lihe](https://zh.wikipedia.org/zh-tw/鍾理和) — Confirmation de sa naissance à Meinong, Kaohsiung, le 15 décembre 1915 ; de son décès le 4 août 1960 (à l’âge de 44 ans) ; de son séjour en Mandchourie de 1938 à 1946 ; de La Ferme de Lishan (roman), L’Homme du pays natal (nouvelle, achevée en 1959), Le Couple pauvre ; et du surnom de « laboureur des lettres tombé dans une mare de sang ».
+
+[^2]: [China Times : Lai He, père de la nouvelle littérature taïwanaise](https://www.chinatimes.com/realtimenews/20200519005648-260405) — Confirmation que le titre de « père de la nouvelle littérature taïwanaise » appartient à Lai He ; Zhong Lihe est généralement appelé « père de la littérature taïwanaise du terroir » (titre lui aussi controversé).
+
+[^3]: [Fondation culturelle et éducative Zhong Lihe](http://www.jhong-li-ho.org.tw) — Données sur la vie, l’esprit littéraire et les œuvres de Zhong Lihe, comprenant des mentions liées à « Je veux écrire ma vie jusqu’au bout, puis mourir » (origine première à confirmer davantage).
+
+[^4]: [Musée national de la littérature taïwanaise : archives numériques Zhong Lihe](https://www.nmtl.gov.tw/) — Archives des œuvres de Zhong Lihe et données biographiques, incluant les périodes de création et les documents liés à L’Homme du pays natal.
+
+[^5]: [Mémorial Zhong Lihe de la ville de Kaohsiung](https://heritage.khcc.gov.tw/home02.aspx?ID=$7001&IDK=2&AP=$7001_HISTORY-0) — Mémorial Zhong Lihe de Meinong, comprenant des données détaillées d’exposition sur sa vie.

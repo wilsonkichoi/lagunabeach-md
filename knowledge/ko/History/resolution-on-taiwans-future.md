@@ -5,13 +5,24 @@ date: 2026-05-17
 author: 'Taiwan.md Contributors'
 category: 'History'
 subcategory: '政治'
-tags: ['민진당', '전망 결의문', '대만 독립 당강', '린쭈이수이', '궈정량', '천충신', '양안 관계', '정권 교체', '대만 민주화']
+tags:
+  [
+    '민진당',
+    '전망 결의문',
+    '대만 독립 당강',
+    '린쭈이수이',
+    '궈정량',
+    '천충신',
+    '양안 관계',
+    '정권 교체',
+    '대만 민주화',
+  ]
 readingTime: 10
 lastVerified: 2026-05-17
 lastHumanReview: false
 featured: false
 translatedFrom: History/臺灣前途決議文.md
-sourceCommitSha: 'c916f28d'
+sourceCommitSha: '1e62d568'
 sourceContentHash: 'sha256:4f37e9db9519dd6b'
 sourceBodyHash: 'sha256:c8ff273540a02078'
 translatedAt: 2026-05-18T05:08:08+08:00
@@ -126,33 +137,61 @@ translatedAt: 2026-05-18T05:08:08+08:00
 ## 참고 문헌
 
 [^1]: [린쭈이수이 〈타이완 전망 결의문의 비밀〉](https://talk.ltn.com.tw/article/paper/130246) — 자유시보 자유평론 2007.5.14, 린쭈이수이가 천수볜이 유시쿤을 통해 대만 독립 당강 수정을 추진했던 것을 회고.
+
 [^2]: [린쭈이수이의 전망 결의문 초안 과정 인터뷰](https://newtalk.tw/news/view/2021-07-11/602408) — 뉴토우커(新頭殼) 2021.7.11, 원문 "국호 앞에 '현재' 두 글자를 붙이니 천수볜 계열이 매우 불쾌해했다."
+
 [^3]: [린쭈이수이 인터뷰 (Newtalk 2021.7.11 동일)](https://newtalk.tw/news/view/2021-07-11/602408) — 린쭈이수이가 "현재"를 붙인 이유를 설명하며 재외 대표부가 강제 폐쇄될 수 있음을 언급.
+
 [^4]: [대만 독립 당강](https://zh.wikipedia.org/zh-tw/台獨黨綱) — 1991년 10월 13일 민진당 제5차 제1회 전국 당원 대표 대회 채택.
+
 [^5]: [스밍더 1995 워싱턴 연설](https://www.dpp.org.tw/media/contents/2286) — 민진당 공식 사이트 수록, 별도로 [스밍더 문화재단](http://www.nori.org.tw/story/民進黨執政，不必也不會宣告台灣獨立。/) 전문 참조.
+
 [^6]: [스밍더 "중화민국 모델의 대만 독립"](https://www.ettoday.net/news/20240115/2637003.htm) — ETtoday 2024.1.15, 스밍더가 1980년에 이 개념을 처음 제시.
+
 [^7]: [1996년 중화민국 대통령 선거](https://zh.wikipedia.org/zh-tw/1996年中華民國總統選舉) — 팽밍민／셰창옌 득표율 21.13%, 리덩후이／롄전 54%.
+
 [^8]: [대만 독립 운동 신세대 강령](https://zh.wikipedia.org/wiki/台灣獨立運動的新世代綱領) — 1996년 5월 10일 저우이청(周奕成) 저술, 100여 명 연명.
+
 [^9]: [CRS Report 98-837: Taiwan: The "Three No's"](https://www.everycrsreport.com/reports/98-837.html) — 미국 의회 조사처 1998, 별도로 [워싱턴포스트 1998.6.30 보도](https://www.washingtonpost.com/archive/politics/1998/06/30/clinton-restates-three-noes-policy-on-taiwan/) 동시 기록.
+
 [^10]: [민진당 중국 정책 대토론](https://zh.wikipedia.org/zh-tw/民主進步黨) — 1998년 2월 13-15일 타이완 대학교 법학원에서 개최, 쉬신량 "대담한 서진" vs 신류류 "강본점진", 절충안 "강본서진" 채택.
+
 [^11]: [린쭈이수이 〈타이완 전망 결의문의 비밀〉](https://talk.ltn.com.tw/article/paper/130246) — 자유시보 2007.5.14, 천충신이 "대만 독립 당강 수정하지 않되 전망 결의문 채택" 타협안 제시.
+
 [^12]: [린쭈이수이 인터뷰 (자유시보 2007.5.14 동일)](https://talk.ltn.com.tw/article/paper/130246) — 린쭈이수이가 초안 과정에서 자신의 역할을 자술.
+
 [^13]: [타이완 전망 결의문](https://zh.wikipedia.org/zh-tw/臺灣前途決議문) — 1999년 5월 8일 민진당 제8차 전국 당원 대표 대회 제2차 전체 회의 채택, 전문은 별도로 [신타이완 평화재단](https://www.twpeace.org.tw/wordpress/?p=2727) 전문 참조.
+
 [^14]: [하나의 중국의 원칙과 대만 문제 (2000 중국 백서)](https://www.gwytb.gov.cn/zt/baipishu/202103/t20210321_12338499.htm) — 베이징은 전망 결의문을 "변칙적 대만 독립"으로 간주, 2000년 백서 발표로 입장 재확인.
+
 [^15]: [2000년 중화민국 대통령 선거](https://zh.wikipedia.org/zh-tw/2000年中華民國總統選舉) — 천수볜／루슈에렌 득표율 39.3%, 첫 정권 교체.
+
 [^16]: [사불일유](https://zh.wikipedia.org/zh-tw/四不一沒有) — 천수볜 2000년 5월 20일 취임 연설에서 약속한 다섯 가지 조건.
+
 [^17]: [Resolution on Taiwan's Future](https://en.wikipedia.org/wiki/Resolution_on_Taiwan%27s_Future) — 2001년 10월 20일 민진당 결의, 전망 결의문 지위를 기술적으로 격상.
+
 [^18]: [정상 국가 결의문](https://www.dpp.org.tw/news/contents/15) — 민진당 공식 사이트 수록, 2007년 9월 30일 채택.
+
 [^19]: [대만 독립 당강 동결 발의](https://zh.wikipedia.org/zh-tw/台獨黨綱) — 2014년 궈정량 등 40여 명 당 대표 연명, 차잉원이 중앙 집행위 회부 지시, 공식 표결 없음.
+
 [^20]: [우쥔즈: 대만 독립 당강 "이미 역사 문서"](https://udn.com/news/story/123307/7613012) — 연합뉴스 2024.2.25, 민진당 중국 사무부 부주석이 양안 학자 온라인 강연에서 발언.
+
 [^21]: [그레이스 라이, 라이칭더에게 대만 독립 당강 동결 촉구 / 종룽타이: 중국이 무력통일 포기가 핵심](https://www.cna.com.tw/news/aipl/202312010145.aspx) — 중앙통신사 2023.12.1, 종룽타이가 라이칭더 선거본부 주석 자격으로 미국 학자 제안에 응답.
+
 [^22]: [궈정량](https://zh.wikipedia.org/zh-tw/郭正亮) — 2023년 5월 19일 민진당 탈당 선언, 현재 정치 평론인.
+
 [^23]: [린쭈이수이](https://zh.wikipedia.org/zh-tw/林濁水) — 2006년 11월 13일 천수볜 국무기요비 사건으로 리원충(李文忠)과 함께 입법위원직 사임.
+
 [^24]: [라이칭더, 대만 독립 두 가지 주요 함의 규정](https://www.ettoday.net/news/20260517/3167412.htm) — ETtoday 2026.5.17, 라이칭더가 트럼프-시진핑 회담 압력에 응답한 발언.
+
 [^25]: [선보양, 장완안 반박](https://news.ltn.com.tw/news/politics/breakingnews/5440164) — 자유시보 2026.5.17, 민진당 입법위원이 국민당 질문에 응답.
+
 [^26]: [린쭈이수이, 정부 성명 "매우 적절하다" 평가](https://news.tvbs.com.tw/politics/3206164) — TVBS 2026.5.17, 린쭈이수이가 정부가 "마침내 2020년 이후의 오류를 벗어났다"고 봄.
+
 [^27]: [타이완 전망 결의문 전문](https://www.twpeace.org.tw/wordpress/?p=2727) — 신타이완 평화재단 수록 서문 및 7개 주장 원문.
+
 [^28]: [차잉원 국경 연설 "네 가지 견지"](https://www.president.gov.tw/News/26253) — 대통령궁 공식 사이트 2021년 10월 10일, 원문 "자유민주적 헌정 체제 견지, 중화민국과 중화인민공화국 상호 불종속 견지, 주권 침범 및 병합 불허 견지, 중화민국 타이완의 미래는 전체 타이완 국민의 의지를 따라야 함 견지."
+
 [^29]: [라이칭더, 선거 전 전망 결의문 언급](https://www.president.gov.tw/News/28428) — 대통령궁 공식 사이트 수록, 별도로 리포터(報導者), 연합뉴스 관련 보도 참조.
 
 ## 더 읽기

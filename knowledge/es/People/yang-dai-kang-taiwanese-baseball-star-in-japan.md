@@ -1,78 +1,84 @@
 ---
-title: 'Yang Dai-kang'
-description: 'Jardinero de los Gigantes de Yomiuri en la NPB, representante taiwanés del béisbol en Japón'
+title: 'Yang Dai-kang: Taitung 1987, el jardinero amiguero de diez años con guante de oro en Fighters hasta su traspaso a Giants vía FA'
+description: 'Nacido el 17/1/1987 en la ciudad de Taitung, de etnia amiguera, antiguo nombre Yang Zhongshu. Graduado en la escuela secundaria adjunta a la Universidad Nacional de Taitung, viajó a Japón para estudiar en la Fukuoka Daiichi High School. En el draft de la NPB de 2005 fue seleccionado como primera elección tanto por los Fighters como por los Hawks, y los Fighters obtuvieron los derechos. En 2012 ganó el Guante de Oro como jardinero en la Pacific League (primer jugador de campo de nacionalidad taiwanesa en lograrlo). En 2016 ejerció su agencia libre para unirse a los Yomiuri Giants. En su carrera en la NPB: 1322 partidos, 105 jonrones, 482 carreras impulsadas, promedio de bateo .270. A finales de 2021 dejó a los Giants y pasó a ligas independientes.'
 date: 2026-03-19
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '體育'
 tags:
   [
     'Deportes',
     'Béisbol',
-    'NPB',
-    'Gigantes de Yomiuri',
-    'Jardinero',
+    'Liga Japonesa de Béisbol',
+    'Pueblo amiguera',
     'Pueblos indígenas',
-    'Pueblo amis',
+    'Jardinero',
   ]
-subcategory: '體育'
-lastVerified: 2026-03-19
+readingTime: 7
+lastVerified: 2026-05-08
 lastHumanReview: false
+featured: false
 translatedFrom: 'People/陽岱鋼.md'
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:563a462f0876373a'
-sourceBodyHash: 'sha256:88c4c0a60304a5dd'
-translatedAt: '2026-05-01T22:19:10+08:00'
-category: People
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:a0454e71ee2abfe6'
+sourceBodyHash: 'sha256:2bbcd86b693a9ea2'
+translatedAt: '2026-05-22T05:08:47+08:00'
 ---
 
-# Yang Dai-kang: estrella del béisbol taiwanés en Japón
+# Yang Dai-kang: Taitung 1987, el jardinero amiguero de diez años con guante de oro en Fighters hasta su traspaso a Giants vía FA
 
-Yang Dai-kang es la figura más representativa del béisbol taiwanés en Japón. Nacido el 17 de enero de 1987 en Taitung, este jugador de origen amis se ha labrado una posición destacada en el béisbol profesional japonés gracias a su técnica integral y su actitud competitiva en el campo. Sus notables actuaciones con los Gigantes de Yomiuri no solo han demostrado la calidad de los beisbolistas taiwaneses, sino que también lo han convertido en un puente fundamental para el intercambio beisbolístico entre Taiwán y Japón.
+> **Resumen en 30 segundos:** Yang Dai-kang nació el 17 de enero de 1987 en la ciudad de Taitung, de etnia amiguera, antiguo nombre Yang Zhongshu.[^1] Tras graduarse en la escuela secundaria adjunta a la Universidad Nacional de Taitung, viajó a Japón para estudiar en la Fukuoka Daiichi High School (escuela preparatoria japonesa).[^1] A finales de 2005, en el draft de preparatorias de la NPB, los Hokkaido Nippon-Ham Fighters y los Fukuoka SoftBank Hawks lo seleccionaron simultáneamente como primera elección global; el sorteo otorgó los derechos a los Fighters.[^1] Durante sus 10 años con los Fighters (2006-2015), en 2012 ganó el Guante de Oro como jardinero de la Pacific League, convirtiéndose en el primer jugador de campo de nacionalidad taiwanesa en recibir dicho galardón.[^2] En 2016 ejerció su agencia libre doméstica y se unió a los Yomiuri Giants por 5 años.[^2] Su carrera total en la NPB suma 1322 partidos, 105 jonrones, 482 carreras impulsadas, promedio de bateo .270 y 141 bases robadas.[^1] A finales de 2021 dejó a los Giants y posteriormente jugó en ligas independientes de Estados Unidos, la Australian Baseball League y la Atlantic League; actualmente juega con Oisix Niigata en la segunda división de la NPB.[^3]
 
-## De Taitung al escenario del béisbol
+## 17 de enero de 1987, Taitung, pueblo amiguera
 
-Yang Dai-kang nació en una familia del pueblo amis en Taitung y desde temprana edad mostró un talento deportivo excepcional. El pueblo amis posee de forma natural una notable predisposición genética para el deporte, y Yang Dai-kang sobresalió entre sus pares. Su iniciación en el béisbol comenzó en la escuela primaria, donde el entorno beisbolístico de Taitung le permitió desarrollar una base técnica sólida.
+Yang Dai-kang nació el 17 de enero de 1987 en la ciudad de Taitung, de etnia amiguera, antiguo nombre Yang Zhongshu.[^1] Recibió su formación inicial en béisbol en Taitung, donde asistió a la escuela secundaria adjunta a la Universidad Nacional de Taitung, destacando por su defensa en los jardines y su velocidad en las bases, lo que llamó la atención de cazatalentos japoneses.
 
-Durante la secundaria superior, estudió en la Escuela Secundaria de Educación Física de Hualien, donde comenzó a destacar en la liga de béisbol estudiantil. No solo sobresalía en el bateo, sino que también poseía un amplio rango defensivo, gran velocidad en las bases y, lo más valioso, una inteligencia beisbolística sobresaliente. Esta versatilidad lo distinguió entre los jugadores de su generación y atrajo la atención de los equipos japoneses.
+Taitung es una de las regiones de Taiwán con mayor densidad de jugadores de béisbol de pueblos originarios; atletas de las etnias amiguera, paiwan y bunun constituyen un componente esencial de la cultura beisbolística local. El ascenso de Yang Dai-kang es una extensión de esa tradición, no una excepción.
 
-En 2005, con apenas 18 años, Yang Dai-kang decidió marcharse a Japón para firmar con los Gigantes de Yomiuri. Esta decisión requirió un enorme valor: abandonar su hogar para competir en un país con un idioma y una cultura completamente distintos representaba un desafío colosal para un joven. Sin embargo, ese paso marcó el inicio de su extraordinaria trayectoria en el béisbol profesional japonés.
+## 2005: Draft de la NPB, primera elección de los Fighters
 
-## Desarrollo constante en la NPB
+Tras graduarse de la escuela secundaria, Yang Dai-kang viajó a Japón para estudiar en la Fukuoka Daiichi High School (preparatoria japonesa), donde se forjó una reputación en la liga estudiantil de béisbol.[^1] A finales de 2005, a los 18 años, participó en el draft de preparatorias de la Nippon Professional Baseball (NPB); tanto los Hokkaido Nippon-Ham Fighters como los Fukuoka SoftBank Hawks lo seleccionaron como primera elección global, y el sorteo favoreció a los Fighters.[^1]
 
-Yang Dai-kang inició su carrera profesional en el equipo filial de los Gigantes, adaptándose progresivamente al ritmo del béisbol japonés mediante un entrenamiento riguroso. La Nippon Professional Baseball (NPB) se distingue por su exigencia técnica y la meticulosidad de sus métodos de entrenamiento, lo que contribuyó significativamente a elevar su nivel global como jugador. Durante su etapa en el equipo filial, perfeccionó continuamente todas sus habilidades, especialmente en los aspectos defensivos y de velocidad en las bases, que en la NPB se llevan a un nivel de exigencia extraordinario.
+(Nota: algunas fuentes afirman erróneamente que tras el draft de 2005 "firmó con los Yomiuri Giants", lo cual es incorrecto. En 2005 fue seleccionado por los Fighters, donde jugó durante 10 años, y no se unió a los Yomiuri Giants hasta 2016 mediante agencia libre.)
 
-En 2012, Yang Dai-kang se consolidó como titular fijo en el primer equipo de los Gigantes, desempeñándose principalmente como jardinero central. Su rendimiento en la Liga Central de la NPB fue consistente, manteniendo un promedio de bateo por encima de .260, y lo que es más importante, demostró ser confiable en los momentos decisivos. Su versatilidad lo convirtió en un jugador en el que el cuerpo técnico depositaba plena confianza, asignándole con frecuencia roles cruciales en partidos importantes.
+## Era Fighters (2006-2015): El Guante de Oro
 
-El año 2014 fue un hito en la carrera de Yang Dai-kang, al contribuir a que los Gigantes se alzaran con el campeonato de la Liga Central y la Serie Japonesa. En esa temporada, no solo brilló por sus estadísticas individuales, sino que también demostró su valor en el plano colectivo. Su actitud enérgica y su profesionalismo le ganaron el respeto de compañeros y aficionados, convirtiéndolo en una pieza indispensable del equipo.
+Yang Dai-kang jugó con los Fighters durante 10 años (2006-2015). En 2012 recibió el Guante de Oro como jardinero de la Pacific League, siendo el primer jugador de campo de nacionalidad taiwanesa en obtener este reconocimiento.[^2]
 
-## Técnica beisbolística integral
+El Guante de Oro premia la defensa en los jardines, no el bateo. Esto significa que el valor de Yang Dai-kang en la NPB no se limitaba al ataque, sino que incluía también sus lanzamientos desesperados frente a la pared de jonrones y su potencia de brazo —contribuciones visibles en cada transmisión televisiva y que constituyen la imagen más vívida que los aficionados de Hokkaido conservan de él.
 
-La técnica de Yang Dai-kang se distingue por su carácter integral: no posee una habilidad individual descomunal, sino que mantiene un nivel notable en todos los aspectos del juego —bateo, defensa y velocidad en las bases—. En el bateo, su mecánica de swing es fluida, es capaz de adaptarse a distintos tipos de lanzadores y muestra una buena capacidad para seleccionar lanzamientos. Aunque no es un bateador de poder, es capaz de producir hits decisivos cuando el equipo más los necesita.
+## 2016: Agencia libre hacia los Yomiuri Giants
 
-La defensa es uno de sus puntos fuertes. Como jardinero central, posee un amplio rango de cobertura, excelente lectura de las pelotas y un brazo con potencia suficiente para realizar lanzamientos largos. Su solidez defensiva es notable y comete muy pocas errores, una cualidad que los cuerpos técnicos valoran enormemente. En el contexto de la NPB, donde la defensa se prioriza de forma rigurosa, esta habilidad le ha garantizado una posición titular estable.
+En 2016, Yang Dai-kang ejerció su derecho de agencia libre (FA) en la NPB y se unió a los Yomiuri Giants, donde jugó durante 5 años (2016-2021).[^2] Los Yomiuri Giants son el equipo con mayor popularidad en la NPB; su incorporación mediante FA significó un reconocimiento más amplio de su estatus en el mercado de la liga japonesa.
 
-La técnica de corredor de bases es otra de sus ventajas competitivas. Su velocidad no es solo física, sino que destaca especialmente por su precisión en la toma de decisiones, siendo rara vez puesto out. Es hábil para detectar los espacios en la coordinación entre lanzador y receptor, lo que le otorga una alta tasa de éxito en los robos de base. Esta amenaza en las bases genera oportunidades adicionales de anotación para su equipo y añade presión sobre el lanzador rival.
+**Lectura convencional → Lectura más precisa:** A veces se interpreta el traspaso de Yang Dai-kang mediante FA como una "búsqueda de un salario más alto", pero una lectura más precisa es que el mecanismo de FA en la NPB en sí mismo constituye un reconocimiento del valor de mercado del jugador, y las necesidades tácticas de cada equipo también son un factor en la decisión.
 
-## Adaptación cultural y dominio del idioma
+## Estadísticas acumuladas de su carrera en la NPB
 
-Tras más de una década compitiendo en el béisbol profesional japonés, Yang Dai-kang ha demostrado una excepcional capacidad de adaptación cultural. No solo ha aprendido un japonés fluido, sino que ha comprendido y asimilado la cultura beisbolística japonesa. La NPB exige disciplina de equipo y atención meticulosa al detalle, cualidades que él ha incorporado a la perfección en su desempeño.
+Carrera en la NPB (Fighters + Giants): 1322 partidos jugados, 105 jonrones, 482 carreras impulsadas, promedio de bateo .270, 141 bases robadas.[^1]
 
-Yang Dai-kang también se ha mostrado muy profesional en su trato con los medios de comunicación. Su dominio del japonés le permite comunicarse con fluidez con la prensa y los aficionados japoneses. Esta habilidad lingüística no solo ha favorecido su rendimiento en el campo, sino que lo ha posicionado como un puente clave para el intercambio beisbolístico entre Taiwán y Japón. Muchos aficionados taiwaneses conocen mejor la NPB gracias a él, y los aficionados japoneses han descubierto el béisbol taiwanés a través de su figura.
+Los 105 jonrones representan un hito importante en la historia de los jugadores de campo de nacionalidad taiwanesa en la NPB. Su combinación de poder y velocidad lo sitúa como un jardinero de perfil completo, poco común en la liga japonesa.
 
-## Puente entre el béisbol taiwanés y japonés
+Las 141 bases robadas confirman esa versatilidad: entre los jardineros de la NPB, muy pocos alcanzan simultáneamente la marca de cien jonrones y cien bases robadas; Yang Dai-kang es uno de ellos.
 
-Como jugador taiwanés con una larga trayectoria en la NPB, Yang Dai-kang desempeña un papel fundamental como agente de intercambio cultural. Su éxito ha demostrado que los jugadores taiwaneses tienen la capacidad de competir y consolidarse en el béisbol profesional japonés, lo que ha contribuido significativamente a elevar la visibilidad internacional del béisbol taiwanés. También participa con frecuencia en actividades de intercambio beisbolístico entre ambos países, compartiendo su experiencia.
+## Después de 2021: Traspaso a ligas independientes
 
-Yang Dai-kang muestra un interés genuino por el desarrollo del béisbol en Taiwán. Sigue de cerca la evolución del deporte en su país de origen y, cuando es posible, ofrece orientación y consejos. Considera que los jugadores taiwaneses poseen una excelente base técnica, pero necesitan acumular más experiencia internacional. Su trayectoria exitosa constituye una referencia de gran valor para los jóvenes taiwaneses que aspiran a desarrollarse en Japón.
+A finales de 2021, Yang Dai-kang dejó los Yomiuri Giants y posteriormente jugó en ligas independientes de Estados Unidos, la Australian Baseball League (liga australiana de béisbol) y la Atlantic League; actualmente juega con Oisix Niigata en la segunda división de la NPB.[^3] Esta etapa de transición en la fase final de su carrera es una ruta común de prolongación para deportistas profesionales: continuar la carrera competitiva en distintas ligas y, al mismo tiempo, transmitir la experiencia práctica adquirida en la NPB.
 
-## Referente del deporte indígena
+> 🎙️ **Nota del curador:** La trayectoria de Yang Dai-kang es un reflejo de la cultura beisbolística del pueblo amiguera de Taiwán dentro del sistema de la NPB. No fue el primer jugador indígena de Taitung en ir a jugar a Japón, pero sí el que más tiempo se mantuvo y con la carrera más completa en el gran escenario de la NPB. Desde Hokkaido con los Fighters hasta Tokio con los Giants, su presencia dejó una huella de datos concretos en la historia del béisbol japonés.
 
-Como jugador profesional de origen amis, Yang Dai-kang es también una figura destacada del deporte indígena. Su éxito ha inspirado a numerosos jóvenes de los pueblos indígenas a dedicarse al deporte, demostrando el extraordinario potencial atlético de estas comunidades. Regresa con frecuencia a Taitung para participar en actividades de promoción deportiva dirigidas a los pueblos indígenas, con la esperanza de descubrir nuevos talentos.
+Desde los campos de tierra roja de Taitung hasta el estadio de los Yomiuri Giants, el equipo del mercado más grande de Japón: la trayectoria profesional de 16 años de Yang Dai-kang constituye una demostración completa de cómo un jugador de etnia amiguera se consolidó en una liga extranjera de élite.
 
-Su profesionalismo y su capacidad de adaptación cultural no solo son ejemplares en el ámbito del béisbol, sino que lo convierten en un modelo a seguir para los jóvenes indígenas que aspiran a competir en el escenario internacional. Ha demostrado que, con esfuerzo y perseverancia, los atletas de los pueblos indígenas pueden destacarse en la competencia internacional y honrar tanto a Taiwán como a sus comunidades originarias.
-
-Yang Dai-kang no es únicamente un beisbolista excepcional, sino también un impulsor fundamental de la internacionalización del deporte taiwanés y del intercambio cultural. Su éxito en la NPB ha abierto nuevas vías de desarrollo para los beisbolistas taiwaneses y ha establecido un puente esencial para el intercambio deportivo entre Taiwán y Japón.
+**Lectura adicional:** [Yang Dai-kang — Wikipedia](https://zh.wikipedia.org/zh-tw/陽岱鋼) ｜ [NPB: Estadísticas de Yang Dai-kang](https://npb.jp/)
 
 ## Referencias
 
-- [Sitio web oficial de los Gigantes de Yomiuri](https://www.giants.jp/) — Información detallada sobre Yang Dai-kang en los Gigantes
-- [Organización de Béisbol Profesional de Japón](https://npb.jp/) — Estadísticas y registros de su carrera en la NPB
-- [Consejo de Pueblos Indígenas](https://www.apc.gov.tw/) — Desarrollo y logros deportivos de los pueblos indígenas
+[^1]: [Wikipedia: Yang Dai-kang](https://zh.wikipedia.org/zh-tw/陽岱鋼) — Confirma nacimiento el 17/1/1987 en la ciudad de Taitung (etnia amiguera, antiguo nombre Yang Zhongshu), escuela secundaria adjunta a la Universidad Nacional de Taitung → Fukuoka Daiichi High School, draft de 2005 con primera elección compartida Fighters/Hawks (Fighters obtuvo los derechos), carrera en NPB: 1322 partidos, 105 jonrones, 482 CI, promedio .270, 141 bases robadas.
+
+[^2]: [China Times: Yang Dai-kang pasa de Fighters a Giants vía FA](https://www.chinatimes.com/realtimenews/20211126002692-261306) — Confirma 10 años en la era Fighters (2006-2015), Guante de Oro como jardinero de la Pacific League en 2012 (primer jugador de campo de nacionalidad taiwanesa), ejercicio de FA en 2016 para unirse a los Yomiuri Giants.
+
+[^3]: [Yahoo Deportes: Yang Dai-kang se une a Oisix Niigata](https://tw.sports.yahoo.com/news/重回日職-37歲陽岱鋼加入二軍新球隊) — Confirma que tras dejar a los Giants a finales de 2021, jugó en ligas independientes de Estados Unidos/Australia/Atlantic League, y actualmente juega en la segunda división de la NPB con Oisix Niigata.
+
+[^4]: [Liberty Times: Estado reciente de Yang Dai-kang](https://sports.ltn.com.tw/news/breakingnews/4862829) — Reportaje sobre el estado reciente de la carrera de Yang Dai-kang.
+
+[^5]: [Organización de la Nippon Professional Baseball NPB: Estadísticas de Yang Dai-kang](https://npb.jp/) — Registro oficial de estadísticas de bateo de su carrera en la NPB.

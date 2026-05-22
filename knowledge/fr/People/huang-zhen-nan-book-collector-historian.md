@@ -1,91 +1,76 @@
 ---
-title: 'Huang Chen-nan'
-description: "Huang Chen-nan est un historien amateur, bibliophile et auteur taïwanais. Connu sous le pseudonyme Sizumaru sur PTT, il anime la page « Huoshui Lai Ce Fang » (活水來冊房) dédiée à l'histoire de Taïwan et à la culture du livre ancien. Auteur de l'ouvrage à succès sur l'histoire de Taïwan en version accessible, il est surnommé le « Takeshi Kaneshiro des bibliophiles »."
-date: 2026-03-20T00:00:00Z
-updated: 2026-03-20T00:00:00Z
+title: 'Huang Zhen-nan'
+description: "Huang Zhen-nan est un spécialiste de la culture et de l'histoire taïwanaises, bibliophile et écrivain. À travers sa page Facebook « Huo Shui Lai Ce Fang » (活水來冊房), il partage l'histoire de Taïwan et la culture du livre ancien. Il est l'auteur de titres tels que « L'histoire de Taïwan la plus déjantée de l'histoire taïwanaise »."
+date: 2026-03-20
+category: 'People'
 tags:
   [
-    'histoire taïwanaise',
-    'bibliophile',
-    'Huang Chen-nan',
-    'culture du livre',
-    'Huoshui Lai Ce Fang',
+    'Culture et histoire taïwanaises',
+    'Bibliophile',
+    'Huang Zhen-nan',
+    'Histoire de Taïwan',
+    'Huo Shui Lai Ce Fang',
   ]
-subcategory: 'Littérature'
-author: 'Taiwan.md Translation Team'
-difficulty: 'intermediate'
-readingTime: 8
-category: 'People'
+subcategory: '文學'
+author: 'Taiwan.md Contributors'
 featured: false
 lastVerified: 2026-03-20
 lastHumanReview: false
 translatedFrom: 'People/黃震南.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:26157944457addef'
-sourceBodyHash: 'sha256:5572b1dffb016fcd'
-translatedAt: '2026-04-14T19:20:08+08:00'
+sourceCommitSha: '18157ab5d'
+sourceContentHash: 'sha256:e3d5f3c7c92e369d'
+sourceBodyHash: 'sha256:0c3024d2af149e55'
+translatedAt: '2026-05-22T05:08:47+08:00'
 ---
 
-# Huang Chen-nan : le bibliophile taïwanais qui rend l'histoire vivante
+# Huang Zhen-nan : une famille de lettrés et la source vive de la culture taïwanaise
 
-## En 30 secondes
+> **En bref (30 secondes) :** Huang Zhen-nan est un spécialiste de la culture et de l'histoire taïwanaises ainsi qu'un bibliophile. Né en 1980 dans le canton de Liujiao (comté de Chiayi), il a développé avec son père Huang Zhe-yong un mode de collection complémentaire, dit « père au sud, fils au nord ». En 2009, il a créé la page Facebook « Huo Shui Lai Ce Fang » (活水來冊房), où il popularise l'histoire de Taïwan et la culture du livre ancien avec un ton humoristique. Auteur de _L'histoire de Taïwan la plus déjantée de l'histoire taïwanaise_ et de _La maison des livres_, entre autres ouvrages, il est décrit par les médias comme le « conteur » du milieu taïwanais des lettres et de l'histoire.
 
-Originaire d'une famille de lettrés à Liujiao, dans le comté de Chiayi, Huang Chen-nan a appris à lire à deux ans. Adulte, il collabore avec son père pour constituer une collection de documents taïwanais, lui depuis le sud, lui depuis le nord. Depuis 2009, il anime la page « Huoshui Lai Ce Fang » où il partage sa passion pour l'histoire de Taïwan et les livres anciens. Auteur de plusieurs ouvrages, dont un guide de l'histoire de Taïwan écrit avec humour et accessibilité, il est surnommé le « Takeshi Kaneshiro des bibliophiles » — l'homme qui a transformé une discipline confidentielle en passion populaire, tout en contribuant à préserver la mémoire culturelle de Taïwan.
+## Une famille de lettrés et les années de formation
 
-**Mots-clés** : bibliophile, histoire de Taïwan, Huoshui Lai Ce Fang, Nishikawa Mitsuru, Tsai Pei-huo, héritier du livre
+Huang Zhen-nan naît en 1980 dans le canton de Liujiao, dans le comté de Chiayi. Dès l'enfance, il accompagne son père Huang Zhe-yong (spécialiste de la littérature populaire et des études sinologiques) dans les librairies d'occasion. Issu d'une famille classée dans la catégorie des ménages les plus pauvres, son père nourrissait pourtant une passion profonde pour la collection de livres — une obsession pour les textes qui s'est transmise de génération en génération au sein de la famille. Après ses études universitaires, Huang Zhen-nan travaille dans le nord de Taïwan tandis que son père demeure dans le sud, créant ainsi un modèle complémentaire « père au sud, fils au nord » pour collecter séparément documents de littérature taïwanaise, œuvres de littérature classique et ouvrages d'histoire de toutes sortes.[^1]
 
----
+L'intérêt de Huang Zhen-nan pour la collection de livres trouve son origine dans les romans de wuxia de Wen Rui'an, lus dans les années 1980 et 1990, avant de s'étendre progressivement à la littérature générale, aux sources historiques taïwanaises et aux publications de la période coloniale japonaise. Diplômé du département de formation en langues de l'Université nationale d'éducation de Taichung, il obtient ensuite un master au département d'études taïwanaises de l'Université normale nationale de Taïwan. Ce parcours académique lui confère, en plus de sa vaste collection, la capacité d'identifier les éditions et de vérifier les sources historiques.
 
-## Cinq minutes pour aller plus loin
+## La naissance de « Huo Shui Lai Ce Fang »
 
-### Une passion transmise de père en fils
+En 2009, Huang Zhen-nan fonde un blog et une page Facebook sous le nom « Huo Shui Lai Ce Fang » (活水來冊房), emprunté au vers du poète Zhu Xi : « Parce qu'il y a une source vive à l'origine ». Avec un ton drôle et accessible, il fait sortir l'histoire de Taïwan et la culture du livre ancien du cercle académique pour les mettre à la portée du grand public, rendant des documents historiques austères à la fois amusants et faciles à comprendre.[^2]
 
-Huang Chen-nan est né entre 1980 et 1981 à Liujiao, dans le comté de Chiayi. Tout enfant, il accompagne régulièrement son père, Huang Zheyong — chercheur en littérature populaire et études sinologiques — dans les librairies de livres anciens. Le père, issu d'un milieu modeste, a pourtant consacré sa vie à la collection de livres. À l'âge adulte, Huang Chen-nan s'installe dans le nord de Taïwan pour des raisons professionnelles, et le duo père-fils met en place une organisation naturelle : le père couvre le sud, le fils prospecte le nord. Ensemble, ils constituent une collection de documents historiques et de littérature traditionnelle taïwanaise. Sa passion pour les livres a d'abord débuté avec les romans de kung-fu de Wen Ruian, avant de s'étendre à la littérature pure et aux archives historiques de Taïwan.
+La page a acquis une influence considérable dans le milieu de la culture et de l'histoire taïwanaises. De nombreux auteurs en ligne spécialisés dans l'histoire de Taïwan ont été inspirés par le style de ses premiers messages sur PTT (le plus grand forum en ligne de Taïwan). En combinant son œil de collectionneur et son talent de conteur, il permet à chaque pièce de sa collection d'être redécouverte.
 
-### La naissance et l'influence de « Huoshui Lai Ce Fang »
+## Œuvres principales
 
-En 2009, il crée un blog puis une page Facebook intitulée « Huoshui Lai Ce Fang » (活水來冊房) — une référence à un vers du poète Song Zhu Xi, signifiant « que l'eau vive jaillisse de la source ». Sur cette page, il partage, avec un ton décalé et plein d'humour, ses réflexions sur l'histoire de Taïwan, la culture du livre ancien et ses coups de cœur de lecture. La page compte aujourd'hui près de 90 000 abonnés. De nombreux auteurs et créateurs de contenus culturels taïwanais, comme Maya et Xie Jinyu, ont été inspirés par ses publications sur le forum PTT. Sa démarche dépasse la simple collection : il transforme ses livres en récits, rendant l'histoire sérieuse à la fois savourée et compréhensible.
+Son ouvrage phare, _L'histoire de Taïwan la plus déjantée de l'histoire taïwanaise_ (_台灣史上最有梗的台灣史_), raconte l'histoire de Taïwan d'une plume légère et attire ainsi de jeunes lecteurs vers un domaine de l'histoire locale autrefois considéré comme confidentiel. En 2017, Huang Zhen-nan coécrit avec Cai Hui-pin, conservatrice au Musée national d'histoire de Taïwan, _Refusés l'oubli : mémoires orales des victimes du travail chez RCA_ (_拒絕被遺忘的聲音：RCA 工殤口述記憶_), qui recueille les témoignages directs des travailleurs de la Radio Corporation of America (RCA) touchés par la pollution environnementale et les maladies professionnelles. Cet ouvrage est représentatif de l'extension de sa méthode de travail en histoire culturelle vers l'histoire du travail et l'histoire orale.[^3]
 
-### Œuvres majeures et pièces de collection
+Par la suite, il publie _La maison des livres : mon père, moi, et parfois ma mère_ (_藏書之家：我與我爸，有時還有我媽_), qui retrace l'histoire de la collection familiale sur trois générations : le père rassemble documents de littérature taïwanaise et classiques sinologiques, la mère collectionne antiquités et objets anciens. Leurs goûts respectifs diffèrent, mais ensemble ils composent le portrait singulier d'une culture familiale hors du commun.[^3]
 
-Son livre phare — une histoire de Taïwan rédigée sur le ton de la conversation et de l'humour — a su séduire un large public, notamment les jeunes lecteurs. Il publie ensuite un ouvrage retraçant l'histoire familiale des collectionneurs sur trois générations (sa mère, elle, collectionne les antiquités). Sa collection se concentre notamment sur les éditions limitées et reliées à la main de Nishikawa Mitsuru datant de l'époque japonaise — comme un exemplaire du Momotarō illustré peint à la main — ainsi que sur les carnets manuscrits de l'activiste social Tsai Pei-huo. Il accorde une attention particulière à la valeur éditoriale et au contexte historique de chaque pièce.
+Il a également coédité avec son père Huang Zhe-yong _Lire pour connaître Taïwan_ (_讀冊識台灣_) et, avec le professeur Wu Fu-zhu, _Nouvelle bibliographie de la littérature chinoise traditionnelle de Taïwan_ (_台灣傳統漢語文學書目新編_). Il est aussi l'auteur de l'article académique _Prendre son sac et aller à l'école : les manuels d'éducation traditionnelle taïwanaise_ (_取書包上學校：台灣傳統啟蒙教材_), laissant derrière lui, au-delà de sa pratique de collection, des travaux de documentation consultables.
 
----
+## Centres d'intérêt et philosophie de la collection
 
-## Pour aller encore plus loin
+La collection de Huang Zhen-nan couvre les manuels d'éducation de la dynastie Qing, les journaux de la période coloniale japonaise, les magazines littéraires de l'après-guerre, les correspondances épistolaires, la poésie classique chinoise, ainsi que les bandes dessinées de wuxia des années 1960 à 1980. L'écrivain de la période coloniale japonaise Shigematsu Mitsuru (西川滿), réputé pour le raffinement de ses reliures, fait l'objet d'une recherche particulière : ses éditions limitées et reliées avec soin — dont des versions spéciales coloriées à la main par l'auteur lui-même, telles que _Le conte illustré de Momotarō_ (_繪本桃太郎_) — constituent des pièces majeures de sa collection. La conception matérielle des ouvrages de Shigematsu occupe une place unique dans l'histoire du livre à Taïwan. Huang Zhen-nan a également obtenu les notes manuscrites du militant social Cai Pei-huo (蔡培火), une acquisition précieuse qui lui permet d'approcher de près les enjeux politiques de la période coloniale japonaise. (Les informations sur ces pièces proviennent d'entretiens publiés ; les détails exacts de la collection sont à confirmer directement auprès de Huang Zhen-nan.)[^4]
 
-### Parcours académique et publications
+Il défend le principe du « partage, mais sans prêt », en raison d'une expérience personnelle où des livres empruntés ne lui avaient pas été restitués. Ce principe reflète sa vision des ouvrages en tant qu'objets historiques : chaque pièce porte en elle la trajectoire de vie et la mémoire urbaine de personnages ordinaires de Taïwan, et une fois endommagée, elle est irremplaçable.
 
-Huang Chen-nan est diplômé du département d'enseignement du chinois de l'Université nationale de l'éducation de Taichung, puis titulaire d'un master en taïwanais de l'Université nationale normale de Taïwan. Il a co-édité plusieurs ouvrages de référence sur la littérature et les manuels pédagogiques traditionnels taïwanais, en collaboration avec son père et avec le professeur Wu Fuzhu. Dès l'université, il élargit sa collection via les ventes en ligne et les librairies de livres anciens de Taipei, accumulant des ouvrages qui couvrent les supports d'enseignement de l'époque Qing, les journaux de l'ère japonaise, les revues littéraires d'après-guerre, la correspondance, la poésie classique et les mangas de kung-fu des années 1960-1980.
+## Signification culturelle
 
-### Philosophie de la collection
+À une époque où l'information circule à grande vitesse, la contribution de Huang Zhen-nan réside dans la « traduction » : il transforme des documents poussiéreux, oubliés dans les réserves des collectionneurs et des bibliothèques, en récits accessibles au grand public. Partant d'une perspective locale, il popularise l'histoire de Taïwan dans un langage courant, offrant ainsi aux recherches historiques les plus sérieuses un accès élargi.[^5]
 
-Huang Chen-nan applique une règle stricte : il ne prête jamais ses livres. Cette position, née d'expériences de prêt non honorées, reflète sa conception du livre comme bien personnel, ancré dans une version et un contexte précis. Les œuvres de Nishikawa Mitsuru occupent une place d'honneur dans sa bibliothèque — il considère leur conception graphique comme unique dans l'histoire de l'édition taïwanaise. Quant aux notes manuscrites de Tsai Pei-huo, acquises ces dix dernières années, elles représentent pour lui le témoignage vivant des mouvements sociaux sous la domination japonaise. Ces objets ne sont pas de simples papiers : ils portent les trajectoires de vie de gens ordinaires et la mémoire urbaine de Taïwan.
+Son modèle de collection familiale illustre également la force populaire de la préservation culturelle et historique à Taïwan. En dehors des institutions académiques, un groupe de personnes, portées par leur passion personnelle et la transmission familiale, préserve ces objets papier face à la vague de numérisation.
 
-### Une mission : rendre l'histoire de Taïwan accessible
+## Références
 
-À l'ère de l'intelligence artificielle et de la surabondance d'informations, la contribution de Huang Chen-nan repose sur sa capacité à « traduire » : transformer des archives arides en récits que le grand public peut s'approprier. Il ne se contente pas de préserver — il raconte Taïwan depuis une perspective locale, dans un langage universel, sans jamais réduire son travail à une simple accumulation de données. Ses lecteurs disent souvent, après avoir lu ses livres ou parcouru sa page : « Tiens, j'ai appris quelque chose d'étrange et de merveilleux sur Taïwan. » C'est précisément l'esprit du projet Taiwan.md : des points de vue incarnés, porteurs d'une sensibilité réelle.
+[^1]: [Huang Zhen-nan — Wikipédia](https://zh.wikipedia.org/zh-tw/%E9%BB%83%E9%9C%87%E5%8D%97) — Biographie principale, parcours éducatif et détails sur la collection.
 
-### Réflexions sur un modèle familial
+[^2]: [Page Facebook Huo Shui Lai Ce Fang](https://www.facebook.com/ngtsinlam) — Archives des partages et actualités de la collection depuis la création en 2009.
 
-Le modèle de collection de la famille Huang — père et fils en tandem, mère collectionneuse d'antiquités — illustre la force des initiatives citoyennes dans la préservation de la culture taïwanaise. À l'heure de la numérisation massive, le principe de non-prêt de Huang Chen-nan rappelle aussi la valeur irremplaçable du livre physique, et la responsabilité qu'implique sa garde.
+[^3]: [Fiche du livre _L'histoire de Taïwan la plus déjantée de l'histoire taïwanaise_](https://www.books.com.tw/products/0010722013) — Page du catalogue Books.com.tw, comprenant les informations de publication et les commentaires des lecteurs.
 
----
+[^4]: [Entretien avec le bibliophile Huang Zhen-nan — Creative Comic](https://www.creative-comic.tw/special_topics/2) — Histoire de la collection familiale et description des pièces liées à Shigematsu Mitsuru et Cai Pei-huo.
 
-## Pour prolonger la réflexion
+[^5]: [Article de recommandation de Newtalk](https://newtalk.tw/news/view/2026-02-18/1020552) — Points de vue de Huang Zhen-nan sur la promotion de la lecture de l'histoire taïwanaise et suggestions de lectures.
 
-### Questions à explorer
+## Pour aller plus loin
 
-1. À l'ère numérique, comment la collection de livres anciens peut-elle encore toucher les jeunes générations et renouveler leur rapport à l'histoire de Taïwan ?
-2. Le style humoristique et populaire de Huang Chen-nan pourrait-il servir de modèle à d'autres historiens amateurs souhaitant s'adresser à un public international ?
-3. Si vous aviez l'occasion de tenir en main une édition limitée de Nishikawa Mitsuru, comment la « vivifieriez-vous » pour la partager avec le plus grand nombre ?
-
----
-
-## Sources
-
-- [Huang Chen-nan — Wikipédia (zh)](https://zh.wikipedia.org/zh-tw/%E9%BB%83%E9%9C%87%E5%8D%97) (biographie et détails de collection)
-- [Page de l'ouvrage sur l'histoire de Taïwan](https://www.books.com.tw/products/0010722013)
-- [Page Facebook de Huoshui Lai Ce Fang](https://www.facebook.com/ngtsinlam) (actualités et recommandations de lecture)
-- [Interview de Huang Chen-nan — Creative Comic](https://www.creative-comic.tw/special_topics/2) (histoire familiale des collectionneurs)
-- [Reportage Newtalk sur ses recommandations de lecture](https://newtalk.tw/news/view/2026-02-18/1020552) (ses réflexions sur la vulgarisation de l'histoire de Taïwan)
+- [Huo Shui Lai Ce Fang](https://www.facebook.com/ngtsinlam) — La page de Huang Zhen-nan dédiée au partage de l'histoire de Taïwan et des livres anciens

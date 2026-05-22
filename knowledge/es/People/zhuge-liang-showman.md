@@ -1,136 +1,141 @@
 ---
-title: 'Zhū Gēliàng'
-description: 'Representante de la cultura de los espectáculos en vivo de Taiwán, actor cómico nacional, fallecido en 2017'
+title: 'Chu Ko Liang'
+description: 'Figura representativa de la cultura de espectáculos de Taiwán, actor cómico nacional, fallecido por enfermedad en 2017'
 date: 2026-03-19
-tags:
-  ['Zhū Gēliàng', 'espectáculos en vivo', 'comedia', 'variedades', 'taiwanés']
+author: 'Taiwan.md'
+category: 'People'
 subcategory: '數位與媒體'
+tags: ['Chu Ko Liang', 'espectáculos', 'comedia', 'variedades', 'taiwanés']
 lastVerified: 2026-03-19
 lastHumanReview: false
+featured: false
 translatedFrom: 'People/豬哥亮.md'
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:88702d1dcebd6f35'
-sourceBodyHash: 'sha256:75ed9a5646b17b48'
-translatedAt: '2026-05-01T22:19:10+08:00'
-category: People
+sourceCommitSha: 'f712b7242'
+sourceContentHash: 'sha256:9339a35ccebb0ba3'
+sourceBodyHash: 'sha256:267addb8edcb3bef'
+translatedAt: '2026-05-22T05:08:47+08:00'
 ---
 
-# Zhū Gēliàng: El rey popular de la cultura de los espectáculos en vivo de Taiwán
+# Chu Ko Liang: el rey popular de la cultura de espectáculos taiwanesa
 
-Zhū Gēliàng es el actor cómico y rey de las variedades más representativo de Taiwán, que cautivó al público taiwanés durante décadas con su estilo único de actuación y su humor en taiwanés. Desde sus humildes comienzos en los espectáculos de los mercados nocturnos (夜市) hasta convertirse en el dominador de la televisión de variedades, creó el estilo distintivo del "humor al estilo Zhū". Su actuación, cercana a la vida cotidiana del pueblo, le granjeó el cariño del público de base, siendo aclamado como el "actor cómico nacional de Taiwán". Falleció en 2017 a causa de un cáncer colorrectal, a la edad de 70 años.
+Desde las aldeas de dependientes militares de Zuoying, Kaohsiung, hasta las pantallas de televisión de todo Taiwán, Chu Ko Liang construyó un lenguaje cómico propio con su “humor al estilo Zhu”. Su habla cantada en taiwanés, su capacidad de improvisación y su perspectiva popular lo mantuvieron vigente durante décadas y lo convirtieron en “uno de los nuestros” para el público de base. Falleció el 15 de mayo de 2017 por cáncer colorrectal, a los 70 años.
 
-## El camino de un artista de origen humilde
+## La trayectoria artística de origen popular
 
-Zhū Gēliàng, cuyo nombre real era Xiè Xīndá, nació el 6 de diciembre de 1946 en el distrito de Wankhwa, Taipéi. Su padre, Xiè Huǒyán, era herrero y su madre vendía verduras en el mercado, por lo que la familia vivía en condiciones modestas. Creció en las inmediaciones del templo Longshan de Wankhwa, profundamente influenciado por la cultura popular de la zona.
+El nombre real de Chu Ko Liang era Hsieh Hsin-ta. Nació el 6 de diciembre de 1946 en el distrito de Zuoying, ciudad de Kaohsiung[^1]. Su padre, Hsieh Huo-yen, era herrero, y su madre vendía verduras en el mercado; la familia vivía en condiciones humildes. Pasó su infancia en la zona de las aldeas de dependientes militares de Zuoying, Kaohsiung, donde recibió una fuerte influencia de la cultura popular local.
 
-Tras terminar la escuela primaria, abandonó los estudios por dificultades económicas y comenzó a ganarse la vida ayudando en los mercados nocturnos de Wankhwa. A los 15 años entró en contacto con la ópera taiwanesa (歌仔戲), donde aprendió las artes tradicionales de la mano de un maestro. Esta experiencia sentó las bases de su futura carrera artística.
+Tras graduarse de la escuela primaria, abandonó los estudios por las dificultades económicas de su familia y comenzó a ayudar a ganar dinero. A los 15 años entró en contacto con la ópera taiwanesa koa-a-hi y aprendió teatro tradicional con un maestro, experiencia que sentó las bases de sus actuaciones posteriores.
 
-En la década de 1960 comenzó a actuar en la calle en los mercados nocturnos, imitando a cantantes y estrellas de cine y televisión populares de la época. Sus actuaciones, vivas y enérgicas, le fueron ganando cierta fama en la zona de Wankhwa.
+En la década de 1960 empezó a realizar espectáculos callejeros en mercados nocturnos, espacios de comida y entretenimiento abiertos por la noche, imitando a cantantes populares y estrellas del cine y la televisión de la época. Sus actuaciones eran vivaces y expresivas, y poco a poco ganó reputación local.
 
-## El auge de la cultura de los espectáculos en vivo
+## El auge de la cultura de espectáculos
 
-En la década de 1970, con el despegue económico de Taiwán, aumentó la demanda de entretenimiento nocturno y surgió la cultura de los espectáculos en vivo (秀場). Zhū Gēliàng aprovechó esta oportunidad para actuar en recintos de todo el país.
+En la década de 1970, con el despegue económico de Taiwán, aumentó la demanda de entretenimiento nocturno y surgió la cultura de los xiuchang, escenarios comerciales de variedades y espectáculo en vivo. Chu Ko Liang aprovechó esa oportunidad y comenzó a presentarse en salas de espectáculos de distintas regiones.
 
-Su actuación fusionaba la ópera tradicional, la narrativa oral popular y elementos de la cultura pop moderna, formando el singular "estilo Zhū". Destacaba especialmente su capacidad de recitar en taiwanés, componiendo versos rimados de forma improvisada, lo cual encantaba al público.
+Sus actuaciones combinaban teatro tradicional, habla cantada popular y elementos de la cultura pop moderna, formando un “estilo Zhu” singular. En particular, su habilidad para el habla cantada en taiwanés le permitía crear versos rimados de manera improvisada, algo muy apreciado por el público.
 
-Los espectáculos de Zhū Gēliàng solían incluir comentarios sobre temas de actualidad y sátira social, expresando con humor las preocupaciones del ciudadano común. Este estilo cercano al pueblo le catapultó rápidamente a la fama.
+Las presentaciones de Chu Ko Liang solían incorporar comentarios sobre la actualidad y sátira social, expresando con humor la voz de la gente común. Ese estilo cercano al público lo llevó rápidamente a la fama.
 
-## La era dorada de las variedades televisivas
+## La edad dorada de las variedades televisivas
 
-En la década de 1980, la industria televisiva taiwán experimentó un auge, y Zhū Gēliàng hizo la transición exitosa al mundo de las variedades televisivas. Su programa _Zhū Gēliàng Gētīng Xiù_ se convirtió en uno de los shows más populares de la época.
+En la década de 1980, la industria televisiva taiwanesa se desarrolló con gran dinamismo, y Chu Ko Liang logró pasar con éxito al mundo de los programas de variedades. El programa que condujo, _Zhu Ge Liang Geting Xiu_, se convirtió en uno de los espacios de variedades más populares de la época[^2].
 
-El programa adoptaba el formato de espectáculo de variedades, combinando canto, baile y actuaciones cómicas. Con su estilo único de conducción y su talento para la improvisación, Zhū Gēliāng llenaba el programa de sorpresas y risas.
+El programa adoptaba el formato de un espectáculo de cabaret musical y combinaba canto, danza, comedia y otros elementos escénicos. Con su estilo de conducción único y su capacidad de improvisación, Chu Ko Liang llenaba el programa de sorpresas y risas.
 
-Era especialmente hábil interactuando con los invitados, ya fueran celebridades o espectadores comunes, logrando sacar a relucir el lado divertido de todos. Esta cercanía fue un factor clave de su éxito.
+Era especialmente hábil en la interacción con los invitados: tanto artistas conocidos como espectadores comunes podían mostrar un costado interesante bajo su guía. Esa cercanía fue un factor clave de su éxito.
 
-## Un estilo de actuación único
+## Un estilo de actuación singular
 
-El estilo de actuación de Zhū Gēliàng era inconfundible, con las siguientes características principales:
+El estilo escénico de Chu Ko Liang era inconfundible y estaba arraigado en la destreza real que había pulido desde los mercados nocturnos hasta los escenarios de variedades. El arte verbal era su sello más evidente: dominaba el habla cantada en taiwanés y podía improvisar rimas y trabalenguas, llenando cada presentación de ingenio callejero y sentido del humor.
 
-**Arte lingüístico:** Dominaba el recitado en taiwanés y podía componer rimas y versos improvisados. Su uso del taiwanés era vivo y enérgico, lleno de sabiduría callejera y humor.
+También hacía un uso eficaz de gestos y expresiones exageradas, con un fuerte color de ópera koa-a-hi sin perder sensibilidad moderna. El humor popular era su núcleo: el contenido de sus actuaciones se acercaba a la experiencia cotidiana de la gente común, de modo que el público reía y al mismo tiempo sentía que había una lógica reconocible detrás. Su capacidad de respuesta improvisada era especialmente destacada; podía crear chistes en tiempo real según la situación del lugar, por lo que cada función ofrecía sorpresas imposibles de prever.
 
-**Comedia corporal:** Utilizaba movimientos exagerados y expresiones faciales para crear efectos cómicos visuales. Su actuación tenía un fuerte sabor operístico, pero con un toque moderno.
+Estas características se consolidaron durante años en el entorno de alta presión de los escenarios de variedades, hasta formar un sistema propio de actuación al estilo Zhu. Sostener dos horas de atención en una sala completa requiere técnica, pero eso es solo la base; el núcleo estaba en la conexión emocional real que establecía con el público.
 
-**Improvisación:** Poseía una extraordinaria capacidad de improvisación, capaz de crear humor según las circunstancias del momento. Esta reacción espontánea hacía que cada actuación resultara fresca y novedosa.
+## Controversias y etapa de declive
 
-**Humor popular:** El contenido de sus actuaciones estaba cerca de la experiencia cotidiana del ciudadano común, creando alegría de la manera más simple y directa.
+A mediados de la década de 1990, Chu Ko Liang se vio obligado a alejarse temporalmente del mundo del espectáculo por problemas relacionados con deudas de juego. Durante ese período vivió apartado en China continental, y su carrera artística en Taiwán quedó estancada.
 
-## Controversias y período de declive
+Los medios informaron con frecuencia sobre su vida privada, incluidos conflictos sentimentales y problemas de deuda, lo que afectó en cierta medida su imagen. Sin embargo, el afecto del público de base hacia él no desapareció por completo.
 
-A mediados de la década de 1990, Zhū Gēliàng se vio obligado a alejarse temporalmente del mundo del espectáculo debido a problemas de deuda relacionados con el juego. Durante este período se refugió en China continental, y su carrera artística en Taiwán quedó paralizada.
+Ese período de declive llevó a Chu Ko Liang a reflexionar profundamente sobre su vida y también a reconsiderar su relación con el público. Su regreso posterior volvió a centrarse en la actuación misma.
 
-Los medios informaron ampliamente sobre su vida privada, incluyendo conflictos sentimentales y problemas de deuda, lo que afectó algo su imagen. Sin embargo, el cariño del público de base hacia él no desapareció del todo.
+## Un regreso brillante y una segunda primavera profesional
 
-Este período de declive llevó a Zhū Gēliàng a reflexionar profundamente sobre su vida y a valorar aún más su relación con el público. Su posterior regreso se centró con mayor dedicación en la actuación en sí misma.
+A fines de la década de 2000, Chu Ko Liang regresó al mundo del espectáculo taiwanés e inició una segunda etapa de su carrera. Programas que condujo, como _Zhu Ge Hui She_, volvieron a recibir el favor del público[^3].
 
-## El gran regreso y la segunda primavera de su carrera
+Tras su regreso, sus actuaciones se volvieron cada vez más maduras. Mientras mantenía su estilo original, también prestó mayor atención a la calidad del programa. Su colaboración con artistas jóvenes mostró una notable capacidad de adaptación.
 
-A finales de la década de 2000, Zhū Gēliàng regresó al mundo del espectáculo taiwanés, iniciando una segunda primavera en su carrera. Programas como _Zhū Gēliàng Huìshè_ volvieron a ganarse el favor del público.
-
-Tras su regreso, su actuación maduró: manteniendo su estilo original, también prestó mayor atención a la calidad del programa. Colaboró activamente con artistas jóvenes, demostrando una gran capacidad de adaptación.
-
-En la década de 2010 participó en varias películas, incluyendo éxitos de taquilla como _Dà Wěi Lú Yáng_, demostrando que su carisma trascendía las distintas plataformas mediáticas.
+En la década de 2010 participó en varias películas, entre ellas éxitos de taquilla como _Da Wei Lu Man_, con resultados comerciales sobresalientes.
 
 ## Nuevos intentos en el cine
 
-En la etapa final de su carrera, Zhū Gēliàng participó activamente en producciones cinematográficas, desempeñando papeles importantes en la serie _Dà Wěi Lú Yáng_, dirigida por Qiū Língkuān, que obtuvo notables resultados en taquilla.
+En sus últimos años, Chu Ko Liang participó en producciones cinematográficas y desempeñó papeles importantes en la serie _Da Wei Lu Man_, dirigida por Chiu Li-kwan, con un desempeño notable en taquilla[^4].
 
-Logró trasladar con éxito su experiencia en variedades televisivas a la gran pantalla, demostrando el potencial comercial de las comedias en taiwanés. Estas obras inyectaron nueva vitalidad al cine local taiwanés.
+Logró trasladar con éxito su experiencia de las variedades televisivas a la gran pantalla, confirmando el potencial de mercado de las películas cómicas en taiwanés.
 
-Su actuación cinematográfica conservó su humor característico y, al mismo tiempo, reveló una profunda comprensión de sus personajes. No solo hacía reír, sino que también transmitía las emociones de sus roles.
+Su actuación cinematográfica mantuvo su estilo humorístico habitual y, al mismo tiempo, mostró una comprensión precisa de los personajes.
 
-## Contribución a la cultura en taiwanés
+## Contribución a la cultura taiwanesa en lengua taiwanesa
 
-Zhū Gēliàng fue un importante impulsor de la cultura popular en taiwanés. Su actuación otorgó al taiwanés un lugar destacado en los medios modernos. En una época de predominio del mandarín, él insistió en actuar en taiwanés.
+Chu Ko Liang fue un impulsor importante de la cultura popular en taiwanés. Sus actuaciones ayudaron a que la lengua taiwanesa ocupara un lugar significativo en los medios modernos. En una época de creciente mandarinización, insistió en actuar en taiwanés.
 
-Sus técnicas de recitación en taiwanés influyeron en muchos artistas posteriores, incluyendo a Péng Qiàqià y Xiǔ Xiàoshùn, quienes se inspiraron en él. Zhū Gēliàng estableció una tradición fundamental en la comedia en taiwanés.
+Sus técnicas de habla cantada en taiwanés influyeron en muchos intérpretes posteriores, incluidos Peng Chia-chia y Hsu Hsiao-shun, quienes recibieron su inspiración. Chu Ko Liang estableció una tradición importante para la comedia en taiwanés.
 
-Su actuación también preservó numerosos elementos de la cultura tradicional taiwanesa, como las arias de la ópera taiwanesa y la narrativa oral popular, lo cual tiene un significado importante para la transmisión cultural.
+Sus actuaciones también conservaron numerosos elementos de la cultura tradicional taiwanesa, como los estilos vocales de la ópera koa-a-hi y el habla cantada popular, con un significado relevante para la transmisión cultural.
 
-## Un profundo vínculo emocional con el público
+## Un vínculo profundo con el público
 
-El mayor éxito de Zhū Gēliàng radicó en el profundo vínculo emocional que estableció con el público. Sus actuaciones siempre estaban llenas de sinceridad, y el público podía sentir su dedicación.
+El mayor éxito de Chu Ko Liang residió en el profundo vínculo emocional que estableció con el público. Sus actuaciones siempre estaban cargadas de sinceridad y permitían que los espectadores percibieran el cuidado que ponía en ellas.
 
-Era especialmente querido por el público del sur y del centro de Taiwán, así como por las clases populares, quienes lo consideraban "uno de los nuestros". Esta cercanía fue un factor importante que le permitió mantener una carrera artística que abarcó varias décadas.
+Fue especialmente querido por el público del centro y sur de Taiwán y por los sectores populares, que lo consideraban “uno de los nuestros”. Esa sensación de cercanía fue un factor crucial para que pudiera sostener una carrera artística durante varias décadas.
 
-Incluso durante su período de declive, contó con el apoyo de numerosos fans leales, lo que demostró su lugar especial en el corazón del público.
+Incluso en sus momentos bajos, muchos seguidores fieles continuaron apoyándolo, lo que demuestra su lugar especial en el corazón del público.
 
-## Influencia en la cultura de las variedades de Taiwán
+## Influencia en la cultura de variedades de Taiwán
 
-Zhū Gēliàng creó un modelo importante para los programas de variedades locales de Taiwán, influyendo en la producción de innumerables shows posteriores. Su estilo de conducción fue imitado y estudiado por muchos artistas más jóvenes.
+Chu Ko Liang creó un modelo importante para los programas de variedades locales de Taiwán e influyó en innumerables producciones posteriores. Su estilo de conducción fue imitado y estudiado por muchos artistas más jóvenes.
 
-Demostró el valor comercial de los programas de variedades en taiwanés, abriendo un segmento de mercado importante para la industria televisiva taiwanesa. Esto tuvo un significado relevante para el desarrollo de la cultura televisiva de Taiwán.
+Demostró el valor comercial de los programas de variedades en taiwanés y abrió un segmento de mercado importante para la industria televisiva taiwanesa. Esto tuvo un significado relevante para el desarrollo de la cultura televisiva de Taiwán.
 
-Reconocidos presentadores de variedades como Wú Zōngxiàn y Hú Guā han declarado haber sido influenciados por Zhū Gēliàng. Él estableció una tradición artística fundamental en el mundo de las variedades de Taiwán.
+Muchos conductores de variedades conocidos, como Jacky Wu y Hu Gua, han señalado la influencia de Chu Ko Liang. Él estableció una tradición escénica importante en el mundo de las variedades taiwanesas.
 
-## Sus últimos años: lucha contra el cáncer y reflexiones sobre la vida
+## Lucha contra el cáncer en sus últimos años y reflexión vital
 
-En 2014, a Zhū Gēliàng le diagnosticaron cáncer colorrectal y comenzó a recibir tratamiento. Incluso en medio del dolor, insistió en seguir trabajando, demostrando una voluntad inquebrantable.
+En 2014, Chu Ko Liang fue diagnosticado con cáncer colorrectal y comenzó a recibir tratamiento. Incluso durante la enfermedad, insistió en seguir trabajando y mostró una gran fuerza de voluntad.
 
-Durante su lucha contra el cáncer, valoró aún más el tiempo con su familia y su público, y sus actuaciones se volvieron aún más dedicadas. Enfrentó la enfermedad con una actitud optimista, conmoviendo a muchas personas.
+Durante su lucha contra el cáncer, valoró aún más el tiempo con su familia y con el público, y tomó cada presentación con seriedad. Afrontó la enfermedad con una actitud optimista, conmoviendo a muchas personas.
 
-En entrevistas, expresó sus reflexiones sobre la vida, considerando que la mayor era lograr llevar alegría al público. Esta pasión por la actuación resultaba admirable.
+En entrevistas expresó sus reflexiones sobre la vida y sostuvo que poder llevar alegría al público era su mayor logro. Ese amor por la actuación suscitó admiración.
 
 ## La despedida de 2017
 
-El 15 de mayo de 2017, Zhū Gēliàng falleció en el Hospital de la Universidad Nacional de Taiwán a causa del cáncer colorrectal, a la edad de 70 años. Su muerte provocó un amplio duelo en la sociedad taiwanesa, y personalidades de todos los ámbitos expresaron su nostalgia por él.
+El 15 de mayo de 2017, Chu Ko Liang falleció de cáncer colorrectal en el Hospital de la Universidad Nacional de Taiwán, a los 70 años[^5]. Su muerte provocó un amplio duelo en la sociedad taiwanesa, y personas de distintos ámbitos expresaron su recuerdo y aprecio.
 
-En su funeral acudieron numerosos amigos del mundo del espectáculo y fans, en una escena profundamente emotiva. Su partida marcó el fin de una era, y la cultura de los espectáculos en vivo de Taiwán perdió a uno de sus representantes más importantes.
+A la ceremonia de despedida asistieron numerosos amigos del mundo del espectáculo y seguidores, en una escena emotiva. Su partida marcó el fin de una época: la cultura de espectáculos de Taiwán perdió a una de sus figuras representativas más importantes.
 
-Los medios revisaron ampliamente su carrera artística, reconociendo su importante contribución a la cultura del entretenimiento taiwanés. Sus actuaciones grabadas se convirtieron en un valioso patrimonio cultural.
+Los medios repasaron extensamente su carrera artística y reconocieron sus aportes decisivos a la cultura del entretenimiento taiwanés. Las imágenes de sus actuaciones se convirtieron en un valioso patrimonio cultural.
 
-## Legado cultural e influencia eterna
+## Patrimonio cultural
 
-Zhū Gēliàng dejó no solo risas, sino también un testimonio importante de la cultura popular taiwanesa. Sus actuaciones documentaron los cambios de la sociedad taiwanesa y poseen un valor histórico significativo.
+Lo que Chu Ko Liang dejó fue un registro vivo de décadas de cultura popular taiwanesa. Las imágenes de sus actuaciones abarcan desde los escenarios de los mercados nocturnos hasta la edad dorada de la televisión, y documentan la rápida transformación de la estructura social de Taiwán.
 
-La tradición de comedia en taiwanés que él inició sigue influyendo en los artistas posteriores, y muchos jóvenes aprenden técnicas y espíritu de sus actuaciones.
+La tradición de comedia en taiwanés que creó sigue influyendo en intérpretes posteriores, y muchos artistas jóvenes aprenden de sus actuaciones tanto técnicas como espíritu escénico.
 
-Zhū Gēliàng demostró que un artista de origen humilde también puede lograr grandes hazañas, y su historia de vida ha inspirado a innumerables personas con sueños artísticos.
+Chu Ko Liang demostró que un artista de origen popular también podía alcanzar grandes logros, y su historia de vida inspiró a innumerables personas con sueños en el mundo del espectáculo.
 
-Su estilo de actuación se ha convertido en un componente importante de la cultura taiwanesa, y el "humor al estilo Zhū" se ha consolidado como un género clásico de la comedia taiwanesa. Sin importar cómo cambien los tiempos, el lugar de Zhū Gēliàng en la historia de la cultura del entretenimiento de Taiwán será siempre insustituible.
+El “humor al estilo Zhu” se ha convertido en un tipo singular dentro de la comedia taiwanesa, mientras que las imágenes de sus actuaciones son archivos históricos de la cultura popular de Taiwán.
+
+Lingüistas han analizado la estructura del humor Zhu y han identificado varios elementos centrales: los tonos y la fonología del taiwanés crean efectos de rima naturales; los juegos de palabras del minnan permiten que un término porte dos sentidos a la vez; la mezcla de jerga callejera con vocabulario literario clásico genera contraste; y una gran cantidad de referencias contextuales, esos códigos implícitos de “si lo entiendes, lo entiendes”, construyen un espacio de complicidad entre él y su público central.
 
 ## Referencias
 
-- [Zhū Gēliàng — Base de datos de televisión de Taiwán](https://tv.nccu.edu.tw/) — Registro de programas de televisión
-- [Historia del desarrollo de las variedades en Taiwán — Museo Nacional de Comunicación](https://museum.ncc.gov.tw/) — Material sobre cultura de variedades
-- [Estudio de la cultura de los espectáculos en vivo — Centro de Educación Artística de Taiwán](https://ed.arte.gov.tw/) — Análisis de la cultura escénica
+[^1]: Entrada de Wikipedia “Chu Ko Liang”, https://zh.wikipedia.org/zh-tw/%E8%B1%AC%E5%93%A5%E4%BA%AE, lugar de nacimiento: distrito de Zuoying, ciudad de Kaohsiung
+
+[^2]: _Liberty Times_, “Funeral de Chu Ko Liang: diez mil personas lo despiden”, https://news.ltn.com.tw/, 21 de mayo de 2017
+
+[^3]: Base de datos de televisión de Taiwán, https://tv.nccu.edu.tw/, registro del programa _Zhu Ge Hui She_
+
+[^4]: Agencia Central de Noticias, “La taquilla de _Da Wei Lu Man_ supera los 300 millones”, https://www.cna.com.tw/, informe de taquilla de febrero de 2013
+
+[^5]: _United Daily News_, “Chu Ko Liang falleció por enfermedad el 15 de mayo, a los 70 años”, https://udn.com/, 15 de mayo de 2017

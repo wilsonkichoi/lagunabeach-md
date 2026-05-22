@@ -1,76 +1,76 @@
 ---
-title: 'Jonathan Lee — Le poète de la vie en musique mandarine'
-description: 'Producteur et auteur-compositeur de référence de la pop mandarine, Jonathan Lee signe des œuvres comme "La Colline" et "Une chanson pour moi-même" qui transcendent le divertissement pour toucher à la philosophie de l'existence.'
+title: 'Li Zongsheng : trente ans à écrire les meilleures chansons pour les autres, puis *La Colline* pour lui-même'
+description: "Né le 19 juillet 1958 à Taipei, Li Zongsheng est l'un des auteurs-compositeurs et producteurs les plus importants de l'histoire de la musique pop sinophone. En 1985, il produit *Busy and Blind* pour [[Sylvia Chang](/fr/People/sylvia-chang/)], puis sort son premier album personnel en janvier 1986. Il produit d'innommables classiques pour Sandy Lam, Emil Chau, Sarah Chen et bien d'autres. En 2013, à 55 ans, il publie *La Colline*, sommet de sa carrière créative. De 2024 à 2026, il entreprend la tournée mondiale « L'Année où il y a des chansons »."
 date: 2026-03-19
-tags: ['musique', 'auteur-compositeur', 'producteur musical', 'pop mandarine', 'chanson lyrique', 'philosophie de vie']
-subcategory: 'Musique'
+author: 'Taiwan.md'
 category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 8
-featured: false
-translatedFrom: "People/李宗盛.md"
-lastVerified: 2026-03-19
-sourceCommitSha: "a05d2431"
-sourceContentHash: "sha256:37754a7922b8e177"
-sourceBodyHash: 'sha256:35af853224238a69'
-translatedAt: "2026-04-14T19:15:26+08:00"
+subcategory: '音樂'
+tags: ['音樂', '創作歌手', '音樂製作人', '華語流行', '抒情歌曲', '人生哲學']
+readingTime: 7
+lastVerified: 2026-05-07
+lastHumanReview: 'true'
+featured: 'false'
+translatedFrom: 'People/李宗盛.md'
+sourceCommitSha: '0f8fae0ae'
+sourceContentHash: 'sha256:69aa6e90b214c097'
+sourceBodyHash: 'sha256:c1135f245e5a5ad7'
+translatedAt: '2026-05-22T05:08:47+08:00'
 ---
 
-# Jonathan Lee : le poète de la vie dans la musique mandarine
+# Li Zongsheng : trente ans à écrire les meilleures chansons pour les autres, puis _La Colline_ pour lui-même
 
-Jonathan Lee (李宗盛) est né en 1958 à Taipei. Il figure parmi les auteurs-compositeurs et producteurs les plus importants de toute l'histoire de la pop mandarine. Grâce à une sensibilité profonde et à une capacité rare à mettre en mots les émotions humaines, il a créé un catalogue de classiques indémodables. Ses œuvres emblématiques — _La Colline_ (山丘), _Une chanson pour moi-même_ (給自己的歌) et _Au réveil du rêve_ (夢醒時分) — dépassent le cadre musical pour devenir de véritables méditations sur l'existence. On le surnomme volontiers le « guide de vie de la pop mandarine ».
+> **En 30 secondes :** Li Zongsheng est né le 19 juillet 1958 à Taipei.[^1] En 1985, il produit l'album _Busy and Blind_ pour [[Sylvia Chang](/fr/People/sylvia-chang/)],[^1] puis sort son premier album personnel, _L'Esprit de la vie_, en janvier 1986.[^1] Il produit ensuite d'innombrables classiques du paysage musical sinophone pour Sandy Lam, Emil Chau, Sarah Chen et bien d'autres. En 2013, à 55 ans, il publie _La Colline_, sommet de sa carrière créative.[^2] De 2024 à 2026, il entreprend la tournée mondiale « L'Année où il y a des chansons ».[^3]
 
-## Les débuts : l'éveil musical
+## Né à Taipei, un livreur de bonbonnes de gaz qui apprend la guitare en autodidacte
 
-La trajectoire de Jonathan Lee commence à la fin des années 1970, alors qu'il est encore étudiant et commence déjà à composer. Au début des années 1980, il intègre le groupe de folk-rock _Acoustic Guitar_ (木吉他合唱團) et se produit dans les restaurants folk de Taïwan, accumulant une riche expérience de scène. Cette période lui permet de saisir en profondeur le lien entre la musique et l'âme humaine, et pose les fondements de tout ce qui suivra.
+Le 19 juillet 1958, Li Zongsheng naît à Taipei.[^1] Il ne passe pas par une formation musicale académique, mais rattrape le mouvement du _folk song_ taïwanais à sa fin, montant dans le train de la redéfinition de la musique pop de Taïwan.
 
-En 1985, il rejoint Rock Records (滾石唱片) et entame véritablement sa carrière professionnelle, d'abord comme producteur et auteur au service d'autres artistes. Son talent est rapidement reconnu par l'industrie, et il s'impose comme l'un des artisans essentiels de la pop taïwanaise des années 1980.
+Au début des années 1980, il rejoint le groupe « Mu Guitar » (_Bois Guitare_) et se produit dans des cafés-concerts de folk, accumulant l'expérience de la scène. En 1985, il intègre le label Rock Records et entame officiellement sa carrière de producteur professionnel.
 
-## L'âge d'or du producteur en or
+## _Busy and Blind_ : l'album de Sylvia Chang et l'affirmation de son identité de producteur
 
-C'est sans doute comme producteur que Jonathan Lee est le plus admiré. Il a signé des albums pour Chang Ai-Chia (張艾嘉), Jiang Yuheng (姜育恆), Shin Hsiao-Chi (辛曉琪), Sandy Lam (林憶蓮), Emil Wakin Chau (周華健) et bien d'autres encore — autant d'œuvres devenues des piliers du répertoire mandarin. Son don particulier réside dans sa capacité à cerner la singularité de chaque interprète et à lui tailler un univers sonore sur mesure.
+En 1985, Li Zongsheng produit l'album _Busy and Blind_ pour Sylvia Chang ; le titre éponyme reflète avec profondeur l'état de vie des citadins modernes.[^1] Il s'agit bien d'une œuvre de 1985, et non de 1987 — une année erronée que l'on retrouve dans de nombreux articles.
 
-En 1987, l'album _Busy and Blind_ (忙與盲) qu'il produit pour Chang Ai-Chia offre une peinture saisissante de la vie urbaine moderne. La chanson-titre devient un symbole de la société taïwanaise des années 1980. Sa philosophie de production est simple et exigeante : la musique doit refléter sincèrement les émotions et la vie des gens — jamais être un simple produit commercial vide de sens.
+_Busy and Blind_ constitue la première marque significative de son entrée dans le paysage musical grand public.
 
-## Les confessions d'un auteur-interprète
+## _L'Esprit de la vie_ : le premier album personnel
 
-En 1989, Jonathan Lee sort son premier album solo, _Les esprits de la vie_ (生命中的精靈), et s'affirme comme auteur-interprète à part entière. Ses chansons se distinguent des ballades d'amour alors à la mode : elles embrassent toutes les dimensions de l'existence. _Une chanson pour moi-même_ est une invitation à l'introspection ; _Courir contre soi-même_ (和自己賽跑的人) dépeint les impasses de l'homme moderne.
+En janvier 1986, Li Zongsheng sort son premier album personnel, _L'Esprit de la vie_.[^1] Ce n'est pas 1989 — cette date circule largement mais est inexacte.
 
-Ses paroles possèdent une densité littéraire et philosophique remarquable, capables de toucher les couches les plus profondes de l'émotion. Il a ce talent singulier d'exprimer des vérités complexes avec des mots simples — une économie de moyens qui confère à sa musique une portée intemporelle.
+Après ce premier album, son identité principale reste celle de producteur. Il produit des albums pour Chiang Yu-heng, Winnie Hsin, Sandy Lam, Emil Chau, et la plupart de ces œuvres deviennent des souvenirs marquants de toute une ère du paysage musical sinophone. Sa philosophie de production est la suivante : la musique doit refléter fidèlement les émotions, elle ne peut se réduire à un simple produit commercial.
 
-## _La Colline_ et la sublimation de la philosophie de vie
+<!-- TODO: 天機星 — 補充李宗盛談製作哲學或1980年代滾石時期的直接引語 -->
 
-En 2013, à 55 ans, Jonathan Lee publie le single _La Colline_ (山丘). Ce morceau est aujourd'hui considéré comme le sommet de sa carrière créative. Le vers « Après avoir franchi la colline, je découvre que personne ne m'attend » (越過山丘，才發現無人等候) est devenu le cri du cœur d'une génération arrivée à la mi-vie, une formulation juste et bouleversante de la solitude et des désillusions de l'âge adulte.
+## L'âge d'or du producteur d'exception
 
-La chanson résonne bien au-delà du monde sinophone : elle a suscité un débat profond sur le sens de l'existence. Jonathan Lee a mis en musique le cheminement d'une génération entière, de la jeunesse à la maturité. Cette sincérité émotionnelle confère à son œuvre une valeur culturelle qui transcende le simple divertissement.
+Les années de Li Zongsheng chez Rock Records couvrent les décennies 1980 à 2000, ses productions s'étendant des chanteurs taïwanais à ceux de Hong Kong et de Chine continentale. Il excelle à découvrir les qualités propres de chaque artiste et à forger pour chacun un langage musical sur mesure — le sens urbain de Sandy Lam, la chaleur d'Emil Chau, la sérénité de Sarah Chen.
 
-## Une influence qui traverse les générations
+Il est également passionné de lutherie et fabrique lui-même des guitares ; cette exigence artisanale se reflète dans son souci du moindre détail à l'enregistrement.
 
-L'empreinte de Jonathan Lee sur la musique mandarine est considérable. Des artistes comme Lo Ta-yu (羅大佑), Chen Sheng (陳昇) et Wu Bai (伍佰) lui ont tous exprimé leur admiration. Il n'est pas seulement un créateur accompli — il est aussi un gardien de l'exigence artistique dans la pop mandarine, convaincu que la musique doit avoir de la profondeur et du contenu.
+## _La Colline_ : l'écho d'un homme de cinquante-cinq ans
 
-Son studio, la _Music Factory_ (音樂工廠), a formé de nombreux talents et contribué de façon décisive au développement de toute une industrie. Sa vision de la production et son éthique créative ont orienté la trajectoire de la pop mandarine dans son ensemble.
+En 2013, à 55 ans, Li Zongsheng publie le single _La Colline_.[^2] « _J'ai franchi la colline, et découvert que personne ne m'attendait_ » — cette phrase est largement citée et devient l'expression du ressenti de nombreux quadragénaires.
 
-## L'esprit de l'artisan
+La signification de _La Colline_ réside en ceci : un homme qui a passé trente ans à parler pour les autres utilise enfin une chanson, à 55 ans, pour se raconter lui-même. Cette chronologie fait elle-même partie des paroles.
 
-Jonathan Lee se décrit souvent lui-même comme un « artisan de la musique ». Pour lui, composer et produire, c'est travailler la matière comme un ébéniste ou un luthier : polir chaque détail avec patience et attention. Son exigence de qualité s'étend de l'écriture des paroles à la prise de son, chaque étape méritant d'être portée vers la perfection. Cet état d'esprit artisanal explique pourquoi ses œuvres résistent si bien à l'épreuve du temps.
+<!-- TODO: 天機星 — 補充李宗盛談《山丘》創作背景或中年心境的直接引語 -->
 
-Il est d'ailleurs luthier amateur et fabrique des guitares de ses propres mains — un amour du savoir-faire qui irrigue directement sa création musicale. Il est convaincu que le vrai art naît de l'obsession pour le détail et de la quête de perfection.
+## 2024-2026 : la tournée « L'Année où il y a des chansons »
 
-## La philosophie musicale de Jonathan Lee
+À partir de 2024, Li Zongsheng entreprend la tournée mondiale « L'Année où il y a des chansons », traversant l'Amérique du Nord, la Chine continentale, Taïwan et d'autres régions.[^3] À plus de soixante ans, il est encore sur scène, chantant ses propres chansons.
 
-Sa musique s'attaque aux grandes questions de l'existence : l'amour, l'amitié, les liens familiaux, la solitude, la croissance, le vieillissement. Il ne détourne pas le regard devant la douleur ou les impasses de la vie — il les affronte et les met en sons. Cette honnêteté donne à sa musique une véritable force thérapeutique.
+<!-- TODO: 天機星 — 補充「有歌之年」巡演場次與直接引語（建議查 https://www.fountmedia.io/article/67944）-->
 
-Selon lui, la fonction première de la musique n'est pas le divertissement, mais l'accompagnement. Une bonne chanson doit pouvoir offrir réconfort et force à ceux qui en ont besoin. Cette philosophie traverse l'ensemble de sa carrière.
-
-## Un mentor spirituel pour toute une industrie
-
-Dans les années 2020, Jonathan Lee reste actif, et chacune de ses nouvelles sorties est attendue avec ferveur. Véritable ancien de la pop mandarine, il n'est plus seulement un musicien accompli : il est devenu le mentor spirituel d'une nouvelle génération de créateurs.
-
-Sa carrière démontre ce que doit être un véritable artiste : sincérité, persévérance, croissance continue. Jonathan Lee a écrit, chanson après chanson, une encyclopédie de la vie humaine. Ces œuvres continueront d'accompagner les auditeurs de demain à chaque étape de leur existence.
+**Pour aller plus loin** : [Li Zongsheng — Wikipédia](https://zh.wikipedia.org/wiki/李宗盛) ｜ [Li Zongsheng Music Factory](http://www.leemusic.com.tw/)
 
 ## Références
 
-- [Lee Music Factory](http://www.leemusic.com.tw/) — site officiel du studio
-- [Wikipédia : Jonathan Lee (en chinois)](https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%AE%97%E7%9B%9B) — biographie détaillée et discographie
-- [Books.com.tw : Jonathan Lee](https://www.books.com.tw/web/sys_serialtext/?item=0010004567) — présentation des albums et critiques musicales
-- [Association des musiciens de Chine : dossier Jonathan Lee](http://www.musicman.org.tw/musician/detail/100) — base de données professionnelle des musiciens
+[^1]: [Wikipédia : Li Zongsheng](https://zh.wikipedia.org/wiki/李宗盛) — Confirmation de la date de naissance (19 juillet 1958), de l'année de _Busy and Blind_ (1985, et non 1987), et de l'année du premier album personnel _L'Esprit de la vie_ (janvier 1986, et non 1989).
+
+[^2]: [Wikipédia : La Colline (chanson)](<https://zh.wikipedia.org/wiki/山丘_(歌曲)>) — Confirmation de la sortie de _La Colline_ en 2013, création de Li Zongsheng à l'âge de 55 ans.
+
+[^3]: [Fount Media : reportage sur la tournée « L'Année où il y a des chansons » de Li Zongsheng](https://www.fountmedia.io/article/67944) — Contient les dates et le contexte de la tournée mondiale 2024-2026.
+
+[^4]: [Site officiel de Li Zongsheng Music Factory](http://www.leemusic.com.tw/) — Studio officiel de Li Zongsheng, avec informations sur les œuvres récentes et les concerts.
+
+[^5]: [Association des musiciens chinois : Li Zongsheng](http://www.musicman.org.tw/musician/detail/100) — Récit détaillé de la carrière musicale de Li Zongsheng, incluant une liste des œuvres de production représentatives.

@@ -1,140 +1,79 @@
 ---
-title: 'Era Prehistórica y Pueblos Indígenas'
+title: 'Era prehistórica y pueblos indígenas: de la cultura Changbin (20.000-30.000 años) al punto de partida de la expansión austronesia'
+description: 'La actividad humana más antigua confirmada en Taiwán es la cultura Changbin, de hace aproximadamente 20.000-30.000 años (Paleolítico, sitio de las Ocho Cuevas de Baxian). Los pueblos indígenas oficialmente reconocidos son 16 grupos. Taiwán es considerado uno de los posibles lugares de origen de los pueblos austronesios (9 de las 10 ramas principales de lenguas austronesias están en Taiwán). Investigación más reciente de 2024: la emigración desde Taiwán representa aproximadamente el 20%, con una ruta adicional de expansión desde Indonesia (P0⚠️). En el siglo XVII existía el Reino de Middag como alianza intertribal, y la cultura Shihsanhang en la Edad del Hierro.'
 date: 2026-03-17
-tags: [Historia, era prehistórica, pueblos indígenas]
-description: 'La era prehistórica y los pueblos indígenas de Taiwán son el punto de partida clave para comprender la identidad de Taiwán. Como posible patria de los pueblos austronesios, Taiwán sirve no solo como la cuna de las civilizaciones de las islas del Pacífico, sino también como la base de la Taiwán multicultural. Esta historia demuestra que Taiwán ha sido una isla de coexistencia multiétnica desde la antigüedad, sentando las bases para la sociedad pluralista moderna.'
+author: 'Taiwan.md'
+category: 'History'
+subcategory: '史前與原住民'
+tags:
+  ['史前與原住民', '長濱文化', '南島語族', '原住民族', '舊石器時代', '大肚王國']
+readingTime: 7
+#   whats_excluded: "各族傳統服飾儀式細節；南島語族遷徙路線完整地圖；原住民族運動近現代史"
+#   where_it_hedges: "南島起源：2024年Nat Geo研究顯示台灣移出僅佔約20%，另有印尼路徑（⚠️挑戰台灣唯一起源說）"'
+lastVerified: 2026-05-07
+lastHumanReview: true
+featured: true
 translatedFrom: 'History/史前時代與原住民.md'
-sourceCommitSha: '800114ea'
-sourceContentHash: 'sha256:eba099f97dfd72b7'
-sourceBodyHash: 'sha256:8c391dd4c70e68f1'
-translatedAt: '2026-04-17T10:33:16+08:00'
-category: History
+sourceCommitSha: '0f8fae0ae'
+sourceContentHash: 'sha256:4a4d8e8b71bb4388'
+sourceBodyHash: 'sha256:518e01925b760cf5'
+translatedAt: '2026-05-22T05:08:47+08:00'
 ---
 
-# Era Prehistórica y Pueblos Indígenas
+# Era prehistórica y pueblos indígenas: de la cultura Changbin (20.000-30.000 años) al punto de partida de la expansión austronesia
 
-> **Resumen de 30 segundos:** Taiwán tiene evidencia de actividad humana que se remonta aproximadamente 50,000 años atrás, desde la Cultura Changbin 長濱文化 de la era Paleolítica hasta la Cultura Dabenkeng 大坌坑文化 del período Neolítico, desarrollándose gradualmente en la patria ancestral de los pueblos austronesios. Dieciséis tribus indígenas continúan hasta el día de hoy, sirviendo como la base cultural de Taiwán y el punto de partida de la expansión austronesia.
+> **Resumen en 30 segundos:** La actividad humana más antigua confirmada en Taiwán es la cultura Changbin, de hace aproximadamente 20.000-30.000 años (Paleolítico tardío, representada principalmente por el sitio de las Ocho Cuevas de Baxian en Taidong).[^1] Los pueblos indígenas oficialmente reconocidos suman 16 grupos, con una población total de aproximadamente 620.000 personas.[^2] La mayoría de los estudios lingüísticos consideran a Taiwán como uno de los posibles lugares de origen de los pueblos austronesios: de las 10 ramas principales de lenguas austronesias existentes, 9 se encuentran en Taiwán, una densidad muy superior a la de cualquier isla del Pacífico.[^3] Un estudio genético de 2024 reportado por _National Geographic_ indica que hace aproximadamente 8.000 años existió también una ruta de expansión poblacional desde Indonesia; la emigración desde Taiwán representaría cerca del 20%, lo que cuestiona la tesis de Taiwán como único lugar de origen (P0⚠️ pendiente de consenso académico).[^4] Antes del siglo XVII ya existían organizaciones políticas intertribales como el Reino de Middag.[^5]
 
-## Por Qué Importa
+## La cultura Changbin: la actividad humana más antigua en Taiwán
 
-La era prehistórica y los pueblos indígenas de Taiwán son el punto de partida crucial para comprender la identidad de Taiwán. Como posible patria de los pueblos austronesios, Taiwán sirve no solo como la cuna de las civilizaciones de las islas del Pacífico, sino también como la base de la Taiwán multicultural. Esta historia demuestra que Taiwán ha sido una isla de coexistencia multiétnica desde la antigüedad, sentando las bases para la sociedad pluralista moderna.
+La actividad humana más antigua confirmada en Taiwán es la cultura Changbin, de hace aproximadamente 20.000-30.000 años, correspondiente al Paleolítico tardío. Su evidencia principal son las herramientas de piedra tallada desenterradas en el sitio de las Ocho Cuevas de Baxian, en el municipio de Changbin, condado de Taidong.[^1]
 
-## Resumen General
+Las herramientas de piedra tallada de la cultura Changbin indican que los humanos de entonces subsistían mediante la caza y la recolección, sin signos de agricultura ni vida sedentaria. El sitio de las Ocho Cuevas de Baxian se encuentra junto a la costa; los concheros (acumulaciones de conchas) reflejan un modo de vida basado en los recursos costeros. Este punto de partida de hace 20.000-30.000 años constituye el registro material más antiguo actualmente confirmado de la historia humana en Taiwán.
 
-La historia humana de Taiwán se puede rastrear hasta aproximadamente 50,000 años atrás, desde el Hombre de Penghu 澎湖原人 hasta las 16 tribus indígenas reconocidas oficialmente hoy, siendo testigos del desarrollo continuo de la civilización insular. Las culturas prehistóricas progresaron a través de las edades Paleolítica, Neolítica y de los Metales, nutriendo un sistema cultural austronesio único. Antes de la llegada de los neerlandeses, Taiwán ya tenía complejas confederaciones tribales como el Reino de Middag 大肚王國, demostrando las capacidades de organización política de los pueblos indígenas.
+(Nota: algunos artículos citan "hace aproximadamente 50.000 años", lo cual se debe a una confusión entre sitios de distintos períodos. P0 confirma que la cultura Changbin data de hace 20.000-30.000 años; el fósil del llamado "Hombre de Penghu", más antiguo, tiene una estimación cronológica diferente y pertenece a un contexto arqueológico distinto.)
 
-## Datos Clave
+## Evolución de las culturas prehistóricas
 
-- **Actividad humana más temprana**: La Cultura Changbin 長濱文化 que data de aproximadamente 50,000 años, siendo el sitio de la Cueva Baxian 八仙洞遺址 el más representativo (Fuente: Wikipedia)
-- **Origen austronesio**: Taiwán es considerada una de las posibles patrias de los pueblos austronesios lingüística y genéticamente (Fuente: Wikipedia)
-- **Grupos étnicos existentes**: Actualmente 16 tribus son reconocidas por la Comisión de Pueblos Indígenas de la República de China, con una población de aproximadamente 620,000 (Fuente: Wikipedia)
-- **Continuidad cultural**: Experimentó períodos Paleolítico, Neolítico y de la Edad de los Metales, con continuidad cultural que abarca decenas de miles de años (Fuente: Wikipedia)
-- **Organización política**: Antes del siglo XVII, ya existían sistemas políticos de confederación intertribal como el Reino de Middag (Fuente: Wikipedia)
+Las culturas prehistóricas de Taiwán se dividen en tres etapas cronológicas:
 
-## Contenido en Profundidad
+**Paleolítico tardío** (aproximadamente 20.000-30.000 a 7.000 años atrás): cultura Changbin y cultura pre-cerámica de Yuanshan, basadas en la caza y la recolección.
 
-### Desarrollo de Culturas Prehistóricas
+**Neolítico** (aproximadamente 6.500 a 1.900 años atrás): cultura Dapenkeng (la cerámica más antigua), cultura Niumatou y cultura Yuanshan; la vida agrícola sedentaria maduró gradualmente, con una superposición significativa con el período de formación de la cultura austronesia.
 
-El desarrollo cultural prehistórico de Taiwán se puede dividir en tres fases principales:
+**Edad de los Metales** (aproximadamente 1.800 a 350 años atrás): cultura Shihsanhang (norte de Taiwán), donde el uso del hierro impulsó la complejización social.[^5]
 
-La **Era Paleolítica Tardía** (aproximadamente 50,000-7,000 años atrás) está representada por la Cultura Changbin 長濱文化, con artefactos de herramientas de piedra que muestran que los humanos ya poseían capacidades de caza y recolección. La Cultura Pre-cerámica de Yuanshan 圓山先陶文化 demostró el estilo de vida durante la era pre-alfarería.
+## Los 16 pueblos indígenas oficialmente reconocidos
 
-La **Era Neolítica** (aproximadamente 6,500-1,900 años atrás) fue el período formativo de la cultura austronesia. La Cultura Dabenkeng 大坌坑文化 marcó el comienzo de la era de la alfarería, seguida por el desarrollo de la Cultura Niumatou 牛罵頭文化 y la Cultura Yuanshan 圓山文化, mostrando la maduración de las técnicas agrícolas y la vida sedentaria.
+Actualmente, la Comisión de Pueblos Indígenas de la República de China reconoce oficialmente 16 pueblos indígenas: amis, atayal, bunun, paiwan, puyuma, rukai, saisiyat, thao, tsou, tao (yami), taroko, kavalan, Sakizaya, seediq, Hla'alua y Kanakanavu.[^2] La población total es de aproximadamente 620.000 personas; el grupo más numeroso es el amis (aproximadamente 220.000 personas), y el menos numeroso es el Kanakanavu (aproximadamente 436 personas).
 
-La **Edad de los Metales** (aproximadamente 1,800-350 años atrás) está representada más notablemente por la Cultura Shisanhang 十三行文化. El uso de herramientas de hierro promovió la complejidad social, sentando las bases para las confederaciones tribales del período histórico.
+El "reconocimiento oficial" de los 16 grupos es un proceso administrativo en constante evolución, no un resultado de clasificación único y definitivo. El reconocimiento de grupos como los thao y los kavalan se completó progresivamente a partir de 2001, reflejando la evolución de la política de pueblos indígenas en Taiwán: de una gestión unificada bajo la categoría de "grupos de montaña" a una vía de reconocimiento que respeta la singularidad de cada grupo. Esta lista tampoco implica que los pueblos indígenas de Taiwán se limiten a 16 ramas culturales; algunos académicos y miembros de las propias comunidades consideran que aún quedan grupos pendientes de reconocimiento.
 
-### Diversidad de los Pueblos Indígenas
+## La hipótesis del origen taiwanés de los pueblos austronesios
 
-Las 16 tribus indígenas reconocidas oficialmente actualmente tienen cada una idiomas, culturas y sistemas sociales únicos. Desde los Amis 阿美族 más poblados (más de 220,000 personas) hasta los Kanakanavu 卡那卡那富族 más pequeños (436 personas), demuestran la rica diversidad de la cultura austronesia de Taiwán.
+La clasificación lingüística muestra que las lenguas de los pueblos indígenas de Taiwán conservan las características más antiguas dentro de la familia austronesia. De las 10 ramas principales de lenguas austronesias existentes, 9 se encuentran en Taiwán, mientras que todas las demás islas del Pacífico comparten una sola; esta densidad de diversidad lingüística respalda la hipótesis de que Taiwán fue un punto de partida para la expansión austronesia.[^3] La implicación de esta proporción es la siguiente: si los pueblos austronesios se expandieron desde un lugar determinado, ese lugar debería conservar el mayor número de ramas lingüísticas, y la proporción de 9 ramas en Taiwán frente a 1 en el resto del Pacífico constituye uno de los indicadores lingüísticos más sólidos de un lugar de origen.
 
-Lingüísticamente, excepto el pueblo Tao 達悟族 de Isla Orchid que pertenece a la familia lingüística malayo-polinesia, las 15 tribus restantes pertenecen al grupo lingüístico formosano, que preserva las características más antiguas de la familia lingüística austronesia.
+**Desafío de la investigación más reciente (2024):** _National Geographic_ reportó un estudio genético que señala la existencia, hace aproximadamente 8.000 años, de otra ruta de expansión poblacional proveniente de Indonesia; la emigración desde Taiwán representaría cerca del 20% de la expansión austronesia total, lo que cuestiona la tesis de Taiwán como **único** lugar de origen.[^4] (Se trata de investigación reciente; el consenso académico aún está en formación.)
 
-### Evidencia Arqueológica y Patrimonio Cultural
+La implicación de este estudio más reciente no es invalidar la importancia de Taiwán en el origen de los pueblos austronesios, sino apuntar hacia un modelo de múltiples orígenes más complejo: la expansión austronesia pudo haber tenido simultáneamente varios centros de origen en funcionamiento. Taiwán es el lugar de origen con mayor diversidad lingüística, pero no el único punto de partida. Este tema sigue siendo objeto de debate entre arqueología, genética y lingüística, y actualmente no existe una respuesta única y definitiva.
 
-Los sitios arqueológicos de Taiwán revelan un rico patrimonio prehistórico:
+## El siglo XVII: el Reino de Middag
 
-**Sitio Arqueológico de la Cueva Baxian 八仙洞遺址**: Ubicado en la costa este de Taiwán, este sitio contiene la evidencia más antigua de habitación humana en Taiwán. El complejo de cuevas muestra una ocupación continua durante decenas de miles de años, con conjuntos de herramientas de piedra que demuestran tecnología lítica avanzada.
+Antes de la llegada de los holandeses en el siglo XVII, en la región central de Taiwán ya existía el "Reino de Middag" (Middag Kingdom), una alianza intertribal con capacidad de organización política incipiente, cuya influencia se extendía desde la cuenca de Taichung hasta la región de Changhua.[^5]
 
-**Sitio Arqueológico de Shisanhang 十三行遺址**: Este sitio de la Edad del Hierro cerca del actual Taipéi proporciona evidencia crucial de la transición de la prehistoria a la historia. El sitio muestra metalurgia sofisticada, redes comerciales que se extienden al Sudeste Asiático y organización social compleja.
+La existencia del Reino de Middag demuestra que, antes de la llegada de los holandeses, Taiwán no era un "territorio salvaje" sin organización, sino que ya había desarrollado mecanismos de negociación política interétnica. Esta organización entró en conflicto tanto con los colonizadores holandeses como, posteriormente, con el régimen de Koxinga. El Reino de Middag fue finalmente desmantelado por el régimen de Koxinga a finales del siglo XVII, pero su existencia constituye un punto de partida fundamental en la historia de las organizaciones políticas autóctonas de Taiwán.
 
-**Sitios de la Cultura Dabenkeng 大坌坑文化遺址**: Dispersos por todo Taiwán, estos sitios neolíticos marcan el comienzo de la tradición alfarera y la vida agrícola. La distintiva alfarería con marcas de cordón representa una de las tradiciones cerámicas más antiguas de la región del Pacífico.
+Estos cuatro ejes —el punto de partida paleolítico de la cultura Changbin, la evolución en tres etapas de las culturas prehistóricas, la situación actual del reconocimiento oficial de los 16 grupos, y el debate en curso sobre el origen de la expansión austronesia— conforman el marco básico para comprender el lugar de los pueblos indígenas de Taiwán en la historia de la humanidad a nivel global. La historia humana de la isla de Taiwán acumula más de veinte mil años antes de la llegada masiva de inmigrantes han.
 
-### Familia Lingüística Austronesia y Significado Cultural
+**Lecturas complementarias**: [Pueblos austronesios — Wikipedia](https://zh.wikipedia.org/zh-tw/南島民族) ｜ [Comisión de Pueblos Indígenas](https://www.tacp.gov.tw/) ｜ [Academia Sinica: investigación sobre lenguas austronesias](https://research.sinica.edu.tw/formosan-languages/)
 
-Los idiomas indígenas de Taiwán representan la mayor diversidad dentro de la familia lingüística austronesia, apoyando teorías de que Taiwán sirvió como patria para la expansión austronesia a través del Pacífico:
+## Referencias
 
-**Diversidad Lingüística**: Los idiomas indígenas de Taiwán contienen aproximadamente la mitad de las principales ramas de toda la familia austronesia, a pesar de representar un área geográfica minúscula.
+[^1]: [Culturas prehistóricas de Taiwán — Wikipedia](https://zh.wikipedia.org/wiki/臺灣史前文化) — Confirma la cultura Changbin de hace 20.000-30.000 años, el sitio de las Ocho Cuevas de Baxian en Taidong y la actividad humana del Paleolítico tardío.
 
-**Prácticas Culturales**: Prácticas tradicionales como tatuajes 紋身, caza de cabezas 獵頭 y sistemas complejos de parentesco muestran conexiones con patrones culturales austronesios más amplios encontrados en todo el Pacífico.
+[^2]: [Comisión de Pueblos Indígenas: presentación de los grupos étnicos indígenas](https://www.tacp.gov.tw/Aboriginal/AbContent?ID=8c02d05a-e588-443d-8ecb-543e5cb14987) — Confirma los nombres de los 16 grupos oficialmente reconocidos y la población de cada grupo.
 
-**Tecnología Marítima**: La evidencia arqueológica sugiere sofisticadas habilidades de construcción de barcos y navegación que permitieron las grandes migraciones del Pacífico que comenzaron hace alrededor de 5,000 años.
+[^3]: [Academia Sinica: investigación sobre lenguas formosanas](https://research.sinica.edu.tw/formosan-languages/) — Confirma que 9 de las 10 ramas principales de lenguas austronesias están en Taiwán, la diversidad lingüística de Taiwán y la hipótesis del punto de partida de la expansión austronesia.
 
-### Organización Social Tradicional
+[^4]: [National Geographic Taiwán: investigación más reciente sobre el origen austronesio (2024)](https://www.natgeomedia.com/environment/article/content-1605.html) — Confirma el estudio genético más reciente de 2024: la emigración desde Taiwán representa aproximadamente el 20%, con una ruta de expansión desde Indonesia de hace unos 8.000 años (cuestiona la tesis del origen exclusivamente taiwanés).
 
-Las sociedades indígenas desarrollaron sistemas políticos y sociales complejos mucho antes del contacto externo:
-
-**Sistemas de Parentesco**: La mayoría de las tribus se organizaban alrededor de grupos de familias extendidas con sofisticadas reglas de herencia y matrimonio. La descendencia matrilineal era común entre varios grupos, particularmente los Amis 阿美族.
-
-**Liderazgo Político**: El liderazgo tradicional variaba desde consejos igualitarios hasta jefes hereditarios. Algunos grupos desarrollaron confederaciones que abarcaban múltiples aldeas, como el Reino de Middag 大肚王國 en el centro de Taiwán.
-
-**Sistemas Económicos**: Las sofisticadas técnicas agrícolas incluían cultivo en terrazas en áreas montañosas y sistemas complejos de irrigación. Las redes comerciales conectaban diferentes regiones y se extendían a China y el Sudeste Asiático.
-
-### Prácticas Culturales y Creencias Espirituales
-
-Las prácticas espirituales y culturales indígenas reflejan conexiones profundas con el entorno natural:
-
-**Creencias Animistas**: La mayoría de los grupos indígenas practicaban formas de animismo, creyendo en fuerzas espirituales que habitan características naturales, animales y ancestros.
-
-**Ciclos Ceremoniales**: Elaborados festivales de cosecha, ceremonias de mayoría de edad y rituales estacionales marcaban transiciones importantes y mantenían la cohesión comunitaria.
-
-**Tradiciones Artísticas**: Sofisticadas tradiciones de tejido textil, tallado en madera y alfarería codificaban conocimiento cultural y creencias espirituales. Los patrones geométricos a menudo contenían significado cosmológico.
-
-### Impacto del Clima y la Geografía
-
-La diversa geografía de Taiwán dio forma al desarrollo de distintas culturas indígenas:
-
-**Pueblos de las Montañas**: Grupos como los Atayal 泰雅族 y los Bunun 布農族 desarrollaron sofisticadas técnicas agrícolas de tierras altas y organizaciones sociales complejas adaptadas al terreno montañoso.
-
-**Pueblos de las Llanuras**: Los Siraya 西拉雅族 y otros grupos de las llanuras desarrollaron cultivo intensivo de arroz y tuvieron contacto más frecuente con inmigrantes chinos.
-
-**Pueblos Costeros**: Grupos como los Amis 阿美族 combinaron agricultura con explotación de recursos marinos, desarrollando sofisticadas tecnologías de pesca y habilidades de navegación costera.
-
-### Periodización Arqueológica
-
-La arqueología moderna divide la prehistoria de Taiwán en períodos distintos:
-
-**Período Paleolítico** (50,000-7,000 AP): Caracterizado por herramientas de piedra simples, economía de caza-recolección y pequeños grupos móviles. Los cambios climáticos durante este período afectaron dramáticamente los patrones de asentamiento humano.
-
-**Neolítico Temprano** (7,000-4,500 AP): Introducción de alfarería, comienzo del cultivo de plantas, asentamientos más permanentes. La Cultura Dabenkeng 大坌坑文化 representa esta transición.
-
-**Neolítico Medio** (4,500-3,000 AP): Diversificación de estilos de alfarería, evidencia de estratificación social, redes comerciales expandidas. Emergen múltiples culturas regionales.
-
-**Neolítico Tardío** (3,000-1,800 AP): Agricultura sofisticada, evidencia de especialización artesanal, aparición de bienes de prestigio. La complejidad social aumenta significativamente.
-
-**Edad de los Metales** (1,800-350 AP): Introducción de tecnología del hierro, organizaciones políticas complejas, extensas redes comerciales que alcanzan el Sudeste Asiático y China.
-
-### Problemas Indígenas Contemporáneos
-
-Las comunidades indígenas modernas enfrentan desafíos significativos mientras trabajan para preservar su patrimonio cultural:
-
-**Preservación del Idioma**: La mayoría de los idiomas indígenas están en peligro, con extensos esfuerzos de revitalización en curso en escuelas y comunidades.
-
-**Derechos sobre la Tierra**: Continúan las disputas de larga data sobre territorios tradicionales, con esfuerzos legislativos recientes para reconocer los reclamos de tierras indígenas.
-
-**Renacimiento Cultural**: Las generaciones más jóvenes están cada vez más interesadas en las prácticas tradicionales, llevando a un renacimiento cultural en muchas comunidades.
-
-**Reconocimiento Político**: Los pueblos indígenas han obtenido una representación política significativa y derechos culturales desde la democratización de Taiwán.
-
-La era prehistórica y los pueblos indígenas de Taiwán representan un capítulo único en la historia humana, demostrando tanto la increíble diversidad de la adaptación humana como las profundas raíces de la identidad multicultural de Taiwán. Comprender este patrimonio es esencial para apreciar el papel de Taiwán en la historia del Pacífico y su panorama cultural contemporáneo.
-
-## Lectura Adicional
-
-- [Culturas Prehistóricas de Taiwán - Wikipedia](https://en.wikipedia.org/wiki/Prehistoric_Taiwan)
-- [Pueblos indígenas de Taiwán - Wikipedia](https://en.wikipedia.org/wiki/Indigenous_peoples_of_Taiwan)
-- [Pueblos austronesios - Wikipedia](https://en.wikipedia.org/wiki/Austronesian_peoples)
-
-## Temas Relacionados
-
-- [dutch-spanish-and-koxinga-era](/history/dutch-spanish-and-koxinga-era)
-- [endemic-species](/nature/endemic-species)
-- [contemporary-art](/art/contemporary-art)
+[^5]: [Pueblos indígenas de Taiwán — Wikipedia](https://zh.wikipedia.org/wiki/台灣原住民族) — Confirma la alianza intertribal del Reino de Middag en el siglo XVII, la Edad del Hierro de la cultura Shihsanhang y la evolución en tres etapas de las culturas prehistóricas.

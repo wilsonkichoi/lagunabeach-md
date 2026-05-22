@@ -1,82 +1,80 @@
 ---
-title: 'Yang Dai-Kang'
-description: 'Voltigeur des Yomiuri Giants, figure emblématique du baseball taïwanais au Japon'
+title: "Yang Dai-kang : Taitung 1987, gant d'or des Fighters aux dix ans chez les Giants en tant qu'agent libre — un voltigeur Amis du baseball japonais"
+description: "Né le 17 janvier 1987 à Taitung, de l'ethnie Amis, anciennement Yang Zhongshou. Diplômé du collège du lycée affilié à l'université nationale de Taitung (section sport), puis parti au Japon étudier au lycée Fukuoka Daiichi. Sélectionné au premier tour du repêchage NPB 2005 à la fois par les Fighters et les SoftBank Hawks, les Fighters ont tiré le droit de signature. Gant d'or de voltigeur de la Pacific League en 2012 (premier joueur de champ taïwanais à recevoir cet honneur). Transfert chez les Yomiuri Giants en tant qu'agent libre en 2016. Carrière NPB : 1 322 matchs, 105 circuits, 482 points produits, moyenne au bâton de .270. A quitté les Giants fin 2021 pour rejoindre les ligues indépendantes."
 date: 2026-03-19
-tags:
-  [
-    'sport',
-    'baseball',
-    'NPB',
-    'Giants',
-    'voltigeur',
-    'peuples autochtones',
-    'Amis',
-  ]
-subcategory: 'Sport'
 category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 8
+tags: ['Sport', 'Baseball', 'NPB', 'Amis', 'Peuples autochtones', 'Voltigeur']
+subcategory: '體育'
+author: 'Taiwan.md'
 featured: false
+lastVerified: 2026-05-08
+lastHumanReview: false
+readingTime: 7
+# design_rationale:
+#   why_this_hook: "Dix ans chez les Fighters → agent libre chez les Giants → ligues indépendantes — c'est l'arc complet d'un joueur professionnel, plus puissant que « un Amis de Taitung vers la NPB »."
+#   whats_excluded: "Tableaux de statistiques au bâton année par année ; comparaison des conditions contractuelles entre les équipes NPB ; détails récents sur les ligues indépendantes 2024-2025"
+#   where_it_hedges: "L'article original indiquait à tort « signature avec les Yomiuri Giants (2005) » et « lycée au Hualien Physical Education High School » — corrigé : sélectionné par les Fighters au repêchage 2005, lycée suivi au Japon"
 translatedFrom: 'People/陽岱鋼.md'
-lastVerified: 2026-03-19
-sourceCommitSha: 'a05d2431'
-sourceContentHash: 'sha256:563a462f0876373a'
-sourceBodyHash: 'sha256:88c4c0a60304a5dd'
-translatedAt: '2026-04-14T19:19:52+08:00'
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:a0454e71ee2abfe6'
+sourceBodyHash: 'sha256:2bbcd86b693a9ea2'
+translatedAt: '2026-05-22T05:08:47+08:00'
 ---
 
-# Yang Dai-Kang : une étoile taïwanaise au pays du baseball professionnel
+# Yang Dai-kang : Taitung 1987, gant d'or des Fighters aux dix ans chez les Giants en tant qu'agent libre — un voltigeur Amis du baseball japonais
 
-Yang Dai-Kang est l'une des figures les plus représentatives du baseball taïwanais au Japon. Né le 17 janvier 1987 à Taitung, cet athlète d'origine Amis — l'un des principaux peuples autochtones de Taïwan — a bâti une carrière remarquable dans la Nippon Professional Baseball grâce à une technique complète et une attitude résolument positive sur le terrain. Sa longue saison sous les couleurs des Yomiuri Giants a non seulement démontré la valeur des joueurs taïwanais, mais a également fait de lui un pont vivant entre les cultures sportives taïwanaise et japonaise.
+> **En 30 secondes :** Yang Dai-kang est né le 17 janvier 1987 à Taitung, de l'ethnie Amis, anciennement Yang Zhongshou.[^1] Diplômé du collège du lycée sportif affilié à l'université nationale de Taitung, il est parti au Japon pour étudier au lycée Fukuoka Daiichi (lycée japonais).[^1] Fin 2005, lors du repêchage NPB des lycéens, les Hokkaido Nippon-Ham Fighters et les Fukuoka SoftBank Hawks l'ont tous deux sélectionné au premier rang ; le tirage au sort a attribué les droits de signature aux Fighters.[^1] Dix ans chez les Fighters (2006-2015), il a remporté le Gant d'or de voltigeur de la Pacific League en 2012, devenant le premier joueur de champ taïwanais à recevoir cet honneur.[^2] En 2016, il a exercé son droit d'agent libre (FA) national pour rejoindre les Yomiuri Giants pendant cinq ans.[^2] Bilan de sa carrière NPB : 1 322 matchs, 105 circuits, 482 points produits, moyenne au bâton de .270 et 141 buts volés.[^1] Fin 2021, il a quitté les Giants, puis a évolué dans les ligues indépendantes américaines, la Ligue australienne de baseball et la Atlantic League, et joue actuellement pour Oisix Niigata en NPB deuxième division.[^3]
 
-## De Taitung aux projecteurs du baseball professionnel
+## 17 janvier 1987, un Amis de Taitung
 
-Yang Dai-Kang grandit dans une famille Amis à Taitung, ville côtière au sud-est de Taïwan longtemps réputée pour sa tradition athlétique. Sa passion pour le baseball éclot dès l'école primaire, dans un environnement local propice où le sport est omniprésent. Il développe rapidement des bases solides : frappe, défense, vitesse sur les bases — tout y est, équilibré et fiable.
+Yang Dai-kang est né le 17 janvier 1987 à Taitung, de l'ethnie Amis, anciennement Yang Zhongshou.[^1] Il a reçu sa formation initiale de baseball à Taitung, fréquentant le collège du lycée sportif affilié à l'université nationale de Taitung, où il a révélé ses qualités défensives au champ extérieur et sa vitesse sur les bases, attirant l'attention des dépisteurs japonais.
 
-Au lycée sportif de Hualien, il s'impose sur la scène nationale des championnats lycéens. Ce qui frappe alors les observateurs, ce n'est pas une qualité isolée, mais une intelligence du jeu rare pour son âge : savoir lire la partie, anticiper, s'adapter. Cette polyvalence attire inévitablement l'attention des recruteurs japonais.
+Taitung est l'une des régions de Taïwan avec la plus forte densité de joueurs de baseball issus des peuples autochtones. Les joueurs des ethnies Amis, Paiwan et Puyuma constituent un fil conducteur essentiel de la culture baseball locale. L'ascension de Yang Dai-kang s'inscrit dans ce fil conducteur, plutôt que d'en être une exception.
 
-En 2005, à dix-huit ans, Yang signe avec les Yomiuri Giants. Le choix est audacieux : quitter sa région natale pour s'immerger dans une culture entièrement différente, maîtriser une nouvelle langue, s'adapter à l'exigence particulière du baseball japonais. C'est précisément cette capacité à relever ce genre de défi qui définira la suite de sa carrière.
+## 2005 : repêchage NPB, premier choix des Fighters
 
-## Une progression patiente en NPB
+Après le collège, Yang Dai-kang est parti au Japon pour étudier au lycée Fukuoka Daiichi, où il s'est fait un nom dans le championnat de baseball lycéen japonais.[^1] Fin 2005, âgé de 18 ans, il a participé au repêchage NPB des lycéens. Les Hokkaido Nippon-Ham Fighters et les Fukuoka SoftBank Hawks l'ont tous deux sélectionné au premier rang (1er au total) ; le tirage au sort a attribué les droits aux Fighters.[^1]
 
-Yang commence son parcours en équipe de réserve (二軍, _nigun_), assimilant méthodiquement le rythme et les exigences du baseball japonais, réputé pour sa rigueur technique et sa culture du détail. Il perfectionne ses fondamentaux en défense et sur les bases, les deux domaines où la NPB place la barre le plus haut.
+(Note : certaines sources indiquent à tort qu'il a « signé avec les Yomiuri Giants après le repêchage de 2005 », ce qui est incorrect. Il a été sélectionné par les **Fighters** en 2005, a joué dix ans chez eux, puis a rejoint les Yomiuri Giants en tant qu'agent libre en 2016.)
 
-En 2012, il s'installe comme titulaire en équipe première, principalement au champ centre. Sa moyenne au bâton se stabilise régulièrement au-dessus de .260, mais c'est surtout sa fiabilité dans les moments décisifs qui le distingue. Le staff technique compte sur lui dans les matchs importants, et Yang répond présent.
+## L'ère Fighters (2006-2015) : le Gant d'or
 
-L'année 2014 marque un tournant dans sa carrière : il contribue au titre en Ligue Centrale et à la victoire des Giants en Japan Series. Cette saison illustre parfaitement ce qu'il apporte à l'équipe — non pas les chiffres spectaculaires d'un super-star, mais la constance et l'engagement collectif d'un joueur sur lequel on peut compter.
+Yang Dai-kang a évolué chez les Fighters pendant dix ans (2006-2015). En 2012, il a remporté le Gant d'or de voltigeur de la Pacific League, devenant le premier joueur de champ taïwanais à recevoir cette distinction.[^2]
 
-## Une technique complète, sans point faible
+Le Gant d'or récompense la défense au champ extérieur, pas la frappe. Cela signifie que la valeur de Yang Dai-kang en NPB ne se limitait pas à l'attaque, mais incluait aussi les plongeons devant le mur des circuits et la puissance de son bras — des contributions visibles à la télévision et l'image la plus marquante qu'ont gardée les supporters d'Hokkaido.
 
-Le profil de Yang Dai-Kang est celui du joueur à tout faire. Il n'excelle pas dans une discipline unique, mais maintient un niveau élevé dans chacune d'elles.
+## 2016 : agent libre vers les Yomiuri Giants
 
-Au bâton, son geste est fluide et adaptable. Il sait ajuster son approche selon les lanceurs adverses, et sa capacité à sélectionner les bonnes balles lui permet d'être un frappeur de contact cohérent plutôt qu'un frappeur de puissance.
+En 2016, Yang Dai-kang a exercé son droit d'agent libre (FA) national en NPB pour rejoindre les Yomiuri Giants, où il a joué cinq ans (2016-2021).[^2] Les Yomiuri Giants sont l'équipe la plus populaire de NPB, et cette arrivée en tant qu'agent libre signifiait une reconnaissance plus large de sa valeur sur le marché de la NPB.
 
-En défense, il fait partie des meilleurs voltigeurs de centre de sa génération en NPB. Son périmètre d'action est large, son jugement sur les trajectoires de balle est sûr, et son bras est suffisamment fort pour dissuader les coureurs. Sa régularité — très peu d'erreurs — est la qualité que les entraîneurs apprécient le plus.
+**Lecture courante → lecture plus précise :** Les médias interprètent parfois le transfert de Yang Dai-kang en FA comme une « quête d'un salaire plus élevé », mais une formulation plus exacte est : le mécanisme du FA en NPB constitue en soi une reconnaissance de la valeur marchande du joueur, et les besoins tactiques des différentes équipes sont également un facteur dans le choix.
 
-Sur les bases, il est à la fois rapide et intelligent. Il ne vole pas seulement par vitesse brute, mais parce qu'il lit les situations avec acuité : les appuis du lanceur, les réflexes du receveur, le timing du jeu. Son pourcentage de réussite au vol est élevé, ce qui crée en permanence une pression supplémentaire sur les défenses adverses.
+## Bilan cumulé de la carrière NPB
 
-## S'intégrer sans se perdre
+Carrière NPB (Fighters + Giants) : 1 322 matchs disputés, 105 circuits, 482 points produits, moyenne au bâton de .270, 141 buts volés.[^1]
 
-Plus de dix ans au Japon ont façonné chez Yang une remarquable capacité d'adaptation culturelle. Il maîtrise le japonais couramment, non comme une contrainte professionnelle, mais comme un vrai outil de communication avec ses coéquipiers, les journalistes et les supporters. Dans les interviews, il s'exprime avec aisance, ce qui a contribué à sa popularité auprès du public japonais.
+Les 105 circuits représentent une étape importante dans l'histoire des joueurs de champ taïwanais en NPB. Doté à la fois de puissance au bâton et de vitesse, il fait partie des voltigeurs les plus complets de la NPB.
 
-Cette intégration ne s'est pas faite au détriment de son identité. Yang est resté profondément attaché à Taïwan et à ses racines Amis, ce qui fait de lui une figure respectée des deux côtés du détroit de Luçon.
+Les 141 buts volés confirment cette polyvalence — parmi les voltigeurs de NPB, très peu atteignent simultanément la barre des cent circuits et des cent buts volés. Yang Dai-kang en fait partie.
 
-## Un pont entre deux cultures du baseball
+## Après 2021 : le passage par les ligues indépendantes
 
-Yang Dai-Kang incarne ce que peut accomplir un joueur taïwanais en NPB. Avant lui, d'autres avaient tenté l'aventure ; grâce à lui, la crédibilité des joueurs taïwanais sur la scène japonaise a franchi un cap. De nombreux supporters taïwanais ont commencé à suivre la NPB à travers ses performances, tandis que les fans japonais ont découvert le baseball taïwanais par son intermédiaire.
+Fin 2021, Yang Dai-kang a quitté les Yomiuri Giants, puis a évolué dans les ligues indépendantes américaines, la Ligue australienne de baseball (ABL) et la Atlantic League, et joue actuellement pour Oisix Niigata en NPB deuxième division.[^3] Cette trajectoire itinérante en fin de carrière est un chemin classique de prolongement pour les athlètes professionnels : continuer à jouer dans différentes ligues tout en transmettant l'expérience acquise au plus haut niveau de la NPB.
 
-Il participe régulièrement à des échanges entre les deux pays, partageant son expérience avec les jeunes joueurs qui envisagent de faire carrière au Japon. Son message est clair : le talent seul ne suffit pas — il faut la discipline, la patience et la volonté de s'adapter sincèrement à un nouvel environnement.
+> 🎙️ **Note du curateur :** La trajectoire de Yang Dai-kang est un condensé de la culture baseball des Amis de Taitung au sein du système NPB. Il n'est pas le premier joueur autochtone de Taitung à partir jouer au Japon, mais c'est celui qui a duré le plus longtemps et livré la performance la plus complète sur la grande scène de la NPB. Des Fighters d'Hokkaido aux Giants de Tokyo, sa présence a laissé une empreinte statistique tangible dans l'histoire du baseball japonais.
 
-## Un modèle pour les peuples autochtones dans le sport
+Des terrains en terre battue de Taitung au stade des Yomiuri Giants, le plus grand marché du baseball japonais — le parcours professionnel de seize ans de Yang Dai-kang constitue une démonstration complète de la capacité d'un joueur Amis à s'imposer dans une ligue étrangère de premier plan.
 
-En tant qu'athlète Amis ayant réussi sur la scène internationale, Yang Dai-Kang représente bien plus qu'un joueur de baseball. Il est un symbole pour les jeunes des peuples autochtones de Taïwan qui aspirent à une carrière sportive professionnelle. Il revient régulièrement à Taitung pour participer à des programmes de promotion du sport auprès des communautés autochtones, avec l'ambition de faire émerger de nouveaux talents.
-
-Son parcours démontre que persévérance et adaptation peuvent ouvrir des portes que les obstacles géographiques ou culturels semblent vouloir fermer. Il n'a pas seulement réussi pour lui-même : il a ouvert une voie que d'autres peuvent maintenant emprunter.
-
-Yang Dai-Kang est bien plus qu'un joueur de baseball talentueux. Il est un ambassadeur du sport taïwanais à l'étranger, un exemple de résilience culturelle, et l'un des visages de la présence autochtone de Taïwan sur la scène internationale.
+**Pour aller plus loin :** [Yang Dai-kang — Wikipédia](https://zh.wikipedia.org/zh-tw/陽岱鋼) ｜ [NPB : statistiques de Yang Dai-kang](https://npb.jp/)
 
 ## Références
 
-- [Site officiel des Yomiuri Giants](https://www.giants.jp/) — fiche et statistiques de Yang Dai-Kang
-- [Nippon Professional Baseball (NPB)](https://npb.jp/) — palmarès et records en carrière
-- [Conseil des peuples autochtones](https://www.apc.gov.tw/) — développement sportif et parcours des athlètes autochtones
+[^1]: [Wikipédia : Yang Dai-kang](https://zh.wikipedia.org/zh-tw/陽岱鋼) — Confirmation de la naissance le 17 janvier 1987 à Taitung (ethnie Amis, anciennement Yang Zhongshou), collège du lycée sportif affilié à l'université nationale de Taitung → lycée Fukuoka Daiichi, repêchage 2005 premier choix des Fighters et des SoftBank Hawks (Fighters tirés au sort), carrière NPB : 1 322 matchs, 105 circuits, 482 points produits, moyenne au bâton .270, 141 buts volés.
+
+[^2]: [China Times : Yang Dai-kang passe des Fighters aux Giants en FA](https://www.chinatimes.com/realtimenews/20211126002692-261306) — Confirmation de l'ère Fighters de dix ans (2006-2015), Gant d'or de voltigeur de la Pacific League en 2012 (premier joueur de champ taïwanais), exercice du FA pour rejoindre les Yomiuri Giants en 2016.
+
+[^3]: [Yahoo Sports : Yang Dai-kang rejoint Oisix Niigata](https://tw.sports.yahoo.com/news/重回日職-37歲陽岱鋼加入二軍新球隊) — Confirmation du départ des Giants fin 2021, passage par les ligues indépendantes américaines / ABL / Atlantic League, actuellement chez Oisix Niigata en NPB deuxième division.
+
+[^4]: [Liberty Times : actualités récentes sur Yang Dai-kang](https://sports.ltn.com.tw/news/breakingnews/4862829) — Reportage sur la carrière récente de Yang Dai-kang.
+
+[^5]: [Organisation professionnelle du baseball japonais NPB : statistiques de Yang Dai-kang](https://npb.jp/) — Registre officiel des statistiques de carrière NPB.

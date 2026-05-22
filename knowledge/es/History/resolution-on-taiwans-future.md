@@ -5,13 +5,24 @@ date: 2026-05-17
 author: 'Taiwan.md Contributors'
 category: 'History'
 subcategory: '政治'
-tags: ['民進黨', '前途決議文', '台獨黨綱', '林濁水', '郭正亮', '陳忠信', '兩岸關係', '政黨輪替', '台灣民主化']
+tags:
+  [
+    '民進黨',
+    '前途決議文',
+    '台獨黨綱',
+    '林濁水',
+    '郭正亮',
+    '陳忠信',
+    '兩岸關係',
+    '政黨輪替',
+    '台灣民主化',
+  ]
 readingTime: 10
 lastVerified: 2026-05-17
 lastHumanReview: false
 featured: false
 translatedFrom: History/臺灣前途決議文.md
-sourceCommitSha: 'c916f28d'
+sourceCommitSha: '1e62d568'
 sourceContentHash: 'sha256:4f37e9db9519dd6b'
 sourceBodyHash: 'sha256:c8ff273540a02078'
 translatedAt: 2026-05-18T05:08:09+08:00
@@ -51,9 +62,9 @@ La presión convergente desde todas las direcciones apuntaba al mismo camino: el
 
 ## Tres personas escribieron la ambigüedad
 
-Chen Chung-hsin propuso la solución de compromiso clave: no modificar la Plataforma de Independencia, sino aprobar una nueva resolución.[^11] Chen Chung-hsin, seudónimo Hang Chih, fue editor en jefe de la revista *Formosa* y uno de los primeros intelectuales en intervenir en el movimiento político a través de la escritura. Su propuesta respondía con precisión a la realidad política interna del partido: la Plataforma de Independencia no se podía tocar, porque tocarla equivaldría a declarar la guerra al sector verde profundo; pero sin salir del marco de la Plataforma de Independencia, las elecciones presidenciales del año 2000 no se podían ganar. Usar un nuevo documento para rodear al antiguo, haciendo que ambos coexistieran sin negarse mutuamente, era en sí mismo el primer paso de una estrategia de ambigüedad.
+Chen Chung-hsin propuso la solución de compromiso clave: no modificar la Plataforma de Independencia, sino aprobar una nueva resolución.[^11] Chen Chung-hsin, seudónimo Hang Chih, fue editor en jefe de la revista _Formosa_ y uno de los primeros intelectuales en intervenir en el movimiento político a través de la escritura. Su propuesta respondía con precisión a la realidad política interna del partido: la Plataforma de Independencia no se podía tocar, porque tocarla equivaldría a declarar la guerra al sector verde profundo; pero sin salir del marco de la Plataforma de Independencia, las elecciones presidenciales del año 2000 no se podían ganar. Usar un nuevo documento para rodear al antiguo, haciendo que ambos coexistieran sin negarse mutuamente, era en sí mismo el primer paso de una estrategia de ambigüedad.
 
-El comité de redacción estaba compuesto por tres personas, que representaban tres fuerzas distintas. Cheng Cheng-liang fue el redactor principal, situado en el lado pragmático electoral del círculo de Chen Shui-bian; Chen Chung-hsin coordinaba entre las distintas facciones, un intelectual civil que había recorrido el camino desde editor en jefe de la revista *Formosa*; Lin Chuo-shui vigilaba la línea de fondo, representando la persistencia teórica de la Nueva Corriente. Lin Chuo-shui declaró: "(Yo) desempeñé el papel de impedir que la resolución se inclinara excesivamente hacia la línea intermedia de Chen y Yu."[^12]
+El comité de redacción estaba compuesto por tres personas, que representaban tres fuerzas distintas. Cheng Cheng-liang fue el redactor principal, situado en el lado pragmático electoral del círculo de Chen Shui-bian; Chen Chung-hsin coordinaba entre las distintas facciones, un intelectual civil que había recorrido el camino desde editor en jefe de la revista _Formosa_; Lin Chuo-shui vigilaba la línea de fondo, representando la persistencia teórica de la Nueva Corriente. Lin Chuo-shui declaró: "(Yo) desempeñé el papel de impedir que la resolución se inclinara excesivamente hacia la línea intermedia de Chen y Yu."[^12]
 
 El 8 de mayo de 1999, en la Segunda Sesión Plenaria del Octavo Congreso Nacional de Miembros del DPP, en Kaohsiung, se aprobó la Resolución sobre el Futuro.[^13]
 
@@ -125,35 +136,63 @@ Los jóvenes taiwaneses de veinte años consideran un sentido común que "Taiwá
 
 ## Referencias
 
-[^1]: [Lin Chuo-shui, "El secreto de la Resolución sobre el Futuro de Taiwán"](https://talk.ltn.com.tw/article/paper/130246) — *Liberty Times*, sección de opinión libre, 14 de mayo de 2007. Lin Chuo-shui recuerda cómo Chen Shui-bian impulsó la modificación de la Plataforma de Independencia a través de Yu Hsi-kun.
+[^1]: [Lin Chuo-shui, "El secreto de la Resolución sobre el Futuro de Taiwán"](https://talk.ltn.com.tw/article/paper/130246) — _Liberty Times_, sección de opinión libre, 14 de mayo de 2007. Lin Chuo-shui recuerda cómo Chen Shui-bian impulsó la modificación de la Plataforma de Independencia a través de Yu Hsi-kun.
+
 [^2]: [Lin Chuo-shui habla sobre el proceso de redacción de la Resolución sobre el Futuro](https://newtalk.tw/news/view/2021-07-11/602408) — Newtalk, 11 de julio de 2021. Texto original: "Añadir las dos palabras 'actualmente' antes de 'nombre nacional' no hizo nada feliz al círculo de Chen Shui-bian."
+
 [^3]: [Entrevista a Lin Chuo-shui (misma fuente, Newtalk 2021.7.11)](https://newtalk.tw/news/view/2021-07-11/602408) — Lin Chuo-shui explica la razón de añadir "actualmente", mencionando que las representaciones en el extranjero podrían verse obligadas a cerrar.
+
 [^4]: [Plataforma de Independencia de Taiwán](https://zh.wikipedia.org/zh-tw/台獨黨綱) — Aprobada el 13 de octubre de 1991 en el Primer Congreso Nacional de Miembros del Quinto Congreso del DPP.
+
 [^5]: [Discurso de Shih Ming-teh en Washington, 1995](https://www.dpp.org.tw/media/contents/2286) — Publicado en el sitio web del DPP. Véase también el documento completo en la [Fundación Cultural Shih Ming-teh](http://www.nori.org.tw/story/民進黨執政，不必也不會宣告台灣獨立。/).
+
 [^6]: [Shih Ming-teh y la "independencia de Taiwán al estilo República de China"](https://www.ettoday.net/news/20240115/2637003.htm) — ETtoday, 15 de enero de 2024. Shih Ming-teh propuso este concepto ya en 1980.
+
 [^7]: [Elección presidencial de la República de China, 1996](https://zh.wikipedia.org/zh-tw/1996年中華民國總統選舉) — Peng Ming-min/Chang Teh-huai obtuvieron un 21.13%; Lee Teng-hui/Lien Chan, 54%.
+
 [^8]: [Programa de la Nueva Generación del movimiento independentista taiwanés](https://zh.wikipedia.org/wiki/台灣獨立運動的新世代綱領) — Redactado por Chou I-cheng el 10 de mayo de 1996, con más de cien firmantes.
-[^9]: [Informe CRS 98-837: Taiwán: Los "tres no"](https://www.everycrsreport.com/reports/98-837.html) — Servicio de Investigación del Congreso de EE.UU., 1998. Véase también la cobertura del [*Washington Post* del 30 de junio de 1998](https://www.washingtonpost.com/archive/politics/1998/06/30/clinton-restates-three-noes-policy-on-taiwan/).
+
+[^9]: [Informe CRS 98-837: Taiwán: Los "tres no"](https://www.everycrsreport.com/reports/98-837.html) — Servicio de Investigación del Congreso de EE.UU., 1998. Véase también la cobertura del [_Washington Post_ del 30 de junio de 1998](https://www.washingtonpost.com/archive/politics/1998/06/30/clinton-restates-three-noes-policy-on-taiwan/).
+
 [^10]: [Gran debate sobre la política hacia China del DPP](https://zh.wikipedia.org/zh-tw/民主進步黨) — Celebrado del 13 al 15 de febrero de 1998 en la Facultad de Derecho de la Universidad Nacional de Taiwán. Hsin Hsin-liang propuso el "avance audaz hacia el oeste" frente a la "Nueva Corriente" con su "fortalecimiento gradual de las bases"; el compromiso fue "fortalecimiento de las bases con avance hacia el oeste."
-[^11]: [Lin Chuo-shui, "El secreto de la Resolución sobre el Futuro de Taiwán"](https://talk.ltn.com.tw/article/paper/130246) — *Liberty Times*, 14 de mayo de 2007. Chen Chung-hsin propuso la solución de compromiso de "no modificar la Plataforma de Independencia, pero aprobar la Resolución sobre el Futuro."
-[^12]: [Entrevista a Lin Chuo-shui (misma fuente, *Liberty Times* 2007.5.14)](https://talk.ltn.com.tw/article/paper/130246) — Lin Chuo-shui describe el papel que desempeñó durante el proceso de redacción.
+
+[^11]: [Lin Chuo-shui, "El secreto de la Resolución sobre el Futuro de Taiwán"](https://talk.ltn.com.tw/article/paper/130246) — _Liberty Times_, 14 de mayo de 2007. Chen Chung-hsin propuso la solución de compromiso de "no modificar la Plataforma de Independencia, pero aprobar la Resolución sobre el Futuro."
+
+[^12]: [Entrevista a Lin Chuo-shui (misma fuente, _Liberty Times_ 2007.5.14)](https://talk.ltn.com.tw/article/paper/130246) — Lin Chuo-shui describe el papel que desempeñó durante el proceso de redacción.
+
 [^13]: [Resolución sobre el Futuro de Taiwán](https://zh.wikipedia.org/zh-tw/臺灣前途決議文) — Aprobada el 8 de mayo de 1999 en la Segunda Sesión Plenaria del Octavo Congreso Nacional de Miembros del DPP. Texto completo disponible en la [Fundación Nueva Paz para Taiwán](https://www.twpeace.org.tw/wordpress/?p=2727).
+
 [^14]: [El principio de una sola China y la cuestión de Taiwán (Libro Blanco de China, 2000)](https://www.gwytb.gov.cn/zt/baipishu/202103/t20210321_12338499.htm) — Pekín consideró la Resolución sobre el Futuro como "independencia encubierta" y publicó un libro blanco reafirmando su postura en 2000.
+
 [^15]: [Elección presidencial de la República de China, 2000](https://zh.wikipedia.org/zh-tw/2000年中華民國總統選舉) — Chen Shui-bian/Lu Hsiu-lien obtuvieron un 39.3%, primer cambio de partido en el poder.
+
 [^16]: [Cuatro no y un sin](https://zh.wikipedia.org/zh-tw/四不一沒有) — Cinco compromisos anunciados por Chen Shui-bian en su discurso de toma de posesión el 20 de mayo de 2000.
+
 [^17]: [Resolution on Taiwan's Future](https://en.wikipedia.org/wiki/Resolution_on_Taiwan%27s_Future) — El 20 de octubre de 2001, el DPP aprobó una resolución elevando técnicamente el estatus de la Resolución sobre el Futuro.
+
 [^18]: [Resolución sobre un País Normal](https://www.dpp.org.tw/news/contents/15) — Publicada en el sitio web del DPP, aprobada el 30 de septiembre de 2007.
+
 [^19]: [Propuesta de congelar la Plataforma de Independencia](https://zh.wikipedia.org/zh-tw/台獨黨綱) — En 2014, Cheng Cheng-liang y más de cuarenta delegados del partido firmaron conjuntamente la propuesta. Tsai Ing-wen ordenó remitirla al comité ejecutivo central; no se sometió a votación formal.
+
 [^20]: [Wu Chun-chih: la Plataforma de Independencia "ya es un documento histórico"](https://udn.com/news/story/123307/7613012) — United Daily News, 25 de febrero de 2024. Declaraciones del director del Departamento de Asuntos de China del DPP en un seminario en línea para académicos de ambas orillas.
+
 [^21]: [Bonnie Glaser insta a Lai Ching-te a considerar congelar la Plataforma de Independencia; Zhuo Rong-tai: que China renuncie a la unificación por la fuerza es lo prioritario](https://www.cna.com.tw/news/aipl/202312010145.aspx) — Agencia Central de Noticias, 1 de diciembre de 2023. Zhuo Rong-tai respondió como presidente de la sede de campaña de Lai Ching-te a la sugerencia de la académica estadounidense.
+
 [^22]: [Cheng Cheng-liang](https://zh.wikipedia.org/zh-tw/郭正亮) — Anunció su salida del DPP el 19 de mayo de 2023; actualmente es comentarista político.
+
 [^23]: [Lin Chuo-shui](https://zh.wikipedia.org/zh-tw/林濁水) — Renunció a su escaño legislativo el 13 de noviembre de 2006, junto con Li Wen-chung, debido al caso de gastos estatales de Chen Shui-bian.
+
 [^24]: [Lai Ching-te define las dos grandes implicaciones de la independencia](https://www.ettoday.net/news/20260517/3167412.htm) — ETtoday, 17 de mayo de 2026. Declaraciones de Lai Ching-te en respuesta a la presión tras la cumbre Trump-Xi.
-[^25]: [Shen Po-yang responde a Chiang Wan-an](https://news.ltn.com.tw/news/politics/breakingnews/5440164) — *Liberty Times*, 17 de mayo de 2026. Respuesta del legislador del DPP a las preguntas del Kuomintang.
+
+[^25]: [Shen Po-yang responde a Chiang Wan-an](https://news.ltn.com.tw/news/politics/breakingnews/5440164) — _Liberty Times_, 17 de mayo de 2026. Respuesta del legislador del DPP a las preguntas del Kuomintang.
+
 [^26]: [Lin Chuo-shui califica el comunicado del gobierno como "muy apropiado"](https://news.tvbs.com.tw/politics/3206164) — TVBS, 17 de mayo de 2026. Lin Chuo-shui consideró que el gobierno "por fin dejó atrás los errores cometidos desde 2020."
+
 [^27]: [Texto completo de la Resolución sobre el Futuro de Taiwán](https://www.twpeace.org.tw/wordpress/?p=2727) — Publicado por la Fundación Nueva Paz para Taiwán, incluye el preámbulo y los siete puntos del texto original.
+
 [^28]: [Discurso de Tsai Ing-wen en el Día Nacional: los "cuatro compromisos"](https://www.president.gov.tw/News/26253) — Sitio web de la Oficina Presidencial, 10 de octubre de 2021. Texto original: "Insistir en el sistema constitucional democrático y liberal, insistir en que la República de China y la República Popular China son mutuamente independientes, insistir en que la soberanía no será invadida ni anexionada, insistir en que el futuro de la República de China-Taiwán debe seguir la voluntad de todos los ciudadanos taiwaneses."
-[^29]: [Lai Ching-te habla sobre la Resolución sobre el Futuro antes de las elecciones](https://www.president.gov.tw/News/28428) — Publicado en el sitio web de la Oficina Presidencial. Véase también coberturas de *The Reporter* y United Daily News.
+
+[^29]: [Lai Ching-te habla sobre la Resolución sobre el Futuro antes de las elecciones](https://www.president.gov.tw/News/28428) — Publicado en el sitio web de la Oficina Presidencial. Véase también coberturas de _The Reporter_ y United Daily News.
 
 ## Lecturas complementarias
 

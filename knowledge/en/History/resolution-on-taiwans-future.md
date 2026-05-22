@@ -1,11 +1,11 @@
 ---
 title: "Resolution on Taiwan's Future: The Two Words “Currently” Sustained for Twenty‑Seven Years"
-description: "In 1999, Lin Zhuoshui added the two characters “currently” before the “Republic of China” state name, displeasing the Chen Shui‑bian faction. Those two words simultaneously appeased pro‑independence supporters and centrist voters, opening the door to the first party‑rotation in 2000. Twenty‑seven years later, Taiwan’s youth consider “Taiwan has always been independent” common sense, yet they do not know that this common sense stems from a deliberately ambiguous document."
+description: 'In 1999, Lin Zhuoshui added the two characters “currently” before the “Republic of China” state name, displeasing the Chen Shui‑bian faction. Those two words simultaneously appeased pro‑independence supporters and centrist voters, opening the door to the first party‑rotation in 2000. Twenty‑seven years later, Taiwan’s youth consider “Taiwan has always been independent” common sense, yet they do not know that this common sense stems from a deliberately ambiguous document.'
 date: 2026-05-17
 category: 'History'
 tags:
   - 'Democratic Progressive Party'
-  - 'Resolution on Taiwan''s Future'
+  - "Resolution on Taiwan's Future"
   - 'Taiwan Independence Party Platform'
   - 'Lin Zhuoshui'
   - 'Guo Zhengliang'
@@ -20,7 +20,7 @@ lastVerified: 2026-05-17
 lastHumanReview: false
 readingTime: 10
 translatedFrom: History/臺灣前途決議文.md
-sourceCommitSha: 'c916f28d'
+sourceCommitSha: '1e62d568'
 sourceContentHash: 'sha256:4f37e9db9519dd6b'
 sourceBodyHash: 'sha256:c8ff273540a02078'
 translatedAt: 2026-05-18T05:08:07+08:00
@@ -60,9 +60,9 @@ All these pressures converged on a single direction: the path of outright indepe
 
 ## The Three Authors of Ambiguity
 
-Chen Zhongxin proposed a crucial compromise: do not amend the Taiwan Independence Party Platform, but pass a new resolution instead.[^11] Writing under the pen name Hang‑zhi, Chen was former editor‑in‑chief of *Formosa Magazine* and among the first intellectuals to intervene in politics through writing. His proposal precisely addressed the party’s political reality: the independence platform could not be touched, because doing so would be a declaration of war on the “deep green” faction; yet without moving beyond the platform, the DPP could not win the 2000 presidential election. By using a new document to bypass the old one, allowing both to coexist without negating each other, the strategy created the first layer of ambiguity.
+Chen Zhongxin proposed a crucial compromise: do not amend the Taiwan Independence Party Platform, but pass a new resolution instead.[^11] Writing under the pen name Hang‑zhi, Chen was former editor‑in‑chief of _Formosa Magazine_ and among the first intellectuals to intervene in politics through writing. His proposal precisely addressed the party’s political reality: the independence platform could not be touched, because doing so would be a declaration of war on the “deep green” faction; yet without moving beyond the platform, the DPP could not win the 2000 presidential election. By using a new document to bypass the old one, allowing both to coexist without negating each other, the strategy created the first layer of ambiguity.
 
-The drafting team comprised three people, each representing a different force. Guo Zhengliang was the primary author, standing with the Chen‑Shui‑bian faction’s electoral pragmatism; Chen Zhongxin coordinated the various camps, a scholar‑activist who had risen from *Formosa Magazine*; Lin Zhuoshui guarded the line’s bottom line, representing the New Tide’s theoretical insistence. Lin later described his role: “(I) acted as the guard against the resolution tilting too far toward the Chen‑Shui‑bian or Yu‑centric middle road.”[^12]
+The drafting team comprised three people, each representing a different force. Guo Zhengliang was the primary author, standing with the Chen‑Shui‑bian faction’s electoral pragmatism; Chen Zhongxin coordinated the various camps, a scholar‑activist who had risen from _Formosa Magazine_; Lin Zhuoshui guarded the line’s bottom line, representing the New Tide’s theoretical insistence. Lin later described his role: “(I) acted as the guard against the resolution tilting too far toward the Chen‑Shui‑bian or Yu‑centric middle road.”[^12]
 
 On 8 May 1999, at the second plenary session of the DPP’s 8th National Representative Congress in Kaohsiung, the future resolution was adopted.[^13]
 
@@ -110,12 +110,12 @@ The independence platform was never frozen because freezing it would require a f
 
 After twenty‑seven years, the three drafters have taken different paths. Guo Zhengliang left the DPP in 2023, becoming a political commentator who now criticizes his former party on television, a reversal that shocked former comrades.[^22] Lin Zhuoshui resigned from the legislature in 2006 over the Chen Shui‑bian corruption case but remained in the party, continuously using the precise wording of the future resolution to critique current politics, becoming the party’s most ruthless internal critic.[^23] Chen Zhongxin stepped down from the National Security Council’s deputy secretary‑general post and quietly withdrew from frontline politics. The three wrote the same document at the same table in 1999; twenty‑seven years later, the documents they authored still form the foundation of Taiwan’s cross‑strait discourse.
 
-1. **October 1991** — DPP adopts the Taiwan Independence Party Platform, advocating “the establishment of a Taiwan Republic,” drafted by Lin Zhuoshui  
-2. **September 1995** — Shih Ming‑te declares in Washington “no need and no will to announce Taiwan independence”  
-3. **March 1996** — Peng Ming‑min’s 21.13 % presidential vote loss sharply raises pressure for a policy shift  
-4. **May 1999** — Future resolution passes in Kaohsiung; “currently called the Republic of China” becomes the new consensus  
-5. **March 2000** — Chen Shui‑bian elected president, first party‑rotation  
-6. **September 2007** — Normal State Resolution passes, attempts to push toward de jure independence; shelved after the 2008 election defeat  
+1. **October 1991** — DPP adopts the Taiwan Independence Party Platform, advocating “the establishment of a Taiwan Republic,” drafted by Lin Zhuoshui
+2. **September 1995** — Shih Ming‑te declares in Washington “no need and no will to announce Taiwan independence”
+3. **March 1996** — Peng Ming‑min’s 21.13 % presidential vote loss sharply raises pressure for a policy shift
+4. **May 1999** — Future resolution passes in Kaohsiung; “currently called the Republic of China” becomes the new consensus
+5. **March 2000** — Chen Shui‑bian elected president, first party‑rotation
+6. **September 2007** — Normal State Resolution passes, attempts to push toward de jure independence; shelved after the 2008 election defeat
 7. **May 2026** — Lai Ching‑te frames “two major meanings of Taiwan independence” using the future resolution; Lin calls it “very appropriate”
 
 ## “Very Appropriate”
@@ -134,39 +134,67 @@ Taiwan’s twenty‑year‑old youth consider “Taiwan has always been independ
 
 ## References
 
-[^1]: [Lin Zhuoshui, “The Secret of the Resolution on Taiwan’s Future”](https://talk.ltn.com.tw/article/paper/130246) — Liberty Times, 14 May 2007, Lin recalls Chen Shui‑bian pushing the amendment through Yu Hsi‑kun.  
-[^2]: [Lin Zhuoshui on the drafting process](https://newtalk.tw/news/view/2021-07-11/602408) — Newtalk, 11 July 2021, original quote “adding ‘currently’ before the state name made the Chen‑Shui‑bian faction very displeased.”  
-[^3]: [Lin Zhuoshui interview (same Newtalk article)](https://newtalk.tw/news/view/2021-07-11/602408) — Lin explains the reason for adding “currently,” mentioning the possible closure of overseas representative offices.  
-[^4]: [Taiwan Independence Party Platform](https://zh.wikipedia.org/zh-tw/台獨黨綱) — Adopted at the DPP’s 5th National Congress on 13 Oct 1991.  
-[^5]: [Shih Ming‑te 1995 Washington speech](https://www.dpp.org.tw/media/contents/2286) — DPP website; also see the Shih Ming‑te Cultural Foundation.  
-[^6]: [Shih Ming‑te “Republic of China model of Taiwan independence”](https://www.ettoday.net/news/20240115/2637003.htm) — ETtoday, 15 Jan 2024, earliest formulation in 1980.  
-[^7]: [1996 Republic of China presidential election](https://zh.wikipedia.org/zh-tw/1996年中華民國總統選舉) — Peng Ming‑min / Hsieh Chang‑ting received 21.13 % of the vote; Lee Teng‑hui / Lien Chan 54 %.  
-[^8]: [New Generation Platform of the Taiwan Independence Movement](https://zh.wikipedia.org/wiki/台灣獨立運動的新世代綱領) — Drafted by Zhou Yicheng on 10 May 1996, signed by over a hundred people.  
-[^9]: [CRS Report 98‑837: Taiwan: The “Three No’s”](https://www.everycrsreport.com/reports/98-837.html) — U.S. Congressional Research Service, 1998; also see Washington Post report 30 Jun 1998.  
-[^10]: [DPP China Policy Debate](https://zh.wikipedia.org/zh-tw/民主進步黨) — February 1998 debate at National Taiwan University Law School, Hsu Hsin‑liang “bold westward advance” vs. New Tide “strengthen fundamentals, gradual progress,” compromise “strong fundamentals, westward advance.”  
-[^11]: [Lin Zhuoshui, “The Secret of the Resolution on Taiwan’s Future”](https://talk.ltn.com.tw/article/paper/130246) — Liberty Times, 14 May 2007, Chen Zhongxin’s compromise proposal.  
-[^12]: [Lin Zhuoshui interview (same Liberty Times article)](https://talk.ltn.com.tw/article/paper/130246) — Lin’s self‑description of his role in drafting.  
-[^13]: [Resolution on Taiwan’s Future](https://zh.wikipedia.org/zh-tw/臺灣前途決議文) — Adopted 8 May 1999 at the DPP’s 8th National Congress; full text also at the New Taiwan Peace Foundation.  
-[^14]: [One‑China principle and Taiwan issue (2000 Chinese White Paper)](https://www.gwytb.gov.cn/zt/baipishu/202103/t20210321_12338499.htm) — Beijing regarded the future resolution as “disguised independence,” 2000 white paper restated the stance.  
-[^15]: [2000 Republic of China presidential election](https://zh.wikipedia.org/zh-tw/2000年中華民國總統選舉) — Chen Shui‑bian / Lu Hsiu‑lian 39.3 % vote, first party‑rotation.  
-[^16]: [Four‑No, One‑No‑More](https://zh.wikipedia.org/zh-tw/四不一沒有) — Chen Shui‑bian’s inauguration speech 20 May 2000, five pledged conditions.  
-[^17]: [Resolution on Taiwan’s Future (English)](https://en.wikipedia.org/wiki/Resolution_on_Taiwan%27s_Future) — DPP resolution 20 Oct 2001, technical attempt to elevate the future resolution’s status.  
-[^18]: [Normal State Resolution](https://www.dpp.org.tw/news/contents/15) — DPP website, passed 30 Sep 2007.  
-[^19]: [Proposal to freeze the independence platform](https://zh.wikipedia.org/zh-tw/台獨黨綱) — 2014 petition by Guo Zhengliang and over forty party representatives; Tsai sent it to the Central Executive Committee, no formal vote.  
-[^20]: [Wu Jun‑zhi: Independence platform “is a historical document”](https://udn.com/news/story/123307/7613012) — United Daily News, 25 Feb 2024, DPP China Affairs Director’s online lecture.  
-[^21]: [Ge Lai‑yi urges Lai Ching‑te to consider freezing the independence platform; Zhuo Rong‑tai: “China must abandon military unification as the focus”](https://www.cna.com.tw/news/aipl/202312010145.aspx) — Central News Agency, 1 Dec 2023, Zhuo’s response as campaign chair.  
-[^22]: [Guo Zhengliang](https://zh.wikipedia.org/zh-tw/郭正亮) — Announced departure from the DPP on 19 May 2023, now a political commentator.  
-[^23]: [Lin Zhuoshui](https://zh.wikipedia.org/zh-tw/林濁水) — Resigned from the legislature on 13 Nov 2006 over the Chen Shui‑bian state‑fund scandal, remained in the party and became its harshest internal critic.  
-[^24]: [Lai Ching‑te frames two major meanings of Taiwan independence](https://www.ettoday.net/news/20260517/3167412.htm) — ETtoday, 17 May 2026, Lai’s remarks amid U.S.–China summit pressure.  
-[^25]: [Shen Bo‑yang rebuts Jiang Wan‑an](https://news.ltn.com.tw/news/politics/breakingnews/5440164) — Liberty Times, 17 May 2026, DPP legislator’s reply to KMT’s question.  
-[^26]: [Lin Zhuoshui evaluates government statement as “very appropriate”](https://news.tvbs.com.tw/politics/3206164) — TVBS, 17 May 2026, Lin says the government finally “abandoned the mistakes since 2020.”  
-[^27]: [Full text of the Resolution on Taiwan’s Future](https://www.twpeace.org.tw/wordpress/?p=2727) — New Taiwan Peace Foundation, original preface and seven‑point statements.  
-[^28]: [Tsai Ing‑wen’s National Day speech “Four‑Stays”](https://www.president.gov.tw/News/26253) — Presidential Office, 10 Oct 2021, original text.  
-[^29]: [Lai Ching‑te’s pre‑election talk on the future resolution](https://www.president.gov.tw/News/28428) — Presidential Office, also reported by United News Network.  
+[^1]: [Lin Zhuoshui, “The Secret of the Resolution on Taiwan’s Future”](https://talk.ltn.com.tw/article/paper/130246) — Liberty Times, 14 May 2007, Lin recalls Chen Shui‑bian pushing the amendment through Yu Hsi‑kun.
+
+[^2]: [Lin Zhuoshui on the drafting process](https://newtalk.tw/news/view/2021-07-11/602408) — Newtalk, 11 July 2021, original quote “adding ‘currently’ before the state name made the Chen‑Shui‑bian faction very displeased.”
+
+[^3]: [Lin Zhuoshui interview (same Newtalk article)](https://newtalk.tw/news/view/2021-07-11/602408) — Lin explains the reason for adding “currently,” mentioning the possible closure of overseas representative offices.
+
+[^4]: [Taiwan Independence Party Platform](https://zh.wikipedia.org/zh-tw/台獨黨綱) — Adopted at the DPP’s 5th National Congress on 13 Oct 1991.
+
+[^5]: [Shih Ming‑te 1995 Washington speech](https://www.dpp.org.tw/media/contents/2286) — DPP website; also see the Shih Ming‑te Cultural Foundation.
+
+[^6]: [Shih Ming‑te “Republic of China model of Taiwan independence”](https://www.ettoday.net/news/20240115/2637003.htm) — ETtoday, 15 Jan 2024, earliest formulation in 1980.
+
+[^7]: [1996 Republic of China presidential election](https://zh.wikipedia.org/zh-tw/1996年中華民國總統選舉) — Peng Ming‑min / Hsieh Chang‑ting received 21.13 % of the vote; Lee Teng‑hui / Lien Chan 54 %.
+
+[^8]: [New Generation Platform of the Taiwan Independence Movement](https://zh.wikipedia.org/wiki/台灣獨立運動的新世代綱領) — Drafted by Zhou Yicheng on 10 May 1996, signed by over a hundred people.
+
+[^9]: [CRS Report 98‑837: Taiwan: The “Three No’s”](https://www.everycrsreport.com/reports/98-837.html) — U.S. Congressional Research Service, 1998; also see Washington Post report 30 Jun 1998.
+
+[^10]: [DPP China Policy Debate](https://zh.wikipedia.org/zh-tw/民主進步黨) — February 1998 debate at National Taiwan University Law School, Hsu Hsin‑liang “bold westward advance” vs. New Tide “strengthen fundamentals, gradual progress,” compromise “strong fundamentals, westward advance.”
+
+[^11]: [Lin Zhuoshui, “The Secret of the Resolution on Taiwan’s Future”](https://talk.ltn.com.tw/article/paper/130246) — Liberty Times, 14 May 2007, Chen Zhongxin’s compromise proposal.
+
+[^12]: [Lin Zhuoshui interview (same Liberty Times article)](https://talk.ltn.com.tw/article/paper/130246) — Lin’s self‑description of his role in drafting.
+
+[^13]: [Resolution on Taiwan’s Future](https://zh.wikipedia.org/zh-tw/臺灣前途決議文) — Adopted 8 May 1999 at the DPP’s 8th National Congress; full text also at the New Taiwan Peace Foundation.
+
+[^14]: [One‑China principle and Taiwan issue (2000 Chinese White Paper)](https://www.gwytb.gov.cn/zt/baipishu/202103/t20210321_12338499.htm) — Beijing regarded the future resolution as “disguised independence,” 2000 white paper restated the stance.
+
+[^15]: [2000 Republic of China presidential election](https://zh.wikipedia.org/zh-tw/2000年中華民國總統選舉) — Chen Shui‑bian / Lu Hsiu‑lian 39.3 % vote, first party‑rotation.
+
+[^16]: [Four‑No, One‑No‑More](https://zh.wikipedia.org/zh-tw/四不一沒有) — Chen Shui‑bian’s inauguration speech 20 May 2000, five pledged conditions.
+
+[^17]: [Resolution on Taiwan’s Future (English)](https://en.wikipedia.org/wiki/Resolution_on_Taiwan%27s_Future) — DPP resolution 20 Oct 2001, technical attempt to elevate the future resolution’s status.
+
+[^18]: [Normal State Resolution](https://www.dpp.org.tw/news/contents/15) — DPP website, passed 30 Sep 2007.
+
+[^19]: [Proposal to freeze the independence platform](https://zh.wikipedia.org/zh-tw/台獨黨綱) — 2014 petition by Guo Zhengliang and over forty party representatives; Tsai sent it to the Central Executive Committee, no formal vote.
+
+[^20]: [Wu Jun‑zhi: Independence platform “is a historical document”](https://udn.com/news/story/123307/7613012) — United Daily News, 25 Feb 2024, DPP China Affairs Director’s online lecture.
+
+[^21]: [Ge Lai‑yi urges Lai Ching‑te to consider freezing the independence platform; Zhuo Rong‑tai: “China must abandon military unification as the focus”](https://www.cna.com.tw/news/aipl/202312010145.aspx) — Central News Agency, 1 Dec 2023, Zhuo’s response as campaign chair.
+
+[^22]: [Guo Zhengliang](https://zh.wikipedia.org/zh-tw/郭正亮) — Announced departure from the DPP on 19 May 2023, now a political commentator.
+
+[^23]: [Lin Zhuoshui](https://zh.wikipedia.org/zh-tw/林濁水) — Resigned from the legislature on 13 Nov 2006 over the Chen Shui‑bian state‑fund scandal, remained in the party and became its harshest internal critic.
+
+[^24]: [Lai Ching‑te frames two major meanings of Taiwan independence](https://www.ettoday.net/news/20260517/3167412.htm) — ETtoday, 17 May 2026, Lai’s remarks amid U.S.–China summit pressure.
+
+[^25]: [Shen Bo‑yang rebuts Jiang Wan‑an](https://news.ltn.com.tw/news/politics/breakingnews/5440164) — Liberty Times, 17 May 2026, DPP legislator’s reply to KMT’s question.
+
+[^26]: [Lin Zhuoshui evaluates government statement as “very appropriate”](https://news.tvbs.com.tw/politics/3206164) — TVBS, 17 May 2026, Lin says the government finally “abandoned the mistakes since 2020.”
+
+[^27]: [Full text of the Resolution on Taiwan’s Future](https://www.twpeace.org.tw/wordpress/?p=2727) — New Taiwan Peace Foundation, original preface and seven‑point statements.
+
+[^28]: [Tsai Ing‑wen’s National Day speech “Four‑Stays”](https://www.president.gov.tw/News/26253) — Presidential Office, 10 Oct 2021, original text.
+
+[^29]: [Lai Ching‑te’s pre‑election talk on the future resolution](https://www.president.gov.tw/News/28428) — Presidential Office, also reported by United News Network.
 
 ## Further Reading
 
-- [Taiwan’s Democratic Transition](/History/台灣民主轉型) — From martial law to democratization, the broader context of the future resolution’s birth.  
-- [Taiwanese Elections and Party Politics](/History/台灣選舉與政黨政治) — How the DPP’s policy shift affected Taiwan’s electoral politics.  
-- [Formosa Incident](/History/美麗島事件) — The starting point of Shih Ming‑te’s 25‑year political imprisonment, essential for understanding the outside‑party movement.  
+- [Taiwan’s Democratic Transition](/History/台灣民主轉型) — From martial law to democratization, the broader context of the future resolution’s birth.
+- [Taiwanese Elections and Party Politics](/History/台灣選舉與政黨政治) — How the DPP’s policy shift affected Taiwan’s electoral politics.
+- [Formosa Incident](/History/美麗島事件) — The starting point of Shih Ming‑te’s 25‑year political imprisonment, essential for understanding the outside‑party movement.
 - [Cross‑Strait Crises and Relations Development](/History/台海危機與兩岸關係發展) — How the 1996 cross‑strait crisis accelerated the DPP’s pragmatism.

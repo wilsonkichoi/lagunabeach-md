@@ -1,8 +1,10 @@
 ---
-title: "PanSci : du trou noir de l'information scientifique à l'industrie du savoir dans les algorithmes"
-description: "En 2011, Cheng Kuo-wei et Hsu Ting-yao ont transformé un projet abandonné en PanSci, une plateforme scientifique taïwanaise. Des recherches académiques l'ont ensuite considéré comme un jalon de la démocratisation de la communication scientifique à Taïwan ; mais son vrai défi est que le débat scientifique public doit d'abord survivre grâce à la publicité, aux cours, à l'audiovisuel et aux algorithmes."
+title: "PanSci : du trou noir de l'actualité scientifique à l'industrie du savoir dans les algorithmes"
+description: "En 2011, Cheng Kuo-wei et Hsu Ting-yao ont transformé un projet supprimé en PanSci. Des travaux universitaires l'ont ensuite considéré comme un jalon important de la démocratisation de la communication scientifique à Taïwan ; mais sa véritable difficulté est ailleurs : pour exister, la discussion scientifique publique doit d'abord survivre grâce à la publicité, aux cours, à la vidéo et aux algorithmes."
 date: 2026-05-07
+author: 'Taiwan.md'
 category: 'Society'
+subcategory: '媒體與言論'
 tags:
   [
     'médias',
@@ -13,213 +15,233 @@ tags:
     'éducation',
     'plateforme de savoir',
   ]
-subcategory: '媒體與言論'
-author: 'Taiwan.md'
-featured: false
 lastVerified: 2026-05-07
 lastHumanReview: false
+featured: false
 translatedFrom: 'Society/泛科學.md'
-sourceCommitSha: '4cd497a8f'
-sourceContentHash: 'sha256:000f47b97233cc26'
-sourceBodyHash: 'sha256:0b22d1772d271c1f'
-translatedAt: '2026-05-09T11:09:58+08:00'
+sourceCommitSha: '1e62d5680'
+sourceContentHash: 'sha256:56debc6c7910d6f6'
+sourceBodyHash: 'sha256:62844ef5ee6bcb04'
+translatedAt: '2026-05-22T05:08:47+08:00'
 ---
 
-> **En 30 secondes :** PanSci est un site web et une communauté scientifique taïwanaise fondée en 2011. Né d'un projet abandonné par l'Association taïwanaise pour la culture numérique, il a d'abord été porté par Cheng Kuo-wei et Hsu Ting-yao, qui rendaient visite à des blogueurs scientifiques, sollicitaient des contributions et animaient la communauté. En 2013, il comptait déjà plus de 80 blogueurs scientifiques et plus de 2 780 articles. Des études en communication ultérieures ont placé PanSci dans les analyses sur la démocratisation de la communication scientifique à Taïwan, la participation du public via les médias sociaux et la comparaison des sites de vulgarisation scientifique des deux rives du détroit de Taïwan. Dans les années 2020, PanSci a relié articles, Académie PanSci, « Ke Xue Sheng » (étudiant scientifique), contenus audiovisuels, projets publicitaires, e-commerce et réseau multi-chaînes YouTube (MCN) en un réseau de services de savoir. Sa tension centrale est claire : pour que la science reste dans le débat public, la plateforme doit d'abord survivre dans les logiques commerciales et algorithmiques.
+> **Vue d'ensemble en 30 secondes :** PanSci est un site et une communauté scientifiques taïwanais fondés en 2011. Né d'un projet supprimé de l'Association taïwanaise de culture numérique, il a survécu dans ses premières années grâce aux visites de Cheng Kuo-wei et Hsu Ting-yao auprès de blogueurs scientifiques, à leurs invitations à écrire et à leur animation de communauté ; en 2013, il comptait déjà plus de 80 blogueurs scientifiques et plus de 2 780 articles. Les recherches ultérieures en communication ont replacé PanSci dans la démocratisation de la communication scientifique à Taïwan, la participation publique sur les médias sociaux et la comparaison entre sites de vulgarisation scientifique des deux rives. Dans les années 2020, PanSci a relié articles, Académie PanSci, Kexuesheng, vidéo, projets publicitaires, commerce en ligne et MCN YouTube en un réseau de services de savoir. Sa tension centrale est très claire : pour que la science reste dans la discussion publique, la plateforme doit d'abord survivre dans les projets commerciaux et les algorithmes.
 
-## Le projet abandonné
+## Le projet supprimé
 
-En 2014, Cheng Kuo-wei est revenu sur les origines de PanSci sans en faire un mythe entrepreneurial. Ce qu'il a décrit, c'est un site web resté en héritage après l'échec d'un projet.
+En 2014, quand Cheng Kuo-wei est revenu sur les débuts de PanSci, il n'en a pas fait un mythe entrepreneurial. Il a raconté un site laissé derrière lui après l'échec d'un projet.
 
-Il venait de rejoindre l'Association taïwanaise pour la culture numérique. Pour justifier l'embauche d'une personne supplémentaire, Hsu Ting-yao avait décroché un contrat visant à promouvoir sur Internet les réalisations taïwanaises en biologie et en médecine. Cheng Kuo-wei a travaillé selon sa propre vision, et ce n'est que lorsqu'il a fallu rendre compte de l'avancement au client qu'il a réalisé que la direction prise ne correspondait pas aux attentes. Le projet a été annulé, la source de revenus a disparu, mais PanSci est né de cet épisode.[^letter]
+À l'époque, il venait de rejoindre l'Association taïwanaise de culture numérique. Pour permettre à l'association de rémunérer une personne de plus, Hsu Ting-yao avait accepté un projet visant à promouvoir sur Internet les réussites taïwanaises en biologie et en médecine. Cheng Kuo-wei l'a réalisé selon sa propre imagination ; lorsqu'il s'est souvenu qu'il devait faire un point d'avancement au client, il a découvert que l'orientation ne correspondait pas à ses besoins. Le projet a été supprimé, la source de salaire a disparu, mais PanSci est né à ce moment-là.[^letter]
 
-Ce point de départ est important, car tous les choix ultérieurs de PanSci peuvent se lire à partir de là : ses racines ne sont ni à l'université, ni dans une administration publique, ni dans un institut de recherche, mais dans les blogs, le journalisme citoyen et les communautés en ligne. Ce groupe de personnes a constaté que le débat public taïwanais manquait d'un espace capable de replacer la science au cœur des enjeux sociaux.
+Cette ouverture est importante, car tous les choix ultérieurs de PanSci peuvent se lire à partir de là : ses racines ne se trouvent ni dans l'université, ni dans l'administration, ni dans les instituts de recherche, mais dans les blogs, le journalisme citoyen et les communautés en ligne. Ces personnes ont constaté qu'il manquait à la discussion publique taïwanaise un lieu capable de replacer la science dans les enjeux sociaux.
 
-Cheng Kuo-wei n'a pas de diplôme scientifique. En 2014, il se décrivait lui-même comme « un rédacteur en chef incompétent sans formation scientifique », et au début, la rédaction ne comptait que lui. Le travail initial de PanSci était très artisanal : rendre visite aux quelques blogueurs scientifiques passionnés de Taïwan et leur proposer de devenir chroniqueurs.[^letter]
+Cheng Kuo-wei n'a pas de diplôme scientifique. En 2014, il se décrivait lui-même comme un « rédacteur en chef incompétent sans formation scientifique » ; au début, la rédaction ne comptait d'ailleurs que lui. Le premier travail de PanSci était artisanal : rendre visite au petit nombre de blogueurs scientifiques taïwanais, pourtant passionnés, et leur demander de devenir chroniqueurs.[^letter]
 
-> **La vraie difficulté réside dans la conception de l'espace : scientifiques, éducateurs, lecteurs et rédacteurs peuvent-ils se corriger mutuellement dans un même lieu.**
+> **La vraie difficulté tient à la manière de concevoir la pièce : scientifiques, éducateurs, lecteurs et éditeurs peuvent-ils se corriger mutuellement au même endroit ?**
 
-## L'information scientifique, un immense trou noir
+## L'actualité scientifique est un grand trou noir
 
-En 2013, le magazine _Business Next_ consacrait un article à PanSci avec un diagnostic précois mais juste : les médias taïwanais manquaient cruellement de journalisme scientifique. Cheng Kuo-wei résumait le problème en une formule volontairement provocatrice : « L'information scientifique, c'est un immense trou noir ».[^bnext]
+En 2013, lorsque _Business Next_ a écrit sur PanSci, il a posé un diagnostic très précoce et très précis : les grands médias taïwanais manquaient d'actualité scientifique. Cheng Kuo-wei résumait alors le problème par une formule très sombre : « l'actualité scientifique est un grand trou noir ».[^bnext]
 
-Cette phrase renvoyait à un problème public concret. Qu'il s'agisse de la quatrième centrale nucléaire, du bœuf américain, de la ractopamine ou de la grippe aviaire, chaque controverse publique du début des années 2010 mêlait des questions de science, de risque, de statistiques, d'institutions et de confiance. Lorsque les médias grand public n'ont pas de journalistes scientifiques permanents, la science pénètre dans le débat public sous forme de dépêges étrangères recompilées, de citations d'experts, de répliques dans les talk-shows ou de rumeurs en ligne.
+Cette phrase renvoie à un problème public très concret. La quatrième centrale nucléaire, le bœuf américain, la ractopamine, la grippe aviaire : chacune des controverses publiques du début des années 2010 impliquait des questions de science, de risque, de statistique, d'institutions et de confiance. Lorsque les grands médias n'ont pas de journalistes scientifiques réguliers, la science entre dans la discussion publique sous forme de traductions de dépêches étrangères, de citations d'experts, de formules de débat politique ou de rumeurs en ligne.
 
-Le premier positionnement de PanSci a donc été celui d'une couche intermédiaire négligée dans les débats publics. En mars 2013, un forum intitulé « Vulgarisation scientifique et nouveaux médias » a attiré plus de 300 jeunes, abordant des sujets allant de la physique du tir à l'arc dans les films à la psychologie des ruptures amoureuses ; le même article notait que les lecteurs de PanSci étaient principalement des lycéens et des étudiants universitaires, faisant du site une source de savoir scientifique pour les jeunes.[^bnext]
+La première position de PanSci ressemble donc davantage à une couche intermédiaire négligée des enjeux publics. En mars 2013, le forum « Vulgarisation scientifique et nouveaux médias » a attiré plus de 300 jeunes ; sur place, on passait de la physique du tir à l'arc au cinéma à la psychologie de la rupture amoureuse. Le même article indiquait aussi que le lectorat de PanSci était principalement composé de lycéens et d'étudiants, et que le site était devenu pour eux une source de connaissances scientifiques.[^bnext]
 
-Ce contexte des débuts est déterminant : avant l'ère de la vidéo courte, PanSci considérait déjà que « le fait que le lecteur accepte de s'arrêter » était une condition préalable pour que la science entre dans la vie publique.
+Cette scène initiale est décisive : avant l'ère de la vidéo courte, PanSci considérait déjà que « la volonté du lecteur de s'arrêter » était une condition préalable à l'entrée de la science dans la vie publique.
 
-## La salle des 80 blogueurs scientifiques
+## La pièce aux 80 blogueurs scientifiques
 
-En 2013, PanSci ne ressemblait plus à un petit site web.
+En 2013, PanSci ne ressemblait déjà plus à un petit site.
 
-Un reportage taïwanais sur les forums scientifiques de l'époque indiquait que PanSci avait accumulé plus de 80 blogueurs scientifiques, plus de 2 780 articles, avec plus de 20 000 visiteurs quotidiens et plus de 130 000 visiteurs mensuels.[^life] Pour le web taïwanais du début des années 2010, ces chiffres traduisaient une densité communautaire : un groupe de personnes prêtes à traduire des savoirs en langage public commençait à disposer d'un point d'entrée stable.
+Un reportage du Forum scientifique de Taïwan indiquait cette année-là que PanSci avait réuni plus de 80 blogueurs scientifiques, plus de 2 780 articles, plus de 20 000 visiteurs quotidiens en moyenne et plus de 130 000 visiteurs mensuels.[^life] Pour l'Internet taïwanais du début des années 2010, ces chiffres représentaient une certaine densité communautaire : un groupe de personnes prêtes à traduire des savoirs spécialisés en langage public commençait à disposer d'une porte d'entrée stable.
 
-En 2014, Cheng Kuo-wei a donné d'autres chiffres de cette période initiale : la première année, PanSci n'avait qu'un seul rédacteur à temps plein, un article atteignant 2 000 à 3 000 vues était déjà une bonne performance, et le trafic mensuel se situait entre 20 000 et 30 000 visites ; quatre ans plus tard, le trafic mensuel dépassait 2,5 millions de pages vues et la page Facebook comptait plus de 170 000 mentions « J'aime ».[^letter]
+En 2014, Cheng Kuo-wei a donné une autre série de chiffres précoces : la première année, PanSci n'avait qu'un seul éditeur à temps plein ; un article qui atteignait 2 000 à 3 000 vues était déjà une grande satisfaction, et le site comptait vingt à trente mille vues mensuelles. Quatre ans plus tard, le trafic mensuel dépassait 2,5 millions de vues et la page Facebook comptait plus de 170 000 mentions « J'aime ».[^letter]
 
-Ces chiffres montrent que la société taïwanaise avait en réalité une demande de lecture scientifique, même si cette demande ne ressemblait pas nécessairement à un manuel scolaire ni à un article de recherche. L'ouverture trouvée par PanSci consistait à transformer la science de « réponse » en « méthode de discussion ».
+Ces chiffres montrent que la société taïwanaise avait bien une demande de lecture scientifique, mais que cette demande ne ressemblait pas nécessairement à des manuels scolaires, ni à des articles de recherche. L'interstice trouvé par PanSci consistait à faire passer la science du statut de « réponse » à celui de « méthode de discussion ».
 
-La page officielle « À propos » énonce la mission sans détour : PanSci invite chercheurs, éducateurs, passionnés et toutes les personnes concernées par la science à discuter ensemble de science, à replacer les avancées scientifiques dans le forum public taïwanais et à examiner les dimensions scientifiques des enjeux sociaux par la pensée rationnelle.[^about]
+![Bannière de la page d'accueil du site officiel de PanSci, avec un visuel principal en forme de cerveau et le slogan « Make our science PanScience », accompagné d'illustrations de matériel de laboratoire et de livres](/article-images/society/pansci-banner-2024.jpg)
+_Bannière de la page d'accueil officielle de PanSci. Le slogan « Make our science PanScience » condense la proposition centrale de 2011 en un mot : « Pan » (pour tous, transdisciplinaire, ouvrant la science afin que chacun puisse y entrer). Fair use editorial commentary on PanSci's brand identity._
 
-La phrase la plus souvent citée de PanSci se trouve aussi ici :
+La page officielle « À propos » formule directement sa mission : PanSci invite chercheurs, éducateurs, passionnés et personnes affectées par la science à discuter ensemble de science, à replacer le développement scientifique dans le forum public taïwanais, et à penser rationnellement la dimension scientifique des enjeux sociaux.[^about]
 
-> « La science est trop importante pour être laissée aux seuls scientifiques. »[^about]
+La phrase la plus souvent citée de PanSci se trouve également là :
 
-Cette phrase se lit facilement comme un slogan, mais sa vraie difficulté réside dans la suite : si la science doit être ouverte à un plus grand nombre de participants, à qui la confier ? Aux médias, et l'on rencontre les titres et le nombre de clics ; aux communautés, et l'on rencontre les émotions et les bulles de filtres ; à l'école, et l'on rencontre les programmes scolaires et les examens ; aux entreprises, et l'on rencontre le parrainage et la confiance.
+> « La science est trop importante pour être confiée aux seuls scientifiques. »[^about]
 
-Durant ces quinze ans, PanSci a en réalité constamment changé de registre entre ces différentes réponses.
+Cette phrase peut facilement être lue comme un slogan, mais sa véritable difficulté réside dans la seconde moitié : si la science doit être ouverte à la discussion commune d'un plus grand nombre, à qui faut-il la confier ? Aux médias, et l'on se heurte aux titres et aux clics ; aux réseaux sociaux, et l'on se heurte aux émotions et aux chambres d'écho ; à l'école, et l'on se heurte aux programmes et aux examens ; aux entreprises, et l'on se heurte au sponsoring et à la confiance.
 
-## Comment les chercheurs l'ont ensuite analysé
+Depuis quinze ans, PanSci change en réalité de vitesse entre ces différentes réponses.
 
-PanSci est également entré dans les corpus d'études en communication.
+## Comment les chercheurs l'ont ensuite regardé
 
-En 2016, l'archive académique de l'Université nationale de Chengchi a inclus l'étude de Shih Tsung-jen, « Sites de réseaux sociaux et participation publique : une étude des utilisateurs de la page Facebook "Pansci" ». Portant sur la plus grande communauté scientifique taïwanaise, cette enquête en ligne (N = 1 160) a montré que l'utilisation de PanSci avait un impact positif à la fois sur la participation informationnelle et sur la participation citoyenne ; parmi les motivations d'usage, la motivation sociale était liée aux deux types de participation, tandis que les motivations de divertissement, d'auto-positionnement et d'information étaient associées à la participation citoyenne.[^nccu]
+PanSci est aussi entré dans les corpus de cas des chercheurs en communication.
 
-En d'autres termes, la page Facebook de PanSci diffusait des articles tout en formant une partie des utilisateurs à relier les contenus scientifiques à la participation aux débats publics.
+En 2016, le dépôt universitaire de l'Université nationale Chengchi a publié l'étude de Shih Tsung-jen, « Réseaux sociaux et participation publique : étude des utilisateurs de la page Facebook de PanSci ». En prenant pour objet PanSci, la plus grande communauté scientifique de Taïwan, et en s'appuyant sur une enquête en ligne de N = 1 160, cette étude montre que l'usage de PanSci a un effet positif à la fois sur la participation informationnelle et sur la participation civique ; parmi les motivations d'usage, la motivation sociale est associée aux deux types de participation, tandis que les motivations de divertissement, d'auto-positionnement et d'information sont liées à la participation civique.[^nccu]
 
-En 2017, la revue _Communication and Society_ a publié « Étude préliminaire des caractéristiques et des effets de communication des sites de vulgarisation scientifique des deux rives du détroit de Taïwan », plaçant le site chinois Guokr et le site taïwanais PanSci dans une analyse de contenu comparée. L'étude a révélé que les deux sites couvraient des thématiques scientifiques diversifiées, mais que Guokr penchait davantage vers les sciences biomédicales et les sciences de la Terre, tandis que PanSci accordait plus d'importance à la physique, à l'informatique et aux mathématiques ; les articles et les titres de PanSci étaient plus vivants et accordaient davantage d'importance aux points de vue de sources multiples.[^airiti]
+Autrement dit, le Facebook de PanSci diffusait des articles tout en entraînant une partie de ses utilisateurs à relier les contenus scientifiques à la participation aux enjeux publics.
 
-Cette comparaison inscrivait PanSci dans les différences entre les sociétés civiles des deux rives : pour une même plateforme de vulgarisation scientifique, la manière d'écrire les articles, de sélectionner les sources et de concevoir les interactions reflète l'environnement politique et social.
+En 2017, _Communication & Society_ a publié « Première analyse des caractéristiques et des effets de communication des sites de vulgarisation scientifique des deux rives », qui comparait, par analyse de contenu, le site chinois Guokr et le site taïwanais PanSci. L'étude a constaté que les deux sites s'intéressaient à des thèmes scientifiques variés, mais que Guokr penchait davantage vers la biomédecine et les sciences de la Terre, tandis que PanSci accordait plus d'importance à la physique, à l'informatique et aux mathématiques ; les articles et les titres de PanSci étaient aussi plus vivants et accordaient davantage d'attention à la diversité des opinions provenant de différentes sources.[^airiti]
 
-En 2020, le chapitre consacré à Taïwan dans _Communicating Science: A Global Perspective_ (ANU Press) a inscrit le projet de blog scientifique lancé en 2011, PanSci, dans l'histoire de la communication scientifique taïwanaise. Ce chapitre a qualifié PanSci de l'une des plus grandes et plus importantes communautés de savoir en communication scientifique de Taïwan, et a placé la transformation de PanMedia en société à but lucratif dans le contexte de la « construction d'un écosystème du savoir ».[^anu]
+Cette comparaison replace PanSci dans les différences de société civile entre les deux rives : pour deux plateformes de vulgarisation scientifique, la manière d'écrire les articles, d'organiser les sources et de concevoir l'interaction reflète l'environnement politique et social.
 
-> **Ces trois perspectives de recherche combinées clarifient la position de PanSci : lorsque Taïwan est passé du modèle « les experts enseignent au grand public » à « les citoyens discutent ensemble de la science », PanSci s'est commercialisé très tôt et a été observé très tôt par les chercheurs.**
+En 2020, le chapitre consacré à Taïwan dans _Communicating Science: A Global Perspective_ d'ANU Press a intégré le projet de blogs scientifiques PanSci, lancé en 2011, dans l'histoire de la communication scientifique à Taïwan. Le chapitre qualifie PanSci de l'une des plus grandes et des plus importantes communautés de savoir de communicateurs scientifiques à Taïwan, et replace la transformation de PanMedia en société commerciale dans le contexte de la « construction d'un écosystème du savoir ».[^anu]
 
-## Publicité, cours, e-commerce : tout cela fait partie de la communication scientifique
+> **Ces trois perspectives de recherche réunies clarifient la position de PanSci : lorsque Taïwan est passée du modèle « les experts enseignent au public » à celui où « les citoyens discutent ensemble de science », PanSci s'est commercialisé très tôt et a aussi été observé très tôt par les chercheurs.**
 
-Les pages officielles de PanSci ne cachent pas son modèle économique. Elles listent explicitement les projets publicitaires, la production audiovisuelle, les partenariats événementiels, le e-commerce et la publication de cours en ligne.[^about]
+## Publicité, cours, commerce en ligne : tout cela fait partie de la communication scientifique
 
-Cela le distingue nettement de [[The Reporter (報導者)]]. The Reporter place le principe de « non-ingérence de la publicité et du taux de clics » au cœur de son engagement éthique de journalisme d'investigation à but non lucratif ; PanSci, dès le départ, s'est davantage appuyé sur un modèle d'entreprise communautaire du savoir. Il devait nourrir le débat public, mais aussi répondre à des commandes, vendre des cours, organiser des événements, produire des vidéos et commercialiser des produits.
+La page officielle de PanSci ne cache pas son modèle économique. Elle énumère explicitement les projets publicitaires, la production vidéo, les collaborations événementielles, le commerce en ligne et la publication de cours en ligne.[^about]
 
-En 2014, lorsque PanSci se préparait à devenir indépendante sous le nom de PanSci Knowledge, Cheng Kuo-wei l'a qualifiée d'entreprise sociale, cherchant à traiter la « crise écologique du savoir » : la création, la transformation, la diffusion et l'application du savoir étaient toutes en crise.[^letter] Cette formulation allait bien plus loin que « site de vulgarisation scientifique », et était aussi bien plus risquée, car elle plaçait PanSci dans une zone grise entre médias, éducation et industrie.
+C'est ce qui le distingue fortement de [The Reporter](/fr/Society/the-reporter-investigative-journalism/). The Reporter place « l'absence d'interférence de la publicité et du taux de clics » au cœur de son engagement éthique de média d'enquête à but non lucratif ; PanSci, lui, ressemble dès le départ davantage à une entreprise de communauté de savoir. Il veut produire de la discussion publique, mais aussi accepter des commandes, vendre des cours, organiser des événements, produire des vidéos et vendre des produits.
 
-En 2018, TechNews a rapporté que PanSci Knowledge avait pris une participation dans la plateforme de financement participatif flyingV, décrivant une entreprise partie de PanSci pour s'étendre progressivement à plusieurs médias verticaux, événements, formations et espaces physiques.[^technews] En 2026, on ne peut pas considérer que toutes les marques mentionnées dans cet article sont encore actives au même degré, mais cet article révèle l'ambition de PanSci Knowledge : transformer des contenus de savoir en services, produits et plateformes.
+En 2014, au moment où PanSci se préparait à devenir indépendant en créant PanMedia Knowledge, Cheng Kuo-wei le qualifiait d'entreprise sociale : ce qu'il voulait traiter, c'était la « crise écologique du savoir », à savoir les problèmes affectant la création, la transformation, la diffusion et l'application des connaissances.[^letter] Cette formulation est beaucoup plus vaste, et beaucoup plus risquée, que celle de « site de vulgarisation scientifique », car elle pousse PanSci dans une zone grise entre médias, éducation et industrie.
 
-La page entreprise sur 104 (site d'emploi taïwanais) est encore plus directe. PanSci Knowledge se positionne dans l'industrie des contenus numériques, avec un capital de 30 millions de dollars taïwanais, 50 employés, et des produits et services comprenant les contenus de nouveaux médias, la production audiovisuelle, le marketing intégré de publicité numérique, l'analyse de données de plateformes audiovisuelles, les cours en ligne, le e-commerce et les plateformes d'apprentissage par abonnement. La page indique également l'obtention en 2023 du statut de réseau multi-chaînes YouTube (MCN).[^104]
+En 2018, TechNews a rapporté que PanMedia Knowledge était entré au capital de la plateforme de financement participatif flyingV, décrivant PanMedia Knowledge comme une entreprise née de PanSci, puis progressivement élargie à plusieurs médias verticaux, événements, activités éducatives et espaces hors ligne.[^technews] En 2026, on ne peut toujours pas considérer que chacune des marques mentionnées dans cet article soit également active, mais il révélait l'ambition de PanMedia Knowledge : transformer les contenus de savoir en services, produits et plateformes.
 
-Le kit média de PanSci Knowledge en 2022 allait encore plus loin dans le langage commercial. Le document présentait une moyenne de plus de 3 millions de pages vues par mois, 450 000 abonnés sur Facebook, 220 000 sur YouTube et 84 000 sur Instagram, et décrivait les services comme la traduction de marque, la vérification d'informations, l'infographie et le marketing multicanal.[^saleskit]
+La page 104 de l'entreprise est plus directe encore. PanMedia Knowledge se situe dans l'industrie du contenu numérique, avec un capital de 30 millions de dollars taïwanais et 50 employés ; ses principaux produits et services comprennent les contenus de nouveaux médias, la production vidéo, le marketing intégré de publicité numérique, l'analyse de données de plateformes vidéo, les cours en ligne, le commerce électronique et une plateforme d'apprentissage par abonnement. La page indique aussi qu'en 2023 l'entreprise a obtenu la qualification de MCN YouTube.[^104]
 
-Ce document est un outil commercial, et c'est précisément pour cette raison qu'il est utile. Il montre au lecteur ce que PanSci vend à l'extérieur : recherche, reportages, résumés d'ouvrages, expériences, animations, publications sur les réseaux sociaux et collaborations avec des influenceurs, le tout conditionné en services de marketing du savoir que les marques peuvent acheter.
+Le kit média 2022 de PanMedia Knowledge emploie un langage commercial encore plus cru. La présentation indique que PanSci dépasse en moyenne 3 millions de vues mensuelles, compte 450 000 lecteurs sur Facebook, 220 000 sur YouTube et 84 000 sur Instagram, et présente ses services comme de la traduction de marque, de la vérification d'information, de l'infographie et du marketing multicanal.[^saleskit]
 
-> **Réduire cela à « la vulgarisation scientifique est polluée par le commercial » serait trop rapide. Il serait plus juste de dire que PanSci traite la commercialisation comme une question de survie pour la communication scientifique : sans revenus, le débat scientifique public ne peut se maintenir que par la passion ; dès que les revenus dépendent d'entreprises et de plateformes, la confiance devient quelque chose qu'il faut prouver chaque jour.**
+Ce document est un support commercial, et c'est précisément pour cela qu'il est utile. Il montre ce que PanSci vend à l'extérieur : recherche, reportage, extraits de livres, expériences, animation, publications sociales et collaborations avec des KOL, regroupés en services de marketing du savoir que les marques peuvent acheter.
 
-## La vidéo de la ferme Lufengying
+> **Dire trop vite que « la vulgarisation scientifique a été contaminée par le commerce » serait insuffisant. Plus précisément, PanSci traite la commercialisation comme un problème de survie de la communication scientifique : sans revenus, la discussion scientifique publique ne peut brûler que grâce à la passion ; dès que les sources de revenus dépendent des entreprises et des plateformes, la confiance devient quelque chose qu'il faut prouver de nouveau chaque jour.**
 
-En 2016, cette question de confiance a éclaté de manière concentrée.
+## La vidéo sur la ferme Lin Fengying
 
-PanSci a accepté un parrainage de Wei Chuan pour organiser l'« Escouade d'investigation PanSci », emmenant rédacteurs et enquêteurs visiter les usines de Wei Chuan, la ferme laitière de Lufengying et l'Institut de recherche central, puis a produit une vidéo sur le processus de production du lait frais Lufengying. À l'époque, Wei Chuan / Wei Chuan était fortement contesté en raison de la crise de sécurité alimentaire et des campagnes de boycott. Après la mise en ligne de la vidéo, de nombreux internautes ont critiqué PanSci pour avoir accepté le parrainage d'une entreprise controversée, l'accusant de faire du blanchiment d'image pour l'entreprise.[^tnl]
+En 2016, ce problème de confiance a explosé de manière concentrée.
 
-L'agence de presse Central News Agency a rapporté que, lorsqu'on lui a demandé « Faut-il boycotter Wei Chuan ? », Cheng Kuo-wei a répondu « Je ne sais pas ». Son propos se rapprochait davantage d'une méthodologie : tant qu'on n'a pas suffisamment compris, qu'on n'a pas recueilli ce que l'on considère comme des données fiables, qu'on n'a pas trouvé les sources les plus originales, on ne peut pas prétendre savoir.[^cna]
+PanSci a accepté le sponsoring de Wei Chuan et a conçu la « Brigade d'enquête PanSci », emmenant éditeurs et enquêteurs observer les usines de Wei Chuan, la ferme Lin Fengying et l'institut central de recherche, puis produisant une vidéo sur le processus de production du lait frais Lin Fengying. À l'époque, Ting Hsin / Wei Chuan faisait l'objet d'une forte défiance en raison des scandales de sécurité alimentaire et des actions de boycott. Après la mise en ligne de la vidéo, de nombreux internautes ont critiqué PanSci pour avoir accepté le sponsoring d'une entreprise controversée et l'ont accusé de blanchir son image.[^tnl]
 
-Un média scientifique se heurte ici à un problème de confiance publique. Lorsque le financeur est aussi le sujet du débat, les lecteurs s'intéressent aux données de test, mais ils s'interrogent aussi : la manière de poser les questions, le terrain d'enquête, l'accès aux données, le montage vidéo et le moment de la publication ont-ils été façonnés par les intérêts du client ?
+L'agence Central News Agency rapportait alors que, lorsqu'on lui demandait « faut-il boycotter Ting Hsin ? », Cheng Kuo-wei répondait : « je ne sais pas ». Son propos relevait davantage d'une méthode : avant d'avoir suffisamment compris, collecté des données qu'il jugeait fiables et retrouvé les sources les plus originales, il ne pouvait pas faire semblant de savoir.[^cna]
 
-Lorsque le site The News Lens a compilé les débats de l'époque, il les a replacés dans le dilemme de la survie des médias et de la publicité native : sans argent, il est difficile pour les médias de produire du contenu approfondi, mais de qui proviennent les fonds, comment sont-ils divulgués, et est-il possible de conserver la possibilité de contre-exemples affecte directement la confiance.[^tnl]
+Le média scientifique rencontrait ici un problème de confiance publique. Lorsque celui qui paie est aussi celui dont on parle, les lecteurs s'intéressent aux données de test, mais demandent aussi : la manière de poser les questions, le terrain d'entretien, l'accès aux données, le montage vidéo et le calendrier de publication ont-ils été façonnés par les intérêts du client ?
 
-Cet épisode mérite d'être inclus dans l'entrée consacrée à PanSci, car il rend visible la contradiction centrale de la plateforme : lorsque vous dites « discuter des dimensions scientifiques des enjeux sociaux avec rationalité et preuves », les lecteurs vous retournent le même examen et vous demandent d'appliquer les mêmes critères à vos propres conditions commerciales.
+En synthétisant la controverse de l'époque, _The News Lens_ l'a replacée dans la difficulté de survie des médias et de la publicité native : sans argent, il est difficile pour les médias de produire des contenus approfondis, mais la question de savoir de qui l'on accepte l'argent, comment on le signale, et si l'on peut préserver la possibilité de contre-exemples affecte directement la confiance.[^tnl]
 
-## Des articles de vulgarisation aux exercices scolaires
+Cet épisode mérite de figurer dans l'entrée PanSci, car il rend visible sa contradiction centrale : lorsque vous dites vouloir « discuter rationnellement, avec des preuves, de la dimension scientifique des enjeux sociaux », les lecteurs vous demandent en retour d'examiner vos propres conditions commerciales selon les mêmes critères.
 
-PanSci ne s'est pas arrêté au média.
+## Des articles de vulgarisation aux dossiers de classe
 
-La page officielle de l'Académie PanSci se positionne comme une plateforme de cours en ligne du groupe médiatique PanSci Knowledge, utilisant des canaux d'apprentissage multiples, des talents interdisciplinaires et des thèmes exploitables pour une diffusion plus efficace du savoir.[^school] C'est la première transformation de PanSci, passant du « lecteur » à l« apprenant ».
+Par la suite, PanSci n'est pas resté seulement un média.
 
-Un autre produit plus proche du terrain scolaire est « Ke Xue Sheng » (科學生, « étudiant scientifique »). En 2020, PanSci Knowledge, la maison d'édition Nan-I et la revue _Science Monthly_ ont lancé conjointement une plateforme de lecture de vulgarisation scientifique, utilisant 10 000 articles de vulgarisation de la plateforme PanSci et les 50 ans d'archives de _Science Monthly_, puis les faisant réécrire par des enseignants en courts textes et questions adaptés à la lecture des collégiens et lycéens.[^student]
+La page officielle de l'Académie PanSci se présente comme une plateforme de cours en ligne rattachée au groupe médiatique PanMedia Knowledge ; elle entend diffuser plus efficacement le savoir grâce à des voies d'apprentissage diversifiées, des talents interdisciplinaires et des thèmes applicables.[^school] C'est la première conversion de PanSci, du « lecteur » vers « l'apprenant ».
 
-Cette transformation est intéressante. Les premiers articles de PanSci étaient souvent destinés à des lecteurs adultes ou de niveau universitaire et supérieur ; avec « Ke Xue Sheng », ils ont dû être réécrits en textes d'environ 400 caractères, alignés sur la progression des cours et pouvant être intégrés par les enseignants dans les lectures du matin ou les exercices de compréhension.[^student]
+Un autre produit encore plus proche du terrain scolaire est « Kexuesheng ». En 2020, PanMedia Knowledge, Nan I Book Enterprise et _Science Monthly_ ont lancé ensemble une plateforme de lecture de vulgarisation scientifique, utilisant 10 000 articles de vulgarisation issus de PanSci et la base de données de 50 ans de _Science Monthly_, puis réécrits par des enseignants en textes courts et questions adaptés à la lecture des collégiens et lycéens.[^student]
 
-Lorsqu'un site scientifique entre en classe, ses lecteurs deviennent « des personnes prises entre les programmes scolaires, les examens, le niveau de lecture et le temps de préparation des enseignants ». Cela change le cadre de la dimension publique de PanSci : du forum public en ligne à la lecture scientifique à l'école.
+La transformation est ici intéressante. Les premiers articles de PanSci étaient souvent écrits pour des adultes et des lecteurs d'un niveau universitaire ou supérieur ; avec Kexuesheng, ils doivent être réécrits en textes d'environ 400 caractères, alignés sur la progression des cours, utilisables par les enseignants pour la lecture matinale ou les dossiers de compétences.[^student]
 
-Cela permet aussi de le mettre en regard avec l'[[Encyclopédie de Taïwan (臺灣大百科全書)]]. L'Encyclopédie de Taïwan est un projet étatique visant à établir des références de savoir ; PanSci est une plateforme privée qui décompose le savoir scientifique en articles, exercices, cours, vidéos et services. La première question « qui a le droit de définir le savoir taïwanais », la seconde question « comment le savoir peut être vu, lu, transformé et réutilisé ».
+Une fois entré en classe, un site scientifique voit ses lecteurs devenir « des personnes prises entre programmes scolaires, examens, compétences de lecture et temps de préparation des enseignants ». Cela déplace la dimension publique de PanSci vers un autre lieu : du forum public en ligne à la lecture scientifique à l'école.
 
-## Le jour d'enregistrement du mercredi matin
+Cela permet aussi de le comparer à l'[Encyclopedia of Taiwan](/fr/Society/encyclopedia-of-taiwan/). L'Encyclopedia of Taiwan est un projet par lequel l'État voulait établir un corpus de connaissances de référence ; PanSci est une plateforme privée qui fragmente le savoir scientifique en articles, dossiers de questions, cours, vidéos et services. La première demande « qui a le droit de définir le savoir sur Taïwan » ; le second demande « comment le savoir peut être vu, lu jusqu'au bout, transformé et réutilisé ».
 
-En 2026, l'image la plus visible de PanSci n'est peut-être plus sur le site web, mais dans les vidéos courtes.
+## Le jour de tournage du mercredi matin
 
-Cette orientation s'inscrit dans une trajectoire identifiable. Un reportage de PeoPo Citizen News en 2022 notait qu'une vidéo explicative de PanSci sur la variole du singe (mpox) avait obtenu plus de 2,2 millions de vues sur YouTube ; à cette date, la chaîne avait accumulé plus de 400 vidéos et près de 400 000 abonnés.[^peopo][^yt-mpox]
+En 2026, le visage le plus visible de PanSci n'est peut-être plus son site, mais ses vidéos courtes.
 
-De la vidéo officielle de la même année sur [l'interprétation des images du télescope James Webb](https://www.youtube.com/watch?v=tTe-nwziwCw) à [PanSci NEWS EP46](https://www.youtube.com/watch?v=x__seBgp4HE) en 2026, on observe que l'audiovisuel de PanSci a constamment testé des formats entre astronomie, médecine, science du quotidien et actualités scientifiques.[^yt-webb][^yt-news46]
+Cette orientation a un contexte. En 2022, PeoPo Citizen Journalism rapportait qu'une [vidéo explicative de PanSci sur la variole du singe / mpox](https://www.youtube.com/watch?v=xmjHnr6u9BM) avait obtenu plus de 2,2 millions de vues sur YouTube ; la chaîne comptait alors déjà plus de 400 vidéos et près de 400 000 abonnés.[^peopo][^yt-mpox]
 
-Un portrait publié par _Mirror Weekly_ rapportait que, confronté à un plafond de trafic, Cheng Kuo-wei avait commencé à publier quotidiennement des vidéos courtes d'actualité scientifique. Le jour d'enregistrement, ses collègues sélectionnaient des actualités scientifiques dans des sources telles que _Nature_, _Science_ et Science Alert ; Cheng Kuo-wei exigeait que les scripts vérifient simultanément les articles de recherche originaux et les reportages d'autres médias scientifiques de qualité, puis utilisent des outils d'IA pour assimiler les articles et évaluer les mérites des différentes versions du script.[^mirror]
+Depuis la [lecture des images du télescope Webb](https://www.youtube.com/watch?v=tTe-nwziwCw) publiée la même année sur la chaîne officielle jusqu'à [PanSci NEWS EP46](https://www.youtube.com/watch?v=x__seBgp4HE) en 2026, on voit PanSci tester son passage à la vidéo entre astronomie, médecine, sciences du quotidien et actualité scientifique.[^yt-webb][^yt-news46]
 
-Ce flux de travail condense en un seul lieu les quinze années d'évolution de PanSci : au début, des blogs et des articles ; puis les communautés, les événements, les cours, le e-commerce ; et maintenant, les plateformes de vidéos courtes. Un communicateur scientifique doit savoir chercher des informations, comprendre les méthodes de recherche, écrire des textes, mais aussi maîtriser le rythme, la caméra, l'humour, les algorithmes et la rétention de l'audience.
+Le portrait publié par _Mirror Media_ indique que Cheng Kuo-wei, confronté à un plafonnement du trafic, a commencé à publier quotidiennement de courtes vidéos d'actualité scientifique. Le jour du tournage, ses collègues sélectionnent des nouvelles scientifiques dans des sources comme _Nature_, _Science_ et Science Alert ; Cheng Kuo-wei exige que les scripts vérifient à la fois l'article scientifique lui-même et d'autres reportages scientifiques de qualité, puis utilise des outils d'IA pour aider à digérer les articles et comparer les forces et faiblesses des différentes versions du script.[^mirror]
 
-_Mirror Weekly_ rapportait que Cheng Kuo-wei résumait un article scientifique en trois minutes, soit environ 1 200 caractères, en s'efforçant d'expliquer la méthode de recherche afin que le spectateur puisse évaluer si l'étude était valide.[^mirror] C'est en fait l'idéal le plus ancien de PanSci transposé dans un nouveau format : le spectateur obtient la conclusion, mais voit aussi « pourquoi vous pouvez remettre en question cette conclusion ».
+Ce flux de travail condense les quinze ans de transformations de PanSci : d'abord des blogs et des articles, puis des réseaux sociaux, événements, cours, commerce en ligne, et désormais les plateformes de vidéo courte. Les communicateurs scientifiques doivent chercher des informations, comprendre les méthodes de recherche, savoir écrire, mais aussi comprendre le rythme, la caméra, les mèmes, les algorithmes et la rétention du public.
 
-Mais la vidéo courte rend aussi la pression plus crue. Dans l'interview, Cheng Kuo-wei évoquait l'anxiété liée au trafic, disant que si la science ne s'était pas éloignée de la société, il n'aurait pas eu à entrer dans la bataille de l'audience.[^mirror] Cette phrase pourrait presque servir d'épigraphe à PanSci dans les années 2020 : les communicateurs scientifiques entrent dans les algorithmes parce que le débat social s'y déroule déjà.
+_Mirror Media_ écrit que Cheng Kuo-wei présente un article scientifique en trois minutes et environ 1 200 caractères, en essayant aussi d'expliquer la méthode de recherche afin que le public puisse contester la validité de l'étude.[^mirror] C'est en réalité le plus ancien idéal de PanSci transposé dans un nouveau format : le public reçoit une conclusion, mais voit aussi « pourquoi il peut douter de cette conclusion ».
 
-Cela relie aussi PanSci à l'[[industrie et culture des YouTubers taïwanais (台灣YouTuber產業與文化)]]. Lorsque les contenus de savoir entrent sur YouTube et dans les vidéos courtes, ils doivent, comme les créateurs de divertissement, faire face à la fréquence de publication, aux habitudes du public, aux règles des plateformes et à la conversion commerciale ; les contenus scientifiques portent en plus une pression supplémentaire, car le coût des erreurs retombe sur la compréhension publique.
+La vidéo courte rend toutefois la pression plus nue. Dans l'entretien, Cheng Kuo-wei parle d'angoisse liée au trafic et dit que si la science n'était pas éloignée de la société, il ne serait pas nécessaire d'entrer dans l'arène de cette anxiété du trafic.[^mirror] Cette phrase pourrait presque servir de note de bas de page à PanSci dans les années 2020 : les communicateurs scientifiques entrent dans les algorithmes parce que la discussion sociale se déroule déjà là.
 
-## Du site web à l'industrie du savoir
+Cela relie aussi PanSci à l'[industrie et culture des YouTubeurs taïwanais](/fr/Culture/taiwan-youtuber-industry/). Lorsque les contenus de savoir entrent sur YouTube et dans la vidéo courte, ils doivent, comme les créateurs de divertissement, affronter fréquence de mise à jour, habitudes du public, règles des plateformes et conversion commerciale ; le contenu scientifique ajoute une pression supplémentaire, car le coût de l'erreur retombe sur la compréhension publique.
 
-La société mère de PanSci, PanSci Knowledge, est également devenue de plus en plus une prestataire de services pour l'industrie du savoir.
+## Du site à l'industrie du savoir
 
-La page entreprise sur 104 indique qu'elle s'appuie sur son expérience de production de contenus pour introduire des systèmes d'analyse de données, de production de contenus et de monétisation publicitaire, avec pour objectif de construire une industrie des contenus numériques tournée vers l'avenir.[^104] Le site de PanMedia a quant à lui lancé en 2024 le système MARMOT, présenté comme un outil d'analyse multicanal, d'optimisation des revenus et de ciblage précis conçu pour les médias d'explication et les créateurs de contenus, avec parmi ses partenaires des médias explicatifs tels que _Foodnext_ et _Plain Law Movement_.[^marmot]
+![Logo de PanSci : mot PanSci en noir avec une ligne ondulée violette et la mention « Be curious about everything! » en dessous](/article-images/society/pansci-logo-2024.png)
+_Logo de PanSci, version 2024. Le slogan « Be curious about everything! » correspond à son passage progressif de « site de vulgarisation scientifique » à « chaîne d'approvisionnement en contenus de savoir ». Fair use editorial commentary on PanSci's brand identity._
 
-Cette étape a fait franchir à PanSci le cap de la simple vulgarisation scientifique auto-produite, transformant les données, l'audiovisuel, la monétisation et la gestion de créateurs qu'elle avait accumulés en un système utilisable par d'autres médias de savoir.
+La société mère de PanSci, PanMedia Knowledge, ressemble elle aussi de plus en plus à un prestataire de l'industrie du savoir.
 
-La différence avec [[想想論壇 (Think Taiwan Forum)]] réside aussi ici. Think Taiwan Forum ressemble davantage à une plateforme d'articles pour le dialogue politique et démocratique ; PanSci, lui, est passé d'une plateforme d'articles scientifiques à une chaîne d'approvisionnement en contenus de savoir. Il est à la fois média, entreprise de formation, équipe audiovisuelle, outil d'analyse de données, réseau de créateurs et prestataire de services publicitaires.
+La page 104 indique qu'elle s'appuie sur son expérience de production de contenus pour intégrer analyse de données, production de contenu et systèmes de monétisation publicitaire, avec pour objectif de construire une industrie du contenu numérique tournée vers l'avenir.[^104] Le site officiel de PanMedia a quant à lui publié en 2024 le système MARMOT, présenté comme un outil d'analyse multicanal, d'optimisation des revenus et de ciblage précis conçu pour les médias explicatifs et les créateurs de contenu ; ses partenaires incluent des médias explicatifs tels que _FoodNEXT_ et _Plain Law Movement_.[^marmot]
 
-Cette transformation comporte des risques. Plus une plateforme sait monétiser les contenus, plus on peut soupçonner que la logique de monétisation influence en retour les contenus. Mais elle a aussi une signification concrète : si les contenus de savoir public ne savent pas apprendre à survivre dans l'économie des plateformes, les algorithmes ne placeront pas automatiquement le bon savoir en tête des résultats.
+Cette étape fait sortir PanSci de sa propre vulgarisation scientifique : les capacités accumulées en matière de données, de vidéo, de monétisation et de gestion de créateurs deviennent un système utilisable par d'autres médias de savoir.
 
-## Reconnaître qu'on ne sait pas
+La différence avec le [Forum Thinking Taiwan](/fr/Society/thinking-taiwan-forum/) se situe aussi là. Thinking Taiwan ressemble davantage à une plateforme d'articles consacrée au dialogue politique et démocratique ; PanSci est passé d'une plateforme d'articles scientifiques à une chaîne d'approvisionnement en contenus de savoir. Il est à la fois média, société de cours, équipe vidéo, outil de données, réseau de créateurs et prestataire publicitaire.
 
-Dans ses meilleurs moments, PanSci fait de « ne pas savoir » un état dans lequel il est possible de travailler publiquement, refusant d'emballer la science en une réponse inattaquable.
+Cette transformation comporte des risques. Plus une plateforme sait aider les contenus à se monétiser, plus elle risque d'être soupçonnée de laisser la logique de monétisation décider en retour des contenus. Mais elle a aussi une portée réaliste : si les contenus de savoir public n'apprennent pas à survivre dans l'économie des plateformes, les algorithmes ne placeront pas automatiquement les bons savoirs au premier rang.
 
-Dans une interview accordée à LIS en 2022, Cheng Kuo-wei résumait ainsi la déclaration de culture scientifique : « Reconnaître que l'on ne sait pas beaucoup de choses ».[^lis] Cette phrase renvoie aussi bien à l'incident de Lufengying en 2016 qu'au flux de travail des vidéos courtes en 2026. La mission de la communication scientifique est de former la société à tolérer l'incertitude : lorsque l'information est insuffisante, que les preuves se contredisent, que les intérêts s'emmêlent, être encore prêt à ralentir un peu, à vérifier davantage et à admettre qu'on pourrait se tromper.
+Fin 2024, la chaîne YouTube principale de PanSci a dépassé le million d'abonnés. Dans sa vidéo de bilan de fin d'année, Cheng Kuo-wei énumère les succès viraux de 2024 (Jensen Huang, AlphaFold, les réacteurs nucléaires de quatrième génération de Bill Gates), et transforme en plaisanterie la question de savoir s'il faut « ouvrir un restaurant de poulet frit après le million d'abonnés » ; mais le problème sous-jacent est sérieux : l'algorithme fait des choix à votre place, quelle est la vidéo la plus détestée, et la plateforme doit-elle continuer dans cette direction :
 
-L'histoire de quinze ans de PanSci n'a pas de ligne de succès nette. Il y a eu un projet échoué, une passion communautaire, une expansion commerciale, une controverse de parrainage, des produits éducatifs, une anxiété liée aux vidéos courtes, et aussi l'ambition de transformer le savoir en services industriels.
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/ByWmta-51Y4" title="2024 要感謝比爾蓋茲和黃仁勳？泛科學百萬訂閱要開炸雞店？最多人不喜歡的影片竟然是...？" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-Si [[The Reporter (報導者)]] répond à la question « comment financer la vérité publique » par le journalisme d'investigation à but non lucratif, PanSci répond à une autre question : comment la science publique peut-elle survivre entre les plateformes commerciales, les salles de classe et les algorithmes communautaires.
+_Chaîne officielle de PanSci : vidéo de bilan de fin d'année 2024. En partant des sujets viraux pour remonter à « ce que l'algorithme a choisi pour vous », puis à « pourquoi ce sujet a explosé », cette vidéo est une auto-interview récente de la trajectoire « du site à l'industrie du savoir »._
 
-La réponse reste instable en 2026. Mais les questions laissées par PanSci sont claires : la science est trop importante pour ne pas impliquer davantage de monde ; elle est aussi trop fragile pour être confiée aux algorithmes sans perdre l'épaisseur du débat public.
+## Reconnaître que l'on ne sait pas
 
-**Pour aller plus loin :**
+Dans ses meilleurs moments, PanSci transforme le « je ne sais pas » en état de travail public, et refuse d'emballer la science comme une réponse irréfutable.
 
-- [The Reporter](/fr/Society/the-reporter-investigative-journalism/) — Traite aussi de la publicité des nouveaux médias taïwanais, mais The Reporter construit la confiance par le journalisme d'investigation à but non lucratif, offrant un contraste avec le modèle de plateforme commerciale de savoir de PanSci.
-- [Think Taiwan Forum] (想想論壇) — Également une plateforme de débat public, Think Taiwan Forum fait du dialogue politique et démocratique un conteneur de commentaires, tandis que PanSci fait du débat scientifique une industrie du savoir.
-- [Encyclopédie de Taïwan](/fr/Society/encyclopedia-of-taiwan/) — Mise en regard entre un projet national de référence du savoir et une communauté privée de vulgarisation scientifique : d'un côté la quête d'une autorité établie, de l'autre la quête de lisibilité, de diffusibilité et de transformabilité.
-- [Industrie et culture des YouTubers taïwanais](/fr/Culture/taiwan-youtuber-industry/) — L'écosystème de plateformes plus large auquel PanSci doit faire face lorsqu'il entre dans les vidéos courtes, les réseaux multi-chaînes et l'économie des créateurs.
+Dans un entretien LIS de 2022, Cheng Kuo-wei formule ainsi son manifeste de culture scientifique : « reconnaître que l'on ignore beaucoup de choses ».[^lis] Cette phrase renvoie aussi bien à l'affaire Lin Fengying de 2016 qu'au flux de travail des vidéos courtes en 2026. La tâche de la communication scientifique consiste à entraîner la société à supporter l'incertitude : lorsque l'information manque, que les preuves se contredisent et que les intérêts s'entremêlent, rester prêt à ralentir, à vérifier davantage et à reconnaître que l'on peut se tromper.
+
+L'histoire de PanSci sur quinze ans ne suit pas une ligne de réussite nette. Elle comprend un projet raté, de l'enthousiasme communautaire, une expansion commerciale, des controverses de sponsoring, des produits éducatifs, l'anxiété de la vidéo courte et l'ambition de transformer le savoir en service industriel.
+
+Si [The Reporter](/fr/Society/the-reporter-investigative-journalism/) répond par le journalisme d'enquête à but non lucratif à la question « comment financer la vérité publique », PanSci répond à une autre question : comment la science publique peut-elle survivre entre plateformes commerciales, terrain scolaire et algorithmes sociaux ?
+
+En 2026, la réponse reste instable. Mais la question laissée par PanSci est claire : la science est trop importante et exige la participation d'un plus grand nombre ; elle est aussi trop fragile, car confiée aux algorithmes, elle perd l'épaisseur de la discussion publique.
+
+**Pour aller plus loin** :
+
+- [The Reporter](/fr/Society/the-reporter-investigative-journalism/) — Traite également la dimension publique des nouveaux médias taïwanais, mais The Reporter construit la confiance par le journalisme d'enquête à but non lucratif, en contraste avec la trajectoire de PanSci comme plateforme commerciale de savoir.
+- [Forum Thinking Taiwan](/fr/Society/thinking-taiwan-forum/) — Également plateforme de discussion publique, Thinking Taiwan transforme le dialogue politique et démocratique en espace de commentaire, tandis que PanSci transforme la discussion scientifique en industrie du savoir.
+- [Encyclopedia of Taiwan](/fr/Society/encyclopedia-of-taiwan/) — Contraste entre un projet national de savoir et une communauté privée de vulgarisation scientifique : l'un poursuit un corpus de référence, l'autre la lisibilité, la circulation et la transformation.
+- [Industrie et culture des YouTubeurs taïwanais](/fr/Culture/taiwan-youtuber-industry/) — L'écologie de plateforme plus vaste à laquelle PanSci doit faire face après son entrée dans la vidéo courte, les MCN et l'économie des créateurs.
+
+## Sources des images
+
+Cet article utilise 3 images, toutes mises en cache dans `public/article-images/society/` afin d'éviter le hotlinking vers les serveurs sources. Elles relèvent toutes du fair use editorial commentary scope — citation d'identification visuelle du sujet discuté, PanSci, conforme à 17 U.S.C. § 107 + article 65 de la loi sur le droit d'auteur, selon les quatre facteurs du fair use (finalité non commerciale et éducative / œuvres publiées / proportion citée limitée / absence d'effet substitutif substantiel sur le marché) :
+
+- **[一鏡到底／憤青已中年 PanSci 泛科學共同創辦人鄭國威](https://www.mirrormedia.mg/story/20260402pol001)** (hero) — Photo : Chen Chang-yuan / _Mirror Media_, entretien publié le 2026-04-12. Fair use editorial commentary on PanSci founder reference photo.
+- **[Bannière de la page d'accueil de PanSci](https://pansci.asia/)** — Matériel de marque officiel de PanSci (banner1.jpg), fair use editorial commentary on PanSci's brand identity.
+- **[Logo de PanSci](https://pansci.asia/aboutus)** — Logo officiel de PanSci, fair use editorial commentary on PanSci's brand identity.
 
 ## Références
 
-[^about]: [PanSci : À propos de nous](https://pansci.asia/aboutus) — Page officielle, mentionnant la fondation en 2011, le statut de plus grand site et communauté scientifique de Taïwan, les sources de contenus et le modèle économique.
+[^about]: [PanSci 泛科學：關於我們](https://pansci.asia/aboutus) — Page officielle, indiquant la fondation en 2011, le statut de plus grand site et communauté scientifiques de Taïwan, les sources de contenu et le modèle économique.
 
-[^letter]: [Cheng Kuo-wei : À chaque partenaire de PanSci : nous allons franchir la prochaine étape](https://pansci.asia/archives/67958) — Témoignage de 2014, expliquant l'origine du projet, la taille initiale, la création indépendante de PanSci Knowledge et le positionnement en entreprise sociale.
+[^letter]: [鄭國威：給泛科學的每一位夥伴：我們要邁出下一步了](https://pansci.asia/archives/67958) — Récit personnel de 2014 expliquant l'origine du projet, l'échelle initiale, la création indépendante de PanMedia Knowledge et son positionnement comme entreprise sociale.
 
-[^life]: [Life : Reportage sur le Forum scientifique taïwanais 2013](https://life.tw/?app=view&no=109512) — Documente les plus de 80 blogueurs scientifiques, les plus de 2 780 articles et les volumes de visiteurs quotidiens et mensuels de l'époque.
+[^life]: [Life 生活網：2013 台灣科學論壇報導](https://life.tw/?app=view&no=109512) — Documente les plus de 80 blogueurs scientifiques, plus de 2 780 articles, ainsi que l'échelle des visiteurs quotidiens et mensuels de l'époque.
 
-[^bnext]: [Business Next : Médias indépendants : épanouir le domaine de la vulgarisation scientifique — PanSci : diffuser des savoirs peu connus avec passion](https://life.tw/?app=view&no=50318) — Interview précoce de 2013, consignant le « trou noir de l'information scientifique », le forum de plus de 300 participants et le modèle économique encore immature de PanSci.
+[^bnext]: [數位時代轉載：獨立媒體：茁壯科普領域 泛科學：熱力傳播冷知識](https://life.tw/?app=view&no=50318) — Entretien précoce de 2013, documentant le « trou noir de l'actualité scientifique », le forum de plus de 300 personnes et le modèle économique encore immature de PanSci.
 
-[^nccu]: [Archive académique de l'Université nationale de Chengchi : Sites de réseaux sociaux et participation publique : une étude des utilisateurs de la page Facebook "Pansci"](https://ah.lib.nccu.edu.tw/item?item_id=113872&locale=zh_TW) — Étude de communication de 2016, N = 1 160, analysant la relation entre l'utilisation de PanSci et la participation informationnelle et citoyenne.
+[^nccu]: [政大學術集成：社交網站與公眾參與：「Pansci 泛科學臉書專頁」使用者研究](https://ah.lib.nccu.edu.tw/item?item_id=113872&locale=zh_TW) — Étude de communication de 2016, N = 1 160, analysant les relations entre l'usage de PanSci, la participation informationnelle et la participation civique.
 
-[^airiti]: [Airiti Library : Étude préliminaire des caractéristiques et des effets de communication des sites de vulgarisation scientifique des deux rives du détroit de Taïwan](https://www.airitilibrary.com/Article/Detail/P20180326001-201701-201803260017-201803260017-93-132) — Analyse de contenu de 2017, comparant les thèmes, le dynamisme, l'interactivité et la crédibilité de Guokr et PanSci.
+[^airiti]: [華藝線上圖書館：兩岸科普網站特色與傳播效果初探](https://www.airitilibrary.com/Article/Detail/P20180326001-201701-201803260017-201803260017-93-132) — Analyse de contenu de 2017 comparant les thèmes, la vivacité, l'interactivité et la crédibilité de Guokr et de PanSci.
 
-[^anu]: [ANU Press / ResearchGate : TAIWAN : From nationalising science to democratising science](https://www.researchgate.net/publication/344233284_TAIWAN_From_nationalising_science_to_democratising_science) — Chapitre d'histoire de la communication scientifique taïwanaise, 2020, plaçant PanSci dans le contexte de la démocratisation de la communication scientifique et des communautés de savoir.
+[^anu]: [ANU Press / ResearchGate: TAIWAN: From nationalising science to democratising science](https://www.researchgate.net/publication/344233284_TAIWAN_From_nationalising_science_to_democratising_science) — Chapitre de 2020 sur l'histoire de la communication scientifique à Taïwan, replaçant PanSci dans la démocratisation de la communication scientifique et les communautés de savoir.
 
-[^technews]: [TechNews : PanSci Knowledge prend officiellement une participation dans la plateforme de financement participatif flyingV](https://technews.tw/2018/06/15/panmedia-flyingv/) — Article de 2018 sur l'alliance stratégique, fournissant le contexte de l'expansion de PanSci Knowledge en groupe de services du savoir.
+[^technews]: [TechNews：泛科知識正式入股 flyingV 群眾募資平台](https://technews.tw/2018/06/15/panmedia-flyingv/) — Article de 2018 sur l'alliance stratégique, fournissant le contexte de l'expansion de PanMedia Knowledge en groupe de services de savoir.
 
-[^cna]: [Central News Agency : Faut-il boycotter Wei Chuan ? Le rédacteur en chef de PanSci : Je ne sais pas](https://www.cna.com.tw/news/afe/201606210480.aspx) — Controverse de parrainage Wei Chuan / Lufengying en 2016 et réponse de Cheng Kuo-wei.
+[^cna]: [中央社：頂新該不該抵制？泛科學總編：我不知道](https://www.cna.com.tw/news/afe/201606210480.aspx) — Controverse de 2016 sur le sponsoring Lin Fengying / Wei Chuan et réponse de Cheng Kuo-wei.
 
-[^tnl]: [The News Lens : Comment interpréter l'enquête du site de vulgarisation scientifique PanSci acceptant le parrainage de Wei Chuan ?](https://www.thenewslens.com/article/42549) — Compilation du contexte de l'incident, des interrogations des internautes et des débats sur le parrainage et la survie des médias.
+[^tnl]: [關鍵評論網：該怎麼看科普網站「泛科學」調查接受味全贊助？](https://www.thenewslens.com/article/42549) — Synthèse du contexte de l'affaire, des critiques des internautes, et du débat sur le sponsoring et la survie des médias.
 
-[^school]: [Académie PanSci : À propos de l'Académie](https://school.pansci.asia/about-us) — Positionnement officiel et informations sur les services de l'Académie PanSci.
+[^school]: [泛科學院：關於學院](https://school.pansci.asia/about-us) — Positionnement officiel et informations de service de l'Académie PanSci.
 
-[^student]: [PanSci : PanSci, Nan-I et Science Monthly lancent "Ke Xue Sheng"](https://pansci.asia/archives/190485) — Origine de la plateforme Ke Xue Sheng, besoins des enseignants, 10 000 articles PanSci et 50 ans d'archives de Science Monthly.
+[^student]: [PanSci：泛科學、南一、科學月刊推出「科學生」](https://pansci.asia/archives/190485) — Origine de la plateforme Kexuesheng, besoins des enseignants, 10 000 articles de PanSci et base de données de 50 ans de _Science Monthly_.
 
-[^104]: [104 : PanSci Knowledge Co., Ltd.](https://www.104.com.tw/company/1a2x6bjflf) — Capital social, nombre d'employés, produits et services, positionnement dans l'industrie des contenus numériques et statut de réseau multi-chaînes YouTube.
+[^104]: [104 人力銀行：泛科知識股份有限公司](https://www.104.com.tw/company/1a2x6bjflf) — Capital, nombre d'employés, produits et services, positionnement dans l'industrie du contenu numérique et qualification MCN YouTube.
 
-[^saleskit]: [Kit média PanSci Knowledge 2022](https://pansci.asia/wp-content/uploads/2022/04/%E6%B3%9B%E7%A7%91%E7%9F%A5%E8%AD%98sales-kit_%E5%B0%88%E6%A1%88%E4%BB%8B%E7%B4%B9%E7%B6%B2%E9%A0%81%E7%89%88_202204-.pdf) — Document commercial de 2022, révélant le trafic mensuel, les audiences des réseaux sociaux et les services de contenu de marque.
+[^saleskit]: [泛科知識媒體簡介 2022](https://pansci.asia/wp-content/uploads/2022/04/%E6%B3%9B%E7%A7%91%E7%9F%A5%E8%AD%98sales-kit_%E5%B0%88%E6%A1%88%E4%BB%8B%E7%B4%B9%E7%B6%B2%E9%A0%81%E7%89%88_202204-.pdf) — Présentation commerciale de 2022 révélant le volume de vues mensuelles, les publics sociaux et les services de contenu de marque.
 
-[^marmot]: [PanMedia : Taking News Digital to the Next Level : PanMedia Partners with YouTube to Launch the MARMOT System](https://panmedia.asia/en/home-en/) — Présentation du système MARMOT de PanMedia en 2024, positionné comme un outil pour les créateurs de contenus audiovisuels explicatifs.
+[^marmot]: [PanMedia: Taking News Digital to the Next Level: PanMedia Partners with YouTube to Launch the MARMOT System](https://panmedia.asia/en/home-en/) — Présentation par PanMedia du système MARMOT en 2024, positionné comme outil pour créateurs vidéo de médias explicatifs.
 
-[^peopo]: [PeoPo Citizen News : De la variole du singe à l'univers — PanSci vulgarise le savoir par la vidéo](https://www.peopo.org/news/605018) — Reportage étudiant de 2022, documentant les plus de 2,2 millions de vues de la vidéo sur la variole du singe, les plus de 400 vidéos et les près de 400 000 abonnés.
+[^peopo]: [PeoPo 公民新聞：從猴痘到宇宙 泛科學用影音普及知識](https://www.peopo.org/news/605018) — Reportage étudiant de 2022 documentant plus de 2,2 millions de vues pour la vidéo sur la variole du singe, plus de 400 vidéos et environ 400 000 abonnés.
 
-[^yt-mpox]: [PanSci YouTube : La variole du singe (mpox) arrive à Taïwan !](https://www.youtube.com/watch?v=xmjHnr6u9BM) — Vidéo officielle du 20 juin 2022 ; vérifiée le 7 mai 2026 via yt-dlp, indiquant un téléchargement par PanSci et plus de 2,33 millions de vues.
+[^yt-mpox]: [PanSci YouTube：台灣本土猴痘/M痘進來了！](https://www.youtube.com/watch?v=xmjHnr6u9BM) — Vidéo de la chaîne officielle publiée le 20 juin 2022 ; récupération par yt-dlp le 7 mai 2026 indiquant PanSci comme uploader et plus de 2,33 millions de vues.
 
-[^yt-webb]: [PanSci YouTube : Analyse complète des dernières images ! En quoi le télescope James Webb est-il si puissant ?](https://www.youtube.com/watch?v=tTe-nwziwCw) — Vidéo officielle du 14 juillet 2022 ; vérifiée le 7 mai 2026 via yt-dlp, indiquant un téléchargement par PanSci et plus de 1,03 million de vues.
+[^yt-webb]: [PanSci YouTube：最新影像全解讀！韋伯望遠鏡強大在哪？](https://www.youtube.com/watch?v=tTe-nwziwCw) — Vidéo de la chaîne officielle publiée le 14 juillet 2022 ; récupération par yt-dlp le 7 mai 2026 indiquant PanSci comme uploader et plus de 1,03 million de vues.
 
-[^yt-news46]: [PanSci YouTube : [PanSci NEWS EP46] Est-ce une bonne idée ? Remplacer l'exercice par des médicaments ! Le vrai visage des empoisonneurs végétaux](https://www.youtube.com/watch?v=x__seBgp4HE) — Vidéo officielle du 13 février 2026, utilisée comme exemple de format audiovisuel d'actualité scientifique en 2026.
+[^yt-news46]: [PanSci YouTube：【泛科學NEWS EP46】這樣好嗎？用吃藥代替運動！植物毒師的真面目](https://www.youtube.com/watch?v=x__seBgp4HE) — Vidéo de la chaîne officielle publiée le 13 février 2026, utilisée comme cas du format d'actualité scientifique vidéo en 2026.
 
-[^mirror]: [Mirror Weekly : En un plan-séquence / Le jeune révolté a mûri — Cheng Kuo-wei, cofondateur de PanSci](https://www.mirrormedia.mg/story/20260402pol001) — Portrait de 2026, décrivant la transition vers les vidéos courtes, le processus de rédaction des scripts d'actualité scientifique et l'anxiété liée à l'audience.
+[^mirror]: [鏡週刊：一鏡到底／憤青已中年 PanSci 泛科學共同創辦人鄭國威](https://www.mirrormedia.mg/story/20260402pol001) — Portrait de 2026 décrivant la transition vers les vidéos courtes, le processus de script des actualités scientifiques et l'anxiété du trafic.
 
-[^lis]: [PanSci republiant l'interview LIS : Cheng Kuo-wei, cofondateur de PanSci : La première étape de la culture scientifique est d'admettre courageusement qu'on ne sait pas](https://pansci.asia/archives/356365) — Cheng Kuo-wei sur la culture scientifique et « reconnaître qu'on ne sait pas ».
+[^lis]: [PanSci 轉載 LIS 專訪：泛科學共同創辦人鄭國威：科學素養的第一步是勇敢地承認自己並不知道](https://pansci.asia/archives/356365) — Cheng Kuo-wei sur la culture scientifique et le fait de « reconnaître que l'on ne sait pas ».

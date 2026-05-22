@@ -5,13 +5,23 @@ date: 2026-05-17
 author: 'Taiwan.md'
 category: 'People'
 subcategory: '音樂'
-tags: ['musique', 'peuples autochtones', 'Puyuma', 'Golden Melody Awards', 'océan', 'Lanyu', 'police', 'auteur-compositeur-interprète']
+tags:
+  [
+    'musique',
+    'peuples autochtones',
+    'Puyuma',
+    'Golden Melody Awards',
+    'océan',
+    'Lanyu',
+    'police',
+    'auteur-compositeur-interprète',
+  ]
 readingTime: 8
 lastVerified: 2026-05-17
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/陳建年.md'
-sourceCommitSha: 'c916f28dd'
+sourceCommitSha: '1e62d568'
 sourceContentHash: 'sha256:098e1fee93f12455'
 sourceBodyHash: 'sha256:f6d9c109d22f96cc'
 translatedAt: '2026-05-20T05:08:34+08:00'
@@ -107,7 +117,7 @@ Autrement dit, 22 ans séparent le prix du meilleur chanteur masculin en mandari
 _MV officiel de Trees Music : 〈美麗心蘭嶼〉, Beautiful Heart of Orchid Island, inclus dans le troisième album de compositions de 2021, 《pongso no Tao》, « l’île des humains » en langue tao. Des enregistrements de première main intégrés lentement au fil de 17 années à Lanyu ; l’album remportera ensuite, en 2022, le Golden Melody Award du meilleur album en langue autochtone._
 
 ![Portrait rapproché de face de Chen Chien-nien devant un micro pendant un concert à Hsinchu, visage concentré sous une casquette.](/article-images/people/chen-chien-nien-hsinchu-cropped-2018.jpg)
-_25 mars 2018, gros plan de Chen Chien-nien lors d’un concert à Hsinchu. Photo : Taiwania Justo. [Licence via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_(cropped).jpg)._
+_25 mars 2018, gros plan de Chen Chien-nien lors d’un concert à Hsinchu. Photo : Taiwania Justo. [Licence via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_(cropped).jpg).\_
 
 ## 〈我們是同胞〉 : des paroles écrites en 1999 devenues chant des secours en 2024
 
@@ -197,32 +207,58 @@ Les chants laissés par son grand-père, il ne les a pas « hérités » avec ef
 
 ## Références
 
-[^1]: [陳建年（歌手）— 維基百科](https://zh.wikipedia.org/zh-tw/%E9%99%B3%E5%BB%BA%E5%B9%B4_(%E6%AD%8C%E6%89%8B)) — Article de Wikipédia en chinois sur Chen Chien-nien, indiquant sa date de naissance, le 1er août 1967, son origine dans la communauté Nanwang, son lien avec son grand-père maternel Lu Senbao, la 114e promotion de la formation d’agents de police, sa mutation à Lanyu en septembre 2000, et son poste de chef adjoint du commissariat de Lanyu avant sa retraite en septembre 2017.
+[^1]: [陳建年（歌手）— 維基百科](<https://zh.wikipedia.org/zh-tw/%E9%99%B3%E5%BB%BA%E5%B9%B4_(%E6%AD%8C%E6%89%8B)>) — Article de Wikipédia en chinois sur Chen Chien-nien, indiquant sa date de naissance, le 1er août 1967, son origine dans la communauté Nanwang, son lien avec son grand-père maternel Lu Senbao, la 114e promotion de la formation d’agents de police, sa mutation à Lanyu en septembre 2000, et son poste de chef adjoint du commissariat de Lanyu avant sa retraite en septembre 2017.
+
 [^2]: [Baliwakes 陸森寶 — 臺灣音樂群像資料庫，國立傳統藝術中心臺灣音樂館](http://musiciantw.ncfta.gov.tw/list.aspx?p=M037&c=&t=1) — Dossier officiel national de musicien, indiquant que Lu Senbao vécut de 1910 à 1988, fut diplômé de l’École normale de Tainan, commença après-guerre, dans les années 1950, à composer en langue puyuma des chansons telles que 〈卑南山〉, 〈頌祭祖先〉, 〈散步歌〉, 〈美麗的稻穗〉, 〈思故鄉〉, 〈蘭嶼之戀〉, et fut honoré comme « père de la musique puyuma ».
+
 [^3]: [金曲歌王陳建年 從警 30 年將榮退 — 中央社 2017-08-24](https://www.cna.com.tw/news/aloc/201708240285.aspx) — Dépêche locale de la Central News Agency, indiquant que Chen Chien-nien entra dans la police en novembre 1986, servit 30 ans et 10 mois, prit sa retraite le 1er septembre, occupait avant sa retraite le poste de chef adjoint du commissariat de Lanyu, au sein de la police du comté de Taitung, et servit notamment dans les brigades de Guanshan et Taitung ainsi qu’aux postes de Lanyu, Yongle, Dongqing, Nanwang, Jianlan et Langdao.
+
 [^4]: [第 11 屆金曲獎 — 維基百科](https://zh.wikipedia.org/zh/%E7%AC%AC11%E5%B1%86%E9%87%91%E6%9B%B2%E7%8D%8E) — Cérémonie tenue le 29 avril 2000 au Sun Yat-sen Memorial Hall de Taipei ; Chen Chien-nien y remporta la même année le prix du meilleur chanteur masculin en mandarin pour Ocean et celui de la meilleure composition pour 〈神話〉, tandis que Samingad remporta le prix de la meilleure nouvelle artiste.
+
 [^5]: [華語經典專輯回顧～陳建年《海洋》打敗眾台港天王獲獎 — 放言 Fount Media](https://www.fountmedia.io/article/67037) — Rétrospective détaillée de la production de l’album Ocean en 1999, de son mode d’enregistrement (ne pas entrer dans un studio de Taipei, transporter le matériel à Taitung), de la scène des 11e Golden Melody Awards en 2000 où il battit Jacky Cheung, Harlem Yu, David Tao et Wang Leehom, et de son classement ultérieur au premier rang de la section 1993-2005 des 《200 meilleurs albums de la musique populaire taïwanaise》.
+
 [^6]: [陳建年傳唱蘭嶼 人生下半場給家人和健康 — 自由時報 2018](https://ent.ltn.com.tw/news/paper/1210066) — Entretien après la retraite, dans lequel Chen Chien-nien parle de plus de dix ans de vie à Lanyu, de sa liste de projets de retraite (photographie, agriculture, tour de l’île à vélo), de son expérience du pagne traditionnel et de son choix de privilégier famille et santé. Source de plusieurs citations verbatim.
+
 [^7]: [流行「原」聲帶──陳建年與紀曉君 — 台灣光華雜誌](https://www.taiwan-panorama.com/Articles/Details?Guid=c2ed5937-22d3-4256-8724-d642a0fac5db&CatId=10) — Présentation détaillée de la découverte par Chen Chien-nien de la musique chinoise en première année de collège, de la guitare en deuxième année, du chœur à quatre cordes formé au lycée en 1982, du concours de révélations à Kaohsiung en 1984, de l’enregistrement de Ocean, et de la réaction de son père Chen Kuang-jung aux Golden Melody Awards. Source de citations verbatim.
+
 [^8]: [流行「原」聲帶──陳建年與紀曉君 — 台灣光華雜誌（同前）](https://www.taiwan-panorama.com/Articles/Details?Guid=c2ed5937-22d3-4256-8724-d642a0fac5db&CatId=10) — Source des citations exactes de Chen Chien-nien, « Je voulais juste avoir un album en souvenir ! » et « Comme la musique des Betel Nut Brothers… », ainsi que de Lin Chih-hsing : « La moitié de ces chansons vient de mes expériences de vie, l’autre moitié des impressions vécues de Chien-nien. »
+
 [^9]: [催生眾多金曲得主 角頭音樂 — 原視界 Indigenous Sight](https://insight.ipcf.org.tw/article/445) — Magazine de la Fondation culturelle des peuples autochtones, indiquant que Trees Music fut fondé en 1998, que Cheng Chieh-jen y produisit plusieurs albums de musique autochtone, et qu’il fut une « figure centrale ayant fait monter en réputation la musique autochtone ».
+
 [^10]: [華語經典專輯回顧～陳建年《海洋》— 放言 Fount Media（同前）](https://www.fountmedia.io/article/67037) — Fournit la citation exacte de la note d’enregistrement de Ocean, « source du bruit des vagues / bord de mer de Shanyuan, baie de Dulan, Taitung, 15 h 43 », la citation exacte « ne pas suivre le modèle habituel qui consiste à faire venir le chanteur dans un studio de Taipei », et les récompenses ultérieures.
+
 [^11]: [Pau-dull = 陳建年 – 海洋 = Ho-hai-yan Ocean (1999, Vinyl) — Discogs](https://www.discogs.com/release/15957117) — Base de données internationale de vinyles et CD, indiquant la sortie de Ocean en 1999, la référence TCM003 de Trees Music, et le nom d’artiste Pau-dull.
+
 [^12]: [我們是同胞 — KKBOX 歌詞](https://www.kkbox.com/tw/en/song/OkYSryWHwySdLLVgOl) — 〈我們是同胞〉 : paroles de Lin Chih-hsing, musique de Chen Chien-nien, arrangement de Chen Chien-nien et Cheng Chieh-jen, inclus dans Ocean en 1999.
+
 [^13]: [曾打敗張學友奪金曲歌王 陳建年開唱前升國旗 — ETtoday 2022](https://star.ettoday.net/news/2188019) — Reportage sur le concert solo du 12 février 2022 au Taipei International Convention Center, indiquant la cérémonie de lever du drapeau, le décor de commissariat de Lanyu installé sur scène, environ 2 500 fans, et source des citations exactes de Chen Chien-nien : « le travail de la police, c’est d’être loyal à l’État et fidèle aux dirigeants », « Je suis tellement nerveux ! Pardon, je suis trop excité », « Sumimasen ! Je me trompe toujours sur la première chanson ! »
+
 [^14]: [紀曉君 — 維基百科](https://zh.wikipedia.org/zh-tw/%E7%B4%80%E6%9B%89%E5%90%9B) — Indique que Samingad est née dans la communauté Nanwang, à Taitung, qu’elle est Puyuma, que son oncle maternel est Chen Chien-nien, que sa grand-mère Tseng Hsiu-hua est une représentante de la transmission des chants puyuma, qu’elle remporta le prix de la meilleure nouvelle artiste lors des 11e Golden Melody Awards, et que son premier album de 1999 est 《太陽 風 草原的聲音》.
+
 [^15]: [紀家盈（家家）— 維基百科](https://zh.wikipedia.org/zh-tw/%E7%B4%80%E5%AE%B6%E7%9B%88) — Indique que Chi Chia-ying, nom de scène Jia Jia, a un père bunun et une mère puyuma, que son oncle maternel est Chen Chien-nien et que sa deuxième sœur est Samingad.
+
 [^16]: [Golden melodies — Taipei Times 2000-04-27](https://www.taipeitimes.com/News/feat/archives/2000/04/27/33859) — Article d’avant-cérémonie sur la 11e édition des Golden Melody Awards, citant des critiques décrivant la musique de Chen Chien-nien comme « sincere, pure and naturally touching » et l’importance des nominations de Chen Chien-nien et Samingad comme « an affirmation of Aboriginal musical achievement ».
+
 [^17]: [南王部落 — 維基百科](https://zh.wikipedia.org/zh-tw/%E5%8D%97%E7%8E%8B%E9%83%A8%E8%90%BD) — Présentation de la communauté Nanwang, Sakuban, des Puyuma, située dans le secteur Nanwang de la ville de Taitung, l’une des huit communautés puyuma et celle qui conserve le plus complètement la culture puyuma. Comprend la chronologie de l’inscription du terme « peuples autochtones » dans la Constitution en 1994 et du mouvement de rectification des noms autochtones.
+
 [^18]: [陳建年 ／《pongso no Tao》— 博客來](https://www.books.com.tw/products/0020222996) — Page de présentation du troisième album de compositions, sorti le 5 août 2021 avec 17 morceaux, indiquant que Chen Chien-nien « passa par tous les postes de police de l’île pendant plus de dix ans de service à Lanyu », qu’« après le travail, il faisait de la randonnée, de la plongée, de la photographie, apprenait la culture tao et participait à des rituels autochtones », et que « faire un album pour Lanyu fut son plus grand souhait lorsqu’il y servait ».
+
 [^19]: [陳建年『大地』專輯 — 銀河網路電台](http://www.iwant-radio.com/showinformation.php?sisn=7413) — Présentation du deuxième album de compositions, Earth, indiquant sa sortie le 1er septembre 2002, sa publication par Trees Music & Art, ses 13 morceaux, et le fait qu’il reflète trois années de création de Chen Chien-nien à Lanyu, Taitung et Taipei.
+
 [^20]: [第 33 屆金曲獎頒獎典禮 — 入圍暨得獎名單 tavis.tw](https://tavis.tw/gma/33rd/GMA/Nomination.htm) — Base officielle des Golden Melody Awards, indiquant que l’album pongso no Tao de Chen Chien-nien remporta en 2022 le prix du meilleur album en langue autochtone.
+
 [^21]: [陳建年 — Chen Jiannian / English Wikipedia](https://en.wikipedia.org/wiki/Chen_Jiannian) — Article anglais de Wikipédia sur Chen Chien-nien, indiquant explicitement que « His maternal grandfather Senbao Lu was a composer and educator », qu’il « graduated from police academy in 1986, was first assigned to Guanshan, Taitung », qu’il « worked in Lanyu until his retirement on 1 September 2017 », ainsi qu’une chronologie complète de ses albums et prix.
+
 [^22]: [我族與他族，故鄉與異鄉：試論林志興《族韻鄉情：檳榔詩稿（一）》— 卑南學 pinuyumayian 部落格](https://pinuyumayian2013.pixnet.net/blog/post/444738836) — Analyse du poème original 〈我們是同胞〉 dans le recueil 《族韻鄉情：檳榔詩稿》 de Lin Chih-hsing, de sa diffusion ultérieure après sa mise en musique par Chen Chien-nien, et de son contexte dans les études sur les Puyuma.
+
 [^23]: [當代原住民歌謠中「想像共同體」的打造：〈我們都是一家人〉— 原住民族委員會原住民族文獻電子期刊](https://ihc.cip.gov.tw/EJournal/EJournalCat/355) — Article académique analysant la manière dont 〈我們是同胞〉 et d’autres chants autochtones contemporains façonnent une « communauté imaginée » transethnique, et discutant la signification politique de chansons telles que 〈我們都是一家人〉.
+
 [^24]: [【Hito 流行音樂】1990 年代後的臺灣原住民音樂如何躍動崛起？ — 故事 StoryStudio × 國立臺灣歷史博物館](https://storystudio.tw/article/watch-Taiwan-NMTH/the-voice-of-Taiwan) — Article culturel de StoryStudio revenant sur l’incident Enigma de 1996 aux Jeux olympiques d’Atlanta, avec l’échantillonnage de Difang Duana, sur l’ascension d’A-Mei en 1996, et sur toute l’histoire ultérieure de la diffusion dominante de la musique autochtone.
+
 [^25]: A-Mei (article interne Taiwan.md People /people/張惠妹) — Indique sa naissance en 1972 dans le canton de Beinan, Taitung, les ventes de son premier album Sisters en 1996, 1,21 million d’exemplaires à Taiwan et 4 millions en Asie.
+
 [^26]: [桑布伊 — 維基百科](https://zh.wikipedia.org/zh-tw/%E6%A1%91%E5%B8%83%E4%BC%8A) — Article sur le musicien puyuma contemporain Sangpuy, indiquant que Sangpuy et Chen Chien-nien viennent tous deux du cercle culturel puyuma de Taitung, que Sangpuy rejoignit après le séisme du 21 septembre le collectif musical Flying Fish and Clouded Leopard et enregistra avec Kimbo Hu et d’autres, reflétant l’influence de Chen Chien-nien sur les générations suivantes de musique autochtone.
+
 [^27]: [陳建年 — 國家文化記憶庫](https://tcmb.culture.tw/zh-tw/detail?indexCode=Culture_Event&id=273173) — Entrée de la National Cultural Memory Bank du ministère de la Culture sur Chen Chien-nien, indiquant sa position d’héritier de Lu Senbao, son style de composition mêlant puyuma et mandarin, son titre de roi des Golden Melody Awards lors de la 11e édition, le prix de meilleur producteur de musique populaire instrumentale lors de la 18e édition, le prix de meilleur producteur d’album pop lors de la 20e édition, et le prix de meilleur album en langue autochtone lors de la 33e édition.
 
 ## Sources des images
@@ -230,5 +266,5 @@ Les chants laissés par son grand-père, il ne les a pas « hérités » avec ef
 Cet article utilise 3 images sous licence CC BY-SA 4.0, toutes mises en cache dans `public/article-images/people/` afin d’éviter les liens directs vers les serveurs sources :
 
 - [Pur-dull in Hsinchu 2](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_2.jpg) — Photo : Taiwania Justo, 2018-03-25, CC BY-SA 4.0, Commons File:Pur-dull_in_Hsinchu_2.jpg (image principale)
-- [Pur-dull in Hsinchu (cropped)](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_(cropped).jpg) — Photo : Taiwania Justo, 2018-03-25, CC BY-SA 4.0, Commons File:Pur-dull_in_Hsinchu_(cropped).jpg (image intégrée 1)
+- [Pur-dull in Hsinchu (cropped)](<https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu_(cropped).jpg>) — Photo : Taiwania Justo, 2018-03-25, CC BY-SA 4.0, Commons File:Pur-dull*in_Hsinchu*(cropped).jpg (image intégrée 1)
 - [Pur-dull in Hsinchu](https://commons.wikimedia.org/wiki/File:Pur-dull_in_Hsinchu.jpg) — Photo : Taiwania Justo, 2018-03-25, CC BY-SA 4.0, Commons File:Pur-dull_in_Hsinchu.jpg (image intégrée 2)

@@ -1,187 +1,179 @@
 ---
-title: 'Desarrollo Económico de Posguerra'
-description: 'El viaje del milagro económico de Taiwán desde una sociedad agrícola hasta convertirse en uno de los Tigres Asiáticos'
+title: 'Desarrollo económico de posguerra'
+description: 'El proceso de desarrollo del milagro económico de Taiwán, desde una sociedad agrícola hasta convertirse en uno de los Cuatro Tigres Asiáticos'
 date: 2026-03-17
+author: 'Taiwan.md'
+category: 'History'
+subcategory: '殖民與帝國'
 tags:
   [
-    historia económica,
-    industrialización,
-    diez grandes proyectos de construcción,
-    milagro económico,
-    transformación industrial,
+    'Historia económica',
+    'Industrialización',
+    'Diez Grandes Proyectos de Construcción',
+    'Milagro económico',
+    'Transformación industrial',
   ]
+lastVerified: 2026-03-19
+lastHumanReview: false
+featured: false
 translatedFrom: 'History/戰後經濟發展.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:bd943f680a0506bf'
-sourceBodyHash: 'sha256:9e8ab929793e320d'
-translatedAt: '2026-04-17T10:33:16+08:00'
-category: History
+sourceCommitSha: 'f712b7242'
+sourceContentHash: 'sha256:0d0adcf91ab6fb7b'
+sourceBodyHash: 'sha256:c6a2754be8bc3e2a'
+translatedAt: '2026-05-22T05:08:47+08:00'
 ---
 
-# Desarrollo Económico de Posguerra
+# Desarrollo económico de posguerra
 
-El desarrollo económico de posguerra de Taiwán ha sido aclamado como un "milagro económico" 經濟奇蹟. En solo cuarenta años, Taiwán se transformó de una sociedad agrícola empobrecida en una economía desarrollada, uniéndose a Hong Kong, Singapur y Corea del Sur como los "Cuatro Tigres Asiáticos" 亞洲四小龍. Este milagro no fue coincidencial, sino el resultado de políticas gubernamentales, diligencia del pueblo, entorno internacional y oportunidades históricas trabajando juntas, proporcionando un modelo importante para el desarrollo económico en países en desarrollo de todo el mundo.
+El desarrollo económico de posguerra de Taiwán es aclamado como un "milagro económico": en apenas cuatro décadas, pasó de ser una sociedad agrícola empobrecida a una economía desarrollada, situándose junto con Hong Kong, Singapur y Corea del Sur como uno de los "Cuatro Tigres Asiáticos". Este logro fue fruto de la combinación de políticas gubernamentales, el esfuerzo del pueblo, el entorno internacional y las oportunidades históricas, constituyendo un caso de referencia para el desarrollo económico de los países en vías de desarrollo de todo el mundo.
 
-## Recuperación de Posguerra y Reforma Agraria (1945-1960)
+## Recuperación de posguerra y reforma agraria (1945-1960)
 
-### Heredando los Cimientos Coloniales Japoneses
+## Herencia de la base colonial japonesa
 
-Durante el período colonial japonés, Taiwán ya había establecido sistemas de infraestructura y educación relativamente completos, sentando bases importantes para el desarrollo económico de posguerra. Las redes de transporte, los sistemas eléctricos y el personal técnico capacitado se convirtieron en condiciones favorables para la rápida recuperación de posguerra.
+Durante el período de dominio japonés, Taiwán ya había establecido infraestructura y un sistema educativo. La red de transporte, el sistema eléctrico y el talento técnico se convirtieron en condiciones favorables para una rápida recuperación en la posguerra.
 
-### Reforma Agraria de Tres Etapas
+## Reforma agraria en tres etapas
 
-A partir de 1949, el gobierno implementó una reforma agraria de tres etapas:
+A partir de 1949, el gobierno implementó una reforma agraria en tres etapas:
 
-- **Reducción de Renta 375** 三七五減租 (1949): La renta de los inquilinos no podía exceder 375 por mil del rendimiento bruto del cultivo principal
-- **Venta de Tierras Públicas** 公地放領 (1951): Las tierras agrícolas públicas se vendieron a los agricultores inquilinos actuales
-- **Tierra para el Agricultor** 耕者有其田 (1953): Expropiación obligatoria del exceso de tierra de los terratenientes para reventa a inquilinos
+- **Reducción de rentas al 37,5‰** (1949): La renta de los arrendatarios no podía superar el 375 milésimas del producto principal de los cultivos.
+- **Venta de tierras públicas** (1951): Se transfirieron tierras públicas de cultivo a los arrendatarios que las trabajaban.
+- **La tierra para quien la trabaja** (1953): Se expropió de forma obligatoria el exceso de tierra de los terratenientes y se revendió a los arrendatarios.
 
-Esta reforma no solo abordó la disparidad de riqueza rural sino que también liberó mano de obra rural, proporcionando abundantes recursos humanos para la posterior industrialización.
+Esta reforma no solo resolvió el problema de la desigualdad de riqueza rural, sino que también liberó mano de obra del campo, proporcionando una abundante fuente de recursos humanos para la posterior industrialización.
 
-### Papel Crítico de la Ayuda Estadounidense
+## El papel clave de la ayuda estadounidense
 
-De 1950-1965, Estados Unidos proporcionó aproximadamente $1.5 mil millones en ayuda, representando el 34% de la inversión total de Taiwán durante el mismo período. La ayuda estadounidense no fue solo financiación, sino que más importante aún, involucró transferencia de tecnología y experiencia en gestión, ayudando a Taiwán a establecer un sistema económico moderno.
+Entre 1950 y 1965, Estados Unidos proporcionó aproximadamente 1.500 millones de dólares en ayuda[^2], lo que representó el 34% de la inversión total de Taiwán durante ese período. Los fondos, la transferencia de tecnología y la asesoría de gestión aportados por la ayuda estadounidense ayudaron a Taiwán a establecer un sistema económico moderno.
 
-## Sustitución de Importaciones y Procesamiento de Exportaciones (1960-1980)
+## Sustitución de importaciones y procesamiento para exportación (1960-1980)
 
-### Industrialización por Sustitución de Importaciones
+## Industrialización por sustitución de importaciones
 
-En la década de 1950, Taiwán adoptó políticas de sustitución de importaciones para proteger las industrias incipientes. Usando la industria textil como ejemplo, el gobierno abogó por "importar tela no es tan bueno como importar hilo; importar hilo no es tan bueno como importar algodón", construyendo gradualmente una cadena completa de la industria textil y criando con éxito el primer lote de industrias manufactureras competitivas.
+En la década de 1950, Taiwán adoptó una política de sustitución de importaciones[^3] para proteger el desarrollo de industrias nacientes. Tomando como ejemplo la industria textil, el gobierno promovió el principio de "es mejor importar algodón que hilo, e hilo que tela", estableciendo gradualmente una cadena industrial textil integrada desde el algodón en rama hasta la confección de prendas, cultivando así el primer grupo de manufacturas competitivas.
 
-### Innovación de las Zonas de Procesamiento de Exportaciones
+## La innovación de las zonas de procesamiento para exportación
 
-En 1965, Taiwán estableció la primera zona de procesamiento de exportaciones de Asia — la Zona de Procesamiento de Exportaciones de Kaohsiung, seguida por las zonas de procesamiento de exportaciones de Nanzih y Taichung. Estas zonas proporcionaron:
+En 1966, Taiwán estableció la primera zona de procesamiento para exportación del mundo: la Zona de Procesamiento para Exportación de Kaohsiung[^1], a la que siguieron sucesivamente las zonas de Nantun y Taichung. Estas zonas ofrecían:
 
 - Exenciones fiscales y procedimientos administrativos simplificados
-- Infraestructura completa
+- Infraestructura completa y adecuada
 - Suministro estable de mano de obra
 
-Las zonas de procesamiento de exportaciones atrajeron con éxito inversión extranjera, promovieron la transferencia de tecnología y capacitaron grandes cantidades de trabajadores técnicos calificados. Para 1980, más del 60% de los productos industriales de Taiwán se exportaban.
+Las zonas de procesamiento para exportación atrajeron con éxito inversión extranjera, fomentaron la transferencia de tecnología y formaron un gran número de trabajadores técnicos cualificados. Para 1980, más del 60% de los productos industriales de Taiwán se destinaban a la exportación.
 
-### Establecimiento del Reino Textil
+## El establecimiento del reino textil
 
-La industria textil de Taiwán alcanzó su punto máximo en las décadas de 1960-70, convirtiéndose en un importante exportador textil global. Desde hilo y tela de algodón hasta prendas de vestir, formó una cadena industrial verticalmente integrada completa que no solo satisfizo la demanda interna sino que también se exportó extensamente para ganar divisas.
+La industria textil de Taiwán alcanzó su apogeo entre las décadas de 1960 y 1970, convirtiéndose en uno de los principales exportadores mundiales de productos textiles. Desde el hilado de algodón y las telas hasta la confección de prendas, se formó una cadena industrial integrada verticalmente, generando grandes ingresos de divisas a través de la exportación masiva.
 
-## Industria Química Pesada y los Diez Grandes Proyectos de Construcción (1970-1985)
+## Industria pesada y química, y los Diez Grandes Proyectos de Construcción (1970-1985)
 
-### Desafío de la Crisis del Petróleo
+## El desafío de la crisis del petróleo
 
-La primera crisis del petróleo de 1973 impactó severamente la economía global, y Taiwán no fue la excepción. Enfrentando la recesión económica y la presión inflacionaria, el gobierno decidió promover la construcción de infraestructura a gran escala para estimular el crecimiento económico a través de la inversión pública.
+La primera crisis del petróleo de 1973 golpeó duramente la economía mundial, y Taiwán no fue la excepción. Ante la recesión económica y las presiones inflacionarias, el gobierno decidió impulsar una construcción de infraestructura a gran escala para estimular el crecimiento económico mediante la inversión pública.
 
-### Visión de los Diez Grandes Proyectos de Construcción
+## El gran plan de los Diez Grandes Proyectos de Construcción
 
-En 1974, el Primer Ministro Chiang Ching-kuo promovió los Diez Grandes Proyectos de Construcción 十大建設, con una inversión total que alcanzó NT$200 mil millones:
+En 1974, el primer ministro Chiang Ching-kuo impulsó los Diez Grandes Proyectos de Construcción, con una inversión total de 200.000 millones de dólares taiwaneses:
 
-**Infraestructura de Transporte (4 proyectos):**
+**Construcción de transporte (4 proyectos):**
 
-- Autopista Sun Yat-sen 中山高速公路: Primera autopista de Taiwán, 373 kilómetros de largo
-- Electrificación Ferroviaria: Electrificación completa de la línea troncal occidental
-- Aeropuerto Internacional Chiang Kai-shek de Taoyuan: Mejorando la capacidad de aviación internacional
-- Puerto de Taichung: Equilibrando el desarrollo de puertos norte-sur
+La construcción de transporte se centró en la Autopista Nacional Sun Yat-sen (con una longitud total de 373 km, la primera autopista de Taiwán) y la electrificación de la línea férrea principal de la costa oeste, junto con la construcción simultánea del Aeropuerto Internacional de Taoyuan Chiang Kai-shek y el Puerto de Taichung, ampliando la capacidad portuaria norte-sur.
 
-**Industria Química Pesada (6 proyectos):**
+**Industria pesada y química (6 proyectos):**
 
-- China Steel Corporation: Estableciendo la industria del acero autónoma
-- China Shipbuilding Corporation: Desarrollando la industria de construcción naval
-- Industria Petroquímica: Grandes refinerías de petróleo, plantas de craqueo de nafta, etc.
-- Energía Nuclear: Primera, segunda y tercera plantas de energía nuclear
+La industria pesada y química tuvo como ejes principales la Corporación Siderúrgica de China y la Corporación de Construcción Naval de China, complementadas por la industria petroquímica (incluyendo una gran refinería y una planta de craqueo de nafta ligera) y las centrales nucleares número 1 a 3, construyendo un sistema autónomo de suministro de energía y materias primas.
 
-### Transformación de la Estructura Industrial
+## La transformación de la estructura industrial
 
-Los Diez Grandes Proyectos de Construcción no solo crearon oportunidades masivas de empleo, sino que más importante aún, establecieron la base para la industria química pesada, sentando las bases para la posterior mejora industrial. La estructura económica de Taiwán cambió de la agricultura a la industria, con la participación de la industria en el PIB alcanzando un máximo del 47% en la década de 1980.
+Los Diez Grandes Proyectos de Construcción generaron un gran número de empleos y, al mismo tiempo, establecieron la base de la industria pesada y química, sentando los cimientos para la posterior mejora industrial. La estructura económica de Taiwán pasó de la agricultura a la industria; la proporción del PIB correspondiente a la industria alcanzó un pico del 47% en la década de 1980.
 
-## Surgimiento de la Industria de Alta Tecnología (1980-2000)
+## El auge de la industria de alta tecnología (1980-2000)
 
-### Parque Científico de Hsinchu
+## El Parque Científico de Hsinchu
 
-El Parque Científico de Hsinchu se estableció en 1980, adoptando el modelo exitoso de las zonas de procesamiento de exportaciones específicamente para desarrollar industrias de alta tecnología. El parque proporcionó:
+En 1980 se fundó el Parque Científico de Hsinchu, adoptando el modelo exitoso de las zonas de procesamiento para exportación y orientándose específicamente al desarrollo de la industria de alta tecnología. El parque ofrecía:
 
 - Políticas fiscales preferenciales
-- Entorno completo de investigación y desarrollo
+- Un entorno de I+D completo
 - Mecanismos de cooperación industria-academia
 
-### Surgimiento de la Industria de Semiconductores
+## El auge de la industria de semiconductores
 
-Taiwan Semiconductor Manufacturing Company (TSMC) 台積電 se estableció en 1987, creando el modelo de negocio de fundición profesional que transformó completamente el ecosistema global de la industria de semiconductores. Empresas como MediaTek y United Microelectronics también surgieron sucesivamente, convirtiendo a Taiwán en una potencia global de semiconductores.
+En 1987 se fundó TSMC, que creó el modelo de negocio de fundición profesional (foundry), transformando radicalmente el ecosistema de la industria global de semiconductores. Empresas como MediaTek y UMC también surgieron sucesivamente, convirtiendo a Taiwán en un centro mundial de semiconductores.
 
-### Industria de Electrónica de Información
+## La industria de electrónica de información
 
-A partir de la década de 1980, Taiwán desarrolló vigorosamente la industria de computadoras personales. Empresas como Acer, ASUS y Foxconn comenzaron con la fabricación por contrato y gradualmente construyeron sus propias marcas, convirtiendo a Taiwán en una importante base de producción global para hardware de información.
+En la década de 1980, Taiwán concentró sus recursos en el desarrollo de la industria de computadoras personales. Empresas como Acer, Asus y Foxconn partieron de la fabricación por encargo (OEM) y fueron construyendo gradualmente sus propias marcas. El valor de las exportaciones de hardware informático de Taiwán se situó entre los más altos del mundo en la década de 1990.
 
-## Logros y Datos del Milagro Económico
+## Logros y datos del milagro económico
 
-### Estadísticas de Crecimiento Notables
+## Datos de crecimiento impresionantes
 
-De 1952 a 1995, Taiwán creó logros económicos asombrosos:
+De 1952 a 1995, Taiwán logró destacados resultados económicos[^4]. La tasa de crecimiento anual promedio del PIB alcanzó el 8,7%, manteniendo un alto crecimiento durante 40 años consecutivos; el PIB per cápita pasó de 145 dólares a 12.396 dólares, y el total de exportaciones se expandió de 116 millones de dólares a 111.800 millones de dólares. La tasa de desempleo se mantuvo de forma prolongada en un nivel bajo del 2-3%.
 
-- **Tasa de crecimiento anual del PIB**: 8.7% (40 años consecutivos de alto crecimiento)
-- **PIB per cápita**: Saltó de $145 a $12,396
-- **Exportaciones totales**: Aumentó de $116 millones a $111.8 mil millones
-- **Tasa de desempleo**: Se mantuvo en un nivel bajo del 2-3% a largo plazo
+## La mejora en la distribución del ingreso
 
-### Mejora en la Distribución del Ingreso
+Lo más notable es que Taiwán mantuvo una distribución del ingreso relativamente equitativa durante su rápido crecimiento. Entre las décadas de 1970 y 1980, el coeficiente de Gini se mantuvo entre 0,28 y 0,32, siendo una de las regiones con la distribución del ingreso más equitativa del mundo.
 
-Más notable aún, Taiwán mantuvo una distribución de ingresos relativamente igualitaria mientras lograba un rápido crecimiento. El coeficiente de Gini en las décadas de 1970-80 se mantuvo entre 0.28-0.32, convirtiendo a Taiwán en una de las regiones con la distribución de ingresos más igualitaria del mundo.
+## Análisis de los factores de éxito
 
-## Análisis de Factores de Éxito
+## La gobernanza tecnocrática del gobierno
 
-### Gobernanza Efectiva
+En la posguerra, Taiwán contó con un grupo de tecnócratas capaces de planificación a largo plazo, quienes asumieron como su misión la "salvación de la nación" y formularon una serie de políticas industriales visionarias. Desde la reforma agraria y la sustitución de importaciones hasta la expansión de exportaciones, cada etapa tuvo objetivos estratégicos claros.
 
-La posguerra de Taiwán tuvo un grupo de tecnócratas con capacidades de planificación a largo plazo que tomaron "la salvación nacional" como su misión y formularon una serie de políticas industriales de visión de futuro. Desde la reforma agraria y la sustitución de importaciones hasta la expansión de exportaciones, cada etapa tenía objetivos estratégicos claros.
+## Los resultados de la inversión en educación
 
-### Efectividad de la Inversión Educativa
+El gobierno destinó presupuesto a la educación, especialmente a la formación profesional y técnica, formando un gran número de trabajadores técnicos cualificados e ingenieros. La implementación de la educación obligatoria de nueve años en 1968 elevó significativamente la calidad de la fuerza laboral, proporcionando una base de talento suficiente para la posterior mejora industrial.
 
-El gobierno invirtió fuertemente en educación, particularmente en educación vocacional, capacitando grandes cantidades de trabajadores técnicos calificados e ingenieros. La implementación de la educación obligatoria de nueve años mejoró significativamente la calidad de la mano de obra, proporcionando una base de talento para la mejora industrial.
+## La coincidencia del entorno internacional
 
-### Entorno Internacional de Apoyo
+El entorno geopolítico de la Guerra Fría permitió a Taiwán recibir protección militar y asistencia económica de Estados Unidos. Al mismo tiempo, los países europeos y americanos trasladaron sus industrias intensivas en mano de obra al exterior, brindando a Taiwán una oportunidad excepcional para la expansión de sus exportaciones.
 
-El entorno político internacional durante la Guerra Fría permitió a Taiwán recibir protección militar y asistencia económica de Estados Unidos. Simultáneamente, los países europeos y americanos reubicaron industrias intensivas en mano de obra al extranjero, proporcionando excelentes oportunidades para la expansión de exportaciones de Taiwán.
+## El espíritu emprendedor
 
-### Espíritu Emprendedor
+Los empresarios taiwaneses demostraron un fuerte espíritu emprendedor y una capacidad de adaptación flexible. Partiendo de talleres familiares, expandieron sus operaciones hasta convertirse en empresas multinacionales; Foxconn es un ejemplo paradigmático.
 
-Los empresarios taiwaneses demostraron un fuerte espíritu emprendedor y una adaptabilidad flexible. Comenzando desde talleres familiares y desarrollándose gradualmente en empresas internacionales, encarnaron la diligencia y sabiduría del pueblo taiwanés.
+## Los desafíos de la transformación y las nuevas direcciones
 
-## Desafíos de Transformación y Nuevas Direcciones
+## Los ajustes posteriores a la década de 1990
 
-### Ajustes Posteriores a la Década de 1990
+Al entrar en la década de 1990, Taiwán enfrentó desafíos como el aumento de los salarios y las crecientes exigencias medioambientales. La manufactura tradicional comenzó a trasladarse al continente chino y al sudeste asiático. El gobierno impulsó políticas de "mejora industrial", fomentando el desarrollo de industrias de alto valor agregado.
 
-Entrando en la década de 1990, Taiwán enfrentó desafíos de aumento de salarios y mayores requisitos ambientales, con la manufactura tradicional comenzando a reubicarse en China y el Sudeste Asiático. El gobierno promovió políticas de "mejora industrial", alentando el desarrollo de industrias de alto valor agregado.
+## La transición hacia la economía del conocimiento
 
-### Transformación de la Economía del Conocimiento
+En el siglo XXI, Taiwán ha concentrado sus recursos en el desarrollo de la economía del conocimiento. Las industrias de biotecnología y tecnología de energía verde han recibido apoyo político, mientras que las industrias culturales y creativas y la maquinaria de precisión han constituido nuevas direcciones diferenciadas de la manufactura tradicional.
 
-Desde el siglo XXI, Taiwán se ha comprometido a desarrollar una economía del conocimiento, centrándose en:
+## Significado internacional e implicaciones
 
-- Industria de biotecnología
-- Tecnología de energía verde
-- Industrias culturales y creativas
-- Industria de maquinaria de precisión
+El modelo de desarrollo económico de Taiwán ofrece una referencia práctica para los países en vías de desarrollo.
 
-## Significado Internacional e Perspectivas
+## Lecciones de la estrategia de desarrollo
 
-El modelo de desarrollo económico de Taiwán proporciona lecciones importantes para los países en desarrollo:
+El éxito de Taiwán radica en sus ajustes por etapas: de la agricultura a la industria ligera, y luego a la industria pesada y química y a la industria de alta tecnología, con cambios de política claros en cada fase. El gobierno desempeñó un papel orientador en las etapas iniciales, ajustando su grado de intervención a medida que el mercado maduraba. La inversión en educación y un sistema de comercio exterior abierto recorrieron todo el proceso de desarrollo.
 
-### Perspectivas de Estrategia de Desarrollo
+## Contribución al mundo
 
-1. **Desarrollo por Etapas**: Ajustar estrategias según diferentes etapas de desarrollo, desde agricultura → industria ligera → industria química pesada → industria de alta tecnología
-2. **Papel del Gobierno**: El gobierno desempeña un importante papel de orientación en el desarrollo económico temprano pero se retira gradualmente a medida que los mercados maduran
-3. **Capital Humano**: La inversión educativa es clave para la competitividad a largo plazo
-4. **Economía Abierta**: Integración activa en la división internacional del trabajo y aprovechamiento de las ventajas comparativas
+Taiwán ocupa una posición clave en la cadena de suministro global, y el modelo de fundición de obleas de TSMC ha sido adoptado por la industria mundial de semiconductores. La experiencia de fabricación por encargo de Taiwán también ha sido tomada como referencia por varios países del sudeste asiático, convirtiéndose en un modelo para impulsar el despegue de la manufactura.
 
-### Contribuciones Globales
-
-Taiwán no solo creó su propio milagro económico sino que también hizo importantes contribuciones al desarrollo económico global:
-
-- Ocupando una posición clave en las cadenas de suministro globales
-- El modelo de fabricación por contrato ha sido emulado por muchos países
-- La industria de alta tecnología se ha convertido en un centro de innovación global
-
-La Taiwán de hoy enfrenta nuevos desafíos, pero la exitosa experiencia del desarrollo económico de posguerra sigue siendo un valioso activo histórico. Nos muestra cómo una pequeña isla, a través de la sabiduría, la diligencia y las políticas correctas, puede ocupar un lugar en el escenario internacional.
+Aunque el Taiwán de hoy enfrenta nuevos desafíos, la experiencia exitosa de su desarrollo económico de posguerra sigue siendo un valioso patrimonio histórico. Nos cuenta cómo una pequeña isla logró, con inteligencia, esfuerzo y políticas adecuadas, ganarse un lugar en el escenario internacional.
 
 ---
 
 _Referencias:_
 
-- Instituto de Historia Moderna de la Academia Sinica 中央研究院近代史研究所
-- Departamento de Estadísticas del Ministerio de Asuntos Económicos 經濟部統計處
-- Dirección General de Presupuesto, Contabilidad y Estadísticas del Yuan Ejecutivo 行政院主計總處
-- Trabajos académicos sobre "Historia Económica de Taiwán" 《台灣經濟史》相關學術著作
+- [Instituto de Historia Moderna, Academia Sinica](https://www.mh.sinica.edu.tw/)
+- [Departamento de Estadísticas, Ministerio de Asuntos Económicos](https://www.moea.gov.tw/Mns/dos/home/Home.aspx)
+- [Dirección General de Presupuesto, Contabilidad y Estadísticas, Yuan Ejecutivo](https://www.dgbas.gov.tw/)
+- Obras académicas relacionadas con la _Historia económica de Taiwán_
+
+[^1]: Administración de Zonas de Procesamiento para Exportación, «Historia de la fundación», https://www.epza.gov.tw/page.aspx?pageid=45da8e73a81d495d
+
+[^2]: Entrada «Ayuda estadounidense», Wikipedia, https://zh.wikipedia.org/zh-tw/美援
+
+[^3]: Wu Congmin, «De la regulación a la expansión de exportaciones», https://homepage.ntu.edu.tw/~ntut019/ltes/Taiwan-Growth-Ch.pdf
+
+[^4]: Base de datos estadística de la Dirección General de Presupuesto, Contabilidad y Estadísticas, Yuan Ejecutivo, https://www.dgbas.gov.tw/
+
+[^5]: Wu Congmin, «Estudio de la hiperinflación en Taiwán», http://homepage.ntu.edu.tw/~ntut019/ltes/Big-inflation.pdf

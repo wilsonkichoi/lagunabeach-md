@@ -1,139 +1,145 @@
 ---
 title: 'Chen Yu-hsun'
-description: 'Réalisateur de comédies taïwanaises, créateur de Tropical Fish, The Gourmet Chef et My Missing Valentine'
+description: 'Réalisateur taïwanais de comédies cinématographiques, créateur de Tropical Fish, Zone Pro Site et My Missing Valentine'
 date: 2026-03-19
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '電影與戲劇'
 tags:
   [
     'Chen Yu-hsun',
     'réalisateur',
-    'comédie',
+    'comédie cinématographique',
     'Tropical Fish',
-    'The Gourmet Chef',
+    'Zone Pro Site',
     'My Missing Valentine',
   ]
-subcategory: 'Cinéma et arts dramatiques'
-category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 10
+lastVerified: 2026-03-19
+lastHumanReview: true
 featured: false
 translatedFrom: 'People/陳玉勳.md'
-lastVerified: 2026-03-19
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:37de07b59dc6f1fd'
-sourceBodyHash: 'sha256:f33484f2f7bf8baf'
-translatedAt: '2026-04-14T19:19:36+08:00'
+sourceCommitSha: 'f712b7242'
+sourceContentHash: 'sha256:bc132f506d9946e5'
+sourceBodyHash: 'sha256:ae4d7d2f8418495d'
+translatedAt: '2026-05-22T05:08:47+08:00'
 ---
 
-# Chen Yu-hsun : le magicien bienveillant de la comédie taïwanaise
+# Chen Yu-hsun : le chaleureux magicien de la comédie cinématographique taïwanaise
 
-Chen Yu-hsun est l'un des réalisateurs de comédie les plus représentatifs de Taïwan, reconnu pour des œuvres comme _Tropical Fish_, _The Gourmet Chef_ et _My Missing Valentine_. Ses films combinent humour à la taïwanaise et chaleur humaine, explorant des thèmes profonds sur la vie à travers des situations absurdes. En 2021, _My Missing Valentine_ a remporté le Golden Horse du meilleur film narratif, confirmant le potentiel international de la comédie taïwanaise locale.
+De _Tropical Fish_ en 1995 à _My Missing Valentine_ en 2020, Chen Yu-hsun a construit, en cinq longs métrages, une grammaire créative propre à la comédie cinématographique locale taïwanaise. Ses films sont traversés par un humour taïwanais et une chaleur humaniste ; il excelle à aborder des questions existentielles profondes à travers des situations absurdes. Le prix du meilleur film de fiction obtenu par _My Missing Valentine_ à la 57e édition des Golden Horse Awards constitue la reconnaissance extérieure la plus forte de cette grammaire.
 
-## Un enfant de village militaire rêvant de cinéma
+## Le rêve de cinéma d’un adolescent de village militaire
 
-Né le 28 mai 1960 à Taipei, Chen Yu-hsun grandit dans un village militaire (juancun), où son père était soldat. La diversité culturelle et la convivialité propres à ces communautés ont nourri une matière première inépuisable pour ses créations futures.
+Chen Yu-hsun, né le 28 mai 1960, est originaire de Taipei. Son père était militaire et il a grandi dans l’environnement des _juancun_, les villages de dépendants militaires construits à Taïwan après 1949. Le contexte culturel où se côtoyaient des migrants venus de diverses provinces chinoises, ainsi qu’une forte densité de relations humaines, lui fournirent par la suite des matériaux concrets pour sa création.
 
-Dès le collège, il se passionne pour le cinéma et découvre les maîtres de la comédie hollywoodienne — Billy Wilder, Frank Capra. Il comprend que le septième art peut transmettre des émotions profondes par le rire, et en fait sa vocation.
+Il découvre le cinéma au collège et subit profondément l’influence de maîtres de la comédie hollywoodienne tels que Billy Wilder et Frank Capra. Il comprend que le cinéma peut transmettre des émotions profondes au sein du rire, et décide d’en faire son objectif de vie.
 
-En 1982, il obtient son diplôme en arts dramatiques et cinématographiques à l'Université Chinoise de la Culture. Pendant ses études, il réalise plusieurs courts métrages qui révèlent déjà son talent et son goût pour la comédie.
+Diplômé de l’Université nationale des arts de Taïwan, anciennement École nationale supérieure des arts[^1], il reçoit une formation cinématographique complète. Pendant ses années universitaires, il tourne plusieurs courts métrages, révélant son talent et sa passion pour le genre comique.
 
-## L'école de la publicité
+## La formation créative dans la publicité
 
-Après ses études, Chen Yu-hsun entre dans le secteur publicitaire, une expérience qui marquera durablement son approche cinématographique. Le rythme soutenu et les exigences créatives de la publicité lui apprennent à maîtriser le tempo et les effets visuels avec précision.
+Après ses études, Chen Yu-hsun entre dans le secteur de la publicité. Le rythme rapide et l’exigence créative de cette industrie entraînent concrètement sa capacité à maîtriser avec précision le tempo et les effets visuels, une compétence qui laissera une trace nette dans ses films ultérieurs.
 
-Il réalise de nombreuses publicités primées, apprenant à capter l'attention du spectateur en quelques secondes — une compétence précieuse pour le cinéma.
+Durant cette période, Chen Yu-hsun réalise d’innombrables publicités créatives et reçoit plusieurs prix publicitaires. Il apprend à capter l’attention du public dans le temps le plus bref possible, compétence extrêmement utile dans la création cinématographique.
 
-Au début des années 1990, le secteur publicitaire taïwanais est en plein essor. Chen Yu-hsun fait partie d'une génération de créatifs — comme Tsai Ming-liang et Yi Chih-yen — qui transitent de la publicité vers le cinéma, formant une nouvelle vague de réalisateurs taïwanais.
+Au début des années 1990, la publicité taïwanaise est en pleine expansion. Chen Yu-hsun, comme de nombreux créateurs de sa génération tels que Tsai Ming-liang et Yee Chih-yen, passe alors du monde publicitaire au cinéma, formant une nouvelle génération du cinéma taïwanais.
 
-## Ses débuts : _Tropical Fish_
+## Premier long métrage : _Tropical Fish_
 
-En 1995, Chen Yu-hsun signe son premier long métrage, _Tropical Fish_, une production à petit budget qui fait l'effet d'une révélation dans le cinéma taïwanais. Le film raconte, avec un humour burlesque, l'histoire d'un homme désenchanté qui se retrouve mêlé par hasard à une affaire d'enlèvement.
+En 1995, Chen Yu-hsun présente son premier long métrage, _Tropical Fish_. Cette production à petit budget crée un miracle dans l’histoire du cinéma taïwanais. Le film raconte, sur un mode absurde et humoristique, l’histoire d’un homme en échec qui se retrouve accidentellement mêlé à une affaire d’enlèvement.
 
-Le succès de _Tropical Fish_ tient à son style comique ancré dans la culture locale. Chen Yu-hsun exploite intelligemment les codes de la société taïwanaise pour créer un genre comique à part entière. Ses personnages, confrontés à des situations difficiles, gardent en toutes circonstances un optimisme irrésistible.
+Le succès de _Tropical Fish_ tient à son style d’humour taïwanais singulier. Chen Yu-hsun y emploie avec finesse des éléments culturels de la société taïwanaise pour créer un type de comédie doté de caractéristiques locales. Les personnages du film, bien qu’ils affrontent des situations difficiles, conservent toujours une attitude optimiste.
 
-Le film remporte le prix du meilleur scénario original aux 32e Golden Horse Awards et rencontre un succès public. _Tropical Fish_ démontre le potentiel commercial de la comédie taïwanaise et ouvre la voie à d'autres réalisateurs.
+Le film remporte le prix du meilleur scénario original à la 32e édition des Golden Horse Awards et connaît également un succès au box-office[^4]. _Tropical Fish_ démontre le potentiel commercial de la comédie cinématographique locale taïwanaise et ouvre une voie aux créateurs qui suivront.
 
-## L'exploration de la comédie romantique
+## L’exploration de la comédie romantique
 
-Après _Tropical Fish_, Chen Yu-hsun continue d'explorer différentes formes du genre comique. En 1997, _Love Go Go_ tente le registre de la comédie romantique ; malgré un box-office modeste, le film révèle sa capacité à saisir la psychologie féminine.
+Après _Tropical Fish_, Chen Yu-hsun poursuit son exploration de différents types de comédies. _Love Go Go_, en 1997, tente la forme de la comédie romantique. Malgré des résultats modestes au box-office, le film montre sa compréhension profonde des personnages féminins.
 
-En 2000, _Run Papa Run_ adopte une narration plus mûre pour interroger les affres amoureuses des citadins modernes. Chen Yu-hsun commence à intégrer davantage de réflexion sur l'existence dans ses comédies, signe d'une progression constante en tant que cinéaste.
+_The Cabbie_, en 2000, adopte une méthode narrative plus mûre pour explorer les dilemmes amoureux des citadins modernes. Chen Yu-hsun commence alors à intégrer davantage de réflexions sur la vie dans ses comédies, révélant les progrès de sa maîtrise de réalisateur.
 
-Ces œuvres, sans provoquer l'impact de _Tropical Fish_, lui permettent d'accumuler une expérience créative précieuse et d'approfondir sa compréhension de l'essence même de la comédie cinématographique.
+Même si les œuvres de cette période ne produisent pas l’effet retentissant de _Tropical Fish_, elles permettent à Chen Yu-hsun d’accumuler une expérience créative suffisante et d’approfondir sa compréhension de l’essence de la comédie cinématographique.
 
-## Le retour en force : _The Gourmet Chef_
+## Retour en grâce : _Zone Pro Site_
 
-Après plusieurs années de relatif silence, Chen Yu-hsun revient en 2013 avec _The Gourmet Chef_, confirmant avec éclat son talent. Le film prend pour cadre la culture des banquets traditionnels (辦桌, bànzhuō) à Tainan, et suit trois chefs en compétition pour le titre de « maître traiteur ».
+Après plusieurs années de retrait relatif, Chen Yu-hsun sort _Zone Pro Site_ en 2013 et prouve une nouvelle fois sa puissance créative. Le film prend pour toile de fond la culture du _bànzhuō_ de Tainan, ces banquets populaires en plein air ou sous chapiteau, et raconte la compétition de trois chefs pour obtenir le statut de « maître traiteur ».
 
-Le succès de _The Gourmet Chef_ repose sur l'exploration en profondeur de la culture populaire taïwanaise. Chen Yu-hsun rend hommage au savoir-faire des traiteurs de rue par le prisme de la comédie, permettant au jeune public de redécouvrir la valeur de ces arts traditionnels.
+Le succès de _Zone Pro Site_ tient à son exploration approfondie de la culture traditionnelle taïwanaise. Chen Yu-hsun présente l’essence de la culture du _bànzhuō_ sous la forme de la comédie, permettant aux jeunes spectateurs de découvrir la valeur des savoir-faire traditionnels.
 
-Avec un casting réunissant des stars comme Jacky Wu, Yo Yang ou Lin Ching-hsia, le film atteint un équilibre remarquable entre ambitions commerciales et artistiques. _The Gourmet Chef_ est à la fois un succès populaire et critique.
+Le film réunit une distribution de vedettes, dont Tony Yang et [Brigitte Lin](/fr/People/brigitte-lin-legendary-actress/), et trouve un bon équilibre entre dimension commerciale et valeur artistique. _Zone Pro Site_ ne réussit pas seulement au box-office : il reçoit aussi la reconnaissance de la critique.
 
 ## Réalisme magique : _My Missing Valentine_
 
-_My Missing Valentine_ (2020) est l'œuvre la plus ambitieuse de Chen Yu-hsun, mêlant comédie, romance et réalisme magique. Le film raconte la quête d'un homme qui, après un glissement temporel, part à la recherche de son grand amour.
+_My Missing Valentine_, sorti en 2020, est l’œuvre la plus ambitieuse de Chen Yu-hsun. Il y fusionne amour, comédie, réalisme magique et plusieurs autres éléments. Le film raconte une histoire fantastique dans laquelle le protagoniste cherche le véritable amour au milieu d’un dérèglement spatio-temporel.
 
-Sorti pendant la pandémie de COVID-19, le film résonne d'une façon particulière avec l'époque : son thème de désynchronisation entre les êtres prend une dimension existentielle inattendue. Chen Yu-hsun réussit à marier la science-fiction aux codes de la comédie taïwanaise pour créer une expérience de cinéma unique.
+Le film sort pendant la pandémie de COVID-19 ; son concept de temps désaccordé et d’entrecroisements temporels acquiert alors, à rebours des attentes, une signification particulière pour l’époque. Chen Yu-hsun combine habilement des éléments de science-fiction avec la comédie taïwanaise, créant une expérience de visionnage singulière.
 
-_My Missing Valentine_ remporte cinq récompenses aux 57e Golden Horse Awards, dont le prix du meilleur film narratif — le sommet de la carrière de Chen Yu-hsun. Cette œuvre confirme la capacité du cinéma taïwanais à s'imposer sur la scène internationale.
+_My Missing Valentine_ remporte cinq grands prix à la 57e édition des Golden Horse Awards, dont celui du meilleur film de fiction, ce qui constitue le sommet de la carrière de Chen Yu-hsun[^3]. Cette œuvre prouve la compétitivité du cinéma local taïwanais sur le marché international.
 
-## Construire un langage comique taïwanais
+## La construction de l’humour taïwanais
 
-La contribution majeure de Chen Yu-hsun est d'avoir forgé un langage cinématographique proprement taïwanais. Son humour n'est pas une simple accumulation de gags : il est irrigué d'une chaleur humaine et d'une identité culturelle profonde.
+La contribution la plus identifiable de Chen Yu-hsun est d’avoir construit un langage cinématographique de l’« humour taïwanais ». Dans ses comédies, la chaleur humaine constitue la matière même de l’œuvre ; la situation absurde n’en est que l’enveloppe, tandis qu’à l’intérieur se trouve une observation fine de la culture et de la société taïwanaises.
 
-Il sait débusquer l'absurde dans les situations les plus ordinaires et en tirer, par l'exagération, une lecture critique des phénomènes sociaux. Cette approche à la fois distrayante et subversive invite le spectateur à poser un regard neuf sur le réel.
+Il sait repérer dans la vie quotidienne des éléments d’absurde, puis présenter des phénomènes sociaux par le biais de l’exagération. Cette forme d’humour divertit le public tout en suscitant une réflexion sur le réel.
 
-Chen Yu-hsun accorde une attention toute particulière à la bonté fondamentale de ses personnages. Même les antagonistes de ses films recèlent une complexité humaine : il refuse systématiquement les archétypes monolithiques.
+La construction des personnages chez Chen Yu-hsun accorde une attention particulière à leur bonté fondamentale. Même les personnages antagonistes montrent une complexité humaine, évitant le traitement stéréotypé.
 
-## Un regard ancré dans la culture taïwanaise
+## L’attention portée à la culture taïwanaise
 
-Ses films témoignent d'un intérêt constant pour la préservation et la transmission de la culture locale. Des marginaux urbains de _Tropical Fish_ aux artisans du banquet de _The Gourmet Chef_, il documente la diversité de la société taïwanaise.
+Les films de Chen Yu-hsun restent constamment attentifs à la préservation et à la transmission de la culture locale taïwanaise. Des marginaux urbains de _Tropical Fish_ aux savoir-faire traditionnels de _Zone Pro Site_, il utilise le cinéma pour consigner les multiples visages de la société taïwanaise.
 
-Il accorde une place centrale aux dialectes, considérant la langue comme un vecteur essentiel de la culture. Dans ses films, le taïwanais (tâi-gí) ou le hakka trouvent naturellement leur place, sans condescendance ni exotisme.
+Il accorde une importance particulière à l’usage des langues régionales, estimant que la langue est un véhicule essentiel de la culture. Dans ses films, le taïwanais, le hakka et d’autres parlers reçoivent le respect et la visibilité qui leur reviennent.
 
-Chen Yu-hsun porte aussi une attention particulière aux figures de l'ombre — les petites gens —, leur prêtant une ténacité et une générosité qui constituent l'un des traits les plus touchants de son cinéma.
+Chen Yu-hsun prête également attention aux groupes socialement vulnérables. Ses films prennent souvent pour protagonistes de petites gens, dont ils montrent la ténacité et la bonté. Cette préoccupation humaniste est une caractéristique importante de son œuvre.
 
-## Le travail avec les acteurs
+## La collaboration avec les acteurs
 
-Chen Yu-hsun a le don de révéler ou de former des comédiens, y compris des non-professionnels, en leur soutenant que l'émotion authentique prime sur la technique virtuose.
+Chen Yu-hsun sait découvrir et former des acteurs ; sous sa direction, de nombreux non-professionnels livrent des performances remarquables. Il estime que l’émotion authentique compte davantage que la virtuosité technique.
 
-Il entretient des collaborations durables avec des comédiens comme Guo Zi-qian, Peng Qia-qia ou Feng Sheng-ze, construisant avec eux un registre de jeu reconnaissable. Ces acteurs livrent dans ses films certaines de leurs meilleures performances.
+Il a établi des collaborations de long terme avec des comédiens tels que Kuo Tzu-chien et Peng Chia-chia, formant un style de jeu singulier. Ces acteurs offrent tous de belles performances dans ses films.
 
-Chen Yu-hsun donne également sa chance aux jeunes talents, faisant de ses films un tremplin pour de nombreuses carrières.
+Chen Yu-hsun attache aussi de l’importance à la formation des nouveaux venus et donne à de jeunes acteurs des occasions de se montrer. Nombre d’entre eux ont précisément fait leurs premiers pas remarqués dans ses œuvres avant d’obtenir des possibilités de développement ultérieures.
 
-## Vision de la production et réflexion industrielle
+## Philosophie de production et réflexion industrielle
 
-En tant que réalisateur, Chen Yu-hsun s'intéresse aussi à l'essor de l'industrie cinématographique taïwanaise. Il défend une ligne résolument locale, convaincu que le cinéma taïwanais doit capitaliser sur ses atouts culturels propres.
+En tant que réalisateur, Chen Yu-hsun se préoccupe aussi du développement de l’industrie cinématographique taïwanaise. Il insiste sur une voie localisée, estimant que le cinéma taïwanais doit faire valoir ses propres avantages culturels.
 
-Il prône la production à petit budget maîtrisée, prouvant qu'une idée forte et une exécution rigoureuse valent mieux que des investissements colossaux. Cette philosophie offre une piste de développement viable au cinéma indépendant taïwanais.
+Il défend un raffinement des productions à petit budget, prouvant que les bonnes idées et la qualité d’exécution sont plus importantes que les investissements massifs. Cette philosophie offre au cinéma indépendant taïwanais une direction de développement praticable.
 
-Chen Yu-hsun participe activement aux débats sur l'industrie et contribue à façonner les politiques du cinéma à Taïwan, souhaitant créer un environnement plus propice à l'expression des jeunes créateurs.
+Chen Yu-hsun participe aussi activement aux discussions sur l’industrie du cinéma et fournit des avis professionnels pour l’élaboration des politiques cinématographiques taïwanaises. Il souhaite créer un meilleur environnement où les jeunes créateurs puissent déployer leur talent.
 
-## Ancrage local, ambition internationale
+## Vision internationale et enracinement local
 
-Bien qu'il soit profondément attaché aux sujets locaux, Chen Yu-hsun a toujours gardé une vision internationale. Ses œuvres sont reconnues dans des festivals à l'étranger, témoignant du rayonnement de la culture taïwanaise.
+Bien qu’il cultive en profondeur des sujets locaux, Chen Yu-hsun conserve toujours une vision internationale. Ses œuvres retiennent l’attention dans les festivals étrangers, démontrant l’attrait international de la culture taïwanaise.
 
-Pour lui, plus un film est local, plus il est universel. Le cinéma taïwanais n'a pas à se plier aux attentes des marchés étrangers : c'est précisément sa singularité culturelle qui fait sa force.
+Il estime que ce qui est le plus local est aussi ce qui peut devenir le plus international : le cinéma taïwanais n’a pas besoin de chercher délibérément à plaire au marché mondial, mais doit plutôt manifester ses caractéristiques culturelles propres.
 
-Le succès de _My Missing Valentine_ à l'international confirme cette conviction. Un film ancré dans ses racines taïwanaises peut tout à fait obtenir une reconnaissance mondiale.
+Le succès de _My Missing Valentine_ sur le marché international valide sa philosophie créative. Le cinéma taïwanais peut obtenir une reconnaissance internationale tout en conservant ses spécificités locales.
 
-## Une influence sur la nouvelle génération
+## Influence sur les jeunes réalisateurs
 
-Le parcours de Chen Yu-hsun a encouragé de nombreux jeunes réalisateurs à s'engager dans la comédie cinématographique. Il a prouvé que le public taïwanais est prêt à soutenir une comédie locale de qualité.
+Le succès de Chen Yu-hsun a encouragé de nombreux jeunes réalisateurs à se lancer dans la comédie cinématographique. Il a prouvé l’existence d’une demande et d’un soutien du public taïwanais pour des comédies locales de qualité.
 
-Il partage volontiers son expérience créative et intervient régulièrement dans des cadres de formation cinématographique. Beaucoup de jeunes réalisateurs s'inspirent de ses œuvres et de sa démarche.
+Il partage aussi volontiers son expérience créative et participe souvent à des activités d’éducation cinématographique. De nombreux jeunes réalisateurs ont puisé de l’inspiration dans ses œuvres et ses idées.
 
-La tradition de comédie taïwanaise qu'il a contribué à bâtir offre une voie durable pour le développement du cinéma local. Son influence continuera d'inspirer la prochaine génération de créateurs.
+La tradition de la comédie cinématographique taïwanaise établie par Chen Yu-hsun a fourni au cinéma taïwanais une voie de développement vérifiable : l’emporter non pas grâce à de gros budgets, mais par l’enracinement culturel et la vérité émotionnelle.
 
-## Ce que l'on attend de lui
+## Situation créative actuelle
 
-Chen Yu-hsun annonce vouloir continuer à créer des comédies ancrées dans la réalité sociale taïwanaise. Son ambition : divertir tout en favorisant la compréhension et l'harmonie au sein de la société.
+Ces dernières années, Chen Yu-hsun continue de privilégier la voie de la comédie et de s’en tenir à des sujets localisés. Il estime que plus les détails taïwanais sont concrets, plus ils ont de chances de résonner auprès du public international. Cette proposition a déjà été vérifiée par les réactions suscitées par la sortie de _My Missing Valentine_ à l’étranger.
 
-Il envisage également d'explorer d'autres genres cinématographiques, tout en conservant son humanisme et son attachement à l'identité taïwanaise. Son public attend avec impatience ses prochaines œuvres.
+Il prête en même temps attention à la formation des talents dans l’industrie cinématographique taïwanaise, considérant qu’offrir aux jeunes réalisateurs des occasions de pratiquer est plus direct que n’importe quelle subvention publique. Son langage cinématographique se distingue par sa concrétude : il laisse le public ressentir Taïwan par lui-même, dans un plat de banquet _bànzhuō_ ou une ruelle arrière, plutôt que de transmettre cette expérience par des slogans.
 
-Figure centrale de la comédie taïwanaise, Chen Yu-hsun a inscrit ses films dans le patrimoine culturel de Taïwan. Il a démontré la puissance de l'humour et offert à la société taïwanaise une source intarissable de joie et de réflexion.
+Après trente ans de création, les films de Chen Yu-hsun conservent une forte identité, parce qu’il a toujours placé la vie concrète de Taïwan au cœur de ses récits.
 
 ## Références
 
-- [Chen Yu-hsun — Taiwan Cinema](https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12518) — Filmographie du réalisateur
-- [57e Golden Horse Awards — Taipei Golden Horse Film Festival](https://www.goldenhorse.org.tw/) — Palmarès de _My Missing Valentine_
-- [Histoire du cinéma taïwanais — Taiwan Film and Audiovisual Institute](https://www.tfai.org.tw/) — Développement de la comédie cinématographique
+[^1]: Entrée Wikipédia « Chen Yu-hsun », établissement de diplôme : Université nationale des arts de Taïwan, anciennement École nationale supérieure des arts, https://zh.wikipedia.org/zh-tw/%E9%99%B3%E7%8E%89%E5%8B%B3
+
+[^2]: Taiwan Cinema, liste des œuvres réalisées par Chen Yu-hsun, https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12518
+
+[^3]: Taipei Golden Horse Film Festival, palmarès de _My Missing Valentine_ à la 57e édition des Golden Horse Awards, https://www.goldenhorse.org.tw/
+
+[^4]: Taipei Golden Horse Film Festival, meilleur scénario original pour _Tropical Fish_ à la 32e édition des Golden Horse Awards, https://www.goldenhorse.org.tw/
+
+[^5]: Taiwan Film and Audiovisual Institute, évolution du cinéma comique taïwanais, https://www.tfai.org.tw/

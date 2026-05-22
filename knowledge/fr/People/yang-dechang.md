@@ -1,98 +1,103 @@
 ---
-title: "Edward Yang : poète cinématographique de l'aliénation urbaine"
-description: 'Figure centrale du Nouveau Cinéma taïwanais, Palme de la mise en scène à Cannes, poète de la désaffection métropolitaine'
+title: 'Yang Dechang'
+description: "Figure centrale du Nouveau Cinéma taïwanais, meilleur réalisateur à Cannes, poète de l'urbanité et de la solitude"
 date: 2026-03-19
+author: 'Taiwan.md Contributors'
+category: 'People'
+subcategory: '電影與戲劇'
 tags:
   [
     'réalisateur',
     'Nouveau Cinéma taïwanais',
-    'Edward Yang',
+    'Yang Dechang',
     'Festival de Cannes',
     'cinéma urbain',
   ]
-subcategory: 'Cinéma et arts de la scène'
-category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 8
-featured: true
 lastVerified: 2026-03-19
-translatedFrom: 'People/楊德昌.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:7eb377093645b409'
-sourceBodyHash: 'sha256:17251b5f245f8706'
-translatedAt: '2026-04-14T19:16:13+08:00'
+lastHumanReview: false
+featured: true
+translatedFrom: People/楊德昌.md
+sourceCommitSha: 18157ab5d
+sourceContentHash: sha256:e463e40762fea107
+sourceBodyHash: sha256:3f3a71807f18f434
+translatedAt: 2026-05-22T05:08:47+08:00
 ---
 
-# Edward Yang : poète cinématographique de l'aliénation urbaine
+# Yang Dechang : poète du cinéma de la solitude urbaine
 
-Edward Yang est l'une des figures tutélaires du Nouveau Cinéma taïwanais. Son regard urbain singulier et son acuité sociale hors du commun lui ont permis de signer des œuvres qui ont marqué l'histoire du cinéma mondial : _A Brighter Summer Day_ et _Yi Yi_. Sa caméra, froide et précise comme un scalpel, dissèque la psychologie des citadins contemporains et les structures de la société moderne. On l'a surnommé « l'Antonioni de l'Orient ». En 2000, _Yi Yi_ lui vaut le Prix de la mise en scène au Festival de Cannes — une étape décisive dans la reconnaissance internationale du cinéma de Taïwan.
+> **En bref (30 secondes) :** Yang Dechang est l'âme du Nouveau Cinéma taïwanais. À travers des œuvres comme _Un meurtre dans la rue Guling_ et _Yi Yi_, il dissèque la psychologie des habitants des métropoles modernes, ce qui lui a valu le surnom d'« Antonioni de l'Orient ». En 2000, il remporte le prix de la mise en scène au Festival de Cannes pour _Yi Yi_, devenant le premier réalisateur taïwanais à être primé dans l'une des trois grandes catégories cannoises.
 
 ## Jeunesse et formation
 
-Edward Yang naît le 14 novembre 1947 à Shanghai. Sa famille s'installe à Taïwan l'année suivante. Son père, Yang Shenghua, est fonctionnaire ; sa mère, Jin Yaxin, issue d'une grande famille shanghaïenne déchue, suit son mari dans l'exil. Yang grandit à Taipei et est témoin direct du développement urbain de la capitale dans l'atmosphère pesante de la Terreur Blanche des années 1950.
+Né le 6 novembre 1947 à Shanghai, Yang Dechang arrive à Taïwan avec sa famille l'année suivante. Son père, Yang Shenhua, est fonctionnaire ; sa mère, Jin Yaxin, issue d'une famille prestigieuse de Shanghai, suit son mari après le déclin de leur fortune. Yang grandit à Taipei et vit de près l'expansion urbaine de la ville dans le climat de Terreur blanche des années 1950.
 
-Au lycée — le prestigieux Jianguo High School —, il se passionne pour la littérature et le cinéma, fréquentant assidûment les films étrangers. Le néoréalisme italien et la Nouvelle Vague française exercent sur lui une influence durable. En 1969, il obtient son diplôme en ingénierie des systèmes à l'Université nationale Chiao Tung, puis part aux États-Unis poursuivre un master en génie électrique à l'Université de Floride.
+Au lycée Jianguo, il développe une passion pour la littérature et le cinéma, profondément marqué par le néoréalisme italien et la Nouvelle Vague française. Diplômé en 1970 du département de génie de la contrôle de l'Université Jiao Tong, il part aux États-Unis pour un master en génie électrique à l'Université de Floride.[^1]
 
-Installé à Seattle, il travaille comme ingénieur à l'Université de Washington tout en se formant en autodidacte à la théorie du cinéma et en participant à des ciné-clubs locaux. Bergman, Antonioni, Godard — les grands maîtres du cinéma d'auteur européen façonnent l'esthétique qui sera la sienne.
+Durant son séjour américain, Yang suit brièvement les cours de l'USC School of Cinematic Arts, mais quitte l'établissement, insatisfait de la pédagogie. Il s'installe ensuite à Seattle comme ingénieur en micro-informatique à l'Université de Washington, tout en approfondissant sa connaissance de la théorie du cinéma et du cinéma d'art européen. Bergman, Antonioni et Godard exercent sur lui une influence déterminante et façonnent progressivement sa propre esthétique cinématographique. Ces près de sept années d'ingénierie lui confèrent le recul d'un observateur extérieur face au développement urbain de Taïwan.
 
-## Retour à Taïwan et le Nouveau Cinéma
+## Retour à Taïwan et Nouveau Cinéma
 
-En 1981, Edward Yang rentre à Taïwan à un moment où l'industrie cinématographique locale traverse une crise profonde. Avec Hou Hsiao-hsien, Wu Nien-jen, Wan Jen et d'autres, il lance le mouvement du Nouveau Cinéma taïwanais, déterminé à représenter la réalité sociale de l'île avec une honnêteté nouvelle.
+Yang Dechang rentre à Taïwan en 1981, alors que l'industrie cinématographique locale traverse une crise. Aux côtés de [Hou Hsiao-hsien](/fr/People/hou-hsiao-hsien/), Wu Nianzhen et Wan Ren, il impulse le « Nouveau Cinéma taïwanais », un mouvement qui vise à refléter la réalité sociale de Taïwan avec plus d'authenticité.
 
-En 1982, il réalise le segment _Expectation_ du film à sketches _In Our Time_ — ses premiers pas derrière la caméra. Avec ses longs plans fixes et sa narration retenue, il y dépeint la psychologie adolescente et pose les jalons de son style inimitable.
+En 1982, il réalise le segment « Expectation » dans _In Our Time_, son premier film. Par des plans-séquences statiques et une narration contenue, il dépeint la psychologie adolescente, esquissant déjà son style singulier. En 1983, _That Day, on the Beach_ explore, à travers une structure spatio-temporelle complexe, les tourments émotionnels d'une femme dans la métropole moderne, consolidant sa place au sein du mouvement.[^2]
 
-En 1983, _That Day, on the Beach_ consacre sa place au sein du Nouveau Cinéma. À travers une architecture temporelle complexe, le film explore les impasses affectives de femmes citadines modernes et révèle d'emblée sa sensibilité aiguë à la solitude urbaine.
-
-## La trilogie de la maturité urbaine
+## La trilogie urbaine : la maturité
 
 ### _Taipei Story_ (1985)
 
-Premier long métrage entièrement dirigé par Yang, _Taipei Story_ raconte l'histoire d'amour d'un couple d'amis d'enfance dans la Taipei contemporaine. En prenant la métropole comme toile de fond, le film interroge l'érosion des sentiments traditionnels sous la pression de la modernité. Yang y déploie une composition visuelle millimétrée et une photographie délibérément distante pour mettre en scène les barrières psychologiques entre les êtres.
+_Taipei Story_ est le premier long métrage entièrement réalisé par Yang Dechang. Il raconte l'histoire d'amour d'un couple d'amis d'enfance dans le Taipei contemporain. Le film utilise le paysage urbain comme toile de fond pour explorer la dégradation des liens traditionnels dans la société moderne, avec une composition rigoureuse et une photographie dépouillée qui traduisent la distance psychologique entre les personnages.
 
-### _The Terrorizer_ (1986)
+### _The Terrorizers_ (1986)
 
-Considéré comme l'un de ses chefs-d'œuvre, _The Terrorizer_ entrelace plusieurs récits pour brosser le portrait de Taipei à travers des fragments de vie de personnages issus de milieux différents. Un faux numéro de téléphone suffit à précipiter plusieurs familles dans la crise, révélant l'isolement et les malentendus qui structurent la vie sociale contemporaine.
+_The Terrorizers_ déploie une narration entrelacée pour brosser les tranches de vie de personnages issus de différentes couches sociales de Taipei. Un simple appel téléphonique mal dirigé enchaîne une série de crises familiales, révélant l'incompréhension et la solitude qui règnent entre les individus dans la société moderne.
 
-Le film remporte le Prix du meilleur scénario original aux 23e Golden Horse Awards et rencontre un accueil international chaleureux, assurant à Yang une reconnaissance dans les cercles du cinéma d'auteur mondial.
+Le film remporte le Grand Prix et le Meilleur scénario original lors de la 23ᵉ cérémonie des Golden Horse Awards, et est largement salué dans les festivals internationaux, confirmant la stature de Yang Dechang sur la scène du cinéma d'art mondial.[^3]
 
 ### _A Confucian Confusion_ (1994)
 
-_A Confucian Confusion_ dresse le portrait des intellectuels taipéiotes dans les années 1990, au lendemain de la levée de la loi martiale, dans une société déboussolée par ses propres mutations. En adoptant une structure chorale, Yang scrute la crise morale et spirituelle de la classe moyenne.
+_A Confucian Confusion_ dépeint la vie des intellectuels taïwanais dans les années 1990, reflétant le chaos des valeurs qui suit la levée de la loi martiale. Par une narration chorale, Yang broie le portrait des dilemmes spirituels et des crises morales de la classe moyenne.
 
-## L'œuvre-mémoire : _A Brighter Summer Day_
+## Réflexion historique : _Un meurtre dans la rue Gling_
 
-Sorti en 1991, _A Brighter Summer Day_ est l'une de ses réalisations les plus importantes. Inspiré d'un fait divers réel de 1961, ce film de près de quatre heures reconstitue avec une minutie extraordinaire l'atmosphère sociale de Taipei au début des années 1960 et les tourments de la jeunesse.
+Sorti en 1991, _Un meurtre dans la rue Guling_ est l'une des œuvres les plus marquantes de Yang Dechang. Adapté d'un fait divers survenu en 1961, le film déploie près de quatre heures pour restituer avec une finesse remarquable l'atmosphère sociale du Taipei du début des années 1960 et les tourments de l'adolescence.
 
-L'histoire se déroule sous la Terreur Blanche : à travers un meurtre commis par un lycéen, le film expose l'oppression sociale et les distorsions humaines engendrées par le régime autoritaire. Avec une ambition épique, Yang reconstruit la mémoire collective d'une époque et signe l'une des œuvres les plus célébrées de l'histoire du cinéma taïwanais.
+Situé dans le contexte de la Terreur blanche, le film utilise un meurtre commis dans un lycée pour révéler l'oppression sociale et la distorsion de l'humanité sous un régime autoritaire. Yang reconstruit la mémoire collective de cette époque avec une ampleur épique. L'œuvre est considérée comme un chef-d'œuvre de l'histoire du cinéma taïwanais et a été désignée par _Cahiers du Cinéma_ comme l'un des meilleurs films des années 1990.[^4]
 
-Le film remporte plusieurs récompenses aux 28e Golden Horse Awards, dont le Prix du meilleur scénario original et celui du meilleur second rôle masculin. Les _Cahiers du cinéma_ le classent parmi les meilleurs films des années 1990.
+## Le sacre cannois : la consécration internationale de _Yi Yi_
 
-## La consécration à Cannes : _Yi Yi_
+_Yi Yi_ (2000) est le dernier long métrage de fiction de Yang Dechang. Le film prend pour noyau une famille de la classe moyenne de Taipei, tissant les récits de trois générations pour explorer la question de l'identité face au conflit entre culture traditionnelle et modernité.
 
-_Yi Yi_ (2000) est le dernier long métrage d'Edward Yang et, à bien des égards, son œuvre aboutie. Le film suit une famille de la classe moyenne taipéiote sur trois générations, interrogeant la quête d'identité des individus pris entre tradition et modernité, entre culture orientale et occidentale.
+_Yi Yi_ remporte le prix de la mise en scène lors de la 53ᵉ édition du Festival de Cannes, une première pour un réalisateur taïwanais dans l'une des trois grandes catégories cannoises, un événement d'une portée considérable. Mécontent de la critique cinématographique taïwanaise, Yang avait refusé de distribuer le film à Taïwan de son vivant. Ce n'est que dix ans après sa mort, le 28 juillet 2017, que _Yi Yi_ connaît sa première sortie en salles à Taïwan.[^5]
 
-La structure du récit est d'une précision horlogère : chaque personnage dispose de son propre arc narratif, et c'est à travers les détails du quotidien que se dessine le paysage culturel de Taïwan en cette période de transition. Yang pose sur ses personnages un regard à la fois tendre et lucide, attentif aux interrogations existentielles de chaque tranche d'âge.
+## Postérité : la rétrospective de 2023
 
-_Yi Yi_ obtient le Prix de la mise en scène au 53e Festival de Cannes — une première pour un réalisateur taïwanais dans les trois grands prix du festival. Le film reçoit également le Prix du meilleur film en langue étrangère décerné par la New York Film Critics Circle, parmi de nombreuses autres distinctions internationales.
+En 2023, le Musée des Beaux-Arts de Taipei et le Centre national du film et de l'audiovisuel organisent conjointement « Yi Yi Reimagined: The Cinema of Edward Yang », la première rétrospective complète de l'œuvre de Yang Dechang à l'échelle mondiale, et la reconnaissance institutionnelle la plus aboutie de son héritage créatif. À sa mort, Yang laisse inachevé un projet d'animation, _Chasing the Wind_, réalisé en collaboration avec Jackie Chan, doté d'un budget de 25 millions de dollars américains. Seules neuf minutes de séquence pilote avaient été achevées de son vivant, constituant l'une des énigmes irrésolues de l'histoire du cinéma taïwanais.[^6]
 
-## Esthétique et conception du cinéma
+## Esthétique cinématographique et philosophie de création
 
-L'esthétique d'Edward Yang est profondément ancrée dans le cinéma d'auteur européen, tout en portant l'empreinte inimitable de Taïwan. Il affectionne les longs plans et la caméra fixe, composant ses cadres avec la rigueur d'un architecte pour déployer la complexité de l'espace urbain.
-
-Sur le plan narratif, il privilégie les récits multi-fils et les fins ouvertes, refusant tout jugement moral simplifié et invitant le spectateur à forger lui-même sa réflexion. Ses films n'ont souvent pas de protagoniste au sens traditionnel du terme : c'est la société elle-même, dans toute sa complexité, qui est le véritable sujet.
-
-Sa préoccupation centrale reste l'état psychique de l'homme urbain contemporain. Sa caméra observe avec calme et objectivité, sans affect ni dramatisation, le sentiment d'aliénation qui imprègne la vie métropolitaine. Cette « observation froide » confère à son œuvre une dimension sociologique puissante.
+L'esthétique de Yang Dechang est profondément nourrie par le cinéma d'art européen, tout en portant une empreinte taïwanaise distincte. Il privilégie les plans-séquences et les cadrages fixes, composant l'espace urbain avec la précision d'un architecte pour en révéler les strates complexes. Sur le plan narratif, il favorise la narration multilinaire et les fins ouvertes, refusant tout jugement moral simpliste et laissant le spectateur construire sa propre réflexion. Ses films dépeignent souvent la complexité sociale par des chœurs de personnages plutôt que par le destin d'un seul protagoniste.
 
 ## Héritage et influence
 
-L'œuvre d'Edward Yang est peu abondante, mais chacun de ses films est un objet d'une densité rare. Son exigence créative et son esthétique singulière ont exercé une influence profonde sur les jeunes cinéastes taïwanais et asiatiques.
+Bien que son œuvre soit quantitativement restreinte, chaque film est une pièce maîtresse. Le 29 juin 2007, Yang Dechang décède d'un cancer du côlon à Beverly Hills, en Californie, à l'âge de 59 ans. Sa disparition constitue une perte immense pour le cinéma taïwanais, mais ses œuvres et sa vision continuent d'inspirer les créateurs qui lui succèdent.
 
-Le 29 juin 2007, Edward Yang s'éteint à Beverly Hills des suites d'un cancer du côlon, à l'âge de 59 ans. Sa disparition est une perte immense pour le cinéma taïwanais, mais ses films et sa vision artistique continuent d'inspirer les créateurs qui lui ont succédé.
-
-Aux côtés de Hou Hsiao-hsien et Ang Lee, Edward Yang est considéré comme l'un des architectes de l'âge d'or du cinéma taïwanais. Son œuvre ne se contente pas de documenter les transformations de la société taïwanaise : par la profondeur de son humanisme et la maîtrise de son art, elle occupe une place de premier plan dans l'histoire mondiale du cinéma.
+Aux côtés de [Hou Hsiao-hsien](/fr/People/hou-hsiao-hsien/) et d'[Ang Lee](/fr/People/ang-lee/), Yang Dechang a ouvert la voie à la visibilité internationale du cinéma taïwanais. Son œuvre ne se contente pas de documenter les mutations de la société taïwanaise : par son observation précise de la vie urbaine, elle occupe une place irremplaçable dans l'histoire du cinéma mondial.
 
 ## Références
 
-- [Edward Yang — Taiwan Cinema Database](https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12441) — Base de données officielle du cinéma taïwanais
-- [53e Festival de Cannes — Festival de Cannes](https://www.festival-cannes.com/en/editions/2000) — Palmarès de _Yi Yi_
-- [Archives du Nouveau Cinéma taïwanais — Taiwan Film and Audiovisual Institute](https://www.tfai.org.tw/) — Contexte historique du mouvement
+[^1]: [Alumni distingués de l'Université Yang Ming Chiao Tung — Yang Dechang](https://www.nctu.edu.tw/outstanding/%E6%A5%8A%E5%BE%B7%E6%98%8C) — Confirme l'année de diplôme (1970) et la formation en génie de la contrôle.
+
+[^2]: [Centre national du film et de l'audiovisuel (TFAI) — Filmographie de Yang Dechang](https://www.tfai.org.tw/) — Registre officiel des œuvres, incluant le segment « Expectation » d'_In Our Time_ et les données sur _That Day, on the Beach_.
+
+[^3]: [Palmarès de la 23ᵉ cérémonie des Golden Horse Awards](https://www.goldenhorse.org.tw/) — Confirme que _The Terrorizers_ a remporté le Grand Prix et le Meilleur scénario original.
+
+[^4]: [_Un meurtre dans la rue Guling_ — Centre national du film et de l'audiovisuel](https://www.tfai.org.tw/) — Confirme l'adaptation du fait divers de 1961 ; sélection par _Cahiers du Cinéma_ parmi les meilleurs films des années 1990.
+
+[^5]: [53ᵉ Festival de Cannes — Festival de Cannes](https://www.festival-cannes.com/en/editions/2000) — Prix de la mise en scène pour _Yi Yi_ ; la première taïwanaise de _Yi Yi_ en 2017 est documentée par une annonce du TFAI.
+
+[^6]: [Site officiel de la rétrospective « Yi Yi Reimagined: The Cinema of Edward Yang » au Musée des Beaux-Arts de Taipei](https://www.tfam.museum/yiyiey) — Première rétrospective mondiale complète en 2023 ; les informations sur le projet d'animation inachevé _Chasing the Wind_ figurent sur Wikipédia.
+
+## Pour aller plus loin
+
+- [Taiwan Cinema — Yang Dechang](https://taiwancinema.bamid.gov.tw/Staff/StaffContent/?ContentUrl=12441) — Données cinématographiques officielles
+- [_Un meurtre dans la rue Guling_](/film/牯嶺街少年殺人事件) — Épopée du cinéma taïwanais (1991)

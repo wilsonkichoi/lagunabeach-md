@@ -1,94 +1,105 @@
 ---
-title: 'Lu Guan-Wei'
-description: 'Diplômé en médecine de l'Université nationale de Taïwan, Lu Guan-Wei a renoncé à la blouse blanche pour révolutionner l'éducation. Président-directeur général de la Junyi Academy, il utilise l'IA et l'apprentissage adaptatif pour permettre à 5,28 millions d'élèves taïwanais d'avancer à leur propre rythme, faisant de l'équité éducative une réalité quotidienne.'
+title: 'Lu Guanwei'
+description: "Diplômé de la faculté de médecine de l'Université nationale de Taiwan (NTU), il a renoncé à la médecine pour se consacrer à l'éducation en tant que président et directeur général de la plateforme éducative Junyi Academy. Grâce à l'apprentissage adaptatif par IA, il permet à 5,28 millions d'enfants à Taïwan d'avancer à leur propre rythme, transformant véritablement l'« équité éducative » d'un slogan en réalité quotidienne."
 date: 2026-04-05
-tags: ['éducation', 'Junyi Academy', 'apprentissage en ligne', 'edtech', 'entreprise sociale', 'éducation rurale', 'IA éducative', 'apprentissage adaptatif']
-subcategory: 'Éducation et société'
+author: 'Taiwan.md'
 category: 'People'
-author: 'Taiwan.md Translation Team'
+subcategory: '教育與社會'
+tags:
+  [
+    'éducation',
+    'Junyi Academy',
+    'apprentissage en ligne',
+    'technologie éducative',
+    'entreprise sociale',
+    'éducation en milieu rural',
+    'éducation par IA',
+    'apprentissage adaptatif',
+  ]
 readingTime: 7
-featured: false
 lastVerified: 2026-04-05
-translatedFrom: "People/呂冠緯.md"
-sourceCommitSha: "84ed9453"
-sourceContentHash: "sha256:743ecf11453dec54"
-sourceBodyHash: 'sha256:e745c8c9be8a26cb'
-translatedAt: "2026-04-14T19:14:43+08:00"
+lastHumanReview: false
+featured: false
+translatedFrom: 'People/呂冠緯.md'
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:28ed6db1c088c105'
+sourceBodyHash: 'sha256:fc65e6f7ec999bbf'
+translatedAt: '2026-05-22T05:08:47+08:00'
 ---
 
-# Lu Guan-Wei : permettre à chaque enfant de Taïwan d'apprendre à son propre rythme
+# Lu Guanwei : permettre à chaque enfant de Taïwan d'apprendre à son propre rythme
 
-**En trente secondes**
-Saviez-vous qu'en 2013, Lu Guan-Wei — brillant étudiant en médecine de l'Université nationale de Taïwan, déjà titulaire de son diplôme de médecin — a choisi de ne jamais enfiler la blouse blanche ? Il a préféré filmer des tutoriels mathématiques gratuits. Douze ans plus tard, il a transformé la Junyi Academy en la plus grande plateforme d'apprentissage en ligne à but non lucratif de Taïwan : 5,28 millions d'utilisateurs inscrits, 270 000 apprenants actifs chaque mois, et l'IA au service des enfants des régions rurales pour qu'ils se retrouvent sur la même ligne de départ que ceux des grandes villes.[^1]
-Ce n'est pas de la philanthropie. C'est sa conviction que l'éducation est l'infrastructure numérique dont Taïwan a le plus besoin.
+**En trente secondes**  
+Vous saviez ? Lu Guanwei, diplômé d'élite de la faculté de médecine de l'Université nationale de Taiwan (NTU) et titulaire de son diplôme de médecin, a décidé en 2013 de ne pas enfiler la blouse blanche et d'enregistrer plutôt des vidéos de mathématiques gratuites. Douze ans plus tard, il a fait de la « plateforme éducative Junyi Academy » le plus grand système d'apprentissage en ligne à but non lucratif de Taïwan, cumulant 5,28 millions d'utilisateurs et 270 000 apprenants actifs par mois, utilisant l'IA pour placer les enfants des zones rurales sur la même ligne de départ que ceux des villes.[^1]  
+Ce n'est pas de la charité : il considère l'« éducation » comme l'infrastructure numérique dont Taïwan a le plus besoin.
 
-## Du cabinet médical à la salle de classe
+## De médecin à éducateur
 
-Au début de l'année 2013, Lu Guan-Wei venait de décrocher son diplôme de la faculté de médecine de l'Université nationale de Taïwan, licence en poche.
-Aux yeux du monde, il avait déjà tout réussi.
-Pourtant, il a choisi une autre voie : rejoindre la Fondation éducative Cheng Zhi et enregistrer la toute première vidéo de mathématiques de la Junyi Academy.
+Début 2013, Lu Guanwei venait d'obtenir son diplôme de la faculté de médecine de NTU, ainsi que sa licence de médecin.  
+Aux yeux de la plupart des gens, ce parcours faisait déjà de lui un gagnant dans la vie.  
+Mais il a choisi une autre voie — rejoindre la fondation éducative Cheng Zhi et commencer à enregistrer la première vidéo de mathématiques pour la « plateforme éducative Junyi Academy ».
 
-Sa conviction ? Un médecin soigne un patient à la fois. L'éducation, elle, peut transformer l'avenir de millions de familles.[^2]
-Cette décision a souvent été qualifiée, dans les cercles éducatifs taïwanais, d'« acte d'entropie inversée ».
+Il disait qu'un médecin ne peut sauver qu'un patient à la fois, alors que l'éducation peut changer l'avenir de millions de familles.[^2]  
+Cette décision a été qualifiée par beaucoup d'« action anti-entropique dans le monde éducatif taïwanais ».
 
-> 📝 **Note du curateur** : En apportant une approche fondée sur les preuves — celle du médecin — directement dans la salle de classe, Lu Guan-Wei ne change pas simplement de carrière. Il répond de la manière la plus concrète qui soit aux inégalités éducatives entre villes et campagnes à Taïwan.
+📝 **Note du conservateur** : Un étudiant en médecine qui transpose la « démarche fondée sur les preuves » du cabinet de consultation en salle de classe — ce n'est pas simplement un changement de carrière, c'est la réponse la plus directe aux disparités éducatives entre zones urbaines et rurales à Taïwan.
 
-## La Junyi Academy
+## La plateforme éducative Junyi Academy
 
-« Junyi » (均一) signifie « égalité et excellence ».
-La plateforme couvre l'ensemble du cursus scolaire, du primaire au lycée, avec des cours complets en mathématiques, sciences naturelles et langues — entièrement gratuits, pour toujours.
-Selon les données officielles publiées fin 2025 :[^3]
+Le nom « 均一 » (Junyi) signifie « égalité et excellence ».  
+La plateforme couvre du primaire au lycée, offrant des cours complets en mathématiques, sciences, langues et bien d'autres matières, entièrement gratuits à vie.  
+Fin 2025, les données officielles indiquaient :[^3]
 
-| Indicateur                               | Chiffre               |
-| ---------------------------------------- | --------------------- |
-| Utilisateurs inscrits                    | Plus de 5,28 millions |
-| Apprenants actifs par mois               | Plus de 270 000       |
-| Vidéos disponibles                       | Plus de 41 000        |
-| Exercices disponibles                    | Plus de 108 000       |
-| Part d'écoles rurales desservies         | Près de 25 %          |
-| Élèves bénéficiant d'un soutien scolaire | Plus de 14 500        |
+| Indicateur                              | Donnée                |
+| --------------------------------------- | --------------------- |
+| Utilisateurs inscrits                   | Plus de 5,28 millions |
+| Utilisateurs actifs par mois            | Plus de 270 000       |
+| Nombre de vidéos                        | Plus de 41 000        |
+| Nombre d'exercices                      | Plus de 108 000       |
+| Proportion d'écoles rurales desservies  | Près de 25 %          |
+| Enfants bénéficiant de soutien scolaire | Plus de 14 500        |
 
 ## La philosophie de l'apprentissage adaptatif
 
-La conviction centrale de Lu Guan-Wei tient en une phrase : l'éducation doit s'adapter à l'enfant, non l'inverse.
+La conviction la plus fondamentale de Lu Guanwei est l'« apprentissage adaptatif » : l'éducation devrait s'adapter aux enfants, et non les enfants s'adapter à un rythme uniforme.
 
-La plateforme utilise l'IA pour analyser les parcours d'apprentissage de chaque utilisateur et propose des outils comme Jutor (tuteur d'anglais propulsé par l'IA), un système de diagnostic en 10 minutes, ou encore un carnet de questions en temps réel.
-Les élèves en difficulté peuvent revenir consolider les bases ; ceux qui avancent vite peuvent explorer au-delà du programme.
-Dans une salle de classe traditionnelle, cela est presque impossible. Sur la Junyi Academy, c'est le quotidien de 270 000 personnes.[^4]
+La plateforme utilise l'IA pour analyser les parcours d'apprentissage et a développé des outils tels que Jutor (tuteur d'anglais IA), un système de diagnostic en 10 minutes et un cahier de questions en temps réel.  
+Les enfants en difficulté peuvent revenir sur les bases, tandis que les plus avancés peuvent explorer plus loin.  
+Ceci est quasiment impossible en classe traditionnelle, mais sur la plateforme Junyi, c'est déjà le quotidien de 270 000 personnes chaque jour.[^4]
 
-> 📝 **Note du curateur** : Depuis la pandémie, Taïwan observe un phénomène d'apprentissage en « M » : les élèves urbains accélèrent, les élèves ruraux décrochent davantage. En transformant la classe à rythme unique en un parcours personnalisé grâce à l'IA, la Junyi Academy comble précisément le fossé structurel que la technologie est en mesure de résorber.
+📝 **Note du conservateur** : Après la pandémie, Taïwan a vu se creuser un écart d'apprentissage en forme de M — les enfants urbains accélérant tandis que ceux des zones rurales prenaient encore plus de retard. Junyi utilise l'IA pour transformer la classe à « rythme uniforme » en une « piste personnalisée », comblant précisément le déficit structurel que la technologie peut réellement corriger.
 
-## La pratique et les défis de l'entreprise sociale
+## Pratique et défis de l'entreprise sociale
 
-La Junyi Academy est une organisation à but non lucratif. Tout le contenu est gratuit. Le financement provient presque exclusivement de dons privés.
-Lu Guan-Wei conçoit l'éducation comme une infrastructure — au même titre que les routes ou l'eau courante : un bien public auquel chaque enfant devrait accéder gratuitement.
+Junyi est une organisation à but non lucratif, dont tout le contenu est entièrement gratuit, financé presque exclusivement par des dons privés.  
+Lu Guanwei positionne l'éducation comme une « infrastructure de base » — comme les routes et l'eau courante, un bien public auquel chaque enfant devrait avoir accès gratuitement.
 
-Mais il ne dissimule pas les obstacles : les milieux éducatifs traditionnels restent méfiants vis-à-vis des outils numériques, le taux de rotation des enseignants dans les zones rurales est élevé, et la plateforme doit continuellement lever des fonds pour préserver son indépendance.
-La voie qu'il a choisie n'a jamais été la plus facile. Mais en douze ans, il a démontré qu'à Taïwan, une entreprise sociale n'est pas qu'un slogan : c'est une force capable de changer concrètement la vie de millions de personnes.[^5]
+Mais il ne cache jamais les défis : le milieu éducatif traditionnel reste méfiant envers les outils numériques, le taux de rotation du personnel enseignant en milieu rural est élevé, et la plateforme doit continuellement lever des fonds pour maintenir son indépendance.  
+Le chemin qu'il a emprunté n'a jamais été le plus facile, mais en 12 ans, il a prouvé qu'à Taïwan, l'entreprise sociale n'est pas qu'un slogan — c'est une force capable de transformer réellement la vie de millions de personnes.[^5]
 
-> 📝 **Note du curateur** : Pendant que d'autres débattent encore de « réforme éducative », Lu Guan-Wei a déjà fait de cette réforme le quotidien de 270 000 utilisateurs. C'est cela, la « patience urgente » dont Taïwan a besoin.
+📝 **Note du conservateur** : Alors que tout le monde discute encore de « réforme de l'éducation », Lu Guanwei a déjà transformé cette réforme en une réalité quotidienne utilisée par 270 000 personnes chaque jour. C'est exactement la « patience urgente » dont Taïwan a le plus besoin.
 
 ## Pour aller plus loin
 
-- Yeh Ping-Cheng : PaGamO, une autre voie vers l'innovation pédagogique par le jeu
-- Huang Kuo-Chen : Reading Fountain, cultiver la pensée critique plutôt que la mémorisation
-- Yan Chang-Shou : du tourisme à l'éducation dans les zones rurales
-- Audrey Tang : les convergences entre gouvernance numérique et technologies éducatives
+- [Ye Bingcheng](/people/葉丙成) : la plateforme d'apprentissage par le jeu PaGamO, une autre voie d'innovation éducative
+- [Huang Guozhen](/people/黃國珍) : l'éducation à la littératie de PinXueTang, pour développer la réflexion plutôt que la mémorisation
+- [Yan Changshou](/people/嚴長壽) : le parrain du tourisme reconverti dans l'éducation en milieu rural
+- [Tang Feng](/people/唐鳳) : à la croisée de la gouvernance numérique et de la technologie éducative
 
 ## Références et notes
 
-[^1]: Rapport d'impact annuel 2025 de la Junyi Academy Education Foundation
+[^1]: Rapport d'impact annuel 2025 de la fondation éducative Junyi Academy
 
-[^2]: Article Medium de Lu Guan-Wei, « Le chevalier qui a renversé l'éducation »
+[^2]: Article de Lu Guanwei sur Medium, « Le chevalier de l'éducation inversée »
 
-[^3]: Site officiel de la Junyi Academy Education Foundation, données mises à jour en décembre 2025
+[^3]: Données les plus récentes du site officiel de la fondation éducative Junyi Academy (mise à jour décembre 2025)
 
 [^4]: Ibid., données d'utilisation des outils IA
 
-[^5]: Interview dans Business Weekly, « Prendre le relais : comment Lu Guan-Wei transforme l'éducation »
+[^5]: Entretien du Business Weekly, « Reprendre le relais : comment Lu Guanwei transforme l'éducation »
 
 Liens sources :
 
-- Site officiel de la Junyi Academy : https://www.junyiacademy.org/
+- Site officiel de Junyi Academy : https://www.junyiacademy.org/
 - Rapport d'impact annuel 2025 : https://official.junyiacademy.org/2025-annual-report/
-- Présentation de l'équipe dirigeante : https://official.junyiacademy.org/about/team/
+- Présentation de l'équipe de direction : https://official.junyiacademy.org/about/team/
