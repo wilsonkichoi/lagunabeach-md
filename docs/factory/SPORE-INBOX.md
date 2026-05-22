@@ -4,11 +4,12 @@ description: '待發孢子 idea buffer — pending / scheduled 孢子點子，St
 type: 'factory-canonical'
 status: 'buffer'
 apoptosis: 'never'
-current_version: 'v1.0'
-last_updated: 2026-05-21
-last_session: '2026-05-21-historic-districts-then-spore-inbox'
+current_version: 'v1.1'
+last_updated: 2026-05-23
+last_session: '2026-05-23-spore-pick-design'
 sister_docs:
   - 'SPORE-PIPELINE.md'
+  - 'SPORE-PICK-PIPELINE.md'
   - 'SPORE-LOG.md'
   - 'SPORE-HARVEST-PIPELINE.md'
 upstream_canonical:
@@ -24,8 +25,15 @@ read_strategy: 'on-demand (Stage 1 PICK 啟動才載)'
 # SPORE-INBOX.md — 待發孢子 Idea Buffer
 
 > **這是 intake / buffer layer**（非 canonical）。
-> 觀察者點名、agent 觀察、時事反應、剛 ship article 想推廣的 spore idea 一律 append 這裡。
+> 觀察者點名、agent 觀察、時事反應、剛 ship article 想推廣的 spore idea，加上
+> routine `twmd-spore-pick-daily` 每天 08:00 propose 3 candidates，一律 append 這裡。
 > Stage 1 PICK 啟動時讀本檔 → 優先消化 P0/P1，補充 dashboard-articles 自動候選池。
+>
+> **三層 intake source**（v1.1，2026-05-23 加 routine layer）：
+>
+> 1. **哲宇 directive**（最高優先）— Requested 欄位 `YYYY-MM-DD by 哲宇`
+> 2. **News-lens weekly**（時事熱點）— Requested 欄位 `YYYY-MM-DD by twmd-news-lens-weekly`，default `P1`，limit ≤ 7 entries/week
+> 3. **Spore-pick daily routine**（穩態 intake）— Requested 欄位 `YYYY-MM-DD by twmd-spore-pick-daily routine (score=NN)`，default `P2`，3 entries/day
 >
 > 🔴 **完成歸檔鐵律**：任何孢子在 Stage 4 SHIP 後**必須做兩件事**才算結束：
 >
@@ -42,25 +50,25 @@ read_strategy: 'on-demand (Stage 1 PICK 啟動才載)'
 
 ## 跟 ARTICLE-INBOX 的分工
 
-| 面向       | ARTICLE-INBOX                                | SPORE-INBOX（本檔）                                   |
-| ---------- | -------------------------------------------- | ----------------------------------------------------- |
-| 內容       | 待開發 / 進化的**文章**主題                  | 待發**孢子**的點子                                    |
-| 對應器官   | 心臟（內容產出）                             | 繁殖（社群傳播）                                      |
-| Pipeline   | REWRITE-PIPELINE Stage 0-6                   | SPORE-PIPELINE Stage 1-5                              |
-| Distill 去 | knowledge/ (新 article or EVOLVE)            | SPORE-LOG row + SPORE-HARVESTS batch                  |
-| 體量       | 4500-7000 CJK / 15-40 footnote / 全 H2 結構  | 150-300 CJK 單則 / 1 hook + 1-2 fact 收尾             |
-| 預估工時   | 2-4 hr / entry (Stage 1 research + 寫作)     | 15-30 min / entry (Stage 3 WRITE + Stage 4 SHIP)      |
-| 雙向關係   | EVERGREEN-TOPIC spore → spawn ARTICLE entry  | EXISTING-ARTICLE spore → link 到對應 article          |
+| 面向       | ARTICLE-INBOX                               | SPORE-INBOX（本檔）                              |
+| ---------- | ------------------------------------------- | ------------------------------------------------ |
+| 內容       | 待開發 / 進化的**文章**主題                 | 待發**孢子**的點子                               |
+| 對應器官   | 心臟（內容產出）                            | 繁殖（社群傳播）                                 |
+| Pipeline   | REWRITE-PIPELINE Stage 0-6                  | SPORE-PIPELINE Stage 1-5                         |
+| Distill 去 | knowledge/ (新 article or EVOLVE)           | SPORE-LOG row + SPORE-HARVESTS batch             |
+| 體量       | 4500-7000 CJK / 15-40 footnote / 全 H2 結構 | 150-300 CJK 單則 / 1 hook + 1-2 fact 收尾        |
+| 預估工時   | 2-4 hr / entry (Stage 1 research + 寫作)    | 15-30 min / entry (Stage 3 WRITE + Stage 4 SHIP) |
+| 雙向關係   | EVERGREEN-TOPIC spore → spawn ARTICLE entry | EXISTING-ARTICLE spore → link 到對應 article     |
 
 ---
 
 ## 跟 SPORE-LOG / SPORE-HARVESTS 的分工
 
-| 面向       | SPORE-INBOX（本檔）                       | SPORE-LOG                                                | SPORE-HARVESTS/                                       |
-| ---------- | ----------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------- |
-| 視角       | 當下（pending / scheduled）               | identity SSOT（已發布 #N 在哪個 URL）                    | event SSOT（每次 harvest 一個 batch）                 |
-| 生命週期   | active buffer，pending / scheduled 輪轉   | append-only row table                                    | append-only batch log                                 |
-| 讀者       | Stage 1 PICK 抽 P0/P1                     | 排除規則：同篇間隔 ≥ 2 週、月度效能分析                  | D+1-D+7 cadence 回填、accuracy trigger 觸發           |
+| 面向     | SPORE-INBOX（本檔）                     | SPORE-LOG                               | SPORE-HARVESTS/                             |
+| -------- | --------------------------------------- | --------------------------------------- | ------------------------------------------- |
+| 視角     | 當下（pending / scheduled）             | identity SSOT（已發布 #N 在哪個 URL）   | event SSOT（每次 harvest 一個 batch）       |
+| 生命週期 | active buffer，pending / scheduled 輪轉 | append-only row table                   | append-only batch log                       |
+| 讀者     | Stage 1 PICK 抽 P0/P1                   | 排除規則：同篇間隔 ≥ 2 週、月度效能分析 | D+1-D+7 cadence 回填、accuracy trigger 觸發 |
 
 **寫入規則**（鐵律已拉到頂部 quote 區）：Stage 4 SHIP 後 row append 到 [SPORE-LOG §發文紀錄](SPORE-LOG.md)；本檔對應 pending entry **整段直接刪除**（per 跟 ARTICLE-DONE-LOG 共用 lessons：留 pointer 註解 = INBOX 累積 noise）。
 
@@ -94,11 +102,11 @@ read_strategy: 'on-demand (Stage 1 PICK 啟動才載)'
 
 ## Source-Mode 判準
 
-| Mode               | 含義                                                                                                | 處理流向                                                                                                          |
-| ------------------ | --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| `EXISTING-ARTICLE` | knowledge/ 已有對應 article                                                                         | Stage 1 PICK 直接抽 → Stage 3 WRITE 從 article 萃取 hook → Stage 4 SHIP 配 article URL                            |
-| `EVERGREEN-TOPIC`  | 該主題尚無 article，但值得發孢子                                                                    | **必先 spawn ARTICLE-INBOX entry**（per Bias 1 過濾：沒文章先發孢子等於空轉 — 觀察者連 click 都沒地方落腳）       |
-| `REACTIVE`         | 時事反應 / 假消息反制 / 突發事件，需快速 ship                                                       | 可 link 到既有相關 article（如 228 事件對應 [knowledge/History/二二八事件.md](../../knowledge/History/二二八事件.md)）或純發聲；時效是 P0 主因 |
+| Mode               | 含義                                          | 處理流向                                                                                                                                       |
+| ------------------ | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| `EXISTING-ARTICLE` | knowledge/ 已有對應 article                   | Stage 1 PICK 直接抽 → Stage 3 WRITE 從 article 萃取 hook → Stage 4 SHIP 配 article URL                                                         |
+| `EVERGREEN-TOPIC`  | 該主題尚無 article，但值得發孢子              | **必先 spawn ARTICLE-INBOX entry**（per Bias 1 過濾：沒文章先發孢子等於空轉 — 觀察者連 click 都沒地方落腳）                                    |
+| `REACTIVE`         | 時事反應 / 假消息反制 / 突發事件，需快速 ship | 可 link 到既有相關 article（如 228 事件對應 [knowledge/History/二二八事件.md](../../knowledge/History/二二八事件.md)）或純發聲；時效是 P0 主因 |
 
 **EVERGREEN-TOPIC 鐵律**：發 EVERGREEN spore 等於「軟性 demand probe」，但讀者點 article link 沒地方去 = 浪費 reach。所以 **EVERGREEN entry 必須同時 spawn ARTICLE-INBOX entry**，文章 ship 後 SPORE-INBOX entry 自動升級 EXISTING-ARTICLE 才能發。例外：純 hook 不需 article 支撐的 meta 議題（罕見）。
 
@@ -106,12 +114,12 @@ read_strategy: 'on-demand (Stage 1 PICK 啟動才載)'
 
 ## 優先序判準
 
-| 層級 | 含義                                       | 範例                                                                                       |
-| ---- | ------------------------------------------ | ------------------------------------------------------------------------------------------ |
-| P0   | 時效高 / 趁熱（< 7 天新 ship article 推廣）/ REACTIVE 時事反制 / 觀察者明確點 P0 | 剛 ship 的旗艦文章 / 中國散播假歷史立即反制 / 颱風相關                                     |
-| P1   | 本週發：重要主題、剛 ship 在 7-14 天內、SC opportunities 大 cluster | 旗艦文章 spore 推廣窗口、月度旗艦人物                                                      |
-| P2   | 本月發：Evergreen 主題、不急但值得做       | 經典 article 重發、季節性主題                                                              |
-| P3   | Backlog：一直想做但不確定時機              | 大型策展主題、需要等對應 article 完成的 EVERGREEN                                          |
+| 層級 | 含義                                                                             | 範例                                                   |
+| ---- | -------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| P0   | 時效高 / 趁熱（< 7 天新 ship article 推廣）/ REACTIVE 時事反制 / 觀察者明確點 P0 | 剛 ship 的旗艦文章 / 中國散播假歷史立即反制 / 颱風相關 |
+| P1   | 本週發：重要主題、剛 ship 在 7-14 天內、SC opportunities 大 cluster              | 旗艦文章 spore 推廣窗口、月度旗艦人物                  |
+| P2   | 本月發：Evergreen 主題、不急但值得做                                             | 經典 article 重發、季節性主題                          |
+| P3   | Backlog：一直想做但不確定時機                                                    | 大型策展主題、需要等對應 article 完成的 EVERGREEN      |
 
 ---
 
@@ -143,9 +151,58 @@ Beat 3 執行時若觀察者無明確任務 + 當 spore 觸發條件成立（per
 
 ---
 
+## Routine intake 整合（v1.1 — 2026-05-23 新增）
+
+兩條 routine 自動 append 本檔（per [ROUTINE.md](../semiont/ROUTINE.md) v2.5）：
+
+### `twmd-spore-pick-daily` @ 08:00 每天
+
+- Skill: `/twmd-spore-pick`（薄殼）/ Pipeline: [SPORE-PICK-PIPELINE.md](SPORE-PICK-PIPELINE.md)
+- Model: Sonnet（cheap daily routine）
+- Output: propose **3 candidates** per cycle
+- Priority default: **`P2`**（不跟人類 P0/P1 directive 撞；score ≥ 60 或 news-lens 標記才升 P1）
+- Requested 欄位: `YYYY-MM-DD by twmd-spore-pick-daily routine (score=NN)`
+- Notes 欄位: 7-dimension scoring transparency（D1=趁熱 / D2=SC opportunity / D3=news / D4=多語 fan-out / D5=冷門 / D6=hook variety / D7=敏感度）
+
+### `twmd-news-lens-weekly` @ 週日 01:00（v2.5 升級加 spore-output Stage）
+
+- Skill: `/twmd-evolve`（共用 news lens mode）/ Pipeline: [EVOLVE-PIPELINE.md §news-lens-spore-output](../pipelines/EVOLVE-PIPELINE.md)
+- Model: Sonnet
+- Output: propose **5-7 news-driven candidates** per week
+- Priority default: **`P1`**（時事熱點，趁熱重要）
+- Source-Mode 預設: `REACTIVE` 或 `EXISTING-ARTICLE`
+- Requested 欄位: `YYYY-MM-DD by twmd-news-lens-weekly (event: XX)`
+- Limit: 一週最多 7 entries（避免淹沒哲宇 directive + daily routine）
+
+### Daily routine 跟 news-lens entries 共存規則
+
+```
+news-lens P1 count >= 3 → daily routine 只 propose 0 (skip cycle)
+news-lens P1 count == 2 → daily routine 補 1
+news-lens P1 count == 1 → daily routine 補 2
+news-lens P1 count == 0 → daily routine 補 3
+```
+
+確保 SPORE-INBOX 維持「news + routine + 哲宇」三 source 混合健康度，**任何單一 source overload 都自動 throttle**。
+
+### Routine entries 識別表
+
+| Source                          | Priority default        | Style                                  |
+| ------------------------------- | ----------------------- | -------------------------------------- |
+| 哲宇 directive                  | P0 / P1 / P2            | 觀察者明示需求                         |
+| `twmd-news-lens-weekly`         | P1                      | 時事熱點 + REACTIVE 或 EXISTING        |
+| `twmd-spore-pick-daily routine` | P2（or P1 if score≥60） | 穩態 intake + 7-dim score transparency |
+
+**Routine vs Human directive 衝突避免**：routine default `P2`（除 score 高 boost），觀察者 review 後 promote 才升 P0/P1。每天看 SPORE-INBOX 多 3 條 propose 比每天從零選文好太多。
+
+---
+
 ## Distill SOP（容量管理）
 
-**觸發**：pending ≥ 20 條 / 或每月第一次心跳 / 觀察者說「review spore inbox」
+**觸發**（v1.1 升級）：
+
+- pending ≥ 20 條 / 或每月第一次心跳 / 觀察者說「review spore inbox」
+- **v1.1 加自動觸發**：`twmd-distill-weekly` 週日 03:00 跑時自動 audit count，≥ 30 alert，≥ 50 auto-drop routine-source 最舊未 promote 5 條（per [LESSONS-INBOX §Distill SOP](../semiont/LESSONS-INBOX.md#distill-sop消化) §SPORE-INBOX 容量 audit）
 
 **步驟**：
 
@@ -153,7 +210,10 @@ Beat 3 執行時若觀察者無明確任務 + 當 spore 觸發條件成立（per
 2. 分類：重複合併 / 過時 drop / 重新排優先序
 3. 過時的 REACTIVE（時效視窗已過）→ 改 status `dropped`，append 一行到 §Dropped log（如果建）或直接刪
 4. EVERGREEN-TOPIC 對應 article 已 ship 的 → 升級 EXISTING-ARTICLE + 更新 Article-Path
-5. 觀察者最終 review 後 commit
+5. **v1.1 加 routine-source distill 規則**：count ≥ 50 時 auto-drop 最舊 5 條 `Requested by twmd-spore-pick-daily routine` 未被 promote（priority 仍 P2 / 未被改 Hook）的 entries。哲宇 promote 過的 entry 不動
+6. 觀察者最終 review 後 commit
+
+**自主權邊界**：routine 不該 destroy 哲宇 directive entries（per §自主權邊界 — drop = destructive 操作邊界）。只 drop **未被 promote 的最舊 routine-source entry**（safe destructive — 自己造的垃圾自己掃）。
 
 ---
 

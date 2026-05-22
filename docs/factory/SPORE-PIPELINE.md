@@ -158,17 +158,23 @@ PICK → VERIFY → WRITE → SHIP → HARVEST
 
 ### 選文
 
-**選文順序（2026-05-21 SPORE-INBOX 加入 intake layer）**：
+**選文順序（2026-05-23 SPORE-INBOX v1.1 + 三層 intake source）**：
 
 1. **SPORE-INBOX §Pending P0** → 抽到先做（觀察者明確點名 / REACTIVE 時事 / 趁熱）
-2. **SPORE-INBOX §Pending P1** → 抽到先做（旗艦人物 + 本週發行窗口）
-3. **dashboard-articles 自動候選池** → fallback rotation（per 下方 bash）
-4. **SPORE-INBOX §Pending P2/P3** → 沒新熱點時消化 backlog
+2. **SPORE-INBOX §Pending P1** → 抽到先做（旗艦人物 + 本週發行窗口 + news-lens 熱點 + routine 高分 candidate）
+3. **dashboard-articles 自動候選池** → fallback rotation（per 下方 bash），**v1.1 起退為最後手段**（INBOX 永遠 ≥ 5 條 P0/P1 之後，這層 rarely fire）
+4. **SPORE-INBOX §Pending P2/P3** → 沒新熱點時消化 backlog（含 routine default P2）
+
+**SPORE-INBOX 三層 intake source**（per [SPORE-INBOX §三層 intake source](SPORE-INBOX.md)）：
+
+- **哲宇 directive**：Requested 欄位 `by 哲宇`，priority P0/P1/P2 by 哲宇 directive
+- **News-lens weekly**（週日 01:00）：Requested 欄位 `by twmd-news-lens-weekly (event: XX)`，default P1，limit ≤ 7/week，per [EVOLVE-PIPELINE §news-lens-spore-output](../pipelines/EVOLVE-PIPELINE.md)
+- **Spore-pick daily routine**（每天 08:00）：Requested 欄位 `by twmd-spore-pick-daily routine (score=NN)`，default P2（除非 score ≥ 60 升 P1），per [SPORE-PICK-PIPELINE.md](SPORE-PICK-PIPELINE.md)
 
 **讀 SPORE-INBOX 抽到 entry 後**：
 
 - entry status 從 `pending` 改為 `scheduled` （per [SPORE-INBOX §Auto-heartbeat 整合](SPORE-INBOX.md#auto-heartbeat-整合)）
-- 走 Stage 2 VERIFY 全 17 hard gate（沒 short-cut）
+- 走 Stage 2 VERIFY 全 17 hard gate（沒 short-cut，無論 entry 哪一 source）
 - Stage 4 SHIP 完 → SPORE-LOG row append + SPORE-INBOX entry 整段刪除
 
 **dashboard-articles fallback（無 SPORE-INBOX entry 時用）** — 從知識庫選出 5-10 篇候選文章：
@@ -318,6 +324,7 @@ python3 -c "import urllib.parse; print('https://taiwan.md/food/' + urllib.parse.
 雙 platform 雙 spore number 對應 SPORE-LOG 雙 row（per 既有 pattern #68/#69 + #70/#71 + #72/#73 + #74/#75）。
 
 **AI 自檢**：
+
 1. 掃描所有 URL 中文字元 → 停下來 encode
 2. 確認兩個 URL 都有 `utm_source` + `utm_medium=spore` + `utm_campaign=s{N}`（三段缺一不可）
 3. 確認 utm_source 對應平台（threads / x），不是 typo（如 utm_medium=x 是錯誤）

@@ -222,14 +222,83 @@ GitHub Feedback      ──┘
 - **路由 bug 流量**：Random 按鈕導致的非自然瀏覽（民謠與歌謠案例）
 - **判斷方式**：若 sessionSource 90%+ 來自單一社群來源，且文章本身無搜尋曝光 → 標記為 `inflated`
 
-### 產出：四種行動
+### 產出：四種行動 + News-lens spore output（v2.5）
 
-| 行動            | 觸發條件                                       | 預估時間     |
-| --------------- | ---------------------------------------------- | ------------ |
-| 🔴 **Rewrite**  | 高曝光 + 品質差（短/過期/高 bounce）           | 30-60 min/篇 |
-| 🟠 **SEO 優化** | 高曝光 + 低 CTR + 品質 OK → 改標題/description | 5 min/篇     |
-| 🟡 **翻譯**     | 英文搜尋有曝光但無英文版                       | 20-40 min/篇 |
-| 🟢 **新建**     | 有搜尋需求但確認無相關文章                     | 60-90 min/篇 |
+| 行動                | 觸發條件                                                                                | 預估時間          |
+| ------------------- | --------------------------------------------------------------------------------------- | ----------------- |
+| 🔴 **Rewrite**      | 高曝光 + 品質差（短/過期/高 bounce）                                                    | 30-60 min/篇      |
+| 🟠 **SEO 優化**     | 高曝光 + 低 CTR + 品質 OK → 改標題/description                                          | 5 min/篇          |
+| 🟡 **翻譯**         | 英文搜尋有曝光但無英文版                                                                | 20-40 min/篇      |
+| 🟢 **新建**         | 有搜尋需求但確認無相關文章                                                              | 60-90 min/篇      |
+| 🧫 **Spore output** | News lens mode 週日跑時 surface news-driven spore candidates → SPORE-INBOX（v2.5 新增） | 5-10 min total/週 |
+
+---
+
+## news-lens-spore-output（v2.5 新增，2026-05-23）
+
+> News lens mode（週日 01:00 `twmd-news-lens-weekly` 跑）的第 5 種 output。
+>
+> **目的**：把 weekly news sense 直接餵到 SPORE-INBOX intake layer，daily `twmd-spore-pick-daily` routine 看到 news-lens 寫的熱點 P1 就 throttle 自己 propose 數量，三 source（哲宇 / news-lens / daily routine）混合健康。
+>
+> **完整 routine 整合 context**：[ROUTINE.md §TWMD news lens (weekly) — v2.5 加 spore-output Stage](../semiont/ROUTINE.md) + [SPORE-INBOX §Routine intake 整合](../factory/SPORE-INBOX.md)。
+
+### Stage 任務（在 EVOLVE-PIPELINE Phase 2 之後）
+
+1. **讀本週熱點來源**：
+   - GA top growth 7d（最近 7 天 PV 大幅上升的 article）
+   - SC trending queries 7d（query impressions 大幅上升）
+   - Cloudflare 7d（AI crawler 突然關注的 path）
+   - 既有 article 觸及最新事件（commit log 看最近 ship article）
+
+2. **對應 knowledge/ 既有 article 找 5-7 candidates**：
+   - 熱點 query / event → fuzzy match article title / slug
+   - 優先 EXISTING-ARTICLE（已有對應 article）
+   - 純時事無 article → REACTIVE 模式（link 到相關 article 或 spawn ARTICLE-INBOX entry）
+
+3. **每 candidate 寫完整 SPORE-INBOX schema entry**：
+   - **Source-Mode**: `REACTIVE`（時事反應）或 `EXISTING-ARTICLE`（趁熱推廣）
+   - **Priority**: default `P1`（時事熱點，趁熱重要 — 比 daily routine 的 P2 高）
+   - **Requested**: `YYYY-MM-DD by twmd-news-lens-weekly (event: XX)`
+   - **Hook anchor 候選**: ≥ 2，跨 2 種起手式
+   - **時效**: 「7 天內」或「本週內」（趁熱窗口明示）
+   - **敏感度**: 高敏感（兩岸 / 228 / 政治）需 REACTIVE + 明示 frame 規則（per [SPORE-INBOX 二二八事件 entry §Notes](../factory/SPORE-INBOX.md) frame 範例）
+   - **Notes**: 寫 `from news-lens weekly YYYY-MM-DD (event: XX, GA growth: +N%, SC query: "...")` transparency
+
+4. **Limit ≤ 7 entries/week**：
+   - 避免淹沒 SPORE-INBOX（daily routine 接著一週又補 21 條，混合容易爆）
+   - 若本週熱點 > 7 → 選 top 7 by GA growth × SC impression × CF crawler signal 三維加權
+   - 若本週熱點 < 5 → 寫實際數量（不刻意湊 7）
+
+5. **Append SPORE-INBOX §Pending**（per existing SOP）
+
+### 跟 daily routine 的協調規則
+
+```
+news-lens 週日寫 N 條 P1 → SPORE-INBOX 累積 N 條 P1
+↓
+daily routine 週一 08:00 跑時看到 P1 from news-lens count == N
+↓
+N >= 3 → daily routine 只 propose 0 (skip cycle)
+N == 2 → daily routine 補 1 P2
+N == 1 → daily routine 補 2 P2
+N == 0 → daily routine 補 3 P2
+↓
+週二後 P1 持續被 SPORE-PIPELINE Stage 1 PICK 抽走 ship
+↓
+N 降到 < 3 → daily routine 重新補 P2
+```
+
+確保 SPORE-INBOX 永遠 5-10 條 fresh pending，符合 north star「一天穩定發 ≥ 1 個孢子」。
+
+### Quality gate
+
+- SPORE-INBOX 新增 3-7 news-driven candidates
+- 每 entry 含 GA growth / SC query / CF signal pointer（transparency）
+- 高敏感 candidate（兩岸 / 228 / 政治）必須 REACTIVE 且明示 frame 規則
+- entries 跨多 category（不全 People 或全 Food，避免單一 category overload）
+- 寫入 fail → silent skip + LESSONS entry（不影響 ARTICLE-INBOX 主流程）
+
+---
 
 ---
 
