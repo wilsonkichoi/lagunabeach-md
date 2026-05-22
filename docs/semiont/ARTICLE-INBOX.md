@@ -300,129 +300,28 @@ BECOME_TAIWANMD.md Step 5 新增：
 >
 > **Pilot 候選**：大稻埕（最 obvious P0 + thick history test）。pilot 完跑 retrospective 校準共通 caveats 再啟動其他 11 條。
 
-<!-- P0-4 中山北路條通 / 林森北路 已完成 2026-05-22 2026-05-22-000751-twmd-rewrite-daily → ARTICLE-DONE-LOG.md (歷史街區 batch 1 P0-4 — 三層暖簾敘事 / 5918 字 / 41 footnote / 3 圖 / hard=0 warn=0) -->
-
-### P1-5 永康街 / 東門 NEW
-
-- **Type**: `NEW`
-- **Category**: Geography（subcategory: 歷史街區 / 台北市大安區）
-- **Priority**: `P1`
-- **Status**: `pending`
-- **Source**: 哲宇 directive 2026-05-21 historic-districts series batch 1
-- **核心矛盾候選** ≤ 30 字：「日本教授住過、外省人逃難來、現在是日韓觀光客的台北」
-- **Hook anchor**：清晨七點半的永康公園邊老樹下，老外省爺爺正在跟日本觀光客比手畫腳
-- **時間軸 anchor**：日治 1922 起「昭和町」高級住宅區 → 1947 後外省遷台青田街日式宿舍接管 → 鼎泰豐 1958 創立 → 1972 油行轉小籠包 → 1990s 後文青化（私房書店、咖啡、藝廊）→ 2010s 觀光客衝擊（《孤獨美食家》拍到鼎泰豐）
-- **必驗事實**：昭和町範圍 / 青田街日式宿舍保存案 / 鼎泰豐 1958 vs 1972 兩個關鍵年 / 永康公園地名源 / 永康街跟青田街、麗水街、金華街、潮州街的相對關係
-- **政治敏感性**：低（食物 + 外省眷村 framing 相對中性）
-- **Cross-link**：[台北市](../../knowledge/Geography/台北市.md) / [族群（閩南客家原住民外省新住民）](../../knowledge/Culture/族群（閩南客家原住民外省新住民）.md) / 公館溫州街 sibling / 四四南村 sibling
-- **預估時間**：~2 hr
-
-### P1-6 公館 / 溫州街 NEW
-
-- **Type**: `NEW`
-- **Category**: Geography（subcategory: 歷史街區 / 台北市中正區、大安區邊界）
-- **Priority**: `P1`
-- **Status**: `pending`
-- **Source**: 哲宇 directive 2026-05-21 historic-districts series batch 1
-- **核心矛盾候選** ≤ 30 字：「日本帝國的研究室、戒嚴期的地下沙龍、台大學生的炸雞排，500 公尺三個世紀」
-- **Hook anchor**：傍晚六點半溫州街巷弄裡的台靜農故居門口，台大學生背著吉他經過
-- **時間軸 anchor**：1896 後日治設台北帝大（今台大）→ 戰後 1949 國府接管，溫州街日式宿舍 → 學者住宅 → 1950-80 黨外文青地下：紫藤廬（周德偉故居 → 1981 茶藝館 → 1997 古蹟）/ 殷海光故居 / 台靜農故居 → 1973-1975 台大哲學系事件 → 1990s 公館商圈繁榮
-- **必驗事實**：紫藤廬建造年 vs 1981 茶藝館 vs 1997 古蹟年表 / 殷海光 1969 病逝 / 台靜農 1990 病逝 / 哲學系事件 1973-1975 過程戰時間軸 / 溫州街命名源（戰後外省學者取自浙江溫州 vs 其他）
-- **政治敏感性**：中-高（白色恐怖 + 哲學系事件 + 黨外運動）
-- **Cross-link**：[台北市](../../knowledge/Geography/台北市.md) / 雷震 / 殷海光相關 / 永康街 sibling
-- **預估時間**：~3 hr（白色恐怖 framing 需多時間）
-
-### P1-7 寶藏巖 NEW
-
-- **Type**: `NEW`
-- **Category**: Geography（subcategory: 歷史街區 / 台北市中正區）
-- **Priority**: `P1`
-- **Status**: `pending`
-- **Source**: 哲宇 directive 2026-05-21 historic-districts series batch 1
-- **核心矛盾候選** ≤ 30 字：「拆了 30 年的違建，變成台北最酷的藝術村」
-- **Hook anchor**：傍晚五點寶藏巖的山坡階梯，藝術家工作室的燈一盞一盞亮起來
-- **時間軸 anchor**：1969 寶藏巖違建聚落形成（外省老兵 + 南部移民）→ 1980s 都市政策要拆 → 1999 文化局介入保留 → 2004 文化資產登錄 → 2010 寶藏巖國際藝術村正式營運 → 2026 國際駐村藝術家工作室
-- **必驗事實**：違建年份起點（1969 vs 其他）/ 1999 文資保護過程細節 / 國際藝術村 2010 開幕日 / 寶藏巖觀音寺始建年（1791 vs 其他）/ 違建戶遷出 / 留下協商過程
-- **政治敏感性**：中（住民被迫遷的痛 vs 文化保存張力，雙面都要寫）
-- **Cross-link**：[台北市](../../knowledge/Geography/台北市.md) / [台灣文化創意園區發展](../../knowledge/Culture/台灣文化創意園區發展.md) / 公館溫州街 sibling
-- **預估時間**：~2.5 hr
-
-### P1-8 北投溫泉街 NEW
-
-- **Type**: `NEW`
-- **Category**: Geography（subcategory: 歷史街區 / 台北市北投區）
-- **Priority**: `P1`
-- **Status**: `pending`
-- **Source**: 哲宇 directive 2026-05-21 historic-districts series batch 1
-- **核心矛盾候選** ≤ 30 字：「凱達格蘭女巫的山、日本天狗庵的湯、戰後那卡西的歌、現在的溫泉博物館」
-- **Hook anchor**：清晨六點北投公園的露天溫泉池冒煙，附近婆婆媽媽散步說台語
-- **時間軸 anchor**：凱達格蘭語「Patauw」女巫 → 1896 大阪人平田源吾「天狗庵」首間溫泉旅館 → 1913 起造 1925 完工北投公共浴場 → 1923 裕仁皇太子訪台住北投 → 戰後溫泉文化 + 特種行業 → 1970s 紅燈區「那卡西」 → 1997 廢娼後轉型 → 2002 凱達格蘭文化館 → 2026
-- **必驗事實**：天狗庵 1896 創業 / 北投公共浴場 1913 起造 vs 1925 完工 / 廢娼確切年（1997 陳水扁市長任內）/ 那卡西年代 / 凱達格蘭文化館 2002 開館 / 北投線輕便鐵道 1916
-- **政治敏感性**：中（廢娼運動 + 特種行業歷史，需紀實而不煽情）
-- **Cross-link**：[台北市](../../knowledge/Geography/台北市.md) / [台灣原住民族 16 族文化地圖](../../knowledge/Culture/台灣原住民族16族文化地圖.md) / 中山北路條通 sibling
-- **預估時間**：~2.5 hr
-
-### P2-9 大龍峒 / 圓山 NEW
-
-- **Type**: `NEW`
-- **Category**: Geography（subcategory: 歷史街區 / 台北市大同區、中山區邊界）
-- **Priority**: `P2`
-- **Status**: `pending`
-- **Source**: 哲宇 directive 2026-05-21 historic-districts series batch 1
-- **核心矛盾候選** ≤ 30 字：「保安宮的香、孔廟的鐘、圓山的青天白日，三個時代的台北信仰」
-- **Hook anchor**：清晨七點保安宮前廣場的太極拳大叔大嬸，旁邊小學生背書包經過
-- **時間軸 anchor**：凱達格蘭族「大浪泵社」（Twatkun）→ 1742 保安宮建（清乾隆七年）→ 1764 大龍峒地名出現 → 1881 大龍峒老師府 / 陳維英舉人故居 → 1879 台北府學文廟（今孔廟）→ 1925 圓山台灣神社（戰後拆改大飯店）→ 1973 圓山大飯店中國宮殿式建築 → 2026
-- **必驗事實**：保安宮 1742 建年 vs 重修年 / 老師府 1881 / 圓山大飯店 1952 建 vs 1973 改建中國宮殿式 / 台北孔廟 1879 始建 vs 1925 重建現址 / 圓山神社 1901 vs 1944 改大社 / 凱達格蘭族「大浪泵」vs「Twatkun」拼音
-- **政治敏感性**：中（圓山神社拆改 + 孔廟戰後重新功能化 + KMT 中國文化復興）
-- **Cross-link**：[台北市](../../knowledge/Geography/台北市.md) / [台灣宗教與寺廟文化](../../knowledge/Culture/台灣宗教與寺廟文化.md) / 艋舺 sibling
-- **預估時間**：~2.5 hr
-
-### P2-10 四四南村 / 信義老眷村 NEW
-
-- **Type**: `NEW`
-- **Category**: Geography（subcategory: 歷史街區 / 台北市信義區）
-- **Priority**: `P2`
-- **Status**: `pending`
-- **Source**: 哲宇 directive 2026-05-21 historic-districts series batch 1
-- **核心矛盾候選** ≤ 30 字：「兵工廠的眷村，現在是 101 旁的文創園區」
-- **Hook anchor**：週末下午四四南村廣場的市集，外國觀光客拿著台北 101 當背景拍照
-- **時間軸 anchor**：1948 國府聯勤兵工廠（後改四四兵工廠）→ 員工眷舍即「四四南村」→ 1950s-90s 聯勤生活共同體 → 2003 拆除部分（信義計畫區發展壓力）→ 2004 文化資產登錄 → 2007 信義公民會館啟用 → 4 棟保留為文創園區 → 2026
-- **必驗事實**：四四兵工廠 1948 啟用 vs 撤遷年 / 拆除/保留時間軸 / 信義公民會館 2007 啟用日 / 保留 4 棟具體位置 / 眷村文化在台北其他位置的對照（青年公園、大直、北投眷村殘存）
-- **政治敏感性**：中（外省遷台敘事 + 都市更新拆遷張力）
-- **Cross-link**：[台北市](../../knowledge/Geography/台北市.md) / [台灣文化創意園區發展](../../knowledge/Culture/台灣文化創意園區發展.md) / 永康街 sibling（外省眷村線）/ 信義 101
-- **預估時間**：~2 hr
-
-### P2-11 士林 / 慈諴宮 NEW
-
-- **Type**: `NEW`
-- **Category**: Geography（subcategory: 歷史街區 / 台北市士林區）
-- **Priority**: `P2`
-- **Status**: `pending`
-- **Source**: 哲宇 directive 2026-05-21 historic-districts series batch 1
-- **核心矛盾候選** ≤ 30 字：「凱達格蘭族的地、漳泉械鬥的廟、現在每天晚上是台北最擁擠的夜市」
-- **Hook anchor**：晚上七點半士林夜市路口，韓國觀光客舉著大雞排自拍，旁邊慈諴宮的鐘聲響起
-- **時間軸 anchor**：凱達格蘭族「麻少翁社」（Kimassauw）→ 漢人 18 世紀進入 → 1796 慈諴宮始建（清嘉慶元年）→ 1859 漳泉械鬥後重建現址 → 1909 士林市場（日治）→ 戰後士林夜市興起 → 1996 文林路改建 → 2002-2011 士林新市場 → 2026
-- **必驗事實**：慈諴宮 1796 始建 vs 1859 遷建現址 / 士林夜市範圍 / 漳泉械鬥年代 / 士林市場 1909 啟用 / 麻少翁社凱達格蘭語拼音 / 大南路、文林路、大東路的傳統街區範圍
-- **政治敏感性**：低-中（族群械鬥史 + 觀光夜市過度商業化爭議）
-- **Cross-link**：[台北市](../../knowledge/Geography/台北市.md) / [台灣老街文化與商業街區](../../knowledge/Culture/台灣老街文化與商業街區.md) / 艋舺 / 大稻埕 sibling
-- **預估時間**：~2 hr
-
-### P2-12 牯嶺街 / 南海學園 NEW
-
-- **Type**: `NEW`
-- **Category**: Geography（subcategory: 歷史街區 / 台北市中正區）
-- **Priority**: `P2`
-- **Status**: `pending`
-- **Source**: 哲宇 directive 2026-05-21 historic-districts series batch 1
-- **核心矛盾候選** ≤ 30 字：「全台灣最有書卷氣的街，被都市更新拆掉，現在只剩劇場跟博物館」
-- **Hook anchor**：週六下午牯嶺街小劇場門口排隊買票的學生，旁邊植物園的荷花池映出夕陽
-- **時間軸 anchor**：日治時期日人住宅區 → 戰後 1945 後成「牯嶺街舊書街」（日人撤退留書 → 二手書攤）→ 1961 牯嶺街少年殺人事件（楊德昌 1991 電影原型）→ 1995 都市計畫拆除書攤 → 牯嶺街小劇場（原日治台北南警察署 → 1979 警察分局 → 1995 起小劇場）→ 南海學園 / 歷史博物館 / 植物園 → 2026
-- **必驗事實**：1961 牯嶺街事件確切日期 / 1995 拆書攤確切年 / 牯嶺街小劇場啟用 / 楊德昌《牯嶺街少年殺人事件》1991 拍攝細節 / 國立歷史博物館 1955 vs 南海學園範圍 / 植物園日治時期角色
-- **政治敏感性**：低-中（白色恐怖時期外省眷村脈絡 + 都市更新拆書攤爭議）
-- **Cross-link**：[台北市](../../knowledge/Geography/台北市.md) / 台灣電影（楊德昌段落）/ 公館溫州街 sibling
-- **預估時間**：~2.5 hr
-
 ---
+
+### 江賢二 NEW — 抽象藝術家（spore-inbox 反向 spawn）
+
+- **Type**: `NEW`
+- **Category**: Art（subcategory: 當代藝術家 / cross-link People）
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Source**: 2026-05-21 哲宇 directive — SPORE-INBOX 江賢二 entry 是 EVERGREEN-TOPIC，per SPORE-INBOX §Source-Mode 鐵律強制反向 spawn ARTICLE entry（孢子 demand probe → 文章 supply 補位）
+- **Hook 候選**：
+  - 「在巴黎紐約 40 年才回台東金樽蓋工作室的藝術家」
+  - 「1942 生 / 1962 留學巴黎 / 2007 回台 / 2023 江賢二藝術園區 — 60 年才繞回的一條路」
+- **Notes**:
+  - 既有 baseline audit（Stage 0 第一動作）：`ls knowledge/Art/ knowledge/People/ | grep -i jiang` 確認無檔案（2026-05-21 verified absent）
+  - 主題 anchors：(a) 1942 生於台中 (b) 1962 國立藝專畢業留學巴黎 (c) 紐約定居 30+ 年 (d) 2007 回台台東金樽蓋工作室 (e) 江賢二藝術園區（亞泥支持，2023 開園） (f) 100 號油畫「百年廟」「銀湖」「淨水」系列 (g) 國家文藝獎得獎年 (h) 跟林惺嶽、莊喆等同代抽象畫家的對位
+  - 必驗事實：出生年 1942 / 國立藝專（今台藝大）/ 巴黎留學年 / 紐約年 / 2007 回台確切年 / 江賢二藝術園區開園日 / 國家文藝獎屆數 + 年 / 代表作系列名 + 創作年代
+  - 政治敏感性：低（藝術人物）
+  - cross-link：Art Hub / People hub / 同代抽象畫家（林惺嶽、莊喆、陳澄波後人？）/ 台灣現代美術發展 / 國家文藝獎
+  - Framing：策展性人物 frame — 「在 65 歲才回台灣的孤獨抽象畫家」first-person voice，不是百科式條目
+- **Reference**: 江賢二藝術園區官網 / 國家文藝獎介紹 / 《十三邀》許知遠訪談（如果有）/《典藏》《藝術家》雜誌專訪
+- **觸發 spore**：article ship 後 7 天內 → SPORE-INBOX 對應 entry status 從 `pending` 升級為「可發」（Article-Path 從 `none-yet` 更新為實際 path）
+- **預估時間**：~120 min（NEW Art 人物，多源訪談 + 訪談 cross-check）
 
 ---
 
@@ -447,6 +346,31 @@ BECOME_TAIWANMD.md Step 5 新增：
 <!-- 周蕙 NEW 已完成 2026-05-19 2026-05-19-000642-routine-rewrite → ARTICLE-DONE-LOG.md (P0 — 〈約定〉25 年 KTV anchor / 漫畫娃娃出道 → 2026 小巨蛋首攻 + 聲帶萎縮宣告 / hint 多項修正：1977-03-26 高雄 + 中華藝校 + 姚若龍詞陳小霞曲 + 未參加我是歌手) -->
 
 ---
+
+### 台灣 BIM 與營建科技 NEW — 建築工程數位化
+
+- **Type**: `NEW`
+- **Category**: Technology（subcategory: 建築科技 / 營建數位化）
+- **Priority**: `P2`
+- **Status**: `pending`（等碩濤回覆補充援引資源後可升 P1）
+- **Source**: 2026-05-21 碩濤 (CTCI 中鼎工程 + GitHub @shuotao) self-recommend BIM_MCP 開源計劃 + 哲宇 email 回覆方向「我們初步可以開發兩篇文章，請他推薦適合援引的資源跟內容」(2026-05-21 reply draft `r-6742567238772772848`)
+- **Hook 候選**：
+  - 「從手繪藍圖到 Revit 模型，台灣建築工程花了 20 年走完數位化轉型」
+  - 「為什麼大型工程公司的 BIM 工程師人數比建築師還多」
+  - 「Revit + MCP：當建築設計開始用大語言模型協作的那一年」
+- **Notes**:
+  - 既有 baseline audit（Stage 0 必跑）：BIM / Revit / 建築資訊模型 / 營建科技 / 數位營建 全部 0 coverage（grep verified 2026-05-21）
+  - 既有「Art/台灣建築」「Lifestyle/騎樓文化」「Society/鐵皮屋/社會住宅」都是文化 / 居住敘事 layer，本篇是**工程數位化 layer**互補不重複
+  - 主題 anchors：(a) BIM 在台灣導入時點（內政部營建署 / 公共工程委員會推動年）(b) 主要 BIM 軟體 Revit / ArchiCAD / Tekla 在台灣使用 share (c) IFC 國際標準 + 國發會 / 內政部要求公共工程強制 BIM 的政策時點 (d) 台灣本土 BIM 工具 + 開源生態（pyRevit / Dynamo / Navisworks / **BIM_MCP / NAVISWORK_MCP**）(e) 大型工程公司導入 case（中鼎 / 互助 / 大林組 / 中華工程）(f) AI × BIM 新世代（MCP 跟大語言模型協作）
+  - 必驗事實：(a) 內政部 BIM 政策正式推動年（建議 cross-check 2014 工程委員會 vs 2017 強制公告）(b) IFC 標準台灣採用時點 (c) 公共工程 BIM 強制門檻金額 (d) 中鼎 BIM 部門規模（碩濤可提供）(e) Revit MCP 開源生態起源（**碩濤 BIM_MCP 2025-12 + Anthropic MCP 規格 2024 發表**時間軸）
+  - 政治敏感性：低（純技術 / 產業議題）
+  - cross-link：Technology Hub / Art 台灣建築 / Society 社會住宅 / Economy 中鼎工程（本批次 sibling）/ Technology AI 發展
+- **Reference**（待碩濤補充）：
+  - [shuotao/REVIT_MCP_study](https://github.com/shuotao/REVIT_MCP_study)（73⭐ / 84 forks / 2025-12-10 創立 / 2026-05 active / C# / Revit MCP 教學）
+  - [BIM_MCP knowledge site](https://shuotao.github.io/REVIT_MCP_study/docs/BIM_MCP/index.html)（22 個設計命題 + 19 技能索引 + Revit 工作流 SOP）
+  - [shuotao/NAVISWORK_MCP](https://github.com/shuotao/NAVISWORK_MCP) / [CAD_MCP_study](https://github.com/shuotao/CAD_MCP_study) / [IFCSH](https://github.com/shuotao/IFCSH) / [FME IFC-to-CityGML](https://github.com/shuotao/FME)
+  - 待補：產業報告 / 政府白皮書 / 其他開源專案 / 實務案例 / 業界訪談（per email request to 碩濤）
+- **預估時間**：~180 min（NEW Technology / 跨產業 + 政策 + 開源生態多源 cross-check）
 
 ---
 
@@ -473,6 +397,58 @@ BECOME_TAIWANMD.md Step 5 新增：
   - 待補：內部 BIM 部門編制資料 / 海外工程實際 case 細節 / 跟其他工程顧問公司（互助、中華工程、永信、台灣世曦）比較
 - **預估時間**：~150 min（NEW Economy 大型企業 + 政治敏感 cross-check）
 - **Cross-batch**: 跟「台灣 BIM 與營建科技」並行開發，BIM 文章主題層 cite 中鼎 case，企業 profile 內部數位轉型段落 cite BIM 文章
+
+### 許倬雲 EVOLVE — 補家族譜系（王力宏母系）+ 大歷史方法論深化
+
+- **Type**: `EVOLVE`
+- **Category**: People（subcategory: 歷史學者）
+- **Path**: knowledge/People/許倬雲.md（現有 145 行 / 11.7K chars / 10 H2 — 相對 People deep-dive 平均 ~250 行偏薄）
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Source**: 2026-05-17 twmd-news-lens-weekly /twmd-evolve — SC 7d opportunities top 3 cluster「hsu cho-yun」×「wang leehom」累積 ~2954 imp / 0 click，是本週 SC opportunities 最大未滿足 gap
+- **Evolve scan source pointers**：
+  - **SC 7d opportunities**：`"hsu cho-yun" "wang leehom"` 1561 imp / 0 click（#1） + `"wang leehom" "hsu cho-yun"` 1103 imp / 0 click（#2） + `"cho-yun hsu" "wang leehom"` 290 imp / 0 click（#7） — 三變體加總 ~2954 imp / **0 click 跨變體**。引號搜尋語意 = 英語讀者明確查「兩人關係」（外甥孫 / great-nephew via marriage），全部落空
+  - **GA 28d**：許倬雲 path 未進 top 30 7d 列表（不在 amplification 直接受益 page），但 SC 顯示 demand 累積在英文圈 — 文章 zh-only + 缺王力宏 framing 雙重摩擦
+  - **既有 article state**：145 行 / 11.7K chars / 10 H2，僅 §2024 唐獎段落 inline 引王力宏悼文（「他是九個兄弟姊妹中的第七個...」）但 (a) frontmatter description 完全不提王力宏 → SERP snippet 無法 match SC query 意圖 (b) 家族譜系（姊姊許婉清是王力宏外婆）零展開 (c) 著作清單僅參考資料末段點名 6 部，缺策展性導讀
+  - **GitHub feedback**：無 open issue 直接點名，但 #1063 audit 提及高度重複文章合併建議 — 許倬雲 vs 其他歷史學者類別 cross-link 密度待補
+- **為什麼這篇 vs 其他**（per EVOLVE-PIPELINE Phase 5 ENRICH）：
+  - vs 聶永真 EVOLVE 候選（SC 學歷 cluster 1320 imp / 1.3% CTR）— 聶永真 article 2026-05-08 才 ship（9 天）+ 34K chars 已深，主要缺口在 description SEO（學歷 + AGI keyword 加進去），規模 = cosmetic heal commit 不需 EVOLVE entry
+  - vs 蘋果西打（GA #1 207 users）— 2026-05-11 才 ship（6 天）+ 31K chars，#1 流量是 launch + 社群引流 signal，**新文章高熱 ≠ EVOLVE 候選**（per REFLEXES #38 status 設計鐵律：fresh 與 stale 是不同維度）
+  - vs 紀政（SC 11.54% CTR pos 5.7）— 紀政 article 雖 7 H2 偏薄，但 CTR 已健康，下次 evolve cycle 再評
+  - vs 「張懸被關地下室」508 imp 1.57% CTR — 既有 [張懸與安溥](../../knowledge/Music/張懸與安溥.md) 已 cover 該事件（2008 海外維權誤傳 vs 2014 太陽花真實參與），signal 屬讀者 fact-check 旅程而非 article gap
+  - **許倬雲是唯一同時滿足「既有 article 偏薄 + SC opportunities top 3 cluster + 跨語言 demand 缺 SEO 橋」三條件的本週新發現**
+  - Sovereignty preservation lens（per MANIFESTO §主權的巴別塔）：英文圈查「Hsu Cho-yun Wang Leehom」反映外籍漢學圈 + 海外華人對台灣出身史學家家族脈絡的 demand，當前 Taiwan.md 沉默 = 留給維基百科 / 中國視角 source 接管 framing
+- **Notes**：
+  - 既有 baseline audit（Stage 0 必跑）：完整 Read 現有 145 行確認哪些段落保留 / 哪些補深度，特別 §2024 唐獎引王力宏悼文段落要擴成獨立 H2（家族譜系 / 母系王家）
+  - **核心 facts to verify**（三源驗證 per REFLEXES #16）：
+    - 許倬雲 1930 年生於江蘇無錫 / 2025-08-03 美國辭世 享壽 95 歲 — 多源 cross
+    - 先天性肌肉萎縮症具體名稱（醫學病名）+ 童年抗戰流亡細節
+    - 姊姊許婉清 → 王力宏母親許自琪 → 王力宏 三代脈絡（王力宏自承「外甥孫」措辭精確性）
+    - 匹茲堡大學任教年份（1970 起？）+ 中研院院士當選年（1980？）
+    - 唐獎漢學獎 2024 年屆別（第六屆？）+ 同屆其他得主
+    - 著作出版年份 + 出版社（《西周史》《漢代農業》《我者與他者》《萬古江河》《美國六十年滄桑》）
+    - 「兩根手指打字」具體影片 / 訪談 verbatim source
+  - **核心矛盾候選**（Stage 0 §觀點成型，≤ 30 字）：
+    - A.「肉體幾乎被疾病奪走的人，用兩指寫出一條中國史的長河」
+    - B.「從無錫流亡到匹茲堡的史學家，把中國放回世界史看」
+    - C.「九五歲辭世後，外甥孫王力宏的悼文讓他被新世代讀者認識」
+  - **Title 三明治候選**：
+    - 「許倬雲：兩根手指寫出《萬古江河》，從中國放回世界看的史學長河」
+    - 「許倬雲（1930-2025）：肌肉萎縮的史學大師，王力宏的舅公，最後一位大歷史寫作者」
+  - **EVOLVE 目標長度**：~25K-30K chars（從 11.7K 翻倍以上）+ 補 §家族譜系 + §匹茲堡學派 + §著作策展性導讀 三個新 H2
+  - **frontmatter description 必改**：加入「外甥孫王力宏」+ 「Hsu Cho-yun」英文姓名拼音 → SC snippet match 「hsu cho-yun wang leehom」cluster
+  - **政治敏感性**：中（兩岸學術橋樑 framing 需小心，per MAINTAINER §爭情處理 — 許倬雲晚年「中國中心論的批判」+「我者與他者」可作為超越單一政治立場的史學方法 anchor）
+  - **跨類別 cross-link 候選**（雙向）：
+    - 既有 `knowledge/People/許倬雲.md` ⇄ 王力宏文章（若無 → 可作 Music cluster spawning anchor）
+    - `knowledge/Music/` 王力宏 family tree references（如〈龍的傳人〉作者王力宏父親王大中也是學者）
+    - `knowledge/People/` 同代史學家（杜維明 / 余英時 / 林毓生）— 海外華裔史學圈三源比對
+    - `knowledge/History/` 章節 cite — 大歷史方法論可成為其他 History article 的 framing reference
+  - **翻譯優先**：SC demand 英語圈強烈，EVOLVE 完成後優先翻 en（修補 0 click → 至少 1-2% CTR），ja/ko 次之
+- **Reference**:
+  - SC 7d opportunities cluster（dashboard-analytics.json 2026-05-16 snapshot）
+  - 既有 article 參考資料：唐獎漢學獎、聯合新聞網 95 歲辭世訃聞、王力宏悼文、UDN 史學巨擘訃聞、Pitt History Dept 一手
+  - 補強 source 候選：中研院史語所訃聞 / 匹茲堡大學退休教授頁面 / 王力宏 IG 悼文原始 post / 《十三邀》訪談 verbatim（許倬雲對許知遠談話完整紀錄）
+- **預估時間**：~120 min（既有 11.7K baseline 起點 + Stage 1 deep research 30-40 min ≥ 20 search + Stage 2 寫作 50 min 補三段 + Stage 3-5 verify + ship 20 min）
 
 ### 台灣節慶與年度行事曆系列 — EVOLVE + NEW 混合
 
@@ -514,6 +490,22 @@ BECOME_TAIWANMD.md Step 5 新增：
   - cross-link：既有 People 運動員（雙向）+ 台灣棒球文化 + 巧固球 + 台灣教育制度（基層體育）+ 國防現代化（國軍體幹班歷史）
 - **Reference**: 體育署 https://www.sa.gov.tw/ / 國訓中心 https://www.nstc.org.tw/ / 中華奧會 https://www.tpenoc.net/ / 維基百科〈中華民國體育〉/ 各專項協會
 - **預估時間**：~150 min（NEW Society 深度研究，多 source 必跑奧運成績 cross-check）
+
+### 葉廷皓 — 聲響藝術家 / 新媒體藝術 NEW
+
+- **Type**: `NEW`
+- **Category**: Art
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Source**: 觀察者直接指派（2026-05-09 laughing-goldstine post-finale, 哲宇）
+- **Notes**:
+  - 葉廷皓（Yeh Ting-Hao）— 台灣 audio-visual / sound art / new media 創作者
+  - 主題 anchors（待 research 驗證）：(a) AV 即時演出 / generative audio-visual 美學脈絡 (b) 跟 TouchDesigner / Max/MSP / 純粹聲響演出社群的位置 (c) 跨機構教育角色（如 TNUA 任教、新媒體藝術系所）(d) 代表作品 / 國際展演 / 跨域合作（音樂節 / 跨國 sound art collective）
+  - 必驗事實：作品時間軸、跨域合作對象（音樂人 / 視覺藝術家 / 機構）、教學機構、近期展演與 lectures（2024-2026）。所有引用必須三源驗證（REFLEXES #16）
+  - cross-link 候選：Art / 音樂 / Technology / 新媒體藝術相關既有人物
+  - Framing：策展性人物 frame — 台灣 sound art / new media 場景的 first-person voice，不是百科式條目
+- **Reference**: 觀察者素材待補（哲宇可指方向 / 個人網站 / 展演紀錄 / 訪談）
+- **預估時間**：90-120 min（NEW Art - 人物，需多源研究 + 訪談 / 報導 cross-check）
 
 ### Blue UAS Cleared List 台灣廠商（2026 美國國防部無人機白名單）NEW
 

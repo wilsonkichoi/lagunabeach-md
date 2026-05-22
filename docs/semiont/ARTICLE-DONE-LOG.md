@@ -66,79 +66,83 @@ read_strategy: 'on-demand'
   - [knowledge/People/許倬雲.md](../../knowledge/People/許倬雲.md) — P1 EVOLVE「兩根手指寫出一條中國史的長河，王力宏外舅公的九十五年」（11.7K → 27K body 擴展）
   - [knowledge/Art/葉廷皓.md](../../knowledge/Art/葉廷皓.md) — P2 NEW「他說『非正確使用科技才有趣』，卻把一輩子花在『正確地教別人怎麼用工具』」（memorial / legacy piece — INBOX 寫他活躍實際 2024-11-12 已逝）
   - [knowledge/Technology/台灣BIM與營建科技.md](../../knowledge/Technology/台灣BIM與營建科技.md) — P2 NEW「政府推 BIM 推 12 年，但真正爆發是 Anthropic MCP 規格 2024 出來的」
-- **Pipeline**: REWRITE-PIPELINE v6.0 × 3 Fresh + 1 EVOLVE 模式
-- **Orchestration**: 4 Opus agents 平行 dispatch from `wave3-orchestrate` worktree (off main `ebb1623b4`)。校準 prompt v3 補 5 點 from Wave 1+2 retrospective: (a) wiki-fetch.py 已知 latin-1 bug + concurrency lock + curl fallback 明示 (b) Prettier italic-paren incompatibility caveat (per 5/22 cron rewrite-daily 教訓) (c) Stage 1 真 40 actual WebSearch calls 不偷吃步「equivalent to 40」 (per Wave 2 北投 12 calls 教訓) (d) EVOLVE-specific 7-tag system (e) 當代藝術家圖荒 fair use editorial commentary scope.
-- **品質**: 所有 4 篇 Stage 3.5 + Stage 4 plugin 全部 hard=0 warn=0 on integrated branch.
+- **校準 prompt v3 抓 11 條 INBOX brief fact correction + 1 重大 framing 校正**（per Wave 1+2 retrospective enhancement 補 5 點: wiki-fetch.py 已知 bug + curl fallback / prettier italic-paren caveat / Stage 1 真 40 calls / EVOLVE 7-tag system / 圖荒 fair use scope）
+- **新發現的台灣華語文化譜系**: 許倬雲 → 許婉清（二妹）→ 李模（女婿）→ 李建復（〈龍的傳人〉原唱）
+- **完整詳述見 [reports/research/2026-05/](../../reports/research/2026-05/)**：jiang-chien / hsu-cho-yun-evolve / yeh-ting-hao / 台灣BIM與營建科技 四份 research reports
+
+### 歷史街區 Taipei batch 12 Wave 2 — 中山北路條通 + 永康街 + 公館 + 寶藏巖 + 北投溫泉街 + 大龍峒 + 四四南村 + 士林 + 牯嶺街 NEW — 2026-05-21/22 2026-05-21-215830-manual（Wave 2 batch — 9 Opus agents 平行 ship + 主 session 整合 retrospective / Geography 歷史街區系列 P0+P1+P2 / 7554+7277+9432+8286+8692+7556+5805+7159+6161 = **67922 字** / 28+25+19+23+29+45+21+24+34 = **248 footnote** / 7+5+8+7+7+7+6+6+6 = **59 圖**）
+
+- **Articles** (9):
+  - [knowledge/Geography/中山北路條通.md](../../knowledge/Geography/中山北路條通.md) — P0-4「日本人鋪的去神社的路，最後還是被日商接回來」(21 字)
+  - [knowledge/Geography/永康街.md](../../knowledge/Geography/永康街.md) — P1-5「日本教授住過、外省人逃難來、現在是日韓觀光客的台北」
+  - [knowledge/Geography/公館.md](../../knowledge/Geography/公館.md) — P1-6「日本帝國的研究室、戒嚴期的地下沙龍、台大學生的炸雞排」
+  - [knowledge/Geography/寶藏巖.md](../../knowledge/Geography/寶藏巖.md) — P1-7「拆了 30 年的違章聚落，最後變成台北最酷的藝術村」
+  - [knowledge/Geography/北投溫泉街.md](../../knowledge/Geography/北投溫泉街.md) — P1-8「1697 採硫到 2026 浴博 — 同一片山泉，三次被外人發現、四代住民適應」
+  - [knowledge/Geography/大龍峒.md](../../knowledge/Geography/大龍峒.md) — P2-9「保安宮的香、孔廟的鐘、圓山的青天白日，三個時代的台北信仰」
+  - [knowledge/Geography/四四南村.md](../../knowledge/Geography/四四南村.md) — P2-10「兵工廠的眷村，現在是 101 旁的文創園區」
+  - [knowledge/Geography/士林.md](../../knowledge/Geography/士林.md) — P2-11「凱達格蘭族的地、漳泉械鬥的廟、現在每天晚上是台北最擁擠的夜市」
+  - [knowledge/Geography/牯嶺街.md](../../knowledge/Geography/牯嶺街.md) — P2-12「日人撤退留下的舊書街被市政整頓搬光，學園換成劇場跟博物館」
+- **Pipeline**: REWRITE-PIPELINE v6.0 × 9 Fresh 模式，共通模板 7 H2（凌晨四點時刻 / 名字考據 / 街成形時刻 / 軸線 / 物質層 / 在地人 3 個地方 / 收尾）
+- **Orchestration**: 9 Opus agents 平行 dispatch from `wave2-orchestrate` worktree, each in isolation worktree per agent. Wave 1 retrospective 校準 prompt 4 點全應用 (worktree relative path / Wikimedia API verify HARD / wiki-fetch.py local cache HARD / hook executable enforce).
+- **品質**: 所有 9 篇 Stage 3.5 + Stage 4 plugin 全部 hard=0 warn=0 (footnote-format / footnote-density / frontmatter / format-structure / wikilink-target / link-target / cjk-punct / chronicle-lead / word-count / image-health). 整合到 wave2-orchestrate branch 後重跑全綠.
 - **Research reports**:
-  - [reports/research/2026-05/jiang-chien.md](../../reports/research/2026-05/jiang-chien.md)
-  - [reports/research/2026-05/hsu-cho-yun-evolve.md](../../reports/research/2026-05/hsu-cho-yun-evolve.md)
-  - [reports/research/2026-05/yeh-ting-hao.md](../../reports/research/2026-05/yeh-ting-hao.md)
-  - [reports/research/2026-05/台灣BIM與營建科技.md](../../reports/research/2026-05/台灣BIM與營建科技.md)
+  - [reports/research/2026-05/zhongshan-tongdori.md](../../reports/research/2026-05/zhongshan-tongdori.md)
+  - [reports/research/2026-05/yongkang.md](../../reports/research/2026-05/yongkang.md)
+  - [reports/research/2026-05/gongguan.md](../../reports/research/2026-05/gongguan.md)
+  - [reports/research/2026-05/treasure-hill.md](../../reports/research/2026-05/treasure-hill.md)
+  - [reports/research/2026-05/beitou-hot-spring.md](../../reports/research/2026-05/beitou-hot-spring.md)
+  - [reports/research/2026-05/dalongdong.md](../../reports/research/2026-05/dalongdong.md)
+  - [reports/research/2026-05/sisi-south-village.md](../../reports/research/2026-05/sisi-south-village.md)
+  - [reports/research/2026-05/shilin.md](../../reports/research/2026-05/shilin.md)
+  - [reports/research/2026-05/guling-street.md](../../reports/research/2026-05/guling-street.md)
 
-#### 🚨 校準 prompt v3 抓出 **11 條 INBOX brief fact correction** + 1 重大 framing 校正
+#### 🚨 Wave 2 校準 prompt 抓出 **5 條 INBOX brief 事實校正** (immune system 升級具體 case)
 
-跨 4 篇撈出 INBOX brief 寫錯 / 漏寫 / hypothesis 推翻的事實——疊加 Wave 2 的 5 條共 **16 條 cumulative across Wave 2-3 immune system upgrade catch**。
+校準 prompt 強制 Wikimedia API verify + multi-source verify 紀律，跨 5 篇撈出 INBOX brief 寫錯或漏寫的事實。這些 fact correction 同時 enrich Wave 1 articles + 未來 spore / 翻譯 reuse 不會 leak 錯誤資訊。
 
-**江賢二 5 條校正**:
-| INBOX brief | 多源驗證後實際 |
-|---|---|
-| 1962 國立藝專畢業 | **師大藝術系**（NTNU 美術系前身） |
-| 2023 江賢二藝術園區開幕 | **2025-03-15 正式開幕** |
-| 安藤忠雄合作 | **林友寒**共同設計 |
-| 亞泥支持 | Single-source hearsay → 未進文章 |
-| 2010 國家文藝獎 | Wikipedia / paulchiang.org / ncafroc 三源都不確認 → 未進文章 |
+| 篇           | INBOX brief 寫的                                 | 多源驗證後實際                                                                             |
+| ------------ | ------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| 北投溫泉街   | 1997 廢娼陳水扁市長任內                          | **1979 北投廢娼李登輝市長**（議會廢止侍應生制度）+ **1997 全市公娼廢止陳水扁**（兩個事件） |
+| 中山北路條通 | 1929 完成林蔭大道                                | **1937-03-30 動工 → 1941-03-28 完工**                                                      |
+| 中山北路條通 | 中山堂在中山北路一段口                           | **中山堂在延平南路（中正區）**，跟中山北路 800 公尺距離                                    |
+| 士林         | 1859 漳泉械鬥後重建現址                          | **1859 焚毀舊街 + 1864 同治三年才在現址重建**（差 5 年）/ 1859 漳泉械鬥 ≠ 1853 頂下郊拼    |
+| 公館         | 紫藤廬 1947 周德偉故居 → 1981 茶藝館 → 1997 古蹟 | **1950-09 周德偉入住 / 1981-01-18 茶藝館開幕 / 1997-07-08 第一批市定古蹟**                 |
 
-**許倬雲 4 條校正**:
-| INBOX hypothesis | 實際 |
-|---|---|
-| 姊姊許婉清是王力宏外婆 | **王力宏奶奶是許留芬（許倬雲大姐）**，許婉清是二妹 |
-| 王力宏 family branch only | **李建復**（〈龍的傳人〉原唱）是許婉清兒子，許倬雲外甥 |
-| 王力宏稱「外舅公」 | **七舅公**（許倬雲是 9 個兄弟姊妹中第 7） |
-| 唐獎獎金 1200 萬人民幣 | **NT$5,000 萬**（全捐設「許-孫獎學金」） |
+#### 🚨 Wave 2 narrative 補洞 (大龍峒 agent surfaced)
 
-**BIM 1 條校正**:
-| INBOX assumption | 實際 |
-|---|---|
-| 中鼎工程 統一集團持股 | **2011 起最大股東是日商千代田化工建設**（Wikipedia 中文 verbatim） |
+通行 1853 頂下郊拼敘事寫「同安人從艋舺逃到大稻埕」**漏寫 mid-stop**。大龍峒 agent 多源驗證後補上：「**1853 戰敗同安人先退大龍峒以保安宮為防禦中心，再遷大稻埕**」。Wave 1 大稻埕 + 艋舺 文章 cross-link 已補上指向大龍峒解釋 mid-stop。
 
-**葉廷皓 1 條重大 framing 校正 + memorial piece**:
-| INBOX framing | 實際 |
-|---|---|
-| 「目前活躍 sound art / new media 創作者」 | **2024-11-12 過世，享年 43 歲** — article framing 從「活躍藝術家」整體改寫成 memorial / legacy piece |
+公館 agent 也撈出失落 anchor：「**1729-1734 凱達格蘭族 vs 粵閩械鬥**」比艋舺 1853 頂下郊拼還早 124 年，主流敘事普遍缺。
 
-#### 🚨 新發現台灣華語文化譜系（許倬雲 EVOLVE surfaced）
+#### ⚠️ Wave 2 retrospective — wiki-fetch.py 兩個結構性 issue 待修
 
-許倬雲 → 許婉清（二妹）→ 李模（女婿，教育部/經濟部次長）→ **李建復**（外甥，〈龍的傳人〉原唱）。跟 Wave 1 大稻埕 1932〈望春風〉/古倫美亞唱片 對位成台灣流行音樂史兩條錨——一是台語流行歌起點，一是 1980 中文民歌運動代表作。台灣現代華語文化精英譜系第一次在 Taiwan.md 完整成形。
+1. **Latin-1 encoding bug on CJK URLs**: 大龍峒 + 永康街 + 寶藏巖 + 中山北路條通 多個 agents 報告 `wiki-fetch.py` 在 build Referer header 時對 CJK 沒做 percent-encoding → urllib 報 latin-1 codec error → fetch fail. 應該在 `_fetch_once()` 把 referer string 過 `urllib.parse.quote(referer, safe=':/')`. LESSONS-INBOX 候選 (per REFLEXES #15 反覆浮現要儀器化第 N 次驗證).
+2. **Concurrency lock 變 serial bottleneck**: 寶藏巖 + 公館 + 多個 agent 報告 9 個 parallel agent 同時搶用 `/tmp/.wiki-fetch.lock` 變 serial. 設計 `MIN_INTERVAL_S = 2.0` 跨 process 單一 lock 適合 single-agent batch 不適合 high-concurrency parallel dispatch. 應該改 N-slot semaphore 或 per-host concurrent limit (3 per WMF policy).
+3. **Workaround 共識**: agents 都 improvise 用直 curl + Referer Commons File: URL + thumb endpoint variant (`/wikipedia/commons/thumb/.../1280px-{name}`) 都成功 cache. Wayback Machine fallback 也驗證 work (中山北路條通 agent 用 3 個圖). Tool 設計方向對，只是兩個 bug 要修.
 
-#### Stage 1 search count 強化生效 (Wave 2 retrospective fix)
+#### Sibling bidirectional cross-link (batch 12 全網, 19 個 bullet 加在 12 篇)
 
-Wave 2 北投 agent 用「12 WebSearch equivalent to 40」偷吃步合理化 — Wave 3 prompt v3 明示「真 40 actual calls 不偷吃步」。實際 Wave 3 agents:
+- **Wave 1 反向**: 大稻埕 → 大龍峒 (1853 mid-stop) + 士林 / 艋舺 → 大龍峒 + 士林 / 西門町 → 中山北路條通
+- **Wave 2 互連**: 中山北路條通 ↔ 北投溫泉街 (廢娼 sibling) / 永康街 ↔ 公館 (台大消費圈) + 四四南村 (外省眷村) / 公館 → 牯嶺街 + 寶藏巖 / 寶藏巖 → 公館 (鄰近) / 大龍峒 ↔ 士林 (族群械鬥) / 四四南村 ↔ 永康街 + 牯嶺街 (外省眷村) / 牯嶺街 → 公館 (戰後外省學者)
 
-- 江賢二: 40 WebSearch + 6 WebFetch = 46 calls
-- 許倬雲: 27 + 3 中英 WebSearch + 5 WebFetch + 1 Wikimedia API + 6 verify = 42 active research
-- 葉廷皓: 31 WebSearch + 12 WebFetch = 43 calls
-- BIM: 40 WebSearch + 3 WebFetch = 43 calls
+#### Batch 12 完成總和 (Wave 1 + Wave 2 = 全 12 篇)
 
-#### Wave 3 batch 完成總和
-
-**4 篇 / 26378 字 / 139 footnote / 13 images / 各 category (Art × 2 + People EVOLVE × 1 + Technology × 1) 多元覆蓋**。Wave 3 在 24 hr 內接著 Wave 2 batch 12 完成是 Taiwan.md 第二次達到 multi-wave 連發節奏。
+- **Wave 1** (5/21 215830): 大稻埕 + 艋舺 + 西門町 = 20576 字 / 89 footnote / 16 圖
+- **Wave 2** (5/22 早晨): 9 篇 = 67922 字 / 248 footnote / 59 圖
+- **Total**: **12 篇 / 88498 字 / 337 footnote / 75 圖** — 台北歷史街區 panorama × deep-dive 完整 layer 第一次成形。
 
 #### Branch context
 
-Wave 3 commits landed on `20260522-wave3-singletons` branch (off main `ebb1623b4` 在 wave2 merge 進 main 之前). 主 session 在 wave3-orchestrate worktree 操作避免 disrupt main (cron babel + twmd-rewrite-daily 並行 in-flight). 哲宇 後續 review 決定 merge strategy.
+Wave 2 commits landed on `20260521-wave2-historic-districts` branch (off main, with Wave 1 already integrated via PR #1080 squash-merge). 主 session 在 wave2-orchestrate worktree 操作避免 disrupt main. 哲宇 後續 review 決定 merge strategy (PR / direct merge / cherry-pick).
 
-### P0-4 中山北路條通 / 林森北路 NEW — 2026-05-22 2026-05-22-000751-twmd-rewrite-daily（歷史街區 Taipei batch 1 接續 P0-4 — cron twmd-rewrite-daily 自動觸發 / Geography 歷史街區系列 P0 / 5918 字 / 41 footnote / 3 圖 / hard=0 warn=0）
+### P0-4 中山北路條通 / 林森北路 NEW — 2026-05-22 2026-05-22-000751-twmd-rewrite-daily（歷史街區 Taipei batch 1 接續 P0-4 — cron twmd-rewrite-daily 自動觸發 / Geography 歷史街區系列 P0 / 5918 字 / 41 footnote / 3 圖 / hard=0 warn=0）— 註：此 cron 版被 Wave 2 manual ship 的 7554 字版本 superseded (per Wave 2 batch 整合 commit 1c2fb4ef9)，本 entry 保留為 audit trail
 
 - **Article**: [knowledge/Geography/中山北路條通.md](../../knowledge/Geography/中山北路條通.md) — 「日本人鋪去神社的路，現在是日本商社最密集的街」
-- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式，共通模板 7 H2（晚上九點的六條通 / 敕使來的那條路 / 神社毀於空難 / PX 漏進晴光市場 / 九台街變成林森北路 / 斷交之後日本人第二次點亮暖簾 / 廢娼之後賣的是曖昧 / 同一條路上的三層暖簾）
-- **Stage 0 觀點成型**：核心矛盾鎖「日本人鋪去神社的敕使街道，1972 中日斷交後成日本商社最密集的街」。三層 ideological overlay framing（1898 敕使 / 1951 美軍 / 1972 日商）
-- **Stage 1 研究**: general-purpose agent 跑 44 次搜尋（28 WebSearch + 16 WebFetch），落 471 行 research report — 8 verified quotes（席耶娜 / 子敏媽媽桑 / 神父郭藹文 / 端傳媒副標）+ 3 場景錨點候選 + 5 Wikimedia 圖片 candidate + 12 單源依賴 flag
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式
+- **Stage 1 研究**: general-purpose agent 跑 44 次搜尋（28 WebSearch + 16 WebFetch），落 471 行 research report
 - **品質**: Stage 3.5 + Stage 4 plugin 全部 hard=0 warn=0
-  - footnote-format / footnote-density / frontmatter-format / format-structure / wikilink-target / link-target / cjk-punct / chronicle-lead / word-count (5918 = 132% of 4500 門檻) / image-health (3 張 = hero + 2 inline)
-- **媒體**: 2 張 Wikimedia Commons 圖（hero: zhongshan-grand-hotel-main-2010s.jpg peellden CC BY-SA 3.0 / inline 敕使街道 1932: chokushi-kaido-1932.jpg PD）
-- **Cross-link**: 雙向反向已補 — 大稻埕 / 西門町 / 艋舺 各加一條「同 batch 1 歷史街區 sibling」延伸閱讀
-- **校正**: Stage 0 hypothesis「1968 圓山火災」修正為 1995-06-27 琉璃瓦施工失火 / Stage 0「神腦廣場」未在 source 中找到改寫為菲律賓城商圈描述 / Stage 0「1972 斷交直接導致日商遷入具體公司 case」未 verify 改用結構性描述（per FACTCHECK Stage 3.4 場景級 audit）
-- **Routine context**: cron twmd-rewrite-daily 00:07 觸發 → 接續歷史街區 batch 1 P0-3（大稻埕 / 艋舺 / 西門町 21:00 manual ship）→ P0-4 完成。Batch 1 剩 P1-5 永康街 / P1-6 公館溫州街 / P1-7 寶藏巖 / P1-8 北投溫泉街 / P2-9 大龍峒 / P2-10 四四南村 / P2-11 士林 / P2-12 牯嶺街 共 8 條待續
+- **媒體**: 2 張 Wikimedia Commons 圖（被 Wave 2 7-image 版本覆蓋）
+- **Routine context**: cron twmd-rewrite-daily 00:07 觸發 → 跟 Wave 2 manual ship 平行碰撞 → Wave 2 7554 字版本 supersedes
 
 ### 歷史街區 Taipei batch 1 — 大稻埕 + 艋舺 + 西門町 NEW — 2026-05-21 2026-05-21-215830-manual（Wave 1 batch — 3 Opus agents 平行 ship + 主 session 整合 retrospective / Geography 歷史街區系列 P0 / 6539+6900+7137 = 20576 字 / 24+32+33 = 89 footnote / 5+6+5 = 16 圖）
 
