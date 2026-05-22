@@ -59,6 +59,17 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### Wave 3 singletons batch — 江賢二 + 許倬雲 EVOLVE + 葉廷皓 + 台灣 BIM 與營建科技 NEW — 2026-05-22 2026-05-21-215830-manual（Wave 3 batch — 4 Opus agents 平行 ship + 校準 prompt v3 / 4 categories: Art × 2 + People × 1 + Technology × 1 / 5290+7908+6796+6384 = **26378 字** / 18+34+34+53 = **139 footnote** / 3+3+3+4 = **13 圖**）
+
+- **Articles** (4):
+  - [knowledge/Art/江賢二.md](../../knowledge/Art/江賢二.md) — P2 NEW「逃離臺灣四十五年，回家後才畫得出他這輩子最好的畫」
+  - [knowledge/People/許倬雲.md](../../knowledge/People/許倬雲.md) — P1 EVOLVE「兩根手指寫出一條中國史的長河，王力宏外舅公的九十五年」（11.7K → 27K body 擴展）
+  - [knowledge/Art/葉廷皓.md](../../knowledge/Art/葉廷皓.md) — P2 NEW「他說『非正確使用科技才有趣』，卻把一輩子花在『正確地教別人怎麼用工具』」（memorial / legacy piece — INBOX 寫他活躍實際 2024-11-12 已逝）
+  - [knowledge/Technology/台灣BIM與營建科技.md](../../knowledge/Technology/台灣BIM與營建科技.md) — P2 NEW「政府推 BIM 推 12 年，但真正爆發是 Anthropic MCP 規格 2024 出來的」
+- **校準 prompt v3 抓 11 條 INBOX brief fact correction + 1 重大 framing 校正**（per Wave 1+2 retrospective enhancement 補 5 點: wiki-fetch.py 已知 bug + curl fallback / prettier italic-paren caveat / Stage 1 真 40 calls / EVOLVE 7-tag system / 圖荒 fair use scope）
+- **新發現的台灣華語文化譜系**: 許倬雲 → 許婉清（二妹）→ 李模（女婿）→ 李建復（〈龍的傳人〉原唱）
+- **完整詳述見 [reports/research/2026-05/](../../reports/research/2026-05/)**：jiang-chien / hsu-cho-yun-evolve / yeh-ting-hao / 台灣BIM與營建科技 四份 research reports
+
 ### 歷史街區 Taipei batch 12 Wave 2 — 中山北路條通 + 永康街 + 公館 + 寶藏巖 + 北投溫泉街 + 大龍峒 + 四四南村 + 士林 + 牯嶺街 NEW — 2026-05-21/22 2026-05-21-215830-manual（Wave 2 batch — 9 Opus agents 平行 ship + 主 session 整合 retrospective / Geography 歷史街區系列 P0+P1+P2 / 7554+7277+9432+8286+8692+7556+5805+7159+6161 = **67922 字** / 28+25+19+23+29+45+21+24+34 = **248 footnote** / 7+5+8+7+7+7+6+6+6 = **59 圖**）
 
 - **Articles** (9):
@@ -123,6 +134,15 @@ read_strategy: 'on-demand'
 #### Branch context
 
 Wave 2 commits landed on `20260521-wave2-historic-districts` branch (off main, with Wave 1 already integrated via PR #1080 squash-merge). 主 session 在 wave2-orchestrate worktree 操作避免 disrupt main. 哲宇 後續 review 決定 merge strategy (PR / direct merge / cherry-pick).
+
+### P0-4 中山北路條通 / 林森北路 NEW — 2026-05-22 2026-05-22-000751-twmd-rewrite-daily（歷史街區 Taipei batch 1 接續 P0-4 — cron twmd-rewrite-daily 自動觸發 / Geography 歷史街區系列 P0 / 5918 字 / 41 footnote / 3 圖 / hard=0 warn=0）— 註：此 cron 版被 Wave 2 manual ship 的 7554 字版本 superseded (per Wave 2 batch 整合 commit 1c2fb4ef9)，本 entry 保留為 audit trail
+
+- **Article**: [knowledge/Geography/中山北路條通.md](../../knowledge/Geography/中山北路條通.md) — 「日本人鋪去神社的路，現在是日本商社最密集的街」
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式
+- **Stage 1 研究**: general-purpose agent 跑 44 次搜尋（28 WebSearch + 16 WebFetch），落 471 行 research report
+- **品質**: Stage 3.5 + Stage 4 plugin 全部 hard=0 warn=0
+- **媒體**: 2 張 Wikimedia Commons 圖（被 Wave 2 7-image 版本覆蓋）
+- **Routine context**: cron twmd-rewrite-daily 00:07 觸發 → 跟 Wave 2 manual ship 平行碰撞 → Wave 2 7554 字版本 supersedes
 
 ### 歷史街區 Taipei batch 1 — 大稻埕 + 艋舺 + 西門町 NEW — 2026-05-21 2026-05-21-215830-manual（Wave 1 batch — 3 Opus agents 平行 ship + 主 session 整合 retrospective / Geography 歷史街區系列 P0 / 6539+6900+7137 = 20576 字 / 24+32+33 = 89 footnote / 5+6+5 = 16 圖）
 

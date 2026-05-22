@@ -81,3 +81,17 @@ _session twmd-data-refresh-pm — Cron PM 23:00 dashboard sync + 5 commit push +
 _誕生原因：cron `0 23 * * *` 自動觸發 + working dir 預設停在 fix/issue-1059-ui-bugs + 3 UI WIP 未提交，routine 入口缺 branch+tree assertion 暴露隱性結構債_
 _核心洞察：(1) 1002 stars 靜悄悄越過 1000 線；(2) immune.json D+2 → D+4 carry-over 加速老化，generator gap 未補；(3) DATA-REFRESH-PIPELINE 起手前置條件「乾淨 main」是 prose hint 不是 fail-fast assertion — 生產環境 cron 入口會踩到非 main / WIP 場景；(4) mid-pipeline 隱性 branch switch root cause 未定位，cherry-pick + reset 是 workaround 不是 fix_
 _LESSONS-INBOX 候選：「cron routine 入口需要 branch + tree 雙重 assertion，不是 prose pre-condition」vc=1_
+
+---
+
+## Postscript（2026-05-21 23:21 +0800 — finale 結束發現）
+
+上面寫的「mid-pipeline 隱性 branch switch root cause 未定位」**診斷錯了**。Finale 結束後檢查 origin/main + origin/fix/issue-1059-ui-bugs 才看到全貌：本 routine 跑的同時，觀察者人類 session 在平行操作 fix/issue-1059-ui-bugs，於 23:14:40 commit `4c23fdf1b` 把 UI WIP 升 heal commit，再開 PR #1080 於 23:17:53 merge 進 main（`7d9edf360`）。Routine push memory 那刻 `7d9edf360..eb5dbe584 main -> main` 暗示 local main 在 memory commit 前已含 7d9edf360 — 中間某環節隱性 fast-forward。
+
+**真正 root cause**：兩個 actor 共用同 working directory + 同 git index 並行操作 — 觀察者人類 session 跟我這個 cron routine session 同時改 branch state，造成 reflog 上看到的 `moving from main to fix/issue-1059-ui-bugs` 不是 pipeline bug 而是 multi-core collision（5/21 09:10 maintainer-am vs data-refresh-am 同 cycle convergence 是同 pattern 的較溫和版本）。
+
+**「失去的 UI WIP」不真的失去** — 它已被觀察者升 4c23fdf1b heal commit 並 ship via PR #1080。Fix branch 現在 HEAD = 4c23fdf1b 是 healthier than 原本的 unstaged WIP 狀態。
+
+**修正後 LESSONS-INBOX 候選 vc=1**：「cron routine 跟人類觀察者 session 共享 working directory 時，並行 git 操作會在 reflog 留下無 explainable cause 的 branch switch — 不是 pipeline bug。Routine 入口的真正需要是 detect parallel-actor signal（origin fetch + 比對 local refs）而非單純 branch+tree assertion」
+
+原 diagnosis 留作證據鏈不刪（per MANIFESTO §時間是結構修補協議）。實際結構性教訓改寫如上。
