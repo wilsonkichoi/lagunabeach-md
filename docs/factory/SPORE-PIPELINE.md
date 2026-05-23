@@ -416,12 +416,12 @@ bash scripts/tools/make-spore.sh /people/李洋/ --prod         # 直接打 prod
 
 1. 孢子本體（= Threads 主貼 = X 主文）寫好
 2. UTM 必加（`utm_source` 對應平台 / `utm_medium=spore` / `utm_campaign=s{number}`）— 不加 UTM = 不記錄的心跳
-3. **在聊天中呈現圖片 + 文案給觀察者**。觀察者必須**明確說 OK / 確認**才能進入下一步。模糊回應（「嗯」「看看」「可以改一下嗎」）不算確認，要追問
-4. **觀察者確認 OK 後，透過 Chrome MCP + osascript 自動發文**（[SOCIAL-POSTING-PIPELINE](../pipelines/SOCIAL-POSTING-PIPELINE.md)）：
+3. **AI pre-ship self-check 6 條公開報告給觀察者**（[SOCIAL-POSTING-PIPELINE §AI pre-ship self-check](../pipelines/SOCIAL-POSTING-PIPELINE.md)）：prose 跟 blueprint 對齊 / inline UTM URL 三段全填 / image attached / 帳號對 / Post button enabled / 字數安全。全 PASS 立即進 step 4（不等觀察者回覆）。任一 FAIL → stop + report。觀察者仍可 in-chat「先停 / 改 X / 取消」介入
+4. **透過 Chrome MCP + osascript 自動發文**（[SOCIAL-POSTING-PIPELINE](../pipelines/SOCIAL-POSTING-PIPELINE.md)）：
    - **圖片先進剪貼簿**：`osascript -e 'set the clipboard to (read (POSIX file "{square 配圖絕對路徑}") as «class PNGf»)'`
-   - **X**：navigate x.com → compose → Cmd+V 貼圖 → 輸入文案 + inline「完整故事 👉 {X UTM URL}」→ 觀察者點 Post
-   - **Threads**：navigate threads.net → 新串文 → 第一則 Cmd+V 貼圖 + 輸入文案 → 點「新增到串文」→ 第二則輸入「完整故事 👉 {Threads UTM URL}」→ 觀察者點發佈
-5. **發文後自行擷取 post URL**：navigate 到 @taiwandotmd profile → 點進最新 post → 從 URL 欄讀取
+   - **X**：navigate x.com → compose → Cmd+V 貼圖 → 輸入文案 + inline「完整故事 👉 {X UTM URL}」→ AI 自 click Post button
+   - **Threads**：navigate threads.net → 新串文 → 第一則 Cmd+V 貼圖 + 輸入文案 → 點「新增到串文」→ 第二則輸入「完整故事 👉 {Threads UTM URL}」→ AI 自 click「發佈」
+5. **發文後自行擷取 post URL + post-ship verify**：navigate 到 @taiwandotmd profile → JS query 最新 post href → navigate post URL → JS read 5 條 verify（textHasHook / textHasQuote / textHasCloseLine / imageCount ≥ 1 / UTM 留痕，per [SOCIAL-POSTING-PIPELINE §AI post-ship verify](../pipelines/SOCIAL-POSTING-PIPELINE.md)）。任一 FAIL 立即 report observer，不沉默 silent ship
    - X URL 格式：`https://x.com/taiwandotmd/status/{status_id}`
    - Threads URL 格式：`https://www.threads.com/@taiwandotmd/post/{post_code}`
 6. 記錄到 `SPORE-LOG.md` §發文紀錄（**URL 必填**；Threads 記主貼 URL，reply URL 可選填）
