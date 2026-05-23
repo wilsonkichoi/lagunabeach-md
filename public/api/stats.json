@@ -1,28 +1,28 @@
 {
-  "totalArticles": 4505,
+  "totalArticles": 4567,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 6886,
+  "totalTags": 6883,
   "categories": [
     {
       "name": "es",
-      "count": 740
+      "count": 752
     },
     {
       "name": "ko",
-      "count": 744
+      "count": 756
     },
     {
       "name": "fr",
-      "count": 760
+      "count": 772
     },
     {
       "name": "en",
-      "count": 761
+      "count": 773
     },
     {
       "name": "ja",
-      "count": 749
+      "count": 761
     },
     {
       "name": "History",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Music",
-      "count": 32
+      "count": 33
     },
     {
       "name": "Food",
@@ -70,7 +70,7 @@
     },
     {
       "name": "Art",
-      "count": 35
+      "count": 36
     },
     {
       "name": "About",
@@ -168,13 +168,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4505,
+    "zh-TW": 4567,
     "en": 0
   },
-  "lastUpdated": "2026-05-22T15:09:03.132Z",
-  "stars": 1004,
+  "lastUpdated": "2026-05-23T15:10:16.382Z",
+  "stars": 1006,
   "forks": 148,
-  "zhPages": 3744,
-  "enPages": 761,
-  "totalPages": 4505
+  "zhPages": 3794,
+  "enPages": 773,
+  "totalPages": 4567
 }

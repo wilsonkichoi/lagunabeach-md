@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-05-22T23:16:28.344049Z",
+  "lastUpdated": "2026-05-23T15:10:15.138418Z",
   "schemaVersion": "1.1",
   "totals": {
-    "count": 80,
+    "count": 82,
     "platforms": {
-      "x": 35,
-      "threads": 41,
+      "x": 36,
+      "threads": 42,
       "other": 4
     },
     "languages": {
-      "zh": 73,
+      "zh": 75,
       "en": 7
     },
     "templates": {
-      "A2": 20,
+      "A2": 22,
       "A": 27,
       "B": 27,
       "other": 2,
@@ -21,6 +21,38 @@
     }
   },
   "recent": [
+    {
+      "n": 83,
+      "date": "2026-05-23",
+      "platform": "x",
+      "article": "許倬雲",
+      "articleSlug": "許倬雲",
+      "category": "people",
+      "template": "A2 首尾呼應（家族 connection hook + 95 年弧線 A+B 混合）",
+      "url": "https://x.com/taiwandotmd/status/2058183941593719181",
+      "highlight": "**同 #82 內容**：X 單則 inline URL 版（utm_campaign=s83）。哲宇 directive Threads + X 雙平台 fan out — SC「hsu cho-yun + wang leehom」三變體 ~2,954 imp / 0 click 直接收口 + 海外華人圈漢學受眾 + 王力宏 + 李建復國民級品牌槓桿。Blueprint: [SPORE-BLUEPRINTS/82-許倬雲.md](SPORE-BLUEPRINTS/82-許倬雲.md)。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
+    {
+      "n": 82,
+      "date": "2026-05-23",
+      "platform": "threads",
+      "article": "許倬雲",
+      "articleSlug": "許倬雲",
+      "category": "people",
+      "template": "A2 首尾呼應（家族 connection hook + 95 年弧線 A+B 混合）",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYru52Bk31S",
+      "highlight": "**/twmd-spore 接續 SPORE-INBOX score=63 P1 candidate + 哲宇 directive「許倬雲」+ 哲宇拍板「A+B」混合**：開場「王力宏的奶奶有個七弟。〈龍的傳人〉1980 年原唱李建復」家族 connection hook → 中段「他寫了近 40 部書⋯⋯全程用僅剩兩根能施力的手指敲完」B 兩根手指 + 95 年數字嵌入故事高光 → 收尾「王力宏發文悼念『七舅公』——一個無錫許家，三代人⋯⋯」首尾呼應家族 reverberation。Tier 1a 知名度槓桿（王力宏 + 李建復國民級品牌）+ Tier 1b 具體性槓桿（無錫許家 + 兩根手指 specific anchor）疊加，預期 D+7 15K-50K。prose-health hard=0 / spore-writing hard=0 / 三板斧 不是 0 / —— 1 / 不僅 0 ✅✅✅ / 262 CJK / 5 段 / 段密度 1/52 sweet spot。事實查核閘 16 條全 ✅。紀實/煽情閘四問 pass（死亡是時序軸結尾非情感鉤、verbatim 引語、主體 explicit 公開行動、活下來的人繼續做）。多語 SSOT freshness 5 lang 全部 2026-05-22 對齊 zh-TW ✅（首例 5 語全 ready spore）。Threads 主貼不含 URL，self-reply 加 utm_campaign=s82 連結，主題「台灣」。配圖 square 1080×1080 + landscape 1600×900。**SOCIAL-POSTING-PIPELINE v0.5 directive 升級**：哲宇 2026-05-23 directive「不要再問我審核了，改成前你自己檢查，發出去之後再檢查一次成品貼文，盡量完整自動化」→ 移除 human confirm gate / 新增 AI pre-ship self-check + post-ship verify 成品貼文。本 spore 是 v0.5 首例實戰（X #83 直接 click Post + navigate post URL JS read 自動 verify hook/quote/close-line/image）。Blueprint: [SPORE-BLUEPRINTS/82-許倬雲.md](SPORE-BLUEPRINTS/82-許倬雲.md)。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
     {
       "n": 81,
       "date": "2026-05-23",
@@ -65,38 +97,6 @@
       "highlight": "**/twmd-spore 觸發 + v3→v4→v5 frame cascade**：哲宇 v3 callout「孢子方向可以再扎實一點，現在看起來會覺得感覺他們一路都很狀況外，但是他們很努力做這件事」+ 引 article 30 秒概覽/description 當 reframe anchor → v4 restore active build frame（接案 / 做成 / 拜訪 / 邀稿 / 撐起 / 串成 active verb chain + 「2013 年 80 多位部落客 / 2,780 多篇」具體建設規模 + 「學術圈視為台灣科學傳播民主化的重要節點」外部認可 + article verbatim 結構性張力收尾「科學太重要，需要更多人參與；也太脆弱，交給演算法就會失去公共討論的厚度」）→ v5 polish 斷句語感（serial verbs 三 verb 三 object 平衡 / 「他那時候講過一句很黑的話」borrow article line 31 framing / 「錄一支三分鐘約 1,200 字的科學短影音」破 dense modifier chain / 「但真正的難題」拿掉含糊指代）。spore-writing hard=0 / prose-health hard=0 score=0 / 三板斧 不是 0 / —— 1 / 不僅 0 ✅✅✅ / ~310 CJK / 5 段（段密度 1/57 sweet spot）。**3 串文 ship pattern 首例**（observer-explicit override feedback_spore_no_thread default）：哲宇拍 Threads 3 串文（DYi422_k4Vs 主貼 MOU announcement + 166 篇授權 partnership framing → DYi437SEyuh 串文 #2 spore v5 verbatim 一字沒改 → DYi4445k13o 串文 #3 article link with embed card），把我刻意排除的「self-reference MOU public announcement」用 Post 1 partnership 公告 + Tier 1a 知名度槓桿（PanSci 品牌 / 166 篇 / Nature / Science 國際大刊 / MOU 時事）拉動 Post 2 spore Tier 1b 具體性槓桿（鄭國威 + 黑洞引語 + 知識服務網規模），雙 hook tier 疊加。D+0 ~1hr 695 views / 46 likes / 3 reposts / 1 reply / 1 share = engagement rate 7.3%，Tier 1b 預期 D+7 5K-15K + Tier 1a partnership boost = 上修預估。**v3→v5 frame trap 教訓**：自貶 quote（「不稱職總編輯」/「我不知道」/「承認自己不知道」）+ 危機 list（「接過爭議贊助 + 被罵翻」）+ passive descent verb（「就此誕生」）在 spore 300 字密度堆疊讀成「狀況外但撐住」frame，misrepresent 努力做 15 年 + 學術圈認可 + 知識服務網規模的團隊。修補 SOP 升 feedback_spore_active_build_frame.md。Blueprint: [SPORE-BLUEPRINTS/78-泛科學.md](SPORE-BLUEPRINTS/78-泛科學.md)。",
       "views_7d": null,
       "views_latest": 1624,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": true
-    },
-    {
-      "n": 77,
-      "date": "2026-05-17",
-      "platform": "x",
-      "article": "臺灣前途決議文",
-      "articleSlug": "臺灣前途決議文",
-      "category": "history",
-      "template": "A2 首尾呼應 + 紀實感重寫 v2",
-      "url": "https://x.com/taiwandotmd/status/2056026352298688935",
-      "highlight": "**同 #76 內容**：X inline URL 版（utm_campaign=s77）。哲宇拍板 Threads + X 雙平台 fan out — 政治/制度題目 + 即時新聞熱度（2026.5.17 賴清德定調台獨意涵當天）。同日 ship 同主題 article (commit `3ec013e64`)，spore v1 → v2 紀實感重寫（觀察者 callout「更有紀實文學故事感」+ A2 首尾呼應強化「兩個字」icon），327 CJK / 5 段 / 段密度 1/65 sweet spot。Blueprint: [SPORE-BLUEPRINTS/76-臺灣前途決議文.md](SPORE-BLUEPRINTS/76-臺灣前途決議文.md)。",
-      "views_7d": null,
-      "views_latest": 224,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": true
-    },
-    {
-      "n": 76,
-      "date": "2026-05-17",
-      "platform": "threads",
-      "article": "臺灣前途決議文",
-      "articleSlug": "臺灣前途決議文",
-      "category": "history",
-      "template": "A2 首尾呼應 + 紀實感重寫 v2",
-      "url": "https://www.threads.com/@taiwandotmd/post/DYca5etE80R",
-      "highlight": "**/twmd-spore 直接觸發 + v1→v2 紀實感校準**：開場「1999 年初，民進黨總部，郭正亮接陳水扁透過秘書長游錫堃下的任務⋯⋯他在草稿裡寫下『國號中華民國』」場景 icon → 「林濁水拿過草稿，在『國號』前加了兩個字：『目前』。『扁系很不高興。』林濁水後來在訪談裡回憶」場景化引語 → 1999.5.8 高雄通過 + 2000 陳水扁 39.3% 政黨輪替 → 二十七年後 2026.5.17 賴清德回應川習會「中華民國和中華人民共和國互不隸屬」+ 林濁水臉書「很得宜」三字 → 首尾呼應收「二十七年前他在草稿上加進去的兩個字『目前』，今天仍然是民進黨整個兩岸論述的定錨」。Tier 1b 具體性槓桿（「兩個字」「目前」「扁系很不高興」具體 anchor + 27 年反差 hook）+ 中段結構性題目疊加。prose-health hard=0 / spore-writing hard=0 / 三板斧 不是 0 / —— 0 / 不僅 0 ✅✅✅ / 327 CJK / 5 段（79/91/45/76/36 CJK 長場景+短轉場節奏）/ 段密度 1/65 sweet spot。Fact-check 16 atoms verified（含 v2 強化「林濁水訪談裡回憶」場景化）。配圖 landscape 1600×900 + square 1080×1080（local dev 4321 重生避 prod 404 lag）。Threads 主貼不含 URL，self-reply 加 utm_campaign=s76 連結。**v1→v2 callout polish**：哲宇「孢子可以長一點點還有引人入勝些 更有紀實文學故事感」→ 從 255 CJK / 7 段資訊性開場 → 327 CJK / 5 段場景化 prose（補「擺在桌上的草稿」「拿過草稿」「林濁水後來在訪談裡回憶」具象動作 + A2 首尾呼應「加進去的兩個字」開場↔結尾 icon）。Blueprint: [SPORE-BLUEPRINTS/76-臺灣前途決議文.md](SPORE-BLUEPRINTS/76-臺灣前途決議文.md)。",
-      "views_7d": null,
-      "views_latest": 27000,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -251,6 +251,22 @@
       "url": "https://www.threads.com/@taiwandotmd/post/DYi422_k4Vs"
     },
     {
+      "n": 83,
+      "article": "許倬雲",
+      "platform": "x",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://x.com/taiwandotmd/status/2058183941593719181"
+    },
+    {
+      "n": 82,
+      "article": "許倬雲",
+      "platform": "threads",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYru52Bk31S"
+    },
+    {
       "n": 81,
       "article": "馬英九",
       "platform": "x",
@@ -335,11 +351,31 @@
     },
     {
       "week": "2026-W21",
-      "published": 3,
+      "published": 5,
       "avgViews": 1624
     }
   ],
   "harvestStatus": [
+    {
+      "n": 83,
+      "article": "許倬雲",
+      "platform": "x",
+      "publishDate": "2026-05-23",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
+    {
+      "n": 82,
+      "article": "許倬雲",
+      "platform": "threads",
+      "publishDate": "2026-05-23",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
     {
       "n": 81,
       "article": "馬英九",

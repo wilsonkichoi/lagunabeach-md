@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-05-22T15:09:03Z",
-  "total": 749,
-  "flagged": 315,
+  "timestamp": "2026-05-23T15:10:16Z",
+  "total": 751,
+  "flagged": 314,
   "files": [
     {
       "file": "music/拍謝少年.md",
@@ -1013,11 +1013,6 @@
       "file": "people/戴資穎.md",
       "score": 6,
       "reasons": "空洞詞12個; 塑膠句2個; 套路結尾; 無腳註"
-    },
-    {
-      "file": "people/馬英九.md",
-      "score": 11,
-      "reasons": "年份僅0個; 空洞詞9個; 未人工審核; 塑膠句1個; 破折號8個; 稀薄段落×4; 品質衰退前28%後15%"
     },
     {
       "file": "people/聶永真.md",

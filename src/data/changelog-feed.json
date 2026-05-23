@@ -1,7 +1,217 @@
 {
-  "generatedAt": "2026-05-22T15:09:02.140Z",
+  "generatedAt": "2026-05-23T15:10:15.214Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "5035e6fcf97e4351fab3a4b82ae8f185b6ca14ad",
+      "date": "2026-05-23T22:57:21+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] branch: 台灣詩人大資訊化研究 — 4 parallel agents 30K 字 / 66+ 詩人 + master report + 8 ARTICLE-INBOX entries"
+    },
+    {
+      "hash": "bfa0d8c40931f9c684151156df17c1837e855523",
+      "date": "2026-05-23T22:49:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: BRANCH-PIPELINE v1.0 → v2.0 — Broad-theme mode + spawn N parallel agents pattern + ARTICLE-INBOX 銜接 SOP (台灣詩人研究 session 實戰萃取)"
+    },
+    {
+      "hash": "4d7fab8ee41174313076a429346d689841d0ae12",
+      "date": "2026-05-23T22:45:37+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 臺灣漫遊錄 NEW — 楊双子 2024 NBA + 2026 Booker / Fresh / 4639 字 / 34 footnote / Stage 0-5 ✅"
+    },
+    {
+      "hash": "649689b4fd0380a0d90450c2da491af6950a0924",
+      "date": "2026-05-23T22:26:13+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SPORE-HARVEST-PIPELINE v2.3 — Cleanup tab group 結尾步驟 (mirror SOCIAL-POSTING v0.6 + 哲宇「其他 pipeline 也同步」directive)"
+    },
+    {
+      "hash": "79f6148f8c84d6f144bd5755970de555d31bb6d2",
+      "date": "2026-05-23T22:23:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SOCIAL-POSTING-PIPELINE v0.6 — 哲宇 directive 新增 §Cleanup tab group 結尾步驟 (X step 10 + Threads step 14 + 安全與治理 gate)"
+    },
+    {
+      "hash": "e3a3d779f2099122c550a6f58a2f938477f0932e",
+      "date": "2026-05-23T22:10:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: ARTICLE-INBOX 補 邦交國 EVOLVE candidate — SC 7d 「diplomatic allies 2026」4 變體 ~875 imp / 0 click cluster 缺口"
+    },
+    {
+      "hash": "65fc7c2f5842125d771c74fbed0eeba3e9d8fba3",
+      "date": "2026-05-23T22:08:21+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-05-23-220053-manual — 被拿掉的那道 confirm gate，後面是 helper 跟自主器官的分界線"
+    },
+    {
+      "hash": "c4d48a64bb5b9b682be2201e877afb2c078062c4",
+      "date": "2026-05-23T22:08:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-pm: #1091 squash merge + #1088/#1089/#1090 hold for observer review per #851 Comment 8 — 2026-05-23 22:07"
+    },
+    {
+      "hash": "7c318f6da248e69860ab5477c561e4054f49c778",
+      "date": "2026-05-23T22:05:38+08:00",
+      "author": "Zaious (@ChronicleCore)",
+      "message": "docs(community): maintainer collaboration discipline — 10 條協作紀律從 batch-200 實戰整理 (#1091)"
+    },
+    {
+      "hash": "a4e673de4369bdf818ab6923e010cdfaf71999df",
+      "date": "2026-05-23T22:05:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-23-220053-manual — 許倬雲 spore #82/#83 雙平台 ship + SOCIAL-POSTING v0.5 移除 human confirm gate 自動化升級 (AI pre+post-ship verify 取代)"
+    },
+    {
+      "hash": "8a17283dbe708f3607a526470990c53d9adbda40",
+      "date": "2026-05-23T22:01:07+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: SOCIAL-POSTING-PIPELINE description bump v0.5 metadata"
+    },
+    {
+      "hash": "3c17be7d270c146dad2526a1ac1d2c138e3145f7",
+      "date": "2026-05-23T21:59:37+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore: #82 許倬雲 Threads + #83 X 雙平台 ship + SOCIAL-POSTING v0.5 自動化升級"
+    },
+    {
+      "hash": "9ce028fc036d953eaa08774fc436574288ba9a5a",
+      "date": "2026-05-23T10:18:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-23-101013-twmd-music-media-audit-weekly — needs_heal 88 / heal velocity 0 / NEW velocity +2 雙路失敗結構首次顯化"
+    },
+    {
+      "hash": "03fbffd466c11996128cc964d0f89012cdbf3740",
+      "date": "2026-05-23T10:10:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] music-media-audit-weekly: needs heal 88 / at baseline 1 — 2026-05-23"
+    },
+    {
+      "hash": "384973ea18eb1f42412c9e93a91a6b3a4470bf55",
+      "date": "2026-05-23T09:19:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: empty PR vc=3 + tboydar-agent 3 dup issue close + orphan refresh artifact reset vc=2 — 2026-05-23 09:17"
+    },
+    {
+      "hash": "28e33c954d0b3838bd8cff28644291eb2146200d",
+      "date": "2026-05-23T08:56:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-23-080000-twmd-spore-pick-daily — 繁殖系統 intake 飛輪首轉 + 3 candidate ship"
+    },
+    {
+      "hash": "5c062d82b7c98d0c927f442205e2a280024cd168",
+      "date": "2026-05-23T08:53:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-pick-daily: 3 candidates — 2026-05-23"
+    },
+    {
+      "hash": "a7ac0443f32dd46618c7a55616f8108655088dfb",
+      "date": "2026-05-23T08:44:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: spore-pick design report — RemoteTrigger 改 local cron"
+    },
+    {
+      "hash": "23ef0aa4d2ef7f5da7142c07071ba7ca361f3479",
+      "date": "2026-05-23T07:18:25+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest-am: 5 spores — 2026-05-23"
+    },
+    {
+      "hash": "e383a81cb6b33b9387d27cfd6f23d964edc78b97",
+      "date": "2026-05-23T07:16:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-05-23-050000-twmd-babel-nightly — 我 commit 了一個警告我不要 commit 它的檔案"
+    },
+    {
+      "hash": "c60cbfa3364b49783d7cef9f546ae0972e49dd42",
+      "date": "2026-05-23T07:13:37+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-23-050000-twmd-babel-nightly — P0+P1 codex 95 min ship 70 translations + 5 lang 100% missing-free + LESSONS-INBOX sweep-in audit gap"
+    },
+    {
+      "hash": "9fb45ede26d210f3e2c43a3de1a94c28b2473a9a",
+      "date": "2026-05-23T07:10:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 70 translations — 2026-05-23"
+    },
+    {
+      "hash": "dc79ff746a5e8cf2ba5b0bb3164c9d0b9d664fc4",
+      "date": "2026-05-23T06:13:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: ABORTED + DEFER PM — parallel codex babel cascade detected at cwd (vc=4)"
+    },
+    {
+      "hash": "cf69164adda9b5a275ec1c9ca1c0007af5d6f5d6",
+      "date": "2026-05-23T01:10:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: twmd-spore-pick-daily routine — 繁殖系統 intake layer 自動化"
+    },
+    {
+      "hash": "4edc55b333b3cda461b3fcea3ed4435c837f12e4",
+      "date": "2026-05-23T01:01:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] babel: 馬英九 5 lang Tier 1 codex cascade — en/ja/ko/es/fr P1 stale full re-translate"
+    },
+    {
+      "hash": "215a98b4c6a189c6deca7dc23a3b0cf161787087",
+      "date": "2026-05-23T00:49:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-05-22-121707-manual-silent-default — silent default 是 silent failure：自動化 pipeline 假設 platform/tool default state 對的位置是結構性盲點"
+    },
+    {
+      "hash": "edc1680e73a2cf7dbf86fe3ff5ee23bd032ca454",
+      "date": "2026-05-23T00:49:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-23-000000-twmd-rewrite-daily — 落日飛車 NEW ship + 7 hub falsifications + footnote-format hybrid catch"
+    },
+    {
+      "hash": "cff3dbe3dba0a31c8a97ea712a816d720d6106ff",
+      "date": "2026-05-23T00:46:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-22-121707-manual — 馬英九 EVOLVE 6573 字 + spore 80/81 雙平台 SOCIAL-POSTING 全程實戰 + 三條 self-evolution"
+    },
+    {
+      "hash": "6620c2084a74c6d8da595d03695e657e2c1e11e6",
+      "date": "2026-05-23T00:46:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite: 落日飛車 — 2026-05-23"
+    },
+    {
+      "hash": "2b8f91a23bca07b6d1c3e0b7e6714e6a0409ac92",
+      "date": "2026-05-23T00:41:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore: #80 馬英九 Threads + #81 馬英九 X 雙平台 ship + SOCIAL-POSTING v0.4 + TERMINOLOGY「收口」"
+    },
+    {
+      "hash": "7b8c0d4812193079f7ca64f28b1e2a4a12deb21d",
+      "date": "2026-05-23T00:06:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] cross-link: 為「馬英九」建立雙向延伸閱讀"
+    },
+    {
+      "hash": "3c204e46c49cae6508555bfcf79765afbe81e5be",
+      "date": "2026-05-23T00:04:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 馬英九 EVOLVE — 立體 portrait 含 2026/5 breaking news"
+    },
+    {
+      "hash": "8699f5800188ae5540b7332a24187b6c301cebac",
+      "date": "2026-05-22T23:16:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] stage-1-media: 馬英九 EVOLVE 媒體素材候選 + 5/22 breaking news flag"
+    },
+    {
+      "hash": "0c6bfeef9a886392cbf697bd900c9cf8022c46b8",
+      "date": "2026-05-22T23:12:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-22-230954-twmd-data-refresh-pm — 12-step pipeline 順 sync + AM defer PM 吸收 + manual commit co-push"
+    },
+    {
+      "hash": "6b2b75ec5846b4902c842cdaa0d247f5da61abe0",
+      "date": "2026-05-22T23:09:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-05-22 23:09"
+    },
     {
       "hash": "4c7299b1055a533231dd5fce86a7f8131d6d812f",
       "date": "2026-05-22T23:07:11+08:00",

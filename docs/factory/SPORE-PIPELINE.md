@@ -82,13 +82,13 @@ upstream_canonical:
 
 ## ⚠️ Top 5 最常忘的 step
 
-> 從 SPORE-LOG harvest history + 4/14 ε spore #29 紅線焦慮 + 高鐵 s35 朋友 tone prime 抽 friction 最高的 5 條。
+> 從 SPORE-LOG harvest history + 4/14 ε spore #29 紅線焦慮 + 高鐵 s35 朋友 tone prime + 2026-05-23 臺灣漫遊錄 first ship → spore 同 session 自動化飛輪 抽 friction 最高的 5 條。
 
 1. **🚨 強制 Read 4 檔不准 sample**（2026-05-17 #74 v1 教訓）— PIPELINE + VERIFY + WRITING + HARVEST 共 3,191 行必須完整 Read，不准 `grep`/`head`/`tail`/sample。sample = 跳 VERIFY 7 階段 = 違反 [MANIFESTO §8](../semiont/MANIFESTO.md)
-2. **Step 3 朋友 tone prime** — 第一秒像新聞 lead = AI 水印，必須有「你知道嗎？」「欸，」curiosity prefix（spore_writing plugin Wave 2 gate）
-3. **Step 4.2 URL encode + UTM** — 中文 URL 必跑 `python3 -c "urllib.parse.quote..."`，UTM 三段全填（utm_source / medium=spore / campaign=s{N}）
-4. **Step 4.4 Hook tier 自檢** — Tier 1a/1b only，禁 Tier 3（廉價懸念「未完待續」一律重寫）
-5. **Step 5 HARVEST atomic batch log** — 寫 docs/factory/SPORE-HARVESTS/batch-{date}-{N}-spores.md 不拆多 commit 跨檔案寫（2026-05-08 Phase 0-3 後 SSOT）
+2. **配圖 v3.6 三鐵律**（2026-05-23 哲宇 directive，剛 ship 文章 → spore 飛輪實戰教訓）— (a) make-spore.sh default local server 不抓 prod；(b) 抓完圖 AI 視覺自檢方形圖內容對；(c) Post 前 polling CI/CD ≥15 min 確認 prod live 才發
+3. **Step 3 朋友 tone prime** — 第一秒像新聞 lead = AI 水印，必須有「你知道嗎？」「欸，」curiosity prefix（spore_writing plugin Wave 2 gate）
+4. **Step 4.2 URL encode + UTM** — 中文 URL 必跑 `python3 -c "urllib.parse.quote..."`，UTM 三段全填（utm_source / medium=spore / campaign=s{N}）
+5. **Step 4.4 Hook tier 自檢** — Tier 1a/1b only，禁 Tier 3（廉價懸念「未完待續」一律重寫）
 
 ---
 
@@ -331,14 +331,67 @@ python3 -c "import urllib.parse; print('https://taiwan.md/food/' + urllib.parse.
 
 ### 配圖
 
+> ⚠️ **v3.6 鐵律（2026-05-23 哲宇 directive）：default 必跑 local server 不抓 prod**。
+>
+> **觸發背景**：臺灣漫遊錄 first ship → spore 同 session 內做圖。Prod 文章 CI/CD 還在 build（10-15 分鐘），抓 prod 截圖一定拿到舊 cache or 404。臺灣漫遊錄 ship 後立即發 spore = 100% 抓錯圖。
+>
+> **新鐵律三條（HARD gate，違反 = 整則 spore 拒發）**：
+>
+> 1. **`make-spore.sh` default 啟用 local dev server**（不再 default prod）。`--prod` flag 只用於「文章 ship ≥ 30 分鐘 + observer 顯式拍板上線已更新」。
+> 2. **抓完圖 AI 自檢方形圖內容對應**：preview_eval / Read / open 截圖確認 (a) 標題對 (b) hero 圖對 (c) 沒 404 / loading skeleton (d) 沒 stale cache 殘留。任一錯 → 重抓不發。
+> 3. **Post 前必過 CI/CD wait gate**：social post 前 `curl -sf "https://taiwan.md/<encoded-slug>/" | grep "<title-keyword>"` 確認 prod 上線。沒上線 → wait + retry（每 60s 一次，cap 20 min），確認後才 post。
+
 ```bash
-bash scripts/tools/make-spore.sh /people/李洋/                # landscape + square
-bash scripts/tools/make-spore.sh /people/李洋/ --size vertical  # 只產 vertical
-bash scripts/tools/make-spore.sh /people/李洋/ --all          # 三張全產
-bash scripts/tools/make-spore.sh /people/李洋/ --prod         # 直接打 prod URL
+# v3.6 default：local server（剛 ship 文章必走）
+bash scripts/tools/make-spore.sh /art/臺灣漫遊錄/                # local server (default) — landscape + square
+bash scripts/tools/make-spore.sh /art/臺灣漫遊錄/ --size square  # 只產 square (post 用)
+bash scripts/tools/make-spore.sh /art/臺灣漫遊錄/ --all          # 三張全產 (local server)
+
+# Legacy / 舊文章 / 文章 ship ≥ 30 min 且 observer 顯式拍板：
+bash scripts/tools/make-spore.sh /art/臺灣漫遊錄/ --prod         # 打 prod URL（不再 default）
 ```
 
 **底層工具**：[`scripts/tools/generate-spore-image.mjs`](../../scripts/tools/generate-spore-image.mjs)（Playwright headless + justfont wait）。
+
+#### AI 自檢方形圖（v3.6 HARD gate）
+
+抓完圖後 mandatory 3 條視覺自檢：
+
+```bash
+# 1. ls 確認檔案 exists + size 合理（square 約 200-800 KB）
+ls -lh public/spore-images/{slug}-square.png
+
+# 2. 用 Read tool / open / preview_eval 視覺看圖
+# 期待：
+#   ✓ 標題文字含 spore 文章標題關鍵字
+#   ✓ Hero 圖對應文章主視覺（不是 default placeholder / 404 page）
+#   ✓ 沒 loading skeleton 殘留（Astro lazy load 跑完）
+#   ✓ 字體 render 完整（justfont 已 load）
+#   ✓ 不是「Page not found」/「Site under maintenance」/ blank
+
+# 3. 任一 ❌ → 不發 + 排查（local server crash? slug encode 錯? Astro build 沒同步?）
+```
+
+**為什麼 self-check 必須**：v3.5 之前假設 `make-spore.sh` 沒報錯就 = 圖對。實際 generate-spore-image.mjs 對「local server 404」「prod CDN cache 舊版」「slug encode 不一致」都會吐出 looks-valid PNG 但內容錯。**圖示物理生成 ≠ 內容正確**。
+
+#### Make-spore.sh 接觸的 prod / local URL（v3.6 spec）
+
+| Mode                | Base URL                | 觸發條件                                                     | 風險                                                |
+| ------------------- | ----------------------- | ------------------------------------------------------------ | --------------------------------------------------- |
+| **local (default)** | `http://localhost:4321` | **剛 ship 文章 < 30 min** / `--local` flag / 沒指定 `--prod` | local server 沒跑 → make-spore 失敗（明確 error）   |
+| `--prod`            | `https://taiwan.md`     | 舊文章重發 spore / 文章 ship ≥ 30 min + observer 拍板上線    | prod CI/CD 沒跑完 → 抓到 stale cache（silent fail） |
+
+Local server 必須先跑：
+
+```bash
+# Terminal 1 (background)
+NODE_OPTIONS='--max-old-space-size=8192' npm run dev &
+# Wait until ready
+until curl -sf http://localhost:4321/ >/dev/null; do sleep 1; done
+
+# Terminal 2 (foreground)
+bash scripts/tools/make-spore.sh /art/臺灣漫遊錄/
+```
 
 **三種尺寸 preset**：
 
@@ -399,6 +452,49 @@ bash scripts/tools/make-spore.sh /people/李洋/ --prod         # 直接打 prod
 - [ ] **全形標點**：中文 prose 無半形 `,` `.` `:` `(` `)` `?` `!`（URL 與整句英文除外）
 - [ ] **多語 SSOT freshness**（國際題目必做）：英文 knowledge 對齊 zh SSOT 嗎？
 - [ ] **不重複**：查 SPORE-LOG.md 確認 ≥ 2 週未發過
+
+### 🚦 v3.6 CI/CD wait gate（HARD — post 前必過）
+
+> ⚠️ **2026-05-23 哲宇 directive**：social post 前必須確認 prod 版本已上線。否則讀者點 UTM URL 拿到 404 / 舊版 = 整個 spore 效益歸零。
+>
+> **CI/CD timeline**：commit + push to main → Cloudflare Pages build 約 10-15 min → prod 上線（cache invalidate）≈ 15 min total。
+>
+> **強制 gate**（spore post 前 mandatory）：
+
+```bash
+# 1. URL probe with title keyword check
+SLUG_ENCODED=$(python3 -c "import urllib.parse; print(urllib.parse.quote('臺灣漫遊錄'))")
+TITLE_KEYWORD="妹妹翻譯的書"  # 從 frontmatter title 抽 unique substring
+URL="https://taiwan.md/art/${SLUG_ENCODED}/"
+
+# 2. Polling loop (60s interval, cap 20 min)
+DEADLINE=$(($(date +%s) + 1200))  # 20 min hard cap
+while [ $(date +%s) -lt $DEADLINE ]; do
+  if curl -sf "$URL" | grep -q "$TITLE_KEYWORD"; then
+    echo "✅ Prod live with title keyword. Safe to post."
+    break
+  fi
+  echo "⏳ Waiting for CI/CD... ($(($DEADLINE - $(date +%s)))s remaining)"
+  sleep 60
+done
+
+# 3. 20 min still 沒上 → escalate observer，不 silent post
+[ $(date +%s) -ge $DEADLINE ] && echo "❌ CI/CD timeout 20 min. Halt post + report observer." && exit 1
+```
+
+**為什麼 polling not single-check**：CI/CD 時間 variance 大（5-25 min）。固定 sleep 15 min = sometimes 早 sometimes 晚。Polling 60s 一次 + 20 min hard cap = converge on actual live time + bounded wait.
+
+**Cache invalidation 額外考量**：
+
+- 第一次 fetch live 後 wait 額外 60s 再 post（Cloudflare edge cache propagation buffer）
+- 多語版本（en/ja/ko/es/fr）有獨立 build path，本 gate 只 check 中文 prod
+- 若 spore 含 fan-out 到其他語言文章 link → 個別 check 每個 locale
+
+**驗證 keyword 選擇**：
+
+- ✅ frontmatter title 中**獨特**字串（如「妹妹翻譯的書」「絕食 19 歲」「Cipriani」）— 不可能被其他文章撞
+- ✅ 文章首段獨有 phrase
+- ❌ 通用詞如「2026」「台灣」「楊」— grep 撞其他文章
 
 ### 發佈
 

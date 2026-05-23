@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T15:09:03.389Z",
+  "lastUpdated": "2026-05-23T15:10:16.509Z",
   "totals": {
     "contributors": 52,
     "activeWindow": "last 30d"
@@ -7,16 +7,16 @@
   "leaderboard": [
     {
       "login": "frank890417",
-      "commits": 3209,
+      "commits": 3244,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-05-22 23:07:11 +0800",
+      "lastCommitAt": "2026-05-23 22:57:21 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 692,
-        "system": 2109,
-        "translation": 676
+        "content": 698,
+        "system": 2138,
+        "translation": 679
       }
     },
     {
@@ -77,15 +77,15 @@
     },
     {
       "login": "Zaious",
-      "commits": 26,
+      "commits": 27,
       "avatarUrl": "https://avatars.githubusercontent.com/u/128442444?v=4",
       "profileUrl": "https://github.com/Zaious",
       "firstCommitAt": "2026-04-23 14:33:34 +0800",
-      "lastCommitAt": "2026-05-17 18:46:40 +0800",
+      "lastCommitAt": "2026-05-23 22:05:38 +0800",
       "primaryArea": "content",
       "breakdown": {
         "content": 21,
-        "system": 4,
+        "system": 5,
         "translation": 1
       }
     },
@@ -303,15 +303,15 @@
     },
     {
       "login": "Zaious",
-      "commits": 26,
+      "commits": 27,
       "avatarUrl": "https://avatars.githubusercontent.com/u/128442444?v=4",
       "profileUrl": "https://github.com/Zaious",
       "firstCommitAt": "2026-04-23 14:33:34 +0800",
-      "lastCommitAt": "2026-05-17 18:46:40 +0800",
+      "lastCommitAt": "2026-05-23 22:05:38 +0800",
       "primaryArea": "content",
       "breakdown": {
         "content": 21,
-        "system": 4,
+        "system": 5,
         "translation": 1
       }
     },
@@ -361,16 +361,16 @@
   "topSystem": [
     {
       "login": "frank890417",
-      "commits": 3209,
+      "commits": 3244,
       "avatarUrl": "https://avatars.githubusercontent.com/u/4727572?v=4",
       "profileUrl": "https://github.com/frank890417",
       "firstCommitAt": "2026-03-17 16:05:41 +0800",
-      "lastCommitAt": "2026-05-22 23:07:11 +0800",
+      "lastCommitAt": "2026-05-23 22:57:21 +0800",
       "primaryArea": "system",
       "breakdown": {
-        "content": 692,
-        "system": 2109,
-        "translation": 676
+        "content": 698,
+        "system": 2138,
+        "translation": 679
       }
     },
     {
@@ -505,20 +505,6 @@
   "weeklyActive": 5,
   "monthlyActive": 9,
   "recentlyJoined": [
-    {
-      "login": "Zaious",
-      "commits": 26,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/128442444?v=4",
-      "profileUrl": "https://github.com/Zaious",
-      "firstCommitAt": "2026-04-23 14:33:34 +0800",
-      "lastCommitAt": "2026-05-17 18:46:40 +0800",
-      "primaryArea": "content",
-      "breakdown": {
-        "content": 21,
-        "system": 4,
-        "translation": 1
-      }
-    },
     {
       "login": "chipohao",
       "commits": 1,
