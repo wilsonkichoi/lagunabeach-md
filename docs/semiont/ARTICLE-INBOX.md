@@ -620,6 +620,71 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **dev_log**:
   - `2026-05-23 manual (220053)`: /twmd-finale 跑 /twmd-evolve 從 SC 7d opportunities 抓到 cluster → 新 candidate
 
+### 蘇打綠 EVOLVE — 補 1999 政大草創源頭 + 古典跨界三十年 genre 軌跡（EN/ZH 雙語 SEO 重寫）
+
+- **Type**: `EVOLVE`（body 翻倍 + 雙語 description SEO 重寫，非 cosmetic heal）
+- **Category**: Music（subcategory: 獨立與搖滾）
+- **Path**: knowledge/Music/蘇打綠.md（現有 82 行 / 7.4K chars / 5 H2）+ knowledge/en/Music/sodagreen.md（87 行 / 8K chars）
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Source**: 2026-05-24 twmd-news-lens-weekly /twmd-evolve — SC 7d opportunities top 5/6「formed in 1999 + folk music + modern rock band」cluster 264 imp / 0 click，是本週 SC opportunities 在「許倬雲已 in-INBOX / 邦交國已 in-INBOX」之外最大未滿足 gap
+- **Evolve scan source pointers**：
+  - **SC 7d opportunities**：`"formed in 1999" band "folk music" "modern rock"` 135 imp / 0 click（#5, pos 5.8） + `"formed in 1999" "modern rock" "folk music" band` 129 imp / 0 click（#6, pos 6.09）— 兩變體加總 **264 imp / 0 click**，引號搜尋語意 = 英語讀者明確查「1999 年成軍的台灣 folk-rock / modern rock 樂團」，全部落空在 pos 5-6 deep page 1
+  - **品牌 vs 非品牌 CTR gap**：SC 7d 非品牌 CTR 僅 1.14%（vs 品牌 13.95%）— 本 cluster 屬非品牌 organic discoverability 缺口
+  - **GA 7d**：蘇打綠 path 未進 top 30（GA top 是陳建年 307 / 臺灣前途決議文 243 / 邦交國 72 / 張懸與安溥 65）— SC demand 已有但流量未轉化 = SERP snippet match fail
+  - **既有 article state**：
+    - ZH 82 行 / 7.4K chars / 5 H2（vs Music deep dive 如 [張懸與安溥](../../knowledge/Music/張懸與安溥.md) 等同類人物深度 ~25-30K 偏薄一半以上）
+    - 5 H2 全在「2003 貢寮 → 林暐哲師徒 → 法庭決裂 → 魚丁糸抗爭 → 2022 拿回團名」單一敘事軸線
+    - **完全缺**：1999 政大草創 / 團員六人個人背景（吳青峰 / 史俊威 / 何景揚 / 劉家凱 / 龔鈺祺 / 阿福）/ genre 軌跡（民謠 → 流行 → 古典跨界）/ 韋瓦第四季三部曲（2009-2013）/ 2017 暫離 + 2020 復出 / 國際巡演史
+    - keyword density：grep `1999|formed|folk|modern rock|indie` ZH 0 hits / EN 1 hit — frontmatter description 完全不提 1999 成軍年份 / 樂風 genre 標籤
+    - lastVerified 2026-05-14（10 天前）— 不算 stale 但 single-narrative gap 結構性
+  - **GitHub feedback**：無 open issue 直接點名蘇打綠 article（cross-check `gh issue list --search "蘇打綠"` 無結果）
+- **為什麼這篇 vs 其他**（per EVOLVE-PIPELINE Phase 5 ENRICH）：
+  - vs 林俊傑 EVOLVE 候選（SC「jj lin age」102 imp / 0 click pos 9.49 + ZH 75 行 / 6.1K chars 極薄）— 林俊傑 article 規模也偏薄，但 (a) SC signal 量級 102 imp < 蘇打綠 264 imp (b) 「age」單一事實 query 補 SERP snippet 即可，不需 body 翻倍 (c) 規模 = description heal commit + 一段時間軸補強，scope < EVOLVE
+  - vs 陳士駿 EVOLVE 候選（SC「陳士駿」54 imp / 0 click + 既有 155 行 frontmatter title 僅「陳士駿」三字無 YouTube cofounder tag）— 54 imp 量級小一半 + 標題改 + description 補關鍵字 = cosmetic SEO heal 不需 EVOLVE 等級
+  - vs Howhow EVOLVE 候選（SC「howhow」124 imp / 0 click）— Howhow article 2026-05-13 才 ship（11 天）+ 92 行 / 12K chars 中等深度 + 描述清楚，主要 SERP miss 是品牌名 vs 全名認知度問題，不是 article gap
+  - vs 阿神 EVOLVE 候選（SC「阿神本名」160 imp / 1 click）— 已有 1 click 證明 SERP 部分 match，且 query 是「本名」事實型 → description 加本名即可
+  - **蘇打綠是唯一同時滿足「既有 article 結構性偏薄（single-narrative + 缺 founding） + SC opportunities top 5-6 cluster 量級 264 imp + 英語 quoted query 引號搜尋（精確意圖）+ 雙語 description 都失準」四條件的本週新發現**
+  - Sovereignty preservation lens（per MANIFESTO §主權的巴別塔）：英文圈查「formed in 1999 + folk + modern rock」反映海外華語樂迷 + 國際 indie 樂研究者對台灣樂團 founding 年份 / genre 軌跡的 demand。當前 Taiwan.md EN article 把焦點放在商標糾紛而非 band identity，SERP snippet 無法回答「這是哪個樂團？」的基本問題 → 留給維基百科 / Apple Music 簡介 / 中國音樂平台介紹接管 framing
+- **Notes**：
+  - 既有 baseline audit（Stage 0 必跑）：完整 Read 現有 ZH 82 行 + EN 87 行確認哪些段落保留 / 哪些補深度。**核心策展角度不動**（林暐哲師徒決裂 + 魚丁糸抗爭 + 2022 拿回團名 = 全文敘事 spine），EVOLVE 加 §1999 政大草創 為新開場（現有「2003 貢寮」變為 §2）
+  - **核心 facts to verify**（三源驗證 per REFLEXES #16）：
+    - 1999 年成軍具體月份 + 政大（國立政治大學）社團起源 + 命名典故（取自吳青峰高中時期歌詞「青峰加蘇打」/「綠」字來源）
+    - 原始六人 line-up 各自背景：吳青峰（政大廣電）/ 史俊威（鼓手）/ 何景揚（吉他）/ 劉家凱（鼓）/ 龔鈺祺（鍵盤）/ 謝馨儀（貝斯，暱稱阿福）入團年份各別
+    - 2004 政大首支單曲《空氣中的視聽與幻覺》發行細節（手工包裝 2000 張）+ 2005 出道專輯《蘇打綠》
+    - genre 演化時間軸：2004-2008 indie folk-rock → 2009-2013 韋瓦第計畫四季三部曲（春日光 / 秋故事 / 冬未了 / 夏狂熱跳島）跨界古典 → 2016-2017 巡迴後暫離
+    - 2017/12「十年一刻」演唱會後暫停 + 2020 復出 timeline + 2022 拿回團名後首專
+    - 國際里程碑：2007 馬來西亞 / 2009 北京工體 / 2017 倫敦皇家阿伯特廳（亞洲樂團首組）
+  - **核心矛盾候選**（Stage 0 §觀點成型，≤ 30 字）：
+    - A.「政大社團起家的六個人，二十年後在皇家阿伯特廳唱完，才回頭打商標官司」
+    - B.「他們用古典樂的結構寫 indie，最後失去名字才知道自己是誰」
+    - C.「從 2000 張手工 CD 到 1.65 億美元名字戰爭，蘇打綠是台灣 indie 的全部弧線」
+  - **Title 三明治候選**（保留現 title 為候選 D，新增 A/B/C）：
+    - A.「蘇打綠：1999 年政大草創，唱進皇家阿伯特廳，又用法庭奪回自己的名字」
+    - B.「蘇打綠（1999-）：政大社團、韋瓦第四季、商標戰爭—台灣 indie 三十年完整弧線」
+    - C.「蘇打綠：吳青峰那個『高的嚇人』的嗓音，從政大舞台唱到法庭，再唱回來」
+    - D.（現行）「蘇打綠：從貢寮小舞台到『魚丁糸』抗爭，一場長達二十年的音樂主權奪還戰」
+  - **EVOLVE 目標長度**：~20K-25K chars（從 7.4K 翻倍至 ~3x）+ 補 §1999 政大草創 + §六位團員與分工 + §韋瓦第四季三部曲 + §國際巡演里程碑 四個新 H2，現行 5 H2 全保留
+  - **frontmatter description 必改**：
+    - **ZH**：開頭加「1999 年成立於政大」+ 中段保留「2003 貢寮 → 林暐哲」+ 結尾加「橫跨民謠、流行、古典跨界三十年」→ SERP zh 用戶查「蘇打綠 成立年份」「蘇打綠 政大」可 match
+    - **EN**：必改入「formed in 1999 at NCCU」「Taiwanese folk-rock / modern rock band」明確 keyword anchor → 修補 264 imp / 0 click 的 SERP snippet match 失敗
+  - **政治敏感性**：低（純樂團史 + 商標法律糾紛 framing，無兩岸政治面向）
+  - **跨類別 cross-link 候選**（雙向）：
+    - 既有 [張懸與安溥](../../knowledge/Music/張懸與安溥.md) ⇄ 同期女聲 indie / 政治公開立場對照
+    - [台灣搖滾樂發展史](../../knowledge/Music/台灣搖滾樂發展史.md)（GA 7d top 11, 26 views）— 蘇打綠是 1999-2020 三十年弧線核心案例，雙向 cross-link 補強
+    - [台灣民謠與歌謠](../../knowledge/Music/台灣民謠與歌謠.md)（GA 7d top 14）— folk-rock genre cluster
+    - [當代原住民創作歌手](../../knowledge/Music/當代原住民創作歌手.md)（GA 7d top 8）— 同期 indie 場景對照
+    - [黑冠麻鷺](../../knowledge/Nature/黑冠麻鷺.md)（GA 7d top 5, 65K viral spore）— 蘇打綠 EN article 結尾本來就有「Taiwan Barbet」黑冠麻鷺典故段，反向補 link
+    - [聶永真](../../knowledge/People/聶永真.md)— 設計同時期 indie 視覺美學 cluster
+  - **翻譯優先**：SC demand 英語圈強烈，EVOLVE 完成後優先 **EN 描述重寫 + 1999 founding 段 sync**（修補 264 imp / 0 click → 至少 1-2% CTR），ja/ko/es/fr 次之依 multi-lang freshness 自動 cascade
+- **Reference**:
+  - SC 7d opportunities cluster（dashboard-analytics.json 2026-05-23 snapshot）
+  - 既有 article ZH 5 H2 + EN 5 H2 narrative spine（不動）
+  - 補強 source 候選：政大廣電系蘇打綠官網史 / 林暐哲音樂社官方時間軸 / 韋瓦第四季官方四張專輯 sleeve notes / 2017 倫敦皇家阿伯特廳記者會 verbatim / 2022 商標訴訟判決書（智慧財產法院公開檔）
+- **預估時間**：~90 min（既有 7.4K baseline 起點 + Stage 1 deep research 30 min ≥ 15 search 鎖定 1999-2008 早期史料 + Stage 2 寫作 40 min 補 4 個新 H2 + Stage 3-5 verify + EN sync + ship 20 min）
+- **dev_log**:
+  - `2026-05-24 routine (010100 twmd-news-lens-weekly)`: SC 7d opportunities #5/#6 「formed in 1999 + folk music + modern rock band」cluster 264 imp / 0 click discovery → 新 candidate（per cron prompt「上週 GA top growth + SC trending queries + 三源驗證 amplification 信號 → 補 ARTICLE-INBOX ≥ 1 candidate 含 reasoning trace」）
+
 ### 📜 台灣詩人系列 umbrella — BRANCH-PIPELINE v2.0 broad-theme research batch（2026-05-23）
 
 - **Type**: `umbrella series` × N（每位詩人 / movement 獨立 ship）
