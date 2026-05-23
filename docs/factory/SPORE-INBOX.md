@@ -334,6 +334,89 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ---
 
+### 許倬雲 — 趁熱 spore（5/22 ship + SC「hsu cho-yun + wang leehom」cluster）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/People/許倬雲.md](../../knowledge/People/許倬雲.md)
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-05-23 by twmd-spore-pick-daily routine (score=63)
+- **Platform 建議**: `both`（X 英文圈 SC「hsu cho-yun」+「wang leehom」687 imp 0 click、海外華人與漢學圈中文 Threads）
+- **Hook anchor 候選**：
+  1. **數字 hook**：「兩根手指、近四十部著作、95 年。許倬雲先天肢障一生坐輪椅，2025 年 8 月在匹茲堡睡夢中辭世前留下一句『我嚥氣的一刻，我還在學習』」
+  2. **身份 hook**：「王力宏奶奶的弟弟、〈龍的傳人〉作曲李建復的舅舅 — 一個無錫海軍少將家族同時連到唐獎漢學獎跟華語流行樂史」
+  3. **場景 hook**：「2024 年 6 月匹茲堡，94 歲的史學家坐在輪椅上、兩手向內彎曲、視力衰退到無法翻書，每天還是用兩根手指敲字寫《經緯華夏》三十多萬字」
+  4. **問句 hook**：「英文圈每週兩千多次搜尋『Hsu Cho-yun Wang Leehom』全部 0 點擊 — 讀者想知道什麼？」
+- **時效**：article ship 距今 1 天（5/22 EVOLVE），趁熱窗口剩 ~13 天
+- **敏感度**：低（學術人物，1949 渡台史學家）
+- **必驗事實**：1930-09-03 廈門鼓浪嶼出生 / 雙胞胎弟許翼雲 / 1949 隨國府渡台 / 1970 匹茲堡大學 / 1980 中研院第十三屆院士 / 2024 第六屆唐獎漢學獎（首位嚴格定義的台灣出身得主）/ 5,000 萬獎金捐設「許-孫獎學金」/ 大姐許留芬是王力宏奶奶 / 二妹許婉清是李建復母親 / 2025-08-03 匹茲堡辭世（台灣時間 8-04 清晨）/ 享耆壽 95 歲 / 中央社採訪 quote「我嚥氣的一刻，我還在學習」
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
+- **預估發佈時機**：本週內（5/24-5/29 趁熱窗口）
+- **Notes**：
+  - score=63 (D1=+30 ≤7d / D2=+25 SC 687 imp pos 4.76 / D3=0 無 news-lens / D4=+8 People high fanout 但 tx=5 已完成 / D5=0 / D6=0 / D7=0)
+  - SC opportunity 是這條 candidate 的最大 driver — 英文圈讀者已經在搜尋這個 family connection、Taiwan.md 補橋已 ship、spore 是把橋擺到讀者眼前
+  - 多語 fan-out 觸發判斷 = 高（5 語翻譯都 done，spore 同步多語可放大 SC pull；en 版優先）
+  - 配圖建議：article hero（Wikimedia Academia Sinica 許倬雲肖像 CC BY）
+  - Hook tier 自檢：避免 Tier 3「兩根手指奇蹟」勵志 frame；用 first-person 紀實 quote 收口
+  - 跟 SPORE-LOG 14d 無重複（最近一次相關 spore 是 #74/#75 陳建年 people category，hook type 不同）
+
+---
+
+### 落日飛車 — 趁熱 spore（5/23 ship 全英語 Coachella 樂團）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Music/落日飛車.md](../../knowledge/Music/落日飛車.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-05-23 by twmd-spore-pick-daily routine (score=45)
+- **Platform 建議**: `both`（X 國際 indie 圈受眾 + Threads 台灣 indie 樂迷）
+- **Hook anchor 候選**：
+  1. **場景 hook**：「2010 年的台北，一個 19 歲學生坐在 MacBook 前。MySpace 樂團頁面要 profile pic，他打開 Mac 內建 Photo Booth，pre-set 裡有一張雲霄飛車剪影、夕陽。他選了那張」（article lede 直引）
+  2. **數字 hook**：「14 年。一張隨手挑的 Photo Booth 背景圖，14 年後變成 Coachella 沙漠舞台背板上的字 — 落日飛車是超過二十年來首組登上科切拉大舞台的台灣樂團」
+  3. **身份 hook**：「全英語、亞熱帶 City Pop、不靠 K-pop 工業體制、不靠政府文化外交。國國（曾國宏）說飛車的名字是『沒計算過』的 — 但 14 年後，這支樂團成為台灣音樂被世界聽見最大的一束光」
+  4. **問句 hook**：「台灣最被世界聽見的樂團，唱的是英文 — 為什麼？」
+- **時效**：article ship 距今 0 天（5/23 NEW），趁熱窗口最佳
+- **敏感度**：低（音樂人物、國際 indie）
+- **必驗事實**：2009 年台北成軍 / 國國（曾國宏）+ Kevin Lee（李柏澔）+ 鼓手羅尊龍 / 首場 2009-01-29 師大路地下社會（Underworld） / 2011-09-22《Bossa Nova》首專自費發行 / Abbey Road Studios 母帶 Steve Rooke 處理 / 2015 國國 1300 度近視免役 + 結束張懸 Algae 樂團吉他手後重組 / 2016 EP《JinJi Kikko》/〈My Jinji〉Spotify 累積破億播放 / 2018 首支登 Audiotree Live 台灣樂團 / 2023 Coachella 超過二十年來首組受邀台灣樂團（4/15 + 4/22 Sonora 舞台）/ 2024 與韓國 Hyukoh《AAA》入圍第 36 屆金曲獎 9 項抱 3 金
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
+- **預估發佈時機**：本週內（5/24-5/30 趁熱窗口，搶 weekend music 受眾 cluster）
+- **Notes**：
+  - score=45 (D1=+30 ≤7d / D2=0 SC 尚未累積 / D3=0 / D4=+15 Music high fanout + tx=0 全缺 / D5=0 / D6=0 / D7=0)
+  - 多語 fan-out 觸發判斷 = 極高（樂團本身全英語、Hyukoh 韓國合作、Spotify 月聽眾印尼雅加達最大 → en/ja/ko 翻譯後 SC pull 預期最大；ARTICLE-DONE-LOG 顯示 tx=0 全缺要先補翻譯）
+  - 配圖建議：article hero（Wikimedia Puramyun31 攝 2018-04-06 演出 CC BY 2.5）
+  - Hook tier 自檢：避免 Tier 3「台灣之光」frame；用 article §策展人筆記 同款「無計算敘事」收口
+  - 跟 SPORE-LOG 14d 無重複（最近一次音樂 spore 是 #74/#75 陳建年 5/17，hook type 場景不重複）
+
+---
+
+### 愛玉 — EVERGREEN-TOPIC spore（台灣特有植物、國際好奇度高、等 article ship）
+
+- **Source-Mode**: `EVERGREEN-TOPIC`
+- **Article-Path**: `none-yet`（屬於 ARTICLE-INBOX [台灣經典街頭小吃系列](../semiont/ARTICLE-INBOX.md) Issue #1013，第 3 篇候選；單篇 ~60-90 min 開發）
+- **Priority**: `P3`（要等 article ship）
+- **Status**: `pending`
+- **Requested**: 2026-05-23 by twmd-spore-pick-daily routine (score=8)
+- **Platform 建議**: `both`（X 國際食物獵奇受眾 +「ai-yu jelly」英文長尾 query、Threads 台灣夏天消暑共鳴）
+- **Hook anchor 候選**（先列，等 article ship 後再校準）：
+  1. **場景 hook**：「夏天的台北騎樓，一杯檸檬愛玉冰涼到玻璃杯外凝出水珠。果凍質感、淡黃色、檸檬清香 — 但這不是凝膠粉，是一種台灣特有植物的果實搓出來的」
+  2. **問句 hook**：「為什麼世界上只有台灣有愛玉？— 答案藏在玉山山腳一種愛玉小蜂的授粉裡」
+  3. **身份 hook**：「在台灣，愛玉是夏天的童年記憶。在國外『Ai-yu jelly』每週上千次搜尋 — 國際食物獵奇圈正在找這個答案，台灣還沒寫」
+  4. **數字 hook**：「19 世紀末植物學家 Augustine Henry 在台灣命名 Ficus pumila var. awkeotsang — 100 多年後愛玉仍是 endemic 到台灣中海拔山區的單一物種」
+- **時效**：等 article ship（est. ARTICLE-INBOX P0 系列第 3 篇，1-2 週可排上）
+- **敏感度**：低（食物、植物學）
+- **必驗事實**（article ship 時校準）：愛玉學名 Ficus pumila var. awkeotsang / 命名者 Augustine Henry / 命名年代 / 台灣 endemic 證據 / 愛玉小蜂（Wiebesia pumilae）授粉專一性 / 傳統採集區（阿里山 / 玉山山腳）/ 愛玉籽搓洗凝膠原理（果膠 + 鈣離子）/ 「愛玉」名字由來（道光年間商人之女傳說 vs 學術考證）
+- **必先 spawn ARTICLE-INBOX entry**：✅ **已存在**（per [ARTICLE-INBOX §台灣經典街頭小吃系列](../semiont/ARTICLE-INBOX.md) Issue #1013 第 3 篇候選）
+- **預估發佈時機**：article ship 後 7 天內趁熱
+- **Notes**：
+  - score=8 (D1=0 article 不存在 / D2=0 SC 未累積 / D3=0 / D4=+8 Food high fanout / D5=0 / D6=0 / D7=0 食物 zero sensitivity)
+  - HG7 確保 Source-Mode variety — 本 entry 是 EVERGREEN-TOPIC 對應 #1+#2 兩條 EXISTING-ARTICLE 的搭配
+  - 多語 fan-out 觸發判斷 = 高（愛玉 = endemic to Taiwan，國際食物獵奇圈強 demand；en 優先翻 + ja 次之）
+  - 國際 SEO 切入：「ai-yu jelly」「taiwan ai yu」英文長尾 query
+  - 配圖建議：愛玉果實或愛玉冰（Wikimedia CC 可找；attribution 必填）
+  - article ship 後 routine 自動升級此 entry 為 EXISTING-ARTICLE + 補 Article-Path
+
+---
+
 ## 📜 已發歷史
 
 → 完整紀錄見 [SPORE-LOG.md §發文紀錄](SPORE-LOG.md) + [SPORE-HARVESTS/](SPORE-HARVESTS/) batch logs。本檔不存 done 痕跡（per 完成歸檔鐵律）。
