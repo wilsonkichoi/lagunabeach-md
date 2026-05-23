@@ -1796,11 +1796,11 @@ git push
 
 ### Routine 飛輪整合（v6.1 升級為 full-cycle，2026-05-24 哲宇 directive）
 
-REWRITE 是 routine 飛輪 10 條核心 routine 之一（`twmd-rewrite-daily`）。**v6.1 起每天 00:00 自動跑「研究 → 寫文 → 孢子 → 發文 → harvest」全 cycle**（不再只是 article-only）：
+REWRITE 是 routine 飛輪 10 條核心 routine 之一（`twmd-rewrite-daily`）。**v6.1.1 起每天 18:00 晚間自動跑「研究 → 寫文 → 孢子 → 發文 → harvest」全 cycle**（v6.1.1 從 00:00 搬到 18:00 對齊台灣社群 20:00-22:00 prime time post）：
 
 - **觸發**：`/twmd-rewrite` skill
 - **Model**：Opus
-- **Cadence**：每天 00:00（v2.0 整點對齊半夜 chain，refresh-pm 之後）
+- **Cadence**：每天 18:00 晚間（v6.1.1 — cycle 跑 ~150 min ~20:30 結束，spore post 落在台灣晚間社群活躍時段；v6.1 原 00:00 半夜 chain 已抽出）
 - **Skill SOP**：[`~/.claude/scheduled-tasks/twmd-rewrite-daily/SKILL.md`](https://github.com/anthropics/claude-code-skills)（local mirror）
 - **Stage chain（v6.1 full cycle）**：
   ```

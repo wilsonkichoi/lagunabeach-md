@@ -42,7 +42,7 @@ upstream_canonical:
 | ------------------------------- | ------------------------------ | ------------------ | ------------------------- | ------ | -------------- |
 | `twmd-maintainer-pm`            | TWMD maintainer (pm) ¹         | `0 22 * * *`       | `/twmd-maintainer`        | Opus   | 每天 22:00     |
 | `twmd-data-refresh-pm`          | TWMD data refresh (pm)         | `0 23 * * *`       | `/twmd-refresh`           | Sonnet | 每天 23:00     |
-| `twmd-rewrite-daily`            | TWMD rewrite (daily)           | `0 0 * * *`        | `/twmd-rewrite`           | Opus   | 每天 00:00     |
+| `twmd-rewrite-daily`            | TWMD rewrite (daily)           | `0 18 * * *`       | `/twmd-rewrite`           | Opus   | 每天 18:00     |
 | `twmd-news-lens-weekly`         | TWMD news lens (weekly) ⁶      | `0 1 * * 0`        | `/twmd-evolve`            | Sonnet | 週日 01:00     |
 | `twmd-weekly-report-sun`        | TWMD weekly report (sun)       | `0 2 * * 0`        | `/twmd-weekly-report`     | Opus   | 週日 02:00     |
 | `twmd-distill-weekly`           | TWMD distill (weekly) ⁷        | `0 3 * * 0`        | `/twmd-distill`           | Opus   | 週日 03:00     |
@@ -73,7 +73,7 @@ upstream_canonical:
 
 - **TWMD 前綴**：所有 routine task 標題必須含 `TWMD ` 前綴（task list 跨 project 共用，namespace 防撞）
 - **整點對齊**（v2.0）：cron 分鐘一律 `0`（hour mark）。System 自動加 3-9 min jitter 做 load balancing，整點對齊讓人類好記、好 audit、cadence 視覺乾淨。原 v1.x「避開整點」principle deprecated — 因為 system 已內建 jitter
-- **半夜不碰撞 + 60 min 間隔**（v2.0；v2.3 swap maintainer-pm ↔ babel-nightly）：除 refresh-am (06:00) + maintainer-am (09:00) 兩條白天 routine 之外，所有 routine 排在半夜 22:00 - 05:00 連續整點 chain。Sun 鏈完全照排程展開：22:00 maintainer-pm → 23:00 refresh-pm → 00:00 rewrite → 01:00 news-lens → 02:00 weekly-report → 03:00 distill → 04:00 self-evolve → 05:00 babel → 06:00 refresh-am → 09:00 maintainer-am。每條間隔整 60 min，遠超「≥ 40 min」硬規則
+- **半夜不碰撞 + 60 min 間隔**（v2.0；v2.3 swap maintainer-pm ↔ babel-nightly；v6.1.1 rewrite 從 00:00 搬到 18:00）：除 refresh-am (06:00) + maintainer-am (09:00) 兩條白天 routine + rewrite (18:00) 晚間 cycle 之外，所有 routine 排在半夜 22:00 - 05:00 連續整點 chain。Sun 鏈完全照排程展開：18:00 rewrite (full cycle 跑 ~150 min ~20:30 結束) → 22:00 maintainer-pm → 23:00 refresh-pm → 01:00 news-lens → 02:00 weekly-report → 03:00 distill → 04:00 self-evolve → 05:00 babel → 06:00 refresh-am → 09:00 maintainer-am。每條間隔整 60 min（除 rewrite-end → maintainer-pm 為 90 min buffer 防 CI cascade）
 - **不提預算鐵律**（v2.0 哲宇 2026-05-11 拍板）：routine prompt / mirror / yaml 一律**禁止**寫「上限 X min wall-clock」「budget」「timeout > X min」「partial PR」這類**任何形式的預算詞**。routine 任務正常不會超過 1 hr，讓它自然跑完。Budget framing 製造「partial-ship 心態」（"快超 budget 了 ship partial"），跟「有 SOP 就跑 / 慢工出細活」矛盾。Claude session 自有 internal time limit (~2 hr) — routine 撞到那是 quality issue 不是 budget issue。Escalation 只看 quality_gate 結果，不看時間
 - **Main-direct 鐵律**（v2.0 哲宇 2026-05-11 拍板）：routine 跑完直接 `git commit + git push origin main`，**不開 PR**。原 v1.x PR + maintainer §collect-and-merge 累積 ~12 hr 延遲是冗餘審計層。quality_gate + pre-commit hook + post-commit CI 三層仍保護。**例外無**：所有 routine 一律 main-direct（含 maintainer 自己）
 - **週日反思鏈**：news-lens → weekly-report → distill → self-evolve 序列照舊（拉資料 → 寫反芻 → 升 canonical → 找 unstrumentation）。v2.0 全移半夜 01:00-04:00 整點對齊
@@ -90,9 +90,10 @@ upstream_canonical:
 ┌──────┬───────────────────────────┐
 │ Hour │  M  T  W  T  F  S  Sun    │
 ├──────┼───────────────────────────┤
+│ 18h  │  R  R  R  R  R  R  R      │  ←  晚間 cycle 啟動 (v6.1.1，full cycle ~150 min 結束 ~20:30 對齊社群 prime time)
 │ 22h  │  m  m  m  m  m  m  m      │  ←  夜間 chain 啟動 (maintainer collect PR)
 │ 23h  │  r  r  r  r  r  r  r      │
-│ 00h  │  R  R  R  R  R  R  R      │
+│ 00h  │  ·  ·  ·  ·  ·  ·  ·      │  ←  (rewrite 已從半夜搬到 18h v6.1.1)
 │ 01h  │  ·  ·  ·  ·  ·  ·  N      │  ←  週日反思鏈 (start)
 │ 02h  │  ·  ·  ·  ·  ·  ·  W      │
 │ 03h  │  ·  ·  ·  ·  ·  ·  D      │
@@ -106,9 +107,12 @@ upstream_canonical:
 │ 10h  │  ·  ·  ·  ·  ·  ·  ·      │  ╮
 │ 11h  │  ·  ·  ·  ·  ·  ·  ·      │  │
 │ 12h  │  ·  ·  ·  ·  ·  ·  A      │  ←  Sun routine-audit (v2.4)
-│  ⋮   │  ·  ·  ·  ·  ·  ·  ·      │  │  13h–21h idle
-│ 20h  │  ·  ·  ·  ·  ·  ·  ·      │  │
-│ 21h  │  ·  ·  ·  ·  ·  ·  ·      │  ╯
+│  ⋮   │  ·  ·  ·  ·  ·  ·  ·      │  │  13h–17h idle
+│ 17h  │  ·  ·  ·  ·  ·  ·  ·      │  ╯
+│ 18h  │  ↑ (R 已標於上方)         │  ←  晚間 rewrite full cycle (per 上)
+│ 19h  │  ·  ·  ·  ·  ·  ·  ·      │  ←  rewrite Stage 2-7 進行中（article ship + spore SHIP）
+│ 20h  │  R↓ R↓ R↓ R↓ R↓ R↓ R↓     │  ←  ~20:30 cycle 結束 + spore post 對齊 prime time
+│ 21h  │  ·  ·  ·  ·  ·  ·  ·      │
 └──────┴───────────────────────────┘
 
 Legend:
@@ -128,9 +132,10 @@ Legend:
   · = idle (no routine fire)
 
 每條 routine 間隔 ≥ 60 min（整點對齊；system jitter +3-9 min for load balancing）。
-夜間 chain 完整鏈條（Sun）：m → r → R → N → W → D → E → B，每段 1 hr，連續 8 小時。順序語意（v2.3 swap）：maintainer 先收割晚間累積的 contributor PR backlog，然後 refresh / rewrite / 週日反思鏈，最後 babel 跑同步義務（跑到 stale=0 才結束，per SQUEEZE-MODELS-MAX §義務）— observer 醒來看見 PR backlog 清空 + 翻譯同步推進的「夜間進度成果」。
+晚間 cycle（v6.1.1）：**R @ 18:00** full-cycle article → spore → broadcast（~150 min ~20:30 結束，spore post 對齊台灣社群 20:00-22:00 prime time）。
+夜間 chain 完整鏈條（Sun）：m → r → N → W → D → E → B，每段 1 hr，連續 7 小時。順序語意（v2.3 swap + v6.1.1 R 抽到晚間）：maintainer 先收割晚間累積（含 rewrite cycle 跑完）的 contributor PR backlog，然後 refresh / 週日反思鏈，最後 babel 跑同步義務（跑到 stale=0 才結束，per SQUEEZE-MODELS-MAX §義務）— observer 醒來看見 PR backlog 清空 + 翻譯同步推進的「夜間進度成果」+ 前一晚 spore 在社群活躍時段推送的「晚間進度成果」。
 白天 morning chain（v2.5）：a (06h) → S (07h) → P (08h) → M (09h)，refresh 完吃 fresh data，harvest 走 Chrome MCP 收昨日 engagement，spore-pick propose 今日 3 candidates 補 SPORE-INBOX，maintainer 收割 daytime contributor PR backlog。**整條 chain 在哲宇 09:00 工作時間前跑完**。
-週一到週六晚上夜間 chain 縮短為 m → r → R → B（沒週日反思鏈 4 條）。
+週一到週六晚上夜間 chain 縮短為 m → r → B（沒週日反思鏈 4 條；rewrite 已抽到 18h 晚間 cycle v6.1.1）。
 ```
 
 ---
@@ -311,7 +316,7 @@ escalation:
 
 ```yaml
 taskId: twmd-rewrite-daily
-cron: '0 0 * * *' # 每天 00:00（v2.0 整點對齊半夜 chain，refresh-pm 23:00 之後 1hr）
+cron: '0 18 * * *' # 每天 18:00 晚間（v6.1.1 對齊 20:00-22:00 社群 prime time post — cycle 跑 ~150 min 結束約 20:30，spore post 落在台灣晚間活躍時段）
 model: opus
 skill: /twmd-rewrite
 env:
