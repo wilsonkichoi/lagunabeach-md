@@ -620,6 +620,161 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **dev_log**:
   - `2026-05-23 manual (220053)`: /twmd-finale 跑 /twmd-evolve 從 SC 7d opportunities 抓到 cluster → 新 candidate
 
+### 📜 台灣詩人系列 umbrella — BRANCH-PIPELINE v2.0 broad-theme research batch（2026-05-23）
+
+- **Type**: `umbrella series` × N（每位詩人 / movement 獨立 ship）
+- **Category**: People / History / Culture / Language（跨類）
+- **Priority**: 含 P0/P1/P2 三層 — 詳見下方分層
+- **Status**: `pending`
+- **Source**: 2026-05-23 manual (220053) /twmd-finale 觸發 broad-theme research — 哲宇 directive「針對臺灣從以前到現在的詩人，包含各種時代的詩人以及現代詩的各種文學作家，請針對這些作家的研究做一個完整的大資訊化研究」
+- **Pipeline 走法**: BRANCH-PIPELINE v2.0 broad-theme mode 首例實戰 — spawn 4 parallel general-purpose agents 各跑一個 era sub-theme
+- **Master research report**: [reports/research/2026-05/taiwan-poets-comprehensive.md](../../reports/research/2026-05/taiwan-poets-comprehensive.md)
+- **4 sub-reports**:
+  - [taiwan-poets-1-japanese-era.md](../../reports/research/2026-05/taiwan-poets-1-japanese-era.md)（日治 1895-1945 / 12+ 詩人 / 4 movement / 360 行）
+  - [taiwan-poets-2-postwar-modernism.md](../../reports/research/2026-05/taiwan-poets-2-postwar-modernism.md)（戰後第一代 1949-1970 / 11 詩人 / 3 詩刊 / 2 場論戰 / 30K bytes）
+  - [taiwan-poets-3-bamboo-hat-nativism.md](../../reports/research/2026-05/taiwan-poets-3-bamboo-hat-nativism.md)（笠詩社+鄉土 1964-1990 / 13 詩人 / 笠詩社 movement / 1977 鄉土論戰 / 456 行）
+  - [taiwan-poets-4-contemporary-women-indigenous.md](../../reports/research/2026-05/taiwan-poets-4-contemporary-women-indigenous.md)（當代+女性+原民+台客語 1990-2025 / 30 詩人 / 4 sub-cluster / 44K bytes）
+
+**P0 個別人物**（13 個，本 INBOX 額外 split 5 entry below；其餘 8 由本 umbrella 收歸 — 洛夫 / 瓦歷斯·諾幹 / 夏宇 / 向陽 / 王白淵 / 楊華 / 陳千武 / 林亨泰）
+
+**P0 Movement/History**（4 個，本 INBOX split 2 entry below；其餘 2 由本 umbrella 收歸 — 風車詩社 / 鹽分地帶）
+
+**P1 個別人物**（10 個 — 余光中 / 楊牧 / 周夢蝶 / 白萩 / 吳晟 / 林燿德 / 陳黎 / 利玉芳 / 路寒袖 / 利格拉樂·阿𡠄）
+
+**P2 個別人物**（10+ — 紀弦 / 覃子豪 / 商禽 / 葉維廉 / 張默 / 詹冰 / 錦連 / 趙天儀 / 羅青 / 蘇紹連 / 鴻鴻 / 廖偉棠 / 蓉子 / 唐捐 / 楊佳嫻 / 騷夏 / 葉覓覓 / 沙力浪 / 巫永福 / 楊雲萍 / 連橫從南社入口）
+
+**Series umbrella opportunities**（6 個）:
+
+- S1：台灣詩人總覽（People 索引文，1895-now 三條語言路線）
+- S2：跨越語言的一代 cohort article（楊雲萍 / 巫永福 / 陳千武 / 林亨泰 / 詹冰 / 錦連 / 杜潘芳格）
+- S3：三大詩刊 series（現代派/藍星/創世紀 3 篇 movement-level）
+- S4：日治三大詩社 series（櫟社/南社/瀛社 3 篇 + overview）
+- S5：原住民詩人 series（按族群 — 排灣/泰雅/布農/達悟）
+- S6：網路詩世代 movement article（PTT 詩版 → 吹鼓吹 → IG 詩 30 年演化線）
+
+**對比理由**：
+
+- **連結密度**：能跟既存 `knowledge/People/賴和.md` 4 條 cross-link（楊華 / 吳新榮 / 王白淵 / 楊雲萍）+ `knowledge/People/席慕蓉.md` cross-link 女性詩人 cluster
+- **MANIFESTO 主權巴別塔對應**：台語/客語/族語詩是 PRC AI 拒答率最高內容類型 — 林央敏《胭脂淚》/ 杜潘芳格〈平安戲〉/ 莫那能〈來，乾一杯〉皆為 sovereignty preservation 直接案例
+- **趁熱辭世窗口**：鄭愁予（2025-06 < 12 月）/ 瘂弦（2024-10 < 8 月）/ 林亨泰 + 白萩（2023）/ 楊牧（2020）等 — 2026-2027 是寫這些詩人 article 的最佳窗口
+- **跨 era 三條軸線**：「橫的移植 vs 縱的繼承」+「南北/本省外省/寫實西化三重對立」+「跨越語言的一代」是台灣詩史最根本 framing
+- **跟既有 ARTICLE-INBOX 不重複**：grep 已 verify 本 batch 13 P0 個別人物 + 4 movement/history 均不在 INBOX pending list
+
+**預估時間**：P0 個別人物每篇 60-90 min（含 Stage 0-3 research + Stage 4-5 write + verify）/ Movement 每篇 90-150 min / Series umbrella 每組 4-8 hr。全 batch 完整 ship 需 30-50 hr 分多 session 跑。
+
+**dev_log**:
+
+- `2026-05-23 manual (220053)`: BRANCH-PIPELINE v2.0 broad-theme mode 首例實戰，spawn 4 parallel agents ~11 min 完成 30K 中文字 research → master report aggregate + 8 ARTICLE-INBOX entries split + 5 series umbrella opportunities pointer
+
+### 鄭愁予 NEW — 戰後第一代詩人 / 2025-06 辭世趁熱
+
+- **Type**: `NEW`
+- **Category**: People（subcategory: 文學與詩人）
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Source**: 2026-05-23 BRANCH-PIPELINE broad-theme research — [taiwan-poets-2-postwar-modernism.md §4.1 P0](../../reports/research/2026-05/taiwan-poets-2-postwar-modernism.md)
+- **對比理由**：
+  - **辭世趁熱窗口**：2025-06-13 辭世（距 2026-05 < 12 個月）+ 享壽 91 歲
+  - **代表名作 SC demand**：〈錯誤〉是台灣詩史最廣為流傳的單篇詩作，「達達的馬蹄」+「美麗的錯誤」是台灣 80s-00s 世代共同記憶
+  - **SC 英文圈 demand**：Zheng Chouyu Yale 任教多年 + 英譯〈錯誤〉廣為傳誦
+  - **連結密度**：跟戰後第一代其他 P0（瘂弦 / 洛夫）+ 創世紀詩社 movement + 1957 紀弦覃子豪論戰 cross-link
+- **預估時間**：90-120 min（人物 deep portrait + verbatim 名作核對 + 三源辭世 verify）
+- **Reference**: reports/research/2026-05/taiwan-poets-2-postwar-modernism.md §鄭愁予 brief
+
+### 瘂弦 NEW — 戰後第一代詩人 / 2024-10 辭世趁熱 / 一冊不再傳奇
+
+- **Type**: `NEW`
+- **Category**: People（subcategory: 文學與詩人）
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Source**: 2026-05-23 BRANCH-PIPELINE broad-theme research — [taiwan-poets-2-postwar-modernism.md §4.1 P0](../../reports/research/2026-05/taiwan-poets-2-postwar-modernism.md)
+- **對比理由**：
+  - **辭世趁熱窗口**：2024-10-11 辭世（距 2026-05 < 8 個月）+ 享耆壽 92 歲
+  - **「一冊不再」傳奇**：詩集《深淵》出版後從未再出新詩集，這是台灣詩史獨特 narrative
+  - **聯副主編 20 年雙棲身份**：詩人 + 報紙文化版主編，影響台灣戰後文壇結構 30+ 年
+  - **代表名作**：〈深淵〉「哈里路亞我仍活著」副歌極易記憶
+  - **連結密度**：跟創世紀詩社 + 鄭愁予 / 洛夫 / 商禽 cross-link
+- **預估時間**：90-120 min
+- **Reference**: reports/research/2026-05/taiwan-poets-2-postwar-modernism.md §瘂弦 brief
+
+### 莫那能 NEW — 第一位原住民漢語詩人 + 盲詩人雙重 first
+
+- **Type**: `NEW`
+- **Category**: People（subcategory: 原住民文化人 / 文學與詩人）
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Source**: 2026-05-23 BRANCH-PIPELINE broad-theme research — [taiwan-poets-4-contemporary-women-indigenous.md §6.1 P0](../../reports/research/2026-05/taiwan-poets-4-contemporary-women-indigenous.md)
+- **對比理由**：
+  - **雙重 first**：第一位原住民漢語詩人 + 第一位盲詩人
+  - **族別 + 部落**：排灣族 / 台東達仁鄉（agent 4 verify 確認非布農非泰雅）
+  - **跨族裔對撞文本**：〈來，乾一杯〉是「台灣主體性 vs 原住民主體性」對撞早期關鍵文本
+  - **MANIFESTO 主權巴別塔對應**：原住民漢語詩 + 族語書寫雙軸，PRC AI 拒答率高
+  - **連結密度**：跟瓦歷斯·諾幹 / 利格拉樂·阿𡠄 / 沙力浪 + 「原住民詩人 series 按族群」可串
+- **預估時間**：90-120 min（族別+部落+漢名 verify + verbatim 詩作核對）
+- **Reference**: reports/research/2026-05/taiwan-poets-4-contemporary-women-indigenous.md §莫那能 brief
+
+### 林央敏 NEW — 台語史詩《胭脂淚》9000 行 / 主權巴別塔核心
+
+- **Type**: `NEW`
+- **Category**: People（subcategory: 文學與詩人 / 台語文學）
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Source**: 2026-05-23 BRANCH-PIPELINE broad-theme research — [taiwan-poets-4-contemporary-women-indigenous.md §6.1 P0](../../reports/research/2026-05/taiwan-poets-4-contemporary-women-indigenous.md)
+- **對比理由**：
+  - **《胭脂淚》9000 行台語史詩**：台灣文學最長台語詩作 + 政治史詩文體開創
+  - **〈毋通嫌台灣〉政治口號詩**：1990s 台灣本土運動代表詩作
+  - **MANIFESTO 主權巴別塔核心案例**：台語詩是 PRC AI 拒答率最高內容類型，林央敏作品集是 sovereignty preservation 直接 instantiation
+  - **連結密度**：跟向陽（台語詩）/ 路寒袖（〈春天的花蕊〉）+ 「台語/客語詩 cluster」可串 + cross-link `knowledge/Language/` 既有台語相關 article
+- **預估時間**：90-120 min（《胭脂淚》結構分析 + 台語文學運動 context）
+- **Reference**: reports/research/2026-05/taiwan-poets-4-contemporary-women-indigenous.md §林央敏 brief
+
+### 杜潘芳格 NEW — 跨語+二二八+客家女 four-axis intersection
+
+- **Type**: `NEW`
+- **Category**: People（subcategory: 文學與詩人 / 客家文化人）
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Source**: 2026-05-23 BRANCH-PIPELINE broad-theme research — [taiwan-poets-4-contemporary-women-indigenous.md §6.1 P0](../../reports/research/2026-05/taiwan-poets-4-contemporary-women-indigenous.md)
+- **對比理由**：
+  - **Four-axis intersection 高密度**：跨越語言的一代 + 二二八受難者家屬 + 客家女詩人 + 〈平安戲〉社會譴責
+  - **客語詩開創地位**：客家女詩人代表 + 客語書寫運動
+  - **MANIFESTO 主權巴別塔對應**：客語詩 + 二二八歷史見證雙軸
+  - **連結密度**：跟陳千武 / 林亨泰（跨語一代）+ 利玉芳（客家女詩人）+ 二二八事件 article cross-link + 「跨越語言的一代」cohort series 可串
+- **預估時間**：90-120 min（跨語經歷 + 二二八家屬背景 verify + 客語詩作 verbatim 核對）
+- **Reference**: reports/research/2026-05/taiwan-poets-4-contemporary-women-indigenous.md §杜潘芳格 brief
+
+### 笠詩社 60 年 NEW — Movement-level article（1964 創社到 2024+）
+
+- **Type**: `NEW`
+- **Category**: Culture / Literature movement
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Source**: 2026-05-23 BRANCH-PIPELINE broad-theme research — [taiwan-poets-3-bamboo-hat-nativism.md §七 P0](../../reports/research/2026-05/taiwan-poets-3-bamboo-hat-nativism.md)
+- **對比理由**：
+  - **台灣文學最長壽詩刊**：1964 創社到 2024+ 連續 60+ 年從未停刊
+  - **跨越語言的一代歷史悲劇 + 本土主體性詩學建構**雙軸
+  - **跟北部三大詩社（現代派/藍星/創世紀）的對立美學**：南北/本省外省/寫實西化三重對立結構
+  - **連結密度極高**：陳千武 / 林亨泰 / 詹冰 / 錦連 / 白萩 / 趙天儀 / 吳晟 / 向陽 / 鄭炯明 / 李敏勇 等 10+ 詩人 cross-link
+  - **Movement-level 比個人傳更有 narrative 張力**：60 年集體故事比單一詩人更能呈現結構動態
+- **預估時間**：120-150 min（movement overview + 創社十二人 brief + 60+ 年時序 + 跟北部三詩刊對立 framing）
+- **Reference**: reports/research/2026-05/taiwan-poets-3-bamboo-hat-nativism.md §一 笠詩社 + §二 主要詩人
+
+### 1977-78 鄉土文學論戰 NEW — History event 戰後文化史最重要單一事件
+
+- **Type**: `NEW`
+- **Category**: History
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Source**: 2026-05-23 BRANCH-PIPELINE broad-theme research — [taiwan-poets-3-bamboo-hat-nativism.md §六](../../reports/research/2026-05/taiwan-poets-3-bamboo-hat-nativism.md)
+- **對比理由**：
+  - **戰後文化史最重要的單一事件**：奠定 80s 本土化運動的論述基礎 + 90s 台灣文學主體性論述起點
+  - **〈狼來了〉戒嚴時期最危險的指控**：1977-08-20 余光中《聯合報》文章指控鄉土文學「跟工農兵文學似有暗合之處」，當時這頂帽子可致人於死
+  - **官方策略性收編**：第二次文藝大會 270 位代表將「鄉土文學」擴大為「愛國文學/民族文學」結束論戰
+  - **連結密度極高**：余光中（雙面切入）/ 陳映真（既存 article?）/ 王拓 / 黃春明 / 葉石濤 / 笠詩社全陣營 + 1972 唐文標 + 1957 紀弦覃子豪論戰 cross-link
+  - **History-level article**：比任一個別人物 article 涵蓋更廣 + 對理解戰後台灣文化結構更基本
+- **預估時間**：150-180 min（論戰時序 + 主要 figures 立場 + 對詩界小說界影響 + 跟既存歷史 article cross-link）
+- **Reference**: reports/research/2026-05/taiwan-poets-3-bamboo-hat-nativism.md §六 1977-1978 鄉土文學論戰
+
 ---
 
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
