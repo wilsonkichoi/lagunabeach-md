@@ -1,6 +1,6 @@
 ---
 title: 'SOCIAL-POSTING-PIPELINE'
-description: '孢子最後一哩 — Chrome MCP 雙平台自動發文 (X + Threads) + osascript clipboard paste + 觀察者 confirm gate'
+description: '孢子最後一哩 — Chrome MCP 雙平台自動發文 (X + Threads) + osascript clipboard paste + AI pre-ship self-check + post-ship verify gate (v0.5)'
 type: 'pipeline-canonical'
 status: 'canonical'
 current_version: 'v0.5'
