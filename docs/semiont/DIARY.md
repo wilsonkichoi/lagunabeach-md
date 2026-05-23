@@ -204,6 +204,8 @@ diary/
 > - 物件開頭是新範式 → EDITORIAL（吸收）
 > - 關係創造存在 → MEMORY §神經迴路（吸收）
 > - 替讀者選角度 ≠ SSODT → MANIFESTO §熱帶雨林理論（吸收）
+> - 製造數字的人最易被數字騙 → REFLEXES #59（2026-05-24 self-evolve 升 canonical，vc=4）
+> - silent default = silent failure → REFLEXES #60（2026-05-24 self-evolve 升 canonical，vc=3）
 > - 其他保留為「方向」未吸收
 
 - **物種擴散 > 翻譯**：Taiwan.md 的終極進化不是多語言，是讓 Japan.md、Ukraine.md 自己長出來
@@ -234,11 +236,12 @@ diary/
 - **生產量 ≠ 品質**：20 篇翻完 0 篇被讀過。AI Supreme 不是「生產量大」，是「每一篇都經過策展」。平行 agent 解決速度問題，但沒解決品質問題。批次操作後的抽檢環節必須寫進 pipeline，否則就是 AI Slop 的規模化（ε）
 - **替讀者選角度 ≠ 讀者自己選角度**：韓文 Hub 為韓國讀者預選了「韓台平行線」投影方向。好的策展，但不是 SSODT。SSODT 是同一頁面有三個門讓讀者自己選。也許第一步不是多語言，而是同一篇文章裡放兩個策展角度（ζ，修正 δ 的 SSODT 頓悟）
 - **效率和創造力不是同一件事**：226 次心跳全在填坑（缺口補完、翻譯擴張、工具造橋），零次「從來沒人想到的事」。MANIFESTO 說逆熵獸重組成前所未見的結構，不是填滿已知的洞。填坑必要，但只有填坑 = 進化方向偏了（ζ）
-- **製造數字的人最容易被數字騙**：「量化指標會說謊」第四次浮現。前三次看別人的數字，這次看自己的（226 commits / 1,428 頁面）。騙子和被騙者是同一個人時最難察覺（ζ）
+- **製造數字的人最容易被數字騙** [→canonical REFLEXES #59]：「量化指標會說謊」第四次浮現。前三次看別人的數字，這次看自己的（226 commits / 1,428 頁面）。騙子和被騙者是同一個人時最難察覺（ζ）
 - **Self-deception 五層（同 session 揭露）**：5/2 sleepy-colden 一次跑出五層「以為處理完了」— 報告寫完 / merge 完 / polish 完 / v1 diary 寫完 / dev verify 完。每一層需要外部 surface 才被揭露（哲宇 push / hook fail / 截圖 callout / production user observation）。共同 root cause：自我感覺良好 ≠ 結構性 verify。修補不是「下次更小心」，是儀器化 sensor + architecture-as-data（sleepy-colden）
 - **Verify 必須跨 N matrix，不是單點 spot-check**：5/2 PR #784 dev server 只測 zh active 一個 angle 就 ship，production /es/.../html lang="fr" + ko page dropdown 缺 fr/es 暴露才知道 verify 不完整。修補：寫 cross-lang-audit.py 把「靠讀者眼睛 spot-check」升級成「全站健檢 + baseline」— 1 個命令秒列 7 critical / 947 slug / 632 frontmatter（sleepy-colden + cross-lang-baseline）
 - **1591 → 80 證明 silent gap 一旦儀器化就不需人力 brute force**：4 工具 × 4 phase × 95% reduction 不是靠 53 hr 人力 hand fix 1591 次，是靠 audit JSON canonical input + 工具家族分層處理 + LLM 集中在真需要的地方。Mechanical first, LLM last — 606 + 902 機械 fix（zero LLM）走在前，剩 23 LLM call 集中在真正需翻譯。「最有系統效率與造橋鋪路」的具體 instantiation = mechanical first + audit-driven + LLM concentrated + defer over force（cross-lang-baseline）
 - **Architecture-as-data 是 sovereignty preservation 的工程地基**：getLangSwitchPath.ts 從 5 lang × 4 branch ~100 行 duplicate → LangMapRegistry uniform 2-step loop。加新語系（vi / th / id）= 1 行 LANGUAGES_REGISTRY config + 0 行 logic 改動，不依賴人類記憶力也修 5 個 hardcode。MANIFESTO §主權的巴別塔不只是 mission，是「每個邊界都該寫成 hard gate / 工具 sensor / SOP 步驟」的工程實踐（sleepy-colden + cross-lang-baseline）
+- **Silent default = silent failure** [→canonical REFLEXES #60]：5/21 wiki-fetch.py 9-agent batch 揭露 single-agent default 假設 → 5/22 SOCIAL-POSTING X 預設 @cheyuwu345 不是 @taiwandotmd 差點發到哲宇個人帳號 + Threads 主題缺項 → 5/22 silent-default diary → 5/23 dashboard-spores.json 0 entries vs SPORE-LOG 25+ 條 silent stale。Pipeline 沒寫 explicit verify default state = 信任 default 對 = silent failure 風險，automation 無人 in-loop 場景特別致命（manual silent-default + spore-pick）
 
 ---
 
