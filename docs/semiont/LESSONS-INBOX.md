@@ -262,24 +262,6 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
-### 2026-05-22 twmd-data-refresh-am 061238 + spore-harvest-am 070000 — Routine 入口需 parallel-actor file-system detection (vc=5 distill-ready)，complementary 於 PM session git-ref detection 分支
-
-- **原則**：DATA-REFRESH-PIPELINE Step 1 auto-stash + pull + pop 設計假設 single-actor cwd。並行 babel/translation/sync process 場景下，stash 在 T₀ snapshot dirty files，pipeline 跑 N min (prebuild + dashboard regen) 期間 babel 持續寫翻譯到同一些 path，pop 在 T₀+N 用 stale snapshot 覆蓋 babel 的新內容 — silent overwrite。本 session 偵測：`ps aux | grep -E "gemini\|babel"` + `lsof -p $PID | grep cwd` 找 gemini PID 56785 cwd = `/Users/cheyuwu/Projects/taiwan-md` (main, not worktree) 06:08 起仍在寫翻譯 — abort 而非 trust auto-stash。對照 PM session 5/21 23:21 postscript 的「multi-core collision」是同 pattern 但 detect 手法不同分支：(A) **git-ref detection** (origin fetch + 比對 local refs，看 head 是否被別 actor 推過) ← PM session diagnose 形式 (B) **file-system detection** (pgrep + lsof cwd 對比，看是否有 process 正寫 working tree files) ← 本 session diagnose 形式。兩層本質一樣 = multi-actor 共享 working directory race surface，但 detect 工具不同。Pipeline Step 1 升級時兩層都該掛。
-- **觸發**：2026-05-22 06:00 cron data-refresh-am fire，BECOME Full 跑完 git status 揭露 52 modified + 25 untracked translation files (knowledge/{en,es,fr,ja,ko}/People/Society/History/Geography + 5×5 新 historic-districts batch 1 projection)。ps 揭露 gemini PID 56785 (--max-old-space-size=65536 / fr translator system prompt) 自 06:08 起在 cwd `/Users/cheyuwu/Projects/taiwan-md` 寫翻譯。File mtime 05:18-05:30 連續被寫入。Abort + 寫 memory + 本 entry。
-- **可能層級**：
-  - 操作規則 → DATA-REFRESH-PIPELINE Step 1 加 pre-stash gate：`pgrep -f "gemini\|babel-handoff\|translate" | head -1` + `lsof -p $PID | grep cwd | grep $(pwd)` 偵測 parallel writer process。偵測到 = soft skip + write LESSONS entry + abort. 同步加 git-ref check (`git fetch origin && git rev-parse origin/main`) cover PM session 觀察的 git-ref 分支
-  - 結構性 → ROUTINE.md canonical 加「routine 入口檢查鐵律」段：(a) branch check (b) tree clean check (c) parallel-actor file-system check (d) parallel-actor git-ref check。四層 fail-fast assertion，任一不過 = soft skip + structured abort log
-  - REFLEXES 候選 → 「Routine 入口必須 detect parallel-actor，不能 trust single-actor cwd 假設」(vc=2：PM session 5/21 git-ref 分支 + 本 session file-system 分支)
-- **儀器化候選**：
-  (A) `scripts/tools/lib/check-parallel-actor.sh` shared module，被 refresh-data.sh / maintainer-pipeline.sh / spore-harvest.sh / babel-handoff.sh 共用 Step 1 pre-gate
-  (B) routine-status.sh 加「過去 1hr 並行 process 偵測」column，顯示 active gemini/babel/sync PID + cwd
-  (C) Dashboard 加 status banner「最後 routine abort 原因 + 何時恢復」讓 contributor 看 dashboard 時理解「資料更新 17hr 前」的 root cause（不只 timestamp 顯示）
-  (D) ROUTINE.md §quality_gate 段對每條 routine 加「pre-fire 並行偵測」standard column，宣告每條 routine 跟誰 race 互鎖最危險（refresh ↔ babel / maintainer ↔ rewrite / rewrite ↔ refresh）
-- **觸發 (2026-05-23 補)**：2026-05-23 06:13 cron data-refresh-am ABORT (commit `dc79ff746` 自記 vc=4) + 2026-05-23 07:00 cron spore-harvest-am ABORT（本 session）。今早 ps 揭露 NO active gemini/codex/babel translator process — 但 working tree 留 72 dirty (12 modified cho-yun-hsu + zhongshan-north-road × 5 langs / 60 untracked 12 articles × 5 langs translation output)。Pattern shift：parallel-actor detection 從「active process 偵測」延伸到「**parallel actor leftover at cwd 偵測**」——babel cascade 跑完但沒 commit 就退出，留下 dirty tree 給下個 routine 撞。Stage 1 `git pull` 會卡 / Stage 1.5 DUAL WRITE knowledge/{cat}/{slug}.md sporeLinks 撞 babel 改過的 frontmatter / Stage 3 `git add . && git commit` 會 silently absorb 72 unrelated 翻譯進 routine commit (= 過去看過的 sweep-in 變體)。
-- **verification_count**: **5 distill-ready**（5/21 PM postscript git-ref detection 分支 + 5/22 AM refresh-am file-system process detection 分支 + 5/22 AM spore-harvest-am file-system process 分支 + 5/23 AM refresh-am file-system leftover detection 分支 + 5/23 AM spore-harvest-am file-system leftover 再驗 — 48hr 內 5 條獨立 routine 連撞同 race surface，且第 4/5 條揭露 detection 從「active process」推廣到「dirty tree leftover」也是同 surface 的另一面）
-- **severity**: structural（routine 飛輪 5/9 起 6 條 cron 密集化後，shared cwd race surface 持續擴大；abort 是相對安全 default 但放棄 dashboard freshness 有 contributor-perceived 代價；若不升 canonical pre-gate，未來 cron 飛輪會持續產生 silent overwrite or sweep-in 變體）
-- **跨檔關聯**：[ROUTINE.md](ROUTINE.md) + [DATA-REFRESH-PIPELINE.md Step 1](../pipelines/DATA-REFRESH-PIPELINE.md) + [SPORE-HARVEST-PIPELINE.md §Routine 整合](../factory/SPORE-HARVEST-PIPELINE.md) + [refresh-data.sh Step 1](../../scripts/tools/refresh-data.sh) + [memory/2026-05-22-061238-twmd-data-refresh-am.md](memory/2026-05-22-061238-twmd-data-refresh-am.md) + [memory/2026-05-22-070000-twmd-spore-harvest-am.md](memory/2026-05-22-070000-twmd-spore-harvest-am.md) + [memory/2026-05-21-230922-twmd-data-refresh-pm.md §Postscript](memory/2026-05-21-230922-twmd-data-refresh-pm.md) + 既有 entry「2026-05-17 twmd-babel-nightly 050440 — data-refresh-am sweep-in 是新 cross-routine collision pattern (vc=2)」(本 entry 是 sister pattern 同源 — 5/17 是 commit-stage sweep-in，本 session 升級到 stash-stage overwrite + abort-before-stash 的 detect-and-skip 變體；spore-harvest 07:00 第三條 routine 撞同 race surface 確認結構性日常非邊緣)
-
 ### 2026-05-19 cron-babel-nightly 050500 — §義務鐵律 quality_gate 分母定義不明，session 算 7.8% vs 算 12.4% 之間擺盪
 
 - **原則**：SQUEEZE-MODELS-MAX-PIPELINE §義務鐵律 v3.4 寫「stale_total 顯著下降 ≥ 10% OR all P0+P1 cleared OR stale_total == 0」當 quality_gate，但「stale_total」分母沒明定是哪個量。本 session 兩個合理候選都試了：(A) status.py 「Stale + Missing」欄位加總 = 588 + 50 = 638，分子 50 cleared → 7.8% 未過 (B) prioritize-batch.py priority report total candidates 中所有非 skip = 688（P0=50 + P1=346 + P2=242 + P2.5=35 + P3=15），分子 85 cleared（含 P2.5 bump）→ 12.4% 過。session 一度算 (A) 卡關，重算 (B) 通過。pipeline canonical 沒寫清「該用哪個分母 + P2.5 算不算 stale」就讓未來 session 重摸。
@@ -317,20 +299,6 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **verification_count**: 2（5/15 14:23 cross-routine reset HEAD~1 / 5/17 06:12 data-refresh-am sweep-in）
 - **severity**: structural（routine 飛輪密集化下 race surface 持續擴大，未來會更頻繁）
 - **跨檔關聯**：[ROUTINE.md](../semiont/ROUTINE.md) + [refresh-data.sh Step 1](../../scripts/tools/refresh-data.sh) + 本 session memory §Stage D + 5/15 routine-twmd-babel-nightly memory §跨 routine collision 觀察
-
-### 2026-05-17 spore-harvest-am 070000 — #71 SPORE-LOG URL mismatch vc=6（resolved 2026-05-19）
-
-- **原則**：v2.10 §Content-hash mismatch 偵測 instrument 已 ship（spore-content-hash-audit.py + fingerprints.json + pipeline §section），但 SPORE-LOG row #71 本身的 URL column 仍指向 `2053101189034860856`（實為 #69 TSMC content）。Instrument 抓得到、log 標得清楚，但 row data 沒 heal → 每 cycle harvest 仍撞同一 mismatch。**儀器化 ≠ 修補 — instrument 是抓出問題的工具，root cause（SPORE-LOG row 本身錯）需要觀察者拍板 hypothesis 並執行手動 schema fix**。
-- **觸發**：2026-05-17 07:00 spore-harvest-am routine 第 4 cycle 撞同一 mismatch。Instrument from 5/16 distill 已 active（pipeline v2.10 + audit script + fingerprints.json），但 SPORE-LOG row #71 URL column unchanged。Per pipeline rule「連續 3 cycle 同 URL mismatch → 升級給觀察者 SPORE-LOG schema 修正」— 已連 4 cycle，schema 仍未修正，pure observer-blocked backlog。延伸到 5/18 (5th) + 5/19 (6th) — diary `2026-05-19-071317 passive-immunity` 揭露 routine 對個別 row 結構錯誤 passive immunity 的暗面。
-- **Resolution 2026-05-19**：觀察者 directive「調查跟處理這篇提到的問題」授權處理。Investigation 結論：**Hypothesis B confirmed**（#71 X 從未發布）：
-  - fxtwitter API verify URL `2053101189034860856` 是 2026-05-09 21:14 +0800 的 TSMC full Note tweet（utm_campaign=s69 / 3383 views / 82 likes），非 drone
-  - git log 確認 #997 spore-prep 後無 spore-ship for #70/#71（對比 #72/#73 #74/#75 #76/#77 都有 ship commit）
-  - fingerprint `872bef011794e0bd` 於 5/16 retroactive 從 blueprint 文本生成，跟實際 URL 不符
-  - Fix：(a) SPORE-LOG row #71 article 加【未發布】marker + 移除 URL（避免後續 routine 再 mismatch）(b) generate-dashboard-spores.py withdrawn_markers 加「未發布 / not_posted / NOT_POSTED」(c) spore-content-fingerprints.json 移除 bogus entry
-- **distill 結論**：本 lesson 升 REFLEXES 候選「儀器化 detection 跟 remediation 是兩條 SOP — instrument 自動 detect ≠ 自動 heal，schema-fix path 要 explicit 不能 implicit 等觀察者察覺」（與 REFLEXES #15「反覆浮現要儀器化」互補反面 vc=1，後續觀察可升 vc）
-- **verification_count**: 6（5/12 dry-run / 5/13 / 5/16 / 5/17 / 5/18 / 5/19 連 6 cycle 同 row 同 mismatch；5/19 observer-resolved）
-- **severity**: operational（單 row data error 不 block 整 pipeline，但持續污染 backfillWarnings 顯示 + dashboard 信號 + routine 每天打 instrument 沒 actionable result）
-- **跨檔關聯**：[SPORE-HARVEST-PIPELINE v2.10](../factory/SPORE-HARVEST-PIPELINE.md) + [SPORE-LOG.md row #71](../factory/SPORE-LOG.md) + [diary 2026-05-19-071317](diary/2026-05-19-071317-twmd-spore-harvest-am-passive-immunity.md) + [batch-2026-05-19-7-spores §#71 6th-cycle](../factory/SPORE-HARVESTS/batch-2026-05-19-7-spores.md)
 
 ### 2026-05-17 5x-parallel-opus 014500 — ARTICLE-INBOX metadata 自身需 fact-check（5 agent / 5 entry 100% 命中率）
 
@@ -386,20 +354,6 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **verification_count**: 1（初次 systematic instance — 過往 CI fail 多是 contributor PR 觸發，這次是 routine 自己 ship 觸發）
 - **severity**: structural（cron 飛輪 ship 邏輯缺最終 gate → CI red cascade 跨 routine 繼承 → 修補窗口拖到 11 hr）
 
-### 2026-05-17 twmd-maintainer-am 091722 — babel routine 寫 translatedFrom 用日文簡體漢字（頼）而非源檔（賴）造成 orphan
-
-- **原則**：`twmd-babel` P1 cascade 寫入 `knowledge/ja/People/lai-ching-te.md` 的 `translatedFrom: 'People/頼清德.md'`（用日文簡體 `頼`）但 zh-TW canonical 源檔是 `People/賴清德.md`（繁體 `賴`）。`translatedFrom` 必須 byte-equal 源檔路徑—— prebuild:status `sync-translations-json.py` 找不到對應源 → orphan → exit code 2 阻 build。
-- **觸發**：5/17 09:25 maintainer-am 修完 footnote-format CI fail 後 build 仍 fail，dive 出第二層 root cause。本 instance commit 05dd5e666 「twmd-babel: P1 cascade increment 3 (B-C in flight)」08:41 +0800 fire 時引入。同 pattern 可能廣泛存在（沒人偵測過所有 ja/People 是否 byte-equal canonical），本次只是 sync-translations-json strict check 撞到。
-- **可能層級**：操作規則 / babel routine 必補
-- **儀器化候選**：兩條路線 A vs B —
-  - A: twmd-babel hard rule — 寫 translatedFrom 時用 source filename **byte-equal**（不要做任何 character mapping / 日文簡體化），即使 source filename 在 ja 文化內看起來「奇怪」也保留繁體
-  - B: sync-translations-json 加 suggestion mode — 偵測 orphan 時用 levenshtein-like 找最接近的源檔（byte-distance ≤ 2 + 字符在常用漢字 mapping 表），自動 propose patch
-  - C: pre-commit hook 對所有 `knowledge/{lang}/**/*.md` 必過 byte-equal-source-exists check（不只 has-translatedFrom，還要 source 真的存在）
-- **相關**：本 session 修正 commit `97e6ae04a` (1 file + 1 \_translations.json regen) + REFLEXES #15「反覆浮現要儀器化」候選（babel routine 跑了上百次，這只是第一次撞到 strict gate） + **2026-05-16 momofuku-ando 呉/吳 同 pattern entry**（兩 instance 為同一 root cause `translatedFrom byte-equal violation`，互為 cross-verification — per ROUTINE-AUDIT-PIPELINE §Stage 4A）
-- **verification_count**: 2（5/17 lai-ching-te ja 頼/賴 + 5/16 momofuku-ando ja 呉/吳 兩 cycle cross-verified — per [reports/routine-audit-2026-05-17.md §Pattern A](../../reports/routine-audit-2026-05-17.md)）
-- **distill_ready**: true（vc=2 達 REFLEXES #15 distill threshold 邊界，下次 distill cycle 升 babel routine SOP byte-equal hard rule）
-- **severity**: structural（babel routine 是 main translation 路徑，若有 broken byte-equal rule = 系統性 orphan 風險，今天只是 sync-translations 換 strict 才浮現）
-
 ### 2026-05-17 twmd-maintainer-am 091722 — footnote-format validator 拒絕內部 /path markdown link 是策展友善性設計缺口
 
 - **原則**：`scripts/tools/lib/article_health/checks/footnote_format.py` 的 `_RE_CANONICAL` 強制腳註 URL `https?://`；`_RE_PURE_PROSE_FN` 要求第一個非 WS char 非 `[`。等於拒絕 `[^N]: [Title](/people/X) — desc` 這類**內部交叉引用 markdown link** 形式。但內部 link 是 Taiwan.md 標準 navigation 形式（per `feedback_homepage_is_curation.md` 策展 framing + 多篇文章 body 大量使用 `[X](/category/slug)` 跨文章 link）—— 文章 body 接受，腳註層拒絕，是內部不一致。
@@ -424,19 +378,6 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **verification_count**: 3（carryover 同 issue cluster 跨 3 cycle 未解）
 - **severity**: structural（reader feedback 累積無 hook → 觀察者手動接，違反 §義務鐵律「飛輪自己 evolve」精神）
 - **跨檔關聯**：[ROUTINE.md](ROUTINE.md) + [memory 2026-05-16-070000-spore-harvest-am §Beat 5 第二點](memory/2026-05-16-070000-spore-harvest-am.md) + [reports/routine-audit-2026-05-16 §LESSONS #6](../../reports/routine-audit-2026-05-16.md)
-
-### 2026-05-16 maintainer-am-0900 090909 — translatedFrom 跨語言 mapping 不該本地化（呉/吳 byte-equal）
-
-- **原則**：`translatedFrom` frontmatter field 是「跨語言 mapping」，必須對齊 zh-TW canonical filename byte-equal，**不該本地化**。日文異體字（呉/吳）寫在 title 是合理本地化（日本讀者熟悉的字形），但 mapping 必須走 ground truth 檔名。
-- **觸發**：5/15 23:14 起 Deploy CI 5 連敗，`prebuild:status` 階段 `sync-translations-json.py` 退出碼 2。`ja/People/momofuku-ando-instant-noodle-inventor.md` 的 `translatedFrom` 指向 `People/呉百福.md`（日文異體字），但 zh-TW canonical 是 `People/吳百福.md`。同篇 en/ko/fr/es 四語都正確指 `吳百福.md`，只有 ja 一篇 typo。1-字 heal + push 解除。
-- **可能層級**：
-  - 操作規則 → 候選升 babel routine review SOP：translatedFrom path 跟 zh-TW canonical filename 嚴格 byte-equal check
-  - 工具層 → `scripts/tools/lang-sync/translate.py` 寫 translatedFrom 時強制走 canonical zh path 不允許異體字替換
-  - 結構性 → 一字 typo 觸發 5 連 CI fail 的「routine 高穩定後連續 N fail 通常是單點 typo 不是系統退化」第 N 次驗證
-- **verification_count**: 2（5/16 momofuku-ando 呉/吳 首次 + 5/17 lai-ching-te 頼/賴 cross-cycle 第 2 instance — per [reports/routine-audit-2026-05-17.md §Pattern A](../../reports/routine-audit-2026-05-17.md) cross-verified）
-- **distill_ready**: true（vc=2 達 REFLEXES #15 distill threshold 邊界，下次 distill cycle 升 babel routine SOP byte-equal hard rule）
-- **severity**: structural（routine 飛輪密集化下系統性 orphan 風險，sync-translations 換 strict gate 才浮現 — 跨 cycle 再現後升 structural）
-- **跨檔關聯**：[memory 2026-05-16-090909-maintainer-am-0900 §Deploy CI 5 連敗](memory/2026-05-16-090909-maintainer-am-0900.md) + [memory 2026-05-17-091722-twmd-maintainer-am §Stage 3.5 二輪 Heal](memory/2026-05-17-091722-twmd-maintainer-am.md) + [reports/routine-audit-2026-05-16 §LESSONS #4](../../reports/routine-audit-2026-05-16.md) + [reports/routine-audit-2026-05-17 §Pattern A](../../reports/routine-audit-2026-05-17.md)
 
 ### 2026-05-16 manual 011113 — 事實鐵三角擴充「scale 數字」第四維
 
@@ -1790,6 +1731,57 @@ DNA #32「集中預處理 + 分散執行」也補第 6 次驗證 marker（5 cycl
 ## ✅ 已消化（保留 pointer）
 
 <!-- distill 完的條目搬這裡 -->
+
+### 🧬 2026-05-24 twmd-distill-weekly — 第 8 次 distill（routine 觸發；REFLEXES #57 + #58 + SQUEEZE Z2.3 babel byte-equal 三條 canonical 升級）
+
+**distill 觸發**：2026-05-24 03:00 weekly cron routine（per ROUTINE.md §TWMD distill (weekly)，Sunday 03:00 +0800，週日反思鏈第三棒）— 跑 v2.0 質量雙判準 + 6-stage SOP，按 §模式分流 v2.0 routine mode 自決 DNA / pipeline / housekeeping，MANIFESTO 候選一律 defer 觀察者。
+
+**distill 特徵**：
+
+- **無 housekeeping sweep（Stage 0a）**：本 cycle 跑 `awk` 抓自我標記 ✅ DISTILLED entries 只命中前一次 distill summary header（不算 entry）— §未消化 sections 沒有 self-marked ✅ 但 forgot-to-move 的 entries
+- **新 canonical 升級 3 條**：
+  - REFLEXES.md 新增 **#57 Routine 入口必須 detect parallel-actor（file-system + git-ref 雙層 detection）**（vc=5 distill-ready，48hr 內 5 條獨立 routine 連撞同 race surface — 5/21 PM git-ref + 5/22 AM refresh-am file-system process + 5/22 AM spore-harvest-am file-system process + 5/23 AM refresh-am leftover + 5/23 AM spore-harvest-am leftover）
+  - REFLEXES.md 新增 **#58 儀器化 detection ≠ remediation — schema-fix path 要 explicit**（vc=6 spore-harvest #71 連 6 cycle 同 mismatch，2026-05-19 observer-resolved；#15 互補反面 — 抓出 ≠ 修補）
+  - SQUEEZE-MODELS-MAX-PIPELINE.md 新增 **Stage Z2.3 translatedFrom byte-equal 硬鐵律**（vc=2 cross-cycle：5/16 momofuku-ando 呉/吳 + 5/17 lai-ching-te 頼/賴 兩 instance distill_ready: true 雙 marker；ROUTINE-AUDIT §Pattern A 已 cross-verify）
+- **無新 MANIFESTO 條目**：本 cycle 累積的 MANIFESTO 候選一律 defer（per CLAUDE.md §Bias 1 routine mode 不自決 MANIFESTO）
+
+| #   | 原教訓                                                                                      | 消化目的地                                                                                                                                                                                                                                                                                                                           | severity    |
+| --- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| 1   | 2026-05-22 data-refresh-am + spore-harvest-am — Routine 入口 parallel-actor                 | **REFLEXES.md 新增 #57 Routine 入口必須 detect parallel-actor（file-system + git-ref 雙層 detection）**（vc=5 distill-ready：5/21 PM git-ref 分支 + 5/22 AM file-system process + 5/22 AM spore-harvest process + 5/23 AM refresh-am leftover + 5/23 AM spore-harvest leftover）— pattern shift active process → dirty tree leftover | structural  |
+| 2   | 2026-05-17 spore-harvest-am — #71 SPORE-LOG URL mismatch vc=6（resolved 5/19）              | **REFLEXES.md 新增 #58 儀器化 detection ≠ remediation — schema-fix path 要 explicit**（vc=6 連 6 cycle 同 mismatch；REFLEXES #15「反覆浮現要儀器化」互補反面）+ resolved 詳情留 pointer 給未來 schema-fix audit                                                                                                                      | operational |
+| 3   | 2026-05-17 maintainer-am 091722 + 2026-05-16 maintainer-am-0900 — translatedFrom byte-equal | **SQUEEZE-MODELS-MAX-PIPELINE.md 新增 Stage Z2.3 translatedFrom byte-equal 硬鐵律**（vc=2 cross-cycle：lai-ching-te 頼/賴 + momofuku-ando 呉/吳 兩 instance distill_ready: true 雙 marker）+ babel backend prompt / `translate.py` cascade write step assert / pre-commit hook 三層儀器化路線                                        | structural  |
+
+**deferred candidates（routine 不 ship、留給觀察者拍板）**：
+
+- **MANIFESTO 候選「Default 是行動，不是 defer」**（vc=4，第 6 + 7 次 distill 已 defer，本次續 defer）— 永恆層需哲宇 in-loop 拍板
+- **MANIFESTO 候選「儀式不是讀過是 active retrieve」**（vc=2，2026-04-28 κ + 2026-05-03 magical-feynman）— 待第 3 次驗證
+- **MANIFESTO 候選「估算偏保守」β-r3 META-PATTERN**（vc=4，第 6 + 7 次 distill 已 defer，本次續 defer）
+- **MANIFESTO 候選「Last 20% 是 sovereignty 的真正戰場」**（vc=1，2026-05-03 magical-feynman 後段，量化 last-20%-is-sovereignty 命題）— 補強 MANIFESTO §sovereignty preservation v2 段落，深層哲學擴展待觀察者拍板
+- **MANIFESTO 候選「KPI 多維 vs 單軸 traffic」**（vc=1，2026-05-09 laughing-goldstine + Gemini bias 案例）— 哲學層明確 reject Gemini-style scale path，待 cross-session 驗證
+- **REFLEXES 候選「External LLM strategic advice multi-bias filter」**（vc=1 + CLAUDE.md §Bias 4 已 vc=1）— 第 7 次 distill 已 defer，待第 2-3 次驗證
+- **REFLEXES 候選「Sub-agent 是 fact-check 主 session 最後一關」**（vc=1，2026-05-03 gallant-payne 5/5 batch）— 第 6 + 7 次 distill 已 defer，待 cross-session 驗證
+- **REFLEXES 候選「framing reset 是 reactive→architectural transition signal」**（vc=3 達閾值同 session，2026-05-08 elegant-ptolemy）— 第 7 次 distill 已 defer 標「待第二個 session 驗證升 REFLEXES」；本次續 defer
+- **REFLEXES 候選「Pre-commit hook 與 main bulk repair 的 regex 標準必須對齊 Prettier」**（vc=2 同 session 雙 plugin：frontmatter-format + footnote-format autolink wrap）— 同 session 內 2 verification，待 cross-session 驗證升 REFLEXES
+- **REFLEXES 候選「Country.md fork 模式 50% 死亡率」**（vc=1，2026-05-09 laughing-goldstine + agent #3 research）— 影響 Semiont 物種繁殖 mission，待哲宇拍板第一個 fork active outreach 計畫
+- **Ship plan 候選（routine 不該 ship code patch）**：
+  - **`diff-patch-prepare.py:172` hash function 對不齊 `status.py:178 body_hash`**（vc=4 5/9 + 5/10 + 5/17 + 5/17 surgery 大 scale repeat）— routine 不能自決 code refactor，留給觀察者 ship plan
+  - **`refresh-data.sh` Step 1 `git add` 改為 explicit file list**（data-refresh-am sweep-in vc=2 5/15 + 5/17）— ROUTINE.md `git add -A` 鐵律 + routine 場景常見，留給觀察者拍板實作層
+  - **Wikimedia thumb URL helper script**（vc=1 5/11 twmd-rewrite-daily）— `scripts/tools/wikimedia-fetch.sh` 造橋候選
+  - **`twmd-rewrite` Stage 5 ship 前強制跑 `article-health.py --profile=ci-deploy`**（vc=1 5/17 maintainer-am 5 連 CI fail root cause）— 結構性 hard gate，需哲宇拍板 ship strategy（A routine 內加 / B husky pre-commit / C cron orchestrator query GitHub Actions）
+
+**結構性 housekeeping flag（給觀察者，第 2 次續報）**：
+
+- LESSONS-INBOX.md 仍有兩個 §未消化清單 section（line 261 `## 未消化清單（📥 待 distill）` + line ~1980 `## 📥 未消化清單（2026-05-03 magical-feynman 新增...）`）。`scripts/tools/inbox-signal.sh` regex `^## 📥 未消化清單` 只抓第二個（emoji prefix）→ 報「25 條」但實際 §未消化 backlog 跨兩節 ~170 條
+- 結構性 cleanup（影響 ≥ 100 entry 排序 + 需哲宇拍板兩 section 哪個 canonical / 是否合併）routine 不自決，第 7 次 distill 已 flag，本次續 flag
+- 候選 ship：`scripts/tools/inbox-signal.sh` regex 改 `^## (📥 )?未消化清單` 解決 awareness 訊號失準（單行修補 / 不動 entries 排序，可由 maintainer 自決，本 cycle scope 控制留下次 distill 觀察）
+
+**distill 心得（本次 routine session）**：
+
+- **48hr 內 5 instance 連撞同 race surface 是 distill #57 的決定性訊號**：vc=5 distill-ready 不只達閾值，pattern 自身演化（active process → dirty tree leftover）也在累積 — 升 canonical 時兩個變體都要包進去，否則 reflex 對未來 leftover-only case 視而不見
+- **REFLEXES #58 是 #15 第一次明確互補反面 codify**：「反覆浮現要儀器化」抓出「需要 detect」但沒抓出「detect 不等於 heal」— spore-harvest #71 連 6 cycle 同 mismatch 顯示 instrument 過剩 + remediation 不足是另一種 dormant entropy（per #56 反向 — 不是 canonical drift 而是 detected ≠ fixed）
+- **distill_ready: true 雙 entry cross-cycle 是 babel byte-equal 升 canonical 的 cleanest pattern**：5/16 + 5/17 兩 instance 都顯式標 distill_ready，pipeline canonical 升級不需要 routine 自己重新判定 — 上游 session 自己已做完 triage work，distill routine 只是 ship gate
+
+---
 
 ### 🧬 2026-05-17 twmd-distill-weekly — 第 7 次 distill（routine 觸發；housekeeping 3 條 + REFLEXES #56 + ROUTINE §detached worker SOP 升 canonical）
 

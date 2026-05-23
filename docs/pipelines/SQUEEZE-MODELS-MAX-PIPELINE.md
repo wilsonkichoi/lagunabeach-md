@@ -290,6 +290,29 @@ bash scripts/tools/lang-sync/openrouter-batch.sh ja-oss "openai/gpt-oss-120b:fre
 
 **觸發 v1 → v2 升級**：2026-05-02 sleepy-colden session 5 lang × 2 worker = 10 burst dispatch 全卡 attempt 3 backoff，kill 後 5 worker 重試仍卡，最終走 Sonnet escalation 一輪到位。Verification 第 2 次（5/1 γ-late 系列也踩過類似 issue 但沒 codify）。
 
+#### Z2.3 translatedFrom byte-equal 硬鐵律（2026-05-24 twmd-distill-weekly 升 canonical，vc=2）
+
+**Backend / worker / sub-agent 寫入 `knowledge/{lang}/.../{slug}.md` 的 `translatedFrom:` field 必須 byte-equal 對齊 zh-TW canonical filename**。不允許任何 character mapping、日文簡體化、異體字替換、繁簡轉換 — 即使源檔名在 target 文化內看起來「奇怪」也必須保留繁體 / 原樣。
+
+`prebuild:status` 的 `sync-translations-json.py` strict mode 找不到對應 zh source → orphan → exit code 2 阻 build。`translatedFrom` 不是「在地化 title」而是「跨語言 mapping」，是 ground truth 檔名指標。
+
+**規則**：
+
+- 翻譯 backend（codex / gemini / openrouter / ollama）prompt 必加「translatedFrom = `{zh_canonical_path}`，原樣寫入不替換任何字元」hard rule
+- `translate.py` cascade orchestrator write step 寫入前 assert `translatedFrom` == zh source filename（byte comparison）
+- pre-commit hook 對 `knowledge/{lang}/**/*.md` 必過 byte-equal-source-exists check（不只 has-translatedFrom，還要 source 真的存在）
+- 寫翻譯 title 時 ja agent 可寫日文異體字（如「呉百福」），但 `translatedFrom` 必須是 `People/吳百福.md`（繁體源檔）；title 跟 translatedFrom 兩個欄位語意分離
+
+**觸發 v1**：2026-05-16 maintainer-am-0900 — `ja/People/momofuku-ando-instant-noodle-inventor.md` translatedFrom 寫 `People/呉百福.md`（日文異體字）但 zh canonical 是 `People/吳百福.md`，5 連 CI fail（同篇 en/ko/fr/es 四語都正確）
+
+**觸發 v2**：2026-05-17 twmd-maintainer-am 091722 — `ja/People/lai-ching-te.md` translatedFrom 寫 `People/頼清德.md`（日文簡體 `頼`）但 zh canonical 是 `People/賴清德.md`（繁體 `賴`），同 pattern cross-cycle 第 2 instance — per [reports/routine-audit-2026-05-17.md §Pattern A](../../reports/routine-audit-2026-05-17.md)
+
+**儀器化 layer**：
+
+- A: babel backend prompt 加 hard rule（已部分 instantiate，需 audit 是否每 backend prompt 都帶）
+- B: `sync-translations-json` 加 suggestion mode — 偵測 orphan 時用 levenshtein-like 找最接近源檔（byte-distance ≤ 2 + 字符在常用漢字 mapping 表），自動 propose patch
+- C: pre-commit hook 對 `knowledge/{lang}/**/*.md` 必過 byte-equal-source-exists check
+
 ### Stage Z3：增量 commit（防 context 流失）
 
 每完成 ~50 fresh translations local commit 一次：
