@@ -678,6 +678,19 @@ Wave 2 commits landed on `20260521-wave2-historic-districts` branch (off main, w
 - **Cross-link**: 3 bidirectional — 台灣民主轉型、台灣選舉與政黨政治、台海危機與兩岸關係發展
 - **敏感素材**：政治文件歷史——各方解讀並存（獨派/中間/國民黨/北京），不下「正確」判斷；台獨黨綱與前途決議文「取代還是並存」未定論如實呈現
 
+### 臺灣漫遊錄 NEW — 2026-05-23 2026-05-23-215140-manual（楊双子偽譯作小說 / Art 文學作品 / 4639 字 / 34 footnote / 3 圖）
+
+- **Article**: [knowledge/Art/臺灣漫遊錄.md](../../knowledge/Art/臺灣漫遊錄.md)
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式 (Stage 0-5 完整跑)
+- **核心矛盾**：「楊若暉留下 11 本帳本，楊若慈寫了一本『妹妹翻譯的書』」（28 字）— 承載 dead twin/living twin + 偽翻譯結構 + 食物書寫三層
+- **Hook**：2026-05-19 倫敦 Tate Modern 國際布克獎現場 → 結尾首尾呼應 2015-06-19 妹妹過世當天楊若慈打開帳本 + 春山書封「青山千鶴子・著／楊双子・譯」掛名
+- **Title 冒號三明治**：「臺灣漫遊錄：一本『妹妹翻譯的書』，從春山走到了倫敦的領獎台」
+- **品質**：4,639 CJK chars (103% of 4500) / 34 footnotes / 3 Wikimedia CC BY-SA 4.0 圖片 (hero + 2 inline，aspect-check 全過) / article-health rewrite-stage-4 hard=0 warn=0 全 8 plugin pass / prose-health score 1（破折號 5 處 / 對位句 1 處在金翎 verbatim quote）
+- **Stage 1 deep research**: spawn general-purpose agent，60+ queries（35+ WebSearch / 25+ WebFetch）落 [reports/research/2026-05/taiwan-travelogue.md](../../reports/research/2026-05/taiwan-travelogue.md) 764 行；6 critical falsifications（24萬→11萬印量 / 春山 2017→2018-12 創社 / 13 道菜→12 道菜 / 鐵道終點台南→高雄 / 楊双子 Booker 致辭未提妹妹 / 楊若暉死亡 timeline 細化）
+- **Cross-link**: 4 雙向 — 當代台灣文學、解嚴後台灣文學、日治時期文學、台灣文學史；2 forward only（朱天文 + 吳明益，sibling 延伸閱讀 format 異於 canonical bullet style，defer 升級而不擴大本次 scope）
+- **Breaking news anchor**: 2026-05-19 倫敦領獎只發生 4 天前；春山三天內加印 7 萬本，總印量 11 萬本（莊瑞琳「比韓江諾貝爾還強勁」）
+- **核心 verbatim quotes**: 楊双子布克致辭 6 段 + NBA 致辭 3 段 + 報導者專訪 5 段 / 金翎布克致辭 + 翻譯哲學「果泥 vs 多汁的果粒」/ Natasha Brown 評語中英對照 / 朱宥勳「楊若慈虛構的楊若暉翻譯了楊若慈虛構的青山千鶴子之作品」/ 莊瑞琳「比韓江諾貝爾還強勁」
+
 ### 三毛 NEW — 2026-05-17 2026-05-17-184444-manual（撒哈拉流浪作家 / People 文學 / 4508 字 / 24 footnote）
 
 - **Article**: [knowledge/People/三毛.md](../../knowledge/People/三毛.md)
