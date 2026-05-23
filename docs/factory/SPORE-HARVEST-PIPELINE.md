@@ -3,9 +3,9 @@ title: 'SPORE-HARVEST-PIPELINE'
 description: '孢子回聲收割產線 — D+1-D+7 cadence + decision gate + retroactive accuracy trigger + atomic batch log + v2.2 full-auto routine integration'
 type: 'factory-canonical'
 status: 'canonical'
-current_version: 'v2.2.1'
-last_updated: 2026-05-12
-last_session: '2026-05-12-184800-routine-v2-resync'
+current_version: 'v2.3'
+last_updated: 2026-05-23
+last_session: '2026-05-23-220053-manual'
 sister_docs:
   - 'SPORE-PIPELINE.md'
   - 'SPORE-WRITING.md'
@@ -248,6 +248,7 @@ cron 0 7 * * * Asia/Taipei
 | 07:00 槽位 morning chain 對位 | cron 設定    | 接 refresh-am 06:00 之後 1hr / 早 maintainer-am 09:00 2hr                 | ROUTINE.md §每週行程表                               | reschedule + LESSONS entry                                    |
 | backfillWarnings 載入成功     | Step 0       | `dashboard-spores.json` mtime fresh + 結構合法                            | `cat public/api/dashboard-spores.json`               | abort + LESSONS entry                                         |
 | Chrome MCP harvest 至少 1 條  | Step 1       | OVERDUE > 0 時 ≥ 1 成功（非 skipped）                                     | per spore navigate + read_page                       | LESSONS entry（連 2 day 升級）                                |
+| Cleanup tab group (v2.3)      | Step 8 後    | Chrome MCP 用完                                                           | `tabs_close_mcp` 關 current session group            | tab 累積佔 browser memory + 視覺干擾觀察者                    |
 | Atomic batch log 寫入         | Step 5       | `SPORE-HARVESTS/batch-{date}-{N}-spores.md` exists                        | manual write per §SSOT 寫入位置                      | abort（per §Top 5 鐵律）                                      |
 | Validation 4 維度 PASS        | Step 7.5     | parser regression / freshness / parseability / consistency                | `validate-spore-data.py`                             | abort + 修補後再 commit                                       |
 | Dashboard regen               | Step 8       | batch log 新增後 dashboard-spores.json 同 cycle regen                     | `python3 scripts/tools/generate-dashboard-spores.py` | OVERDUE 殘留到下次 refresh-am cron（dry-run 揭露 2026-05-12） |
@@ -596,6 +597,8 @@ mcp__Claude_in_Chrome__computer wait 1
 mcp__Claude_in_Chrome__computer screenshot
 # 抓 likes (♥) / comments (💬) / reposts (🔁) / shares (📮) 4 個 numbers
 # views 在 header sub-text，K rounded
+# v2.3: batch 跑完所有 spore 後 cleanup（per §Cleanup tab group）
+mcp__Claude_in_Chrome__tabs_close_mcp {tabId}
 ```
 
 **Chrome MCP `select_browser` 第一次連結**：
@@ -603,6 +606,34 @@ mcp__Claude_in_Chrome__computer screenshot
 - 哲宇要先在 Chrome 安裝 Claude in Chrome extension
 - Pair 後 `mcp__Claude_in_Chrome__list_connected_browsers` 應該回傳 deviceId
 - 之後 session 重啟仍可用該 deviceId 直接 `select_browser`（pairing 持久化）
+
+### Cleanup tab group（v2.3 — 結尾步驟）
+
+Harvest batch 完成（所有 spore 都 harvest 過 + batch log written + dashboard regen）後**必 close** 本 session 用的 tab group。長期累積 idle tab 會佔 browser memory + 視覺干擾哲宇。
+
+**操作**：
+
+```javascript
+// 1. 確認當前 group 內 tabs
+mcp__Claude_in_Chrome__tabs_context_mcp();
+// 回 { availableTabs: [{tabId, title, url}], tabGroupId }
+
+// 2. 關 group 內所有 tabs
+for (tab of availableTabs) {
+  mcp__Claude_in_Chrome__tabs_close_mcp({ tabId: tab.tabId });
+}
+// group 內最後一 tab 關掉後 Chrome 自動移除 group
+```
+
+**Built-in safety**：Chrome MCP `tabs_close_mcp` 只能關 **current session's group** 的 tab（per tool doc「Only tabs in this session's group are closable」）。所以「不要關別的 session 控制的」這個 invariant 由工具層 enforce — 即使 tabId 寫錯也不會誤關別的 session 的 tab，會回 tool error。
+
+**例外情境**（不關）：
+
+- 觀察者 in-chat directive「先留著，下次 session 還要看」→ skip cleanup
+- Routine cron 跑 harvest 沒觀察者在場 → default 必 close（不留 idle tab）
+- 抓到 anomaly 需要哲宇 review 同一 tab → 留 tab 但寫 handoff 標示
+
+**觸發背景**（v2.3，2026-05-23 哲宇 directive）：「使用完瀏覽器 tab 之後要記得關掉，關掉剛使用的那個群組（不要關別的 session 控制的）」+「其他 pipeline 有類似的操作也同步補充這點」。對應 SOCIAL-POSTING-PIPELINE v0.6 同 directive 同步補丁 — 任何 Chrome MCP 用完都該 cleanup tab group，pipeline 不分 SHIP 還是 HARVEST 都統一 enforce。
 
 ### Harvest 資料流總覽
 
@@ -706,6 +737,7 @@ batch 跑完要做的「Pattern 歸納」比單筆深：
    - 完整文字原文（generic ref）
    - 時間戳
    - 多層回覆結構
+5. (v2.3) batch harvest 完成後 tabs_close_mcp 關本 session 的 tab group（per §Cleanup tab group）
 ```
 
 ### 輸出 schema（每則留言）
@@ -1134,6 +1166,10 @@ _執行責任：AI 主責 Step 1-5 + 7-8；人類主責 Step 6（回覆留言）
 _每次執行留 log 到 `docs/factory/SPORE-HARVESTS/{N}-{slug}-{date}.md`_
 
 _v2.0 | 2026-05-11 cranky-newton — Spine restoration 對齊 REWRITE v5.0 + MAINTAINER v2.0：頂部加 ASCII spine（D+1 → D+7 cadence + 6h decision gate + Reach×Accuracy trigger + atomic batch log SSOT 顯化）+ Hard Gate Inventory 集中 table（9 gates）+ Top 5 最常忘 step + 跨檔案職責分工 standalone table（明確跟 SPORE-PIPELINE / VERIFY / FACTCHECK / DATA-REFRESH 分工 + atomic batch log 寫入路徑強化）。觸發：[reports/pipelines-audit-2026-05-11.md](../../reports/pipelines-audit-2026-05-11.md) Tier A.2 SPORE family audit。D+1-D+7 prose body 不動（已健康，5/8 Phase 6 SSOT cleanup 保留）。_
+
+_v2.3 | 2026-05-23 2026-05-23-220053-manual session — Cleanup tab group 結尾步驟 (mirror SOCIAL-POSTING v0.6)_
+_v2.3 改動：新增 §Cleanup tab group section（harvest batch + dashboard regen 完後 `tabs_close_mcp` 關 current session group）+ Hard Gate Inventory 加 row「Cleanup tab group (v2.3)」+ Chrome MCP MVP 執行 step 5 補 cleanup + Chrome MCP harvest pattern code block 補 `tabs_close_mcp` 末步。Built-in safety: Chrome MCP `tabs_close_mcp` 只能關 current session's group enforce 不誤關別 session。_
+_v2.3 觸發：哲宇 2026-05-23 finale 後 directive「使用完瀏覽器 tab 之後要記得關掉，關掉剛使用的那個群組（不要關別的 session 控制的）」+「其他 pipeline 有類似的操作也同步補充這點」→ SPORE-HARVEST + SOCIAL-POSTING 雙 pipeline 同步補丁。對應 REFLEXES #15「反覆浮現要儀器化」第 N 次驗證 — tab cleanup hygiene 從口頭 directive 物理化成 canonical SOP。_
 
 _v2.2.1 | 2026-05-12 2026-05-12-184800-routine-v2-resync session — Step 8 trigger dashboard regen 補上_
 _v2.2.1 改動：§Routine 整合 §🗺️ Routine 觸發 → Pipeline Step flow 加 Step 8「trigger dashboard regen — `python3 scripts/tools/generate-dashboard-spores.py`」+ Hard Gate Inventory 加 row「Dashboard regen」+ Quality gate table 三態加「dashboard-spores.json regen」criterion + Stage 3 commit 註明 batch log + dashboard-spores.json + sporeLinks frontmatter 三 file 同 commit。_
