@@ -600,6 +600,26 @@ BECOME_TAIWANMD.md Step 5 新增：
   - 國際讀者（en/ja/ko）對台灣同婚有興趣，EVOLVE 完成後優先翻譯
   - 相關鄰近題：「跨性別權益」可能拆出獨立條目
 
+### 台灣邦交國與國際外交 EVOLVE — 2026 freshness + 英文版 SEO 校準（SC「diplomatic allies 2026」cluster 缺口）
+
+- **Type**: `EVOLVE`
+- **Category**: Society
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Source**: 2026-05-23 manual /twmd-evolve — SC 7d opportunities 4-variant cluster 累積 ~875 imp / 0 click
+  - **SC 7d opportunities**：`taiwan diplomatic allies 2026` 310 imp / 0 click + `taiwan diplomatic allies list 2026` 137 imp + `taiwan diplomatic allies list current` 117 imp + 其他變體 — 4 變體加總 ~875 imp / **0 click 跨變體**。英文讀者明確查 2026 最新邦交國 list 全部落空
+  - **既有 article**：[knowledge/Society/台灣邦交國與國際外交.md](../../knowledge/Society/台灣邦交國與國際外交.md) zh-TW + 英文版 `knowledge/en/Society/taiwan-diplomatic-allies-international-relations.md`（需 verify 英文版存在+ freshness）
+  - **既有 spore**：#51/#52 邦交國「12 邦交國 vs 護照進 177 國」護照悖論 D+7 17.3K Threads — Tier 中段 結構性題目 hook 已建立
+  - **EVOLVE 目標**：
+    1. 確認英文版 article 是否含「2026」latest timestamp + 12 邦交國 current list
+    2. frontmatter SEO 加「Taiwan diplomatic allies 2026」「list current」cluster keyword
+    3. 文章內 verify「12 邦交國」list per 2026 actual state（教廷 / 巴拉圭 / 海地 / 4 太平洋島國 / 4 加勒比海國 etc）
+    4. lastVerified bump 到 2026-05-23 或最新外交事件日期
+- **預估時間**：1-2 hr（EVOLVE 校準 + 英文版 sync + frontmatter SEO 優化）
+- **Reference**：SC 7d opportunities cluster + spore #51/#52 harvest data + REFLEXES #4 三源驗證（SC + GA + GitHub 三源 conjunction 確認）
+- **dev_log**:
+  - `2026-05-23 manual (220053)`: /twmd-finale 跑 /twmd-evolve 從 SC 7d opportunities 抓到 cluster → 新 candidate
+
 ---
 
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
