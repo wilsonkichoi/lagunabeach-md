@@ -1,0 +1,6 @@
+{
+  "_schema": "spore-defer-queue v1.0",
+  "_description": "Deferred spores: CI/CD wait gate timed out (60min cap) during routine cycle. Next twmd-rewrite-daily Stage 1.5 retries each entry before picking new article. Manual /twmd-spore <slug> also consumes from this queue.",
+  "_added": "2026-05-24 哲宇 directive — full-cycle routine v6.1",
+  "deferred": []
+}

@@ -85,10 +85,10 @@ upstream_canonical:
 > 從 SPORE-LOG harvest history + 4/14 ε spore #29 紅線焦慮 + 高鐵 s35 朋友 tone prime + 2026-05-23 臺灣漫遊錄 first ship → spore 同 session 自動化飛輪 抽 friction 最高的 5 條。
 
 1. **🚨 強制 Read 4 檔不准 sample**（2026-05-17 #74 v1 教訓）— PIPELINE + VERIFY + WRITING + HARVEST 共 3,191 行必須完整 Read，不准 `grep`/`head`/`tail`/sample。sample = 跳 VERIFY 7 階段 = 違反 [MANIFESTO §8](../semiont/MANIFESTO.md)
-2. **配圖 v3.6 三鐵律**（2026-05-23 哲宇 directive，剛 ship 文章 → spore 飛輪實戰教訓）— (a) make-spore.sh default local server 不抓 prod；(b) 抓完圖 AI 視覺自檢方形圖內容對；(c) Post 前 polling CI/CD ≥15 min 確認 prod live 才發
-3. **Step 3 朋友 tone prime** — 第一秒像新聞 lead = AI 水印，必須有「你知道嗎？」「欸，」curiosity prefix（spore_writing plugin Wave 2 gate）
-4. **Step 4.2 URL encode + UTM** — 中文 URL 必跑 `python3 -c "urllib.parse.quote..."`，UTM 三段全填（utm_source / medium=spore / campaign=s{N}）
-5. **Step 4.4 Hook tier 自檢** — Tier 1a/1b only，禁 Tier 3（廉價懸念「未完待續」一律重寫）
+2. **配圖 v3.6 + CI/CD wait v3.7**（2026-05-23/24 哲宇 directive，剛 ship 文章 → spore 全自動 cycle 實戰教訓）— (a) make-spore.sh default local server 不抓 prod；(b) 抓完圖 AI 視覺自檢方形圖內容對；(c) Post 前 polling CI/CD **60 min cap + 30 min soft alert + defer-to-next-routine fallback** 確認 prod live 才發
+3. **Routine context auto-decisions (v3.7)** — `SPORE_ROUTINE_MODE=1` 偵測，Platform default Threads only / Hook tier 1b default / Skip 多版本提案 + 混合策略 / Skip multi-language fan-out / Image check 走 plugin（per §Routine context 自動決策 defaults table）
+4. **Step 3 朋友 tone prime** — 第一秒像新聞 lead = AI 水印，必須有「你知道嗎？」「欸，」curiosity prefix（spore_writing plugin Wave 2 gate）
+5. **Step 4.2 URL encode + UTM** — 中文 URL 必跑 `python3 -c "urllib.parse.quote..."`，UTM 三段全填（utm_source / medium=spore / campaign=s{N}）
 
 ---
 
@@ -424,6 +424,34 @@ bash scripts/tools/make-spore.sh /art/臺灣漫遊錄/
 
 **規則**：發佈前先問「這則孢子的受眾 primary 在哪？」zh 一般人物 default Threads only。
 
+### 🤖 Routine context 自動決策 defaults（v3.7 新增）
+
+> ⚠️ **2026-05-24 哲宇 directive**：`twmd-rewrite-daily` routine 每日自動跑 article → spore → post 全 cycle，**不可中間問 observer 卡住**。所有需要判斷的點都要有 deterministic default。
+>
+> 偵測 routine context：env `SPORE_ROUTINE_MODE=1` 或 cron context（無 in-chat observer）。
+
+| 決策點                     | Manual context (有 observer)             | Routine context (無 observer，default)                                                                                                                                                              |
+| -------------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Platform allocation**    | Observer 拍板 Threads / X / 雙發         | **Threads only default** — X 只在 article frontmatter 含 `internationalReach: true` 或 `breakingNews: true` 才 fan-out                                                                              |
+| **Hook tier**              | Observer review draft，Tier 1a/1b/中段選 | **Tier 1b 具體性槓桿 default**（最安全，不依賴知名度 / 不需 reach 預測）                                                                                                                            |
+| **多版本提案**             | 互斥 angle ≥ 2 → 3-angle 提案給 observer | **Skip — single best version**（routine 走最強單版，避免 observer choice gate）                                                                                                                     |
+| **混合策略**               | Observer 選 A+B → 混合                   | **Skip — pick A only**                                                                                                                                                                              |
+| **CI/CD wait timeout**     | abort + report observer                  | **defer to next routine + spore-defer.json**（per §v3.7 CI/CD wait gate）                                                                                                                           |
+| **AI 圖檢方形圖**          | AI 視覺看圖 + observer review            | **Plugin check** (`scripts/tools/article-health.py {png} --check=spore-image-content`) 自動 hard=0 verify（file exists + 1080×1080 dimension + ≥ 100KB size + PNG header valid）。Fail → defer post |
+| **post-ship verify**       | AI verify 5 條 + observer ack            | **AI verify 5 條 + auto-log**，全 PASS 直接結束，FAIL → telegram alert + log 不 retry                                                                                                               |
+| **Multi-language fan-out** | 國際題材 → observer 確認 en/ja/ko/es/fr  | **Skip — zh only**（babel routine 半夜獨立跑翻譯，spore 只發 zh 版本）                                                                                                                              |
+| **觀察者 directive 衝突**  | observer in-chat override                | **Skip — 走 default flow**，下個 routine cycle observer 可 manual `/twmd-spore <slug>` 補發                                                                                                         |
+
+**Routine 鐵律**：
+
+- 每個 decision point 都有 deterministic default，**0 gate 等 observer**
+- 若 default 拿不到答案（如圖檢 fail）→ defer + log，**不 retry，不 abort**
+- 整 routine 走通的 success criterion = (article shipped) ∧ (spore committed) — post 上社群是 bonus（成功就成功，失敗就 defer）
+
+**為什麼 Threads only default**：90% Taiwan.md 條目是 zh 人物 / 文化 / 歷史，per 上方 platform allocation table，X 觸及率比 Threads 低 100-500x。Routine 不做 X 等於不做 niche audience 的浪費投資。觀察者要 X 觸及就 explicit 標 frontmatter flag 或 manual override。
+
+**為什麼 Tier 1b default**：1a 知名度槓桿需要「對象本身知名」判斷 → 主觀；1b 具體性槓桿只需「找具體 anchor + 反差 hook」→ deterministic + 已被 SPORE-WRITING §A2 模板 instrument 化。Tier 1b D+7 reach 10K-65K 範圍對 routine 足夠。
+
 ### Hook tier 自檢
 
 完整 4-tier hierarchy 見 [SPORE-HARVEST-PIPELINE §Hook tier hierarchy](SPORE-HARVEST-PIPELINE.md)。簡述（v3.1，從 9 spore batch 數據進化）：
@@ -453,11 +481,13 @@ bash scripts/tools/make-spore.sh /art/臺灣漫遊錄/
 - [ ] **多語 SSOT freshness**（國際題目必做）：英文 knowledge 對齊 zh SSOT 嗎？
 - [ ] **不重複**：查 SPORE-LOG.md 確認 ≥ 2 週未發過
 
-### 🚦 v3.6 CI/CD wait gate（HARD — post 前必過）
+### 🚦 v3.7 CI/CD wait gate（HARD — post 前必過 / routine-safe）
 
-> ⚠️ **2026-05-23 哲宇 directive**：social post 前必須確認 prod 版本已上線。否則讀者點 UTM URL 拿到 404 / 舊版 = 整個 spore 效益歸零。
+> ⚠️ **2026-05-23 哲宇 directive (v3.6)**：social post 前必須確認 prod 版本已上線。否則讀者點 UTM URL 拿到 404 / 舊版 = 整個 spore 效益歸零。
 >
-> **CI/CD timeline**：commit + push to main → Cloudflare Pages build 約 10-15 min → prod 上線（cache invalidate）≈ 15 min total。
+> ⚠️ **2026-05-24 哲宇 directive (v3.7)**：cap 從 20 → **60 min**（實戰觀察 parallel session + cron cancel-in-progress cascade 真實需要 50+ min）+ **30 min soft escalation alert**（中央 telegram）+ **defer-to-next-routine fallback**（cap 超時不 abort 整 routine，改寫 spore-defer.json + 完成 article ship + memory append，下次 routine 接續 retry）。
+>
+> **CI/CD timeline**：commit + push to main → GitHub Actions build + Pages deploy 約 10-50 min（含 parallel session cascade 影響）→ prod 上線（cache invalidate）≈ 15-60 min total。
 >
 > **強制 gate**（spore post 前 mandatory）：
 
@@ -467,22 +497,55 @@ SLUG_ENCODED=$(python3 -c "import urllib.parse; print(urllib.parse.quote('臺灣
 TITLE_KEYWORD="妹妹翻譯的書"  # 從 frontmatter title 抽 unique substring
 URL="https://taiwan.md/art/${SLUG_ENCODED}/"
 
-# 2. Polling loop (60s interval, cap 20 min)
-DEADLINE=$(($(date +%s) + 1200))  # 20 min hard cap
+# 2. Polling loop (60s interval, cap 60 min, 30 min soft alert)
+DEADLINE=$(($(date +%s) + 3600))   # 60 min hard cap (v3.7 從 20 升)
+SOFT_ALERT=$(($(date +%s) + 1800)) # 30 min soft escalation
+ALERTED=0
 while [ $(date +%s) -lt $DEADLINE ]; do
   if curl -sf "$URL" | grep -q "$TITLE_KEYWORD"; then
     echo "✅ Prod live with title keyword. Safe to post."
+    sleep 60  # Cloudflare edge cache propagation buffer
     break
   fi
-  echo "⏳ Waiting for CI/CD... ($(($DEADLINE - $(date +%s)))s remaining)"
+  # 30 min soft alert: telegram notify observer (routine context only)
+  if [ "$ALERTED" -eq 0 ] && [ $(date +%s) -ge $SOFT_ALERT ]; then
+    echo "⏳ 30min still waiting for CI/CD. Soft alert: parallel session push cascade likely."
+    # Routine: telegram_alert "spore CI wait >30min, slug=${SLUG_ENCODED}"
+    ALERTED=1
+  fi
+  echo "⏳ Waiting for CI/CD... ($((($DEADLINE - $(date +%s))/60))min remaining)"
   sleep 60
 done
 
-# 3. 20 min still 沒上 → escalate observer，不 silent post
-[ $(date +%s) -ge $DEADLINE ] && echo "❌ CI/CD timeout 20 min. Halt post + report observer." && exit 1
+# 3. Hard cap 60 min: defer 不 abort (v3.7)
+if [ $(date +%s) -ge $DEADLINE ]; then
+  echo "❌ CI/CD timeout 60 min. Defer spore post to next routine cycle."
+  # 寫 spore-defer.json record，下次 twmd-rewrite-daily / 觀察者 manual 觸發接續 post
+  echo "{\"slug\": \"$SLUG\", \"deferred_at\": \"$(date -Iseconds)\", \"reason\": \"ci_cd_timeout\", \"blueprint\": \"$BLUEPRINT_PATH\"}" \
+    >> docs/factory/spore-defer.json
+  # Routine context: 不 fail 整 routine，return success「article shipped, spore deferred」
+  exit 0  # routine 視為部分成功
+fi
 ```
 
-**為什麼 polling not single-check**：CI/CD 時間 variance 大（5-25 min）。固定 sleep 15 min = sometimes 早 sometimes 晚。Polling 60s 一次 + 20 min hard cap = converge on actual live time + bounded wait.
+**v3.7 升級理由**：
+
+| 維度            | v3.6 (cap 20min, abort on timeout)  | v3.7 (cap 60min, defer on timeout)                 |
+| --------------- | ----------------------------------- | -------------------------------------------------- |
+| Cap             | 20 min hard                         | **60 min hard + 30 min soft alert**                |
+| Timeout 行為    | abort + report observer             | **defer to next cycle + spore-defer.json 接續**    |
+| Routine 友善    | ❌ routine fail = 阻塞 article ship | ✅ routine 部分成功 = article 上線、spore 下次重試 |
+| 觀察者 friction | 必看 report 決定下一步              | 0 friction，alert 只通知，cycle 自動接續           |
+
+**Routine context 鐵律**：在 routine 模式下 (`SPORE_ROUTINE_MODE=1` env var 或自動偵測 cron context)：
+
+- 30 min soft alert → telegram observer，不 block routine
+- 60 min hard cap → 寫 spore-defer.json + commit log，不 abort
+- 下一次 routine 啟動時，先檢查 spore-defer.json，若有 entry → 先 retry deferred spore（用同 blueprint），完成才繼續 PICK 新 article
+
+**Manual context 鐵律**：observer in chat → 30 min 跟 60 min 都 in-chat 通知，observer 可下「先 stop / 換 spore / 繼續等」決定。
+
+**為什麼 polling not single-check**：CI/CD 時間 variance 大（5-50 min）。固定 sleep = 同樣 cancel cascade scenario 不能適應。Polling 60s + 60 min cap = converge on actual live time + bounded wait + escalation alert.
 
 **Cache invalidation 額外考量**：
 

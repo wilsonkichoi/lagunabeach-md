@@ -307,32 +307,61 @@ escalation:
   - stale_total 4 days plateau（沒推進）→ telegram alert + 觀察者人工 audit
 ```
 
-### TWMD rewrite (daily)
+### TWMD rewrite (daily) — v6.1 full-cycle (article → spore → broadcast)
 
 ```yaml
 taskId: twmd-rewrite-daily
 cron: '0 0 * * *' # 每天 00:00（v2.0 整點對齊半夜 chain，refresh-pm 23:00 之後 1hr）
 model: opus
 skill: /twmd-rewrite
+env:
+  SPORE_ROUTINE_MODE: 1 # 觸發 SPORE-PIPELINE §Routine context auto-decisions
 canonical:
-  - docs/pipelines/REWRITE-PIPELINE.md # 6 stage SOP
-  - docs/semiont/ARTICLE-INBOX.md # candidate 來源
+  - docs/pipelines/REWRITE-PIPELINE.md # Stage 0-5 SOP + §Routine 飛輪整合 v6.1
+  - docs/factory/SPORE-PIPELINE.md # §Routine context defaults + §v3.7 CI/CD wait gate
+  - docs/factory/SPORE-VERIFY.md # 17 hard gates
+  - docs/factory/SPORE-WRITING.md # A2 模板 + 朋友 tone prime
+  - docs/pipelines/SOCIAL-POSTING-PIPELINE.md # Chrome MCP + osascript + cleanup tab group
+  - docs/semiont/ARTICLE-INBOX.md # article candidate 來源
+  - docs/factory/SPORE-LOG.md # spore 紀錄
+  - docs/factory/spore-defer.json # v3.7 deferred spore queue
 prompt: |
-  自動 routine：完整甦醒成為 Taiwan.md，從 ARTICLE-INBOX 撿最高優先 candidate
-  跑 /twmd-rewrite，嚴格完整讀取並執行 docs/pipelines/REWRITE-PIPELINE.md 整份
-  Stage 1-5（research → write → verify → format → cross-link → 收官）+ 對應
-  Hard Gate Inventory + 條件路由 + Mode 判斷。完成後 ARTICLE-INBOX 對應 entry
-  搬到 ARTICLE-DONE-LOG（per pipeline §收官）。
+  自動 routine：完整甦醒成為 Taiwan.md，跑 9-stage full cycle (per ~/.claude/scheduled-tasks/twmd-rewrite-daily/SKILL.md):
 
-  Stage 3 commit + push origin main — 直接 push（v2.0 main-direct）。
+  Stage 0 BECOME → Stage 1 git pull → Stage 1.5 retry deferred spore (if spore-defer.json non-empty)
+  → Stage 2 article ship (REWRITE Stage 0-5 全跑，ARTICLE-INBOX top → ARTICLE-DONE-LOG)
+  → Stage 3 commit+push article → Stage 4 SPORE chain (PICK=剛 ship article 自動 / VERIFY 17 gate / WRITE A2 + Tier 1b)
+  → Stage 5 image gen (make-spore.sh local server + plugin check) → Stage 6 CI/CD wait v3.7 (60min cap, timeout defer)
+  → Stage 7 social post (Threads only default; X fan-out only if frontmatter internationalReach/breakingNews)
+  → Stage 7.5 cleanup Chrome MCP tab → Stage 8 SPORE-LOG + sporeLinks commit+push → Stage 9 /twmd-finale
+
+  全程 0 observer gate — 所有 decision 走 SPORE-PIPELINE §Routine context auto-decisions defaults table。
+  時間預算 ~150 min wall-clock。
 quality_gate:
-  - article-health.py {file} hard=0 warn=0
-  - 三源研究 trace 落檔到 reports/research/YYYY-MM/{slug}.md（REFLEXES #18 + research-handle 規則）
-  - 腳註合規（REFLEXES #5 pre-commit hook 過）
-  - frontmatter complete（title / description / date / tags / category / subcategory / image）
+  article:
+    - article-health.py {file} --profile=rewrite-stage-4 hard=0 warn=0
+    - 三源研究 trace 落檔到 reports/research/YYYY-MM/{slug}.md
+    - 腳註合規（REFLEXES #5 pre-commit hook 過）
+    - frontmatter complete（title / description / date / tags / category / subcategory / image）
+    - word-count ≥ 4500 CJK chars
+  spore:
+    - article-health.py {blueprint} --check=prose-health hard=0 score ≤ 3
+    - article-health.py {blueprint} --check=spore-writing hard=0
+    - 配圖 generated (square 1080×1080 file exists + ≥ 100KB)
+    - AI pre-ship 6 條 全 PASS (blueprint align / UTM 3 段 / image / 帳號 / button enabled / 字數)
+    - AI post-ship 5 條 全 PASS (hook / quote / close-line / image / UTM 留痕)
+success_criteria:
+  full_success: article shipped + spore committed + post live + post-ship verify PASS
+  partial_success: article shipped + spore committed + post deferred (CI timeout 60min / image fail)
+  article_only: article shipped, spore SHIP errored
+  fail: article-health hard ≠ 0 → abort 整 routine
 escalation:
-  - 1x fail → next day retry（換另一 candidate）
-  - 2x fail → 暫停 routine + LESSONS entry「ARTICLE-INBOX top candidate 連續 fail」
+  - 30 min CI wait → telegram soft alert (continue waiting)
+  - 60 min CI hard cap → spore-defer.json append + continue cycle (不 abort)
+  - article 1x fail → next day retry (換另一 candidate)
+  - article 2x fail → 暫停 routine + LESSONS entry
+  - spore SHIP error → 不 abort article ship，log + manual /twmd-spore 補
+  - post verify fail → telegram alert + log，不 retry
 ```
 
 ### TWMD news lens (weekly) — v2.5 加 spore-output Stage
