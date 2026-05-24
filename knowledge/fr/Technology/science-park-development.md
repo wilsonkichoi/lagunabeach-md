@@ -95,10 +95,10 @@ Le parc du Sud n'est plus seulement « celui de Tainan ». En 2026, l'administra
 | Campus de Kaohsiung | Luzhu / Yong'an / Gangshan | 567 ha     | 15 472 personnes   | Zone spécialisée en dispositifs médicaux et biotechnologies                          |
 | Campus de Ciaotou   | Ciaotou, Kaohsiung         | 164 ha     | 276 personnes      | Semi-conducteurs + machines intelligentes, travaux débutés en 2021                   |
 | Campus de Nanzi     | Nanzi, Kaohsiung           | 29,83 ha   | 5 240 personnes    | Procédés avancés de TSMC (anciennement parc industriel de Nanzi)                     |
-| Campus de Jiayi     | Taibao                     | 88 ha      | 1 256 personnes    | Médecine de précision + agriculture intelligente, phase II en planification          |
+| Campus de Chiayi    | Taibao                     | 88 ha      | 1 256 personnes    | Médecine de précision + agriculture intelligente, phase II en planification          |
 | Campus de Pingtung  | Ville de Pingtung          | 73,83 ha   | 0 personne         | Agriculture et médecine intelligentes + espace, travaux débutés en 2023              |
 
-La vitesse d'expansion du parc du Sud est stupéfiante. L'expansion de phase III vise les semi-conducteurs avancés, et la phase IV, le parc écologique scientifique de Shalun, a obtenu une évaluation de faisabilité en 2025. La phase II du campus de Jiayi a passé l'évaluation environnementale début 2026, se préparant à accueillir l'usine d'encapsulation avancée CoWoS de TSMC.
+La vitesse d'expansion du parc du Sud est stupéfiante. L'expansion de phase III vise les semi-conducteurs avancés, et la phase IV, le parc écologique scientifique de Shalun, a obtenu une évaluation de faisabilité en 2025. La phase II du campus de Chiayi a passé l'évaluation environnementale début 2026, se préparant à accueillir l'usine d'encapsulation avancée CoWoS de TSMC.
 
 Ce n'est pas de la planification — c'est une course aux armements.
 
