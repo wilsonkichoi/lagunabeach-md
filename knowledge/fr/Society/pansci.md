@@ -19,7 +19,7 @@ lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/泛科學.md'
-sourceCommitSha: '678532b8'
+sourceCommitSha: '63bc1ff9'
 sourceContentHash: 'sha256:56debc6c7910d6f6'
 sourceBodyHash: 'sha256:62844ef5ee6bcb04'
 translatedAt: '2026-05-22T05:08:47+08:00'
