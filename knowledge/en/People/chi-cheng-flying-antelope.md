@@ -8,13 +8,13 @@ subcategory: '體育'
 tags: ['體育', '田徑', '奧運', '跨欄', '世界紀錄']
 readingTime: 7
 lastVerified: 2026-05-07
-lastHumanReview: false
+lastHumanReview: true
 featured: false
 translatedFrom: 'People/紀政.md'
-sourceCommitSha: '0ea5d5d42'
-sourceContentHash: 'sha256:75c790eb823d4118'
-sourceBodyHash: 'sha256:e16afe42bbfa7ee1'
-translatedAt: '2026-05-09T14:29:09+08:00'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:ac035cdcf01e05b4'
+sourceBodyHash: 'sha256:4c7c2552cb14f3c8'
+translatedAt: '2026-05-24T22:33:51Z'
 ---
 
 # Chi Cheng: Set 10 World Records, Still Running for Taiwan's Name 50 Years Later
@@ -25,9 +25,9 @@ translatedAt: '2026-05-09T14:29:09+08:00'
 
 Chi Cheng was born in Hsinchu on March 15, 1944.[^1] She showed athletic talent from her school days and stepped onto the competitive track early.
 
-In 1964, she represented Taiwan at the Tokyo Olympics—her first time setting foot on the Olympic stage. She did not advance to the finals, but she learned where the distance was. Every step she took after that was measured against that gap.
+In 1964, she represented Taiwan at the Tokyo Olympics. It was her first time setting foot on the Olympic stage. She did not advance to the finals, but she learned where the distance was. Every step she took after that was measured against that gap.
 
-In the 1960s, women's track and field in Asia lacked systematic training resources. Chi Cheng grew up without world-class training facilities, without a comprehensive scientific training system, and without today's video analysis tools. What she relied on was talent, willpower, and a pure passion for competition itself. That defeat at the Tokyo Olympics was not the end of her track career but rather a list of distances—and she spent the next four years closing each one.
+In the 1960s, women's track and field in Asia lacked systematic training resources. Chi Cheng grew up without world-class training facilities, without a comprehensive scientific training system, and without today's video analysis tools. What she relied on was talent, willpower, and a pure passion for competition itself. That defeat at the Tokyo Olympics was not the end of her track career but rather a list of distances. She spent the next four years closing each one.
 
 Between 1966 and 1967, she achieved outstanding results at multiple international competitions. Some historical records indicate she ran the 100 meters in a time approaching 10.0 seconds, setting a new world best.[^2] However, the exact dates remain disputed across sources, and further verification of the relevant records is needed. Her presence on the sprint track was already enough for the global track and field community to remember the Taiwanese athlete known as the "Flying Antelope."
 
@@ -37,7 +37,7 @@ The 1968 Mexico City Olympics was the peak of Chi Cheng's career and a watershed
 
 In the women's 80-meter hurdles final, she won bronze with a time of **10.51 seconds**, becoming the first Taiwanese woman to win an Olympic track and field medal.[^3] At the same Games, she also advanced to the 100-meter final, finishing seventh, demonstrating her all-around ability in short-distance events.
 
-The weight of that bronze medal went beyond the numbers. In a situation where Taiwanese athletes had far fewer international competitive resources than their Western counterparts, she opened a door with her own speed—a door that Taiwanese women's track and field had never touched before.
+The weight of that bronze medal went beyond the numbers. In a situation where Taiwanese athletes had far fewer international competitive resources than their Western counterparts, she opened a door with her own speed: a door that Taiwanese women's track and field had never touched before.
 
 > 📝 **Curator's note:** The common narrative is that Chi Cheng won bronze on talent alone. But a more precise reading is this: Mexico City sits at an altitude of 2,240 meters, and the thin air at that elevation particularly affects power-based athletes in sprints and hurdles—many runners who excelled at sea level underperformed at those Games. Chi Cheng's bronze in the 80-meter hurdles demonstrated both speed and the ability to adapt to competition conditions. This detail is easily overlooked when looking at the number 10.51 alone.
 
@@ -51,11 +51,11 @@ By the 1972 Munich Olympics, she was already a world-class, internationally reco
 
 Her pentathlon world record further demonstrated that she was not merely a speed athlete. Dominating across sprints, hurdles, and jumping events simultaneously was virtually unprecedented in Asian women's track and field in the 1960s.
 
-Behind the 10 world records lies a larger structural fact: in that era, an Asian athlete reaching the pinnacle of short-distance track events was itself a direct rebuttal to the implicit bias that "Asians are not suited for sprinting." Chi Cheng's existence reclaimed a place for all of Asian women's track and field in the 1960s. Her world records were not just personal achievements—they were a geographic statement: Taiwan has someone who can run faster than anyone in the world.
+Behind the 10 world records lies a larger structural fact: in that era, an Asian athlete reaching the pinnacle of short-distance track events was itself a direct rebuttal to the implicit bias that "Asians are not suited for sprinting." Chi Cheng's existence reclaimed a place for all of Asian women's track and field in the 1960s. Her world records were not just personal achievements, they were a geographic statement: Taiwan has someone who can run faster than anyone in the world.
 
 ## The "Flying Antelope" in Taiwan's Track and Field History
 
-Before Chi Cheng, the highest benchmark for Taiwan on the international track and field stage was [Yang Chuan-kwang](/en/People/yang-chuan-kwang-asian-iron-man/): silver in the decathlon at the 1960 Rome Olympics, Taiwan's first Olympic medal, a milestone in men's track and field. Chi Cheng's 1968 Mexico City Olympics was the second milestone—and the harder path. She was in women's track and field, and she had no predecessor to follow.
+Before Chi Cheng, the highest benchmark for Taiwan on the international track and field stage was [Yang Chuan-kwang](/en/People/yang-chuan-kwang-asian-iron-man/): silver in the decathlon at the 1960 Rome Olympics, Taiwan's first Olympic medal, a milestone in men's track and field. Chi Cheng's 1968 Mexico City Olympics was the second milestone, and the harder path: she was in women's track and field, and she had no predecessor to follow.
 
 Yang Chuan-kwang's path was that of an Amis boy who made his way through talent and training at UCLA; Chi Cheng's path was that of a Hsinchu girl who forged ahead by breaking record after record. The starting points were different, but both arrived at the highest point in Taiwan's track and field history.
 
@@ -65,7 +65,7 @@ Another fact rarely mentioned about her track and field career is that during th
 
 In 1973, Chi Cheng left professional competition. The athlete's career stopped there, but she did not.
 
-She threw herself into promoting road running, taking as her mission "getting more Taiwanese people running," organizing international road running events and bringing running culture into everyday life in Taiwan. She also served in key roles at the Republic of China Track and Field Association, advancing the development of track and field in Taiwan, with particular attention to the cultivation of women's track and field. Her work at the association focused on training resources and institutional development for the next generation—she had walked that road of scarce resources herself and did not want future athletes to walk it again.
+She threw herself into promoting road running, taking as her mission "getting more Taiwanese people running," organizing international road running events and bringing running culture into everyday life in Taiwan. She also served in key roles at the Republic of China Track and Field Association, advancing the development of track and field in Taiwan, with particular attention to the cultivation of women's track and field. Her work at the association focused on training resources and institutional development for the next generation. She had walked that road of scarce resources herself and did not want future athletes to walk it again.
 
 In 1981, she promoted the first international road race in Taiwan. In the years that followed, as an organizer and advocate, she helped road running events take root in Taiwan. The scale of road running events held in Taiwan today owes a significant debt to the seeds she planted in the 1970s and 1980s.
 
@@ -83,15 +83,15 @@ The title of national policy advisor gave her advocacy a more formal channel. Bu
 
 In 2025, she actively threw herself into the Taiwan name rectification movement, publicly advocating that Taiwan should compete under the name "Taiwan" at the 2028 Los Angeles Olympics. On the question of "name rectification," she said: **"We once had it; we are only restoring it.**"[^8]
 
-From the 80-meter hurdler who won bronze with 10.51 seconds in 1968, to the octogenarian former athlete running for Taiwan's name in 2025—the venue has changed, the opponents have changed, but she is still running.
+From the 80-meter hurdler who won bronze with 10.51 seconds in 1968, to the octogenarian former athlete running for Taiwan's name in 2025, the venue has changed, the opponents have changed, but she is still running.
 
-For Chi Cheng, name rectification is not a political movement that requires mobilization; it is a question of dignity. What she represented on the international stage and what she was called—this question existed as far back as 1968, when she won bronze. The name on that bronze medal was not "Taiwan" but the predecessor of "Chinese Taipei." Fifty-seven years later, she is still pursuing the answer to this question.
+For Chi Cheng, name rectification is not a political movement that requires mobilization; it is a question of dignity. What she represented on the international stage and what she was called: this question existed as far back as 1968, when she won bronze. The name on that bronze medal was not "Taiwan" but the predecessor of "Chinese Taipei." Fifty-seven years later, she is still pursuing the answer to this question.
 
-10.51 seconds for bronze, 22.4 seconds for a world record, 10 world records, fifty years of road running promotion—this is her record. But what she says most often in interviews is that she wants young Taiwanese people to have confidence in sports, and she wants Taiwan to compete under its own name. A person who once ran faster than anyone in the world has chosen to spend her last strength chasing a name.
+10.51 seconds for bronze, 22.4 seconds for a world record, 10 world records, fifty years of road running promotion, this is her record. But what she says most often in interviews is that she wants young Taiwanese people to have confidence in sports, and she wants Taiwan to compete under its own name. A person who once ran faster than anyone in the world has chosen to spend her last strength chasing a name.
 
 From her birth in Hsinchu in 1944 to her presence at the Taiwan name rectification movement in 2025, she has changed tracks many times, but her direction has never been lost.
 
-In 1964 in Tokyo, she measured the distance. In 1968 in Mexico, she crossed that distance. After retiring in 1973, she continued running on a different track—road races, the track and field association, the name rectification movement. Her life is a track with no finish line, and she has always maintained a forward posture.
+In 1964 in Tokyo, she measured the distance. In 1968 in Mexico, she crossed that distance. After retiring in 1973, she continued running on a different track: road races, the track and field association, the name rectification movement. Her life is a track with no finish line, and she has always maintained a forward posture.
 
 The title "Flying Antelope" is a metaphor for her speed in the 1960s. But a more fitting metaphor might be that of a marathon runner: she started in 1944 and has never stopped.
 

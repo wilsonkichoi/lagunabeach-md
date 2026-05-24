@@ -13,10 +13,10 @@ lastHumanReview: '# design_rationale:
 #   where_it_hedges: "藍蔭鼎1971十大水彩：引述名稱為『歐美藝術評論學會』，確切組織名可參閱鴻禧基金會原始記錄"'
 featured: false
 translatedFrom: 'Art/台灣水彩畫的百年流變.md'
-sourceCommitSha: 5c000f86
+sourceCommitSha: 6b59db34
 sourceContentHash: sha256:ccfa9bae3ef3f37a
 sourceBodyHash: sha256:0cf1ac8d26164b24
-translatedAt: 2026-05-25T06:21:00+08:00
+translatedAt: 2026-05-25T06:35:28+08:00
 ---
 
 # 타이완 수채화의 백년 변천

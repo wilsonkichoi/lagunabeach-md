@@ -19,10 +19,10 @@ featured: false
 lastVerified: 2026-05-13
 translatedFrom: 'People/李珠珢.md'
 readingTime: 10
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:451da618ddccb297'
-sourceBodyHash: 'sha256:4b9c8f80e4d299c5'
-translatedAt: '2026-05-17T06:30:00Z'
+sourceCommitSha: 6b59db34
+sourceContentHash: sha256:c87fa614c30922e7
+sourceBodyHash: sha256:c0d649ed19f7f301
+translatedAt: 2026-05-25T06:35:28+08:00
 ---
 
 > **30초 요약:** 2025년 이주은은 푸방과 풀 매니지먼트 계약을 맺었다. 2026년에는 일을 대만에 더 분명히 두었다. 의미는 트래픽만이 아니다——한국 서포트를 ‘양쪽 셔틀’에서 ‘장기 체류’로 밀어가는 것이다.

@@ -19,10 +19,10 @@ readingTime: '8'
 lastVerified: '2026-05-13'
 lastHumanReview: false
 translatedFrom: 'People/朴星垠.md'
-sourceCommitSha: '5c000f86'
+sourceCommitSha: '6b59db34'
 sourceContentHash: 'sha256:3f200b3b3b4c4178'
 sourceBodyHash: 'sha256:a35f4dc5fd25ef28'
-translatedAt: '2026-05-24T22:21:12Z'
+translatedAt: '2026-05-24T22:35:14Z'
 ---
 
 > **30 秒概要：** 朴星垠は 2026 年に Fubon Angels に正式加入し、富邦の韓援五本柱の一人となりました。彼女のキャリアは非常に明快な軌跡をたどっています。まず台湾のファンに知られ、その後球団のレギュラーメンバーとしてシーズンに組み込まれていったのです。人物の経歴の概略はウィキペディア「朴星垠」項目でも確認できます。[^4]

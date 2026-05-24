@@ -7,12 +7,12 @@ author: 'Taiwan.md Contributors'
 readingTime: 10
 featured: true
 lastVerified: 2026-03-19
-lastHumanReview: false
+lastHumanReview: true
 translatedFrom: 'About/看見台灣引言集.md'
-sourceCommitSha: '1a5fc7a9'
-sourceContentHash: 'sha256:cbdbee6d7c03481f'
-sourceBodyHash: 'sha256:420e228012b4469c'
-translatedAt: '2026-05-01T18:02:56+08:00'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:53f055ce6b8e65e1'
+sourceBodyHash: 'sha256:0307d09015530aa4'
+translatedAt: '2026-05-24T22:39:00Z'
 category: About
 ---
 
@@ -35,3 +35,15 @@ category: About
 
 > 「わたしたちは根のようにありたい。人は皆、いずれ土に還る。時間が経つほどにしっかりと根を張り、地に足をつけて地道に生きることで、力が生まれるのです。」
 > — アミ族の伝統的知恵
+
+## 参考資料
+
+[^1]: [ウィキペディア：フォルモサ](https://zh.wikipedia.org/wiki/福爾摩沙) — 「Formosa」という名称の歴史的考証。ポルトガル人水夫とスペイン船隊の命名論争を含む。
+
+[^2]: [ウィキソース：裨海紀遊](https://zh.wikisource.org/wiki/裨海紀遊) — 郁永河が1697年に台湾で硫黄採掘の見聞を記録した全文。序と巻上中下を収録。
+
+[^3]: [ウィキペディア：頼和](https://zh.wikipedia.org/wiki/賴和) — 頼和（1894-1943）の生涯と『覚悟下の犠牲』（1925）創作背景、二林事件関連の記述を含む。
+
+[^4]: [ウィキペディア：アジアの孤児](https://zh.wikipedia.org/wiki/亞細亞的孤兒) — 呉濁流が1945年に発表した長編小説。台湾文学における身分認同テーマの古典作品。
+
+[^5]: [斉柏林基金会](https://www.chipolin.org/) — 斉柏林（1964-2017）航空写真家の生涯と『看見台湾』（2013）ドキュメンタリー関連資料。

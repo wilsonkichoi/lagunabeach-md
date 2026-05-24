@@ -11,10 +11,10 @@ lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/劉德音.md'
-sourceCommitSha: '4b6d28c54'
-sourceContentHash: 'sha256:2b244e1e50a2ac90'
-sourceBodyHash: 'sha256:21e0a5ac8fbd3231'
-translatedAt: '2026-05-09T14:29:10+08:00'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:d8af6167c7effd7e'
+sourceBodyHash: 'sha256:b67507e9dc3bc1b6'
+translatedAt: '2026-05-25T06:37:35+08:00'
 ---
 
 # Mark Liu : le docteur de Berkeley qui a succédé à Morris Chang, six ans de décisions dans l'étau des puces Taïwan-États-Unis
@@ -79,7 +79,7 @@ Il n'était pas le directeur général le plus charismatique, ni le PDG le plus 
 
 Une personne peut, en six ans, prononcer une phrase comme « personne ne peut contrôler TSMC par la force » et déclarer à la retraite, avec un détachement désinvolte : « Achetez TSMC » — ces deux phrases ne sont pas contradictoires, ce sont deux sorties différentes du même logiciel d'ingénieur, adaptées à des contextes différents.
 
-## « Achetez TSMC » : la passation de juin 2024
+## « Achetez TSMC » : la passation à C.C. Wei
 
 En juin 2024, Mark Liu quitte officiellement la présidence de TSMC. [[C.C. Wei]] prend seul la barre.[^6] L'ère de la direction à double tête de TSMC prend fin.
 

@@ -7,11 +7,13 @@ author: 'Taiwan.md Contributors'
 readingTime: 10
 featured: true
 translatedFrom: 'About/看見台灣引言集.md'
-sourceCommitSha: '1a5fc7a9'
-sourceContentHash: 'sha256:cbdbee6d7c03481f'
-sourceBodyHash: 'sha256:420e228012b4469c'
-translatedAt: '2026-04-14T12:25:09+08:00'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:53f055ce6b8e65e1'
+sourceBodyHash: 'sha256:0307d09015530aa4'
+translatedAt: '2026-05-24T22:33:51Z'
 category: About
+lastVerified: 2026-03-19
+lastHumanReview: true
 ---
 
 # Seeing Taiwan — Historical Impressions of the Island
@@ -43,7 +45,7 @@ category: About
 ### Portuguese Beautiful Island Legend
 
 > "Ilha Formosa!" (Beautiful Island!)
-> — Traditionally attributed to Portuguese sailors, c. 1544
+> — Traditionally attributed to Portuguese sailors, c. 1544[^1]
 >
 > _(Historical verification: Modern scholars like Ang Kaim have verified that Portuguese mostly called Taiwan "Lequeo pequeño" (Little Ryukyu). The "Beautiful Island" attribution may be later imagination. The first documented use of Formosa for Taiwan was by Spanish in the 1580s)_
 
@@ -86,7 +88,7 @@ category: About
 ### Yu Yonghe's "Pihai Jiyou" (Small Sea Travel Record) (1697)
 
 > "I am naturally inclined to distant travel, not avoiding obstacles and dangers. I often said that since Taiwan has been included in our territory, I couldn't bear not to have a comprehensive view of it."
-> — Yu Yonghe, "Pihai Jiyou" Preface
+> — Yu Yonghe, "Pihai Jiyou" Preface[^2]
 >
 > _(Background: Yu Yonghe came to Taiwan to collect sulfur due to the Fujian gunpowder warehouse disaster. He described his motivation to visit Taiwan as a travel enthusiast, showing Qing intellectuals' curiosity about Taiwan)_
 
@@ -107,7 +109,7 @@ category: About
 ### Lai He (1894-1943) — Father of Taiwan's New Literature
 
 > "Being Taiwanese is truly a cursed fate."
-> — Lai He, "Sacrifice Under Awakening"
+> — Lai He, "Sacrifice Under Awakening"[^3]
 >
 > _(Background: Published in 1925 in response to the Erlin Incident, expressing Taiwanese helplessness and protest under colonial rule, becoming a classic voice of protest in Taiwan literature)_
 
@@ -125,7 +127,7 @@ category: About
 ### Wu Zhuoliu's "Orphan of Asia" (1945)
 
 > "Four hundred years of orphan-like wandering, under different tyrannies with different names, everything left to fate."
-> — Wu Zhuoliu, "Orphan of Asia"
+> — Wu Zhuoliu, "Orphan of Asia"[^4]
 >
 > _(Background: Describing Taiwanese people's drifting situation in historical changes, "Orphan of Asia" became a classic term describing Taiwan's fate)_
 
@@ -162,7 +164,7 @@ category: About
 ### Chi Po-lin's "Beyond Beauty — Taiwan from Above" (2013)
 
 > "Mountains are like the starting point of all things, the source of rivers, nurturing all kinds of life, the starting point of my original dreams, and the inspiration for my beginning in aerial photography."
-> — Chi Po-lin
+> — Chi Po-lin[^5]
 >
 > _(Background: Taiwan's first aerial photographer, reinterpreting Taiwan's beauty from a bird's-eye view, awakening environmental awareness)_
 
@@ -225,3 +227,15 @@ As Chi Po-lin said, this is Taiwan that needs to be "seen"; as indigenous people
 ---
 
 _This collection includes classic quotes from historical documents and literary works, aiming to present Taiwan's multiple faces through different eras' perspectives. Some quotes may have uncertain sources due to their antiquity or oral tradition nature, marked as "disputed" or provided with background explanations for reference._
+
+## References
+
+[^1]: [Wikipedia: Formosa](https://zh.wikipedia.org/wiki/福爾摩沙) — Historical verification of the "Formosa" name, including the naming controversy between Portuguese sailors and Spanish fleets.
+
+[^2]: [Wikisource: Pihai Jiyou](https://zh.wikisource.org/wiki/裨海紀遊) — Full text of Yu Yonghe's 1697 record of his sulfur-collecting trip to Taiwan, including the preface and three volumes.
+
+[^3]: [Wikipedia: Lai He](https://zh.wikipedia.org/wiki/賴和) — Life of Lai He (1894-1943) and the background to "Sacrifice Under Awakening" (1925), including accounts of the Erlin Incident.
+
+[^4]: [Wikipedia: Orphan of Asia](https://zh.wikipedia.org/wiki/亞細亞的孤兒) — Wu Zhuoliu's 1945 novel, a classic work on identity in Taiwanese literature.
+
+[^5]: [Chi Po-lin Foundation](https://www.chipolin.org/) — Materials on the life of aerial photographer Chi Po-lin (1964-2017) and the documentary "Beyond Beauty — Taiwan from Above" (2013).

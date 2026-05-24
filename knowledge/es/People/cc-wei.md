@@ -1,20 +1,20 @@
 ---
-title: "C.C. Wei: 1953, de Electrónica en la NCTU a doctorado en Yale y presidente-director general de TSMC"
-description: "Nacido en 1953. Licenciatura y maestría en Ingeniería Electrónica en la Universidad Nacional Chiao Tung (NCTU), doctorado en Ingeniería Eléctrica en la Universidad de Yale. Trayectoria: Texas Instruments → STMicroelectronics → Chartered Semiconductor Manufacturing (Singapur) → ingreso a TSMC en 1998. En 2012 fue nombrado codirector de operaciones (COO) de TSMC junto con Mark Liu. El 5 de junio de 2018 asumió como vicepresidente del consejo y director general. El 4 de junio de 2024, tras la jubilación de Mark Liu, fue nombrado presidente del consejo. Actualmente es presidente del consejo y director general de TSMC."
+title: 'C.C. Wei: 1953, de Electrónica en la NCTU a doctorado en Yale y presidente-director general de TSMC'
+description: 'Nacido en 1953. Licenciatura y maestría en Ingeniería Electrónica en la Universidad Nacional Chiao Tung (NCTU), doctorado en Ingeniería Eléctrica en la Universidad de Yale. Trayectoria: Texas Instruments → STMicroelectronics → Chartered Semiconductor Manufacturing (Singapur) → ingreso a TSMC en 1998. En 2012 fue nombrado codirector de operaciones (COO) de TSMC junto con Mark Liu. El 5 de junio de 2018 asumió como vicepresidente del consejo y director general. El 4 de junio de 2024, tras la jubilación de Mark Liu, fue nombrado presidente del consejo. Actualmente es presidente del consejo y director general de TSMC.'
 date: 2026-03-19
-author: "Taiwan.md"
-category: "People"
-subcategory: "科技與企業"
-tags: ["科技與企業", "台積電", "半導體", "晶圓代工", "製程技術"]
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '科技與企業'
+tags: ['科技與企業', '台積電', '半導體', '晶圓代工', '製程技術']
 readingTime: 7
 lastVerified: 2026-05-08
-lastHumanReview: false
+lastHumanReview: true
 featured: false
 translatedFrom: People/魏哲家.md
-sourceCommitSha: 4b6d28c54
-sourceContentHash: sha256:50d2aaef770f0d1e
-sourceBodyHash: sha256:77c9f3129adcc912
-translatedAt: 2026-05-17T05:34:54+08:00
+sourceCommitSha: 6b59db34
+sourceContentHash: sha256:cc1afc3c953cb505
+sourceBodyHash: sha256:5f21a55ce4bf4649
+translatedAt: 2026-05-25T06:30:00+08:00
 ---
 
 # C.C. Wei: 1953, de Electrónica en la NCTU a doctorado en Yale y presidente-director general de TSMC
@@ -27,7 +27,7 @@ C.C. Wei nació en 1953 y cursó la licenciatura y la maestría en Ingeniería E
 
 (Nota: algunas fuentes citan erróneamente el año de nacimiento como 1955 y la formación académica como licenciatura en Ciencia de Materiales en la Universidad Nacional de Taiwán más doctorado en Stanford. Ninguno de estos datos coincide con la verificación P0. Se toma como referencia la licenciatura y maestría en Electrónica en la NCTU más el doctorado en Ingeniería Eléctrica en Yale.)
 
-## 1998: Trayectoria profesional previa a su incorporación a TSMC
+## Trayectoria profesional previa a su incorporación a TSMC: Texas Instruments, STMicroelectronics y Chartered
 
 Antes de unirse a TSMC en 1998, C.C. Wei acumuló experiencia en Texas Instruments, STMicroelectronics y Chartered Semiconductor Manufacturing (Singapur), forjando una trayectoria diversificada en diseño de semiconductores, desarrollo de procesos y gestión empresarial.[^1]
 
@@ -37,19 +37,19 @@ En 1998 ingresó en TSMC en un puesto relacionado con investigación y desarroll
 
 La relevancia histórica de este liderazgo en procesos radica en que TSMC logró adelantarse en la producción en masa en cada nodo tecnológico crítico gracias al dominio que su equipo de I+D ejercía sobre las decisiones de ingeniería. Wei fue un decisor técnico dentro de ese sistema, no solo un gestor; esa diferencia definió tanto su estilo de liderazgo cuando asumió la dirección general como la base de confianza externa que lo respaldó.
 
-## 2012: Codirector de operaciones (COO) de TSMC junto con Mark Liu
+## Codirector de operaciones (COO) de TSMC junto con Mark Liu
 
 En 2012, C.C. Wei y Mark Liu fueron nombrados conjuntamente codirectores de operaciones (COO) de TSMC, estableciendo las bases de un modelo de cogestión.[^2]
 
 **Lectura convencional → Lectura más precisa:** El "sistema de doble cabezuela" de TSMC suele interpretarse como una distribución de poder o una disposición transitoria, pero los resultados indican que fue un mecanismo de sucesión diseñado meticulosamente por Morris Chang: permitir que dos candidatos se complementaran dentro de un mismo marco y que la organización determinara quién estaba mejor preparado para presidir el consejo.
 
-## 5 de junio de 2018: Vicepresidente del consejo y director general
+## Vicepresidente del consejo y director general: el modelo de doble cabezuela tras la jubilación de Morris Chang
 
 El 5 de junio de 2018, Morris Chang, fundador de TSMC, se jubiló. C.C. Wei asumió como vicepresidente del consejo y director general, liderando TSMC junto con Mark Liu, quien ocupaba la presidencia del consejo.[^2] A partir de ese momento, la división de funciones quedó clara: Mark Liu se responsabilizó del consejo de administración y la estrategia externa, mientras que Wei asumió la dirección del desarrollo tecnológico y las operaciones cotidianas.
 
 Este período de reparto de funciones (2018-2024) constituyó la prueba de fuego de TSMC en la "era post-Morris Chang": la presión geopolítica externa se intensificó drásticamente y la estructura de clientes adquirió una complejidad política sin precedentes. En ese contexto, Wei lideró la hoja de ruta tecnológica y el gasto de capital en procesos de fabricación, siendo el ejecutor central que permitió a TSMC seguir avanzando en los nodos de proceso más avanzados.
 
-## 4 de junio de 2024: Presidente del consejo, actualmente presidente-director general
+## Presidente del consejo: 26 años de acumulación y el nuevo reto de las fábricas en tres países
 
 El 4 de junio de 2024, Mark Liu se jubiló formalmente y C.C. Wei fue nombrado presidente del consejo de TSMC, conservando simultáneamente el cargo de director general. Actualmente ocupa ambos cargos.[^3] Se trata de la posición más alta que ha alcanzado tras 26 años de servicio en TSMC, y asumió el liderazgo en el momento de mayor complejidad geopolítica: con los proyectos de construcción de fábricas en Estados Unidos, Japón y Alemania avanzando de forma simultánea.
 

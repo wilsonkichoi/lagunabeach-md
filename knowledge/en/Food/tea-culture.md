@@ -23,10 +23,10 @@ imageCredit: 'Wikimedia Commons, CC BY-SA'
 created: 2026-03-23
 readingTime: 12
 translatedFrom: 'Food/茶文化.md'
-sourceCommitSha: 'd6e87d07'
+sourceCommitSha: '6b59db34'
 sourceContentHash: 'sha256:355edf5d838e3009'
 sourceBodyHash: 'sha256:84b4858bc19ac1b0'
-translatedAt: '2026-05-16T21:50:00Z'
+translatedAt: '2026-05-24T22:33:51Z'
 ---
 
 # Taiwan Tea Culture

@@ -8,13 +8,13 @@ subcategory: '科技與企業'
 tags: ['TSMC', 'semiconductores', 'geopolítica', 'liderazgo empresarial']
 readingTime: 7
 lastVerified: 2026-05-07
-lastHumanReview: false
+lastHumanReview: true
 featured: false
 translatedFrom: 'People/劉德音.md'
-sourceCommitSha: '4b6d28c54'
-sourceContentHash: 'sha256:2b244e1e50a2ac90'
-sourceBodyHash: 'sha256:21e0a5ac8fbd3231'
-translatedAt: '2026-05-09T14:29:10+08:00'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:d8af6167c7effd7e'
+sourceBodyHash: 'sha256:b67507e9dc3bc1b6'
+translatedAt: '2026-05-25T06:30:00+08:00'
 ---
 
 # Mark Liu: El doctor de Berkeley que sucedió a Morris Chang, seis años de decisiones en la grieta del semiconductor entre Taiwán y EE.UU.
@@ -79,7 +79,7 @@ No fue el director ejecutivo más carismático ni el CEO que más atención atra
 
 Una persona puede decir en seis años algo como «nadie puede controlar TSMC por la fuerza» y, al jubilarse, decir con naturalidad «por favor, compren acciones de TSMC». Estas dos frases no son contradictorias; son salidas distintas de la misma lógica de ingeniero en contextos diferentes.
 
-## «Por favor, compren acciones de TSMC»: la transición de junio de 2024
+## «Por favor, compren acciones de TSMC»: el relevo a C.C. Wei
 
 En junio de 2024, Mark Liu dejó formalmente la presidencia del consejo de TSMC, y [[C.C. Wei](/es/People/cc-wei/)] asumió el mando en solitario.[^6] La era del doble liderazgo de TSMC llegó así a su fin.
 

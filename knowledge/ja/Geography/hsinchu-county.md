@@ -1,20 +1,35 @@
 ---
-title: "新竹県：235年の義民信仰と台湾最高の1人当たり所得が、同じ頭前渓沿いにあります"
-description: "1788年冬、新埔の丘陵に褒忠亭が着工され、林爽文事件で亡くなった200人余りの客家義民を合葬することになりました。235年後、義民節である旧暦7月20日の十五聯庄による輪番祭典は、いまも続いています。5キロ離れた竹北市は、2025年に1人当たり所得144.2万元で台湾全368郷鎮市区の首位となり、その吸引源はTSMC宝山第2期2ナノメートル・ウエハー工場です。新竹県の67.8%は客家人で、台湾最高です。しかし県庁所在地の竹北22万人のなかで、自分の故郷に家を買える客家の若者は少なくなっています。"
+title: '新竹県：235年の義民信仰と台湾最高の1人当たり所得が、同じ頭前渓沿いにあります'
+description: '1788年冬、新埔の丘陵に褒忠亭が着工され、林爽文事件で亡くなった200人余りの客家義民を合葬することになりました。235年後、義民節である旧暦7月20日の十五聯庄による輪番祭典は、いまも続いています。5キロ離れた竹北市は、2025年に1人当たり所得144.2万元で台湾全368郷鎮市区の首位となり、その吸引源はTSMC宝山第2期2ナノメートル・ウエハー工場です。新竹県の67.8%は客家人で、台湾最高です。しかし県庁所在地の竹北22万人のなかで、自分の故郷に家を買える客家の若者は少なくなっています。'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["新竹", "新竹県", "客家", "義民廟", "北埔", "内湾", "湖口", "スマングス", "サイシャット族", "タイヤル族", "竹北", "TSMC", "22県市シリーズ"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    '新竹',
+    '新竹県',
+    '客家',
+    '義民廟',
+    '北埔',
+    '内湾',
+    '湖口',
+    'スマングス',
+    'サイシャット族',
+    'タイヤル族',
+    '竹北',
+    'TSMC',
+    '22県市シリーズ',
+  ]
 readingTime: 17
 lastVerified: 2026-05-18
-lastHumanReview: false
+lastHumanReview: true
 featured: false
-translatedFrom: "Geography/新竹縣.md"
-sourceCommitSha: "b457dbbb1"
-sourceContentHash: "sha256:eac646ad2b3e8028"
-sourceBodyHash: "sha256:a4c29c2b02951a53"
-translatedAt: "2026-05-18T05:08:08+08:00"
+translatedFrom: 'Geography/新竹縣.md'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:fa054948c89094ee'
+sourceBodyHash: 'sha256:656ad4d27e1e5902'
+translatedAt: '2026-05-24T22:39:00Z'
 ---
 
 # 新竹県：235年の義民信仰と台湾最高の1人当たり所得が、同じ頭前渓沿いにあります
@@ -33,7 +48,7 @@ translatedAt: "2026-05-18T05:08:08+08:00"
 
 ## 1788年冬、200体余りの遺骨をあの丘陵に合葬しました
 
-![褒忠亭義民廟正面、2018年5月、新埔鎮枋寮里。客家義民信仰の中心廟で、乾隆53年（1788）冬に着工し、55年（1790）に正庁が完成、56年（1791）に廟全体が竣工しました。](https://upload.wikimedia.org/wikipedia/commons/1/1c/%E8%A4%92%E5%BF%A0%E4%BA%AD%E7%BE%A9%E6%B0%91%E5%BB%9F%E6%AD%A3%E9%9D%A2%E7%85%A7.jpg)
+![褒忠亭義民廟正面、2018年5月、新埔鎮枋寮里。客家義民信仰の中心廟で、乾隆53年（1788）冬に着工し、55年（1790）に正庁が完成、56年（1791）に廟全体が竣工しました。](/article-images/geography/hsinchu-county-hero.jpg)
 _褒忠亭義民廟正面、2018-05-27。Photo: Outlookxp。[CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E8%A4%92%E5%BF%A0%E4%BA%AD%E7%BE%A9%E6%B0%91%E5%BB%9F%E6%AD%A3%E9%9D%A2%E7%85%A7.jpg)._
 
 義民廟がなぜ235年の歴史を持つのかを理解するには、視点を乾隆51年（1786年）秋に戻す必要があります。
@@ -91,7 +106,7 @@ _北埔擂茶。Photo: 總統府。[CC BY 2.0 via Wikimedia Commons](https://com
 新竹県の山地郷は二つあります。五峰郷（サイシャット族＋タイヤル族）と尖石郷（主にタイヤル族）です。新竹県内のサイシャット族人口は1560人で、五峰郷大隘村と花園村に居住しています。タイヤル族人口は1万5876人で、県内タイヤル族人口の約18.66%を占め、主に尖石郷にいます[^22]。この二つの郷は山地郷であり、原住民族自治の地域であるため、2010年に客家委員会が公告した客家文化重点発展区（11郷鎮市：竹北、竹東、新埔、関西、湖口、新豊、芎林、横山、北埔、宝山、峨眉）には含まれていません[^23]。
 
 ![スマングス巨木群、標高1500メートル。1991年、頭目Icyeh-Sulungが巴陵で神託の夢を見た後、族人は深山でベニヒ巨木群を見つけました。台湾第2、第3の大きさのベニヒ神木はいずれもこの区域にあります。1995年に外部連絡用の車道が開通し、2004年に部落議会Tnunanが成立し、「土地共有、協力共生」の憲法を定めました。](https://upload.wikimedia.org/wikipedia/commons/2/2f/Smangus_Giant_Trees_%E5%8F%B8%E9%A6%AC%E5%BA%AB%E6%96%AF%E5%B7%A8%E6%9C%A8%E7%BE%A4_-_panoramio_%283%29.jpg)
-_スマングス巨木群。Photo: panoramio user via Wikimedia. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Smangus_Giant_Trees_%E5%8F%B8%E9%A6%AC%E5%BA%AB%E6%96%AF%E5%B7%A8%E6%9C%A8%E7%BE%A4_-_panoramio_%283%29.jpg)._
+_スマングス巨木群。Photo: panoramio user via Wikimedia. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Smangus_Giant_Trees_%E5%8F%B8%E9%A6%AC%E5%BA%AB%E6%96%AF%E5%B7%A8%E6%9C%A8%E7%BE%A4*-\_panoramio*%283%29.jpg).\_
 
 スマングス（タイヤル語 Qalang Smangus）は尖石郷玉峰村に位置し、標高は約1500メートルです。台湾で最も辺境にある原住民部落の一つです。電力が供給されたのは1979年になってからでした[^24]。1991年、頭目Icyeh-Sulung（倚岕穌隆）は巴陵で神託の夢を見て、戻ってから族人に深山へベニヒを探しに行くよう告げました。「**先祖たちが言い聞かせたとおり、彼らは深山のヒノキ林で最大のベニヒ巨木を見つけた**」のです[^25]。台湾第2、第3の大きさのベニヒ神木はいずれもスマングス神木区にあります。1995年6月に外部連絡用の車道が開通し、「**スマングスは正式に全体社会と接続した**」とされます[^26]。
 
@@ -131,7 +146,7 @@ _湖口老街。Photo: Whhalbert。[CC BY-SA 3.0 via Wikimedia Commons](https://
 ## 義民信仰の隣にあるTSMC宝山第2工場
 
 ![内湾駅、2016年、横山郷内湾村。内湾支線の終着駅で、1950年代に林業・鉱業に奉仕するため建設されました。1990年代に鉱業・林業が衰退した後、観光化へ転換しました。劉興欽の漫画『阿三哥與大嬸婆』は当地を背景にしています。](https://upload.wikimedia.org/wikipedia/commons/4/43/%E5%85%A7%E7%81%A3%E7%81%AB%E8%BB%8A%E7%AB%99_%E5%85%A7%E7%81%A3%E8%BB%8A%E7%AB%99_%2827648470482%29.jpg)
-_内湾駅。Photo: billy1125。[CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E5%85%A7%E7%81%A3%E7%81%AB%E8%BB%8A%E7%AB%99_%E5%85%A7%E7%81%A3%E8%BB%8A%E7%AB%99_%2827648470482%29.jpg)._
+_内湾駅。Photo: billy1125。[CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E5%85%A7%E7%81%A3%E7%81%AB%E8%BB%8A%E7%AB%99_%E5%85%A7%E7%81%A3%E8%BB%8A%E7%AB%99*%2827648470482%29.jpg).*
 
 新竹県の現代的矛盾には、劇的な事件があるわけではありません。それは地図上の二つの点が同時に光っている状態です。
 

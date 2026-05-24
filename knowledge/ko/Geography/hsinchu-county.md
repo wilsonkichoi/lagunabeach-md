@@ -5,16 +5,31 @@ date: 2026-05-18
 author: 'Taiwan.md Contributors'
 category: 'Geography'
 subcategory: '縣市'
-tags: ['신주', '신주현', '하카', '의민묘', '베이푸', '네이완', '후커우', '스마쿠스', '사이샤족', '타이야족', '주베이', 'TSMC', '22현시 시리즈']
+tags:
+  [
+    '신주',
+    '신주현',
+    '하카',
+    '의민묘',
+    '베이푸',
+    '네이완',
+    '후커우',
+    '스마쿠스',
+    '사이샤족',
+    '타이야족',
+    '주베이',
+    'TSMC',
+    '22현시 시리즈',
+  ]
 readingTime: 17
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/新竹縣.md'
-sourceCommitSha: 'b457dbbb1'
-sourceContentHash: 'sha256:eac646ad2b3e8028'
-sourceBodyHash: 'sha256:a4c29c2b02951a53'
-translatedAt: '2026-05-18T05:08:08+08:00'
+sourceCommitSha: 6b59db34
+sourceContentHash: sha256:fa054948c89094ee
+sourceBodyHash: sha256:656ad4d27e1e5902
+translatedAt: 2026-05-25T06:36:28+08:00
 ---
 
 # 신주현: 235년의 의민 신앙과 대만 최고 1인당 소득이 같은 터우첸강에 살다
@@ -33,7 +48,7 @@ translatedAt: '2026-05-18T05:08:08+08:00'
 
 ## 1788년 겨울, 200여 구의 유골을 그 산비탈에 합장하다
 
-![포충정 의민묘 정면, 2018년 5월, 신푸진 팡랴오리. 하카 의민 신앙의 중심 묘우로, 건륭 53년(1788) 겨울 기초 공사를 시작했고, 55년(1790) 정청이 완공되었으며, 56년(1791) 전 묘우가 준공되었다.](https://upload.wikimedia.org/wikipedia/commons/1/1c/%E8%A4%92%E5%BF%A0%E4%BA%AD%E7%BE%A9%E6%B0%91%E5%BB%9F%E6%AD%A3%E9%9D%A2%E7%85%A7.jpg)
+![포충정 의민묘 정면, 2018년 5월, 신푸진 팡랴오리. 하카 의민 신앙의 중심 묘우로, 건륭 53년(1788) 겨울 기초 공사를 시작했고, 55년(1790) 정청이 완공되었으며, 56년(1791) 전 묘우가 준공되었다.](/article-images/geography/hsinchu-county-hero.jpg)
 _포충정 의민묘 정면, 2018-05-27. Photo: Outlookxp. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E8%A4%92%E5%BF%A0%E4%BA%AD%E7%BE%A9%E6%B0%91%E5%BB%9F%E6%AD%A3%E9%9D%A2%E7%85%A7.jpg)._
 
 의민묘가 왜 235년을 갖게 되었는지를 이해하려면 렌즈를 건륭 51년(1786년) 가을로 돌려야 한다.
@@ -91,7 +106,7 @@ _베이푸 뢰차. Photo: 總統府. [CC BY 2.0 via Wikimedia Commons](https://c
 신주현의 산지향은 두 곳이다. 우펑향(사이샤족 + 타이야족)과 젠스향(타이야족 중심)이다. 신주현 내 사이샤족 인구는 1,560명으로 우펑향 다아이촌과 화위안촌에 거주한다. 타이야족 인구는 15,876명으로 현 전체 타이야족 인구의 약 18.66%를 차지하며, 주로 젠스향에 있다[^22]. 이 두 향은 산지향이자 원주민족 자치 지역이기 때문에 2010년 하카위원회가 공고한 하카 문화 중점 발전구에는 포함되지 않았다. 해당 11개 향진시는 주베이, 주둥, 신푸, 관시, 후커우, 신펑, 충린, 헝산, 베이푸, 바오산, 어메이이다[^23].
 
 ![스마쿠스 거목군, 해발 1,500미터. 1991년 두목 Icyeh-Sulung이 바링에서 신탁을 꿈꾼 뒤, 부족민들은 깊은 산속에서 홍회 거목군을 찾아냈다. 대만 제2, 제3의 홍회 신목이 모두 이 구역에 있다. 1995년 외부 연결 차량 도로가 개통되었고, 2004년 부락 의회 Tnunan이 성립해 “토지 공유, 협력 공생”의 헌법을 세웠다.](https://upload.wikimedia.org/wikipedia/commons/2/2f/Smangus_Giant_Trees_%E5%8F%B8%E9%A6%AC%E5%BA%AB%E6%96%AF%E5%B7%A8%E6%9C%A8%E7%BE%A4_-_panoramio_%283%29.jpg)
-_스마쿠스 거목군. Photo: panoramio user via Wikimedia. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Smangus_Giant_Trees_%E5%8F%B8%E9%A6%AC%E5%BA%AB%E6%96%AF%E5%B7%A8%E6%9C%A8%E7%BE%A4_-_panoramio_%283%29.jpg)._
+_스마쿠스 거목군. Photo: panoramio user via Wikimedia. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Smangus_Giant_Trees_%E5%8F%B8%E9%A6%AC%E5%BA%AB%E6%96%AF%E5%B7%A8%E6%9C%A8%E7%BE%A4*-\_panoramio*%283%29.jpg).\_
 
 스마쿠스(타이야어 Qalang Smangus)는 젠스향 위펑촌에 있으며, 해발 약 1,500미터의 대만에서 가장 외진 원주민 부락 가운데 하나이다. 전력 공급은 1979년에야 이루어졌다[^24]. 1991년 두목 Icyeh-Sulung(이제쑤룽)이 바링에서 신탁의 꿈을 꾸고 돌아온 뒤, 부족민들에게 깊은 산으로 가 홍회를 찾으라고 말했다. “**선조들이 당부한 바로 그대로, 그들은 깊은 산의 편백 숲에서 가장 큰 홍회 거목을 찾아냈다**”[^25]. 대만에서 두 번째, 세 번째로 큰 홍회 신목이 모두 스마쿠스 신목 구역에 있다. 1995년 6월 외부 연결 차량 도로가 개통되었고, “**스마쿠스는 공식적으로 전체 사회와 접속했다**”[^26].
 
@@ -131,7 +146,7 @@ _후커우 옛거리. Photo: Whhalbert. [CC BY-SA 3.0 via Wikimedia Commons](htt
 ## 의민 신앙 옆의 TSMC 바오산 2공장
 
 ![네이완역, 2016년, 헝산향 네이완촌. 네이완 지선의 종착역으로, 1950년대 임업과 광업을 지원하기 위해 건설되었고, 1990년대 광업과 임업이 쇠퇴한 뒤 관광화로 전환되었다. 류싱친의 만화 《아산거와 다선포》는 이 지역을 배경으로 한다.](https://upload.wikimedia.org/wikipedia/commons/4/43/%E5%85%A7%E7%81%A3%E7%81%AB%E8%BB%8A%E7%AB%99_%E5%85%A7%E7%81%A3%E8%BB%8A%E7%AB%99_%2827648470482%29.jpg)
-_네이완 기차역. Photo: billy1125. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E5%85%A7%E7%81%A3%E7%81%AB%E8%BB%8A%E7%AB%99_%E5%85%A7%E7%81%A3%E8%BB%8A%E7%AB%99_%2827648470482%29.jpg)._
+_네이완 기차역. Photo: billy1125. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E5%85%A7%E7%81%A3%E7%81%AB%E8%BB%8A%E7%AB%99_%E5%85%A7%E7%81%A3%E8%BB%8A%E7%AB%99\*%2827648470482%29.jpg).\_
 
 신주현의 당대 모순에는 극적인 사건이 없다. 그것은 지도 위의 두 점이 동시에 켜져 있는 일이다.
 
@@ -169,9 +184,9 @@ _네이완 기차역. Photo: billy1125. [CC BY 2.0 via Wikimedia Commons](https:
 - **Hero**: [포충정 의민묘 정면 사진](https://commons.wikimedia.org/wiki/File:%E8%A4%92%E5%BF%A0%E4%BA%AD%E7%BE%A9%E6%B0%91%E5%BB%9F%E6%AD%A3%E9%9D%A2%E7%85%A7.jpg) — Photo: Outlookxp, 2018-05-27, CC BY-SA 4.0. 신푸 의민묘 정면, 하카 의민 신앙 중심.
 - **Scene §1835**: [장아신 양루](https://commons.wikimedia.org/wiki/File:%E5%A7%9C%E9%98%BF%E6%96%B0%E6%B4%8B%E6%A8%93.jpg) — Photo: Ckfhouse, CC BY-SA 4.0. 베이푸향의 전후 바로크 모방 양식 양루, 1946-1949년 건축.
 - **Scene §주장풍**: [베이푸 뢰차](https://commons.wikimedia.org/wiki/File:Lei_cha_at_Beipu%2C_Taiwan_2023-04-09.jpg) — Photo: 總統府, 2023-04-09, CC BY 2.0. 하카 뢰차 체험.
-- **Scene §스마쿠스**: [Smangus Giant Trees 스마쿠스 거목군](https://commons.wikimedia.org/wiki/File:Smangus_Giant_Trees_%E5%8F%B8%E9%A6%AC%E5%BA%AB%E6%96%AF%E5%B7%A8%E6%9C%A8%E7%BE%A4_-_panoramio_%283%29.jpg) — Photo: panoramio contributor via Wikimedia, CC BY 3.0. 젠스향 스마쿠스 홍회 거목군.
+- **Scene §스마쿠스**: [Smangus Giant Trees 스마쿠스 거목군](https://commons.wikimedia.org/wiki/File:Smangus_Giant_Trees_%E5%8F%B8%E9%A6%AC%E5%BA%AB%E6%96%AF%E5%B7%A8%E6%9C%A8%E7%BE%A4*-_panoramio*%283%29.jpg) — Photo: panoramio contributor via Wikimedia, CC BY 3.0. 젠스향 스마쿠스 홍회 거목군.
 - **Scene §1988**: [Hukou Old St 후커우 옛거리](https://commons.wikimedia.org/wiki/File:Hukou_Old_St.jpg) — Photo: Whhalbert, CC BY-SA 3.0. 후커우 옛거리의 다이쇼 바로크 붉은 벽돌 가옥.
-- **Scene §결말**: [네이완 기차역](https://commons.wikimedia.org/wiki/File:%E5%85%A7%E7%81%A3%E7%81%AB%E8%BB%8A%E7%AB%99_%E5%85%A7%E7%81%A3%E8%BB%8A%E7%AB%99_%2827648470482%29.jpg) — Photo: billy1125, 2016, CC BY 2.0. 네이완 지선 종착역, 하카 마을 관광 전환의 대표 사례.
+- **Scene §결말**: [네이완 기차역](https://commons.wikimedia.org/wiki/File:%E5%85%A7%E7%81%A3%E7%81%AB%E8%BB%8A%E7%AB%99_%E5%85%A7%E7%81%A3%E8%BB%8A%E7%AB%99*%2827648470482%29.jpg) — Photo: billy1125, 2016, CC BY 2.0. 네이완 지선 종착역, 하카 마을 관광 전환의 대표 사례.
 
 라이선스 조항: [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) / [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) / [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 

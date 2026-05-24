@@ -26,10 +26,10 @@ lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Nature/台灣氣候危機與淨零轉型.md'
-sourceCommitSha: '1d54cbe52'
-sourceContentHash: 'sha256:129f0464105d75fb'
-sourceBodyHash: 'sha256:1844fa4624c33574'
-translatedAt: '2026-05-20T05:08:27+08:00'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:012b5e224f3db4dd'
+sourceBodyHash: 'sha256:94285612228c2fa2'
+translatedAt: '2026-05-24T22:33:51Z'
 ---
 
 # Taiwan's Climate Crisis and Net-Zero Transition: On the Day the Maanshan Nuclear Plant Referendum Failed, the Choices Imposed by Physical Limits Had Only Just Begun
@@ -94,13 +94,13 @@ Over the past five years, hydrogen has been seen as the next wave in the energy 
 
 PanSci classifies hydrogen by production method into different colors: "Hydrogen color codes correspond to different production methods: gray hydrogen (natural gas SMR, emits CO₂), blue hydrogen (gray hydrogen + CCS), green hydrogen (water electrolysis using renewable electricity), blue-green hydrogen (methane pyrolysis, solid carbon without CO₂ emissions). From a carbon-emissions perspective, green hydrogen is ideal, but it has the highest cost"[^33].
 
-| Hydrogen color | Production method | Carbon emissions | Cost | Taiwan's current status |
-|---------|---------|------|------|---------|
-| Gray hydrogen | Steam methane reforming (SMR) | High (emits CO₂) | Low | Most commonly used in industry |
-| Blue hydrogen | Gray hydrogen + carbon capture and storage (CCS) | Medium (lower after CCS) | Medium-high | No commercial operation |
-| Green hydrogen | Water electrolysis using renewable electricity | Zero | High | Planned by CPC |
-| Blue-green hydrogen | Methane pyrolysis (decarbonized hydrogen combustion) | Zero (produces solid carbon) | Medium | Trial at Hsinta Power Plant |
-| White hydrogen / gold hydrogen | Naturally formed underground | Zero (no manufacturing required) | Pending exploration | None |
+| Hydrogen color                 | Production method                                    | Carbon emissions                 | Cost                | Taiwan's current status        |
+| ------------------------------ | ---------------------------------------------------- | -------------------------------- | ------------------- | ------------------------------ |
+| Gray hydrogen                  | Steam methane reforming (SMR)                        | High (emits CO₂)                 | Low                 | Most commonly used in industry |
+| Blue hydrogen                  | Gray hydrogen + carbon capture and storage (CCS)     | Medium (lower after CCS)         | Medium-high         | No commercial operation        |
+| Green hydrogen                 | Water electrolysis using renewable electricity       | Zero                             | High                | Planned by CPC                 |
+| Blue-green hydrogen            | Methane pyrolysis (decarbonized hydrogen combustion) | Zero (produces solid carbon)     | Medium              | Trial at Hsinta Power Plant    |
+| White hydrogen / gold hydrogen | Naturally formed underground                         | Zero (no manufacturing required) | Pending exploration | None                           |
 
 Taiwan's hydrogen testing site is Hsinta Power Plant in Kaohsiung. Taipower is cooperating with Academia Sinica to test "**decarbonized hydrogen combustion**": decomposing natural gas, or methane, into hydrogen and solid carbon at high temperatures. The process produces no carbon dioxide, and the solid carbon can be used as an industrial feedstock[^33]. The appeal of this technology is that it can **continue using existing natural gas infrastructure** without rebuilding the entire energy system from scratch.
 
@@ -127,6 +127,20 @@ Meanwhile, **"Taiwan's shallow geothermal development potential (within three ki
 The advantage of geothermal energy is stability. **"The advantage of geothermal energy is that, unlike wind or solar power, it is not affected by weather. It is a baseload source that can generate electricity steadily 24 hours a day, giving it unique value in the energy mix"**[^38]. There are not many renewable energy sources that can replace nuclear power's baseload function. Geothermal is one of them, provided it can actually be built.
 
 > ⚠️ **Contested view**: The slow development of geothermal energy in Taiwan is often attributed to "immature technology." But PanSci's interviews with industry produced a different conclusion: the real bottleneck is **underground uncertainty + difficulty obtaining loans**. Before a geothermal well is drilled, no one can guarantee that it will produce water, how hot it will be, or how long it will last. Banks will not lend, and developers are afraid to invest. Japan and New Zealand have similar difficulties, but both have government-guided funds that share the risk. Taiwan's geothermal developers can currently use only the financing model for solar photovoltaics: once solar panels are installed, they generate electricity; geothermal wells do not. Copying the financing structure guarantees a bottleneck.
+
+In March 2023, PTS's _Our Island_ ran a two-part "Power from Heat" series, following the national team into Datun Mountain, Yilan, and Indigenous communities in Taitung, covering both "the look-listen-ask-feel of geothermal exploration" and "geothermal generation in Indigenous communities":
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/HtRxCNCT-kw" title="地熱探勘國家隊出動｜尋找關鍵「地熱香菇」｜用熱發電系列之一：地熱探勘的望聞問切 (我們的島 1195集 2023-03-06)" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_PTS \_Our Island_ official channel: Episode 1195, "The Geothermal Exploration National Team Sets Out" (2023-03-06). At Datun Mountain and Jiaoxi, Yilan, the program follows exploration teams from the Bureau of Energy's Geological Survey Office, Taipower's Research Institute, and ITRI as they piece together the "geothermal mushroom" from three lines of evidence: seismic waves, rock samples, and downhole temperature gradients. Only here do we begin to have concrete answers about how much heat actually lies beneath Taiwan.\_
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/KwUaS6WdyhI" title="地熱發電在部落｜全台第一座結合地熱發電的觀光溫泉｜用熱發電系列之二(我們的島 1196集 2023-03-13)" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_PTS \_Our Island_ official channel: Episode 1196, "Geothermal Power in Indigenous Communities" (2023-03-13). The episode presents two layers at once, energy transition versus local justice: Lize in Yilan, Hongye in Taitung, and Zhonglun in Chiayi, tracking exactly which line of community negotiation each geothermal project has reached. The technical question is one thing; whether the project can get in sociologically is something else entirely.\_
 
 ## Marine Energy: The Kuroshio's 9.4 GW Is Still in the Trial Stage
 
@@ -226,16 +240,16 @@ For a detailed historical context of environmental justice, see [History of Taiw
 
 Only when all energy sources are placed in the same table do the differences in physical limits become visible.
 
-| Energy source | Taiwan's theoretical potential | 2025 status | Government target / timeline | Main physical limits |
-|------|------------|----------|---------------|------------|
-| Offshore wind | Among the world's best | 4.5 GW | 13 GW by 2030, 55 GW by 2050 | Marine engineering / fishery conflicts |
-| Solar PV | Rooftops + agrivoltaics | 14.3 GW | 31 GW by 2030 | Land acquisition / intermittency |
-| Geothermal (shallow) | ≤ 1,000 MW | 7.4 MW | 200 MW by 2030, 6 GW by 2050 | Underground uncertainty / financing |
-| Geothermal (deep EGS) | 33,640 MW (theoretical) | Laboratory stage | 2040+ | EGS technology not commercialized |
-| Marine energy | 9.4 GW (theoretical) | 100 kW trial | 2030+ | Durability of ocean engineering |
-| Hydrogen (green hydrogen) | Requires large amounts of renewable electricity | Hsinta Power Plant trial | 2030+ | Electrolysis cost / leakage GWP |
-| Maanshan extension | 1,902 MW | Shut down in 2025 | Restart as early as 2028 | Nuclear waste / nuclear safety review |
-| Fourth-generation nuclear SMR | No local plan | U.S. trial operation in 2030 | 2045+ | Sodium-cooled safety / nuclear proliferation |
+| Energy source                 | Taiwan's theoretical potential                  | 2025 status                  | Government target / timeline | Main physical limits                         |
+| ----------------------------- | ----------------------------------------------- | ---------------------------- | ---------------------------- | -------------------------------------------- |
+| Offshore wind                 | Among the world's best                          | 4.5 GW                       | 13 GW by 2030, 55 GW by 2050 | Marine engineering / fishery conflicts       |
+| Solar PV                      | Rooftops + agrivoltaics                         | 14.3 GW                      | 31 GW by 2030                | Land acquisition / intermittency             |
+| Geothermal (shallow)          | ≤ 1,000 MW                                      | 7.4 MW                       | 200 MW by 2030, 6 GW by 2050 | Underground uncertainty / financing          |
+| Geothermal (deep EGS)         | 33,640 MW (theoretical)                         | Laboratory stage             | 2040+                        | EGS technology not commercialized            |
+| Marine energy                 | 9.4 GW (theoretical)                            | 100 kW trial                 | 2030+                        | Durability of ocean engineering              |
+| Hydrogen (green hydrogen)     | Requires large amounts of renewable electricity | Hsinta Power Plant trial     | 2030+                        | Electrolysis cost / leakage GWP              |
+| Maanshan extension            | 1,902 MW                                        | Shut down in 2025            | Restart as early as 2028     | Nuclear waste / nuclear safety review        |
+| Fourth-generation nuclear SMR | No local plan                                   | U.S. trial operation in 2030 | 2045+                        | Sodium-cooled safety / nuclear proliferation |
 
 This table answers one question: **Can Taiwan reach 2050 net zero without nuclear power?**
 
@@ -269,13 +283,13 @@ The Maanshan referendum on the evening of August 23, 2025, pushed all the contra
 
 74% support, 29.53% turnout, failure to pass the threshold, Taipower's March 2026 submission, restart possible as early as 2028. At the same time: 97,672 barrels on Lanyu, Finland's Onkalo taking 50 years, geothermal energy 27-fold behind, marine energy still at 100 kW, fourth-generation nuclear power not until 2045. Every number asks: **Can the speed of democracy keep up with the speed of physics?**
 
-| Democratic timeline | Physical timeline |
-|---------|---------|
-| 2025/08/23 referendum vote count | Lanyu opened in 1982, may still be there in 2057 |
-| 2025/08/25 three-principles press conference | Nuclear waste isolation for 100,000 years |
-| 2026/03/27 Taipower submission | Finland took 50 years for a final repository |
-| 2028 earliest restart | Geothermal energy 27-fold behind |
-| 2050 net-zero target | Marine energy still in 100 kW trials |
+| Democratic timeline                          | Physical timeline                                |
+| -------------------------------------------- | ------------------------------------------------ |
+| 2025/08/23 referendum vote count             | Lanyu opened in 1982, may still be there in 2057 |
+| 2025/08/25 three-principles press conference | Nuclear waste isolation for 100,000 years        |
+| 2026/03/27 Taipower submission               | Finland took 50 years for a final repository     |
+| 2028 earliest restart                        | Geothermal energy 27-fold behind                 |
+| 2050 net-zero target                         | Marine energy still in 100 kW trials             |
 
 No one knows whether NT$9 trillion can buy a different future. But we have already begun to see the consequences of not spending it: Hsu Huang-hsiung's 2060 without winter, Morakot's 2,884 millimeters, May 13 rolling blackouts, the rupture of the algal reef referendum, and Lanyu's 44-year wait.
 

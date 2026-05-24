@@ -19,10 +19,10 @@ readingTime: 8
 lastVerified: 2026-05-13
 lastHumanReview: false
 translatedFrom: 'People/朴星垠.md'
-sourceCommitSha: '5c000f86'
+sourceCommitSha: '6b59db34'
 sourceContentHash: 'sha256:3f200b3b3b4c4178'
 sourceBodyHash: 'sha256:a35f4dc5fd25ef28'
-translatedAt: '2026-05-25T06:19:00+08:00'
+translatedAt: '2026-05-25T06:35:06+08:00'
 ---
 
 > **Aperçu en 30 secondes :** Park Sung-eun a officiellement rejoint les Fubon Angels en 2026, devenant l'une des cinq piliers du contingent coréen de cheerleading chez les Fubon. Son parcours suit une trajectoire professionnelle claire : d'abord repérée par les supporters taïwanais, puis intégrée en tant que membre permanent de l'effectif saisonnier. Une biographie synthétique figure aussi dans l'entrée Wikipédia consacrée à « Park Sung-eun ».[^4]

@@ -1,20 +1,35 @@
 ---
 title: 'Hsinchu County: A 235-Year Yimin Faith and Taiwan’s Highest Per Capita Income Along the Same Touqian River'
-description: "In the winter of 1788, Baozhong Pavilion was founded on a hillside in Xinpu to collectively bury more than 200 Hakka yimin who died in the Lin Shuangwen Rebellion. Two hundred thirty-five years later, the rotating ritual circuit of the Yimin Festival on the twentieth day of the seventh lunar month is still running among the Fifteen Lianzhuang. Five kilometers away, Zhubei City ranked first among Taiwan’s 368 townships, towns, cities, and districts in 2025 with per capita income of NT$1.442 million, magnetized by TSMC’s Baoshan Phase II 2-nanometer wafer fab. Hsinchu County is 67.8% Hakka, the highest share in Taiwan. But among the 220,000 people in the county seat of Zhubei, fewer young Hakka people can afford homes in their own hometown."
+description: 'In the winter of 1788, Baozhong Pavilion was founded on a hillside in Xinpu to collectively bury more than 200 Hakka yimin who died in the Lin Shuangwen Rebellion. Two hundred thirty-five years later, the rotating ritual circuit of the Yimin Festival on the twentieth day of the seventh lunar month is still running among the Fifteen Lianzhuang. Five kilometers away, Zhubei City ranked first among Taiwan’s 368 townships, towns, cities, and districts in 2025 with per capita income of NT$1.442 million, magnetized by TSMC’s Baoshan Phase II 2-nanometer wafer fab. Hsinchu County is 67.8% Hakka, the highest share in Taiwan. But among the 220,000 people in the county seat of Zhubei, fewer young Hakka people can afford homes in their own hometown.'
 date: 2026-05-18
 author: 'Taiwan.md Contributors'
 category: 'Geography'
 subcategory: '縣市'
-tags: ['Hsinchu', 'Hsinchu County', 'Hakka', 'Yimin Temple', 'Beipu', 'Neiwan', 'Hukou', 'Smangus', 'Saisiyat', 'Atayal', 'Zhubei', 'TSMC', '22 Counties and Cities Series']
+tags:
+  [
+    'Hsinchu',
+    'Hsinchu County',
+    'Hakka',
+    'Yimin Temple',
+    'Beipu',
+    'Neiwan',
+    'Hukou',
+    'Smangus',
+    'Saisiyat',
+    'Atayal',
+    'Zhubei',
+    'TSMC',
+    '22 Counties and Cities Series',
+  ]
 readingTime: 17
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/新竹縣.md'
-sourceCommitSha: 'b457dbbb1'
-sourceContentHash: 'sha256:eac646ad2b3e8028'
-sourceBodyHash: 'sha256:a4c29c2b02951a53'
-translatedAt: '2026-05-18T05:08:07+08:00'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:fa054948c89094ee'
+sourceBodyHash: 'sha256:656ad4d27e1e5902'
+translatedAt: '2026-05-24T22:33:51Z'
 ---
 
 # Hsinchu County: A 235-Year Yimin Faith and Taiwan’s Highest Per Capita Income Along the Same Touqian River
@@ -33,7 +48,7 @@ Five kilometers away, in Zhubei’s HSR district, 4:30 p.m. is exactly shift-cha
 
 ## In the Winter of 1788, More Than 200 Sets of Bones Were Buried Together on That Hillside
 
-![Front of Baozhong Yimin Temple, May 2018, Fangliao Village, Xinpu Township. The central temple of Hakka yimin belief, founded and broken ground in the winter of Qianlong 53 (1788), with the main hall completed in Qianlong 55 (1790) and the whole temple completed in Qianlong 56 (1791).](https://upload.wikimedia.org/wikipedia/commons/1/1c/%E8%A4%92%E5%BF%A0%E4%BA%AD%E7%BE%A9%E6%B0%91%E5%BB%9F%E6%AD%A3%E9%9D%A2%E7%85%A7.jpg)
+![Front of Baozhong Yimin Temple, May 2018, Fangliao Village, Xinpu Township. The central temple of Hakka yimin belief, founded and broken ground in the winter of Qianlong 53 (1788), with the main hall completed in Qianlong 55 (1790) and the whole temple completed in Qianlong 56 (1791).](/article-images/geography/hsinchu-county-hero.jpg)
 _Front of Baozhong Yimin Temple, 2018-05-27. Photo: Outlookxp. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E8%A4%92%E5%BF%A0%E4%BA%AD%E7%BE%A9%E6%B0%91%E5%BB%9F%E6%AD%A3%E9%9D%A2%E7%85%A7.jpg)._
 
 To understand why Yimin Temple has 235 years behind it, the camera has to pull back to the autumn of Qianlong 51, 1786.
@@ -91,7 +106,7 @@ Walk into Jianshi Township, and another world of Hsinchu County appears.
 Hsinchu County has two mountain Indigenous townships: Wufeng Township, with Saisiyat and Atayal people, and Jianshi Township, mainly Atayal. Within Hsinchu County, the Saisiyat population is 1,560, living in Da’ai and Huayuan villages in Wufeng Township; the Atayal population is 15,876, about 18.66% of all Atayal people in the county, mainly in Jianshi Township[^22]. Because these two townships are mountain Indigenous townships with Indigenous self-governance, they were not included in the Hakka Affairs Council’s 2010 announcement of key Hakka cultural development areas. Those 11 townships and cities are Zhubei, Zhudong, Xinpu, Guanxi, Hukou, Xinfeng, Qionglin, Hengshan, Beipu, Baoshan, and Emei[^23].
 
 ![Smangus giant trees, elevation 1,500 meters. In 1991, after headman Icyeh-Sulung dreamed of a divine message in Baling, tribal members found giant red cypress trees deep in the mountains. Taiwan’s second- and third-largest sacred red cypress trees are both in this area. In 1995, the external vehicle road opened. In 2004, the tribal council Tnunan was established, setting down a constitution of “land held in common, cooperative coexistence.”](https://upload.wikimedia.org/wikipedia/commons/2/2f/Smangus_Giant_Trees_%E5%8F%B8%E9%A6%AC%E5%BA%AB%E6%96%AF%E5%B7%A8%E6%9C%A8%E7%BE%A4_-_panoramio_%283%29.jpg)
-_Smangus giant trees. Photo: panoramio user via Wikimedia. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Smangus_Giant_Trees_%E5%8F%B8%E9%A6%AC%E5%BA%AB%E6%96%AF%E5%B7%A8%E6%9C%A8%E7%BE%A4_-_panoramio_%283%29.jpg)._
+_Smangus giant trees. Photo: panoramio user via Wikimedia. [CC BY 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Smangus_Giant_Trees_%E5%8F%B8%E9%A6%AC%E5%BA%AB%E6%96%AF%E5%B7%A8%E6%9C%A8%E7%BE%A4*-\_panoramio*%283%29.jpg).\_
 
 Smangus, Atayal Qalang Smangus, is located in Yufeng Village, Jianshi Township, at an elevation of about 1,500 meters. It is one of Taiwan’s most remote Indigenous communities. Electricity arrived only in 1979[^24]. In 1991, headman Icyeh-Sulung dreamed of a divine message in Baling. After returning, he told tribal members to search deep in the mountains for red cypress: “**Just as the ancestors had instructed, they found the largest red cypress giants in the deep cypress forest**”[^25]. Taiwan’s second- and third-largest sacred red cypress trees are both in the Smangus sacred-tree area. In June 1995, the external vehicle road opened, and “**Smangus formally connected with society as a whole**”[^26].
 
@@ -131,7 +146,7 @@ CommonWealth Magazine quoted one Zhubei local resident: “**Zhubei housing pric
 ## TSMC’s Baoshan Phase II Beside Yimin Faith
 
 ![Neiwan Station, 2016, Neiwan Village, Hengshan Township. The terminal station of the Neiwan Line, built in the 1950s to serve forestry and mining. After mining and forestry declined in the 1990s, it transformed toward tourism. Liu Hsing-chin’s comics Brother A-San and Auntie are set locally.](https://upload.wikimedia.org/wikipedia/commons/4/43/%E5%85%A7%E7%81%A3%E7%81%AB%E8%BB%8A%E7%AB%99_%E5%85%A7%E7%81%A3%E8%BB%8A%E7%AB%99_%2827648470482%29.jpg)
-_Neiwan Railway Station. Photo: billy1125. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E5%85%A7%E7%81%A3%E7%81%AB%E8%BB%8A%E7%AB%99_%E5%85%A7%E7%81%A3%E8%BB%8A%E7%AB%99_%2827648470482%29.jpg)._
+_Neiwan Railway Station. Photo: billy1125. [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E5%85%A7%E7%81%A3%E7%81%AB%E8%BB%8A%E7%AB%99_%E5%85%A7%E7%81%A3%E8%BB%8A%E7%AB%99*%2827648470482%29.jpg).*
 
 Hsinchu County’s contemporary contradiction has no dramatized event. It is two points on a map lit at the same time.
 

@@ -1,22 +1,22 @@
 ---
-title: "C. C. Wei: Born 1953, from NCTU Electronics to Yale PhD to TSMC Chairman and President"
+title: 'C. C. Wei: Born 1953, from NCTU Electronics to Yale PhD to TSMC Chairman and President'
 description: "Born in 1953. B.S. and M.S. in Electronics Engineering, National Chiao Tung University; Ph.D. in Electrical Engineering, Yale University. Career path: Texas Instruments → STMicroelectronics → Chartered Semiconductor Manufacturing (Singapore) → joined TSMC in 1998. In 2012, appointed co-COO of TSMC alongside Mark Liu. On June 5, 2018, succeeded as Vice Chairman and President following Morris Chang's retirement. On June 4, 2024, assumed the chairmanship after Mark Liu's retirement; currently serves as TSMC Chairman and President."
 date: 2026-03-19
-author: "Taiwan.md"
-category: "People"
-subcategory: "科技與企業"
-tags: ["科技與企業", "台積電", "半導體", "晶圓代工", "製程技術"]
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '科技與企業'
+tags: ['科技與企業', '台積電', '半導體', '晶圓代工', '製程技術']
 readingTime: 7
 #   whats_excluded: "各代製程技術細節比較；台積電財報分析；與三星/英特爾競爭細節"
 #   where_it_hedges: "原文章誤植出生年1955→已修正為P0確認的1953；原誤植台大材料+史丹佛→已修正為交大電子+耶魯"'
 lastVerified: 2026-05-08
-lastHumanReview: false
+lastHumanReview: true
 featured: false
 translatedFrom: People/魏哲家.md
-sourceCommitSha: 4b6d28c54
-sourceContentHash: sha256:50d2aaef770f0d1e
-sourceBodyHash: sha256:77c9f3129adcc912
-translatedAt: 2026-05-17T05:34:48+08:00
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:cc1afc3c953cb505'
+sourceBodyHash: 'sha256:5f21a55ce4bf4649'
+translatedAt: '2026-05-24T22:33:51Z'
 ---
 
 # C. C. Wei: Born 1953, from NCTU Electronics to Yale PhD to TSMC Chairman and President
@@ -29,39 +29,39 @@ C. C. Wei was born in 1953 and studied Electronics Engineering at National Chiao
 
 (Note: Some sources incorrectly list his birth year as 1955 and his education as a degree in Materials Science from National Taiwan University plus a Stanford Ph.D. Neither claim is consistent with P0-verified records. The correct credentials are NCTU Electronics + Yale Ph.D. in Electrical Engineering.)
 
-## 1998: Career Path Before Joining TSMC
+## Career Path Before Joining TSMC: TI, ST, Chartered
 
 Before joining TSMC in 1998, Wei held positions at Texas Instruments, STMicroelectronics, and Chartered Semiconductor Manufacturing in Singapore, accumulating diverse experience in semiconductor design, process development, and corporate operations.[^1]
 
-The significance of these pre-TSMC years is often underestimated. Texas Instruments is a godfather of the global semiconductor industry; STMicroelectronics spans Europe and Asia; Chartered Semiconductor Manufacturing was a major player in Asia-Pacific foundry services—Wei was shaped across three companies of different scales and cultures, and it was with this global perspective that he entered TSMC.
+The significance of these pre-TSMC years is often underestimated. Texas Instruments is a godfather of the global semiconductor industry; STMicroelectronics spans Europe and Asia; Chartered Semiconductor Manufacturing was a major player in Asia-Pacific foundry services. Wei was shaped across three companies of different scales and cultures, and it was with this global perspective that he entered TSMC.
 
 Upon joining TSMC in 1998, he took on R&D-related roles and gradually led the development of advanced process technologies across multiple critical nodes, from 90 nm down to 3 nm.
 
-The historical significance of this process leadership lies in the fact that TSMC's ability to ramp mass production ahead of schedule at every key node was underpinned by the R&D team's mastery of engineering decision-making. Within that system, Wei was a technology decision-maker, not merely a manager—and this distinction shaped both his leadership style and the external trust placed in him when he later assumed the presidency.
+The historical significance of this process leadership lies in the fact that TSMC's ability to ramp mass production ahead of schedule at every key node was underpinned by the R&D team's mastery of engineering decision-making. Within that system, Wei was a technology decision-maker, not merely a manager; this distinction shaped both his leadership style and the external trust placed in him when he later assumed the presidency.
 
-## 2012: Appointed Co-COO of TSMC Alongside Mark Liu
+## Appointed Co-COO of TSMC Alongside Mark Liu
 
 In 2012, Wei and Mark Liu were jointly promoted to co-Chief Operating Officers of TSMC, establishing the collaborative foundation of a dual-leadership structure.[^2]
 
 **Common narrative → More precise reading:** TSMC's "dual-leadership model" is often interpreted as a power-sharing or transitional arrangement. But in hindsight, it was a carefully designed succession mechanism by Morris Chang: two candidates working within the same framework, complementing each other, with the organization itself determining who was better suited for the chairmanship.
 
-## June 5, 2018: Assumed Role of Vice Chairman and President
+## Assuming Vice Chairman and President: The Dual-Leadership Structure After Morris Chang's Retirement
 
 On June 5, 2018, TSMC founder Morris Chang retired, and Wei assumed the role of Vice Chairman and President, co-leading the company with Chairman Mark Liu.[^2] Their division of responsibilities was clear: Liu focused on the board of directors and external strategy, while Wei led technology development and day-to-day operations.
 
 This period of shared leadership (2018–2024) was a critical test for TSMC entering the "post-Morris Chang era": external geopolitical pressures escalated sharply, and the customer landscape became politically more complex than ever before. Against this backdrop, Wei drove the technology roadmap and process-related capital expenditure, serving as the core executor enabling TSMC's continued advancement in leading-edge process technology.
 
-## June 4, 2024: Assumed Chairmanship, Currently Chairman and President
+## Assuming the Chairmanship: 26 Years of Accumulation and the New Challenge of Three-Continent Fabs
 
-On June 4, 2024, Mark Liu formally retired, and Wei succeeded him as Chairman of TSMC while retaining the title of President, now serving as both Chairman and President.[^3] This was the position he reached after 26 years at TSMC—and at the most geopolitically complex moment in the company's history, with TSMC simultaneously advancing fab construction projects in the United States, Japan, and Germany.
+On June 4, 2024, Mark Liu formally retired, and Wei succeeded him as Chairman of TSMC while retaining the title of President, now serving as both Chairman and President.[^3] This was the position he reached after 26 years at TSMC, and at the most geopolitically complex moment in the company's history, with TSMC simultaneously advancing fab construction projects in the United States, Japan, and Germany.
 
 Since assuming the chairmanship, Wei has repeatedly emphasized TSMC's technology leadership and the importance of maintaining existing customer trust in public appearances, continuing the "technology without political alignment" operational framework established by his predecessor.[^5]
 
-After 2024, TSMC's fab construction plans in Arizona (USA), Kumamoto (Japan), and Dresden (Germany) advanced in parallel. For a leader rooted in "technology culture," this presented an entirely new external challenge—managing political expectations across multiple geographies alongside engineering execution standards. This was the most immediate test Wei faced upon taking the chairmanship.
+After 2024, TSMC's fab construction plans in Arizona (USA), Kumamoto (Japan), and Dresden (Germany) advanced in parallel. For a leader rooted in "technology culture," this presented an entirely new external challenge: managing political expectations across multiple geographies alongside engineering execution standards. This was the most immediate test Wei faced upon taking the chairmanship.
 
-> 🎙️ **Curator's note:** C. C. Wei is a product of TSMC's "technology culture," not its "diplomacy culture." Mark Liu excelled at external communication; Wei's foundation is that of an engineer. This suggests that TSMC's next chapter of leadership may lean more toward internal convergence on technology decisions rather than external narrative output.
+> 🎙️ **Curator's note:** C. C. Wei is a product of TSMC's "technology culture," not its "diplomacy culture." Mark Liu excelled at external communication; Wei's foundation is that of an engineer, which suggests that TSMC's next chapter of leadership may lean more toward internal convergence on technology decisions rather than external narrative output.
 
-From NCTU's Electronics Department to a Yale Ph.D., and from formative years at Texas Instruments to 26 years at TSMC—Wei's path is one of accumulation without shortcuts: each title was a natural extension of the one before, ultimately leading him to the top of the world's most important semiconductor company.
+From NCTU's Electronics Department to a Yale Ph.D., and from formative years at Texas Instruments to 26 years at TSMC, Wei's path is one of accumulation without shortcuts: each title was a natural extension of the one before, ultimately leading him to the top of the world's most important semiconductor company.
 
 **Further reading:** [C. C. Wei — Wikipedia](https://zh.wikipedia.org/zh-tw/魏哲家) ｜ [TSMC: Executive Management](https://www.tsmc.com/english/aboutTSMC/executives) ｜ [Global Views Monthly: C. C. Wei Interview](https://www.gvm.com.tw/article/18852)
 

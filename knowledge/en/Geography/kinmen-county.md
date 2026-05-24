@@ -2,26 +2,40 @@
 title: "Kinmen County: The 56 Hours in 1949 That Decided Kinmen's Fate for 75 Years"
 description: "Kinmen is only 1.8 kilometers from Jiaoyu, Xiamen, at its closest point, and 358 kilometers from Taipei. In 1387, Marquis of Jiangxia Zhou Dexing built a military settlement here, taking its name from the phrase 'as solid as metal and broth, a mighty guard at the sea gate.' At 2 a.m. on October 25, 1949, three Communist regiments totaling 9,086 men landed on the beaches of Guningtou; Nationalist forces fought for 56 hours and repelled them. During the 44 days beginning at 5:30 p.m. on August 23, 1958, 474,910 artillery shells fell on an island of 151 square kilometers, followed by another 21 years of shelling on odd-numbered days and no shelling on even-numbered days. Today, 145,000 people are registered in Kinmen, and at four in the morning there are more boats from Shuitou Pier to Xiamen than flights to Taipei. Yeh Hua-cheng's great-grandson waited 67 years for an apology."
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["Kinmen County", "Kinmen", "Battle of Guningtou", "August 23 Artillery Battle", "Shelling on Odd Days and No Shelling on Even Days", "Military Administration", "Kinmen Kaoliang Liquor", "Yeh Hua-cheng", "Little Three Links", "Wuqiu", "Wind Lion God", "22 Counties and Cities Series"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    'Kinmen County',
+    'Kinmen',
+    'Battle of Guningtou',
+    'August 23 Artillery Battle',
+    'Shelling on Odd Days and No Shelling on Even Days',
+    'Military Administration',
+    'Kinmen Kaoliang Liquor',
+    'Yeh Hua-cheng',
+    'Little Three Links',
+    'Wuqiu',
+    'Wind Lion God',
+    '22 Counties and Cities Series',
+  ]
 readingTime: 16
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/金門縣.md"
-sourceCommitSha: "ecd9f7b06"
-sourceContentHash: "sha256:17abeb896aa5ed87"
-sourceBodyHash: "sha256:87c32d5c77f62719"
-translatedAt: "2026-05-18T05:08:07+08:00"
+translatedFrom: 'Geography/金門縣.md'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:ec3f869ebb10980c'
+sourceBodyHash: 'sha256:0ef9b080fa1ae10e'
+translatedAt: '2026-05-24T22:33:51Z'
 ---
 
 # Kinmen County: The 56 Hours in 1949 That Decided Kinmen's Fate for 75 Years
 
 > **30-second overview:** Kinmen is about 1.8 kilometers from Jiaoyu, Xiamen, at its closest point, and 358 kilometers from Taipei: the Cold War placed a county where geography alone would never have put it. In 1387, Zhou Dexing built the Kinmen military settlement, taking the eight characters "as solid as metal and broth, a mighty guard at the sea gate" as its name. At 2 a.m. on October 25, 1949, three Communist regiments totaling 9,086 men landed on the beaches of Guningtou; Nationalist forces fought for 56 hours and repelled them. Had those 56 hours failed, there would be no term "cross-strait" today. During the 44 days beginning at 5:30 p.m. on August 23, 1958, 474,910 artillery shells fell on an island of 151 square kilometers; three deputy commanders were killed at the Taiwu Mountain command post in the same afternoon. The subsequent pattern of shelling on odd-numbered days and no shelling on even-numbered days continued for another 21 years, ending only on January 1, 1979, when the United States and China established diplomatic relations. From 1956 to 1992, military administration lasted 36 years: curfew was 10 p.m. (9 p.m. in Matsu), entry and exit required applications, radios had to be registered, and flotation devices were banned at the shore. Today, 145,000 people are registered in Kinmen, and at four in the morning fast boats from Shuitou Pier to Wutong, Xiamen, outnumber flights to Taipei Songshan. Yeh Hua-cheng's great-grandson waited 67 years for an apology.
 
-![A montage of Kinmen County landscapes, including historic houses, Juguang Tower, military bunkers, a Wind Lion God, and Taiwu Mountain. Compiled by Sleepingstar, 2012-2015.](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Kinmen_Montage.png/1280px-Kinmen_Montage.png)
+![A montage of Kinmen County landscapes, including historic houses, Juguang Tower, military bunkers, a Wind Lion God, and Taiwu Mountain. Compiled by Sleepingstar, 2012-2015.](/article-images/geography/kinmen-hero.png)
 
 ## Looking at Xiamen from Kinmen Means Looking Across a 1.8-Kilometer Strait
 
@@ -37,7 +51,7 @@ Kinmen proper covers 134 square kilometers. Including Lieyu (Little Kinmen), Dad
 
 To understand Kinmen, one must first set aside the intuition that geography determines belonging. **Kinmen is a county of Taiwan, but Kinmen has never been part of Taiwan's geography**.
 
-![Juguang Tower, outside the North Gate of Jincheng Township, a palace-style building completed in 1952. It once served as a symbol of military morale education on "Juguang Day" and is now one of Kinmen County's most representative landmarks. Photo by Shoestring, 2009.](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Juguang_Tower%2C_Kinmen%2C_Taiwan.JPG/1280px-Juguang_Tower%2C_Kinmen%2C_Taiwan.JPG)
+![Juguang Tower, outside the North Gate of Jincheng Township, a palace-style building completed in 1952. It once served as a symbol of military morale education on "Juguang Day" and is now one of Kinmen County's most representative landmarks. Photo by Shoestring, 2009.](/article-images/geography/kinmen-01.jpg)
 
 ## At Two in the Morning, the 56 Hours on the Beaches of Guningtou
 
@@ -87,7 +101,7 @@ At the peak of military control, the number of Nationalist troops stationed in K
 
 **The war did not end. It was hidden inside the granite**.
 
-![Entrance to Zhaishan Tunnel, on the southern shore of Jincheng Township, excavated and completed between 1961 and 1965. The tunnel is 357 meters long and 11.5 meters wide. Originally a supply base for submarines and small landing craft, it was converted into a tourist site in 1998 and is now one of Kinmen's most popular experiences for kayaking through a tunnel. Photo by Shoestring, 2009.](https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Jhaishan_Tunnel%2C_Kinmen%2C_Taiwan.JPG/1280px-Jhaishan_Tunnel%2C_Kinmen%2C_Taiwan.JPG)
+![Entrance to Zhaishan Tunnel, on the southern shore of Jincheng Township, excavated and completed between 1961 and 1965. The tunnel is 357 meters long and 11.5 meters wide. Originally a supply base for submarines and small landing craft, it was converted into a tourist site in 1998 and is now one of Kinmen's most popular experiences for kayaking through a tunnel. Photo by Shoestring, 2009.](/article-images/geography/kinmen-02.jpg)
 
 ## Yeh Hua-cheng's Great-grandson Waited 67 Years for an Apology
 
@@ -117,15 +131,15 @@ In the late Ming and early Qing, Kinmen encountered a man named **Koxinga**, or 
 
 After the Zheng regime submitted to the Qing, Kinmen entered two relatively peaceful centuries. Large numbers of emigrants went to Southeast Asia, including the Philippines, Malaysia, and Indonesia, to make a living, then brought wealth home to build Western-style mansions. This produced the distinctive "fanzai lou," or overseas Chinese mansions, of the late Qing and early Republican periods. **Shanhou Settlement** is the best-preserved representative example. Located in Jinsha Township and built in the late Qing and early Republican periods, roughly from 1900 to the 1920s, it contains **16 to 18** traditional Hokkien houses, with counts differing slightly by source. The complex was built by the Shanhou Wang family after members returned from living in Japan, and its architectural vocabulary combines southern Fujian traditions, Japanese details, and Western decorative elements[^21]. It was listed among the first group of historic sites in 1979 and opened to the public after restoration in 1998.
 
-![Shanhou Settlement, also known as Shanhou Folk Culture Village, in Jinsha Township. Built by the Shanhou Wang family after members returned from living in Japan, it is one of the best-preserved groups of traditional Hokkien houses. Photo by Shoestring, 2009.](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/The_Kinmen_cultural_village%2C_Kinmen%2C_Taiwan.JPG/1280px-The_Kinmen_cultural_village%2C_Kinmen%2C_Taiwan.JPG)
+![Shanhou Settlement, also known as Shanhou Folk Culture Village, in Jinsha Township. Built by the Shanhou Wang family after members returned from living in Japan, it is one of the best-preserved groups of traditional Hokkien houses. Photo by Shoestring, 2009.](/article-images/geography/kinmen-03.jpg)
 
 **Jincheng Model Street** is evidence from another timeline. Completed in 1924, it is an old street of connected two-story arcade shophouses, with facades combining Hokkien, Southeast Asian, and Western styles. Its name came from a Kinmen county official's praise of the street as a "model of construction." The biggest difference between Model Street and old streets from the same period on Taiwan proper under Japanese rule is this: **it was built by overseas Chinese returning home, not by Japanese people**. Kinmen was never directly ruled by Japan, apart from the brief Japanese occupation of Kinmen and Xiamen during the Second Sino-Japanese War from 1937 to 1945. Thus the time embodied in this street belongs to the linguistic field of "overseas Chinese time," a different axis from "Japanese colonial time."
 
-![Jincheng Model Street, an old street of connected two-story arcade shophouses completed in 1924. Its facades combine Hokkien, Southeast Asian, and Western styles. It was built by returning overseas Chinese, not by Japanese people. Photo by Shoestring, 2009.](https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Mo_fan_Street%2C_Kinmen%2C_Taiwan.JPG/1280px-Mo_fan_Street%2C_Kinmen%2C_Taiwan.JPG)
+![Jincheng Model Street, an old street of connected two-story arcade shophouses completed in 1924. Its facades combine Hokkien, Southeast Asian, and Western styles. It was built by returning overseas Chinese, not by Japanese people. Photo by Shoestring, 2009.](/article-images/geography/kinmen-04.jpg)
 
 As for the distinctive stone lion statues at village entrances, the **Wind Lion Gods**, there are more than **70** across Kinmen, with counts ranging from 70 to 90 depending on the survey[^22]. Kinmen is flat, and the northeast monsoon is fierce in winter. Traditional Hokkien folk belief holds that "lions bite the wind" and can suppress harmful wind forces, so villages erected stone lions at their entrances for protection. Okinawan **shisa** serve a similar function. Scholars have hypothesized a possible connection to Hokkien fishermen migrating to the Ryukyus during the Tang and Song periods, but this remains disputed and should not be stated as settled fact.
 
-![A Kinmen Wind Lion God, a stone lion placed at a village entrance to suppress harmful wind forces. Recorded as early as the Ming and Qing periods and especially common in the Qing, there are more than 70 across the island. Made of sandstone or granite, they take many forms. Photo by P95521708, 2018.](https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Wind_Lion_God_in_Kimmen_DSC_3309.jpg/1280px-Wind_Lion_God_in_Kimmen_DSC_3309.jpg)
+![A Kinmen Wind Lion God, a stone lion placed at a village entrance to suppress harmful wind forces. Recorded as early as the Ming and Qing periods and especially common in the Qing, there are more than 70 across the island. Made of sandstone or granite, they take many forms. Photo by P95521708, 2018.](/article-images/geography/kinmen-05.jpg)
 
 ## Wuqiu Speaks a Third Language
 
@@ -208,7 +222,7 @@ License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 [^2]: [Kinmen Little Three Links Sailing Information — Ministry of Transportation and Communications, Republic of China](https://www.motc.gov.tw/) — Official transportation information for the Little Three Links route from Kinmen Shuitou Pier to Xiamen Wutong Pier: voyage time of about 45 minutes, one-way fare of roughly NT$600-900 depending on class and operator, and during peak periods a frequency of one sailing per hour.
 
-[^3]: [History of Fujian Provincial Government, Republic of China — Wikipedia](https://zh.wikipedia.org/zh-tw/%E7%A6%8F%E5%BB%BA%E7%9C%81_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)) — History of the ROC Fujian Provincial Government: made nominal in 1996, functions streamlined in 1998, formally decommissioned in 2019, with functions taken over by the Executive Yuan's Kinmen-Matsu Joint Services Center. Kinmen County and Lienchiang County are the two counties under current jurisdiction.
+[^3]: [History of Fujian Provincial Government, Republic of China — Wikipedia](<https://zh.wikipedia.org/zh-tw/%E7%A6%8F%E5%BB%BA%E7%9C%81_(%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B)>) — History of the ROC Fujian Provincial Government: made nominal in 1996, functions streamlined in 1998, formally decommissioned in 2019, with functions taken over by the Executive Yuan's Kinmen-Matsu Joint Services Center. Kinmen County and Lienchiang County are the two counties under current jurisdiction.
 
 [^4]: [Kinmen County Administrative Divisions — Kinmen County Government](https://www.kinmen.gov.tw/) — Official data on Kinmen County's six townships and towns: Jincheng Township as county seat, Jinhu Township, Jinsha Township, Jinning Township, Lieyu Township on Little Kinmen, and the special administrative area of Wuqiu Township; total area of 151.6 square kilometers; Taiwu Mountain at 253 meters as the main ridge of Kinmen proper; and geology mainly consisting of granite.
 

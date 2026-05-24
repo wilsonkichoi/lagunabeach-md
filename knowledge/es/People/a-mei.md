@@ -14,24 +14,24 @@ subcategory: '音樂'
 author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-05-08
-lastHumanReview: false
+lastHumanReview: true
 readingTime: 7
 # design_rationale:
 #   why_this_hook: "從1996到2024的數字對比——121萬張首專到大巨蛋5場，數字本身說明了她的跨度。"
 #   whats_excluded: "各張專輯完整歌曲列表；商業代言清單；各演唱會場次細目"
 #   where_it_hedges: "張雨生發掘細節：各方說法略有出入，以維基百科為準；2023北京彩虹旗爭議另案記錄"
 translatedFrom: People/張惠妹.md
-sourceCommitSha: 4b6d28c54
-sourceContentHash: sha256:eaac08421c155488
-sourceBodyHash: sha256:a58ea4fcb897497f
-translatedAt: 2026-05-16T05:07:56+08:00
+sourceCommitSha: 6b59db34
+sourceContentHash: sha256:ccb03edca388c7b1
+sourceBodyHash: sha256:bd4e3f38e6cd61a0
+translatedAt: 2026-05-25T06:30:00+08:00
 ---
 
 # A-mei: Reina de la tribu Beinan, del álbum «Sisters» de 1996 a cinco conciertos en el Gran Estadio de 2024
 
 > **Resumen en 30 segundos:** A-mei nació el 9 de agosto de 1972 en el pueblo Daba 69 de la localidad de Beinan, condado de Taitung; es cantante de la tribu Beinan, su nombre en inglés es A-mei y su nombre en lengua tribal es Kulilay Amit[^1]. En 1996 lanzó su primer álbum «Sisters», que vendió 1,21 millones de copias en Taiwán y 4 millones en Asia, bajo la producción de Zhang Yusheng, incorporando cantos tradicionales de la tribu Beinan[^1]. En 2015 la gira «Utopía» se realizó en el Taipei Arena con 10 conciertos consecutivos[^2]. En diciembre de 2024 se presentaron 5 conciertos en el Gran Estadio bajo el nombre ASMeiR MAXXX, con un presupuesto de 200 millones de NT$ y la liberación de globos aerostáticos en el escenario[^3]. Su venta acumulada supera los 50 millones de copias[^1].
 
-## 9 de agosto de 1972, pueblo Daba 69, Beinan, Taitung
+## Pueblo Daba 69 de Beinan: el punto de partida de una cantante indígena
 
 A-mei nació el 9 de agosto de 1972 en el pueblo Daba 69 de la localidad de Beinan, condado de Taitung; su nombre en lengua tribal es Kulilay Amit[^1]. Creció inmersa en la tradición musical de la tribu Beinan; el canto coral de su madre y sus hermanas constituyó su primera lección de música.
 
@@ -65,13 +65,13 @@ En una entrevista con la CCTV en 2004, afirmó: “En ese momento no fue una dec
 
 El peso de esa frase radica en que no se excusa ni se disculpa; simplemente afirma su nombre. En una sociedad que asumía prejuicios contra las cantantes indígenas, esa declaración representó una proclamación de dignidad.
 
-## 2015: «Utopía» en el Taipei Arena (10 conciertos)
+## «Utopía»: el volumen de convocatoria de 10 conciertos en el Taipei Arena
 
 Del 4 al 15 de abril de 2015, A-mei realizó la gira mundial «Utopía» con 10 conciertos consecutivos en el Taipei Arena[^2]. No fueron 20; ese número ha sido erróneamente citado en varios informes.
 
 «Utopía» marcó un hito importante en su carrera de conciertos: 10 funciones consecutivas, todas agotadas, consolidando su posición como una de las mejores artistas en vivo. Desde esa perspectiva, la serie del Gran Estadio en 2024 no parte de cero, sino que es una versión evolucionada de «Utopía».
 
-## Diciembre de 2024: Gran Estadio – ASMeiR MAXXX
+## Gran Estadio – ASMeiR MAXXX: la evolución de 5 conciertos y 300.000 espectadores
 
 En diciembre de 2024, A-mei presentó la serie ASMeiR MAXXX en el Gran Estadio de Taipei, con un total de 5 conciertos[^3]. El presupuesto rondó los 200 millones de NT$, y se liberaron globos aerostáticos durante el espectáculo, convirtiéndose en la producción de mayor escala de su carrera.
 

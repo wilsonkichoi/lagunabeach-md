@@ -23,10 +23,10 @@ lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
 translatedFrom: People/楊傳廣.md
-sourceCommitSha: 5c000f86
+sourceCommitSha: 6b59db34
 sourceContentHash: sha256:71f966796f8b8ad2
 sourceBodyHash: sha256:40e975c5b968d9a3
-translatedAt: 2026-05-25T06:22:09+08:00
+translatedAt: 2026-05-25T06:35:27+08:00
 ---
 
 # Yang Chuan-kwang: la tribu de Taitung, la plata en Roma y el récord mundial de 9121 puntos del Hombre de Hierro Asiático

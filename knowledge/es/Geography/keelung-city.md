@@ -1,20 +1,33 @@
 ---
-title: "Keelung: el puerto más cercano a Taipéi, el más invisible para Taipéi"
-description: "A las cuatro de la madrugada, el mercado de pescado de Kanzaiding sigue inmerso en el ruido de las subastas. El subastador grita precios en hokkien, y en cuestión de segundos una cesta de pescado pasa de los barcos pesqueros de Hualien, Yilang y Badouzu a los restaurantes de cocina japonesa del este de Taipéi. En 1626 los españoles plantaron su bandera en la Isla de la Paz; en 1875 Shen Baozhen cambió el nombre de «Jilong» (jaula de gallinas) por «Keelung», que significa «base próspera»; en 1984 este puerto fue el séptimo mayor puerto de contenedores del mundo. Entonces ocurrieron tres cosas al mismo tiempo: el puerto de Kaohsiung lo superó, el aeropuerto de Taoyuan entró en funcionamiento y el círculo minero colapsó. Hoy 360.000 personas viven aquí, el 39% conmuta a Taipéi para trabajar. Taipéi ve decadencia; el océano ve un puerto que nunca ha abandonado su posición."
+title: 'Keelung: el puerto más cercano a Taipéi, el más invisible para Taipéi'
+description: 'A las cuatro de la madrugada, el mercado de pescado de Kanzaiding sigue inmerso en el ruido de las subastas. El subastador grita precios en hokkien, y en cuestión de segundos una cesta de pescado pasa de los barcos pesqueros de Hualien, Yilang y Badouzu a los restaurantes de cocina japonesa del este de Taipéi. En 1626 los españoles plantaron su bandera en la Isla de la Paz; en 1875 Shen Baozhen cambió el nombre de «Jilong» (jaula de gallinas) por «Keelung», que significa «base próspera»; en 1984 este puerto fue el séptimo mayor puerto de contenedores del mundo. Entonces ocurrieron tres cosas al mismo tiempo: el puerto de Kaohsiung lo superó, el aeropuerto de Taoyuan entró en funcionamiento y el círculo minero colapsó. Hoy 360.000 personas viven aquí, el 39% conmuta a Taipéi para trabajar. Taipéi ve decadencia; el océano ve un puerto que nunca ha abandonado su posición.'
 date: 2026-05-17
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["Keelung", "Ciudad de Keelung", "norte", "puerto", "ciudad de la lluvia", "Isla de la Paz", "Festival de los Espíritus de Keelung", "night market del Miao Kou", "puerto pesquero de Zhengbin", "Kanzaiding", "serie de los 22 condados y ciudades"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    'Keelung',
+    'Ciudad de Keelung',
+    'norte',
+    'puerto',
+    'ciudad de la lluvia',
+    'Isla de la Paz',
+    'Festival de los Espíritus de Keelung',
+    'night market del Miao Kou',
+    'puerto pesquero de Zhengbin',
+    'Kanzaiding',
+    'serie de los 22 condados y ciudades',
+  ]
 readingTime: 14
 lastVerified: 2026-05-17
 lastHumanReview: false
 featured: false
 translatedFrom: Geography/基隆市.md
-sourceCommitSha: ecd9f7b06
-sourceContentHash: sha256:8c3210a385f4d4dd
-sourceBodyHash: sha256:d449c0ced92d9942
-translatedAt: 2026-05-18T05:08:09+08:00
+sourceCommitSha: 6b59db34
+sourceContentHash: sha256:673f62bd1a5ba779
+sourceBodyHash: sha256:a30defd17f34989f
+translatedAt: 2026-05-25T06:30:00+08:00
 ---
 
 # Keelung: el puerto más cercano a Taipéi, el más invisible para Taipéi
@@ -33,7 +46,7 @@ Esta es la evidencia más contemporánea de Keelung como puerto. El esplendor hi
 
 ## Hace cuatrocientos años, los españoles plantaron su bandera en la Isla de la Paz
 
-![Formaciones de erosión marina en el parque geológico de la Isla de la Paz, 2022. Esta pequeña isla, a solo 75 metros de la isla principal de Taiwán, fue en 1626 la ubicación del Fuerte San Salvador de los españoles; desde 2016 un equipo de la Universidad Nacional de Tsing Hua ha excavado en el sitio los restos de la Iglesia de Todos los Santos, la única evidencia material del colonialismo español en Taiwán.](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2022_Hoping_Island_Keelung_TAIWAN_i.jpg/1280px-2022_Hoping_Island_Keelung_TAIWAN_i.jpg)
+![Formaciones de erosión marina en el parque geológico de la Isla de la Paz, 2022. Esta pequeña isla, a solo 75 metros de la isla principal de Taiwán, fue en 1626 la ubicación del Fuerte San Salvador de los españoles; desde 2016 un equipo de la Universidad Nacional de Tsing Hua ha excavado en el sitio los restos de la Iglesia de Todos los Santos, la única evidencia material del colonialismo español en Taiwán.](/article-images/geography/keelung-01.jpg)
 
 La Isla de la Paz (Heping Dao), a solo 75 metros de la isla principal de Taiwán, se llamaba en la época española «Isla de Soclang». Antes de eso fue un asentamiento del pueblo Basay de la etnia Ketagalan; en lengua basay se llamaba «tuman»[^2].
 
@@ -73,7 +86,7 @@ El resultado de la negociación fue: **rotar la organización principal del fest
 
 Este es el espíritu central del Festival de los Espíritus de Keelung (鷄籠中元祭). No es simplemente un festival de los fantasmas del mes séptimo. En todo Taiwán, el Festival de los Espíritus del mes séptimo honra a las almas errantes sin dueño, pero solo el Festival de los Espíritus de Keelung institucionalizó la memoria de una muerte por enfrentamiento en un ritual de rotación por apellidos que lleva 170 años continuando. La competencia de procesiones rituales es una versión ceremonializada de los enfrentamientos: todavía hay que competir, pero no se golpea a nadie; en su lugar, se usan deidades guerreras suntuosamente decoradas, formaciones y tambores para ver quién ofrece el espectáculo más grandioso.
 
-![Pabellón principal del Festival de los Espíritus de Keelung, octubre de 2023. Torre octogonal del parque Zhongzheng, terminada a mediados de la década de 1970, donde se celebra el festival de los espíritus del mes séptimo lunar cada año. A la derecha de la torre, a lo lejos, se divisa el monumento Keelung Tower.](https://upload.wikimedia.org/wikipedia/commons/5/5c/Keelung_Tower_and_Ts%C3%BA-ph%C3%B3o-tu%C3%A2nn_20231023.jpg)
+![Pabellón principal del Festival de los Espíritus de Keelung, octubre de 2023. Torre octogonal del parque Zhongzheng, terminada a mediados de la década de 1970, donde se celebra el festival de los espíritus del mes séptimo lunar cada año. A la derecha de la torre, a lo lejos, se divisa el monumento Keelung Tower.](/article-images/geography/keelung-00.jpg)
 _Pabellón principal y Torre de Keelung, 2023-10-23. Foto: colaborador de Wikimedia Commons, [CC BY-SA vía Wikimedia](https://commons.wikimedia.org/wiki/File:Keelung_Tower_and_Ts%C3%BA-ph%C3%B3o-tu%C3%A2nn_20231023.jpg)._
 
 Tras la guerra chino-francesa de 1884, este festival se amplió nuevamente. **Las almas de aquellos más de 700 soldados franceses fueron incorporadas al ritual de salvación universal (pudu).** «Los inmigrantes chinos, movidos por compasión, iniciaron un ritual de reverencia hacia esos fallecidos que nadie había enterrado»[^12]. Un ritual de reconciliación nacido de un enfrentamiento entre Zhangzhou y Quanzhou se convirtió en un festival que incluso acogía a los enemigos caídos en la guerra. Desde 1855 hasta hoy, se celebra cada año en el séptimo mes lunar en el pabellón principal del parque Zhongzheng. El nuevo pabellón principal, terminado a mediados de la década de 1970, es una torre octogonal cuyo primer piso alberga un museo de artefactos del festival[^13].
@@ -92,7 +105,7 @@ Y luego llegó 1984.
 
 «**En 1984, [el puerto de Keelung] alcanzó el séptimo puesto mundial entre los puertos de contenedores**»[^17]. Este fue el pico histórico de Keelung como puerto. Un pequeño puerto con 3.000 mm de lluvia anual fue una vez el séptimo nodo de la red de transporte marítimo mundial.
 
-![Vista aérea del puerto de Keelung, 2017. El esqueleto portuario establecido por las cinco fases de construcción del periodo japonés perdura hasta hoy; tras el pico histórico de ser el séptimo mayor puerto de contenedores del mundo en 1984, el declive ha sido progresivo, cayendo en 2018 al puesto 113 mundial y al cuarto mayor puerto comercial de Taiwán.](https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/2017_Port_of_Keelung.jpg/1280px-2017_Port_of_Keelung.jpg)
+![Vista aérea del puerto de Keelung, 2017. El esqueleto portuario establecido por las cinco fases de construcción del periodo japonés perdura hasta hoy; tras el pico histórico de ser el séptimo mayor puerto de contenedores del mundo en 1984, el declive ha sido progresivo, cayendo en 2018 al puesto 113 mundial y al cuarto mayor puerto comercial de Taiwán.](/article-images/geography/keelung-03.jpg)
 
 ## Entonces ocurrieron tres cosas al mismo tiempo
 
@@ -116,8 +129,8 @@ Y el mercado de pescado de Kanzaiding (mencionado antes) es en realidad el verda
 
 ## Frente a las casas coloridas de Zhengbin, las ruinas de Agenna
 
-![Casas coloridas de la calle del puerto pesquero de Zhengbin, agosto de 2025. Durante el mandato del alcalde Lin Youchang, en colaboración con la directora del Departamento de Paisaje de la Universidad Cultural de Taiwán, Guo Qiongying, se pintaron las viejas casas junto al puerto con 55 colores distintos. Enfrente se encuentran las ruinas del astillero Agenna, visibles en el mismo encuadre.](https://upload.wikimedia.org/wikipedia/commons/0/07/20250812_105703_%E6%AD%A3%E6%BF%B1%E6%BC%81%E6%B8%AF%E5%BD%A9%E8%89%B2%E8%A1%97%E5%B1%8B.jpg)
-_Casas coloridas de la calle del puerto pesquero de Zhengbin, 2025-08-12. Foto: colaborador de Wikimedia Commons, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:20250812_105703_%E6%AD%A3%E6%BF%B1%E6%BC%81%E6%B8%AF%E5%BD%A9%E8%89%B2%E8%A1%97%E5%B1%8B.jpg)._
+![Casas coloridas de la calle del puerto pesquero de Zhengbin, agosto de 2025. Durante el mandato del alcalde Lin Youchang, en colaboración con la directora del Departamento de Paisaje de la Universidad Cultural de Taiwán, Guo Qiongying, se pintaron las viejas casas junto al puerto con 55 colores distintos. Enfrente se encuentran las ruinas del astillero Agenna, visibles en el mismo encuadre.](/article-images/geography/keelung-01.jpg)
+_Casas coloridas de la calle del puerto pesquero de Zhengbin, 2025-08-12. Foto: colaborador de Wikimedia Commons, [CC BY-SA 4.0](https://commons.wikimedia.org/wiki/File:20250812_105703_%E6%AD%A3%E6%BF%B1%E6%BC%81%E6%B8%AF%E5%BD%A9%E8%89%B2%E8%A1%97%E5%B1%8B.jpg).\_
 
 Si quieres ver cómo una ciudad gestiona sus ruinas, ve al puerto pesquero de Zhengbin.
 
@@ -163,7 +176,7 @@ A dos kilómetros de distancia, en la desembocadura del río Xuchuan en el puert
 
 El milano negro es el ave emblemática de Keelung. En 2013 solo quedaban 272 ejemplares en todo Taiwán; en 2023 la población se había recuperado hasta 808[^29]. **Su fuente de alimento es precisamente este mercado de pescado y el mercado de verduras adyante: «restos de aves de corral y pescado procesados, vísceras, que se descargan por el alcantarillado desde la desembocadura del río Xuchuan hasta la zona portuaria»**[^29]. Un puerto en decadencia, paradójicamente, ha dado a una ave rapaz el espacio para sobrevivir. Cuando los humanos se sienten olvidados, el milano negro ha encontrado aquí su alimento.
 
-Xie Bingying escribió en *Keelung, ciudad de la lluvia*: «**Cuando la gente en la tierra firme se ve empapada por la lluvia y no puede levantar la cabeza, y todos maldicen la crueldad del cielo, yo en cambio me alegro en secreto.**»[^30] La actitud de los keelungenses hacia la lluvia es distinta a la de los forasteros. Los forasteros ven la lluvia como un problema; los keelungenses la ven como parte de su cuerpo. Taiwan Panorama citó a un keelungense: «**Para los keelungentes de toda la vida, llueva o haga sol, siempre llevan un paraguas cuando salen de casa.**»[^31] El editor de Keelung For A Walk lo expresó con mayor precisión: los keelungenses, al describir un día nublado, dicen «**hoy hace buen tiempo**»[^32].
+Xie Bingying escribió en _Keelung, ciudad de la lluvia_: «**Cuando la gente en la tierra firme se ve empapada por la lluvia y no puede levantar la cabeza, y todos maldicen la crueldad del cielo, yo en cambio me alegro en secreto.**»[^30] La actitud de los keelungenses hacia la lluvia es distinta a la de los forasteros. Los forasteros ven la lluvia como un problema; los keelungenses la ven como parte de su cuerpo. Taiwan Panorama citó a un keelungense: «**Para los keelungentes de toda la vida, llueva o haga sol, siempre llevan un paraguas cuando salen de casa.**»[^31] El editor de Keelung For A Walk lo expresó con mayor precisión: los keelungenses, al describir un día nublado, dicen «**hoy hace buen tiempo**»[^32].
 
 La relación de esta ciudad con la capital depende de dónde se mire. Desde Taipéi, Keelung es una ciudad satélite en decadencia. Desde el océano, Keelung es un puerto que no ha abandonado su posición en 400 años. Desde Kanzaiding a las cuatro de la madrugada, Keelung es una ciudad **que empieza a trabajar para la capital mientras la capital duerme**.
 
@@ -255,7 +268,7 @@ Licencia: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 [^29]: [Ecología del milano negro y la desembocadura del río Xuchuan en el puerto de Keelung — Nuestra Isla](https://ourisland.pts.org.tw/) — Observación ecológica: el milano negro pasó de 272 ejemplares en 2013 a 808 en 2023; los restos de aves de corral y pescado procesados en la desembocadura del río Xuchuan se convirtieron en su fuente de alimento.
 
-[^30]: Texto original de Xie Bingying en *Keelung, ciudad de la lluvia*: «Cuando la gente en la tierra firme se ve empapada por la lluvia y no puede levantar la cabeza, y todos maldicen la crueldad del cielo, yo en cambio me alegro en secreto» — Citado de [Taiwan Panorama: el encanto de la ciudad de la lluvia Keelung](https://www.taiwan-panorama.com/Articles/Details?Guid=523dadc7-dbe6-4234-a095-d0212d11d70f).
+[^30]: Texto original de Xie Bingying en _Keelung, ciudad de la lluvia_: «Cuando la gente en la tierra firme se ve empapada por la lluvia y no puede levantar la cabeza, y todos maldicen la crueldad del cielo, yo en cambio me alegro en secreto» — Citado de [Taiwan Panorama: el encanto de la ciudad de la lluvia Keelung](https://www.taiwan-panorama.com/Articles/Details?Guid=523dadc7-dbe6-4234-a095-d0212d11d70f).
 
 [^31]: [El encanto de la ciudad de la lluvia Keelung — Taiwan Panorama](https://www.taiwan-panorama.com/Articles/Details?Guid=523dadc7-dbe6-4234-a095-d0212d11d70f) — Texto original: «Para los keelungentes de toda la vida, llueva o haga sol, siempre llevan un paraguas cuando salen de casa», documentando la actitud cotidiana de los keelungenses hacia la lluvia.
 

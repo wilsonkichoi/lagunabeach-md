@@ -16,11 +16,11 @@ author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-05-07
 translatedFrom: 'People/施明德.md'
-sourceCommitSha: '4b6d28c54'
-sourceContentHash: 'sha256:26dd4eef921bd1dc'
-sourceBodyHash: 'sha256:604f0360ebfc7d94'
-translatedAt: '2026-05-13T09:30:28+08:00'
-lastHumanReview: false
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:4e9fd368937980d6'
+sourceBodyHash: 'sha256:ce3ed8d37ab08090'
+translatedAt: '2026-05-24T22:33:51Z'
+lastHumanReview: true
 readingTime: 9
 ---
 
@@ -58,7 +58,7 @@ That sixty-thousand-word statement was later published as a book, _Shih Ming-te'
 
 The court's verdict: life imprisonment. Shih Ming-te received his second life sentence. In prison he staged hunger strikes to protest the unjust trial, and was force-fed over three thousand times.[^1] In 1990, as Taiwan's political environment evolved, he was released — both imprisonments combined to over twenty-five years.[^1]
 
-> 📝 **Editorial note**: Shih's "Please sentence me to death" sounds superficially like self-destruction, but in the courtroom context it was actually a refusal of the entire logic of the trial — he did not acknowledge that this court had any moral authority to "sentence" him anything. The person being judged looked down upon the court from a moral height. The Kaohsiung Incident became a pivotal turning point in Taiwan's democratic transition in no small part because of what happened in that courtroom.
+> 📝 **Editorial note**: Shih's "Please sentence me to death" sounds superficially like self-destruction, but in the courtroom context it was actually a refusal of the entire logic of the trial — he did not acknowledge that this court had any moral authority to "sentence" him anything. The person being judged looked down upon the court from a moral height. One of the reasons the Kaohsiung Incident became a pivotal turning point in Taiwan's democratic transition lies in what happened in that courtroom.
 
 ## Release, and the DPP's Founding Years
 
@@ -84,13 +84,13 @@ The conventional view is that he tarnished his legacy and became a pawn of force
 
 Thereafter Shih gradually faded from the mainstream media spotlight. His health deteriorated year by year, though he continued to accept interviews and speak on Taiwan's sovereignty and political direction, holding fast to that standard that had never moved with party winds.
 
-## January 15, 2024
+## Dying on His Birthday: The Complete Arc of Eighty-Three Years
 
 In the early hours of January 15, 2024, Shih Ming-te died of liver cancer at Taipei Veterans General Hospital at the age of 83.[^8] That day was also his birthday.
 
 Born January 15, 1941. Died January 15, 2024.
 
-In that statement written for history, he left these words: "Every era has its devoted contributors. The devoted always play tragic roles… **The narrow mountain paths that devoted contributors have crawled through will be trodden into broad highways by those who follow. The devoted do not belong to today, but they will live in tomorrow!**"[^5]
+In that statement written for history, he left these words: "Every era has its devoted contributors. The devoted always fall into the position of tragedy… **The narrow mountain paths that devoted contributors have crawled through will be trodden into broad highways by those who follow. The devoted do not belong to today, but they will live in tomorrow!**"[^5]
 
 In 1980, that thirty-nine-year-old man stood in the courtroom and said "Please sentence me to death." In 2024, whether those narrow paths have become broad highways, every Taiwanese person has their own answer. But he completed the journey — from birthday to birthday, a full eighty-three years.
 

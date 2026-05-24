@@ -11,10 +11,10 @@ lastVerified: 2026-03-25
 lastHumanReview: false
 featured: false
 translatedFrom: History/台海危機與兩岸關係發展.md
-sourceCommitSha: 3ec013e64
-sourceContentHash: sha256:f38bdb43bfb655cb
-sourceBodyHash: sha256:be52296ede93d50d
-translatedAt: 2026-05-18T05:08:08+08:00
+sourceCommitSha: 6b59db34
+sourceContentHash: sha256:a3193837a2f87e5e
+sourceBodyHash: sha256:f6df2c4e6142bfcd
+translatedAt: 2026-05-25T06:36:28+08:00
 ---
 
 # 대만 해협 위기와 양안 관계 발전
@@ -138,17 +138,26 @@ BBC 중문판의 보도에 따르면, 널리 퍼진 시각이 있다: 이 포전
 - [대만 국방과 군사 현대화](/society/台灣國防與軍事現代化) — 고슴도치 전략에서 M1A2T 전차까지, 세 차례 대만 해협 위기 이후 대만 국방 논리의 근본적 전환
 - [대만 수교국과 국제 외교](/society/台灣邦交國與國際外交) — 군사 대치 이외의 또 다른 전선, 대만이 국제 체제 속에서 존재감을 찾는 방법
 - [2026 정시회(鄭習會): 국공 지도자 10년 만의 재회 10분](/society/2026鄭習會與國共十年再會) — 70년 양안 교류사의 최신 장: 국민당 주석이 베이징에서 시진핑을 만난 10분
+- [마잉주(馬英九)](/people/馬英九) — 2015/11/7 싱가포르 마-시 회담 80초 악수, ECFA 체결, 2023+2024 두 차례 방중까지 그 양안 관계 황금기와 퇴임 후 논란의 주역
 - [덩리쥔(鄧麗君)](/people/鄧麗君) — 냉전 소프트파워의 또 다른 전장: 그녀의 노래가 중국 대륙에 스며들고, 1989년 홍콩 케틀럽 경마장에서 '군사 통치 반대' 배지를 달고, 1991년 마산 관측소에서 대륙에 말을 건넨 이야기
 - [대만 전망 결의문](/history/臺灣前途決議文) — 1996년 대만 해협 위기가 민주진보당의 실용적 전환을 가속했고, 3년 후 대만의 양안 입장을 27년간 규정한 이 문서를 탄생시켔다
 
 ## 참고 자료
 
 [^1]: BBC 중문판 (2022), 〈대만 해협 역대 위기 회고〉, https://www.bbc.com/zhongwen/trad/chinese-news-53834569
+
 [^2]: BBC 중문판 (2022), 〈펠로시 대만 방문 관찰: 양안 정세 고조, 대만인은 왜 긴장하지 않는가?〉, https://www.bbc.com/zhongwen/trad/chinese-news-62402927
+
 [^3]: 위키백과, 〈이장산 섬 전투〉, https://zh.wikipedia.org/wiki/%E4%B8%80%E6%B1%9F%E5%B1%B1%E5%B3%B6%E6%88%B0%E5%BD%B9
+
 [^4]: 위키백과, 〈진먼 포전〉, https://zh.wikipedia.org/wiki/%E9%87%91%E9%96%80%E7%A0%B2%E6%88%B0
+
 [^5]: Wikipedia, "Third Taiwan Strait Crisis," https://en.wikipedia.org/wiki/Third_Taiwan_Strait_Crisis
+
 [^6]: 정치대학 선거연구센터, 〈대만 국민 대만인/중국인 정체성 추세 분포〉, https://esc.nccu.edu.tw/PageDoc/Detail?fid=7800&id=6960
+
 [^7]: 톈샤(天下) 잡지 (2022), 〈1996 대만 해협 위기 증인 장룽펑(張榮豐)〉, https://www.cw.com.tw/article/5122255
+
 [^8]: CNN (2022), "TSMC Chairman Mark Liu Interview," https://edition.cnn.com/videos/tv/2022/07/31/exp-731-taiwan-tech-mark-liu-tsmc.cnn
+
 [^9]: 소기(蘇起) (2014), 《양안 파도 20년의 기록》, 톈샤문화(天下文化), https://www.books.com.tw/products/0010831375

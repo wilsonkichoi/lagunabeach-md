@@ -1,20 +1,37 @@
 ---
-title: "Condado de Nantou: el único condado sin costa, con el epicentro del 921 en su centro"
-description: "A la 1:47 de la madrugada del 21 de septiembre de 1999, la falla Chelungpu, bajo el municipio de Jiji, se desplazó durante 102 segundos: murieron 2.415 personas en todo Taiwán, 886 de ellas en Nantou, y el 90% de las construcciones del municipio de Zhongliao resultó dañado. En 1930, el día del izamiento de la bandera en la Escuela Pública de Wushe, Mona Rudao condujo a seis comunidades seediq y decapitó a 134 civiles japoneses. En 1934, la presa de Wujie elevó el nivel del agua 18,18 metros e inundó la isla Lalu del pueblo thao. En 1957 se terminó Zhongxing New Village como oficina provisional del gobierno provincial; en 1998, la reducción de la provincia lo vació y solo quedó su avenida de palmeras. 470.000 personas viven en este condado interior que asciende de 100 a 3.952 metros, donde seediq + bunun + thao + tsou conviven con población han. Las heridas más profundas de Taiwán están aquí."
+title: 'Condado de Nantou: el único condado sin costa, con el epicentro del 921 en su centro'
+description: 'A la 1:47 de la madrugada del 21 de septiembre de 1999, la falla Chelungpu, bajo el municipio de Jiji, se desplazó durante 102 segundos: murieron 2.415 personas en todo Taiwán, 886 de ellas en Nantou, y el 90% de las construcciones del municipio de Zhongliao resultó dañado. En 1930, el día del izamiento de la bandera en la Escuela Pública de Wushe, Mona Rudao condujo a seis comunidades seediq y decapitó a 134 civiles japoneses. En 1934, la presa de Wujie elevó el nivel del agua 18,18 metros e inundó la isla Lalu del pueblo thao. En 1957 se terminó Zhongxing New Village como oficina provisional del gobierno provincial; en 1998, la reducción de la provincia lo vació y solo quedó su avenida de palmeras. 470.000 personas viven en este condado interior que asciende de 100 a 3.952 metros, donde seediq + bunun + thao + tsou conviven con población han. Las heridas más profundas de Taiwán están aquí.'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["Nantou", "Condado de Nantou", "Centro de Taiwán", "Lago del Sol y la Luna", "Terremoto del 921", "Jiji", "Incidente de Wushe", "Pueblo seediq", "Pueblo bunun", "Pueblo thao", "Zhongxing New Village", "Yushan", "Wuling", "Puli", "Serie de 22 condados y ciudades"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    'Nantou',
+    'Condado de Nantou',
+    'Centro de Taiwán',
+    'Lago del Sol y la Luna',
+    'Terremoto del 921',
+    'Jiji',
+    'Incidente de Wushe',
+    'Pueblo seediq',
+    'Pueblo bunun',
+    'Pueblo thao',
+    'Zhongxing New Village',
+    'Yushan',
+    'Wuling',
+    'Puli',
+    'Serie de 22 condados y ciudades',
+  ]
 readingTime: 16
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/南投縣.md"
-sourceCommitSha: "4b090f5f4"
-sourceContentHash: "sha256:4bd149f80e491a45"
-sourceBodyHash: "sha256:7f90ef82b0d88d38"
-translatedAt: "2026-05-18T05:08:09+08:00"
+translatedFrom: 'Geography/南投縣.md'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:7a6074e368afe122'
+sourceBodyHash: 'sha256:5248faa58fca6ede'
+translatedAt: '2026-05-25T06:30:00+08:00'
 ---
 
 # Condado de Nantou: el único condado sin costa, con el epicentro del 921 en su centro
@@ -58,7 +75,7 @@ El río Zhuoshui es el más largo de Taiwán, con 186,4 kilómetros; nace en la 
 
 La historia de este condado está ordenada por alturas. El canal Babao en la llanura, Wushe en la media montaña, la isla Lalu bajo el agua, Yushan a 3.952 metros: en cada capa de altitud pesa una historia.
 
-![Paisaje alpino en torno a la cumbre principal de Hehuanshan; Wuling, a 3.275 metros, se encuentra en la silla entre la cumbre principal y el pico oriental de Hehuanshan. Este punto de la carretera provincial 14A es el punto carretero más alto de Taiwán, y sus nevadas invernales anuales hacen de esta zona uno de los pocos lugares de la isla principal donde puede verse nieve.](https://upload.wikimedia.org/wikipedia/commons/0/06/Hehuanshan_Cuesta.JPG)
+![Paisaje alpino en torno a la cumbre principal de Hehuanshan; Wuling, a 3.275 metros, se encuentra en la silla entre la cumbre principal y el pico oriental de Hehuanshan. Este punto de la carretera provincial 14A es el punto carretero más alto de Taiwán, y sus nevadas invernales anuales hacen de esta zona uno de los pocos lugares de la isla principal donde puede verse nieve.](/article-images/geography/nantou-01.jpg)
 _Paisaje de Hehuanshan. Photo: Chewy3326，CC BY 2.5。[via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hehuanshan_Cuesta.JPG)._
 
 ## El agua del canal Babao fluye hasta Mingjian desde la era Kangxi
@@ -103,7 +120,7 @@ El episodio aún no había terminado. La madrugada del 25 de abril de 1931 estal
 
 En 1973, los restos de Mona Rudao fueron trasladados desde el Departamento de Antropología de la Universidad Nacional de Taiwán a Wushe para su entierro. Li Yih-yuan, director interino del Departamento de Arqueología y Antropología de la NTU, escribió al rector para explicar: “**Los huesos de este mártir no deben conservarse en una institución de investigación; en verdad deben ser devueltos para reposar en su tierra natal.**”[^11] Fue enterrado con rituales han (coronas fúnebres, sala mortuoria, música) detrás del Monumento a la Resistencia Antijaponesa de los Aborígenes de Wushe, frente a la Escuela Primaria Ren’ai de Nantou.
 
-En 2011 se estrenó *Seediq Bale* de Wei Te-sheng, con una taquilla mundial de 880 millones de dólares taiwaneses, 810 millones en Taiwán[^12]. La primera parte, *La bandera del sol*, se estrenó el 9 de septiembre; la segunda, *El puente arcoíris*, el 30 de septiembre. La película hizo que todo Taiwán volviera a conocer el Incidente de Wushe, ocurrido 81 años antes.
+En 2011 se estrenó _Seediq Bale_ de Wei Te-sheng, con una taquilla mundial de 880 millones de dólares taiwaneses, 810 millones en Taiwán[^12]. La primera parte, _La bandera del sol_, se estrenó el 9 de septiembre; la segunda, _El puente arcoíris_, el 30 de septiembre. La película hizo que todo Taiwán volviera a conocer el Incidente de Wushe, ocurrido 81 años antes.
 
 Pero quien va hoy a Wushe encuentra un destino turístico: el Parque Conmemorativo de Mona Rudao, el monumento al Incidente de Wushe, la comunidad Qingliu. La herida seediq fue transformada en una ruta paisajística para tomar fotografías.
 
@@ -121,7 +138,7 @@ Los thao vivían originalmente en el asentamiento Shiyin, al este del lago del S
 
 La isla Lalu (Lalu) es la pequeña isla en el centro del lago del Sol y la Luna, el lugar más sagrado de los ancestros thao. En lengua thao, Lalu significa “**isla sagrada en el corazón**”[^15]. Durante el periodo japonés se llamó “isla Tama”; después de la guerra, en 1949, el Kuomintang la rebautizó “isla Guanghua” (con el sentido de “glorificar a China”). De más de cien jia de tierras agrícolas originales quedó reducida, tras la obra del embalse, a una isla aislada de 30 metros de diámetro. **Pasar de isla sagrada a islote fotografiado por barcos turísticos tomó 15 años**.
 
-![Isla Lalu, agosto de 2013. Pequeña isla en el centro del lago del Sol y la Luna, máximo lugar sagrado ancestral thao; Lalu significa “isla sagrada en el corazón”. Antes de que la presa de Wujie elevara 18,18 metros el nivel del agua en 1934, era una tierra agrícola thao de más de cien jia; hoy está reducida a una isla aislada de 30 metros de diámetro, rodeada por barcos turísticos para tomar fotografías. En 2000 recuperó oficialmente el nombre Lalu, después de llamarse “isla Guanghua”.](https://upload.wikimedia.org/wikipedia/commons/8/8a/2013%E5%B9%B48%E6%9C%8819%E6%97%A5%E6%8B%89%E9%AD%AF%E5%B3%B6.JPG)
+![Isla Lalu, agosto de 2013. Pequeña isla en el centro del lago del Sol y la Luna, máximo lugar sagrado ancestral thao; Lalu significa “isla sagrada en el corazón”. Antes de que la presa de Wujie elevara 18,18 metros el nivel del agua en 1934, era una tierra agrícola thao de más de cien jia; hoy está reducida a una isla aislada de 30 metros de diámetro, rodeada por barcos turísticos para tomar fotografías. En 2000 recuperó oficialmente el nombre Lalu, después de llamarse “isla Guanghua”.](/article-images/geography/nantou-01.jpg)
 _Isla Lalu, 2013-08-19. Photo: Ckbun，CC BY-SA 3.0。[via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2013年8月19日拉魯島.JPG)._
 
 En 2000, los thao lograron que la isla Guanghua recuperara oficialmente el nombre “isla Lalu”[^15]. Al año siguiente, el 8 de agosto de 2001, el pueblo thao dejó de ser clasificado como pingpu y fue reconocido como **el décimo pueblo indígena**. ⚠️ Las cifras de población thao varían según el año: la estadística de 2017 del Departamento de Registro de Hogares del Ministerio del Interior registró 776 personas, mientras otras estimaciones rondan las 885; este artículo adopta “**unas 800 y tantas personas**”, el tercer pueblo menos numeroso entre los 16 pueblos indígenas de Taiwán[^16].
@@ -194,7 +211,7 @@ En 2015, la Cuarta Oficina Fluvial de la Agencia de Recursos Hídricos completó
 
 En 2016, los cinco operadores legales de Lushan recibieron 700 millones de dólares taiwaneses en compensaciones y cerraron oficialmente; las aguas termales de Lushan desaparecieron del mapa turístico de Taiwán. ⚠️ Fechas del traslado y cierre: **desde 2015 comenzaron el traslado y la demolición; en 2016 los operadores cerraron por completo**. Una zona turística termal con más de 80 años de historia tardó 17 años, contando desde el 921, en completar su desaparición.
 
-El programa *Our Island* de PTS usó una frase al informar sobre Lushan: “**El agua trae riqueza, y también trae desastre. Lushan tuvo oportunidades comerciales ilimitadas gracias al agua termal, y también riesgos imprevisibles por las crecidas del arroyo Tarowan.**”[^22]
+El programa _Our Island_ de PTS usó una frase al informar sobre Lushan: “**El agua trae riqueza, y también trae desastre. Lushan tuvo oportunidades comerciales ilimitadas gracias al agua termal, y también riesgos imprevisibles por las crecidas del arroyo Tarowan.**”[^22]
 
 ## Tres nombres de pueblos volvieron a crecer en 26 años
 
@@ -269,7 +286,7 @@ Términos de licencia: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa
 
 [^11]: [Reentierro de los restos de Mona Rudao: carta de Li Yih-yuan de la NTU, 1973 — Storm Media](https://www.storm.mg/lifestyle/4093871) — Reportaje histórico de Storm Media, con el texto original de la carta de 1973 del director interino del Departamento de Arqueología y Antropología de la NTU, Li Yih-yuan, al rector: “Los huesos de este mártir no deben conservarse en una institución de investigación; en verdad deben ser devueltos para reposar en su tierra natal” + registro histórico completo del entierro con rituales han (coronas fúnebres, sala mortuoria, música) detrás del Monumento a la Resistencia Antijaponesa de los Aborígenes de Wushe, frente a la Escuela Primaria Ren’ai de Nantou.
 
-[^12]: [Seediq Bale — Wikipedia](https://zh.wikipedia.org/wiki/%E8%B3%BD%E5%BE%B7%E5%85%8B%C2%B7%E5%B7%B4%E8%90%8A) — Obra dirigida por Wei Te-sheng en 2011. Registro completo de producción y distribución: estreno de la primera parte, *La bandera del sol*, el 09/09/2011; estreno de la segunda, *El puente arcoíris*, el 30/09/2011; taquilla mundial de 880 millones de dólares taiwaneses (810 millones en Taiwán); selección en competencia oficial del Festival de Venecia.
+[^12]: [Seediq Bale — Wikipedia](https://zh.wikipedia.org/wiki/%E8%B3%BD%E5%BE%B7%E5%85%8B%C2%B7%E5%B7%B4%E8%90%8A) — Obra dirigida por Wei Te-sheng en 2011. Registro completo de producción y distribución: estreno de la primera parte, _La bandera del sol_, el 09/09/2011; estreno de la segunda, _El puente arcoíris_, el 30/09/2011; taquilla mundial de 880 millones de dólares taiwaneses (810 millones en Taiwán); selección en competencia oficial del Festival de Venecia.
 
 [^13]: [Proyecto hidroeléctrico del lago del Sol y la Luna — StoryStudio](https://storystudio.tw/article/gushi/the-development-of-taiwan-modernized-power-plant) — Artículo histórico de profundidad de StoryStudio. Historia completa de la ingeniería: creación de Taiwan Electric Power Co. en 1919; suspensión por el terremoto de Kantō de 1923; reanudación en 1931; finalización el 03/06/1934 de la primera central del lago del Sol y la Luna, con generación de 143.500 kilovatios, “en ese momento la mayor instalación hidroeléctrica de Asia y la séptima del mundo”; especificaciones de la presa de Wujie (57,6 m de alto, 90,91 m de largo, 6 compuertas); y elevación de 18,18 metros del nivel del lago.
 
@@ -289,7 +306,7 @@ Términos de licencia: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa
 
 [^21]: [Revisión de normas de construcción después del 921 — Agencia de Construcción y Planificación del Ministerio del Interior](https://www.cpami.gov.tw/) — Registro oficial de revisión normativa de la Agencia de Construcción y Planificación del Ministerio del Interior. Cambios completos en la normativa: revisión de las Reglas Técnicas de Construcción en 2003 después del 921; elevación del coeficiente sísmico (aprox. de 3-4 grados a 5-6); refuerzo del diseño dúctil de muros, columnas y vigas; y consolidación de “las casas con licencia de construcción obtenida en 2003 son las que cumplen las nuevas normas” como línea divisoria de antigüedad de vivienda en el mercado inmobiliario taiwanés.
 
-[^22]: [Traslado de las aguas termales de Lushan — PTS Our Island](https://ourisland.pts.org.tw/content/10272) — Reportaje especial de *Our Island* de PTS sobre las aguas termales de Lushan. Historia y cronología completas: aguas termales Fuji / Hatozawa del periodo japonés; valle del arroyo Tarowan; altitud de más de 400 metros; aguas de bicarbonato de sodio neutro; temperatura de 58-98 grados; texto original “El agua trae riqueza, y también trae desastre. Lushan tuvo oportunidades comerciales ilimitadas gracias al agua termal, y también riesgos imprevisibles por las crecidas del arroyo Tarowan”. Incluye la secuencia completa: 1999 921 + 2001 Toraji + 2008 Sinlaku + 2010 Soudelor + decisión de traslado colectivo en 2011 + demolición de 3,63 hectáreas dentro de la línea de zona fluvial en 2015 + cierre de operadores en 2016 tras recibir 700 millones de dólares taiwaneses de compensación.
+[^22]: [Traslado de las aguas termales de Lushan — PTS Our Island](https://ourisland.pts.org.tw/content/10272) — Reportaje especial de _Our Island_ de PTS sobre las aguas termales de Lushan. Historia y cronología completas: aguas termales Fuji / Hatozawa del periodo japonés; valle del arroyo Tarowan; altitud de más de 400 metros; aguas de bicarbonato de sodio neutro; temperatura de 58-98 grados; texto original “El agua trae riqueza, y también trae desastre. Lushan tuvo oportunidades comerciales ilimitadas gracias al agua termal, y también riesgos imprevisibles por las crecidas del arroyo Tarowan”. Incluye la secuencia completa: 1999 921 + 2001 Toraji + 2008 Sinlaku + 2010 Soudelor + decisión de traslado colectivo en 2011 + demolición de 3,63 hectáreas dentro de la línea de zona fluvial en 2015 + cierre de operadores en 2016 tras recibir 700 millones de dólares taiwaneses de compensación.
 
 [^23]: [Rectificación del nombre del pueblo seediq — PTS News](https://news.pts.org.tw/article/83194) — Reportaje de PTS News de 2008 sobre la rectificación del nombre. Texto original: “El pueblo seediq se convirtió el 23 de abril de 2008 en un grupo indígena taiwanés reconocido por el Gobierno de la República de China, convirtiéndose en el decimocuarto pueblo indígena”. Incluye el contexto completo de los tres grupos lingüísticos (Seediq Tgdaya / Sediq Toda / Sejiq Truku), la rectificación previa del pueblo taroko como duodécimo pueblo el 14/01/2004, y la culminación en 2008 de la rectificación del nombre seediq en el oeste.
 

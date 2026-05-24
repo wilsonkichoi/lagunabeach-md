@@ -10,10 +10,10 @@ readingTime: 14
 lastVerified: 2026-05-02
 lastHumanReview: false
 translatedFrom: 'History/民主化.md'
-sourceCommitSha: 'd6e87d07'
+sourceCommitSha: '6b59db34'
 sourceContentHash: 'sha256:55ef98c123ecc353'
 sourceBodyHash: 'sha256:a653498f18a92571'
-translatedAt: '2026-05-17T06:35:00Z'
+translatedAt: '2026-05-24T22:35:14Z'
 ---
 
 # 民主化

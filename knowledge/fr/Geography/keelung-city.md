@@ -1,32 +1,33 @@
 ---
-title: "Keelung : le port le plus proche de Taipei, le plus invisible pour Taipei"
-description: "À 4 h du matin, le marché aux poissons de Kanzai Ding continue de résonner des cris d’enchères. Les commissaires‑enchérisseurs crient les prix en minnan ; en quelques secondes, un panier de poissons passe des bateaux de Hualien, Yilan et Badouzi aux restaurants japonais du quartier est de Taipei. En 1626, les Espagnols plantent leur drapeau sur l’île de Heping ; en 1875, Shen Baozhen change le nom de « Jilong » en « Keelung », signifiant « base prospère ». En 1984, le port devient le septième plus grand port à conteneurs du monde. Puis trois événements surviennent simultanément : le port de Kaohsiung le dépasse, l’aéroport de Taoyuan s’ouvre, le cercle minier s’effondre. Aujourd’hui, 360 000 personnes y vivent, 39 % font la navette vers Taipei pour travailler. Taipei voit le déclin, la mer voit un port qui n’a jamais quitté sa place."
-date: "2026-05-17"
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
+title: 'Keelung : le port le plus proche de Taipei, le plus invisible pour Taipei'
+description: 'À 4 h du matin, le marché aux poissons de Kanzai Ding continue de résonner des cris d’enchères. Les commissaires‑enchérisseurs crient les prix en minnan ; en quelques secondes, un panier de poissons passe des bateaux de Hualien, Yilan et Badouzi aux restaurants japonais du quartier est de Taipei. En 1626, les Espagnols plantent leur drapeau sur l’île de Heping ; en 1875, Shen Baozhen change le nom de « Jilong » en « Keelung », signifiant « base prospère ». En 1984, le port devient le septième plus grand port à conteneurs du monde. Puis trois événements surviennent simultanément : le port de Kaohsiung le dépasse, l’aéroport de Taoyuan s’ouvre, le cercle minier s’effondre. Aujourd’hui, 360 000 personnes y vivent, 39 % font la navette vers Taipei pour travailler. Taipei voit le déclin, la mer voit un port qui n’a jamais quitté sa place.'
+date: '2026-05-17'
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
 tags:
-  - "Keelung"
-  - "Ville de Keelung"
-  - "Nord"
-  - "Port"
-  - "Port pluvieux"
-  - "Île de Heping"
-  - "Festival de Zhongyuan de Jilong"
-  - "Marché de nuit de Miao Kou"
-  - "Port de pêche de Zhengbin"
-  - "Kanzai Ding"
-  - "Série des 22 comtés et villes"
-readingTime: "14"
-lastVerified: "2026-05-17"
+  - 'Keelung'
+  - 'Ville de Keelung'
+  - 'Nord'
+  - 'Port'
+  - 'Port pluvieux'
+  - 'Île de Heping'
+  - 'Festival de Zhongyuan de Jilong'
+  - 'Marché de nuit de Miao Kou'
+  - 'Port de pêche de Zhengbin'
+  - 'Kanzai Ding'
+  - 'Série des 22 comtés et villes'
+readingTime: '14'
+lastVerified: '2026-05-17'
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/基隆市.md"
-sourceCommitSha: "ecd9f7b06"
-sourceContentHash: "sha256:8c3210a385f4d4dd"
-sourceBodyHash: "sha256:d449c0ced92d9942"
-translatedAt: "2026-05-18T05:08:09+08:00"
+translatedFrom: 'Geography/基隆市.md'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:673f62bd1a5ba779'
+sourceBodyHash: 'sha256:a30defd17f34989f'
+translatedAt: '2026-05-25T06:38:06+08:00'
 ---
+
 # Keelung : le port le plus proche de Taipei, le plus invisible pour Taipei
 
 > **Vue d’ensemble en 30 secondes :** En 1626, les Espagnols construisent la forteresse San Salvador sur l’île de Heping ; en 1875, Shen Baozhen renomme « Jilong » en « Keelung », signifiant « base prospère ». En 1884, la guerre sino‑française voit les troupes françaises occuper la ville pendant huit mois ; en 1984, le port se classe septième au monde parmi les ports à conteneurs. Puis trois événements se produisent simultanément : l’ouverture du centre de conteneurs de Kaohsiung dans les années 1960, l’inauguration de l’aéroport de Taoyuan en 1979, et l’effondrement du cercle minier de Jinguashi dans les années 1980. Aujourd’hui, 360 000 habitants y vivent, 39 % font la navette vers Taipei, le taux de logements vacants est de 26 %. Mais à 4 h du matin, le marché aux poissons de Kanzai Ding continue de résonner des cris d’enchères, le nombre de vautours noirs passant de 272 en 2013 à 800 aujourd’hui. Cet article veut dire : Keelung est le port‑mère de Taipei.
@@ -43,7 +44,7 @@ C’est la preuve contemporaine du rôle de Keelung en tant que port. La gloire 
 
 ## Quatre cents ans auparavant, les Espagnols plantent leur drapeau sur l’île de Heping
 
-![Géologie côtière de l’île de Heping, 2022. Cette petite île à 75 m du continent, en 1626, était le site de la forteresse espagnole San Salvador ; depuis 2016, une équipe de l’Université nationale de Tsinghua y a découvert les vestiges de l’église des Saints, la seule preuve matérielle de la colonisation espagnole à Taiwan.](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2022_Hoping_Island_Keelung_TAIWAN_i.jpg/1280px-2022_Hoping_Island_Keelung_TAIWAN_i.jpg)
+![Géologie côtière de l’île de Heping, 2022. Cette petite île à 75 m du continent, en 1626, était le site de la forteresse espagnole San Salvador ; depuis 2016, une équipe de l’Université nationale de Tsinghua y a découvert les vestiges de l’église des Saints, la seule preuve matérielle de la colonisation espagnole à Taiwan.](/article-images/geography/keelung-01.jpg)
 
 L’île de Heping, à seulement 75 m du continent, était appelée « Sheliao Island » sous les Espagnols, et avant cela était un village des Puyuma (tribu Ketagalan) appelé « tuman » en langue basay[^2].
 
@@ -83,7 +84,7 @@ Le résultat : **une rotation des officiants basée sur les caractères de leu
 
 C’est l’esprit central du festival de Zhongyuan de Jilong. Ce n’est pas seulement une cérémonie de prière pour les âmes errantes comme partout à Taiwan ; c’est une institution qui, depuis 170 ans, transforme le souvenir d’une escarmouche mortelle en un rituel cyclique. Les compétitions de troupeaux sont la version ritualisée des combats : on rivalise, mais sans violence, avec des chars décorés, des formations et des tambours.
 
-![Autel principal du festival de Zhongyuan de Jilong, octobre 2023. Tour octogonal du parc Zhongzheng, construit au milieu des années 1970, où se déroule chaque année le rituel de Zhongyuan. En arrière‑plan, la tour Keelung Tower.](https://upload.wikimedia.org/wikipedia/commons/5/5c/Keelung_Tower_and_Ts%C3%BA-ph%C3%B3o-tu%C3%A2nn_20231023.jpg)
+![Autel principal du festival de Zhongyuan de Jilong, octobre 2023. Tour octogonal du parc Zhongzheng, construit au milieu des années 1970, où se déroule chaque année le rituel de Zhongyuan. En arrière‑plan, la tour Keelung Tower.](/article-images/geography/keelung-00.jpg)
 _Autel principal et Keelung Tower, 23 oct 2023. Photo : Wikimedia Commons, CC BY‑SA._
 
 Après la guerre sino‑française de 1884, le rite est renforcé. **Les plus de 700 âmes françaises sont intégrées au rituel**. « Des immigrants Han, animés par la compassion, décident d’inclure ces soldats sans sépulture dans leurs prières »[^12]. Ainsi, un conflit local se transforme en une cérémonie qui accueille même les ennemis. Depuis 1855, le rituel se tient chaque année au mois lunaire 7 dans le parc Zhongzheng ; le nouvel autel principal, construit au milieu des années 1970, possède une tour octogonale, dont le rez‑dé­cha­n­cé abrite un musée des objets du Zhongyuan[^13].
@@ -102,7 +103,7 @@ Puis vient 1984.
 
 **En 1984, le port de Keelung devient le septième plus grand port à conteneurs du monde**[^17]. Un petit port recevant 3 000 mm de pluie annuellement devient le nœud numéro 7 du réseau maritime mondial.
 
-![Vue aérienne du port de Keelung, 2017. L’ossature du port, issue des cinq phases de construction japonaise, persiste aujourd’hui ; après le pic historique de 1984, le port décline progressivement, tombant à la 113ᵉ place mondiale en 2018, quatrième port commercial de Taiwan.](https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/2017_Port_of_Keelung.jpg/1280px-2017_Port_of_Keelung.jpg)
+![Vue aérienne du port de Keelung, 2017. L’ossature du port, issue des cinq phases de construction japonaise, persiste aujourd’hui ; après le pic historique de 1984, le port décline progressivement, tombant à la 113ᵉ place mondiale en 2018, quatrième port commercial de Taiwan.](/article-images/geography/keelung-03.jpg)
 
 ### Puis trois événements se produisent simultanément
 
@@ -126,7 +127,7 @@ Le marché de Kanzai Ding, mentionné plus haut, est le véritable moteur du mar
 
 ## Le quartier coloré de Zhengbin, face aux ruines d’Argenna
 
-![Maisons colorées du port de pêche de Zhengbin, août 2025. Sous le mandat du maire Lin‑you‑chang, le directeur du département d’aménagement paysager de la Culture University, Guo Qiong‑ying, a collaboré avec les habitants pendant deux ans pour réveiller la participation citoyenne, peignant les vieilles maisons portuaires en 55 couleurs. En face, les ruines du chantier naval d’Argenna sont visibles.](https://upload.wikimedia.org/wikipedia/commons/0/07/20250812_105703_%E6%AD%A3%E6%BF%B1%E6%BC%81%E6%B8%AF%E5%BD%A9%E8%89%B2%E8%A1%97%E5%B1%8B.jpg)
+![Maisons colorées du port de pêche de Zhengbin, août 2025. Sous le mandat du maire Lin‑you‑chang, le directeur du département d’aménagement paysager de la Culture University, Guo Qiong‑ying, a collaboré avec les habitants pendant deux ans pour réveiller la participation citoyenne, peignant les vieilles maisons portuaires en 55 couleurs. En face, les ruines du chantier naval d’Argenna sont visibles.](/article-images/geography/keelung-01.jpg)
 _Maisons colorées du port de Zhengbin, 12 août 2025. Photo : Wikimedia Commons, CC BY‑SA 4.0._
 
 Si vous voulez voir comment une ville gère ses ruines, allez au port de pêche de Zhengbin.

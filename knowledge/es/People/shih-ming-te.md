@@ -5,18 +5,25 @@ date: '2026-03-19'
 author: 'Taiwan.md'
 category: 'People'
 subcategory: '政治與民主'
-tags: ['Movimiento democrático', 'Incidente de Formosa', 'Víctima política', 'Movimiento de las Camisas Rojas contra Chen', 'Líder político']
+tags:
+  [
+    'Movimiento democrático',
+    'Incidente de Formosa',
+    'Víctima política',
+    'Movimiento de las Camisas Rojas contra Chen',
+    'Líder político',
+  ]
 readingTime: 7
 #   whats_excluded: "中國大陸媒體對其倒扁運動的定性（親藍工具論）；美麗島事件後黨外運動路線鬥爭的細節；部分學者對其貢獻的保留意見；紅衫軍中泛藍協作的具體指控"
 #   where_it_hedges: "坐牢確切年數（各來源介於25-26年，採較保守的二十五年以上表述）；1962年被捕的政治組織確切名稱（史料略有出入）"'
 lastVerified: '2026-05-07'
-lastHumanReview: false
+lastHumanReview: true
 featured: false
 translatedFrom: 'People/施明德.md'
-sourceCommitSha: '4b6d28c54'
-sourceContentHash: 'sha256:26dd4eef921bd1dc'
-sourceBodyHash: 'sha256:604f0360ebfc7d94'
-translatedAt: '2026-05-09T14:29:10+08:00'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:4e9fd368937980d6'
+sourceBodyHash: 'sha256:ce3ed8d37ab08090'
+translatedAt: '2026-05-25T06:30:00+08:00'
 ---
 
 # Shih Ming-teh: Veinticinco años entre rejas, al final levantó la bandera contra su propio partido
@@ -79,13 +86,13 @@ La narrativa dominante sostenía que había manchado su legado y se había conve
 
 A partir de entonces, Shih Ming-teh fue retirándose gradualmente del foco mediático. Su salud se deterioró año tras año, aunque seguía concediendo entrevistas en las que opinaba sobre la identidad soberana de Taiwán y el rumbo político, manteniendo ese criterio inalterable que nunca se movió por lealtades partidistas.
 
-## 15 de enero de 2024
+## Fallecimiento en su cumpleaños: el arco completo de ochenta y tres años
 
 En la madrugada del 15 de enero de 2024, Shih Ming-teh falleció en el Hospital General de Veteranos de Taipéi a causa de un cáncer de hígado, a los 83 años de edad.[^8] Ese día era, al mismo tiempo, su cumpleaños.
 
 Nacido el 15 de enero de 1941, fallecido el 15 de enero de 2024.
 
-En aquel alegato dirigido a la historia dejó escrito: «Cada época tiene sus entregados. Los entregados siempre desempeñan un papel trágico… **El sendero estrecho por el que los entregados han avanzado será pisado por sus sucesores hasta convertirlo en un camino ancho y llano. Los entregados no pertenecen al hoy, pero vivirán en el mañana**».[^5]
+En aquel alegato dirigido a la historia dejó escrito: «Cada época tiene sus entregados. Los entregados quedan siempre en la posición trágica… **El sendero estrecho por el que los entregados han avanzado será pisado por sus sucesores hasta convertirlo en un camino ancho y llano. Los entregados no pertenecen al hoy, pero vivirán en el mañana**».[^5]
 
 En 1980, aquel hombre de treinta y nueve años dijo en un tribunal: «Solicito la pena de muerte». En 2024, si aquel sendero estrecho se ha convertido ya en un camino ancho y llano, los taiwaneses tendrán cada uno su respuesta. Pero él lo recorrió entero, de cumpleaños a cumpleaños, ochenta y tres años completos.
 

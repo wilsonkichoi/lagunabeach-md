@@ -1,26 +1,27 @@
 ---
-title: "Crise du détroit de Taïwan et évolution des relations inter-détroit"
-description: "Du souvenir des obus de la grand-mère de Kinmen au quotidien « bouddhiste » des jeunes de Taipei, comment soixante-dix ans de crise du détroit de Taïwan ont façonné la psychologie collective des Taïwanais"
+title: 'Crise du détroit de Taïwan et évolution des relations inter-détroit'
+description: 'Du souvenir des obus de la grand-mère de Kinmen au quotidien « bouddhiste » des jeunes de Taipei, comment soixante-dix ans de crise du détroit de Taïwan ont façonné la psychologie collective des Taïwanais'
 date: 2026-03-18
-category: "History"
+category: 'History'
 tags:
-  - "relations inter-détroit"
-  - "crise du détroit de Taïwan"
-  - "histoire"
-  - "relations internationales"
-  - "géopolitique"
-subcategory: "民主與治理"
-author: "Taiwan.md"
+  - 'relations inter-détroit'
+  - 'crise du détroit de Taïwan'
+  - 'histoire'
+  - 'relations internationales'
+  - 'géopolitique'
+subcategory: '民主與治理'
+author: 'Taiwan.md'
 readingTime: 15
 featured: false
 lastVerified: 2026-03-25
 lastHumanReview: false
 translatedFrom: History/台海危機與兩岸關係發展.md
-sourceCommitSha: 3ec013e64
-sourceContentHash: sha256:f38bdb43bfb655cb
-sourceBodyHash: sha256:be52296ede93d50d
-translatedAt: 2026-05-18T05:08:09+08:00
+sourceCommitSha: 6b59db34
+sourceContentHash: sha256:a3193837a2f87e5e
+sourceBodyHash: sha256:f6df2c4e6142bfcd
+translatedAt: 2026-05-25T06:39:00+08:00
 ---
+
 # Crise du détroit de Taïwan et évolution des relations inter-détroit
 
 ## La veille du vote, les missiles
@@ -141,17 +142,26 @@ Les éclats d’obus des tunnels de granit ont été récupérés par des forger
 - [Défense et modernisation militaire de Taïwan](/society/台灣國防與軍事現代化) — De la stratégie « Porc‑épine » aux chars M1A2T, les transformations fondamentales après trois crises du détroit
 - [Les pays diplomatiques de Taïwan et la diplomatie internationale](/society/台灣邦交國與國際外交) — Au‑delà de la confrontation militaire, une autre ligne de front : comment Taïwan cherche sa place dans le système international
 - [Rencontre 2026 entre Zheng Xi et Xi Jinping](/society/2026鄭習會與國共十年再會) — Le dernier chapitre de soixante‑dix ans d’interaction inter‑détroit : le président du KMT rencontre Xi à Pékin pendant dix minutes
+- [Ma Ying-jeou](/people/馬英九) — La poignée de main de 80 secondes à Singapour le 7/11/2015, la signature de l’ECFA, les deux voyages en Chine en 2023 et 2024 : un dirigeant de la période dorée des relations inter‑détroit et les controverses post‑mandat
 - [Teresa Teng](/people/鄧麗君) — Un autre champ de bataille du soft power pendant la Guerre froide : sa voix a traversé le continent, 1989 elle porte un badge « anti‑régime militaire », 1991 elle crie depuis le poste d’observation de Ma Shan
 - [Résolution sur l’avenir de Taïwan](/history/臺灣前途決議文) — La crise de 1996 a accéléré la transformation pragmatique du DPP ; trois ans plus tard, elle a engendré ce document définissant la position inter‑détroit pendant vingt‑sept ans
 
 ## Références
 
 [^1]: BBC 中文 (2022), « Taiwan Strait crises – a review », https://www.bbc.com/zhongwen/trad/chinese-news-53834569
+
 [^2]: BBC 中文 (2022), « Pelosi’s Taiwan visit: why Taiwanese aren’t nervous », https://www.bbc.com/zhongwen/trad/chinese-news-62402927
+
 [^3]: Wikipédia, « Battle of Yijiangshan Island », https://zh.wikipedia.org/wiki/%E4%B8%80%E6%B1%9F%E5%B1%B1%E5%B3%B6%E6%88%B0%E5%BD%B9
+
 [^4]: Wikipédia, « Kinmen artillery battle », https://zh.wikipedia.org/wiki/%E9%87%91%E9%96%80%E7%A0%B2%E6%88%B0
+
 [^5]: Wikipedia, "Third Taiwan Strait Crisis," https://en.wikipedia.org/wiki/Third_Taiwan_Strait_Crisis
+
 [^6]: Centre de recherche électorale, Université politique de Taïwan, « Trends in Taiwanese vs. Chinese identity », https://esc.nccu.edu.tw/PageDoc/Detail?fid=7800&id=6960
+
 [^7]: 天下雜誌 (2022), « 1996 Taiwan Strait crisis witness Zhang Rong‑feng », https://www.cw.com.tw/article/5122255
+
 [^8]: CNN (2022), "TSMC Chairman Mark Liu Interview," https://edition.cnn.com/videos/tv/2022/07/31/exp-731-taiwan-tech-mark-liu-tsmc.cnn
+
 [^9]: Su Qi (2014), 《兩岸波濤二十年紀實》, 天下文化, https://www.books.com.tw/products/0010831375

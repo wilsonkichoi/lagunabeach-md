@@ -1,20 +1,27 @@
 ---
-title: "Las crisis del Estrecho de Taiwán y el desarrollo de las relaciones entre ambas orillas"
-description: "Desde los recuerdos de las abuelas de Kinmen bajo el bombardeo hasta la vida cotidiana y desapegada de los jóvenes de Taipéi, cómo setenta años de crisis en el Estrecho de Taiwán han moldeado la psicología colectiva del pueblo taiwanés"
+title: 'Las crisis del Estrecho de Taiwán y el desarrollo de las relaciones entre ambas orillas'
+description: 'Desde los recuerdos de las abuelas de Kinmen bajo el bombardeo hasta la vida cotidiana y desapegada de los jóvenes de Taipéi, cómo setenta años de crisis en el Estrecho de Taiwán han moldeado la psicología colectiva del pueblo taiwanés'
 date: 2026-03-18
-author: "Taiwan.md"
-category: "History"
-subcategory: "民主與治理"
-tags: ["relaciones entre ambas orillas", "crisis del Estrecho de Taiwán", "historia", "relaciones internacionales", "geopolítica"]
+author: 'Taiwan.md'
+category: 'History'
+subcategory: '民主與治理'
+tags:
+  [
+    'relaciones entre ambas orillas',
+    'crisis del Estrecho de Taiwán',
+    'historia',
+    'relaciones internacionales',
+    'geopolítica',
+  ]
 readingTime: 15
 lastVerified: 2026-03-25
 lastHumanReview: false
 featured: false
-translatedFrom: "History/台海危機與兩岸關係發展.md"
-sourceCommitSha: "3ec013e64"
-sourceContentHash: "sha256:f38bdb43bfb655cb"
-sourceBodyHash: "sha256:be52296ede93d50d"
-translatedAt: "2026-05-18T05:08:09+08:00"
+translatedFrom: 'History/台海危機與兩岸關係發展.md'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:a3193837a2f87e5e'
+sourceBodyHash: 'sha256:f6df2c4e6142bfcd'
+translatedAt: '2026-05-25T06:30:00+08:00'
 ---
 
 # Las crisis del Estrecho de Taiwán y el desarrollo de las relaciones entre ambas orillas
@@ -138,17 +145,26 @@ Los fragmentos de proyectil que quedaron en aquellos túneles de granito fueron 
 - [Defensa taiwanesa y modernización militar](/society/台灣國防與軍事現代化) — De la estrategia del erizo al tanque M1A2T, la transformación fundamental de la lógica defensiva de Taiwán tras tres crisis del Estrecho
 - [Relaciones diplomáticas de Taiwán y política internacional](/society/台灣邦交國與國際外交) — Otro frente más allá de la confrontación militar: cómo Taiwán busca hacerse un lugar en el sistema internacional
 - [La reunión Zheng-Xi de 2026: diez minutos entre líderes del Kuomintang y el Partido Comunista tras una década](/society/2026鄭習會與國共十年再會) — El capítulo más reciente de setenta años de interacción entre ambas orillas: los diez minutos del presidente del Kuomintang ante Xi Jinping en Pekín
+- [Ma Ying-jeou](/people/馬英九) — El apretón de manos de 80 segundos del 7/11/2015 en Singapur con Xi Jinping, la firma del ECFA, los dos viajes a China en 2023 y 2024: el dirigente que encabezó aquella época dorada de las relaciones entre ambas orillas y las controversias posteriores a dejar el cargo
 - [Teresa Teng](/people/鄧麗君) — Otro frente del poder blando en la Guerra Fría: su voz penetró en el continente, en 1989 llevó una pancarta de "oposición a la ley marcial" en Happy Valley, y en 1991 habló al continente desde el puesto de observación de Mashan
 - [Resolución sobre el futuro de Taiwán](/history/臺灣前途決議文) — La crisis del Estrecho de 1996 aceleró la transición pragmática del DPP, y tres años después dio lugar a este documento que definió la postura de Taiwán sobre las relaciones entre ambas orillas durante veintisiete años
 
 ## Referencias
 
 [^1]: BBC Chino (2022), "Revisión de las crisis sucesivas en el Estrecho de Taiwán", https://www.bbc.com/zhongwen/trad/chinese-news-53834569
+
 [^2]: BBC Chino (2022), "Observación de la visita de Pelosi a Taiwán: la tensión entre ambas orillas aumenta, ¿por qué los taiwaneses no están nerviosos?", https://www.bbc.com/zhongwen/trad/chinese-news-62402927
+
 [^3]: Wikipedia, "Batalla de la isla de Ichiangshan", https://zh.wikipedia.org/wiki/%E4%B8%80%E6%B1%9F%E5%B1%B1%E5%B3%B6%E6%88%B0%E5%BD%B9
+
 [^4]: Wikipedia, "Bombardeo de Kinmen", https://zh.wikipedia.org/wiki/%E9%87%91%E9%96%80%E7%A0%B2%E6%88%B0
+
 [^5]: Wikipedia, "Third Taiwan Strait Crisis," https://en.wikipedia.org/wiki/Third_Taiwan_Strait_Crisis
+
 [^6]: Centro de Estudios Electorales de la Universidad Chengchi, "Tendencia de distribución de la identidad taiwanesa/china del pueblo taiwanés", https://esc.nccu.edu.tw/PageDoc/Detail?fid=7800&id=6960
+
 [^7]: CommonWealth Magazine (2022), "Testigo de la crisis del Estrecho de Taiwán de 1996: Zhang Rongfeng", https://www.cw.com.tw/article/5122255
+
 [^8]: CNN (2022), "Entrevista al presidente de TSMC, Mark Liu", https://edition.cnn.com/videos/tv/2022/07/31/exp-731-taiwan-tech-mark-liu-tsmc.cnn
-[^9]: Su Qi (2014), *Veinte años de turbulencias entre ambas orillas: un registro*, Commonwealth Publishing, https://www.books.com.tw/products/0010831375
+
+[^9]: Su Qi (2014), _Veinte años de turbulencias entre ambas orillas: un registro_, Commonwealth Publishing, https://www.books.com.tw/products/0010831375

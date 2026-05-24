@@ -9,10 +9,10 @@ featured: true
 lastVerified: 2026-03-19
 lastHumanReview: false
 translatedFrom: About/看見台灣引言集.md
-sourceCommitSha: 1a5fc7a9
-sourceContentHash: sha256:cbdbee6d7c03481f
-sourceBodyHash: 'sha256:420e228012b4469c'
-translatedAt: 2026-05-02T01:17:16+08:00
+sourceCommitSha: 6b59db34
+sourceContentHash: sha256:53f055ce6b8e65e1
+sourceBodyHash: 'sha256:0307d09015530aa4'
+translatedAt: 2026-05-25T06:36:49+08:00
 category: About
 ---
 
@@ -45,7 +45,7 @@ category: About
 ### La légende de la beauté des Portugais
 
 > « Ilha Formosa ! » (La belle île !)
-> — Tradition attribuée à des marins portugais, vers 1544
+> — Tradition attribuée à des marins portugais, vers 1544[^1]
 >
 > _（Vérification historique : Des chercheurs modernes tels que Weng Jiayin ont démontré que les Portugais appelaient plutôt Taïwan « Lequeo pequeño » (Petite Ryūkyū). L'expression « belle île » pourrait être une construction postérieure. Les premiers à utiliser effectivement le nom Formosa pour désigner Taïwan furent les Espagnols dans les années 1580.）_
 
@@ -88,7 +88,7 @@ category: About
 ### Yu Yonghe, _Voyage aux confins de la mer_ (1697)
 
 > « De nature, j'aime les voyages lointains et ne recule devant aucun obstacle. Taïwan étant désormais intégré à l'empire, je ne pouvais me résoler à ne pas en avoir une vue d'ensemble. »
-> — Préface de _Voyage aux confins de la mer_ de Yu Yonghe
+> — Préface de _Voyage aux confins de la mer_ de Yu Yonghe[^2]
 >
 > _（Contexte : Yu Yonghe se rendit à Taïwan pour extraire du soufre après l'explosion d'un dépôt de poudre au Fujian. Il y décrit son voyage en amateur de découvertes, illustrant la curiosité des intellectuels de la dynastie Qing pour Taïwan.）_
 
@@ -109,7 +109,7 @@ category: About
 ### Lai He (1894-1943) — Père de la nouvelle littérature taïwanaise
 
 > « Être Taïwanais, c'est vraiment une malchance. »
-> — Poème de Lai He, _Le sacrifice d'un éveillé_
+> — Poème de Lai He, _Le sacrifice d'un éveillé_[^3]
 >
 > _（Contexte : Publié en 1925 à propos de l'incident de Erlin, ce poème exprime la résignation et la protestation des Taïwanais sous la domination coloniale, devenant une voix de protestation classique de la littérature taïwanaise.）_
 
@@ -127,7 +127,7 @@ category: About
 ### Wu Zhuoliu, _L'Orphelin d'Asie_ (1945)
 
 > « Quatre cents ans d'errance d'orphelin, sous des dominations aux noms changeants, tout abandonné au destin. »
-> — Wu Zhuoliu, _L'Orphelin d'Asie_
+> — Wu Zhuoliu, _L'Orphelin d'Asie_[^4]
 >
 > _（Contexte : Décrit la condition errante des Taïwanais à travers les bouleversements de l'histoire. « L'Orphelin d'Asie » est devenu une expression classique pour décrire le destin de Taïwan.）_
 
@@ -164,7 +164,7 @@ category: About
 ### Chi Po-lin, _Voyez Taïwan_ (2013)
 
 > « La montagne est le point de départ de toute chose, la source des rivières, elle nourrit toutes les formes de vie. Elle est le point de départ de mon rêve originel, et aussi l'inspiration qui m'a conduit à me consacrer à la photographie aérienne. »
-> — Chi Po-lin
+> — Chi Po-lin[^5]
 >
 > _（Contexte : Premier photographe aérien de Taïwan, il a réinterprété la beauté de l'île depuis une perspective aérienne, éveillant la conscience environnementale.）_
 
@@ -227,3 +227,15 @@ Comme l'a dit Chi Po-lin, c'est un Taïwan qui doit être « vu » ; comme le cr
 ---
 
 _Ce recueil d'introductions rassemble des citations classiques tirées de documents historiques et d'œuvres littéraires, dans le but de présenter les multiples facettes de Taïwan à travers les regards de différentes époques. Certaines citations, en raison de leur ancienneté ou de leur nature orale, sont accompagnées de mentions « douteuses » ou de notes contextuelles à titre de référence._
+
+## Références
+
+[^1] : [Wikipédia : Formose](https://fr.wikipedia.org/wiki/Formose) — vérification historique du nom « Formosa », incluant les controverses sur les attributions aux marins portugais et aux flottes espagnoles.
+
+[^2] : [Wikisource : Voyage aux confins de la mer](https://zh.wikisource.org/wiki/裨海紀遊) — texte intégral du récit de Yu Yonghe (1697) sur sa mission d'extraction de soufre à Taïwan, comprenant la préface et les trois rouleaux.
+
+[^3] : [Wikipédia : Lai He](https://fr.wikipedia.org/wiki/Lai_He) — biographie de Lai He (1894-1943) et contexte de composition du _Sacrifice d'un éveillé_ (1925), avec mention de l'incident d'Erlin.
+
+[^4] : [Wikipédia : L'Orphelin d'Asie](https://fr.wikipedia.org/wiki/L%27Orphelin_d%27Asie) — roman de Wu Zhuoliu (1945), œuvre classique de la littérature taïwanaise sur le thème de l'identité.
+
+[^5] : [Fondation Chi Po-lin](https://www.chipolin.org/) — biographie du photographe aérien Chi Po-lin (1964-2017) et documentation du film _Beyond Beauty: Taiwan from Above_ (2013).

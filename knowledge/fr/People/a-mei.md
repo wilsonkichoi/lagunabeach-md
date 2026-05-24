@@ -16,17 +16,17 @@ readingTime: 7
 #   whats_excluded: "各張專輯完整歌曲列表；商業代言清單；各演唱會場次細目"
 #   where_it_hedges: "張雨生發掘細節：各方說法略有出入，以維基百科為準；2023北京彩虹旗爭議另案記錄"
 translatedFrom: 'People/張惠妹.md'
-sourceCommitSha: '4b6d28c54'
-sourceContentHash: 'sha256:eaac08421c155488'
-sourceBodyHash: 'sha256:a58ea4fcb897497f'
-translatedAt: '2026-05-16T05:07:56+08:00'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:ccb03edca388c7b1'
+sourceBodyHash: 'sha256:bd4e3f38e6cd61a0'
+translatedAt: '2026-05-25T06:37:35+08:00'
 ---
 
 # A-mei : diva Puyuma, de _Sisters_ (1996) à cinq concerts au Taipei Dome (2024)
 
 > **En 30 secondes :** A-mei est née le 9 août 1972 dans le village de Kavulungan (卑南鄉), district de Taitung. Chanteuse d'origine Puyuma, son nom anglais est A-mei et son nom traditionnel Kulilay Amit (古利拉依・阿密特).[^1] En 1996, son premier album _Sisters_ (姊妹) s'est vendu à 1,21 million d'exemplaires à Taïwan et 4 millions en Asie, produit par Chang Yu-sheng (張雨生) et intégrant des éléments vocaux traditionnels Puyuma.[^1] En 2015, sa tournée « Utopia » a donné lieu à 10 concerts consécutifs au Taipei Arena.[^2] En décembre 2024, sa série de 5 concerts ASMeiR MAXXX au Taipei Dome a mobilisé un budget de production de 200 millions de dollars taïwanais, avec un lâcher de montgolfières en direct.[^3] Ses ventes cumulées dépassent les 50 millions d'exemplaires.[^1]
 
-## 9 août 1972, le village de Kavulungan, Taitung
+## Le village de Kavulungan, Taitung : le point de départ d'une chanteuse autochtone
 
 Le 9 août 1972, A-mei naît dans le village de Kavulungan (大巴六九部落), district de Taitung, sous le nom traditionnel Kulilay Amit (古利拉依・阿密特).[^1] Elle grandit bercée par la tradition musicale Puyuma : les chœurs de sa mère et de ses sœurs constituent sa première école de musique.
 
@@ -60,13 +60,13 @@ En 2004, lors d'une interview accordée à la CCTV (Télévision centrale de Chi
 
 Le poids de cette dernière phrase réside dans le fait qu'elle ne se dérobe pas et ne s'excuse pas : elle confirme simplement son nom. Dans une société où les chanteuses autochtones font l'objet de préjugés discriminatoires, cette phrase est une déclaration de dignité.
 
-## 2015 : « Utopia », 10 concerts au Taipei Arena
+## « Utopia » : 10 concerts consécutifs au Taipei Arena, l'ampleur de la mobilisation
 
 Du 4 au 15 avril 2015, la tournée mondiale « Utopia » d'A-mei donne lieu à 10 concerts consécutifs au Taipei Arena.[^2] Non pas 20 — ce chiffre étant fréquemment erroné dans de nombreux articles.
 
 « Utopia » constitue un jalon majeur de sa carrière scénique : 10 représentations à guichets fermés, confirmant son statut d'artiste live de premier plan. En ce sens, le Taipei Dome de 2024 ne part pas de zéro : c'est la version évoluée d'« Utopia ».
 
-## Décembre 2024 : ASMeiR MAXXX au Taipei Dome
+## ASMeiR MAXXX au Taipei Dome : cinq concerts, 300 000 spectateurs, une évolution
 
 En décembre 2024, A-mei se produit au Taipei Dome pour sa série de concerts ASMeiR MAXXX, soit 5 représentations au total.[^3] Le budget de production s'élève à environ 200 millions de dollars taïwanais, et un lâcher de montgolfières a lieu en direct, constituant la plus grande mise en scène visuelle de toute sa carrière de concertiste.
 

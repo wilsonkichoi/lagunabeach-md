@@ -18,10 +18,10 @@ lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/施明德.md'
-sourceCommitSha: '4b6d28c54'
-sourceContentHash: 'sha256:26dd4eef921bd1dc'
-sourceBodyHash: 'sha256:604f0360ebfc7d94'
-translatedAt: '2026-05-09T14:29:10+08:00'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:4e9fd368937980d6'
+sourceBodyHash: 'sha256:ce3ed8d37ab08090'
+translatedAt: '2026-05-25T06:39:11+08:00'
 ---
 
 # Shih Ming-teh : vingt-cinq ans derrière les barreaux, il finit par lever le drapeau contre son propre parti
@@ -84,7 +84,7 @@ La lecture courante voulait qu'il eût été déshonoré en fin de carrière et 
 
 Par la suite, Shih Ming-teh se retira progressivement du devant de la scène médiatique. Sa santé déclina d'année en année, mais il accordait encore régulièrement des interviews, s'exprimant sur la souveraineté taïwanaise et l'évolution politique, fidèle à ce critère de jugement qui n'avait jamais varié selon les partis.
 
-## Le 15 janvier 2024
+## Décès le jour de son anniversaire : l'arc complet de quatre-vingt-trois ans
 
 Le 15 janvier 2024, à l'aube, Shih Ming-teh mourut d'un cancer du foie à l'hôpital général des Vétérans de Taipei, à l'âge de 83 ans.[^8] Ce jour était aussi celui de son anniversaire.
 

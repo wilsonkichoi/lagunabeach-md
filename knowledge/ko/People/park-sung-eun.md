@@ -19,10 +19,10 @@ featured: false
 lastVerified: 2026-05-13
 translatedFrom: 'People/朴星垠.md'
 readingTime: 8
-sourceCommitSha: 5c000f86
+sourceCommitSha: 6b59db34
 sourceContentHash: sha256:3f200b3b3b4c4178
 sourceBodyHash: sha256:a35f4dc5fd25ef28
-translatedAt: 2026-05-25T06:21:00+08:00
+translatedAt: 2026-05-25T06:35:28+08:00
 ---
 
 > **30초 요약:** 2026년 박성은은 푸방 엔젤스의 한국 ‘다섯 기둥’ 중 한 명으로 정식 합류했다. 대만 팬이 먼저 그녀를 보고, 구단이 시즌 로스터에 공식 기입한다——선명한 커리어 선이 읽힌다. 인물 생애 개요는 위키백과 「박성은」 항목에서도 확인할 수 있다.[^4]

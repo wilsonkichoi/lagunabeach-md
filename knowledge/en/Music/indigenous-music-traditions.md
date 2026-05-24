@@ -1,6 +1,6 @@
 ---
 title: 'Indigenous Music Traditions of Taiwan'
-description: 'Explore the rich musical culture of Taiwan''s 16 indigenous groups, from ancient chants to traditional instruments, witnessing millennia of cultural heritage'
+description: "Explore the rich musical culture of Taiwan's 16 indigenous groups, from ancient chants to traditional instruments, witnessing millennia of cultural heritage"
 date: 2026-03-18
 author: 'Taiwan.md'
 category: 'Music'
@@ -8,22 +8,20 @@ subcategory: '傳統音樂'
 tags: ['原住民', '傳統音樂', '文化傳承', '樂器', '祭典']
 readingTime: 12
 lastVerified: 2026-03-19
-lastHumanReview: false
+lastHumanReview: true
 featured: true
 translatedFrom: Music/台灣原住民音樂傳統.md
-sourceCommitSha: f712b7242
-sourceContentHash: sha256:650169e89b146c12
-sourceBodyHash: sha256:e36393445cb958f3
-translatedAt: 2026-05-17T05:34:48+08:00
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:b1d3d34fc3971d05'
+sourceBodyHash: 'sha256:d3e2f60c551467e8'
+translatedAt: '2026-05-24T22:33:51Z'
 ---
 
 # Indigenous Music Traditions of Taiwan
 
-The musical traditions of Taiwan's indigenous peoples represent the oldest sonic memory on this land. Each of the 16 groups has developed a unique musical culture — from the jaw harp of the Atayal to the polyphonic singing of the Bunun, from the Harvest Festival dances of the Pangcah (Amis) to the pestle music of the Thao. These melodies, passed down over thousands of years, record each group's history, beliefs, and life wisdom.
+> **30-second overview:** Taiwanese indigenous music is centered on vocal song, complemented by natural instruments such as the jaw harp, nose flute, and wooden pestles. The most renowned examples include the Bunun "Eight-Part Harmony" (Pasibutbut), Atayal jaw harp performance, Pangcah Harvest Festival song and dance, and Thao pestle music. These musical forms serve as the core vehicle for tribal life, ritual activities, and cultural transmission, not merely artistic entertainment.
 
-## 30-Second Overview
-
-Taiwanese indigenous music is centered on vocal song, complemented by natural instruments such as the jaw harp, nose flute, and wooden pestles. The most renowned examples include the Bunun "Eight-Part Harmony" (Pasibutbut), Atayal jaw harp performance, Pangcah Harvest Festival song and dance, and Thao pestle music. These musical forms serve as the core vehicle for tribal life, ritual activities, and cultural transmission — not merely artistic entertainment.
+The musical traditions of Taiwan's indigenous peoples represent the oldest sonic memory on this land. Each of the 16 groups has developed a unique musical culture: from the jaw harp of the Atayal, the polyphonic singing of the Bunun, and the Harvest Festival dances of the Pangcah (Amis), to the pestle music of the Thao. These melodies, passed down over thousands of years, record each group's history, beliefs, and life wisdom.
 
 **Keywords:** Eight-Part Harmony (Pasibutbut), jaw harp, Harvest Festival (Ilisin), pestle music, ritual songs, tribal culture
 
@@ -217,9 +215,9 @@ A new generation of indigenous musicians, while maintaining traditional foundati
 
 ### Cross-Genre Experiments and Representative Cases
 
-Pangcay artist Sangpuy presents the aesthetics of traditional chanting through barefoot singing and a magnetic voice. His 2012 album *dalan* won the Golden Melody Award for Best Indigenous Language Singer, and he has toured Japan and Europe. Tao artist Suming incorporates electronic beats with tribal language, offering a modern interpretation of tribal life. Paiwan artist Abao (Aljenljeng Tjaluvie) won the 2020 Golden Melody Award for Album of the Year with her all-indigenous-language electronic album *kinakaian: Mother's Tongue*, marking the most groundbreaking milestone for Taiwanese indigenous music in the mainstream market.
+Pangcay artist Sangpuy presents the aesthetics of traditional chanting through barefoot singing and a magnetic voice. His 2012 album _dalan_ won the Golden Melody Award for Best Indigenous Language Singer, and he has toured Japan and Europe. Tao artist Suming incorporates electronic beats with tribal language, offering a modern interpretation of tribal life. Paiwan artist Abao (Aljenljeng Tjaluvie) won the 2020 Golden Melody Award for Album of the Year with her all-indigenous-language electronic album _kinakaian: Mother's Tongue_, marking the most groundbreaking milestone for Taiwanese indigenous music in the mainstream market.
 
-The overtone structure of the Bunun Pasibutbut has also entered academic and artistic applications: tribal music workers such as Mayaw Biho have integrated tribal chanting into film scores, and the indigenous musical elements in films such as *Warriors of the Rainbow: Seediq Bale* have introduced a wider audience to the depth of this sonic world.
+The overtone structure of the Bunun Pasibutbut has also entered academic and artistic applications: tribal music workers such as Mayaw Biho have integrated tribal chanting into film scores, and the indigenous musical elements in films such as _Warriors of the Rainbow: Seediq Bale_ have introduced a wider audience to the depth of this sonic world.
 
 Indigenous-language songs simultaneously play a key role in language preservation. When tribal vocabulary is woven into melody, the retention effect of sonic memory often surpasses that of text alone. Indigenous-language song corpus projects launched by research institutions attempt to use song to preserve the final contours of tribal languages before they disappear.
 
@@ -271,18 +269,24 @@ The Shung Ye Museum of Formosan Aborigines in Taipei is an important venue for p
 
 ---
 
+**Further reading:** [Council of Indigenous Peoples (official website)](https://www.cip.gov.tw/) ｜ [Digital Archives, Institute of Ethnology, Academia Sinica](https://c.iis.sinica.edu.tw/) ｜ [Taiwan Indigenous Peoples Library and Information Center](https://tiprc.apc.gov.tw/) ｜ [Online Encyclopedia of Taiwan Indigenous History, Languages, and Culture](http://210.240.125.35/citing/)
+
 ## References
 
 - [Official Website of the Council of Indigenous Peoples](https://www.cip.gov.tw/)
-- Ming Li-guo, *The Beauty of Taiwan's Indigenous Music*, Morning Star Publishing, 2006. [Author Introduction](https://par.npac-ntch.org/tw/article/author/2656)
-- Lü Yu-hsiu, *A History of Music in Taiwan*, Wu-Nan Culture, 2003. [Books.com.tw](https://www.books.com.tw/products/0010906148)
-- Hsü Chang-hui, *First Draft of a History of Music in Taiwan*, Whole Music Publishing, 1991. [Sanmin Online Bookstore](https://www.sanmin.com.tw/product/index/000268139)
+- Ming Li-guo, _The Beauty of Taiwan's Indigenous Music_, Morning Star Publishing, 2006. [Author Introduction](https://par.npac-ntch.org/tw/article/author/2656)
+- Lü Yu-hsiu, _A History of Music in Taiwan_, Wu-Nan Culture, 2003. [Books.com.tw](https://www.books.com.tw/products/0010906148)
+- Hsü Chang-hui, _First Draft of a History of Music in Taiwan_, Whole Music Publishing, 1991. [Sanmin Online Bookstore](https://www.sanmin.com.tw/product/index/000268139)
 - [Online Edition of the Encyclopedic Dictionary of Taiwan's Indigenous Peoples' History, Language, and Culture](http://210.240.125.35/citing/)
 - [Institute of Ethnology, Academia Sinica — Digital Archives](https://c.iis.sinica.edu.tw/)
 - [Taiwan Indigenous Peoples Resource Center](https://tiprc.apc.gov.tw/)
 
-[^1]: Lü Yu-hsiu, *A History of Music in Taiwan*, Wu-Nan Culture, 2003, pp. 42–43. In 1952, Kurosawa Takatomo submitted a recording of the Bunun Pasibutbut to UNESCO, sparking widespread discussion in the international ethnomusicology community. [Books.com.tw](https://www.books.com.tw/products/0010906148)
-[^2]: Ming Li-guo, *The Beauty of Taiwan's Indigenous Music*, Morning Star Publishing, 2006, pp. 88–91. Pasibutbut is in fact four vocal parts; through natural overtones, it presents the effect of eight parts on a spectrograph. [Author Introduction](https://par.npac-ntch.org/tw/article/author/2656)
-[^3]: Ming Li-guo, *The Beauty of Taiwan's Indigenous Music*, p. 120. The Paiwan double-tube nose flute was traditionally restricted to noble-class men, closely tied to the group's hierarchical system. [Author Introduction](https://par.npac-ntch.org/tw/article/author/2656)
-[^4]: Hsü Chang-hui, *First Draft of a History of Music in Taiwan*, Whole Music Publishing, 1991, p. 157. The process by which Thao pestle music developed from agricultural work songs into a performing art is recorded here. [Sanmin Online Bookstore](https://www.books.com.tw/product/index/000268139)
-[^5]: Council of Indigenous Peoples, *White Paper on Indigenous Cultural Revitalization Policy*, 2019. https://www.cip.gov.tw/
+[^1]: Lü Yu-hsiu, _A History of Music in Taiwan_, Wu-Nan Culture, 2003, pp. 42–43. In 1952, Kurosawa Takatomo submitted a recording of the Bunun Pasibutbut to UNESCO, sparking widespread discussion in the international ethnomusicology community. [Books.com.tw](https://www.books.com.tw/products/0010906148)
+
+[^2]: Ming Li-guo, _The Beauty of Taiwan's Indigenous Music_, Morning Star Publishing, 2006, pp. 88–91. Pasibutbut is in fact four vocal parts; through natural overtones, it presents the effect of eight parts on a spectrograph. [Author Introduction](https://par.npac-ntch.org/tw/article/author/2656)
+
+[^3]: Ming Li-guo, _The Beauty of Taiwan's Indigenous Music_, p. 120. The Paiwan double-tube nose flute was traditionally restricted to noble-class men, closely tied to the group's hierarchical system. [Author Introduction](https://par.npac-ntch.org/tw/article/author/2656)
+
+[^4]: Hsü Chang-hui, _First Draft of a History of Music in Taiwan_, Whole Music Publishing, 1991, p. 157. The process by which Thao pestle music developed from agricultural work songs into a performing art is recorded here. [Sanmin Online Bookstore](https://www.books.com.tw/product/index/000268139)
+
+[^5]: Council of Indigenous Peoples, _White Paper on Indigenous Cultural Revitalization Policy_, 2019. https://www.cip.gov.tw/

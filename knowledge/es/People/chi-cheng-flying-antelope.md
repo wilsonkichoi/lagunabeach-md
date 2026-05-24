@@ -10,13 +10,13 @@ readingTime: 7
 #   whats_excluded: "體育行政的詳細爭論；各項世界紀錄的完整技術細節；1966年100公尺世界紀錄的爭議史料（文中已適度標注）"
 #   where_it_hedges: "1966年100公尺世界紀錄（各來源說法不一，賽事地點與成績仍有歧異）；200公尺慕尼黑紀錄的確切年份；本名紀正平（未獲中文史料確認）"'
 lastVerified: 2026-05-07
-lastHumanReview: false
+lastHumanReview: true
 featured: false
 translatedFrom: 'People/紀政.md'
-sourceCommitSha: '0ea5d5d42'
-sourceContentHash: 'sha256:75c790eb823d4118'
-sourceBodyHash: 'sha256:e16afe42bbfa7ee1'
-translatedAt: '2026-05-09T14:29:10+08:00'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:ac035cdcf01e05b4'
+sourceBodyHash: 'sha256:4c7c2552cb14f3c8'
+translatedAt: '2026-05-25T06:30:00+08:00'
 ---
 
 # Chi Cheng: 10 récords mundiales en pista, y cincuenta años después sigue corriendo por el nombre de Taiwán

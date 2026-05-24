@@ -7,12 +7,12 @@ author: 'Taiwan.md Contributors'
 readingTime: 10
 featured: true
 lastVerified: 2026-03-19
-lastHumanReview: false
+lastHumanReview: true
 translatedFrom: About/看見台灣引言集.md
-sourceCommitSha: 1a5fc7a9
-sourceContentHash: sha256:cbdbee6d7c03481f
-sourceBodyHash: 'sha256:420e228012b4469c'
-translatedAt: 2026-05-01T22:19:10+08:00
+sourceCommitSha: 6b59db34
+sourceContentHash: sha256:53f055ce6b8e65e1
+sourceBodyHash: sha256:0307d09015530aa4
+translatedAt: 2026-05-25T06:30:00+08:00
 category: About
 ---
 
@@ -45,7 +45,7 @@ category: About
 ### La leyenda portuguesa de la belleza
 
 > «Ilha Formosa!» (¡Isla Hermosa!)
-> — Atribuido tradicionalmente a marineros portugueses, hacia 1544
+> — Atribuido tradicionalmente a marineros portugueses, hacia 1544[^1]
 >
 > _(Verificación histórica: Investigadores modernos como Weng Jiayin han documentado que los portugueses solían llamar a Taiwán «Lequeo pequeño» (Pequeña Liuqiu). La expresión «Isla Hermosa» podría ser una construcción posterior. Los primeros en utilizar efectivamente el término Formosa para referirse a Taiwán fueron los españoles, en la década de 1580.)_
 
@@ -88,7 +88,7 @@ category: About
 ### Yu Yonghe, _Bihai Jiyou_ (1697)
 
 > «Mi naturaleza me inclina a los viajes lejanos y no rehúyo las dificultades. Siempre he pensado que, habiendo Taiwán ya sido incorporado al imperio, no haber podido contemplar siquiera un panorama de la isla me dejaba insatisfecho.»
-> — Prefacio de _Bihai Jiyou_ de Yu Yonghe
+> — Prefacio de _Bihai Jiyou_ de Yu Yonghe[^2]
 >
 > _(Contexto: Yu Yonghe viajó a Taiwán para extraer azufre tras un incendio en el polvorín de Fujian. Como aficionado a los viajes, describe así su motivación para ir a la isla, reflejando la curiosidad que los intelectuales de la dinastía Qing sentían por Taiwán.)_
 
@@ -109,7 +109,7 @@ category: About
 ### Lai He (1894-1943) — Padre de la nueva literatura taiwanesa
 
 > «Haber nacido taiwanés es verdaderamente un sino desdichado.»
-> — Poema de Lai He, _Sacrificio bajo el despertar_
+> — Poema de Lai He, _Sacrificio bajo el despertar_[^3]
 >
 > _(Contexto: Publicado en 1925, en referencia al Incidente de Erlin, expresa la impotencia y la protesta de los taiwaneses bajo el dominio colonial. Se convirtió en una voz de protesta clásica de la literatura taiwanesa.)_
 
@@ -127,7 +127,7 @@ category: About
 ### Wu Zhuoliu, _El huérfano de Asia_ (1945)
 
 > «Cuatrocientos años de vagar como huérfanos, bajo sucesivos poderes que cambiaban de nombre, dejándolo todo al arbitrio del destino.»
-> — Wu Zhuoliu, _El huérfano de Asia_
+> — Wu Zhuoliu, _El huérfano de Asia_[^4]
 >
 > _(Contexto: Describe la condición errante de los taiwanesas a lo largo de los cambios históricos. «El huérfano de Asia» se convirtió en una expresión clásica para describir el destino de Taiwán.)_
 
@@ -164,7 +164,7 @@ category: About
 ### Chi Po-lin, _Ver Taiwán_ (2013)
 
 > «Las montañas son el origen de todas las cosas, la fuente de los ríos, el hogar de toda forma de vida. Son el punto de partida de mis sueños primigenios y la inspiración que me impulsó a dedicarme a la fotografía aérea.»
-> — Chi Po-lin
+> — Chi Po-lin[^5]
 >
 > _(Contexto: Primer fotógrafo aéreo de Taiwán, reinterpretó la belleza de la isla desde una perspectiva cenital y despertó la conciencia sobre la protección del medio ambiente.)_
 
@@ -227,3 +227,15 @@ Como dijo Chi Po-lin, este es un Taiwán que necesita ser «visto»; como creen 
 ---
 
 _Esta antología introductoria recoge frases célebres de documentos históricos y obras literarias, con el propósito de presentar las múltiples facetas de Taiwán a través de los ojos de distintas épocas. Algunas citas, debido a su antigüedad o a su naturaleza oral, señalan en su verificación de procedencia la mención «dudosa» o incluyen notas contextuales a modo de referencia._
+
+## Referencias
+
+[^1]: [Wikipedia: Formosa](https://zh.wikipedia.org/wiki/福爾摩沙) — Verificación histórica del nombre «Formosa», con la controversia sobre quién lo acuñó: marineros portugueses o flota española.
+
+[^2]: [Wikisource: Bihai Jiyou](https://zh.wikisource.org/wiki/裨海紀遊) — Texto completo del diario de viaje de Yu Yonghe, quien vino a Taiwán a extraer azufre en 1697, con prefacio y los tres volúmenes (superior, medio e inferior).
+
+[^3]: [Wikipedia: Lai He](https://zh.wikipedia.org/wiki/賴和) — Biografía de Lai He (1894-1943) y contexto de creación de _Sacrificio bajo el despertar_ (1925), incluyendo referencias al incidente de Erlin.
+
+[^4]: [Wikipedia: El huérfano de Asia](https://zh.wikipedia.org/wiki/亞細亞的孤兒) — Novela de Wu Zhuoliu publicada en 1945, obra clásica de la literatura taiwanesa sobre el tema de la identidad.
+
+[^5]: [Fundación Chi Po-lin](https://www.chipolin.org/) — Biografía del fotógrafo aéreo Chi Po-lin (1964-2017) y materiales relacionados con el documental _Ver Taiwán_ (2013).

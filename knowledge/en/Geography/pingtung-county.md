@@ -5,16 +5,32 @@ date: 2026-05-18
 author: 'Taiwan.md Contributors'
 category: 'Geography'
 subcategory: '縣市'
-tags: ['Pingtung', 'Pingtung County', 'Southern Taiwan', 'Hengchun Peninsula', 'Paiwan', 'Rukai', 'Hakka Liudui', 'Mudan Incident', 'Wanchin Basilica of the Immaculate Conception', 'Eluanbi Lighthouse', 'Linbian', 'Typhoon Morakot Disaster', 'Morakot', '22 Counties and Cities Series']
+tags:
+  [
+    'Pingtung',
+    'Pingtung County',
+    'Southern Taiwan',
+    'Hengchun Peninsula',
+    'Paiwan',
+    'Rukai',
+    'Hakka Liudui',
+    'Mudan Incident',
+    'Wanchin Basilica of the Immaculate Conception',
+    'Eluanbi Lighthouse',
+    'Linbian',
+    'Typhoon Morakot Disaster',
+    'Morakot',
+    '22 Counties and Cities Series',
+  ]
 readingTime: 15
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/屏東縣.md'
-sourceCommitSha: '99e9c7655'
-sourceContentHash: 'sha256:95ba16d9091da31f'
-sourceBodyHash: 'sha256:906c644455f87c66'
-translatedAt: '2026-05-18T05:08:07+08:00'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:216a6d2aef7687a0'
+sourceBodyHash: 'sha256:d15d2db9f856adb4'
+translatedAt: '2026-05-24T22:33:51Z'
 ---
 
 # Pingtung County: The Nation's Turning Points Happened Here, and Taipei Has Never Really Remembered
@@ -31,12 +47,12 @@ But on April 21, 2026, the "first tuna" was auctioned off. The 2.14-meter, 190-k
 
 This is the most contemporary evidence of Pingtung as a fishing county. Kenting Spring Scream's May glory belongs to tourism; but at Donggang's 5:30 a.m. auction market, every fish that moves from the Bashi Channel to the tables of Taipei Japanese restaurants passes through a transaction that happens at this time every year. **Before the capital eats this tuna, Pingtung people have already called its price at auction**.
 
-![Eluanbi Lighthouse, 2011. Taiwan's southernmost lighthouse on the main island, begun in 1881 and completed in 1883, was designed as a fortification, with gun ports in its surrounding wall and a trench, making it "the world's only armed lighthouse." On March 15, 2024, it was elevated to national monument status.](https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Eluanbi_Lighthouse_02.jpg/1280px-Eluanbi_Lighthouse_02.jpg)
+![Eluanbi Lighthouse, 2011. Taiwan's southernmost lighthouse on the main island, begun in 1881 and completed in 1883, was designed as a fortification, with gun ports in its surrounding wall and a trench, making it "the world's only armed lighthouse." On March 15, 2024, it was elevated to national monument status.](/article-images/geography/pingtung-hero.jpg)
 _Eluanbi Lighthouse, 2011-06-06. Photo: Bernard Gagnon, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Eluanbi_Lighthouse_02.jpg)._
 
 ## The Ambush in the Shimen Gorge
 
-![A traditional sleeveless short upper garment from the Paiwan Mudan community, embroidered on red cloth. Entered into the National Taiwan University collection in 1956, it is one piece of material evidence contemporary with the 1874 Mudan Incident.](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/%E6%8E%92%E7%81%A3%E6%97%8F%E7%89%A1%E4%B8%B9%E7%A4%BE%E7%84%A1%E8%A2%96%E7%9F%AD%E4%B8%8A%E8%A1%A3.jpg/1280px-%E6%8E%92%E7%81%A3%E6%97%8F%E7%89%A1%E4%B8%B9%E7%A4%BE%E7%84%A1%E8%A2%96%E7%9F%AD%E4%B8%8A%E8%A1%A3.jpg)
+![A traditional sleeveless short upper garment from the Paiwan Mudan community, embroidered on red cloth. Entered into the National Taiwan University collection in 1956, it is one piece of material evidence contemporary with the 1874 Mudan Incident.](/article-images/geography/pingtung-01.jpg)
 _Sleeveless short upper garment from the Paiwan Mudan community, National Taiwan University collection, 1956. Photo: 氏子, [CC BY-SA 4.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:%E6%8E%92%E7%81%A3%E6%97%8F%E7%89%A1%E4%B8%B9%E7%A4%BE%E7%84%A1%E8%A2%96%E7%9F%AD%E4%B8%8A%E8%A1%A3.jpg)._
 
 The moment when the Pingtung peninsula changed Taiwan's fate happened at another time besides 4:30 in the morning: May 22, 1874, in the Shimen gorge.
@@ -61,7 +77,7 @@ In other words: **the Mudan Incident was Japan's first military probe of Taiwan,
 
 ## That Church from 1861, 21 Years Before Oxford College
 
-![Wanchin Catholic Church, or Wanchin Basilica of the Immaculate Conception, in Wanjin Village, Wanluan Township, Pingtung County. Founded in 1861 by Spanish Dominican priest Fernando Sainz, rebuilt and opened at its current site in 1870, and designated a minor basilica by Pope John Paul II in 1984. Today around 80 percent of Wanjin Village's population is Catholic.](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/%E8%90%AC%E9%87%91%E5%A4%A9%E4%B8%BB%E6%95%99%E5%A0%82%EF%BC%88%E8%90%AC%E9%87%91%E8%81%96%E6%AF%8D%E8%81%96%E6%AE%BF%EF%BC%89.jpg/1280px-%E8%90%AC%E9%87%91%E5%A4%A9%E4%B8%BB%E6%95%99%E5%A0%82%EF%BC%88%E8%90%AC%E9%87%91%E8%81%96%E6%AF%8D%E8%81%96%E6%AE%BF%EF%BC%89.jpg)
+![Wanchin Catholic Church, or Wanchin Basilica of the Immaculate Conception, in Wanjin Village, Wanluan Township, Pingtung County. Founded in 1861 by Spanish Dominican priest Fernando Sainz, rebuilt and opened at its current site in 1870, and designated a minor basilica by Pope John Paul II in 1984. Today around 80 percent of Wanjin Village's population is Catholic.](/article-images/geography/pingtung-02.jpg)
 _Wanchin Catholic Church, Wanchin Basilica of the Immaculate Conception. Photo: WEI WAN-CHEN, [CC BY-SA 4.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:%E8%90%AC%E9%87%91%E5%A4%A9%E4%B8%BB%E6%95%99%E5%A0%82%EF%BC%88%E8%90%AC%E9%87%91%E8%81%96%E6%AF%8D%E8%81%96%E6%AE%BF%EF%BC%89.jpg)._
 
 Go 50 kilometers north and you encounter another moment omitted by central narratives.
@@ -106,7 +122,7 @@ Wanluan, the Vanguard Unit, is best known today for Wanluan pork knuckles; Zhuti
 
 ## Eluanbi 1883, Hengchun Old City 1879
 
-![Battlements of the East Gate of Hengchun Old City, 2013. After Shen Baozhen established Hengchun County in 1875, construction of the city wall began on October 18 of the same year and was completed in July 1879. The walls measured 880 zhang in circumference, and all four gates survive intact today, making it Taiwan's most complete surviving Qing county seat.](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/%E6%81%86%E6%98%A5%E5%8F%A4%E5%9F%8E%E6%9D%B1%E9%96%80%E5%9F%8E%E5%9E%9B.JPG/1280px-%E6%81%86%E6%98%A5%E5%8F%A4%E5%9F%8E%E6%9D%B1%E9%96%80%E5%9F%8E%E5%9E%9B.JPG)
+![Battlements of the East Gate of Hengchun Old City, 2013. After Shen Baozhen established Hengchun County in 1875, construction of the city wall began on October 18 of the same year and was completed in July 1879. The walls measured 880 zhang in circumference, and all four gates survive intact today, making it Taiwan's most complete surviving Qing county seat.](/article-images/geography/pingtung-03.jpg)
 _Battlements of the East Gate of Hengchun Old City, 2013-09-07. Photo: Orbital, [CC BY-SA 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:%E6%81%86%E6%98%A5%E5%8F%A4%E5%9F%8E%E6%9D%B1%E9%96%80%E5%9F%8E%E5%9E%9B.JPG)._
 
 The second thing the Qing court did after the Mudan Incident was build a walled city.
@@ -123,7 +139,7 @@ On December 12, 2008, director Wei Te-sheng's Cape No. 7 was released. In 113 da
 
 ## The Day the Linbian Floodgate Could Not Hold
 
-![Pingtung Station, 2013. Completed in 1939, during the Japanese era, as "Ako Station," it was the key node connecting the Pingtung sugar railway with the trunk line. The sugar railway, 226 kilometers long across 20 townships, was the physical skeleton of Japanese-era Pingtung's modernization.](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pingtung_Train_Station.jpg/1280px-Pingtung_Train_Station.jpg)
+![Pingtung Station, 2013. Completed in 1939, during the Japanese era, as "Ako Station," it was the key node connecting the Pingtung sugar railway with the trunk line. The sugar railway, 226 kilometers long across 20 townships, was the physical skeleton of Japanese-era Pingtung's modernization.](/article-images/geography/pingtung-04.jpg)
 _Pingtung Station, completed in 1939, Showa 14. Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:Pingtung_Train_Station.jpg)._
 
 From August 7 to 9, 2009, Typhoon Morakot's rainfall in Pingtung's mountains broke the records of all Taiwanese weather stations at the time. The **Xinmajia** station recorded 1,897 millimeters in a single day on August 8; the **Taiwu** station recorded 1,145 millimeters in a single day on August 7; and Pingtung's **Weiliaoshan** station recorded 1,403 millimeters in a single day on August 8, at the time setting Taiwan's all-time record for one-day rainfall[^18].

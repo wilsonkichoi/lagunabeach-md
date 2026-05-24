@@ -1,20 +1,37 @@
 ---
 title: 'Nantou County: Taiwan’s Only Landlocked County, with the 921 Earthquake Epicenter at Its Center'
-description: "At 1:47 a.m. on September 21, 1999, the Chelungpu Fault beneath Jiji Township ruptured for 102 seconds. Across Taiwan, 2,415 people died; Nantou alone accounted for 886 deaths, and 90% of buildings in Zhongliao Township were damaged. On the day of the flag-raising ceremony at Wushe Public School in 1930, Mona Rudao led Seediq people from six communities in killing 134 Japanese civilians. In 1934, Wujie Dam raised the water level by 18.18 meters, flooding the Thao people’s Lalu Island. In 1957, Zhongxing New Village was completed as the provincial government’s temporary office site; after provincial streamlining hollowed it out in 1998, only the palm-lined boulevard remained. Some 470,000 people live in this inland county, rising from 100 meters to 3,952 meters above sea level, where Seediq, Bunun, Thao, and Tsou communities live alongside Han Taiwanese. Taiwan’s deepest wounds are all here."
+description: 'At 1:47 a.m. on September 21, 1999, the Chelungpu Fault beneath Jiji Township ruptured for 102 seconds. Across Taiwan, 2,415 people died; Nantou alone accounted for 886 deaths, and 90% of buildings in Zhongliao Township were damaged. On the day of the flag-raising ceremony at Wushe Public School in 1930, Mona Rudao led Seediq people from six communities in killing 134 Japanese civilians. In 1934, Wujie Dam raised the water level by 18.18 meters, flooding the Thao people’s Lalu Island. In 1957, Zhongxing New Village was completed as the provincial government’s temporary office site; after provincial streamlining hollowed it out in 1998, only the palm-lined boulevard remained. Some 470,000 people live in this inland county, rising from 100 meters to 3,952 meters above sea level, where Seediq, Bunun, Thao, and Tsou communities live alongside Han Taiwanese. Taiwan’s deepest wounds are all here.'
 date: 2026-05-18
 author: 'Taiwan.md Contributors'
 category: 'Geography'
 subcategory: '縣市'
-tags: ['Nantou', 'Nantou County', 'Central Taiwan', 'Sun Moon Lake', '921 Earthquake', 'Jiji', 'Wushe Incident', 'Seediq People', 'Bunun People', 'Thao People', 'Zhongxing New Village', 'Yushan', 'Wuling', 'Puli', '22 Counties and Cities Series']
+tags:
+  [
+    'Nantou',
+    'Nantou County',
+    'Central Taiwan',
+    'Sun Moon Lake',
+    '921 Earthquake',
+    'Jiji',
+    'Wushe Incident',
+    'Seediq People',
+    'Bunun People',
+    'Thao People',
+    'Zhongxing New Village',
+    'Yushan',
+    'Wuling',
+    'Puli',
+    '22 Counties and Cities Series',
+  ]
 readingTime: 16
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/南投縣.md'
-sourceCommitSha: '4b090f5f4'
-sourceContentHash: 'sha256:4bd149f80e491a45'
-sourceBodyHash: 'sha256:7f90ef82b0d88d38'
-translatedAt: '2026-05-18T05:08:07+08:00'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:7a6074e368afe122'
+sourceBodyHash: 'sha256:5248faa58fca6ede'
+translatedAt: '2026-05-24T22:33:51Z'
 ---
 
 # Nantou County: Taiwan’s Only Landlocked County, with the 921 Earthquake Epicenter at Its Center
@@ -58,7 +75,7 @@ Some 470,000 people live in this county, based on 2025 figures[^7]. The share of
 
 The history of this county is arranged by elevation. The Babao Canal on the plains, Wushe on the mountainside, Lalu Island beneath the lake surface, Yushan at 3,952 meters: each altitude layer bears a story.
 
-![The alpine landscape around Hehuan Mountain’s main peak. Wuling, at 3,275 meters above sea level, sits in the saddle between Hehuan Mountain’s main and east peaks. This point on Provincial Highway 14A is the highest point on Taiwan’s road system, and winter snowfall makes it one of the few places on Taiwan proper where people can see snow.](https://upload.wikimedia.org/wikipedia/commons/0/06/Hehuanshan_Cuesta.JPG)
+![The alpine landscape around Hehuan Mountain’s main peak. Wuling, at 3,275 meters above sea level, sits in the saddle between Hehuan Mountain’s main and east peaks. This point on Provincial Highway 14A is the highest point on Taiwan’s road system, and winter snowfall makes it one of the few places on Taiwan proper where people can see snow.](/article-images/geography/nantou-01.jpg)
 _Hehuan Mountain landscape. Photo: Chewy3326, CC BY 2.5. [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hehuanshan_Cuesta.JPG)._
 
 ## The Water of Babao Canal Has Flowed to Mingjian Township Since the Kangxi Era
@@ -103,7 +120,7 @@ Why did the Toda group kill their own people? “**The Japanese authorities ackn
 
 In 1973, Mona Rudao’s remains were returned from the Department of Anthropology at National Taiwan University to Wushe for burial. Li Yih-yuan, acting chair of NTU’s Department of Archaeology and Anthropology, wrote to the university president to explain: “**The remains of this martyr should not be kept in a research institution; they should in fact be returned for burial in his homeland.**”[^11] Using Han rituals, with wreaths, a mourning hall, and music, he was buried behind the Wushe Indigenous Anti-Japanese Monument across from Ren’ai Elementary School in Nantou.
 
-In 2011, Wei Te-sheng’s *Warriors of the Rainbow: Seediq Bale* was released, earning NT$880 million worldwide and NT$810 million in Taiwan[^12]. Part I, *The Sun Flag*, premiered on September 9; Part II, *The Rainbow Bridge*, premiered on September 30. The film made the Wushe Incident of 81 years earlier known again across Taiwan.
+In 2011, Wei Te-sheng’s _Warriors of the Rainbow: Seediq Bale_ was released, earning NT$880 million worldwide and NT$810 million in Taiwan[^12]. Part I, _The Sun Flag_, premiered on September 9; Part II, _The Rainbow Bridge_, premiered on September 30. The film made the Wushe Incident of 81 years earlier known again across Taiwan.
 
 But today, when you go to Wushe, what you see is a tourist site: Mona Rudao Memorial Park, the Wushe Incident Memorial, Qingliu community. The Seediq people’s wound has been turned into a landscape route for photographs.
 
@@ -121,7 +138,7 @@ The Thao people originally lived in the Shiyin settlement on the eastern side of
 
 Lalu Island is a small island at the center of Sun Moon Lake and the Thao people’s highest ancestral spirit site. In the Thao language, Lalu means “**sacred island in the heart**”[^15]. During the Japanese period it was called “Jade Island”; after the war, in 1949, the Kuomintang renamed it “Guanghua Island,” meaning “glorifying China.” From what had originally been more than 100 jia of farmland, it shrank after the reservoir project into an isolated island 30 meters in diameter. **It took 15 years for a sacred island to become a small island that tour boats circle for photographs**.
 
-![Lalu Island, August 2013. The small island at the center of Sun Moon Lake, the Thao people’s highest ancestral spirit site, Lalu, the “sacred island in the heart.” Before Wujie Dam raised the water level by 18.18 meters in 1934, it had originally been more than 100 jia of Thao farmland; today it has shrunk to an isolated island 30 meters in diameter, circled by tour boats for photographs. In 2000, its name was restored from “Guanghua Island” to Lalu.](https://upload.wikimedia.org/wikipedia/commons/8/8a/2013%E5%B9%B48%E6%9C%8819%E6%97%A5%E6%8B%89%E9%AD%AF%E5%B3%B6.JPG)
+![Lalu Island, August 2013. The small island at the center of Sun Moon Lake, the Thao people’s highest ancestral spirit site, Lalu, the “sacred island in the heart.” Before Wujie Dam raised the water level by 18.18 meters in 1934, it had originally been more than 100 jia of Thao farmland; today it has shrunk to an isolated island 30 meters in diameter, circled by tour boats for photographs. In 2000, its name was restored from “Guanghua Island” to Lalu.](/article-images/geography/nantou-01.jpg)
 _Lalu Island, 2013-08-19. Photo: Ckbun, CC BY-SA 3.0. [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2013年8月19日拉魯島.JPG)._
 
 By 2000, the Thao had won the restoration of Guanghua Island’s name to “Lalu Island”[^15]. The next year, on August 8, 2001, the Thao were officially recognized from among the plains Indigenous peoples as the **10th Indigenous people**. ⚠️ Thao population figures vary by year: the Ministry of the Interior’s Department of Household Registration counted 776 people in 2017, while other statistics put the number at around 885. This article uses “**roughly more than 800 people**”; among Taiwan’s 16 Indigenous peoples, the Thao are the third-smallest by population[^16].
@@ -194,7 +211,7 @@ In 2015, the Water Resources Agency’s Fourth River Management Office completed
 
 In 2016, after the five legal Lushan Hot Spring businesses received NT$700 million in compensation, they formally closed, and Lushan Hot Spring disappeared from Taiwan’s tourism map. ⚠️ Timing of relocation and closure: **relocation demolition began in 2015, and businesses fully closed in 2016**. A hot spring tourism area with more than 80 years of history took 17 years from 921 to complete the process of disappearance.
 
-When Public Television Service’s *Our Island* reported on Lushan, it used one sentence: “**Water brings wealth, and it also brings disaster. Lushan had limitless business opportunities because of hot spring water, and unpredictable danger because of the floods of the Tarowan River.**”[^22]
+When Public Television Service’s _Our Island_ reported on Lushan, it used one sentence: “**Water brings wealth, and it also brings disaster. Lushan had limitless business opportunities because of hot spring water, and unpredictable danger because of the floods of the Tarowan River.**”[^22]
 
 ## Three Ethnic Names Grew Back over 26 Years
 
@@ -269,7 +286,7 @@ Licenses: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) / [CC 
 
 [^11]: [Return and Burial of Mona Rudao’s Remains: 1973 NTU Letter by Li Yih-yuan — Storm Media](https://www.storm.mg/lifestyle/4093871) — Storm Media historical report. Original text from the 1973 letter by Li Yih-yuan, acting chair of National Taiwan University’s Department of Archaeology and Anthropology, to the university president: “The remains of this martyr should not be kept in a research institution; they should in fact be returned for burial in his homeland,” plus the full historical record of his burial using Han rituals, including wreaths, mourning hall, and music, behind the Wushe Indigenous Anti-Japanese Monument across from Ren’ai Elementary School in Nantou.
 
-[^12]: [Warriors of the Rainbow: Seediq Bale — Wikipedia](https://zh.wikipedia.org/wiki/%E8%B3%BD%E5%BE%B7%E5%85%8B%C2%B7%E5%B7%B4%E8%90%8A) — Wei Te-sheng’s 2011 film. Complete production and release record: Part I, *The Sun Flag*, premiered on September 9, 2011; Part II, *The Rainbow Bridge*, premiered on September 30, 2011; global box office of NT$880 million, including NT$810 million in Taiwan; and official competition selection at the Venice Film Festival.
+[^12]: [Warriors of the Rainbow: Seediq Bale — Wikipedia](https://zh.wikipedia.org/wiki/%E8%B3%BD%E5%BE%B7%E5%85%8B%C2%B7%E5%B7%B4%E8%90%8A) — Wei Te-sheng’s 2011 film. Complete production and release record: Part I, _The Sun Flag_, premiered on September 9, 2011; Part II, _The Rainbow Bridge_, premiered on September 30, 2011; global box office of NT$880 million, including NT$810 million in Taiwan; and official competition selection at the Venice Film Festival.
 
 [^13]: [Sun Moon Lake Hydroelectric Project — StoryStudio](https://storystudio.tw/article/gushi/the-development-of-taiwan-modernized-power-plant) — StoryStudio historical feature. Complete engineering history: establishment of Taiwan Power Company in 1919, suspension after the 1923 Great Kanto Earthquake, resumption in 1931, completion of Sun Moon Lake First Power Plant on June 3, 1934 with generating capacity of 143,500 kilowatts, “at the time the largest hydroelectric facility in Asia and the seventh-largest in the world,” Wujie Dam specifications of 57.6 meters high, 90.91 meters long, and six gates, and Sun Moon Lake’s water level rising by 18.18 meters.
 
@@ -289,7 +306,7 @@ Licenses: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) / [CC 
 
 [^21]: [Post-921 Building Regulation Revisions — Construction and Planning Agency, Ministry of the Interior](https://www.cpami.gov.tw/) — Official record of regulatory revisions by the Construction and Planning Agency, Ministry of the Interior. Complete regulatory change record after 921: in 2003, the Building Technical Regulations were amended, seismic resistance coefficients were raised from roughly level 3-4 to level 5-6, ductile design of walls, columns, and beams was strengthened, and “only houses that obtained building permits in 2003 or later comply with the new regulations” became a dividing line for building age in Taiwan’s real estate market.
 
-[^22]: [Lushan Hot Spring Relocation — PTS Our Island](https://ourisland.pts.org.tw/content/10272) — Public Television Service’s *Our Island* feature on Lushan Hot Spring. Japanese-period Fuji Hot Spring / Hatozawa Hot Spring, Tarowan River valley, elevation above 400 meters, neutral sodium bicarbonate springs, water temperature 58-98 degrees Celsius, and original text: “Water brings wealth, and it also brings disaster. Lushan had limitless business opportunities because of hot spring water, and unpredictable danger because of the floods of the Tarowan River.” Includes full chronology: 1999 921 earthquake, 2001 Typhoon Toraji, 2008 Typhoon Sinlaku, 2010 Typhoon Songda, 2011 collective relocation decision, 2015 demolition of 3.63 hectares within the river area line, and 2016 business closures after operators received NT$700 million in compensation.
+[^22]: [Lushan Hot Spring Relocation — PTS Our Island](https://ourisland.pts.org.tw/content/10272) — Public Television Service’s _Our Island_ feature on Lushan Hot Spring. Japanese-period Fuji Hot Spring / Hatozawa Hot Spring, Tarowan River valley, elevation above 400 meters, neutral sodium bicarbonate springs, water temperature 58-98 degrees Celsius, and original text: “Water brings wealth, and it also brings disaster. Lushan had limitless business opportunities because of hot spring water, and unpredictable danger because of the floods of the Tarowan River.” Includes full chronology: 1999 921 earthquake, 2001 Typhoon Toraji, 2008 Typhoon Sinlaku, 2010 Typhoon Songda, 2011 collective relocation decision, 2015 demolition of 3.63 hectares within the river area line, and 2016 business closures after operators received NT$700 million in compensation.
 
 [^23]: [Seediq Name Recognition — PTS News](https://news.pts.org.tw/article/83194) — PTS News 2008 report on official recognition. Original text: “On April 23, 2008, the Seediq became an Indigenous people recognized by the government of the Republic of China, becoming the 14th Indigenous people.” Includes the full context of the three language groups, Seediq Tgdaya, Sediq Toda, and Sejiq Truku; the earlier recognition of the Truku as the 12th people on January 14, 2004; and the completion of recognition for the western Seediq in 2008.
 

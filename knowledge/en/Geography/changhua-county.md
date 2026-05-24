@@ -2,19 +2,32 @@
 title: "Changhua County: The Agricultural Giant That Beat Dupont but Can't Keep Its Young People"
 description: "In 1709, Shi Shibang channeled water from the Zhuoshui River to create Taiwan's first large-scale irrigation system — 211 years before Hatta Yoichi's Chianan Canal. In 1723, the first year of the Yongzheng era, the county was carved out from Zhuluo County, bounded by the Huwei River to the north and the Dajia River to the south — this was the origin of Changhua's establishment. In 1786, Lin Shuangwen's forces besieged Changhua city, but Lukang held. In 1788, the Qianlong Emperor ordered the construction of an official-funded Mazu temple (Xinzu Gong) in Lukang. In 1922, the Changhua Roundhouse opened. In 1986, Lukang residents drove out American firm Dupont — Taiwan's first environmental movement. In April 2026, Changhua County's population stood at 1,206,458, falling below the threshold for special municipality upgrade."
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["彰化", "彰化縣", "中部", "鹿港", "八堡圳", "一府二鹿三艋舺", "反杜邦", "八卦山", "田尾公路花園", "扇形車庫", "22縣市系列"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    '彰化',
+    '彰化縣',
+    '中部',
+    '鹿港',
+    '八堡圳',
+    '一府二鹿三艋舺',
+    '反杜邦',
+    '八卦山',
+    '田尾公路花園',
+    '扇形車庫',
+    '22縣市系列',
+  ]
 readingTime: 16
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: Geography/彰化縣.md
-sourceCommitSha: efbf0dd4b
-sourceContentHash: sha256:291da96ae7fc7029
-sourceBodyHash: sha256:438c10edf8c6c82d
-translatedAt: 2026-05-18T05:08:07+08:00
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:2418fab30b49dbb0'
+sourceBodyHash: 'sha256:eb6f2e50b64121b7'
+translatedAt: '2026-05-24T22:33:51Z'
 ---
 
 # Changhua County: The Agricultural Giant That Beat Dupont but Can't Keep Its Young People
@@ -64,9 +77,9 @@ Spanning the Changhua-Nantou border, the Babao Canal is a shared heritage of bot
 
 ## After "One Prefecture, Two Lukang, Three Mengjia"
 
-The year after the county was established (1724), a port emerged from the maps in the *Zhuluo County Gazetteer*: Lukang.
+The year after the county was established (1724), a port emerged from the maps in the _Zhuluo County Gazetteer_: Lukang.
 
-The *Zhuluo County Gazetteer*, completed in 1717 (Kangxi 56), is the earliest recorded map appearance of Lukang. In 1728 (Yongzheng 6), the Lukang Township Office website records: "In the 6th year of Yongzheng, Changhua County established granaries and a school on the west side of Lukang's Rice Market Street, with a plaque reading: 'Heaven's Granary, the Official Provision' (recorded in the Daoguang-era Changhua County Gazetteer, totaling 16 granaries and school rooms)"[^11]. Lukang's 16 rice granaries — the port's Rice Market Street took shape from here.
+The _Zhuluo County Gazetteer_, completed in 1717 (Kangxi 56), is the earliest recorded map appearance of Lukang. In 1728 (Yongzheng 6), the Lukang Township Office website records: "In the 6th year of Yongzheng, Changhua County established granaries and a school on the west side of Lukang's Rice Market Street, with a plaque reading: 'Heaven's Granary, the Official Provision' (recorded in the Daoguang-era Changhua County Gazetteer, totaling 16 granaries and school rooms)"[^11]. Lukang's 16 rice granaries — the port's Rice Market Street took shape from here.
 
 The real turning point came in 1784. Wikipedia's original text: "**Its rise was triggered by the Qing government in 1874, following the model of Lu'ehmen and Xiamen, establishing a specialist administration to open trade between 'Hankou River mouth under Jinjiang County, Fujian Quanzhou Prefecture' and 'Lukang, Changhua County, Taiwan Prefecture.' After this, merchant guilds gathered and commerce flourished, rapidly becoming the largest port in central Taiwan.**"[^12] During Lukang's heyday from the Qianlong to Daoguang reigns, the "Eight Guilds" trading houses and 300 merchant ships traveled back and forth, and Lin Zhensheng of Lukang's Rimao Hang was the wealthiest merchant in the entire port. The saying "One Prefecture, Two Lukang, Three Mengjia" (Tainan Prefecture, Lukang, Mengjia/Bangka) was Taiwan's commercial map from the late 18th to early 19th century.
 
@@ -83,11 +96,11 @@ Then Lukang began to decline. Three blows came in succession.
 
 The first was harbor silting. Wikipedia's original text: "**Lukang's port advantage gradually declined due to sedimentation. After the mid-Jiaqing reign, merchant ships gradually shifted to the southern Wanggong Port.**"[^12] The second was the trunk railway. When the Taiwan Trunk Railway was completed in 1908, the route passed through Changhua City but not through Lukang. The Lukang Kids website writes: "**During the Japanese colonial period, Lukang had a low administrative level (it was then Lukang 'Street,' a basic unit in the administrative hierarchy), and major public transportation systems such as Provincial Highway 1 and the trunk railway did not pass through.**"[^15] The third was the 1934 Japanese colonial port consolidation strategy: the Japanese concentrated port operations in Keelung and Kaohsiung, and Lukang's port functions were eliminated.
 
-> **✦** "**Lukang later declined from its peak. The main reasons were harbor siltation making berthing difficult, plus the trunk highway and railway did not pass through, making transportation inconvenient.**" (*Taiwan Panorama*, "Lukang"[^16])
+> **✦** "**Lukang later declined from its peak. The main reasons were harbor siltation making berthing difficult, plus the trunk highway and railway did not pass through, making transportation inconvenient.**" (_Taiwan Panorama_, "Lukang"[^16])
 
 The "Two Lukang" era of "One Prefecture, Two Lukang, Three Mengjia" ended by the mid-19th century. Lukang's most prosperous period lasted only about 70 years.
 
-![Lukang Old Street alleys. The Touching Breast Lane (formally "Gentleman's Lane") at its narrowest is 70 cm; the curved design of Nine Turns Lane blocks the northeast monsoon; the Half-Side Well (No. 12, Yaolin Street) embodies the spirit of neighborhood goodwill — these 200-year-old urban textures remain in place.](https://upload.wikimedia.org/wikipedia/commons/d/da/%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97%E5%B0%8F%E5%B7%B707.jpg)
+![Lukang Old Street alleys. The Touching Breast Lane (formally "Gentleman's Lane") at its narrowest is 70 cm; the curved design of Nine Turns Lane blocks the northeast monsoon; the Half-Side Well (No. 12, Yaolin Street) embodies the spirit of neighborhood goodwill — these 200-year-old urban textures remain in place.](/article-images/geography/changhua-02.jpg)
 _Lukang Old Street alleys. Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97%E5%B0%8F%E5%B7%B707.jpg)._
 
 ## 1986: Lukang Said "No"
@@ -112,11 +125,11 @@ This small town that defeated a foreign corporation is now using the same indust
 
 If you want to see how a city handles its industrial heritage, go to the Changhua Roundhouse.
 
-*The Reporter*'s in-depth coverage records: "**The Changhua Roundhouse, which opened in October 1922, has officially entered its centennial year.**"[^20] During the Japanese colonial period, the roundhouse was a steam locomotive turning center: 12 rail tracks arranged in a semicircular radial pattern, with an 18-meter-diameter turntable at the center. Trains would come in, be turned on the turntable, then directed to various tracks for maintenance or resupply. Each track's roof had smoke exhaust pipes, because steam locomotive smoke had to vent upward.
+_The Reporter_'s in-depth coverage records: "**The Changhua Roundhouse, which opened in October 1922, has officially entered its centennial year.**"[^20] During the Japanese colonial period, the roundhouse was a steam locomotive turning center: 12 rail tracks arranged in a semicircular radial pattern, with an 18-meter-diameter turntable at the center. Trains would come in, be turned on the turntable, then directed to various tracks for maintenance or resupply. Each track's roof had smoke exhaust pipes, because steam locomotive smoke had to vent upward.
 
 After the war, Taiwan had six roundhouses (Keelung, Taipei, Hsinchu, Chiayi, Changhua, Kaohsiung). The other five were demolished and rebuilt as modern roundhouses during the 1990s. Changhua's is the only one that survived.
 
-Survival was the result of activism. *The Reporter* records: "**Twenty-seven years ago, together with a group of partners concerned about railway cultural assets, watching Chiayi's roundhouse be demolished... unwilling to let the roundhouse and turntable be demolished and rebuilt into a modern roundhouse, they launched a roundhouse preservation campaign, and finally in 2000 the Changhua Roundhouse was designated a county-level historic site.**"[^20] On August 1, 2022, the Ministry of Culture announced its upgrade to a **national historic site**.
+Survival was the result of activism. _The Reporter_ records: "**Twenty-seven years ago, together with a group of partners concerned about railway cultural assets, watching Chiayi's roundhouse be demolished... unwilling to let the roundhouse and turntable be demolished and rebuilt into a modern roundhouse, they launched a roundhouse preservation campaign, and finally in 2000 the Changhua Roundhouse was designated a county-level historic site.**"[^20] On August 1, 2022, the Ministry of Culture announced its upgrade to a **national historic site**.
 
 ![Changhua Roundhouse, opened in 1922, 12 rail tracks in a semicircular radial arrangement. The only surviving roundhouse in Taiwan.](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Changhua_Roundhouse_07.jpg/1280px-Changhua_Roundhouse_07.jpg)
 _Changhua Roundhouse. Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:Changhua_Roundhouse_07.jpg)._
@@ -143,9 +156,9 @@ Post-war Changhua did something distinctive. It built a giant Buddha on top of B
 
 The year was 1956. The first Changhua County magistrate, Chen Xi-qing, initiated the construction of "the largest Buddha in the Far East." The 1958 August 7 Flood interrupted construction, and the project was completed in 1961[^22]. The Buddha stands 22 meters (7.2 zhang) tall, with a lotus seat 14 meters in diameter, reinforced concrete, designed by Lin Qing-yao. The interior is divided into six levels that visitors can walk through.
 
-The *China Times* reported: "**After the Great Buddha was completed in 1961**," local residents developed a saying: "**Changhua 'has wind but no typhoons, has rain but no disasters,' all believed to be the Buddha's blessing.**"[^22]
+The _China Times_ reported: "**After the Great Buddha was completed in 1961**," local residents developed a saying: "**Changhua 'has wind but no typhoons, has rain but no disasters,' all believed to be the Buddha's blessing.**"[^22]
 
-![Bagua Mountain Great Buddha, completed in 1961, 22 meters tall, reinforced concrete, designed by Lin Qing-yao. The interior is divided into six levels accessible to visitors.](https://upload.wikimedia.org/wikipedia/commons/0/0a/%E5%BD%B0%E5%8C%96%E5%85%AB%E5%8D%A6%E5%B1%B1%E5%A4%A7%E4%BD%9B31.jpg)
+![Bagua Mountain Great Buddha, completed in 1961, 22 meters tall, reinforced concrete, designed by Lin Qing-yao. The interior is divided into six levels accessible to visitors.](/article-images/geography/changhua-04.jpg)
 _Bagua Mountain Great Buddha. Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BD%B0%E5%8C%96%E5%85%AB%E5%8D%A6%E5%B1%B1%E5%A4%A7%E4%BD%9B31.jpg)._
 
 A 22-meter concrete Bodhisattva, alongside the 1786 wooden-carved Bodhisattva of Lukang Longshan Temple, the 1788 officially funded Mazu of Xinzu Gong, and the Tudigong shrines beside Tianwei's chrysanthemum fields — the objects of faith within Changhua's borders, from the Qing dynasty to the post-war period, do not continue along a single timeline. Each is a concrete answer from its era to the question "what kind of power do we need protection from?"
@@ -183,7 +196,7 @@ Return to the opening scene.
 
 The chrysanthemum fields of Tianwei light up again. Hectare after hectare of artificial lighting turns the entire plain into a sleepless city. The evening rush hour in Taichung's industrial zones, 150 kilometers away, is gridlocked. Yuanlin Station is still selling chicken leg bentos. Lukang Old Street closes at 9:30 p.m. The turntable at the Roundhouse will still be turning diesel locomotives tomorrow.
 
-Xie Bing-ying wrote about the meaning of rain for Keelung people in *Rain Harbor Keelung*. For Keelung people, rain is part of the body. Changhua people's relationship with "water" is different — water is the lifeblood of agriculture, the legend of the Babao Canal in 1709, the 21,400 hectares of irrigation from the Zhuoshui River, the drip irrigation systems in Tianwei's chrysanthemum fields at night. Without water, there is no Changhua the agricultural giant.
+Xie Bing-ying wrote about the meaning of rain for Keelung people in _Rain Harbor Keelung_. For Keelung people, rain is part of the body. Changhua people's relationship with "water" is different — water is the lifeblood of agriculture, the legend of the Babao Canal in 1709, the 21,400 hectares of irrigation from the Zhuoshui River, the drip irrigation systems in Tianwei's chrysanthemum fields at night. Without water, there is no Changhua the agricultural giant.
 
 This county's relationship with the nation depends on where you look. From Taipei, Changhua is a collection of three tourist buzzwords: "Lukang Old Street," "Bagua Mountain Great Buddha," and "Yuanlin chicken leg bento." From Taichung, Changhua is "spillover residential area" plus "source of cheap labor." From the perspective of Lukang's people in 1986, Changhua is "a place where we can say 'No.'" From the perspective of the 2026 figure of 1.206 million — about to drop below 1.2 million — Changhua is "**a place that had a county seat in 1723 and in 2026 is still learning how to keep its people.**"
 
@@ -216,7 +229,7 @@ The hero image (frontmatter) uses [Outlookxp](https://commons.wikimedia.org/wiki
 
 [^3]: [Changhua County Chronicle of Establishment](https://www.chcg.gov.tw/ch2/abouts-build-city-story.aspx) — Changhua County Government official historical record, including the 1723 Yongzheng first year "bounded by the Huwei River to the north and the Dajia River to the south" county establishment verbatim + "manifest civilized transformation" and "great flourishing transformation at the edges of the sea" naming origins.
 
-[^4]: [Changhua County (Qing Dynasty) — Wikipedia](https://zh.wikipedia.org/zh-tw/%E5%BD%B0%E5%8C%96%E7%B8%A3_(%E6%B8%85%E6%9C%9D)) — Complete administrative evolution of Changhua County carved out from Zhuluo County in 1723 Yongzheng first year, "carving out the land north of the old Huwei River and south of the Dajia River."
+[^4]: [Changhua County (Qing Dynasty) — Wikipedia](<https://zh.wikipedia.org/zh-tw/%E5%BD%B0%E5%8C%96%E7%B8%A3_(%E6%B8%85%E6%9C%9D)>) — Complete administrative evolution of Changhua County carved out from Zhuluo County in 1723 Yongzheng first year, "carving out the land north of the old Huwei River and south of the Dajia River."
 
 [^5]: [Changhua County Plains Indigenous Peoples History](https://www.chcg.gov.tw/) — Babuza tribe Banxian community, Mazilin community, Dongluo community and other tribal distributions; Hoanya tribe inland community distribution complete tribal map.
 

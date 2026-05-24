@@ -1,20 +1,33 @@
 ---
-title: "Condado de Changhua: el gran condado agrícola que venció a DuPont pero no logra retener a los jóvenes"
-description: "En 1709, Shi Shibang canalizó las aguas del río Zhuoshui para crear el primer sistema de irrigación a gran escala de Taiwán, 211 años antes que el sistema de Chianan de Hatta Yoichi. En 1723, primer año del reinado de Yongzheng, se separó del condado de Zhuluo, cortando al sur por Huwei y llegando al norte a Dajia: este fue el inicio de la fundación de Changhua. En 1786, las fuerzas de Lin Shuangwen sitiaron la ciudad de Changhua, pero Lukang no cayó. En 1788, Qianlong ordenó la construcción oficial del templo Tianhou (Xinzu Gong) en Lukang. En 1922 se inauguró el depósito de locomotoras en abanico. En 1986, los residentes de Lukang expulsaron a la empresa estadounidense DuPont: el primer movimiento ambientalista de Taiwán. En abril de 2026, la población del condado de Changhua era de 1.206.458 personas, cayendo por debajo del umbral para convertirse en municipio especial."
+title: 'Condado de Changhua: el gran condado agrícola que venció a DuPont pero no logra retener a los jóvenes'
+description: 'En 1709, Shi Shibang canalizó las aguas del río Zhuoshui para crear el primer sistema de irrigación a gran escala de Taiwán, 211 años antes que el sistema de Chianan de Hatta Yoichi. En 1723, primer año del reinado de Yongzheng, se separó del condado de Zhuluo, cortando al sur por Huwei y llegando al norte a Dajia: este fue el inicio de la fundación de Changhua. En 1786, las fuerzas de Lin Shuangwen sitiaron la ciudad de Changhua, pero Lukang no cayó. En 1788, Qianlong ordenó la construcción oficial del templo Tianhou (Xinzu Gong) en Lukang. En 1922 se inauguró el depósito de locomotoras en abanico. En 1986, los residentes de Lukang expulsaron a la empresa estadounidense DuPont: el primer movimiento ambientalista de Taiwán. En abril de 2026, la población del condado de Changhua era de 1.206.458 personas, cayendo por debajo del umbral para convertirse en municipio especial.'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["彰化", "彰化縣", "中部", "鹿港", "八堡圳", "一府二鹿三艋舺", "反杜邦", "八卦山", "田尾公路花園", "扇形車庫", "22縣市系列"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    '彰化',
+    '彰化縣',
+    '中部',
+    '鹿港',
+    '八堡圳',
+    '一府二鹿三艋舺',
+    '反杜邦',
+    '八卦山',
+    '田尾公路花園',
+    '扇形車庫',
+    '22縣市系列',
+  ]
 readingTime: 16
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/彰化縣.md"
-sourceCommitSha: "efbf0dd4b"
-sourceContentHash: "sha256:291da96ae7fc7029"
-sourceBodyHash: "sha256:438c10edf8c6c82d"
-translatedAt: "2026-05-18T05:08:09+08:00"
+translatedFrom: 'Geography/彰化縣.md'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:2418fab30b49dbb0'
+sourceBodyHash: 'sha256:eb6f2e50b64121b7'
+translatedAt: '2026-05-25T06:30:00+08:00'
 ---
 
 # Condado de Changhua: el gran condado agrícola que venció a DuPont pero no logra retener a los jóvenes
@@ -66,7 +79,7 @@ El canal Baobang, que cruza la frontera entre los condados de Nantou y Changhua,
 
 Al año siguiente de la fundación del condado (1724), un puerto emergió del mapa del gazetteer del condado de Zhuluo: Lukang.
 
-El *Gazetteer del condado de Zhuluo*, completado en 1717 (año 56 de Kangxi), es el registro más antiguo de la aparición de Lukang en un mapa. En 1728 (año 6 de Yongzheng), el sitio web del municipio de Lukang registra: "**En el sexto año de Yongzheng, el condado de Changhua estableció graneros oficiales en el lado oeste de la calle del mercado de arroz de Lukang, con una placa en la puerta que decía: 'Tributo legítimo del granero celestial' (el gazetteer del condado de Changhua de la era Daoguang documenta este hecho, contabilizando dieciséis graneros oficiales).**"[^11] Los dieciséi graneros de arroz de Lukang configuraron a partir de entonces la calle del mercado de arroz de este puerto.
+El _Gazetteer del condado de Zhuluo_, completado en 1717 (año 56 de Kangxi), es el registro más antiguo de la aparición de Lukang en un mapa. En 1728 (año 6 de Yongzheng), el sitio web del municipio de Lukang registra: "**En el sexto año de Yongzheng, el condado de Changhua estableció graneros oficiales en el lado oeste de la calle del mercado de arroz de Lukang, con una placa en la puerta que decía: 'Tributo legítimo del granero celestial' (el gazetteer del condado de Changhua de la era Daoguang documenta este hecho, contabilizando dieciséis graneros oficiales).**"[^11] Los dieciséi graneros de arroz de Lukang configuraron a partir de entonces la calle del mercado de arroz de este puerto.
 
 El verdadero punto de inflexión llegó en 1784. Wikipedia registra textualmente: "**Su desarrollo se debe a que en 1784 el gobierno Qing, siguiendo el modelo de Luermen y Xiamen, estableció funcionarios especializados para administrar la apertura del 'puerto de Hanjiang, prefectura de Jinjiang, provincia de Fujian' y el 'puerto de Lukang, condado de Changhua, prefectura de Taiwán' al comercio mutuo. A partir de entonces, las asociaciones comerciales se congregaron, la actividad mercantil prosperó, y rápidamente se convirtió en el mayor puerto del centro de Taiwán.**"[^2] Durante el apogeo de Lukang entre los reinados de Qianlong y Daoguang, las "ocho asociaciones" comerciales y 300 barcos mercantes navegaban de ida y vuelta, y Lin Zhensong de la firma Rimaoxing de Lukang era el comerciante más rico del puerto. La expresión "una prefectura, dos Lukang, tres Mengjia" es el mapa comercial de Taiwán entre finales del siglo XVIII y principios del XIX.
 
@@ -83,11 +96,11 @@ Luego Lukang comenzó a declinar. Tres golpes llegaron sucesivamente.
 
 El primero fue la sedimentación del puerto. Wikipedia registra textualmente: "**La ventaja portuaria de Lukang decayó gradualmente debido a la sedimentación de arena y lodo. A mediados del reinado de Jiaqing, los barcos mercantes ya habían comenzado a desviarse hacia el puerto de Wanggong, al sur.**"[^12] El segundo fue el ferrocarril transinsular. Cuando se completó el ferrocarril transinsular en 1908, la línea pasaba por la ciudad de Changhua pero no por Lukang. El sitio web de Lukang Kids escribe: "**El Lukang del período colonial japonés, debido a su bajo nivel administrativo (en aquella época era la 'calle' de Lukang, perteneciente al nivel más bajo de la división administrativa), y a que los principales sistemas de transporte público como la carretera provincial 1 y el sistema del ferrocarril transinsular no pasaban por allí.**"[^15] El tercero fue la estrategia de reducción portuera del Japón colonial en 1934: los japoneses concentraron las operaciones portuarias en Keelung y Kaohsiung, y se canceló la función portuaria de Lukang.
 
-> **✦** "**Posteriormente, Lukang decayó tras su apogeo, y las principales razones de su declive fueron la sedimentación del puerto, que dificultaba el fondeo de barcos, sumado a que las carreteras y el ferrocarril transinsular no pasaban por allí, lo que generaba inconvenientes de transporte.**" (*Taiwan Panorama*, "Lukang"[^16])
+> **✦** "**Posteriormente, Lukang decayó tras su apogeo, y las principales razones de su declive fueron la sedimentación del puerto, que dificultaba el fondeo de barcos, sumado a que las carreteras y el ferrocarril transinsular no pasaban por allí, lo que generaba inconvenientes de transporte.**" (_Taiwan Panorama_, "Lukang"[^16])
 
 La era de "dos Lukang" en "una prefectura, dos Lukang, tres Mengjia" terminó a mediados del siglo XIX. El período más próspero de Lukang duró apenas 70 años.
 
-![Callejones del casco antiguo de Lukang. El "callejón del abrazo" (nombre oficial: "callejón del caballero"), con su punto más estrecho de 70 centímetros; el diseño sinuoso del "callejón de las nueve curvas" para proteger del viento monzónico del noreste; el "pozo de medio lado" (calle Yaolin n.º 12) como expresión de buena vecindad: estas texturas urbanas de 200 años siguen en su lugar.](https://upload.wikimedia.org/wikipedia/commons/d/da/%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97%E5%B0%8F%E5%B7%B707.jpg)
+![Callejones del casco antiguo de Lukang. El "callejón del abrazo" (nombre oficial: "callejón del caballero"), con su punto más estrecho de 70 centímetros; el diseño sinuoso del "callejón de las nueve curvas" para proteger del viento monzónico del noreste; el "pozo de medio lado" (calle Yaolin n.º 12) como expresión de buena vecindad: estas texturas urbanas de 200 años siguen en su lugar.](/article-images/geography/changhua-02.jpg)
 _Callejones del casco antiguo de Lukang. Foto: colaborador de Wikimedia Commons, [CC BY-SA vía Wikimedia](https://commons.wikimedia.org/wiki/File:%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97%E5%B0%8F%E5%B7%B707.jpg)._
 
 ## En 1986, Lukang dijo "no"
@@ -112,11 +125,11 @@ Este pequeño pueblo que venció a la multinacional DuPont ahora utiliza la mism
 
 Si quieres ver cómo una ciudad trata su patrimonio industrial, ve al depósito de locomotoras en abanico de Changhua.
 
-Un reportaje en profundidad de *The Reporter*, de la misma serie que "130 años de la construcción del puerto de Keelung", registra: "**El depósito de locomotoras en abanico de Changhua, inaugurado en octubre de 1922, ha entrado oficialmente en su centenario**"[^20]. El depósito en abanico de la era colonial japonesa era el centro de giro de las locomotoras de vapor: 12 vías dispuestas en un arco semicircular radial, con una placa giratoria de 18 metros de diámetro en el centro; las locomotoras entraban, giraban sobre la placa y se distribuían a las distintas vías para inspección o suministro. El techo de cada vía tenía conductos de escape de humo de carbón, ya que el humo de las locomotoras de vapor debía salir hacia arriba.
+Un reportaje en profundidad de _The Reporter_, de la misma serie que "130 años de la construcción del puerto de Keelung", registra: "**El depósito de locomotoras en abanico de Changhua, inaugurado en octubre de 1922, ha entrado oficialmente en su centenario**"[^20]. El depósito en abanico de la era colonial japonesa era el centro de giro de las locomotoras de vapor: 12 vías dispuestas en un arco semicircular radial, con una placa giratoria de 18 metros de diámetro en el centro; las locomotoras entraban, giraban sobre la placa y se distribuían a las distintas vías para inspección o suministro. El techo de cada vía tenía conductos de escape de humo de carbón, ya que el humo de las locomotoras de vapor debía salir hacia arriba.
 
 Tras la guerra, Taiwán tenía seis depósitos en abanico (Keelung, Taipéi, Hsinchu, Chiayi, Changhua, Kaohsiung); los otros cinco fueron demolidos sucesivamente en la década de 1990 y reconstruidos como depósitos modernos. Changhua es el único que sobrevivió.
 
-La razón de la supervivencia fue la lucha. *The Reporter* registra: "**Hace 27 años, junto con un grupo de compañeros preocupados por el patrimonio cultural ferroviario, viendo cómo se demolía el depósito en abanico de Chiayi... quienes no soportaban que el depósito en abanico y la placa giratoria fueran demolidos y reconstruidos como depósito moderno, juntos lanzaron un movimiento de preservación del depósito, y finalmente el depósito en abanico de Changhua fue designado monumento histórico a nivel de condado en el año 2000.**"[^20] El 1 de agosto de 2022, el Ministerio de Cultura anunció su elevación a **monumento histórico de nivel nacional**.
+La razón de la supervivencia fue la lucha. _The Reporter_ registra: "**Hace 27 años, junto con un grupo de compañeros preocupados por el patrimonio cultural ferroviario, viendo cómo se demolía el depósito en abanico de Chiayi... quienes no soportaban que el depósito en abanico y la placa giratoria fueran demolidos y reconstruidos como depósito moderno, juntos lanzaron un movimiento de preservación del depósito, y finalmente el depósito en abanico de Changhua fue designado monumento histórico a nivel de condado en el año 2000.**"[^20] El 1 de agosto de 2022, el Ministerio de Cultura anunció su elevación a **monumento histórico de nivel nacional**.
 
 ![Depósito de locomotoras en abanico de Changhua, inaugurado en 1922, con 12 vías dispuestas en semicírculo radial. El único depósito en abanico superviviente de Taiwán.](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Changhua_Roundhouse_07.jpg/1280px-Changhua_Roundhouse_07.jpg)
 _Depósito de locomotoras en abanico de Changhua. Foto: colaborador de Wikimedia Commons, [CC BY-SA vía Wikimedia](https://commons.wikimedia.org/wiki/File:Changhua_Roundhouse_07.jpg)._
@@ -143,9 +156,9 @@ La posguerra en Changhua hizo algo especial: construyó un gran Buda en la cima 
 
 La fecha fue 1956. El primer magistrado del condado de Changhua, Chen Xiqing, impulsó la construcción de la "estatua de Buda más grande del Lejano Oriente"; la obra fue interrumpida por la inundación del 7 de agosto de 1958 y se completó en 1961[^22]. La estatua mide 22 metros de altura (dos zhang y dos chi), con un diámetro de 14 metros en el pedestal de loto, de hormigón armado, diseñada por Lin Qingyao. El interior de la estatua está dividido en 6 niveles, por los que se puede entrar a visitar.
 
-Un reportaje del *China Times* registra: "**Tras la finalización del Gran Buda en 1961**", los residentes locales desarrollaron una creencia: "**Changhua 'tiene viento pero no tifones, tiene lluvia pero no desastres', y todos creen firmemente que es la bendición del Gran Buda**"[^22].
+Un reportaje del _China Times_ registra: "**Tras la finalización del Gran Buda en 1961**", los residentes locales desarrollaron una creencia: "**Changhua 'tiene viento pero no tifones, tiene lluvia pero no desastres', y todos creen firmemente que es la bendición del Gran Buda**"[^22].
 
-![Gran Buda de la montaña Baguashan, completado en 1961, 22 metros de altura, hormigón armado, diseñado por Lin Qingyao. El interior de la estatua está dividido en 6 niveles accesibles al público.](https://upload.wikimedia.org/wikipedia/commons/0/0a/%E5%BD%B0%E5%8C%96%E5%85%AB%E5%8D%A6%E5%B1%B1%E5%A4%A7%E4%BD%9B31.jpg)
+![Gran Buda de la montaña Baguashan, completado en 1961, 22 metros de altura, hormigón armado, diseñado por Lin Qingyao. El interior de la estatua está dividido en 6 niveles accesibles al público.](/article-images/geography/changhua-04.jpg)
 _Gran Buda de la montaña Baguashan. Foto: colaborador de Wikimedia Commons, [CC BY-SA vía Wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BD%B0%E5%8C%96%E5%85%AB%E5%8D%A6%E5%B1%B1%E5%A4%A7%E4%BD%9B31.jpg)._
 
 Un Bodhisattva de hormigón de 22 metros, junto con el Bodhisattva de madera tallada del Templo Longshan de Lukang de 1786, la Mazu financiada por la corte imperial de Xinzu Gong de 1788, y el templo del dios de la tierra junto a los campos de crisantemos de Tianwei: los objetos de fe dentro del condado de Changhua, desde la era Qing hasta la posguerra, no siguen una misma línea temporal. Cada uno es la respuesta concreta de la gente de su época a la pregunta "¿con qué tipo de fuerza necesitamos ser protegidos?".
@@ -183,7 +196,7 @@ Volvamos a la imagen inicial.
 
 Los campos de crisantemos de Tianwei se iluminan de nuevo. Hectárea tras hectárea de iluminación artificial que convierte toda la llanura en una ciudad que nunca duerme. A 150 kilómetros de distancia, la hora punta de salida de las fábricas del parque industrial de Taichung está atascada; los muslos de pollo al horno de la estación de Yuanlin siguen vendiéndose; el casco antiguo de Lukang cierra a las nueve y media de la noche; la placa giratoria del depósito en abanico seguirá girando mañana para las locomotoras diésel.
 
-Xie Bingying escribió en *Puerto lluvioso de Keelung* sobre el significado de la lluvia para la gente de Keelung. Para la gente de Keelung, la lluvia es parte del cuerpo. La relación de la gente de Changhua con el "agua" es diferente: el agua es la vida de la agricultura, la leyenda del canal Baobang de 1709, las 21.400 hectáreas de irrigación del río Zhuoshui, el sistema de riego por goteo nocturno de los campos de crisantemos de Tianwei. Sin agua, no habría identidad de gran condado agrícola para Changhua.
+Xie Bingying escribió en _Puerto lluvioso de Keelung_ sobre el significado de la lluvia para la gente de Keelung. Para la gente de Keelung, la lluvia es parte del cuerpo. La relación de la gente de Changhua con el "agua" es diferente: el agua es la vida de la agricultura, la leyenda del canal Baobang de 1709, las 21.400 hectáreas de irrigación del río Zhuoshui, el sistema de riego por goteo nocturno de los campos de crisantemos de Tianwei. Sin agua, no habría identidad de gran condado agrícola para Changhua.
 
 La relación de este condado con el país entero depende de dónde lo mires. Desde Taipéi, Changhua es una colección de tres términos turísticos: "casco antiguo de Lukang", "Gran Buda de la montaña Baguashan" y "muslos de pollo al horno de Yuanlin". Desde Taichung, Changhua es "zona residencial desbordada" más "fuente de mano de obra barata". Desde la perspectiva de los habitantes de Lukang en 1986, Changhua es "un lugar donde podemos decir 'no'". Desde la cifra de 1,206 millones de 2026, a punto de caer por debajo de 1,20 millones, Changhua es "**un lugar que ya tenía sede administrativa en 1723 y que en 2026 sigue aprendiendo cómo retener a su gente**".
 
@@ -216,7 +229,7 @@ La imagen hero (frontmatter) utiliza la fotografía [Lukang Longshan Temple in 2
 
 [^3]: [Cronología de la fundación del condado de Changhua](https://www.chcg.gov.tw/ch2/abouts-build-city-story.aspx) — Registro histórico oficial del sitio web del gobierno del condado de Changhua, incluyendo la cita textual de 1723, primer año de Yongzheng, "cortando al sur por Huwei, llegando al norte a Dajia" para establecer el condado, más el significado original del nombre "manifestar la cultura refinada" y "la civilización que florece en los confines del mar".
 
-[^4]: [Condado de Changhua (dinastía Qing) — Wikipedia](https://zh.wikipedia.org/zh-tw/%E5%BD%B0%E5%8C%96%E7%B8%A3_(%E6%B8%85%E6%9C%9D)) — Evolución administrativa completa de la adición del condado de Changhua en 1723, primer año de Yongzheng, "separando las tierras al norte del antiguo río Huwei y al sur del río Dajia" del condado de Zhuluo.
+[^4]: [Condado de Changhua (dinastía Qing) — Wikipedia](<https://zh.wikipedia.org/zh-tw/%E5%BD%B0%E5%8C%96%E7%B8%A3_(%E6%B8%85%E6%9C%9D)>) — Evolución administrativa completa de la adición del condado de Changhua en 1723, primer año de Yongzheng, "separando las tierras al norte del antiguo río Huwei y al sur del río Dajia" del condado de Zhuluo.
 
 [^5]: [Historia de los pueblos pingpu del condado de Changhua](https://www.chcg.gov.tw/) — Mapa completo de distribución de las aldeas del pueblo Babuza (Babuza): aldea Banxian, aldea Mazailin, aldea Dongluo, entre otras; y de las aldeas del pueblo Hoanya (Hoanya) en el interior.
 
@@ -248,7 +261,7 @@ La imagen hero (frontmatter) utiliza la fotografía [Lukang Longshan Temple in 2
 
 [^19]: [Base industrial para la revitalización local en Lukang](https://tkfl.tw/before-placemaking-possible-in-lukang/) — Fuente de la cita textual: "Además de la nostalgia emocional y una base cultural considerablemente sólida, la clave más importante para hablar de revitalización local en Lukang es la base de la 'industria'".
 
-[^20]: [Salvamento del depósito en abanico de Changhua 2.0 — The Reporter](https://www.twreporter.org/a/changhua-roundhouse-the-preservation-of-historic-site) — Reportaje en profundidad de *The Reporter*: "Monumento histórico de nivel nacional reducido bajo el desarrollo de la elevación ferroviaria", incluyendo "inaugurado en octubre de 1922", "monumento histórico a nivel de condado en 2000", "monumento histórico de nivel nacional en 2022", "la plataforma de carbón y agua, el depósito de combustible y el taller de inspección excluidos", y la historia completa de la ingeniería con un coste de 39.950 millones de yuanes para la elevación del ferrocarril de Changhua.
+[^20]: [Salvamento del depósito en abanico de Changhua 2.0 — The Reporter](https://www.twreporter.org/a/changhua-roundhouse-the-preservation-of-historic-site) — Reportaje en profundidad de _The Reporter_: "Monumento histórico de nivel nacional reducido bajo el desarrollo de la elevación ferroviaria", incluyendo "inaugurado en octubre de 1922", "monumento histórico a nivel de condado en 2000", "monumento histórico de nivel nacional en 2022", "la plataforma de carbón y agua, el depósito de combustible y el taller de inspección excluidos", y la historia completa de la ingeniería con un coste de 39.950 millones de yuanes para la elevación del ferrocarril de Changhua.
 
 [^21]: [Incidente de Erlin — Wikipedia](https://zh.wikipedia.org/zh-tw/%E4%BA%8C%E6%9E%97%E4%BA%8B%E4%BB%B6) — Registro completo del incidente: Li Yingzhang fundó la Asociación de Cultivadores de Caña de Azúcar de Erlin en octubre de 1925, la Compañía Azucarera Lin Benyuan cosechó por la fuerza, "en total fueron arrestadas 93 personas", "el total de arrestados superó las 400 personas", y el establecimiento de la Asociación Campesina de Taiwán a nivel de toda la isla en 1926.
 

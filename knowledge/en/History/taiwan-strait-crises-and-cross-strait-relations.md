@@ -1,20 +1,20 @@
 ---
-title: "Taiwan Strait Crises and Cross-Strait Relations"
+title: 'Taiwan Strait Crises and Cross-Strait Relations'
 description: "From a Kinmen grandmother's memories of shelling to the 'Buddha-like' daily life of young people in Taipei, how seven decades of Taiwan Strait crises have shaped the collective psychology of the Taiwanese people"
 date: 2026-03-18
-author: "Taiwan.md"
-category: "History"
-subcategory: "民主與治理"
-tags: ["兩岸關係", "台海危機", "歷史", "國際關係", "地緣政治"]
+author: 'Taiwan.md'
+category: 'History'
+subcategory: '民主與治理'
+tags: ['兩岸關係', '台海危機', '歷史', '國際關係', '地緣政治']
 readingTime: 15
 lastVerified: 2026-03-25
 lastHumanReview: false
 featured: false
 translatedFrom: History/台海危機與兩岸關係發展.md
-sourceCommitSha: 3ec013e64
-sourceContentHash: sha256:f38bdb43bfb655cb
-sourceBodyHash: sha256:be52296ede93d50d
-translatedAt: 2026-05-18T05:08:07+08:00
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:a3193837a2f87e5e'
+sourceBodyHash: 'sha256:f6df2c4e6142bfcd'
+translatedAt: '2026-05-24T22:33:51Z'
 ---
 
 # Taiwan Strait Crises and Cross-Strait Relations
@@ -138,17 +138,26 @@ The shrapnel fragments from those granite tunnels were later collected by Kinmen
 - [台灣國防與軍事現代化](/society/台灣國防與軍事現代化) — From the porcupine strategy to M1A2T tanks, the fundamental transformation of Taiwan's defense logic after three Taiwan Strait crises
 - [台灣邦交國與國際外交](/society/台灣邦交國與國際外交) — Another front beyond military confrontation: how Taiwan searches for a place in the international system
 - [2026 鄭習會：國共領導人十年再會的十分鐘](/society/2026鄭習會與國共十年再會) — The latest chapter in seven decades of cross-strait interaction: the ten minutes when the KMT chairman met Xi Jinping in Beijing
+- [Ma Ying-jeou](/people/馬英九) — The 80-second handshake at the Singapore Ma-Xi meeting on 2015/11/7, the signing of ECFA, and his two visits to China in 2023 and 2024: the leader who presided over the golden period of cross-strait relations and the controversies that followed his term
 - [鄧麗君](/people/鄧麗君) — Another battlefield of Cold War soft power: her voice penetrating the mainland, wearing an "Oppose Military Rule" badge at Happy Valley in 1989, broadcasting to the mainland from Mashan Observation Post in 1991
 - [臺灣前途決議文](/history/臺灣前途決議文) — The 1996 Taiwan Strait crisis accelerated the DPP's pragmatic transformation, and three years later gave birth to this document that defined Taiwan's cross-strait position for twenty-seven years
 
 ## References
 
 [^1]: BBC Chinese (2022), "A Review of Past Crises in the Taiwan Strait," https://www.bbc.com/zhongwen/trad/chinese-news-53834569
+
 [^2]: BBC Chinese (2022), "Pelosi's Visit to Taiwan Observed: Cross-Strait Tensions Rise — Why Aren't Taiwanese People Nervous?" https://www.bbc.com/zhongwen/trad/chinese-news-62402927
+
 [^3]: Wikipedia, "Battle of Yijiangshan Islands," https://zh.wikipedia.org/wiki/%E4%B8%80%E6%B1%9F%E5%B1%B1%E5%B3%B6%E6%88%B0%E5%BD%B9
+
 [^4]: Wikipedia, "Kinmen Artillery War," https://zh.wikipedia.org/wiki/%E9%87%91%E9%96%80%E7%A0%B2%E6%88%B0
+
 [^5]: Wikipedia, "Third Taiwan Strait Crisis," https://en.wikipedia.org/wiki/Third_Taiwan_Strait_Crisis
+
 [^6]: Election Study Center, National Chengchi University, "Trends in Taiwanese/Chinese Identity Among the People of Taiwan," https://esc.nccu.edu.tw/PageDoc/Detail?fid=7800&id=6960
+
 [^7]: CommonWealth Magazine (2022), "1996 Taiwan Strait Crisis Witness Chang Jung-feng," https://www.cw.com.tw/article/5122255
+
 [^8]: CNN (2022), "TSMC Chairman Mark Liu Interview," https://edition.cnn.com/videos/tv/2022/07/31/exp-731-taiwan-tech-mark-liu-tsmc.cnn
-[^9]: Su Chi (2014), *Twenty Years of Cross-Strait Turbulence: A Documentary Account*, Commonwealth Publishing, https://www.books.com.tw/products/0010831375
+
+[^9]: Su Chi (2014), _Twenty Years of Cross-Strait Turbulence: A Documentary Account_, Commonwealth Publishing, https://www.books.com.tw/products/0010831375

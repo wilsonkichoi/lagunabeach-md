@@ -8,26 +8,26 @@ subcategory: '音樂'
 tags: ['音樂', '原住民', '卑南族', '天后', '同志平權', '流行音樂']
 readingTime: 7
 lastVerified: 2026-05-08
-lastHumanReview: false
+lastHumanReview: true
 featured: false
 translatedFrom: 'People/張惠妹.md'
-sourceCommitSha: '4b6d28c54'
-sourceContentHash: 'sha256:eaac08421c155488'
-sourceBodyHash: 'sha256:a58ea4fcb897497f'
-translatedAt: '2026-05-16T05:07:54+08:00'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:ccb03edca388c7b1'
+sourceBodyHash: 'sha256:bd4e3f38e6cd61a0'
+translatedAt: '2026-05-24T22:33:51Z'
 ---
 
 # A-mei: Puyuma Diva, from 1996's _Sisters_ to 2024 Taipei Dome Five Shows
 
 > **30-second overview:** A-mei was born on August 9, 1972, in the Liouguei (大巴六九) community of Beinan Township, Taitung County. A Puyuma singer whose English name is A-mei and whose Puyuma name is Kulilay Amit.[^1] Her 1996 debut album _Sisters_ sold 1.21 million copies in Taiwan and 4 million across Asia, produced by Chang Yu-sheng and incorporating Puyuma traditional vocal elements.[^1] In 2015, her "Utopia" concert series ran 10 consecutive shows at Taipei Arena.[^2] In December 2024, ASMeiR MAXXX at Taipei Dome spanned 5 shows with a production budget of NT$200 million and live hot-air balloon releases.[^3] Career cumulative sales exceed 50 million.[^1]
 
-## August 9, 1972, Liouguei Community, Beinan, Taitung
+## Liouguei Community in Beinan: An Indigenous Singer's Starting Point
 
 A-mei was born on August 9, 1972, in the Liouguei (大巴六九) community of Beinan Township, Taitung County. Her Puyuma name is Kulilay Amit.[^1] She grew up immersed in Puyuma musical traditions; the harmonies of her mother and sisters were her first music lessons.
 
 Coming from a financially struggling family, A-mei and her older sister Chang Huei-chun sang at local restaurants and performance venues in Taitung during their teenage years, helping to support the household with their voices.[^1] Those late-night singing years in Taitung became the most crucial foundation for her explosive stage presence.
 
-In 1996, her debut album _Sisters_ shook the Mandopop world: 1.21 million copies in Taiwan, 4 million across Asia.[^1] She shattered mainstream society's stereotypes of Indigenous singers—Indigenous people were not only bearers of traditional culture but could also stand at the very top of modern popular music.
+In 1996, her debut album _Sisters_ shook the Mandopop world: 1.21 million copies in Taiwan, 4 million across Asia.[^1] She shattered mainstream society's stereotypes of Indigenous singers: Indigenous people were not only bearers of traditional culture but could also stand at the very top of modern popular music.
 
 ## Chang Yu-sheng: The Soul Producer Behind _Sisters_
 
@@ -55,17 +55,17 @@ In a 2004 CCTV interview, she said: "That wasn't a decision I made. I had to car
 
 The weight of that second sentence lies in this: she neither deflected nor apologized—she simply affirmed her own name. In a society rife with discriminatory assumptions toward an Indigenous female singer, this statement was a declaration of dignity.
 
-## 2015: Utopia, 10 Shows at Taipei Arena
+## "Utopia": The Scale of 10 Consecutive Taipei Arena Shows
 
-From April 4 to 15, 2015, A-mei's "Utopia" world tour ran 10 consecutive shows at Taipei Arena.[^2] Not 20—a figure that has been erroneously reported in many outlets.
+From April 4 to 15, 2015, A-mei's "Utopia" world tour ran 10 consecutive shows at Taipei Arena.[^2] Not 20, a figure that has been erroneously reported in many outlets.
 
 "Utopia" was a major milestone in her concert career: 10 straight sold-out shows, cementing her status as a top-tier live performer. In this sense, the 2024 Taipei Dome was not starting from zero but rather an evolved version of "Utopia."
 
-## December 2024: Taipei Dome ASMeiR MAXXX
+## Taipei Dome ASMeiR MAXXX: The Evolution to Five Shows and 300,000 Attendees
 
 In December 2024, A-mei held the ASMeiR MAXXX concert at Taipei Dome for a total of 5 shows.[^3] The production budget was approximately NT$200 million, featuring live hot-air balloon releases—the largest visual scale of her concert career.
 
-Taipei Dome has a capacity of roughly 60,000, more than three times that of Taipei Arena. Mobilizing 5 shows at the Dome represents five times the scale of the 10-show "Utopia" run at the Arena—the same person, a different order of magnitude in stage.
+Taipei Dome has a capacity of roughly 60,000, more than three times that of Taipei Arena. Mobilizing 5 shows at the Dome represents five times the scale of the 10-show "Utopia" run at the Arena: the same person, a different order of magnitude in stage.
 
 ## Puyuma Language Advocacy and LGBTQ+ Equality
 
@@ -77,7 +77,7 @@ She brought LGBTQ+ issues into the mainstream entertainment spotlight well befor
 
 > 🎙️ **Curator's note:** A-mei's emergence marked a turning point for Taiwan's Indigenous peoples in popular culture—from being "represented" to "speaking for themselves." Before 1996, Indigenous culture appeared in mainstream media mostly as spectacle; after _Sisters_, a Puyuma girl stood in that position and no longer needed to explain why she was there.
 
-From late-night restaurant gigs in Taitung to five shows at Taipei Dome with hot-air balloons floating over the audience—A-mei's trajectory is not the standard script of Taiwan's entertainment industry, but the story of an Indigenous girl who used her voice to open a larger space and then let everyone in.
+From late-night restaurant gigs in Taitung to five shows at Taipei Dome with hot-air balloons floating over the audience, A-mei's trajectory is not the standard script of Taiwan's entertainment industry, but the story of an Indigenous girl who used her voice to open a larger space and then let everyone in.
 
 **Further reading:** [A-mei — Wikipedia](https://zh.wikipedia.org/wiki/張惠妹) ｜ [Chang Yu-sheng](/people/張雨生) — the soul producer behind _Sisters_
 

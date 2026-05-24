@@ -1,35 +1,35 @@
 ---
-title: "台東県：二つの離島、一つは三十六年にわたり政治犯を収容し、一つは四十二年にわたり核廃棄物を保管してきました"
-description: "台東県では 21 万人が 3,515 平方キロメートルに散在し、全国最低の人口密度で、1 平方キロメートルあたり 60 人しか住んでおらず、台北の百分の一です。しかしこの県には、台湾最古の人類集落（卑南遺跡、5,300 年前、1,600 基の石棺）があり、六つの原住民族（アミ、プユマ、パイワン、ルカイ、ブヌン、タオ）が暮らし、原住民人口比率 37.5% は台湾で最も高いです。1951 年から 1987 年まで、緑島の火焼島には三十六年にわたり政治犯が収容されました。1982 年 5 月から、蘭嶼の龍門は核廃棄物の受け入れを開始し、四十二年後も 97,672 ドラムがなおそこにあります。1968 年 8 月 25 日、紅葉村の七人のブヌン族の子どもが、日本の関西少年野球選抜チーム（世界王者チームではありません）を 7 対 0 で破り、台湾野球を国技とする神話はこの欺瞞から始まりました。二つの離島は、一つの島全体の代償を引き受けてきました。"
+title: '台東県：二つの離島、一つは三十六年にわたり政治犯を収容し、一つは四十二年にわたり核廃棄物を保管してきました'
+description: '台東県では 21 万人が 3,515 平方キロメートルに散在し、全国最低の人口密度で、1 平方キロメートルあたり 60 人しか住んでおらず、台北の百分の一です。しかしこの県には、台湾最古の人類集落（卑南遺跡、5,300 年前、1,600 基の石棺）があり、六つの原住民族（アミ、プユマ、パイワン、ルカイ、ブヌン、タオ）が暮らし、原住民人口比率 37.5% は台湾で最も高いです。1951 年から 1987 年まで、緑島の火焼島には三十六年にわたり政治犯が収容されました。1982 年 5 月から、蘭嶼の龍門は核廃棄物の受け入れを開始し、四十二年後も 97,672 ドラムがなおそこにあります。1968 年 8 月 25 日、紅葉村の七人のブヌン族の子どもが、日本の関西少年野球選抜チーム（世界王者チームではありません）を 7 対 0 で破り、台湾野球を国技とする神話はこの欺瞞から始まりました。二つの離島は、一つの島全体の代償を引き受けてきました。'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
 tags:
   [
-    "台東",
-    "台東県",
-    "東部",
-    "原住民",
-    "蘭嶼",
-    "タオ族",
-    "緑島",
-    "白色テロ",
-    "紅葉少年野球",
-    "卑南遺跡",
-    "池上",
-    "南廻",
-    "22県市シリーズ",
+    '台東',
+    '台東県',
+    '東部',
+    '原住民',
+    '蘭嶼',
+    'タオ族',
+    '緑島',
+    '白色テロ',
+    '紅葉少年野球',
+    '卑南遺跡',
+    '池上',
+    '南廻',
+    '22県市シリーズ',
   ]
 readingTime: 15
 lastVerified: 2026-05-18
-lastHumanReview: false
+lastHumanReview: true
 featured: false
-translatedFrom: "Geography/台東縣.md"
-sourceCommitSha: "6f28d6167"
-sourceContentHash: "sha256:237be97e4b033394"
-sourceBodyHash: "sha256:3f1be8311e0b881e"
-translatedAt: "2026-05-18T05:08:08+08:00"
+translatedFrom: 'Geography/台東縣.md'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:b619f644b3aecab2'
+sourceBodyHash: 'sha256:5297b3ed0a4fdf7d'
+translatedAt: '2026-05-24T22:39:00Z'
 ---
 
 # 台東県：二つの離島、一つは三十六年にわたり政治犯を収容し、一つは四十二年にわたり核廃棄物を保管してきました
@@ -152,7 +152,7 @@ _緑島人権記念碑、2022-08-28。Photo: S8321414. [CC BY-SA 4.0 via Wikimed
 
 **1982 年 5 月**、蘭嶼貯蔵場の第一期工事が完成し、最初の低レベル核廃棄物が搬入され始めました[^21]。この瞬間から 1996 年の最後の搬入まで、**14 年間で計 97,672 ドラムの低レベル放射性廃棄物**を受け入れました[^21]。発生源は第一、第二、第三原子力発電所、および台湾全土の医療、農業、工業、学術機関でした。
 
-![蘭嶼の景観、空港上空からの鳥瞰、2017 年。台湾本島から 90 キロメートル離れ、フィリピンのバタン諸島のほうが近い島です。島には六つのタオ族集落があり、総人口は約 5,000 人です。1982 年 5 月から、島の南東角の龍門で核廃棄物の貯蔵受け入れが始まり、1996 年までに 97,672 ドラムが蓄積されました。](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Lanyu_landscape_-_Taiwan.jpg/1280px-Lanyu_landscape_-_Taiwan.jpg)
+![蘭嶼の景観、空港上空からの鳥瞰、2017 年。台湾本島から 90 キロメートル離れ、フィリピンのバタン諸島のほうが近い島です。島には六つのタオ族集落があり、総人口は約 5,000 人です。1982 年 5 月から、島の南東角の龍門で核廃棄物の貯蔵受け入れが始まり、1996 年までに 97,672 ドラムが蓄積されました。](/article-images/geography/taitung-03.jpg)
 _蘭嶼の景観、2017-07-21。Photo: Pai-Shih Lee (白士 李). [CC BY 2.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Lanyu_landscape_-_Taiwan.jpg)._
 
 1987 年、タオの人びとは空港で、台電が蘭嶼の民意代表を買収して日本観光に行かせたことに抗議し、反核廃棄物運動が正式に幕を開けました[^23]。
@@ -173,8 +173,8 @@ _蘭嶼の景観、2017-07-21。Photo: Pai-Shih Lee (白士 李). [CC BY 2.0 via
 
 拼板舟（chinurikuran の大船は 27 枚の板、tatara の小船は 21 枚の板）は、タオ族工芸の頂点です。伝統色は赤（山の赤土）、白（貝殻灰）、黒（鍋煤）で、船眼の円形文様はタオ族を代表する文化的シンボルとして広く知られています[^28]。
 
-![伝統的なタオ族の拼板舟、蘭嶼、2015 年 8 月。タオ族の大船 chinurikuran は 27 枚の木板で組まれ、8-10 人が乗れます。小船 tatara は 21 枚の木板で組まれます。船眼の円形文様は、タオ族で最も広く知られる文化的シンボルです。](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/The_Traditional_Boat_Of_Tao_People_%28228631843%29.jpeg/1280px-The_Traditional_Boat_Of_Tao_People_%28228631843%29.jpeg)
-_タオ族の伝統的な拼板舟、2015-08-02。Photo: Cho Hsun Lu. [CC BY 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:The_Traditional_Boat_Of_Tao_People_(228631843).jpeg)._
+![伝統的なタオ族の拼板舟、蘭嶼、2015 年 8 月。タオ族の大船 chinurikuran は 27 枚の木板で組まれ、8-10 人が乗れます。小船 tatara は 21 枚の木板で組まれます。船眼の円形文様は、タオ族で最も広く知られる文化的シンボルです。](/article-images/geography/taitung-03.jpg)
+_タオ族の伝統的な拼板舟、2015-08-02。Photo: Cho Hsun Lu. [CC BY 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:The_Traditional_Boat_Of_Tao_People_(228631843).jpeg).\_
 
 蘭嶼の気候は熱帯海洋性で、年間降雨量は 3,000 ミリを超えます（花東縦谷の台東市街地の約 1,900 ミリ、海岸山脈風下側の 1,500 ミリを大きく上回ります）。冬季には北東季節風が強く吹きます。**タオ族の伝統的な地下屋（talakaval）**は、この気候に対応するために設計されたものです。低く半地下で、周囲の土壁が断熱し、北東季節風は屋根の上をそのまま通り過ぎます[^29]。今日、野銀集落には最も完全に保存された伝統的地下屋の集落があり、蘭嶼全体で唯一いまも人が暮らす旧集落形態です。
 
@@ -201,7 +201,7 @@ _タオ族の伝統的な拼板舟、2015-08-02。Photo: Cho Hsun Lu. [CC BY 3.0
 伯朗大道（Mr. Brown Avenue）は 2.2 キロメートルにわたるまっすぐな田園の小道で、電柱がありません。伯朗コーヒーの広告撮影で有名になりました。**2009 年から、池上秋収稲穂芸術祭**が毎年 10 月末に開催され、雲門舞集、優人神鼓、張惠妹、茄子蛋などが出演してきました。水田そのものが舞台です[^34]。
 
 ![池上郷伯朗大道の金城武の木、2016 年 9 月。約 2.2 キロメートルのまっすぐな田園の小道で、電柱がなく、伯朗コーヒー広告の撮影で有名になりました。2009 年から池上秋収稲穂芸術祭が毎年 10 月末に田の中央で開催されています。](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/29-%E4%BC%AF%E6%9C%97%E5%A4%A7%E9%81%93_%2828896712393%29.jpg/1280px-29-%E4%BC%AF%E6%9C%97%E5%A4%A7%E9%81%93_%2828896712393%29.jpg)
-_池上伯朗大道、2016-09-03。Photo: Sinchen.Lin. [CC BY 2.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:29-%E4%BC%AF%E6%9C%97%E5%A4%A7%E9%81%93_(28896712393).jpg)._
+_池上伯朗大道、2016-09-03。Photo: Sinchen.Lin. [CC BY 2.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:29-%E4%BC%AF%E6%9C%97%E5%A4%A7%E9%81%93_(28896712393).jpg).\_
 
 しかし池上の稲波は観光客の台東です。地元の台東には、別の声の源があります。**南王集落（普悠瑪 Puyuma）**です。
 
@@ -217,7 +217,7 @@ _池上伯朗大道、2016-09-03。Photo: Sinchen.Lin. [CC BY 2.0 via Wikimedia]
 
 南王集落には陳建年だけがいたわけではありません。**紀暁君**（陳建年の姪）は金曲奨の最優秀原住民語歌手賞を受賞しました。**南王姉妹花**（陳惠琴、李諭芹、徐美花）は第 20 回金曲奨の最優秀歌唱グループ賞を獲得しました[^35]。プユマ族にはさらに**張惠妹**（族名 Gulilai Amit、卑南郷）がいます。1996 年に『姊妹』でデビューし、華語ポップス界の女王となりました。**巴奈・庫穂**（父はプユマ族、母はアミ族）は台東出身で、「台湾で最も重みのある声」と呼ばれ、2000 年に初のソロアルバム『泥娃娃』を発表しました[^38]。
 
-> **💡 你知道嗎：** 南王部落 1,500 人拿 9 座以上金曲獎的密度，世界上找不到第二個 case。陳建年得獎那年，《海洋》專輯在嘉義一座深山錄完，被製作人帶去台北做後製。但那張專輯的靈魂在台東——他自己說「**錄音在台東**」。台東原住民音樂之所以能成為一種台灣的聲音，是因為它直接從南王部落的祭典歌謠裡長出來，再用警察日班結束後寫的歌詞包裝起來——這跟那個年代主流的西方流行翻唱或漢語流行歌詞改編走的是完全不同的路。
+> **💡 你知道嗎：** 南王部落 1,500 人拿 9 座以上金曲獎的密度，世界上找不到第二個 case。陳建年得獎那年，《海洋》專輯在嘉義一座深山錄完，被製作人帶去台北做後製。但那張專輯的靈魂在台東、他自己說「**錄音在台東**」。台東原住民音樂之所以能成為一種台灣的聲音，是因為它直接從南王部落的祭典歌謠裡長出來，再用警察日班結束後寫的歌詞包裝起來、這跟那個年代主流的西方流行翻唱或漢語流行歌詞改編走的是完全不同的路。
 
 ## 太麻里の日の出は、台湾 21 世紀の最初の光です
 
@@ -258,8 +258,8 @@ _池上伯朗大道、2016-09-03。Photo: Sinchen.Lin. [CC BY 2.0 via Wikimedia]
 - **Scene §卑南遺跡**：[Excavation of the Peinan Site](https://commons.wikimedia.org/wiki/File:Excavation_of_the_Peinan_Site.JPG) — Benson KC Fang, 2012-02-28, CC BY-SA 3.0。卑南遺跡石板棺発掘現場。
 - **Scene §火焼島**：[Taiwan GreenIsland Human Rights Memorial Monument](https://commons.wikimedia.org/wiki/File:Taiwan_GreenIsland_Human_Rights_Memorial_Monument_2022.jpg) — S8321414, 2022-08-28, CC BY-SA 4.0。緑島人権記念碑。
 - **Scene §蘭嶼の景観**：[Lanyu landscape - Taiwan](https://commons.wikimedia.org/wiki/File:Lanyu_landscape_-_Taiwan.jpg) — Pai-Shih Lee (白士 李), 2017-07-21, CC BY 2.0。蘭嶼鳥瞰。
-- **Scene §拼板舟**：[The Traditional Boat Of Tao People](https://commons.wikimedia.org/wiki/File:The_Traditional_Boat_Of_Tao_People_(228631843).jpeg) — Cho Hsun Lu, 2015-08-02, CC BY 3.0。タオ族の伝統的な拼板舟。
-- **Scene §池上の稲波**：[伯朗大道](https://commons.wikimedia.org/wiki/File:29-%E4%BC%AF%E6%9C%97%E5%A4%A7%E9%81%93_(28896712393).jpg) — Sinchen.Lin, 2016-09-03, CC BY 2.0。池上郷伯朗大道の金城武の木。
+- **Scene §拼板舟**：[The Traditional Boat Of Tao People](<https://commons.wikimedia.org/wiki/File:The_Traditional_Boat_Of_Tao_People_(228631843).jpeg>) — Cho Hsun Lu, 2015-08-02, CC BY 3.0。タオ族の伝統的な拼板舟。
+- **Scene §池上の稲波**：[伯朗大道](<https://commons.wikimedia.org/wiki/File:29-%E4%BC%AF%E6%9C%97%E5%A4%A7%E9%81%93_(28896712393).jpg>) — Sinchen.Lin, 2016-09-03, CC BY 2.0。池上郷伯朗大道の金城武の木。
 
 ライセンス条項：[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) / [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) / [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)。
 

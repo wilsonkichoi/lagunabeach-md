@@ -5,16 +5,29 @@ date: 2026-05-18
 author: 'Taiwan.md Contributors'
 category: 'Geography'
 subcategory: '縣市'
-tags: ['현저', '현저현', '중부', '루강', '팔보전(八堡圳)', '일부이루삼모하(一府二鹿三艋舺)', '반듀폰', '팔광산', '톈웨이 공원화원(田尾公路花園)', '부채형 차고', '22현시리즈']
+tags:
+  [
+    '현저',
+    '현저현',
+    '중부',
+    '루강',
+    '팔보전(八堡圳)',
+    '일부이루삼모하(一府二鹿三艋舺)',
+    '반듀폰',
+    '팔광산',
+    '톈웨이 공원화원(田尾公路花園)',
+    '부채형 차고',
+    '22현시리즈',
+  ]
 readingTime: 16
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: Geography/彰化縣.md
-sourceCommitSha: efbf0dd4b
-sourceContentHash: sha256:291da96ae7fc7029
-sourceBodyHash: sha256:438c10edf8c6c82d
-translatedAt: 2026-05-18T05:08:08+08:00
+sourceCommitSha: 6b59db34
+sourceContentHash: sha256:2418fab30b49dbb0
+sourceBodyHash: sha256:eb6f2e50b64121b7
+translatedAt: 2026-05-25T06:36:28+08:00
 ---
 
 # 현저현: 듀폰을 물리쳤지만 젊은이들을 붙잡지 못한 농업 대현
@@ -87,7 +100,7 @@ _루강 룽산사, 2017. Photo: Outlookxp, [CC BY-SA 4.0 via Wikimedia](https://
 
 「일부이루삼모하」의 이루(二鹿) 시대는 19세기 중엽에 끝났다. 루강이 가장 번성했던 시기는 불과 70년에 불과하다.
 
-![루강 옛거리 골목. 모유항(正式名「군자巷」) 가장 좁은 곳 70cm, 구곡구(九曲巷)의 굽은 설계는 동북 계절풍을 막고, 반변정(半邊井, 야오린가 12호)의 친睦 정신, 이 200년의 도시 질감이 아직 제자리에 있다.](https://upload.wikimedia.org/wikipedia/commons/d/da/%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97%E5%B0%8F%E5%B7%B707.jpg)
+![루강 옛거리 골목. 모유항(正式名「군자巷」) 가장 좁은 곳 70cm, 구곡구(九曲巷)의 굽은 설계는 동북 계절풍을 막고, 반변정(半邊井, 야오린가 12호)의 친睦 정신, 이 200년의 도시 질감이 아직 제자리에 있다.](/article-images/geography/changhua-02.jpg)
 _루강 옛거리 골목. Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97%E5%B0%8F%E5%B7%B707.jpg)._
 
 ## 1986년, 루강 사람들이 「아니오」라고 말하다
@@ -145,7 +158,7 @@ _현저 부채형 차고. Photo: Wikimedia Commons contributor, [CC BY-SA via Wi
 
 중국시보(中國時報)의 기록: 「**1961년 대불이 완성된 후**」, 현지 주민들 사이에서 하나의 설이 형성되었다: 「**현저는 '바람은 있지만 태풍은 없고, 비는 오지만 재해는 없다'고 하며, 모두 대불의 복덕을 굳게 믿었다**」[^22].
 
-![팔광산 대불, 1961년 완공, 높이 22미터, 철근 콘크리트, 설계자 린경요. 불상 내부는 6개 층으로 나뉘어 들어가서 관람할 수 있다.](https://upload.wikimedia.org/wikipedia/commons/0/0a/%E5%BD%B0%E5%8C%96%E5%85%AB%E5%8D%A6%E5%B1%B1%E5%A4%A7%E4%BD%9B31.jpg)
+![팔광산 대불, 1961년 완공, 높이 22미터, 철근 콘크리트, 설계자 린경요. 불상 내부는 6개 층으로 나뉘어 들어가서 관람할 수 있다.](/article-images/geography/changhua-04.jpg)
 _팔광산 대불. Photo: Wikimedia Commons contributor, [CC BY-SA via Wikimedia](https://commons.wikimedia.org/wiki/File:%E5%BD%B0%E5%8C%96%E5%85%AB%E5%8D%A6%E5%B1%B1%E5%A4%A7%E4%BD%9B31.jpg)._
 
 22미터의 콘크리트 보살은, 루강 룽산사 1786년의 목조 보살, 신조궁 1788년의 관비 마조, 톈웨이 국화밭 옆의 토지공묘와 함께, 현저현 내의 신앙 대상은 청나라부터 전후까지 하나의 동일한 시간선을 잇지 않는다. 각각은 당시 사람들이 「우리는 어떤 힘의 보호가 필요한가」에 대한 구체적인 답변이었다.
@@ -216,7 +229,7 @@ Hero(프론트매터)에서는 사진작가 [Outlookxp](https://commons.wikimedi
 
 [^3]: [현저현 건성 대사기](https://www.chcg.gov.tw/ch2/abouts-build-city-story.aspx) — 현저현 정부 글로벌 정보망 공식 역사 기록, 1723년 옹정 원년 「남쪽으로 호미를 자르고, 북쪽으로 대갑에 닿는다」는 현 설치 verbatim + 「현아화(彰雅化)」「필창해우지화(丕昌海隅之化)」 명명 원래 의미 포함.
 
-[^4]: [현저현(청나라) — 위키백과](https://zh.wikipedia.org/zh-tw/%E5%BD%B0%E5%8C%96%E7%B8%A3_(%E6%B8%85%E6%9C%9D)) — 1723년 옹정 원년 제로현에서 「구 호미계 이북, 대갑계 이남의 땅」을 나누어 현저현을 증설한 완전한 행정 연혁.
+[^4]: [현저현(청나라) — 위키백과](<https://zh.wikipedia.org/zh-tw/%E5%BD%B0%E5%8C%96%E7%B8%A3_(%E6%B8%85%E6%9C%9D)) — 1723년 옹정 원년 제로현에서 「구 호미계 이북, 대갑계 이남의 땅」을 나누어 현저현을 증설한 완전한 행정 연혁.
 
 [^5]: [현저현 평포족 원주민사](https://www.chcg.gov.tw/) — 파푸사족(巴布薩族) 반선사(半線社), 마지린사(馬芝遴社), 동라사(東螺社) 등 부족 분포; 홍야족(Hoanya) 내륙 부족 분포의 완전한 종족 지도.
 

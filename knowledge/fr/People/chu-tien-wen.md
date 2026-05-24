@@ -5,7 +5,15 @@ date: 2026-03-19
 author: 'Taiwan.md'
 category: 'People'
 subcategory: '文學'
-tags: ['Littérature', 'Scénariste de cinéma', 'Hou Hsiao-hsien', 'Chu Hsi-ning', 'Littérature San San', 'Carnets d''un homme déserté']
+tags:
+  [
+    'Littérature',
+    'Scénariste de cinéma',
+    'Hou Hsiao-hsien',
+    'Chu Hsi-ning',
+    'Littérature San San',
+    "Carnets d'un homme déserté",
+  ]
 readingTime: 7
 #   whats_excluded: "各電影完整劇本分析；三三集刊歷年作者名單；學術研究論文清單"
 #   where_it_hedges: "出生地維基記台北（另有高雄鳳山一說，以台北為準）；侯孝賢失智確認時間（P0⚠️待確認具體年份）；首次執導《尋找河神》詳情（P0⚠️待確認）"'
@@ -13,10 +21,10 @@ lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/朱天文.md'
-sourceCommitSha: '0ea5d5d42'
-sourceContentHash: 'sha256:d52b167e82c0c2fb'
-sourceBodyHash: 'sha256:66eb9fc182ee9ee8'
-translatedAt: '2026-05-16T05:07:56+08:00'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:70b5f8b7a44361ea'
+sourceBodyHash: 'sha256:303681e7cd1ff006'
+translatedAt: '2026-05-25T06:37:35+08:00'
 ---
 
 # Chu Tien-wen : Taipei 1956, de la revue San San au Lion d'or de Venise pour La Cité des douleurs
@@ -33,7 +41,7 @@ Chu Tien-wen fréquente le lycée Beiyi (premier lycée pour filles de Taipei) e
 
 Grandir dans une telle famille littéraire, c'est recevoir une formation du langage avant tout cours formel : les manuscrits du père sont les premiers textes, les discussions autour de la table familiale sont la première leçon. Cette sensibilité littéraire, née du quotidien, se transpose plus tard dans sa collaboration avec Hou Hsiao-hsien, sous la forme d'une attention extrême aux détails du vécu — non pas par la progression du conflit dramatique, mais par l'accumulation de précision dans l'observation.
 
-## 1977 : la revue San San
+## La revue San San : un petit cercle de jeunes littéraires en 1977
 
 En 1977, Chu Tien-wen cofonde la revue San San avec Hu Lan-cheng, Chu Tien-hsin et d'autres. Le titre, tiré du _Yi Jing_ (Livre des Mutations), rassemble un groupe de jeunes écrivains attachés à la pureté littéraire et à la raffinement de la langue, devenant un jalon important du mouvement littéraire taïwanais des années 1970-1980.[^1]
 
@@ -51,7 +59,7 @@ Principaux scénarios : _The Boys from Fengkuei_, _A Summer at Grandpa's_, _A Ti
 
 **Lecture courante → lecture plus précise :** Chu Tien-wen est souvent qualifiée de « scénariste attitrée » de Hou Hsiao-hsien, mais une description plus juste serait « coauteur ». La grammaire des plans de Hou et la grammaire textuelle de Chu se développent en parallèle et se calibrent mutuellement — ses scénarios et les plans construisent ensemble l'univers linguistique d'une œuvre, et non un travail de service visant à remplir les images de sens.
 
-## 1989 : _La Cité des douleurs_, Lion d'or à Venise
+## _La Cité des douleurs_ et le Lion d'or de Venise : Chu Tien-wen scénariste en 1989
 
 En 1989, _La Cité des douleurs_ remporte le Lion d'or à la Mostra de Venise, une première dans l'histoire du cinéma taïwanais.[^3] Le scénario de Chu Tien-wen, dans un langage poétique, traite de l'histoire d'une famille taïwanaise autour de l'Incident du 228, en dialogue avec l'esthétique des plans-séquences de Hou Hsiao-hsien.
 
@@ -61,7 +69,7 @@ Le Lion d'or de _La Cité des douleurs_ consacre la renommée internationale de 
 
 Le scénario de cette œuvre a par la suite été publié sous forme de texte littéraire, montrant que l'écriture scénaristique de Chu Tien-wen possède une valeur littéraire autonome, et ne se réduit pas à un travail de service pour l'image.
 
-## 1994 : _Les Carnets d'un homme déserté_, premier prix du China Times Literary Award
+## _Les Carnets d'un homme déserté_ : premier prix du China Times Literary Award 1994 (un million de NTD)
 
 En 1994, Chu Tien-wen publie le roman _Les Carnets d'un homme déserté_, qui obtient le premier prix du roman au China Times Literary Award.[^4] Le roman, écrit à la première personne sous forme de flux de conscience, décrit la détresse spirituelle d'une femme d'âge mûr en milieu urbain, et est considéré comme une œuvre majeure de la littérature taïwanaise contemporaine.
 

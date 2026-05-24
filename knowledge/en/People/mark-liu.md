@@ -1,22 +1,22 @@
 ---
-title: "Mark Liu: The Berkeley PhD Who Succeeded Morris Chang — Six Years of Decision-Making in the US-China Chip Crossfire"
+title: 'Mark Liu: The Berkeley PhD Who Succeeded Morris Chang — Six Years of Decision-Making in the US-China Chip Crossfire'
 description: "In June 2018, Morris Chang retired, and Mark Liu and C.C. Wei jointly took the helm of TSMC. This UC Berkeley electrical engineering doctorate steered the world's most important chipmaker with an engineer's precision, announcing the Arizona fab, navigating geopolitical crosscurrents amid six years of US-China tech competition, and handing the reins to C.C. Wei upon his retirement in June 2024 — leaving behind a final line: 'Buy TSMC.'"
 date: 2026-03-19
-author: "Taiwan.md"
-category: "People"
-subcategory: "科技與企業"
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '科技與企業'
 tags: ['台積電', '半導體', '地緣政治', '企業領導']
 readingTime: 7
 #   whats_excluded: "台積電內部的接班競爭細節（劉德音 vs. 魏哲家路線差異）；亞利桑那工廠工會衝突與延誤細節；張忠謀對劉德音領導的公開評價"
 #   where_it_hedges: "亞利桑那最終投資總額（2025年3月的1,650億美元為最新公布數字，後續仍可能調整）"'
 lastVerified: 2026-05-07
-lastHumanReview: false
+lastHumanReview: true
 featured: false
 translatedFrom: People/劉德音.md
-sourceCommitSha: 4b6d28c54
-sourceContentHash: sha256:2b244e1e50a2ac90
-sourceBodyHash: sha256:21e0a5ac8fbd3231
-translatedAt: 2026-05-09T14:29:09+08:00
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:d8af6167c7effd7e'
+sourceBodyHash: 'sha256:b67507e9dc3bc1b6'
+translatedAt: '2026-05-24T22:33:51Z'
 ---
 
 # Mark Liu: The Berkeley PhD Who Succeeded Morris Chang — Six Years of Decision-Making in the US-China Chip Crossfire
@@ -29,7 +29,7 @@ Mark Liu was born in 1954. After completing his bachelor's degree in electrical 
 
 This Berkeley training was repeatedly cited during his years at TSMC. The point of the citation was not the prestige of the institution but an epistemology: the engineer's ability to break down complex situations into measurable variables. What Liu later applied this method to was something far harder to measure than circuits — geopolitics.
 
-The conventional wisdom was that succeeding Morris Chang required the aura and charisma of a "Morris Chang 2.0." But Liu offered the opposite answer — he never tried to replicate the founder's symbolic capital. He used numbers, process nodes, and investment commitments as his language of communication, replacing the evangelist's inspiration with the engineer's precision.
+The conventional wisdom was that succeeding Morris Chang required the aura and charisma of a "Morris Chang 2.0." But Liu offered the opposite answer. He never tried to replicate the founder's symbolic capital, using numbers, process nodes, and investment commitments as his language of communication, replacing the evangelist's inspiration with the engineer's precision.
 
 This choice happened to be perfectly suited to the era of the chip war. At the negotiating table of chip politics, no one bought the storyteller's narrative, but no one could refuse the numbers of process nodes. Liu's Berkeley foundation ultimately helped him find his own language in the halls of geopolitics.
 
@@ -47,11 +47,11 @@ This arrangement was interpreted at the time as a smooth transition for TSMC, bu
 
 ## "Nobody Can Control TSMC by Force"
 
-In 2022, as US-China tech competition reached a boiling point, TSMC became the central prize in the global semiconductor landscape. In a CNN interview, when asked about TSMC's fate if China were to attack Taiwan by force, Liu said: **"Nobody can control TSMC by force."**[^3]
+In 2022, as US-China tech competition reached a boiling point, TSMC became the central prize in the global semiconductor landscape. In a CNN interview, when asked about TSMC's fate if China were to attack Taiwan by force, he said: **"Nobody can control TSMC by force."**[^3]
 
 This statement became one of the most frequently quoted remarks of his tenure. Call it bravado — it was also a deterrent. Call it a guarantee — it also hinted at the possibility of destruction. With a single sentence, an engineer drew a geopolitical bottom line.
 
-> 📝 **Curator's note:** The conventional narrative is that TSMC's US fab was forced out of the company by Washington pressure. But Liu's logic is closer to another reading: build fabs everywhere they are needed, and you become something no one anywhere can afford to lose — "indispensability" is the moat, not a compromise.
+> 📝 **Curator's note:** The conventional narrative is that TSMC's US fab was forced out of the company by Washington pressure. But Liu's logic is closer to another reading: build fabs everywhere they are needed, and you become something no one anywhere can afford to lose: "indispensability" is the moat, not a compromise.
 
 ## The Arizona Calculus
 
@@ -61,13 +61,13 @@ In Liu's final public briefing on the Arizona plan, his framework was: the quest
 
 But the execution was not as clean as the strategy. In 2023, the Arizona fab's original mass production timeline was pushed back to 2025. Liu publicly acknowledged that there was a severe shortage of qualified equipment installation technicians in the US, and TSMC had to dispatch personnel from Taiwan for on-site training. This move triggered a strong backlash from Arizona construction trade unions, with worker representatives demanding that Congress block TSMC from bringing in "low-wage foreign labor." A strategic decision denominated in US dollars on TSMC's balance sheet became, on a Phoenix construction site, a real conflict over "whose skills count."[^4]
 
-Before retiring, at a shareholders' meeting, he was asked about Huawei's competitiveness. He said: **"Huawei is unlikely to surpass TSMC."**[^5] Clean, precise, no cracks — the engineer's answer.
+Before retiring, at a shareholders' meeting, he was asked about Huawei's competitiveness. He said: **"Huawei is unlikely to surpass TSMC."**[^5] Clean, precise, no cracks. The engineer's answer.
 
 ## "TSMC Is Not a Geopolitical Flashpoint"
 
 At the June 2023 shareholders' meeting, Liu was asked how he viewed TSMC's role in US-China competition. He said: **"Many conflicts between China and the United States — they all hope for it, and none can do without TSMC, so they will give considerable thought, even more thought. So I hope that as long as Taiwan's semiconductor industry does well, it will have a stabilizing effect on global geopolitical conflicts."**[^9]
 
-He further explained: "TSMC is not a geopolitical flashpoint, but many countries know that a lack of chip supply would be a major disaster." The underlying logic was an engineer's precise judgment about "scarcity" — becoming a node that no one can afford to lose is itself the strongest moat.
+He further explained: "TSMC is not a geopolitical flashpoint, but many countries know that a lack of chip supply would be a major disaster." The underlying logic was an engineer's precise judgment about "scarcity": becoming a node that no one can afford to lose is itself the strongest moat.
 
 In May 2024, in his last public interview before retiring, he said TSMC was no longer just "Taiwan's TSMC" but "the world's TSMC," adding: **"We must make TSMC's products 'impossible to refuse' for the entire world, including mainland China.**"[^10]
 
@@ -77,11 +77,11 @@ When Liu stepped down in 2024, TSMC's market capitalization had surpassed Taiwan
 
 The six-year arc can be summarized by several anchor points: Arizona investment expanded from US$12 billion to US$165 billion; advanced processes advanced from 7nm to 3nm, with 2nm planning completed; the customer landscape expanded from Apple and Qualcomm to Intel. Behind each number was an occasion where he explained geopolitics in an engineer's language before government officials, the media, or shareholders.
 
-He was not the most charismatic CEO, nor the most market-hyped one. But during the most difficult six years, he deepened TSMC's moat again and again — perhaps that is the true color of an engineer.
+He was not the most charismatic CEO, nor the most market-hyped one. But during the most difficult six years, he deepened TSMC's moat again and again. Perhaps that is the true color of an engineer.
 
-A person can say "nobody can control TSMC by force" within six years and, upon retirement, casually say "buy TSMC" — these two statements are not contradictory; they are different outputs of the same engineer's logic on different occasions.
+A person can say "nobody can control TSMC by force" within six years and, upon retirement, casually say "buy TSMC." These two statements are not contradictory; they are different outputs of the same engineer's logic on different occasions.
 
-## "Buy TSMC": The June 2024 Handover
+## "Buy TSMC": Handing the Reins to C. C. Wei
 
 In June 2024, Liu formally stepped down as chairman of TSMC, with [C.C. Wei](https://www.zoo.com/en/People/cc-wei/) taking sole command.[^6] TSMC's dual-leadership era came to an end.
 
@@ -89,7 +89,7 @@ On the day of his retirement, when asked if he had anything to say, he smiled an
 
 In 2025, Liu joined the board of Micron Technology, marking his first international corporate directorship after retirement, and made a substantial purchase of Micron stock worth over NT$246 million.[^8]
 
-The conventional narrative is that TSMC's most important years were the ones when Morris Chang built the kingdom. But another reading is that the real test of whether TSMC could survive was precisely the six years of Liu's leadership — six years when geopolitical upheaval and semiconductor supply chain restructuring collided, with no script and no precedent.
+The conventional narrative is that TSMC's most important years were the ones when Morris Chang built the kingdom. But another reading is that the real test of whether TSMC could survive was precisely the six years of Liu's leadership. Those six years were when geopolitical upheaval and semiconductor supply chain restructuring collided, with no script and no precedent.
 
 Engineer, CEO, semiconductor diplomat, and then post-TSMC observer. In 2022 he said nobody can control TSMC by force; in 2024 he said buy TSMC. The distance between these two statements is the entirety of his six-year tenure.
 

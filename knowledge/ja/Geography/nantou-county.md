@@ -5,16 +5,33 @@ date: 2026-05-18
 author: 'Taiwan.md Contributors'
 category: 'Geography'
 subcategory: '縣市'
-tags: ['南投', '南投県', '中部', '日月潭', '921大地震', '集集', '霧社事件', 'セデック族', 'ブヌン族', '邵族', '中興新村', '玉山', '武嶺', '埔里', '22県市シリーズ']
+tags:
+  [
+    '南投',
+    '南投県',
+    '中部',
+    '日月潭',
+    '921大地震',
+    '集集',
+    '霧社事件',
+    'セデック族',
+    'ブヌン族',
+    '邵族',
+    '中興新村',
+    '玉山',
+    '武嶺',
+    '埔里',
+    '22県市シリーズ',
+  ]
 readingTime: 16
 lastVerified: 2026-05-18
-lastHumanReview: false
+lastHumanReview: true
 featured: false
 translatedFrom: Geography/南投縣.md
-sourceCommitSha: 4b090f5f4
-sourceContentHash: sha256:4bd149f80e491a45
-sourceBodyHash: sha256:7f90ef82b0d88d38
-translatedAt: 2026-05-18T05:08:08+08:00
+sourceCommitSha: 6b59db34
+sourceContentHash: sha256:7a6074e368afe122
+sourceBodyHash: sha256:5248faa58fca6ede
+translatedAt: 2026-05-24T22:39:00Z
 ---
 
 # 南投県：唯一海に面さない県、921の震央はその中心にあった
@@ -58,7 +75,7 @@ _日月潭の夕暮れ。Photo: Wikimedia Commons contributor, [CC BY-SA 3.0](ht
 
 この県の歴史は標高によって層を成している。平地にある八堡圳、山腹の霧社、湖面下のラル島、3,952メートルの玉山。それぞれの標高の層に一つの物語が重なっている。
 
-![合歡山主峰一帯の高山地形。標高3,275メートルの武嶺は合歡山主峰と東峰の鞍部に位置する。台14甲線のこの地点は台湾の道路最高標高地点であり、冬季の積雪は台湾本島で雪を楽しめる数少ない場所の一つである。](https://upload.wikimedia.org/wikipedia/commons/0/06/Hehuanshan_Cuesta.JPG)
+![合歡山主峰一帯の高山地形。標高3,275メートルの武嶺は合歡山主峰と東峰の鞍部に位置する。台14甲線のこの地点は台湾の道路最高標高地点であり、冬季の積雪は台湾本島で雪を楽しめる数少ない場所の一つである。](/article-images/geography/nantou-01.jpg)
 _合歡山地景。Photo: Chewy3326，CC BY 2.5。[via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hehuanshan_Cuesta.JPG)._
 
 ## 八堡圳の水、康熙年間から名間郷へ
@@ -121,7 +138,7 @@ _合歡山地景。Photo: Chewy3326，CC BY 2.5。[via Wikimedia Commons](https:
 
 ラル島（Lalu）は日月潭中央の小島で、邵族の最高祖霊の地である。Laluは邵族の言語で「**心の中の聖なる島**」を意味する[^15]。日本統治時代は「玉島」と呼ばれ、戦後1949年に国民党が「光華島」と改名した（「中華を光耀する」の意）。元々100ヘクタールの農地があったものが、ダム工事後に直径30メートルの孤島に縮小した。**聖なる島が遊覧船に囲まれて写真に撮られる小島になるまで、15年を要した**。
 
-![ラル島、2013年8月。日月潭中央の小島、邵族の最高祖霊の地Lalu「心の中の聖なる島」。1934年に武界ダムが18.18メートル水位を上げる前は、邵族の100ヘクタールの農地であった。今日は直径30メートルの孤島に縮小し、遊覧船に囲まれて写真に撮られている。2000年に「光華島」からLaluに正名された。](https://upload.wikimedia.org/wikipedia/commons/8/8a/2013%E5%B9%B48%E6%9C%8819%E6%97%A5%E6%8B%89%E9%AD%AF%E5%B3%B6.JPG)
+![ラル島、2013年8月。日月潭中央の小島、邵族の最高祖霊の地Lalu「心の中の聖なる島」。1934年に武界ダムが18.18メートル水位を上げる前は、邵族の100ヘクタールの農地であった。今日は直径30メートルの孤島に縮小し、遊覧船に囲まれて写真に撮られている。2000年に「光華島」からLaluに正名された。](/article-images/geography/nantou-01.jpg)
 _ラル島、2013-08-19。Photo: Ckbun，CC BY-SA 3.0。[via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2013年8月19日拉魯島.JPG)._
 
 2000年、邵族は光華島を「ラル島」に正名する運動を成功させた[^15]。翌年2001年8月8日、邵族は平埔族から**第10番目の原住民族**として正名された。⚠️ 邵族の人口数字は年によって異なる：内政部戸政司2017年の統計では776人、他の統計では約885人前後。本文では「**約800多人**」とし、台湾16の原住民族の中で3番目に人数が少ない民族としている[^16]。

@@ -5,16 +5,33 @@ date: 2026-05-18
 author: 'Taiwan.md Contributors'
 category: 'Geography'
 subcategory: '縣市'
-tags: ['난터우', '난터우 현', '중부', '스먼위탄(썬문레이크)', '921 대지진', '지지', '무사 사건', '세데크족', '부농족', '사오족', '중흅신촌', '위산(옥산)', '우링', '푸리', '22개 현시 시리즈']
+tags:
+  [
+    '난터우',
+    '난터우 현',
+    '중부',
+    '스먼위탄(썬문레이크)',
+    '921 대지진',
+    '지지',
+    '무사 사건',
+    '세데크족',
+    '부농족',
+    '사오족',
+    '중흅신촌',
+    '위산(옥산)',
+    '우링',
+    '푸리',
+    '22개 현시 시리즈',
+  ]
 readingTime: 16
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: Geography/南投縣.md
-sourceCommitSha: 4b090f5f4
-sourceContentHash: sha256:4bd149f80e491a45
-sourceBodyHash: sha256:7f90ef82b0d88d38
-translatedAt: 2026-05-18T05:08:08+08:00
+sourceCommitSha: 6b59db34
+sourceContentHash: sha256:7a6074e368afe122
+sourceBodyHash: sha256:5248faa58fca6ede
+translatedAt: 2026-05-25T06:36:28+08:00
 ---
 
 # 난터우 현: 유일하게 해안이 없는 현, 921 진앙이 바로 그 중심에
@@ -58,7 +75,7 @@ _스먼위탄 황혼. Photo: Wikimedia Commons contributor, [CC BY-SA 3.0](https
 
 이 현의 역사는 높이에 따라 배열되어 있다. 팔보진의 물, 산허리의 무사, 호수 아래의 라루 섬, 3,952미터의 위산, 모든 해발 층 위에 하나의 이야기가 압착되어 있다.
 
-![화련산 주봉 일대의 고산 지경. 해발 3,275미터 우링은 화련산 주봉과 동봉 사이의 안부에 위치한다. 타이 14갑선의 이 지점은 타이완 도로 최고점이며, 매년 겨울 적설은 타이완 본섬에서 눈을 감상할 수 있는 몇 안 되는 장소이다.](https://upload.wikimedia.org/wikipedia/commons/0/06/Hehuanshan_Cuesta.JPG)
+![화련산 주봉 일대의 고산 지경. 해발 3,275미터 우링은 화련산 주봉과 동봉 사이의 안부에 위치한다. 타이 14갑선의 이 지점은 타이완 도로 최고점이며, 매년 겨울 적설은 타이완 본섬에서 눈을 감상할 수 있는 몇 안 되는 장소이다.](/article-images/geography/nantou-01.jpg)
 _화련산 지경. Photo: Chewy3326, CC BY 2.5. [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hehuanshan_Cuesta.JPG)._
 
 ## 팔보진의 물, 강희 연간에서 명간 향까지
@@ -121,7 +138,7 @@ _화련산 지경. Photo: Chewy3326, CC BY 2.5. [via Wikimedia Commons](https://
 
 라루 섬(Lalu)은 스먼위탄 중앙의 작은 섬으로, 사오족의 최고 조령지이다. Lalu는 사오족 언어로 "**마음속의 성섬**"이라는 뜻이다[^15]. 일제 시대에 "옥도"라 불렸고, 전후 1949년 국민당이 "광화도"로 개명했다("중화를 빛낸다"는 뜻). 원래 수백 정보의 농경지가 저수지 공사 후 직경 30미터의 외딴 섬으로 줄었다. **성섬에서 유람선이 돌며 사진을 찍는 작은 섬으로 바뀌는 데 15년이 걸렸다**.
 
-![라루 섬, 2013년 8월. 스먼위탄 중앙의 작은 섬, 사오족 최고 조령지 Lalu "마음속의 성섬". 1934년 우제 댐이 18.18미터 수위를 올리기 전에는 사오족의 수백 정보 농경지였고, 오늘날 직경 30미터의 외딴 섬으로 줄어 유람선이 돌며 사진을 찍는다. 2000년 "광화도"에서 Lalu로 정명되었다.](https://upload.wikimedia.org/wikipedia/commons/8/8a/2013%E5%B9%B48%E6%9C%8819%E6%97%A5%E6%8B%89%E9%AD%AF%E5%B3%B6.JPG)
+![라루 섬, 2013년 8월. 스먼위탄 중앙의 작은 섬, 사오족 최고 조령지 Lalu "마음속의 성섬". 1934년 우제 댐이 18.18미터 수위를 올리기 전에는 사오족의 수백 정보 농경지였고, 오늘날 직경 30미터의 외딴 섬으로 줄어 유람선이 돌며 사진을 찍는다. 2000년 "광화도"에서 Lalu로 정명되었다.](/article-images/geography/nantou-01.jpg)
 _라루 섬, 2013-08-19. Photo: Ckbun, CC BY-SA 3.0. [via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2013年8月19日拉魯島.JPG)._
 
 2000년, 사오족이 "광화도"에서 "라루 섬"으로 정명하기 위해 노력했다[^15]. 이듬해 2001년 8월 8일, 사오족은 평포족에서 분리되어 **제10호 원주민 부족**으로 정명되었다. ⚠️ 사오족 인구 수치는 연도에 따라 다르다: 내정부 호정사 2017년 통계 776명, 기타 통계 약 885명 정도이며, 본문은 "**약 800여 명**"을 채택한다. 이것은 타이완 16개 원주민 부족 중 인원이 세 번째로 적은 부족이다[^16].

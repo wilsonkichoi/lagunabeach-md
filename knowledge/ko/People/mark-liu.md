@@ -8,13 +8,13 @@ subcategory: '科技與企業'
 tags: ['TSMC', '반도체', '지정학', '기업 리더십']
 readingTime: 7
 lastVerified: 2026-05-07
-lastHumanReview: false
+lastHumanReview: true
 featured: false
 translatedFrom: People/劉德音.md
-sourceCommitSha: 4b6d28c54
-sourceContentHash: sha256:2b244e1e50a2ac90
-sourceBodyHash: sha256:21e0a5ac8fbd3231
-translatedAt: 2026-05-09T14:29:09+08:00
+sourceCommitSha: 6b59db34
+sourceContentHash: sha256:d8af6167c7effd7e
+sourceBodyHash: sha256:b67507e9dc3bc1b6
+translatedAt: 2026-05-25T06:36:28+08:00
 ---
 
 # 유드음: 버클리 박사, 장중모 이어 받은 TSMC, 미중 칩 갈림길에서의 6년 결단
@@ -79,7 +79,7 @@ translatedAt: 2026-05-09T14:29:09+08:00
 
 한 사람이 6년 동안 "아무도 무력으로 TSMC를 통제할 수 없다"는 말을 할 수 있고, 퇴임 시점에 가볍게 "TSMC 주식을 사라"고 말할 수 있다. 이 두 문장은 모순이 아니라 같은 엔지니어 논리가 다른 상황에서 다르게 출력된 것이다.
 
-## "TSMC 주식을 사라": 2024년 6월의 이양
+## "TSMC 주식을 사라": 웨이자지아에게 바통 전달
 
 2024년 6월, 유드음은 공식적으로 TSMC 이사회 의장직에서 퇴임하고 [웨이자지아](/ko/People/cc-wei/)에게 단독 경영을 넘겼다.[^6] TSMC의 이원적 경영 시대가 막을 내렸다.
 

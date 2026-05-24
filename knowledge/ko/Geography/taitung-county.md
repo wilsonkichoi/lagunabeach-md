@@ -26,10 +26,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/台東縣.md'
-sourceCommitSha: '6f28d6167'
-sourceContentHash: 'sha256:237be97e4b033394'
-sourceBodyHash: 'sha256:3f1be8311e0b881e'
-translatedAt: '2026-05-18T05:08:08+08:00'
+sourceCommitSha: 6b59db34
+sourceContentHash: sha256:b619f644b3aecab2
+sourceBodyHash: sha256:5297b3ed0a4fdf7d
+translatedAt: 2026-05-25T06:36:28+08:00
 ---
 
 # 타이둥현: 두 외딴섬, 하나는 36년 동안 정치범을 가두었고, 하나는 42년 동안 핵폐기물을 저장했다
@@ -152,7 +152,7 @@ _뤼다오 인권기념비, 2022-08-28. Photo: S8321414. [CC BY-SA 4.0 via Wikim
 
 **1982년 5월**, 란위 저장장 1기 공사가 완공되었고, 첫 저준위 핵폐기물이 반입되기 시작했다[^21]. 이 순간부터 1996년 마지막 반입까지, **14년 동안 모두 97,672통의 저준위 방사성폐기물**이 들어왔다[^21]. 출처는 제1, 제2, 제3원전과 타이완 전역의 의료, 농업, 공업, 학술 기관이었다.
 
-![란위 지경, 공항 위쪽에서 내려다본 모습, 2017년. 타이완 본섬에서 90킬로미터 떨어져 있고, 필리핀 바탄제도에 더 가깝다. 섬에는 여섯 다우족 부락이 살며, 총인구는 약 5,000명이다. 1982년 5월부터 섬 동남쪽 룽먼은 핵폐기물 저장을 받기 시작했고, 1996년까지 누적 97,672통이 되었다.](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Lanyu_landscape_-_Taiwan.jpg/1280px-Lanyu_landscape_-_Taiwan.jpg)
+![란위 지경, 공항 위쪽에서 내려다본 모습, 2017년. 타이완 본섬에서 90킬로미터 떨어져 있고, 필리핀 바탄제도에 더 가깝다. 섬에는 여섯 다우족 부락이 살며, 총인구는 약 5,000명이다. 1982년 5월부터 섬 동남쪽 룽먼은 핵폐기물 저장을 받기 시작했고, 1996년까지 누적 97,672통이 되었다.](/article-images/geography/taitung-03.jpg)
 _란위 지경, 2017-07-21. Photo: Pai-Shih Lee (白士 李). [CC BY 2.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Lanyu_landscape_-_Taiwan.jpg)._
 
 1987년, 다우 사람들은 타이완전력이 란위 민의대표를 매수해 일본 관광을 보낸 일에 항의하며 공항에서 시위를 벌였고, 반핵폐기물 운동이 공식적으로 막을 올렸다[^23].
@@ -174,7 +174,7 @@ _란위 지경, 2017-07-21. Photo: Pai-Shih Lee (白士 李). [CC BY 2.0 via Wik
 조립식 목선, 곧 치누리쿠란(chinurikuran) 대선은 27장의 판자로, 타타라(tatara) 소선은 21장의 판자로 만드는 다우족 공예의 정점이다. 전통 색은 빨강(산의 붉은 흙), 흰색(조개껍데기 재), 검정(솥그을음)이며, 둥근 배눈 문양은 다우족을 대표하는 문화 상징으로 널리 알려져 있다[^28].
 
 ![전통 다우족 조립식 목선, 란위, 2015년 8월. 다우족 대선 chinurikuran은 27장의 목판으로 만들며 8-10명이 탈 수 있고, 소선 tatara는 21장의 목판으로 만든다. 둥근 배눈 문양은 다우족의 가장 널리 알려진 문화 상징이다.](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/The_Traditional_Boat_Of_Tao_People_%28228631843%29.jpeg/1280px-The_Traditional_Boat_Of_Tao_People_%28228631843%29.jpeg)
-_다우족 전통 조립식 목선, 2015-08-02. Photo: Cho Hsun Lu. [CC BY 3.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:The_Traditional_Boat_Of_Tao_People_(228631843).jpeg)._
+_다우족 전통 조립식 목선, 2015-08-02. Photo: Cho Hsun Lu. [CC BY 3.0 via Wikimedia](/article-images/geography/taitung-03.jpg).jpeg)._
 
 란위의 기후는 열대 해양성으로, 연 강우량이 3,000밀리미터를 넘는다(화둥 종곡 타이둥 시구의 약 1,900밀리미터와 해안산맥 배풍면의 1,500밀리미터를 훨씬 넘는다). 겨울철 동북계절풍도 강하다. **다우족의 전통 지하가옥(talakaval)**은 바로 이 기후에 대응하기 위해 설계되었다. 낮은 반지하 구조에, 사방의 흙벽이 단열을 하고, 동북계절풍은 지붕 위를 바로 스쳐 지나간다[^29]. 오늘날 예인 부락은 가장 온전하게 전통 지하가옥 취락을 보존하고 있으며, 란위 전체에서 유일하게 여전히 사람이 거주하는 옛 부락 형태다.
 
@@ -201,7 +201,7 @@ _다우족 전통 조립식 목선, 2015-08-02. Photo: Cho Hsun Lu. [CC BY 3.0 v
 브라운 대로(Mr. Brown Avenue)는 2.2킬로미터의 곧은 전원 소로로, 전봇대가 없고, 브라운 커피 광고 촬영으로 유명해졌다. **2009년부터 츠상 추수 벼이삭 예술제**가 매년 10월 말 열리며, 윈먼무집, 유런선구, 장후이메이, 에그플랜트 에그 등이 공연한 적이 있다. 논이 곧 무대다[^34].
 
 ![츠상향 브라운 대로의 가네시로 다케시 나무, 2016년 9월. 약 2.2킬로미터의 곧은 전원 소로로, 전봇대가 없고, 브라운 커피 광고 촬영으로 유명해졌다. 2009년부터 츠상 추수 벼이삭 예술제가 매년 10월 말 논 한가운데서 열린다.](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/29-%E4%BC%AF%E6%9C%97%E5%A4%A7%E9%81%93_%2828896712393%29.jpg/1280px-29-%E4%BC%AF%E6%9C%97%E5%A4%A7%E9%81%93_%2828896712393%29.jpg)
-_츠상 브라운 대로, 2016-09-03. Photo: Sinchen.Lin. [CC BY 2.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:29-%E4%BC%AF%E6%9C%97%E5%A4%A7%E9%81%93_(28896712393).jpg)._
+_츠상 브라운 대로, 2016-09-03. Photo: Sinchen.Lin. [CC BY 2.0 via Wikimedia](<https://commons.wikimedia.org/wiki/File:The_Traditional_Boat_Of_Tao_People_(228631843).jpg).\_
 
 그러나 츠상의 벼 물결은 관광객의 타이둥이다. 지역의 타이둥에는 또 다른 소리의 근원이 있다. **난왕 부락(푸유마 Puyuma)**.
 
@@ -258,8 +258,8 @@ _츠상 브라운 대로, 2016-09-03. Photo: Sinchen.Lin. [CC BY 2.0 via Wikimed
 - **Scene §베이난 유적**: [Excavation of the Peinan Site](https://commons.wikimedia.org/wiki/File:Excavation_of_the_Peinan_Site.JPG) — Benson KC Fang, 2012-02-28, CC BY-SA 3.0. 베이난 유적 석판관 발굴 현장.
 - **Scene §훠사오다오**: [Taiwan GreenIsland Human Rights Memorial Monument](https://commons.wikimedia.org/wiki/File:Taiwan_GreenIsland_Human_Rights_Memorial_Monument_2022.jpg) — S8321414, 2022-08-28, CC BY-SA 4.0. 뤼다오 인권기념비.
 - **Scene §란위 지경**: [Lanyu landscape - Taiwan](https://commons.wikimedia.org/wiki/File:Lanyu_landscape_-_Taiwan.jpg) — Pai-Shih Lee (白士 李), 2017-07-21, CC BY 2.0. 란위 조감.
-- **Scene §조립식 목선**: [The Traditional Boat Of Tao People](https://commons.wikimedia.org/wiki/File:The_Traditional_Boat_Of_Tao_People_(228631843).jpeg) — Cho Hsun Lu, 2015-08-02, CC BY 3.0. 다우족 전통 조립식 목선.
-- **Scene §츠상 벼 물결**: [브라운 대로](https://commons.wikimedia.org/wiki/File:29-%E4%BC%AF%E6%9C%97%E5%A4%A7%E9%81%93_(28896712393).jpg) — Sinchen.Lin, 2016-09-03, CC BY 2.0. 츠상향 브라운 대로 가네시로 다케시 나무.
+- **Scene §조립식 목선**: [The Traditional Boat Of Tao People](/article-images/geography/taitung-03.jpg).jpeg) — Cho Hsun Lu, 2015-08-02, CC BY 3.0. 다우족 전통 조립식 목선.
+- **Scene §츠상 벼 물결**: [브라운 대로](<https://commons.wikimedia.org/wiki/File:The_Traditional_Boat_Of_Tao_People_(228631843).jpg) — Sinchen.Lin, 2016-09-03, CC BY 2.0. 츠상향 브라운 대로 가네시로 다케시 나무.
 
 라이선스 조항: [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) / [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) / [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) / [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 

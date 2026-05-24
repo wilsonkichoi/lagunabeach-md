@@ -10,10 +10,10 @@ lastVerified: 2026-05-13
 lastHumanReview: false
 category: People
 translatedFrom: People/李珠珢.md
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:451da618ddccb297'
-sourceBodyHash: 'sha256:4b9c8f80e4d299c5'
-translatedAt: '2026-05-17T06:15:00Z'
+sourceCommitSha: '6b59db34'
+sourceContentHash: 'sha256:c87fa614c30922e7'
+sourceBodyHash: 'sha256:c0d649ed19f7f301'
+translatedAt: '2026-05-25T06:35:06+08:00'
 ---
 
 > **Aperçu en 30 secondes :** Lee Ju-eun a signé un contrat d'exclusivité complète avec les Fubon Braves en 2025, puis a clairement recentré sa carrière à Taïwan en 2026. Son importance ne réside pas uniquement dans sa forte visibilité : elle a fait évoluer le parcours des pom-pom girls coréennes (韓援) d'un modèle « aller-retour bilatéral » vers une « installation durable à Taïwan ».
@@ -22,7 +22,7 @@ Après avoir suscité un engouement en Corée du Sud, elle ne s'est pas content�
 
 Les signaux de reconduction avant et après la saison 2026 ont concrétisé cette trajectoire : elle ne s'est pas contentée de passer par Taïwan — elle l'a intégré au cœur de sa carrière.
 
-L'édition numérique du *United Daily News* / *UDN News* rapporte, dans son article de mars 2026 sur la conférence de presse d'ouverture des Fubon Angels, que Lee Ju-eun, reconduite chez les Fubon Braves, a été émue jusqu'aux larmes en saluant les supporters en chinois ; le même article mentionne aussi des détails sur l'événement, comme la présence de Park Seong-eun portant un cache-œil à cause d'un orgelet — autant d'éléments utiles pour saisir le climat médiatique de cette période. [Source : United Daily News / UDN News][^6]
+L'édition numérique du _United Daily News_ / _UDN News_ rapporte, dans son article de mars 2026 sur la conférence de presse d'ouverture des Fubon Angels, que Lee Ju-eun, reconduite chez les Fubon Braves, a été émue jusqu'aux larmes en saluant les supporters en chinois ; le même article mentionne aussi des détails sur l'événement, comme la présence de Park Seong-eun portant un cache-œil à cause d'un orgelet — autant d'éléments utiles pour saisir le climat médiatique de cette période. [Source : United Daily News / UDN News][^6]
 
 ## De la viralité à l'ancrage à long terme
 
@@ -59,7 +59,7 @@ Ce changement de paradigme est probablement l'une des évolutions les plus impor
 
 ## Références / Sources
 
-[^6]: *United Daily News* / *UDN News* (journaliste Yeh Pei-yu), « CPBL / Les cinq renforts coréennes des Fubon Braves apparaissent ensemble — Lee Ju-eun, “je vous ai trop manqués”, fond en larmes d'émotion », 2026-03-25, https://udn.com/news/story/7002/9402487
+[^6]: _United Daily News_ / _UDN News_ (journaliste Yeh Pei-yu), « CPBL / Les cinq renforts coréennes des Fubon Braves apparaissent ensemble — Lee Ju-eun, “je vous ai trop manqués”, fond en larmes d'émotion », 2026-03-25, https://udn.com/news/story/7002/9402487
 
 Autres sources vérifiables :
 
