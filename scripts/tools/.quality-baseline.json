@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-05-23T15:10:16Z",
-  "total": 751,
-  "flagged": 314,
+  "timestamp": "2026-05-24T15:09:03Z",
+  "total": 753,
+  "flagged": 315,
   "files": [
     {
       "file": "music/拍謝少年.md",
@@ -813,6 +813,11 @@
       "file": "people/南珉貞.md",
       "score": 5,
       "reasons": "年份4個; 未人工審核; 塑膠句1個; 稀薄段落×5"
+    },
+    {
+      "file": "people/鄭愁予.md",
+      "score": 9,
+      "reasons": "未人工審核; 塑膠句1個; 破折號22個; 後段清單堆砌35%; 稀薄段落×2"
     },
     {
       "file": "people/沈聖博.md",

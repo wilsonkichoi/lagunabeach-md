@@ -1,28 +1,28 @@
 {
-  "totalArticles": 4567,
+  "totalArticles": 4579,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 6883,
+  "totalTags": 6762,
   "categories": [
     {
       "name": "es",
-      "count": 752
+      "count": 754
     },
     {
       "name": "ko",
-      "count": 756
+      "count": 758
     },
     {
       "name": "fr",
-      "count": 772
+      "count": 774
     },
     {
       "name": "en",
-      "count": 773
+      "count": 775
     },
     {
       "name": "ja",
-      "count": 761
+      "count": 763
     },
     {
       "name": "History",
@@ -30,7 +30,7 @@
     },
     {
       "name": "Society",
-      "count": 73
+      "count": 74
     },
     {
       "name": "Culture",
@@ -38,7 +38,7 @@
     },
     {
       "name": "People",
-      "count": 219
+      "count": 220
     },
     {
       "name": "Music",
@@ -88,7 +88,7 @@
   "topTags": [
     {
       "name": "Economy",
-      "count": 77
+      "count": 76
     },
     {
       "name": "人物",
@@ -100,15 +100,15 @@
     },
     {
       "name": "科技與企業",
-      "count": 46
+      "count": 45
     },
     {
       "name": "TSMC",
-      "count": 38
+      "count": 37
     },
     {
       "name": "文學",
-      "count": 30
+      "count": 32
     },
     {
       "name": "AI",
@@ -116,7 +116,11 @@
     },
     {
       "name": "ODM",
-      "count": 28
+      "count": 27
+    },
+    {
+      "name": "客家",
+      "count": 27
     },
     {
       "name": "金曲獎",
@@ -127,15 +131,11 @@
       "count": 27
     },
     {
-      "name": "기업",
-      "count": 27
-    },
-    {
-      "name": "客家",
+      "name": "半導體",
       "count": 26
     },
     {
-      "name": "半導體",
+      "name": "기업",
       "count": 26
     },
     {
@@ -168,13 +168,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4567,
+    "zh-TW": 4579,
     "en": 0
   },
-  "lastUpdated": "2026-05-23T15:10:16.382Z",
+  "lastUpdated": "2026-05-24T15:09:03.152Z",
   "stars": 1006,
   "forks": 148,
-  "zhPages": 3794,
-  "enPages": 773,
-  "totalPages": 4567
+  "zhPages": 3804,
+  "enPages": 775,
+  "totalPages": 4579
 }
