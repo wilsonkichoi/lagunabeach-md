@@ -110,7 +110,7 @@ Depuis 2002, il dirige le programme DOTSTAR (Dropwindsonde Observation for Typho
 
 Wu Jun-jie decrit à la première personne ce qu'il ressent dans l'oeil d'un typhon :
 
-> « J'ai grandi à Taidong, j'ai chasse des typhons. On sent d'abord le vent du nord, car le typhon tourne dans le sens inverse des aiguilles d'une montre, puis soudain il n'y a plus de vent — c'est que l'on est dans l'oeil du typhon ; quelques dizaines de minutes plus tard, le vent du sud se leve — c'est que l'oeil du typhon est deja passe. »
+> « J'ai grandi à Taitung, j'ai chasse des typhons. On sent d'abord le vent du nord, car le typhon tourne dans le sens inverse des aiguilles d'une montre, puis soudain il n'y a plus de vent — c'est que l'on est dans l'oeil du typhon ; quelques dizaines de minutes plus tard, le vent du sud se leve — c'est que l'oeil du typhon est deja passe. »
 
 Mais le programme de poursuite des typhons n'est qu'une partie du tableau. En 1998, Taiwan devint le premier pays au monde à utiliser des avions-sondes sans pilote Aerosonde pour observer les typhons.[^10] Après que les Etats-Unis interdirent l'exportation de l'Aerosonde en septembre 2001, Taiwan resta le dernier pays à posseder et utiliser ce système.
 
