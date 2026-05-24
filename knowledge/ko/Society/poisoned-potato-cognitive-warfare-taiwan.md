@@ -324,7 +324,7 @@ framing chain이 '중공 발주 → 국민당 확산 → 미디어 확대'보다
 
 ## 참고 자료
 
-[^1]: [자유시보: 중국 대만판이 '독감자'가 대만 식탁에 오른다고 주장 육위회 비판: 이러쿵저러쿵 말할 필요 없다](https://news.ltn.com.tw/news/politics/breakingnews/5420147) — 2026-04-29 국대판 대변인 천빈화 원본 종합 전언(다중 출처 비교: 대공 문회, Newtalk, ETtoday verbatim 일치).
+[^1]: [자유시보: 중국 국대판이 '독감자'가 대만 식탁에 오른다고 주장 육위회 비판: 이러쿵저러쿵 말할 필요 없다](https://news.ltn.com.tw/news/politics/breakingnews/5420147) — 2026-04-29 국대판 대변인 천빈화 원본 종합 전언(다중 출처 비교: 대공 문회, Newtalk, ETtoday verbatim 일치).
 
 [^2]: [Newtalk: 라이칭더 '외교 돌파' 거부됨? 국대판이 또 독감자 끌어들임](https://newtalk.tw/news/view/2026-04-29/1032379) — 같은 기자회견 '헌상물' 프레임 역사 사용법 분석.
 

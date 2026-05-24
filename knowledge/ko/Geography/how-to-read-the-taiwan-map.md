@@ -103,7 +103,7 @@ translatedAt: '2026-05-13T01:08:20Z'
 
 1955년, 미 공군 장성 벤저민 O. 데이비스 주니어(Benjamin O. Davis Jr.)가 대만해협 한가운데에 하나의 "중간선"을 그었다. 양안(兩岸) 군용기의 사실상의 경계선이었다[^11]. 대만 국방부는 2019년 이 선의 좌표를 공개했다. 북쪽 27도N, 122도E에서 남쪽 23도N, 118도E까지[^11]. 그러나 중국 외교부의 입장은 한결같다. 해협 중간선은 처음부터 존재한 적이 없다는 것이다.
 
-보이지 않는 또 하나의 선이 있다. 방공식별구역(ADIZ)이다. 대만의 ADIZ는 1954년 미군이 설정한 것으로, 그 범위는 중국 본토의 푸젠(福建), 저장(浙江), 장시(江西) 상공까지 뻗어 있다[^12]. 2013년 중국은 자체 ADIZ를 선포했고, 이는 대만의 ADIZ와 겹친다. ADIZ는 영공이 아니다. 이를 정의하는 국제 조약도, 이를 인정하는 국제기구도 없다. 하지만 매일 이것 때문에 전투기가 뜬다[^12].
+보이지 않는 또 하나의 선이 있다. 방공식별구역(ADIZ)이다. 대만의 ADIZ는 1954년 미군이 설정한 것으로, 그 범위는 중국의 푸젠(福建), 저장(浙江), 장시(江西) 상공까지 뻗어 있다[^12]. 2013년 중국은 자체 ADIZ를 선포했고, 이는 대만의 ADIZ와 겹친다. ADIZ는 영공이 아니다. 이를 정의하는 국제 조약도, 이를 인정하는 국제기구도 없다. 하지만 매일 이것 때문에 전투기가 뜬다[^12].
 
 > 단 한 번도 서명된 적 없는 선 하나와 단 한 번도 정의된 적 없는 구역 하나가, 이 해역의 가장 생생한 일상을 구성하고 있다.
 
@@ -160,7 +160,7 @@ translatedAt: '2026-05-13T01:08:20Z'
 
 [^11]: [Taiwan Strait — Wikipedia (EN)](https://en.wikipedia.org/wiki/Taiwan_Strait) — 대만해협 중간선의 1955년 기원, 2019년 좌표 공개, 중국의 부정.
 
-[^12]: [Air Defense Identification Zone (Taiwan) — Wikipedia (EN)](<https://en.wikipedia.org/wiki/Air_Defense_Identification_Zone_(Taiwan)>) — 대만 ADIZ의 1954년 미군 설정, 중국 본토 상공까지 포함, 국제법적 근거 부재.
+[^12]: [Air Defense Identification Zone (Taiwan) — Wikipedia (EN)](<https://en.wikipedia.org/wiki/Air_Defense_Identification_Zone_(Taiwan)>) — 대만 ADIZ의 1954년 미군 설정, 중국 상공까지 포함, 국제법적 근거 부재.
 
 [^13]: [Marine Regions — Overlapping claim Taiwan](https://www.marineregions.org/eezdetails.php?mrgid=8321) — 대만해협 대륙붕 수심과 배타적 경제수역 중첩 분쟁.
 
