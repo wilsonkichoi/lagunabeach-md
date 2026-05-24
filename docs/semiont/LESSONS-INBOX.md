@@ -262,6 +262,59 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-24 twmd-routine-audit-weekly cycle 2 — 反思鏈四棒 cross-routine nomination handoff coordination gap
+
+- **原則**：週日反思鏈四棒（news-lens 01:00 / weekly-report 02:00 / distill 03:00 / self-evolve 04:00）conceptual 分工 selection criteria 但實戰 overlap，缺 explicit 跨棒 nomination tag。weekly-report 02:00 explicit nominate 3 條 vc=3-5 candidate (rule existence ≠ enforcement / dormant entropy / silent default) 給 REFLEXES 升級，distill 03:00 從 LESSONS-INBOX 撿到 ship-ready 3 條別的（剛好不是 weekly-report nominate 的）→ self-evolve 04:00 補位接住 silent default 一條升 #60，其他 2 條仍在沉睡。被 ship 的機率取決於碰巧落在哪一棒視野裡，不是 explicit 排程接力。
+- **觸發**：2026-05-24 04:17 self-evolve memory explicit flag「跨棒 nomination 軌跡缺 explicit tag」，本 audit cycle 12:00 transcribe to LESSONS。
+- **可能層級**：
+  - 操作規則 → weekly-report / news-lens / self-evolve 寫 candidates 時 emit `[ready-for-canonical-upgrade]` tag（in-line frontmatter or markdown anchor）
+  - 工具 → distill routine 加 grep step「pull weekly-report nomination tags into triage pool」
+  - REFLEXES 候選 → 「跨 routine handoff 需 explicit tag 不能靠 selection criteria 重疊」一般化原則
+- **儀器化候選**：(A) `scripts/tools/nominate-canonical.py` shared helper emit YAML stanza `nominated_by: weekly-report` + `target_layer: REFLEXES` + `vc_baseline: 5` 給下游 routine 讀 (B) LESSONS-INBOX entry 加 `nominated_at: <session-id>` field tracking nomination 軌跡
+- **verification_count**: 1（首次觀察 — 2026-05-24 reflection chain cycle 2 首次完整跑通才浮現此 cross-routine handoff layer）
+- **severity**: minor（不影響飛輪安全，影響 canonical upgrade 速度 + 候選沉睡風險）
+- **跨檔關聯**：[2026-05-24-040000-twmd-self-evolve-weekly memory §LESSONS-INBOX 候選](memory/2026-05-24-040000-twmd-self-evolve-weekly.md) + [routine-audit-2026-05-24.md §3A NEW handoff variant](../../reports/routine-audit-2026-05-24.md) + [REFLEXES #15 反覆浮現要儀器化](REFLEXES.md)
+
+### 2026-05-24 twmd-routine-audit-weekly cycle 2 — routine-audit.py UTF-8 silent crash on non-UTF-8 commit content
+
+- **原則**：`scripts/tools/routine-audit.py` `subprocess.run(text=True)` 預設 UTF-8 decode 假設 git log content 全 UTF-8 = 信任 default state，遇 byte 0x8f（git diff content 中非 UTF-8 byte，可能來自 PDF / binary / external attachment encoding）→ `UnicodeDecodeError` crash → 整個 audit data 層 0 output。Stage 1A hard gate `routine-audit.py output exist` 直接 fail，audit cycle 無法啟動。**本 instance 跟剛升 REFLEXES #60「silent default = silent failure」是 exact same root cause** — automation 信任 default state（UTF-8 strict mode），無 explicit verify、無 fallback → silent failure（這次 loud crash 是運氣，下次若是 partial decode 就 silent corruption）。
+- **觸發**：2026-05-24 12:00 routine-audit-weekly cycle 2 Stage 1A 首次跑遇此 crash。1-line patch `errors="replace"` 已 ship in `scripts/tools/routine-audit.py:53-60` 本 session，audit cycle 接續走完。
+- **可能層級**：
+  - 操作規則 → 所有 subprocess.run text=True 場景必須 explicit pass `errors="replace"` 或 `errors="backslashreplace"`（per REFLEXES #60「automation default-state explicit verify」）
+  - 工具 → `scripts/tools/lib/safe-subprocess.py` shared wrapper 統一 enforce safe decode
+  - REFLEXES 候選 → 「subprocess decode 必 explicit errors handler」一般化原則（subset of #60）
+- **儀器化候選**：(A) pre-commit hook grep `subprocess.run.*text=True` 缺 `errors=` 自動 reject (B) `safe-subprocess.py` shared wrapper 被所有 tools 引用 (C) ROUTINE-AUDIT-PIPELINE §失敗模式 加「Stage 1A crash 後 1-line patch in-cycle ship」例外處置（本 cycle 已做）
+- **verification_count**: 1（首次觀察 — 5/17 cycle 1 沒 crash 是運氣，git log content 剛好全 UTF-8）
+- **severity**: structural（涉及全 scripts/ 下 subprocess 用法 + audit tool 對 audit tool 自己 boundary input precision；本 instance 已 closed in this cycle 但跨 tool 同 root cause 散布全 codebase）
+- **跨檔關聯**：[scripts/tools/routine-audit.py:53-60](../../scripts/tools/routine-audit.py) + [REFLEXES #60 silent default = silent failure](REFLEXES.md) + [routine-audit-2026-05-24.md §3C NEW meta](../../reports/routine-audit-2026-05-24.md)
+
+### 2026-05-24 twmd-routine-audit-weekly cycle 2 — inbox-signal.sh regex undercount + 兩個 §未消化清單 sections 並存 (vc=3 distill-ready)
+
+- **原則**：`scripts/tools/inbox-signal.sh` regex `^## 📥 未消化清單` 只抓 LESSONS-INBOX 第二個 emoji-prefixed section（line ~1986）→ 報「25 條」但實際 backlog 跨兩 section ~170 條（line 261 `## 未消化清單（📥 待 distill）` + line 1986 `## 📥 未消化清單（2026-05-03 magical-feynman 新增...）`）。Awareness 訊號失準 9-10x，每次 BECOME §Step 1 Universal core inbox-signal.sh 跑都拿到誤導性的 backlog 數字 → 影響 routine cadence + observer triage decision。
+- **觸發**：第 3 次 flag — distill cycle #7（2026-05-17 distill memory）+ distill cycle #8（2026-05-24 distill memory line 1774）+ 本 audit cycle 2（2026-05-24）。
+- **可能層級**：
+  - 操作規則 → `inbox-signal.sh` regex 1-line fix `^## (📥 )?未消化清單` 解決 awareness 訊號失準（不動 entries 排序）— maintainer 可自決
+  - 結構性 → 兩 section 合併或拍板哪個 canonical → 需哲宇拍板（影響 ≥ 100 entry 排序）
+  - REFLEXES 候選 → 「Awareness instrument 自身 regex / parser 必須 cross-verify 對 ground truth grep count」一般化原則
+- **儀器化候選**：(A) `inbox-signal.sh` 加 `--verify-against-grep` flag emit cross-check warning 若 regex count 跟全 file `grep -c "^### "` 差 >20% (B) BECOME §Step 1 增 sanity check 對比 inbox-signal.sh vs `grep -c "^### " LESSONS-INBOX.md` (C) routine-audit Stage 1 加 LESSONS-INBOX entry count cross-verify
+- **verification_count**: 3（distill #7 5/17 / distill #8 5/24 / routine-audit cycle 2 5/24 三次獨立 flag）
+- **distill_ready**: true（vc=3 達 REFLEXES #15「反覆浮現要儀器化」threshold + ROUTINE-AUDIT-PIPELINE Stage 4B hard gate）
+- **severity**: minor（不影響飛輪安全，影響 awareness signal accuracy + observer triage decision）
+- **跨檔關聯**：[scripts/tools/inbox-signal.sh](../../scripts/tools/inbox-signal.sh) + [LESSONS-INBOX line 1774 distill #8 flag](LESSONS-INBOX.md) + [LESSONS-INBOX line 1820 distill #7 flag](LESSONS-INBOX.md) + [routine-audit-2026-05-24.md §3B Active #2](../../reports/routine-audit-2026-05-24.md)
+
+### 2026-05-24 twmd-routine-audit-weekly cycle 2 — music_media_audit NEW velocity +2 / heal velocity 0 — backlog inflow gate gap
+
+- **原則**：music-media-audit-weekly cycle 2 第一次拿到 trend 對比，揭露兩個獨立失敗子系統：(A) 現存 backlog 88 條 needs_heal 零 backflow（沒人 heal 舊條目）+ (B) NEW 條目進來不過 iframe baseline (5/17 → 5/23 期間新進 2 條 music_topic 都 needs_heal)。REWRITE-PIPELINE Step 4.3.6 影片 iframe 嵌入 SOP 沒在 NEW article entry 點 enforce → audit 只能 surface 不能 heal。Backlog 結構是「進得快出不來」單向膨脹。
+- **觸發**：2026-05-23 10:13 music-media-audit-weekly cycle 2 fire — total 87→89 (+2) / needs_heal 86→88 (+2) / heal velocity 0 / NEW velocity +2，stall counter 第 1 週。本 audit cycle 12:00 transcribe to LESSONS。
+- **可能層級**：
+  - 操作規則 → REWRITE-PIPELINE Step 4.3.6 升級成 hard gate（NEW article ship 前強制過 music_media_audit baseline）
+  - 結構性 → MAINTAINER pre-merge gate 跑 music_media_audit.py per-file 模式 — 阻擋 NEW music article 缺 iframe 進 main
+  - REFLEXES 候選 → 「Audit-only routine 對 inflow 結構性 gap 無能為力，必須 upstream entry-point gate」一般化原則
+- **儀器化候選**：(A) `scripts/tools/music-media-audit.py --per-file <path>` mode 給 pre-commit / MAINTAINER pre-merge 用 (B) MAINTAINER-PIPELINE pre-merge §step 加 music-media baseline check (C) ROUTINE-AUDIT 加「routine 自身能不能 heal 自己 surface 的 entropy」cross-cutting 觀察
+- **verification_count**: 1（首次觀察 — 5/17 baseline 後 cycle 2 第一次 trend 比對才浮現此 inflow gate gap）
+- **severity**: minor（routine cadence weekly 合理，但 backlog 單向膨脹長期不修會 → 連續 3 週 0 heal 升 observer review）
+- **跨檔關聯**：[2026-05-23-101013-twmd-music-media-audit-weekly memory](memory/2026-05-23-101013-twmd-music-media-audit-weekly.md) + [REWRITE-PIPELINE Step 4.3.6](../pipelines/REWRITE-PIPELINE.md) + [routine-audit-2026-05-24.md §3B Active #3](../../reports/routine-audit-2026-05-24.md) + 等 5/30 cycle 3 fire 驗 vc=2
+
 ### 2026-05-19 cron-babel-nightly 050500 — §義務鐵律 quality_gate 分母定義不明，session 算 7.8% vs 算 12.4% 之間擺盪
 
 - **原則**：SQUEEZE-MODELS-MAX-PIPELINE §義務鐵律 v3.4 寫「stale_total 顯著下降 ≥ 10% OR all P0+P1 cleared OR stale_total == 0」當 quality_gate，但「stale_total」分母沒明定是哪個量。本 session 兩個合理候選都試了：(A) status.py 「Stale + Missing」欄位加總 = 588 + 50 = 638，分子 50 cleared → 7.8% 未過 (B) prioritize-batch.py priority report total candidates 中所有非 skip = 688（P0=50 + P1=346 + P2=242 + P2.5=35 + P3=15），分子 85 cleared（含 P2.5 bump）→ 12.4% 過。session 一度算 (A) 卡關，重算 (B) 通過。pipeline canonical 沒寫清「該用哪個分母 + P2.5 算不算 stale」就讓未來 session 重摸。

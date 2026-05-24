@@ -52,7 +52,12 @@ PR_SQUASH_PATTERN = r"\(#\d+\)$"
 
 def run_git(args: list[str]) -> str:
     result = subprocess.run(
-        ["git", *args], cwd=REPO, capture_output=True, text=True, check=False
+        ["git", *args],
+        cwd=REPO,
+        capture_output=True,
+        text=True,
+        check=False,
+        errors="replace",
     )
     return result.stdout
 
