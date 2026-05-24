@@ -71,7 +71,7 @@ Pour éradiquer la paresse et l'absentéisme chroniques, il mena personnellement
 >
 > **Innovation sociale :** Promotion de services sociaux pour les groupes vulnérables, incluant des programmes de proximité pour les personnes âgées et les personnes en situation de handicap.
 
-En 1998, Chen Shui-bian briguant un deuxième mandat avec un taux de satisfaction citoyenne de 80 %, il fut néanmoins battu avec 45,91 % des voix par son adversaire 馬英九 (Ma Yingjiu). Dans une logique électorale normale, un maire avec 80 % de satisfaction n'aurait pas dû perdre. Les analyses ultérieures des politologues pointèrent le fossé structurel bleu-vert de l'électorat de Taipei — ce n'étaient pas ses réalisations qui avaient faibli, mais la structure même du corps électoral.
+En 1998, Chen Shui-bian briguant un deuxième mandat avec un taux de satisfaction citoyenne de 80 %, il fut néanmoins battu avec 45,91 % des voix par son adversaire 馬英九 (Ma Ying-jeou). Dans une logique électorale normale, un maire avec 80 % de satisfaction n'aurait pas dû perdre. Les analyses ultérieures des politologues pointèrent le fossé structurel bleu-vert de l'électorat de Taipei — ce n'étaient pas ses réalisations qui avaient faibli, mais la structure même du corps électoral.
 
 Perdre Taipei ne l'empêcha pas, deux ans plus tard, de conquérir tout Taïwan.
 
@@ -146,7 +146,7 @@ En 2002, lors d'un discours en visioconférence, Chen Shui-bian formula la posit
 
 Vers la fin de son deuxième mandat, il alla plus loin avec les « quatre vouloir et pas de problème de ligne » : vouloir l'indépendance, vouloir la rectification du nom, vouloir une nouvelle constitution, vouloir le développement, pas de problème de ligne gauche ou droite. Il promut simultanément le « référendum d'adhésion de Taïwan aux Nations Unies ». Sur le plan diplomatique, la controverse de la « diplomatie de détour » émergea, et les arrangements de transit aux États-Unis créèrent des tensions avec Washington.
 
-La ligne transstraits qu'il promut — centrée sur la subjectivité de Taïwan et insistant sur l'existence indépendante de Taïwan sur la scène internationale — et la ligne du « consensus de 1992 » de son successeur 馬英九 (Ma Yingjiu) constituent le contraste le plus marqué de la politique transstraits taïwanaise. Les différents électorats portent des jugements radicalement différents sur cette période, reflétant la réalité que la société taïwanaise n'a pas encore complètement forgé de consensus sur la question fondamentale : « Qu'est-ce que Taïwan ? »
+La ligne transstraits qu'il promut — centrée sur la subjectivité de Taïwan et insistant sur l'existence indépendante de Taïwan sur la scène internationale — et la ligne du « consensus de 1992 » de son successeur 馬英九 (Ma Ying-jeou) constituent le contraste le plus marqué de la politique transstraits taïwanaise. Les différents électorats portent des jugements radicalement différents sur cette période, reflétant la réalité que la société taïwanaise n'a pas encore complètement forgé de consensus sur la question fondamentale : « Qu'est-ce que Taïwan ? »
 
 ## Réélection en 2004 : le coup de feu la veille du scrutin
 
@@ -203,7 +203,7 @@ Cette année-là, les Taïwanais apprirent pour la première fois que c'était r
 - 謝長廷 (Xie Changting) — compagnon d'équipe de défense lors du procès de l'Incident de Formosa, puis président du Yuan exécutif
 - 呂秀蓮 (Lu Xiulian) — vice-présidente en 2000 et 2004
 - 施明德 (Shi Mingde) — figure centrale de l'Incident de Formosa, puis président du Parti démocrate progressiste, initiateur du mouvement anti-Bian en 2006
-- 馬英九 (Ma Yingjiu) — battit Chen Shui-bian pour la mairie de Taipei en 1998, puis lui succéda à la présidence en 2008
+- 馬英九 (Ma Ying-jeou) — battit Chen Shui-bian pour la mairie de Taipei en 1998, puis lui succéda à la présidence en 2008
 - 美麗島事件 (Incident de Formosa) — le grand procès de 1979 qui engendra une nouvelle génération politique
 - 民主進步黨 (Parti démocrate progressiste) — membre fondateur, premier président issu du parti au pouvoir
 - 台灣民主化進程 (Processus de démocratisation de Taïwan) — l'alternance politique comme nœud clé de la consolidation démocratique
