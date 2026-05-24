@@ -108,7 +108,7 @@ Together, these two axes form the complete picture of Taiwan's anime and manga e
 
 [^1]: [Fancy Frontier — Wikipedia](https://zh.wikipedia.org/zh-tw/%E9%96%8B%E6%8B%93%E5%8B%95%E6%BC%AB%E7%A5%AD) — Complete history of Taiwan's largest anime and doujin convention, Fancy Frontier (FF), including records of over 40 editions since the inaugural event in 1999
 
-[^2]: [VTuber — Wikipedia](https://zh.wikipedia.org/zh-tw/Vtuber) — Comprehensive entry on VTuber culture, including the Japanese origins in 2016–17, hololive China's Taiwan branch, and records of the development of Taiwan's local VTuber industry
+[^2]: [VTuber — Wikipedia](https://zh.wikipedia.org/zh-tw/Vtuber) — Comprehensive entry on VTuber culture, including the Japanese origins in 2016–17, the Taiwanese members of the hololive China branch, and records of the development of Taiwan's local VTuber industry
 
 ---
 

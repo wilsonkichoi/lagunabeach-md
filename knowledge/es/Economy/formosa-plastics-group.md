@@ -57,7 +57,7 @@ La capitalización bursátil combinada de las Cuatro Joyas supera los 1,5 billon
 
 - Ingresos consolidados: aproximadamente 3 billones de nuevos dólares taiwaneses (2025, suma de las Cuatro Joyas)
 - Número total de empleados: más de 100.000 personas (incluidas sedes en el extranjero)
-- Bases de producción: Taiwán, China continental, Estados Unidos, Vietnam y otros lugares
+- Bases de producción: Taiwán, China, Estados Unidos, Vietnam y otros lugares
 - Activos totales: más de 2,5 billones de nuevos dólares taiwaneses
 
 **Desempeño de las Cuatro Joyas de Formosa Plastics** (2025):

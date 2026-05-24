@@ -67,7 +67,7 @@ En 2024, los ingresos anuales de Wistron alcanzaron los 1,0049 billones de dóla
 
 **Presencia global**:
 
-- **Bases de manufactura**: Taiwán, China continental, India, Vietnam, México, República Checa, Estados Unidos y otros 7 países
+- **Bases de manufactura**: Taiwán, China, India, Vietnam, México, República Checa, Estados Unidos y otros 7 países
 - **Centros de I+D**: 15 centros de investigación y desarrollo en todo el mundo, con más de 12.000 investigadores
 - **Oficinas de servicio**: Presente en 30 países, ofreciendo servicios localizados
 

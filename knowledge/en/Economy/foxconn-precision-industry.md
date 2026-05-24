@@ -20,7 +20,7 @@ translatedAt: '2026-05-09T14:29:43Z'
 
 > **30-Second Overview**
 >
-> Foxconn (Hon Hai Precision Industry) posted full-year 2025 revenue of NT$8.1 trillion. Cloud and network products surpassed consumer electronics for the first time at 40% versus 38%, becoming the group's largest business segment. In April 2026, Foxconn was named to the *Time* 100 Most Influential Companies list, with *Time* describing it as "one of the most important companies in the field of artificial intelligence"[^9][^10]. But on that very same day, the New Taipei District Prosecutors Office searched Foxconn's Tucheng headquarters. A department director and a senior manager in the overseas business division were released on bail for allegedly accepting tens of millions of NTD in kickbacks during global expansion procurement[^1][^2]. Foxconn had dealt with even larger internal fraud before: from former Senior Vice President Liao Wancheng's NT$160 million kickback case in 2014[^7], to the 2015 establishment of the Fraud Prevention Division and a NT$50 million "Ghost-Busting Bonus" reward program[^6], to the first public exposure of the "Ghost-Busting Trio" in 2026[^5]. In a contract manufacturing empire spanning 24 countries with roughly 900,000 employees, the hardest thing to manage is its own people.
+> Foxconn (Hon Hai Precision Industry) posted full-year 2025 revenue of NT$8.1 trillion. Cloud and network products surpassed consumer electronics for the first time at 40% versus 38%, becoming the group's largest business segment. In April 2026, Foxconn was named to the _Time_ 100 Most Influential Companies list, with _Time_ describing it as "one of the most important companies in the field of artificial intelligence"[^9][^10]. But on that very same day, the New Taipei District Prosecutors Office searched Foxconn's Tucheng headquarters. A department director and a senior manager in the overseas business division were released on bail for allegedly accepting tens of millions of NTD in kickbacks during global expansion procurement[^1][^2]. Foxconn had dealt with even larger internal fraud before: from former Senior Vice President Liao Wancheng's NT$160 million kickback case in 2014[^7], to the 2015 establishment of the Fraud Prevention Division and a NT$50 million "Ghost-Busting Bonus" reward program[^6], to the first public exposure of the "Ghost-Busting Trio" in 2026[^5]. In a contract manufacturing empire spanning 24 countries with roughly 900,000 employees, the hardest thing to manage is its own people.
 
 ## Why This Article Now
 
@@ -28,7 +28,7 @@ The iPhone in your hand, the PlayStation in your living room, the NVIDIA GB200 A
 
 From the NT$100,000 that [Terry Gou](/people/郭台銘) borrowed from his mother Chu Yung-chen's rotating credit association in 1974 to found "Plastics Industry"[^13], to becoming the first listed company in Taiwan to break NT$8 trillion in annual revenue in 2025[^9], Foxconn's story has been told hundreds of times. This article does not retell that narrative.
 
-April 30, 2026, was one of the most contradictory days in Foxconn's recent history: in the morning it was the global AI manufacturing champion anointed by *Time* magazine; by evening it was the target of a search by the New Taipei District Prosecutors Office[^1][^10]. The same balance sheet, two entries being recorded simultaneously in opposite directions. That is the core of this rewrite.
+April 30, 2026, was one of the most contradictory days in Foxconn's recent history: in the morning it was the global AI manufacturing champion anointed by _Time_ magazine; by evening it was the target of a search by the New Taipei District Prosecutors Office[^1][^10]. The same balance sheet, two entries being recorded simultaneously in opposite directions. That is the core of this rewrite.
 
 ## The Search Warrant the Day Before the Long Weekend
 
@@ -46,13 +46,13 @@ The wording of this announcement is virtually the standard format for corporate 
 
 ## The Ghost-Busting Trio
 
-A *Mirror Media* exclusive report on May 1, 2026, revealed that the people "sitting on-site, closely monitoring throughout" on the day of the search were an internal unit the media dubbed the "Ghost-Busting Trio"[^5].
+A _Mirror Media_ exclusive report on May 1, 2026, revealed that the people "sitting on-site, closely monitoring throughout" on the day of the search were an internal unit the media dubbed the "Ghost-Busting Trio"[^5].
 
-| Role | Name | Prior Government Background |
-|---|---|---|
-| Chief Auditor | Li Shun-pao | Former Deputy Auditor-General, Audit Division |
-| Director, Fraud Prevention Division | Li Ming-yin | Former Chief, Crime Prevention Section, Taoyuan City Investigation Station / Former Chief, Taoyuan Mobile Station |
-| Manager, Fraud Prevention Division | Lin Ming-hung | Former Deputy Chief, Penghu Investigation Station / Former Deputy Chief, Taoyuan Mobile Station |
+| Role                                | Name          | Prior Government Background                                                                                       |
+| ----------------------------------- | ------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Chief Auditor                       | Li Shun-pao   | Former Deputy Auditor-General, Audit Division                                                                     |
+| Director, Fraud Prevention Division | Li Ming-yin   | Former Chief, Crime Prevention Section, Taoyuan City Investigation Station / Former Chief, Taoyuan Mobile Station |
+| Manager, Fraud Prevention Division  | Lin Ming-hung | Former Deputy Chief, Penghu Investigation Station / Former Deputy Chief, Taoyuan Mobile Station                   |
 
 Three people, three government anti-corruption backgrounds. They are not PR-level "Chief Compliance Officers" — they are people who brought the Investigation Bureau's investigative logic inside Foxconn[^5].
 
@@ -80,11 +80,11 @@ The Liao Wancheng case was a long story in the judicial system, but within Foxco
 
 In mid-2015, [Terry Gou](/people/郭台銘) established a new independent department outside the existing Legal Office and Audit Office: the **Fraud Prevention Division**[^6].
 
-*CommonWealth Magazine* called it the "Foxconn Anti-Corruption Agency"[^6]. Gou simultaneously established a "Ghost-Busting Bonus" of up to NT$50 million per case to encourage employees to report internal fraud[^6].
+_CommonWealth Magazine_ called it the "Foxconn Anti-Corruption Agency"[^6]. Gou simultaneously established a "Ghost-Busting Bonus" of up to NT$50 million per case to encourage employees to report internal fraud[^6].
 
 This was an unusual design in the history of Chinese-family-business governance. Most family enterprises rely on a triangle of the owner's trusted confidants, accounting firms, and the general counsel for internal controls. Foxconn outsourced this to an internal audit team composed of former government anti-corruption officials, granting them independent investigative authority and substantial whistleblower rewards. The logic was: when a company grows to 900,000 people across 24 countries[^11], the owner's trusted confidants cannot see every purchase order, accountants cannot see overseas accounts, and the general counsel gets involved too late. You need an internal unit that knows how to use the tools of an investigation bureau.
 
-On April 30, 2026, this design was tested. Foxconn's public response did not highlight this point, but reports from *Mirror Media* and CTS News indicated that the case was detected through internal audits by Foxconn's Fraud Prevention Division, which then proactively reported it to both the New Taipei District Prosecutors Office and the Taipei City Investigation Station of the Investigation Bureau[^15].
+On April 30, 2026, this design was tested. Foxconn's public response did not highlight this point, but reports from _Mirror Media_ and CTS News indicated that the case was detected through internal audits by Foxconn's Fraud Prevention Division, which then proactively reported it to both the New Taipei District Prosecutors Office and the Taipei City Investigation Station of the Investigation Bureau[^15].
 
 ## Another Track Across Borders
 
@@ -92,7 +92,7 @@ Another dimension of Foxconn's governance risk is cross-border.
 
 Starting in 2024, four Taiwanese executives at Foxconn's Zhengzhou facility were detained by Chinese public security authorities on suspicion of "non-state-functionary bribery"[^12]. Earlier, in April, Zhengzhou police had also traveled across provincial lines to Foxconn's Shenzhen facility to take away two Taiwanese executives, without presenting legal documents at the scene, with only a Chinese security supervisor present[^12].
 
-On October 11, China's Taiwan Affairs Office confirmed that the four individuals were suspected of "non-state-functionary bribery" and "misappropriation of funds," and were under investigation by the relevant authorities[^12].
+On October 11, Beijing's Taiwan Affairs Office confirmed that the four individuals were suspected of "non-state-functionary bribery" and "misappropriation of funds," and were under investigation by the relevant authorities[^12].
 
 The Mainland Affairs Council's response was unusual in judicial news coverage: a deputy chair publicly described the case as "**the circumstances are quite suspicious**" and stated that "the possibility of corruption and abuse of power by a few public security officers cannot be ruled out," calling on Beijing to clarify the matter as soon as possible[^12]. Foxconn stated that the employees' actions had not caused losses to the company and had not harmed the company's interests[^12].
 
@@ -104,13 +104,13 @@ Returning to the contrast at the opening of this article.
 
 In 2025, Foxconn's consolidated revenue was NT$8.1031 trillion, an 18% increase from 2024's NT$6.86 trillion[^9][^14]. Cloud and network products accounted for 40%, **surpassing for the first time** consumer smart products at 38%, becoming the group's largest business segment; AI server revenue grew 170% year-over-year[^9]. Chairman Liu Yang-wei said at the April 30, 2026, earnings call that AI server rack shipments were "growing exponentially," with the group investing over NT$100 billion annually in R&D, focused on AI high-efficiency thermal solutions, smart manufacturing automation, and key EV modules[^9].
 
-On the same day, *Time* magazine released its 2026 list of the 100 Most Influential Companies. Foxconn made the list in the "Innovators" category, described as "one of the most important companies in the field of artificial intelligence," and was simultaneously selected for the inaugural TIME100 Companies Industry Leaders list[^10]. Liu Yang-wei responded:
+On the same day, _Time_ magazine released its 2026 list of the 100 Most Influential Companies. Foxconn made the list in the "Innovators" category, described as "one of the most important companies in the field of artificial intelligence," and was simultaneously selected for the inaugural TIME100 Companies Industry Leaders list[^10]. Liu Yang-wei responded:
 
 > **"This honor affirms Foxconn's ongoing vision of becoming 'an AI-driven, world-class comprehensive company.'"**[^10]
 
 A few hours later, investigators from the Taipei City Investigation Station arrived in Tucheng.
 
-Two Foxconns — one on the cover of *Time*, the other in a material information announcement. The former is the Foxconn of NT$8 trillion revenue and a global AI supply chain hub; the latter is the Foxconn of tens of millions in kickbacks through overseas accounts and forged procurement documents. They are not two companies — they are two tracks being recorded simultaneously in opposite directions on the same balance sheet.
+Two Foxconns — one on the cover of _Time_, the other in a material information announcement. The former is the Foxconn of NT$8 trillion revenue and a global AI supply chain hub; the latter is the Foxconn of tens of millions in kickbacks through overseas accounts and forged procurement documents. They are not two companies — they are two tracks being recorded simultaneously in opposite directions on the same balance sheet.
 
 ## The Distance from NT$100,000 to NT$8 Trillion
 
@@ -141,7 +141,7 @@ Foxconn proactively disclosed the "Ghost-Busting Trio," proactively reported the
 
 What will happen in the next 11 years? No one knows. But April 30, 2026, tells us this: after a contract manufacturing empire's revenue approaches NT$10 trillion[^9], spanning 24 countries with 900,000 employees[^11], with cloud and network products becoming its largest business segment, **the hardest thing to manage is still its own people**.
 
-*Time* magazine's list will continue to be updated. Earnings calls will continue to post record EPS figures. Search warrants from the New Taipei District Prosecutors Office will continue to be delivered to the next address.
+_Time_ magazine's list will continue to be updated. Earnings calls will continue to post record EPS figures. Search warrants from the New Taipei District Prosecutors Office will continue to be delivered to the next address.
 
 ---
 
@@ -175,7 +175,7 @@ What will happen in the next 11 years? No one knows. But April 30, 2026, tells u
 
 [^9]: [CM Media 2026 Foxconn 2025 Revenue NT$8.1 Trillion Sets Taiwan Listed Company Record](https://www.cmmedia.com.tw/home/articles/59971) — CM Media report on Foxconn's 2025 consolidated revenue of NT$8.1031 trillion (up 18% YoY), EPS of NT$13.61 both hitting record highs, cloud and network products at 40% surpassing consumer smart products at 38% for the first time, and AI server revenue growing 170% YoY.
 
-[^10]: [CNA 2026-05-01 Foxconn Selected for Time Magazine's 100 Most Influential Companies, Key AI Company](https://www.cna.com.tw/news/afe/202605010220.aspx) — Central News Agency report on *Time* magazine's April 30 release of the 2026 100 Most Influential Companies list, with Foxconn in the "Innovators" category, described as "one of the most important companies in the field of artificial intelligence," and selected for the inaugural TIME100 Companies Industry Leaders list.
+[^10]: [CNA 2026-05-01 Foxconn Selected for Time Magazine's 100 Most Influential Companies, Key AI Company](https://www.cna.com.tw/news/afe/202605010220.aspx) — Central News Agency report on _Time_ magazine's April 30 release of the 2026 100 Most Influential Companies list, with Foxconn in the "Innovators" category, described as "one of the most important companies in the field of artificial intelligence," and selected for the inaugural TIME100 Companies Industry Leaders list.
 
 [^11]: [Foxconn Group Official Website About Foxconn](https://www.foxconn.com/zh-tw/about/group-profile) — Foxconn Technology Group official company profile, documenting global presence in 24 countries / 205 facilities and offices / approximately 900,000 employees (seasonal peak), Fortune Global 500 rank 28, and other basic data.
 

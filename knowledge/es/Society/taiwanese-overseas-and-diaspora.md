@@ -54,7 +54,7 @@ Entre las décadas de 1960 y 1980, Taiwán vivía bajo la ley marcial, y el movi
 
 La ruptura de relaciones diplomáticas entre Taiwán y Estados Unidos en 1979 fue un punto de inflexión clave. La cuota anual de inmigración que Estados Unidos asignaba a Taiwán enfrentaba una reducción, y un grupo de taiwenses residentes en EE. UU. comenzó a aprender a utilizar las herramientas de la democracia estadounidense para responder: el cabildeo de base (_grassroots lobbying_)[^3]. Entre ellos se encontraban figuras como Tsai Tong-rong, quien había cruzado el océano años atrás, así como Chen Tang-shan, Peng Ming-min y Wang Gui-rong.
 
-El 7 de septiembre de 1974, la Federación Mundial de Asociaciones de Compatriotas Taiwaneses (WFTA) fue fundada en Viena, integrando organizaciones de compatriotas taiwaneses de Estados Unidos, Canadá, Europa, Japón, Australia, Nueva Zelanda y Centroamérica y Sudamérica[^4]. Este fue el primer intento de organización transcontinental de la diáspora taiwanesa.
+El 7 de septiembre de 1974, la Federación Mundial de Asociaciones Taiwanesas (WFTA) fue fundada en Viena, integrando asociaciones de la diáspora taiwanesa de Estados Unidos, Canadá, Europa, Japón, Australia, Nueva Zelanda y Centroamérica y Sudamérica[^4]. Este fue el primer intento de organización transcontinental de la diáspora taiwanesa.
 
 ## Los Ángeles, 1982: el nacimiento de FAPA
 
@@ -64,7 +64,7 @@ La fundación de FAPA no fue casual. El contexto era el siguiente: la maquinaria
 
 Los resultados no tardaron en llegar. En 1987, bajo la presión sostenida de FAPA y de legisladores estadounidenses pro-taiwaneses, la Cámara de Representantes de EE. UU. aprobó la Resolución sobre la Democracia en Taiwán (H.R.1777), en la que instaba al gobierno del Kuomintang a poner fin a la ley marcial y levantar la prohibición de partidos políticos[^6]. Ese mismo año se levantó la ley marcial. El vínculo causal entre ambos hechos es complejo, pero el cabildeo de FAPA generó sin duda una presión externa en el momento preciso.
 
-Hoy, FAPA cuenta con 84 asociaciones de compatriotas taiwaneses y 10 centros taiwaneses en Estados Unidos[^7]. Desde una pequeña oficina en Los Ángeles, se ha convertido en una red de cobertura nacional que lleva más de cuatro décadas en funcionamiento.
+Hoy, FAPA cuenta con 84 asociaciones taiwanesas locales y 10 centros taiwaneses en Estados Unidos[^7]. Desde una pequeña oficina en Los Ángeles, se ha convertido en una red de cobertura nacional que lleva más de cuatro décadas en funcionamiento.
 
 ## El efecto de retorno de Silicon Valley
 
@@ -118,7 +118,7 @@ Tanto el gobierno como el mundo académico debaten la viabilidad del voto electr
 
 Hay una línea que nadie sabe trazar con claridad dentro de la comunidad taiwanesa en el extranjero: la relación entre los nuevos inmigrantes y los antiguos expatriados.
 
-Las sucesivas oleadas de taiwaneses que emigraron en las décadas de 1990, 2000 y 2010 llegaron al extranjero con una identidad taiwanesa más marcada, y a veces experimentan una brecha cultural con los inmigrantes de la década de 1970, cuya identidad aún se encontraba en un período ambiguo. Las antiguas asociaciones de compatriotas taiwaneses siguen existiendo, mientras que los nuevos taiwaneses se agrupan en comunidades de Facebook, Discord y Threads. Bajo la misma etiqueta "taiwanesa", la carga semántica es completamente distinta según la generación.
+Las sucesivas oleadas de taiwaneses que emigraron en las décadas de 1990, 2000 y 2010 llegaron al extranjero con una identidad taiwanesa más marcada, y a veces experimentan una brecha cultural con los inmigrantes de la década de 1970, cuya identidad aún se encontraba en un período ambiguo. Las antiguas asociaciones taiwanesas siguen existiendo, mientras que los nuevos taiwaneses se agrupan en comunidades de Facebook, Discord y Threads. Bajo la misma etiqueta "taiwanesa", la carga semántica es completamente distinta según la generación.
 
 Si en 2050 alguien quiere saber qué preocupaba más a los taiwaneses a comienzos del siglo XXI, los comprobantes de embarque de aquellos que volaron a casa a votar quizás lo expliquen mejor que cualquier documento de política pública.
 
@@ -142,7 +142,7 @@ Si en 2050 alguien quiere saber qué preocupaba más a los taiwaneses a comienzo
 
 [^6]: [Historia de FAPA 1982-2012 — Sitio web oficial de FAPA](https://fapa.org/fapa-history-1982-2012/) — Cuarenta años de historia de cabildeo de FAPA, incluido el proceso de impulso de la Resolución sobre la Democracia en Taiwán de 1987
 
-[^7]: [Asociación Taiwanesa de América — Centro de Documentos Históricos Taiwano-Estadounidenses](https://taiwaneseamericanhistory.org/blog/taiwanese-association-of-america-taa/) — Escala organizativa e historia de las asociaciones de compatriotas taiwaneses en Estados Unidos; estadística de 84 filiales locales
+[^7]: [Asociación Taiwanesa de América — Centro de Documentos Históricos Taiwano-Estadounidenses](https://taiwaneseamericanhistory.org/blog/taiwanese-association-of-america-taa/) — Escala organizativa e historia de las asociaciones taiwanesas en Estados Unidos; estadística de 84 filiales locales
 
 [^8]: [How Taiwan came to dominate the global chip industry — The Conversation](https://theconversation.com/how-taiwan-came-to-dominate-the-global-chip-industry-276939) — El auge de la industria de semiconductores de Taiwán y el contexto histórico de la campaña de Lee Kuo-ting para atraer ingenieros en el extranjero
 

@@ -68,7 +68,7 @@ La empresa cuenta con más de 8,000 empleados de I+D, equivalentes al 5.3% de su
 
 **Desempeño operativo (estimación de 2024, basada en informes de la industria)**:
 
-En 2024, los ingresos anuales de Pegatron rondaron los 1.3 billones de dólares taiwaneses, ubicándola en el primer grupo de la manufactura taiwanesa; su plantilla global fue de aproximadamente 150,000 personas, distribuidas en Taiwán, China continental, República Checa, Indonesia, México y otros lugares.
+En 2024, los ingresos anuales de Pegatron rondaron los 1.3 billones de dólares taiwaneses, ubicándola en el primer grupo de la manufactura taiwanesa; su plantilla global fue de aproximadamente 150,000 personas, distribuidas en Taiwán, China, República Checa, Indonesia, México y otros lugares.
 
 - **Bases de producción**: 12 principales bases de manufactura en el mundo
 - **Personal de I+D**: más de 8,000 personas, alrededor del 5.3% del total de empleados

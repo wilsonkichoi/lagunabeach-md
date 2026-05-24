@@ -100,7 +100,7 @@ Based on the full text of his remarks released after the meeting,[^12] Xi's spee
 - People on both sides of the strait are Chinese, belonging to the same Chinese nation.
 - The world is troubled today; peace is precious.
 - On the common political foundation of "upholding the 1992 Consensus and opposing Taiwan independence," we are willing to strengthen exchanges with all of Taiwan's political parties.
-- National reunification is the trend of history; both sides are "one family" and should jointly bear responsibility for national rejuvenation.
+- National unification is the trend of history; both sides are "one family" and should jointly bear responsibility for national rejuvenation.
 
 Comparing both sides' remarks, a pattern emerges: **Cheng Li-wun raised five concrete matters; Xi Jinping repeated one principle.**
 
