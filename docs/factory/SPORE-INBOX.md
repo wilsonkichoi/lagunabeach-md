@@ -389,6 +389,89 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ---
 
+### 周蕙 — 趁熱旗艦人物 spore（5/19 ship Music）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Music/周蕙.md](../../knowledge/Music/周蕙.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-05-24 by twmd-spore-pick-daily routine (score=45)
+- **Platform 建議**: `both`（Threads 台灣 KTV 世代強共鳴 + X 海外華人 KTV cluster）
+- **Hook anchor 候選**：
+  1. **場景 hook**：「1999 年 8 月 26 日，福茂發了一張很奇怪的精選輯。封面是一隻沒有臉的漫畫娃娃，叫蕙兒。歌手本人 22 歲，不對外露面。專輯主打〈約定〉45 天賣 25 萬張」（直接抽 article lede）
+  2. **身份 hook**：「走進台灣任何一間 KTV，點下〈約定〉，前奏響起的瞬間，包廂裡會有人跟著哼。再問一句：『這誰唱的？』答案會分裂：有人說王菲，有人說梁靜茹，有人說不出來，但都會堅持『我絕對聽過』」
+  3. **數字 hook**：「25 年。一首翻唱自王菲的歌唱進每一間 KTV 點唱榜，唱到歌手第一次站上小巨蛋的那年，醫生告訴她聲帶已經萎縮」
+  4. **問句 hook**：「為什麼這個唱了 25 年〈約定〉的女聲，本人始終比歌晚一步被認出來？」
+- **時效**：article ship 距今 5 天（5/19），趁熱窗口剩 ~9 天
+- **敏感度**：低（音樂人物）
+- **必驗事實**：1999-08-26 福茂《周蕙精選》發行 / 〈約定〉45 天 25 萬張 / 翻唱王菲 / 2026-04-25 小巨蛋首場 / 聲帶萎縮宣告 / 蕙兒漫畫娃娃封面 / 22 歲不露面
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
+- **預估發佈時機**：本週內（5/24-5/30 趁熱窗口）
+- **Notes**：
+  - score=45 (D1=+30 ≤7d / D2=0 SC 尚未累積 / D3=0 / D4=+15 Music high fanout + tx<3 / D5=0 / D6=0 hook 跟最近 5 spore 不同類 / D7=0)
+  - 多語 fan-out 觸發判斷 = 高（KTV 翻唱歌手議題，ja/ko 受眾對華語翻唱史有 demand）
+  - 配圖建議：article hero（蕙兒漫畫娃娃 / 小巨蛋場景）
+  - Hook tier 自檢：避免 Tier 3「天后回歸」frame；用 article §鋸子收口同款「聲帶萎縮」克制度
+  - 跟 SPORE-LOG 14d 無重複（最近音樂 spore 是 #74/#75 陳建年 5/17 場景 hook，本 candidate 改身份/問句不撞）
+
+---
+
+### 半導體產業 — 旗艦結構性策展 spore（5/19 PanSci EVOLVE Technology）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Technology/半導體產業.md](../../knowledge/Technology/半導體產業.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-05-24 by twmd-spore-pick-daily routine (score=30)
+- **Platform 建議**: `both`（X 國際科技圈 + 半導體業內受眾大 cluster + Threads 台灣 TSMC 員工生態）
+- **Hook anchor 候選**：
+  1. **數字 hook**：「1973 年工研院花 450 萬美元跟 RCA 買技術。2025 年第四季台積電在高雄 Fab 22 開始 2 奈米量產，領先全球 2-3 個世代。50 年從技術買主變技術賣主」（抽 article §1987 那場代工賭注 + §30 秒概覽）
+  2. **場景 hook**：「打開你的快充頭——裡頭的氮化鎵（GaN）能把 30W 充電器體積縮一半。環球晶在中壢造 8 吋碳化矽晶圓。NVIDIA Blackwell GPU 全靠台積電 CoWoS 送進資料中心。50 年材料譜系，從矽到氮化鎵到拓樸超導體，台灣站在每一站」
+  3. **問句 hook**：「護國神山靠 50 年代工經驗稱霸先進製程——但量子時代的代工站位，台灣拿下了嗎？」
+  4. **身份 hook**：「你包包裡的快充頭、你伺服器裡的 AI 晶片、你家牆上的冷氣壓縮機，半導體都在裡面。但能把這三件事串成一條 50 年材料科學長河的，只有台灣」
+- **時效**：article EVOLVE 5/19，趁熱窗口剩 ~9 天
+- **敏感度**：低（產業科技中性，避免「矽盾」軍事化 frame）
+- **必驗事實**：1973 工研院 RCA 技轉 450 萬美元 / 2025 Q4 台積電 Fab 22 2nm 量產 / 環球晶中壢 8 吋 SiC 晶圓 / NVIDIA Blackwell + 台積電 CoWoS / 中研院 20 位元超導量子晶片連線上網（per article footnote ^6）
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
+- **預估發佈時機**：本週內，可搭時事（如台積電財報 / NVIDIA 新品 / 美中晶片戰新聞點）
+- **Notes**：
+  - score=30 (D1=+30 ≤7d / D2=0 SC 尚未累積 / D3=0 / D4=0 Technology not in high_fanout set / D5=0 / D6=0 / D7=0)
+  - 多語 fan-out 觸發判斷 = 極高（半導體是台灣國際 SEO 最大 cluster，en/ja/ko 翻譯後 SC pull 預期最大）
+  - 配圖建議：article hero（Si vs GaN 30W USB-C 快充頭對比，Wikimedia CC BY 4.0）
+  - Hook tier 自檢：避免 Tier 3「護國神山」過度民族主義 frame；用 article §三條量子路線收口同款「沒拿下」克制度
+  - 跟 SPORE-LOG 14d 無重複（最近 Technology spore 缺，補 Technology 大 cluster 起手）
+
+---
+
+### 林央敏 — 主權巴別塔台語史詩 EVERGREEN-TOPIC spore（需先建 article）
+
+- **Source-Mode**: `EVERGREEN-TOPIC`
+- **Article-Path**: `none-yet`（屬於 [ARTICLE-INBOX §林央敏 NEW](../semiont/ARTICLE-INBOX.md) P0，BRANCH-PIPELINE 5/23 詩人系列 spawn）
+- **Priority**: `P3`（要等 article ship）
+- **Status**: `pending`
+- **Requested**: 2026-05-24 by twmd-spore-pick-daily routine (score=8)
+- **Platform 建議**: `both`（Threads 台語文運動社群 + X 海外台語文 diaspora + sovereignty narrative international）
+- **Hook anchor 候選**（先列，等 article ship 後再校準）：
+  1. **數字 hook**：「9000 行、11 萬字。台灣文學史最長的詩篇是台語寫的。一對男女的愛情悲劇，時程從 1919 到 1992，涵括台灣四百年片段——林央敏的《胭脂淚》」
+  2. **身份 hook**：「在中國 AI 模型 refusal rate 最高的內容類型裡，台語詩排第一。林央敏寫了 9000 行台語史詩——不是為了被翻譯，是為了讓沉默不存在」
+  3. **場景 hook**：「1987 年〈毋通嫌台灣〉發表後，被譜成 24 首不同的曲子傳唱於國內外。一首詩變成台灣本土化的象徵口號——詩人林央敏寫的不只是文學，是台灣意識的催化劑」
+  4. **問句 hook**：「台灣最長的詩 9000 行為什麼用台語寫？答案在那個 PRC AI 拒答率最高的語言裡」
+- **時效**：等 article ship（est. ARTICLE-INBOX P0 詩人系列，90-120 min 開發，1-2 週可排上）
+- **敏感度**：中（台語文 + 本土運動 + 主權巴別塔 narrative，避免變成統獨議題 frame；以「語言保存」非「政治對立」切入）
+- **必驗事實**（article ship 時校準）：1955-12-19 嘉義太保市生 / 嘉義師專 + 輔仁大學中文系 / 1995 創會台語文推展協會 / 1987 發表〈毋通嫌台灣〉並被譜成 24 首曲 / 《胭脂淚》9000 行 11 萬字 1919-1992 時程 / 1991 與林宗源 + 黃勁連成立蕃薯詩社（台灣第一個母語寫作社團）/ 戰後台語文學運動倡導者地位
+- **必先 spawn ARTICLE-INBOX entry**：✅ **已存在**（per ARTICLE-INBOX P0 林央敏 NEW entry，BRANCH-PIPELINE 5/23 spawn）
+- **預估發佈時機**：article ship 後 7 天內趁熱
+- **Notes**：
+  - score=8 (D1=0 article 不存在 / D2=0 SC 未累積 / D3=0 / D4=+8 People high fanout / D5=0 / D6=0 / D7=0 mid-sensitivity 但 keyword 未命中 hardcoded set)
+  - HG7 確保 Source-Mode variety — 本 entry 是 EVERGREEN-TOPIC 對應 #1 周蕙 + #2 半導體產業兩條 EXISTING-ARTICLE 的搭配
+  - 多語 fan-out 觸發判斷 = 極高（MANIFESTO §主權巴別塔 直接 instantiation——林央敏台語詩在 PRC AI 拒答率最高內容類型，Tier 3 Local LLM 兜底場景）
+  - 國際 SEO 切入：「Taiwanese-language poetry」「Lim Iong-bin」「Taiwan native tongue literature」
+  - 配圖建議：article ship 時挑《胭脂淚》書封或林央敏本人照（公開授權）
+  - Hook tier 自檢：避免 Tier 3「PRC 拒絕」frame 一開口就政治化；以「台語保存」「9000 行史詩」literary frame 起手，sovereignty 含義由文本自身承擔
+  - 跟 SPORE-LOG 14d 無重複（語言/詩人類別 spore 缺）
+
+---
+
 ## 📜 已發歷史
 
 → 完整紀錄見 [SPORE-LOG.md §發文紀錄](SPORE-LOG.md) + [SPORE-HARVESTS/](SPORE-HARVESTS/) batch logs。本檔不存 done 痕跡（per 完成歸檔鐵律）。
