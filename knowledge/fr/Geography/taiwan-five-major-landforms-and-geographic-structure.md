@@ -21,7 +21,7 @@ translatedAt: "2026-05-20T05:08:34+08:00"
 
 ## Aperçu en 30 secondes
 
-Taïwan est une île étirée du nord au sud, au relief complexe, constituée de **cinq grands types de relief** : montagnes, collines, plateaux, bassins et plaines. Les **cinq grandes chaînes de montagnes** (Chaîne centrale, Chaîne Xueshan, Chaîne Yushan, Chaîne Alishan, Chaîne côtière) traversent l'île du nord au sud, tandis que les **cinq grandes plaines** (Jianan, Zhanghua, Pingdong, Yilang, Vallée de Huatong) ont vu naître la civilisation agricole taïwanaise. Cette structure asymétrique — « montagnes à l'est, plaines à l'ouest » — façonne les paysages naturels et la répartition humaine propres à Taïwan.
+Taïwan est une île étirée du nord au sud, au relief complexe, constituée de **cinq grands types de relief** : montagnes, collines, plateaux, bassins et plaines. Les **cinq grandes chaînes de montagnes** (Chaîne centrale, Chaîne Xueshan, Chaîne Yushan, Chaîne Alishan, Chaîne côtière) traversent l'île du nord au sud, tandis que les **cinq grandes plaines** (Jianan, Changhua, Pingdong, Yilang, Vallée de Huatong) ont vu naître la civilisation agricole taïwanaise. Cette structure asymétrique — « montagnes à l'est, plaines à l'ouest » — façonne les paysages naturels et la répartition humaine propres à Taïwan.
 
 Du niveau de la mer au sommet du mont Yushan à 3 952 mètres, Taïwan traverse en moins de 150 kilomètres de distance horizontale quatre zones écologiques — tropicale, subtropicale, tempérée et alpine — une compression verticale quasi unique au monde pour une île de superficie comparable.
 
@@ -121,7 +121,7 @@ Formée par les alluvions de nombreux cours d'eau — la rivière Zhuoshui, la r
 - Principale région de production de canne à sucre, arachignes et patates douces
 - La construction du grand canal de Jianan dans les années 1920 a fait de cette terre le « grenier de Taïwan »
 
-### La plaine de Zhanghua : le don de la rivière Zhuoshui
+### La plaine de Changhua : le don de la rivière Zhuoshui
 
 **Position et caractéristiques :**
 
@@ -130,7 +130,7 @@ Formée par les alluvions de nombreux cours d'eau — la rivière Zhuoshui, la r
 - Principale région d'approvisionnement en fruits et légumes du nord de Taïwan
 
 **Spécificités agricoles :**
-La plaine de Zhanghua est réputée pour son agriculture de précision, notamment son industrie florale. Les raisins de la ville d'Erlin, les raisins Kyoho de la commune de Dacun et les fleurs de la commune de Tianwei sont des marques reconnues de l'agriculture taïwanaise.
+La plaine de Changhua est réputée pour son agriculture de précision, notamment son industrie florale. Les raisins de la ville d'Erlin, les raisins Kyoho de la commune de Dacun et les fleurs de la commune de Tianwei sont des marques reconnues de l'agriculture taïwanaise.
 
 ### La plaine de Pingdong : les tropiques du sud
 
