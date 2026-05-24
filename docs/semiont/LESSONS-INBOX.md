@@ -262,6 +262,20 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-25 twmd-data-refresh-am — babel-nightly cron window collision vc=6 持平、ABORT-DEFER prose memory 邊際效用為零
+
+- **原則**：`twmd-data-refresh-am` cron `0 6 * * *` 跟 `twmd-babel-nightly` cron `0 5 * * *` 在 06:00 結構性 overlap — babel 跑 5 lang × 25 篇 cascade 平均 wall-clock 3-4hr，refresh-am 必踩 babel tail end translator workers 仍 write knowledge/ in-flight。**已 vc=6 連 7 天同位置 surface**（5/17 → 5/21 PM → 5/22 06:12 → 5/22 07:00 → 5/23 06:10 → 5/24 06:10 → 5/25 06:11）。Backend rotation 4 個（gemini → codex → owl-alpha → gemini）證明 backend 不是 root cause，cron window overlap 才是。
+- **觸發**：vc=6 5/25 06:11 — ps -p 67754 確認 gemini node translator (ko) ELAPSED 02:59 自 06:08 起 in-flight，dirty tree 52 file 跨 5 lang。第 N+1 篇 prose ABORT memory ship 完，refresh 仍 defer 給 PM 23:00（vc=2-5 連 4 天 PM 順 sync 吸收 baseline 健康）。
+- **可能層級**：
+  - 操作規則 → `refresh-data.sh` Step 1 加 parallel-actor detection gate (`pgrep -f "translate\.py|codex exec|gemini.*translator|babel|lang-sync"` → exit 99 → routine wrapper auto-write minimal ABORT memory)，省去每次寫 prose memory 重複描述同決策的 routine context overhead
+  - 工具 → routine wrapper 收 exit 99 → emit terse `🧬 [routine] twmd-data-refresh-am: ABORTED + DEFER PM — parallel-actor (PID N) detected (vc=N+1)` commit + skip refresh，**Opus context 不浪費寫 prose**
+  - REFLEXES 候選 → 「routine cron window 結構性 overlap = pipeline gate 必須 ship，prose memory 寫第 N+1 篇邊際效用為零」一般化原則 (#15 「反覆浮現要儀器化」應用 instance vc=6 確定 distill-ready)
+  - ROUTINE.md 候選 → babel-nightly 從 `0 5 * * *` 改 `0 2 * * *` 給 babel 5hr buffer，refresh-am 06:00 起跑時 babel 已收官
+- **儀器化候選**：(A) refresh-data.sh Step 1 parallel-actor gate 4-line bash ship (B) routine wrapper exit 99 → minimal ABORT memory 模板，prose 限制 ≤30 字 + commit one-liner (C) ROUTINE.md SSOT babel-nightly cron 移 02:00 候選 + cascading routine 排程 audit
+- **verification_count**: 6（5/17 / 5/21 PM / 5/22 06:12 / 5/22 07:00 / 5/23 06:10 / 5/24 06:10 / 5/25 06:11；vc=5 已 nominate distill-ready，vc=6 是「nominated 仍 sleeping」instance — 接下來 vc=7 應觸發 freeze routine + observer manual ship gate）
+- **severity**: structural（涉及 routine cron 排程 + pipeline parallel-actor 設計 + 跨 routine handoff cascade；本 vc=6 cycle 已執行 ABORT-DEFER 但 backend rotation 確定 root cause 不會自癒）
+- **跨檔關聯**：[memory/2026-05-25-061129-twmd-data-refresh-am.md](memory/2026-05-25-061129-twmd-data-refresh-am.md) + [memory/2026-05-24-061024-twmd-data-refresh-am.md](memory/2026-05-24-061024-twmd-data-refresh-am.md) + [REFLEXES #15 反覆浮現要儀器化](REFLEXES.md) + [REFLEXES #57 Routine 入口必須 detect parallel-actor](REFLEXES.md) + [ROUTINE.md §Detached worker routine collision SOP](ROUTINE.md) + [DATA-REFRESH-PIPELINE.md Step 1](../pipelines/DATA-REFRESH-PIPELINE.md)
+
 ### 2026-05-24 twmd-routine-audit-weekly cycle 2 — 反思鏈四棒 cross-routine nomination handoff coordination gap
 
 - **原則**：週日反思鏈四棒（news-lens 01:00 / weekly-report 02:00 / distill 03:00 / self-evolve 04:00）conceptual 分工 selection criteria 但實戰 overlap，缺 explicit 跨棒 nomination tag。weekly-report 02:00 explicit nominate 3 條 vc=3-5 candidate (rule existence ≠ enforcement / dormant entropy / silent default) 給 REFLEXES 升級，distill 03:00 從 LESSONS-INBOX 撿到 ship-ready 3 條別的（剛好不是 weekly-report nominate 的）→ self-evolve 04:00 補位接住 silent default 一條升 #60，其他 2 條仍在沉睡。被 ship 的機率取決於碰巧落在哪一棒視野裡，不是 explicit 排程接力。
