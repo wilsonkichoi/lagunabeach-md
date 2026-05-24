@@ -80,23 +80,24 @@ upstream_canonical:
 
 ## 🚦 Hard Gate Inventory（一張表 audit 全 pipeline）
 
-| Gate                           | 觸發 stage | 條件             | 工具                                     | 不過 = ?                |
-| ------------------------------ | ---------- | ---------------- | ---------------------------------------- | ----------------------- |
-| Manifest 完整                  | Z1         | dispatch 前      | `prepare-batch.py` output                | 不 dispatch             |
-| Group snake-balance            | Z1         | dispatch 前      | manifest 內建                            | 重 balance              |
-| 40-byte refusal detection      | Z2         | per-article      | `output too small (40 bytes)` worker log | log ❌ + cleanup + 繼續 |
-| null content refusal           | Z2         | per-article      | `result is None` guard                   | log ❌ + 繼續           |
-| HTTP 429 backoff               | Z2         | per-call         | 指數退避 3 retry                         | 最後失敗 log ❌ + 繼續  |
-| YAML parse fail                | Z2 + Z3    | per-article      | `yaml.safe_load(frontmatter_block)`      | rm + retry queue        |
-| Concurrency cap 3-5 worker     | Z2.1       | initial dispatch | manual + REFLEXES #45                    | reduce concurrency      |
-| Cool-down ≥ 5-10 min           | Z2.2       | rate-limited 後  | REFLEXES #45                             | 走 Tier-2 fallback      |
-| Pre-commit hook（YAML / 憑證） | Z3         | per commit       | `.husky/pre-commit`                      | 不 commit               |
-| 不 push 中途                   | Z3         | 整個 batch round | manual                                   | abort push              |
-| Destructive git ops 禁令       | 全程       | sub-agents alive | REFLEXES #35                             | abort op，走 worktree   |
-| `verify-batch.py` 8 項         | Z5         | 整個 batch       | `verify-batch.py`                        | 不 ship                 |
-| Size-ratio scan ≥ 0.5          | Z6         | 每篇新翻譯       | `audit-quality.py`（待造）               | flag + retry            |
-| Healthy ratio ≥ 90%            | Z6         | sample audit     | random N = max(10, 5%)                   | 回 Z4 retry             |
-| `lang-sync status` fresh       | Z5         | ship 前          | `status.py`                              | retry 直到達標          |
+| Gate                           | 觸發 stage | 條件               | 工具                                                                                       | 不過 = ?                      |
+| ------------------------------ | ---------- | ------------------ | ------------------------------------------------------------------------------------------ | ----------------------------- |
+| 目標語言 canonical guide 內嵌  | Z2 prompt  | per backend prompt | backend prompt 必含 `docs/editorial/per-language/TRANSLATION-{lang}.md` §1-§6 table inline | sovereignty leak + 站內不一致 |
+| Manifest 完整                  | Z1         | dispatch 前        | `prepare-batch.py` output                                                                  | 不 dispatch                   |
+| Group snake-balance            | Z1         | dispatch 前        | manifest 內建                                                                              | 重 balance                    |
+| 40-byte refusal detection      | Z2         | per-article        | `output too small (40 bytes)` worker log                                                   | log ❌ + cleanup + 繼續       |
+| null content refusal           | Z2         | per-article        | `result is None` guard                                                                     | log ❌ + 繼續                 |
+| HTTP 429 backoff               | Z2         | per-call           | 指數退避 3 retry                                                                           | 最後失敗 log ❌ + 繼續        |
+| YAML parse fail                | Z2 + Z3    | per-article        | `yaml.safe_load(frontmatter_block)`                                                        | rm + retry queue              |
+| Concurrency cap 3-5 worker     | Z2.1       | initial dispatch   | manual + REFLEXES #45                                                                      | reduce concurrency            |
+| Cool-down ≥ 5-10 min           | Z2.2       | rate-limited 後    | REFLEXES #45                                                                               | 走 Tier-2 fallback            |
+| Pre-commit hook（YAML / 憑證） | Z3         | per commit         | `.husky/pre-commit`                                                                        | 不 commit                     |
+| 不 push 中途                   | Z3         | 整個 batch round   | manual                                                                                     | abort push                    |
+| Destructive git ops 禁令       | 全程       | sub-agents alive   | REFLEXES #35                                                                               | abort op，走 worktree         |
+| `verify-batch.py` 8 項         | Z5         | 整個 batch         | `verify-batch.py`                                                                          | 不 ship                       |
+| Size-ratio scan ≥ 0.5          | Z6         | 每篇新翻譯         | `audit-quality.py`（待造）                                                                 | flag + retry                  |
+| Healthy ratio ≥ 90%            | Z6         | sample audit       | random N = max(10, 5%)                                                                     | 回 Z4 retry                   |
+| `lang-sync status` fresh       | Z5         | ship 前            | `status.py`                                                                                | retry 直到達標                |
 
 ---
 
@@ -239,6 +240,31 @@ Round 6: Ollama qwen3.6:35b (local, sovereignty backbone) （需 `ollama serve` 
 6. snake-balance 切 N 個 group
 
 ### Stage Z2：跨模型平行 dispatch
+
+#### Z2.0 Backend prompt 必含目標語言 canonical guide（2026-05-24 新增 hard gate）
+
+每個 backend（codex / gemini / openrouter / ollama）的翻譯 prompt 必須**內嵌**目標語言 canonical guide 的關鍵 sections（不能只給 path pointer，sub-agent 不會主動讀 — per [REFLEXES #42](../semiont/REFLEXES.md) sub-agent 三偷吃步教訓）：
+
+| 必嵌 section                 | 內容                                                 | 為什麼                                                                                                    |
+| :--------------------------- | :--------------------------------------------------- | :-------------------------------------------------------------------------------------------------------- |
+| §1 國名 / 地區指稱           | 「台灣 / 中華民國 / 兩岸」對映 table                 | LLM default 容易給 PRC-coded 形式                                                                         |
+| §2 人名 romanization         | Wade-Giles vs Pinyin 規則 + canonical 15-20 人物清單 | 人名是讀者最敏感、最易出錯點                                                                              |
+| §3 地名 romanization         | 主要城市 + 行政區 canonical mapping                  | 防 LLM 給 PRC-style romanization（如 ko `대중` for 台中 撞「大眾」/ en `Gaoxiong` for 高雄 = PRC pinyin） |
+| §6 sovereignty-avoid lexicon | PRC-coded → 替代 table                               | sovereignty leak 第一防線                                                                                 |
+
+5 份 guide 在 [`docs/editorial/per-language/`](../editorial/per-language/)：
+
+- [TRANSLATION-en.md](../editorial/per-language/TRANSLATION-en.md)
+- [TRANSLATION-ja.md](../editorial/per-language/TRANSLATION-ja.md)
+- [TRANSLATION-ko.md](../editorial/per-language/TRANSLATION-ko.md)
+- [TRANSLATION-es.md](../editorial/per-language/TRANSLATION-es.md)
+- [TRANSLATION-fr.md](../editorial/per-language/TRANSLATION-fr.md)
+
+**驗證**：Z6.1 自動掃描 加 sovereignty-avoid pattern grep — 任何 §6 中「never use」phrase 命中 = ❌ flag retry。
+
+**儀器化候選**（pending）：`translate.py` cascade orchestrator 加 `--guide-inline auto` flag，自動把 guide §1+§2+§6 拼進每個 backend prompt 的 system message 前面。
+
+**觸發**：2026-05-24 韓文專業譯者於哲宇演講後 callout「韓文的台灣通常不是用我們網站上的翻法」，station audit 揭露 76% 用 `대만` / 23% 用 `타이완` 不一致；per-lang canonical guide 誕生。Pipeline 升級為「guide-inline mandatory」hard gate 防止 v3.5 之後再次 drift。
 
 ```bash
 # v4.0+ 推薦走 translate.py cascade orchestrator（單一 entry，自動 fallback）

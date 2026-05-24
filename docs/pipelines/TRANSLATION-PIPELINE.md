@@ -104,23 +104,24 @@ upstream_canonical:
 
 ## 🚦 Hard Gate Inventory（一張表 audit 全 pipeline）
 
-| Gate                                         | 觸發 stage / mode  | 條件                         | 工具                                         | 不過 = ?                   |
-| -------------------------------------------- | ------------------ | ---------------------------- | -------------------------------------------- | -------------------------- |
-| `translatedFrom` 必填                        | Stage 4 / 所有翻譯 | 所有 `knowledge/{lang}/*.md` | pre-commit hook `test-frontmatter.mjs`       | reject commit              |
-| `category` 英文跟原文同                      | Stage 4            | 所有翻譯                     | `category-check.sh`                          | request changes            |
-| `featured` mirror 原文                       | Stage 4            | 所有翻譯                     | manual diff vs zh source                     | request changes            |
-| `date` mirror 原文                           | Stage 4            | 所有翻譯                     | manual                                       | request changes            |
-| 翻譯字數比 ≥ 0.55                            | Stage 6            | 所有翻譯                     | `translation-ratio-check.sh`                 | TRUNCATED 警告，重翻       |
-| Wikilink 0 殘留                              | Stage 5            | 所有翻譯                     | pre-commit hook                              | reject commit              |
-| Wikilink 目標存在性                          | Stage 5            | 所有翻譯                     | pre-commit hook                              | reject commit              |
-| 內部連結 `/{lang}/` 前綴                     | Stage 5            | 所有翻譯                     | `verify-internal-links.sh --sample 30`       | request changes            |
-| Format check 7 維度                          | Stage 6            | 所有翻譯                     | `article-health.py --check=format-structure` | request changes            |
-| sync-translations-json                       | Stage 6, 8         | 所有翻譯                     | `sync-translations-json.py --check`          | 不 commit                  |
-| Arch gate（語言 enabled / preview / 未註冊） | Stage 1            | 新翻譯                       | `grep "code:" languages.ts`                  | unregistered → 拒絕        |
-| Manifest 預處理（C 模式）                    | Stage P1           | sub-agent batch              | `prepare-batch.py`                           | 不 dispatch                |
-| 8 項統一驗證（C 模式）                       | Stage P4           | sub-agent batch              | `verify-batch.py`                            | 不 commit                  |
-| Destructive git ops 禁令（C 模式）           | 全程               | sub-agent 跑期間             | manual self-check                            | abort op，走 worktree 隔離 |
-| Cycle budget 對齊（C 模式）                  | Stage P2           | sub-agent batch              | manual（30-35 篇 / 1 hr cycle）              | 縮減批次規模               |
+| Gate                                         | 觸發 stage / mode  | 條件                         | 工具                                                    | 不過 = ?                   |
+| -------------------------------------------- | ------------------ | ---------------------------- | ------------------------------------------------------- | -------------------------- |
+| 目標語言 canonical guide 載入                | Stage 3 / 所有翻譯 | 任何翻譯任務                 | `cat docs/editorial/per-language/TRANSLATION-{lang}.md` | 翻譯品質+sovereignty 風險  |
+| `translatedFrom` 必填                        | Stage 4 / 所有翻譯 | 所有 `knowledge/{lang}/*.md` | pre-commit hook `test-frontmatter.mjs`                  | reject commit              |
+| `category` 英文跟原文同                      | Stage 4            | 所有翻譯                     | `category-check.sh`                                     | request changes            |
+| `featured` mirror 原文                       | Stage 4            | 所有翻譯                     | manual diff vs zh source                                | request changes            |
+| `date` mirror 原文                           | Stage 4            | 所有翻譯                     | manual                                                  | request changes            |
+| 翻譯字數比 ≥ 0.55                            | Stage 6            | 所有翻譯                     | `translation-ratio-check.sh`                            | TRUNCATED 警告，重翻       |
+| Wikilink 0 殘留                              | Stage 5            | 所有翻譯                     | pre-commit hook                                         | reject commit              |
+| Wikilink 目標存在性                          | Stage 5            | 所有翻譯                     | pre-commit hook                                         | reject commit              |
+| 內部連結 `/{lang}/` 前綴                     | Stage 5            | 所有翻譯                     | `verify-internal-links.sh --sample 30`                  | request changes            |
+| Format check 7 維度                          | Stage 6            | 所有翻譯                     | `article-health.py --check=format-structure`            | request changes            |
+| sync-translations-json                       | Stage 6, 8         | 所有翻譯                     | `sync-translations-json.py --check`                     | 不 commit                  |
+| Arch gate（語言 enabled / preview / 未註冊） | Stage 1            | 新翻譯                       | `grep "code:" languages.ts`                             | unregistered → 拒絕        |
+| Manifest 預處理（C 模式）                    | Stage P1           | sub-agent batch              | `prepare-batch.py`                                      | 不 dispatch                |
+| 8 項統一驗證（C 模式）                       | Stage P4           | sub-agent batch              | `verify-batch.py`                                       | 不 commit                  |
+| Destructive git ops 禁令（C 模式）           | 全程               | sub-agent 跑期間             | manual self-check                                       | abort op，走 worktree 隔離 |
+| Cycle budget 對齊（C 模式）                  | Stage P2           | sub-agent batch              | manual（30-35 篇 / 1 hr cycle）                         | 縮減批次規模               |
 
 ---
 
@@ -128,6 +129,7 @@ upstream_canonical:
 
 > 從 17 條常漏（§下方）+ 4/14 η 60 PR 海嘯 + 5/4 magical-feynman 抽 friction 最高的 5 條。動工前主動掃一次。
 
+0. **必先載 `docs/editorial/per-language/TRANSLATION-{lang}.md`**（2026-05-24 新加） — sovereignty-aware 詞彙 / romanization 規則 / register 全在這裡。不讀 = LLM default 給 PRC-friendly 詞彙
 1. **`translatedFrom` 不能含 `knowledge/` 前綴** — 寫成 `'Music/五月天.md'` 不是 `'knowledge/Music/五月天.md'`（4-22% 歷史翻譯撞過）
 2. **`category` 用英文跟原文一致** — `'Music'` 不是 `'음악'`（早期 ja/ko 寫中文 category 撞 category-check.sh）
 3. **`featured` mirror 原文，contributor 不該自己改** — 由 maintainer 統一決定
@@ -631,6 +633,26 @@ translatedFrom: 'Music/五月天.md'
 
 > DNA Sonnet 反射 #1：翻譯 ≠ 摘要。AI 預設行為是摘要。必須明確下「完整翻譯」指令。
 > DIARY 觀察（4/8 δ）：用讀者已知的座標系解釋比逐句翻譯有效 100 倍。
+
+#### 🔴 Stage 3 前置 hard gate — 載入目標語言 canonical guide（2026-05-24 新增）
+
+**翻譯前必跑**（不憑記憶 / 不可跳過）：
+
+```bash
+# 目標語言對應的 canonical guide — 完整讀
+cat docs/editorial/per-language/TRANSLATION-{en|ja|ko|es|fr}.md
+```
+
+**為什麼是 hard gate**：
+
+- 每個目標語言的「台灣」「中華民國」「兩岸」「人名 romanization」「地名」「文化詞彙」「PRC-coded leak」處理規則完全不同
+- LLM default 行為傾向 PRC-friendly 詞彙（最常見：韓文 default 給 `대만` 而非 NIKL 推薦的 `타이완` / 英文 default 給 `Taiwan, China`）
+- 沒讀 guide = sovereignty leak 風險 + 站內不一致
+- 觸發背景：2026-05-24 韓文專業譯者於哲宇演講後 callout「韓文的台灣通常不是用我們網站上的翻法」— 站內 audit 揭露 76% 用 `대만` / 23% 用 `타이완` 不一致，per-lang canonical guide 誕生
+
+**每份 guide 含 9 section**（TL;DR / 國名 / 人名 / 地名 / 文化詞彙 / 政治敏感語 / sovereignty-avoid lexicon / register / CI lint）。索引在 [`docs/editorial/per-language/README.md`](../editorial/per-language/README.md)。
+
+**Sub-agent dispatch**（C 模式 / SQUEEZE-MODELS-MAX）：sub-agent prompt 必須**內嵌**目標語言 guide §1-§6 的 table，不能只給 pointer（per [REFLEXES #42](../semiont/REFLEXES.md) sub-agent 三偷吃步教訓 — sub-agent 不會主動讀 pointer）。
 
 **翻譯品質檢核：**
 
