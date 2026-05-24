@@ -1,6 +1,6 @@
 ---
 title: "Poisoned Potatoes: Beyond the 200 ppm — There's 30 ppm, 14 Days, and 15 Years of Food-Safety Scars"
-description: 'On 29 April 2026, Chen Binhua of China''s Taiwan Affairs Office attacked the Lai Ching-te government with the phrase "poisoned potatoes" — calling it "yet another offering of the public''s health to flatter America." The real core of the controversy spans three layers: the 150-fold gap between the EU''s 0.2 ppm and Taiwan''s 30 ppm CIPC residue limits; the impossibility of "inspecting every single potato" with 85 actual border inspectors against 300 million potatoes; and 15 years of accumulated food-safety scars since the 2011 plasticizer scandal — the foundation this narrative steps onto.'
+description: 'On 29 April 2026, Chen Binhua of Beijing''s Taiwan Affairs Office attacked the Lai Ching-te government with the phrase "poisoned potatoes" — calling it "yet another offering of the public''s health to flatter America." The real core of the controversy spans three layers: the 150-fold gap between the EU''s 0.2 ppm and Taiwan''s 30 ppm CIPC residue limits; the impossibility of "inspecting every single potato" with 85 actual border inspectors against 300 million potatoes; and 15 years of accumulated food-safety scars since the 2011 plasticizer scandal — the foundation this narrative steps onto.'
 date: 2026-04-30
 category: 'Society'
 tags:
