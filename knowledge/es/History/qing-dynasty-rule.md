@@ -1,19 +1,25 @@
 ---
-title: "El período de gobierno Qing"
-description: "De 1683 a 1895, la dinastía Qing gobernó Taiwán durante aproximadamente 212 años, pasando de una administración pasiva a una construcción activa, sentando las bases de la división administrativa moderna de Taiwán y de la sociedad de etnia Han."
+title: 'El período de gobierno Qing'
+description: 'De 1683 a 1895, la dinastía Qing gobernó Taiwán durante aproximadamente 212 años, pasando de una administración pasiva a una construcción activa, sentando las bases de la división administrativa moderna de Taiwán y de la sociedad de etnia Han.'
 date: 2026-03-17
-author: "Taiwan.md Contributors"
-category: "History"
-subcategory: "殖民與帝國"
-tags: ["History", "Dinastía Qing", "Apertura de puertos al comercio", "Incidente de Mudan"]
+author: 'Taiwan.md Contributors'
+category: 'History'
+subcategory: '殖民與帝國'
+tags:
+  [
+    'History',
+    'Dinastía Qing',
+    'Apertura de puertos al comercio',
+    'Incidente de Mudan',
+  ]
 lastVerified: 2026-03-19
 lastHumanReview: false
 featured: false
-translatedFrom: "History/清治時期.md"
-sourceCommitSha: "18157ab5d"
-sourceContentHash: "sha256:dca863d69b937e0a"
-sourceBodyHash: "sha256:74eb6966230843b2"
-translatedAt: "2026-05-17T05:34:54+08:00"
+translatedFrom: 'History/清治時期.md'
+sourceCommitSha: '18157ab5d'
+sourceContentHash: 'sha256:dca863d69b937e0a'
+sourceBodyHash: 'sha256:74eb6966230843b2'
+translatedAt: '2026-05-17T05:34:54+08:00'
 ---
 
 # El período de gobierno Qing
@@ -52,7 +58,7 @@ Antes del incidente de Mudan en 1874, los conflictos entre indígenas y Han en e
 
 ## Crisis de finales de la dinastía Qing: las reformas de Shen Baozhen y la apertura de puertos
 
-En 1874, Japón envió tropas al sur de Taiwán alegando que pescadores de Ryukyu habían sido asesinados en la isla (incidente de Mudan). Bajo presión diplomática, la corte Qing se vio obligada a reconocer su responsabilidad, pagar una indemnización y retirar las tropas. Este incidente impulsó a la corte Qing a enviar a Shen Baozhen como ministro plenipotenciario a Taiwán. Shen Baozhen abolió las antiguas restricciones para cruzar hacia Taiwán, promovió la política de apertura de montañas y pacificación de los pueblos indígenas, y estableció la Prefectura de Taibei para reforzar la administración del norte.
+En 1874, Japón envió tropas al sur de Taiwán alegando que pescadores de Ryukyu habían sido asesinados en la isla (incidente de Mudan). Bajo presión diplomática, la corte Qing se vio obligada a reconocer su responsabilidad, pagar una indemnización y retirar las tropas. Este incidente impulsó a la corte Qing a enviar a Shen Baozhen como ministro plenipotenciario a Taiwán. Shen Baozhen abolió las antiguas restricciones para cruzar hacia Taiwán, promovió la política de apertura de montañas y pacificación de los pueblos indígenas, y estableció la Prefectura de Taipei para reforzar la administración del norte.
 
 Tras el Tratado de Tianjin de 1858, se abrieron sucesivamente al comercio los cuatro puertos de Tamsui, Anping, Keelung (雞籠) y Takau (打狗, actual Kaohsiung) a partir de 1863. Comerciantes extranjeros se establecieron en la isla, y el té, el alcanfor y el azúcar se convirtieron en los principales productos de exportación, incorporando a Taiwán al sistema comercial global.
 
@@ -69,9 +75,13 @@ Esta resistencia ha sido interpretada en la historiografía taiwanesa posterior 
 ## Referencias
 
 [^1]: [Período Qing en Taiwán — Wikipedia](https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E6%B8%85%E6%B2%BB%E6%99%82%E6%9C%9F) — Panorama general del período de gobierno Qing en Taiwán, incluyendo el sistema de gobierno, cronología de eventos principales y políticas de cada etapa.
+
 [^2]: [Liu Mingchuan — Wikipedia](https://zh.wikipedia.org/wiki/%E5%8A%89%E9%8A%98%E5%82%B3) — Biografía del primer gobernador provincial de Taiwán, Liu Mingchuan, y registro de sus obras de modernización durante la creación de la provincia.
+
 [^3]: [Guerra de Yiwei — Wikipedia](https://zh.wikipedia.org/wiki/%E4%B9%99%E6%9C%AA%E6%88%B0%E7%88%AD) — El proceso completo de la resistencia de la República Democrática de Taiwán contra la toma de posesión japonesa en 1895, incluida la huida de Tang Jingsong.
+
 [^4]: [Incidente del Rover — Wikipedia](https://zh.wikipedia.org/wiki/%E7%BE%85%E5%A6%B9%E8%99%9F%E4%BA%8B%E4%BB%B6) — El incidente del Rover de 1867, el Tratado del Cabo Sur y el proceso de negociación de Le Gendre.
+
 [^5]: [Incidente de Shi Jiuduan — Wikipedia](https://zh.wikipedia.org/wiki/%E6%96%BD%E4%B9%9D%E7%B7%9E%E4%BA%8B%E4%BB%B6) — El levantamiento civil de Changhua provocado por la reforma fiscal de 1888, el mayor evento de resistencia fiscal en Taiwán a finales de la dinastía Qing.
 
 ## Nota terminológica: 清治 (Qing Zhi) frente a 清領 (Qing Ling)

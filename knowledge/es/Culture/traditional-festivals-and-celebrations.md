@@ -112,7 +112,7 @@ La extensión de las vacaciones del Año Nuevo Lunar en Taiwán refleja los camb
 
 La cultura del asado en el Festival del Medio Otoño en Taiwán no es una tradición antigua, sino un "accidente publicitario" de la década de 1980:
 
-1. **1982:** La exportación de parrillas de la región de Xinzhu estaba en crisis; los fabricantes se volcaron al mercado interno.
+1. **1982:** La exportación de parrillas de la región de Hsinchu estaba en crisis; los fabricantes se volcaron al mercado interno.
 2. **1986:** La marca Wan Jia Xiang lanzó el anuncio televisivo "Una familia asa, diez mil hogares huelen" (一家烤肉萬家香).
 3. **1987:** La marca Jin Lan siguió con la serie de anuncios de "Salsa de soja Jin Lan para asados".
 4. **Década de 1990:** El asado del Festival del Medio Otoño se convirtió en un fenómeno generalizado en toda la isla.

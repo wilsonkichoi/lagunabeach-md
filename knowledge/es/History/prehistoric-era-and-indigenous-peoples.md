@@ -22,11 +22,11 @@ translatedAt: '2026-05-22T05:08:47+08:00'
 
 # Era prehistórica y pueblos indígenas: de la cultura Changbin (20.000-30.000 años) al punto de partida de la expansión austronesia
 
-> **Resumen en 30 segundos:** La actividad humana más antigua confirmada en Taiwán es la cultura Changbin, de hace aproximadamente 20.000-30.000 años (Paleolítico tardío, representada principalmente por el sitio de las Ocho Cuevas de Baxian en Taidong).[^1] Los pueblos indígenas oficialmente reconocidos suman 16 grupos, con una población total de aproximadamente 620.000 personas.[^2] La mayoría de los estudios lingüísticos consideran a Taiwán como uno de los posibles lugares de origen de los pueblos austronesios: de las 10 ramas principales de lenguas austronesias existentes, 9 se encuentran en Taiwán, una densidad muy superior a la de cualquier isla del Pacífico.[^3] Un estudio genético de 2024 reportado por _National Geographic_ indica que hace aproximadamente 8.000 años existió también una ruta de expansión poblacional desde Indonesia; la emigración desde Taiwán representaría cerca del 20%, lo que cuestiona la tesis de Taiwán como único lugar de origen (P0⚠️ pendiente de consenso académico).[^4] Antes del siglo XVII ya existían organizaciones políticas intertribales como el Reino de Middag.[^5]
+> **Resumen en 30 segundos:** La actividad humana más antigua confirmada en Taiwán es la cultura Changbin, de hace aproximadamente 20.000-30.000 años (Paleolítico tardío, representada principalmente por el sitio de las Ocho Cuevas de Baxian en Taitung).[^1] Los pueblos indígenas oficialmente reconocidos suman 16 grupos, con una población total de aproximadamente 620.000 personas.[^2] La mayoría de los estudios lingüísticos consideran a Taiwán como uno de los posibles lugares de origen de los pueblos austronesios: de las 10 ramas principales de lenguas austronesias existentes, 9 se encuentran en Taiwán, una densidad muy superior a la de cualquier isla del Pacífico.[^3] Un estudio genético de 2024 reportado por _National Geographic_ indica que hace aproximadamente 8.000 años existió también una ruta de expansión poblacional desde Indonesia; la emigración desde Taiwán representaría cerca del 20%, lo que cuestiona la tesis de Taiwán como único lugar de origen (P0⚠️ pendiente de consenso académico).[^4] Antes del siglo XVII ya existían organizaciones políticas intertribales como el Reino de Middag.[^5]
 
 ## La cultura Changbin: la actividad humana más antigua en Taiwán
 
-La actividad humana más antigua confirmada en Taiwán es la cultura Changbin, de hace aproximadamente 20.000-30.000 años, correspondiente al Paleolítico tardío. Su evidencia principal son las herramientas de piedra tallada desenterradas en el sitio de las Ocho Cuevas de Baxian, en el municipio de Changbin, condado de Taidong.[^1]
+La actividad humana más antigua confirmada en Taiwán es la cultura Changbin, de hace aproximadamente 20.000-30.000 años, correspondiente al Paleolítico tardío. Su evidencia principal son las herramientas de piedra tallada desenterradas en el sitio de las Ocho Cuevas de Baxian, en el municipio de Changbin, condado de Taitung.[^1]
 
 Las herramientas de piedra tallada de la cultura Changbin indican que los humanos de entonces subsistían mediante la caza y la recolección, sin signos de agricultura ni vida sedentaria. El sitio de las Ocho Cuevas de Baxian se encuentra junto a la costa; los concheros (acumulaciones de conchas) reflejan un modo de vida basado en los recursos costeros. Este punto de partida de hace 20.000-30.000 años constituye el registro material más antiguo actualmente confirmado de la historia humana en Taiwán.
 
@@ -68,7 +68,7 @@ Estos cuatro ejes —el punto de partida paleolítico de la cultura Changbin, la
 
 ## Referencias
 
-[^1]: [Culturas prehistóricas de Taiwán — Wikipedia](https://zh.wikipedia.org/wiki/臺灣史前文化) — Confirma la cultura Changbin de hace 20.000-30.000 años, el sitio de las Ocho Cuevas de Baxian en Taidong y la actividad humana del Paleolítico tardío.
+[^1]: [Culturas prehistóricas de Taiwán — Wikipedia](https://zh.wikipedia.org/wiki/臺灣史前文化) — Confirma la cultura Changbin de hace 20.000-30.000 años, el sitio de las Ocho Cuevas de Baxian en Taitung y la actividad humana del Paleolítico tardío.
 
 [^2]: [Comisión de Pueblos Indígenas: presentación de los grupos étnicos indígenas](https://www.tacp.gov.tw/Aboriginal/AbContent?ID=8c02d05a-e588-443d-8ecb-543e5cb14987) — Confirma los nombres de los 16 grupos oficialmente reconocidos y la población de cada grupo.
 

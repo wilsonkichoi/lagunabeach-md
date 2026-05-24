@@ -81,7 +81,7 @@ Los datos científicos respaldan su juicio. Las precipitaciones totales en tres 
 >
 > El apodo de "montaña sagrada protectora" es esencialmente la perspectiva de los habitantes de las llanuras de la mitad occidental de la isla. Para las zonas montañosas de la ladera a barlovento, la Cordillera Central actúa como compresor: el viento se convierte en agua y cae sobre esa ladera. En el mismo tifón, la mitad occidental agradece a la montaña que bloquee el viento, mientras las zonas montañosas soportan solas los dos mil milímetros de lluvia que les exprime. Este "quién se beneficia, quién lo soporta" geográfico presagia la misma grieta que aparecerá en todas las historias de tifones que seguirán.
 
-Cuando la circulación del tifón desciende tras cruzar la Cordillera, suele provocar en la ladera a sotavento un efecto foehn de alta temperatura y sequedad. Tras los tifones, las temperaturas en Taidong y Taichung se disparan, causando graves daños a los cultivos.[^5]
+Cuando la circulación del tifón desciende tras cruzar la Cordillera, suele provocar en la ladera a sotavento un efecto foehn de alta temperatura y sequedad. Tras los tifones, las temperaturas en Taitung y Taichung se disparan, causando graves daños a los cultivos.[^5]
 
 ## Menos pero más fuertes: cada año uno o dos tifones, y cada uno es un evento extremo
 
@@ -110,7 +110,7 @@ Desde 2002 lidera el Experimento de Observación de Tifones con Aviones de Recon
 
 Wu Junjie describe en primera persona su experiencia dentro del ojo de un tifón:
 
-> "Crecí en Taidong, he cazado tifones. Primero sientes el viento del norte, porque los tifones giran en sentido antihorario; luego de repente el viento cesa, es que estás en el interior del ojo del tifón. Unos minutos después empieza el viento del sur, lo que significa que el ojo del tifón ya ha pasado sobre ti."
+> "Crecí en Taitung, he cazado tifones. Primero sientes el viento del norte, porque los tifones giran en sentido antihorario; luego de repente el viento cesa, es que estás en el interior del ojo del tifón. Unos minutos después empieza el viento del sur, lo que significa que el ojo del tifón ya ha pasado sobre ti."
 
 Pero la caza de tifones es solo una parte del panorama de observación de tifones de Taiwán. En 1998, Taiwán se convirtió en el primer país del mundo en utilizar un avión no tripulado Aerosonde para observar tifones.[^10] Tras la prohibición de exportación del Aerosonde por parte de Estados Unidos en septiembre de 2001, Taiwán se convirtió en el último país en poseer y utilizar ese sistema.
 
@@ -151,9 +151,9 @@ La tecnología no es la única forma de predecir los tifones en Taiwán.
 
 En la aldea de Shennshan del municipio de Laiyi en el condado de Pingtung, los ancianos paiwan observan los fenómenos naturales para juzgar los cambios meteorológicos. Si el arco iris aparece en la dirección de la salida del sol, el tifón se debilitará; si aparece en la dirección de la puesta del sol, traerá un tifón. Grandes bandadas de cangrejos que suben a tierra, grandes migraciones de colonias de hormigas, grandes salidas de lombrices de tierra: todas estas son señales de que se acerca un tifón o un terremoto.[^12]
 
-Durante el tifón Morakot de 2009, los miembros de la aldea Kakanami (Shennshan) del condado de Taidong notaron que el agua del arroyo estaba turbia, lo que les alertó del riesgo de deslizamiento de tierra, y evacuaron a tiempo a todos los aldeanos.[^12] Ese año, las 462 vidas de Xiaolin no las salvó ningún satélite, pero los habitantes de la aldea Kakanami sobrevivieron gracias a un arroyo turbio.
+Durante el tifón Morakot de 2009, los miembros de la aldea Kakanami (Shennshan) del condado de Taitung notaron que el agua del arroyo estaba turbia, lo que les alertó del riesgo de deslizamiento de tierra, y evacuaron a tiempo a todos los aldeanos.[^12] Ese año, las 462 vidas de Xiaolin no las salvó ningún satélite, pero los habitantes de la aldea Kakanami sobrevivieron gracias a un arroyo turbio.
 
-Los amis del pueblo portuario de Fengbin en Hualian tienen su propia sabiduría para leer el mar. Antes de que llegue un tifón sopla viento del norte; después de que pase sopla más viento del sur. Si las grandes olas cubren las rocas negras, significa que el tifón va a arrasar la zona. Los nombres de lugares de los dao de Orchid Island (Isla Pequeña de Orquídeas) codifican el conocimiento de los riesgos de desastres. «Ji-Rako a Poas» designa una zona de grandes deslizamientos de tierra; «Ji-Igang» designa una zona de peligro de inundaciones.[^12] Las casas tradicionales semienterradas de los dao se comportaron mejor que las casas modernas de hormigón durante los tifones Morakot y Tembin.
+Los amis del pueblo portuario de Fengbin en Hualien tienen su propia sabiduría para leer el mar. Antes de que llegue un tifón sopla viento del norte; después de que pase sopla más viento del sur. Si las grandes olas cubren las rocas negras, significa que el tifón va a arrasar la zona. Los nombres de lugares de los dao de Orchid Island (Isla Pequeña de Orquídeas) codifican el conocimiento de los riesgos de desastres. «Ji-Rako a Poas» designa una zona de grandes deslizamientos de tierra; «Ji-Igang» designa una zona de peligro de inundaciones.[^12] Las casas tradicionales semienterradas de los dao se comportaron mejor que las casas modernas de hormigón durante los tifones Morakot y Tembin.
 
 El profesor Guan Da-wei de la Universidad Nacional de Chengchi señala en su investigación que, aunque las predicciones meteorológicas tradicionales de los pueblos indígenas no son tan precisas como los instrumentos modernos, reflejan la sabiduría acumulada durante siglos de observación de la naturaleza y coexistencia con el entorno.[^14] Cuando los modelos de IA fallan o en zonas montañosas periféricas sin cobertura de red, estos conocimientos pueden ser la última red de seguridad.
 

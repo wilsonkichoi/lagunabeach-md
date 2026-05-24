@@ -67,7 +67,7 @@ La característica de los fideos del norte es la "riqueza y diversidad". Solo la
 
 ### Centro y sur: laboratorio de innovación local
 
-Las bolas de carne de Changhua, aunque no son fideos, también utilizan una cubierta de almidón y pertenecen a la amplia cultura del fideo. Los fideos con sopa de carne y ajo de Yilan y los wontons (餛飩) de Hualian muestran cómo las distintas regiones han adaptado los foráneos fideos a los gustos locales.
+Las bolas de carne de Changhua, aunque no son fideos, también utilizan una cubierta de almidón y pertenecen a la amplia cultura del fideo. Los fideos con sopa de carne y ajo de Yilan y los wontons (餛飩) de Hualien muestran cómo las distintas regiones han adaptado los foráneos fideos a los gustos locales.
 
 La **característica de Taichung** es el "arroz con carne estofada" (肉燥饭), que combina el concepto norteño de carne picada con las preferencias de sabor del centro de la isla. Por su parte, las áreas de Yunlin y Chiayi han desarrollado una versión de sopa de fideos con carne de res roja que sustituye la salsa de frijol por hierbas medicinales chinas, mostrando la influencia de la cultura alimentaria de la medicina tradicional china en los fideos.
 

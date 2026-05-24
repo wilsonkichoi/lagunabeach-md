@@ -3,7 +3,14 @@ title: 'Arroz en tubo de bambú: la fiambrera del cazador que desafía al fuego'
 description: 'El arroz en tubo de bambú no es simplemente una "receta de recipiente", sino un preciso "juego entre agua y fuego". Aprovechando la propiedad física del agua de hervir a 100 °C, el tubo de bambú —un material altamente inflamable— puede resistir dos horas en la hoguera sin convertirse en cenizas. Esta sabiduría, nacida de la cultura de la caza, se ha convertido hoy en un emblema de la gastronomía indígena taiwanesa.'
 date: 2026-04-27
 category: 'Food'
-tags: ['Indígenas', 'Bambú makino', 'Cultura de caza', 'Gastronomía sostenible', 'Comparación internacional']
+tags:
+  [
+    'Indígenas',
+    'Bambú makino',
+    'Cultura de caza',
+    'Gastronomía sostenible',
+    'Comparación internacional',
+  ]
 subcategory: 'Gastronomía étnica'
 author: 'Taiwan.md Contributors'
 featured: false
@@ -92,13 +99,13 @@ La próxima vez que, en una comunidad indígena, recibas un tubo de bambú aún 
 
 [^6]: [Universidad Normal Nacional de Taiwán: Sostenibilidad y intercambio cultural indígena](https://pr.ntnu.edu.tw/news/index.php?mode=data&id=24049) — Documentación del proceso en el que universitarios elaboran arroz en tubo de bambú en las comunidades, destacando el papel de esta tradición culinaria en la transmisión cultural y el turismo sostenible contemporáneos.
 
-[^7]: [Universidad de Pueblos Indígenas del Condado de Hualian: Conocimiento de los alimentos básicos atayal y de otros pueblos](https://www.tbc.cip.gov.tw/Upload/Profile/news638867998887557977.pdf) — Descripción de la función social del arroz en tubo de bambú atayal en reuniones familiares y ceremonias, con listado de sazonadores tradicionales y proporciones de ingredientes.
+[^7]: [Universidad de Pueblos Indígenas del Condado de Hualien: Conocimiento de los alimentos básicos atayal y de otros pueblos](https://www.tbc.cip.gov.tw/Upload/Profile/news638867998887557977.pdf) — Descripción de la función social del arroz en tubo de bambú atayal en reuniones familiares y ceremonias, con listado de sazonadores tradicionales y proporciones de ingredientes.
 
 [^8]: [Wikipedia: Arroz en tubo de bambú malayo (Lemang)](https://zh.wikipedia.org/zh-hant/%E9%A6%AC%E4%BE%86%E5%BC%8F%E7%AB%B9%E7%AD%92%E9%A3%AF) — Presentación de la cultura del arroz en tubo de bambú en el sudeste asiático, en particular las diferencias de preparación con leche de coco, sal y hoja de plátano como revestimiento.
 
 [^9]: [Base de Datos de la Memoria Cultural Nacional: Objeto cultural del arroz en tubo de bambú](https://memory.culture.tw/Home/Detail?Id=602336&IndexCode=Culture_Object) — Archivo de registros visuales e historias orales del arroz en tubo de bambú de los distintos pueblos indígenas de Taiwán, que muestra su profundidad histórica como símbolo de identidad cultural.
 
-[^10]: [Gobierno del Condado de Hualian: Mapa gastronómico y artesanal indígena](https://ab.hl.gov.tw/zh-tw/Article/Detail/134) — Inventario de las particularidades del arroz en tubo de bambú en las distintas comunidades del condado de Hualian, con estudio de las diferencias regionales desde la recolección de materiales hasta las técnicas de cocción sobre brasas.
+[^10]: [Gobierno del Condado de Hualien: Mapa gastronómico y artesanal indígena](https://ab.hl.gov.tw/zh-tw/Article/Detail/134) — Inventario de las particularidades del arroz en tubo de bambú en las distintas comunidades del condado de Hualien, con estudio de las diferencias regionales desde la recolección de materiales hasta las técnicas de cocción sobre brasas.
 
 [^11]: [Ministerio de Agricultura: Desarrollo y aplicaciones de la industria del bambú makino en Taiwán](https://www.moa.gov.tw/ws.php?id=2504823) — Análisis del valor económico del bambú makino como producto forestal clave de Taiwán, con mención del arroz en tubo de bambú como caso práctico de economía forestal y uso sostenible.
 

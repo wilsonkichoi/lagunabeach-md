@@ -82,7 +82,7 @@ La ventaja competitiva más singular de Taiwan Cement es la transformación de s
 
 Tradicionalmente, los hornos de cemento solo servían para calcinar cemento. Pero Taiwan Cement descubrió que los hornos de alta temperatura pueden coprocesar diversos tipos de residuos, convirtiéndolos en materias primas o combustibles para la producción de cemento. Esta tecnología de "coprocesamiento" permite a Taiwan Cement obtener ingresos del tratamiento de residuos al mismo tiempo que reduce el uso de recursos naturales.
 
-Este modelo innovador ya funciona con éxito en la planta de Hoping en Hualian. Neumáticos usados, lodos de alcantarillado, residuos de construcción y otros tipos de desechos son "regenerados" como recursos útiles bajo las altas temperaturas del horno de cemento. Esto constituye simultáneamente una innovación tecnológica y una innovación de modelo de negocio.
+Este modelo innovador ya funciona con éxito en la planta de Hoping en Hualien. Neumáticos usados, lodos de alcantarillado, residuos de construcción y otros tipos de desechos son "regenerados" como recursos útiles bajo las altas temperaturas del horno de cemento. Esto constituye simultáneamente una innovación tecnológica y una innovación de modelo de negocio.
 
 ## Desafíos y oportunidades en la era de la neutralidad de carbono
 
