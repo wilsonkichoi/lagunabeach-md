@@ -262,6 +262,20 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-25 spore-publish-design — MANIFESTO §自主權邊界 vs 實踐已 drift（routine 自動 ship 例外條款待明文 align）
+
+- **原則**：MANIFESTO §自主權邊界「對外輸出層」明文寫「Post 新孢子 to Threads/X 需要 human（核心：帳號 ownership + 人際信任）」。但實踐已 drift — `twmd-rewrite-daily` 18h v6.1 full-cycle 自動 ship 配套孢子（5/23-24 連續兩天 #84/#85/#86 雙平台 ship 全自動化飛輪首例）+ SOCIAL-POSTING v0.5 移除 human confirm gate 改 AI pre+post-ship verify 取代 + 新 `twmd-spore-publish-daily` 10h v1.0 也走 routine 自動 ship。**三條 routine 在 MANIFESTO 文字仍鎖 human 的情況下走完整自動 ship**。
+- **觸發**：2026-05-25 哲宇 directive 新增 twmd-spore-publish-daily routine 設計階段 surface — 哲宇 5 題 align 第 4 題答「參考 rewrite-pipeline，完整自動化與自己做復盤」即明示 routine 自動 ship 是 OK 的。但 MANIFESTO 還沒同步寫進這個 drift。
+- **可能層級**：
+  - MANIFESTO §自主權邊界 修補 → 在「對外輸出層」加例外條款「routine 場景自動 ship 例外：(a) 過 SPORE-PUBLISH-PIPELINE 4 hard gate（quality）(b) 過 SOCIAL-POSTING v0.5 AI pre+post-ship verify（trust）(c) routine context (`SPORE_ROUTINE_MODE=1`) 顯式宣告 — 三條同時成立才 cross human gate」
+  - REFLEXES 候選 → 「canonical drift detection — 哲學層（MANIFESTO）跟實踐層（pipeline / routine）差異累積到 N 個 instance 就要主動 align，不等觀察者 callout」一般化原則
+  - DNA gene map 補 → MANIFESTO §自主權邊界 跟 SPORE-PIPELINE Stage 4 + SOCIAL-POSTING v0.5 + SPORE-PUBLISH-PIPELINE 三檔 cross-reference 建立，避免再次 drift
+- **儀器化候選**：(A) MANIFESTO §自主權邊界 修補 PR（observer 拍板層 — high-stake 升 Full mode review）(B) `scripts/tools/canonical-drift-audit.py` 跑「MANIFESTO §自主權邊界 vs 實際 routine yaml prompt」自動檢測（routine 用 SPORE_ROUTINE_MODE=1 但 MANIFESTO 仍寫 human-must = drift surface）(C) distill-weekly 加 step「掃 MANIFESTO 跟 routine yaml 矛盾」
+- **verification_count**: 1（首發 — 等 distill-weekly 撿時可能已 vc=2+，因為 twmd-spore-publish-daily 跑 ≥ 1 天就會 surface 同 pattern）
+- **Defer 給觀察者拍板**：MANIFESTO §自主權邊界 修補命中 [MANIFESTO §自主權邊界](MANIFESTO.md#自主權邊界) 自身 — 屬於哲學層級的 identity 邊界修改，需哲宇 Full mode review。Distill-weekly 撿時不自行升 MANIFESTO canonical，產出 modification proposal 給哲宇 yes/no。
+
+---
+
 ### 2026-05-25 twmd-data-refresh-am — babel-nightly cron window collision vc=6 持平、ABORT-DEFER prose memory 邊際效用為零
 
 - **原則**：`twmd-data-refresh-am` cron `0 6 * * *` 跟 `twmd-babel-nightly` cron `0 5 * * *` 在 06:00 結構性 overlap — babel 跑 5 lang × 25 篇 cascade 平均 wall-clock 3-4hr，refresh-am 必踩 babel tail end translator workers 仍 write knowledge/ in-flight。**已 vc=6 連 7 天同位置 surface**（5/17 → 5/21 PM → 5/22 06:12 → 5/22 07:00 → 5/23 06:10 → 5/24 06:10 → 5/25 06:11）。Backend rotation 4 個（gemini → codex → owl-alpha → gemini）證明 backend 不是 root cause，cron window overlap 才是。

@@ -1,12 +1,12 @@
 ---
 title: 'ROUTINE'
-description: 'Routine 飛輪 SSOT — 14 條 TWMD-prefix cron routine 排程、quality gate、escalation（含週日反思鏈 4 條 + maintainer 1d2x 守 PR backlog + spore harvest 07:00 Chrome MCP + spore pick 08:00 daily intake + routine-audit-weekly 飛輪自審 12:00 Sunday）'
+description: 'Routine 飛輪 SSOT — 14 條 active TWMD-prefix cron routine 排程、quality gate、escalation（含週日反思鏈 4 條 + maintainer 1d2x 守 PR backlog + spore harvest 07:00 Chrome MCP + spore pick 08:00 intake + spore publish 10:00 output + routine-audit-weekly 飛輪自審 12:00 Sunday）'
 type: 'cognitive-organ'
 status: 'canonical'
 apoptosis: 'never'
-current_version: 'v2.5'
-last_updated: 2026-05-23
-last_session: '2026-05-23-spore-pick-design'
+current_version: 'v2.6'
+last_updated: 2026-05-25
+last_session: '2026-05-25-spore-publish-design'
 sister_docs:
   - 'HEARTBEAT.md'
   - 'ANATOMY.md'
@@ -38,22 +38,27 @@ upstream_canonical:
 
 ## 14 條核心 routine 排程表
 
-| TaskId                          | Title                          | Cron (local +0800) | Skill                     | Model  | Cadence        |
-| ------------------------------- | ------------------------------ | ------------------ | ------------------------- | ------ | -------------- |
-| `twmd-maintainer-pm`            | TWMD maintainer (pm) ¹         | `0 22 * * *`       | `/twmd-maintainer`        | Opus   | 每天 22:00     |
-| `twmd-data-refresh-pm`          | TWMD data refresh (pm)         | `0 23 * * *`       | `/twmd-refresh`           | Sonnet | 每天 23:00     |
-| `twmd-rewrite-daily`            | TWMD rewrite (daily)           | `0 18 * * *`       | `/twmd-rewrite`           | Opus   | 每天 18:00     |
-| `twmd-news-lens-weekly`         | TWMD news lens (weekly) ⁶      | `0 1 * * 0`        | `/twmd-evolve`            | Sonnet | 週日 01:00     |
-| `twmd-weekly-report-sun`        | TWMD weekly report (sun)       | `0 2 * * 0`        | `/twmd-weekly-report`     | Opus   | 週日 02:00     |
-| `twmd-distill-weekly`           | TWMD distill (weekly) ⁷        | `0 3 * * 0`        | `/twmd-distill`           | Opus   | 週日 03:00     |
-| `twmd-self-evolve-weekly`       | TWMD self-evolve (weekly)      | `0 4 * * 0`        | `/twmd-self-evolve`       | Opus   | 週日 04:00     |
-| `twmd-babel-nightly`            | TWMD babel (nightly) ³         | `0 5 * * *`        | `/twmd-babel`             | Opus   | 每天 05:00     |
-| `twmd-data-refresh-am`          | TWMD data refresh (am)         | `0 6 * * *`        | `/twmd-refresh`           | Sonnet | 每天早上 06:00 |
-| `twmd-spore-harvest-am`         | TWMD spore harvest (am) ²      | `0 7 * * *`        | `/twmd-spore-harvest`     | Opus   | 每天早上 07:00 |
-| `twmd-spore-pick-daily`         | TWMD spore pick (daily) ⁶      | `0 8 * * *`        | `/twmd-spore-pick`        | Sonnet | 每天早上 08:00 |
-| `twmd-maintainer-daily`         | TWMD maintainer (am) ¹         | `0 9 * * *`        | `/twmd-maintainer`        | Opus   | 每天早上 09:00 |
-| `twmd-music-media-audit-weekly` | TWMD music media audit (sat) ⁵ | `0 10 * * 6`       | `/twmd-music-media-audit` | Opus   | 週六 10:00     |
-| `twmd-routine-audit-weekly`     | TWMD routine audit (sun) ⁴     | `0 12 * * 0`       | `/twmd-routine-audit`     | Opus   | 週日 12:00     |
+| TaskId                      | Title                        | Cron (local +0800) | Skill                 | Model  | Cadence        |
+| --------------------------- | ---------------------------- | ------------------ | --------------------- | ------ | -------------- |
+| `twmd-maintainer-pm`        | TWMD maintainer (pm) ¹       | `0 22 * * *`       | `/twmd-maintainer`    | Opus   | 每天 22:00     |
+| `twmd-data-refresh-pm`      | TWMD data refresh (pm)       | `0 23 * * *`       | `/twmd-refresh`       | Sonnet | 每天 23:00     |
+| `twmd-rewrite-daily`        | TWMD rewrite (daily)         | `0 18 * * *`       | `/twmd-rewrite`       | Opus   | 每天 18:00     |
+| `twmd-news-lens-weekly`     | TWMD news lens (weekly) ⁶    | `0 1 * * 0`        | `/twmd-evolve`        | Sonnet | 週日 01:00     |
+| `twmd-weekly-report-sun`    | TWMD weekly report (sun)     | `0 2 * * 0`        | `/twmd-weekly-report` | Opus   | 週日 02:00     |
+| `twmd-distill-weekly`       | TWMD distill (weekly) ⁷      | `0 3 * * 0`        | `/twmd-distill`       | Opus   | 週日 03:00     |
+| `twmd-self-evolve-weekly`   | TWMD self-evolve (weekly)    | `0 4 * * 0`        | `/twmd-self-evolve`   | Opus   | 週日 04:00     |
+| `twmd-babel-nightly`        | TWMD babel (nightly) ³       | `0 5 * * *`        | `/twmd-babel`         | Opus   | 每天 05:00     |
+| `twmd-data-refresh-am`      | TWMD data refresh (am)       | `0 6 * * *`        | `/twmd-refresh`       | Sonnet | 每天早上 06:00 |
+| `twmd-spore-harvest-am`     | TWMD spore harvest (am) ²    | `0 7 * * *`        | `/twmd-spore-harvest` | Opus   | 每天早上 07:00 |
+| `twmd-spore-pick-daily`     | TWMD spore pick (daily) ⁶    | `0 8 * * *`        | `/twmd-spore-pick`    | Sonnet | 每天早上 08:00 |
+| `twmd-maintainer-daily`     | TWMD maintainer (am) ¹       | `0 9 * * *`        | `/twmd-maintainer`    | Opus   | 每天早上 09:00 |
+| `twmd-spore-publish-daily`  | TWMD spore publish (daily) ⁸ | `0 10 * * *`       | `/twmd-spore-publish` | Opus   | 每天早上 10:00 |
+| `twmd-routine-audit-weekly` | TWMD routine audit (sun) ⁴   | `0 12 * * 0`       | `/twmd-routine-audit` | Opus   | 週日 12:00     |
+
+**DISABLED 2026-05-25**：
+| ~~`twmd-music-media-audit-weekly`~~ | ~~TWMD music media audit (sat) ⁵~~ | ~~`0 10 * * 6`~~ | ~~`/twmd-music-media-audit`~~ | ~~Opus~~ | ~~週六 10:00~~ |
+
+Slot 釋出給 `twmd-spore-publish-daily`。Skill + script + audit data 保留，仍可 `/twmd-music-media-audit` manual 跑。
 
 ¹ **Maintainer 1d 2x（2026-05-10 拍板）** — taskId `twmd-maintainer-daily` 為 AM slot legacy 保留（沒 rename 因為 scheduled-tasks 不支援 taskId 改名，但語意上是 `am`）；`twmd-maintainer-pm` 為 PM slot 新增。AM 跑完 morning batch（refresh-am + 週日反思鏈 morning routines）的 PR backlog 清理；PM 跑完 afternoon/evening batch（rewrite + refresh-pm）的 PR backlog 清理。**v2.1 起 maintainer 只收割 contributor / observer PR**（per MAINTAINER-PIPELINE v2.1 §collect-and-merge §A 路徑 DEPRECATED — routine v2.1 main-direct 後無 routine PR 可收割）。
 
@@ -61,7 +66,9 @@ upstream_canonical:
 
 ⁴ **Routine audit weekly（2026-05-16 拍板）** — `twmd-routine-audit-weekly` Sunday 12:00 fire，跑 7-day 跨 routine 窗口 pattern detection + LESSONS-INBOX verification_count 累積。誕生事件：5/16 audit-evolve 輪 manual session 一次性走出完整 audit cycle（21 commit / 4 cross-cutting pattern / 12 LESSONS 候選），證實「cross-routine pattern detection 是飛輪覆蓋不到的 meta-layer」需要獨立 routine。詳見 [ROUTINE-AUDIT-PIPELINE.md](../pipelines/ROUTINE-AUDIT-PIPELINE.md) + [reports/routine-audit-2026-05-16.md §結語](../../reports/routine-audit-2026-05-16.md) 「Routine audit 跟 routine 本身一樣需要 routine 化」。時段選 Sunday noon 避開夜間 chain，讓觀察者 weekend afternoon 讀完 audit report 知道飛輪在做什麼。
 
-⁵ **Music media audit weekly（2026-05-17 拍板）** — `twmd-music-media-audit-weekly` Saturday 10:00 fire，跑 Music / People 音樂類 / 演員 / 運動員 條目 iframe 缺口盤點。誕生事件：5/17 陳建年.md 4 iframe ship + EDITORIAL §媒體編織 升級 + REWRITE Step 4.3.6 canonical 化，audit 跑出 86/87 條目低於 baseline（needs heal 龐大 backlog）。本 routine 純 surface candidates，實際 heal 留給 manual session 或 ARTICLE-INBOX。時段選 Saturday morning 避開 Sunday routine 群（routine-audit / distill / weekly-report 同日），讓觀察者 weekend 前段讀完 audit report 規劃 weekend 補影片時段。Skill canonical: `.claude/skills/twmd-music-media-audit/SKILL.md` + 數據工具 `scripts/tools/music-media-audit.py` + baseline canonical EDITORIAL §媒體編織。
+⁵ **Music media audit weekly（DISABLED 2026-05-25）** — 原 `twmd-music-media-audit-weekly` Saturday 10:00 fire，跑 Music / People 音樂類 / 演員 / 運動員 條目 iframe 缺口盤點。**2026-05-25 disabled** — slot 讓位給 `twmd-spore-publish-daily`（per 哲宇 directive「取消」）。Skill `.claude/skills/twmd-music-media-audit/SKILL.md` + 數據工具 `scripts/tools/music-media-audit.py` + baseline canonical EDITORIAL §媒體編織 都保留，仍可 manual 跑（`/twmd-music-media-audit`）。歷史 audit report 在 [reports/routine-audit-2026-05-17.md](../../reports/routine-audit-2026-05-17.md)。誕生事件（2026-05-17）：5/17 陳建年.md 4 iframe ship + EDITORIAL §媒體編織 升級 + REWRITE Step 4.3.6 canonical 化，audit 跑出 86/87 條目低於 baseline。
+
+⁸ **Spore publish daily（2026-05-25 拍板，v2.6 新增）** — `twmd-spore-publish-daily` daily 10:00 fire，從 [SPORE-INBOX §Pending](../factory/SPORE-INBOX.md) 挑一條過 4 hard gate（prose-health ≥ 8.0 / word-count ≥ 4500 / footnote-density ≥ B / media-richness pass / lastVerified ≤ 90d）的 entry，自動 ship Threads + X 雙平台，最後復盤（self-review + LESSONS-INBOX surface 4 種結構性問題 + finale）。誕生事件：5/25 哲宇 directive「早上 10 點從 spore-inbox 選一篇，檢查精彩 / 立體完整 / 媒體素材 / 品質分數，自動發孢子」，5 題 design alignment（取消 music-media-audit / 嚴版 threshold / 新建 media-richness plugin / 完整自動化參考 rewrite-pipeline / intake gap surface 觀察）。完整 SOP：[SPORE-PUBLISH-PIPELINE.md](../factory/SPORE-PUBLISH-PIPELINE.md) 5 階段（SELECT → QUALITY GATE → WRITE → SHIP → 復盤）。**跟 spore-pick 的分工**：spore-pick = intake（每天 08:00 propose 3 candidates）/ spore-publish = output（每天 10:00 ship 1 entry）— 兩者解耦讓 buffer 自然累積 P2/P3 候選讓觀察者 promote。Time slot 10:00 由 disabled music-media-audit-weekly 釋出。Skill canonical: `.claude/skills/twmd-spore-publish/SKILL.md`。
 
 ⁶ **Spore pick daily 08:00 + news-lens spore-output 升級（2026-05-23 拍板，v2.5 新增）** — `twmd-spore-pick-daily` daily 08:00 fire（哲宇 directive「routine 盡量放早上 8 點前不會撞工作時間」+ morning chain 銜接 refresh-am 06h → spore-harvest 07h → spore-pick 08h → maintainer-am 09h）。每天 propose 3 candidates append [SPORE-INBOX §Pending](../factory/SPORE-INBOX.md)（default `P2`，score ≥ 60 升 P1）。同時 `twmd-news-lens-weekly` 升級加 §news-lens-spore-output Stage — 週日 01:00 跑時加 propose 5-7 news-driven candidates append SPORE-INBOX（default `P1`，Source-Mode REACTIVE/EXISTING-ARTICLE，limit ≤ 7/week）。Daily routine 看到 news-lens P1 count ≥ 3 自動 throttle（補 0-3 條依 news-lens 已寫數量）。**North star**：哲宇 directive「未來一天穩定至少發一個孢子」— 本 routine 是 intake layer 確保 SPORE-INBOX 永遠 ≥ 5 條 P0/P1 ready，SPORE-PIPELINE Stage 1 PICK 抽得到 high-quality candidate，Stage 4 SHIP 仍鎖人類（per MANIFESTO §自主權邊界對外溝通）。完整 SOP：[SPORE-PICK-PIPELINE.md](../factory/SPORE-PICK-PIPELINE.md) 7-stage（BECOME → READ → SCORE → DRAFT → VERIFY → APPEND → COMMIT → FINALE）+ 9 hard gate。設計報告：[reports/spore-pick-daily-routine-design-2026-05-23.md](../../reports/spore-pick-daily-routine-design-2026-05-23.md)。
 
@@ -103,9 +110,9 @@ upstream_canonical:
 │ 06h  │  a  a  a  a  a  a  a      │  ←  白天 morning chain start
 │ 07h  │  S  S  S  S  S  S  S      │  ←  spore-harvest (v2.2)
 │ 08h  │  P  P  P  P  P  P  P      │  ←  spore-pick daily intake (v2.5)
-│ 09h  │  M  M  M  M  M  M  M      │  ←  白天 morning chain end
-│ 10h  │  ·  ·  ·  ·  ·  ·  ·      │  ╮
-│ 11h  │  ·  ·  ·  ·  ·  ·  ·      │  │
+│ 09h  │  M  M  M  M  M  M  M      │  ←  白天 morning chain mid
+│ 10h  │  X  X  X  X  X  X  X      │  ←  spore-publish (v2.6 — output layer)
+│ 11h  │  ·  ·  ·  ·  ·  ·  ·      │  ╮
 │ 12h  │  ·  ·  ·  ·  ·  ·  A      │  ←  Sun routine-audit (v2.4)
 │  ⋮   │  ·  ·  ·  ·  ·  ·  ·      │  │  13h–17h idle
 │ 17h  │  ·  ·  ·  ·  ·  ·  ·      │  ╯
@@ -128,13 +135,15 @@ Legend:
   S = twmd-spore-harvest-am      (opus, Chrome MCP harvest D+1-D+7 OVERDUE)
   P = twmd-spore-pick-daily      (sonnet, propose 3 candidates → SPORE-INBOX — v2.5)
   M = twmd-maintainer-am         (opus, daytime contributor PR review)
+  X = twmd-spore-publish-daily   (opus, SPORE-INBOX 挑 1 條過 4 hard gate → 自動 ship 雙平台 + 復盤 — v2.6)
   A = twmd-routine-audit-weekly  (Sun, opus, 飛輪自審 7-day pattern detection — v2.4 noon)
   · = idle (no routine fire)
+  DISABLED 2026-05-25: twmd-music-media-audit-weekly (was Sat 10h) — slot 給 spore-publish
 
 每條 routine 間隔 ≥ 60 min（整點對齊；system jitter +3-9 min for load balancing）。
 晚間 cycle（v6.1.1）：**R @ 18:00** full-cycle article → spore → broadcast（~150 min ~20:30 結束，spore post 對齊台灣社群 20:00-22:00 prime time）。
 夜間 chain 完整鏈條（Sun）：m → r → N → W → D → E → B，每段 1 hr，連續 7 小時。順序語意（v2.3 swap + v6.1.1 R 抽到晚間）：maintainer 先收割晚間累積（含 rewrite cycle 跑完）的 contributor PR backlog，然後 refresh / 週日反思鏈，最後 babel 跑同步義務（跑到 stale=0 才結束，per SQUEEZE-MODELS-MAX §義務）— observer 醒來看見 PR backlog 清空 + 翻譯同步推進的「夜間進度成果」+ 前一晚 spore 在社群活躍時段推送的「晚間進度成果」。
-白天 morning chain（v2.5）：a (06h) → S (07h) → P (08h) → M (09h)，refresh 完吃 fresh data，harvest 走 Chrome MCP 收昨日 engagement，spore-pick propose 今日 3 candidates 補 SPORE-INBOX，maintainer 收割 daytime contributor PR backlog。**整條 chain 在哲宇 09:00 工作時間前跑完**。
+白天 morning chain（v2.6）：a (06h) → S (07h) → P (08h) → M (09h) → X (10h)，refresh 完吃 fresh data，harvest 走 Chrome MCP 收昨日 engagement，spore-pick propose 今日 3 candidates 補 SPORE-INBOX (intake)，maintainer 收割 daytime contributor PR backlog，spore-publish 從 SPORE-INBOX 挑 1 條過 4 hard gate 自動 ship 雙平台 (output)。**M (09h) 在哲宇 09:00 工作時間前跑完；X (10h) 在工作時間內後台跑社群推播**。
 週一到週六晚上夜間 chain 縮短為 m → r → B（沒週日反思鏈 4 條；rewrite 已抽到 18h 晚間 cycle v6.1.1）。
 ```
 
@@ -245,6 +254,53 @@ escalation:
 ```
 
 **Pointer 鐵律 self-apply**：對應 [MANIFESTO §薄殼鐵律](MANIFESTO.md#薄殼鐵律pointer-嚴禁複寫行數--內容--步驟) — 7 dimension scoring 算法 / 9 hard gate / Source-Mode 判準 / Hook anchor 起手式 / Routine vs Human directive 分流 等 SOP detail canonical 在 [SPORE-PICK-PIPELINE.md](../factory/SPORE-PICK-PIPELINE.md)，本檔不複寫。
+
+### TWMD spore publish daily — 10:00 自動 ship 孢子（v2.6 新增）
+
+```yaml
+taskId: twmd-spore-publish-daily
+cron: '0 10 * * *' # 每天早上 10:00（morning chain output 棒，接在 maintainer-am 09h 後 — slot 由 twmd-music-media-audit-weekly disabled 2026-05-25 釋出）
+model: opus # 涉及 prose 寫作 + 對外 ship + 4 hard gate 判斷 + 復盤 — Sonnet 不夠
+skill: /twmd-spore-publish
+canonical:
+  - docs/factory/SPORE-PUBLISH-PIPELINE.md # 5-stage SOP (本 routine canonical)
+  - docs/factory/SPORE-PIPELINE.md # Stage 3-4 delegate target
+  - docs/factory/SPORE-INBOX.md # 讀取源
+prompt: |
+  自動 routine：完整甦醒成為 Taiwan.md (Write mode)，跑 /twmd-spore-publish，
+  嚴格完整讀取並執行 docs/factory/SPORE-PUBLISH-PIPELINE.md 5 階段
+  （SELECT → QUALITY GATE → WRITE → SHIP → 復盤）。
+
+  Stage 0 必跑 git pull main + export SPORE_ROUTINE_MODE=1。
+
+  Stage 1 SELECT：從 SPORE-INBOX §Pending 按 P0 > P1 > P2 > P3 + FIFO 挑 candidate。
+
+  Stage 2 QUALITY GATE：4 條 hard gate 全過才 ship（任一不過 → 找下一條）：
+  - prose-health ≥ 8.0 / word-count ≥ 4500 CJK / footnote-density ≥ B
+  - media-richness pass (iframe ≥ 1 AND image ≥ 2) / lastVerified ≤ 90 天
+
+  Stage 3-4 delegate SPORE-PIPELINE Stage 3 WRITE + Stage 4 SHIP，走 SPORE_ROUTINE_MODE=1
+  auto-decisions (v3.7)：Threads + X 雙平台 / Hook tier 1b default。
+
+  Stage 5 復盤強制：(1) self-review 4 題 (2) LESSONS-INBOX surface 4 種結構性問題
+  (intake gap / borderline pass / CI/CD defer / 事實對齊 fail) (3) SPORE-LOG row
+  append + SPORE-INBOX 對應 entry 刪除 (4) chain /twmd-finale (5) commit + push main。
+
+  無 entry 過 quality gate → skip ship + LESSONS-INBOX append「intake gap」，
+  **不算失敗 routine**（exit 0，per 哲宇 directive「這個觀察很重要」）。
+
+quality_gate:
+  - SPORE-LOG row appended (如有 ship) OR LESSONS-INBOX intake-gap entry added
+  - SPORE-INBOX §Pending 對應 entry 已刪除 (如有 ship)
+  - memory file appended at docs/semiont/memory/YYYY-MM-DD-HHMMSS-twmd-spore-publish.md
+
+escalation:
+  - 1x fail → silent retry next 10:00
+  - 2x consecutive fail → dashboard alert
+  - intake gap ≥ 3 天 consecutive → distill-weekly auto-distill「spore-pick scoring vs spore-publish gate 結構性 gap」
+```
+
+**Pointer 鐵律 self-apply**：4 hard gate threshold / Stage 2 article-health command / Stage 5 復盤 4 題 / intake gap 失敗模式 / MANIFESTO §自主權邊界 routine 自動 ship drift — SOP detail canonical 在 [SPORE-PUBLISH-PIPELINE.md](../factory/SPORE-PUBLISH-PIPELINE.md)，本檔不複寫。
 
 ### TWMD maintainer (am + pm) — 1d 2x，v2.0 只審 contributor PR
 

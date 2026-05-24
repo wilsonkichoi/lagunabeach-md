@@ -142,6 +142,8 @@ PICK → VERIFY → WRITE → SHIP → HARVEST
 
 ## 階段 1：PICK（選什麼）
 
+> 🔁 **Routine 場景 → 走 [SPORE-PUBLISH-PIPELINE.md](SPORE-PUBLISH-PIPELINE.md)**（2026-05-25 新增）。本檔 §選文 是 manual session + dashboard-articles fallback 走的路徑。Routine `twmd-spore-publish-daily` 10:00 走 SPORE-PUBLISH-PIPELINE Stage 1 SELECT + Stage 2 QUALITY GATE 後再 delegate 回本檔 Stage 3 WRITE + Stage 4 SHIP。**分工**：本檔 = process canonical（manual + routine 共用 Stage 3-4）/ SPORE-PUBLISH = routine wrapper（前置 4 hard gate + Stage 5 復盤 + intake gap LESSONS surface）。
+
 ### 回填 — DECOUPLED 2026-05-17（移交 daily harvest cron）
 
 > 🔄 **2026-05-17 哲宇 directive**：回填上次成效從 PICK gate **完全移除**。原鐵律「沒回填 = 不准發新孢子」DEPRECATED。
@@ -293,6 +295,8 @@ VERIFY 全過 → 進 WRITE。
 ---
 
 ## 階段 4：SHIP（送出去）
+
+> 🔁 **Routine 自動 ship 例外**（2026-05-25 新增）：`twmd-spore-publish-daily` 10:00 + `twmd-rewrite-daily` 18h v6.1 full-cycle 兩條 routine 在 `SPORE_ROUTINE_MODE=1` context 下走自動 ship Threads + X 雙平台，由 SOCIAL-POSTING v0.5 AI pre+post-ship verify 取代 human confirm gate。MANIFESTO §自主權邊界「對外輸出層 human-must」鎖人類仍是 manual session default — routine 例外條款待 [LESSONS-INBOX 2026-05-25 spore-publish-design entry](../semiont/LESSONS-INBOX.md) distill 後明文進 MANIFESTO canonical。本檔 §Routine context 自動決策 defaults (v3.7 table) 是 routine 場景的 in-pipeline canonical。
 
 ### URL encode + UTM 雙 URL 輸出（2026-05-17 哲宇 directive 升級）
 
