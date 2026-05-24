@@ -119,7 +119,7 @@ Many first-generation vendors are approaching their seventies. The next generati
 
 **Lin Family Stinky Tofu** at Shilin is one success story. Founder Lin Chunsheng started his stall in 1975. His son Lin Zhihong spent years in tech before returning in 2015 to take over. He introduced POS systems, delivery partnerships, and social media — growing annual revenue from 2 million to 5 million NT.
 
-That's the optimistic version. More often, the children leave and the stall ages out. Night market hours are brutal: ingredient prep from 4 PM, cleanup past 1 AM, Chinese New Year the only real holiday. Against a comfortable office job, that trade-off is a hard sell to a university graduate.
+That's the optimistic version. More often, the children leave and the stall ages out. Night market hours are brutal: ingredient prep from 4 PM, cleanup past 1 AM, Lunar New Year the only real holiday. Against a comfortable office job, that trade-off is a hard sell to a university graduate.
 
 The result: stagnating menus and cash-only operations running on handwritten receipt books — functioning, but not evolving.
 

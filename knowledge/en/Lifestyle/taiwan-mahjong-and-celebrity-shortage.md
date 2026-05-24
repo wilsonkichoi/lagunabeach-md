@@ -1,6 +1,6 @@
 ---
 title: "Taiwan Mahjong: Grandma Won't Teach You, but Celebrity Mahjong Will"
-description: 'On the second day of Chinese New Year, Grandma sits at the table, plays a hand you cannot decode, and wins. You ask how the scoring works; she says children should be seen and not heard. So you open the computer and let Wu Zong-xian teach you. Celebrity Mahjong (明星三缺一), released by IGS in 2001, accidentally became the mahjong teacher for an entire generation of Taiwanese.'
+description: 'On the second day of Lunar New Year, Grandma sits at the table, plays a hand you cannot decode, and wins. You ask how the scoring works; she says children should be seen and not heard. So you open the computer and let Wu Zong-xian teach you. Celebrity Mahjong (明星三缺一), released by IGS in 2001, accidentally became the mahjong teacher for an entire generation of Taiwanese.'
 date: 2026-04-23
 tags:
   [
@@ -8,7 +8,7 @@ tags:
     '16-Tile',
     'Celebrity Mahjong',
     'IGS',
-    'Chinese New Year',
+    'Lunar New Year',
     'Taiwan Culture',
   ]
 subcategory: 'Everyday Entertainment'
@@ -29,7 +29,7 @@ translatedAt: '2026-05-01T08:56:11+08:00'
 
 ---
 
-## The Table at Chinese New Year
+## The Table at Lunar New Year
 
 Lunar New Year, second day. Grandma's house. Adults finish eating, dishes still unwashed, and the square table is already out.
 
@@ -82,7 +82,7 @@ But _Celebrity Mahjong_ accomplished one thing those games could not: it taught 
 
 The game came with complete rules for Taiwan 16-tile mahjong built in. Every hand scored itself automatically; when you won, it listed how many points you scored and how each point was earned. No need for Grandma to explain — the computer told you directly: "Clean hand + self-draw + 2 flower tiles = 5 points." For an entire generation that grew up in front of a DOS or Windows screen, _Celebrity Mahjong_ was the mahjong textbook.
 
-> **Grandma's teaching method: "Children should be seen and not heard." Celebrity Mahjong's teaching method: "If you play wrong, Wang Cai-hua will laugh at you." Both work — but the second one won't make you cry over Chinese New Year.**
+> **Grandma's teaching method: "Children should be seen and not heard." Celebrity Mahjong's teaching method: "If you play wrong, Wang Cai-hua will laugh at you." Both work — but the second one won't make you cry over Lunar New Year.**
 
 ---
 
@@ -111,7 +111,7 @@ Taiwan's mobile gaming market is brutally competitive; products with a lifespan 
 
 Because mahjong satisfies a specific need: wanting to play, but unable to gather four people.
 
-This need never goes away. On a weekday night at 10 p.m. when you want to play a few rounds, you cannot call three friends over. Before Chinese New Year when you want to practice so you are not humiliated by Grandma on the second day, you need a table that can open any time. _Celebrity Mahjong_ fills that gap — it is not competing with other games, it is competing with the eternal problem of "can't gather enough players."[^15]
+This need never goes away. On a weekday night at 10 p.m. when you want to play a few rounds, you cannot call three friends over. Before Lunar New Year when you want to practice so you are not humiliated by Grandma on the second day, you need a table that can open any time. _Celebrity Mahjong_ fills that gap — it is not competing with other games, it is competing with the eternal problem of "can't gather enough players."[^15]
 
 And the uniqueness of Taiwan 16-tile mahjong makes this market almost impossible for outsiders to enter. Japanese mahjong games use 13 tiles with different rules. Chinese mahjong apps use national standard or regional rules that Taiwanese find uncomfortable. To make a mahjong game Taiwanese will actually use, you must understand 16-tile rules, understand the point system, understand flower tiles, and understand "every table has different house rules."
 
@@ -137,11 +137,11 @@ How are consecutive banker wins scored? Some tables add two points per win, othe
 
 These differences have never been unified because nobody has the authority to unify them. Each tile table's rules are the consensus of the four people at that table, and the consensus source is "this is how my dad taught me."
 
-This sounds chaotic — but the chaos itself is culture. Taiwan 16-tile mahjong is a family ritual. What is transmitted at the tile table includes rules, but also Grandpa's temper, Grandma's playing style, Uncle's expression when he deals the wrong tile, and that particular intimacy and tension that only appears at Chinese New Year.
+This sounds chaotic — but the chaos itself is culture. Taiwan 16-tile mahjong is a family ritual. What is transmitted at the tile table includes rules, but also Grandpa's temper, Grandma's playing style, Uncle's expression when he deals the wrong tile, and that particular intimacy and tension that only appears at Lunar New Year.
 
-_Celebrity Mahjong_ did not replace that table. It did something else: it let those who had not yet earned the right to sit at the table practice the fundamentals in front of a screen first. So that when Chinese New Year comes and Grandma asks if you want to play, you can finally sit down — not peek through the door crack.
+_Celebrity Mahjong_ did not replace that table. It did something else: it let those who had not yet earned the right to sit at the table practice the fundamentals in front of a screen first. So that when Lunar New Year comes and Grandma asks if you want to play, you can finally sit down — not peek through the door crack.
 
-Somewhere in 2026, at Chinese New Year, in someone's living room, a young person in their twenties sits at the tile table. Grandma watches how they draw their tile, then asks: "Where did you learn?"
+Somewhere in 2026, at Lunar New Year, in someone's living room, a young person in their twenties sits at the tile table. Grandma watches how they draw their tile, then asks: "Where did you learn?"
 
 They do not answer.
 

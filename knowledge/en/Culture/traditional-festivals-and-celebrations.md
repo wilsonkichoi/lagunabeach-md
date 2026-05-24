@@ -9,7 +9,7 @@ tags:
     'folk customs',
     'Mazu pilgrimage',
     'Yanshui Beehive Rockets',
-    'Chinese New Year',
+    'Lunar New Year',
     'Mid-Autumn BBQ',
   ]
 author: 'Taiwan.md'
@@ -94,15 +94,15 @@ In 2009, UNESCO listed it as "World Intangible Cultural Heritage." Discovery Cha
 
 ## Taiwan Variations of Three Major Lunar Calendar Festivals
 
-### Chinese New Year: Evolution from Three to Nine Days of Holiday
+### Lunar New Year: Evolution from Three to Nine Days of Holiday
 
-Taiwan's Chinese New Year holiday extension reflects social changes:
+Taiwan's Lunar New Year holiday extension reflects social changes:
 
 - **1950s**: Lunar New Year Days 1-3, total 3 days
 - **1970s**: Weekend adjustments, about 5-6 days
 - **Post-2000**: Nine-day Spring Festival holiday institutionalized
 
-**Taiwan's Unique Chinese New Year Culture**:
+**Taiwan's Unique Lunar New Year Culture**:
 
 - **Yuan Xiao vs Tang Yuan Retro Revival**: Starting 2025, department stores reintroduced traditional "rolled yuan xiao" (filling dipped in water then rolled in glutinous rice flour, creating layered skin), distinguishing from modern "wrapped tang yuan"
 - **Red Envelope Numerology**: Favoring 600, 800, 1200 and other auspicious numbers, avoiding unlucky numbers like 4 and 7

@@ -65,7 +65,7 @@ The New York Times dance critic wrote: "Lin Hwai-min has succeeded brilliantly i
 
 ## Fire and Rebirth: The 2008 Calamity
 
-At 1 AM on February 11, 2008, the fifth day of the Chinese New Year, a phone call shattered Lin Hwai-min's peaceful night. Cloud Gate's iron-sheet rehearsal studio in Bali, used for 16 years, had been completely destroyed by fire.
+At 1 AM on February 11, 2008, the fifth day of the Lunar New Year, a phone call shattered Lin Hwai-min's peaceful night. Cloud Gate's iron-sheet rehearsal studio in Bali, used for 16 years, had been completely destroyed by fire.
 
 "The call came from a girl living near the rehearsal space who happened to still be awake. I didn't know her or how she got my number... I immediately ran over there. I was terrified by what I saw," Lin later recalled.
 

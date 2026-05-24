@@ -1,6 +1,6 @@
 ---
 title: "Chiayi Turkey Rice: A City's Identity in a NT$30 Bowl"
-description: "After World War II, the American military brought turkeys to Chiayi. A chef named Lin Tien-shou shredded the turkey meat, poured braised sauce over it, and piled it on white rice. Seventy years later, this NT$30 bowl was voted No. 1 in the Council of Agriculture's Top Ten Signature Rice Dishes of Taiwan. Chiayi people can argue all Chinese New Year about which restaurant makes the best version — but on one point they never argue: turkey rice belongs to Chiayi."
+description: "After World War II, the American military brought turkeys to Chiayi. A chef named Lin Tien-shou shredded the turkey meat, poured braised sauce over it, and piled it on white rice. Seventy years later, this NT$30 bowl was voted No. 1 in the Council of Agriculture's Top Ten Signature Rice Dishes of Taiwan. Chiayi people can argue all Lunar New Year about which restaurant makes the best version — but on one point they never argue: turkey rice belongs to Chiayi."
 date: 2026-04-24
 tags:
   [
