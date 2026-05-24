@@ -12,7 +12,7 @@ tags:
   - 'Port'
   - 'Port pluvieux'
   - 'Île de Heping'
-  - 'Festival de Zhongyuan de Jilong'
+  - 'Festival de Zhongyuan de Keelung'
   - 'Marché de nuit de Miao Kou'
   - 'Port de pêche de Zhengbin'
   - 'Kanzai Ding'
@@ -50,7 +50,7 @@ L’île de Heping, à seulement 75 m du continent, était appelée « Sheli
 
 Le 5 mai 1626, une flotte espagnole part de Manille (Philippines) vers le nord, occupe Sheliao Island et y érige la forteresse San Salvador, face à la forteresse néerlandaise de Fort Zeelandia à Tainan[^3]. C’est une guerre par procuration entre deux empires maritimes européennes, la lutte pour les routes du Nord‑Asie, Taiwan servant de tampon.
 
-Les Espagnols restent 16 ans. En 1642, la Compagnie néerlandaise des Indes orientales lance la « Bataille de Jilong », les Espagnols capitulent après six jours[^4]. Les Néerlandais rebaptisent la forteresse Fort Noord Holland, réduisent son envergure et conservent le contrôle du nord de Taiwan, mais repartent en 1668 à cause de troubles autochtones et de déceptions commerciales avec la dynastie Qing[^5].
+Les Espagnols restent 16 ans. En 1642, la Compagnie néerlandaise des Indes orientales lance la « Bataille de Keelung », les Espagnols capitulent après six jours[^4]. Les Néerlandais rebaptisent la forteresse Fort Noord Holland, réduisent son envergure et conservent le contrôle du nord de Taiwan, mais repartent en 1668 à cause de troubles autochtones et de déceptions commerciales avec la dynastie Qing[^5].
 
 > **📝 Note du commissaire :** Les manuels d’histoire de Taiwan résument souvent « 1626‑1642 : occupation espagnole du nord de Taiwan ». Pourtant, ces 16 ans ont laissé une preuve enterrée pendant 400 ans : les vestiges de l’église des Saints de San Salvador. Depuis 2011, le directeur du département d’anthropologie de l’Université nationale de Tsinghua, Zang Zhenhua, collabore avec des chercheurs espagnols pour fouiller le site ; en 2016, ils découvrent une partie de l’église et quatre tombes, puis poursuivent les fouilles en 2019[^5]. L’église couvre plus de 200 m², s’étend sur plus de 350 m², et 21 restes humains sont exhumés, dont des missionnaires européens et des enfants autochtones Puyuma enterrés dans des jarres en terre cuite. L’équipe résume : « Le site archéologique de l’île de Heping est la seule preuve de la colonisation espagnole à Taiwan »[^6]. Ainsi, 400 ans de connexions mondiales de Taiwan sont littéralement enfouis sous le sol de cette petite île.
 
@@ -80,11 +80,11 @@ En août 1851 (première année du règne de Xianfeng), des affrontements entr
 
 Le résultat : **une rotation des officiants basée sur les caractères de leurs noms de famille, remplaçant la notion de provenance géographique par le sang clanique**[^11]. En 1855 (cinquième année de Xianfeng), le système est officiellement mis en place ; un tirage au sort détermine l’ordre de 11 caractères, du « Zhang » au « Xu », d’où le nom « Zhang‑tóu‑Xu‑wěi » : Zhang, Liao, Jian, Wu, Liu, Tang, Du, Chen, Hu, Yao, Xie, Lin, Jiang, Zheng, He, Lan, Han, Lai, Xu.
 
-> **✦** « Remplacer les combats de bandes par des compétitions de troupeaux afin d’atteindre l’harmonie sociale et la prospérité commune » (Mémoire culturelle nationale, entrée « Festival de Zhongyuan de Jilong »[^12]).
+> **✦** « Remplacer les combats de bandes par des compétitions de troupeaux afin d’atteindre l’harmonie sociale et la prospérité commune » (Mémoire culturelle nationale, entrée « Festival de Zhongyuan de Keelung »[^12]).
 
-C’est l’esprit central du festival de Zhongyuan de Jilong. Ce n’est pas seulement une cérémonie de prière pour les âmes errantes comme partout à Taiwan ; c’est une institution qui, depuis 170 ans, transforme le souvenir d’une escarmouche mortelle en un rituel cyclique. Les compétitions de troupeaux sont la version ritualisée des combats : on rivalise, mais sans violence, avec des chars décorés, des formations et des tambours.
+C’est l’esprit central du festival de Zhongyuan de Keelung. Ce n’est pas seulement une cérémonie de prière pour les âmes errantes comme partout à Taiwan ; c’est une institution qui, depuis 170 ans, transforme le souvenir d’une escarmouche mortelle en un rituel cyclique. Les compétitions de troupeaux sont la version ritualisée des combats : on rivalise, mais sans violence, avec des chars décorés, des formations et des tambours.
 
-![Autel principal du festival de Zhongyuan de Jilong, octobre 2023. Tour octogonal du parc Zhongzheng, construit au milieu des années 1970, où se déroule chaque année le rituel de Zhongyuan. En arrière‑plan, la tour Keelung Tower.](/article-images/geography/keelung-00.jpg)
+![Autel principal du festival de Zhongyuan de Keelung, octobre 2023. Tour octogonal du parc Zhongzheng, construit au milieu des années 1970, où se déroule chaque année le rituel de Zhongyuan. En arrière‑plan, la tour Keelung Tower.](/article-images/geography/keelung-00.jpg)
 _Autel principal et Keelung Tower, 23 oct 2023. Photo : Wikimedia Commons, CC BY‑SA._
 
 Après la guerre sino‑française de 1884, le rite est renforcé. **Les plus de 700 âmes françaises sont intégrées au rituel**. « Des immigrants Han, animés par la compassion, décident d’inclure ces soldats sans sépulture dans leurs prières »[^12]. Ainsi, un conflit local se transforme en une cérémonie qui accueille même les ennemis. Depuis 1855, le rituel se tient chaque année au mois lunaire 7 dans le parc Zhongzheng ; le nouvel autel principal, construit au milieu des années 1970, possède une tour octogonale, dont le rez‑dé­cha­n­cé abrite un musée des objets du Zhongyuan[^13].

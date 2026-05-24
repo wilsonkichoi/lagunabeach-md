@@ -42,7 +42,7 @@ Les véritables origines du développement thermal à Taïwan remontent à la cr
 
 Au début de l'occupation japonaise, les maladies tropicales et les carences médicales causèrent de lourdes pertes dans les rangs de l'armée. Le gouvernement général, pressé d'établir un réseau de sanatoriums pour ses troupes, lança une prospection systématique des ressources thermales de l'île. Chaque source découverte faisait l'objet d'une analyse de composition, suivie d'une évaluation pour l'installation éventuelle d'un sanatorium militaire.
 
-**Hirata Gengoro incarne ce pionnier imprévu.** Cet ancien policier ayant participé au mouvement de restauration impériale était venu à Taïwan chercher fortune dans les mines d'or. Sa demande refusée, il fut blessé lors d'une prospection et fut en outre frappé par le béribéri. Ne trouvant pas de médecin à Jilong, il entendit parler de sources chaudes au pied du mont Datun et se rendit à Beitou, prêt à tenter sa chance par désespoir.
+**Hirata Gengoro incarne ce pionnier imprévu.** Cet ancien policier ayant participé au mouvement de restauration impériale était venu à Taïwan chercher fortune dans les mines d'or. Sa demande refusée, il fut blessé lors d'une prospection et fut en outre frappé par le béribéri. Ne trouvant pas de médecin à Keelung, il entendit parler de sources chaudes au pied du mont Datun et se rendit à Beitou, prêt à tenter sa chance par désespoir.
 
 Le 25 novembre 1895, Hirata trouva refuge chez une famille taïwanaise de la région et commença à se baigner dans le ruisseau pour soigner ses blessures. Un mois plus tard, guéri, il décida d'ouvrir une modeste auberge thermale sur place — le Tengu-an — devenant ainsi le premier opérateur thermal de Taïwan.
 

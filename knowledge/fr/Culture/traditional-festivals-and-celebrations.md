@@ -116,7 +116,7 @@ La culture du barbecue lors de la fête de la mi-automne à Taïwan n'est pas un
 
 La course de bateaux-dragons à Taïwan a évolué d'un rite commémorant Qu Yuan en sport compétitif d'envergure internationale :
 
-- **Période traditionnelle** : courses sur la rivière Jilong et le fleuve Danshui en hommage à Qu Yuan
+- **Période traditionnelle** : courses sur la rivière Keelung et le fleuve Danshui en hommage à Qu Yuan
 - **Période sportive** : à partir des années 1970, organisation de compétitions officielles dans chaque comté
 - **Période internationale** : les équipes taïwanaises brillent aux championnats du monde, et le bateau-dragon devient un vecteur de diplomatie culturelle
 

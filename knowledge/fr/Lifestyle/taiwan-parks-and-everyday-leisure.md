@@ -59,7 +59,7 @@ Derrière ce mouvement, des parents insatisfaits du statu quo. Ils ont formé la
 
 Au-delà des parcs urbains, les espaces riverains de Taïwan constituent un autre terrain de loisirs quotidien essentiel.
 
-Les deux rives de la Danshui, de la Jilong et de la Xindian à Taipei sont parcourues par des pistes cyclables et des promenades sur plusieurs dizaines de kilomètres. Le week-end, le parc fluvial ressemble à une grande fête de plein air : cyclistes sur vélo de route, usagers de YouBike, joggeurs, rollers, cerfs-volants, matchs improvisés de basket, entraînements de baseball, promeneurs avec leur Shiba Inu — une densité telle qu'il faut parfois réguler la circulation.
+Les deux rives de la Danshui, de la Keelung et de la Xindian à Taipei sont parcourues par des pistes cyclables et des promenades sur plusieurs dizaines de kilomètres. Le week-end, le parc fluvial ressemble à une grande fête de plein air : cyclistes sur vélo de route, usagers de YouBike, joggeurs, rollers, cerfs-volants, matchs improvisés de basket, entraînements de baseball, promeneurs avec leur Shiba Inu — une densité telle qu'il faut parfois réguler la circulation.
 
 L'Aiguo à Kaohsiung, le Lvchuan et le Liuchuan à Taichung, le canal de Tainan — après leur réhabilitation, ces espaces autrefois fuis comme des égouts à ciel ouvert sont devenus des itinéraires de promenade du soir. La renaissance de ces fronts d'eau n'est pas seulement un exploit d'ingénierie ; c'est un indicateur concret de la qualité de vie urbaine.
 

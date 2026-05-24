@@ -38,7 +38,7 @@ Du point de vue des théories de gestion, les marchés de nuit violent presque t
 
 **Aucune standardisation** : la même omelette aux huîtres peut varier considérablement d'un stand à l'autre — goût, quantité, prix. Impensable dans l'univers normé de McDonald's.
 
-**Aucun emplacement fixe** : beaucoup de marchés eux-mêmes sont en perpétuel mouvement. Le marché de Jilong Miaokou a déménagé trois fois à cause de projets de rénovation urbaine ; le périmètre du marché de Ningxia n'a cessé d'évoluer au fil du temps.
+**Aucun emplacement fixe** : beaucoup de marchés eux-mêmes sont en perpétuel mouvement. Le marché de Keelung Miaokou a déménagé trois fois à cause de projets de rénovation urbaine ; le périmètre du marché de Ningxia n'a cessé d'évoluer au fil du temps.
 
 Et pourtant, c'est précisément ce modèle « qui ne devrait pas exister » qui a produit un bilan économique stupéfiant.
 
@@ -106,7 +106,7 @@ C'est ici que réside la vraie singularité des marchés de nuit taïwanais : il
 
 Rares sont les pays dans le monde à faire des « stands de rue » la carte de visite touristique nationale. La France a le Guide Michelin, la Thaïlande le massage et le spa, Taïwan a ses marchés de nuit.
 
-En 2010, le Bureau du Tourisme du ministère des Transports a organisé le « Concours des marchés de nuit caractéristiques de Taïwan », avec remise de prix par le Président de la République en personne. Les marchés de Fengchia et de Jilong Miaokou ont obtenu le titre de « marché de nuit le plus savoureux de Taïwan ».
+En 2010, le Bureau du Tourisme du ministère des Transports a organisé le « Concours des marchés de nuit caractéristiques de Taïwan », avec remise de prix par le Président de la République en personne. Les marchés de Fengchia et de Keelung Miaokou ont obtenu le titre de « marché de nuit le plus savoureux de Taïwan ».
 
 Qu'est-ce que cela signifie ? Le gouvernement reconnaît officiellement l'« économie informelle » comme un vecteur de soft power national.
 
