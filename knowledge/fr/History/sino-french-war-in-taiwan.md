@@ -99,7 +99,7 @@ En dialecte taïwanais hokkien, cette guerre s'appelle _Si-Á-Huán_ — « la r
 
 La conséquence la plus durable de la guerre sino-française n'est pas militaire — elle est institutionnelle. Le conflit révèle à Pékin que Taïwan n'est pas une simple dépendance du Fujian, mais un territoire doté d'une valeur stratégique propre. En 1885, Taïwan est détachée de la province du Fujian et érigée en 20e province de l'Empire Qing. Liu Mingchuan est nommé premier gouverneur de Taïwan[^22].
 
-Durant ses six années de mandat (1885-1891), Liu Mingchuan lance la première vague de modernisation de l'île. Il fait construire la ligne de chemin de fer Keelung–Xinzhu (environ 107 kilomètres, dont les travaux débutent en 1887 et s'achèvent en 1893), pose un câble télégraphique sous-marin entre Taipei et Fuzhou, organise le service postal, ouvre des écoles de style occidental, et procède au cadastrage des terres[^23]. Sa modernisation précède de dix ans celle des Japonais. Mais après sa démission pour raisons de santé en 1891, la plupart des projets sont abandonnés.
+Durant ses six années de mandat (1885-1891), Liu Mingchuan lance la première vague de modernisation de l'île. Il fait construire la ligne de chemin de fer Keelung–Hsinchu (environ 107 kilomètres, dont les travaux débutent en 1887 et s'achèvent en 1893), pose un câble télégraphique sous-marin entre Taipei et Fuzhou, organise le service postal, ouvre des écoles de style occidental, et procède au cadastrage des terres[^23]. Sa modernisation précède de dix ans celle des Japonais. Mais après sa démission pour raisons de santé en 1891, la plupart des projets sont abandonnés.
 
 ## Cent quarante ans d'échos
 
@@ -118,7 +118,7 @@ La France a obtenu le Vietnam. La Chine des Qing a gardé Taïwan. Six cents sol
 **Pour aller plus loin :**
 
 - [La période Qing à Taïwan](/history/清治時期) — Le contexte dans lequel s'inscrit la guerre sino-française : l'ouverture des ports, l'arrivée des puissances étrangères sur Formose
-- [L'histoire du chemin de fer taïwanais](/history/台灣鐵道史) — La ligne Keelung–Xinzhu construite par Liu Mingchuan après la guerre, point de départ du réseau ferroviaire taïwanais
+- [L'histoire du chemin de fer taïwanais](/history/台灣鐵道史) — La ligne Keelung–Hsinchu construite par Liu Mingchuan après la guerre, point de départ du réseau ferroviaire taïwanais
 - [Le Mouvement des tournesols](/history/太陽花學運) — Un autre moment où Taïwan a résisté à une pression extérieure en s'appuyant sur la mobilisation populaire
 
 ## Références
@@ -167,7 +167,7 @@ La France a obtenu le Vietnam. La Chine des Qing a gardé Taïwan. Six cents sol
 
 [^22]: [Liu Mingchuan, Wikipedia](https://zh.wikipedia.org/wiki/%E5%8A%89%E9%8A%98%E5%82%B3) — En 1885, Taïwan est détachée du Fujian et érigée en 20e province de l'Empire Qing. Liu Mingchuan est nommé premier gouverneur, poste qu'il occupe de 1885 à 1891.
 
-[^23]: [Chemin de fer de Taïwan (époque Qing), Wikipedia](<https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3%E9%90%B5%E8%B7%AF_(%E6%B8%85%E6%9C%9D)>) — La ligne Keelung–Xinzhu (environ 107 km) est mise en chantier en 1887 et inaugurée en 1893. Voir aussi [CommonWealth Magazine : le grand rêve de modernisation de Liu Mingchuan](https://www.cw.com.tw/article/5026963).
+[^23]: [Chemin de fer de Taïwan (époque Qing), Wikipedia](<https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3%E9%90%B5%E8%B7%AF_(%E6%B8%85%E6%9C%9D)>) — La ligne Keelung–Hsinchu (environ 107 km) est mise en chantier en 1887 et inaugurée en 1893. Voir aussi [CommonWealth Magazine : le grand rêve de modernisation de Liu Mingchuan](https://www.cw.com.tw/article/5026963).
 
 [^24]: [Taipei Times : Exhuming French History in Taiwan (2001)](https://www.taipeitimes.com/News/feat/archives/2001/11/15/111666) — Le cimetière français de Keelung compte environ 600 sépultures : 120 tués au combat, 150 morts de leurs blessures, les autres emportés par les maladies. Le chercheur Christophe Rouil corrige le chiffre de 700 inscrit sur le monument à environ 600. Voir aussi [Atlas Obscura](https://www.atlasobscura.com/places/sino-french-war-memorial-park).
 

@@ -1,36 +1,37 @@
 ---
-title: "Taipei : trois temps dans une même ville, le temple Longshan de 1738 face au 101 de 2004"
+title: 'Taipei : trois temps dans une même ville, le temple Longshan de 1738 face au 101 de 2004'
 description: "Le quartier de Wanhua abrite le temple Longshan, construit en 1738. À trois kilomètres de là, la veille du Nouvel An 2004, le Taipei 101 a été inauguré sur un terrain qui fut d'abord l'entrepôt militaire de Songshan sous l'ère japonaise, puis l'arsenal 44 après-guerre : il était alors le plus haut gratte-ciel du monde. En se dirigeant vers Dadaocheng, dans les années 1860, Li Chunsheng a soutenu l'ensemble du commerce extérieur du nord de Taïwan grâce à un seul navire de thé Oolong. Dans le même bassin, trois époques coexistent : 1738, 1885, 2004. En 1875, Shen Baozhen établit la préfecture de Taipei ; en 1920, les Japonais fusionnent trois quartiers pour créer la ville de Taipei ; en 1947, le paquet de cigarettes de Lin Jiangmai déclenche le 228 ; en 1949, le gouvernement nationaliste s'installe à Taipei avec 1,2 million de personnes ; en 1967, Taipei devient la première municipalité spéciale de Taïwan ; en 1990, le mouvement du Lys sauvage occupe la place du Mémorial Chiang Kai-shek pendant sept jours et six nuits. Douze districts, vivant dans des siècles différents."
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: [
-    "Taipei",
-    "Ville de Taipei",
-    "Nord",
-    "Municipalité spéciale",
-    "Capitale",
-    "Wanhua",
-    "Dadaocheng",
-    "Zone planifiée de Xinyi",
-    "101",
-    "228",
-    "Mouvement du Lys sauvage",
-    "Mouvement du Tournesol",
-    "Ketagalan",
-    "Temple Longshan",
-    "Série des 22 municipalités et comtés"
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    'Taipei',
+    'Ville de Taipei',
+    'Nord',
+    'Municipalité spéciale',
+    'Capitale',
+    'Wanhua',
+    'Dadaocheng',
+    'Zone planifiée de Xinyi',
+    '101',
+    '228',
+    'Mouvement du Lys sauvage',
+    'Mouvement du Tournesol',
+    'Ketagalan',
+    'Temple Longshan',
+    'Série des 22 municipalités et comtés',
   ]
 readingTime: 18
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/台北市.md"
-sourceCommitSha: "1fbb3adf1"
-sourceContentHash: "sha256:6b1de66c12b3c38a"
-sourceBodyHash: "sha256:c557c6ff09961dc3"
-translatedAt: "2026-05-19T05:08:07+08:00"
+translatedFrom: 'Geography/台北市.md'
+sourceCommitSha: '1fbb3adf1'
+sourceContentHash: 'sha256:6b1de66c12b3c38a'
+sourceBodyHash: 'sha256:c557c6ff09961dc3'
+translatedAt: '2026-05-19T05:08:07+08:00'
 ---
 
 # Taipei : trois temps dans une même ville, le temple Longshan de 1738 face au 101 de 2004
@@ -70,7 +71,7 @@ _Temple Longshan de Mengjia, 2017. Photo : contributeur Wikimedia Commons, [CC B
 
 ## 1875 : création de la préfecture, 1882 : début des travaux, 1884 : achèvement
 
-La 1ère année du règne de Guangxu (1875), l'envoyé impérial Shen Baozhen demanda à la cour Qing d'établir la préfecture de Taipei. La cause remontait à l'incident de Mudan en 1874 : le Japon avait envoyé des troupes à Mudan (dans le comté de Pingtuan) sous prétexte de protéger ses ressortissants ; Shen Baozhen fut envoyé comme envoyé impérial pour gérer la situation à Taïwan. Après l'apaisement de l'incident, il rapporta à la cour Qing l'importance stratégique de Taïwan et proposa « la création d'une préfecture et trois comtés à Taipei ». La cour approuva, et la préfecture de Taipei fut officiellement établie, administrant les comtés de Tamsui, Xinzhu et Yilan (auxquels fut ajouté plus tard le district de Keelung)[^8].
+La 1ère année du règne de Guangxu (1875), l'envoyé impérial Shen Baozhen demanda à la cour Qing d'établir la préfecture de Taipei. La cause remontait à l'incident de Mudan en 1874 : le Japon avait envoyé des troupes à Mudan (dans le comté de Pingtuan) sous prétexte de protéger ses ressortissants ; Shen Baozhen fut envoyé comme envoyé impérial pour gérer la situation à Taïwan. Après l'apaisement de l'incident, il rapporta à la cour Qing l'importance stratégique de Taïwan et proposa « la création d'une préfecture et trois comtés à Taipei ». La cour approuva, et la préfecture de Taipei fut officiellement établie, administrant les comtés de Tamsui, Hsinchu et Yilan (auxquels fut ajouté plus tard le district de Keelung)[^8].
 
 Mais le nom de la préfecture existait avant la ville. 1875 fut le point de départ de la planification, les travaux ne commencèrent officiellement qu'en 1882.
 
@@ -85,7 +86,7 @@ La 11e année du règne de Guangxu (1885), en octobre, la cour Qing décréta la
 
 Liu Mingchuan choisit d'établir la capitale provinciale près de Dadaocheng, et non dans la ville fortifiée de Taipei achevée seulement en 1884. Cette décision établit la répartition suivante : **Dadaocheng pour le commerce, la ville fortifiée pour l'administration, Mengjiang pour les anciens dieux**. Cette structure de trois quartiers côte à côte fut ensuite maintenue et utilisée par les Japonais.
 
-> **✦** « **Dadaocheng, prospère, a vu de nombreuses innovations et activités y apparaître en premier, avant de se diffuser dans toute l'île.** » (Story StoryStudio, *Où est Taipei ? L'histoire du pays du Dragon Céleste*[^13])
+> **✦** « **Dadaocheng, prospère, a vu de nombreuses innovations et activités y apparaître en premier, avant de se diffuser dans toute l'île.** » (Story StoryStudio, _Où est Taipei ? L'histoire du pays du Dragon Céleste_[^13])
 
 ## Une prise de ville sans combat : le jour où les Japonais prirent Taipei
 
@@ -179,7 +180,7 @@ Les visiteurs voient généralement Taipei à travers le 101, le Musée national
 
 Revenons à l'image d'ouverture.
 
-Quatre heures du matin, sous les néons du marché Huanan, les maraîchers installent les légumes arrivés aujourd'hui de Yilan, Taoyuan, Xinzhu et Yunlin sur les étals. À trois kilomètres de là, le temple Longshan de Wanhua a déjà allumé son premier encensoir, et la première personne âgée est déjà assise sur les marches de pierre devant le temple. Cinq kilomètres plus loin, le district de Xinyi ne s'est pas encore réveillé. Dix kilomètres plus loin, les immeubles de bureaux du parc technologique de Neihu n'ont plus que leurs gardiens de nuit. Vingt kilomètres plus loin, les stations de métro du Nouveau Taipei ne sont pas encore ouvertes.
+Quatre heures du matin, sous les néons du marché Huanan, les maraîchers installent les légumes arrivés aujourd'hui de Yilan, Taoyuan, Hsinchu et Yunlin sur les étals. À trois kilomètres de là, le temple Longshan de Wanhua a déjà allumé son premier encensoir, et la première personne âgée est déjà assise sur les marches de pierre devant le temple. Cinq kilomètres plus loin, le district de Xinyi ne s'est pas encore réveillé. Dix kilomètres plus loin, les immeubles de bureaux du parc technologique de Neihu n'ont plus que leurs gardiens de nuit. Vingt kilomètres plus loin, les stations de métro du Nouveau Taipei ne sont pas encore ouvertes.
 
 Du temple de Wanhua de 1738, à la rue du thé de Dadaocheng de 1885, aux murs de la ville fortifiée de 1884, au 101 de Xinyi de 2004, ce bassin a juxtaposé 288 ans dans 271 km². Chaque jour, trois millions de personnes marchent, conduisent, prennent le métro, font leurs courses, vont au travail, mangent et rentrent chez elles entre ces quatre époques. La plupart ne lèvent pas les yeux pour voir combien de siècles ils traversent.
 
@@ -231,7 +232,7 @@ Licences : [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) et [C
 
 [^7]: [Site officiel du temple Longshan de Mengjia — Présentation](https://lungshan.org.tw/tw/) — Citation mot pour mot du site officiel du temple : « La 3e année du règne de Qianlong (1738 AD), construit conjointement par des habitants des districts de Jinjiang, Nan'an et Hui'an de la préfecture de Quanzhou, et accueillant une effigie du bodhisattva Guanyin du temple Longshan d'Anhai, district de Jinjiang, province du Fujian. » Inclut l'histoire complète du temple : quartier général de l'armée volontaire pendant la guerre franco-chinoise de 1884, plaque « Cihui Yuan Yin » accordée par l'empereur Guangxu, classement comme monument historique national par le ministère de la Culture en 2018.
 
-[^8]: [Histoire de la création de la préfecture de Taipei — Gouvernement de la ville de Taipei](https://www.gov.taipei/cp.aspx?n=14D2637CBC4AAEC2) — En 1875, après l'incident de Mudan, Shen Baozhen demanda l'établissement de la préfecture de Taipei, administrant les comtés de Tamsui, Xinzhu et Yilan (auxquels fut ajouté plus tard le district de Keelung).
+[^8]: [Histoire de la création de la préfecture de Taipei — Gouvernement de la ville de Taipei](https://www.gov.taipei/cp.aspx?n=14D2637CBC4AAEC2) — En 1875, après l'incident de Mudan, Shen Baozhen demanda l'établissement de la préfecture de Taipei, administrant les comtés de Tamsui, Hsinchu et Yilan (auxquels fut ajouté plus tard le district de Keelung).
 
 [^9]: [Ville de Taipei — Wikipédia](https://zh.wikipedia.org/zh-tw/%E8%87%BA%E5%8C%97%E5%9F%8E) — « Le 24e jour du 1er mois de la 8e année de Guangxu (13 mars 1882), les travaux commencèrent officiellement », « circonférence des murs : 1 506 zhang, avec 5 portes », « hauteur du mur : 1 zhang 5 chi ; largeur (chemin de ronde supérieur) : 1 zhang 2 chi ; nord-sud : environ 1,3 km ; est-ouest : environ 1 km ; superficie : environ 1,4 km² » — citation mot pour mot des dimensions des murs. L'année de début des travaux est clairement 1882 (pas 1879) ; 1879 est le point de départ de la planification.
 
