@@ -1,0 +1,1809 @@
+---
+/**
+ * SemiontOrganismDiagram.astro — Taiwan.md ecosystem visual.
+ *
+ * v2 rewrite (2026-05-25): full element coverage matching the AIA showcase
+ * deck slide 11 source diagram. Includes:
+ *  - sovereignty reverse loop (Taiwan.md → LLM platforms → public corpus → ingest)
+ *  - 3 feedback loops (crowd correction / GA traffic / collective reflection)
+ *  - core-ops governance lane (SSODT → GitHub → evolution → review)
+ *  - real Taiwan island shape from public/assets/svg/taiwan-simplemaps.svg
+ *
+ * Four-color flow legend:
+ *   mint #4fd1b0       — writing pipeline (solid)
+ *   terracotta #d4856a — DNA evolution feedback (dashed)
+ *   periwinkle #7aa8d4 — multilingual diffusion (solid)
+ *   gold #c9a96a       — sovereignty reverse loop (long-dashed)
+ */
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const vitalsData = await fetch(new URL('/api/dashboard-vitals.json', Astro.url))
+  .then((r) => r.json())
+  .catch(() => null);
+
+const articleCount = vitalsData?.articles?.total ?? 751;
+const langCount = 6;
+
+// Main island path extracted from public/assets/svg/taiwan-simplemaps.svg
+// (viewBox 0 0 1000 991). Bbox of this island: x 478-955, y 45-946,
+// center ≈ (716, 495). Pre-computed so the center node draws Taiwan
+// correctly — not the olive/potato shape AI usually hallucinates.
+const TAIWAN_PATH =
+  'M930.2 135.9l-17.3 21.2-2.7 4.4-2.2 6.3-1.4 7.1-0.5 7.1 0.2 6.9 3.1 14.4-0.2 3.6-1.3 3.7 0.2 7.5 3.2 5.8 6 3.7 7.1 1.4 0 1.6-3-0.3-2.9 0.3-2.4 0.8-1.7 1.2 2.4 4.7 1.3 6-0.8 5.2-5.5 3.2-0.4 2.3 0.7 2.7 1.5 2.6 0.6 2.6-2.3 2.2-5.8 3.3-6.5 7.5-0.3 2.9 0.4 6.5-1 2.5-1.2 2.1-0.8 3-0.5 5.9-0.5 1.5-0.9 1.2-0.5 1.3 1 1.5 0.2 0.2 0.6 0.7 0.8 1.4 0.7 1.4 0.2 1-1.3 2.2-5.4 5.3-5.8 8-4.3 3.4-1.4 1.9 0.7 1.9-0.8 1.4-6.2 4.7-2.3 2.2-2.6 5.6-2.7 11.4-6.9 10-1.4 4.1 0.2 4.4 1.7 4.9 1.4 2 1.2 1 0.8 1.3 0 3-1 3.3-3.4 5.3-0.7 3.3-0.3 5.9-3 15.1-5.9 15.9-7.5 37.1-4.4 9.1-10.3 59.5-4.2 24.5-2.1 4.5-6.5 8.7-2.5 4.6-1.9 5.7-1.4 10.6 0.2 9.4-0.9 8.9-4.6 9.3-1.9 2-4.4 3.2-2 2-1 2.1-1.5 5.4-4.5 7.9-2.7 12.1-2 5.4-9.5 13.8-1.2 2.5-12.9 10.9-3 3.6-0.5 2.4 0.6 5.8-0.1 2.6-1.2 3-2 3.3-4.4 5.6-4.4 4.1-14.9 10-10 11-2.5 1.3-1.9 2.5-4.9 12.5-2.4 4.7-7.5 9.3-3 5.5-1.7 11.4-4.5 15.6-8.8 15.5-1.3 5.3-1.6 14.9 0.3 13.6 0.8 47.9-1.5 6.8-2.3 5.6-3.2 2.3-3.7 3.4 0.2 7.8 1.3 8.4-0.3 5.5-4.2-6.3-6.3-4.8-7.3-3.3-7.4-1.8-0.3 6.2-2.1 2.2-3.2-0.8-3.4-2.9-0.2-2.2 1.2-6.5-5.1-8.5-0.4-2.3 0-1.9 0.4-3 0-10 0.5-2.9 2.3-3.3 0.5-2.8-18.5-47.9-1.5-2.6-5.1-6.4-4.1-9.1-1.9-2.7-7.5-5.9-3-1.8-1-0.3-1.1-0.7-0.8-3.5-0.6-1.2-4.1-2.7-9.3-4.4-4.2-2.9-4.5-3.9-2-1.3-2.7-1.2-1.5 0.1-1.7 0.6-2 0.1-12.1-9.5-11.3-15.9 11.9 14.3-1.4-6.8-2-3.8-1.6-2.9-4.9-5.6-8.4-7.8-3.2-3.9-1.5-4.4 2-4.3 1.1-3.8-1.5-5.4-2.4-5.2-4.6-7.1-4.3-9.5-0.9-4.2 0.1-2.7 1.4-3.4 0.3-2.2-0.5-1.2-1.2-0.9-1.3-1.2-0.5-2.1-2.6-4.6-0.7-1.8-2-12.6-0.9-5.8-1.7-3.4-3.6-3.6 4.4-3.2 2.5-5.6-1-4.9-5.9-0.8-1.1 1.7-1 3.1-1.6 2.5-3.1-0.1-1.2-2.1 0.4-6.5-0.7-2.2-3.8-1.7-2.1 1.9-1.8 2.7-2.5 0.7-2.7-2.4-0.7-3.2 0.6-3.1 1.1-2.2 2.8-1.4 3.4-0.5 2.9-0.9 0.9-2.8-1.3-1.4-8.7-2.2 0-1.8 7.3-0.1-0.7-2.4-4-3.4-2.6-3 0.7-3.7 2.3-1.4 2.5-0.8 1.2-2.4-0.7-3.6-1.3-3 0.9-2.7 1.3-3.5 2.1-2.4-0.5-2.1 0.5-2.1 3.1-8.3 1.5-1.6 2.4-0.6-3.5-2.4 1.5-3.7 3.5-0.3 3.1-1.3 1.3 0.4-0.8-2.9-2.1 1.5-1.7-0.5-2.3-0.1 0-3 2.3-5.3 3.4-0.2 5 0-3.4-9.7-3.9-7.4 1.8-3.4 0-1.8-2.8-1.4 0.4-1.6 1.6-1.9 0.8-2.4 3.8-4.9-8 0.5-0.1-8.1 4.2-4.8-0.2-15.2 0.7-11.4 2.6-9.1 4-7.1 1.2-9.3 2.1-8.2 1.2-2.7 5.7-7.6 1-2.5 0.7-1.4 5.2-4 1.4-2.8 1.6-6.6 1.1-2.8 6.5-6.3 1.9-2.6 2.5-7.2 3.9-7.2 5.3-15 2.5-4.3 2.8-2.8 2.3-1.6 2.1-0.9 1.4-1.4 0.6-2.7 1.1-2.6 4.7-3.7 1.1-2.9 0.6-9.3 0.8-2.6 2.5-2.4 10.5-12.3 0.6-0.7 0.7-3 3.1-2.6 2-5.9 2.6-11.5 8.6-15 2.6-9.2 3.1-5.1 12.3-13.7 6.8-7.4 1.7-3.8 0.8-6.1 2.1-5.2 5.4-9.7 1.5-5.8 1.5-2.4 6.2-1.9 1.8-2 1.1-2.4 1.2-2.3 3.9-4.1 4.3-3.1 5.2-1.4 6.6 1.3-0.8-5.1 2.5-3.4 3.4-3.5 1.7-5.4 0.8-1.7 3.3-1.6 1.4-5 5.2-10.6 2-2.8 0.7-1.4-0.1-1.6-0.6-1.7-1-2.1 1.4-2.7 1.6-1.7 0.1-0.1 1.4-2.1 0.5-3.6 0.8-2.7 1.9-2.6 2.5-2 2.3-0.8-0.2-1.2 0.6-2.7 2.1-5.6 1.9-3.1 8.3-13.2 6.4-7.7 6.7-5.6 17.1-5.6 4-2.5 3.4-3.1 4.2-2.2 8.3-3 18.7-3.4 10.4-1.9 4.4-1.7 5.7-4.8 1.8-0.8 2.1-0.4 2.8-0.1 3.2 1.1 1.8 2.5 1.1 2.5 1.5 1.5 3.2-1.3-3.4-5.3-5.4-5.5-2.8-1.7 0.8-2.5 1.7-1.5 1.8-0.8 0.7-0.8 1.9-4.8 3-5.5 6.1-5.5 8.9-4.5 10.2-2.4 10.1 1.2 4.1 3.2 9.3 13.1 3.4 6.9 1-0.4 2.5-0.7 2.9-0.4 2 0.6-0.1 0.8-1 1.2-0.9 1.7 0.1 2 1 1.2 3.4 2.4 0.7 0.9 1.6 1.6 3.6 1.3 42.5 10.3 3 1.9-1.5 3.4-0.4 2.7 0.6 4.8 2.3 8.1 2.4 3.8 2 0.9 6.5-1 3.3 0.3 3.9 1.1 3.5 1.7 1.8 2.4-19.1 9.5-5.2 4.4z';
+---
+
+<section
+  class="semiont-organism-section semiont-breakout"
+  aria-labelledby="organism-diagram-heading"
+>
+  <div class="semiont-organism-inner">
+    <header class="semiont-organism-header">
+      <div class="semiont-fig">{t('semiont.diagram.figure-label')}</div>
+      <h2 id="organism-diagram-heading" class="semiont-organism-title">
+        {t('semiont.diagram.heading')}
+      </h2>
+      <p class="semiont-organism-intro">{t('semiont.diagram.intro')}</p>
+
+      <ul class="semiont-organism-legend" aria-label="legend">
+        <li>
+          <span class="dot dot-write"></span>{t('semiont.diagram.legend.write')}
+        </li>
+        <li>
+          <span class="dot dot-feedback"></span>{
+            t('semiont.diagram.legend.feedback')
+          }
+        </li>
+        <li>
+          <span class="dot dot-diffuse"></span>{
+            t('semiont.diagram.legend.diffuse')
+          }
+        </li>
+        <li>
+          <span class="dot dot-sovereign"></span>{
+            t('semiont.diagram.legend.sovereign')
+          }
+        </li>
+      </ul>
+    </header>
+
+    <div class="semiont-organism-stage">
+      <svg
+        class="semiont-organism-svg"
+        viewBox="0 0 1600 1020"
+        role="img"
+        aria-describedby="organism-diagram-desc"
+      >
+        <desc id="organism-diagram-desc">
+          {t('semiont.diagram.desc')}
+        </desc>
+
+        <defs>
+          {/* ─── Arrowheads (4 colors) ─── */}
+          <marker
+            id="arrow-mint"
+            viewBox="0 0 10 10"
+            refX="9"
+            refY="5"
+            markerWidth="7"
+            markerHeight="7"
+            orient="auto-start-reverse"
+          >
+            <path d="M0,1 L9,5 L0,9 z" fill="#4fd1b0" opacity="0.95"></path>
+          </marker>
+          <marker
+            id="arrow-terra"
+            viewBox="0 0 10 10"
+            refX="9"
+            refY="5"
+            markerWidth="7"
+            markerHeight="7"
+            orient="auto-start-reverse"
+          >
+            <path d="M0,1 L9,5 L0,9 z" fill="#d4856a" opacity="0.95"></path>
+          </marker>
+          <marker
+            id="arrow-peri"
+            viewBox="0 0 10 10"
+            refX="9"
+            refY="5"
+            markerWidth="7"
+            markerHeight="7"
+            orient="auto-start-reverse"
+          >
+            <path d="M0,1 L9,5 L0,9 z" fill="#7aa8d4" opacity="0.95"></path>
+          </marker>
+          <marker
+            id="arrow-gold"
+            viewBox="0 0 10 10"
+            refX="9"
+            refY="5"
+            markerWidth="7"
+            markerHeight="7"
+            orient="auto-start-reverse"
+          >
+            <path d="M0,1 L9,5 L0,9 z" fill="#c9a96a" opacity="0.95"></path>
+          </marker>
+
+          {/* Center pulse gradient */}
+          <radialGradient id="grad-center" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#4fd1b0" stop-opacity="0.5"></stop>
+            <stop offset="55%" stop-color="#4fd1b0" stop-opacity="0.12"></stop>
+            <stop offset="100%" stop-color="#4fd1b0" stop-opacity="0"></stop>
+          </radialGradient>
+
+          {/* Reusable gear (radius 14, 8 teeth) */}
+          <g id="gear">
+            <circle
+              r="14"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.2"
+              opacity="0.75"></circle>
+            <circle
+              r="5"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              opacity="0.65"></circle>
+            {
+              Array.from({ length: 8 }).map((_, i) => {
+                const a = (i * Math.PI) / 4;
+                return (
+                  <line
+                    x1={Math.cos(a) * 14}
+                    y1={Math.sin(a) * 14}
+                    x2={Math.cos(a) * 19}
+                    y2={Math.sin(a) * 19}
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    opacity="0.75"
+                  />
+                );
+              })
+            }
+          </g>
+
+          {/* DNA double helix (vertical, ~80 tall) */}
+          <g id="dna-strand">
+            <path
+              d="M -8,-32 Q 8,-16 -8,0 Q 8,16 -8,32"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.4"
+              opacity="0.85"></path>
+            <path
+              d="M 8,-32 Q -8,-16 8,0 Q -8,16 8,32"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.4"
+              opacity="0.85"></path>
+            <line
+              x1="-6"
+              y1="-24"
+              x2="6"
+              y2="-24"
+              stroke="currentColor"
+              stroke-width="0.8"
+              opacity="0.55"></line>
+            <line
+              x1="-7"
+              y1="-8"
+              x2="7"
+              y2="-8"
+              stroke="currentColor"
+              stroke-width="0.8"
+              opacity="0.55"></line>
+            <line
+              x1="-6"
+              y1="8"
+              x2="6"
+              y2="8"
+              stroke="currentColor"
+              stroke-width="0.8"
+              opacity="0.55"></line>
+            <line
+              x1="-7"
+              y1="24"
+              x2="7"
+              y2="24"
+              stroke="currentColor"
+              stroke-width="0.8"
+              opacity="0.55"></line>
+          </g>
+
+          {/* Person silhouette */}
+          <g id="person-shape">
+            <circle
+              cx="0"
+              cy="-20"
+              r="7"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.4"
+              opacity="0.8"></circle>
+            <path
+              d="M -13,20 Q -13,-5 0,-5 Q 13,-5 13,20 Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.4"
+              opacity="0.8"></path>
+          </g>
+
+          {/* Internet cloud */}
+          <path
+            id="cloud-shape"
+            d="
+            M -55,5 Q -55,-12 -38,-15 Q -33,-30 -15,-28 Q -3,-38 13,-30
+            Q 30,-32 35,-18 Q 52,-15 50,2 Q 52,18 32,18
+            L -38,18 Q -55,18 -55,5 Z"
+          ></path>
+
+          {/* LLM speech bubble (cloud with tail pointing down-right) */}
+          <path
+            id="bubble-shape"
+            d="
+            M -60,-8 Q -60,-28 -38,-30 Q -28,-42 -10,-38 Q 8,-46 22,-36
+            Q 42,-38 48,-22 Q 62,-18 58,0 Q 60,16 38,18
+            L -34,18 L -22,28 L -28,18 L -38,18 Q -60,18 -60,-8 Z"
+          ></path>
+
+          {/* Factory with chimneys */}
+          <g id="factory-shape">
+            <path
+              d="M -34,20 L -34,-8 L -22,-8 L -22,-22 L -10,-22 L -10,-8 L 2,-8
+              L 2,-22 L 14,-22 L 14,-8 L 34,-8 L 34,20 Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.4"
+              opacity="0.8"></path>
+            <line
+              x1="-28"
+              y1="-8"
+              x2="-28"
+              y2="-20"
+              stroke="currentColor"
+              stroke-width="1"
+              opacity="0.6"></line>
+            <line
+              x1="-16"
+              y1="-22"
+              x2="-16"
+              y2="-32"
+              stroke="currentColor"
+              stroke-width="1"
+              opacity="0.6"></line>
+            <line
+              x1="-4"
+              y1="-8"
+              x2="-4"
+              y2="-22"
+              stroke="currentColor"
+              stroke-width="1"
+              opacity="0.6"></line>
+            <line
+              x1="8"
+              y1="-22"
+              x2="8"
+              y2="-34"
+              stroke="currentColor"
+              stroke-width="1"
+              opacity="0.6"></line>
+          </g>
+
+          {/* Babel tower antenna */}
+          <g id="tower-shape">
+            <line
+              x1="0"
+              y1="-36"
+              x2="0"
+              y2="22"
+              stroke="currentColor"
+              stroke-width="1.5"
+              opacity="0.85"></line>
+            <line
+              x1="-16"
+              y1="22"
+              x2="16"
+              y2="22"
+              stroke="currentColor"
+              stroke-width="1.5"
+              opacity="0.85"></line>
+            <line
+              x1="-12"
+              y1="-16"
+              x2="12"
+              y2="-16"
+              stroke="currentColor"
+              stroke-width="1"
+              opacity="0.6"></line>
+            <line
+              x1="-8"
+              y1="-2"
+              x2="8"
+              y2="-2"
+              stroke="currentColor"
+              stroke-width="1"
+              opacity="0.6"></line>
+            <line
+              x1="-14"
+              y1="12"
+              x2="14"
+              y2="12"
+              stroke="currentColor"
+              stroke-width="1"
+              opacity="0.6"></line>
+            <circle cx="0" cy="-36" r="3" fill="currentColor" opacity="0.85"
+            ></circle>
+          </g>
+
+          {/* Hexagon (for governance nodes) */}
+          <polygon
+            id="hex-shape"
+            points="-30,0 -15,-26 15,-26 30,0 15,26 -15,26"
+            fill="rgba(255,255,255,0.02)"
+            stroke="currentColor"
+            stroke-width="1.3"
+            opacity="0.8"></polygon>
+
+          {/* Taiwan island shape symbol (correct outline from simplemaps) */}
+          <symbol
+            id="taiwan-island"
+            viewBox="478 45 477 901"
+            preserveAspectRatio="xMidYMid meet"
+          >
+            <path d={TAIWAN_PATH}></path>
+          </symbol>
+
+          {/* ─── Pipe paths — all referenced by particle animations ─── */}
+          {
+            /* Main writing pipeline (mint, solid lines). Endpoints sit just
+              outside each box edge so arrowheads kiss the boundary cleanly. */
+          }
+          <path id="pipe-4-5" d="M 100,470 L 196,470"></path>
+          <path id="pipe-5-6" d="M 285,470 L 368,470"></path>
+          <path id="pipe-6-7" d="M 512,470 L 568,470"></path>
+          <path id="pipe-7-8" d="M 712,470 L 768,470"></path>
+          <path id="pipe-8-9" d="M 912,470 L 1028,470"></path>
+
+          {/* N3 cloud → N6 writing (tributary — curved as organic source) */}
+          <path id="pipe-3-6" d="M 200,290 Q 280,330 410,440"></path>
+          {/* N4 contributor → N6 (suggest topic / errata) — elbow */}
+          <path
+            id="pipe-4-6sugg"
+            d="M 80,508 V 600 Q 80,610 90,610 H 430 Q 440,610 440,602 V 502"
+          ></path>
+          {
+            /* N4 contributor → N13 core ops (improve site) — elbow, ends at N13 hex left point (210, 850) */
+          }
+          <path id="pipe-4-13" d="M 80,508 V 840 Q 80,850 90,850 H 210"></path>
+
+          {/* Compute injection: N2 factory → N7, N8 (dotted, curved) */}
+          <path id="pipe-2-7" d="M 1430,210 Q 1100,260 660,440"></path>
+          <path id="pipe-2-8" d="M 1450,210 Q 1280,300 860,440"></path>
+
+          {/* N9 Taiwan.md → N10 Babel (orthogonal) */}
+          <path
+            id="pipe-9-10"
+            d="M 1140,440 Q 1150,440 1150,432 V 410 Q 1150,400 1160,400 H 1296"
+          ></path>
+          {/* N9 → N11 Spores (smooth Bezier diffusion — organic emanation) */}
+          <path id="pipe-9-11" d="M 1130,510 Q 1170,560 1200,586"></path>
+          {/* N9 → N12 Translation (longer smooth Bezier) */}
+          <path id="pipe-9-12" d="M 1150,500 Q 1280,520 1380,586"></path>
+          {/* N11 → N16 Platform (smooth curve down-right) */}
+          <path id="pipe-11-16" d="M 1250,645 Q 1290,690 1305,720"></path>
+          {/* N12 → N16 Platform (smooth curve down-left) */}
+          <path id="pipe-12-16" d="M 1400,645 Q 1380,690 1370,720"></path>
+          {/* N16 → N17 future contributor (smooth curve down-right) */}
+          <path id="pipe-16-17" d="M 1380,768 Q 1430,810 1450,840"></path>
+
+          {
+            /* Closing eco-loop: N17 → N4 (rounded rectangle, x=60 column to avoid pipe-4-13 at x=80).
+              Three rounded corners — bottom-right, bottom-left, top-left — and arrow enters N4 from left. */
+          }
+          <path
+            id="pipe-17-4"
+            d="M 1460,895 V 970 Q 1460,985 1445,985 H 75 Q 60,985 60,970 V 485 Q 60,470 75,470"
+          ></path>
+
+          {/* Governance lane: N13 → N14 → N15 (horizontal) */}
+          <path id="pipe-13-14" d="M 290,850 L 380,850"></path>
+          <path id="pipe-14-15" d="M 490,850 L 580,850"></path>
+          {/* Review-and-self-evolve return loop (elbow under the lane) */}
+          <path
+            id="pipe-15-13rev"
+            d="M 640,880 V 905 Q 640,915 630,915 H 250 Q 240,915 240,905 V 880"
+          ></path>
+          {
+            /* N15 → N9 (improvements enhance knowledge base experience) — curved */
+          }
+          <path id="pipe-15-9" d="M 690,830 Q 900,750 1080,500"></path>
+
+          {
+            /* Feedback loops (terracotta) — 2-segment elbow routing.
+              F-boxes spread LEFT across the bottom band to avoid crowding Taiwan.md.
+              Inbound: N9 → F-box right side (no arrowhead).
+              Outbound: F-box left side → engine bottom (arrowhead lands at engine). */
+          }
+
+          {
+            /* fb-1: 大眾勘誤 → N6 撰寫 (F1 centered under N6 at x=440, mirrors F2 under N8).
+              IN from F1 right (curving from N9), OUT vertical up to N6 bottom. */
+          }
+          <path id="fb-1-in" d="M 1080,520 V 630 Q 1080,640 1070,640 H 510"
+          ></path>
+          <path id="fb-1-out" d="M 440,622 V 506"></path>
+
+          {
+            /* fb-2: GA + SC 驅動重寫 → N8 重寫 (F2 centered above N8 at x=840).
+              IN from F2 right edge x=940 (curving down from N9), OUT vertical up to N8 bottom. */
+          }
+          <path id="fb-2-in" d="M 1080,510 V 610 Q 1080,620 1070,620 H 944"
+          ></path>
+          <path id="fb-2-out" d="M 840,598 V 506"></path>
+
+          {
+            /* fb-3: 集體意識 → N5 EDIT DNA (band y=720, box at x=460, far left) */
+          }
+          <path id="fb-3-in" d="M 1070,520 V 710 Q 1070,720 1060,720 H 530"
+          ></path>
+          <path id="fb-3-out" d="M 394,720 H 250 Q 240,720 240,710 V 514"
+          ></path>
+
+          {
+            /* Sovereignty reverse loop (gold, long-dashed):
+              N9 Taiwan.md → N1 LLM bubble → N3 cloud → back to N6 writing source. */
+          }
+          <path id="pipe-sov-9-1" d="M 1040,420 C 900,260 600,170 460,180"
+          ></path>
+          <path id="pipe-sov-1-3" d="M 320,200 C 250,240 180,260 160,260"
+          ></path>
+        </defs>
+
+        {/* ─── Faint grid background ─── */}
+        <g class="grid-dots" opacity="0.06">
+          {
+            Array.from({ length: 54 }).map((_, x) =>
+              Array.from({ length: 34 }).map((_, y) => (
+                <circle
+                  cx={30 * x + 20}
+                  cy={30 * y + 20}
+                  r="0.6"
+                  fill="#4fd1b0"
+                />
+              )),
+            )
+          }
+        </g>
+
+        {
+          /* ════════════════════════════════════════════════════════════════
+            EDGES — rendered before nodes so they don't cover labels
+            ════════════════════════════════════════════════════════════════ */
+        }
+
+        {/* Sovereignty reverse loop (drawn first as background context) */}
+        <g class="flow-sovereign" stroke="#c9a96a" fill="none">
+          <use
+            href="#pipe-sov-9-1"
+            stroke-width="2"
+            stroke-dasharray="7 5"
+            opacity="0.9"
+            marker-end="url(#arrow-gold)"></use>
+          <use
+            href="#pipe-sov-1-3"
+            stroke-width="2"
+            stroke-dasharray="7 5"
+            opacity="0.9"
+            marker-end="url(#arrow-gold)"></use>
+        </g>
+
+        {
+          /* Sovereignty narrative callout — consolidated explanation block
+            for the gold reverse-loop. One clear box instead of scattered labels. */
+        }
+        <g transform="translate(740, 75)" class="sov-callout">
+          <rect
+            x="-310"
+            y="-30"
+            width="620"
+            height="78"
+            rx="6"
+            fill="rgba(201,169,106,0.08)"
+            stroke="#c9a96a"
+            stroke-width="1"
+            stroke-dasharray="3 3"
+            opacity="0.85"></rect>
+          <text x="0" y="-10" class="sov-callout-title" text-anchor="middle">
+            {t('semiont.diagram.sov.callout.title')}
+          </text>
+          <text x="0" y="10" class="sov-callout-body" text-anchor="middle">
+            {t('semiont.diagram.sov.callout.line1')}
+          </text>
+          <text x="0" y="30" class="sov-callout-body" text-anchor="middle">
+            {t('semiont.diagram.sov.callout.line2')}
+          </text>
+        </g>
+
+        {/* Edge label on contributor→write suggestion path */}
+        <text x="270" y="600" class="edge-label" text-anchor="middle">
+          {t('semiont.diagram.edge.suggest')}
+        </text>
+        {/* Edge label on N15→N9 (improvements enhance knowledge base) */}
+        <text x="900" y="800" class="edge-label" text-anchor="middle">
+          {t('semiont.diagram.edge.enhance')}
+        </text>
+        {/* Edge label on N4→N13 contributor improving site */}
+        <text x="50" y="700" class="edge-label" text-anchor="start">
+          {t('semiont.diagram.edge.contribute-site')}
+        </text>
+        {/* Edge label on governance review loop */}
+        <text x="440" y="935" class="edge-label" text-anchor="middle">
+          {t('semiont.diagram.edge.review-evolve')}
+        </text>
+
+        {/* Main writing pipeline (mint, mostly solid for prominence) */}
+        <g class="flow-write" stroke="#4fd1b0" fill="none">
+          <use
+            href="#pipe-4-5"
+            stroke-width="1.6"
+            opacity="0.85"
+            marker-end="url(#arrow-mint)"></use>
+          <use
+            href="#pipe-5-6"
+            stroke-width="1.6"
+            opacity="0.9"
+            marker-end="url(#arrow-mint)"></use>
+          <use
+            href="#pipe-6-7"
+            stroke-width="1.6"
+            opacity="0.9"
+            marker-end="url(#arrow-mint)"></use>
+          <use
+            href="#pipe-7-8"
+            stroke-width="1.6"
+            opacity="0.9"
+            marker-end="url(#arrow-mint)"></use>
+          <use
+            href="#pipe-8-9"
+            stroke-width="1.8"
+            opacity="0.95"
+            marker-end="url(#arrow-mint)"></use>
+
+          {/* Tributaries (dashed = secondary input) */}
+          <use
+            href="#pipe-3-6"
+            stroke-width="1.3"
+            stroke-dasharray="3 3"
+            opacity="0.7"
+            marker-end="url(#arrow-mint)"></use>
+          <use
+            href="#pipe-4-6sugg"
+            stroke-width="1.1"
+            stroke-dasharray="2 5"
+            opacity="0.55"
+            marker-end="url(#arrow-mint)"></use>
+          <use
+            href="#pipe-4-13"
+            stroke-width="1.1"
+            stroke-dasharray="2 5"
+            opacity="0.55"
+            marker-end="url(#arrow-mint)"></use>
+
+          {/* Closing ecosystem loop — solid, slightly thinner */}
+          <use
+            href="#pipe-17-4"
+            stroke-width="1.5"
+            opacity="0.7"
+            marker-end="url(#arrow-mint)"></use>
+
+          {/* Governance lane (solid mint) */}
+          <use
+            href="#pipe-13-14"
+            stroke-width="1.4"
+            opacity="0.85"
+            marker-end="url(#arrow-mint)"></use>
+          <use
+            href="#pipe-14-15"
+            stroke-width="1.4"
+            opacity="0.85"
+            marker-end="url(#arrow-mint)"></use>
+          <use
+            href="#pipe-15-13rev"
+            stroke-width="1.2"
+            stroke-dasharray="4 4"
+            opacity="0.65"
+            marker-end="url(#arrow-mint)"></use>
+          <use
+            href="#pipe-15-9"
+            stroke-width="1.2"
+            stroke-dasharray="3 4"
+            opacity="0.55"
+            marker-end="url(#arrow-mint)"></use>
+        </g>
+
+        {
+          /* Compute injection (dashed dotted, mint-tinted to read as part of writing) */
+        }
+        <g class="flow-compute" stroke="#4fd1b0" fill="none">
+          <use
+            href="#pipe-2-7"
+            stroke-width="1"
+            stroke-dasharray="1 5"
+            opacity="0.5"
+            marker-end="url(#arrow-mint)"></use>
+          <use
+            href="#pipe-2-8"
+            stroke-width="1"
+            stroke-dasharray="1 5"
+            opacity="0.5"
+            marker-end="url(#arrow-mint)"></use>
+        </g>
+
+        {/* Diffusion pipes (periwinkle, solid) */}
+        <g class="flow-diffuse" stroke="#7aa8d4" fill="none">
+          <use
+            href="#pipe-9-10"
+            stroke-width="1.7"
+            opacity="0.9"
+            marker-end="url(#arrow-peri)"></use>
+          <use
+            href="#pipe-9-11"
+            stroke-width="1.5"
+            opacity="0.85"
+            marker-end="url(#arrow-peri)"></use>
+          <use
+            href="#pipe-9-12"
+            stroke-width="1.5"
+            opacity="0.85"
+            marker-end="url(#arrow-peri)"></use>
+          <use
+            href="#pipe-11-16"
+            stroke-width="1.3"
+            opacity="0.75"
+            marker-end="url(#arrow-peri)"></use>
+          <use
+            href="#pipe-12-16"
+            stroke-width="1.3"
+            opacity="0.75"
+            marker-end="url(#arrow-peri)"></use>
+          <use
+            href="#pipe-16-17"
+            stroke-width="1.3"
+            opacity="0.75"
+            marker-end="url(#arrow-peri)"></use>
+        </g>
+
+        {
+          /* Feedback loops (terracotta dashed) — 2-segment routing per box.
+            Inbound has no arrowhead (terminates at box edge); outbound carries
+            the arrow so the visible direction is unambiguous: Taiwan.md → label → engine. */
+        }
+        <g class="flow-feedback" stroke="#d4856a" fill="none">
+          <use
+            href="#fb-1-in"
+            stroke-width="1.3"
+            stroke-dasharray="4 4"
+            opacity="0.7"></use>
+          <use
+            href="#fb-1-out"
+            stroke-width="1.3"
+            stroke-dasharray="4 4"
+            opacity="0.85"
+            marker-end="url(#arrow-terra)"></use>
+          <use
+            href="#fb-2-in"
+            stroke-width="1.3"
+            stroke-dasharray="4 4"
+            opacity="0.7"></use>
+          <use
+            href="#fb-2-out"
+            stroke-width="1.3"
+            stroke-dasharray="4 4"
+            opacity="0.85"
+            marker-end="url(#arrow-terra)"></use>
+          <use
+            href="#fb-3-in"
+            stroke-width="1.3"
+            stroke-dasharray="4 4"
+            opacity="0.7"></use>
+          <use
+            href="#fb-3-out"
+            stroke-width="1.3"
+            stroke-dasharray="4 4"
+            opacity="0.85"
+            marker-end="url(#arrow-terra)"></use>
+        </g>
+
+        {
+          /* ════════════════════════════════════════════════════════════════
+            PARTICLES (SMIL animateMotion along pipe paths)
+            ════════════════════════════════════════════════════════════════ */
+        }
+        <g class="particles">
+          {
+            [
+              { pipe: '#pipe-4-5', dur: '2s', delay: '0s', color: '#4fd1b0' },
+              { pipe: '#pipe-5-6', dur: '3s', delay: '0.5s', color: '#4fd1b0' },
+              { pipe: '#pipe-5-6', dur: '3s', delay: '2s', color: '#4fd1b0' },
+              {
+                pipe: '#pipe-6-7',
+                dur: '2.6s',
+                delay: '0.8s',
+                color: '#4fd1b0',
+              },
+              {
+                pipe: '#pipe-6-7',
+                dur: '2.6s',
+                delay: '2.1s',
+                color: '#4fd1b0',
+              },
+              {
+                pipe: '#pipe-7-8',
+                dur: '2.6s',
+                delay: '1.1s',
+                color: '#4fd1b0',
+              },
+              {
+                pipe: '#pipe-7-8',
+                dur: '2.6s',
+                delay: '2.4s',
+                color: '#4fd1b0',
+              },
+              { pipe: '#pipe-8-9', dur: '3s', delay: '1.4s', color: '#4fd1b0' },
+              { pipe: '#pipe-8-9', dur: '3s', delay: '2.9s', color: '#4fd1b0' },
+              { pipe: '#pipe-3-6', dur: '5s', delay: '0s', color: '#4fd1b0' },
+              { pipe: '#pipe-3-6', dur: '5s', delay: '2.5s', color: '#4fd1b0' },
+              {
+                pipe: '#pipe-4-6sugg',
+                dur: '5.5s',
+                delay: '1s',
+                color: '#4fd1b0',
+              },
+              {
+                pipe: '#pipe-4-13',
+                dur: '5s',
+                delay: '0.5s',
+                color: '#4fd1b0',
+              },
+              { pipe: '#pipe-2-7', dur: '4.5s', delay: '0s', color: '#4fd1b0' },
+              {
+                pipe: '#pipe-2-8',
+                dur: '4.5s',
+                delay: '2.2s',
+                color: '#4fd1b0',
+              },
+              { pipe: '#pipe-13-14', dur: '3s', delay: '0s', color: '#4fd1b0' },
+              {
+                pipe: '#pipe-14-15',
+                dur: '3s',
+                delay: '1.5s',
+                color: '#4fd1b0',
+              },
+              {
+                pipe: '#pipe-15-13rev',
+                dur: '4.5s',
+                delay: '0s',
+                color: '#4fd1b0',
+              },
+              { pipe: '#pipe-15-9', dur: '6s', delay: '0s', color: '#4fd1b0' },
+              { pipe: '#pipe-17-4', dur: '10s', delay: '0s', color: '#4fd1b0' },
+              { pipe: '#pipe-17-4', dur: '10s', delay: '5s', color: '#4fd1b0' },
+            ].map((p) => (
+              <circle r="2.4" fill={p.color}>
+                <animateMotion
+                  dur={p.dur}
+                  repeatCount="indefinite"
+                  begin={p.delay}
+                  rotate="auto"
+                >
+                  <mpath href={p.pipe} />
+                </animateMotion>
+                <animate
+                  attributeName="opacity"
+                  values="0;1;1;0"
+                  keyTimes="0;0.15;0.85;1"
+                  dur={p.dur}
+                  repeatCount="indefinite"
+                  begin={p.delay}
+                />
+              </circle>
+            ))
+          }
+
+          {/* Diffusion particles (periwinkle) */}
+          {
+            [
+              { pipe: '#pipe-9-10', dur: '2.5s', delay: '0s' },
+              { pipe: '#pipe-9-10', dur: '2.5s', delay: '1.25s' },
+              { pipe: '#pipe-9-11', dur: '2.5s', delay: '0.5s' },
+              { pipe: '#pipe-9-12', dur: '3s', delay: '1.2s' },
+              { pipe: '#pipe-11-16', dur: '3s', delay: '0s' },
+              { pipe: '#pipe-12-16', dur: '3s', delay: '1.5s' },
+              { pipe: '#pipe-16-17', dur: '3.5s', delay: '0.5s' },
+            ].map((p) => (
+              <circle r="2.4" fill="#7aa8d4">
+                <animateMotion
+                  dur={p.dur}
+                  repeatCount="indefinite"
+                  begin={p.delay}
+                  rotate="auto"
+                >
+                  <mpath href={p.pipe} />
+                </animateMotion>
+                <animate
+                  attributeName="opacity"
+                  values="0;1;1;0"
+                  keyTimes="0;0.15;0.85;1"
+                  dur={p.dur}
+                  repeatCount="indefinite"
+                  begin={p.delay}
+                />
+              </circle>
+            ))
+          }
+
+          {
+            /* Feedback particles (terracotta, slower drift back). Each fb has
+              an inbound + outbound segment; particles run along both. */
+          }
+          {
+            [
+              { pipe: '#fb-1-in', dur: '4s', delay: '0s' },
+              { pipe: '#fb-1-out', dur: '4s', delay: '4s' },
+              { pipe: '#fb-2-in', dur: '3.5s', delay: '1s' },
+              { pipe: '#fb-2-out', dur: '3.5s', delay: '4.5s' },
+              { pipe: '#fb-3-in', dur: '5s', delay: '0s' },
+              { pipe: '#fb-3-out', dur: '5s', delay: '5s' },
+            ].map((p) => (
+              <circle r="2" fill="#d4856a">
+                <animateMotion
+                  dur={p.dur}
+                  repeatCount="indefinite"
+                  begin={p.delay}
+                  rotate="auto"
+                >
+                  <mpath href={p.pipe} />
+                </animateMotion>
+                <animate
+                  attributeName="opacity"
+                  values="0;0.9;0.9;0"
+                  keyTimes="0;0.2;0.8;1"
+                  dur={p.dur}
+                  repeatCount="indefinite"
+                  begin={p.delay}
+                />
+              </circle>
+            ))
+          }
+
+          {/* Sovereignty reverse loop particles (gold) */}
+          {
+            [
+              { pipe: '#pipe-sov-9-1', dur: '8s', delay: '0s' },
+              { pipe: '#pipe-sov-9-1', dur: '8s', delay: '4s' },
+              { pipe: '#pipe-sov-1-3', dur: '4s', delay: '0s' },
+            ].map((p) => (
+              <circle r="2.2" fill="#c9a96a">
+                <animateMotion
+                  dur={p.dur}
+                  repeatCount="indefinite"
+                  begin={p.delay}
+                  rotate="auto"
+                >
+                  <mpath href={p.pipe} />
+                </animateMotion>
+                <animate
+                  attributeName="opacity"
+                  values="0;0.95;0.95;0"
+                  keyTimes="0;0.15;0.85;1"
+                  dur={p.dur}
+                  repeatCount="indefinite"
+                  begin={p.delay}
+                />
+              </circle>
+            ))
+          }
+        </g>
+
+        {
+          /* ════════════════════════════════════════════════════════════════
+            NODES
+            ════════════════════════════════════════════════════════════════ */
+        }
+
+        {/* N1 — LLM speech bubble (top-left of upper band) */}
+        <g
+          transform="translate(380, 180)"
+          class="node node-llm"
+          color="#c9a96a"
+        >
+          <use
+            href="#bubble-shape"
+            fill="rgba(201,169,106,0.07)"
+            stroke="#c9a96a"
+            stroke-width="1.3"
+            opacity="0.85"></use>
+          <text x="0" y="-8" class="bubble-label" text-anchor="middle">
+            {t('semiont.diagram.node.llm')}
+          </text>
+          <text x="0" y="6" class="bubble-sub" text-anchor="middle">
+            Gemini · ChatGPT · Claude
+          </text>
+          <text x="0" y="18" class="bubble-sub-warn" text-anchor="middle">
+            {t('semiont.diagram.node.llm.sub')}
+          </text>
+        </g>
+
+        {/* N2 — Compute factory (top-right) — chimneys are the icon */}
+        <g transform="translate(1450, 180)" class="node" color="#4fd1b0">
+          <use href="#factory-shape"></use>
+          <text x="0" y="-50" class="node-label" text-anchor="middle">
+            {t('semiont.diagram.node.compute')}
+          </text>
+          <text x="0" y="44" class="node-sub" text-anchor="middle">
+            Token · WebGPU
+          </text>
+          <text x="0" y="58" class="node-sub" text-anchor="middle">
+            {t('semiont.diagram.node.compute.sub')}
+          </text>
+        </g>
+
+        {/* N3 — Internet cloud (left of pipeline) */}
+        <g transform="translate(130, 290)" class="node" color="#4fd1b0">
+          <use
+            href="#cloud-shape"
+            fill="rgba(255,255,255,0.03)"
+            stroke="#4fd1b0"
+            stroke-width="1.3"
+            opacity="0.7"></use>
+          {
+            [
+              [-30, -2],
+              [-15, 6],
+              [0, -5],
+              [12, 4],
+              [25, -2],
+              [-20, 12],
+              [8, 11],
+            ].map(([cx, cy]) => (
+              <circle cx={cx} cy={cy} r="1" fill="#4fd1b0" opacity="0.45" />
+            ))
+          }
+          <text x="0" y="42" class="node-label" text-anchor="middle">
+            {t('semiont.diagram.node.cloud')}
+          </text>
+          <text x="0" y="56" class="node-sub" text-anchor="middle">
+            {t('semiont.diagram.node.cloud.sub')}
+          </text>
+          <text x="160" y="-2" class="edge-label" text-anchor="middle">
+            {t('semiont.diagram.edge.crawl')}
+          </text>
+        </g>
+
+        {/* N4 — Contributor (far left of pipeline) */}
+        <g transform="translate(80, 470)" class="node" color="#4fd1b0">
+          <use href="#person-shape"></use>
+          <text x="0" y="48" class="node-label" text-anchor="middle">
+            {t('semiont.diagram.node.contributor')}
+          </text>
+          <text x="0" y="62" class="node-sub" text-anchor="middle">
+            {t('semiont.diagram.node.contributor.sub')}
+          </text>
+        </g>
+
+        {/* N5 — EDITORIAL.md DNA */}
+        <g transform="translate(240, 470)" class="node" color="#4fd1b0">
+          <rect
+            x="-42"
+            y="-42"
+            width="84"
+            height="84"
+            rx="4"
+            fill="rgba(79,209,176,0.04)"
+            stroke="#4fd1b0"
+            stroke-width="1.3"
+            opacity="0.75"></rect>
+          <g transform="translate(0, 0)">
+            <use href="#dna-strand"></use>
+          </g>
+          <text x="0" y="-50" class="node-label" text-anchor="middle">
+            {t('semiont.diagram.node.editorial')}
+          </text>
+          <text x="0" y="58" class="node-sub" text-anchor="middle">
+            EDITORIAL.md
+          </text>
+        </g>
+
+        {/* N6 — Writing (撰寫/修訂) — clean text-only box */}
+        <g transform="translate(440, 470)" class="node" color="#4fd1b0">
+          <rect
+            x="-72"
+            y="-32"
+            width="144"
+            height="64"
+            rx="6"
+            fill="rgba(79,209,176,0.05)"
+            stroke="#4fd1b0"
+            stroke-width="1.4"
+            opacity="0.9"></rect>
+          <text x="0" y="-4" class="node-label" text-anchor="middle">
+            {t('semiont.diagram.node.write')}
+          </text>
+          <text x="0" y="14" class="node-sub" text-anchor="middle">
+            {t('semiont.diagram.node.write.sub')}
+          </text>
+        </g>
+
+        {/* N7 — Research engine — clean text-only box */}
+        <g transform="translate(640, 470)" class="node" color="#4fd1b0">
+          <rect
+            x="-72"
+            y="-32"
+            width="144"
+            height="64"
+            rx="6"
+            fill="rgba(79,209,176,0.05)"
+            stroke="#4fd1b0"
+            stroke-width="1.4"
+            opacity="0.9"></rect>
+          <text x="0" y="-4" class="node-label" text-anchor="middle">
+            {t('semiont.diagram.node.research')}
+          </text>
+          <text x="0" y="14" class="node-sub" text-anchor="middle">
+            {t('semiont.diagram.node.research.sub')}
+          </text>
+        </g>
+
+        {/* N8 — Curation rewrite (keeps gear — mechanical reshaping) */}
+        <g transform="translate(840, 470)" class="node" color="#4fd1b0">
+          <rect
+            x="-72"
+            y="-32"
+            width="144"
+            height="64"
+            rx="6"
+            fill="rgba(79,209,176,0.05)"
+            stroke="#4fd1b0"
+            stroke-width="1.4"
+            opacity="0.9"></rect>
+          <text x="0" y="-4" class="node-label" text-anchor="middle">
+            {t('semiont.diagram.node.rewrite')}
+          </text>
+          <text x="0" y="14" class="node-sub" text-anchor="middle">
+            {t('semiont.diagram.node.rewrite.sub')}
+          </text>
+        </g>
+
+        {/* N9 — Taiwan.md center (REAL Taiwan island shape) */}
+        <g
+          transform="translate(1080, 470)"
+          class="node node-center"
+          color="#4fd1b0"
+        >
+          {/* breathing aura */}
+          <circle
+            cx="0"
+            cy="0"
+            r="78"
+            fill="url(#grad-center)"
+            class="center-aura"></circle>
+          {/* concentric pulse rings */}
+          <circle
+            cx="0"
+            cy="0"
+            r="50"
+            fill="none"
+            stroke="#4fd1b0"
+            stroke-width="1"
+            opacity="0"
+          >
+            <animate
+              attributeName="r"
+              values="50;88;88"
+              dur="4s"
+              repeatCount="indefinite"></animate>
+            <animate
+              attributeName="opacity"
+              values="0.7;0;0"
+              dur="4s"
+              repeatCount="indefinite"></animate>
+          </circle>
+          <circle
+            cx="0"
+            cy="0"
+            r="50"
+            fill="none"
+            stroke="#4fd1b0"
+            stroke-width="1"
+            opacity="0"
+          >
+            <animate
+              attributeName="r"
+              values="50;88;88"
+              dur="4s"
+              begin="2s"
+              repeatCount="indefinite"></animate>
+            <animate
+              attributeName="opacity"
+              values="0.7;0;0"
+              dur="4s"
+              begin="2s"
+              repeatCount="indefinite"></animate>
+          </circle>
+          {/* Taiwan island — properly shaped! */}
+          <g transform="scale(0.105) translate(-716, -495)">
+            <use
+              href="#taiwan-island"
+              fill="rgba(79,209,176,0.22)"
+              stroke="#4fd1b0"
+              stroke-width="6"></use>
+          </g>
+          <text x="0" y="-72" class="node-label-big" text-anchor="middle"
+            >Taiwan.md</text
+          >
+          <text x="0" y="-56" class="node-sub" text-anchor="middle">
+            {t('semiont.diagram.center.subtitle')}
+          </text>
+          <text x="0" y="90" class="node-label" text-anchor="middle">
+            {articleCount}
+            {t('semiont.diagram.center.articles')} · {langCount}
+            {t('semiont.diagram.center.langs')}
+          </text>
+        </g>
+
+        {/* N10 — Babel tower (right of center) */}
+        <g transform="translate(1340, 400)" class="node" color="#7aa8d4">
+          <use href="#tower-shape"></use>
+          {/* radio waves */}
+          <circle
+            cx="0"
+            cy="-36"
+            r="6"
+            fill="none"
+            stroke="#7aa8d4"
+            stroke-width="0.9"
+            opacity="0"
+          >
+            <animate
+              attributeName="r"
+              values="6;34;34"
+              dur="3.5s"
+              repeatCount="indefinite"></animate>
+            <animate
+              attributeName="opacity"
+              values="0.8;0;0"
+              dur="3.5s"
+              repeatCount="indefinite"></animate>
+          </circle>
+          <circle
+            cx="0"
+            cy="-36"
+            r="6"
+            fill="none"
+            stroke="#7aa8d4"
+            stroke-width="0.9"
+            opacity="0"
+          >
+            <animate
+              attributeName="r"
+              values="6;34;34"
+              dur="3.5s"
+              begin="1.7s"
+              repeatCount="indefinite"></animate>
+            <animate
+              attributeName="opacity"
+              values="0.8;0;0"
+              dur="3.5s"
+              begin="1.7s"
+              repeatCount="indefinite"></animate>
+          </circle>
+          <text x="0" y="44" class="node-label" text-anchor="middle">
+            {t('semiont.diagram.node.babel')}
+          </text>
+          <text x="0" y="58" class="node-sub" text-anchor="middle">
+            {t('semiont.diagram.node.babel.sub')}
+          </text>
+        </g>
+
+        {/* N11 — Spores swarm (diffusion output, spread right) */}
+        <g transform="translate(1230, 615)" class="node" color="#7aa8d4">
+          <rect
+            x="-56"
+            y="-26"
+            width="112"
+            height="52"
+            rx="4"
+            fill="rgba(122,168,212,0.05)"
+            stroke="#7aa8d4"
+            stroke-width="1.2"
+            opacity="0.7"></rect>
+          {
+            [
+              { cx: -32, cy: -6, dur: '4s', delay: '0s' },
+              { cx: -14, cy: 4, dur: '5s', delay: '0.6s' },
+              { cx: 4, cy: -8, dur: '4.5s', delay: '1.2s' },
+              { cx: 18, cy: 6, dur: '5.5s', delay: '0.3s' },
+              { cx: 32, cy: -4, dur: '4.8s', delay: '1.5s' },
+            ].map((s) => (
+              <circle cx={s.cx} cy={s.cy} r="2.2" fill="#7aa8d4" opacity="0.85">
+                <animate
+                  attributeName="cy"
+                  values={`${s.cy};${s.cy - 4};${s.cy + 4};${s.cy}`}
+                  dur={s.dur}
+                  repeatCount="indefinite"
+                  begin={s.delay}
+                />
+                <animate
+                  attributeName="opacity"
+                  values="0.3;0.9;0.3"
+                  dur={s.dur}
+                  repeatCount="indefinite"
+                  begin={s.delay}
+                />
+              </circle>
+            ))
+          }
+          <text x="0" y="-38" class="node-label" text-anchor="middle">
+            {t('semiont.diagram.node.spore')}
+          </text>
+          <text x="0" y="42" class="node-sub" text-anchor="middle">
+            {t('semiont.diagram.node.spore.sub')}
+          </text>
+        </g>
+
+        {/* N12 — Multi-lang translation engine (spread right) */}
+        <g transform="translate(1410, 615)" class="node" color="#7aa8d4">
+          <rect
+            x="-58"
+            y="-26"
+            width="116"
+            height="52"
+            rx="4"
+            fill="rgba(122,168,212,0.05)"
+            stroke="#7aa8d4"
+            stroke-width="1.2"
+            opacity="0.7"></rect>
+          {/* 5 lang badge dots */}
+          {
+            ['EN', '日', '한', 'FR', 'ES'].map((lng, i) => (
+              <g transform={`translate(${-44 + i * 22}, 0)`}>
+                <circle
+                  cx="0"
+                  cy="0"
+                  r="9"
+                  fill="rgba(122,168,212,0.1)"
+                  stroke="#7aa8d4"
+                  stroke-width="0.7"
+                  opacity="0.85"
+                />
+                <text x="0" y="3" class="lang-badge" text-anchor="middle">
+                  {lng}
+                </text>
+              </g>
+            ))
+          }
+          <text x="0" y="-38" class="node-label" text-anchor="middle">
+            {t('semiont.diagram.node.translate')}
+          </text>
+          <text x="0" y="42" class="node-sub" text-anchor="middle">
+            {t('semiont.diagram.node.translate.sub')}
+          </text>
+        </g>
+
+        {/* N16 — Platform 導流素材 (po 文) */}
+        <g transform="translate(1340, 745)" class="node" color="#7aa8d4">
+          <rect
+            x="-62"
+            y="-24"
+            width="124"
+            height="48"
+            rx="4"
+            fill="rgba(122,168,212,0.05)"
+            stroke="#7aa8d4"
+            stroke-width="1.2"
+            opacity="0.7"></rect>
+          {/* abstract platform glyphs */}
+          <g transform="translate(-32, 0)">
+            <rect
+              x="-7"
+              y="-9"
+              width="14"
+              height="18"
+              rx="1"
+              fill="none"
+              stroke="#7aa8d4"
+              stroke-width="0.9"
+              opacity="0.75"></rect>
+          </g>
+          <g transform="translate(0, 0)">
+            <circle
+              cx="0"
+              cy="0"
+              r="8.5"
+              fill="none"
+              stroke="#7aa8d4"
+              stroke-width="0.9"
+              opacity="0.75"></circle>
+            <circle cx="0" cy="0" r="3" fill="#7aa8d4" opacity="0.5"></circle>
+          </g>
+          <g transform="translate(32, 0)">
+            <path
+              d="M -8,-7 L 8,-7 L 0,9 Z"
+              fill="none"
+              stroke="#7aa8d4"
+              stroke-width="0.9"
+              opacity="0.75"></path>
+          </g>
+          <text x="0" y="-34" class="node-label" text-anchor="middle">
+            {t('semiont.diagram.node.platform')}
+          </text>
+          <text x="0" y="40" class="node-sub" text-anchor="middle">
+            {t('semiont.diagram.node.platform.sub')}
+          </text>
+        </g>
+
+        {/* N17 — Future contributors */}
+        <g transform="translate(1460, 870)" class="node" color="#4fd1b0">
+          <use href="#person-shape"></use>
+          <text x="0" y="48" class="node-label" text-anchor="middle">
+            {t('semiont.diagram.node.future')}
+          </text>
+          <text x="0" y="62" class="node-sub" text-anchor="middle">
+            {t('semiont.diagram.node.future.sub')}
+          </text>
+        </g>
+
+        {/* N13 — Core ops / SSODT (bottom governance lane start) */}
+        <g transform="translate(240, 850)" class="node" color="#4fd1b0">
+          <use href="#hex-shape"></use>
+          <text x="0" y="-4" class="node-label-sm" text-anchor="middle">
+            {t('semiont.diagram.node.coreops')}
+          </text>
+          <text x="0" y="9" class="node-sub" text-anchor="middle">SSODT</text>
+          <text x="0" y="46" class="node-sub" text-anchor="middle">
+            {t('semiont.diagram.node.coreops.sub')}
+          </text>
+        </g>
+
+        {/* N14 — GitHub collaboration */}
+        <g transform="translate(440, 850)" class="node" color="#4fd1b0">
+          <rect
+            x="-50"
+            y="-22"
+            width="100"
+            height="44"
+            rx="4"
+            fill="rgba(79,209,176,0.04)"
+            stroke="#4fd1b0"
+            stroke-width="1.3"
+            opacity="0.8"></rect>
+          {/* GitHub-like icon */}
+          <circle
+            cx="-30"
+            cy="0"
+            r="11"
+            fill="none"
+            stroke="#4fd1b0"
+            stroke-width="1"
+            opacity="0.7"></circle>
+          <path
+            d="M -34,-3 q 4,-3 8,0 M -34,5 q 0,3 4,3 M -26,5 q 0,3 -4,3"
+            fill="none"
+            stroke="#4fd1b0"
+            stroke-width="0.8"
+            opacity="0.7"></path>
+          <text x="8" y="4" class="node-label-sm" text-anchor="middle">
+            {t('semiont.diagram.node.github')}
+          </text>
+          <text x="0" y="38" class="node-sub" text-anchor="middle">
+            {t('semiont.diagram.node.github.sub')}
+          </text>
+        </g>
+
+        {/* N15 — Evolution upgrade */}
+        <g transform="translate(640, 850)" class="node" color="#4fd1b0">
+          <rect
+            x="-50"
+            y="-22"
+            width="100"
+            height="44"
+            rx="4"
+            fill="rgba(79,209,176,0.04)"
+            stroke="#4fd1b0"
+            stroke-width="1.3"
+            opacity="0.8"></rect>
+          {/* upward chevron icon */}
+          <path
+            d="M -30,8 L -20,-6 L -10,8"
+            fill="none"
+            stroke="#4fd1b0"
+            stroke-width="1.2"
+            stroke-linecap="round"
+            opacity="0.85"></path>
+          <path
+            d="M -30,2 L -20,-12 L -10,2"
+            fill="none"
+            stroke="#4fd1b0"
+            stroke-width="1.2"
+            stroke-linecap="round"
+            opacity="0.6"></path>
+          <text x="10" y="4" class="node-label-sm" text-anchor="middle">
+            {t('semiont.diagram.node.evolve')}
+          </text>
+          <text x="0" y="38" class="node-sub" text-anchor="middle">
+            {t('semiont.diagram.node.evolve.sub')}
+          </text>
+        </g>
+
+        {
+          /* Feedback labels — sit at the midpoint of each fb curve so the
+            arrow visually passes through the label */
+        }
+        {/* F1 — 大眾勘誤 (centered under N6 at x=440, mirrors F2 under N8) */}
+        <g
+          transform="translate(440, 640)"
+          class="node-feedback"
+          color="#d4856a"
+        >
+          <rect
+            x="-66"
+            y="-18"
+            width="132"
+            height="36"
+            rx="3"
+            fill="rgba(3,8,10,0.92)"
+            stroke="#d4856a"
+            stroke-width="1.2"
+            opacity="1"></rect>
+          <text x="0" y="-2" class="node-label-sm" text-anchor="middle">
+            {t('semiont.diagram.fb1')}
+          </text>
+          <text
+            x="0"
+            y="12"
+            class="node-sub"
+            text-anchor="middle"
+            fill="rgba(212,133,106,0.75)"
+          >
+            {t('semiont.diagram.fb1.sub')}
+          </text>
+        </g>
+
+        {
+          /* F2 — GA + SC combined feedback (compact 2-line, x-aligned with N8 above).
+            Right edge x=940 (in from N9), top exit center x=840 (vertical up to N8). */
+        }
+        <g
+          transform="translate(840, 620)"
+          class="node-feedback"
+          color="#d4856a"
+        >
+          <rect
+            x="-100"
+            y="-22"
+            width="200"
+            height="44"
+            rx="4"
+            fill="rgba(3,8,10,0.94)"
+            stroke="#d4856a"
+            stroke-width="1.2"
+            opacity="1"></rect>
+          <text x="0" y="-4" class="node-label-sm" text-anchor="middle">
+            {t('semiont.diagram.fb2')}
+          </text>
+          <text
+            x="0"
+            y="11"
+            class="node-sub"
+            text-anchor="middle"
+            fill="rgba(212,133,106,0.8)"
+          >
+            {t('semiont.diagram.fb2.sub')}
+          </text>
+        </g>
+
+        {/* F3 — 集體意識反思 (far left band at y=720) */}
+        <g
+          transform="translate(460, 720)"
+          class="node-feedback"
+          color="#d4856a"
+        >
+          <rect
+            x="-66"
+            y="-18"
+            width="132"
+            height="36"
+            rx="3"
+            fill="rgba(3,8,10,0.92)"
+            stroke="#d4856a"
+            stroke-width="1.2"
+            opacity="1"></rect>
+          <text x="0" y="-2" class="node-label-sm" text-anchor="middle">
+            {t('semiont.diagram.fb3')}
+          </text>
+          <text
+            x="0"
+            y="12"
+            class="node-sub"
+            text-anchor="middle"
+            fill="rgba(212,133,106,0.75)"
+          >
+            {t('semiont.diagram.fb3.sub')}
+          </text>
+        </g>
+      </svg>
+    </div>
+
+    <p class="semiont-organism-caption">
+      <span class="semiont-fig">{t('semiont.diagram.caption')}</span>
+    </p>
+  </div>
+</section>
+
+<style>
+  /* Breakout — escape the 800px column */
+  .semiont-breakout {
+    width: 100vw;
+    margin-inline: calc(50% - 50vw);
+    padding-block: 2.5rem;
+  }
+
+  .semiont-organism-inner {
+    max-width: 1500px;
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+  }
+
+  .semiont-organism-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .semiont-organism-title {
+    font-family: 'rixingsong-semibold', 'Noto Serif TC', serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #f4f0ea;
+    margin: 0.5rem 0 0.75rem;
+    letter-spacing: 0.05em;
+  }
+
+  .semiont-organism-intro {
+    font-family: 'jf-lanyangming', 'Noto Serif TC', serif;
+    color: rgba(244, 240, 234, 0.62);
+    font-size: 0.95rem;
+    max-width: 680px;
+    margin: 0 auto 1.25rem;
+    line-height: 1.7;
+  }
+
+  .semiont-organism-legend {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.7rem;
+    color: rgba(244, 240, 234, 0.6);
+    letter-spacing: 0.05em;
+  }
+  .semiont-organism-legend li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+  }
+  .semiont-organism-legend .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot-write {
+    background: #4fd1b0;
+    box-shadow: 0 0 6px rgba(79, 209, 176, 0.7);
+  }
+  .dot-feedback {
+    background: #d4856a;
+    box-shadow: 0 0 6px rgba(212, 133, 106, 0.7);
+  }
+  .dot-diffuse {
+    background: #7aa8d4;
+    box-shadow: 0 0 6px rgba(122, 168, 212, 0.7);
+  }
+  .dot-sovereign {
+    background: #c9a96a;
+    box-shadow: 0 0 6px rgba(201, 169, 106, 0.7);
+  }
+
+  .semiont-organism-stage {
+    position: relative;
+    margin: 1rem auto;
+    border: 1px solid rgba(79, 209, 176, 0.14);
+    border-radius: 0.5rem;
+    background:
+      radial-gradient(
+        ellipse at 65% 45%,
+        rgba(79, 209, 176, 0.04) 0%,
+        transparent 65%
+      ),
+      rgba(3, 8, 10, 0.55);
+    overflow: hidden;
+  }
+
+  .semiont-organism-svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    color: #4fd1b0;
+  }
+
+  /* Node label typography — bumped sizes for readability */
+  :global(.semiont-organism-svg .node-label) {
+    font-family: 'rixingsong-semibold', 'Noto Serif TC', serif;
+    font-size: 16px;
+    font-weight: 600;
+    fill: rgba(244, 240, 234, 0.95);
+    letter-spacing: 0.04em;
+  }
+  :global(.semiont-organism-svg .node-label-big) {
+    font-family: 'rixingsong-semibold', 'Noto Serif TC', serif;
+    font-size: 22px;
+    font-weight: 700;
+    fill: #f4f0ea;
+    letter-spacing: 0.05em;
+  }
+  :global(.semiont-organism-svg .node-label-sm) {
+    font-family: 'rixingsong-semibold', 'Noto Serif TC', serif;
+    font-size: 13px;
+    fill: rgba(244, 240, 234, 0.95);
+    letter-spacing: 0.03em;
+  }
+  :global(.semiont-organism-svg .node-feedback .node-label-sm) {
+    fill: rgba(212, 133, 106, 1);
+  }
+  :global(.semiont-organism-svg .node-sub) {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 11px;
+    fill: rgba(244, 240, 234, 0.65);
+    letter-spacing: 0.04em;
+  }
+  :global(.semiont-organism-svg .edge-label) {
+    font-family: 'jf-lanyangming', 'Noto Serif TC', serif;
+    font-size: 12px;
+    fill: rgba(244, 240, 234, 0.7);
+    letter-spacing: 0.04em;
+    font-style: italic;
+  }
+  :global(.semiont-organism-svg .lang-badge) {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 10px;
+    font-weight: 600;
+    fill: rgba(122, 168, 212, 1);
+  }
+  :global(.semiont-organism-svg .bubble-label) {
+    font-family: 'rixingsong-semibold', 'Noto Serif TC', serif;
+    font-size: 14px;
+    font-weight: 600;
+    fill: rgba(201, 169, 106, 1);
+    letter-spacing: 0.03em;
+  }
+  :global(.semiont-organism-svg .bubble-sub) {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 10px;
+    fill: rgba(201, 169, 106, 0.8);
+  }
+  :global(.semiont-organism-svg .bubble-sub-warn) {
+    font-family: 'jf-lanyangming', 'Noto Serif TC', serif;
+    font-size: 11px;
+    font-style: italic;
+    fill: rgba(212, 133, 106, 0.95);
+  }
+  :global(.semiont-organism-svg .sov-callout-title) {
+    font-family: 'rixingsong-semibold', 'Noto Serif TC', serif;
+    font-size: 15px;
+    font-weight: 600;
+    fill: rgba(201, 169, 106, 1);
+    letter-spacing: 0.06em;
+  }
+  :global(.semiont-organism-svg .sov-callout-body) {
+    font-family: 'jf-lanyangming', 'Noto Serif TC', serif;
+    font-size: 12px;
+    fill: rgba(201, 169, 106, 0.85);
+    letter-spacing: 0.04em;
+  }
+
+  /* Gear spin */
+  :global(.semiont-organism-svg .gear-spin) {
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  :global(.semiont-organism-svg .gear-fast) {
+    animation: gear-spin 7s linear infinite;
+  }
+  :global(.semiont-organism-svg .gear-medium) {
+    animation: gear-spin 10s linear infinite;
+  }
+  :global(.semiont-organism-svg .gear-slow) {
+    animation: gear-spin 14s linear infinite;
+  }
+  :global(.semiont-organism-svg .gear-reverse) {
+    animation-direction: reverse;
+  }
+
+  @keyframes gear-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  :global(.semiont-organism-svg .center-aura) {
+    animation: aura-breathe 4s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+  @keyframes aura-breathe {
+    0%,
+    100% {
+      opacity: 0.55;
+      transform: scale(0.95);
+    }
+    50% {
+      opacity: 0.95;
+      transform: scale(1.06);
+    }
+  }
+
+  .semiont-organism-caption {
+    text-align: center;
+    margin-top: 0.75rem;
+  }
+
+  @media (max-width: 900px) {
+    .semiont-organism-stage {
+      overflow-x: auto;
+    }
+    .semiont-organism-svg {
+      min-width: 1100px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    :global(.semiont-organism-svg *) {
+      animation: none !important;
+    }
+  }
+</style>
+
+<script>
+  // Pause SMIL animations when SVG is off-screen
+  const svgs = document.querySelectorAll<SVGSVGElement>(
+    '.semiont-organism-svg',
+  );
+  if (svgs.length && 'IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          const svg = entry.target as SVGSVGElement;
+          if (entry.isIntersecting) {
+            svg.unpauseAnimations?.();
+          } else {
+            svg.pauseAnimations?.();
+          }
+        }
+      },
+      { rootMargin: '120px' },
+    );
+    svgs.forEach((svg) => observer.observe(svg));
+  }
+</script>

@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import DiaryCard from '../components/semiont/DiaryCard.astro';
+import SemiontOrganismDiagram from '../components/semiont/SemiontOrganismDiagram.astro';
 import TaiwanSketch from '../components/semiont/TaiwanSketch.astro';
 import { getAllDiaryEntries } from '../lib/semiont-diary';
 import {
@@ -207,6 +208,9 @@ const showZhTwNotices = lang !== 'zh-TW';
           </span>
         </p>
       </section>
+
+      {/* ─── Organism ecosystem diagram (full-bleed breakout) ─── */}
+      <SemiontOrganismDiagram />
 
       {/* ─── Latest diary entries ─── */}
       <section class="mb-20">
