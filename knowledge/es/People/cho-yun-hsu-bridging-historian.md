@@ -23,7 +23,7 @@ lastVerified: 2026-05-22
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/許倬雲.md'
-sourceCommitSha: '43bf36374'
+sourceCommitSha: '3c17be7d'
 sourceContentHash: 'sha256:0c9949155c5c0648'
 sourceBodyHash: 'sha256:57043271a01352ae'
 translatedAt: '2026-05-23T05:06:38+08:00'

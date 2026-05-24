@@ -1,162 +1,179 @@
 ---
-title: 'Taiwanese Literature During the Japanese Colonial Period'
-category: Art
-tags: ['literature', 'Japanese colonial period', 'colonial literature']
-subcategory: '文學'
+title: 'Taiwanese Literature during Japanese Rule'
+description: 'The development of Taiwanese literature during Japanese rule from 1895 to 1945, from classical Chinese prose to the New Literature movement, examining cultural identity and national awakening in a colonial context.'
 date: 2026-03-18
+author: 'Taiwan.md'
+category: 'Art'
+subcategory: '文學'
+tags:
+  [
+    'Literature',
+    'Japanese Rule',
+    'Colonial Literature',
+    'Taiwanese New Literature',
+    'Cultural Identity',
+  ]
 lastVerified: 2026-03-19
 lastHumanReview: false
-translatedFrom: Art/日治時期文學.md
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:19723b834d9cebfa'
-sourceBodyHash: 'sha256:f40bf580a8b9cd38'
-translatedAt: '2026-04-30T22:50:13+08:00'
-description: "From the Treaty of Shimonoseki in 1895 to Japan's surrender in 1945, Taiwanese literature was born as an independent voice amid colonial pressure. Lai Ho (賴和), the Father of Taiwan's New Literature, Yang Kuei (楊逵), and Lu Ho-jo (呂赫若) used Chinese and Japanese to resist, record, and create — forging a realist tradition and localized literary language that shaped all subsequent Taiwanese writing."
+featured: false
+translatedFrom: 'Art/日治時期文學.md'
+sourceCommitSha: '4d7fab8ee'
+sourceContentHash: 'sha256:ddd002a147d6d0f3'
+sourceBodyHash: 'sha256:e76df226350c4a5f'
+translatedAt: '2026-05-24T05:06:32+08:00'
 ---
 
-# Taiwanese Literature During the Japanese Colonial Period
+# Taiwanese Literature during Japanese Rule
 
-In the spring of 1895, the literary fate of Taiwan began an entirely new chapter as the ink dried on the Treaty of Shimonoseki. If the literature of the Qing-era Taiwan was slowly incubating within the matrix of traditional Chinese culture, then the fifty years of Japanese rule — under the fierce impact of Western modernity — saw Taiwanese literature born as an independent literary life, in pain and in splendor.
+In the spring of 1895, Taiwan’s literary fate entered an entirely new chapter amid the signing of the Treaty of Shimonoseki. If Taiwanese literature under Qing rule slowly gestated within the matrix of traditional Chinese culture, then the fifty years of Japanese rule were a process in which Taiwanese literature, under the forceful impact of Western modernity, was compelled to transform, fracture, and then find its position again amid contradiction.
 
-This was the most complex, most contradictory, and most dramatic era in the history of Taiwanese literature. The colonizer's language became the tool through which the colonized expressed their resistance; the new literary ideas brought by oppressors inspired the ethnic awakening of the oppressed; the most profound cultural identities often emerged from the most intense cultural conflicts. Over these fifty years, Taiwanese literature passed through multiple transitions — from classical to modern, from literary Chinese to vernacular, from Mandarin to Japanese — ultimately finding, amid multiple cultural tensions, its own distinctive voice.
+This was the most complex, contradictory, and dramatic era in the history of Taiwanese literature. The colonizer’s language became a tool through which the colonized expressed resistance; the new literary concepts brought by the oppressor inspired the national awakening of the oppressed; the deepest forms of cultural identity often emerged from the fiercest cultural conflicts. Over these fifty years, Taiwanese literature underwent multiple transitions: from the classical to the modern, from literary Chinese to vernacular writing, and from Chinese to Japanese. Ultimately, amid multiple cultural tensions, it found its own distinctive voice.
 
-## 1895: Literary Rupture at History's Hinge
+## The 1895 Cession of Taiwan: A Historical Rupture in Literature
 
-In 1895, the cannon-smoke of the First Sino-Japanese War had barely cleared when the Treaty of Shimonoseki placed Taiwan on a different historical track. For Taiwan's scholar-literati class, this was not merely a political upheaval — it was a fundamental turning point in their literary destiny.
+In 1895, while the echoes of the First Sino-Japanese War had yet to fade, the signing of the Treaty of Shimonoseki pushed Taiwan onto another historical trajectory. For Taiwan’s literati, political upheaval was also a fundamental turning point in literary fate.
 
-### The Anguished Cry of Resistance Literature
+### The Tragic Cry of Anti-Japanese Literature
 
-"Spring grief is hard to dispel; I force myself to look at the mountains. Past events pierce my heart; tears nearly flow. Four hundred million people wept as one; it was on this day last year that Taiwan was ceded." This was the lament of poet Qiu Feng-jia (丘逢甲) in his poem _Spring Grief_ — capturing the sorrow and helplessness of Taiwan's intellectuals in the face of the island's cession.
+“The sorrow of spring is hard to dispel; I force myself to look at the mountains. Past events startle the heart, and tears are about to fall. Four million people weep as one: on this day last year, Taiwan was ceded.” These lines, written by the poet Qiu Fengjia in “Spring Sorrow,” fully express the grief, indignation, and helplessness of Taiwanese intellectuals facing the fate of cession.
 
-In the year of the Yiwei cession (1895), Taiwan produced a large body of resistance literature. These works were mostly poetry, expressing resistance to Japanese rule and longing for the motherland. Lien Ya-tang's (連雅堂) _Preface to the General History of Taiwan_ was composed somewhat later, but its spiritual roots can be traced to this period. The lament "Taiwan has no history at all" embodies the cultural self-consciousness of intellectuals who felt compelled to write the island's history and give it a voice.
+During the year of 1895, Taiwan saw the emergence of a large body of anti-Japanese literary works. These works were often poems, expressing resistance to Japanese rule and longing for the ancestral homeland. Although Lian Ya-tang’s preface to General History of Taiwan was completed later, its spiritual origins can be traced to this period. The lament that “Taiwan has, indeed, no history” embodied the cultural self-consciousness of intellectuals who sought to establish a history and a discourse for Taiwan.
 
-However, more of the literati chose "inner passage" — returning to the mainland. This large-scale exodus of cultural talent caused a temporary rupture in Taiwanese literary development. Those who remained in Taiwan either fell gradually silent under Japanese cultural policy, or struggled painfully in the conflicts between tradition and modernity, local and foreign.
+Yet many more literati chose to “move inland,” returning to the mainland. This large-scale loss of cultural talent produced a temporary rupture in the development of Taiwanese literature. Those who remained in Taiwan either gradually fell silent under Japan’s cultural policies, or struggled painfully amid conflicts between tradition and modernity, the local and the foreign.
 
-## The New vs. Old Literary Debate: The Baptism of Modernity
+## The Debate between New and Old Literature: The Baptism of Modernity
 
-### Chang Wo-chün: Pioneer of the New Literature Movement
+### Zhang Wojun: Pioneer of the New Literature Movement
 
-In 1924, an article titled "A Letter to the Youth of Taiwan" appeared in _Taiwan Minpao_ (台灣民報), written by Chang Wo-chün (張我軍), who had just returned from Beijing. The article fiercely criticized Taiwan's traditional poetry and prose as "stale and rotten," advocating that writers learn from the new literature promoted by Hu Shih and others, and create in vernacular Chinese.
+In 1924, an article titled “A Letter to the Youth of Taiwan” was published in Taiwan Minpao. Its author was Zhang Wojun, who had just returned to Taiwan from Beijing. The article sharply criticized Taiwan’s traditional poetry and prose as “hopelessly stale” and advocated learning from the New Literature promoted by Hu Shih and others, using vernacular Chinese for literary creation.
 
-Chang Wo-chün's views ignited fierce debate. Traditional literati represented by Lien Ya-tang firmly opposed the change, arguing that vernacular Chinese was "shallow and tasteless" and harmful to the depth of Chinese culture. The New Literature faction led by Chang, however, held that only through vernacular Chinese could modern people's thoughts and feelings be expressed, and could literature truly penetrate the lives of the common people.
+Zhang Wojun’s views sparked intense debate. Traditional literati represented by Lian Ya-tang firmly opposed them, arguing that vernacular writing was “shallow and tasteless” and would damage the depth of Chinese culture. The New Literature faction led by Zhang Wojun, by contrast, believed that only vernacular writing could express the thoughts and feelings of modern people and allow literature truly to reach the public.
 
-This debate's significance went far beyond literature itself. It was fundamentally a discussion about the direction of Taiwan's cultural development: should Taiwan hold fast to tradition, or embrace modernity? Should it maintain elite culture, or move toward popular culture? Should it insist on the "national language" (Mandarin Chinese), or accept the "national language" (Japanese)?
+The significance of this debate far exceeded literature itself. In effect, it was a fundamental discussion about the future direction of Taiwanese culture: Should Taiwan hold fast to tradition, or embrace modernity? Should it maintain elite culture, or move toward popular culture? Should it insist on the “national language” (Chinese), or accept the “national language” (Japanese)?
 
-### _Taiwan Minpao_: Cradle of New Literature
+### Taiwan Minpao: Cradle of New Literature
 
-_Taiwan Minpao_, founded in 1925, became an important base for the New Literature movement. This newspaper not only reported political current affairs but, more importantly, provided a publishing venue for Taiwan's new literature. The debut works of many important authors appeared in its pages.
+Founded in 1923, Taiwan Minpao[^1] was the core platform of the New Literature movement. This newspaper not only published political news and current affairs, but also provided a venue for Taiwan’s new literature. Many early works by writers who later became well known were published in this newspaper.
 
-_Taiwan Minpao_'s literary section displayed the distinct character of the times: on one hand printing new poetry, fiction, and essays in vernacular Chinese; on the other, retaining space for traditional poetry — embodying the transitional characteristic of the old coexisting with the new. More importantly, this newspaper began attending to Taiwanese local social realities, laying the foundation for the rise of realist literature.
+The literary pages of Taiwan Minpao displayed clear features of the period: on one hand, they published new poetry, fiction, and prose written in the vernacular; on the other, they retained space for traditional poetry, reflecting the transitional character of old and new forms appearing side by side. Notably, the newspaper began to focus on Taiwan’s local social realities, paving the way for realist literature.
 
-## Lai Ho: Father of Taiwan's New Literature
+## Lai He: Father of Taiwanese New Literature
 
-If one figure must be named as the most important Taiwanese author of the Japanese colonial period, Lai Ho (賴和, 1894–1943) is beyond question. This country doctor from Changhua used his literary works to lay the foundation of Taiwan's new literature, honored as the "Father of Taiwan's New Literature."
+Lai He (1894-1943) is widely recognized as a representative Taiwanese writer of the Japanese colonial period[^3]. A rural physician from Changhua, he established the first milestones of Taiwanese New Literature through his literary works and is honored as the “Father of Taiwanese New Literature.”
 
-### Literary Enlightenment and Ethnic Awakening
+### Literary Enlightenment and National Awakening
 
-Lai Ho's literary creation is inseparable from his political awakening. In 1921, he participated in the activities of the Taiwan Cultural Association and began attending to Taiwan's social problems. In 1925, he published the prose essay "Untitled" and the new poem "Sacrifice Under Awakening — Dedicated to the Comrades of the Erlin Incident," formally entering the field of new literary creation.
+Lai He’s literary creation was inseparable from his political awakening. In 1921, he participated in the activities of the Taiwan Cultural Association and began paying attention to Taiwan’s social problems. In 1925, he published the prose piece “Untitled” and the new poem “Sacrifice under Awakening: To the Comrades of the Erlin Incident,” formally entering the field of New Literature.
 
-Lai Ho's representative work _A Busy Fair_ (鬥鬧熱, 1926) is considered Taiwan's first true vernacular-Chinese fiction. Set against a temple festival, the story depicts the texture of Taiwanese people's lives while cleverly weaving in criticism of Japanese rule. The language is lively and fresh, drawing heavily on Taiwanese Hokkien vocabulary — pioneering the localization of Taiwanese literary language.
+Lai He’s representative work Boisterous Festivities (1926) is regarded as Taiwan’s first vernacular short story in the true sense. Set against the background of a temple festival, the story depicts the life of the Taiwanese people while skillfully interweaving criticism of Japanese rule. Its language is vivid and lively, using a large number of Taiwanese Hokkien expressions, and it pioneered the localization of Taiwanese literature.
 
-### Founding Realism
+### The Foundation of Realism
 
-Lai Ho's literary creation consistently engaged with social reality, particularly the difficulties of people at the bottom of society. His story "A Scale" (一桿「稱仔」) depicts the unfair treatment suffered by a small vendor named Chin Te-tsan because of the standardization of weights and measures — a piercing exposure of the absurdity and cruelty of colonial rule.
+Lai He’s literary writing consistently focused on social reality, especially the hardships faced by people at the bottom of society. His short story “A Steelyard” depicts the injustice suffered by the peddler Qin Decan as a result of reforms to weights and measures, profoundly exposing the absurdity and cruelty of colonial rule.
 
-This realist writing tendency established an important tradition for Taiwanese literature. Literature was not art for art's sake — it was the practice of literature intervening in reality, reflecting the people's sufferings, and enlightening the public. This tradition later influenced Yang K'uei (楊逵), Lü Ho-jo (呂赫若), and a large group of writers, becoming a distinctive feature of Taiwanese literature.
+This realist tendency established a far-reaching tradition in Taiwanese literature. At the core of this tradition was literature’s intervention in reality, its reflection of the people’s suffering, and its enlightenment of the public, rather than the self-display of technique. This tradition later influenced a large group of writers including Yang Kui and Lü Heruo, making social realism one of the central lines of Taiwanese literature.
 
-### Linguistic Experimentation
+### Linguistic Experimentation and Innovation
 
-Lai Ho's experiments in language use have pioneering significance. His works draw heavily on Hokkien vocabulary and modes of expression, sometimes transcribing Hokkien sounds directly using Chinese characters. These experiments generated considerable controversy at the time, but established the direction of localization for Taiwanese literary language.
+Lai He’s experiments in language were pioneering in significance. His works made extensive use of Taiwanese Hokkien vocabulary and modes of expression, at times even using Chinese characters as phonetic transcriptions of Taiwanese. These attempts generated considerable controversy at the time, but they established the direction of localization in the language of Taiwanese literature.
 
-More importantly, through linguistic experimentation, Lai Ho found an appropriate mode for expressing Taiwanese experience. His literary language preserves the literariness of Chinese while incorporating the vitality of Taiwanese Hokkien — creating a modern written Chinese with a distinctly local character.
+Through linguistic experimentation, Lai He found an appropriate way to express Taiwanese experience. His literary language preserved the literary quality of Chinese while incorporating the vitality of Taiwanese speech, creating a form of modern Chinese with local color.
 
 ## The Rise of Left-Wing Literature
 
-### Yang K'uei: Standard-Bearer of Proletarian Literature
+### Yang Kui: Standard-Bearer of Proletarian Literature
 
-Yang K'uei (楊逵, 1906–1985) is an important representative of Taiwan's left-wing literature. In his youth he studied in Japan, where he encountered Marxist thought and proletarian literary theory; returning to Taiwan, he devoted himself to creating and promoting socialist literature.
+Yang Kui (1906-1985) was an important representative of Taiwanese left-wing literature. In his youth he studied in Japan, where he encountered Marxist thought and theories of proletarian literature. After returning to Taiwan, he devoted himself to creating and promoting socialist literature.
 
-Yang K'uei's representative work _The Newspaper Boy_ (送報伸) is the first story in Taiwanese literary history to feature a worker as its protagonist. Depicting the miserable fate of a paperboy, it powerfully exposes the injustice of capitalist society. The language is plain and forceful, the characters vivid — embodying the aesthetic character of proletarian literature.
+Yang Kui’s representative work The Newspaper Boy is the first story in Taiwanese literary history to take a worker as its protagonist. The work portrays the tragic experience of a young newspaper delivery boy and deeply exposes the injustices of capitalist society. Its language is plain yet powerful, its characterization vivid, and it embodies the aesthetic features of proletarian literature.
 
-In 1935, Yang K'uei founded the magazine _New Taiwanese Literature_ (台灣新文學), the first purely literary magazine in Taiwan. The magazine not only published the works of local authors but translated large quantities of foreign left-wing literary work, providing Taiwanese literature with an international perspective.
+In 1935, Yang Kui founded the magazine Taiwan New Literature, one of Taiwan’s important pure literary journals[^2]. The magazine not only published works by local writers, but also translated many foreign left-wing literary works, providing Taiwanese literature with an international perspective.
 
-### Chang Shen-chieh and _Taiwanese Literature_ (台灣文藝)
+### Zhang Shenqie and Taiwan Literature and Art
 
-In 1934, the magazine _Taiwanese Literature_ was founded; its initiator Chang Shen-chieh (張深切) proposed an editorial policy of "no distinctions by ideology, no distinctions by school," broadly uniting Taiwan's literary forces. This magazine became one of the most influential literary publications in Taiwanese literary history.
+In 1934, the magazine Taiwan Literature and Art was founded. Its initiator, Zhang Shenqie, proposed an editorial policy of “no distinction by doctrine, no division by faction,” broadly uniting Taiwan’s literary forces. The magazine became one of the most influential literary publications in Taiwanese literary history.
 
-The hallmarks of _Taiwanese Literature_ were inclusivity and pluralism. It published both left-wing authors' works and modernist-style creation; it contained both Chinese-language writing and Japanese-language work; it focused on Taiwan locally while looking outward to world literature. This open attitude laid the foundation for the diverse development of Taiwanese literature.
+Taiwan Literature and Art was characterized by inclusiveness and plurality. It published works by left-wing writers as well as modernist creations; it included both Chinese-language writing and Japanese-language works; it paid attention to Taiwan’s local context while also looking toward world literature. This open attitude expanded the possibilities for the diversified development of Taiwanese literature.
 
-## Literary Struggle During the Kominka (Imperialization) Period
+## Literary Struggles during the Kominka Period
 
 ### The Rise of Japanese-Language Literature
 
-After the outbreak of the Second Sino-Japanese War in 1937, Japan implemented the "Kominka movement" (皇民化運動) in Taiwan — banning the public use of Chinese script and mandating Japanese-language education. Against this backdrop, a group of local writers emerged who created in Japanese.
+After the outbreak of the Second Sino-Japanese War in 1937, Japan promoted the “Kominka movement” in Taiwan, banning the public use of Chinese writing and forcibly implementing Japanese-language education. Against this background, a group of local writers emerged in Taiwan who wrote in Japanese.
 
-These writers faced an extremely complex cultural predicament. On one hand, they were compelled to write in the colonizer's language; on the other, they hoped to maintain concern for Taiwan's local culture in their works. This contradiction produced distinctive literary tensions and gave rise to some outstanding work.
+These writers faced an extremely complex cultural situation. On one hand, they had to write in the language of the colonizer; on the other, they hoped to preserve concern for Taiwan’s local culture in their works. This contradiction produced a distinctive literary tension and also gave rise to a number of outstanding works.
 
-### Lü Ho-jo: The Artist Who Crossed Languages
+### Lü Heruo: An Artist across Languages
 
-Lü Ho-jo (呂赫若, 1914–1951) was the most important author of this period. His story _The Ox Cart_ (牛車) depicts the decline of Taiwan's countryside with delicate brushwork, presenting the helplessness and struggle of peasants under the impact of modernization. Though written in Japanese, the spiritual core of the work remains deeply planted in Taiwan's soil.
+Lü Heruo (1914-1951) was a representative writer of this period[^4]. His novel Oxcart depicts the decline of rural Taiwan with meticulous brushwork, presenting the helplessness and struggle of farmers under the impact of modernization. Although written in Japanese, the work’s spiritual core remained deeply rooted in Taiwanese soil.
 
-Lü Ho-jo's creation embodies the cultural strategy of colonial-era writers: on the surface cooperating with colonial policy; in practice, using literary metaphor and symbol to express protection of local culture. This mode of "oblique writing" became an important tradition in Taiwanese literature.
+Lü Heruo’s writing embodied the cultural strategy of colonial writers: outwardly complying with colonial policy while, in reality, using literary metaphor and symbolism to express the protection of local culture. This method of “indirect writing” later continued as a durable thread in Taiwanese literature.
 
-### Chang Wen-huan: Literature's Perseverer
+### Zhang Wenhuan: A Literary Stalwart
 
-Chang Wen-huan (張文環, 1909–1978) was another important Japanese-language literary author. His story _The Castrated Cock_ (閹雞) uses the story of a rooster's castration as a metaphor for the fate of Taiwanese people under colonial rule. This deployment of symbolism both sidestepped political censorship and expressed profound political allegory.
+Zhang Wenhuan (1909-1978) was another notable writer of Japanese-language literature. His novel The Capon uses the story of a rooster being castrated as an allegory for the fate of Taiwanese people under colonial rule. This use of symbolism both evaded political censorship and conveyed profound political meaning.
 
-In 1941, Chang Wen-huan founded the magazine _Taiwan Literature_ (台灣文學), the most important literary publication of the Kominka period. Although using Japanese, the magazine maintained Taiwan's local literary stance, providing Taiwanese authors with a precious publication venue.
+In 1941, Zhang Wenhuan founded the magazine Taiwan Literature, the core literary journal of the Kominka period[^5]. Although the magazine used Japanese, it continued to uphold a local Taiwanese literary position and provided a precious venue for Taiwanese writers to publish.
 
-## The Aesthetic Qualities of Colonial Literature
+## Aesthetic Features of Colonial Literature
 
-### Dual-Consciousness in Literary Expression
+### Literary Expression of Double Consciousness
 
-Japanese colonial-period Taiwanese literature has a pronounced "dual consciousness" character. Authors had to face the reality of colonial rule while maintaining identification with local culture; had to learn modern literary techniques while upholding the stance of ethnic literature. This complex cultural predicament produced distinctive literary aesthetics.
+Taiwanese literature during Japanese rule had a pronounced feature of “double consciousness.” Writers had to face the reality of colonial rule while maintaining identification with local culture; they had to learn the techniques of modern literature while insisting on the standpoint of national literature. This complex cultural situation generated a distinctive literary aesthetics.
 
-This dual consciousness manifested on many levels: the choice of language (Chinese or Japanese), the selection of subject matter (contemporary reality or tradition), the calibration of stance (resistance or accommodation), the determination of style (local or international). It was precisely through these complex choices that Taiwanese literature gradually formed its own characteristics.
+This double consciousness appeared on many levels: the choice of language (Chinese or Japanese), the selection of subject matter (reality or tradition), the grasp of stance (resistance or cooperation), and the determination of style (local or international). It was through these complex choices that Taiwanese literature gradually formed its own characteristics.
 
 ### The Deepening of Realism
 
-The dominant tendency in Japanese colonial-period Taiwanese literature was realism. This realism was not simple life-depiction but carried strong social-critical coloring and ethnic consciousness. Writers used literary works to expose the injustice of colonial rule, reflect the sufferings of the people, and express their pursuit of social justice.
+Realism was the mainstream of Taiwanese literature during Japanese rule. This realism carried strong social criticism and national consciousness, going far beyond simple descriptions of daily life. Through literary works, writers exposed the injustices of colonial rule, reflected the suffering of the people, and expressed the pursuit of social justice.
 
-The distinctive character of this realist literature was the tight integration of individual fate and ethnic fate. A peasant's bankruptcy often implied the collapse of an entire agricultural society; an intellectual's struggle often reflected the predicament of an entire people. This combination of grand narrative and personal narrative provided Taiwanese literature with rich expressive space.
+A defining feature of this realist literature was its close linking of individual fate and national fate. The bankruptcy of a farmer often suggested the decline of an entire agricultural society; the struggle of an intellectual often reflected the predicament of an entire people. This combination of grand narrative and individual narrative provided Taiwanese literature with rich expressive space.
 
-### The Localization of Literary Language
+### Localized Literary Language
 
-Despite passing through multiple linguistic transformations, Japanese colonial-period Taiwanese literature was always searching for a literary language suited to expressing the Taiwanese experience. Whether Lai Ho's Hokkien-inflected Chinese, Yang K'uei's populist Mandarin, or Lü Ho-jo's "Taiwanese Japanese" — all embody the authors' relentless search for the localization of literary language.
+Despite repeated shifts in language, Taiwanese literature during Japanese rule persistently searched for a literary language suited to expressing Taiwanese experience. Whether Lai He’s Taiwanese-inflected writing, Yang Kui’s popularized Chinese, or Lü Heruo’s “Taiwanese-style Japanese,” all reflected writers’ sustained exploration of the localization of literary language.
 
-The significance of this search lay not only in finding the tool of expression, but in establishing the linguistic character of Taiwanese literature. What should the language of Taiwanese literature look like? How can it embody local character while maintaining literariness? The exploration of these questions provided precious experience for the development of postwar Taiwanese literature.
+The significance of this exploration lay not only in finding tools of expression, but also in establishing the linguistic characteristics of Taiwanese literature. What should the language of Taiwanese literature look like? How could it embody local characteristics while preserving literary quality? Exploration of these questions provided valuable experience for the development of postwar Taiwanese literature.
 
 ## A Historical Turning Point
 
-On August 15, 1945, as the Japanese Emperor announced Japan's surrender, the Japanese colonial era in Taiwan formally ended. For Taiwanese literature, this was simultaneously the end of one era and the beginning of another.
+On August 15, 1945, with the Japanese emperor’s announcement of surrender, Taiwan’s era of Japanese rule formally came to an end. For Taiwanese literature, this was both the conclusion of one era and the beginning of another.
 
-The fifty years of Japanese rule left Taiwanese literature a rich inheritance: the establishment of modern literary concepts, the awakening of local consciousness, the inclusivity of multicultural expression, and the grounding of the realist tradition. All of these became important foundations for postwar Taiwanese literary development.
+The fifty years of Japanese rule left Taiwanese literature with a layered legacy: the establishment of modern literary concepts, the awakening of local consciousness, an embrace of multiculturalism, and the foundation of a realist tradition. All of these became cornerstones for the development of postwar Taiwanese literature[^6].
 
-At the same time, this period also exposed certain problems in Taiwanese literary development: confusion about linguistic identity, ambiguity of cultural identity, and complexity of political stance. These problems persisted in the postwar period, appearing in new forms under different historical conditions.
+At the same time, this period also exposed certain problems in the development of Taiwanese literature: confusion over linguistic identity, ambiguity in cultural identity, and the complexity of political positions. These issues persisted after the war and reappeared in new forms under different historical conditions.
 
-## Conclusion: Flowers Blooming in the Cracks
+## Conclusion: Blooming in the Cracks
 
-Japanese colonial-period Taiwanese literature is a flower that bloomed in the cracks — caught between tradition and modernity, between local and foreign, between resistance and accommodation. It was precisely within these complex tensions that Taiwanese literature found its own voice and established its own character.
+Taiwanese literature during Japanese rule was a flower blooming in the cracks. It was caught between tradition and modernity, between the local and the foreign, between resistance and cooperation. It was precisely amid these complex tensions that Taiwanese literature found its own voice and established its own character.
 
-Lai Ho's physician's pen, Yang K'uei's combative voice, Lü Ho-jo's artistic beauty, Chang Wen-huan's steadfast determination — these different literary faces together compose the rich landscape of Japanese colonial-period Taiwanese literature. They used their creative work to prove that even under the most difficult historical conditions, literature can still uphold its ideals and express the voice of a people.
+Lai He’s physician’s pen, Yang Kui’s fighting voice, Lü Heruo’s artistic beauty, and Zhang Wenhuan’s steadfast will: these different literary faces together formed the rich landscape of Taiwanese literature during Japanese rule. Through their own writing, they proved that even under the most difficult historical conditions, literature could still hold to its ideals and express the voice of a people.
 
-This period of Taiwanese literature laid a solid foundation for what followed. Its realist tradition, local consciousness, spirit of resistance, and cultural inclusivity all became important characteristics of Taiwanese literature — continuing to influence it to this day. As Lai Ho wrote in his poem: "Brave people should fight for righteousness" — this literary courage and idealism is still the most precious wealth of Taiwanese literature.
+Taiwanese literature of this period provided substantive accumulation for later development. Its realist tradition, local consciousness, spirit of resistance, and cultural inclusiveness all left lasting marks on postwar Taiwanese literature. As Lai He wrote in a poem, “A brave person should fight for righteousness.” This literary courage and ideal remain among the most precious assets of Taiwanese literature today.
 
 ---
 
 ## Further Reading
 
-- [Postwar Taiwanese Literature](/art/postwar-taiwanese-literature) — How the Japanese colonial thread of Lai Ho, Lü Ho-jo, and Chang Wen-huan continued after the 1945 linguistic rupture: Yeh Shih-t'ao's blank page, modernism, the Nativist Literature debate, women's awakening
-- [Post-Martial Law Taiwanese Literature](/art/Post-Martial-Law-Taiwan-Literature) — The diverse explosion after the lifting of martial law in 1987
-- [Contemporary Taiwanese Literature](/art/contemporary-art) — Internationalization in the 21st century, Wu Ming-yi, digital literature
-- [History of Taiwanese Literature](/art/history-of-taiwanese-literature) — The complete context from Dutch rule and the Ming-Qing period through Japanese colonization to the contemporary
-- [Lin Liang (林良)](/people/lin-bai-li) — A postwar children's literature founding figure who crossed from Xiamen to Taiwan; provides a comparison of prewar/postwar positioning in relation to language policy in Japanese colonial-period literature
+- [The Taiwan Travelogue](/art/臺灣漫遊錄) — Yang Shuang-zi’s 2020 pseudo-translated novel, turning a 1938-39 journey along Taiwan’s north-south railway during Japanese rule into a story of food and power between two women; internationally recognized by both the 2024 National Book Award and the 2026 International Booker Prize
+- [Postwar Taiwanese Literature](/art/戰後台灣文學) — How the Japanese-period line of Lai He, Lü Heruo, and Zhang Wenhuan continued after the linguistic rupture of 1945: Yeh Shih-tao’s blank page, modernism, the nativist literature debate, and women’s awakening
+- [Taiwanese Literature after the Lifting of Martial Law](/art/解嚴後台灣文學) — The pluralistic explosion after the lifting of martial law in 1987
+- [Contemporary Taiwanese Literature](/art/當代台灣文學) — Twenty-first-century internationalization, Wu Ming-yi, and digital literature
+- [History of Taiwanese Literature](/art/台灣文學史) — The overall trajectory from Dutch rule, the Ming-Zheng and Qing periods, and Japanese rule to the contemporary era
+- [Lin Liang](/people/林良) — A foundational figure in postwar children’s literature who crossed the sea from Xiamen to Taiwan, offering a contrast with Japanese-period literature in terms of prewar and postwar language-policy positions
 
 ---
 
-_References:_
+## References
 
-- Yeh Shih-t'ao, [_An Outline History of Taiwanese Literature_](https://books.google.com/books/about/%E5%8F%B0%E7%81%A3%E6%96%87%E5%AD%B8%E5%8F%B2%E7%B6%B1.html?id=8fURAAAAYAAJ)
-- Ch'en Fang-ming, [_Colonial Taiwan: Essays on the History of Left-Wing Political Movements_](https://www.books.com.tw/products/0010751439)
-- Kawahara Isao, [_The Unfolding of the Taiwan New Literature Movement_](https://www.books.com.tw/products/0010268540)
-- Edited by Nakajima Toshiro, _Collected Essays on the Literary History of Japanese Colonial Taiwan_
+[^1]: Taiwan Minpao was founded in 1923, initially published in Tokyo and later moved to Taiwan for circulation. See: Isao Kawahara, [The Development of Taiwan’s New Literature Movement](https://www.books.com.tw/products/0010268540) (Taipei: Avanguard, 1997).
+
+[^2]: Yang Kui, Taiwan New Literature, 1935-1937. See: Toshio Nakajima, ed., [Comprehensive Contents and Name Index of Taiwanese Literary Magazines during the Japanese Occupation Period](https://www.books.com.tw/products/0010028221) (1995), and related holdings in the [Taiwan Cultural Memory Bank](https://catalog.digitalarchives.tw/).
+
+[^3]: For biographical materials on Lai He, see: Yeh Shih-tao, [An Outline History of Taiwanese Literature](https://books.google.com/books/about/%E5%8F%B0%E7%81%A3%E6%96%87%E5%AD%B8%E5%8F%B2%E7%B6%B1.html?id=8fURAAAAYAAJ) (Kaohsiung: Wenxuejie Magazine Press, 1987).
+
+[^4]: For research on Lü Heruo, see: Chen Fang-ming, [Colonial Taiwan: Historical Essays on the Left-Wing Political Movement](https://www.books.com.tw/products/0010751439) (Taipei: Rye Field, 1998).
+
+[^5]: The magazine Taiwan Literature (1941-1943) was led by Zhang Wenhuan and published in Japanese. See: Toshio Nakajima, ed., [Comprehensive Contents and Name Index of Taiwanese Literary Magazines during the Japanese Occupation Period](https://www.books.com.tw/products/0010028221) (1995), and related holdings in the [Taiwan Cultural Memory Bank](https://catalog.digitalarchives.tw/).
+
+[^6]: Yeh Shih-tao, [An Outline History of Taiwanese Literature](https://books.google.com/books/about/%E5%8F%B0%E7%81%A3%E6%96%87%E5%AD%B8%E5%8F%B2%E7%B6%B1.html?id=8fURAAAAYAAJ) (Kaohsiung: Wenxuejie Magazine Press, 1987), pp. 1-50.

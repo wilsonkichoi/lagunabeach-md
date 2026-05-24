@@ -1,143 +1,139 @@
 ---
-title: Taiwanese Comics and Illustration
-category: Art
-tags: [comics, illustration, visual art]
-date: 2026-03-18
+title: 'Taiwanese Comics'
+description: 'From Liu Hsing-chin and Ao Yu-hsiang of the 1970s “Kingdom of Comics,” to Chen Uen’s conquest of Japan in 1991 as an “Asian Treasure,” Tsai Chih-chung’s comic adaptation of classical philosophy in Zhuangzi Speaks, and then the 2010 Golden Comic Awards and the 2017 Creative Comic Collection, Taiwanese comics have passed through a downturn under the pressure of Japanese manga and are now recovering their own original voice.'
+date: 2026-03-20
+author: 'Taiwan.md'
+category: 'Art'
+subcategory: '視覺藝術'
+tags:
+  [
+    'Comics',
+    'Chen Uen',
+    'Tsai Chih-chung',
+    'Liu Hsing-chin',
+    'Ao Yu-hsiang',
+    'Golden Comic Awards',
+    'Creative Comic Collection',
+    'Ruan Guang-min',
+  ]
+readingTime: 11
+lastVerified: 2026-05-16
+lastHumanReview: true
+featured: false
 translatedFrom: 'Art/台灣漫畫.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:3a1178905711b562'
-sourceBodyHash: 'sha256:a9f04ad63339e270'
-translatedAt: '2026-05-01T17:09:56+08:00'
-description: 'From the 1970s "Comics Kingdom" of Liu Hsing-chin (劉興欽) and Ao Yu-hsiang (敖幼祥), to Zheng Wen''s (鄭問) conquest of Japan in 1991 as the "Asian treasure," to Tsai Chih-chung''s (蔡志忠) Zhuangzi Speaks topping bestseller charts for 10 months — Taiwanese comics survived the Japanese manga onslaught and are reclaiming original voices through the Golden Comic Awards (2010) and CCC Creative Collection platform (2017).'
+sourceCommitSha: '85926aa3b'
+sourceContentHash: 'sha256:5275019358614716'
+sourceBodyHash: 'sha256:dd1128570e96c06e'
+translatedAt: '2026-05-24T05:06:32+08:00'
 ---
 
-# Taiwanese Comics and Illustration: The Narrative Power of Images
+# Taiwanese Comics
 
-The developmental trajectory of Taiwanese comics and illustration presents how a small island created unique visual narrative languages in the confluence of Eastern and Western cultures. From Zheng Wen's stunning achievements in the Japanese comics world to Tsai Chih-chung's cultural feat of adapting Chinese classical philosophy into comics, and the flourishing development of contemporary independent comics, Taiwan's comics world has demonstrated infinite creative vitality and cultural depth within limited market scale.
+> **30-second overview:** Taiwanese comics once had a golden age as a “Kingdom of Comics”: in the 1970s and 1980s, Japanese manga imports were restricted, and Liu Hsing-chin’s Brother A-san and Great Auntie and Ao Yu-hsiang’s Wulongyuan sustained the local market. After martial law was lifted in the late 1980s, Japanese manga entered Taiwan on a large scale, and local comics entered a downturn that lasted 20 years. At the same time, however, two masters left their mark on the international stage: in 1991, Chen Uen became the first non-Japanese recipient of the Japan Cartoonists Association Award for Excellence with Heroes of the Eastern Zhou, earning the title “Asian Treasure”; Tsai Chih-chung’s 1986 Zhuangzi Speaks remained on the bestseller list for 10 consecutive months, reinterpreting classical philosophy through comics. After the Golden Comic Awards were established in 2010 and the Creative Comic Collection digital platform launched in 2017, works such as Ruan Guang-min’s Donghuachun Barbershop, Sayling Wen Cultural Foundation’s Gate of Heaven, and Wei Tsung-cheng’s Formosa Oolong Tea brought Taiwanese history and culture into the language of contemporary comics.
 
-## The Zheng Wen Phenomenon: Eastern Aesthetics' World Conquest
+## Kingdom of Comics: The Birth and Fall of a Golden Age
 
-### Birth of an Asian Treasure
+From the 1970s to the 1980s, Taiwan was once Asia’s “Kingdom of Comics.” The conditions of the time made this achievement possible: the government restricted Japanese manga imports, giving local creation room to survive; economic takeoff created consumer purchasing power, and teenagers had money to buy comics; printing technology improved, lowering publishing costs. Under this unusually favorable set of historical conditions, Taiwanese comics entered their first golden age.[^1]
 
-Zheng Wen (鄭問, 1958-2017), born Zheng Jin-wen, holds a special place in Asian comics history. He began creating comics in Taiwan in 1984, was invited to develop in Japan in 1990, and became the first Taiwanese cartoonist to serialize works in Japanese manga magazines. In 1991, he won the Japanese Cartoonists Association's "Excellence Award" for "Chronicles of the Eastern Zhou Dynasty," becoming the first non-Japanese cartoonist to receive this honor.
+**Liu Hsing-chin** was a founding figure of Taiwanese comics. His Brother A-san and Great Auntie created the first group of classic characters in the history of Taiwanese comics. Brother A-san’s simplicity and Great Auntie’s shrewdness reflected the many facets of Hakka village life while also presenting the plain social atmosphere of Taiwan at the time. Liu was both a cartoonist and a cultural recorder, preserving the memories of that era in comics.[^1]
 
-The Japanese comics world held Zheng in extremely high regard, praising him as an "Asian treasure" and "genius, ghostly talent, extraordinary talent." The Asahi Shimbun even acclaimed him as an artist unmatched in the comics world for twenty years. Such evaluation was not unfounded but built upon Zheng's unique artistic achievements.
+**Ao Yu-hsiang**’s Wulongyuan represented another possibility for Taiwanese comics. The comic duo of the plump master and thin master, along with the senior disciple’s adventures, infused a martial-arts framework with a strong Taiwanese flavor. The success of Wulongyuan proved that Taiwanese comics could develop their own language of humor and modes of narration beyond the dominant style of Japanese manga.[^1]
 
-### Pioneering Eastern Aesthetic Language
+But the good times did not last. In the late 1980s, as political liberalization and economic deregulation advanced, Japanese manga entered the Taiwanese market in force. The violent aesthetics of Fist of the North Star, the magnificent battles of Saint Seiya, and the superpower fantasies of Dragon Ball quickly won over Taiwanese readers with their refined production and tightly plotted stories. Local comics retreated step by step under this cultural incursion, and the dream of the Kingdom of Comics was shattered.[^1]
 
-Zheng's artistic achievement lay in creating an unprecedented comics aesthetic. His works fused the expressiveness of ink wash painting, the precision of fine brush painting, Western painting's perspective and lighting, and comics' unique paneling and narrative techniques. This fusion was not simply a superposition of techniques but an entirely new visual language established upon profound Eastern cultural foundations.
+## Chen Uen: An Eastern Aesthetic That Conquered Japan
 
-"Chronicles of the Eastern Zhou Dynasty" represents Zheng's artistic pinnacle. This historical manga set in the Spring and Autumn and Warring States periods displayed stunning artistic standards on every page. His character designs were powerfully robust, scene depictions grandly magnificent, and the dynamic sense and dramatic tension of battle scenes reached unprecedented heights. Importantly, these visual effects all served deeper cultural expression, allowing readers to feel the spiritual content of ancient Chinese culture while appreciating beautiful imagery.
+Chen Uen (1958-2017), born Cheng Chin-wen, was the most important international master in Taiwanese comics. He began creating comics in 1984 and, in 1990, was invited by Japan’s Kodansha to develop his career in Japan, becoming the first Taiwanese comics artist to serialize work in a mainstream Japanese manga magazine.[^2]
 
-### Pioneer of Media Experimentation
+In 1991, Chen Uen won the Japan Cartoonists Association Award for Excellence for Heroes of the Eastern Zhou, becoming the first non-Japanese winner in the award’s 20-year history. Japan’s Asahi Shimbun praised him as a “genius, uncanny talent, and singular talent unmatched in the comics world for twenty years,” and the Japanese manga world called him an “Asian Treasure.”[^2]
 
-Zheng was not merely an outstanding cartoonist but a pioneer of media expression. He boldly experimented with different painting techniques, from traditional brush, ink, paper, and inkstone to modern computer graphics, from oil paint to digital compositing—he constantly sought the most suitable visual methods for expressing content.
+Chen Uen’s breakthrough lay in creating a comics aesthetic without precedent. He fused the expressive abstraction of ink painting, the refinement of meticulous brushwork, and the light-and-shadow techniques of Western painting to establish a distinctive Eastern visual language. Every page of Heroes of the Eastern Zhou displays an astonishing artistic standard: character designs are powerful and imposing, scenes are expansive and magnificent, and the dynamism of battle scenes reaches an unprecedented level.[^3]
 
-This experimental spirit kept Zheng's works perpetually fresh. Even with identical subjects, he could find different expressive approaches. This constant exploration of techniques not only enriched his personal creative vocabulary but provided new possibilities for the entire comics world.
+Beyond technical innovation, Chen was also a pioneer in media experimentation. Traditional brush and ink, computer graphics, oil paints, and digital compositing were all tools he used to explore the most suitable expressive methods for each subject. This experimental spirit kept his work fresh and opened new possibilities for the entire comics field.
 
-### Cultural Export's Important Significance
+Chen Uen’s success carried important cultural significance. In an era when Japanese manga dominated Asian markets, a Taiwanese comics artist receiving such acclaim in Japan proved the creative strength of Taiwan and set an example for other Asian creators. More importantly, through exquisite visuals, he presented the depth and beauty of ancient Chinese culture to the world.
 
-Zheng's success holds important cultural significance. In an era when Japanese comics dominated the Asian market, a Taiwanese cartoonist achieving such high evaluation in Japan proved Taiwan creators' capabilities and set an example for other Asian cartoonists.
+## Tsai Chih-chung: A Comics Revolution in Classical Philosophy
 
-More importantly, Zheng showcased Chinese culture's depth and beauty to the world through his works. His comics were not just entertainment products but cultural carriers. Through exquisite visual presentation, he introduced world readers to ancient Chinese philosophical thought, historical stories, and aesthetic concepts. This cultural export's significance far exceeded commercial success itself.
+Tsai Chih-chung’s creative career underwent an important turn. In his early years, he was known for humorous comics such as Wulongyuan, and in 1981 his The Seven-Colored Old Master Q won the Golden Horse Award for Best Animated Feature. But what truly secured his place in comics history was the project he began in the mid-1980s to adapt Chinese classics into comics.[^4]
 
-## Tsai Chih-chung's Classical Revolution: Philosophizing Comics
+In 1986, Tsai published Zhuangzi Speaks: The Music of Nature. The work achieved unprecedented success, staying on bestseller lists for 10 consecutive months and opening a new path for interpreting classical texts through comics. The key to its success was that Tsai found a bridge between classical philosophy and modern readers: concise linework and humorous dialogue made difficult concepts accessible.[^4]
 
-### The Turn from Humor to Wisdom
+The success of Zhuangzi Speaks launched a series of works based on the classics. From 1987 onward, Tsai successively published Laozi Speaks, Liezi Speaks, The Art of War, The Platform Sutra, and other works, covering almost the full essence of classical Chinese thought. Each work demonstrates his deep understanding of the original texts: behind the spare lines is a creative re-expression grounded in careful comprehension.
 
-Tsai Chih-chung's creative career experienced an important transformation. Early on, he was known for humorous comics, creating popular works like "Usagi Yojimbo" (烏龍院). But what truly established his place in comics history was his Chinese classics comics project that began in 1985.
+Beyond their explosive popularity in the Chinese-speaking world, Tsai’s works have been translated into multiple languages and distributed globally. His success proved that classical thought still has vitality in modern society; the key is finding the right form of expression. The meaning of this cultural innovation far exceeds individual creative achievement.[^4]
 
-The catalyst for this transformation came from his deep encounter with Zhuangzi's thought. While residing in Japan, he reread "Zhuangzi" and discovered that his childhood thoughts remarkably aligned with Zhuangzi's. This discovery inspired his creative imagination, leading him to decide to express these profound philosophical thoughts through comics.
+> **📝 Curator’s Note**
+> Chen Uen’s conquest of Japan represented a route of “bringing Taiwan outward,” while Tsai Chih-chung’s introduction of classical Chinese philosophy to the world represented a route of “reinterpreting culture through comics.” Both routes unfolded in the 1990s, when Japanese manga was fully occupying the local market. To a great extent, the international influence of Taiwanese comics grew by “bypassing the mainstream market.”
 
-### The Cultural Impact of "Zhuangzi Speaks"
+## The Downturn: A Struggle for Survival Under Japanese Manga Pressure
 
-In 1985, Tsai launched "Zhuangzi Speaks: The Music of Nature," which achieved unprecedented success. It not only remained atop Taiwan's bestseller lists for ten consecutive months but pioneered interpreting classical texts through comics. This success proved that combining deep thought with popular entertainment was possible.
+From the 1990s to the early 2000s, Taiwanese comics entered a dark period. The comics sections of bookstores were occupied by Japanese works, and long-running series such as Naruto, One Piece, and Bleach became the shared language of teenagers. Local comics nearly disappeared from readers’ view.[^1]
 
-Tsai's success lay in finding a bridge between classical philosophy and modern readers. Using concise, lively lines and humorous, witty dialogue, he made originally profound philosophical concepts accessible. Importantly, this simplification did not damage the depth of thought but allowed more readers to access these precious cultural heritages.
+This predicament had multiple causes. First was the quality gap: Japan’s industrialized production model, professional division of labor, and mature market mechanisms allowed it to continuously produce high-quality works, while Taiwanese comics were mostly created by individuals and lacked systematic cultivation and support. Second was cultural preference: the fantasy settings, refined art styles, and complex plots of Japanese manga better matched young readers’ tastes, while the comparatively plain style of Taiwanese comics seemed outdated. Finally, there was the problem of distribution: publishers were more willing to license successful Japanese works than to invest in riskier local creations.
 
-### Comic Interpretations of the Hundred Schools of Thought
+Even in the most difficult period, however, some creators persisted. **Hsiao Yen-chung**’s Short Circuits in Fairy Tales reinterpreted classic fairy tales through black humor, showing the possibilities of adult comics. **Yu Su-lan**’s girls’ comic Angel Heart was warm and healing, allowing a local flower to bloom amid the dominance of Japanese-style shōjo manga. **Chang Fang-chih**’s Shou Niang attempted to combine Taiwanese history with modern comics techniques, seeking new expressive forms for local subject matter.[^1]
 
-The success of "Zhuangzi Speaks" launched Tsai's series of classical works. From "Laozi Speaks" and "Confucius Speaks" to "Sunzi Speaks," from "Zen Speaks" and "Buddha Speaks" to "Cai Gen Tan," he covered virtually the entire essence of ancient Chinese thought.
+Although these works did not create major market sensations, they preserved the spark of Taiwanese comics. They proved that even in the harshest environment, the passion for creation still existed, and local voices still deserved to be heard.
 
-Each work demonstrated Tsai's deep understanding of original texts. He didn't simply convert words into pictures but engaged in creative interpretation based on understanding original meanings. This interpretation inevitably carried his personal thoughts and insights, but it was precisely this subjectivity that gave ancient thoughts new vitality.
+## Golden Comic Awards: Official Support as a Mark of Quality
 
-### Global Influence and Cultural Significance
+In 2010, the Council for Cultural Affairs (now the Ministry of Culture) established the Golden Comic Awards, an important milestone in the history of Taiwanese comics. A government-level award brought comics into the formal support system for cultural creation and demonstrated official recognition of comics as a cultural form.[^5]
 
-Tsai's classical comics were not only popular in the Chinese-speaking world but translated into multiple languages, producing significant global impact. At the time, there was a saying: for every 9 books sold in Taiwan, 1 was Tsai Chih-chung's comic; for every 4 comics sold, 3 were his works. While this data might be exaggerated, it reflected his works' popularity.
+The establishment of the Golden Comic Awards changed the ecology of Taiwanese comics. It provided a platform for outstanding works, offered creators a goal to strive toward, and gave readers a mark of quality. More importantly, it raised society’s overall recognition of the artistic value of comics. The award’s evaluation criteria reflect an emphasis on the artistry and cultural significance of comics, placing originality, artistic standard, and cultural substance ahead of commercial success.
 
-More importantly, Tsai's works opened new paths for disseminating Chinese classical culture in modern society. He proved that classical thought still possessed vitality in contemporary society—the key was finding appropriate expression methods. This cultural innovation's significance far exceeded personal creative success.
+Winning works across the history of the Golden Comic Awards show the rich range of Taiwanese comics. Historical subjects, science-fiction futures, social realism, and fantasy adventures all appear among the winners, reflecting both the complexity of Taiwanese society and the imagination of creators. While entertaining readers, these works also record changes in Taiwanese society.
 
-## Golden Comic Awards: Taiwan Comics' Quality Assurance
+## Creative Comic Collection: A Digital Platform for Cultural and Creative Revival
 
-### The Important Significance of Official Support
+In 2009, the Council for Cultural Affairs, the predecessor of the Ministry of Culture, launched Creative Comic Collection (CCC). This publication, combining comics, fiction, and historical knowledge, became a key base for the revival of Taiwanese comics. CCC was both a comics magazine and a cultural experiment: it sought to prove that Taiwan’s history and culture could become compelling creative material, and that local comics could reach international standards of quality.[^6]
 
-The establishment of the Golden Comic Awards by the Council for Cultural Affairs (now Ministry of Culture) in 2010 was an important milestone in Taiwan's comics development history. Government-level awards not only provided honorary recognition for creators but, more importantly, demonstrated official recognition of comics as a cultural creative form.
+In 2017, the Creative Comic Collection digital platform went online. In 2021, responsibility for it shifted from the Ministry of Culture’s Forward-looking Infrastructure Development Program to the Taiwan Creative Content Agency. The platform’s role changed from a simple collection of creative works into “an accelerator connecting Taiwanese comics to the market.” The platform provides paid reading and reader donation functions, allowing creators to receive tangible financial support.[^7]
 
-The Golden Comic Awards' establishment changed Taiwan's comics ecology. It provided a showcase platform for excellent works, provided creators with goals to strive for, and provided readers with quality assurance. More importantly, it elevated entire society's recognition of comics' artistic value.
+**Ruan Guang-min**’s Donghuachun Barbershop depicts changes across eras with delicate brushwork, **Xerses**’s Gate of Heaven recreates the tragedy and grandeur of the First Sino-Japanese War, and **Wei Tsung-cheng**’s Formosa Oolong Tea packages Taiwanese tea culture as a fantasy adventure. Beyond refined visuals, these works also carry deep cultural substance. They tell readers that Taiwan’s stories are not boring at all: with the right method, local subjects can also be compelling.[^6]
 
-### Cultural Orientation of Selection Standards
+CCC’s success lies not only in the improvement of work quality, but also in how it changed public perceptions of Taiwanese comics. Local comics, it showed, were not limited to gag-based four-panel strips; they could also handle serious historical themes. They did not have to imitate Japanese styles, but could develop a distinctive Taiwanese aesthetic. They did not have to survive only in niche markets, but could receive recognition from mainstream society.
 
-The Golden Comic Awards' selection standards embodied emphasis on comics' artistic and cultural qualities. Awards focused not only on commercial success but valued originality, artistic standards, and cultural content. This selection orientation encouraged creators to pursue higher artistic goals rather than just commercial interests.
+## Independent Comics and the Internet Generation
 
-This cultural orientation positively impacted Taiwan comics development. It encouraged diverse creative subjects, promoted technical innovation and experimentation, and fostered cross-disciplinary collaboration between comics and other art forms.
+In the late 2000s, the digital revolution brought new opportunities to Taiwanese comics. Online platforms lowered the threshold for publication, social media expanded distribution channels, and digital drawing tools improved production quality. A new generation of creators began to emerge online. They no longer tried to imitate Japanese manga, but told their own stories in their own ways.
 
-## CCC Creative Collection: Innovative Experiments on Original Platforms
+**Cherng**’s illustrated works heal readers through small everyday pleasures, **61Chi**’s works use cute characters to convey reflections on life, and **Dongyang**’s illustrations combine traditional culture with modern design. These creators are not necessarily professional comics artists, but through the power of the internet they have made original Taiwanese content visible again.
 
-### Government-Supported Original Platform
+Independent comics cover more diverse subjects: close observation of personal life, in-depth discussion of social issues, experimental artistic expression, and cross-media innovation have each developed in their own direction. Many independent comics have received positive responses at international comics festivals or art exhibitions, proving the international competitiveness of Taiwan’s independent comics. Social media has provided independent comics with effective promotional channels, allowing creators to reach readers directly through platforms such as Facebook and Instagram and build personal brands.
 
-CCC Creative Collection is a Taiwan original comics platform supported by the Ministry of Culture (now managed by the Taiwan Creative Content Agency). This project represents government's proactive approach to comics industry development. Unlike commercial publishers' market orientation, CCC Creative Collection emphasizes originality and experimentation, providing emerging creators with a stage to showcase their talents.
+In recent years, **webcomic** platforms such as LINE WEBTOON have given creators new channels for publication; **cross-media collaborations** allow comics IP to extend into animation, games, and merchandise; and **international collaboration** has opened overseas markets for Taiwanese creators. These trends show that Taiwanese comics are exploring new models of development.
 
-This platform's significance lies in breaking traditional publishing threshold restrictions. Talented newcomers no longer need to rely on publisher recognition but can directly publish works on the platform and receive reader feedback. This model injected new vitality into Taiwan's comics world.
+## Cultural Significance: From “Kingdom of Comics” to “Original Voice”
 
-### Creative Space for Diverse Themes
+Over the past 50 years, Taiwanese comics have passed from the prosperity of the 1970s “Kingdom of Comics,” through the downturn of the 1990s, to the cultural and creative revival that followed the 2010s. These rises and falls reflect the cultural struggles of Taiwanese society amid globalization: How can local characteristics be preserved under the impact of powerful outside cultures? How can a balance be found between imitation and learning on one hand, and original innovation on the other? How should choices be made between commercial considerations and cultural value?
 
-CCC Creative Collection covers broad creative themes, from historical stories to science fiction futures, from social realism to fantasy adventures—creators can freely express their creativity. This diversity reflects Taiwan society's complex aspects while showcasing new generation creators' rich imagination.
+Chen Uen’s Eastern aesthetics, Tsai Chih-chung’s philosophical comics, the officially supported Golden Comic Awards, independent creation driven by civil society, Ruan Guang-min’s historical narratives, and Cherng’s illustrated everyday life all show the rich creative energy and cultural depth of Taiwanese comics.
 
-Platform works' quality improves annually, with many achieving professional standards in artistic expression and story content. These works not only entertain readers but record Taiwan society's changes, becoming important cultural assets.
+The revival of Taiwanese comics is both an industrial question and a question of cultural identity. When Taiwanese comics artists begin to depict Taiwan’s stories in their own strokes, and when readers begin to identify with local works, what we see is the reconstruction of cultural confidence. This confidence is an open form of cultural self-awareness: appreciating the strengths of outside cultures while also cherishing the characteristics of one’s own culture.
 
-### Reading Revolution in the Digital Age
+## Further Reading
 
-As a digital platform, CCC Creative Collection represents important changes in comics reading habits. Readers can access comics anytime, anywhere via smartphones or tablets, greatly expanding comics' audience demographics.
-
-More importantly, digital platforms provide richer interactive possibilities. Readers can directly communicate with creators and provide feedback, adding new momentum to the creative process through real-time interaction.
-
-## Flourishing Development of Independent Comics
-
-### New Territory of Creative Freedom
-
-Recent years have seen Taiwan's independent comics development flourish. These creators, unrestricted by commercial market limitations, can freely explore personally interesting subjects and experiment with new expressive methods. This creative freedom brings new possibilities to Taiwan comics.
-
-Independent comics feature more diversified themes, from subtle observations of personal life to deep exploration of social issues, from experimental artistic expression to innovative cross-media attempts—each work demonstrates creators' unique perspectives.
-
-### Refined Creation in Niche Markets
-
-While independent comics have limited market scale, they often excel in artistic quality. Creators can focus on issues they care about, using more refined methods to express inner thoughts. This refinement provides new benchmarks for Taiwan's comics world.
-
-Many independent comics works receive acclaim at international comic festivals or art exhibitions, proving Taiwan independent comics' international competitiveness. These successful cases encourage more creators to engage in independent creation.
-
-### Social Media Promotion Effects
-
-Social media provides effective promotion channels for independent comics. Creators can directly reach readers through Facebook, Instagram, and other platforms, building personal brands. This direct connection provides survival possibilities for independent creators.
-
-More importantly, social media makes comics creation more immediate and interactive. Creators can adjust creative directions based on reader reactions—this flexibility is difficult to achieve with traditional publishing models.
-
-## Future Prospects for Taiwan Comics
-
-Taiwan comics development has established a complete spectrum from classical masters to new generation creators. From Zheng Wen's Eastern aesthetics to Tsai Chih-chung's philosophical comics, from officially supported Golden Comic Awards to grassroots vitality of independent creation, Taiwan comics demonstrate rich creative energy and cultural depth.
-
-Under digital age opportunities, Taiwan comics face new challenges and opportunities. How to expand international markets while maintaining cultural characteristics, how to find balance between commercial considerations and artistic pursuits—these are questions Taiwan's comics world needs to consider.
-
-Regardless, Taiwan comics have proven that small places can create world-class artistic works. From black and white lines to color digital, from print publications to online platforms, Taiwan comics maintain vigorous vitality through change. This creative energy and cultural confidence are Taiwan comics' most precious assets and the fundamental driving force for continued development.
-
-The story of Taiwanese comics and illustration is an exciting narrative about creativity and cultural inheritance, proving visual storytelling's important position in modern society while contributing unique Taiwan experiences to world comics culture's diverse development.
+- [Taiwanese anime and manga culture](/culture/台灣動漫文化) — Anime, manga, and comics consumption culture from the reader’s perspective: cosplay, doujinshi, anime conventions, and generational memory
+- [Taiwanese cinema](/art/台灣電影) — Another axis of visual storytelling in Taiwan
+- [The development of contemporary Taiwanese literature](/art/台灣當代文學發展) — The literary layer in the evolution of Taiwan’s creative self-awareness
 
 ## References
 
-- "Zheng Wen: Master of Asian Comics" Exhibition Catalog, National Museum of History
-- Tsai Chih-chung Complete Works Publication Records
-- Golden Comic Awards Annual Reports (2010-2024)
-- CCC Creative Collection Platform Archives
-- "Taiwan Comics Industry Development Report" by Ministry of Culture
-- International Comics Festival Taiwan Participation Records
-- Various interviews with Taiwan cartoonists and illustrators
-- Digital comics platform statistics and analysis reports
+[^1]: [Taiwanese comics — Wikipedia](https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3%E6%BC%AB%E7%95%AB) — A comprehensive entry on the history of Taiwanese comics, including detailed records of the 1970s-1980s Kingdom of Comics period, Liu Hsing-chin, Ao Yu-hsiang, and the impact of Japanese manga after the 1990s
+
+[^2]: [Chen Uen — Wikipedia](https://zh.wikipedia.org/zh-tw/%E9%84%AD%E5%95%8F) — Biographical entry on Taiwanese comics artist Chen Uen (1958-2017), including the full record of his 1991 Japan Cartoonists Association Award for Excellence and a chronology of his works
+
+[^3]: [Heroes of the Eastern Zhou boxed set — Locus Publishing](https://www.locuspublishing.com/book/detail/2682) — Publication information from Locus Publishing on Chen Uen’s representative work Heroes of the Eastern Zhou, including an introduction to the work and its historical evaluation
+
+[^4]: [Tsai Chih-chung — Wikipedia](https://zh.wikipedia.org/zh-tw/%E8%94%A1%E5%BF%97%E5%BF%A0) — Biography of Tsai Chih-chung and a complete record of the 1986 Zhuangzi Speaks series
+
+[^5]: [Golden Comic Awards — Wikipedia](https://zh.wikipedia.org/zh-tw/%E9%87%91%E6%BC%AB%E7%8D%8E) — Complete information on the Golden Comic Awards established by the Ministry of Culture in 2010, including lists of winners across years
+
+[^6]: [Creative Comic Collection — Wikipedia](https://zh.wikipedia.org/zh-hant/CCC%E5%89%B5%E4%BD%9C%E9%9B%86) — Complete development history of Creative Comic Collection, including the full context of its 2009 launch by the Council for Cultural Affairs, 2017 digitalization, and 2021 transfer to the Taiwan Creative Content Agency
+
+[^7]: [Taiwan Creative Content Agency report on Creative Comic Collection — Legislative Yuan Gazette](https://ppg.ly.gov.tw/ppg/SittingAttachment/download/2022031704/22310132033289218000.pdf) — Official Legislative Yuan report on industrial policy related to Creative Comic Collection
+
+---
+
+_Last verified: 2026-04-19 (Issue #556, proposed by @idlccp1984, recommended merging the original “Taiwanese Comics and Illustration” and “Taiwanese Comics, Anime, and Manga Culture” articles, with the anime and manga culture section separated into [Taiwanese anime and manga culture](/culture/台灣動漫文化))_

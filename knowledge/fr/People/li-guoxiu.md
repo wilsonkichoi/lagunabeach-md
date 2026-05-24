@@ -1,142 +1,152 @@
 ---
-title: 'Li Kuo-hsiu : le roi de la comédie taïwanaise'
-description: 'Fondateur du Ping Fong Acting Troupe, maître incontesté du théâtre comique à Taïwan, décédé en 2013'
+title: 'Li Guoxiu'
+description: "Fondateur du Pingsheng Performance Troupe, roi de la comédie taïwanaise, décédé le 2 juillet 2013 d'un cancer du côlon à l'âge de 58 ans"
 date: 2026-03-19
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '藝術與設計'
 tags:
   [
-    'Li Kuo-hsiu',
-    'Ping Fong Acting Troupe',
+    'Li Guoxiu',
+    'Pingsheng Performance Troupe',
     'comédie',
     'théâtre',
-    'arts dramatiques taïwanais',
+    'dramaturgie taïwanaise',
   ]
-subcategory: 'Arts et Design'
-category: 'People'
-author: 'Taiwan.md Translation Team'
-readingTime: 10
-featured: false
 lastVerified: 2026-03-19
+lastHumanReview: 'false'
+featured: 'false'
 translatedFrom: 'People/李國修.md'
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:7e394b3479d9d206'
-sourceBodyHash: 'sha256:1d9adba620e48b4b'
-translatedAt: '2026-04-14T19:15:26+08:00'
+sourceCommitSha: 'f712b7242'
+sourceContentHash: 'sha256:11b55d270abdf3d3'
+sourceBodyHash: 'sha256:7ab58584d6fb7af7'
+translatedAt: '2026-05-24T05:06:33+08:00'
 ---
 
-# Li Kuo-hsiu : le roi de la comédie taïwanaise
+# Li Guoxiu : le roi de la comédie taïwanaise
 
-Li Kuo-hsiu est sans doute la figure la plus marquante du théâtre comique contemporain à Taïwan. En 1986, il fonde le Ping Fong Acting Troupe et signe des œuvres qui feront date : _Shamlet_, _Chroniques de l'opéra de Pékin_ et _La Rougeur des filles_. Enveloppant les grandes questions humaines dans une forme résolument comique, il explore avec humour et profondeur les enjeux sérieux de la société taïwanaise — ce qui lui vaut le titre de « roi de la comédie taïwanaise ». En juillet 2013, une crise cardiaque l'emporte à 58 ans, laissant derrière lui un héritage théâtral considérable.
+Li Guoxiu est une figure majeure de l'histoire du théâtre comique moderne à Taïwan. En 1986, il fonde le Pingsheng Performance Troupe et crée des œuvres devenues des classiques telles que _Shamlet_, _Révélation de l'opéra de Pékin_ et _Vin de fille_. Enveloppant une profonde humanité dans des formes comiques, il aborde des questions sociales graves à travers le rire, ce qui lui vaut le titre de « roi de la comédie taïwanaise ». Il décède en 2013 d'un cancer du côlon à l'âge de 58 ans, laissant derrière lui un héritage théâtral considérable.
 
-## Enfance dans les villages de garnison
+## Les années de formation dans les villages de militaires
 
-Né le 30 décembre 1955 à Taipei, Li Kuo-hsiu grandit dans un foyer modeste : son père, Li Fei, est sous-officier de l'armée de l'air ; sa mère, Wang Guihua, tient la maison. L'atmosphère de ces villages de garnison — où se mêlent les dialectes des différentes provinces de Chine, la rigueur des familles militaires et une nostalgie du pays natal omniprésente — imprègne profondément son imaginaire.
+Li Guoxiu naît le 30 décembre 1955 à Taipei. Son père, Li Fei, est sous-officier de l'armée de l'air, et sa mère, Wang Guihua, est femme au foyer. Grandissant dans un village de militaires de l'armée de l'air (_juancun_), Li Guoxiu est très tôt imprégné de l'atmosphère culturelle propre à ces communautés : mélange de dialectes de différentes provinces, rigueur caractéristique des familles militaires et profonde nostalgie de la terre natale.
 
-Cette enfance lui offre une matière dramatique inépuisable. La solidarité de voisinage, le mal du pays des vétérans continentaux, la question de l'identité des enfants de garnison : autant de thèmes qui irrigueront son théâtre tout au long de sa carrière.
+La vie dans les _juancun_ fournit à Li Guoxiu une abondante matière créative. Les liens humains entre voisins, la nostalgie des vétérans provinciaux et l'identité des enfants de _juancun_ reviennent de manière récurrente dans ses pièces.
 
-Au lycée Chenggong, Li Kuo-hsiu découvre la scène. Il imite les comiques de la télévision, révélant un talent naturel pour le comique. Ses camarades le voient déjà acteur, même si, dans une société traditionnelle, les planches ne constituent pas encore une vocation reconnue.
+Au lycée, au Chenggong High School, Li Guoxiu développe un intérêt pour le spectacle en imitant régulièrement les humoristes des émissions de télévision, révélant un talent comique naturel. Ses camarades reconnaissent son potentiel d'acteur, mais dans les mentalités traditionnelles, le métier de comédien n'est pas considéré comme une profession respectable.
 
-## L'éveil au théâtre à l'Université Fu Jen
+## L'éveil théâtral à l'université Fu Jen
 
-En 1974, Li Kuo-hsiu intègre le département de littérature chinoise de l'Université Fu Jen — un tournant décisif. Il s'engage dans les troupes universitaires, reçoit une formation théâtrale rigoureuse et découvre le répertoire dramatique mondial.
+En 1974, Li Guoxiu entre au département de littérature chinoise de l'université Fu Jen, un tournant décisif dans sa carrière théâtrale. Durant ses années universitaires, il participe à la troupe de théâtre du campus et reçoit une formation dramatique formelle, tout en découvrant les grandes œuvres du répertoire mondial.
 
-Dès cette époque, il fait preuve d'un double talent : dramaturge et interprète. Ses sketches font rire aux éclats tout en émouvant sincèrement. Ce « sourire les larmes aux yeux » deviendra la signature de toute son œuvre.
+À l'université, Li Guoxiu révèle un double talent d'auteur et d'acteur. Les courtes pièces qu'il écrit font rire aux éclats ses camarades tout en les émouvant profondément. Ce « sourire empreint de larmes » deviendra une signature récurrente des productions du Pingsheng Performance Troupe.
 
-À sa sortie de l'université en 1978, il se retrouve à la croisée des chemins. Sa famille le pousse vers un emploi stable ; lui aspire au théâtre. Il choisit de suivre sa vocation et fait de la scène sa raison de vivre.
+Après son diplôme en 1978, Li Guoxiu fait face à un choix de vie. Sa famille souhaite qu'il exerce un métier stable, mais il aspire intérieurement à se consacrer au théâtre. Il finit par choisir de suivre sa vocation et décide de faire du théâtre l'œuvre de sa vie.
 
-## Les années Performance Workshop
+## La période du Performance Workshop
 
-En 1984, Li Kuo-hsiu cofonde le Performance Workshop avec Lai Sheng-chuan, Jin Shijie et d'autres artistes — ses premiers pas dans le théâtre professionnel. Il participe à la création de _Cette nuit-là, nous parlions de xiangsheng_, spectacle qui deviendra un classique, et démontre d'emblée l'étendue de son talent.
+En 1984, Li Guoxiu cofonde le Performance Workshop avec [[Stan Lai, maître de l'innovation théâtrale]] et Li Liqun[^1] (Jin Shijie étant un collaborateur important, mais non un cofondateur). C'est le début de sa carrière théâtrale professionnelle. Au sein du Workshop, il participe à la création de pièces devenues des classiques telles que _That Night, We Performed Crosstalk_, où il déploie un talent d'acteur remarquable.
 
-C'est au sein de cette structure qu'il assimile les méthodes du théâtre contemporain, notamment les techniques d'improvisation collective. Cette expérience fondatrice lui donne les outils pour, plus tard, monter sa propre compagnie.
+Au Performance Workshop, Li Guoxiu apprend les méthodes de création du théâtre moderne, en particulier les techniques d'improvisation collective. Ces deux années de formation théâtrale lui confirment sa volonté de tracer une voie indépendante pour la comédie taïwanaise.
 
-Au fil de ces années, Li Kuo-hsiu affine sa vision artistique. Il comprend que la comédie est son domaine de prédilection et que son regard acéré sur la société taïwanaise est une force. Il choisit d'emprunter une voie singulière.
+Durant cette période, Li Guoxiu commence à réfléchir à sa propre direction artistique. Il découvre qu'il excelle particulièrement dans le jeu comique tout en possédant un regard aiguisé sur la réalité sociale. Cela le conduit à s'engager sur une voie créative unique.
 
-## La fondation du Ping Fong Acting Troupe
+## La fondation du Pingsheng Performance Troupe
 
-En 1986, Li Kuo-hsiu quitte le Performance Workshop et crée le Ping Fong Acting Troupe — « le paravent qui protège du vent », une métaphore de la consolation que le théâtre offre au spectateur.
+En 1986, Li Guoxiu quitte le Performance Workshop pour fonder le Pingsheng Performance Troupe. Le nom de la troupe évoque la fonction d'un paravent protégeant du vent et de la pluie, symbolisant la capacité du théâtre à offrir un réconfort spirituel au public.
 
-La devise de la troupe à sa fondation est : « Monter un spectacle, c'est se faire des amis. » Cette formule traduit l'importance que Li accorde aux liens humains dans l'aventure théâtrale. Pour lui, la scène n'est pas qu'un espace de création artistique ; c'est avant tout un lieu de rencontre authentique.
+La devise fondatrice du Pingsheng Performance Troupe est « créer une pièce, se faire un groupe d'amis », reflétant l'importance que Li Guoxiu accorde aux relations humaines dans le théâtre. Pour lui, le théâtre n'est pas seulement une création artistique, mais aussi un échange authentique entre les personnes.
 
-Les débuts sont modestes : des salles rudimentaires, peu de public. Mais Li Kuo-hsiu reste convaincu qu'un travail de qualité finit toujours par trouver son public. Cette persévérance obstinée permettra à la troupe de traverser ses années difficiles.
+À ses débuts, les salles de spectacle du Pingsheng sont modestes et le public restreint, mais Li Guoxiu s'engage à créer chaque œuvre avec le plus grand soin. Il est convaincu que si les œuvres sont de qualité, le public finira par les reconnaître. Cette détermination permet à la troupe de traverser les difficultés de la période pionnière.
 
-## La trilogie fondatrice
+## La trilogie classique
 
 ### _Shamlet_ (1992)
 
-_Shamlet_ est l'œuvre maîtresse de Li Kuo-hsiu. Il y transplante _Hamlet_ de Shakespeare dans l'univers des villages de garnison taïwanais. Le héros, Shamlet, est un jeune homme tiraillé entre l'héritage de son père et ses propres aspirations.
+_Shamlet_ est l'œuvre la plus emblématique de Li Guoxiu, jouée plus de cent fois et ayant exercé la plus grande influence. Elle transpose _Hamlet_ de Shakespeare dans le contexte d'un _juancun_ taïwanais. Le protagoniste, Sham, est un jeune homme de _juancun_ confronté au conflit entre la volonté de son père défunt et ses propres aspirations.
 
-L'œuvre réussit le tour de force de marier le classique occidental à l'expérience locale taïwanaise, interrogeant les grandes questions existentielles avec humour et profondeur. L'interprétation de Li Kuo-hsiu associe la densité du texte shakespearien à la proximité du quotidien taïwanais.
+Cette œuvre combine habilement un classique occidental et l'expérience locale taïwanaise, abordant des questions existentielles graves avec humour. Le jeu de Li Guoxiu allie la profondeur du répertoire shakespearien à la familiarité du peuple taïwanais ordinaire.
 
-_Shamlet_ sera joué plus d'une centaine de fois et s'imposera comme un classique de l'histoire du théâtre taïwanais. Ce succès confirme la place de Li Kuo-hsiu sur la scène nationale et prouve la fécondité des adaptations ancrées dans le terroir local.
+_Shamlet_ est jouée plus de cent fois et devient une œuvre de référence dans l'histoire du théâtre taïwanais. Cette pièce consacre la place de Li Guoxiu dans le paysage théâtral taïwanais et prouve la viabilité d'une adaptation localisée.
 
-### _Chroniques de l'opéra de Pékin_ (1996)
+### _Révélation de l'opéra de Pékin_ (1996)
 
-Cette pièce suit le parcours d'un comédien d'opéra traditionnel confronté aux difficultés de perpétuer son art dans le monde moderne. Li Kuo-hsiu s'inspire de sa propre initiation à l'opéra de Pékin pour livrer une œuvre semi-autobiographique d'une rare sincérité.
+_Révélation de l'opéra de Pékin_ retrace le parcours de vie d'un artiste d'opéra de Pékin, décrivant les difficultés des arts dramatiques traditionnels dans la société moderne. Li Guoxiu s'inspire de sa propre expérience d'apprentissage de l'opéra de Pékin pour créer cette œuvre semi-autobiographique.
 
-Il intercale des extraits de chant et de gestuelle issus de l'opéra traditionnel, qu'il interprète lui-même, témoignant d'une maîtrise approfondie du genre. Grâce aux outils du théâtre contemporain, il réinterprète cet art ancestral et en révèle la beauté aux jeunes générations.
+La pièce intègre de nombreux airs et mouvements d'opéra de Pékin, que Li Guoxiu interprète lui-même sur scène, démontrant une maîtrise approfondie de cet art. Il réinterprète les arts traditionnels à travers les techniques du théâtre moderne, permettant au jeune public de découvrir la beauté de l'opéra de Pékin.
 
-L'œuvre remporte le Grand Prix de la première édition des Taishin Arts Awards et connaît une reconnaissance internationale. Elle illustre la réflexion de Li sur la transmission culturelle et la façon dont la tradition peut se réinventer.
+Cette œuvre reçoit le Grand Prix annuel de la première édition du Taishin Arts Award et est également très bien accueillie à l'international. _Révélation de l'opéra de Pékin_ incarne la réflexion approfondie de Li Guoxiu sur la culture traditionnelle et son expression contemporaine.
 
-### _La Rougeur des filles_ (1999)
+### _Vin de fille_ (1999)
 
-Li Kuo-hsiu compose cette pièce pour rendre hommage à sa mère. Il y retrace le destin d'une femme ordinaire qui sacrifie ses rêves pour sa famille, sans jamais perdre sa joie de vivre ni sa force tranquille.
+_Vin de fille_ est une œuvre que Li Guoxiu crée en hommage à sa mère, retraçant la vie d'une femme traditionnelle. La mère dans la pièce sacrifie ses rêves pour sa famille tout en conservant une attitude optimiste et résolue.
 
-L'œuvre témoigne de la compréhension et du respect profond que Li porte aux femmes. Avec une plume douce et attentive, il célèbre la grandeur maternelle : les rires s'accompagnent de larmes sincères.
+Cette œuvre témoigne d'une compréhension profonde et d'un respect sincère de Li Guoxiu envers les femmes. Avec une écriture tendre, il dépeint la grandeur de la mère, provoquant chez le public des larmes d'émotion mêlées de rire.
 
-Le succès de _La Rougeur des filles_ révèle que Li Kuo-hsiu n'est pas seulement un brillant comédien ; c'est un observateur de l'âme humaine, capable de trouver l'extraordinaire dans les gestes du quotidien.
+Le succès de _Vin de fille_ prouve que Li Guoxiu n'est pas seulement un excellent comédien, mais aussi un observateur perspicace de la nature humaine. Il sait découvrir une beauté extraordinaire dans la vie ordinaire.
 
-## Une esthétique comique au service de l'humain
+## Esthétique comique et humanisme
 
-Le comique de Li Kuo-hsiu n'est jamais gratuit : c'est un art porteur d'une profonde humanité. Il estime que la meilleure comédie doit « faire rire avec les larmes », inviter le spectateur à réfléchir sur la vie dans la joie.
+La comédie de Li Guoxiu est centrée sur l'humanisme, utilisant le rire pour porter un regard tragique sur la société. Il estime que la meilleure comédie devrait « faire rire aux larmes », invitant à réfléchir sur l'existence dans la joie.
 
-Ses pièces s'intéressent aux destins ordinaires, aux laissés-pour-compte, à ceux qui vivent dans l'ombre. Qu'il s'agisse d'un vétéran de village de garnison, d'un comédien d'opéra traditionnel ou d'une femme du peuple, chacun reçoit sous sa plume dignité et chaleur.
+Ses pièces se penchent souvent sur le destin des petites gens, exprimant de la compassion pour les difficultés des classes défavorisées. Qu'il s'agisse de vétérans de _juancun_, d'artistes d'opéra de Pékin ou de femmes traditionnelles, tous acquièrent dignité et chaleur sous sa plume.
 
-Li Kuo-hsiu excelle à mobiliser la langue et la culture taïwanaises pour créer une résonance immédiate chez le spectateur. Ses dialogues ont la vitalité du langage parlé, traversés par une sagesse populaire teintée d'humour.
+Li Guoxiu excelle particulièrement dans l'utilisation de la langue et des éléments culturels locaux taïwanais, permettant au public de s'identifier à des situations familières. Ses dialogues sont vivants, naturels, empreints de sagesse du quotidien et d'humour.
 
-## Former les comédiens de demain
+## Formation des acteurs et éducation théâtrale
 
-Li Kuo-hsiu n'est pas seulement dramaturge et interprète : il est aussi un pédagogue exceptionnel. Au sein du Ping Fong Acting Troupe, il met en place un cursus de formation complet qui a contribué à former de nombreux artistes de la scène taïwanaise.
+Li Guoxiu n'est pas seulement un auteur et un acteur de talent, mais aussi un pédagogue théâtral remarquable. Il met en place un système structuré de formation des acteurs au sein du Pingsheng Performance Troupe, formant des artistes de renom tels que Fan Guangyao et Huang Zhikai.
 
-Il insiste tout particulièrement sur l'expérience de la vie réelle. Pour lui, le jeu authentique naît d'une observation attentive du monde. Il emmène régulièrement ses comédiens à la rencontre de toutes les couches de la société, pour qu'ils s'imprègnent de la diversité humaine.
+Il accorde une importance particulière à l'expérience de vie des acteurs, estimant que le véritable jeu scénique naît d'une observation attentive de la vie. Il emmène régulièrement ses acteurs dans différentes couches de la société pour qu'ils expérimentent directement des vies diverses.
 
-Sa pédagogie repose sur un mot : la sincérité. Un acteur, selon lui, doit d'abord s'affronter honnêtement lui-même avant de pouvoir incarner un personnage avec vérité. Cette conviction a marqué des générations de jeunes comédiens.
+La philosophie pédagogique de Li Guoxiu met l'accent sur la « sincérité ». Il estime que l'acteur doit être honnête avec lui-même pour créer des personnages authentiques et touchants. Cette philosophie influence de nombreux jeunes acteurs.
 
-## Gardien de la mémoire des villages de garnison
+## Chroniqueur de la culture des _juancun_
 
-Fils de ces quartiers de garnison, Li Kuo-hsiu n'a jamais cessé de s'interroger sur leur héritage culturel. Beaucoup de ses œuvres prennent pour cadre ces communautés singulières et en restituent les modes de vie.
+En tant qu'enfant de _juancun_, Li Guoxiu reste constamment attaché à la transmission de la culture de ces villages de militaires. Nombre de ses œuvres se déroulent dans l'environnement des _juancun_, documentant la vie de cette communauté singulière.
 
-À mesure que l'urbanisation rasait les anciens villages, ses pièces devenaient des documents précieux. Par le théâtre, il a préservé des pans de cette histoire sur le point de disparaître.
+Avec le développement urbain, de nombreux _juancun_ sont démolis, et les œuvres de Li Guoxiu deviennent des témoignages culturels précieux. Il préserve sous forme dramatique la mémoire historique d'un monde en voie de disparition.
 
-Li Kuo-hsiu était convaincu que la culture des villages de garnison fait partie intégrante de la société taïwanaise et mérite compréhension et respect. Son œuvre a contribué à surmonter les tensions entre Taïwanais de souche et nouveaux arrivants du continent, favorisant une cohésion sociale apaisée.
+Li Guoxiu considère que la culture des _juancun_ constitue une composante importante de la société taïwanaise, digne d'être comprise et respectée. Ses œuvres dissipent les clivages entre provinciaux d'origine et natifs de Taïwan, favorisant l'harmonie sociale.
 
-## Les dernières années et la maladie
+## Créations tardives et maladie
 
-À partir de la fin des années 2000, la santé de Li Kuo-hsiu se dégrade, mais il continue de créer et de monter sur scène. _La Bande des Six_ (2007) et _Les Années dorées_ (2011) — œuvres tardives — témoignent d'une méditation de plus en plus profonde sur le sens de l'existence.
+À la fin des années 2000, la santé de Li Guoxiu commence à se dégrader, mais il persiste à créer et à jouer. Ses œuvres tardives telles que _Liu Yi Bang_ (2007) et _L'âge d'or_ (2011) témoignent d'une profonde réflexion sur la vie.
 
-Face à la maladie, il reste fidèle à son humour. On lui prête cette formule : « La vie ressemble à certaines nécessités naturelles : on pousse et ça finit par sortir. » Cette philosophie joviale a touché un public immense.
+Face à la maladie, Li Guoxiu fait preuve d'optimisme. Il dit souvent : « La vie, c'est comme la merde — on la sort en forçant. » (attribuée à Li Guoxiu, citée dans de nombreux entretiens[^2]) Cette philosophie de l'humour face à l'existence touche un public innombrable.
 
-Dans ces années-là, il se tourne davantage vers les questions de vie et de mort. Ses pièces, bien que traversées par une certaine mélancolie, conservent l'humour et la chaleur qui l'ont toujours caractérisé.
+Il commence à davantage réfléchir aux questions de vie et de mort, et ses œuvres se remplissent d'une quête du sens de la vie. Bien qu'imprégnées de mélancolie, elles conservent son humour et sa chaleur caractéristiques.
 
-## Une disparition soudaine, un héritage durable
+## Décès soudain et héritage théâtral
 
-Le 2 juillet 2013, Li Kuo-hsiu succombe à une crise cardiaque à son domicile, à 58 ans. La nouvelle sidère le monde du théâtre taïwanais. D'innombrables personnes pleurent la disparition de ce maître de la comédie.
+Le 2 juillet 2013, Li Guoxiu décède d'un cancer du côlon à l'âge de 58 ans[^3]. Cette nouvelle bouleverse l'ensemble du monde théâtral taïwanais, et d'innombrables personnes pleurent la perte de ce maître de la comédie.
 
-Sa mort amène le public à redécouvrir l'ampleur de son apport. Il n'a pas seulement signé des œuvres majeures ; il a bâti tout un système esthétique pour la comédie théâtrale taïwanaise contemporaine.
+Le décès de Li Guoxiu conduit à une réévaluation de sa contribution. Il ne laisse pas seulement un répertoire de plusieurs dizaines de pièces, mais aussi un système esthétique entier sur la manière dont la comédie peut porter le poids de l'humanité.
 
-Le Ping Fong Acting Troupe poursuit son activité sous la direction de son épouse, Wang Yue. La troupe s'attache à perpétuer la vision artistique de Li Kuo-hsiu, pour que son esprit continue de rayonner.
+Le Pingsheng Performance Troupe continue son activité après son décès, sous la direction de son épouse Wang Yue. La troupe s'attache à promouvoir la vision créatrice de Li Guoxiu, assurant ainsi la transmission de son héritage spirituel.
 
-## Une influence durable sur le théâtre taïwanais
+## Influence sur le théâtre taïwanais
 
-Li Kuo-hsiu a ouvert la voie du théâtre comique taïwanais moderne et démontré la viabilité d'une création profondément ancrée dans l'identité locale. Ses œuvres ont fixé de nouveaux standards, inspirant d'innombrables créateurs après lui.
+Li Guoxiu ouvre la voie au théâtre comique moderne taïwanais, prouvant la viabilité d'une création localisée. Ses œuvres établissent de nouveaux standards pour le théâtre taïwanais et influencent d'innombrables créateurs de la génération suivante.
 
-Les comédiens et metteurs en scène qu'il a formés ou influencés sont aujourd'hui présents sur toutes les scènes de Taïwan — Fan Guang-yao, Huang Chih-kai, Chen Li-hua, entre autres — et perpétuent ses méthodes de création et d'enseignement.
+Les acteurs et créateurs qu'il a formés sont présents dans tout le milieu théâtral taïwanais, notamment Fan Guangyao, Huang Zhikai, Chen Lihua et d'autres. Ces personnes continuent de diffuser sa vision créatrice et ses méthodes pédagogiques.
 
-Le succès de Li Kuo-hsiu a également rehaussé le regard que la société porte sur les arts du spectacle, faisant prendre conscience à un public élargi de la valeur et du charme du théâtre. Sa contribution au développement de la scène taïwanaise reste fondatrice.
+Le succès de Li Guoxiu renforce également la reconnaissance sociale de l'art théâtral, permettant à un plus grand nombre de personnes de découvrir la valeur et le charme du théâtre. Il apporte une contribution significative au développement du théâtre taïwanais.
 
-Li Kuo-hsiu avait coutume de dire : « Vivez comme Confucius, agissez comme Lao-tseu. » Cette formule résume sa philosophie de vie et explique pourquoi ses œuvres touchent si profondément. Il a consacré toute son existence à prouver la puissance de la comédie, et a offert à la société taïwanaise une joie et une réflexion sans limite.
+Li Guoxiu a dit un jour : « Dans la vie, soyez comme Confucius ; dans l'action, soyez comme Laozi. » Cette phrase incarne sa philosophie de vie et explique pourquoi il a su créer des œuvres aussi chaleureuses. Il a prouvé de son vivant le pouvoir de la comédie et a apporté, par ses œuvres, une joie et une réflexion infinies à la société taïwanaise.
+
+[^1]: Les fondateurs du Performance Workshop sont Stan Lai, Li Guoxiu et Li Liqun ; Jin Shijie est un acteur collaborateur important, mais non un cofondateur. Voir : l'article Wikipédia « Performance Workshop » <https://zh.wikipedia.org/wiki/%E8%A1%A8%E6%BC%94%E5%B7%A5%E4%BD%9C%E5%9D%8A>
+
+[^2]: Cette citation de Li Guoxiu apparaît dans de nombreux entretiens et articles commémoratifs. Voir : l'article Wikipédia « Li Guoxiu » <https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%9C%8B%E4%BF%AE> ; le site officiel du Pingsheng Performance Troupe <http://www.ppt.org.tw/>
+
+[^3]: Li Guoxiu décède d'un cancer du côlon le 2 juillet 2013 à l'âge de 58 ans. Voir : reportage d'ETtoday News du 02/07/2013 ; l'article Wikipédia « Li Guoxiu » <https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%9C%8B%E4%BF%AE>
+
+[^4]: _Révélation de l'opéra de Pékin_ reçoit le Grand Prix annuel de la première édition du Taishin Arts Award (1997). Voir : site officiel du Taishin Arts Award <https://taishinarts.org.tw/>
+
+[^5]: Le Pingsheng Performance Troupe est fondé en 1986 avec pour devise « créer une pièce, se faire un groupe d'amis ». Jusqu'au décès de Li Guoxiu, la troupe a produit plus de 40 pièces. Voir : site officiel du Pingsheng Performance Troupe <http://www.ppt.org.tw/>
 
 ## Références
 
-- [Site officiel du Ping Fong Acting Troupe](http://www.ppt.org.tw/) — historique de la troupe et catalogue des œuvres
-- [Exposition commémorative Li Kuo-hsiu — Taiwan Theatre Museum](http://thedrama.org.tw/) — archives biographiques et documentaires
-- [Histoire du théâtre contemporain taïwanais — Centre national des arts traditionnels](https://www.ncfta.gov.tw/) — sources historiques sur le théâtre
+- [Site officiel du Pingsheng Performance Troupe](http://www.ppt.org.tw/) — Histoire de la troupe et documentation des œuvres
+- [Exposition commémorative Li Guoxiu — Musée du théâtre taïwanais](http://thedrama.org.tw/) — Parcours de vie et documentation créative
+- [Histoire du développement du théâtre moderne taïwanais — Centre national des arts traditionnels](https://www.ncfta.gov.tw/) — Archives théâtrales

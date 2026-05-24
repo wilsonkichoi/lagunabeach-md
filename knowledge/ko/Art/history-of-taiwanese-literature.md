@@ -21,8 +21,8 @@ featured: true
 lastVerified: 2026-03-24
 lastHumanReview: false
 translatedFrom: Art/台灣文學史.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:7fdaaa3e5c949ce3'
+sourceCommitSha: '4d7fab8e'
+sourceContentHash: 'sha256:894f1af0d29b3b98'
 sourceBodyHash: 'sha256:b3ce615995198c0c'
 translatedAt: 2026-05-01T20:54:10+08:00
 ---

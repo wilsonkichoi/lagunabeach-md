@@ -1,349 +1,349 @@
 ---
-title: "Threads in Taiwan: From Twitter Substitute to the Frontline of 'Tsui' Culture"
-description: "When global enthusiasm for Threads was cooling down, Taiwan took a completely different path — 3.5 million users, the world's second-largest market, and the highest average usage time on earth. It became the digital public square where Gen Z speaks authentically, politicians 'descend from heaven,' and memes run wild, redefining Taiwan's social media landscape."
+title: 'Threads in Taiwan: From Twitter Substitute to the Main Arena of “Cui” Culture'
+description: "As global users' enthusiasm for Threads cooled, Taiwan took a sharply different path: 3.5 million users, the world's second-largest market, and the highest usage time globally. Here, Threads has become a digital public square where Gen Z speaks candidly, politicians “come down to earth,” and memes run riot, redefining Taiwan's social media ecology."
 date: 2026-03-24
+author: 'Editorial Team'
+category: 'Technology'
+subcategory: '社群與數位文化'
 tags:
   [
-    'social media',
-    'digital culture',
+    'Social Media',
+    'Digital Culture',
     'Threads',
     'Gen Z',
-    'political communication',
-    'online forums',
+    'Political Communication',
+    'Online Forums',
   ]
-subcategory: '社群與數位文化'
-author: 'Editorial Team'
 readingTime: 15
-featured: true
-category: 'Technology'
 lastVerified: 2026-03-24
 lastHumanReview: false
+featured: true
 translatedFrom: 'Technology/Threads在台灣.md'
-sourceCommitSha: '800114ea'
-sourceContentHash: 'sha256:0c7725f61abaf247'
-sourceBodyHash: 'sha256:be91d069d3d81840'
-translatedAt: '2026-05-01T14:11:02+08:00'
+sourceCommitSha: '4b6d28c54'
+sourceContentHash: 'sha256:b344ec326785b46d'
+sourceBodyHash: 'sha256:a5b8490e2fd9be42'
+translatedAt: '2026-05-24T05:06:32+08:00'
 ---
 
-# Threads in Taiwan: From Twitter Substitute to the Frontline of "Tsui" Culture
+# Threads in Taiwan: From Twitter Substitute to the Main Arena of “Cui” Culture
 
 ## A Late-Night Digital Ritual
 
-Two in the morning. A university student in Taipei lies in her dorm bed and, out of habit, opens her phone. Not Instagram, not TikTok — Threads. Or, as she and her friends call it, "Tsui" (脆). She posts offhand: "Can't finish my term paper, but my roommate's snoring is even more devastating." Within three minutes, a dozen strangers reply — some comforting, some sharing their own stories, some just there to pile on.
+At two in the morning, a university student in Taipei lies on her dormitory bed and habitually opens her phone. Not Instagram, not TikTok, but Threads, or as she and her friends call it, “Cui.” She casually posts: “I can’t finish my final report, but my roommate’s snoring is even more unbearable.” Within three minutes, more than a dozen strangers have replied: some offering comfort, some sharing similar experiences, and some simply joining the commotion.
 
-This seemingly ordinary late-night scene plays out across Taiwan every single day. While users in the rest of the world gradually cool on Threads, Taiwan has become the platform's most fervent adopter.
-
----
-
-## Taiwan's Counter-Intuitive Miracle
-
-**The country that loves Threads most is not the United States — it's Taiwan.**
-
-This conclusion surprises everyone. Meta's Threads launched in July 2023 as a direct Twitter (now X) competitor. In the U.S. it exploded and then rapidly deflated; in Europe it was even delayed over regulatory issues. But Taiwan followed a completely different trajectory.
-
-**The numbers tell it:**
-
-- **3.5 million users**: Taiwan's estimated user count, ranking as the world's second-largest market (behind only the U.S.)
-- **Longest global usage time**: Taiwanese users lead the world in average time spent on the platform
-- **300 million global MAU**: As of the end of 2024, Threads surpassed 300 million monthly active users globally
-- **Fastest ever 150 million downloads**: According to data.ai Intelligence, Threads reached this milestone faster than any other app in history
-
-More remarkably, Taiwanese netizens gave the platform their own nickname: **"Tsui"** (脆) — a homophonic play on the word "Threads" — and this affectionate local name marks the platform's complete localization.
+This seemingly ordinary late-night scene is being repeated across Taiwan. While users elsewhere in the world have gradually cooled toward Threads, Taiwan has unexpectedly become one of the platform’s most fervent adopters.
 
 ---
 
-## Deconstructing "Tsui" Culture: Why Taiwan Fell for Threads
+## Taiwan’s Counterintuitive Miracle
 
-### 1. Escaping the Fatigue of "Curated Perfection"
+**The country that loves Threads most in the world is not the United States. It is Taiwan.**
 
-For Taiwan's Gen Z, Instagram had become a "performance stage" — every photo had to be flawless, every story had to mean something. Facebook was hijacked by older relatives and workplace contacts; young people were afraid to post freely.
+The conclusion is surprising. Meta launched Threads in July 2023 as a direct competitor to Twitter, now X. In the United States, it saw explosive growth followed by rapid cooling; in Europe, its launch was even delayed because of regulatory issues. In Taiwan, however, Threads has followed a sharply different trajectory.
 
-Threads filled that gap perfectly: **a text-first, low-barrier posting format** that satisfied the primal need to murmur and vent. No layout anxiety, no hashtag pressure — a casually typed daily complaint was far more likely to resonate.
+**The numbers speak for themselves:**
 
-**Curator's Note #1:**
+- **3.5 million users**: Taiwan’s estimated user base, making it the world’s second-largest market, behind only the United States
+- **Global champion in usage time**: Taiwanese users rank first in the world for average time spent
+- **300 million global monthly active users**: By the end of 2024, Threads had surpassed 300 million monthly active users worldwide
+- **Fastest app ever to reach 150 million downloads**: According to data.ai Intelligence, Threads became the fastest app to hit this milestone
 
-> "IG vs. Real Life" comparison content flooded Threads, reflecting young people's pushback against the "filter culture" of social media. They craved a space to show their authentic, imperfect selves.
-
-### 2. The Algorithm's "Accidental Democratization"
-
-Threads' For You feed heavily promotes content from accounts users don't follow. In Taiwan this produced an unexpected democratizing effect:
-
-- **Breaking echo chambers**: Users regularly encounter views sharply at odds with their own
-- **Niche voices breaking through**: Discussions that once lived in specific PTT boards or Dcard corners can now be pushed to a broad audience
-- **Ordinary people going viral**: A genuine, unpolished post from a regular user often gets more traction than a carefully crafted KOL campaign
-
-This also produced a side effect: **"cancel culture" intensified**. High-engagement posts (replies, reposts) get amplified by the algorithm, making strongly emotional statements more likely to blow up.
-
-### 3. The Psychological Safety of "Semi-Anonymity"
-
-While Threads links to Instagram accounts, compared to Facebook's full real-name system it offers a kind of "semi-transparent" social experience. Users have a real identity, but they're not as constrained by workplace or family connections as they are on Facebook.
-
-This design found its perfect niche in Taiwan's internet culture — more accountable than PTT's full anonymity, more expressive than Facebook's real-name system.
+Even more strikingly, Taiwanese netizens created a dedicated nickname for the platform: **“Cui”** (脆, a homophone based on the pronunciation of Threads). This locally familiar term marks the platform’s full localization.
 
 ---
 
-## Reshaping Taiwan's Digital Political Communication
+## Deconstructing “Cui” Culture: Why Did Taiwanese Users Fall in Love with Threads?
 
-### The "Descending from Heaven" Revolution
+### 1. Escaping Fatigue from “Polished Packaging”
 
-After the 2024 presidential and legislative elections, Taiwan's politicians realized that traditional media and Facebook couldn't reach young voters, so they flocked to "Tsui." But this wasn't simply a platform migration — it was **a fundamental change in how they communicate**.
+For Taiwan’s Gen Z, Instagram has become a “performance stage”: every photo must be perfect, and every Story must be meaningful. Facebook, meanwhile, has been taken over by elders and workplace ties, making young people reluctant to speak freely.
 
-**Unlike the solemn policy posts on Facebook**, politicians on Threads adopted:
+Threads fills this gap precisely: **a text-first, low-threshold posting mechanism** satisfies the basic need for “murmuring,” or casual stream-of-consciousness posting. There is no layout anxiety, no hashtag pressure, and casual everyday complaints often prove more likely to resonate.
 
-- **Approachable language**: Discussing policy in everyday conversational tones
-- **Self-deprecating humor**: Admitting mistakes, joking about themselves
-- **Real-time responses**: Replying directly to citizens without going through staff
-- **Meme participation**: Actively joining discussions about viral internet jokes
+**Curator’s Note #1:**
 
-This "descending from heaven" style of interaction broke the air of lofty authority that lingered from the authoritarian era, making Threads **Taiwan's most vibrant emerging public square for political communication and civic debate**.
+> “IG vs Real Life” comparison material appears widely on Threads, reflecting young people’s reassessment of social media “filter culture.” They long for a space where they can show a real and imperfect self.
 
-### Decentralizing Political Discussion
+### 2. The Algorithm’s “Accidental Democratization”
 
-Previously, Taiwan's political discussions were concentrated in specific PTT boards (like Gossiping), which carried clear community identities and ideological leanings. Threads' algorithm "decentralized" political discussion:
+Threads’ For You feed strongly favors popular content from people users do not follow, producing an unexpected democratizing effect in Taiwan:
 
-- Different perspectives are more likely to encounter each other
-- No single media outlet or KOL monopolizes interpretation of political news
-- Ordinary citizens' political views get more exposure
+- **Breaking echo chambers**: Users often encounter views sharply different from their own
+- **Niche breakout**: Discussions once confined to specific PTT boards or smaller Dcard communities can now be pushed into public visibility
+- **Ordinary users going viral**: A sincere post by an ordinary user may attract more attention than a carefully planned post by a KOL
 
-**Curator's Note #2:**
+But this also brings side effects: **an intensification of pile-on culture**. Posts with high engagement, such as replies and reposts, are amplified by the algorithm, making emotionally charged speech more likely to erupt.
 
-> This decentralization also carries risks: without professional media gatekeeping, misinformation and extremist rhetoric spread more easily. Taiwan FactCheck Center's 2024 report found political rumors spread 40% faster on Threads than on Facebook.
+### 3. The Psychological Safety of “Relative Anonymity”
+
+Although Threads is tied to Instagram accounts, it provides a “semi-transparent” social experience compared with Facebook’s real-name environment. Users have real identities, but they are not constrained by workplace and family relationships in the same way they are on Facebook.
+
+This design has found an ideal position in Taiwan’s online culture: more accountable than PTT’s complete anonymity, and freer in expression than Facebook’s real-name system.
 
 ---
 
-## The "Tsui" Wave Challenging Taiwan's Existing Forum Ecosystem
+## Reshaping Digital Political Communication in Taiwan
 
-### vs. Dcard: From Campus to the General Public
+### The “Coming Down to Earth” Revolution Among Politicians
 
-Dcard was once Taiwan's largest anonymous discussion platform for university students, but Threads offered a more immediate and open alternative:
+After Taiwan’s 2024 presidential and legislative elections, Taiwanese politicians realized that traditional media and Facebook could no longer reach young voters, and many shifted to “Cui.” But this was not simply a transfer from one platform to another. It was a **fundamental change in communication style**.
 
-**Dcard's limitations:**
+**Unlike serious policy statements on Facebook**, politicians on Threads adopt:
 
-- Requires membership registration to view full content
-- Its school-centric board system is relatively closed
-- Anonymity can easily become a channel for emotional venting
+- **An approachable tone**: Discussing policy in everyday conversational language
+- **Humor and self-mockery**: Admitting mistakes and making jokes at their own expense
+- **Immediate responses**: Replying directly to public comments instead of communicating through staff
+- **Participation in memes**: Actively joining discussions around internet memes
 
-**Threads' advantages:**
+This “coming down to earth” mode of interaction breaks down the image, inherited from the authoritarian era, of politicians standing high above the public. It has made Threads Taiwan’s **most active emerging public square for political communication and civic discussion**.
 
-- Open browsing, lower participation barrier
-- Cross-generational exchange, not limited to students
-- Linked to IG accounts, providing a moderate sense of accountability
+### The Decentralization of Political Discussion
 
-The result: massive casual conversation and current-affairs discussion traffic shifted from Dcard to Threads.
+In the past, political discussion in Taiwan was concentrated on specific PTT boards, such as Gossiping, with clear demographic characteristics and ideological tendencies. Threads’ algorithm decentralizes political discussion:
 
-### vs. PTT: A Generational Shift in Digital Witness
+- Views from different positions are more likely to encounter one another
+- Political news is no longer interpreted exclusively by specific media outlets or KOLs
+- Ordinary citizens’ political views gain more opportunities for exposure
 
-PTT has not accepted new registrations for years, causing its user base to age. Younger generations might "check PTT to read the mood" but rarely participate actively. Threads filled that gap:
+**Curator’s Note #2:**
 
-**How news-event reaction has changed:**
+> This decentralization also brings risks: without professional media gatekeeping, disinformation and extreme speech can spread more easily. Taiwan FactCheck Center’s 2024 report shows that political rumors on Threads spread 40% faster than on Facebook.
 
-- **Before**: News breaks → check PTT for netizen reactions → public opinion forms
-- **Now**: News breaks → check Tsui for real-time reactions → join the discussion → help shape opinion
+---
 
-This change is not merely a platform migration — it is a **fundamental shift in how Taiwan's internet opinion forms**.
+## The “Cui” Wave Challenging Existing Forum Ecosystems
+
+### vs. Dcard: From Campus to the Whole Public
+
+Dcard was once Taiwan’s largest anonymous discussion platform for university students, but Threads offers a more immediate and more open alternative.
+
+**Dcard’s limitations:**
+
+- Users must register to view full content
+- Its school-centered board system is relatively closed
+- Its anonymity can easily become a channel for emotional venting
+
+**Threads’ advantages:**
+
+- Open browsing lowers the threshold for participation
+- Cross-generational exchange is not limited to students
+- Ties to IG accounts provide a moderate degree of accountability
+
+The result is that large volumes of casual chat and current-affairs discussion traffic have shifted from Dcard to Threads.
+
+### vs. PTT: A Digital Witness to Generational Turnover
+
+PTT has stopped accepting new user registrations for years, causing its user base to age. Although younger generations still “go on PTT to read the mood,” they rarely participate actively in discussions. Threads fills this gap.
+
+**The changing response pattern to news events:**
+
+- **Before**: News breaks → people go to PTT to read villagers’ discussions → public opinion forms
+- **Now**: News breaks → people go to Cui to read real-time reactions → join the discussion → influence public opinion
+
+This shift is not merely a platform migration. It is a **fundamental change in the mechanism by which online public opinion forms in Taiwan**.
 
 ### vs. Twitter/X: The Victory of Localization
 
-The various changes following Elon Musk's acquisition of Twitter eroded Taiwanese users' trust in the platform. Threads arrived at exactly the right moment with an alternative better suited to Taiwanese usage habits:
+The many changes after Elon Musk acquired Twitter reduced Taiwanese users’ trust in the platform. Threads arrived at precisely this moment as an alternative better suited to Taiwan’s usage habits:
 
-- **Better Chinese support**: The algorithm understands Traditional Chinese content more accurately
-- **Taiwan time zone optimization**: Peak trending hours align with Taiwanese users' routines
-- **Local meme-friendly**: Supports Taiwanese internet slang and cultural references
-
----
-
-## Brands and KOLs: A New Battleground
-
-### The "Authenticity" Shift in Brand Marketing
-
-Traditional social media marketing emphasized polished visuals and KOL endorsements, but on Threads **"down-to-earth" beats "aspirational"**:
-
-**Success stories:**
-
-**IKEA Taiwan**: "Life's tough — just blame IKEA" (a Taiwanese-dialect wordplay)
-
-- Result: 830,000 views, 41,000 likes
-- Key to success: localized humor + humanized brand personality
-
-**Bā Yào He Tea**: A Kaohsiung beverage brand with three times as many Threads followers as Instagram followers
-
-- Strategy: daily engagement, replying to comments, joining trending discussions
-- Outcome: over 30,000 followers, growth far outpacing other platforms
-
-### The Rise of KOC (Key Opinion Consumers)
-
-Threads' algorithm favors "authentic user experience" shares, making the voice of ordinary consumers more audible than that of traditional KOLs:
-
-- A mother's review of a childcare product carries more conviction than a celebrity endorsement
-- A student's restaurant review is trusted more by peers than a food blogger's write-up
-- An ordinary person's outfit post resonates more broadly than a fashion KOL's
-
-This trend is reshaping Taiwan's influencer economy.
-
-**Curator's Note #3:**
-
-> "Ad fatigue" is redrawing social media marketing. According to Taiwan's 2024 Digital Marketing Survey, 73% of Gen Z say they trust recommendations from "real users" more than traditional KOL sponsored content.
+- **Better Chinese-language support**: The algorithm understands Traditional Chinese content more effectively
+- **Optimization for Taiwan’s time zone**: Peak periods align with Taiwanese users’ daily schedules
+- **Friendliness toward local memes**: Support for Taiwanese internet slang and cultural in-jokes
 
 ---
 
-## Taiwan-Specific Localization Phenomena
+## A New Battleground for Brands and KOLs
 
-### The Birthplace of Memes and Slang
+### The “Authenticity” Turn in Brand Marketing
 
-Threads has become an important incubator for Taiwanese internet memes and trending expressions:
+Traditional social media marketing emphasizes polished visuals and KOL endorsements. On Threads, however, **being grounded and locally relatable is more effective than appearing elevated and grand**.
+
+**Successful cases:**
+
+**IKEA Taiwan**: “All the things in life you can’t get through, just shout IKEA,” a Taiwanese-language homophonic joke
+
+- Result: 830,000 views and 41,000 likes
+- Key to success: Localized humor + brand personification
+
+**Hachiyo Tea**: A Kaohsiung beverage brand whose Threads following is three times larger than its Instagram following
+
+- Strategy: Daily interaction, replying to comments, and participating in topical discussions
+- Outcome: More than 30,000 followers, with growth far outpacing other platforms
+
+### The Rise of KOC, or Key Opinion Consumer
+
+Threads’ algorithm favors sharing based on “real user experiences,” allowing ordinary consumers’ voices to be heard more easily than those of traditional KOLs:
+
+- A mother’s account of parenting products is more persuasive than a celebrity endorsement
+- A student’s restaurant review is more trusted by peers than a food blogger’s post
+- An ordinary person’s outfit sharing resonates more than a fashion KOL’s post
+
+This trend is changing the structure of Taiwan’s influencer economy.
+
+**Curator’s Note #3:**
+
+> “Advertising fatigue” is reshaping social media marketing. According to a 2024 Taiwan digital marketing survey, 73% of Gen Z respondents said they trust recommendations from “real users” more than traditional KOL sponsored content.
+
+---
+
+## Threads’ Localization Phenomenon in Taiwan
+
+### A Birthplace for Memes and Catchphrases
+
+Threads has become an important source of Taiwanese internet memes and catchphrases:
 
 **Popular memes:**
 
-- **"Tsui friend"** (脆友): Self-designation of Threads users, creating community identity
-- **"Tsui is mad"** (脆急了): Expressing that you've seen something infuriating on Threads
-- **"Tsui power is great"** (脆力很讚): Complimenting high-quality Threads content
+- **“Cui friends”**: A self-description used by Threads users, creating a sense of community identity
+- **“Cui made me urgent”**: Used to describe seeing anger-inducing content on Threads
+- **“Cui power is great”**: Used to praise high-quality Threads content
 
-### Distinctive Usage Culture
+### Distinctive Usage Cultures
 
-**"Chuanchuanle"** (串串樂): Users post multiple short entries on the same topic in sequence, forming a "thread within a thread"
-**"Tsui version BBS veterans"** (脆版鄉民): Long-time forum users who migrated from PTT, carrying with them the BBS forum culture
-**"Trash Post of the Day"** (廢文大賞): A daily competition for the most popular funny or absurdist content
+**“Serial-thread fun”**: Users post several short entries in succession under the same topic, forming a “thread”  
+**“Cui-board villagers”**: Veteran netizens who migrated from PTT, bringing forum culture with them  
+**“Nonsense post awards”**: A daily competition for the most popular funny or absurd content
 
-These localization phenomena show that Threads is not merely a social platform — it has become **the best entry point for observing Taiwan's trending slang, social mood, and youth subcultures**.
+These localization phenomena show that Threads is not only a social platform. It has become **one of the best entry points for observing Taiwanese catchphrases, social emotions, and youth subcultures**.
 
 ---
 
-## The Social Significance Behind the Data
+## The Social Meaning Behind the Data
 
-### Usage Behavior Analysis
+### Analysis of Usage Behavior
 
-Based on multiple survey data:
+According to multiple surveys:
 
 **User profile:**
 
-- **Gen Z as the core**: Users aged 18–25 account for approximately 60%
-- **Higher-education concentrated**: University-educated users account for 70%
-- **Urbanized distribution**: Taipei, New Taipei, Taichung, Kaohsiung account for 65% of total users
+- **Gen Z as the main group**: Users aged 18-25 account for about 60%
+- **Concentration among the highly educated**: Users with university education or above account for 70%
+- **Urban distribution**: Taipei, New Taipei, Taichung, and Kaohsiung account for 65% of all users
 
-**Usage hours:**
+**Usage periods:**
 
 - **Late-night peak**: 11 p.m. to 2 a.m.
-- **Commute times**: 8–9 a.m. and 6–7 p.m.
-- **Weekend surge**: Weekend usage time is 40% higher than on weekdays
+- **Commuting hours**: 8-9 a.m. and 6-7 p.m.
+- **Weekend surge**: Holiday usage time is 40% higher than on weekdays
 
 **Content preferences:**
 
-- **Emotional expression**: Approximately 35% of all posts
-- **Current affairs discussion**: 25%
-- **Lifestyle sharing**: 20%
+- **Emotional expression**: 35% of total posts
+- **Current-affairs discussion**: 25%
+- **Life sharing**: 20%
 - **Memes and humor**: 15%
 - **Other**: 5%
 
-### Deeper Societal Impact on Taiwan
+### Deeper Impacts on Taiwanese Society
 
-**1. Redefining "public discourse"**
-Threads has lowered the barrier to participation in public debates, allowing more diverse voices to be heard. But challenges remain: how to maintain discussion quality within fragmented, emotionally charged short texts?
+**1. Redefining “public discussion”**  
+Threads lowers the threshold for participating in public-issue discussions and allows more diverse voices to be heard. But it also raises a challenge: how can discussion quality be maintained in fragmented, emotional short-form text?
 
-**2. Widening the generational digital divide**
-Users over 40 show significantly lower engagement on Threads, potentially deepening the information-access gap between generations.
+**2. Intensifying the digital divide between generations**  
+Participation on Threads is significantly lower among users over 40, which may widen gaps in information reception between generations.
 
-**3. A new vehicle for political polarization**
-While the algorithm's push mechanism can break echo chambers, controversial high-engagement content is more likely to be amplified, potentially intensifying political division.
+**3. A new vehicle for political polarization**  
+Although algorithmic recommendation mechanisms can break echo chambers, controversial content with high engagement is more easily amplified, potentially deepening political confrontation.
 
 ---
 
-## Challenges and Concerns
+## Challenges and Hidden Concerns
 
-### The Downward Slide in Content Quality
+### A Slide in Content Quality
 
-As the user base grows, Threads faces the common challenges of all social platforms:
+As user numbers grow, Threads faces challenges common to all social platforms:
 
 **Declining information quality:**
 
-- Misinformation spreads faster
-- Emotionally inflammatory content proliferates
-- Substantive discussion gets drowned in noise
+- Accelerated spread of disinformation
+- Proliferation of emotionally inflammatory content
+- Professional discussions being drowned out by noise
 
 **Commercialization pressure:**
 
-- Meta began testing Threads advertising in late 2024
-- Monetization may affect algorithm logic
-- Balancing user experience with profit needs
+- In late 2024, Meta began testing advertising functions on Threads
+- Commercialization may affect algorithmic logic
+- The need to balance user experience with profit demands
 
 ### Privacy and Data Governance
 
-As a member of the Meta family, Threads inherits Facebook's and Instagram's privacy controversies:
+As a member of the Meta family, Threads inherits Facebook and Instagram’s privacy controversies:
 
-- **Scope of data collection**: Deep integration with Instagram accounts enables cross-platform data use
-- **Algorithm transparency**: Black-box operation with no public explanation
-- **Content moderation standards**: Chinese-language content moderation is still being refined
+- **Scope of data collection**: Deep integration with IG accounts and cross-use of data
+- **Algorithmic transparency**: Black-box operations lack public explanation
+- **Content moderation standards**: Chinese-language content moderation mechanisms are still being improved
 
-### Platform Dependency Risk
+### Risks of Platform Dependence
 
-Taiwan's high dependence on a single platform creates systemic risks:
+Taiwan’s heavy dependence on a single platform may bring systemic risks:
 
-- **Service outage impact**: Platform downtime can affect the flow of critical information
-- **Policy-change shock**: Meta policy adjustments can suddenly alter the user environment
-- **Data sovereignty issues**: Records of important social discussions are held by a U.S. corporation
+- **Impact of service interruptions**: Platform failures may affect the dissemination of important information
+- **Shock from policy changes**: Adjustments to Meta policy may suddenly change the usage environment
+- **Data sovereignty issues**: Important data from social discussions is held by a U.S. corporation
 
 ---
 
-## Outlook: The Future of Taiwan's "Tsui" Culture
+## Outlook: The Future of Taiwan’s “Cui” Culture
 
-### Short-Term Development (2026–2027)
+### Short-Term Development, 2026-2027
 
-**Feature maturation:**
+**Functional maturation:**
 
-- Official advertising system launches, reshaping the content ecosystem
-- Integration of livestreaming, shopping, and other features
-- Ongoing optimization of Chinese-language content understanding
+- Formal launch of the advertising system, affecting the content ecosystem
+- Integration of features such as livestreaming and shopping
+- Continued optimization of Chinese-language content understanding
 
-**Ecosystem stabilization:**
+**Ecosystem maturation:**
 
-- Content creator economy models take shape
-- Government agencies and public institutions formally join
-- Greater integration with news media
+- Establishment of economic models for content creators
+- Formal entry by government and public institutions
+- Greater integration by news media
 
-### Medium-Term Evolution (2027–2030)
+### Medium-Term Evolution, 2027-2030
 
-**Platform competition intensifies:**
+**Intensifying platform competition:**
 
-- TikTok and YouTube launch text-based social features
-- Domestic platforms (such as a new version of PTT) re-enter the competition
-- User attention fragments further
+- TikTok and YouTube launch text-based social functions
+- Local platforms, such as a new version of PTT, return to competition
+- User attention becomes further fragmented
 
-**Regulatory environment changes:**
+**Changes in the regulatory environment:**
 
-- New laws such as the Digital Intermediary Services Act take effect
-- Stronger mechanisms to counter misinformation
-- Cross-platform data governance standards established
+- Implementation of new regulations such as the Digital Intermediary Services Act
+- Strengthening of mechanisms to prevent disinformation
+- Establishment of cross-platform data governance standards
 
-### Long-Term Impact (2030+)
+### Long-Term Impact, 2030+
 
-**Structural societal changes:**
+**Structural social change:**
 
-- A new generation of "native Tsui users" reaches adulthood, shaping Taiwan's internet culture
-- The boundary between legacy media and new media blurs further
-- Political communication fully transforms into a digital format
+- A new generation of “Cui natives” comes of age, influencing the direction of Taiwan’s online culture
+- Boundaries between traditional media and new media blur further
+- Political communication undergoes a thorough digital transformation
 
 **Potential risks and opportunities:**
 
-- Web3 and decentralized social platforms may disrupt the current landscape
-- The boundary between AI-generated content and genuine user discussion becomes a pressing question
-- The successful localization of global platforms in Taiwan may be replicated elsewhere
+- Web3 and decentralized social platforms may disrupt the existing landscape
+- Questions over the boundary between AI-generated content and real-user discussion
+- Successful experience in localizing a transnational platform may be replicated in other regions
 
 ---
 
-## Conclusion: From Phenomenon to Cultural Sediment
+## Conclusion: From Phenomenon to Cultural Sedimentation
 
-Threads' success in Taiwan reflects the convergence of several deep-seated desires:
+Threads’ success in Taiwan reflects the convergence of several deeper desires:
 
-1. **Low-pressure social environment**: Escape from the social pressure of over-curated platforms
-2. **High-engagement public discourse**: Rediscovering the internet's original promise as a public commons
-3. **Space for authentic expression**: Preserving human warmth in the digital world
+1. **A low-pressure social environment**: Escaping the pressures of overpackaged social media
+2. **Highly participatory public discussion**: Recovering the internet’s original purpose as a public sphere
+3. **A space for authentic expression**: Preserving human warmth in the digital world
 
-But most importantly, **"Tsui" is no longer just a social platform — it has become an essential window for understanding contemporary Taiwanese youth culture, political communication, and social change**.
+Most importantly, however, **“Cui” is no longer merely a social platform. It has become an important window for understanding contemporary Taiwanese youth culture, political communication, and social change**.
 
-When we scroll Threads late at night, watching strangers share their most authentic worries and joys, we may be witnessing a pivotal moment in Taiwan's digital social history — a shift from "displaying the self" back to "expressing the self," from "chasing perfection" back to "embracing authenticity."
+When we scroll through Threads late at night and watch strangers share their most authentic troubles and joys, perhaps we are witnessing an important turning point in the history of Taiwan’s digital society: a return from “displaying the self” to “expressing the self,” and from “pursuing perfection” to “embracing authenticity.”
 
-Yet the challenges are equally clear: in fragmented, emotion-driven short texts, how do we maintain the quality of public discourse? Will the polarization driven by the algorithm turn "Tsui" from a public square into a battleground?
+Yet the challenges are equally clear: in fragmented and emotional short-form text, how can the quality of public discussion be maintained? Could the polarization and confrontation brought by algorithms turn “Cui” from a public square into a battlefield?
 
-These questions have no standard answers — but how they are answered will determine the next chapter of Taiwan's digital democracy.
+There are no standard answers to these questions. But their answers will determine the next chapter of Taiwan’s digital democracy.
 
 ---
 
@@ -353,26 +353,26 @@ These questions have no standard answers — but how they are answered will dete
 
 ### Research Resources
 
-- [Taiwan FactCheck Center](https://tfc-taiwan.org.tw/) — Taiwan's fact-checking organization
-- [Ministry of Digital Affairs — Digital Governance Policy](https://moda.gov.tw/) — Government digital governance policies
-- [Taiwan Network Information Center (TWNIC)](https://www.twnic.net.tw/) — Taiwan internet usage behavior surveys
+- [Taiwan FactCheck Center](https://tfc-taiwan.org.tw/) — Taiwan FactCheck Center
+- [Ministry of Digital Affairs Digital Governance Policy](https://moda.gov.tw/) — Government policies related to digital governance
+- [Taiwan Network Information Center, TWNIC](https://www.twnic.net.tw/) — Surveys on internet usage behavior in Taiwan
 
 ## References
 
-1. [Threads global monthly active users surpass 300 million, named Taiwan's most popular app of 2024](https://www.businessyee.com/article/5165-Threads-DAU) - Business Yee
-2. [One year after Threads launched! Monthly active users exceed 175 million](https://www.bnext.com.tw/article/79642/threads-meta-2024-) - Business Next
-3. [Taiwan's Threads users rank second globally, usage time tops the world! Why did Gen Z migrate to "Tsui"?](https://www.foodnext.net/column/columnist/paper/6351013795) - Food Next
-4. [Gen Z loves "Threads" — Taiwan becomes the world's second-largest market](https://www.cw.com.tw/article/5131823) - CommonWealth Magazine
-5. [Threads marketing is overturning the traffic rulebook? Grab the latest AI-era case studies and strategies](https://www.asiakol.com/article/750) - AsiaKOL
-6. [From PTT and Dcard to Threads, how are we "designed" by social platforms?](https://www.thenewslens.com/article/251622) - The News Lens
-7. [Threads becomes the new favorite of young Taiwanese! Analyzing the reasons behind "Tsui's" rise](https://sonar-inc.com/what-is-threads/) - Sonar Digital Marketing
-8. [Threads marketing: New trends in Taiwan's corporate social media strategy](https://www.i-connectweb.com/zh-hant/blog/threads-marketing) - i-Connect
+1. [Threads’ global monthly active users exceed 300 million, becoming Taiwan’s most popular app in 2024](https://www.businessyee.com/article/5165-Threads-DAU) - Business Yee
+2. [Threads turns one year old: monthly active users exceed 175 million](https://www.bnext.com.tw/article/79642/threads-meta-2024-) - Business Next
+3. [Taiwan has the world’s second-largest number of Threads users and ranks first globally in usage time: why has Gen Z moved to “Cui”?](https://www.foodnext.net/column/columnist/paper/6351013795) - FoodNext
+4. [Gen Z loves “Threads”: Taiwan becomes the world’s second-largest market](https://www.cw.com.tw/article/5131823) - CommonWealth Magazine
+5. [Is Threads marketing overturning the rules of traffic? Latest cases and strategies for the AI era](https://www.asiakol.com/article/750) - AsiaKOL
+6. [From PTT and Dcard to Threads: how are we “designed” on social platforms?](https://www.thenewslens.com/article/251622) - The News Lens
+7. [Threads becomes Taiwanese young people’s new favorite: analyzing the rise of “Cui”](https://sonar-inc.com/what-is-threads/) - Sonar Digital Marketing
+8. [Threads marketing: new trends in Taiwanese corporate social media strategy](https://www.i-connectweb.com/zh-hant/blog/threads-marketing) - i-Connect
 9. [2025 Threads marketing case studies](https://tobiehuang.com/2025-threads-marketing-case-study/) - Tobie Huang
-10. [Did Threads come back to life thanks to "trash posts"? Don't miss this Tsui wave!](http://plog.tw/2024/03/19/threads-genz/) - Partipost
-11. [Data.ai Intelligence - Threads reaches 150 million downloads report](https://www.data.ai/) - App Market Intelligence
+10. [Did Threads come back to life because of “nonsense posts”? This Cui wave is one to follow](http://plog.tw/2024/03/19/threads-genz/) - Partipost
+11. [Data.ai Intelligence: report on Threads reaching 150 million downloads](https://www.data.ai/) - App Market Intelligence
 12. [Taiwan FactCheck Center 2024 Annual Report](https://tfc-taiwan.org.tw/) - Taiwan FactCheck Center
 
 ---
 
-_This article was written by the Editorial Team and last updated: 2026-03-24_
+_This article was researched and written in depth by Editorial Team. Last updated: 2026-03-24_  
 _Primary sources: Meta Platforms, Business Next, CommonWealth Magazine, AsiaKOL, Taiwan FactCheck Center_

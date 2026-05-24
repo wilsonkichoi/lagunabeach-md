@@ -1,114 +1,115 @@
 ---
-title: 'Taiwan Anime Culture'
-description: "Doraemon, Slam Dunk, and Sailor Moon were the shared language of Taiwanese teenagers in the 1980s and 90s; Fancy Frontier has run over 40 editions since 1999, each bringing in over 100,000 visitors; doujinshi and cosplay nurtured the creators of Detention and Devotion — Taiwan's anime culture is not an imitation of imported entertainment but the shared memory and creative soil of two generations."
-date: 2026-03-20
-tags:
-  - 'Anime'
-  - 'Otaku Culture'
-  - Cosplay
-  - Doujinshi
-  - 'Fancy Frontier'
-  - FF
-  - VTuber
-  - Subculture
-subcategory: '網路文化'
+title: 'Taiwan Anime & Manga Culture'
+description: "'Doraemon,' 'Slam Dunk,' and 'Sailor Moon' were the shared language of Taiwanese teens in the 1980s and '90s; Fancy Frontier has held over 40 editions since 1999, drawing over 100,000 attendees per event; doujinshi and cosplay nurtured the creators of 'Detention' and 'Devotion'—Taiwan's anime and manga culture is not an imitation of imported entertainment, but the shared memory and creative soil of two generations."
+date: '2026-03-20'
 author: 'Taiwan.md Contributors'
-difficulty: beginner
-readingTime: 9
 category: 'Culture'
-featured: false
-lastVerified: 2026-04-19
-lastHumanReview: 2026-04-19
+subcategory: '網路文化'
+tags:
+  [
+    '動漫',
+    '宅文化',
+    'cosplay',
+    '同人誌',
+    '開拓動漫祭',
+    'FF',
+    'VTuber',
+    '次文化',
+  ]
+readingTime: '9'
+lastVerified: '2026-05-16'
+lastHumanReview: 'true'
+featured: 'false'
 translatedFrom: 'Culture/台灣動漫文化.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:ddc98c9c93f34f85'
-sourceBodyHash: 'sha256:6e74b99f6c42ff14'
-translatedAt: '2026-05-01T12:53:58+08:00'
+sourceCommitSha: '85926aa3b'
+sourceContentHash: 'sha256:4f2929a499d24ac8'
+sourceBodyHash: 'sha256:87f8032127a53d42'
+translatedAt: '2026-05-24T05:06:32+08:00'
 ---
 
-# Taiwan Anime Culture
+# Taiwan Anime & Manga Culture
 
-> **30-second overview:** Taiwan's anime culture is not simply a translation of Japanese animation — it is the shared memory and creative soil of two generations. In October 1979, CTV broadcast the Taiwanese premiere of _Mazinger Z_, launching Taiwan's anime import era. In the 1980s and 90s, _Candy Candy_, _Doraemon_, _Slam Dunk_, and _Sailor Moon_ shaped an entire generation's shared language. In 1999 Fancy Frontier (FF) was first held, becoming Taiwan's most important anime doujinshi event; through the 2000s, doujinshi, cosplay, and 2D aesthetics gradually entered mainstream culture. More interesting still: the creators of internationally acclaimed Taiwanese games such as _Detention_ and _Devotion_ mostly have deep doujinshi creation backgrounds — what appears to be a niche subculture has in reality nurtured the next generation of talent in Taiwan's creative industries.
+> **30-second overview:** The essence of Taiwan's anime and manga culture is the shared memory and creative soil of two generations that grew on this island after Japanese animation arrived. In 1979, CTV premiered _Mazinger Z_, opening Taiwan's era of anime imports. In the 1980s and '90s, _Doraemon_, _Slam Dunk_, and _Sailor Moon_ shaped the shared language of an entire generation. In 1999, Fancy Frontier (FF) was held for the first time, becoming Taiwan's most important anime and doujin convention. In the 2000s, doujinshi, cosplay, and 2D aesthetics gradually entered mainstream culture. What's even more remarkable: internationally acclaimed games like _Detention_ and _Devotion_ that put Taiwan back on the map were created by teams with deep roots in doujin creation—seemingly niche otaku culture has, in fact, cultivated the next generation of Taiwan's creative industry talent.
 
 ## A Generation's Shared Language: The Golden Age of Anime Imports
 
-In October 1979, CTV broadcast the Japanese anime _Mazinger Z_ (マジンガーZ) in Mandarin-dubbed form, launching Taiwan's anime import era. From that point on, Japanese animation became the backdrop of several generations of Taiwanese childhoods: in the 1980s, _Candy Candy_, _Science Ninja Team Gatchaman_, and _Fist of the North Star_; in the 1990s, _Doraemon_ (earlier broadcast as _Xiao Ding Dong_), _Slam Dunk_, _Sailor Moon_, and _Saint Seiya_; in the 2000s, _Naruto_, _One Piece_, and _Bleach_.
+In October 1979, CTV premiered the Japanese anime _Mazinger Z_ (マジンガーZ) in Mandarin dub, ushering in Taiwan's era of anime imports. From that point on, Japanese animation became the backdrop of multiple generations' upbringing: the 1980s brought _Candy Candy_, _Science Ninja Team Gatchaman_, and _Fist of the North Star_; the 1990s brought _Doraemon_ (originally _小叮噹_), _Slam Dunk_, _Sailor Moon_, and _Saint Seiya_; the 2000s brought _Naruto_, _One Piece_, and _Bleach_.
 
-These works were not just entertainment programs — they were part of generational memory. For Taiwanese people born in the 1970s and 80s, the Kanagawa showdown between Sakuragi Hanamichi and Rukawa Kaede in _Slam Dunk_, "I will punish you in the name of the moon" from _Sailor Moon_, and Doraemon's anywhere door are all childhood memories from after school. These animations shaped Taiwanese teenagers' values, aesthetics, and worldview — a visual and narrative vocabulary very different from American cartoons (Disney, Warner Bros.).
+These works carved out a place in the childhood memories of Taiwanese teenagers. For those born in the 1970s and '80s, the Kanagawa showdown between Hanamichi Sakuragi and Kaede Rukawa in _Slam Dunk_, Sailor Moon's iconic line "In the name of the Moon, I'll punish you," and Doraemon's Anywhere Door are all shared after-school memories from childhood. These anime shaped Taiwanese teens' values, aesthetics, and worldview—a visual and narrative vocabulary quite distinct from American cartoons (Disney, Warner Bros.).
 
-Worth noting is Taiwan's anime voice dubbing culture. Taiwanese voice actors re-interpreted Japanese anime characters in Chinese, and some classic Taiwanese dubs (such as Chen Mei-chen's version of Chibi Maruko-chan, and Chiang Tu-hui's version of Crayon Shin-chan's Nohara Shinnosuke) have taken root even more deeply in Taiwanese audiences' memories than the original Japanese versions. This is a classic example of "translation is not merely substituting language — it is reconstructing emotion."
+Taiwan's anime dubbing culture is also worth noting. Taiwanese voice actors reinterpreted Japanese anime characters in Mandarin, and certain classic dubs (such as Chen Mei-zhen's version of Maruko in _Chibi Maruko-chan_ and Jiang Du-hui's version of Shinnosuke Nohara in _Crayon Shin-chan_) became even more deeply embedded in Taiwanese audiences' minds than the original Japanese versions. This is a textbook case of "translation as emotional reconstruction."
 
 ## Fancy Frontier (FF): Taiwan's Largest Anime Gathering
 
-In 1999, a group of anime enthusiasts held the first "Fancy Frontier" (FF) at National Taiwan University — the founding moment of Taiwan's most important anime doujinshi event. From 1999 to the present, FF has run over 40 editions, alternating venues between NTU's sports complex, the World Trade Center, and others, drawing over 100,000 visitors per event.[^1]
+In 1999, a group of anime enthusiasts held the first "Fancy Frontier" (FF) at National Taiwan University—the starting point of Taiwan's most important anime and doujin convention. From 1999 to the present, FF has held over 40 editions, rotating between venues such as the NTU Sports Center and the Taipei World Trade Center, attracting over 100,000 attendees per event.[^1]
 
-What distinguishes FF from purely commercial exhibitions is its "doujinshi" nature: half the booths are amateur creators selling self-printed works of fan-created or original content (doujinshi, fan merchandise); the other half are commercial booths selling licensed products. For creators, FF is a practice arena — here you can take what you've drawn out and sell it, and see directly whether readers like it and whether they'll pay for it.
+What sets FF apart from purely commercial exhibitions is its "doujin" nature: half the booths are run by amateur creators selling self-published derivative or original works (doujinshi, fan merchandise), while the other half are commercial vendor sales. For creators, FF is a training ground—a place where you can put your work out for sale and see directly whether readers like it and are willing to pay for it.
 
-In addition to FF, Taiwan has another important doujinshi event, "Comic World Taiwan" (CWT). Between the two events and various regional doujinshi gatherings, there are over 20 doujinshi events across Taiwan per year. This density of doujinshi activity is second only to Japan itself in Asia.
+Besides FF, Taiwan has another major doujin convention: Comic World Taiwan (CWT). Together with various local doujin events, there are over 20 doujin conventions held across Taiwan each year. This density of doujin activity is second only to Japan itself in Asia.
 
 ## Cosplay: Transformation and Identity Experimentation
 
-Cosplay (コスプレ, character role-playing) developed in Taiwan roughly in parallel with FF, gradually expanding from 1999 onward. From the earliest simple costume imitations to today's near-professional prop construction, makeup techniques, and photo post-production, Taiwan's cosplay community has accumulated considerable technical depth.
+Cosplay (コスプレ, role-playing) developed in Taiwan roughly in tandem with FF, expanding gradually after 1999. From the earliest days of simple costume imitation to today's near-professional-level prop-making, makeup techniques, and photo post-production, Taiwan's cosplay community has accumulated a considerable technical foundation.
 
-The cultural significance of cosplay goes beyond "dressing up like an anime character." It is a participatory cultural experience: the person who puts on the costume can temporarily transform into a beloved character, experiencing a different identity — a shy person can play an outgoing character; a male-identifying person can play a female character (and vice versa). This fluidity of identity provides many anime fans with a sense of freedom that is rare in everyday life.
+The cultural significance of cosplay goes beyond the surface of "dressing up as an anime character." It is a participatory cultural experience: the person wearing a character's costume can temporarily transform into a beloved character and experience a different identity—a shy person can play an extroverted character, a man can play a female character (and vice versa). For many anime fans, this fluidity of identity offers a rare sense of freedom in everyday life.
 
-Taiwan's cosplay culture has also nurtured several internationally recognized cosplayers: **Mika** and **Hana** (Ah-Xiao-Qi) are well-known in doujinshi communities in Japan and China, and some creators have even collaborated with Japanese anime companies on official projects. These cases demonstrate that Taiwan's level of cosplay technique has considerable visibility in the international community.
+Taiwan's cosplay culture has also produced several internationally renowned cosplayers: **Mika** (ミカ) and **Hana** (阿小企) are well-known in Japanese and Chinese doujin circles, and some creators have even collaborated with Japanese anime companies on official projects. These cases demonstrate that Taiwan's cosplay technical standards have considerable visibility in the international community.
 
-## Doujinshi: The Hidden Incubator of Taiwan's Creative Industry
+## Doujinshi: The Invisible Incubator of Taiwan's Creative Industry
 
-Doujinshi (どうじんし) refers to non-commercial publications self-funded and printed by enthusiasts, typically containing fan-created extensions of existing works (spinoff stories, side stories, ship pairings) as well as original works. Taiwan's doujinshi culture developed from the mid-1990s and was well-established by the 2000s, with hundreds of booths selling all manner of doujinshi at every fan convention.
+Doujinshi (どうじんし) refers to non-commercial publications self-published by enthusiasts, typically containing derivative works of existing properties (spin-offs, side stories, fan pairings) as well as original works. Taiwan's doujinshi culture began developing in the mid-1990s and was already quite mature by the 2000s, with hundreds of booths selling all kinds of doujinshi at every convention.
 
-> **Curator's note**
-> What appears to be a non-mainstream creative form is in reality the most important hidden incubator of Taiwan's creative industry. The creator teams behind internationally acclaimed Taiwanese games such as _Detention_ and _Devotion_ included many members with doujinshi creation or cosplay backgrounds — that was their earliest practice arena for "turning what was in their heads into works for others to see." Game studio Red Candle Games had multiple members with doujinshi creation or cosplay experience.
+> **📝 Curator's Note**
+> Seemingly niche doujin creation is, in reality, the most important invisible incubator of Taiwan's creative industry. The creative teams behind internationally recognized games like _Detention_ and _Devotion_ include many members with doujin creation backgrounds. Multiple members of the game developer Red Candle Games had experience creating doujinshi or doing cosplay—that was their earliest "training ground for turning the ideas in their heads into works for others to see."
 
-The value of doujinshi is not only in the quality of individual works, but also in the creative practice opportunities it provides. For a young person who wants to become a manga artist, illustrator, or game artist, doujinshi is the lowest-risk practice stage: you don't need a publisher's contract, market research, or a complex business plan — you just need to draw what you want to draw, print a few dozen copies, and set up a booth at a fan convention. This low-barrier hands-on practice has allowed many Taiwanese creators to accumulate large amounts of creative experience.
+The value of doujinshi lies in the creative practice opportunities it provides; the quality of any individual work is secondary. For a young person who wants to become a manga artist, illustrator, or game artist, doujinshi is the lowest-risk practice stage: you don't need a publisher's contract, market research, or a complex business plan—you just need to draw what you want to draw, print a few dozen copies, and set up a booth at a doujin convention. This low-barrier, hands-on practice has allowed many Taiwanese creators to accumulate extensive creative experience.
 
-Transitions from doujinshi to commercial creation have many cases in Taiwan. In the games, comics, animation, and illustration industries, those "newcomers whose debut peaks instantly" have often been polished in the doujinshi circle for over a decade before being seen by the mainstream.
+The transition from doujinshi to commercial creation has many examples in Taiwan. In the game, manga, animation, and illustration industries, many newcomers who seem to "debut at their peak" actually spent over a decade honing their craft in the doujinshi scene before being noticed by the mainstream.
 
-## 2D Aesthetics Penetrating the Mainstream
+## Mainstream Permeation of 2D Aesthetics
 
-After the 2010s, anime culture has filtered from niche hobby into mainstream culture. 2D aesthetics have influenced fashion design, interior decor, and product packaging; anime characters have become important elements in commercial marketing; anime-themed restaurants, cafes, and hotels have proliferated.
+After the 2010s, anime and manga culture渗透ed from a niche hobby into mainstream culture. 2D aesthetics influenced fashion design, interior décor, and product packaging; anime characters were widely adopted by advertisers as a common visual language for product marketing; and anime-themed restaurants, cafés, and hotels sprang up like mushrooms after rain.
 
-Concrete examples: anime-themed pop-up stores rotate through department stores in Taipei, Taichung, and Kaohsiung; convenience store chains (7-ELEVEN, FamilyMart) regularly release anime IP collaborative merchandise; MRT stations and bus stops have carried anime character advertising billboards; even government public education campaigns have begun using 2D illustration styles.
+Specific examples: anime-themed pop-up stores rotate through department stores in Taipei, Taichung, and Kaohsiung; convenience store chains (7-ELEVEN, FamilyMart) regularly launch anime IP collaboration products; anime character advertisements have appeared on MRT station and bus stop billboards; even government public awareness campaigns have begun adopting 2D illustration styles.
 
-This penetration is also reflected in everyday language. Terms originally native to anime circles — "moe," "chuunibyou," "chou" (obsessive fan), "koryaku" (strategy), "honmei" (top pick), "dou-tan" (shared fan of the same) — have now entered ordinary daily conversation. Particularly among younger generations, the frequency of anime vocabulary usage in everyday Chinese has become impossible to separate from regular speech.
+This permeation is also reflected in everyday language. Terms like "moe" (萌), "chuunibyou" (中二), "chu" (廚), "conquering" (攻略), "favorite character" (本命), and "same-stan" (同擔)—originally otaku slang—have now entered ordinary people's daily conversation. Especially among younger generations, the frequency of anime vocabulary usage is nearly indistinguishable from regular Mandarin.
 
-## VTubers: A New Generation from Japanese Wave to Taiwan's Own
+## The VTuber New Generation: From the Japanese Wave to Taiwan Natives
 
-After the Japanese VTuber (Virtual YouTuber) wave began in 2016–2017, Taiwan's first domestic VTubers appeared around 2019–2020. Although hololive's 2020 launch of the Chinese-language division hololive China (which included Taiwanese VTubers) subsequently ended due to political factors, it cultivated a cohort of Taiwanese viewers' habits of watching VTubers.[^2]
+After the Japanese VTuber (Virtual YouTuber) wave began in 2016–2017, the first wave of homegrown Taiwanese VTubers emerged around 2019–2020. hololive launched its China-region branch, hololive China (including Taiwanese VTubers), in 2020, which later ended due to political factors, but it cultivated a VTuber viewing habit among a cohort of Taiwanese audiences.[^2]
 
-The domestic VTuber industry started from individual operations and by 2021 saw a handful of Taiwanese companies (such as UNI Virtual and Xing Wen She) invest in corporate management, signing multiple Taiwanese VTubers. These VTubers stream in Chinese, playing games, singing, and chatting, creating a "VTuber universe in Chinese" — viewers don't need to understand Japanese to participate, which is a key difference from the Japanese VTuber ecosystem.
+The local VTuber industry started as individual ventures. After 2021, several Taiwanese companies (such as UNI Virtual and 星聞社) invested in corporate management, signing multiple Taiwanese VTubers. These VTubers stream in Mandarin, playing games, singing, and chatting, creating a "VTuber universe made in Chinese"—viewers don't need to understand Japanese to participate, which is a key difference from the Japanese VTuber ecosystem.
 
-VTuber culture has deep connections to traditional anime: VTubers' character design, personas, and community interaction patterns are all extensions of anime culture. A typical VTuber fan is also usually an anime enthusiast, possibly with cosplay experience, attending Fancy Frontier. VTubers can be seen as the new form that anime culture has taken in the 2020s.
+VTuber culture is deeply connected to traditional anime and manga: VTuber character design, persona-building, and community interaction models are all extensions of anime and manga culture. A typical VTuber fan is usually also an anime fan, may have cosplay experience, and attends FF doujin conventions. VTubers can be considered the 2020s' new form of anime and manga culture.
 
-## Generational Transition: From "Otaku" to Cultural Mainstream
+## Generational Shift: From "Otaku" to Cultural Mainstream
 
-In the early 2000s, "otaku" (宅) in Taiwan still carried a somewhat derogatory meaning: it referred to young men obsessed with anime who were poor at socializing. But by the 2010s and after, "otaku" gradually shed its stigma, becoming a neutral or even positively coded cultural identity: being otaku means knowing how to enjoy subculture and having specific deep interests.
+In the early 2000s, "otaku" (宅) was still a derogatory term in Taiwan, referring to young men obsessed with anime and manga and poor at socializing. But after the 2010s, "otaku" gradually lost its stigma and became a neutral or even positively connoted cultural identity: an otaku is someone who knows how to enjoy subculture and delves deeply into specific interests.
 
-Behind this generational transition is the process of anime fans moving from marginal culture to the mainstream. The generation that grew up watching _Slam Dunk_ in the 1990s is now the 40-something backbone of society — they no longer need to hide to watch animation; they discuss anime at the office, take their children to animated films, and decorate their homes in anime themes. Anime culture's consumers have become cross-generational, and this is the most important long-term change in Taiwan's anime culture.
+Behind this generational shift is the process of anime fans moving from fringe culture into the mainstream. The generation that grew up watching _Slam Dunk_ in the 1990s is now in their forties and part of society's backbone—they no longer need to hide to watch anime, they talk about anime in the office, take their kids to animated movies, and decorate their homes with anime themes. The consumers of anime and manga culture have shifted from teenagers to a cross-generational audience, which is the most important long-term change in Taiwan's anime and manga culture.
 
-At the same time, a new generation of anime fans is redefining what "otaku" means. They take anime as part of their cultural identity, while also having more direct connections to political participation and social issues — for example, the role that anime fans played in the marriage equality movement, transitional justice, and the Sunflower Movement. Anime fans are not only "people who watch animation" — they are also socially conscious citizens.
+At the same time, the new generation of anime fans is also redefining what "otaku" means. They treat anime and manga as part of their cultural identity while also engaging more directly with political participation and social issues: anime enthusiasts have been visible in social movements around same-sex marriage, transitional justice, and the Sunflower Student Movement. Anime fans are not just animation watchers—they are socially conscious citizens.
 
-## Cultural Significance: Not Imitation, but Growing Something of One's Own
+## Cultural Significance: Growing Something of Our Own
 
-The development of Taiwan's anime culture offers an important insight: cultural influence is not unidirectionally imported — it is bidirectionally transformed. Taiwan imported animation from Japan, but over 40 years, we transformed it through Mandarin dubbing, fan conventions, cosplay, and VTubers into "Taiwanese anime culture." This culture is not entirely the same as Japan's, and not entirely the same as China's — it has its own vocabulary, its own communities, and its own creative pathways.
+The development of Taiwan's anime and manga culture offers an important insight: cultural influence is a process of two-way transformation. Taiwan imported anime from Japan, but over 40 years, through Mandarin dubbing, doujin conventions, cosplay, VTubers, and other forms, it transformed that import into "Taiwan's anime and manga culture." This culture is not entirely the same as Japan's, nor entirely the same as China's—it has its own vocabulary, its own communities, its own creative pathways.
 
-This runs along a different axis from [Taiwanese comics and illustration](/en/art/taiwanese-comics-and-illustration/), but the two are interwoven. Comics focus on "who created the work"; anime culture focuses on "who watched the work, how they watched it, and what they did after watching." One is the creation side, the other the consumption side; one is a handful of masters, the other is the collective behavior of hundreds of thousands of enthusiasts.
+This runs on a different axis from [Taiwanese Manga](/art/台灣漫畫), but the two are intertwined. Manga focuses on "who created the works"; anime and manga culture focuses on "who consumed the works, how they consumed them, and what they did afterward." One is the creation side, the other the consumption side; one is a handful of masters, the other is the collective behavior of hundreds of thousands of enthusiasts.
 
-The two axes together complete the picture of Taiwan's anime ecosystem.
+Together, these two axes form the complete picture of Taiwan's anime and manga ecosystem.
 
 ## Further Reading
 
-- [Taiwanese Comics and Illustration](/en/art/taiwanese-comics-and-illustration/) — the creation side: the complete genealogy of Zheng Wen, Tsai Chih-chung, Liu Hsing-chin, Ao You-hsiang, and CCC Creative's collections
-- [Taiwan's Online Community Migration History](/en/technology/taiwan-online-community-migration/) — the migration axis of anime fans through BBS, Wretch, Facebook, and Discord
-- [Threads in Taiwan](/en/technology/threads-in-taiwan/) — how 2D communities gather on new platforms
+- [Taiwanese Manga](/art/台灣漫畫) — The creation side: the complete lineage of Zheng Cai, Tsai Chih-chung, Liu Hing-chin, Ao Yu-hsiang, and the CCC Creative Collection
+- [History of Taiwan's Online Community Migration](/technology/台灣網路社群遷徙史) — The migration axis of anime fans across BBS, Wretch, Facebook, and Discord
+- [Threads in Taiwan](/technology/Threads在台灣) — How 2D communities gather on the new platform
 
 ## References
 
-[^1]: [Fancy Frontier — Wikipedia (Chinese)](https://zh.wikipedia.org/zh-tw/%E9%96%8B%E6%8B%93%E5%8B%95%E6%BC%AB%E7%A5%AD) — Complete history of Fancy Frontier, Taiwan's largest anime doujinshi event, with event records from the first edition in 1999 through over 40 editions to date.
+[^1]: [Fancy Frontier — Wikipedia](https://zh.wikipedia.org/zh-tw/%E9%96%8B%E6%8B%93%E5%8B%95%E6%BC%AB%E7%A5%AD) — Complete history of Taiwan's largest anime and doujin convention, Fancy Frontier (FF), including records of over 40 editions since the inaugural event in 1999
 
-[^2]: [VTuber — Wikipedia (Chinese)](https://zh.wikipedia.org/zh-tw/Virtual_YouTuber) — Complete VTuber culture entry, including the Japanese 2016–17 origins, hololive China's Taiwan branch, and records of Taiwan's domestic VTuber industry development.
+[^2]: [VTuber — Wikipedia](https://zh.wikipedia.org/zh-tw/Vtuber) — Comprehensive entry on VTuber culture, including the Japanese origins in 2016–17, hololive China's Taiwan branch, and records of the development of Taiwan's local VTuber industry
 
 ---
 
-_Last verified: 2026-04-19 (Issue #556, suggested by @idlccp1984 to separate anime culture; manga main content moved to [Taiwanese Comics and Illustration](/en/art/taiwanese-comics-and-illustration/))_
+_Last verified: 2026-04-19 (Issue #556, suggested by @idlccp1984: separate anime and manga culture into its own entry; manga content moved to [Taiwanese Manga](/art/台灣漫畫))_

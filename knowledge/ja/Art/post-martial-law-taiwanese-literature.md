@@ -9,8 +9,8 @@ lastHumanReview: true
 readingTime: 8
 description: 38年間の禁錮が一夜にして解かれ、文学創作は大爆発を迎えた——しかし自由は制約のなさを意味しない。新たな挑戦が静かに訪れていた
 translatedFrom: 'Art/解嚴後台灣文學.md'
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:5365049c5ef601b0'
+sourceCommitSha: '4d7fab8e'
+sourceContentHash: 'sha256:b88e9dbdbb8fa20c'
 sourceBodyHash: 'sha256:c355aaf2378be217'
 translatedAt: '2026-05-17T06:35:00Z'
 ---

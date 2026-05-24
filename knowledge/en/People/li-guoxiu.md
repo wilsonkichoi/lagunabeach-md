@@ -1,96 +1,141 @@
 ---
-title: 'Li Guoxiu (李國修)'
-description: 'Founder of Ping-Fong Acting Troupe and a defining voice of modern Taiwanese comedy theatre'
-date: 2026-03-20
-tags: ['theatre', 'comedy', 'Ping-Fong', 'Taiwanese drama', 'playwright']
-subcategory: 'Arts & Design'
-lastVerified: 2026-03-20
-translatedFrom: 'People/李國修.md'
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:7e394b3479d9d206'
-sourceBodyHash: 'sha256:1d9adba620e48b4b'
-translatedAt: '2026-04-14T12:25:09+08:00'
-category: People
+title: 'Li Guoxiu'
+description: "Founder of Ping-Feng Acting Troupe, Taiwan's King of Comedy, passed away from colorectal cancer on July 2, 2013, at the age of 58"
+date: 2026-03-19
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '藝術與設計'
+tags: ['李國修', '屏風表演班', '喜劇', '劇場', '台灣戲劇']
+lastVerified: 2026-03-19
+lastHumanReview: false
+featured: false
+translatedFrom: People/李國修.md
+sourceCommitSha: f712b7242
+sourceContentHash: sha256:11b55d270abdf3d3
+sourceBodyHash: sha256:7ab58584d6fb7af7
+translatedAt: 2026-05-24T05:06:32+08:00
 ---
 
-# Li Guoxiu (李國修): Taiwan’s King of Comedy Theatre
+# Li Guoxiu: Taiwan's King of Comedy
 
-Li Guoxiu (李國修, 1955–2013) is widely regarded as the most influential comedian‑playwright in modern Taiwanese theatre. He founded the Ping‑Fong Acting Troupe (屏風表演班) in 1986 and created a body of work that combined humor with deep social observation. His plays made audiences laugh—and then think. He was the rare artist who could turn everyday Taiwanese life into theatrical poetry without losing its ordinary warmth.
+Li Guoxiu was a pivotal comedic master in the history of modern Taiwanese theater. In 1986, he founded the Ping-Feng Acting Troupe and created classic works such as _Sha Mu Le Te_ (_Shamlet_), _Jing Xi Qi Shi Lu_ (_Peking Opera Revelation_), and _Nü Er Hong_ (_Daughter's Red_). Wrapping profound humanistic care within humorous performance forms, he explored serious social issues through laughter, earning him the title "Taiwan's King of Comedy." He passed away from colorectal cancer in 2013 at the age of 58, leaving behind a remarkable theatrical legacy.
 
-Li passed away suddenly from a heart attack at 58, but his legacy continues to shape Taiwanese theatre. For international readers, Li represents a distinct cultural sensibility: comedy as empathy, satire as social care, and theatre as a place where Taiwan’s multiple identities can coexist.
+## Growing Up as a Military Dependent's Village Child
 
-## A Childhood in the Military Dependents’ Village (眷村)
+Li Guoxiu was born in Taipei on December 30, 1955. His father, Li Fei, was a non-commissioned officer in the Air Force, and his mother, Wang Guihua, was a homemaker. Raised in an Air Force military dependents' village (_juancun_), Li experienced the unique cultural atmosphere of these communities from a young age: a mix of dialects from various provinces, the disciplined lifestyle of military families, and a deep sense of nostalgia for the mainland.
 
-Li was born in Taipei to an Air Force family and grew up in a military dependents’ village, or _juàncūn_ (眷村). These villages were unique post‑war communities built to house soldiers and their families who came from different provinces in mainland China. They were multilingual, tight‑knit, and emotionally complex—combining discipline, nostalgia, and a deep sense of displacement.
+Military village life provided Li Guoxiu with abundant creative material. The warmth and coldness of neighborly relations, the homesickness of mainland veterans, and the identity struggles of military village youth—these elements would recur throughout his plays.
 
-This _juàncūn_ upbringing became one of Li’s most enduring creative sources. He witnessed the humor, sorrow, and resilience of a community living between memory and reality. In his later plays, the _juàncūn_ becomes a cultural stage where Taiwan’s post‑war identity is negotiated.
+During his years at Chenggong High School, Li developed an interest in performance, frequently imitating comedians from television shows and displaying a natural comedic talent. His classmates all believed he had the potential to become an actor, but in traditional views, acting was not considered a proper profession.
 
-## Theatre Awakening at Fu Jen Catholic University
+## Awakening in Drama at Fu Jen Catholic University
 
-Li entered Fu Jen Catholic University (輔仁大學) in 1974, majoring in Chinese literature. There he joined the university’s drama club and began formal theatre training. He discovered a talent for writing and acting, and his student works were known for their ability to make people laugh and cry in the same scene.
+In 1974, Li Guoxiu enrolled in the Department of Chinese Literature at Fu Jen Catholic University, a turning point in his theatrical career. At Fu Jen, he participated in the campus drama club, received formal theatrical training, and was exposed to world-class dramatic works.
 
-This “smile with tears” aesthetic later became his signature: comedy that never trivializes, and tragedy that never loses humanity.
+During his university years, Li demonstrated dual talents in both playwriting and acting. The short plays he wrote often had his classmates in stitches while simultaneously touching their hearts. This "smiling through tears" quality would appear repeatedly in the Ping-Fong Acting Troupe's works.
 
-## The Workshop Years: Learning Modern Theatre
+After graduating in 1978, Li faced a life decision. His family hoped he would pursue a stable career, but he yearned to devote himself to the theater. In the end, he chose to follow his dream and decided to make drama his lifelong vocation.
 
-In 1984, Li co‑founded the Performance Workshop (表演工作坊) with artists such as Stan Lai (賴聲川) and Chin Shih‑jie (金士傑). The group became a major force in Taiwan’s emerging modern theatre scene. Li performed in landmark productions like _That Night, We Performed Crosstalk_ (那一夜，我們說相聲), where he honed his sense of timing, improvisation, and audience rapport.
+## The Performance Workshop Period
 
-During this period, Li began to clarify his own artistic direction. He discovered that comedy was not just entertainment—it was a tool for social observation. He also realized that Taiwan’s everyday life contained a rich theatrical language of its own.
+In 1984, Li Guoxiu co-founded the Performance Workshop with [Stan Lai](/en/People/stan-lai-theater-innovation-master/) and Li Liqun[^1] (Jin Shijie was a collaborator, not a co-founder), marking the beginning of his professional theater career. During his time at the Workshop, he participated in the creation of classic works such as _That Night, We Performed Crosstalk_, showcasing his outstanding acting talent.
 
-## Founding Ping‑Fong Acting Troupe (屏風表演班)
+At the Performance Workshop, Li Guoxiu learned modern theater creation methods, particularly collective improvisation techniques. These two years of theatrical training confirmed his desire to forge an independent path for Taiwanese comedy.
 
-In 1986, Li left the Performance Workshop to establish the Ping‑Fong Acting Troupe. The name “Ping‑Fong” (屏風) means a folding screen—a symbol of protection and intimacy. The troupe’s guiding motto was: “Make a play, make a group of friends.” This was more than a slogan; it was a belief that theatre is a human relationship before it is a product.
+During his time at the Workshop, Li began contemplating his creative direction. He discovered he was particularly skilled in comedic performance while also possessing a keen sensitivity to social reality. This led him to decide on a unique creative path.
 
-The early years were difficult. Venues were small and audiences were few, but Li persisted. His commitment to craft and his refusal to compromise on sincerity eventually earned him a loyal following.
+## Founding the Ping-Feng Acting Troupe
 
-## The Classic Trilogy
+In 1986, Li Guoxiu left the Performance Workshop and founded the Ping-Feng Acting Troupe. The troupe's name derives from the function of a "screen" (_pingfeng_) blocking wind and rain, symbolizing the theater's role in providing spiritual comfort to its audience.
 
-### _Shamlet_ (莎姆雷特, 1992)
+The founding principle of the Ping-Feng Acting Troupe was "put on a play, make a group of friends," reflecting Li Guoxiu's emphasis on interpersonal relationships in theater. He believed theater was not just artistic creation but also genuine human connection.
 
-Li’s most iconic work is _Shamlet_, a Taiwanese adaptation of Shakespeare’s _Hamlet_ set in a military dependents’ village. The protagonist is a _juàncūn_ youth torn between family duty and personal aspiration. The play uses humor to explore filial responsibility, inherited trauma, and identity formation.
+In the early days, Ping-Feng's performance venues were modest and audiences were small, but Li insisted on putting his heart into every work. He believed that as long as the work was good enough, audiences would eventually come to appreciate it. This persistent spirit sustained the troupe through its difficult early years.
 
-_Shamlet_ proved that local Taiwanese experience could carry the weight of global classics. It became a landmark of Taiwan’s stage history.
+### _Sha Mu Le Te (Shamlet)_ (1992)
 
-### _Peking Opera Revelation_ (京戲啟示錄, 1996)
+_Sha Mu Le Te_ is Li Guoxiu's most influential representative work, performed over a hundred times. It transplants Shakespeare's _Hamlet_ into a Taiwanese military village setting. The protagonist, Sham, is a military village youth torn between his father's legacy and his own ideals.
 
-This semi‑autobiographical play tells the story of a Peking Opera performer struggling to survive in a modernizing Taiwan. Li himself performed Peking Opera on stage, integrating traditional aesthetics into contemporary theatre. The work won the first Taishin Arts Award and introduced younger audiences to the emotional depth of traditional opera.
+This work ingeniously combines Western classics with Taiwanese local experience, exploring serious life issues through humor. Li's performance possesses both the depth of Shakespearean drama and the relatability of ordinary Taiwanese people.
 
-### _Daughter’s Red_ (女兒紅, 1999)
+_Sha Mu Le Te_ was performed over a hundred times, becoming a classic in the history of Taiwanese theater. This work established Li Guoxiu's status in Taiwanese theater and proved the viability of localized adaptation.
 
-Written as a tribute to his mother, this play portrays the life of a traditional Taiwanese woman whose dreams are absorbed into her family’s needs. The title refers to a traditional celebratory wine prepared for a daughter’s future wedding. Li crafted the piece with tenderness, turning personal memory into collective reflection.
+### _Jing Xi Qi Shi Lu (Peking Opera Revelation)_ (1996)
 
-## Comedy as Humanism
+_Peking Opera Revelation_ centers on the life journey of a Peking opera performer, depicting the plight of traditional opera in modern society. Based on Li Guoxiu's own experience learning Peking opera, this semi-autobiographical work weaves in numerous Peking opera arias and movements, with Li himself performing on stage to demonstrate his deep operatic skills.
 
-Li’s comedy was never about cheap jokes. His plays are built around ordinary people: retired soldiers, street vendors, struggling artists, overworked mothers. He used humor to dignify their lives, and his scripts are filled with Taiwanese vernacular that audiences recognize immediately.
+Using modern theater techniques to reinterpret traditional art, he introduced younger audiences to the beauty of Peking opera. This work received the Grand Prize at the first Taishin Arts Awards and garnered high international acclaim. _Peking Opera Revelation_ represents Li Guoxiu's deep reflection on traditional culture and its modern expression.
 
-His guiding belief was that comedy should leave room for tears. He often described the ideal performance as “laughter with a lump in the throat.” This sensibility is deeply Taiwanese—a preference for gentle satire over harsh confrontation, and for warmth over cynicism.
+### _Nü Er Hong (Daughter's Red)_ (1999)
 
-## Training Actors and Building a Theatre Culture
+_Daughter's Red_ is a work Li Guoxiu created for his mother, depicting the life of a traditional woman. The mother in the play sacrifices her own dreams for her family while maintaining an optimistic and resilient attitude.
 
-Li was also an influential teacher. Within Ping‑Fong he developed a rigorous training system that emphasized real‑life observation. Actors were asked to study everyday people in markets, on buses, in _juàncūn_, and then bring those details into their performances. Li believed that authenticity was the foundation of comedy.
+This work demonstrates Li Guoxiu's deep understanding and respect for women. With gentle strokes, he portrays a mother's greatness, bringing audiences to tears of emotion amid laughter.
 
-Many performers who trained under him went on to become leading figures in Taiwanese theatre, carrying his emphasis on sincerity and social empathy into the next generation.
+The success of _Daughter's Red_ proved that Li Guoxiu was not only an outstanding comedic actor but also a profound observer of human nature. He could discover the extraordinary beauty within ordinary life.
 
-## Recording the Memory of _Juàncūn_
+## Comic Aesthetics and Humanistic Care
 
-As Taiwan modernized, many military dependents’ villages were demolished. Li’s plays serve as cultural archives of that disappearing world. He preserved the dialects, gestures, and emotional textures of the _juàncūn_, translating a private community memory into a shared public narrative.
+Li Guoxiu's comedy was centered on humanistic care, using laughter to carry tragic social observations. He believed the best comedy should "make people laugh through tears," prompting reflection on life amid joy.
 
-This is one of his most lasting contributions: a theatrical record of a community that helped shape post‑war Taiwan but often remained invisible in official history.
+His plays often focused on the fates of ordinary people, sympathizing with the hardships of those at the bottom of society. Whether military village veterans, Peking opera performers, or traditional women, all were given dignity and warmth in his writing.
 
-## Late Works and a Humor That Faced Mortality
+Li Guoxiu was particularly skilled at employing Taiwanese local language and cultural elements, allowing audiences to resonate with familiar situations. His dialogue was vivid and natural, full of life wisdom and humor.
 
-In the 2000s, Li began to suffer health issues, yet he continued to write and perform. Works like _Six Righteous Brothers_ (六義幫, 2007) and _Golden Years_ (黃金歲月, 2011) reflected a deeper contemplation of aging and loss. Even when facing illness, his humor remained intact—wry, warm, and grounded in everyday life.
+## Actor Training and Theater Education
 
-He once quipped, “Life is like going to the bathroom—no matter how you squeeze, something comes out.” The line is earthy and funny, but it also reflects his philosophy: life is messy, but laughter makes it bearable.
+Li Guoxiu was not only an outstanding playwright and actor but also a distinguished drama educator. He established a systematic actor training system at the Ping-Feng Acting Troupe, nurturing well-known theater figures such as Fan Guangyao and Huang Zhikai.
 
-## A Legacy That Still Resonates
+He placed particular emphasis on actors' life experiences, believing that true performance comes from careful observation of life. He often led actors into various social strata to directly experience different walks of life.
 
-Li died suddenly on July 2, 2013. The news shocked the theatre community, and memorial performances drew huge audiences. Ping‑Fong Acting Troupe continued under the leadership of his wife, Wang Yue (王月), preserving his repertoire and teaching philosophy.
+Li Guoxiu's teaching philosophy emphasized "sincerity." He believed actors must be honest with themselves to create authentic and moving characters. This philosophy influenced many young actors.
 
-Today, Li Guoxiu is remembered not only as a comedian but as an architect of modern Taiwanese theatre. He proved that local stories have global resonance, and that comedy—when rooted in empathy—can carry a society’s deepest truths.
+## Chronicler of Military Village Culture
+
+As a child of the military village, Li Guoxiu always cared about the preservation of military village culture. Many of his works were set in military villages, documenting the lives of this unique community.
+
+As urban development led to the demolition of many military villages, Li Guoxiu's works became precious cultural records. He preserved this vanishing historical memory in dramatic form.
+
+Li Guoxiu believed that military village culture was an important component of Taiwanese society, worthy of understanding and respect. His works bridged the divide between native Taiwanese and mainlanders, promoting social harmony.
+
+## Late-Career Creation and Physical Illness
+
+In the late 2000s, Li Guoxiu's health began to decline, yet he persisted in creating and performing. Late works such as _Liu Yi Bang_ (2007) and _Huang Jin Sui Yue_ (_Golden Years_, 2011) revealed his profound reflections on life.
+
+Facing illness, Li Guoxiu maintained an optimistic attitude, often saying: "Life is like a bowel movement—no matter how you push, it comes out." (Attributed to Li Guoxiu, recorded in multiple interviews[^2]) This humorous life philosophy touched countless audiences.
+
+He began contemplating questions of life and death more frequently, and his works were filled with explorations of life's meaning. Though tinged with sadness, these works retained his characteristic humor and warmth.
+
+## Sudden Passing and Theatrical Legacy
+
+On July 2, 2013, Li Guoxiu passed away from colorectal cancer at the age of 58[^3]. This news shocked the entire Taiwanese theater community, and countless people mourned the loss of this comedic master.
+
+Li Guoxiu's passing prompted a reexamination of his contributions. What he left behind was not just a catalog of dozens of plays but an entire aesthetic system for how comedy can carry humanistic weight.
+
+The Ping-Feng Acting Troupe continued operating after his passing, taken over by his wife Wang Yue. The troupe is dedicated to promoting Li Guoxiu's creative philosophy, ensuring his spirit lives on.
+
+## Influence on Taiwanese Theater
+
+Li Guoxiu pioneered the path of modern comedic theater in Taiwan, proving the viability of localized creation. His works set new standards for Taiwanese theater and influenced countless subsequent creators.
+
+The actors and creators he nurtured are spread throughout the Taiwanese theater world, including Fan Guangyao, Huang Zhikai, Chen Lihua, and others. These individuals continue to spread his creative philosophy and teaching methods.
+
+Li Guoxiu's success also elevated society's recognition of theater arts, helping more people understand the value and charm of drama. He made important contributions to the development of Taiwanese theater.
+
+Li Guoxiu once said: "In character, be like Confucius; in action, be like Laozi." This statement reflects his life philosophy and explains why he was able to create such heartwarming works. He spent his life proving the power of comedy and brought endless joy and reflection to Taiwanese society through his works.
+
+[^1]: The Performance Workshop was co-founded by Stan Lai, Li Guoxiu, and Li Liqun; Jin Shijee was an important collaborating actor but not a co-founder. See: Wikipedia "Performance Workshop" entry <https://zh.wikipedia.org/wiki/%E8%A1%A8%E6%BC%94%E5%B7%A5%E4%BD%9C%E5%9D%8A>
+
+[^2]: This quote from Li Guoxiu appears in multiple interviews and commemorative articles. See: Wikipedia "Li Guoxiu" entry <https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%9C%8B%E4%BF%AE>; Ping-Feng Acting Troupe official website <http://www.ppt.org.tw/>
+
+[^3]: Li Guoxiu passed away from colorectal cancer on July 2, 2013, at the age of 58. See: ETtoday News report, 2013/07/02; Wikipedia "Li Guoxiu" entry <https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%9C%8B%E4%BF%AE>
+
+[^4]: _Peking Opera Revelation_ received the Grand Prize at the first Taishin Arts Awards (1997). See: Taishin Arts Awards official website <https://taishinarts.org.tw/>
+
+[^5]: The Ping-Feng Acting Troupe was founded in 1986 with the founding principle of "put on a play, make a group of friends." Before Li Guoxiu's passing, the troupe performed over 40 plays. See: Ping-Feng Acting Troupe official website <http://www.ppt.org.tw/>
 
 ## References
 
-- [Ping‑Fong Acting Troupe official site](http://www.ppt.org.tw/)
-- [Li Guoxiu memorial exhibition — Taiwan Drama Museum](http://thedrama.org.tw/)
-- [National Center for Traditional Arts](https://www.ncfta.gov.tw/)
+- [Ping-Feng Acting Troupe Official Website](http://www.ppt.org.tw/) — Troupe history and production information
+- [Li Guoxiu Memorial Exhibition — Taiwan Theater Museum](http://thedrama.org.tw/) — Biography and creative records
+- [History of Modern Taiwanese Theater — National Center for Traditional Arts](https://www.ncfta.gov.tw/) — Theater historical materials
