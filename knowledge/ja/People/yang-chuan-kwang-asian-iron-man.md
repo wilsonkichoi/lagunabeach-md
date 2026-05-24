@@ -15,10 +15,10 @@ readingTime: 7
 #   whats_excluded: "各項單科成績細節；1956墨爾本以前的青少年賽事；退役後的教職逐年記錄"
 #   where_it_hedges: "投毒事件（楊傳廣本人指控，無第三方完整核實）；1964東京奧運參賽狀況（P0未提供source）"
 translatedFrom: People/楊傳廣.md
-sourceCommitSha: 0f8fae0ae
-sourceContentHash: sha256:f8a43ac4f3c5c945
-sourceBodyHash: sha256:564dbfac81e16aa7
-translatedAt: 2026-05-24T05:06:32+08:00
+sourceCommitSha: 5c000f86
+sourceContentHash: sha256:71f966796f8b8ad2
+sourceBodyHash: sha256:40e975c5b968d9a3
+translatedAt: 2026-05-24T22:21:12Z
 ---
 
 # 楊伝広：台東部落、ローマ銀メダル、9121点世界記録のアジアの鉄人

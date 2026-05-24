@@ -1,20 +1,35 @@
 ---
-title: "Comté de Yilan : deux fois il a choisi son propre destin, et la plaine de Lanyang n’est jamais revenue en arrière"
-description: "Le soir du 13 décembre 1987, Chen Ding-nan s’assit face à Wang Yung-ching dans le studio de CTS et tint le sixième craqueur de naphta à l’écart de la plaine de Lanyang. Dix-neuf ans plus tard, le 16 juin 2006, le tunnel de Xueshan ouvrit à la circulation, réduisant le trajet entre Taipei et Yilan de deux heures à 40 minutes. Puis, en dix ans, ce grenier à riz vit pousser 6 137 maisons agricoles ; le prix du ping de terrain passa de 4 000 à 20 000 dollars taïwanais ; en 2023, le seul comté de Yilan délivra 35 % des permis de construire pour maisons agricoles de tout Taïwan. Deux fois, à des moments décisifs de l’histoire, un lieu a fait un choix ; la plaine de Lanyang en a reçu à la fois le prix et le don."
+title: 'Comté de Yilan : deux fois il a choisi son propre destin, et la plaine de Lanyang n’est jamais revenue en arrière'
+description: 'Le soir du 13 décembre 1987, Chen Ding-nan s’assit face à Wang Yung-ching dans le studio de CTS et tint le sixième craqueur de naphta à l’écart de la plaine de Lanyang. Dix-neuf ans plus tard, le 16 juin 2006, le tunnel de Xueshan ouvrit à la circulation, réduisant le trajet entre Taipei et Yilan de deux heures à 40 minutes. Puis, en dix ans, ce grenier à riz vit pousser 6 137 maisons agricoles ; le prix du ping de terrain passa de 4 000 à 20 000 dollars taïwanais ; en 2023, le seul comté de Yilan délivra 35 % des permis de construire pour maisons agricoles de tout Taïwan. Deux fois, à des moments décisifs de l’histoire, un lieu a fait un choix ; la plaine de Lanyang en a reçu à la fois le prix et le don.'
 date: 2026-05-18
 author: 'Taiwan.md Contributors'
 category: 'Geography'
 subcategory: '縣市'
-tags: ["Yilan", "comté de Yilan", "plaine de Lanyang", "tunnel de Xueshan", "Chen Ding-nan", "opposition au sixième craqueur de naphta", "affaire du meurtre de la famille Lin", "Chilin", "Kavalan", "île Guishan", "Taipingshan", "Festival des jeux d’enfants", "série des 22 villes et comtés"]
+tags:
+  [
+    'Yilan',
+    'comté de Yilan',
+    'plaine de Lanyang',
+    'tunnel de Xueshan',
+    'Chen Ding-nan',
+    'opposition au sixième craqueur de naphta',
+    'affaire du meurtre de la famille Lin',
+    'Chilin',
+    'Kavalan',
+    'île Guishan',
+    'Taipingshan',
+    'Festival des jeux d’enfants',
+    'série des 22 villes et comtés',
+  ]
 readingTime: 15
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/宜蘭縣.md'
-sourceCommitSha: '33bb24ddf'
-sourceContentHash: 'sha256:ad8a25388b06bfb5'
-sourceBodyHash: 'sha256:8df3c834b310fa20'
-translatedAt: '2026-05-18T05:08:09+08:00'
+sourceCommitSha: '5c000f86'
+sourceContentHash: 'sha256:0c0188ce2800d482'
+sourceBodyHash: 'sha256:4202940a98814ea7'
+translatedAt: '2026-05-25T06:19:00+08:00'
 ---
 
 # Comté de Yilan : deux fois il a choisi son propre destin, et la plaine de Lanyang n’est jamais revenue en arrière
@@ -63,8 +78,8 @@ Mais ce qui rend Yilan véritablement singulière, c’est que ce triangle a la 
 
 La superficie totale du comté de Yilan est de 2 143,6251 kilomètres carrés. Il administre une ville, Yilan, trois bourgs, Luodong, Su’ao et Toucheng, et huit cantons, Jiaoxi, Zhuangwei, Yuanshan, Dongshan, Wujie, Sanxing, Datong et Nan’ao, soit douze communes au total[^10]. Les montagnes représentent 85 % du territoire du comté ; la plaine seulement 15 %. **La population est concentrée sur ces 15 %** : en avril 2026, la population enregistrée était de 448 763 personnes[^10].
 
-![La plaine de Lanyang et l’île Guishan, 2019. Entourée de montagnes sur trois côtés et ouverte vers le Pacifique à l’est, sa forme ressemble à une pelle à poussière. Les précipitations annuelles atteignent 2 500 à 3 000 millimètres dans la plaine et jusqu’à 5 500 millimètres en montagne.](https://upload.wikimedia.org/wikipedia/commons/7/70/Yilan_Plain_and_Gueishan_Island_2019_%28cropped%29.jpg)
-_La plaine de Lanyang et l’île Guishan, 2019. Photo : 曾成訓 Tseng, [CC BY 2.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg)._
+![La plaine de Lanyang et l’île Guishan, 2019. Entourée de montagnes sur trois côtés et ouverte vers le Pacifique à l’est, sa forme ressemble à une pelle à poussière. Les précipitations annuelles atteignent 2 500 à 3 000 millimètres dans la plaine et jusqu’à 5 500 millimètres en montagne.](/article-images/geography/yilan-hero.jpg)
+_La plaine de Lanyang et l’île Guishan, 2019. Photo : 曾成訓 Tseng, [CC BY 2.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg).\_
 
 La petite île qui flotte dans le Pacifique est l’île Guishan. Elle se trouve à environ 10 kilomètres du port de Wushi, à Toucheng ; elle mesure 3,1 kilomètres d’est en ouest, 1,6 kilomètre du nord au sud, et couvre 2,841 kilomètres carrés[^11]. C’est encore un volcan actif. Au cours des 7 000 dernières années, au moins quatre éruptions y sont attestées ; les sources chaudes et fumerolles sulfureuses sont toujours actives ; l’île est principalement composée de coulées de lave andésitique et de roches pyroclastiques[^11].
 
@@ -232,9 +247,9 @@ La prochaine fois que vous irez à Yilan, n’allez pas seulement aux sources ch
 
 ## Sources des images
 
-Cet article utilise six images sous licence CC de Wikimedia Commons. L’image de couverture est [Yilan Plain and Gueishan Island 2019 (cropped)](https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg)（曾成訓 Tseng，[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)，vue aérienne de la plaine de Lanyang et de l’île Guishan).
+Cet article utilise six images sous licence CC de Wikimedia Commons. L’image de couverture est [Yilan Plain and Gueishan Island 2019 (cropped)](<https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg>)（曾成訓 Tseng，[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)，vue aérienne de la plaine de Lanyang et de l’île Guishan).
 
-Les images intégrées sont, dans l’ordre : [June 25, 2008 Hsuehshan Tunnel](https://commons.wikimedia.org/wiki/File:June_25,_2008_Hsuehshan_Tunnel.jpg)（pacificmorningpost，[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)，entrée du tunnel de Xueshan）；[Paddy field, Yilan 01](https://commons.wikimedia.org/wiki/File:Paddy_field,_Yilan_01.jpg)（Bernard Gagnon / Bgag，[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)，rizières de la plaine de Lanyang）；[Sunrise over Taipingshan National Forest Recreation Area](https://commons.wikimedia.org/wiki/File:Sunrise_over_Taipingshan_National_Forest_Recreation_Area.jpg)（Pai-Shih Lee，[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)，lever de soleil à Taipingshan）；[Jiaoxi 20221105](https://commons.wikimedia.org/wiki/File:Jiaoxi_20221105.jpg)（Yu tptw，[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)，paysage urbain du secteur de réaménagement sanitaire de Jiaoxi）；[Dongshan River Water Park (Yilan, Taiwan)](https://commons.wikimedia.org/wiki/File:Dongshan_River_Water_Park_(Yilan,_Taiwan).JPG)（Gpdprince，[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)，parc aquatique de la rivière Dongshan）.
+Les images intégrées sont, dans l’ordre : [June 25, 2008 Hsuehshan Tunnel](https://commons.wikimedia.org/wiki/File:June_25,_2008_Hsuehshan_Tunnel.jpg)（pacificmorningpost，[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)，entrée du tunnel de Xueshan）；[Paddy field, Yilan 01](https://commons.wikimedia.org/wiki/File:Paddy_field,_Yilan_01.jpg)（Bernard Gagnon / Bgag，[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)，rizières de la plaine de Lanyang）；[Sunrise over Taipingshan National Forest Recreation Area](https://commons.wikimedia.org/wiki/File:Sunrise_over_Taipingshan_National_Forest_Recreation_Area.jpg)（Pai-Shih Lee，[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)，lever de soleil à Taipingshan）；[Jiaoxi 20221105](https://commons.wikimedia.org/wiki/File:Jiaoxi_20221105.jpg)（Yu tptw，[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)，paysage urbain du secteur de réaménagement sanitaire de Jiaoxi）；[Dongshan River Water Park (Yilan, Taiwan)](<https://commons.wikimedia.org/wiki/File:Dongshan_River_Water_Park_(Yilan,_Taiwan).JPG>)（Gpdprince，[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)，parc aquatique de la rivière Dongshan）.
 
 ## Matériel vidéo
 

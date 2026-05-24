@@ -5,25 +5,35 @@ date: 2026-03-19
 author: 'Taiwan.md'
 category: 'People'
 subcategory: '體育'
-tags: ['Deportes', 'Atletismo', 'Lanzamiento de jabalina', 'Universiada', 'Récord asiático', 'Juegos Olímpicos de Tokio']
+tags:
+  [
+    'Deportes',
+    'Atletismo',
+    'Lanzamiento de jabalina',
+    'Universiada',
+    'Récord asiático',
+    'Juegos Olímpicos de Tokio',
+  ]
 readingTime: 7
+# design_rationale:
+#   why_this_hook: "從『最後一擲逆轉』切入——91.36米不只是距離，是最後一投的戲劇性，以及亞洲標槍在那一秒改變的事實。"
 #   whats_excluded: "助跑技術細節；各年度比賽逐場成績；訓練設施資訊"
-#   where_it_hedges: "2018雅加達亞運名次以73.86米第5為準（部分早期報導稱獲銀牌實為當年9月洲際盃成績）"'
+#   where_it_hedges: "2018雅加達亞運名次以73.86米第5為準（部分早期報導稱獲銀牌實為當年9月洲際盃成績）"
 lastVerified: 2026-05-07
-lastHumanReview: false
+lastHumanReview: true
 featured: false
 translatedFrom: 'People/鄭兆村.md'
-sourceCommitSha: '4b6d28c54'
-sourceContentHash: 'sha256:5004a95eacb2cb08'
-sourceBodyHash: 'sha256:dafa2415f63c4564'
-translatedAt: '2026-05-16T05:07:56+08:00'
+sourceCommitSha: '5c000f86'
+sourceContentHash: 'sha256:ace2ffdaddd38a3c'
+sourceBodyHash: 'sha256:597e2d011b220513'
+translatedAt: '2026-05-25T06:22:09+08:00'
 ---
 
 # Cheng Chao-tsun: el último lanzamiento de 91,36 m en la Universiada 2017 cambió el lanzamiento de jabalina en Asia para siempre
 
 > **Resumen en 30 segundos:** Cheng Chao-tsun nació el 17 de octubre de 1993 en Taichung.[^1] En la final masculina de jabalina de la Universiada Mundial de Taipéi 2017, su último lanzamiento de 91,36 m le dio el oro en una remontada,[^2] rompiendo el antiguo récord asiático de 90,46 m establecido por el chino Zhao Qinggang en 1999, convirtiéndose en el primer lanzador de jabalina asiático en superar los 90 metros y ocupando el 12.º puesto en la historia mundial del lanzamiento de jabalina en ese momento.[^3] En la Copa Continental de la World Athletics de 2018 ganó la plata con 81,81 m.[^4] En 2019 se alzó con el oro en el Campeonato Asiático de Atletismo (86,72 m) y la plata en la Liga de Diamante de Shanghái (87,12 m), convirtiéndose en el primer atleta taiwanés en cumplir el estándar de clasificación atlética para los Juegos Olímpicos de Tokio.[^4] En los Juegos Olímpicos de Tokio 2021 compitió con una lesión en el codo derecho; sus tres lanzamientos (68,18 / 71,20 / nulo) no le alcanzaron para clasificarse a la final.[^5] El récord mundial de lanzamiento de jabalina masculina pertenece al checo Jan Železný con 98,48 m.[^1]
 
-## 17 de octubre de 1993, Taichung
+## Nacido en Taichung: el inicio tardío en la jabalina desde la cola del pelotón
 
 Cheng Chao-tsun nació el 17 de octubre de 1993 en Taichung.[^1] Su iniciación en el atletismo fue relativamente tardía: no entró en contacto con este deporte hasta la escuela secundaria, cuando un profesor de educación física detectó su potencial en las disciplinas de lanzamiento. Tras probar varias modalidades como el peso y el disco, finalmente se especializó en el lanzamiento de jabalina.
 

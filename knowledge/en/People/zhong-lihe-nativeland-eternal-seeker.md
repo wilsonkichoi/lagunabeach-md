@@ -1,25 +1,25 @@
 ---
-title: "Zhong Lihe: Meinong 1915, the Writer Who Fell in a Pool of Blood"
+title: 'Zhong Lihe: Meinong 1915, the Writer Who Fell in a Pool of Blood'
 description: "Born on December 15, 1915, into a Hakka family in Meinong, Kaohsiung. Went to Northeast China in 1938 and returned to Taiwan in 1946. Representative works: *Lishan Farm* (novel), *The Native* (short story, written in 1959), and *A Couple in Poverty*. Known as 'the writer who fell in a pool of blood,' often called the 'Father of Taiwanese Nativist Literature' (a title that is disputed). Died of hemoptysis on August 4, 1960, at the age of 44."
 date: 2026-03-19
-author: "Taiwan.md"
-category: "People"
-subcategory: "文學"
-tags: ["文學", "鄉土文學", "原鄉人", "笠山農場", "美濃", "客家"]
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '文學'
+tags: ['文學', '鄉土文學', '原鄉人', '笠山農場', '美濃', '客家']
 readingTime: 7
 lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
-translatedFrom: "People/鍾理和.md"
-sourceCommitSha: "0f8fae0ae"
-sourceContentHash: "sha256:cddbfe1c856d1966"
-sourceBodyHash: "sha256:59814996cd0ea2c6"
-translatedAt: "2026-05-20T05:08:27+08:00"
+translatedFrom: 'People/鍾理和.md'
+sourceCommitSha: '5c000f86'
+sourceContentHash: 'sha256:336b96e510e804d3'
+sourceBodyHash: 'sha256:55e5e9ef72471788'
+translatedAt: '2026-05-24T22:20:27Z'
 ---
 
 # Zhong Lihe: Meinong 1915, the Writer Who Fell in a Pool of Blood
 
-> **30-second overview:** Zhong Lihe was born on December 15, 1915, into a Hakka family in Meinong, Kaohsiung.[^1] He went to Northeast China in 1938 to make a living and returned to Taiwan in 1946.[^1] His representative works include *Lishan Farm* (novel), *The Native* (short story, written in 1959), and *A Couple in Poverty*.[^1] He is known as "the writer who fell in a pool of blood" and is often called the "Father of Taiwanese Nativist Literature" (a title that is disputed; Lai He is widely recognized as the father of modern Taiwanese literature).[^2] On August 4, 1960, he died of hemoptysis while revising a manuscript, at the age of 44.[^1]
+> **30-second overview:** Zhong Lihe was born on December 15, 1915, into a Hakka family in Meinong, Kaohsiung.[^1] He went to Northeast China in 1938 to make a living and returned to Taiwan in 1946.[^1] His representative works include _Lishan Farm_ (novel), _The Native_ (short story, written in 1959), and _A Couple in Poverty_.[^1] He is known as "the writer who fell in a pool of blood" and is often called the "Father of Taiwanese Nativist Literature" (a title that is disputed; Lai He is widely recognized as the father of modern Taiwanese literature).[^2] On August 4, 1960, he died of hemoptysis while revising a manuscript, at the age of 44.[^1]
 
 ## Hakka Roots in Meinong, Kaohsiung
 
@@ -35,15 +35,15 @@ In 1938, at the age of 23, Zhong Lihe went to Northeast China (Dalian, Shenyang,
 
 During those eight years in Northeast China, Zhong Lihe lived as a Taiwanese on the soil of the so-called "motherland," only to discover that he was neither regarded as Chinese nor able to return to Taiwan. This experience of double marginalization gave him a visceral, embodied understanding of the question of belonging, which later transformed into his persistent interrogation of the concept of "native land."
 
-## *Lishan Farm*: A True Portrait of Rural Taiwan
+## _Lishan Farm_: A True Portrait of Rural Taiwan
 
-*Lishan Farm* is Zhong Lihe's most important novel.[^1] Set in a Hakka farming village, it depicts the struggle of peasants surviving on barren land. Zhong himself came from a farming family and had firsthand experience of rural poverty. His portrayals of peasants are not idealized, and the work is considered an important precursor to Taiwanese nativist literature.
+_Lishan Farm_ is Zhong Lihe's most important novel.[^1] Set in a Hakka farming village, it depicts the struggle of peasants surviving on barren land. Zhong himself came from a farming family and had firsthand experience of rural poverty. His portrayals of peasants are not idealized, and the work is considered an important precursor to Taiwanese nativist literature.
 
-The significance of *Lishan Farm* in the history of Taiwanese literature lies not only in its early date but in the fact that its rural writing is free from the outside gaze of urban intellectuals. He was not someone who "went to the countryside to look around" and then wrote for urban readers—he grew from that land, and what he wrote was his own reality. This internal perspective later influenced the scope of Taiwanese nativist writing.
+The significance of _Lishan Farm_ in the history of Taiwanese literature lies not only in its early date but in the fact that its rural writing is free from the outside gaze of urban intellectuals. He was not someone who "went to the countryside to look around" and then wrote for urban readers—he grew from that land, and what he wrote was his own reality. This internal perspective later influenced the scope of Taiwanese nativist writing.
 
-## *The Native*: A Short Story Written in 1959
+## _The Native_: A Short Story Written in 1959
 
-*The Native* is a short story Zhong Lihe wrote based on his own experience of displacement.[^1] Written in 1959, it is one of the most important works from the final stage of his life. In the story, "native land" refers to a spiritual home; the place called Meinong is only the starting point.
+_The Native_ is a short story Zhong Lihe wrote based on his own experience of displacement.[^1] Written in 1959, it is one of the most important works from the final stage of his life. In the story, "native land" refers to a spiritual home; the place called Meinong is only the starting point.
 
 As a spiritual concept, "native land" in Zhong Lihe's writing carries a unique dialectic: he spent eight years in "China" yet felt no sense of belonging, and only after returning to Meinong did he realize that the true native land is an emotional attachment to the soil and its language, not a geographic location. This reverse discovery gives his concept of "native land" a unique philosophical depth in Taiwanese literature.
 
@@ -85,12 +85,12 @@ From a Hakka farming home in Meinong, to the drift of Northeast China, to the so
 
 ## References
 
-[^1]: [Wikipedia: Zhong Lihe](https://zh.wikipedia.org/zh-tw/鍾理和) — Confirms birth on December 15, 1915, in Meinong, Kaohsiung; death on August 4, 1960 (age 44); residence in Northeast China from 1938 to 1946; *Lishan Farm* (novel), *The Native* (short story, written in 1959), *A Couple in Poverty*; the epithet "the writer who fell in a pool of blood."
+[^1]: [Wikipedia: Zhong Lihe](https://zh.wikipedia.org/zh-tw/鍾理和) — Confirms birth on December 15, 1915, in Meinong, Kaohsiung; death on August 4, 1960 (age 44); residence in Northeast China from 1938 to 1946; _Lishan Farm_ (novel), _The Native_ (short story, written in 1959), _A Couple in Poverty_; the epithet "the writer who fell in a pool of blood."
 
 [^2]: [China Times: Lai He, Father of Modern Taiwanese Literature](https://www.chinatimes.com/realtimenews/20200519005648-260405) — Confirms that the title "Father of Modern Taiwanese Literature" belongs to Lai He; Zhong Lihe is usually called the "Father of Taiwanese Nativist Literature" (a title that is also disputed).
 
 [^3]: [Zhong Lihe Cultural and Educational Foundation](http://www.jhong-li-ho.org.tw) — Zhong Lihe's biography, literary spirit, and works, including accounts related to "I want to finish writing my life before I die" (further confirmation of the original source needed).
 
-[^4]: [National Museum of Taiwan Literature: Zhong Lihe Digital Archive](https://www.nmtl.gov.tw/) — Zhong Lihe's works and biographical materials, including records of writing dates and *The Native*.
+[^4]: [National Museum of Taiwan Literature: Zhong Lihe Digital Archive](https://www.nmtl.gov.tw/) — Zhong Lihe's works and biographical materials, including records of writing dates and _The Native_.
 
 [^5]: [Kaohsiung Zhong Lihe Memorial Hall](https://heritage.khcc.gov.tw/home02.aspx?ID=$7001&IDK=2&AP=$7001_HISTORY-0) — Meinong Zhong Lihe Memorial Hall, with detailed biographical exhibition materials.

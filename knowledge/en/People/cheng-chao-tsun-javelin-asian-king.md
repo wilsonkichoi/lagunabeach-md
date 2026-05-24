@@ -17,11 +17,11 @@ author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-05-07
 translatedFrom: 'People/鄭兆村.md'
-sourceCommitSha: '4b6d28c54'
-sourceContentHash: 'sha256:5004a95eacb2cb08'
-sourceBodyHash: 'sha256:dafa2415f63c4564'
-translatedAt: '2026-05-13T09:30:28+08:00'
-lastHumanReview: false
+sourceCommitSha: '5c000f86'
+sourceContentHash: 'sha256:ace2ffdaddd38a3c'
+sourceBodyHash: 'sha256:597e2d011b220513'
+translatedAt: '2026-05-24T22:20:27Z'
+lastHumanReview: true
 readingTime: 8
 ---
 
@@ -29,19 +29,19 @@ readingTime: 8
 
 > **30-Second Overview:** Cheng Chao-tsun was born October 17, 1993 in Taichung.[^1] In the men's javelin final at the 2017 Taipei Universiade, his last throw of 91.36 meters reversed the standings to win gold,[^2] breaking the previous Asian record of 90.46 meters set by China's Zhao Qinggang in 1999 — making him the first Asian athlete to exceed 90 meters, ranked 12th in world javelin history at the time.[^3] At the 2018 IAAF Continental Cup he won silver at 81.81 meters.[^4] In 2019, he won gold at 86.72 meters at the Asian Athletics Championships and silver at 87.12 meters at the Diamond League Shanghai, becoming the first Taiwanese athlete to qualify for the Tokyo Olympics in track and field.[^4] At the 2021 Tokyo Olympics he competed with a right elbow injury, throwing 68.18m / 71.20m / failure — failing to advance to the final.[^5] The men's javelin world record is held by Czech athlete Jan Železný at 98.48 meters.[^1]
 
-## October 17, 1993, Taichung
+## Born in Taichung, a Late-Start Latecomer to Javelin in High School
 
 Cheng Chao-tsun was born October 17, 1993 in Taichung.[^1] His introduction to track and field came relatively late — he encountered the sport only in high school, when a PE teacher spotted his potential in throwing events. After trying shot put, discus, and other throwing disciplines, he ultimately chose to specialize in javelin.
 
 He attended National Taiwan University of Sport, where he developed in a more systematic training environment and steadily improved his technique.
 
-The nickname "Golden Right Arm" spread rapidly after his Universiade gold — but behind that nickname lies a counter-trend trajectory: coming to javelin late compared to other top Asian throwers, with a late-start clock by the standards of the sport. Cheng Chao-tsun was not a systematically cultivated elite prodigy from his early teen years. He ran a top-ranked result on a late-start timeline.
+The nickname "Golden Right Arm" spread rapidly after his Universiade gold, but behind that nickname lies a counter-trend trajectory: coming to javelin late compared to other top Asian throwers, with a late-start clock by the standards of the sport. Cheng Chao-tsun was not a systematically cultivated elite prodigy from his early teen years. He ran a top-ranked result on a late-start timeline.
 
 ## 2017 Taipei Universiade: The Last Throw
 
-In the men's javelin final at the 2017 Taipei Universiade, Cheng Chao-tsun carried the expectations of Taiwan's home crowd. On his last throw, he delivered a precise throwing motion — the javelin landed at 91.36 meters.[^2]
+In the men's javelin final at the 2017 Taipei Universiade, Cheng Chao-tsun, as the home athlete, took the stage under the watchful eyes of the Taiwanese crowd. On his last throw, he delivered a precise throwing motion — the javelin landed at 91.36 meters.[^2]
 
-That throw was a comeback — he won gold on his final attempt. Not only did 91.36 meters break Zhao Qinggang's 1999 Asian record of 90.46 meters, it made him **the first Asian athlete ever to exceed 90 meters**[^3] — ranked 12th in world javelin history at the time.[^3]
+That throw was a comeback. He won gold on his final attempt. Not only did 91.36 meters break Zhao Qinggang's 1999 Asian record of 90.46 meters, it made him **the first Asian athlete ever to exceed 90 meters**[^3] — ranked 12th in world javelin history at the time.[^3]
 
 ## What the Asian Record Means
 
@@ -53,13 +53,13 @@ These 91.36 meters redrew a boundary: **male Asian javelin throwers can compete 
 
 After winning the Universiade gold, Cheng entered the top of his career.
 
-**August 2018, Jakarta Asian Games**: Men's javelin final, 73.86 meters, ranked 5th.[^4] This performance was below expectations, and Taiwanese media carried considerable disappointment about "no medal" — but in professional throwing events, performance variability is extreme and a single competition's ranking cannot fully reflect an athlete's true level.
+**August 2018, Jakarta Asian Games**: Men's javelin final, 73.86 meters, ranked 5th.[^4] This performance was below expectations, and Taiwanese media carried considerable disappointment about "no medal"; but in professional throwing events, performance variability is extreme and a single competition's ranking cannot fully reflect an athlete's true level.
 
 **September 2018, IAAF Continental Cup**: Silver medal at 81.81 meters.[^4] This result helped him recover from the Asian Games disappointment and reclaim his international stage position.
 
 **April 2019, Asian Athletics Championships**: Gold medal at 86.72 meters.[^4]
 
-**May 2019, Diamond League Shanghai**: Silver medal at 87.12 meters.[^4] This result made him **the first Taiwanese athlete to qualify for the Tokyo Olympics in track and field** — an identity more historically significant than the silver medal itself, because it opened the door for Taiwan's track and field to the highest stage of the four-year Olympic cycle.
+**May 2019, Diamond League Shanghai**: Silver medal at 87.12 meters.[^4] This result made him **the first Taiwanese athlete to qualify for the Tokyo Olympics in track and field**. This identity is more historically significant than the silver medal itself, because it opened the door for Taiwan's track and field to the highest stage of the four-year Olympic cycle.
 
 ## Injuries as Constant Companion
 
@@ -77,23 +77,23 @@ Each time he returned from injury, he continued standing in the throwing circle 
 
 August 4, 2021. Men's javelin qualifying round at the Tokyo Olympics. Cheng Chao-tsun, carrying his right elbow injury, took the stage.[^5] Three throws: **68.18 meters** (first throw), **71.20 meters** (second throw), **third throw failed** — unable to reach the 83.50-meter qualifying threshold.
 
-After the competition, he expressed disappointment and mentioned possibly retiring after the 2022 Asian Games: **"I've probably had enough."**[^5] But that "had enough" did not actually become the ending — in 2023 he competed injured at the Taiwan Open and still won the javelin gold; in 2024, despite the knee injury, he chose to step away as an athlete temporarily while waiting for his body to recover, but has not announced formal retirement.
+After the competition, he expressed disappointment and mentioned possibly retiring after the 2022 Asian Games: **"I've probably had enough."**[^5] But that "had enough" did not actually become the ending. In 2023 he competed injured at the Taiwan Open and still won the javelin gold; in 2024, despite the knee injury, he chose to step away as an athlete temporarily while waiting for his body to recover, but has not announced formal retirement.
 
 ## The Coordinate of the World Record
 
 The men's javelin world record is 98.48 meters, held by Czech athlete Jan Železný.[^1] About 7 meters separates it from Cheng's 91.36 — but that gap is a target, not a conclusion.
 
-Among world-class javelin throwers, fewer than five can consistently sustain 90 meters or better. Cheng's 91.36 meters squeezed him into that small circle at the time — and the post-2017 injury trajectory robbed him of opportunities to sustain that height, but did not change the fact that **he had reached that position**.
+Among world-class javelin throwers, fewer than five can consistently sustain 90 meters or better. Cheng's 91.36 meters squeezed him into that small circle at the time. The post-2017 injury trajectory robbed him of opportunities to sustain that height, but did not change the fact that **he had reached that position**.
 
-**Common narrative → more precise reading**: Cheng Chao-tsun is often positioned around the peak moment of "91.36 meters on the last throw at the 2017 Universiade." The more precise reading: he is **the first athlete in Asian javelin history to prove that the 90-meter line could be crossed by an Asian thrower** — once that line was crossed, subsequent Asian athletes had a clear target. His career is not only personal glory; it is a historical inflection point in Asian javelin.
+**Common narrative → more precise reading**: Cheng Chao-tsun is often positioned around the peak moment of "91.36 meters on the last throw at the 2017 Universiade." The more precise reading: he is **the first athlete in Asian javelin history to prove that the 90-meter line could be crossed by an Asian thrower**. Once that line was crossed, subsequent Asian athletes had a clear target. His career is not only personal glory; it is a historical inflection point in Asian javelin.
 
-> 🎙️ **Editorial note**: The last throw of 91.36 meters will be replayed repeatedly — but more worth remembering is the training trajectory behind that throw: coming to javelin only in high school, systematic training at National Taiwan University of Sport, surviving multiple injuries before the Universiade. The poetic beauty of "Golden Right Arm" masks the real weight of that trajectory.
+> 🎙️ **Editorial note**: The last throw of 91.36 meters will be replayed repeatedly. But more worth remembering is the training trajectory behind that throw: coming to javelin only in high school, systematic training at National Taiwan University of Sport, surviving multiple injuries before the Universiade. The poetic beauty of "Golden Right Arm" masks the real weight of that trajectory.
 >
-> Cheng Chao-tsun's career shows a rare "single peak, then continued competition" shape. Many athletes rapidly disappear after their career high point; he has returned to the throwing circle again and again through recurring injuries — the Tokyo failure, the 2024 knee injury, and every "maybe retiring" hint, all deferred with a "try once more."
+> Cheng Chao-tsun's career shows a rare "single peak, then continued competition" shape. Many athletes rapidly disappear after their career high point; he has returned to the throwing circle again and again through recurring injuries. The Tokyo failure, the 2024 knee injury, and every "maybe retiring" hint, all deferred with a "try once more."
 >
-> 91.36 meters brought Asian men's javelin into a new era — that statement is not rhetoric. After him, Japanese, Indian, and Pakistani javelin throwers gradually broke through 90 meters, and Asian javelin moved from the periphery toward the center of international athletics. Cheng Chao-tsun is **the coordinate point on that historical inflection line**.
+> 91.36 meters brought Asian men's javelin into a new era. That statement is not rhetoric. After him, Japanese, Indian, and Pakistani javelin throwers gradually broke through 90 meters, and Asian javelin moved from the periphery toward the center of international athletics. Cheng Chao-tsun is **the coordinate point on that historical inflection line**.
 
-From Taichung, National Taiwan University of Sport, the last throw at the 2017 Universiade, qualifying for the 2019 Tokyo Olympics, competing injured at Tokyo 2021, to the 2024 knee re-injury at age 30 — Cheng Chao-tsun's career trajectory is the story of a late-start athlete running a top result, then extending a career through injury after injury. The number 91.36 meters will be forever beside his name; the fact of him continuing to step back into the throwing circle will extend beyond his name — telling future Asian javelin athletes where that line is, and how to spend an entire career reaching it.
+From Taichung, National Taiwan University of Sport, the last throw at the 2017 Universiade, qualifying for the 2019 Tokyo Olympics, competing injured at Tokyo 2021, to the 2024 knee re-injury at age 30, Cheng Chao-tsun's career trajectory is the story of a late-start athlete running a top result, then extending a career through injury after injury. The number 91.36 meters will be forever beside his name; the fact of him continuing to step back into the throwing circle will extend beyond his name: telling future Asian javelin athletes where that line is, and how to spend an entire career reaching it.
 
 **Further reading:** [Cheng Chao-tsun — Wikipedia](https://zh.wikipedia.org/zh-tw/鄭兆村) | [Liberty Times: Universiade Javelin Gold Report](https://sports.ltn.com.tw/news/breakingnews/2175366)
 

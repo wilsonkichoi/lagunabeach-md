@@ -1,20 +1,28 @@
 ---
-title: "Steve Chang: egresado de la Facultad de Matemáticas de la Universidad Fu Jen, quien vendió software antivirus al mundo entero"
-description: "Nacido en 1954, Steve Chang se graduó en la Facultad de Matemáticas de la Universidad Fu Jen y posteriormente obtuvo una maestría en informática en la Universidad Lehigh de Estados Unidos. En 1988, a los 34 años, fundó Trend Micro junto con Eva Chen en Los Ángeles, Estados Unidos. El 18 de agosto de 1998, Trend Micro cotizó en la Bolsa de Valores de Tokio (4704) y ese mismo año en la Bolsa de Nasdaq, convirtiéndose en la primera empresa de software taiwanesa en cotizar en Japón. En 2007 fundó Flow International y en 2019 estableció la Fundación Ming-Yi, transitando de la ciberseguridad al emprendimiento social."
+title: 'Steve Chang: egresado de la Facultad de Matemáticas de la Universidad Fu Jen, quien vendió software antivirus al mundo entero'
+description: 'Nacido en 1954, Steve Chang se graduó en la Facultad de Matemáticas de la Universidad Fu Jen y posteriormente obtuvo una maestría en informática en la Universidad Lehigh de Estados Unidos. En 1988, a los 34 años, fundó Trend Micro junto con Eva Chen en Los Ángeles, Estados Unidos. El 18 de agosto de 1998, Trend Micro cotizó en la Bolsa de Valores de Tokio (4704) y ese mismo año en la Bolsa de Nasdaq, convirtiéndose en la primera empresa de software taiwanesa en cotizar en Japón. En 2007 fundó Flow International y en 2019 estableció la Fundación Ming-Yi, transitando de la ciberseguridad al emprendimiento social.'
 date: 2026-03-19
-author: "Taiwan.md"
-category: "People"
-subcategory: "科技與企業"
-tags: ["科技與企業", "Trend Micro", "Ciberseguridad", "Industria del software", "Internacionalización", "Emprendimiento social"]
+author: 'Taiwan.md'
+category: 'People'
+subcategory: '科技與企業'
+tags:
+  [
+    '科技與企業',
+    'Trend Micro',
+    'Ciberseguridad',
+    'Industria del software',
+    'Internacionalización',
+    'Emprendimiento social',
+  ]
 readingTime: 7
 lastVerified: 2026-05-07
-lastHumanReview: false
+lastHumanReview: true
 featured: false
-translatedFrom: "People/張明正.md"
-sourceCommitSha: "0ea5d5d42"
-sourceContentHash: "sha256:365bf8fd6ef321e1"
-sourceBodyHash: "sha256:3b4ede69ff2b8fe3"
-translatedAt: "2026-05-17T05:34:54+08:00"
+translatedFrom: 'People/張明正.md'
+sourceCommitSha: '5c000f86'
+sourceContentHash: 'sha256:b0cb0f622b66732f'
+sourceBodyHash: 'sha256:f8f0ae0bdbf94c79'
+translatedAt: '2026-05-25T06:22:09+08:00'
 ---
 
 # Steve Chang: egresado de la Facultad de Matemáticas de la Universidad Fu Jen, quien vendió software antivirus al mundo entero
@@ -29,13 +37,13 @@ En la década de 1980, cuando las computadoras personales apenas comenzaban a po
 
 La formación en matemáticas tiene una correspondencia directa con la lógica de la ciberseguridad: el núcleo de los problemas de seguridad informática reside en algoritmos y análisis estadístico, y la identificación de firmas de virus en un software antivirus exige precisión en la lógica de comparación, no solo destreza en programación. Esta base disciplinaria es la razón fundamental por la que Steve Chang pudo comprender los productos de software a nivel técnico.
 
-## 1988: Trend Micro, Los Ángeles
+## Fundación en Los Ángeles: a los 34 años con Eva Chen en 1988
 
 En 1988, Steve Chang, a sus 34 años, y su esposa Eva Chen fundaron Trend Micro en Los Ángeles, Estados Unidos, enfocándose en el desarrollo de software para computadoras personales.[^1] En los inicios de la empresa, con fondos limitados, Chang desempeñó simultáneamente los roles de programador, vendedor y agente de servicio al cliente.
 
 La elección de Los Ángeles en lugar de Taiwán como sede de fundación tenía una lógica de mercado clara: a finales de la década de 1980, la industria del software en Taiwán se centraba en el modelo de manufactura por encargo (OEM), careciendo de un ecosistema para desarrollar software de consumo. Los Ángeles les permitía estar más cerca del mercado norteamericano y facilitaba el acceso a la amplia comunidad de usuarios de computadoras personales de ascendencia asiática. Esta elección de punto de partida fue una condición temprana para que Trend Micro pudiera desplegarse posteriormente en Norteamérica, Europa y Japón de manera simultánea.
 
-## 1991: PC-cillin
+## PC-cillin: la puerta de entrada al mercado de consumo
 
 En 1991, Trend Micro lanzó el software antivirus PC-cillin, centrado en funciones básicas de escaneo y protección contra virus. Este producto obtuvo éxito en el mercado asiático y consolidó el reconocimiento de marca en Europa y Norteamérica.
 
@@ -43,7 +51,7 @@ La estrategia de mercado de PC-cillin se dirigió a usuarios de computadoras per
 
 (Nota: No fue hasta 2008, con el lanzamiento de la plataforma de seguridad en la nube Smart Protection Network, que Trend Micro entró formalmente en la arquitectura de escaneo antivirus basada en la nube. El PC-cillin de 1991 era un software de escaneo tradicional instalado localmente.)
 
-## 1998: La Bolsa de Valores de Tokio, la primera empresa de software taiwanesa
+## Cotización en la Bolsa de Tokio (4704): la primera empresa de software taiwanesa en 1998
 
 El 18 de agosto de 1998, Trend Micro cotizó en la Bolsa de Valores de Tokio (código 4704) y ese mismo año también en la Bolsa de Nasdaq.[^2] Fue la primera empresa de software taiwanesa en cotizar en Japón, lo que no solo le permitió recaudar fondos para su desarrollo, sino que también constituyó un hito en la internacionalización de la industria del software taiwanesa.
 
@@ -51,13 +59,13 @@ La elección de Tokio en lugar de Nueva York como sede de su primera oferta púb
 
 Las empresas de software taiwanesas de aquella época seguían mayoritariamente la ruta de la manufactura por encargo de hardware; la decisión de Chang de apostar por el software y cotizar directamente en el extranjero fue un camino minoritario en la historia tecnológica de Taiwán. La cotización en Tokio en 1998 no fue solo un evento de mercado de capitales, sino una demostración contundente de que la industria del software taiwanesa "podía existir de manera independiente en los mercados de capitales internacionales".
 
-## 2008: La transición tecnológica hacia la seguridad en la nube
+## La transición a la nube de 2008: del escaneo local a Smart Protection Network
 
 En 2008, Trend Micro lanzó la plataforma de seguridad en la nube Smart Protection Network, integrando múltiples tecnologías de protección como evaluación de reputación de archivos, evaluación de reputación de red y monitoreo de comportamiento.[^4] Esta arquitectura permitió a Trend Micro lograr avances significativos en el mercado de ciberseguridad empresarial.
 
 La transición tecnológica del escaneo local a la protección basada en la nube tuvo lugar en un momento en que los teléfonos inteligentes comenzaban a popularizarse y la complejidad de las amenazas a redes empresariales aumentaba con rapidez. Trend Micro aprovechó esa ventana de oportunidad, utilizando una arquitectura en la nube para resolver la limitación fundamental del software antivirus tradicional en la respuesta a amenazas en tiempo real. Esta fue la segunda transformación que Steve Chang lideró en la compañía, pasando del mercado de consumo al de ciberseguridad empresarial.
 
-## A partir de 2007: Flow International y la Fundación Ming-Yi
+## Flow International y la Fundación Ming-Yi: el giro a mitad de la carrera empresarial
 
 En 2007, Steve Chang fundó Flow International, enfocada en el modelo de empresa social —utilizando medios comerciales para resolver problemas sociales y conectando a grupos vulnerables con el mercado laboral—. En 2019 estableció la Fundación Ming-Yi.[^3]
 

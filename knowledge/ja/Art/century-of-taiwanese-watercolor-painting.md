@@ -13,10 +13,10 @@ lastHumanReview: '# design_rationale:
 #   where_it_hedges: "蓝荫鼎1971十大水彩：引述名称为『欧美艺术评论学会』，确切组织名可参阅鸿禧基金会原始记录"'
 featured: false
 translatedFrom: 'Art/台灣水彩畫的百年流變.md'
-sourceCommitSha: '0f8fae0ae'
-sourceContentHash: 'sha256:0b51fe43b7a1bf00'
-sourceBodyHash: 'sha256:de90bfe09eb0461c'
-translatedAt: '2026-05-24T05:06:32+08:00'
+sourceCommitSha: '5c000f86'
+sourceContentHash: 'sha256:ccfa9bae3ef3f37a'
+sourceBodyHash: 'sha256:0cf1ac8d26164b24'
+translatedAt: '2026-05-24T22:21:12Z'
 ---
 
 # 台湾水彩画の百年の変遷

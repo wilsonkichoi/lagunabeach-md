@@ -1,20 +1,35 @@
 ---
-title: "宜蘭県：二度、自らの運命を選び、蘭陽平原はそれ以来後戻りしませんでした"
-description: "1987 年 12 月 13 日の夜、陳定南は華視のスタジオで王永慶の向かいに座り、六軽を蘭陽平原の外に押しとどめました。19 年後の 2006 年 6 月 16 日、雪山トンネルが開通し、台北から宜蘭までの所要時間は 2 時間から 40 分に短縮されました。その後、開通から 10 年以内にこの米倉には 6,137 棟の農舍が建ち、1 坪あたりの地価は 4,000 元から 20,000 元へ跳ね上がり、2023 年には宜蘭県だけで台湾全体の 35% の農舍建築許可が発給されました。一つの地域が歴史の重要な瞬間に二度選択を行い、蘭陽平原はその代償と贈り物をともに引き受けました。"
+title: '宜蘭県：二度、自らの運命を選び、蘭陽平原はそれ以来後戻りしませんでした'
+description: '1987 年 12 月 13 日の夜、陳定南は華視のスタジオで王永慶の向かいに座り、六軽を蘭陽平原の外に押しとどめました。19 年後の 2006 年 6 月 16 日、雪山トンネルが開通し、台北から宜蘭までの所要時間は 2 時間から 40 分に短縮されました。その後、開通から 10 年以内にこの米倉には 6,137 棟の農舍が建ち、1 坪あたりの地価は 4,000 元から 20,000 元へ跳ね上がり、2023 年には宜蘭県だけで台湾全体の 35% の農舍建築許可が発給されました。一つの地域が歴史の重要な瞬間に二度選択を行い、蘭陽平原はその代償と贈り物をともに引き受けました。'
 date: 2026-05-18
-author: "Taiwan.md Contributors"
-category: "Geography"
-subcategory: "縣市"
-tags: ["宜蘭", "宜蘭県", "蘭陽平原", "雪山トンネル", "陳定南", "反六軽", "林宅血案", "慈林", "クバラン族", "亀山島", "太平山", "童玩節", "22県市シリーズ"]
+author: 'Taiwan.md Contributors'
+category: 'Geography'
+subcategory: '縣市'
+tags:
+  [
+    '宜蘭',
+    '宜蘭県',
+    '蘭陽平原',
+    '雪山トンネル',
+    '陳定南',
+    '反六軽',
+    '林宅血案',
+    '慈林',
+    'クバラン族',
+    '亀山島',
+    '太平山',
+    '童玩節',
+    '22県市シリーズ',
+  ]
 readingTime: 15
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
-translatedFrom: "Geography/宜蘭縣.md"
-sourceCommitSha: "33bb24ddf"
-sourceContentHash: "sha256:ad8a25388b06bfb5"
-sourceBodyHash: "sha256:8df3c834b310fa20"
-translatedAt: "2026-05-18T05:08:08+08:00"
+translatedFrom: 'Geography/宜蘭縣.md'
+sourceCommitSha: '5c000f86'
+sourceContentHash: 'sha256:0c0188ce2800d482'
+sourceBodyHash: 'sha256:4202940a98814ea7'
+translatedAt: '2026-05-24T22:21:12Z'
 ---
 
 # 宜蘭県：二度、自らの運命を選び、蘭陽平原はそれ以来後戻りしませんでした
@@ -63,8 +78,8 @@ translatedAt: "2026-05-18T05:08:08+08:00"
 
 宜蘭県全体の面積は 2,143.6251 平方キロメートルで、1 市（宜蘭市）+ 3 鎮（羅東、蘇澳、頭城）+ 8 郷（礁溪、壯圍、員山、冬山、五結、三星、大同、南澳）、計 12 の郷鎮市を管轄しています[^10]。山地は県域の 85% を占め、平原は 15% にすぎません。**人口はすべてこの 15% に押し込まれています**。2026 年 4 月の戸籍人口は 448,763 人です[^10]。
 
-![蘭陽平原と亀山島、2019 年。三方を山に囲まれ、東側は太平洋へ開き、形は箕に似ています。年降水量は平原で 2,500–3,000 ミリ、山地では最高 5,500 ミリです。](https://upload.wikimedia.org/wikipedia/commons/7/70/Yilan_Plain_and_Gueishan_Island_2019_%28cropped%29.jpg)
-_蘭陽平原と亀山島、2019 年。Photo: 曾成訓 Tseng, [CC BY 2.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg)._
+![蘭陽平原と亀山島、2019 年。三方を山に囲まれ、東側は太平洋へ開き、形は箕に似ています。年降水量は平原で 2,500–3,000 ミリ、山地では最高 5,500 ミリです。](/article-images/geography/yilan-hero.jpg)
+_蘭陽平原と亀山島、2019 年。Photo: 曾成訓 Tseng, [CC BY 2.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg).\_
 
 太平洋に浮かぶあの小島が亀山島です。頭城の烏石港から約 10 キロメートル、東西幅 3.1 キロメートル、南北長 1.6 キロメートル、面積 2.841 平方キロメートルです[^11]。今も活火山であり、過去 7,000 年の間に少なくとも 4 回の噴火記録があり、温泉と噴気孔はいまも活動しています。主体は安山岩溶岩流と火山砕屑岩です[^11]。
 
@@ -232,9 +247,9 @@ _冬山河親水公園、2015-11-14。Photo: Gpdprince, [CC BY-SA 4.0 via Wikime
 
 ## 画像出典
 
-本稿は Wikimedia Commons の CC ライセンス画像 6 点を使用しています。Hero は [Yilan Plain and Gueishan Island 2019 (cropped)](https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg)（曾成訓 Tseng、[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)、蘭陽平原と亀山島の空撮）です。
+本稿は Wikimedia Commons の CC ライセンス画像 6 点を使用しています。Hero は [Yilan Plain and Gueishan Island 2019 (cropped)](<https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg>)（曾成訓 Tseng、[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)、蘭陽平原と亀山島の空撮）です。
 
-Inline scene 画像は順に、[June 25, 2008 Hsuehshan Tunnel](https://commons.wikimedia.org/wiki/File:June_25,_2008_Hsuehshan_Tunnel.jpg)（pacificmorningpost、[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)、雪山トンネル入口）、[Paddy field, Yilan 01](https://commons.wikimedia.org/wiki/File:Paddy_field,_Yilan_01.jpg)（Bernard Gagnon / Bgag、[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)、蘭陽平原の水田）、[Sunrise over Taipingshan National Forest Recreation Area](https://commons.wikimedia.org/wiki/File:Sunrise_over_Taipingshan_National_Forest_Recreation_Area.jpg)（Pai-Shih Lee、[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)、太平山の日の出）、[Jiaoxi 20221105](https://commons.wikimedia.org/wiki/File:Jiaoxi_20221105.jpg)（Yu tptw、[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)、礁溪健康重劃区の街景）、[Dongshan River Water Park (Yilan, Taiwan)](https://commons.wikimedia.org/wiki/File:Dongshan_River_Water_Park_(Yilan,_Taiwan).JPG)（Gpdprince、[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)、冬山河親水公園）です。
+Inline scene 画像は順に、[June 25, 2008 Hsuehshan Tunnel](https://commons.wikimedia.org/wiki/File:June_25,_2008_Hsuehshan_Tunnel.jpg)（pacificmorningpost、[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)、雪山トンネル入口）、[Paddy field, Yilan 01](https://commons.wikimedia.org/wiki/File:Paddy_field,_Yilan_01.jpg)（Bernard Gagnon / Bgag、[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)、蘭陽平原の水田）、[Sunrise over Taipingshan National Forest Recreation Area](https://commons.wikimedia.org/wiki/File:Sunrise_over_Taipingshan_National_Forest_Recreation_Area.jpg)（Pai-Shih Lee、[CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)、太平山の日の出）、[Jiaoxi 20221105](https://commons.wikimedia.org/wiki/File:Jiaoxi_20221105.jpg)（Yu tptw、[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)、礁溪健康重劃区の街景）、[Dongshan River Water Park (Yilan, Taiwan)](<https://commons.wikimedia.org/wiki/File:Dongshan_River_Water_Park_(Yilan,_Taiwan).JPG>)（Gpdprince、[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)、冬山河親水公園）です。
 
 ## 映像素材
 

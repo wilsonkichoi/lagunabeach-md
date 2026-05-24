@@ -8,30 +8,30 @@ subcategory: '體育'
 author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-05-07
-lastHumanReview: false
+lastHumanReview: true
 readingTime: 7
 # design_rationale:
 #   why_this_hook: "從傷病和里程碑的對立切入——他不是一帆風順的英雄，他是一個手肘一再說不、卻還是投出台灣第一的選手。"
 #   whats_excluded: "各次手術的醫療細節；回台後各球隊生涯的逐年記錄；個人資產與薪資"
 #   where_it_hedges: "道奇簽約確切年份（部分資料說2001，另有說法不同）；中華職棒選秀年份細節"
 translatedFrom: 'People/郭泓志.md'
-sourceCommitSha: '0ea5d5d42'
-sourceContentHash: 'sha256:aafb1ab932c7970a'
-sourceBodyHash: 'sha256:a29b92bbec37abec'
-translatedAt: '2026-05-09T14:29:10+08:00'
+sourceCommitSha: '5c000f86'
+sourceContentHash: 'sha256:b5f26a379a2884ba'
+sourceBodyHash: 'sha256:5be39826050da8b3'
+translatedAt: '2026-05-25T06:19:00+08:00'
 ---
 
 # Hong-Chih Kuo : premier coup de circuit et premier All-Star Game en MLB pour Taïwan, son coude disait non mais il continuait à lancer
 
 > **En 30 secondes :** Hong-Chih Kuo est né le 23 juillet 1981 à Tainan. Il est le quatrième joueur de baseball taïwanais à atteindre la MLB et le premier joueur de l'histoire de Taïwan à frapper un coup de circuit en Ligues majeures ainsi qu'à être sélectionné au All-Star Game de la MLB. Lanceur gaucher de relève clé pour les Los Angeles Dodgers, il a aidé l'équipe à atteindre la Série de championnat de la Ligue nationale (NLCS) en 2009, puis a établi en 2010 un record de la MLB avec 36 retraits consécutifs contre des frappeurs gauches, affichant une ERA de 1,20. Sa carrière a été interrompue à plusieurs reprises par des blessures au coude — cinq opérations au total — mais après chaque intervention, il est revenu sur le monticule.
 
-## 23 juillet 1981, Tainan
+## Né à Tainan, le don rare du lanceur gaucher
 
 Le 23 juillet 1981, Hong-Chih Kuo naît à Tainan.[^1] Il est gaucher naturel, et dans le baseball, les lanceurs gauchers constituent une ressource rare : ils possèdent un avantage angulaire naturel face aux frappeurs droits et représentent une denrée particulièrement recherchée sur le marché des lanceurs en MLB. Ce fait physique allait plus tard l'aider à accéder à la scène la plus difficile au monde.
 
 À l'adolescence, il fréquente le lycée Shanhua de Tainan, où sa puissance de balle rapide dépasse déjà le niveau de son groupe d'âge. Les dépisteurs de la Ligue professionnelle de baseball chinoise (CPBL) repèrent très tôt ce lanceur gaucher. Son talent est manifeste dès l'adolescence. La question est toujours la même : son coude pourra-t-il le porter jusqu'à la plus grande scène, et pour combien de temps. Il passera toute sa carrière à y répondre.
 
-Le contexte du développement du baseball taïwanais dans les années 1990 constitue l'émergence de Kuo : à cette époque, les joueurs taïwanais commencent à se faire une place en MLB, mais les cas de lanceurs gauchers taïwanais aux États-Unis sont quasi inexistants. L'apparition de Hong-Chih Kuo représente une intersection rare entre les ressources du baseball taïwanais et un talent à un poste spécifique — un don pour la main gauche combiné à une détermination totale.
+Le contexte du développement du baseball taïwanais dans les années 1990 constitue l'émergence de Kuo : à cette époque, les joueurs taïwanais commencent à se faire une place en MLB, mais les cas de lanceurs gauchers taïwanais aux États-Unis sont quasi inexistants. L'apparition de Hong-Chih Kuo représente une intersection rare entre les ressources du baseball taïwanais et un talent à un poste spécifique : un don pour la main gauche combiné à une détermination totale.
 
 Le besoin des équipes de MLB en lanceurs gauchers est structurel : la proportion de frappeurs gauchers en Ligues majeures est élevée, et l'angle latéral d'un gaucher perturbe le plus leur rythme de frappe. Un lanceur gaucher capable de contrôler ses lancers et dont la balle rapide est suffisamment rapide est bien plus rare sur le marché qu'un lanceur droit de niveau équivalent. Hong-Chih Kuo possédait précisément les conditions au cœur de cette demande structurelle.
 
@@ -43,19 +43,19 @@ La décision des Dodgers de le signer reposait sur un calcul d'investissement cl
 
 Le système des ligues mineures des Dodgers est un entonnoir de sélection impitoyable : chaque année, des centaines de joueurs sous contrat n'accèdent qu'en minorité aux Ligues majeures. Hong-Chih Kuo a gravi les échelons de cet entonnoir avec son talent de gaucher, tout en traînant ses problèmes de coude avec lui.
 
-La survie des joueurs de baseball taïwanais dans les ligues mineures comporte une difficulté structurelle rarement évoquée : la barrière de la langue, les différences culturelles, le manque de soutien des entraîneurs locaux, ainsi que le filtrage par les stéréotypes associés aux « joueurs asiatiques » dans le regard des dépisteurs. Hong-Chih Kuo a tenu dans cet environnement grâce à la puissance pure de sa balle rapide et à cet avantage irremplaçable que représente la main gauche — des qualités qui se manifestent indépendamment de la langue et que les dépisteurs peuvent quantifier dans les statistiques.
+La survie des joueurs de baseball taïwanais dans les ligues mineures comporte une difficulté structurelle rarement évoquée : la barrière de la langue, les différences culturelles, le manque de soutien des entraîneurs locaux, ainsi que le filtrage par les stéréotypes associés aux « joueurs asiatiques » dans le regard des dépisteurs. Hong-Chih Kuo a tenu dans cet environnement grâce à la puissance pure de sa balle rapide et à cet avantage irremplaçable que représente la main gauche, des qualités qui se manifestent indépendamment de la langue et que les dépisteurs peuvent quantifier dans les statistiques.
 
 Mais avant cela, les blessures l'avaient déjà trouvé. Des problèmes au ligament du coude avaient interrompu sa progression dès les ligues mineures, et chaque opération nécessitait un nouveau départ. Après chaque intervention, il réapparaissait sur les terrains d'entraînement — ce schéma est le résumé de toute sa carrière.
 
-## 2 septembre 2005 : la soirée des débuts
+## Stade des Dodgers : la nuit des premiers pas en MLB
 
 Le 2 septembre 2005, Hong-Chih Kuo fait ses débuts en MLB, jouant pour les Los Angeles Dodgers.[^1] C'est la première fois qu'il monte sur le monticule des Ligues majeures, et c'est aussi un jalon solide pour le baseball taïwanais : un lanceur gaucher originaire de Tainan, dont le premier jour a été obtenu au prix de plusieurs années de blessures et de rééducation.
 
 Le moment où il monte sur ce monticule est éloigné de plusieurs années de sa signature chez les Dodgers. Durant ces années, il a navigué entre les différents niveaux des ligues mineures, alternant entre blessures et rééducation, attendant dans la convalescence. Le monticule de la MLB, pour lui, est un endroit atteint au prix de sacrifices répétés.
 
-> 📝 **Note du curateur** : Si l'on ne regarde que les statistiques de la carrière de Hong-Chih Kuo en MLB, on risque de mal interpréter sa place. Le nombre de matchs qu'il a disputés en Ligues majeures est limité, les blessures ayant consumé une grande partie du temps où il aurait pu lancer ; ses capacités n'ont jamais été le facteur limitant. Les matchs où il s'est effectivement tenu sur le monticule racontent l'histoire d'un lanceur gaucher compétitif au plus haut niveau — une ERA de 1,20 est le reflet le plus fidèle de ses capacités.
+> 📝 **Note du curateur** : Si l'on ne regarde que les statistiques de la carrière de Hong-Chih Kuo en MLB, on risque de mal interpréter sa place. Le nombre de matchs qu'il a disputés en Ligues majeures est limité, les blessures ayant consumé une grande partie du temps où il aurait pu lancer ; ses capacités n'ont jamais été le facteur limitant. Les matchs où il s'est effectivement tenu sur le monticule racontent l'histoire d'un lanceur gaucher compétitif au plus haut niveau. Une ERA de 1,20 est le reflet le plus fidèle de ses capacités.
 
-Au cours des saisons suivantes, il alterne entre blessures et rééducation. Les problèmes de coude reviennent encore et encore — opération, rééducation, attente, puis le cycle recommence. Mais à chaque fois, il réapparaît sur la liste des releveurs des Dodgers.
+Au cours des saisons suivantes, il alterne entre blessures et rééducation. Les problèmes de coude reviennent encore et encore : opération, rééducation, attente, puis le cycle recommence. Mais à chaque fois, il réapparaît sur la liste des releveurs des Dodgers.
 
 ## 2009-2010 : le sommet de sa carrière
 
@@ -79,23 +79,23 @@ Ces deux « premières taïwanaises » sont la réponse la plus directe à toute
 
 Après 2010, les problèmes de coude sont revenus. Sa carrière en MLB a été interrompue à plusieurs reprises dans les années qui ont suivi, et il a tenté de changer d'équipe. Mais à chaque fois, il n'a finalement pas réussi à retrouver le niveau de 2010.
 
-Dans le vocabulaire des lanceurs de baseball, « verre » est une expression courante — une balle rapide mais un corps fragile. Hong-Chih Kuo est l'un des cas les plus emblématiques de cette expression, mais l'étiquette « verre » masque parfois un autre fait : après chaque réparation, ses capacités de lancer n'ont pas disparu, c'est le temps pendant lequel son corps lui permettait d'être sur le terrain qui était limité. Dans ce temps limité, la qualité de son lancer est restée constamment au-dessus du niveau compétitif de la MLB.
+Dans le vocabulaire des lanceurs de baseball, « verre » est une expression courante : une balle rapide mais un corps fragile. Hong-Chih Kuo est l'un des cas les plus emblématiques de cette expression, mais l'étiquette « verre » masque parfois un autre fait : après chaque réparation, ses capacités de lancer n'ont pas disparu, c'est le temps pendant lequel son corps lui permettait d'être sur le terrain qui était limité. Dans ce temps limité, la qualité de son lancer est restée constamment au-dessus du niveau compétitif de la MLB.
 
-Son coude a subi cinq opérations au cours de sa carrière, chacune représentant une remise à zéro. Lors d'un séminaire sur la prévention des blessures au baseball, où il a partagé son expérience, il a dit avec autodérision : « _Pourquoi est-ce que je me blesse aussi facilement._ »[^4] Derrière cette autodérision se cache son attitude constante face aux décisions chirurgicales — il a dit : « _À l'époque, je ne réfléchissais pas trop, je me disais que si le docteur dit qu'il faut opérer, alors on opère !_ »[^4]
+Son coude a subi cinq opérations au cours de sa carrière, chacune représentant une remise à zéro. Lors d'un séminaire sur la prévention des blessures au baseball, où il a partagé son expérience, il a dit avec autodérision : « _Pourquoi est-ce que je me blesse aussi facilement._ »[^4] Derrière cette autodérision se cache son attitude constante face aux décisions chirurgicales. Il a dit : « _À l'époque, je ne réfléchissais pas trop, je me disais que si le docteur dit qu'il faut opérer, alors on opère !_ »[^4]
 
 Mais après chaque opération et chaque rééducation, il est revenu. Il explique cette motivation récurrente : « _J'aime vraiment le baseball, et pour moi aujourd'hui, ce qui compte le plus, c'est de jouer avec plaisir._ »[^4] Cinq opérations, cinq rééducations, l'amour du baseball n'a jamais changé.
 
-Les blessures ont été la compagne la plus fidèle de la carrière de Hong-Chih Kuo — une réalité qu'on ne choisit pas. Il n'a jamais dit qu'il avait vaincu les blessures ; il a dit que les blessures étaient là, et qu'il était là aussi.
+Les blessures ont été la compagne la plus fidèle de la carrière de Hong-Chih Kuo. Une réalité qu'on ne choisit pas. Il n'a jamais dit qu'il avait vaincu les blessures ; il a dit que les blessures étaient là, et qu'il était là aussi.
 
-L'idée reçue est que la tragédie de Hong-Chih Kuo réside dans le fait que les blessures « ont limité son potentiel ». Mais une lecture plus précise est : même dans les conditions répétées des blessures, il a livré les chiffres les plus élevés lors des matchs où il a pu jouer. Les cinq opérations ne sont pas la raison de son échec, mais la réalité qu'il aurait pu accomplir davantage si son corps lui en avait donné l'occasion. Sa carrière est un jeu de longue durée contre une condition structurellement défavorable — cette condition défavorable s'appelait le coude, il ne pouvait pas la vaincre, mais il a continué à lancer à chaque fois.
+L'idée reçue est que la tragédie de Hong-Chih Kuo réside dans le fait que les blessures « ont limité son potentiel ». Mais une lecture plus précise est : même dans les conditions répétées des blessures, il a livré les chiffres les plus élevés lors des matchs où il a pu jouer. Les cinq opérations ne sont pas la raison de son échec, mais la réalité qu'il aurait pu accomplir davantage si son corps lui en avait donné l'occasion. Sa carrière est un jeu de longue durée contre une condition structurellement défavorable : cette condition défavorable s'appelait le coude, il ne pouvait pas la vaincre, mais il a continué à lancer à chaque fois.
 
 ## Retour à Taïwan, épilogue
 
 Finalement, Hong-Chih Kuo est retourné à Taïwan, jouant pour les Uni-President Lions, les EDA Rhinos et d'autres équipes de la Ligue professionnelle de baseball chinoise, ramenant dans le baseball local les connaissances de lancer accumulées aux États-Unis. Après sa retraite, il s'est consacré à l'enseignement du baseball, avec une attention particulière à la protection des lanceurs, espérant que les jeunes joueurs pourraient éviter le chemin des blessures qu'il a parcouru.
 
-Les dernières saisons en CPBL ont représenté pour Hong-Chih Kuo un autre rôle : celui d'un artisan portant la mémoire de la MLB, cherchant un point final sur les terrains familiers de Taïwan. Cet état de descente depuis le sommet, continuant à lancer sur des terrains connus, est la manière dont beaucoup de joueurs taïwanais passés par les États-Unis concluent leur carrière — ses dernières saisons sur les terrains taïwanais sont un segment incontournable de l'arc complet de sa carrière.
+Les dernières saisons en CPBL ont représenté pour Hong-Chih Kuo un autre rôle : celui d'un artisan portant la mémoire de la MLB, cherchant un point final sur les terrains familiers de Taïwan. Cet état de descente depuis le sommet, continuant à lancer sur des terrains connus, est la manière dont beaucoup de joueurs taïwanais passés par les États-Unis concluent leur carrière. Ses dernières saisons sur les terrains taïwanais sont un segment incontournable de l'arc complet de sa carrière.
 
-Lors de ses dernières saisons en CPBL, il a été celui qui a ramené des concepts de lancer de niveau MLB sur les terrains taïwanais — une identité plus précise que « vétéran de retour à Taïwan après un passage aux États-Unis ». Il savait comment maintenir ses capacités au bord des blessures, un savoir qui n'était pas répandu dans les systèmes d'entraînement et de coaching du baseball professionnel taïwanais.
+Lors de ses dernières saisons en CPBL, il a été celui qui a ramené des concepts de lancer de niveau MLB sur les terrains taïwanais : une identité plus précise que « vétéran de retour à Taïwan après un passage aux États-Unis ». Il savait comment maintenir ses capacités au bord des blessures, un savoir qui n'était pas répandu dans les systèmes d'entraînement et de coaching du baseball professionnel taïwanais.
 
 Après sa retraite, Hong-Chih Kuo s'est investi dans la promotion de l'éducation au baseball en tant qu'ancien combattant, se concentrant particulièrement sur la prévention des blessures des lanceurs. Il a partagé à plusieurs reprises son expérience des opérations et de la rééducation lors de séminaires spécialisés, transformant ses problèmes de coude en une carte d'avertissement concrète pour les jeunes lanceurs.
 

@@ -5,19 +5,28 @@ date: 2026-03-19
 author: 'Taiwan.md'
 category: 'People'
 subcategory: '體育'
-tags: ['Deportes', 'Atletismo', 'Juegos Olímpicos', 'Decatlón', 'Pueblos indígenas', 'Pueblo amis']
-readingTime: '# design_rationale:
+tags:
+  [
+    'Deportes',
+    'Atletismo',
+    'Juegos Olímpicos',
+    'Decatlón',
+    'Pueblos indígenas',
+    'Pueblo amis',
+  ]
+readingTime: 7
+# design_rationale:
 #   why_this_hook: "從「計分標準被一個人逼著改」切入——9121分不只是個人最佳，而是逼使IAAF修規則。這比『台灣第一面奧運獎牌』更能定義楊傳廣的高度。"
 #   whats_excluded: "各項單科成績細節；1956墨爾本以前的青少年賽事；退役後的教職逐年記錄"
-#   where_it_hedges: "投毒事件（楊傳廣本人指控，無第三方完整核實）；1964東京奧運參賽狀況（P0未提供source）"'
+#   where_it_hedges: "投毒事件（楊傳廣本人指控，無第三方完整核實）；1964東京奧運參賽狀況（P0未提供source）"
 lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
 translatedFrom: People/楊傳廣.md
-sourceCommitSha: 0f8fae0ae
-sourceContentHash: sha256:f8a43ac4f3c5c945
-sourceBodyHash: sha256:564dbfac81e16aa7
-translatedAt: 2026-05-24T05:06:33+08:00
+sourceCommitSha: 5c000f86
+sourceContentHash: sha256:71f966796f8b8ad2
+sourceBodyHash: sha256:40e975c5b968d9a3
+translatedAt: 2026-05-25T06:22:09+08:00
 ---
 
 # Yang Chuan-kwang: la tribu de Taitung, la plata en Roma y el récord mundial de 9121 puntos del Hombre de Hierro Asiático

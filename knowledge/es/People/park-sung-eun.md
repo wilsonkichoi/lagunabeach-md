@@ -19,10 +19,10 @@ lastVerified: 2026-05-13
 lastHumanReview: false
 category: People
 translatedFrom: 'People/朴星垠.md'
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:887b51489bb209f2'
-sourceBodyHash: 'sha256:f656fc0bb3872e67'
-translatedAt: '2026-05-17T05:33:00Z'
+sourceCommitSha: '5c000f86'
+sourceContentHash: 'sha256:3f200b3b3b4c4178'
+sourceBodyHash: 'sha256:a35f4dc5fd25ef28'
+translatedAt: '2026-05-25T06:22:09+08:00'
 ---
 
 > **Resumen en 30 segundos:** Park Sung-eun se unió oficialmente a los Fubon Angels en 2026, convirtiéndose en una de las cinco pilares del apoyo coreano de los Fubon Guardians. Su trayectoria es una línea profesional clara: primero fue vista por los aficionados taiwaneses y luego fue incorporada formalmente como parte del equipo titular de la temporada. Su biografía resumida también aparece en la entrada «Park Sung-eun» de Wikipedia.[^4]
@@ -33,9 +33,9 @@ Esta trayectoria de "primero intercambio, después incorporación formal" redujo
 
 ## Incorporación oficial a Fubon en 2026
 
-Antes de la temporada 2026, Fubon anunció la incorporación de Park Sung-eun a los Fubon Angels; un reportaje reproducido en *Yam News* describió a Lee A-young, Lee Joo-yeon, Nam Min-jung, Lee Ho-jin y Park Sung-eun como «las 5 refuerzos coreanas de las animadoras de los Fubon Guardians» para la apertura de temporada.[^1]
+Antes de la temporada 2026, Fubon anunció la incorporación de Park Sung-eun a los Fubon Angels; un reportaje reproducido en _Yam News_ describió a Lee A-young, Lee Joo-yeon, Nam Min-jung, Lee Ho-jin y Park Sung-eun como «las 5 refuerzos coreanas de las animadoras de los Fubon Guardians» para la apertura de temporada.[^1]
 
-A finales de marzo de 2026, en la «Rueda de prensa de apertura de Fubon Angels», la edición digital de *United Daily News* / UDN recopiló la aparición conjunta de varias integrantes coreanas; Park Sung-eun acudió con un parche en el ojo derecho debido a un orzuelo y explicó a los medios que el ojo se estaba recuperando y agradeció la oportunidad brindada por Fubon.[^2]
+A finales de marzo de 2026, en la «Rueda de prensa de apertura de Fubon Angels», la edición digital de _United Daily News_ / UDN recopiló la aparición conjunta de varias integrantes coreanas; Park Sung-eun acudió con un parche en el ojo derecho debido a un orzuelo y explicó a los medios que el ojo se estaba recuperando y agradeció la oportunidad brindada por Fubon.[^2]
 
 En el partido inaugural del estadio de Xinzhuang en abril, debutó por primera vez en el escenario de animación de Xinzhuang como integrante oficial; en la entrevista previa al partido confesó que «temblaba en cada momento», desde la animación hasta el espectáculo de apertura.[^3]
 
@@ -60,7 +60,7 @@ Cuando una invitada de intercambio puede convertirse en integrante fija en poco 
 
 ## Referencias / Fuentes
 
-[^1]: Yam News (reproducido de *Up Media*), «La "diosa de Venus" Park Sung-eun se une a Fubon: las 5 refuerzos coreanas de las animadoras de los Guardians y 27 personas hacen historia con el equipo más numeroso de apertura», 2026-03-04, https://n.yam.com/Article/20260304247279
+[^1]: Yam News (reproducido de _Up Media_), «La "diosa de Venus" Park Sung-eun se une a Fubon: las 5 refuerzos coreanas de las animadoras de los Guardians y 27 personas hacen historia con el equipo más numeroso de apertura», 2026-03-04, https://n.yam.com/Article/20260304247279
 
 [^2]: United Daily News / UDN, «CPBL / Las 5 refuerzos coreanas de los Guardians aparecen juntas: Lee Joo-yeon llora porque "hacía tanto que no veía a todos"» (incluye a Park Sung-eun en la rueda de prensa de apertura con parche en el ojo), 2026-03-25, https://udn.com/news/story/7002/9402487
 

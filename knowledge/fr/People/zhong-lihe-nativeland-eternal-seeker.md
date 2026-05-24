@@ -19,10 +19,10 @@ lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/鍾理和.md'
-sourceCommitSha: '0f8fae0ae'
-sourceContentHash: 'sha256:cddbfe1c856d1966'
-sourceBodyHash: 'sha256:59814996cd0ea2c6'
-translatedAt: '2026-05-22T05:08:47+08:00'
+sourceCommitSha: '5c000f86'
+sourceContentHash: 'sha256:336b96e510e804d3'
+sourceBodyHash: 'sha256:55e5e9ef72471788'
+translatedAt: '2026-05-25T06:19:00+08:00'
 ---
 
 # Zhong Lihe : Meinong 1915, le laboureur des lettres tombé dans une mare de sang

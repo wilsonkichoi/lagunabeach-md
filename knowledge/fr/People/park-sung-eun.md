@@ -19,10 +19,10 @@ readingTime: 8
 lastVerified: 2026-05-13
 lastHumanReview: false
 translatedFrom: 'People/朴星垠.md'
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:887b51489bb209f2'
-sourceBodyHash: 'sha256:f656fc0bb3872e67'
-translatedAt: '2026-05-17T05:33:00Z'
+sourceCommitSha: '5c000f86'
+sourceContentHash: 'sha256:3f200b3b3b4c4178'
+sourceBodyHash: 'sha256:a35f4dc5fd25ef28'
+translatedAt: '2026-05-25T06:19:00+08:00'
 ---
 
 > **Aperçu en 30 secondes :** Park Sung-eun a officiellement rejoint les Fubon Angels en 2026, devenant l'une des cinq piliers du contingent coréen de cheerleading chez les Fubon. Son parcours suit une trajectoire professionnelle claire : d'abord repérée par les supporters taïwanais, puis intégrée en tant que membre permanent de l'effectif saisonnier. Une biographie synthétique figure aussi dans l'entrée Wikipédia consacrée à « Park Sung-eun ».[^4]
@@ -33,9 +33,9 @@ Ce parcours « d'abord l'échange, puis l'intégration » a réduit le sentiment
 
 ## Recrutement officiel chez Fubon en 2026
 
-En amont de la saison 2026, Fubon a annoncé l'arrivée de Park Sung-eun au sein des Fubon Angels ; le portail *Yam News* (reprise d'*Up Media*) décrit la composition de début de saison comme « les 5 renforts coréens des cheerleaders Guardians », réunissant Lee A-young, Lee Joo-eun, Nam Min-jung, Lee Ho-jin et Park Sung-eun.[^1]
+En amont de la saison 2026, Fubon a annoncé l'arrivée de Park Sung-eun au sein des Fubon Angels ; le portail _Yam News_ (reprise d'_Up Media_) décrit la composition de début de saison comme « les 5 renforts coréens des cheerleaders Guardians », réunissant Lee A-young, Lee Joo-eun, Nam Min-jung, Lee Ho-jin et Park Sung-eun.[^1]
 
-Fin mars 2026, lors de la conférence de présentation de saison des Fubon Angels, l'édition numérique du *United Daily News* (UDN) a rapporté l'apparition simultanée de plusieurs membres coréennes ; Park Sung-eun, atteinte d'un orgelet, s'est présentée avec un cache-œil droit et a déclaré aux médias que son œil était en cours de guérison, remerciant Fubon de lui avoir donné sa chance.[^2]
+Fin mars 2026, lors de la conférence de présentation de saison des Fubon Angels, l'édition numérique du _United Daily News_ (UDN) a rapporté l'apparition simultanée de plusieurs membres coréennes ; Park Sung-eun, atteinte d'un orgelet, s'est présentée avec un cache-œil droit et a déclaré aux médias que son œil était en cours de guérison, remerciant Fubon de lui avoir donné sa chance.[^2]
 
 Lors du match d'ouverture à domicile de Xinzhuang en avril, elle est montée pour la première fois sur la scène d'animation de Xinzhuang en tant que membre officielle ; interrogée avant le match, elle a reconnu trembler « à chaque étape, de l'animation au spectacle d'ouverture ».[^3]
 

@@ -15,13 +15,13 @@ tags:
   ]
 readingTime: 7
 lastVerified: 2026-05-07
-lastHumanReview: false
+lastHumanReview: true
 featured: false
 translatedFrom: 'People/朱經武.md'
-sourceCommitSha: '4b6d28c54'
-sourceContentHash: 'sha256:34bc5d357a3cdf52'
-sourceBodyHash: 'sha256:2ddbffb7dbb01585'
-translatedAt: '2026-05-16T05:07:54+08:00'
+sourceCommitSha: '5c000f86'
+sourceContentHash: 'sha256:ee5b642d51157582'
+sourceBodyHash: 'sha256:cf9cdcbf2f556520'
+translatedAt: '2026-05-24T22:20:27Z'
 # design_rationale:
 #   why_this_hook: "從1987年1月那個溫度數字切入——93K不只是一個物理數字，是超導體史上跨越液氮門檻的那一天。"
 #   whats_excluded: "BCS理論細節；歷年學術論文清單；超導應用工程規格"
@@ -40,7 +40,7 @@ In 1979, he formally became a professor in the Department of Physics at the Univ
 
 The University of Houston was not among the most elite institutions in physics research at the time, but this choice gave Chu more room to establish his own research direction. He did not work within the established school frameworks of the most prestigious universities; instead, in a relatively free environment, he pushed superconductivity research toward temperature levels that no one had expected.
 
-## January 1987: YBCO Tc=93K and Maw-Kuen Wu's Simultaneous Breakthrough
+## YBCO Tc=93K: A Simultaneous Breakthrough Crossing the Liquid-Nitrogen Threshold
 
 In January 1987, Chu's University of Houston team discovered that yttrium barium copper oxide (YBCO) had a critical temperature of 93K, exceeding the boiling point of liquid nitrogen (77K) for the first time. Almost simultaneously, a University of Alabama team led by Maw-Kuen Wu achieved the same breakthrough: two teams conquered this threshold in parallel.[^2]
 
@@ -56,9 +56,9 @@ The 1987 superconductivity breakthrough set off a wave of "superconductivity fev
 
 On July 1, 2001, Chu took office as the third president of the Hong Kong University of Science and Technology, serving until 2009.[^3] During his tenure, he promoted development in the physical sciences and raised HKUST's standing in the international academic community. After stepping down, he returned to the University of Houston to continue his research.
 
-The role of HKUST president shifted Chu from researcher to institution builder. During his tenure, he continued to strengthen HKUST's positioning as a research university, advancing physics, engineering, and business. This transition, from measuring critical temperatures in the laboratory to planning university strategy in an administrative office, was the most unusual transformation in his career. It also shows that his abilities were not limited to experimental design.
+The role of HKUST president shifted Chu from researcher to institution builder. During his tenure, he continued to strengthen HKUST's positioning as a research university, advancing physics, engineering, and business. This transition (from measuring critical temperatures in the laboratory to planning university strategy in an administrative office) was the most unusual transformation in his career. It also shows that his abilities were not limited to experimental design.
 
-## March 2026: Tc=151K, a New PNAS Breakthrough
+## Tc=151K: A New PNAS Breakthrough in 2026
 
 In March 2026, Chu published a paper in the _Proceedings of the National Academy of Sciences_ (PNAS), reporting a superconducting critical temperature of Tc=151K in a new material.[^4] Although 151K is above the temperature of dry ice (195K) and still requires cooling, this breakthrough further expands the usable temperature range of superconducting materials.
 
@@ -78,7 +78,7 @@ The year in which he received the U.S. National Medal of Science requires furthe
 
 **Common formulation -> more precise reading:** Chu is often called the "father of high-temperature superconductivity," but this title needs precise positioning. He is the co-discoverer of YBCO Tc=93K, in parallel with Maw-Kuen Wu; Bednorz and Müller were the earlier pioneers of cuprate superconductivity. In this context, "father" refers to someone who crossed the practical threshold of liquid-nitrogen temperature, not to the inventor of the research direction of high-temperature superconductivity itself.
 
-> 🎙️ **Curator's note:** The meaning of that number in January 1987, 93K, in the history of physics lies not in how high its absolute value was, but in the fact that it crossed a concrete application threshold. Tc > 77K = liquid nitrogen can be used = costs fall from "only top laboratories can do this" to "industrially feasible." This crossing changed the entire downstream imagination of superconductivity research.
+> 🎙️ **Curator's note:** The meaning of that number in January 1987 (93K) in the history of physics lies not in how high its absolute value was, but in the fact that it crossed a concrete application threshold. Tc > 77K = liquid nitrogen can be used = costs fall from "only top laboratories can do this" to "industrially feasible." This crossing changed the entire downstream imagination of superconductivity research.
 >
 > Chu's presidency at HKUST (2001-2009) gave him, beyond his identity as a Taiwanese American physicist, another role as a builder of higher education in Asia. The coexistence of these two identities in him represents a typical trajectory of global mobility among Taiwanese science and engineering talent from the 1970s to the 2000s: foundational training in Taiwan, research in the United States, and institution building elsewhere in Asia.
 >
@@ -86,9 +86,9 @@ The year in which he received the U.S. National Medal of Science requires furthe
 >
 > From physics at National Cheng Kung University to the University of California, San Diego; from the University of Houston to HKUST, Chu's career path is a standard template for the global mobility of Taiwanese science and engineering talent. At the same time, because of that 93K in 1987, it became an exceptional case. His story shows that a standard path can lead to nonstandard results, provided that enough time is invested in the right problem.
 
-From Hunan to Taiwan, from National Cheng Kung University to the University of California, San Diego, from the University of Houston to the Hong Kong University of Science and Technology and then to PNAS, Chu's career spans nearly half a century of superconductivity research. From Tc=93K to 151K, he has remained alongside that rising temperature curve.
+From Hunan to Taiwan, from National Cheng Kung University to the University of California, San Diego, from the University of Houston to the Hong Kong University of Science and Technology and then to PNAS, Chu's career spans nearly half a century of superconductivity research: from Tc=93K to 151K, he has remained alongside that rising temperature curve.
 
-There are 39 years between the 1987 breakthrough and the 2026 PNAS paper. Over those 39 years, superconductivity research went through repeated peaks and troughs, and many physicists who entered the field at the time moved on to other subjects. Chu did not. This long-term commitment to a single problem is one of his most distinctive qualities among physicists.
+There are 39 years between the 1987 breakthrough and the 2026 PNAS paper. Over those 39 years, superconductivity research went through repeated peaks and troughs, and many physicists who entered the field at the time moved on to other subjects; Chu did not. This long-term commitment to a single problem is one of his most distinctive qualities among physicists.
 
 **Further reading:** [Paul Ching-Wu Chu — Wikipedia](https://zh.wikipedia.org/wiki/朱經武) ｜ [ETHW: High-Temperature Superconductivity Milestone](https://ethw.org/Milestones:High-Temperature_Superconductivity,_1987)
 

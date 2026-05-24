@@ -1,20 +1,35 @@
 ---
 title: 'Yilan County: Twice Choosing Its Own Fate, the Lanyang Plain Never Looked Back'
-description: "On the evening of December 13, 1987, Chen Ting-nan sat across from Wang Yung-ching in a CTS studio and kept the Sixth Naphtha Cracker off the Lanyang Plain. Nineteen years later, on June 16, 2006, the Hsuehshan Tunnel opened, cutting the trip from Taipei to Yilan from two hours to 40 minutes. Then, within ten years of its opening, 6,137 farmhouses rose across this rice granary, farmland prices jumped from NT$4,000 to NT$20,000 per ping, and in 2023 Yilan County alone issued 35% of all farmhouse building permits in Taiwan. Twice, at critical moments in history, one place made a choice; the Lanyang Plain accepted the costs together with the gifts."
+description: 'On the evening of December 13, 1987, Chen Ting-nan sat across from Wang Yung-ching in a CTS studio and kept the Sixth Naphtha Cracker off the Lanyang Plain. Nineteen years later, on June 16, 2006, the Hsuehshan Tunnel opened, cutting the trip from Taipei to Yilan from two hours to 40 minutes. Then, within ten years of its opening, 6,137 farmhouses rose across this rice granary, farmland prices jumped from NT$4,000 to NT$20,000 per ping, and in 2023 Yilan County alone issued 35% of all farmhouse building permits in Taiwan. Twice, at critical moments in history, one place made a choice; the Lanyang Plain accepted the costs together with the gifts.'
 date: '2026-05-18'
 author: 'Taiwan.md Contributors'
 category: 'Geography'
 subcategory: '縣市'
-tags: ['Yilan', 'Yilan County', 'Lanyang Plain', 'Hsuehshan Tunnel', 'Chen Ting-nan', 'Anti-Sixth Naphtha Cracker Movement', 'Lin Family Massacre', 'Chilin', 'Kavalan People', 'Guishan Island', 'Taipingshan', 'Yilan International Children''s Folklore and Folkgame Festival', '22 Counties and Cities Series']
+tags:
+  [
+    'Yilan',
+    'Yilan County',
+    'Lanyang Plain',
+    'Hsuehshan Tunnel',
+    'Chen Ting-nan',
+    'Anti-Sixth Naphtha Cracker Movement',
+    'Lin Family Massacre',
+    'Chilin',
+    'Kavalan People',
+    'Guishan Island',
+    'Taipingshan',
+    "Yilan International Children's Folklore and Folkgame Festival",
+    '22 Counties and Cities Series',
+  ]
 readingTime: 15
 lastVerified: '2026-05-18'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/宜蘭縣.md'
-sourceCommitSha: '33bb24ddf'
-sourceContentHash: 'sha256:ad8a25388b06bfb5'
-sourceBodyHash: 'sha256:8df3c834b310fa20'
-translatedAt: '2026-05-18T05:08:07+08:00'
+sourceCommitSha: '5c000f86'
+sourceContentHash: 'sha256:0c0188ce2800d482'
+sourceBodyHash: 'sha256:4202940a98814ea7'
+translatedAt: '2026-05-24T22:20:27Z'
 ---
 
 # Yilan County: Twice Choosing Its Own Fate, the Lanyang Plain Never Looked Back
@@ -31,7 +46,7 @@ But in the same field of view, the distance is marked by the abrupt outlines of 
 
 A Yilan County councilor obtained the data: in 2002, the county issued only 231 farmhouse use permits; by 2010, the number had climbed to 720, more than tripling[^2]. One ping of farmland rose from NT$4,000 to NT$20,000, **a fivefold increase**[^2]. In 2023 alone, Yilan issued 201 farmhouse building permits, accounting for nearly one-third of Taiwan’s total issuance of 565 permits[^3]. A county of 450,000 people used up 35% of Taiwan’s new farmhouse permits.
 
-The old farmer Wang De-li once said on PTS’s *Our Island*: “**When old farmers pass away, the land goes to their descendants. If they do not farm, they simply sell the land. If this continues, the countryside will be completely transformed.**”[^4] He paused, then added: “**Once our generation is too old to keep working, Taiwan’s agriculture will be gone.**”[^4]
+The old farmer Wang De-li once said on PTS’s _Our Island_: “**When old farmers pass away, the land goes to their descendants. If they do not farm, they simply sell the land. If this continues, the countryside will be completely transformed.**”[^4] He paused, then added: “**Once our generation is too old to keep working, Taiwan’s agriculture will be gone.**”[^4]
 
 This article begins from that field ridge. Because hidden in this view are Yilan’s two critical moments: one prevented the Lanyang Plain from becoming a petrochemical industrial zone; the other turned the Lanyang Plain into Taipei’s backyard villa district. Both choices were made by Yilan itself.
 
@@ -63,8 +78,8 @@ What truly makes Yilan distinctive, however, is that this triangle is shaped lik
 
 Yilan County as a whole covers 2,143.6251 square kilometers and administers 1 city, Yilan City; 3 urban townships, Luodong, Su'ao, and Toucheng; and 8 rural townships, Jiaoxi, Zhuangwei, Yuanshan, Dongshan, Wujie, Sanxing, Datong, and Nan'ao, for a total of 12 municipalities and townships[^10]. Mountains account for 85% of the county’s area. The plain accounts for only 15%. **The population is pressed onto that 15%**: as of April 2026, the registered population was 448,763[^10].
 
-![The Lanyang Plain and Guishan Island, 2019. Surrounded by mountains on three sides and opening eastward toward the Pacific, the plain is shaped like a dustpan. Annual rainfall is 2,500–3,000 millimeters on the plain and up to 5,500 millimeters in the mountains.](https://upload.wikimedia.org/wikipedia/commons/7/70/Yilan_Plain_and_Gueishan_Island_2019_%28cropped%29.jpg)
-_The Lanyang Plain and Guishan Island, 2019. Photo: 曾成訓 Tseng, [CC BY 2.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg)._
+![The Lanyang Plain and Guishan Island, 2019. Surrounded by mountains on three sides and opening eastward toward the Pacific, the plain is shaped like a dustpan. Annual rainfall is 2,500–3,000 millimeters on the plain and up to 5,500 millimeters in the mountains.](/article-images/geography/yilan-hero.jpg)
+_The Lanyang Plain and Guishan Island, 2019. Photo: 曾成訓 Tseng, [CC BY 2.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg).\_
 
 The small island floating in the Pacific is Guishan Island. It lies about 10 kilometers from Wushi Harbor in Toucheng, measures 3.1 kilometers east to west and 1.6 kilometers north to south, and covers 2.841 square kilometers[^11]. It remains an active volcano, with at least four recorded eruptions over the past 7,000 years. Hot springs and fumaroles are still active, and its main body consists of andesite lava flows and pyroclastic rocks[^11].
 
@@ -126,7 +141,7 @@ Wikipedia’s engineering data records verbatim: “**six seismic fault zones, 9
 
 The estimate for groundwater inflow was: “**It was estimated that during construction, total groundwater seepage along the entire line would reach 3,000 liters per second, with maximum instantaneous water inflow possibly exceeding 1,000 liters per second**”[^19]. Construction workers jokingly called it a “**tunnel raised in water**.”
 
-Across the National Freeway No. 5 project, 25 construction workers died; the Hsuehshan Tunnel portion accounted for 13 of those deaths[^19]. In *Rhythms Monthly*’s feature on the Hsuehshan Tunnel, an engineer left this statement verbatim: “**We went through 64 earth-shaking collapses in the Hsuehshan Tunnel, 36 eruptions of high-pressure groundwater like mountain torrents, and the deaths of 13 tunnel workers whose ambitions were left unfulfilled.**”[^20] The same engineer said: “**As a design and supervision engineer, if you cannot break through the engineering bottleneck, then no matter how many reasons or explanations you have, they cannot change the fate of being scolded.**”[^20]
+Across the National Freeway No. 5 project, 25 construction workers died; the Hsuehshan Tunnel portion accounted for 13 of those deaths[^19]. In _Rhythms Monthly_’s feature on the Hsuehshan Tunnel, an engineer left this statement verbatim: “**We went through 64 earth-shaking collapses in the Hsuehshan Tunnel, 36 eruptions of high-pressure groundwater like mountain torrents, and the deaths of 13 tunnel workers whose ambitions were left unfulfilled.**”[^20] The same engineer said: “**As a design and supervision engineer, if you cannot break through the engineering bottleneck, then no matter how many reasons or explanations you have, they cannot change the fate of being scolded.**”[^20]
 
 At the opening ceremony on June 16, 2006, then-Premier Su Tseng-chang attended, paid tribute and offered flowers to the families of the 25 engineers and workers who had died, including the 13 from the Hsuehshan Tunnel, as well as to the families of Thai workers who had died, and “specially served as driver, driving former premiers through the tunnel”[^19]. ⚠️ In this round of research, no direct verbatim quotation from Su Tseng-chang at the opening ceremony was found; accounts are multi-source indirect descriptions.
 
@@ -145,7 +160,7 @@ In the first ten years after the Hsuehshan Tunnel opened, 6,137 farmhouses rose 
 
 After the Agricultural Development Act was amended in 2000, about 7,600 farmhouses were built in Yilan County, causing the loss of about 1,900 hectares of farmland, roughly 7% of Yilan County’s farmland area, and an estimated loss of about 12% of its high-quality farmland[^2]. The latest annual growth statistic for farmhouses: the Lanyang Plain adds about 300 farmhouses every year. Each occupies about 250 ping, or 0.25 hectares, meaning 75 hectares of farmland are lost annually, “**equivalent to three Daan Forest Parks**”[^3].
 
-PTS’s *Our Island* described the scene directly and verbatim: “**Large numbers of Taipei people came to Yilan to buy property, purchasing farmland and building farmhouses. Large stretches of farmland disappeared, and luxurious high-end mansions worth tens of millions rose among the fields.**”[^4]
+PTS’s _Our Island_ described the scene directly and verbatim: “**Large numbers of Taipei people came to Yilan to buy property, purchasing farmland and building farmhouses. Large stretches of farmland disappeared, and luxurious high-end mansions worth tens of millions rose among the fields.**”[^4]
 
 Homestays surged at the same time. In 2024, Yilan County had 205 illegal lodging operators, the most in Taiwan; out of 1,596 nationwide, Yilan accounted for about 12.8%[^22]. There were about 2,390 legal homestays, and with illegal ones included, the estimate exceeded 2,595. Illegal operators do not pay business taxes, labor insurance, or fire-safety inspection costs, creating unfair competition against legal operators.
 
@@ -187,9 +202,9 @@ _Dongshan River Water Park, 2015-11-14. Photo: Gpdprince, [CC BY-SA 4.0 via Wiki
 
 Yilan is also the birthplace of Taiwan’s **gezaixi**, or Taiwanese opera: “**Gezaixi is one of the only traditional Han theatrical forms originating in Taiwan itself**,” and its birthplace was beneath the kadam tree, the “great tree deity,” in Jietoufen Village, Yuanshan Township, Yilan County[^29]. In the early Japanese period, around the 1900s, Ou Lai-zhu, known as “Gezaizhu,” of Jietoufen in Yuanshan Township built a shed beneath the great tree deity and taught “local gezaixi” singing. This was the earliest form of gezaixi performance. In 1992, the Yilan County Government established the Lanyang Opera Troupe, Taiwan’s only gezaixi troupe with a public status.
 
-And **Huang Chun-ming** brought the Lanyang Plain into the core of Taiwanese nativist literature. He was born on February 13, 1935, in Luodong Township, Yilan County[^30]. His first short-story collection, *The Sandwich Man*, was published in 1969 and adapted into a film of the same name directed by Hou Hsiao-hsien in 1983. *The Days of Looking at the Sea* and *Sayonara, Goodbye* were also adapted into films of the same titles. In 1999, *The Gong* was selected for the fiction category of “Thirty Classics of Taiwanese Literature.” In 1993, Huang Chun-ming returned to Yilan and founded “Jixiang Lane Studio,” working to rescue disappearing local culture through local-language teaching materials, field interviews, and innovative gezaixi writing and directing. That same year, he launched the Huang Da-yu Children’s Theatre Troupe to perform in schools.
+And **Huang Chun-ming** brought the Lanyang Plain into the core of Taiwanese nativist literature. He was born on February 13, 1935, in Luodong Township, Yilan County[^30]. His first short-story collection, _The Sandwich Man_, was published in 1969 and adapted into a film of the same name directed by Hou Hsiao-hsien in 1983. _The Days of Looking at the Sea_ and _Sayonara, Goodbye_ were also adapted into films of the same titles. In 1999, _The Gong_ was selected for the fiction category of “Thirty Classics of Taiwanese Literature.” In 1993, Huang Chun-ming returned to Yilan and founded “Jixiang Lane Studio,” working to rescue disappearing local culture through local-language teaching materials, field interviews, and innovative gezaixi writing and directing. That same year, he launched the Huang Da-yu Children’s Theatre Troupe to perform in schools.
 
-In an interview with *The Reporter*, Huang Chun-ming explained his literary position verbatim: “**This is not some kind of literary patent. Many people create from a theoretical foundation; I create from a foundation in life.**”[^31] He also said: “**You cannot let theory kill you! Life requires using both your hands and your brain; you cannot use only your brain.**”[^31] These were still the words he was saying in 2023, at age 88.
+In an interview with _The Reporter_, Huang Chun-ming explained his literary position verbatim: “**This is not some kind of literary patent. Many people create from a theoretical foundation; I create from a foundation in life.**”[^31] He also said: “**You cannot let theory kill you! Life requires using both your hands and your brain; you cannot use only your brain.**”[^31] These were still the words he was saying in 2023, at age 88.
 
 ## Evidence that the brand of “democratic holy land” has been worn down
 
@@ -199,9 +214,9 @@ In 2018, Lin Tzu-miao was elected with about 50% of the vote, becoming Yilan’s
 
 The brand of “democratic holy land” was never Yilan’s legal identity. It was accumulated stroke by stroke: Chen Ting-nan’s vote in 1981, that night in the CTS studio in 1987, the 14,000-person Luodong march in 1990, and the opening of the new Chilin Hall in 1994. But the vote in 2018 proved one thing: what is accumulated can also be worn down.
 
-> **✦** “Once our generation is too old to keep working, Taiwan’s agriculture will be gone.” (Old farmer Wang De-li, PTS’s *Our Island*[^4])
+> **✦** “Once our generation is too old to keep working, Taiwan’s agriculture will be gone.” (Old farmer Wang De-li, PTS’s _Our Island_[^4])
 
-Pull the camera back a little. **King Car Kavalan Distillery** is located at No. 326, Section 2, Yuanshan Road, Yuanshan Township. It was completed in December 2005, began producing spirits in March 2006, and **released its first bottled product in December 2008**, Kavalan Classic Single Malt Whisky, Taiwan’s first self-distilled whisky[^32]. Its annual output exceeds 10 million bottles, making it one of the world’s top ten malt whisky distilleries, and it is the world’s most visited whisky distillery, with about 800,000 visitors per year. In 2012, Jim Murray’s *Whisky Bible* named Kavalan Solist Fino Sherry Cask the “best new whisky of the year”; in 2015, the World Whiskies Awards named Kavalan Solist Vinho Barrique the “world’s best single malt whisky”; and the distillery has accumulated more than 900 international gold medals[^32].
+Pull the camera back a little. **King Car Kavalan Distillery** is located at No. 326, Section 2, Yuanshan Road, Yuanshan Township. It was completed in December 2005, began producing spirits in March 2006, and **released its first bottled product in December 2008**, Kavalan Classic Single Malt Whisky, Taiwan’s first self-distilled whisky[^32]. Its annual output exceeds 10 million bottles, making it one of the world’s top ten malt whisky distilleries, and it is the world’s most visited whisky distillery, with about 800,000 visitors per year. In 2012, Jim Murray’s _Whisky Bible_ named Kavalan Solist Fino Sherry Cask the “best new whisky of the year”; in 2015, the World Whiskies Awards named Kavalan Solist Vinho Barrique the “world’s best single malt whisky”; and the distillery has accumulated more than 900 international gold medals[^32].
 
 Kavalan Whisky began producing spirits in 2006, the year the Hsuehshan Tunnel opened, and released its first bottles in December 2008. The same geographic conditions of the Lanyang Plain, **a subtropical climate that accelerates maturation**, gave Yilan a coordinate on the world whisky map. This is the story on the other side of the Hsuehshan Tunnel: convenient transportation also allowed international visitors to enter, lifting tourist flows in Yuanshan Township.
 
@@ -232,9 +247,9 @@ Next time you go to Yilan, do not only go to Jiaoxi hot springs, and do not only
 
 ## Image sources
 
-This article uses six Wikimedia Commons CC-licensed images. The hero image is [Yilan Plain and Gueishan Island 2019 (cropped)](https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg) by 曾成訓 Tseng, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), an aerial photograph of the Lanyang Plain and Guishan Island.
+This article uses six Wikimedia Commons CC-licensed images. The hero image is [Yilan Plain and Gueishan Island 2019 (cropped)](<https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg>) by 曾成訓 Tseng, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), an aerial photograph of the Lanyang Plain and Guishan Island.
 
-The inline scene images, in order, are: [June 25, 2008 Hsuehshan Tunnel](https://commons.wikimedia.org/wiki/File:June_25,_2008_Hsuehshan_Tunnel.jpg) by pacificmorningpost, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), Hsuehshan Tunnel entrance; [Paddy field, Yilan 01](https://commons.wikimedia.org/wiki/File:Paddy_field,_Yilan_01.jpg) by Bernard Gagnon / Bgag, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), rice paddies on the Lanyang Plain; [Sunrise over Taipingshan National Forest Recreation Area](https://commons.wikimedia.org/wiki/File:Sunrise_over_Taipingshan_National_Forest_Recreation_Area.jpg) by Pai-Shih Lee, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), sunrise over Taipingshan; [Jiaoxi 20221105](https://commons.wikimedia.org/wiki/File:Jiaoxi_20221105.jpg) by Yu tptw, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), street view of the Jiaoxi Health Redevelopment Zone; and [Dongshan River Water Park (Yilan, Taiwan)](https://commons.wikimedia.org/wiki/File:Dongshan_River_Water_Park_(Yilan,_Taiwan).JPG) by Gpdprince, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), Dongshan River Water Park.
+The inline scene images, in order, are: [June 25, 2008 Hsuehshan Tunnel](https://commons.wikimedia.org/wiki/File:June_25,_2008_Hsuehshan_Tunnel.jpg) by pacificmorningpost, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), Hsuehshan Tunnel entrance; [Paddy field, Yilan 01](https://commons.wikimedia.org/wiki/File:Paddy_field,_Yilan_01.jpg) by Bernard Gagnon / Bgag, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), rice paddies on the Lanyang Plain; [Sunrise over Taipingshan National Forest Recreation Area](https://commons.wikimedia.org/wiki/File:Sunrise_over_Taipingshan_National_Forest_Recreation_Area.jpg) by Pai-Shih Lee, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), sunrise over Taipingshan; [Jiaoxi 20221105](https://commons.wikimedia.org/wiki/File:Jiaoxi_20221105.jpg) by Yu tptw, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), street view of the Jiaoxi Health Redevelopment Zone; and [Dongshan River Water Park (Yilan, Taiwan)](<https://commons.wikimedia.org/wiki/File:Dongshan_River_Water_Park_(Yilan,_Taiwan).JPG>) by Gpdprince, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), Dongshan River Water Park.
 
 ## Video material
 
@@ -248,7 +263,7 @@ The full December 13, 1987 CTS News Square broadcast, “Anti-Sixth Naphtha Crac
 
 [^3]: [Yilan grows 300 farmhouses every year — Business Today](https://www.businesstoday.com.tw/article/category/154687/post/202511190078/) — Latest statistics on the Lanyang Plain adding about 300 farmhouses every year, each occupying about 250 ping; the annual loss of 75 hectares of farmland, equivalent to three Daan Forest Parks; and Yilan’s 201 farmhouse building permits in 2023, nearly one-third of Taiwan’s total of 565.
 
-[^4]: [Disappearing Yilan farmland — PTS *Our Island*](https://ourisland.pts.org.tw/content/801) — Verbatim interview record of old farmer Wang De-li saying, “When old farmers pass away, the land goes to their descendants. If they do not farm, they simply sell the land. If this continues, the countryside will be completely transformed,” and “Once our generation is too old to keep working, Taiwan’s agriculture will be gone,” along with the description of “large numbers of Taipei people coming to Yilan to buy property, purchasing farmland and building farmhouses.”
+[^4]: [Disappearing Yilan farmland — PTS _Our Island_](https://ourisland.pts.org.tw/content/801) — Verbatim interview record of old farmer Wang De-li saying, “When old farmers pass away, the land goes to their descendants. If they do not farm, they simply sell the land. If this continues, the countryside will be completely transformed,” and “Once our generation is too old to keep working, Taiwan’s agriculture will be gone,” along with the description of “large numbers of Taipei people coming to Yilan to buy property, purchasing farmland and building farmhouses.”
 
 [^5]: [History of Yilan County — Wikipedia](https://zh.wikipedia.org/wiki/%E5%AE%9C%E8%98%AD%E7%B8%A3%E6%AD%B7%E5%8F%B2) — Historical account of Wu Sha leading migrants from Zhangzhou, Quanzhou, and Guangdong ashore at Wushi Harbor in Toucheng in 1796, the first year of the Jiaqing reign; and the record that by the time the Qing court incorporated the area in 1810, more than 4,500 jia of cultivable wasteland north of the Lanyang River existed and 2,500 jia had already been fully reclaimed.
 
@@ -300,8 +315,8 @@ The full December 13, 1987 CTS News Square broadcast, “Anti-Sixth Naphtha Crac
 
 [^29]: [Gezaixi — Wikipedia](https://zh.wikipedia.org/wiki/%E6%AD%8C%E4%BB%94%E6%88%B2) — Theater history: verbatim “Gezaixi is one of the only traditional Han theatrical forms originating in Taiwan itself”; birthplace beneath the kadam tree, the great tree deity, in Jietoufen Village, Yuanshan Township, Yilan County; in the early Japanese period, around the 1900s, Ou Lai-zhu, “Gezaizhu,” building a shed beneath the great tree deity to teach “local gezaixi”; and the Yilan County Government’s 1992 establishment of the Lanyang Opera Troupe, Taiwan’s only publicly affiliated gezaixi troupe.
 
-[^30]: [Huang Chun-ming — Wikipedia](https://zh.wikipedia.org/wiki/%E9%BB%83%E6%98%A5%E6%98%8E) — Information on the representative figure of Taiwanese nativist literature: born February 13, 1935, in Luodong Township, Yilan County; publication of the first short-story collection *The Sandwich Man* in 1969, adapted into a film by Hou Hsiao-hsien in 1983; film adaptations of *The Days of Looking at the Sea* and *Sayonara, Goodbye*; selection of *The Gong* for “Thirty Classics of Taiwanese Literature” in 1999; and his 1993 return to Yilan to found Jixiang Lane Studio and launch the Huang Da-yu Children’s Theatre Troupe.
+[^30]: [Huang Chun-ming — Wikipedia](https://zh.wikipedia.org/wiki/%E9%BB%83%E6%98%A5%E6%98%8E) — Information on the representative figure of Taiwanese nativist literature: born February 13, 1935, in Luodong Township, Yilan County; publication of the first short-story collection _The Sandwich Man_ in 1969, adapted into a film by Hou Hsiao-hsien in 1983; film adaptations of _The Days of Looking at the Sea_ and _Sayonara, Goodbye_; selection of _The Gong_ for “Thirty Classics of Taiwanese Literature” in 1999; and his 1993 return to Yilan to found Jixiang Lane Studio and launch the Huang Da-yu Children’s Theatre Troupe.
 
 [^31]: [Huang Chun-ming: Do not lose your own things in your own place — The Reporter](https://www.twreporter.org/a/1970s-taiwan-nativist-literature-huang-chunming) — Firsthand interview quotations from Huang Chun-ming: “This is not some kind of literary patent. Many people create from a theoretical foundation; I create from a foundation in life”; “You cannot let theory kill you! Life requires using both your hands and your brain; you cannot use only your brain”; and “Dissertations are written by educated people for educated people. Educated people simply do not have life. No one says they are moved after reading a dissertation. Novels are for ordinary people, and they are real life.”
 
-[^32]: [Kavalan Distillery — King Car Kavalan Whisky Distillery](https://www.kavalanwhisky.com/) — Official distillery information: No. 326, Section 2, Yuanshan Road, Yuanshan Township, Yilan County; completion in December 2005; production of spirits beginning in March 2006; release of Kavalan Classic Single Malt Whisky in December 2008, Taiwan’s first self-distilled whisky; annual output exceeding 10 million bottles, among the world’s top ten malt whisky distilleries; about 800,000 annual visitors, the world’s most visited whisky distillery; Jim Murray’s *Whisky Bible* naming the 2012 Kavalan Solist Fino Sherry Cask “best new whisky of the year”; 2015 World Whiskies Awards recognition as “world’s best single malt whisky”; and more than 900 international gold medals.
+[^32]: [Kavalan Distillery — King Car Kavalan Whisky Distillery](https://www.kavalanwhisky.com/) — Official distillery information: No. 326, Section 2, Yuanshan Road, Yuanshan Township, Yilan County; completion in December 2005; production of spirits beginning in March 2006; release of Kavalan Classic Single Malt Whisky in December 2008, Taiwan’s first self-distilled whisky; annual output exceeding 10 million bottles, among the world’s top ten malt whisky distilleries; about 800,000 annual visitors, the world’s most visited whisky distillery; Jim Murray’s _Whisky Bible_ naming the 2012 Kavalan Solist Fino Sherry Cask “best new whisky of the year”; 2015 World Whiskies Awards recognition as “world’s best single malt whisky”; and more than 900 international gold medals.

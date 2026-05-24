@@ -15,17 +15,17 @@ subcategory: '科學與學術'
 author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-05-07
-lastHumanReview: false
+lastHumanReview: true
 readingTime: 7
 # design_rationale:
 #   why_this_hook: "從1987年1月那個溫度數字切入——93K不只是一個物理數字，是超導體史上跨越液氮門檻的那一天。"
 #   whats_excluded: "BCS理論細節；歷年學術論文清單；超導應用工程規格"
 #   where_it_hedges: "諾貝爾候選資格為外界推測而非官方確認；2026 Tc=151K 以中時報導為準"
 translatedFrom: 'People/朱經武.md'
-sourceCommitSha: '4b6d28c54'
-sourceContentHash: 'sha256:34bc5d357a3cdf52'
-sourceBodyHash: 'sha256:2ddbffb7dbb01585'
-translatedAt: '2026-05-16T05:07:56+08:00'
+sourceCommitSha: '5c000f86'
+sourceContentHash: 'sha256:ee5b642d51157582'
+sourceBodyHash: 'sha256:cf9cdcbf2f556520'
+translatedAt: '2026-05-25T06:22:09+08:00'
 ---
 
 # Chu Ching-wu: co-descubridor de superconductividad a alta temperatura con Tc=93K, superando el umbral del nitrógeno líquido en 1987
@@ -40,7 +40,7 @@ En 1979 se convirtió oficialmente en profesor de Física en la Universidad de H
 
 La Universidad de Houston no era entonces la institución de investigación física más prestigiosa, pero esa elección dio a Chu Ching-wu mayor margen para definir su propia dirección de investigación: en lugar de trabajar dentro del marco de una escuela de pensamiento ya establecida en una universidad de élite, operó en un entorno relativamente libre, impulsando la investigación en superconductividad hacia temperaturas que nadie había anticipado.
 
-## Enero de 1987: YBCO con Tc=93K, el descubrimiento simultáneo de Wu Maw-kun
+## YBCO con Tc=93K: el avance simultáneo que cruzó el umbral del nitrógeno líquido
 
 En enero de 1987, el equipo de Chu Ching-wu en la Universidad de Houston descubrió que el óxido de itrio-bario-cobre (YBCO) alcanzaba una temperatura crítica de 93K, superando por primera vez el punto de ebullición del nitrógeno líquido (77K). Casi simultáneamente, el equipo liderado por Wu Maw-kun en la Universidad de Alabama logró el mismo avance: dos equipos paralelos cruzaron ese umbral al mismo tiempo.[^2]
 
@@ -58,7 +58,7 @@ El 1 de julio de 2001, Chu Ching-wu asumió el cargo de tercer rector de la Univ
 
 El cargo de rector de HKUST transformó a Chu Ching-wu de investigador en constructor institucional. Durante su gestión continuó fortaleciendo la vocación de investigación de la universidad, con avances en física, ingeniería y negocios. Esa transición —de medir temperaturas críticas en el laboratorio a planificar la estrategia universitaria desde una oficina administrativa— fue la transformación más inusual de su carrera, y evidenció que sus capacidades iban más allá del diseño experimental.
 
-## Marzo de 2026: Tc=151K, nuevo hito en PNAS
+## Tc=151K: el nuevo hito en PNAS de 2026
 
 En marzo de 2026, Chu Ching-wu publicó un artículo en las _Actas de la Academia Nacional de Ciencias de Estados Unidos_ (PNAS) reportando una temperatura crítica superconductora de Tc=151K en un nuevo material.[^4] Los 151K aún requieren enfriamiento (la temperatura del hielo seco es 195K), pero este hallazgo amplía aún más el rango de temperaturas de aplicación de los materiales superconductores.
 

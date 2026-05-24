@@ -8,24 +8,24 @@ subcategory: '體育'
 author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-05-07
-lastHumanReview: false
+lastHumanReview: true
 readingTime: 7
 # design_rationale:
 #   why_this_hook: "從傷病和里程碑的對立切入——他不是一帆風順的英雄，他是一個手肘一再說不、卻還是投出台灣第一的選手。"
 #   whats_excluded: "各次手術的醫療細節；回台後各球隊生涯的逐年記錄；個人資產與薪資"
 #   where_it_hedges: "道奇簽約確切年份（部分資料說2001，另有說法不同）；中華職棒選秀年份細節"
 translatedFrom: People/郭泓志.md
-sourceCommitSha: 0ea5d5d42
-sourceContentHash: sha256:aafb1ab932c7970a
-sourceBodyHash: sha256:a29b92bbec37abec
-translatedAt: 2026-05-09T14:29:10+08:00
+sourceCommitSha: 5c000f86
+sourceContentHash: sha256:b5f26a379a2884ba
+sourceBodyHash: sha256:5be39826050da8b3
+translatedAt: 2026-05-25T06:22:09+08:00
 ---
 
 # Hong-Chih Kuo: el primer jonrón y la primera selección al Juego de Estrellas de MLB por Taiwán, su codo dijo que no pero él siguió lanzando
 
 > **Resumen en 30 segundos:** Hong-Chih Kuo nació el 23 de julio de 1981 en Tainan. Fue el cuarto jugador de béisbol taiwanés en llegar a las Grandes Ligas y el primero en la historia de Taiwán en conectar un jonrón y en ser seleccionado para el Juego de Estrellas de MLB. Como relevista zurdo clave de los Dodgers de Los Ángeles, ayudó al equipo a alcanzar la Serie de Campeonato de la Liga Nacional (NLCS) en 2009, y en 2010 estableció un récord de MLB con 36 apariciones consecutivas sin permitir hits a bateadores zurdos, con una ERA de 1.20. Su carrera se vio interrumpida repetidamente por lesiones en el codo, que fue operado cinco veces, pero tras cada cirugía regresó al montículo.
 
-## 23 de julio de 1981, Tainan
+## Nacido en Tainan: el talento escaso de un lanzador zurdo
 
 El 23 de julio de 1981, Hong-Chih Kuo nació en Tainan.[^1] Era zurdo por naturaleza, y en el béisbol los lanzadores zurdos son un recurso escaso: tienen una ventaja angular natural contra los bateadores derechos y poseen una rareza especial en el mercado de lanzadores de MLB. Este hecho físico le ayudó más tarde a entrar en el escenario más difícil de alcanzar del mundo.
 
@@ -47,7 +47,7 @@ La supervivencia de los jugadores taiwanés en las ligas menores tiene una dific
 
 Pero antes de eso, las lesiones ya lo habían encontrado. Los problemas de ligamento del codo interrumpieron su progreso durante su etapa en las ligas menores, y cada cirugía obligaba a recalcular todo. Tras cada operación, reaparecía en el campo de entrenamiento: este patrón fue la síntesis de toda su carrera profesional.
 
-## 2 de septiembre de 2005: la noche de su debut
+## Estadio de los Dodgers: la noche del debut en las Grandes Ligas
 
 El 2 de septiembre de 2005, Kuo debutó en MLB representando a los Dodgers de Los Ángeles.[^1] Fue la primera vez que pisaba el montículo de las Grandes Ligas, y también un punto sólido en la historia del béisbol taiwanés: un zurdo de Tainan, cuyo primer día fue el resultado de años de lesiones y rehabilitación.
 

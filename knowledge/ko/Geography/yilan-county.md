@@ -5,16 +5,31 @@ date: 2026-05-18
 author: 'Taiwan.md Contributors'
 category: 'Geography'
 subcategory: '縣市'
-tags: ['이란', '이란현', '란양평원', '쉐산터널', '천딩난', '반제6나프타', '린가 혈안', '츠린', '카발란족', '구이산섬', '타이핑산', '어린이민속놀이축제', '22현시 시리즈']
+tags:
+  [
+    '이란',
+    '이란현',
+    '란양평원',
+    '쉐산터널',
+    '천딩난',
+    '반제6나프타',
+    '린가 혈안',
+    '츠린',
+    '카발란족',
+    '구이산섬',
+    '타이핑산',
+    '어린이민속놀이축제',
+    '22현시 시리즈',
+  ]
 readingTime: 15
 lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/宜蘭縣.md'
-sourceCommitSha: '33bb24ddf'
-sourceContentHash: 'sha256:ad8a25388b06bfb5'
-sourceBodyHash: 'sha256:8df3c834b310fa20'
-translatedAt: '2026-05-18T05:08:08+08:00'
+sourceCommitSha: 5c000f86
+sourceContentHash: sha256:0c0188ce2800d482
+sourceBodyHash: sha256:4202940a98814ea7
+translatedAt: 2026-05-25T06:21:00+08:00
 ---
 
 # 이란현: 두 차례 스스로의 운명을 선택한 뒤 란양평원은 되돌아가지 않았다
@@ -63,8 +78,8 @@ translatedAt: '2026-05-18T05:08:08+08:00'
 
 이란현 전체 면적은 2,143.6251제곱킬로미터이고, 1개 시(이란시), 3개 진(뤄둥, 쑤아오, 터우청), 8개 향(자오시, 좡웨이, 위안산, 둥산, 우제, 싼싱, 다퉁, 난아오), 총 12개 향진시를 관할한다[^10]. 산지가 현역의 85%를 차지하고 평원은 15%뿐이다. **인구는 모두 이 15%에 눌려 있다.** 2026년 4월 호적인구는 448,763명이다[^10].
 
-![란양평원과 구이산섬, 2019년. 세 면은 산으로 둘러싸이고 동쪽은 태평양을 향해 열려 있어 모양이 키와 같다. 연강수량은 평원 2,500–3,000밀리미터, 산지 최대 5,500밀리미터.](https://upload.wikimedia.org/wikipedia/commons/7/70/Yilan_Plain_and_Gueishan_Island_2019_%28cropped%29.jpg)
-_란양평원과 구이산섬, 2019년. Photo: 曾成訓 Tseng, [CC BY 2.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg)._
+![란양평원과 구이산섬, 2019년. 세 면은 산으로 둘러싸이고 동쪽은 태평양을 향해 열려 있어 모양이 키와 같다. 연강수량은 평원 2,500–3,000밀리미터, 산지 최대 5,500밀리미터.](/article-images/geography/yilan-hero.jpg)
+_란양평원과 구이산섬, 2019년. Photo: 曾成訓 Tseng, [CC BY 2.0 via Wikimedia](https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg).\_
 
 태평양 위에 떠 있는 작은 섬이 구이산섬이다. 터우청 우스항에서 약 10킬로미터 떨어져 있고, 동서 폭 3.1킬로미터, 남북 길이 1.6킬로미터, 면적 2.841제곱킬로미터다[^11]. 이 섬은 여전히 활화산이며, 지난 7,000년 사이 적어도 네 차례 분화 기록이 있다. 온천과 유황 분기공은 지금도 활동하고 있고, 주체는 안산암 용암류와 화산쇄설암이다[^11].
 
@@ -232,9 +247,9 @@ _둥산강 친수공원, 2015-11-14. Photo: Gpdprince, [CC BY-SA 4.0 via Wikimed
 
 ## 이미지 출처
 
-이 글은 Wikimedia Commons의 CC 라이선스 이미지 6장을 사용했다. Hero 이미지는 [Yilan Plain and Gueishan Island 2019 (cropped)](https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg)(曾成訓 Tseng, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), 란양평원과 구이산섬 항공사진)이다.
+이 글은 Wikimedia Commons의 CC 라이선스 이미지 6장을 사용했다. Hero 이미지는 [Yilan Plain and Gueishan Island 2019 (cropped)](<https://commons.wikimedia.org/wiki/File:Yilan_Plain_and_Gueishan_Island_2019_(cropped).jpg>)(曾成訓 Tseng, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), 란양평원과 구이산섬 항공사진)이다.
 
-본문 이미지 순서는 다음과 같다. [June 25, 2008 Hsuehshan Tunnel](https://commons.wikimedia.org/wiki/File:June_25,_2008_Hsuehshan_Tunnel.jpg)(pacificmorningpost, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), 쉐산터널 입구); [Paddy field, Yilan 01](https://commons.wikimedia.org/wiki/File:Paddy_field,_Yilan_01.jpg)(Bernard Gagnon / Bgag, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), 란양평원 논); [Sunrise over Taipingshan National Forest Recreation Area](https://commons.wikimedia.org/wiki/File:Sunrise_over_Taipingshan_National_Forest_Recreation_Area.jpg)(Pai-Shih Lee, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), 타이핑산 일출); [Jiaoxi 20221105](https://commons.wikimedia.org/wiki/File:Jiaoxi_20221105.jpg)(Yu tptw, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), 자오시 건강 재획지구 거리 풍경); [Dongshan River Water Park (Yilan, Taiwan)](https://commons.wikimedia.org/wiki/File:Dongshan_River_Water_Park_(Yilan,_Taiwan).JPG)(Gpdprince, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), 둥산강 친수공원).
+본문 이미지 순서는 다음과 같다. [June 25, 2008 Hsuehshan Tunnel](https://commons.wikimedia.org/wiki/File:June_25,_2008_Hsuehshan_Tunnel.jpg)(pacificmorningpost, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), 쉐산터널 입구); [Paddy field, Yilan 01](https://commons.wikimedia.org/wiki/File:Paddy_field,_Yilan_01.jpg)(Bernard Gagnon / Bgag, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), 란양평원 논); [Sunrise over Taipingshan National Forest Recreation Area](https://commons.wikimedia.org/wiki/File:Sunrise_over_Taipingshan_National_Forest_Recreation_Area.jpg)(Pai-Shih Lee, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), 타이핑산 일출); [Jiaoxi 20221105](https://commons.wikimedia.org/wiki/File:Jiaoxi_20221105.jpg)(Yu tptw, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), 자오시 건강 재획지구 거리 풍경); [Dongshan River Water Park (Yilan, Taiwan)](<https://commons.wikimedia.org/wiki/File:Dongshan_River_Water_Park_(Yilan,_Taiwan).JPG>)(Gpdprince, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), 둥산강 친수공원).
 
 ## 영상 자료
 
