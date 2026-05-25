@@ -59,6 +59,26 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 雷亞遊戲 EVOLVE — 2026-05-25 2026-05-25-083427-quirky-pasteur（哲宇 explicit /twmd-rewrite「深度研究進化 + 自動發孢子」directive — Technology 音樂遊戲 / 從既有 9KB / 12 footnote 升 4532 CJK / 27 footnote / 3 圖 + title 從「音樂帝國的裂縫」進化為「以美學立國的音樂帝國，與它十四年的裂縫」）
+
+- **Article**: [knowledge/Technology/雷亞遊戲.md](../../knowledge/Technology/雷亞遊戲.md) — 4532 CJK chars / 27 footnote / 8 H2 / 3 圖（hero rayark-cafe-2021 Wikimedia CC BY-SA 4.0 + 2 inline rayark-logo 2012 fair use + rayark-booth-cosplayers 2018 CC BY-SA 2.0）
+- **Pipeline**: REWRITE-PIPELINE v6.0 — EVOLVE 模式（既有 zaious 2026-04-25 ship 127 行 / 12 footnote / [NO-MEDIA] pre-gate 遺珠 / 多處 [THIN] / [FACT-MISMATCH] footnote 9 udn → 5 sub-agent 42 WebSearch + 23 WebFetch deep research 補洞）
+- **核心矛盾**（Stage 1.4 鎖定，從 Stage 0.6 四候選 A/B/C/D 收斂）：「美學讓雷亞被看見，也讓它在每個非音樂的場域跌倒」(23 字) — 統合 A 美學護城河變枷鎖（主）+ C 技術人擴張瓶頸（延伸）+ D counter-balance（媒體聲量 ≠ 商業）+ B 赤燭對比作為獨立節非核心
+- **Hook**：30 秒概覽提 14 國第一 + 1.3 億下載 + Sdorica 維護模式 + 聚爆動畫 11 年 + ICE 切割 + 美學 lock-in，title「以美學立國的音樂帝國，與它十四年的裂縫」副標 tweet-able
+- **品質**：footnote-format ✅ / footnote-density ✅ / prose-health score=3 (≤3 pass) / chronicle-lead ✅（改「2020 年 3 月 ICE」→「摩斯密碼 1344 7609 2575」）/ frontmatter-format ✅（reorder lastVerified < category）/ word-count 4532/4500 ✅ / image-health 3 張 ✅ / cjk-punct ✅ / wikilink-target ✅ / link-target ✅
+- **Research**: [reports/research/2026-05/雷亞遊戲.md](../../reports/research/2026-05/雷亞遊戲.md) — 562 行 / 26 high_confidence / 9 unverified flagged
+- **大事實補洞**：
+  - 六位共同創辦人全 named（鐘志遠 / 游名揚 / 張世群 / 謝昌晏 / 楊善詠 / 李勇霆，三人台大資工 B91-B92 + 鐘台大電信所 + 游森林系跨網媒所）
+  - Sdorica 2026-02-11 進入維護模式（重大後續事件，Valdrir DR + Chiyuki DR 最後兩位角色 + 2026-07 後不再復刻）
+  - Cytus II 2027 NS / NS2 公布（2026-05-22）+ 18M 全球下載
+  - 公司現況：270 人 / 資本額 6,400 萬 / 累計 1.3 億下載
+  - 聚爆：第零日動畫 11 年未交付（2015 Kickstarter → 2019 三度跳票 → 2020-2026 5 年空白）
+  - ICE Wilson Lam 本名 + 7-18 離職聲明逐字（newtalk 三源驗證）
+- **Sensitive 素材處理**：ICE 事件 framing 雙視角並列（英文媒體「pro-democracy / pro-Hong Kong」vs 中文世界「雷亞跪了 / 切割正不正確」）走 ⚠️ 爭議觀點 callout / 赤燭 vs 雷亞 中國市場兩條路對比作為文章 anchor，per MANIFESTO §對位平行不強制平衡 / 五千元禮包 + 角色數值未預告修改事件因 footnote 9 udn 來源 mismatch，hedge 為「未經預告調整角色數值和高定價禮包爭議」概括語言保留 ltn / 巴哈兩 source 三源支持
+- **Cross-link**：赤燭遊戲 sibling reverse 已加（「2020 ICE 摩斯密碼事件後選擇了與赤燭相反的路徑」）/ 既有 [台灣遊戲產業] + [大宇雙劍] + [傳奇網路] 保留
+- **Title 進化**：「雷亞遊戲：音樂帝國的裂縫」→「雷亞遊戲：以美學立國的音樂帝國，與它十四年的裂縫」(25 字 v6.3 冒號三明治 + tweet-able 副標 + sync 新核心矛盾 + 保留「音樂帝國」視覺 icon)
+- **待 Stage 6 後**：自動發孢子（per directive「自動發孢子」），走 SPORE-PIPELINE 5 stage（可能 hook：六位台大電資院創辦人 + Sdorica 維護模式 + 美學 lock-in 三選一）
+
 ### 落日飛車 NEW — 2026-05-23 2026-05-23-000000-twmd-rewrite-daily（cron daily 接續 ARTICLE-INBOX P0 — Sunset Rollercoaster 全英語 City Pop 樂團 14 年從台北師大路 Photo Booth 走到 Coachella Sonora 舞台）
 
 - **Article**: [knowledge/Music/落日飛車.md](../../knowledge/Music/落日飛車.md) — 4531 CJK chars / 8 H2 / 40 footnote / 3 圖（hero + 2 inline Puramyun31 攝 2018-04-06 演出，全 CC BY 2.5）
