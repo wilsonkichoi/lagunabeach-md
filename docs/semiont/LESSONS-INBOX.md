@@ -2292,6 +2292,24 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 - **相關**：DNA #16「跨源驗證」（同款邏輯延伸：source verification 也包含「既有文章本身就是 source」）+ MANIFESTO §造橋鋪路
 - **severity**: tactical（單條 SOP 細化 + inbox schema 微調，verification_count 1）
 
+### 2026-05-25 twmd-spore-harvest-am — 政治人物 spore 直 assert 評價詞會被 reader callout
+
+- **原則**：spore body 對政治人物寫斷言型評價詞（例：#80/#81 馬英九「他做了八年清廉總統」直接 assert 為事實）會在 D+1-D+2 收到 reader correction-type pushback。「清廉」屬主觀評價、跨陣營理解不同（藍營框架 default / 綠營質疑 default），spore 寫成「他做了八年清廉總統（2008-2016）」沒有 hedge / two-sides framing → #81 X 9 replies 中 4 條質疑「清廉」用詞（@thinkbook 附 udn blog 連結 / @JJ3721「清廉兩字哪來的？」/ @stone3851033「為什麼特別要強調清廉」/ @ToeEDgCWqQVAJ2u「單是三中案就海撈無數」）。Engagement rate 20% reply ratio 是爭議激活 signal 但非主題認同。
+- **觸發**：2026-05-25 07:55 twmd-spore-harvest-am 跑 #80/#81 馬英九 D+2 harvest 看到 reply 結構性 callout 「清廉」framing。對照 #76 臺灣前途決議文 D+1（5/24 batch）留言批評密度，本次升一級（從 1-2 條 attack 升為 4 條 framing-level pushback）。Spore body 用詞直接 assert 評價（不 hedge / 不 two-sides），跟 article body 不一致（article 應該本來有 footnote 標兩種解讀 — 待 verify）。
+- **可能層級**：操作規則（SPORE-WRITING / SPORE-VERIFY 加「政治人物 spore 評價詞 hedge 鐵律」— 預設用「以 X 自我定位 / 以 X 形象 / 以 X 主張」中性 description，斷言型評價詞禁用，或必附對立 framing footnote 連結）+ §自主權邊界 政治立場條款 觸發點：spore 文案 review 是否該由哲宇拍板（不只是文章本體）
+- **相關**：MANIFESTO §自主權邊界（政治立場由哲宇拍板）+ REFLEXES #16「peer 是線索不是 source」逆向（reader 是 source 信號，不是 peer 噪音）+ EDITORIAL §塑膠句禁用（評價詞 over-claim 屬同質問題）+ SPORE-VERIFY 17 hard gate（建議加第 18 gate「政治人物評價詞 hedge」）
+- **verification_count**: 1（#81 馬英九 X 4 replies callout 「清廉」；#76 5/23 臺灣前途決議文 D+1 留言批評密度為前次低基線 instance）
+- **severity**: structural（影響 spore-writing canonical + §自主權邊界 觸發點重新定義 — 政治人物 spore 文案是否需哲宇 pre-ship review）
+
+### 2026-05-25 twmd-spore-harvest-am — #83 許倬雲 X：reader correction signal「七弟二姐」家族鏈 query
+
+- **原則**：spore body 寫家族鏈描述（例：#83 許倬雲 X「王力宏的奶奶有個七弟。〈龍的傳人〉1980 年原唱李建復，是這個七弟二姐的兒子。中間夾著的那個七弟，叫許倬雲。」）D+1-D+2 即收到 2 條 reader query：@VanessaTaiwanH「是七弟二姊的兒子？」（疑問句）+ @josh_jinsang quote「李建復，是這個七弟二姐的兒子。 -**********\_\_\_**********-」（困惑表情）。文章 slug 寫「王力宏外舅公」 — spore 寫「奶奶的七弟」可能跟 article「外舅公」不一致（外舅公 = 母親的舅父 = 外婆/外祖母的兄弟，不是「奶奶」=父親的母親）。需 cross-source verify 王力宏家族族譜 + Wikipedia。
+- **觸發**：2026-05-25 07:55 twmd-spore-harvest-am 跑 #83 許倬雲 X D+2 harvest（2,134 views / 20 likes / 3 replies），2/3 replies 屬 dimension 1 correction（疑問家族鏈）。本 routine 不直修文（per REFLEXES #26 v2 AI 自主邊界 + §自主權邊界）— spore 內容 verification 屬人類主責 review。
+- **可能層級**：操作規則（next maintainer cycle 跨源 verify 王力宏家族族譜 — 維基 / Wikidata / 八卦 etc，如錯 → article + spore frontmatter + sporeLinks 三 layer 同步修，並依 SPORE-HARVEST-PIPELINE §4a 走「直接修 prose 本體 + footnote 標 reader 指正」流程）+ SPORE-VERIFY 第 18+ gate「家族關係 spore 強制 Wikipedia 跨源」
+- **相關**：DNA #16「peer 是線索不是 source」(reader query 也算線索) + REFLEXES #16 跨源驗證 + SPORE-HARVEST-PIPELINE §Step 3a 跨源驗證 24hr 時限
+- **verification_count**: 1
+- **severity**: tactical（單條家族鏈 fact-check，影響 1 article + 2 spore；如 verify 後 spore 確錯，回填修文 + reply @VanessaTaiwanH / @josh_jinsang 致謝指正）
+
 ---
 
 ## ❌ 已歸檔（過時 / 撤回）
