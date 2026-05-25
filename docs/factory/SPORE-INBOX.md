@@ -472,6 +472,89 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ---
 
+### 大稻埕 — 趁熱旗艦地理 spore（5/22 EVOLVE 歷史街區系列）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Geography/大稻埕.md](../../knowledge/Geography/大稻埕.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-05-25 by twmd-spore-pick-daily routine (score=30)
+- **Platform 建議**: `both`（Threads 台北在地文史社群 + X 海外華人圈對台灣歷史街區好奇度高）
+- **Hook anchor 候選**：
+  1. **數字 hook**：「800 公尺裝著三個世紀。1851 林藍田開店、1869 第一批 12 萬斤 Formosa Tea 從淡水出口紐約、1885 劉銘傳設台灣第一個西學堂、1921 蔣渭水開大安醫院、1947-02-27 林江邁那包私菸點燃二二八——同一條迪化街，96 年壓進三個時代的關鍵節點」
+  2. **場景 hook**：「清晨五點半的迪化街，霞海城隍廟前的早課香煙正在升起，陳天來 1891 年蓋的錦記茶行洋樓還站在貴德街 73 號的原位置。從那走 50 公尺是李春生大厝舊址，再 5 分鐘到 1947 那包菸被沒收的地方——觀光客版本沒寫的大稻埕」
+  3. **問句 hook**：「為什麼霞海城隍廟今天還站在迪化街 61 號的位置？答案不是因為靈，是 1853 艋舺一場械鬥把同安人逼出來，他們抱著城隍像走了 3 公里到這裡落腳」
+  4. **身份 hook**：「今天到大稻埕求月老的人，腳底下踩的是 173 年前的逃難路線。台北所有的『老街』幾乎都有一場械鬥當底層——一塊地的香火，往往是另一塊地的傷」
+- **時效**：article EVOLVE 距今 3 天（5/22），趁熱窗口剩 ~10 天
+- **敏感度**：低-中（二二八元素需用 article §記憶的復返 同款克制度；不寫煽情 frame，紀實角度）
+- **必驗事實**：1851 林藍田開店 / 1853 頂下郊拼 / 1859 霞海城隍廟蓋於迪化街一段 61 號 / 1869 第一批 12 萬斤 Formosa Tea 從淡水出口紐約 / 1885 劉銘傳設西學堂 / 1891 大稻埕火車站啟用 + 陳天來錦記茶行洋樓開蓋 / 1921 蔣渭水太平町 199 番地開大安醫院 / 1947-02-27 林江邁查緝
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
+- **預估發佈時機**：本週內（5/25-5/31 趁熱窗口）；可搭歷史街區系列 mutual cross-link [艋舺](../../knowledge/Geography/艋舺.md) / [西門町](../../knowledge/Geography/西門町.md)（同 batch 5/22 ship 的歷史街區三件套）
+- **Notes**：
+  - score=30 (D1=+30 ≤7d / D2=0 SC 尚未累積 / D3=0 / D4=0 Geography not in high_fanout set / D5=0 / D6=0 / D7=0)
+  - 多語 fan-out 觸發判斷 = 中-高（en/ja 海外讀者對台北歷史好奇度高；ko 對日治條通對應段有特殊 demand；5 lang tx 全 done = baseline 已準備好）
+  - 配圖建議：article hero（霞海城隍廟 / 迪化街空拍 / 錦記茶行洋樓三選一，Wikimedia CC BY-SA 4.0）
+  - Hook tier 自檢：避免 Tier 3「迪化街美食天堂」觀光手冊 frame；用 article §策展人筆記「廟在這個位置不是因為靈，是因為械鬥」frame 起手
+  - 跟 SPORE-LOG 14d 無重複（Geography 大 cluster spore 缺，補位）
+
+---
+
+### 飲料封膜機 — 趁熱發明史 spore（5/20 NEW Technology）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Technology/飲料封膜機.md](../../knowledge/Technology/飲料封膜機.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-05-25 by twmd-spore-pick-daily routine (score=30)
+- **Platform 建議**: `both`（Threads 台灣手搖飲世代強共鳴 + X 國際食物獵奇受眾大 cluster，bubble tea / boba 國際 long-tail query）
+- **Hook anchor 候選**：
+  1. **場景 hook**：「1981 年高雄彌陀區的兵仔市，一位阿兵哥的鋼杯灑出蘿蔔湯。葉益芳路過看見了。三年後他在自家客廳燒壞兩百支電熨斗，做出全球第一台桌上型封口機——今天每天幾千萬杯手搖飲不漏出來，靠的就是這台機器」
+  2. **數字 hook**：「200 支電熨斗、4 年、60 公斤的初代機器、台幣 10 萬元一台。1984 年葉益芳做出全球第一台桌上型封口機原型，今天益芳封口機年產 2 萬台，外銷 35 個國家——撐住台灣千億飲品產業的無名發明」
+  3. **問句 hook**：「為什麼日本網友會為一杯封膜飲料驚呼便利？為什麼韓國咖啡店員要拿保鮮膜跟膠帶包飲料？答案藏在 1984 年高雄一間客廳實驗室的兩百支電熨斗裡」
+  4. **身份 hook**：「下次撕開那片膠膜的時候，記得那不是 7-11 想出來的，是高雄一個雞蛋批發商葉益芳花 4 年燒壞 200 支電熨斗做出來的。封口機之於珍珠奶茶，如同貨櫃之於全球貿易」
+- **時效**：article ship 距今 5 天（5/20），趁熱窗口剩 ~9 天
+- **敏感度**：低（發明史、產業科技中性）
+- **必驗事實**：1981 高雄彌陀兵仔市觀察起點（per article 註明「相傳」）/ 1984 完成原型 / 1985 創立益芳封口機有限公司 / 200+ 電熨斗燒壞 / 崑山工專化工科背景 / 初代 60 公斤台幣 10 萬以上 / 1988 市場接受 / 改良後 20 公斤 / 1990 年代泡沫紅茶珍奶黃金時代 / 年產 2 萬台 / 外銷 35+ 國家
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
+- **預估發佈時機**：本週內（5/25-5/31 趁熱窗口），可搭時事（如國際對台灣手搖飲報導 / 日韓對封膜技術討論熱度）
+- **Notes**：
+  - score=30 (D1=+30 ≤7d / D2=0 SC 尚未累積 / D3=0 / D4=0 Technology not in high_fanout set / D5=0 / D6=0 / D7=0)
+  - 多語 fan-out 觸發判斷 = 極高（bubble tea / boba 是台灣國際 SEO 最大 cluster 之一，en/ja/ko 翻譯後 SC pull 預期最大；5 lang tx 全 done = baseline 已準備好）
+  - 配圖建議：article hero（益芳封口機產品圖 / 手搖飲封膜操作）或 1981-1984 客廳實驗室時代脈絡圖
+  - Hook tier 自檢：避免 Tier 3「台灣之光」民族主義 frame；用 article §策展人筆記「封口機之於珍奶如同貨櫃之於全球貿易」frame 起手——基礎建設視角比英雄敘事更貼 article 精神
+  - 跟 SPORE-LOG 14d 無重複（Technology 大 cluster spore 補位；最近 Tech spore 缺）
+
+---
+
+### 台灣體育發展與國際賽事 — EVERGREEN-TOPIC spore（2024 巴黎奧運 + 體育系統長期投資）
+
+- **Source-Mode**: `EVERGREEN-TOPIC`
+- **Article-Path**: `none-yet`（屬於 [ARTICLE-INBOX 台灣體育發展與國際賽事 NEW](../semiont/ARTICLE-INBOX.md) P0，Issue #915 by tboydar-agent 2026-05-08 spawn）
+- **Priority**: `P3`（要等 article ship）
+- **Status**: `pending`
+- **Requested**: 2026-05-25 by twmd-spore-pick-daily routine (score=8)
+- **Platform 建議**: `both`（Threads 台灣運動迷強共鳴 + X 海外華人圈對奧運成績有 demand + 國際運動受眾大 cluster）
+- **Hook anchor 候選**（先列，等 article ship 後再校準）：
+  1. **數字 hook**：「2024 巴黎 2 金 4 銀 1 銅、2020 東京 2 金 4 銀 6 銅、2004 雅典陳詩欣朱木炎雙金、1960 楊傳廣羅馬十項全能銀牌。台灣奧運獎牌軌跡背後是 1982 國訓中心 + 2014 黃金計畫的長期投資結構——一個世代不是靠運氣堆出來的」
+  2. **問句 hook**：「為什麼台灣可以在拳擊、舉重、羽球、跆拳道同時拿奧運金牌，但沒有一篇文章把『台灣體育』當作一個系統來說？戴資穎、郭婞淳、李洋、林郁婷各有 article，但連起來的故事缺一篇」
+  3. **身份 hook**：「台灣最被世界看見的時刻往往不是科技、不是電影，是運動員站上頒獎台的那 30 秒。但每一次 30 秒，背後是國訓中心 12 年的早晨——左營那塊地撐住的不只是金牌，是一個運動體系」
+  4. **場景 hook**（待 article ship 後校準，避免提前敏感）：「2024 年 8 月 9 日巴黎北部體育館，林郁婷拳擊 57kg 金牌賽哨聲響起。她是台灣第一面奧運拳擊金牌——但這 30 秒之前，是 1982 年高雄左營那塊地上的 42 年」
+- **時效**：等 article ship（est. ARTICLE-INBOX P0 deep research ~150 min，1-2 週可排上）
+- **敏感度**：中（「中華台北」名稱問題、奧運會旗會歌、IPC 籍別 framing 需小心；以「運動員身體與訓練系統」literary frame 起手，國族 framing 含義由文本承擔）
+- **必驗事實**（article ship 時校準，per ARTICLE-INBOX P0 entry 必驗清單）：2024 巴黎成績（林郁婷 57kg 拳擊金 / 麟洋羽球男雙金衛冕 / 郭婞淳舉重銀 — 須 verify 級數）/ 2020 東京總獎牌 12 面（2 金 4 銀 6 銅） / 1960 楊傳廣羅馬十項全能銀 / 2004 雅典陳詩欣朱木炎跆拳雙金 / 1982 國訓中心成立（左營 vs 升格年份）/ 2014 黃金計畫啟動週期 / 體育署 2013 成立
+- **必先 spawn ARTICLE-INBOX entry**：✅ **已存在**（per ARTICLE-INBOX P0 台灣體育發展與國際賽事 NEW，Issue #915 / 還有 P2 [Issue #887](https://github.com/frank890417/taiwan-md/issues/887) 同主題重複 — Stage 3 WRITE 時觀察者 review 是否合併）
+- **預估發佈時機**：article ship 後 7 天內趁熱；2027 下半年可搭 2028 LA 奧運 anchor 重發（per ARTICLE-INBOX notes）
+- **Notes**：
+  - score=8 (D1=0 article 不存在 / D2=0 SC 未累積 / D3=0 / D4=+8 Sports high_fanout but no article translations / D5=0 / D6=0 / D7=0 mid-sensitivity 但 keyword 未命中 hardcoded set)
+  - HG7 確保 Source-Mode variety — 本 entry 是 EVERGREEN-TOPIC 對應 #1 大稻埕 + #2 飲料封膜機兩條 EXISTING-ARTICLE 的搭配
+  - 多語 fan-out 觸發判斷 = 極高（運動是國際受眾最大 cluster 之一，en/ja/ko 對台灣奧運成績有顯著 demand；ja 對麟洋羽球有日韓對戰史框架共鳴）
+  - 國際 SEO 切入：「Taiwan Olympics」「Chinese Taipei Olympic Committee」「Taiwan boxing gold」「Lin Yuting」
+  - 配圖建議：article ship 時挑「奧運獎牌全名單時間軸」資訊圖 / 國訓中心入口照（Wikimedia CC 可找）
+  - Hook tier 自檢：避免 Tier 3「中華台北委屈」or「台灣之光」frame 一開口就政治化或民族主義；以「身體 + 訓練系統 + 長期投資」literary frame 起手，sovereignty 含義含蓄承擔
+  - 跟 SPORE-LOG 14d 無重複（最近一次運動人物 spore 是 #29/30 李洋 2026-04-14，>30 天 ✓ HG5 通過）
+
+---
+
 ## 📜 已發歷史
 
 → 完整紀錄見 [SPORE-LOG.md §發文紀錄](SPORE-LOG.md) + [SPORE-HARVESTS/](SPORE-HARVESTS/) batch logs。本檔不存 done 痕跡（per 完成歸檔鐵律）。
