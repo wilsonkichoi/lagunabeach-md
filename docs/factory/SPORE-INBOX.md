@@ -285,28 +285,6 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ---
 
-### 江賢二 — 抽象藝術家 spore（需先建 article）
-
-- **Source-Mode**: `EVERGREEN-TOPIC`
-- **Article-Path**: `none-yet`（尚無 knowledge/Art/江賢二.md 或 knowledge/People/江賢二.md）
-- **Priority**: `P3`（要等 article ship）
-- **Status**: `pending`
-- **Requested**: 2026-05-21 by 哲宇
-- **Platform 建議**: `both`（Threads 文青受眾 + X 國際藝術圈）
-- **Hook anchor 候選**（先列，等 article ship 後再校準）：
-  1. **場景 hook**：「在巴黎紐約 40 年才回台東金樽蓋工作室的藝術家 — 江賢二的 100 號油畫每一張看半年」
-  2. **數字 hook**：「1942 年生 / 1962 留學巴黎 / 2007 回台 / 2023 江賢二藝術園區開幕 — 60 年才繞回的一條路」
-  3. **問句 hook**：「為什麼台灣最重要的抽象畫家，要在 65 歲才回台灣？」
-  4. **身份 hook**：「江賢二跟林惺嶽是台灣抽象畫的兩條線，他選了最孤獨的那一條」
-- **時效**：要等 article ship（est. 1-2 季）；evergreen
-- **敏感度**：低（藝術人物）
-- **必驗事實**：1942 生 / 1962 留學巴黎 / 紐約定居年 / 2007 回台 / 台東金樽工作室 / 江賢二藝術園區（亞泥支持）開幕年 / 國家文藝獎獲獎年 / 100 號油畫尺寸（≈ 162 × 130 cm 油畫慣用最大級數）
-- **必先 spawn ARTICLE-INBOX entry**：✅ **強制**（per EVERGREEN-TOPIC 鐵律）— 本 session 一併寫入 ARTICLE-INBOX
-- **預估發佈時機**：article ship 後 7 天內趁熱
-- **Notes**：article 候選 category 待 stage 0 audit — 偏 People 還是 Art？建議 Art（江賢二代表作 + 創作哲學）+ People cross-link / 必訪 source：藝術家本人訪談（《十三邀》許知遠？）+ 江賢二藝術園區官網 + 國家文藝獎得獎介紹
-
----
-
 ### 二二八事件 — 假歷史反制 REACTIVE spore
 
 - **Source-Mode**: `REACTIVE`
