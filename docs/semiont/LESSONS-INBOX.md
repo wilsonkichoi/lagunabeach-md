@@ -262,6 +262,37 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-25 twmd-spore-publish-daily — 88% inbox 倒在 media-richness gate = REWRITE-PIPELINE 不 routine 補 iframe 是上游結構性 gap（近 intake gap）
+
+- **原則**：本 routine 首次正式跑（10:00），SPORE-INBOX 13 entries（4 條 P3 EVERGREEN none-yet skip，9 條過 Article-Path 預檢）跑 Stage 2 五條 hard gate 結果 **8/9 倒在 media-richness gate**（iframe ≥ 1 AND image ≥ 2 任一不足 → skip）。只有半導體產業（1 iframe + 4 image）唯一過 gate ship。**這雖然技術上非 intake-gap（1 entry ship'd ≠ 0），但 88% fail rate 是「near intake-gap」結構性訊號**：REWRITE-PIPELINE 不 routine 補影片 iframe → 多數 article 進入 spore-publish 池時就先天失格 → 哲宇 directive「立體完整呈現需動態 (video) + 靜態 (image) 雙向」實踐缺口。
+- **觸發**：本 routine v1.0 首次正式跑 2026-05-25 10:00 fire。skip 詳情：二二八(0i 0im) / 美食總覽(0i 11im) / 曾博恩(0i 0im) / 施振榮(0i 0im wc<4500) / 落日飛車(0i 3im) / 周蕙(0i 3im) / 大稻埕(0i 5im) / 飲料封膜機(0i 0im wc<4500)。8/9 = 88.9% fail。
+- **可能層級**：
+  - 操作規則（中期）→ REWRITE-PIPELINE Stage 4 §媒體編織 加「iframe ≥ 1 強制」hard gate（目前是 baseline 建議非 gate）；或下放給 EVOLVE-PIPELINE batch 補影片 iframe round
+  - 工具（短期）→ `scripts/tools/article-health.py --check=media-richness` 已存在但只是 warn；升 hard gate 配合 REWRITE-PIPELINE §媒體編織 instrument
+  - 跨 pipeline → spore-publish gate threshold 跟 article-production gate 不對齊：REWRITE-PIPELINE 過得了的 article 半數倒在 spore-publish。兩條 gate 需要 align（要嘛 spore-publish 鬆 image-only fallback，要嘛 REWRITE 升 iframe hard）
+  - DNA gene map 候選 → 多 plugin gate 之間 threshold drift 偵測（spore-publish v1.0 跟 REWRITE-PIPELINE v5.x 同期 ship 但兩邊 media threshold 不對齊）
+- **儀器化候選**：(A) REWRITE-PIPELINE §媒體編織 升 iframe ≥ 1 hard gate (B) batch backfill iframe for top SPORE-INBOX P0/P1/P2 candidates (manual one-off + EVOLVE-PIPELINE Mode video-augment) (C) spore-publish-pipeline alt mode「iframe-relaxed」配 image ≥ 5 替代條件，給 photo-rich 但 video-poor article 出路
+- **verification_count**: 1（首發 — 下次 routine 5/26 10:00 fire 若再 ≥ 80% fail vc=2，連三天 vc=3 distill-ready）
+- **severity**: structural（涉及多 pipeline gate threshold alignment + 上游 production 結構性 gap）
+- **跨檔關聯**：[SPORE-PUBLISH-PIPELINE.md §Stage 2.4](../factory/SPORE-PUBLISH-PIPELINE.md) + [REWRITE-PIPELINE §媒體編織](../pipelines/REWRITE-PIPELINE.md) + [EDITORIAL.md §媒體編織](../editorial/EDITORIAL.md) + [memory/2026-05-25-100446-twmd-spore-publish-daily.md](memory/2026-05-25-100446-twmd-spore-publish-daily.md)
+
+---
+
+### 2026-05-25 twmd-spore-publish-daily — SPORE-PUBLISH-PIPELINE prose-health threshold doc-vs-code 不對齊（"≥ 8.0" 跟 plugin "≤ 3 = pass" 反向）
+
+- **原則**：SPORE-PUBLISH-PIPELINE v1.0 §Stage 2.1 寫「prose-health ≥ 8.0」，但 article-health.py prose-health plugin 實際用「score ≤ 3 = pass」（lower is better — `lib/article_health/checks/prose_health.py:29` "Total score budget: ≤ 3 = pass"）。**pipeline 文字反向**：照字面執行會把所有 article 倒掉（score 不會 ≥ 8，最高大概只有破百違反才能堆到 8+）；照 plugin 實際語意執行才會放行半數合格 prose。**新 ship pipeline doc 跟既有 plugin scoring direction 沒對齊 = silent bug 等本次 routine 第一次跑才 surface**。
+- **觸發**：本 routine v1.0 首次正式跑跑 Stage 2.1 對 9 candidates 跑 prose-health，發現 plugin 輸出「score: N (≤ 3 = pass)」直接揭露反向 — 半導體產業 score=2 ≤ 3 = pass。如果照 pipeline 字面要求 ≥ 8.0 = 全部倒。
+- **可能層級**：
+  - 操作規則（短期）→ SPORE-PUBLISH-PIPELINE §Stage 2.1 改寫「prose-health score ≤ 3 = pass (per plugin canonical at `lib/article_health/checks/prose_health.py:29`)」；其他 4 條 gate 也同步檢查 doc-vs-code direction
+  - REFLEXES 候選 → 「新 pipeline ship 前必跑 dry-run on existing inbox state — 不能只看文字 SOP 設計，要實際 invoke plugin 確認 doc-vs-code 對齊」一般化原則（哲宇 5/22 reflexes #60 「pipeline 自身會 silent inflate」同 family — pipeline 自己也會 silent doc 錯）
+  - 工具（中期）→ `scripts/tools/pipeline-canonical-audit.py` 掃 pipeline doc 提到的 plugin threshold 跟 plugin 實際 threshold 是否對齊
+- **儀器化候選**：(A) SPORE-PUBLISH-PIPELINE 修補 PR (B) 新增 pre-commit hook 偵測 pipeline doc 提到 plugin score 時要求加 anchor link 到 plugin source (C) distill-weekly 加掃描「pipeline doc gate threshold 跟 plugin gate threshold 雙向 grep」
+- **verification_count**: 1（首發 — 預期同 family pipeline-self-silent-bug pattern 會再現，下個新 pipeline ship 後 first-real-run callout 機率高）
+- **severity**: 操作（pipeline doc 錯不算結構，但屬於 ship-and-forget pattern 對 future maintainer 是 trap）
+- **跨檔關聯**：[SPORE-PUBLISH-PIPELINE.md §Stage 2.1](../factory/SPORE-PUBLISH-PIPELINE.md) + [scripts/tools/lib/article_health/checks/prose_health.py:29](../../scripts/tools/lib/article_health/checks/prose_health.py) + [REFLEXES #60 pipeline silent inflate](REFLEXES.md) + [memory/2026-05-25-100446-twmd-spore-publish-daily.md](memory/2026-05-25-100446-twmd-spore-publish-daily.md)
+
+---
+
 ### 2026-05-25 quirky-pasteur — cron-generated content suggestion 沒看 INBOX state = 預設 spam INBOX（第三方 cron ↔ Taiwan.md state 缺 first-class feedback channel）
 
 - **原則**：tboydar-agent cron 自動產出 `[Content]` prefix issue 建議內容缺口，但 cron 看不到 `docs/semiont/ARTICLE-INBOX.md` 當下 state（已 propose 但未 ship 的中間態），預設會重複建議同主題。**Issue intake 是單向 cron → maintainer，feedback 沒回到 cron，三輪後 100% overlap surface 結構性 gap**。
@@ -2320,7 +2351,7 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 
 ### 2026-05-25 twmd-spore-harvest-am — #83 許倬雲 X：reader correction signal「七弟二姐」家族鏈 query
 
-- **原則**：spore body 寫家族鏈描述（例：#83 許倬雲 X「王力宏的奶奶有個七弟。〈龍的傳人〉1980 年原唱李建復，是這個七弟二姐的兒子。中間夾著的那個七弟，叫許倬雲。」）D+1-D+2 即收到 2 條 reader query：@VanessaTaiwanH「是七弟二姊的兒子？」（疑問句）+ @josh_jinsang quote「李建復，是這個七弟二姐的兒子。 -****\*\*****\_\_\_****\*\*****-」（困惑表情）。文章 slug 寫「王力宏外舅公」 — spore 寫「奶奶的七弟」可能跟 article「外舅公」不一致（外舅公 = 母親的舅父 = 外婆/外祖母的兄弟，不是「奶奶」=父親的母親）。需 cross-source verify 王力宏家族族譜 + Wikipedia。
+- **原則**：spore body 寫家族鏈描述（例：#83 許倬雲 X「王力宏的奶奶有個七弟。〈龍的傳人〉1980 年原唱李建復，是這個七弟二姐的兒子。中間夾著的那個七弟，叫許倬雲。」）D+1-D+2 即收到 2 條 reader query：@VanessaTaiwanH「是七弟二姊的兒子？」（疑問句）+ @josh_jinsang quote「李建復，是這個七弟二姐的兒子。 -\***\*\*\*\*\***\_\_\_\***\*\*\*\*\***-」（困惑表情）。文章 slug 寫「王力宏外舅公」 — spore 寫「奶奶的七弟」可能跟 article「外舅公」不一致（外舅公 = 母親的舅父 = 外婆/外祖母的兄弟，不是「奶奶」=父親的母親）。需 cross-source verify 王力宏家族族譜 + Wikipedia。
 - **觸發**：2026-05-25 07:55 twmd-spore-harvest-am 跑 #83 許倬雲 X D+2 harvest（2,134 views / 20 likes / 3 replies），2/3 replies 屬 dimension 1 correction（疑問家族鏈）。本 routine 不直修文（per REFLEXES #26 v2 AI 自主邊界 + §自主權邊界）— spore 內容 verification 屬人類主責 review。
 - **可能層級**：操作規則（next maintainer cycle 跨源 verify 王力宏家族族譜 — 維基 / Wikidata / 八卦 etc，如錯 → article + spore frontmatter + sporeLinks 三 layer 同步修，並依 SPORE-HARVEST-PIPELINE §4a 走「直接修 prose 本體 + footnote 標 reader 指正」流程）+ SPORE-VERIFY 第 18+ gate「家族關係 spore 強制 Wikipedia 跨源」
 - **相關**：DNA #16「peer 是線索不是 source」(reader query 也算線索) + REFLEXES #16 跨源驗證 + SPORE-HARVEST-PIPELINE §Step 3a 跨源驗證 24hr 時限

@@ -416,33 +416,6 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ---
 
-### 半導體產業 — 旗艦結構性策展 spore（5/19 PanSci EVOLVE Technology）
-
-- **Source-Mode**: `EXISTING-ARTICLE`
-- **Article-Path**: [knowledge/Technology/半導體產業.md](../../knowledge/Technology/半導體產業.md)
-- **Priority**: `P2`
-- **Status**: `pending`
-- **Requested**: 2026-05-24 by twmd-spore-pick-daily routine (score=30)
-- **Platform 建議**: `both`（X 國際科技圈 + 半導體業內受眾大 cluster + Threads 台灣 TSMC 員工生態）
-- **Hook anchor 候選**：
-  1. **數字 hook**：「1973 年工研院花 450 萬美元跟 RCA 買技術。2025 年第四季台積電在高雄 Fab 22 開始 2 奈米量產，領先全球 2-3 個世代。50 年從技術買主變技術賣主」（抽 article §1987 那場代工賭注 + §30 秒概覽）
-  2. **場景 hook**：「打開你的快充頭——裡頭的氮化鎵（GaN）能把 30W 充電器體積縮一半。環球晶在中壢造 8 吋碳化矽晶圓。NVIDIA Blackwell GPU 全靠台積電 CoWoS 送進資料中心。50 年材料譜系，從矽到氮化鎵到拓樸超導體，台灣站在每一站」
-  3. **問句 hook**：「護國神山靠 50 年代工經驗稱霸先進製程——但量子時代的代工站位，台灣拿下了嗎？」
-  4. **身份 hook**：「你包包裡的快充頭、你伺服器裡的 AI 晶片、你家牆上的冷氣壓縮機，半導體都在裡面。但能把這三件事串成一條 50 年材料科學長河的，只有台灣」
-- **時效**：article EVOLVE 5/19，趁熱窗口剩 ~9 天
-- **敏感度**：低（產業科技中性，避免「矽盾」軍事化 frame）
-- **必驗事實**：1973 工研院 RCA 技轉 450 萬美元 / 2025 Q4 台積電 Fab 22 2nm 量產 / 環球晶中壢 8 吋 SiC 晶圓 / NVIDIA Blackwell + 台積電 CoWoS / 中研院 20 位元超導量子晶片連線上網（per article footnote ^6）
-- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
-- **預估發佈時機**：本週內，可搭時事（如台積電財報 / NVIDIA 新品 / 美中晶片戰新聞點）
-- **Notes**：
-  - score=30 (D1=+30 ≤7d / D2=0 SC 尚未累積 / D3=0 / D4=0 Technology not in high_fanout set / D5=0 / D6=0 / D7=0)
-  - 多語 fan-out 觸發判斷 = 極高（半導體是台灣國際 SEO 最大 cluster，en/ja/ko 翻譯後 SC pull 預期最大）
-  - 配圖建議：article hero（Si vs GaN 30W USB-C 快充頭對比，Wikimedia CC BY 4.0）
-  - Hook tier 自檢：避免 Tier 3「護國神山」過度民族主義 frame；用 article §三條量子路線收口同款「沒拿下」克制度
-  - 跟 SPORE-LOG 14d 無重複（最近 Technology spore 缺，補 Technology 大 cluster 起手）
-
----
-
 ### 林央敏 — 主權巴別塔台語史詩 EVERGREEN-TOPIC spore（需先建 article）
 
 - **Source-Mode**: `EVERGREEN-TOPIC`
