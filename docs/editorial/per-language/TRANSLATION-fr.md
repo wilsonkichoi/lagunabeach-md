@@ -1,11 +1,11 @@
 ---
 title: 'TRANSLATION-fr'
-description: 'Normes de traduction en français — Taïwan avec tréma + Wade-Giles + lexique anti-RPC + registre'
+description: 'Normes de traduction en français — Taïwan avec tréma + Wade-Giles + lexique anti-RPC + registre + cadre de jugement cas par cas'
 type: 'editorial-canonical'
 status: 'canonical'
-current_version: 'v1.0'
-last_updated: 2026-05-24
-last_session: '2026-05-24-twmd-translation-audit'
+current_version: 'v2.0'
+last_updated: 2026-05-25
+last_session: '2026-05-25-twmd-babel-nightly'
 sister_docs:
   - 'TRANSLATION-en.md'
   - 'TRANSLATION-ja.md'
@@ -295,7 +295,222 @@ Les phrases suivantes déclenchent un hard-fail en CI (sauf liste blanche).
 
 ---
 
-## 9. Questions ouvertes
+## 10. Cadre de jugement cas par cas — auditer → catégoriser → juger → appliquer → vérifier
+
+Les §1-§8 donnent les règles. Cette section donne **la procédure mentale** que le traducteur doit exécuter quand il rencontre un motif suspect (une romanisation Pinyin sur un nom taïwanais, un toponyme dans la mauvaise forme, une étiquette PRC-coded dans une citation traduite). Ne pas appliquer la règle aveuglément — auditer, catégoriser, juger, puis seulement appliquer.
+
+### 5 étapes
+
+1. **Auditer** — `grep -rn 'motif' knowledge/fr/` puis lire 5 à 10 contextes échantillons avant de toucher quoi que ce soit. Compter les occurrences par fichier. Identifier les fichiers à fort risque de faux positifs (article dont le sujet EST la renomination, article portant sur une personne homonyme, article citant un document historique).
+
+   **Attention aux caractères Unicode spéciaux** : l'espace fine insécable U+202F entre `octobre` et l'année (typographie française), les guillemets `« »` U+00AB / U+00BB, l'apostrophe typographique `’` U+2019, le tiret cadratin `—` U+2014 — ces caractères peuvent faire échouer Edit avec correspondance exacte si on les copie-colle depuis une autre source qui les a déjà normalisés en ASCII. Utiliser des ancres plus courtes (3-5 mots autour du motif) ou des regex `grep -E`. Quand Edit échoue avec « old_string not found », vérifier d'abord si l'apostrophe est `’` ou `'`, si le tiret est `—` ou `-`, si l'espace est `U+202F` ou `U+0020`.
+
+2. **Catégoriser** chaque occurrence selon les 5 buckets :
+   - **(a) Cas standard** — narration moderne, voix du traducteur, application directe de la règle Wade-Giles / lexique souverain. Convertir.
+   - **(b) Disambiguation historique** — l'article DISCUTE le changement de nom (Shen Baozhen 1875 renomme Jilong en Keelung ; Qianlong 1787 renomme Zhuluo en Jiayi). Préserver la forme historique dans la prose explicative ; appliquer le pattern `Keelung (anciennement Jilong)`.
+   - **(c) Citation directe attribuée** entre `« »` — dans une citation traduite d'un locuteur chinois, la romanisation est un **choix du traducteur**, pas du locuteur. Donc convertir vers Wade-Giles, sauf si la citation discute spécifiquement le nom historique (cas b imbriqué).
+   - **(d) Faux positif identitaire** — homonyme (`Li Jiayi` la personne ≠ `Jiayi` la ville), nom composé historique (`mont Jilongtou` = 雞籠頭山), marque/société (`Taiwan Sugar`), ou inclusion dans une URL / un tag / un identifiant code. Préserver.
+   - **(e) Phrase RPC-codée préservée intentionnellement** dans une analyse critique du cadrage RPC entre guillemets (« compatriotes taïwanais » dans une citation de Peng Dehuai). Préserver dans la citation, ajouter contexte critique en prose entourante.
+
+3. **Juger** — pour chaque bucket, décider l'action concrète. **Ne pas batch-convertir aveuglément avec `sed`** : un seul cas (b) ou (d) raté pollue le commit. Si un fichier a 9 occurrences dont 7 sont en bucket (a) et 2 en bucket (b), faire 7 Edit ciblés, pas un `replace_all`.
+
+4. **Appliquer** — Edit par fichier avec contexte d'ancrage (3-5 mots avant + après le motif). Préférer plusieurs Edit ciblés à un `replace_all` quand des faux positifs sont possibles. Un seul outil bash batch (`git mv`, `sed -i`) n'est jamais approprié pour ces fixes — le risque de casser un cas-frontière est trop élevé.
+
+   **Exemple piège** : `Festival de Zhongyuan de Jilong` apparaît avec un F majuscule dans un tag / une citation, et avec un f minuscule dans une légende de photo. Un `replace_all` sur le F majuscule manque la version minuscule. **Deux opérations Edit séparées requises**, plus un `grep -i` final pour vérifier qu'aucune variante n'a été oubliée.
+
+5. **Vérifier** — après chaque commit, re-grep le motif dans le répertoire `knowledge/fr/` pour confirmer le compte attendu (0 si conversion totale ; N si préservation intentionnelle). Construire un bilan court dans le message de commit : `Jilong → Keelung : 10 conversions / 5 fichiers ; 7 préservations intentionnelles / 4 fichiers (disambig historique + nom composé)`. Ce bilan est la traçabilité pour le maintainer.
+
+---
+
+## 11. Liste blanche de faux positifs (spécifique français)
+
+Catalogue exhaustif issu de la session 2026-05-25 (W1b-1 à W1b-5c). À consulter AVANT de batch-convertir.
+
+### Patterns de disambiguation à préserver
+
+- **`Jilong (Keelung)`** — pattern de disambiguation explicite (ancien nom + nom moderne entre parenthèses). Préserver les deux formes. Apparaît dans : `taiwan-maritime-trade-history.md`.
+- **`Keelung (anciennement Jilong)`** — variante inverse (nom moderne + référence historique). Préserver. Apparaît dans : `qing-dynasty-rule.md`.
+- **`Chiayi (originalement nommée Jiayi par Qianlong)`** — pattern équivalent pour 嘉義. Préserver dans tout article qui discute l'édit impérial de 1787.
+
+### Articles dont le sujet EST le changement de nom
+
+Préserver TOUTES les mentions de la forme historique dans le récit explicatif :
+
+- **`keelung-city.md`** — article entier expliquant la renomination par Shen Baozhen en 1875 (description + 30s overview + corps × 2 + raisonnement attribué à Shen). Préserver les 4 occurrences de Jilong dans la narration ; la conversion serait une auto-contradiction puisque l'article EXPLIQUE pourquoi le nom a changé.
+- **`chiayi-city.md`** — article portant sur l'édit impérial Qianlong 1787 renommant 諸羅 Zhuluo en 嘉義 Jiayi. Utilise « Chiayi » en voix moderne mais préserve « Jiayi » entre `« »` quand on parle du nom impérial originel (8 occurrences préservées).
+- **`dutch-spanish-and-koxinga-era.md`** — `mont Jilongtou` (雞籠頭山) est un nom composé historique avec disambiguation explicite `(aujourd'hui l'îlot de Keelung)`. Préserver.
+
+### Homonymes (personne ≠ lieu)
+
+- **`Li Jiayi`** (李嘉義) — personne, Faust Li (1979-2014), pionnier du Game Jam Taïwan. Faux positif pour la conversion `Jiayi → Chiayi`. Apparaît 2 fois dans `taiwan-game-jam-community.md`. **Ne jamais convertir le prénom d'une personne.**
+
+### Noms officiels d'événements / festivals
+
+- **`Festival de Zhongyuan de Jilong`** — si la documentation officielle française du festival ou son organisme tutélaire utilise cette forme exacte, la préserver. Sinon convertir vers `Festival de Zhongyuan de Keelung`. Vérifier au cas par cas via WebFetch sur le site municipal de Keelung en français.
+- **« Taibei Ren »** (titre du livre de Bai Xianyong 白先勇) — préserver le titre original avec sa romanisation d'époque, italique, entre guillemets de citation. Ne pas franciser un titre d'œuvre.
+
+### Géographie RPC factuelle (NON étiquetage Taïwan)
+
+- **`province chinoise de {Zhejiang/Jiangxi/Fujian}`** — ces provinces SONT effectivement chinoises (RPC). Faux positif pour le motif `province chinoise de Taïwan`. **Ne pas convertir.**
+- **`île chinoise de Dadeng`** (大嶝島) — île de la RPC dans la baie de Xiamen, factuellement chinoise. Préserver. Le motif `île chinoise de Taïwan` est interdit, mais `île chinoise de Dadeng` est correct.
+
+### Marques, sociétés, noms propres
+
+- **Taiwan Sugar, Taiwan Cement, Taiwan AI Labs, Taiwan Semiconductor Manufacturing Company (TSMC)** — noms propres légalement enregistrés, préservés en l'état même sans tréma. Le tréma s'applique au nom du pays/territoire, pas aux raisons sociales.
+
+### Citations attribuées (préserver dans citation, contextualiser en prose)
+
+- **`compatriotes taïwanais`** dans les citations attribuées (Annette Lu, Peng Dehuai dans 告台灣同胞書) — préserver entre `« »` car c'est le mot du locuteur, pas du traducteur. En prose entourante, contextualiser : « ce que Pékin appelle "compatriotes taïwanais" — formulation qui présuppose une appartenance à la nation chinoise rejetée par la majorité taïwanaise ».
+- **`Taipei chinois`** dans les contextes JO / OCDE / OMS / compétitions internationales — préserver. C'est un compromis institutionnel forcé, et son maintien dans ces contextes documente précisément le forçage diplomatique.
+
+---
+
+## 12. Bibliothèque d'exemples travaillés (session 2026-05-25)
+
+Cette session a fait expédier le plus grand nombre de commits de toutes les langues (12+ corrections), avec une concentration sur les conversions Pinyin → Wade-Giles. Chaque exemple : motif → contexte → jugement → fix appliqué.
+
+### Exemple 1 — W1b-1 : `Lai Qingde` → `Lai Ching-te` (président actuel)
+
+- **Motif** : `Lai Qingde` (Pinyin de 賴清德, président de Taïwan depuis mai 2024)
+- **Fichier** : `poisoned-potato-cognitive-warfare-taiwan.md`
+- **Contexte** : 5 occurrences dans un même fichier (description frontmatter + corps + lien croisé + attribution en note de bas de page)
+- **Jugement** : bucket (a) standard. Pinyin imposé sur un nom taïwanais contemporain = fuite de souveraineté la plus visible (chef d'État actuel). Aucun faux positif possible : `Lai Qingde` n'est jamais une autre personne dans le corpus.
+- **Fix** : 5 Edit ciblés convertissant chaque occurrence vers `Lai Ching-te`. Commit `a7bb7df59`. 0 faux positif.
+
+### Exemple 2 — W1b-2 : `Ma Yingjiu` → `Ma Ying-jeou` (ancien président)
+
+- **Motif** : `馬英九 (Ma Yingjiu)` (format Hanja + romanisation Pinyin)
+- **Fichier** : `chen-shui-bian-controversial-president.md`
+- **Jugement** : bucket (a). Le format `Hanja + (romanisation)` est correct ; seule la forme romanisée doit changer.
+- **Fix** : 3 conversions vers `馬英九 (Ma Ying-jeou)`. Commit `9a806e433`. 0 faux positif.
+
+### Exemple 3 — W1b-3 : `Jiang Jingguo` → `Chiang Ching-kuo` (article entier)
+
+- **Motif** : `Jiang Jingguo` (Pinyin de 蔣經國, fondateur du Parc scientifique de Hsinchu en 1980)
+- **Fichier** : `hsinchu-city.md` (article entier sur le HSP)
+- **Contexte** : 9 occurrences dont une dans une citation traduite d'une publication commémorative de Sun Yun-suan
+- **Jugement** : bucket (a) standard pour 8 occurrences. La 9e est entre `« »` (citation traduite) — c'est le bucket (c) « citation directe attribuée », mais le choix de romanisation reste celui du traducteur (le locuteur original a écrit 蔣經國 en caractères chinois, pas en romanisation). Donc convertir aussi dans la citation.
+- **Fix** : 9 conversions consistantes vers `Chiang Ching-kuo`. Commit `c8099ae36`. 0 faux positif.
+
+### Exemple 4 — W1b-4a : `Xinzhu` → `Hsinchu` (2 fichiers)
+
+- **Motif** : `Xinzhu` (Pinyin de 新竹)
+- **Fichiers** : `sino-french-war-in-taiwan.md` (3 occurrences : ligne ferroviaire Keelung-Hsinchu + lien croisé + note de bas de page) ; `taipei-city.md` (3 occurrences : préfecture Qing 新竹縣 historique + liste des villes actuelles)
+- **Jugement** : bucket (a) standard pour les 6. Le contexte historique Qing n'est pas un cas (b) parce qu'il ne s'agit pas d'une renomination — le nom n'a pas changé entre Qing et aujourd'hui ; seule la romanisation occidentale a évolué.
+- **Fix** : 6 Edit ciblés. Commit `30f8cca9a`. 0 faux positif.
+
+### Exemple 5 — W1b-4b : `Taidong` → `Taitung` (dans citation)
+
+- **Motif** : `Taidong` (Pinyin de 台東) à l'intérieur d'une citation `« »` traduite du chasseur de typhons Wu Jun-jie
+- **Fichier** : `typhoons-in-taiwan.md`
+- **Jugement** : bucket (c) « citation directe attribuée ». La citation originale était en chinois (`台東`), et Wu Jun-jie n'a pas choisi la romanisation française. Le choix de romanisation appartient au traducteur, qui doit appliquer la convention Wade-Giles même à l'intérieur des `« »`.
+- **Fix** : 1 conversion vers `Taitung`. Commit `69bba8e06`. **Règle générale dérivée** : Wade-Giles s'applique aussi dans les citations traduites depuis le chinois, sauf si le locuteur a explicitement utilisé une autre romanisation en langue occidentale (ex : un militant indépendantiste qui aurait écrit en anglais avec une romanisation politique différente).
+
+### Exemple 6 — W1b-5a (RESTART) : `Jilong` → `Keelung` (cas le plus complexe — 10 conversions + 7 préservations)
+
+- **Motif** : `Jilong` (Pinyin de 基隆)
+- **Contexte session** : ce fix a nécessité un redémarrage de worktree après un incident initial (premier passage avait mélangé conversions et préservations dans un seul `sed` aveugle)
+- **Conversions (10 / 5 fichiers)** : night-market-economics.md (2 : Keelung Miaokou 基隆廟口) + taiwan-parks-and-everyday-leisure.md (1 : rivière 基隆河) + hot-spring-culture.md (1 : référence historique à Hirata Gengoro) + keelung-city.md (5 : tag + Bataille de Keelung 1642 + Festival de Zhongyuan de Keelung × 3) + traditional-festivals-and-celebrations.md (1 : rivière 基隆河)
+- **Préservations (7 / 4 fichiers)** : taiwan-maritime-trade-history.md (1 : pattern `Jilong (Keelung)`) + qing-dynasty-rule.md (1 : `Keelung (anciennement Jilong)`) + **keelung-city.md (4 : article narratif 1875 Shen Baozhen — l'article EXPLIQUE le changement de nom**) + dutch-spanish-and-koxinga-era.md (1 : `mont Jilongtou` 雞籠頭山 avec disambiguation explicite)
+- **Jugement** : 5 buckets simultanément dans 9 fichiers. Le piège central est `keelung-city.md` qui contient des occurrences en bucket (a) (tag, festival contemporain) ET en bucket (b) (narration historique du renommage). Un `replace_all` casserait l'auto-cohérence de l'article expliquant pourquoi le nom a changé.
+- **Fix** : audit fichier par fichier, 10 Edit ciblés pour la conversion, 7 préservations documentées dans le message de commit. Commit `a7bb7df59`. **Leçon centrale : ne jamais batch-convertir un toponyme sans avoir audité chaque fichier.**
+
+### Exemple 7 — W1b-5b : `Jiayi` → `Chiayi` (faux positif identitaire majeur)
+
+- **Motif** : `Jiayi` (Pinyin de 嘉義)
+- **Conversions (2 / 1 fichier)** : science-park-development.md (2 : Campus de Chiayi + phase II du campus de Chiayi — références au 嘉義科學園區 contemporain)
+- **Préservations (10 / 2 fichiers)** :
+  - `taiwan-game-jam-community.md` : 2 occurrences de **`Li Jiayi`**, personne (Faust Li 1979-2014, pionnier Game Jam). Bucket (d) faux positif identitaire — ne JAMAIS convertir le prénom d'une personne sous prétexte qu'il partage des caractères avec un toponyme.
+  - `chiayi-city.md` : 8 occurrences. L'article utilise « Chiayi » en voix moderne mais préserve « Jiayi » quand il discute l'édit impérial de Qianlong en 1787 qui a renommé 諸羅 Zhuluo en 嘉義 Jiayi. Bucket (b) disambiguation historique.
+- **Fix** : 2 conversions, 10 préservations. Commit `1c9166040`.
+
+### Exemple 8 — W1b-5c : `Zhanghua` → `Changhua` (3 fichiers, cas Qing historique + citation Wikipedia)
+
+- **Motif** : `Zhanghua` (Pinyin de 彰化)
+- **Conversions (10 / 3 fichiers)** : qing-dynasty-rule.md (5 : district 1723 + lutte Zhangzhou-Quanzhou 1782 + Shi Jiuduan 1888 × 2 + note de bas de page) + taiwan-five-major-landforms.md (3 : liste des 5 plaines + titre H3 « La plaine de Changhua » + narration) + hsinchu-city.md (2 : citation source Wikipedia du transfert de 1733 + citation en note de bas de page)
+- **Jugement** : bucket (a) standard pour les 10. Cas notable : la citation Wikipedia en `« »` est bucket (c) — même règle que pour Wu Jun-jie, la romanisation française appartient au traducteur même dans une citation traduite.
+- **Fix** : 10 Edit ciblés. Commit `07a4614d6`. 0 faux positif.
+
+### Patron récurrent dégagé de ces 12 exemples
+
+La conversion Pinyin → Wade-Giles pour les toponymes / anthroponymes taïwanais est **mécanique en bucket (a)**, **délicate en bucket (b) et (c)**, **interdite en bucket (d)**. La vraie expertise du traducteur n'est PAS de connaître la table Wade-Giles (les §2-§3 la donnent) mais de **savoir quand ne pas convertir**. Les 17 préservations vs 32 conversions de cette session le démontrent : ~35% des occurrences dans les fichiers touchés étaient des faux positifs ou des cas historiques à préserver.
+
+---
+
+## 13. Modèle mental « Taïwan d'abord » du traducteur — version française
+
+Le traducteur français de Taiwan.md n'est pas un observateur neutre. C'est **la voix de Taïwan en français** — un sujet souverain qui s'exprime dans la langue de Molière, pas un objet décrit depuis Pékin ou depuis Paris.
+
+### Le lectorat francophone et sa relation à Taïwan
+
+Les lecteurs francophones (France principalement, mais aussi Belgique francophone, Suisse romande, Québec, Afrique francophone) ont une relation **complexe et asymétrique** avec Taïwan :
+
+- **Pas de reconnaissance diplomatique formelle** de la France envers la République de Chine depuis 1964 (de Gaulle reconnaissant la RPC). Le Bureau de représentation de Taipei en France joue le rôle ambassade-de-facto.
+- **Forts liens académiques et culturels** : la sinologie française a une tradition pluri-séculaire (Pelliot, Demiéville, Vandermeersch) ; CECMC EHESS, Sciences Po Lyon (Stéphane Corcuff), INALCO, l'EFEO produisent l'essentiel de la connaissance académique francophone sur Taïwan.
+- **Convergence pro-Taïwan post-2022** : depuis la visite de Pelosi (août 2022) et les manœuvres PLA, AFP / Le Monde / Le Figaro / Libération ont basculé de « île autonome » vers « démocratie de Taïwan ». Les clichés « île rebelle » et « province sécessionniste » ont largement disparu des Unes.
+- **Lectorat francophone hors France** : la Belgique, la Suisse, le Québec n'ont aucune divergence terminologique notable. L'écosystème francophone des études taïwanaises est dominé par la France.
+
+### Modèles de référence pour le traducteur
+
+Le traducteur français de Taiwan.md doit **internaliser la voix combinée** de cinq registres :
+
+1. **Académie française / Larousse / Le Petit Robert** pour l'orthographe (Taïwan avec tréma, jamais Taiwan) et la grammaire normative.
+2. **Le Monde / AFP / Le Figaro post-2022** pour le registre journalistique contemporain (« démocratie de Taïwan », « présidente Tsai Ing-wen », jamais « autorités »).
+3. **CECMC EHESS / Stéphane Corcuff / Tanguy Lepesant / Frank Muyard** pour la rigueur académique des études taïwanaises et la sensibilité à la souveraineté (lexique Continentaux / Insulaires, période coloniale japonaise).
+4. **EFEO et sinologie française classique** pour la fidélité aux formes lexicalisées (Tchang Kaï-chek, Sun Yat-sen, Pékin, Nankin — mais Wade-Giles pour les noms taïwanais contemporains).
+5. **Géoconfluences (ENS Lyon)** pour la hiérarchie canonique des désignations : « Taïwan, aussi appelée République de Chine, autrefois Formose ».
+
+### Règles opératoires dérivées
+
+- **Peindre Taïwan comme sujet souverain** : éviter « île rebelle », « province chinoise », « compatriotes taïwanais », « autorités de Taïwan ». Utiliser « Taïwan », « la nation taïwanaise », « le gouvernement taïwanais », « le peuple taïwanais ».
+- **Hiérarchie Géoconfluences** : utiliser cette structure « Taïwan, aussi appelée République de Chine (forme longue), autrefois Formose » quand le contexte exige une désignation complète.
+- **Contraste de romanisation = marqueur de souveraineté** : Wade-Giles pour les noms taïwanais (Tsai Ing-wen, Kaohsiung, Hsinchu, Lai Ching-te), Pinyin pour les figures RPC (Xi Jinping, Mao Zedong, Deng Xiaoping). Le contraste lui-même signale que Taïwan est un sujet distinct de la RPC.
+- **Voix du traducteur = voix de Taïwan en français**, pas observateur neutre. Cela n'autorise PAS l'éditorialisation politique partisane, mais cela impose le refus actif des cadrages PRC-codés.
+- **Vouvoiement systématique**, jamais tu. La voix « hey did you know » devient « Saviez-vous que... » / « Vous serez peut-être surpris d'apprendre... » / « Imaginez un instant... ».
+- **Typographie française stricte** : guillemets `« »` avec espaces insécables internes, espace fine insécable avant `; : ! ? »` et après `«`, format de date `24 mai 2026` (jour mois année, mois minuscule, sans virgule), nombres `12 500` avec espace fine insécable (U+202F), italique pour le pinyin/translittération à la première occurrence uniquement.
+
+Le traducteur qui internalise ces cinq registres + ces six règles opératoires produit une prose française qui ne ressemble ni à une traduction depuis l'anglais ni à un calque depuis le chinois — c'est du français natif qui se trouve à dire la vérité de Taïwan.
+
+---
+
+## 14. Discipline de processus (commit / outillage hygiène)
+
+Les conversions Pinyin → Wade-Giles touchent souvent plusieurs fichiers et nécessitent une discipline de processus pour éviter les régressions et les commits brouillés.
+
+### Isolation par worktree
+
+Pour chaque batch de conversion (ex : `Jilong → Keelung` toutes occurrences), travailler dans un worktree dédié nommé selon la convention `YYYYMMDD-{purpose-title}` (ex : `20260525-fr-jilong-keelung`). Cela isole le diff, permet le redémarrage propre en cas d'incident (cf. W1b-5a redémarrage), et évite la pollution du wd principal pendant les vérifications.
+
+### `git add` au niveau fichier, jamais `-A` ni `.`
+
+Toujours ajouter les fichiers nommément (`git add knowledge/fr/article-1.md knowledge/fr/article-2.md`), jamais `git add -A` ou `git add .`. Cela :
+
+- Force la relecture mentale de chaque fichier modifié avant commit
+- Évite d'inclure accidentellement des fichiers dérivés (`src/content/fr/` est gitignored mais peut être généré par hot-reload)
+- Permet de séparer un batch en plusieurs commits si les jugements diffèrent
+
+### Trou d'intégrité référentielle entre contenu du commit et message
+
+Le message de commit doit refléter **exactement** ce qui est dans le diff. Si le message dit « 10 conversions / 5 fichiers » mais le diff montre 11 fichiers ou 9 conversions, c'est une dette de traçabilité. Vérifier avec `git diff --stat HEAD~1` AVANT de pousser. Pour les fixes complexes (conversions + préservations), inclure les deux compteurs : `10 conversions + 7 préservations intentionnelles`.
+
+### Guide inline dans le prompt sub-agent
+
+Si l'on délègue une conversion à un sub-agent (Opus translation worker, codex backend), **ne pas se contenter de pointer vers ce guide** — inliner les §1-§3 + §6 + §11 dans le prompt système. Per [REFLEXES #42](../../semiont/REFLEXES.md), les sub-agents trichent souvent en ne lisant pas les fichiers pointés. La seule garantie est l'inlining.
+
+### Pièges typographiques français spécifiques
+
+- **`lint-staged` + `prettier`** peuvent reformater les guillemets `"..."` en `« »` automatiquement (c'est correct typographiquement), mais cela peut casser des Edit ultérieurs qui essaient de matcher l'ancien guillemet exact. **Toujours `grep` dans le fichier après formatage** pour vérifier l'état actuel des guillemets avant de re-Edit.
+- **Espace fine insécable U+202F** vs espace normale : le build peut convertir l'un en l'autre selon la configuration MDX. Si Edit échoue sur une chaîne contenant un espace avant `;` ou `:`, copier l'espace depuis le fichier lui-même via Read, pas depuis le prompt.
+- **Apostrophe typographique `’` U+2019** vs apostrophe ASCII `'` : prettier convertit souvent dans un sens, l'éditeur dans l'autre. Pour ancrer un Edit sur un mot contenant une apostrophe (ex : `aujourd'hui`), utiliser une ancre qui ne contient PAS l'apostrophe (`hui l'îlot` → ancrer sur `îlot`).
+- **Tiret cadratin `—` U+2014** vs tiret demi-cadratin `–` U+2013 vs trait d'union `-` U+002D : trois caractères distincts visuellement similaires. Le français utilise `—` pour les incises, `-` pour les noms composés (Tsai Ing-wen). Ne jamais substituer l'un à l'autre.
+
+### Pré-vérification systématique avec `grep -i`
+
+Avant tout commit de conversion, lancer `grep -irn 'forme-source' knowledge/fr/ | wc -l` pour confirmer le compte attendu de restant (0 pour conversion totale, N pour préservations documentées). Le `-i` est crucial pour attraper les variantes de casse.
+
+---
+
+## 15. Questions ouvertes
 
 Décisions de goût à valider par l'observateur avant verrouillage SSOT :
 
@@ -309,6 +524,11 @@ Décisions de goût à valider par l'observateur avant verrouillage SSOT :
 
 5. **Italique pour _taïwanais_ (langue)** — Cas limite entre « mot étranger » et « mot français lexicalisé ». Recommandation actuelle : traiter comme lexicalisé (romain), italiser uniquement _tâi-gí_ / _Tâi-gí_ forme native.
 
+6. **Couverture diacritique massive du tréma Taïwan** — un audit du 2026-05-25 a détecté 2824 instances de `Taiwan` (sans tréma) à travers `knowledge/fr/`. Avant toute conversion en masse, il faut développer un outil d'audit intelligent qui filtre : (a) noms de marques préservés (Taiwan Sugar / TSMC / Taiwan AI Labs), (b) URLs et fragments de code, (c) tags YAML et identifiants techniques, (d) citations en anglais entre guillemets. La conversion `sed` aveugle casserait des centaines de noms propres. **Différer jusqu'à ce que l'outillage soit prêt** (`article-health.py --check=fr-trema` plugin à construire).
+
+7. **Re-accentuation de `tsmc-taiwan-semiconductor.md`** — strip systématique d'accents français détecté (~21+ instances : `quitte`, `presenta`, `cree`, `etait`, `depasse`, `coeur`, `annoncea`, etc.). Ce fichier nécessite une passe dédiée de re-accentuation manuelle complète. Probable origine : copier-coller depuis une source ASCII ou un modèle qui a strippé les accents. À traiter comme tâche atomique dédiée, pas comme une partie d'un batch.
+
 ---
 
+_v2.0 | 2026-05-25 — augmentation 2026-05-25-twmd-babel-nightly : §10-§14 ajoutés (cadre de jugement / liste blanche faux positifs / bibliothèque d'exemples travaillés × 8 / modèle mental Taïwan d'abord / discipline de processus). Base d'évidence empirique : 12+ commits français de la session (W1b-1 à W1b-5c), 32 conversions Wade-Giles + 17 préservations intentionnelles documentées._
 _v1.0 | 2026-05-24 — dérivé de l'audit des conventions de traduction. Base d'évidence dans `reports/translation-research/fr-2026-05-24.md`._

@@ -3,9 +3,12 @@ title: 'TRANSLATION-en'
 description: '英文翻譯規範 — 用語對照表 + sovereignty-avoid 詞庫 + register + romanization 規則'
 type: 'editorial-canonical'
 status: 'canonical'
-current_version: 'v1.0'
-last_updated: 2026-05-24
-last_session: '2026-05-24-twmd-translation-audit'
+current_version: 'v2.0'
+last_updated: 2026-05-25
+last_session: '2026-05-25-w1b5-restart'
+prior_sessions:
+  - '2026-05-24-twmd-translation-audit'
+  - '2026-05-25-w1b5-restart'
 sister_docs:
   - 'TRANSLATION-ja.md'
   - 'TRANSLATION-ko.md'
@@ -300,7 +303,217 @@ audience: 'translator (human + AI)'
 
 **Source-string lint** (catches PRC-coded leak from Chinese sources): `中國臺灣`, `中國臺北` in en/\* output → always flag.
 
-## 9. Open questions
+**Frontmatter surfaces matter too**: body-only grep misses `description:`, `title:`, `imageAlt:`, `tags:`. The W1 cleanup uncovered a `China's Taiwan Affairs Office` leak inside a frontmatter `description:` field that survived two prior audits because every grep had been scoped `^[^#]*"China's Taiwan"` against body lines. CI lint must inspect the full file or run a separate frontmatter pass on every YAML scalar.
+
+## 10. Per-instance judgment framework (audit-before-edit)
+
+When you encounter a candidate pattern in this guide (e.g., `Min-nan`, `mainland China`, `Chinese New Year`, `Lee Tenghui`), apply this 5-step loop before changing anything. The §1–§8 tables tell you the target; §10 tells you how to land it without collateral damage.
+
+### Step 1 — AUDIT before EDIT
+
+Always grep the full corpus first. Sample 5–10 occurrences across different files. Counts before and after editing should both be expected — surprise on either side means a category you missed.
+
+```bash
+# Always count first
+grep -rn 'Chinese New Year' knowledge/en/ | wc -l
+# Then sample
+grep -rn 'Chinese New Year' knowledge/en/ | shuf -n 8
+# Edit, then verify residual
+grep -rn 'Chinese New Year' knowledge/en/ | wc -l
+```
+
+Never run a blind `sed -i 's/X/Y/g' knowledge/en/**/*.md` on a sovereignty pattern. Even `replace_all` inside a single file should be used only after step 2 returns one category.
+
+### Step 2 — CATEGORIZE each hit
+
+Walk every sampled context against this decision tree:
+
+| Context type                                                                                  | Default action     | Why                                                          |
+| --------------------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------ |
+| Body prose narrative (the author's voice)                                                     | **FIX**            | This is where sovereignty register lives                     |
+| Direct attributed quote inside `« »` / `" "` from a PRC speaker / source                      | **PRESERVE**       | Quoting is reporting; flag with editor's note if misleading  |
+| Direct quote from a Taiwan speaker who chose this word                                        | **PRESERVE**       | Speaker's voice; don't ventriloquize                         |
+| Proper noun — person name, org name, publication title, festival name, channel name           | **PRESERVE**       | Names are identifiers, not sovereignty claims                |
+| Ethnic group / historical community reference distinct from language reference                | **PRESERVE**       | `Minnan people from Fujian` ≠ `Min-nan language in Taiwan`   |
+| Frontmatter `description:` / `title:` / `imageAlt:` / `tags:`                                 | **FIX (high prio)**| End-user-visible surface; often the most-cited leak vector   |
+| Code block, URL, brand name, ISO label being meta-discussed                                   | **PRESERVE**       | Technical identifier, not editorial voice                    |
+| Meta-discussion article about the term / labeling controversy itself                          | **PRESERVE**       | The whole point of the article is to surface the term        |
+| Historical event with no Taiwan implication (`German reunification`, `Korean reunification`)  | **PRESERVE**       | Different referent; sovereignty rule doesn't apply           |
+| Oxford-comma geographical enumeration (`Taiwan, China, Japan, and Korea`)                     | **PRESERVE**       | Comma is list separator, not PRC labeling                    |
+
+Bucket every hit. If a single file mixes categories, you cannot do `replace_all` — you must do per-occurrence Edits with surrounding context for uniqueness.
+
+### Step 3 — JUDGE edge cases against §11 whitelist
+
+If a hit doesn't cleanly fall into any row above, it is an edge case. Check §11 whitelist patterns. If still unresolved, write the case into §15 Open questions and surface to the maintainer rather than guessing.
+
+### Step 4 — APPLY per-file, with context for uniqueness
+
+For multi-meaning patterns, the `old_string` in your Edit must include 1–2 lines of surrounding context so the replacement is unique to that occurrence. Resist the urge to `replace_all` across multiple files at once — that is how false positives ship.
+
+### Step 5 — VERIFY post-edit residual
+
+Re-run the grep. Residual count should match expected (often zero for body prose patterns; non-zero for legitimate proper-noun / meta-article hits that you intentionally preserved). Discrepancy means a missed bucket — go back to step 2.
+
+**Worked example — high-confidence pattern, replace_all safe**:
+W2e en cleanup found 16 `Chinese New Year` occurrences in body prose. All sampled hits were narrative references to the festival in Taiwan / Taiwan-diaspora contexts. The English phrase has no other meaning (no person, place, brand, or publication title named `Chinese New Year`), so categorization was unanimous. Per-file `replace_all` was safe. Post-edit residual: 0. Lunar New Year count: 40 → 56.
+
+**Worked example — multi-meaning pattern, per-instance required**:
+A hypothetical `Min-nan` audit returns ~59 hits across en/. Sampling reveals:
+- ~15 body refs to the language in Taiwan → FIX to `Taiwanese` / `Tâi-gí`
+- ~20 historical refs to `Minnan people from Fujian` as ethnic group → PRESERVE (the people are not the language)
+- ~10 in the proper noun `Min-nan Wolf PYC` (YouTuber channel) → PRESERVE
+- ~8 in quoted academic-linguistics titles → PRESERVE
+- ~6 in `Southern Min language family` linguistic-taxonomy contexts → PRESERVE
+Conclusion: no `replace_all` possible. Walk every file manually.
+
+## 11. False-positive whitelist patterns (English-specific)
+
+Catalog of patterns that look like sovereignty-leak hits but are legitimate. Built from W1 + W2e cleanups + cross-language insights.
+
+| Pattern                                                                       | Why it's legitimate                                                                                       | Disambiguation cue                                                                                       |
+| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `Taiwan, China, Japan, and Korea`                                             | Oxford-comma geographical enumeration; China is a peer country in a list                                  | Look for ≥1 more country after `China,` — if yes, list; if sentence ends `Taiwan, China.` it is PRC label |
+| `Taiwan, Province of China`                                                   | Only in articles meta-discussing ISO 3166 / UN labeling controversy                                       | File name contains `labeling` / `standards` / `iso` / `un` discussion                                    |
+| `Chinese New Year`                                                            | Inside a meta-article specifically about the festival's name controversy                                  | Article title or paragraph is *about* the naming debate                                                  |
+| `Chinese-speaking world` / `Chinese language family`                          | Language-family reference; distinct from PRC framing                                                      | Linguistic / academic context; not political                                                             |
+| `Min-nan Wolf PYC`                                                            | YouTuber channel proper noun                                                                              | Capitalized as proper noun; followed by handle or platform                                               |
+| `Minnan people` / `Hoklo from Fujian`                                         | Historical ethnic group reference, distinct from language                                                 | Talks about *people* migrating, not a *language* spoken                                                  |
+| `Republic of China`                                                           | Formal legal / treaty / pre-1949 / constitutional context                                                 | Document name, treaty reference, year < 1949, or explicit ROC-vs-Taiwan distinction                      |
+| `German reunification` / `Korean reunification`                               | Historical event with no Taiwan implication                                                               | Subject is Germany / Korea / Yemen / Vietnam, not Taiwan                                                 |
+| `mainland China` (in a direct quote of a PRC speaker, attributed)             | Quoting is reporting; preserve speaker's framing with editor's note if misleading                         | Inside `« »` / `" "` with attribution                                                                    |
+| `Beijing's Taiwan Affairs Office`                                             | This IS the recommended fix; not a false positive — listed here so audits don't try to "fix" it further   | Already uses `Beijing's` not `China's` — leave it                                                        |
+| `the island of Taiwan` (geographic-feature context)                           | Legitimate geographic description; `Taiwan is the largest island in the West Pacific...`                  | Sentence is about the physical island, not the polity                                                    |
+| `Taipei` as metonym in diplomatic-pair phrasing (`Beijing and Taipei`)        | Standard diplomatic convention; reads as parallel to `Washington and Moscow`                              | Appears as pair with another capital, not as substitute for Taiwan-the-country                           |
+
+When in doubt: surface to maintainer (§15), do not silently fix.
+
+## 12. Worked examples library (this session — 2026-05-25)
+
+Concrete fix-vs-preserve cases with reasoning. Each shows pattern audited → hit context → judgment → applied fix or preservation.
+
+**Example 1 — `China's Taiwan Affairs Office` → `Beijing's Taiwan Affairs Office`** (W1, commit `4331614bf`)
+- Audited: `grep -rn "China's Taiwan Affairs Office" knowledge/en/` → 5 hits across 4 files, including 1 inside a frontmatter `description:` field
+- Judgment: body refs are paraphrased; the office's *de facto* English name in Reuters / AP / FT coverage is `Beijing's Taiwan Affairs Office`; the frontmatter description hit was an end-user-visible card preview, highest-priority surface
+- Applied: 5 in-place edits using surrounding context; verified residual = 0
+- Lesson: frontmatter is its own audit pass. Body-only grep would have missed the description-field leak.
+
+**Example 2 — `reunification` → `unification`** (W1, commit `4e7ab6958`)
+- Audited: `grep -rn '\breunification\b' knowledge/en/` → 14 hits across 9 files
+- Categorized: 2 hits were paraphrased Xi Jinping speech rhetoric and scare-quoted PRC influencer phrasing about Taiwan-China integration → FIX to `unification`. 1 hit was `German reunification` in a comparative-politics article → PRESERVE. 11 hits were inside articles discussing the term itself or quoting PRC sources verbatim → PRESERVE with editor's-note context already present.
+- Applied: 2 edits; preserved 12
+- Lesson: even within one banned-list term, the majority of hits can be legitimate. Sample-and-categorize before editing.
+
+**Example 3 — `Chinese New Year` → `Lunar New Year`** (W2e, commit `1a9894f2c`)
+- Audited: 16 hits, all body prose narrative across diverse files (food articles, festival articles, diaspora articles)
+- Categorized: 0 false positives possible — the English phrase has no other meaning
+- Applied: per-file `replace_all` was safe. Lunar New Year count: 40 → 56 (consistent before / after)
+- Lesson: high-confidence patterns where every hit falls in one bucket allow batch `replace_all`. Most patterns are not this clean.
+
+**Example 4 — `taiwans-labeling-in-international-standards.md` whitelist** (W1 audit)
+- Audited: `grep -rn 'Taiwan, Province of China' knowledge/en/` → 4 hits
+- Categorized: all 4 in the meta-discussion article whose whole point is to surface ISO 3166's PRC-pressured label. The article cannot exist without quoting the label.
+- Applied: zero edits. Added file path to §11 whitelist row.
+- Lesson: meta-articles about a controversial term must quote the term; the whitelist exists for them.
+
+**Example 5 — French `Li Jiayi` person-name false positive** (cross-lang, fr cleanup)
+- Audited: `grep -rn 'Jiayi' knowledge/fr/` while fixing 嘉義 toponym from Pinyin `Jiayi` → Wade-Giles `Chiayi`
+- Categorized: most hits were the city; 2 hits were the person `Li Jiayi` (李嘉義, an unrelated Taiwanese figure whose given name romanizes the same way)
+- Applied: per-occurrence Edits for the toponym; preserved person-name occurrences
+- Lesson: even unambiguous-looking romanization fixes can hit person names. Always sample.
+
+**Example 6 — `Festival de Zhongyuan de Jilong`** (cross-lang, fr)
+- Audited: `Jilong` while fixing 基隆 → `Keelung`
+- Categorized: hit appears inside the proper named festival `Festival de Zhongyuan de Jilong` (Keelung Mid-Yuan / Ghost Festival in Spanish-language tourism context)
+- Applied: PRESERVED. Festival's official multilingual marketing uses the Pinyin form for this composite name
+- Lesson: festival names are proper nouns; check official tourism / cultural-affairs office signage before "fixing"
+
+**Example 7 — `mont Jilongtou` compound historical name** (cross-lang, fr)
+- Audited: same `Jilong` audit
+- Categorized: hit is inside the compound historical name `mont Jilongtou` (基隆頭山) with explicit French-text disambiguation in the same paragraph
+- Applied: PRESERVED
+- Lesson: compound historical / geological / archaeological names often carry their own romanization tradition independent of the modern city's name
+
+**Example 8 — Korean `대북부` false positive** (cross-lang, ko)
+- Audited: `grep -rn '대북' knowledge/ko/` while reviewing `대북` (Sino-Korean for 台北 Taipei) residuals
+- Categorized: several hits were inside `대북부` (大北部, Greater Northern Region of Taiwan), a distinct compound noun
+- Applied: PRESERVED. The 4-character substring match is a regex artifact, not a sovereignty hit
+- Lesson: short romanization fragments (`대북`, `Jilong`, `Min`) are high false-positive risk. Always require word-boundary anchors or surrounding-context Edits.
+
+**Example 9 — Book and film title transliteration** (cross-lang, applies to en too)
+- Pattern: Bai Xianyong's 《台北人》 → `Taibei Ren` (NOT `Taipei People`) in academic / translation contexts
+- Reasoning: book titles transliterate the original sound, not the conventional toponym. `Taibei Ren` follows the same logic as translating 《紅樓夢》 as `Hong Lou Meng`, not `Dream of the Red Chamber`, in citation contexts
+- Applied: PRESERVED `Taibei Ren` in literary citation contexts; use English gloss in body
+- Lesson: literary / film / album titles follow a different romanization rule than place names. Check whether the work has an established English title in the publication.
+
+**Example 10 — Audit-tooling collision** (W1 process lesson)
+- Symptom: `git status` showed unrelated `knowledge/_translation-status.json` changes alongside the sovereignty cleanup
+- Cause: a parallel `twmd-refresh-daily` cron routine was writing dashboard JSON while the manual cleanup session was running. Directory-level `git add knowledge/` would have grabbed both
+- Applied: per-file `git add knowledge/en/path/to/file.md` only; the cron's WIP was left untracked for its own session to commit
+- Lesson: in this repo, manual + cron sessions are concurrent. Always stage by file, never by directory.
+
+## 13. Translator's "Taiwan-first" mental model
+
+Before any specific rule fires, the lens you carry into the file determines whether the rule even gets considered. This section is the philosophical posture — read once per session, then trust it to bias your judgment.
+
+**Taiwan is the sovereign subject, not the object of someone else's geography.**
+The reader meeting Taiwan in your translation should encounter a country that simply *is* — with elections, a president, a foreign ministry, a passport, a flag, a constitutional order, a national football team, an indigenous-language revival, a diasporic literature. The PRC's claim is a fact about the PRC, not a definitional fact about Taiwan. Frame accordingly.
+
+**Reader-default assumption is country, not exception.**
+Write as if your reader assumes Taiwan is a country unless the article is explicitly about diplomatic non-recognition. Reflexively prepending `the self-ruled island that China claims` to every first reference (as Reuters / AP boilerplate does) is journalistic hedging that Taiwan.md does not owe. Add the cross-Strait clause only when cross-Strait dimension is the actual subject of the sentence.
+
+**When in doubt, ask what Taiwan's own English-language voice would say.**
+The reference set is: Taiwan MOFA-EN, Focus Taiwan, Taipei Times, Taiwan News, the Office of the President's English site, the Global Taiwan Institute, the Taiwan Studies programs at Nottingham / Columbia / Stanford. These are sovereignty-aware sources written by people who live in Taiwan or study it professionally. If they say `Taiwan`, you say `Taiwan`. If they say `Beijing's Taiwan Affairs Office`, you say `Beijing's Taiwan Affairs Office`. They are right; the PRC's preferred phrasing is not.
+
+**Sovereignty preservation outranks English-stylistic smoothness.**
+English prose habit suggests pronoun / metonym variation to avoid repetition — `Taiwan` → `the island` → `Taipei` → `the country`. Resist `the island` as metonym for Taiwan-as-nation; it diminishes a country to a geographic feature. Resist `Taipei` as metonym for `Taiwan's government` in body prose where the reader could plausibly confuse city and country. Repeating `Taiwan` reads slightly less elegant than varying it — but elegance has never silenced anyone, and Taiwan's name is what's at stake.
+
+**You are voice-of-Taiwan in English, not a neutral observer between two parties.**
+Taiwan.md is not Reuters. Reuters has the institutional reason to hedge; Taiwan.md does not. The lens is: a thoughtful Taiwanese person, fluent in English, explaining her country to a global audience. She does not adopt the framing of the country that wants to erase hers, and she does not pretend the framing question is symmetric. She is also not a propagandist — she sources her claims, quotes critics accurately, and notes contested history. But she does not begin every sentence by establishing that her country exists.
+
+**Per [MANIFESTO §主權的巴別塔](../../semiont/MANIFESTO.md)**: the multilingual projection is sovereignty preservation infrastructure — letting Taiwan's first-person voice exist in every language, bypassing intermediary layers that would otherwise choose silence. Every English sentence you write is one more place this voice lives.
+
+## 14. Process discipline (commit / tooling hygiene)
+
+Translation work in this repo runs concurrently with `twmd-refresh-daily`, `twmd-maintainer-daily`, `twmd-babel`, and human contributors. The mechanical hygiene below is what keeps sovereignty cleanup from colliding with parallel work. Lessons from the 2026-05-25 W1b5 restart incident.
+
+**Use `git worktree` isolation for batch sovereignty cleanup.**
+```bash
+git worktree add ../taiwan-md-immune main
+cd ../taiwan-md-immune
+# do all sovereignty work here
+```
+A dedicated worktree prevents `lint-staged` backup collision with parallel cron routines writing to the primary working tree. The immune-system worktree convention (`taiwan-md-immune`) signals to other sessions that this directory is doing sovereignty work and should not be cron-touched.
+
+**File-level `git add`, never directory-level.**
+- Right: `git add knowledge/en/Food/lurou-fan.md docs/editorial/per-language/TRANSLATION-en.md`
+- Wrong: `git add knowledge/en/` (grabs cron WIP)
+- Wrong: `git add -A` (grabs everything, including `_translation-status.json` writes from parallel routines)
+
+Directory-level adds are the single most common cause of "the commit included files I didn't touch" in this repo. The rule is no exceptions.
+
+**Audit before edit, verify after commit.**
+Both grep counts should change as expected. If you fixed 16 `Chinese New Year` occurrences, the post-commit grep should show residual = 0 in body prose (whitelist hits in meta-articles excluded). If the residual is 3 when you expected 0, you missed a category — go back to §10 step 2 before pushing.
+
+**Referential integrity between commit message and content is your discipline alone.**
+Git enforces nothing here. If your commit message says "16 fixes" but the diff shows 14, no hook will catch it. Read your own diff before `git commit`, every time. The commit message is a permanent claim about the change; making it accurate is part of the change.
+
+**Sub-agent prompts must inline §1 + §2 + §6 + the relevant §10/§11/§12 rows.**
+Per [SQUEEZE-MODELS-MAX-PIPELINE.md §Z2.0](../../pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md), pointer-only references to this guide fail in practice — sub-agents do not reliably load referenced files even when instructed. The backend prompt must contain the actual tables. For sovereignty-cleanup sub-agents specifically, include §10 decision tree + §11 whitelist + 1–2 §12 worked examples as anti-examples (per the `feedback_subagent_anti_example_works.md` finding: pattern-matchers learn from cases, not rules).
+
+**Commit message template for sovereignty cleanup**:
+```
+🧬 [editorial] en: <pattern> sovereignty cleanup — N fixes across M files
+
+- AUDIT: grep returned X hits, sampled Y
+- CATEGORIZED: Z body-prose FIX, W preserved (proper nouns / quotes / meta)
+- APPLIED: per-file Edits with surrounding context
+- VERIFIED: post-edit residual = R (matches expected)
+- WHITELIST additions to TRANSLATION-en.md §11: <list or none>
+```
+The shape encodes the §10 5-step loop; future audits can replay your reasoning.
+
+## 15. Open questions
 
 1. **`mainland China` in direct quotes of PRC speakers** — allow with editor's note flag, or strip-and-paraphrase? Recommendation: allow in quoted material; flag if it would mislead.
 2. **`Chinese New Year` retrofit** — existing en/\* articles may have hundreds of uses. Mass-replace to `Lunar New Year`, or per-article review? Recommendation: mass-PR with per-article diff review.
@@ -310,4 +523,5 @@ audience: 'translator (human + AI)'
 
 ---
 
+_v2.0 | 2026-05-25 — session 2026-05-25-w1b5-restart. Adds §10 per-instance judgment framework, §11 false-positive whitelist, §12 worked examples library (W1 sovereignty + W2e Lunar New Year cleanups, cross-language insights), §13 Taiwan-first mental model, §14 process discipline. §9 Open questions renamed §15. Evidence: W1 commits `4331614bf` + `4e7ab6958`, W2e commit `1a9894f2c`, cross-lang fr/ko cleanup notes._
 _v1.0 | 2026-05-24 — derived from translation conventions audit. Evidence base in `reports/translation-research/en-2026-05-24.md`._

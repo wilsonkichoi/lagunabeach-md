@@ -3,9 +3,12 @@ title: 'TRANSLATION-ja'
 description: '日文翻譯規範 — 用語對照表 + sovereignty-avoid 詞庫 + 文體 + romanization 規則'
 type: 'editorial-canonical'
 status: 'canonical'
-current_version: 'v1.0'
-last_updated: 2026-05-24
-last_session: '2026-05-24-twmd-translation-audit'
+current_version: 'v2.0'
+last_updated: 2026-05-25
+last_session: '2026-05-25-w1-ja-cleanup-plus-augment'
+prior_sessions:
+  - '2026-05-24-twmd-translation-audit'
+  - '2026-05-25-w1-ja-cleanup-plus-augment'
 sister_docs:
   - 'TRANSLATION-en.md'
   - 'TRANSLATION-ko.md'
@@ -332,7 +335,385 @@ audience: 'translator (human + AI)'
 
 ---
 
-## 9. Open questions
+## 10. Per-instance 判断フレームワーク — 監査 → 分類 → 判断 → 適用 → 検証
+
+§1–§8 の対照表は WHAT（何を選ぶか）の規範。§10 は HOW TO JUDGE（個別ヒットをどう裁くか）の作業手順。「全件置換」スクリプトは sovereignty leak と同じくらい false positive を量産する。プロ翻訳者の手順を 5 ステップに codify する。
+
+### Step 1 — 監査（audit）
+
+```bash
+grep -rn 'パターン' knowledge/ja/
+```
+
+ヒット数 + 5–10 件のコンテキスト（前後 3 行）を読む。**全件読まずに置換しない**。日本語の場合、漢字 1 文字違いで意味が大きく変わる（「華僑」vs「台僑」、「日治」vs「日據」、「両岸統一」vs「中台統合」）。grep 結果は出発点であり結論ではない。
+
+### Step 2 — 分類（categorize）
+
+各ヒットを 6 桶に振り分ける：
+
+| 桶                                                       | 処置               | 例                                                                            |
+| -------------------------------------------------------- | ------------------ | ----------------------------------------------------------------------------- |
+| 本文 narrative voice                                     | **FIX**            | 「中国大陸との緊張…」→ 「中華人民共和国との緊張…」                            |
+| 「 」直接引用 + 出典明示                                 | **PRESERVE**       | 中国統一聯盟のスローガン「両岸統一、中華の振興」を引用する文脈               |
+| 固有名詞（人名 / 組織名 / 作品名 / 祭典名 / 法令名）     | **PRESERVE**       | 中国国民党 / 台湾省政府（戦後行政組織として）/ 《台北人》(小説タイトル)       |
+| 歴史的言及（旧体制 / 旧用語 / 史実）                     | **PRESERVE**       | 1950 年代の「台湾省議会」「省立◯◯高校」「省主席」                            |
+| frontmatter（description / title / imageAlt / tags）     | **FIX**（often）   | 読者の目に触れる表面、PRC-coded leak の見えるリスク最大                       |
+| meta-discussion（用語そのものを論じている）              | **PRESERVE**       | 「『日治』と『日據』のどちらを採るかは戦後台湾史学界の根本論争である」      |
+
+### Step 3 — 判断（judge）edge cases
+
+桶分けで迷う場合：
+
+- **両方の解釈が成立する** → §11 false-positive whitelist と照合
+- **whitelist にも無い** → 文脈の主体性 lens：「この文を読んだ後、読者は台湾を主権主体として認識するか、PRC の framing 内に位置付けるか」で判断
+- **それでも迷う** → Open questions（§15）に追加して観察者判断待ち、その場では preserve（保守的に）
+
+### Step 4 — 適用（apply）per-file
+
+- **context-anchored Edit**：grep の生 hit 文字列だけでなく、前後数語を含めた一意の old_string で edit。「中国大陸」だけで replace_all すると引用内も書き換わる
+- **1 ファイル 1 commit が理想**：roll-back が容易、reviewer がコンテキストを掴みやすい
+- **frontmatter と本文は分けて edit**：frontmatter は YAML 構造、本文は markdown 構造、混在 edit は YAML parse error の温床
+
+### Step 5 — 検証（verify）
+
+```bash
+grep -c 'パターン' knowledge/ja/    # 残数確認
+```
+
+事前にカウントした false-positive 桶分の数だけ残るのが正常。**ゼロ残 = whitelist を消した = 過剰修正のサイン**。差分を `git diff --stat` でも確認、想定以上のファイルが触られていれば一度退却。
+
+### Worked example — 閩南語 71 件（2026-05-25 W2c session、未適用 deferred）
+
+W2c 監査で `閩南語` を ja コーパス全件 grep → 71 件 hit。Step 2 分類：
+
+- 「閩南語（台湾語）」「閩南語（ホーロー語）」**dual-reference**：著者が両形式を並記している → preserve（学術的厳密性）
+- 「厦門語と閩南語の対照研究」「国語と閩南語の対照研究」**academic linguistic comparison**：中国地方語との対照を論じる学術文脈 → preserve（「台湾語」に置換すると比較軸が崩壊）
+- 「閩南語発音『pat-ka-chiòng』」**pronunciation source**：発音表記の出典として → preserve
+- 「閩南語の歌詞」**song lyric language**：歌詞言語の指示 → 文脈次第（台湾の歌の場合 FIX 候補、中国福建の歌の場合 preserve）
+
+結論：71 件のうち narrative voice で「現代の台湾で話される言語」を指す純粋ケースは限定的 → 一括変換せず、§15 Open questions に「閩南語 case-by-case audit」として deferred。「現在クリーンに見える」ことが「変換が無効」を意味するわけではない、別に出てくる data point として残す。
+
+---
+
+## 11. False-positive whitelist patterns（日本語特有）
+
+§1–§8 で列挙した「避ける」パターンが、実は preserve すべき正当なケース集。grep 一括置換の前に必ずスキャンする。
+
+### 11.1 言語名 dual-reference
+
+```
+閩南語（台湾語）
+閩南語（ホーロー語）
+ホーロー語（閩南語）
+```
+
+著者が中国学術用語と台湾用語を並記して、読者にどちらの呼称も提示している学術的態度。preserve（並記が著者の編集判断）。
+
+### 11.2 比較言語学コンテキスト
+
+```
+厦門語と閩南語の対照研究
+国語と閩南語の対照研究
+閩南語と客家語の音韻比較
+```
+
+中国地方語との対照を論じる文脈で「閩南語」を「台湾語」に置換すると、比較軸そのものが崩壊。preserve（学術用語の正確性）。
+
+### 11.3 引用内の PRC framing
+
+```
+（中国統一聯盟が掲げる）「両岸統一、中華の振興」
+（中華人民共和国主張する）「中国の不可分の一部としての台湾」
+（北京の声明）「祖国統一は歴史的必然」
+```
+
+引用符 + 出典明示 + 主体明示の三点セットが揃った PRC 政治用語は preserve（引用の正確性 > sovereignty filter）。ただし出典が曖昧／引用符が欠落していれば FIX、または出典を補う edit。
+
+### 11.4 風刺的人格 voice 内の「中華民国台湾省」
+
+```
+「私は中華民国台湾省の住民であります」と笑った
+```
+
+風刺・対談・回想録で人格 voice として「 」内に出る場合 preserve。Narrative voice（地の文）に逸出していれば FIX。
+
+### 11.5 戦後 ROC 行政組織の固有名詞
+
+```
+台湾省政府 / 台湾省議会 / 台湾省議員 / 省立◯◯中学 / 省主席 / 省財政庁長 / 省専売局 / 省警備総司令部 / 省戒厳令
+```
+
+1945–1998 年「台湾省」が ROC 行政組織として存在した史実。歴史記事で当時の組織名・職位名として preserve（「台湾省政府」を「台湾政府」に置換すると歴史的指示対象が変わる）。
+
+### 11.6 「華僑」の非台湾系コンテキスト
+
+```
+フィリピン華僑 / ミャンマー華僑 / 韓国華僑 / 東南アジア華僑
+1950 年代の金門帰郷華僑
+```
+
+「華僑」が「台湾系海外居住者」を指す場合のみ「台僑」に置換。それ以外（PRC・東南アジア系・歴史記述の「華僑」）は preserve。
+
+### 11.7 「日本占領」の非台湾コンテキスト
+
+```
+1940 年代の日本占領下の中国
+日本占領期の上海
+```
+
+「日本占領」が中国大陸の戦時占領（1937–1945）を指す場合は preserve。Taiwan.md ja コーパス W2c 監査では `日本占領` 全 2 件のうち 1 件がこのケース、もう 1 件は「『日治』vs『日據』」用語論議の meta discussion → どちらも preserve、Taiwan-context 用例は既にゼロという結果。日本語訳者は「日本統治時代」convention を既に internalize している。
+
+### 11.8 meta-terminology 議論
+
+```
+「日治」（中立用語）と「日據」（KMT 系占領 framing）のどちらを採るかは戦後台湾史学界の根本論争である
+中国学術界は「閩南語」と呼ぶが、台湾では「台湾語」が法定名称
+```
+
+用語そのものを論じている meta discussion では両方の用語を preserve（書き換えると論考が成立しない）。
+
+### 11.9 動詞句の構造による false positive
+
+```
+中国の[台湾侵攻] のシナリオ
+中国の[台湾工作] が活発化
+中国の[台湾政策] の転換
+```
+
+`中国` + `の` + `[VERB+台湾 or 台湾+OBJECT]` 構造は「中国台湾」（PRC 行政分類）の false positive。grep 'パターン=中国.*台湾' が拾うが、これらは「中国が台湾に対して行う◯◯」の意味で preserve。Society/tiktok-in-taiwan、People/puma-shen などで実例あり。
+
+### 11.10 人名の漢字 false positive
+
+```
+焦元溥（音楽評論家）
+焦慈溥
+陳家奕
+```
+
+`焦／元／慈／溥` `家奕／家儀` などの漢字が `嘉義／嘉儀` 都市名と pattern match する false positive のリスク。人名固有名詞は preserve（grep 結果から person-name context を除外する）。
+
+### 11.11 書籍 / 映画タイトル
+
+```
+《台北人》（白先勇）→「タイペイ・ピープル」または「台北人 (Taibei Ren)」
+《海角七号》→「海角七号 (Cape No. 7)」
+```
+
+原題が漢字なら preserve、必要に応じ括弧併記。原題を勝手に「台北人」→「台湾人」と変換しない（タイトル integrity）。
+
+---
+
+## 12. Worked examples library（本 session ja 実例）
+
+### 12.1 「両岸統一」 narrative voice (W1, fix applied)
+
+**Pattern**: `両岸統一` grep → 4 件 hit
+**Context**: 3 件が narrative voice で「統一派 / 被統派 / 両岸統一論者」の立場を地の文で記述、1 件は中国統一聯盟組織の公式スローガン引用
+**Judgment**:
+
+- Narrative voice 3 件 → FIX `両岸統一` → `中台統合`（中立・第三者視点）
+- Organization slogan 1 件 → PRESERVE（引用 + 出典 + 引用符の三点揃い）
+
+**Applied edit example**:
+
+```diff
+- 統一派は両岸統一を最終目標として掲げる
++ 統一派は中台統合を最終目標として掲げる
+```
+
+### 12.2 「中国台湾省」 PRC framing (W1, rephrased)
+
+**Pattern**: `中国台湾省` grep → 1 件 hit
+**Context**: 国際機関データベースの分類例として引用
+**Judgment**: 引用文脈だが PRC framing を地の文同等に提示してしまっている → rephrase で事実引用を保持しつつ framing を中和
+
+**Applied edit example**:
+
+```diff
+- WHO データベースは「中国台湾省」として分類している
++ WHO データベースは PRC の主張に従い「Taiwan, Province of China」表記を採用している
+```
+
+### 12.3 「華僑」→「台僑」(W1, 1 件のみ fix)
+
+**Pattern**: `華僑` grep → 全件数十、その中で「タピオカ ディアスポラ」コンテキスト 1 件
+**Context**: 1990 年代以降の台湾系珍珠奶茶ブランドの海外展開を語る段落
+**Judgment**: 台湾系海外コミュニティを指す純粋ケース → FIX。他の「華僑」（フィリピン華僑・ミャンマー華僑・歴史的「華僑」）は preserve
+
+### 12.4 「日本占領」audit (W2c, no edit needed)
+
+**Pattern**: `日本占領` grep → 全 2 件
+**Context 1**: "1940 年代の日本占領下の中国" — 1940s 戦時中国を指す（台湾文脈ではない）
+**Context 2**: "「日治」vs「日據」用語論議" — meta terminology
+**Judgment**: 両方とも preserve、Taiwan-context 用例ゼロ
+**Insight**: 日本語訳者は「日本統治時代」convention を既に internalize、ja コーパスはこのパターンで既にクリーン。「動かさない」も正しい結論。
+
+### 12.5 「閩南語」audit (W2c, deferred)
+
+**Pattern**: `閩南語` grep → 71 件
+**Distribution**:
+
+- 学術 / 比較言語学コンテキスト：~50 件
+- Dual-reference `閩南語（台湾語）`：~15 件
+- 発音 source / 歌詞言語 reference：~6 件
+
+**Judgment**: 大半が preserve 桶 → 一括変換せず、Open questions に case-by-case audit として deferred
+
+### 12.6 Cross-lang false positive — 嘉義 / 人名（FR・KO・JA 共通）
+
+**Pattern**: 漢字 city name `嘉義` の pattern match
+**False positive 例**:
+
+- フランス語版 "Li Jiayi"（人名）が `嘉義` 都市名 fix 時に hit
+- 韓国語版 「대북부」(大北部) が `대북`（台北 Sino-Korean）fix 時に hit
+- 日本語版で `焦慈溥` `陳家奕` などの人名が pattern match
+
+**Rule**: 都市名 fix は person-name context を除外する pre-filter が必要。Pure grep では取りこぼし／過剰修正の両リスクあり。
+
+### 12.7 「Festival de Zhongyuan de Jilong」(FR から学ぶ pattern)
+
+**Pattern**: 祭典の固有名詞 + 地名カタカナ転写
+**Lesson**: 「基隆中元祭」のような proper-noun-as-festival は jp/en/fr 共通で preserve、内部の単語を個別 fix しない（`Jilong` → `Keelung` だけ fix すると祭典名の単一性が崩れる）
+
+### 12.8 Frontmatter の見えるリスク
+
+**Pattern**: `description: "中国大陸との緊張関係…"` （frontmatter 内）
+**Risk**: 本文より高い leak リスク — description は記事 head・sitemap・SNS share preview に表示される、読者の目に最初に触れる
+**Rule**: 本文 audit と並行で frontmatter audit を行う。description / title / imageAlt / tags すべて scan 対象。
+
+### 12.9 sub-agent prompt に rule を埋め込む vs anti-example
+
+**Lesson** (cross-lang)：Sub-agent prompt に「§11 whitelist を遵守せよ」だけ書いても効果が薄い。直近の false-positive case を anti-example として添付すると効果が上がる（pattern matcher）。
+**Application**: 翻訳 batch を sub-agent に投げる時は §11 whitelist の **最も最近** ヒットした実例 1–2 件を prompt に inline で埋める。
+
+### 12.10 commit-content referential integrity gap
+
+**Lesson** (W1 ja cleanup, bundled into 4331614bf): grep audit でクリーンになっていても、commit に「閩南語 71 件 W2c 監査結果：preserve、no edit」のような「動かさなかった」結果を記録しないと、次の session が同じ監査を再走する。
+**Rule**: 監査結果（動かしたものだけでなく、動かさないと判断したものも）を commit message または `reports/translation-status/` に書き残す。
+
+---
+
+## 13. 翻訳者の「Taiwan-first」mental model — 日本語版
+
+§1–§8 は語彙・字面の規範。§13 は翻訳者として身につける視座。日本の読者は台湾と歴史的に最も深い結び付き（1895–1945 統治期 + 戦後一貫した文化的親近感 + 日本台湾学会の継続的活動）を持つ。Taiwan.md ja 翻訳者は以下の視座で書く：
+
+### 13.1 台湾を独立した主体として描く
+
+「中国の対岸の島」「中華人民共和国の隣の地域」のような相対的・従属的位置付けで台湾を導入しない。台湾は 23 百万人の民主主義国家として、独立した主体として最初の文から立ち上がる。
+
+```diff
+- 中国の対岸に位置する台湾は…
++ 台湾は東アジアの民主主義国家であり…
+```
+
+中国との関係に言及する必要があれば、その関係を別の文・別の段落で論じる。最初の文で「中国の◯◯」として導入しない。
+
+### 13.2 NHK 2024 パリ五輪 + 川島真 UTokyo を rhetorical baseline
+
+- **NHK 2024 パリ五輪入場**：実況アナウンサーは全行程で「台湾」と呼称（「チャイニーズ・タイペイ」は IOC 公式名として一度だけ言及）。これが現代日本語放送 standard
+- **川島真『どう呼んだらいいのか？』([交流 2025.1](https://www.koryu.or.jp/Portals/0/images/publications/magazine/2025/01/2501_02kawashima.pdf))**：日本台湾交流協会機関誌の最新整理、Taiwan.md ja の rhetorical baseline 文献
+
+これらが「日本語のプロが台湾をどう書くか」の現代基準。Taiwan.md ja はこの baseline を内包する。
+
+### 13.3 PRC-default 表現を避ける（narrative voice）
+
+下記は LLM の default 出力で日本語に混入しやすい PRC framing。Taiwan.md ja narrative voice では使わない：
+
+- 「中国本土」「中国大陸」（台湾を「中国の外側」配置）→ 「中国」「中華人民共和国」
+- 「祖国統一」「両岸統一」→ 引用以外不使用
+- 「中国・台湾」並記 → 「中国」と「台湾」（独立した二項として）
+- 「中国台湾」「中国の台湾」→ 「台湾」
+
+### 13.4 日本台湾学会 会員の用語使用を model に
+
+[日本台湾学会](https://jats.gr.jp/journal/journal.html) 会員の論考は、学術的厳密性 + 主権感受性の両立 standard。「日本統治時代」「二・二八事件」「白色テロ」「台湾語」など、Taiwan.md ja の語彙選択は基本的に学会用語と整合させる。学会会報の最新号を年 1–2 回横断スキャンする習慣を推奨。
+
+### 13.5 翻訳者は日本語における台湾の声、中立観察者ではない
+
+Taiwan.md ja は「日本語で台湾の first-person voice を伝える」プロジェクト。「中立的第三者として台湾と中国の間に立つ」立場ではない。「中華人民共和国は台湾を自国領と主張するが、台湾は…」のような両論併記は **必要な場面でのみ**（cross-Strait 関係を直接論じる文）、デフォルトの導入文には入れない。
+
+### 13.6 文体の章単位統一
+
+- **「である調」default**：解説・知識記事
+- **「ですます調」**：ガイド・spore・親しみコラム
+- **章単位で統一、章内混在不可**
+
+「である調」「ですます調」の選択は voice の選択 = identity の選択。記事タイプ別に決定し、章を通して保つ。
+
+### 13.7 register pyramid
+
+| register      | 場面                                 | 例                                                            |
+| ------------- | ------------------------------------ | ------------------------------------------------------------- |
+| 学術 / 厳密   | 史実・制度・統計                     | 「日本統治時代（1895–1945）」「二・二八事件」「白色テロ」     |
+| 解説 / 中立   | 一般知識記事                         | 「台湾」「中華人民共和国」「中台関係」                        |
+| カジュアル    | spore / SNS / コラム                 | 「台湾」「中国」「両岸」（外交文脈の引用）                    |
+| 詩 / 文学     | 文化エッセイ                         | 「美麗島」「フォルモサ」（歴史文脈・文学的引用のみ）          |
+
+register 選択は記事タイプに従属、章単位で統一。混在は読み手にストレス。
+
+---
+
+## 14. Process discipline（commit / tooling hygiene）
+
+§10–§13 が WHAT の規範、§14 は HOW（作業 process）の規律。日本語特有ではないが、ja audit session でも一貫適用。
+
+### 14.1 Worktree isolation
+
+複数言語の並行作業（ja + ko + es 同 session）はメインリポではなく worktree で分離。`git worktree add ../taiwan-md-ja-w1 main` で言語別 branch を分離、merge は別 session で。理由：
+
+- 失敗時の roll-back が局所化
+- commit 履歴が言語ごとに線形になり reviewer が読みやすい
+- 並列 grep / lint が干渉しない
+
+### 14.2 File-level git add（避ける `git add -A`）
+
+`git add knowledge/ja/Society/foo.md` のようにファイル単位で stage。`git add -A` や `git add .` は：
+
+- 想定外ファイル（.DS_Store / editor lockfile / 別言語の sync 差分）を巻き込む
+- frontmatter typo を伴う失敗 edit も commit してしまう
+- diff が大きすぎて reviewer が個別 fix を追えない
+
+### 14.3 commit content referential integrity gap
+
+audit 結果は **動かしたものだけでなく、動かさないと判断したものも** commit に記録：
+
+```
+W2c ja audit: 閩南語 71 件、内訳：
+  - 学術比較コンテキスト ~50 件 → preserve
+  - dual-reference 「閩南語（台湾語）」 ~15 件 → preserve
+  - 発音 source / 歌詞 reference ~6 件 → preserve
+  結論：narrative voice 純粋ケースゼロ、no edit
+  → §15 Open questions に case-by-case audit deferred として記録
+```
+
+次の session が同じ監査を再走しないために、「動かさなかった」も記録する。
+
+### 14.4 sub-agent prompt に guide を inline で埋め込む
+
+翻訳 batch を sub-agent に投げる時、`docs/editorial/per-language/TRANSLATION-ja.md を読め` だけでは不十分（agent が読まない・要約する・忘れる）。Prompt に以下を inline で埋め込む：
+
+- §1 国名対照表（少なくとも台湾 / 中華民国 / 中国 / 両岸の 4 行）
+- §2 該当人物の推奨表記（記事内に出る固有名詞のみ）
+- §6 sovereignty-avoid lexicon（最低限の禁止リスト）
+- §11 直近の false-positive whitelist 1–2 件（anti-example）
+
+文字数で 500–1000 字程度。Sub-agent の文脈窓に必ず収まる。「pointer だけで足りる」は LLM 行動の現実と乖離。
+
+### 14.5 検証は grep count + git diff --stat
+
+```bash
+git diff --stat
+grep -c 'パターン' knowledge/ja/
+```
+
+Edit 直後に必ず両方確認：
+
+- `git diff --stat`：触ったファイル数が想定通りか（過剰修正の即検出）
+- `grep -c`：whitelist 桶の数だけ残っているか（過小・過剰修正の検出）
+
+---
+
+## 15. Open questions
 
 Maintainer 判断待ち：
 
@@ -341,7 +722,11 @@ Maintainer 判断待ち：
 3. **「臺灣」vs「台湾」固有名詞引用方針** — 台湾政府公式は「臺灣」、日本語は「台湾」優勢、台湾公的書類引用時の方針。
 4. **原住民族 16 族の最新公認名と日本語対応** — カナカナブ族など新認定族の日本語表記。
 5. **「日治」vs「日本統治」の学術記事内使い分け詳細** — 日本台湾学会会報の最新号横断調査が必要。
+6. **「閩南語」71 件 case-by-case audit**（2026-05-25 W2c deferred）— 学術比較・dual-reference・発音 source の preserve 桶分類が大半だが、narrative voice 純粋ケースの抽出が必要。Per §10 worked example。
+7. **「華僑」全件 audit の優先度** — W1 で 1 件 fix（台湾系珍珠奶茶 ディアスポラ）、残り「華僑」hits の台湾系 vs 非台湾系分類が未完。
+8. **frontmatter description / imageAlt / tags の sovereignty leak audit** — 本文より読者目に触れる leak リスクが高い、専用 lint plugin 候補。
 
 ---
 
+_v2.0 | 2026-05-25 — §10 per-instance judgment framework / §11 false-positive whitelist / §12 worked examples library / §13 Taiwan-first mental model / §14 process discipline 追加。W1 ja cleanup（中国台湾省 / 両岸統一 / 華僑）+ W2c audit（日本占領 / 閩南語）の lessons を codify。 §1–§8 不変、原 §9 を §15 に移動。_
 _v1.0 | 2026-05-24 — derived from translation conventions audit. Evidence base in `reports/translation-research/ja-2026-05-24.md`._
