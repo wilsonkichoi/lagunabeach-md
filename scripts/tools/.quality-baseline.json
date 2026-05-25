@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-05-24T15:09:03Z",
-  "total": 753,
-  "flagged": 315,
+  "timestamp": "2026-05-25T15:09:53Z",
+  "total": 754,
+  "flagged": 316,
   "files": [
     {
       "file": "music/拍謝少年.md",
@@ -243,6 +243,11 @@
       "file": "technology/海底電纜.md",
       "score": 4,
       "reasons": "未人工審核; 破折號17個"
+    },
+    {
+      "file": "technology/雷亞遊戲.md",
+      "score": 5,
+      "reasons": "空洞詞10個; 未人工審核; 連續bullet8行"
     },
     {
       "file": "art/林經堯.md",

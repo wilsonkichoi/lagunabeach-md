@@ -1,8 +1,8 @@
 {
-  "totalArticles": 4579,
+  "totalArticles": 4580,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 6762,
+  "totalTags": 6485,
   "categories": [
     {
       "name": "es",
@@ -30,7 +30,7 @@
     },
     {
       "name": "Society",
-      "count": 74
+      "count": 75
     },
     {
       "name": "Culture",
@@ -100,15 +100,15 @@
     },
     {
       "name": "科技與企業",
-      "count": 45
-    },
-    {
-      "name": "TSMC",
-      "count": 37
+      "count": 43
     },
     {
       "name": "文學",
       "count": 32
+    },
+    {
+      "name": "TSMC",
+      "count": 30
     },
     {
       "name": "AI",
@@ -119,16 +119,16 @@
       "count": 27
     },
     {
-      "name": "客家",
-      "count": 27
-    },
-    {
       "name": "金曲獎",
       "count": 27
     },
     {
       "name": "音樂",
       "count": 27
+    },
+    {
+      "name": "客家",
+      "count": 26
     },
     {
       "name": "半導體",
@@ -168,13 +168,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4579,
+    "zh-TW": 4580,
     "en": 0
   },
-  "lastUpdated": "2026-05-24T15:09:03.152Z",
-  "stars": 1006,
-  "forks": 148,
-  "zhPages": 3804,
+  "lastUpdated": "2026-05-25T15:09:53.476Z",
+  "stars": 1009,
+  "forks": 147,
+  "zhPages": 3805,
   "enPages": 775,
-  "totalPages": 4579
+  "totalPages": 4580
 }

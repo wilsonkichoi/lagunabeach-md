@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T15:09:03.495Z",
+  "lastUpdated": "2026-05-25T15:09:53.871Z",
   "languages": [
     "zh-TW",
     "en",
@@ -10,72 +10,72 @@
   ],
   "summary": {
     "zh-TW": {
-      "total": 751,
+      "total": 752,
       "percentage": 100,
-      "fresh": 751,
+      "fresh": 752,
       "stale": 0,
       "missing": 0,
       "deficit": 0
     },
     "en": {
       "total": 752,
-      "percentage": 99.9,
-      "fresh": 706,
-      "metadataStale": 0,
-      "stale": 46,
-      "missing": 1,
+      "percentage": 99.7,
+      "fresh": 696,
+      "metadataStale": 5,
+      "stale": 51,
+      "missing": 2,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 93.8,
-      "bodyFreshPct": 93.8
+      "deficit": 2,
+      "freshPct": 92.3,
+      "bodyFreshPct": 93
     },
     "ja": {
       "total": 752,
-      "percentage": 99.9,
-      "fresh": 710,
-      "metadataStale": 0,
-      "stale": 42,
-      "missing": 1,
+      "percentage": 99.7,
+      "fresh": 694,
+      "metadataStale": 5,
+      "stale": 53,
+      "missing": 2,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 94.3,
-      "bodyFreshPct": 94.3
+      "deficit": 2,
+      "freshPct": 92,
+      "bodyFreshPct": 92.7
     },
     "ko": {
       "total": 752,
-      "percentage": 99.9,
-      "fresh": 710,
-      "metadataStale": 0,
-      "stale": 42,
-      "missing": 1,
+      "percentage": 99.7,
+      "fresh": 694,
+      "metadataStale": 5,
+      "stale": 53,
+      "missing": 2,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 94.3,
-      "bodyFreshPct": 94.3
+      "deficit": 2,
+      "freshPct": 92,
+      "bodyFreshPct": 92.7
     },
     "es": {
       "total": 752,
-      "percentage": 99.9,
-      "fresh": 711,
-      "metadataStale": 0,
-      "stale": 41,
-      "missing": 1,
+      "percentage": 99.7,
+      "fresh": 701,
+      "metadataStale": 5,
+      "stale": 46,
+      "missing": 2,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 94.4,
-      "bodyFreshPct": 94.4
+      "deficit": 2,
+      "freshPct": 93,
+      "bodyFreshPct": 93.6
     },
     "fr": {
       "total": 752,
-      "percentage": 99.9,
-      "fresh": 709,
-      "metadataStale": 0,
-      "stale": 43,
-      "missing": 1,
+      "percentage": 99.7,
+      "fresh": 694,
+      "metadataStale": 5,
+      "stale": 53,
+      "missing": 2,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 94.2,
-      "bodyFreshPct": 94.2
+      "deficit": 2,
+      "freshPct": 92,
+      "bodyFreshPct": 92.7
     }
   },
   "matrix": {
@@ -120,39 +120,39 @@
     "art": {
       "zh-TW": 36,
       "en": {
-        "count": 36,
-        "fresh": 35,
-        "stale": 1,
+        "count": 35,
+        "fresh": 33,
+        "stale": 2,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       },
       "ja": {
-        "count": 36,
-        "fresh": 36,
-        "stale": 0,
+        "count": 35,
+        "fresh": 33,
+        "stale": 2,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       },
       "ko": {
-        "count": 36,
-        "fresh": 36,
-        "stale": 0,
+        "count": 35,
+        "fresh": 33,
+        "stale": 2,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       },
       "es": {
-        "count": 36,
-        "fresh": 35,
-        "stale": 1,
+        "count": 35,
+        "fresh": 33,
+        "stale": 2,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       },
       "fr": {
-        "count": 36,
-        "fresh": 36,
-        "stale": 0,
+        "count": 35,
+        "fresh": 34,
+        "stale": 1,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       }
     },
     "culture": {
@@ -242,29 +242,29 @@
       },
       "ja": {
         "count": 53,
-        "fresh": 53,
-        "stale": 0,
+        "fresh": 52,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       },
       "ko": {
         "count": 53,
-        "fresh": 53,
-        "stale": 0,
+        "fresh": 52,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       },
       "es": {
         "count": 53,
-        "fresh": 53,
-        "stale": 0,
+        "fresh": 52,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       },
       "fr": {
         "count": 53,
-        "fresh": 53,
-        "stale": 0,
+        "fresh": 52,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       }
@@ -294,8 +294,8 @@
       },
       "es": {
         "count": 61,
-        "fresh": 49,
-        "stale": 12,
+        "fresh": 54,
+        "stale": 7,
         "missing": 0,
         "deficit": 0
       },
@@ -311,8 +311,8 @@
       "zh-TW": 41,
       "en": {
         "count": 41,
-        "fresh": 40,
-        "stale": 1,
+        "fresh": 39,
+        "stale": 2,
         "missing": 0,
         "deficit": 0
       },
@@ -325,22 +325,22 @@
       },
       "ko": {
         "count": 41,
-        "fresh": 40,
-        "stale": 1,
+        "fresh": 39,
+        "stale": 2,
         "missing": 0,
         "deficit": 0
       },
       "es": {
         "count": 41,
-        "fresh": 40,
-        "stale": 1,
+        "fresh": 39,
+        "stale": 2,
         "missing": 0,
         "deficit": 0
       },
       "fr": {
         "count": 41,
-        "fresh": 40,
-        "stale": 1,
+        "fresh": 39,
+        "stale": 2,
         "missing": 0,
         "deficit": 0
       }
@@ -356,29 +356,29 @@
       },
       "ja": {
         "count": 28,
-        "fresh": 28,
-        "stale": 0,
+        "fresh": 27,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       },
       "ko": {
         "count": 28,
-        "fresh": 28,
-        "stale": 0,
+        "fresh": 27,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       },
       "es": {
         "count": 28,
-        "fresh": 28,
-        "stale": 0,
+        "fresh": 27,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       },
       "fr": {
         "count": 28,
-        "fresh": 28,
-        "stale": 0,
+        "fresh": 27,
+        "stale": 1,
         "missing": 0,
         "deficit": 0
       }
@@ -446,8 +446,8 @@
       },
       "es": {
         "count": 37,
-        "fresh": 36,
-        "stale": 1,
+        "fresh": 37,
+        "stale": 0,
         "missing": 0,
         "deficit": 0
       },
@@ -462,134 +462,139 @@
     "people": {
       "zh-TW": 220,
       "en": {
-        "count": 219,
-        "fresh": 203,
-        "stale": 16,
+        "count": 217,
+        "fresh": 200,
+        "stale": 17,
         "missing": 1,
-        "deficit": 1
+        "deficit": 3
       },
       "ja": {
-        "count": 219,
-        "fresh": 207,
-        "stale": 12,
+        "count": 217,
+        "fresh": 200,
+        "stale": 17,
         "missing": 1,
-        "deficit": 1
+        "deficit": 3
       },
       "ko": {
-        "count": 219,
-        "fresh": 205,
-        "stale": 14,
+        "count": 217,
+        "fresh": 199,
+        "stale": 18,
         "missing": 1,
-        "deficit": 1
+        "deficit": 3
       },
       "es": {
-        "count": 219,
-        "fresh": 207,
-        "stale": 12,
+        "count": 217,
+        "fresh": 200,
+        "stale": 17,
         "missing": 1,
-        "deficit": 1
+        "deficit": 3
       },
       "fr": {
-        "count": 219,
-        "fresh": 206,
-        "stale": 13,
+        "count": 217,
+        "fresh": 200,
+        "stale": 17,
         "missing": 1,
-        "deficit": 1
+        "deficit": 3
       }
     },
     "society": {
-      "zh-TW": 74,
+      "zh-TW": 75,
       "en": {
-        "count": 74,
-        "fresh": 68,
+        "count": 73,
+        "fresh": 67,
         "stale": 6,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 2
       },
       "ja": {
-        "count": 74,
-        "fresh": 66,
+        "count": 73,
+        "fresh": 65,
         "stale": 8,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 2
       },
       "ko": {
-        "count": 74,
-        "fresh": 67,
+        "count": 73,
+        "fresh": 66,
         "stale": 7,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 2
       },
       "es": {
-        "count": 74,
-        "fresh": 67,
+        "count": 73,
+        "fresh": 66,
         "stale": 7,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 2
       },
       "fr": {
-        "count": 74,
-        "fresh": 65,
+        "count": 73,
+        "fresh": 64,
         "stale": 9,
-        "missing": 0,
-        "deficit": 0
+        "missing": 1,
+        "deficit": 2
       }
     },
     "technology": {
       "zh-TW": 49,
       "en": {
-        "count": 49,
-        "fresh": 46,
-        "stale": 3,
+        "count": 48,
+        "fresh": 43,
+        "stale": 5,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       },
       "ja": {
-        "count": 49,
-        "fresh": 46,
-        "stale": 3,
+        "count": 48,
+        "fresh": 43,
+        "stale": 5,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       },
       "ko": {
-        "count": 49,
-        "fresh": 46,
-        "stale": 3,
+        "count": 48,
+        "fresh": 43,
+        "stale": 5,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       },
       "es": {
-        "count": 49,
-        "fresh": 46,
-        "stale": 3,
+        "count": 48,
+        "fresh": 43,
+        "stale": 5,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       },
       "fr": {
-        "count": 49,
-        "fresh": 46,
-        "stale": 3,
+        "count": 48,
+        "fresh": 43,
+        "stale": 5,
         "missing": 0,
-        "deficit": 0
+        "deficit": 1
       }
     }
   },
   "missing": {
     "en": [
       "People/鄭愁予：寫〈錯誤〉的浪子，最後落籍金門.md",
+      "Society/台灣月老地圖：找對象前先挑廟，這座島養著至少十個分工不同的月老.md",
       "Technology/半導體產業：從 RCA 技轉到氮化鎵與量子封裝的 50 年材料革命.md"
     ],
     "ja": [
-      "People/鄭愁予：寫〈錯誤〉的浪子，最後落籍金門.md"
+      "People/鄭愁予：寫〈錯誤〉的浪子，最後落籍金門.md",
+      "Society/台灣月老地圖：找對象前先挑廟，這座島養著至少十個分工不同的月老.md"
     ],
     "ko": [
-      "People/鄭愁予：寫〈錯誤〉的浪子，最後落籍金門.md"
+      "People/鄭愁予：寫〈錯誤〉的浪子，最後落籍金門.md",
+      "Society/台灣月老地圖：找對象前先挑廟，這座島養著至少十個分工不同的月老.md"
     ],
     "es": [
-      "People/鄭愁予：寫〈錯誤〉的浪子，最後落籍金門.md"
+      "People/鄭愁予：寫〈錯誤〉的浪子，最後落籍金門.md",
+      "Society/台灣月老地圖：找對象前先挑廟，這座島養著至少十個分工不同的月老.md"
     ],
     "fr": [
-      "People/鄭愁予：寫〈錯誤〉的浪子，最後落籍金門.md"
+      "People/鄭愁予：寫〈錯誤〉的浪子，最後落籍金門.md",
+      "Society/台灣月老地圖：找對象前先挑廟，這座島養著至少十個分工不同的月老.md"
     ]
   },
   "statusSource": "translation-status.json",

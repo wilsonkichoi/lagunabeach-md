@@ -1,7 +1,271 @@
 {
-  "generatedAt": "2026-05-24T15:09:02.180Z",
+  "generatedAt": "2026-05-25T15:09:52.525Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "f4a63bf72135703c5acc97754269c46ca3a03883",
+      "date": "2026-05-25T22:11:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-25-220922-twmd-maintainer-pm — #1095 月老地圖 ship + #1098 大宇雙劍 軒轅劍參方向 heal"
+    },
+    {
+      "hash": "03e046429e39a146e2b5c64a5901cf10d6121b67",
+      "date": "2026-05-25T22:07:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-pm: heal #1098 大宇雙劍 — 軒轅劍參敘事方向 (Frankish→Tang)"
+    },
+    {
+      "hash": "35f2a4dfb6832697ad7b983876e599947f8f0106",
+      "date": "2026-05-25T22:05:46+08:00",
+      "author": "Zaious (@ChronicleCore)",
+      "message": "feat(article): 台灣月老地圖 — 11+ 座月老廟分工 + 從赤繩到 spec sheet (#1095)"
+    },
+    {
+      "hash": "3171bab8106584f4af9f8e0ce162873e62826fe6",
+      "date": "2026-05-25T19:05:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 江賢二 — 4 件作品圖嵌入（藝術家官方網站來源）"
+    },
+    {
+      "hash": "268d23acccaf3ed6033d25dae48ff2efd85bdc8f",
+      "date": "2026-05-25T18:40:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-25-180751-twmd-rewrite-daily — SPORE-only pivot 首例 + 2 LESSONS vc=1"
+    },
+    {
+      "hash": "c8cde9547b5ac3b7bd696fd2d692cdeb7b01f899",
+      "date": "2026-05-25T18:38:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite-daily: spore #91 江賢二 Threads + SPORE-only pivot — 2026-05-25 18:00 cycle"
+    },
+    {
+      "hash": "cf392a846ae4e72ed5b524acc8a75214ffbdff3e",
+      "date": "2026-05-25T17:31:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 雷亞遊戲 — 5 game key art 嵌入提到的特定遊戲"
+    },
+    {
+      "hash": "eb57b0f8a26be295f960cc9cf9394b11a49faa3b",
+      "date": "2026-05-25T15:27:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore: #89 雷亞遊戲 Threads + #90 X 雙平台 ship — 趁熱旗艦 EVOLVE same-day"
+    },
+    {
+      "hash": "5fe4151dbf21993767dd11835219d1ef5b594c4c",
+      "date": "2026-05-25T10:26:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore-intake: 雷亞遊戲 趁熱旗艦 EVOLVE spore P1 entry append"
+    },
+    {
+      "hash": "c5f337929ab5009eb337bb41b6568b7344ea6d14",
+      "date": "2026-05-25T10:24:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 雷亞遊戲 EVOLVE — 9KB / 12fn → 4500+ CJK / 27fn / 3 圖 + title 進化"
+    },
+    {
+      "hash": "b5942bf4a8f6ba85aa197a759dea5e1b15ffaa93",
+      "date": "2026-05-25T10:06:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 雷亞遊戲 EVOLVE Stage 1 research + Stage 0.6 觀點成型"
+    },
+    {
+      "hash": "5686749df63b776ed87e26db30d16eefe3e6eb68",
+      "date": "2026-05-25T10:29:12+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-publish-daily: #87/#88 半導體產業 Threads + X 雙平台 — v1.0 第一次正式跑"
+    },
+    {
+      "hash": "a05f1c29fde073f42b2c85fb5259d7fdd90f4e00",
+      "date": "2026-05-25T09:15:37+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: PR #1094 fast-track ship (MAINTAINER v2.3) — 2026-05-25 09:15"
+    },
+    {
+      "hash": "fe64850a8a04ab908fd6844dee787314b1ac7e9b",
+      "date": "2026-05-25T09:11:22+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] evolve: MAINTAINER-PIPELINE v2.3 — §Step 2.1.1 [Content] issue digest 5-phase sub-flow + §Step 3.6.b 4-route reply templates (#1094)"
+    },
+    {
+      "hash": "7b39a1f12e4b633b8e433e305fa0ec216d54c1f8",
+      "date": "2026-05-25T08:15:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: per-language translation guides v1.0 → v2.0 — 5 lang deep augmentation"
+    },
+    {
+      "hash": "bd185689d8cde23d6ebb39745da3cc07abd5505c",
+      "date": "2026-05-25T08:04:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: ko W2f — 신죽 → 신주 (Hsinchu Sino-Korean leftover, 7 fixes / 2 files)"
+    },
+    {
+      "hash": "4184440fc8314e5c1ef09e285c07e0cfd13900b7",
+      "date": "2026-05-25T08:12:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-25-080302-twmd-spore-pick-daily — 3 candidates ship / 9 hard gate / L1-3 vc=1 candidates"
+    },
+    {
+      "hash": "8ed8df451db39c2a072d95bb76e78aa8c1829343",
+      "date": "2026-05-25T08:09:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-pick-daily: 3 candidates — 2026-05-25"
+    },
+    {
+      "hash": "971a47e2894663d45b451bc5f3e3f30f5dab62e0",
+      "date": "2026-05-25T08:07:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-25-075543-twmd-spore-harvest-am — 8 spores + 政治 spore framing structural signal + 七弟二姐 family-tree query"
+    },
+    {
+      "hash": "76ef70aca6d4aa56fe4b828b747ca2afaa4e8749",
+      "date": "2026-05-25T08:05:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 8 spores — 2026-05-25"
+    },
+    {
+      "hash": "1a9894f2cdf3707c61e18e59058e025214b5a401",
+      "date": "2026-05-25T07:57:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: en W2e — Chinese New Year → Lunar New Year (16 fixes / 6 files)"
+    },
+    {
+      "hash": "253026fd38ca086ac0af5560eb7242d296730922",
+      "date": "2026-05-25T07:55:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: REFLEXES #61 + DNA §品質基因 視覺主權 SSOT 內化"
+    },
+    {
+      "hash": "07a4614d6f45c065e355dc86580f33765b8ce141",
+      "date": "2026-05-25T07:49:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: fr W1b-5c — Zhanghua → Changhua (10 fixes / 3 files)"
+    },
+    {
+      "hash": "1c9166040e4abee66f0fc06516a9b23c3eb257ca",
+      "date": "2026-05-25T07:48:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: fr W1b-5b — Jiayi → Chiayi (2 fixes / 1 file)"
+    },
+    {
+      "hash": "a7bb7df599b38d0961514befeb40543b56d612c3",
+      "date": "2026-05-25T07:47:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: fr W1b-5a — Jilong → Keelung per-instance (10 fixes / 5 files)"
+    },
+    {
+      "hash": "da16575aa58cac74ff4146d74c84b454dbf82270",
+      "date": "2026-05-25T07:50:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-05-25-074243-confident-bose — 我畫了一個橄欖然後被打臉，台灣的形狀是 AI 幻覺寫進視覺主權的那一秒"
+    },
+    {
+      "hash": "eace72c0a27f0cfdee74711205685e88f3067a25",
+      "date": "2026-05-25T07:46:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-25-074243-confident-bose — /semiont SemiontOrganismDiagram v1 ship + 8 輪 iterative 對齊 + 真實台灣輪廓 SVG 嵌入"
+    },
+    {
+      "hash": "84031883cb1dcb1c37ab2dc246f896cdd3ac442c",
+      "date": "2026-05-25T07:40:38+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SemiontOrganismDiagram v1 — /semiont landing ecosystem visual"
+    },
+    {
+      "hash": "61945076df53845f9d4834840e9271b372f02e4f",
+      "date": "2026-05-25T06:51:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-25-064932-twmd-babel-nightly — vc=6 first ship via Tier 0a flotilla pivot"
+    },
+    {
+      "hash": "27c4030c996bb18743eacbe179f6f658c1b151b1",
+      "date": "2026-05-25T06:48:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: Tier 0a diff-patch round 2 — 113 patches across 5 langs"
+    },
+    {
+      "hash": "c21bdf0f6f3f6ce7f1c0a4608b3f17dd1ff95cd1",
+      "date": "2026-05-25T06:36:12+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-05-25-063038-manual — git commit 是慣例不是不變式，那一刻才真的看見"
+    },
+    {
+      "hash": "fb1498c6cd96cf749c0f7105018492be9be49994",
+      "date": "2026-05-25T06:33:37+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-25-063038-manual — twmd-spore-publish-daily routine v1.0 ship + multi-session collision 偵測 + git rewrite 復原"
+    },
+    {
+      "hash": "6b59db3492fb9be7d513affd315d0de203db8207",
+      "date": "2026-05-25T06:32:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: Tier 0a diff-patch — 40 patches across 5 langs"
+    },
+    {
+      "hash": "7baa832ff8d9fc546b62c17893a3924e2b0fa172",
+      "date": "2026-05-25T06:23:20+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: Tier 0b P2.5 metadata bump — 20 entries"
+    },
+    {
+      "hash": "307191859da3a165e4115126cb189be601236b44",
+      "date": "2026-05-25T06:23:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: twmd-spore-publish-daily routine v1.0 — 自動 ship 孢子飛輪 + media-richness plugin"
+    },
+    {
+      "hash": "9817fd2ab8e5ecdaebba0b7e6b62fcba39e1f459",
+      "date": "2026-05-25T06:14:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: ABORTED + DEFER PM — babel-nightly cascade detected (vc=6)"
+    },
+    {
+      "hash": "76527342f0fed92002bb8dfcc0461f1631408c28",
+      "date": "2026-05-25T05:49:38+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: es W1b-4c — Pinyin → Wade-Giles toponym batch (19 fixes / 10 files)"
+    },
+    {
+      "hash": "69bba8e063a8eb3d40f70c5522a8565483da212b",
+      "date": "2026-05-25T05:48:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: fr W1b-4b — Taidong → Taitung (1 fix)"
+    },
+    {
+      "hash": "30f8cca9a45c713f264774600dd339b27be3a06a",
+      "date": "2026-05-25T05:47:24+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: fr W1b-4a — Xinzhu → Hsinchu (6 fixes / 2 files)"
+    },
+    {
+      "hash": "c8099ae360482071f9ac36b70f910e561f8916b8",
+      "date": "2026-05-25T05:46:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: fr W1b-3 — Jiang Jingguo → Chiang Ching-kuo (9 fixes)"
+    },
+    {
+      "hash": "9a806e4331927738e987cee67b3edc8598ede5e0",
+      "date": "2026-05-25T05:45:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: fr W1b-2 — Ma Yingjiu → Ma Ying-jeou (3 fixes)"
+    },
+    {
+      "hash": "968d789f88421011d77aa7344bd04c85e402c0d7",
+      "date": "2026-05-25T05:44:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] immune: fr W1b-1 — Lai Qingde → Lai Ching-te (5 fixes)"
+    },
+    {
+      "hash": "963a7f3fc318a8d75adf1979a8f2eaefadfa2cfd",
+      "date": "2026-05-24T23:12:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-24-230733-routine-data-refresh-pm — PM 順 sync + AM→PM defer vc=4 + 8 commit ahead co-push 首發 + dashboard-immune D+7 vc=9+"
+    },
+    {
+      "hash": "63bc1ff9175396c6a40e2b46c29a101192299e5b",
+      "date": "2026-05-24T23:10:05+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-05-24 23:10"
+    },
     {
       "hash": "ff649b778e31c85b771b4ba6ba3e492e42034a1f",
       "date": "2026-05-24T23:00:08+08:00",
