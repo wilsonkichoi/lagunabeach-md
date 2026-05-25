@@ -219,35 +219,6 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ## 📥 Pending（待發）
 
-### 雷亞遊戲 — 趁熱旗艦 EVOLVE spore（5/25 EVOLVE Technology）
-
-- **Source-Mode**: `EXISTING-ARTICLE`
-- **Article-Path**: [knowledge/Technology/雷亞遊戲.md](../../knowledge/Technology/雷亞遊戲.md)
-- **Priority**: `P1`
-- **Status**: `pending`
-- **Requested**: 2026-05-25 by 哲宇 (explicit /twmd-rewrite「深度研究進化 + 自動發孢子」directive)
-- **Platform 建議**: `both`（Threads 旺、X 海外華人 + 國際音遊圈 + 香港玩家 reach 高）
-- **Hook anchor 候選**：
-  1. **副標 hook**：「以美學立國的音樂帝國，與它十四年的裂縫」（直接抽 article title 副標）
-  2. **場景 hook**：「2026 年 2 月 11 日，雷亞遊戲公告《Sdorica 萬象物語》進入維護模式 — 八年劇情、八年角色設計、八年世界觀，自此進入凍結狀態」（抽 Sdorica 維護模式 section）
-  3. **數字 hook**：「六個台大電資院出身的年輕人 + 三千萬資本額 + 16 人團隊 = 14 國 App Store 第一名 + 1.3 億下載 + 270 人員工 + 但聚爆動畫十一年沒交付」
-  4. **問句 hook**：「2020 年雷亞讓 ICE 自請離職保住中國市場、2019 年赤燭直接退出中國保留台灣立場 — 同樣是台灣 indie 兩個指標，為什麼選了相反的路？」
-  5. **核心矛盾 hook**：「美學讓雷亞被世界看見，也讓它在每個非音樂的場域跌倒。Sdorica 是這樣、聚爆動畫是這樣、ICE 事件也是這樣」（抽 article 結尾 ✦ anchor）
-- **時效**：article 5/25 同日 ship + 大事件含 Sdorica 2/11 維護模式 + Cytus II 2027 NS2 5/22 公布 — 趁熱窗口 7-14 天最佳
-- **敏感度**：中（ICE 事件政治 framing 雙視角；Sdorica 老玩家情感）— Stage 2 VERIFY 必處理 §爭議處理（赤燭對比 + ICE 切割選擇 不引戰 + 不單方批判）
-- **必驗事實**：六位創辦人姓名 / Sdorica 2026-02-11 維護模式 / Cytus 14 國第一 / Cytus II 18M / 1.3 億下載 / 270 人 / 6,400 萬資本額 / 聚爆動畫 11 年 / ICE 2020-03→07-18 時間軸（這些數字 spore 引用前都要跟 article + research report cross-check）
-- **必先 spawn ARTICLE-INBOX entry**：❌（article 已 ship）
-- **預估發佈時機**：5/26-6/01 最佳（趁 ship 後 7 天熱度 + 避免跟 babel-nightly 同夜搶版面）
-- **Notes**：
-  - 配圖建議 article hero (rayark-cafe-2021.jpg Wikimedia CC BY-SA 4.0) 或 logo (rayark-logo-2012.png en wiki fair use)
-  - Hook tier 自檢：候選 #5「核心矛盾 hook」是最 strong 但需小心對位句型密度（spore ≤ 1 處對位）
-  - 候選 #4「問句 hook」帶赤燭對比 = 雙品牌 cluster 引流力強但易引戰，注意 framing 中立
-  - 候選 #2「場景 hook」是 Sdorica 維護模式 anchor，對長年雷亞玩家 emotional resonance 高
-  - 多語 fan-out 觸發判斷 = 高（音遊國際受眾 cluster，預期 ja/ko/en 翻譯後 SC pull 大；特別香港 reader 對 ICE 事件 reach 強）
-- **Routine path**：若 [twmd-spore-publish-daily](../../knowledge/Technology/雷亞遊戲.md) 10:00 cron pick 此 entry → 走 SPORE-PIPELINE 5 stage 自動 ship；若觀察者手動 trigger /twmd-spore → 同樣可走
-
----
-
 ### 臺灣美食總覽 — 趁熱 spore（5/18 ship）
 
 - **Source-Mode**: `EXISTING-ARTICLE`
