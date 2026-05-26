@@ -59,6 +59,19 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 尹衍樑 NEW — 2026-05-26 manual（辭世當日紀念文 + sovereignty 透鏡 / Stage 0 觀點成型 + Stage 1 sub-agent 41 searches research + Stage 2 寫 4606 CJK / 40 footnote / 3 圖 / 7 H2，核心矛盾「一個剛走的台灣商人，留給世界一座比諾貝爾還貴的獎」）
+
+- **Article**: [knowledge/People/尹衍樑.md](../../knowledge/People/尹衍樑.md) — 4606 CJK chars (102% 4500) / 40 footnote / 7 H2 / 1 hero + 2 inline（hero yin-1st-tang-prize-laureates-2014 CC BY 2.0 中華民國總統府 Wikimedia + 2 inline yin-yan-liang-tang-prize-reception + yin-public-housing-2015-hires 台北市政府開放資訊 Wikimedia）
+- **Research**: [reports/research/2026-05/尹衍樑.md](../../reports/research/2026-05/尹衍樑.md) — 421 行 / general-purpose agent 41 searches（中文 26 / 英文 2 / WebFetch 13）/ 45 條事實素材庫 / 15 句中文 verbatim 引語 / 媒體授權矩陣 ✅
+- **Plot twist**: Stage 1 取材揭露尹衍樑 2026-05-26 04:21 北榮辭世（10+ 獨立來源驗證）→ article 性質從 Stage 0「在世人物深度文」pivot 為「辭世紀念文 + sovereignty 透鏡」。Stage 0 多項假設被推翻：「三度被起訴」frame 事實基底錯（實際是 2012 緩起訴 / 2014 他是檢舉人 / 2016 證人）/ 政大企管系錯（實際文化大學史學系 → 1982 台大商研所 → 1986 政大博士）/ 台大尹衍樑運動中心不存在（實際 2007 土木研究大樓 + 2018 地震工程中心）/ 北大光華 1989 起非 1995 / 接班是家族繼承非徒弟制
+- **保留 Stage 0 anchor**：2014 唐獎生技 Allison+Honjo → 2018 諾貝爾醫獎 4 年驗證 ✅ 完全成立（同樣 pattern 2016 CRISPR Charpentier+Doudna → 2020 諾化 / 2022 mRNA Weissman → 2023 諾醫，連續三屆唐獎生技預測諾貝爾）
+- **政治敏感事實 handling per §自主權邊界**：2013「統一是必然」表態列為事實不下判斷 / 2012 國安密帳緩起訴列為事實不評論 / 兩岸雙下注 framing 多視角並陳
+- **Sovereignty preservation angle**：唐獎獎金 5,000 萬 NTD > 諾貝爾 2024 3,266 萬 NTD（高 1.53x）/ 女性得主比例 28% > 諾貝爾 6% / 國際媒體 Nature + Science + Times Higher Education「Asian Nobels」framing — 一個小島用 30 億新台幣信託基金讓「Taiwan」進入全球科學獎譜系，另一種主權書寫方式
+- **Stage 0 觀點成型 anchor**：commit `12ae489c4` 先 ship research deliverable raw 永久保留（REFLEXES #22）後再進 Stage 2，pivot 受哲宇 in-loop 確認後執行
+- **Cross-link Stage 5 雙向**：許倬雲（2024 唐獎漢學）/ 王永慶（同世代產業領袖轉慈善家）/ 台灣國防與軍事現代化（預鑄工法 + 半導體 + sovereignty 軸線）— 3 條 sibling 全 format-structure ✅ PASS 接受 reverse cross-link；張忠謀 + 施振榮 forward only（無 延伸閱讀 section 不能補 reverse）
+- **Prose hard gates**：word-count 4606 (102%) ✅ / footnote-format ✅ / footnote-density ✅ / image-health 3 圖 ✅ / cjk-punct ✅ / chronicle-lead ✅ / prose-health score 1 ≤ 3 ✅
+- **觸發**: 哲宇 21:06 directive `/twmd-rewrite 尹衍樑`（不知道當日清晨他剛辭世）→ Stage 1 plot twist 揭露 → 哲宇 in-loop 拍板「走紀念文 + sovereignty 透鏡、你 ship」→ Stage 2-5 連跑
+
 ### 大宇雙劍 EVOLVE — 2026-05-26 manual（哲宇 explicit /twmd-rewrite「進化大宇雙劍...深度研究+補足媒體素材」directive — Technology 社群與數位文化 / 從既有 2644 CJK / 20 footnote / 0 圖 升 4784 CJK / 28 footnote / 4 圖 + 2 iframe / 7 H2，新增 3 條重大新事實 + chronicle-lead H2 修補 + 30 秒概覽 canonical format）
 
 - **Article**: [knowledge/Technology/大宇雙劍.md](../../knowledge/Technology/大宇雙劍.md) — 4784 CJK chars (106% 4500) / 28 footnote / 7 H2 / 1 hero + 2 inline + 2 video iframe（hero guanghua-computer-market-2007 CC BY 2.0 pacificmorningpost Flickr Wikimedia + 2 inline softstar-sword-and-fairy + softstar-xuan-yuan-sword-7 SOFTSTAR Steam fair use editorial commentary + iframe 仙劍蝶戀 OST uNG9lwMh2E8 + iframe 胡歌 2005 逍遙嘆 MV O9Fm-nuRhng）
