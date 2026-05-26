@@ -1,6 +1,6 @@
 ---
 title: 'SPORE-PIPELINE'
-description: '孢子產線主流程（process layer）— 5 stage PICK/VERIFY/WRITE/SHIP/HARVEST + Step N.M (v3.5)'
+description: '孢子產線主流程（process layer）— 5 stage PICK/VERIFY/WRITE/SHIP/HARVEST + Step N.M (v3.8)'
 type: 'factory-canonical'
 status: 'canonical'
 current_version: 'v3.8'
@@ -18,7 +18,7 @@ upstream_canonical:
   - '../editorial/EDITORIAL.md'
 ---
 
-# SPORE-PIPELINE.md — 孢子產線主流程（process layer）v3.5
+# SPORE-PIPELINE.md — 孢子產線主流程（process layer）v3.8
 
 > **第一性原理**：這份文件是 AI 可執行的。任何 AI agent 讀完本檔 + WRITING + VERIFY，應該能獨立完成一篇孢子的選題、品檢、撰寫、發佈、收割。
 >
