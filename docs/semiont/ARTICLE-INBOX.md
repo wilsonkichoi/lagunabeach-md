@@ -194,6 +194,52 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 ---
 
+### 🎬 尊（朱玉恩）EVOLVE — 高曝光 + 文章太短 SC signal，2025/11 新家節點補 30 歲分水嶺 layer
+
+- **Type**: `EVOLVE`
+- **Category**: People（數位與媒體）
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-05-26 by twmd-finale evolve scan (session 2026-05-26-230513-manual)
+- **Target article**: `knowledge/People/尊.md`（lastVerified 2026-05-03，72 行）
+- **數據訊號（三源交叉，per EVOLVE-PIPELINE Phase 1）**:
+  - **SC 7d (2026-05-18 → 05-24)**: query「朱玉恩」118 impressions / 3 clicks / **CTR 2.54%** / position 7.98 — 高曝光 + 低 CTR + 排名中前段（典型「文章太短 hold 不住 pos 提升」signal）
+  - **SC 對照**: 同期「張懸」74 imp / 4.05% CTR / pos 12.62（張懸與安溥已 deep article 5000+ CJK），「莊朱玉女」65 imp / 6.15% CTR / pos 15.46（已有完整 article）→「朱玉恩」impression 反而最高但 CTR 倒數，反映 description meta 沒抓住 query intent
+  - **GA**: 直接 PV 未進 top 25（人物類 ~150-300/月區間，非熱門但有 search-driven traffic）
+  - **內容缺陷**: 文章僅 ~2000 CJK（Taiwan.md baseline ~4500 CJK），lastVerified 2026-05-03，2025/11 「我！的！新！家！」系列、第二頻道「人生魯宅x尊」轉向、與蘿倫關係 detail 都只一筆帶過
+- **為什麼這篇 vs 其他（Phase 5 ENRICH 對比）**:
+  - **vs TASA P0**（同 session ship）: TASA 是 P0 NEW，本 candidate 是 P1 EVOLVE。兩者不衝突
+  - **vs 雷亞遊戲**（GA 1123 PV）: 雷亞 lastVerified 2026-05-25 已新鮮，不需要 evolve
+  - **vs 黑冠麻鷺 / 黃魚鴞**（GA top）: 都已在近期 routine rewrite cycle 處理過
+  - **vs 馬英九迷因 / 張懸與安溥**（SC top）: 都已有 deep article（5000+ CJK），不是「太短」signal
+  - **尊** 是唯一「高搜尋 + 文章 72 行 + 未過期但 layer 不足」的純 EVOLVE candidate — Round 1 骨架已對位（抄襲阿神 → 清流標籤 → 假業配翻車 → 慢下來轉向），Round 2 適合補時間軸延伸 + 個體立場 layer（per 本 session diary Round 2 EVOLVE sweet spot pattern）
+- **Round 2 補什麼（具體段落級指示）**:
+  - (a) **2023 假業配風波 deep-dive**：手遊名稱 / 業配廠商 / 廠商回應 / 圈內 KOL 反應（HowHow / 阿神 / 老高 是否表態）/ 訂閱數短期影響數字
+  - (b) **小玉 Deepfake 案 2021-2023 timeline + 聖火玉尊 三人組脈絡**：尊在哥哥案中三度被波及（事發、二審、緩刑）的回應演化
+  - (c) **第二頻道「人生魯宅x尊」轉向**：開設日期、訂閱數 vs 主頻道、內容差異、為何 2024+ 主頻道發片頻率降低
+  - (d) **2025/11 「我！的！新！家！」系列 deep**：購屋價位區間（公開報導）、地點泛指、釋出時的訂閱反應、跟蘿倫的生活敘事
+  - (e) **跟同代 YouTuber 對比 layer**：HowHow（搞笑類同期）/ 老高與小茉（科普知識）/ 阿神（遊戲）/ 蔡阿嘎（在地）— 同 2010s 中期百萬時代的不同生存策略
+  - (f) **「清流」標籤的社會學意義**：為什麼 2017-2023 台灣 YouTube 圈用「清流」這個詞？反映什麼當代焦慮？
+  - (g) **30 歲節點的 framing**：2028/11/16 滿 30 歲，新家落成 + 創作節奏放慢 + 第二頻道，是「百萬 YouTuber 進入下個十年怎麼定義自己」結構
+- **Hook 候選（Stage 0 觀點成型參考）**:
+  - 「黃毛豬」14 歲的 minecraft 實況 → 19 歲全台第三位百萬 YouTuber → 25 歲清流標籤崩塌 → 28 歲新家落成（單一 timeline anchor）
+  - 「清流」是怎麼被加冕、又怎麼瀕臨崩潰：一個世代的台灣 YouTube 倫理測試（社會學 layer anchor）
+  - 從模仿阿神到啟發小玉，再到弟弟保護哥哥：一對 YouTuber 兄弟 14 年的鏡像關係（家族 layer anchor）
+- **媒體素材機會**:
+  - 尊 YouTube 頻道公開影片（fair use editorial commentary）
+  - 訂閱數成長曲線（社群資料 + Social Blade public stats）
+  - 2025/11 新家系列 iframe (`https://www.youtube.com/watch?v=twgMJSxS-H8`)
+  - 假業配影片爭議畫面（fair use criticism）
+  - 跟蘿倫公開合拍照片（Instagram public post 引用）
+- **cross-link**: [HowHow](People 如有)、[蔡阿嘎](People 如有)、[老高與小茉](People 如有)、[阿神](People 如有)、[小玉](People 如有 or 暗指)、[台灣 YouTube 史](Culture/Society)、[創作者經濟](Economy 如有)
+- **Reference**: 維基百科尊 + 聯合新聞網百萬訂閱報導 + Yahoo 業配翻車 + Newtalk 道歉 + DailyView 小玉事件波及 + 尊 YouTube 主頻道 + 第二頻道「人生魯宅x尊」+ 社群觀察報導
+- **預估時間**: ~120-150 min（既有 72 行擴 → 3500-4500 CJK，3 主要新 H2 + 1 對比 H2 + 5+ 新 footnote）
+- **Routine 處置建議**: 適合 `twmd-rewrite-daily` cron 或 manual session pick。Round 1 骨架不重寫，只 EVOLVE 補 layer
+
+<!-- 尊 EVOLVE append 2026-05-26 by twmd-finale evolve scan (P1 — SC 118 imp / 2.54% CTR / pos 7.98 + 72 行 太短) -->
+
+---
+
 ### 📷 SPORE-INBOX 候選圖片補強 batch EVOLVE — 5 articles 倒在 spore-publish gate 2.4
 
 - **Type**: `EVOLVE`
