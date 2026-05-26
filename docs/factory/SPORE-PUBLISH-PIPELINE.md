@@ -16,7 +16,7 @@ upstream_canonical:
   - 'SPORE-PIPELINE.md'
 ---
 
-# SPORE-PUBLISH-PIPELINE.md — 自動發孢子產線 v1.0
+# SPORE-PUBLISH-PIPELINE.md — 自動發孢子產線 v1.1
 
 > **第一性原理**：每天從 SPORE-INBOX 挑一條符合品質門檻的 entry，跑 SPORE-PIPELINE Stage 2-4，自動 ship 到 Threads + X，最後復盤。Routine 場景優先 — 無 entry 過 gate 則 skip + LESSONS-INBOX 記下「intake layer 沒在補 high-quality 候選」（per 哲宇 directive 2026-05-25「這個觀察很重要」）。
 >
