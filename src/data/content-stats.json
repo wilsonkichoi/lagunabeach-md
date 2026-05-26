@@ -6,12 +6,12 @@
     "Economy": 266,
     "Food": 265,
     "Geography": 305,
-    "History": 210,
+    "History": 211,
     "Lifestyle": 141,
     "Music": 173,
     "Nature": 185,
-    "People": 1101,
-    "Society": 387,
+    "People": 1106,
+    "Society": 391,
     "Technology": 246,
     "resources": 10,
     "people": 2
@@ -284,7 +284,11 @@
     {
       "date": "2026-05-25",
       "count": 1
+    },
+    {
+      "date": "2026-05-26",
+      "count": 3
     }
   ],
-  "updated": "2026-05-25"
+  "updated": "2026-05-26"
 }

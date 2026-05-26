@@ -654,7 +654,7 @@
       "二二八"
     ],
     "url": "https://taiwan.md/History/%E4%BA%8C%E4%BA%8C%E5%85%AB%E4%BA%8B%E4%BB%B6",
-    "readingTime": 27,
+    "readingTime": 28,
     "featured": true,
     "date": "2026-03-31",
     "path": "History/二二八事件.md"
@@ -978,9 +978,9 @@
     "category": "Technology",
     "tags": [],
     "url": "https://taiwan.md/Technology/%E5%A4%A7%E5%AE%87%E9%9B%99%E5%8A%8D",
-    "readingTime": 19,
+    "readingTime": 43,
     "featured": false,
-    "date": "2026-04-23",
+    "date": "2026-05-26",
     "path": "Technology/大宇雙劍.md"
   },
   {
@@ -1196,6 +1196,17 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "Economy/台灣企業：中鋼.md"
+  },
+  {
+    "title": "尹衍樑：他蓋的科學獎，比諾貝爾還貴",
+    "description": "2026 年 5 月 26 日清晨四點二十一分，潤泰集團總裁尹衍樑於台北榮民總醫院辭世，享壽 76 歲。從進德中學被王金平包紮傷口的鬥毆少年，到 1989 年踏進灰塵蓋過腳踝的北大、出資創辦光華管理學院，到 2012 年捐 30 億新台幣信託基金成立唐獎。獎金每項 5,000 萬新台幣，超過諾貝爾。一個剛走的台灣商人，留給世界一座比諾貝爾還貴的獎。",
+    "category": "People",
+    "tags": [],
+    "url": "https://taiwan.md/People/%E5%B0%B9%E8%A1%8D%E6%A8%91",
+    "readingTime": 48,
+    "featured": true,
+    "date": "2026-05-26",
+    "path": "People/尹衍樑.md"
   },
   {
     "title": "五月天",
@@ -1978,40 +1989,18 @@
     "title": "半導体産業：RCA 技術移転から窒化ガリウムと量子パッケージングまでの50年にわたる材料革命",
     "description": "台湾の護国神山はファウンドリで世界の先端プロセスを制しましたが、急速充電器の中の窒化ガリウム、AI チップ下の CoWoS、量子ビット上方の希釈冷凍機をめぐり、次の50年の材料科学の戦場はようやく幕を開けたところです。",
     "category": "ja",
-    "tags": [
-      "半導体",
-      "TSMC",
-      "台湾積体電路製造",
-      "窒化ガリウム",
-      "3Dパッケージング",
-      "CoWoS",
-      "量子コンピューター",
-      "先端プロセス",
-      "シリコンシールド",
-      "材料科学"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/Technology/semiconductor-industry",
-    "readingTime": 81,
+    "readingTime": 84,
     "featured": true,
-    "date": "2026-03-17",
+    "date": "2026-05-25",
     "path": "ja/Technology/semiconductor-industry.md"
   },
   {
     "title": "半導體產業：從 RCA 技轉到氮化鎵與量子封裝的 50 年材料革命",
     "description": "台灣護國神山靠代工稱霸全球先進製程，但快充頭裡的氮化鎵、AI 晶片下的 CoWoS、量子位元上方的稀釋冷凍機,下一個 50 年的材料科學戰場才剛擺開。",
     "category": "Technology",
-    "tags": [
-      "半導體",
-      "TSMC",
-      "台積電",
-      "氮化鎵",
-      "3D封裝",
-      "CoWoS",
-      "量子電腦",
-      "先進製程",
-      "矽盾",
-      "材料科學"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/Technology/%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%94%A2%E6%A5%AD",
     "readingTime": 63,
     "featured": true,
@@ -3810,6 +3799,17 @@
     "path": "ja/Technology/taiwan-television-industry-history.md"
   },
   {
+    "title": "台湾とエスワティニ：アフリカ最後の外交的生命線は、一人の人物にかかっています",
+    "description": "2026年5月2日午前9時、頼清徳はエスワティニ国王が貸与したA340専用機でムババーネに着陸しました。台湾総統が飛行許可を中国の圧力で取り消され、最終的に外交関係を持つ国の国王が台北から迎えの航空機を派遣したのは初めてのことです。1968年、エスワティニ独立と同じ日に国交を樹立してから、台湾にとってアフリカに残る最後の友邦となるまで。国交の歴史と生年が完全に重なる絶対君主から、2021年に自国民46人の命を奪った弾圧まで。赤肉グアバがSUPERSPARに並ぶことから、中国がアフリカ53カ国へのゼロ関税であえてエスワティニだけを外すことまで。台湾とエスワティニの58年に及ぶ関係は、「主権国家」を最も具体的に示す教科書であり、同時に答えのない問いでもあります。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Society/taiwan-eswatini-relations",
+    "readingTime": 62,
+    "featured": true,
+    "date": "2026-05-05",
+    "path": "ja/Society/taiwan-eswatini-relations.md"
+  },
+  {
     "title": "台湾とリトアニア：民主的価値と地政学の現実の間で交渉するパートナーシップ",
     "description": "2021年の代表処設置という突破口から、2026年のリトアニア新政権による「戦略的誤り」への反省に至るまで、台立関係は熱い価値同盟から実利的な利益交渉へと転換しつつある。リトアニア国内では「府院不同調」（大統領府と首相府の足並みの乱れ）をめぐる改名問題が浮上する一方、台湾は半導体・レーザー協力の深化を通じて、政治的圧力と経済的コミットメントの間で、この象徴的な国際的友好関係を維持しようとしている。",
     "category": "ja",
@@ -3916,17 +3916,9 @@
     "title": "台湾の人工知能発展と未来戦略：ハードウェアの入場券は手に入れた、次の戦いはどこにあるのか",
     "description": "2024 年 10 月 8 日、ノーベル物理学賞は Hopfield と Hinton に授与され、翌日の化学賞は AlphaFold の 3 人に授与されました。同年 5 月 29 日、黄仁勲は台北の寧夏夜市（ナイトマーケット）で張忠謀と蚵仔煎（牡蠣オムレツ）を食べました。台湾は世界の AI サーバーの 90%、先端ウェハーの 72% を製造していますが、42 年にわたるニューラルネットワークと 50 年にわたるタンパク質フォールディング難題の解答には不在でした。PTT 創設者の杜奕瑾による Taiwan AI Labs から、国家科学及技術委員会が注力する繁体字中国語 LLM モデル TAIDE まで、この島は受託製造工場でいるだけで十分なのでしょうか。",
     "category": "ja",
-    "tags": [
-      "人工知能",
-      "AI",
-      "半導体",
-      "科学技術政策",
-      "デジタルトランスフォーメーション",
-      "ノーベル賞",
-      "AlphaFold"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/Technology/artificial-intelligence-development-strategy",
-    "readingTime": 88,
+    "readingTime": 92,
     "featured": true,
     "date": "2026-03-19",
     "path": "ja/Technology/artificial-intelligence-development-strategy.md"
@@ -4061,6 +4053,17 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "ja/Culture/taiwan-cultural-creative-park-development.md"
+  },
+  {
+    "title": "台湾の月老マップ：相手を探す前にまず廟を選ぶ、この島には役割の異なる月老が少なくとも十柱います",
+    "description": "台湾で良縁を祈るには、多くの人が知らない前提があります。月老は一柱だけではありません。台南の四大月老は、良縁、関係の安定、悪縁切り、復縁をそれぞれ司り、台中の楽成宮は 1753 年創建の古廟として復縁に霊験があることで知られています。新北の威明堂の兔兒神は LGBTQ+ の縁を専門に司り、霞海、龍山寺、鹿港天后宮にもそれぞれ得意分野があります。信徒が書く「相手に求める条件」は詳しければ詳しいほどよいとされます。空欄を残すと、月老につけ込む余地ができるからです。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Society/taiwan-yuelao-matchmaker-map",
+    "readingTime": 41,
+    "featured": false,
+    "date": "2026-05-25",
+    "path": "ja/Society/taiwan-yuelao-matchmaker-map.md"
   },
   {
     "title": "台湾の司法改革と予防的勾留制度",
@@ -4399,6 +4402,17 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "ja/Nature/trail-culture-and-civic-stewardship.md"
+  },
+  {
+    "title": "台湾の国交国と国際外交：12の国交、113の在外公館、177カ国・地域の査証免除（2026）",
+    "description": "2024年1月15日、頼清徳が総統に当選してから48時間後、ナウルは断交を発表し、国交国は13から12になりました。しかし同じ年、台湾には113の在外公館があり、旅券で177カ国・地域へ渡航でき、TSMCは世界の先端半導体の90%を生産し、欧州議会は432:60:71で、中国による国連総会第2758号決議の歪曲に反対する決議を可決しました。紙面上の承認は縮小し、影のネットワークは拡大し、国際法の解釈をめぐる戦いは反転しつつあります。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Society/taiwan-diplomatic-allies-and-international-relations",
+    "readingTime": 60,
+    "featured": true,
+    "date": "2026-04-28",
+    "path": "ja/Society/taiwan-diplomatic-allies-and-international-relations.md"
   },
   {
     "title": "台湾の国際貿易政策：グローバル化の潮流の中で位置づけを探る",
@@ -4770,20 +4784,9 @@
     "title": "台湾の野良動物文化：『十二夜』からベンガルヤマネコの死まで、動物保護と野生動物保全のトロッコ問題",
     "description": "2013 年の『十二夜』は全島を泣かせ、2017 年 2 月、台湾は東アジアで初めてゼロ殺処分の国となりました。8 年後の 2023 年 5 月 11 日午後 6 時、一匹の幼いベンガルヤマネコが放浪猫に噛まれて死にました。農業部の 2022 年調査では全国の放浪犬は 15 万 9697 匹、台湾ベンガルヤマネコ保育協会の自動カメラではベンガルヤマネコの活動地点の 91% に犬がいることが分かりました。動物保護と野生動物保全は対立ではありません。この島には、なお引き受け手のいない命が百万単位で存在します。本稿はどちらかに立つのではなく、まだ答え切れていない問いについて述べます。",
     "category": "ja",
-    "tags": [
-      "野良動物",
-      "動物保護",
-      "ゼロ殺処分",
-      "TNR",
-      "十二夜",
-      "ベンガルヤマネコ",
-      "放浪犬",
-      "動物保護と野生動物保全",
-      "収容所",
-      "譲渡文化"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/Society/stray-animal-culture",
-    "readingTime": 76,
+    "readingTime": 79,
     "featured": true,
     "date": "2026-03-18",
     "path": "ja/Society/stray-animal-culture.md"
@@ -5206,7 +5209,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Society/taiwan-environmental-justice-nimby-conflicts",
-    "readingTime": 32,
+    "readingTime": 33,
     "featured": false,
     "date": "2026-03-20",
     "path": "ja/Society/taiwan-environmental-justice-nimby-conflicts.md"
@@ -6456,7 +6459,7 @@
       "馬場町"
     ],
     "url": "https://taiwan.md/History/%E5%8F%B0%E7%81%A3%E7%99%BD%E8%89%B2%E6%81%90%E6%80%96",
-    "readingTime": 27,
+    "readingTime": 28,
     "featured": true,
     "date": "2026-04-05",
     "path": "History/台灣白色恐怖.md"
@@ -10235,18 +10238,9 @@
     "title": "再生医療二法 × mRNA 30年：二つの救命薬はどのように国家の管理下に置かれたのか",
     "description": "2023年に Karikó と Weissman がノーベル賞を受賞した日は、彼女がペンシルベニア大学で降格されてからちょうど28年後でした。2021年9月2日、BNT の第1便93万回分が桃園国際空港に到着した瞬間は、彼女が1997年に Weissman とコピー機の前で出会ってから24年後でもありました。本稿は「再生医療二法 2024」と「mRNA 30年の辛酸」という二つの線を並置し、ハンガリー移民の女性科学者のテディベアから桃園サイエンスパークのクリーンルームまで、国家がまったく異なる二つの救命薬、すなわち細胞と分子をどのように管理下に置いたのかを見ます。",
     "category": "ja",
-    "tags": [
-      "再生医療二法",
-      "細胞製造",
-      "mRNAワクチン",
-      "COVID-19",
-      "Karikó",
-      "BNT",
-      "医療人権",
-      "GMP"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/Society/taiwan-regenerative-medicine-laws",
-    "readingTime": 83,
+    "readingTime": 87,
     "featured": true,
     "date": "2026-05-19",
     "path": "ja/Society/taiwan-regenerative-medicine-laws.md"
@@ -10784,9 +10778,9 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Art/chiang-hsien-yi",
-    "readingTime": 59,
+    "readingTime": 64,
     "featured": true,
-    "date": "2026-05-22",
+    "date": "2026-05-25",
     "path": "ja/Art/chiang-hsien-yi.md"
   },
   {
@@ -15353,6 +15347,17 @@
     "path": "Society/國立臺灣歷史博物館.md"
   },
   {
+    "title": "國家人權博物館：垂淚碑上沒寫的名字",
+    "description": "1999 年國際人權日，李登輝在綠島親手揭幕「垂淚碑」，柏楊寫了 28 個字寫盡所有母親的長夜哭泣，卻沒寫一個加害者的名字。六年籌備、2018 揭牌、2025 預算被凍。一座國家自己建來紀念自己做過的事的博物館，解嚴 39 年來，沒有一個加害者受過司法審判。",
+    "category": "History",
+    "tags": [],
+    "url": "https://taiwan.md/History/%E5%9C%8B%E5%AE%B6%E4%BA%BA%E6%AC%8A%E5%8D%9A%E7%89%A9%E9%A4%A8",
+    "readingTime": 74,
+    "featured": true,
+    "date": "2026-05-26",
+    "path": "History/國家人權博物館.md"
+  },
+  {
     "title": "國家公園",
     "description": "36,197 平方公里塞進 9 座國家公園，密度之高，為世界前列的保育奇蹟",
     "category": "Nature",
@@ -16262,7 +16267,7 @@
     "category": "People",
     "tags": [],
     "url": "https://taiwan.md/People/%E8%A8%B1%E5%80%AC%E9%9B%B2",
-    "readingTime": 91,
+    "readingTime": 92,
     "featured": false,
     "date": "2026-05-23",
     "path": "People/許倬雲.md"
@@ -16602,8 +16607,8 @@
     "path": "ja/Geography/urban-character-and-regional-culture.md"
   },
   {
-    "title": "野百合（ヤマユリ）学生運動",
-    "description": "一群の大学生が中正紀念堂で7日間座り込み、最終的に40年以上引き延ばされてきた一つの政治体制を動かし始めました。野百合学生運動が本当に変えたのは、国是会議だけではなく、台湾人が初めて明確に見たことです——学生は憲政改革のタイムテーブルを直接書き換えることができる、ということを。",
+    "title": "野百合学生運動",
+    "description": "大学生たちが中正紀念堂で七日間座り込み、四十年以上先送りされてきた政治体制をついに動かし始めました。野百合学生運動が本当に変えたのは、国是会議だけではありません。台湾の人々が初めて、学生が憲政改革の時間表を直接書き換えられるのだとはっきり目にしたことでした。 ",
     "category": "ja",
     "tags": [
       "社会",
@@ -16613,9 +16618,9 @@
       "市民運動"
     ],
     "url": "https://taiwan.md/ja/Society/wild-lily-student-movement",
-    "readingTime": 21,
+    "readingTime": 23,
     "featured": false,
-    "date": "2026-05-02",
+    "date": "2026-03-23",
     "path": "ja/Society/wild-lily-student-movement.md"
   },
   {
@@ -19320,7 +19325,7 @@
     "category": "History",
     "tags": [],
     "url": "https://taiwan.md/History/%E7%B6%A0%E5%B3%B6%E7%9B%A3%E7%8D%84",
-    "readingTime": 19,
+    "readingTime": 20,
     "featured": false,
     "date": "2026-05-15",
     "path": "History/綠島監獄.md"
@@ -20023,7 +20028,7 @@
       "先住民族"
     ],
     "url": "https://taiwan.md/ja/People/tsai-ing-wen",
-    "readingTime": 24,
+    "readingTime": 26,
     "featured": false,
     "date": "2026-03-17",
     "path": "ja/People/tsai-ing-wen.md"
@@ -20369,6 +20374,17 @@
     "featured": true,
     "date": "2026-03-25",
     "path": "ja/People/zheng-nanrong.md"
+  },
+  {
+    "title": "鄭愁予：〈錯誤〉を書いた流浪の詩人、最後に金門へ籍を移す",
+    "description": "1955 年、22 歳の鄭愁予は『夢土上』で「我達達的馬蹄是美麗的錯誤」と書き、台湾の読者はそれを七十年にわたって恋愛詩として読んできました。しかし晩年、彼はこれは反戦詩であり、日中戦争期に母が内地で父の帰りを待っても帰ってこなかった場面を書いたものだと明らかにしました。2005 年、彼はイェール大学を退職して台湾へ戻り、戸籍を金門県の鄭氏一族の戸内へ移しました。2025 年 6 月 13 日午前 4 時 44 分、彼は米国で心不全により死去し、享年 91 歳でした。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/People/cheng-chou-yu-poet",
+    "readingTime": 46,
+    "featured": true,
+    "date": "2026-05-24",
+    "path": "ja/People/cheng-chou-yu-poet.md"
   },
   {
     "title": "鄭愁予：寫〈錯誤〉的浪子，最後落籍金門",
@@ -21889,18 +21905,18 @@
     "path": "ja/Art/yingge-ceramics-museum.md"
   },
   {
-    "title": "A Century of Taiwanese Watercolor: From Ishikawa Kinichiro to Chien Chung-wei",
-    "description": "In 1907, Ishikawa Kinichiro arrived in Taiwan to teach, planting the seed of a century of watercolor on the island. His student Lan Yin-ding joined the Royal Watercolour Society of England in 1929; in 1934, local painters formed the Taiyang Art Association on their own. After the war, Ma Pei-shui blended ink wash with watercolor, while Shih Ti-chin documented Taiwan's old architecture. In the 1990s, three major associations stood side by side, connecting to the IWS international watercolor network. Today, Chien Chung-wei holds dual signature membership in the AWS and NWS, earning international acclaim. This century-long road—from colonial normal-school education to the international competition stage—links the plein-air tradition, the teacher-training system, and the global watercolor community. The vitality of Taiwanese watercolor is precisely the tension built up by the parallel accumulation of official and unofficial, local and foreign, traditional and competitive forces.",
+    "title": "A Century of Change in Taiwanese Watercolor Painting: A Hundred Years of Accumulation from Ishikawa Kinichiro to Chien Chung-wei",
+    "description": "In 1907, Ishikawa Kinichiro came to Taiwan to teach, planting the roots of a century of Taiwanese watercolor. His student Lan Yin-ting was admitted to the Royal Watercolour Society in 1929; in 1934, local artists organized the Taiyang Art Association on their own; after the war, Ma Pai-sui fused ink painting and watercolor, while Shiy De-jinn documented Taiwan's old architecture. In the 1990s, three major associations stood side by side and connected with the international IWS watercolor network. Today, Chien Chung-wei has won international renown as a signature member of both AWS and NWS. This century-long path from colonial normal-school education to the main stage of international competitions links the plein-air tradition, the normal-school system, and the global watercolor community; the vitality of Taiwanese watercolor lies precisely in the tension accumulated through the parallel development of official and independent, local and external, traditional and competitive forces.",
     "category": "en",
     "tags": [
       "Art",
       "watercolor",
       "painting",
-      "水彩",
-      "美術史"
+      "watercolor",
+      "art history"
     ],
     "url": "https://taiwan.md/en/Art/century-of-taiwanese-watercolor-painting",
-    "readingTime": 43,
+    "readingTime": 46,
     "featured": false,
     "date": "2026-03-19",
     "path": "en/Art/century-of-taiwanese-watercolor-painting.md"
@@ -22383,6 +22399,17 @@
     "path": "Technology/AI發展.md"
   },
   {
+    "title": "Aliados diplomáticos y relaciones internacionales de Taiwán: 12 aliados, 113 oficinas, 177 países con exención de visado (2026)",
+    "description": "El 15 de enero de 2024, 48 horas después de que Lai Ching-te fuera elegido presidente, Nauru anunció la ruptura de relaciones diplomáticas, reduciendo el número de aliados de 13 a 12. Pero ese mismo año Taiwán contaba con 113 oficinas en el exterior, su pasaporte permitía viajar a 177 países, TSMC producía el 90 % de los chips avanzados del mundo, y el Parlamento Europeo aprobó por 432:60:71 una resolución contra la distorsión por parte de China de la Resolución 2758 de la ONU. El reconocimiento formal se contrae, la red en la sombra se expande y la batalla por la interpretación del derecho internacional se está invirtiendo.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Society/taiwan-diplomatic-allies-and-international-relations",
+    "readingTime": 143,
+    "featured": true,
+    "date": "2026-04-28",
+    "path": "es/Society/taiwan-diplomatic-allies-and-international-relations.md"
+  },
+  {
     "title": "ALIEN Art Centre (Jinma Guest House)",
     "description": "A Cold War military transit station where soldiers said goodbye before sailing to the frontlines — abandoned for two decades, then resurrected as Lonely Planet's top pick for contemporary art in Kaohsiung.",
     "category": "en",
@@ -22455,6 +22482,17 @@
     "featured": false,
     "date": "2026-04-05",
     "path": "en/History/alishan-empire-forest-and-uongu-yatauyungana.md"
+  },
+  {
+    "title": "Alliés diplomatiques et relations internationales de Taïwan : 12 alliés, 113 représentations, 177 pays sans visa (2026)",
+    "description": "Le 15 janvier 2024, 48 heures après l'élection de Lai Ching-te à la présidence, Nauru annonce la rupture des relations diplomatiques, faisant passer le nombre d'alliés de 13 à 12. Mais la même année, Taïwan dispose de 113 représentations à l'étranger, son passeport permet d'accéder à 177 pays, TSMC produit environ 90 % des puces avancées mondiales, et le Parlement européen adopte par 432:60:71 une résolution s'opposant à la distorsion par la Chine de la résolution 2758 de l'ONU. La reconnaissance formelle se contracte, le réseau parallèle s'étend, et la bataille d'interprétation du droit international est en train de basculer.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Society/taiwan-diplomatic-allies-and-international-relations",
+    "readingTime": 1,
+    "featured": true,
+    "date": "2026-04-28",
+    "path": "fr/Society/taiwan-diplomatic-allies-and-international-relations.md"
   },
   {
     "title": "Aluan Wang: Fifteen Years in Code, One Hour on Art Blocks, and a Smart Contract That Gives Back",
@@ -22811,7 +22849,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Economy/taiwan-enterprise-ase-semiconductor",
-    "readingTime": 42,
+    "readingTime": 44,
     "featured": false,
     "date": "2026-03-21",
     "path": "fr/Economy/taiwan-enterprise-ase-semiconductor.md"
@@ -23128,23 +23166,23 @@
     "path": "es/Music/labor-exchange-band.md"
   },
   {
-    "title": "Bangka : le lieu le plus animé du Taipei sous les Qing, aujourd'hui le district à l'âge moyen le plus élevé de Taipei",
-    "description": "Le temple Longshan de Bangka, construit en 1738 grâce au financement commun d'habitants des trois districts de Quanzhou, aura 288 ans en 2026, soit 137 ans de plus que la préfecture de Taipei instituée par les Qing. En 1853, l'affrontement armé du Dingxia jiao pin repoussa les gens de Tong'an vers Dadaocheng et posa les bases de deux siècles de divergence dans le nord de Taïwan. Sous la domination japonaise, le lieu fut renommé Wanhua ; le district fut créé en 1990 ; en 2010, Doze Niu réalisa Monga ; aujourd'hui, son indice de vieillissement atteint 320,78 %, le plus élevé de la ville. Dans cette plus ancienne rue de Taipei, le premier bâton d'encens brûle encore à six heures du matin sur le parvis du temple.",
+    "title": "Bangka : le lieu le plus animé du Taipei sous les Qing est aujourd'hui le district dont l'âge moyen est le plus élevé à Taipei",
+    "description": "Le temple Longshan de Bangka, construit en 1738 grâce au financement collectif de migrants des trois districts de Quanzhou, aura 288 ans en 2026, soit 137 ans de plus que la préfecture de Taipei établie par les Qing. En 1853, l'affrontement armé du Dingxiajiaopin repoussa les gens de Tong'an vers Dadaocheng et planta les germes de deux siècles de bifurcation dans le nord de Taïwan. Rebaptisé Wanhua sous la domination japonaise, constitué en district en 1990, porté au cinéma par Doze Niu en 2010 avec Monga, il affiche aujourd'hui un indice de vieillissement de 320,78 %, le plus élevé de toute la ville. Dans cette plus ancienne rue de Taipei, le premier bâton d'encens brûle encore à six heures du matin sur le parvis du temple.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Geography/bangka",
-    "readingTime": 234,
+    "readingTime": 229,
     "featured": false,
     "date": "2026-05-21",
     "path": "fr/Geography/bangka.md"
   },
   {
-    "title": "Bangka: el lugar más concurrido de Taipéi bajo dominio Qing, hoy el distrito con mayor edad promedio de Taipéi",
-    "description": "El templo Longshan de Bangka fue construido en 1738 con fondos conjuntos de migrantes de las Tres Comarcas de Quanzhou; en 2026 cumple 288 años, 137 años más antiguo que la prefectura de Taipéi establecida por la corte Qing. En 1853, el enfrentamiento armado conocido como Dingxia jiaopin empujó a los tong'aneses hacia Dadaocheng y sembró una bifurcación de dos siglos en el norte de Taiwán. Bajo el dominio japonés pasó a llamarse Wanhua; en 1990 se estableció como distrito; en 2010 Doze Niu filmó Monga. Hoy su índice de envejecimiento es de 320.78%, el más alto de la ciudad. En esta, la calle más antigua de Taipéi, la primera vara de incienso del atrio del templo sigue ardiendo a las seis de la mañana.",
+    "title": "Bangka: el lugar más animado del Taipéi bajo dominio Qing, hoy el distrito con la edad promedio más alta de Taipéi",
+    "description": "El Templo Longshan de Bangka fue construido en 1738 con aportes conjuntos de personas de las tres comarcas de Quanzhou; en 2026 cumple 288 años, 137 años más antiguo que la prefectura de Taipéi creada por la corte Qing. En 1853, el enfrentamiento armado Dingxia Jiao empujó a los tong’aneses hacia Dadaocheng y sembró dos siglos de bifurcación en el norte de Taiwán. Tras el dominio japonés fue rebautizado como Wanhua, en 1990 se constituyó como distrito, en 2010 Doze Niu filmó Monga, y su índice de envejecimiento, hoy de 320.78%, es el más alto de la ciudad. En esta, la calle más temprana de Taipéi, el primer incienso del atrio del templo aún arde a las seis de la mañana.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Geography/bangka",
-    "readingTime": 227,
+    "readingTime": 228,
     "featured": false,
     "date": "2026-05-21",
     "path": "es/Geography/bangka.md"
@@ -24540,6 +24578,48 @@
     "path": "es/People/cheng-chao-tsun-javelin-asian-king.md"
   },
   {
+    "title": "Cheng Chou-yu : le vagabond qui écrivit « L'Erreur », finit par s'installer à Kinmen",
+    "description": "En 1955, à 22 ans, Cheng Chou-yu écrivit dans *Sur le pays des rêves* : « Mes sabots au trot galopant sont une belle erreur ». Les lecteurs taïwanais l'ont lu comme un poème d'amour pendant soixante-dix ans. Mais il a clarifié tardivement qu'il s'agissait en réalité d'un poème anti-guerre, évoquant la scène d'une mère en Chine continentale attendant en vain le retour de son père pendant la guerre de Résistance contre le Japon. En 2005, après sa retraite de Yale, il revint à Taïwan et transféra son domicile au sein du foyer d'un parent Cheng dans le comté de Kinmen. Le 13 juin 2025, à 4 h 44 du matin, il s'est éteint aux États-Unis d'une insuffisance cardiaque, à l'âge de 91 ans.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/People/cheng-chou-yu-poet",
+    "readingTime": 128,
+    "featured": true,
+    "date": "2026-05-24",
+    "path": "fr/People/cheng-chou-yu-poet.md"
+  },
+  {
+    "title": "Cheng Chou-yu: el poeta errante que escribió «Error» y acabó avecindado en Kinmen",
+    "description": "En 1955, a los 22 años, Cheng Chou-yu escribió en *Sueño sobre la tierra* el verso «El trotar de mis cascos es un hermoso error», y los lectores taiwaneses lo leyeron como poesía amorosa durante setenta años. Pero en sus últimos años aclaró que en realidad era un poema antibélico, inspirado en la escena de su madre esperando en el continente durante la guerra sin que su padre regresara del frente. En 2005 se retiró de Yale y regresó a Taiwán, trasladando su registro de hogar al domicilio de un pariente de la familia Cheng en el condado de Kinmen. El 13 de junio de 2025, a las 4:44 de la madrugada, falleció en Estados Unidos por insuficiencia cardíaca, a los 91 años de edad.",
+    "category": "es",
+    "tags": [
+      "文學",
+      "詩人",
+      "現代詩",
+      "戰後第一代",
+      "現代派",
+      "金門",
+      "耶魯",
+      "紀弦"
+    ],
+    "url": "https://taiwan.md/es/People/cheng-chou-yu-poet",
+    "readingTime": 126,
+    "featured": true,
+    "date": "2026-05-24",
+    "path": "es/People/cheng-chou-yu-poet.md"
+  },
+  {
+    "title": "Cheng Chou-yu: The Wanderer Who Wrote “Error” and Finally Registered His Household in Kinmen",
+    "description": "In 1955, the 22-year-old Cheng Chou-yu wrote in On Dreamland, “My clattering horse’s hooves are a beautiful error,” and Taiwanese readers read it as a love poem for seventy years. In his later years, however, he clarified that it was an antiwar poem, depicting the scene of his mother in China’s interior during the War of Resistance, waiting in vain for his father to come home. In 2005, after retiring from Yale, he returned to Taiwan and moved his household registration into that of Cheng clan relatives in Kinmen County. At 4:44 a.m. on June 13, 2025, he died in the United States of heart failure at the age of 91.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/People/cheng-chou-yu-poet",
+    "readingTime": 118,
+    "featured": true,
+    "date": "2026-05-24",
+    "path": "en/People/cheng-chou-yu-poet.md"
+  },
+  {
     "title": "Cheng Li-wen",
     "description": "From the student activist who went on a hunger strike for Taiwan independence at the NTU gate in 1988 to the KMT chairperson who told Xi Jinping in Beijing in 2026 that 'compatriots across the strait are all Chinese.' What happened along this trajectory?",
     "category": "fr",
@@ -24835,9 +24915,9 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Art/chiang-hsien-yi",
-    "readingTime": 146,
+    "readingTime": 154,
     "featured": true,
-    "date": "2026-05-22",
+    "date": "2026-05-25",
     "path": "es/Art/chiang-hsien-yi.md"
   },
   {
@@ -25589,12 +25669,12 @@
     "path": "es/Geography/new-taipei-city.md"
   },
   {
-    "title": "Ciudad de Taichung: casi fue capital en 1887, y solo en 2010 se convirtió en la segunda mayor municipalidad especial",
-    "description": "En 1887, Liu Ming-chuan solicitó la creación de la provincia de Taiwán, y la capital provincial fue elegida en Qiaozitou, condado de Changhua (actual zona urbana de Taichung), con una ciudad amurallada de planta bagua. La construcción comenzó en 1889. En 1894, tras asumir Shao Youlian, la capital provincial se trasladó al norte, a Taipéi, y las obras de la capital provincial de Taichung se detuvieron. El 1 de octubre de 1920, los japoneses establecieron aquí la prefectura de Taichung. En 1955, la Universidad Tunghai inició obras en el monte Dadu, y en 1963 se terminó la Capilla Conmemorativa Luce. En la madrugada del 21 de septiembre de 1999, la falla de Chelungpu se abrió desde Jiji, en Nantou, hasta Dongshi, en Taichung; en el municipio de Dongshi murieron 358 personas. El 25 de diciembre de 2010, la fusión de ciudad y condado elevó a Taichung a municipalidad especial, con 29 distritos. En 2016 se inauguró en Xitun el Teatro Nacional de Taichung de Toyo Ito. 2,86 millones de personas viven en esta ciudad que esperó 123 años.",
+    "title": "Ciudad de Taichung: en 1887 casi fue capital; recién en 2010 se convirtió en la segunda mayor municipalidad especial",
+    "description": "En 1887, Liu Ming-chuan solicitó establecer la provincia de Taiwán; la capital provincial fue elegida en Qiaozitou, condado de Changhua (hoy zona urbana de Taichung), con una ciudad amurallada de forma bagua. La construcción comenzó en 1889. Tras asumir Shao Youlian en 1894, la capital provincial se trasladó al norte, a Taipéi, y las obras de la capital provincial de Taichung se detuvieron. El 1 de octubre de 1920, los japoneses establecieron aquí la prefectura de Taichung. En 1955, la Universidad Tunghai inició obras en el monte Dadu; en 1963 se completó la Capilla Luce. En la madrugada del 21 de septiembre de 1999, la falla de Chelungpu rasgó el territorio desde Jiji, Nantou, hasta Dongshi, Taichung; en el pueblo de Dongshi murieron 358 personas. El 25 de diciembre de 2010, la fusión de ciudad y condado elevó a Taichung a municipalidad especial, con 29 distritos. En 2016 abrió en Xitun el Teatro Nacional diseñado por Toyo Ito. 2,86 millones de personas viven en esta ciudad que esperó 123 años.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Geography/taichung-city",
-    "readingTime": 259,
+    "readingTime": 258,
     "featured": false,
     "date": "2026-05-18",
     "path": "es/Geography/taichung-city.md"
@@ -25782,12 +25862,12 @@
     "path": "fr/Economy/compal-electronics-global-odm-leader.md"
   },
   {
-    "title": "Comté de Changhua : un grand comté agricole qui a vaincu DuPont mais ne retient pas les jeunes",
-    "description": "En 1709, Shih Shih-pang a détourné les eaux de la rivière Zhuoshui pour irriguer le premier grand système hydraulique de Taïwan, 211 ans avant le grand canal de Chianan de Hatta Yoichi. En 1723, l’an 1 du règne de Yongzheng, le comté a été séparé du comté de Zhuluo, s’étendant du sud jusqu’à Huwei et du nord jusqu’à Dajia, marquant le point de départ de la construction de Changhua. En 1786, les troupes de Lin Shuang-wen ont mené une attaque contre la ville de Changhua, mais Lukang n’a pas été prise. En 1788, l’empereur Qianlong a décrété la construction du temple Tianhou (Xinzugu) à Lukang aux frais de l’État. En 1922, le roundhouse en forme d’éventail a été mis en service. En 1986, les habitants de Lukang ont chassé la société américaine DuPont, premier mouvement environnemental de Taïwan. En avril 2026, la population du comté de Changhua était de 1 206 458 habitants, tombant sous le seuil nécessaire pour devenir une municipalité directe.",
+    "title": "Comté de Changhua : un grand comté agricole qui a vaincu DuPont, mais ne parvient pas à retenir ses jeunes",
+    "description": "En 1709, Shi Shibang détourna l'eau de la rivière Zhuoshui pour irriguer le premier grand système hydraulique de Taïwan, 211 ans avant le canal de Chianan de Hatta Yoichi. En 1723, première année du règne de Yongzheng, Changhua fut détaché du comté de Zhuluo, borné au sud par Huwei et au nord par Dajia : ce fut le point de départ de son institution. En 1786, Lin Shuangwen arriva aux portes de la ville fortifiée du comté de Changhua ; Lukang ne tomba pas. En 1788, Qianlong ordonna la construction, aux frais de l'État, du temple Tianhou de Lukang (Xinzugong). En 1922, le dépôt ferroviaire en éventail entra en service. En 1986, les habitants de Lukang chassèrent l'entreprise américaine DuPont, premier mouvement écologiste de Taïwan. En avril 2026, le comté de Changhua comptait 1 206 458 habitants, passant sous le seuil requis pour devenir une municipalité spéciale.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Geography/changhua-county",
-    "readingTime": 97,
+    "readingTime": 191,
     "featured": false,
     "date": "2026-05-18",
     "path": "fr/Geography/changhua-county.md"
@@ -25826,12 +25906,12 @@
     "path": "fr/Geography/hualien-county.md"
   },
   {
-    "title": "Comté de Kinmen : les 56 heures de 1949 qui ont déterminé le destin de Kinmen pendant 75 ans",
-    "description": "Kinmen se trouve à seulement 1,8 km de l'île de Jiaoyu (Xiaojiao) près de Xiamen, et à 358 km de Taipei. En 1387, le fonctionnaire Zhou Dexing y construisit la forteresse de Kinmen, signifiant « solide comme une soupe d’or, bastion héroïque de la porte maritime ». Le 25 octobre 1949, à deux heures du matin, trois régiments communistes totalisant 9 086 hommes débarquèrent à Guningtou; les forces nationalistes résistèrent pendant 56 heures et repoussèrent l’invasion. Le 23 août 1958, à 17 h 30, pendant 44 jours, 474 910 obus tombèrent sur l’île de 151 km²; la règle du tir un jour sur deux persista pendant 21 ans. Aujourd’hui, 145 000 personnes sont enregistrées à Kinmen, et à quatre heures du matin, le nombre de bateaux du port de Shuitou à destination de Xiamen dépasse celui des avions au départ de l’aéroport de Songshan à Taipei. Le petit‑petit‑fils de Ye Huacheng attend depuis 67 ans des excuses.",
+    "title": "Comté de Kinmen : ces 56 heures de 1949 qui ont décidé du destin de Kinmen pour 75 ans",
+    "description": "Kinmen n'est qu'à 1,8 km de Jiaoyu, à Xiamen, au point le plus proche, et à 358 km de Taipei. En 1387, le marquis de Jiangxia, Zhou Dexing, y construisit une cité de garnison en reprenant l'idée de « solide comme une forteresse d'or, tenant majestueusement la porte de la mer ». Le 25 octobre 1949 à deux heures du matin, trois régiments communistes, soit 9 086 hommes, débarquèrent sur la plage de Guningtou ; l'armée nationaliste les repoussa après 56 heures de combats acharnés. Pendant 44 jours à partir du 23 août 1958 à 17 h 30, 474 910 obus tombèrent sur cette île de 151 km² ; le bombardement les jours impairs et non les jours pairs se poursuivit ensuite pendant 21 ans. Aujourd'hui, 145 000 personnes sont enregistrées à Kinmen, et à quatre heures du matin, il part du quai de Shuitou plus de bateaux vers Xiamen que d'avions vers Taipei. L'arrière-petit-fils de Ye Huacheng a attendu 67 ans pour demander des excuses.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Geography/kinmen-county",
-    "readingTime": 103,
+    "readingTime": 236,
     "featured": false,
     "date": "2026-05-18",
     "path": "fr/Geography/kinmen-county.md"
@@ -25861,12 +25941,12 @@
     "path": "fr/Geography/lienchiang-county.md"
   },
   {
-    "title": "Comté de Nantou : le seul comté qui ne touche pas la mer, l’épicentre du séisme de 921 se trouve en son centre",
-    "description": "Le 21 septembre 1999, à 1 h 47 min 47 s du matin, la faille de Checheng‑P’u sous la ville de Jiji s’est déplacée pendant 102 secondes, faisant 2 415 morts à l’échelle nationale, dont 886 dans le comté de Nantou, et 90 % des bâtiments de la ville de Zhongliao ont été endommagés. Le 27 octobre 1930, le jour où le drapeau a été hissé à l’école publique de Wushe, Mona Rudao a mené six tribus Seediq et a tué 134 civils japonais. En 1934, le barrage de Wujie a élevé le niveau de l’eau de 18,18 m, submergeant l’île Lalu des Shao. En 1957, le village de Zhongxing a été construit comme bureau temporaire du gouvernement provincial, et en 1998, la province a été « décentralisée » ne laissant que l’avenue des cocotiers. 470 000 habitants vivent dans ce comté enclavé, qui s’étend de 100 m à 3 952 m d’altitude et abrite les peuples Seediq, Bunun, Shao et Tsou ainsi que les Han. Les blessures les plus profondes de Taïwan se trouvent ici.",
+    "title": "Comté de Nantou : le seul comté sans littoral, avec l'épicentre du séisme du 21 septembre en son centre",
+    "description": "Le 21 septembre 1999 à 1 h 47 du matin, la faille de Chelungpu, sous le canton de Jiji, a rompu pendant 102 secondes : 2 415 morts dans tout Taïwan, dont 886 pour le seul Nantou, et 90 % des bâtiments endommagés dans le canton de Zhongliao. En 1930, le jour de la levée du drapeau à l'école publique de Wushe, Mona Rudao mena six communautés seediq et tua 134 civils japonais. En 1934, le barrage de Wujie éleva le niveau de l'eau de 18,18 mètres et submergea l'île Lalu des Thao. En 1957, Zhongxing New Village fut achevé comme bureau provisoire du gouvernement provincial ; en 1998, la réduction de la province le vida de ses fonctions, ne laissant que l'avenue bordée de palmiers. 470 000 personnes vivent dans ce comté intérieur qui monte de 100 mètres à 3 952 mètres, où Seediq, Bunun, Thao, Tsou et Han cohabitent. Les blessures les plus profondes de Taïwan sont toutes ici.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Geography/nantou-county",
-    "readingTime": 95,
+    "readingTime": 217,
     "featured": false,
     "date": "2026-05-18",
     "path": "fr/Geography/nantou-county.md"
@@ -25883,23 +25963,23 @@
     "path": "fr/Geography/penghu-county.md"
   },
   {
-    "title": "Comté de Pingtung : le tournant du destin national s’est produit ici, un fait que Taipei ne se souvient jamais",
-    "description": "Le 22 mai 1874, le lieutenant japonais Sakuuma Sōma a fait pénétrer 150 hommes dans la gorge étroite de Shimen, où le chef Paiwan d’Arugou et son fils ont péri au combat. Cette guerre a conduit l’Empire Qing à renverser sa politique de gouvernance à Taiwan, à créer le comté de Hengchun sous Shen Baozhen et à ériger le phare d’Eluanbi en 1883. 780 000 habitants sont répartis dans les 33 villes et districts du comté de Pingtung, où cinq peuples autochtones cohabitent avec les six districts Hakka. Le 8 août 2009, à 4 h 30 du matin, le barrage de Linbian a cédé. L’histoire de Taiwan a changé deux fois à partir de cette péninsule, mais la capitale ne retient plus que le festival de musique de Kenting.",
+    "title": "Comté de Pingtung : le destin national a basculé ici, et Taipei ne s’en est presque jamais souvenu",
+    "description": "Le 22 mai 1874, le lieutenant-colonel japonais Sakuma Samata mena 150 hommes dans la gorge de Shimen ; le chef paiwan Aruqu et son fils y trouvèrent la mort. Cette bataille poussa la cour des Qing à renverser sa politique de gouvernement de Taïwan : Shen Baozhen vint créer le district de Hengchun, et le phare d’Eluanbi fut construit en 1883. Les 780 000 habitants du comté de Pingtung sont répartis dans 33 cantons, bourgs et villes ; cinq peuples autochtones y vivent aux côtés des six communes hakka des Liudui. En 2009, à quatre heures trente du matin, les vannes de Linbian ne tinrent plus. L’histoire qui a changé Taïwan est partie deux fois de cette péninsule, mais ce dont la capitale se souvient ne dépasse guère le Spring Scream de Kenting.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Geography/pingtung-county",
-    "readingTime": 90,
+    "readingTime": 220,
     "featured": false,
     "date": "2026-05-18",
     "path": "fr/Geography/pingtung-county.md"
   },
   {
-    "title": "Comté de Taitung : deux îles périphériques, l’une a enfermé des prisonniers politiques pendant trente-six ans, l’autre stocke des déchets nucléaires depuis quarante-deux ans",
-    "description": "Les 210 000 habitants du comté de Taitung sont dispersés sur 3 515 kilomètres carrés : la densité la plus faible du pays, 60 personnes seulement par kilomètre carré, soit un centième de celle de Taipei. Mais ce comté abrite les plus anciens établissements humains de Taïwan (le site de Peinan, 1 600 sarcophages de pierre datant d’il y a 5 300 ans), six peuples autochtones (Amis, Puyuma, Paiwan, Rukai, Bunun, Tao), et la plus forte proportion d’Autochtones de toute l’île, 37,5 %. De 1951 à 1987, l’île Verte, autrefois appelée Huoshaodao, a enfermé des prisonniers politiques pendant trente-six ans. À partir de mai 1982, Longmen, à Lanyu, a commencé à recevoir des déchets nucléaires ; quarante-deux ans plus tard, 97 672 fûts s’y trouvent encore. Le 25 août 1968, sept enfants bunun du village de Hongye ont battu sept à zéro l’équipe japonaise d’étoiles de baseball junior du Kansai (et non une équipe championne du monde) : le mythe du baseball comme sport national de Taïwan est né de cette tromperie. Deux îles périphériques ont porté le coût d’une île entière.",
+    "title": "Comté de Taitung : deux îles périphériques, l'une a enfermé des prisonniers politiques pendant trente-six ans, l'autre a stocké des déchets nucléaires pendant quarante-deux ans",
+    "description": "Les 210 000 habitants du comté de Taitung sont dispersés sur 3 515 kilomètres carrés : la plus faible densité du pays, à peine 60 personnes par kilomètre carré, soit un centième de Taipei. Mais ce comté abrite les plus anciens établissements humains de Taïwan (le site de Beinan, il y a 5 300 ans, 1 600 sarcophages de pierre), six peuples autochtones (Amis, Puyuma, Paiwan, Rukai, Bunun, Tao), et la plus forte proportion d'Autochtones de toute l'île, 37,5 %. De 1951 à 1987, Huoshaodao, à Green Island, a détenu des prisonniers politiques pendant trente-six ans. À partir de mai 1982, Longmen, à Lanyu, a commencé à recevoir des déchets nucléaires ; quarante-deux ans plus tard, 97 672 fûts s'y trouvent encore. Le 25 août 1968, sept enfants bunun du village de Hongye ont battu sept à zéro une équipe japonaise d'étoiles du baseball junior du Kansai (et non une équipe championne du monde) : le mythe du baseball comme sport national de Taïwan a commencé par cette tromperie. Deux îles périphériques ont porté le coût d'une île entière.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Geography/taitung-county",
-    "readingTime": 236,
+    "readingTime": 235,
     "featured": false,
     "date": "2026-05-18",
     "path": "fr/Geography/taitung-county.md"
@@ -25991,14 +26071,14 @@
     "path": "es/Geography/chiayi-county.md"
   },
   {
-    "title": "Condado de Hsinchu: 235 años de culto a los yimin y el ingreso per cápita más alto de Taiwán conviven junto al mismo río Touqian",
-    "description": "En el invierno de 1788, en una ladera de Xinpu, se colocaron los cimientos de un Pabellón Baozhong para sepultar conjuntamente a más de doscientos yimin hakka muertos en la rebelión de Lin Shuangwen. 235 años después, el ritual rotativo de las quince alianzas de aldeas durante el Festival Yimin, el vigésimo día del séptimo mes lunar, sigue en marcha. A 5 kilómetros, la ciudad de Zhubei alcanzó en 2025 un ingreso per cápita de 1.442 millones de dólares taiwaneses y obtuvo el primer lugar entre los 368 municipios, ciudades y distritos de Taiwán; el imán es la fábrica de obleas de 2 nanómetros de TSMC en Baoshan fase II. En el condado de Hsinchu, el 67.8% de la población es hakka, la proporción más alta de Taiwán. Pero entre los 220 mil habitantes de Zhubei, sede del gobierno del condado, cada vez hay menos jóvenes hakka que pueden comprar una vivienda en su propia tierra natal.",
+    "title": "Condado de Hsinchu: 235 años de fe en los Yi-min y el ingreso per cápita más alto de Taiwán, conviviendo junto al mismo río Touqian",
+    "description": "En el invierno de 1788, en la ladera de una colina en Xinpu, se colocó la fundación de un Pabellón Bao-chong para enterrar conjuntamente a más de doscientos milicianos yi-min (voluntarios justos) de origen Hakka caídos durante la rebelión de Lin Shuangwen. 235 años después, el ritual rotativo de los quince lián-zhuang (alianzas de aldeas) del Festival de los Yi-min, celebrado cada año el vigésimo día del séptimo mes lunar, sigue en marcha. A 5 kilómetros de distancia, en la ciudad de Zhubei, el ingreso per cápita de 1.442 millones de dólares taiwaneses en 2025 se alzó con el primer lugar entre las 368 divisiones municipales de todo Taiwán, atraído por la fábrica de obleas de 2 nanómetros de la Fase II de Baoshan de TSMC. El 67.8% de la población del Condado de Hsinchu es de origen Hakka, la proporción más alta de Taiwán. Pero entre los 220,000 habitantes de Zhubei, sede del condado, los jóvenes Hakka que pueden permitirse comprar una casa en su propia tierra natal son cada vez menos.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Geography/hsinchu-county",
-    "readingTime": 221,
+    "readingTime": 224,
     "featured": false,
-    "date": "2026-05-18",
+    "date": "2025-05-18",
     "path": "es/Geography/hsinchu-county.md"
   },
   {
@@ -26013,25 +26093,12 @@
     "path": "es/Geography/hualien-county.md"
   },
   {
-    "title": "Condado de Kinmen: aquellas 56 horas de 1949 que determinaron 75 años del destino de Kinmen",
-    "description": "Kinmen está a solo 1,8 km de Jiaoyu, en Xiamen, en su punto más cercano, y a 358 km de Taipéi. En 1387, Zhou Dexing, marqués de Jiangxia, construyó aquí una ciudad de guarnición tomando el sentido de “sólida como metal y muralla, bastión majestuoso de la puerta marítima”. A las dos de la madrugada del 25 de octubre de 1949, tres regimientos comunistas, 9.086 hombres, desembarcaron en la playa de Guningtou; el Ejército Nacional los rechazó tras 56 horas de combates encarnizados. Durante los 44 días iniciados a las cinco y media de la tarde del 23 de agosto de 1958, 474.910 proyectiles cayeron sobre una isla de 151 km²; luego, la regla de bombardear los días impares y no los pares continuó otros 21 años. Hoy 145.000 personas están registradas en Kinmen, y a las cuatro de la madrugada salen más barcos desde el muelle de Shuitou hacia Xiamen que aviones hacia Taipéi. El bisnieto de Ye Huacheng esperó 67 años para pedir una disculpa.",
+    "title": "Condado de Kinmen: Aquellas 56 horas de 1949 que decidieron el destino de Kinmen durante 75 años",
+    "description": "Kinmen se encuentra a solo 1,8 km de la isla de Jiao Yu en Xiamen, y a 358 km de Taipéi. En 1387, el marqués de Jiangxia Zhou Dexing construyó aquí una ciudadela tomando el significado de \"fuerte como el oro fundido, guardián imponente de la puerta del mar\". El 25 de octubre de 1949, a las dos de la madrugada, tres regimientos del Ejército Popular de Liberación con 9.086 soldados desembarcaron en la playa de Guningtou; las fuerzas nacionalistas los rechazaron tras 56 horas de combate. Del 23 de agosto de 1958, a las cinco y tarde de la tarde, durante 44 días cayeron 474.910 proyectiles sobre la isla de 151 km²; después, la política de \"disparar los días impares, no disparar los pares\" continuó durante 21 años más. Hoy 145.000 personas están registradas en Kinmen, y a las cuatro de la madrugada los barcos que salen del muelle de Shuitou hacia Xiamen superan en número a los aviones que vuelan a Taipéi. El bisnieto de Ye Huacheng lleva 67 años esperando una disculpa.",
     "category": "es",
-    "tags": [
-      "Condado de Kinmen",
-      "Kinmen",
-      "Batalla de Guningtou",
-      "Bombardeo del 23 de Agosto",
-      "Bombardeo los días impares y no los pares",
-      "Administración de zona de guerra",
-      "Kaoliang de Kinmen",
-      "Ye Huacheng",
-      "Pequeños Tres Enlaces",
-      "Wuqiu",
-      "dios león del viento",
-      "serie de 22 condados y ciudades"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/Geography/kinmen-county",
-    "readingTime": 231,
+    "readingTime": 237,
     "featured": false,
     "date": "2026-05-18",
     "path": "es/Geography/kinmen-county.md"
@@ -26084,12 +26151,12 @@
     "path": "es/Geography/miaoli-county.md"
   },
   {
-    "title": "Condado de Nantou: el único condado sin costa, con el epicentro del 921 en su centro",
-    "description": "A la 1:47 de la madrugada del 21 de septiembre de 1999, la falla Chelungpu, bajo el municipio de Jiji, se desplazó durante 102 segundos: murieron 2.415 personas en todo Taiwán, 886 de ellas en Nantou, y el 90% de las construcciones del municipio de Zhongliao resultó dañado. En 1930, el día del izamiento de la bandera en la Escuela Pública de Wushe, Mona Rudao condujo a seis comunidades seediq y decapitó a 134 civiles japoneses. En 1934, la presa de Wujie elevó el nivel del agua 18,18 metros e inundó la isla Lalu del pueblo thao. En 1957 se terminó Zhongxing New Village como oficina provisional del gobierno provincial; en 1998, la reducción de la provincia lo vació y solo quedó su avenida de palmeras. 470.000 personas viven en este condado interior que asciende de 100 a 3.952 metros, donde seediq + bunun + thao + tsou conviven con población han. Las heridas más profundas de Taiwán están aquí.",
+    "title": "Condado de Nantou: el único condado sin costa, el epicentro del terremoto 921 está en su centro",
+    "description": "El 21 de septiembre de 1999 a la 1:47 a. m., la falla de Chelungpu bajo el municipio de Jiji se desplazó durante 102 segundos. En toda Taiwán murieron 2.415 personas; Nantou registró 886 muertos y el 90 % de los edificios del municipio de Zhongliao sufrieron daños. El 27 de octubre de 1930, durante la izada de bandera en la escuela pública de Wushe, Mona Rudao lideró a seis comunidades Seediq y mató a 134 civiles japoneses. En 1934, la presa de Wujie elevó el nivel del agua 18,18 metros y sumergió la isla Lalu, tierra sagrada de los Thao. En 1957 se terminó Zhongxing New Village como sede temporal del gobierno provincial; en 1998, la racionalización provincial lo dejó vacío, solo con la avenida de palmeras. 470.000 personas viven en este condado interior que va de 100 a 3.952 metros de altitud, donde conviven cuatro pueblos indígenas —Seediq, Bunun, Thao, Tsou— con la población Han. Las heridas más profundas de Taiwán están aquí.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Geography/nantou-county",
-    "readingTime": 218,
+    "readingTime": 214,
     "featured": false,
     "date": "2026-05-18",
     "path": "es/Geography/nantou-county.md"
@@ -26106,12 +26173,12 @@
     "path": "es/Geography/pingtung-county.md"
   },
   {
-    "title": "Condado de Taitung: dos islas periféricas, una encarceló presos políticos durante treinta y seis años; la otra almacena residuos nucleares desde hace cuarenta y dos",
-    "description": "Los 210.000 habitantes del condado de Taitung están dispersos en 3.515 km²: la densidad más baja del país, apenas 60 personas por km², una centésima parte de Taipéi. Pero este condado guarda el asentamiento humano más antiguo de Taiwán (el sitio de Beinan, con 1.600 sarcófagos de piedra de hace 5.300 años), alberga a seis pueblos indígenas (Amis, Beinan, Paiwan, Rukai, Bunun y Tao), y tiene la mayor proporción de población indígena de toda Taiwán: 37,5%. Entre 1951 y 1987, la isla Huoshao, hoy Isla Verde, encerró presos políticos durante treinta y seis años. Desde mayo de 1982, Longmen, en Lanyu, comenzó a recibir residuos nucleares; cuarenta y dos años después, 97.672 barriles siguen allí. El 25 de agosto de 1968, siete niños bunun de la aldea Hongye derrotaron siete a cero al equipo japonés de estrellas de béisbol infantil de Kansai (no al equipo campeón mundial); el mito del béisbol taiwanés como deporte nacional comenzó con ese engaño. Dos islas periféricas cargaron con el costo de toda una isla.",
+    "title": "Condado de Taitung: dos islas periféricas, una encarceló presos políticos durante treinta y seis años, la otra almacenó residuos nucleares durante cuarenta y dos años",
+    "description": "Los 210.000 habitantes del condado de Taitung están dispersos en 3.515 kilómetros cuadrados, la densidad más baja del país: apenas 60 personas por kilómetro cuadrado, una centésima parte de Taipéi. Pero este condado contiene el asentamiento humano más antiguo de Taiwán (el sitio arqueológico de Beinan, con 1.600 sarcófagos de piedra de hace 5.300 años), alberga a seis pueblos indígenas (amis, puyuma, paiwan, rukai, bunun y tao), y tiene la proporción de población indígena más alta de Taiwán, 37,5%. De 1951 a 1987, la isla Verde, entonces Huoshaodao, encerró presos políticos durante treinta y seis años. Desde mayo de 1982, Longmen, en Lanyu, comenzó a recibir residuos nucleares; cuarenta y dos años después, 97.672 barriles siguen allí. El 25 de agosto de 1968, siete niños bunun de la aldea Hongye derrotaron 7:0 al equipo estelar japonés de béisbol infantil de Kansai (no al equipo campeón mundial), y el mito del béisbol como deporte nacional de Taiwán comenzó con ese engaño. Dos islas periféricas cargaron con el costo de toda una isla.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Geography/taitung-county",
-    "readingTime": 231,
+    "readingTime": 234,
     "featured": false,
     "date": "2026-05-18",
     "path": "es/Geography/taitung-county.md"
@@ -26352,12 +26419,12 @@
     "path": "es/Music/choir.md"
   },
   {
-    "title": "Crise climatique et transition vers le zéro net à Taïwan : le jour où le référendum sur Maanshan a échoué, les choix imposés par les limites physiques ne faisaient que commencer",
-    "description": "Référendum du 23 août 2025 sur la prolongation de la centrale nucléaire de Maanshan : 4,34 millions de voix favorables, 74 % d'approbation, mais un taux de participation de 29,53 %, inférieur au seuil requis. Le référendum n'est pas passé ; le lendemain, Lai Ching-te a énoncé trois principes, et sept mois plus tard, le 27 mars 2026, Taipower déposait auprès du Conseil de sûreté nucléaire une demande de prolongation d'exploitation. 98 % de l'énergie importée, 9 000 milliards de dollars taïwanais pour le zéro net, un objectif géothermique de 200 MW dont seuls 7,4 MW ont été construits, la septième capacité mondiale installée en éolien offshore, le dépôt final d'Onkalo, le nucléaire de quatrième génération de TerraPower : la question énergétique de cette île n'a jamais été une question politique, mais une question de limites physiques.",
+    "title": "Crise climatique et transition vers le zéro émission nette à Taïwan : le jour où le référendum sur la centrale nucléaire no 3 a échoué, le choix des limites physiques ne faisait que commencer",
+    "description": "Référendum du 23 août 2025 sur la prolongation de la centrale nucléaire no 3 : 4,34 millions de voix favorables, 74 % de oui, mais un taux de participation de 29,53 % insuffisant pour atteindre le seuil. Le référendum a échoué ; le lendemain, Lai Ching-te a posé trois principes, et sept mois plus tard, le 27 mars 2026, Taipower déposait une demande de prolongation auprès du Conseil de sûreté nucléaire. 98 % de l'énergie importée, 9 000 milliards de dollars taïwanais pour le zéro émission nette, un objectif géothermique de 200 MW dont seuls 7,4 MW construits, la septième capacité mondiale d'éolien en mer, le site de stockage définitif d'Onkalo, le nucléaire de quatrième génération de TerraPower : la question énergétique de cette île n'a jamais été une question politique, mais une question de limites physiques.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Nature/taiwan-climate-change-net-zero-transition",
-    "readingTime": 273,
+    "readingTime": 290,
     "featured": true,
     "date": "2026-05-19",
     "path": "fr/Nature/taiwan-climate-change-net-zero-transition.md"
@@ -26374,12 +26441,12 @@
     "path": "fr/History/taiwan-strait-crises-and-cross-strait-relations.md"
   },
   {
-    "title": "Crisis climática y transición hacia cero neto en Taiwán: el día en que no prosperó el referéndum sobre la central nuclear No. 3, la elección ante los límites físicos apenas comenzó",
-    "description": "Referéndum del 23 de agosto de 2025 sobre la extensión de vida de la central nuclear No. 3: 4.34 millones de votos a favor, 74% de apoyo, pero una participación de 29.53% que no alcanzó el umbral. El referéndum no prosperó; al día siguiente, Lai Ching-te planteó tres principios, y siete meses después, el 27 de marzo de 2026, Taipower presentó ante el Consejo de Seguridad Nuclear la solicitud de extensión. 98% de la energía importada, 9 billones de dólares taiwaneses para el cero neto, una meta geotérmica de 200 MW con solo 7.4 MW instalados, séptimo lugar mundial en capacidad eólica marina instalada, el repositorio final de Onkalo, la energía nuclear de cuarta generación de TerraPower: la cuestión energética de esta isla nunca fue una cuestión política, sino una cuestión de límites físicos.",
+    "title": "Crisis climática y transición a cero neto en Taiwán: el día que el referéndum de la Central Nuclear N.º 3 no pasó, las decisiones sobre los límites físicos apenas comenzaban",
+    "description": "Referéndum de extensión de vida de la Central Nuclear N.º 3 del 23 de agosto de 2025: 4.34 millones de votos a favor, 74% de apoyo, participación del 29.53%, sin alcanzar el umbral. El referéndum no pasó; al día siguiente, Lai Ching-te anunció tres principios. Siete meses después, el 27 de marzo de 2026, Taipower envió la solicitud de extensión a la Comisión de Seguridad Nuclear. 98% de la energía depende de importaciones, 9 billones de dólares taiwaneses para cero neto, meta geotérmica de 200 MW pero solo se instalaron 7.4 MW, capacidad eólica offshore séptima del mundo, repositorio definitivo de Onkalo, reactores de cuarta generación de TerraPower — la cuestión energética de esta isla nunca ha sido política, ha sido una cuestión de límites físicos.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Nature/taiwan-climate-change-net-zero-transition",
-    "readingTime": 282,
+    "readingTime": 260,
     "featured": true,
     "date": "2026-05-19",
     "path": "es/Nature/taiwan-climate-change-net-zero-transition.md"
@@ -26532,20 +26599,9 @@
     "title": "Cultura de los animales callejeros en Taiwán: de Doce noches a la muerte del gato leopardo, el dilema del tranvía entre protección animal y conservación silvestre",
     "description": "En 2013, Doce noches hizo llorar a toda la isla; en febrero de 2017, Taiwán se convirtió en el primer país de Asia Oriental con política de sacrificio cero. Ocho años después, al atardecer del 11 de mayo de 2023, a las seis de la tarde, una cría de gato leopardo murió en la boca de un gato errante; una investigación del Ministerio de Agricultura de 2022 estimó 159,697 perros errantes en todo el país, y cámaras automáticas de la Asociación Taiwanesa para la Conservación del Gato Leopardo hallaron perros en el 91% de los puntos de actividad del gato leopardo. La protección animal y la conservación silvestre no son opuestos: esta isla aún carga con más de un millón de vidas que nadie asume. Este artículo no toma partido; expone una pregunta que todavía no se ha terminado de responder.",
     "category": "es",
-    "tags": [
-      "animales callejeros",
-      "protección animal",
-      "sacrificio cero",
-      "TNR",
-      "Doce noches",
-      "gato leopardo",
-      "perros errantes",
-      "protección animal y conservación silvestre",
-      "refugios",
-      "cultura de adopción"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/Society/stray-animal-culture",
-    "readingTime": 195,
+    "readingTime": 200,
     "featured": true,
     "date": "2026-03-18",
     "path": "es/Society/stray-animal-culture.md"
@@ -26661,20 +26717,9 @@
     "title": "Culture des animaux errants à Taïwan : de Douze nuits à la mort du chat-léopard, le dilemme du tramway entre protection animale et conservation de la faune",
     "description": "En 2013, Douze nuits a fait pleurer toute l'île ; en février 2017, Taïwan est devenu le premier pays d'Asie de l'Est à appliquer une politique de zéro abattage. Huit ans plus tard, le 11 mai 2023 à six heures du soir, un jeune chat-léopard mourait entre les mâchoires d'un chat errant ; l'enquête 2022 du ministère de l'Agriculture dénombrait 159 697 chiens errants dans tout le pays, et les caméras automatiques de l'Association taïwanaise de conservation du chat-léopard ont constaté que 91 % des sites d'activité du chat-léopard étaient aussi fréquentés par des chiens. Protection animale et conservation de la faune ne sont pas opposées : il reste sur cette île des centaines de milliers de vies dont personne ne prend la responsabilité. Cet article ne prend pas parti ; il raconte une question à laquelle aucune réponse n'a encore été donnée.",
     "category": "fr",
-    "tags": [
-      "animaux errants",
-      "protection animale",
-      "zéro abattage",
-      "TNR",
-      "Douze nuits",
-      "chat-léopard",
-      "chiens errants",
-      "protection animale et conservation de la faune",
-      "refuge",
-      "culture de l’adoption"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/Society/stray-animal-culture",
-    "readingTime": 202,
+    "readingTime": 207,
     "featured": true,
     "date": "2026-03-18",
     "path": "fr/Society/stray-animal-culture.md"
@@ -26725,36 +26770,36 @@
   },
   {
     "title": "Dadaocheng : 800 mètres, trois siècles, de Formosa Tea au premier coup de feu du 28 février",
-    "description": "La rue Dihua est très calme à cinq heures et demie du matin. L'immeuble occidental de la maison de thé Jinji, ouverte par Chen Tian-lai en 1891 rue Guide, se dresse encore à son emplacement d'origine, et l'encensoir du temple Xia-Hai du dieu de la Cité brûle depuis 167 ans. En 1851, quelques familles y ouvrirent des commerces ; en 1853, des Tong'an vinrent s'y réfugier ; en 1869, les premiers 120 000 jin de Formosa Tea furent expédiés de Tamsui à New York ; en 1885, Liu Ming-chuan y fonda la première école occidentale de Taïwan ; en 1921, Chiang Wei-shui ouvrit l'hôpital Da'an à Taiping-chō, point de départ politique de l'Association culturelle taïwanaise ; le soir du 27 février 1947, un paquet de cigarettes de contrebande devant le Tianma Tea House déclencha le 28 février. Rue du commerce du thé, lieu d'une école occidentale, mais aussi l'une des blessures les plus profondes de Taïwan d'après-guerre : 800 mètres contiennent trois siècles.",
+    "description": "À cinq heures et demie du matin, la rue Dihua est très calme. La maison de commerce Jinji Tea Company, que Chen Tian-lai ouvrit en 1891 rue Guide, se dresse encore à son emplacement d'origine ; l'encensoir du temple Xia-Hai du dieu de la Cité brûle depuis 167 ans. En 1851, quelques familles ouvrirent ici des boutiques ; en 1853, des gens de Tong'an y arrivèrent en fuyant les violences ; en 1869, le premier lot de 120 000 jin de Formosa Tea partit de Tamsui pour New York ; en 1885, Liu Mingchuan y fonda la première école occidentale de Taïwan ; en 1921, Chiang Wei-shui ouvrit l'hôpital Da'an à Taiping-chō, point de départ politique de l'Association culturelle taïwanaise ; le soir du 27 février 1947, un paquet de cigarettes de contrebande devant le Tianma Tea House alluma l'incident du 28 février. Commerce du thé, école occidentale, puis blessure la plus profonde de Taïwan après-guerre : 800 mètres contiennent trois siècles.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Geography/dadaocheng",
-    "readingTime": 202,
+    "readingTime": 204,
     "featured": false,
     "date": "2026-05-21",
     "path": "fr/Geography/dadaocheng.md"
   },
   {
-    "title": "Dadaocheng: 800 metros, tres siglos, de Formosa Tea al primer disparo del 28 de Febrero",
-    "description": "La calle Dihua a las cinco y media de la mañana está muy tranquila. La casa comercial de té Jinji, que Chen Tianlai abrió en la calle Guide en 1891, sigue en su ubicación original; el incensario del templo Xia-Hai del Dios de la Ciudad lleva 167 años ardiendo. En 1851 unas pocas familias abrieron tiendas aquí; en 1853 llegaron refugiados de Tong'an; en 1869 el primer cargamento de 120.000 jin de Formosa Tea partió de Tamsui hacia Nueva York; en 1885 Liu Mingchuan estableció aquí la primera escuela de estudios occidentales de Taiwán; en 1921 Chiang Wei-shui abrió el hospital Da'an en Taiping-cho como punto de partida político de la Asociación Cultural; al atardecer del 27 de febrero de 1947, un paquete de cigarrillos de contrabando frente al Tianma Tea House encendió el 28 de Febrero. Una calle que hizo negocios con té, albergó una escuela occidental y es también una de las heridas más profundas del Taiwán de posguerra: 800 metros contienen tres siglos.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/Geography/dadaocheng",
-    "readingTime": 204,
-    "featured": false,
-    "date": "2026-05-21",
-    "path": "es/Geography/dadaocheng.md"
-  },
-  {
-    "title": "Dadaocheng: Three Centuries in 800 Meters, from Formosa Tea to the First Shot of the February 28 Incident",
-    "description": "Dihua Street is quiet at 5:30 in the morning. The Western-style building of Chen Tian-lai's Jinji Tea Company, opened on Guide Street in 1891, still stands in its original location, and the incense burner at Xia-Hai City God Temple has burned for 167 years. In 1851, a few households opened shops here; in 1853, people from Tong'an fled here; in 1869, the first 120,000 catties of Formosa Tea were shipped from Tamsui to New York; in 1885, Liu Ming-chuan established Taiwan's first Western-style school here; in 1921, Chiang Wei-shui opened Taian Hospital in Taiping-cho as the political starting point of the Taiwanese Cultural Association; on the evening of February 27, 1947, a packet of untaxed cigarettes outside Tianma Tea House ignited the February 28 Incident. This was a street that traded tea, hosted a Western-style school, and became the site of postwar Taiwan's deepest wound: 800 meters holding three centuries.",
+    "title": "Dadaocheng: 800 Meters, Three Centuries, from Formosa Tea to the First Shot of February 28",
+    "description": "Dihua Street is quiet at 5:30 in the morning. The Western-style building of Chen Tian-lai's Jinji Tea Company, opened on Guide Street in 1891, still stands in its original place, and the incense burner at Xia-Hai City God Temple has burned for 167 years. In 1851, several households opened shops here; in 1853, Tong'an people fled here for refuge; in 1869, the first 120,000 catties of Formosa Tea were shipped from Tamsui to New York; in 1885, Liu Mingchuan established Taiwan's first Western-style school here; in 1921, Chiang Wei-shui opened Da'an Hospital in Taipingcho, making it the political starting point of the Taiwan Cultural Association; and at dusk on February 27, 1947, a packet of contraband cigarettes outside Tianma Tea House ignited the February 28 Incident. A place that traded in tea, hosted a Western-style school, and became the site of postwar Taiwan's deepest wound: 800 meters hold three centuries.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Geography/dadaocheng",
-    "readingTime": 190,
+    "readingTime": 187,
     "featured": false,
     "date": "2026-05-21",
     "path": "en/Geography/dadaocheng.md"
+  },
+  {
+    "title": "Dadaocheng: tres siglos en 800 metros, del Formosa Tea al primer disparo del 228",
+    "description": "A las cinco y media de la mañana, la calle Dihua está en silencio. El edificio occidental de la antigua casa de té Chin Ki, que Chen Tianlai abrió en 1891 en la calle Gui De, sigue en su lugar original, y el incensario del templo del Dios de la Ciudad Xia Hai lleva 167 años encendido. En 1851 unas cuantas familias abrieron tiendas aquí; en 1853 los Tong'an huyeron de la violencia y se instalaron; en 1869 las primeras 120.000 jin de Formosa Tea salieron de Tamsui rumbo a Nueva York; en 1885 Liu Mingchuan estableció aquí la primera escuela de estilo occidental de Taiwán; en 1921 Jiang Weishui abrió el Hospital Da'an en Ping Ancho como punto de partida político de la Asociación Cultural; el 27 de febrero de 1947, por la tarde, un paquete de cigarrillos de contrabando frente a la puerta de la cafetería Tianma Tea House encendió el Incidente del 228. Una calle que comerció con té, albergó una escuela moderna y se convirtió en la herida más profunda de la posguerra taiwanesa: 800 metros contienen tres siglos.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Geography/dadaocheng",
+    "readingTime": 209,
+    "featured": false,
+    "date": "2026-05-21",
+    "path": "es/Geography/dadaocheng.md"
   },
   {
     "title": "Dalongdong : l'encens du temple Bao'an, la cloche du temple de Confucius, le ciel bleu au soleil blanc de Yuanshan, trois époques de croyance taipeïote",
@@ -27237,17 +27282,9 @@
     "title": "Desarrollo de la inteligencia artificial en Taiwán y estrategia futura: ya obtuvo el boleto de entrada del hardware, ¿dónde será la próxima batalla?",
     "description": "El 8 de octubre de 2024, el Nobel de Física fue otorgado a Hopfield y Hinton; al día siguiente, el de Química fue para las tres personas detrás de AlphaFold. El 29 de mayo de ese mismo año, Jensen Huang comió omelet de ostras con Morris Chang en el mercado nocturno de Ningxia, en Taipéi. Taiwán fabrica el 90% de los servidores de IA del mundo y el 72% de las obleas avanzadas, pero estuvo ausente en las respuestas a 42 años de redes neuronales y a 50 años del problema del plegamiento de proteínas. Desde Taiwan AI Labs, de Ethan Tu, fundador de PTT, hasta TAIDE, el modelo LLM en chino tradicional por el que apuesta el Consejo Nacional de Ciencia y Tecnología, ¿le basta a esta isla con ser solo una fábrica de manufactura por encargo?",
     "category": "es",
-    "tags": [
-      "inteligencia artificial",
-      "IA",
-      "semiconductores",
-      "política tecnológica",
-      "transformación digital",
-      "Premio Nobel",
-      "AlphaFold"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/Technology/artificial-intelligence-development-strategy",
-    "readingTime": 177,
+    "readingTime": 183,
     "featured": true,
     "date": "2026-03-19",
     "path": "es/Technology/artificial-intelligence-development-strategy.md"
@@ -27347,18 +27384,9 @@
     "title": "Deux lois sur la médecine régénérative × 30 ans d’ARNm : comment l’État encadre deux médicaments qui sauvent des vies",
     "description": "Le jour où Karikó et Weissman ont reçu le prix Nobel en 2023, vingt-huit ans s’étaient écoulés depuis sa rétrogradation à l’Université de Pennsylvanie. Le 2 septembre 2021, lorsque le premier lot de 930 000 doses de BNT a atterri à l’aéroport de Taoyuan, vingt-quatre ans s’étaient déjà écoulés depuis sa rencontre avec Weissman devant un photocopieur en 1997. Cet article met en parallèle deux fils narratifs, « les deux lois sur la médecine régénérative de 2024 » et « trente années d’épreuves de l’ARNm » : de l’ours en peluche d’une scientifique immigrée hongroise aux salles blanches du parc scientifique de Taoyuan, il examine comment l’État encadre deux médicaments qui sauvent des vies et qui sont pourtant radicalement différents : les cellules et les molécules.",
     "category": "fr",
-    "tags": [
-      "Deux lois sur la médecine régénérative",
-      "préparation cellulaire",
-      "vaccins à ARNm",
-      "COVID-19",
-      "Karikó",
-      "BNT",
-      "droits humains en santé",
-      "BPF"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/Society/taiwan-regenerative-medicine-laws",
-    "readingTime": 203,
+    "readingTime": 208,
     "featured": true,
     "date": "2026-05-19",
     "path": "fr/Society/taiwan-regenerative-medicine-laws.md"
@@ -27489,17 +27517,9 @@
     "title": "Développement de l’intelligence artificielle à Taïwan et stratégies d’avenir : le ticket matériel est acquis, où se jouera la prochaine bataille ?",
     "description": "Le 8 octobre 2024, le prix Nobel de physique est attribué à Hopfield et Hinton ; le lendemain, celui de chimie revient aux trois chercheurs d’AlphaFold. Le 29 mai de la même année, Jensen Huang mange une omelette aux huîtres avec Morris Chang au marché nocturne de Ningxia, à Taipei. Taïwan fabrique 90 % des serveurs d’IA du monde et 72 % des wafers avancés, mais reste absent des solutions apportées à 42 ans d’histoire des réseaux neuronaux et à 50 ans d’énigme du repliement des protéines. De Taiwan AI Labs, fondé par Ethan Tu, créateur de PTT, au modèle LLM en chinois traditionnel TAIDE soutenu par le Conseil national des sciences et de la technologie, cette île peut-elle encore se contenter d’être une usine de sous-traitance ?",
     "category": "fr",
-    "tags": [
-      "intelligence artificielle",
-      "IA",
-      "semi-conducteurs",
-      "politique technologique",
-      "transformation numérique",
-      "prix Nobel",
-      "AlphaFold"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/Technology/artificial-intelligence-development-strategy",
-    "readingTime": 180,
+    "readingTime": 187,
     "featured": true,
     "date": "2026-03-19",
     "path": "fr/Technology/artificial-intelligence-development-strategy.md"
@@ -27909,14 +27929,7 @@
     "title": "Ecosistema de startups",
     "description": "La evolución del ecosistema de startups de Taiwán, desde sus desafíos iniciales hasta el entorno actual de aceleradoras, capital de riesgo y búsqueda de unicornios",
     "category": "es",
-    "tags": [
-      "startups",
-      "emprendimiento",
-      "capital de riesgo",
-      "aceleradoras",
-      "AppWorks",
-      "unicornios"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/Economy/taiwan-startup-ecosystem-overview",
     "readingTime": 109,
     "featured": true,
@@ -27960,16 +27973,9 @@
     "title": "Écosystème des startups",
     "description": "L'évolution de l'écosystème des startups à Taïwan, des premières difficultés à l'environnement actuel des accélérateurs, du capital-risque et de la quête des licornes",
     "category": "fr",
-    "tags": [
-      "Startups",
-      "Entrepreneuriat",
-      "Capital-risque",
-      "Accélérateurs",
-      "AppWorks",
-      "Licornes"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/Economy/taiwan-startup-ecosystem-overview",
-    "readingTime": 117,
+    "readingTime": 116,
     "featured": true,
     "date": "2026-03-18",
     "path": "fr/Economy/taiwan-startup-ecosystem-overview.md"
@@ -28137,7 +28143,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Technology/ai-development-in-taiwan",
-    "readingTime": 84,
+    "readingTime": 85,
     "featured": true,
     "date": "2026-03-19",
     "path": "es/Technology/ai-development-in-taiwan.md"
@@ -28771,7 +28777,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Economy/taiwan-enterprise-ase-semiconductor",
-    "readingTime": 43,
+    "readingTime": 45,
     "featured": false,
     "date": "2026-03-21",
     "path": "es/Economy/taiwan-enterprise-ase-semiconductor.md"
@@ -29171,7 +29177,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Society/taiwan-environmental-justice-nimby-conflicts",
-    "readingTime": 96,
+    "readingTime": 97,
     "featured": false,
     "date": "2026-03-20",
     "path": "en/Society/taiwan-environmental-justice-nimby-conflicts.md"
@@ -30277,16 +30283,7 @@
     "title": "Han Kuo-yu",
     "description": "The first directly-elected mayor in history to be recalled, he became the Speaker of the Legislative Yuan four years later. What kind of political trajectory is this?",
     "category": "es",
-    "tags": [
-      "political figure",
-      "Kuomintang",
-      "Speaker of the Legislative Yuan",
-      "Han Wave",
-      "Kaohsiung",
-      "2018",
-      "2020",
-      "2024"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/People/han-kuo-yu",
     "readingTime": 84,
     "featured": true,
@@ -30919,11 +30916,11 @@
   },
   {
     "title": "Hou Hsiao-hsien",
-    "description": "The cinema poet who conquered the world while refusing the close-up shot — a revolutionary against the grammar of film",
+    "description": "The film poet who rejected close-ups yet conquered the world: a visual revolutionary against cinematic grammar",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/People/hou-hsiao-hsien",
-    "readingTime": 52,
+    "readingTime": 56,
     "featured": true,
     "date": "2026-03-24",
     "path": "en/People/hou-hsiao-hsien.md"
@@ -30959,7 +30956,7 @@
       "長鏡頭"
     ],
     "url": "https://taiwan.md/fr/People/hou-hsiao-hsien",
-    "readingTime": 60,
+    "readingTime": 57,
     "featured": true,
     "date": "2026-03-24",
     "path": "fr/People/hou-hsiao-hsien.md"
@@ -32026,44 +32023,22 @@
     "title": "Industria de semiconductores: una revolución de materiales de 50 años, de la transferencia tecnológica de RCA al nitruro de galio y el empaquetado cuántico",
     "description": "La montaña sagrada protectora de Taiwán domina los procesos avanzados globales mediante la fundición por contrato, pero el nitruro de galio dentro de los cargadores rápidos, CoWoS bajo los chips de IA y los refrigeradores de dilución sobre los qubits apenas están abriendo el campo de batalla de la ciencia de materiales para los próximos 50 años.",
     "category": "es",
-    "tags": [
-      "semiconductores",
-      "TSMC",
-      "Taiwan Semiconductor Manufacturing Company",
-      "nitruro de galio",
-      "empaquetado 3D",
-      "CoWoS",
-      "computadora cuántica",
-      "procesos avanzados",
-      "escudo de silicio",
-      "ciencia de materiales"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/Technology/taiwan-semiconductor-industry",
-    "readingTime": 184,
+    "readingTime": 189,
     "featured": true,
-    "date": "2026-03-17",
+    "date": "2026-05-25",
     "path": "es/Technology/taiwan-semiconductor-industry.md"
   },
   {
     "title": "Industrie des semi-conducteurs : 50 ans de révolution des matériaux, du transfert de technologie RCA au nitrure de gallium et au packaging quantique",
     "description": "La « montagne sacrée protectrice de la nation » taïwanaise domine les procédés avancés mondiaux grâce à la fonderie, mais le nitrure de gallium dans les chargeurs rapides, le CoWoS sous les puces d’IA et les réfrigérateurs à dilution au-dessus des qubits montrent que le champ de bataille de la science des matériaux pour les 50 prochaines années ne fait que s’ouvrir.",
     "category": "fr",
-    "tags": [
-      "semi-conducteurs",
-      "TSMC",
-      "TSMC",
-      "nitrure de gallium",
-      "packaging 3D",
-      "CoWoS",
-      "ordinateur quantique",
-      "procédés avancés",
-      "bouclier de silicium",
-      "science des matériaux"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/Technology/semiconductor-industry",
-    "readingTime": 192,
+    "readingTime": 197,
     "featured": true,
-    "date": "2026-03-17",
+    "date": "2026-05-25",
     "path": "fr/Technology/semiconductor-industry.md"
   },
   {
@@ -32453,9 +32428,9 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Art/chiang-hsien-yi",
-    "readingTime": 149,
+    "readingTime": 160,
     "featured": true,
-    "date": "2026-05-22",
+    "date": "2026-05-25",
     "path": "fr/Art/chiang-hsien-yi.md"
   },
   {
@@ -32867,7 +32842,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Society/taiwan-environmental-justice-nimby-conflicts",
-    "readingTime": 105,
+    "readingTime": 107,
     "featured": false,
     "date": "2026-03-20",
     "path": "fr/Society/taiwan-environmental-justice-nimby-conflicts.md"
@@ -32896,7 +32871,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Society/taiwan-environmental-justice-nimby-conflicts",
-    "readingTime": 109,
+    "readingTime": 110,
     "featured": false,
     "date": "2026-03-20",
     "path": "es/Society/taiwan-environmental-justice-nimby-conflicts.md"
@@ -33079,12 +33054,12 @@
     "path": "en/People/kevin-lin-ultramarathon-desert-pioneer.md"
   },
   {
-    "title": "Kinmen County: The 56 Hours in 1949 That Decided Kinmen's Fate for 75 Years",
-    "description": "Kinmen is only 1.8 kilometers from Jiaoyu, Xiamen, at its closest point, and 358 kilometers from Taipei. In 1387, Marquis of Jiangxia Zhou Dexing built a military settlement here, taking its name from the phrase 'as solid as metal and broth, a mighty guard at the sea gate.' At 2 a.m. on October 25, 1949, three Communist regiments totaling 9,086 men landed on the beaches of Guningtou; Nationalist forces fought for 56 hours and repelled them. During the 44 days beginning at 5:30 p.m. on August 23, 1958, 474,910 artillery shells fell on an island of 151 square kilometers, followed by another 21 years of shelling on odd-numbered days and no shelling on even-numbered days. Today, 145,000 people are registered in Kinmen, and at four in the morning there are more boats from Shuitou Pier to Xiamen than flights to Taipei. Yeh Hua-cheng's great-grandson waited 67 years for an apology.",
+    "title": "Kinmen County: The 56 Hours in 1949 That Determined Kinmen's Fate for 75 Years",
+    "description": "Kinmen is only 1.8 kilometers from Jiaoyu, Xiamen, at its nearest point, and 358 kilometers from Taipei. In 1387, the Marquis of Jiangxia Zhou Dexing built a garrison city here, taking its name from the phrase 'as impregnable as walls of metal and a moat of boiling water, a mighty guard at the sea gate.' At 2 a.m. on October 25, 1949, three Communist regiments, 9,086 men, landed on the beaches of Guningtou; Nationalist forces repelled them after 56 hours of fierce fighting. In the 44 days beginning at 5:30 p.m. on August 23, 1958, 474,910 artillery shells fell on an island of 151 square kilometers, followed by 21 more years of shelling on odd-numbered days and no shelling on even-numbered days. Today, 145,000 people are registered in Kinmen, and at 4 a.m. more boats leave Shuitou Pier for Xiamen than planes fly to Taipei. Yeh Hua-cheng's great-grandson has waited 67 years for an apology.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Geography/kinmen-county",
-    "readingTime": 213,
+    "readingTime": 215,
     "featured": false,
     "date": "2026-05-18",
     "path": "en/Geography/kinmen-county.md"
@@ -33586,7 +33561,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Technology/ai-development-in-taiwan",
-    "readingTime": 88,
+    "readingTime": 89,
     "featured": true,
     "date": "2026-03-19",
     "path": "fr/Technology/ai-development-in-taiwan.md"
@@ -34003,6 +33978,17 @@
     "path": "fr/Nature/biodiversity.md"
   },
   {
+    "title": "La carte des Yue Lao de Taïwan : choisir son temple avant de chercher l'âme sœur, un îlot qui abrite au moins dix Yue Lao aux spécialités distinctes",
+    "description": "À Taïwan, demander l'amour au Yue Lao repose sur un précepte que beaucoup ignorent : il n'existe pas un seul Yue Lao. Les quatre Yue Lao de Tainan se partagent les requêtes — trouver l'amour, stabiliser un couple, couper les liaisons toxiques, obtenir une réconciliation —, le temple Lechéng de Taichung, fondé en 1753, est réputé pour les réconciliations, le temple Weimingtang de la métropole de Taipei est dédié aux unions LGBT, tandis que les temples Xiáhǎi, Lónghsān et Lùgǎng ont chacun leur domaine d'expertise. Les fidèles rédigent des « critères de sélection » d'autant plus détaillés que les laisser vides, c'est laisser au Yue Lao une marge d'interprétation.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Society/taiwan-yuelao-matchmaker-map",
+    "readingTime": 115,
+    "featured": false,
+    "date": "2026-05-25",
+    "path": "fr/Society/taiwan-yuelao-matchmaker-map.md"
+  },
+  {
     "title": "La ceremonia del té taiwanesa y la estética de la vida cotidiana",
     "description": "Una fragancia de miel nacida de la picadura de un insecto, un movimiento democrático en una casa japonesa de la era colonial, un vaso de té con perlas que conquistó el mercado global: cómo la cultura del té en Taiwán creció desde un legado colonial hasta convertirse en una estética de vida singular",
     "category": "es",
@@ -34081,7 +34067,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Society/taiwan-animal-drug-controversy",
-    "readingTime": 209,
+    "readingTime": 211,
     "featured": false,
     "date": "2026-04-10",
     "path": "fr/Society/taiwan-animal-drug-controversy.md"
@@ -34092,7 +34078,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Society/taiwan-animal-drug-controversy",
-    "readingTime": 147,
+    "readingTime": 148,
     "featured": false,
     "date": "2026-04-10",
     "path": "es/Society/taiwan-animal-drug-controversy.md"
@@ -34745,24 +34731,6 @@
     "path": "fr/Culture/taiwan-baseball-culture.md"
   },
   {
-    "title": "La culture du bénévolat à Taïwan : une bienveillance inscrite dans le quotidien",
-    "description": "30 mères au foyer qui économisaient cinq centimes par jour ont bâti un empire caritatif présent dans 128 pays — la culture bénévole de Taïwan n'est pas un slogan, c'est un ADN collectif ancré dans la vie ordinaire",
-    "category": "fr",
-    "tags": [
-      "bénévolat",
-      "associations",
-      "Tzu Chi",
-      "ONG",
-      "développement communautaire",
-      "mamans conteuses"
-    ],
-    "url": "https://taiwan.md/fr/Society/volunteer-culture",
-    "readingTime": 50,
-    "featured": false,
-    "date": "2026-03-28",
-    "path": "fr/Society/volunteer-culture.md"
-  },
-  {
     "title": "La culture du bénévolat à Taïwan et l'engagement pour l'intérêt général : la bienveillance ordinaire d'une île",
     "description": "30 femmes au foyer mettant cinq centimes de côté chaque jour, et 60 ans plus tard un empire philanthropique présent dans 128 pays — la culture bénévole de Taïwan n'est pas un slogan, c'est un ADN collectif inscrit dans le quotidien",
     "category": "fr",
@@ -34779,6 +34747,17 @@
     "featured": false,
     "date": "2026-03-28",
     "path": "fr/Society/volunteer-culture-new.md"
+  },
+  {
+    "title": "La culture du bénévolat et l'engagement d'intérêt public à Taïwan : la bonté quotidienne d'une île",
+    "description": "30 femmes au foyer qui économisent cinquante centimes par jour, et 60 ans plus tard, un empire caritatif couvrant 128 pays — la culture du bénévolat taïwanais n'est pas un slogan, c'est un ADN collectif inscrit dans le quotidien",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Society/volunteer-culture",
+    "readingTime": 53,
+    "featured": false,
+    "date": "2026-03-28",
+    "path": "fr/Society/volunteer-culture.md"
   },
   {
     "title": "La culture du café à Taïwan : une île où les supérettes vendent six cents millions de tasses par an",
@@ -36437,7 +36416,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Technology/softstar-twin-classics",
-    "readingTime": 67,
+    "readingTime": 68,
     "featured": false,
     "date": "2026-04-23",
     "path": "es/Technology/softstar-twin-classics.md"
@@ -36928,7 +36907,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Society/sunflower-movement",
-    "readingTime": 89,
+    "readingTime": 90,
     "featured": true,
     "date": "2026-04-12",
     "path": "fr/Society/sunflower-movement.md"
@@ -38000,7 +37979,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Technology/softstar-twin-classics",
-    "readingTime": 69,
+    "readingTime": 70,
     "featured": false,
     "date": "2026-04-23",
     "path": "fr/Technology/softstar-twin-classics.md"
@@ -38353,6 +38332,17 @@
     "path": "fr/Society/taiwan-tin-shed-houses.md"
   },
   {
+    "title": "Les traditions musicales des peuples autochtones de Taïwan",
+    "description": "Découvrez la riche culture musicale des 16 groupes autochtones de Taïwan, des chants anciens aux instruments traditionnels, témoins d'une transmission culturelle millénaire",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Music/indigenous-music-traditions",
+    "readingTime": 90,
+    "featured": true,
+    "date": "2026-03-18",
+    "path": "fr/Music/indigenous-music-traditions.md"
+  },
+  {
     "title": "Les villages militaires de Taïwan — mémoire d'un exil fondateur",
     "description": "Des soldats perdus en Birmanie aux royaumes de bambou : comment 1,2 million de réfugiés ont réinventé l'idée de \"chez soi\" à Taïwan",
     "category": "fr",
@@ -38414,18 +38404,9 @@
     "title": "Leyes gemelas de medicina regenerativa x 30 años de mRNA: cómo el Estado incorporó dos medicamentos salvavidas a su regulación",
     "description": "El día en que Karikó y Weissman recibieron el Premio Nobel en 2023, habían pasado exactamente 28 años desde que ella fue degradada en la Universidad de Pensilvania. En el momento en que el primer lote de 930.000 dosis de BNT aterrizó en el Aeropuerto Internacional de Taoyuan el 2 de septiembre de 2021, ya habían pasado 24 años desde que ella se encontró con Weissman frente a una fotocopiadora en 1997. Este artículo yuxtapone dos líneas narrativas: las «leyes gemelas de medicina regenerativa de 2024» y los «30 años de penurias del mRNA». Desde el oso de peluche de una científica inmigrante húngara hasta las salas limpias del Parque Científico de Taoyuan, observa cómo el Estado regula dos medicamentos salvavidas completamente distintos: células y moléculas.",
     "category": "es",
-    "tags": [
-      "leyes gemelas de medicina regenerativa",
-      "preparación celular",
-      "vacunas de mRNA",
-      "COVID-19",
-      "Karikó",
-      "BNT",
-      "derechos humanos en salud",
-      "GMP"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/Society/taiwan-regenerative-medicine-laws",
-    "readingTime": 200,
+    "readingTime": 205,
     "featured": true,
     "date": "2026-05-19",
     "path": "es/Society/taiwan-regenerative-medicine-laws.md"
@@ -39848,6 +39829,17 @@
     "path": "es/Culture/indigenous-peoples-16-tribes-cultural-map.md"
   },
   {
+    "title": "Mapa de los Yue Lao de Taiwán: antes de buscar pareja, elige el templo — esta isla alberga al menos diez Yue Lao con funciones distintas",
+    "description": "En Taiwán, hay un requisito previo para pedir el amor que muchos desconocen: el Yue Lao no es uno solo. Los cuatro grandes Yue Lao de Tainan se reparten las funciones de pedir amor, pedir estabilidad, cortar amores no deseados y pedir reconciliación. El antiguo templo Le Cheng Gong de Taichung, fundado en 1753, es famoso por su eficacia en reconciliaciones. El templo Wei Ming Tang en Nueva Taiwán, dedicado al dios conejo Tu''er Shen, se especializa en el amor entre personas del mismo sexo. Los templos Xia Hai, Long Shan Si y Lu Tian Gong de Lukang cada uno tiene su propia especialidad. Los devotos escriben sus \"requisitos de pareja\" lo más detallados posible, porque si dejan espacios vacíos, el Yue Lao podría encontrar lagunas que explotar.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Society/taiwan-yuelao-matchmaker-map",
+    "readingTime": 120,
+    "featured": false,
+    "date": "2026-05-25",
+    "path": "es/Society/taiwan-yuelao-matchmaker-map.md"
+  },
+  {
     "title": "Máquina selladora de bebidas: de la inspiración de un cuenco de sopa de rábano al pilar técnico global de las bebidas preparadas al momento",
     "description": "En 1984, Yeh Yi-fang completó el prototipo de la primera selladora de mesa del mundo; en 1985 fundó Yifang. Esta máquina, desarrollada en un laboratorio doméstico tras quemar doscientas planchas eléctricas, integró cuatro parámetros —material del vaso, película plástica, temperatura y presión—, puso fin al problema de las filtraciones en bebidas para llevar y sostuvo la base de la cadena de suministro que llevó las bebidas taiwanesas preparadas al momento a treinta y cinco países: una invención anónima que sostiene una industria de bebidas de cientos de miles de millones.",
     "category": "es",
@@ -41131,8 +41123,8 @@
     "path": "fr/People/nam-min-jung.md"
   },
   {
-    "title": "Nantou County: Taiwan’s Only Landlocked County, with the 921 Earthquake Epicenter at Its Center",
-    "description": "At 1:47 a.m. on September 21, 1999, the Chelungpu Fault beneath Jiji Township ruptured for 102 seconds. Across Taiwan, 2,415 people died; Nantou alone accounted for 886 deaths, and 90% of buildings in Zhongliao Township were damaged. On the day of the flag-raising ceremony at Wushe Public School in 1930, Mona Rudao led Seediq people from six communities in killing 134 Japanese civilians. In 1934, Wujie Dam raised the water level by 18.18 meters, flooding the Thao people’s Lalu Island. In 1957, Zhongxing New Village was completed as the provincial government’s temporary office site; after provincial streamlining hollowed it out in 1998, only the palm-lined boulevard remained. Some 470,000 people live in this inland county, rising from 100 meters to 3,952 meters above sea level, where Seediq, Bunun, Thao, and Tsou communities live alongside Han Taiwanese. Taiwan’s deepest wounds are all here.",
+    "title": "Nantou County: The Only Landlocked County, with the 921 Earthquake Epicenter at Its Center",
+    "description": "At 1:47 a.m. on September 21, 1999, the Chelungpu Fault beneath Jiji Township ruptured for 102 seconds. Across Taiwan, 2,415 people died; Nantou alone accounted for 886 deaths, and 90 percent of buildings in Zhongliao Township were damaged. On the day of the flag-raising ceremony at Wushe Public School in 1930, Mona Rudao led six Seediq communities in killing 134 Japanese civilians. In 1934, the Wujie Dam raised the water level by 18.18 meters, submerging the Thao people's Lalu Island. In 1957, Zhongxing New Village was completed as the Taiwan Provincial Government's temporary office site; after the 1998 downsizing of the province hollowed it out, only the coconut-palm boulevard remained. Some 470,000 people live in this inland county, rising from 100 meters to 3,952 meters above sea level, where Seediq, Bunun, Thao, Tsou, and Han people live together. Taiwan's deepest wounds are all here.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Geography/nantou-county",
@@ -41986,6 +41978,17 @@
   },
   {
     "title": "Park Sung-eun",
+    "description": "From exchange guest to official Fubon member, she became a new-generation representative of the five Korean cheerleading imports through rapid adaptation and steady stage performance.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/People/park-sung-eun-actress",
+    "readingTime": 20,
+    "featured": false,
+    "date": "2026-05-13",
+    "path": "en/People/park-sung-eun-actress.md"
+  },
+  {
+    "title": "Park Sung-eun",
     "description": "De invitada de intercambio a miembro oficial de los Fubon Angels, su rápida adaptación y solidez escénica la han convertido en la representante de la nueva generación de las cinco pilares del apoyo coreano.",
     "category": "es",
     "tags": [],
@@ -42005,17 +42008,6 @@
     "featured": false,
     "date": "2026-05-13",
     "path": "fr/People/park-sung-eun.md"
-  },
-  {
-    "title": "Park Sung-eun: CPBL Cheerleader",
-    "description": "From exchange guest to official Fubon Angels member — she used rapid adaptation and stage consistency to become a leading figure among the new generation of Korean recruits in the Five Pillars.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/People/park-sung-eun-actress",
-    "readingTime": 17,
-    "featured": false,
-    "date": "2026-04-14",
-    "path": "en/People/park-sung-eun-actress.md"
   },
   {
     "title": "Parques de Taiwán y ocio cotidiano",
@@ -42084,9 +42076,9 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Art/chiang-hsien-yi",
-    "readingTime": 142,
+    "readingTime": 150,
     "featured": true,
-    "date": "2026-05-22",
+    "date": "2026-05-25",
     "path": "en/Art/chiang-hsien-yi.md"
   },
   {
@@ -43401,34 +43393,34 @@
     "path": "ja/People/ray-youtuber.md"
   },
   {
-    "title": "Rayark : les fissures d'un empire musical",
-    "description": "En 2012, six Taïwanais réunissent trente millions de dollars taïwanais pour créer Cytus, un jeu musical sur mobile. Un mois après sa sortie, il atteint la première place des classements dans 14 pays. Dix ans plus tard, ils ont Deemo, Implosion, Sdorica, mais aussi des retards, des controverses, et une question posée sur PTT : « Comment Rayark a-t-il pu disparaître aussi silencieusement du marché ? »",
+    "title": "Rayark Games : l'empire musical fondé sur l'esthétique, et ses fissures de quatorze ans",
+    "description": "En 2012, six jeunes diplômés de la faculté d'électrotechnique et d'informatique de NTU ont réuni 30 millions de TWD pour créer Cytus, qui a atteint la première place des classements dans 14 pays en un mois. Quatorze ans plus tard, ils ont eu l'animation Deemo, l'animation Implosion non livrée depuis onze ans, Sdorica entré en mode maintenance en février 2026, et le choix de sacrifier un employé après l'incident du code Morse ICE en 2020 pour préserver le marché chinois. L'esthétique a permis au monde de voir Rayark, mais elle l'a aussi fait trébucher dans chaque domaine qui n'était pas musical.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Technology/rayark-games",
-    "readingTime": 43,
+    "readingTime": 153,
     "featured": false,
     "date": "2026-04-25",
     "path": "fr/Technology/rayark-games.md"
   },
   {
-    "title": "Rayark: Cracks in a Music Empire",
-    "description": "In 2012, six Taiwanese people pooled NT$30 million to build a mobile music game called Cytus, which reached number one on the charts in 14 countries within a month of launch. Ten years later, they had Deemo, Implosion, and Sdorica — along with missed deadlines, controversy, and a question on PTT: 'How did Rayark just quietly disappear from the market?'",
+    "title": "Rayark Games: A Music Empire Founded on Aesthetics, and Its Fourteen Years of Cracks",
+    "description": "In 2012, six young founders from National Taiwan University's College of Electrical Engineering and Computer Science pooled NT$30 million to make Cytus, which reached No. 1 on the charts in 14 countries within a month. Fourteen years later, they have a Deemo animated film, an Implosion animation undelivered after eleven years, Sdorica entering maintenance mode in February 2026, and the choice after the 2020 ICE Morse code incident to cut ties with an employee in order to preserve the China market. Aesthetics made Rayark visible to the world, and also made it stumble in every non-music arena.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Technology/rayark-games",
-    "readingTime": 37,
+    "readingTime": 139,
     "featured": false,
     "date": "2026-04-25",
     "path": "en/Technology/rayark-games.md"
   },
   {
-    "title": "Rayark: Las grietas de un imperio musical",
-    "description": "En 2012, seis taiwaneses reunieron treinta millones de dólares taiwaneses para crear Cytus, un juego musical para móvil que, un mes después de su lanzamiento, alcanzó el número uno en las listas de 14 países. Diez años después, tenían Deemo, Implosion y Sdorica, pero también retrasos, controversias y una pregunta en PTT: \"¿Cómo es que Rayark simplemente desapareció del mercado?\"",
+    "title": "Rayark: el imperio musical que se fundó sobre la estética, y sus catorce años de grietas",
+    "description": "En 2012, seis jóvenes de la facultad de Ingeniería Eléctrica e Informática de la NTU reunieron treinta millones para crear Cytus, que alcanzó el número uno en las listas de 14 países en un mes. Catorce años después tienen la película de Deemo, la película de Implosion lleva once años sin entregarse, Sdorica entró en modo de mantenimiento en febrero de 2026, y tras el incidente del código Morse de ICE en 2020, Rayark optó por cortar al empleado para conservar el mercado chino. La estética hizo que el mundo viera a Rayark, pero también la hizo tropezar en cada terreno que no fuera la música.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Technology/rayark-games",
-    "readingTime": 42,
+    "readingTime": 153,
     "featured": false,
     "date": "2026-04-25",
     "path": "es/Technology/rayark-games.md"
@@ -43503,18 +43495,9 @@
     "title": "Regenerative Medicine Dual Laws × 30 Years of mRNA: How the State Regulates Two Kinds of Life-Saving Medicine",
     "description": "On the day Karikó and Weissman won the Nobel Prize in 2023, exactly 28 years had passed since she was demoted at the University of Pennsylvania. At the moment the first 930,000 doses of BNT landed at Taoyuan Airport on September 2, 2021, 24 years had passed since she and Weissman ran into each other by the photocopier in 1997. This article places the “Regenerative Medicine Dual Laws 2024” alongside “30 difficult years of mRNA,” moving from a Hungarian immigrant woman scientist's teddy bear to cleanrooms in Taoyuan Science Park to examine how the state regulates two entirely different kinds of life-saving medicine: cells and molecules.",
     "category": "en",
-    "tags": [
-      "Regenerative Medicine Dual Laws",
-      "Cell Preparation",
-      "mRNA Vaccines",
-      "COVID-19",
-      "Karikó",
-      "BNT",
-      "Medical Human Rights",
-      "GMP"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/Society/taiwan-regenerative-medicine-laws",
-    "readingTime": 178,
+    "readingTime": 183,
     "featured": true,
     "date": "2026-05-19",
     "path": "en/Society/taiwan-regenerative-medicine-laws.md"
@@ -43915,7 +43898,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Society/taiwan-public-health-epidemic-response",
-    "readingTime": 52,
+    "readingTime": 53,
     "featured": false,
     "date": "2026-04-08",
     "path": "fr/Society/taiwan-public-health-epidemic-response.md"
@@ -44430,7 +44413,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Technology/softstar-twin-classics",
-    "readingTime": 59,
+    "readingTime": 60,
     "featured": false,
     "date": "2026-04-23",
     "path": "en/Technology/softstar-twin-classics.md"
@@ -44701,14 +44684,7 @@
     "title": "Startup Ecosystem",
     "description": "The development of Taiwan’s startup ecosystem, from early challenges to today’s accelerators, venture capital environment, and pursuit of unicorns",
     "category": "en",
-    "tags": [
-      "startups",
-      "entrepreneurship",
-      "venture capital",
-      "accelerators",
-      "AppWorks",
-      "unicorns"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/Economy/taiwan-startup-ecosystem-overview",
     "readingTime": 97,
     "featured": true,
@@ -45173,12 +45149,23 @@
     "path": "es/People/tai-yu-wu.md"
   },
   {
-    "title": "Taichung City: Nearly the Capital in 1887, Taiwan's Second-Largest Special Municipality Only in 2010",
-    "description": "In 1887, Liu Mingchuan petitioned to establish Taiwan as a province, selecting Qiaozitou in Changhua County, today’s central Taichung, as the provincial capital and planning an eight-trigram-shaped walled city. Construction began in 1889. After Shao Youlian took office in 1894, the provincial capital moved north to Taipei, and work on Taichung’s provincial city stopped. On October 1, 1920, the Japanese established Taichung Prefecture here. In 1955, Tunghai University broke ground on Dadu Mountain; in 1963, Luce Memorial Chapel was completed. In the early hours of September 21, 1999, the Chelungpu Fault tore from Jiji in Nantou all the way to Dongshi in Taichung, killing 358 people in Dongshi Township. On December 25, 2010, the county and city merged and were upgraded into a 29-district special municipality. In 2016, Toyo Ito’s National Taichung Theater opened in Xitun District. 2.86 million people live in this city that waited 123 years.",
+    "title": "Taichung : elle a failli devenir capitale en 1887, et n’est devenue la deuxième grande municipalité spéciale qu’en 2010",
+    "description": "En 1887, Liu Mingchuan proposa par mémorial la création d’une province de Taïwan ; la capitale provinciale fut choisie à Qiaozitou, dans le comté de Changhua (aujourd’hui le centre de Taichung), avec une ville fortifiée prévue en forme de bagua. La construction des remparts commença en 1889. Après l’entrée en fonction de Shao Youlian en 1894, la capitale provinciale fut déplacée vers le nord, à Taipei, et les travaux de la capitale provinciale de Taichung furent arrêtés. Le 1er octobre 1920, les Japonais établirent ici la préfecture de Taichung. En 1955, l’université Tunghai lança ses travaux sur le mont Dadu ; en 1963, la chapelle Luce fut achevée. Aux premières heures du 21 septembre 1999, la faille de Chelungpu déchira le sol depuis Jiji, dans le Nantou, jusqu’à Dongshi, à Taichung ; le bourg de Dongshi compta 358 morts. Le 25 décembre 2010, la fusion du comté et de la ville l’éleva au rang de municipalité spéciale, avec 29 districts. En 2016, le Théâtre national conçu par Toyo Ito ouvrit dans le district de Xitun. 2,86 millions de personnes vivent dans cette ville qui a attendu 123 ans.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Geography/taichung-city",
+    "readingTime": 272,
+    "featured": false,
+    "date": "2026-05-18",
+    "path": "fr/Geography/taichung-city.md"
+  },
+  {
+    "title": "Taichung City: Nearly Became the Capital in 1887, Became the Second-Largest Special Municipality Only in 2010",
+    "description": "In 1887, Liu Ming-chuan petitioned to establish Taiwan as a province, with the provincial capital chosen at Qiaozitou in Changhua County (today’s downtown Taichung), where an eight-trigram-shaped walled city was planned. Construction began in 1889. After Shao Youlian took office in 1894, the provincial capital was moved north to Taipei, and work on Taichung’s provincial city stopped. On October 1, 1920, the Japanese established Taichung Prefecture here. In 1955, Tunghai University broke ground on Dadu Mountain, and Luce Memorial Chapel was completed in 1963. In the early hours of September 21, 1999, the Chelungpu Fault tore from Jiji in Nantou all the way to Dongshi in Taichung; 358 people died in Dongshi Township. On December 25, 2010, the county and city merged and were upgraded into a special municipality with 29 districts. In 2016, Toyo Ito’s National Taichung Theater opened in Xitun District. 2.86 million people live in this city that waited 123 years.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Geography/taichung-city",
-    "readingTime": 245,
+    "readingTime": 244,
     "featured": false,
     "date": "2026-05-18",
     "path": "en/Geography/taichung-city.md"
@@ -45280,11 +45267,11 @@
   },
   {
     "title": "Taitung County: Two Offshore Islands, One Held Political Prisoners for Thirty-Six Years, the Other Has Stored Nuclear Waste for Forty-Two Years",
-    "description": "Taitung County’s 210,000 people are spread across 3,515 square kilometers, the lowest density in the country: only 60 people per square kilometer, one-hundredth of Taipei’s. Yet this county contains Taiwan’s earliest human settlement (the Peinan Site, with 1,600 stone coffins from 5,300 years ago), is home to six Indigenous peoples (Amis, Puyuma, Paiwan, Rukai, Bunun, Tao), and has Taiwan’s highest Indigenous population share at 37.5%. From 1951 to 1987, Green Island, formerly Huoshao Island, held political prisoners for thirty-six years. Beginning in May 1982, Longmen on Orchid Island started receiving nuclear waste; forty-two years later, 97,672 barrels are still there. On August 25, 1968, seven Bunun children from Hongye Village defeated Japan’s Kansai Little League All-Star Team seven to zero (not a world championship team), and Taiwan’s myth of baseball as the national sport began with that deception. Two offshore islands bore the cost for an entire island.",
+    "description": "Taitung County's 210,000 people are scattered across 3,515 square kilometers, the lowest density in the country: only 60 people per square kilometer, one percent of Taipei's. Yet this county contains Taiwan's earliest human settlement (the Peinan Site, 5,300 years ago, with 1,600 stone coffins), is home to six Indigenous peoples (Amis, Puyuma, Paiwan, Rukai, Bunun, Tao), and has Taiwan's highest Indigenous population share at 37.5%. From 1951 to 1987, Green Island's Huoshao Island held political prisoners for thirty-six years. Beginning in May 1982, Longmen on Lanyu began receiving nuclear waste; forty-two years later, 97,672 barrels are still there. On August 25, 1968, seven Bunun children from Hongye Village defeated Japan's Kansai Little League all-star team seven to zero (not a world championship team), and Taiwan's myth of baseball as the national sport began with this deception. Two offshore islands have borne the cost of an entire island.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Geography/taitung-county",
-    "readingTime": 216,
+    "readingTime": 215,
     "featured": false,
     "date": "2026-05-18",
     "path": "en/Geography/taitung-county.md"
@@ -45356,59 +45343,15 @@
     "path": "en/Nature/taiwan-alpine-ecosystems-glacial-relicts.md"
   },
   {
-    "title": "Taiwan and Eswatini: Africa's Last Diplomatic Lifeline Hanging on One Person",
-    "description": "On May 2, 2026, at 9:00 AM, Lai Ching-te landed in Mbabane aboard an A340 chartered from the King of Eswatini. This marks the first time a Taiwanese president had their flight clearance revoked due to pressure from China, with the final solution being a plane dispatched by the King of the allied nation to pick him up from Taipei. From the establishment of diplomatic relations on the same day as Eswatini's independence in 1968 to being Africa's last remaining ally; from an absolute monarch whose birth year coincides exactly with the history of diplomatic relations to the suppression of 46 lives in his own town in 2021; from Red-fleshed Guava entering SUPERSPAR to China's zero-tariff policy for 53 countries deliberately skipping Eswatini. The 58-year relationship between Taiwan and Eswatini is the most concrete textbook of a 'sovereign state' and also an unsolved question mark.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Society/taiwan-eswatini-relations",
-    "readingTime": 132,
-    "featured": true,
-    "date": "2026-05-05",
-    "path": "fr/Society/taiwan-eswatini-relations.md"
-  },
-  {
-    "title": "Taiwan and Eswatini: Africa's Last Diplomatic Lifeline Hanging on One Person",
-    "description": "On May 2, 2026, at 9:00 AM, Tsai Ing-wen arrived in Mbabane aboard an A340 aircraft borrowed from the King of Eswatini. This marks the first time a Taiwanese president's flight permit was revoked due to pressure from China, with the final solution being a plane dispatched by the King of the allied nation to pick up the president from Taipei. From the establishment of diplomatic relations on the same day as Eswatini's independence in 1968 to its status as the last ally in Africa, from an absolute monarch whose birth year coincides entirely with the history of diplomatic relations to the suppression of 46 lives in his own town in 2021, from Red Heart Guavas entering SUPERSPAR to China's zero-tariff policy for 53 countries specifically skipping Eswatini. The 58-year relationship between Taiwan and Eswatini is a concrete textbook of 'sovereign states' and an unsolvable question.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/Society/taiwan-eswatini-relations",
-    "readingTime": 132,
-    "featured": true,
-    "date": "2026-05-05",
-    "path": "ko/Society/taiwan-eswatini-relations.md"
-  },
-  {
-    "title": "Taiwan and Eswatini: Africa's Last Diplomatic Lifeline, Hanging on One Person",
-    "description": "On May 2, 2026, at 9:00 AM, Lai Ching-te landed in Mbabane aboard an A340 aircraft borrowed from the King of Eswatini. This marks the first time a Taiwanese president's flight permit was canceled due to pressure from China, with the final solution being a plane dispatched by the King of the allied nation to pick him up from Taipei. From the establishment of diplomatic relations on the same day as Eswatini's independence in 1968 to being the last ally in Africa, from an absolute monarch whose birth year coincides exactly with the history of diplomatic relations to the 46 lives suppressed by the country in 2021, from Red Heart Guavas entering SUPERSPAR to China's zero-tariff policy for 53 countries deliberately skipping Eswatini. The 58-year relationship between Taiwan and Eswatini is a concrete textbook of 'sovereign states' and an unsolvable question.",
+    "title": "Taiwan and Eswatini: Africa's Last Diplomatic Lifeline Hangs on One Person",
+    "description": "At 9 a.m. on May 2, 2026, Lai Ching-te landed in Mbabane aboard an A340 special aircraft loaned by the king of Eswatini. It was the first time a Taiwanese president's flight permits had been revoked under Chinese pressure, with the king of a diplomatic ally ultimately sending a plane to Taipei to receive him. From the establishment of diplomatic relations on the same day as Eswatini's independence in 1968 to Taiwan's last remaining ally in Africa; from an absolute monarch whose birth year completely overlaps with the history of those diplomatic ties to the 46 lives lost in his own country's 2021 crackdown; from red-fleshed guavas entering SUPERSPAR to China's zero-tariff treatment for 53 African countries deliberately skipping Eswatini. These 58 years of relations between Taiwan and Eswatini are the most concrete textbook on what it means to be a 'sovereign state' and also an unanswered question.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Society/taiwan-eswatini-relations",
     "readingTime": 133,
-    "featured": false,
+    "featured": true,
     "date": "2026-05-05",
     "path": "en/Society/taiwan-eswatini-relations.md"
-  },
-  {
-    "title": "Taiwan and Eswatini: Africa's Last Diplomatic Lifeline, Hanging on One Person",
-    "description": "On May 2, 2026, at 9:00 AM, Lai Ching-te landed in Mbabane aboard an A340 aircraft borrowed from the King of Eswatini. This marks the first time a Taiwanese President's flight was canceled due to Chinese pressure on flight permits, with the final solution being a plane dispatched by the King of a friendly nation to pick him up from Taipei. From the establishment of diplomatic relations on the same day as Eswatini's independence in 1968 to its status as the last ally in Africa, from an absolute monarch whose birth year coincides entirely with the history of diplomatic ties to the 46 lives lost in domestic suppression in 2021, from Red Heart Guavas entering SUPERSPAR to China's zero-tariff policy for 53 countries deliberately skipping Eswatini. The 58-year relationship between Taiwan and Eswatini is both the most concrete textbook of a 'sovereign state' and an unsolved question.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/Society/taiwan-eswatini-relations",
-    "readingTime": 134,
-    "featured": false,
-    "date": "2026-05-05",
-    "path": "es/Society/taiwan-eswatini-relations.md"
-  },
-  {
-    "title": "Taiwan and Eswatini: Africa's Last Diplomatic Lifeline, Hanging on One Person",
-    "description": "On the morning of May 2, 2026, at 9:00 AM, Lai Ching-te landed in Mbabane aboard an A340 aircraft borrowed from the King of Eswatini. This marks the first time a Taiwanese President's flight permit was revoked due to pressure from China, with the final solution being a diplomatic mission aircraft dispatched by the King of the allied nation to pick him up from Taipei. From the establishment of diplomatic relations on the same day as Eswatini's independence in 1968 to its status as the last remaining ally in Africa, from an absolute monarch whose birth year coincides entirely with the history of diplomatic ties to the 46 lives lost in domestic suppression in 2021, from Red Heart Guavas entering SUPERSPAR to China's zero-tariff policy for 53 countries specifically skipping Eswatini. The 58-year relationship between Taiwan and Eswatini is both the most concrete textbook of a 'sovereign state' and an unsolved question.",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Society/taiwan-eswatini-relations",
-    "readingTime": 132,
-    "featured": false,
-    "date": "2026-05-05",
-    "path": "ja/Society/taiwan-eswatini-relations.md"
   },
   {
     "title": "Taiwan and Lithuania: A Partnership Negotiating Between Democratic Values and Geopolitical Realities",
@@ -45720,7 +45663,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Economy/taiwan-enterprise-ase-semiconductor",
-    "readingTime": 39,
+    "readingTime": 40,
     "featured": false,
     "date": "2026-03-21",
     "path": "en/Economy/taiwan-enterprise-ase-semiconductor.md"
@@ -45816,6 +45759,17 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "en/Nature/taiwan-environmental-movement-history.md"
+  },
+  {
+    "title": "Taïwan et Eswatini : la dernière artère diplomatique africaine suspendue à une seule personne",
+    "description": "Le 2 mai 2026 à 9 heures du matin, Lai Ching-te a atterri à Mbabane à bord d'un Airbus A340 mis à disposition par le roi d'Eswatini. C'est la première fois qu'un président taïwanais, dont l'autorisation de survol avait été annulée sous la pression de la Chine, a été récupéré par un avion envoyé par le pays ami depuis Taipei. De l'établissement des relations diplomatiques le jour même de l'indépendance d'Eswatini en 1968 au dernier allié africain subsistant, d'un monarque absolu dont l'année de naissance coïncide exactement avec l'histoire des relations bilatérales à la répression de 46 vies humaines en 2021, de la goyave à cœur rouge dans les rayons de SUPERSPAR à l'exclusion délibérée d'Eswatini de la politique chinoise de droits nuls pour 53 pays africains. Ces 58 ans de relations entre Taïwan et Eswatini constituent le manuel le plus concret qui soit sur ce qu'est un « État souverain », et une question sans réponse.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Society/taiwan-eswatini-relations",
+    "readingTime": 147,
+    "featured": true,
+    "date": "2026-05-05",
+    "path": "fr/Society/taiwan-eswatini-relations.md"
   },
   {
     "title": "Taïwan et le Guide Michelin : le prix des étoiles et la redéfinition de la gastronomie",
@@ -46633,6 +46587,17 @@
     "path": "fr/History/taiwan-white-terror.md"
   },
   {
+    "title": "Taiwán y Eswatini: el último vínculo diplomático en África, pendiente de una sola persona",
+    "description": "El 2 de mayo de 2026 a las 9 de la mañana, Lai Ching-te aterrizó en Mbabane a bordo del avión privado A340 prestado por el rey de Eswatini. Fue la primera vez que un presidente taiwán vio revocado su permiso de sobrevuelo por presión de China, y que el monarca de un país aliado envió un avión desde Taipéi para recogerlo. Desde el establecimiento de relaciones diplomáticas el mismo día de la independencia de Eswatini en 1968 hasta convertirse en el último aliado africano, desde un monarca absoluto cuyo año de nacimiento coincide exactamente con la historia de la relación bilateral hasta la represión de 46 vidas en 2021, desde la guayaba de corazón rojo en SUPERSPAR hasta la exclusión deliberada de Eswatini de los aranceles cero para 53 países africanos por parte de China. Los 58 años de relaciones entre Taiwán y Eswatini son el manual más concreto sobre lo que significa \"Estado soberano\", y también una pregunta sin respuesta.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Society/taiwan-eswatini-relations",
+    "readingTime": 147,
+    "featured": true,
+    "date": "2026-05-05",
+    "path": "es/Society/taiwan-eswatini-relations.md"
+  },
+  {
     "title": "Taiwán y Lituania: una asociación negociada entre valores democráticos y realidades geopolíticas",
     "description": "Desde el hito del establecimiento de una oficina representativa en 2021 hasta la reflexión del nuevo gobierno lituano en 2026 sobre un \"error estratégico\", las relaciones entre Taiwán y Lituania están pasando de una cálida alianza basada en valores a una negociación pragmática de intereses. Surge una controversia sobre el cambio de nombre por la \"descoordinación entre el Ejecutivo y el Legislativo\" en Lituania, mientras que Taiwán, profundizando la cooperación en semiconductores y tecnología láser, intenta mantener esta emblemática amistad internacional entre la presión política y los compromisos económicos.",
     "category": "es",
@@ -46798,7 +46763,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Society/taiwan-animal-drug-controversy",
-    "readingTime": 163,
+    "readingTime": 164,
     "featured": false,
     "date": "2026-04-10",
     "path": "en/Society/taiwan-animal-drug-controversy.md"
@@ -46818,17 +46783,9 @@
     "title": "Taiwan’s Artificial Intelligence Development and Future Strategy: The Hardware Ticket Is in Hand. Where Is the Next Battle?",
     "description": "On October 8, 2024, the Nobel Prize in Physics went to Hopfield and Hinton; the next day, the Chemistry prize went to the three AlphaFold researchers. On May 29 of the same year, Jensen Huang ate oyster omelets with Morris Chang at Taipei’s Ningxia Night Market. Taiwan manufactures 90% of the world’s AI servers and 72% of advanced wafers, yet it was absent from the answers to the 42-year history of neural networks and the 50-year protein-folding problem. From PTT founder Ethan Tu’s Taiwan AI Labs to TAIDE, the traditional Chinese LLM model backed by the National Science and Technology Council, is it still enough for this island to be only a contract manufacturer?",
     "category": "en",
-    "tags": [
-      "Artificial Intelligence",
-      "AI",
-      "Semiconductors",
-      "Technology Policy",
-      "Digital Transformation",
-      "Nobel Prize",
-      "AlphaFold"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/Technology/artificial-intelligence-development-strategy",
-    "readingTime": 164,
+    "readingTime": 169,
     "featured": true,
     "date": "2026-03-19",
     "path": "en/Technology/artificial-intelligence-development-strategy.md"
@@ -46950,17 +46907,9 @@
     "title": "Taiwan's Defense and Military Modernization",
     "description": "In October 2025, Lai Ching-te presided over the commissioning of an M1A2T tank battalion in Hukou. In the same month, former Chief of the General Staff Li Hsi-ming smiled wryly, saying, 'If tanks can be asymmetric weapons, what isn't an asymmetric weapon?' This is the story of an island torn between two defense logics.",
     "category": "en",
-    "tags": [
-      "Defense",
-      "Military",
-      "Asymmetric Warfare",
-      "Porcupine Strategy",
-      "Drones",
-      "Military Service",
-      "Total Defense"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/Society/taiwan-defense-modernization",
-    "readingTime": 120,
+    "readingTime": 121,
     "featured": false,
     "date": "2026-04-10",
     "path": "en/Society/taiwan-defense-modernization.md"
@@ -46969,17 +46918,9 @@
     "title": "Taiwan's Defense and Military Modernization",
     "description": "In October 2025, Lai Ching-te presided over the commissioning of an M1A2T tank battalion in Hukou. In the same month, former Chief of the General Staff Li Hsi-ming smiled wryly and said, 'If tanks can be asymmetric weapons, what isn't an asymmetric weapon?' This is the story of an island pulling between two defense logics.",
     "category": "es",
-    "tags": [
-      "Defense",
-      "Military",
-      "Asymmetric Warfare",
-      "Porcupine Strategy",
-      "Drones",
-      "Military Service",
-      "Total Defense"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/Society/taiwan-defense-modernization",
-    "readingTime": 119,
+    "readingTime": 120,
     "featured": false,
     "date": "2026-04-10",
     "path": "es/Society/taiwan-defense-modernization.md"
@@ -47045,94 +46986,15 @@
     "path": "en/Art/taiwan-digital-animation-industry.md"
   },
   {
-    "title": "Taiwan's Diplomatic Allies and International Diplomacy: 12 Allies, 113 Missions, 177 Visa-Free Countries (2026)",
-    "description": "On January 15, 2024, within 48 hours of Lai Ching-te's election as President, Nauru announced the severance of diplomatic relations, reducing the number of allied nations from 13 to 12. However, in the same year, Taiwan had 113 overseas missions, its passport allowed travel to 177 countries, TSMC produced 90% of the world's advanced chips, and the European Parliament passed a resolution opposing China's distortion of UN General Assembly Resolution 2758 with a vote of 432:60:71. Paper recognition is shrinking, while the shadow network is expanding, and the battle over international law interpretation is reversing.",
+    "title": "Taiwan’s Diplomatic Allies and International Diplomacy: 12 Allies, 113 Overseas Offices, Visa-Free Access to 177 Countries (2026)",
+    "description": "On January 15, 2024, 48 hours after Lai Ching-te was elected president, Nauru announced the severance of diplomatic relations, reducing Taiwan’s diplomatic allies from 13 to 12. Yet that same year, Taiwan had 113 overseas offices, its passport provided access to 177 countries, TSMC produced 90% of the world’s advanced chips, and the European Parliament passed a resolution by 432:60:71 opposing China’s distortion of UN General Assembly Resolution 2758. Recognition on paper is shrinking, the shadow network is expanding, and the interpretive battle over international law is turning.",
     "category": "en",
-    "tags": [
-      "Diplomacy",
-      "Allied Nations",
-      "International Relations",
-      "Cross-Strait",
-      "United Nations",
-      "Silicon Shield"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/Society/taiwan-diplomatic-allies-and-international-relations",
-    "readingTime": 128,
-    "featured": false,
-    "date": "2026-04-29",
-    "path": "en/Society/taiwan-diplomatic-allies-and-international-relations.md"
-  },
-  {
-    "title": "Taiwan's Diplomatic Allies and International Diplomacy: 12 Allies, 113 Missions, 177 Visa-Free Countries (2026)",
-    "description": "On January 15, 2024, within 48 hours of Lai Ching-te's election as President, Nauru announced the severance of diplomatic relations, reducing the number of allied nations from 13 to 12. However, in the same year, Taiwan had 113 overseas missions, its passport allowed visa-free access to 177 countries, TSMC produced 90% of the world's advanced chips, and the European Parliament passed a resolution opposing China's distortion of UN General Assembly Resolution 2758 with a vote of 432:60:71. Paper-based recognition is shrinking while shadow networks are expanding, and the battle over the interpretation of international law is reversing.",
-    "category": "es",
-    "tags": [
-      "Diplomacy",
-      "Allied Nations",
-      "International Relations",
-      "Cross-Strait",
-      "United Nations",
-      "Silicon Shield"
-    ],
-    "url": "https://taiwan.md/es/Society/taiwan-diplomatic-allies-and-international-relations",
-    "readingTime": 128,
-    "featured": false,
-    "date": "2026-04-29",
-    "path": "es/Society/taiwan-diplomatic-allies-and-international-relations.md"
-  },
-  {
-    "title": "Taiwan's Diplomatic Allies and International Diplomacy: 12 Allies, 113 Missions, 177 Visa-Free Countries (2026)",
-    "description": "On January 15, 2024, within 48 hours of Lai Ching-te's election as President, Nauru announced the severance of diplomatic ties, reducing the number of allied nations from 13 to 12. However, in the same year, Taiwan established 113 overseas missions, its passport allows visa-free access to 177 countries, TSMC produces 90% of the world's advanced chips, and the European Parliament passed a resolution opposing China's distortion of UN General Assembly Resolution 2758 with a vote of 432:60:71. Paper recognition is shrinking, while the shadow network is expanding, and the battle over international law interpretation is reversing.",
-    "category": "ja",
-    "tags": [
-      "Diplomacy",
-      "Allied Nations",
-      "International Relations",
-      "Cross-Strait",
-      "United Nations",
-      "Silicon Shield"
-    ],
-    "url": "https://taiwan.md/ja/Society/taiwan-diplomatic-allies-and-international-relations",
-    "readingTime": 128,
-    "featured": false,
-    "date": "2026-04-29",
-    "path": "ja/Society/taiwan-diplomatic-allies-and-international-relations.md"
-  },
-  {
-    "title": "Taiwan's Diplomatic Allies and International Diplomacy: 12 Allies, 113 Missions, Visa-Free for 177 Countries (2026)",
-    "description": "On January 15, 2024, within 48 hours of Lai Ching-te's election as President, Nauru announced the severance of diplomatic ties, reducing the number of allies from 13 to 12. However, in the same year, Taiwan established 113 overseas missions, its passport allows access to 177 countries, TSMC produces 90% of the world's advanced chips, and the European Parliament passed a resolution opposing China's distortion of UN Resolution 2758 with a vote of 432:60:71. Paper recognition is shrinking, while the shadow network is expanding, and the battle over the interpretation of international law is reversing.",
-    "category": "ko",
-    "tags": [
-      "diplomacy",
-      "allies",
-      "international relations",
-      "cross-strait",
-      "UN",
-      "silicon shield"
-    ],
-    "url": "https://taiwan.md/ko/Society/taiwan-diplomatic-allies-and-international-relations",
-    "readingTime": 127,
-    "featured": false,
-    "date": "2026-04-29",
-    "path": "ko/Society/taiwan-diplomatic-allies-and-international-relations.md"
-  },
-  {
-    "title": "Taiwan's Diplomatic Allies and International Diplomacy: 12 Allies, 113 Missions, Visa-Free to 177 Countries (2026)",
-    "description": "On January 15, 2024, 48 hours after Lai Ching-te was elected President, Nauru announced the severance of diplomatic ties, reducing the number of allies from 13 to 12. However, in the same year, Taiwan had 113 overseas missions, its passport allowed travel to 177 countries, TSMC produced 90% of the world's advanced chips, and the European Parliament passed a resolution opposing China's distortion of UN General Assembly Resolution 2758 with a vote of 432:60:71. Paper recognition is shrinking, the shadow network is expanding, and the battle over international law interpretation is reversing.",
-    "category": "fr",
-    "tags": [
-      "Diplomacy",
-      "Diplomatic Allies",
-      "International Relations",
-      "Cross-Strait",
-      "United Nations",
-      "Silicon Shield"
-    ],
-    "url": "https://taiwan.md/fr/Society/taiwan-diplomatic-allies-and-international-relations",
-    "readingTime": 128,
-    "featured": false,
+    "readingTime": 136,
+    "featured": true,
     "date": "2026-04-28",
-    "path": "fr/Society/taiwan-diplomatic-allies-and-international-relations.md"
+    "path": "en/Society/taiwan-diplomatic-allies-and-international-relations.md"
   },
   {
     "title": "Taiwan's Drone Industry: From Taichung Toy Planes to the Blue List — One Ticket, Awarded to Thunder Tiger",
@@ -47616,17 +47478,9 @@
     "title": "Taiwan's National Defense and Military Modernization",
     "description": "In October 2025, Lai Ching-te presided over the commissioning of an M1A2T tank battalion in Hukou. In the same month, former Chief of the General Staff Li Hsi-ming smiled wryly, saying, 'If tanks can be asymmetric weapons, what is not an asymmetric weapon?' This is the story of an island torn between two national defense logics.",
     "category": "ja",
-    "tags": [
-      "National Defense",
-      "Military",
-      "Asymmetric Warfare",
-      "Porcupine Strategy",
-      "Drones",
-      "Military Service",
-      "Total Defense"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/Society/taiwan-defense-modernization",
-    "readingTime": 120,
+    "readingTime": 121,
     "featured": false,
     "date": "2026-04-10",
     "path": "ja/Society/taiwan-defense-modernization.md"
@@ -47757,7 +47611,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Society/taiwan-public-health-epidemic-response",
-    "readingTime": 44,
+    "readingTime": 45,
     "featured": false,
     "date": "2026-04-08",
     "path": "en/Society/taiwan-public-health-epidemic-response.md"
@@ -47939,20 +47793,9 @@
     "title": "Taiwan’s Stray Animal Culture: From Twelve Nights to the Death of a Leopard Cat, the Trolley Problem of Animal Protection and Wildlife Conservation",
     "description": "In 2013, Twelve Nights moved the entire island to tears; in February 2017, Taiwan became East Asia's first zero-culling country. Eight years later, at six o'clock on the evening of May 11, 2023, a young leopard cat died in the jaws of a free-ranging cat. The Ministry of Agriculture's 2022 survey counted 159,697 free-ranging dogs nationwide, and automatic cameras operated by the Leopard Cat Association of Taiwan found dogs at 91% of leopard cat activity sites. Animal protection and wildlife conservation are not opposites. The issue is that this island still has more than a million lives with no one to take responsibility for them. This article does not take sides; it examines a question Taiwan has not yet finished answering.",
     "category": "en",
-    "tags": [
-      "stray animals",
-      "animal protection",
-      "zero culling",
-      "TNR",
-      "Twelve Nights",
-      "leopard cat",
-      "free-ranging dogs",
-      "animal protection and wildlife conservation",
-      "shelters",
-      "adoption culture"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/Society/stray-animal-culture",
-    "readingTime": 177,
+    "readingTime": 182,
     "featured": true,
     "date": "2026-03-18",
     "path": "en/Society/stray-animal-culture.md"
@@ -48173,6 +48016,17 @@
     "featured": false,
     "date": "2026-03-23",
     "path": "en/Culture/taiwan-youtuber-industry.md"
+  },
+  {
+    "title": "Taiwan's Yuelao Map: Before Looking for a Partner, Choose the Temple First, Because This Island Hosts at Least Ten Yuelao with Different Specialties",
+    "description": "In Taiwan, praying for romantic affinity comes with a premise many people do not know: there is not just one Yuelao. Tainan's Four Great Yuelao divide the work among praying for a match, seeking stability, cutting off unwanted romances, and asking for reconciliation; Taichung's Lecheng Temple, an old temple founded in 1753, is known for effective reconciliation prayers; New Taipei's Weiming Temple and its Rabbit God specialize in same-sex relationships; and Xiahai, Longshan Temple, and Lukang Tianhou Temple each have their own strengths. Believers are told to write their “partner criteria” in as much detail as possible, because if they leave blanks, Yuelao will have loopholes to exploit.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Society/taiwan-yuelao-matchmaker-map",
+    "readingTime": 110,
+    "featured": false,
+    "date": "2026-05-25",
+    "path": "en/Society/taiwan-yuelao-matchmaker-map.md"
   },
   {
     "title": "Taiwan's Zoos: The Oldest Isn't in Muzha, and the Largest Is More Than Just a Zoo",
@@ -49611,22 +49465,11 @@
     "title": "The Semiconductor Industry: 50 Years of Materials Revolution from RCA Technology Transfer to Gallium Nitride and Quantum Packaging",
     "description": "Taiwan's sacred mountain protecting the nation dominates global advanced-process foundry work, but the next 50-year battlefield of materials science is only beginning to take shape: gallium nitride inside fast chargers, CoWoS beneath AI chips, and dilution refrigerators above qubits.",
     "category": "en",
-    "tags": [
-      "Semiconductors",
-      "TSMC",
-      "Taiwan Semiconductor Manufacturing Company",
-      "Gallium Nitride",
-      "3D Packaging",
-      "CoWoS",
-      "Quantum Computers",
-      "Advanced Process Nodes",
-      "Silicon Shield",
-      "Materials Science"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/taiwan-semiconductor-industry",
-    "readingTime": 170,
+    "readingTime": 174,
     "featured": true,
-    "date": "2026-03-17",
+    "date": "2026-05-25",
     "path": "en/taiwan-semiconductor-industry.md"
   },
   {
@@ -49646,7 +49489,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Society/sunflower-movement",
-    "readingTime": 72,
+    "readingTime": 73,
     "featured": true,
     "date": "2026-04-12",
     "path": "en/Society/sunflower-movement.md"
@@ -50045,23 +49888,6 @@
     "path": "es/Music/indigenous-music-traditions.md"
   },
   {
-    "title": "Traditions musicales autochtones de Taïwan",
-    "description": "Explorer la riche culture musicale des 16 groupes autochtones de Taïwan, des chants anciens aux instruments traditionnels, témoins d'une transmission culturelle millénaire",
-    "category": "fr",
-    "tags": [
-      "autochtones",
-      "musique traditionnelle",
-      "transmission culturelle",
-      "instruments",
-      "cérémonies rituelles"
-    ],
-    "url": "https://taiwan.md/fr/Music/indigenous-music-traditions",
-    "readingTime": 89,
-    "featured": true,
-    "date": "2026-03-18",
-    "path": "fr/Music/indigenous-music-traditions.md"
-  },
-  {
     "title": "Traditions musicales des peuples autochtones de Taïwan",
     "description": "Plongée dans la richesse musicale des 16 peuples autochtones de Taïwan : des chants ancestraux aux instruments traditionnels, un héritage culturel millénaire",
     "category": "fr",
@@ -50269,7 +50095,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/People/tsai-ing-wen",
-    "readingTime": 64,
+    "readingTime": 70,
     "featured": false,
     "date": "2026-03-17",
     "path": "fr/People/tsai-ing-wen.md"
@@ -50288,7 +50114,7 @@
       "原住民族"
     ],
     "url": "https://taiwan.md/en/People/tsai-ing-wen",
-    "readingTime": 58,
+    "readingTime": 64,
     "featured": false,
     "date": "2026-03-17",
     "path": "en/People/tsai-ing-wen.md"
@@ -50299,7 +50125,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/People/tsai-ing-wen",
-    "readingTime": 64,
+    "readingTime": 65,
     "featured": false,
     "date": "2026-03-17",
     "path": "es/People/tsai-ing-wen.md"
@@ -50547,31 +50373,31 @@
   },
   {
     "title": "Un siècle d'aquarelle taïwanaise : de Kinichirō Ishikawa à Jian Zhongwei, un héritage séculaire",
-    "description": "En 1907, Kinichirō Ishikawa arrive à Taïwan comme enseignant et plante la racine d'un siècle d'aquarelle. Son élève Lan Yin Ding entre à la Royal Watercolour Society de Londres en 1929 ; en 1934, des peintres locaux fondent l'Association artistique Taiyang. Après la guerre, Ma Baishui fusionne l'encre de Chine et l'aquarelle, Xi Dejin documente l'architecture traditionnelle taïwanaise. Dans les années 1990, trois associations coexistent et se connectent au réseau international IWS. Aujourd'hui, Jian Zhongwei se distingue comme membre doublement affilié à l'AWS et à la NWS. Ce parcours séculaire, de l'éducation coloniale normale aux compétitions internationales, relie la tradition du dessin sur le vif, le système normalien et la communauté mondiale de l'aquarelle ; la vitalité de l'aquarelle taïwanaise naît précisément de la tension entre accumulation parallèle des sphères officielle et indépendante, locale et étrangère, traditionnelle et compétitive.",
+    "description": "En 1907, Kinichirō Ishikawa arrive à Taïwan pour y enseigner, plantant la racine d'un siècle d'aquarelle sur l'île. Son élève Lan Yin Ding intègre la Royal Watercolour Society britannique en 1929 ; en 1934, des peintres locaux fondent de leur propre initiative l'Association artistique Taiyang. Après la guerre, Ma Baishui fusionne l'encre de Chine et l'aquarelle, tandis que Xi Dejin immortalise l'architecture traditionnelle taïwanaise. Dans les années 1990, trois associations coexistent et se connectent au réseau international IWS. Aujourd'hui, Jian Zhongwei s'illustre sur la scène internationale en tant que membre signataire à la fois de l'AWS et de la NWS. Ce parcours séculaire, de l'éducation coloniale normée aux compétitions internationales, relie la tradition du *plein air*, le système d'écoles normales et la communauté mondiale de l'aquarelle. La vitalité de l'aquarelle taïwanaise naît précisément de la tension entre institutions officielles et initiatives indigènes, entre racines locales et influences extérieures, entre tradition et compétition.",
     "category": "fr",
-    "tags": [
-      "Art",
-      "watercolor",
-      "painting",
-      "aquarelle",
-      "histoire de lart"
-    ],
-    "url": "https://taiwan.md/fr/Art/century-of-taiwanese-watercolor-painting",
-    "readingTime": 49,
-    "featured": false,
-    "date": "2026-03-19",
-    "path": "fr/Art/century-of-taiwanese-watercolor-painting.md"
-  },
-  {
-    "title": "Un siglo de acuarela taiwanesa: de Ishikawa Kinichiro a Jian Zhongwei",
-    "description": "En 1907, Ishikawa Kinichiro llegó a Taiwán como profesor y sembró la raíz de un siglo de acuarela en la isla. Su alumno Lan Yinding ingresó en la Royal Watercolour Society del Reino Unido en 1929; en 1934, los pintores locales fundaron de manera autónoma la Asociación Artística Taiyang. Tras la guerra, Ma Baishui fusionó la tinta china con la acuarela y Xi Dejin documentó la arquitectura tradicional taiwanesa. En la década de 1990, tres grandes asociaciones coexistieron y se conectaron con la red internacional IWS. Hoy, Jian Zhongwei brilla en el ámbito internacional como miembro con doble firma de la AWS y la NWS. Este camino de un siglo, desde la educación colonial normalista hasta los escenarios de competición internacional, entrelaza la tradición del *plein air*, el sistema normalista y la comunidad global de acuarela; la vitalidad de la acuarela taiwanesa reside precisamente en la tensión acumulada entre lo oficial y lo independiente, lo local y lo foráneo, la tradición y la competición.",
-    "category": "es",
     "tags": [
       "Art",
       "watercolor",
       "painting",
       "水彩",
       "美術史"
+    ],
+    "url": "https://taiwan.md/fr/Art/century-of-taiwanese-watercolor-painting",
+    "readingTime": 48,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "fr/Art/century-of-taiwanese-watercolor-painting.md"
+  },
+  {
+    "title": "Un siglo de acuarela taiwanesa: de Ishikawa Kinichiro a Jian Zhongwei",
+    "description": "En 1907, Ishikawa Kinichiro llegó a Taiwán como profesor y sembró la raíz de un siglo de acuarela en la isla. Su alumno Lan Yinding ingresó en la Royal Watercolour Society de Gran Bretaña en 1929; en 1934, los pintores locales fundaron de forma autónoma la Asociación Artística Taiyang. Tras la guerra, Ma Baishui fusionó la tinta china con la acuarela y Xi Dejin documentó la arquitectura tradicional taiwanesa. En la década de 1990, tres grandes asociaciones coexistían y se conectaban con la red internacional IWS. Hoy, Jian Zhongwei se ha ganado reconocimiento internacional como miembro con doble firma de la AWS y la NWS. Este camino de un siglo, desde la educación normal colonial hasta los escenarios de competición internacional, entrelaza la tradición del *plein air*, el sistema de escuelas normales y la comunidad global de acuarela; la vitalidad de la acuarela taiwanesa reside precisamente en la tensión acumulada entre lo oficial y lo independiente, lo local y lo foráneo, la tradición y la competición.",
+    "category": "es",
+    "tags": [
+      "Art",
+      "watercolor",
+      "painting",
+      "acuarela",
+      "historia del arte"
     ],
     "url": "https://taiwan.md/es/Art/century-of-taiwanese-watercolor-painting",
     "readingTime": 47,
@@ -50848,17 +50674,6 @@
     "featured": false,
     "date": "2026-05-18",
     "path": "fr/Geography/kaohsiung-city.md"
-  },
-  {
-    "title": "Ville de Taichung : en 1887, elle faillit devenir capitale ; en 2010 seulement, elle devint la deuxième plus grande municipalité spéciale",
-    "description": "En 1887, Liu Mingchuan demanda par mémoire la création de la province de Taïwan ; la capitale provinciale fut choisie à Qiaozitou, dans le comté de Changhua (aujourd’hui le centre de Taichung), avec un plan de ville en forme de bagua. La construction des remparts commença en 1889. Après l’entrée en fonction de Shao Youlian en 1894, la capitale provinciale fut déplacée au nord, à Taipei, et les travaux de la capitale provinciale de Taichung furent interrompus. Le 1er octobre 1920, les Japonais établirent ici la préfecture de Taichung. En 1955, l’université Tunghai posa la première pierre sur le mont Dadu ; en 1963, la chapelle Luce fut achevée. À l’aube du 21 septembre 1999, la faille de Chelungpu déchira le sol depuis Jiji, dans le Nantou, jusqu’à Dongshi, à Taichung ; 358 personnes moururent dans le canton de Dongshi. Le 25 décembre 2010, la ville et le comté fusionnèrent et furent élevés au rang de municipalité spéciale, avec 29 districts. En 2016, l’Opéra national conçu par Toyo Ito ouvrit à Xitun. 2,86 millions de personnes vivent dans cette ville qui a attendu 123 ans.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Geography/taichung-city",
-    "readingTime": 273,
-    "featured": false,
-    "date": "2026-05-18",
-    "path": "fr/Geography/taichung-city.md"
   },
   {
     "title": "Vino Shaoxing de Puli: el 'licor nacional taiwanés' que un régimen en el exilio inventó en 1952",
@@ -51864,23 +51679,23 @@
     "path": "en/People/xiao-qing-yang-grammy-designer.md"
   },
   {
-    "title": "Ximending : le quartier de loisirs bâti par les Japonais en 1896 reste, 130 ans plus tard, la rue la plus jeune de Taipei",
-    "description": "En décembre 1908, le marché de la Maison rouge de Ximen, conçu par Kondō Jūrō, ouvre ses portes : deux bâtiments de marché en brique, un pavillon octogonal et un bâtiment cruciforme, offrent à Taipei l’« Asakusa » de l’Empire japonais. Trente ans plus tard, les Japonais sont partis ; en 1961, les huit bâtiments du marché Zhonghua surgissent le long de la ligne ferroviaire longitudinale, avant d’être démolis avec elle en 1992. En 1999, la zone piétonne est délimitée, la ligne Bannan entre en service, et Ximending devient le salon à ciel ouvert des adolescents de Taipei. De l’extérieur des murailles sous les Qing, au quartier de loisirs de l’époque japonaise, à la rue du cinéma de l’après-guerre, aux MTV sous la loi martiale, au hip-hop et au skateboard après la levée de la loi martiale, jusqu’au cosplay et aux bars LGBT de 2026 — sous le même pavillon octogonal, cinq générations de jeunes se sont déjà succédé.",
+    "title": "Ximending : le quartier de divertissement aménagé par les Japonais en 1896 reste, 130 ans plus tard, le plus jeune de Taipei",
+    "description": "En décembre 1908, le théâtre de la Maison rouge de Ximen, conçu par Jūrō Kondō, ouvrit comme marché : deux bâtiments de brique, une salle octogonale et un édifice en croix, devaient donner à Taipei son « Asakusa » impérial japonais. Trente ans plus tard, les Japonais partirent ; en 1961, les huit blocs du Marché Zhonghua poussèrent le long de la ligne ferroviaire longitudinale, puis furent démolis avec les rails en 1992. En 1999, la zone piétonne fut délimitée, la ligne Bannan du métro entra en service, et Ximending devint le salon à ciel ouvert des adolescents de Taipei. De l'extérieur de la ville sous les Qing au quartier de divertissement de l'époque japonaise, de la rue du cinéma d'après-guerre aux MTV de la période de loi martiale, du hip-hop et du skateboard après la levée de la loi martiale au cosplay et aux bars LGBTQ de 2026, cinq générations de jeunes se sont déjà succédé sous la même salle octogonale.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Geography/ximending",
-    "readingTime": 226,
+    "readingTime": 223,
     "featured": false,
     "date": "2026-05-21",
     "path": "fr/Geography/ximending.md"
   },
   {
-    "title": "Ximending: la calle de entretenimiento que los japoneses construyeron en 1896 sigue siendo, 130 años después, la calle más joven de Taipéi",
-    "description": "En diciembre de 1908 abrió el Red House de Ximen, diseñado por Kondō Jūrō: un mercado de ladrillo formado por el Salón Octogonal y el Edificio en Cruz, el «Asakusa» que el Imperio japonés regaló a Taipéi. Treinta años después los japoneses se fueron; en 1961 los ocho bloques del Centro Comercial Zhonghua crecieron siguiendo la línea ferroviaria longitudinal, y en 1992 fueron demolidos junto con las vías. En 1999 se delimitó la zona peatonal, entró en servicio la línea Bannan y Ximending se convirtió en la sala de estar al aire libre de los adolescentes de Taipéi. Desde las afueras de la ciudad amurallada bajo los Qing, la zona de entretenimiento del periodo japonés, la calle de cines de posguerra, los MTV durante la ley marcial, el hip hop y el skate tras la democratización, hasta el cosplay y los bares LGBTQ de 2026: bajo el mismo Salón Octogonal ya han pasado cinco generaciones de jóvenes.",
+    "title": "Ximending: la calle de entretenimiento que los japoneses construyeron en 1896 y que, 130 años después, sigue siendo la calle más joven de Taipéi",
+    "description": "En diciembre de 1908 abrió sus puertas la Casa Roja de Ximen, diseñada por Juro Kondo: dos mercados de ladrillo, el Salón Octagonal y el Edificio en Cruz, que fueron el “Asakusa” que el Imperio japonés le entregó a Taipéi. Treinta años después los japoneses se marcharon; en 1961, los ocho edificios de la Galería Comercial Zhonghua crecieron siguiendo el ferrocarril longitudinal, y en 1992 fueron demolidos junto con las vías. En 1999 se delimitó la zona peatonal, se inauguró la línea Bannan y Ximending se convirtió en la sala de estar al aire libre de los adolescentes de Taipéi. Desde las afueras de la ciudad amurallada bajo la dinastía Qing, el distrito de entretenimiento del periodo japonés, la calle del cine de posguerra, los MTV durante la ley marcial, el hip hop y el skate tras el levantamiento de la ley marcial, hasta el cosplay y los bares gay de 2026: bajo el mismo Salón Octagonal ya han pasado cinco generaciones de jóvenes.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Geography/ximending",
-    "readingTime": 221,
+    "readingTime": 229,
     "featured": false,
     "date": "2026-05-21",
     "path": "es/Geography/ximending.md"
@@ -52002,19 +51817,12 @@
     "path": "es/People/yang-chuan-kwang-asian-iron-man.md"
   },
   {
-    "title": "Yang Chuan-kwang: Taitung Tribe, Rome Silver Medal, and the 9,121-Point World Record of the Asian Iron Man",
-    "description": "Born on July 10, 1933, in the Malan Amis tribe of Taitung, Yang Chuan-kwang was Taiwan''s first Olympic medalist. At the 1960 Rome Olympics, he won silver in the decathlon with 8,334 points. In 1963, he shattered the world record with 9,121 points and cleared 4.83 m in the pole vault, forcing the International Association of Athletics Federations (IAAF) to revise its scoring tables. He died of a stroke in California, USA, on January 27, 2007, at the age of 73. In April 2025, the Ministry of Culture designated him a national treasure.",
+    "title": "Yang Chuan-kwang: Taitung Tribal Community, Rome Silver Medal, and the Asian Iron Man Who Forced the IAAF to Rewrite Its Rules",
+    "description": "Born July 10, 1933, in the Malan Amis tribal community of Taitung, Yang Chuan-kwang was Taiwan's first Olympic medalist. He won silver in the decathlon at the 1960 Rome Olympics with 8,334 points. In 1963 he broke the world record with 9,121 points, and his pole vault of 4.83 meters forced the International Amateur Athletic Federation (IAAF) to revise its scoring standards. He died of a stroke in California, United States, on January 27, 2007, at age 73. In April 2025, he was designated a national treasure by the Ministry of Culture.",
     "category": "en",
-    "tags": [
-      "體育",
-      "田徑",
-      "奧運",
-      "十項全能",
-      "原住民",
-      "阿美族"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/People/yang-chuan-kwang-asian-iron-man",
-    "readingTime": 55,
+    "readingTime": 58,
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/yang-chuan-kwang-asian-iron-man.md"
@@ -53753,7 +53561,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Geography/dadaocheng",
-    "readingTime": 85,
+    "readingTime": 86,
     "featured": false,
     "date": "2026-05-21",
     "path": "ko/Geography/dadaocheng.md"
@@ -55347,21 +55155,21 @@
     "path": "ko/Society/indigenous-land-justice-and-traditional-territories.md"
   },
   {
+    "title": "대만 월하노인 지도: 짝을 찾기 전에 먼저 사원을 고르는 섬, 이곳에는 적어도 열 명의 역할이 다른 월하노인이 있다",
+    "description": "대만에서 인연을 비는 데에는 많은 사람이 모르는 전제가 있다. 월하노인은 한 명만 있는 것이 아니다. 타이난 4대 월하노인은 인연 구하기, 안정된 관계 구하기, 도화 끊기, 재결합 구하기를 나누어 맡고, 타이중 러청궁의 1753년 고묘는 재결합에 영험하기로 유명하며, 신베이 웨이밍탕의 토아신은 성소수자 인연을 전담한다. 샤하이, 룽산사, 루강 톈허우궁도 각자 전문 분야가 있다. 신도들은 “배우자 조건”을 되도록 상세히 쓰라고 배운다. 빈칸을 남기면 월하노인이 파고들 틈이 생기기 때문이다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Society/taiwan-yuelao-matchmaker-map",
+    "readingTime": 49,
+    "featured": false,
+    "date": "2026-05-25",
+    "path": "ko/Society/taiwan-yuelao-matchmaker-map.md"
+  },
+  {
     "title": "대만 유랑동물 문화: 《십이야》에서 삵의 죽음까지, 동물보호와 야생동물보전의 트롤리 딜레마",
     "description": "2013년 《십이야》는 섬 전체를 울렸고, 2017년 2월 대만은 동아시아 최초의 무살처분 국가가 되었다. 8년 뒤인 2023년 5월 11일 저녁 6시, 어린 삵 한 마리가 배회 고양이의 입에 물려 죽었다. 농업부의 2022년 조사에 따르면 전국 배회견은 15만 9,697마리였고, 대만삵보전협회의 자동카메라 조사에서는 삵 활동 지점의 91%에서 개가 확인되었다. 동물보호와 야생동물보전은 대립이 아니다. 이 섬에는 아직 누구도 받아 안지 못한 생명이 백만 마리 넘게 남아 있다. 이 글은 어느 한쪽 편에 서지 않고, 아직 답하지 못한 문제를 말한다.",
     "category": "ko",
-    "tags": [
-      "유랑동물",
-      "동물보호",
-      "무살처분",
-      "TNR",
-      "십이야",
-      "삵",
-      "배회견",
-      "동물보호와 야생동물보전",
-      "보호소",
-      "입양 문화"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/Society/stray-animal-culture",
     "readingTime": 83,
     "featured": true,
@@ -55418,17 +55226,9 @@
     "title": "대만 인공지능 발전과 미래 전략: 하드웨어 입장권은 얻었다, 다음 전장은 어디인가",
     "description": "2024년 10월 8일 노벨 물리학상은 Hopfield와 Hinton에게, 다음 날 화학상은 AlphaFold의 세 연구자에게 수여되었다. 같은 해 5월 29일, 젠슨 황은 타이베이 닝샤 야시장, 즉 night market에서 모리스 창과 굴전인 어아젠을 먹었다. 대만은 전 세계 AI 서버의 90%, 첨단 웨이퍼의 72%를 제조하지만, 42년 신경망 역사와 50년 단백질 접힘 난제의 해답 속에서는 부재했다. PTT 창립자 두이진의 Taiwan AI Labs부터 국가과학기술위원회가 베팅한 번체중문 LLM 모델 TAIDE까지, 이 섬은 계속 대리생산 공장으로만 남아도 충분한가?",
     "category": "ko",
-    "tags": [
-      "인공지능",
-      "AI",
-      "반도체",
-      "과학기술 정책",
-      "디지털 전환",
-      "노벨상",
-      "AlphaFold"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/Technology/artificial-intelligence-development-strategy",
-    "readingTime": 90,
+    "readingTime": 94,
     "featured": true,
     "date": "2026-03-19",
     "path": "ko/Technology/artificial-intelligence-development-strategy.md"
@@ -56116,6 +55916,17 @@
     "path": "ko/Society/taiwan-lithuania.md"
   },
   {
+    "title": "대만과 에스와티니: 아프리카의 마지막 외교 생명선은 한 사람에게 걸려 있다",
+    "description": "2026년 5월 2일 오전 9시, 라이칭더는 에스와티니 국왕이 빌려준 A340 전용기를 타고 음바바네에 착륙했다. 대만 총통이 비행 허가를 중국의 압박으로 취소당한 뒤, 결국 수교국 국왕이 타이베이로 항공기를 보내 영접한 것은 이번이 처음이었다. 1968년 에스와티니가 독립한 바로 그날 중화민국과 수교한 때부터 아프리카에 남은 마지막 우방이 된 지금까지, 수교의 역사와 출생 연도가 완전히 겹치는 절대군주에서 2021년 자국민 46명의 목숨을 앗아간 진압까지, 붉은 속살 구아바가 SUPERSPAR에 진입한 일에서 중국이 53개국 무관세 조치에서 에스와티니만 의도적으로 제외한 일까지. 대만과 에스와티니의 58년 관계는 ‘주권국가’가 무엇인지 보여주는 가장 구체적인 교과서이자, 답이 없는 하나의 질문이다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Society/taiwan-eswatini-relations",
+    "readingTime": 67,
+    "featured": true,
+    "date": "2026-05-05",
+    "path": "ko/Society/taiwan-eswatini-relations.md"
+  },
+  {
     "title": "대만설탕: 74% 외환을 떠받치던 단맛 제국에서 2025년 사상 최대 이익을 기록한 「본업과 거리가 먼」대지주로",
     "description": "2025년 대만설탕의 세후 순이익이 74억 위안으로 사상 최고치를 기록했지만, 이 백년 기업은 이미 오래전부터 설탕 판매로 수익을 내지 않습니다. 일제 강점기의 식민 지주에서 전후 경제의 대동맥으로, 대만설탕이 어떻게 설탕 사업에서 벗어나 난초, 생명공학, 순환 건축 분야에서 「단맛」을 재정의했는지 살펴봅니다.",
     "category": "ko",
@@ -56491,6 +56302,24 @@
     "featured": false,
     "date": "2026-03-31",
     "path": "ko/Society/taiwan-provincial-tensions.md"
+  },
+  {
+    "title": "대만의 수교국과 국제 외교: 12개 수교국, 113개 재외 공관, 177개국 무비자(2026)",
+    "description": "2024년 1월 15일, 라이칭더가 총통에 당선된 지 48시간 만에 나우루가 단교를 발표하면서 수교국은 13개국에서 12개국으로 줄었다. 그러나 같은 해 대만은 113개의 재외 공관을 두었고, 여권으로 177개 국가에 갈 수 있었으며, TSMC는 전 세계 첨단 칩의 90%를 생산했고, 유럽의회는 432:60:71로 중국의 유엔 총회 결의 제2758호 왜곡에 반대하는 결의를 통과시켰다. 종이 위의 승인은 줄어들고, 그림자 네트워크는 확장되며, 국제법 해석전은 뒤집히고 있다.",
+    "category": "ko",
+    "tags": [
+      "외교",
+      "수교국",
+      "국제 관계",
+      "양안",
+      "유엔",
+      "실리콘 방패"
+    ],
+    "url": "https://taiwan.md/ko/Society/taiwan-diplomatic-allies-and-international-relations",
+    "readingTime": 65,
+    "featured": true,
+    "date": "2026-04-28",
+    "path": "ko/Society/taiwan-diplomatic-allies-and-international-relations.md"
   },
   {
     "title": "대만의 순환경제와 자원 재이용",
@@ -57195,12 +57024,12 @@
     "path": "ko/People/liao-hung-chi-ocean-writer.md"
   },
   {
-    "title": "레이아크 게임즈: 음악 제국의 균열",
-    "description": "2012년, 여섯 명의 대만인이 3천만 모바일 음악 게임 《Cytus》를 만들었다. 출시 한 달 만에 14개국 차트 1위에 올랐다. 10년 후, 그들은 Deemo, Implosion, Sdorica를 갖게 되었고, 동시에 출시 지연, 논란, 그리고 PTT의 한 질문도 갖게 되었다: \"레이아크 게임즈는 왜 조용히 이 시장에서 사라졌나?\"",
+    "title": "레이아크 게임즈: 미학으로 세운 음악 제국과 그 14년의 균열",
+    "description": "2012년 타이완대 전기정보학원 출신 젊은이 여섯 명은 3,000만 달러를 모아 《Cytus》를 만들었고, 한 달 만에 14개국 순위 1위에 올랐다. 14년 뒤 그들에게는 Deemo 애니메이션, 11년째 미납품 상태인 Implosion 애니메이션, 2026년 2월 유지보수 모드에 들어간 Sdorica, 그리고 2020년 ICE 모스 부호 사건 뒤 직원을 분리해 중국 시장을 지키기로 한 선택이 남았다. 미학은 레이아크를 세계에 보이게 했고, 동시에 음악이 아닌 모든 영역에서 넘어지게 했다.",
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Technology/rayark-games",
-    "readingTime": 20,
+    "readingTime": 80,
     "featured": false,
     "date": "2026-04-25",
     "path": "ko/Technology/rayark-games.md"
@@ -57702,7 +57531,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Geography/bangka",
-    "readingTime": 89,
+    "readingTime": 90,
     "featured": false,
     "date": "2026-05-21",
     "path": "ko/Geography/bangka.md"
@@ -58020,22 +57849,11 @@
     "title": "반도체 산업: RCA 기술이전에서 질화갈륨과 양자 패키징까지, 50년의 소재 혁명",
     "description": "대만의 호국신산은 파운드리로 세계 첨단 공정을 지배하지만, 고속 충전기 속 질화갈륨, AI 칩 아래의 CoWoS, 큐비트 위의 희석냉동기까지, 다음 50년의 재료과학 전장은 이제 막 펼쳐지고 있다.",
     "category": "ko",
-    "tags": [
-      "반도체",
-      "TSMC",
-      "타이완 반도체 제조회사",
-      "질화갈륨",
-      "3D 패키징",
-      "CoWoS",
-      "양자컴퓨터",
-      "첨단 공정",
-      "실리콘 방패",
-      "재료과학"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/Technology/semiconductor-industry",
     "readingTime": 86,
     "featured": true,
-    "date": "2026-03-17",
+    "date": "2026-05-25",
     "path": "ko/Technology/semiconductor-industry.md"
   },
   {
@@ -60304,9 +60122,9 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Art/chiang-hsien-yi",
-    "readingTime": 69,
+    "readingTime": 70,
     "featured": true,
-    "date": "2026-05-22",
+    "date": "2026-05-25",
     "path": "ko/Art/chiang-hsien-yi.md"
   },
   {
@@ -60524,18 +60342,9 @@
     "title": "재생의료 이중법 × mRNA 30년: 두 종류의 구명 약물은 어떻게 국가 관리로 편입되었나",
     "description": "2023년 Karikó와 Weissman이 노벨상을 받은 날은, 그녀가 펜실베이니아대학교에서 강등된 지 꼭 28년이 되는 때였다. 2021년 9월 2일 BNT 첫 물량 93만 회분이 타오위안공항에 도착한 순간은, 그녀가 1997년 복사기 앞에서 Weissman과 마주친 지 이미 24년이 지난 때였다. 이 글은 「2024년 재생의료 이중법」과 「mRNA 30년의 고초」라는 두 축을 나란히 놓고, 헝가리 이민 여성 과학자의 곰 인형에서 타오위안 과학단지의 클린룸까지, 국가가 완전히 다른 두 종류의 구명 약물, 곧 세포와 분자를 어떻게 관리 체계 안으로 편입하는지 살펴본다.",
     "category": "ko",
-    "tags": [
-      "재생의료 이중법",
-      "세포 제조",
-      "mRNA 백신",
-      "COVID-19",
-      "Karikó",
-      "BNT",
-      "의료 인권",
-      "GMP"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/Society/taiwan-regenerative-medicine-laws",
-    "readingTime": 89,
+    "readingTime": 93,
     "featured": true,
     "date": "2026-05-19",
     "path": "ko/Society/taiwan-regenerative-medicine-laws.md"
@@ -60761,6 +60570,26 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "ko/People/cheng-chao-tsun-javelin-asian-king.md"
+  },
+  {
+    "title": "정처우위: 〈오류〉를 쓴 방랑자, 끝내 진먼에 적을 두다",
+    "description": "1955년, 22세의 정처우위는 《몽토상》에 “내 다다거리는 말발굽 소리는 아름다운 오류”라고 썼고, 타이완 독자들은 그것을 70년 동안 연시로 읽었다. 그러나 그는 만년에 이것이 반전시이며, 항일전쟁 시기 어머니가 내지에서 아버지의 귀환을 기다려도 끝내 기다리지 못했던 장면을 쓴 것이라고 밝혔다. 2005년 그는 예일에서 은퇴해 타이완으로 돌아왔고, 호적을 진먼현 정씨 일가의 호내로 옮겼다. 2025년 6월 13일 새벽 4시 44분, 그는 미국에서 심부전으로 세상을 떠났다. 향년 91세.",
+    "category": "ko",
+    "tags": [
+      "문학",
+      "시인",
+      "현대시",
+      "전후 1세대",
+      "현대파",
+      "진먼",
+      "예일",
+      "지셴"
+    ],
+    "url": "https://taiwan.md/ko/People/cheng-chou-yu-poet",
+    "readingTime": 53,
+    "featured": true,
+    "date": "2026-05-24",
+    "path": "ko/People/cheng-chou-yu-poet.md"
   },
   {
     "title": "제리 양: 영어 단어 하나만 아는 소년에서 글로벌 포털 시대를 연 \"야후\"의 아버지로",
@@ -61340,7 +61169,7 @@
       "원주민"
     ],
     "url": "https://taiwan.md/ko/People/tsai-ing-wen",
-    "readingTime": 28,
+    "readingTime": 31,
     "featured": false,
     "date": "2026-03-17",
     "path": "ko/People/tsai-ing-wen.md"
@@ -62339,7 +62168,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Society/taiwan-environmental-justice-nimby-conflicts",
-    "readingTime": 39,
+    "readingTime": 40,
     "featured": false,
     "date": "2026-03-20",
     "path": "ko/Society/taiwan-environmental-justice-nimby-conflicts.md"
@@ -62905,7 +62734,7 @@
       "2024"
     ],
     "url": "https://taiwan.md/ko/People/han-kuo-yu",
-    "readingTime": 35,
+    "readingTime": 36,
     "featured": true,
     "date": "2026-04-11",
     "path": "ko/People/han-kuo-yu.md"
@@ -63872,12 +63701,12 @@
     "path": "ja/People/henry-lee-forensic.md"
   },
   {
-    "title": "レイアーク：音楽帝国の亀裂",
-    "description": "2012年、台湾人6人が3000万円を出し合ってスマートフォン向け音楽ゲーム『Cytus』を開発し、リリース1か月で14か国ランキング1位を獲得した。10年後、彼らはDeemo、Implosion、Sdoricaを持つと同時に、延期、論争、そしてPTT上のひとつの問いも手にした。「レイアークはなぜひっそりとこの市場から消えてしまったのか？」",
+    "title": "レイアーク・ゲームズ：美学によって立国した音楽帝国と、その十四年の亀裂",
+    "description": "2012 年、台湾大学電機資訊学院の若者 6 人が 3,000 万元を集めて《Cytus》を作り、1 か月で 14 か国のランキング 1 位に上りました。十四年後、彼らには Deemo のアニメ、十一年未納品の聚爆アニメ、2026 年 2 月にメンテナンスモードへ入った Sdorica、そして 2020 年の ICE モールス符号事件後に従業員を切り離して中国市場を守る選択がありました。美学はレイアークを世界に見せましたが、音楽以外のあらゆる領域でつまずかせもしました。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Technology/rayark-games",
-    "readingTime": 18,
+    "readingTime": 76,
     "featured": false,
     "date": "2026-04-25",
     "path": "ja/Technology/rayark-games.md"

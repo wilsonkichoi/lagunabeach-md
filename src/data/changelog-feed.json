@@ -1,7 +1,205 @@
 {
-  "generatedAt": "2026-05-25T15:09:52.525Z",
+  "generatedAt": "2026-05-26T15:09:01.619Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "d833199c8e7ba17491e7a7ee92f0288364c87796",
+      "date": "2026-05-26T23:07:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: B1 ReaderDoors — 4 reader-intent doors after Hero (homepage evolution wave 1)"
+    },
+    {
+      "hash": "95001c0d703080035947a988904b44c088983436",
+      "date": "2026-05-26T23:03:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: ARTICLE-INBOX append P0 國家太空中心 TASA NEW"
+    },
+    {
+      "hash": "5500c92fce86cf718c05d82fb5099b6fc8ff2333",
+      "date": "2026-05-26T22:58:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: reports/homepage-evolution-2026-05-26 — 首頁進化策略 report (3-axis × 9 提案 / GA4 19s→75.9s 驗證 / First Wave B1+A1+C1 推薦)"
+    },
+    {
+      "hash": "d0d856988390e95fac3f7ff212d6a05e34c79f97",
+      "date": "2026-05-26T22:41:13+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 尹衍樑 — 換掉柯文哲合照 + 加 3 inline 圖 (3→5 圖 / 達賢圖書館 + 個人肖像 + 潤泰中崙)"
+    },
+    {
+      "hash": "4c5b059e9ca9cce107fa7b7f1f69c9866d3f987d",
+      "date": "2026-05-26T22:07:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-pm: empty PR cycle vc=6 + #851 D+3.3 carry-over (AM handoff preserved) + rayark report leave-untracked per §Bias 4 — 2026-05-26 22:04"
+    },
+    {
+      "hash": "1e180a59156308d5031ecaa3b798d924db76131e",
+      "date": "2026-05-26T21:59:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 尹衍樑 NEW — 辭世當日紀念文 + sovereignty 透鏡 (4606 CJK / 40 footnote / 3 圖 / 7 H2)"
+    },
+    {
+      "hash": "12ae489c4b23c50af38e68a56af30431d8fdc145",
+      "date": "2026-05-26T21:36:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 尹衍樑 Stage 0+1 — 觀點成型 + 41 searches research report"
+    },
+    {
+      "hash": "68b22140c04e20d2f581776be640c0ceda6f0531",
+      "date": "2026-05-26T20:30:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: deploy.yml — replace chetan/git-restore-mtime-action with apt-installed git-restore-mtime"
+    },
+    {
+      "hash": "6d838b68e5a2b68c09c78f03208384a3158e8962",
+      "date": "2026-05-26T20:29:05+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: deploy.yml — pin chetan/git-restore-mtime-action to explicit SHA (bypass GH Actions resolution cache)"
+    },
+    {
+      "hash": "5bf82e22e8a87444cd059ea9bb71cf72c6bd3ea1",
+      "date": "2026-05-26T20:28:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: GitHub Actions deploy.yml — chetan/git-restore-mtime-action@v2 → @v2.3"
+    },
+    {
+      "hash": "07a9b6b2b045c1c995c24329f8f4a6f097e66381",
+      "date": "2026-05-26T20:02:13+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 大宇雙劍 EVOLVE — 深度研究+補媒體 (2644→4784 CJK / 20→28 footnote / 0→4 圖+2 iframe)"
+    },
+    {
+      "hash": "60f05e416d213a837c24ce20061c9ee141753347",
+      "date": "2026-05-26T19:53:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: SPORE-PIPELINE H1 title + frontmatter description bump v3.5 → v3.8"
+    },
+    {
+      "hash": "0ec90d4220ef0e2230c8be385349d4a2b8bda83c",
+      "date": "2026-05-26T19:53:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SPORE-PIPELINE v3.7→v3.8 + SPORE-INBOX strip Platform 建議 — X 大宇雙劍 #94 + 哲宇 directive 「default both」"
+    },
+    {
+      "hash": "51f3c6a8eb600b96663a20dff01c7cce5a4182f4",
+      "date": "2026-05-26T18:34:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore: #93 國家人權博物館 Threads ship — 林池獬豸 + 柏楊垂淚碑雙意象 (Tier 1b)"
+    },
+    {
+      "hash": "8f1a3b7fa589f2df742f02855e44ee23a99d9c31",
+      "date": "2026-05-26T18:26:20+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-26-180000-twmd-rewrite-daily — SPORE chain pivot 第二例 + 大宇雙劍 #92 + SPORE-INBOX vc=2"
+    },
+    {
+      "hash": "a02cbae3e6af1a87b3d56d6308e8f3ad02d4a531",
+      "date": "2026-05-26T18:23:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite-daily: spore #92 大宇雙劍 Threads — 2026-05-26 18:00 cycle"
+    },
+    {
+      "hash": "216615bb7792ae6240b718f8ddd81a1be68b6179",
+      "date": "2026-05-26T18:19:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 國家人權博物館 EVOLVE Round 2 — 補園區/意義/故事 + 2 iframe (4772→7780 CJK / 26→40 footnote)"
+    },
+    {
+      "hash": "6c2f8ea8d04f1952fefef0a0b90c8aacc65b2ae4",
+      "date": "2026-05-26T15:58:37+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 國家人權博物館 NEW — 垂淚碑上沒寫的名字 (4772 CJK / 26 footnote / 3 圖 / Hybrid A+C)"
+    },
+    {
+      "hash": "c9148b89263e0fe2eeb9cf7d3124dc1b08a2c0f9",
+      "date": "2026-05-26T15:30:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 國家人權博物館 Stage 0 觀點成型 + Stage 1 research"
+    },
+    {
+      "hash": "d6eee9819b437203e519c204743a0250218df377",
+      "date": "2026-05-26T12:31:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "docs: bump SPORE-PUBLISH-PIPELINE title heading v1.0 → v1.1 (frontmatter already bumped in prior commit)"
+    },
+    {
+      "hash": "08415bb90a67ca5d52a05c154ff95b9d333ab116",
+      "date": "2026-05-26T12:31:07+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 SPORE-PUBLISH-PIPELINE v1.0 → v1.1: iframe→INFO + Gate 2.6 spawn-EVOLVE loop"
+    },
+    {
+      "hash": "8642db76a055cbfc6f5bfd01db9426c4e9aaee55",
+      "date": "2026-05-26T10:12:22+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-publish: 0 ship intake gap vc=2 — 2026-05-26"
+    },
+    {
+      "hash": "3eaf449899dac0f115f5dbb83cad211dc50d4f66",
+      "date": "2026-05-26T09:16:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-26-091320-twmd-maintainer-am — 空 PR cycle vc=5 + #851 D+3 carry-over + dashboard-analytics regen 殘餘清理"
+    },
+    {
+      "hash": "1a2764424cb1a037a85485bed8e0eb0f6725956c",
+      "date": "2026-05-26T08:14:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-26-050000-twmd-babel-nightly — 4-tier full cascade + diff-patch hash bug 揭露 + 248 force-rebump 救回"
+    },
+    {
+      "hash": "993623f6676197471e1b416cd7f799498466e98d",
+      "date": "2026-05-26T08:13:26+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-26-081057-twmd-spore-pick-daily — 第四轉 3 candidates + L1 cross-apply 閉環"
+    },
+    {
+      "hash": "5d1476dfcc104da9b3d2c312bb4f5bab40445db5",
+      "date": "2026-05-26T08:11:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: babel-nightly post-flight YAML fixes — 33 ko + 4 es"
+    },
+    {
+      "hash": "791db98c9ce8f895084070fdc1f1da34604e9263",
+      "date": "2026-05-26T08:10:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-pick-daily: 3 candidates — 2026-05-26"
+    },
+    {
+      "hash": "4bc14311b97fc2b3b24887a15ee0767724dad7b1",
+      "date": "2026-05-26T08:08:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 333 translations — 2026-05-26"
+    },
+    {
+      "hash": "231a07a429e96582e8196c47be234e4d96663dcc",
+      "date": "2026-05-26T07:16:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-26-071324-twmd-spore-harvest-am — 13 spores largest batch + 政治 framing vc=3 reached + 臺灣漫遊錄 79K FACTCHECK trigger"
+    },
+    {
+      "hash": "3b8b35bce0677cdee25bd1e3e5a4fe0daf598f64",
+      "date": "2026-05-26T07:13:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 13 spores — 2026-05-26"
+    },
+    {
+      "hash": "34bed23df6bed941d6af2a0a00ee4b3d0f3d5936",
+      "date": "2026-05-26T06:15:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: ABORTED + DEFER PM — babel-nightly cascade vc=7"
+    },
+    {
+      "hash": "037d3df58f7ddf6d83e62d605c8755d985bcd403",
+      "date": "2026-05-25T23:13:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-25-230810-data-refresh-pm — PM cycle 順 sync + AM→PM defer vc=5 連續第五天 + dashboard-immune D+8 vc=10+"
+    },
+    {
+      "hash": "6b44e05abcaaccf71ce8834ab2deb94857a6ae5f",
+      "date": "2026-05-25T23:10:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-05-25 23:10"
+    },
     {
       "hash": "f4a63bf72135703c5acc97754269c46ca3a03883",
       "date": "2026-05-25T22:11:51+08:00",

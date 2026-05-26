@@ -1,32 +1,32 @@
 {
-  "totalArticles": 4580,
+  "totalArticles": 4592,
   "totalCategories": 20,
   "estimatedContributors": 57,
-  "totalTags": 6485,
+  "totalTags": 6341,
   "categories": [
     {
       "name": "es",
-      "count": 754
+      "count": 756
     },
     {
       "name": "ko",
-      "count": 758
+      "count": 760
     },
     {
       "name": "fr",
-      "count": 774
+      "count": 776
     },
     {
       "name": "en",
-      "count": 775
+      "count": 777
     },
     {
       "name": "ja",
-      "count": 763
+      "count": 765
     },
     {
       "name": "History",
-      "count": 41
+      "count": 42
     },
     {
       "name": "Society",
@@ -38,7 +38,7 @@
     },
     {
       "name": "People",
-      "count": 220
+      "count": 221
     },
     {
       "name": "Music",
@@ -104,15 +104,7 @@
     },
     {
       "name": "文學",
-      "count": 32
-    },
-    {
-      "name": "TSMC",
-      "count": 30
-    },
-    {
-      "name": "AI",
-      "count": 29
+      "count": 33
     },
     {
       "name": "ODM",
@@ -131,7 +123,7 @@
       "count": 26
     },
     {
-      "name": "半導體",
+      "name": "AI",
       "count": 26
     },
     {
@@ -143,6 +135,10 @@
       "count": 25
     },
     {
+      "name": "半導體",
+      "count": 25
+    },
+    {
       "name": "高雄",
       "count": 25
     },
@@ -151,11 +147,11 @@
       "count": 23
     },
     {
-      "name": "民主化",
+      "name": "TSMC",
       "count": 23
     },
     {
-      "name": "體育",
+      "name": "民主化",
       "count": 23
     },
     {
@@ -165,16 +161,20 @@
     {
       "name": "YouTuber",
       "count": 22
+    },
+    {
+      "name": "體育",
+      "count": 22
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4580,
+    "zh-TW": 4592,
     "en": 0
   },
-  "lastUpdated": "2026-05-25T15:09:53.476Z",
-  "stars": 1009,
+  "lastUpdated": "2026-05-26T15:09:02.614Z",
+  "stars": 1010,
   "forks": 147,
-  "zhPages": 3805,
-  "enPages": 775,
-  "totalPages": 4580
+  "zhPages": 3815,
+  "enPages": 777,
+  "totalPages": 4592
 }

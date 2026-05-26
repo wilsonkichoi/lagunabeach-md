@@ -1,26 +1,74 @@
 {
-  "lastUpdated": "2026-05-25T23:12:52.701639Z",
+  "lastUpdated": "2026-05-26T15:09:01.372145Z",
   "schemaVersion": "1.1",
   "totals": {
-    "count": 90,
+    "count": 93,
     "platforms": {
-      "threads": 47,
-      "x": 39,
+      "x": 40,
+      "threads": 49,
       "other": 4
     },
     "languages": {
-      "zh": 83,
+      "zh": 86,
       "en": 7
     },
     "templates": {
-      "A2": 30,
-      "A": 27,
+      "A2": 32,
+      "A": 28,
       "B": 27,
       "other": 2,
       "D": 4
     }
   },
   "recent": [
+    {
+      "n": 94,
+      "date": "2026-05-26",
+      "platform": "x",
+      "article": "大宇雙劍",
+      "articleSlug": "大宇雙劍",
+      "category": "technology",
+      "template": "A2 首尾呼應（1995 320×200 DOS 視窗掉眼淚 → 2024 五億賣斷 → 那台電腦不在了但那個下午還在）",
+      "url": "https://x.com/taiwandotmd/status/2059239795231281223",
+      "highlight": "**哲宇 callout 「為什麼變 Threads only」+ 「完整去除 Platform 建議避免只發單一」 directive 後補發 X**：5/26 18:23 routine Threads #92 ship 後哲宇 callout 兩個根因 — (1) SPORE-INBOX entry 的 Platform 建議「both」屬 P0 observer-explicit signal，被 P1 routine v3.7 default「Threads only」凌駕；(2) 文章 media-richness gate (image 0 < 2 hard) 沒攔 spore-publish。補發 X 同文案 + 同 square OG 圖。**注**：utm_campaign=s93 是 race condition clerical 編號（X post 時 row #93 還未被 concurrent session 寫，撞到 #93 國家人權博物館 Threads — utm_source 不同 (x vs threads) 分析不混淆，但 conceptually 應為 s94，本 row 編號 #94 SPORE-LOG truth）。**注 2**：concurrent session 同 cycle EVOLVE 大宇雙劍 article 加入 2025-06 軒轅劍 IP 轉手成都星閱辰石 + 2025-11-03 大宇更名「光聚晶電聯合」半導體佔比 65% 新事實，本 X spore 文案是 EVOLVE 前版本（哲宇 directive「你不用管後續」accepted gap）。Tier 1b 具體性槓桿 + A2 首尾呼應同 #92。post-ship verify 5/5 PASS：textHasHook 320×200 ✅ / textHasQuote 狂徒創作群 ✅ / textHasCloseLine 那個下午還在 ✅ / utmFound s93 ✅ / photoCount=1 ✅。file_upload restricted → 改用 osascript 重新 set PNGf clipboard + cmd+a clear stale 雷亞 URL draft + cmd+v image + type 文案。**Pipeline evolution triggered**：SPORE-PIPELINE v3.7→v3.8 default both / SPORE-INBOX schema strip Platform 建議 field / SPORE-PICK-PIPELINE 對應移除（per 哲宇 directive「完整去除所有 Platform 建議避免只發單一平台」）。Blueprint: [SPORE-BLUEPRINTS/92-大宇雙劍.md](SPORE-BLUEPRINTS/92-大宇雙劍.md)（X 補發共用 Threads #92 blueprint）。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
+    {
+      "n": 93,
+      "date": "2026-05-26",
+      "platform": "threads",
+      "article": "國家人權博物館",
+      "articleSlug": "國家人權博物館",
+      "category": "history",
+      "template": "A1 雙意象 micro-arc（林池受難者設計獬豸正義神獸 + 柏楊垂淚碑 28 字沒寫加害者）",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYzG-R1k5Ze",
+      "highlight": "**哲宇 directive 「完成後幫我自動化做完整的 /twmd-spore +發布」連環觸發**：Round 2 EVOLVE article 補園區/意義/故事 ship (216615bb7 7780 CJK 40 footnote 7 H2 3 圖+2 iframe) → 自動 SPORE 鏈條。Tier 1b 具體性槓桿（林池設計獬豸 ironic structure + 柏楊 28 字無聲指控 + 39 年 0 加害者數字三層 anchor）+ A1 雙意象 micro-arc 呼應 article title「垂淚碑上沒寫的名字」。Threads 主貼 + self-reply UTM URL（utm_campaign=s93）。279 CJK 主貼 / ~100 CJK self-reply / 5 段 sweet spot。prose-health hard=0 score=2 ≤ 3 ✅ / spore-writing hard=0 warn=0 ✅ / 三板斧 不是 0 / —— 0 / 不僅 0 ✅✅✅。事實查核閘 8 條全 ✅（林池設計 NHRM 官網逐字 / 柏楊 28 字 3 源 / 1999/12/10 國際人權日 3 源 / 1,153 / 970 / 259 / 0 加害者）。紀實/煽情閘 4 問全過（不以死亡作 hook + 細節必要 + 主體公開行動 + 鏡頭移向 agency 記憶基礎建設）。配圖 2160×2160 (square 2x) 426KB make-spore.sh --prod（article 30+ min wait 後 prod live + CI/CD wait gate poll 通過 title keyword「垂淚碑上沒寫的名字」verbatim verify）。post-ship verify 5/5 PASS：textHasHook 你知道嗎🧬 ✅ / textHasQuote 在那個時代有多少母親長夜哭泣 28 字 verbatim ✅ / textHasCloseLine 解嚴 39 年來 0 名加害者受司法審判 ✅ / imageCount=1（square 圖 attached）✅ / UTM 留痕 utm_source=threads&utm_medium=spore&utm_campaign=s93 ✅。Routine context auto-decisions（per 哲宇 自動化 directive）：Threads only default（article 無 internationalReach flag）/ Tier 1b default / single version / zh only / 0 observer gate。Hook Blueprint 四格：日常物件=新店捷運十四張站旁圍牆+水池 / 矛盾=受難者設計正義神獸+寫母親沒寫加害者 / 答案=39 年加害者連名字都沒被寫下 / 讀者點進去答案 1153/970/259 數字 + 2025 預算事件。Blueprint: [SPORE-BLUEPRINTS/93-國家人權博物館.md](SPORE-BLUEPRINTS/93-國家人權博物館.md)。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
+    {
+      "n": 92,
+      "date": "2026-05-26",
+      "platform": "threads",
+      "article": "大宇雙劍",
+      "articleSlug": "大宇雙劍",
+      "category": "technology",
+      "template": "A2 首尾呼應（1995 320×200 DOS 視窗掉眼淚 → 2024 五億賣斷 → 那台電腦不在了但那個下午還在）",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYzFoZxk7GN",
+      "highlight": "**twmd-rewrite-daily v6.1 18:00 cycle Stage 4 SPORE chain pivot 第二例**：concurrent session 在 國家人權博物館 round 2 research (untracked 18:05) — pivot 到 SPORE-INBOX 14 pending 中最新 P2 candidate (大宇雙劍 score=30 by spore-pick-daily 2026-05-26 fire) — SPORE-INBOX entry 直接點名 「5/26 工作日 evening cluster 最佳」匹配 cron 18:00 fire 完美對位。Article 5/25 maintainer-pm heal 軒轅劍參方向 (Frankish→Tang) 後 lastVerified=2026-04-23 仍有效 (≤90 天)。Tier 1b 具體性槓桿（1995-07-07 320×200 DOS specific anchor + 三十年弧線反差 + 五億賣斷 reveal）+ A2 首尾呼應「那台 1995 年的電腦早就不在了。但那個下午還在。」呼應 article §留下了什麼 收尾。Threads 主貼 + self-reply UTM URL（utm_campaign=s92）。395 chars 主貼 / 127 chars self-reply / 5 段 sweet spot。prose-health hard=0 warn=2 (article-level Tier 2 metaphor) / spore-writing hard=0 warn=0 / 三板斧 不是 0 / —— 1 (橫跨三十年——2005 仙劍電視劇) / 不僅 0 ✅✅✅。事實查核閘 16 條全 ✅ (article 26 footnote 既有 verify 全部從 article 直接抽取 + maintainer-pm heal 軒轅劍參方向 verbatim)。配圖 2160×2160 (square 2x) 378KB make-spore.sh --prod (article live 33 天 ≫ 30min)。CI/CD wait SKIP (article ship 2026-04-23 prod live 33 天)。post-ship verify 5/5 PASS：textHasHook 320×200 ✅ / textHasQuote 狂徒創作群 ✅ / textHasCloseLine 那個下午還在 ✅ / imageCount=1 ✅ / 1/2 thread marker + 1 分鐘 timestamp ✅。Routine context auto-decisions: Threads only default (article 無 internationalReach/breakingNews flag) / Tier 1b default / single version / zh only / 0 observer gate。Blueprint: [SPORE-BLUEPRINTS/92-大宇雙劍.md](SPORE-BLUEPRINTS/92-大宇雙劍.md)。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
     {
       "n": 91,
       "date": "2026-05-25",
@@ -49,54 +97,6 @@
       "highlight": "**同 #89 內容**：X 單則 inline URL 版（utm_campaign=s90）。post-ship verify ✅ posted notification + 「Your post was sent」confirm + 17s timestamp profile sweep verbatim 比對 PASS。",
       "views_7d": null,
       "views_latest": 9476,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": true
-    },
-    {
-      "n": 89,
-      "date": "2026-05-25",
-      "platform": "threads",
-      "article": "雷亞遊戲",
-      "articleSlug": "雷亞遊戲",
-      "category": "technology",
-      "template": "A2 首尾呼應（2008 街機失敗 → 2026 多場域裂縫 + 美學被看見/跌倒收尾）",
-      "url": "https://www.threads.com/@taiwandotmd/post/DYwMkzBgW8k",
-      "highlight": "**趁熱旗艦 EVOLVE spore** (5/25 EVOLVE same-day ship)。Angle C 美學帝國核心矛盾（觀察者「自動發不要問我」directive，3-angle 提案 skip）。Tier 1a 知名度槓桿（Cytus / Deemo / 聚爆 / VOEZ 全民認知）。Threads 主貼 + self-reply UTM URL（utm_campaign=s89）。252 CJK / 5 段 / 1/50 段密度 sweet spot。prose-health hard=0 warn=0 / spore-writing hard=0 warn=0 / 三板斧 不是 0 / —— 0 / 不僅 0 ✅✅✅。配圖 1080×1080 497KB AI 視覺自檢 ✅（new EVOLVE title 對 + 14 年 framing 對）。CI/CD healthy（02:48 success / prod 200 verbatim title verify pass）。post-ship verify ✅ taiwandotmd profile 1 分鐘 timestamp 確認 + 1/2 thread marker + 主貼 prose verbatim + image attached + self-reply URL utm_campaign=s89。Blueprint: [SPORE-BLUEPRINTS/89-雷亞遊戲.md](SPORE-BLUEPRINTS/89-雷亞遊戲.md)。",
-      "views_7d": null,
-      "views_latest": 20000,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": true
-    },
-    {
-      "n": 88,
-      "date": "2026-05-25",
-      "platform": "x",
-      "article": "半導體產業",
-      "articleSlug": "半導體產業",
-      "category": "technology",
-      "template": "A2 首尾呼應（學費→甲方 + 量子代工站位「還沒拿下」收口）",
-      "url": "https://x.com/taiwandotmd/status/2058735515021783190",
-      "highlight": "**同 #87 內容**：X 單則 inline URL 版（utm_campaign=s88）。**twmd-spore-publish-daily v1.0 routine 首例**：cron 10:00 fire → BECOME write mode → SPORE-INBOX 9 entries 跑 5 條 hard gate → 唯 1 過 gate（半導體產業 prose=2 ≤3 / wc=7230 / footnote pass / media iframe=1 image=4 / lastVerified=5/19）→ SPORE-PIPELINE Stage 3-4 delegate（Tier 1b 具體性槓桿 + A2 首尾呼應 1973 學費→2025 甲方 + 量子站位收口）→ make-spore.sh --prod 1080×1080 ✅ AI 視覺自檢通過 → CI/CD healthy（last build 09:15 success / prod 200）→ Chrome MCP 雙平台 ship（Threads #87 + X #88）→ post-ship verify 5 條 ✅✅。**8/9 candidate fail media-richness gate** = LESSONS-INBOX intake gap surface（spore-pick scoring 不對齊 spore-publish quality gate）。prose-health hard=0 warn=0 / spore-writing hard=0 warn=0 / 三板斧 不是 0 / —— 0 / 不僅 0 ✅✅✅。253 CJK / 5 段 / 1/58 段密度 sweet spot 邊緣。Blueprint: [SPORE-BLUEPRINTS/87-半導體產業.md](SPORE-BLUEPRINTS/87-半導體產業.md)。",
-      "views_7d": null,
-      "views_latest": 3642,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": true
-    },
-    {
-      "n": 87,
-      "date": "2026-05-25",
-      "platform": "threads",
-      "article": "半導體產業",
-      "articleSlug": "半導體產業",
-      "category": "technology",
-      "template": "A2 首尾呼應（學費→甲方 + 量子代工站位「還沒拿下」收口）",
-      "url": "https://www.threads.com/@taiwandotmd/post/DYvqEURgXm-",
-      "highlight": "**twmd-spore-publish-daily v1.0 routine 首例**（細節同 #88）。Threads 主貼 + self-reply UTM URL（utm_campaign=s87）。Topic 「台灣」設定 ✓。post-ship verify 5/5 PASS：textHasOpenHook ✅ / textHas1973+450+2 奈米 ✅ / textHasCloseLine 還沒拿下 ✅ / imageCount=2 ✅ / outboundLinks taiwan.md 兩個 ✅（main post no URL + self-reply has URL，verbatim title 完整 prose 字元級對齊）。Blueprint: [SPORE-BLUEPRINTS/87-半導體產業.md](SPORE-BLUEPRINTS/87-半導體產業.md)。",
-      "views_7d": null,
-      "views_latest": 3715,
       "engagements_7d": null,
       "rate_7d": null,
       "backfilled": true
@@ -313,6 +313,22 @@
       "publishedDays": 1,
       "status": "waiting",
       "url": "https://www.threads.com/@taiwandotmd/post/DYvqEURgXm-"
+    },
+    {
+      "n": 94,
+      "article": "大宇雙劍",
+      "platform": "x",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://x.com/taiwandotmd/status/2059239795231281223"
+    },
+    {
+      "n": 93,
+      "article": "國家人權博物館",
+      "platform": "threads",
+      "publishedDays": 0,
+      "status": "waiting",
+      "url": "https://www.threads.com/@taiwandotmd/post/DYzG-R1k5Ze"
     }
   ],
   "noUrlHistorical": [
@@ -383,11 +399,41 @@
     },
     {
       "week": "2026-W22",
-      "published": 5,
+      "published": 8,
       "avgViews": 7786
     }
   ],
   "harvestStatus": [
+    {
+      "n": 94,
+      "article": "大宇雙劍",
+      "platform": "x",
+      "publishDate": "2026-05-26",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
+    {
+      "n": 93,
+      "article": "國家人權博物館",
+      "platform": "threads",
+      "publishDate": "2026-05-26",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
+    {
+      "n": 92,
+      "article": "大宇雙劍",
+      "platform": "threads",
+      "publishDate": "2026-05-26",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
     {
       "n": 91,
       "article": "江賢二",
