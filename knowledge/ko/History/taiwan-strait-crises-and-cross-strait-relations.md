@@ -14,7 +14,7 @@ translatedFrom: History/台海危機與兩岸關係發展.md
 sourceCommitSha: '7b8c0d48'
 sourceContentHash: 'sha256:fcdf343dc3efa72e'
 sourceBodyHash: 'sha256:8952fca56720f010'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 대만 해협 위기와 양안 관계 발전

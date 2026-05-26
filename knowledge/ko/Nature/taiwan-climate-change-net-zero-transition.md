@@ -29,7 +29,7 @@ translatedFrom: 'Nature/台灣氣候危機與淨零轉型.md'
 sourceCommitSha: '89026b10'
 sourceContentHash: 'sha256:c97df57772682776'
 sourceBodyHash: 'sha256:f8a6fd9ed633ae52'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 대만 기후위기와 넷제로 전환: 제3원전 국민투표가 부결된 날, 물리적 한계의 선택은 이제 막 시작되었다

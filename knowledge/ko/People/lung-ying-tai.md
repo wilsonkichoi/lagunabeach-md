@@ -17,7 +17,7 @@ translatedFrom: 'People/龍應台.md'
 sourceCommitSha: '0f8fae0a'
 sourceContentHash: 'sha256:32e758a1acf33e90'
 sourceBodyHash: 'sha256:fb31dbbb24515e69'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 룽잉타이: 다랴오 1952, 『야화집』에서 타이완 초대 문화부 장관이 된 공공 지식인

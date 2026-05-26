@@ -14,7 +14,7 @@ translatedFrom: 'Music/台灣原住民音樂傳統.md'
 sourceCommitSha: '0f8fae0a'
 sourceContentHash: 'sha256:c9aa499e9c84c71a'
 sourceBodyHash: 'sha256:b2e261c439c4d6f4'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 대만 원주민 음악 전통

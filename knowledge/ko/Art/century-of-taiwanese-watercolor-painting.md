@@ -16,7 +16,7 @@ translatedFrom: 'Art/台灣水彩畫的百年流變.md'
 sourceCommitSha: '0f8fae0a'
 sourceContentHash: 'sha256:0b51fe43b7a1bf00'
 sourceBodyHash: 'sha256:de90bfe09eb0461c'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 타이완 수채화의 백년 변천

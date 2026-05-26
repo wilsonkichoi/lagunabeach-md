@@ -18,7 +18,7 @@ translatedFrom: People/郭泓志.md
 sourceCommitSha: '0f8fae0a'
 sourceContentHash: 'sha256:e02695ed5dc8f6ea'
 sourceBodyHash: 'sha256:adcefdbac44146e6'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 홍치궈(곽홍지): 타이완 최초 MLB 홈런과 올스타전, 팔꿈치가 말렸지만 그는 계속 던졌다

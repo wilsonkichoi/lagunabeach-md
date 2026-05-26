@@ -29,7 +29,7 @@ translatedFrom: 'Geography/宜蘭縣.md'
 sourceCommitSha: 'bcffb45b'
 sourceContentHash: 'sha256:1f27a031ba2b15bd'
 sourceBodyHash: 'sha256:1cab1d2f39c6a420'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 이란현: 두 차례 스스로의 운명을 선택한 뒤 란양평원은 되돌아가지 않았다

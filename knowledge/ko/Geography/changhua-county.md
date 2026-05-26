@@ -27,7 +27,7 @@ translatedFrom: Geography/彰化縣.md
 sourceCommitSha: 'bcffb45b'
 sourceContentHash: 'sha256:af4450d644e4cc28'
 sourceBodyHash: 'sha256:184703ac8d91b126'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 현저현: 듀폰을 물리쳤지만 젊은이들을 붙잡지 못한 농업 대현

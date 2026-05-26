@@ -22,7 +22,7 @@ translatedFrom: 'People/張明正.md'
 sourceCommitSha: '0f8fae0a'
 sourceContentHash: 'sha256:932e4c30cdddd3e0'
 sourceBodyHash: 'sha256:21c31465830632be'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 장정명: 보인대학 수학과 출신, 바이러스 백신 소프트웨어를 세계에 판 사람

@@ -16,7 +16,7 @@ translatedFrom: People/魏哲家.md
 sourceCommitSha: '0f8fae0a'
 sourceContentHash: 'sha256:3d7fccce1bbb6e47'
 sourceBodyHash: 'sha256:501cc28a481912c5'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 웨이저자(魏哲家): 1953년, 교통대학 전자공학에서 예일대 박사까지, 그리고 TSMC 회장 겸 사장

@@ -31,7 +31,7 @@ translatedFrom: Geography/南投縣.md
 sourceCommitSha: 'bcffb45b'
 sourceContentHash: 'sha256:1098d0ed515ecdff'
 sourceBodyHash: 'sha256:8c4994ea1a8d0681'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 난터우 현: 유일하게 해안이 없는 현, 921 진앙이 바로 그 중심에

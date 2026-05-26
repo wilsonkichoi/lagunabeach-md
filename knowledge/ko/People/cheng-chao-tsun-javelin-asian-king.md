@@ -19,7 +19,7 @@ translatedFrom: People/鄭兆村.md
 sourceCommitSha: '0f8fae0a'
 sourceContentHash: 'sha256:ce2f1e81de54c692'
 sourceBodyHash: 'sha256:efa67fc4a2da3f45'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 정조촨(鄭兆村): 2017 세계대학경기대회 마지막 투척 91.36m, 아시아 창던지기가 달라지다

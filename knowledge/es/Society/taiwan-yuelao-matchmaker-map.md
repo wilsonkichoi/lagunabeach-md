@@ -1,11 +1,23 @@
 ---
 title: 'Mapa de los Yue Lao de Taiwán: antes de buscar pareja, elige el templo — esta isla alberga al menos diez Yue Lao con funciones distintas'
-description: 'En Taiwán, hay un requisito previo para pedir el amor que muchos desconocen: el Yue Lao no es uno solo. Los cuatro grandes Yue Lao de Tainan se reparten las funciones de pedir amor, pedir estabilidad, cortar amores no deseados y pedir reconciliación. El antiguo templo Le Cheng Gong de Taichung, fundado en 1753, es famoso por su eficacia en reconciliaciones. El templo Wei Ming Tang en Nueva Taiwán, dedicado al dios conejo Tu'er Shen, se especializa en el amor entre personas del mismo sexo. Los templos Xia Hai, Long Shan Si y Lu Tian Gong de Lukang cada uno tiene su propia especialidad. Los devotos escriben sus "requisitos de pareja" lo más detallados posible, porque si dejan espacios vacíos, el Yue Lao podría encontrar lagunas que explotar.'
+description: 'En Taiwán, hay un requisito previo para pedir el amor que muchos desconocen: el Yue Lao no es uno solo. Los cuatro grandes Yue Lao de Tainan se reparten las funciones de pedir amor, pedir estabilidad, cortar amores no deseados y pedir reconciliación. El antiguo templo Le Cheng Gong de Taichung, fundado en 1753, es famoso por su eficacia en reconciliaciones. El templo Wei Ming Tang en Nueva Taiwán, dedicado al dios conejo Tu''er Shen, se especializa en el amor entre personas del mismo sexo. Los templos Xia Hai, Long Shan Si y Lu Tian Gong de Lukang cada uno tiene su propia especialidad. Los devotos escriben sus "requisitos de pareja" lo más detallados posible, porque si dejan espacios vacíos, el Yue Lao podría encontrar lagunas que explotar.'
 date: '2026-05-25'
 author: 'Taiwan.md Contributors'
 category: 'Society'
 subcategory: '宗教與信仰'
-tags: ['Yue Lao', 'templos de Yue Lao', 'creencias populares', 'búsqueda del amor', 'Templo del Dios de la Ciudad Xia Hai', 'Templo Long Shan Si de Wanhua', 'Los Cuatro Grandes Yue Lao de la Ciudad-Fuente', 'Wei Ming Tang', 'Tu\'er Shen (dios conejo)', 'Le Cheng Gong']
+tags:
+  [
+    'Yue Lao',
+    'templos de Yue Lao',
+    'creencias populares',
+    'búsqueda del amor',
+    'Templo del Dios de la Ciudad Xia Hai',
+    'Templo Long Shan Si de Wanhua',
+    'Los Cuatro Grandes Yue Lao de la Ciudad-Fuente',
+    'Wei Ming Tang',
+    "Tu'er Shen (dios conejo)",
+    'Le Cheng Gong',
+  ]
 lastVerified: '2026-05-25'
 lastHumanReview: 'false'
 featured: 'false'

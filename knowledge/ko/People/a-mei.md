@@ -18,7 +18,7 @@ translatedFrom: People/張惠妹.md
 sourceCommitSha: '0f8fae0a'
 sourceContentHash: 'sha256:aebfe56ef8181ee0'
 sourceBodyHash: 'sha256:2548692a01191648'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 장혜미: 베이난족의 여왕, 1996년 《자매》에서 2024년 타이베이 돔 5회 공연까지

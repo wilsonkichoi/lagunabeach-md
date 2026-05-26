@@ -18,7 +18,7 @@ translatedFrom: People/楊傳廣.md
 sourceCommitSha: '0f8fae0a'
 sourceContentHash: 'sha256:f8a43ac4f3c5c945'
 sourceBodyHash: 'sha256:564dbfac81e16aa7'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 양촨광: 타이둥 부족, 로마 은메달, 9121점 세계 기록의 아시아 아이언맨

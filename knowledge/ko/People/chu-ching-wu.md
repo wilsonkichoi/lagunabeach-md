@@ -18,7 +18,7 @@ translatedFrom: 'People/朱經武.md'
 sourceCommitSha: '0f8fae0a'
 sourceContentHash: 'sha256:79c87fb84a11dd9d'
 sourceBodyHash: 'sha256:619ef92c56c46024'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 주징우: 1987년 액체 질소 온도 돌파, 고온 초전도 Tc=93K의 공동 발견자

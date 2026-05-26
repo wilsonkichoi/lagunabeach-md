@@ -24,7 +24,7 @@ translatedFrom: People/鍾理和.md
 sourceCommitSha: '0f8fae0a'
 sourceContentHash: 'sha256:cddbfe1c856d1966'
 sourceBodyHash: 'sha256:59814996cd0ea2c6'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 종리화: 미농 1915, 피바다에 쓰러진 필경자

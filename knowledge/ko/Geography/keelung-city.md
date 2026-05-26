@@ -27,7 +27,7 @@ translatedFrom: Geography/基隆市.md
 sourceCommitSha: '544200ea'
 sourceContentHash: 'sha256:681e1686934c97b4'
 sourceBodyHash: 'sha256:980f24f74f02d9c0'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 타이베이에서 가장 가까운 항구, 타이베이에서 가장 보이지 않는 도시 — 지롱(基隆)

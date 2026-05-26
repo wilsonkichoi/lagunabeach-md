@@ -18,7 +18,7 @@ translatedFrom: People/朱天文.md
 sourceCommitSha: '0f8fae0a'
 sourceContentHash: 'sha256:13c80c1f151f5c3e'
 sourceBodyHash: 'sha256:bf6107b943cdb54e'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 주천문: 1956 타이베이, 《삼삼집간》에서 《비정도시》 베니스 금사까지

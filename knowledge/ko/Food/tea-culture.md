@@ -18,7 +18,7 @@ translatedFrom: 'Food/茶文化.md'
 sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:86475082b87388fc'
 sourceBodyHash: 'sha256:a9375147f15627a6'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 대만 차 문화

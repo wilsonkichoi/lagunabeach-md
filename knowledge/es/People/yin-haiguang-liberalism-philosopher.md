@@ -22,8 +22,8 @@ lastHumanReview: false
 translatedFrom: 'People/殷海光.md'
 sourceCommitSha: '4b6d28c5'
 sourceBodyHash: 'sha256:51ae38d79a7cc954'
-sourceContentHash: 'sha256:0d8d9acd7b29d4d0
-translatedAt: '2026-05-26T21:07:27Z''
+sourceContentHash: 'sha256:0d8d9acd7b29d4d0'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 > **Resumen en 30 segundos:**

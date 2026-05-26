@@ -23,7 +23,7 @@ translatedFrom: 'People/施明德.md'
 sourceCommitSha: '0f8fae0a'
 sourceContentHash: 'sha256:c7a690e21bd72631'
 sourceBodyHash: 'sha256:f379180b5e8bcecc'
-translatedAt: '2026-05-25T21:07:07Z'+08:00
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 스밍더: 25년의 옥고, 끝내 자신의 정당을 향해 깃발을 들다
