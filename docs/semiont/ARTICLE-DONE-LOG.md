@@ -59,6 +59,27 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 大宇雙劍 EVOLVE — 2026-05-26 manual（哲宇 explicit /twmd-rewrite「進化大宇雙劍...深度研究+補足媒體素材」directive — Technology 社群與數位文化 / 從既有 2644 CJK / 20 footnote / 0 圖 升 4784 CJK / 28 footnote / 4 圖 + 2 iframe / 7 H2，新增 3 條重大新事實 + chronicle-lead H2 修補 + 30 秒概覽 canonical format）
+
+- **Article**: [knowledge/Technology/大宇雙劍.md](../../knowledge/Technology/大宇雙劍.md) — 4784 CJK chars (106% 4500) / 28 footnote / 7 H2 / 1 hero + 2 inline + 2 video iframe（hero guanghua-computer-market-2007 CC BY 2.0 pacificmorningpost Flickr Wikimedia + 2 inline softstar-sword-and-fairy + softstar-xuan-yuan-sword-7 SOFTSTAR Steam fair use editorial commentary + iframe 仙劍蝶戀 OST uNG9lwMh2E8 + iframe 胡歌 2005 逍遙嘆 MV O9Fm-nuRhng）
+- **Research**: [reports/research/2026-05/大宇雙劍-evolve.md](../../reports/research/2026-05/大宇雙劍-evolve.md) — 834 行 / 50 KB / general-purpose agent 18 WebSearch + 13 WebFetch = 31 ops / 中文 90%+
+- **Round 2 補強 angle**：「IP 漂移 + 大宇本體消失 + 姚壯憲立場逆轉」三層新核 — round 1 既有「那個下午賣不掉」雙意象維持，但補三層 timeline 延伸到 2025-2026
+- **重大新事實 3 條 (round 1 沒抓到)**：
+  - **2025/11/3 大宇本體改名光聚晶電聯合 (Star Fusion Group)** — 半導體佔比 65% / 2026/1/7 經濟部核准 / 涂俊光「進半導體才知與遊戲業差真多」逐字引語。最終結局比 IP 賣斷更深 — 大宇資訊作為以遊戲為核心的公司,2025/11/3 起作為母公司不再存在
+  - **2025/6/24 軒轅劍 IP 二次轉手** — 歡動香港買到才九個月轉手成都星閱辰石 / 路陽動畫電影 2027 末上映 / 1 億 RMB 動畫劇集投資。「賣斷 5 億」只是 IP 漂移的開始
+  - **姚壯憲 2025 立場逆轉** — 仙劍世界玩家交流會「絕對不會是悲劇結局」逐字引語。1995 那個堅持「靈兒必須死」、頂住謝崇輝與林珈汶反對的 26 歲姚壯憲,30 年後 56 歲親手宣告「不再讓它哭」
+- **chronicle-lead H2 修補**：「## 2024 年 9 月：五億的告別」(hard violation) → 「## 那場董事會：賣掉雙劍的兩封公告」(場景化標題)
+- **新 H2 加入**：
+  - §「雙劍賣斷之後：IP 二次轉手與大宇本體更名」 — 2025/6/24 + 2025/11/3 雙重新事實
+  - §「『靈兒必須死』與『絕對不會是悲劇結局』」 — 姚壯憲 30 年立場逆轉獨立 H2
+  - §「蝶戀：50 歲對 19 歲自己的回望」 — 林坤信 2026/2/21 重編 deepening
+- **30 秒概覽 canonical format**：加 `> **30 秒概覽：**` blockquote 含 2024 / 2025 雙時間軸更新
+- **新 footnote 8 條** (20→28): 21 蔡明宏 UDN / 22 軒轅劍二次轉手巴哈 / 23 仙劍世界 17173 / 24 中手游 2025 財報網易 / 25 大宇改名光聚晶電數位時代 / 26 姚壯憲 2025 仙劍世界交流會 UDN / 27 新仙劍奇俠傳維基 / 28 〈蝶戀〉演唱者周黎菁中文百科校正網路長年誤傳劉亦菲
+- **重要校正**：〈蝶戀〉演唱者 Candy（周黎菁）— 不是網路長年誤傳的劉亦菲版本
+- **品質**：article-health rewrite-stage-4 profile hard=0 warn=0 (8/8 plugin ALL PASS) / footnote-format ✅ / footnote-density ✅ (rewrite-stage-3-5 profile) / prose-health hard=0 score=2 ≤ 3 / 對位句 0 / 破折號 5 處 (under limit) / word-count 4784/4500 106% ✅ / image-health 4 張 ✅ / chronicle-lead ✅ / cjk-punct ✅ / frontmatter-format ✅ / wikilink-target ✅ / link-target ✅ / format-structure ✅
+- **Cross-link**：forward 既有 4 條 + 新加 1 條 [雷亞遊戲](/technology/雷亞遊戲)「跟大宇同樣以美學立國但走出完全不同路徑的下一代台灣遊戲公司」 / 既有 4 sibling 已 reverse link 指 大宇雙劍 (round 1 + 雷亞遊戲 round 2 ship 時已加)
+- **待 ship 後**：哲宇 review 文字 + 若 OK set lastHumanReview: true / 翻譯走 babel-nightly 自動撿 / 新 sporeLinks frontmatter 條目已含 X #93 (sn=2059239795231281223 utm_campaign=s93,但這應該是 round 1 #92 ship 後的 X fan-out)
+
 ### 國家人權博物館 EVOLVE Round 2 — 2026-05-26 manual 補充（哲宇 directive「補充更多園區與意義 還有故事的介紹」+ 6 個 NHRM 官方 source URL + 1 影片轉錄分析 — Round 1 4772 CJK / 26 footnote / 3 圖 → Round 2 **7780 CJK / 40 footnote / 3 圖 + 2 iframe / 7 H2**）
 
 - **Article**: [knowledge/History/國家人權博物館.md](../../knowledge/History/國家人權博物館.md) — 7780 CJK chars (173% 4500) / 40 footnote / 7 H2 / 3 hero+inline 圖 + 2 video iframe（NHRM 景美園區簡介影片 L-qcP5M9rQU + 2025 綠島藝術季宣傳影片 aopbDtOisVM）
