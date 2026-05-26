@@ -506,34 +506,6 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ---
 
-### 大宇雙劍 — 趁熱 spore（5/25 ship Technology 雙劍 IP 賣斷 + DOS 世代記憶）
-
-- **Source-Mode**: `EXISTING-ARTICLE`
-- **Article-Path**: [knowledge/Technology/大宇雙劍.md](../../knowledge/Technology/大宇雙劍.md)
-- **Priority**: `P2`
-- **Status**: `pending`
-- **Requested**: 2026-05-26 by twmd-spore-pick-daily routine (score=30)
-- **Platform 建議**: `both`（Threads 台灣三十代以上玩家世代共鳴 + X 中文 RPG 跨海華人圈 cluster — 仙劍/軒轅劍粉絲分布 cn/hk/tw/sg/my 廣）
-- **Hook anchor 候選**：
-  1. **場景 hook**：「2024 年 9 月 11 日，大宇資訊發公告：軒轅劍 IP 1045 萬美元賣給歡動香港、仙劍除中國外 IP 1830 萬人民幣加 3800 萬股賣給中手游。兩把劍，一共五億。蔡明宏——軒轅劍之父，三十多年的大宇前總經理——在公告前不久辭職離開」（article §2024 年 9 月：五億的告別 直引）
-  2. **數字 hook**：「1995 年 7 月，一款 320×200 解析度的 DOS 遊戲讓幾百萬玩家第一次因為虛擬角色掉眼淚。仙劍奇俠傳首日賣出一萬套。三十年後，仙劍系列累計銷量超過百萬套，胡歌 2005 年電視劇平均收視 11.3%。但 2024 年 9 月雙劍以五億台幣賣斷——磨一把劍要五到八年，這條路 2025 走不下去」
-  3. **身份 hook**：「在仙劍之前，華語世界的遊戲玩家只有兩個選擇：玩日本遊戲（翻譯版或生啃日文），或者玩歐美遊戲。『用中文講一個能讓你哭的故事』這件事，聽起來簡單，但 1995 年之前沒有人做到過。仙劍做到了。軒轅劍把歷史從考試材料變成了冒險現場」（article §留下了什麼 直引）
-  4. **問句 hook**：「為什麼後來赤燭做《返校》、雷亞做《DEEMO》都帶著同一條血脈？答案在 1990 年光華商場那群蹲著抄技術手冊的大學生身上」
-- **時效**：article ship 距今 1 天（5/25 NEW after 5/25 maintainer-pm heal 軒轅劍參方向 Frankish→Tang），趁熱窗口最佳
-- **敏感度**：低（遊戲史 / 商業 IP 轉讓）
-- **必驗事實**：1990 年軒轅劍由大宇出品 / 1995 年 7 月仙劍奇俠傳發行首日 1 萬套 / 蔡明宏軒轅劍之父在 IP 出售前不久辭職 / 姚壯憲仙劍主導 / 2005 年唐人影視仙劍電視劇李國立執導胡歌李逍遙劉亦菲趙靈兒收視 11.3% / 2012 年軒轅劍之天之痕胡歌劉詩詩 / 2024 年 9 月 11 日 IP 公告（軒轅劍 1045 萬美元給歡動香港 + 仙劍除中國外 1830 萬人民幣+3800 萬股給中手游集團）/ 2024 年董事長涂俊光 Facebook 千字文轉發 1400+ 次 / 仙劍奇俠傳七虛幻引擎 50 萬套打平 / 1999 年雲和山的彼端配樂得電腦玩家雜誌遊戲金像獎最佳音樂
-- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
-- **預估發佈時機**：本週內（5/26-6/1 趁熱窗口；5/26 工作日 evening cluster 最佳）
-- **Notes**:
-  - score=30 (D1=+30 ≤7d / D2=0 SC 未累積 / D3=0 / D4=0 Technology 不在 high_fanout / D5=0 / D6=0 hook 跟最近 5 spore 場景/數字/身份多元 / D7=0)
-  - reason: 5/25 ship + heal yesterday + DOS 世代記憶集體共鳴（PTT 與巴哈姆特 IP 賣斷時爆炸討論可作為 quote 支撐）
-  - 多語 fan-out 觸發判斷 = 中（articles tx=5 全部已翻譯；但仙劍/軒轅劍中文世界內 fanout 最強，en/ja/ko 受眾較小但 RPG history 圈仍有 niche demand）
-  - 配圖建議：article hero（rayark/大宇 logo 改 大宇 1990s DOS 遊戲截圖 fair-use editorial commentary 或 IP 公告截圖）
-  - Hook tier 自檢：避免 Tier 3「時代的眼淚」frame 一鍵塞爆；用 article §五億的告別 同款「磨一把不知道可不可以用的劍」總經理引語克制度
-  - 跟 SPORE-LOG 14d 無重複（最近 Technology spore 是 5/25 #89/#90 雷亞遊戲，hook type 場景；本 candidate 走數字/身份分離；雷亞跟大宇雙劍正好構成「赤燭做返校、雷亞做 DEEMO」的後續血脈 — article §留下了什麼 已 cross-link 雷亞）
-
----
-
 ### 葉廷皓 — 趁熱 spore（5/22 ship Art 音像藝術家整座生態）
 
 - **Source-Mode**: `EXISTING-ARTICLE`
