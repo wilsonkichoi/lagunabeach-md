@@ -59,6 +59,25 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 國家人權博物館 EVOLVE Round 2 — 2026-05-26 manual 補充（哲宇 directive「補充更多園區與意義 還有故事的介紹」+ 6 個 NHRM 官方 source URL + 1 影片轉錄分析 — Round 1 4772 CJK / 26 footnote / 3 圖 → Round 2 **7780 CJK / 40 footnote / 3 圖 + 2 iframe / 7 H2**）
+
+- **Article**: [knowledge/History/國家人權博物館.md](../../knowledge/History/國家人權博物館.md) — 7780 CJK chars (173% 4500) / 40 footnote / 7 H2 / 3 hero+inline 圖 + 2 video iframe（NHRM 景美園區簡介影片 L-qcP5M9rQU + 2025 綠島藝術季宣傳影片 aopbDtOisVM）
+- **Round 2 Research**: [reports/research/2026-05/國家人權博物館-stage1-round2.md](../../reports/research/2026-05/國家人權博物館-stage1-round2.md) — 671 行 / 45 KB / general-purpose agent 17 WebSearch + 18 WebFetch = 35 ops / 中文 90%+
+- **Transcript Analysis**: [reports/research/2026-05/transcripts/nhrm-L-qcP5M9rQU/transcript-analysis.md](../../reports/research/2026-05/transcripts/nhrm-L-qcP5M9rQU/transcript-analysis.md) — faster-whisper 2347 CJK + STT 校正 + 10 個 key 新事實萃取
+- **Round 2 補強 angle**：「博物館作為**記憶基礎建設**」(memory infrastructure)。三資料庫 + 兩園區空間 + 影像/VR/口述史/文學作品 channel + 受難者親自參與 — 補強 Round 1 Hybrid A+C 核心矛盾但不替換
+- **重大事實修正 (Round 2 plot twist)**：
+  - **蔣中正介入次數**: Round 1「4,101 次」→ Round 2 促轉會 2021/2/25 官方數字「終審死刑 1,153 人 / 介入 970 人 / 改判死刑 259 件」(Round 1 4101 無官方 source 可能 conflate)
+  - **twtjdb 筆數**: Round 1「14,946 筆」→ Round 2 官網「**9,915 筆**」現行案件數
+- **新 H2 加入 §「外役醫生病歷上的 300 個名字」**: 陳中統 1969-1979 景美外役醫生病歷夾帶 300+ 名單外洩李敖弟弟+日本友人→國際特赦組織 + 三資料庫 + 文學作品 + 中正紀念堂「拆不掉就住進去」常設展 + 2025 綠島藝術季「一四九海浬」23 組藝術家 7 國際 + 高森信男「藝術成為對抗時間的劍柄」quote
+- **§2 景美深度補 detail**: 仁愛樓押區三種房（獨居房軟墊 1980 加裝防自殘 / 小押房 3-4 / 大押房 6-10 / 女囚二樓左側雙排）+ 林池受難者設計獬豸水池 + 軍法庭判死刑加腳鐐送安坑刑場流程 + 放風 15 分鐘 + 家屬玻璃電話 10 分鐘探視 + 政治犯子女小六探視 quote + 柏楊崔小萍陳中統兩爆炸案 list + 監察院糾正汪希苓特區爭議
+- **§4 蔣中正數字修正**: 1,153 終審死刑 / 970 介入 / 259 改判死刑 + 胡適 1953 quote「憲法只許總統有減刑與特赦之權」+ 蔣中正親筆「處死刑」「應處死刑」「槍決可也」「此人為何不槍決」+ 1956 軍事審判法 133 條總統不得逕為變更原判決
+- **結尾段補**: 影片結尾 4 句受訪者願景蒙太奇（平安健康長大 / 模特兒 / 環遊世界 / 85 歲繼續念書）+ 獬豸水池 echo + 「能被凍結的不是這座博物館,是這套還沒完成的記憶基礎建設」收束
+- **iframe 嵌入 2 個 NHRM 官方影片** (per REWRITE-PIPELINE Step 4.3.6 影片 iframe 嵌入升級): L-qcP5M9rQU 景美園區簡介(放陳中統段)+ aopbDtOisVM 2025 綠島藝術季宣傳(放劍柄 quote 後)
+- **新 footnote 14 條**: 27 仁愛樓 NHRM 官網 / 28 獬豸水池 / 29 軍事法庭 / 30 NHRM YouTube L-qcP5M9rQU + transcript-analysis / 31 監察院糾正案 / 32 陳中統國家人權記憶庫 / 33 歐陽文口述歷史 / 34 國家人權記憶庫官網 / 35 twtjdb 官網 / 36 wtl 官網 / 37 《超級大國民》維基 / 38 《無法離開的人》VR NHRM 新聞稿 / 39 「自由的靈魂 vs. 獨裁者」NHRM 新聞稿 / 40 2025 綠島藝術季 NHRM 新聞稿
+- **品質**: prose-health hard=0 score=2 ≤ 3 ✅ / footnote-format ✅ / footnote-density ✅ / chronicle-lead ✅ / frontmatter-format ✅ / word-count 7780/4500 173% ✅ / image-health 3 張 ✅ / cjk-punct ✅ / wikilink-target ✅ / link-target ✅
+- **STT 校正**: 從 Whisper transcript 校正錯字 (博洋→柏楊 / 崔小平→崔小萍 / 陳忠統→陳中統 / 興典西畔→新店溪畔 / 汪希林→汪希苓 / 著商→著重 / 火箭→和解 / 批鑒→闢建 / 流日→留日 / 國際的第一法庭→景美第一法庭)
+- **下一步**: 走 SPORE-PIPELINE 自動發 spore (per 哲宇 directive「完成後幫我自動化做完整的 /twmd-spore +發布」) + ARTICLE-INBOX EVOLVE entry consumption (如有) + babel-nightly cron 自動撿翻譯
+
 ### 國家人權博物館 NEW — 2026-05-26 manual（哲宇 explicit /twmd-rewrite「深度研究國家人權博物館」directive — History 戰後與威權 / Fresh 模式 4772 CJK / 26 footnote / 3 圖 / 6 H2 / Hybrid A+C 核心矛盾「國家自我紀念博物館的悖論」）
 
 - **Article**: [knowledge/History/國家人權博物館.md](../../knowledge/History/國家人權博物館.md) — 4772 CJK chars / 26 footnote / 6 H2 / 3 圖（hero nhrm-tsai-unveil-2018 Wikimedia CC BY 2.0 總統府 + 2 inline nhrm-greenisland-monument-2022 CC BY-SA 4.0 / nhrm-jingmei-park PD Voice of America）
