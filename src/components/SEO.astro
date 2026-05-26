@@ -1,5 +1,5 @@
 ---
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import {
   LANGUAGES,
@@ -8,6 +8,16 @@ import {
   getLanguage,
   type Lang,
 } from '../config/languages';
+
+// Read live article count from prebuilt vitals so SEO meta tracks reality.
+// Falls back to 752 if file missing. 2026-05-27 Wave 3 Phase 12 — stale
+// "660+" copy was caught during AI reader SEO polish audit.
+let _liveArticleCount = 752;
+try {
+  const vitalsPath = resolve(process.cwd(), 'public/api/dashboard-vitals.json');
+  const v = JSON.parse(readFileSync(vitalsPath, 'utf-8'));
+  if (typeof v.totalArticles === 'number') _liveArticleCount = v.totalArticles;
+} catch {}
 
 interface Props {
   title: string;
@@ -29,8 +39,8 @@ const { lang = 'zh-TW' } = Astro.props;
 const {
   title,
   description = lang === 'zh-TW'
-    ? '開源、AI-friendly 的台灣完整知識庫。660+ 頁深度內容涵蓋歷史、文化、美食、音樂、科技等 12 大主題，由社群共同編撰，讓全世界認識真正的台灣。'
-    : 'The open-source, AI-friendly knowledge base about Taiwan. 660+ pages covering history, culture, food, music, technology and more — written by the community, for the world.',
+    ? `開源、AI-friendly 的台灣完整知識庫。${_liveArticleCount}+ 頁深度內容涵蓋歷史、文化、美食、音樂、科技等 12 大主題，由社群共同編撰，讓全世界認識真正的台灣。`
+    : `The open-source, AI-friendly knowledge base about Taiwan. ${_liveArticleCount}+ pages covering history, culture, food, music, technology and more — written by the community, for the world.`,
   image = '/images/taiwan-social.jpg',
   url = Astro.url.href,
   type = 'website',
