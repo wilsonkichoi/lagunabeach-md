@@ -179,11 +179,13 @@ const generateJSONLD = () => {
         height: 630,
       },
     },
+    // 2026-05-27: point SearchAction at /explore (the actual search-first
+    // UX, shipped 2026-05-10) instead of the non-existent /search route.
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: `${siteUrl}/search?q={search_term_string}`,
+        urlTemplate: `${siteUrl}/explore?q={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
     },
@@ -197,18 +199,49 @@ const generateJSONLD = () => {
 
 const jsonLD = generateJSONLD();
 
-// Organization Schema for all pages
+// Organization Schema for all pages.
+// 2026-05-27 Wave 2 / Phase 7: expanded for AI reader SEO (PerplexityBot /
+// OAI-SearchBot / GPTBot / Googlebot) per LONGINGS §擴散渴望 #4. Added:
+//   - `knowsAbout` topical authority signals (12 category domains)
+//   - `inLanguage` explicit list of all 6 enabled locales
+//   - `slogan` for cite-able tagline
+// See reports/homepage-evolution-2026-05-26.md §Gap 5.
 const organizationLD = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'Taiwan.md',
+  alternateName: ['台灣 .md', 'taiwan.md'],
   url: siteUrl,
   logo: `${siteUrl}/images/taiwan-social.jpg`,
   description:
     lang === 'zh-TW'
-      ? '開源、AI-friendly 的台灣知識庫'
-      : 'Open-source, AI-friendly knowledge base about Taiwan',
-  foundingDate: '2024',
+      ? '開源、AI-friendly 的台灣知識庫 — 一個會呼吸的數位生命體，752+ 篇深度策展文章、6 種語言、社群共編。'
+      : 'Open-source, AI-friendly knowledge base about Taiwan — a digital organism with 752+ curated articles in 6 languages, co-edited by the community.',
+  slogan:
+    lang === 'zh-TW'
+      ? '策展島嶼的深度敘事'
+      : 'Curating the deep narratives of an island',
+  foundingDate: '2024-03-17',
+  inLanguage: ENABLED_LANGUAGE_CODES,
+  knowsAbout: [
+    'Taiwan history',
+    'Taiwan culture',
+    'Taiwan geography',
+    'Taiwan politics',
+    'Taiwan economy',
+    'Taiwan society',
+    'Taiwanese food',
+    'Taiwan music',
+    'Taiwan art',
+    'Taiwanese people',
+    'Taiwan nature',
+    'Taiwan technology',
+    'Taiwan lifestyle',
+    'Semiconductor industry',
+    'Cross-strait relations',
+    'Taiwanese democracy',
+    'Indigenous Taiwanese peoples',
+  ],
   sameAs: [
     'https://github.com/frank890417/taiwan-md',
     'https://x.com/taiwandotmd',
@@ -221,6 +254,98 @@ const organizationLD = {
     contactType: 'Customer Support',
   },
 };
+
+// WebSite schema with SearchAction — registers internal search with crawlers.
+// Helps Google Sitelinks Search Box + LLM crawlers know we have a queryable
+// knowledge base (not just a static blog).
+const websiteLD = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Taiwan.md',
+  url: siteUrl,
+  inLanguage: ENABLED_LANGUAGE_CODES,
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: `${siteUrl}/explore?q={search_term_string}`,
+    },
+    'query-input': 'required name=search_term_string',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Taiwan.md',
+    url: siteUrl,
+  },
+};
+
+// CollectionPage schema — only emitted for the homepage. Tells AI crawlers
+// that `/` is the index of a structured knowledge collection across the 12
+// category hubs (not just a marketing landing). Each hub is a `hasPart`.
+const isHomepage = (() => {
+  try {
+    const p = new URL(url).pathname.replace(/\/+$/, '/');
+    if (p === '/') return true;
+    // Non-default lang homepages: /en/ /ja/ /ko/ /fr/ /es/
+    return /^\/(en|ja|ko|fr|es)\/?$/.test(p);
+  } catch {
+    return false;
+  }
+})();
+
+const HOMEPAGE_CATEGORY_HUBS = [
+  'history',
+  'geography',
+  'culture',
+  'food',
+  'art',
+  'music',
+  'technology',
+  'nature',
+  'people',
+  'society',
+  'economy',
+  'lifestyle',
+];
+
+const homepageCollectionLD = isHomepage
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      '@id': url,
+      url: url,
+      name: title,
+      description: description,
+      inLanguage: lang,
+      isPartOf: {
+        '@type': 'WebSite',
+        '@id': siteUrl,
+        name: 'Taiwan.md',
+      },
+      mainEntity: {
+        '@type': 'ItemList',
+        name:
+          lang === 'zh-TW'
+            ? 'Taiwan.md 知識策展 12 大主題'
+            : 'Taiwan.md 12 curated knowledge domains',
+        numberOfItems: HOMEPAGE_CATEGORY_HUBS.length,
+        itemListElement: HOMEPAGE_CATEGORY_HUBS.map((slug, i) => {
+          // For non-default langs, hub URL has lang prefix
+          const langPrefix = lang === DEFAULT_LANGUAGE.code ? '' : `/${lang}`;
+          return {
+            '@type': 'ListItem',
+            position: i + 1,
+            item: {
+              '@type': 'CollectionPage',
+              '@id': `${siteUrl}${langPrefix}/${slug}`,
+              url: `${siteUrl}${langPrefix}/${slug}`,
+              name: slug,
+            },
+          };
+        }),
+      },
+    }
+  : null;
 
 // Dynamic keywords (zh-TW gets Chinese keywords; all other langs get English)
 const baseKeywords =
@@ -492,6 +617,18 @@ const breadcrumbLD = generateBreadcrumbLD();
   type="application/ld+json"
   set:html={JSON.stringify(organizationLD, null, 2)}
 />
+<script
+  type="application/ld+json"
+  set:html={JSON.stringify(websiteLD, null, 2)}
+/>
+{
+  homepageCollectionLD && (
+    <script
+      type="application/ld+json"
+      set:html={JSON.stringify(homepageCollectionLD, null, 2)}
+    />
+  )
+}
 {
   breadcrumbLD && (
     <script
