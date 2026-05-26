@@ -1,375 +1,359 @@
 ---
-title: "Taiwan's Diplomatic Allies and International Diplomacy: 12 Allies, 113 Missions, Visa-Free for 177 Countries (2026)"
-description: "On January 15, 2024, within 48 hours of Lai Ching-te's election as President, Nauru announced the severance of diplomatic ties, reducing the number of allies from 13 to 12. However, in the same year, Taiwan established 113 overseas missions, its passport allows access to 177 countries, TSMC produces 90% of the world's advanced chips, and the European Parliament passed a resolution opposing China's distortion of UN Resolution 2758 with a vote of 432:60:71. Paper recognition is shrinking, while the shadow network is expanding, and the battle over the interpretation of international law is reversing."
+title: '대만의 수교국과 국제 외교: 12개 수교국, 113개 재외 공관, 177개국 무비자(2026)'
+description: '2024년 1월 15일, 라이칭더가 총통에 당선된 지 48시간 만에 나우루가 단교를 발표하면서 수교국은 13개국에서 12개국으로 줄었다. 그러나 같은 해 대만은 113개의 재외 공관을 두었고, 여권으로 177개 국가에 갈 수 있었으며, TSMC는 전 세계 첨단 칩의 90%를 생산했고, 유럽의회는 432:60:71로 중국의 유엔 총회 결의 제2758호 왜곡에 반대하는 결의를 통과시켰다. 종이 위의 승인은 줄어들고, 그림자 네트워크는 확장되며, 국제법 해석전은 뒤집히고 있다.'
 date: 2026-04-28
-category: 'Society'
-tags: ['diplomacy', 'allies', 'international relations', 'cross-strait', 'UN', 'silicon shield']
-subcategory: 'International Relations'
 author: 'Taiwan.md Contributors'
+category: 'Society'
+subcategory: '國際關係'
+tags: ['외교', '수교국', '국제 관계', '양안', '유엔', '실리콘 방패']
 readingTime: 16
 lastVerified: 2026-04-28
 lastHumanReview: false
-sporeLinks:
-  - platform: 'threads'
-    date: '2026-04-29'
-    url: 'https://www.threads.com/@taiwandotmd/post/DXtCIBCEeTh?xmt=AQF00UmSgX_psrM3oEzyol1G5-uzmnwiLTKilOhh_lJbhQ'
-    views: 17000
-    likes: 500
-    reposts: 56
-    comments: 63
-    shares: 14
-  - platform: 'x'
-    date: '2026-04-29'
-    url: 'https://x.com/taiwandotmd/status/2049358488246349945'
-    views: 59190
-    likes: 1192
-    reposts: 212
-    comments: 115
-    shares: 69
+featured: true
 translatedFrom: 'Society/台灣邦交國與國際外交.md'
-sourceCommitSha: 'ce7f10f8'
+sourceCommitSha: '5db9f136e'
 sourceContentHash: 'sha256:106427f4b2a59983'
 sourceBodyHash: 'sha256:52dab0b7f31fb6c8'
-translatedAt: '2026-05-09T14:31:08Z'
+translatedAt: '2026-05-26T05:10:57+08:00'
 ---
 
-# Taiwan's Diplomatic Allies and International Diplomacy: 12 Allies, 113 Missions, Visa-Free for 177 Countries
+# 대만의 수교국과 국제 외교: 12개 수교국, 113개 재외 공관, 177개국 무비자
 
-> **30-Second Overview:** The Republic of China (Taiwan) currently has **12 diplomatic allies**, the fewest among major global economies. Simultaneously, Taiwan has established approximately **113 overseas missions** in **71 countries**, its citizens' passports allow access to **177 countries and regions**[^1], TSMC produces approximately 90% of the world's high-end chips[^2], and in 2024, the European Parliament passed a resolution opposing China's distortion of UN Resolution 2758 with a vote of **432:60:71**[^3]. These three sets of numbers stand side by side; this is the entirety of the article.
+> **30초 개관:** 대만(중화민국)은 현재 **12개 수교국**을 두고 있으며, 전 세계 주요 경제체 가운데 수교국 수가 가장 적다. 동시에 대만은 **71개 국가**에 약 **113개 재외 공관**을 설치했고, 시민의 여권으로 **177개 국가 및 지역**에 갈 수 있으며[^1], TSMC는 전 세계 고급 칩의 약 90%를 생산하고[^2], 2024년 유럽의회는 **432:60:71**의 표결로 중국의 유엔 결의 제2758호 왜곡에 반대하는 결의를 통과시켰다[^3]. 이 세 묶음의 숫자를 나란히 놓는 것이 이 글의 전부다.
 
-## 48 Hours After Lai Ching-te's Election
+## 라이칭더 당선 후 48시간
 
-On the evening of January 13, 2024, Lai Ching-te won the presidential election.
+2024년 1월 13일 밤, 라이칭더는 총통 선거에서 승리했다.
 
-Two days later (January 15) at 11:45 AM, Nauru President David Adeang held a press conference in the capital, Yaren, announcing that "Nauru recognizes the People's Republic of China as the sole legitimate government representing China," thereby terminating diplomatic relations with the Republic of China immediately[^4].
+이틀 뒤인 1월 15일 오전 11시 45분, 나우루공화국 대통령 David Adeang은 수도 야렌(Yaren)에서 기자회견을 열고 “나우루는 중화인민공화국이 중국을 대표하는 유일한 합법 정부임을 승인한다”고 발표하며, 당일부로 중화민국과의 외교 관계를 종료했다[^4].
 
-Then-Minister of Foreign Affairs Joseph Wu was in Guatemala at that time.
+당시 외교부장이던 우자오셰는 그날 과테말라에 있었다.
 
-His reaction, according to accounts from Foreign Ministry officials, was "very angry"—because significant effort had been invested in Nauru[^5]. At 2:15 PM, Deputy Minister of Foreign Affairs for Political Affairs, Tian Zhongguang, held a press conference in Taipei, revealing that Nauru's new government was "asking for sky-high aid from us and comparing prices with the mainland": Nauru sought to fill the fiscal gap left by the closure of Australia's domestic refugee processing center (approximately NT$2.6 billion per year, more than half of Nauru's national annual budget), plus engineering costs for the 2026 Micronesia Games[^6]. Taiwan evaluated the situation and sought cooperation with neighboring countries; negotiations were still in the mid-stage when China promised Nauru $100 million in annual aid[^7]. Nauru chose the side with the higher bid.
+외교부 관계자가 전한 그의 당시 반응은 “매우 분노했다”는 것이었다. 나우루에 많은 공을 들였기 때문이다[^5]. 오후 2시 15분, 외교부 정무차장 톈중광은 타이베이에서 기자회견을 열어 나우루 신정부가 “우리에게 터무니없는 규모의 재정 지원을 요구했고, 대안 쪽과 가격 비교까지 했다”고 밝혔다. 나우루가 요구한 것은 호주가 자국 내 난민 처리 센터를 폐쇄한 뒤 생긴 재정 공백, 즉 연간 약 신타이완달러 26억 위안으로 나우루 국가 연간 예산의 절반을 넘는 금액과 2026년 미크로네시아 게임 공사비였다[^6]. 대만은 이를 평가한 뒤 인접국들과 함께 협력 방안을 논의하고 있었고, 협상은 아직 중반 단계였는데, 중국이 나우루에 매년 1억 달러 지원을 약속했다[^7]. 나우루는 더 높은 견적을 제시한 쪽을 택했다.
 
-> **📝 Curator's Note**
-> Taiwan has become accustomed to losing when it comes to diplomatic allies. From a peak of 70 countries in 1969 to 12 in 2024, the average loss is more than one per year over five decades. However, after reading this article, you will find that the number of allies is just one thread of Taiwan's diplomacy—and not the most critical one.
+> **📝 큐레이터 노트**
+> 수교국 문제에서 대만은 이미 패배에 익숙해졌다. 1969년 정점의 70개국에서 2024년 12개국으로, 50년 동안 평균 매년 하나 이상씩 줄었다. 그러나 이 글을 다 읽고 나면 알게 된다. 수교국 숫자는 사실 대만 외교의 여러 선 가운데 하나일 뿐이며, 그것도 가장 핵심적인 선은 아니다.
 
-## From 70 to 12: A Half-Century of Disintegration
+## 70에서 12로: 50년 붕괴의 역사
 
-| 70 → 22                      | 21 → 12                   |
-| --------------------------- | ------------------------ |
-| 1969-1988 (Chiang Kai-shek, Chiang Ching-kuo) | 2016-2024 (Tsai Ing-wen, 8 years) |
+| 70 → 22                   | 21 → 12                 |
+| ------------------------- | ----------------------- |
+| 1969-1988(장제스, 장징궈) | 2016-2024(차이잉원 8년) |
 
-The number of the Republic of China's diplomatic allies was at its highest not during the Taipei era, but in the early years after retreating to Taiwan during the Cold War peak. In 1969, there were 70 countries, relying on the overall layout of the anti-communist camp[^8].
+중화민국 수교국 수의 최고점은 타이베이 시대가 아니라, 난징에서 패퇴해 대만으로 온 지 몇 년 지나지 않은 냉전의 고점에 있었다. 1969년 70개국은 반공 진영의 전체 구도에 기대어 가능했다[^8].
 
-This was followed by a series of turning points:
+이후 일련의 변곡점이 이어졌다.
 
-1. **1971/10/25** — UN General Assembly adopted Resolution 2758. ROC UN Representative Joseph S. M. Koo took the stage voluntarily before the vote to read an withdrawal statement: "Because the current UN is shrouded in irrational emotions and procedures, the ROC delegation will no longer participate in any UN meetings from now on."[^9] He then led the delegation out in a fish-like formation. The resolution passed 76 to 35.
-2. **1972/9/29** — Japan severed ties. Tanaka Kakuei flew to Beijing.
-3. **1979/1/1** — The US severed ties. The Carter administration shifted course; the Taiwan Relations Act was introduced in April as a remedy[^10].
-4. **1989-1996** — Lee Teng-hui's "Pragmatic Diplomacy" rebound period, where the number of allies temporarily rose from 22 to 31. The most painful loss during this period was **South Korea on 1992/8/23**: The Roh Tae-woo government demanded ROC embassy staff leave within 24 hours, and the embassy land and buildings were confiscated and transferred to Beijing—in the memories of retired diplomats, this scene was simplified into one phrase: "Confiscated the embassy, betrayed the Five Tigers."[^11]
-5. **2008-2016** — Ma Ying-jeou's "Diplomatic Truce" period. Only one country severed ties (Gambia) over 8 years, but no new allies were added. This stability came at the cost of cross-strait relations.
-6. **2016-2024** — Tsai Ing-wen's 8 years saw the loss of 10 allies, the highest record since the lifting of martial law. The timing and Chinese conditions for each are detailed below.
+1. **1971/10/25** — 유엔 총회가 결의 제2758호를 통과시켰다. 중화민국 유엔 대표 저우수카이는 표결 전 스스로 연단에 올라 탈퇴 성명을 낭독했다. “현재 유엔은 비이성적 정서와 절차 아래 놓여 있으므로, 중화민국 대표단은 지금부터 유엔의 어떤 회의에도 더 이상 참여하지 않는다.”[^9] 이어 대표단을 이끌고 줄지어 퇴장했다. 결의는 76 대 35로 통과됐다.
+2. **1972/9/29** — 일본이 단교했다. 다나카 가쿠에이가 베이징으로 날아갔다.
+3. **1979/1/1** — 미국이 단교했다. 카터 행정부가 방향을 틀었고, 4월에야 《대만관계법》으로 보완했다[^10].
+4. **1989-1996** — 리덩후이의 “실무 외교” 반등기였다. 수교국은 22개국에서 한때 31개국까지 회복됐다. 같은 시기 가장 뼈아프게 잃은 국가는 **1992/8/23의 한국**이었다. 노태우 정부는 중화민국 공관원들에게 24시간 내 출국을 요구했고, 대사관 토지와 건물을 전부 몰수한 뒤 베이징에 넘겼다. 훗날 퇴직 외교관들의 회고에서 이 장면은 “대사관을 몰수하고, 다섯 호랑이를 배신했다”는 한마디로 압축됐다[^11].
+5. **2008-2016** — 마잉주의 “외교 휴전” 시기였다. 8년 동안 단교는 1개국, 감비아뿐이었지만 새 수교국도 없었다. 이 안정은 양안 관계의 대가를 치르고 얻은 것이었다.
+6. **2016-2024** — 차이잉원 8년 동안 모두 10개 수교국을 잃었다. 계엄 해제 이후 최고 기록이다. 각각의 시점과 중국으로부터 받은 조건은 뒤에서 살펴본다.
 
-The numbers are cold. But behind each number is a set of negotiations, a set of aid, and a decision by a president or king.
+숫자는 차갑다. 그러나 각 숫자 뒤에는 하나의 협상, 하나의 재정 지원, 한 명의 대통령 또는 국왕의 결정이 있다.
 
-## The 10 Farewells of Tsai Ing-wen's 8 Years
+## 차이잉원 8년의 열 번의 작별
 
-These 10 countries share a common pattern: New governments take office, demanding aid packages several times better than before; Taiwan refuses, and China steps in[^12].
+이 10개국에는 하나의 공통된 pattern이 있다. 새 정부가 출범하고, 대만에 과거보다 몇 배나 많은 재정 지원을 요구한다. 대만이 받아들이지 않으면 중국이 접수한다[^12].
 
-1. **2016/12/21** — São Tomé and Príncipe
-2. **2017/6/13** — Panama. The Varela government gave no prior warning.
-3. **2018/5/1** — Dominican Republic
-4. **2018/5/24** — Burkina Faso
-5. **2018/8/21** — El Salvador
-6. **2019/9/16** — Solomon Islands
-7. **2019/9/20** — Kiribati (Lost 2 countries within 4 days, the most dense week in the history of severing ties)
-8. **2021/12/10** — Nicaragua (Ortega government)
-9. **2023/3/26** — Honduras
-10. **2024/1/15** — Nauru
+1. **2016/12/21** — 상투메 프린시페
+2. **2017/6/13** — 파나마. Varela 정부는 사전에 아무런 경고도 하지 않았다
+3. **2018/5/1** — 도미니카공화국
+4. **2018/5/24** — 부르키나파소
+5. **2018/8/21** — 엘살바도르
+6. **2019/9/16** — 솔로몬제도
+7. **2019/9/20** — 키리바시. 4일 안에 2개국을 잃은, 단교 역사상 가장 밀집된 한 주였다
+8. **2021/12/10** — 니카라과. Ortega 정부
+9. **2023/3/26** — 온두라스
+10. **2024/1/15** — 나우루
 
-Honduras deserves a pause. The Castro government submitted a $6 billion construction plan to China upon taking office, asked Taiwan for $2.5 billion in aid, demanded Taiwan double its annual aid from $50 million, and help restructure $600 million in debt[^13]. Taiwan could not keep up with this price tag.
+온두라스 건은 잠시 멈춰 볼 만하다. Castro 정부는 출범하자마자 중국에 60억 달러 규모의 건설 방안을 제시했고, 대만에는 25억 달러의 재정 지원, 기존 연 5,000만 달러 원조의 두 배 증액, 6억 달러 채무 재조정을 요구했다[^13]. 대만은 이 가격을 따라갈 수 없었다.
 
-> **✦** "China just wants to colonize us."
+> **✦** “중국은 우리를 식민화하러 오려 할 뿐이다.”
 
-This is what Honduras' former Vice President said to the media looking back in 2024[^14]. According to an ETtoday exposé in April 2025, the amount China initially promised had only $280 million in school renovation funds and $100,000 in medical donations actually materialized by 2025; the rest mostly defaulted[^15].
+이는 온두라스 전 부통령이 2024년 돌아보며 언론에 한 말이다[^14]. ETtoday가 2025년 4월 폭로한 내용에 따르면, 중국이 당초 약속한 금액 가운데 2025년까지 실제 집행된 것은 2억 8,000만 달러의 학교 보수 비용과 10만 달러의 의료 기부뿐이었고, 나머지 대부분은 이행되지 않았다[^15].
 
-But once diplomatic ties are severed, restoration is almost impossible. Regret cannot go back.
+그러나 수교국이 한 번 단교하면 복교는 거의 불가능하다. 후회해도 돌아갈 수 없다.
 
-## The Group Portrait of 12 Countries: Who, Why, and Will They Leave?
+## 12개국의 군상: 누구이며, 왜 남아 있고, 떠날 것인가
 
-Of the 12 diplomatic allies, 3 are in Oceania, 1 in Africa, 1 in Europe, and 7 in Latin America and the Caribbean[^16]. Memorizing them as a list is meaningless. It is more useful to see which ones have stories.
+12개 수교국 가운데 3개국은 오세아니아, 1개국은 아프리카, 1개국은 유럽, 7개국은 라틴아메리카와 카리브해에 있다[^16]. 이를 하나의 명단으로 외우는 것은 의미가 없다. 어느 국가에 어떤 이야기가 있는지를 보는 편이 더 유용하다.
 
-### The Holy See: One Vote for 900 Million Catholics
+### 교황청: 9억 가톨릭 신자의 한 표
 
-Diplomatic relations were established during the Nationalist Government period in 1942, making it one of the longest-standing diplomatic relationships today, spanning 84 years. The Holy See is a UN observer state, **the only non-UN member among Taiwan's diplomatic allies**[^17].
+1942년 국민정부 시기에 수교해 지금까지 84년을 이어 왔으며, 현존하는 가장 오래된 수교 관계 가운데 하나다. 교황청은 유엔 옵서버 국가이자, **대만의 수교국 가운데 유일한 비유엔 회원국**이다[^17].
 
-The Holy See's true movements lie not in the Foreign Ministry, but in bishop appointments. China and the Holy See signed a provisional agreement on bishop appointments in 2018, with the most recent renewal in 2024. If Beijing unilaterally appoints bishops in the future and the Holy See does not object, the survival of the Holy See-Taiwan diplomatic relationship will enter a test period.
+교황청의 실제 향방은 외교부가 아니라 주교 임명에 있다. 중국과 바티칸은 2018년 주교 임명에 관한 임시 협정을 맺었고, 가장 최근의 갱신은 2024년에 이뤄졌다. 앞으로 베이징이 일방적으로 주교를 임명하고 교황청이 반대하지 않는다면, 대만-교황청 수교의 존속은 시험기에 들어갈 것이다.
 
-Pope Francis passed away in April 2025. On May 8, Robert Francis Prevost was elected, the first North American-born pope in history, taking the title Leo XIV (Leo XIV)[^18]. The new pope's China policy has not yet fully unfolded.
+2025년 4월 프란치스코 교황이 선종했고, 5월 8일 Robert Francis Prevost가 선출됐다. 그는 역사상 첫 북미 출신 교황이며, 칭호는 레오 14세(Leo XIV)다[^18]. 새 교황의 대중국 노선은 아직 완전히 드러나지 않았다.
 
-Foreign Minister Joseph Wu publicly listed "Haiti" and the "Holy See" as the two allies requiring "special attention" in a Public Television interview in March 2025[^19]—said euphemistically, but the meaning is clear enough.
+외교부장 린자룽은 2025년 3월 공영방송 PTS 인터뷰에서 “아이티, 교황청”을 “특별히 주의를 기울여야 할” 두 수교국으로 공개적으로 병렬했다[^19]. 표현은 완곡했지만 뜻은 충분히 분명했다.
 
-### Paraguay: The Only One in South America, Sustained by 69 Years of the Colorado Party's Bloodline
+### 파라과이: 남미의 유일한 수교국, 콜로라도당 혈통으로 버틴 69년
 
-Diplomatic relations were established in 1957. **Paraguay is Taiwan's only ally in South America**, having survived over six decades including the post-1989 coup diplomatic crisis and long-term pressure from China's market and political inducements; see [파라과이와 대만](/society/巴拉圭與台灣/) for the full context.
+1957년 수교했다. **남미에서 대만의 유일한 수교국**으로, 60여 년 동안 1989년 쿠데타 이후의 단교 위기와 중국 시장 및 정치적 포섭의 장기 압력을 지나왔다. 전체 맥락은 《[파라과이와 대만](/society/巴拉圭與台灣/)》에서 볼 수 있다.
 
-Paraguay's Colorado Party has been in power intermittently since 1947 for over 70 years. Anti-communism and pro-Taiwanism are structural legacies left by the Cold War era. The 2023 election winner, Santiago Peña, is a Colorado Party candidate, while the opposition Liberal Party advocates reviewing Taiwan policy—voters chose the Colorado Party, which equals choosing to continue diplomatic ties.
+파라과이의 콜로라도당(Colorado Party)은 1947년부터 현재까지 단속적으로 70년 넘게 집권해 왔고, 반공·친대만 노선은 냉전 구도가 남긴 구조적 유산이다. 2023년 선거 승자 Santiago Peña는 콜로라도당 후보였고, 자유당 경쟁자는 대만 정책 재검토를 주장했다. 유권자들이 콜로라도당을 선택한 것은 수교 유지도 선택한 셈이었다.
 
-In May 2024, Peña personally flew to Taipei to attend Lai Ching-te's inauguration ceremony[^20]. In November of the same year, Paraguayan Foreign Minister Rubén Ramírez publicly stated during his visit to Taiwan:
+2024년 5월, Peña는 라이칭더의 취임식 참석을 위해 직접 타이베이로 날아왔다[^20]. 같은 해 11월, 파라과이 외무장관 Rubén Ramírez는 대만 방문 중 공개적으로 말했다.
 
-> **✦** "We do not accept severing ties with Taiwan under any conditions."[^21]
+> **✦** “어떤 조건에서도 대만과 단교하는 것을 받아들이지 않는다.”[^21]
 
-But in July 2025, Colorado Party MP Hugo Meza returned from a visit to China and proposed abandoning Taiwan. The underlying consensus among Colorado Party elites is shifting, but it has not yet flipped over.
+그러나 2025년 7월, 콜로라도당 하원의원 Hugo Meza가 중국을 방문한 뒤 귀국해 대만 포기를 요구하는 법안을 제출했다. 기층의 콜로라도당 엘리트 합의는 흔들리고 있다. 아직 넘어가지는 않았을 뿐이다.
 
-### Haiti: So Broken That Even China Doesn't Want to Dig
+### 아이티: 너무 망가져 중국조차 캐내고 싶어 하지 않는 곳
 
-Diplomatic relations were established in 1956. **The highest-risk ally among the 12**.
+1956년 수교했다. **12개 수교국 가운데 위험이 가장 높은 국가**다.
 
-After the assassination of former President Moïse in July 2021, Haiti entered a long period of instability under gang rule. The capital, Port-au-Prince, is like a war zone. The transitional government's promised August 2025 election has been repeatedly delayed[^22].
+2021년 7월 전 대통령 모이즈가 암살된 뒤, 아이티는 갱단이 통치하는 장기 혼란에 빠졌다. 수도 포르토프랭스는 전쟁터 같고, 과도정부가 약속한 2025년 8월 총선은 거듭 연기되고 있다[^22].
 
-Joseph Wu singled out Haiti as requiring "special attention," but there is an counter-intuitive detail: Haiti may not leave, partly because Taiwan can hold on, and partly because **China may not necessarily want it**. A broken country with no stable government, no commercial interests, and no strategic value is not cost-effective for Beijing.
+린자룽은 아이티를 “특별히 주의를 기울여야 할” 국가로 지목했지만, 직관에 반하는 세부 사항이 하나 있다. 아이티가 반드시 떠난다고 볼 수는 없다. 일부는 대만이 붙잡을 수 있기 때문이고, 일부는 **중국이 반드시 원한다고 볼 수 없기 때문**이다. 안정된 정부도, 상업적 이익도, 전략적 가치도 없는 붕괴한 국가라면 베이징 입장에서도 비용 대비 효익이 높지 않다.
 
-This reveals a logic rarely spoken aloud: Whether an ally can be retained is partly not about how hard Taiwan tries, but about whether China is interested.
+이 사실은 사람들이 좀처럼 입 밖에 내지 않는 논리를 드러낸다. 수교국을 지킬 수 있는지는 때로 대만이 얼마나 노력하느냐의 문제가 아니라, 중국이 관심을 갖느냐의 문제다.
 
-### Tuvalu: 82% of the Population is Moving
+### 투발루: 국민 82%가 이주 중인 국가
 
-Diplomatic relations were established in 1979. Population approx. 10,000. **Facing a crisis of national extinction due to rising sea levels**—IPCC data shows its sea-level rise rate is twice the global average, having risen 14 cm in the past 30 years, and potentially rising another 19 cm in the next 30 years[^23].
+1979년 수교했다. 인구는 약 1만 명이다. **해수면 상승으로 국가 소멸 위기에 직면해 있다**. IPCC 자료에 따르면 투발루의 해수면 상승 속도는 세계 평균의 두 배이며, 지난 30년 동안 이미 14센티미터 상승했고 앞으로 30년 동안 다시 19센티미터 오를 수 있다[^23].
 
-In June 2025, Australia opened the world's first "Climate Visa" (a special channel under the Falepili Union Treaty), allowing Tuvaluans to migrate to Australia for long-term residence. By the end of 2025, **approximately 8,750 Tuvaluans applied, equivalent to 82% of the national population**[^24].
+2025년 6월, 호주는 세계 최초의 “기후 비자”를 열었다. Falepili Union 조약 아래의 특별 경로로, 투발루인이 호주로 이주해 장기 체류할 수 있게 한 제도다. 2025년 말까지 **약 8,750명의 투발루인이 신청했으며, 이는 전국 인구의 82%에 해당한다**[^24].
 
-> **⚠️ The population of an ally is migrating to non-allied countries via policy**
-> Tuvalu will not disappear tomorrow, nor will Australia take over tomorrow. But the concept of "sovereignty" is being redefined in this case. If the majority of an ally's citizens live in another country, use another country's welfare system, and pay taxes to another country, where is the "state" nature of the ally?
+> **⚠️ 한 수교국의 인구가 정책적으로 비수교국으로 이동하고 있다**
+> 투발루가 내일 사라지는 것도, 호주가 내일 접수하는 것도 아니다. 그러나 “주권”이라는 개념은 이 사례에서 다시 정의되고 있다. 수교국의 다수 국민이 다른 나라에 살고, 다른 나라의 복지 체계를 이용하며, 다른 나라에 세금을 낸다면 수교국의 “국가”적 성격은 어디에 남는가?
 
-Taiwan and Fiji are the only two Pacific operating fishing vessel jurisdiction countries that signed supporting Tuvalu's maritime boundary declaration[^25]. This is Taiwan's support for the narrative that "even if your land goes into the sea, your maritime sovereignty remains yours."
+대만과 피지는 투발루 해양 경계 선언 지지를 서명한 단 두 개의 태평양 조업 어선 관할국이다[^25]. 이는 “당신의 국토가 바다에 잠기더라도 해역 주권은 여전히 당신의 것”이라는 논리에 대한 대만의 지지다.
 
-### Eswatini: President Lai's April 2026 Flight That Never Took Off
+### 에스와티니: 2026년 4월 라이칭더의 이륙하지 못한 전용기
 
-Diplomatic relations were established in 1968. **Taiwan's last ally in Africa**—having lost 10 African allies cumulatively over the past 30 years[^26]. King Mswati III is one of the last absolute monarchs in Africa, personally visiting Taipei in May 2024 to attend Lai Ching-te's inauguration.
+1968년 수교했다. **아프리카에서 대만의 마지막 수교국**이다. 지난 30년 동안 대만은 아프리카 수교국 10개를 잃었다[^26]. 국왕 Mswati III는 아프리카에 남은 절대군주 가운데 한 명이며, 2024년 5월 라이칭더 취임식 참석을 위해 직접 타이베이에 왔다.
 
-In April 2026, Lai Ching-te was scheduled to depart on April 22 to visit Eswatini to celebrate the triple anniversary of King Mswati III's 40th year on the throne, his 58th birthday, and Eswatini's 58th independence anniversary.
+2026년 4월, 라이칭더는 원래 4월 22일 에스와티니 방문을 위해 출발할 예정이었다. Mswati III 즉위 40주년, 58세 생일, 에스와티니 독립 58주년을 합친 삼중 기념식에 참석하기 위해서였다.
 
-12 hours before departure, the itinerary was suspended.
+출발 12시간 전, 일정이 보류됐다.
 
-The Foreign Ministry explained that the aircraft's route passed through countries that temporarily revoked flight permits. The national security team decided to suspend the trip citing the head of state's and flight safety reasons, instead sending Foreign Minister Joseph Wu as the President's Special Envoy to Eswatini[^27]. Joseph Wu arrived in Eswatini at dawn on April 25—he flew from Taiwan to Vienna, Austria, then boarded a Gulfstream private charter via Qatar Airways from Vienna, entering the African continent, **deliberately avoiding the airspace of Seychelles, Mauritius, and Madagascar**.
+외교부는 전용기 항로가 지나가는 일부 국가가 임시로 비행 허가를 취소했으며, 국가안보팀이 원수와 항공 안전을 이유로 보류를 결정하고, 외교부장 린자룽을 총통 특사 자격으로 에스와티니에 파견했다고 설명했다[^27]. 린자룽은 4월 25일 새벽 에스와티니에 도착했다. 그는 대만에서 먼저 오스트리아 빈으로 날아간 뒤, 카타르항공의 걸프스트림 전세기를 타고 빈에서 출발해 아프리카 대륙을 통해 입국했으며, **세이셸, 모리셔스, 마다가스카르 세 나라의 영공을 일부러 피했다**.
 
-This convoluted route makes the problem clear. China's pressure scope has expanded from the allies themselves to the neighbors of the allies—African air blockades are a new tactic emerging after 2024.
+이 우회 항로는 문제를 매우 분명하게 보여 준다. 중국의 압박 범위는 수교국 자체에서 수교국의 이웃으로 확대됐다. 아프리카 상공 봉쇄는 2024년 이후 등장한 새로운 방식이다.
 
-## Why Only 12 Remain
+## 왜 12개국만 남았는가
 
-There are three structural reasons, with no single answer:
+구조적 이유는 세 가지이며, 단일한 답은 없다.
 
-### 1. The "Translation War" of UN Resolution 2758
+### 1. 유엔 결의 제2758호의 “번역 전쟁”
 
-On October 25, 1971, the UN General Assembly adopted Resolution 2758 with a vote of 76:35:17. The original Chinese text contains only one paragraph:
+1971년 10월 25일, 유엔 총회는 76:35:17로 결의 제2758호를 통과시켰다. 중국어 원문은 한 단락뿐이다.
 
-> Decides: to restore all the rights of the People's Republic of China, to recognize its government's representatives as the sole legitimate representatives of China in the United Nations Organization, and to immediately expel the representatives of Chiang Kai-shek from the place they unlawfully occupy in the United Nations Organization and its specialized agencies.[^28]
+> 결정한다. 중화인민공화국의 모든 권리를 회복하고, 그 정부의 대표를 유엔에서 중국의 유일한 합법 대표로 승인하며, 장제스의 대표를 그들이 유엔 및 그 산하 모든 기구에서 불법적으로 점거하고 있는 의석에서 즉시 추방한다.[^28]
 
-Note four things: The original text does not mention "Taiwan," does not mention the "Republic of China," does not authorize the "One-China Principle," and does not prohibit Taiwan's participation in the UN system.
+네 가지를 주목해야 한다. 원문은 “대만”을 언급하지 않았고, “중화민국”을 언급하지 않았으며, “하나의 중국 원칙”을 승인하지 않았고, 대만의 유엔 체계 참여를 금지하지 않았다.
 
-But for the past half-century, China has translated this paragraph into "2758 equals One-China Principle equals Taiwan is part of China equals no country may establish official relations with Taiwan"—this extended interpretation began to be positively refuted in 2024.
+그러나 중국은 지난 반세기 동안 이 문장을 “2758은 하나의 중국 원칙과 같다 = 대만은 중국의 일부다 = 어떤 국가도 대만과 공식 관계를 맺을 수 없다”로 번역해 왔다. 이 확장 해석은 2024년부터 정면으로 반박되기 시작했다.
 
-In April 2024, US State Department China Coordinator Mark Lambert publicly stated four positions[^29]:
+2024년 4월, 미국 국무부 중국조정관 Mark Lambert는 네 가지 입장을 공개적으로 밝혔다[^29].
 
-1. Resolution 2758 does not recognize, equate to, or reflect any consensus among countries on China's "One-China Principle."
-2. The resolution does not limit the sovereign choice of any country regarding substantial interactions with Taiwan.
-3. The resolution does not constitute the UN's official position on Taiwan's final political status.
-4. The resolution does not exclude Taiwan's meaningful participation in the UN system and other multilateral forums.
+1. 결의 제2758호는 중국의 “하나의 중국 원칙”에 대한 어떤 국가의 공감대를 인정하지도, 그것과 동일하지도, 그것을 반영하지도 않는다
+2. 이 결의는 어떤 국가가 대만과 실질적으로 왕래할 주권적 선택을 제한하지 않는다
+3. 이 결의는 대만의 최종 정치적 지위에 대한 유엔의 공식 입장을 구성하지 않는다
+4. 이 결의는 대만이 유엔 체계와 기타 다자 포럼에 의미 있게 참여하는 것을 배제하지 않는다
 
-On September 18 of the same year, US Deputy Secretary of State Kurt Campbell testified before the House Foreign Affairs Committee, directly pointing out that "China uses Resolution 2758 as a tool to undermine Taiwan's status." On April 23, 2025, the US publicly criticized China's misuse of Resolution 2758 at a UN Security Council meeting[^30].
+같은 해 9월 18일, 미국 국무부 부장관 Kurt Campbell은 하원 외교위원회 증언에서 “중국이 결의 2758호를 도구로 삼아 대만의 지위를 훼손하고 있다”고 직접 지적했다. 2025년 4월 23일, 미국은 유엔 안전보장이사회 회의에서 중국의 2758 결의 오용을 공개적으로 비판했다[^30].
 
-On October 24, 2024, the European Parliament passed a resolution with **432 votes in favor, 60 against, and 71 abstentions**, opposing China's distortion of Resolution 2758, condemning military provocations against Taiwan, and positioning Taiwan as an "EU key partner and Indo-Pacific democratic friend"[^31]. In the same year, parliaments in Australia, Belgium, Canada, the Czech Republic, the Netherlands, and the UK also passed similar motions.
+유럽의회는 2024년 10월 24일 **찬성 432표, 반대 60표, 기권 71표**로 결의를 통과시켜 중국의 결의 제2758호 왜곡에 반대하고, 대만에 대한 군사적 도발을 규탄하며, 대만을 “EU의 핵심 파트너이자 인도·태평양의 민주 우방”으로 규정했다[^31]. 같은 해 호주, 벨기에, 캐나다, 체코, 네덜란드, 영국 의회도 유사한 동의를 통과시켰다.
 
-> **📝 Curator's Note**
-> Resolution 2758 is a paragraph written in 1971. No one has changed it in 50 years. But the way this paragraph has been interpreted is updating in reverse over the past 50 years—this is rare in international law; the original text hasn't changed, but the consensus is changing.
+> **📝 큐레이터 노트**
+> 결의 제2758호는 1971년에 쓰인 한 문장이다. 50년 동안 아무도 고치지 않았다. 그러나 50년 동안 그 문장이 해석되는 방식은 반대로 갱신되고 있다. 이는 국제법에서 매우 드문 일이다. 원문은 변하지 않았고, 합의가 변하고 있다.
 
-### 2. China's Pressure Arsenal
+### 2. 중국의 압박 무기고
 
-China's arsenal is not just one type; it operates as a five-item combination:
+중국의 무기고는 한 가지가 아니다. 다섯 가지가 결합해 작동한다.
 
-- **Aid Engineering**: Promised a $6 billion plan for Honduras, $100 million annually for Nauru, and bound Solomon Islands and Kiribati with infrastructure projects. The fulfillment rate has always been low (Honduras case only $280 million materialized), but it was sufficient at the time of signing.
-- **Bilateral Penetration**: Operates multi-track diplomacy through pro-China MPs in specific countries (e.g., Paraguay MP's visit to China leading to a proposal to abandon Taiwan), and individual contacts by foreign ministers (e.g., Guatemala's Foreign Minister planned in Feb 2024 to develop trade with Beijing while maintaining diplomatic ties).
-- **International Organization Blockade**: Based on the narrative "2758 = One-China Principle," requires organizations to exclude Taiwan (most notably, WHO refused to invite Taiwan as an observer to the WHA starting in 2017[^32]).
-- **Economic Coercion**: After Lithuania agreed to set up a "Taiwanese Representative Office" (using "Taiwanese" instead of the previously common European "Taipei") in 2021, China immediately downgraded diplomatic relations, withdrew its ambassador, and banned Lithuanian goods imports[^33]. The Lithuania case later became a benchmark for the EU on how to resist Chinese economic coercion.
-- **Air Blockade**: Pressure on Seychelles, Mauritius, and Madagascar for African transit in April 2026 is a newly emerged version.
+- **재정 지원 공사**: 온두라스에는 60억 달러 방안 약속, 나우루에는 매년 1억 달러, 솔로몬제도와 키리바시에는 인프라 공사를 결부했다. 약속 이행률은 늘 높지 않았지만, 온두라스의 실제 집행은 2억 8,000만 달러였으나, 서명 당시에는 충분했다.
+- **양자주의 침투**: 특정 국가의 친중 의원, 예컨대 중국 방문 뒤 대만 포기 법안을 제출한 파라과이 하원의원, 외무장관 개별 접촉, 예컨대 과테말라 외무장관이 2024년 2월 수교를 유지한 채 베이징과 무역을 발전시키려 한 계획을 통해 다중 경로를 운용한다.
+- **국제기구 봉쇄**: “2758 = 하나의 중국 원칙”을 논리 기반으로 삼아 각 기구에 대만 배제를 요구한다. 가장 상징적인 사례는 WHO가 2017년부터 대만을 WHA 옵서버로 초청하는 것을 거부한 일이다[^32].
+- **경제 강압**: 리투아니아가 2021년 대만의 “Taiwanese Representative Office” 설치에 동의하자, 즉 과거 유럽에서 흔히 쓰던 “Taipei”가 아니라 “Taiwanese”를 사용하자, 중국은 즉각 외교 등급을 낮추고 리투아니아 주재 대사를 철수시키며 리투아니아 상품 수입을 금지했다[^33]. 리투아니아 사례는 이후 EU가 중국의 경제 강압에 맞서는 방법을 연구하는 지표가 됐다.
+- **상공 봉쇄**: 2026년 4월 세이셸, 모리셔스, 마다가스카르를 대상으로 한 아프리카 경유 압박은 새롭게 등장한 버전이다.
 
-### 3. The Political Economy of Small States
+### 3. 소국의 정치경제학
 
-Of the 12 diplomatic allies, 9 have populations under 1 million. Fiscal dependence on foreign aid is high, climate risks are urgent, and decision-making power is concentrated in a few hands. These are structural conditions, amoral—a decision by a Nauru president can be the turning point for whether Taiwan's Foreign Ministry's year-long work can be preserved.
+12개 수교국 가운데 9개국은 인구가 100만 명 미만이다. 재정은 외부 원조에 크게 의존하고, 기후 위험은 긴박하며, 의사결정권은 소수에게 집중되어 있다. 이것들은 도덕 판단이 아니라 구조적 조건이다. 나우루 대통령 한 명의 손에 놓인 결정이 대만 외교부 1년 전체의 일이 지켜질 수 있는지의 전환점이 될 수 있다.
 
-For these countries, establishing ties with China means larger aid, broader markets, and more infrastructure. **For small states, this is a survival strategy under the格局 of great power competition.** The reduction in allies is essentially a constant in the restructuring of the great power格局.
+이들 국가에 중국과의 수교는 더 큰 재정 지원, 더 넓은 시장, 더 많은 인프라를 뜻한다. **소국에게 이것은 강대국 경쟁 구도 아래의 생존 전략이다.** 수교국 감소는 본질적으로 강대국 구도 재편의 상수다.
 
-## The 113 Missions Behind the 12 Countries
+## 12개국 뒤의 113개 공관
 
-The old calculation was the number of diplomatic allies. The new calculation is the density of the overseas network.
+낡은 계산법은 수교국 숫자였다. 새로운 계산법은 재외 네트워크의 밀도다.
 
-As of December 2025, Taiwan has established approximately 113 overseas missions in 71 countries, 2 regions (Hong Kong, Macau), and 1 international organization (WTO)[^34], including 12 formal embassies (in the 12 allies) and over 100 substantive diplomatic outposts operating under the names of "Representative Offices" or "Offices."
+2025년 12월 현재 대만은 71개 국가, 2개 지역(홍콩, 마카오), 1개 국제기구(WTO)에 약 113개의 재외 공관을 두고 있다[^34]. 여기에는 12개 공식 대사관, 즉 12개 수교국 소재 대사관과, “대표처” “판사처”라는 이름으로 운영되는 100개 이상의 실질 외교 거점이 포함된다.
 
-The most representative is the Taiwan-US relationship. After severing ties in 1979, both sides established institutions:
+가장 대표적인 것은 대만-미국 관계다. 1979년 단교 이후 양측은 서로 기구를 설치했다.
 
-- **TECRO** (Taipei Economic and Cultural Representative Office) in Washington D.C., with 12 branches (Atlanta, Boston, Chicago, Denver, Honolulu, Houston, Los Angeles, Miami, New York, San Francisco, Seattle, Guam)
-- **AIT** (American Institute in Taiwan) in Taipei
+- **TECRO**(타이베이 경제문화대표처)는 워싱턴 D.C.에 있으며, 산하에 12개 분처가 있다. 애틀랜타, 보스턴, 시카고, 덴버, 호놀룰루, 휴스턴, 로스앤젤레스, 마이애미, 뉴욕, 샌프란시스코, 시애틀, 괌이다
+- **AIT**(미국재대만협회)는 타이베이에 있다
 
-These institutions are not called embassies, but their functions are identical: visas, trade, cultural exchange, consular protection, arms sales coordination. The **TECRO/AIT model** later became the template for other non-allied countries' relations with Taiwan.
+이 기관들은 대사관이라고 불리지 않지만 기능은 완전히 같다. 비자, 무역, 문화 교류, 영사 보호, 무기 판매 조정이다. **TECRO/AIT 모델**은 이후 다른 비수교국의 대만 관계 모델이 됐다.
 
-Two recent evolutions:
+최근의 두 가지 진화는 다음과 같다.
 
-- **November 2021**: Lithuania opened the "Taiwanese Representative Office"—the first in Europe to use "Taiwanese" (instead of "Taipei") as its name, viewed by China as crossing a red line[^35].
-- **March 2020**: The US Trump administration signed the **TAIPEI Act** (Taiwan Allies International Protection and Enhancement Initiative Act, Pub.L. 116-135), authorizing the State Department to intervene to protect Taiwan's allies and support Taiwan's entry into stateless international organizations[^36].
+- **2021년 11월** 리투아니아가 “Taiwanese Representative Office”를 개설했다. 유럽에서 “Taipei”가 아니라 “Taiwanese”를 이름에 쓴 첫 대표처였고, 중국은 이를 레드라인 침범으로 보았다[^35].
+- **2020년 3월** 미국 트럼프 행정부는 **TAIPEI Act**(Taiwan Allies International Protection and Enhancement Initiative Act, Pub.L. 116-135)에 서명했다. 이는 국무부가 대만의 수교국 보호에 개입하고, 국가 지위 요건이 없는 국제기구에 대만이 가입하는 것을 지지하도록 권한을 부여했다[^36].
 
-**The US protecting Taiwan's allies itself** is a sign of non-allied countries deeply involving themselves in Taiwan's diplomatic affairs—traditionally, ally affairs should be handled by the two allied parties.
+**미국이 대만 수교국을 보호한다는 사실 자체**가 비수교국이 대만 외교 사무에 깊이 관여하고 있음을 보여 주는 표지다. 전통적으로 수교국 사무는 수교한 양측이 처리해야 하는 문제다.
 
-## Passports Can Go to 177 Countries: Another Measure of Recognition
+## 여권으로 177개 국가에 갈 수 있다: 승인의 또 다른 척도
 
-The Foreign Ministry's official statistics on January 30, 2026: The Republic of China passport enjoys visa-free, visa-on-arrival, and e-visa conveniences, allowing entry to **177 countries and regions** globally[^37].
+외교부의 2026년 1월 30일 공식 통계에 따르면, 중화민국 여권은 무비자, 도착비자, 전자비자 등의 편의를 누리며 전 세계 **177개 국가 및 지역**에 입국할 수 있다[^37].
 
-The Henley Passport Index ranked the Taiwan passport around 33rd globally in 2026, similar to Japan and South Korea.
+여권 순위 지수인 Henley Passport Index는 2026년 대만 여권을 세계 33위 안팎으로 평가했으며, 일본·한국과 비슷하다.
 
-Among these 177 countries, the vast majority do not have diplomatic relations with Taiwan. **What allows passports to pass is not diplomatic recognition, but bilateral mutual trust, economic links, low crime rates, and low illegal immigration records.** The ratio of the number of diplomatic allies to the number of countries accessible by passport is 12:177—approximately 1:15.
+이 177개 국가 대부분은 대만과 수교하지 않았다. **여권 통행을 가능하게 하는 것은 수교가 아니라 양자 신뢰, 경제 연결, 낮은 범죄율, 낮은 불법 이민 기록이다.** 수교국 수와 여권으로 갈 수 있는 국가 수의 비율은 12:177, 대략 1:15다.
 
-> **⚠️ A Paradox**
-> The length of the diplomatic ally list and the actual international mobility of citizens are inversely related. An increase in the number of diplomatic allies is mostly due to small countries agreeing to establish ties after aid deals; an increase in the number of countries accessible by passport is due to national image, security records, and visa reciprocity. The latter is harder but more reliable.
+> **⚠️ 하나의 역설**
+> 수교국 명단의 길이와 시민의 실제 국제 이동성은 반비례 관계를 보인다. 수교국 수가 늘어나는 것은 대개 재정 지원 협상이 성사된 소국이 수교에 동의했기 때문이다. 여권으로 갈 수 있는 국가가 늘어나는 것은 국가 이미지, 안전 기록, 비자 상호주의 때문이다. 후자는 전자보다 더 어렵지만, 더 믿을 만하다.
 
-## Silicon Shield: 90%, 30%, Double-Edged Sword
+## 실리콘 방패: 90%, 30%, 양날
 
-In 2026, TSMC produces approximately 90% of the world's high-end chips[^38]. This number is not PR language; it is the actual procurement record of NVIDIA, Apple, AMD, Qualcomm, and Intel.
+2026년의 TSMC는 전 세계 고급 칩의 약 90%를 생산한다[^38]. 이 숫자는 홍보 문구가 아니라 NVIDIA, Apple, AMD, Qualcomm, Intel의 실제 조달 기록이다.
 
-This is the material basis for the concept of the "**Silicon Shield**": Major countries need Taiwan's chips, which guarantee Taiwan's international status better than the paper promises of 12 allies. If China attacks Taiwan, the global supply chain for AI, smartphones, and cars would halt within 2 months.
+이것이 “**실리콘 방패**”라는 개념의 물질적 기반이다. 주요 국가들은 대만의 칩을 필요로 하며, 이는 12개 수교국의 종이 위 약속보다 대만의 국제적 지위를 더 강하게 보장한다. 중국이 대만을 공격하면, 전 세계 AI, 스마트폰, 자동차 공급망은 2개월 안에 멈춰 설 것이다.
 
-But the silicon shield is being inflated by itself. TSMC is building 5 fabs + 2 advanced packaging plants + 1 R&D center in Arizona, with a total investment of $165 billion. The first fab began mass production of 4nm in 2025 and started代工 (contract manufacturing) for NVIDIA's Blackwell AI processors—**this is TSMC's first time producing cutting-edge AI chips outside Taiwan**[^39]. The second fab is expected to mass produce 3nm in 2027, and the third in 2029. Once all are completed, approximately 30% of the world's most advanced chips will be produced in the US[^40].
+그러나 실리콘 방패는 스스로 높여 올려지는 중이다. TSMC는 Arizona에 fab 5곳, 첨단 패키징 공장 2곳, R&D 센터 1곳을 건설했으며, 총투자액은 1,650억 달러다. 첫 번째 fab은 이미 2025년 4nm 양산에 들어갔고, NVIDIA의 Blackwell AI 프로세서 위탁 생산을 시작했다. **이는 TSMC가 대만 밖에서 최첨단 AI 칩을 생산한 첫 사례다**[^39]. 두 번째 fab은 2027년 3nm 양산, 세 번째 fab은 2029년 2nm 양산이 예정되어 있다. 모두 완공되면 전 세계 최첨단 칩의 약 30%가 미국에서 생산된다[^40].
 
-> **✦** "There was a moment when everybody started waking up to the dependence on TSMC."
+> **✦** “There was a moment when everybody started waking up to the dependence on TSMC.”(모두가 자신이 TSMC에 의존하고 있음을 깨닫기 시작한 순간이 있었다)
 
-This is the observation of Bonnie Glaser, Director of the GMF Indo-Pacific Program[^41]. She also pointed out: Arizona's expansion may "endanger Taiwan's strategic importance by damaging its silicon shield."
+이는 GMF Indo-Pacific Program 책임자 Bonnie Glaser의 관찰이다[^41]. 그는 Arizona 확장이 “endangering Taiwan's strategic importance by damaging its silicon shield”(실리콘 방패를 약화함으로써 대만의 전략적 중요성을 위태롭게 할 수 있다)고도 지적했다.
 
-The title of MIT Technology Review in August 2025 was straightforward: "**Taiwan's silicon shield could be weakening**"[^42].
+MIT Technology Review의 2025년 8월 제목은 노골적이었다. “**Taiwan's silicon shield could be weakening**”[^42].
 
-The silicon shield has never been something Taiwan can decide unilaterally. Its effectiveness is built on the monopoly that "Taiwan is the only place that can make 2nm chips"—once the monopoly is dispersed, the physical basis of the silicon shield is reduced.
+실리콘 방패는 처음부터 대만이 일방적으로 결정할 수 있는 것이 아니었다. 그 유효성은 “대만이 2nm를 만들 수 있는 유일한 곳”이라는 독점에 기반한다. 독점이 분산되는 순간, 실리콘 방패의 물리적 기반은 줄어든다.
 
-This is the true diplomatic proposition of the Lai Ching-te era: **How to ensure that Arizona's expansion, while reducing US dependence on Taiwan, does not reduce the US political will to defend Taiwan**. No one has a ready answer.
+이것이 라이칭더 시대의 진짜 외교 과제다. **Arizona 확장이 미국의 대만 의존을 줄이면서도, 미국이 대만을 방어하려는 정치적 의지를 약화하지 않게 하려면 어떻게 해야 하는가**. 누구도 준비된 답을 갖고 있지 않다.
 
-## The Real Risk of Allies Reaching Zero
+## 수교국 제로의 진짜 위험
 
-Many ask: What happens if one day all 12 diplomatic allies sever ties?
+많은 사람이 묻는다. 어느 날 12개 수교국이 모두 끊기면 무슨 일이 일어나는가?
 
-On a dramatic level, nothing may happen. Taiwan and the US have no diplomatic ties, yet sell billions in arms annually; Taiwan and Japan have no diplomatic ties, yet Japan is one of Taiwan's largest tourist source countries. Substantive relations have nothing to do with the number of allies.
+극적인 차원에서는 아무 일도 일어나지 않을 수 있다. 대만과 미국은 수교하지 않았지만 매년 수십억 달러 규모의 무기 판매가 이뤄진다. 대만과 일본은 수교하지 않았지만 일본은 대만의 최대 관광객 공급국 가운데 하나다. 실질 관계는 수교국 수와 무관하다.
 
-But on the level of international law, there are four real risks:
+그러나 국제법 차원에는 네 가지 실제 위험이 있다.
 
-1. **The narrative of state identity dissolution will emerge**. The Montevideo Convention of 1933 defines statehood with four criteria (population, territory, government, diplomatic capacity); Taiwan meets the first three; but "continuous recognition" is customary international law. Reaching zero would trigger the legal narrative of "whether Taiwan is still a state."
-2. **The consular protection chain will be forced to restructure**. The legal status of the 113 overseas missions mostly relies on gray mechanisms like "ally trusteeship" or "customary international law tacit approval." Allies reaching zero will force these gray mechanisms to be re-codified.
-3. **Hope for return to international organizations will decrease**. Return to WHA, ICAO, Interpol, etc., relies almost entirely on the channel of "ally support for Taiwan" at annual general assemblies. Reaching zero will make this path disappear completely.
-4. **Legal status in cross-strait military crises will escalate into a point of contention**. Whether Taiwan is a "state" under international law, whether third-party intervention is legal, whether IHL (International Humanitarian Law) or civil war law applies, POW treatment—every line will be re-debated.
+1. **국가 정체성 해체 담론이 떠오를 것이다**. 1933년 Montevideo Convention이 국가를 정의하는 네 요건, 즉 인구, 영토, 정부, 외교 능력 가운데 대만은 앞의 세 항목을 모두 충족한다. 그러나 “지속적으로 승인받는 것”은 국제법 관행이며, 제로는 “대만이 여전히 국가인가”라는 법적 논의를 작동시킬 것이다
+2. **영사 보호 사슬이 재편을 강요받을 것이다**. 113개 재외 공관의 법적 지위는 대체로 “우방 위탁” “국제 관행의 묵인” 같은 회색 메커니즘에 의존한다. 수교국 제로는 이러한 회색 메커니즘을 다시 명문화하게 만들 것이다
+3. **국제기구 복귀 희망이 낮아질 것이다**. WHA, ICAO, Interpol 등 기구로의 복귀는 거의 전적으로 수교국이 연례총회에서 “우방의 대만 지지”를 하는 통로에 의존한다. 제로는 이 경로를 완전히 사라지게 할 것이다
+4. **양안 군사 위기 때의 법적 지위**가 쟁점으로 격상될 것이다. 대만이 국제법상 “국가”인지, 제3국 개입이 합법인지, IHL(국제무력충돌법)이 적용되는지 내전법이 적용되는지, 전쟁포로 대우는 어떻게 되는지. 모든 항목이 다시 논쟁 대상이 된다
 
-**The fourth point is the real risk.** Reaching zero allies itself will not change anything immediately, but it gives China an additional narrative tool for future conflicts: "Taiwan has not even 1 ally, so it is not a state under international law."
+**네 번째가 진짜 위험이다.** 수교국 제로 자체가 즉시 무언가를 바꾸지는 않는다. 그러나 그것은 중국이 미래의 가능한 충돌에서 하나의 담론 도구를 더 갖게 한다. “대만은 수교국이 하나도 없으므로 국제법상 국가가 아니다.”
 
-Maintaining 12 diplomatic allies makes this narrative untenable. So the significance of these 12 countries themselves is limited; their significance lies in the fact that they are **not 0**.
+12개 수교국을 유지하면 이 담론은 성립하기 어렵다. 그래서 이 12개국 자체의 의미는 제한적이지만, 의미는 그것들이 **0이 아니라는 데** 있다.
 
-## Three Numbers
+## 세 개의 숫자
 
 ```
-12              113             177
-Allies          Overseas Missions   Countries Accessible by Passport
+12             113            177
+수교국         재외 공관       여권으로 갈 수 있는 곳
 ```
 
-12 countries recognize the Republic of China government of Taiwan as "China's legitimate government."
-113 missions represent Taiwan in the world to handle actual business.
-177 countries do not recognize the Republic of China, but allow Taiwan citizens to enter.
+12개 국가는 대만의 중화민국 정부를 “중국의 합법 정부”로 승인한다.
+113개 공관은 세계에서 대만을 대표해 실제 업무를 처리한다.
+177개 국가는 중화민국을 승인하지 않지만 대만 시민이 들어오게 한다.
 
-The European Parliament passed the anti-2758 resolution with 432 votes. When Tsai Ing-wen left office in May 2024, there were 12 allies; she visited the European Parliament in October after leaving office. Bonnie Glaser said there was a moment of TSMC dependence. Mark Lambert said 2758 did not write about Taiwan.
+유럽의회는 432표 찬성으로 반 2758 결의를 통과시켰다. 차이잉원이 2024년 5월 퇴임할 때 수교국은 12개였고, 퇴임 뒤 10월에는 초청을 받아 유럽의회를 방문했다. Bonnie Glaser는 TSMC 의존을 깨달은 한순간이 있었다고 말했다. Mark Lambert는 2758에 대만이 쓰여 있지 않다고 말했다.
 
-These things are happening simultaneously. None of them are called "Taiwan's international status."
+이 일들은 동시에 일어나고 있다. “대만의 국제적 지위”라고 부를 수 있는 하나의 선은 없다.
 
-If there is one, that thing is not 12, nor 113, nor 177, nor 90% or 30%.
+만약 있다면, 그것은 12도 아니고, 113도 아니고, 177도 아니며, 90%나 30%도 아니다.
 
-It is the distance between these numbers.
+그것은 이 숫자들 사이의 거리다.
 
-**Further Reading**:
+**더 읽을거리**:
 
-- [Taiwan's Defense and Military Modernization](/society/台灣國防與軍事現代化) — When only 12 allies remain, military self-defense is another pillar of maintaining "not 0"
-- [Cross-Strait Crisis and the Development of Cross-Strait Relations](/history/台海危機與兩岸關係發展) — How three crises shaped Taiwan's diplomatic isolation and security anxiety
-- [TSMC](/business/台積電) — The material basis of the silicon shield and its structural vulnerability
-- [Chiu Jung-tai](/people/卓榮泰) — The trajectory of 2026 US-Taiwan tariffs 32→20→15% + the cabinet coordinator for Lai Ching-te's visit to Eswatini
-- [대만과 에스와티니](/society/台灣與史瓦帝尼) — 12개 수교국 중 아프리카에 유일하게 남은 나라, 1968년 같은 날 수교부터 라이칭더의 2026년 방문까지 58년의 완전한 이야기
+- [대만 국방과 군사 현대화](/society/台灣國防與軍事現代化) — 수교국이 12개만 남았을 때, 군사적 자위는 “0이 아님”을 유지하는 또 다른 기둥이다
+- [대만해협 위기와 양안 관계 발전](/history/台海危機與兩岸關係發展) — 세 차례 위기가 대만의 외교적 고립과 안보 불안을 어떻게 형성했는가
+- [TSMC](/business/台積電) — 실리콘 방패의 물질적 기반과 그 구조적 취약성
+- [줘룽타이](/people/卓榮泰) — 2026년 미-대만 관세 32→20→15% 궤적 + 라이칭더 에스와티니 방문의 내각 조정자
+- [대만과 에스와티니](/society/台灣與史瓦帝尼) — 12개 수교국 가운데 아프리카에 남은 유일한 한 조각, 1968년 같은 날 수교부터 라이칭더의 2026년 방문까지 58년의 전체 이야기
 
-## References
+## 참고 자료
 
-[^1]: [Bureau of Consular Affairs, Ministry of Foreign Affairs — Visa-Free, Visa-on-Arrival, and E-Visa Information](https://www.boca.gov.tw/cp-37-220-9f130-1.html) — Updated version 2026-01-30, 177 countries/regions
+[^1]: [外交部領事事務局 — 免簽證、落地簽證及電子簽證資訊](https://www.boca.gov.tw/cp-37-220-9f130-1.html) — 2026-01-30 갱신판, 177개 국가 및 지역
 
-[^2]: [MIT Technology Review — Taiwan's silicon shield could be weakening](https://www.technologyreview.com/2025/08/15/1121358/taiwan-silicon-shield-tsmc-china-chip-manufacturing/) — 2025 analysis of TSMC's ~90% market share in global advanced processes
+[^2]: [MIT Technology Review — Taiwan's silicon shield could be weakening](https://www.technologyreview.com/2025/08/15/1121358/taiwan-silicon-shield-tsmc-china-chip-manufacturing/) — 2025년 TSMC 전 세계 첨단 공정 약 90% 점유율 분석
 
-[^3]: [European Parliament Resolution RC-B10-0134/2024](https://www.europarl.europa.eu/doceo/document/RC-10-2024-0134_EN.html) — Original text of the European Parliament's anti-2758 distortion resolution on 2024-10-24, vote count 432:60:71
+[^3]: [European Parliament Resolution RC-B10-0134/2024](https://www.europarl.europa.eu/doceo/document/RC-10-2024-0134_EN.html) — 유럽의회 2024-10-24 반 2758 왜곡 결의 원문, 432:60:71 표결 수
 
-[^4]: [CNA — Chronicle of ROC-Nauru Relations](https://www.cna.com.tw/news/aipl/202401150200.aspx) — Nauru's 2024-01-15 severance timeline and Adeang's statement
+[^4]: [中央社 — 中華民國與諾魯關係大事記](https://www.cna.com.tw/news/aipl/202401150200.aspx) — 나우루 2024-01-15 단교 시계열과 Adeang 성명
 
-[^5]: [The News Lens — Nauru's Surprise Severance, Joseph Wu Angry](https://www.thenewslens.com/article/197585) — Foreign Ministry officials' account of Joseph Wu's reaction in Guatemala
+[^5]: [關鍵評論網 — 諾魯突襲式斷交，吳釗燮很憤怒](https://www.thenewslens.com/article/197585) — 외교부 관계자가 전한 우자오셰의 과테말라 현지 반응
 
-[^6]: [UDN News — Nauru Demands NT$2.6 Billion in Aid for This Matter](https://udn.com/news/story/123892/7712032) — Details of the fiscal gap left by the closure of Australia's refugee processing center
+[^6]: [聯合新聞網 — 諾魯為這件事向台灣索要 26 億經援](https://udn.com/news/story/123892/7712032) — 호주 난민 처리 센터 폐쇄로 생긴 재정 공백의 세부 내용
 
-[^7]: [Business Today — Nauru President Demands Sky-High Aid, China Promises $100 Million Annually](https://www.businesstoday.com.tw/article/category/183027/post/202401150023/) — Anonymous foreign affairs sources reveal China's promise; China denies
+[^7]: [今周刊 — 諾魯總統開天價金援，中方答應每年 1 億美元](https://www.businesstoday.com.tw/article/category/183027/post/202401150023/) — 대외 관계 인사의 익명 중국 측 약속 공개, 중국 측은 부인
 
-[^8]: [Wikipedia — List of Diplomatic Allies of the Republic of China](https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E9%82%A6%E4%BA%A4%E5%9C%8B%E5%88%97%E8%A1%A8) — Historical record of the 70-country peak in 1969
+[^8]: [維基百科 — 中華民國邦交國列表](https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E9%82%A6%E4%BA%A4%E5%9C%8B%E5%88%97%E8%A1%A8) — 1969년 70개국 정점의 역사 기록
 
-[^9]: [Story Studio — Chiang Kai-shek's Policy Bottom Line on Resolution 2758 and Joseph S. M. Koo's Withdrawal Statement](https://storystudio.tw/article/gushi/ares2758-a/) — Full text source of Joseph S. M. Koo's UN withdrawal speech
+[^9]: [Story Studio — 蔣介石對 2758 號決議的政策底線與周書楷退出聲明](https://storystudio.tw/article/gushi/ares2758-a/) — 저우수카이 유엔 탈퇴 연설 전문 출처
 
-[^10]: [Wikipedia — Taiwan Relations Act](https://en.wikipedia.org/wiki/Taiwan_Relations_Act) — US severance in 1979 and the Taiwan Relations Act
+[^10]: [維基百科 — Taiwan Relations Act](https://en.wikipedia.org/wiki/Taiwan_Relations_Act) — 1979년 미국 단교와 대만관계법
 
-[^11]: [CNA — Opening Old Photos: 32nd Anniversary of ROC-Korea Severance](https://www.cna.com.tw/news/ahel/202408235002.aspx) — 1992-08-23 Korea severance, 24-hour departure, embassy confiscation details
+[^11]: [中央社 — 開箱老照片：台韓斷交 32 週年](https://www.cna.com.tw/news/ahel/202408235002.aspx) — 1992-08-23 한국 단교, 24시간 내 출국, 대사관 몰수 세부 내용
 
-[^12]: [CNA — China's Ruthless Calculation, Strikes 10 Times in 8 Years](https://www.cna.com.tw/news/aipl/202401150242.aspx) — Analysis of the timing and conditions of the 10 severances during Tsai Ing-wen's term
+[^12]: [中央社 — 中國陰狠精算 8 年出手 10 次](https://www.cna.com.tw/news/aipl/202401150242.aspx) — 차이잉원 임기 중 10차례 단교의 시점과 조건 분석
 
-[^13]: [Liberty Times Net — Honduras Economic Aid Conditions](https://news.ltn.com.tw/news/politics/breakingnews/4241197) — Castro government's request for $2.5 billion in aid and $600 million debt restructuring from Taiwan
+[^13]: [自由時報 — 宏都拉斯經濟援助條件](https://news.ltn.com.tw/news/politics/breakingnews/4241197) — Castro 정부가 대만에 제시한 25억 달러 재정 지원과 6억 달러 채무 재조정 요구
 
-[^14]: [Watch Chinese — Honduras Former Vice President Interview](https://www.watchinese.com/article/2024/26145) — Source of the quote "China just wants to colonize us"
+[^14]: [看雜誌 — 宏都拉斯前副總統訪問](https://www.watchinese.com/article/2024/26145) — “중국은 우리를 식민화하러 오려 할 뿐이다” 원문 출처
 
-[^15]: [ETtoday — Honduras Regrets Severing Ties: China Aid Defaults](https://www.ettoday.net/news/20250419/2946192.htm) — April 2025 exposé: China's actual materialization of $280 million
+[^15]: [ETtoday — 宏都拉斯後悔斷交：中國援助跳票](https://www.ettoday.net/news/20250419/2946192.htm) — 2025-04 중국의 실제 집행액 2억 8,000만 달러 폭로
 
-[^16]: [Ministry of Foreign Affairs, ROC — Allies](https://www.mofa.gov.tw/AlliesIndex.aspx?n=167&sms=33) — Official update 2026-04-24, list of 12 countries and regional classification
+[^16]: [中華民國外交部 — 邦交國](https://www.mofa.gov.tw/AlliesIndex.aspx?n=167&sms=33) — 2026-04-24 공식 갱신판, 12개국 명단과 지역 분류
 
-[^17]: [Wikipedia — Holy See and Republic of China Relations](https://zh.wikipedia.org/wiki/%E6%95%99%E5%BB%B7%E8%88%87%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E9%97%9C%E4%BF%82) — Established in 1942, the only non-UN member ally
+[^17]: [維基百科 — 教廷與中華民國關係](https://zh.wikipedia.org/wiki/%E6%95%99%E5%BB%B7%E8%88%87%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E9%97%9C%E4%BF%82) — 1942년 수교 이후 현재까지, 유일한 비유엔 회원 수교국
 
-[^18]: [Hakka News — Pope Leo XIV Elected on 2025-05-08](https://hakkanews.tw/2025/04/21/pope/) — First North American-born Pope Robert Francis Prevost
+[^18]: [客新聞 — 教宗良十四世 2025-05-08 當選](https://hakkanews.tw/2025/04/21/pope/) — 첫 북미 출신 교황 Robert Francis Prevost
 
-[^19]: [PTS News — Joseph Wu: Haiti, Holy See Require Special Attention](https://news.pts.org.tw/article/740385) — Original words from March 2025 Public Television interview
+[^19]: [公視新聞 — 林佳龍：海地、教廷需特別關注](https://news.pts.org.tw/article/740385) — 2025-03 PTS 인터뷰 원문 발언
 
-[^20]: [Office of the President — President Lai Ching-te Meets Paraguayan President Peña](https://www.president.gov.tw/News/28438) — Peña's visit to Taiwan in May 2024 to attend the inauguration ceremony
+[^20]: [總統府 — 賴清德總統會晤巴拉圭總統 Peña](https://www.president.gov.tw/News/28438) — 2024-05 Peña 대만 방문 및 취임식 참석
 
-[^21]: [CNA — Paraguayan Foreign Minister Visits Taiwan, Stands Firm on Allies](https://www.cna.com.tw/news/aipl/202411290318.aspx) — Ramírez's original words on 2024-11-29
+[^21]: [中央社 — 巴拉圭外長訪台堅守邦交](https://www.cna.com.tw/news/aipl/202411290318.aspx) — 2024-11-29 Ramírez 원문 발언
 
-[^22]: [GVM Magazine — Haiti Crisis](https://www.gvm.com.tw/article/80847) — Current situation of gang rule after Moïse's assassination in July 2021
+[^22]: [遠見雜誌 — 海地危機](https://www.gvm.com.tw/article/80847) — 2021-07 모이즈 암살 이후 갱단 통치 현황
 
-[^23]: [CWS CSR — Tuvalu's Crisis of National Extinction](https://csr.cw.com.tw/article/44229) — IPCC sea-level data and Tuvalu's rise
+[^23]: [天下 CSR — 吐瓦魯滅國危機](https://csr.cw.com.tw/article/44229) — IPCC 해수면 자료와 투발루 상승폭
 
-[^24]: [Liberty Times Net — Tuvalu Climate Visa: 82% of Population Applies](https://news.ltn.com.tw/news/world/breakingnews/5118068) — Australia's climate visa application data by end of 2025
+[^24]: [自由時報 — 吐瓦魯氣候簽證 82% 國民申請](https://news.ltn.com.tw/news/world/breakingnews/5118068) — 2025년 말 호주 기후 비자 신청 자료
 
-[^25]: [Liberty Times Net — Strategic Opportunity of Climate Visa](https://talk.ltn.com.tw/article/breakingnews/5092696) — Taiwan and Fiji support Tuvalu's maritime boundary declaration
+[^25]: [自由評論網 — 氣候簽證的戰略機遇](https://talk.ltn.com.tw/article/breakingnews/5092696) — 대만과 피지의 투발루 해양 경계 선언 지지
 
-[^26]: [CWS Magazine — Is Eswatini Taiwan's Only Ally in Africa?](https://www.cw.com.tw/article/5140733) — Cumulative loss of 10 African allies over 30 years
+[^26]: [天下雜誌 — 史瓦帝尼是台灣在非洲唯一的邦交國嗎](https://www.cw.com.tw/article/5140733) — 30년 동안 아프리카 수교국 10개 상실
 
-[^27]: [Taronews — Joseph Wu Visits Eswatini as President's Special Envoy](https://wp.taronews.tw/2026/04/28/1179509/) — April 2026: Lai Ching-te's aircraft blocked in transit, Joseph Wu dispatched instead
+[^27]: [Taronews — 林佳龍以總統特使身分出訪史瓦帝尼](https://wp.taronews.tw/2026/04/28/1179509/) — 2026-04 라이칭더 전용기 경유 차질과 린자룽 대체 파견
 
-[^28]: [UN Official — Original Chinese Text of Resolution 2758](https://www.un.org/zh/ga/26/res/ares2758.html) — Full text of the resolution on 1971-10-25
+[^28]: [聯合國官方 — 第 2758 號決議中文原文](https://www.un.org/zh/ga/26/res/ares2758.html) — 1971-10-25 결의 전문
 
-[^29]: [Global Taiwan Institute — Senior US Officials Push Back against PRC Misusing 2758](https://globaltaiwan.org/2024/05/senior-us-officials-push-back-against-the-prc-misusing-unga-resolution-2758/) — Full text of Mark Lambert's four positions in April 2024
+[^29]: [Global Taiwan Institute — Senior US Officials Push Back against PRC Misusing 2758](https://globaltaiwan.org/2024/05/senior-us-officials-push-back-against-the-prc-misusing-unga-resolution-2758/) — Mark Lambert 2024-04 네 가지 입장 전문
 
-[^30]: [VOA — US Refutes China's Characterization of UN Resolution 2758](https://www.voacantonese.com/a/us-refutes-china-s-characterization-of-un-resolution-2758-20240528/7633211.html) — Campbell's September 2024 congressional testimony and subsequent US positions
+[^30]: [VOA — 美國反駁中國對聯合國 2758 號決議的描述](https://www.voacantonese.com/a/us-refutes-china-s-characterization-of-un-resolution-2758-20240528/7633211.html) — Campbell 2024-09 의회 증언과 이후 미국 측 입장
 
-[^31]: [European Parliament Press Release 2024-10-21](https://www.europarl.europa.eu/news/en/agenda/plenary-news/2024-10-21/4/meps-set-to-criticise-china-s-aggressive-stance-on-taiwan) — Official explanation of the European Parliament's anti-2758 distortion resolution
+[^31]: [European Parliament Press Release 2024-10-21](https://www.europarl.europa.eu/news/en/agenda/plenary-news/2024-10-21/4/meps-set-to-criticise-china-s-aggressive-stance-on-taiwan) — 유럽의회 반 2758 왜곡 결의의 공식 설명
 
-[^32]: [Wikipedia — Taiwan and the World Health Organization](https://en.wikipedia.org/wiki/Taiwan_and_the_World_Health_Organization) — 8-year history of WHA observer status from 2009-2016
+[^32]: [維基百科 — Taiwan and the World Health Organization](https://en.wikipedia.org/wiki/Taiwan_and_the_World_Health_Organization) — WHA 옵서버 지위 2009-2016 8년사
 
-[^33]: [Atlantic Council — Lithuania's Policy on China](https://www.atlanticcouncil.org/in-depth-research-reports/report/lithuanias-policy-on-china-an-unlikely-eu-trailblazer/) — Full record of China's economic coercion against Lithuania after it set up an office in 2021
+[^33]: [Atlantic Council — Lithuania's Policy on China](https://www.atlanticcouncil.org/in-depth-research-reports/report/lithuanias-policy-on-china-an-unlikely-eu-trailblazer/) — 리투아니아 2021년 판사처 설치 이후 중국 경제 강압 전 과정 기록
 
-[^34]: [Wikipedia — List of ROC Overseas Institutions](https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E9%A7%90%E5%A4%96%E6%A9%9F%E6%A7%8B%E5%88%97%E8%A1%A8) — 113 missions and distribution as of December 2025
+[^34]: [維基百科 — 中華民國駐外機構列表](https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E9%A7%90%E5%A4%96%E6%A9%9F%E6%A7%8B%E5%88%97%E8%A1%A8) — 2025-12 기준 113개 공관과 분포
 
-[^35]: [Wikipedia — Lithuania-Taiwan relations](https://en.wikipedia.org/wiki/Lithuania%E2%80%93Taiwan_relations) — Process of opening the Taiwanese Representative Office on 2021-11-18
+[^35]: [維基百科 — Lithuania-Taiwan relations](https://en.wikipedia.org/wiki/Lithuania%E2%80%93Taiwan_relations) — 2021-11-18 Taiwanese Representative Office 개설 경위
 
-[^36]: [Congress.gov — TAIPEI Act S.1678](https://www.congress.gov/bill/116th-congress/senate-bill/1678) — Original text of Pub.L. 116-135 signed by Trump on 2020-03-26
+[^36]: [Congress.gov — TAIPEI Act S.1678](https://www.congress.gov/bill/116th-congress/senate-bill/1678) — 2020-03-26 트럼프가 서명한 Pub.L. 116-135 원문
 
-[^37]: [Ministry of Foreign Affairs, ROC — Visa-Free Information](https://www.mofa.gov.tw/FreeVisa.aspx?n=545&sms=81) — Statistics on 2026-01-30: 177 countries and regions
+[^37]: [中華民國外交部 — 免簽證資訊](https://www.mofa.gov.tw/FreeVisa.aspx?n=545&sms=81) — 2026-01-30 통계: 177개 국가 및 지역
 
-[^38]: [The Diplomat — Silicon Shield 2.0: A Taiwan Perspective](https://thediplomat.com/2024/09/silicon-shield-2-0-a-taiwan-perspective/) — Analysis of TSMC's global high-end chip market share
+[^38]: [The Diplomat — Silicon Shield 2.0: A Taiwan Perspective](https://thediplomat.com/2024/09/silicon-shield-2-0-a-taiwan-perspective/) — TSMC 전 세계 고급 칩 점유율 분석
 
-[^39]: [Wikipedia — TSMC Arizona](https://en.wikipedia.org/wiki/TSMC_Arizona) — $165 billion expansion plan of 5 fabs + 2 packaging + 1 R&D
+[^39]: [維基百科 — TSMC Arizona](https://en.wikipedia.org/wiki/TSMC_Arizona) — 5개 fab + 2개 패키징 + 1개 R&D의 1,650억 달러 확장 계획
 
-[^40]: [Tom's Hardware — TSMC Arizona 3nm Schedule](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-brings-its-most-advanced-chipmaking-node-to-the-us-yet-to-begin-equipment-installation-for-3mn-months-ahead-of-schedule-arizona-fab-slated-for-production-in-2027) — Arizona Fab 2027 mass production 3nm schedule
+[^40]: [Tom's Hardware — TSMC Arizona 3nm Schedule](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-brings-its-most-advanced-chipmaking-node-to-the-us-yet-to-begin-equipment-installation-for-3mn-months-ahead-of-schedule-arizona-fab-slated-for-production-in-2027) — Arizona Fab 2027년 3nm 양산 일정
 
-[^41]: [GMF — Bonnie Glaser Senate Foreign Relations Hearing](https://www.gmfus.org/news/bonnie-glaser-senate-foreign-relations-committee-hearing) — Source of the quote "the moment of dependence on TSMC"
+[^41]: [GMF — Bonnie Glaser Senate Foreign Relations Hearing](https://www.gmfus.org/news/bonnie-glaser-senate-foreign-relations-committee-hearing) — TSMC 의존을 깨달은 그 순간의 원문 출처
 
-[^42]: [MIT Technology Review — Taiwan's silicon shield could be weakening](https://www.technologyreview.com/2025/08/15/1121358/taiwan-silicon-shield-tsmc-china-chip-manufacturing/) — August 2025 narrative of weakening silicon shield
+[^42]: [MIT Technology Review — Taiwan's silicon shield could be weakening](https://www.technologyreview.com/2025/08/15/1121358/taiwan-silicon-shield-tsmc-china-chip-manufacturing/) — 2025-08 실리콘 방패 약화론

@@ -20,8 +20,8 @@ lastVerified: 2026-05-02
 featured: false
 lastHumanReview: false
 translatedFrom: 'Technology/赤燭遊戲.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:271bdf5359c4bf02'
+sourceCommitSha: 'c5f33792'
+sourceContentHash: 'sha256:33c90e10581f31c9'
 sourceBodyHash: 'sha256:1fba81d514ac33a3'
 translatedAt: '2026-05-02T10:05:00+08:00'
 ---

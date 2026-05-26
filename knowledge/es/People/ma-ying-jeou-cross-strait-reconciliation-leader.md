@@ -19,7 +19,7 @@ lastVerified: 2026-05-22
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/馬英九.md'
-sourceCommitSha: '63bc1ff9'
+sourceCommitSha: '76ef70ac'
 sourceContentHash: 'sha256:1498ccd5109eb737'
 sourceBodyHash: 'sha256:d4e7bc648af540da'
 translatedAt: '2026-05-23T00:54:08+08:00'

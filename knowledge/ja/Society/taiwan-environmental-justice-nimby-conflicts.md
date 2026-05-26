@@ -2,6 +2,7 @@
 title: '台湾の環境正義とニンビー論争'
 description: '台湾の環境負担分配の不均衡現象を、焼却炉、核廃棄物、石油化学産業のニンビー紛争を通じて検討し、環境不平等の問題と社会正義の議題を分析します'
 date: 2026-03-20
+category: 'Society'
 tags:
   [
     '環境正義',
@@ -14,16 +15,15 @@ tags:
   ]
 subcategory: '社會運動'
 author: 'Taiwan.md Contributors'
-readingTime: 13
 featured: false
-category: 'Society'
 lastVerified: 2026-03-20
 lastHumanReview: false
+readingTime: 13
 translatedFrom: 'Society/台灣環境正義與鄰避爭議.md'
-sourceCommitSha: 'c67109e5'
-sourceContentHash: 'sha256:e107d04eb050c288'
-sourceBodyHash: 'sha256:a029918b717ecd13'
-translatedAt: '2026-05-02T11:00:00+08:00'
+sourceCommitSha: '037d3df5'
+sourceContentHash: 'sha256:25ea2bd0128c18a8'
+sourceBodyHash: 'sha256:f83ec53b765f106c'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 台湾の環境正義とニンビー論争
@@ -224,6 +224,8 @@ translatedAt: '2026-05-02T11:00:00+08:00'
 
 - [鐵皮屋](/society/鐵皮屋) — 塭仔圳の取り壊しは環境正義の典型例：400ヘクタールのトタン工場集落の汚染、取り壊しと移転安置の困境
 - [社會住宅與居住正義](/society/社會住宅與居住正義) — 居住問題の政策面：社会住宅供給と賃貸市場の改革
+- [盧秀燕](/people/盧秀燕) — 2018年に大気汚染問題で台中市長選を制した政治家、中火・PM2.5・エネルギー転換をめぐる具体的な政策戦場
+- [台灣氣候危機與淨零轉型](/nature/台灣氣候危機與淨零轉型) — 蘭嶼97,672桶・核三2025公投・藻礁三接・地熱27倍の欠如：エネルギー転換の各経路に対応する環境正義の断層
 
 ## 参考資料
 

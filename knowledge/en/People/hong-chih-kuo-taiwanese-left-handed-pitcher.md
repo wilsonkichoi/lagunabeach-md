@@ -11,10 +11,10 @@ lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/郭泓志.md'
-sourceCommitSha: '5c000f86'
-sourceContentHash: 'sha256:b5f26a379a2884ba'
-sourceBodyHash: 'sha256:5be39826050da8b3'
-translatedAt: '2026-05-24T22:20:27Z'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:e02695ed5dc8f6ea'
+sourceBodyHash: 'sha256:adcefdbac44146e6'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # Hong-Chih Kuo: Taiwan's First MLB Home Run and All-Star, His Elbow Said No but He Kept Pitching

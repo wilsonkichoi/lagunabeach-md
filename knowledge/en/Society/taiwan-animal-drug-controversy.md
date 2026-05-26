@@ -21,10 +21,10 @@ readingTime: 17
 lastVerified: 2026-04-10
 lastHumanReview: false
 translatedFrom: 'Society/台灣動物用藥爭議.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:d7dcd37acdb09d6d'
-sourceBodyHash: 'sha256:d1454d9c190df6ba'
-translatedAt: '2026-05-01T13:19:11+08:00'
+sourceCommitSha: '9a60e8fd'
+sourceContentHash: 'sha256:670bf6306d125685'
+sourceBodyHash: 'sha256:58df60a34bbdc3ea'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 > **30-Second Overview:** On July 1, 2026, a Taiwan regulation called the _Administrative Rules for Using Human Drugs on Dogs, Cats, and Non-Economic Animals_ is set to take effect. Of the 701 approved human drugs on the government's list, only 144 have completed registration as "animal protection drugs." Medical gases — oxygen, carbon dioxide, nitrogen — are at zero. On April 9, over 100,000 pet owners signed a petition to delay the rule. On April 10, the Ministry of Agriculture convened an emergency cross-ministry meeting and pledged that "if implementation proves unworkable in practice, it will not be rushed through." This isn't a 2026 problem. It's a ten-year legal gap that began with a 2012 counterfeit-drug case, was accidentally thrown open by Legislator Kao Chia-yu in 2022, and was complicated by a first-ever conviction in 2024. Taiwan now has three million registered dogs and cats treated as family members, and a legal framework that still largely assumes they are livestock. This article keeps five voices speaking at once. The author does not synthesize them for you.
@@ -307,6 +307,7 @@ This article does not choose for you. It opens the space, so you can see that it
 - [Zoo and Performing Animal Ethics in Taiwan](/en/society/zoo-and-exhibition-animal-ethics) — Another field where human society argues about "medication and care" of animals: different chapter, same problem
 - [Taiwan's National Health Insurance](/en/lifestyle/taiwan-healthcare-and-national-health-insurance) — The other end of human pharmaceutical regulation: the world's largest national healthcare experiment, with no institutional bridge to animal medicine. The "medical-pharmaceutical separation" principle discussed in this article was built during the NHI era
 - [Taiwan's Disaster Medical System](/en/technology/taiwan-disaster-medicine-system) — Human emergency medicine has a floor: 119, emergency response networks, DMAT. Animal emergency care doesn't have anything like that floor. Read side-by-side to see the resource gap between two systems
+- [Regenerative Medicine Dual Laws × 30 Years of mRNA](/society/台灣再生醫療雙法沿革從業人員告白) — The human regenerative medicine dual laws passed in 2024 and Taiwan is catching up on mRNA platforms; together with the animal drug controversy they share the regulatory philosophy of 'how the state regulates cutting-edge medical technology'
 
 ## References
 

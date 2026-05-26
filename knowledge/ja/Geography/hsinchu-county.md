@@ -26,10 +26,10 @@ lastVerified: 2026-05-18
 lastHumanReview: true
 featured: false
 translatedFrom: 'Geography/新竹縣.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:fa054948c89094ee'
-sourceBodyHash: 'sha256:656ad4d27e1e5902'
-translatedAt: '2026-05-24T22:39:00Z'
+sourceCommitSha: 'bcffb45b'
+sourceContentHash: 'sha256:d364dc7cecbd8556'
+sourceBodyHash: 'sha256:1609d19d6b7ce06f'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 新竹県：235年の義民信仰と台湾最高の1人当たり所得が、同じ頭前渓沿いにあります

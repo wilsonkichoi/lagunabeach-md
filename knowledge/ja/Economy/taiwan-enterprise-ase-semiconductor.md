@@ -10,10 +10,10 @@ featured: false
 lastVerified: 2026-03-21
 lastHumanReview: true
 translatedFrom: Economy/台灣企業：日月光半導體.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:cb7042e73cb2cef2'
-sourceBodyHash: 'sha256:ab22377f8d58d529'
-translatedAt: 2026-05-01T18:02:56+08:00
+sourceCommitSha: 'b900f18d'
+sourceContentHash: 'sha256:275d7b3ee56db82a'
+sourceBodyHash: 'sha256:58739438cbba3247'
+translatedAt: '2026-05-25T21:07:04Z'
 category: Economy
 ---
 
@@ -158,6 +158,12 @@ COVID-19パンデミック中、他社がロックダウンによる操業停止
 チップ設計や製造が注目を集める時代だからこそ、日月光は私たちに思い出させてくれます。産業チェーンのすべての工程が重要であり、一つのことを極め、世界一になれば、誰にも代替できない隠れたチャンピオンになれるのです。
 
 ---
+
+**関連記事**：
+
+- [台湾企業：TSMC](/economy/台灣企業：台積電) — 護国神山と後工程封測企業の双生関係
+- [台湾企業：MediaTek](/economy/台灣企業：聯發科技) — IC 設計側の台湾最大手、日月光とともに完全なサプライチェーン生態系を形成
+- [半導体産業](/technology/半導體產業) — RCA 技術移転から CoWoS 先進パッケージングまでの50年材料科学の戦場、日月光が従来型パッケージングに占める位置
 
 ## 参考資料
 

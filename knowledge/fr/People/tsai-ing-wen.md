@@ -16,13 +16,19 @@ tags:
 subcategory: '政治與民主'
 author: 'Taiwan.md'
 featured: false
-lastVerified: 2026-05-16
+lastVerified: 2026-05-23
 lastHumanReview: true
+rationale:
+  why_this_hook: "Le soir de la défaite du 14 janvier 2012, « vous pouvez pleurer, mais ne perdez pas courage » + 8,17 millions de voix quatre ans plus tard lors de la réélection. C'est l'entrée en matière du biographique qui recèle le renversement le plus saisissant, en écho avec la conclusion « le silence peut aussi être un style de leadership »."
+  whats_excluded: "6 camps critiques : Bleu foncé (responsabilité de la dégradation des relations inter-détroit) / Vert foncé (récupération du cadre « République de Chine Taïwan ») / Parti populaire taïwanais (mariage homosexuel par loi spéciale / énergie / réforme judiciaire / prix de l'immobilier) / Progressistes (mariage homosexuel de second rang / suivi des peuples autochtones absent) / Ambiguïté stratégique / Fractions internes du parti. La plupart relèvent « hors du périmètre » (renvoyés à des articles thématiques autonomes) + « contrainte de longueur ». Déjà couvert en prose : critique du mariage homosexuel + peuples autochtones dans § « Les deux signatures » / critique COVID dans § « 817 000 voix » / ruptures diplomatiques + NCC/CtiTV hedge bref dans § « En partant » (per Phase 5 sous-agent dogfood)."
+  where_it_hedges: '6 positions « reconnaître la critique et tenir le récit » dans la prose — § Les deux signatures « mais la signature est tombée » / § 817 000 voix « la préparation avance a viré en raillerie » / § Détroit « état sans nom » / § conclusion « mauvaise oratrice mais gouverne par le droit » / § En partant attaque chinoise + critique externe comme sexisme de genre / § En partant « 22→12 pays alliés + NCC 7:0 fermeture CtiTV » hedge bref nouveaux ajouts sur la liberté de presse et les affaires étrangères.'
+  whos_pushing_back: "Principaux camps d'opposition — Bleu foncé / Progressistes / Chine RPC (tous décrits comme événements ou hedges internes dans la prose) / Vert foncé / Parti populaire taïwanais (totalement absent de la prose, per whats_excluded hors périmètre)."
+  which_framing: 'Dispositifs narratifs choisis par Taiwan.md : opposition « Les deux signatures » (excuses autochtones + loi sur le mariage) / arc renversement « défaite → réélection » / trait de caractère « mauvaise oratrice mais tient la salle ».'
 translatedFrom: 'People/蔡英文.md'
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:d4925ffaac58660e'
-sourceBodyHash: 'sha256:c49502db85e74424'
-translatedAt: '2026-05-17T05:33:00Z'
+sourceCommitSha: '1712d109'
+sourceContentHash: 'sha256:fadbb54905eb75f0'
+sourceBodyHash: 'sha256:251dc48eab49a71a'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 # Tsai Ing-wen
@@ -97,7 +103,9 @@ Le 20 mai 2024, Tsai Ing-wen quitta ses fonctions. Son vice-président, Lai Chin
 
 Deux fois désignée parmi les cent personnalités les plus influentes du monde par le magazine _Time_ (en 2016 et 2020)[^13]. Après son départ, elle ne s'est pas vraiment retirée : en octobre 2024, elle s'est rendue à titre privé en République tchèque, en Lituanie et au Royaume-Uni ; son intervention au sein du Parlement européen fit d'elle la première ex-présidente taïwanaise à prononcer un discours dans l'enceinte du Parlement européen[^16]. La même année, elle est aussi revenue au Japon et a donné une conférence publique à l'université Waseda.
 
-Elle avait deux chats : Tsai Xiangxiang, un tigré gris-blanc recueilli en 2012 par la députée Hsiao Bi-khim à la gare de Heping (Hualien) après le typhon Saola ; et Tsai Acai, un chat roux adopté en 2015 dans un champ d'ananas du village de Pashikau, à Taitung[^14]. Elle ne s'est jamais mariée. En mai 2016, après son élection, *International Herald Leader*, publication relevant de l'agence chinoise Xinhua, fit paraître l'article « Mettre Tsai Ing-wen à nu », reliant son statut de « femme politique célibataire » à un « comportement extrémisé » : plusieurs médias étrangers y virent une discrimination sexiste[^15].
+Son mandat a aussi accumulé des controverses : le nombre de pays alliés est passé de vingt-deux à douze, le plus bas de tous les présidents[^17] ; en 2020, la Commission nationale des communications (NCC) refusa à sept voix contre zéro le renouvellement de la licence de la chaîne CtiTV, déclenchant un débat sur les limites de la liberté de la presse[^18].
+
+Elle avait deux chats : Tsai Xiangxiang, un tigré gris-blanc recueilli en 2012 par la députée Hsiao Bi-khim à la gare de Heping (Hualien) après le typhon Saola ; et Tsai Acai, un chat roux adopté en 2015 dans un champ d'ananas du village de Pashikau, à Taitung[^14]. Elle ne s'est jamais mariée. En mai 2016, après son élection, _International Herald Leader_, publication relevant de l'agence chinoise Xinhua, fit paraître l'article « Mettre Tsai Ing-wen à nu », reliant son statut de « femme politique célibataire » à un « comportement extrémisé » : plusieurs médias étrangers y virent une discrimination sexiste[^15].
 
 Tsai Ing-wen prouva en huit ans une chose : une femme politique de type universitaire, peu douée pour les discours, n'aimant ni serrer des mains ni passer à la télévision, pouvait gouverner un pays par la force du droit et des institutions à l'heure où le populisme balayait le monde. Au-delà des politiques publiques qu'elle laisse derrière elle, demeure une preuve plus difficile à reproduire : le calme peut aussi être un style de leadership.
 
@@ -108,6 +116,7 @@ Tsai Ing-wen prouva en huit ans une chose : une femme politique de type universi
 - [Mariage homosexuel et égalité des genres à Taïwan](/society/台灣同婚與性別平權) — Le processus législatif de la première loi sur le mariage homosexuel en Asie
 - [Histoire des peuples autochtones de Taïwan et mouvement de reconnaissance](/history/台灣原住民族歷史與正名運動) — De « compatriotes des montagnes » à « peuples autochtones » : un combat
 - [Mouvement du Tournesol](/society/太陽花學運) — Le mouvement social de 2014 qui transforma la carte politique de Taïwan
+- [Ma Ying-jeou](/people/馬英九) — Tsai Ing-wen débat avec lui le 25 avril 2010 sur l'ECFA, lui succède en 2016 et opère un quasi-retournement complet sur le cadre bilatéral du détroit hérité de son prédécesseur
 - [Chou Tzu-yu](/people/周子瑜) — Les 90 secondes de vidéo d'excuses la veille de l'élection de 2016, qui déclenchèrent la réplique de Tsai Ing-wen dans son discours de victoire : « personne ne devrait s'excuser pour son identité »
 - [Think Forum](/society/想想論壇) — plateforme d'opinion de la Fondation Small Light créée par Tsai après sa défaite électorale de 2012, relancée en octobre 2025, cinq mois après son départ
 
@@ -141,6 +150,10 @@ Tsai Ing-wen prouva en huit ans une chose : une femme politique de type universi
 
 [^14]: [Mirror Media : Le Tsai Ing-wen que vous ne connaissez pas — Xiangxiang et Acai font la moue, la présidente esclave de ses chats désespère](https://www.mirrormedia.mg/story/20180417inv031) — Reportage de fond sur l'adoption et le quotidien des deux chats de Tsai Ing-wen : « Tsai Xiangxiang » (tigré gris-blanc recueilli en 2012 par Hsiao Bi-khim à la gare de Heping, Hualien, après le typhon Saola) et « Tsai Acai » (chat roux adopté en 2015 dans un champ d'ananas du village de Pashikau, à Taitung).
 
-[^15]: [The News Lens : Médias officiels chinois « Mettre Tsai Ing-wen à nu » jouent la carte du célibat ; plusieurs médias étrangers dénoncent une « discrimination sexiste »](https://www.thenewslens.com/article/40537) — Rapporte la publication, en mai 2016 dans *International Herald Leader* (groupe Xinhua), de l'article de Wang Weixing « Mettre Tsai Ing-wen à nu », reliant le statut de « femme politique célibataire » à un « comportement extrémisé » ; BBC, CNN et The Guardian y voient une discrimination sexiste.
+[^15]: [The News Lens : Médias officiels chinois « Mettre Tsai Ing-wen à nu » jouent la carte du célibat ; plusieurs médias étrangers dénoncent une « discrimination sexiste »](https://www.thenewslens.com/article/40537) — Rapporte la publication, en mai 2016 dans _International Herald Leader_ (groupe Xinhua), de l'article de Wang Weixing « Mettre Tsai Ing-wen à nu », reliant le statut de « femme politique célibataire » à un « comportement extrémisé » ; BBC, CNN et The Guardian y voient une discrimination sexiste.
 
 [^16]: [Focus Taiwan : Visite historique de Tsai Ing-wen au Parlement européen](https://focustaiwan.tw/cross-strait/202410100009) — Rapporte la visite à titre privé de Tsai Ing-wen en octobre 2024 en République tchèque, en Lituanie et au Royaume-Uni, et sa qualité de première ex-présidente taïwanaise à intervenir publiquement dans l'enceinte du Parlement européen.
+
+[^17]: [Wealth Magazine : Nauru rompt à nouveau avec Taïwan ! Tsai Ing-wen a perdu 10 pays alliés pendant son mandat](https://www.wealth.com.tw/articles/b5dbea7f-6a65-4b3c-b03d-c21b31e660e5) — Récapitulatif des dix pays ayant rompu leurs relations diplomatiques pendant le mandat de Tsai Ing-wen (São Tomé-et-Príncipe / Panama / République dominicaine / Burkina Faso / Salvador / Îles Salomon / Kiribati / Nicaragua / Honduras / Nauru) ; passage de 22 à 12 pays alliés, record historique le plus bas, et le fait que la perte des Îles Salomon et de Kiribati en quatre jours en 2019 est le plus mauvais résultat depuis la rupture simultanée avec l'Australie et la Nouvelle-Zélande en 1972.
+
+[^18]: [Asia Times : The dark side of Tsai Ing-wen's democracy](https://asiatimes.com/2021/03/the-dark-side-of-tsai-ing-wens-democracy/) — Analyse le refus du renouvellement de licence de CtiTV par la NCC à 7:0 en 2020 + la modification de la loi sur les référendums en 2019 (tous les deux ans, découplage du calendrier électoral) comme controverses sur la liberté de presse et la qualité démocratique, incluant les critiques de Lin Cheng-chieh au sein du DPP sur la fermeture de Ctv.

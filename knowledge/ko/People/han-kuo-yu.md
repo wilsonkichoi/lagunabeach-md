@@ -10,10 +10,10 @@ lastVerified: 2026-04-11
 lastHumanReview: false
 featured: true
 translatedFrom: People/韓國瑜.md
-sourceCommitSha: '5db9f136'
-sourceContentHash: 'sha256:ee41f08167c2c2aa'
-sourceBodyHash: 'sha256:73cf0e41be5a3b9e'
-translatedAt: 2026-05-03T23:14:06+08:00
+sourceCommitSha: '86db85f3'
+sourceContentHash: 'sha256:43806fa3b9658513'
+sourceBodyHash: 'sha256:fe00573219684528'
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 한국우
@@ -161,6 +161,7 @@ translatedAt: 2026-05-03T23:14:06+08:00
 - [](https://zh only) — 2018 한류의 반대 극. 한국우와 같은 해에 파란 땅에서 파란 하늘로 뒤집은 중두 시장
 - [](https://zh only) — 2026년 군사 구매 논란의 8000억 버전을 주도한 인물. 한국우 입법원장 협상의 핵심 현장인
 - [](https://zh only) — 2026-04-29 중앙상무회의에서 "당을 팔아 영달을 구하면 제명해야 한다"고 으르렁거린 부주석. 그 말이 실제로 타격을 준 대상이 바로 한국우
+- [쩡보은](/people/曾博恩) — 2019년 12월 한국우가 쩡보은 나이트나이트쇼 시즌3에 출연했다. 유일한 요청은 "헤어스타일로 장난치면 안 된다"는 것이었고, 쩡보은은 그를 "가장 친숙한 낯선 사람"이라고 불렀다
 
 ## 참고 문헌
 

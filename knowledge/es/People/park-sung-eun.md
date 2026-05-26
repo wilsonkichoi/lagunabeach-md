@@ -19,10 +19,10 @@ lastVerified: 2026-05-13
 lastHumanReview: false
 category: People
 translatedFrom: 'People/朴星垠.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:3f200b3b3b4c4178'
-sourceBodyHash: 'sha256:a35f4dc5fd25ef28'
-translatedAt: '2026-05-25T06:35:27+08:00'
+sourceCommitSha: '859d7316'
+sourceContentHash: 'sha256:887b51489bb209f2'
+sourceBodyHash: 'sha256:f656fc0bb3872e67'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 > **Resumen en 30 segundos:** Park Sung-eun se unió oficialmente a los Fubon Angels en 2026, convirtiéndose en una de las cinco pilares del apoyo coreano de los Fubon Guardians. Su trayectoria es una línea profesional clara: primero fue vista por los aficionados taiwaneses y luego fue incorporada formalmente como parte del equipo titular de la temporada. Su biografía resumida también aparece en la entrada «Park Sung-eun» de Wikipedia.[^4]

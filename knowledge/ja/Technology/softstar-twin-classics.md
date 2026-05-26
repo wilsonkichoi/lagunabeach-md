@@ -21,10 +21,10 @@ lastVerified: 2026-04-23
 featured: false
 lastHumanReview: false
 translatedFrom: 'Technology/大宇雙劍.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:d2025a3d031961b0'
-sourceBodyHash: 'sha256:fef7cbce1c58df11'
-translatedAt: '2026-05-01T18:09:43+08:00'
+sourceCommitSha: '03e04642'
+sourceContentHash: 'sha256:55f0fa48e3d73312'
+sourceBodyHash: 'sha256:5c70d0e1a87b0e81'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 > 1990年、大学生の一群が光華商場で技術マニュアルを探し、一台のコンピュータを交代で使いながら、初の中国語武侠RPG『軒轅剣』を完成させました。5年後、26歳の若者が失恋の気持ちを『仙剣奇侠伝』の結末に込め、発売初日に1万セットを売り上げました。これら二つのゲームは後に「大宇双剣」と呼ばれ、30年にわたりテレビドラマや映画を派生させ、累計販売数は100万セットを超えました。2024年9月、大宇は5億台湾ドルで双剣のIPを売却しました。しかし、一世世代のプレイヤーにとって、DOSウィンドウの前で初めて泣いたあの午後は、売ることはできません。

@@ -16,10 +16,10 @@ featured: false
 lastVerified: 2026-03-25
 lastHumanReview: false
 translatedFrom: History/台海危機與兩岸關係發展.md
-sourceCommitSha: 6b59db34
-sourceContentHash: sha256:a3193837a2f87e5e
-sourceBodyHash: sha256:f6df2c4e6142bfcd
-translatedAt: 2026-05-25T06:39:00+08:00
+sourceCommitSha: '7b8c0d48'
+sourceContentHash: sha256:fcdf343dc3efa72e
+sourceBodyHash: sha256:8952fca56720f010
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 # Crise du détroit de Taïwan et évolution des relations inter-détroit

@@ -11,10 +11,10 @@ lastVerified: 2026-03-25
 lastHumanReview: true
 featured: false
 translatedFrom: History/台海危機與兩岸關係發展.md
-sourceCommitSha: 6b59db34
-sourceContentHash: sha256:a3193837a2f87e5e
-sourceBodyHash: sha256:f6df2c4e6142bfcd
-translatedAt: 2026-05-24T22:39:00Z
+sourceCommitSha: '7b8c0d48'
+sourceContentHash: 'sha256:fcdf343dc3efa72e'
+sourceBodyHash: 'sha256:8952fca56720f010'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 台湾海峡危機と両岸関係の発展

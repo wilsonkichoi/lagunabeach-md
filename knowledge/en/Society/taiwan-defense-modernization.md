@@ -2,7 +2,16 @@
 title: "Taiwan's Defense and Military Modernization"
 description: "In October 2025, Lai Ching-te presided over the commissioning of an M1A2T tank battalion in Hukou. In the same month, former Chief of the General Staff Li Hsi-ming smiled wryly, saying, 'If tanks can be asymmetric weapons, what isn't an asymmetric weapon?' This is the story of an island torn between two defense logics."
 date: 2026-04-10
-tags: ['Defense', 'Military', 'Asymmetric Warfare', 'Porcupine Strategy', 'Drones', 'Military Service', 'Total Defense']
+tags:
+  [
+    'Defense',
+    'Military',
+    'Asymmetric Warfare',
+    'Porcupine Strategy',
+    'Drones',
+    'Military Service',
+    'Total Defense',
+  ]
 subcategory: 'Society'
 author: 'Taiwan.md'
 featured: false
@@ -10,17 +19,17 @@ readingTime: 16
 lastVerified: 2026-04-10
 lastHumanReview: false
 translatedFrom: 'Society/台灣國防與軍事現代化.md'
-sourceCommitSha: 'd6e87d07'
+sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:2a738cdf0963c2b3'
 sourceBodyHash: 'sha256:3410bda280a2a9c3'
-translatedAt: '2026-05-17T06:10:00Z'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 > **30-Second Overview:** The 2022 Russia-Ukraine War changed Taiwan's defense logic. In 2024, military service was restored from four months to one year. In 2025, the Han Kuang 41 exercise lasted the longest in history at ten days and nine nights, mobilizing 20,000 reservists. In November of the same year, the Lai Ching-te government proposed a NT$1.25 trillion special budget to procure 200,000 drones. However, on the same list, most of the money was still spent on expensive traditional equipment like tanks, fighter jets, and submarines. Former Chief of the General Staff Li Hsi-ming smiled wryly at this: "If tanks can be asymmetric weapons, what isn't an asymmetric weapon?" Taiwan is walking two defense paths simultaneously, and these two paths contradict each other.
 
 In late October 2025, at the Hukou National Review Ground, a row of M1A2T "Abrams" tanks stood on the concrete ground. Lai Ching-te stepped down from the rostrum to preside over the commissioning ceremony, announcing that the "strongest tank on the surface" had officially been incorporated into the Republic of China Armed Forces' combat sequence. The first batch of 38 units arrived in Taiwan in December 2024, the second batch of 42 units arrived in July 2025, and the final batch of 28 units completed delivery in the first quarter of 2026, totaling 108 units, deployed at the Hukou 584th Armored Brigade and the 269th Mechanized Brigade[^1].
 
-At the same time, former Chief of the General Staff Li Hsi-ming was signing books at a bookstore. His book, *Taiwan's Winning Chance*, argued that Taiwan should not buy expensive large-scale weapons but should instead invest in numerous cheap, mobile, and concealable small systems. When asked how he viewed the Ministry of National Defense's purchase of M1A2T tanks under the rationale of "beachhead decisive battle," he smiled wryly and said, "I can only smile wryly at this. If tanks can be asymmetric weapons, what isn't an asymmetric weapon?"[^2]
+At the same time, former Chief of the General Staff Li Hsi-ming was signing books at a bookstore. His book, _Taiwan's Winning Chance_, argued that Taiwan should not buy expensive large-scale weapons but should instead invest in numerous cheap, mobile, and concealable small systems. When asked how he viewed the Ministry of National Defense's purchase of M1A2T tanks under the rationale of "beachhead decisive battle," he smiled wryly and said, "I can only smile wryly at this. If tanks can be asymmetric weapons, what isn't an asymmetric weapon?"[^2]
 
 This sentence is the most honest key to understanding Taiwan's defense in 2026. The government speaks of pursuing a Porcupine Strategy, yet signs the most expensive weapons contracts with the United States; it claims defense autonomy, yet 90% of the budget goes to US suppliers; it extends military service, yet admits that 200,000 drones are the future main combat force. These contradictions are not oversights; they represent an island pulling back and forth between two survival logics. It wants to become a porcupine, but its body still remembers it was originally a leopard.
 
@@ -56,19 +65,19 @@ The training content for the new one-year service period was also revamped: 8 we
 
 Taiwan has long relied on US arms sales. F-16 fighter jets, Patriot missiles, M1A2 tanks, Harpoon missiles—almost all heavy equipment comes from Washington. This ties Taiwan's defense to US political will: if the White House changes hands, the speed of arms sales may change.
 
-"Defense Autonomy" has therefore become a long-term goal, with submarine indigenous construction as the flagship project. On September 28, 2023, the first self-built submarine, the *Hai-Shun* (Hull No. 711), was launched at the CSBC Kaohsiung Shipyard. The ship is 70 meters long with a displacement of approximately 2,500 tons, adopting an X-tail rudder design. Tsai Ing-wen said on that day: "History will remember this day." The plan subsequently called for the construction of seven more ships of the same class[^9].
+"Defense Autonomy" has therefore become a long-term goal, with submarine indigenous construction as the flagship project. On September 28, 2023, the first self-built submarine, the _Hai-Shun_ (Hull No. 711), was launched at the CSBC Kaohsiung Shipyard. The ship is 70 meters long with a displacement of approximately 2,500 tons, adopting an X-tail rudder design. Tsai Ing-wen said on that day: "History will remember this day." The plan subsequently called for the construction of seven more ships of the same class[^9].
 
-But history may not remember the 2023 launch ceremony; it may remember the delays of the following two years. The delivery schedule originally set for 2024 was delayed. On June 17, 2025, the *Hai-Shun* officially entered sea trials, first conducting float tests, then shallow-water submergence, and finally deep-water submergence. By November 28, 2025, the *Hai-Shun* ended a 147-day berthing period without going to sea, going out again for float verification, with several key steps remaining before completing submergence tests[^10].
+But history may not remember the 2023 launch ceremony; it may remember the delays of the following two years. The delivery schedule originally set for 2024 was delayed. On June 17, 2025, the _Hai-Shun_ officially entered sea trials, first conducting float tests, then shallow-water submergence, and finally deep-water submergence. By November 28, 2025, the _Hai-Shun_ ended a 147-day berthing period without going to sea, going out again for float verification, with several key steps remaining before completing submergence tests[^10].
 
-When asked about the *Hai-Shun* schedule, Minister of National Defense Kuo Li-hsiung gave an answer rarely spoken by high-ranking military officials: "Other countries' self-built new submarines usually take more than 7 years, with some examples taking 16 years. Our initial setting of 5 years was overly optimistic, lacking understanding of reality, especially failing to consider national conditions."[^11]
+When asked about the _Hai-Shun_ schedule, Minister of National Defense Kuo Li-hsiung gave an answer rarely spoken by high-ranking military officials: "Other countries' self-built new submarines usually take more than 7 years, with some examples taking 16 years. Our initial setting of 5 years was overly optimistic, lacking understanding of reality, especially failing to consider national conditions."[^11]
 
 Kuo Li-hsiung did not set a delivery schedule. He only said: "Only when testing is complete and safe without any risk will the subsequent delivery procedures enter."
 
-> **✦** "History will remember this day." These were Tsai Ing-wen's exact words at the *Hai-Shun* launch ceremony on September 28, 2023. Two years later, the *Hai-Shun* has not yet completed its submergence test. History will remember this day, but perhaps not in the way the person who said those words on that day intended.
+> **✦** "History will remember this day." These were Tsai Ing-wen's exact words at the _Hai-Shun_ launch ceremony on September 28, 2023. Two years later, the _Hai-Shun_ has not yet completed its submergence test. History will remember this day, but perhaps not in the way the person who said those words on that day intended.
 
 ## Between the "Strongest Tank" and the "Cheapest Drone"
 
-In November 2025, the Lai Ching-te government proposed the *Special Regulations for Strengthening National Defense Resilience and Asymmetric Combat Power Procurement*, planning to allocate a special defense budget of NT$1.25 trillion (approximately $40 billion USD) over 8 years. If passed, Taiwan's defense spending would rise from the current 2.5% of GDP to 3.3%. Of this, approximately NT$950 billion (76%) would flow to US arms dealers for the purchase of traditional weapon platforms[^12].
+In November 2025, the Lai Ching-te government proposed the _Special Regulations for Strengthening National Defense Resilience and Asymmetric Combat Power Procurement_, planning to allocate a special defense budget of NT$1.25 trillion (approximately $40 billion USD) over 8 years. If passed, Taiwan's defense spending would rise from the current 2.5% of GDP to 3.3%. Of this, approximately NT$950 billion (76%) would flow to US arms dealers for the purchase of traditional weapon platforms[^12].
 
 The other half of the picture of the same budget: The plan calls for the procurement of over 200,000 types of drones and over a thousand unmanned surface vessels, covering multi-rotor reconnaissance drones, fixed-wing attack drones, suicide drones, etc. Approximately NT$300 billion will be manufactured locally in Taiwan, creating a so-called "non-Red supply chain," a defense industrial system excluding Chinese components[^13].
 
@@ -97,7 +106,7 @@ The deepest transformation in Taiwan's defense is not in the weapon list, but in
 
 In 2022, semiconductor entrepreneur Tsao Hsing-cheng announced a donation of NT$600 million to fund Black Bear Academy. On January 7, 2025, former President Chen Shui-bian publicly disclosed on the internet that Tsao Hsing-cheng had fulfilled this commitment, revealing that the goal set between the two was to "train 3 million Black Bear Warriors within 3 years," accounting for about one-third of Taiwan's 9 million households, hoping that at least one person in each household would possess basic defense knowledge[^17].
 
-Black Bear Academy's classes were full from the start. A female student said in a *Vision* magazine interview: "I don't want to fight a war; I just don't want to be unable to protect my children when war comes." This sentence later became Black Bear Academy's own promotional copy[^18].
+Black Bear Academy's classes were full from the start. A female student said in a _Vision_ magazine interview: "I don't want to fight a war; I just don't want to be unable to protect my children when war comes." This sentence later became Black Bear Academy's own promotional copy[^18].
 
 > **✦** "I don't want to fight a war; I just don't want to be unable to protect my children when war comes." This is the most honest sentence in Taiwan's defense consciousness in 2026. It is not patriotism; it is the most primitive family instinct.
 
@@ -119,24 +128,24 @@ The last three sub-stages—Coastal Combat, Deep Defense, Protracted Warfare—a
 
 This is the shadow of the ODC. Li Hsi-ming's idea in those years was to turn Taiwan into a "net"; if the front cannot be held, retreat to the deep territory, making the enemy pay a price wherever they retreat. Han Kuang 41 is the first time this concept was systematically adopted in an exercise script[^20].
 
-| During the 1995 Missile Crisis | In 2026 |
-| ----------------- | ------------------------ |
-| 600,000 Active-Duty Troops | 180,000 Active + 2 Million Reserves |
-| 2-Year Conscription | 1-Year Conscription + Volunteer Core |
-| Beachhead Decisive Battle Mindset | Gray Zone → Deep → Protracted War |
-| Weapons Entirely from US Aid | US Aid Main + Defense Autonomy Supplement |
-| Big Ships and Big Guns | Drones × Mobile Missiles × Naval Mines |
-| Civil Defense as Exercise Props | Civil Defense as Black Bear Academy's Cash Flow |
+| During the 1995 Missile Crisis    | In 2026                                         |
+| --------------------------------- | ----------------------------------------------- |
+| 600,000 Active-Duty Troops        | 180,000 Active + 2 Million Reserves             |
+| 2-Year Conscription               | 1-Year Conscription + Volunteer Core            |
+| Beachhead Decisive Battle Mindset | Gray Zone → Deep → Protracted War               |
+| Weapons Entirely from US Aid      | US Aid Main + Defense Autonomy Supplement       |
+| Big Ships and Big Guns            | Drones × Mobile Missiles × Naval Mines          |
+| Civil Defense as Exercise Props   | Civil Defense as Black Bear Academy's Cash Flow |
 
 ## 160 Kilometers and a Bet
 
 The narrowest point of the Taiwan Strait is approximately 130 kilometers, and the widest is approximately 400 kilometers. This body of water is known in military academia as a natural barrier for "Anti-Access/Area Denial" (A2/AD). For the PLA to cross the Taiwan Strait, it requires not just ships and aircraft, but continuous weeks of sea and air superiority and amphibious landing capability. This is something only two or three existing armies in the world can do[^21].
 
-Taiwan's defense strategy is built on a cold calculation: **No need to win, only need to hold out until international intervention intervenes.** A porcupine does not need to defeat the hunter; it only needs to make the hunter feel "eating this is not worth it." M1A2T tanks, F-16V fighter jets, and the *Hai-Shun* submarine; their mission is not to defeat the PLA, but to drag out time. 200,000 drones, 20,000 reservists, and 3 million Black Bear Warriors are doing the same thing.
+Taiwan's defense strategy is built on a cold calculation: **No need to win, only need to hold out until international intervention intervenes.** A porcupine does not need to defeat the hunter; it only needs to make the hunter feel "eating this is not worth it." M1A2T tanks, F-16V fighter jets, and the _Hai-Shun_ submarine; their mission is not to defeat the PLA, but to drag out time. 200,000 drones, 20,000 reservists, and 3 million Black Bear Warriors are doing the same thing.
 
 But the premise of this calculation is: The international community will intervene.
 
-The F-16V Block 70 was originally scheduled for delivery in 2024, but due to US supply chain and software issues, it was delayed until 2027[^22]. The *Hai-Shun* has been delayed by more than two years from launch to expected delivery. The NT$1.25 trillion special budget has been blocked eight times in the Legislative Yuan. The M1A2T tanks arrived in Taiwan as scheduled, but it is the kind of weapon Li Hsi-ming sees as "how can a tank be an asymmetric weapon." Every schedule, every budget, every type of equipment reminds us of the same thing: Taiwan's defense is not a plan for Taiwan alone.
+The F-16V Block 70 was originally scheduled for delivery in 2024, but due to US supply chain and software issues, it was delayed until 2027[^22]. The _Hai-Shun_ has been delayed by more than two years from launch to expected delivery. The NT$1.25 trillion special budget has been blocked eight times in the Legislative Yuan. The M1A2T tanks arrived in Taiwan as scheduled, but it is the kind of weapon Li Hsi-ming sees as "how can a tank be an asymmetric weapon." Every schedule, every budget, every type of equipment reminds us of the same thing: Taiwan's defense is not a plan for Taiwan alone.
 
 **Further Reading**:
 
@@ -170,9 +179,9 @@ The F-16V Block 70 was originally scheduled for delivery in 2024, but due to US 
 
 [^8]: [VOA: Taiwan Restarts One-Year Military Service, Eligible Males' Reactions Are Complex](https://www.voacantonese.com/a/the-real-military-front-liners-what-do-taiwanese-young-men-say-123023/7418748.html) — Interviews with multiple eligible conscripts regarding their complex reactions to the restoration of one-year military service, including combat fear, doubts about training quality, and direct statements like "I do not want to pay with my life for the mistakes of political figures."
 
-[^9]: [Presidential Office News: First Indigenous Submarine Hai-Shun Completed](https://www.president.gov.tw/News/27939) — Record of the naming and launch ceremony of the *Hai-Shun* at the CSBC Kaohsiung Shipyard on September 28, 2023, including Tsai Ing-wen's original words "History will remember this day," ship length of 70 meters, displacement of 2,500 tons, and the complete plan to build seven more ships subsequently.
+[^9]: [Presidential Office News: First Indigenous Submarine Hai-Shun Completed](https://www.president.gov.tw/News/27939) — Record of the naming and launch ceremony of the _Hai-Shun_ at the CSBC Kaohsiung Shipyard on September 28, 2023, including Tsai Ing-wen's original words "History will remember this day," ship length of 70 meters, displacement of 2,500 tons, and the complete plan to build seven more ships subsequently.
 
-[^10]: [Newtalk News: Hai-Shun Conducts Float Tests for Two Consecutive Days, Rushing Progress Toward Key Step of Submergence](https://newtalk.tw/news/view/2025-11-28/1007039) — Record of the *Hai-Shun* going out to sea again after ending a 147-day berthing period on November 28, 2025, for float tests, explaining that tests are divided into three stages: float, shallow-water submergence, and deep-water submergence, currently still in preliminary verification.
+[^10]: [Newtalk News: Hai-Shun Conducts Float Tests for Two Consecutive Days, Rushing Progress Toward Key Step of Submergence](https://newtalk.tw/news/view/2025-11-28/1007039) — Record of the _Hai-Shun_ going out to sea again after ending a 147-day berthing period on November 28, 2025, for float tests, explaining that tests are divided into three stages: float, shallow-water submergence, and deep-water submergence, currently still in preliminary verification.
 
 [^11]: [Epoch Times: Hai-Shun Delivery Delayed, Defense Minister Admits Initial Optimism Was Too High](https://www.epochtimes.com/b5/25/10/20/n14620177.htm) — Minister of National Defense Kuo Li-hsiung admitted in the Legislative Yuan that the 5-year construction schedule was "overly optimistic," contrasting with other countries' 7 to 16-year construction cycles, making it one of the few high-ranking military statements admitting that the indigenous submarine schedule design was unrealistic.
 

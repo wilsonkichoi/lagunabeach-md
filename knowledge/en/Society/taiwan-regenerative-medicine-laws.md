@@ -5,16 +5,26 @@ date: 2026-05-19
 author: 'Taiwan.md Contributors'
 category: 'Society'
 subcategory: '人權與平等'
-tags: ['Regenerative Medicine Dual Laws', 'Cell Preparation', 'mRNA Vaccines', 'COVID-19', 'Karikó', 'BNT', 'Medical Human Rights', 'GMP']
+tags:
+  [
+    'Regenerative Medicine Dual Laws',
+    'Cell Preparation',
+    'mRNA Vaccines',
+    'COVID-19',
+    'Karikó',
+    'BNT',
+    'Medical Human Rights',
+    'GMP',
+  ]
 readingTime: 22
 lastVerified: 2026-05-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/台灣再生醫療雙法沿革從業人員告白.md'
-sourceCommitSha: '9a60e8fdf'
-sourceContentHash: 'sha256:d0f219d5c8075694'
-sourceBodyHash: 'sha256:d965fc94f9515900'
-translatedAt: '2026-05-20T05:08:27+08:00'
+sourceCommitSha: '89026b10'
+sourceContentHash: 'sha256:22d1f9fc4fe57b36'
+sourceBodyHash: 'sha256:5c0fd1397ca8fbdd'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 ![Katalin Karikó and Drew Weissman jointly receiving the Life Science Medal in 2022, photographed in front of a backdrop; Karikó wears a red suit and Weissman a dark suit](/article-images/society/kariko-weissman-life-science-2022.jpg)
@@ -58,7 +68,7 @@ If mRNA injection itself triggered a lethal immune storm, the entire technologic
 
 The key observation was tRNA, or transfer RNA. Mice injected with tRNA did not die. The greatest difference between tRNA and other RNA molecules was that tRNA contains many nucleoside base modifications. Could the immune system actually distinguish self from enemy based on whether RNA was modified?
 
-Karikó had excellent techniques for synthesizing modified RNA. The two eventually found that changing uridine, “U,” in an RNA molecule into pseudouridine, “ψ,” allowed it to evade immune responses while still enabling cells to translate proteins properly[^3][^9]. In 2005, they successfully applied this method in monkeys[^9] and published a breakthrough paper in *Immunity*: **Suppression of RNA recognition by Toll-like receptors: The impact of nucleoside modification and the evolutionary origin of RNA**[^9].
+Karikó had excellent techniques for synthesizing modified RNA. The two eventually found that changing uridine, “U,” in an RNA molecule into pseudouridine, “ψ,” allowed it to evade immune responses while still enabling cells to translate proteins properly[^3][^9]. In 2005, they successfully applied this method in monkeys[^9] and published a breakthrough paper in _Immunity_: **Suppression of RNA recognition by Toll-like receptors: The impact of nucleoside modification and the evolutionary origin of RNA**[^9].
 
 💡 **Did you know:** Viral RNA is usually unmodified, so when the immune system sees “unmodified RNA,” it treats it as a foreign invader and attacks. mRNA sufficiently modified with pseudouridine can “trick” cells, turning them into factories for a specified protein. This mechanism transformed mRNA from “a poison that kills mice” into “an instruction that can direct cells to make proteins.” It later became the core principle of COVID-19 mRNA vaccines.
 
@@ -241,6 +251,14 @@ Karikó told Swedish Radio that her mother used to listen every year to the Nobe
 
 Regrettably, Karikó’s mother had passed away five years earlier and did not see her actually receive the Nobel Prize[^3].
 
+Two months later, on December 7, 2023, Karikó delivered her Nobel Prize lecture at the Aula Medica of the Karolinska Institutet in Stockholm, titled ‘Developing mRNA for therapy.’ Thirty years of stubbornness, delivered all at once.
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/gPdUnYjvWxo" title="Nobel Prize lecture: Katalin Karikó, Nobel Prize in Physiology or Medicine 2023" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Nobel Prize official channel: Katalin Karikó’s Nobel Prize lecture “Developing mRNA for therapy” on December 7, 2023. From leaving Hungary in 1985, to being demoted at the University of Pennsylvania in 1995, to publishing the unmodified-nucleoside breakthrough paper in 2005, to BNT/Pfizer putting that technology into the arms of billions in 2020 — 38 years condensed into 30 minutes. She spoke without notes._
+
 Whenever I walk out of the cleanroom, take off the heavy protective suit, and look at the sunset outside the window, I always think of the numbers entrusted to our hands. Behind those numbers are broken families and unwilling hopes. On a production line somewhere in Mainz, Germany, perhaps the 500 billionth dose of BNT mRNA vaccine is leaving the factory. In an ISO 5 cleanroom somewhere in Taoyuan Science Park, that same afternoon, a cell preparation technician is still quietly changing culture medium. Two kinds of life-saving medicine, two manufacturing methods: both are part of the process in which people wait for law to catch up with science.
 
 The passage of the regenerative medicine dual laws will not make miracles cheap overnight. R&D remains difficult, costs remain high, and the boundaries of science still exist. But at least from now on, when a Taiwanese physician tells a patient, “We still have cell therapy as an option,” that is a real hope based on the protection of national law, the support of scientific data, and the standards guarded by countless preparation personnel in cleanrooms.
@@ -271,11 +289,11 @@ This article uses three CC-licensed images, all cached under `public/article-ima
 
 [^2]: “Taiwan’s 2021 COVID-19 Level 3 alert: Rt surged on May 11, Taipei and New Taipei entered Level 3 on May 15, and a nationwide Level 3 alert was declared on May 19” — Synthesized from Central Epidemic Command Center press conference releases in May 2021, recording the two-week timeline from Taiwan’s local outbreak to the Level 3 alert. This forms the chronological basis for this article’s section on “the two weeks of May 2021.”
 
-[^3]: [“2023 Nobel Prize in Physiology or Medicine: The bitter toil behind mRNA vaccines, and why was mRNA research unwelcome?”](https://pansci.asia/archives/371366) — Long-form article on the PanSci website, by the PanSci editorial team, published 2023-11-05. It records the complete personal timeline of Katalin Karikó, including her immigration from Hungary, demotion at the University of Pennsylvania, 1997 photocopier encounter with Weissman, 2005 *Immunity* paper, 2013 laboratory clearance, and response to the 2023 Nobel Prize. This is the main narrative line for this article’s “30 years of mRNA.” Content Curation Partner per MOU 2026-05-05.
+[^3]: [“2023 Nobel Prize in Physiology or Medicine: The bitter toil behind mRNA vaccines, and why was mRNA research unwelcome?”](https://pansci.asia/archives/371366) — Long-form article on the PanSci website, by the PanSci editorial team, published 2023-11-05. It records the complete personal timeline of Katalin Karikó, including her immigration from Hungary, demotion at the University of Pennsylvania, 1997 photocopier encounter with Weissman, 2005 _Immunity_ paper, 2013 laboratory clearance, and response to the 2023 Nobel Prize. This is the main narrative line for this article’s “30 years of mRNA.” Content Curation Partner per MOU 2026-05-05.
 
 [^4]: [Presidential Office Gazette, Republic of China: Full text of the Regenerative Medicine Act](https://www.president.gov.tw/Page/294) — Full statutory text of the Regenerative Medicine Act promulgated by presidential order on June 19, 2024; primary legal source for one of this article’s core statutes.
 
-[^5]: [Suppression of RNA recognition by Toll-like receptors: The impact of nucleoside modification and the evolutionary origin of RNA](https://doi.org/10.1016/j.immuni.2005.06.008) — Karikó K., Buckstein M., Ni H., Weissman D., *Immunity*, Vol. 23, No. 2, pp. 165-175, August 2005. The breakthrough paper in which Karikó and Weissman found that pseudouridine modification can evade TLR immune recognition. It later became a core technological basis for COVID-19 mRNA vaccines and a central citation for the 2023 Nobel Prize in Physiology or Medicine.
+[^5]: [Suppression of RNA recognition by Toll-like receptors: The impact of nucleoside modification and the evolutionary origin of RNA](https://doi.org/10.1016/j.immuni.2005.06.008) — Karikó K., Buckstein M., Ni H., Weissman D., _Immunity_, Vol. 23, No. 2, pp. 165-175, August 2005. The breakthrough paper in which Karikó and Weissman found that pseudouridine modification can evade TLR immune recognition. It later became a core technological basis for COVID-19 mRNA vaccines and a central citation for the 2023 Nobel Prize in Physiology or Medicine.
 
 [^6]: “Medigen vaccine EUA approval and the immunobridging technology route” — Synthesized from the Taiwan Food and Drug Administration’s 2021-07-19 press release and review records for the EUA of Medigen’s MVC COVID-19 Vaccine. It records the review basis by which Medigen obtained EUA through immunobridging, using neutralizing antibodies non-inferior to AZ vaccine. This is the basis for the technology-route comparison in this article’s “The Medigen Shot” section.
 
@@ -283,11 +301,11 @@ This article uses three CC-licensed images, all cached under `public/article-ima
 
 [^8]: “Katalin Karikó joined the University of Pennsylvania in 1989 as Research Assistant Professor, collaborating with Elliot Barnathan” — Synthesized from the English Wikipedia entry on Katalin Karikó (https://en.wikipedia.org/wiki/Katalin_Karik%C3%B3) and University of Pennsylvania Perelman School of Medicine historical materials, recording Karikó’s 1989 move to Penn and her work with cardiologist Barnathan on mRNA therapy for cardiovascular disease.
 
-[^9]: [The 2023 Nobel Prize in Physiology or Medicine: Scientific Background](https://www.nobelprize.org/prizes/medicine/2023/advanced-information/) — Official background explanation by the Nobel Prize Committee, 2023-10-02, recording the full research path and citation list from Karikó and Weissman’s 2005 *Immunity* paper to the 2020 COVID-19 vaccines. This is the official primary source for this article’s section on the mRNA research breakthrough.
+[^9]: [The 2023 Nobel Prize in Physiology or Medicine: Scientific Background](https://www.nobelprize.org/prizes/medicine/2023/advanced-information/) — Official background explanation by the Nobel Prize Committee, 2023-10-02, recording the full research path and citation list from Karikó and Weissman’s 2005 _Immunity_ paper to the 2020 COVID-19 vaccines. This is the official primary source for this article’s section on the mRNA research breakthrough.
 
 [^10]: “Katalin Karikó joined BioNTech as Senior Vice President in 2013” — Synthesized from BioNTech’s 2013 personnel announcement and the English Wikipedia entry on Katalin Karikó (https://en.wikipedia.org/wiki/Katalin_Karik%C3%B3), recording Karikó’s early 2013 move to BioNTech RNA Pharmaceuticals as vice president while retaining adjunct faculty status at Penn.
 
-[^11]: “Derrick Rossi and the founding of Moderna Therapeutics in 2010” — Synthesized from Derrick Rossi’s 2010 paper in *Cell Stem Cell* (https://doi.org/10.1016/j.stem.2010.08.012), Moderna’s 2010 founding announcement, and a 2018 retrospective report by *MIT Technology Review*, recording Rossi and Luigi Warren’s stem-cell research at Stanford University and the 2010 founding history of Moderna Therapeutics.
+[^11]: “Derrick Rossi and the founding of Moderna Therapeutics in 2010” — Synthesized from Derrick Rossi’s 2010 paper in _Cell Stem Cell_ (https://doi.org/10.1016/j.stem.2010.08.012), Moderna’s 2010 founding announcement, and a 2018 retrospective report by _MIT Technology Review_, recording Rossi and Luigi Warren’s stem-cell research at Stanford University and the 2010 founding history of Moderna Therapeutics.
 
 [^12]: “The SARS-CoV-2 genome sequence was released globally on January 5, 2020” — Synthesized from the January 5, 2020 release of the full SARS-CoV-2 genome sequence by Zhang Yongzhen’s team at Fudan University on Virological.org (https://virological.org/) and early 2020 World Health Organization press releases.
 
@@ -295,11 +313,11 @@ This article uses three CC-licensed images, all cached under `public/article-ima
 
 [^14]: “Taiwan’s local COVID-19 Level 3 alert in May 2021” — Central Epidemic Command Center press conference releases from May 11, 15, and 19, 2021, recording the Rt surge, Level 3 alerts in Taipei and New Taipei, nationwide Level 3 alert, suspension of in-person classes at all school levels, and daily confirmed case figures.
 
-[^15]: “Terry Gou proposed a BNT vaccine donation plan to relevant authorities on May 23, 2021” — Synthesized from Hon Hai Group’s official statement dated 2021-05-23, Terry Gou’s public Facebook letter, and a series of *Liberty Times* reports from May-July 2021.
+[^15]: “Terry Gou proposed a BNT vaccine donation plan to relevant authorities on May 23, 2021” — Synthesized from Hon Hai Group’s official statement dated 2021-05-23, Terry Gou’s public Facebook letter, and a series of _Liberty Times_ reports from May-July 2021.
 
 [^16]: [Executive Yuan press release of June 18, 2021, authorizing TSMC and Hon Hai/YongLin Foundation to negotiate procurement of BNT vaccines](https://www.ey.gov.tw/) — Executive Yuan post-cabinet meeting press release dated 2021-06-18, recording spokesperson Lo Ping-cheng’s announcement that the government would issue letters authorizing private procurement of 5 million BNT vaccine doses each. This is the primary government source for the government authorization point in the 2021 BNT timeline.
 
-[^17]: [TSMC and Hon Hai completed signing legal documents for BNT vaccine procurement on June 26, 2021](https://news.ltn.com.tw/news/politics/breakingnews/3582990) — *Liberty Times* breaking news, 2021-06-26, quoting the Executive Yuan statement that “the government and the two donating units have successfully completed the signing of legal documents necessary to initiate project procurement.” This is a media primary account for the middle stage of the 2021 BNT procurement timeline.
+[^17]: [TSMC and Hon Hai completed signing legal documents for BNT vaccine procurement on June 26, 2021](https://news.ltn.com.tw/news/politics/breakingnews/3582990) — _Liberty Times_ breaking news, 2021-06-26, quoting the Executive Yuan statement that “the government and the two donating units have successfully completed the signing of legal documents necessary to initiate project procurement.” This is a media primary account for the middle stage of the 2021 BNT procurement timeline.
 
 [^18]: “Medigen vaccine passed EUA review on July 19, 2021, and President Tsai Ing-wen received her first dose on August 23” — Synthesized from the Ministry of Health and Welfare Taiwan Food and Drug Administration’s 2021-07-19 EUA announcement for Medigen’s MVC COVID-19 Vaccine and the Presidential Office’s 2021-08-23 press release on President Tsai’s Medigen vaccination.
 
@@ -311,11 +329,11 @@ This article uses three CC-licensed images, all cached under `public/article-ima
 
 [^22]: [TFDA: GMP guidelines for regenerative medicine preparation manufacturing factories](https://www.fda.gov.tw/TC/site.aspx?sid=11656) — Official TFDA technical specifications for cell preparation GMP, serving as the implementation standard for the compliance requirements discussed in this article.
 
-[^23]: [“Interpreting the regenerative medicine dual laws: The battle over conditional approval”](https://www.twreporter.org/a/regenerative-medicine-law-passing) — In-depth report by *The Reporter*, organizing the debates over the dual laws, the conditional approval controversy, industry expectations, and patient perspectives. This is the main reference for this article’s “tug-of-war over conditional approval” section.
+[^23]: [“Interpreting the regenerative medicine dual laws: The battle over conditional approval”](https://www.twreporter.org/a/regenerative-medicine-law-passing) — In-depth report by _The Reporter_, organizing the debates over the dual laws, the conditional approval controversy, industry expectations, and patient perspectives. This is the main reference for this article’s “tug-of-war over conditional approval” section.
 
-[^24]: “He Jiankui CRISPR gene-edited twins incident, 2018” — Synthesized from *Nature*’s 2018-11-26 report (https://doi.org/10.1038/d41586-018-07545-0) and Xinhua’s 2019-12-30 press release on He Jiankui’s three-year prison sentence, recording the world’s first clinical incident involving human embryonic gene editing and subsequent legal disposition.
+[^24]: “He Jiankui CRISPR gene-edited twins incident, 2018” — Synthesized from _Nature_’s 2018-11-26 report (https://doi.org/10.1038/d41586-018-07545-0) and Xinhua’s 2019-12-30 press release on He Jiankui’s three-year prison sentence, recording the world’s first clinical incident involving human embryonic gene editing and subsequent legal disposition.
 
-[^25]: [“Academia Sinica mRNA pilot plant launched in early 2024: scale of a few hundred doses, not a factory in the ordinary sense”](https://www.thenewslens.com/article/185750) — Series of reports by *The News Lens* in 2023-2024, recording the scale positioning of Academia Sinica’s mRNA pilot plant (300-1,000 doses of reagents), its use as a clinical-trial base, and its technological positioning in next-generation medicine, including cancer vaccines.
+[^25]: [“Academia Sinica mRNA pilot plant launched in early 2024: scale of a few hundred doses, not a factory in the ordinary sense”](https://www.thenewslens.com/article/185750) — Series of reports by _The News Lens_ in 2023-2024, recording the scale positioning of Academia Sinica’s mRNA pilot plant (300-1,000 doses of reagents), its use as a clinical-trial base, and its technological positioning in next-generation medicine, including cancer vaccines.
 
 [^26]: “Five technical directions awarded in the 2024 Moderna Taiwan mRNA Forward-Looking Innovation Awards” — Official Moderna Taiwan press release for the 2024 Taiwan mRNA Innovation Awards, recording five awarded Taiwanese mRNA research directions: cancer immunotherapy, NK cells combined with nanomedicine, automated packaging of mRNA protein nanoparticles, dengue vaccines, and circular RNA technology.
 

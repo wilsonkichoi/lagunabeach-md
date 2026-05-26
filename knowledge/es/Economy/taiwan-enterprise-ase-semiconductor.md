@@ -17,10 +17,10 @@ featured: false
 lastVerified: 2026-03-21
 lastHumanReview: true
 translatedFrom: Economy/台灣企業：日月光半導體.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:cb7042e73cb2cef2'
-sourceBodyHash: 'sha256:ab22377f8d58d529'
-translatedAt: 2026-05-01T22:19:10+08:00
+sourceCommitSha: 'b900f18d'
+sourceContentHash: 'sha256:275d7b3ee56db82a'
+sourceBodyHash: 'sha256:58739438cbba3247'
+translatedAt: 2026-05-26T21:07:27Z
 category: Economy
 ---
 
@@ -165,6 +165,12 @@ Desde la inversión familiar de Zhang Yao-Hongying y sus dos hijos en 1984 hasta
 En una era donde todos hablan de diseño y fabricación de chips, ASE nos recuerda que cada eslabón de la cadena de valor es importante. Hacer bien una cosa y ser el mejor del mundo te convierte en un campeón oculto irremplazable.
 
 ---
+
+**Lecturas complementarias**:
+
+- [Empresa taiwanesa: TSMC](/economy/台灣企業：台積電) — La relación entre la montaña sagrada protectora y las empresas de empaquetado en la parte posterior de la cadena
+- [Empresa taiwanesa: MediaTek](/economy/台灣企業：聯發科技) — El líder taiwanés en diseño de IC, que junto a ASE forma parte del mismo ecosistema integral de la cadena de suministro
+- [Industria de semiconductores](/technology/半導體產業) — El campo de batalla de la ciencia de materiales de 50 años, desde la transferencia tecnológica de RCA hasta el empaquetado avanzado CoWoS, con la posición del empaquetado tradicional de ASE
 
 ## Referencias
 

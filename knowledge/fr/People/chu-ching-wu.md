@@ -22,10 +22,10 @@ readingTime: 7
 #   whats_excluded: "BCS理論細節；歷年學術論文清單；超導應用工程規格"
 #   where_it_hedges: "諾貝爾候選資格為外界推測而非官方確認；2026 Tc=151K 以中時報導為準"
 translatedFrom: 'People/朱經武.md'
-sourceCommitSha: '5c000f86'
-sourceContentHash: 'sha256:ee5b642d51157582'
-sourceBodyHash: 'sha256:cf9cdcbf2f556520'
-translatedAt: '2026-05-25T06:19:00+08:00'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:79c87fb84a11dd9d'
+sourceBodyHash: 'sha256:619ef92c56c46024'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 # Chu Ching-wu : co-découvreur en 1987 de la supraconductivité à haute température critique Tc = 93 K, franchissant le seuil de l'azote liquide

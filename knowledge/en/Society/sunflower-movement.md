@@ -14,10 +14,10 @@ featured: true
 lastVerified: 2026-04-12
 lastHumanReview: false
 translatedFrom: 'Society/太陽花學運.md'
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:3a8798103fc8c01b'
-sourceBodyHash: 'sha256:620bf7e5d85566f8'
-translatedAt: '2026-05-17T06:10:00Z'
+sourceCommitSha: '7b8c0d48'
+sourceContentHash: 'sha256:8a36018a77b69fe4'
+sourceBodyHash: 'sha256:7c672299649957c4'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 > **30-Second Overview:** On March 17, 2014, KMT legislator Chang Ching-chung, pinned to the floor by opposition lawmakers, used a lapel microphone to declare in thirty seconds that the Cross-Strait Service Trade Agreement was "deemed reviewed." The next night, over two hundred students stormed parliament, set up a 24-hour iPad livestream, and refused to leave for twenty-four days. The trade deal was never voted down — history buried it instead. Twelve years later: Taiwan's export dependence on China dropped from 42% to 31.5%. The students won a war they didn't know they were fighting.
@@ -161,7 +161,8 @@ Those thirty seconds — Chang Ching-chung probably never imagined that what he 
 - [Taiwan Strait Crises and Cross-Strait Relations](/en/history/taiwan-strait-crises-and-cross-strait-relations) — The geopolitical context behind the CSSTA controversy
 - [Zashare School](/society/雜學校) — Another way the energies released after the 318 movement carried on outside the system: a Taiwanese case of translating street rebellion into an education carnival
 - [Taiwan and Eswatini](/society/台灣與史瓦帝尼) — A decade after 318, Lai Ching-te's visit to Eswatini during a moment of consolidating diplomatic ties shows what "sovereign state" looks like in concrete terms abroad
-- [Aaron Nieh](/people/聶永真) — The designer behind the "Democracy at 4am" New York Times front-page ad in the early hours of 2014, a design-side record of how the student movement entered international view
+- [Ma Ying-jeou](/people/馬英九) — The president who made the key decisions during the period of the 30-second CSSTA committee vote, the police dispersal of the Executive Yuan in the early hours of March 24, and the movement’s withdrawal on April 10
+- [Aaron Nieh](/people/聶永真) — The designer behind the “Democracy at 4am” New York Times front-page ad in the early hours of 2014, a design-side record of how the student movement entered international view
 
 ## 參考資料
 

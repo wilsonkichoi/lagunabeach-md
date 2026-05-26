@@ -5,16 +5,28 @@ date: 2026-03-18
 author: 'Taiwan.md Contributors'
 category: 'Society'
 subcategory: '社區與日常'
-tags: ['animales callejeros', 'protección animal', 'sacrificio cero', 'TNR', 'Doce noches', 'gato leopardo', 'perros errantes', 'protección animal y conservación silvestre', 'refugios', 'cultura de adopción']
+tags:
+  [
+    'animales callejeros',
+    'protección animal',
+    'sacrificio cero',
+    'TNR',
+    'Doce noches',
+    'gato leopardo',
+    'perros errantes',
+    'protección animal y conservación silvestre',
+    'refugios',
+    'cultura de adopción',
+  ]
 readingTime: 22
 lastVerified: 2026-05-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/台灣流浪動物文化.md'
-sourceCommitSha: '30a8f7dd0'
-sourceContentHash: 'sha256:263c3b702290d75e'
-sourceBodyHash: 'sha256:ee74b946bf624320'
-translatedAt: '2026-05-20T05:08:32+08:00'
+sourceCommitSha: '89026b10'
+sourceContentHash: 'sha256:559d8bd5f905e8f0'
+sourceBodyHash: 'sha256:a5a01661de129b91'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 # Cultura de los animales callejeros en Taiwán: de Doce noches a la muerte del gato leopardo, el dilema del tranvía entre protección animal y conservación silvestre
@@ -60,6 +72,14 @@ Al duodécimo día, muchas personas del público ya lloraban tanto que no podía
 
 _Doce noches_ superó los 50 millones de dólares taiwaneses en taquilla, una cifra astronómica para un documental. Pero lo más importante fue que convirtió la “eutanasia en refugios”, hasta entonces un tema del círculo animalista, en una indignación nacional.
 
+En 2020, la directora Raye subió la película completa a YouTube; aún en 2025 sigue disponible en el canal oficial de «十二夜 Twelve Nights» de manera abierta, con el argumento de que quiere que esos 92 minutos sigan haciendo lo que deben hacer: cada persona que los vea puede ser la oportunidad de adopción de otro perro.
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/aCRzgAWj7nI" title="電影【十二夜】Twelve Nights 完整版" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Canal oficial de 十二夜 Twelve Nights: versión completa del documental de 2013 dirigido por Raye y producido por Giddens Ko (92 minutos). Sin entrevistas ni narración en off, solo la cuenta atrás de 12 días convertida en imágenes; este documental convirtió directamente la «eutanasia en los refugios públicos» de tema de protección animal en tema de toda la ciudadanía, y dio sustento popular a la reforma legislativa de 2015 y al objetivo de cero sacrificios de 2017._
+
 ### De las lágrimas a la ley
 
 En enero de 2015, el Yuan Legislativo aprobó en tercera lectura una enmienda a la Ley de Protección Animal, que establecía claramente[^4]:
@@ -79,7 +99,7 @@ Si en una calle de Taiwán ves un perro o un gato con una pequeña punta faltant
 TNR es la sigla de Trap (capturar), Neuter (esterilizar) y Return (devolver): capturar animales callejeros, esterilizarlos, marcarles la oreja y devolverlos a su lugar original. Más tarde, la versión oficial de la mayoría de los condados y ciudades incorporó la vacunación y pasó a llamarse **TNvR**; la v adicional corresponde a Vaccinate. La lógica es sencilla: si no puedes matarlos a todos, haz que dejen de reproducirse. Después de una generación, dos, tres, la población disminuirá de forma natural.
 
 ![Primer plano de un gato callejero atigrado con la oreja recortada; la punta de la oreja izquierda tiene un pequeño triángulo cortado como marca de esterilización, con un fondo urbano desenfocado](/article-images/society/tnr-cat-clipped-ear-2016.jpg)
-_A los gatos callejeros que completan la cirugía TNR se les recorta la punta de una oreja como marca. Esa señal permite a voluntarios y personal de protección animal distinguir desde lejos que “este ya fue esterilizado”, evitando capturas repetidas. Photo: Yu Tae-wook, 2016. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cat_with_clipped_ear_(cropped).jpg)._
+_A los gatos callejeros que completan la cirugía TNR se les recorta la punta de una oreja como marca. Esa señal permite a voluntarios y personal de protección animal distinguir desde lejos que “este ya fue esterilizado”, evitando capturas repetidas. Photo: Yu Tae-wook, 2016. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cat_with_clipped_ear_(cropped).jpg).\_
 
 En Taiwán, el TNR fue impulsado inicialmente de manera espontánea por organizaciones civiles de protección animal, moviéndose en una zona gris legal. Tras la reforma de 2015 de la Ley de Protección Animal, el TNR finalmente fue incorporado formalmente como herramienta de política pública[^4]. Los gobiernos locales empezaron a asignar presupuesto y a colaborar con organizaciones animalistas para ejecutar programas de TNR a gran escala.
 
@@ -432,7 +452,7 @@ Los problemas complejos no tienen respuestas simples. Pero la pregunta ya está 
 Este artículo utiliza 4 imágenes de dominio público / con licencia CC, todas almacenadas en caché en `public/article-images/society/` para evitar enlaces directos al servidor de origen:
 
 - [Espécimen de gato leopardo chino](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E8%8F%AF%E7%9F%B3%E8%99%8E%E6%A8%99%E6%9C%AC%EF%BC%882%EF%BC%89.jpg) — Photo: 丘崈, 2026-02-15, CC0 1.0 dominio público, espécimen de gato leopardo chino conservado en el Museo Nacional de Taiwán
-- [Gato callejero con oreja recortada tras TNR](https://commons.wikimedia.org/wiki/File:Cat_with_clipped_ear_(cropped).jpg) — Photo: Yu Tae-wook, 2016-11-18 (recortada 2021-06-18), CC0 1.0 dominio público
+- [Gato callejero con oreja recortada tras TNR](<https://commons.wikimedia.org/wiki/File:Cat_with_clipped_ear_(cropped).jpg>) — Photo: Yu Tae-wook, 2016-11-18 (recortada 2021-06-18), CC0 1.0 dominio público
 - [Foto frontal de oso negro de Taiwán](https://commons.wikimedia.org/wiki/File:Formosan_Black_Bear01.jpg) — Photo: smartneddy, 2007-08-05, CC BY-SA 3.0
 - [Cima principal de Yushan](https://commons.wikimedia.org/wiki/File:Yushan_Summit_2024.jpg) — Photo: PirateTseng, 2024-10-29, CC BY-SA 4.0
 
@@ -441,20 +461,37 @@ Este artículo utiliza 4 imágenes de dominio público / con licencia CC, todas 
 ## Referencias
 
 [^1]: [Red de Información de Protección Animal del Ministerio de Agricultura — explicación de la política de sacrificio cero](https://animal.moa.gov.tw/) — Explicación oficial de la política de sacrificio cero implementada en Taiwán en 2017, incluido el contexto de la reforma del artículo 12 de la Ley de Protección Animal y sus medidas complementarias.
+
 [^2]: [Ministerio de Agricultura — Informe nacional de 2022 sobre la población de perros errantes](https://www.moa.gov.tw/) — Resultados de la encuesta nacional por muestreo de 2022: se estiman 159,697 perros errantes en todo Taiwán, la estadística oficial de gran escala más reciente sobre este tema.
+
 [^3]: [_Doce noches_ — Wikipedia](<https://zh.wikipedia.org/wiki/%E5%8D%81%E4%BA%8C%E5%A4%9C_(%E8%87%BA%E7%81%A3%E9%9B%BB%E5%BD%B1)>) — Documental de 2013 dirigido por Raye y producido por Giddens Ko, que registra la cuenta regresiva de 12 días de perros callejeros en un refugio e impulsó directamente la reforma de la Ley de Protección Animal de 2015.
+
 [^4]: [Base Nacional de Leyes y Reglamentos — Ley de Protección Animal, reforma de 2015](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=M0060027) — Reforma de la Ley de Protección Animal aprobada en tercera lectura el 23 de enero de 2015; el artículo 12 establece que desde 2017 los refugios públicos cesan el tratamiento humanitario.
+
 [^5]: [Declaración de la Asociación de Cuidado de Perros Callejeros del Condado de Nantou](https://www.east.org.tw/) — Situación citada por la Environment & Animal Society of Taiwan sobre la sobreocupación prolongada del refugio de Nantou y la normalización de suspender nuevas admisiones de perros y gatos, que revela el dilema de capacidad posterior al sacrificio cero.
+
 [^6]: [Red de Información de Protección Animal del Ministerio de Agricultura — selección de campus destacados con perros escolares](https://animal.moa.gov.tw/) — Selección de educación vital en campus impulsada conjuntamente por el Ministerio de Educación y el Consejo de Agricultura, hoy Ministerio de Agricultura; unas 700+ escuelas de Taiwán tienen perros o gatos escolares.
+
 [^7]: [WuoWuo — La amenaza subestimada: especial sobre perros que matan gatos leopardo](https://wuo-wuo.com/topics/widlife/dogkill) — Serie de reportajes en profundidad de WuoWuo de 2023, que integra datos de rastreo del Instituto de Biodiversidad del Ministerio de Agricultura y entrevistas con especialistas como Lin Yu-hsiu, Chen Chen-chih, Chen Mei-ting, Chang Chun-yi y Chang Yi-hao; cubre los casos concretos de Qiu-ge, Amber, Xihu-ge y Yong-ge, así como la capacidad de fiscalización en Miaoli.
+
 [^8]: [PanSci — ¿Qué hace complejo el problema de perros y gatos callejeros? ¿Cómo salvamos a perros y gatos callejeros y a fauna silvestre en peligro?](https://pansci.asia/archives/371491) — Reportaje en profundidad de 7,114 caracteres publicado por PanSci el 12 de noviembre de 2023; referencia central para las secciones sobre la muerte del gato leopardo, el 91% de puntos de actividad, los límites del TNR, el triángulo de políticas y el dilema del tranvía. Esta cita se usa conforme a la autorización del Taiwan.md × PanSci Content Curation MOU del 2026-05-05 e incluye citas textuales directas.
+
 [^9]: [Investigación de Chen Chen-chih, Universidad Nacional de Ciencia y Tecnología de Pingtung — evaluación del impacto de los perros en la población de gatos leopardo](https://wuo-wuo.com/topics/widlife/dogkill) — Citada por el especial de WuoWuo; incluye hallazgos centrales como positividad al parvovirus canino en gatos leopardo (30.6% en vivos / 59.2% en cadáveres), aumento de 25 veces del riesgo de atropellamiento tras infección y desaparición en una sola fase del 52.9% de individuos caninos en la dinámica poblacional.
+
 [^10]: [Investigación con cámaras automáticas de la Asociación Taiwanesa para la Conservación del Gato Leopardo](https://www.facebook.com/LeopardCatTaiwan/) — Resultado de una red de cámaras automáticas citado por el especial de WuoWuo: en el 91% de los puntos de actividad donde se fotografió al gato leopardo también se fotografiaron perros errantes; solo 9% fueron puntos seguros.
+
 [^11]: [Agencia Central de Noticias — Administración Forestal: aumenta la población de oso negro de Taiwán y ya no presenta riesgo de extinción inminente](https://www.cna.com.tw/news/ahel/202504230093.aspx) — Declaración del 23 de abril de 2025 de la Administración Forestal y de Conservación de la Naturaleza del Ministerio de Agricultura: la población de oso negro de Taiwán “ha aumentado varias veces respecto de hace 20 años” y la frecuencia de aparición por debajo de 1,200 metros de altitud ha aumentado claramente.
+
 [^12]: [Academia Sinica — Catálogo de la Vida de Taiwán TaiBNET](https://taibnet.sinica.edu.tw/) — Actualización de 2022 de Academia Sinica que reclasificó oficialmente perros y gatos de “especies exóticas” a “especies exóticas invasoras”, la primera vez que el sistema oficial de clasificación de Taiwán incorporó animales de compañía en la categoría invasora.
+
 [^13]: [Reporte sobre el caso Chien Chih-cheng — Environment & Animal Society of Taiwan](https://www.east.org.tw/) — Caso de mayo de 2016 de la veterinaria Chien Chih-cheng del parque de protección animal de Xinwu, que reveló el trauma psicológico prolongado del personal de refugios e impulsó recursos institucionales de consejería psicológica para veterinarios de refugios.
+
 [^14]: [Doherty et al. (2017), "The global impacts of domestic dogs on threatened vertebrates," Biological Conservation 210: 56–59](https://www.sciencedirect.com/journal/biological-conservation) — Artículo académico internacional original; los perros errantes figuran como amenaza principal para al menos 188 especies en peligro de extinción en el mundo, fuente académica primaria citada por PanSci.
+
 [^15]: [Yen et al. (2019), "Pets and pests: A meta-analysis of the influence of free-ranging domestic dogs on wildlife populations," Scientific Reports 9: 15314](https://www.nature.com/articles/s41598-019-51743-3) — Investigación de Yen Shih-ching y coautores publicada en _Scientific Reports_ sobre el impacto de perros errantes en la diversidad de fauna silvestre en el área metropolitana de Taipéi, incluido el Parque Nacional Yangmingshan.
+
 [^16]: [Sitio oficial de la Environment & Animal Society of Taiwan](https://www.east.org.tw/) — Argumentos de posición de Chen Yu-min, subdirectora ejecutiva, y otros sobre TNR / TNvR y la responsabilidad de origen de los tutores; sostienen que la política debe volver a la gestión de tutores y no a la remoción de puntos calientes.
+
 [^17]: [Red de Información de Protección Animal — especial sobre cultura de adopción de mix](https://animal.moa.gov.tw/) — Recursos de política pública y educación social de la protección animal taiwanesa sobre la cultura de adopción de perros mestizos / mix.
+
 [^18]: [Ministerio de Educación — programa de protección animal en campus](https://animal.moa.gov.tw/) — Base de política para perros y gatos escolares en unas 700 escuelas de Taiwán; desde 2019 organiza la selección de “campus destacados con perros escolares”.

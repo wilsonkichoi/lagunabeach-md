@@ -21,10 +21,10 @@ readingTime: 18
 lastVerified: 2026-04-10
 lastHumanReview: false
 translatedFrom: "Society/台灣動物用藥爭議.md"
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:d7dcd37acdb09d6d'
-sourceBodyHash: 'sha256:d1454d9c190df6ba'
-translatedAt: "2026-04-14T12:32:24+08:00"
+sourceCommitSha: '9a60e8fd'
+sourceContentHash: 'sha256:670bf6306d125685'
+sourceBodyHash: 'sha256:58df60a34bbdc3ea'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 > **Vue d'ensemble en 30 secondes :** Le 1er juillet 2026, une réglementation intitulée _Règlement sur l'utilisation des médicaments humains chez les chiens, les chats et les animaux non économiques_ entre en vigueur. Sur les 701 médicaments humains annoncés, seuls 144 ont complété leur enregistrement en tant que « médicaments de protection animale ». L'oxygène médical, le dioxyde de carbone et l'azote — couramment utilisés aux urgences — affichent chacun un score de zéro. Le 9 avril, plus de cent mille propriétaires ont signé une pétition sur la plateforme nationale de participation citoyenne pour demander un report. Le 10 avril, le ministère de l'Agriculture a convoqué une réunion interministérielle, promettant de « ne pas mettre en œuvre la réforme à la légère si elle s'avère cliniquement impraticable ». Il ne s'agit pas d'un nouveau problème né en 2026 : c'est une boîte ouverte en 2012 par une affaire de faux médicaments vétérinaires, rouverte par accident en 2022 par une législatrice, et qui n'a toujours pas été refermée. Taïwan compte aujourd'hui 3 millions de chiens et chats traités comme des membres de la famille — dans un cadre légal qui les assimile fondamentalement à des animaux d'élevage. Cinq voix différentes s'expriment dans cet article. L'auteur ne les synthétise pas pour vous.
@@ -307,6 +307,7 @@ Cet article ne choisit pas pour vous. Il ouvre simplement l'espace, pour que vou
 - Éthique des zoos et des animaux en spectacle — Un autre champ de controverse sur les soins et les médicaments administrés aux animaux dans la société humaine, une autre section du même problème que les médicaments pour animaux de compagnie
 - La médecine et l'assurance maladie universelle à Taïwan — L'autre versant du système de médicaments humains : la plus grande expérience nationale de santé au monde, sans pont institutionnel vers la médecine vétérinaire. Le « principe de séparation prescription-dispensation » mentionné dans cet article est né à l'ère de l'assurance maladie
 - Le système de médecine d'urgence lors de catastrophes à Taïwan — Le filet de sécurité des urgences humaines, c'est le 119 et les réseaux de premiers secours ; les urgences vétérinaires n'ont même pas ce plancher. La lecture comparative révèle le fossé de ressources entre les deux systèmes
+- [Deux lois sur la médecine régénérative × 30 ans d'ARNm](/society/台灣再生醫療雙法沿革從業人員告白) — L'adoption en 2024 des deux lois sur la médecine régénérative humaine et la mise à niveau en cours de la plateforme ARNm à Taïwan partagent avec la controverse sur les médicaments vétérinaires la philosophie réglementaire de « comment l'État encadre les technologies médicales de pointe »
 
 ## Références
 

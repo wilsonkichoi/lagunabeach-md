@@ -11,10 +11,10 @@ lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
 translatedFrom: People/劉德音.md
-sourceCommitSha: 6b59db34
-sourceContentHash: sha256:d8af6167c7effd7e
-sourceBodyHash: sha256:b67507e9dc3bc1b6
-translatedAt: 2026-05-25T06:36:28+08:00
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:5e90feeafc19360c'
+sourceBodyHash: 'sha256:81e4bcfc4e50e127'
+translatedAt: '2026-05-25T21:07:07Z'+08:00
 ---
 
 # 유드음: 버클리 박사, 장중모 이어 받은 TSMC, 미중 칩 갈림길에서의 6년 결단

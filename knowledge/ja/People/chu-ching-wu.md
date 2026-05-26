@@ -13,10 +13,10 @@ lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/朱經武.md'
-sourceCommitSha: '5c000f86'
-sourceContentHash: 'sha256:ee5b642d51157582'
-sourceBodyHash: 'sha256:cf9cdcbf2f556520'
-translatedAt: '2026-05-24T22:21:12Z'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:79c87fb84a11dd9d'
+sourceBodyHash: 'sha256:619ef92c56c46024'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 朱経武：1987年液氮温度を超えた高温超伝導、Tc=93Kの共同発見者

@@ -28,10 +28,10 @@ lastVerified: 2026-05-18
 lastHumanReview: true
 featured: false
 translatedFrom: Geography/南投縣.md
-sourceCommitSha: 6b59db34
-sourceContentHash: sha256:7a6074e368afe122
-sourceBodyHash: sha256:5248faa58fca6ede
-translatedAt: 2026-05-24T22:39:00Z
+sourceCommitSha: 'bcffb45b'
+sourceContentHash: 'sha256:1098d0ed515ecdff'
+sourceBodyHash: 'sha256:8c4994ea1a8d0681'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 南投県：唯一海に面さない県、921の震央はその中心にあった

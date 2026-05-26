@@ -1,20 +1,39 @@
 ---
-title: "Industrie des semi-conducteurs : 50 ans de révolution des matériaux, du transfert de technologie RCA au nitrure de gallium et au packaging quantique"
-description: "La « montagne sacrée protectrice de la nation » taïwanaise domine les procédés avancés mondiaux grâce à la fonderie, mais le nitrure de gallium dans les chargeurs rapides, le CoWoS sous les puces d’IA et les réfrigérateurs à dilution au-dessus des qubits montrent que le champ de bataille de la science des matériaux pour les 50 prochaines années ne fait que s’ouvrir."
+title: 'Industrie des semi-conducteurs : 50 ans de révolution des matériaux, du transfert de technologie RCA au nitrure de gallium et au packaging quantique'
+description: 'La « montagne sacrée protectrice de la nation » taïwanaise domine les procédés avancés mondiaux grâce à la fonderie, mais le nitrure de gallium dans les chargeurs rapides, le CoWoS sous les puces d’IA et les réfrigérateurs à dilution au-dessus des qubits montrent que le champ de bataille de la science des matériaux pour les 50 prochaines années ne fait que s’ouvrir.'
 date: 2026-03-17
-author: "Taiwan.md"
-category: "Technology"
-subcategory: "半導體與硬體"
-tags: ["semi-conducteurs", "TSMC", "TSMC", "nitrure de gallium", "packaging 3D", "CoWoS", "ordinateur quantique", "procédés avancés", "bouclier de silicium", "science des matériaux"]
+author: 'Taiwan.md'
+category: 'Technology'
+subcategory: '半導體與硬體'
+tags:
+  [
+    'semi-conducteurs',
+    'TSMC',
+    'TSMC',
+    'nitrure de gallium',
+    'packaging 3D',
+    'CoWoS',
+    'ordinateur quantique',
+    'procédés avancés',
+    'bouclier de silicium',
+    'science des matériaux',
+  ]
 readingTime: 22
 lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
-translatedFrom: "Technology/半導體產業.md"
-sourceCommitSha: "b900f18da"
-sourceContentHash: "sha256:9d994792e0981caf"
-sourceBodyHash: "sha256:5ce89f475e36ba5a"
-translatedAt: "2026-05-20T05:08:34+08:00"
+sporeLinks:
+  - platform: 'threads'
+    date: '2026-05-25'
+    url: 'https://www.threads.com/@taiwandotmd/post/DYvqEURgXm-'
+  - platform: 'x'
+    date: '2026-05-25'
+    url: 'https://x.com/taiwandotmd/status/2058735515021783190'
+translatedFrom: 'Technology/半導體產業.md'
+sourceCommitSha: '6b44e05a'
+sourceContentHash: 'sha256:203ac1826bc1bbf2'
+sourceBodyHash: 'sha256:0a91f185f9c8f80b'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 # Industrie des semi-conducteurs : 50 ans de révolution des matériaux, du transfert de technologie RCA au nitrure de gallium et au packaging quantique
@@ -108,6 +127,14 @@ Le cœur du CoWoS, Chip-on-Wafer-on-Substrate, est le « via traversant le silic
 Les chiffres de capacité sont encore plus frappants. La capacité mensuelle CoWoS de TSMC est d’environ 35 000 wafers fin 2024, avec un objectif de 75 000 fin 2025, puis 150 000 en 2028, soit un taux de croissance annuel composé proche de 80 %[^13]. NVIDIA réserve directement la capacité CoWoS de TSMC jusqu’en 2027, et **toutes les puces, quelle que soit l’usine TSMC où elles sont produites, y compris en Arizona, doivent finalement revenir à Taïwan pour le packaging CoWoS**[^13].
 
 C’est le duopole Jensen Huang-TSMC. NVIDIA occupe l’extrémité conception, TSMC l’extrémité fabrication et packaging, et les deux entreprises verrouillent ensemble les nœuds clés des centres de données d’IA.
+
+Le 2 juin 2024, lors de la keynote COMPUTEX au gymnase de l’Université nationale de Taïwan, Jensen Huang a exposé publiquement cette liaison au monde entier — les diapositives montraient la feuille de route Blackwell et Rubin, mais derrière chacune d’elles se trouvaient les lignes de production CoWoS de TSMC.
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/pKXDVsWZmUU" title="NVIDIA CEO Jensen Huang Keynote at COMPUTEX 2024" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Chaîne officielle NVIDIA : keynote COMPUTEX 2024 de Jensen Huang au gymnase de l’Université nationale de Taïwan, le 2 juin 2024, « L’ère de l’IA ». En deux heures, il a déroulé GPU Blackwell, NVLink, Spectrum-X, une diapositive après l’autre — mais le lieu physique de chaque tableau de capacité se trouve à Baoshan, Hsinchu. « Sans TSMC, pas de NVIDIA » : il n’a pas prononcé cette phrase, mais chaque graphique de production la disait._
 
 Le packaging 3D a aussi un coût physique élevé. PanSci a signalé la difficulté : « le packaging avancé exige beaucoup de la planéité des dies nus et de l’alignement des puces ; si, lors de l’empilement, un point de contact ne se connecte pas correctement, le rendement en souffre. De plus, les circuits intégrés dissipent de l’énergie et montent en température lors du calcul ; le packaging avancé rapproche les dies nus, les transferts thermiques interagissent, chacun réchauffe l’autre, et la dissipation devient plus difficile »[^12].
 

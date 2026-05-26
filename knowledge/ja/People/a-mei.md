@@ -13,10 +13,10 @@ lastVerified: 2026-05-08
 lastHumanReview: true
 featured: false
 translatedFrom: People/張惠妹.md
-sourceCommitSha: 6b59db34
-sourceContentHash: sha256:ccb03edca388c7b1
-sourceBodyHash: sha256:bd4e3f38e6cd61a0
-translatedAt: 2026-05-24T22:39:00Z
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:aebfe56ef8181ee0'
+sourceBodyHash: 'sha256:2548692a01191648'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 張惠妹：卑南族の天后、1996年『姊妹』から2024年大巨蛋5公演へ

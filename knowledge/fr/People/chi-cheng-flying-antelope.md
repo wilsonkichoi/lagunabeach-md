@@ -15,10 +15,10 @@ readingTime: 7
 #   whats_excluded: "體育行政的詳細爭論；各項世界紀錄的完整技術細節；1966年100公尺世界紀錄的爭議史料（文中已適度標注）"
 #   where_it_hedges: "1966年100公尺世界紀錄（各來源說法不一，賽事地點與成績仍有歧異）；200公尺慕尼黑紀錄的確切年份；本名紀正平（未獲中文史料確認）"
 translatedFrom: 'People/紀政.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:ac035cdcf01e05b4'
-sourceBodyHash: 'sha256:4c7c2552cb14f3c8'
-translatedAt: '2026-05-25T06:37:35+08:00'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:ec85f3e1d7f5d977'
+sourceBodyHash: 'sha256:5932775fa82a34d0'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 # Chi Cheng : 10 records du monde, cinquante ans de course pour la reconnaissance de Taïwan

@@ -17,10 +17,10 @@ featured: false
 lastVerified: 2026-03-21
 lastHumanReview: true
 translatedFrom: 'Economy/台灣企業：日月光半導體.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:cb7042e73cb2cef2'
-sourceBodyHash: 'sha256:ab22377f8d58d529'
-translatedAt: '2026-05-01T15:38:13+08:00'
+sourceCommitSha: 'b900f18d'
+sourceContentHash: 'sha256:275d7b3ee56db82a'
+sourceBodyHash: 'sha256:58739438cbba3247'
+translatedAt: '2026-05-25T21:06:51Z'
 category: Economy
 ---
 
@@ -165,6 +165,12 @@ From the family investment by Chang Yao-hung-ying and her sons in 1984 to the mu
 In this era where everyone talks about chip design and fabrication, ASE reminds us: every link in the supply chain matters. Do one thing well, do it to the standard of world leader, and you become an indispensable invisible champion.
 
 ---
+
+**Further Reading**:
+
+- [Taiwan Enterprise: TSMC](/economy/台灣企業：台積電) — The twin relationship between the sacred mountain protecting the nation and the back-end packaging and testing manufacturer
+- [Taiwan Enterprise: MediaTek](/economy/台灣企業：聯發科技) — Taiwan’s leading IC design house; together with ASE they form a complete supply-chain ecosystem
+- [Semiconductor Industry](/technology/半導體產業) — 50 years of materials science from the RCA technology transfer to CoWoS advanced packaging; ASE’s position in traditional packaging
 
 ## References
 

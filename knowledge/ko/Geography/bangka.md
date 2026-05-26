@@ -30,10 +30,10 @@ lastVerified: '2026-05-21'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/艋舺.md'
-sourceCommitSha: '946f38bb4'
-sourceContentHash: 'sha256:233480be80f34d37'
-sourceBodyHash: 'sha256:d81cb7506613293c'
-translatedAt: '2026-05-22T05:08:46+08:00'
+sourceCommitSha: '20a4ac33'
+sourceContentHash: 'sha256:e384b40a3b9c1bf5'
+sourceBodyHash: 'sha256:2adb8850a99b6a49'
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 멍자: 청대 타이베이에서 가장 번화했던 곳, 지금은 타이베이에서 평균연령이 가장 높은 구
@@ -232,7 +232,8 @@ _화시가 관광 야시장. 사진: Wikimedia Commons contributor, [CC BY-SA vi
 - [청불전쟁](/history/清法戰爭) — 1884-1885년 프랑스군의 북타이완 침공, 멍자 룽산사 의군 동원, 단수이 대첩
 - [다다오청](/geography/大稻埕) — 1853년 정하교병에서 패한 퉁안 사람들이 멍자 바자좡에서 달아나 개척한 상업항으로, 멍자에서 갈라져 나온 또 하나의 시간선
 - [시먼딩](/geography/西門町) — 같은 batch 1 역사 가구 sibling. 일본인이 1896년 멍자 서쪽에 계획한 오락 지구로, 멍자 본거리와 청대 vs 일본 통치기의 대비를 이룬다
-- [중산베이루 조통](/geography/中山北路條通) — 같은 batch 1 역사 가구 sibling. 1901년 칙사거리는 타이완신사 참배용이었고, 멍자 룽산사와 마찬가지로 일본 통치기 식민지 종교 지리의 양극단에 놓인다
+- [다룽동](/geography/大龍峒) — 1853년 딩샤자오핀에서 패배한 퉁안 사람들이 멍자 바자좡에서 첫 번째로 피란한 곳. 바오안궁이 방어 거점이 되었고, 이후 다다오청으로 이주했다
+- [스린](/geography/士林) — 1859년 장취안 무력 충돌과 멍자 1853년 딩샤자오핀은 서로 다른 두 충돌로, 청대 북타이완의 두 족군 무력 충돌 경관이다
 
 ## 참고자료
 

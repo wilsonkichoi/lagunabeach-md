@@ -20,10 +20,10 @@ readingTime: 18
 featured: false
 lastVerified: 2026-04-11
 translatedFrom: 'Society/台灣動物用藥爭議.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:d7dcd37acdb09d6d'
-sourceBodyHash: 'sha256:d1454d9c190df6ba'
-translatedAt: '2026-04-14T12:25:09+08:00'
+sourceCommitSha: '9a60e8fd'
+sourceContentHash: 'sha256:670bf6306d125685'
+sourceBodyHash: 'sha256:58df60a34bbdc3ea'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 # La controversia sobre los medicamentos de uso animal en Taiwán
@@ -241,6 +241,10 @@ Por eso esta controversia no se deja resolver con una sola frase correcta. «Los
 Lo que esta caja abierta lleva mostrando desde 2012 no es solo un problema de medicamentos veterinarios. Es el punto exacto donde colisionan dos épocas de Taiwán: una legal, todavía organizada en torno a la lógica de los animales económicos; y otra afectiva y social, en la que millones de perros y gatos ya viven como familia. Entre esas dos épocas, la medicina quedó atrapada en medio.
 
 Y esa quizá sea la forma más exacta de cerrar este texto sin cerrarlo del todo: en Taiwán, un medicamento puede ser solamente un medicamento. Pero en el momento en que entra en el cuerpo de un animal amado, deja de serlo.
+
+**Lecturas complementarias**:
+
+- [Leyes gemelas de medicina regenerativa × 30 años de mRNA](/society/台灣再生醫療雙法沿革從業人員告白) — Las leyes gemelas de medicina regenerativa aprobadas en 2024 y la puesta al día de la plataforma taiwanesa de mRNA comparten con la controversia sobre los medicamentos veterinarios la misma filosofía regulatoria de «cómo el Estado regula la tecnología médica de vanguardia»
 
 ## Referencias
 

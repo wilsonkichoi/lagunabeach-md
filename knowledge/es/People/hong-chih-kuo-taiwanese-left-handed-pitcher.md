@@ -15,10 +15,10 @@ readingTime: 7
 #   whats_excluded: "各次手術的醫療細節；回台後各球隊生涯的逐年記錄；個人資產與薪資"
 #   where_it_hedges: "道奇簽約確切年份（部分資料說2001，另有說法不同）；中華職棒選秀年份細節"
 translatedFrom: People/郭泓志.md
-sourceCommitSha: 5c000f86
-sourceContentHash: sha256:b5f26a379a2884ba
-sourceBodyHash: sha256:5be39826050da8b3
-translatedAt: 2026-05-25T06:22:09+08:00
+sourceCommitSha: 0f8fae0a
+sourceContentHash: sha256:e02695ed5dc8f6ea
+sourceBodyHash: sha256:adcefdbac44146e6
+translatedAt: 2026-05-26T21:07:27Z
 ---
 
 # Hong-Chih Kuo: el primer jonrón y la primera selección al Juego de Estrellas de MLB por Taiwán, su codo dijo que no pero él siguió lanzando

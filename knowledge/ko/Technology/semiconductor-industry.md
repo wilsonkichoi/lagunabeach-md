@@ -1,20 +1,39 @@
 ---
 title: '반도체 산업: RCA 기술이전에서 질화갈륨과 양자 패키징까지, 50년의 소재 혁명'
-description: "대만의 호국신산은 파운드리로 세계 첨단 공정을 지배하지만, 고속 충전기 속 질화갈륨, AI 칩 아래의 CoWoS, 큐비트 위의 희석냉동기까지, 다음 50년의 재료과학 전장은 이제 막 펼쳐지고 있다."
+description: '대만의 호국신산은 파운드리로 세계 첨단 공정을 지배하지만, 고속 충전기 속 질화갈륨, AI 칩 아래의 CoWoS, 큐비트 위의 희석냉동기까지, 다음 50년의 재료과학 전장은 이제 막 펼쳐지고 있다.'
 date: 2026-03-17
 author: 'Taiwan.md'
 category: 'Technology'
 subcategory: '半導體與硬體'
-tags: ['반도체', 'TSMC', '타이완 반도체 제조회사', '질화갈륨', '3D 패키징', 'CoWoS', '양자컴퓨터', '첨단 공정', '실리콘 방패', '재료과학']
+tags:
+  [
+    '반도체',
+    'TSMC',
+    '타이완 반도체 제조회사',
+    '질화갈륨',
+    '3D 패키징',
+    'CoWoS',
+    '양자컴퓨터',
+    '첨단 공정',
+    '실리콘 방패',
+    '재료과학',
+  ]
 readingTime: 22
+sporeLinks:
+  - platform: 'threads'
+    date: '2026-05-25'
+    url: 'https://www.threads.com/@taiwandotmd/post/DYvqEURgXm-'
+  - platform: 'x'
+    date: '2026-05-25'
+    url: 'https://x.com/taiwandotmd/status/2058735515021783190'
 lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/半導體產業.md'
-sourceCommitSha: 'b900f18da'
-sourceContentHash: 'sha256:9d994792e0981caf'
-sourceBodyHash: 'sha256:5ce89f475e36ba5a'
-translatedAt: '2026-05-20T05:08:30+08:00'
+sourceCommitSha: '6b44e05a'
+sourceContentHash: 'sha256:203ac1826bc1bbf2'
+sourceBodyHash: 'sha256:0a91f185f9c8f80b'
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 반도체 산업: RCA 기술이전에서 질화갈륨과 양자 패키징까지, 50년의 소재 혁명

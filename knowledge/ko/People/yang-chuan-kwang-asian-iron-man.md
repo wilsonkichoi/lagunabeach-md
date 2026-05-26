@@ -15,10 +15,10 @@ readingTime: 7
 #   whats_excluded: "각 종목별 세부 성적; 1956년 멜버른 이전의 청소년 대회; 은퇴 후 교직 경력의 연도별 기록"
 #   where_it_hedges: "投毒事件（양촨광 본인의 주장, 제3자의 완전한 검증 없음）; 1964년 도쿄 올림픽 출전 상황（P0이 출처를 제공하지 않음）"
 translatedFrom: People/楊傳廣.md
-sourceCommitSha: 6b59db34
-sourceContentHash: sha256:71f966796f8b8ad2
-sourceBodyHash: sha256:40e975c5b968d9a3
-translatedAt: 2026-05-25T06:35:28+08:00
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:f8a43ac4f3c5c945'
+sourceBodyHash: 'sha256:564dbfac81e16aa7'
+translatedAt: '2026-05-25T21:07:07Z'+08:00
 ---
 
 # 양촨광: 타이둥 부족, 로마 은메달, 9121점 세계 기록의 아시아 아이언맨

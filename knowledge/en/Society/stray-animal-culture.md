@@ -5,21 +5,33 @@ date: 2026-03-18
 author: 'Taiwan.md Contributors'
 category: 'Society'
 subcategory: '社區與日常'
-tags: ['stray animals', 'animal protection', 'zero culling', 'TNR', 'Twelve Nights', 'leopard cat', 'free-ranging dogs', 'animal protection and wildlife conservation', 'shelters', 'adoption culture']
+tags:
+  [
+    'stray animals',
+    'animal protection',
+    'zero culling',
+    'TNR',
+    'Twelve Nights',
+    'leopard cat',
+    'free-ranging dogs',
+    'animal protection and wildlife conservation',
+    'shelters',
+    'adoption culture',
+  ]
 readingTime: 22
 lastVerified: 2026-05-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/台灣流浪動物文化.md'
-sourceCommitSha: '30a8f7dd0'
-sourceContentHash: 'sha256:263c3b702290d75e'
-sourceBodyHash: 'sha256:ee74b946bf624320'
-translatedAt: '2026-05-20T05:08:27+08:00'
+sourceCommitSha: '89026b10'
+sourceContentHash: 'sha256:559d8bd5f905e8f0'
+sourceBodyHash: 'sha256:a5a01661de129b91'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # Taiwan’s Stray Animal Culture: From Twelve Nights to the Death of a Leopard Cat, the Trolley Problem of Animal Protection and Wildlife Conservation
 
-> **30-second overview:** In 2013, the year *Twelve Nights* was released, tens of thousands of shelter dogs in Taiwan were still euthanized each year. On February 6, 2017, Taiwan became East Asia’s first zero-culling country. Eight years later, at six o’clock on the evening of May 11, 2023, a rewilded young leopard cat was bitten to death by a free-ranging cat in Miaoli, reducing by one a species with only 400 to 600 individuals left across Taiwan. The Ministry of Agriculture’s 2022 survey found **159,697 free-ranging dogs** nationwide[^2], with stray cats likely adding several hundred thousand more. Animal protection advocates and wildlife conservationists stand on the same mountain, yet see completely different worlds. In fact, they are looking at the same problem: **owners who do not sterilize their animals, people who abandon them, and people who feed them on the mountain’s edge**. This article does not take sides. It is about a question this island is still learning how to answer.
+> **30-second overview:** In 2013, the year _Twelve Nights_ was released, tens of thousands of shelter dogs in Taiwan were still euthanized each year. On February 6, 2017, Taiwan became East Asia’s first zero-culling country. Eight years later, at six o’clock on the evening of May 11, 2023, a rewilded young leopard cat was bitten to death by a free-ranging cat in Miaoli, reducing by one a species with only 400 to 600 individuals left across Taiwan. The Ministry of Agriculture’s 2022 survey found **159,697 free-ranging dogs** nationwide[^2], with stray cats likely adding several hundred thousand more. Animal protection advocates and wildlife conservationists stand on the same mountain, yet see completely different worlds. In fact, they are looking at the same problem: **owners who do not sterilize their animals, people who abandon them, and people who feed them on the mountain’s edge**. This article does not take sides. It is about a question this island is still learning how to answer.
 
 ---
 
@@ -49,7 +61,7 @@ Every year, tens of thousands of healthy dogs and cats reached the end of that 1
 
 On November 29, 2013, a documentary was released.
 
-*Twelve Nights* was directed by Raye Huang and produced and financed by the well-known writer **Giddens Ko**[^3]. Ko was famous for writing about killers, romance, and youth; he had not originally been an animal protection advocate. But he had adopted a dog rescued from a shelter. He said, “I could not pretend I did not know.”
+_Twelve Nights_ was directed by Raye Huang and produced and financed by the well-known writer **Giddens Ko**[^3]. Ko was famous for writing about killers, romance, and youth; he had not originally been an animal protection advocate. But he had adopted a dog rescued from a shelter. He said, “I could not pretend I did not know.”
 
 The film has no narration and no sermonizing. The camera simply stays inside the shelter, quietly recording the dogs’ 12 days.
 
@@ -58,7 +70,15 @@ On the third day, they begin to stop eating.
 On the seventh day, their eyes change.
 By the twelfth day, many viewers can no longer see the screen through their tears.
 
-*Twelve Nights* grossed more than NT$50 million at the box office, an astronomical figure for a documentary. More importantly, it turned “shelter euthanasia” from an issue within animal protection circles into a source of public anger.
+_Twelve Nights_ grossed more than NT$50 million at the box office, an astronomical figure for a documentary. More importantly, it turned “shelter euthanasia” from an issue within animal protection circles into a source of public anger.
+
+Director Raye put the entire film on YouTube in 2020, and it remained freely available on the official Twelve Nights channel through 2025 — the reasoning: let these 92 minutes keep doing what they are meant to do; every additional viewer is one more dog that might be adopted:
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/aCRzgAWj7nI" title="電影《十二夜》 Twelve Nights 完整版" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Twelve Nights official channel: full documentary (92 min.) directed by Raye in 2013, produced by Giddens Ko. No interviews, no narration — just 12 days of a countdown assembled in footage. This film turned “public shelter euthanasia” from an animal-protection issue into a national issue, providing the popular-opinion basis for the 2015 legislative amendment and 2017 zero-culling policy._
 
 ### From Tears to Law
 
@@ -68,7 +88,7 @@ In January 2015, the Legislative Yuan passed amendments to the Animal Protection
 
 On February 6, 2017, “zero culling” formally took effect.
 
-One film, two years of advocacy, one law. Taiwan’s stray animal history was divided into “before *Twelve Nights*” and “after *Twelve Nights*.”
+One film, two years of advocacy, one law. Taiwan’s stray animal history was divided into “before _Twelve Nights_” and “after _Twelve Nights_.”
 
 ---
 
@@ -79,7 +99,7 @@ If you see a dog or cat on a Taiwanese street with a small notch missing from on
 TNR stands for Trap, Neuter, Return: stray animals are captured, sterilized, ear-tipped for identification, and then returned to where they were found. Later, the official version in most counties and cities added vaccination, becoming **TNvR**; the additional “v” stands for Vaccinate. The logic is simple: if you cannot kill them all, then stop them from reproducing. After one generation, two generations, three generations, the population will naturally decline.
 
 ![Close-up of an ear-tipped tabby stray cat, with a small triangle cut from the tip of the left ear as a sterilization mark, against a blurred street background](/article-images/society/tnr-cat-clipped-ear-2016.jpg)
-_Stray cats that have completed TNR surgery have one ear tip clipped as a marker. This ear-tip mark allows volunteers and animal protection officers to identify from a distance that “this one has already been sterilized,” avoiding repeated capture. Photo: Yu Tae-wook, 2016. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cat_with_clipped_ear_(cropped).jpg)._
+_Stray cats that have completed TNR surgery have one ear tip clipped as a marker. This ear-tip mark allows volunteers and animal protection officers to identify from a distance that “this one has already been sterilized,” avoiding repeated capture. Photo: Yu Tae-wook, 2016. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cat_with_clipped_ear_(cropped).jpg).\_
 
 Taiwan’s TNR was first promoted spontaneously by private animal protection groups, operating in a legal gray area. After the 2015 amendment to the Animal Protection Act, TNR was finally formally incorporated as a policy tool[^4]. County and city governments began allocating budgets and cooperating with animal protection groups to carry out large-scale TNR.
 
@@ -186,9 +206,9 @@ In 2022, the Ministry of Agriculture’s national free-ranging dog population su
 
 That number exceeds the population of any native carnivorous mammal in Taiwan[^8]. On this island, free-ranging dogs have become the medium-sized carnivore with the highest density.
 
-A 2017 study in *Biological Conservation* found that free-ranging dogs have become a major threat to at least 188 endangered species worldwide[^14]. In Taiwan, Academia Sinica’s *Catalogue of Life in Taiwan* also updated dogs and cats in 2022 from “alien species” to “**invasive alien species**”[^12]. This is a legally significant reclassification.
+A 2017 study in _Biological Conservation_ found that free-ranging dogs have become a major threat to at least 188 endangered species worldwide[^14]. In Taiwan, Academia Sinica’s _Catalogue of Life in Taiwan_ also updated dogs and cats in 2022 from “alien species” to “**invasive alien species**”[^12]. This is a legally significant reclassification.
 
-In 2019, Professor Yen Shih-ching of National Tsing Hua University published a study in *Scientific Reports* showing that in the Greater Taipei area, including Yangmingshan National Park, the presence of free-ranging dogs did indeed reduce wildlife diversity[^15]. “Pangolins, masked palm civets, muntjacs, wild boars, ferret-badgers, small Indian civets, and hares, among other animals, must avoid contact with free-ranging dogs in order to survive,” PanSci summarized[^8]. On Shoushan in Kaohsiung, the muntjac population has even faced a **localized extinction crisis** because of free-ranging dogs[^8].
+In 2019, Professor Yen Shih-ching of National Tsing Hua University published a study in _Scientific Reports_ showing that in the Greater Taipei area, including Yangmingshan National Park, the presence of free-ranging dogs did indeed reduce wildlife diversity[^15]. “Pangolins, masked palm civets, muntjacs, wild boars, ferret-badgers, small Indian civets, and hares, among other animals, must avoid contact with free-ranging dogs in order to survive,” PanSci summarized[^8]. On Shoushan in Kaohsiung, the muntjac population has even faced a **localized extinction crisis** because of free-ranging dogs[^8].
 
 ### Qiug哥, Amber, Xihu哥, Yong哥
 
@@ -380,7 +400,7 @@ Zero-culling policy protected the dogs inside shelters. The same well-intentione
 
 The numbers behind Taiwan’s stray animal issue are often more startling than intuition would suggest. From street density to policy milestones, these data sketch the scale and depth of Taiwan’s animal protection movement, as well as what it still has not solved.
 
-Zero culling has been in place for eight years. *Twelve Nights* was released thirteen years ago. The Animal Protection Act has existed for twenty-eight years. But the numbers below tell us that this island’s relationship with this issue is far more complex than any single policy can explain.
+Zero culling has been in place for eight years. _Twelve Nights_ was released thirteen years ago. The Animal Protection Act has existed for twenty-eight years. But the numbers below tell us that this island’s relationship with this issue is far more complex than any single policy can explain.
 
 Here are several key facts worth noting:
 
@@ -388,13 +408,13 @@ Here are several key facts worth noting:
 - 🐈 Cumulative leopard cat deaths caused by dogs: **21 cases** as of August 2023, confirmed, plus 4 suspected cases[^7]
 - 📊 Dogs visit **91% of leopard cat activity sites**, leaving only 9% of sites safe[^10]
 - 🦠 Leopard cats positive for canine parvovirus have a **25-fold** higher risk of roadkill[^9]
-- 🎬 *Twelve Nights* grossed more than **NT$50 million**, making it one of the highest-grossing documentaries in Taiwanese history
+- 🎬 _Twelve Nights_ grossed more than **NT$50 million**, making it one of the highest-grossing documentaries in Taiwanese history
 - ✂️ More than **100,000 TNR surgeries** are performed across Taiwan each year
 - 🏫 About **700+ schools** have school dogs or school cats
 - 🌏 Taiwan is the **first country in East Asia** to implement a zero-culling policy[^4]
-- 🌍 In 2022, Academia Sinica’s *Catalogue of Life in Taiwan* updated dogs and cats from “alien species” to “**invasive alien species**”[^8]
+- 🌍 In 2022, Academia Sinica’s _Catalogue of Life in Taiwan_ updated dogs and cats from “alien species” to “**invasive alien species**”[^8]
 - 🐕‍🦺 Miaoli County has only **1 to 2 animal protection inspectors**[^7] to handle the free-ranging dog problem across the entire county
-- 📋 Globally, 188 endangered animal species identify free-ranging dogs as a major threat, according to a 2017 *Biological Conservation* study[^8]
+- 📋 Globally, 188 endangered animal species identify free-ranging dogs as a major threat, according to a 2017 _Biological Conservation_ study[^8]
 
 ---
 
@@ -402,7 +422,7 @@ Here are several key facts worth noting:
 
 Taiwan’s stray animal story is not a story about a “problem solved.”
 
-It is a story about “a society learning to care.” From the shock of *Twelve Nights*, to the promise of zero culling, to the everyday practice of TNR, to the things school dogs teach children, every step has been imperfect, and every step has carried costs. But every step has genuinely moved forward.
+It is a story about “a society learning to care.” From the shock of _Twelve Nights_, to the promise of zero culling, to the everyday practice of TNR, to the things school dogs teach children, every step has been imperfect, and every step has carried costs. But every step has genuinely moved forward.
 
 It is just that when the 2017 law placed a full stop, no one wrote the questions that came after it: “What about the mountains? What about the leopard cats, pangolins, muntjacs, and masked palm civets?”
 
@@ -432,7 +452,7 @@ Complex problems have no simple answers. But the question has already been writt
 This article uses 4 public-domain / CC-licensed images, all cached under `public/article-images/society/` to avoid hotlinking source servers:
 
 - [Chinese leopard cat specimen](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E8%8F%AF%E7%9F%B3%E8%99%8E%E6%A8%99%E6%9C%AC%EF%BC%882%EF%BC%89.jpg) — Photo: 丘崈, 2026-02-15, CC0 1.0 public domain, Chinese leopard cat specimen in the collection of the National Taiwan Museum
-- [Ear-tipped stray cat after TNR](https://commons.wikimedia.org/wiki/File:Cat_with_clipped_ear_(cropped).jpg) — Photo: Yu Tae-wook, 2016-11-18 (cropped 2021-06-18), CC0 1.0 public domain
+- [Ear-tipped stray cat after TNR](<https://commons.wikimedia.org/wiki/File:Cat_with_clipped_ear_(cropped).jpg>) — Photo: Yu Tae-wook, 2016-11-18 (cropped 2021-06-18), CC0 1.0 public domain
 - [Frontal photo of a Formosan black bear](https://commons.wikimedia.org/wiki/File:Formosan_Black_Bear01.jpg) — Photo: smartneddy, 2007-08-05, CC BY-SA 3.0
 - [Yushan Main Peak](https://commons.wikimedia.org/wiki/File:Yushan_Summit_2024.jpg) — Photo: PirateTseng, 2024-10-29, CC BY-SA 4.0
 
@@ -441,20 +461,37 @@ This article uses 4 public-domain / CC-licensed images, all cached under `public
 ## References
 
 [^1]: [Ministry of Agriculture Animal Protection Information Network — Explanation of zero-culling policy](https://animal.moa.gov.tw/) — Official policy explanation of Taiwan’s 2017 implementation of zero culling, including the context of the Article 12 amendment to the Animal Protection Act and supporting measures.
+
 [^2]: [Ministry of Agriculture — 2022 National Free-Ranging Dog Population Survey Report](https://www.moa.gov.tw/) — Results of the 2022 national sampling survey: an estimated 159,697 free-ranging dogs across Taiwan, the latest large-scale official statistics for this issue.
-[^3]: [*Twelve Nights* — Wikipedia](<https://zh.wikipedia.org/wiki/%E5%8D%81%E4%BA%8C%E5%A4%9C_(%E8%87%BA%E7%81%A3%E9%9B%BB%E5%BD%B1)>) — A 2013 documentary directed by Raye and produced by Giddens Ko, recording the 12-day countdown of stray dogs in shelters and directly helping drive the 2015 amendment to the Animal Protection Act.
+
+[^3]: [_Twelve Nights_ — Wikipedia](<https://zh.wikipedia.org/wiki/%E5%8D%81%E4%BA%8C%E5%A4%9C_(%E8%87%BA%E7%81%A3%E9%9B%BB%E5%BD%B1)>) — A 2013 documentary directed by Raye and produced by Giddens Ko, recording the 12-day countdown of stray dogs in shelters and directly helping drive the 2015 amendment to the Animal Protection Act.
+
 [^4]: [Laws & Regulations Database of the Republic of China — Animal Protection Act (2015 amendment)](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=M0060027) — The Animal Protection Act amendment passed on third reading on January 23, 2015; Article 12 stipulates that public shelters would stop humane treatment beginning in 2017.
+
 [^5]: [Statement by the Nantou County Stray Dog Care Association](https://www.east.org.tw/) — Cited by the Environment & Animal Society of Taiwan, describing the long-term overcapacity of the Nantou shelter and the normalization of suspending new dog and cat intake, revealing the shelter-capacity dilemma after zero culling.
+
 [^6]: [Ministry of Agriculture Animal Protection Information Network — Outstanding School Dog Campus selection](https://animal.moa.gov.tw/) — A campus life-education selection jointly promoted by the Ministry of Education and the Council of Agriculture, now the Ministry of Agriculture; about 700+ schools across Taiwan have school dogs and cats.
+
 [^7]: [WuoWuo — An Underestimated Threat: Special Report on Dogs Killing Leopard Cats](https://wuo-wuo.com/topics/widlife/dogkill) — WuoWuo’s 2023 in-depth series integrating Ministry of Agriculture Biodiversity Research Institute tracking data and interviews with scholars and practitioners, including Lin Yu-hsiu, Chen Chen-chih, Chen Mei-ting, Chang Chun-yi, and Chang Yi-hao, covering the specific cases of Qiug哥, Amber, Xihu哥, and Yong哥 as well as Miaoli’s enforcement capacity.
+
 [^8]: [PanSci — What Makes the Stray Dog and Cat Issue Complex? How Can We Save Stray Dogs and Cats and Endangered Wildlife?](https://pansci.asia/archives/371491) — A 7,114-word in-depth report published by PanSci on November 12, 2023, serving as a core reference for this article’s sections on the death of the leopard cat, 91% of activity sites, TNR not being a cure-all, the policy triangle, and the trolley problem. This citation follows the Taiwan.md × PanSci Content Curation MOU of 2026-05-05 and includes direct verbatim quotation.
+
 [^9]: [Research by Chen Chen-chih, National Pingtung University of Science and Technology — Assessment of Dog Impacts on Leopard Cat Populations](https://wuo-wuo.com/topics/widlife/dogkill) — Cited in WuoWuo’s special report; findings include canine parvovirus positivity rates of 30.6% in live individuals and 59.2% in carcasses, a 25-fold increase in roadkill risk after infection, and the disappearance of 52.9% of individual dogs after only one survey period.
+
 [^10]: [Leopard Cat Association of Taiwan automatic camera survey](https://www.facebook.com/LeopardCatTaiwan/) — Automatic camera network survey results cited by WuoWuo’s special report: 91% of activity sites where leopard cats were photographed also photographed free-ranging dogs; only 9% were safe sites.
+
 [^11]: [Central News Agency — Forestry and Nature Conservation Agency: Formosan black bear numbers have increased; population no longer at risk of extinction](https://www.cna.com.tw/news/ahel/202504230093.aspx) — April 23, 2025 statement by the Ministry of Agriculture’s Forestry and Nature Conservation Agency, saying the Formosan black bear population has “increased by severalfold compared with 20 years ago” and that its frequency of occurrence below 1,200 meters has significantly increased.
+
 [^12]: [Academia Sinica — Catalogue of Life in Taiwan, TaiBNET](https://taibnet.sinica.edu.tw/) — Updated by Academia Sinica in 2022, officially changing dogs and cats from “alien species” to “invasive alien species,” the first time Taiwan’s official classification system placed companion animals in an invasive-species category.
+
 [^13]: [Reporting on the Chien Chih-cheng incident — Environment & Animal Society of Taiwan](https://www.east.org.tw/) — The May 2016 incident involving Chien Chih-cheng, a veterinarian at the Xinwu animal protection park, exposed the long-term psychological trauma endured by shelter workers and helped spur mental health counseling resources for shelter veterinarians.
+
 [^14]: [Doherty et al. (2017), "The global impacts of domestic dogs on threatened vertebrates," Biological Conservation 210: 56–59](https://www.sciencedirect.com/journal/biological-conservation) — Original international journal article identifying free-ranging dogs as a major threat source for at least 188 endangered animal species worldwide; the academic source cited by PanSci.
-[^15]: [Yen et al. (2019), "Pets and pests: A meta-analysis of the influence of free-ranging domestic dogs on wildlife populations," Scientific Reports 9: 15314](https://www.nature.com/articles/s41598-019-51743-3) — Study by Yen Shih-ching and colleagues published in *Scientific Reports* on the impact of free-ranging dogs on wildlife diversity in the Greater Taipei area, including Yangmingshan National Park.
+
+[^15]: [Yen et al. (2019), "Pets and pests: A meta-analysis of the influence of free-ranging domestic dogs on wildlife populations," Scientific Reports 9: 15314](https://www.nature.com/articles/s41598-019-51743-3) — Study by Yen Shih-ching and colleagues published in _Scientific Reports_ on the impact of free-ranging dogs on wildlife diversity in the Greater Taipei area, including Yangmingshan National Park.
+
 [^16]: [Environment & Animal Society of Taiwan official website](https://www.east.org.tw/) — Position papers and arguments by Chen Yu-min, deputy executive director, and others on TNR / TNvR and source responsibility among owners, arguing that policy should return to owner management rather than hotspot removal.
+
 [^17]: [Animal Protection Information Network — Special topic on mixed-breed adoption culture](https://animal.moa.gov.tw/) — Policy promotion and social education resources in Taiwan’s animal protection policy concerning mixed-breed dogs and mikesi adoption culture.
+
 [^18]: [Ministry of Education — Campus Animal Protection Program](https://animal.moa.gov.tw/) — Policy basis for school dogs and school cats at more than 700 schools across Taiwan; the “Outstanding School Dog Campus” selection has been held since 2019.

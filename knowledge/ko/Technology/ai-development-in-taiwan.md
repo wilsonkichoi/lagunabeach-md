@@ -11,10 +11,10 @@ lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/AI發展.md'
-sourceCommitSha: 'f712b724'
-sourceContentHash: 'sha256:94f6db1587e84f6b'
-sourceBodyHash: 'sha256:f92e6b6e01c4424a'
-translatedAt: '2026-05-15T14:23:13+08:00'
+sourceCommitSha: '96945e45'
+sourceContentHash: 'sha256:c3a35976261aaad4'
+sourceBodyHash: 'sha256:54302f24eb8f8f54'
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # AI 섬나라의 부상: 대만의 인공지능 발전과 미래 전략
@@ -320,6 +320,7 @@ IoT 센서와 AI 분석을 결합해 대만은 소규모 고품질 농업에 적
 **더 읽어보기**:
 
 - [우저위](/people/吳哲宇) — 뉴미디어 예술가가 「AI 생성물이 범람하는 시대」에 어떻게 시계공의 태도를 고수하는가, AI 산업 바깥에서 바라본 또 다른 창작자의 관점
+- [대만 인공지능학교](/technology/台灣人工智慧學校) — 천성웨이의 「하강」과 민간 1.8억 모금에서, 정부 AI 전략 바깥의 인재 생산라인이 어떻게 보완 역할을 했는지
 
 ## 참고자료
 

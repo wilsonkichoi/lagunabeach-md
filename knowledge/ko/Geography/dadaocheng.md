@@ -29,10 +29,10 @@ lastVerified: '2026-05-21'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/大稻埕.md'
-sourceCommitSha: '946f38bb4'
-sourceContentHash: 'sha256:c8ffc0ce197a9cf6'
-sourceBodyHash: 'sha256:4bb9b7bfe17dcec7'
-translatedAt: '2026-05-22T05:08:46+08:00'
+sourceCommitSha: '20a4ac33'
+sourceContentHash: 'sha256:12edbb84c3a27210'
+sourceBodyHash: 'sha256:379e0b6a6e071045'
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 다다오청: 800미터에 담긴 세 세기, Formosa Tea에서 2·28의 첫 총성까지
@@ -213,7 +213,8 @@ _설맞이 시장 기간의 디화제. Photo: 玄史生, CC BY-SA 3.0 via [Wikim
 - [타이완 민요와 가요](/music/台灣民謠與歌謠) — 1932년 〈망춘풍〉과 타이핑초의 콜럼비아 레코드
 - [방카](/geography/艋舺) — 1853년 딩샤자오핀에서 패배한 퉁안 사람들이 방카 바자장에서 다다오청으로 피란해 왔고, 두 거리는 같은 무력 충돌에서 갈라져 나온 결과이다
 - [시먼딩](/geography/西門町) — 같은 batch 1 역사 거리 sibling, 1896년 일제시기 오락구 vs 다다오청 청대 상업 거리, 두 가지 「거리 형성의 순간」 비교
-- [중산베이루 조통](/geography/中山北路條通) — 같은 batch 1 역사 거리 sibling, 고세이초(칙사 가도 서측)는 바로 다다오청 동남단과 이어지는 위치였고, 일제시기 고급 주거지와 다다오청 상업 거리는 같은 시기의 두 공간 계급이었다
+- [다룽동](/geography/大龍峒) — 1853년 딩샤자오핀에서 패배한 퉁안 사람들은 먼저 다룽동 바오안궁을 방어 거점으로 삼아 후퇴한 뒤, 다시 다다오청으로 이주했다. 다다오청의 통상 서사가 빠뜨리는 중간 경유지이다
+- [스린](/geography/士林) — 1859년 장취안 무력 충돌과 방카 1853년 딩샤자오핀은 서로 다른 두 충돌이다. 스린은 장저우 사람들이 취안저우 사람들에게 거리가 불태워진 뒤 재건한, 또 다른 분류의 결과이다
 
 ## 이미지 출처
 

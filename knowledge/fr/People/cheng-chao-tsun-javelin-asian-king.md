@@ -23,10 +23,10 @@ readingTime: 8
 #   whats_excluded: "助跑技術細節；各年度比賽逐場成績；訓練設施資訊"
 #   where_it_hedges: "2018雅加達亞運名次以73.86米第5為準（部分早期報導稱獲銀牌實為當年9月洲際盃成績）"
 translatedFrom: 'People/鄭兆村.md'
-sourceCommitSha: '5c000f86'
-sourceContentHash: 'sha256:ace2ffdaddd38a3c'
-sourceBodyHash: 'sha256:597e2d011b220513'
-translatedAt: '2026-05-25T06:19:00+08:00'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:ce2f1e81de54c692'
+sourceBodyHash: 'sha256:efa67fc4a2da3f45'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 # Cheng Chao-tsun : le dernier lancer à 91,36 m des Universiades 2017, le javelot asiatique n'a plus jamais été le même

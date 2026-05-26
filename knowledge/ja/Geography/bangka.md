@@ -30,10 +30,10 @@ lastVerified: '2026-05-21'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/艋舺.md'
-sourceCommitSha: '946f38bb4'
-sourceContentHash: 'sha256:233480be80f34d37'
-sourceBodyHash: 'sha256:d81cb7506613293c'
-translatedAt: '2026-05-22T05:08:46+08:00'
+sourceCommitSha: '20a4ac33'
+sourceContentHash: 'sha256:e384b40a3b9c1bf5'
+sourceBodyHash: 'sha256:2adb8850a99b6a49'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 艋舺：清領期の台北で最もにぎわった場所は、現在では台北で平均年齢が最も高い区です
@@ -232,7 +232,8 @@ _華西街観光夜市。Photo: Wikimedia Commons contributor, [CC BY-SA via Wik
 - [清仏戦争](/history/清法戰爭) — 1884-1885 年のフランス軍による北台湾侵攻、艋舺龍山寺の義軍動員、淡水大捷
 - [大稲埕](/geography/大稻埕) — 1853 年の頂下郊拼に敗れた同安人が艋舺八甲荘から逃れて開いた商埠で、艋舺から分岐したもう一つの時間軸
 - [西門町](/geography/西門町) — 同じ batch 1 の歴史街区 sibling。日本人が 1896 年に艋舺の西側へ計画した娯楽区で、艋舺本街と清領 vs 日本統治の対照を成します
-- [中山北路条通](/geography/中山北路條通) — 同じ batch 1 の歴史街区 sibling。1901 年の勅使街道は台湾神社参拝用で、艋舺龍山寺と同じく日本統治植民地宗教地理の二つの極端な対位です
+- [大龍峒](/geography/大龍峒) — 1853 年の頂下郊拼で敗れた同安人が艋舺八甲荘から最初に退いた場所で、保安宮を防御の中心に据え、その後大稲埕へ移りました
+- [士林](/geography/士林) — 1859 年の漳泉械鬥と艋舺の 1853 年頂下郊拼は別々の械鬥で、清領北台湾における二つの族群械鬥の景観を成しています
 
 ## 参考資料
 

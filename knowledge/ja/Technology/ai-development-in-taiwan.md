@@ -19,10 +19,10 @@ lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/AI發展.md'
-sourceCommitSha: 'f712b724'
-sourceContentHash: 'sha256:94f6db1587e84f6b'
-sourceBodyHash: 'sha256:f92e6b6e01c4424a'
-translatedAt: '2026-05-15T14:23:13+08:00'
+sourceCommitSha: '96945e45'
+sourceContentHash: 'sha256:c3a35976261aaad4'
+sourceBodyHash: 'sha256:54302f24eb8f8f54'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # AI島国の台頭：台湾における人工知能の発展と今後の戦略
@@ -328,6 +328,7 @@ IoTセンサーとAI分析を組み合わせ、台湾は小規模で高付加価
 **関連読書**：
 
 - [呉哲宇](/people/吳哲宇) — ニューメディア・アーティストはいかに「AI生成が氾濫する時代」に時計職人であり続けるのか。AI産業の外側から見る、もう一つの創作者の視点
+- [台灣人工智慧學校](/technology/台灣人工智慧學校) — 陳昇瑋の「天下り」と民間調達1.8億から見る、政府AIエ戦略の外側でどのように人材育成パイプラインが補完されているか
 
 ## 参考資料
 

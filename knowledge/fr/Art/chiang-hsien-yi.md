@@ -28,11 +28,15 @@ tags:
 lastVerified: 2026-05-22
 lastHumanReview: false
 featured: true
+sporeLinks:
+  - platform: 'threads'
+    date: '2026-05-25'
+    url: 'https://www.threads.com/@taiwandotmd/post/DYwhhzFgfe0'
 translatedFrom: 'Art/江賢二.md'
-sourceCommitSha: '43bf36374'
-sourceContentHash: 'sha256:c38582a4b5f193c8'
-sourceBodyHash: 'sha256:e7a4bdc28a3902e5'
-translatedAt: '2026-05-23T05:06:38+08:00'
+sourceCommitSha: '3171bab8'
+sourceContentHash: 'sha256:3870280529c79170'
+sourceBodyHash: 'sha256:67baf16d4a608267'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 # Jiang Hsien-yi : après avoir fui Taïwan pendant quarante-cinq ans, ce n'est qu'en rentrant chez lui qu'il a peint les meilleures œuvres de sa vie
@@ -124,6 +128,9 @@ La série « Temple centenaire » naît de cette maison vide et perméable à la
 
 Comme « Notre-Dame de Paris », les tableaux reposent sur un noir sombre, mais quelque chose s'est ajouté à ce noir. Quelques lumières couleur bronze et or émergent des profondeurs de l'image. C'est la couleur qui apparaît lentement lorsque les colonnes d'un temple ont été touchées par d'innombrables mains, enfumées par des siècles d'encens, et obliquement éclairées par la lumière du soleil depuis une cour intérieure[^20].
 
+![Une toile de la série « Temple centenaire » de Jiang Hsien-yi, 1998 — sur un fond noir sombre, quelques lumières couleur bronze et or émergent des profondeurs, la couleur lentement née des colonnes touchées par d'innombrables mains et enfumées par des siècles d'encens](/article-images/art/jiang-chien-baiNianMiao-1998.jpg)
+_Une toile de la série « Temple centenaire » de Jiang Hsien-yi, 1998. Source : [site officiel de l'artiste Jiang Hsien-yi](https://www.paulchiang.org/works), collection de la période Notre-Dame de Paris / Temple centenaire. Fair use editorial commentary._
+
 En mars 1997, Jiang Hsien-yi organise une exposition personnelle à la galerie Eslite de Taipei. Le sous-titre de l'exposition indique : « Première exposition personnelle à Taïwan après trente ans d'absence. »[^21]
 
 Il a quitté Taïwan à vingt-cinq ans et y tient sa première exposition de retour à cinquante-cinq ans. Pendant ces trente années, ses camarades de Taïwan ont perdu le contact avec lui, le milieu artistique taïwanais ne le connaît pas, le public taïwanais n'a jamais vu ses peintures.
@@ -163,6 +170,12 @@ _Vue sur l'océan Pacifique depuis un tronçon de la route provinciale 11 dans l
 « Ces couleurs, je ne les avais jamais utilisées ; de toute ma vie, je n'avais jamais pensé pouvoir peindre de telles œuvres. » Après son installation à Taitung, Jiang Hsien-yi décrit ainsi la transformation de sa peinture[^26].
 
 Après 2008, les séries « Le Rêve de Pisirian », « Sur les ailes du chant », « Jinzun », « Lac d'argent » apparaissent l'une après l'autre[^27]. Les tableaux se remplissent de bleu, de jaune, d'orange, de rose. La mer, le chant, le rêve entrent dans l'image[^27]. « Les couleurs que j'utilise, les dimensions des œuvres et leur degré de liberté, tout cela n'est apparu qu'après mon installation à Taitung. »[^28]
+
+![Une toile de la série « Le Rêve de Pisirian » de Jiang Hsien-yi, 2010 — des aplats de bleu, de rose et de jaune comme un matin sur le Pacifique, coexistant avec les pentes qu'on appelle « lieu où l'on garde les moutons » en langue amis](/article-images/art/jiang-chien-bisirian-2010.jpg)
+_Une toile de la série « Le Rêve de Pisirian » de Jiang Hsien-yi, 2010. Pisirian est le nom amis de la côte voisine de l'atelier de Jinzun. Source : [site officiel de l'artiste Jiang Hsien-yi](https://www.paulchiang.org/works), collection de la période Le Rêve de Pisirian. Fair use editorial commentary._
+
+![Une toile de la série « Lac d'argent » de Jiang Hsien-yi, 2008 — sur fond noir, un halo blanc comme la lumière de la lune sur l'eau d'un lac, comme la première note grave sol au piano de Gould](/article-images/art/jiang-chien-silver-lake-2008.jpg)
+_Une toile de la série « Lac d'argent » de Jiang Hsien-yi, 2008. Source : [site officiel de l'artiste Jiang Hsien-yi](https://www.paulchiang.org/works), collection de la période Lac d'argent. Fair use editorial commentary._
 
 Son quotidien devient le suivant :
 
@@ -221,6 +234,9 @@ Le 15 mars 2025, le Parc artistique Jiang Hsien-yi ouvre officiellement au publi
 
 Ce jour-là, Jiang Hsien-yi a quatre-vingt-trois ans.
 
+![Œuvre d'installation « Nuit de purification » de Jiang Hsien-yi — une structure cubique de barres d'acier entrelacées comme des épines suspendue dans l'obscurité, la lumière tombant d'en haut](/article-images/art/jiang-chien-jinzun-purification-night.jpg)
+_Œuvre d'installation « Nuit de purification » de Jiang Hsien-yi. « Purification » et « lumière » sont l'un des thèmes centraux de l'exposition inaugurale « Lumière, beauté et purification » du Parc artistique Jiang Hsien-yi en 2025. Source : [site officiel de l'artiste Jiang Hsien-yi](https://www.paulchiang.org/works), collection Jinzun / Nuit de purification. Fair use editorial commentary._
+
 ## À quatre-vingt-trois ans, il n'ouvre pas seulement les fenêtres
 
 Revenons à cet hiver 1967 : il a vingt-cinq ans, a quitté la NTNU deux ans plus tôt, vole vers Paris porté par son admiration pour Giacometti et découvre que son idole est morte l'année précédente.
@@ -264,13 +280,22 @@ Il faudra encore une heure avant que le soleil monte derrière l'île Verte.
 
 ## Sources des images
 
-Cet article utilise 3 images sous licence CC, toutes mises en cache dans `public/article-images/art/` afin d'éviter les liens directs vers les serveurs sources :
+Cet article utilise 7 images sous licence, toutes mises en cache dans `public/article-images/art/` afin d'éviter les liens directs vers les serveurs sources :
 
-- « Clouds over beautiful blue sea at Sanxiantai on 4 February 2014 » — Photo : lwtt93 (Flickr), CC BY 2.0, source : [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Clouds_over_beautiful_blue_sea_at_Sanxiantai_on_4_February_2014.jpg)
+**Photos d'environnement / contexte (3 images, licence CC)** :
+
+- « Clouds over beautiful blue sea at Sanxiantai on 4 February 2014 » (hero) — Photo : lwtt93 (Flickr), CC BY 2.0, source : [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Clouds_over_beautiful_blue_sea_at_Sanxiantai_on_4_February_2014.jpg)
 - « Cathédrale Notre-Dame exterior, Paris » — Photo : Fernando Losada Rodríguez, CC BY-SA 4.0, source : [Wikimedia Commons](<https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre-Dame_(exterior).107_-_Paris.jpg>)
 - « Vue sur la baie de Meiliwan depuis le tronçon Dulan de la route provinciale 11 » — Photo : Aa7778273, CC BY-SA 4.0, source : [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E8%87%AA%E5%8F%B011%E7%B7%9A%E9%83%BD%E8%98%AD%E6%AE%B5%E7%9C%BA%E6%9C%9B%E7%BE%8E%E9%BA%97%E7%81%A3.jpg)
 
-Les œuvres de Jiang Hsien-yi lui-même, notamment les séries « Notre-Dame de Paris », « Temple centenaire », « Lac d'argent », « Le Rêve de Pisirian » et « Jinzun », sont protégées par le droit d'auteur d'un artiste vivant. Cet article ne présente donc pas directement d'images de ses œuvres. Pour voir des reproductions en haute résolution, veuillez consulter le [site officiel de l'artiste Jiang Hsien-yi](https://www.paulchiang.org/), le [Parc artistique Jiang Hsien-yi](https://www.paulchiangartcenter.org/) et la page d'exposition du [Musée des beaux-arts de Taipei](https://www.tfam.museum/Exhibition/Exhibition_page.aspx?ddlLang=zh-tw&id=665).
+**Œuvres de Jiang Hsien-yi (4 images, site officiel de l'artiste, fair use editorial commentary)** :
+
+- **jiang-chien-baiNianMiao-1998.jpg** (§L'encens du temple Longshan) — « Temple centenaire », série 1998, d'après le [site officiel de l'artiste Jiang Hsien-yi](https://www.paulchiang.org/works) — Fair use editorial commentary sur la série 百年廟 de Paul Chiang
+- **jiang-chien-bisirian-2010.jpg** (§Les « Goldberg » de Gould) — « Le Rêve de Pisirian », série 2010, d'après le [site officiel de l'artiste Jiang Hsien-yi](https://www.paulchiang.org/works) — Fair use editorial commentary sur la série Le Rêve de Pisirian
+- **jiang-chien-silver-lake-2008.jpg** (§Les « Goldberg » de Gould) — « Lac d'argent », série 2008, d'après le [site officiel de l'artiste Jiang Hsien-yi](https://www.paulchiang.org/works) — Fair use editorial commentary sur la série Lac d'argent
+- **jiang-chien-jinzun-purification-night.jpg** (§D'un atelier à un parc artistique) — « Nuit de purification », installation, d'après le [site officiel de l'artiste Jiang Hsien-yi](https://www.paulchiang.org/works) — Fair use editorial commentary sur le thème central de l'exposition inaugurale du Parc artistique Jiang Hsien-yi en 2025, « Lumière, beauté et purification »
+
+Pour voir davantage d'œuvres en haute résolution, veuillez consulter le [site officiel de l'artiste Jiang Hsien-yi](https://www.paulchiang.org/), le [Parc artistique Jiang Hsien-yi](https://www.paulchiangartcenter.org/) et la [page de la rétrospective 2020 au Musée des beaux-arts de Taipei](https://www.tfam.museum/Exhibition/Exhibition_page.aspx?ddlLang=zh-tw&id=665).
 
 ## Références
 

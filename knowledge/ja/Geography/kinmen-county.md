@@ -25,10 +25,10 @@ lastVerified: 2026-05-18
 lastHumanReview: true
 featured: false
 translatedFrom: 'Geography/金門縣.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:ec3f869ebb10980c'
-sourceBodyHash: 'sha256:0ef9b080fa1ae10e'
-translatedAt: '2026-05-24T22:39:00Z'
+sourceCommitSha: '544200ea'
+sourceContentHash: 'sha256:138cb030102543d9'
+sourceBodyHash: 'sha256:7fa7312e98b0f732'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 金門県：1949年のあの56時間が、金門の75年の運命を決めました

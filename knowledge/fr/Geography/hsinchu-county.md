@@ -24,10 +24,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/新竹縣.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:fa054948c89094ee'
-sourceBodyHash: 'sha256:656ad4d27e1e5902'
-translatedAt: '2026-05-25T06:36:49+08:00'
+sourceCommitSha: 'bcffb45b'
+sourceContentHash: 'sha256:d364dc7cecbd8556'
+sourceBodyHash: 'sha256:1609d19d6b7ce06f'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 # Comté de Hsinchu : 235 ans de culte des volontaires, et le revenu moyen le plus élevé de Taiwan, le tout le long du même cours d’eau, le Toupian Creek

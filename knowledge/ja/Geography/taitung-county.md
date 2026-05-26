@@ -26,10 +26,10 @@ lastVerified: 2026-05-18
 lastHumanReview: true
 featured: false
 translatedFrom: 'Geography/台東縣.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:b619f644b3aecab2'
-sourceBodyHash: 'sha256:5297b3ed0a4fdf7d'
-translatedAt: '2026-05-24T22:39:00Z'
+sourceCommitSha: 'bcffb45b'
+sourceContentHash: 'sha256:09d74741a8b046c2'
+sourceBodyHash: 'sha256:822633727580b0f7'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 台東県：二つの離島、一つは三十六年にわたり政治犯を収容し、一つは四十二年にわたり核廃棄物を保管してきました

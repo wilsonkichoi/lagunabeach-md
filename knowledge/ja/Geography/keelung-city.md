@@ -24,10 +24,10 @@ lastVerified: 2026-05-17
 lastHumanReview: true
 featured: false
 translatedFrom: Geography/基隆市.md
-sourceCommitSha: 6b59db34
-sourceContentHash: sha256:673f62bd1a5ba779
-sourceBodyHash: sha256:a30defd17f34989f
-translatedAt: 2026-05-24T22:39:00Z
+sourceCommitSha: '544200ea'
+sourceContentHash: 'sha256:681e1686934c97b4'
+sourceBodyHash: 'sha256:980f24f74f02d9c0'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 基隆市：台北に最も近い港、最も台北から見えない港

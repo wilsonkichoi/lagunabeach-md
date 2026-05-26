@@ -11,10 +11,10 @@ lastVerified: 2026-03-19
 lastHumanReview: true
 featured: true
 translatedFrom: Music/台灣原住民音樂傳統.md
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:b1d3d34fc3971d05'
-sourceBodyHash: 'sha256:d3e2f60c551467e8'
-translatedAt: '2026-05-24T22:33:51Z'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:c9aa499e9c84c71a'
+sourceBodyHash: 'sha256:b2e261c439c4d6f4'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # Indigenous Music Traditions of Taiwan

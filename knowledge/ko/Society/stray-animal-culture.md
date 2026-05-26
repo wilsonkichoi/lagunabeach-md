@@ -1,20 +1,32 @@
 ---
-title: "대만 유랑동물 문화: 《십이야》에서 삵의 죽음까지, 동물보호와 야생동물보전의 트롤리 딜레마"
-description: "2013년 《십이야》는 섬 전체를 울렸고, 2017년 2월 대만은 동아시아 최초의 무살처분 국가가 되었다. 8년 뒤인 2023년 5월 11일 저녁 6시, 어린 삵 한 마리가 배회 고양이의 입에 물려 죽었다. 농업부의 2022년 조사에 따르면 전국 배회견은 15만 9,697마리였고, 대만삵보전협회의 자동카메라 조사에서는 삵 활동 지점의 91%에서 개가 확인되었다. 동물보호와 야생동물보전은 대립이 아니다. 이 섬에는 아직 누구도 받아 안지 못한 생명이 백만 마리 넘게 남아 있다. 이 글은 어느 한쪽 편에 서지 않고, 아직 답하지 못한 문제를 말한다."
+title: '대만 유랑동물 문화: 《십이야》에서 삵의 죽음까지, 동물보호와 야생동물보전의 트롤리 딜레마'
+description: '2013년 《십이야》는 섬 전체를 울렸고, 2017년 2월 대만은 동아시아 최초의 무살처분 국가가 되었다. 8년 뒤인 2023년 5월 11일 저녁 6시, 어린 삵 한 마리가 배회 고양이의 입에 물려 죽었다. 농업부의 2022년 조사에 따르면 전국 배회견은 15만 9,697마리였고, 대만삵보전협회의 자동카메라 조사에서는 삵 활동 지점의 91%에서 개가 확인되었다. 동물보호와 야생동물보전은 대립이 아니다. 이 섬에는 아직 누구도 받아 안지 못한 생명이 백만 마리 넘게 남아 있다. 이 글은 어느 한쪽 편에 서지 않고, 아직 답하지 못한 문제를 말한다.'
 date: 2026-03-18
-author: "Taiwan.md Contributors"
-category: "Society"
-subcategory: "社區與日常"
-tags: ["유랑동물", "동물보호", "무살처분", "TNR", "십이야", "삵", "배회견", "동물보호와 야생동물보전", "보호소", "입양 문화"]
+author: 'Taiwan.md Contributors'
+category: 'Society'
+subcategory: '社區與日常'
+tags:
+  [
+    '유랑동물',
+    '동물보호',
+    '무살처분',
+    'TNR',
+    '십이야',
+    '삵',
+    '배회견',
+    '동물보호와 야생동물보전',
+    '보호소',
+    '입양 문화',
+  ]
 readingTime: 22
 lastVerified: 2026-05-19
 lastHumanReview: false
 featured: true
-translatedFrom: "Society/台灣流浪動物文化.md"
-sourceCommitSha: "30a8f7dd0"
-sourceContentHash: "sha256:263c3b702290d75e"
-sourceBodyHash: "sha256:ee74b946bf624320"
-translatedAt: "2026-05-20T05:08:30+08:00"
+translatedFrom: 'Society/台灣流浪動物文化.md'
+sourceCommitSha: '89026b10'
+sourceContentHash: 'sha256:559d8bd5f905e8f0'
+sourceBodyHash: 'sha256:a5a01661de129b91'
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 대만 유랑동물 문화: 《십이야》에서 삵의 죽음까지, 동물보호와 야생동물보전의 트롤리 딜레마
@@ -79,7 +91,7 @@ translatedAt: "2026-05-20T05:08:30+08:00"
 TNR은 Trap, 즉 포획, Neuter, 즉 중성화, Return, 즉 방사의 약자다. 유랑동물을 잡아 중성화하고, 귀를 잘라 표시한 뒤, 다시 원래 장소로 돌려보낸다. 이후 대부분의 현과 시의 공식 방식에는 백신 접종이 추가되어 **TNvR**이 되었다. v는 Vaccinate, 즉 백신 접종이다. 논리는 단순하다. 모두 죽일 수 없다면 더 이상 번식하지 못하게 하자는 것이다. 한 세대, 두 세대, 세 세대가 지나면 개체 수는 자연히 줄어든다는 논리다.
 
 ![이미 귀가 잘린 줄무늬 유랑 고양이의 근접 사진. 왼쪽 귀 끝이 중성화 표시로 작은 삼각형 모양으로 잘려 있고, 배경은 흐릿한 거리 환경이다](/article-images/society/tnr-cat-clipped-ear-2016.jpg)
-_TNR 수술을 마친 유랑 고양이는 한쪽 귀 끝을 잘라 표식으로 삼는다. 이 귀 자르기 표식은 자원봉사자와 동물보호 담당자가 멀리서도 “이 개체는 이미 중성화되었다”고 구별하게 해 중복 포획을 피하게 한다. Photo: Yu Tae-wook, 2016. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cat_with_clipped_ear_(cropped).jpg)._
+_TNR 수술을 마친 유랑 고양이는 한쪽 귀 끝을 잘라 표식으로 삼는다. 이 귀 자르기 표식은 자원봉사자와 동물보호 담당자가 멀리서도 “이 개체는 이미 중성화되었다”고 구별하게 해 중복 포획을 피하게 한다. Photo: Yu Tae-wook, 2016. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cat_with_clipped_ear_(cropped).jpg).\_
 
 대만의 TNR은 처음에는 민간 동물보호 단체들이 자발적으로 추진했고, 법의 회색지대에서 움직였다. 2015년 《동물보호법》 개정 뒤에야 TNR은 공식 정책 도구로 편입되었다[^4]. 각 현·시 정부는 예산을 편성하기 시작했고, 동물보호 단체와 협력해 대규모 TNR을 시행했다.
 
@@ -432,7 +444,7 @@ _위산 주봉, 해발 3,949미터, 대만흑곰의 주요 서식지 중 하나.
 이 글은 퍼블릭 도메인 / CC 라이선스 이미지 4장을 사용했으며, 원본 서버의 핫링크를 피하기 위해 모두 `public/article-images/society/`에 캐시했다.
 
 - [중화 삵 표본](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E8%8F%AF%E7%9F%B3%E8%99%8E%E6%A8%99%E6%9C%AC%EF%BC%882%EF%BC%89.jpg) — Photo: 丘崈, 2026-02-15, CC0 1.0 퍼블릭 도메인, 국립대만박물관 소장 중화 삵 표본
-- [TNR 완료 후 귀가 잘린 유랑 고양이](https://commons.wikimedia.org/wiki/File:Cat_with_clipped_ear_(cropped).jpg) — Photo: Yu Tae-wook, 2016-11-18 (cropped 2021-06-18), CC0 1.0 퍼블릭 도메인
+- [TNR 완료 후 귀가 잘린 유랑 고양이](<https://commons.wikimedia.org/wiki/File:Cat_with_clipped_ear_(cropped).jpg>) — Photo: Yu Tae-wook, 2016-11-18 (cropped 2021-06-18), CC0 1.0 퍼블릭 도메인
 - [대만흑곰 정면 사진](https://commons.wikimedia.org/wiki/File:Formosan_Black_Bear01.jpg) — Photo: smartneddy, 2007-08-05, CC BY-SA 3.0
 - [위산 주봉](https://commons.wikimedia.org/wiki/File:Yushan_Summit_2024.jpg) — Photo: PirateTseng, 2024-10-29, CC BY-SA 4.0
 
@@ -441,20 +453,37 @@ _위산 주봉, 해발 3,949미터, 대만흑곰의 주요 서식지 중 하나.
 ## 참고자료
 
 [^1]: [농업부 동물보호정보망 — 무살처분 정책 설명](https://animal.moa.gov.tw/) — 대만의 2017년 무살처분 정책 시행에 관한 공식 정책 설명으로, 동물보호법 제12조 개정 맥락과 보완 조치를 포함한다.
+
 [^2]: [농업부 — 111년 전국 배회견 개체군 조사 보고](https://www.moa.gov.tw/) — 2022년 전국 표본조사 결과: 대만 전역의 배회견은 15만 9,697마리로 추정되며, 이 의제에 관한 최신 대규모 공식 통계다.
+
 [^3]: [《십이야》— 위키백과](<https://zh.wikipedia.org/wiki/%E5%8D%81%E4%BA%8C%E5%A4%9C_(%E8%87%BA%E7%81%A3%E9%9B%BB%E5%BD%B1)>) — 2013년 Raye가 감독하고 구파도가 제작한 다큐멘터리로, 보호소 유랑견의 12일 카운트다운을 기록했으며 2015년 동물보호법 개정을 직접적으로 추동했다.
+
 [^4]: [전국법규자료庫 — 동물보호법(2015년 개정)](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=M0060027) — 2015년 1월 23일 3독회에서 통과된 동물보호법 개정안으로, 제12조는 2017년부터 공립 보호소가 인도적 처리를 중단한다고 명시했다.
+
 [^5]: [난터우현 유랑견돌봄협회 성명](https://www.east.org.tw/) — 동물사회연구회가 인용한 난터우 보호소의 장기 초과 수용 및 새로운 개·고양이 수용 중단 상시화 현황으로, 무살처분 이후 수용 역량의 곤경을 드러낸다.
+
 [^6]: [농업부 동물보호정보망 — 우수 학교견 캠퍼스 평가](https://animal.moa.gov.tw/) — 교육부와 농위회, 현재 농업부가 공동 추진한 캠퍼스 생명교육 평가로, 대만 전역 약 700곳 이상의 학교에 학교견과 학교묘가 있다.
+
 [^7]: [워워 WuoWuo — 과소평가된 위협, 개에 의한 삵 사망 특집](https://wuo-wuo.com/topics/widlife/dogkill) — 워워의 2023년 연속 심층 보도로, 농업부 생다소 추적 자료와 학자 인터뷰(린위슈, 천전즈, 천메이팅, 장쥔이, 장이하오 등)를 통합했으며, 추거, 안보, 시후거, 융거의 구체 사례와 먀오리 집행 역량을 다룬다.
+
 [^8]: [PanSci 범과학 — 유랑 개·고양이 의제는 왜 복잡한가? 우리는 어떻게 유랑 개·고양이와 멸종위기 야생동물을 구할 수 있는가?](https://pansci.asia/archives/371491) — PanSci가 2023년 11월 12일 게재한 7,114자 심층 보도. 이 글의 §삵의 죽음, §91% 활동 지점, §TNR은 만병통치약이 아니다, §정책 삼각형, §트롤리 딜레마 등의 핵심 참고자료다. 본 인용은 Taiwan.md × PanSci Content Curation MOU 2026-05-05 승인에 따른 것으로 직접 verbatim 인용을 포함한다.
+
 [^9]: [핑둥과학기술대학 천전즈 연구 — 개가 삵 개체군에 미치는 영향 평가](https://wuo-wuo.com/topics/widlife/dogkill) — 워워 특집이 인용한 연구로, 개 파보바이러스 양성률(생체 30.6% / 사체 59.2%), 감염 뒤 로드킬 위험 25배 상승, 개 개체군 동태에서 52.9% 개체의 단일 시기 소실 등 핵심 발견을 포함한다.
+
 [^10]: [대만삵보전협회 자동카메라 조사](https://www.facebook.com/LeopardCatTaiwan/) — 워워 특집이 인용한 자동카메라 네트워크 조사 결과로, 삵이 포착된 활동 지점의 91%에서 동시에 배회견이 포착되었고 안전 지점은 9%뿐이었다.
+
 [^11]: [중앙사 — 임업보전서: 대만흑곰 수 증가, 개체군은 이미 멸종위기 우려 없어](https://www.cna.com.tw/news/ahel/202504230093.aspx) — 2025년 4월 23일 농업부 임업 및 자연보전서 성명. 대만흑곰 개체 수가 “20년 전과 비교해 배수 이상 증가”했고, 해발 1,200미터 이하 출현 빈도도 뚜렷하게 증가했다고 밝혔다.
+
 [^12]: [중앙연구원 — 대만생물종목록 TaiBNET](https://taibnet.sinica.edu.tw/) — 2022년 중앙연구원이 갱신해 개와 고양이를 “외래종”에서 “외래침입종”으로 공식 변경했으며, 이는 대만 공식 분류 체계가 반려동물을 침입종 범주에 넣은 첫 사례다.
+
 [^13]: [젠즈청 사건 보도 — 동물사회연구회](https://www.east.org.tw/) — 2016년 5월 신우 동물보호원구 수의사 젠즈청 사건으로, 보호소 직원들이 장기간 겪어 온 심리적 외상을 드러냈고 보호소 수의사 심리상담 자원 제도를 촉발했다.
+
 [^14]: [Doherty et al. (2017), "The global impacts of domestic dogs on threatened vertebrates," Biological Conservation 210: 56–59](https://www.sciencedirect.com/journal/biological-conservation) — 국제 학술지 원문. 배회견이 전 세계적으로 최소 188종의 멸종위기 동물에게 주요 위협으로 분류되었으며, 이 글에서 PanSci가 인용한 원 학술 출처다.
+
 [^15]: [Yen et al. (2019), "Pets and pests: A meta-analysis of the influence of free-ranging domestic dogs on wildlife populations," Scientific Reports 9: 15314](https://www.nature.com/articles/s41598-019-51743-3) — 옌스칭 등이 Scientific Reports에 발표한 대만 광역 타이베이 지역, 양밍산국가공원 포함, 배회견이 야생동물 다양성에 미치는 영향 연구.
+
 [^16]: [대만동물사회연구회 공식 홈페이지](https://www.east.org.tw/) — 천위민 부집행장 등이 TNR / TNvR 및 보호자 근원 책임에 대해 밝힌 입장 논의로, 정책은 핫스폿 제거가 아니라 보호자 관리로 돌아가야 한다고 주장한다.
+
 [^17]: [동물보호정보망 — 미커스 입양 문화 특집](https://animal.moa.gov.tw/) — 대만 동물보호 정책에서 혼종견 / 미커스 입양 문화를 홍보하고 사회교육 자원을 정리한 자료.
+
 [^18]: [교육부 — 캠퍼스 동물보호 방안](https://animal.moa.gov.tw/) — 대만 전역 약 700곳 이상의 학교견·학교묘 정책 근거로, 2019년부터 “우수 학교견 캠퍼스” 평가를 시행했다.

@@ -13,10 +13,10 @@ lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/劉德音.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:d8af6167c7effd7e'
-sourceBodyHash: 'sha256:b67507e9dc3bc1b6'
-translatedAt: '2026-05-24T22:39:00Z'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:5e90feeafc19360c'
+sourceBodyHash: 'sha256:81e4bcfc4e50e127'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 劉デイン：バークレー博士が張忠謀の後継に、台湾とアメリカのチップ挟み撃ちの中で下した6年間の決断

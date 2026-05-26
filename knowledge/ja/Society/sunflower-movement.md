@@ -10,10 +10,10 @@ lastVerified: 2026-04-12
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/太陽花學運.md'
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:3a8798103fc8c01b'
-sourceBodyHash: 'sha256:620bf7e5d85566f8'
-translatedAt: '2026-05-16T22:19:52+00:00'
+sourceCommitSha: '7b8c0d48'
+sourceContentHash: 'sha256:8a36018a77b69fe4'
+sourceBodyHash: 'sha256:7c672299649957c4'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 > **30 秒でわかる概要：** 2014 年 3 月 17 日、国民党の立法委員・張慶忠が床に伏せたまま襟元に付けた小型マイクを使い、三十秒間でサービス貿易協定を「既に審査済みとみなす」と宣言した。その夜、二百人を超える学生たちが立法院（台湾の国会）の塀を越えて議場を占拠し、一台の iPad で二十四時間ライブ配信を始め、すべてのテレビ局を迂回した。二十四日後、学生たちは退場した。サービス貿易協定は否決されなかった——歴史の中に忘れられたのだ。十二年後の数字がすべてを物語る：台湾の中国貿易依存度は 42% から 31.5% に低下した。彼らは自分が戦っていることすら知らない戦争に勝ったのだ。

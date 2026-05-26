@@ -11,10 +11,10 @@ lastVerified: '2026-05-07'
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/張明正.md'
-sourceCommitSha: '5c000f86'
-sourceContentHash: 'sha256:b0cb0f622b66732f'
-sourceBodyHash: 'sha256:f8f0ae0bdbf94c79'
-translatedAt: '2026-05-24T22:21:12Z'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:932e4c30cdddd3e0'
+sourceBodyHash: 'sha256:21c31465830632be'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 張明正：輔仁大学数学科出身、ウイルス対策ソフトを世界に売った男

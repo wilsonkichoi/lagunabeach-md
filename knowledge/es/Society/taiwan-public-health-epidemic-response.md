@@ -19,10 +19,10 @@ lastVerified: '2026-04-08'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/台灣公共衛生與防疫體系.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:58f409f32e8328d7'
-sourceBodyHash: 'sha256:a899b39b8261de58'
-translatedAt: '2026-05-02T01:17:17+08:00'
+sourceCommitSha: '9a60e8fd'
+sourceContentHash: 'sha256:d6bb10bad61ec15f'
+sourceBodyHash: 'sha256:4f3aba8b24585b02'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 > **Resumen en 30 segundos:** En 2003, el SARS causó 73 muertes en Taiwán; el cierre del Hospital Ho Ping se convirtió en un trauma colectivo en la historia de la salud pública. Después, Taiwán reconstruyó prácticamente todo su sistema de prevención epidémica: la agencia de control de enfermedades fue elevada de rango, el mecanismo del Centro de Comando de Epidemias Central (CECC) se formalizó por ley, y los protocolos de control de infecciones hospitalarias fueron revisados por completo. En 2020, cuando el COVID-19 se propagó globalmente, Taiwán mantuvo casi cero transmisión comunitaria durante los primeros 18 meses, lo que la comunidad internacional denominó el «Modelo Taiwán». En abril de 2026, Taiwán registró su primer caso local de gripe aviar H7N7 con transmisión de ave a humano: el sistema de prevención epidémica volvió a ser puesto a prueba.
@@ -94,6 +94,7 @@ Veintitrés años después del cierre del Hospital Ho Ping, aquel edificio sigue
 - [Seguro Nacional de Salud de Taiwán](/lifestyle/台灣醫療與全民健保) — La infraestructura base del sistema de prevención epidémica: la base de datos del seguro de salud de 23,4 millones de personas
 - [Audrey Tang](/people/唐鳳) — La ministra digital detrás del mapa de mascarillas
 - [Sistema médico de desastres de Taiwán](/technology/台灣災難醫療體系) — Del terremoto 921 al SARS: cómo los desastres impulsan la evolución médica
+- [Leyes gemelas de medicina regenerativa × 30 años de mRNA](/society/台灣再生醫療雙法沿革從業人員告白) — La narrativa de doble línea de la compra de BNT 2021 y la legislación de terapia celular: perspectiva ampliada del artículo sobre prevención epidémica COVID
 
 ## Referencias
 

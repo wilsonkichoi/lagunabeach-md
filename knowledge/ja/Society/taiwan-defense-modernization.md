@@ -2,7 +2,16 @@
 title: "Taiwan's National Defense and Military Modernization"
 description: "In October 2025, Lai Ching-te presided over the commissioning of an M1A2T tank battalion in Hukou. In the same month, former Chief of the General Staff Li Hsi-ming smiled wryly, saying, 'If tanks can be asymmetric weapons, what is not an asymmetric weapon?' This is the story of an island torn between two national defense logics."
 date: 2026-04-10
-tags: ['National Defense', 'Military', 'Asymmetric Warfare', 'Porcupine Strategy', 'Drones', 'Military Service', 'Total Defense']
+tags:
+  [
+    'National Defense',
+    'Military',
+    'Asymmetric Warfare',
+    'Porcupine Strategy',
+    'Drones',
+    'Military Service',
+    'Total Defense',
+  ]
 subcategory: 'Society'
 author: 'Taiwan.md'
 featured: false
@@ -10,17 +19,17 @@ readingTime: 16
 lastVerified: 2026-04-10
 lastHumanReview: false
 translatedFrom: 'Society/台灣國防與軍事現代化.md'
-sourceCommitSha: 'd6e87d07'
+sourceCommitSha: '4b6d28c5'
 sourceContentHash: 'sha256:2a738cdf0963c2b3'
 sourceBodyHash: 'sha256:3410bda280a2a9c3'
-translatedAt: '2026-05-16T22:19:52+00:00'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 > **30-Second Overview:** The 2022 Russia-Ukraine War changed Taiwan's national defense logic. In 2024, military service was restored from four months to one year. In 2025, the Han Kuang 41 exercise lasted the longest in history at ten days and nine nights, mobilizing 20,000 reserve soldiers. In November of the same year, the Lai Ching-te administration proposed a NT$1.25 trillion special budget to procure 200,000 drones. However, on the same list, most of the money still went to expensive traditional equipment like tanks, fighter jets, and submarines. Former Chief of the General Staff Li Hsi-ming smiled wryly at this: "If tanks can be asymmetric weapons, what is not an asymmetric weapon?" Taiwan is walking two national defense paths simultaneously, and these two paths contradict each other.
 
 In late October 2025, at the National Parade Ground in Hukou, a row of M1A2T "Abrams" tanks stood on the concrete ground. Lai Ching-te stepped down from the command platform to preside over the commissioning ceremony, announcing that the "strongest tank on the surface" had officially been integrated into the Republic of China Armed Forces' combat sequence. The first batch of 38 vehicles arrived in Taiwan in December 2024, the second batch of 42 in July 2025, and the final batch of 28 was delivered in the first quarter of 2026, totaling 108 vehicles, deployed at the Hukou-based 584th Armored Brigade and the 269th Mechanized Brigade[^1].
 
-At the same time, former Chief of the General Staff Li Hsi-ming was signing copies of his book at a bookstore. His book, *Taiwan's Winning Chance*, argues that Taiwan should not buy expensive large-scale weapons but should invest in numerous cheap, mobile, and concealable small systems. When asked how he viewed the Ministry of National Defense's use of "beachhead decisive battle" as the reason for purchasing M1A2T tanks, he smiled wryly and said, "I can only smile wryly at this. If tanks can be asymmetric weapons, what is not an asymmetric weapon?"[^2]
+At the same time, former Chief of the General Staff Li Hsi-ming was signing copies of his book at a bookstore. His book, _Taiwan's Winning Chance_, argues that Taiwan should not buy expensive large-scale weapons but should invest in numerous cheap, mobile, and concealable small systems. When asked how he viewed the Ministry of National Defense's use of "beachhead decisive battle" as the reason for purchasing M1A2T tanks, he smiled wryly and said, "I can only smile wryly at this. If tanks can be asymmetric weapons, what is not an asymmetric weapon?"[^2]
 
 This sentence is the most honest key to understanding Taiwan's national defense in 2026. The government claims to follow the Porcupine Strategy while signing contracts for America's most expensive weapons; it claims national defense autonomy while 90% of the budget goes to American suppliers; it extends military service while admitting that 200,000 drones are the future main combat force. These contradictions are not oversights; they represent an island pulled back and forth between two survival logics. It wants to become a porcupine, but its body still remembers it was originally a leopard.
 
@@ -68,7 +77,7 @@ Kuo Li-hsiung did not set a delivery schedule. He only said: "Only when testing 
 
 ## Between the "Strongest Tank" and the "Cheapest Drone"
 
-In November 2025, the Lai Ching-te administration proposed the *Special Regulations for Strengthening National Defense Resilience and Asymmetric Combat Power Procurement*, planning to allocate a special national defense budget of NT$1.25 trillion (approximately US$40 billion) over 8 years. If passed, Taiwan's national defense spending would rise from the current 2.5% of GDP to 3.3%. Of this, approximately NT$950 billion (76%) would flow to US arms dealers for the purchase of traditional weapon platforms[^12].
+In November 2025, the Lai Ching-te administration proposed the _Special Regulations for Strengthening National Defense Resilience and Asymmetric Combat Power Procurement_, planning to allocate a special national defense budget of NT$1.25 trillion (approximately US$40 billion) over 8 years. If passed, Taiwan's national defense spending would rise from the current 2.5% of GDP to 3.3%. Of this, approximately NT$950 billion (76%) would flow to US arms dealers for the purchase of traditional weapon platforms[^12].
 
 The other half of the picture of the same budget: The plan calls for the procurement of over 200,000 various types of drones and over a thousand unmanned vessels, covering multi-rotor reconnaissance drones, fixed-wing attack drones, suicide drones, etc. Approximately NT$300 billion will be manufactured locally in Taiwan, creating a so-called "non-Red supply chain," a national defense industrial system excluding Chinese components[^13].
 
@@ -97,7 +106,7 @@ The deepest transformation in Taiwan's national defense is not in the weapon lis
 
 In 2022, semiconductor entrepreneur Tsao Hsing-cheng announced a donation of NT$600 million to fund Black Bear Academy. On January 7, 2025, former President Chen Shui-bian publicly disclosed online that Tsao Hsing-cheng fulfilled this commitment, revealing that the goal set between the two was to "train 3 million Black Bear Warriors within 3 years," accounting for about one-third of Taiwan's 9 million households, hoping at least one person in each household possesses basic defense knowledge[^17].
 
-Black Bear Academy's classes were full from the start. A female student said in a *GVM* interview: "I don't want to fight a war; I just don't want to be unable to protect my children when war comes." This sentence later became Black Bear Academy's own promotional copy[^18].
+Black Bear Academy's classes were full from the start. A female student said in a _GVM_ interview: "I don't want to fight a war; I just don't want to be unable to protect my children when war comes." This sentence later became Black Bear Academy's own promotional copy[^18].
 
 > **✦** "I don't want to fight a war; I just don't want to be unable to protect my children when war comes." This is the most honest sentence in Taiwan's national defense consciousness in 2026. It is not patriotism; it is the most primal family instinct.
 
@@ -119,14 +128,14 @@ The last three sub-stages—Coastal Combat, Deep Defense, Protracted War—are t
 
 This is the shadow of the ODC. Li Hsi-ming's idea in those years was to turn Taiwan into a "net"; if the front cannot be held, retreat to the depth, making the enemy pay a price wherever they retreat. Han Kuang 41 is the first time this concept was systematically adopted in the exercise script[^20].
 
-| 1995 Missile Crisis | 2026 |
-| ----------------- | ------------------------ |
-| 600,000 Active-Duty Troops | 180,000 Active + 2 Million Reserves |
-| 2-Year Conscription | 1-Year Conscription + Volunteer Core |
-| Beachhead Decisive Battle Mindset | Gray Zone → Depth → Protracted War |
-| Weapons Entirely from US Aid | US Aid Main + National Defense Autonomy Supplement |
-| Big Ships and Big Guns | Drones × Mobile Missiles × Naval Mines |
-| Civil Defense as Exercise Props | Civil Defense as Black Bear Academy's Cash Flow |
+| 1995 Missile Crisis               | 2026                                               |
+| --------------------------------- | -------------------------------------------------- |
+| 600,000 Active-Duty Troops        | 180,000 Active + 2 Million Reserves                |
+| 2-Year Conscription               | 1-Year Conscription + Volunteer Core               |
+| Beachhead Decisive Battle Mindset | Gray Zone → Depth → Protracted War                 |
+| Weapons Entirely from US Aid      | US Aid Main + National Defense Autonomy Supplement |
+| Big Ships and Big Guns            | Drones × Mobile Missiles × Naval Mines             |
+| Civil Defense as Exercise Props   | Civil Defense as Black Bear Academy's Cash Flow    |
 
 ## 160 Kilometers and a Bet
 

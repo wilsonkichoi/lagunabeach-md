@@ -21,10 +21,10 @@ lastVerified: 2026-04-23
 lastHumanReview: false
 featured: false
 translatedFrom: 'Technology/大宇雙劍.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:d2025a3d031961b0'
-sourceBodyHash: 'sha256:fef7cbce1c58df11'
-translatedAt: '2026-05-01T22:19:10+08:00'
+sourceCommitSha: '03e04642'
+sourceContentHash: 'sha256:55f0fa48e3d73312'
+sourceBodyHash: 'sha256:5c70d0e1a87b0e81'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 > En 1990, un grupo de universitarios se agachaba en el mercado Guanghua buscando manuales técnicos, compartían un solo ordenador y crearon el primer RPG de artes marciales en chino: _Xuan-Yuan Sword_. Cinco años después, un joven de 26 años volcó su desamor en el desenlace de _Paladin of Souls_, que agotó diez mil copias el primer día. Ambos juegos pasaron a conocerse como las «Dos Espadas de Softstar», abarcaron tres décadas, generaron series de televisión y películas, y acumularon ventas de más de un millón de copias. En septiembre de 2024, Softstar vendió la propiedad intelectual de ambas espadas por 500 millones de dólares taiwaneses. Pero para toda una generación de jugadores, aquella tarde en la que lloraron por primera vez frente a la ventana de DOS no se puede vender.
@@ -68,7 +68,7 @@ Las ventas del primer día agotaron las diez mil copias. Las ventas acumuladas d
 
 _Paladin of Souls_ y _Xuan-Yuan Sword_ fueron forjadas en Softstar Entertainment, pero tomaron caminos muy distintos.
 
-**Xuan-Yuan Sword tomó la historia.** El grupo DOMO de Cai Minghong entrelazó la mitología china con la historia real. En 1999, _Xuan-Yuan Sword III: Beyond the Clouds and the Mountains_ trasladó la historia a la Ruta de la Seda entre la dinastía Tang y Europa, permitiendo al jugador controlar a un joven de la dinastía Tang que atravesaba el Imperio Árabe hasta llegar al Reino Franco. En 2000, el spin-off _Scar of Sky_, ambientado entre las dinastías Sui y Tang, se convirtió en la obra mejor valorada de la serie.[^9]
+**Xuan-Yuan Sword tomó la historia.** El grupo DOMO de Cai Minghong entrelazó la mitología china con la historia real. En 1999, _Xuan-Yuan Sword III: Beyond the Clouds and the Mountains_ trasladó la historia a la Ruta de la Seda entre la dinastía Tang y Europa: el jugador controla al joven espadachín Set, que parte del Reino Franco y avanza hacia el este atravesando el Imperio Árabe hasta llegar a la Gran Tang — la perspectiva va de Europa hacia China, no al revés. En 2000, el spin-off _Scar of Sky_, ambientado entre las dinastías Sui y Tang, se convirtió en la obra mejor valorada de la serie.[^9]
 
 El diseño más distintivo de _Xuan-Yuan Sword_ es el «Caldero de Refinamiento de Demonios» (_Lian Yao Hu_). Desde _Xuan-Yuan Sword II_, los jugadores pueden capturar monstruos derrotados en el caldero y refinarlos para convertirlos en objetos o nuevos compañeros. Este mecanismo está arraigado en el universo de _Investidura de los Dioses_ y _El Clásico de las Montañas y los Mares_, integrando directamente la base cultural en el sistema de juego. En una época en la que los RPG japoneses aún no tenían el concepto de «captura de monstruos» (antes incluso que Pokémon), el Caldero de Refinamiento de Demonios era una creación original.[^10]
 
@@ -162,7 +162,7 @@ Ese ordenador ya no existe. Aquella ventana de DOS se cerró hace treinta años.
 
 [^8]: [Techbang: 20 años de Paladin of Souls, ¿cómo evalúa Yao Zhuangxian este pasado?](https://www.techbang.com/posts/24345-xian-jianqi-20-years-the-father-of-the-fairy-sword-yao-zhuangxian-how-to-evaluate-this-past) — Diez mil copias el primer día, más de un millón acumuladas, tres primeros puestos en encuestas durante seis años consecutivos
 
-[^9]: [Wikipedia: Xuan-Yuan Sword III: Beyond the Clouds and the Mountains](https://zh.wikipedia.org/zh-tw/%E8%BB%92%E8%BD%85%E5%8A%8D%E5%8F%83_%E9%9B%B2%E5%92%8C%E5%B1%B1%E7%9A%84%E5%BD%BC%E7%AB%AF) — Lanzamiento en 1999, historia de la dinastía Tang al Reino Franco
+[^9]: [Wikipedia: Xuan-Yuan Sword III: Beyond the Clouds and the Mountains](https://zh.wikipedia.org/zh-tw/%E8%BB%92%E8%BD%85%E5%8A%8D%E5%8F%83_%E9%9B%B2%E5%92%8C%E5%B1%B1%E7%9A%84%E5%BD%BC%E7%AB%AF) — Lanzamiento en 1999, el protagonista Set parte de Venecia y cruza Eurasia hacia el este en busca de la Gran Tang al otro lado de las nubes y las montañas
 
 [^10]: [Xuan-Yuan Sword Wiki: Caldero de Refinamiento de Demonios](https://wikisword.fandom.com/wiki/%E7%85%89%E5%A6%96%E5%A3%BA) — El sistema de refinamiento de demonios desde _Xuan-Yuan Sword II_
 

@@ -5,16 +5,35 @@ date: 2026-03-17
 author: 'Taiwan.md'
 category: 'Technology'
 subcategory: '半導體與硬體'
-tags: ['Semiconductors', 'TSMC', 'Taiwan Semiconductor Manufacturing Company', 'Gallium Nitride', '3D Packaging', 'CoWoS', 'Quantum Computers', 'Advanced Process Nodes', 'Silicon Shield', 'Materials Science']
+tags:
+  [
+    'Semiconductors',
+    'TSMC',
+    'Taiwan Semiconductor Manufacturing Company',
+    'Gallium Nitride',
+    '3D Packaging',
+    'CoWoS',
+    'Quantum Computers',
+    'Advanced Process Nodes',
+    'Silicon Shield',
+    'Materials Science',
+  ]
 readingTime: 22
 lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/半導體產業.md'
-sourceCommitSha: 'b900f18da'
-sourceContentHash: 'sha256:9d994792e0981caf'
-sourceBodyHash: 'sha256:5ce89f475e36ba5a'
-translatedAt: '2026-05-20T05:08:27+08:00'
+sourceCommitSha: '6b44e05a'
+sourceContentHash: 'sha256:203ac1826bc1bbf2'
+sourceBodyHash: 'sha256:0a91f185f9c8f80b'
+translatedAt: '2026-05-25T21:06:51Z'
+sporeLinks:
+  - platform: 'threads'
+    date: '2026-05-25'
+    url: 'https://www.threads.com/@taiwandotmd/post/DYvqEURgXm-'
+  - platform: 'x'
+    date: '2026-05-25'
+    url: 'https://x.com/taiwandotmd/status/2058735515021783190'
 ---
 
 # The Semiconductor Industry: 50 Years of Materials Revolution from RCA Technology Transfer to Gallium Nitride and Quantum Packaging
@@ -108,6 +127,14 @@ The core of CoWoS (Chip-on-Wafer-on-Substrate) is the through-silicon via (TSV):
 The capacity numbers are even more striking. TSMC’s CoWoS monthly capacity was about 35,000 wafers at the end of 2024, is targeted to reach 75,000 wafers by the end of 2025, and aims for 150,000 wafers by 2028, a compound annual growth rate of nearly 80%[^13]. NVIDIA has directly booked TSMC’s CoWoS capacity through 2027, and **all chips, regardless of which TSMC fab produces them, including Arizona, must eventually be sent back to Taiwan for CoWoS packaging**[^13].
 
 This is the dual monopoly of Jensen Huang and TSMC. NVIDIA controls the design side, TSMC controls manufacturing and packaging, and together the two companies hold the key node of AI data centers.
+
+On June 2, 2024, Jensen Huang made this binding relationship public to the entire world at his Computex keynote at the National Taiwan University Sports Center — the slides showed the Blackwell and Rubin roadmaps, but behind every one was TSMC’s CoWoS production line.
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/pKXDVsWZmUU" title="NVIDIA CEO Jensen Huang Keynote at COMPUTEX 2024" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_NVIDIA official channel: Jensen Huang’s Computex keynote “The Era of AI” at the NTU Sports Center on June 2, 2024. Over two hours, he laid out the Blackwell GPU, NVLink, and Spectrum-X roadmaps one by one — but every capacity chart behind them was physically located in Baoshan, Hsinchu._
 
 The physical cost of 3D packaging is also substantial. PanSci identified the difficulty: “Advanced packaging has very high requirements for die flatness and chip alignment. If, during stacking, a contact point fails to connect and conduct properly, yield loss results. Moreover, integrated circuits generate energy loss during operation, raising temperature. Advanced packaging narrows the distance between dies, so thermal conduction interacts; everyone warms one another, making heat dissipation more difficult.”[^12]
 

@@ -13,10 +13,10 @@ lastVerified: 2026-05-08
 lastHumanReview: true
 featured: false
 translatedFrom: People/魏哲家.md
-sourceCommitSha: 6b59db34
-sourceContentHash: sha256:cc1afc3c953cb505
-sourceBodyHash: sha256:5f21a55ce4bf4649
-translatedAt: 2026-05-25T06:36:28+08:00
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:3d7fccce1bbb6e47'
+sourceBodyHash: 'sha256:501cc28a481912c5'
+translatedAt: '2026-05-25T21:07:07Z'+08:00
 ---
 
 # 웨이저자(魏哲家): 1953년, 교통대학 전자공학에서 예일대 박사까지, 그리고 TSMC 회장 겸 사장

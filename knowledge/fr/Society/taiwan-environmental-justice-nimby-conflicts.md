@@ -20,10 +20,10 @@ category: 'Society'
 lastVerified: 2026-03-20
 lastHumanReview: false
 translatedFrom: 'Society/台灣環境正義與鄰避爭議.md'
-sourceCommitSha: 'c67109e5'
-sourceContentHash: 'sha256:e107d04eb050c288'
-sourceBodyHash: 'sha256:a029918b717ecd13'
-translatedAt: '2026-05-02T11:00:00+08:00'
+sourceCommitSha: '037d3df5'
+sourceContentHash: 'sha256:f2b87bd31c1cd52d'
+sourceBodyHash: 'sha256:d5c7a52f8c64a4da'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 # Justice environnementale et conflits NIMBY à Taïwan
@@ -224,6 +224,8 @@ Les décisions environnementales en société démocratique doivent reposer sur 
 
 - [Maisons en tôle](/society/鐵皮屋) — La démolition de Wenzipi est un cas typique de justice environnementale : pollution, démolition et difficultés de relogement de 400 hectares de petites usines en tôle
 - [Logement social et justice du logement](/society/社會住宅與居住正義) — Aspect politique du logement : offre de logements sociaux et réforme du marché locatif
+- [Lu Hsiu-yen](/people/盧秀燕) — La personnalité politique qui a remporté Taichung en 2018 sur le thème de la qualité de l'air : les centrales de Zhonghua, les PM2,5 et la transition énergétique comme champ de bataille politique concret
+- [Crise climatique taïwanaise et transition vers le zéro carbone](/nature/台灣氣候危機與淨零轉型) — Les 97 672 barils de Lanyu, le référendum 2025 sur la centrale nucléaire 3, l'anse de Taosan, le déficit de 27 fois en géothermie : les fractures de justice environnementale correspondant à chaque trajectoire de transition énergétique
 
 ## Références
 

@@ -15,10 +15,10 @@ readingTime: 7
 #   whats_excluded: "各手術の医療的な詳細；帰台後の各球団での年間成績記録；個人資産と年俸"
 #   where_it_hedges: "ドジャースとの契約年（一部資料では2001年とされるが、別の説もある）；台湾プロ野球ドラフトの年に関する詳細"
 translatedFrom: People/郭泓志.md
-sourceCommitSha: 5c000f86
-sourceContentHash: sha256:b5f26a379a2884ba
-sourceBodyHash: sha256:5be39826050da8b3
-translatedAt: 2026-05-24T22:21:12Z
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:e02695ed5dc8f6ea'
+sourceBodyHash: 'sha256:adcefdbac44146e6'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 郭泓志：台湾初のMLBホームランとオールスターグーム、肘が何度も止めようとしても投げ続けた左腕

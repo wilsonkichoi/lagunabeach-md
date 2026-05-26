@@ -1,20 +1,30 @@
 ---
 title: 'Leyes gemelas de medicina regenerativa x 30 años de mRNA: cómo el Estado incorporó dos medicamentos salvavidas a su regulación'
-description: "El día en que Karikó y Weissman recibieron el Premio Nobel en 2023, habían pasado exactamente 28 años desde que ella fue degradada en la Universidad de Pensilvania. En el momento en que el primer lote de 930.000 dosis de BNT aterrizó en el Aeropuerto Internacional de Taoyuan el 2 de septiembre de 2021, ya habían pasado 24 años desde que ella se encontró con Weissman frente a una fotocopiadora en 1997. Este artículo yuxtapone dos líneas narrativas: las «leyes gemelas de medicina regenerativa de 2024» y los «30 años de penurias del mRNA». Desde el oso de peluche de una científica inmigrante húngara hasta las salas limpias del Parque Científico de Taoyuan, observa cómo el Estado regula dos medicamentos salvavidas completamente distintos: células y moléculas."
+description: 'El día en que Karikó y Weissman recibieron el Premio Nobel en 2023, habían pasado exactamente 28 años desde que ella fue degradada en la Universidad de Pensilvania. En el momento en que el primer lote de 930.000 dosis de BNT aterrizó en el Aeropuerto Internacional de Taoyuan el 2 de septiembre de 2021, ya habían pasado 24 años desde que ella se encontró con Weissman frente a una fotocopiadora en 1997. Este artículo yuxtapone dos líneas narrativas: las «leyes gemelas de medicina regenerativa de 2024» y los «30 años de penurias del mRNA». Desde el oso de peluche de una científica inmigrante húngara hasta las salas limpias del Parque Científico de Taoyuan, observa cómo el Estado regula dos medicamentos salvavidas completamente distintos: células y moléculas.'
 date: 2026-05-19
 author: 'Taiwan.md Contributors'
 category: 'Society'
 subcategory: '人權與平等'
-tags: ['leyes gemelas de medicina regenerativa', 'preparación celular', 'vacunas de mRNA', 'COVID-19', 'Karikó', 'BNT', 'derechos humanos en salud', 'GMP']
+tags:
+  [
+    'leyes gemelas de medicina regenerativa',
+    'preparación celular',
+    'vacunas de mRNA',
+    'COVID-19',
+    'Karikó',
+    'BNT',
+    'derechos humanos en salud',
+    'GMP',
+  ]
 readingTime: 22
 lastVerified: 2026-05-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/台灣再生醫療雙法沿革從業人員告白.md'
-sourceCommitSha: '9a60e8fdf'
-sourceContentHash: 'sha256:d0f219d5c8075694'
-sourceBodyHash: 'sha256:d965fc94f9515900'
-translatedAt: '2026-05-20T05:08:32+08:00'
+sourceCommitSha: '89026b10'
+sourceContentHash: 'sha256:22d1f9fc4fe57b36'
+sourceBodyHash: 'sha256:5c0fd1397ca8fbdd'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 ![Katalin Karikó y Drew Weissman reciben juntos la Medalla Life Science en 2022 y posan frente al panel de fondo; Karikó lleva un traje rojo y Weissman un traje oscuro](/article-images/society/kariko-weissman-life-science-2022.jpg)
@@ -240,6 +250,14 @@ El 2 de octubre de 2023 sonó el teléfono del Comité Nobel.
 Karikó contó a la radio sueca que su madre escuchaba cada año el anuncio de los ganadores del Nobel. “Solo sonreí con amargura, porque nunca había recibido subsidios y nunca había tenido un equipo. Ni siquiera era profesora, porque me habían degradado, así que tampoco me lo tomaba en serio. Le respondí: ‘Imposible’”[^3].
 
 Lamentablemente, la madre de Karikó había fallecido 5 años antes y no llegó a verla recibir realmente el Premio Nobel[^3].
+
+Dos meses después, el 7 de diciembre de 2023, Karikó pronunció su discurso de aceptación del Premio Nobel en el Aula Medica del Karolinska Institutet de Estocolmo, titulado «Developing mRNA for therapy». Treinta años de obstinación, condensados en una exposición completa.
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/gPdUnYjvWxo" title="Nobel Prize lecture: Katalin Karikó, Nobel Prize in Physiology or Medicine 2023" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Canal oficial del Premio Nobel: conferencia de aceptación del Nobel de Katalin Karikó del 7 de diciembre de 2023, «Developing mRNA for therapy». Desde su salida de Hungría en 1985, la degradación en la Universidad de Pensilvania en 1995, el artículo de avance con nucleósidos no modificados en 2005, hasta la introducción de esta tecnología en los brazos de millones de personas a través de BNT/Pfizer en 2020: 38 años condensados en 30 minutos, y ella habló sin notas._
 
 Cada vez que salgo de la sala limpia, me quito el pesado traje protector y miro el atardecer por la ventana, pienso en los códigos numéricos depositados en nuestras manos. Detrás de esos códigos hay familias rotas y esperanzas que se niegan a rendirse. En alguna línea de producción de Mainz, Alemania, quizá esté saliendo de fábrica la dosis número 500.000 millones de una vacuna de mRNA de BNT. En una sala limpia ISO 5 del Parque Científico de Taoyuan, esa misma tarde, un preparador celular sigue cambiando medios de cultivo en silencio. Dos medicamentos salvavidas, dos formas de fabricación, son parte del proceso en que las personas esperan que la ley alcance a la ciencia.
 

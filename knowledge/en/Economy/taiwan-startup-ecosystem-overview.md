@@ -5,16 +5,24 @@ date: '2026-03-18'
 author: 'Taiwan.md'
 category: 'Economy'
 subcategory: '新創經濟'
-tags: ['startups', 'entrepreneurship', 'venture capital', 'accelerators', 'AppWorks', 'unicorns']
+tags:
+  [
+    'startups',
+    'entrepreneurship',
+    'venture capital',
+    'accelerators',
+    'AppWorks',
+    'unicorns',
+  ]
 readingTime: 9
 lastVerified: '2026-03-19'
 lastHumanReview: true
 featured: true
 translatedFrom: 'Economy/新創生態系.md'
-sourceCommitSha: 'f712b7242'
-sourceContentHash: 'sha256:0b1dac646dacc00c'
-sourceBodyHash: 'sha256:890c8ef42365a56a'
-translatedAt: '2026-05-17T05:34:48+08:00'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:99a2d6fc0bc6d423'
+sourceBodyHash: 'sha256:07a9caf907dd16bd'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # Startup Ecosystem
@@ -95,7 +103,7 @@ AppWorks was founded by **Jamie Lin** in 2010. It is a benchmark institution in 
 - Focuses on three major directions: AI applications, blockchain / Web3, and Southeast Asian markets
 - Admission rates are around 3-5% per batch, making the program highly competitive
 
-### Other Important Accelerators
+### Other Accelerators and Incubating Institutions
 
 **SparkLabs Taipei**: The Taiwan branch of the internationally known accelerator SparkLabs. It focuses on B2B enterprise service startups and shares a cross-border judging and mentorship network with its parent organization in Seoul, South Korea.
 
@@ -171,7 +179,7 @@ Taiwan is actively cultivating potential unicorn companies, especially in AI app
 
 ### Regulatory Environment
 
-**Company Act amendments (2018)**: Important revisions allowed startups to adopt dual-class shares and no-par-value shares, and permitted employee compensation to be paid in stock. These changes significantly improved the legal environment for founder control and employee incentives.
+**Company Act amendments (2018)**: These revisions allowed startups to adopt dual-class shares and no-par-value shares, and permitted employee compensation to be paid in stock. These changes significantly improved the legal environment for founder control and employee incentives.
 
 **Financial regulatory sandbox (2018)**: The sandbox provides FinTech startups with a regulatory exemption testing environment for up to three years, allowing innovative financial services to be tested before formal regulations are established. Dozens of companies have already passed applications, covering areas such as blockchain payments and P2P lending.
 
@@ -221,7 +229,7 @@ Each of these three routes has representative cases. The hardware-software integ
 
 However, Taiwan also has several objective limits that are difficult to overcome in the short term. Its domestic market has only 23 million people, not enough for consumer-facing startups to develop scale capabilities. The salary competitiveness gap with Silicon Valley still causes top talent to leave for overseas markets. Language barriers make brand-building in Europe and the United States more difficult for Taiwanese startups than for Japanese or Korean companies. The shortage of late-stage capital after Series C forces promising companies to restructure overseas. The next evolution of Taiwan’s ecosystem depends on whether it can find paths around these structural limits, rather than waiting for them to disappear.
 
-From the success of AppWorks to the capital-market breakthroughs of Gogoro, Appier, and 91APP, Taiwan has completed the basic infrastructure of its ecosystem over more than a decade. The success of these pioneers is not only a set of headline milestones. More importantly, they have shown how far Taiwanese startups can go, while providing later entrants with success paths that can be deconstructed and learned from. The question for the next decade is whether truly world-class companies can grow from this foundation: companies that compete head-on with top global competitors and build sustainable competitive moats around their core products.[^4]
+From the success of AppWorks to the capital-market breakthroughs of Gogoro, Appier, and 91APP, Taiwan has completed the basic infrastructure of its ecosystem over more than a decade. The success of these pioneers means more than headline milestones: they have shown how far Taiwanese startups can go, and have given later entrants success paths that can be deconstructed and learned from. The question for the next decade is whether truly world-class companies can grow from this foundation: companies that compete head-on with top global competitors and build sustainable competitive moats around their core products.[^4]
 
 ## Further Reading
 
@@ -232,7 +240,11 @@ From the success of AppWorks to the capital-market breakthroughs of Gogoro, Appi
 ## References
 
 [^1]: [AppWorks Official Website](https://appworks.tw/) — AppWorks investment strategy, accelerator program description, and ecosystem statistics
+
 [^2]: [Gogoro — Investor Relations](https://ir.gogoro.com/) — Nasdaq listing documents, battery-swapping network scale, and subscriber statistics
+
 [^3]: [Appier Group — Investor Relations](https://appier.com/investor-relations) — Tokyo Stock Exchange listing background, operating markets, and customer scale
+
 [^4]: [BusinessNext — Annual Report on Taiwan’s Startup Ecosystem](https://www.bnext.com.tw/) — Taiwan startup financing statistics, representative company analysis, and trend observations
+
 [^5]: [National Development Council — Taiwan Startup Data](https://startup.ndc.gov.tw/) — Government statistics on 2023 year-over-year growth in Taiwanese startup financing deals and policy outcomes

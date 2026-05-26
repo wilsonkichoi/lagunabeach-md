@@ -20,10 +20,10 @@ lastVerified: 2026-03-20
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/台灣環境正義與鄰避爭議.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:8d7b73d5dcd91cdf'
-sourceBodyHash: 'sha256:102f748afe8c1589'
-translatedAt: '2026-05-03T23:14:05+08:00'
+sourceCommitSha: '1d54cbe5'
+sourceContentHash: 'sha256:14488432802fabfe'
+sourceBodyHash: 'sha256:eeb9b885e5063119'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # Environmental Justice and NIMBY Conflicts in Taiwan
@@ -225,6 +225,7 @@ Environmental decision-making in a democratic society should be based on adequat
 - [Iron Sheet Houses](/society/鐵皮屋) — The Wenzizun demolition is a textbook case of environmental justice: pollution, demolition, and relocation dilemmas of a 400-hectare iron-sheet factory cluster
 - [Social Housing and Housing Justice](/society/社會住宅與居住正義) — The policy dimension of housing: social housing supply and rental market reform
 - [Lu Shiow-yen](/people/盧秀燕) — The politician who won Taichung in 2018 on an air quality platform, with specific policy battlefields around the Taichung Power Plant, PM2.5, and energy transition
+- [Taiwan Climate Crisis and Net-Zero Transition](/nature/台灣氣候危機與淨零轉型) — 97,672 drums on Orchid Island, the Maanshan Nuclear Plant 2025 referendum, the algae reef Third LNG Terminal, the 27-fold geothermal gap: the environmental justice fault lines corresponding to each energy transition pathway
 
 ## References
 

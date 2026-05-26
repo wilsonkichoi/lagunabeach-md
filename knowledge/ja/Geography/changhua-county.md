@@ -24,10 +24,10 @@ lastVerified: 2026-05-18
 lastHumanReview: true
 featured: false
 translatedFrom: 'Geography/彰化縣.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:2418fab30b49dbb0'
-sourceBodyHash: 'sha256:eb6f2e50b64121b7'
-translatedAt: '2026-05-24T22:39:00Z'
+sourceCommitSha: 'bcffb45b'
+sourceContentHash: 'sha256:af4450d644e4cc28'
+sourceBodyHash: 'sha256:184703ac8d91b126'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 彰化県：ドゥポンに勝ったが、若者を留められない農業大県

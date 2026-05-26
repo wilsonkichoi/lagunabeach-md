@@ -29,10 +29,14 @@ lastVerified: 2026-05-22
 lastHumanReview: false
 featured: true
 translatedFrom: 'Art/江賢二.md'
-sourceCommitSha: '43bf36374'
-sourceContentHash: 'sha256:c38582a4b5f193c8'
-sourceBodyHash: 'sha256:e7a4bdc28a3902e5'
-translatedAt: '2026-05-23T05:06:37+08:00'
+sourceCommitSha: '3171bab8'
+sourceContentHash: 'sha256:3870280529c79170'
+sourceBodyHash: 'sha256:67baf16d4a608267'
+translatedAt: '2026-05-25T21:06:51Z'
+sporeLinks:
+  - platform: 'threads'
+    date: '2026-05-25'
+    url: 'https://www.threads.com/@taiwandotmd/post/DYwhhzFgfe0'
 ---
 
 # Paul Chiang: After Forty-Five Years Away from Taiwan, Only After Coming Home Could He Paint the Best Work of His Life
@@ -124,6 +128,9 @@ The “Centennial Temple” series grew out of that leaking empty apartment on J
 
 Like “Notre-Dame de Paris,” the images are set against a somber black ground, but within the black there is something more. Several rays of bronze-gold light emerge from the depths of the canvas. They are the colors that slowly grow on temple columns touched by countless hands, smoked by incense for hundreds of years, and lit by sunlight slanting in from a courtyard skylight[^20].
 
+![One work from Paul Chiang’s “Centennial Temple” series, 1998](/article-images/art/jiang-chien-baiNianMiao-1998.jpg)
+_One work from Paul Chiang’s “Centennial Temple” series, 1998. Source: [Paul Chiang official artist website](https://www.paulchiang.org/works) Paris Notre-Dame / Centennial Temple period portfolio. Fair use editorial commentary._
+
 In March 1997, Chiang held a solo exhibition at Eslite Gallery in Taipei. The exhibition subtitle read: “His first solo exhibition in Taiwan after thirty years away.”[^21]
 
 He had left Taiwan at twenty-five and held his first exhibition back at fifty-five. During those thirty years, his classmates in Taiwan had lost contact with him, Taiwan’s art circles did not know him, and Taiwanese audiences had never seen his paintings.
@@ -163,6 +170,12 @@ _A view of the Pacific Ocean from Provincial Highway 11 in Donghe Township, Tait
 “These are colors I had never used before. In this lifetime I had never imagined I could paint works like these.” After moving to Taitung, Chiang described the change in his painting this way[^26].
 
 After 2008, series such as “Pisirian Dreams,” “On Wings of Song,” “Jinzun,” and “Silver Lake” emerged one after another[^27]. Blue, yellow, orange, and pink began appearing in the images. The paintings began to contain sea, song, and dream[^27]. “The colors I use, the scale of the works, and the degree of freedom all came only after I moved to Taitung.”[^28]
+
+![One work from Paul Chiang’s “Pisirian Dreams” series, 2010](/article-images/art/jiang-chien-bisirian-2010.jpg)
+_One work from Paul Chiang’s “Pisirian Dreams” series, 2010. Pisirian is the old Amis name for the coast beside the Jinzun studio. Source: [Paul Chiang official artist website](https://www.paulchiang.org/works) Pisirian Dreams period portfolio. Fair use editorial commentary._
+
+![One work from Paul Chiang’s “Silver Lake” series, 2008](/article-images/art/jiang-chien-silver-lake-2008.jpg)
+_One work from Paul Chiang’s “Silver Lake” series, 2008. Source: [Paul Chiang official artist website](https://www.paulchiang.org/works) Silver Lake period portfolio. Fair use editorial commentary._
 
 His daily life became this:
 
@@ -221,6 +234,9 @@ On March 15, 2025, the Paul Chiang Art Center officially opened to the public[^4
 
 That day, Chiang was eighty-three.
 
+![Paul Chiang’s “Purification Night” installation work — a cubic structure of interwoven steel rods like thorns suspended in a darkened room, light cast from above](/article-images/art/jiang-chien-jinzun-purification-night.jpg)
+_Paul Chiang’s “Purification Night” installation work. Source: [Paul Chiang official artist website](https://www.paulchiang.org/works) Jinzun / Purification Night portfolio. Fair use editorial commentary._
+
 ## At eighty-three, what he opened was not only a window
 
 Return to that winter day in 1967: Chiang was twenty-five, two years out of Normal University, flying to Paris with reverence for Giacometti, only to discover that his idol had died the previous year.
@@ -264,13 +280,22 @@ It will be another hour before the sun climbs from behind Green Island.
 
 ## Image Sources
 
-This article uses three CC-licensed images, all cached in `public/article-images/art/` to avoid hotlinking from source servers:
+This article uses 7 licensed images, all cached in `public/article-images/art/` to avoid hotlinking from source servers:
 
-- “Clouds over beautiful blue sea at Sanxiantai on 4 February 2014” — Photo: lwtt93 (Flickr), CC BY 2.0, source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Clouds_over_beautiful_blue_sea_at_Sanxiantai_on_4_February_2014.jpg)
+**Environment / background photos (3 images, CC licensed)**:
+
+- “Clouds over beautiful blue sea at Sanxiantai on 4 February 2014” (hero) — Photo: lwtt93 (Flickr), CC BY 2.0, source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Clouds_over_beautiful_blue_sea_at_Sanxiantai_on_4_February_2014.jpg)
 - “Cathédrale Notre-Dame exterior, Paris” — Photo: Fernando Losada Rodríguez, CC BY-SA 4.0, source: [Wikimedia Commons](<https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre-Dame_(exterior).107_-_Paris.jpg>)
 - “Looking out over Beautiful Bay from the Dulan section of Provincial Highway 11” — Photo: Aa7778273, CC BY-SA 4.0, source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E8%87%AA%E5%8F%B011%E7%B7%9A%E9%83%BD%E8%98%AD%E6%AE%B5%E7%9C%BA%E6%9C%9B%E7%BE%8E%E9%BA%97%E7%81%A3.jpg)
 
-Paul Chiang’s own paintings, including the “Notre-Dame de Paris,” “Centennial Temple,” “Silver Lake,” “Pisirian Dreams,” and “Jinzun” series, are protected by the copyright of a living artist. This article does not directly reproduce images of those works. Please visit [Paul Chiang’s official artist website](https://www.paulchiang.org/), the [Paul Chiang Art Center](https://www.paulchiangartcenter.org/), and the [Taipei Fine Arts Museum](https://www.tfam.museum/Exhibition/Exhibition_page.aspx?ddlLang=zh-tw&id=665) exhibition page to view high-resolution images of the works.
+**Paul Chiang’s works (4 images, artist’s official website, fair use editorial commentary)**:
+
+- **jiang-chien-baiNianMiao-1998.jpg** (§The incense of Longshan Temple) — one work from the “Centennial Temple” series, 1998, from [Paul Chiang official artist website](https://www.paulchiang.org/works) — Fair use editorial commentary on Paul Chiang’s Centennial Temple series
+- **jiang-chien-bisirian-2010.jpg** (§Gould’s “Goldberg”) — one work from the “Pisirian Dreams” series, 2010, from [Paul Chiang official artist website](https://www.paulchiang.org/works) — Fair use editorial commentary on the Pisirian Dreams series
+- **jiang-chien-silver-lake-2008.jpg** (§Gould’s “Goldberg”) — one work from the “Silver Lake” series, 2008, from [Paul Chiang official artist website](https://www.paulchiang.org/works) — Fair use editorial commentary on the Silver Lake series
+- **jiang-chien-jinzun-purification-night.jpg** (§From one studio to an art center) — “Purification Night” installation work, from [Paul Chiang official artist website](https://www.paulchiang.org/works) — Fair use editorial commentary on the inaugural exhibition “Light, Beauty and Purification” at the Paul Chiang Art Center 2025 opening
+
+For more high-resolution works please visit [Paul Chiang’s official artist website](https://www.paulchiang.org/), the [Paul Chiang Art Center](https://www.paulchiangartcenter.org/), and the [Taipei Fine Arts Museum 2020 retrospective page](https://www.tfam.museum/Exhibition/Exhibition_page.aspx?ddlLang=zh-tw&id=665).
 
 ## References
 

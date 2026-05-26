@@ -27,10 +27,10 @@ lastVerified: '2026-05-18'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/屏東縣.md'
-sourceCommitSha: 6b59db34
-sourceContentHash: sha256:216a6d2aef7687a0
-sourceBodyHash: sha256:d15d2db9f856adb4
-translatedAt: 2026-05-25T06:36:28+08:00
+sourceCommitSha: '544200ea'
+sourceContentHash: 'sha256:807afcb0261734eb'
+sourceBodyHash: 'sha256:5eba748f96308539'
+translatedAt: '2026-05-25T21:07:07Z'+08:00
 ---
 
 # 핑둥현: 국가 운명의 전환은 이곳에서 일어났지만, 타이베이는 거의 기억하지 않았다

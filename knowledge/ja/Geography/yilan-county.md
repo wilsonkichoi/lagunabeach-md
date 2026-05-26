@@ -26,10 +26,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/宜蘭縣.md'
-sourceCommitSha: '5c000f86'
-sourceContentHash: 'sha256:0c0188ce2800d482'
-sourceBodyHash: 'sha256:4202940a98814ea7'
-translatedAt: '2026-05-24T22:21:12Z'
+sourceCommitSha: 'bcffb45b'
+sourceContentHash: 'sha256:1f27a031ba2b15bd'
+sourceBodyHash: 'sha256:1cab1d2f39c6a420'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 宜蘭県：二度、自らの運命を選び、蘭陽平原はそれ以来後戻りしませんでした

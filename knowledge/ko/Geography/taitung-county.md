@@ -26,10 +26,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/台東縣.md'
-sourceCommitSha: 6b59db34
-sourceContentHash: sha256:b619f644b3aecab2
-sourceBodyHash: sha256:5297b3ed0a4fdf7d
-translatedAt: 2026-05-25T06:36:28+08:00
+sourceCommitSha: 'bcffb45b'
+sourceContentHash: 'sha256:09d74741a8b046c2'
+sourceBodyHash: 'sha256:822633727580b0f7'
+translatedAt: '2026-05-25T21:07:07Z'+08:00
 ---
 
 # 타이둥현: 두 외딴섬, 하나는 36년 동안 정치범을 가두었고, 하나는 42년 동안 핵폐기물을 저장했다

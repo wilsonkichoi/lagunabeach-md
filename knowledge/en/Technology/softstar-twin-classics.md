@@ -21,10 +21,10 @@ lastVerified: 2026-04-23
 featured: false
 lastHumanReview: false
 translatedFrom: 'Technology/大宇雙劍.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:d2025a3d031961b0'
-sourceBodyHash: 'sha256:fef7cbce1c58df11'
-translatedAt: '2026-05-01T08:56:11+08:00'
+sourceCommitSha: '03e04642'
+sourceContentHash: 'sha256:55f0fa48e3d73312'
+sourceBodyHash: 'sha256:5c70d0e1a87b0e81'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 > In 1990, a group of college students hunted for technical manuals at Guanghua Market, shared a single computer, and produced the first Chinese-language martial arts RPG — _Xuan-Yuan Sword_. Five years later, a 26-year-old poured a broken heart into the ending of _The Legend of Sword and Fairy_, selling 10,000 copies on its first day. These two games were eventually called "Softstar's Twin Classics" — spanning thirty years, spawning TV dramas and films, with cumulative sales exceeding one million copies. In September 2024, Softstar sold both IPs for NT$500 million. But for an entire generation of players, that afternoon sitting in front of a DOS window and crying for the first time — that can't be sold.
@@ -68,7 +68,7 @@ First-day sales: 10,000 copies, sold out. Cumulative sales across all versions: 
 
 Both Sword and Fairy and Xuan-Yuan Sword were forged at Softstar, but they took completely different roads.
 
-**Xuan-Yuan Sword took the historical route.** Tsai Ming-hong's DOMO Group wove Chinese mythology and real history together. The 1999 entry _Xuan-Yuan Sword III: Rift of the Sky_ moved the story to the Silk Road between the Tang Dynasty and Europe, sending players to control a Tang-dynasty youth traversing the Arab Empire all the way to the Frankish Kingdom. The 2000 spinoff _Scar of Sky_, set at the collapse of the Sui Dynasty and dawn of the Tang, became the highest-rated entry in the series.[^9]
+**Xuan-Yuan Sword took the historical route.** Tsai Ming-hong's DOMO Group wove Chinese mythology and real history together. The 1999 entry _Xuan-Yuan Sword III: Rift of the Sky_ moved the story to the Silk Road between the Tang Dynasty and Europe, sending players to control the young swordsman Seet from the Frankish Kingdom eastward across the Arab Empire all the way to the Tang Dynasty — the vantage point looks toward China from Europe, not the reverse. The 2000 spinoff _Scar of Sky_, set at the collapse of the Sui Dynasty and dawn of the Tang, became the highest-rated entry in the series.[^9]
 
 Xuan-Yuan Sword's most distinctive design was the "Demon Forging Cauldron." Beginning with _Xuan-Yuan Sword II_, players could capture defeated demons in a cauldron and refine them into items or new companions. The mechanism was rooted in the worldview of _Investiture of the Gods_ and _Classic of Mountains and Seas_, embedding cultural foundations directly into game systems. In an era before Japanese RPGs had developed the concept of "capturing monsters" (predating Pokémon), the Cauldron was genuinely original.[^10]
 
@@ -162,7 +162,7 @@ That computer is long gone. That DOS window has been closed for thirty years. Bu
 
 [^8]: [TechBang: 20 Years of Sword and Fairy — How Does Its Creator Yao Zhuangxian Evaluate This Past?](https://www.techbang.com/posts/24345-xian-jianqi-20-years-the-father-of-the-fairy-sword-yao-zhuangxian-how-to-evaluate-this-past) — 10,000 first-day copies; cumulative million-plus sales; six consecutive years in top three
 
-[^9]: [Wikipedia: Xuan-Yuan Sword III — Rift of the Sky](https://zh.wikipedia.org/zh-tw/%E8%BB%92%E8%BD%85%E5%8A%8D%E5%8F%83_%E9%9B%B2%E5%92%8C%E5%B1%B1%E7%9A%84%E5%BD%BC%E7%AB%AF) — Published 1999; Tang Dynasty to Frankish Kingdom story
+[^9]: [Wikipedia: Xuan-Yuan Sword III — Rift of the Sky](https://zh.wikipedia.org/zh-tw/%E8%BB%92%E8%BD%85%E5%8A%8D%E5%8F%83_%E9%9B%B2%E5%92%8C%E5%B1%B1%E7%9A%84%E5%BD%BC%E7%AB%AF) — Published 1999; protagonist Seet sets out from Venice, crosses the Eurasian continent eastward seeking the Tang Dynasty beyond the clouds and mountains
 
 [^10]: [Xuan-Yuan Sword Wiki: Demon Forging Cauldron](https://wikisword.fandom.com/wiki/%E7%85%89%E5%A6%96%E5%A3%BA) — Cauldron system introduced in Xuan-Yuan Sword II
 

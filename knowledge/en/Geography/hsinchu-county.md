@@ -26,10 +26,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/新竹縣.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:fa054948c89094ee'
-sourceBodyHash: 'sha256:656ad4d27e1e5902'
-translatedAt: '2026-05-24T22:33:51Z'
+sourceCommitSha: 'bcffb45b'
+sourceContentHash: 'sha256:d364dc7cecbd8556'
+sourceBodyHash: 'sha256:1609d19d6b7ce06f'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # Hsinchu County: A 235-Year Yimin Faith and Taiwan’s Highest Per Capita Income Along the Same Touqian River

@@ -19,10 +19,10 @@ readingTime: 14
 lastVerified: 2026-04-08
 lastHumanReview: false
 translatedFrom: 'Society/台灣公共衛生與防疫體系.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:58f409f32e8328d7'
-sourceBodyHash: 'sha256:a899b39b8261de58'
-translatedAt: '2026-05-01T13:44:02+08:00'
+sourceCommitSha: '9a60e8fd'
+sourceContentHash: 'sha256:d6bb10bad61ec15f'
+sourceBodyHash: 'sha256:4f3aba8b24585b02'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 > **30-second overview:** In 2003, SARS killed 73 people in Taiwan, and the Hoping Hospital lockdown became a collective trauma in public health history. Taiwan subsequently rebuilt its entire epidemic response system: the Taiwan CDC was elevated in status, the Central Epidemic Command Center (CECC) mechanism was codified in law, and infection control procedures were comprehensively revised. When COVID-19 spread globally in 2020, Taiwan maintained near-zero community transmission for the first 18 months — hailed by the international community as "the Taiwan Model." In April 2026, Taiwan's first domestic human case of H7N7 avian influenza was confirmed — the epidemic response system was tested once again.
@@ -94,6 +94,7 @@ Twenty-three years after the Hoping Hospital lockdown, that building still stand
 - [Taiwan Healthcare and National Health Insurance](/lifestyle/台灣醫療與全民健保) — The foundational infrastructure of the epidemic response system: the NHI database of 23.4 million people
 - [Audrey Tang](/people/唐鳳) — The digital minister behind the mask map
 - [Taiwan's Disaster Medicine System](/technology/台灣災難醫療體系) — From 921 to SARS: how disasters have driven medical evolution
+- [Regenerative Medicine Dual Laws × 30 Years of mRNA](/society/台灣再生醫療雙法沿革從業人員告白) — The dual narrative of the 2021 BNT procurement and cell therapy legislation; an extended perspective on this article's COVID epidemic response
 
 ## References
 

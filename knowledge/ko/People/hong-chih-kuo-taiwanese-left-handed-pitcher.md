@@ -15,10 +15,10 @@ readingTime: 7
 #   whats_excluded: "각 수술의 의료 세부 사항; 귀국 후 각 팀 경력의 연도별 기록; 개인 자산 및 연봉"
 #   where_it_hedges: "다저스 계약 정확 연도 (일부 자료는 2001년, 다른 설도 있음); 중화직구 드래프트 연도 세부 사항"
 translatedFrom: People/郭泓志.md
-sourceCommitSha: 5c000f86
-sourceContentHash: sha256:b5f26a379a2884ba
-sourceBodyHash: sha256:5be39826050da8b3
-translatedAt: 2026-05-25T06:21:00+08:00
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:e02695ed5dc8f6ea'
+sourceBodyHash: 'sha256:adcefdbac44146e6'
+translatedAt: '2026-05-25T21:07:07Z'+08:00
 ---
 
 # 홍치궈(곽홍지): 타이완 최초 MLB 홈런과 올스타전, 팔꿈치가 말렸지만 그는 계속 던졌다

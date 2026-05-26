@@ -20,10 +20,10 @@ category: 'Society'
 lastVerified: 2026-03-20
 lastHumanReview: false
 translatedFrom: 'Society/台灣環境正義與鄰避爭議.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:8d7b73d5dcd91cdf'
-sourceBodyHash: 'sha256:102f748afe8c1589'
-translatedAt: '2026-05-03T23:14:07+08:00'
+sourceCommitSha: '1d54cbe5'
+sourceContentHash: 'sha256:14488432802fabfe'
+sourceBodyHash: 'sha256:eeb9b885e5063119'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 # Justicia ambiental y conflictos NIMBY en Taiwán
@@ -225,6 +225,7 @@ Las decisiones ambientales en una democracia deben basarse en información sufic
 - [鐵皮屋](/society/鐵皮屋) — La demolición de Wenzizhun es un caso emblemático de justicia ambiental: contaminación, desmantelamiento y dificultades de reasentamiento de un asentamiento industrial de 400 hectáreas con estructuras de chapa metálica
 - [社會住宅與居住正義](/society/社會住宅與居住正義) — La dimensión política de la problemática de la vivienda: oferta de vivienda social y reforma del mercado de alquiler
 - [盧秀燕](/people/盧秀燕) — La política que ganó Taichung en 2018 con la agenda ambiental: la central térica de Taichung, PM2.5 y el campo de batalla concreto de la transición energética
+- [Crisis climática de Taiwán y transición neta cero](/nature/台灣氣候危機與淨零轉型) — 97.672 barriles en Lanyu, referéndum de Maanshan 2025, Datan y el arrecife de algas, brecha de 27 veces en geotermia: la fractura de justicia ambiental correspondiente a cada vía de transición energética
 
 ## Referencias
 

@@ -17,10 +17,10 @@ readingTime: 8
 featured: false
 lastVerified: 2026-03-21
 translatedFrom: 'Economy/台灣企業：日月光半導體.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:cb7042e73cb2cef2'
-sourceBodyHash: 'sha256:ab22377f8d58d529'
-translatedAt: '2026-04-14T19:20:58+08:00'
+sourceCommitSha: 'b900f18d'
+sourceContentHash: 'sha256:275d7b3ee56db82a'
+sourceBodyHash: 'sha256:58739438cbba3247'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 > **En 30 secondes :** En 1984, une mère et ses deux fils — issus de l'immobilier — ont fait le pari fou de se lancer dans l'assemblage de semi-conducteurs. Quarante ans plus tard, ASE Technology est le premier assembleur-testeur mondial, avec un chiffre d'affaires de 10,1 milliards de dollars en 2024 et une part de marché proche de 45 %. Chaque iPhone, chaque ordinateur portable que vous utilisez passe probablement par leurs mains. ASE, c'est l'entreprise qui « habille » les puces et leur fait passer leur examen médical — un champion invisible, mais indispensable.
@@ -168,6 +168,12 @@ De l'investissement familial de 1984, porté par Constance Chang et ses deux fil
 À l'heure où tout le monde parle de conception et de fabrication de puces, ASE nous rappelle que chaque maillon de la chaîne a sa valeur. Être le meilleur dans un seul domaine, au niveau mondial — c'est ça, un champion invisible qu'on ne peut pas remplacer.
 
 ---
+
+**Lectures complémentaires** :
+
+- [Entreprises taïwanaises : TSMC](/economy/台灣企業：台積電) — la relation symbiotique entre la « montagne sacrée » et les fonderies de packaging en aval
+- [Entreprises taïwanaises : MediaTek](/economy/台灣企業：聯發科技) — le leader taïwanais du design de puces, qui, comme ASE, appartient à l'écosystème complet de la chaîne d'approvisionnement
+- [Industrie des semi-conducteurs](/technology/半導體產業) — de la technologie RCA au packaging avancé CoWoS, 50 ans de science des matériaux, et la place d'ASE dans le packaging traditionnel
 
 ## Références
 

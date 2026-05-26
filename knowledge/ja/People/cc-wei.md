@@ -11,10 +11,10 @@ lastVerified: '2026-05-08'
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/魏哲家.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:cc1afc3c953cb505'
-sourceBodyHash: 'sha256:5f21a55ce4bf4649'
-translatedAt: '2026-05-24T22:39:00Z'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:3d7fccce1bbb6e47'
+sourceBodyHash: 'sha256:501cc28a481912c5'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 魏哲家：1953年、交大電子からイェール博士から台湾積体電路製造（TSMC）董事長兼社長へ

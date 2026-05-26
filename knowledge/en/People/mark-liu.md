@@ -13,10 +13,10 @@ lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
 translatedFrom: People/劉德音.md
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:d8af6167c7effd7e'
-sourceBodyHash: 'sha256:b67507e9dc3bc1b6'
-translatedAt: '2026-05-24T22:33:51Z'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:5e90feeafc19360c'
+sourceBodyHash: 'sha256:81e4bcfc4e50e127'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # Mark Liu: The Berkeley PhD Who Succeeded Morris Chang — Six Years of Decision-Making in the US-China Chip Crossfire

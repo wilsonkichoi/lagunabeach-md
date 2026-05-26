@@ -7,10 +7,10 @@ author: 'Taiwan.md Contributors'
 readingTime: 10
 featured: true
 translatedFrom: 'About/看見台灣引言集.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:53f055ce6b8e65e1'
-sourceBodyHash: 'sha256:0307d09015530aa4'
-translatedAt: '2026-05-24T22:33:51Z'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:4cbaa3c9a8d422dd'
+sourceBodyHash: 'sha256:0d8842cfba541dc2'
+translatedAt: '2026-05-25T21:06:51Z'
 category: About
 lastVerified: 2026-03-19
 lastHumanReview: true

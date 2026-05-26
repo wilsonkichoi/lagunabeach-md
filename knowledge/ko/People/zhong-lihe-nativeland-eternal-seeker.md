@@ -21,10 +21,10 @@ readingTime: 7
 #   whats_excluded: "每部小說的逐章情節分析；美濃公學校學籍記錄；東北生活細節"
 #   where_it_hedges: "「台灣鄉土文學之父」稱號有爭議（賴和才是公認的台灣新文學之父）；《原鄉人》為短篇（非長篇），1959年寫成；已修正開頭「45年」幻覺為44歲"
 translatedFrom: People/鍾理和.md
-sourceCommitSha: 5c000f86
-sourceContentHash: sha256:336b96e510e804d3
-sourceBodyHash: sha256:55e5e9ef72471788
-translatedAt: 2026-05-25T06:21:00+08:00
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:cddbfe1c856d1966'
+sourceBodyHash: 'sha256:59814996cd0ea2c6'
+translatedAt: '2026-05-25T21:07:07Z'+08:00
 ---
 
 # 종리화: 미농 1915, 피바다에 쓰러진 필경자

@@ -24,10 +24,10 @@ lastVerified: 2026-05-17
 lastHumanReview: false
 featured: false
 translatedFrom: Geography/基隆市.md
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:673f62bd1a5ba779'
-sourceBodyHash: 'sha256:a30defd17f34989f'
-translatedAt: '2026-05-24T22:33:51Z'
+sourceCommitSha: '544200ea'
+sourceContentHash: 'sha256:681e1686934c97b4'
+sourceBodyHash: 'sha256:980f24f74f02d9c0'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # Keelung City: The Port Closest to Taipei, the One Taipei Sees Least

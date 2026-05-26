@@ -15,10 +15,10 @@ readingTime: 7
 #   whats_excluded: "각 앨범의 전체 곡 목록; 상업 광고 목록; 각 콘서트 회차 상세 내역"
 #   where_it_hedges: "장우생 발굴 세부 사항: 각 측의 설명에 약간의 차이가 있으며, 위키피디아를 기준으로 함; 2023년 베이징 무지개 깃발 논란은 별도 기록"
 translatedFrom: People/張惠妹.md
-sourceCommitSha: 6b59db34
-sourceContentHash: sha256:ccb03edca388c7b1
-sourceBodyHash: sha256:bd4e3f38e6cd61a0
-translatedAt: 2026-05-25T06:36:28+08:00
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:aebfe56ef8181ee0'
+sourceBodyHash: 'sha256:2548692a01191648'
+translatedAt: '2026-05-25T21:07:07Z'+08:00
 ---
 
 # 장혜미: 베이난족의 여왕, 1996년 《자매》에서 2024년 타이베이 돔 5회 공연까지

@@ -1,20 +1,29 @@
 ---
 title: 'Desarrollo de la inteligencia artificial en Taiwán y estrategia futura: ya obtuvo el boleto de entrada del hardware, ¿dónde será la próxima batalla?'
-description: "El 8 de octubre de 2024, el Nobel de Física fue otorgado a Hopfield y Hinton; al día siguiente, el de Química fue para las tres personas detrás de AlphaFold. El 29 de mayo de ese mismo año, Jensen Huang comió omelet de ostras con Morris Chang en el mercado nocturno de Ningxia, en Taipéi. Taiwán fabrica el 90% de los servidores de IA del mundo y el 72% de las obleas avanzadas, pero estuvo ausente en las respuestas a 42 años de redes neuronales y a 50 años del problema del plegamiento de proteínas. Desde Taiwan AI Labs, de Ethan Tu, fundador de PTT, hasta TAIDE, el modelo LLM en chino tradicional por el que apuesta el Consejo Nacional de Ciencia y Tecnología, ¿le basta a esta isla con ser solo una fábrica de manufactura por encargo?"
+description: 'El 8 de octubre de 2024, el Nobel de Física fue otorgado a Hopfield y Hinton; al día siguiente, el de Química fue para las tres personas detrás de AlphaFold. El 29 de mayo de ese mismo año, Jensen Huang comió omelet de ostras con Morris Chang en el mercado nocturno de Ningxia, en Taipéi. Taiwán fabrica el 90% de los servidores de IA del mundo y el 72% de las obleas avanzadas, pero estuvo ausente en las respuestas a 42 años de redes neuronales y a 50 años del problema del plegamiento de proteínas. Desde Taiwan AI Labs, de Ethan Tu, fundador de PTT, hasta TAIDE, el modelo LLM en chino tradicional por el que apuesta el Consejo Nacional de Ciencia y Tecnología, ¿le basta a esta isla con ser solo una fábrica de manufactura por encargo?'
 date: 2026-03-19
 author: 'Taiwan.md 編輯組'
 category: 'Technology'
 subcategory: '人工智慧'
-tags: ['inteligencia artificial', 'IA', 'semiconductores', 'política tecnológica', 'transformación digital', 'Premio Nobel', 'AlphaFold']
+tags:
+  [
+    'inteligencia artificial',
+    'IA',
+    'semiconductores',
+    'política tecnológica',
+    'transformación digital',
+    'Premio Nobel',
+    'AlphaFold',
+  ]
 readingTime: 18
 lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/台灣人工智慧發展與未來策略.md'
-sourceCommitSha: 'dbb8d44cb'
-sourceContentHash: 'sha256:d0717d19a9d18832'
-sourceBodyHash: 'sha256:67e662f4e2d49494'
-translatedAt: '2026-05-20T05:08:32+08:00'
+sourceCommitSha: '89026b10'
+sourceContentHash: 'sha256:d7e4d2422c367c4b'
+sourceBodyHash: 'sha256:5c4408b02aa462ff'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 # Desarrollo de la inteligencia artificial en Taiwán y estrategia futura: ya obtuvo el boleto de entrada del hardware, ¿dónde será la próxima batalla?
@@ -33,12 +42,12 @@ Al día siguiente, el 9 de octubre, llegó el Nobel de Química. Los tres laurea
 
 Dos días, dos premios Nobel, todos relacionados con la IA. No había precedente de algo así en la historia de los Nobel.
 
-Comparemos la línea de tiempo: cuando Hopfield publicó en 1982 en *Proceedings of the National Academy of Sciences* (PNAS) su artículo “Neural networks and physical systems with emergent collective computational abilities”, acababa de pasar de la física de la materia condensada a la neurociencia[^N3]. De 1982 a 2024 transcurrieron exactamente 42 años. El artículo de 1986 en el que Hinton y Rumelhart convirtieron el algoritmo de retropropagación en una herramienta utilizable[^N4] tardó 38 años desde su publicación hasta el Nobel. AlphaFold, desde su primera aparición en CASP13 en 2018 hasta obtener el Nobel en 2024, necesitó apenas 6 años.
+Comparemos la línea de tiempo: cuando Hopfield publicó en 1982 en _Proceedings of the National Academy of Sciences_ (PNAS) su artículo “Neural networks and physical systems with emergent collective computational abilities”, acababa de pasar de la física de la materia condensada a la neurociencia[^N3]. De 1982 a 2024 transcurrieron exactamente 42 años. El artículo de 1986 en el que Hinton y Rumelhart convirtieron el algoritmo de retropropagación en una herramienta utilizable[^N4] tardó 38 años desde su publicación hasta el Nobel. AlphaFold, desde su primera aparición en CASP13 en 2018 hasta obtener el Nobel en 2024, necesitó apenas 6 años.
 
 En el fondo, esos dos Nobel no premiaron a ChatGPT, sino a unos artículos de hace tres o cuatro décadas que casi nadie entendía. La brecha temporal entre la investigación básica y la aplicación industrial siempre ha sido así.
 
 ![Retrato oficial de Geoffrey E. Hinton entrevistado durante la semana Nobel en Estocolmo el 8 de diciembre de 2024, con traje oscuro, cabello blanco y expresión serena frente a la cámara](/article-images/technology/hinton-nobel-2024.jpg)
-_Geoffrey Hinton, laureado con el Premio Nobel de Física 2024, durante la semana Nobel en Estocolmo. Photo: Arthur Petron, 2024-12-08. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_(3x4_cropped).jpg)._
+_Geoffrey Hinton, laureado con el Premio Nobel de Física 2024, durante la semana Nobel en Estocolmo. Photo: Arthur Petron, 2024-12-08. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_(3x4*cropped).jpg).*
 
 ---
 
@@ -79,11 +88,11 @@ La pregunta es: una vez conseguido el boleto de entrada del hardware, ¿dónde s
 
 ## Hopfield 1982: el modelo de memoria escrito por un físico
 
-En 1982, John Hopfield, físico de materia condensada en Princeton, escribió un artículo de apenas 12 páginas con un título largo: “Neural networks and physical systems with emergent collective computational abilities”, publicado en *Proceedings of the National Academy of Sciences*[^N3].
+En 1982, John Hopfield, físico de materia condensada en Princeton, escribió un artículo de apenas 12 páginas con un título largo: “Neural networks and physical systems with emergent collective computational abilities”, publicado en _Proceedings of the National Academy of Sciences_[^N3].
 
 Lo que hizo fue, en esencia, traducir la “memoria” al lenguaje de la física.
 
-En física existe algo llamado *spin glass* o vidrio de espín: un conjunto de átomos magnéticos, cada uno con su propia dirección de espín, interactúa entre sí, y el sistema completo encuentra espontáneamente un punto de energía mínima. Hopfield trasladó ese concepto a las neuronas: imaginó las neuronas como espines, las intensidades de conexión como interacciones, y la red completa convergiendo espontáneamente hacia un estado estable de “mínimo de energía”[^N3]. Cada mínimo de energía corresponde a un recuerdo almacenado.
+En física existe algo llamado _spin glass_ o vidrio de espín: un conjunto de átomos magnéticos, cada uno con su propia dirección de espín, interactúa entre sí, y el sistema completo encuentra espontáneamente un punto de energía mínima. Hopfield trasladó ese concepto a las neuronas: imaginó las neuronas como espines, las intensidades de conexión como interacciones, y la red completa convergiendo espontáneamente hacia un estado estable de “mínimo de energía”[^N3]. Cada mínimo de energía corresponde a un recuerdo almacenado.
 
 La elegancia del modelo está en que convirtió la memoria en algo describible con el lenguaje de la física. Dada una pista incompleta, la red encuentra por sí misma el punto de energía mínima más cercano y completa el recuerdo. Ese es el antepasado matemático de lo que hoy hace la IA generativa.
 
@@ -94,7 +103,7 @@ Más interesante aún es algo que Hopfield dijo después. Pasó su vida en Princ
 La persona que escribió parte de la base matemática de toda la IA moderna aprovechó el día en que recibió el premio para pedir cautela.
 
 ![Retrato de John J. Hopfield entrevistado durante la semana Nobel en Estocolmo el 8 de diciembre de 2024, con traje oscuro, cabello blanco y expresión serena](/article-images/technology/hopfield-nobel-2024.jpg)
-_John J. Hopfield, laureado con el Premio Nobel de Física 2024, durante la semana Nobel en Estocolmo. Photo: Arthur Petron, 2024-12-08. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:John_J._Hopfield,_2024_Nobel_Prize_Laureate_in_Physics_1_(cropped).jpg)._
+_John J. Hopfield, laureado con el Premio Nobel de Física 2024, durante la semana Nobel en Estocolmo. Photo: Arthur Petron, 2024-12-08. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:John_J._Hopfield,_2024_Nobel_Prize_Laureate_in_Physics_1_(cropped).jpg).\_
 
 ---
 
@@ -102,19 +111,27 @@ _John J. Hopfield, laureado con el Premio Nobel de Física 2024, durante la sema
 
 Geoffrey Hinton, nacido en Wimbledon, Londres, en 1947, es otra figura a la que la historia tardó 38 años en reconocer[^N8].
 
-En 1986, Hinton publicó junto con David Rumelhart y Ronald Williams un artículo en *Nature* sobre la retropropagación[^N4]. El algoritmo significa lo siguiente: cuando una red neuronal comete un error, la señal de error puede propagarse en sentido inverso por cada capa para ajustar, capa por capa, los pesos de conexión. Así es como todos los modelos de aprendizaje profundo actuales se entrenan a sí mismos.
+En 1986, Hinton publicó junto con David Rumelhart y Ronald Williams un artículo en _Nature_ sobre la retropropagación[^N4]. El algoritmo significa lo siguiente: cuando una red neuronal comete un error, la señal de error puede propagarse en sentido inverso por cada capa para ajustar, capa por capa, los pesos de conexión. Así es como todos los modelos de aprendizaje profundo actuales se entrenan a sí mismos.
 
 El algoritmo fue escrito en 1986, pero necesitó que coincidieran tres cosas para explotar: cómputo suficientemente barato, datos suficientemente abundantes y personas dispuestas a creer en ese camino. Las dos primeras estuvieron listas a comienzos de la década de 2010; la tercera estuvo representada por Hinton y sus dos estudiantes, Alex Krizhevsky e Ilya Sutskever. En 2012, entrenaron con GPU la red neuronal convolucional AlexNet y lograron en la competencia de reconocimiento de imágenes ImageNet una tasa de error top-5 de 15,3%, muy por debajo del 26,2% del segundo lugar[^N5]. En ese momento, toda la industria empezó a creer que la retropropagación realmente funcionaba.
 
 En marzo de 2013, Google compró por 44 millones de dólares la pequeña empresa de Hinton, DNNresearch, e incorporó al investigador, entonces de 65 años[^N8]. Durante la década siguiente, fue el académico de IA más prestigioso de Silicon Valley.
 
-Luego, el 1 de mayo de 2023, *The New York Times* publicó una entrevista: Hinton había dejado Google.
+Luego, el 1 de mayo de 2023, _The New York Times_ publicó una entrevista: Hinton había dejado Google.
 
 El motivo de su salida no fue la jubilación. En la entrevista dijo que quería “poder hablar libremente sobre los riesgos de la IA sin tener que considerar cómo afectaría eso a Google”[^N9]. Sus advertencias incluían la posibilidad de que los sistemas de IA fueran pronto más inteligentes que los humanos, que actores maliciosos los usaran para hacer daño, y que fuera “difícil ver cómo impedirlo”[^N9]. Incluso dijo que una parte de él lamentaba el trabajo de toda su vida[^N9].
 
 Cuando el Nobel de Física de 2024 le fue otorgado, repitió en la entrevista telefónica la advertencia: había que tener cuidado con la posibilidad de que la IA se saliera de control[^N10].
 
 La persona que formuló el algoritmo de entrenamiento del aprendizaje profundo y la persona que formuló el modelo de memoria subieron el mismo día de octubre de 2024 al escenario de la Real Academia Sueca de Ciencias, y ambas advirtieron que aquello podía ser más peligroso de lo imaginado. La escena dialoga, de algún modo, con la expresión de Oppenheimer al ver elevarse la nube en forma de hongo en el desierto de Nuevo México en 1945.
+
+Dos meses después, el 8 de diciembre de 2024, Hinton pronunció su conferencia de aceptación del Premio Nobel en el Aula Magna de la Universidad de Estocolmo. El título era «Boltzmann Machines»: el trabajo fundacional de la línea de Hopfield y Hinton que incorporó distribuciones probabilísticas termodinámicas a las redes neuronales. Después de escucharla, quedó claro que el artículo de backpropagation de 1986 no fue un hallazgo aislado, sino todo un sistema de pensamiento que surgió en los años ochenta en la intersección entre la física y la ciencia cognitiva.
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/iCS1ds0UDP8" title="Boltzmann Machines — Nobel Prize lecture by Geoffrey Hinton, Nobel Prize in Physics 2024" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Canal oficial de la Real Academia Sueca de Ciencias: conferencia de aceptación del Premio Nobel de Física de Geoffrey Hinton del 8 de diciembre de 2024, «Boltzmann Machines». Desde las Boltzmann machines que él y Sejnowski escribieron en los años ochenta, pasando por backpropagation, hasta los LLM de hoy: cuarenta años enteros. En los últimos 5 minutos volvió a exponer sus preocupaciones sobre el riesgo de la IA, esta vez desde el podio del Nobel._
 
 ---
 
@@ -150,9 +167,9 @@ Un problema que llevaba 50 años sin resolverse fue despejado en seis años por 
 
 Luego todo avanzó todavía más rápido. En julio de 2021, se publicó como código abierto AlphaFold 2; ese mismo año, DeepMind colaboró con el Laboratorio Europeo de Biología Molecular (EMBL-EBI) para convertir las estructuras proteicas predichas por AlphaFold en una base de datos pública. En julio de 2022, esa base cubría un millón de especies y alrededor de 200 millones de estructuras proteicas, lo que equivale a liberar gratis modelos 3D de casi todas las proteínas conocidas del planeta[^N14].
 
-El 8 de mayo de 2024, DeepMind publicó AlphaFold 3 en *Nature*, ampliando su capacidad predictiva desde proteínas individuales hasta interacciones entre proteínas y ADN, ARN, ligandos e iones[^N15]. Desde el desarrollo de nuevos fármacos y el diseño de vacunas hasta la ingeniería enzimática, todos los campos que necesitan saber cómo encajan entre sí las moléculas vieron reescrita su base por esta herramienta.
+El 8 de mayo de 2024, DeepMind publicó AlphaFold 3 en _Nature_, ampliando su capacidad predictiva desde proteínas individuales hasta interacciones entre proteínas y ADN, ARN, ligandos e iones[^N15]. Desde el desarrollo de nuevos fármacos y el diseño de vacunas hasta la ingeniería enzimática, todos los campos que necesitan saber cómo encajan entre sí las moléculas vieron reescrita su base por esta herramienta.
 
-Demis Hassabis, quien creó AlphaFold, no es un bioquímico tradicional. Empezó a jugar ajedrez a los cuatro años y obtuvo el título de maestro a los trece; a los diecisiete desarrolló junto con Peter Molyneux el videojuego de simulación *Theme Park*, que vendió millones de copias[^N16]. En 2010 fundó DeepMind en Londres junto con Shane Legg y Mustafa Suleyman; en 2014, Google la adquirió por 400 millones de libras[^N16]. En 2016, AlphaGo de DeepMind derrotó a Lee Sedol; en 2020 llegó AlphaFold 2; en 2024, el Nobel. Las tres cosas ocurrieron en menos de diez años.
+Demis Hassabis, quien creó AlphaFold, no es un bioquímico tradicional. Empezó a jugar ajedrez a los cuatro años y obtuvo el título de maestro a los trece; a los diecisiete desarrolló junto con Peter Molyneux el videojuego de simulación _Theme Park_, que vendió millones de copias[^N16]. En 2010 fundó DeepMind en Londres junto con Shane Legg y Mustafa Suleyman; en 2014, Google la adquirió por 400 millones de libras[^N16]. En 2016, AlphaGo de DeepMind derrotó a Lee Sedol; en 2020 llegó AlphaFold 2; en 2024, el Nobel. Las tres cosas ocurrieron en menos de diez años.
 
 La línea que las une es una misma apuesta: usar redes neuronales para resolver problemas que la mente humana no había podido resolver. El go es un sistema de reglas cerrado; el plegamiento de proteínas es abierto, pero con fuertes restricciones físicas. Hassabis eligió correctamente ambos campos de batalla.
 
@@ -170,7 +187,7 @@ En abril de 2023, medio año después de que ChatGPT arrasara globalmente, el Co
 
 ¿Por qué un país insular de 23 millones de habitantes necesita crear su propio gran modelo de lenguaje?
 
-La razón no es solo la autonomía tecnológica. El chino tradicional ocupa una proporción extremadamente baja en los datos globales de entrenamiento de IA, y la mayor parte de los datos en chino proviene de sitios web en chino simplificado. Cuando las personas en Taiwán usan ChatGPT u otros modelos, las respuestas suelen incorporar hábitos lingüísticos y supuestos de perspectiva de China continental. “視頻” en lugar de “影片”, “質量” en lugar de “品質”: diferencias que parecen menores, pero detrás de ellas está el problema de la subjetividad cultural. *CommonWealth Magazine* tituló directamente su reportaje sobre TAIDE como una forma de “evitar la invasión cultural de la IA china”[^14].
+La razón no es solo la autonomía tecnológica. El chino tradicional ocupa una proporción extremadamente baja en los datos globales de entrenamiento de IA, y la mayor parte de los datos en chino proviene de sitios web en chino simplificado. Cuando las personas en Taiwán usan ChatGPT u otros modelos, las respuestas suelen incorporar hábitos lingüísticos y supuestos de perspectiva de China continental. “視頻” en lugar de “影片”, “質量” en lugar de “品質”: diferencias que parecen menores, pero detrás de ellas está el problema de la subjetividad cultural. _CommonWealth Magazine_ tituló directamente su reportaje sobre TAIDE como una forma de “evitar la invasión cultural de la IA china”[^14].
 
 En abril de 2024, el equipo de TAIDE publicó TAIDE-LX-7B para uso comercial y TAIDE-LX-13B para investigación académica, con buenos resultados en tareas de redacción, traducción y resumen[^15]. Para 2026, con el lanzamiento de TAIDE 2.0 y el modelo Breeze-8B respaldado por MediaTek, el ecosistema taiwanés de LLM pasó de la etapa de “ponerse al día” a la de “ser utilizable”[^16].
 
@@ -253,8 +270,8 @@ Aquella cena en el mercado nocturno de Ningxia fue el lugar que Taiwán acumuló
 Este artículo usa 4 imágenes de dominio público / con licencias CC, todas almacenadas en caché en `public/article-images/technology/` para evitar enlaces directos a los servidores de origen:
 
 - [Estructura tridimensional de la proteïna CBLN1 per AlphaFold amb codificació rainbow](https://commons.wikimedia.org/wiki/File:Estructura_tridimensional_de_la_prote%C3%AFna_CBLN1_per_AlphaFold_amb_codificaci%C3%B3_rainbow.png) — hero, estructura predicha por AlphaFold de la proteína CBLN1, codificación cromática rainbow del extremo N al C. Photo: BQUB25-UPoch (own work, AlphaFold + PyMOL), 2025-11-15, CC BY 4.0.
-- [Geoffrey E. Hinton, 2024 Nobel Prize Laureate in Physics (3x4 cropped)](https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_(3x4_cropped).jpg) — inline, retrato oficial de Hinton durante la semana Nobel 2024. Photo: Arthur Petron, 2024-12-08, CC BY-SA 4.0.
-- [John J. Hopfield, 2024 Nobel Prize Laureate in Physics 1 (cropped)](https://commons.wikimedia.org/wiki/File:John_J._Hopfield,_2024_Nobel_Prize_Laureate_in_Physics_1_(cropped).jpg) — inline, retrato oficial de Hopfield durante la semana Nobel 2024. Photo: Arthur Petron, 2024-12-08, CC BY-SA 4.0.
+- [Geoffrey E. Hinton, 2024 Nobel Prize Laureate in Physics (3x4 cropped)](<https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_(3x4_cropped).jpg>) — inline, retrato oficial de Hinton durante la semana Nobel 2024. Photo: Arthur Petron, 2024-12-08, CC BY-SA 4.0.
+- [John J. Hopfield, 2024 Nobel Prize Laureate in Physics 1 (cropped)](<https://commons.wikimedia.org/wiki/File:John_J._Hopfield,_2024_Nobel_Prize_Laureate_in_Physics_1_(cropped).jpg>) — inline, retrato oficial de Hopfield durante la semana Nobel 2024. Photo: Arthur Petron, 2024-12-08, CC BY-SA 4.0.
 - [TSMC Fab 5](https://commons.wikimedia.org/wiki/File:TSMC_Fab_5.jpg) — inline, planta Fab 5 de TSMC en Hsinchu, sitio físico de la fundición de chips de IA. Photo: Wikimedia Commons (existing cache).
 
 ---
@@ -319,7 +336,7 @@ Este artículo usa 4 imágenes de dominio público / con licencias CC, todas alm
 
 [^N9]: [BBC News: AI 'godfather' Geoffrey Hinton warns of dangers as he quits Google](https://www.bbc.com/news/world-us-canada-65452940) — El 2023-05-01, tras dejar Google, Hinton expresó a la BBC su preocupación por los riesgos de la IA. Texto original: “I left so that I could talk about the dangers of AI without considering how this impacts Google”, “a part of me now regrets my life's work”. Detalles contemporáneos de la entrevista de NYT también citados en este reporte.
 
-[^N10]: [Nature: AI scientist Geoffrey Hinton wins Nobel prize for physics](https://www.nature.com/articles/d41586-024-03213-8) — Detalles de *Nature* sobre el anuncio del Nobel de Física 2024 y la entrevista telefónica de Hinton.
+[^N10]: [Nature: AI scientist Geoffrey Hinton wins Nobel prize for physics](https://www.nature.com/articles/d41586-024-03213-8) — Detalles de _Nature_ sobre el anuncio del Nobel de Física 2024 y la entrevista telefónica de Hinton.
 
 [^N11]: [Wikipedia: Economic history of Taiwan](https://en.wikipedia.org/wiki/Economic_history_of_Taiwan) — Datos del PIB de Taiwán en 1986; el Parque Científico de Hsinchu fue creado en diciembre de 1980.
 
@@ -331,7 +348,7 @@ Este artículo usa 4 imágenes de dominio público / con licencias CC, todas alm
 
 [^N15]: [Abramson, J., Adler, J., Dunger, J. et al. (2024). Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature 630, 493-500](https://www.nature.com/articles/s41586-024-07487-w) — Publicación de AlphaFold 3 del 8 de mayo de 2024; amplía la predicción a complejos de proteínas con ADN / ARN / ligandos / iones.
 
-[^N16]: [Wikipedia: Demis Hassabis](https://en.wikipedia.org/wiki/Demis_Hassabis) — Hassabis empezó a jugar ajedrez a los 4 años; a los 17 (1994) codesarrolló *Theme Park* con Peter Molyneux; fundó DeepMind en Londres en 2010; Google la adquirió en 2014 por alrededor de 400 millones de libras.
+[^N16]: [Wikipedia: Demis Hassabis](https://en.wikipedia.org/wiki/Demis_Hassabis) — Hassabis empezó a jugar ajedrez a los 4 años; a los 17 (1994) codesarrolló _Theme Park_ con Peter Molyneux; fundó DeepMind en Londres en 2010; Google la adquirió en 2014 por alrededor de 400 millones de libras.
 
 [^N17]: [Centro de Investigación Genómica de Academia Sinica](https://www.genomics.sinica.edu.tw/) — Centro de investigación de estructuras de glicomoléculas y proteínas establecido durante la presidencia de Chi-Huey Wong (2006-2016).
 

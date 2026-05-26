@@ -19,10 +19,10 @@ lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/AI發展.md'
-sourceCommitSha: 'f712b724'
-sourceContentHash: 'sha256:94f6db1587e84f6b'
-sourceBodyHash: 'sha256:f92e6b6e01c4424a'
-translatedAt: '2026-05-15T14:23:13+08:00'
+sourceCommitSha: '96945e45'
+sourceContentHash: 'sha256:c3a35976261aaad4'
+sourceBodyHash: 'sha256:54302f24eb8f8f54'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 # El ascenso de la isla de la IA: desarrollo de la inteligencia artificial en Taiwán y estrategias futuras
@@ -328,6 +328,7 @@ Esta ruta no está completa: sigue faltando talento de investigación de IA de a
 **Lecturas complementarias**:
 
 - [Wu Zheyu](/people/吳哲宇) — cómo un artista de nuevos medios insiste en actuar como relojero en una “era de proliferación de generación por IA”, otra perspectiva creativa fuera de la industria de la IA
+- [Escuela de Inteligencia Artificial de Taiwán](/technology/台灣人工智慧學校) — Cómo el «descenso al mundo» de Chen Sheng-wei y la recaudación civil de 180 millones de NTD complementan la línea de producción de talento fuera de la estrategia gubernamental de IA
 
 ## Referencias
 

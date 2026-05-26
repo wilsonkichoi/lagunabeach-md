@@ -29,10 +29,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/大稻埕.md'
-sourceCommitSha: '946f38bb4'
-sourceContentHash: 'sha256:c8ffc0ce197a9cf6'
-sourceBodyHash: 'sha256:4bb9b7bfe17dcec7'
-translatedAt: '2026-05-22T05:08:46+08:00'
+sourceCommitSha: '20a4ac33'
+sourceContentHash: 'sha256:12edbb84c3a27210'
+sourceBodyHash: 'sha256:379e0b6a6e071045'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 大稲埕：800メートルに三つの世紀、Formosa Teaから二二八の第一発まで
@@ -213,7 +213,8 @@ _年貨大街期間の迪化街。Photo: 玄史生, CC BY-SA 3.0 via [Wikimedia 
 - [台湾民謡と歌謡](/music/台灣民謠與歌謠) — 1932年の〈望春風〉と太平町の古倫美亜レコード
 - [艋舺](/geography/艋舺) — 1853年の頂下郊拼で敗れた同安人が艋舺八甲庄から大稲埕へ逃れて来ました。二つの街は同じ武力衝突から分岐した結果です
 - [西門町](/geography/西門町) — 同じbatch 1の歴史街区sibling、1896年の日本統治期娯楽区 vs 大稲埕の清領期商業街、二種類の「街が形づくられる瞬間」の対照
-- [中山北路条通](/geography/中山北路條通) — 同じbatch 1の歴史街区sibling、御成町（勅使街道西側）はまさに大稲埕東南端と接続する位置にあり、日本統治期の高級住宅区と大稲埕商業街は同時期の二種類の空間階級です
+- [大龍峒](/geography/大龍峒) — 1853年の頂下郊拼で敗れた同安人はまず大龍峒へ退き、保安宮を防御の中心として、その後大稲埕へ移りました——大稲埕の通行上の語りが書き落としている中継地点
+- [士林](/geography/士林) — 1859年の漳泉械鬥と艋舺の1853年頂下郊拼は別々の械鬥であり、士林は漳州人が泉州人に街を焼かれた後に再建した、もう一つの分岐の結果です
 
 ## 画像出典
 

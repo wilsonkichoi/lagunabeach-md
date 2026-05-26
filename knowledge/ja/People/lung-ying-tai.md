@@ -11,10 +11,10 @@ lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/龍應台.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:efaa1720b84e525c'
-sourceBodyHash: 'sha256:f4615882842a7c63'
-translatedAt: '2026-05-24T22:39:00Z'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:32e758a1acf33e90'
+sourceBodyHash: 'sha256:fb31dbbb24515e69'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 龍応台：大寮1952、『野火集』から台湾初の文化大臣へ、公共知識人としての軌跡

@@ -18,10 +18,10 @@ lastVerified: 2026-03-25
 lastHumanReview: false
 featured: false
 translatedFrom: 'History/台海危機與兩岸關係發展.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:a3193837a2f87e5e'
-sourceBodyHash: 'sha256:f6df2c4e6142bfcd'
-translatedAt: '2026-05-25T06:30:00+08:00'
+sourceCommitSha: '7b8c0d48'
+sourceContentHash: 'sha256:fcdf343dc3efa72e'
+sourceBodyHash: 'sha256:8952fca56720f010'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 # Las crisis del Estrecho de Taiwán y el desarrollo de las relaciones entre ambas orillas

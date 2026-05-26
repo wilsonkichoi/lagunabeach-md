@@ -11,10 +11,10 @@ lastVerified: 2026-03-25
 lastHumanReview: false
 featured: false
 translatedFrom: History/台海危機與兩岸關係發展.md
-sourceCommitSha: 6b59db34
-sourceContentHash: sha256:a3193837a2f87e5e
-sourceBodyHash: sha256:f6df2c4e6142bfcd
-translatedAt: 2026-05-25T06:36:28+08:00
+sourceCommitSha: '7b8c0d48'
+sourceContentHash: 'sha256:fcdf343dc3efa72e'
+sourceBodyHash: 'sha256:8952fca56720f010'
+translatedAt: '2026-05-25T21:07:07Z'+08:00
 ---
 
 # 대만 해협 위기와 양안 관계 발전

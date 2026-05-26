@@ -1,290 +1,268 @@
 ---
-title: "Taiwan and Eswatini: Africa's Last Diplomatic Lifeline Hanging on One Person"
-description: "On May 2, 2026, at 9:00 AM, Tsai Ing-wen arrived in Mbabane aboard an A340 aircraft borrowed from the King of Eswatini. This marks the first time a Taiwanese president's flight permit was revoked due to pressure from China, with the final solution being a plane dispatched by the King of the allied nation to pick up the president from Taipei. From the establishment of diplomatic relations on the same day as Eswatini's independence in 1968 to its status as the last ally in Africa, from an absolute monarch whose birth year coincides entirely with the history of diplomatic relations to the suppression of 46 lives in his own town in 2021, from Red Heart Guavas entering SUPERSPAR to China's zero-tariff policy for 53 countries specifically skipping Eswatini. The 58-year relationship between Taiwan and Eswatini is a concrete textbook of 'sovereign states' and an unsolvable question."
+title: '대만과 에스와티니: 아프리카의 마지막 외교 생명선은 한 사람에게 걸려 있다'
+description: '2026년 5월 2일 오전 9시, 라이칭더는 에스와티니 국왕이 빌려준 A340 전용기를 타고 음바바네에 착륙했다. 대만 총통이 비행 허가를 중국의 압박으로 취소당한 뒤, 결국 수교국 국왕이 타이베이로 항공기를 보내 영접한 것은 이번이 처음이었다. 1968년 에스와티니가 독립한 바로 그날 중화민국과 수교한 때부터 아프리카에 남은 마지막 우방이 된 지금까지, 수교의 역사와 출생 연도가 완전히 겹치는 절대군주에서 2021년 자국민 46명의 목숨을 앗아간 진압까지, 붉은 속살 구아바가 SUPERSPAR에 진입한 일에서 중국이 53개국 무관세 조치에서 에스와티니만 의도적으로 제외한 일까지. 대만과 에스와티니의 58년 관계는 ‘주권국가’가 무엇인지 보여주는 가장 구체적인 교과서이자, 답이 없는 하나의 질문이다.'
 date: 2026-05-05
+author: 'Taiwan.md'
 category: 'Society'
+subcategory: '國際關係'
 tags:
   [
-    'Allied Nations',
-    'Eswatini',
-    'Eswatini',
-    'Lai Ching-te',
-    'Tsai Ing-wen',
-    'Chen Shui-bian',
-    'Mswati III',
-    'Taiwan Diplomacy',
+    '수교국',
+    '에스와티니',
+    '에스와티니',
+    '라이칭더',
+    '차이잉원',
+    '천수이볜',
+    '음스와티 3세',
+    '대만 외교',
     'TaiwanICDF',
-    'Agricultural Technical Team',
-    'Medical Diplomacy',
-    '318 Student Movement',
-    'Nauru Breaks Relations',
+    '농업기술단',
+    '의료 외교',
+    '318 학생운동',
+    '나우루 단교',
   ]
-subcategory: '國際關係'
-author: 'Taiwan.md'
-featured: true
 lastVerified: 2026-05-05
 lastHumanReview: false
-readingTime: 12
-image: '/article-images/society/taiwan-eswatini-military-honor-2026.jpg'
-imageCredit: '中華民國總統府'
-imageLicense: 'OGDL (Open Government Data License) — 政府公開資訊'
-imageSource: 'https://english.president.gov.tw/News/7121'
-sporeLinks:
-  - platform: 'threads'
-    date: '2026-05-05'
-    url: 'https://www.threads.com/@taiwandotmd/post/DX8zEYFAe9c'
-    views: 7461
-    likes: 504
-    reposts: 0
-    comments: 0
-    shares: 0
-  - platform: 'x'
-    date: '2026-05-05'
-    url: 'https://x.com/taiwandotmd/status/2051577099341967464'
-    views: 17265
-    likes: 538
-    reposts: 68
-    comments: 13
-    shares: 16
+featured: true
 translatedFrom: 'Society/台灣與史瓦帝尼.md'
-sourceCommitSha: 'ce7f10f8'
+sourceCommitSha: '23dba5966'
 sourceContentHash: 'sha256:fbdebb7691280ba8'
 sourceBodyHash: 'sha256:e3b2d4439bec2dec'
-translatedAt: '2026-05-09T14:31:08Z'
+translatedAt: '2026-05-26T05:10:57+08:00'
 ---
 
-> **30-Second Overview:** Eswatini (renamed from "Swaziland" in 2018) is Taiwan's only remaining allied nation in Africa. It established diplomatic relations with the Republic of China in September 1968, marking 58 years by 2026. King Mswati III was born in April 1968; five months later, the country gained independence and established diplomatic relations with Taiwan on the same day. His life almost completely overlaps with the history of Taiwan-Eswatini diplomatic relations. As of 2024, he has visited Taiwan more than 17 times[^1]. After Nauru broke relations in January 2024, Eswatini became Taiwan's sole allied nation in Africa[^2]. On May 2, 2026, Lai Ching-te's first visit to an allied nation after taking office was originally scheduled for April 22. However, on April 21, Seychelles, Mauritius, and Madagascar unexpectedly revoked flight permits under pressure from China, creating an "air blockade." King Mswati subsequently dispatched Eswatini's Airbus A340 royal aircraft to fly his Deputy Prime Minister, Thulisile Dladla, to Taipei to pick up Lai Ching-te. Lai arrived in Mbabane from Taipei on May 2[^3]. On May 1 of the same year, China granted zero-tariff treatment for 98% of tariff items to 53 African countries, excluding Eswatini specifically[^4]. The greatest variable in this diplomatic lifeline is whether the successor after Mswati can persuade a generation with 56% youth unemployment to continue viewing Taiwan as a friend (a question harder to answer than "how much money China uses").
+> **30초 개관:** 에스와티니(Eswatini, 2018년에 ‘스와질란드 Swaziland’에서 국명 변경)는 대만이 아프리카에서 유지하고 있는 유일한 수교국이다. 1968년 9월 중화민국과 수교했고, 2026년에 58년을 맞았다. 음스와티 3세 국왕은 1968년 4월에 태어났고, 5개월 뒤 국가가 독립한 바로 그날 대만과 수교했다. 그의 생애는 대만-에스와티니 수교사와 거의 완전히 겹치며, 2024년 기준 이미 17차례 이상 대만을 방문했다[^1]. 2024년 1월 나우루가 단교한 뒤, 에스와티니는 대만의 아프리카 유일 수교국이 되었다[^2]. 2026년 5월 2일, 라이칭더는 취임 뒤 처음으로 수교국을 방문했다. 당초 4월 22일 출발 예정이었으나 세이셸, 모리셔스, 마다가스카르가 중국의 압박으로 예고 없이 비행 허가를 취소하자, 음스와티는 에스와티니의 Airbus A340 전용기를 보내 부총리 툴리실레 들라들라(Thulisile Dladla)가 타이베이에서 영접하도록 했고, 라이칭더는 5월 2일 타이베이에서 음바바네로 직항 도착했다[^3]. 같은 해 5월 1일, 중국은 아프리카 53개국에 98% 세목 무관세 대우를 부여하면서도 유독 에스와티니만 제외했다[^4]. 이 외교 생명선의 가장 큰 변수는, 음스와티 이후의 후계자가 청년실업률 56%의 세대에게 계속 대만을 친구로 보도록 설득할 수 있느냐이다. 이는 “중국이 얼마를 쓰는가”보다 답하기 훨씬 어려운 질문이다.
 
-## The President Borrows an Aircraft
+## 총통이 항공기를 빌리다
 
-Hey, did you know that on May 2, 2026, at 9:00 AM, Lai Ching-te stepped off an Airbus A340 aircraft borrowed from King Mswati III of Eswatini and landed at Mbabane Airport[^3].
+알고 있는가. 2026년 5월 2일 오전 9시, 라이칭더는 에스와티니 국왕 음스와티 3세가 빌려준 Airbus A340 전용기에서 내려 음바바네 공항에 착륙했다[^3].
 
-This A340-313 is not a Taiwanese aircraft. It belongs to the Eswatini royal family. The originally scheduled visit by Lai Ching-te was set to depart from Taipei on April 22. However, on April 21, it was紧急 called off. Seychelles, Mauritius, and Madagascar simultaneously and unexpectedly revoked the aircraft's flight permits. Analysis points directly to China pressuring these three African island nations economically, causing an "air blockade"[^5].
+이 A340-313은 대만 항공기가 아니다. 에스와티니 왕실 명의의 전용기다. 원래 라이칭더의 방문은 4월 22일 타이베이 출발로 예정되어 있었지만, 4월 21일 긴급히 중단되었다. 세이셸, 모리셔스, 마다가스카르 세 나라가 동시에 예고 없이 전용기 비행 허가를 취소했고, 분석은 중국이 이 세 아프리카 섬나라에 경제적 강압을 행사해 ‘공중 봉쇄’를 만들었다고 지목했다[^5].
 
-Mswati's move was decisive: He dispatched his Deputy Prime Minister, Thulisile Dladla, to board the royal aircraft from Mbabane to Taipei. On the early morning of May 2, Dladla picked up Lai Ching-te in Taipei and flew back to Eswatini, arriving at 9:00 AM that same morning.
+음스와티의 대응은 간단명료했다. 그는 부총리 툴리실레 들라들라를 자국 왕실 전용기에 태워 음바바네에서 타이베이로 보냈고, 5월 2일 새벽 타이베이에서 라이칭더를 태워 에스와티니로 돌아오게 했다. 당일 오전 9시에 도착했다.
 
-"King Eswatini lends an aircraft to the Taiwanese President to break through China's blockade" is the essence of this visit itself. The _Wall Street Journal_ characterized it as a "surprise visit," while Al Jazeera's headline read "despite China's attempts to block trip"[^6]. CNA also recorded this process of [arriving in Eswatini via royal aircraft](https://www.youtube.com/watch?v=YrbOMarnkX8) on its official channel.
+“에스와티니 국왕이 대만 총통에게 항공기를 빌려 중국의 봉쇄를 돌파했다”는 사실 자체가 이번 방문의 본질이었다. Wall Street Journal은 이를 “surprise visit”(허를 찌른 방문)이라고 규정했고, Al Jazeera의 제목은 “despite China's attempts to block trip”(중국이 방문을 막으려 했음에도)였다[^6]. 중앙통신사도 공식 채널을 통해 이 [전용기 탑승 후 에스와티니 도착 과정](https://www.youtube.com/watch?v=YrbOMarnkX8)을 기록했다.
 
-![President Lai Ching-te receives military honors at Mbabane Airport, Eswatini, on May 2, 2026, with the Eswatini honor guard lined up for salutes.](/article-images/society/taiwan-eswatini-military-honor-2026.jpg)
-_On May 2, 2026, Lai Ching-te received military honors at Mbabane Airport in Eswatini. Photo: Office of the President, Republic of China. [OGDL via Official Press Release](https://english.president.gov.tw/News/7121)._
+![라이칭더 총통이 2026년 5월 2일 에스와티니 음바바네 공항에 도착해 군례를 받고, 에스와티니 의장대가 도열해 경례하고 있다](/article-images/society/taiwan-eswatini-military-honor-2026.jpg)
+_2026년 5월 2일, 라이칭더가 음바바네 공항에서 에스와티니 군례를 받았다. Photo: 중화민국 총통부. [OGDL via 총통부 공식 보도자료](https://english.president.gov.tw/News/7121)._
 
-The arrival scene was simple but heavy with significance: Prime Minister Russell Dlamini, Minister of Foreign Affairs and International Cooperation Pholile Shakantu, Taiwan's Ambassador to Eswatini, Jeremy H.S. Liang, and Eswatini's Protocol Officer Khandlela Mdluli personally received the aircraft. Lai Ching-te received military honors and exchanged greetings one by one with the staff of the Embassy in Eswatini and the families of the Taiwanese technical team[^7]. CNA's official channel recorded the full process of [President Lai Ching-te arriving in the Kingdom of Eswatini for a State Visit](https://www.youtube.com/watch?v=TuZ8i6KV7Ys).
+도착 장면은 단순했지만 무게는 컸다. 러셀 들라미니(Russell Dlamini) 총리, 폴릴레 샤칸투(Pholile Shakantu) 외교국제협력부 장관, 량훙성(Jeremy H.S. Liang) 주에스와티니 대만 대사, 칸들렐라 음들룰리(Khandlela Mdluli) 에스와티니 의전관이 직접 영접했다. 라이칭더는 군례를 받고 주에스와티니 대사관 인원 및 대만 기술단 가족들과 일일이 인사를 나눴다[^7]. 중앙통신사 공식 채널은 [라이칭더가 에스와티니 왕국에 도착해 국빈 방문을 시작한 전 과정](https://www.youtube.com/watch?v=TuZ8i6KV7Ys)을 기록했다.
 
-The political subtext of this airport scene is linked to another September in 1968.
+이 공항 장면의 정치적 잠재 텍스트는 1968년의 또 다른 9월과 관련되어 있다.
 
-## A Synchronization of Birth Years
+## 출생 연도의 동시성
 
-Mswati III's birth name is Makhosetive Dlamini. He was born on April 19, 1968, in Swaziland, which was then a British protectorate. Five months later—on September 6—Swaziland gained independence and **in the same year** established diplomatic relations with the Republic of China[^1][^8].
+음스와티 3세의 본명은 마코세티베 들라미니(Makhosetive Dlamini)다. 그는 1968년 4월 19일, 아직 영국 보호령이던 스와질란드에서 태어났다. 5개월 뒤인 9월 6일, 스와질란드는 독립했고, **같은 해** 중화민국과 수교했다[^1][^8].
 
-In other words, this king, now 58 years old, has a life that almost completely overlaps with the Taiwan-Eswatini diplomatic relationship. When he was born, there was no relationship with Taiwan; when he came of age, this relationship already existed. After he ascended the throne (on April 25, 1986, at the age of 18 years and 6 days, making him the youngest reigning monarch in the world at the time[^9]), he became the personified agent of this relationship.
+달리 말하면, 현재 58세인 이 국왕의 전 생애는 대만-에스와티니 수교사와 거의 완전히 겹친다. 그가 태어났을 때 대만과의 관계는 아직 없었다. 그가 철이 들었을 때 이 관계는 이미 존재했다. 그가 즉위한 뒤에는(1986년 4월 25일, 당시 18세 6일로 세계 최연소 재위 군주였다[^9]) 이 관계를 인격화한 대리자가 되었다.
 
-The density of visits to Taiwan is astonishing. According to records from the Embassy in Eswatini and the Ministry of Foreign Affairs, as of May 2024, Mswati III has visited Taiwan more than 17 times[^1]. October 1989, October 1997, October 1998, May 2000, July 2001, May 2004, June 2006, September 2007, May 2008, July 2010, October 2012, May 2013, May 2015, May 2016, June 2018, October 2022, May 2024—averaging once every two years. No other foreign leader visits Taiwan with such frequency.
+대만 방문의 밀도도 놀랍다. 주에스와티니 대사관과 외교부 기록에 따르면, 2024년 5월 기준 음스와티 3세의 대만 방문은 이미 17회를 넘었다[^1]. 1989년 10월, 1997년 10월, 1998년 10월, 2000년 5월, 2001년 7월, 2004년 5월, 2006년 6월, 2007년 9월, 2008년 5월, 2010년 7월, 2012년 10월, 2013년 5월, 2015년 5월, 2016년 5월, 2018년 6월, 2022년 10월, 2024년 5월. 평균 2년에 한 번이다. 이 정도 빈도로 대만을 방문한 외국 정상은 세계 어디에도 없다.
 
-Professor Yang Hao of the Institute of East Asian Studies at National Chengchi University pointed out the key in an interview with BBC Chinese: "It is precisely because the King himself holds real power that, as long as he is willing to maintain diplomatic relations, there will not be too much noise domestically."[^10]
+국립정치대 동아시아연구소의 양하오 교수는 BBC 중국어판 인터뷰에서 핵심을 짚었다. “바로 국왕 본인이 실권을 갖고 있기 때문에, 그가 수교를 유지하려 한다면 국내에서 그다지 많은 잡음이 나지 않는다.”[^10]
 
-In other words, Taiwan's last diplomatic lifeline in Africa hangs on one person. This is both its stability and its fragility.
+다시 말해, 대만이 아프리카에 남겨 둔 마지막 외교 생명선은 한 사람에게 걸려 있다. 이것은 그 관계의 견고함이자 동시에 취약함이다.
 
-## Deliberately Skipping Eswatini
+## 의도적으로 에스와티니를 건너뛰다
 
-On May 1, 2026—just one day before Lai Ching-te's visit to Eswatini—China announced zero-tariff treatment for 98% of tariff items for 53 African countries. Eswatini was the only one excluded[^4][^11].
+2026년 5월 1일, 곧 라이칭더의 에스와티니 방문 전날, 중국은 아프리카 53개국에 98% 세목 무관세 대우를 부여한다고 발표했다. 유독 에스와티니만 제외했다[^4][^11].
 
-This is "deliberately skipping."
+이것은 “의도적으로 건너뛰기”였다.
 
-Being one less out of 53 countries is mathematically just 52/53, but politically it is a naked declaration: "Standing with Taiwan is the cost of being isolated." _Feng News_ cited BBC Chinese's analysis to plainly point out this operational logic[^11]. The official BBC News Chinese channel also provided an in-depth analysis of [the cross-strait power struggle behind Lai Ching-te's visit to Eswatini](https://www.youtube.com/watch?v=SEvlDcpYpc8).
+53개국 가운데 1개국이 빠진 것은 수학적으로는 그저 52/53일 뿐이다. 그러나 정치적으로는 노골적인 선언이다. “대만과 함께 서는 것은 고립의 비용을 치르는 일이다.” 풍전매는 BBC 중국어판의 분석을 인용해 이 조작의 논리를 직설적으로 지적했다[^11]. BBC News 중국어판 공식 채널도 [라이칭더의 에스와티니 방문 배후에 있는 양안 각축](https://www.youtube.com/watch?v=SEvlDcpYpc8)을 심층 분석했다.
 
-China's history of poaching allies is not limited to this tactic. Over the past 30 years, 10 African nations have switched from Taiwan to Beijing. The most recent two are São Tomé and Príncipe (2016) and Burkina Faso (2018)[^12]. In the same month that Burkina Faso broke relations, Tsai Ing-wen visited Eswatini for the first time, and Mswati publicly reiterated the commitment to diplomatic relations in a speech[^13]. This was from April 17 to 20, 2018.
+중국의 외교적 스카우트 역사는 이 한 수에 그치지 않는다. 지난 30년 동안 아프리카 10개국이 대만에서 베이징으로 돌아섰고, 가장 최근 두 나라는 상투메 프린시페(2016년)와 부르키나파소(2018년)였다[^12]. 부르키나파소가 단교한 바로 그달, 차이잉원은 처음으로 에스와티니를 방문했고, 음스와티는 공개 연설에서 수교 약속을 재확인했다[^13]. 그것은 2018년 4월 17일부터 20일까지의 일이었다.
 
-In 2023, a subsidiary of China's Hydro China Construction Group won the bid for the Pekisila Dam in Eswatini for $146 million. _Feng News_ cited BBC Chinese's analysis, believing this to be an open test of "exchanging infrastructure for diplomatic relations"[^11]. Mswati did not waver.
+2023년 중국수전건설그룹의 자회사는 에스와티니 페키실라 댐(Pekisila Dam) 공사를 1억 4,600만 달러에 낙찰받았다. 풍전매는 BBC 중국어판 분석을 인용해 이것이 “기반시설과 수교를 맞바꾸려는” 공개적 시험이었다고 보았다[^11]. 음스와티는 흔들리지 않았다.
 
-But what is the real pressure behind the words "did not waver"? On January 15, 2024, Nauru—a small Pacific nation with a population of only about 10,000—announced the severance of diplomatic relations with Taiwan, primarily due to China's promise of long-term financial aid[^2]. This was three days after the Taiwanese presidential election, when Lai Ching-te had just been elected but not yet inaugurated. The moment Nauru broke relations, the Ministry of Foreign Affairs changed the number of allied nations from 13 to 12.
+그러나 “흔들리지 않았다”는 네 글자 뒤의 실제 압력은 무엇인가. 2024년 1월 15일, 인구가 약 1만 명에 불과한 태평양 소국 나우루는 대만과 단교한다고 발표했다. 주된 이유는 중국이 약속한 장기 재정 지원이었다[^2]. 당시 대만 총통선거가 끝난 지 사흘째였고, 라이칭더는 막 당선되었을 뿐 아직 취임하지 않았다. 나우루가 단교한 순간, 외교부는 수교국 수를 13개국에서 12개국으로 바꾸었다.
 
-Eswatini became the last remaining piece of the puzzle in Africa.
+에스와티니는 아프리카에 남은 마지막 퍼즐 조각이 되었다.
 
-## Red Heart Guavas Enter SUPERSPAR
+## 붉은 속살 구아바가 SUPERSPAR에 들어가다
 
-Lai Ching-te opened his press conference on May 3 with a fruit as a hook: "Red Heart Guavas witness the friendship between Taiwan and Eswatini."[^14]
+라이칭더는 5월 3일 기자회견 모두발언에서 하나의 과일을 hook으로 삼았다. “붉은 속살 구아바가 대만-에스와티니 우호를 증명한다.”[^14]
 
-This guava is not just rhetoric.
+이 구아바는 수사가 아니다.
 
-The TaiwanICDF (International Cooperation and Development Foundation) Agricultural Technical Team stationed in Eswatini has been operating since 1969. It was initially an early experiment in Taiwan's agricultural technical diplomacy, now known as the "Taiwan-Africa Vegetables Initiative (TAVI)" and the "Emerging Fruit Tree Production and Marketing Guidance Plan"[^15]. The specific work involves bringing Taiwanese fruit varieties (Red Heart Guava, Dragon Fruit, Strawberry, Papaya) and cultivation techniques to Eswatini, enabling local farmers to learn localized production.
+TaiwanICDF(국제협력발전기금회)의 주에스와티니 농업기술단은 1969년부터 활동을 시작했다. 처음에는 대만 농업기술 외교의 초기 실험이었고, 현재는 “Taiwan-Africa Vegetables Initiative (TAVI)”와 “Emerging Fruit Tree Production and Marketing Guidance Plan”으로 불린다[^15]. 구체적으로 하는 일은 대만의 과일 품종(붉은 속살 구아바, 용과, 딸기, 파파야)과 재배 기술을 에스와티니에 가져가 현지 농민들이 현지화된 생산을 익히도록 하는 것이다.
 
-In March 2024, Red Heart Guavas of Taiwanese varieties officially entered the supply chains of SUPERSPAR, Eswatini's largest supermarket chain, in its Mbabane and Ezulwini branches[^15]. It took 55 years for a fruit to go from a technical cooperation agreement (the first aid agreement in 1969[^1]) to supermarket shelves.
+2024년 3월, 대만 품종의 붉은 속살 구아바는 에스와티니 최대 슈퍼마켓 체인 SUPERSPAR의 음바바네 및 에줄위니 지점 유통망에 정식으로 진입했다[^15]. 하나의 과일이 기술협력협정(1969년 첫 원조 협정[^1])에서 슈퍼마켓 진열대에 이르기까지 55년이 걸렸다.
 
-When Lai Ching-te visited Eswatini, he brought this guava to the press conference podium. He wanted to say that "cooperation looks like this": concrete, edible, and entering commercial channels.
+라이칭더는 에스와티니 방문 때 이 구아바를 기자회견 연단으로 가져왔다. 그가 말하고자 한 것은 “협력이란 이런 모습”이라는 점이었다. 구체적이고, 먹을 수 있으며, 상업 유통망으로 들어간다는 것.
 
-The evolution of aid projects is easier to understand from this perspective. Technical cooperation in 1969 → Agricultural technical cooperation in 1984 → Medical cooperation memorandum in 2007 → Maternal and infant health care in 2016 → Economic cooperation agreement (effective December 2018) → Women's economic empowerment MOU in 2019 → Women's entrepreneurship microcredit revolving fund in 2023 (personally signed by Tsai Ing-wen during her 2023 visit to Eswatini) → Customs mutual assistance agreement in 2026[^1][^7]. Each agreement is a cross-section of the themes of its era: the 1980s focused on agriculture, the 2000s moved into healthcare, the 2010s on women's empowerment and economic/trade systems, and the 2020s pushed toward industrial innovation and supply chains.
+원조 사업의 변화를 이 각도에서 보면 이해가 더 쉽다. 1969년 기술협력 → 1984년 농업기술협력 → 2007년 의료협력 양해각서 → 2016년 산모 및 영유아 보건 → 2018년 경제협력협정(같은 해 12월 발효) → 2019년 여성 경제역량 강화 MOU → 2023년 여성창업 소액신용 회전기금(차이잉원이 2023년 에스와티니 방문 때 직접 서명) → 2026년 세관 상호지원협정[^1][^7]. 각각의 협정은 한 시대 주제의 단면이다. 1980년대는 농업, 2000년대는 의료, 2010년대는 여성 역량 강화와 경제무역 제도, 2020년대는 산업 혁신과 공급망으로 나아갔다.
 
-This cooperative experience has evolved slowly alongside the circumstances of both countries, transcending the static level of "diplomatic gifts."
+이 협력의 체감은 두 나라 각자의 처지와 함께 천천히 진화했고, 정적인 “수교 선물”의 차원을 넘어섰다.
 
-## A Prevalence Rate of 27%
+## 27%의 유병률
 
-But beyond agriculture and education, healthcare is the heaviest and most concrete aspect of this relationship.
+그러나 농업과 교육 외에, 의료는 이 관계에서 가장 무겁고도 가장 구체적인 측면이다.
 
-The adult (15-49 years old) HIV prevalence rate in Eswatini is 27.2%, the highest in the world[^16]. Behind this number is a nation where an entire generation would be erased without antiretroviral therapy (ART).
+에스와티니 성인(15-49세)의 HIV 유병률은 27.2%로 세계 최고다[^16]. 이 숫자 뒤에는 항레트로바이러스 치료(ART)가 없었다면 한 세대 전체가 지워졌을 국가가 있다.
 
-Understanding Taiwan's medical aid solely through the framework of "medical diplomacy" is too thin. The medical team stationed in Eswatini, led by the Taipei Medical University system, covers physicians, nurses, pharmacists, and administrative staff. Their work ranges includes clinical services, personnel training, public health, medical education, and the introduction of smart healthcare[^15]. Specific actions include: assisting Eswatini in establishing a national physician licensing examination system and a general practitioner training system; completing Eswatini's first neurosurgery; Taipei Medical University physicians serving long-term as the only cardiologists in Eswatini's public hospitals; and providing medical services to over 10,000 patient visits. These are real actions with names, surgical records, and hospital numbers, transcending the abstract level of "aid."
+대만의 의료 원조를 “의료 외교”라는 틀만으로 이해한다면 너무 얇다. 타이베이의학대학 체계가 주도하는 주에스와티니 의료단은 의사, 간호사, 약사, 행정 인력을 포괄하며, 업무 범위는 임상 서비스, 인력 훈련, 공중보건, 의학교육, 스마트 의료 도입을 포함한다[^15]. 구체적으로는 에스와티니가 전국 의사 국가시험 제도와 일반의 양성 체계를 구축하도록 돕고, 에스와티니 최초의 신경외과 수술을 완수했으며, 타이베이의학대학 의사가 장기간 에스와티니 공립병원의 유일한 심장내과 전문의로 일했고, 연간 의료 서비스는 1만 명을 넘었다. 이것들은 이름이 있고, 수술 기록이 있고, 입원번호가 있는 실제 행위다. 추상적 “원조”의 차원을 넘어선다.
 
-In April 2025, the Ministry of Foreign Affairs announced the donation of computed tomography (CT) scanners, fundus cameras, and patient monitoring simulators to Mbabane Government Hospital. Starting in 2026, it will assist in building an Eswatini version of HIS (Hospital Information System, benchmarked against Taiwanese standards) and FIRE (Fast Interoperable Resource International Case Format for Medical Care)[^15].
+2025년 4월 외교부는 음바바네 정부병원(Mbabane Government Hospital)에 컴퓨터단층촬영기, 안저촬영기, 환자 모니터링 시뮬레이터를 기증한다고 발표했다. 2026년부터는 에스와티니판 HIS(병원정보시스템, 대만 표준에 준함)와 FIRE(빠른 의료 돌봄 상호운용 자원 국제 증례 형식) 구축을 지원한다[^15].
 
-The most concrete story is from January 2021. Mswati III contracted COVID-19, and the Tsai Ing-wen administration sent antiviral drugs to Eswatini through diplomatic channels (foreign media speculated it was remdesivir, but Mswati himself did not name it). He later publicly thanked them: "I had already recovered before I could announce my hospitalization."[^17]
+가장 구체적인 한 이야기는 2021년 1월이다. 음스와티 3세가 COVID-19에 감염되자, 대만의 차이잉원 정부는 외교 경로를 통해 에스와티니에 항바이러스제를 보냈다. 외신은 렘데시비르로 추정했지만, 음스와티 본인은 약명을 밝히지 않았다. 이후 그는 공개적으로 감사를 표했다. “내가 입원을 발표할 수 있기 전에 이미 회복되어 있었다.”[^17]
 
-"Diplomatic drugs" are no longer abstract from that moment. This 58-year relationship includes one specific life-saving event.
+“수교의 약”은 그 순간부터 더 이상 추상적이지 않았다. 이 58년 관계에는 실제로 목숨을 구한 사건이 한 번 포함되어 있다.
 
-It is precisely because of these accumulated long-term multilateral aids—PEPFAR, Global Fund, Taiwan, etc.—that Eswatini became one of the first African countries to achieve the UNAIDS 95-95-95 targets in 2020 (95% of HIV patients diagnosed, 95% of diagnosed patients receiving treatment, 95% of treated patients successfully suppressing the virus)[^18].
+또한 PEPFAR, Global Fund, 대만 등 장기적인 다자 원조의 축적 덕분에 에스와티니는 2020년 일부 아프리카 국가 중 UNAIDS 95-95-95 목표를 가장 먼저 달성한 나라 가운데 하나가 되었다. 이는 HIV 감염자의 95% 진단, 진단자의 95% 치료, 치료자의 95% 바이러스 억제 성공을 뜻한다[^18].
 
-## Military Honors at Mandvulo Grand Hall
+## Mandvulo Grand Hall의 군례
 
-On the morning of May 3, Lai Ching-te held bilateral talks with Mswati III at the Mandvulo Grand Hall of the Lozitha Royal Palace[^7].
+5월 3일 아침, 라이칭더는 로지타 왕궁(Lozitha Royal Palace)의 Mandvulo Grand Hall에서 음스와티 3세와 양자회담을 했다[^7].
 
-![President Lai Ching-te and King Mswati III of Eswatini hold bilateral talks at the Mandvulo Grand Hall.](/article-images/society/taiwan-eswatini-mandvulo-summit-2026.jpg)
-_On May 3, 2026, Lai Ching-te and Mswati III held bilateral talks at the Mandvulo Grand Hall of the Lozitha Royal Palace. Photo: Office of the President, Republic of China. [OGDL via Official Press Release](https://english.president.gov.tw/News/7122)._
+![라이칭더 총통과 에스와티니 국왕 음스와티 3세가 Mandvulo Grand Hall에서 양자회담을 하고 있다](/article-images/society/taiwan-eswatini-mandvulo-summit-2026.jpg)
+_2026년 5월 3일, 라이칭더와 음스와티 3세가 Lozitha Royal Palace의 Mandvulo Grand Hall에서 양자회담을 했다. Photo: 중화민국 총통부. [OGDL via 총통부 공식 보도자료](https://english.president.gov.tw/News/7122)._
 
-The ceremony included the national anthems of both countries, inspection of the Eswatini honor guard, firing of salutes, and traditional dance performances. After the meeting, two important documents were signed:
+의식에는 양국 국가 연주, 에스와티니 의장대 사열, 예포, 전통무용 공연이 포함되었다. 회담 뒤 두 건의 중요한 문서가 서명되었다.
 
-1. **Joint Communiqué**: Reaffirming "deep friendship, mutual trust, and shared values."
-2. **Customs Mutual Assistance Agreement**: Signed by Taiwan's Foreign Minister, Joseph Wu, and Eswatini's Foreign Minister, Pholile Shakantu[^7].
+1. **공동공보**: “깊은 우정, 상호 신뢰, 공동 가치” 재확인
+2. **《세관 상호지원협정》**: 린자룽 대만 외교부장과 폴릴레 샤칸투 에스와티니 외교장관이 서명[^7]
 
-![President Lai Ching-te and King Mswati III jointly witness the signing of the Customs Mutual Assistance Agreement.](/article-images/society/taiwan-eswatini-joint-communique-2026.jpg)
-_On May 3, 2026, Taiwan and Eswatini signed the Customs Mutual Assistance Agreement and a Joint Communiqué at the Mandvulo Grand Hall. Photo: Office of the President, Republic of China. [OGDL via Official Press Release](https://english.president.gov.tw/News/7122)._
+![라이칭더 총통과 음스와티 3세 국왕이 《세관 상호지원협정》 서명을 함께 지켜보고 있다](/article-images/society/taiwan-eswatini-joint-communique-2026.jpg)
+_2026년 5월 3일, 대만과 에스와티니 양측이 Mandvulo Grand Hall에서 《세관 상호지원협정》과 공동공보에 서명했다. Photo: 중화민국 총통부. [OGDL via 총통부 공식 보도자료](https://english.president.gov.tw/News/7122)._
 
-CNA's official channel fully recorded the process of [Taiwan and Eswatini signing a Joint Communiqué to deepen cooperation](https://www.youtube.com/watch?v=kdRZ5v61Vjo).
+중앙통신사 공식 채널은 [대만과 에스와티니가 공동공보를 서명해 협력을 심화한 전 과정](https://www.youtube.com/watch?v=kdRZ5v61Vjo)을 완전하게 기록했다.
 
-Lai Ching-te's core quotes (from the original English press release of the Office of the President):
+라이칭더의 핵심 인용문(총통부 영어 보도자료 원문):
 
-> "The Republic of China (Taiwan) is a sovereign country that belongs to the world."
+> “The Republic of China (Taiwan) is a sovereign country that belongs to the world.”(중화민국(대만)은 세계에 속한 주권국가이다)
 >
-> "No country has the right, nor should it obstruct Taiwan's contributions to the world."
+> “No country has the right, nor should it obstruct Taiwan's contributions to the world.”(어떤 나라도 대만의 세계에 대한 기여를 가로막을 권리가 없으며, 그래서는 안 된다)
 >
-> "Taiwan and Eswatini are steadfast allies, who have together weathered many ups and downs."[^7]
+> “Taiwan and Eswatini are steadfast allies, who have together weathered many ups and downs.”(대만과 에스와티니는 굳건한 동맹으로, 함께 많은 부침을 견뎌 왔다)[^7]
 
-Mswati III's response:
+음스와티 3세의 답변:
 
-> "We would like to assure you, as well as the government and people of Taiwan, that the Kingdom of Eswatini stands ready to support all the achievements Taiwan seeks, including its participation in the international community."[^7]
+> “We would like to assure you, as well as the government and people of Taiwan, that the Kingdom of Eswatini stands ready to support all the achievements Taiwan seeks, including its participation in the international community.”(우리는 각하와 대만 정부 및 국민에게, 에스와티니 왕국이 국제사회 참여를 포함해 대만이 추구하는 모든 성취를 지원할 준비가 되어 있음을 보증하고자 한다)[^7]
 
-The weight of these quotes lies in who is speaking. When an absolute monarch publicly says "sovereign country" to the head of another democratic nation in his own palace, this meaning is a direct counter-testimony to China's narrative of "Taiwan as a non-sovereign entity." The Chinese Ministry of Foreign Affairs subsequently called Lai Ching-te a "rat" and described this behavior as "stealthy external窜" and an "international laughingstock" (cited by NBC News)[^19]. The US State Department's response was simpler: "Taiwan is a trusted and capable partner" and "should not be politicized"[^20].
+이 인용문의 무게는 그것을 말한 사람에게 있다. 절대군주가 자신의 왕궁에서 또 다른 민주국가의 원수에게 공개적으로 “주권국가”라고 말할 때, 그 의미는 중국의 “주권적 대만은 존재하지 않는다”는 담론에 대한 직접적인 반대 증언이 된다. 중국 외교부는 이후 라이칭더를 “rat”이라고 비난하고, 이번 방문을 “밀항식 해외 도주”, “국제적 웃음거리”라고 불렀다(NBC News 인용)[^19]. 미국 국무부의 대응은 더 간단했다. “Taiwan is a trusted and capable partner”, 그리고 “정치화되어서는 안 된다”는 것이었다[^20].
 
-In the afternoon of that day, Lai Ching-te visited the Royal Science and Technology Park to inspect two flagship bilateral cooperation projects: the Strategic Oil Reserve and the Taiwan Industrial Innovation Park (TIIP), presented by the Overseas Investment Development Corporation and Taiwan Engineering Consultants[^21]. Lai Ching-te positioned these two as "the largest-scale and most strategically significant cooperation projects since the establishment of diplomatic relations between the two countries." The "Strategic Oil Reserve" represents energy security and national resilience in response to risk crises, while the 'Taiwan Industrial Innovation Park' represents industrial layout and developmental hope for the future; the former guards stability, and the latter creates growth"[^22].
+그날 오후 라이칭더는 Royal Science and Technology Park를 방문해 두 개의 양자협력 대표 사업을 시찰했다. 전략비축유 저장시설(Strategic Oil Reserve)과 대만산업혁신단지(Taiwan Industrial Innovation Park, TIIP)였고, 해외투자개발공사와 대만세희엔지니어링컨설턴트가 브리핑했다[^21]. 라이칭더는 이 두 사업을 “양국 수교 이래 규모가 가장 크고 전략적 의미가 가장 큰 협력 계획”으로 규정했다. “전략비축유 저장시설은 위험과 위기에 대응하는 에너지 안보와 국가 회복력을 상징하고, ‘대만산업혁신단지’는 미래를 향한 산업 배치와 발전 희망을 상징한다. 전자는 안정을 지키고, 후자는 성장을 창출한다”[^22].
 
-This statement gave Lai Ching-te's visit a concrete narrative structure. CNA's official channel also featured a report on [Taiwan-Eswatini's largest cooperation: Oil storage and industrial innovation parks have strategic significance](https://www.youtube.com/watch?v=r7nE7C_KhUA).
+이 대목은 라이칭더의 이번 방문 담론에 구체적인 구조를 부여했다. 중앙통신사 공식 채널도 [대만-에스와티니 최대 협력: 비축유 저장시설과 산업혁신단지의 전략적 의미](https://www.youtube.com/watch?v=r7nE7C_KhUA)를 특집 보도했다.
 
-## 46 Lives in 2021
+## 2021년의 46명 목숨
 
-But this 58-year relationship has a heavy reality that must be faced directly.
+그러나 이 58년 관계에는 반드시 직시해야 할 매우 무거운 현실이 있다.
 
-On May 17, 2021, Thabani Nkomonye, a law student in Eswatini, was allegedly killed by police, triggering nationwide protests. On June 20, approximately 500 youths emerged on the streets of Manzini demanding democratic reforms. On June 25, the Acting Prime Minister issued an order prohibiting protests and submitting petitions. From June 28 to July 4, nationwide riots erupted, buildings were burned, helicopters patrolled the skies, and gunshots rang day and night. Human Rights Watch (HRW) confirmed at least 46 deaths, with civilian estimates exceeding a hundred[^23].
+2021년 5월 17일, 에스와티니의 법학과 학생 타바니 은코몬예(Thabani Nkomonye)가 경찰에게 살해된 것으로 의심되는 사건이 전국적 시위를 촉발했다. 6월 20일 약 500명의 청년이 만지니(Manzini) 거리로 나와 민주 개혁을 요구했다. 6월 25일 권한대행 총리는 시위와 청원 제출을 금지하는 명령을 내렸다. 6월 28일부터 7월 4일까지 전국적 폭동이 벌어졌고, 건물은 불탔으며, 헬리콥터가 상공을 순찰했고, 총성이 밤낮으로 이어졌다. 휴먼라이츠워치(HRW)는 최소 46명이 사망했다고 확인했고, 민간 추정은 100명을 넘었다[^23].
 
-As of October 2025, HRW's latest report confirmed that no security force members have been held accountable[^24].
+2025년 10월 현재, HRW의 최신 보고서는 어떤 보안군 구성원도 책임을 추궁받지 않았다고 확인했다[^24].
 
-This is the sharpest cost of "absolute monarchy" and the value contradiction Taiwan must face. Our only allied nation in Africa is Africa's last absolute monarchy, and this regime suppressed its own people in 2021.
+이것은 “절대군주제”의 가장 날카로운 대가이자, 대만이 마주할 수밖에 없는 가치의 모순이다. 우리의 아프리카 유일 수교국은 아프리카의 마지막 절대왕정이며, 그 정권은 2021년 자국민을 진압했다.
 
-Writing down this fact will not harm diplomatic relations, but it will make this article valid. Taiwanese readers have the right to know that our "last ally" is a real country with a specific governance record including violent suppression, an HIV tsunami, and 56% youth unemployment (2023 figures[^25]). The diplomatic term "friendly small country" cannot contain it.
+이 사실을 쓰는 것은 수교를 해치지 않는다. 오히려 이 글을 성립하게 한다. 대만 독자는 우리의 “마지막 우방”이 폭력적 진압, HIV의 해일, 56% 청년실업(2023년 수치[^25])이라는 구체적 통치 기록을 포함하는 실제 국가임을 알 권리가 있다. “우호적인 소국”이라는 외교적 수사는 그것을 담아내지 못한다.
 
-Mswati's personal life is another structural contradiction. He and his mother, Queen Mother Ntfombi, are among the approximately 12 absolute monarchs currently existing in the world. The constitution grants him veto power over all government departments and immunity from prosecution. Private jets, Rolls-Royce convoys, and the fact that 30% of the population lives below the poverty line form a contrast, making them a focus of long-term criticism by international media[^9].
+음스와티의 개인 생활 역시 또 다른 구조적 모순이다. 그는 모후 은톰비(Ntfombi)와 함께 현존하는 전 세계 약 12명의 절대군주 중 한 명으로 꼽힌다. 헌법상 모든 정부 부문에 거부권을 가지며, 기소로부터 면책된다. 전용기와 롤스로이스 차량 행렬은 인구의 30%가 빈곤선 아래에서 살아가는 현실과 대비되며, 국제 언론의 장기적 비판 대상이 되어 왔다[^9].
 
-We can hold two things simultaneously: First, Taiwan's aid has indeed saved lives (HIV treatment, agricultural cooperation, medical teams); second, Eswatini's governance issues are not "internal affairs" we should ignore.
+우리는 두 가지를 동시에 붙들 수 있다. 첫째, 대만의 원조는 실제로 생명을 구했다. HIV 치료, 농업협력, 의료단이 그렇다. 둘째, 에스와티니의 통치 문제는 우리가 관심을 가져서는 안 될 “타국 내정”이 아니다.
 
-## After Mswati
+## 음스와티 이후
 
-The greatest variable in the future of Taiwan-Eswatini diplomatic relations is actually not how much money China uses.
+대만-에스와티니 수교의 미래에서 가장 큰 변수는 사실 중국이 얼마를 쓰느냐가 아니다.
 
-It is whether the successor after Mswati can persuade a generation with 56% youth unemployment, who no longer supports absolute monarchy, to continue viewing Taiwan as a friend.
+음스와티 이후의 후계자가 청년실업률 56%에 시달리고 절대왕권을 더 이상 지지하지 않는 세대에게 계속 대만을 친구로 보도록 설득할 수 있느냐이다.
 
-Over the past 30 years, China has poached 10 African allied nations from Taiwan. The end of each diplomatic relationship is a combination of "monetary temptation" and "local political needs." However, Eswatini differs from other allied nations: It is not at the core battlefield of UN resolutions (unlike Pacific island nations directly related to the US-China game), and the political costs of its foreign relations are relatively borne by the King personally. Mswati's personal will has been strong enough to resist all pressure so far.
+지난 30년 동안 중국은 대만의 아프리카 수교국 10개국을 빼앗아 갔다. 각각의 수교 종결은 “금전적 유혹”과 “현지 정치 수요”가 결합한 결과였다. 그러나 에스와티니는 다른 수교국과 한 가지 점에서 다르다. 유엔 결의의 핵심 전장에 있지 않고(태평양 섬나라처럼 미중 경쟁과 직접 관련되어 있지 않다), 대외관계의 정치적 비용을 상대적으로 국왕 개인이 부담하며, 음스와티 개인의 의지는 지금까지 모든 압력을 막아낼 만큼 강했다.
 
-But this strength has a ceiling. Mswati was born in 1968 and is 58 years old in 2026. His succession will happen (not "if" but "when"), and the internal political environment the successor faces will be completely different from that of 1986 when he was crowned.
+하지만 그 강도에는 천장이 있다. 음스와티는 1968년에 태어났고, 2026년에 58세다. 그의 승계는 일어날 것이다. 문제는 “일어날 것인가”가 아니라 “언제인가”다. 그리고 후계자가 마주할 내부 정치 환경은 1986년에 즉위한 그와 완전히 다를 것이다.
 
-After the 46 lives in 2021, the patience of Eswatini's youth for "royal glory" is far less than that of their parents' generation; HIV still occupies the health budget; wages are squeezed by South Africa; and youth unemployment is near 60%. These are ongoing internal pressures, not just predictions of "what will happen in the future."
+2021년의 46명 목숨 이후, 에스와티니 젊은 세대의 “왕실 영광”에 대한 인내는 부모 세대와 비교할 수 없이 낮아졌다. HIV는 여전히 보건 예산을 차지하고 있고, 임금은 남아프리카공화국에 의해 압박받으며, 청년실업률은 60%에 가깝다. 이것들은 “미래에 어떻게 될 것인가”라는 예측만이 아니라 현재진행형의 내부 압력이다.
 
-Lai Ching-te's choice of return route after this visit also reveals a sense of the present. On May 4, he departed from Mbabane. The aircraft deliberately turned off identity information, flew a southern Indian Ocean route via Indonesia and the Philippines, avoiding areas close to Chinese airspace and sensitive South China Sea zones, and arrived at Taoyuan Airport at 10:40 AM on May 5[^26].
+라이칭더의 이번 방문 뒤 귀국 항로 선택도 현재의 감각을 드러낸다. 5월 4일 음바바네를 출발한 항공기는 의도적으로 신원 정보를 끄고, 남쪽 인도양 쪽 항로를 따라 인도네시아와 필리핀을 거쳐 대만으로 돌아왔다. 중국 영공과 남중국해 민감 지역에 가까워지는 것을 피했고, 5월 5일 오전 10시 40분 타오위안공항에 도착했다[^26].
 
-The detour shows how tight the environment is. But it was completed.
+우회해서 갔다는 것은 환경이 얼마나 긴장되어 있는지를 말한다. 그러나 끝까지 갔다.
 
-## A Guava and a Question
+## 하나의 구아바와 하나의 질문
 
-Back to that Red Heart Guava.
+다시 그 붉은 속살 구아바로 돌아가자.
 
-It went from the 1969 technical cooperation agreement to the supermarket shelves of SUPERSPAR in 2024. In between, it passed through 55 years, at least seven Taiwanese presidents (Chiang Ching-kuo, Lee Teng-hui, Chen Shui-bian, Ma Ying-jeou, Tsai Ing-wen, Lai Ching-te), and Mswati III growing from 5 months old to 56 years old.
+그것은 1969년 기술협력협정에서 2024년 SUPERSPAR 슈퍼마켓 진열대까지 갔다. 그 사이 55년이 지났고, 적어도 일곱 명의 대만 총통(장징궈, 리덩후이, 천수이볜, 마잉주, 차이잉원, 라이칭더)을 거쳤으며, 음스와티 3세가 생후 5개월에서 56세가 되기까지의 시간을 통과했다.
 
-It is concrete, edible, and costs roughly a few dozen New Taiwan Dollars per fruit.
+그것은 구체적이고, 먹을 수 있으며, 가격은 대략 신타이완달러 몇십 위안에 해당한다.
 
-This guava, the military honors at Mandvulo Grand Hall, the 46 lives in 2021, the precise operation of China excluding Eswatini from the zero-tariff treatment for 53 countries on May 1, and the A340 aircraft dispatched by Mswati to pick up Lai from Taipei are different points on the same narrative line.
+이 구아바와 Mandvulo Grand Hall의 군례, 2021년의 46명 목숨, 5월 1일 중국이 53개국 무관세에서 에스와티니만 정밀하게 제외한 조치, 음스와티가 타이베이로 영접하러 보낸 A340 전용기는 같은 서사선 위의 서로 다른 지점들이다.
 
-What it tells us is: Diplomatic relations fall into the concrete cooperation accumulated over 58 years, transcending the level of abstract plaques; but it also tells us that when the day after Mswati arrives, whether Taiwan has accumulated enough relational thickness "not relying on one person" to prevent this guava's supply chain from disappearing along with one person's position?
+그것이 우리에게 말해 주는 것은 이것이다. 수교는 58년 동안 축적된 구체적 협력체 안에 놓여 있으며, 추상적 명패의 차원을 넘어선다. 그러나 그것은 또한 우리에게 말한다. 음스와티 이후의 그날이 올 때, 대만은 “한 사람에게 의존하지 않는” 관계의 두께를 충분히 축적해 이 구아바의 공급망이 한 사람의 자리와 함께 사라지지 않도록 할 수 있는가?
 
-This question has no answer yet. But the existence of the question itself is Taiwan's most honest posture in facing its "last ally" in 2026.
+이 질문에는 아직 답이 없다. 그러나 질문이 존재한다는 사실 자체가, 대만이 2026년에 “마지막 우방”을 마주할 때 취할 수 있는 가장 정직한 태도다.
 
-> "The Republic of China (Taiwan) is a sovereign country that belongs to the world." — Lai Ching-te at Mandvulo Grand Hall, May 3, 2026.
+> “The Republic of China (Taiwan) is a sovereign country that belongs to the world.”(중화민국(대만)은 세계에 속한 주권국가이다) — 2026년 5월 3일, Mandvulo Grand Hall에서 라이칭더.
 
-Africa's last diplomatic lifeline hangs on one person. This is both its most moving aspect and the homework Taiwan's diplomacy must prepare for in the next decade.
+아프리카의 마지막 외교 생명선은 한 사람에게 걸려 있다. 이것은 그 관계의 가장 감동적인 지점이자, 향후 10년 대만 외교가 준비해야 할 과제다.
 
-**Further Reading**:
+**더 읽기**:
 
-- [Taiwan's Allied Nations and International Diplomacy](/society/台灣邦交國與國際外交) — A three-layer structure of 12 allied nations vs. 113 overseas bases vs. 177 visa-free destinations; Eswatini is the most critical piece in Africa.
-- [Lai Ching-te](/people/賴清德) — From a Tainan physician to the President of the Republic of China, the evolution of Lai Ching-te's discourse on foreign relations after taking office.
-- [Tsai Ing-wen](/people/蔡英文) — The two presidential visits to Eswatini, corresponding to two stages of Taiwan-Eswatini diplomatic relations at the time points of 2018 and 2023.
-- [318 Student Movement](/society/太陽花學運) — How the streets of 2014 became the confidence for the system's external discourse in 2024-2025.
-- [2026 Zheng-Xi Meeting and the Decade Reunion of KMT and CCP](/society/2026鄭習會與國共十年再會) — Contemporaneous cross-strait dynamics, understanding the larger background of China's pressure on Taiwan.
-- [Cognitive Warfare](/society/認知作戰) — A more systematic framework for China's language operations such as "rat" and "stealthy external窜".
-- [파라과이와 대만](/society/巴拉圭與台灣) — 남미의 유일한 수교국, 중국의 압력 속에서 장기 협력으로 관계를 유지하는 또 다른 사례.
+- [대만 수교국과 국제외교](/society/台灣邦交國與國際外交) — 12개 수교국 vs 113개 해외 거점 vs 177개 무비자 목적지라는 세 겹 구조, 에스와티니는 그중 가장 핵심적인 아프리카 조각이다
+- [라이칭더](/people/賴清德) — 타이난 의사에서 중화민국 총통까지, 라이칭더 취임 뒤 대외관계 담론의 변화
+- [차이잉원](/people/蔡英文) — 두 차례 에스와티니를 방문한 총통, 2018년과 2023년이라는 두 시점은 대만-에스와티니 수교의 두 단계를 비춘다
+- [해바라기 학생운동](/society/太陽花學運) — 2014년의 거리가 어떻게 2024-2025년 체제의 대외 담론에 기반을 제공했는가
+- [2026 정시 회동과 국민당-공산당 10년 만의 재회](/society/2026鄭習會與國共十年再會) — 같은 시기의 양안 동향, 중국의 대만 압박을 더 큰 배경에서 이해하기
+- [인지전](/society/認知作戰) — 중국의 “rat”, “밀항식 해외 도주”와 같은 언어 조작을 보는 더 체계적인 틀
+- [파라과이와 대만](/society/巴拉圭與台灣) — 남아메리카 유일 수교국, 중국 압력 아래 장기 협력으로 지탱되는 또 다른 관계
 
-## Image Sources
+## 이미지 출처
 
-This article uses 3 photos from the official press releases of the Office of the President, Republic of China, all cached in `public/article-images/society/` to avoid hotlinking to the source server. License: Open Government Data License (OGDL).
+이 글은 중화민국 총통부 공식 보도자료 사진 3장을 사용했으며, 모두 원 출처 서버의 핫링크를 피하기 위해 `public/article-images/society/`에 캐시했다. 라이선스: 정부공개자료(OGDL — Open Government Data License).
 
-- [taiwan-eswatini-military-honor-2026.jpg (hero)](https://english.president.gov.tw/News/7121) — On May 2, 2026, President Lai Ching-te received military honors from Eswatini at Mbabane Airport. Photo: Office of the President, Republic of China.
-- [taiwan-eswatini-mandvulo-summit-2026.jpg](https://english.president.gov.tw/News/7122) — On May 3, 2026, Lai Ching-te and Mswati III held bilateral talks at the Mandvulo Grand Hall of the Lozitha Royal Palace. Photo: Office of the President, Republic of China.
-- [taiwan-eswatini-joint-communique-2026.jpg](https://english.president.gov.tw/News/7122) — On May 3, 2026, Taiwan and Eswatini signed the Customs Mutual Assistance Agreement and a Joint Communiqué at the Mandvulo Grand Hall. Photo: Office of the President, Republic of China.
+- [taiwan-eswatini-military-honor-2026.jpg (hero)](https://english.president.gov.tw/News/7121) — 2026년 5월 2일 라이칭더 총통이 음바바네 공항에서 에스와티니 군례를 받는 장면. Photo: 중화민국 총통부.
+- [taiwan-eswatini-mandvulo-summit-2026.jpg](https://english.president.gov.tw/News/7122) — 2026년 5월 3일 라이칭더와 음스와티 3세가 Lozitha Royal Palace의 Mandvulo Grand Hall에서 양자회담을 하는 장면. Photo: 중화민국 총통부.
+- [taiwan-eswatini-joint-communique-2026.jpg](https://english.president.gov.tw/News/7122) — 2026년 5월 3일 대만과 에스와티니 양측이 Mandvulo Grand Hall에서 《세관 상호지원협정》과 공동공보에 서명하는 장면. Photo: 중화민국 총통부.
 
-## References
+## 참고자료
 
-[^1]: [Wikipedia: Relations between the Republic of China and Eswatini](https://zh.wikipedia.org/zh-tw/中華民國—史瓦帝尼關係) — A complete timeline of bilateral diplomatic relations since 1968, including records of Mswati III's 17 visits to Taiwan, dates of signing bilateral agreements, and Ministry of Foreign Affairs CountryInfo reference data.
+[^1]: [위키백과: 중화민국-에스와티니 관계](https://zh.wikipedia.org/zh-tw/中華民國—史瓦帝尼關係) — 1968년 이후 양자 수교 변천의 전체 연표, 음스와티 3세의 대만 방문 17회 기록, 역대 양자 협정 체결일, 외교부 CountryInfo 인용 자료 포함.
 
-[^2]: [Commonwealth Magazine: Nauru Breaks Relations with Taiwan, Allied Nations Drop to 12](https://www.cw.com.tw/article/5128969) — Official records and background analysis of Taiwan's number of allied nations changing from 13 to 12 after Nauru broke relations on January 15, 2024, including the context of China's long-term financial aid to Nauru.
+[^2]: [천하잡지: 나우루가 대만과 단교, 수교국 12개국으로 감소](https://www.cw.com.tw/article/5128969) — 2024년 1월 15일 나우루 단교 뒤 대만 수교국 수가 13개국에서 12개국으로 바뀐 공식 기록과 배경 분석, 중국의 나우루 장기 재정 지원 맥락 포함.
 
-[^3]: [Office of the President, Republic of China: President Lai Ching-te Arrives in the Kingdom of Eswatini](https://english.president.gov.tw/News/7121) — English press release from the Office of the President on May 2, 2026, including records and official photos of President Lai Ching-te arriving in Mbabane from Taipei via Eswatini's Airbus A340 aircraft, military honor ceremonies, and greetings with staff of the Embassy in Eswatini.
+[^3]: [중화민국 총통부: 라이칭더 총통 에스와티니 왕국 도착](https://english.president.gov.tw/News/7121) — 2026년 5월 2일 총통부 영어 보도자료. 라이칭더가 에스와티니 Airbus A340 전용기를 타고 타이베이에서 음바바네로 직항 도착한 일, 군례 의식, 주에스와티니 대사관 인원과의 인사 장면 및 공식 사진 포함.
 
-[^4]: [CNA: President Lai Meets with King Eswatini](https://www.cna.com.tw/news/aipl/202605040002.aspx) — CNA official report on May 4, 2026, recording the bilateral talks between Lai Ching-te and Mswati III, the signing of the Joint Communiqué, and the contrasting background of China granting zero tariffs to 53 African countries while excluding Eswatini.
+[^4]: [중앙통신사: 라이 총통, 에스와티니 국왕 회동](https://www.cna.com.tw/news/aipl/202605040002.aspx) — 2026년 5월 4일 중앙통신사 공식 보도. 라이칭더와 음스와티 3세의 양자회담, 공동공보 서명, 같은 시기 중국이 아프리카 53개국에 무관세를 부여하면서 유독 에스와티니만 제외한 대조적 배경 기록.
 
-[^5]: [Public Television News Network: Flight Permits Cancelled, Lai Ching-te's Visit Suspended](https://news.pts.org.tw/article/804728) — PTS report on the emergency cancellation on April 21, 2026, of the originally scheduled visit on April 22, including details and analysis of the revocation of flight permits by Seychelles, Mauritius, and Madagascar.
+[^5]: [공시신문망: 비행 허가 취소, 라이칭더 방문 잠정 연기](https://news.pts.org.tw/article/804728) — 공시가 2026년 4월 21일 당초 4월 22일로 예정된 방문이 긴급 취소된 상황을 보도한 기사. 세이셸, 모리셔스, 마다가스카르 세 나라가 비행 허가를 취소한 세부 내용과 분석 포함.
 
-[^6]: [Al Jazeera: Taiwan leader visits Eswatini despite China's attempts to block trip](https://www.aljazeera.com/news/2026/5/3/taiwan-leader-visits-eswatini-despite-chinas-attempts-to-block-trip) — Al Jazeera international media report on May 3, 2026, including the international perspective on the "surprise visit" framework, the historical moment of the King lending an aircraft for pickup, and China's reaction.
+[^6]: [Al Jazeera: Taiwan leader visits Eswatini despite China's attempts to block trip](https://www.aljazeera.com/news/2026/5/3/taiwan-leader-visits-eswatini-despite-chinas-attempts-to-block-trip) — 2026년 5월 3일 Al Jazeera 국제 보도. surprise visit 프레임, 에스와티니 국왕이 항공기를 빌려 영접한 역사적 장면, 중국 반응 등 국제적 시각 포함.
 
-[^7]: [Office of the President, Republic of China: President Lai Ching-te Holds Bilateral Talks with King Mswati III of Eswatini](https://english.president.gov.tw/News/7122) — English press release from the Office of the President on May 3, 2026, including the full record of bilateral talks at the Mandvulo Grand Hall of the Lozitha Royal Palace, the signing of the Joint Communiqué and the Customs Mutual Assistance Agreement, core quotes from both heads of state, Lai Ching-te and Mswati III, and official photos.
+[^7]: [중화민국 총통부: 라이칭더 총통, 에스와티니 국왕 음스와티 3세와 양자회담 개최](https://english.president.gov.tw/News/7122) — 2026년 5월 3일 총통부 영어 보도자료. Lozitha Royal Palace의 Mandvulo Grand Hall 양자회담 전 과정 기록, 공동공보와 《세관 상호지원협정》 서명, 라이칭더와 음스와티 3세 두 정상의 핵심 인용문, 공식 사진 포함.
 
-[^8]: [Wikipedia: Eswatini–Taiwan relations](https://en.wikipedia.org/wiki/Eswatini–Taiwan_relations) — English version of the bilateral relations article, including the date of establishing diplomatic relations, chronology of signed agreements, evolution of aid projects, and timeline of pressure from China's poaching efforts.
+[^8]: [Wikipedia: Eswatini–Taiwan relations](https://en.wikipedia.org/wiki/Eswatini–Taiwan_relations) — 양자관계 영어판 항목. 수교일, 역대 체결 협정, 원조 사업의 변화, 중국의 외교적 압박 연표에 관한 영어 연구 자료 포함.
 
-[^9]: [Wikipedia: Mswati III](https://en.wikipedia.org/wiki/Mswati_III) — Biography of Mswati III, including birth date April 19, 1968, coronation as the world's youngest reigning monarch on April 25, 1986, constitutional powers of absolute monarchy, listing with Queen Mother Ntfombi as existing absolute monarchs, and records of visits to Taiwan.
+[^9]: [Wikipedia: Mswati III](https://en.wikipedia.org/wiki/Mswati_III) — 음스와티 3세 개인 전기. 1968-04-19 출생일, 1986-04-25 세계 최연소 재위 군주로 즉위, 절대군주제 헌법 권한, 모후 은톰비와 함께 현존 절대군주로 꼽히는 배경, 대만 방문 기록 등 포함.
 
-[^10]: [Storm.Mg (citing BBC Chinese): 140 Million Infrastructure Temptation and the Key to Taiwan-Eswatini Relations](https://www.storm.mg/article/11123433) — Storm.Mg platform reposting a BBC Chinese in-depth report, including Professor Yang Hao's analysis of "Mswati's personal will supporting diplomatic relations," the context of China's economic operations on Eswatini, and the impact of absolute monarchy on diplomatic decision-making.
+[^10]: [풍전매(BBC 중국어판 인용): 1억 4천만 달러 기반시설 유혹과 절대왕권이 좌우하는 대만-에스와티니 수교의 핵심](https://www.storm.mg/article/11123433) — 풍전매 플랫폼이 BBC 중국어판 심층보도를 전재한 기사. “음스와티 개인의 의지가 수교를 떠받친다”는 국립정치대 동아시아연구소 양하오 교수의 분석, 중국의 대에스와티니 경제 조작 맥락, 절대군주제가 외교 결정에 미치는 영향 포함.
 
-[^11]: [Liberty Times Net: BBC Reveals Key to Diplomatic Relations](https://news.ltn.com.tw/news/politics/breakingnews/5411129) — Liberty Times Net report, recording China's granting of zero tariffs for 98% of tariff items to 53 African countries on May 1, 2026, excluding Eswatini, a naked economic coercion, and the "exchanging infrastructure for diplomatic relations" operation of China's Hydro China Construction Group winning the bid for Eswatini's Pekisila Dam for $146 million in 2023.
+[^11]: [자유시보: BBC가 드러낸 수교의 핵심](https://news.ltn.com.tw/news/politics/breakingnews/5411129) — 자유시보 보도. 2026년 5월 1일 중국이 아프리카 53개국에 98% 세목 무관세를 부여하면서 유독 에스와티니만 제외한 노골적 경제 강압, 2023년 중국수전건설그룹이 1억 4,600만 달러 규모의 에스와티니 페키실라 댐을 낙찰받은 “기반시설과 수교 교환” 조작 기록.
 
-[^12]: [Upmedia: 2 Years After Taiwan-Burkina Faso Break, 4 Nations Switch to Beijing](https://www.upmedia.mg/news_info.php?SerialNo=41535) — Upmedia in-depth report, recording the timeline and political context of 10 African nations switching from Taiwan to Beijing over the past 30 years, including key break events such as São Tomé and Príncipe in 2016 and Burkina Faso in 2018.
+[^12]: [상보: 대만-부르키나파소 단교 뒤 2년 내 4개국 베이징으로 전환](https://www.upmedia.mg/news_info.php?SerialNo=41535) — 상보 심층 보도. 지난 30년 동안 아프리카 10개국이 대만에서 베이징으로 전환한 연표와 정치적 맥락, 2016년 상투메 프린시페, 2018년 부르키나파소 등 핵심 단교 사건 포함.
 
-[^13]: [Office of the President, Republic of China: President Tsai Ing-wen's 2018/2023 Eswatini Visit Special](https://www.president.gov.tw/Page/409) — Official press release page for Tsai Ing-wen's two visits to Eswatini, including the bilateral statements and signed agreements from the first visit on April 17-20, 2018, and the second visit on September 5-8, 2023, celebrating the 55th anniversary of diplomatic relations.
+[^13]: [중화민국 총통부: 차이잉원 2018/2023 에스와티니 방문 특집](https://www.president.gov.tw/Page/409) — 총통부 공식 차이잉원의 두 차례 에스와티니 방문 전체 보도자료 페이지. 2018년 4월 17-20일 첫 방문, 2023년 9월 5-8일 수교 55주년 기념 두 번째 방문의 양자 성명과 협정 서명 기록 포함.
 
-[^14]: [United Daily News: Red Heart Guavas Witness Taiwan-Eswatini Friendship](https://udn.com/news/story/124844/9479296) — United Daily News report on Lai Ching-te's press conference during his May 3, 2026 visit to Eswatini, including his use of "Red Heart Guavas entering SUPERSPAR" as a concrete hook for the 40+ year achievements of the stationed Agricultural Technical Team, cooperation channels, and details of localized production.
+[^14]: [연합보: 붉은 속살 구아바가 대만-에스와티니 우호를 증명](https://udn.com/news/story/124844/9479296) — 연합보의 2026년 5월 3일 라이칭더 에스와티니 방문 기자회견 보도. 그가 “붉은 속살 구아바의 SUPERSPAR 진입”을 주에스와티니 농업기술단 40년 이상 성과의 구체적 hook으로 삼은 내용, 협력 유통망과 현지화 생산 세부사항 포함.
 
-[^15]: [Focus Taiwan: Lai visits Royal Science and Technology Park, agriculture and medical aid](https://focustaiwan.tw/politics/202605030009) — Focus Taiwan (CNA English version) in-depth report, including a complete inventory of aid projects such as the TaiwanICDF's Agricultural Technical Team in Eswatini, the Taipei Medical University system's medical team, and briefings on the Strategic Oil Reserve and the Taiwan Industrial Innovation Park.
+[^15]: [Focus Taiwan: Lai visits Royal Science and Technology Park, agriculture and medical aid](https://focustaiwan.tw/politics/202605030009) — Focus Taiwan 중앙통신사 영어판 심층 보도. TaiwanICDF 주에스와티니 농업기술단, 타이베이의학대학 체계 의료단, 전략비축유 저장시설과 대만산업혁신단지 브리핑에 관한 전체 원조 사업 목록 포함.
 
-[^16]: [Wikipedia: HIV/AIDS in Eswatini](https://en.wikipedia.org/wiki/HIV/AIDS_in_Eswatini) — Complete epidemiological data on HIV in Eswatini, including the 27.2% adult prevalence rate being the highest in the world, gender gaps, geographic distribution, detailed figures by age group, and records of intervention by multilateral international aid organizations.
+[^16]: [Wikipedia: HIV/AIDS in Eswatini](https://en.wikipedia.org/wiki/HIV/AIDS_in_Eswatini) — 에스와티니 HIV 역학 전체 자료. 27.2%의 성인 유병률이 세계 최고라는 점, 성별 격차, 지리적 분포, 각 연령층 세부 수치, 다자 국제 원조 조직의 개입 기록 포함.
 
-[^17]: [Al Jazeera: Eswatini king recovers from COVID-19, takes drugs sent by Taiwan](https://www.aljazeera.com/news/2021/2/20/eswatini-king-recovers-from-covid-takes-drugs-by-taiwan) — Al Jazeera report on February 20, 2021, on Mswati III contracting COVID-19 and the Tsai Ing-wen administration sending antiviral drugs through diplomatic channels to assist in recovery, including Mswati's public thank-you quote.
+[^17]: [Al Jazeera: Eswatini king recovers from COVID-19, takes drugs sent by Taiwan](https://www.aljazeera.com/news/2021/2/20/eswatini-king-recovers-from-covid-takes-drugs-sent-by-taiwan) — 2021년 2월 20일 Al Jazeera 보도. 음스와티 3세의 COVID-19 감염, 대만 차이잉원 정부가 외교 경로로 항바이러스제를 보내 회복을 도운 사건, 음스와티의 공개 감사 인용문 포함.
 
-[^18]: [The Global Fund: Eswatini meets global 95-95-95 HIV target](https://www.theglobalfund.org/en/stories/2020/2020-09-14-eswatini-meets-global-95-95-95-hiv-target/) — Global Fund report on September 14, 2020, recording Eswatini becoming one of the first African countries to achieve the UNAIDS 95-95-95 HIV treatment targets, including analysis of the contribution of multilateral aid combinations such as PEPFAR, Global Fund, and Taiwan.
+[^18]: [The Global Fund: Eswatini meets global 95-95-95 HIV target](https://www.theglobalfund.org/en/stories/2020/2020-09-14-eswatini-meets-global-95-95-95-hiv-target/) — 글로벌펀드의 2020년 9월 14일 보고서. 에스와티니가 일부 아프리카 국가 중 UNAIDS 95-95-95 HIV 치료 목표를 가장 먼저 달성한 나라 가운데 하나가 된 성과, PEPFAR, Global Fund, 대만 등 다자 원조 조합의 기여 분석 포함.
 
-[^19]: [NBC News: Taiwan president defiant in Eswatini visit, China calls him 'rat'](https://www.nbcnews.com/world/taiwan/taiwan-president-defiant-visit-eswatini-china-calls-rat-rcna343303) — NBC News international report on China's Ministry of Foreign Affairs reaction after Lai Ching-te's visit to Eswatini in May 2026, including English version records of language operations such as "rat," "stealthy external窜," and "international laughingstock."
+[^19]: [NBC News: Taiwan president defiant in Eswatini visit, China calls him 'rat'](https://www.nbcnews.com/world/taiwan/taiwan-president-defiant-visit-eswatini-china-calls-rat-rcna343303) — NBC News 국제 보도. 2026년 5월 라이칭더의 에스와티니 방문 뒤 중국 외교부 반응, “rat”, “밀항식 해외 도주”, “국제적 웃음거리” 등 언어 조작의 영어판 기록 포함.
 
-[^20]: [Liberty Times Net: US Response to Lai's Visit to Eswatati: Taiwan is a Trusted Partner](https://news.ltn.com.tw/news/world/breakingnews/5424406) — Liberty Times Net report on the US State Department's official response to Lai Ching-te's visit to Eswatini, including the original quote "Taiwan is a trusted and capable partner" and the stance against China "should not be politicized."
+[^20]: [자유시보: 라이칭더 에스와티니 방문에 대한 미국 측 반응, Taiwan is a trusted partner](https://news.ltn.com.tw/news/world/breakingnews/5424406) — 자유시보 보도. 라이칭더의 에스와티니 방문에 대한 미국 국무부 공식 반응, “Taiwan is a trusted and capable partner” 원문과 “정치화되어서는 안 된다”는 대중국 입장 포함.
 
-[^21]: [CNA: Strategic Oil Reserve + Taiwan Industrial Innovation Park Briefing](https://www.cna.com.tw/news/aipl/202605030211.aspx) — CNA report on May 3, 2026, on Lai Ching-te's inspection of the Royal Science and Technology Park in the afternoon, featuring two flagships: the Strategic Oil Reserve and the Taiwan Industrial Innovation Park (TIIP), including briefing details from the Overseas Investment Development Corporation and Taiwan Engineering Consultants.
+[^21]: [중앙통신사: 전략비축유 저장시설 + 대만산업혁신단지 브리핑](https://www.cna.com.tw/news/aipl/202605030211.aspx) — 중앙통신사 보도. 2026년 5월 3일 오후 라이칭더가 왕립과학기술단지(Royal Science and Technology Park)를 시찰한 두 대표 사업, 전략비축유 저장시설(Strategic Oil Reserve)과 대만산업혁신단지(Taiwan Industrial Innovation Park, TIIP), 해외투자개발공사 및 대만세희엔지니어링컨설턴트 브리핑 세부 내용 포함.
 
-[^22]: [United Daily News: Lai Ching-te Defines Eswatini's Largest Cooperation](https://udn.com/news/story/124844/9482091) — United Daily News report on Lai Ching-te's quotes on the Strategic Oil Reserve and TIIP, defining them as "the largest-scale and most strategically significant cooperation projects since the establishment of diplomatic relations between the two countries" and "the former guards stability, the latter creates growth," providing the complete official narrative.
+[^22]: [연합보: 라이칭더, 에스와티니 최대 협력의 성격 규정](https://udn.com/news/story/124844/9479402) — 연합보 보도. 라이칭더가 전략비축유 저장시설과 TIIP를 “양국 수교 이래 규모가 가장 크고 전략적 의미가 가장 큰 협력 계획”, “전자는 안정을 지키고, 후자는 성장을 창출한다”고 규정한 공식 담론 전체 인용 포함.
 
-[^23]: [Wikipedia: 2021 Eswatini protests](https://en.wikipedia.org/wiki/2021_Eswatini_protests) — Complete timeline of Eswatini's democratization protests from May-July 2021, including the triggering event by law student Thabani Nkomonye, 500 youths emerging on the streets of Manzini, the Acting Prime Minister's ban on June 25, nationwide riots from June 28 to July 4, HRW confirming 46 deaths, and civilian estimates exceeding a hundred.
+[^23]: [Wikipedia: 2021 Eswatini protests](https://en.wikipedia.org/wiki/2021_Eswatini_protests) — 2021년 5-7월 에스와티니 민주화 시위 전체 연표. 법학과 학생 Thabani Nkomonye 사건, Manzini 거리로 나온 청년 500명, 6/25 권한대행 총리의 금지령, 6/28-7/04 전국 폭동, HRW가 확인한 46명 사망, 민간 추정 100명 이상 사망 기록 포함.
 
-[^24]: [Human Rights Watch: Eswatini — No Justice for June 2021 Security Force Violence](https://www.hrw.org/news/2025/10/30/eswatini-no-justice-for-june-2021-security-force-violence) — Human Rights Watch latest report on October 30, 2025, confirming that no security force members have been held accountable for the June 2021 violence incidents as of October 2025, including details on family interviews, stagnation of investigation procedures, and international society responses.
+[^24]: [Human Rights Watch: Eswatini — No Justice for June 2021 Security Force Violence](https://www.hrw.org/news/2025/10/30/eswatini-no-justice-for-june-2021-security-force-violence) — 휴먼라이츠워치의 2025년 10월 30일 최신 보고서. 2021년 6월 폭력 사건에 대해 2025년 10월까지 어떤 보안군 구성원도 책임을 추궁받지 않았음을 확인하며, 유가족 인터뷰, 조사 절차 정체, 국제사회 대응 등 세부사항 포함.
 
-[^25]: [International Monetary Fund: Eswatini 2025 Article IV Consultation](https://www.imf.org/-/media/files/publications/cr/2025/english/1swzea2025001-source-pdf.pdf) — IMF 2025 Eswatini Article IV Consultation Report, including complete economic analysis of GDP, unemployment rates (overall 34%, youth 56-58%), poverty rates, SACU distribution, and sugar industry structure.
+[^25]: [International Monetary Fund: Eswatini 2025 Article IV Consultation](https://www.imf.org/-/media/files/publications/cr/2025/english/1swzea2025001-source-pdf.pdf) — IMF 2025년 에스와티니 제4조 협의 보고서. GDP, 실업률(전체 34%, 청년 56-58%), 빈곤율, SACU 배분, 설탕산업 구조 등 전체 경제 분석 포함.
 
-[^26]: [United Daily News: Lai Ching-te's Return Avoids China's Sensitive Airspace](https://udn.com/news/story/124844/9482091) — United Daily News report on Lai Ching-te's return details on May 4-5, 2026, including the aircraft deliberately turning off identity information, flying a southern Indian Ocean route via Indonesia and the Philippines, and arriving at Taoyuan Airport at 10:40 AM on May 5.
+[^26]: [연합보: 라이칭더 귀국 항로, 중국 민감 공역 회피](https://udn.com/news/story/124844/9482091) — 연합보 보도. 2026년 5월 4-5일 라이칭더 귀국 세부사항, 항공기가 의도적으로 신원 정보를 끄고 남쪽 인도양 항로를 따라 인도네시아와 필리핀을 거쳐 대만으로 돌아온 일, 5/5 오전 10:40 타오위안공항 도착 등 일정 배치 포함.

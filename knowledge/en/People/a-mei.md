@@ -11,10 +11,10 @@ lastVerified: 2026-05-08
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/張惠妹.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:ccb03edca388c7b1'
-sourceBodyHash: 'sha256:bd4e3f38e6cd61a0'
-translatedAt: '2026-05-24T22:33:51Z'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:aebfe56ef8181ee0'
+sourceBodyHash: 'sha256:2548692a01191648'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # A-mei: Puyuma Diva, from 1996's _Sisters_ to 2024 Taipei Dome Five Shows

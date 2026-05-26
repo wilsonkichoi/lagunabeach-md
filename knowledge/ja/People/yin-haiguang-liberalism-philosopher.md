@@ -23,6 +23,7 @@ translatedFrom: 'People/殷海光.md'
 sourceCommitSha: '4b6d28c5'
 sourceBodyHash: 'sha256:51ae38d79a7cc954'
 sourceContentHash: 'sha256:0d8d9acd7b29d4d0'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 > **30秒概覧：**

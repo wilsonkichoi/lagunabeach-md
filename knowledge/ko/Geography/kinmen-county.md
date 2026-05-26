@@ -25,10 +25,10 @@ lastVerified: 2026-05-18
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/金門縣.md'
-sourceCommitSha: 6b59db34
-sourceContentHash: sha256:ec3f869ebb10980c
-sourceBodyHash: sha256:0ef9b080fa1ae10e
-translatedAt: 2026-05-25T06:36:28+08:00
+sourceCommitSha: '544200ea'
+sourceContentHash: 'sha256:138cb030102543d9'
+sourceBodyHash: 'sha256:7fa7312e98b0f732'
+translatedAt: '2026-05-25T21:07:07Z'+08:00
 ---
 
 # 진먼현: 1949년 그 56시간이 진먼 75년의 운명을 결정했다

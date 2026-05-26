@@ -16,10 +16,10 @@ readingTime: 7
 #   whats_excluded: "各張專輯完整歌曲列表；商業代言清單；各演唱會場次細目"
 #   where_it_hedges: "張雨生發掘細節：各方說法略有出入，以維基百科為準；2023北京彩虹旗爭議另案記錄"
 translatedFrom: 'People/張惠妹.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:ccb03edca388c7b1'
-sourceBodyHash: 'sha256:bd4e3f38e6cd61a0'
-translatedAt: '2026-05-25T06:37:35+08:00'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:aebfe56ef8181ee0'
+sourceBodyHash: 'sha256:2548692a01191648'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 # A-mei : diva Puyuma, de _Sisters_ (1996) à cinq concerts au Taipei Dome (2024)

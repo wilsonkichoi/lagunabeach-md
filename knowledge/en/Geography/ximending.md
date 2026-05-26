@@ -28,10 +28,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/西門町.md'
-sourceCommitSha: '946f38bb4'
-sourceContentHash: 'sha256:01ea9b4d40fddbc9'
-sourceBodyHash: 'sha256:1a39a5db41205a6a'
-translatedAt: '2026-05-22T05:08:46+08:00'
+sourceCommitSha: '20a4ac33'
+sourceContentHash: 'sha256:1aff728fe300b0bd'
+sourceBodyHash: 'sha256:2e82b412c0365ee8'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # Ximending: The Entertainment Street the Japanese Built in 1896 Is Still Taipei’s Youngest Street 130 Years Later
@@ -180,7 +180,7 @@ The next time you walk past the Octagonal Hall of the Ximen Red House, stop for 
 - [Taiwan’s Old Street Culture and Commercial Districts](/culture/台灣老街文化與商業街區) — The structural differences between Ximending as a Japanese-planned entertainment district and Qing-era old streets such as Lukang, Bangka, and Dadaocheng
 - [Bangka](/geography/艋舺) — A batch 1 historic-district sibling: when the Japanese planned Ximending in 1896, neighboring Bangka was northern Taiwan’s busiest Qing-era port
 - [Dadaocheng](/geography/大稻埕) — A batch 1 historic-district sibling: the emerging tea commercial street after the 1853 Dingxiajiao conflict, and Ximending’s Japanese-era entertainment district, are two different “street-formation moments”
-- [Zhongshan North Road Tiaotong](/geography/中山北路條通) — A batch 1 historic-district sibling: the 1901 Chokushi Kaido, postwar U.S. military housing, and the Japanese-businessman tiaotong culture after 1972; like Ximending, it was planned under Japanese rule, but served a completely different class
+- [Zhongshan North Road Tiaotong](/geography/中山北路條通) — The 1898 Japanese colonial "Chokushi Kaido" tree-lined boulevard leading to the Maruyama Taiwan Shrine; like Ximending it was Japanese-era planned, but a completely different urban experiment
 
 ## Image sources
 

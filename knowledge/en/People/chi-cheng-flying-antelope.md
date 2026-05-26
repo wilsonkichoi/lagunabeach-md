@@ -11,10 +11,10 @@ lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/紀政.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:ac035cdcf01e05b4'
-sourceBodyHash: 'sha256:4c7c2552cb14f3c8'
-translatedAt: '2026-05-24T22:33:51Z'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:ec85f3e1d7f5d977'
+sourceBodyHash: 'sha256:5932775fa82a34d0'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # Chi Cheng: Set 10 World Records, Still Running for Taiwan's Name 50 Years Later

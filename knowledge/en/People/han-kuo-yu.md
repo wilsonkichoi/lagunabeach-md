@@ -10,10 +10,10 @@ lastVerified: 2026-04-11
 lastHumanReview: false
 featured: true
 translatedFrom: People/韓國瑜.md
-sourceCommitSha: 'd6e87d07'
+sourceCommitSha: '86db85f3'
 sourceContentHash: 'sha256:43806fa3b9658513'
 sourceBodyHash: 'sha256:fe00573219684528'
-translatedAt: '2026-05-16T21:50:00Z'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # Han Kuo-yu

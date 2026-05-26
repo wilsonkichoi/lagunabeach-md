@@ -18,10 +18,10 @@ lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/朱經武.md'
-sourceCommitSha: '5c000f86'
-sourceContentHash: 'sha256:ee5b642d51157582'
-sourceBodyHash: 'sha256:cf9cdcbf2f556520'
-translatedAt: '2026-05-24T22:20:27Z'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:79c87fb84a11dd9d'
+sourceBodyHash: 'sha256:619ef92c56c46024'
+translatedAt: '2026-05-25T21:06:51Z'
 # design_rationale:
 #   why_this_hook: "從1987年1月那個溫度數字切入——93K不只是一個物理數字，是超導體史上跨越液氮門檻的那一天。"
 #   whats_excluded: "BCS理論細節；歷年學術論文清單；超導應用工程規格"

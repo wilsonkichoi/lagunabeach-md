@@ -19,10 +19,10 @@ lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/AI發展.md'
-sourceCommitSha: 'f712b724'
-sourceContentHash: 'sha256:94f6db1587e84f6b'
-sourceBodyHash: 'sha256:f92e6b6e01c4424a'
-translatedAt: '2026-05-15T14:23:13+08:00'
+sourceCommitSha: '96945e45'
+sourceContentHash: 'sha256:c3a35976261aaad4'
+sourceBodyHash: 'sha256:54302f24eb8f8f54'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # The Rise of an AI Island Nation: Taiwan's AI Development and Future Strategy
@@ -328,6 +328,7 @@ This path is not complete: high-level AI research talent remains in short supply
 **Further Reading**:
 
 - [Wu Che-yu](/people/吳哲宇) — How a new media artist persists as a watchmaker in an "age of overflowing AI generation," offering another creator's perspective outside the AI industry
+- [Taiwan AI School](/technology/台灣人工智慧學校) — From Chen Sheng-wei's 'descending from the heavens' and NT$180 million in crowd-funding, see how the talent pipeline outside government AI strategy fills the gap
 
 ## References
 

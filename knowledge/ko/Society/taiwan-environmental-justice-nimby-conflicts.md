@@ -20,10 +20,10 @@ lastVerified: 2026-03-20
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/台灣環境正義與鄰避爭議.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:8d7b73d5dcd91cdf'
-sourceBodyHash: 'sha256:102f748afe8c1589'
-translatedAt: '2026-05-03T23:14:06+08:00'
+sourceCommitSha: '1d54cbe5'
+sourceContentHash: 'sha256:14488432802fabfe'
+sourceBodyHash: 'sha256:eeb9b885e5063119'
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 # 타이완 환경정의와 님비 논쟁
@@ -225,6 +225,7 @@ translatedAt: '2026-05-03T23:14:06+08:00'
 - [철판지붕 건물](/society/鐵皮屋) — 원쯔전(塭仔圳) 철거는 환경정의의 대표적 사례: 400헥타르 철판 공장 집적지의 오염, 철거 및 이주 난제
 - [사회주택과 거주 정의](/society/社會住宅與居住正義) — 거주 문제의 정책적 측면: 사회주택 공급과 임대 시장 개혁
 - 루슈오옌(盧秀燕) — 2018년 대기 문제를 내세워 타이중에서 승리한 정치인, 중허(中火) 화력발전소, PM2.5, 에너지 전환의 구체적 정책 전장
+- [대만 기후 위기와 탄소중립 전환](/nature/台灣氣候危機與淨零轉型) — 란위 97,672통, 핵3호 2025 국민투표, 조초 3접안, 지열 27배 격차: 에너지 전환의 모든 경로가 대응하는 환경정의 단층선
 
 ## 참고 자료
 

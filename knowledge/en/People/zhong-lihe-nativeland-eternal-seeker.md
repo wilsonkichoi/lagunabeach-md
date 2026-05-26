@@ -11,10 +11,10 @@ lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
 translatedFrom: 'People/鍾理和.md'
-sourceCommitSha: '5c000f86'
-sourceContentHash: 'sha256:336b96e510e804d3'
-sourceBodyHash: 'sha256:55e5e9ef72471788'
-translatedAt: '2026-05-24T22:20:27Z'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:cddbfe1c856d1966'
+sourceBodyHash: 'sha256:59814996cd0ea2c6'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # Zhong Lihe: Meinong 1915, the Writer Who Fell in a Pool of Blood

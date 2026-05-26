@@ -19,10 +19,10 @@ lastVerified: 2026-05-13
 lastHumanReview: false
 category: People
 translatedFrom: People/李珠珢.md
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:c87fa614c30922e7'
-sourceBodyHash: 'sha256:c0d649ed19f7f301'
-translatedAt: '2026-05-24T22:35:14Z'
+sourceCommitSha: '859d7316'
+sourceContentHash: 'sha256:451da618ddccb297'
+sourceBodyHash: 'sha256:4b9c8f80e4d299c5'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 > **30 秒でわかる概要：** 李珠珢は 2025 年に富邦とマネジメント契約を結び、2026 年には活動の重心をより明確に台湾に置きました。彼女の意義は高い注目度だけではなく、韓籍チアリーダーの在り方を「日韓往復」から「台湾での長期滞在」へと推し進めた点にあります。

@@ -1,266 +1,268 @@
 ---
-title: "Taiwan and Eswatini: Africa's Last Diplomatic Lifeline, Hanging on One Person"
-description: "On May 2, 2026, at 9:00 AM, Lai Ching-te landed in Mbabane aboard an A340 aircraft borrowed from the King of Eswatini. This marks the first time a Taiwanese President's flight was canceled due to Chinese pressure on flight permits, with the final solution being a plane dispatched by the King of a friendly nation to pick him up from Taipei. From the establishment of diplomatic relations on the same day as Eswatini's independence in 1968 to its status as the last ally in Africa, from an absolute monarch whose birth year coincides entirely with the history of diplomatic ties to the 46 lives lost in domestic suppression in 2021, from Red Heart Guavas entering SUPERSPAR to China's zero-tariff policy for 53 countries deliberately skipping Eswatini. The 58-year relationship between Taiwan and Eswatini is both the most concrete textbook of a 'sovereign state' and an unsolved question."
-date: 2026-05-05
-tags:
-  [
-    'Friendly Nations',
-    'Eswatini',
-    'Eswatini',
-    'Lai Ching-te',
-    'Tsai Ing-wen',
-    'Chen Shui-bian',
-    'Mswati III',
-    'Taiwan Diplomacy',
-    'TaiwanICDF',
-    'Agricultural Technical Teams',
-    'Medical Diplomacy',
-    '318 Student Movement',
-    'Nauru Breaks Relations',
-  ]
-subcategory: 'International Relations'
+title: 'Taiwán y Eswatini: el último vínculo diplomático en África, pendiente de una sola persona'
+description: 'El 2 de mayo de 2026 a las 9 de la mañana, Lai Ching-te aterrizó en Mbabane a bordo del avión privado A340 prestado por el rey de Eswatini. Fue la primera vez que un presidente taiwán vio revocado su permiso de sobrevuelo por presión de China, y que el monarca de un país aliado envió un avión desde Taipéi para recogerlo. Desde el establecimiento de relaciones diplomáticas el mismo día de la independencia de Eswatini en 1968 hasta convertirse en el último aliado africano, desde un monarca absoluto cuyo año de nacimiento coincide exactamente con la historia de la relación bilateral hasta la represión de 46 vidas en 2021, desde la guayaba de corazón rojo en SUPERSPAR hasta la exclusión deliberada de Eswatini de los aranceles cero para 53 países africanos por parte de China. Los 58 años de relaciones entre Taiwán y Eswatini son el manual más concreto sobre lo que significa "Estado soberano", y también una pregunta sin respuesta.'
+date: '2026-05-05'
 author: 'Taiwan.md'
 category: 'Society'
-readingTime: 12
-lastVerified: 2026-05-05
-lastHumanReview: false
+subcategory: '國際關係'
+tags:
+  [
+    '邦交國',
+    '史瓦帝尼',
+    'Eswatini',
+    '賴清德',
+    '蔡英文',
+    '陳水扁',
+    'Mswati III',
+    '台灣外交',
+    'TaiwanICDF',
+    '農技團',
+    '醫療外交',
+    '318學運',
+    '諾魯斷交',
+  ]
+lastVerified: '2026-05-05'
+lastHumanReview: 'false'
+featured: 'true'
 translatedFrom: 'Society/台灣與史瓦帝尼.md'
-sourceCommitSha: 'c48b46696'
-sourceContentHash: 'sha256:8622030ad39ca9b3'
-translatedAt: '2026-05-05T16:08:09+08:00'
+sourceCommitSha: '23dba5966'
+sourceContentHash: 'sha256:fbdebb7691280ba8'
+sourceBodyHash: 'sha256:e3b2d4439bec2dec'
+translatedAt: '2026-05-26T05:10:57+08:00'
 ---
 
-> **30-Second Overview:** Eswatini (Eswatini, renamed from "Swaziland" in 2018) is Taiwan's only remaining diplomatic partner in Africa. It established diplomatic relations with the Republic of China in September 1968, marking 58 years by 2026. King Mswati III was born in April 1968; five months later, the nation gained independence and established diplomatic relations with Taiwan on the same day. His life almost completely overlaps with the history of Taiwan-Eswatini relations. As of 2024, he has visited Taiwan more than 17 times[^1]. After Nauru broke relations in January 2024, Eswatini became Taiwan's sole diplomatic partner in Africa[^2]. On May 2, 2026, Lai Ching-te's first visit to a friendly nation after taking office was originally scheduled for April 22. However, on April 21, Seychelles, Mauritius, and Madagascar unexpectedly revoked flight permits under pressure from China, creating an "air blockade." Mswati then dispatched the country's Airbus A340 royal aircraft, sending Deputy Prime Minister Thulisile Dladla to Taipei to pick up Lai Ching-te. Lai flew directly from Taipei to Mbabane on May 2[^3]. On May 1 of the same year, China granted zero-tariff treatment for 98% of tariff items to 53 African countries, deliberately excluding Eswatini[^4]. The greatest variable in this diplomatic lifeline is whether the successor after Mswati can persuade a generation with 56% youth unemployment to continue viewing Taiwan as a friend (a question harder to answer than "how much money China uses").
+> **Panorama en 30 segundos:** Eswatini (renombrado en 2018 desde "Suazilandia") es el único aliado diplomático de Taiwán en África. Estableció relaciones con la República de China el 6 de septiembre de 1968, cumpliendo 58 años en 2026. El rey Mswati III nació en abril de 1968, cinco meses antes de que el país obtuviera la independencia y estableciera relaciones con Taiwán el mismo día. Su vida y las relaciones bilaterales casi coinciden por completo. Hasta 2024, había visitado Taiwán más de 17 veces[^1]. Tras la ruptura de Nauru en enero de 2024, Eswatini se convirtió en el único aliado africano de Taiwán[^2]. El 2 de mayo de 2026, en su primera visita a un país aliado tras asumir el cargo, Lai Ching-te originalmente programado para partir el 22 de abril, vio cómo Seychelles, Mauricio y Madagascar revocaron sin previo aviso sus permisos de sobrevuelo bajo presión de China. Mswati envió entonces el Airbus A340 privado de Eswatini con su viceprimera ministra Thulisile Dladla para recoger a Lai en Taipéi, quien aterrizó directamente en Mbabane el 2 de mayo[^3]. El 1 de mayo del mismo año, China otorgó aranceles cero sobre el 98% de las partidas arancelarias a 53 países africanos, excluyendo deliberadamente a Eswatini[^4]. La mayor incertidumbre de este vínculo diplomático radica en si el sucesor de Mswati podrá convencer a una generación con un 56% de desempleo juvenil de seguir considerando a Taiwán como amigo (una pregunta más difícil que "cuánto dinero ofrece China").
 
-## The President Borrows an Aircraft
+## Un presidente presta un avión
 
-Hey, did you know that on May 2, 2026, at 9:00 AM, Lai Ching-te stepped off an Airbus A340 aircraft borrowed from Eswatini's King Mswati III, landing at Mbabane Airport[^3].
+¿Sabías que el 2 de mayo de 2026 a las 9 de la mañana, Lai Ching-te descendió del Airbus A340 privado prestado por el rey Mswati III de Eswatini al aterrizar en el aeropuerto de Mbabane[^3]?
 
-This A340-313 is not a Taiwanese aircraft. It is a royal aircraft owned by the Eswatini royal family. The original plan for Lai Ching-te's visit was to depart from Taipei on April 22. However, on April 21, the trip was紧急 called off. Seychelles, Mauritius, and Madagascar simultaneously and unexpectedly revoked the aircraft's flight permits. Analysis points directly to China pressuring these three African island nations with economic coercion, resulting in an "air blockade"[^5].
+Este A340-313 no era un avión taiwanés. Era el avión privado de la casa real eswatini. La visita original de Lai estaba programada para partir de Taipéi el 22 de abril, pero se canceló de urgencia el 21 de abril cuando Seychelles, Mauricio y Madagascar revocaron simultáneamente y sin previo aviso los permisos de sobrevuelo del avión privado. Los análisis señalaron directamente que la presión económica de China sobre estas tres naciones insulares africanas había provocado un "bloqueo aéreo"[^5].
 
-Mswati's move was decisive: He sent his Deputy Prime Minister, Thulisile Dladla, aboard the royal aircraft from Mbabane to Taipei. On the early morning of May 2, Dladla picked up Lai Ching-te in Taipei and flew back to Eswatini, arriving at 9:00 AM that same morning.
+La jugada de Mswati fue directa: envió a su viceprimera ministra Thulisile Dladla en el avión privado real desde Mbabane hasta Taipéi, y en la madrugada del 2 de mayo recogieron a Lai en Taipéi para volar de regreso a Eswatini, llegando a las 9 de la mañana.
 
-"King Eswatini lends an aircraft to the Taiwanese President to break through China's blockade" is the essence of this visit itself. The _Wall Street Journal_ characterized it as a "surprise visit," while Al Jazeera's headline read "despite China's attempts to block trip"[^6]. CNA also recorded this process of [arriving in Eswatini via a special aircraft on its official channel](https://www.youtube.com/watch?v=YrbOMarnkX8).
+"El rey presta un avión al presidente de Taiwán para romper el bloqueo chino" fue la esencia misma de esta visita. The Wall Street Journal la calificó como "surprise visit" (golpe de efecto), y Al Jazeera tituló "despite China's attempts to block trip" (a pesar de los intentos de China por bloquear el viaje)[^6]. La Agencia Central de Noticias (CNA) también documentó en su canal oficial el [proceso de llegada en el avión privado a Eswatini](https://www.youtube.com/watch?v=YrbOMarnkX8).
 
-![President Lai Ching-te receives a military honor at Mbabane Airport in Eswatini on May 2, 2026, with the Eswatini honor guard lined up to salute.](/article-images/society/taiwan-eswatini-military-honor-2026.jpg)
-_On May 2, 2026, Lai Ching-te received an Eswatini military honor at Mbabane Airport. Photo: Office of the President, Republic of China (Taiwan). [OGDL via Official Press Release](https://english.president.gov.tw/News/7121)._
+![El presidente Lai Ching-te llega al aeropuerto de Mbabane, Eswatini, el 2 de mayo de 2026, recibiendo honores militares mientras la guardia de honor del país forma filas](/article-images/society/taiwan-eswatini-military-honor-2026.jpg)
+_2 de mayo de 2026: Lai Ching-te recibe honores militares en el aeropuerto de Mbabane, Eswatini. Foto: Oficina Presidencial de la República de China. [OGDL vía comunicado oficial de la Oficina Presidencial](https://english.president.gov.tw/News/7121)._
 
-The arrival scene was simple but heavy with significance: Prime Minister Russell Dlamini, Minister of Foreign Affairs and International Cooperation Pholile Shakantu, Taiwan's Ambassador to Eswatini, Jeremy H.S. Liang, and Eswatini's Protocol Officer, Khandlela Mdluli, personally welcomed him. Lai Ching-te received the military honor and greeted the staff of the Eswatini Embassy and the families of the Taiwanese technical teams one by one[^7]. CNA's official channel recorded the full process of [President Lai Ching-te arriving in the Kingdom of Eswatini for a State Visit](https://www.youtube.com/watch?v=TuZ8i6KV7Ys).
+La escena de llegada era sencilla pero cargada de significado: el primer ministro Russell Dlamini, la ministra de Relaciones Exteriores e Internacional Pholile Shakantu, el embajador taiwanés en Eswatini Jeremy H.S. Liang, y el oficial de protocolo eswatini Khandlela Mdluli recibieron personalmente al presidente. Lai Ching-te recibió los honores militares y saludó uno por uno al personal de la embajada y a las familias del equipo técnico taiwanés[^7]. El canal oficial de CNA documentó [la llegada de Lai Ching-te al Reino de Eswatini para realizar una visita de Estado](https://www.youtube.com/watch?v=TuZ8i6KV7Ys).
 
-The political subtext of this airport scene is linked to another September in 1968.
+El subtexto político de esta escena aeroportuaria se conecta con otro septiembre, el de 1968.
 
-## Synchronicity of a Birth Year
+## Una coincidencia de año de nacimiento
 
-Mswati III's birth name is Makhosetive Dlamini. He was born on April 19, 1968, in Swaziland, which was then a British protectorate. Five months later—on September 6—Swaziland gained independence and **in the same year** established diplomatic relations with the Republic of China[^1][^8].
+Mswati III, nacido Makhosetive Dlamini, vino al mundo el 19 de abril de 1968 en lo que entonces era el protectorado británico de Suazilandia. Cinco meses después —el 6 de septiembre— Suazilandia obtuvo la independencia y **ese mismo año** estableció relaciones diplomáticas con la República de China[^1][^8].
 
-In other words, this king, now 58 years old, has a life that almost completely overlaps with the history of Taiwan-Eswatini diplomatic relations. When he was born, there was no relationship with Taiwan; when he came of age, this relationship already existed. After he ascended the throne (on April 25, 1986, at the age of 18 years and 6 days, he was the world's youngest reigning monarch[^9]), he became the personification of this relationship.
+En otras palabras, este rey que ahora tiene 58 años ha vivido una vida que coincide casi por completo con las relaciones bilaterales entre Taiwán y Eswatini. Cuando nació, la relación con Taiwán aún no existía; cuando tuvo uso de razón, ya existía; y cuando ascendió al trono (el 25 de abril de 1986, con 18 años y 6 días, convirtiéndose en el monarca reinante más joven del mundo[^9]), se convirtió en el rostro personificado de esa relación.
 
-The density of visits to Taiwan is also astonishing. According to records from the Eswatini Embassy and the Ministry of Foreign Affairs, as of May 2024, Mswati III has visited Taiwan more than 17 times[^1]. October 1989, October 1997, October 1998, May 2000, July 2001, May 2004, June 2006, September 2007, May 2008, July 2010, October 2012, May 2013, May 2015, May 2016, June 2018, October 2022, May 2024—averaging once every two years. This density is unique among foreign leaders visiting Taiwan.
+La densidad de sus visitas a Taiwán también es notable. Según los registros de la embajada taiwanés en Eswatini y del Ministerio de Relaciones Exteriores, hasta mayo de 2024, Mswati III había visitado Taiwán más de 17 veces[^1]. Octubre de 1989, octubre de 1997, octubre de 1998, mayo de 2000, julio de 2001, mayo de 2004, junio de 2006, septiembre de 2007, mayo de 2008, julio de 2010, octubre de 2012, mayo de 2013, mayo de 2015, mayo de 2016, junio de 2018, octubre de 2022, mayo de 2024: un promedio de una visita cada dos años. Ningún otro líder mundial visita Taiwán con la misma frecuencia.
 
-Professor Yang Hao of the Institute of East Asian Studies at National Chengchi University pointed out the key in an interview with BBC Chinese: "It is precisely because the King himself holds real power that, as long as he is willing to maintain diplomatic relations, there will not be too much noise domestically."[^10]
+Yang Hao, profesor del Instituto de Estudios de Asia Oriental de la Universidad Nacional de Chengchi, señaló en una entrevista con BBC Chinese el punto clave: "Precisamente porque el rey tiene poder real efectivo, mientras él desee mantener las relaciones diplomáticas, no habrá demasiadas voces disidentes dentro del país."[^10]
 
-In other words, Taiwan's last diplomatic lifeline in Africa is hanging on one person. This is both its stability and its fragility.
+En otras palabras, el último vínculo diplomático de Taiwán en África pende de una sola persona. Esto es simultáneamente su fortaleza y su vulnerabilidad.
 
-## Deliberately Skipping Eswatini
+## La exclusión deliberada de Eswatini
 
-On May 1, 2026—the day before Lai Ching-te's visit to Eswatini—China announced zero-tariff treatment for 98% of tariff items for 53 African countries. Eswatini was the only one excluded[^4][^11].
+El 1 de mayo de 2026 —el día anterior a la visita de Lai a Eswatini— China anunció aranceles cero sobre el 98% de las partidas arancelarias para 53 países africanos. La única exclusión fue Eswatini[^4][^11].
 
-This is "deliberately skipping."
+Fue una "exclusión deliberada".
 
-Being one short of 53 countries is mathematically just 52/53, but politically it is a naked declaration: "Standing with Taiwan means bearing the cost of isolation." _The Storm Media_ cited BBC Chinese's analysis to plainly point out this operational logic[^11]. BBC News Chinese's official channel also provided an in-depth analysis of [the cross-strait power struggle behind Lai Ching-te's visit to Eswatini](https://www.youtube.com/watch?v=SEvlDcpYpc8).
+De 53 países, uno menos es matemáticamente solo 52/53, pero en términos políticos es una declaración desnuda: "estar del lado de Taiwán tiene un costo de aislamiento". Storm Media citó el análisis de BBC Chinese que señaló directamente esta lógica operativa[^11]. El canal oficial de BBC News Chinese también realizó un análisis en profundidad de [la rivalidad entre ambos lados del estrecho detrás de la visita de Lai Ching-te a Eswatini](https://www.youtube.com/watch?v=SEvlDcpYpc8).
 
-China's history of poaching partners is not limited to this tactic. Over the past 30 years, 10 African nations have switched from Taiwan to Beijing. The most recent two were São Tomé and Príncipe (2016) and Burkina Faso (2018)[^12]. In the same month Burkina Faso broke relations, Tsai Ing-wen visited Eswatini for the first time, with Mswati publicly reiterating the commitment to diplomatic relations in a speech[^13]. This was from April 17 to 20, 2018.
+La estrategia de seducción de China no se limita a este movimiento. En los últimos 30 años, 10 países africanos pasaron de Taiwán a Pekín, los más recientes siendo Santo Tomé y Príncipe (2016) y Burkina Faso (2018)[^12]. En el mismo mes de la ruptura con Burkina Faso, la presidenta Tsai Ing-wen realizó su primera visita a Eswatini, y Mswati reafirmó públicamente su compromiso con las relaciones diplomáticas en su discurso[^13]. Eso fue del 17 al 20 de abril de 2018.
 
-In 2023, a subsidiary of China's HydroChina Construction Group won the bid for Eswatini's Pekisila Dam for $146 million. _The Storm Media_ cited BBC Chinese's analysis, considering this an open test of "exchanging infrastructure for diplomatic relations"[^11]. Mswati did not waver.
+En 2023, una filial de la China Power Construction Corporation ganó una licitación de 146 millones de dólares para la presa Pekisila en Eswatini. Storm Media, citando el análisis de BBC Chinese, consideró esto como una prueba pública de "infraestructura a cambio de relaciones diplomáticas"[^11]. Mswati no se movió.
 
-But what is the real pressure behind the words "did not waver"? On January 15, 2024, Nauru—a small Pacific island nation with a population of only about 10,000—announced the break of diplomatic relations with Taiwan, primarily due to China's promise of long-term financial aid[^2]. This was three days after the Taiwanese presidential election, when Lai Ching-te had just been elected but not yet inaugurated. At the moment Nauru broke relations, the Ministry of Foreign Affairs changed the number of diplomatic partners from 13 to 12.
+Pero, ¿cuál es la presión real detrás de "no se movió"? El 15 de enero de 2024, Nauru —una pequeña nación del Pacífico con apenas 10,000 habitantes— anunció la ruptura de relaciones diplomáticas con Taiwán, principalmente debido a las promesas de financiación a largo plazo de China[^2]. Eso ocurrió tres días después de las elecciones presidenciales taiwanesas, cuando Lai Ching-te acababa de ser elegido pero aún no había tomado posesión. En el momento de la ruptura de Nauru, el Ministerio de Relaciones Exteriores cambió el número de países aliados de 13 a 12.
 
-Eswatini became the last remaining piece of the puzzle in Africa.
+Eswatini se convirtió en la última pieza del rompecabezas africano.
 
-## Red Heart Guavas Enter SUPERSPAR
+## La guayaba de corazón rojo en SUPERSPAR
 
-At the opening of the press conference on May 3, Lai Ching-te used a fruit as a hook: "Red Heart Guavas witness the friendship between Taiwan and Eswatini."[^14]
+En la conferencia de prensa del 3 de mayo, Lai Ching-te abrió con una fruta como gancho: "La guayaba de corazón rojo es testigo de la amistad entre Taiwán y Eswatini."[^14]
 
-This guava is not just rhetoric.
+Esta guayaba no era una metáfora.
 
-The TaiwanICDF (Taiwan International Cooperation and Development Fund) Agricultural Technical Team stationed in Eswatini has been operating since 1969. It was initially an early experiment in Taiwan's agricultural technical diplomacy, now known as the "Taiwan-Africa Vegetables Initiative (TAVI)" and the "Emerging Fruit Tree Production and Marketing Guidance Plan"[^15]. The specific work involves bringing Taiwanese fruit varieties (Red Heart Guavas, Dragon Fruit, Strawberries, Papayas) and cultivation techniques to Eswatini, enabling local farmers to learn localized production.
+El equipo técnico agrícola del TaiwanICDF (Fondo Internacional de Cooperación y Desarrollo) en Eswatini comenzó a operar en 1969, inicialmente como un experimento temprano de diplomacia agrícola taiwanés, y ahora se conoce como "Taiwan-Africa Vegetables Initiative (TAVI)" y "Emerging Fruit Tree Production and Marketing Guidance Plan"[^15]. Lo que hace concretamente es llevar variedades de frutas taiwanesas (guayaba de corazón rojo, pitahaya, fresa, papaya) y técnicas de cultivo a Eswatini, enseñando a los agricultores locales a producir de forma adaptada al terreno.
 
-In March 2024, Red Heart Guavas of Taiwanese varieties officially entered the supply chains of SUPERSPAR, Eswatini's largest supermarket chain, in its Mbabane and Ezulwini branches[^15]. It took 55 years for a fruit to go from a technical cooperation agreement (the first aid agreement in 1969[^1]) to a supermarket shelf.
+En marzo de 2024, la guayaba de corazón rojo de variedad taiwana entró formalmente en las sucursales de Mbabane y Ezulwini de SUPERSPAR, la cadena de supermercados más grande de Eswatini[^15]. Una fruta tardó 55 años en pasar de un acuerdo de cooperación técnica (el primer acuerdo de asistencia de 1969[^1]) a las estanterías de un supermercado.
 
-When Lai Ching-te visited Eswatini, he brought this guava to the press conference podium. He wanted to say that "cooperation looks like this": concrete, edible, and entering commercial supply chains.
+Lai Ching-te llevó esta guayaba al podio de la conferencia de prensa durante su visita a Eswatini. Lo que quería decir es que "la cooperación se ve así": concreta, comestible, integrada en canales comerciales.
 
-The evolution of aid projects is easier to understand from this perspective. Technical cooperation in 1969 → Agricultural technical cooperation in 1984 → Medical cooperation memorandum in 2007 → Maternal and infant health care in 2016 → Economic cooperation agreement (effective December of the same year) in 2018 → Women's Economic Empowerment MOU in 2019 → Women's Entrepreneurship Microcredit Revolving Fund in 2023 (personally signed by Tsai Ing-wen during her 2023 visit to Eswatini) → Customs Mutual Assistance Agreement in 2026[^1][^7]. Each agreement is a cross-section of the theme of its era: the 1980s were about agriculture, the 2000s entered healthcare, the 2010s focused on women's empowerment and economic/trade systems, and the 2020s pushed towards industrial innovation and supply chains.
+La evolución de los proyectos de asistencia se entiende mejor desde esta perspectiva. Cooperación técnica de 1969 → Cooperación técnica agrícola de 1984 → Memorando de cooperación médica de 2007 → Atención materno-infantil de 2016 → Acuerdo de cooperación económica de 2018 (entró en vigor en diciembre del mismo año) → MOU de empoderamiento económico de las mujeres de 2019 → Fondo rotatorio de microcréditos para emprendedoras (firmado personalmente por Tsai Ing-wen durante su visita a Eswatini en 2023) → Acuerdo de asistencia mutua aduanera de 2026[^1][^7]. Cada acuerdo es un corte transversal de una época: los años 80 fueron agricultura, los 2000 entraron en medicina, los 2010 fueron empoderamiento femenino e instituciones comerciales, y los 2020 avanzaron hacia innovación industrial y cadenas de suministro.
 
-This cooperation has evolved slowly alongside the circumstances of both countries, transcending the static level of "diplomatic gifts."
+Este organismo de cooperación evoluciona lentamente junto con las circunstancias de ambos países, trascendiendo el nivel estático de "regalo diplomático".
 
-## The 27% Prevalence Rate
+## Una prevalencia del 27%
 
-But beyond agriculture and education, healthcare is the heaviest and most concrete aspect of this relationship.
+Pero más allá de la agricultura y la educación, la salud es el aspecto más pesado y más concreto de esta relación.
 
-Eswatini's adult (15-49 years old) HIV prevalence rate is 27.2%, the highest in the world[^16]. Behind this number is a nation where an entire generation would be erased without antiretroviral therapy (ART).
+La prevalencia de VIH entre adultos (15-49 años) en Eswatini es del 27.2%, la más alta del mundo[^16]. Detrás de este número hay un país donde, sin tratamiento antirretroviral (TAR), toda una generación podría ser borrada.
 
-Understanding Taiwan's medical aid solely through the framework of "medical diplomacy" is too thin. The medical team stationed in Eswatini, led by the Taipei Medical University system, covers physicians, nurses, pharmacists, and administrative staff. Their work scope includes clinical services, personnel training, public health, medical education, and the introduction of smart healthcare[^15]. Specific actions include: assisting Eswatini in establishing a national physician licensing examination system and a general practitioner training system; completing Eswatini's first neurosurgery; Taipei Medical University physicians serving long-term as the only cardiologists in Eswatini's public hospitals; and providing medical services to over 10,000 person-times. These are real actions with names, surgical records, and hospitalization numbers, transcending the abstract level of "aid."
+Entender la asistencia médica taiwanesa solo bajo el marco de "diplomacia médica" sería demasiado restringido. El equipo médico en Eswatini liderado por el sistema de la Universidad Médica de Taipéi cubre médicos, enfermeros, farmacéuticos y personal administrativo, con un alcance que incluye servicios clínicos, formación de personal, salud pública, educación médica e implementación de medicina inteligente[^15]. Concretamente: ayudar a Eswatini a establecer un sistema de examen nacional de licencia médica y un sistema de formación de médicos generales, completar la primera cirugía neuroquirúrgica del país, médicos de la Universidad Médica de Taipéi que han servido durante años como los únicos especialistas en cardiología del hospital público de Eswatini, y servicios médicos que superan las 10,000 consultas anuales. Estas son acciones reales con nombres, registros de cirugías y números de hospitalización, que trascienden el nivel abstracto de "asistencia".
 
-In April 2025, the Ministry of Foreign Affairs announced the donation of computed tomography (CT) scanners, fundus cameras, and patient monitoring simulators to Mbabane Government Hospital. Starting in 2026, it will assist in building an Eswatini version of HIS (Hospital Information System, benchmarked against Taiwanese standards) and FIRE (Fast Medical Care Interoperability Resource International Case Format)[^15].
+En abril de 2025, el Ministerio de Relaciones Exteriores anunció la donación de un tomógrafo computarizado, un retinógrafo y un simulador de monitorización de pacientes al Hospital Gubernamental de Mbabane; a partir de 2026, se asiste en la implementación de la versión eswatini del HIS (sistema de información hospitalaria, según estándares taiwaneses) y FIRE (formato internacional de casos de recursos de interoperabilidad de atención médica rápida)[^15].
 
-The most concrete story is from January 2021. When Mswati III contracted COVID-19, the Tsai Ing-wen government sent antiviral drugs to Eswatini through diplomatic channels (foreign media speculated it was remdesivir, but Mswati himself did not name it). He later publicly thanked them: "I had already recovered before I could announce my hospitalization."[^17]
+La historia más concreta es de enero de 2021. Mswati III contrajo COVID-19, y el gobierno de Tsai Ing-wen en Taiwán envió medicamentos antivirales a Eswatini a través de canales diplomáticos (mediados internacionales especularon que era remdesivir, aunque Mswati no lo nombró específicamente). Posteriormente, agradeció públicamente: "Ya me había recuperado antes de que pudiera anunciar mi hospitalización."[^17]
 
-"Diplomatic drugs" are no longer abstract from that moment. This 58-year relationship includes one concrete life-saving event.
+El "medicamento diplomático" dejó de ser abstracto en ese momento. Esta relación de 58 años incluye un evento concreto de salvamento de vida.
 
-It is precisely because of these accumulated long-term multilateral aids—PEPFAR, Global Fund, Taiwan, etc.—that Eswatini became one of the first African countries to achieve the UNAIDS 95-95-95 targets in 2020 (95% of HIV patients diagnosed, 95% of diagnosed patients receiving treatment, 95% of treated patients achieving viral suppression)[^18].
+También gracias a esta acumulación de asistencia multilateral a largo plazo —PEPFAR, Fondo Mundial, Taiwán, entre otros— Eswatini se convirtió en 2020 en uno de los primeros países africanos en alcanzar el objetivo 95-95-95 de ONUSIDA (95% de pacientes con VIH diagnosticados, 95% de diagnosticados en tratamiento, 95% de tratados con supresión viral exitosa)[^18].
 
-## Military Honors at Mandvulo Grand Hall
+## Honores militares en el Mandvulo Grand Hall
 
-On the morning of May 3, Lai Ching-te held bilateral talks with King Mswati III at the Mandvulo Grand Hall of the Lozitha Royal Palace[^7].
+En la mañana del 3 de mayo, Lai Ching-te sostuvo conversaciones bilaterales con Mswati III en el Mandvulo Grand Hall del Palacio Real de Lozitha[^7].
 
-![President Lai Ching-te and Eswatini King Mswati III hold bilateral talks at the Mandvulo Grand Hall.](/article-images/society/taiwan-eswatini-mandvulo-summit-2026.jpg)
-_On May 3, 2026, Lai Ching-te and Mswati III held bilateral talks at the Mandvulo Grand Hall of the Lozitha Royal Palace. Photo: Office of the President, Republic of China (Taiwan). [OGDL via Official Press Release](https://english.president.gov.tw/News/7122)._
+![El presidente Lai Ching-te y el rey Mswati III de Eswatini en conversaciones bilaterales en el Mandvulo Grand Hall](/article-images/society/taiwan-eswatini-mandvulo-summit-2026.jpg)
+_3 de mayo de 2026: conversaciones bilaterales entre Lai Ching-te y Mswati III en el Mandvulo Grand Hall del Palacio Real de Lozitha. Foto: Oficina Presidencial de la República de China. [OGDL vía comunicado oficial de la Oficina Presidencial](https://english.president.gov.tw/News/7122)._
 
-The ceremony included the national anthems of both countries, inspection of the Eswatini honor guard, firing of salutes, and traditional dance performances. After the meeting, two important documents were signed:
+La ceremonia incluyó los himnos nacionales de ambos países, revista de la guardia de honor de Eswatini, salva de cañones y danza tradicional. Tras la reunión, se firmaron dos documentos importantes:
 
-1. **Joint Communique**: Reaffirming "deep friendship, mutual trust, and shared values."
-2. **Customs Mutual Assistance Agreement**: Signed by Taiwan's Foreign Minister Joseph Wu and Eswatini's Foreign Minister Pholile Shakantu[^7].
+1. **Comunicado conjunto**: reafirmando la "profunda amistad, confianza mutua y valores compartidos"
+2. **Acuerdo de asistencia mutua aduanera**: firmado por el ministro de Relaciones Exteriores taiwanés Lin Chia-lung y la ministra de Relaciones Exteriores eswatini Pholile Shakantu[^7]
 
-![President Lai Ching-te and King Mswati III jointly witness the signing of the Customs Mutual Assistance Agreement.](/article-images/society/taiwan-eswatini-joint-communique-2026.jpg)
-_On May 3, 2026, Taiwan and Eswatini signed the Customs Mutual Assistance Agreement and a Joint Communique at the Mandvulo Grand Hall. Photo: Office of the President, Republic of China (Taiwan). [OGDL via Official Press Release](https://english.president.gov.tw/News/7122)._
+![El presidente Lai Ching-te y el rey Mswati III presencian la firma del Acuerdo de asistencia mutua aduanera](/article-images/society/taiwan-eswatini-joint-communique-2026.jpg)
+_3 de mayo de 2026: ambas partes firman el Acuerdo de asistencia mutua aduanera y el comunicado conjunto en el Mandvulo Grand Hall. Foto: Oficina Presidencial de la República de China. [OGDL vía comunicado oficial de la Oficina Presidencial](https://english.president.gov.tw/News/7122)._
 
-CNA's official channel fully recorded the process of [Taiwan and Eswatini signing a Joint Communique to deepen cooperation](https://www.youtube.com/watch?v=kdRZ5v61Vjo).
+El canal oficial de CNA documentó íntegramente [la firma del comunicado conjunto entre Taiwán y Eswatini para profundizar la cooperación](https://www.youtube.com/watch?v=kdRZ5v61Vjo).
 
-Lai Ching-te's core quotes (from the original English press release of the Office of the President):
+Las declaraciones centrales de Lai Ching-te (del comunicado de prensa en inglés de la Oficina Presidencial):
 
-> "The Republic of China (Taiwan) is a sovereign country that belongs to the world."
+> "The Republic of China (Taiwan) is a sovereign country that belongs to the world." (La República de China (Taiwán) es un país soberano que pertenece al mundo.)
 >
-> "No country has the right, nor should it obstruct Taiwan's contributions to the world."
+> "No country has the right, nor should it obstruct Taiwan's contributions to the world." (Ningún país tiene derecho, ni debería obstaculizar las contribuciones de Taiwán al mundo.)
 >
-> "Taiwan and Eswatini are steadfast allies, who have together weathered many ups and downs."[^7]
+> "Taiwan and Eswatini are steadfast allies, who have together weathered many ups and downs." (Taiwán y Eswatini son aliados inquebrantables, que juntos han atravesado muchas vicisitudes.)[^7]
 
-King Mswati III's response:
+La respuesta de Mswati III:
 
-> "We would like to assure you, as well as the government and people of Taiwan, that the Kingdom of Eswatini stands ready to support all the achievements Taiwan seeks, including its participation in the international community."[^7]
+> "We would like to assure you, as well as the government and people of Taiwan, that the Kingdom of Eswatini stands ready to support all the achievements Taiwan seeks, including its participation in the international community." (Queremos asegurarle a usted, así como al gobierno y al pueblo de Taiwán, que el Reino de Eswatini está dispuesto a apoyar todos los logros que Taiwán busca, incluida su participación en la comunidad internacional.)[^7]
 
-The weight of this quote lies in who is speaking it. When an absolute monarch publicly says "sovereign country" to the head of another democratic nation in his own palace, this meaning serves as a direct counter-testimony to China's narrative of "non-existent sovereign Taiwan." The Chinese Ministry of Foreign Affairs subsequently called Lai Ching-de a "rat" and described this behavior as "stealthy external窜" and an "international laughing stock" (cited by NBC News)[^19]. The US State Department's response was simpler: "Taiwan is a trusted and capable partner" and "should not be politicized"[^20].
+El peso de estas declaraciones radica en quién las pronuncia. Cuando un monarca absoluto dice públicamente "Estado soberano" a un jefe de Estado democrático en su propio palacio, el significado es un testimonio directo en contra de la narrativa china de que "no existe una Taiwán soberana". El Ministerio de Relaciones Exteriores de China respondió llamando a Lai Ching-te "rata" y calificando su acto como "escapada farsante" y "hazmerreír internacional" (citado por NBC News)[^19]. La respuesta del Departamento de Estado de Estados Unidos fue más sencilla: "Taiwan is a trusted and capable partner" y "no debería politizarse"[^20].
 
-In the afternoon of that day, Lai Ching-te visited the Royal Science and Technology Park to inspect two flagship bilateral cooperation projects: the Strategic Oil Reserve and the Taiwan Industrial Innovation Park (TIIP), briefed by the Overseas Investment Development Company and Taiwan Engineering Consultants[^21]. Lai Ching-te positioned these two as "the largest and most strategically significant cooperation projects since the establishment of diplomatic relations between the two countries." The "Strategic Oil Reserve" represents energy security and national resilience in response to risk crises, while the 'Taiwan Industrial Innovation Park' represents industrial layout and development hope for the future. The former guards stability, and the latter creates growth"[^22].
+Esa misma tarde, Lai Ching-te visitó el Parque Científico y Tecnológico Real para inspeccionar dos proyectos insignia de cooperación bilateral: la Reserva Estratégica de Petróleo (Strategic Oil Reserve) y el Parque de Innovación Industrial de Taiwán (Taiwan Industrial Innovation Park, TIIP), con presentaciones a cargo de la Corporación de Desarrollo de Inversiones en el Exterior y la consultora de ingeniería Taiwan Engineering Consultants[^21]. Lai Ching-te calificó ambos como "los proyectos de cooperación más grandes y de mayor significado estratégico desde el establecimiento de relaciones diplomáticas entre ambos países". "La reserva estratégica de petróleo representa la seguridad energética y la resiliencia nacional ante crisis de riesgo; el Parque de Innovación Industrial de Taiwán representa la planificación industrial orientada al futuro y la esperanza de desarrollo. El primero protege la estabilidad, el segundo abre el crecimiento"[^22].
 
-This statement gave a concrete framework to the narrative of Lai Ching-te's visit. CNA's official channel also featured a special report on [Taiwan-Eswatini's largest cooperation: Oil Reserve and Industrial Innovation Park have strategic significance](https://www.youtube.com/watch?v=r7nE7C_KhUA).
+Este pasaje dotó a la visita de Lai de un marco discursivo concreto. El canal oficial de CNA también realizó un reportaje especial sobre [la mayor cooperación entre Taiwán y Eswatini: la reserva de petróleo y el parque de innovación industrial tienen significado estratégico](https://www.youtube.com/watch?v=r70E7C_KhUA).
 
-## The 46 Lives in 2021
+## Las 46 vidas de 2021
 
-But this 58-year relationship has a heavy reality that must be faced directly.
+Pero esta relación de 58 años tiene una verdad muy pesada que debe confrontarse directamente.
 
-On May 17, 2021, Thabani Nkomonye, a law student in Eswatini, was allegedly killed by police, triggering nationwide protests. On June 20, approximately 500 youths took to the streets in Manzini demanding democratic reforms. On June 25, the Acting Prime Minister issued an order banning protests and petitions. From June 28 to July 4, nationwide riots erupted, buildings were burned, helicopters patrolled the skies, and gunshots rang day and night. Human Rights Watch (HRW) confirmed at least 46 deaths, with civilian estimates exceeding one hundred[^23].
+El 17 de mayo de 2021, Thabani Nkomonye, un estudiante de derecho en Eswatini, fue presuntamente asesinado por la policía, lo que desencadenó protestas nacionales. El 20 de junio, unos 500 jóvenes salieron a las calles de Manzini exigiendo reformas democráticas; el 25 de junio, el primer ministro interino decretó la prohibición de protestas y la presentación de peticiones; del 28 de junio al 4 de julio, el país entero se sumió en disturbios, edificios fueron incendiados, helicópteros sobrevolaban, se escucharon disparos día y noche. Human Rights Watch (HRW) confirmó al menos 46 muertos, mientras que las estimaciones civiles superaban los cien[^23].
 
-As of October 2025, HRW's latest report confirmed that no members of the security forces have been held accountable[^24].
+Hasta octubre de 2025, el informe más reciente de HRW confirmó que ningún miembro de las fuerzas de seguridad había sido responsabilizado[^24].
 
-This is the sharpest cost of "absolute monarchy," and also the value contradiction Taiwan must face. Our only diplomatic partner in Africa is Africa's last absolute monarchy, and this regime suppressed its own people in 2021.
+Este es el costo más agudo de la "monarquía absoluta", y también la contradicción de valores que Taiwán no puede ignorar. Nuestro único aliado en África es la última monarquía absoluta del continente, y este régimen reprimió a su propio pueblo en 2021.
 
-Writing down this fact will not harm diplomatic relations, but it will make this article valid. Taiwanese readers have the right to know that our "last friendly nation" is a real country with a specific governance record including violent suppression, an HIV tsunami, and 56% youth unemployment (2023 figures[^25]). The diplomatic term "friendly small nation" cannot contain it.
+Escribir este hecho no daña las relaciones diplomáticas, pero da integridad a este artículo. Los lectores taiwaneses tienen derecho a saber que nuestro "último aliado" es un país real con un historial de gobernanza que incluye represión violenta, una pandemia de VIH y un 56% de desempleo juvenil (cifra de 2023[^25]). El término diplomático "pequeño país amigo" no puede contener todo eso.
 
-King Mswati's personal life is another structural contradiction. He and his mother, Queen Mother Ntfombi, are listed among the approximately 12 absolute monarchs currently existing in the world. The constitution grants him veto power over all government departments and immunity from prosecution. Private jets, Rolls-Royce convoys, and the fact that 30% of the population live below the poverty line form a contrast, making him a focus of long-term criticism by international media[^9].
+La vida personal de Mswati es otra contradicción estructural. Él y la reina madre Ntfombi son uno de los aproximadamente 12 monarcas absolutos que quedan en el mundo. Constitucionalmente tiene poder de veto sobre todos los departamentos gubernamentales e inmunidad procesal. Aviones privados, flota de Rolls-Royce, en contraste con el 30% de la población que vive bajo el umbral de pobreza, han sido durante mucho tiempo el foco de crítica de los medios internacionales[^9].
 
-We can hold two things simultaneously: First, Taiwan's aid has indeed saved lives (HIV treatment, agricultural cooperation, medical teams). Second, Eswatini's governance issues are not "internal affairs" that we should ignore.
+Podemos sostener ambas cosas simultáneamente: primero, la asistencia taiwán ha salvado vidas (tratamiento de VIH, cooperación agrícola, equipos médicos); segundo, los problemas de gobernanza de Eswatini no son "asuntos internos de otro país" que no nos conciernen.
 
-## After Mswati
+## Después de Mswati
 
-The greatest variable in the future of Taiwan-Eswatini diplomatic relations is actually not how much money China uses.
+La mayor incertidumbre para las relaciones Taiwán-Eswatini en el futuro no es realmente cuánto dinero ofrece China.
 
-It is whether the successor after Mswati can persuade a generation with 56% youth unemployment, who no longer supports absolute monarchy, to continue viewing Taiwan as a friend.
+Es si el sucesor de Mswati podrá convencer a una generación con un 56% de desempleo juvenil y sin apego a la monarquía absoluta de seguir considerando a Taiwán como amigo.
 
-Over the past 30 years, China has poached 10 African diplomatic partners from Taiwan. The end of each diplomatic relationship is the combined force of "monetary temptation" and "local political demands." However, Eswatini differs from other diplomatic partners: It is not at the core battlefield of UN resolutions (unlike Pacific island nations where the game between the US and China is directly related). The political cost of its foreign relations is relatively borne by the King personally, and Mswati's personal will has been strong enough to withstand all pressure so far.
+En los últimos 30 años, China ha arrebatado 10 aliados africanos de Taiwán, y cada ruptura fue el resultado combinado de "tentación económica" y "necesidades políticas locales". Pero Eswatini se diferencia de otros aliados en algo: no está en el campo de batalla central de las resoluciones de la ONU (a diferencia de las islas del Pacífico, directamente relacionadas con la rivalidad China-Estados Unidos), el costo político de sus relaciones exteriores recae relativamente en el rey personalmente, y la voluntad personal de Mswati ha resistido hasta ahora todas las presiones.
 
-But this strength has a ceiling. Mswati was born in 1968 and is 58 years old in 2026. His succession will happen (not "if" but "when"), and the internal political environment faced by the successor will be completely different from that of 1986 when he was crowned.
+Pero esta fortaleza tiene un techo. Mswati nació en 1968 y tenía 58 años en 2026. Su sucesión ocurrirá (no es "si ocurrirá", sino "cuándo"), y el entorno político interno que enfrentará su sucesor será completamente diferente al de su coronación en 1986.
 
-After the 46 lives in 2021, the patience of Eswatini's youth for "royal glory" is far less than that of their parents' generation; HIV still occupies the health budget; wages are squeezed by South Africa; and youth unemployment is near 60%. These are ongoing internal pressures, not just predictions of "what will happen in the future."
+Después de las 46 vidas de 2021, la paciencia de la generación joven de Eswatini con el "esplendor real" es mucho menor que la de sus padres; el VIH sigue consumiendo el presupuesto de salud; los salarios se ven comprimidos por la competencia de Sudáfrica; la tasa de desempleo juvenil se acerca al 60%. Estas son presiones internas en curso, no solo predicciones de "qué pasará en el futuro".
 
-Lai Ching-te's choice of return route after this visit also reveals a sense of the present. On May 4, he departed from Mbabane. The aircraft deliberately turned off its identity information, flying via the southern Indian Ocean route through Indonesia and the Philippines back to Taiwan, avoiding airspace close to China and sensitive areas in the South China Sea. He arrived at Taoyuan Airport at 10:40 AM on May 5[^26].
+La elección de la ruta de regreso de Lai Ching-te tras esta visita también revela algo del momento actual. El 4 de mayo partió de Mbabane, el avión apagó deliberadamente su información de identidad, tomó una ruta hacia el sur del Océano Índico pasando por Indonesia y Filipinas para regresar a Taiwán, evitando acercarse al espacio aéreo chino y a las zonas sensibles del Mar de China Meridional, llegando al aeropuerto de Taoyuan a las 10:40 de la mañana del 5 de mayo[^26].
 
-The route was circuitous, indicating how tight the environment is. But it was completed.
+Un camino tortuoso que refleja cuán apretado es el entorno. Pero se completó.
 
-## A Guava and a Question
+## Una guayaba y una pregunta
 
-Back to that Red Heart Guava.
+Volvamos a esa guayaba de corazón rojo.
 
-It went from the technical cooperation agreement in 1969 to the supermarket shelves of SUPERSPAR in 2024. In between, it passed through 55 years, at least seven Taiwanese presidents (Chiang Ching-kuo, Lee Teng-hui, Chen Shui-bian, Ma Ying-jeou, Tsai Ing-wen, Lai Ching-te), and Mswati III growing from 5 months old to 56 years old.
+Pasó del acuerdo de cooperación técnica de 1969 a las estanterías de SUPERSPAR en 2024. En el medio transcurrieron 55 años, al menos siete presidentes taiwaneses (Chiang Ching-kuo, Lee Teng-hui, Chen Shui-bian, Ma Ying-jeou, Tsai Ing-wen, Lai Ching-te), y Mswati III pasó de tener cinco meses a 56 años.
 
-It is concrete, edible, and costs roughly a few dozen New Taiwan Dollars per fruit.
+Es concreta, comestible y probablemente cuesta el equivalente a unas decenas de dólares taiwaneses.
 
-This guava, the military honors at Mandvulo Grand Hall, the 46 lives in 2021, the precise operation of China excluding Eswatini from the zero-tariff policy for 53 countries on May 1, and the A340 aircraft sent by Mswati to pick up Lai from Taipei are different points on the same narrative line.
+Esta guayaba, los honores militares en el Mandvulo Grand Hall, las 46 vidas de 2021, la operación precisa de China excluyendo deliberadamente a Eswatini de los aranceles cero para 53 países el 1 de mayo, y el avión A340 de Mswati recogiendo al presidente en Taipéi, son puntos diferentes en la misma línea narrativa.
 
-What it tells us is: Diplomatic relations fall into the concrete cooperation accumulated over 58 years, transcending the level of abstract plaques. But it also tells us that when the day after Mswati arrives, whether Taiwan has accumulated enough relational thickness "not relying on one person" to ensure that the supply chain of this guava does not disappear along with one person's position?
+Lo que nos dice es que las relaciones diplomáticas residen en un cuerpo de cooperación concreto acumulado durante 58 años, trascendiendo el nivel de una ficha abstracta; pero también nos dice que, cuando llegue el día después de Mswati, ¿habrá acumulado Taiwán suficiente profundidad relacional "que no dependa de una sola persona" para que la cadena de suministro de esta guayaba no desaparezca junto con la posición de un individuo?
 
-This question has no answer yet. But the existence of the question itself is Taiwan's most honest posture in facing its "last friendly nation" in 2026.
+Esta pregunta aún no tiene respuesta. Pero la existencia de la pregunta en sí es la postura más honesta de Taiwán en 2026 frente a su "último aliado".
 
-> "The Republic of China (Taiwan) is a sovereign country that belongs to the world." — Lai Ching-te at Mandvulo Grand Hall, May 3, 2026.
+> "The Republic of China (Taiwan) is a sovereign country that belongs to the world." (La República de China (Taiwán) es un país soberano que pertenece al mundo.) — Lai Ching-te en el Mandvulo Grand Hall, 3 de mayo de 2026.
 
-Africa's last diplomatic lifeline is hanging on one person. This is both its most moving aspect and the homework Taiwan's diplomacy must prepare for in the next ten years.
+El último vínculo diplomático en África pende de una sola persona. Este es simultáneamente su aspecto más conmovedor y la lección que la diplomacia taiwán debe preparar para la próxima década.
 
-**Further Reading**:
+**Lecturas complementarias**:
 
-- [Taiwan's Diplomatic Partners and International Diplomacy](/society/台灣邦交國與國際外交) — A three-layer structure of 12 diplomatic partners vs. 113 overseas bases vs. 177 visa-free destinations; Eswatini is the most critical piece in Africa.
-- [Lai Ching-te](/people/賴清德) — From a Tainan physician to the President of the Republic of China, the evolution of Lai Ching-te's discourse on foreign relations after taking office.
-- [Tsai Ing-wen](/people/蔡英文) — The two presidential visits to Eswatini, corresponding to two stages of Taiwan-Eswatini relations at the time points of 2018 and 2023.
-- [Sunflower Student Movement](/society/太陽花學運) — How the streets of 2014 became the foundation for the system's external discourse in 2024-2025.
-- [2026 Zheng-Xi Meeting and the Decade Reunion of KMT and CCP](/society/2026鄭習會與國共十年再會) — Concurrent cross-strait dynamics, understanding the broader background of China's pressure on Taiwan.
-- [Cognitive Warfare](/society/認知作戰) — A more systematic framework for China's language operations such as "rat" and "stealthy external窜".
+- [Países aliados de Taiwán y diplomacia internacional](/society/台灣邦交國與國際外交) — La arquitectura de tres niveles: 12 países aliados vs 113 sedes en el extranjero vs 177 destinos con exención de visa. Eswatini es la pieza africana más crucial.
+- [Lai Ching-te](/people/賴清德) — De médico de Tainan a presidente de la República de China: la evolución del discurso de relaciones exteriores de Lai tras asumir el cargo.
+- [Tsai Ing-wen](/people/蔡英文) — La presidenta que visitó Eswatini en dos ocasiones: los puntos temporales de 2018 y 2023 corresponden a dos etapas de las relaciones Taiwán-Eswatini.
+- [Movimiento del Girasol](/society/太陽花學運) — Cómo las calles de 2014 se convirtieron en la base del discurso exterior institucional de 2024-2025.
+- [Reunión Zheng-Xi 2026 y el reencuentro Kuomintang-Partido Comunista tras diez años](/society/2026鄭習會與國共十年再會) — La dinámica simultánea a través del estrecho para comprender el contexto más amplio de la presión de China sobre Taiwán.
+- [Guerra cognitiva](/society/認知作戰) — Un marco más sistemático para las operaciones lingüísticas de China como "rata" o "escapada farsante".
+- [Paraguay y Taiwán](/society/巴拉圭與台灣) — El único aliado en Sudamérica, otro tipo de relación sostenida por cooperación a largo plazo bajo presión china.
 
-## Image Sources
+## Créditos de imágenes
 
-This article uses 3 photos from the official press releases of the Office of the President, Republic of China (Taiwan), all cached in `public/article-images/society/` to avoid hotlinking to the source server. License: Open Government Data License (OGDL).
+Este artículo utiliza 3 fotografías oficiales de la Oficina Presidencial de la República de China, todas almacenadas en caché en `public/article-images/society/` para evitar enlaces directos al servidor de origen. Licencia: Datos Gubernamentales Abiertos (OGDL — Open Government Data License).
 
-- [taiwan-eswatini-military-honor-2026.jpg (hero)](https://english.president.gov.tw/News/7121) — On May 2, 2026, President Lai Ching-te received an Eswatini military honor at Mbabane Airport. Photo: Office of the President, Republic of China (Taiwan).
-- [taiwan-eswatini-mandvulo-summit-2026.jpg](https://english.president.gov.tw/News/7122) — On May 3, 2026, Lai Ching-te and Mswati III held bilateral talks at the Mandvulo Grand Hall of the Lozitha Royal Palace. Photo: Office of the President, Republic of China (Taiwan).
-- [taiwan-eswatini-joint-communique-2026.jpg](https://english.president.gov.tw/News/7122) — On May 3, 2026, Taiwan and Eswatini signed the Customs Mutual Assistance Agreement and a Joint Communique at the Mandvulo Grand Hall. Photo: Office of the President, Republic of China (Taiwan).
+- [taiwan-eswatini-military-honor-2026.jpg (imagen principal)](https://english.president.gov.tw/News/7121) — El presidente Lai Ching-te recibe honores militares en el aeropuerto de Mbabane el 2 de mayo de 2026. Foto: Oficina Presidencial de la República de China.
+- [taiwan-eswatini-mandvulo-summit-2026.jpg](https://english.president.gov.tw/News/7122) — Conversaciones bilaterales entre Lai Ching-te y Mswati III en el Mandvulo Grand Hall del Palacio Real de Lozitha el 3 de mayo de 2026. Foto: Oficina Presidencial de la República de China.
+- [taiwan-eswatini-joint-communique-2026.jpg](https://english.president.gov.tw/News/7122) — Ambas partes firman el Acuerdo de asistencia mutua aduanera y el comunicado conjunto en el Mandvulo Grand Hall el 3 de mayo de 2026. Foto: Oficina Presidencial de la República de China.
 
-## References
+## Referencias
 
-[^1]: [Wikipedia: Relations between the Republic of China and Eswatini](https://zh.wikipedia.org/zh-tw/中華民國—史瓦帝尼關係) — A complete timeline of bilateral diplomatic relations since 1968, including records of Mswati III's 17 visits to Taiwan, dates of signing bilateral agreements, and Ministry of Foreign Affairs CountryInfo reference data.
+[^1]: [Wikipedia: Relaciones República de China-Eswatini](https://zh.wikipedia.org/zh-tw/中華民國—史瓦帝尼關係) — Cronología completa de las relaciones bilaterales desde 1968, incluyendo el registro de las 17 visitas de Mswati III a Taiwán, fechas de firma de acuerdos bilaterales y datos del CountryInfo del Ministerio de Relaciones Exteriores.
 
-[^2]: [Commonwealth Magazine: Nauru Breaks Relations with Taiwan, Diplomatic Partners Drop to 12](https://www.cw.com.tw/article/5128969) — Official records and background analysis of Taiwan's diplomatic partner count changing from 13 to 12 after Nauru broke relations on January 15, 2024, including the context of China's long-term financial aid to Nauru.
+[^2]: [CommonWealth Magazine: Nauru rompe relaciones con Taiwán, los países aliados se reducen a 12](https://www.cw.com.tw/article/5128969) — Registro oficial y análisis de contexto de la ruptura de Nauru el 15 de enero de 2024, cuando el número de países aliados de Taiwán pasó de 13 a 12, incluyendo el contexto de la financiación a largo plazo de China a Nauru.
 
-[^3]: [Office of the President, Republic of China (Taiwan): President Lai Ching-te Arrives in the Kingdom of Eswatini](https://english.president.gov.tw/News/7121) — The English press release of the Office of the President on May 2, 2026, including records of President Lai Ching-te flying directly from Taipei to Mbabane aboard an Eswatini Airbus A340 aircraft, military honor ceremonies, and greetings with embassy staff, along with official photos.
+[^3]: [Oficina Presidencial de la República de China: El presidente Lai Ching-te llega al Reino de Eswatini](https://english.president.gov.tw/News/7121) — Comunicado de prensa en inglés de la Oficina Presidencial del 2 de mayo de 2026, incluyendo la llegada de Lai Ching-te en el Airbus A340 privado de Eswatini desde Taipéi hasta Mbabane, la ceremonia de honores militares, saludos al personal de la embajada y fotografías oficiales.
 
-[^4]: [CNA: President Lai Meets with King Eswatini](https://www.cna.com.tw/news/aipl/202605040002.aspx) — CNA's official report on May 4, 2026, recording the bilateral talks between Lai Ching-te and Mswati III, the signing of the Joint Communique, and the contrasting background of China granting zero tariffs to 53 African countries while excluding Eswatini.
+[^4]: [Agencia Central de Noticias: El presidente Lai se reúne con el rey de Eswatini](https://www.cna.com.tw/news/aipl/202605040002.aspx) — Reportaje oficial de CNA del 4 de mayo de 2026, documentando las conversaciones bilaterales entre Lai Ching-te y Mswati III, la firma del comunicado conjunto, y el contexto paralelo de los aranceles cero de China para 53 países africanos excluyendo deliberadamente a Eswatini.
 
-[^5]: [Public Television News Network: Flight Permits Cancelled, Lai Ching-te's Visit Suspended](https://news.pts.org.tw/article/804728) — Public Television's official report on April 21, 2026, regarding the emergency cancellation of the originally scheduled April 22 visit, including details and analysis of the revocation of flight permits by Seychelles, Mauritius, and Madagascar.
+[^5]: [PTS News: Permisos de sobrevuelo revocados, la visita de Lai Ching-te se pospone](https://news.pts.org.tw/article/804728) — Reportaje oficial de la Televisión Pública de Taiwán sobre la cancelación de emergencia de la visita programada para el 22 de abril, incluyendo detalles y análisis de la revocación de permisos de sobrevuelo por parte de Seychelles, Mauricio y Madagascar.
 
-[^6]: [Al Jazeera: Taiwan leader visits Eswatini despite China's attempts to block trip](https://www.aljazeera.com/news/2026/5/3/taiwan-leader-visits-eswatini-despite-chinas-attempts-to-block-trip) — An international media report from Al Jazeera on May 3, 2026, including the "surprise visit" framework, the historical moment of the King lending an aircraft for pickup, and China's reaction from an international perspective.
+[^6]: [Al Jazeera: Taiwan leader visits Eswatini despite China's attempts to block trip](https://www.aljazeera.com/news/2026/5/3/taiwan-leader-visits-eswatini-despite-chinas-attempts-to-block-trip) — Reportaje internacional de Al Jazeera del 3 de mayo de 2026, incluyendo el marco de "visita sorpresa", el momento histórico del rey prestando el avión, la respuesta de China y perspectivas internacionales.
 
-[^7]: [Office of the President, Republic of China (Taiwan): President Lai Ching-te Holds Bilateral Talks with King Mswati III of Eswatini](https://english.president.gov.tw/News/7122) — The English press release of the Office of the President on May 3, 2026, including the full record of bilateral talks at the Mandvulo Grand Hall of the Lozitha Royal Palace, the signing of the Joint Communique and the Customs Mutual Assistance Agreement, core quotes from both heads of state, Lai Ching-te and Mswati III, and official photos.
+[^7]: [Oficina Presidencial de la República de China: El presidente Lai Ching-te sostiene conversaciones bilaterales con el rey Mswati III de Eswatini](https://english.president.gov.tw/News/7122) — Comunicado de prensa en inglés de la Oficina Presidencial del 3 de mayo de 2026, incluyendo el registro completo de las conversaciones bilaterales en el Mandvulo Grand Hall del Palacio Real de Lozitha, la firma del comunicado conjunto y el Acuerdo de asistencia mutua aduanera, citas clave de ambos líderes y fotografías oficiales.
 
-[^8]: [Wikipedia: Eswatini–Taiwan relations](https://en.wikipedia.org/wiki/Eswatini–Taiwan_relations) — The English version of the bilateral relations article, including the date of establishing diplomatic relations, agreements signed over the years, evolution of aid projects, and the timeline of pressure from China's poaching efforts in English research materials.
+[^8]: [Wikipedia: Eswatini–Taiwan relations](https://en.wikipedia.org/wiki/Eswatini–Taiwan_relations) — Entrada en inglés de las relaciones bilaterales, incluyendo la fecha de establecimiento de relaciones, acuerdos firmados a lo largo de los años, evolución de los proyectos de asistencia y cronología de la presión de China para arrebatar aliados.
 
-[^9]: [Wikipedia: Mswati III](https://en.wikipedia.org/wiki/Mswati_III) — Mswati III's personal biography, including birth date April 19, 1968, coronation as the world's youngest reigning monarch on April 25, 1986, constitutional powers of absolute monarchy, listing with Queen Mother Ntfombi as existing absolute monarchs, and records of visits to Taiwan.
+[^9]: [Wikipedia: Mswati III](https://en.wikipedia.org/wiki/Mswati_III) — Biografía personal de Mswati III, incluyendo fecha de nacimiento (19 de abril de 1968), coronación el 25 de abril de 1986 como el monarca reinante más joven del mundo, poderes constitucionales de la monarquía absoluta, condición de monarca absoluto junto con la reina madre Ntfombi, y registro de visitas a Taiwán.
 
-[^10]: [The Storm Media (citing BBC Chinese): 140 Million Infrastructure Temptation and the Key to Taiwan-Eswatini Relations under Absolute Monarchy](https://www.storm.mg/article/11123433) — The Storm Media platform reposted an in-depth report from BBC Chinese, including Professor Yang Hao's analysis of "Mswati's personal will supporting diplomatic relations," the context of China's economic operations against Eswatini, and the impact of absolute monarchy on diplomatic decision-making.
+[^10]: [Storm Media (citando BBC Chinese): Tentación de infraestructura de 146 millones y la clave de las relaciones Taiwán-Eswatini bajo monarquía absoluta](https://www.storm.mg/article/11123433) — Reportaje en profundidad de BBC Chinese republicado en Storm Media, incluyendo el análisis del profesor Yang Hao del Instituto de Estudios de Asia Oriental de la Universidad Nacional de Chengchi sobre "la voluntad personal de Mswati sostiene las relaciones diplomáticas", el contexto de las operaciones económicas de China hacia Eswatini y el impacto de la monarquía absoluta en la toma de decisiones diplomáticas.
 
-[^11]: [Liberty Times Net: BBC Exposes Key to Diplomatic Relations](https://news.ltn.com.tw/news/politics/breakingnews/5411129) — A report from Liberty Times Net, recording China's grant of zero tariffs for 98% of tariff items to 53 African countries on May 1, 2026, with Eswatini uniquely excluded, representing naked economic coercion, and the 2023 bid by China HydroChina Construction Group for $146 million for Eswatini's Pekisila Dam, an operation of "exchanging infrastructure for diplomatic relations."
+[^11]: [Liberty Times: BBC revela la clave de las relaciones diplomáticas](https://news.ltn.com.tw/news/politics/breakingnews/5411129) — Reportaje de Liberty Times documentando la concesión de aranceles cero sobre el 98% de las partidas arancelarias a 53 países africanos por parte de China el 1 de mayo de 2026, excluyendo deliberadamente a Eswatini, y la operación de "infraestructura a cambio de relaciones diplomáticas" con la adjudicación de 146 millones de dólares a la filial de China Power Construction Corporation para la presa Pekisila en Eswatini en 2023.
 
-[^12]: [UpMedia: Taiwan-Burkina Fazo Break Relations, 4 Countries Turn to Beijing within 2 Years](https://www.upmedia.mg/news_info.php?SerialNo=41535) — An in-depth report from UpMedia, recording the timeline and political context of 10 African nations switching from Taiwan to Beijing over the past 30 years, including key break-relations events such as São Tomé and Príncipe in 2016 and Burkina Faso in 2018.
+[^12]: [UpMedia: En 2 años tras la ruptura con Burkina Faso, 4 países se pasaron a Pekín](https://www.upmedia.mg/news_info.php?SerialNo=41535) — Reportaje en profundidad de UpMedia documentando la cronología y el contexto político de 10 países africanos que pasaron de Taiwán a Pekín en los últimos 30 años, incluyendo eventos clave de ruptura como Santo Tomé y Príncipe (2016) y Burkina Faso (2018).
 
-[^13]: [Office of the President, Republic of China (Taiwan): President Tsai Ing-wen's 2018/2023 Eswatini Visit Special](https://www.president.gov.tw/Page/409) — The official press release page for President Tsai Ing-wen's two visits to Eswatini, including the first visit from April 17-20, 2018, the second visit from September 5-8, 2023, celebrating the 55th anniversary of diplomatic relations, bilateral statements, and records of signed agreements.
+[^13]: [Oficina Presidencial de la República de China: Página especial de las visitas de Tsai Ing-wen a Eswatini en 2018/2023](https://www.president.gov.tw/Page/409) — Página oficial de comunicados de prensa de las dos visitas de Tsai Ing-wen a Eswatini, incluyendo la primera visita del 17 al 20 de abril de 2018 y la segunda visita del 5 al 8 de septiembre de 2023 para celebrar el 55.º aniversario del establecimiento de relaciones, con declaraciones bilaterales y registros de acuerdos firmados.
 
-[^14]: [United Daily News: Red Heart Guavas Witness Taiwan-Eswatini Friendship](https://udn.com/news/story/124844/9479296) — A report from United Daily News on May 3, 2026, regarding Lai Ching-te's press conference during his visit to Eswatini, including his use of "Red Heart Guavas entering SUPERSPAR" as a concrete hook for the 40+ year achievements of the stationed Agricultural Technical Team, cooperation channels, and details of localized production.
+[^14]: [United Daily News: La guayaba de corazón rojo testifica la amistad Taiwán-Eswatini](https://udn.com/news/story/124844/9479296) — Reportaje de United Daily News sobre la conferencia de prensa de Lai Ching-te durante su visita a Eswatini el 3 de mayo de 2026, incluyendo su uso de "la guayaba de corazón rojo en SUPERSPAR" como gancho concreto para los más de 40 años de resultados del equipo agrícola taiwanés en Eswatini, detalles de los canales de distribución y la producción localizada.
 
-[^15]: [Focus Taiwan: Lai visits Royal Science and Technology Park, agriculture and medical aid](https://focustaiwan.tw/politics/202605030009) — An in-depth report from Focus Taiwan (Central News Agency English version), including a complete inventory of aid projects such as the TaiwanICDF's Agricultural Technical Team in Eswatini, the Taipei Medical University system's medical team, and briefings on the Strategic Oil Reserve and the Taiwan Industrial Innovation Park.
+[^15]: [Focus Taiwan: Lai visits Royal Science and Technology Park, agriculture and medical aid](https://focustaiwan.tw/politics/202605030009) — Reportaje en profundidad en inglés de CNA (Focus Taiwan), incluyendo un inventario completo de los proyectos de asistencia: equipo agrícola del TaiwanICDF en Eswatini, equipo médico del sistema de la Universidad Médica de Taipéi, presentaciones de la Reserva Estratégica de Petróleo y el Parque de Innovación Industrial de Taiwán.
 
-[^16]: [Wikipedia: HIV/AIDS in Eswatini](https://en.wikipedia.org/wiki/HIV/AIDS_in_Eswatini) — Complete epidemiological data on HIV in Eswatini, including a 27.2% adult prevalence rate as the highest in the world, gender gaps, geographic distribution, detailed figures by age group, and records of intervention by multilateral international aid organizations.
+[^16]: [Wikipedia: HIV/AIDS in Eswatini](https://en.wikipedia.org/wiki/HIV/AIDS_in_Eswatini) — Datos epidemiológicos completos sobre VIH en Eswatini, incluyendo la prevalencia adulta del 27.2% como la más alta del mundo, brechas de género, distribución geográfica, cifras detalladas por grupo de edad y registros de intervención de organizaciones de asistencia multilateral.
 
-[^17]: [Al Jazeera: Eswatini king recovers from COVID-19, takes drugs sent by Taiwan](https://www.aljazeera.com/news/2021/2/20/eswatini-king-recovers-from-covid-takes-drugs-by-taiwan) — An Al Jazeera report from February 20, 2021, on King Mswati III contracting COVID-19 and the Tsai Ing-wen government sending antiviral drugs through diplomatic channels to assist in recovery, including Mswati's public thank-you quote.
+[^17]: [Al Jazeera: Eswatini king recovers from COVID-19, takes drugs sent by Taiwan](https://www.aljazeera.com/news/2021/2/20/eswatini-king-recovers-from-covid-takes-drugs-by-taiwan) — Reportaje de Al Jazeera del 20 de febrero de 2021 sobre Mswati III contrayendo COVID-19, el gobierno de Tsai Ing-wen en Taiwán enviando medicamentos antivirales a través de canales diplomáticos para ayudar en su recuperación, incluyendo la cita de agradecimiento público de Mswati.
 
-[^18]: [The Global Fund: Eswatini meets global 95-95-95 HIV target](https://www.theglobalfund.org/en/stories/2020/2020-09-14-eswatini-meets-global-95-95-95-hiv-target/) — A report from The Global Fund on September 14, 2020, recording Eswatini becoming one of the first African countries to achieve the UNAIDS 95-95-95 HIV treatment target, including an analysis of the contribution of multilateral aid combinations such as PEPFAR, Global Fund, and Taiwan.
+[^18]: [The Global Fund: Eswatini meets global 95-95-95 HIV target](https://www.theglobalfund.org/en/stories/2020/2020-09-14-eswatini-meets-global-95-95-95-hiv-target/) — Informe del Fondo Mundial del 14 de septiembre de 2020, documentando que Eswatini se convirtió en uno de los primeros países africanos en alcanzar el objetivo 95-95-95 de ONUSIDA para el tratamiento del VIH, incluyendo análisis de la contribución de la combinación de asistencia multilateral de PEPFAR, el Fondo Mundial, Taiwán y otros.
 
-[^19]: [NBC News: Taiwan president defiant in Eswatini visit, China calls him 'rat'](https://www.nbcnews.com/world/taiwan/taiwan-president-defiant-visit-eswatini-china-calls-rat-rcna343303) — An NBC News international report on China's Ministry of Foreign Affairs' reaction to Lai Ching-te's visit to Eswatini in May 2026, including the English version records of language operations such as "rat," "stealthy external窜," and "international laughing stock."
+[^19]: [NBC News: Taiwan president defiant in Eswatini visit, China calls him 'rat'](https://www.nbcnews.com/world/taiwan/taiwan-president-defiant-visit-eswatini-china-calls-rat-rcna343303) — Reportaje internacional de NBC News sobre la reacción del Ministerio de Relaciones Exteriores de China tras la visita de Lai Ching-te a Eswatini en mayo de 2026, incluyendo el registro en inglés de operaciones lingüísticas como "rat", "escapada farsante" y "hazmerreír internacional".
 
-[^20]: [Liberty Times Net: US Response to Lai's Visit to Eswatini: Taiwan is a Trusted Partner](https://news.ltn.com.tw/news/world/breakingnews/5424406) — A report from Liberty Times Net on the US State Department's official response to Lai Ching-te's visit to Eswatini, including the original quote "Taiwan is a trusted and capable partner" and the stance against China that it "should not be politicized."
+[^20]: [Liberty Times: Respuesta de EE.UU. a la visita de Lai a Eswatini: Taiwan is a trusted partner](https://news.ltn.com.tw/news/world/breakingnews/5424406) — Reportaje de Liberty Times sobre la respuesta oficial del Departamento de Estado de Estados Unidos a la visita de Lai Ching-te a Eswatini, incluyendo la declaración original "Taiwan is a trusted and capable partner" y la postura de que "no debería politizarse" hacia China.
 
-[^21]: [CNA: Strategic Oil Reserve + Taiwan Industrial Innovation Park Briefing](https://www.cna.com.tw/news/aipl/202605030211.aspx) — A CNA report on May 3, 2026, regarding President Lai Ching-te's inspection of the Royal Science and Technology Park, featuring two flagship projects: the Strategic Oil Reserve and the Taiwan Industrial Innovation Park (TIIP), including briefing details from the Overseas Investment Development Company and Taiwan Engineering Consultants.
+[^21]: [Agencia Central de Noticias: Presentaciones de la Reserva Estratégica de Petróleo + Parque de Innovación Industrial de Taiwán](https://www.cna.com.tw/news/aipl/202605030211.aspx) — Reportaje de CNA sobre la visita de Lai Ching-te a la tarde del 3 de mayo de 2026 al Parque Científico y Tecnológico Real (Royal Science and Technology Park) para inspeccionar los dos proyectos insignia: la Reserva Estratégica de Petróleo (Strategic Oil Reserve) y el Parque de Innovación Industrial de Taiwán (Taiwan Industrial Innovation Park, TIIP), incluyendo detalles de las presentaciones de la Corporación de Desarrollo de Inversiones en el Exterior y la consultora de ingeniería Taiwan Engineering Consultants.
 
-[^22]: [United Daily News: Lai Ching-te Defines Eswatini's Largest Cooperation](https://udn.com/news/story/124844/9482091) — A report from United Daily News on Lai Ching-te's quotes regarding the Strategic Oil Reserve and TIIP, defining them as "the largest and most strategically significant cooperation projects since the establishment of diplomatic relations between the two countries," with the former guarding stability and the latter creating growth, providing the complete official narrative.
+[^22]: [United Daily News: Lai Ching-te califica la mayor cooperación con Eswatini](https://udn.com/news/story/124844/9479402) — Reportaje de United Daily News sobre las declaraciones de Lai Ching-te calificando la Reserva Estratégica de Petróleo y el TIIP como "los proyectos de cooperación más grandes y de mayor significado estratégico desde el establecimiento de relaciones diplomáticas entre ambos países", incluyendo la formulación oficial completa: "El primero protege la estabilidad, el segundo abre el crecimiento".
 
-[^23]: [Wikipedia: 2021 Eswatini protests](https://en.wikipedia.org/wiki/2021_Eswatini_protests) — A complete timeline of the 2021 Eswatini democratization protests, including the triggering event of law student Thabani Nkomonye, 500 youths taking to the streets in Manzini, the Acting Prime Minister issuing a ban on June 25, nationwide riots from June 28 to July 4, HRW confirming 46 deaths, and civilian estimates exceeding one hundred.
+[^23]: [Wikipedia: 2021 Eswatini protests](https://zh.wikipedia.org/wiki/2021_Eswatini_protests) — Cronología completa de las protestas pro-democracia en Eswatini de mayo a julio de 2021, incluyendo el evento detonante del estudiante de derecho Thabani Nkomonye, los 500 jóvenes que salieron a las calles de Manzini, la prohibición del primer ministro interino el 25 de junio, los disturbios nacionales del 28 de junio al 4 de julio, los 46 muertos confirmados por HRW y las estimaciones civiles de más de cien.
 
-[^24]: [Human Rights Watch: Eswatini — No Justice for June 2021 Security Force Violence](https://www.hrw.org/news/2025/10/30/eswatini-no-justice-for-june-2021-security-force-violence) — HRW's latest report from October 30, 2025, confirming that no members of the security forces have been held accountable for the June 2021 violence incidents as of October 2025, including details of family interviews, stagnation of investigation procedures, and responses from the international community.
+[^24]: [Human Rights Watch: Eswatini — No Justice for June 2021 Security Force Violence](https://www.hrw.org/news/2025/10/30/eswatini-no-justice-for-june-2021-security-force-violence) — Informe más reciente de Human Rights Watch del 30 de octubre de 2025, confirmando que hasta octubre de 2025 ningún miembro de las fuerzas de seguridad había sido responsabilizado por los actos violentos de junio de 2021, incluyendo entrevistas con familiares, estancamiento de los procedimientos de investigación y respuesta de la comunidad internacional.
 
-[^25]: [International Monetary Fund: Eswatini 2025 Article IV Consultation](https://www.imf.org/-/media/files/publications/cr/2025/english/1swzea2025001-source-pdf.pdf) — The IMF's 2025 Article IV Consultation Report for Eswatini, including complete economic analysis of GDP, unemployment rates (overall 34%, youth 56-58%), poverty rates, SACU distribution, and the structure of the sugarcane industry.
+[^25]: [International Monetary Fund: Eswatini 2025 Article IV Consultation](https://www.imf.org/-/media/files/publications/cr/2025/english/1swzea2025001-source-pdf.pdf) — Informe de consulta del Artículo IV del FMI sobre Eswatini de 2025, incluyendo análisis económico completo de PIB, tasa de desempleo (general 34%, juvenil 56-58%), tasa de pobreza, distribución de ingresos de la SACU, estructura de la industria azucarera y otros indicadores.
 
-[^26]: [United Daily News: Lai Ching-te's Return Avoids China's Sensitive Airspace](https://udn.com/news/story/124844/9482091) — A report from United Daily News on the details of Lai Ching-te's return on May 4-5, 2026, including the aircraft deliberately turning off identity information, flying via the southern Indian Ocean route through Indonesia and the Philippines back to Taiwan, and arrival at Taoyuan Airport at 10:40 AM on May 5.
+[^26]: [United Daily News: Lai Ching-te evita espacios aéreos sensibles de China en su regreso](https://udn.com/news/story/124844/9482091) — Reportaje de United Daily News sobre los detalles del regreso de Lai Ching-te del 4 al 5 de mayo de 2026, incluyendo el apagado deliberado de la información de identidad del avión, la ruta hacia el sur del Océano Índico pasando por Indonesia y Filipinas para regresar a Taiwán, y la llegada al aeropuerto de Taoyuan a las 10:40 de la mañana del 5 de mayo.

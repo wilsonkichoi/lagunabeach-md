@@ -1,12 +1,22 @@
 ---
-title: "Han Kuo-yu"
-description: "The first directly-elected mayor in history to be recalled, he became the Speaker of the Legislative Yuan four years later. What kind of political trajectory is this?"
+title: 'Han Kuo-yu'
+description: 'The first directly-elected mayor in history to be recalled, he became the Speaker of the Legislative Yuan four years later. What kind of political trajectory is this?'
 date: 2026-04-11
 category: 'People'
-tags: ["political figure", "Kuomintang", "Speaker of the Legislative Yuan", "Han Wave", "Kaohsiung", "2018", "2020", "2024"]
-subcategory: "Political Figure"
-author: "Taiwan.md"
-difficulty: "intermediate"
+tags:
+  [
+    'political figure',
+    'Kuomintang',
+    'Speaker of the Legislative Yuan',
+    'Han Wave',
+    'Kaohsiung',
+    '2018',
+    '2020',
+    '2024',
+  ]
+subcategory: 'Political Figure'
+author: 'Taiwan.md'
+difficulty: 'intermediate'
 readingTime: 12
 featured: true
 lastVerified: 2026-04-11
@@ -21,10 +31,10 @@ sporeLinks:
     url: 'https://x.com/taiwandotmd/status/2043538858886017091'
     views: 332
 translatedFrom: 'People/韓國瑜.md'
-sourceCommitSha: 'd6e87d07'
+sourceCommitSha: '86db85f3'
 sourceContentHash: 'sha256:43806fa3b9658513'
 sourceBodyHash: 'sha256:fe00573219684528'
-translatedAt: '2026-05-17T06:00:00Z'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 # Han Kuo-yu
@@ -77,7 +87,7 @@ His campaign language had a density never before seen in Taiwanese politics:
 
 The common characteristic of these slogans is: **Extremely specific, extremely populist, extremely emotional**. They do not discuss policy details or governance philosophies; they directly touch the voters' most primal pain points—young people cannot stay, the economy does not grow, and hope is missing. Moreover, they can be replicated, shared, and turned into internet memes.
 
-A post-election analysis by *The Reporter* in 2018 categorized the "Han Wave" as an **anti-narrative, anti-elite, grounded** electoral phenomenon. [^6] At the time, Taiwan's political narrative was dominated by the Tsai Ing-wen government's DPP, with language leaning towards rationality, internationalism, reform, and progress. This language was incomprehensible and inaudible to certain voters—especially those aged 40-49, who had experienced Kaohsiung's economic boom and watched it decline.
+A post-election analysis by _The Reporter_ in 2018 categorized the "Han Wave" as an **anti-narrative, anti-elite, grounded** electoral phenomenon. [^6] At the time, Taiwan's political narrative was dominated by the Tsai Ing-wen government's DPP, with language leaning towards rationality, internationalism, reform, and progress. This language was incomprehensible and inaudible to certain voters—especially those aged 40-49, who had experienced Kaohsiung's economic boom and watched it decline.
 
 Han Kuo-yu's appearance gave them **something to say**.
 
@@ -172,7 +182,7 @@ The truth likely lies between the two. And Han Kuo-yu himself may be the quietes
 - [Liu Su-yen](/people/盧秀燕) — The other pole of the 2018 Han Wave; the Mayor of Taichung who flipped from blue to blue in the same year as Han Kuo-yu.
 - [Hsu Chiao-hsin](/people/徐巧芯) — The main proponent of the 800 billion version of the 2026 military procurement controversy; a key presence in the negotiations of Speaker of the Legislative Yuan Han Kuo-yu.
 - [Chi Lin-lien](/people/季麟連) — The Vice Chairman who threatened to "expel from party membership those who sell the party for glory" at the Central Executive Committee meeting on 2026-04-29; the target truly impacted by those words was Han Kuo-yu.
-- [Tseng Po-jen](/people/曾博恩) — In December 2019 Han Kuo-yu appeared on Season 3 of *The Night Night Show with Hello*, with the single condition that no jokes be made about his hair; Tseng called him "the most familiar stranger".
+- [Tseng Po-jen](/people/曾博恩) — In December 2019 Han Kuo-yu appeared on Season 3 of _The Night Night Show with Hello_, with the single condition that no jokes be made about his hair; Tseng called him "the most familiar stranger".
 
 ## References
 

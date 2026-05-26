@@ -19,10 +19,10 @@ readingTime: 14
 lastVerified: 2026-04-08
 lastHumanReview: false
 translatedFrom: 'Society/台灣公共衛生與防疫體系.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:58f409f32e8328d7'
-sourceBodyHash: 'sha256:a899b39b8261de58'
-translatedAt: '2026-04-14T12:32:24+08:00'
+sourceCommitSha: '9a60e8fd'
+sourceContentHash: 'sha256:d6bb10bad61ec15f'
+sourceBodyHash: 'sha256:4f3aba8b24585b02'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 > **En 30 secondes :** En 2003, le SRAS a tué 73 personnes à Taïwan, et la mise en quarantaine précipitée de l'hôpital Hoping est restée comme un traumatisme collectif dans l'histoire de la santé publique du pays. Taïwan a ensuite reconstruit de fond en comble tout son système épidémiologique : le Centre de contrôle des maladies a été élevé en rang, le mécanisme du Centre de commandement central des épidémies (CECC) a été inscrit dans la loi, et les protocoles de contrôle des infections ont été entièrement revus. Lorsque la COVID-19 s'est propagée à l'échelle mondiale en 2020, Taïwan a maintenu une transmission communautaire quasi nulle pendant les 18 premiers mois — un exploit salué internationalement sous le nom de « modèle taïwanais ». En avril 2026, Taïwan a enregistré son premier cas autochtone de grippe aviaire H7N7 transmise à l'humain : le système de lutte contre les épidémies est à nouveau mis à l'épreuve.
@@ -94,6 +94,7 @@ Vingt-trois ans après la mise sous scellés de l'hôpital Hoping, le bâtiment 
 - Système médical et assurance maladie universelle à Taïwan — L'infrastructure de base du système épidémiologique : la base de données de 23,4 millions d'assurés
 - Audrey Tang — La ministre déléguée au numérique derrière la carte des masques
 - Système de médecine d'urgence face aux catastrophes à Taïwan — Du séisme du 21 septembre au SRAS : comment les catastrophes ont transformé la médecine
+- [Deux lois sur la médecine régénérative × 30 ans d'ARNm](/society/台灣再生醫療雙法沿革從業人員告白) — L'achat de BNT en 2021 et la législation sur la thérapie cellulaire : double récit en parallèle, prolongement du volet COVID de cet article
 
 ## Références
 

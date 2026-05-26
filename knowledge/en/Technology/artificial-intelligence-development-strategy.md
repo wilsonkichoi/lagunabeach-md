@@ -1,20 +1,29 @@
 ---
 title: 'Taiwan’s Artificial Intelligence Development and Future Strategy: The Hardware Ticket Is in Hand. Where Is the Next Battle?'
-description: "On October 8, 2024, the Nobel Prize in Physics went to Hopfield and Hinton; the next day, the Chemistry prize went to the three AlphaFold researchers. On May 29 of the same year, Jensen Huang ate oyster omelets with Morris Chang at Taipei’s Ningxia Night Market. Taiwan manufactures 90% of the world’s AI servers and 72% of advanced wafers, yet it was absent from the answers to the 42-year history of neural networks and the 50-year protein-folding problem. From PTT founder Ethan Tu’s Taiwan AI Labs to TAIDE, the traditional Chinese LLM model backed by the National Science and Technology Council, is it still enough for this island to be only a contract manufacturer?"
+description: 'On October 8, 2024, the Nobel Prize in Physics went to Hopfield and Hinton; the next day, the Chemistry prize went to the three AlphaFold researchers. On May 29 of the same year, Jensen Huang ate oyster omelets with Morris Chang at Taipei’s Ningxia Night Market. Taiwan manufactures 90% of the world’s AI servers and 72% of advanced wafers, yet it was absent from the answers to the 42-year history of neural networks and the 50-year protein-folding problem. From PTT founder Ethan Tu’s Taiwan AI Labs to TAIDE, the traditional Chinese LLM model backed by the National Science and Technology Council, is it still enough for this island to be only a contract manufacturer?'
 date: 2026-03-19
 author: 'Taiwan.md 編輯組'
 category: 'Technology'
 subcategory: '人工智慧'
-tags: ['Artificial Intelligence', 'AI', 'Semiconductors', 'Technology Policy', 'Digital Transformation', 'Nobel Prize', 'AlphaFold']
+tags:
+  [
+    'Artificial Intelligence',
+    'AI',
+    'Semiconductors',
+    'Technology Policy',
+    'Digital Transformation',
+    'Nobel Prize',
+    'AlphaFold',
+  ]
 readingTime: 18
 lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/台灣人工智慧發展與未來策略.md'
-sourceCommitSha: 'dbb8d44cb'
-sourceContentHash: 'sha256:d0717d19a9d18832'
-sourceBodyHash: 'sha256:67e662f4e2d49494'
-translatedAt: '2026-05-20T05:08:27+08:00'
+sourceCommitSha: '89026b10'
+sourceContentHash: 'sha256:d7e4d2422c367c4b'
+sourceBodyHash: 'sha256:5c4408b02aa462ff'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # Taiwan’s Artificial Intelligence Development and Future Strategy: The Hardware Ticket Is in Hand. Where Is the Next Battle?
@@ -38,7 +47,7 @@ Set the timeline beside it: when Hopfield published his paper, “Neural network
 In the end, the Nobel Prizes awarded over those two days were not for ChatGPT. They were for several papers from 30 or 40 years earlier that almost nobody understood at the time. The lag between basic research and industrial application has always worked this way.
 
 ![Geoffrey E. Hinton’s official portrait during Nobel Week in Stockholm on December 8, 2024: dark suit, white hair, calm expression facing the camera](/article-images/technology/hinton-nobel-2024.jpg)
-_Geoffrey Hinton, 2024 Nobel Prize laureate in Physics, during Nobel Week in Stockholm. Photo: Arthur Petron, 2024-12-08. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_(3x4_cropped).jpg)._
+_Geoffrey Hinton, 2024 Nobel Prize laureate in Physics, during Nobel Week in Stockholm. Photo: Arthur Petron, 2024-12-08. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_(3x4*cropped).jpg).*
 
 ---
 
@@ -94,7 +103,7 @@ Even more interesting is something Hopfield later said. He spent his career at P
 The person who wrote out the mathematical foundation of modern AI reminded everyone, on the day he received the prize, to be careful.
 
 ![John J. Hopfield during Nobel Week in Stockholm on December 8, 2024: dark suit, white hair, composed expression](/article-images/technology/hopfield-nobel-2024.jpg)
-_John J. Hopfield, 2024 Nobel Prize laureate in Physics, during Nobel Week in Stockholm. Photo: Arthur Petron, 2024-12-08. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:John_J._Hopfield,_2024_Nobel_Prize_Laureate_in_Physics_1_(cropped).jpg)._
+_John J. Hopfield, 2024 Nobel Prize laureate in Physics, during Nobel Week in Stockholm. Photo: Arthur Petron, 2024-12-08. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:John_J._Hopfield,_2024_Nobel_Prize_Laureate_in_Physics_1_(cropped).jpg).\_
 
 ---
 
@@ -115,6 +124,14 @@ His reason for leaving was not retirement. In the interview, he said he wanted t
 When the 2024 Nobel Prize in Physics was awarded to him, he repeated the warning in a telephone interview: people should be careful about the possibility that AI may go out of control[^N10].
 
 The person who wrote the training algorithm for deep learning and the person who wrote the memory model stood on the Royal Swedish Academy of Sciences’ stage on the same day in October 2024, and both warned that this thing might be more dangerous than imagined. The image has a counterpoint quality to Oppenheimer watching the mushroom cloud rise in the New Mexico desert in 1945.
+
+Two months later, on December 8, 2024, Hinton delivered his Nobel Prize lecture at the Aula Magna of Stockholm University. The title was “Boltzmann Machines” — that early work, continuous with Hopfield's line, writing thermodynamic probability distributions into neural networks. Listening through it, one realized the 1986 backpropagation paper was not an isolated insight, but a whole framework that grew from the intersection of 1980s physics and cognitive science:
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/iCS1ds0UDP8" title="Boltzmann Machines — Nobel Prize lecture by Geoffrey Hinton, Nobel Prize in Physics 2024" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Royal Swedish Academy of Sciences official channel: Geoffrey Hinton's Nobel Prize in Physics lecture "Boltzmann Machines" on December 8, 2024. From the Boltzmann machine he and Sejnowski wrote in the 1980s, to backpropagation, to today's LLMs — a full forty years. In the final five minutes he returned again to his concerns about AI risk, this time from a Nobel lecture platform._
 
 ---
 
@@ -253,8 +270,8 @@ That meal at Ningxia Night Market was the position Taiwan had accumulated over t
 This article uses four public-domain / CC-licensed images, all cached under `public/article-images/technology/` to avoid hotlinking source servers:
 
 - [Estructura tridimensional de la proteïna CBLN1 per AlphaFold amb codificació rainbow](https://commons.wikimedia.org/wiki/File:Estructura_tridimensional_de_la_prote%C3%AFna_CBLN1_per_AlphaFold_amb_codificaci%C3%B3_rainbow.png) — Hero image, AlphaFold-predicted structure of the CBLN1 protein, rainbow color coding from N- to C-terminus. Photo: BQUB25-UPoch (own work, AlphaFold + PyMOL), 2025-11-15, CC BY 4.0.
-- [Geoffrey E. Hinton, 2024 Nobel Prize Laureate in Physics (3x4 cropped)](https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_(3x4_cropped).jpg) — Inline image, Hinton’s official portrait during 2024 Nobel Week. Photo: Arthur Petron, 2024-12-08, CC BY-SA 4.0.
-- [John J. Hopfield, 2024 Nobel Prize Laureate in Physics 1 (cropped)](https://commons.wikimedia.org/wiki/File:John_J._Hopfield,_2024_Nobel_Prize_Laureate_in_Physics_1_(cropped).jpg) — Inline image, Hopfield’s official portrait during 2024 Nobel Week. Photo: Arthur Petron, 2024-12-08, CC BY-SA 4.0.
+- [Geoffrey E. Hinton, 2024 Nobel Prize Laureate in Physics (3x4 cropped)](<https://commons.wikimedia.org/wiki/File:Geoffrey_E._Hinton,_2024_Nobel_Prize_Laureate_in_Physics_(3x4_cropped).jpg>) — Inline image, Hinton’s official portrait during 2024 Nobel Week. Photo: Arthur Petron, 2024-12-08, CC BY-SA 4.0.
+- [John J. Hopfield, 2024 Nobel Prize Laureate in Physics 1 (cropped)](<https://commons.wikimedia.org/wiki/File:John_J._Hopfield,_2024_Nobel_Prize_Laureate_in_Physics_1_(cropped).jpg>) — Inline image, Hopfield’s official portrait during 2024 Nobel Week. Photo: Arthur Petron, 2024-12-08, CC BY-SA 4.0.
 - [TSMC Fab 5](https://commons.wikimedia.org/wiki/File:TSMC_Fab_5.jpg) — Inline image, TSMC’s Hsinchu Fab 5, the physical site of AI chip foundry manufacturing. Photo: Wikimedia Commons (existing cache).
 
 ---

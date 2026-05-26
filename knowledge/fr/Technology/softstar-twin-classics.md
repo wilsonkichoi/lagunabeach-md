@@ -21,10 +21,10 @@ lastVerified: 2026-04-23
 lastHumanReview: false
 featured: false
 translatedFrom: 'Technology/大宇雙劍.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:d2025a3d031961b0'
-sourceBodyHash: 'sha256:fef7cbce1c58df11'
-translatedAt: '2026-05-01T20:54:17+08:00'
+sourceCommitSha: '03e04642'
+sourceContentHash: 'sha256:55f0fa48e3d73312'
+sourceBodyHash: 'sha256:5c70d0e1a87b0e81'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 > En 1990, un groupe d'étudiants universitaires se penchaient sur des manuels techniques au Guanghua Market, se partageant un seul ordinateur, pour créer le premier RPG de wuxia en chinois : Xuan-Yuan Sword. Cinq ans plus tard, un jeune homme de 26 ans inscrivit sa peine de cœur dans la fin de The Legend of Sword and Fairy, et le jeu s'écoula à dix mille exemplaires le premier jour. Ces deux jeux furent ensuite surnommés les « Deux Épées de Softstar », traversant trois décennies, engendrant séries télévisées et films, avec des ventes cumulées dépassant le million d'exemplaires. En septembre 2024, Softstar a vendu la propriété intellectuelle des deux épées pour cinq cents millions de dollars taïwanais. Mais pour toute une génération de joueurs, cet après-midi où ils ont pleuré pour la première fois devant une fenêtre DOS, ça ne se vend pas.
@@ -68,7 +68,7 @@ Dix mille exemplaires vendus le premier jour, en rupture de stock. Les ventes cu
 
 The Legend of Sword and Fairy et Xuan-Yuan Sword furent toutes deux forgées chez Softstar Entertainment, mais elles prirent des chemins radicalement différents.
 
-**Xuan-Yuan Sword emprunta l'histoire.** Le groupe DOMO de Cai Minghong tissa ensemble mythologie chinoise et histoire réelle. En 1999, Xuan-Yuan Sword III : Beyond the Clouds and la Mer porta l'intrigue sur la Route de la Soie entre la dynastie Tang et l'Europe, le joueur incarnant un jeune Tang traversant l'Empire arabe pour atteindre le Royaume franc. En 2000, le spin-off Scar of Sky, situé à la fin des Sui et au début des Tang, devint l'œuvre la mieux notée de la série.[^9]
+**Xuan-Yuan Sword emprunta l'histoire.** Le groupe DOMO de Cai Minghong tissa ensemble mythologie chinoise et histoire réelle. En 1999, Xuan-Yuan Sword III : Beyond the Clouds and la Mer porta l'intrigue sur la Route de la Soie entre la dynastie Tang et l'Europe ; le joueur incarnait le jeune épéiste Sett qui, partant du Royaume franc, traversait l'Empire arabe vers l'est pour atteindre la Grande Tang — le regard allait de l'Europe vers la Chine, et non l'inverse. En 2000, le spin-off Scar of Sky, situé à la fin des Sui et au début des Tang, devint l'œuvre la mieux notée de la série.[^9]
 
 Le design le plus singulier de Xuan-Yuan Sword était le « Demon Cauldron » (煉妖壺). À partir de Xuan-Yuan Sword II, les joueurs pouvaient capturer les monstres vaincus dans un chaudron pour les transformer en objets ou en nouveaux compagnons. Ce mécanisme, enraciné dans l'univers du Investiture of the Gods et du Classic of Mountains and Seas, intégrait directement le substrat culturel dans le système de jeu. À une époque où les RPG japonais n'avaient pas encore le concept de « capture de monstres » (avant Pokémon), le Demon Cauldron était une invention originale.[^10]
 
@@ -162,7 +162,7 @@ Cet ordinateur n'existe plus depuis longtemps. Cette fenêtre DOS s'est fermée 
 
 [^8]: [Techbang : 20 ans de The Legend of Sword and Fairy, comment Yao Zhuangxian évalue-t-il ce passé ?](https://www.techbang.com/posts/24345-xian-jianqi-20-years-the-father-of-the-fairy-sword-yao-zhuangxian-how-to-evaluate-this-past) — Dix mille exemplaires le premier jour, plus d'un million au total, trois premiers au sondage pendant six années consécutives
 
-[^9]: [Wikipédia : Xuan-Yuan Sword III : Beyond the Clouds and la Mer](https://zh.wikipedia.org/zh-tw/%E8%BB%92%E8%BD%85%E5%8A%8D%E5%8F%83_%E9%9B%B2%E5%92%8C%E5%B1%B1%E7%9A%84%E5%BD%BC%E7%AB%AF) — Sortie en 1999, histoire de la dynastie Tang au Royaume franc
+[^9]: [Wikipédia : Xuan-Yuan Sword III : Beyond the Clouds and la Mer](https://zh.wikipedia.org/zh-tw/%E8%BB%92%E8%BD%85%E5%8A%8D%E5%8F%83_%E9%9B%B2%E5%92%8C%E5%B1%B1%E7%9A%84%E5%BD%BC%E7%AB%AF) — Sortie en 1999 ; le protagoniste Sett part de Venise, traverse le continent eurasien vers l'est à la recherche de la Grande Tang qui se trouve au-delà des nuages et des montagnes
 
 [^10]: [Xuan-Yuan Sword Wiki : Demon Cauldron](https://wikisword.fandom.com/wiki/%E7%85%89%E5%A6%96%E5%A3%BA) — Le système de fusion de démons introduit à partir de Xuan-Yuan Sword II
 

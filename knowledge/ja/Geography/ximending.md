@@ -28,10 +28,10 @@ lastVerified: 2026-05-21
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/西門町.md'
-sourceCommitSha: '946f38bb4'
-sourceContentHash: 'sha256:01ea9b4d40fddbc9'
-sourceBodyHash: 'sha256:1a39a5db41205a6a'
-translatedAt: '2026-05-22T05:08:46+08:00'
+sourceCommitSha: '20a4ac33'
+sourceContentHash: 'sha256:1aff728fe300b0bd'
+sourceBodyHash: 'sha256:2e82b412c0365ee8'
+translatedAt: '2026-05-25T21:07:04Z'
 ---
 
 # 西門町：日本人が 1896 年につくった娯楽街は、130 年後も台北で最も若い街です
@@ -180,7 +180,7 @@ _2022 年 12 月、クリスマスの夜の西門歩行者天国。Photo: 迷惘
 - [台灣老街文化與商業街區](/culture/台灣老街文化與商業街區) — 日本統治期に計画された娯楽区としての西門町と、清朝統治期の老街（鹿港、艋舺、大稲埕）との構造的差異
 - [艋舺](/geography/艋舺) — 同じ batch 1 の歴史街区 sibling。日本人が 1896 年に西門町を計画した時、隣の艋舺は清朝統治期の北台湾で最もにぎやかな港でした
 - [大稻埕](/geography/大稻埕) — 同じ batch 1 の歴史街区 sibling。1853 年の頂下郊拼後に興った茶葉商業街であり、西門町の日本統治期娯楽区とは二つの異なる「街の形成時点」です
-- [中山北路條通](/geography/中山北路條通) — 同じ batch 1 の歴史街区 sibling。1901 年の勅使街道、戦後の米軍宿舎、1972 年の日系商店街文化を持ち、西門町と同じく日本統治期の計画ですが、サービスする階層はまったく異なります
+- [中山北路條通](/geography/中山北路條通) — 1898年の日本統治「勅使街道」から圓山台湾神社への並木大道で、西門町と同時期の日本統治計画ながら、まったく異なる都市実験の道をたどりました
 
 ## 画像出典
 

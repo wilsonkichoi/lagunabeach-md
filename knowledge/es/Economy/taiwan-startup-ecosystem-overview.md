@@ -5,16 +5,24 @@ date: 2026-03-18
 author: 'Taiwan.md'
 category: 'Economy'
 subcategory: '新創經濟'
-tags: ['startups', 'emprendimiento', 'capital de riesgo', 'aceleradoras', 'AppWorks', 'unicornios']
+tags:
+  [
+    'startups',
+    'emprendimiento',
+    'capital de riesgo',
+    'aceleradoras',
+    'AppWorks',
+    'unicornios',
+  ]
 readingTime: 9
 lastVerified: 2026-03-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Economy/新創生態系.md'
-sourceCommitSha: 'f712b7242'
-sourceContentHash: 'sha256:0b1dac646dacc00c'
-sourceBodyHash: 'sha256:890c8ef42365a56a'
-translatedAt: '2026-05-17T05:34:54+08:00'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:99a2d6fc0bc6d423'
+sourceBodyHash: 'sha256:07a9caf907dd16bd'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 # Ecosistema de startups
@@ -95,7 +103,7 @@ AppWorks（之初創投）fue fundada por **Jamie Lin** en 2010. Es una instituc
 - Foco en tres direcciones: aplicaciones de AI, blockchain / Web3 y mercado del Sudeste Asiático
 - Tasa de admisión por cohorte de alrededor de 3-5%, con competencia intensa
 
-### Otras aceleradoras importantes
+### Otras aceleradoras e incubadoras
 
 **SparkLabs Taipei**: sede en Taiwán de la aceleradora internacional SparkLabs, enfocada en startups B2B de servicios empresariales, con una red transnacional de evaluación y mentoría compartida con su matriz en Seúl, Corea del Sur.
 
@@ -171,7 +179,7 @@ Taiwán está cultivando activamente empresas con potencial de unicornio, especi
 
 ### Entorno regulatorio
 
-**Reforma de la Ley de Sociedades (2018)**: una reforma importante permitió a las startups adoptar acciones con voto múltiple (dual-class shares), acciones sin valor nominal y remuneración accionaria para empleados, mejorando de forma significativa el entorno legal para el control de los fundadores y los incentivos a empleados.
+**Reforma de la Ley de Sociedades (2018)**: esta reforma permitió a las startups adoptar acciones con voto múltiple (dual-class shares), acciones sin valor nominal y remuneración accionaria para empleados, mejorando de forma significativa el entorno legal para el control de los fundadores y los incentivos a empleados.
 
 **Sandbox regulatorio financiero (2018)**: ofrece a startups FinTech un entorno de prueba con exenciones regulatorias por hasta tres años, permitiendo experimentar con servicios financieros innovadores antes de que exista una regulación formal. Decenas de empresas ya han recibido aprobación, en áreas como pagos con blockchain y préstamos P2P.
 
@@ -232,7 +240,11 @@ Desde el éxito de AppWorks hasta los avances de Gogoro, Appier y 91APP en los m
 ## Referencias
 
 [^1]: [Sitio oficial de AppWorks](https://appworks.tw/) — estrategia de inversión de AppWorks, descripción del programa de aceleración y estadísticas del ecosistema
+
 [^2]: [Gogoro — Relaciones con inversionistas](https://ir.gogoro.com/) — documentos de cotización en Nasdaq, escala de la red de estaciones de intercambio y estadísticas de usuarios suscritos
+
 [^3]: [Appier Group — Información para inversionistas](https://appier.com/investor-relations) — contexto de cotización en la Bolsa de Tokio, mercados operativos y escala de clientes
+
 [^4]: [BusinessNext — Informe anual del ecosistema taiwanés de startups](https://www.bnext.com.tw/) — estadísticas de financiamiento de startups taiwanesas, análisis de empresas representativas y observación de tendencias
+
 [^5]: [National Development Council — Datos de startups de Taiwán](https://startup.ndc.gov.tw/) — estadísticas gubernamentales sobre el aumento interanual del número de financiamientos de startups taiwanesas en 2023 y resultados de políticas públicas

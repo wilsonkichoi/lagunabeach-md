@@ -16,13 +16,19 @@ tags:
 subcategory: '政治與民主'
 author: 'Taiwan.md'
 featured: false
-lastVerified: 2026-05-16
+lastVerified: 2026-05-23
 lastHumanReview: true
+rationale:
+  why_this_hook: 'Noche de derrota del 14/1/2012 «puedes llorar pero no te desanimes» + reelección con 6.894 millones cuatro años después. El punto de entrada con mayor arco de reversión de toda la biografía, en correspondencia con el final «el silencio también puede ser un estilo de liderazgo».'
+  whats_excluded: '6 frentes de crítica: ultraconservadores (responsabilidad por deterioro de relaciones en el estrecho) / progresistas (encuadre «República de China Taiwán») / PPT (matrimonio igualitario por ley especial / energía / reforma judicial / precios de vivienda) / progresistas (matrimonio de segunda clase / falta de seguimiento indígena) / strategic ambiguity / detalles de facciones internas. La mayoría entra en «fuera de alcance» (se remiten a artículos independientes) + «limitaciones de espacio». Cubierto en prosa: matrimonio igualitario + crítica indígena en §Las dos firmas / crítica a la prevención epidémica en §8,17 millones de votos / rupturas de alianzas + libertad de prensa (CNA) breve cobertura en §Al irse (per dogfood del sub-agente Phase 5).'
+  where_it_hedges: '6 posiciones en prosa que reconocen la crítica pero sostienen la narrativa — §Las dos firmas «pero la firma ya cayó» / §817 millones de votos «el adelanto se convirtió de elogio en sátira» / §estrecho de Taiwán «un estado sin nombre» / §final «no buena oradora pero gobernó con leyes» / §Al irse ataques chinos + crítica externa como sesgo de género / §Al irse «alianzas 22→12 + NCC 7:0 CNA» breve cobertura de controversias de libertad de prensa y diplomacia (añadido per dogfood sub-agente Phase 5).'
+  whos_pushing_back: 'Principales frentes opositores — ultraconservadores / progresistas / China RPC (prosa con descripción de eventos o hedge de reconocimiento interno) / progresistas profundos / PPT (prosa completamente ausente, per whats_excluded fuera de alcance).'
+  which_framing: 'Dispositivos narrativos seleccionados por Taiwan.md: contrapunto «Las dos firmas» (disculpa indígena + ley de matrimonio igualitario) / arco de reversión «derrota→reelección» / característica personal «no buena oradora pero hold the room». No se cita marco académico previo.'
 translatedFrom: 'People/蔡英文.md'
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:d4925ffaac58660e'
-sourceBodyHash: 'sha256:c49502db85e74424'
-translatedAt: '2026-05-17T05:33:00Z'
+sourceCommitSha: '1712d109'
+sourceContentHash: 'sha256:fadbb54905eb75f0'
+sourceBodyHash: 'sha256:251dc48eab49a71a'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 # Tsai Ing-wen
@@ -97,6 +103,8 @@ El 20 de mayo de 2024, Tsai Ing-wen dejó el cargo. Su vicepresidente, Lai Ching
 
 Fue incluida dos veces en la lista de las cien personas más influyentes de la revista _TIME_ (2016 y 2020)[^13]. Tras dejar el cargo, no se retiró realmente: en octubre de 2024 visitó como ciudadana particular Chequia, Lituania y el Reino Unido, y su discurso dentro del Parlamento Europeo la convirtió en la primera expresidenta taiwanesa en intervenir en el Parlamento Europeo[^16]. Ese mismo año regresó también a Japón para una conferencia pública en la Universidad de Waseda.
 
+Durante su mandato también se acumularon controversias: el número de aliados diplomáticos cayó de veintidós a doce, la cifra más baja registrada por cualquier presidente[^17]; en 2020, la Comisión Nacional de Comunicaciones (NCC) denegó por siete votos a cero la renovación de licencia a la cadena CTiTV, lo que suscitó un debate sobre los límites de la libertad de prensa[^18].
+
 Tuvo dos gatos: Tsai Xiangxiang es un atigrado gris y blanco rescatado por la diputada Hsiao Bi-khim en la estación de Heping, Hualien, tras el tifón Saola en 2012; Tsai Acai es un gato naranja adoptado en 2015 en un campo de piña de la comunidad de Pasikau, en Taitung[^14]. No se casó nunca. Tras su victoria en mayo de 2016, el _International Herald Leader_, dependiente de la agencia china Xinhua, publicó el artículo «Investigando a Tsai Ing-wen», que vinculaba su condición de «mujer política soltera» con un supuesto «comportamiento extremo», lo que diversos medios extranjeros criticaron como discriminación de género[^15].
 
 Tsai Ing-wen demostró en ocho años que una política de perfil académico, poco dada a los discursos brillantes, a los apretones de manos y a la televisión, puede gobernar un país con la fuerza de la ley y las instituciones en una era de populismo global. Más allá de las políticas que dejó, también dejó una prueba más difícil de replicar: el silencio también puede ser un estilo de liderazgo.
@@ -141,6 +149,6 @@ Tsai Ing-wen demostró en ocho años que una política de perfil académico, poc
 
 [^14]: [Mirror Media: la Tsai Ing-wen que no conoces — cuando Xiangxiang y Acai se enfadan, la presidenta amante de los gatos sufre](https://www.mirrormedia.mg/story/20180417inv031) — Reportaje en profundidad de Mirror Media sobre los dos gatos de Tsai Ing-wen, «Tsai Xiangxiang» (atigrado gris y blanco rescatado por Hsiao Bi-khim en la estación de Heping, Hualien, tras el tifón Saola de 2012) y «Tsai Acai» (gato naranja adoptado en 2015 en un campo de piña de la comunidad de Pasikau, en Taitung), con sus historias de adopción y su vida cotidiana.
 
-[^15]: [The News Lens: medios oficiales chinos «Investigando a Tsai Ing-wen» atacan su soltería y varios medios extranjeros lo califican de «discriminación de género»](https://www.thenewslens.com/article/40537) — Reportaje sobre el artículo «Investigando a Tsai Ing-wen» de Wang Weixing, publicado en mayo de 2016 en el _International Herald Leader_ dependiente de Xinhua, que vinculaba la condición de «mujer política soltera» de Tsai con un supuesto «comportamiento extremo», y que la BBC, la CNN, *The Guardian* y otros medios extranjeros calificaron de discriminación de género.
+[^15]: [The News Lens: medios oficiales chinos «Investigando a Tsai Ing-wen» atacan su soltería y varios medios extranjeros lo califican de «discriminación de género»](https://www.thenewslens.com/article/40537) — Reportaje sobre el artículo «Investigando a Tsai Ing-wen» de Wang Weixing, publicado en mayo de 2016 en el _International Herald Leader_ dependiente de Xinhua, que vinculaba la condición de «mujer política soltera» de Tsai con un supuesto «comportamiento extremo», y que la BBC, la CNN, _The Guardian_ y otros medios extranjeros calificaron de discriminación de género.
 
 [^16]: [Focus Taiwan: visita histórica de Tsai Ing-wen al Parlamento Europeo](https://focustaiwan.tw/cross-strait/202410100009) — Reportaje sobre la visita de Tsai Ing-wen en octubre de 2024 como ciudadana particular a Chequia, Lituania y el Reino Unido, convirtiéndose en la primera expresidenta taiwanesa en intervenir públicamente dentro del Parlamento Europeo.

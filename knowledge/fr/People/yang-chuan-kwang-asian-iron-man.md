@@ -14,10 +14,10 @@ lastVerified: 2026-05-07
 lastHumanReview: 'true'
 featured: 'false'
 translatedFrom: 'People/楊傳廣.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:71f966796f8b8ad2'
-sourceBodyHash: 'sha256:40e975c5b968d9a3'
-translatedAt: '2026-05-25T06:35:06+08:00'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:f8a43ac4f3c5c945'
+sourceBodyHash: 'sha256:564dbfac81e16aa7'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 # Yang Chuan-kwang : le village de Taitung, l'argent à Rome, et le record du monde à 9 121 points de l'Homme de fer asiatique

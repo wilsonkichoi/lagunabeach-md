@@ -1,20 +1,30 @@
 ---
-title: "Deux lois sur la médecine régénérative × 30 ans d’ARNm : comment l’État encadre deux médicaments qui sauvent des vies"
-description: "Le jour où Karikó et Weissman ont reçu le prix Nobel en 2023, vingt-huit ans s’étaient écoulés depuis sa rétrogradation à l’Université de Pennsylvanie. Le 2 septembre 2021, lorsque le premier lot de 930 000 doses de BNT a atterri à l’aéroport de Taoyuan, vingt-quatre ans s’étaient déjà écoulés depuis sa rencontre avec Weissman devant un photocopieur en 1997. Cet article met en parallèle deux fils narratifs, « les deux lois sur la médecine régénérative de 2024 » et « trente années d’épreuves de l’ARNm » : de l’ours en peluche d’une scientifique immigrée hongroise aux salles blanches du parc scientifique de Taoyuan, il examine comment l’État encadre deux médicaments qui sauvent des vies et qui sont pourtant radicalement différents : les cellules et les molécules."
+title: 'Deux lois sur la médecine régénérative × 30 ans d’ARNm : comment l’État encadre deux médicaments qui sauvent des vies'
+description: 'Le jour où Karikó et Weissman ont reçu le prix Nobel en 2023, vingt-huit ans s’étaient écoulés depuis sa rétrogradation à l’Université de Pennsylvanie. Le 2 septembre 2021, lorsque le premier lot de 930 000 doses de BNT a atterri à l’aéroport de Taoyuan, vingt-quatre ans s’étaient déjà écoulés depuis sa rencontre avec Weissman devant un photocopieur en 1997. Cet article met en parallèle deux fils narratifs, « les deux lois sur la médecine régénérative de 2024 » et « trente années d’épreuves de l’ARNm » : de l’ours en peluche d’une scientifique immigrée hongroise aux salles blanches du parc scientifique de Taoyuan, il examine comment l’État encadre deux médicaments qui sauvent des vies et qui sont pourtant radicalement différents : les cellules et les molécules.'
 date: 2026-05-19
 author: 'Taiwan.md Contributors'
 category: 'Society'
 subcategory: '人權與平等'
-tags: ['Deux lois sur la médecine régénérative', 'préparation cellulaire', 'vaccins à ARNm', 'COVID-19', 'Karikó', 'BNT', 'droits humains en santé', 'BPF']
+tags:
+  [
+    'Deux lois sur la médecine régénérative',
+    'préparation cellulaire',
+    'vaccins à ARNm',
+    'COVID-19',
+    'Karikó',
+    'BNT',
+    'droits humains en santé',
+    'BPF',
+  ]
 readingTime: 22
 lastVerified: 2026-05-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/台灣再生醫療雙法沿革從業人員告白.md'
-sourceCommitSha: '9a60e8fdf'
-sourceContentHash: 'sha256:d0f219d5c8075694'
-sourceBodyHash: 'sha256:d965fc94f9515900'
-translatedAt: '2026-05-20T05:08:34+08:00'
+sourceCommitSha: '89026b10'
+sourceContentHash: 'sha256:22d1f9fc4fe57b36'
+sourceBodyHash: 'sha256:5c0fd1397ca8fbdd'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 ![Katalin Karikó et Drew Weissman recevant ensemble la médaille Life Science en 2022, posant devant un panneau, Karikó vêtue d’un tailleur rouge et Weissman d’un costume sombre](/article-images/society/kariko-weissman-life-science-2022.jpg)
@@ -240,6 +250,14 @@ Le 2 octobre 2023, le téléphone du comité Nobel a sonné.
 Karikó a raconté à la radio suédoise que sa mère écoutait chaque année l’annonce des lauréats par le comité Nobel. « J’ai seulement souri amèrement, parce que je n’avais jamais obtenu de subvention et que je n’avais jamais eu d’équipe. Je n’étais même pas professeure, puisque j’avais été rétrogradée, donc je ne l’ai pas pris au sérieux. J’ai répondu : “Impossible” »[^3].
 
 Malheureusement, la mère de Karikó était décédée cinq ans plus tôt. Elle n’a pas pu voir sa fille recevoir réellement le prix Nobel[^3].
+
+Deux mois plus tard, le 7 décembre 2023, Karikó a prononcé sa conférence Nobel à l’Aula Medica du Karolinska Institutet de Stockholm, intitulée « Developing mRNA for therapy ». Trente ans d’obstination, racontés en une seule fois.
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/gPdUnYjvWxo" title="Nobel Prize lecture: Katalin Karikó, Nobel Prize in Physiology or Medicine 2023" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Chaîne officielle Nobel Prize : conférence Nobel de Katalin Karikó le 7 décembre 2023, « Developing mRNA for therapy ». De son départ de Hongrie en 1985, à sa rétrogradation à l’Université de Pennsylvanie en 1995, à l’article fondateur sur les nucléosides non modifiés en 2005, jusqu’à l’injection du vaccin BNT/Pfizer dans des milliards de bras en 2020 — ces 38 ans condensés en 30 minutes, sans notes._
 
 Chaque fois que je sors de la salle blanche, que j’enlève l’épais vêtement de protection et que je regarde le soleil couchant par la fenêtre, je pense toujours aux numéros qui nous sont confiés. Derrière ces numéros se trouvent des familles brisées, des espoirs qui refusent de céder. Sur une ligne de production à Mayence, en Allemagne, la 500 milliardième dose de vaccin à ARNm de BNT est peut-être en train de sortir d’usine ; dans une salle blanche ISO 5 du parc scientifique de Taoyuan, le même après-midi, un préparateur cellulaire remplace encore silencieusement un milieu de culture. Deux médicaments qui sauvent des vies, deux modes de fabrication : tous deux racontent l’attente humaine que le droit rattrape la science.
 

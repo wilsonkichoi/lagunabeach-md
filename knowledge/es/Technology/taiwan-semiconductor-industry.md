@@ -1,20 +1,39 @@
 ---
 title: 'Industria de semiconductores: una revolución de materiales de 50 años, de la transferencia tecnológica de RCA al nitruro de galio y el empaquetado cuántico'
-description: "La montaña sagrada protectora de Taiwán domina los procesos avanzados globales mediante la fundición por contrato, pero el nitruro de galio dentro de los cargadores rápidos, CoWoS bajo los chips de IA y los refrigeradores de dilución sobre los qubits apenas están abriendo el campo de batalla de la ciencia de materiales para los próximos 50 años."
+description: 'La montaña sagrada protectora de Taiwán domina los procesos avanzados globales mediante la fundición por contrato, pero el nitruro de galio dentro de los cargadores rápidos, CoWoS bajo los chips de IA y los refrigeradores de dilución sobre los qubits apenas están abriendo el campo de batalla de la ciencia de materiales para los próximos 50 años.'
 date: 2026-03-17
 author: 'Taiwan.md'
 category: 'Technology'
 subcategory: '半導體與硬體'
-tags: ['semiconductores', 'TSMC', 'Taiwan Semiconductor Manufacturing Company', 'nitruro de galio', 'empaquetado 3D', 'CoWoS', 'computadora cuántica', 'procesos avanzados', 'escudo de silicio', 'ciencia de materiales']
+tags:
+  [
+    'semiconductores',
+    'TSMC',
+    'Taiwan Semiconductor Manufacturing Company',
+    'nitruro de galio',
+    'empaquetado 3D',
+    'CoWoS',
+    'computadora cuántica',
+    'procesos avanzados',
+    'escudo de silicio',
+    'ciencia de materiales',
+  ]
 readingTime: 22
 lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
+sporeLinks:
+  - platform: 'threads'
+    date: '2026-05-25'
+    url: 'https://www.threads.com/@taiwandotmd/post/DYvqEURgXm-'
+  - platform: 'x'
+    date: '2026-05-25'
+    url: 'https://x.com/taiwandotmd/status/2058735515021783190'
 translatedFrom: 'Technology/半導體產業.md'
-sourceCommitSha: 'b900f18da'
-sourceContentHash: 'sha256:9d994792e0981caf'
-sourceBodyHash: 'sha256:5ce89f475e36ba5a'
-translatedAt: '2026-05-20T05:08:32+08:00'
+sourceCommitSha: '6b44e05a'
+sourceContentHash: 'sha256:203ac1826bc1bbf2'
+sourceBodyHash: 'sha256:0a91f185f9c8f80b'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 # Industria de semiconductores: una revolución de materiales de 50 años, de la transferencia tecnológica de RCA al nitruro de galio y el empaquetado cuántico
@@ -108,6 +127,14 @@ El núcleo de CoWoS (Chip-on-Wafer-on-Substrate) es la “vía a través del sil
 Las cifras de capacidad son aún más llamativas. La capacidad mensual de CoWoS de TSMC era de unas 35.000 unidades a fines de 2024; la meta para fines de 2025 es llegar a 75.000; y para 2028 avanzar hacia 150.000, con una tasa de crecimiento anual compuesta cercana a 80%[^13]. NVIDIA reservó directamente la capacidad CoWoS de TSMC hasta 2027, y **todos los chips, sin importar en qué planta de TSMC se fabriquen (incluida Arizona), deben volver finalmente a Taiwán para el empaquetado CoWoS**[^13].
 
 Esta es la doble posición dominante de Jensen Huang y TSMC. NVIDIA en el lado del diseño; TSMC en fabricación y empaquetado. Juntas, ambas empresas bloquean los nodos clave de los centros de datos de IA.
+
+El 2 de junio de 2024, Jensen Huang ofreció la conferencia magistral de Computex en el Gymnasium de la Universidad Nacional de Taiwán y explicó públicamente este vínculo ante todo el mundo: la presentación mostraba la hoja de ruta de Blackwell y Rubin, pero detrás de cada diapositiva estaba la línea de producción CoWoS de TSMC.
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/pKXDVsWZmUU" title="NVIDIA CEO Jensen Huang Keynote at COMPUTEX 2024" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Canal oficial de NVIDIA: Jensen Huang en la conferencia magistral de Computex del 2 de junio de 2024 en el Gymnasium de la Universidad Nacional de Taiwán, «The Era of AI». Dos horas completas en las que explica la hoja de ruta de Blackwell y Rubin, con TSMC CoWoS como columna vertebral de todo el sistema._
 
 El empaquetado 3D también tiene costos físicos considerables. PanSci señaló el problema: “El empaquetado avanzado exige mucho de la planitud del troquel desnudo y de la alineación del chip. Si durante el apilamiento algún punto de contacto no se conecta correctamente, se pierde rendimiento. Además, los circuitos integrados generan pérdidas de energía y aumento de temperatura durante el cálculo; el empaquetado avanzado reduce la distancia entre troqueles desnudos, la conducción térmica se afecta mutuamente, todos se calientan entre sí y la disipación se vuelve más difícil”[^12].
 

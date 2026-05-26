@@ -16,10 +16,10 @@ readingTime: 8
 #   whats_excluded: "도움주기 기술 세부 사항; 각 연도별 경기별 성적; 훈련 시설 정보"
 #   where_it_hedges: "2018 자카르타 아시안게임 순위는 73.86m 5위 기준 (일부 초기 보도에서는 은메달로 보도했으나 실제로는 해당 연도 9월 컨티넨털컵 성적임)"
 translatedFrom: People/鄭兆村.md
-sourceCommitSha: 5c000f86
-sourceContentHash: sha256:ace2ffdaddd38a3c
-sourceBodyHash: sha256:597e2d011b220513
-translatedAt: 2026-05-25T06:21:00+08:00
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:ce2f1e81de54c692'
+sourceBodyHash: 'sha256:efa67fc4a2da3f45'
+translatedAt: '2026-05-25T21:07:07Z'+08:00
 ---
 
 # 정조촨(鄭兆村): 2017 세계대학경기대회 마지막 투척 91.36m, 아시아 창던지기가 달라지다

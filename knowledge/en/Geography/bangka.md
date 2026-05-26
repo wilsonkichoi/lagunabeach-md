@@ -30,10 +30,10 @@ lastVerified: '2026-05-21'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Geography/艋舺.md'
-sourceCommitSha: '946f38bb4'
-sourceContentHash: 'sha256:233480be80f34d37'
-sourceBodyHash: 'sha256:d81cb7506613293c'
-translatedAt: '2026-05-22T05:08:46+08:00'
+sourceCommitSha: '20a4ac33'
+sourceContentHash: 'sha256:e384b40a3b9c1bf5'
+sourceBodyHash: 'sha256:2adb8850a99b6a49'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # Bangka: Qing-Era Taipei’s Busiest Place, Now the District with Taipei’s Oldest Average Age
@@ -232,7 +232,8 @@ To outsiders, Wanhua is a tourist night market, the gray zone after prostitution
 - [Sino-French War](/history/清法戰爭) — The 1884-1885 French incursion into northern Taiwan, the mobilization of volunteer troops at Bangka Longshan Temple, and the victory at Tamsui
 - [Dadaocheng](/geography/大稻埕) — The commercial port opened by the defeated Tong’an people who fled from Bangka’s Bajiazhuang after the 1853 Ding-Xia Jiao Conflict, another timeline branching out from Bangka
 - [Ximending](/geography/西門町) — A sibling in the same batch 1 historic-district series; the entertainment district planned by the Japanese west of Bangka in 1896, forming a Qing-era vs. Japanese-era contrast with Bangka’s main streets
-- [Zhongshan North Road Tiaotong](/geography/中山北路條通) — A sibling in the same batch 1 historic-district series; the 1901 Chokushi Road was used for visits to Taiwan Shrine, forming an extreme counterpoint in Japanese colonial religious geography to Bangka Longshan Temple
+- [Dalongdong](/geography/大龍峒) — The first refuge for the Tong'an people who retreated from Bangka's Bajiazhuang after losing the 1853 Ding-Xia Jiao Conflict; Baoan Temple became the defensive center, before they relocated again to Dadaocheng
+- [Shilin](/geography/士林) — The 1859 Zhang-Quan conflict and Bangka's 1853 Ding-Xia Jiao Conflict were two different armed clashes; together they form two ethnic-conflict landscapes in northern Taiwan under Qing rule
 
 ## References
 

@@ -11,10 +11,10 @@ lastVerified: 2026-05-07
 lastHumanReview: true
 featured: false
 translatedFrom: People/紀政.md
-sourceCommitSha: 6b59db34
-sourceContentHash: sha256:ac035cdcf01e05b4
-sourceBodyHash: sha256:4c7c2552cb14f3c8
-translatedAt: 2026-05-25T06:36:28+08:00
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:ec85f3e1d7f5d977'
+sourceBodyHash: 'sha256:5932775fa82a34d0'
+translatedAt: '2026-05-25T21:07:07Z'+08:00
 ---
 
 # 지정: 10개의 세계 기록을 세우고, 50년이 지나도 타이완 정명을 위해 달리는 여자

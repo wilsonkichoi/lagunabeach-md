@@ -9,10 +9,10 @@ author: 'Taiwan.md Translation Team'
 featured: true
 lastVerified: 2026-03-27
 translatedFrom: 'History/民主化.md'
-sourceCommitSha: 6b59db34
-sourceContentHash: sha256:55ef98c123ecc353
-sourceBodyHash: sha256:a653498f18a92571
-translatedAt: 2026-05-25T06:35:28+08:00
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:5c4c48886e261a1e'
+sourceBodyHash: 'sha256:1ac64c77bbabb1d3'
+translatedAt: '2026-05-25T21:07:07Z'+08:00
 ---
 
 # 민주화

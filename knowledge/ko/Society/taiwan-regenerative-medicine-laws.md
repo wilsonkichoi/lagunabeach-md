@@ -5,16 +5,26 @@ date: '2026-05-19'
 author: 'Taiwan.md Contributors'
 category: 'Society'
 subcategory: '人權與平等'
-tags: ['재생의료 이중법', '세포 제조', 'mRNA 백신', 'COVID-19', 'Karikó', 'BNT', '의료 인권', 'GMP']
+tags:
+  [
+    '재생의료 이중법',
+    '세포 제조',
+    'mRNA 백신',
+    'COVID-19',
+    'Karikó',
+    'BNT',
+    '의료 인권',
+    'GMP',
+  ]
 readingTime: 22
 lastVerified: '2026-05-19'
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/台灣再生醫療雙法沿革從業人員告白.md'
-sourceCommitSha: '9a60e8fdf'
-sourceContentHash: 'sha256:d0f219d5c8075694'
-sourceBodyHash: 'sha256:d965fc94f9515900'
-translatedAt: '2026-05-20T05:08:30+08:00'
+sourceCommitSha: '89026b10'
+sourceContentHash: 'sha256:22d1f9fc4fe57b36'
+sourceBodyHash: 'sha256:5c0fd1397ca8fbdd'
+translatedAt: '2026-05-25T21:07:07Z'
 ---
 
 ![커털린 커리코와 드루 와이스먼이 2022년 Life Science 메달을 공동 수상한 뒤 배경판 앞에서 촬영한 사진. 커리코는 붉은색 정장을, 와이스먼은 짙은색 정장을 입고 있다](/article-images/society/kariko-weissman-life-science-2022.jpg)
@@ -240,6 +250,14 @@ _커털린 커리코의 2021년 5월 헝가리 세게드대학교 행사 모습.
 커리코는 스웨덴 라디오에 자신의 어머니가 매년 노벨위원회의 수상자 발표를 들었다고 말했다. “나는 그저 쓴웃음을 지었다. 나는 지원금을 받은 적도 없고, 팀도 없었기 때문이다. 심지어 나는 교수가 아니었다. 강등되었기 때문에 마음에 두지도 않았다. 나는 이렇게 답했다. ‘불가능해요’”[^3].
 
 안타깝게도 커리코의 어머니는 5년 전 세상을 떠났고, 딸이 정말 노벨상을 받는 모습을 보지 못했다[^3].
+
+두 달 뒤, 2023년 12월 7일, 커리코는 스톡홀름 카롤린스카 연구소의 Aula Medica 강당에서 노벨상 강연을 했다. 제목은 〈Developing mRNA for therapy〉였다. 30년의 고집이 한 번에 다 풀어졌다.
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/gPdUnYjvWxo" title="Nobel Prize lecture: Katalin Karikó, Nobel Prize in Physiology or Medicine 2023" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Nobel Prize 공식 채널: 커털린 커리코의 2023년 12월 7일 노벨상 강연 「Developing mRNA for therapy」. 1985년 헝가리 출국, 1995년 펜실베이니아대학교 강등, 2005년 unmodified-nucleoside 돌파 논문, 2020년 BNT/화이자가 이 기술을 수억 명의 팔에 주사하기까지의 38년이 30분 안에 압축되었다. 그녀는 원고 없이 강단에 섰다._
 
 내가 클린룸을 나와 두꺼운 보호복을 벗고 창밖의 석양을 볼 때마다, 우리 손에 맡겨진 그 번호들을 떠올린다. 그 번호들 뒤에는 산산이 부서진 가족들, 포기할 수 없는 희망들이 있다. 독일 마인츠의 어느 생산라인에서는 BNT의 5,000억 번째 mRNA 백신이 출고되고 있을지도 모른다. 타오위안 과학단지의 어느 ISO 5 클린룸에서는 같은 오후, 세포 제조원이 여전히 조용히 배양액을 갈고 있다. 두 종류의 구명 약물, 두 종류의 제조 방식은 모두 법이 과학을 따라잡기를 사람들이 기다려 온 과정이다.
 

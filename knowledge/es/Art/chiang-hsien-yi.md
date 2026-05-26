@@ -28,11 +28,15 @@ tags:
 lastVerified: 2026-05-22
 lastHumanReview: false
 featured: true
+sporeLinks:
+  - platform: 'threads'
+    date: '2026-05-25'
+    url: 'https://www.threads.com/@taiwandotmd/post/DYwhhzFgfe0'
 translatedFrom: 'Art/江賢二.md'
-sourceCommitSha: '43bf36374'
-sourceContentHash: 'sha256:c38582a4b5f193c8'
-sourceBodyHash: 'sha256:e7a4bdc28a3902e5'
-translatedAt: '2026-05-23T05:06:38+08:00'
+sourceCommitSha: '3171bab8'
+sourceContentHash: 'sha256:3870280529c79170'
+sourceBodyHash: 'sha256:67baf16d4a608267'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 # Chiang Hsien-yi: tras huir de Taiwán durante cuarenta y cinco años, solo al volver a casa pudo pintar las mejores obras de su vida
@@ -124,6 +128,9 @@ La serie «Templo centenario» creció desde aquella casa vacía con goteras de 
 
 Como en «Notre-Dame de París», la imagen también partía de una base negra y sombría, pero dentro del negro había algo más. Unos haces de luz dorada cobriza emergían desde el fondo del cuadro. Era el color que las columnas del templo adquirían lentamente tras ser tocadas por incontables manos, ahumadas durante siglos por el incienso e iluminadas oblicuamente por el sol al entrar desde el patio de luz[^20].
 
+![Una obra de la serie «Templo centenario» de Chiang Hsien-yi, 1998 — haces de luz dorada cobriza emergen desde el fondo sobre una base negra y sombría, el color que las columnas del templo adquieren lentamente tras ser tocadas por incontables manos y ahumadas durante siglos](/article-images/art/jiang-chien-baiNianMiao-1998.jpg)
+_Una obra de la serie «Templo centenario» de Chiang Hsien-yi, 1998. Source: [Sitio web oficial del artista Chiang Hsien-yi](https://www.paulchiang.org/works), colección del período Notre-Dame de París / Templo centenario. Fair use editorial commentary._
+
 En marzo de 1997, Chiang Hsien-yi realizó una exposición individual en la galería Eslite de Taipéi. El subtítulo de la muestra decía: «Primera exposición individual en Taiwán tras treinta años de ausencia.»[^21]
 
 Había dejado Taiwán a los veinticinco años y hacía su primera exposición de regreso a los cincuenta y cinco. Durante esos treinta años, sus compañeros taiwaneses habían perdido contacto con él, el circuito artístico taiwanés no lo conocía y el público taiwanés no había visto sus pinturas.
@@ -163,6 +170,12 @@ _Vista del océano Pacífico desde un tramo de la Ruta Provincial 11 en el munic
 «Nunca había usado estos colores; en toda mi vida jamás imaginé que pudiera pintar obras así.» Así describió Chiang Hsien-yi el cambio de sus pinturas después de mudarse a Taitung[^26].
 
 Series como «El sueño de Pisirian», «Sobre las alas del canto», «Jinzun» y «Lago de plata» fueron apareciendo una tras otra después de 2008[^27]. En la superficie comenzaron a aparecer azules, amarillos, naranjas, rosas. Empezaron a aparecer el mar, el canto, el sueño[^27]. «Los colores que uso, el tamaño de las obras y también la libertad: todo eso llegó solo después de mudarme a Taitung.»[^28]
+
+![Una obra de la serie «El sueño de Pisirian» de Chiang Hsien-yi, 2010 — masas de azul, rosa y amarillo como una mañana en el Pacífico, junto a la colina que en lengua amis significa «tierra de pastoreo»](/article-images/art/jiang-chien-bisirian-2010.jpg)
+_Una obra de la serie «El sueño de Pisirian» de Chiang Hsien-yi, 2010. Pisirian es el antiguo nombre amis de la costa junto al estudio de Jinzun. Source: [Sitio web oficial del artista Chiang Hsien-yi](https://www.paulchiang.org/works), colección del período El sueño de Pisirian. Fair use editorial commentary._
+
+![Una obra de la serie «Lago de plata» de Chiang Hsien-yi, 2008 — un halo blanco sobre fondo negro como la luz de la luna sobre un lago, como la primera nota baja sol del piano de Gould](/article-images/art/jiang-chien-silver-lake-2008.jpg)
+_Una obra de la serie «Lago de plata» de Chiang Hsien-yi, 2008. Source: [Sitio web oficial del artista Chiang Hsien-yi](https://www.paulchiang.org/works), colección del período Lago de plata. Fair use editorial commentary._
 
 Su rutina diaria pasó a ser esta:
 
@@ -264,13 +277,22 @@ Falta una hora para que el sol suba desde detrás de la Isla Verde.
 
 ## Fuentes de las imágenes
 
-Este artículo utiliza 3 imágenes con licencia CC, todas almacenadas en caché en `public/article-images/art/` para evitar enlaces directos al servidor de origen:
+Este artículo utiliza 7 imágenes autorizadas, todas almacenadas en caché en `public/article-images/art/` para evitar enlaces directos al servidor de origen:
 
-- 〈Clouds over beautiful blue sea at Sanxiantai on 4 February 2014〉— Photo: lwtt93 (Flickr), CC BY 2.0, source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Clouds_over_beautiful_blue_sea_at_Sanxiantai_on_4_February_2014.jpg)
+**Fotografías de entorno / fondo (3, licencia CC)**:
+
+- 〈Clouds over beautiful blue sea at Sanxiantai on 4 February 2014〉(imagen principal) — Photo: lwtt93 (Flickr), CC BY 2.0, source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Clouds_over_beautiful_blue_sea_at_Sanxiantai_on_4_February_2014.jpg)
 - 〈Cathédrale Notre-Dame exterior, Paris〉— Photo: Fernando Losada Rodríguez, CC BY-SA 4.0, source: [Wikimedia Commons](<https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre-Dame_(exterior).107_-_Paris.jpg>)
 - 〈自台 11 線都蘭段眺望美麗灣〉— Photo: Aa7778273, CC BY-SA 4.0, source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%E8%87%AA%E5%8F%B011%E7%B7%9A%E9%83%BD%E8%98%AD%E6%AE%B5%E7%9C%BA%E6%9C%9B%E7%BE%8E%E9%BA%97%E7%81%A3.jpg)
 
-Las obras del propio Chiang Hsien-yi, incluidas las series «Notre-Dame de París», «Templo centenario», «Lago de plata», «El sueño de Pisirian» y «Jinzun», están protegidas por derechos de autor de un artista vivo. Este artículo no reproduce directamente imágenes de esas obras. Para ver imágenes en alta resolución, visite el [sitio web oficial del artista Chiang Hsien-yi](https://www.paulchiang.org/), el [Centro de Arte Paul Chiang](https://www.paulchiangartcenter.org/) o la página de la exposición del [Museo de Bellas Artes de Taipéi](https://www.tfam.museum/Exhibition/Exhibition_page.aspx?ddlLang=zh-tw&id=665).
+**Obras de Chiang Hsien-yi (4, sitio web oficial del artista, fair use editorial commentary)**:
+
+- **jiang-chien-baiNianMiao-1998.jpg** — Serie «Templo centenario», 1998. Source: sitio web oficial del artista. Fair use editorial commentary sobre la serie 百年廟.
+- **jiang-chien-bisirian-2010.jpg** — Serie «El sueño de Pisirian», 2010. Source: sitio web oficial del artista. Fair use editorial commentary sobre la serie 比西里岸之夢.
+- **jiang-chien-silver-lake-2008.jpg** — Serie «Lago de plata», 2008. Source: sitio web oficial del artista. Fair use editorial commentary sobre la serie 銀湖.
+- **jiang-chien-jinzun-purification-night.jpg** — Instalación «La noche de la purificación». Source: sitio web oficial del artista. Fair use editorial commentary sobre la exposición inaugural 2025.
+
+Para ver más imágenes en alta resolución, visite el [sitio web oficial del artista Chiang Hsien-yi](https://www.paulchiang.org/), el [Centro de Arte Paul Chiang](https://www.paulchiangartcenter.org/) o la [página de la retrospectiva de 2020 del Museo de Bellas Artes de Taipéi](https://www.tfam.museum/Exhibition/Exhibition_page.aspx?ddlLang=zh-tw&id=665).
 
 ## Referencias
 

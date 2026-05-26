@@ -26,10 +26,10 @@ lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Nature/台灣氣候危機與淨零轉型.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:012b5e224f3db4dd'
-sourceBodyHash: 'sha256:94285612228c2fa2'
-translatedAt: '2026-05-24T22:33:51Z'
+sourceCommitSha: '89026b10'
+sourceContentHash: 'sha256:c97df57772682776'
+sourceBodyHash: 'sha256:f8a6fd9ed633ae52'
+translatedAt: '2026-05-25T21:06:51Z'
 ---
 
 # Taiwan's Climate Crisis and Net-Zero Transition: On the Day the Maanshan Nuclear Plant Referendum Failed, the Choices Imposed by Physical Limits Had Only Just Begun

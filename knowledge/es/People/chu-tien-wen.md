@@ -21,10 +21,10 @@ readingTime: 7
 #   whats_excluded: "各電影完整劇本分析；三三集刊歷年作者名單；學術研究論文清單"
 #   where_it_hedges: "出生地維基記台北（另有高雄鳳山一說，以台北為準）；侯孝賢失智確認時間（P0⚠️待確認具體年份）；首次執導《尋找河神》詳情（P0⚠️待確認）"
 translatedFrom: People/朱天文.md
-sourceCommitSha: 6b59db34
-sourceContentHash: sha256:70b5f8b7a44361ea
-sourceBodyHash: sha256:303681e7cd1ff006
-translatedAt: 2026-05-25T06:30:00+08:00
+sourceCommitSha: 0f8fae0a
+sourceContentHash: sha256:13c80c1f151f5c3e
+sourceBodyHash: sha256:bf6107b943cdb54e
+translatedAt: 2026-05-26T21:07:27Z
 ---
 
 # Chu Tianwen: 1956 Taipei, de «San San Jikan» a «Ciudad Triste» León de Oro de Venecia

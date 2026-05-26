@@ -15,10 +15,10 @@ readingTime: 7
 #   whats_excluded: "《親愛的安德烈》《目送》逐章分析；文化部政策清單；與余秋雨對話細節"
 #   where_it_hedges: "出生地大寮（P0確認）vs 現行文章說左營（已修正）；博士學歷：紐約大學德國文學vs堪薩斯州立大學英文系（待確認，兩說均見於資料）"
 translatedFrom: 'People/龍應台.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:efaa1720b84e525c'
-sourceBodyHash: 'sha256:f4615882842a7c63'
-translatedAt: '2026-05-25T06:30:00+08:00'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:32e758a1acf33e90'
+sourceBodyHash: 'sha256:fb31dbbb24515e69'
+translatedAt: '2026-05-26T21:07:27Z'
 ---
 
 # Long Yingtai: de Daliao 1952, del "Colección Fuego Salvaje" a la primera ministra de Cultura de Taiwán como intelectual pública

@@ -21,10 +21,10 @@ lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/朱天文.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:70b5f8b7a44361ea'
-sourceBodyHash: 'sha256:303681e7cd1ff006'
-translatedAt: '2026-05-25T06:37:35+08:00'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:13c80c1f151f5c3e'
+sourceBodyHash: 'sha256:bf6107b943cdb54e'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 # Chu Tien-wen : Taipei 1956, de la revue San San au Lion d'or de Venise pour La Cité des douleurs

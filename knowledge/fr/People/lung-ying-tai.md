@@ -13,10 +13,10 @@ lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/龍應台.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:efaa1720b84e525c'
-sourceBodyHash: 'sha256:f4615882842a7c63'
-translatedAt: '2026-05-25T06:37:35+08:00'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:32e758a1acf33e90'
+sourceBodyHash: 'sha256:fb31dbbb24515e69'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 # Long Yingtai : née à Daliao en 1952, de _Recueil de feu sauvage_ à première ministre de la Culture de Taïwan, une intellectuelle publique

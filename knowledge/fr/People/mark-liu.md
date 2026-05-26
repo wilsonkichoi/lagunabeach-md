@@ -11,10 +11,10 @@ lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/劉德音.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:d8af6167c7effd7e'
-sourceBodyHash: 'sha256:b67507e9dc3bc1b6'
-translatedAt: '2026-05-25T06:37:35+08:00'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:5e90feeafc19360c'
+sourceBodyHash: 'sha256:81e4bcfc4e50e127'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 # Mark Liu : le docteur de Berkeley qui a succédé à Morris Chang, six ans de décisions dans l'étau des puces Taïwan-États-Unis

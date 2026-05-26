@@ -16,10 +16,10 @@ author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-05-07
 translatedFrom: 'People/施明德.md'
-sourceCommitSha: '6b59db34'
-sourceContentHash: 'sha256:4e9fd368937980d6'
-sourceBodyHash: 'sha256:ce3ed8d37ab08090'
-translatedAt: '2026-05-24T22:33:51Z'
+sourceCommitSha: '0f8fae0a'
+sourceContentHash: 'sha256:c7a690e21bd72631'
+sourceBodyHash: 'sha256:f379180b5e8bcecc'
+translatedAt: '2026-05-25T21:06:51Z'
 lastHumanReview: true
 readingTime: 9
 ---

@@ -19,10 +19,10 @@ lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/AI發展.md'
-sourceCommitSha: 'f712b724'
-sourceContentHash: 'sha256:94f6db1587e84f6b'
-sourceBodyHash: 'sha256:f92e6b6e01c4424a'
-translatedAt: '2026-05-15T14:23:14+08:00'
+sourceCommitSha: '96945e45'
+sourceContentHash: 'sha256:c3a35976261aaad4'
+sourceBodyHash: 'sha256:54302f24eb8f8f54'
+translatedAt: '2026-05-25T21:07:36Z'
 ---
 
 # L'essor de l'île de l'IA : développement de l'intelligence artificielle à Taïwan et stratégies d'avenir
@@ -328,6 +328,7 @@ Cette trajectoire n'est pas complète : les talents de recherche avancée en IA 
 **Pour aller plus loin** :
 
 - [Wu Che-yu](/people/吳哲宇) — Comment cet artiste des nouveaux médias persiste, à « l'ère de la prolifération de la génération par IA », à se comporter en horloger : un autre point de vue de créateur, en dehors de l'industrie de l'IA
+- [École taïwanaise d'intelligence artificielle](/technology/台灣人工智慧學校) — Le « don » de Chen Shengwei et la collecte de fonds civile de 180 millions de dollars : comment ce pipeline de talents compense la stratégie gouvernementale de l'IA depuis l'extérieur
 
 ## Références
 
