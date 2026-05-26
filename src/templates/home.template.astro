@@ -26,6 +26,7 @@ import RecentUpdates from '../components/home/RecentUpdates.astro';
 import NewsletterSection from '../components/home/NewsletterSection.astro';
 import CommunityFeedback from '../components/home/CommunityFeedback.astro';
 import ContributeSection from '../components/home/ContributeSection.astro';
+import HomeEventTracker from '../components/home/HomeEventTracker.astro';
 import ProticoScript from '../components/ProticoScript.astro';
 import { fetchRecentCommits } from '../lib/commits';
 import { feedbacks } from '../data/feedbacks';
@@ -230,6 +231,8 @@ const readingPathFooterItems = [
     >
       <a
         href={`${langUrlPrefix}/graph`}
+        data-ga-section="feature_cta"
+        data-ga-label="graph"
         class="inline-flex items-center gap-2 rounded-lg border-[1.5px] border-[rgba(45,80,22,0.2)] bg-[#f0fdf4] px-6 py-[0.7rem] text-[0.9rem] font-semibold text-[#2d5016] no-underline transition-all duration-[250ms] hover:-translate-y-px hover:border-[rgba(45,80,22,0.4)] hover:bg-[rgba(45,80,22,0.1)] hover:shadow-[0_2px_8px_rgba(45,80,22,0.15)]"
         >{t('home.features.cta.graph')}</a
       >
@@ -237,6 +240,8 @@ const readingPathFooterItems = [
         href="https://github.com/frank890417/taiwan-md/tree/main/knowledge"
         target="_blank"
         rel="noopener noreferrer"
+        data-ga-section="feature_cta"
+        data-ga-label="ssot"
         class="inline-flex items-center gap-2 rounded-lg border-[1.5px] border-[#d1d5db] bg-[#f8fafc] px-6 py-[0.7rem] text-[0.9rem] font-semibold text-[#374151] no-underline transition-all duration-[250ms] hover:-translate-y-px hover:border-[#9ca3af] hover:bg-[#f1f5f9] hover:shadow-[0_2px_8px_rgba(0,0,0,0.06)]"
         >{t('home.features.cta.ssot')}</a
       >
@@ -290,7 +295,11 @@ const readingPathFooterItems = [
                   這座島嶼只有 36,000 平方公里，卻從海平面堆到 3,952
                   公尺。菲律賓海板塊每年往歐亞板塊擠 8
                   公分，把台灣拱成全球山地密度最高的島嶼之一。
-                  <a href="/geography" class="topic-pill">
+                  <a
+                    href="/geography"
+                    data-ga-section="hall_pill"
+                    class="topic-pill"
+                  >
                     🗺️ 這裡的地理
                   </a>
                   不是風景明信片，是一座還在長高的島。
@@ -299,7 +308,11 @@ const readingPathFooterItems = [
                 {topPicks.geography && topPicks.geography.length > 0 && (
                   <div class="hall-picks">
                     {topPicks.geography.map((a) => (
-                      <a href={a.href} class="pick-card">
+                      <a
+                        href={a.href}
+                        data-ga-section="hall_pick"
+                        class="pick-card"
+                      >
                         <span class="pick-head">
                           <span class="pick-title">{a.title}</span>
                           <span class="pick-fn">{a.footnotes} 引用</span>
@@ -320,7 +333,11 @@ const readingPathFooterItems = [
                   比荷蘭還小的島上，擠進了 59,000 種生物，佔全球物種的 2.5%。
                   櫻花鉤吻鮭在大甲溪上游活了一萬五千年，
                   台灣黑熊的族群數量不到六百隻。
-                  <a href="/nature" class="topic-pill">
+                  <a
+                    href="/nature"
+                    data-ga-section="hall_pill"
+                    class="topic-pill"
+                  >
                     🌿 台灣的自然
                   </a>
                   從海底珊瑚礁到 3,000 公尺的雲霧帶，
@@ -330,7 +347,11 @@ const readingPathFooterItems = [
                 {topPicks.nature && topPicks.nature.length > 0 && (
                   <div class="hall-picks">
                     {topPicks.nature.map((a) => (
-                      <a href={a.href} class="pick-card">
+                      <a
+                        href={a.href}
+                        data-ga-section="hall_pick"
+                        class="pick-card"
+                      >
                         <span class="pick-head">
                           <span class="pick-title">{a.title}</span>
                           <span class="pick-fn">{a.footnotes} 引用</span>
@@ -351,7 +372,11 @@ const readingPathFooterItems = [
                   13,000 家便利商店，平均每 2,000
                   人共用一家。繳水電費、領包裹、買高鐵票、
                   影印畢業論文，全在同一個櫃台完成。
-                  <a href="/lifestyle" class="topic-pill">
+                  <a
+                    href="/lifestyle"
+                    data-ga-section="hall_pill"
+                    class="topic-pill"
+                  >
                     🏠 台灣人的生活
                   </a>
                   被一套極度壓縮的基礎建設包裹著——
@@ -360,7 +385,11 @@ const readingPathFooterItems = [
                 {topPicks.lifestyle && topPicks.lifestyle.length > 0 && (
                   <div class="hall-picks">
                     {topPicks.lifestyle.map((a) => (
-                      <a href={a.href} class="pick-card">
+                      <a
+                        href={a.href}
+                        data-ga-section="hall_pick"
+                        class="pick-card"
+                      >
                         <span class="pick-head">
                           <span class="pick-title">{a.title}</span>
                           <span class="pick-fn">{a.footnotes} 引用</span>
@@ -390,7 +419,11 @@ const readingPathFooterItems = [
                 <p>
                   1624 年荷蘭人在台南築起熱蘭遮城。之後四百年換了八個政權，
                   平均五十年一次，每次都帶來新的語言、法律和時區。
-                  <a href="/history" class="topic-pill">
+                  <a
+                    href="/history"
+                    data-ga-section="hall_pill"
+                    class="topic-pill"
+                  >
                     📜 台灣的歷史
                   </a>
                   最不可思議的一章在 1996 年： 1,431
@@ -400,7 +433,11 @@ const readingPathFooterItems = [
                 {topPicks.history && topPicks.history.length > 0 && (
                   <div class="hall-picks">
                     {topPicks.history.map((a) => (
-                      <a href={a.href} class="pick-card">
+                      <a
+                        href={a.href}
+                        data-ga-section="hall_pick"
+                        class="pick-card"
+                      >
                         <span class="pick-head">
                           <span class="pick-title">{a.title}</span>
                           <span class="pick-fn">{a.footnotes} 引用</span>
@@ -421,7 +458,11 @@ const readingPathFooterItems = [
                   16
                   個原住民族在這裡住了六千年。閩南人帶來了媽祖，客家人帶來了義民爺，
                   外省人帶來了眷村裡的山東饅頭，東南亞新住民帶來了開齋節。
-                  <a href="/culture" class="topic-pill">
+                  <a
+                    href="/culture"
+                    data-ga-section="hall_pill"
+                    class="topic-pill"
+                  >
                     🎭 台灣的文化
                   </a>
                   不是熔爐——沒有人被融掉。
@@ -431,7 +472,11 @@ const readingPathFooterItems = [
                 {topPicks.culture && topPicks.culture.length > 0 && (
                   <div class="hall-picks">
                     {topPicks.culture.map((a) => (
-                      <a href={a.href} class="pick-card">
+                      <a
+                        href={a.href}
+                        data-ga-section="hall_pick"
+                        class="pick-card"
+                      >
                         <span class="pick-head">
                           <span class="pick-title">{a.title}</span>
                           <span class="pick-fn">{a.footnotes} 引用</span>
@@ -452,7 +497,11 @@ const readingPathFooterItems = [
                   2019 年 5 月 17
                   日，立法院投票通過同婚專法，台灣成為亞洲第一個同性婚姻合法化的國家。
                   半年前的公投裡，765 萬人才剛投票反對。
-                  <a href="/society" class="topic-pill">
+                  <a
+                    href="/society"
+                    data-ga-section="hall_pill"
+                    class="topic-pill"
+                  >
                     ⚖️ 台灣社會
                   </a>
                   最迷人的地方就在這裡：
@@ -461,7 +510,11 @@ const readingPathFooterItems = [
                 {topPicks.society && topPicks.society.length > 0 && (
                   <div class="hall-picks">
                     {topPicks.society.map((a) => (
-                      <a href={a.href} class="pick-card">
+                      <a
+                        href={a.href}
+                        data-ga-section="hall_pick"
+                        class="pick-card"
+                      >
                         <span class="pick-head">
                           <span class="pick-title">{a.title}</span>
                           <span class="pick-fn">{a.footnotes} 引用</span>
@@ -492,7 +545,11 @@ const readingPathFooterItems = [
                   嚴長壽高中畢業在美國運通送信，五年後當上總經理。
                   林書豪坐了兩年板凳，然後用一週改寫了 NBA 的亞裔敘事。
                   陳樹菊在台東市場賣菜四十八年，捐了一千多萬。
-                  <a href="/people" class="topic-pill">
+                  <a
+                    href="/people"
+                    data-ga-section="hall_pill"
+                    class="topic-pill"
+                  >
                     👥 台灣的人物
                   </a>
                   沒有一個是從教科書裡走出來的——
@@ -501,7 +558,11 @@ const readingPathFooterItems = [
                 {topPicks.people && topPicks.people.length > 0 && (
                   <div class="hall-picks">
                     {topPicks.people.map((a) => (
-                      <a href={a.href} class="pick-card">
+                      <a
+                        href={a.href}
+                        data-ga-section="hall_pick"
+                        class="pick-card"
+                      >
                         <span class="pick-head">
                           <span class="pick-title">{a.title}</span>
                           <span class="pick-fn">{a.footnotes} 引用</span>
@@ -521,7 +582,7 @@ const readingPathFooterItems = [
                 <p>
                   2009 年，蔡國強在台北市立美術館引爆了九場火藥爆破。
                   同一年，林懷民的雲門舞集在八里排練場的火災灰燼中重生。
-                  <a href="/art" class="topic-pill">
+                  <a href="/art" data-ga-section="hall_pill" class="topic-pill">
                     🎨 台灣的藝術
                   </a>
                   從廟口八家將畫到威尼斯雙年展，
@@ -531,7 +592,11 @@ const readingPathFooterItems = [
                 {topPicks.art && topPicks.art.length > 0 && (
                   <div class="hall-picks">
                     {topPicks.art.map((a) => (
-                      <a href={a.href} class="pick-card">
+                      <a
+                        href={a.href}
+                        data-ga-section="hall_pick"
+                        class="pick-card"
+                      >
                         <span class="pick-head">
                           <span class="pick-title">{a.title}</span>
                           <span class="pick-fn">{a.footnotes} 引用</span>
@@ -552,7 +617,11 @@ const readingPathFooterItems = [
                   1932 年，鄧雨賢寫下〈望春風〉，九十年後還是 KTV 點播榜常客。
                   布農族的八部合音被 UNESCO
                   列入研究對象，因為西方音樂理論解釋不了它。
-                  <a href="/music" class="topic-pill">
+                  <a
+                    href="/music"
+                    data-ga-section="hall_pill"
+                    class="topic-pill"
+                  >
                     🎵 台灣的聲音
                   </a>
                   從部落古謠到五月天在小巨蛋讓十萬人合唱，
@@ -561,7 +630,11 @@ const readingPathFooterItems = [
                 {topPicks.music && topPicks.music.length > 0 && (
                   <div class="hall-picks">
                     {topPicks.music.map((a) => (
-                      <a href={a.href} class="pick-card">
+                      <a
+                        href={a.href}
+                        data-ga-section="hall_pick"
+                        class="pick-card"
+                      >
                         <span class="pick-head">
                           <span class="pick-title">{a.title}</span>
                           <span class="pick-fn">{a.footnotes} 引用</span>
@@ -591,7 +664,11 @@ const readingPathFooterItems = [
                 <p>
                   全球 90% 的先進晶片從台灣出貨。台積電一座晶圓廠造價 200
                   億美元，裡面的無塵室比手術房乾淨一萬倍。
-                  <a href="/technology" class="topic-pill">
+                  <a
+                    href="/technology"
+                    data-ga-section="hall_pill"
+                    class="topic-pill"
+                  >
                     💻 這座科技島
                   </a>
                   從 1980 年代新竹科學園區的鐵皮工廠起步，
@@ -601,7 +678,11 @@ const readingPathFooterItems = [
                 {topPicks.technology && topPicks.technology.length > 0 && (
                   <div class="hall-picks">
                     {topPicks.technology.map((a) => (
-                      <a href={a.href} class="pick-card">
+                      <a
+                        href={a.href}
+                        data-ga-section="hall_pick"
+                        class="pick-card"
+                      >
                         <span class="pick-head">
                           <span class="pick-title">{a.title}</span>
                           <span class="pick-fn">{a.footnotes} 引用</span>
@@ -621,7 +702,11 @@ const readingPathFooterItems = [
                 <p>
                   1960 年台灣人均 GDP 154 美元，比剛果還低。 六十年後超過 33,000
                   美元，中間沒有石油、沒有殖民紅利、沒有大國腹地。
-                  <a href="/economy" class="topic-pill">
+                  <a
+                    href="/economy"
+                    data-ga-section="hall_pill"
+                    class="topic-pill"
+                  >
                     📈 台灣的經濟
                   </a>
                   是一個沒有天然資源的島嶼把自己變成全球供應鏈核心節點的故事。
@@ -630,7 +715,11 @@ const readingPathFooterItems = [
                 {topPicks.economy && topPicks.economy.length > 0 && (
                   <div class="hall-picks">
                     {topPicks.economy.map((a) => (
-                      <a href={a.href} class="pick-card">
+                      <a
+                        href={a.href}
+                        data-ga-section="hall_pick"
+                        class="pick-card"
+                      >
                         <span class="pick-head">
                           <span class="pick-title">{a.title}</span>
                           <span class="pick-fn">{a.footnotes} 引用</span>
@@ -652,7 +741,11 @@ const readingPathFooterItems = [
                   年老兵的鄉愁。
                   珍珠奶茶從台中一間茶館出發，現在五大洲都有人在嚼那顆 Q
                   彈的珍珠。
-                  <a href="/food" class="topic-pill">
+                  <a
+                    href="/food"
+                    data-ga-section="hall_pill"
+                    class="topic-pill"
+                  >
                     🍜 台灣的味道
                   </a>
                   就是它的移民史——
@@ -662,7 +755,11 @@ const readingPathFooterItems = [
                 {topPicks.food && topPicks.food.length > 0 && (
                   <div class="hall-picks">
                     {topPicks.food.map((a) => (
-                      <a href={a.href} class="pick-card">
+                      <a
+                        href={a.href}
+                        data-ga-section="hall_pick"
+                        class="pick-card"
+                      >
                         <span class="pick-head">
                           <span class="pick-title">{a.title}</span>
                           <span class="pick-fn">{a.footnotes} 引用</span>
@@ -721,6 +818,8 @@ const readingPathFooterItems = [
   {isZh && <CommunityFeedback feedbacks={feedbacks} />}
 
   <ContributeSection />
+
+  <HomeEventTracker />
 </Layout>
 
 <!-- Protico Community Chat Bubble — sponsored by Howie Young -->

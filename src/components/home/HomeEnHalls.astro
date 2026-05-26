@@ -37,8 +37,10 @@ const { topPicks, langUrlPrefix } = Astro.props;
         Just 36,000 square kilometers, yet the Philippine Sea Plate pushes into
         the Eurasian Plate at 8 cm a year, making Taiwan one of the most
         mountainous islands on Earth.
-        <a href={`${langUrlPrefix}/geography`} class="topic-pill"
-          >🗺️ The geography here</a
+        <a
+          href={`${langUrlPrefix}/geography`}
+          data-ga-section="hall_pill"
+          class="topic-pill">🗺️ The geography here</a
         >
         isn't a postcard — it's an island still growing taller. The Tropic of Cancer
         crosses Chiayi; on the same day you can drive from Kenting's tropical beach
@@ -48,7 +50,7 @@ const { topPicks, langUrlPrefix } = Astro.props;
         topPicks.geography && topPicks.geography.length > 0 && (
           <div class="hall-picks">
             {topPicks.geography.map((a) => (
-              <a href={a.href} class="pick-card">
+              <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
                   <span class="pick-fn">{a.footnotes} sources</span>
@@ -71,8 +73,10 @@ const { topPicks, langUrlPrefix } = Astro.props;
         — 2.5% of global biodiversity. The Formosan landlocked salmon has
         survived 15,000 years in Dajia Creek; fewer than 600 Formosan black
         bears remain.
-        <a href={`${langUrlPrefix}/nature`} class="topic-pill"
-          >🌿 Taiwan's nature</a
+        <a
+          href={`${langUrlPrefix}/nature`}
+          data-ga-section="hall_pill"
+          class="topic-pill">🌿 Taiwan's nature</a
         > vertically compresses every ecosystem from the equator to the subarctic
         — coral reefs to cloud forests in 3,000 meters. A paradise for ecologists,
         a frontline for development pressure.
@@ -81,7 +85,7 @@ const { topPicks, langUrlPrefix } = Astro.props;
         topPicks.nature && topPicks.nature.length > 0 && (
           <div class="hall-picks">
             {topPicks.nature.map((a) => (
-              <a href={a.href} class="pick-card">
+              <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
                   <span class="pick-fn">{a.footnotes} sources</span>
@@ -103,8 +107,10 @@ const { topPicks, langUrlPrefix } = Astro.props;
         13,000 convenience stores — one for every 2,000 people. Pay bills, pick
         up packages, buy train tickets, photocopy your thesis, all at the same
         counter.
-        <a href={`${langUrlPrefix}/lifestyle`} class="topic-pill"
-          >🏠 Taiwanese life</a
+        <a
+          href={`${langUrlPrefix}/lifestyle`}
+          data-ga-section="hall_pill"
+          class="topic-pill">🏠 Taiwanese life</a
         > is wrapped in hyper-compressed infrastructure — but step into an alley after
         work, and grandma will still ask, "Have you eaten yet?"
       </p>
@@ -112,7 +118,7 @@ const { topPicks, langUrlPrefix } = Astro.props;
         topPicks.lifestyle && topPicks.lifestyle.length > 0 && (
           <div class="hall-picks">
             {topPicks.lifestyle.map((a) => (
-              <a href={a.href} class="pick-card">
+              <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
                   <span class="pick-fn">{a.footnotes} sources</span>
@@ -144,8 +150,10 @@ const { topPicks, langUrlPrefix } = Astro.props;
         In 1624, the Dutch built Fort Zeelandia in Tainan. Eight regimes
         followed in four centuries — one every fifty years on average — each
         bringing new languages, laws, and time zones.
-        <a href={`${langUrlPrefix}/history`} class="topic-pill"
-          >📜 Taiwan's history</a
+        <a
+          href={`${langUrlPrefix}/history`}
+          data-ga-section="hall_pill"
+          class="topic-pill">📜 Taiwan's history</a
         >'s most astonishing chapter came in 1996: 14.3 million people walked
         into polling stations and cast the first direct presidential vote in
         Chinese-speaking history. No bloodshed, no coup. An island under
@@ -155,7 +163,7 @@ const { topPicks, langUrlPrefix } = Astro.props;
         topPicks.history && topPicks.history.length > 0 && (
           <div class="hall-picks">
             {topPicks.history.map((a) => (
-              <a href={a.href} class="pick-card">
+              <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
                   <span class="pick-fn">{a.footnotes} sources</span>
@@ -178,8 +186,10 @@ const { topPicks, langUrlPrefix } = Astro.props;
         brought Mazu, Hakka brought Yimin Ye, mainlanders brought Shandong
         mantou from military villages, Southeast Asian immigrants brought Eid
         al-Fitr.
-        <a href={`${langUrlPrefix}/culture`} class="topic-pill"
-          >🎭 Taiwan's culture</a
+        <a
+          href={`${langUrlPrefix}/culture`}
+          data-ga-section="hall_pill"
+          class="topic-pill">🎭 Taiwan's culture</a
         > is not a melting pot — nobody got melted. The Dajia Mazu pilgrimage draws
         a million walkers over nine days; the Tsou Mayasvi war ritual happens in Alishan
         the same month. Both are Taiwan, and they don't contradict.
@@ -188,7 +198,7 @@ const { topPicks, langUrlPrefix } = Astro.props;
         topPicks.culture && topPicks.culture.length > 0 && (
           <div class="hall-picks">
             {topPicks.culture.map((a) => (
-              <a href={a.href} class="pick-card">
+              <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
                   <span class="pick-fn">{a.footnotes} sources</span>
@@ -210,8 +220,10 @@ const { topPicks, langUrlPrefix } = Astro.props;
         On May 17, 2019, the legislature voted to legalize same-sex marriage —
         making Taiwan the first in Asia. Six months earlier, 7.65 million people
         had just voted against it in a referendum.
-        <a href={`${langUrlPrefix}/society`} class="topic-pill"
-          >⚖️ Taiwan's society</a
+        <a
+          href={`${langUrlPrefix}/society`}
+          data-ga-section="hall_pill"
+          class="topic-pill">⚖️ Taiwan's society</a
         >'s most fascinating quality is right here: the referendum said no, the
         legislature said yes, and society kept functioning. People finished
         arguing, then stood in line together for breakfast.
@@ -220,7 +232,7 @@ const { topPicks, langUrlPrefix } = Astro.props;
         topPicks.society && topPicks.society.length > 0 && (
           <div class="hall-picks">
             {topPicks.society.map((a) => (
-              <a href={a.href} class="pick-card">
+              <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
                   <span class="pick-fn">{a.footnotes} sources</span>
@@ -254,8 +266,10 @@ const { topPicks, langUrlPrefix } = Astro.props;
         then rewrote the NBA's Asian narrative in one week. Chen Shu-chu sold
         vegetables at Taitung market for 48 years and donated over NT$10
         million.
-        <a href={`${langUrlPrefix}/people`} class="topic-pill"
-          >👥 Taiwan's people</a
+        <a
+          href={`${langUrlPrefix}/people`}
+          data-ga-section="hall_pill"
+          class="topic-pill">👥 Taiwan's people</a
         >
         didn't walk out of textbooks — their stories are worth reading because every
         turning point could have not happened.
@@ -264,7 +278,7 @@ const { topPicks, langUrlPrefix } = Astro.props;
         topPicks.people && topPicks.people.length > 0 && (
           <div class="hall-picks">
             {topPicks.people.map((a) => (
-              <a href={a.href} class="pick-card">
+              <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
                   <span class="pick-fn">{a.footnotes} sources</span>
@@ -286,16 +300,19 @@ const { topPicks, langUrlPrefix } = Astro.props;
         In 2009, Cai Guo-Qiang detonated nine gunpowder explosions at Taipei
         Fine Arts Museum. The same year, Lin Hwai-min's Cloud Gate Dance Theatre
         rose from the ashes of their Bali studio fire.
-        <a href={`${langUrlPrefix}/art`} class="topic-pill">🎨 Taiwan's art</a> runs
-        from temple Eight Generals face paint to the Venice Biennale, from Jiaozhi
-        pottery to digital installations. The question Taiwan's creators ask most
-        often isn't "what is beauty" — it's "who are we."
+        <a
+          href={`${langUrlPrefix}/art`}
+          data-ga-section="hall_pill"
+          class="topic-pill">🎨 Taiwan's art</a
+        > runs from temple Eight Generals face paint to the Venice Biennale, from
+        Jiaozhi pottery to digital installations. The question Taiwan's creators ask
+        most often isn't "what is beauty" — it's "who are we."
       </p>
       {
         topPicks.art && topPicks.art.length > 0 && (
           <div class="hall-picks">
             {topPicks.art.map((a) => (
-              <a href={a.href} class="pick-card">
+              <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
                   <span class="pick-fn">{a.footnotes} sources</span>
@@ -318,8 +335,10 @@ const { topPicks, langUrlPrefix } = Astro.props;
         later it's still a KTV regular. The Bunun's pasibutbut (eight-part
         polyphony) caught UNESCO's attention because Western music theory can't
         explain it.
-        <a href={`${langUrlPrefix}/music`} class="topic-pill"
-          >🎵 Taiwan's sound</a
+        <a
+          href={`${langUrlPrefix}/music`}
+          data-ga-section="hall_pill"
+          class="topic-pill">🎵 Taiwan's sound</a
         > runs from tribal chants to Mayday filling an arena with 100,000 voices.
         Music on this island isn't just entertainment — it's how each generation recognizes
         itself.
@@ -328,7 +347,7 @@ const { topPicks, langUrlPrefix } = Astro.props;
         topPicks.music && topPicks.music.length > 0 && (
           <div class="hall-picks">
             {topPicks.music.map((a) => (
-              <a href={a.href} class="pick-card">
+              <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
                   <span class="pick-fn">{a.footnotes} sources</span>
@@ -360,8 +379,10 @@ const { topPicks, langUrlPrefix } = Astro.props;
         90% of the world's advanced chips ship from Taiwan. A single TSMC fab
         costs US$20 billion; its cleanrooms are 10,000 times cleaner than
         operating theaters.
-        <a href={`${langUrlPrefix}/technology`} class="topic-pill"
-          >💻 This tech island</a
+        <a
+          href={`${langUrlPrefix}/technology`}
+          data-ga-section="hall_pill"
+          class="topic-pill">💻 This tech island</a
         >
         started from tin-roof workshops in the 1980s Hsinchu Science Park and became,
         forty years later, a supply-chain node that no phone, laptop, or car on Earth
@@ -372,7 +393,7 @@ const { topPicks, langUrlPrefix } = Astro.props;
         topPicks.technology && topPicks.technology.length > 0 && (
           <div class="hall-picks">
             {topPicks.technology.map((a) => (
-              <a href={a.href} class="pick-card">
+              <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
                   <span class="pick-fn">{a.footnotes} sources</span>
@@ -394,8 +415,10 @@ const { topPicks, langUrlPrefix } = Astro.props;
         In 1960, Taiwan's GDP per capita was US$154 — lower than the Congo's.
         Sixty years later it exceeds US$33,000, without oil, colonial dividends,
         or continental hinterland.
-        <a href={`${langUrlPrefix}/economy`} class="topic-pill"
-          >📈 Taiwan's economy</a
+        <a
+          href={`${langUrlPrefix}/economy`}
+          data-ga-section="hall_pill"
+          class="topic-pill">📈 Taiwan's economy</a
         >
         is the story of a resource-poor island turning itself into a global supply-chain
         hub. The method was singular: work harder and pivot faster than everyone else.
@@ -404,7 +427,7 @@ const { topPicks, langUrlPrefix } = Astro.props;
         topPicks.economy && topPicks.economy.length > 0 && (
           <div class="hall-picks">
             {topPicks.economy.map((a) => (
-              <a href={a.href} class="pick-card">
+              <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
                   <span class="pick-fn">{a.footnotes} sources</span>
@@ -426,8 +449,10 @@ const { topPicks, langUrlPrefix } = Astro.props;
         A bowl of beef noodle soup: Sichuan red-braised base, Taiwanese soy
         sweetness, and a 1949 veteran's homesickness. Bubble tea left a Taichung
         tea house and landed on five continents.
-        <a href={`${langUrlPrefix}/food`} class="topic-pill"
-          >🍜 Taiwan's flavor</a
+        <a
+          href={`${langUrlPrefix}/food`}
+          data-ga-section="hall_pill"
+          class="topic-pill">🍜 Taiwan's flavor</a
         >
         is its immigration history — Hoklo oyster omelets, Hakka ginger intestines,
         indigenous millet wine, new immigrant fish sauce. Four centuries of homesickness,
@@ -437,7 +462,7 @@ const { topPicks, langUrlPrefix } = Astro.props;
         topPicks.food && topPicks.food.length > 0 && (
           <div class="hall-picks">
             {topPicks.food.map((a) => (
-              <a href={a.href} class="pick-card">
+              <a href={a.href} data-ga-section="hall_pick" class="pick-card">
                 <span class="pick-head">
                   <span class="pick-title">{a.title}</span>
                   <span class="pick-fn">{a.footnotes} sources</span>

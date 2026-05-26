@@ -1,0 +1,111 @@
+---
+/**
+ * HomeEventTracker.astro — Homepage Evolution Wave 1 / Phase 2.5 (2026-05-26)
+ *
+ * Delegated GA4 click tracker for every interactive element on the homepage.
+ *
+ * Why this exists — 哲宇 directive 2026-05-26 23:00「首頁元素都要加入ga事件追蹤，
+ * 徹底了解進入頁面的人的互動行為供未來參考」。
+ *
+ * Each tracked element carries two attributes:
+ *   data-ga-section="<section-id>"   — which homepage section the click came from
+ *   data-ga-label="<within-section>" — what specifically was clicked
+ *
+ * Click delegation fires:
+ *   gtag('event', 'homepage_click', {
+ *     section, label, link_url, page_lang
+ *   });
+ *
+ * Section taxonomy (stable enum — do not rename without updating GA4 explorations):
+ *
+ *   hero_cta          — Hero buttons (label: explore | github_star)
+ *   reader_door       — 4 reader-intent doors (label: first | search | random | organism)
+ *   organism_preview  — Taiwan.md organism card (label: open)
+ *   cover_story       — historical timeline CTA (label: read_full)
+ *   random_dice       — RandomDiscovery dice button (label: roll)
+ *   reading_path      — A-grade 5-step path (label: step_<1-5> | continue)
+ *   feature_cta       — feature-cards CTA strip (label: graph | ssot)
+ *   hall_pill         — 12 topic pills in 4 exhibition halls (label: <category-slug>)
+ *   hall_pick         — pick cards inside halls (label: <article-slug>)
+ *   category_grid     — 12 category cards below halls (label: <category-slug>)
+ *   recent_updates    — changelog CTA + commit links (label: view_all | commit_<sha>)
+ *   newsletter        — newsletter form (label: subscribe)
+ *   community_feedback — community feedback links (label: <id>)
+ *   contribute        — contribute CTAs (label: guide | github)
+ *
+ * Capture-phase listener ensures we record the click before the browser
+ * follows the link. `gtag` calls are batched async by GA itself, so this
+ * does not delay navigation.
+ *
+ * Compatible with the global gtag bootstrap in src/layouts/Layout.astro
+ * (id G-JGC5W00N7T). No-op when gtag is missing (e.g. ad blockers).
+ */
+---
+
+<script is:inline>
+  (function () {
+    function _init() {
+      document.addEventListener(
+        'click',
+        function (e) {
+          var target =
+            e.target && e.target.closest
+              ? e.target.closest('[data-ga-section]')
+              : null;
+          if (!target) return;
+          if (typeof gtag !== 'function') return;
+          var section = target.getAttribute('data-ga-section');
+          var label = target.getAttribute('data-ga-label') || '';
+          var href = target.getAttribute('href') || '';
+          // Fallback: derive label from final href path segment when not set
+          // explicitly (e.g. dynamic topic pills + pick cards in 8 halls).
+          if (!label && href && href !== '#') {
+            try {
+              var path = href.split('?')[0].split('#')[0];
+              var parts = path.split('/').filter(Boolean);
+              if (parts.length)
+                label = decodeURIComponent(parts[parts.length - 1]);
+            } catch (_) {}
+          }
+          var lang = document.documentElement.lang || 'unknown';
+          try {
+            gtag('event', 'homepage_click', {
+              section: section,
+              label: label,
+              link_url: href,
+              page_lang: lang,
+            });
+          } catch (_) {
+            /* never block navigation on GA failure */
+          }
+        },
+        { capture: true },
+      );
+
+      // Newsletter form submit is a separate signal (not a link click)
+      document.addEventListener(
+        'submit',
+        function (e) {
+          var form = e.target;
+          if (!form || !form.matches) return;
+          if (!form.matches('[data-ga-form]')) return;
+          if (typeof gtag !== 'function') return;
+          try {
+            gtag('event', 'homepage_form_submit', {
+              section: form.getAttribute('data-ga-form'),
+              label: form.getAttribute('data-ga-label') || 'submit',
+              page_lang: document.documentElement.lang || 'unknown',
+            });
+          } catch (_) {}
+        },
+        { capture: true },
+      );
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', _init);
+    } else {
+      _init();
+    }
+  })();
+</script>

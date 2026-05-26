@@ -195,6 +195,8 @@ const categories = [
         <article class="mb-6 flex break-inside-avoid">
           <a
             href={translatePath(`/${category.slug}`)}
+            data-ga-section="category_grid"
+            data-ga-label={category.slug}
             class="group relative flex w-full flex-col overflow-hidden rounded-3xl border border-[rgba(226,232,240,0.9)] bg-white/[0.98] text-inherit no-underline shadow-[0_12px_30px_rgba(15,23,42,0.06)] transition-all duration-[280ms] ease hover:-translate-y-1.5 hover:border-[rgba(148,163,184,0.5)] hover:shadow-[0_24px_50px_rgba(15,23,42,0.18),0_8px_16px_rgba(0,0,0,0.06)] max-[768px]:min-h-[272px]"
             aria-label={`${t('CategoryGrid.aria-explore')} ${category.name}${t('CategoryGrid.aria-explore-suffix')}`}
           >
