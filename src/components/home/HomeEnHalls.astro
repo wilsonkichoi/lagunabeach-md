@@ -6,7 +6,11 @@
  * 5 langs all share the same English prose (only URL prefix differs).
  *
  * 2026-05-03 sleepy-colden P2 unification — extract from src/pages/en/index.astro.
+ * 2026-05-27 Wave 3 / A2 — cross-hall bridges (i18n via useTranslations so
+ * each non-default lang shows its own bridge prose).
  */
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
 interface PickArticle {
   title: string;
   href: string;
@@ -22,6 +26,8 @@ interface Props {
 }
 
 const { topPicks, langUrlPrefix } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <>
@@ -138,6 +144,13 @@ const { topPicks, langUrlPrefix } = Astro.props;
     </div>
   </div>
 
+  {/* ── Bridge I→II (A2, Wave 3) ── */}
+  <div class="hall-bridge">
+    <div class="hall-bridge-line"></div>
+    <em class="hall-bridge-text">{t('home.bridge.1to2')}</em>
+    <div class="hall-bridge-line"></div>
+  </div>
+
   {/* ── Hall II: How this island came to be ── */}
   <div class="exhibition-hall">
     <div class="hall-divider">
@@ -250,6 +263,13 @@ const { topPicks, langUrlPrefix } = Astro.props;
         )
       }
     </div>
+  </div>
+
+  {/* ── Bridge II→III ── */}
+  <div class="hall-bridge">
+    <div class="hall-bridge-line"></div>
+    <em class="hall-bridge-text">{t('home.bridge.2to3')}</em>
+    <div class="hall-bridge-line"></div>
   </div>
 
   {/* ── Hall III: What the people are doing ── */}
@@ -365,6 +385,13 @@ const { topPicks, langUrlPrefix } = Astro.props;
         )
       }
     </div>
+  </div>
+
+  {/* ── Bridge III→IV ── */}
+  <div class="hall-bridge">
+    <div class="hall-bridge-line"></div>
+    <em class="hall-bridge-text">{t('home.bridge.3to4')}</em>
+    <div class="hall-bridge-line"></div>
   </div>
 
   {/* ── Hall IV: Where this island is going ── */}

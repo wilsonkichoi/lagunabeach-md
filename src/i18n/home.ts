@@ -144,6 +144,13 @@ export const homeUI = {
     'home.heartbeat.organsLabel': 'Current organ scores',
     'home.heartbeat.vitalsLabel': 'Vitals',
     'home.heartbeat.viewMore': 'Open the full dashboard →',
+    // ── Hall bridges (A2, Wave 3) ──
+    'home.bridge.1to2':
+      'This is what the island looks like — but who shaped it?',
+    'home.bridge.2to3':
+      'After all this — what are the people who live here doing now?',
+    'home.bridge.3to4':
+      'They built all this — but where does the island go next?',
   },
   ja: {
     'hero.stat.history.number': '400+',
@@ -283,6 +290,10 @@ export const homeUI = {
     'home.heartbeat.organsLabel': '現在の器官スコア',
     'home.heartbeat.vitalsLabel': '生命徴候',
     'home.heartbeat.viewMore': '完全な dashboard を開く →',
+    // ── Hall bridges (A2) ──
+    'home.bridge.1to2': 'これがこの島の姿 — では誰がそれを作ったのか？',
+    'home.bridge.2to3': 'この歴史を経て — ここに住む人たちは今何をしている？',
+    'home.bridge.3to4': '彼らが残したもの — この島はこれからどこへ？',
   },
   ko: {
     'hero.stat.history.number': '400+',
@@ -424,6 +435,10 @@ export const homeUI = {
     'home.heartbeat.organsLabel': '현재 기관 점수',
     'home.heartbeat.vitalsLabel': '생체 신호',
     'home.heartbeat.viewMore': '완전한 dashboard 열기 →',
+    // ── Hall bridges (A2) ──
+    'home.bridge.1to2': '이 섬은 이런 모습이다 — 그런데 누가 이렇게 만들었나?',
+    'home.bridge.2to3': '이 역사를 거쳐 — 여기 사는 사람들은 지금 뭘 하나?',
+    'home.bridge.3to4': '그들이 남긴 것 — 이 섬은 이제 어디로?',
   },
   'zh-TW': {
     'hero.stat.history.number': '400+',
@@ -553,6 +568,10 @@ export const homeUI = {
     'home.heartbeat.organsLabel': '當前器官分數',
     'home.heartbeat.vitalsLabel': '生命徵象',
     'home.heartbeat.viewMore': '進入完整 dashboard →',
+    // ── Hall bridges (A2, Wave 3) ──
+    'home.bridge.1to2': '這座島長成這樣 — 那是誰把它變成這樣的？',
+    'home.bridge.2to3': '經歷過這些 — 那活在這裡的人正在做什麼？',
+    'home.bridge.3to4': '他們留下了這些 — 那這座島往哪裡去？',
   },
   fr: {
     'hero.stat.history.number': '400+',
@@ -702,6 +721,12 @@ export const homeUI = {
     'home.heartbeat.organsLabel': 'Scores actuels des organes',
     'home.heartbeat.vitalsLabel': 'Signes vitaux',
     'home.heartbeat.viewMore': 'Ouvrir le dashboard complet →',
+    // ── Hall bridges (A2) ──
+    'home.bridge.1to2':
+      "Voilà à quoi ressemble l'île — mais qui l'a façonnée ainsi ?",
+    'home.bridge.2to3':
+      "Après tout cela — que font aujourd'hui ceux qui y vivent ?",
+    'home.bridge.3to4': "Ils ont laissé tout ça — où va l'île maintenant ?",
   },
   es: {
     'hero.stat.history.number': '400+',
@@ -850,5 +875,9 @@ export const homeUI = {
     'home.heartbeat.organsLabel': 'Puntajes actuales de órganos',
     'home.heartbeat.vitalsLabel': 'Signos vitales',
     'home.heartbeat.viewMore': 'Abrir el dashboard completo →',
+    // ── Hall bridges (A2) ──
+    'home.bridge.1to2': 'Así se ve esta isla — pero ¿quién la dejó así?',
+    'home.bridge.2to3': 'Después de todo esto — ¿qué hacen los que viven aquí?',
+    'home.bridge.3to4': 'Dejaron todo esto — ¿hacia dónde va la isla ahora?',
   },
 } as const;
