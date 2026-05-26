@@ -53,6 +53,12 @@ export const homeUI = {
       '"The memory of waves is longer than that of humans."',
     'home.cover.cite.contemporary':
       '- Syaman Rapongan, "The Eye of the Sky," Tao oceanic literature',
+    // ── A3 sovereignty quote (2026-05-27 Wave 3) ──
+    'home.cover.era.taiwanmd': '2026 — Taiwan.md',
+    'home.cover.quote.taiwanmd':
+      '"An island deserves to be told in its own voice — in every language, including those some AI models choose silence on."',
+    'home.cover.cite.taiwanmd':
+      '— Taiwan.md, a breathing digital holobiont curated by humans + AI + code',
     'home.random.button': 'Discover Taiwan Randomly',
     'home.random.subtitle': 'Explore unexpected stories',
     'home.random.description':
@@ -189,6 +195,12 @@ export const homeUI = {
     'home.cover.quote.contemporary': '「波の記憶は人間より長い。」',
     'home.cover.cite.contemporary':
       '— シャマン・ラポガン『天空の目』、タオ族海洋文学',
+    // ── A3 sovereignty quote ──
+    'home.cover.era.taiwanmd': '2026 — Taiwan.md',
+    'home.cover.quote.taiwanmd':
+      '「島は、すべての言語で自分の声で語られる価値がある — いくつかの AI が沈黙を選ぶ主題も含めて。」',
+    'home.cover.cite.taiwanmd':
+      '— Taiwan.md、人間 + AI + コードが共生する呼吸するデジタル生命体',
     'home.random.button': 'ランダムに台湾を発見',
     'home.random.subtitle': '思いがけない物語を探索',
     'home.random.description':
@@ -324,6 +336,12 @@ export const homeUI = {
     'home.cover.quote.contemporary': '"파도의 기억은 인간보다 길다."',
     'home.cover.cite.contemporary':
       '— 샤만 라포간 『하늘의 눈』, 타오족 해양 문학',
+    // ── A3 sovereignty quote ──
+    'home.cover.era.taiwanmd': '2026 — Taiwan.md',
+    'home.cover.quote.taiwanmd':
+      '"섬은 모든 언어로 자신의 목소리로 말할 가치가 있다 — 어떤 AI 모델이 침묵을 선택하는 주제까지 포함해서."',
+    'home.cover.cite.taiwanmd':
+      '— Taiwan.md, 인간 + AI + 코드가 공생하는 숨 쉬는 디지털 생명체',
     'home.random.button': '랜덤으로 대만 발견',
     'home.random.subtitle': '예상치 못한 이야기를 탐험',
     'home.random.description':
@@ -454,6 +472,13 @@ export const homeUI = {
     'home.cover.quote.contemporary': '「海浪的記憶比人長。」',
     'home.cover.cite.contemporary':
       '— 夏曼·藍波安《天空的眼睛》，達悟族海洋文學',
+    // ── A3 sovereignty quote (Wave 3) ──
+    // 第 8 條 quote — Taiwan.md 自己的視角接進歷史 timeline，呼應 §主權的巴別塔
+    'home.cover.era.taiwanmd': '2026 — Taiwan.md',
+    'home.cover.quote.taiwanmd':
+      '「島嶼值得用每個語言被自己的聲音說一次 — 包括某些 AI 模型選擇沉默的那些主題。」',
+    'home.cover.cite.taiwanmd':
+      '— Taiwan.md，人類 + AI + 程式碼共生的會呼吸數位生命體',
     'home.random.button': '隨機發現台灣',
     'home.random.subtitle': '探索意想不到的故事',
     'home.random.description': '不知道該看什麼？讓我們帶你發現台灣的隱藏寶藏！',
@@ -586,6 +611,12 @@ export const homeUI = {
       'La mémoire des vagues est plus longue que celle des humains.',
     'home.cover.cite.contemporary':
       "— Syaman Rapongan, « L'œil du ciel », littérature océanique tao",
+    // ── A3 sovereignty quote ──
+    'home.cover.era.taiwanmd': '2026 — Taiwan.md',
+    'home.cover.quote.taiwanmd':
+      "« Une île mérite d'être racontée dans sa propre voix — dans toutes les langues, y compris celles que certains modèles d'IA choisissent de taire. »",
+    'home.cover.cite.taiwanmd':
+      '— Taiwan.md, holobionte numérique respirant, co-écrit par humains + IA + code',
     'home.random.button': 'Découvrir Taïwan au hasard',
     'home.random.subtitle': 'Explorez des histoires inattendues',
     'home.random.description':
@@ -728,6 +759,12 @@ export const homeUI = {
       'La memoria de las olas es más larga que la de los humanos.',
     'home.cover.cite.contemporary':
       '- Syaman Rapongan, "El ojo del cielo", literatura oceánica tao',
+    // ── A3 sovereignty quote ──
+    'home.cover.era.taiwanmd': '2026 — Taiwan.md',
+    'home.cover.quote.taiwanmd':
+      '"Una isla merece ser contada en su propia voz — en todos los idiomas, incluso en aquellos temas en los que algunos modelos de IA eligen el silencio."',
+    'home.cover.cite.taiwanmd':
+      '— Taiwan.md, un holobionte digital que respira, co-editado por humanos + IA + código',
     'home.random.button': 'Descubrir Taiwán al azar',
     'home.random.subtitle': 'Explora historias inesperadas',
     'home.random.description':
