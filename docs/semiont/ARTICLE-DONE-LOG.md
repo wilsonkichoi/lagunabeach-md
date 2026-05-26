@@ -59,6 +59,27 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 國家人權博物館 NEW — 2026-05-26 manual（哲宇 explicit /twmd-rewrite「深度研究國家人權博物館」directive — History 戰後與威權 / Fresh 模式 4772 CJK / 26 footnote / 3 圖 / 6 H2 / Hybrid A+C 核心矛盾「國家自我紀念博物館的悖論」）
+
+- **Article**: [knowledge/History/國家人權博物館.md](../../knowledge/History/國家人權博物館.md) — 4772 CJK chars / 26 footnote / 6 H2 / 3 圖（hero nhrm-tsai-unveil-2018 Wikimedia CC BY 2.0 總統府 + 2 inline nhrm-greenisland-monument-2022 CC BY-SA 4.0 / nhrm-jingmei-park PD Voice of America）
+- **Pipeline**: REWRITE-PIPELINE v6.0 — Fresh 模式（knowledge/History/國家人權博物館.md 不存在，6 sibling [綠島監獄 / 戒嚴時期 / 台灣白色恐怖 / 台灣轉型正義 / 二二八事件 / 民主轉型] 已存在 → 邊界差異化：本文聚焦「博物館機構自身的記憶政治」不重寫 sibling 角度）
+- **核心矛盾**（Stage 1.4 鎖定，從 Stage 0.6 三候選 A/B/C 收斂為 Hybrid A+C）：「國家自我紀念博物館的悖論：國家自己建一座博物館紀念自己做過的事，但加害體系的政治繼承者今天仍能凍結它的預算」(48 字) — A 修正 anchor（2025/1 藍白凍結文化部下屬機構業務費 30% + NHRM 對民團補助 522.5 萬刪 + 中正紀念堂轉型停止 + 白色恐怖賠償 1 億刪 + 5/7 解凍）+ C anchor（victim-centered 國際 default + 加害者問責 0 司法審判 + 蔣中正 4101 次未進入刑事 + 蔣中正肖像仍在 10 元硬幣）
+- **Hook**：30 秒概覽 + 開場 1951/5/17 vs 2018/5/17 同日呼應 + 蔡焜霖 88 歲「盼望總有一天知道誰殺了我的朋友」+ 67 年後跨日交錯 anchor，title「國家人權博物館：垂淚碑上沒寫的名字」副標 tweet-able 雙意（受難者母親的長夜哭泣 + 加害者具名缺席）
+- **品質**：footnote-format ✅（rewrite-stage-3-5 profile）/ footnote-density ✅ / prose-health score=1 (≤3 pass，剩 1 個 lastHumanReview=false 警示) / chronicle-lead ✅（小標題 6 個全反編年體：「盼望總有一天知道，誰殺了我的朋友」/「新店那條捷運路線旁的看守所」/「籌備了六年的博物館」/「柬埔寨關了一個 Duch，台灣關了零個」/「拿到一份處處彈孔的預算書」/「垂淚碑上沒寫的名字」）/ frontmatter-format ✅ / word-count 4772/4500 ✅ / image-health 3 張 ✅ / cjk-punct ✅ / wikilink-target ✅ / link-target ✅
+- **Research**: [reports/research/2026-05/國家人權博物館.md](../../reports/research/2026-05/國家人權博物館.md) + [國家人權博物館-stage1-raw.md](../../reports/research/2026-05/國家人權博物館-stage1-raw.md) — Stage 1 raw 622 行 / 58 KB / general-purpose agent 34 WebSearch + 14 WebFetch = 48 ops / 中文 85% + 英文 15%（國際比較）
+- **大 Falsification 5 條**：
+  - F1 「KMT 提案凍結 NHRM 70% 預算」**推翻** → 實際 30% 全面文化部凍結 + NHRM 個別案目刪除（疑英文 AI summary conflate 總統府 73% 凍結）
+  - F2 「KMT 單獨針對 NHRM」**推翻** → 藍白聯手 60 席對文化部全面圍剿
+  - F3 「victim-centered 國際 default + 加害者問責結構性缺席」**部分 confirm + 部分修正** → 兩種類型機制（司法審判 / 除垢法）台灣兩種都沒做到
+  - F4 「政治受難者群體對 NHRM 滿意度」**confirm + plot twist** → 受難者群體 by and large 支持 NHRM，緊張在 NHRM vs 加害繼承者，B 候選降為 inline 場景不獨立段
+  - F5 「2025 事件 = 純政黨意識形態爭議」**修正** → 雙拍敘事 1/20 凍結 + 5/7 解凍 中央首例
+- **事實鐵三角修正**：68 年前→67 年（鄭麗君「等了 67 年」quote cross-check）/ 蔡焜霖享耆壽 92→93（TNL vs 維基官方褒揚令衝突，採信 93）/ 江南案 1985→1984/10 江南被殺 1985 初案情爆發 / 15 年三任總統→16 年（2002→2018 算術）/ 107 天 1/20→5/7 verify
+- **Sensitive 素材處理**：政治立場敏感（轉型正義 / 加害者問責 / 2025 預算事件 / 藍白 vs 民進黨）走 Step 1.4.5 perspective scan 5 spectrum 全覆蓋（DPP 主流 / KMT 反方 / 民間第三方 / 國際比較 / 學界批評），直引 quote 全程 footnote citation（柏楊垂淚碑 28 字 / 蔡焜霖 / 蔡英文 / 鄭麗君 / 陳俊宏 / 林佳和 / 葉虹靈+黃丞儀 / 33 NGO 聯署 / 文化部新聞稿 / 在野黨團提案理由 / 李遠「招降書」+「胚胎」）
+- **Cross-link 雙向**：forward 延伸閱讀 5 條（綠島監獄 + 戒嚴時期 + 台灣白色恐怖 + 台灣轉型正義 + 二二八事件）/ reverse 補進 5 sibling（戒嚴時期 + 台灣白色恐怖 → append 既有 §延伸閱讀；綠島監獄 + 台灣轉型正義 + 二二八事件 → 新增 **延伸閱讀** section + 1 條 link）
+- **跟 [綠島監獄] article (2026-05-15 ship) 避免雙寫**：綠島監獄 article 處理「政治黑牢→大哥故鄉」layered memory 角度，本文 §1 綠島段聚焦「博物館化的記憶政治」（新生訓導處→綠洲山莊→人權園區→2018 升格機構轉化軸）
+- **Title 三明治**：「國家人權博物館：垂淚碑上沒寫的名字」v6.3 全 category 冒號三明治 + 副標獨立 tweet-able + 雙意 hook（沒寫受難者 / 沒寫加害者）
+- **待 Stage 6 後**：哲宇 review 文章內容 + 若 OK 則 set lastHumanReview: true / 翻譯走巴別塔 pipeline (cron twmd-babel-nightly 自動撿)
+
 ### 雷亞遊戲 EVOLVE — 2026-05-25 2026-05-25-083427-quirky-pasteur（哲宇 explicit /twmd-rewrite「深度研究進化 + 自動發孢子」directive — Technology 音樂遊戲 / 從既有 9KB / 12 footnote 升 4532 CJK / 27 footnote / 3 圖 + title 從「音樂帝國的裂縫」進化為「以美學立國的音樂帝國，與它十四年的裂縫」）
 
 - **Article**: [knowledge/Technology/雷亞遊戲.md](../../knowledge/Technology/雷亞遊戲.md) — 4532 CJK chars / 27 footnote / 8 H2 / 3 圖（hero rayark-cafe-2021 Wikimedia CC BY-SA 4.0 + 2 inline rayark-logo 2012 fair use + rayark-booth-cosplayers 2018 CC BY-SA 2.0）
