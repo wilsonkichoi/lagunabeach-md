@@ -3,9 +3,9 @@ title: 'SPORE-PUBLISH-PIPELINE'
 description: '從 SPORE-INBOX 挑 entry → quality gate → 自動 ship → 復盤。Routine 自動發孢子的 SOP'
 type: 'factory-canonical'
 status: 'canonical'
-current_version: 'v1.0'
-last_updated: 2026-05-25
-last_session: 'twmd-spore-publish-design'
+current_version: 'v1.1'
+last_updated: 2026-05-26
+last_session: 'twmd-spore-publish-daily-2026-05-26'
 sister_docs:
   - 'SPORE-PIPELINE.md'
   - 'SPORE-PICK-PIPELINE.md'
@@ -38,11 +38,12 @@ upstream_canonical:
 │            └── 1.3 優先序（P0 > P1 > P2 > P3）                          │
 │                                                                        │
 │   Stage 2: QUALITY GATE ──→ 4 條 hard gate 全過才 ship（本檔 canonical）│
-│            ├── 2.1 prose-health ≥ 8.0                                  │
+│            ├── 2.1 prose-health score ≤ 3 (plugin canonical lower=better)│
 │            ├── 2.2 word-count ≥ 4500 CJK                               │
 │            ├── 2.3 footnote-density grade ≥ B                          │
-│            ├── 2.4 media-richness pass (iframe ≥ 1 AND image ≥ 2)      │
-│            └── 2.5 lastVerified ≤ 90 天（REWRITE-PIPELINE 處理過）     │
+│            ├── 2.4 media-richness image ≥ 2 hard / iframe ≥ 1 info-only│
+│            ├── 2.5 lastVerified ≤ 90 天（REWRITE-PIPELINE 處理過）     │
+│            └── 2.6 fail → spawn ARTICLE-INBOX EVOLVE entry (v1.1)       │
 │                                                                        │
 │   Stage 3: WRITE ──→ delegate to SPORE-PIPELINE Stage 3                │
 │            └── 同 SPORE-PIPELINE / SPORE-WRITING canonical（不重複）   │
@@ -143,9 +144,11 @@ python3 scripts/tools/article-health.py "$ARTICLE" \
   --check=media-richness --output=json
 ```
 
-### Gate 2.1 prose-health ≥ 8.0
+### Gate 2.1 prose-health score ≤ 3
 
-prose-health plugin score 0-10。**< 8.0 → skip candidate，找下一條**。
+prose-health plugin score（lower = healthier，per `lib/article_health/checks/prose_health.py:29` "Total score budget: ≤ 3 = pass"）。**> 3 → skip candidate，找下一條**。
+
+> ⚠️ **v1.0 doc-vs-code 對齊修補**（per LESSONS-INBOX 2026-05-25 entry）：v1.0 寫「prose-health ≥ 8.0」是反向 — plugin 實際用 ≤ 3 = pass。v1.1 改回 plugin canonical 方向。
 
 ### Gate 2.2 word-count ≥ 4500 CJK
 
@@ -155,9 +158,14 @@ word-count plugin。**< 4500 → skip**。
 
 footnote-density plugin grade A-F。**C / D / E / F → skip**。
 
-### Gate 2.4 media-richness pass
+### Gate 2.4 media-richness — image ≥ 2 hard / iframe ≥ 1 info-only
 
-media-richness plugin（2026-05-25 新建）— iframe ≥ 1 AND image ≥ 2。**任一不足 → skip**。
+media-richness plugin（2026-05-25 新建 / 2026-05-26 v1.1 softened per 哲宇 directive）：
+
+- **image ≥ 2 → hard gate (WARN)**：spore-publish 失格 → §Stage 2.6 spawn ARTICLE-INBOX
+- **iframe ≥ 1 → INFO signal only**：鼓勵 REWRITE-PIPELINE 補影片但**不 throttle ship**
+
+**為什麼 iframe 降為 INFO**（per LESSONS-INBOX 2026-05-25 entry vc=2 → 2026-05-26 instrumented）：v1.0 雙 hard gate 兩天 routine 跑出 88% → 100% fail rate，root cause 是 REWRITE-PIPELINE Stage 4 §媒體編織 對 iframe 是 soft suggestion 不是 hard gate，多數 article 進 spore-publish 池時 iframe 缺率高，系統性 throttle 自動 ship。Image 才是 spore 配圖必要條件（hero + scene-mid），iframe 是立體呈現 ideal 非 critical。
 
 ### Gate 2.5 lastVerified ≤ 90 天
 
@@ -179,6 +187,39 @@ sys.exit(0 if days <= 90 else 2)
 無 `lastVerified` 或 > 90 天 → 文章沒過完整 REWRITE-PIPELINE / 太久沒人 verify → skip。
 
 **全 5 條過 → 進 Stage 3。任一不過 → 回 Stage 1 找下一條 candidate（最多嘗試 SPORE-INBOX §Pending 全部 entries）**。
+
+### Gate 2.6 fail → spawn ARTICLE-INBOX EVOLVE entry（v1.1，2026-05-26 新增）
+
+**哲宇 directive 2026-05-26**：「未來如果有發現這先不合品質的需求，那就把這些文章丟到 article-inbox 裡面消化進化」。
+
+每條 candidate 跑完 Gate 2.1-2.5 後若任一 fail，**routine 同時做兩件事**：
+
+1. Skip 本 candidate（per 既有 §1.3 流程）
+2. **Append / merge entry 到 [ARTICLE-INBOX.md](../semiont/ARTICLE-INBOX.md) §Pending**：Type=EVOLVE，Path=fail candidate 的 Article-Path，Priority=P2，Notes 寫明具體 fail 哪幾條 gate + 該補什麼
+
+**Entry 格式**（per ARTICLE-INBOX §Entry Schema）：
+
+```markdown
+### {article 主題} EVOLVE — spore-publish gate 補強
+
+- **Type**: `EVOLVE`
+- **Category**: {category}
+- **Path**: knowledge/{Cat}/{slug}.md
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: YYYY-MM-DD by twmd-spore-publish-daily routine (gate-fail: {gate-list})
+- **Notes**:
+  - **失格 gate**: image={N} < 2 / wc={N} < 4500 / prose=score > 3 / footnote=grade ≤ C / lastVerified > 90 (列出所有 fail 條目)
+  - **補什麼**: 對應 fix (補 hero+scene-mid 圖 / 補段落 / polish 對位句型 / 補腳註等)
+  - **動機**: SPORE-INBOX 對應 entry 等本 article 進化後重抽進 spore-publish
+- **Reference**: SPORE-INBOX entry「{原 spore 主題}」
+```
+
+**Batch 合併規則**：同 routine cycle 多 candidate 失同類 gate（例：5 條都缺 image）→ 開一條 **batch umbrella entry**「📷 SPORE-INBOX 候選圖片補強 batch — N articles」列出所有 paths，避免 N 條獨立 entry 污染 INBOX。
+
+**Idempotency**：append 前先 grep ARTICLE-INBOX 是否已有同 Path 的 EVOLVE entry — 有就 update Notes / Dev log 加新 cycle 觀察，無就 append 新 entry。
+
+**這個機制的意義**：以前 spore-publish gate fail 只是 skip 走人 + LESSONS-INBOX 累積 vc，沒有把 fail 訊號回灌到 article-production layer。v1.1 後形成完整 feedback loop — **gate fail = article 進化需求 signal**，REWRITE-PIPELINE / EVOLVE-PIPELINE next cycle 撿走補強，補完後 next spore-publish routine 就能 ship。
 
 ---
 
@@ -226,12 +267,13 @@ Routine context defaults（per SPORE-PIPELINE §Routine 自動決策 v3.7）：
 
 routine 結束**強制檢查**這 4 種結構性問題並 append LESSONS-INBOX：
 
-| 觸發                                                    | LESSONS entry                                                                                                                                       |
-| ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **SPORE-INBOX §Pending 沒有任一 entry 過 quality gate** | 「intake layer 沒在補 high-quality 候選 — spore-pick-daily propose 出的 entry 過不了 SPORE-PUBLISH gate」（per 哲宇 directive 2026-05-25 §第 5 題） |
-| **連續 ≥ 3 天 borderline pass**                         | 「quality gate threshold 可能太寬，考慮升 prose-health ≥ 8.5 / word-count ≥ 5000」                                                                  |
-| **CI/CD wait 觸發 defer ≥ 2 次連續**                    | 「build 健康狀態退化，影響自動 ship throughput」                                                                                                    |
-| **Stage 5 self-review 發現事實對齊問題**                | retract + 「Stage 2 漏抓事實偏移，gate 需要新 check」                                                                                               |
+| 觸發                                                                      | LESSONS entry                                                                                                                                       |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **SPORE-INBOX §Pending 沒有任一 entry 過 quality gate**                   | 「intake layer 沒在補 high-quality 候選 — spore-pick-daily propose 出的 entry 過不了 SPORE-PUBLISH gate」（per 哲宇 directive 2026-05-25 §第 5 題） |
+| **連續 ≥ 3 天 borderline pass**                                           | 「quality gate threshold 可能太寬，考慮升 prose-health ≤ 2 / word-count ≥ 5000」                                                                    |
+| **CI/CD wait 觸發 defer ≥ 2 次連續**                                      | 「build 健康狀態退化，影響自動 ship throughput」                                                                                                    |
+| **Stage 5 self-review 發現事實對齊問題**                                  | retract + 「Stage 2 漏抓事實偏移，gate 需要新 check」                                                                                               |
+| **連 ≥ 3 cycle 同一 article 反覆 spawn EVOLVE entry**（v1.1，2026-05-26） | 「ARTICLE-INBOX EVOLVE feedback loop 沒有被 routine 撿走 — 該 article 卡在 spore-publish 池外，需 distill 升 article-production routine 排程權重」  |
 
 ### 5.3 Finale skill
 
@@ -304,6 +346,7 @@ MANIFESTO §自主權邊界 仍寫「Post 新孢子 to Threads/X 需要 human」
 
 ---
 
+_v1.1 | 2026-05-26 — 哲宇 directive 兩項改良：(A) iframe 不列為 hard gate（降為 INFO signal，避免 REWRITE-PIPELINE 不 routine 補 iframe 造成 spore-publish 過嚴 throttle — 兩天 routine vc=2 instrumented）(B) §Stage 2.6 新增 fail candidate → spawn ARTICLE-INBOX EVOLVE entry feedback loop（以前 gate fail 只是 skip，現在回灌 article-production layer 形成完整迴圈）。同時修補 v1.0 Gate 2.1 prose-health doc-vs-code 反向 bug。_
 _v1.0 | 2026-05-25_
 _誕生原因：哲宇 directive「早上 10 點從 spore-inbox 選一篇，檢查精彩 / 立體完整 / 媒體素材 / 品質分數，自動發孢子」_
 _設計骨架：wrapper around SPORE-PIPELINE Stage 3-4 + 前置 quality gate + 復盤 stage + intake gap surface_

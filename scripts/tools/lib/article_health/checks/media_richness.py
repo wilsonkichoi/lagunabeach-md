@@ -1,14 +1,15 @@
-"""media_richness — depth article 立體素材門檻 (iframe + image 雙計).
+"""media_richness — depth article 媒體素材門檻 (image hard gate + iframe soft signal).
 
-Rule (2026-05-25 哲宇 directive，twmd-spore-publish-daily routine design):
-    具備「立體完整認識」的 depth article 必須有 ≥ 1 iframe (YouTube/影片素材)
-    AND ≥ 2 inline image。單看 image_health 的圖片數量不夠 — 立體 = 動態
-    媒介 (video) + 靜態媒介 (image) 雙向。
+Rule (2026-05-26 哲宇 directive 升級從 5/25 v1 雙 hard gate → image-only hard gate):
+    Image ≥ 2 是 hard gate (WARN — spore-publish 失格 candidate 進 ARTICLE-INBOX EVOLVE)。
+    Iframe ≥ 1 降為 INFO signal (鼓勵但不 throttle — REWRITE-PIPELINE 不 routine 補 iframe
+    時 8/9~9/9 fail rate 的結構性 gap 證實 iframe hard gate 過嚴，per LESSONS-INBOX
+    2026-05-25 entry vc=2)。立體完整呈現仍以 video + image 雙向為理想 baseline。
 
 Trigger context:
     twmd-spore-publish-daily routine 從 SPORE-INBOX 挑 entry 自動 ship 孢子前，
-    需要 quality gate 確保被推廣的文章本身具備立體完整呈現 (per EDITORIAL §媒體編織
-    baseline + 5/17 陳建年.md 4 iframe ship 後 audit 86/87 條目低於 baseline 教訓)。
+    需要 quality gate 確保被推廣的文章具備靜態圖片立體呈現 (per EDITORIAL §媒體編織
+    baseline)。Iframe 缺少不阻擋 ship，但會在 INFO 提示 suggest 補。
 
 Detected:
     - HTML `<iframe ...>` tags in body (count occurrences, ignoring code blocks)
@@ -21,15 +22,15 @@ Skipped paths:
     memory / diary / reports. Only applies to zh-TW knowledge articles.
 
 Threshold:
-    - default: min_iframes=1, min_images=2
-    - default severity WARN (soft-launch — many legacy articles 不到 baseline)
-    - twmd-spore-publish-daily routine 自己 enforce hard pass via JSON output
-      check (本 plugin 純 surface signal，routine consumer 決定 gate)
+    - default: min_iframes=1 (INFO only), min_images=2 (WARN — hard gate)
+    - image shortage → WARN (spore-publish hard gate 失格 → ARTICLE-INBOX EVOLVE 補)
+    - iframe shortage → INFO (signal 鼓勵 REWRITE-PIPELINE 補但不 throttle ship)
 
 Canonical:
-    - EDITORIAL.md §媒體編織 baseline (人物類至少 1 iframe + 2 image)
-    - SPORE-PUBLISH-PIPELINE.md §Stage 1 Quality Gate
-    - REWRITE-PIPELINE.md Step 4.3.6 媒體素材插入 (per 2026-05-17 陳建年.md)
+    - EDITORIAL.md §媒體編織 baseline (人物類至少 1 iframe + 2 image — iframe 為 ideal 非 hard)
+    - SPORE-PUBLISH-PIPELINE.md §Stage 2.4 (image ≥ 2 hard / iframe info-only)
+    - REWRITE-PIPELINE.md Step 4.3.6 媒體素材插入 (iframe 補強仍鼓勵)
+    - LESSONS-INBOX 2026-05-25 entry vc=2 → 2026-05-26 instrumented (gate softened)
 """
 
 from __future__ import annotations
@@ -106,37 +107,46 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
         severity=Severity.INFO,
         message=(
             f"媒體統計：{iframe_count} iframe + {total_images} image "
-            f"(門檻 iframe ≥ {min_iframes} AND image ≥ {min_images})"
+            f"(門檻 image ≥ {min_images} hard / iframe ≥ {min_iframes} info-only)"
         ),
         editorial_ref=EDITORIAL_REF,
     )
 
-    # ── Threshold gate (both must pass) ──────────────────────────────────────
+    # ── Threshold (image=WARN hard gate / iframe=INFO signal-only) ───────────
+    # 2026-05-26 哲宇 directive: iframe 不列為 hard gate，避免 REWRITE-PIPELINE
+    # 不 routine 補 iframe 造成 spore-publish 過嚴 throttle (LESSONS vc=2 instrumented)
     iframe_short = iframe_count < min_iframes
     image_short = total_images < min_images
 
-    if not iframe_short and not image_short:
-        return
-
-    parts = []
     if iframe_short:
-        parts.append(f"iframe {iframe_count} < {min_iframes}（缺影片素材）")
-    if image_short:
-        parts.append(f"image {total_images} < {min_images}（缺靜態圖片）")
+        yield Violation(
+            check=CHECK_NAME,
+            severity=Severity.INFO,
+            message=(
+                f"iframe {iframe_count} < {min_iframes}（缺影片素材，soft signal — "
+                "立體呈現理想配 video，但不阻擋 spore-publish ship）"
+            ),
+            line=None,
+            snippet=None,
+            editorial_ref=EDITORIAL_REF,
+            fix_suggestion=(
+                "找 YouTube/Vimeo 影片素材嵌 iframe (REWRITE-PIPELINE Step 4.3.6)"
+            ),
+        )
 
-    yield Violation(
-        check=CHECK_NAME,
-        severity=DEFAULT_SEVERITY,
-        message=(
-            "立體素材不足：" + " + ".join(parts)
-            + " — 立體完整呈現需動態 (video) + 靜態 (image) 雙向。"
-        ),
-        line=1,
-        snippet="",
-        editorial_ref=EDITORIAL_REF,
-        fix_suggestion=(
-            "(1) 找 YouTube/Vimeo 影片素材嵌 iframe (REWRITE-PIPELINE Step 4.3.6)"
-            " (2) 補 PD/CC 圖庫進 public/article-images/ (REWRITE-PIPELINE Step 1.14)"
-            " (3) 走 §媒體編織 baseline 三段敘事節奏 (hero + scene-mid + 影片穿插)"
-        ),
-    )
+    if image_short:
+        yield Violation(
+            check=CHECK_NAME,
+            severity=DEFAULT_SEVERITY,
+            message=(
+                f"靜態圖片不足：image {total_images} < {min_images}"
+                " — hard gate (spore-publish 失格 → ARTICLE-INBOX EVOLVE 補)。"
+            ),
+            line=1,
+            snippet="",
+            editorial_ref=EDITORIAL_REF,
+            fix_suggestion=(
+                "(1) 補 PD/CC 圖庫進 public/article-images/ (REWRITE-PIPELINE Step 1.14)"
+                " (2) 走 §媒體編織 baseline (hero + ≥1 inline scene-mid)"
+            ),
+        )

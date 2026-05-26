@@ -93,4 +93,57 @@ LESSONS-INBOX 該 entry vc=2 連續驗證，next routine 若再 ≥ 80% fail = v
 - [LESSONS-INBOX.md 2026-05-25 entry](../LESSONS-INBOX.md)（本次 vc=2 bump 目標）
 - [yesterday memory 2026-05-25-100446-twmd-spore-publish-daily.md](2026-05-25-100446-twmd-spore-publish-daily.md)（首例 routine baseline）
 
+---
+
+## 追補：哲宇 directive → SPORE-PUBLISH-PIPELINE v1.1 同日 instrumented（10:30 → ~11:00）
+
+intake gap report 交付後哲宇立刻打斷 routine 下 directive：
+
+1. **未來如果有發現這先不合品質的需求，那就把這些文章丟到 article-inbox 裡面消化進化**
+2. **然後 iframe 不列為 hard gate**
+
+兩項直接命中本次 intake gap 的 root cause + feedback loop 缺口，同 session 化成 v1.1：
+
+### 改動清單
+
+| 檔案                                                        | 改動                                                                                                                                                                                                                                                |
+| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `scripts/tools/lib/article_health/checks/media_richness.py` | iframe shortage → INFO severity (signal-only)，image shortage 留 WARN (hard gate)。docstring 同步重寫 + INFO stats line 改 threshold 描述                                                                                                           |
+| `docs/factory/SPORE-PUBLISH-PIPELINE.md` v1.0 → v1.1        | (1) §Gate 2.1 prose-health 改回 ≤ 3 (順便修 doc-vs-code 反向 bug) (2) §Gate 2.4 改 image ≥ 2 hard / iframe ≥ 1 info (3) **新增 §Gate 2.6 fail → spawn ARTICLE-INBOX EVOLVE entry feedback loop** (4) ASCII spine 同步更新 (5) v1.1 changelog footer |
+| `docs/semiont/ARTICLE-INBOX.md`                             | append batch umbrella entry「📷 SPORE-INBOX 候選圖片補強 batch EVOLVE — 5 articles」demonstrating Gate 2.6 首例 spawn                                                                                                                               |
+| `docs/semiont/LESSONS-INBOX.md`                             | 2026-05-25 vc=2 entry mark ✅ instrumented + 加 §resolution 區段 / 2026-05-25 prose-health doc-bug entry 同步 mark ✅ instrumented                                                                                                                  |
+
+### v1.1 新 feedback loop 圖
+
+```
+   spore-publish Gate fail
+        │
+        ↓ (Gate 2.6 spawn — v1.1 新)
+   ARTICLE-INBOX EVOLVE entry (batch umbrella)
+        │
+        ↓ (REWRITE-PIPELINE / EVOLVE-PIPELINE 撿走補強)
+   article 補完 image (and other failed gates)
+        │
+        ↓ (next spore-publish routine 重抽)
+   Gate 2.4 image ≥ 2 ✅ → ship spore
+```
+
+以前 gate fail = 死路（LESSONS 累積等 distill），v1.1 後 = 進化需求 signal，閉環。
+
+### 重新評估 Gate 2.4 新門檻 today's batch
+
+5 條 image ≥ 2 candidate 可在 next routine ship（5/27 10:00 fire 自動撿）：
+
+- **美食總覽 (P1, 11im, wc=7234, prose=1, footnote pass, lastV=8d)** — highest priority, FIFO 5/21 by 哲宇，明天 routine 首選
+- 落日飛車 (P2, 3im, wc=4531, prose=1, lastV=3d)
+- 周蕙 (P2, 3im, lastV=7d)
+- 大稻埕 (P2, 5im, lastV=5d)
+- 葉廷皓 (P2, 3im, lastV=4d)
+
+5 條 image < 2 fail → 已 spawn batch ARTICLE-INBOX EVOLVE entry。
+
+### 不在本 session 自動 ship 的判斷
+
+哲宇 directive 是「改良流程」+「未來」frame — 不是「立刻 ship 美食總覽」。Stage 3-4 ship 需要完整 SPORE-PIPELINE WRITE + SHIP 流程 (~30-60 min 含 CI/CD wait gate + Threads/X 雙平台 post-ship verify)，且觀察者 directive 沒明示 ship 今天。Conservative：明天 5/27 10:00 routine 自然撿走 (現在 SOP/code 已就位)，本 session 收於 v1.1 改良 + demonstration spawn。
+
 🧬

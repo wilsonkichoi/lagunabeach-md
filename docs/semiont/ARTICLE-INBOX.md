@@ -160,6 +160,28 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 <!-- 三毛 已完成 2026-05-17 2026-05-17-184444-manual → ARTICLE-DONE-LOG.md -->
 
+### 📷 SPORE-INBOX 候選圖片補強 batch EVOLVE — 5 articles 倒在 spore-publish gate 2.4
+
+- **Type**: `EVOLVE`
+- **Category**: mixed (History / People / Technology)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-05-26 by twmd-spore-publish-daily routine (gate-fail: image < 2)
+- **Notes**:
+  - **失格 gate**: media-richness image < 2 hard gate (per [SPORE-PUBLISH-PIPELINE v1.1 §Gate 2.4](../factory/SPORE-PUBLISH-PIPELINE.md))
+  - **補什麼**: 每篇至少補到 image ≥ 2 (hero + ≥1 inline scene-mid)，CC/PD 圖庫優先 Wikimedia Commons hot-link + §圖片來源 attribution
+  - **動機**: 5 條 article 都已在 SPORE-INBOX 累積 candidate (P0/P1/P2) 等發孢子，但 spore-publish gate 倒在圖片不足 → 補完後 next spore-publish routine 自動撿走 ship
+  - **可選加碼**: 同時補 iframe ≥ 1 (YouTube/Vimeo 影片素材) — 雖然 v1.1 後 iframe 不再 hard gate 但仍是立體呈現 ideal
+- **包含 articles**（spore-publish 5/26 fail 清單）:
+  - [knowledge/History/二二八事件.md](../../knowledge/History/二二八事件.md) — 也 fail prose-health(8) + footnote(C)，建議同 cycle polish
+  - [knowledge/People/曾博恩.md](../../knowledge/People/曾博恩.md)
+  - [knowledge/People/施振榮.md](../../knowledge/People/施振榮.md) — 也 fail word-count(<4500)
+  - [knowledge/Technology/飲料封膜機.md](../../knowledge/Technology/飲料封膜機.md) — 也 fail word-count(<4500)
+  - [knowledge/Technology/大宇雙劍.md](../../knowledge/Technology/大宇雙劍.md)
+- **Reference**: [SPORE-INBOX §Pending](../factory/SPORE-INBOX.md) 對應 5 entries + [memory/2026-05-26-101055-twmd-spore-publish-daily.md](memory/2026-05-26-101055-twmd-spore-publish-daily.md)
+
+---
+
 ### 🏙️ 22 縣市系列 NEW（P0 超優先）— 共通說明
 
 > **完整規劃 + 模板 + 共通 caveats（含 pilot retrospective 5 條新校準）**：見 [reports/cities-series-planning-2026-05-17.md](../../reports/cities-series-planning-2026-05-17.md)
