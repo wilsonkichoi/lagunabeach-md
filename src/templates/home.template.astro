@@ -179,74 +179,78 @@ const readingPathFooterItems = [
   title={t('home.meta.title')}
   description={t('home.meta.description')}
 >
-  <HeroSection />
+  <div data-ga-view="hero"><HeroSection /></div>
 
-  <ReaderDoors />
+  <div data-ga-view="reader_doors"><ReaderDoors /></div>
 
-  <div id="cover-story">
+  <div id="cover-story" data-ga-view="cover_story">
     <CoverStory />
   </div>
 
-  <div id="random-discovery">
+  <div id="random-discovery" data-ga-view="random_discovery">
     <RandomDiscovery />
   </div>
 
-  <ReadingPath
-    title={t('home.readingPath.title')}
-    subtitle={t('home.readingPath.subtitle')}
-    steps={readingPathSteps}
-    footerItems={readingPathFooterItems}
-    continueHref="#categories"
-    continueLabel={t('home.readingPath.continue')}
-  />
+  <div data-ga-view="reading_path">
+    <ReadingPath
+      title={t('home.readingPath.title')}
+      subtitle={t('home.readingPath.subtitle')}
+      steps={readingPathSteps}
+      footerItems={readingPathFooterItems}
+      continueHref="#categories"
+      continueLabel={t('home.readingPath.continue')}
+    />
+  </div>
 
-  <FeatureCards
-    lang={lang}
-    sectionTitle={t('home.features.title')}
-    cards={[
-      {
-        icon: '🎯',
-        title: t('home.features.curated.title'),
-        description: t('home.features.curated.desc'),
-      },
-      {
-        icon: '🤖',
-        title: t('home.features.ai.title'),
-        description: t('home.features.ai.desc'),
-      },
-      {
-        icon: '🌍',
-        title: t('home.features.bilingual.title'),
-        description: t('home.features.bilingual.desc'),
-      },
-      {
-        icon: '📚',
-        title: t('home.features.complete.title'),
-        description: t('home.features.complete.desc'),
-      },
-    ]}
-  >
-    <div
-      class="mt-8 flex flex-wrap justify-center gap-4 px-4 max-[480px]:flex-col max-[480px]:items-center"
+  <div data-ga-view="feature_cards">
+    <FeatureCards
+      lang={lang}
+      sectionTitle={t('home.features.title')}
+      cards={[
+        {
+          icon: '🎯',
+          title: t('home.features.curated.title'),
+          description: t('home.features.curated.desc'),
+        },
+        {
+          icon: '🤖',
+          title: t('home.features.ai.title'),
+          description: t('home.features.ai.desc'),
+        },
+        {
+          icon: '🌍',
+          title: t('home.features.bilingual.title'),
+          description: t('home.features.bilingual.desc'),
+        },
+        {
+          icon: '📚',
+          title: t('home.features.complete.title'),
+          description: t('home.features.complete.desc'),
+        },
+      ]}
     >
-      <a
-        href={`${langUrlPrefix}/graph`}
-        data-ga-section="feature_cta"
-        data-ga-label="graph"
-        class="inline-flex items-center gap-2 rounded-lg border-[1.5px] border-[rgba(45,80,22,0.2)] bg-[#f0fdf4] px-6 py-[0.7rem] text-[0.9rem] font-semibold text-[#2d5016] no-underline transition-all duration-[250ms] hover:-translate-y-px hover:border-[rgba(45,80,22,0.4)] hover:bg-[rgba(45,80,22,0.1)] hover:shadow-[0_2px_8px_rgba(45,80,22,0.15)]"
-        >{t('home.features.cta.graph')}</a
+      <div
+        class="mt-8 flex flex-wrap justify-center gap-4 px-4 max-[480px]:flex-col max-[480px]:items-center"
       >
-      <a
-        href="https://github.com/frank890417/taiwan-md/tree/main/knowledge"
-        target="_blank"
-        rel="noopener noreferrer"
-        data-ga-section="feature_cta"
-        data-ga-label="ssot"
-        class="inline-flex items-center gap-2 rounded-lg border-[1.5px] border-[#d1d5db] bg-[#f8fafc] px-6 py-[0.7rem] text-[0.9rem] font-semibold text-[#374151] no-underline transition-all duration-[250ms] hover:-translate-y-px hover:border-[#9ca3af] hover:bg-[#f1f5f9] hover:shadow-[0_2px_8px_rgba(0,0,0,0.06)]"
-        >{t('home.features.cta.ssot')}</a
-      >
-    </div>
-  </FeatureCards>
+        <a
+          href={`${langUrlPrefix}/graph`}
+          data-ga-section="feature_cta"
+          data-ga-label="graph"
+          class="inline-flex items-center gap-2 rounded-lg border-[1.5px] border-[rgba(45,80,22,0.2)] bg-[#f0fdf4] px-6 py-[0.7rem] text-[0.9rem] font-semibold text-[#2d5016] no-underline transition-all duration-[250ms] hover:-translate-y-px hover:border-[rgba(45,80,22,0.4)] hover:bg-[rgba(45,80,22,0.1)] hover:shadow-[0_2px_8px_rgba(45,80,22,0.15)]"
+          >{t('home.features.cta.graph')}</a
+        >
+        <a
+          href="https://github.com/frank890417/taiwan-md/tree/main/knowledge"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-ga-section="feature_cta"
+          data-ga-label="ssot"
+          class="inline-flex items-center gap-2 rounded-lg border-[1.5px] border-[#d1d5db] bg-[#f8fafc] px-6 py-[0.7rem] text-[0.9rem] font-semibold text-[#374151] no-underline transition-all duration-[250ms] hover:-translate-y-px hover:border-[#9ca3af] hover:bg-[#f1f5f9] hover:shadow-[0_2px_8px_rgba(0,0,0,0.06)]"
+          >{t('home.features.cta.ssot')}</a
+        >
+      </div>
+    </FeatureCards>
+  </div>
 
   <!--
     OrganismPreview replaces the old MiniGraph (d3 12-category force-directed
@@ -255,7 +259,7 @@ const readingPathFooterItems = [
     script + define:vars block at the bottom of this template are now dead code
     and should be removed in follow-up cleanup if no other section pulls them.
   -->
-  <OrganismPreview />
+  <div data-ga-view="organism_preview"><OrganismPreview /></div>
 
   <!-- ===== EXHIBITION HALLS =====
        Partial Tailwind migration (Phase 6): wrappers moved to inline
@@ -263,7 +267,7 @@ const readingPathFooterItems = [
        classes stay in scoped <style> because they repeat × 8 halls;
        inlining would turn the markup into noise. Same call as Header.
   -->
-  <section class="my-24">
+  <section class="my-24" data-ga-view="exhibition_halls">
     <div class="mb-8 text-center">
       <h2
         class="text-center font-['jf-lanyangming','Noto_Serif_TC','Source_Han_Serif_TC',serif] text-[2rem] font-light text-[#1f2937]"
@@ -800,14 +804,16 @@ const readingPathFooterItems = [
       </div>
     </div>
 
-    <CategoryGrid />
+    <div data-ga-view="category_grid"><CategoryGrid /></div>
   </section>
 
-  <LanguageStatement />
+  <div data-ga-view="language_statement"><LanguageStatement /></div>
 
-  <RecentUpdates commits={recentCommits} />
+  <div data-ga-view="recent_updates">
+    <RecentUpdates commits={recentCommits} />
+  </div>
 
-  <NewsletterSection />
+  <div data-ga-view="newsletter"><NewsletterSection /></div>
 
   {
     /* CommunityFeedback testimonials are zh-language user comments about
@@ -815,9 +821,15 @@ const readingPathFooterItems = [
       avoid wrong-language prose on /en /ja /ko /fr /es per i18n-smoke-test
       §B2 regression check. */
   }
-  {isZh && <CommunityFeedback feedbacks={feedbacks} />}
+  {
+    isZh && (
+      <div data-ga-view="community_feedback">
+        <CommunityFeedback feedbacks={feedbacks} />
+      </div>
+    )
+  }
 
-  <ContributeSection />
+  <div data-ga-view="contribute"><ContributeSection /></div>
 
   <HomeEventTracker />
 </Layout>

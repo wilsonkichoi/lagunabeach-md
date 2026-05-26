@@ -1,105 +1,222 @@
 ---
 /**
- * HomeEventTracker.astro — Homepage Evolution Wave 1 / Phase 2.5 (2026-05-26)
+ * HomeEventTracker.astro — Homepage Evolution Wave 1+2 (2026-05-26)
  *
- * Delegated GA4 click tracker for every interactive element on the homepage.
+ * Delegated GA4 tracker for the homepage. Five separate signals:
  *
- * Why this exists — 哲宇 directive 2026-05-26 23:00「首頁元素都要加入ga事件追蹤，
- * 徹底了解進入頁面的人的互動行為供未來參考」。
+ * 1. homepage_click          — link / button clicks on tracked elements
+ * 2. homepage_outbound_click — clicks that land on a non-taiwan.md origin
+ * 3. homepage_form_submit    — newsletter form submission
+ * 4. homepage_section_view   — first viewport entry of each section
+ * 5. homepage_scroll_depth   — 25 / 50 / 75 / 100% reading thresholds
+ * 6. homepage_time_milestone — 30s / 60s / 180s / 600s engaged time
  *
- * Each tracked element carries two attributes:
- *   data-ga-section="<section-id>"   — which homepage section the click came from
- *   data-ga-label="<within-section>" — what specifically was clicked
+ * Why each one — 哲宇 directive 2026-05-26 23:00「首頁元素都要加入ga事件追蹤，徹底
+ * 了解進入頁面的人的互動行為供未來參考」 + Wave 2 expansion 2026-05-27「繼續」:
  *
- * Click delegation fires:
- *   gtag('event', 'homepage_click', {
- *     section, label, link_url, page_lang
- *   });
+ *   click               → which CTAs work (verified by section + label taxonomy)
+ *   outbound_click      → who exits to GitHub / Threads / etc, separated
+ *   form_submit         → newsletter conversion
+ *   section_view        → which sections are actually seen vs scrolled past
+ *   scroll_depth        → how deep into the page a reader gets
+ *   time_milestone      → how long they stay engaged
  *
- * Section taxonomy (stable enum — do not rename without updating GA4 explorations):
+ * Markup contract:
+ *   data-ga-section="<id>"   — outer attribute on clickable items
+ *   data-ga-label="<id>"     — inner attribute on clickable items
+ *   data-ga-form="<id>"      — newsletter (or future) form binding
+ *   data-ga-view="<id>"      — section wrapper, fires once on first view
  *
- *   hero_cta          — Hero buttons (label: explore | github_star)
- *   reader_door       — 4 reader-intent doors (label: first | search | random | organism)
- *   organism_preview  — Taiwan.md organism card (label: open)
- *   cover_story       — historical timeline CTA (label: read_full)
- *   random_dice       — RandomDiscovery dice button (label: roll)
- *   reading_path      — A-grade 5-step path (label: step_<1-5> | continue)
- *   feature_cta       — feature-cards CTA strip (label: graph | ssot)
- *   hall_pill         — 12 topic pills in 4 exhibition halls (label: <category-slug>)
- *   hall_pick         — pick cards inside halls (label: <article-slug>)
- *   category_grid     — 12 category cards below halls (label: <category-slug>)
- *   recent_updates    — changelog CTA + commit links (label: view_all | commit_<sha>)
- *   newsletter        — newsletter form (label: subscribe)
- *   community_feedback — community feedback links (label: <id>)
- *   contribute        — contribute CTAs (label: guide | github)
+ * Section enum (stable — do not rename without updating GA4 explorations):
  *
- * Capture-phase listener ensures we record the click before the browser
- * follows the link. `gtag` calls are batched async by GA itself, so this
- * does not delay navigation.
+ *   click sections   — hero_cta / reader_door / organism_preview /
+ *                       cover_story / random_dice / reading_path /
+ *                       feature_cta / hall_pill / hall_pick /
+ *                       category_grid / recent_updates / newsletter /
+ *                       community_feedback / contribute
  *
- * Compatible with the global gtag bootstrap in src/layouts/Layout.astro
- * (id G-JGC5W00N7T). No-op when gtag is missing (e.g. ad blockers).
+ *   view sections    — hero / reader_doors / cover_story / random_discovery /
+ *                       reading_path / feature_cards / organism_preview /
+ *                       exhibition_halls / category_grid / language_statement /
+ *                       recent_updates / newsletter / community_feedback /
+ *                       contribute
+ *
+ * Capture-phase listener records clicks before navigation. All gtag calls
+ * are best-effort wrapped in try/catch so a GA failure never blocks
+ * user actions. Compatible with the global gtag bootstrap in
+ * src/layouts/Layout.astro (G-JGC5W00N7T). Silent no-op when gtag is
+ * missing (ad blocker, private browsing).
  */
 ---
 
 <script is:inline>
   (function () {
-    function _init() {
-      document.addEventListener(
-        'click',
-        function (e) {
-          var target =
-            e.target && e.target.closest
-              ? e.target.closest('[data-ga-section]')
-              : null;
-          if (!target) return;
-          if (typeof gtag !== 'function') return;
-          var section = target.getAttribute('data-ga-section');
-          var label = target.getAttribute('data-ga-label') || '';
-          var href = target.getAttribute('href') || '';
-          // Fallback: derive label from final href path segment when not set
-          // explicitly (e.g. dynamic topic pills + pick cards in 8 halls).
-          if (!label && href && href !== '#') {
-            try {
-              var path = href.split('?')[0].split('#')[0];
-              var parts = path.split('/').filter(Boolean);
-              if (parts.length)
-                label = decodeURIComponent(parts[parts.length - 1]);
-            } catch (_) {}
-          }
-          var lang = document.documentElement.lang || 'unknown';
-          try {
-            gtag('event', 'homepage_click', {
-              section: section,
-              label: label,
-              link_url: href,
-              page_lang: lang,
-            });
-          } catch (_) {
-            /* never block navigation on GA failure */
-          }
-        },
-        { capture: true },
-      );
+    // Same-origin host whitelist — anything outside is an outbound click.
+    var SAME_ORIGIN_HOSTS = ['taiwan.md', 'localhost', '127.0.0.1'];
 
-      // Newsletter form submit is a separate signal (not a link click)
-      document.addEventListener(
-        'submit',
-        function (e) {
-          var form = e.target;
-          if (!form || !form.matches) return;
-          if (!form.matches('[data-ga-form]')) return;
-          if (typeof gtag !== 'function') return;
-          try {
-            gtag('event', 'homepage_form_submit', {
-              section: form.getAttribute('data-ga-form'),
-              label: form.getAttribute('data-ga-label') || 'submit',
-              page_lang: document.documentElement.lang || 'unknown',
+    function _isOutbound(href) {
+      if (!href) return false;
+      if (href.charAt(0) === '#' || href.charAt(0) === '/') return false;
+      try {
+        var url = new URL(href, document.location.href);
+        if (url.origin === document.location.origin) return false;
+        var host = url.hostname.replace(/^www\./, '');
+        for (var i = 0; i < SAME_ORIGIN_HOSTS.length; i++) {
+          if (
+            host === SAME_ORIGIN_HOSTS[i] ||
+            host.endsWith('.' + SAME_ORIGIN_HOSTS[i])
+          ) {
+            return false;
+          }
+        }
+        return true;
+      } catch (_) {
+        return false;
+      }
+    }
+
+    function _fire(name, params) {
+      if (typeof gtag !== 'function') return;
+      try {
+        gtag('event', name, params);
+      } catch (_) {
+        /* never block navigation on GA failure */
+      }
+    }
+
+    function _lang() {
+      return document.documentElement.lang || 'unknown';
+    }
+
+    // ── (1) click + (2) outbound click ────────────────────────────────
+    function _onClick(e) {
+      var target =
+        e.target && e.target.closest
+          ? e.target.closest('[data-ga-section]')
+          : null;
+      if (!target) return;
+      var section = target.getAttribute('data-ga-section');
+      var label = target.getAttribute('data-ga-label') || '';
+      var href = target.getAttribute('href') || '';
+      if (!label && href && href !== '#') {
+        try {
+          var path = href.split('?')[0].split('#')[0];
+          var parts = path.split('/').filter(Boolean);
+          if (parts.length) label = decodeURIComponent(parts[parts.length - 1]);
+        } catch (_) {}
+      }
+      var outbound = _isOutbound(href);
+      _fire(outbound ? 'homepage_outbound_click' : 'homepage_click', {
+        section: section,
+        label: label,
+        link_url: href,
+        page_lang: _lang(),
+      });
+    }
+
+    // ── (3) form submit ───────────────────────────────────────────────
+    function _onSubmit(e) {
+      var form = e.target;
+      if (!form || !form.matches) return;
+      if (!form.matches('[data-ga-form]')) return;
+      _fire('homepage_form_submit', {
+        section: form.getAttribute('data-ga-form'),
+        label: form.getAttribute('data-ga-label') || 'submit',
+        page_lang: _lang(),
+      });
+    }
+
+    // ── (4) section visibility (IntersectionObserver) ────────────────
+    function _initSectionView() {
+      if (typeof IntersectionObserver !== 'function') return;
+      var seen = Object.create(null);
+      var io = new IntersectionObserver(
+        function (entries) {
+          for (var i = 0; i < entries.length; i++) {
+            var entry = entries[i];
+            if (!entry.isIntersecting) continue;
+            var view = entry.target.getAttribute('data-ga-view');
+            if (!view || seen[view]) continue;
+            seen[view] = true;
+            _fire('homepage_section_view', {
+              section: view,
+              page_lang: _lang(),
+              elapsed_ms: Math.round(performance.now()),
             });
-          } catch (_) {}
+            io.unobserve(entry.target);
+          }
         },
-        { capture: true },
+        { threshold: 0.4 }, // 40% of section visible counts as "seen"
       );
+      var nodes = document.querySelectorAll('[data-ga-view]');
+      for (var i = 0; i < nodes.length; i++) io.observe(nodes[i]);
+    }
+
+    // ── (5) scroll depth — 25 / 50 / 75 / 100% (once per session) ────
+    function _initScrollDepth() {
+      var thresholds = [25, 50, 75, 100];
+      var hit = {};
+      function _measure() {
+        var doc = document.documentElement;
+        var bodyHeight = doc.scrollHeight - doc.clientHeight;
+        if (bodyHeight <= 0) return;
+        var pct = Math.min(100, (window.scrollY / bodyHeight) * 100);
+        for (var i = 0; i < thresholds.length; i++) {
+          var t = thresholds[i];
+          if (pct >= t && !hit[t]) {
+            hit[t] = true;
+            _fire('homepage_scroll_depth', {
+              depth_pct: t,
+              page_lang: _lang(),
+              elapsed_ms: Math.round(performance.now()),
+            });
+          }
+        }
+      }
+      var raf;
+      window.addEventListener(
+        'scroll',
+        function () {
+          if (raf) return;
+          raf = requestAnimationFrame(function () {
+            raf = 0;
+            _measure();
+          });
+        },
+        { passive: true },
+      );
+      // measure once on init in case the page is already deep on load
+      _measure();
+    }
+
+    // ── (6) time milestones — 30 / 60 / 180 / 600s engaged ───────────
+    function _initTimeMilestones() {
+      var stops = [30, 60, 180, 600];
+      var t0 = performance.now();
+      var idx = 0;
+      function _tick() {
+        if (idx >= stops.length) return;
+        var elapsed = (performance.now() - t0) / 1000;
+        while (idx < stops.length && elapsed >= stops[idx]) {
+          _fire('homepage_time_milestone', {
+            seconds: stops[idx],
+            page_lang: _lang(),
+          });
+          idx++;
+        }
+        if (idx < stops.length) {
+          setTimeout(_tick, (stops[idx] - elapsed) * 1000 + 100);
+        }
+      }
+      setTimeout(_tick, stops[0] * 1000);
+    }
+
+    function _init() {
+      document.addEventListener('click', _onClick, { capture: true });
+      document.addEventListener('submit', _onSubmit, { capture: true });
+      _initSectionView();
+      _initScrollDepth();
+      _initTimeMilestones();
     }
 
     if (document.readyState === 'loading') {
