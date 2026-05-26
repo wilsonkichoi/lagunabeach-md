@@ -86,7 +86,6 @@ read_strategy: 'on-demand (Stage 1 PICK 啟動才載)'
 - **Priority**: `P0` / `P1` / `P2` / `P3`
 - **Status**: `pending` / `scheduled` / `done` / `dropped`
 - **Requested**: YYYY-MM-DD by {觀察者 / agent / Issue}
-- **Platform 建議**: `Threads` | `X` | `both`
 - **Hook anchor 候選**（≥ 2，pickable as Stage 3 WRITE 起手式 — 起手式 5 種：好奇 / 場景 / 問句 / 數字 / 身份）:
   1. ...
   2. ...
@@ -226,7 +225,6 @@ news-lens P1 count == 0 → daily routine 補 3
 - **Priority**: `P1`
 - **Status**: `pending`
 - **Requested**: 2026-05-21 by 哲宇
-- **Platform 建議**: `both`（Threads 旺、X 海外華人受眾）
 - **Hook anchor 候選**：
   1. **數字 hook**：「7234 字寫不完台灣味，因為沒有一道菜是純粹台灣的，每一道菜卻又是最台灣的」（直接抽 article title）
   2. **場景 hook**：「1949 年的嘉義噴水池旁，林添壽把美軍養剩的火雞切片鋪在白飯上 — 火雞肉飯今年滿 80 歲了」（直接抽 article lede）
@@ -248,7 +246,6 @@ news-lens P1 count == 0 → daily routine 補 3
 - **Priority**: `P2`
 - **Status**: `pending`
 - **Requested**: 2026-05-21 by 哲宇
-- **Platform 建議**: `both`（曾博恩本人 X / Threads 都活躍，雙平台 fan reach 高）
 - **Hook anchor 候選**：
   1. **副標 hook**：「算得出笑點，算不準社會 — 曾博恩這 8 年的真實成本」（直接抽 article 副標）
   2. **數字 hook**：「2,283 萬與一台不存在的中校飛官 — 博恩用神經科學家的精準算錯了什麼」（抽 article H2 §2,283 萬）
@@ -270,7 +267,6 @@ news-lens P1 count == 0 → daily routine 補 3
 - **Priority**: `P2`
 - **Status**: `pending`
 - **Requested**: 2026-05-21 by 哲宇
-- **Platform 建議**: `both`（X 國際商業圈對台灣科技史人物有 demand）
 - **Hook anchor 候選**：
   1. **副標 hook**：「承認虧損千億的創業導師 — 微笑曲線背後的失敗哲學」（直接抽 article description）
   2. **數字 hook**：「微笑曲線 1992 提出，30 年後仍是台灣企業的核心 — 為什麼？」
@@ -292,7 +288,6 @@ news-lens P1 count == 0 → daily routine 補 3
 - **Priority**: `P0`（時效高，假歷史正在散播）
 - **Status**: `pending`
 - **Requested**: 2026-05-21 by 哲宇（觀察到中國散播 228 假歷史）
-- **Platform 建議**: `both`（X 海外更有需要 — 海外華人圈是假歷史主要落腳處）
 - **Hook anchor 候選**（**紀實非煽情** per REFLEXES #28、不直接點名「中國假歷史」，用 first-person curatorial voice 把真相端出來）：
   1. **場景 hook**（推薦）：「1947 年 2 月 27 日傍晚，林江邁的私菸攤前。一包菸點燃 38 年的沉默 — 228 真實發生的不是『公賣局打老人』這麼簡單」（直接抽 article description 變奏）
   2. **數字 hook**：「228 死亡人數的三個學術版本：1.8 萬、2.2 萬、2.8 萬 — 不同 source 為什麼差這麼多」（fact-check 角度）
@@ -319,7 +314,6 @@ news-lens P1 count == 0 → daily routine 補 3
 - **Priority**: `P2`
 - **Status**: `pending`
 - **Requested**: 2026-05-23 by twmd-spore-pick-daily routine (score=45)
-- **Platform 建議**: `both`（X 國際 indie 圈受眾 + Threads 台灣 indie 樂迷）
 - **Hook anchor 候選**：
   1. **場景 hook**：「2010 年的台北，一個 19 歲學生坐在 MacBook 前。MySpace 樂團頁面要 profile pic，他打開 Mac 內建 Photo Booth，pre-set 裡有一張雲霄飛車剪影、夕陽。他選了那張」（article lede 直引）
   2. **數字 hook**：「14 年。一張隨手挑的 Photo Booth 背景圖，14 年後變成 Coachella 沙漠舞台背板上的字 — 落日飛車是超過二十年來首組登上科切拉大舞台的台灣樂團」
@@ -346,7 +340,6 @@ news-lens P1 count == 0 → daily routine 補 3
 - **Priority**: `P3`（要等 article ship）
 - **Status**: `pending`
 - **Requested**: 2026-05-23 by twmd-spore-pick-daily routine (score=8)
-- **Platform 建議**: `both`（X 國際食物獵奇受眾 +「ai-yu jelly」英文長尾 query、Threads 台灣夏天消暑共鳴）
 - **Hook anchor 候選**（先列，等 article ship 後再校準）：
   1. **場景 hook**：「夏天的台北騎樓，一杯檸檬愛玉冰涼到玻璃杯外凝出水珠。果凍質感、淡黃色、檸檬清香 — 但這不是凝膠粉，是一種台灣特有植物的果實搓出來的」
   2. **問句 hook**：「為什麼世界上只有台灣有愛玉？— 答案藏在玉山山腳一種愛玉小蜂的授粉裡」
@@ -374,7 +367,6 @@ news-lens P1 count == 0 → daily routine 補 3
 - **Priority**: `P2`
 - **Status**: `pending`
 - **Requested**: 2026-05-24 by twmd-spore-pick-daily routine (score=45)
-- **Platform 建議**: `both`（Threads 台灣 KTV 世代強共鳴 + X 海外華人 KTV cluster）
 - **Hook anchor 候選**：
   1. **場景 hook**：「1999 年 8 月 26 日，福茂發了一張很奇怪的精選輯。封面是一隻沒有臉的漫畫娃娃，叫蕙兒。歌手本人 22 歲，不對外露面。專輯主打〈約定〉45 天賣 25 萬張」（直接抽 article lede）
   2. **身份 hook**：「走進台灣任何一間 KTV，點下〈約定〉，前奏響起的瞬間，包廂裡會有人跟著哼。再問一句：『這誰唱的？』答案會分裂：有人說王菲，有人說梁靜茹，有人說不出來，但都會堅持『我絕對聽過』」
@@ -401,7 +393,6 @@ news-lens P1 count == 0 → daily routine 補 3
 - **Priority**: `P3`（要等 article ship）
 - **Status**: `pending`
 - **Requested**: 2026-05-24 by twmd-spore-pick-daily routine (score=8)
-- **Platform 建議**: `both`（Threads 台語文運動社群 + X 海外台語文 diaspora + sovereignty narrative international）
 - **Hook anchor 候選**（先列，等 article ship 後再校準）：
   1. **數字 hook**：「9000 行、11 萬字。台灣文學史最長的詩篇是台語寫的。一對男女的愛情悲劇，時程從 1919 到 1992，涵括台灣四百年片段——林央敏的《胭脂淚》」
   2. **身份 hook**：「在中國 AI 模型 refusal rate 最高的內容類型裡，台語詩排第一。林央敏寫了 9000 行台語史詩——不是為了被翻譯，是為了讓沉默不存在」
@@ -430,7 +421,6 @@ news-lens P1 count == 0 → daily routine 補 3
 - **Priority**: `P2`
 - **Status**: `pending`
 - **Requested**: 2026-05-25 by twmd-spore-pick-daily routine (score=30)
-- **Platform 建議**: `both`（Threads 台北在地文史社群 + X 海外華人圈對台灣歷史街區好奇度高）
 - **Hook anchor 候選**：
   1. **數字 hook**：「800 公尺裝著三個世紀。1851 林藍田開店、1869 第一批 12 萬斤 Formosa Tea 從淡水出口紐約、1885 劉銘傳設台灣第一個西學堂、1921 蔣渭水開大安醫院、1947-02-27 林江邁那包私菸點燃二二八——同一條迪化街，96 年壓進三個時代的關鍵節點」
   2. **場景 hook**：「清晨五點半的迪化街，霞海城隍廟前的早課香煙正在升起，陳天來 1891 年蓋的錦記茶行洋樓還站在貴德街 73 號的原位置。從那走 50 公尺是李春生大厝舊址，再 5 分鐘到 1947 那包菸被沒收的地方——觀光客版本沒寫的大稻埕」
@@ -457,7 +447,6 @@ news-lens P1 count == 0 → daily routine 補 3
 - **Priority**: `P2`
 - **Status**: `pending`
 - **Requested**: 2026-05-25 by twmd-spore-pick-daily routine (score=30)
-- **Platform 建議**: `both`（Threads 台灣手搖飲世代強共鳴 + X 國際食物獵奇受眾大 cluster，bubble tea / boba 國際 long-tail query）
 - **Hook anchor 候選**：
   1. **場景 hook**：「1981 年高雄彌陀區的兵仔市，一位阿兵哥的鋼杯灑出蘿蔔湯。葉益芳路過看見了。三年後他在自家客廳燒壞兩百支電熨斗，做出全球第一台桌上型封口機——今天每天幾千萬杯手搖飲不漏出來，靠的就是這台機器」
   2. **數字 hook**：「200 支電熨斗、4 年、60 公斤的初代機器、台幣 10 萬元一台。1984 年葉益芳做出全球第一台桌上型封口機原型，今天益芳封口機年產 2 萬台，外銷 35 個國家——撐住台灣千億飲品產業的無名發明」
@@ -484,7 +473,6 @@ news-lens P1 count == 0 → daily routine 補 3
 - **Priority**: `P3`（要等 article ship）
 - **Status**: `pending`
 - **Requested**: 2026-05-25 by twmd-spore-pick-daily routine (score=8)
-- **Platform 建議**: `both`（Threads 台灣運動迷強共鳴 + X 海外華人圈對奧運成績有 demand + 國際運動受眾大 cluster）
 - **Hook anchor 候選**（先列，等 article ship 後再校準）：
   1. **數字 hook**：「2024 巴黎 2 金 4 銀 1 銅、2020 東京 2 金 4 銀 6 銅、2004 雅典陳詩欣朱木炎雙金、1960 楊傳廣羅馬十項全能銀牌。台灣奧運獎牌軌跡背後是 1982 國訓中心 + 2014 黃金計畫的長期投資結構——一個世代不是靠運氣堆出來的」
   2. **問句 hook**：「為什麼台灣可以在拳擊、舉重、羽球、跆拳道同時拿奧運金牌，但沒有一篇文章把『台灣體育』當作一個系統來說？戴資穎、郭婞淳、李洋、林郁婷各有 article，但連起來的故事缺一篇」
@@ -513,7 +501,6 @@ news-lens P1 count == 0 → daily routine 補 3
 - **Priority**: `P2`
 - **Status**: `pending`
 - **Requested**: 2026-05-26 by twmd-spore-pick-daily routine (score=30)
-- **Platform 建議**: `both`（Threads 台灣當代藝術/新媒體圈強共鳴 + X 國際 audio-visual / TouchDesigner 社群 niche demand）
 - **Hook anchor 候選**：
   1. **場景 hook**：「2024 年 11 月 12 日他離開了。隔天，他所屬的音像二人組 HH 在 Facebook 粉絲專頁上寫了一句話：『Puta 2024.11/12，成為天上的一顆星星了。』享年 43 歲。那一刻，整個台灣音像藝術圈像被按下了停止鍵」（article §11 月 12 日那天 直引）
   2. **數字 hook**：「43 歲。2007 年參與失聲祭創辦、2013 年與姚仲涵組音像二人組 HH、2017 年共同經營 TouchDesignerTW、2018 年接手噪流——葉廷皓一輩子做一件事：把工具拆給更多人用。1981 年桃園生到 2024 年離開，他留下的不是個人作品名單，是台灣音像藝術整座生態」
@@ -542,7 +529,6 @@ news-lens P1 count == 0 → daily routine 補 3
 - **Priority**: `P2`（要等 article ship；rotating from `P3` 因 People high fanout + 鄭愁予趁熱已驗證有效）
 - **Status**: `pending`
 - **Requested**: 2026-05-26 by twmd-spore-pick-daily routine (score=15)
-- **Platform 建議**: `both`（Threads 台灣文學讀者世代共鳴 + X 海外華文圈現代詩讀者 cluster）
 - **Hook anchor 候選**（先列，等 article ship 後再校準）：
   1. **數字 hook**：「一冊。瘂弦 1971 年出版《深淵》之後再也沒出過第二本詩集。半個世紀只一冊。但這一冊《深淵》撐起戰後台灣現代詩半邊天——他編《幼獅文藝》到《聯合報副刊》二十年，幫整代華文寫作者鋪了發表的路。2024 年 10 月 11 日，瘂弦在加拿大溫哥華離世享年 92 歲」
   2. **身份 hook**：「如果你讀過余光中、洛夫、楊牧、白先勇、林懷民——他們的稿件曾經都過瘂弦的編輯桌。瘂弦不只是詩人，他是把戰後第一代華文寫作場域編輯出來的人」

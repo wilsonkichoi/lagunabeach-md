@@ -1807,7 +1807,7 @@ REWRITE 是 routine 飛輪 10 條核心 routine 之一（`twmd-rewrite-daily`）
   Stage 0 BECOME → Stage 1 git pull → Stage 2 article ship (REWRITE Stage 0-5 全跑) →
   Stage 3 commit + push article → Stage 4 SPORE chain（PICK=剛 ship article / VERIFY / WRITE / SHIP）→
   Stage 5 CI/CD wait gate v3.7（60 min cap，timeout → defer 不 abort）→
-  Stage 6 social post（Threads only default per Routine context，X 只在 article frontmatter 標 internationalReach 才 fan-out）→
+  Stage 6 social post（both Threads + X default per Routine context v3.8；單發只在 article frontmatter 標 `platformExclude` 才觸發）→
   Stage 7 SPORE-LOG + sporeLinks frontmatter + commit + push → Stage 8 /twmd-finale
   ```
 - **Quality gate (article)**：article-health.py rewrite-stage-4 hard=0 warn=0 + 三源研究落檔 + 腳註合規 + frontmatter complete + word-count ≥ 4500

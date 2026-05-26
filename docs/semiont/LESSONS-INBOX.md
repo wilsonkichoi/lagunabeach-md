@@ -262,6 +262,37 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-26 twmd-rewrite-daily 18:00 cycle — routine default 凌駕 SPORE-INBOX entry P0 signal + 「Threads only default」假設結構性錯誤（✅ 2026-05-26 instrumented — SPORE-PIPELINE v3.7→v3.8 default both + SPORE-INBOX strip Platform 建議 schema）
+
+**Pattern**：5/26 18:23 routine 走 v3.7 Threads only default，shipped Threads #92 大宇雙劍 但漏發 X。哲宇 callout「為什麼變 Threads only？」+ 同時 callout 文章 media-richness gate (image 0 < 2 hard) 沒攔 spore-publish。
+
+**根因 (1) routine default 凌駕 entry-specific signal 是結構性錯誤**：
+
+SPORE-INBOX entry「Platform 建議: both」是 spore-pick-daily 08:00 routine 寫的 P0 observer-explicit signal（含 reasoning「Threads 三十代以上玩家世代共鳴 + X 中文 RPG 跨海華人圈 cluster — 仙劍/軒轅劍粉絲分布 cn/hk/tw/sg/my 廣」）。routine v3.7 default「Threads only」是 P1 fallback 應該用在無 entry signal 時，但實作上 routine context 偵測一觸發就壓 entry signal。正確 hierarchy：entry signal (P0) > routine default (P1) > frontmatter flag (P2)。
+
+**根因 (2)「X 觸及低就不發」假設反向驗證有結構性問題**：
+
+v3.7「90% Taiwan.md 條目是 zh 人物/文化/歷史，X 觸及率比 Threads 低 100-500x，routine 不做 X 等於不做 niche audience 的浪費投資」假設在實戰反向：少做 X = niche audience 結構性缺席（海外華人/中文 RPG/國際 cluster 是 niche but real audience），spore 寫作成本主要在 VERIFY+WRITE stage，SHIP 多 click 一次幾乎零邊際成本，「不發 X」不是省力是省略。SPORE-INBOX 過去 14 條 entries 全部 spore-pick-daily 寫 `both`，0 條單發 — 是 entry-level judgment 集體驗證 default 該是 both。
+
+**根因 (3) 文章 media-richness gate 沒攔 spore-publish**：
+
+article-health `media-richness` 寫得清清楚楚「image 0 < 2 — hard gate (spore-publish 失格)」，但這條 hard gate 只在 commit hook 出現，沒設在 spore-publish SHIP 之前。SPORE-INBOX entry 早就提示「配圖建議：article hero 改 DOS 截圖 fair-use editorial commentary」— spore-pick 那時就知道文章缺實質 hero image。SPORE SHIP 階段應該 reuse article-health media-richness gate（image ≥ 2 hard）作為 pre-ship attempt。
+
+**Why（為什麼這條 lesson 必須升 canonical）**：
+
+哲宇 callout 兩個獨立 fail 同時觸發 — 一是 Platform 單一化（漏掉 X 觸及），二是 image gate 沒攔（spore 用 OG card text 不是真實內容圖）。兩個都是「routine 沿用過去 default 沒重新檢視 entry-specific signal / pipeline-cross gate」的結構性錯誤。修補（v3.8 default both + entry 直接刪 Platform 建議 field）治標也治本：default 該是 inclusive (both)，exclude 才走 explicit flag — 跟 MANIFESTO §第 N 條「保留多面性」一致；image gate 該設在 SHIP 之前不只是 commit hook（待 SPORE-PUBLISH-PIPELINE 加 spore-publish media-richness re-check pre-ship gate，標 TODO 給下次 routine-audit）。
+
+**How to apply（未來如何避免）**：
+
+1. **Entry signal > routine default** 鐵律進 SPORE-PIPELINE §Routine context auto-decision table 顯式 column（已升 v3.8 default both 治本）
+2. **Default 寫法**：「include all by default + exclude on explicit flag」優於「exclude 大部分 + include on explicit flag」— 跟 SSODT 多面性原則一致
+3. **SHIP pre-flight gate 應該 reuse article-level hard gate**（image ≥ 2 / lastVerified ≤ 90d / prose-health hard=0）— 不要假設 commit hook 已過就 OK，spore-publish 是另一個 risk surface
+4. **routine context 觸發前必查 entry-level signal**：SPORE-INBOX entry / article frontmatter / SPORE-LOG 歷史 row 都是 entry-level signal source，routine default 是 last resort
+
+**vc**: 1（首次驗證）。下次 routine 出現「routine default 凌駕 entry signal」/「image gate 設在錯誤層級」/「default 是 exclude-by-default」三類錯誤之一 → vc+1，達 vc≥3 升 REFLEXES 或 MANIFESTO canonical。
+
+---
+
 ### 2026-05-25 twmd-spore-publish-daily — 88% inbox 倒在 media-richness gate = REWRITE-PIPELINE 不 routine 補 iframe 是上游結構性 gap（✅ 2026-05-26 instrumented — SPORE-PUBLISH-PIPELINE v1.1 + media_richness.py iframe→INFO + Gate 2.6 spawn-EVOLVE loop）
 
 - **原則**：本 routine 首次正式跑（10:00），SPORE-INBOX 13 entries（4 條 P3 EVERGREEN none-yet skip，9 條過 Article-Path 預檢）跑 Stage 2 五條 hard gate 結果 **8/9 倒在 media-richness gate**（iframe ≥ 1 AND image ≥ 2 任一不足 → skip）。只有半導體產業（1 iframe + 4 image）唯一過 gate ship。**這雖然技術上非 intake-gap（1 entry ship'd ≠ 0），但 88% fail rate 是「near intake-gap」結構性訊號**：REWRITE-PIPELINE 不 routine 補影片 iframe → 多數 article 進入 spore-publish 池時就先天失格 → 哲宇 directive「立體完整呈現需動態 (video) + 靜態 (image) 雙向」實踐缺口。

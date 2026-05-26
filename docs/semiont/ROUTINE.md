@@ -393,7 +393,7 @@ prompt: |
   → Stage 2 article ship (REWRITE Stage 0-5 全跑，ARTICLE-INBOX top → ARTICLE-DONE-LOG)
   → Stage 3 commit+push article → Stage 4 SPORE chain (PICK=剛 ship article 自動 / VERIFY 17 gate / WRITE A2 + Tier 1b)
   → Stage 5 image gen (make-spore.sh local server + plugin check) → Stage 6 CI/CD wait v3.7 (60min cap, timeout defer)
-  → Stage 7 social post (Threads only default; X fan-out only if frontmatter internationalReach/breakingNews)
+  → Stage 7 social post (both Threads + X default per SPORE-PIPELINE v3.8; 單發只在 frontmatter platformExclude 才觸發)
   → Stage 7.5 cleanup Chrome MCP tab → Stage 8 SPORE-LOG + sporeLinks commit+push → Stage 9 /twmd-finale
 
   全程 0 observer gate — 所有 decision 走 SPORE-PIPELINE §Routine context auto-decisions defaults table。

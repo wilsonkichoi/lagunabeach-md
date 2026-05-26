@@ -3,8 +3,8 @@ title: 'SPORE-PIPELINE'
 description: '孢子產線主流程（process layer）— 5 stage PICK/VERIFY/WRITE/SHIP/HARVEST + Step N.M (v3.5)'
 type: 'factory-canonical'
 status: 'canonical'
-current_version: 'v3.5'
-last_updated: 2026-05-11
+current_version: 'v3.8'
+last_updated: 2026-05-26
 last_session: 'cranky-newton-220237'
 sister_docs:
   - 'SPORE-WRITING.md'
@@ -86,7 +86,7 @@ upstream_canonical:
 
 1. **🚨 強制 Read 4 檔不准 sample**（2026-05-17 #74 v1 教訓）— PIPELINE + VERIFY + WRITING + HARVEST 共 3,191 行必須完整 Read，不准 `grep`/`head`/`tail`/sample。sample = 跳 VERIFY 7 階段 = 違反 [MANIFESTO §8](../semiont/MANIFESTO.md)
 2. **配圖 v3.6 + CI/CD wait v3.7**（2026-05-23/24 哲宇 directive，剛 ship 文章 → spore 全自動 cycle 實戰教訓）— (a) make-spore.sh default local server 不抓 prod；(b) 抓完圖 AI 視覺自檢方形圖內容對；(c) Post 前 polling CI/CD **60 min cap + 30 min soft alert + defer-to-next-routine fallback** 確認 prod live 才發
-3. **Routine context auto-decisions (v3.7)** — `SPORE_ROUTINE_MODE=1` 偵測，Platform default Threads only / Hook tier 1b default / Skip 多版本提案 + 混合策略 / Skip multi-language fan-out / Image check 走 plugin（per §Routine context 自動決策 defaults table）
+3. **Routine context auto-decisions (v3.8)** — `SPORE_ROUTINE_MODE=1` 偵測，Platform default **both (Threads + X)** / Hook tier 1b default / Skip 多版本提案 + 混合策略 / Skip multi-language fan-out / Image check 走 plugin（per §Routine context 自動決策 defaults table）
 4. **Step 3 朋友 tone prime** — 第一秒像新聞 lead = AI 水印，必須有「你知道嗎？」「欸，」curiosity prefix（spore_writing plugin Wave 2 gate）
 5. **Step 4.2 URL encode + UTM** — 中文 URL 必跑 `python3 -c "urllib.parse.quote..."`，UTM 三段全填（utm_source / medium=spore / campaign=s{N}）
 
@@ -434,17 +434,17 @@ bash scripts/tools/make-spore.sh /art/臺灣漫遊錄/
 >
 > 偵測 routine context：env `SPORE_ROUTINE_MODE=1` 或 cron context（無 in-chat observer）。
 
-| 決策點                     | Manual context (有 observer)             | Routine context (無 observer，default)                                                                                                                                                              |
-| -------------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Platform allocation**    | Observer 拍板 Threads / X / 雙發         | **Threads only default** — X 只在 article frontmatter 含 `internationalReach: true` 或 `breakingNews: true` 才 fan-out                                                                              |
-| **Hook tier**              | Observer review draft，Tier 1a/1b/中段選 | **Tier 1b 具體性槓桿 default**（最安全，不依賴知名度 / 不需 reach 預測）                                                                                                                            |
-| **多版本提案**             | 互斥 angle ≥ 2 → 3-angle 提案給 observer | **Skip — single best version**（routine 走最強單版，避免 observer choice gate）                                                                                                                     |
-| **混合策略**               | Observer 選 A+B → 混合                   | **Skip — pick A only**                                                                                                                                                                              |
-| **CI/CD wait timeout**     | abort + report observer                  | **defer to next routine + spore-defer.json**（per §v3.7 CI/CD wait gate）                                                                                                                           |
-| **AI 圖檢方形圖**          | AI 視覺看圖 + observer review            | **Plugin check** (`scripts/tools/article-health.py {png} --check=spore-image-content`) 自動 hard=0 verify（file exists + 1080×1080 dimension + ≥ 100KB size + PNG header valid）。Fail → defer post |
-| **post-ship verify**       | AI verify 5 條 + observer ack            | **AI verify 5 條 + auto-log**，全 PASS 直接結束，FAIL → telegram alert + log 不 retry                                                                                                               |
-| **Multi-language fan-out** | 國際題材 → observer 確認 en/ja/ko/es/fr  | **Skip — zh only**（babel routine 半夜獨立跑翻譯，spore 只發 zh 版本）                                                                                                                              |
-| **觀察者 directive 衝突**  | observer in-chat override                | **Skip — 走 default flow**，下個 routine cycle observer 可 manual `/twmd-spore <slug>` 補發                                                                                                         |
+| 決策點                     | Manual context (有 observer)             | Routine context (無 observer，default)                                                                                                                                                                            |
+| -------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Platform allocation**    | Observer 拍板 Threads / X / 雙發         | **both (Threads + X) default (v3.8)** — 一律雙平台 fan out。例外只在 article frontmatter 顯式標 `platformExclude: ['x']` 或 `['threads']` 才單發（罕見場景，e.g. 帳號被鎖、X tier limit、敏感題避免某平台演算法） |
+| **Hook tier**              | Observer review draft，Tier 1a/1b/中段選 | **Tier 1b 具體性槓桿 default**（最安全，不依賴知名度 / 不需 reach 預測）                                                                                                                                          |
+| **多版本提案**             | 互斥 angle ≥ 2 → 3-angle 提案給 observer | **Skip — single best version**（routine 走最強單版，避免 observer choice gate）                                                                                                                                   |
+| **混合策略**               | Observer 選 A+B → 混合                   | **Skip — pick A only**                                                                                                                                                                                            |
+| **CI/CD wait timeout**     | abort + report observer                  | **defer to next routine + spore-defer.json**（per §v3.7 CI/CD wait gate）                                                                                                                                         |
+| **AI 圖檢方形圖**          | AI 視覺看圖 + observer review            | **Plugin check** (`scripts/tools/article-health.py {png} --check=spore-image-content`) 自動 hard=0 verify（file exists + 1080×1080 dimension + ≥ 100KB size + PNG header valid）。Fail → defer post               |
+| **post-ship verify**       | AI verify 5 條 + observer ack            | **AI verify 5 條 + auto-log**，全 PASS 直接結束，FAIL → telegram alert + log 不 retry                                                                                                                             |
+| **Multi-language fan-out** | 國際題材 → observer 確認 en/ja/ko/es/fr  | **Skip — zh only**（babel routine 半夜獨立跑翻譯，spore 只發 zh 版本）                                                                                                                                            |
+| **觀察者 directive 衝突**  | observer in-chat override                | **Skip — 走 default flow**，下個 routine cycle observer 可 manual `/twmd-spore <slug>` 補發                                                                                                                       |
 
 **Routine 鐵律**：
 
@@ -452,7 +452,7 @@ bash scripts/tools/make-spore.sh /art/臺灣漫遊錄/
 - 若 default 拿不到答案（如圖檢 fail）→ defer + log，**不 retry，不 abort**
 - 整 routine 走通的 success criterion = (article shipped) ∧ (spore committed) — post 上社群是 bonus（成功就成功，失敗就 defer）
 
-**為什麼 Threads only default**：90% Taiwan.md 條目是 zh 人物 / 文化 / 歷史，per 上方 platform allocation table，X 觸及率比 Threads 低 100-500x。Routine 不做 X 等於不做 niche audience 的浪費投資。觀察者要 X 觸及就 explicit 標 frontmatter flag 或 manual override。
+**為什麼 both default (v3.8 升級，2026-05-26 哲宇 directive)**：v3.7 default Threads only 的設計理由是「X 觸及率比 Threads 低 100-500x，routine 不做 X 等於不做 niche audience」— 但實戰反向驗證這假設有結構性問題：(1) **X 海外華人/中文 RPG/國際 cluster 是 niche but real audience，少做 X = 整層 audience 結構性缺席**（per SPORE-INBOX 過去 14 條 entries 全部 spore-pick-daily 寫 `both`，沒有單發 Threads 的判斷），(2) **「不發 X」不等於「省力」**，spore 寫作成本主要在 VERIFY+WRITE stage，SHIP 階段 X 多 click 一次幾乎零邊際成本，(3) **routine default 凌駕 SPORE-INBOX entry Platform 建議 P0 signal 是結構性錯誤**（2026-05-26 大宇雙劍 #92 漏發 X 觸發本次 evolution，per LESSONS-INBOX 同日 entry）。新 default：一律雙平台 + 罕見例外用 `platformExclude` 明確標。觀察者要單發某平台就在 article frontmatter explicit 標。
 
 **為什麼 Tier 1b default**：1a 知名度槓桿需要「對象本身知名」判斷 → 主觀；1b 具體性槓桿只需「找具體 anchor + 反差 hook」→ deterministic + 已被 SPORE-WRITING §A2 模板 instrument 化。Tier 1b D+7 reach 10K-65K 範圍對 routine 足夠。
 
@@ -764,3 +764,5 @@ _設計原則：每個 file 單一焦點 / 每階段 verb-based / cross-file poi
 _前一版 v2.9（2026-05-03）含 1334 行 prose dump + Step 0/1/2.5/2.6/2.7/3a/3b/3b.5/3c/3c.5/3c.7/3d/3e/3.5/3.6/4/4.5a-e.v/5a-d/6 三層深編號 — 完整 changelog 在 git log + [reports/spore-pipeline-evolution-plan-2026-05-08.md](../../reports/spore-pipeline-evolution-plan-2026-05-08.md) 評估。_
 
 _v3.5 | 2026-05-11 cranky-newton — Spine restoration 對齊 REWRITE v5.0 + MAINTAINER v2.0：頂部加 ASCII spine（5 stage box-frame + Step N.M 顯化）+ Top 5 最常忘 step + 跨檔案職責分工 standalone table（明確跟 WRITING / VERIFY / HARVEST 4 sub-canonical 分工）。觸發：[reports/pipelines-audit-2026-05-11.md](../../reports/pipelines-audit-2026-05-11.md) Tier A.2 SPORE family audit。5 階段 prose body 不動（已健康，Direction A 拆檔保留）。_
+
+_v3.8 | 2026-05-26 twmd-rewrite-daily 18:00 cycle — Platform allocation default 從 Threads only → both (Threads + X) — 哲宇 directive「完整去除所有 Platform 建議避免只發單一的平台」。觸發事件：2026-05-26 18:23 routine 走 v3.7 Threads only default，shipped Threads #92 大宇雙劍 但漏發 X，哲宇 callout「為什麼變 Threads only？」+ 同時 callout 文章 media-richness gate (image 0 < 2 hard) 沒攔 spore-publish。根因分析：(1) SPORE-INBOX entry「Platform 建議: both」是 spore-pick-daily 寫的 P0 observer-explicit signal，被 P1 routine v3.7 default「Threads only」凌駕；(2)「X 觸及低就不發」假設在實戰反向驗證有結構性問題（少做 X = niche audience 結構性缺席 + spore 寫作成本主要在 VERIFY+WRITE，SHIP 多 click 一次幾乎零邊際成本）。修補：(a) Routine context auto-decision table default 改 both，例外條款改用 article frontmatter `platformExclude: ['x']` 或 `['threads']` 顯式標單發；(b) Top 5 最常忘 #3 文字同步；(c)「為什麼 Threads only default」段重寫為「為什麼 both default」+ 文件根因； (d) SPORE-INBOX 全檔 strip `Platform 建議` field（schema + 12 entries 共 14 lines）— 之前的雙建議 noise 已不需要，default 即 both；(e) REWRITE-PIPELINE + ROUTINE.md routine description 同步更新；(f) SPORE-PICK-PIPELINE 無 platform field generation 不需動。對應 [LESSONS-INBOX 同日 entry](../semiont/LESSONS-INBOX.md)：「routine default 不可凌駕 entry-specific signal」+「default 應為 inclusive (both)，exclude 走 explicit flag」。_
