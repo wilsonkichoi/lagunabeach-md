@@ -506,6 +506,93 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ---
 
+### 大宇雙劍 — 趁熱 spore（5/25 ship Technology 雙劍 IP 賣斷 + DOS 世代記憶）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Technology/大宇雙劍.md](../../knowledge/Technology/大宇雙劍.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-05-26 by twmd-spore-pick-daily routine (score=30)
+- **Platform 建議**: `both`（Threads 台灣三十代以上玩家世代共鳴 + X 中文 RPG 跨海華人圈 cluster — 仙劍/軒轅劍粉絲分布 cn/hk/tw/sg/my 廣）
+- **Hook anchor 候選**：
+  1. **場景 hook**：「2024 年 9 月 11 日，大宇資訊發公告：軒轅劍 IP 1045 萬美元賣給歡動香港、仙劍除中國外 IP 1830 萬人民幣加 3800 萬股賣給中手游。兩把劍，一共五億。蔡明宏——軒轅劍之父，三十多年的大宇前總經理——在公告前不久辭職離開」（article §2024 年 9 月：五億的告別 直引）
+  2. **數字 hook**：「1995 年 7 月，一款 320×200 解析度的 DOS 遊戲讓幾百萬玩家第一次因為虛擬角色掉眼淚。仙劍奇俠傳首日賣出一萬套。三十年後，仙劍系列累計銷量超過百萬套，胡歌 2005 年電視劇平均收視 11.3%。但 2024 年 9 月雙劍以五億台幣賣斷——磨一把劍要五到八年，這條路 2025 走不下去」
+  3. **身份 hook**：「在仙劍之前，華語世界的遊戲玩家只有兩個選擇：玩日本遊戲（翻譯版或生啃日文），或者玩歐美遊戲。『用中文講一個能讓你哭的故事』這件事，聽起來簡單，但 1995 年之前沒有人做到過。仙劍做到了。軒轅劍把歷史從考試材料變成了冒險現場」（article §留下了什麼 直引）
+  4. **問句 hook**：「為什麼後來赤燭做《返校》、雷亞做《DEEMO》都帶著同一條血脈？答案在 1990 年光華商場那群蹲著抄技術手冊的大學生身上」
+- **時效**：article ship 距今 1 天（5/25 NEW after 5/25 maintainer-pm heal 軒轅劍參方向 Frankish→Tang），趁熱窗口最佳
+- **敏感度**：低（遊戲史 / 商業 IP 轉讓）
+- **必驗事實**：1990 年軒轅劍由大宇出品 / 1995 年 7 月仙劍奇俠傳發行首日 1 萬套 / 蔡明宏軒轅劍之父在 IP 出售前不久辭職 / 姚壯憲仙劍主導 / 2005 年唐人影視仙劍電視劇李國立執導胡歌李逍遙劉亦菲趙靈兒收視 11.3% / 2012 年軒轅劍之天之痕胡歌劉詩詩 / 2024 年 9 月 11 日 IP 公告（軒轅劍 1045 萬美元給歡動香港 + 仙劍除中國外 1830 萬人民幣+3800 萬股給中手游集團）/ 2024 年董事長涂俊光 Facebook 千字文轉發 1400+ 次 / 仙劍奇俠傳七虛幻引擎 50 萬套打平 / 1999 年雲和山的彼端配樂得電腦玩家雜誌遊戲金像獎最佳音樂
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
+- **預估發佈時機**：本週內（5/26-6/1 趁熱窗口；5/26 工作日 evening cluster 最佳）
+- **Notes**:
+  - score=30 (D1=+30 ≤7d / D2=0 SC 未累積 / D3=0 / D4=0 Technology 不在 high_fanout / D5=0 / D6=0 hook 跟最近 5 spore 場景/數字/身份多元 / D7=0)
+  - reason: 5/25 ship + heal yesterday + DOS 世代記憶集體共鳴（PTT 與巴哈姆特 IP 賣斷時爆炸討論可作為 quote 支撐）
+  - 多語 fan-out 觸發判斷 = 中（articles tx=5 全部已翻譯；但仙劍/軒轅劍中文世界內 fanout 最強，en/ja/ko 受眾較小但 RPG history 圈仍有 niche demand）
+  - 配圖建議：article hero（rayark/大宇 logo 改 大宇 1990s DOS 遊戲截圖 fair-use editorial commentary 或 IP 公告截圖）
+  - Hook tier 自檢：避免 Tier 3「時代的眼淚」frame 一鍵塞爆；用 article §五億的告別 同款「磨一把不知道可不可以用的劍」總經理引語克制度
+  - 跟 SPORE-LOG 14d 無重複（最近 Technology spore 是 5/25 #89/#90 雷亞遊戲，hook type 場景；本 candidate 走數字/身份分離；雷亞跟大宇雙劍正好構成「赤燭做返校、雷亞做 DEEMO」的後續血脈 — article §留下了什麼 已 cross-link 雷亞）
+
+---
+
+### 葉廷皓 — 趁熱 spore（5/22 ship Art 音像藝術家整座生態）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Art/葉廷皓.md](../../knowledge/Art/葉廷皓.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-05-26 by twmd-spore-pick-daily routine (score=30)
+- **Platform 建議**: `both`（Threads 台灣當代藝術/新媒體圈強共鳴 + X 國際 audio-visual / TouchDesigner 社群 niche demand）
+- **Hook anchor 候選**：
+  1. **場景 hook**：「2024 年 11 月 12 日他離開了。隔天，他所屬的音像二人組 HH 在 Facebook 粉絲專頁上寫了一句話：『Puta 2024.11/12，成為天上的一顆星星了。』享年 43 歲。那一刻，整個台灣音像藝術圈像被按下了停止鍵」（article §11 月 12 日那天 直引）
+  2. **數字 hook**：「43 歲。2007 年參與失聲祭創辦、2013 年與姚仲涵組音像二人組 HH、2017 年共同經營 TouchDesignerTW、2018 年接手噪流——葉廷皓一輩子做一件事：把工具拆給更多人用。1981 年桃園生到 2024 年離開，他留下的不是個人作品名單，是台灣音像藝術整座生態」
+  3. **身份 hook**：「失聲祭的觀眾認得他。北藝大新媒系修過他課的學生認得他。TouchDesignerTW 社群裡問過他問題的編程新手認得他。HH 在派對裡放過 Techno 的人認得他。但對島上絕大多數人來說，『葉廷皓』三個字並不是一個會被記住的名字——直到 2024 年 11 月 12 日」（article §名字只有圈內人認得 直引）
+  4. **問句 hook**：「一個說『對於透過非正確使用科技的方式製造意外效果更感興趣』的藝術家，為什麼把絕大部分時間花在『正確地教別人怎麼用工具』這件事上？」（article §30 秒概覽 直引核心矛盾）
+- **時效**：article ship 距今 4 天（5/22 Wave 3 NEW），趁熱窗口剩 ~10 天
+- **敏感度**：低（當代藝術人物追悼）
+- **必驗事實**：葉廷皓 1981 年生 / 2024-11-12 離世享年 43 / 朋友稱 PUTA / 輔大應美電腦動畫 / 北藝大科技藝術所 / 2007 失聲祭創辦人含姚仲涵+王仲堃+牛俊強 / 2013 HH 音像二人組與姚仲涵 / 2017《remotion》日光燈 Techno 專輯 / 2017 TouchDesignerTW 與陳品辰共同辦中文社群 / 2018 接手姚仲涵噪流（Fluid Noise）/ 實踐大學媒體傳達設計學系任教 / 失聲祭從北藝大宿舍走廊走到南海藝廊
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在，per ARTICLE-DONE-LOG 2026-05-22 Wave 3 batch ship 5290+7908+6796+6384 字 4 篇之一）
+- **預估發佈時機**：本週內（5/27-5/30 — 5/26 為 大宇雙劍 ship 後第二日，避免 Technology→Art 切換過快；中間留 1-2 天間隔）
+- **Notes**:
+  - score=30 (D1=+30 ≤7d / D2=0 SC 未累積 / D3=0 / D4=0 Art 不在 high_fanout / D5=0 / D6=0 / D7=0)
+  - reason: 5/22 ship Wave 3 之一，11/12 一週年將至（2025-11-12 第一週年）但目前距 6 個月——本次推廣 frame 為「整座生態的留下」非「追思」
+  - 多語 fan-out 觸發判斷 = 中（TouchDesigner / HH / 噪流 為國際 audio-visual niche 圈，en 受眾相對於 Art category 偏小但 dedicated；ja 對失聲祭/姚仲涵跨海合作有零星 demand）
+  - 配圖建議：article hero（臺中國家歌劇院 yeh-ting-hao-reverberation-hero-2024.jpg fair-use editorial commentary，已 article 內嵌）
+  - Hook tier 自檢：避免 Tier 3「英年早逝」frame 過度傷感；用 article §把絕大部分時間花在正確地教別人 同款核心矛盾收口
+  - 跟 SPORE-LOG 14d 無重複（最近 Art spore 是 5/24 江賢二，hook type 場景；本 candidate 改身份/問句不撞）
+  - 雙劍與葉廷皓的搭配：雙劍是「世代記憶被賣斷」/ 葉廷皓是「生態被留下」— 對位但不對偶
+
+---
+
+### 瘂弦 — EVERGREEN-TOPIC spore（2024-10 辭世 / 戰後第一代詩人 / 一冊不再傳奇）
+
+- **Source-Mode**: `EVERGREEN-TOPIC`
+- **Article-Path**: `none-yet`（屬於 [ARTICLE-INBOX §瘂弦 NEW](../semiont/ARTICLE-INBOX.md) P0，2026-05-23 詩人系列 BRANCH-PIPELINE spawn，鄭愁予 5/24 已 ship + spore 化、瘂弦 next）
+- **Priority**: `P2`（要等 article ship；rotating from `P3` 因 People high fanout + 鄭愁予趁熱已驗證有效）
+- **Status**: `pending`
+- **Requested**: 2026-05-26 by twmd-spore-pick-daily routine (score=15)
+- **Platform 建議**: `both`（Threads 台灣文學讀者世代共鳴 + X 海外華文圈現代詩讀者 cluster）
+- **Hook anchor 候選**（先列，等 article ship 後再校準）：
+  1. **數字 hook**：「一冊。瘂弦 1971 年出版《深淵》之後再也沒出過第二本詩集。半個世紀只一冊。但這一冊《深淵》撐起戰後台灣現代詩半邊天——他編《幼獅文藝》到《聯合報副刊》二十年，幫整代華文寫作者鋪了發表的路。2024 年 10 月 11 日，瘂弦在加拿大溫哥華離世享年 92 歲」
+  2. **身份 hook**：「如果你讀過余光中、洛夫、楊牧、白先勇、林懷民——他們的稿件曾經都過瘂弦的編輯桌。瘂弦不只是詩人，他是把戰後第一代華文寫作場域編輯出來的人」
+  3. **場景 hook**：「1932 年河南南陽出生，1949 年隨軍渡海來台。1953 年他二十歲在左營軍中開始寫詩，跟洛夫、張默一起辦《創世紀》詩刊——三個年輕軍人在海軍宿舍裡，後來變成台灣現代詩史最重要的詩社」（待 article ship 後校準）
+  4. **問句 hook**：「為什麼戰後台灣最重要的詩人之一，只出過一本詩集就停筆，把後半生交給編輯台？」
+- **時效**：等 article ship（est. ARTICLE-INBOX P0 詩人系列第 2 篇 — 鄭愁予 5/24 已 ship，瘂弦 next）；article ship 後 7 天內趁熱
+- **敏感度**：低-中（戰後外省第一代詩人 + 1949 渡海來台軍中文化背景；以「編輯志業 + 詩冊孤本」literary frame 起手，國共/外省 framing 由文本承擔）
+- **必驗事實**（article ship 時校準，per ARTICLE-INBOX §瘂弦 NEW 必驗清單）：本名王慶麟 / 1932-1947 年河南南陽生 / 1949 隨軍渡海來台 / 1953-1954 年左營軍中開始寫詩 / 創世紀詩刊創辦年份與另兩位創辦人（洛夫、張默）/ 1971《深淵》詩集出版社與年份 / 1977-1998 聯合報副刊主編年代 / 《幼獅文藝》主編時期 / 2024-10-11 加拿大溫哥華離世享年 92 / 一生詩集數量（一冊孤本是常見描述，需 verify）
+- **必先 spawn ARTICLE-INBOX entry**：✅ **已存在**（per [ARTICLE-INBOX §瘂弦 NEW](../semiont/ARTICLE-INBOX.md) P0，詩人系列 BRANCH-PIPELINE 5/23 spawn）
+- **預估發佈時機**：article ship 後 7 天內趁熱（鄭愁予 5/24 ship + spore 已驗證 People×詩人 fanout 模式可行）
+- **Notes**:
+  - score=15 (D1=0 article 不存在 / D2=0 SC 未累積 / D3=0 / D4=+15 People high_fanout + 預期 tx=0 全缺 / D5=0 / D6=0 / D7=0 政治色彩中-低但 hardcoded keyword set 未命中)
+  - HG7 確保 Source-Mode variety — 本 entry 是 EVERGREEN-TOPIC，搭配 #1 大宇雙劍 + #2 葉廷皓 兩條 EXISTING-ARTICLE 形成 2 mode mix ✓
+  - 多語 fan-out 觸發判斷 = 高（戰後第一代華文詩人在 ja 對日治後台灣文學斷代有 demand / en 海外華文研究 niche / ko 較小）
+  - 國際 SEO 切入：「Ya Hsien」「Ya Xian poet Taiwan」「Lianhe Bao Supplement editor」
+  - 配圖建議：article ship 時挑《深淵》詩集封面 fair-use editorial commentary / 創世紀詩社合照 Wikimedia CC 可找
+  - Hook tier 自檢：避免 Tier 3「詩壇巨擘殞落」frame 一鍵悼念化；用 article §一冊孤本 同款「半個世紀只一冊」克制度 + 編輯志業逆向收口
+  - 跟 SPORE-LOG 14d 無重複（最近詩人 spore 是 鄭愁予，hook type 數字；本 candidate 改身份/問句 + 「編輯台」差異化）
+  - article ship 後 routine 自動升級此 entry 為 EXISTING-ARTICLE + 補 Article-Path（per SPORE-INBOX §Routine intake 自動升級規則）
+
+---
+
 ## 📜 已發歷史
 
 → 完整紀錄見 [SPORE-LOG.md §發文紀錄](SPORE-LOG.md) + [SPORE-HARVESTS/](SPORE-HARVESTS/) batch logs。本檔不存 done 痕跡（per 完成歸檔鐵律）。
