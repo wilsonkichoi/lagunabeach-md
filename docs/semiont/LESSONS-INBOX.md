@@ -265,16 +265,16 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 ### 2026-05-25 twmd-spore-publish-daily — 88% inbox 倒在 media-richness gate = REWRITE-PIPELINE 不 routine 補 iframe 是上游結構性 gap（近 intake gap）
 
 - **原則**：本 routine 首次正式跑（10:00），SPORE-INBOX 13 entries（4 條 P3 EVERGREEN none-yet skip，9 條過 Article-Path 預檢）跑 Stage 2 五條 hard gate 結果 **8/9 倒在 media-richness gate**（iframe ≥ 1 AND image ≥ 2 任一不足 → skip）。只有半導體產業（1 iframe + 4 image）唯一過 gate ship。**這雖然技術上非 intake-gap（1 entry ship'd ≠ 0），但 88% fail rate 是「near intake-gap」結構性訊號**：REWRITE-PIPELINE 不 routine 補影片 iframe → 多數 article 進入 spore-publish 池時就先天失格 → 哲宇 directive「立體完整呈現需動態 (video) + 靜態 (image) 雙向」實踐缺口。
-- **觸發**：本 routine v1.0 首次正式跑 2026-05-25 10:00 fire。skip 詳情：二二八(0i 0im) / 美食總覽(0i 11im) / 曾博恩(0i 0im) / 施振榮(0i 0im wc<4500) / 落日飛車(0i 3im) / 周蕙(0i 3im) / 大稻埕(0i 5im) / 飲料封膜機(0i 0im wc<4500)。8/9 = 88.9% fail。
+- **觸發**：本 routine v1.0 首次正式跑 2026-05-25 10:00 fire。skip 詳情：二二八(0i 0im) / 美食總覽(0i 11im) / 曾博恩(0i 0im) / 施振榮(0i 0im wc<4500) / 落日飛車(0i 3im) / 周蕙(0i 3im) / 大稻埕(0i 5im) / 飲料封膜機(0i 0im wc<4500)。8/9 = 88.9% fail。**2026-05-26 10:00 fire 第二次驗證 — 升 TRUE intake gap (0 ship)**：13 entries（4 條 P3/P2 EVERGREEN none-yet skip，9 條過 path 預檢）跑 Stage 2 全倒 → **9/9 = 100% fail 媒體 gate**。昨日唯一過 gate 的 半導體產業已 ship 進 SPORE-LOG #87/#88（pending 移除），剩 9 條 inbox 全 iframe=0。連兩日同 root cause（REWRITE-PIPELINE 不 routine 補 iframe），vc=1→2。
 - **可能層級**：
   - 操作規則（中期）→ REWRITE-PIPELINE Stage 4 §媒體編織 加「iframe ≥ 1 強制」hard gate（目前是 baseline 建議非 gate）；或下放給 EVOLVE-PIPELINE batch 補影片 iframe round
   - 工具（短期）→ `scripts/tools/article-health.py --check=media-richness` 已存在但只是 warn；升 hard gate 配合 REWRITE-PIPELINE §媒體編織 instrument
   - 跨 pipeline → spore-publish gate threshold 跟 article-production gate 不對齊：REWRITE-PIPELINE 過得了的 article 半數倒在 spore-publish。兩條 gate 需要 align（要嘛 spore-publish 鬆 image-only fallback，要嘛 REWRITE 升 iframe hard）
   - DNA gene map 候選 → 多 plugin gate 之間 threshold drift 偵測（spore-publish v1.0 跟 REWRITE-PIPELINE v5.x 同期 ship 但兩邊 media threshold 不對齊）
 - **儀器化候選**：(A) REWRITE-PIPELINE §媒體編織 升 iframe ≥ 1 hard gate (B) batch backfill iframe for top SPORE-INBOX P0/P1/P2 candidates (manual one-off + EVOLVE-PIPELINE Mode video-augment) (C) spore-publish-pipeline alt mode「iframe-relaxed」配 image ≥ 5 替代條件，給 photo-rich 但 video-poor article 出路
-- **verification_count**: 1（首發 — 下次 routine 5/26 10:00 fire 若再 ≥ 80% fail vc=2，連三天 vc=3 distill-ready）
+- **verification_count**: 2（5/25 首發 88% near-intake-gap → 5/26 升 100% TRUE intake gap，連兩日同 pattern；next routine 5/27 若 ≥ 80% fail = vc=3 distill-ready）
 - **severity**: structural（涉及多 pipeline gate threshold alignment + 上游 production 結構性 gap）
-- **跨檔關聯**：[SPORE-PUBLISH-PIPELINE.md §Stage 2.4](../factory/SPORE-PUBLISH-PIPELINE.md) + [REWRITE-PIPELINE §媒體編織](../pipelines/REWRITE-PIPELINE.md) + [EDITORIAL.md §媒體編織](../editorial/EDITORIAL.md) + [memory/2026-05-25-100446-twmd-spore-publish-daily.md](memory/2026-05-25-100446-twmd-spore-publish-daily.md)
+- **跨檔關聯**：[SPORE-PUBLISH-PIPELINE.md §Stage 2.4](../factory/SPORE-PUBLISH-PIPELINE.md) + [REWRITE-PIPELINE §媒體編織](../pipelines/REWRITE-PIPELINE.md) + [EDITORIAL.md §媒體編織](../editorial/EDITORIAL.md) + [memory/2026-05-25-100446-twmd-spore-publish-daily.md](memory/2026-05-25-100446-twmd-spore-publish-daily.md) + [memory/2026-05-26-101055-twmd-spore-publish-daily.md](memory/2026-05-26-101055-twmd-spore-publish-daily.md)
 
 ---
 
