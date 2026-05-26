@@ -160,6 +160,40 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 <!-- 三毛 已完成 2026-05-17 2026-05-17-184444-manual → ARTICLE-DONE-LOG.md -->
 
+### 🚀 國家太空中心 TASA NEW — 從新竹科學園區工程院內到福衛獵風者
+
+- **Type**: `NEW`
+- **Category**: Technology（subcategory: 太空科技 / 國家科研機構）
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Source**: 哲宇 directive 2026-05-26（P0 優先）
+- **Hook 候選**：
+  - (A) 從 1991 國科會太空計劃室 → 2023/1/1 改制行政法人「國家太空中心 TASA」3 線並進的 32 年弧線
+  - (B) 福衛 5 號自主開發 → 福衛 7 號 + 美 NOAA 合作 → 獵風者衛星首顆 GNSS-R 全自主 → 福衛 8 號 8 顆星座 — 一個小國怎麼從買衛星變成做衛星
+  - (C) 2024 新竹寶山 TASA 總部落成 + 屏東九鵬發射場規劃 — 從工研院內辦公室升級到「有自己的地」的國家機構轉折
+  - (D) 入軌火箭計畫 2031 + Starlink 替代方案 (Eutelsat OneWeb / 中華電信合作) — 台灣低軌衛星主權 vs 國際依賴張力
+- **Notes**:
+  - 既有 baseline audit（Stage 0 必跑）：`ls knowledge/Technology/ | grep -iE "太空|衛星|福衛|TASA|NSPO"` 確認重疊度
+  - **政治敏感**：太空 = 軍民兩用敏感領域 / 中國反衛星試驗（2007 ASAT）+ 兩岸軍事考量 / 美方 ITAR 出口管制 + 國防部火箭計畫 framing 要小心
+  - 必驗事實（高優先）：
+    - (a) 1991 太空計劃室成立日期 (NSC vs 國科會 framing 變化)
+    - (b) 2005 NSPO → 2023/1/1 TASA 行政法人改制法源 (《國家太空中心設置條例》)
+    - (c) 福衛系列發射時間 + 軌道 + 載荷 (1999 福衛 1 / 2004 福衛 2 / 2006 福衛 3 / 2017 福衛 5 / 2019 福衛 7 / 2023 獵風者 / 2026+ 福衛 8)
+    - (d) 各任主任 / 主任委員 / 首任行政法人董事長吳宗信 (TASA-1) — 名字 + 任期 + 公開引語
+    - (e) TASA 自主率數字 (買衛星 vs 做衛星 比例) — 各代福衛差距
+    - (f) 入軌火箭計畫具體時間表 (HTTP-3a 探空火箭 2024/9 屏東 + 2031 入軌目標) + ARRC 陽明交大 launchpad
+    - (g) Starlink 替代方案具體規模 (中華電信 OneWeb / 行政院數位部 NCC 政策)
+    - (h) 預算規模 (太空科技長程發展計畫第三期 2019-2028 約 251 億)
+  - 國際視角：(a) NASA / JAXA / ISRO 對 TASA 評價 (b) ITAR 限制 vs 自主率提升路徑 (c) 福衛系列 GNSS-RO 資料國際科學貢獻 (NOAA 同化模型)
+  - 媒體素材機會：(a) TASA 官網釋出衛星照片 (Public domain or CC) (b) 福衛 1-8 視覺 timeline (c) 寶山總部落成 (公開報導) (d) 吳宗信公開演講影片 (YouTube) (e) 獵風者衛星 GNSS-R 海面風場資料視覺化
+  - cross-link：[台灣半導體產業](半導體/科技自主)、[台灣國防現代化](軍民兩用)、[氮化鎵到 3D 封裝](Technology PanSci P0)、[認知作戰](Technology PanSci)、[台灣科技人物 吳宗信](People 如有)
+- **Reference**: TASA 官網 tasa.org.tw / 國家太空中心改制相關立法院公報 / 福衛系列維基 / 行政院太空科技計畫 / 鏡週刊 + 數位時代 + 報導者太空專題 / 美 NOAA STAR Centre 福衛 7 RO 資料 / ARRC 陽明交大火箭研究中心
+- **預估時間**：~180 min（32 年 timeline + 7+ 衛星 spec + 國防 / 商業 / 科研三軸 + 政治敏感）
+
+<!-- TASA NEW append 2026-05-26 by 哲宇 directive P0 (session 2026-05-26-twmd-rewrite-manual) -->
+
+---
+
 ### 📷 SPORE-INBOX 候選圖片補強 batch EVOLVE — 5 articles 倒在 spore-publish gate 2.4
 
 - **Type**: `EVOLVE`
