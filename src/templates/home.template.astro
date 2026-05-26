@@ -13,6 +13,7 @@
  */
 import Layout from '../layouts/Layout.astro';
 import HeroSection from '../components/home/HeroSection.astro';
+import ReaderDoors from '../components/home/ReaderDoors.astro';
 import CoverStory from '../components/home/CoverStory.astro';
 import RandomDiscovery from '../components/home/RandomDiscovery.astro';
 import ReadingPath from '../components/ReadingPath.astro';
@@ -197,9 +198,15 @@ const readingPathFooterItems = [
 >
   <HeroSection />
 
-  <CoverStory />
+  <ReaderDoors />
 
-  <RandomDiscovery />
+  <div id="cover-story">
+    <CoverStory />
+  </div>
+
+  <div id="random-discovery">
+    <RandomDiscovery />
+  </div>
 
   <ReadingPath
     title={t('home.readingPath.title')}

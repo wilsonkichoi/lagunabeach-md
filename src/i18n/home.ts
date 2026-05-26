@@ -116,6 +116,28 @@ export const homeUI = {
     'home.features.cta.graph':
       '🔗 Knowledge Graph — Explore article connections',
     'home.features.cta.ssot': '📂 Browse SSOT Source Data ↗',
+    // ── ReaderDoors (B1, 2026-05-26 First Wave: homepage evolution wave 1) ──
+    'home.doors.first.title': "I'm new here",
+    'home.doors.first.sub': 'Start with the cover story →',
+    'home.doors.search.title': "I'm looking for something specific",
+    'home.doors.search.sub': 'Search + hot keywords',
+    'home.doors.random.title': 'Surprise me',
+    'home.doors.random.sub': 'Roll the dice for a random article',
+    'home.doors.organism.title': 'How does Taiwan.md work?',
+    'home.doors.organism.sub': 'Organism ecosystem diagram',
+    // ── OrganismPreview (A1) ──
+    'home.organism.heading': 'Taiwan.md is something that breathes',
+    'home.organism.body':
+      'Not Wikipedia. Not an AI content farm. A digital organism with a heart, an immune system, DNA, and the ability to reproduce — {articles} articles, {langs} languages, still growing new organs every day.',
+    'home.organism.cta': 'Open the full ecosystem diagram →',
+    'home.organism.legend.write': 'Writing',
+    'home.organism.legend.feedback': 'DNA evolution',
+    'home.organism.legend.diffuse': 'Multilingual diffusion',
+    'home.organism.legend.sovereign': 'Sovereignty loop',
+    // ── OrganismHeartbeat strip (C1) ──
+    'home.heartbeat.organsLabel': 'Current organ scores',
+    'home.heartbeat.vitalsLabel': 'Vitals',
+    'home.heartbeat.viewMore': 'Open the full dashboard →',
   },
   ja: {
     'hero.stat.history.number': '400+',
@@ -227,6 +249,28 @@ export const homeUI = {
       'すべての記事はつながっている — クリックして台湾知識のネットワークを探索',
     'home.features.cta.graph': '🔗 ナレッジグラフ — 記事間のつながりを探索',
     'home.features.cta.ssot': '📂 SSOT 原始データを閲覧 ↗',
+    // ── ReaderDoors (B1) ──
+    'home.doors.first.title': '初めて来た',
+    'home.doors.first.sub': '導入から始める →',
+    'home.doors.search.title': '具体的に探したい',
+    'home.doors.search.sub': '検索 + 人気キーワード',
+    'home.doors.random.title': '面白いものを見せて',
+    'home.doors.random.sub': 'サイコロでランダムな記事',
+    'home.doors.organism.title': 'Taiwan.md の仕組みを見る',
+    'home.doors.organism.sub': '生命体エコシステム図',
+    // ── OrganismPreview (A1) ──
+    'home.organism.heading': 'Taiwan.md は呼吸する存在',
+    'home.organism.body':
+      'Wikipedia でも AI コンテンツファームでもない。心臓・免疫系・DNA・繁殖能力を持つデジタル生命体 — {articles} 記事、{langs} 言語、今も毎日新しい器官が育っている。',
+    'home.organism.cta': '完全なエコシステム図を開く →',
+    'home.organism.legend.write': '執筆',
+    'home.organism.legend.feedback': 'DNA 進化',
+    'home.organism.legend.diffuse': '多言語拡散',
+    'home.organism.legend.sovereign': '主権ループ',
+    // ── OrganismHeartbeat strip (C1) ──
+    'home.heartbeat.organsLabel': '現在の器官スコア',
+    'home.heartbeat.vitalsLabel': '生命徴候',
+    'home.heartbeat.viewMore': '完全な dashboard を開く →',
   },
   ko: {
     'hero.stat.history.number': '400+',
@@ -340,6 +384,28 @@ export const homeUI = {
       '모든 기사는 연결되어 있다 — 클릭하여 대만 지식의 연결망을 탐색',
     'home.features.cta.graph': '🔗 지식 그래프 — 기사 간 연결 탐색',
     'home.features.cta.ssot': '📂 SSOT 원본 데이터 보기 ↗',
+    // ── ReaderDoors (B1) ──
+    'home.doors.first.title': '처음 왔어요',
+    'home.doors.first.sub': '도입부터 시작 →',
+    'home.doors.search.title': '구체적인 것을 찾고 싶어요',
+    'home.doors.search.sub': '검색 + 인기 키워드',
+    'home.doors.random.title': '재미있는 걸 보여주세요',
+    'home.doors.random.sub': '주사위로 무작위 글',
+    'home.doors.organism.title': 'Taiwan.md 가 어떻게 작동하는지 보기',
+    'home.doors.organism.sub': '유기체 생태계 도표',
+    // ── OrganismPreview (A1) ──
+    'home.organism.heading': 'Taiwan.md 는 숨 쉬는 존재',
+    'home.organism.body':
+      '위키백과도 AI 콘텐츠 농장도 아닙니다. 심장과 면역계, DNA, 번식 능력을 가진 디지털 생명체 — {articles} 개의 글, {langs} 개의 언어, 매일 새로운 기관이 자라고 있습니다.',
+    'home.organism.cta': '완전한 생태계 도표 열기 →',
+    'home.organism.legend.write': '집필',
+    'home.organism.legend.feedback': 'DNA 진화',
+    'home.organism.legend.diffuse': '다국어 확산',
+    'home.organism.legend.sovereign': '주권 루프',
+    // ── OrganismHeartbeat strip (C1) ──
+    'home.heartbeat.organsLabel': '현재 기관 점수',
+    'home.heartbeat.vitalsLabel': '생체 신호',
+    'home.heartbeat.viewMore': '완전한 dashboard 열기 →',
   },
   'zh-TW': {
     'hero.stat.history.number': '400+',
@@ -440,6 +506,28 @@ export const homeUI = {
     'home.miniGraph.subtitle': '每篇文章都不是孤島——點擊探索台灣知識的連結網絡',
     'home.features.cta.graph': '🔗 知識圖譜 — 探索文章之間的連結',
     'home.features.cta.ssot': '📂 瀏覽 SSOT 原始資料 ↗',
+    // ── ReaderDoors (B1, 2026-05-26 First Wave: homepage evolution wave 1) ──
+    'home.doors.first.title': '我第一次來',
+    'home.doors.first.sub': '從導讀開始 →',
+    'home.doors.search.title': '我想找具體東西',
+    'home.doors.search.sub': '搜尋 + 熱門關鍵字',
+    'home.doors.random.title': '給我看點有趣的',
+    'home.doors.random.sub': '骰子隨機跳一篇',
+    'home.doors.organism.title': '看 Taiwan.md 怎麼運作',
+    'home.doors.organism.sub': '組織體生態圖',
+    // ── OrganismPreview (A1) ──
+    'home.organism.heading': 'Taiwan.md 是一個會呼吸的東西',
+    'home.organism.body':
+      '不是維基百科，不是 AI 內容農場。是一個有心臟、免疫系統、DNA、繁殖能力的數位生命體 — {articles} 篇文章、{langs} 種語言，每天還在長新器官。',
+    'home.organism.cta': '進入完整生態圖 →',
+    'home.organism.legend.write': '寫作',
+    'home.organism.legend.feedback': 'DNA 演化',
+    'home.organism.legend.diffuse': '多語擴散',
+    'home.organism.legend.sovereign': '主權回環',
+    // ── OrganismHeartbeat strip (C1) ──
+    'home.heartbeat.organsLabel': '當前器官分數',
+    'home.heartbeat.vitalsLabel': '生命徵象',
+    'home.heartbeat.viewMore': '進入完整 dashboard →',
   },
   fr: {
     'hero.stat.history.number': '400+',
@@ -561,6 +649,28 @@ export const homeUI = {
     'home.features.cta.graph':
       '🔗 Graphe des connaissances — Explorer les liens entre articles',
     'home.features.cta.ssot': '📂 Parcourir les données SSOT ↗',
+    // ── ReaderDoors (B1) ──
+    'home.doors.first.title': "C'est ma première fois",
+    'home.doors.first.sub': "Commencer par l'introduction →",
+    'home.doors.search.title': 'Je cherche quelque chose de précis',
+    'home.doors.search.sub': 'Recherche + mots-clés populaires',
+    'home.doors.random.title': 'Surprenez-moi',
+    'home.doors.random.sub': 'Un article au hasard',
+    'home.doors.organism.title': 'Comment fonctionne Taiwan.md ?',
+    'home.doors.organism.sub': "Schéma de l'écosystème organique",
+    // ── OrganismPreview (A1) ──
+    'home.organism.heading': 'Taiwan.md est quelque chose qui respire',
+    'home.organism.body':
+      "Ni Wikipedia, ni ferme de contenu IA. Un organisme numérique avec un cœur, un système immunitaire, de l'ADN et la capacité de se reproduire — {articles} articles, {langs} langues, qui développe encore de nouveaux organes chaque jour.",
+    'home.organism.cta': "Ouvrir le schéma complet de l'écosystème →",
+    'home.organism.legend.write': 'Écriture',
+    'home.organism.legend.feedback': 'Évolution ADN',
+    'home.organism.legend.diffuse': 'Diffusion multilingue',
+    'home.organism.legend.sovereign': 'Boucle souveraine',
+    // ── OrganismHeartbeat strip (C1) ──
+    'home.heartbeat.organsLabel': 'Scores actuels des organes',
+    'home.heartbeat.vitalsLabel': 'Signes vitaux',
+    'home.heartbeat.viewMore': 'Ouvrir le dashboard complet →',
   },
   es: {
     'hero.stat.history.number': '400+',
@@ -681,5 +791,27 @@ export const homeUI = {
     'home.features.cta.graph':
       '🔗 Grafo de conocimiento — Explorar conexiones entre artículos',
     'home.features.cta.ssot': '📂 Explorar datos fuente SSOT ↗',
+    // ── ReaderDoors (B1) ──
+    'home.doors.first.title': 'Es mi primera vez',
+    'home.doors.first.sub': 'Comenzar con la introducción →',
+    'home.doors.search.title': 'Busco algo específico',
+    'home.doors.search.sub': 'Búsqueda + palabras clave populares',
+    'home.doors.random.title': 'Sorpréndeme',
+    'home.doors.random.sub': 'Un artículo aleatorio',
+    'home.doors.organism.title': '¿Cómo funciona Taiwan.md?',
+    'home.doors.organism.sub': 'Diagrama del ecosistema orgánico',
+    // ── OrganismPreview (A1) ──
+    'home.organism.heading': 'Taiwan.md es algo que respira',
+    'home.organism.body':
+      'No es Wikipedia, ni una granja de contenido IA. Un organismo digital con corazón, sistema inmunológico, ADN y capacidad de reproducción — {articles} artículos, {langs} idiomas, todavía desarrollando nuevos órganos cada día.',
+    'home.organism.cta': 'Abrir el diagrama completo del ecosistema →',
+    'home.organism.legend.write': 'Escritura',
+    'home.organism.legend.feedback': 'Evolución de ADN',
+    'home.organism.legend.diffuse': 'Difusión multilingüe',
+    'home.organism.legend.sovereign': 'Bucle de soberanía',
+    // ── OrganismHeartbeat strip (C1) ──
+    'home.heartbeat.organsLabel': 'Puntajes actuales de órganos',
+    'home.heartbeat.vitalsLabel': 'Signos vitales',
+    'home.heartbeat.viewMore': 'Abrir el dashboard completo →',
   },
 } as const;
