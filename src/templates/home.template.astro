@@ -14,6 +14,7 @@
 import Layout from '../layouts/Layout.astro';
 import HeroSection from '../components/home/HeroSection.astro';
 import ReaderDoors from '../components/home/ReaderDoors.astro';
+import OrganismPreview from '../components/home/OrganismPreview.astro';
 import CoverStory from '../components/home/CoverStory.astro';
 import RandomDiscovery from '../components/home/RandomDiscovery.astro';
 import ReadingPath from '../components/ReadingPath.astro';
@@ -29,7 +30,6 @@ import ProticoScript from '../components/ProticoScript.astro';
 import { fetchRecentCommits } from '../lib/commits';
 import { feedbacks } from '../data/feedbacks';
 import { useTranslations, getLangFromUrl } from '../i18n/utils';
-import { getCategoryConfigs } from '../utils/categoryConfig';
 import matter from 'gray-matter';
 import { readFileSync, readdirSync } from 'node:fs';
 import { resolve, join, basename } from 'node:path';
@@ -45,24 +45,6 @@ const recentCommits = await fetchRecentCommits();
 // other 5 langs all share the same English hall narrative).
 const isZh = lang === 'zh-TW';
 const langUrlPrefix = isZh ? '' : `/${lang}`;
-
-// Translated category names for the d3 mini-graph (passed to inline script
-// via define:vars so the graph renders in the visitor's language).
-const categoryConfigsForGraph = getCategoryConfigs(t);
-const miniGraphCategoryNames: Record<string, string> = {
-  history: categoryConfigsForGraph.history.name,
-  geography: categoryConfigsForGraph.geography.name,
-  culture: categoryConfigsForGraph.culture.name,
-  food: categoryConfigsForGraph.food.name,
-  art: categoryConfigsForGraph.art.name,
-  music: categoryConfigsForGraph.music.name,
-  technology: categoryConfigsForGraph.technology.name,
-  nature: categoryConfigsForGraph.nature.name,
-  people: categoryConfigsForGraph.people.name,
-  society: categoryConfigsForGraph.society.name,
-  economy: categoryConfigsForGraph.economy.name,
-  lifestyle: categoryConfigsForGraph.lifestyle.name,
-};
 
 // ── Exhibition: scan A-grade articles for pick cards ──
 interface PickArticle {
@@ -261,22 +243,14 @@ const readingPathFooterItems = [
     </div>
   </FeatureCards>
 
-  <section class="mx-auto mb-16 max-w-[800px] px-8 max-[480px]:px-4">
-    <a
-      href={`${langUrlPrefix}/graph`}
-      class="block rounded-2xl border border-[#e2e8f0] bg-[#f8fafc] p-8 no-underline transition-all duration-300 hover:border-[#2d5016] hover:shadow-[0_4px_12px_rgba(45,80,22,0.1)]"
-    >
-      <div class="mb-4 text-center">
-        <h3 class="mb-2 text-[1.3rem] text-[#1f2937]">
-          {t('home.miniGraph.heading')}
-        </h3>
-        <p class="text-[0.95rem] text-[#6b7280]">
-          {t('home.miniGraph.subtitle')}
-        </p>
-      </div>
-      <div id="mini-graph" class="h-[300px] w-full overflow-hidden"></div>
-    </a>
-  </section>
+  <!--
+    OrganismPreview replaces the old MiniGraph (d3 12-category force-directed
+    widget) per Wave 1 / A1. The 12-category graph entry point lives in the
+    FeatureCards CTA strip above as `home.features.cta.graph`. The d3 inline
+    script + define:vars block at the bottom of this template are now dead code
+    and should be removed in follow-up cleanup if no other section pulls them.
+  -->
+  <OrganismPreview />
 
   <!-- ===== EXHIBITION HALLS =====
        Partial Tailwind migration (Phase 6): wrappers moved to inline
@@ -748,167 +722,6 @@ const readingPathFooterItems = [
 
   <ContributeSection />
 </Layout>
-
-<script is:inline src="https://d3js.org/d3.v7.min.js"></script>
-<script is:inline define:vars={{ miniGraphCategoryNames }}>
-  document.addEventListener('DOMContentLoaded', function () {
-    const container = document.getElementById('mini-graph');
-    if (container) {
-      const categories = [
-        {
-          id: 'history',
-          name: miniGraphCategoryNames.history,
-          color: '#dc2626',
-        },
-        {
-          id: 'geography',
-          name: miniGraphCategoryNames.geography,
-          color: '#2563eb',
-        },
-        {
-          id: 'culture',
-          name: miniGraphCategoryNames.culture,
-          color: '#7c3aed',
-        },
-        { id: 'food', name: miniGraphCategoryNames.food, color: '#ea580c' },
-        { id: 'art', name: miniGraphCategoryNames.art, color: '#db2777' },
-        { id: 'music', name: miniGraphCategoryNames.music, color: '#4f46e5' },
-        {
-          id: 'technology',
-          name: miniGraphCategoryNames.technology,
-          color: '#0891b2',
-        },
-        {
-          id: 'nature',
-          name: miniGraphCategoryNames.nature,
-          color: '#16a34a',
-        },
-        {
-          id: 'people',
-          name: miniGraphCategoryNames.people,
-          color: '#ca8a04',
-        },
-        {
-          id: 'society',
-          name: miniGraphCategoryNames.society,
-          color: '#64748b',
-        },
-        {
-          id: 'economy',
-          name: miniGraphCategoryNames.economy,
-          color: '#0d9488',
-        },
-        {
-          id: 'lifestyle',
-          name: miniGraphCategoryNames.lifestyle,
-          color: '#f97316',
-        },
-      ];
-
-      const nodes = [
-        {
-          id: 'taiwan',
-          name: 'Taiwan.md',
-          size: 18,
-          color: '#2d5016',
-          group: 'core',
-        },
-        ...categories.map((c) => ({
-          id: c.id,
-          name: c.name,
-          size: 12,
-          color: c.color,
-          group: 'category',
-        })),
-      ];
-
-      const edges = categories.map((c) => ({ source: 'taiwan', target: c.id }));
-      const crossLinks = [
-        ['history', 'people'],
-        ['history', 'society'],
-        ['culture', 'art'],
-        ['culture', 'music'],
-        ['food', 'lifestyle'],
-        ['technology', 'economy'],
-        ['nature', 'geography'],
-        ['people', 'art'],
-        ['society', 'economy'],
-        ['music', 'culture'],
-        ['lifestyle', 'food'],
-        ['geography', 'nature'],
-      ];
-      crossLinks.forEach(([source, target]) => edges.push({ source, target }));
-
-      const width = container.clientWidth;
-      const height = 300;
-
-      const svg = d3
-        .select('#mini-graph')
-        .append('svg')
-        .attr('viewBox', `0 0 ${width} ${height}`)
-        .attr('preserveAspectRatio', 'xMidYMid meet');
-
-      const simulation = d3
-        .forceSimulation(nodes)
-        .force(
-          'link',
-          d3
-            .forceLink(edges)
-            .id((d) => d.id)
-            .distance(60),
-        )
-        .force('charge', d3.forceManyBody().strength(-120))
-        .force('center', d3.forceCenter(width / 2, height / 2))
-        .force(
-          'collision',
-          d3.forceCollide().radius((d) => d.size + 4),
-        );
-
-      const link = svg
-        .append('g')
-        .selectAll('line')
-        .data(edges)
-        .join('line')
-        .attr('stroke', '#d1d5db')
-        .attr('stroke-width', 1)
-        .attr('stroke-opacity', 0.5);
-
-      const node = svg
-        .append('g')
-        .selectAll('circle')
-        .data(nodes)
-        .join('circle')
-        .attr('r', (d) => d.size)
-        .attr('fill', (d) => d.color)
-        .attr('fill-opacity', 0.85)
-        .attr('stroke', '#fff')
-        .attr('stroke-width', 1.5);
-
-      const label = svg
-        .append('g')
-        .selectAll('text')
-        .data(nodes)
-        .join('text')
-        .text((d) => d.name)
-        .attr('text-anchor', 'middle')
-        .attr('dy', (d) => d.size + 14)
-        .attr('font-size', (d) => (d.group === 'core' ? '11px' : '9px'))
-        .attr('font-weight', (d) => (d.group === 'core' ? '700' : '500'))
-        .attr('fill', '#374151')
-        .attr('pointer-events', 'none');
-
-      simulation.on('tick', () => {
-        link
-          .attr('x1', (d) => d.source.x)
-          .attr('y1', (d) => d.source.y)
-          .attr('x2', (d) => d.target.x)
-          .attr('y2', (d) => d.target.y);
-        node.attr('cx', (d) => d.x).attr('cy', (d) => d.y);
-        label.attr('x', (d) => d.x).attr('y', (d) => d.y);
-      });
-    }
-  });
-</script>
 
 <!-- Protico Community Chat Bubble — sponsored by Howie Young -->
 <ProticoScript />
