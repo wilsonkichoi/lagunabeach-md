@@ -1,4 +1,5 @@
 # 蔡英文 (Tsai Ing-wen) — Research Note
+
 **For rewrite of:** `knowledge/People/蔡英文.md`
 **Research date:** 2026-04-04
 **Researcher:** Claude (claude-sonnet-4-6)
@@ -47,20 +48,21 @@
 
 ### 2. Education
 
-| Degree | Institution | Year | Notes |
-|--------|-------------|------|-------|
-| LLB (法學士) | National Taiwan University (NTU) Law | **1978** | Graduated from the Department of Law (法律學系法學組) |
-| LLM (法學碩士) | Cornell Law School (Cornell University) | **1980** | Master of Laws |
-| PhD (法學博士) | London School of Economics and Political Science (LSE) / University of London | **1984** (degree awarded) | Thesis submitted/examined **1983** |
+| Degree         | Institution                                                                   | Year                      | Notes                                                 |
+| -------------- | ----------------------------------------------------------------------------- | ------------------------- | ----------------------------------------------------- |
+| LLB (法學士)   | National Taiwan University (NTU) Law                                          | **1978**                  | Graduated from the Department of Law (法律學系法學組) |
+| LLM (法學碩士) | Cornell Law School (Cornell University)                                       | **1980**                  | Master of Laws                                        |
+| PhD (法學博士) | London School of Economics and Political Science (LSE) / University of London | **1984** (degree awarded) | Thesis submitted/examined **1983**                    |
 
-- **PhD thesis title:** *"Unfair trade practices and safeguard actions"* (〈不公平貿易行為與保障措施〉)
+- **PhD thesis title:** _"Unfair trade practices and safeguard actions"_ (〈不公平貿易行為與保障措施〉)
 - **Thesis URL:** https://etheses.lse.ac.uk/3976/1/Tsai__unfair-trade-practices-and-safeguard-actions.pdf
 - **Doctoral advisor:** Michael J. Elliott (Michael Elliott)
 - **Field:** International trade law / Law and economics
 
 #### Thesis Controversy (VERIFIED DETAILS):
+
 - The physical thesis was not deposited in LSE's library for **35 years** — it only became available in 2019 when Tsai provided a personal facsimile copy and later a digital copy to Taiwan's National Central Library.
-- In October 2019, **LSE issued an official statement** confirming: "Dr Tsai was correctly awarded a PhD in Law in 1984." LSE cited: (a) Senate House Library records confirming receipt of a copy; (b) the thesis appearing in the IALS index *Legal Research in the United Kingdom 1905–1984* (published 1985).
+- In October 2019, **LSE issued an official statement** confirming: "Dr Tsai was correctly awarded a PhD in Law in 1984." LSE cited: (a) Senate House Library records confirming receipt of a copy; (b) the thesis appearing in the IALS index _Legal Research in the United Kingdom 1905–1984_ (published 1985).
 - Critics (notably media personality Dennis Peng / 彭文正) alleged the degree was fraudulent due to the missing physical copy. **LSE definitively rejected this claim.**
 - STATUS: The controversy continues in some Taiwanese/overseas Chinese media but the **LSE's institutional position is that the degree is legitimate**.
 
@@ -93,20 +95,21 @@
 
 ### 5. DPP Leadership Timeline
 
-| Role | Period | Notes |
-|------|--------|-------|
-| Joined DPP | 2004 | Previously nonpartisan/KMT-appointed |
-| Legislative Yuan member | Feb 2005 – Jan 2006 | Party-list seat |
-| Vice Premier | Jan 2006 – May 2007 | Under Premier Su Tseng-chang; resigned |
-| DPP Chair (1st time) | 20 May 2008 – 29 Feb 2012 | Defeated Koo Kwang-ming (辜寬敏) in the party election; **first woman to chair a major Taiwanese political party** |
-| DPP Chair (2nd time) | 28 May 2014 – 24 Nov 2018 | Resigned after 2018 local election losses |
-| DPP Chair (3rd time) | 20 May 2020 – 26 Nov 2022 | Resigned after 2022 local election losses |
+| Role                    | Period                    | Notes                                                                                                              |
+| ----------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Joined DPP              | 2004                      | Previously nonpartisan/KMT-appointed                                                                               |
+| Legislative Yuan member | Feb 2005 – Jan 2006       | Party-list seat                                                                                                    |
+| Vice Premier            | Jan 2006 – May 2007       | Under Premier Su Tseng-chang; resigned                                                                             |
+| DPP Chair (1st time)    | 20 May 2008 – 29 Feb 2012 | Defeated Koo Kwang-ming (辜寬敏) in the party election; **first woman to chair a major Taiwanese political party** |
+| DPP Chair (2nd time)    | 28 May 2014 – 24 Nov 2018 | Resigned after 2018 local election losses                                                                          |
+| DPP Chair (3rd time)    | 20 May 2020 – 26 Nov 2022 | Resigned after 2022 local election losses                                                                          |
 
 ---
 
 ### 6. Presidential Elections — Exact Figures
 
 #### 2012 Presidential Election (LOSS)
+
 - **Date:** 14 January 2012
 - **Result:** Ma Ying-jeou (KMT) won with **51.6%** vs. Tsai's **45.6%**
 - **Margin:** approximately **800,000 votes** (roughly 6 percentage points)
@@ -114,6 +117,7 @@
 - It was widely expected to be a close race; the margin was described as "surprisingly large."
 
 #### 2016 Presidential Election (FIRST WIN)
+
 - **Date:** 16 January 2016
 - **Result:** Tsai won with **56.1%** (6.89 million votes); KMT's Eric Chu got **31.0%** (3.81 million votes); PFP's James Soong got **12.8%** (1.58 million)
 - **Victory margin:** 3.08 million votes — the second-largest winning margin in Taiwan's direct presidential election history (after 1996)
@@ -122,6 +126,7 @@
 - **Inaugurated:** 20 May 2016
 
 #### 2020 Presidential Election (RE-ELECTION)
+
 - **Date:** 11 January 2020
 - **Result:** Tsai won with **57.1%** (8.17 million votes) — a **record-breaking vote total** in Taiwan's history
 - Opponent Han Kuo-yu (KMT) received 38.6% (5.52 million); James Soong (PFP) 4.3%
@@ -133,6 +138,7 @@
 ### 7. Key Policies as President
 
 #### Same-Sex Marriage (VERIFIED)
+
 - Taiwan became **the first country in Asia to legalize same-sex marriage** on **24 May 2019**
 - **Legislative milestone:** Bill passed on 17 May 2019; signed by President Tsai on 22 May; took effect 24 May
 - **Constitutional foundation:** On 24 May 2017, the Constitutional Court ruled the existing marriage law unconstitutional and gave the Legislative Yuan 2 years to comply
@@ -141,6 +147,7 @@
 - Tsai had announced her personal support for same-sex marriage in **November 2015** during the campaign
 
 #### Indigenous Peoples Apology (VERIFIED)
+
 - **Date:** 1 August 2016 (Indigenous Peoples' Day, 原住民族日)
 - First formal government apology in Taiwan's history for treatment of indigenous peoples
 - Apology admitted 400 years of "brutal violations" of indigenous rights through "armed invasion and land seizure" by successive regimes
@@ -148,6 +155,7 @@
 - Representatives from all 16 recognized indigenous groups attended
 
 #### Pension Reform (2017–2018)
+
 - **Problem addressed:** Pension funds projected to go **bankrupt as early as 2030** due to generous legacy benefits (including a controversial 18% preferential interest rate on deposits for retired civil servants)
 - **Reform enacted:** June 2017, Legislative Yuan passed the DPP pension reform package
 - **Changes:** Gradually reduced income replacement ratio (from very high levels to 30–60% depending on years of service); phased out the 18% interest rate over 30 months
@@ -155,6 +163,7 @@
 - **Tsai's response:** Apologized to affected groups while insisting reforms were fiscally necessary; she maintained this was essential to prevent total fund collapse
 
 #### Energy Policy / Nuclear Phase-Out
+
 - **Policy goal:** By 2025 — 50% natural gas, 30% coal, 20% renewables; **zero nuclear by 2025**
 - **Achievement:** The last nuclear reactor (Chinshan/核三廠 Unit 2) shut down in 2025, technically achieving the "nuclear-free homeland (非核家園)" goal
 - **Controversies:**
@@ -224,13 +233,13 @@
 
 ### 13. Controversies Summary
 
-| Controversy | Facts | Status |
-|-------------|-------|--------|
-| LSE PhD thesis | Thesis not in LSE library for 35 years; critics alleged fraud | **LSE officially confirmed degree legitimate (Oct 2019)** |
-| Pension reform backlash | Thousands of retired civil servants/military/teachers protested | Policy stood; Tsai apologized for pain caused |
-| Energy policy / blackouts | Multiple nationwide blackouts 2017–2022; renewable targets missed | Ongoing; Lai government now reconsidering nuclear |
-| Unmarried/sexist attacks | Xinhua article after 2016 election called her "emotional" | Widely condemned; backfired on critics |
-| Cross-strait escalation | Critics say her refusal to accept 1992 Consensus provoked China | Counterargument: China's coercion increased regardless |
+| Controversy               | Facts                                                             | Status                                                    |
+| ------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------- |
+| LSE PhD thesis            | Thesis not in LSE library for 35 years; critics alleged fraud     | **LSE officially confirmed degree legitimate (Oct 2019)** |
+| Pension reform backlash   | Thousands of retired civil servants/military/teachers protested   | Policy stood; Tsai apologized for pain caused             |
+| Energy policy / blackouts | Multiple nationwide blackouts 2017–2022; renewable targets missed | Ongoing; Lai government now reconsidering nuclear         |
+| Unmarried/sexist attacks  | Xinhua article after 2016 election called her "emotional"         | Widely condemned; backfired on critics                    |
+| Cross-strait escalation   | Critics say her refusal to accept 1992 Consensus provoked China   | Counterargument: China's coercion increased regardless    |
 
 ---
 

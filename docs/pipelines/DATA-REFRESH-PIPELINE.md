@@ -29,7 +29,7 @@ upstream_canonical:
 
 ```
 ╭──────────────────────────────────────────────────────────────────────────╮
-│         DATA-REFRESH-PIPELINE — 資料更新 12 step                         │
+│         DATA-REFRESH-PIPELINE — 資料更新 13 step                         │
 │                                                                          │
 │   🧭 失敗策略                                                            │
 │            ├── cwd 不在 git toplevel → auto cd                           │
@@ -39,7 +39,7 @@ upstream_canonical:
 │                                                                          │
 │   📍 一鍵入口: bash scripts/tools/refresh-data.sh                        │
 │                                                                          │
-│   ──── 12 step 主流程 ──────────────────────────────────────             │
+│   ──── 13 step 主流程 ──────────────────────────────────────             │
 │                                                                          │
 │   Step 1: git sync ──→ auto-stash + rebase pull                          │
 │              ↳ Hard gate: cwd assertion + dirty tree auto-stash          │
@@ -69,6 +69,10 @@ upstream_canonical:
 │                                                                          │
 │   Step 12: sync-spore-links ──→ 從 SSOT regen knowledge sporeLinks       │
 │              ↳ Hard gate: 不要手寫 knowledge sporeLinks（會被覆蓋）      │
+│                                                                          │
+│   Step 13: generate-reports-index ──→ regen reports/INDEX.md             │
+│            └── 9 type bucket × 月份 雙軸索引 (per audit Layer 3)         │
+│              ↳ Soft fail OK (心跳繼續)                                   │
 │                                                                          │
 │   ✅ Data refreshed → HEARTBEAT Beat 1 可開始                            │
 │                                                                          │

@@ -1,4 +1,5 @@
 # 郭婞淳 (Kuo Hsing-Chun) — Research Note
+
 **For rewrite of:** `knowledge/People/郭婞淳.md`
 **Research date:** 2026-04-04
 **Researcher:** Claude (claude-sonnet-4-6)
@@ -28,6 +29,7 @@
 ## VERIFIED FACTS
 
 ### 1. Birth & Identity
+
 - **Born:** November 26, 1993
 - **Birthplace:** Luodong Township (羅東鎮), Yilan County — NOT Taitung
   - IMPORTANT: Family heritage is from the Malan Amis tribe (馬蘭部落) in Taitung County, but she was born in Yilan
@@ -46,6 +48,7 @@
 ### 2. Discovery & Coaching
 
 **Early discovery (蒲雅玲 / Pu Ya-ling):**
+
 - Initially excelled at basketball and track & field in junior high school
 - At a school sports meet, dropped the baton in a relay — "devastated"
 - Same day won gold in weightlifting; recognized talent
@@ -54,6 +57,7 @@
 - Upon winning Tokyo gold in 2021, Pu Ya-ling wept watching from Taitung and said: "我們等這塊金牌等了好多年，2012年、2016年到現在" ("We waited so many years for this gold, from 2012, to 2016, and now")
 
 **Coach 林敬能 (Lin Jing-neng):**
+
 - Took over coaching when Kuo was approximately 17 years old
 - Lin Jing-neng has stated: "我從17歲帶郭婞淳比賽" ("I have coached Kuo since she was 17")
 - This puts the start of their collaboration around 2010–2011, when she joined the national training program
@@ -88,11 +92,13 @@
 ### 4. Competition Record — VERIFIED
 
 #### 2012 London Olympics
+
 - Weight class: 58kg
 - Result: 8th place
 - Source: Wikipedia EN
 
 #### 2013 — Breakthrough Year
+
 - Asian Championships: Gold
 - Universiade: Gold (with world record)
 - East Asian Games: Gold
@@ -101,12 +107,14 @@
 - Source: Taiwan Panorama, Wikipedia EN
 
 #### 2016 Rio Olympics
+
 - Weight class: 58kg
 - Result: **Bronze medal** — total 231kg
 - Her first Olympic medal
 - Source: Wikipedia EN/ZH
 
 #### 2017 World Championships (Anaheim, USA — November 28–December 5, 2017)
+
 - Weight class: 58kg
 - Snatch: 105kg (Silver medal)
 - Clean & Jerk: 135kg (Gold medal)
@@ -116,6 +124,7 @@
 - Source: Epoch Times report https://www.epochtimes.com/b5/17/12/1/n9914684.htm
 
 #### 2017 Summer Universiade (Taipei, August 22, 2017)
+
 - Weight class: 58kg
 - Snatch: 107kg
 - Clean & Jerk: **142kg — WORLD RECORD** (broke previous 141kg record set by China's Qiu Hongmei)
@@ -124,6 +133,7 @@
 - Source: IWF official https://iwf.sport/2017/08/22/kuo-hsing-chun-pins-new-world-record-in-front-of-roaring-home-crowd/
 
 #### 2018 World Championships (Ashgabat, Turkmenistan — November 4, 2018)
+
 - Weight class: 59kg (NEW CATEGORY introduced by IWF in 2018)
 - Snatch: **105kg — WORLD RECORD**
 - Clean & Jerk: **132kg — WORLD RECORD**
@@ -133,6 +143,7 @@
 - Source: Wikipedia 2018 Worlds 59kg, multiple searches
 
 #### 2019 World Championships (Pattaya, Thailand — September 2019)
+
 - Weight class: 59kg
 - Snatch: 106kg (Silver)
 - Clean & Jerk: **140kg — WORLD RECORD** (final attempt)
@@ -141,6 +152,7 @@
 - Source: Focus Taiwan https://focustaiwan.tw/sports/201909210017, Wikipedia
 
 #### 2021 Asian Championships (Tashkent, Uzbekistan — April 2021)
+
 - Weight class: 59kg
 - Snatch: **110kg — WORLD RECORD**
 - Clean & Jerk: 137kg
@@ -150,6 +162,7 @@
 - Source: Focus Taiwan https://focustaiwan.tw/sports/202104190021, multiple
 
 #### 2021 Tokyo Olympics (July 27, 2021)
+
 - Weight class: 59kg
 - Snatch: **103kg — OLYMPIC RECORD**
 - Clean & Jerk: **133kg — OLYMPIC RECORD**
@@ -160,6 +173,7 @@
 - Source: SCMP, NBC Olympics, Focus Taiwan, Taiwan Panorama
 
 #### 2024 Paris Olympics (August 8–9, 2024)
+
 - Weight class: 59kg
 - Snatch: 105kg
 - Clean & Jerk: 130kg (attempted 137kg on third lift but failed due to back injury)
@@ -177,13 +191,14 @@
 
 All in 59kg category (post-2018 IWF category restructure):
 
-| Lift | Weight | Set At | Date |
-|------|--------|--------|------|
-| Snatch | 110kg | 2021 Asian Championships, Tashkent | April 2021 |
-| Clean & Jerk | 140kg | 2019 World Championships, Pattaya | September 2019 |
-| Total | 247kg | 2021 Asian Championships, Tashkent | April 2021 |
+| Lift         | Weight | Set At                             | Date           |
+| ------------ | ------ | ---------------------------------- | -------------- |
+| Snatch       | 110kg  | 2021 Asian Championships, Tashkent | April 2021     |
+| Clean & Jerk | 140kg  | 2019 World Championships, Pattaya  | September 2019 |
+| Total        | 247kg  | 2021 Asian Championships, Tashkent | April 2021     |
 
 Also held (58kg category, pre-2018):
+
 - Clean & Jerk: 142kg (2017 Universiade, Taipei, August 22, 2017)
 - Total: 249kg (same event)
 
@@ -193,15 +208,15 @@ Also held (58kg category, pre-2018):
 
 ### 6. Charity Work — VERIFIED AMOUNTS
 
-| Year | Amount/Item | Recipient | Context |
-|------|-------------|-----------|---------|
-| 2013 | NT$100,000 | Taitung Physical Education High School (mother school) | Scholarships after Asian Championships win |
-| 2016 (January) | NT$1,500,000 (ambulance) | Penghu Huimin Hospital (澎湖惠民醫院) | Donated ambulance with prize money; originally intended for Taitung Holy Mother Hospital, rerouted to Penghu hospital in greater need |
-| 2017 | NT$400,000 | Baoshan Junior High School (寶桑國中) | From commemorative T-shirt sales after Universiade; plus treadmill equipment |
-| 2017 Universiade | NT$1,900,000 (total winnings) | Community/various | Chose to donate full winnings back to her community |
-| 2019 | Calendar proceeds | Genesis Foundation (創世基金會) | "婞念‧善淳" charity photo calendar; all proceeds to Taitung vegetative-state patient care services |
-| 2019 (Dec 31) | Undisclosed | Taitung Holy Mother Hospital | Personal donation; "I want to give back to Taitung with my own strength" |
-| 2024 (Dec) | NT$100,000 (with Hongdao Foundation) | Fengrong Elementary School + Baoshan JHS | Joint donation with 宏道運動發展基金會 for sports development |
+| Year             | Amount/Item                          | Recipient                                              | Context                                                                                                                               |
+| ---------------- | ------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| 2013             | NT$100,000                           | Taitung Physical Education High School (mother school) | Scholarships after Asian Championships win                                                                                            |
+| 2016 (January)   | NT$1,500,000 (ambulance)             | Penghu Huimin Hospital (澎湖惠民醫院)                  | Donated ambulance with prize money; originally intended for Taitung Holy Mother Hospital, rerouted to Penghu hospital in greater need |
+| 2017             | NT$400,000                           | Baoshan Junior High School (寶桑國中)                  | From commemorative T-shirt sales after Universiade; plus treadmill equipment                                                          |
+| 2017 Universiade | NT$1,900,000 (total winnings)        | Community/various                                      | Chose to donate full winnings back to her community                                                                                   |
+| 2019             | Calendar proceeds                    | Genesis Foundation (創世基金會)                        | "婞念‧善淳" charity photo calendar; all proceeds to Taitung vegetative-state patient care services                                    |
+| 2019 (Dec 31)    | Undisclosed                          | Taitung Holy Mother Hospital                           | Personal donation; "I want to give back to Taitung with my own strength"                                                              |
+| 2024 (Dec)       | NT$100,000 (with Hongdao Foundation) | Fengrong Elementary School + Baoshan JHS               | Joint donation with 宏道運動發展基金會 for sports development                                                                         |
 
 **Ambulance story context:** When a barbell crushed her in 2014, she waited a long time for an ambulance at the National Training Center. She thought: "我在國訓中心等救護車都這麼久，那如果是我的家鄉或更偏遠的地區怎麼辦？" ("I waited so long for the ambulance even at the National Training Center — what about my hometown or even more remote areas?") — this prompted the ambulance donation.
 
@@ -210,6 +225,7 @@ Also held (58kg category, pre-2018):
 ---
 
 ### 7. Other Career Facts
+
 - **2012 Olympics:** Competed at age 18, placed 8th
 - **Coach Lin Jing-neng prize money controversy (2021):** After Tokyo gold, Lin was hugged Kuo in a manner that sparked controversy; Kuo defended him publicly
 - **Prize money from Tokyo:** Received NT$21.2 million total in bonuses (reported Dec 2021)
@@ -247,6 +263,7 @@ Also held (58kg category, pre-2018):
 ## BEST QUOTES (SOURCED)
 
 ### Competition mindset
+
 - **"累不死，獎牌就是我的！"** ("If I don't die from exhaustion, the medal is mine!") — her training mantra
   - Source: Mirror Media headline, widely reported https://www.mirrormedia.mg/story/20210727pol001/
 
@@ -260,6 +277,7 @@ Also held (58kg category, pre-2018):
   - Source: Taiwan Panorama
 
 ### On charity / giving back
+
 - **"我在國訓中心等救護車都這麼久，那如果是我的家鄉或更偏遠的地區怎麼辦？"** ("I waited so long for an ambulance even at the National Training Center — what about my hometown or even more remote areas?") — explaining the ambulance donation
   - Source: ETtoday https://sports.ettoday.net/news/2041280
 
@@ -267,6 +285,7 @@ Also held (58kg category, pre-2018):
   - Source: Mirror Media / Newtalk https://newtalk.tw/news/view/2021-07-27/610804
 
 ### 2024 Paris
+
 - **"When I stand on this stage, I must first forget the gold medal, because I must focus my heart and mind on each lift attempt."** — Paris Olympics interview
   - Source: MyVideo interview https://blog.myvideo.net.tw/2024-paris-olympics-hsing-chun-kuo-interview/
 
@@ -274,6 +293,7 @@ Also held (58kg category, pre-2018):
   - Source: TVBS https://news.tvbs.com.tw/english/2579213
 
 ### Coach tribute
+
 - **蒲雅玲 (Pu Ya-ling), her first mentor:** "我們等這塊金牌等了好多年，2012年、2016年到現在" ("We've waited for this gold medal for so many years — from 2012, to 2016, and now")
   - Source: ETtoday reunion story https://sports.ettoday.net/news/2044960
 

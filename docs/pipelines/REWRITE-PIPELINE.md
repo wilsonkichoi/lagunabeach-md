@@ -683,6 +683,60 @@ core_contradiction: 一句話（≤ 30 字）
 
 **讀取責任**：Stage 2 Write 開始前，grep `reports/research/` 看有無相關主題報告可 cross-reference；若有，整合進 Stage 2 參考素材。
 
+#### Step 1.7 附：reports/ 頂層 ad-hoc report 命名 convention（2026-05-27 新增）
+
+> ⚠️ 本附則約束 **Stage 1 research report 以外** 寫到 `reports/*.md` 頂層的 ad-hoc 報告（design / plan / analysis / audit / evaluation / evolution / proposal / ops / semiont-analysis 等）。Stage 1 research report 維持 `reports/research/{YYYY-MM}/{article-slug}.md` 格式不變。
+>
+> 觸發：[reports/reports-archival-audit-2026-05-27.md](../../reports/reports-archival-audit-2026-05-27.md) §4 Layer 2 — 113 個頂層 ad-hoc report 命名整齊但 prefix 自由式，9 type bucket 規律僅 corpus 萃取存在，未升 canonical 規範。
+
+**命名格式（推薦）**：
+
+```
+{type}-{topic}-{YYYY-MM-DD}.md
+```
+
+**9 type bucket**（從 corpus 萃取 + audit §2.3 規範 + `scripts/tools/generate-reports-index.py` plugin gate）：
+
+| Type            | 用途                                                                                                    | 範例                                               |
+| --------------- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| `design`        | 設計提案 / 系統設計                                                                                     | `become-boot-mode-design-2026-05-13.md`            |
+| `plan`          | 執行計畫 / orchestration / planning                                                                     | `historic-districts-series-planning-2026-05-21.md` |
+| `evolution`     | 進化計畫 / roadmap / spec                                                                               | `homepage-evolution-2026-05-26.md`                 |
+| `analysis`      | 數據分析 / investigation / deep-research / discussion                                                   | `ai-crawler-404-analysis-2026-04-18.md`            |
+| `audit`         | 體檢 / snapshot / hygiene 盤點                                                                          | `reports-archival-audit-2026-05-27.md`             |
+| `audit-routine` | Routine 自動產出的 audit（routine-audit / sense / heartbeat / homepage-evolution / self-evolve-weekly） | `routine-audit-2026-05-27.md`                      |
+| `evaluation`    | A/B test / fit-check / POC / 模型評估                                                                   | `editorial-v6-ab-test-2026-05-09.md`               |
+| `proposal`      | 提案 / strategy（要哲宇拍板的）                                                                         | `2026-election-evolution-proposal-2026-05-27.md`   |
+| `ops`           | 操作報告 / triage / handoff / fix（unmatched fallback）                                                 | `issue-1059-triage-2026-05-21.md`                  |
+| `semiont`       | 其他組織 semiont-analysis（NMTH / TFT / PanSci / NML / ThinkingTaiwan）                                 | `PanSci-semiont-analysis-2026-05-18.md`            |
+
+**規則**：
+
+- **新加報告先過命名 check**：寫到 `reports/*.md` 頂層之前先想「這屬於哪個 type bucket」。命中 → 用對應 prefix；命不中 → 用 `ops` fallback
+- **不搬既有檔**：113 個既有頂層 \*.md 維持原命名（per audit §3「不搬家成本太高 / 239 references」）。本規範只約束新加 report
+- **subdir 不受規範約束**：`reports/research/{YYYY-MM}/{slug}.md` 用 article-slug；`reports/probe/YYYY-MM-DD.md`、`reports/weekly/YYYY-MM-DD.md` 用 date；`reports/ab-tests/`、`reports/music-media-audit/`、`reports/translation-research/`、`reports/harvest/` 各有自己 convention，皆健康
+- **type 增加 SOP**：若實際寫作出現第 10+ type，先 append [audit report §4 Layer 2](../../reports/reports-archival-audit-2026-05-27.md) 規範 → 同步加入 `scripts/tools/generate-reports-index.py` TYPE_BUCKETS regex
+- **歸檔自動分桶**：每日 06:00 + 23:00 `bash scripts/tools/refresh-data.sh` Step 13 跑 `generate-reports-index.py` 自動 regen `reports/INDEX.md`，按 9 type × 月份 雙軸索引
+
+**為什麼這條 convention**：
+
+- 9 type bucket 不是 top-down 設計，是 113 file corpus 真實規律的命名（per audit §2.3 regex distribution）
+- 對未來自己最大幫助：grep `reports/*-design-*` 找 design / `reports/*-audit-*` 找 audit，~90% noise reduction
+- 對 fork Taiwan.md 的人最大幫助：copy `reports/INDEX.md` + `scripts/tools/generate-reports-index.py` 立刻有同樣的 observability
+
+**反例**（避免）：
+
+```
+❌ 2026-election-evolution-proposal-2026-05-27.md  # double-date prefix 冗餘
+✅ election-evolution-proposal-2026-05-27.md       # 單 date suffix
+
+❌ P1-batch-repair-2026-05-13.md                   # tier-letter prefix 是 internal label 不對外
+✅ ops-p1-batch-repair-2026-05-13.md               # ops 是 routine ops report
+
+❌ daily-heartbeat-2026-04-11.md                   # heartbeat 是 routine 名稱不是 type
+✅ audit-routine-heartbeat-2026-04-11.md           # audit-routine 更明確
+```
+
 ### Step 1.8: Spawn agent 選型 🤖
 
 Stage 1 spawn 研究 agent 時，**必須先判斷需不需要直接落檔**：

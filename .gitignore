@@ -94,6 +94,10 @@ reports/visual/diff/
 reports/visual/diff-report.html
 reports/visual/diff-summary.json
 
+# POC / scratch reports (per reports-archival-audit-2026-05-27.md Layer 1)
+# 暫存實驗檔不該追蹤；改寫到 reports/scratch/ 視同 .gitignored workspace。
+reports/scratch/
+
 # Semiont worktree 多 session 隔離（2026-04-20 δ）
 .worktrees/
 
