@@ -19,6 +19,7 @@ const categorySlugMap = {
   Society: 'society',
   Economy: 'economy',
   Lifestyle: 'lifestyle',
+  Politics: 'politics',
 };
 
 let titleToUrl = null;
@@ -58,7 +59,10 @@ export default function remarkWikilinks() {
       while ((match = regex.exec(node.value)) !== null) {
         // Text before the match
         if (match.index > lastIndex) {
-          parts.push({ type: 'text', value: node.value.slice(lastIndex, match.index) });
+          parts.push({
+            type: 'text',
+            value: node.value.slice(lastIndex, match.index),
+          });
         }
 
         const isBold = match[1] !== undefined;

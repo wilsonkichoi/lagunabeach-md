@@ -39,6 +39,7 @@ const CATEGORY_MAPPING: Record<string, string> = {
   society: 'Society',
   economy: 'Economy',
   lifestyle: 'Lifestyle',
+  politics: 'Politics',
 };
 
 function safeMatter(fileContent: string): {
