@@ -262,6 +262,36 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-27 twmd-spore-publish-daily 17:35 routine — Threads contenteditable insertLineBreak strips \n + X composer multi-paragraph insertText 觸發 thread-mode auto-split + URL 6× duplication
+
+- **原則**：在 routine context（無 observer，無 computer-use clipboardWrite grant，cron pairing timed out）下用 Chrome MCP + Bash osascript 走 spore-publish 全自動 ship 時，**Threads / X contenteditable 對 multi-paragraph insertText 處理方式不一致**：(1) Threads 主貼 contenteditable + execCommand insertLineBreak 之間每段 → \n 全被 strip，最終 innerText 0 line breaks，但內容完整（320 CJK 顯示為單塊 prose 但可讀，readers 可接受）；(2) X 主貼 contenteditable + multi-paragraph insertText (含 URL) → 觸發「thread mode」自動分裂，URL 被吸收進 link card preview 同時 inline 重複 6+ 次，textLen 從預期 ~441 膨脹到 1874。**Workaround**：X composer 必須用 **single-paragraph spaced text**（用全形空格或半形空格分隔 4 個段落 + 1 個 URL，不用 \n\n），insertText 後 textLen 正確（441 with hookIdx=0 / urlIdx=424）才能 post。Threads 同樣的 multi-paragraph 是 OK 的（spacing 收掉但內容對），不需 single-paragraph workaround。
+- **觸發**：2026-05-27 17:30 routine twmd-spore-publish-daily ship 落日飛車 #101/#102。Threads ship 兩次：第一次 cancel 誤觸 phantom dialog + JS click 發佈未實際發出，第二次成功 post 結構正確（main 320 CJK 含圖 + reply URL）。X ship 三次：第一次 cmd+v 文字 clipboard 後 X 編輯器 thread mode 把段落順序反轉（URL→關鍵節點→中間發生→14年→你知道嗎 reverse order）；第二次清空後 insertText with \n\n breaks 仍反轉 + URL 6× 重複；第三次清空後 insertText with single-paragraph spaced text（用半形空格分隔）成功 textLen=441 結構正確 → post via `[data-testid="tweetButtonInline"]` dispatchEvent MouseEvent sequence ✅。
+- **可能層級**：
+  - **操作規則** → SOCIAL-POSTING-PIPELINE.md / SPORE-PIPELINE Stage 4 增加 routine-context-specific guidance「Threads 用 multi-paragraph insertText OK / X 必須用 single-paragraph spaced text」+ 範例 JS snippet
+  - **REFLEXES 候選** → 「Platform contenteditable behaviors are not isomorphic — same insertText with \n\n: Threads strips silently OK, X corrupts via thread-mode split」一般化（subset of REFLEXES #38 混維度 silent killer 的同源 pattern：「跨平台統一抽象」假設掩蓋具體實作差異）
+  - **DNA 候選** → routine context 無 computer-use access 時的 fallback chain canonical：osascript PNG clipboard + Chrome MCP cmd+v image / execCommand insertText for text / dispatchEvent for post buttons + post-ship verify via timeline navigation
+- **儀器化候選**：(A) SOCIAL-POSTING-PIPELINE.md §X composer thread-mode workaround section（single-paragraph spaced text + textLen / hookIdx / urlIdx 三件 sanity check）(B) spore-publish-daily routine 補一個 platform-aware insertText helper JS module 重用 (C) 寫一個 X composer behavioral probe test：給定 multi-paragraph + URL text，預期 textLen 應 ≤ 1.2× expected，若 > 1.5× → thread-mode 觸發 alert (D) Threads phantom dialog 防護：DOM mutation observer 偵測新 dialog 出現 → 自動 cancel 不在 dialog 0 範圍內的 dialog
+- **verification_count**: 1（首次 routine 自動 ship 走 Chrome MCP + osascript 路徑遇到 X composer thread-mode bug — 過去 #97/#98 早上 10:21 routine 是 computer-use 完整 grant 場景用 cmd+v + computer.type，本次無 grant 走 JS execCommand insertText 才暴露 X-specific 行為差異）
+- **severity**: structural（影響所有未來 routine context 無 computer-use grant 場景 — 若不 instrument 進 pipeline，下次 routine 又會 hit 同樣 bug，需要 3× retry + manual workaround）
+- **跨檔關聯**：[SPORE-LOG.md #101/#102](../factory/SPORE-LOG.md) + [SPORE-BLUEPRINTS/101-落日飛車.md](../factory/SPORE-BLUEPRINTS/101-落日飛車.md) + [SOCIAL-POSTING-PIPELINE.md](../pipelines/SOCIAL-POSTING-PIPELINE.md) + [REFLEXES #38 混維度 silent killer](REFLEXES.md) + [feedback_chrome_threads_text_input](../../../../.claude/projects/-Users-cheyuwu-Projects-taiwan-md/memory/feedback_chrome_threads_text_input.md)
+
+---
+
+### 2026-05-27 twmd-spore-publish-daily 17:35 routine — SPORE-INBOX §Pending 5/15 candidates image gate fail rate ~33% (5/15 fail image ≥ 2 hard)，spore-publish gate 過嚴 vs REWRITE-PIPELINE 媒體編織 soft suggestion 結構性 gap
+
+- **原則**：本日 routine candidates 跑 quality gate 4 hard checks（prose-health / word-count / footnote-density / media-richness），media-richness image ≥ 2 hard 攔下 5 篇 candidates（二二八事件 / 曾博恩 / 施振榮 / 飲料封膜機 / 尊朱玉恩）— 都是優質長文（4500-7900 CJK）但缺 hero + scene-mid 圖。Gate 2.6 v1.1 spawn ARTICLE-INBOX EVOLVE entry 機制（哲宇 2026-05-26 directive）這次首次大規模觸發。**結構性 gap**：(1) REWRITE-PIPELINE 對 image 是 soft suggestion 不是 hard gate，多數 article 進 spore-publish 池時 image=0 是常態；(2) 高品質文章因缺圖被 throttle 自動 ship，但圖補強需 30-60 min 人工搜圖 + attribution，routine 無法自動補；(3) ARTICLE-INBOX EVOLVE entry 累積會超出 routine 自然 throughput（一天 spawn 5 條 EVOLVE 但 REWRITE routine 一天只 process 1-2 篇）→ EVOLVE backlog 結構性膨脹。
+- **觸發**：2026-05-27 17:35 routine candidate 排序 P0 二二八事件 (image=0 fail + footnote C fail) → P2 曾博恩 (image=0) → 施振榮 (image=0) → 落日飛車 (3 image ✓) PASS。FIFO 5 個 P2 中 1 個 PASS / 4 個 image fail。
+- **可能層級**：
+  - **操作規則** → ARTICLE-INBOX 補一條 batch umbrella entry「📷 SPORE-INBOX 候選圖片補強 batch 2026-05-27 — 5 articles missing hero + scene-mid」列 5 paths，避免 5 條獨立 entry 污染 INBOX
+  - **REWRITE-PIPELINE 修補候選** → §媒體編織 從 soft suggestion 升 medium gate（baseline image ≥ 2 hero+scene-mid 是必要 baseline 非 ideal）
+  - **REFLEXES 候選** → 「Hard gate 上游 vs 下游 mismatch 是 throttle 主因」一般化（subset of REFLEXES #43 工作流跨 routine 同源 pattern）
+- **儀器化候選**：(A) ARTICLE-INBOX batch umbrella entry 立即補 (B) SPORE-PUBLISH-PIPELINE §5.2 LESSONS surface 規則加 row「連 ≥ 2 cycle 同類 gate fail rate ≥ 30% → upstream pipeline 該 gate 升級候選」 (C) REWRITE-PIPELINE Step 4.3 §媒體編織 升 gate 升級 proposal
+- **verification_count**: 1（spore-publish v1.1 §Stage 2.6 spawn ARTICLE-INBOX EVOLVE 機制 5/26 builtin 後首次 routine 觸發 — 5/26 routine 跑時是 image hard gate 全 fail = 100% 觸發過嚴；今天 routine 是 33% fail = 仍偏高但有 1 個 candidate pass，gate level 合理但 upstream pipeline 該補強）
+- **severity**: structural（影響所有未來 spore-publish routine throughput — image 補強若不從 REWRITE pipeline 端 instrument 入 hard gate，spore-publish 永遠 throttle）
+- **跨檔關聯**：[SPORE-PUBLISH-PIPELINE.md §2.6 + §Stage 5 復盤](../factory/SPORE-PUBLISH-PIPELINE.md) + [ARTICLE-INBOX.md](ARTICLE-INBOX.md) + [REWRITE-PIPELINE §4.3 媒體編織](../pipelines/REWRITE-PIPELINE.md) + 5/26 v1.1 instrument session
+
+---
+
 ### 2026-05-27 #99 portaly 五月公開信 ship — 站方公開信型 spore (F 模板) ≠ viral hook spore (A/B/C/D/E)，必須分離 family
 
 - **原則**：對外要求支持是一份信任的責任，必須跟 viral hook spore 的 tone 紀律**完全反轉**。原本所有 spore 都套同一 pipeline rules（朋友 tone「欸你知道嗎」/ 短句 stab / 破折號 / 場景化）— 但這套 tone 套到 sponsorship / milestone / announcement 類 spore 上會讀成「網路梗 tone」「玩心」「隨便」。哲宇 5/27 直接 callout v1 draft 5 條根因：(1) 太隨便、(2) 晶晶體（monthly / Portaly inline 直翻）、(3) 語句斷斷續續（short stab 句多）、(4) 對專案不了解的人看不懂（假設 follower / 沒建 context / 沒說 why this matters）、(5) CTA 沒承擔信任的重量（「想加入續訂節奏 / 一次性也可以 / 不一定要 monthly」邏輯輕浮）。需要分離出 F「站方公開信型」family，走教授對社會做科普 + 公開信路線。

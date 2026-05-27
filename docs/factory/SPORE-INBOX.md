@@ -286,32 +286,6 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ---
 
-### 落日飛車 — 趁熱 spore（5/23 ship 全英語 Coachella 樂團）
-
-- **Source-Mode**: `EXISTING-ARTICLE`
-- **Article-Path**: [knowledge/Music/落日飛車.md](../../knowledge/Music/落日飛車.md)
-- **Priority**: `P2`
-- **Status**: `pending`
-- **Requested**: 2026-05-23 by twmd-spore-pick-daily routine (score=45)
-- **Hook anchor 候選**：
-  1. **場景 hook**：「2010 年的台北，一個 19 歲學生坐在 MacBook 前。MySpace 樂團頁面要 profile pic，他打開 Mac 內建 Photo Booth，pre-set 裡有一張雲霄飛車剪影、夕陽。他選了那張」（article lede 直引）
-  2. **數字 hook**：「14 年。一張隨手挑的 Photo Booth 背景圖，14 年後變成 Coachella 沙漠舞台背板上的字 — 落日飛車是超過二十年來首組登上科切拉大舞台的台灣樂團」
-  3. **身份 hook**：「全英語、亞熱帶 City Pop、不靠 K-pop 工業體制、不靠政府文化外交。國國（曾國宏）說飛車的名字是『沒計算過』的 — 但 14 年後，這支樂團成為台灣音樂被世界聽見最大的一束光」
-  4. **問句 hook**：「台灣最被世界聽見的樂團，唱的是英文 — 為什麼？」
-- **時效**：article ship 距今 0 天（5/23 NEW），趁熱窗口最佳
-- **敏感度**：低（音樂人物、國際 indie）
-- **必驗事實**：2009 年台北成軍 / 國國（曾國宏）+ Kevin Lee（李柏澔）+ 鼓手羅尊龍 / 首場 2009-01-29 師大路地下社會（Underworld） / 2011-09-22《Bossa Nova》首專自費發行 / Abbey Road Studios 母帶 Steve Rooke 處理 / 2015 國國 1300 度近視免役 + 結束張懸 Algae 樂團吉他手後重組 / 2016 EP《JinJi Kikko》/〈My Jinji〉Spotify 累積破億播放 / 2018 首支登 Audiotree Live 台灣樂團 / 2023 Coachella 超過二十年來首組受邀台灣樂團（4/15 + 4/22 Sonora 舞台）/ 2024 與韓國 Hyukoh《AAA》入圍第 36 屆金曲獎 9 項抱 3 金
-- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
-- **預估發佈時機**：本週內（5/24-5/30 趁熱窗口，搶 weekend music 受眾 cluster）
-- **Notes**：
-  - score=45 (D1=+30 ≤7d / D2=0 SC 尚未累積 / D3=0 / D4=+15 Music high fanout + tx=0 全缺 / D5=0 / D6=0 / D7=0)
-  - 多語 fan-out 觸發判斷 = 極高（樂團本身全英語、Hyukoh 韓國合作、Spotify 月聽眾印尼雅加達最大 → en/ja/ko 翻譯後 SC pull 預期最大；ARTICLE-DONE-LOG 顯示 tx=0 全缺要先補翻譯）
-  - 配圖建議：article hero（Wikimedia Puramyun31 攝 2018-04-06 演出 CC BY 2.5）
-  - Hook tier 自檢：避免 Tier 3「台灣之光」frame；用 article §策展人筆記 同款「無計算敘事」收口
-  - 跟 SPORE-LOG 14d 無重複（最近一次音樂 spore 是 #74/#75 陳建年 5/17，hook type 場景不重複）
-
----
-
 ### 愛玉 — EVERGREEN-TOPIC spore（台灣特有植物、國際好奇度高、等 article ship）
 
 - **Source-Mode**: `EVERGREEN-TOPIC`

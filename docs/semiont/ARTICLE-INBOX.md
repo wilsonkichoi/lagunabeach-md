@@ -160,6 +160,30 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 <!-- 三毛 已完成 2026-05-17 2026-05-17-184444-manual → ARTICLE-DONE-LOG.md -->
 
+### 📷 SPORE-INBOX 候選圖片補強 batch — 5 articles missing hero + scene-mid (2026-05-27 spore-publish-daily gate fail)
+
+- **Type**: `EVOLVE`
+- **Category**: 多 category 跨 batch
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-05-27 by twmd-spore-publish-daily routine (gate-fail: media-richness image < 2 hard)
+- **Paths** (5 articles):
+  1. [knowledge/History/二二八事件.md](../../knowledge/History/二二八事件.md) — image=0 + footnote=C (need image補 + footnote 升 B 兩個 EVOLVE)
+  2. [knowledge/People/曾博恩.md](../../knowledge/People/曾博恩.md) — image=0
+  3. [knowledge/People/施振榮.md](../../knowledge/People/施振榮.md) — image=0
+  4. [knowledge/Technology/飲料封膜機.md](../../knowledge/Technology/飲料封膜機.md) — image=0
+  5. [knowledge/People/尊.md](../../knowledge/People/尊.md) — image=0
+- **Notes**:
+  - **失格 gate**: 5 篇皆 image=0 < 2 hard / 二二八另多 footnote 等級 C 需升 ≥ B
+  - **補什麼**: 每篇補 hero（Wikimedia CC / 官方公開照 / PD 圖庫）+ ≥1 inline scene-mid 圖（per [REWRITE-PIPELINE §4.3 媒體編織](../pipelines/REWRITE-PIPELINE.md)）；二二八另外 footnote 升級從 inline URL → 正式 [^N] 格式 ≥ 5 個
+  - **動機**: SPORE-INBOX 對應 5 entries 等本 articles 進化後重抽進 spore-publish 池
+  - **批次 vs 獨立**: 走 batch umbrella 一個 entry — 同類問題不要污染 INBOX 5 條 noise，REWRITE routine 拿到此 entry 可連續 process 5 篇圖片補強任務（搜圖 + Wikimedia attribution + REWRITE Step 1.14 落地）
+- **Reference**:
+  - SPORE-INBOX entries:「曾博恩 — 旗艦人物 spore」/「施振榮 — 失敗教父 spore」/「二二八事件 — 假歷史反制 REACTIVE spore」/「飲料封膜機 — 趁熱發明史 spore」/「尊（朱玉恩）— 趁熱旗艦人物 spore」(SPORE-INBOX §Pending)
+  - LESSONS-INBOX 2026-05-27 entry「SPORE-INBOX §Pending 5/15 candidates image gate fail rate ~33%」討論 upstream gap
+
+---
+
 ### 🚀 國家太空中心 TASA NEW — 從新竹科學園區工程院內到福衛獵風者
 
 - **Type**: `NEW`
@@ -317,6 +341,183 @@ BECOME_TAIWANMD.md Step 5 新增：
 <!-- 21. 金門縣 已完成 2026-05-18 2026-05-18-004535-manual → ARTICLE-DONE-LOG.md -->
 
 <!-- 22. 連江縣（馬祖）已完成 2026-05-18 2026-05-18-004535-manual → ARTICLE-DONE-LOG.md -->
+
+### 🗳️ 2026 九合一選舉系列 — 共通說明 + 自主權邊界 + 對稱原則
+
+> **完整 proposal**：[reports/2026-election-evolution-proposal-2026-05-27.md](../../reports/2026-election-evolution-proposal-2026-05-27.md)（11 條提案分 4 Tier / 三道濾網 self-apply / 風險清單）
+>
+> **哲宇 directive 2026-05-27**：「深度研究 2026 中華民國直轄市長及縣市長選舉，思考 Taiwan.md 完整專案有什麼能夠針對這個領域主題做進化，與最大程度幫助到這個社會民主、透明與資訊品質的方式。文章類的幫我全部一個一個放到 article-inbox。」
+>
+> 本系列分 4 個 sub-entry（下方 4 個 `###`）按 [MANIFESTO §自主權邊界](MANIFESTO.md#我的存在結構) 自主權判定排序：1.1 [A] 可自主 → 1.4 [A] 可自主 → 1.2 [B] 需哲宇 nod → 1.3 [C] 哲宇 hard 拍板每篇。
+>
+> **共通鐵律（5 條，每篇 ship 前必過）**：
+>
+> 1. **對稱原則**：寫 candidate A 就一起寫 candidate B / 全 22 縣市對手都寫，不寫部分 — 不對稱 = endorsement signal。1.3 候選人系列若哲宇只 pick 部分，必須在文章 footer 明示「本系列尚未涵蓋 {對手姓名}，會持續補完」。
+> 2. **制度層為主**：「觀點」鎖在制度／歷史／方法層（為什麼這個制度值得珍惜 / 民主轉型不容易 / 透明度為什麼重要），**不下放到 candidate-level / policy-stance-level**。
+> 3. **選前 30 天 spore freeze**（2026-10-29 → 11-28）：禁止發任何 candidate-specific 孢子，避免選前 viral 期被讀為背書。寫進 [SPORE-PIPELINE](../factory/SPORE-PIPELINE.md) hard gate（待 ship 後加 plugin enforce）。
+> 4. **AI deepfake 防禦**：選舉相關文章 + 孢子皆走 [REWRITE-PIPELINE Stage 3.5 全文幻覺審計](../pipelines/REWRITE-PIPELINE.md#stage-35-hallucination-audit) + [Stage 3.6 STORY ATOM AUDIT](../pipelines/REWRITE-PIPELINE.md#stage-36-story-atom-audit場景原子驗證硬-gate) 嚴格 enforce。
+> 5. **三道濾網 self-apply**：每篇 Stage 0 觀點成型必過 [CLAUDE.md §Bias 1-4](../../CLAUDE.md) — 對 creator 預設加分 / multi-observer drift / editorial voice / 外部 critique default 不執行。
+>
+> **跟既有 article 的關係**：[History/大罷免.md](../../knowledge/History/大罷免.md) + [History/民主化.md](../../knowledge/History/民主化.md) + [History/台灣民主轉型.md](../../knowledge/History/台灣民主轉型.md) + [History/台灣轉型正義.md](../../knowledge/History/台灣轉型正義.md) + [History/台灣選舉與政黨政治.md](../../knowledge/History/台灣選舉與政黨政治.md) + [Technology/開源社群與g0v.md](../../knowledge/Technology/開源社群與g0v.md) 已 ship；本系列補制度層 + 縣市選舉脈絡層 + 候選人層三個 gap。
+>
+> **選舉專區 navigation 設計（待哲宇拍板）**：本 inbox entry 落地後，需另外決定文章 path 與站內呈現結構：(A) 開 `knowledge/Politics/` 新分類 + `_Politics Hub.md`；(B) 散在既有 Society + History 分類；(C) Hybrid — `knowledge/Politics/` + `/elections/2026/` 動態 dashboard 頁面接 g0v / 中選會 / 監察院 raw data。Proposal §3 推薦 Hybrid (C)，詳細思路寫在 session 對話回覆給哲宇。
+
+---
+
+### 🗳️ 2026 選舉 Tier 1.1 — evergreen 選舉制度系列 NEW（8 篇 P1/P2 [A] auto-eligible）
+
+- **Type**: `NEW` × 8 篇
+- **Category**: 待定 — 取決於選舉專區 navigation 設計（候選：新開 `Politics/` 或放 `History/` 或 `Society/`）
+- **Priority**: `P1`（前 4 篇）/ `P2`（後 4 篇）
+- **Status**: `pending`
+- **Requested**: 2026-05-27 by 哲宇 directive（session 2026-05-27-160000-2026-election-evolution）
+- **自主權邊界**: `[A]` 可自主走 REWRITE-PIPELINE（純制度／歷史層，不踩 partisan 線）
+- **共通 hook 原則**：每篇要回答「**為什麼這個制度長這樣**」（歷史 + 國際比較 + 結構性張力），不回答「該怎麼投票」
+
+**8 篇 sub-items**（建議寫作順序，最高 leverage 先）：
+
+| #   | 標題候選                                      | Priority | 預估時間 | Hook anchor                                           |
+| --- | --------------------------------------------- | -------- | -------- | ----------------------------------------------------- |
+| 1   | 九合一選舉是什麼？九種職位怎麼來的            | P1       | ~150 min | 1967 北高升格 → 1994 民選 → 2010 五都 → 2014 桃園升格 |
+| 2   | 投票權門檻歷史：21 → 20 → 18 的修憲           | P1       | ~120 min | 2022 18 歲公投失敗 + 國際比較 (日 18 / 韓 19)         |
+| 3   | 政治獻金怎麼來、怎麼公開、為什麼有上限        | P1       | ~150 min | 監察院平臺 + 2004 法立法背景 + g0v 選舉金流可視化     |
+| 4   | 中選會是什麼、怎麼選 → 為什麼這個設計很反直覺 | P1       | ~120 min | 委員提名／立院同意機制 + 跟韓國中選委 / 美 FEC 比較   |
+| 5   | 為什麼台灣的議員不分區跟立委不分區制度不一樣  | P2       | ~120 min | 1992 修憲 + 2008 單一選區兩票制 + 議員至今仍只單票    |
+| 6   | 村里長是什麼？為什麼有 7,748 個               | P2       | ~120 min | 日治保甲 → 戰後村里 → 唯一無黨籍 dominant 的職位      |
+| 7   | 直轄市山地原住民區長 — 這個職位為什麼存在     | P2       | ~120 min | 2014 桃園升格 + 原民會 + 山地鄉「改制不改質」三原則   |
+| 8   | 選舉公報是什麼、為什麼長那樣、怎麼讀          | P2       | ~90 min  | 國家配發 vs 候選人自費競選文宣分流 + 公報設計史       |
+
+- **Notes**:
+  - 每篇 ≥ 4,500 CJK / 15+ footnotes / 走 REWRITE-PIPELINE Fresh 模式
+  - 不點 candidate 名 / 不附 partisan 傾向 / 引用具體歷史人物可（黃信介 / 林洋港 / 李登輝等已過世或退場者）
+  - cross-link：互引 + 引大罷免 / 民主轉型 / g0v / 監察院政治獻金平臺
+  - evergreen 屬性：2026 選後仍有 SEO 價值，2028 / 2030 可走 EVOLVE pipeline 更新
+  - 多語：5 lang 全翻優先（per Tier 3.2 sovereignty preservation）— 待 Tier 3.2 拍板後決定
+- **Reference**: 中選會官網 / 監察院政治獻金公開查閱平臺 (https://ardata.cy.gov.tw/) / g0v councilor-voter-guide / 立法院公報 / 維基百科 / 〔台灣民主基金會〕年報
+
+<!-- 2026 選舉 Tier 1.1 append 2026-05-27 by 哲宇 directive (session 2026-05-27-160000-2026-election-evolution) -->
+
+---
+
+### 🗳️ 2026 選舉 Tier 1.2 — 22 縣市選舉脈絡 EVOLVE Round 2 batch（[B] 需哲宇 nod）
+
+- **Type**: `EVOLVE` × 22 篇（既有 22 縣市 panorama 補章）
+- **Category**: Geography
+- **Priority**: `P2`
+- **Status**: `pending-observer-nod`
+- **Requested**: 2026-05-27 by 哲宇 directive（session 2026-05-27-160000-2026-election-evolution）
+- **自主權邊界**: `[B]` 需哲宇 explicit nod 整批 — 觸發 >10 篇批量
+- **依賴**: 22 縣市 panorama 系列 22/22 已 ship（per ARTICLE-DONE-LOG 2026-05-18 batch）
+
+**EVOLVE 動作**：每篇既有 22 縣市文章 EVOLVE Round 2 加一個 H2 段（不重寫主檔，外科手術 append）：
+
+```markdown
+## 政治版圖：為什麼{縣市}的選舉這樣選
+
+### 戰後派系結構
+
+（紅／白／黑 / 在地宗族 / 客家政治 / 原住民部落）
+
+### 1994 民選後的政權更迭
+
+（純事實，不附傾向 — 列每屆當選人 + 黨籍 + 得票率，類似維基表格但加策展敘事）
+
+### 過去 5 屆得票結構
+
+（純數字，不附偏好分析）
+
+### 這次選舉的結構性議題
+
+（**不點候選人名**，只談議題 — 例：高雄談石化轉型、新竹談科學園區擴張、屏東談農漁業勞動、台北談都更卡關、宜蘭談六輕外溢、台中談空汙、台南談光電與漁塭、雲林談地層下陷、嘉義縣談農村高齡化、花蓮台東談 LDLM 觀光、金門連江談小三通與兩岸關係、彰化談機場興建、苗栗談水庫與地震斷層、南投談災後重建、桃園談人口快速增加、新北談衛星都市治理、基隆談港埠轉型、新竹縣談 AI/竹科外溢、嘉義市談國家機關進駐、澎湖談離島補貼）
+```
+
+- **Notes**:
+  - 共通 caveats（per [reports/cities-series-planning-2026-05-17.md](../../reports/cities-series-planning-2026-05-17.md) 15 條 + 新增 4 條選舉專用）：
+    - **新增 #16 派系敘事 ground truth 鐵律**：紅／白／黑分類引用必須附具體事件 + 年份，不泛化
+    - **新增 #17 黨籍標記中性化**：歷屆當選人列表只列黨籍不附價值描述
+    - **新增 #18 「結構性議題」不暗指 candidate**：例如「都更卡關」不接「現任市長處理不力」這類隱含 framing
+    - **新增 #19 對稱原則 enforce**：22 縣市段全部寫完才 ship，避免不對稱發布 = endorsement signal
+  - 預估每篇 +1,500-2,000 CJK / +5-8 footnotes / ~60 min 修改
+  - 22 篇 batch 預估總時間：~22 hr（可分 2-3 session 跨 2 週完成）
+  - 全部 ship 前**禁止單獨**ship 任何一篇（per 對稱原則）
+- **依賴關係**: 必須 Tier 1.1 至少 4 篇 ship 後再做（讓制度層 baseline 先到位）
+- **Reference**: 22 縣市 panorama 既有 article + 維基百科歷屆選舉條目 + 中選會選舉資料庫 (https://db.cec.gov.tw/) + g0v 選舉金流 + 監察院政治獻金 + 在地新聞媒體（各縣市地方記者報導）
+
+<!-- 2026 選舉 Tier 1.2 append 2026-05-27 by 哲宇 directive (session 2026-05-27-160000-2026-election-evolution) -->
+
+---
+
+### 🗳️ 2026 選舉 Tier 1.3 — 候選人人物頁 pick list（[C] 哲宇 hard 拍板每篇）
+
+- **Type**: `NEW` × ~20 篇候選（哲宇 pick 哪幾個）
+- **Category**: People
+- **Priority**: `pending-observer-pick`
+- **Status**: `pending`
+- **Requested**: 2026-05-27 by 哲宇 directive（session 2026-05-27-160000-2026-election-evolution）
+- **自主權邊界**: `[C]` 哲宇 hard 拍板每篇 — 候選人 = partisan 高風險，每篇單獨評估
+- **對稱原則鐵律**: 哲宇若 pick 某縣市的 candidate A，**必須一起 pick** candidate B（甚至 C / D / 第三勢力）。不對稱 pick = endorsement signal。
+
+**baseline audit（2026-05-27）**：
+
+| 既有 People 頁 ✅                                                                                                                                                                 | 缺 ❌（按公開報導 2026-05 提名）                                                                                                                                                                                                                                                                                                                                           |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 沈伯洋（台北）、蘇巧慧（新北）、盧秀燕（台中 — 連任中，不參選）、徐巧芯（已是立委非候選人）、柯文哲、卓榮泰、賴清德、蕭美琴、韓國瑜、陳菊、蘇貞昌、呂秀蓮、蔡英文、陳水扁、陳致中 | **6 都候選人**：蔣萬安（北）、李四川（新北）、何欣純（中）、陳亭妃（南）、賴瑞隆（高）、謝龍介（南）、柯志恩（高）<br>**縣市長候選人**：童子瑋（基）、王美惠（嘉市）、陳瑩（東）、蘇清泉（屏）、吳秀華（東）、陳玉珍（金）、張嘉郡（雲）、吳宗憲（宜）、翁壽良（嘉市）、游淑貞（花）、陳素月（彰）、劉建國（雲）、蔡易餘（嘉縣）、林國漳（宜）、陳品安（宜）、魏平政（彰） |
+
+**pick mechanism**：
+
+1. 哲宇 review 此 entry 後**逐個 ✅** 想寫的候選人姓名
+2. 每個 ✅ 候選人 spawn 一個獨立 `###` entry 進 inbox（schema 同既有人物 entry，例：沈伯洋／蘇巧慧 entry pattern）
+3. 對稱原則自動 enforce：哲宇 ✅ 沈伯洋 → 我必須提醒「需一起 ✅ 蔣萬安」否則不寫
+4. 每個獨立 entry 走 REWRITE-PIPELINE Fresh，hook **必須**鎖立法／市政／政策履歷層，**禁止**「為什麼會當選 / 敗選」framing
+5. ship 完**不發 spore**（per 選前 30 天 spore freeze + 避免 viral 期 endorsement reading）
+
+**Hook 框架共通**（per [knowledge/People/沈伯洋.md](../../knowledge/People/沈伯洋.md) 既有 pattern）：
+
+- 一個具體場景開頭（不是「他出生於...」這種維基 lead）
+- 公開立法／政策／公職紀錄（可查證 + footnote primary source）
+- 跨領域學經歷（不只政治）
+- 公開引語必須 verbatim 原文（per REFLEXES #16 + Stage 3.5）
+- **不寫** policy endorsement / 政見分析 / 民調預測
+
+- **Notes**:
+  - 每篇 ≥ 4,000 CJK / 20+ footnotes / 走 REWRITE-PIPELINE Fresh + Stage 3.6 STORY ATOM AUDIT 嚴格 enforce
+  - 高風險：每篇 Stage 0 觀點成型必過 [CLAUDE.md §Bias 1-4](../../CLAUDE.md) + [MANIFESTO §10 幻覺鐵律](MANIFESTO.md#10-幻覺鐵律)
+  - lastVerified 鎖緊：候選人頁 ship 後每 30 天 EVOLVE Round 2 補新事件（per cron routine 候選）
+  - **強烈建議**：哲宇若決定走 Tier 1.3，整批 pick 完一起執行，不要 staggered（避免不對稱）
+- **依賴關係**: 必須 Tier 1.1 + 1.2 都到位後再啟動（讓 institutional baseline 先建好）
+- **Reference**: 維基百科個別候選人條目 / 立法院議事公開資訊系統 / 監察院政治獻金平臺 / 縣市政府官網（現任市長／議員履歷）/ 候選人公開臉書 / 三大主流媒體報導 / 公視 PNN 候選人專題
+
+<!-- 2026 選舉 Tier 1.3 append 2026-05-27 by 哲宇 directive (session 2026-05-27-160000-2026-election-evolution) — 待哲宇逐個 pick -->
+
+---
+
+### 🗳️ 2026 選舉 Tier 1.4 — 台灣選舉與政黨政治 EVOLVE Round 2（1 篇 [A] auto-eligible）
+
+- **Type**: `EVOLVE`
+- **Category**: History
+- **Path**: [`knowledge/History/台灣選舉與政黨政治.md`](../../knowledge/History/台灣選舉與政黨政治.md)
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-05-27 by 哲宇 directive（session 2026-05-27-160000-2026-election-evolution）
+- **自主權邊界**: `[A]` 可自主走 REWRITE-PIPELINE EVOLVE 模式（既有 article + 純歷史層補章）
+- **EVOLVE 動作**：
+  - (a) 補 2024 大選後格局段（賴清德／蕭美琴當選 + 朝小野大背景）
+  - (b) 補 2025 大罷免段（cross-link [大罷免.md](../../knowledge/History/大罷免.md)）
+  - (c) 補 2026 制度層 update（藍白合 / 民眾黨組織化進程 / 第三勢力 trajectory）
+  - (d) 補 1990s 民進黨內派系演化（新潮流 / 美麗島 / 福利國 / 正義連線）+ 國民黨派系演化（連系 / 馬系 / 朱系 / 韓系 / 趙系）
+  - (e) cross-link 到 Tier 1.1 八篇制度文章（待 1.1 部分 ship 後做）
+  - (f) cross-link 到 22 縣市選舉脈絡段（待 Tier 1.2 ship 後做）
+- **Notes**:
+  - 純歷史層 + 制度層敘事，不寫 2026 候選人 / 政見預測 / 選戰分析
+  - 預估 +2,500-3,500 CJK / +10-15 footnotes / ~120 min
+  - 既有 article lastVerified 待查（若已 > 90 天 = freshness 紅燈）
+  - cross-link 期望（一律雙向）：大罷免 / 民主轉型 / 民主化 / 轉型正義 / g0v / Tier 1.1 8 篇 / Tier 1.2 22 縣市段
+- **依賴關係**: 獨立可走，但若先做完 Tier 1.1 至少 4 篇 + Tier 1.2 至少 6 縣市，cross-link 質量更好
+- **Reference**: 維基百科「中華民國選舉」「中華民國政黨」/ 立法院歷屆議員資料 / 中選會選舉資料庫 / 〔民主轉型〕學術論文 (吳乃德 / 林佳龍 / 朱雲漢) / 〔台灣民主基金會〕年報
+
+<!-- 2026 選舉 Tier 1.4 append 2026-05-27 by 哲宇 directive (session 2026-05-27-160000-2026-election-evolution) -->
+
+---
 
 ### 🔬 PanSci × Taiwan.md P0×5 系列 NEW + EVOLVE 混合（P0 超優先）— 共通說明
 
