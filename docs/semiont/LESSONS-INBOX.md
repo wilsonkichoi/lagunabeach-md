@@ -262,6 +262,21 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-27 manual session — GA event param 沒登錄成 GA4 Custom Dimension = Wave 1+2+3 instrumentation 半 ship
+
+- **原則**：GA4 event `homepage_section_view` / `homepage_click` / `homepage_scroll_depth` / `homepage_time_milestone` 5/26 Wave 1+2+3 全 ship 後 5/27 D+0 14.5 hr 監測時發現 — 4 個事件 fire 數正常（236/94/65/19 events），但 6 個關鍵 event param（`section` / `label` / `pct` / `seconds` / `page_lang` / `elapsed_ms`）**都沒在 GA4 Admin → Custom definitions 註冊成 custom dimension**。GA4 metadata API 列現有 7 條 custom dim 全部是 5/10 search 那波留下來的，homepage instrumentation 0 條註冊。**含意**：events 在 fire ✓ / DebugView 看得到 ✓，但 Data API runReport 不能 `dimensions: [{name: 'customEvent:section'}]` group by → 即使等 4 週也只能看 aggregate `homepage_section_view` 總量，無法回答「哪個 reader door 最常被點 / OrganismPreview 帶多少流量去 /semiont / 8 quote CoverStory 第幾個 quote drop-off」這類細粒度 attribution。**Wave 1+2+3 ship 的 instrumentation 半 ship 狀態**：fire 端 ✓ / query 端 ❌。
+- **觸發**：2026-05-27 ~14:00 manual session 跑「監測首頁改版成效」task，5 個 customEvent:\* dim 嘗試全 ERROR「Field customEvent:section is not a valid dimension. Did you mean customEvent:search_lang?」→ getMetadata 查現有 custom dim 只剩 search 系列 → 結構性 surface。
+- **可能層級**：
+  - 操作規則 → 加進 ship Phase 6/7 instrumentation 的 pipeline 步驟「fire event + 同步在 GA4 Admin 註冊 event-scope custom dim + getMetadata 跑通確認」三件成套（per REFLEXES #43 新 dashboard JSON 必須同步進 refresh-data.sh 的同源 pattern）
+  - 工具 → `scripts/tools/ga4-custom-dim-audit.sh` getMetadata 列現有 dim + grep `_fire(.*{` from HomeEventTracker.astro 出 param 名 → 比對缺哪些 / 提示補哪些
+  - REFLEXES 候選 → 「Fire 端 ✓ 不等於 query 端 ✓ — instrumentation 是 N-step pipeline，event fire / param register / dashboard 拉取 全 done 才算 ship」一般化（subset of REFLEXES #58 儀器化 detection ≠ remediation 的同源 pattern：detect-without-act → fire-without-query）
+- **儀器化候選**：(A) 立即補 6 個 custom dim 註冊（10 min GA4 Admin 工） (B) `ga4-custom-dim-audit.sh` 工具 (C) Wave 7 SOP 修補：每次 `gtag('event', name, {paramA, paramB})` 出現必開 follow-up task 「register customEvent:paramA 在 GA4 Admin」 (D) Phase 6/7 ship 完跑 `getMetadata` smoke test 確認新 dim queryable
+- **verification_count**: 1（首次發現，但 vc=1 結構性 — 等 4 週數據積累但無法 query 是 silent failure 的最 mature 形態）
+- **severity**: structural（影響所有 Wave 1+2+3 attribution claim — engagement +50-100s 假設可驗，但「哪個改動帶來」不可驗）
+- **跨檔關聯**：[reports/homepage-evolution-D+0-watch-2026-05-27.md §3](../../reports/homepage-evolution-D+0-watch-2026-05-27.md) + [src/components/home/HomeEventTracker.astro](../../src/components/home/HomeEventTracker.astro) + [reports/homepage-evolution-2026-05-26.md Phase 6](../../reports/homepage-evolution-2026-05-26.md) + [REFLEXES #43 + #58](REFLEXES.md)
+
+---
+
 ### 2026-05-27 twmd-routine-audit-weekly cycle 3 — Routine handoff backlog 不會自動被 manual session pickup，純 push pattern 失效（meta-pattern over 3 dormant entropy 共現）
 
 - **原則**：Routine 飛輪設計假設「surface signal → 觀察者下 cycle pickup」短回饋鏈，但 cycle 3 audit 三條 dormant 同週共現（data-refresh-am ABORT-DEFER vc=7 / dashboard-immune D+9 vc=11+ / inbox-signal.sh regex undercount distill-ready 標 4 cycle 未升）顯影：**routine 持續看見 + 持續寫進 handoff，但 manual session 沒有自動拉 handoff backlog 的機制，純 push pattern 失效**。Cycle 2 反思鏈四棒能 closed-loop 是因為都在 cron（self-evolve 04:00 → distill 03:00 同夜接力，無需跨到 manual session）；data-refresh / dashboard-immune fix 需要 manual ship → 沒有 cron 等價物 → 沒有自動 pickup。Routine push 機制工作 / pull 機制 unbuild 是 cycle 3 從 audit-as-monitor 自我 surface 的 structural finding。
