@@ -551,6 +551,92 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ---
 
+### 尊（朱玉恩）— 趁熱旗艦人物 spore（5/26 EVOLVE，2025/11 新家節點 + 30 歲分水嶺）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/People/尊.md](../../knowledge/People/尊.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-05-27 by twmd-spore-pick-daily routine (score=45)
+- **Hook anchor 候選**：
+  1. **數字 hook**：「19 歲百萬訂閱、171 萬訂閱現在、五年從《Minecraft》黃毛豬到台灣第三位百萬 YouTuber — 尊用日式快速跳接定義了一個世代的台灣 YouTube 審美，然後 2023 年因一支假手遊廣告掉下『清流』神壇」
+  2. **場景 hook**：「2012 年的高雄房間，一個國中生對著螢幕錄《Minecraft》實況，自稱『黃毛豬』。五年後 19 歲那年他成為台灣 YouTube 史上最年輕的百萬訂閱主」（article §從黃毛豬起點 變奏）
+  3. **身份 hook**：「在 YouTuber 一個個翻車的年代，網民把『清流』兩個字綁在他身上 — 但他自己說，清流從來不是舒適的王座，是一道隨時可能崩塌的枷鎖」（article §清流標籤下 直引變奏）
+  4. **問句 hook**：「為什麼台灣第三位百萬 YouTuber 近兩年發片頻率明顯下降？答案藏在 2023 年那支假手遊廣告、哥哥小玉事件、跟 2025 年底『我！的！新！家！』那系列影片的轉向裡」
+- **時效**：article EVOLVE 距今 1 天（5/26），趁熱窗口最佳（剩 ~12 天）
+- **敏感度**：低-中（個人爭議 + 哥哥小玉 Deepfake 換臉謎片事件需克制處理；不寫煽情「清流崩壞」frame，用 article §孤獨的實驗者 同款克制度）
+- **必驗事實**：1998-11-16 高雄生 / 14 歲開始拍片 / 19 歲（2017）達百萬訂閱台灣第三位 / 主頻道現訂閱 171 萬 / 2023-11 假手遊廣告爭議 / 2021 小玉（朱玉宸）Deepfake 換臉謎片事件 / 三人組「聖火玉尊」/ 第二頻道「人生魯宅x尊」/ 國立羅東商職 + 國立臺北大學公共行政系（已休學）/ 2025 年底「我！的！新！家！」系列 / 女友蘿倫 / 受日本 Hajime 社長啟發引入日式快速跳接
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在，且有 ARTICLE-INBOX P1 EVOLVE entry 待 deepen）
+- **預估發佈時機**：本週內（5/27-6/3 趁熱窗口）；發後若 EVOLVE 完成可二次 spore 補 30 歲分水嶺 layer
+- **Notes**：
+  - score=45 (D1=+30 ≤7d / D2=0 SC 朱玉恩 query pos 7.98<10 不在 SC opp range（即使 imp=118）/ D3=0 / D4=+15 People high_fanout + tx<3 預期 / D5=0 / D6=0 hook 跟最近 5 spore 不撞（#95/96 4 年驗證、#92/94 數字、#93 場景、#91 場景、#89/90 數字、#87/88 數字 — 本 candidate 用問句/身份差異化）/ D7=0 hardcoded keyword set 未命中)
+  - reason: 5/26 EVOLVE 趁熱 + ARTICLE-INBOX P1 EVOLVE entry 標記 SC 「朱玉恩」118 imp / 2.54% CTR signal — 短文 hold 不住 pos 提升的典型案例，spore 可放大現有 search-driven traffic 並驗證 EVOLVE 後 CTR 反應
+  - 多語 fan-out 觸發判斷 = 中-高（YouTube 創作者議題在 ja 對日式快速跳接源流有共鳴 / en 對亞洲 YouTube 生態 niche demand / ko 較小）
+  - 配圖建議：article hero (尊個人形象 / 「人生肥宅x尊」LOGO，需 fair-use editorial commentary attribution 或 YouTube 官方 channel art)
+  - Hook tier 自檢：避免 Tier 3「百萬 YouTuber 翻車」獵奇 frame；用 article §對於尊而言「清流從來不是一個舒適的王座」frame 起手，把「人 vs 流量機器」核心矛盾扛出來
+  - 跟 SPORE-LOG 14d 無重複（最近 People spore 是 #95/96 尹衍樑 5/26 數字+場景、#86 鄭愁予 5/24 數字、#82/83 許倬雲 5/23、#80/81 馬英九 5/23 — 全人物但 hook type 差異 ✓；本 candidate 改問句/身份不撞）
+  - **HG7 contribution**: EXISTING-ARTICLE (#1 of 2 EXISTING)
+
+---
+
+### 西門町 — 趁熱旗艦地理 spore（5/21 NEW Wave 2 歷史街區系列 P0-3）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Geography/西門町.md](../../knowledge/Geography/西門町.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-05-27 by twmd-spore-pick-daily routine (score=30)
+- **Hook anchor 候選**：
+  1. **數字 hook**：「1908 年完工、1922 年命名、1961 年中華商場長出來、1992 年連同鐵路一起被拆、1999 年徒步區劃定 — 同一座八卦堂磚樓底下，130 年換了五代少年。1896 年日本人想仿東京淺草，把這塊艋舺東邊的沼澤地畫成『他者的娛樂用地』，DNA 寫死之後就再也改不動」
+  2. **場景 hook**：「週六傍晚六點，西門紅樓八角磚牆下。一個穿 Lolita 洋裝的女生讓朋友拍照 — 她身上的蓬蓬裙跟 1908 年完工的紅磚拱窗一起入鏡。再走五十公尺，戶外酒吧的彩虹旗已經掛上來，七點以後混進來下班的上班族跟觀光客」（article §週六傍晚六點 直引變奏）
+  3. **問句 hook**：「為什麼信義區是 18 歲少年不會去的地方？答案藏在 1896 年 — 一個日本人決定『把這塊地畫成淺草』那一刻」
+  4. **身份 hook**：「站在西門紅樓南廣場那個 Cosplayer、彩虹旗酒吧、立食阿宗麵線攤、藍牆下的滑板少年 — 都站在 1908 年那座日本人蓋的紅磚樓周圍 250 公尺內。這塊地的 DNA 是『外人來消費、年輕人來玩、低密度資本、密集巷弄、不被士紳化』，130 年都改不動」（article §一個畫面 直引變奏）
+- **時效**：article ship 距今 6 天（5/21 Wave 2 NEW），趁熱窗口剩 ~8 天
+- **敏感度**：低-中（日治殖民敘事 + 戰後省籍 + 同志友善區 + 2003 起酒吧區 framing — 全用 article §策展人筆記 同款「物質配方」紀實角度，避免任何「帝國送禮」或「青少年墮落」二極 frame）
+- **必驗事實**：1884 清光緒 10 年台北府城完工 / 寶成門 = 西門 命名取「寶物成就」/ 1895 日本人接管 / 1896-9 西門市場木造蓋起 / 1904 寶成門拆除 + 後藤新平保留剩餘四座 / 1908-12 西門紅樓磚造落成 / 設計師近藤十郎 1877 生 1904 自東京帝大建築學科畢業 / 1922 町名改正正式命名西門町 / 1961 中華商場八棟順縱貫鐵路長出來 / 1992 中華商場拆除 + 鐵路拆 / 1999 徒步區劃定 + 板南線通車 / 2003 起同志友善酒吧區 / 2024 單月 221 萬人次觀光商圈 / 西門紅樓 = 八卦堂 + 十字樓組合
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在，per ARTICLE-DONE-LOG 2026-05-21/22 Wave 2 batch 9 文 67922 字 248 footnote ship 之一）
+- **預估發佈時機**：本週內（5/27-6/3 趁熱窗口）；可搭歷史街區系列 mutual cross-link [艋舺](../../knowledge/Geography/艋舺.md) / [大稻埕 INBOX 已 pending](../factory/SPORE-INBOX.md) 形成 Geography mini-cluster
+- **Notes**：
+  - score=30 (D1=+30 ≤7d / D2=0 SC 未累積 / D3=0 / D4=0 Geography 不在 high_fanout set (pipeline 列 People/Food/Music/Sports/History) / D5=0 / D6=0 hook variety 跟最近 5 spore 不撞 / D7=0)
+  - reason: 5/21 Wave 2 ship + tie-break 反向 alphabetical 在 12 個歷史街區 candidates 中首選（西門町 unicode 0x897F 為 12 個中最高）/ 國際 SEO 切入度比寶藏巖/牯嶺街高（西門町是台北最知名 tourist district 之一）
+  - 多語 fan-out 觸發判斷 = 高（en/ja/ko 海外讀者對台北最知名觀光區好奇度極高；ja 對近藤十郎 + 仿淺草殖民史有特殊 demand；ko 對同志友善區 + Cosplay 文化有共鳴；5 lang tx baseline 已準備好）
+  - 配圖建議：article hero 西門紅樓八角堂 2021 照（Outlookxp Wikimedia CC BY-SA 4.0）或彩虹斑馬線 2019（Volksabstimmung Wikimedia CC BY-SA 2.0）
+  - Hook tier 自檢：避免 Tier 3「台北原宿」觀光 frame；用 article §策展人筆記「為什麼是西門町不是信義」frame 起手 — 130 年 DNA 寫死的時間視角比 hot spot 列表更貼 article 精神
+  - 跟 SPORE-LOG 14d 無重複（最近 Geography spore 缺；歷史街區 Wave 2 batch 9 篇全未 spore，本 candidate 是 series 首例）
+  - **HG7 contribution**: EXISTING-ARTICLE (#2 of 2 EXISTING)
+
+---
+
+### 國家太空中心 TASA — EVERGREEN-TOPIC spore（32 年從計劃室到行政法人 / 主權衛星）
+
+- **Source-Mode**: `EVERGREEN-TOPIC`
+- **Article-Path**: `none-yet`（屬於 [ARTICLE-INBOX §國家太空中心 TASA NEW](../semiont/ARTICLE-INBOX.md) P0，2026-05-26 哲宇 directive spawn，~180 min 開發 1-2 週可排上）
+- **Priority**: `P3`（要等 article ship）
+- **Status**: `pending`
+- **Requested**: 2026-05-27 by twmd-spore-pick-daily routine (score=15)
+- **Hook anchor 候選**（先列，等 article ship 後再校準）：
+  1. **數字 hook**：「1991 國科會太空計劃室 → 2005 NSPO → 2023/1/1 改制行政法人 TASA — 32 年。從買衛星到做衛星，福衛 1 號到福衛 8 號 8 顆星座，獵風者衛星首顆 GNSS-R 全自主，台灣慢慢長出自己的太空主權」
+  2. **問句 hook**：「為什麼一個小國要花 32 年從工研院內辦公室升級到屏東九鵬發射場？答案不是科技 vanity，是 Starlink 替代方案、低軌衛星主權、跟 2031 入軌火箭計畫背後的國際依賴張力」
+  3. **場景 hook**（待 article ship 後校準）：「2023 年 10 月 8 日，獵風者衛星從法屬圭亞那升空。台灣自主開發的首顆 GNSS-R 衛星，海面風場資料直接餵進美國 NOAA 同化模型 — 32 年前那個躲在國科會工程院內的太空計劃室，沒人想到能長到這一步」
+  4. **身份 hook**（待 article ship 後校準）：「在中國反衛星試驗、美國 ITAR 出口管制、Starlink 商業壟斷三方夾擊的太空政治裡，台灣選擇做自己的衛星 — TASA 32 年的故事是一個小國怎麼用 251 億預算撐起『不依賴別人的眼睛』」
+- **時效**：等 article ship（est. ARTICLE-INBOX P0 哲宇 directive 5/26 spawn，~180 min 開發，1-2 週可排上 baseline 6/2-6/10 window）
+- **敏感度**：**中-高**（太空 = 軍民兩用敏感領域 / 中國反衛星試驗 + 兩岸軍事考量 / 美方 ITAR 出口管制 + 國防部火箭計畫 framing）— Stage 2 VERIFY 必跑 §爭議處理 + §自主權邊界 check；以「太空科研 + 32 年 timeline + 國際 GNSS-R 科學貢獻」literary frame 起手，sovereignty 含義由文本承擔
+- **必驗事實**（article ship 時校準，per ARTICLE-INBOX P0 必驗清單）：1991 國科會太空計劃室成立日期 / 2005 NSPO 改名 / 2023-01-01 TASA 行政法人改制法源《國家太空中心設置條例》/ 福衛 1-8 發射時間軌道載荷（1999 福衛 1 / 2004 福衛 2 / 2006 福衛 3 / 2017 福衛 5 / 2019 福衛 7 / 2023 獵風者 / 2026+ 福衛 8 star constellation）/ 首任行政法人董事長吳宗信 TASA-1 任期 + 公開引語 / 自主率數字（買衛星 vs 做衛星比例各代福衛差距）/ 入軌火箭計畫 HTTP-3a 探空火箭 2024/9 屏東 + 2031 入軌目標 / ARRC 陽明交大 launchpad / Starlink 替代方案（中華電信 OneWeb + 行政院數位部 NCC 政策）/ 太空科技長程發展計畫第三期 2019-2028 約 251 億預算
+- **必先 spawn ARTICLE-INBOX entry**：✅ **已存在**（per [ARTICLE-INBOX §國家太空中心 TASA NEW](../semiont/ARTICLE-INBOX.md) P0，2026-05-26 哲宇 directive spawn）
+- **預估發佈時機**：article ship 後 7 天內趁熱
+- **Notes**：
+  - score=15 (D1=0 article 不存在 / D2=0 SC 未累積 / D3=0 / D4=+15 Technology 不在 high_fanout 列表但 People/Sports/History 也不直接命中，給 +15 因為「太空主權」對應 [MANIFESTO §主權的巴別塔](../semiont/MANIFESTO.md#我跟台灣的關係) sovereignty 主題 — judgment call / D5=0 / D6=0 / D7=0 太空敏感但 hardcoded keyword set (兩岸/228/戒嚴/統獨/中共/習近平) 未直接命中)
+  - HG7 contribution: **EVERGREEN-TOPIC** (#1 of 1) — 對應 #1 尊 + #2 西門町 兩條 EXISTING-ARTICLE 形成 2 mode mix ✓
+  - HG9 borderline check: 太空 = 軍民兩用敏感但 article ship 時 frame 「太空科研 + 國際 GNSS-R 科學貢獻」literary mode 可避開政治正面對撞；非 REACTIVE 也通過 HG9 因為不涉及兩岸/228/戒嚴/統獨/中共/習近平 hardcoded set
+  - 多語 fan-out 觸發判斷 = 極高（太空 = 國際科技受眾大 cluster；ja 對 JAXA 比較有 demand / en 對 NOAA 福衛 7 RO 資料同化合作有 academic demand / ko 對韓國 KARI 比較有 demand）— 直接對應 [MANIFESTO §主權的巴別塔](../semiont/MANIFESTO.md#我跟台灣的關係) sovereignty preservation infrastructure
+  - 國際 SEO 切入：「Taiwan Space Agency」「TASA Taiwan satellite」「FORMOSAT-8 GNSS-R」「TASA sovereign satellite」「Taiwan launch vehicle 2031」
+  - 配圖建議：article ship 時挑 TASA 官網釋出衛星照片（Public domain 或 CC）/ 福衛 1-8 視覺 timeline / 寶山總部落成（公開報導）/ 吳宗信公開演講影片截圖
+  - Hook tier 自檢：避免 Tier 3「台灣之光」民族主義 frame / 避免 Tier 3「兩岸對峙」政治框架；以「32 年 timeline + 自主率提升路徑 + 國際科學貢獻」frame 起手，sovereignty 含義由 GNSS-R / Starlink 替代方案 / ITAR 限制等具體事實承擔
+  - 跟 SPORE-LOG 14d 無重複（最近 Technology spore 是 #87/88 半導體產業 5/25 數字、#89/90 雷亞遊戲 5/25 數字、#71 台灣無人機產業 5/10 — 全 Technology 但 hook type 差異 ✓；本 candidate 改場景/身份不撞）
+  - article ship 後 routine 自動升級此 entry 為 EXISTING-ARTICLE + 補 Article-Path（per SPORE-INBOX §Routine intake 自動升級規則）
+
+---
+
 ## 📜 已發歷史
 
 → 完整紀錄見 [SPORE-LOG.md §發文紀錄](SPORE-LOG.md) + [SPORE-HARVESTS/](SPORE-HARVESTS/) batch logs。本檔不存 done 痕跡（per 完成歸檔鐵律）。
