@@ -313,13 +313,13 @@ Taiwan.md 的進化動力過去主要在 author 層（REWRITE-PIPELINE 內部審
 
 ### 5 條 reply 文風鐵律
 
-| #   | 鐵律                      | 對                                            | 錯                                               |
-| --- | ------------------------- | --------------------------------------------- | ------------------------------------------------ |
-| 1   | **認錯第一句**            | 「你 callout 對」「對，這條是文章該補的」     | 「其實我的意思是...」「但 article 也有提到...」  |
-| 2   | **具體 anchor 不空泛**    | 「1949 林添壽用肉雞，火雞戰後駐台美軍才帶來」 | 「謝謝指正，會改善」                             |
-| 3   | **指向 fix 來源**         | 「文章已更正：taiwan.md/food/X」（含實 URL）  | 「我們會研議改善」                               |
-| 4   | **不卑不亢，平輩語氣**    | 「你」（不是「您」）/ 「我」（不是「我們」）  | 「感謝您寶貴的回饋」/「敝庫將參酌」              |
-| 5   | **🧬 signature 不打廣告** | 結尾單獨一行 🧬                               | 「歡迎追蹤 taiwan.md！」「持續關注我們的內容！」 |
+| #   | 鐵律                               | 對                                                                                                                              | 錯                                                                                                                    |
+| --- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| 1   | **認錯第一句**                     | 「你 callout 對」「對，這條是文章該補的」                                                                                       | 「其實我的意思是...」「但 article 也有提到...」                                                                       |
+| 2   | **具體 anchor 不空泛**             | 「1949 林添壽用肉雞，火雞戰後駐台美軍才帶來」                                                                                   | 「謝謝指正，會改善」                                                                                                  |
+| 3   | **指向 fix 來源（URL 必 encode）** | 「文章已更正：taiwan.md/food/%E5%8F%B0%E7%81%A3%E7%BE%8E%E9%A3%9F%E7%B8%BD%E8%A6%BD/」（含實 URL，**中文路徑 percent-encode**） | 「我們會研議改善」/ 寫 `taiwan.md/food/台灣美食總覽`（Threads/X auto-link 在 non-ASCII 斷掉只 link 到 `/food/` 為止） |
+| 4   | **不卑不亢，平輩語氣**             | 「你」（不是「您」）/ 「我」（不是「我們」）                                                                                    | 「感謝您寶貴的回饋」/「敝庫將參酌」                                                                                   |
+| 5   | **🧬 signature 不打廣告**          | 結尾單獨一行 🧬                                                                                                                 | 「歡迎追蹤 taiwan.md！」「持續關注我們的內容！」                                                                      |
 
 ### Anti-pattern: 紅線焦慮洩漏（per memory `feedback_red_line_anxiety_leak`）
 
@@ -341,6 +341,44 @@ Taiwan.md 的進化動力過去主要在 author 層（REWRITE-PIPELINE 內部審
 - Bucket B entity missing reply: 80-130 chars（認 + 「會在 EVOLVE 補」）
 - Bucket E positive engagement reply: 60-120 chars（短 + 推 article 對應段 + 🧬）
 - 超過 200 chars 通常是過度解釋 — 重寫精煉
+
+### URL Encoding 鐵律（2026-05-27 哲宇 callout，v3.0 補入）
+
+社群平台（Threads / X / Instagram）的 auto-link parser 遇到 ASCII URL path 中第一個 non-ASCII 字元就停。如果 reply 寫 `taiwan.md/food/台灣美食總覽`：
+
+- ✅ Auto-link 抓到 `taiwan.md/food/` 變藍底連結
+- ❌ `台灣美食總覽` 留在 plain text 不是 link 的一部分
+- ❌ 讀者點連結只能到 `/food/` 目錄頁，不是目標文章
+
+**Fix**: reply 內含中文 URL path 一律 percent-encode：
+
+```
+taiwan.md/food/%E5%8F%B0%E7%81%A3%E7%BE%8E%E9%A3%9F%E7%B8%BD%E8%A6%BD/
+```
+
+**怎麼產生 encoded URL**（reply post 前 pre-flight）：
+
+```javascript
+// Chrome MCP javascript_tool 跑：
+encodeURIComponent('台灣美食總覽');
+// → '%E5%8F%B0%E7%81%A3%E7%BE%8E%E9%A3%9F%E7%B8%BD%E8%A6%BD'
+// 拼進 URL: 'taiwan.md/food/' + encodeURIComponent(slug) + '/'
+```
+
+或直接從 article frontmatter sporeLinks 拿（已 encoded canonical）：
+
+```bash
+grep -A 1 "url:" knowledge/Food/台灣美食總覽.md | grep "%E5"
+```
+
+或從 SPORE-LOG entry 拿（utm-tagged + encoded form）。
+
+**Anti-pattern 觸發背景**：5/27 manual session 兩條 reply 寫成 plain 中文 URL：
+
+- @neily1_reader (美食總覽 1949 美軍火雞 fix) reply: `taiwan.md/food/台灣美食總覽` → broken auto-link
+- @ericten0704 (quote-post 醬油 fix) reply: 同樣 broken
+
+哲宇 5/27 13:45 callout「你在回覆他們的時候，url 一樣要 encode 不然會斷掉」← 升 first-class instrument vc=1。對應 [SPORE-PUBLISH-PIPELINE](SPORE-PUBLISH-PIPELINE.md) 內 spore body URL encoding（已 canonical），同條鐵律延伸到 reply layer。
 
 ---
 
