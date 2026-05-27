@@ -2974,6 +2974,19 @@
     "path": "ja/Art/taiwanese-cinema.md"
   },
   {
+    "title": "台湾美食の総覧：純粋に台湾料理である料理は一つもなく、どの料理も最も台湾らしいものである",
+    "description": "1949年、嘉義の噴水池円環のそばで、林添寿は鶏肉をスライスして白米の上に載せ、閩南の煮汁をかけた。戦後、駐台米軍が水上空港に駐留した後、大量の七面鳥が台湾に持ち込まれ、この鶏肉飯は七面鳥肉飯へと進化した。原住民の石板焼き山豚、客家のショウガ絲炒め大腸、眷村の四川風牛肉麺から、1986年に台中で発明された珍珠奶茶、さらに2025年にミシュランが選出した419軒のレストランに至るまで。この島は400年かけて、借りてきたすべての料理を自分たちのやり方で煮上げてきた。",
+    "category": "ja",
+    "tags": [
+      "["
+    ],
+    "url": "https://taiwan.md/ja/Food/taiwan-food-overview",
+    "readingTime": 65,
+    "featured": true,
+    "date": "2026-05-18",
+    "path": "ja/Food/taiwan-food-overview.md"
+  },
+  {
     "title": "台湾若者のキャリアの迷航：16年間学校に通い、卒業後に最もよく口にする言葉は「自分が何をしたいのか分からない」",
     "description": "2006年の青輔会の調査で、雇用主が最も重視する3つの能力は勤務態度、ストレス耐性、コミュニケーション力であったが、台湾の大学で教えられているのは専門知識と技術である。教育部は20年にわたってプラットフォームを構築し、指標を見直し、計画を推進してきたが、就業力の定義は4回改訂され、大学生は卒業の日もなお同じ問いを抱え続けている。問題は、おそらく学生本人にはない。",
     "category": "ja",
@@ -3759,29 +3772,6 @@
     "featured": false,
     "date": "2026-04-30",
     "path": "ja/Nature/taiwan-blue-magpie.md"
-  },
-  {
-    "title": "台湾グルメ総覧：純粋に台湾だけの料理はなく、すべての料理が最も台湾的です",
-    "description": "1949 年、嘉義の噴水池ロータリー脇で、林添壽は米軍が飼い残した七面鳥を薄切りにして白飯にのせ、閩南系の煮込みだれをかけました。原住民族の石板焼き山豚、客家の生姜千切り入り豚大腸炒め、眷村の四川風牛肉麺から、1986 年に台中で発明されたタピオカミルクティー、さらに 2025 年にミシュランが収録した 419 軒のレストランまで。この島は四百年をかけ、借りてきた一皿一皿を自分たちの方法で煮込んできました。",
-    "category": "ja",
-    "tags": [
-      "グルメ",
-      "食",
-      "食べ物",
-      "台湾文化",
-      "移民",
-      "ミシュラン",
-      "夜市",
-      "タピオカミルクティー",
-      "牛肉麺",
-      "魯肉飯",
-      "辦桌"
-    ],
-    "url": "https://taiwan.md/ja/Food/taiwan-food-overview",
-    "readingTime": 102,
-    "featured": true,
-    "date": "2026-05-18",
-    "path": "ja/Food/taiwan-food-overview.md"
   },
   {
     "title": "台湾ゲームジャム・コミュニティ：Global Game Jamの台湾上陸からKUSO GAME JAMの「廃作哲学」まで",
@@ -12270,6 +12260,17 @@
     "path": "ja/Culture/national-palace-museum.md"
   },
   {
+    "title": "国家人権博物館：涙の碑に書かれなかった名前",
+    "description": "1999年の国際人権デー、李登輝は緑島で「涙の碑」を自ら除幕しました。柏楊は28字で、すべての母親が長い夜に流した涙を書き尽くしましたが、加害者の名前は一人も書きませんでした。6年の準備、2018年の看板除幕、2025年の予算凍結。国家が自ら建て、自らが行ったことを記念する博物館です。しかし解厳から39年、一人の加害者も司法裁判を受けていません。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/History/national-human-rights-museum",
+    "readingTime": 91,
+    "featured": true,
+    "date": "2026-05-26",
+    "path": "ja/History/national-human-rights-museum.md"
+  },
+  {
     "title": "国家文化記憶庫：デジタル時代における記憶のキュレーションと文化の共創",
     "description": "国家文化記憶庫は単なるデジタルアーカイブプラットフォームではなく、オープンライセンスと共創を通じて台湾の市民の記憶をデジタル時代に活性化させる、時間との綱引きのような社会的工程です。",
     "category": "ja",
@@ -16371,12 +16372,12 @@
     "path": "People/許美華.md"
   },
   {
-    "title": "許倬雲：二本の指で中国史の長河を書き上げた、王力宏の外舅公の九十五年",
-    "description": "1930年に厦門で生まれ、1949年に国民政府とともに台湾へ渡り、1970年にピッツバーグへ移った歴史学者です。先天的な肢体障害により生涯車椅子で過ごしながらも、力を入れられる二本の指でキーボードを打ち、四十冊近い著作を完成させました。2024年第六回唐奨漢学賞の受賞者で、賞金5,000万元を全額寄付して「許・孫奨学金」を設立しました。王力宏の七舅公、李建復の伯父でもあります。2025年8月に逝去する前、「息を引き取るその瞬間まで、私はまだ学んでいる」という一言を残しました。",
+    "title": "許倬雲：二本の指で中国史の長河を書き上げた、王力宏の大叔父の九十五年",
+    "description": "1930年に厦門で生まれ、1949年に国民政府とともに台湾へ渡り、1970年にピッツバーグへ移った歴史学者。先天的な四肢障害により生涯車椅子で過ごしながら、力を入れられる二本の指でキーボードを打ち、約四十冊の著作を完成させました。2024年第6回唐奨漢学賞の受賞者で、賞金5,000万台湾元を全額寄付して「許・孫奨学金」を設立しました。彼は王力宏の七舅公、李建復の叔父です。2025年8月に逝去する前、「私が息を引き取るその瞬間にも、私はなお学んでいる」という言葉を残しました。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/People/cho-yun-hsu-bridging-historian",
-    "readingTime": 112,
+    "readingTime": 110,
     "featured": false,
     "date": "2026-05-22",
     "path": "ja/People/cho-yun-hsu-bridging-historian.md"
@@ -31128,6 +31129,17 @@
     "path": "fr/People/hou-hsiao-hsien.md"
   },
   {
+    "title": "Houtong: The Camera That Saved a Mountain Town Also Fed Taiwan's Largest Cat Dumping Ground; TNVR Patches Up What Tourism's Good Intentions Couldn't Finish",
+    "description": "In 2009, photographer Chien Pei-ling (Cat Lady) walked into a forgotten mountain town along the Pingxi Line that had been abandoned for 19 years after the Ruisan coal mine ceased operations in 1990. Her camera turned Houtong into one of CNN's six best cat-watching destinations in the world in 2013. But the 'Cat Paradise' label bred Taiwan's largest cat dumping ground — a 2012 feline distemper outbreak, at least 10 cat abuse cases in 2013, and a 2022 abandonment case fined NT$110,000. In 2014, Cat Lady quit, leaving behind the words: 'Endlessly exploiting the cats, exploiting me, exploiting Houtong.' In January 2026, TNVR brought the cat population from 200–300 down to 30-something, and Mirror Weekly reported it under a 'village extinction' frame. But what disappeared wasn't the cat village — it was the 'single influencer IP propping up local revitalization' model.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Geography/houtong-cat-village",
+    "readingTime": 135,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "en/Geography/houtong-cat-village.md"
+  },
+  {
     "title": "How the KMT Moved to Taiwan in 1949: Government Relocation and Post-War Reconstruction",
     "description": "When Chiang Kai-shek's Nationalist government retreated to Taiwan in 1949, over 1.2 million soldiers and civilians followed. How this mass relocation reshaped Taiwan's politics, economy, language, and identity for decades.",
     "category": "en",
@@ -31376,34 +31388,34 @@
     "path": "en/People/hsu-chiao-hsin.md"
   },
   {
-    "title": "Hsu Cho-yun : deux doigts pour écrire le long fleuve de l’histoire chinoise, quatre-vingt-quinze ans dans la famille de Wang Leehom",
-    "description": "Né à Xiamen en 1930, arrivé à Taïwan avec le gouvernement nationaliste en 1949, installé à Pittsburgh en 1970, l’historien Hsu Cho-yun vécut toute sa vie en fauteuil roulant en raison d’un handicap congénital des membres, mais acheva près de quarante ouvrages en tapant au clavier avec les deux seuls doigts capables d’exercer une force. Lauréat 2024 du sixième prix Tang de sinologie, il donna l’intégralité des 50 millions de dollars taïwanais de dotation pour créer la « bourse Hsu-Sun » ; il était le septième grand-oncle maternel de Wang Leehom et l’oncle de Li Jianfu. Avant de mourir en août 2025, il laissa cette phrase : « À l’instant où je rendrai mon dernier souffle, je serai encore en train d’apprendre. »",
+    "title": "Hsu Cho-yun : avec deux doigts, écrire le long fleuve de l’histoire chinoise, les quatre-vingt-quinze ans du grand-oncle maternel de Wang Leehom",
+    "description": "Historien né à Xiamen en 1930, arrivé à Taïwan avec le gouvernement nationaliste en 1949 puis à Pittsburgh en 1970, Hsu Cho-yun vécut toute sa vie en fauteuil roulant en raison d’un handicap congénital des membres, mais acheva près de quarante ouvrages en tapant au clavier avec les deux seuls doigts capables d’exercer une pression. Lauréat en 2024 du sixième prix Tang de sinologie, il donna la totalité des 50 millions de dollars taïwanais de dotation pour créer la « bourse Hsu-Sun » ; il était le septième grand-oncle maternel de Wang Leehom et l’oncle de Li Chien-fu. Avant sa mort en août 2025, il laissa cette phrase : « À l’instant où je rendrai mon dernier souffle, je serai encore en train d’apprendre. »",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/People/cho-yun-hsu-bridging-historian",
-    "readingTime": 277,
+    "readingTime": 292,
     "featured": false,
     "date": "2026-05-22",
     "path": "fr/People/cho-yun-hsu-bridging-historian.md"
   },
   {
-    "title": "Hsu Cho-yun: noventa y cinco años del tío abuelo materno de Wang Leehom que escribió con dos dedos el largo río de la historia china",
-    "description": "Historiador nacido en Xiamen en 1930, llegado a Taiwán con el gobierno nacionalista en 1949 y trasladado a Pittsburgh en 1970; con una discapacidad congénita en las extremidades, pasó la vida en silla de ruedas, pero escribió casi cuarenta obras tecleando con los dos dedos que aún podían ejercer fuerza. Ganador del Premio Tang de Sinología 2024, en su sexta edición, donó íntegramente el premio de 50 millones para crear la “Beca Hsu-Sun”; fue tío abuelo materno de séptimo grado de Wang Leehom y tío de Li Jianfu. Antes de fallecer en agosto de 2025 dejó una frase: “En el instante en que exhale mi último aliento, seguiré aprendiendo”.",
+    "title": "Hsu Cho-yun: con dos dedos escribió el largo río de la historia china, los noventa y cinco años del tío abuelo materno de Wang Leehom",
+    "description": "Historiador nacido en Xiamen en 1930, trasladado a Taiwán con el Gobierno nacionalista en 1949 y llegado a Pittsburgh en 1970; con una discapacidad congénita en las extremidades, pasó la vida en silla de ruedas, pero con dos dedos capaces de ejercer fuerza tecleó casi cuarenta obras. Ganador en 2024 del sexto Premio Tang de Sinología, donó íntegramente los 50 millones del premio para crear la “Beca Hsu-Sun”; fue el séptimo tío abuelo materno de Wang Leehom y tío de Li Jianfu. Antes de morir en agosto de 2025 dejó una frase: “En el instante en que exhale mi último aliento, seguiré aprendiendo”.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/People/cho-yun-hsu-bridging-historian",
-    "readingTime": 280,
+    "readingTime": 271,
     "featured": false,
     "date": "2026-05-22",
     "path": "es/People/cho-yun-hsu-bridging-historian.md"
   },
   {
-    "title": "Hsu Cho-yun: Writing the Long River of Chinese History with Two Fingers, Wang Leehom’s Granduncle Across Ninety-Five Years",
-    "description": "Born in Xiamen in 1930, crossing to Taiwan with the Nationalist government in 1949, and arriving in Pittsburgh in 1970, historian Hsu Cho-yun lived with congenital limb disabilities and used a wheelchair throughout his life, yet typed with the only two fingers that could exert force to complete nearly forty books. The 2024 laureate of the sixth Tang Prize in Sinology, he donated the full NT$50 million prize to establish the Hsu-Sun Scholarship; he was Wang Leehom’s seventh granduncle and Lee Chien-fu’s uncle. Before his death in August 2025, he left one sentence: “At the moment I breathe my last, I will still be learning.”",
+    "title": "Hsu Cho-yun: Writing the Long River of Chinese History with Two Fingers, Wang Leehom's Great-Uncle's Ninety-Five Years",
+    "description": "A historian born in Xiamen in 1930, who followed the Nationalist government to Taiwan in 1949 and went to Pittsburgh in 1970, Hsu Cho-yun lived his life in a wheelchair because of a congenital limb disability, yet completed nearly forty books by typing with the only two fingers that could exert force. The 2024 laureate of the sixth Tang Prize in Sinology, he donated the full NT$50 million prize to establish the Hsu-Sun Scholarship; he was Wang Leehom's seventh granduncle and Li Chien-fu's uncle. Before his death in August 2025, he left one sentence: 'At the moment I draw my last breath, I will still be learning.'",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/People/cho-yun-hsu-bridging-historian",
-    "readingTime": 265,
+    "readingTime": 273,
     "featured": false,
     "date": "2026-05-22",
     "path": "en/People/cho-yun-hsu-bridging-historian.md"
@@ -32186,25 +32198,25 @@
     "path": "es/Technology/artificial-intelligence-industry.md"
   },
   {
-    "title": "Industria de semiconductores: una revolución de materiales de 50 años, de la transferencia tecnológica de RCA al nitruro de galio y el empaquetado cuántico",
-    "description": "La montaña sagrada protectora de Taiwán domina los procesos avanzados globales mediante la fundición por contrato, pero el nitruro de galio dentro de los cargadores rápidos, CoWoS bajo los chips de IA y los refrigeradores de dilución sobre los qubits apenas están abriendo el campo de batalla de la ciencia de materiales para los próximos 50 años.",
+    "title": "Industria de semiconductores: 50 años de revolución de materiales desde la transferencia tecnológica de RCA hasta el nitruro de galio y el empaquetado cuántico",
+    "description": "La montaña sagrada protectora de Taiwán domina los procesos avanzados globales gracias a la fundición por contrato, pero el nitruro de galio dentro de los cargadores rápidos, CoWoS bajo los chips de IA y los refrigeradores de dilución sobre los qubits apenas están desplegando el campo de batalla de la ciencia de materiales para los próximos 50 años.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Technology/taiwan-semiconductor-industry",
-    "readingTime": 189,
+    "readingTime": 207,
     "featured": true,
-    "date": "2026-05-25",
+    "date": "2026-03-17",
     "path": "es/Technology/taiwan-semiconductor-industry.md"
   },
   {
-    "title": "Industrie des semi-conducteurs : 50 ans de révolution des matériaux, du transfert de technologie RCA au nitrure de gallium et au packaging quantique",
-    "description": "La « montagne sacrée protectrice de la nation » taïwanaise domine les procédés avancés mondiaux grâce à la fonderie, mais le nitrure de gallium dans les chargeurs rapides, le CoWoS sous les puces d’IA et les réfrigérateurs à dilution au-dessus des qubits montrent que le champ de bataille de la science des matériaux pour les 50 prochaines années ne fait que s’ouvrir.",
+    "title": "Industrie des semi-conducteurs : cinquante ans de révolution des matériaux, du transfert technologique de RCA au nitrure de gallium et au packaging quantique",
+    "description": "La montagne sacrée qui protège Taïwan domine les procédés avancés mondiaux grâce à la fonderie, mais le nitrure de gallium dans les chargeurs rapides, le CoWoS sous les puces d'IA et les réfrigérateurs à dilution au-dessus des qubits annoncent un champ de bataille des matériaux qui ne fait que s'ouvrir pour les cinquante prochaines années.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Technology/semiconductor-industry",
-    "readingTime": 197,
+    "readingTime": 214,
     "featured": true,
-    "date": "2026-05-25",
+    "date": "2026-03-17",
     "path": "fr/Technology/semiconductor-industry.md"
   },
   {
@@ -36211,6 +36223,24 @@
     "path": "fr/Culture/taiwan-indigo-dyeing.md"
   },
   {
+    "title": "La télévision publique : du sortilège des neuf cents millions à l'expulsion de l'enceinte parlementaire, vingt-huit ans d'indépendance inachevée",
+    "description": "En 1998, lors du lancement de la télévision publique (PTS), la loi sur la télévision publique a imposé une réduction progressive des subventions gouvernementales, gelées à 900 millions de dollars taïwanais par an — un carcan qui a duré 23 ans. Durant cette période, PTS a produit cinq séries phares qui ont marqué la société : *The World Between Us*, *Gold Leaf*, *The Teenage Psychic*, *Wake Up* et *A Touch of Green*. En mai 2023, une révision législative a levé le sortilège, doublant le budget à 2,3 milliards. Mais 19 mois plus tard, le budget a été amputé de 1 % et gelé à 25 % ; un an après, en mai 2026, le président Hu Yuan-hui a été prié de quitter l'enceinte du Yuan législatif. En 28 ans, PTS a démontré une chose : lever le sortilège ne signifie pas établir l'indépendance.",
+    "category": "fr",
+    "tags": [
+      "Médias",
+      "Télévision publique",
+      "Politique culturelle",
+      "Industrie audiovisuelle",
+      "Retrait du parti-armée-État des médias",
+      "Principe de la distance"
+    ],
+    "url": "https://taiwan.md/fr/Society/pts-public-television-service",
+    "readingTime": 162,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "fr/Society/pts-public-television-service.md"
+  },
+  {
     "title": "La temporada de lluvias Mei-Yu en Taiwán: de las inundaciones de 1981 que arrasaron Taoyuan y Taipéi a un experimento científico que hizo volar aviones estadounidenses a la isla",
     "description": "El 28 de mayo de 1981, un frente de lluvias Mei-Yu desencadenó aguaceros catastróficos en la región de Taoyuan-Zhuli-Miaoli y el Gran Taipéi, con precipitaciones horarias superiores a 140 mm en la zona de Gongguan. Seis años después, el experimento TAMEX movilizó a más de 125 científicos taiwaneses y estadounidenses, un avión P-3 de la NOAA, tres barcos de observación y tres radares Doppler para perseguir frentes de lluvia. Cuarenta años más tarde, ese mismo frente que llega cada mayo y junio sigue siendo la fuente de agua potable de 23 millones de personas y el detonante de inundaciones que pueden anegar ciudades enteras.",
     "category": "es",
@@ -39857,12 +39887,20 @@
     "path": "fr/People/luo-dayou.md"
   },
   {
-    "title": "Ma Ying-jeou : docteur en droit de Harvard devenu traducteur anglais dans le bureau de Chiang Ching-kuo, puis président intègre pendant huit ans, laissant derrière lui les relations inter-détroit, les Tournesols et les 22K",
-    "description": "Le 7 novembre 2015, au Shangri-La de Singapour, il a serré la main de Xi Jinping pendant 1 min 20 s : première rencontre entre les plus hauts dirigeants des deux rives depuis 1949. La société taïwanaise se souvient encore de la même photo de deux manières radicalement différentes : d’un côté, une percée historique ; de l’autre, une concession sur la subjectivité politique. Ses huit années de présidence, marquées par l’intégrité, les relations inter-détroit, les 22K et le mouvement des Tournesols, puis ses deux visites en Chine après son départ du pouvoir et la déclaration de sa famille en 2026, ne font toujours pas l’objet d’un jugement arrêté.",
+    "title": "Ma Ying-jeou : docteur en droit de Harvard entré au bureau de Chiang Ching-kuo comme traducteur anglais, président pendant huit ans appuyé sur une image d'« intégrité », et qui a laissé derrière lui les deux rives, les Tournesols et les 22K",
+    "description": "Le 7 novembre 2015, au Shangri-La de Singapour, il serre la main de Xi Jinping pendant 1 minute 20 secondes : première rencontre entre les plus hauts dirigeants des deux rives depuis 1949. Une même photographie que la société taïwanaise continue de se rappeler de deux manières radicalement différentes : d'un côté, on y voit une percée historique ; de l'autre, une concession de subjectivité politique. Son image d'« intégrité » construite pendant huit ans de présidence, les relations entre les deux rives, les 22K et le Mouvement des Tournesols, puis deux visites en Chine durant la décennie qui suit son départ du pouvoir et la déclaration familiale de 2026, ne font toujours pas consensus aujourd'hui.",
     "category": "fr",
-    "tags": [],
+    "tags": [
+      "président",
+      "Kuomintang",
+      "relations entre les deux rives",
+      "ECFA",
+      "Mouvement étudiant des Tournesols",
+      "rencontre Ma-Xi",
+      "maire de Taipei"
+    ],
     "url": "https://taiwan.md/fr/People/ma-ying-jeou-cross-strait-reconciliation-leader",
-    "readingTime": 223,
+    "readingTime": 221,
     "featured": false,
     "date": "2026-03-30",
     "path": "fr/People/ma-ying-jeou-cross-strait-reconciliation-leader.md"
@@ -39879,23 +39917,39 @@
     "path": "en/Society/ma-ying-jeou-meme.md"
   },
   {
-    "title": "Ma Ying-jeou: doctor en Derecho por Harvard que entró a la oficina de Chiang Ching-kuo como traductor de inglés, luego fue un presidente íntegro durante ocho años y dejó como legado las relaciones a través del Estrecho, el Movimiento Girasol y los 22K",
-    "description": "El 7 de noviembre de 2015, en el Shangri-La de Singapur, estrechó la mano de Xi Jinping durante 1 minuto y 20 segundos: fue el primer encuentro entre los máximos líderes de ambos lados del Estrecho desde 1949. Hasta hoy, la sociedad taiwanesa recuerda esa misma fotografía de dos maneras completamente distintas: unos ven un avance histórico; otros, una concesión de subjetividad política. Su integridad durante ocho años de presidencia, las relaciones a través del Estrecho, los 22K y el Movimiento Girasol, sumados a sus dos visitas a China en la década posterior a dejar el cargo y a la declaración familiar de 2026, siguen sin una conclusión definitiva.",
+    "title": "Ma Ying-jeou: el doctor en Derecho de Harvard que entró a la oficina de Chiang Ching-kuo como traductor de inglés, fue presidente durante ocho años apoyado en una imagen de “integridad” y dejó como legado las relaciones a través del Estrecho, el Movimiento Girasol y el 22K",
+    "description": "El 7 de noviembre de 2015, en el Shangri-La de Singapur, estrechó la mano de Xi Jinping durante 1 minuto y 20 segundos: fue el primer encuentro entre los máximos líderes de ambos lados del Estrecho desde 1949. Esa misma fotografía sigue siendo recordada por la sociedad taiwanesa de dos maneras completamente distintas: para unos, como una ruptura histórica; para otros, como una concesión de subjetividad política. Su imagen de “integridad” tras ocho años de presidencia, las relaciones a través del Estrecho, el 22K y el Movimiento Girasol, sumados a sus dos visitas a China en la década posterior a dejar el cargo y a la declaración de sus familiares en 2026, siguen sin una conclusión definitiva hasta hoy.",
     "category": "es",
-    "tags": [],
+    "tags": [
+      "presidente",
+      "Kuomintang",
+      "relaciones a través del Estrecho",
+      "ECFA",
+      "Movimiento Estudiantil Girasol",
+      "encuentro Ma-Xi",
+      "alcalde de Taipéi"
+    ],
     "url": "https://taiwan.md/es/People/ma-ying-jeou-cross-strait-reconciliation-leader",
-    "readingTime": 229,
+    "readingTime": 235,
     "featured": false,
     "date": "2026-03-30",
     "path": "es/People/ma-ying-jeou-cross-strait-reconciliation-leader.md"
   },
   {
-    "title": "Ma Ying-jeou: the Harvard S.J.D. who entered Chiang Ching-kuo's office as an English interpreter, later served eight years as an incorrupt president, and left behind cross-strait relations, Sunflower, and 22K",
-    "description": "On November 7, 2015, at the Shangri-La in Singapore, he shook hands with Xi Jinping for 1 minute and 20 seconds, the first meeting between the top leaders of the two sides of the Taiwan Strait since 1949. Taiwanese society still remembers the same photograph in two completely different ways: one side sees a historic breakthrough, the other sees a concession of subjectivity. His eight-year presidency left behind incorruptibility, cross-strait relations, 22K, and Sunflower; together with two post-presidency visits to China over the following decade and a 2026 family statement, the verdict remains unsettled today.",
+    "title": "Ma Ying-jeou: The Harvard Doctor of Law Who Entered Chiang Ching-kuo's Office as an English Interpreter, Served Eight Years as a President Grounded in a 'Clean' Image, and Left Behind Cross-Strait Policy, the Sunflower Movement, and 22K",
+    "description": "On November 7, 2015, at the Shangri-La in Singapore, he shook Xi Jinping's hand for 1 minute and 20 seconds: the first meeting between the top leaders on the two sides of the Taiwan Strait since 1949. Taiwan society still remembers the same photograph in two completely different ways: one side sees a historic breakthrough; the other sees a concession of subjectivity. His 'clean' image after eight years as president, cross-strait policy, 22K, and the Sunflower Movement, together with two post-presidency visits to China over the following decade and the 2026 family statement, remain unsettled to this day.",
     "category": "en",
-    "tags": [],
+    "tags": [
+      "President",
+      "Kuomintang",
+      "Cross-Strait Relations",
+      "ECFA",
+      "Sunflower Movement",
+      "Ma-Xi Meeting",
+      "Taipei Mayor"
+    ],
     "url": "https://taiwan.md/en/People/ma-ying-jeou-cross-strait-reconciliation-leader",
-    "readingTime": 208,
+    "readingTime": 211,
     "featured": false,
     "date": "2026-03-30",
     "path": "en/People/ma-ying-jeou-cross-strait-reconciliation-leader.md"
@@ -41089,6 +41143,17 @@
     "path": "fr/Society/national-museum-of-taiwan-history.md"
   },
   {
+    "title": "Musée national des droits humains : les noms absents du monument des larmes",
+    "description": "Le 10 décembre 1999, Journée internationale des droits humains, Lee Teng-hui inaugura lui-même, à Green Island, le « monument des larmes ». Bo Yang y grava 28 caractères qui disent les longues nuits de pleurs de toutes les mères, sans inscrire le nom d’un seul auteur des violences. Six ans de préparation, inauguration en 2018, budget gelé en 2025. Dans ce musée qu’un État a lui-même construit pour commémorer ce qu’il a fait, trente-neuf ans après la levée de la loi martiale, aucun auteur n’a été jugé par la justice.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/History/national-human-rights-museum",
+    "readingTime": 267,
+    "featured": true,
+    "date": "2026-05-26",
+    "path": "fr/History/national-human-rights-museum.md"
+  },
+  {
     "title": "Musée national du Palais : la longue marche centenaire, des caisses sous les bombes aux mirages de l'IA",
     "description": "C'est le « bagage » le plus lourd de cette île, et aussi le « mirage numérique » le plus léger. Des caisses de bois échappant aux flammes de la guerre aux pixels animés par la puissance de l'IA, le Musée du Palais cherche à définir, entre Waishuangxi à Taipei et Taibao à Chiayi, ce qu'est « le Musée du Palais de Taïwan ».",
     "category": "fr",
@@ -41125,6 +41190,17 @@
     "featured": false,
     "date": "2026-05-07",
     "path": "es/Art/yingge-ceramics-museum.md"
+  },
+  {
+    "title": "Museo Nacional de Derechos Humanos: los nombres que no figuran en el Monumento de las Lágrimas",
+    "description": "El Día Internacional de los Derechos Humanos de 1999, Lee Teng-hui inauguró personalmente en la Isla Verde el Monumento de las Lágrimas. Bo Yang escribió 28 caracteres que condensaban el largo llanto nocturno de todas las madres, pero no escribió el nombre de ningún perpetrador. Seis años de preparación, inauguración oficial en 2018, presupuesto congelado en 2025. Un museo construido por el propio Estado para conmemorar lo que el propio Estado hizo: en los 39 años transcurridos desde el levantamiento de la ley marcial, ningún perpetrador ha sido sometido a juicio.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/History/national-human-rights-museum",
+    "readingTime": 265,
+    "featured": true,
+    "date": "2026-05-26",
+    "path": "es/History/national-human-rights-museum.md"
   },
   {
     "title": "Museo Nacional de Historia de Taiwán: la octava zona expositiva se llama «Tú también escribes historia»",
@@ -41327,6 +41403,17 @@
     "featured": false,
     "date": "2026-05-03",
     "path": "en/Lifestyle/national-highway-system.md"
+  },
+  {
+    "title": "National Human Rights Museum: The Names Not Written on the Tearful Monument",
+    "description": "On International Human Rights Day in 1999, Lee Teng-hui personally unveiled the Tearful Monument on Green Island. Bo Yang wrote 28 characters that captured all mothers' long nights of weeping, yet did not write a single perpetrator's name. Six years of preparation, an unveiling in 2018, and a frozen budget in 2025. A museum built by the state itself to commemorate what the state itself had done. In the 39 years since martial law was lifted, not one perpetrator has faced judicial trial.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/History/national-human-rights-museum",
+    "readingTime": 247,
+    "featured": true,
+    "date": "2026-05-26",
+    "path": "en/History/national-human-rights-museum.md"
   },
   {
     "title": "National Museum of Taiwan History: The Eighth Gallery Is Called \"You, Too, Are Someone Who Writes History\"",
@@ -41960,50 +42047,26 @@
     "path": "es/Food/taiwan-bread-and-baking.md"
   },
   {
-    "title": "Panorama de la gastronomía taiwanesa: ningún plato es puramente taiwanés, y cada plato es lo más taiwanés que existe",
-    "description": "En 1949, junto a la rotonda de la fuente de Chiayi, Lin Tianshou cortó en rebanadas el pavo que había sobrado de las tropas estadounidenses, lo puso sobre arroz blanco y lo bañó con una salsa estofada minnan. Del jabalí asado sobre piedra de los pueblos indígenas, el intestino grueso salteado con jengibre de los hakka y la sopa de fideos con carne de res al estilo sichuanés de las aldeas militares, hasta el té con leche de perlas inventado en Taichung en 1986 y los 419 restaurantes incluidos por Michelin en 2025. Esta isla pasó cuatrocientos años cocinando cada plato prestado a su propia manera.",
-    "category": "es",
-    "tags": [
-      "gastronomía",
-      "comida",
-      "alimentos",
-      "cultura taiwanesa",
-      "migración",
-      "Michelin",
-      "mercado nocturno",
-      "té con leche de perlas",
-      "sopa de fideos con carne de res",
-      "arroz con cerdo estofado",
-      "banquete al aire libre"
-    ],
-    "url": "https://taiwan.md/es/Food/taiwan-food-overview",
-    "readingTime": 247,
-    "featured": true,
-    "date": "2026-05-18",
-    "path": "es/Food/taiwan-food-overview.md"
-  },
-  {
-    "title": "Panorama de la gastronomie taïwanaise : aucun plat n’est purement taïwanais, chaque plat est ce qu’il y a de plus taïwanais",
-    "description": "En 1949, près du rond-point de la fontaine de Chiayi, Lin Tianshou déposa des tranches de dinde, élevées en surplus par l’armée américaine, sur du riz blanc et les arrosa d’une sauce braisée minnan. Du sanglier autochtone grillé sur pierre, du gros intestin sauté au gingembre hakka et des nouilles au bœuf sichuanaises des villages de dépendants militaires jusqu’au thé aux perles inventé à Taichung en 1986, puis aux 419 restaurants retenus par Michelin en 2025. Cette île a passé quatre cents ans à cuisiner chaque plat emprunté à sa propre manière.",
+    "title": "Panorama de la cuisine taïwanaise : aucun plat n'est purement taïwanais, chaque plat est pleinement taïwanais",
+    "description": "À côté du rond-point de la fontaine de Chiayi en 1949, Lin Tianshou trancha du poulet, le déposa sur du riz blanc et l'arrosa d'une sauce braisée du Fujian méridional ; après la guerre, les forces américaines stationnées à Taïwan apportèrent de nombreuses dindes sur l'île en s'installant à l'aéroport de Shuishang, et ce bol évolua alors du riz au poulet au riz à la dinde. Du sanglier grillé sur pierre des peuples autochtones aux tripes sautées au gingembre hakka, des nouilles au bœuf sichuanaises des villages militaires au thé aux perles inventé à Taichung en 1986, jusqu'aux 419 restaurants intégrés au Michelin en 2025. Cette île a passé quatre cents ans à cuire chaque plat emprunté à sa propre manière.",
     "category": "fr",
-    "tags": [
-      "gastronomie",
-      "alimentation",
-      "nourriture",
-      "culture taïwanaise",
-      "immigration",
-      "Michelin",
-      "marchés de nuit",
-      "thé aux perles",
-      "nouilles au bœuf",
-      "riz au porc braisé",
-      "banquets de rue"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/Food/taiwan-food-overview",
-    "readingTime": 259,
+    "readingTime": 288,
     "featured": true,
     "date": "2026-05-18",
     "path": "fr/Food/taiwan-food-overview.md"
+  },
+  {
+    "title": "Panorama de la gastronomía taiwanesa: ningún plato es puramente taiwanés, y cada plato es lo más taiwanés que hay",
+    "description": "En 1949, junto a la rotonda de la fuente de Chiayi, Lin Tianshou cortó pollo en rebanadas, lo puso sobre arroz blanco y lo bañó con una salsa estofada minnán; después de la guerra, cuando las fuerzas estadounidenses estacionadas en Taiwán se instalaron en el aeródromo de Shuishang, llevaron grandes cantidades de pavo a Taiwán, y ese tazón evolucionó de arroz con pollo a arroz con pavo. Desde el jabalí asado sobre laja de los pueblos indígenas, el intestino grueso salteado con jengibre de los hakka y la sopa de fideos con res al estilo sichuanés de las aldeas militares, hasta el té con leche de perlas inventado en Taichung en 1986 y los 419 restaurantes incluidos por Michelin en 2025. Esta isla pasó cuatrocientos años cocinando cada plato prestado a su propia manera.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Food/taiwan-food-overview",
+    "readingTime": 280,
+    "featured": true,
+    "date": "2026-05-18",
+    "path": "es/Food/taiwan-food-overview.md"
   },
   {
     "title": "PanSci : du trou noir de l'actualité scientifique à l'industrie du savoir dans les algorithmes",
@@ -43084,6 +43147,26 @@
     "path": "ko/Technology/ptt-bulletin-board-system.md"
   },
   {
+    "title": "Public Television: From the NT$900 Million Golden Headband to Expulsion from the Legislative Chamber, Twenty-Eight Years of Independence Still Unfinished",
+    "description": "When PTS went on air in 1998, the Public Television Act required government-donated funding to decrease year by year and eventually froze it at NT$900 million annually. That provision bound PTS for 23 years. In the meantime, it nurtured five flagship Taiwanese dramas that shook society: The World Between Us, Gold Leaf, The Teenage Psychic, Wake Up, and A Touch of Green. In May 2023, legal amendments lifted the golden headband, and the budget more than doubled to NT$2.3 billion. But 19 months later, 1% of the budget was cut and 25% frozen; another year later, in May 2026, Chairperson Hu Yuan-hui was asked to leave the Legislative Yuan chamber. What PTS has proved over 28 years is this: removing the golden headband does not mean independence has been built.",
+    "category": "en",
+    "tags": [
+      "Media",
+      "Public Television",
+      "Cultural Policy",
+      "Film and Television Industry",
+      "Political Parties",
+      "Government",
+      "and Military Exit from Media",
+      "Arms-Length Principle"
+    ],
+    "url": "https://taiwan.md/en/Society/pts-public-television-service",
+    "readingTime": 146,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "en/Society/pts-public-television-service.md"
+  },
+  {
     "title": "Puede predecir el viento y la lluvia, pero no el destino: cuatrocientos años de tifones en Taiwán",
     "description": "En la madrugada de 2009, Luo Pan Chun-mei, de 71 años, estaba en el balcón del segundo piso mirando cómo el monte Xiantou se derrumbaba, tragándose a 462 de sus seres queridos del pueblo de Xiaolin. Quince años después, Taiwán usa seis modelos de IA para reducir el margen de error en la predicción de trayectorias de tifones a 24 horas de 172 kilómetros a 57 kilómetros. Pero quién saldrá a trabajar en medio del temporal dentro de esos 57 kilómetros, quién no recibirá la notificación de alerta: eso no se puede predecir.",
     "category": "es",
@@ -43560,33 +43643,33 @@
   },
   {
     "title": "Rayark Games : l'empire musical fondé sur l'esthétique, et ses fissures de quatorze ans",
-    "description": "En 2012, six jeunes diplômés de la faculté d'électrotechnique et d'informatique de NTU ont réuni 30 millions de TWD pour créer Cytus, qui a atteint la première place des classements dans 14 pays en un mois. Quatorze ans plus tard, ils ont eu l'animation Deemo, l'animation Implosion non livrée depuis onze ans, Sdorica entré en mode maintenance en février 2026, et le choix de sacrifier un employé après l'incident du code Morse ICE en 2020 pour préserver le marché chinois. L'esthétique a permis au monde de voir Rayark, mais elle l'a aussi fait trébucher dans chaque domaine qui n'était pas musical.",
+    "description": "En 2012, six jeunes issus du Collège d'électrotechnique et d'informatique de l'Université nationale de Taïwan réunissent trente millions de dollars taïwanais pour créer Cytus ; en un mois, le jeu atteint la première place des classements dans 14 pays. Quatorze ans plus tard, ils ont produit l'animation Deemo, laissé l'animation Implosion non livrée depuis onze ans, placé Sdorica en mode maintenance en février 2026, et choisi, après l'affaire du code Morse d'ICE en 2020, de couper les liens avec un employé pour préserver le marché chinois. L'esthétique a rendu Rayark visible dans le monde entier ; elle l'a aussi fait trébucher dans chaque domaine qui n'était pas musical.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Technology/rayark-games",
-    "readingTime": 153,
+    "readingTime": 216,
     "featured": false,
     "date": "2026-04-25",
     "path": "fr/Technology/rayark-games.md"
   },
   {
-    "title": "Rayark Games: A Music Empire Founded on Aesthetics, and Its Fourteen Years of Cracks",
-    "description": "In 2012, six young founders from National Taiwan University's College of Electrical Engineering and Computer Science pooled NT$30 million to make Cytus, which reached No. 1 on the charts in 14 countries within a month. Fourteen years later, they have a Deemo animated film, an Implosion animation undelivered after eleven years, Sdorica entering maintenance mode in February 2026, and the choice after the 2020 ICE Morse code incident to cut ties with an employee in order to preserve the China market. Aesthetics made Rayark visible to the world, and also made it stumble in every non-music arena.",
+    "title": "Rayark Games: A Music Empire Built on Aesthetics, and Its Fourteen Years of Cracks",
+    "description": "In 2012, six young people from National Taiwan University's College of Electrical Engineering and Computer Science pooled NT$30 million to make Cytus; within a month, it topped the charts in 14 countries. Fourteen years later, they had a Deemo anime film, an Implosion anime undelivered after eleven years, Sdorica entering maintenance mode in February 2026, and the choice after the 2020 ICE Morse code incident to cut ties with an employee in order to preserve the Chinese market. Aesthetics made Rayark visible to the world, and also made it stumble in every non-musical arena.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Technology/rayark-games",
-    "readingTime": 139,
+    "readingTime": 198,
     "featured": false,
     "date": "2026-04-25",
     "path": "en/Technology/rayark-games.md"
   },
   {
-    "title": "Rayark: el imperio musical que se fundó sobre la estética, y sus catorce años de grietas",
-    "description": "En 2012, seis jóvenes de la facultad de Ingeniería Eléctrica e Informática de la NTU reunieron treinta millones para crear Cytus, que alcanzó el número uno en las listas de 14 países en un mes. Catorce años después tienen la película de Deemo, la película de Implosion lleva once años sin entregarse, Sdorica entró en modo de mantenimiento en febrero de 2026, y tras el incidente del código Morse de ICE en 2020, Rayark optó por cortar al empleado para conservar el mercado chino. La estética hizo que el mundo viera a Rayark, pero también la hizo tropezar en cada terreno que no fuera la música.",
+    "title": "Rayark Games: el imperio musical fundado sobre la estética y sus catorce años de fisuras",
+    "description": "En 2012, seis jóvenes de la Facultad de Ingeniería Eléctrica e Informática de la Universidad Nacional de Taiwán reunieron 30 millones para crear Cytus, que en un mes alcanzó el primer lugar en los rankings de 14 países. Catorce años después, tenían una película animada de Deemo, una animación de Implosion sin entregar tras once años, Sdorica entrando en modo mantenimiento en febrero de 2026 y la decisión de cortar lazos con un empleado para conservar el mercado chino tras el incidente del código Morse de ICE en 2020. La estética hizo que el mundo viera a Rayark, y también la hizo tropezar en cada terreno que no era musical.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Technology/rayark-games",
-    "readingTime": 153,
+    "readingTime": 211,
     "featured": false,
     "date": "2026-04-25",
     "path": "es/Technology/rayark-games.md"
@@ -44010,6 +44093,30 @@
     "path": "es/Food/taiwan-sauces-and-seasonings.md"
   },
   {
+    "title": "Samuel Yin : le prix scientifique qu'il a créé vaut plus que le Nobel",
+    "description": "Le 26 mai 2026 à quatre heures vingt et une du matin, Samuel Yin, président du groupe Ruentex et fondateur du Tang Prize, s'est éteint à l'hôpital des Vétérans de Taipei (VGH Taipei), à l'âge de 76 ans. Du bagarreur adolescent dont Wang Jin-ping pansait les blessures au collège Jingde, à sa visite en 1989 à l'université de Pékin où la poussière lui montait aux chevilles, en passant par la création de la Guanghua School of Management, jusqu'au don de 3 milliards de dollars taïwanais en 2012 pour fonder le Tang Prize — dont le prix de 50 millions de dollars taïwanais par catégorie dépasse celui du Nobel. Un homme d'affaires taïwanais vient de quitter ce monde, léguant à la planète un prix plus cher que le Nobel.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/People/samuel-yin-yan-liang",
+    "readingTime": 163,
+    "featured": true,
+    "date": "2026-05-26",
+    "path": "fr/People/samuel-yin-yan-liang.md"
+  },
+  {
+    "title": "Samuel Yin: The Science Prize He Built Is Worth More Than a Nobel",
+    "description": "At 4:21 a.m. on May 26, 2026, Samuel Yin, chairman of the Ruentex Group, passed away at Taipei Veterans General Hospital at the age of 76. From a brawling teenager whose wounds were dressed by Wang Jin-pyng at Chin Teh Middle School, to the man who walked into a dust-covered Peking University in 1989 and funded the founding of the Guanghua School of Management, to the 2012 donation of a NT$3 billion trust fund to establish the Tang Prize — with each category carrying a prize of NT$50 million, exceeding the Nobel. A Taiwanese businessman who just left the world a prize more valuable than a Nobel.",
+    "category": "en",
+    "tags": [
+      "["
+    ],
+    "url": "https://taiwan.md/en/People/samuel-yin-yan-liang",
+    "readingTime": 145,
+    "featured": true,
+    "date": "2026-05-26",
+    "path": "en/People/samuel-yin-yan-liang.md"
+  },
+  {
     "title": "San Mao : L’homme qui a fait de la fuite une liberté",
     "description": "Nom réel Chen Ping, né en 1943 à Chongqing, émigré à Taïwan en 1948. Il abandonne l’école après qu’un professeur l’ait humilié publiquement au collège, vit sept ans d’isolement avant de reprendre l’écriture. En 1973, il épouse José (荷西) dans le Sahara espagnol, ses récits deviennent un phénomène, offrant aux Taïwanais sous la loi martiale une fenêtre imaginaire sur lointain. En 1979, José meurt dans un accident de plongée. En 1990, le scénario de « Roulement du monde » remporte huit prix aux Golden Horse. Le 4 janvier 1991, il se suicide à l’hôpital militaire de Taipei, à 47 ans.",
     "category": "fr",
@@ -44197,6 +44304,17 @@
     "featured": true,
     "date": "2026-03-17",
     "path": "ko/Technology/taiwan-semiconductor-industry.md"
+  },
+  {
+    "title": "Semiconductor Industry: Fifty Years of Materials Revolution from RCA Technology Transfer to Gallium Nitride and Quantum Packaging",
+    "description": "Taiwan's sacred mountain protecting the nation dominates global advanced process manufacturing through foundry services, but the gallium nitride inside fast chargers, the CoWoS beneath AI chips, and the dilution refrigerators above qubits show that the next fifty-year battleground in materials science has only just opened.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/taiwan-semiconductor-industry",
+    "readingTime": 193,
+    "featured": true,
+    "date": "2026-03-17",
+    "path": "en/taiwan-semiconductor-industry.md"
   },
   {
     "title": "Shen Sheng-Bo",
@@ -45132,34 +45250,34 @@
     "path": "en/People/sun-yun-suan.md"
   },
   {
-    "title": "Sunset Rollercoaster : d’une photo de fond Photo Booth à Coachella, 14 ans à chanter les couchers de soleil de Taipei en anglais",
-    "description": "En 2010, un étudiant de 19 ans choisit au hasard le preset « Sunset Rollercoaster » de Mac Photo Booth comme photo de profil MySpace. Quatorze ans plus tard, ce groupe devient le premier groupe taïwanais invité à Coachella en plus de vingt ans. Tout en anglais, avec une City Pop subtropicale et sans s’appuyer sur l’appareil industriel, ils ont fait d’une silhouette de montagnes russes captée au hasard l’une des manières les plus audibles au monde de faire entendre Taïwan.",
+    "title": "Sunset Rollercoaster : d'une photo de fond Photo Booth à Coachella, 14 ans à chanter le crépuscule de Taipei en anglais",
+    "description": "En 2010, un étudiant de 19 ans choisit au hasard le preset « Sunset Rollercoaster » de Mac Photo Booth comme photo de profil MySpace. Quatorze ans plus tard, ce groupe devient le premier groupe taïwanais invité à Coachella en plus de vingt ans. Tout en anglais, City Pop subtropicale, sans s'appuyer sur un système industriel : à partir d'une simple silhouette de montagnes russes prise au vol, ils ont inventé la manière dont Taïwan s'est le plus fait entendre dans le monde.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Music/sunset-rollercoaster",
-    "readingTime": 149,
+    "readingTime": 172,
     "featured": true,
     "date": "2026-05-23",
     "path": "fr/Music/sunset-rollercoaster.md"
   },
   {
     "title": "Sunset Rollercoaster: de una foto de fondo de Photo Booth a Coachella, 14 años cantando el atardecer de Taipéi en inglés",
-    "description": "En 2010, un estudiante de 19 años eligió al azar el preset «Sunset Rollercoaster» de Mac Photo Booth como avatar de MySpace. Catorce años después, esa banda se convirtió en la primera banda taiwanesa invitada a Coachella en más de dos décadas. En inglés, con City Pop subtropical y sin apoyarse en el sistema industrial, hicieron que Taiwán fuera escuchado por el mundo a partir de una silueta de montaña rusa capturada al pasar.",
+    "description": "En 2010, un estudiante de 19 años eligió al azar el preset “Sunset Rollercoaster” de Mac Photo Booth como foto de perfil de MySpace. 14 años después, esta banda se convirtió en la primera banda taiwanesa invitada a Coachella en más de dos décadas. En inglés, con City Pop subtropical y sin apoyarse en el sistema industrial, con una silueta de montaña rusa tomada al pasar, construyeron una de las formas en que Taiwán ha logrado ser más escuchado por el mundo.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Music/sunset-rollercoaster",
-    "readingTime": 148,
+    "readingTime": 169,
     "featured": true,
     "date": "2026-05-23",
     "path": "es/Music/sunset-rollercoaster.md"
   },
   {
-    "title": "Sunset Rollercoaster: Fourteen Years from a Photo Booth Background to Coachella, Singing Taipei Sunsets in English",
-    "description": "In 2010, a 19-year-old student casually picked the Mac Photo Booth 'Sunset Rollercoaster' preset as his MySpace profile picture. Fourteen years later, the band became the first Taiwanese band in more than two decades to be invited to the Coachella Valley Music and Arts Festival. Singing entirely in English, making subtropical City Pop, and operating outside the industrial system, they turned a casually captured roller-coaster silhouette into Taiwan's most globally audible musical form.",
+    "title": "Sunset Rollercoaster: From a Photo Booth Background Shot to Coachella, 14 Years of Singing Taipei Sunsets in English",
+    "description": "In 2010, a 19-year-old student casually chose the Mac Photo Booth preset 'Sunset Rollercoaster' as his MySpace profile picture. Fourteen years later, the band became the first Taiwanese band in more than two decades to be invited to Coachella. All-English lyrics, subtropical City Pop, and no reliance on the music industry system: from a casually selected silhouette of a roller coaster, they created one of the ways Taiwan has been heard most clearly by the world.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Music/sunset-rollercoaster",
-    "readingTime": 137,
+    "readingTime": 161,
     "featured": true,
     "date": "2026-05-23",
     "path": "en/Music/sunset-rollercoaster.md"
@@ -48385,24 +48503,12 @@
     "path": "en/Food/taiwan-fermented-and-pickled-foods.md"
   },
   {
-    "title": "Taiwanese Food Overview: No Dish Is Purely Taiwanese; Every Dish Is Taiwan at Its Most Taiwanese",
-    "description": "Beside the Chiayi Fountain Roundabout in 1949, Lin Tian-shou sliced turkey left from U.S. military rearing, laid it over white rice, and poured on a Minnan braising sauce. From Indigenous stone-slab-grilled wild boar, Hakka stir-fried pork intestine with shredded ginger, and military dependents' village Sichuan-style beef noodle soup to the bubble tea invented in Taichung in 1986, and then to the 419 restaurants included by Michelin in 2025. Over four hundred years, this island has cooked every borrowed dish into its own way.",
+    "title": "Taiwanese Food Overview: No Dish Is Purely Taiwanese, and Every Dish Is Taiwanese to the Core",
+    "description": "Beside the Chiayi Fountain roundabout in 1949, Lin Tien-shou sliced chicken, laid it over white rice, and poured Minnan-style braising sauce on top; only after the U.S. military stationed in postwar Taiwan moved into Shuishang Air Base and brought large numbers of turkeys to Taiwan did this bowl evolve from chicken rice into turkey rice. From Indigenous slate-grilled wild boar, Hakka stir-fried pork intestines with shredded ginger, and military dependents' village Sichuan-style beef noodles to bubble tea invented in Taichung in 1986, and onward to the 419 restaurants included by Michelin in 2025. This island spent four hundred years cooking every borrowed dish into its own form.",
     "category": "en",
-    "tags": [
-      "Cuisine",
-      "Food",
-      "Food",
-      "Taiwanese Culture",
-      "Migration",
-      "Michelin",
-      "Night Markets",
-      "Bubble Tea",
-      "Beef Noodle Soup",
-      "Lu Rou Fan",
-      "Bando"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/Food/taiwan-food-overview",
-    "readingTime": 243,
+    "readingTime": 252,
     "featured": true,
     "date": "2026-05-18",
     "path": "en/Food/taiwan-food-overview.md"
@@ -49047,6 +49153,24 @@
     "path": "es/Art/tehching-hsieh-performance-artist.md"
   },
   {
+    "title": "Televisión pública: del hechizo de los nueve mil millones a la expulsión del hemiciclo, veintiocho años de independencia aún sin escribir",
+    "description": "Cuando la televisión pública (PTS) inició sus transmisiones en 1998, la Ley de Televisión Pública fijó una reducción progresiva de la subvención gubernamental hasta congelarla en 900 millones de dólares taiwaneses al año, una cláusula que permaneció vigente durante 23 años. En ese período produjo cinco series insignia que sacudieron a la sociedad: *La distancia entre nosotros y el mal*, *Té dorado*, *La médium*, *Tormenta anestésica* y *Una mata de verde*. En mayo de 2023, una reforma legal deshizo el hechizo y el presupuesto se duplicó a 2.300 millones, pero 19 meses después se recortó un 1 % y se congeló un 25 %; un año más tarde, en mayo de 2026, el presidente Hu Yuanhui fue expulsado del hemiciclo legislativo. En 28 años, la televisión pública ha demostrado algo: deshacer el hechizo no equivale a establecer la independencia.",
+    "category": "es",
+    "tags": [
+      "Medios de comunicación",
+      "Televisión pública",
+      "Política cultural",
+      "Industria audiovisual",
+      "Retiro del partido-gobierno-militar de los medios",
+      "Principio de distancia (arms length)"
+    ],
+    "url": "https://taiwan.md/es/Society/pts-public-television-service",
+    "readingTime": 166,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "es/Society/pts-public-television-service.md"
+  },
+  {
     "title": "Teñido con índigo",
     "description": "Fue alguna vez el tercer producto de exportación más importante de Taiwán, enriqueció de la noche a la mañana a las ciudades montañosas del norte de la isla; luego desapareció durante medio siglo, hasta que un grupo de personas decidió plantar de vuelta aquel «azul taiwanés» sacándolo de la tierra.",
     "category": "es",
@@ -49626,17 +49750,6 @@
     "featured": false,
     "date": "2026-04-27",
     "path": "en/History/rover-incident-and-tauketok.md"
-  },
-  {
-    "title": "The Semiconductor Industry: 50 Years of Materials Revolution from RCA Technology Transfer to Gallium Nitride and Quantum Packaging",
-    "description": "Taiwan's sacred mountain protecting the nation dominates global advanced-process foundry work, but the next 50-year battlefield of materials science is only beginning to take shape: gallium nitride inside fast chargers, CoWoS beneath AI chips, and dilution refrigerators above qubits.",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/taiwan-semiconductor-industry",
-    "readingTime": 174,
-    "featured": true,
-    "date": "2026-05-25",
-    "path": "en/taiwan-semiconductor-industry.md"
   },
   {
     "title": "The Sino-French War in Taiwan: Eight Months at Keelung and Tamsui",
@@ -53407,6 +53520,17 @@
     "path": "ko/Technology/national-cultural-memory-bank.md"
   },
   {
+    "title": "국가인권박물관: 눈물의 비석에 쓰이지 않은 이름들",
+    "description": "1999년 국제 인권의 날, 리덩후이는 뤼다오에서 직접 「눈물의 비석」 제막식을 열었다. 보양은 스물여덟 글자로 모든 어머니의 긴 밤의 울음을 다 썼지만, 가해자의 이름은 하나도 쓰지 않았다. 6년의 준비, 2018년 현판식, 2025년 예산 동결. 국가가 스스로 저지른 일을 기념하기 위해 스스로 세운 박물관. 계엄 해제 39년 동안 사법 재판을 받은 가해자는 단 한 명도 없다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/History/national-human-rights-museum",
+    "readingTime": 105,
+    "featured": true,
+    "date": "2026-05-26",
+    "path": "ko/History/national-human-rights-museum.md"
+  },
+  {
     "title": "국립고궁박물원",
     "description": "그것은 이 섬에서 가장 무거운 '짐'이자, 가장 가벼운 '디지털 환상'이다. 전쟁의 불길 속 나무 상자에서 AI 연산력이 만들어낸 픽셀까지, 고궁은 타이베이 외쉐이시(外雙溪)와 자이시 타이바오(太保) 사이에서 '대만의 고궁'이란 무엇인지를 정의하려 하고 있다.",
     "category": "ko",
@@ -54722,29 +54846,6 @@
     "path": "ko/Culture/taiwan-cultural-creative-park-development.md"
   },
   {
-    "title": "대만 미식 총람: 순수하게 대만적인 음식은 없지만, 모든 음식은 가장 대만적이다",
-    "description": "1949년 자이 분수 원형교차로 옆에서 린톈서우는 미군이 기르고 남은 칠면조를 얇게 썰어 흰밥 위에 얹고 민난식 조림 소스를 끼얹었다. 원주민의 석판구이 산돼지고기, 하카의 생강채 돼지곱창볶음, 군인마을의 쓰촨식 우육면에서 1986년 타이중에서 발명된 버블티, 그리고 2025년 미쉐린에 수록된 419개 식당까지. 이 섬은 사백 년에 걸쳐 빌려온 모든 음식을 자기 방식으로 끓여냈다.",
-    "category": "ko",
-    "tags": [
-      "미식",
-      "음식",
-      "식품",
-      "대만 문화",
-      "이민",
-      "미쉐린",
-      "야시장",
-      "버블티",
-      "우육면",
-      "루러우판",
-      "반줘"
-    ],
-    "url": "https://taiwan.md/ko/Food/taiwan-food-overview",
-    "readingTime": 116,
-    "featured": true,
-    "date": "2026-05-18",
-    "path": "ko/Food/taiwan-food-overview.md"
-  },
-  {
     "title": "대만 민요와 가요: 도용당하고 세계에 알려지기까지",
     "description": "1996년 올림픽 개막식에서 울려 퍼진 대만 아미족 노인의 고대 노래. 하지만 궈잉난 본인은 소송을 통해서야 자신의 목소리가 세계에 울려 퍼졌다는 사실을 알았다. 이 황당한 이야기는 대만 민요의 운명을 담은 거울이다 — 침묵에서 자신의 소리를 되찾기까지.",
     "category": "ko",
@@ -55341,6 +55442,17 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "ko/Society/stray-animal-culture.md"
+  },
+  {
+    "title": "대만 음식 총람: 순수하게 대만적인 요리는 없지만, 모든 요리가 가장 대만적이다",
+    "description": "1949년 자이 분수 원형교차로 옆에서 린톈서우는 닭고기를 저며 흰밥 위에 얹고 민난식 조림 국물을 끼얹었다; 전후 대만 주둔 미군이 수이상 공항에 들어온 뒤 대량의 칠면조를 대만으로 가져오면서, 이 한 그릇은 닭고기밥에서 칠면조고기밥으로 진화했다. 원주민의 석판구이 산돼지, 객가식 생강채 돼지곱창볶음, 군인촌의 쓰촨풍 소고기면에서 1986년 타이중에서 발명된 버블티, 그리고 2025년 미쉐린이 수록한 419개 식당에 이르기까지. 이 섬은 사백 년에 걸쳐 빌려온 모든 요리를 자기 방식으로 끓여냈다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Food/taiwan-food-overview",
+    "readingTime": 120,
+    "featured": true,
+    "date": "2026-05-18",
+    "path": "ko/Food/taiwan-food-overview.md"
   },
   {
     "title": "대만 음악 산업과 스트리밍 시대: 레코드 매장에서 디지털 플랫폼으로의 전환 여정",
@@ -57190,12 +57302,12 @@
     "path": "ko/People/liao-hung-chi-ocean-writer.md"
   },
   {
-    "title": "레이아크 게임즈: 미학으로 세운 음악 제국과 그 14년의 균열",
-    "description": "2012년 타이완대 전기정보학원 출신 젊은이 여섯 명은 3,000만 달러를 모아 《Cytus》를 만들었고, 한 달 만에 14개국 순위 1위에 올랐다. 14년 뒤 그들에게는 Deemo 애니메이션, 11년째 미납품 상태인 Implosion 애니메이션, 2026년 2월 유지보수 모드에 들어간 Sdorica, 그리고 2020년 ICE 모스 부호 사건 뒤 직원을 분리해 중국 시장을 지키기로 한 선택이 남았다. 미학은 레이아크를 세계에 보이게 했고, 동시에 음악이 아닌 모든 영역에서 넘어지게 했다.",
+    "title": "레이아 게임즈: 미학으로 세운 음악 제국과 그 14년의 균열",
+    "description": "2012년 타이완대 전기정보학원 출신 젊은이 여섯 명은 3,000만 대만달러를 모아 《Cytus》를 만들었고, 한 달 만에 14개국 순위 1위에 올랐다. 14년 뒤 그들에게는 Deemo 애니메이션, 11년째 미인도 상태인 Implosion 애니메이션, 2026년 2월 유지보수 모드에 들어간 Sdorica, 2020년 ICE 모스 부호 사건 이후 중국 시장을 지키기 위해 직원을 절연한 선택이 남았다. 미학은 레이아를 세계에 보이게 했지만, 또한 그들이 음악이 아닌 모든 장에서 넘어지게 했다.",
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Technology/rayark-games",
-    "readingTime": 80,
+    "readingTime": 114,
     "featured": false,
     "date": "2026-04-25",
     "path": "ko/Technology/rayark-games.md"
@@ -57625,12 +57737,20 @@
     "path": "ko/Society/ma-ying-jeou-meme.md"
   },
   {
-    "title": "마잉주: 하버드 법학박사가 장징궈 집무실에서 영어 통역을 맡고, 이후 8년간 청렴한 총통으로 재임하며 양안, 해바라기와 22K를 남기다",
-    "description": "2015년 11월 7일 싱가포르 샹그릴라에서 그는 시진핑과 1분 20초 동안 악수했다. 1949년 이후 양안 최고지도자가 처음 만난 순간이었다. 같은 사진을 두고 대만 사회는 지금도 완전히 다른 두 방식으로 기억한다. 한쪽은 역사적 돌파를 보았고, 다른 한쪽은 주체성의 양보를 보았다. 그가 8년의 총통 임기 동안 남긴 청렴, 양안, 22K와 해바라기, 그리고 퇴임 후 10년 동안의 두 차례 중국 방문과 2026년 가족 성명까지, 오늘날까지도 평가는 정해지지 않았다.",
+    "title": "마잉주: 하버드 법학박사가 장징궈 집무실에서 영어 통역을 맡고, 8년 동안 '청렴' 이미지를 기반으로 대통령직을 수행했으나 양안, 해바라기와 22K를 남긴 인물",
+    "description": "2015년 11월 7일 싱가포르 샹그릴라에서 그는 시진핑과 1분 20초 동안 악수했다. 1949년 이후 양안 최고지도자가 처음 만난 순간이었다. 같은 사진을 두고 대만 사회는 지금까지 완전히 다른 두 방식으로 기억한다. 한쪽은 역사적 돌파를 보고, 다른 한쪽은 주체성의 양보를 본다. 그가 8년 대통령 임기 동안 구축한 '청렴' 이미지, 양안, 22K와 해바라기, 여기에 퇴임 후 10년 사이 두 차례 중국 방문과 2026년 가족 성명까지 더해져, 오늘날까지도 평가는 정리되지 않았다.",
     "category": "ko",
-    "tags": [],
+    "tags": [
+      "대통령",
+      "국민당",
+      "양안 관계",
+      "ECFA",
+      "해바라기 학생운동",
+      "마시 회동",
+      "타이베이 시장"
+    ],
     "url": "https://taiwan.md/ko/People/ma-ying-jeou-cross-strait-reconciliation-leader",
-    "readingTime": 91,
+    "readingTime": 92,
     "featured": false,
     "date": "2026-03-30",
     "path": "ko/People/ma-ying-jeou-cross-strait-reconciliation-leader.md"
@@ -58012,14 +58132,14 @@
     "path": "ko/People/park-sung-eun.md"
   },
   {
-    "title": "반도체 산업: RCA 기술이전에서 질화갈륨과 양자 패키징까지, 50년의 소재 혁명",
-    "description": "대만의 호국신산은 파운드리로 세계 첨단 공정을 지배하지만, 고속 충전기 속 질화갈륨, AI 칩 아래의 CoWoS, 큐비트 위의 희석냉동기까지, 다음 50년의 재료과학 전장은 이제 막 펼쳐지고 있다.",
+    "title": "반도체 산업: RCA 기술 이전에서 질화 갈륨과 양자 패키징까지, 50년 재료 혁명",
+    "description": "타이완의 호국신산은 파운드리로 세계 첨단 공정을 제패했지만, 고속 충전기 안의 질화 갈륨, AI 칩 아래의 CoWoS, 큐비트 위의 희석 냉동기까지, 다음 50년의 재료과학 전장은 이제 막 펼쳐지기 시작했다.",
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Technology/semiconductor-industry",
-    "readingTime": 86,
+    "readingTime": 101,
     "featured": true,
-    "date": "2026-05-25",
+    "date": "2026-03-17",
     "path": "ko/Technology/semiconductor-industry.md"
   },
   {
@@ -58337,11 +58457,19 @@
   },
   {
     "title": "선셋 롤러코스터: 포토부스 배경 사진 한 장에서 첼라까지, 타이베이 노을을 영어로 노른  14년",
-    "description": "2010년, 19세의 학생이 맥 포토부스에서 아무렇게나 「Sunset Rollercoaster」 프리셋을 골라 마이스페이스 프로필 사진으로 설정했다. 14년 후, 이 밴드는 코첼라 음악제 20여 년 역사상 최초로 무대에 오른 타이완 밴드가 되었다. 영어 전곡, 아열대 시티팝, 산업 시스템에 기대지 않고, 그들은 대충 찍은 롤러코스터 실루엣 한 장으로 타이완이 세계에 가장 많이 들리는 방식을 만들어냈다.",
+    "description": "2010년, 19세의 학생이 맥 포토부스에서 아무렇게나 「Sunset Rollercoaster」 프리셋을 골라 마이스페이스 프로필 사진으로 설정했다. 14년 후, 이 밴드는 코첼라 페스티벌 20여 년 역사상 무대에 오른 최초의 타이완 밴드가 되었다. 전곡 영어 가사, 아열대 시티팝, 산업 시스템에 기대지 않고, 그들은 대충 찍은 롤러코스터 실루엣 한 장으로 타이완이 세계에 가장 많이 들리는 방식을 만들어냈다.",
     "category": "ko",
-    "tags": [],
+    "tags": [
+      "독립밴드",
+      "city-pop",
+      "투어",
+      "골든 멜로디 어워드",
+      "coachella",
+      "혁오",
+      "타이베이"
+    ],
     "url": "https://taiwan.md/ko/Music/sunset-rollercoaster",
-    "readingTime": 71,
+    "readingTime": 87,
     "featured": true,
     "date": "2026-05-23",
     "path": "ko/Music/sunset-rollercoaster.md"
@@ -58565,17 +58693,6 @@
     "featured": false,
     "date": "2026-04-20",
     "path": "ko/Art/tehching-hsieh-performance-artist.md"
-  },
-  {
-    "title": "쉬줘윈: 두 손가락으로 중국사의 장강을 써낸 왕리훙 외종조부의 95년",
-    "description": "1930년 샤먼에서 태어나 1949년 국민정부를 따라 대만으로 건너가고 1970년 피츠버그로 간 역사학자. 선천적 지체장애로 평생 휠체어에 의지했지만, 힘을 줄 수 있는 두 손가락으로 키보드를 두드려 거의 40권의 저작을 완성했다. 2024년 제6회 당상 한학상 수상자이며, 상금 5,000만 대만달러 전액을 기부해 「쉬-쑨 장학금」을 설립했다. 그는 왕리훙의 칠외종조부이자 리젠푸의 외삼촌이다. 2025년 8월 세상을 떠나기 전 「내가 숨을 거두는 순간에도 나는 여전히 배우고 있다」는 말을 남겼다.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/People/cho-yun-hsu-bridging-historian",
-    "readingTime": 130,
-    "featured": false,
-    "date": "2026-05-22",
-    "path": "ko/People/cho-yun-hsu-bridging-historian.md"
   },
   {
     "title": "스린: 케타갈란족의 땅, 장저우·취안저우 무장 충돌의 사원, 그리고 오늘날 매일 밤 타이베이에서 가장 붐비는 야시장",
@@ -63030,6 +63147,17 @@
     "path": "ko/People/hou-hsiao-hsien.md"
   },
   {
+    "title": "허줘윈: 두 손가락으로 중국사의 긴 강을 써 내려간, 왕리훙 외종조부의 95년",
+    "description": "1930년 샤먼에서 태어나 1949년 국민정부를 따라 타이완으로 건너가고 1970년 피츠버그로 향한 역사학자. 선천성 지체장애로 평생 휠체어를 탔지만 힘을 줄 수 있는 두 손가락으로 키보드를 두드려 거의 40권의 저작을 완성했다. 2024년 제6회 탕상 한학상 수상자로, 상금 5,000만 뉴타이완달러 전액을 기부해 「허-쑨 장학금」을 설립했다. 그는 왕리훙의 칠외종조부이자 리젠푸의 외삼촌이다. 2025년 8월 세상을 떠나기 전 「내가 숨을 거두는 그 순간에도 나는 배우고 있다」라는 말을 남겼다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/People/cho-yun-hsu-bridging-historian",
+    "readingTime": 126,
+    "featured": false,
+    "date": "2026-05-22",
+    "path": "ko/People/cho-yun-hsu-bridging-historian.md"
+  },
+  {
     "title": "허팡이: 이란 1971, 그람 무용수단 수석에서 2024 금마 주시각 무용수까지",
     "description": "1971년 이란(宜蘭)에서 태어남. 타이베이예술대학교 무용과 졸업 후 1995년 미국으로 건너가 마사 그람 무용수단(Martha Graham Dance Company)에 입단, 1999년 수석 무용수로 승진. 2007년 귀국하여 라팡 LAFA 설립(2010년 종료). 다큐멘터리 《내 마음 나의 길》(2020). 2024년 금마 영화제 주시각 무용 디자인 담당. 2025년 인터뷰에서 신체 노화 문제를 논함.",
     "category": "ko",
@@ -63867,12 +63995,14 @@
     "path": "ja/People/henry-lee-forensic.md"
   },
   {
-    "title": "レイアーク・ゲームズ：美学によって立国した音楽帝国と、その十四年の亀裂",
-    "description": "2012 年、台湾大学電機資訊学院の若者 6 人が 3,000 万元を集めて《Cytus》を作り、1 か月で 14 か国のランキング 1 位に上りました。十四年後、彼らには Deemo のアニメ、十一年未納品の聚爆アニメ、2026 年 2 月にメンテナンスモードへ入った Sdorica、そして 2020 年の ICE モールス符号事件後に従業員を切り離して中国市場を守る選択がありました。美学はレイアークを世界に見せましたが、音楽以外のあらゆる領域でつまずかせもしました。",
+    "title": "レイアーク：美学で立つ音楽帝国と、十四年の亀裂",
+    "description": "2012年、台大電資院出身の若者6人が3千万円を集めて『Cytus』を開発し、リリース1か月で14カ国のランキング1位に輝いた。十四年後、Deemoアニメ化、『インプロージョン』アニメは十一年経っても未納品、『Sdorica 万象物語』は2026年2月にメンテナンスモードに移行、2020年のICEモールス信号事件では従業員を切り離して中国市場を守る選択をした。美学がレイアークを世界に見せてくれた一方で、音楽以外の領域では何度も躓かせている。",
     "category": "ja",
-    "tags": [],
+    "tags": [
+      "["
+    ],
     "url": "https://taiwan.md/ja/Technology/rayark-games",
-    "readingTime": 76,
+    "readingTime": 104,
     "featured": false,
     "date": "2026-04-25",
     "path": "ja/Technology/rayark-games.md"

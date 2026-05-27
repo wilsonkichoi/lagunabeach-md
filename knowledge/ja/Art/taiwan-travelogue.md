@@ -20,7 +20,7 @@ lastVerified: 2026-05-23
 lastHumanReview: false
 featured: true
 translatedFrom: 'Art/臺灣漫遊錄.md'
-sourceCommitSha: '76ef70ac'
+sourceCommitSha: '4f25cbbc'
 sourceContentHash: 'sha256:04cc7caa03e151f7'
 sourceBodyHash: 'sha256:1999959e3ea909b4'
 translatedAt: '2026-05-24T05:06:32+08:00'

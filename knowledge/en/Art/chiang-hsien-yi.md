@@ -29,7 +29,7 @@ lastVerified: 2026-05-22
 lastHumanReview: false
 featured: true
 translatedFrom: 'Art/江賢二.md'
-sourceCommitSha: '3171bab8'
+sourceCommitSha: '4f25cbbc'
 sourceContentHash: 'sha256:3870280529c79170'
 sourceBodyHash: 'sha256:67baf16d4a608267'
 translatedAt: '2026-05-25T21:06:51Z'

@@ -33,7 +33,7 @@ sporeLinks:
     date: '2026-05-25'
     url: 'https://www.threads.com/@taiwandotmd/post/DYwhhzFgfe0'
 translatedFrom: 'Art/江賢二.md'
-sourceCommitSha: '3171bab8'
+sourceCommitSha: '4f25cbbc'
 sourceContentHash: 'sha256:3870280529c79170'
 sourceBodyHash: 'sha256:67baf16d4a608267'
 translatedAt: '2026-05-26T21:07:27Z'

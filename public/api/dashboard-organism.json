@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T15:09:04.888Z",
+  "lastUpdated": "2026-05-27T22:11:33.114Z",
   "organs": [
     {
       "id": "heart",
@@ -104,11 +104,11 @@
       "metrics": {
         "languageCoverage": {
           "zh-TW": 757,
-          "en": 773,
-          "ja": 763,
-          "ko": 758,
-          "es": 754,
-          "fr": 774
+          "en": 777,
+          "ja": 764,
+          "ko": 759,
+          "es": 756,
+          "fr": 777
         },
         "translationPct": 93,
         "langHealthDetails": {
@@ -127,8 +127,8 @@
               "pct": 100
             },
             "articles": {
-              "count": 773,
-              "pct": 102
+              "count": 777,
+              "pct": 103
             },
             "score": 100
           },
@@ -147,7 +147,7 @@
               "pct": 0
             },
             "articles": {
-              "count": 763,
+              "count": 764,
               "pct": 101
             },
             "score": 80
@@ -167,7 +167,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 758,
+              "count": 759,
               "pct": 100
             },
             "score": 100
@@ -187,7 +187,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 754,
+              "count": 756,
               "pct": 100
             },
             "score": 100
@@ -207,8 +207,8 @@
               "pct": 25
             },
             "articles": {
-              "count": 774,
-              "pct": 102
+              "count": 777,
+              "pct": 103
             },
             "score": 86
           }

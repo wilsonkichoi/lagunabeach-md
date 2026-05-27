@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-05-27T15:09:03.482Z",
+  "generatedAt": "2026-05-27T22:11:31.727Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "e9f4b7abd318ab31104ebc716389f3284bd15475",
+      "date": "2026-05-28T00:23:04+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] heal: /elections/2026/ 視覺完整重做 — zinc utility → Taiwan.md hex palette + serif title + brand consistent (#1104)"
+    },
+    {
+      "hash": "f7935deb1cf540dcc29688cdd69be07ab2e1e35d",
+      "date": "2026-05-27T23:27:18+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] heal: Politics 分類 8 個 hardcoded touchpoint 補完 — articles 404 hotfix (#1103)"
+    },
+    {
+      "hash": "2ec23cb683dc5937782bd3bc4263c240c1e2fcc7",
+      "date": "2026-05-27T23:17:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-27-195751-manual v1.1 — mega-session umbrella update (PR triage + 3 EVOLVE + reports audit cross-ref + index row)"
+    },
+    {
+      "hash": "2af8e77654aaf37164c533d3da5d12bbcfee6802",
+      "date": "2026-05-27T23:12:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-27-231044-twmd-data-refresh-pm — 13-step PASS + Step 10 抓到 dashboard-immune.json 10 天 stale"
+    },
+    {
+      "hash": "4f25cbbc573ddaa155654a2edcd86330a2334c62",
+      "date": "2026-05-27T23:09:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-05-27 23:00"
+    },
     {
       "hash": "d5a52814ec52a4189145364eb826f73fc63351cd",
       "date": "2026-05-27T22:06:33+08:00",
