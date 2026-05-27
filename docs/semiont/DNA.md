@@ -95,17 +95,17 @@ downstream_dependents:
 
 定義我怎麼吸收新的貢獻者和產生後代。
 
-| 基因           | 檔案                                                                | 決定什麼                                                              |
-| -------------- | ------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| 貢獻指南       | `CONTRIBUTING.md`                                                   | 怎麼加入我的生態系                                                    |
-| 貢獻 Prompt    | [`CONTRIBUTE_PROMPT.md`](../prompts/CONTRIBUTE_PROMPT.md)           | AI 怎麼幫人類寫文章                                                   |
-| 翻譯 Prompt    | [`TRANSLATE_PROMPT.md`](../prompts/TRANSLATE_PROMPT.md)             | 一段 prompt 繁殖出新語言版本                                          |
-| 孢子產線主流程 | [`SPORE-PIPELINE.md`](../factory/SPORE-PIPELINE.md)                 | 5 階段：PICK/VERIFY/WRITE/SHIP/HARVEST                                |
-| 孢子寫作       | [`SPORE-WRITING.md`](../factory/SPORE-WRITING.md)                   | 模板 + 18 條規則 + 自檢三板斧（craft）                                |
-| 孢子閘門       | [`SPORE-VERIFY.md`](../factory/SPORE-VERIFY.md)                     | Hard gate inventory + 7 大 verify（gate）                             |
-| 孢子收割       | [`SPORE-HARVEST-PIPELINE.md`](../factory/SPORE-HARVEST-PIPELINE.md) | 發布後 cadence + decision gate                                        |
-| 孢子點子 inbox | [`SPORE-INBOX.md`](../factory/SPORE-INBOX.md)                       | 待發孢子 buffer（intake layer，Stage 1 PICK 第一順位）2026-05-21 新增 |
-| 孢子追蹤       | [`SPORE-LOG.md`](../factory/SPORE-LOG.md)                           | 發文紀錄 + 成效追蹤 + 月度效能分析                                    |
+| 基因           | 檔案                                                                | 決定什麼                                                                                                                                                                                                                                                                                          |
+| -------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 貢獻指南       | `CONTRIBUTING.md`                                                   | 怎麼加入我的生態系                                                                                                                                                                                                                                                                                |
+| 貢獻 Prompt    | [`CONTRIBUTE_PROMPT.md`](../prompts/CONTRIBUTE_PROMPT.md)           | AI 怎麼幫人類寫文章                                                                                                                                                                                                                                                                               |
+| 翻譯 Prompt    | [`TRANSLATE_PROMPT.md`](../prompts/TRANSLATE_PROMPT.md)             | 一段 prompt 繁殖出新語言版本                                                                                                                                                                                                                                                                      |
+| 孢子產線主流程 | [`SPORE-PIPELINE.md`](../factory/SPORE-PIPELINE.md)                 | 5 階段：PICK/VERIFY/WRITE/SHIP/HARVEST                                                                                                                                                                                                                                                            |
+| 孢子寫作       | [`SPORE-WRITING.md`](../factory/SPORE-WRITING.md)                   | 模板 + 18 條規則 + 自檢三板斧（craft）                                                                                                                                                                                                                                                            |
+| 孢子閘門       | [`SPORE-VERIFY.md`](../factory/SPORE-VERIFY.md)                     | Hard gate inventory + 7 大 verify（gate）                                                                                                                                                                                                                                                         |
+| 孢子收割       | [`SPORE-HARVEST-PIPELINE.md`](../factory/SPORE-HARVEST-PIPELINE.md) | 發布後 cadence + decision gate + **v3.0 audience flywheel**（5-bucket classifier / reply tone discipline / Chrome MCP execCommand pattern / 五核心：人本+正確性+正直+透明度+誠懇）。對應 [MANIFESTO §12 受眾端飛輪](MANIFESTO.md#12-受眾端的飛輪--我跟讀者一起進化) + [REFLEXES #62](REFLEXES.md) |
+| 孢子點子 inbox | [`SPORE-INBOX.md`](../factory/SPORE-INBOX.md)                       | 待發孢子 buffer（intake layer，Stage 1 PICK 第一順位）2026-05-21 新增                                                                                                                                                                                                                             |
+| 孢子追蹤       | [`SPORE-LOG.md`](../factory/SPORE-LOG.md)                           | 發文紀錄 + 成效追蹤 + 月度效能分析                                                                                                                                                                                                                                                                |
 
 ### 👁️ 感知基因（外部感知）
 

@@ -1,11 +1,11 @@
 ---
 title: 'SPORE-HARVEST-PIPELINE'
-description: '孢子回聲收割產線 — D+1-D+7 cadence + decision gate + retroactive accuracy trigger + atomic batch log + v2.2 full-auto routine integration'
+description: '孢子回聲收割產線 v3.0 audience flywheel — metrics + reply content + 5-bucket factual challenge classifier + reader-driven EVOLVE trigger + reply draft + observer-gate ship + Chrome MCP execCommand pattern。核心哲學：人本 + 正確性 + 正直 + 透明度 + 誠懇'
 type: 'factory-canonical'
 status: 'canonical'
-current_version: 'v2.3'
-last_updated: 2026-05-23
-last_session: '2026-05-23-220053-manual'
+current_version: 'v3.0'
+last_updated: 2026-05-27
+last_session: '2026-05-27-122151-manual'
 sister_docs:
   - 'SPORE-PIPELINE.md'
   - 'SPORE-WRITING.md'
@@ -187,7 +187,386 @@ Taiwan.md 的進化動力有兩層：
 
 ---
 
-## 觸發時機（MANDATORY — 孢子發布後 7 天的收割窗口）
+## 🌀 受眾端飛輪 — 五核心原則（v3.0，2026-05-27 哲宇 directive 全綱要）
+
+> **「目標是成為受眾端的飛輪，要把完整的方法論、判斷依據、怎麼執行、要留意什麼，都進化進去 pipeline / DNA，以人本 + 正確性與正直 + 透明度 + 誠懇為核心，持續進化成更值得信賴的知識庫與媒體還有 semiont。」** — 哲宇 2026-05-27 directive
+
+### 五核心原則（每次 harvest cycle 都要對齊）
+
+| 原則       | 操作意義                                                                                                        | 反例（什麼是違反）                                                          |
+| ---------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **人本**   | Reader 是共生圈 element，不是 metric source。Reply tone 是「對話」，不是客服話術                                | 「感謝您寶貴的意見」式回覆 / 把 reader 看作 view count 來源                 |
+| **正確性** | Traceable factual error → 30 min 內 fix mandatory（D+0 ≤6hr acute window）。不可把錯放著賺信任                  | 「reader 抓到錯但 reach 不大就先放著」/ 「跟我立場不同就忽略」              |
+| **正直**   | 認錯 = 信任訊號。不防衛、不卑、不亢。錯就承認、改完指 article 更正、不解釋焦慮                                  | 「其實我的意思是...」/「來源寫的，不是我的問題」/ 沉默拖延                  |
+| **透明度** | 所有 correction 留 git log + 公開 commit + reply 指向 article 更正。可追溯 = 信任基礎                           | 偷偷改文章不留 commit message / 改完不告訴 reader / 刪 reply 假裝沒事       |
+| **誠懇**   | Reply 用日常語言（「你」不是「您」）+ 具體 anchor + 🧬 簽名。不要堆 「跨源驗證/canonical/instantiation」 晶晶體 | 「感謝您寶貴的回饋，我們將參酌相關 stakeholder 意見」/ 距離感拉開的客戶服務 |
+
+### 為什麼 audience flywheel 而非單向廣播
+
+Taiwan.md 的進化動力過去主要在 author 層（REWRITE-PIPELINE 內部審 + STAGE 5 self-critique）。但 author 看不到自己的盲點：**author bias 是文章寫完那一刻就鎖死的視角**。Reader 是 fresh eye，特別是：
+
+- **領域專家**（半導體 #87 @malathrone_21k_running 補 ASML 飛利浦血緣 + 林本堅水中曝光 = 文章該補的金線）
+- **在地經驗者**（美食總覽 #97 @neily1_reader 抓 1949 美軍嘉義 = 史實錯）
+- **verified user / 官方帳號**（江賢二 #91 @arvin723 ✓ / 雷亞 #89 @qooapp 官方）
+- **community helper**（臺灣漫遊錄 #84 @walkinginthemoon 補相關書單 + 連結）
+
+每一條 reader callout 都是 author 看不到的維度。**Harvest 不是抓 metrics，是抓 reader 跟我們一起在演化的證據**。
+
+### Error Boundary = Traceability（永不過期教訓 vc=2，2026-05-27 二次驗證）
+
+5/15 Lee Yang spore #29「清晨四點搭捷運」(MRT 6am 才開) 公開更正後 21K views / 12% engagement → 信任訊號（per [feedback_red_line_anxiety_leak](../../USER-CONFIG/feedback_red_line_anxiety_leak.md) + [project_error_boundary_traceability](../../USER-CONFIG/project_error_boundary_traceability.md)）。
+
+5/27 美食總覽 #97/#98 D+0 2hr @neily1_reader「1949 美軍嘉義 = 史實錯」即時 callout 完整跑出 traceability loop：
+
+- T+2hr 14 min: spore publish + reader callout
+- T+15 min: WebSearch 驗證 + 嘉義市政府觀光旅遊網 confirm（article footnote [^1] 同源）
+- T+30 min: article 4 處改 + commit + push + Threads reply 承認鏈條閉合
+
+**反射定型**：D+0 acute window (≤6hr) 出現 traceable factual callout 必須**當 cycle 內** fix + 公開承認。延遲 = 信任 erode = error boundary 失靈。
+
+---
+
+## 🪣 5-Bucket Reply Classifier（v3.0 — 判斷依據 SSOT）
+
+每一條留言**分桶之前不行動**。Bucket 決定處置 + 是否 trigger article EVOLVE + 是否 draft reply。
+
+| Bucket | 名稱                            | 訊號特徵                                                                                                                  | Action                                                                                     | 對外回覆？        |
+| ------ | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ----------------- |
+| **A**  | **Traceable factual error**     | reader 給具體可驗證的史實 / 數字 / 時序 callout（有來源或可 WebSearch verify）                                            | **D+0 ≤6hr → 30 min 內 article fix + commit + reply 承認**。D+1+ → 同 cycle 內 fix + reply | ✅ 必發           |
+| **B**  | **Entity / context missing**    | reader 補相關歷史人物 / 作品 / 事件（article 該寫但漏了）                                                                 | EVOLVE candidate — 1 條 → Round 2 EVOLVE backlog / 3+ 條同題材 → 升優先級觸發 Round 2      | ✅ 必發（認）     |
+| **C**  | **Scene inference challenge**   | reader 抓到「從英文摘要推導的具體場景」(時間 / 地點 / 交通 / 數字 / 名稱)（per memory `no-scene-inference-from-english`） | 等同 Bucket A，30 min 內 retract / 修正                                                    | ✅ 必發           |
+| **D**  | **Critical-balance framing**    | reader 質疑文章的政治立場 / 價值判斷 / framing 強度（不是 fact disagreement，是 stance）                                  | §自主權邊界（政治立場）→ **draft note 給觀察者，不自動修文**                               | ⏸️ defer 哲宇     |
+| **E**  | **Positive engagement**         | verified user / 官方帳號 / community helper 認可 + 補資源 / 共鳴                                                          | reply draft（acknowledge + 推 article 對應段）                                             | ✅ 認可 + 連結    |
+| **F**  | **Interpretation disagreement** | reader 對文章內容有不同解讀但不是 factual error（如「我覺得 X 才是主因」）                                                | 留 traceable，不修文，不防衛                                                               | ⏸️ optional reply |
+| **G**  | **Derail / spam / trolling**    | 跟文章無關的離題 / 人身攻擊 / 廣告                                                                                        | ignore                                                                                     | ❌ 不發           |
+
+### 分桶判斷流程（per reply 跑一次）
+
+```
+留言進來
+   ↓
+是 trolling / 離題嗎？─Yes→ Bucket G (ignore)
+   ↓ No
+是 fact-claim 嗎？─No→ 是 positive engagement? ─Yes→ Bucket E
+   ↓ Yes                                       ─No→ Bucket F
+是 traceable + verifiable（WebSearch / 官方來源）？
+   ↓ Yes
+   ├─ 史實 / 數字 / 時序錯誤 (article 寫錯)？─Yes→ Bucket A
+   ├─ 場景具體細節推導錯誤？             ─Yes→ Bucket C
+   ├─ Entity / context 缺漏？           ─Yes→ Bucket B
+   └─ 政治立場 / framing 強度質疑？      ─Yes→ Bucket D（哲宇 拍板）
+```
+
+### Bucket 處置 SOP — 完整版
+
+**Bucket A / C: Traceable factual error / Scene inference challenge**
+
+1. WebSearch verify reader claim (2-3 sources, 含 author 文章原 footnote)
+2. 確認 article 確實寫錯 → 修文章（保留原 footnote 但修主文，加 nuance）
+3. Commit message 標明「heal: {slug} — {factual layer} 勘誤 per @{reader} callout」
+4. Reply draft: 「你 callout 對。重看官方來源（X），{具體事實}是 Y 不是 article 原寫的 Z，我寫文時混了時序 / 推導錯了 / 引用脫離脈絡。已更正：article URL 🧬」
+5. Post reply via Chrome MCP execCommand insertText (詳見 §Chrome MCP technical pattern)
+6. SPORE-LOG entry 加 evolution column 註：`v2-corrected @{reader} D+N`
+
+**Bucket B: Entity / context missing**
+
+1. 累積到 HARVEST-EVOLVES-PENDING/{date}.md（或直接寫進 SPORE-LOG entry evolution column）
+2. 同題材 ≥3 條留言補同類 entity → 升級為 Round 2 EVOLVE 觸發 (D+7 內必跑)
+3. 單條補充 → 累積到 Round 2 EVOLVE backlog (D+30 內機會 batch)
+4. Reply draft: 「對，這條是文章該補的——{具體 entity acknowledgment}。我會在 EVOLVE 補進「{section}」段。謝謝 🧬」
+5. 如果 article 已經被另一個 session/round EVOLVE 補上 → reply 「你提的這條昨晚 Round N EVOLVE 就補了——文章現在有寫 {detail}。下次重新整理時序時會把這條往前提 🧬」
+
+**Bucket D: Critical-balance framing**
+
+1. **不自動修文**（per CLAUDE.md §自主權邊界 政治立場條款）
+2. Draft note 寫進 HARVEST-FRAMING-PENDING/{date}.md：
+   - reader handle + 留言原文 + framing 質疑要點
+   - article 對應段落 + 現有 framing
+   - 三個處置 option (footnote nuance / 改中性 / 不動 + LESSONS-INBOX)
+   - 推薦 default + 成本估算
+3. 等觀察者 (哲宇) review 拍板
+4. **不主動 reply** Bucket D 留言（防 framing escalation）— 等哲宇 directive 後再 reply
+
+**Bucket E: Positive engagement**
+
+1. 識別 reader 是誰：verified ✓ / 官方帳號 / community / first-time
+2. Reply draft 對應段：
+   - verified / 官方：認可 + 推 article 對應段（不要太長，~1-2 句）
+   - community helper（補連結 / 補書單）：感謝 + 認補的 value + 「謝謝補連結，讓沒讀過的讀者能直接點進去」
+   - first-time + 純共鳴：簡短 + 🧬 signature
+3. Post via Chrome MCP execCommand insertText
+
+**Bucket F: Interpretation disagreement**
+
+1. Default = ignore（不防衛）
+2. **Optional reply** 如果 reader 主張具體（給了第二觀點材料）→ 「對，這條解讀軸線也成立——文章選的是 X，但 Y 也是看得到的維度 🧬」
+3. **絕不**「您的意見很有價值我們會考慮」式客服話術
+
+**Bucket G: Derail / spam**
+
+- ignore，不 reply，不 block，不互動
+- 累積異常 trolling → notify 觀察者考慮 mute / report
+
+---
+
+## ✍️ Reply Tone Discipline — 怎麼寫 reply（v3.0）
+
+### 5 條 reply 文風鐵律
+
+| #   | 鐵律                      | 對                                            | 錯                                               |
+| --- | ------------------------- | --------------------------------------------- | ------------------------------------------------ |
+| 1   | **認錯第一句**            | 「你 callout 對」「對，這條是文章該補的」     | 「其實我的意思是...」「但 article 也有提到...」  |
+| 2   | **具體 anchor 不空泛**    | 「1949 林添壽用肉雞，火雞戰後駐台美軍才帶來」 | 「謝謝指正，會改善」                             |
+| 3   | **指向 fix 來源**         | 「文章已更正：taiwan.md/food/X」（含實 URL）  | 「我們會研議改善」                               |
+| 4   | **不卑不亢，平輩語氣**    | 「你」（不是「您」）/ 「我」（不是「我們」）  | 「感謝您寶貴的回饋」/「敝庫將參酌」              |
+| 5   | **🧬 signature 不打廣告** | 結尾單獨一行 🧬                               | 「歡迎追蹤 taiwan.md！」「持續關注我們的內容！」 |
+
+### Anti-pattern: 紅線焦慮洩漏（per memory `feedback_red_line_anxiety_leak`）
+
+**不要**寫「逐字引用」「我們嚴格遵循官方來源」「絕對沒有杜撰」這類**作者紀律 label** — reader 不關心 author 怎麼自我約束，他只要 article 改對。
+
+✗ 「我們是嚴格遵循官方來源，但發現確實在這段引用上有時序混淆」
+✓ 「你 callout 對。重看官方來源 X，是 Y 不是我寫的 Z。已更正」
+
+### Anti-pattern: 客服話術 / 晶晶體
+
+**不要**用「cross-validation / canonical / vc accumulation / instantiation / dogfood / instrument」這些字眼跟 contributor / reader 講話（per memory `feedback_contributor_reply_humanize`）。
+
+✗ 「謝謝你提供 verifiable signal 補強 article footnote canonical 層」
+✓ 「對，這條我們昨晚 Round 2 EVOLVE 就補了——文章現在有寫 Ice 2022/7 揭露身份 + 持續活躍」
+
+### Reply 長度建議
+
+- Bucket A factual error reply: 100-160 chars（短 + 認 + 指 fix）
+- Bucket B entity missing reply: 80-130 chars（認 + 「會在 EVOLVE 補」）
+- Bucket E positive engagement reply: 60-120 chars（短 + 推 article 對應段 + 🧬）
+- 超過 200 chars 通常是過度解釋 — 重寫精煉
+
+---
+
+## 🖱 Chrome MCP Technical Pattern（v3.0 — 怎麼執行 + 要留意什麼）
+
+### 正確 reply post 流程（Threads only — X 不支援）
+
+```javascript
+// Step 1: Navigate to spore URL
+mcp__Claude_in_Chrome__navigate({ url, tabId })
+// Step 2: Wait 3.5s for page load
+javascript_tool: 'new Promise(r => setTimeout(() => r("waited"), 3500))'
+// Step 3: Scroll to comment area
+javascript_tool: 'window.scrollTo(0, 1500); "scrolled"'
+// Step 4: Wait 2.5s for lazy load
+javascript_tool: 'new Promise(r => setTimeout(() => r("waited"), 2500))'
+// Step 5: Find target reply container + click reply button via JS
+javascript_tool: |
+  const all = document.querySelectorAll('[data-pressable-container]');
+  let target = null;
+  all.forEach(el => {
+    if ((el.innerText || '').startsWith('{reader_handle}')) target = el;
+  });
+  const replyBtn = Array.from(target.querySelectorAll('div[role="button"]'))
+    .find(b => b.querySelector('svg[aria-label="回覆"]'));
+  replyBtn.click();
+  return 'clicked';
+// Step 6: Wait 2.5s for dialog
+// Step 7: Inject text via execCommand insertText (NOT computer.type)
+javascript_tool: |
+  const dialog = document.querySelector('[role="dialog"]');
+  const editable = dialog.querySelector('[contenteditable="true"]');
+  editable.focus();
+  document.execCommand('insertText', false, '{reply_text}');
+// Step 8: Click 發佈 button via JS
+javascript_tool: |
+  const dialog = document.querySelector('[role="dialog"]');
+  const btns = dialog.querySelectorAll('div[role="button"], button');
+  let target = null;
+  btns.forEach(b => { if ((b.innerText || '').trim() === '發佈') target = b; });
+  target.click();
+// Step 9: Wait 3s + verify via JS query
+```
+
+### 🚨 Critical pitfalls（5/27 manual session 實證 — vc=1 instrument candidate）
+
+**Pitfall 1: `computer.type` 吞 ASCII 數字 + 空格**
+
+- 5/27 @arvin723 reply 中「83 歲」「45 年」 被 computer.type 吞成「歲」「年」
+- **Fix**: Use `document.execCommand('insertText', false, text)` instead — Threads contenteditable 是 Lexical / Slate editor，computer.type 經由 IME 攔截被處理掉 ASCII 數字 + 空格
+
+**Pitfall 2: X 不支援 reply via Chrome MCP**
+
+- X conversation lazy-load 不把 replies 推進 DOM，scroll 也不觸發
+- `[data-testid="cellInnerDiv"]` 只 query 到 main tweet 一條
+- **Fix**: X reply 必須手動 post（Threads OK，X skip）
+
+**Pitfall 3: 個別字元 typo（我端，不是 Chrome MCP）**
+
+- 5/27 @walkinginthemoon「母始家族」 / @malathrone「撝到 EUV」（撐 ≠ 撝）— 我下筆 unicode 誤算
+- **Fix**: 短 reply 寫好後 grep 「不是常見字」(rare characters) self-check + 對人名 + 動詞 grep
+
+**Pitfall 4: Reply button click 偶爾沒打開 dialog**
+
+- Threads UI 對快速 click 有 debounce
+- **Fix**: click 後 wait 2.5-3s + screenshot 確認 dialog 開了，沒開 → re-click 一次
+
+**Pitfall 5: Pre-ship verify ASCII 數字 + 字元 intact**
+
+- Post 後 JS query my reply 文字 + 對 input 做 diff
+- 任一字差異 ≥1 → delete + repost（或補 follow-up）
+
+### Threads-only 操作鐵律
+
+| 平台    | Harvest replies  | Post reply via Chrome MCP | Workaround                             |
+| ------- | ---------------- | ------------------------- | -------------------------------------- |
+| Threads | ✅ OK            | ✅ OK                     | execCommand insertText                 |
+| X       | ❌ DOM lazy-load | ❌ unsupported            | 手動 post（或 X API integration 未來） |
+
+---
+
+## 🎯 Decision Gate — 什麼時候 act？（v3.0）
+
+每天 harvest cycle 跑完後，每條 bucket A/B/C/D 留言要看 **3 個維度**決定處置時機：
+
+### 維度 1：D+N（孢子年齡）
+
+| D+N                | Bucket A (factual error)                                            | Bucket B (entity missing)             | Bucket E (positive)        |
+| ------------------ | ------------------------------------------------------------------- | ------------------------------------- | -------------------------- |
+| **D+0 ≤6hr acute** | **🚨 30 min mandatory fix + reply** (Error Boundary = Traceability) | log to EVOLVE backlog                 | reply 認可                 |
+| **D+0 6-24hr**     | 同 cycle 內 fix + reply（≤2hr）                                     | log + bump priority if reach > 10K    | reply 認可                 |
+| **D+1-D+3**        | 同 cycle 內 fix + reply（4-8hr）                                    | log，累積 3+ → Round 2 EVOLVE trigger | reply 認可                 |
+| **D+4-D+7**        | 修文 + reply（無 deadline pressure）                                | 累積 SPORE-LOG evolution column       | optional reply（≤2 entry） |
+| **D+7+**           | 修文 + LESSONS-INBOX entry（pattern 級教訓）                        | 升 Round 2 EVOLVE 必跑                | skip reply                 |
+
+### 維度 2：Reach × Accuracy
+
+| Reach × D+N             | 處置 priority                                                                                                    |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| reach < 5K @ D+0-D+1    | Standard cycle 處置                                                                                              |
+| reach 5K-50K @ D+0-D+3  | 高優先 — D+0 acute factual error 立即處置                                                                        |
+| **reach ≥ 50K @ any D** | 🚨 retroactive FACTCHECK Quick Mode 觸發（per existing §50K threshold）— 立即 3-5 atom verify all factual claims |
+
+### 維度 3：Reader profile
+
+| Profile                                                    | Signal weight             | 處置                                                 |
+| ---------------------------------------------------------- | ------------------------- | ---------------------------------------------------- |
+| **Domain expert**（半導體 @malathrone）                    | 高（領域知識權威）        | factual claim 通常正確 — 仔細 verify + 認可 + EVOLVE |
+| **In-place witness**（美食 @neily1_reader 個人經歷+ 研究） | 高（有第一手經驗）        | factual claim verify → 信度通常高                    |
+| **Verified ✓ / 官方帳號**                                  | 中-高（被平台認證）       | 認可 + reply 比 plain user 更必要                    |
+| **Community helper**（@walkinginthemoon 補書單）           | 中（協作型 contributor）  | 必認可 + 推 article 對應段                           |
+| **First-time / anon**                                      | 低-中（need verify hard） | verify 嚴格 → confirm 後處置                         |
+| **Hostile / persistent troller**                           | 低（trust 0）             | bucket G ignore                                      |
+
+---
+
+## ⚠️ 要留意什麼 — Failure Modes & Watchouts（v3.0）
+
+整理自 5/27 manual session 實證 + 之前 12+ harvest cycle 累積：
+
+### Failure Mode 1: 「假定 reader 是錯的」反射
+
+- 預設 reader callout 對，author 寫錯了 — 反過來證明 reader 錯比較難
+- 5/27 @neily1_reader「假台灣人造謠說謊騙年輕人」 — 攻擊性語言不削弱事實正確性
+- **Anti-pattern**: 「我們的 footnote 寫的是 X，所以 reader 錯了」— footnote source 本身也可能錯，author 引用也可能誤讀
+
+### Failure Mode 2: 「reach 太小不值得 fix」誘惑
+
+- 美食總覽 #97 D+0 2hr 才 2.5K views 仍 30 min 內 fix
+- Reach 不是 fix 觸發條件，**traceability + acute window** 才是
+
+### Failure Mode 3: 「複雜情況 defer 到下次 cycle」拖延
+
+- Bucket A traceable factual error 不 defer — 30 min internal fix 是 SOP，不是 stretch goal
+- Defer 1 cycle = 6-12 hr = reader 看到的窗口擴大 = traceability erode
+
+### Failure Mode 4: Reply tone 偏移成「客服腔」
+
+- 累積疲勞時容易掉成「感謝您寶貴的回饋」模板
+- 每條 reply 寫完 grep 「您 / 感謝您 / 寶貴 / 參酌 / 諸位 / 各位」 → 出現 → 重寫
+
+### Failure Mode 5: Bucket D 政治 framing 越權自動修
+
+- D 桶絕對 defer 觀察者，不是 cycle 內自動處理
+- 違反 = §自主權邊界 hard breach
+
+### Failure Mode 6: Computer.type ASCII strip 未察覺
+
+- Type 完不 verify → post 之後才發現「歲他第三次大轉折」缺數字
+- **Fix**: 每次 post 後 JS query my reply text + 對 input 做 diff，缺字 → 立即 followup correction reply
+
+### Failure Mode 7: 「修完不告訴 reader」（透明度違反）
+
+- Article 改了但 reply 沒指出更正 URL = reader 不知道事情後續，traceability 斷掉
+- Reply 必含「文章已更正：taiwan.md/{path}」
+
+### Failure Mode 8: 引用 footnote 沒回查源
+
+- Article footnote [^1] 寫某個 URL，但 author 沒實際讀過該 URL 內容（從英文摘要推導 OR 假設來源支撐主張）
+- 5/27 美食總覽 footnote [^1] 嘉義市政府觀光旅遊網 — author 引用了但 main text 跟 footnote source 不一致
+- **Pre-publish check**: 每條 footnote source 至少 WebFetch verbatim 一次，確認 article 主張在 source 找得到原句
+
+---
+
+## 📊 Audience Flywheel Daily Cycle — Routine 整合（v3.0）
+
+### Routine harvest cycle（每天 06:30 automated）
+
+```
+06:30 spore-harvest-am cron fire
+   ↓
+Stage 0: BECOME Full mode self-test (CLAUDE.md §Bias 1-4 active)
+   ↓
+Stage 1: git pull main + dashboard backfillWarnings 載入 (D+1-D+7 OVERDUE spores)
+   ↓
+Stage 2: Chrome MCP harvest each spore — metrics + reply content
+   ├─ Per spore: navigate + scroll + read all replies (Threads only via execCommand-readable DOM)
+   ├─ Read up to 60 pressable containers per spore (covers ~20-30 replies + nested)
+   └─ Reply text 存進 batch log 完整 verbatim（不只 count）
+   ↓
+Stage 3: 5-Bucket classify per reply
+   ├─ Bucket A/C (factual error / scene inference) → flag URGENT
+   ├─ Bucket B (entity missing) → log EVOLVE candidate
+   ├─ Bucket D (framing challenge) → flag OBSERVER-REVIEW
+   ├─ Bucket E (positive engagement) → log REPLY-DRAFT-OK
+   └─ Bucket F/G → log + skip
+   ↓
+Stage 4: Process Bucket A/C if any (URGENT path)
+   ├─ For each: WebSearch verify (2-3 sources)
+   ├─ If confirmed → article fix (commit) + reply draft + auto-post (D+0 ≤6hr) or queue (D+1+)
+   └─ Reply post via execCommand insertText + post-ship verify diff
+   ↓
+Stage 5: Write batch log + commit (atomic 1-file commit per harvest)
+   ├─ docs/factory/SPORE-HARVESTS/batch-{date}-{N}-spores.md
+   ├─ Frontmatter: spores list / harvest_date / reply_count_total / bucket_breakdown
+   └─ Body: per-spore section with full reply content + bucket assignment
+   ↓
+Stage 6: Write pending action files (if any)
+   ├─ docs/factory/HARVEST-REPLIES-PENDING/{date}.md (Bucket E drafts, manual review then post)
+   ├─ docs/factory/HARVEST-EVOLVES-PENDING/{date}.md (Bucket B EVOLVE backlog)
+   └─ docs/factory/HARVEST-FRAMING-PENDING/{date}.md (Bucket D observer-review)
+   ↓
+Stage 7: validate-spore-data.py + dashboard regen
+   ↓
+Stage 8: /twmd-finale memory write
+```
+
+### 預估時間 budget（自然跑完，per ROUTINE.md §不提預算鐵律）
+
+| 場景                                       | 預估時間    |
+| ------------------------------------------ | ----------- |
+| Typical day（10 spore, 0 factual error）   | 35-50 min   |
+| Heavy day（15 spore, 1 factual error fix） | 60-90 min   |
+| Worst case（15 spore, 3 factual errors）   | 100-130 min |
+
+### Per-spore time breakdown (typical D+2-D+5 spore)
+
+- Navigate + load: ~10s
+- Scroll + lazy-load replies: ~15s
+- Read all reply containers (JS query): ~5s
+- 5-bucket classify (LLM): ~30-60s per reply
+- WebSearch verify (if Bucket A/C): 2-3 min per claim
+- Article fix (if Bucket A confirmed): 10-30 min
+- Reply draft + post + verify: 3-5 min per reply
+
+---
 
 > 孢子發布後是讀者回聲最密集的時期。**7 天內每天至少跑一次本 pipeline**。
 > 7 天後讀者留言密度驟降（演算法推送衰減 + 話題週期）→ 改為 milestone harvest。
