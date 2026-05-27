@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-05-26T15:09:01.534Z",
-  "last_fetched": "2026-04-20T10:45:00+08:00",
-  "supporter_count": 3,
+  "last_updated": "2026-05-27T05:34:38.629Z",
+  "last_fetched": "2026-05-27T05:34:35Z",
+  "supporter_count": 4,
   "tier_counts": {
     "canopy": 0,
     "grove": 1,
-    "sprout": 2
+    "sprout": 3
   },
   "tier_config": [
     {
@@ -57,13 +57,39 @@
       "display_name": "沈宗杰",
       "anonymous": false,
       "first_date": "2026-04-19",
-      "last_date": "2026-04-19",
-      "transaction_count": 1,
+      "last_date": "2026-05-19",
+      "transaction_count": 2,
       "active_monthly": true,
       "messages": [
         {
           "date": "2026-04-19",
           "text": "謝謝！",
+          "type": "monthly"
+        },
+        {
+          "date": "2026-05-19",
+          "text": "無",
+          "type": "monthly"
+        }
+      ],
+      "tier": {
+        "id": "sprout",
+        "emoji": "🌱",
+        "label": "新芽",
+        "label_en": "Sprout"
+      }
+    },
+    {
+      "display_name": "匿名支持者",
+      "anonymous": true,
+      "first_date": "2026-05-19",
+      "last_date": "2026-05-19",
+      "transaction_count": 1,
+      "active_monthly": true,
+      "messages": [
+        {
+          "date": "2026-05-19",
+          "text": "無",
           "type": "monthly"
         }
       ],
