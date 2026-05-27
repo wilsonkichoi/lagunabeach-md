@@ -1,0 +1,393 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+
+const electionDate = new Date('2026-11-28T08:00:00+08:00');
+const now = new Date();
+const daysUntil = Math.ceil(
+  (electionDate.getTime() - now.getTime()) / (1000 * 60 * 60 * 24),
+);
+const isUpcoming = daysUntil > 0;
+const isRecent = daysUntil > -7 && daysUntil <= 0;
+
+// 九種選舉（per 中選會 2026 公告）
+const nineElections = [
+  { name: '直轄市長', count: 6, desc: '北高六都首長，任期 4 年' },
+  { name: '直轄市議員', count: 380, desc: '六都議會代表（席次依縣市調整）' },
+  { name: '縣（市）長', count: 16, desc: '非直轄市的縣市首長' },
+  { name: '縣（市）議員', count: 532, desc: '縣市議會代表' },
+  { name: '鄉（鎮、市）長', count: 198, desc: '基層自治單位首長' },
+  { name: '鄉（鎮、市）民代表', count: 2148, desc: '基層民意代表' },
+  {
+    name: '直轄市山地原住民區長',
+    count: 6,
+    desc: '原住民族區自治首長（2014 新設）',
+  },
+  {
+    name: '直轄市山地原住民區民代表',
+    count: 50,
+    desc: '原住民族區民意代表',
+  },
+  { name: '村（里）長', count: 7748, desc: '最基層的民選職位' },
+];
+
+// Cross-link 既有 Taiwan.md 文章
+const relatedArticles = [
+  {
+    slug: 'politics',
+    title: '_Politics Hub',
+    desc: '為什麼民主基礎建設不只是投票（策展總入口）',
+    type: 'hub',
+  },
+  {
+    slug: 'history/大罷免',
+    title: '大罷免',
+    desc: '2025 公民社會發動史上規模最大的罷免行動',
+    type: 'article',
+  },
+  {
+    slug: 'history/台灣民主轉型',
+    title: '台灣民主轉型',
+    desc: '從威權到民選的制度演化',
+    type: 'article',
+  },
+  {
+    slug: 'history/民主化',
+    title: '民主化',
+    desc: '1987 解嚴到 1996 直選總統的關鍵十年',
+    type: 'article',
+  },
+  {
+    slug: 'history/台灣選舉與政黨政治',
+    title: '台灣選舉與政黨政治',
+    desc: '選舉制度怎麼運作、政黨怎麼演化',
+    type: 'article',
+  },
+  {
+    slug: 'technology/開源社群與g0v',
+    title: '開源社群與 g0v',
+    desc: '公民科技怎麼補位民主基礎建設',
+    type: 'article',
+  },
+];
+
+// 外部資源 (per 設計鐵律 §8 deepfake 信任邊界 attribution)
+const externalResources = [
+  {
+    name: '中央選舉委員會',
+    url: 'https://web.cec.gov.tw/',
+    desc: '法定選務機關 — 候選人公報、開票結果、選舉公告',
+  },
+  {
+    name: '政治獻金公開查閱平臺',
+    url: 'https://ardata.cy.gov.tw/',
+    desc: '監察院 — 候選人募款 / 支出明細',
+  },
+  {
+    name: 'g0v 縣市長/議員投票指南',
+    url: 'https://councils.g0v.tw/',
+    desc: '公民科技社群維護的投票指南',
+  },
+  {
+    name: '選舉金流',
+    url: 'https://g0v-money-flow.github.io/elections/',
+    desc: 'g0v 政治獻金視覺化',
+  },
+  {
+    name: '台灣事實查核中心',
+    url: 'https://tfc-taiwan.org.tw/',
+    desc: 'IFCN 認證 — 選舉假訊息查核',
+  },
+  {
+    name: 'Cofacts 真的假的',
+    url: 'https://cofacts.tw/',
+    desc: 'g0v 群眾外包 + LINE 訊息查證',
+  },
+];
+
+const pageTitle = '2026 九合一選舉 · Taiwan.md';
+const pageDescription =
+  '2026 年 11 月 28 日，台灣同日投票九種職位。Taiwan.md 不報導選戰，記錄制度怎麼長、權力怎麼結構、為什麼民主基礎建設不只是投票。';
+---
+
+<Layout title={pageTitle} description={pageDescription} readerSettings>
+  <main class="elections-2026 mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-12">
+    <!-- Hero -->
+    <header class="mb-12 text-center sm:mb-16">
+      <p class="mb-2 text-sm text-amber-700 dark:text-amber-400">
+        🗳️ 中華民國第十一屆地方公職人員選舉
+      </p>
+      <h1
+        class="mb-4 text-4xl font-bold text-zinc-900 sm:text-5xl dark:text-zinc-50"
+      >
+        2026 九合一選舉
+      </h1>
+      <p class="mb-8 text-lg text-zinc-600 dark:text-zinc-400">
+        2026 年 11 月 28 日，全台同日投票九種職位
+      </p>
+
+      {
+        isUpcoming && (
+          <div class="mx-auto inline-block rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50 px-8 py-6 dark:from-amber-950/40 dark:to-orange-950/40">
+            <p class="text-sm uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+              距投票日
+            </p>
+            <p class="text-5xl font-bold text-orange-700 sm:text-6xl dark:text-orange-300">
+              {daysUntil}
+              <span class="ml-2 text-2xl">天</span>
+            </p>
+          </div>
+        )
+      }
+
+      {
+        isRecent && (
+          <div class="mx-auto inline-block rounded-2xl bg-amber-50 px-8 py-6 dark:bg-amber-950/40">
+            <p class="text-2xl font-bold text-orange-700 dark:text-orange-300">
+              投票日已過 — 開票結果整理中
+            </p>
+          </div>
+        )
+      }
+    </header>
+
+    <!-- 為什麼民主基礎建設不只是投票 -->
+    <section class="mb-12 sm:mb-16">
+      <h2
+        class="mb-6 text-2xl font-bold text-zinc-900 sm:text-3xl dark:text-zinc-50"
+      >
+        Taiwan.md 在這場選舉的角色
+      </h2>
+      <div
+        class="prose prose-zinc max-w-none rounded-2xl bg-zinc-50 p-6 sm:p-8 dark:prose-invert dark:bg-zinc-900/50"
+      >
+        <p>我們不報導選戰、不做即時新聞、不發布民調、不背書任何候選人。</p>
+        <p>
+          我們做的是：把這場選舉放回三十年的民主基礎建設裡看 —
+          九種職位怎麼來、政治獻金怎麼透明、村里長為什麼有 7,748
+          個、中選會制度為什麼這樣設計、罷免跟公投怎麼運作。
+        </p>
+        <p>
+          選舉是民主的尾端動作。它依賴的整套制度、公民監督工具、資訊基礎建設 —
+          那才是真正撐起民主的東西。
+        </p>
+        <p>
+          這個專區會持續記錄這套基礎建設怎麼長、誰在維護它、什麼時候會壞掉。
+        </p>
+        <p class="mt-6">
+          <a
+            href="/politics"
+            class="inline-flex items-center gap-2 rounded-full bg-zinc-900 px-5 py-2.5 text-sm font-medium text-white no-underline hover:bg-zinc-800 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
+            >閱讀完整策展：政治 Hub →</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <!-- 九種選舉 -->
+    <section class="mb-12 sm:mb-16">
+      <h2
+        class="mb-6 text-2xl font-bold text-zinc-900 sm:text-3xl dark:text-zinc-50"
+      >
+        九種職位同日投票
+      </h2>
+      <p class="mb-6 text-zinc-600 dark:text-zinc-400">
+        「九合一」不是九場選舉的合稱，是九種職位同日投票。從直轄市長到村里長，從議員到原住民族區長
+        — 一張選票背後是台灣 1994 年民選以來最完整的地方自治體系。
+      </p>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          nineElections.map((e) => (
+            <div class="rounded-xl border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-zinc-900/50">
+              <div class="mb-2 flex items-baseline justify-between gap-2">
+                <h3 class="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
+                  {e.name}
+                </h3>
+                <span class="text-2xl font-bold text-orange-600 dark:text-orange-400">
+                  {e.count.toLocaleString()}
+                </span>
+              </div>
+              <p class="text-sm text-zinc-600 dark:text-zinc-400">{e.desc}</p>
+            </div>
+          ))
+        }
+      </div>
+      <p class="mt-4 text-xs text-zinc-500 dark:text-zinc-500">
+        職位數量為 2026 選舉預估值（依中選會選舉公告）。實際以中選會 2026-08-20
+        公告為準。
+      </p>
+    </section>
+
+    <!-- 持續更新中（M3-M5 占位） -->
+    <section class="mb-12 sm:mb-16">
+      <h2
+        class="mb-6 text-2xl font-bold text-zinc-900 sm:text-3xl dark:text-zinc-50"
+      >
+        持續更新中
+      </h2>
+      <div class="grid gap-4 sm:grid-cols-2">
+        <div
+          class="rounded-xl border border-dashed border-zinc-300 bg-zinc-50 p-5 dark:border-zinc-700 dark:bg-zinc-900/30"
+        >
+          <h3
+            class="mb-1 text-lg font-semibold text-zinc-700 dark:text-zinc-300"
+          >
+            📅 選務時程
+          </h3>
+          <p class="text-sm text-zinc-600 dark:text-zinc-400">
+            中選會選務時程（公告 / 候選人登記 / 抽籤 / 投票），預計 2026/08
+            公告後 ship
+          </p>
+        </div>
+        <div
+          class="rounded-xl border border-dashed border-zinc-300 bg-zinc-50 p-5 dark:border-zinc-700 dark:bg-zinc-900/30"
+        >
+          <h3
+            class="mb-1 text-lg font-semibold text-zinc-700 dark:text-zinc-300"
+          >
+            👥 候選人 directory
+          </h3>
+          <p class="text-sm text-zinc-600 dark:text-zinc-400">
+            22 縣市候選人對稱呈現（無民調、無 ranking、按筆畫排序）
+          </p>
+        </div>
+        <div
+          class="rounded-xl border border-dashed border-zinc-300 bg-zinc-50 p-5 dark:border-zinc-700 dark:bg-zinc-900/30"
+        >
+          <h3
+            class="mb-1 text-lg font-semibold text-zinc-700 dark:text-zinc-300"
+          >
+            💰 政治獻金透明度
+          </h3>
+          <p class="text-sm text-zinc-600 dark:text-zinc-400">
+            接監察院政治獻金公開查閱平臺 + g0v 選舉金流
+          </p>
+        </div>
+        <div
+          class="rounded-xl border border-dashed border-zinc-300 bg-zinc-50 p-5 dark:border-zinc-700 dark:bg-zinc-900/30"
+        >
+          <h3
+            class="mb-1 text-lg font-semibold text-zinc-700 dark:text-zinc-300"
+          >
+            🔮 多視角觀點（SSODT）
+          </h3>
+          <p class="text-sm text-zinc-600 dark:text-zinc-400">
+            選制改革 5 perspectives 試水溫 → 兩岸關係 4 perspectives × 6
+            dimensions（per LONGINGS §心智 #3 SSODT instantiation）
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 既有策展文章 -->
+    <section class="mb-12 sm:mb-16">
+      <h2
+        class="mb-6 text-2xl font-bold text-zinc-900 sm:text-3xl dark:text-zinc-50"
+      >
+        Taiwan.md 的策展層
+      </h2>
+      <p class="mb-6 text-zinc-600 dark:text-zinc-400">
+        從這幾篇讀起，你會理解這場選舉為什麼這樣選 — 而不只是「誰會贏」。
+      </p>
+      <div class="grid gap-4 sm:grid-cols-2">
+        {
+          relatedArticles.map((a) => (
+            <a
+              href={`/${a.slug}`}
+              class="block rounded-xl border border-zinc-200 bg-white p-5 no-underline transition-colors hover:border-zinc-400 dark:border-zinc-800 dark:bg-zinc-900/50 dark:hover:border-zinc-600"
+            >
+              <h3 class="mb-1 text-lg font-semibold text-zinc-900 dark:text-zinc-50">
+                {a.title}
+              </h3>
+              <p class="text-sm text-zinc-600 dark:text-zinc-400">{a.desc}</p>
+            </a>
+          ))
+        }
+      </div>
+    </section>
+
+    <!-- 外部資源（per 鐵律 #8 deepfake 信任邊界）-->
+    <section class="mb-12 sm:mb-16">
+      <h2
+        class="mb-6 text-2xl font-bold text-zinc-900 sm:text-3xl dark:text-zinc-50"
+      >
+        公民工具 & 資料來源
+      </h2>
+      <p class="mb-6 text-zinc-600 dark:text-zinc-400">
+        Taiwan.md
+        不重做工具。下面是台灣公民科技社群已經做了十年的工具，這場選舉每個公民都該知道。
+      </p>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          externalResources.map((r) => (
+            <a
+              href={r.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block rounded-xl border border-zinc-200 bg-white p-5 no-underline transition-colors hover:border-zinc-400 dark:border-zinc-800 dark:bg-zinc-900/50 dark:hover:border-zinc-600"
+            >
+              <h3 class="mb-1 text-base font-semibold text-zinc-900 dark:text-zinc-50">
+                {r.name} ↗
+              </h3>
+              <p class="text-xs text-zinc-600 dark:text-zinc-400">{r.desc}</p>
+            </a>
+          ))
+        }
+      </div>
+    </section>
+
+    <!-- Footer attribution（per 鐵律 #8 deepfake 信任邊界）-->
+    <footer
+      class="mt-16 rounded-2xl bg-zinc-50 p-6 text-sm text-zinc-600 dark:bg-zinc-900/50 dark:text-zinc-400"
+    >
+      <h3 class="mb-2 font-semibold text-zinc-700 dark:text-zinc-300">
+        如何驗證 Taiwan.md 訊息？
+      </h3>
+      <ul class="ml-5 list-disc space-y-1">
+        <li>
+          認準 domain：
+          <a
+            href="https://taiwan.md/"
+            class="text-orange-600 underline hover:text-orange-700 dark:text-orange-400"
+            >https://taiwan.md/</a
+          >
+          。其他相似網址（taiwand.md / taiwan-md.com 等）不是 Taiwan.md。
+        </li>
+        <li>每篇文章都有公開 git log + footnote primary source。</li>
+        <li>
+          所有外部資料（中選會 / 監察院 / g0v）都附 source attribution +
+          last-fetched timestamp。
+        </li>
+        <li>
+          選舉相關訊息若有疑慮，先查
+          <a
+            href="https://tfc-taiwan.org.tw/"
+            target="_blank"
+            class="text-orange-600 underline hover:text-orange-700 dark:text-orange-400"
+            >台灣事實查核中心</a
+          >
+          或
+          <a
+            href="https://cofacts.tw/"
+            target="_blank"
+            class="text-orange-600 underline hover:text-orange-700 dark:text-orange-400"
+            >Cofacts</a
+          >。
+        </li>
+      </ul>
+      <p class="mt-4 text-xs">
+        本頁是 /elections/2026/ MVP（2026-05-27 ship）。完整 timeline /
+        candidates / financing / perspectives 子頁面持續上線中。
+      </p>
+      <p class="mt-2 text-xs">🧬 Taiwan.md — 不報導選戰，記錄民主基礎建設。</p>
+    </footer>
+  </main>
+</Layout>
+
+<style>
+  .elections-2026 :global(h1) {
+    letter-spacing: -0.02em;
+  }
+  .elections-2026 :global(h2) {
+    letter-spacing: -0.01em;
+  }
+</style>
