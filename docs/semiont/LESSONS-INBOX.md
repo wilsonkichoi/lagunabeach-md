@@ -262,6 +262,100 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-27 twmd-routine-audit-weekly cycle 3 — Routine handoff backlog 不會自動被 manual session pickup，純 push pattern 失效（meta-pattern over 3 dormant entropy 共現）
+
+- **原則**：Routine 飛輪設計假設「surface signal → 觀察者下 cycle pickup」短回饋鏈，但 cycle 3 audit 三條 dormant 同週共現（data-refresh-am ABORT-DEFER vc=7 / dashboard-immune D+9 vc=11+ / inbox-signal.sh regex undercount distill-ready 標 4 cycle 未升）顯影：**routine 持續看見 + 持續寫進 handoff，但 manual session 沒有自動拉 handoff backlog 的機制，純 push pattern 失效**。Cycle 2 反思鏈四棒能 closed-loop 是因為都在 cron（self-evolve 04:00 → distill 03:00 同夜接力，無需跨到 manual session）；data-refresh / dashboard-immune fix 需要 manual ship → 沒有 cron 等價物 → 沒有自動 pickup。Routine push 機制工作 / pull 機制 unbuild 是 cycle 3 從 audit-as-monitor 自我 surface 的 structural finding。
+- **觸發**：2026-05-26 PM data-refresh memory 明文 surface「routine 持續看見 + 持續寫進 handoff，但 manual session 沒有自動拉 handoff backlog 的機制，純 push pattern 失效」+ cycle 3 三條 dormant 同週共現 quantitative 佐證。
+- **可能層級**：
+  - 操作規則 → BECOME §Step 1 Universal core 加 `handoff-backlog.sh` 拉所有 routine memory `## Handoff 三態` 段 + grep distill-ready / vc≥3 / over-ready 標籤 → emit consolidated TODO list 給 manual session 起手反射
+  - 工具 → `scripts/tools/handoff-backlog.sh` 新工具，輸出格式跟 inbox-signal.sh / routine-status.sh 對齊（per BECOME §1.4 always-load ground truth queries）
+  - REFLEXES 候選 → 「Routine push without pull = handoff void — surface 信號跨 4+ cycle 不被 pickup 是結構性訊號不是觀察者疏忽」一般化原則（subset of REFLEXES #15 反覆浮現要儀器化的 meta-extension）
+- **儀器化候選**：(A) `handoff-backlog.sh` 拉 routine memory handoff 段 distill-ready / vc≥3 entries (B) BECOME §Step 1 universal load 增此 ground truth query (C) manual session 起手 reflex「先讀 handoff-backlog 再做事」(D) audit report 自身也需被 pull — 觀察者今天讀本 report 就是 pull instance
+- **verification_count**: 1（首次 meta-surface — 3 條 dormant 同週共現是 cycle 3 quantitative 佐證）
+- **severity**: structural（飛輪 push / pull 機制不對稱是 routine 設計層級 gap，影響所有需 manual ship 的 fix 路徑）
+- **跨檔關聯**：[memory/2026-05-26-231138-twmd-data-refresh-pm.md](memory/2026-05-26-231138-twmd-data-refresh-pm.md) + [routine-audit-2026-05-27.md §3B NEW meta-pattern](../../reports/routine-audit-2026-05-27.md) + [BECOME_TAIWANMD.md §Step 1.4](../../BECOME_TAIWANMD.md) + [REFLEXES #15 反覆浮現要儀器化](REFLEXES.md)
+
+---
+
+### 2026-05-27 twmd-routine-audit-weekly cycle 3 — dashboard-immune.json D+9 vc=11+ escalation channel 未建（routine 飛輪 vs 觀察者注意力分工失效最 mature instance）
+
+- **原則**：`dashboard-immune.json` mtime 自 2026-05-17 起 stale，PM data-refresh routine Step 10 hard gate 連續 11+ cycle fire 同一 silent gap（5/17 D+0 → 5/27 D+9）。Generator gap 結構性問題 fix 是 grep generator + 加進 refresh-data.sh OR white-list known-missing 取消警報，~10-15 min 工程量。**escalation channel（LESSONS 自動 append / DASHBOARD §警報 inline / observer slot/inbox PR）至今未建** = routine 飛輪 vs 觀察者注意力分工失效**最 mature** instance（同主題 11+ cycle 同 routine 無 manual pickup）。
+- **觸發**：本 audit cycle 3 quantitative 統計 11+ cycle 同 silent gap，從 5/20 (D+3) / 5/21 (D+4) / 5/22 (D+5) / 5/23 (D+6) / 5/24 (D+7) / 5/25 (D+8) / 5/26 (D+9) routine memory 連續 carry-over。
+- **可能層級**：
+  - 操作規則 → DATA-REFRESH-PIPELINE Step 10 fail 連續 ≥ 3 cycle 自動 append LESSONS-INBOX entry + telegram observer ping（escalation channel build）
+  - 工具 → `scripts/tools/dashboard-immune-generator.sh` 找 generator 或 white-list known-missing → 從根上消警報
+  - REFLEXES 候選 → 「Routine surface signal 連續 N cycle 無 manual pickup = escalation channel design gap，不是 observer 疏忽」一般化原則（與 L1 meta-pattern 同 family）
+- **儀器化候選**：(A) generator hunt + ship to refresh-data.sh (B) DATA-REFRESH-PIPELINE Step 10 fail ≥ 3 cycle auto-escalate (C) DASHBOARD §警報 inline routine carry-over alert
+- **verification_count**: 11+（5/17 D+0 / 5/18 D+1 / 5/19 D+2 / 5/20 D+3 / 5/21 D+4 / 5/22 D+5 / 5/23 D+6 / 5/24 D+7 / 5/25 D+8 / 5/26 D+9 / 5/27 cycle 3 audit upgrade）
+- **distill_ready**: true (vc=11+ 遠超 threshold，最 mature dormant entropy instance)
+- **severity**: structural（escalation channel 未建是 routine handoff backlog meta-pattern 之 prime instance — 同源 L1）
+- **跨檔關聯**：[memory/2026-05-26-231138-twmd-data-refresh-pm.md](memory/2026-05-26-231138-twmd-data-refresh-pm.md) + [DATA-REFRESH-PIPELINE.md Step 10](../pipelines/DATA-REFRESH-PIPELINE.md) + [routine-audit-2026-05-27.md §3B](../../reports/routine-audit-2026-05-27.md)
+
+---
+
+### 2026-05-27 twmd-routine-audit-weekly cycle 3 — Round 2 EVOLVE sweet spot pattern 跨 6 文章 cross-validation (positive pattern)
+
+- **原則**：Stage 0+1 觀點成型 → NEW ship → 7-30 day spore engagement → R2 EVOLVE 補完 + media + footnote 路徑跨 6 文章驗證為健康 production pattern。本週 6 R2 EVOLVE 跨人物 / 機構 / 產業 / 遊戲 4 類型（國家人權博物館 4772→7780 / 雷亞遊戲 R2 / 馬英九 / 半導體 林本堅+ASML / 大宇雙劍 2644→4784 / 尹衍樑 NEW→R2 4694）— 5/26 diary 23:05 explicit reflection「Round 2 EVOLVE sweet spot pattern cross-validation」。**這是 audit 第一次 surface 純 positive enable-pattern**（不是 fix-pattern），candidate 升 REWRITE-PIPELINE §Round 2 EVOLVE 入口 SOP。
+- **觸發**：5/26 diary 23:05 + 5/27 半導體 R2 EVOLVE ship 後 cycle 3 audit 統計本週 6 instance。
+- **可能層級**：
+  - 操作規則 → REWRITE-PIPELINE 加 §Round 2 EVOLVE 入口 SOP 段落（NEW ship 後 7-30 day 觀察 spore engagement / SC imp / SC click → R2 EVOLVE 啟動判準）
+  - 工具 → `scripts/tools/r2-evolve-candidates.py` 掃 NEW ship articles + 配對 SPORE-LOG engagement + SC GA dashboard，emit R2 候選清單
+  - REFLEXES 候選 → 「Production pattern 驗證 ≥ 4 instance 即可 codify，不需等 fail 才寫 SOP」一般化原則
+- **儀器化候選**：(A) REWRITE-PIPELINE §Round 2 EVOLVE entrypoint section (B) `r2-evolve-candidates.py` 工具 (C) ARTICLE-DONE-LOG 加 `r2_done: true` field tracking
+- **verification_count**: 6（國家人權博物館 / 雷亞 / 馬英九 / 半導體 / 大宇雙劍 / 尹衍樑 — 跨人物/機構/產業/遊戲類型）
+- **distill_ready**: true（vc=6 跨類型驗證 — positive pattern threshold 已過）
+- **positive_pattern**: true（enable-pattern 不是 fix-pattern）
+- **severity**: minor（不是飛輪安全問題，是 production 效率提升 opportunity）
+- **跨檔關聯**：[diary/2026-05-26-230513-manual.md](diary/2026-05-26-230513-manual.md) + [REWRITE-PIPELINE.md](../pipelines/REWRITE-PIPELINE.md) + [routine-audit-2026-05-27.md §最高 leverage 第 2 條](../../reports/routine-audit-2026-05-27.md)
+
+---
+
+### 2026-05-27 twmd-routine-audit-weekly cycle 3 — Spore post-ship factual heal repeat — 年代 + 軍事/政治時序 (vc=2)
+
+- **原則**：Spore #97/#98 台灣美食總覽 已於 5/27 10:21 ship Threads+X 雙平台，2h20m 後 12:41 heal commit `1a14b6745`「🧬 [semiont] heal: 台灣美食總覽 — 1949 美軍火雞時序勘誤」。**Post-ship factual heal repeat 第 2 instance**（vc=2，前 instance 5/13 Lee Yang spore #29「清晨四點多搭捷運」MRT 6:00 才開時序錯）— [feedback_absolute_facts_extra_caution](../../memory/feedback_absolute_facts_extra_caution.md) + [feedback_no_scene_inference_from_english](../../memory/feedback_no_scene_inference_from_english.md) 寫入後第 2 次同 family 違反。本次 root cause 不同：Lee Yang 是 scene inference from English summary（先有 EDITORIAL v4.4 + RESEARCH.md v1.2 fix）、本次是「絕對年代 + 美軍駐台時序」事實 — **Stage 3 事實鐵三角自檢未 catch year-level chronology**。
+- **觸發**：5/27 12:41 heal commit `1a14b6745` post-ship 2.3hr。
+- **可能層級**：
+  - 操作規則 → REWRITE-PIPELINE Stage 3 + SPORE-PIPELINE Step 3c 增「年代 + 軍事/政治事件時序」必跑 explicit fact-check checklist（年份 + 駐台 / 撤退 / 動員 / 戒嚴 / 戰爭 等 keyword cross-source verify）
+  - 工具 → `scripts/tools/chronology-check.py` 對 spore body 含年份 + 軍事 keyword combo 強制 cross-source 2 source
+  - REFLEXES 候選 → 「Absolute facts (年代 / 數字 / 引文 / 軍事時序) post-ship heal repeat = upstream gate 不夠 — 需 explicit checklist 不只 reflex」一般化原則
+- **儀器化候選**：(A) REWRITE-PIPELINE Stage 3 + SPORE-PIPELINE Step 3c checklist (B) `chronology-check.py` (C) memory/feedback_absolute_facts_extra_caution.md 加 vc=2 instance note
+- **verification_count**: 2（5/13 Lee Yang spore #29 MRT 時序 / 5/27 美食總覽 #97/#98 1949 美軍火雞時序）
+- **severity**: minor（spore engagement 階段可 traceable handle — feedback_red_line_anxiety_leak 框架下 traceable error 是 trust signal — 但 vc=2 累積即將升 distill-ready threshold）
+- **跨檔關聯**：[1a14b6745 heal commit](https://github.com/frank890417/taiwan-md/commit/1a14b6745) + [feedback_absolute_facts_extra_caution](../../memory/feedback_absolute_facts_extra_caution.md) + [REWRITE-PIPELINE Stage 3](../pipelines/REWRITE-PIPELINE.md) + [SPORE-PIPELINE Step 3c](../factory/SPORE-PIPELINE.md) + [routine-audit-2026-05-27.md §3C](../../reports/routine-audit-2026-05-27.md)
+
+---
+
+### 2026-05-27 twmd-routine-audit-weekly cycle 3 — Wave 1 parallel manual session mid-flight component collision SOP 首例
+
+- **原則**：5/26 23:13 PM data-refresh routine fire 起手撞 23:05 啟動的 manual Homepage Evolution Wave 1 session in-flight A1 OrganismPreview component 創建（src/templates/home.template.astro mod + src/components/home/OrganismPreview.astro untracked）。Detector 沒抓到（commit window > 60 min，且不是 routine ↔ routine 而是 routine ↔ manual session），但 5/26 PM memory explicit log 為「鐵律 5 instantiation vc=1」。處置：手動逐檔 stage 排除 home.template.astro + OrganismPreview，乾淨 sync 完成。
+- **觸發**：2026-05-26 23:13 twmd-data-refresh-pm routine 起手撞 manual session in-progress component creation。
+- **可能層級**：
+  - 操作規則 → ROUTINE.md §Detached worker routine collision SOP 補「cron routine 起手撞 manual session in-progress component 之手動 stage SOP」section
+  - 工具 → `refresh-data.sh` Step 0 增 `git status --porcelain | grep -E "^.[MA]" | head` detect untracked component during cron fire → emit warning + 提供 selective stage 步驟
+  - REFLEXES 候選 → 等 vc≥3 才升一般化原則（目前 vc=1 不足 codify）
+- **儀器化候選**：(A) ROUTINE.md collision SOP section update (B) refresh-data.sh selective stage helper (C) BECOME §鐵律 5 多核心碰撞防護加「routine ↔ manual session mid-flight」detection
+- **verification_count**: 1（首次 — Homepage Evolution Wave 1 burst 5/26 23:05 啟動是 audit window 首例 manual mid-flight 撞 routine）
+- **severity**: minor（手動 stage 已處置，影響範圍限於本 cycle；但 Wave-style 高密度 manual burst 預期會再出現，候選升 ROUTINE.md canonical）
+- **跨檔關聯**：[memory/2026-05-26-231138-twmd-data-refresh-pm.md](memory/2026-05-26-231138-twmd-data-refresh-pm.md) + [ROUTINE.md §Detached worker collision SOP](ROUTINE.md) + [routine-audit-2026-05-27.md §3A NEW variant](../../reports/routine-audit-2026-05-27.md)
+
+---
+
+### 2026-05-27 twmd-routine-audit-weekly cycle 3 — build perf vc=3 cross-3-day 累積 +35s 微升
+
+- **原則**：build wall-clock 連續 3 天微升 — 5/24 892s / 5/25 909s (+17) / 5/26 927s (+18) 累積 +35s 跨 3 天，已 > 200ms/page threshold（threshold 長期超）。Root cause 候選：(A) image 嵌入累積（5 月本週新增 ~30+ inline images 跨 6 R2 EVOLVE 文章）(B) babel cascade JSON regen（每 cycle 重生 5 lang × 753+ articles' metadata）(C) spore-data validator 累積（98+ spores backlog 從 cycle 1 ~70 增到本 cycle 末 ~98）。
+- **觸發**：5/26 PM data-refresh memory 註記 vc=3 連續第三天微升，每 cycle +17~+18s 線性 trend。
+- **可能層級**：
+  - 操作規則 → DATA-REFRESH-PIPELINE Step N (build) wall-clock fail-threshold（如 ≥ 1200s 觸發 LESSONS append + telegram observer）
+  - 工具 → `scripts/tools/build-profile.sh` 拆 build 階段 timing（per-page render / babel JSON regen / image processing / spore validator）找 root cause
+  - REFLEXES 候選 → 「Build perf 線性 trend ≥ 3 day 即觸發 profile，不等 hit threshold 才查」一般化原則（先發制人 vs 反應式）
+- **儀器化候選**：(A) `build-profile.sh` 拆階段 (B) DATA-REFRESH-PIPELINE Step N timing instrument (C) BENCH-PIPELINE 加 build wall-clock baseline track
+- **verification_count**: 3（5/24 892 / 5/25 909 / 5/26 927 — 連續 3 cycle 線性微升）
+- **distill_ready**: true (vc=3 達 REFLEXES #15 threshold)
+- **severity**: minor（短期可承受，但線性 trend 6 個月 = +1000s = 2x build time）
+- **跨檔關聯**：[memory/2026-05-26-231138-twmd-data-refresh-pm.md](memory/2026-05-26-231138-twmd-data-refresh-pm.md) + [BENCH-PIPELINE.md](../pipelines/BENCH-PIPELINE.md) + [routine-audit-2026-05-27.md §最高 leverage 第 3 條](../../reports/routine-audit-2026-05-27.md)
+
+---
+
 ### 2026-05-26 twmd-rewrite-daily 18:00 cycle — routine default 凌駕 SPORE-INBOX entry P0 signal + 「Threads only default」假設結構性錯誤（✅ 2026-05-26 instrumented — SPORE-PIPELINE v3.7→v3.8 default both + SPORE-INBOX strip Platform 建議 schema）
 
 **Pattern**：5/26 18:23 routine 走 v3.7 Threads only default，shipped Threads #92 大宇雙劍 但漏發 X。哲宇 callout「為什麼變 Threads only？」+ 同時 callout 文章 media-richness gate (image 0 < 2 hard) 沒攔 spore-publish。
@@ -360,9 +454,9 @@ article-health `media-richness` 寫得清清楚楚「image 0 < 2 — hard gate (
 
 ---
 
-### 2026-05-25 twmd-data-refresh-am — babel-nightly cron window collision vc=6 持平、ABORT-DEFER prose memory 邊際效用為零
+### 2026-05-25 twmd-data-refresh-am — babel-nightly cron window collision vc=7 (cycle 3 audit upgrade)、ABORT-DEFER prose memory 邊際效用為零 + distill 4 cycle ready 未 ship alert
 
-- **原則**：`twmd-data-refresh-am` cron `0 6 * * *` 跟 `twmd-babel-nightly` cron `0 5 * * *` 在 06:00 結構性 overlap — babel 跑 5 lang × 25 篇 cascade 平均 wall-clock 3-4hr，refresh-am 必踩 babel tail end translator workers 仍 write knowledge/ in-flight。**已 vc=6 連 7 天同位置 surface**（5/17 → 5/21 PM → 5/22 06:12 → 5/22 07:00 → 5/23 06:10 → 5/24 06:10 → 5/25 06:11）。Backend rotation 4 個（gemini → codex → owl-alpha → gemini）證明 backend 不是 root cause，cron window overlap 才是。
+- **原則**：`twmd-data-refresh-am` cron `0 6 * * *` 跟 `twmd-babel-nightly` cron `0 5 * * *` 在 06:00 結構性 overlap — babel 跑 5 lang × 25 篇 cascade 平均 wall-clock 3-4hr，refresh-am 必踩 babel tail end translator workers 仍 write knowledge/ in-flight。**已 vc=7 連 7 天同位置 surface**（5/17 → 5/21 PM → 5/22 06:12 → 5/22 07:00 → 5/23 06:10 → 5/24 06:10 → 5/25 06:11 → 5/26 06:13 → 5/27 routine-audit-weekly cycle 3 audit upgrade）。Backend rotation 4 個（gemini → codex → owl-alpha → gemini）證明 backend 不是 root cause，cron window overlap 才是。**distill-ready 標 4 cycle 未升 canonical**（5/24 vc=4 / 5/25 vc=5 / 5/26 vc=6 / 5/27 vc=7 — 4 個 cycle handoff 都 push 但 0 cycle pull）。5/26 PM memory diary 明文：「再寫第 6 篇 ABORT memory 邊際效用幾乎為零 — 5 天連續 7 篇 ABORT memory prose 重複描述同一決策 = 系統浪費」。vc=7 已過 break-even point，繼續累積 = pure noise。
 - **觸發**：vc=6 5/25 06:11 — ps -p 67754 確認 gemini node translator (ko) ELAPSED 02:59 自 06:08 起 in-flight，dirty tree 52 file 跨 5 lang。第 N+1 篇 prose ABORT memory ship 完，refresh 仍 defer 給 PM 23:00（vc=2-5 連 4 天 PM 順 sync 吸收 baseline 健康）。
 - **可能層級**：
   - 操作規則 → `refresh-data.sh` Step 1 加 parallel-actor detection gate (`pgrep -f "translate\.py|codex exec|gemini.*translator|babel|lang-sync"` → exit 99 → routine wrapper auto-write minimal ABORT memory)，省去每次寫 prose memory 重複描述同決策的 routine context overhead
@@ -370,8 +464,9 @@ article-health `media-richness` 寫得清清楚楚「image 0 < 2 — hard gate (
   - REFLEXES 候選 → 「routine cron window 結構性 overlap = pipeline gate 必須 ship，prose memory 寫第 N+1 篇邊際效用為零」一般化原則 (#15 「反覆浮現要儀器化」應用 instance vc=6 確定 distill-ready)
   - ROUTINE.md 候選 → babel-nightly 從 `0 5 * * *` 改 `0 2 * * *` 給 babel 5hr buffer，refresh-am 06:00 起跑時 babel 已收官
 - **儀器化候選**：(A) refresh-data.sh Step 1 parallel-actor gate 4-line bash ship (B) routine wrapper exit 99 → minimal ABORT memory 模板，prose 限制 ≤30 字 + commit one-liner (C) ROUTINE.md SSOT babel-nightly cron 移 02:00 候選 + cascading routine 排程 audit
-- **verification_count**: 6（5/17 / 5/21 PM / 5/22 06:12 / 5/22 07:00 / 5/23 06:10 / 5/24 06:10 / 5/25 06:11；vc=5 已 nominate distill-ready，vc=6 是「nominated 仍 sleeping」instance — 接下來 vc=7 應觸發 freeze routine + observer manual ship gate）
-- **severity**: structural（涉及 routine cron 排程 + pipeline parallel-actor 設計 + 跨 routine handoff cascade；本 vc=6 cycle 已執行 ABORT-DEFER 但 backend rotation 確定 root cause 不會自癒）
+- **verification_count**: 7（5/17 / 5/21 PM / 5/22 06:12 / 5/22 07:00 / 5/23 06:10 / 5/24 06:10 / 5/25 06:11 / 5/26 06:13 / 5/27 cycle-3 audit upgrade；vc=5 已 nominate distill-ready，vc=6 是「nominated 仍 sleeping」instance，**vc=7 已過 break-even — 觸發 freeze routine + observer manual ship gate**）
+- **distill_ready**: true (vc=7 標 4 cycle 未升 canonical，cycle 3 audit alert)
+- **severity**: structural（涉及 routine cron 排程 + pipeline parallel-actor 設計 + 跨 routine handoff cascade；本 vc=7 cycle 已執行 ABORT-DEFER 但 backend rotation 確定 root cause 不會自癒 + manual pickup 機制斷裂）
 - **跨檔關聯**：[memory/2026-05-25-061129-twmd-data-refresh-am.md](memory/2026-05-25-061129-twmd-data-refresh-am.md) + [memory/2026-05-24-061024-twmd-data-refresh-am.md](memory/2026-05-24-061024-twmd-data-refresh-am.md) + [REFLEXES #15 反覆浮現要儀器化](REFLEXES.md) + [REFLEXES #57 Routine 入口必須 detect parallel-actor](REFLEXES.md) + [ROUTINE.md §Detached worker routine collision SOP](ROUTINE.md) + [DATA-REFRESH-PIPELINE.md Step 1](../pipelines/DATA-REFRESH-PIPELINE.md)
 
 ### 2026-05-24 twmd-routine-audit-weekly cycle 2 — 反思鏈四棒 cross-routine nomination handoff coordination gap
