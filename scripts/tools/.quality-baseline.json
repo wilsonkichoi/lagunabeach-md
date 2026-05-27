@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-05-26T15:09:03Z",
-  "total": 756,
-  "flagged": 316,
+  "timestamp": "2026-05-27T15:09:04Z",
+  "total": 768,
+  "flagged": 323,
   "files": [
     {
       "file": "music/拍謝少年.md",
@@ -246,8 +246,8 @@
     },
     {
       "file": "technology/雷亞遊戲.md",
-      "score": 5,
-      "reasons": "空洞詞10個; 未人工審核; 連續bullet8行"
+      "score": 6,
+      "reasons": "空洞詞16個; 未人工審核; 連續bullet8行"
     },
     {
       "file": "art/林經堯.md",
@@ -693,6 +693,36 @@
       "file": "nature/台灣黑熊.md",
       "score": 9,
       "reasons": "空洞詞8個; 未人工審核; 塑膠句2個; 破折號10個; 套路結尾; 稀薄段落×7"
+    },
+    {
+      "file": "politics/議員制度.md",
+      "score": 5,
+      "reasons": "空洞詞6個; 未人工審核; 連續bullet4行; 稀薄段落×2"
+    },
+    {
+      "file": "politics/中選會制度.md",
+      "score": 7,
+      "reasons": "空洞詞8個; 未人工審核; 連續bullet8行; 塑膠句2個; 稀薄段落×4"
+    },
+    {
+      "file": "politics/直轄市山地原住民區長.md",
+      "score": 4,
+      "reasons": "空洞詞6個; 未人工審核; 稀薄段落×2"
+    },
+    {
+      "file": "politics/2026 九合一選舉.md",
+      "score": 4,
+      "reasons": "未人工審核; 連續bullet14行; 稀薄段落×1"
+    },
+    {
+      "file": "politics/投票權門檻歷史.md",
+      "score": 7,
+      "reasons": "未人工審核; 連續bullet7行; 破折號21個; 稀薄段落×1"
+    },
+    {
+      "file": "politics/村里長制度.md",
+      "score": 4,
+      "reasons": "未人工審核; 連續bullet4行; 稀薄段落×2"
     },
     {
       "file": "people/吳寶春.md",
@@ -1298,6 +1328,11 @@
       "file": "history/台灣海洋貿易史.md",
       "score": 12,
       "reasons": "年份僅0個; 無URL來源; 空洞詞7個; 未人工審核; 塑膠句6個; 稀薄段落×1"
+    },
+    {
+      "file": "history/台灣選舉與政黨政治.md",
+      "score": 7,
+      "reasons": "空洞詞14個; 未人工審核; 塑膠句1個; 破折號19個"
     },
     {
       "file": "history/台灣白色恐怖.md",

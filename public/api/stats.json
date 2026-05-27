@@ -1,8 +1,8 @@
 {
-  "totalArticles": 4592,
-  "totalCategories": 20,
+  "totalArticles": 4604,
+  "totalCategories": 21,
   "estimatedContributors": 57,
-  "totalTags": 6341,
+  "totalTags": 6367,
   "categories": [
     {
       "name": "es",
@@ -29,12 +29,16 @@
       "count": 42
     },
     {
+      "name": "Politics",
+      "count": 9
+    },
+    {
       "name": "Society",
-      "count": 75
+      "count": 76
     },
     {
       "name": "Culture",
-      "count": 60
+      "count": 61
     },
     {
       "name": "People",
@@ -50,7 +54,7 @@
     },
     {
       "name": "Geography",
-      "count": 61
+      "count": 62
     },
     {
       "name": "Economy",
@@ -168,13 +172,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4592,
+    "zh-TW": 4604,
     "en": 0
   },
-  "lastUpdated": "2026-05-26T15:09:02.614Z",
+  "lastUpdated": "2026-05-27T15:09:04.420Z",
   "stars": 1010,
-  "forks": 147,
-  "zhPages": 3815,
+  "forks": 148,
+  "zhPages": 3827,
   "enPages": 777,
-  "totalPages": 4592
+  "totalPages": 4604
 }

@@ -1,7 +1,7 @@
 ---
 title: 'reports/ INDEX — auto-generated'
 description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子目錄 status summary'
-last_generated: 2026-05-27 20:09
+last_generated: 2026-05-27 23:09
 generator: scripts/tools/generate-reports-index.py
 ssot: reports/reports-archival-audit-2026-05-27.md §4 Layer 3
 type: auto-index
@@ -12,22 +12,21 @@ type: auto-index
 > **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。
 > 不要人工編輯（會被下一次 cron 覆蓋）。
 >
-> Last generated: **2026-05-27 20:09** · 頂層 \*.md 共 **113** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
+> Last generated: **2026-05-27 23:09** · 頂層 \*.md 共 **116** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
 
 ## 📦 子目錄 status
 
 | Subdir                  | Files | Size     | 用途                                                 |
 | ----------------------- | ----: | -------- | ---------------------------------------------------- |
-| `research/`             |   229 | 33.4 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
+| `research/`             |   233 | 33.5 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
+| `visual/`               |   111 | 214.5 MB | Visual smoke test 基線 (partial gitignored)          |
 | `archive/`              |    27 | 342.8 KB | 歸檔位置 (per audit Layer 4)                         |
-| `scratch/`              |     8 | 43.7 KB  | POC / 暫存 (per audit Layer 1，已 .gitignored)       |
 | `probe/`                |     6 | 69.8 KB  | BECOME §Step 7 探測器報告                            |
 | `weekly/`               |     6 | 1.7 MB   | Self-evolve weekly digest                            |
 | `translation-research/` |     5 | 338.0 KB | 巴別塔 5 lang research                               |
 | `ab-tests/`             |     4 | 69.2 KB  | Editorial v6 A/B test                                |
 | `music-media-audit/`    |     4 | 115.5 KB | Music 條目 media audit (json + md)                   |
 | `harvest/`              |     2 | 14.3 KB  | Harvest engine 紀錄                                  |
-| `visual/`               |     1 | 5.7 KB   | Visual smoke test 基線 (partial gitignored)          |
 
 ## 🏷️ By type (頂層 \*.md only)
 
@@ -127,8 +126,9 @@ type: auto-index
 - `2026-05-09` [editorial-v6.1-test-c-2026-05-09](editorial-v6.1-test-c-2026-05-09.md)
 - `2026-05-03` [owl-diary-translation-poc-2026-05-03](owl-diary-translation-poc-2026-05-03.md) — Owl 巴別塔 × Semiont diary 翻譯 POC + 全 batch scope assessment
 
-### proposal (3)
+### proposal (4)
 
+- `2026-05-27` [2026-election-evolution-proposal-2026-05-27](2026-election-evolution-proposal-2026-05-27.md) — 2026 地方選舉 × Taiwan.md 物種進化提案
 - `2026-04-27` [harvest-engine-strategy-2026-04-27](harvest-engine-strategy-2026-04-27.md)
 - `2026-04-27` [music-strategy-2026-04-27](music-strategy-2026-04-27.md)
 - `2026-04-11` [session-scope-proposal-2026-04-11](session-scope-proposal-2026-04-11.md)
@@ -143,8 +143,10 @@ type: auto-index
 - `2026-04-12` [NMTH-overseas-semiont-analysis-2026-04-12](NMTH-overseas-semiont-analysis-2026-04-12.md)
 - `2026-04-11` [TFT-semiont-analysis-2026-04-11](TFT-semiont-analysis-2026-04-11.md)
 
-### ops (30)
+### ops (32)
 
+- `2026-05-27` [feedback-dont-stagger-ship-2026-05-27](feedback-dont-stagger-ship-2026-05-27.md) — Feedback — Milestone Roadmap 估太久 + 把 [A] 可自主範圍拆多 session
+- `2026-05-27` [politics-hub-elections-2026-architecture-2026-05-27](politics-hub-elections-2026-architecture-2026-05-27.md) — Politics Hub + /elections/2026/ + SSODT — Option D 完整架構
 - `2026-05-26` [rayark-feedback-distill-2026-05-26](rayark-feedback-distill-2026-05-26.md) — 雷亞遊戲 spore #89/#90 + article 外部 feedback distill — 五桶分桶 + 進化候選
 - `2026-05-21` [issue-1059-triage-2026-05-21](issue-1059-triage-2026-05-21.md) — Issue #1059 三層 triage + 三 bug fix 軌跡
 - `2026-05-16` [immune-score-redesign-2026-05-16](immune-score-redesign-2026-05-16.md) — 免疫分數綜合化重設計 + 文章健檢工具盤點進化 + GA4 多語 sensor + meta-health 子系統
@@ -178,10 +180,13 @@ type: auto-index
 
 ## 📅 By month (descending)
 
-### 2026-05 (64 files)
+### 2026-05 (67 files)
 
-- Type breakdown: ops: 17 / evolution: 11 / audit-routine: 9 / audit: 6 / plan: 6 / design: 5 / semiont: 4 / analysis: 3 / evaluation: 3
+- Type breakdown: ops: 19 / evolution: 11 / audit-routine: 9 / audit: 6 / plan: 6 / design: 5 / semiont: 4 / analysis: 3 / evaluation: 3 / proposal: 1
+  - `2026-05-27` [2026-election-evolution-proposal-2026-05-27](2026-election-evolution-proposal-2026-05-27.md)
+  - `2026-05-27` [feedback-dont-stagger-ship-2026-05-27](feedback-dont-stagger-ship-2026-05-27.md)
   - `2026-05-27` [homepage-evolution-D+0-watch-2026-05-27](homepage-evolution-D+0-watch-2026-05-27.md)
+  - `2026-05-27` [politics-hub-elections-2026-architecture-2026-05-27](politics-hub-elections-2026-architecture-2026-05-27.md)
   - `2026-05-27` [reports-archival-audit-2026-05-27](reports-archival-audit-2026-05-27.md)
   - `2026-05-27` [routine-audit-2026-05-27](routine-audit-2026-05-27.md)
   - `2026-05-26` [homepage-evolution-2026-05-26](homepage-evolution-2026-05-26.md)
