@@ -218,27 +218,6 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ## 📥 Pending（待發）
 
-### 臺灣美食總覽 — 趁熱 spore（5/18 ship）
-
-- **Source-Mode**: `EXISTING-ARTICLE`
-- **Article-Path**: [knowledge/Food/台灣美食總覽.md](../../knowledge/Food/台灣美食總覽.md)
-- **Priority**: `P1`
-- **Status**: `pending`
-- **Requested**: 2026-05-21 by 哲宇
-- **Hook anchor 候選**：
-  1. **數字 hook**：「7234 字寫不完台灣味，因為沒有一道菜是純粹台灣的，每一道菜卻又是最台灣的」（直接抽 article title）
-  2. **場景 hook**：「1949 年的嘉義噴水池旁，林添壽把美軍養剩的火雞切片鋪在白飯上 — 火雞肉飯今年滿 80 歲了」（直接抽 article lede）
-  3. **問句 hook**：「米其林 2018 進台北那一屆 419 家裡有 144 家是路邊攤，為什麼？」
-  4. **身份 hook**：「我問外國朋友：『台灣菜是什麼？』他想了半分鐘說『珍珠奶茶』。但珍珠奶茶 1986 年才在台中發明，台灣已經有 400 年的菜了」
-- **時效**：article ship 距今 3 天（5/18），趁熱窗口剩 ~10 天前要發
-- **敏感度**：低（食物相對中性）
-- **必驗事實**：火雞肉飯 1949 林添壽 / 珍珠奶茶 1986 春水堂台中 / 米其林 2018 進台北 / 419 家裡 144 家路邊攤 — 這四個數字必跟 article 對齊
-- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
-- **預估發佈時機**：本週內（5/22-5/25 最佳，趁 ship 後 7 天熱度）
-- **Notes**：配圖建議 article hero (擔仔麵 / 牛肉麵 / 蚵仔煎之一)；多語 fan-out 觸發判斷 = 高（美食是國際受眾大 cluster，預期 ja/ko/en 翻譯後 SC pull 大）
-
----
-
 ### 曾博恩 — 旗艦人物 spore
 
 - **Source-Mode**: `EXISTING-ARTICLE`
