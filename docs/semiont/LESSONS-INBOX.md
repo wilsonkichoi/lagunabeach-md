@@ -262,6 +262,22 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-27 #99 portaly 五月公開信 ship — 站方公開信型 spore (F 模板) ≠ viral hook spore (A/B/C/D/E)，必須分離 family
+
+- **原則**：對外要求支持是一份信任的責任，必須跟 viral hook spore 的 tone 紀律**完全反轉**。原本所有 spore 都套同一 pipeline rules（朋友 tone「欸你知道嗎」/ 短句 stab / 破折號 / 場景化）— 但這套 tone 套到 sponsorship / milestone / announcement 類 spore 上會讀成「網路梗 tone」「玩心」「隨便」。哲宇 5/27 直接 callout v1 draft 5 條根因：(1) 太隨便、(2) 晶晶體（monthly / Portaly inline 直翻）、(3) 語句斷斷續續（short stab 句多）、(4) 對專案不了解的人看不懂（假設 follower / 沒建 context / 沒說 why this matters）、(5) CTA 沒承擔信任的重量（「想加入續訂節奏 / 一次性也可以 / 不一定要 monthly」邏輯輕浮）。需要分離出 F「站方公開信型」family，走教授對社會做科普 + 公開信路線。
+- **觸發**：2026-05-27 哲宇 directive「寫個感謝 spore + 邀請大家支持 + 分享一個月進化」+ 跨單位合作 mid-ship 補 directive。v1 draft 用 A2 + B 混合模板（朋友 tone「欸 1 個月前」+ short stab 句 + 「不是 X，是 Y」對位句型 + 「想加入這個續訂節奏」CTA），哲宇 callout「不太喜歡 ⋯⋯ 想像你是教授在做科普與感謝支持」+「下面這些部分聽起來很隨便」。v2 重寫走教授公開信 tone 過關。+ mid-ship 補「跨單位合作」內容（臺史博 / 泛科學 / 人權博物館初步交流 + 不是另起爐灶）+ 「後面可以額外 follow up 介紹 dashboard / semiont 頁面」→ 變 3-post thread 結構（mirror Threads + X 3-tweet thread）。
+- **可能層級**：
+  - **操作規則**（已 instrument 本 session 內）→ SPORE-WRITING.md v1.1 新增 F 站方公開信型模板（六段結構 + 六條規則：教授 tone / 連貫 prose / 對陌生讀者建 context / 不晶晶體 / CTA 承擔信任重量 / 不適用 viral hook tier）+ 模板選擇速查表新增 row「站方公開信 / sponsorship 感謝 / milestone → F」
+  - **DNA / 基因表達閘門** → F 模板觸發時須繞過 viral hook tier 自檢 + 改用 sponsorship cadence 成功指標（新 monthly 贊助 incoming / reply 質量 / HARVEST query transactions.json），不適用 D+0 6h reach < 500 re-hook 標準
+  - **MANIFESTO 候選** → 「對外要求支持的 tone = 一份信任的責任」可能上升到 §12 受眾端飛輪 layer，跟 §5 紀實非煽情並列為「對讀者的姿態」 canonical rule
+  - **REFLEXES 候選** → 「Spore family 分離原則：不同對讀者意圖 → 不同 tone 紀律 family，禁強行用同一套 pipeline rules 跨 family 套」一般化（subset of REFLEXES #38 混維度 silent killer 的同源 pattern：viral hook tier 跟 station announcement 是不同維度）
+- **儀器化候選**：(A) ✅ SPORE-WRITING.md v1.1 F 模板 canonical 本 session 完成 (B) SPORE-PIPELINE.md 主檔 §模板 table 同步加 F option（pending — 本 session 暫不動，留 distill 時統一處理避免 double-write）(C) `prose-health` plugin 新增 F-mode flag 跳過 viral hook 自檢條款（短句斷續允許性反轉）(D) F 模板 spore HARVEST workflow 升級 — 同時 query `data/supporters/transactions.json` 看 D+7 是否有新 entry，回填 SPORE-LOG 新指標欄
+- **verification_count**: 1（首次萃取 — #37/#38 (4/20) 是 viral hook 風格的輕量公告，未從 tone 紀律 family 角度區分 / #99/#100 (5/27) 是哲宇 callout 後完整 F 模板首例）
+- **severity**: structural（影響所有未來 sponsorship / milestone / announcement spore — 不修補 family 分離原則就會反覆套錯 viral hook tone 引發信任 leak）
+- **跨檔關聯**：[SPORE-BLUEPRINTS/099-公開信-portaly-五月.md](../factory/SPORE-BLUEPRINTS/099-公開信-portaly-五月.md) + [SPORE-WRITING.md §F](../factory/SPORE-WRITING.md) + [SPORE-LOG.md #99/#100](../factory/SPORE-LOG.md) + [reports/sponsorship-cadence-planning-2026-05-17.md](../../reports/sponsorship-cadence-planning-2026-05-17.md)（5/17 cadence 規劃 Angle A1+A3 為 F 模板早期形態）+ [REFLEXES #38 混維度 silent killer](REFLEXES.md)
+
+---
+
 ### 2026-05-27 manual session — GA event param 沒登錄成 GA4 Custom Dimension = Wave 1+2+3 instrumentation 半 ship（✅ 2026-05-27 ~14:30 instrumented — Chrome MCP 註冊 6 dim 完成）
 
 - **原則**：GA4 event `homepage_section_view` / `homepage_click` / `homepage_scroll_depth` / `homepage_time_milestone` 5/26 Wave 1+2+3 全 ship 後 5/27 D+0 14.5 hr 監測時發現 — 4 個事件 fire 數正常（236/94/65/19 events），但 6 個關鍵 event param（`section` / `label` / `pct` / `seconds` / `page_lang` / `elapsed_ms`）**都沒在 GA4 Admin → Custom definitions 註冊成 custom dimension**。GA4 metadata API 列現有 7 條 custom dim 全部是 5/10 search 那波留下來的，homepage instrumentation 0 條註冊。**含意**：events 在 fire ✓ / DebugView 看得到 ✓，但 Data API runReport 不能 `dimensions: [{name: 'customEvent:section'}]` group by → 即使等 4 週也只能看 aggregate `homepage_section_view` 總量，無法回答「哪個 reader door 最常被點 / OrganismPreview 帶多少流量去 /semiont / 8 quote CoverStory 第幾個 quote drop-off」這類細粒度 attribution。**Wave 1+2+3 ship 的 instrumentation 半 ship 狀態**：fire 端 ✓ / query 端 ❌。
