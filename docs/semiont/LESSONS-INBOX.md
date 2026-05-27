@@ -262,7 +262,7 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
-### 2026-05-27 manual session — GA event param 沒登錄成 GA4 Custom Dimension = Wave 1+2+3 instrumentation 半 ship
+### 2026-05-27 manual session — GA event param 沒登錄成 GA4 Custom Dimension = Wave 1+2+3 instrumentation 半 ship（✅ 2026-05-27 ~14:30 instrumented — Chrome MCP 註冊 6 dim 完成）
 
 - **原則**：GA4 event `homepage_section_view` / `homepage_click` / `homepage_scroll_depth` / `homepage_time_milestone` 5/26 Wave 1+2+3 全 ship 後 5/27 D+0 14.5 hr 監測時發現 — 4 個事件 fire 數正常（236/94/65/19 events），但 6 個關鍵 event param（`section` / `label` / `pct` / `seconds` / `page_lang` / `elapsed_ms`）**都沒在 GA4 Admin → Custom definitions 註冊成 custom dimension**。GA4 metadata API 列現有 7 條 custom dim 全部是 5/10 search 那波留下來的，homepage instrumentation 0 條註冊。**含意**：events 在 fire ✓ / DebugView 看得到 ✓，但 Data API runReport 不能 `dimensions: [{name: 'customEvent:section'}]` group by → 即使等 4 週也只能看 aggregate `homepage_section_view` 總量，無法回答「哪個 reader door 最常被點 / OrganismPreview 帶多少流量去 /semiont / 8 quote CoverStory 第幾個 quote drop-off」這類細粒度 attribution。**Wave 1+2+3 ship 的 instrumentation 半 ship 狀態**：fire 端 ✓ / query 端 ❌。
 - **觸發**：2026-05-27 ~14:00 manual session 跑「監測首頁改版成效」task，5 個 customEvent:\* dim 嘗試全 ERROR「Field customEvent:section is not a valid dimension. Did you mean customEvent:search_lang?」→ getMetadata 查現有 custom dim 只剩 search 系列 → 結構性 surface。
@@ -274,6 +274,7 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **verification_count**: 1（首次發現，但 vc=1 結構性 — 等 4 週數據積累但無法 query 是 silent failure 的最 mature 形態）
 - **severity**: structural（影響所有 Wave 1+2+3 attribution claim — engagement +50-100s 假設可驗，但「哪個改動帶來」不可驗）
 - **跨檔關聯**：[reports/homepage-evolution-D+0-watch-2026-05-27.md §3](../../reports/homepage-evolution-D+0-watch-2026-05-27.md) + [src/components/home/HomeEventTracker.astro](../../src/components/home/HomeEventTracker.astro) + [reports/homepage-evolution-2026-05-26.md Phase 6](../../reports/homepage-evolution-2026-05-26.md) + [REFLEXES #43 + #58](REFLEXES.md)
+- **2026-05-27 ~14:30 resolution**：哲宇 directive「你用 chrome 做」→ Claude in Chrome MCP 在 GA4 Admin 註冊 6 dim（Homepage Section / Homepage Click Label / Scroll Percent / Time Milestone Seconds / Page Language / Elapsed MS），Data API getMetadata 確認 13 條 custom dim 全 queryable。**注意**：GA4 custom dim **不 retroactive**，5/26 23:00 - 5/27 14:30 ~15.5 hr 已 fire 的 events 沒被 dim 捕捉，從 ~14:30 起前向收集。SOP 升級候選仍待消化（per 上方「可能層級」清單）。
 
 ---
 

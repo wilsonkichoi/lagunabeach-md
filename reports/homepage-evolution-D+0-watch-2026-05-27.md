@@ -60,7 +60,11 @@ avgSessionDuration **55.8s → 271.5s** = 4.9x。
 
 ---
 
-## 3. 🚨 結構性 gap：6 個 event params 沒註冊成 GA4 Custom Dimension
+## 3. 🚨 結構性 gap：6 個 event params 沒註冊成 GA4 Custom Dimension（✅ 2026-05-27 ~14:30 resolved — Chrome MCP 註冊 6 dim 完成）
+
+> **後續 update**：2026-05-27 ~14:30 哲宇 directive「你用 chrome 做」→ Claude in Chrome MCP 完成 6 個 custom dim 註冊（Homepage Section / Homepage Click Label / Scroll Percent / Time Milestone Seconds / Page Language / Elapsed MS）。Data API `getMetadata` 確認 13 個 custom dim 全 queryable。`customEvent:section / label / pct / seconds / page_lang / elapsed_ms` 即時可 group by。
+>
+> **GA4 custom dim NOT retroactive**：5/26 23:00 - 5/27 14:30 ~15.5 hr events 沒被 dim 捕捉，dim attribution 從 ~14:30 起前向收集。要看完整 attribution 需等 5/28 0:00 + 進一步累積。
 
 GA4 metadata API 列現有 custom dimensions：
 
