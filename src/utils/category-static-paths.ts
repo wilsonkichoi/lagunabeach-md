@@ -28,6 +28,7 @@ const CATEGORY_MAPPING: Record<string, string> = {
   society: 'Society',
   economy: 'Economy',
   lifestyle: 'Lifestyle',
+  politics: 'Politics',
 };
 
 const CATEGORY_LIST = Object.keys(CATEGORY_MAPPING);

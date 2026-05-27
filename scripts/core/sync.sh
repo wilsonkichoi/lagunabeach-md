@@ -31,7 +31,7 @@ cd "$REPO_ROOT"
 # Categories（跟 knowledge/ 目錄結構對齊；新增分類時這裡 + knowledge/ 一起加）
 readonly CATEGORIES=(
   About Art Culture Economy Food Geography History
-  Lifestyle Music Nature People Society Technology
+  Lifestyle Music Nature People Politics Society Technology
 )
 
 # Enabled lang codes 從 SSOT 讀取

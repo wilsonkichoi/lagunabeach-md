@@ -60,6 +60,7 @@ export const ui = {
       'Public, reproducible LLM benchmark measuring how AI models speak about Taiwan across languages. v0.1 Phase 1 calibration shipped 2026-05-01. 6 axes — refuse / reframe / factual / sovereignty / granularity / citation.',
     'nav.map': 'Map',
     'nav.contribute': 'Contribute',
+    'nav.elections': '🗳️ 2026 Election',
     'nav.resources': 'Resources',
     'nav.data': 'Data',
     'nav.dashboard': 'Dashboard',
@@ -128,6 +129,7 @@ export const ui = {
     'categoryConfig.society': 'Society',
     'categoryConfig.economy': 'Economy',
     'categoryConfig.lifestyle': 'Lifestyle',
+    'categoryConfig.politics': 'Politics',
     'categoryConfig.about': 'About',
     'categoryConfig.about.description':
       'About Taiwan.md — origin story, team, and mission',
@@ -155,6 +157,8 @@ export const ui = {
       'The origins of the economic miracle and transformation challenges',
     'categoryConfig.lifestyle.description':
       'Lifestyle and values of the Taiwanese people',
+    'categoryConfig.politics.description':
+      "Thirty years of Taiwan's democratic experiment — institutions, power structures, and why democratic infrastructure is more than voting",
     // Article page
     'article.toc': 'Table of Contents',
     'article.sources': 'Sources',
@@ -259,6 +263,7 @@ export const ui = {
       'AIモデルが言語をまたいで台湾をどのように語るかを測定する、公開かつ再現可能なLLMベンチマーク。v0.1 Phase 1 キャリブレーション 2026-05-01 出荷。6軸 — 拒否 / 言い換え / 事実性 / 主権 / 粒度 / 引用。',
     'nav.map': '地図',
     'nav.contribute': '貢献する',
+    'nav.elections': '🗳️ 2026 統一地方選',
     'nav.resources': 'リソース',
     'nav.data': 'データ',
     'nav.dashboard': 'ダッシュボード',
@@ -327,6 +332,7 @@ export const ui = {
     'categoryConfig.society': '社会',
     'categoryConfig.economy': '経済',
     'categoryConfig.lifestyle': 'ライフスタイル',
+    'categoryConfig.politics': '政治',
     'categoryConfig.about': '概要',
     'categoryConfig.about.description':
       'Taiwan.md について — 始まりの物語、チーム、ミッション',
@@ -347,6 +353,8 @@ export const ui = {
     'categoryConfig.society.description': '社会変革と現代の課題を深く探る',
     'categoryConfig.economy.description': '経済奇跡の起源と変革の課題',
     'categoryConfig.lifestyle.description': '台湾の人々の暮らしと価値観',
+    'categoryConfig.politics.description':
+      '台湾民主30年の実験 — 制度の形、権力の構造、なぜ民主のインフラは投票だけではないのか',
     'article.toc': '目次',
     'article.sources': '参考資料',
     'article.imageCredit': '画像クレジット',
@@ -447,6 +455,7 @@ export const ui = {
       'AI 모델이 언어를 넘나들며 대만에 대해 어떻게 말하는지 측정하는 공개 재현 가능한 LLM 벤치마크. v0.1 Phase 1 캘리브레이션 2026-05-01 출시. 6축 — 거부 / 재구성 / 사실성 / 주권 / 세분성 / 인용.',
     'nav.map': '지도',
     'nav.contribute': '참여하기',
+    'nav.elections': '🗳️ 2026 지방선거',
     'nav.resources': '리소스',
     'nav.data': '데이터',
     'nav.dashboard': '대시보드',
@@ -515,6 +524,7 @@ export const ui = {
     'categoryConfig.society': '사회',
     'categoryConfig.economy': '경제',
     'categoryConfig.lifestyle': '라이프스타일',
+    'categoryConfig.politics': '정치',
     'categoryConfig.about': '소개',
     'categoryConfig.about.description':
       'Taiwan.md 소개 — 시작 이야기, 팀과 사명',
@@ -538,6 +548,8 @@ export const ui = {
       '사회 변화와 현대 과제에 대한 심층 탐구',
     'categoryConfig.economy.description': '경제 기적의 기원과 변혁의 과제',
     'categoryConfig.lifestyle.description': '대만 사람들의 생활 방식과 가치관',
+    'categoryConfig.politics.description':
+      '대만 민주주의 30년의 실험 — 제도, 권력 구조, 그리고 민주적 인프라가 투표 이상인 이유',
     'article.toc': '목차',
     'article.sources': '참고자료',
     'article.imageCredit': '이미지 출처',
@@ -639,6 +651,7 @@ export const ui = {
       'Benchmark público y reproducible para medir cómo los modelos de IA hablan de Taiwán en varios idiomas. v0.1 Phase 1 calibration shipped 2026-05-01. 6 ejes: rechazo / reformulación / factualidad / soberanía / granularidad / citación.',
     'nav.map': 'Mapa',
     'nav.contribute': 'Contribuir',
+    'nav.elections': '🗳️ Elecciones 2026',
     'nav.resources': 'Recursos',
     'nav.data': 'Datos',
     'nav.dashboard': 'Panel',
@@ -709,6 +722,7 @@ export const ui = {
     'categoryConfig.society': 'Sociedad',
     'categoryConfig.economy': 'Economía',
     'categoryConfig.lifestyle': 'Estilo de vida',
+    'categoryConfig.politics': 'Política',
     'categoryConfig.about': 'Acerca de',
     'categoryConfig.about.description':
       'Acerca de Taiwan.md: origen, equipo y misión',
@@ -736,6 +750,8 @@ export const ui = {
       'Los orígenes del milagro económico y sus desafíos de transformación',
     'categoryConfig.lifestyle.description':
       'Estilos de vida y valores del pueblo taiwanés',
+    'categoryConfig.politics.description':
+      'Treinta años del experimento democrático de Taiwán: instituciones, estructuras de poder y por qué la infraestructura democrática es más que votar',
     'article.toc': 'Índice',
     'article.sources': 'Fuentes',
     'article.imageCredit': 'Crédito de la imagen',
@@ -838,6 +854,7 @@ export const ui = {
       'Benchmark public et reproductible mesurant comment les modèles IA parlent de Taïwan à travers les langues. v0.1 Phase 1 calibration shipped 2026-05-01. 6 axes : refus / reformulation / factualité / souveraineté / granularité / citation.',
     'nav.map': 'Carte',
     'nav.contribute': 'Contribuer',
+    'nav.elections': '🗳️ Élections 2026',
     'nav.resources': 'Ressources',
     'nav.data': 'Données',
     'nav.dashboard': 'Tableau de bord',
@@ -908,6 +925,7 @@ export const ui = {
     'categoryConfig.society': 'Société',
     'categoryConfig.economy': 'Économie',
     'categoryConfig.lifestyle': 'Mode de vie',
+    'categoryConfig.politics': 'Politique',
     'categoryConfig.about': 'À propos',
     'categoryConfig.about.description':
       'À propos de Taiwan.md : origine, équipe et mission',
@@ -935,6 +953,8 @@ export const ui = {
       'Origines du miracle économique et défis de transformation',
     'categoryConfig.lifestyle.description':
       'Modes de vie et valeurs du peuple taïwanais',
+    'categoryConfig.politics.description':
+      "Trente ans d'expérience démocratique à Taïwan — institutions, structures de pouvoir, et pourquoi l'infrastructure démocratique va au-delà du vote",
     'article.toc': 'Table des matières',
     'article.sources': 'Sources',
     'article.imageCredit': 'Crédit image',
@@ -1036,6 +1056,7 @@ export const ui = {
       '公開、可重跑、可被學術引用的 LLM 評測。量測 AI 模型跨語言怎麼說台灣。v0.1 Phase 1 calibration shipped 2026-05-01。六軸 — 拒絕 / 改寫 / 事實 / 主權 / 文化粒度 / 引用率。',
     'nav.map': '地圖 📍',
     'nav.contribute': '參與 ✋',
+    'nav.elections': '🗳️ 2026 選舉',
     'nav.resources': '資源 🔗',
     'nav.data': '數據 📊',
     'nav.dashboard': '監測 🔬',
@@ -1104,6 +1125,7 @@ export const ui = {
     'categoryConfig.society': '社會',
     'categoryConfig.economy': '經濟',
     'categoryConfig.lifestyle': '生活',
+    'categoryConfig.politics': '政治',
     'categoryConfig.about': '關於',
     'categoryConfig.about.description': '關於 Taiwan.md — 緣起、團隊與使命',
     'categoryConfig.history.description':
@@ -1120,6 +1142,8 @@ export const ui = {
     'categoryConfig.society.description': '社會變遷與當代議題的深度探討',
     'categoryConfig.economy.description': '經濟奇蹟的成因與轉型挑戰',
     'categoryConfig.lifestyle.description': '台灣人的生活方式與價值觀',
+    'categoryConfig.politics.description':
+      '島嶼民主的 30 年實驗 — 制度怎麼長、權力怎麼結構、為什麼民主基礎建設不只是投票',
     // Article page
     'article.toc': '目錄',
     'article.sources': '參考資料',

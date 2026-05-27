@@ -115,6 +115,7 @@ const navConfig = [
   { path: '/soundscape', label: t('nav.soundscape') },
   { path: '/resources', label: t('nav.resources') },
   { path: '/semiont', label: '生命體 🧬' },
+  { path: '/elections/2026', label: t('nav.elections') },
   { path: '/contribute', label: t('nav.contribute') },
 ].map((item) => {
   const fullPath = translatePath(item.path);
@@ -130,9 +131,11 @@ const navConfig = [
       currentPath.startsWith('/dashboard');
   }
   // semiont pages only exist in zh-TW; never translate path to /en/semiont etc.
+  // elections/2026 also exists only as single-lang page for MVP
+  const singleLangPaths = ['/semiont', '/elections/2026'];
   return {
     ...item,
-    fullPath: item.path === '/semiont' ? '/semiont' : fullPath,
+    fullPath: singleLangPaths.includes(item.path) ? item.path : fullPath,
     active,
   };
 });
@@ -197,6 +200,11 @@ const categoryList = [
     path: translatePath('/lifestyle'),
     label: t('categoryConfig.lifestyle'),
     emoji: '🏠',
+  },
+  {
+    path: translatePath('/politics'),
+    label: t('categoryConfig.politics'),
+    emoji: '🗳️',
   },
 ];
 ---

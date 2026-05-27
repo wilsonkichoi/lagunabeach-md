@@ -134,6 +134,16 @@ export const getCategoryConfigs = (t: ReturnType<typeof useTranslations>) => ({
     cover:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/7-Eleven_in_Taipei.jpg/640px-7-Eleven_in_Taipei.jpg',
   },
+  politics: {
+    name: t('categoryConfig.politics'),
+    description: t('categoryConfig.politics.description'),
+    icon: '🗳️',
+    color: '#7c2d12',
+    colorLight: '#7c2d1220',
+    gradient: 'linear-gradient(135deg, #7c2d12, #ea580c)',
+    cover:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Legislative_Yuan%2C_the_Republic_of_China.JPG/640px-Legislative_Yuan%2C_the_Republic_of_China.JPG',
+  },
 });
 
 const __plainCategoryConfig = getCategoryConfigs((key) => key as any);
