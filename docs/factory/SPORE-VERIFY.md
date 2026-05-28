@@ -441,6 +441,56 @@ Fact blueprint 任一 bullet 標敏感度 = 「死亡」「自殺」「人倫悲
 
 ---
 
+## 標準格式閘（FORMAT GATE）— 硬性強制（v3.0，2026-05-28 哲宇 directive）
+
+> **2026-05-28 manual session 222438 觸發 canonical 化**：哲宇 directive「發布前補充標準 spore 格式，發布後也檢查這個格式（尤其是 你知道嗎？ 還有換行）避免之前出現一堆文自己擠在一起的狀況」→ 標準孢子格式從「隱性慣例」升 explicit canonical + 4 層 instrument 化 gate。
+
+### 為什麼是硬閘門不是軟提醒
+
+5/28 三條 voice drift spore (#97 美食「你知道嗎—」破折號 / #101 落日飛車「你知道嗎，」無 emoji / #103 周蕙「走進台灣 KTV」完全無 prefix) silent pass v3.1 WARN gate；5/28 22:30 周蕙 RESHIPPED 又撞 execCommand insertText collapse bug 把 5 段 prose 擠成一坨 + URL 6× duplication。**Plugin gate（blueprint 層）+ pre-ship gate（compose textbox 層）+ post-ship gate（rendered output 層）三層 instrument 化才能 cover 整條 paste→render path**。
+
+對應 [REFLEXES #15 反覆浮現要儀器化](../semiont/REFLEXES.md)（第 N 次驗證）+ [§神經迴路「prose-level silent erosion vs binary fail 是兩個 instrumentation 物種」](../semiont/MEMORY.md#神經迴路)。
+
+### 標準孢子格式 canonical
+
+詳細格式 spec 在 [SPORE-WRITING.md §標準孢子格式](SPORE-WRITING.md) v5.0。簡述：
+
+```
+你知道嗎？{emoji}              ← 獨立第一行 (≤ 15 chars)
+[blank line]
+{故事段落 1}                   ← 80-110 chars
+[blank line]
+{故事段落 2-5}                 ← 4-5 段呼吸 sweet spot
+[blank line]
+完整故事 👉 {UTM URL}           ← X inline / Threads self-reply
+```
+
+### 4 層 instrument gate（全部跑）
+
+| 層  | Gate                            | 怎麼跑                                                                                                                                                                   | 觸發條件                                                                |
+| --- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
+| 1   | **Plugin Rule #14 v2 HARD**     | `python3 scripts/tools/article-health.py docs/factory/SPORE-BLUEPRINTS/<N>-<slug>.md --check=spore-writing`                                                              | 字面 hook prefix 必存在 (你知道嗎？ / 欸 / 想像 / 引語 / emoji)         |
+| 2   | **Plugin Rule #14.A v3 WARN**   | 同上                                                                                                                                                                     | Standalone hook：第一行 ≤ 15 chars + blank line follows                 |
+| 3   | **Plugin Rule #14.B v3 WARN**   | 同上                                                                                                                                                                     | Paragraph block count ≥ 4 (短 spore < 200 chars 主貼可 ≥ 3)             |
+| 4   | **SOCIAL-POSTING pre-ship 7+8** | Chrome MCP JS query compose textbox blocks + first element textContent (詳見 [SOCIAL-POSTING-PIPELINE §AI pre-ship self-check](../pipelines/SOCIAL-POSTING-PIPELINE.md)) | Compose `<div>`/`<p>` block count ≥ 4 + first ≤ 15 chars 含 hook prefix |
+| 5   | **SOCIAL-POSTING post-ship 6**  | navigate post URL + JS read tweetText.split('\\n').length / og:description split('\\n\\n').length                                                                        | Rendered output 段落 break ≥ 4 (防 caching layer drift)                 |
+
+### 失敗處理矩陣
+
+| Layer fail | Stage         | Action                                                                                                                         |
+| ---------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| 1 (HARD)   | Stage 3 WRITE | Blueprint 重寫直到 Rule #14 v2 字面 prefix PASS — 違反 = pipeline 不放行 SHIP                                                  |
+| 2 (WARN)   | Stage 3 WRITE | Hook 拆獨立第一行 + emoji 加在 hook 末尾 — 短 spore (<200 chars) 可接受 WARN，>= 200 chars 應修補                              |
+| 3 (WARN)   | Stage 3 WRITE | 拆 monolithic prose 成 4-5 段（時間軸 cut / 場景轉換 / 引語前後切段）                                                          |
+| 4 (Pre)    | Stage 4 SHIP  | Compose collapsed state → discard draft → JXA NSPasteboard rewrite + Cmd+V 重 paste                                            |
+| 5 (Post)   | Stage 4 SHIP  | Rendered output 段落 collapse → 報告 observer，由觀察者決定 delete + reship / accept-as-is + LESSONS-INBOX caching layer entry |
+
+### Multi-paragraph 中文 paste reliability rule
+
+**SPORE-PIPELINE Stage 4 SHIP 強制走 JXA `NSPasteboard.setStringForType('public.utf8-plain-text')` + Cmd+V** — 不准用 pbcopy（Mac Chinese locale Big5 corruption）/ osascript classic（AppleScript runtime Big5 corruption）/ execCommand insertText（ProseMirror collapse + URL duplication）。詳見 [SOCIAL-POSTING-PIPELINE §Multi-paragraph 中文 paste SOP](../pipelines/SOCIAL-POSTING-PIPELINE.md)。
+
+---
+
 ## 事實查核閘（FACT-CHECK GATE）— 硬性強制
 
 > v2.4 新增（2026-04-19 高鐵 s35 教訓）

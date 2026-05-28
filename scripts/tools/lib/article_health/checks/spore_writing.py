@@ -281,12 +281,12 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     # 場景代入 / 第二人稱化 / 日常感都不算「等效 prime」— 必須字面 prefix。
     # Scope: viral family only（F-公開信 / E-thread / hook_tier=N/A exempt）。
     is_publicletter = _is_publicletter_family(target.text)
+    has_friend_prefix = bool(_RE_FRIEND_PREFIX.match(first_line)) if first_line else False
     if (
         first_line
         and len(first_line) >= 8
         and not is_publicletter
     ):
-        has_friend_prefix = bool(_RE_FRIEND_PREFIX.match(first_line))
         if not has_friend_prefix:
             looks_like_news_lead = bool(_RE_NEWS_LEAD.match(first_line))
             extra_hint = (
@@ -312,5 +312,70 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                     "或直接引語「『XXX』{說話者} 在 {場景} 留下這句」開場。"
                     "若本 spore 屬 F-公開信 / E-thread / 非 viral family，"
                     "frontmatter 加 `template: F-...` 或 `hook_tier: N/A` exempt。"
+                ),
+            )
+
+    # ── Rule #14.A v3: Standalone hook line — WARN gate ──
+    # v3 (2026-05-28) 哲宇 directive「補充標準 spore 格式」觸發 canonical 化。
+    # 標準孢子格式：「你知道嗎？{emoji}」獨立第一行（≤ 15 chars）+ blank line +
+    # 故事段落。Inline hook (「你知道嗎？🎤 1999 年福茂發行...」整段一行) 不擋 ship
+    # 但 surface drift signal —— 視覺呼吸 + thumb-scroll 停留 + emoji 錨點都被
+    # dilute。
+    #
+    # Trigger condition (WARN):
+    #   has_friend_prefix=True AND
+    #   first_line length > 15 chars (inline with story content)
+    #   AND not publicletter family
+    if has_friend_prefix and not is_publicletter and first_line:
+        first_line_len = len(first_line)
+        if first_line_len > 15:
+            yield Violation(
+                check=CHECK_NAME,
+                severity=Severity.WARN,
+                message=(
+                    f"Hook 未獨立第一行 (Rule #14.A v3 WARN): "
+                    f"first_line={first_line_len} chars inline 與故事段落混在一起，"
+                    "標準格式「你知道嗎？{emoji}」獨立短行 (≤15 chars) + 空白行 + 故事段落"
+                ),
+                line=body_start + 1,
+                snippet=first_line[:60],
+                editorial_ref="SPORE-WRITING.md §標準孢子格式",
+                fix_suggestion=(
+                    "拆「你知道嗎？{emoji}」獨立第一行 + 空白行 + 故事段落 1 開頭。"
+                    "視覺呼吸 + thumb-scroll 停留 + emoji 錨點都需要 hook 獨立成行。"
+                    "若極短 spore (<200 chars 主貼) 或觀察者拍板 inline，可接受 WARN。"
+                ),
+            )
+
+    # ── Rule #14.B v3: Paragraph block count — WARN gate ──
+    # 標準孢子格式有 4-7 段（hook standalone + 3-5 story + optional URL）。
+    # < 4 段 = monolithic prose (collapsed state)；> 6 段 = staccato pattern
+    # (Twitter 串文 style 不是紀實段落)。
+    #
+    # Scope: viral family only。F-公開信 / E-thread frontmatter signal exempt。
+    if not is_publicletter and body_text.strip():
+        paragraphs = [
+            p.strip() for p in body_text.split("\n\n") if p.strip()
+        ]
+        para_count = len(paragraphs)
+        # 短 spore (主貼 < 200 chars) 可以 3 段；標準 4-7
+        body_total_len = sum(len(p) for p in paragraphs)
+        min_para = 3 if body_total_len < 200 else 4
+        if para_count < min_para:
+            yield Violation(
+                check=CHECK_NAME,
+                severity=Severity.WARN,
+                message=(
+                    f"段落呼吸不足 (Rule #14.B v3 WARN): "
+                    f"only {para_count} paragraph blocks (body_total={body_total_len} chars), "
+                    f"標準 spore 4-5 段呼吸 (hook standalone + 3-5 story + optional URL)。"
+                ),
+                line=body_start + 1,
+                snippet=body_text[:80].replace("\n", "⏎"),
+                editorial_ref="SPORE-WRITING.md §標準孢子格式",
+                fix_suggestion=(
+                    "拆 monolithic prose 成 4-5 paragraph：時間軸 cut 處切段 + "
+                    "場景轉換處切段 + 引語前後切段。"
+                    "對應 SOCIAL-POSTING-PIPELINE pre-ship check 7 (compose block ≥ 4)。"
                 ),
             )
