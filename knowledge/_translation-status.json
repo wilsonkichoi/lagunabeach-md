@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-28T09:50:46+08:00",
-    "zhCommitHead": "9193f35b2",
-    "totalZh": 768,
+    "lastUpdated": "2026-05-28T23:10:49+08:00",
+    "zhCommitHead": "528b19d73",
+    "totalZh": 769,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 768,
-        "fresh": 758,
-        "stale": 10,
+        "total_zh": 769,
+        "fresh": 757,
+        "stale": 11,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 768,
-        "fresh": 758,
-        "stale": 10,
+        "total_zh": 769,
+        "fresh": 757,
+        "stale": 11,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 768,
-        "fresh": 758,
-        "stale": 10,
+        "total_zh": 769,
+        "fresh": 757,
+        "stale": 11,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       },
       "es": {
-        "total_zh": 768,
-        "fresh": 758,
-        "stale": 10,
+        "total_zh": 769,
+        "fresh": 757,
+        "stale": 11,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 768,
-        "fresh": 758,
-        "stale": 10,
+        "total_zh": 769,
+        "fresh": 757,
+        "stale": 11,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 1,
         "orphan": 0
       }
     },
@@ -2108,8 +2108,8 @@
           "sourceContentHash": "sha256:a199eb8f6aa7f0fc",
           "sourceBodyHash": "sha256:2680b892b33ad9fa",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "9fb45ede",
-          "translationLastModified": "2026-05-23T07:10:17+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -2457,10 +2457,10 @@
     },
     "Music/周蕙.md": {
       "zh": {
-        "lastCommit": "4183834d",
-        "lastModified": "2026-05-19T00:40:14+08:00",
-        "contentHash": "sha256:94c157b4ce51fa75",
-        "bodyHash": "sha256:2eee04086207a2ca"
+        "lastCommit": "528b19d7",
+        "lastModified": "2026-05-28T23:02:01+08:00",
+        "contentHash": "sha256:50a2dc8af252fba1",
+        "bodyHash": "sha256:74e33914371a886e"
       },
       "translations": {
         "en": {
@@ -2473,8 +2473,10 @@
           "translationLastCommit": "a70355a3",
           "translationLastModified": "2026-05-19T07:07:43+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+218 -13"
         },
         "ja": {
           "path": "ja/Music/chou-hui.md",
@@ -2486,8 +2488,10 @@
           "translationLastCommit": "a70355a3",
           "translationLastModified": "2026-05-19T07:07:43+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+218 -13"
         },
         "ko": {
           "path": "ko/Music/chou-hui.md",
@@ -2499,8 +2503,10 @@
           "translationLastCommit": "a70355a3",
           "translationLastModified": "2026-05-19T07:07:43+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+218 -13"
         },
         "es": {
           "path": "es/Music/chou-hui.md",
@@ -2512,8 +2518,10 @@
           "translationLastCommit": "a70355a3",
           "translationLastModified": "2026-05-19T07:07:43+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+218 -13"
         },
         "fr": {
           "path": "fr/Music/chou-hui.md",
@@ -2525,8 +2533,10 @@
           "translationLastCommit": "a70355a3",
           "translationLastModified": "2026-05-19T07:07:43+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 2,
+          "diffSummary": "+218 -13"
         }
       }
     },
@@ -9458,8 +9468,8 @@
           "sourceContentHash": "sha256:4d6c76146a148f9f",
           "sourceBodyHash": "sha256:54602876f4b03760",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -9745,8 +9755,8 @@
           "sourceContentHash": "sha256:38d6b524391a0d61",
           "sourceBodyHash": "sha256:5453ae20da287bcb",
           "translatedAt": "2026-05-28T01:45:15Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -9758,8 +9768,8 @@
           "sourceContentHash": "sha256:38d6b524391a0d61",
           "sourceBodyHash": "sha256:5453ae20da287bcb",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -9771,8 +9781,8 @@
           "sourceContentHash": "sha256:38d6b524391a0d61",
           "sourceBodyHash": "sha256:5453ae20da287bcb",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -9784,8 +9794,8 @@
           "sourceContentHash": "sha256:38d6b524391a0d61",
           "sourceBodyHash": "sha256:5453ae20da287bcb",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -9797,8 +9807,8 @@
           "sourceContentHash": "sha256:38d6b524391a0d61",
           "sourceBodyHash": "sha256:5453ae20da287bcb",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -11395,8 +11405,8 @@
           "sourceContentHash": "sha256:7a32729b455c6498",
           "sourceBodyHash": "sha256:efb1bd81aaf69268",
           "translatedAt": "2026-05-28T01:45:15Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -11408,8 +11418,8 @@
           "sourceContentHash": "sha256:7a32729b455c6498",
           "sourceBodyHash": "sha256:efb1bd81aaf69268",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -11421,8 +11431,8 @@
           "sourceContentHash": "sha256:7a32729b455c6498",
           "sourceBodyHash": "sha256:efb1bd81aaf69268",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -11447,8 +11457,8 @@
           "sourceContentHash": "sha256:7a32729b455c6498",
           "sourceBodyHash": "sha256:efb1bd81aaf69268",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -13960,8 +13970,8 @@
           "sourceContentHash": "sha256:c5ff1dd2cc7e3855",
           "sourceBodyHash": "sha256:882670c81d48e0c6",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -13973,8 +13983,8 @@
           "sourceContentHash": "sha256:c5ff1dd2cc7e3855",
           "sourceBodyHash": "sha256:882670c81d48e0c6",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "5d1476df",
-          "translationLastModified": "2026-05-26T08:11:11+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -13986,8 +13996,8 @@
           "sourceContentHash": "sha256:c5ff1dd2cc7e3855",
           "sourceBodyHash": "sha256:882670c81d48e0c6",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -13999,8 +14009,8 @@
           "sourceContentHash": "sha256:c5ff1dd2cc7e3855",
           "sourceBodyHash": "sha256:882670c81d48e0c6",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -15522,8 +15532,8 @@
           "sourceContentHash": "sha256:131eb7c08a7bc21b",
           "sourceBodyHash": "sha256:467330e7b6444cf1",
           "translatedAt": "2026-05-28T05:08:33+08:00",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -15535,8 +15545,8 @@
           "sourceContentHash": "sha256:131eb7c08a7bc21b",
           "sourceBodyHash": "sha256:467330e7b6444cf1",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -15548,8 +15558,8 @@
           "sourceContentHash": "sha256:131eb7c08a7bc21b",
           "sourceBodyHash": "sha256:467330e7b6444cf1",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -15561,8 +15571,8 @@
           "sourceContentHash": "sha256:131eb7c08a7bc21b",
           "sourceBodyHash": "sha256:467330e7b6444cf1",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -15574,8 +15584,8 @@
           "sourceContentHash": "sha256:131eb7c08a7bc21b",
           "sourceBodyHash": "sha256:467330e7b6444cf1",
           "translatedAt": "2026-05-28T05:08:35+08:00",
-          "translationLastCommit": "3190cf6a",
-          "translationLastModified": "2026-05-04T01:21:51+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -15597,8 +15607,8 @@
           "sourceContentHash": "sha256:25ea2bd0128c18a8",
           "sourceBodyHash": "sha256:f83ec53b765f106c",
           "translatedAt": "2026-05-28T01:45:15Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -15625,8 +15635,8 @@
           "sourceContentHash": "sha256:25ea2bd0128c18a8",
           "sourceBodyHash": "sha256:f83ec53b765f106c",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -15638,8 +15648,8 @@
           "sourceContentHash": "sha256:25ea2bd0128c18a8",
           "sourceBodyHash": "sha256:f83ec53b765f106c",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -17114,8 +17124,8 @@
           "sourceContentHash": "sha256:e0c32df83dc8d9c2",
           "sourceBodyHash": "sha256:350b52df52cdd2ac",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -17127,8 +17137,8 @@
           "sourceContentHash": "sha256:e0c32df83dc8d9c2",
           "sourceBodyHash": "sha256:350b52df52cdd2ac",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24076,8 +24086,8 @@
           "sourceContentHash": "sha256:8e742da3ed42fe59",
           "sourceBodyHash": "sha256:443bc2c93c1de17f",
           "translatedAt": "2026-05-28T05:08:33+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24089,8 +24099,8 @@
           "sourceContentHash": "sha256:8e742da3ed42fe59",
           "sourceBodyHash": "sha256:443bc2c93c1de17f",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24102,8 +24112,8 @@
           "sourceContentHash": "sha256:8e742da3ed42fe59",
           "sourceBodyHash": "sha256:443bc2c93c1de17f",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24115,8 +24125,8 @@
           "sourceContentHash": "sha256:8e742da3ed42fe59",
           "sourceBodyHash": "sha256:443bc2c93c1de17f",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24128,8 +24138,8 @@
           "sourceContentHash": "sha256:8e742da3ed42fe59",
           "sourceBodyHash": "sha256:443bc2c93c1de17f",
           "translatedAt": "2026-05-28T05:08:35+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24151,8 +24161,8 @@
           "sourceContentHash": "sha256:7e5f1972948a38bd",
           "sourceBodyHash": "sha256:a1bf64af5a7a6426",
           "translatedAt": "2026-05-28T05:08:33+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24164,8 +24174,8 @@
           "sourceContentHash": "sha256:7e5f1972948a38bd",
           "sourceBodyHash": "sha256:a1bf64af5a7a6426",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24177,8 +24187,8 @@
           "sourceContentHash": "sha256:7e5f1972948a38bd",
           "sourceBodyHash": "sha256:a1bf64af5a7a6426",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24190,8 +24200,8 @@
           "sourceContentHash": "sha256:7e5f1972948a38bd",
           "sourceBodyHash": "sha256:a1bf64af5a7a6426",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24203,8 +24213,8 @@
           "sourceContentHash": "sha256:7e5f1972948a38bd",
           "sourceBodyHash": "sha256:a1bf64af5a7a6426",
           "translatedAt": "2026-05-28T05:08:35+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24226,8 +24236,8 @@
           "sourceContentHash": "sha256:529adc4e4a8cd340",
           "sourceBodyHash": "sha256:4dad7b27d2c04ae8",
           "translatedAt": "2026-05-28T05:08:33+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24239,8 +24249,8 @@
           "sourceContentHash": "sha256:529adc4e4a8cd340",
           "sourceBodyHash": "sha256:4dad7b27d2c04ae8",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24252,8 +24262,8 @@
           "sourceContentHash": "sha256:529adc4e4a8cd340",
           "sourceBodyHash": "sha256:4dad7b27d2c04ae8",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24265,8 +24275,8 @@
           "sourceContentHash": "sha256:529adc4e4a8cd340",
           "sourceBodyHash": "sha256:4dad7b27d2c04ae8",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24278,8 +24288,8 @@
           "sourceContentHash": "sha256:529adc4e4a8cd340",
           "sourceBodyHash": "sha256:4dad7b27d2c04ae8",
           "translatedAt": "2026-05-28T05:08:35+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24301,8 +24311,8 @@
           "sourceContentHash": "sha256:2a53fa288bce8108",
           "sourceBodyHash": "sha256:5744f7c78c6b7b4e",
           "translatedAt": "2026-05-28T05:08:33+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24314,8 +24324,8 @@
           "sourceContentHash": "sha256:2a53fa288bce8108",
           "sourceBodyHash": "sha256:5744f7c78c6b7b4e",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24327,8 +24337,8 @@
           "sourceContentHash": "sha256:2a53fa288bce8108",
           "sourceBodyHash": "sha256:5744f7c78c6b7b4e",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24340,8 +24350,8 @@
           "sourceContentHash": "sha256:2a53fa288bce8108",
           "sourceBodyHash": "sha256:5744f7c78c6b7b4e",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24353,8 +24363,8 @@
           "sourceContentHash": "sha256:2a53fa288bce8108",
           "sourceBodyHash": "sha256:5744f7c78c6b7b4e",
           "translatedAt": "2026-05-28T05:08:35+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24376,8 +24386,8 @@
           "sourceContentHash": "sha256:bbf5a4ef25418f82",
           "sourceBodyHash": "sha256:411e53aa2fba684f",
           "translatedAt": "2026-05-28T05:08:33+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24389,8 +24399,8 @@
           "sourceContentHash": "sha256:bbf5a4ef25418f82",
           "sourceBodyHash": "sha256:411e53aa2fba684f",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24402,8 +24412,8 @@
           "sourceContentHash": "sha256:bbf5a4ef25418f82",
           "sourceBodyHash": "sha256:411e53aa2fba684f",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24415,8 +24425,8 @@
           "sourceContentHash": "sha256:bbf5a4ef25418f82",
           "sourceBodyHash": "sha256:411e53aa2fba684f",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24428,8 +24438,8 @@
           "sourceContentHash": "sha256:bbf5a4ef25418f82",
           "sourceBodyHash": "sha256:411e53aa2fba684f",
           "translatedAt": "2026-05-28T05:08:35+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24451,8 +24461,8 @@
           "sourceContentHash": "sha256:3074d2aae1d6b4c8",
           "sourceBodyHash": "sha256:6e53b65db9794966",
           "translatedAt": "2026-05-28T05:08:33+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24464,8 +24474,8 @@
           "sourceContentHash": "sha256:3074d2aae1d6b4c8",
           "sourceBodyHash": "sha256:6e53b65db9794966",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24477,8 +24487,8 @@
           "sourceContentHash": "sha256:3074d2aae1d6b4c8",
           "sourceBodyHash": "sha256:6e53b65db9794966",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24490,8 +24500,8 @@
           "sourceContentHash": "sha256:3074d2aae1d6b4c8",
           "sourceBodyHash": "sha256:6e53b65db9794966",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24503,8 +24513,8 @@
           "sourceContentHash": "sha256:3074d2aae1d6b4c8",
           "sourceBodyHash": "sha256:6e53b65db9794966",
           "translatedAt": "2026-05-28T05:08:35+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24526,8 +24536,8 @@
           "sourceContentHash": "sha256:f7559246c64e84dc",
           "sourceBodyHash": "sha256:f73626a9584cf00d",
           "translatedAt": "2026-05-28T05:08:33+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24539,8 +24549,8 @@
           "sourceContentHash": "sha256:f7559246c64e84dc",
           "sourceBodyHash": "sha256:f73626a9584cf00d",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24552,8 +24562,8 @@
           "sourceContentHash": "sha256:f7559246c64e84dc",
           "sourceBodyHash": "sha256:f73626a9584cf00d",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24565,8 +24575,8 @@
           "sourceContentHash": "sha256:f7559246c64e84dc",
           "sourceBodyHash": "sha256:f73626a9584cf00d",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24578,8 +24588,8 @@
           "sourceContentHash": "sha256:f7559246c64e84dc",
           "sourceBodyHash": "sha256:f73626a9584cf00d",
           "translatedAt": "2026-05-28T05:08:35+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24601,8 +24611,8 @@
           "sourceContentHash": "sha256:8130ad5ab40eae13",
           "sourceBodyHash": "sha256:f699c0cd2ccbe17d",
           "translatedAt": "2026-05-28T05:08:33+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24614,8 +24624,8 @@
           "sourceContentHash": "sha256:8130ad5ab40eae13",
           "sourceBodyHash": "sha256:f699c0cd2ccbe17d",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24627,8 +24637,8 @@
           "sourceContentHash": "sha256:8130ad5ab40eae13",
           "sourceBodyHash": "sha256:f699c0cd2ccbe17d",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24640,8 +24650,8 @@
           "sourceContentHash": "sha256:8130ad5ab40eae13",
           "sourceBodyHash": "sha256:f699c0cd2ccbe17d",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24653,8 +24663,8 @@
           "sourceContentHash": "sha256:8130ad5ab40eae13",
           "sourceBodyHash": "sha256:f699c0cd2ccbe17d",
           "translatedAt": "2026-05-28T05:08:35+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24676,8 +24686,8 @@
           "sourceContentHash": "sha256:dbb211cf0ddd5fb6",
           "sourceBodyHash": "sha256:2cdc1f033ad2b6b9",
           "translatedAt": "2026-05-28T05:08:33+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24689,8 +24699,8 @@
           "sourceContentHash": "sha256:dbb211cf0ddd5fb6",
           "sourceBodyHash": "sha256:2cdc1f033ad2b6b9",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24702,8 +24712,8 @@
           "sourceContentHash": "sha256:dbb211cf0ddd5fb6",
           "sourceBodyHash": "sha256:2cdc1f033ad2b6b9",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24715,8 +24725,8 @@
           "sourceContentHash": "sha256:dbb211cf0ddd5fb6",
           "sourceBodyHash": "sha256:2cdc1f033ad2b6b9",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -24728,8 +24738,8 @@
           "sourceContentHash": "sha256:dbb211cf0ddd5fb6",
           "sourceBodyHash": "sha256:2cdc1f033ad2b6b9",
           "translatedAt": "2026-05-28T05:08:35+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -30689,8 +30699,8 @@
           "sourceContentHash": "sha256:232e75e6f0a55e9d",
           "sourceBodyHash": "sha256:72b70b205da94b86",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -30702,8 +30712,8 @@
           "sourceContentHash": "sha256:232e75e6f0a55e9d",
           "sourceBodyHash": "sha256:72b70b205da94b86",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -30715,8 +30725,8 @@
           "sourceContentHash": "sha256:232e75e6f0a55e9d",
           "sourceBodyHash": "sha256:72b70b205da94b86",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -35161,6 +35171,31 @@
         }
       }
     },
+    "People/瘂弦.md": {
+      "zh": {
+        "lastCommit": "e70936dd",
+        "lastModified": "2026-05-28T18:23:18+08:00",
+        "contentHash": "sha256:07b153459b5b921e",
+        "bodyHash": "sha256:6597d0fd8fb4ea67"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
+        }
+      }
+    },
     "People/陳菊.md": {
       "zh": {
         "lastCommit": "4b6d28c5",
@@ -36766,8 +36801,8 @@
           "sourceContentHash": "sha256:c87fa614c30922e7",
           "sourceBodyHash": "sha256:c0d649ed19f7f301",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -36779,8 +36814,8 @@
           "sourceContentHash": "sha256:c87fa614c30922e7",
           "sourceBodyHash": "sha256:c0d649ed19f7f301",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "5d1476df",
-          "translationLastModified": "2026-05-26T08:11:11+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -36792,8 +36827,8 @@
           "sourceContentHash": "sha256:c87fa614c30922e7",
           "sourceBodyHash": "sha256:c0d649ed19f7f301",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -36805,8 +36840,8 @@
           "sourceContentHash": "sha256:c87fa614c30922e7",
           "sourceBodyHash": "sha256:c0d649ed19f7f301",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -37728,8 +37763,8 @@
           "sourceContentHash": "sha256:09b83ca512f814fd",
           "sourceBodyHash": "sha256:2035945bf29ced7a",
           "translatedAt": "2026-05-28T05:08:33+08:00",
-          "translationLastCommit": "3d8d5e7e",
-          "translationLastModified": "2026-05-24T08:42:27+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -37741,8 +37776,8 @@
           "sourceContentHash": "sha256:09b83ca512f814fd",
           "sourceBodyHash": "sha256:2035945bf29ced7a",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "3d8d5e7e",
-          "translationLastModified": "2026-05-24T08:42:27+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -37754,8 +37789,8 @@
           "sourceContentHash": "sha256:09b83ca512f814fd",
           "sourceBodyHash": "sha256:2035945bf29ced7a",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "3d8d5e7e",
-          "translationLastModified": "2026-05-24T08:42:27+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -37767,8 +37802,8 @@
           "sourceContentHash": "sha256:09b83ca512f814fd",
           "sourceBodyHash": "sha256:2035945bf29ced7a",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "3d8d5e7e",
-          "translationLastModified": "2026-05-24T08:42:27+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -37780,8 +37815,8 @@
           "sourceContentHash": "sha256:09b83ca512f814fd",
           "sourceBodyHash": "sha256:2035945bf29ced7a",
           "translatedAt": "2026-05-28T05:08:35+08:00",
-          "translationLastCommit": "3d8d5e7e",
-          "translationLastModified": "2026-05-24T08:42:27+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -38791,8 +38826,8 @@
           "sourceContentHash": "sha256:638d3a0f5fb85b4f",
           "sourceBodyHash": "sha256:054579b8b6abb208",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -44793,8 +44828,8 @@
           "sourceContentHash": "sha256:355edf5d838e3009",
           "sourceBodyHash": "sha256:84b4858bc19ac1b0",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -44806,8 +44841,8 @@
           "sourceContentHash": "sha256:355edf5d838e3009",
           "sourceBodyHash": "sha256:84b4858bc19ac1b0",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "5d1476df",
-          "translationLastModified": "2026-05-26T08:11:11+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -44819,8 +44854,8 @@
           "sourceContentHash": "sha256:355edf5d838e3009",
           "sourceBodyHash": "sha256:84b4858bc19ac1b0",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -44832,8 +44867,8 @@
           "sourceContentHash": "sha256:355edf5d838e3009",
           "sourceBodyHash": "sha256:84b4858bc19ac1b0",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -45755,8 +45790,8 @@
           "sourceContentHash": "sha256:21d8b7fd3400d252",
           "sourceBodyHash": "sha256:8737f67632ce39fd",
           "translatedAt": "2026-05-28T05:08:33+08:00",
-          "translationLastCommit": "50927d95",
-          "translationLastModified": "2026-05-16T06:13:49+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -45768,8 +45803,8 @@
           "sourceContentHash": "sha256:21d8b7fd3400d252",
           "sourceBodyHash": "sha256:8737f67632ce39fd",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "50927d95",
-          "translationLastModified": "2026-05-16T06:13:49+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -45781,8 +45816,8 @@
           "sourceContentHash": "sha256:21d8b7fd3400d252",
           "sourceBodyHash": "sha256:8737f67632ce39fd",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "50927d95",
-          "translationLastModified": "2026-05-16T06:13:49+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -45794,8 +45829,8 @@
           "sourceContentHash": "sha256:21d8b7fd3400d252",
           "sourceBodyHash": "sha256:8737f67632ce39fd",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "50927d95",
-          "translationLastModified": "2026-05-16T06:13:49+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -45807,8 +45842,8 @@
           "sourceContentHash": "sha256:21d8b7fd3400d252",
           "sourceBodyHash": "sha256:8737f67632ce39fd",
           "translatedAt": "2026-05-28T05:08:35+08:00",
-          "translationLastCommit": "50927d95",
-          "translationLastModified": "2026-05-16T06:13:49+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -46310,8 +46345,8 @@
           "sourceContentHash": "sha256:93c12f10fee5236e",
           "sourceBodyHash": "sha256:5e2fbb5dd024ce00",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -46323,8 +46358,8 @@
           "sourceContentHash": "sha256:93c12f10fee5236e",
           "sourceBodyHash": "sha256:5e2fbb5dd024ce00",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -46336,8 +46371,8 @@
           "sourceContentHash": "sha256:93c12f10fee5236e",
           "sourceBodyHash": "sha256:5e2fbb5dd024ce00",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -46509,8 +46544,8 @@
           "sourceContentHash": "sha256:55ef98c123ecc353",
           "sourceBodyHash": "sha256:a653498f18a92571",
           "translatedAt": "2026-05-28T01:45:15Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -46537,8 +46572,8 @@
           "sourceContentHash": "sha256:55ef98c123ecc353",
           "sourceBodyHash": "sha256:a653498f18a92571",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "5d1476df",
-          "translationLastModified": "2026-05-26T08:11:11+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -46550,8 +46585,8 @@
           "sourceContentHash": "sha256:55ef98c123ecc353",
           "sourceBodyHash": "sha256:a653498f18a92571",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -46563,8 +46598,8 @@
           "sourceContentHash": "sha256:55ef98c123ecc353",
           "sourceBodyHash": "sha256:a653498f18a92571",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "4bc14311",
-          "translationLastModified": "2026-05-26T08:08:43+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -47261,8 +47296,8 @@
           "sourceContentHash": "sha256:374479ea740e2331",
           "sourceBodyHash": "sha256:4c9cc6fafe9a085c",
           "translatedAt": "2026-05-28T01:45:15Z",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -47289,8 +47324,8 @@
           "sourceContentHash": "sha256:374479ea740e2331",
           "sourceBodyHash": "sha256:4c9cc6fafe9a085c",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -47302,8 +47337,8 @@
           "sourceContentHash": "sha256:374479ea740e2331",
           "sourceBodyHash": "sha256:4c9cc6fafe9a085c",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -47315,8 +47350,8 @@
           "sourceContentHash": "sha256:374479ea740e2331",
           "sourceBodyHash": "sha256:4c9cc6fafe9a085c",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "04a9c0df",
-          "translationLastModified": "2026-05-09T14:18:36+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -47863,8 +47898,8 @@
           "sourceContentHash": "sha256:35594d81e2470e05",
           "sourceBodyHash": "sha256:7e75aac6f994b2f2",
           "translatedAt": "2026-05-28T05:08:33+08:00",
-          "translationLastCommit": "d106a126",
-          "translationLastModified": "2026-05-18T09:47:16+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -47876,8 +47911,8 @@
           "sourceContentHash": "sha256:35594d81e2470e05",
           "sourceBodyHash": "sha256:7e75aac6f994b2f2",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "d106a126",
-          "translationLastModified": "2026-05-18T09:47:16+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -47889,8 +47924,8 @@
           "sourceContentHash": "sha256:35594d81e2470e05",
           "sourceBodyHash": "sha256:7e75aac6f994b2f2",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "d106a126",
-          "translationLastModified": "2026-05-18T09:47:16+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -47902,8 +47937,8 @@
           "sourceContentHash": "sha256:35594d81e2470e05",
           "sourceBodyHash": "sha256:7e75aac6f994b2f2",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "d106a126",
-          "translationLastModified": "2026-05-18T09:47:16+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -47915,8 +47950,8 @@
           "sourceContentHash": "sha256:35594d81e2470e05",
           "sourceBodyHash": "sha256:7e75aac6f994b2f2",
           "translatedAt": "2026-05-28T05:08:35+08:00",
-          "translationLastCommit": "d106a126",
-          "translationLastModified": "2026-05-18T09:47:16+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -48013,8 +48048,8 @@
           "sourceContentHash": "sha256:2745e3b13be3485d",
           "sourceBodyHash": "sha256:3c3f9e49a7a59ba1",
           "translatedAt": "2026-05-28T01:45:15Z",
-          "translationLastCommit": "1739eeeb",
-          "translationLastModified": "2026-05-17T06:17:48+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -48039,8 +48074,8 @@
           "sourceContentHash": "sha256:2745e3b13be3485d",
           "sourceBodyHash": "sha256:3c3f9e49a7a59ba1",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "3521fd77",
-          "translationLastModified": "2026-05-17T06:34:49+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -48052,8 +48087,8 @@
           "sourceContentHash": "sha256:2745e3b13be3485d",
           "sourceBodyHash": "sha256:3c3f9e49a7a59ba1",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "3521fd77",
-          "translationLastModified": "2026-05-17T06:34:49+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -48065,8 +48100,8 @@
           "sourceContentHash": "sha256:2745e3b13be3485d",
           "sourceBodyHash": "sha256:3c3f9e49a7a59ba1",
           "translatedAt": "2026-05-28T00:00:00Z",
-          "translationLastCommit": "3521fd77",
-          "translationLastModified": "2026-05-17T06:34:49+08:00",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "stale",
           "reason": "sha-lost-hash-mismatch"
@@ -52526,8 +52561,8 @@
           "sourceContentHash": "sha256:7acd3041efe8d294",
           "sourceBodyHash": "sha256:31c8a86808b671f8",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -52539,8 +52574,8 @@
           "sourceContentHash": "sha256:7acd3041efe8d294",
           "sourceBodyHash": "sha256:31c8a86808b671f8",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -52552,8 +52587,8 @@
           "sourceContentHash": "sha256:7acd3041efe8d294",
           "sourceBodyHash": "sha256:31c8a86808b671f8",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -52565,8 +52600,8 @@
           "sourceContentHash": "sha256:7acd3041efe8d294",
           "sourceBodyHash": "sha256:31c8a86808b671f8",
           "translatedAt": "2026-05-28T05:08:35+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -53638,8 +53673,8 @@
           "sourceContentHash": "sha256:3aee5165c69ac020",
           "sourceBodyHash": "sha256:d0f05c3694c2e800",
           "translatedAt": "2026-05-28T05:08:33+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -53651,8 +53686,8 @@
           "sourceContentHash": "sha256:3aee5165c69ac020",
           "sourceBodyHash": "sha256:d0f05c3694c2e800",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -53664,8 +53699,8 @@
           "sourceContentHash": "sha256:3aee5165c69ac020",
           "sourceBodyHash": "sha256:d0f05c3694c2e800",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "hash-match-sha-lost"
@@ -53677,8 +53712,8 @@
           "sourceContentHash": "sha256:3aee5165c69ac020",
           "sourceBodyHash": "sha256:d0f05c3694c2e800",
           "translatedAt": "2026-05-28T05:08:34+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
@@ -53690,8 +53725,8 @@
           "sourceContentHash": "sha256:3aee5165c69ac020",
           "sourceBodyHash": "sha256:d0f05c3694c2e800",
           "translatedAt": "2026-05-28T05:08:35+08:00",
-          "translationLastCommit": "",
-          "translationLastModified": "",
+          "translationLastCommit": "f0168508",
+          "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
           "status": "fresh",
           "reason": "hash-match-sha-lost"

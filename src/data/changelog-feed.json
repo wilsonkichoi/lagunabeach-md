@@ -1,7 +1,193 @@
 {
-  "generatedAt": "2026-05-27T22:11:31.727Z",
+  "generatedAt": "2026-05-28T15:10:50.781Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "528b19d73b8d8e3671f4019bba91b45f3a0e39fe",
+      "date": "2026-05-28T23:02:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore: #103/#104 周蕙 RESHIPPED — v2 blueprint copy + JXA NSPasteboard UTF-8 multi-paragraph paste SOP discovery (manual session)"
+    },
+    {
+      "hash": "4231287efe41dc838c80106c446f6f0ace9b68f5",
+      "date": "2026-05-28T22:06:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: twmd-maintainer-pm 22:00 — 空場 cycle vc=8（連續第 3 棒）+ LESSONS escalation"
+    },
+    {
+      "hash": "670478c781188537566d5e26879668304c077631",
+      "date": "2026-05-28T20:22:05+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore: #103/#104 周蕙 RETRACTION blueprint — v3.1 STRICT SPORE-WRITING READ GATE 第一次 production validation"
+    },
+    {
+      "hash": "1ac8d6b9c5d3e5431f2425cf25f638e8fbdb1847",
+      "date": "2026-05-28T19:33:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-28-180543-manual v3 — Beat 7 補 Atomization drift 5-condition ship + MEMORY index v3 row"
+    },
+    {
+      "hash": "19a58f6f45ab7067dcfbdbac9dbe9fd9bf57aeac",
+      "date": "2026-05-28T19:32:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: Atomization drift 5-condition ship — paragraph_rhythm plugin + REWRITE Stage 4 / EDITORIAL §段落呼吸 inline (multi-narrative: tooling + pipelines + cognitive)"
+    },
+    {
+      "hash": "50655449f762ff726d7229e46cceee77cb8487d1",
+      "date": "2026-05-28T19:22:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory + diary: 2026-05-28-180543-manual v2 — 周蕙 R2 + Voice drift 6-phase + Atomization audit + finale"
+    },
+    {
+      "hash": "5c65cdd446e296bd46111b806cbb8e1f4f18a3d9",
+      "date": "2026-05-28T19:17:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: Spore voice drift 6-phase ship — plugin Rule #14 v2 HARD + STRICT SPORE-WRITING READ GATE (multi-narrative: factory + cognitive + skills)"
+    },
+    {
+      "hash": "4166e6fd437f74a29fa3a283ea487a53e56bd657",
+      "date": "2026-05-28T18:30:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-28-181800-twmd-rewrite-daily — 瘂弦 NEW ship + #105 SPORE queue scheduled"
+    },
+    {
+      "hash": "805fd7d37337ac0e631f6d52f9599b1063b68dd0",
+      "date": "2026-05-28T18:27:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] spore-queue: #105 瘂弦 SPORE-BLUEPRINT + SPORE-INBOX scheduled — defer ship to next spore-publish-daily"
+    },
+    {
+      "hash": "e70936dd9aa4190b83943cdac7c385f63352d305",
+      "date": "2026-05-28T18:23:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 瘂弦 NEW — 一冊不再，台灣詩史前五；36 歲封筆後在《聯副》21 年用編輯台繼續寫詩"
+    },
+    {
+      "hash": "ef603b0cad0575302a76448cf3da8a54644052de",
+      "date": "2026-05-28T18:08:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-28-180543-manual — 周蕙 EVOLVE Round 2 ship + MEMORY index row"
+    },
+    {
+      "hash": "f328956404d6bad5d2ff89fdcd4a994bfc326aa7",
+      "date": "2026-05-28T18:05:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 周蕙 EVOLVE Round 2 — 3 章新增 (福茂五年/群石華研/Where X 走) + 9 iframe sync 26 年 12 張專輯弧線"
+    },
+    {
+      "hash": "527917798872017004625b755f42c6d1f9eb3c68",
+      "date": "2026-05-28T18:01:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: twmd-spore-publish 175043 — 周蕙 #103/#104 雙平台 ship + Pitfall 6 第一次 production 0 retry"
+    },
+    {
+      "hash": "021e4aa5200c3072bb393eb18aafc01847c91cc5",
+      "date": "2026-05-28T17:52:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-publish: #103/#104 周蕙 → Threads + X 雙平台 — 2026-05-28 17:38"
+    },
+    {
+      "hash": "a61ee2b2301af2e2193349e039dc347247cf2a30",
+      "date": "2026-05-28T15:36:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: Phase 7 fix-up — 9 missed items completion (multi-narrative: cognitive + factory + semiont + skills)"
+    },
+    {
+      "hash": "22dbb9b2f51ca445b294ed5a57a1412cbbb57a1f",
+      "date": "2026-05-28T12:35:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory + evolve: 2026-05-28-122038-manual — CONTRACT v1.0 rollback Phase 6 self-evolve distill"
+    },
+    {
+      "hash": "b3803733f41d340b08f3cd47e1c237de4df5e87c",
+      "date": "2026-05-28T12:20:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 12 routine project skills v3.0 — inline guidance + 🚨 STRICT BECOME GATE front"
+    },
+    {
+      "hash": "8fc4bf658cd7be9c6be47f83ae5c5028da9f7278",
+      "date": "2026-05-28T12:06:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SPORE-HARVEST §Chrome MCP Pitfall 6 — post-ship verify via timestamp diff 防 multi-retry duplicate ship"
+    },
+    {
+      "hash": "8b33814eda3df1ee7bcf074fe12e63d8a2be1b25",
+      "date": "2026-05-28T12:05:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: ROUTINE v2.8 — babel-nightly 05:00 → 00:30 修補 morning chain collision"
+    },
+    {
+      "hash": "7f8e6d0f4034e037d83e824640db74029f220c50",
+      "date": "2026-05-28T12:02:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SPORE-PICK v2 — HG10 multi-dim hard gate + D5 widen (修補 7-dim 退化成 FIFO 最舊 proxy)"
+    },
+    {
+      "hash": "aa9dd7c193ad9a4bf1d45f885a8d62eacd719f0b",
+      "date": "2026-05-28T11:59:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: wire generate-dashboard-immune.py into refresh-data.sh (Step 6)"
+    },
+    {
+      "hash": "88241248207b68f169b98e6fee572fa3f4245f54",
+      "date": "2026-05-28T10:02:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-28-050855-twmd-babel-nightly — 4hr 49min cascade 172 translations / Tier 4 Ollama 第一次 production 接住 3/3 雲端 sovereignty refusal / baseline 147→50 stale -66%"
+    },
+    {
+      "hash": "f0168508e37281e17c4f99e2657e8faf8db76111",
+      "date": "2026-05-28T09:57:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 172 translations (126 cascade + 46 patch) — 2026-05-28"
+    },
+    {
+      "hash": "9193f35b28a4bbcc3ab5629f2f2072c39765028b",
+      "date": "2026-05-28T08:43:33+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: twmd-maintainer-am @ 2026-05-28 08:30 — 空場 cycle vc=7（晨間連續第二棒）"
+    },
+    {
+      "hash": "06a169d3e575cd03711c1076819b4fc88efd8375",
+      "date": "2026-05-28T08:12:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-28-081115-twmd-spore-pick-daily — 第六轉 + ACK Read protocol + 3 candidates (艋舺/台灣BIM/台灣媒體總史)"
+    },
+    {
+      "hash": "c07661f65bef3262d10945dded28ebba7f2a57db",
+      "date": "2026-05-28T08:10:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-pick-daily: 3 candidates — 2026-05-28"
+    },
+    {
+      "hash": "c3f0f3e7c561ac90bfb978d98663d72fe8f7da70",
+      "date": "2026-05-28T06:53:37+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-28-063000-twmd-spore-harvest-am — 15 OVERDUE sweep + 大宇雙劍 #92 D+2 Bucket A 自閉合 + Chrome MCP duplicate Pitfall 6 候選"
+    },
+    {
+      "hash": "13b17b7cd2322d3d4df211ea3e74358b8cfc3c83",
+      "date": "2026-05-28T06:51:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 15 spores + 1 reply harvested — 2026-05-28"
+    },
+    {
+      "hash": "6925637f7e59183b96ec1ad2990884ad236bde08",
+      "date": "2026-05-28T06:42:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 大宇雙劍 — 趙靈兒/林月如 死亡場景 勘誤 per @appendhuang + @crazymarty (83 likes) D+2 callout"
+    },
+    {
+      "hash": "0603705d5e7573777ae3c78bef862e2c93d8e30f",
+      "date": "2026-05-28T06:15:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-28-061324-twmd-data-refresh-am — 13-step PASS + Step 10 第 2 次連續 catch dashboard-immune.json + escalation 2x → spawn chip"
+    },
+    {
+      "hash": "6508f01b4989acd6d8a031802051887fa7cd39c8",
+      "date": "2026-05-28T06:12:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: dashboard sync — 2026-05-28 06:00"
+    },
     {
       "hash": "e9f4b7abd318ab31104ebc716389f3284bd15475",
       "date": "2026-05-28T00:23:04+08:00",

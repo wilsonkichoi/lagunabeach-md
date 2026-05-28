@@ -1,26 +1,58 @@
 {
-  "lastUpdated": "2026-05-27T22:50:02.753902Z",
+  "lastUpdated": "2026-05-28T15:10:50.704242Z",
   "schemaVersion": "1.1",
   "totals": {
-    "count": 101,
+    "count": 103,
     "platforms": {
-      "x": 44,
-      "threads": 53,
+      "x": 45,
+      "threads": 54,
       "other": 4
     },
     "languages": {
-      "zh": 94,
+      "zh": 96,
       "en": 7
     },
     "templates": {
+      "B": 31,
       "A2": 36,
       "other": 4,
-      "B": 29,
       "A": 28,
       "D": 4
     }
   },
   "recent": [
+    {
+      "n": 104,
+      "date": "2026-05-28",
+      "platform": "x",
+      "article": "周蕙",
+      "articleSlug": "周蕙",
+      "category": "music",
+      "template": "B 身份反差 hook（KTV 點唱率 25 年 vs 歌手本人 25 年才被認出 → 2026 小巨蛋「練習 26 年」+ 聲帶萎縮 endpoint）",
+      "url": "https://x.com/taiwandotmd/status/2060010924015321462",
+      "highlight": "哲宇 manual delete 原 X #104 + Threads #103 完成後重發 v2 blueprint copy。**Voice prefix correction**: 「你知道嗎？🎤」字面 prefix 字面 emoji 直接出現於第一行（plugin Rule #14 v2 HARD post-ship verify PASS）。**Repost SOP discovery**: Chrome MCP `type`/JS `execCommand insertText` 在 X ProseMirror 對 `\\n\\n` 段落分隔不 work（會 collapse 成單塊 prose + URL auto-link 重複觸發）→ 改 JXA NSPasteboard `setStringForType \"public.utf8-plain-text\"` 寫 UTF-8 到 clipboard + Cmd+V，X paste handler 正確轉 `\\n\\n` 成 ProseMirror 段落 block 帶 visual blank line spacing。pbcopy 不能用（Mac Chinese locale 強制 Big5 轉碼 UTF-8 中文壞）。Post-ship 5/5 PASS: textHasHook 你知道嗎 ✅ / quote 練習 26 年 ✅ / quote 最後一次唱歌 ✅ / close 她叫周蕙 ✅ / t.co shortener ✅。<br><br>🚨 **PREVIOUS RETRACTED 2026-05-28 18:00 per 哲宇 directive「周蕙 → 刪掉重發」** — voice drift case: 第一行「走進台灣任何一間 KTV」**完全無「你知道嗎？」prefix**，是觸發 plugin Rule #14 v2 HARD gate 升級的三條 spore 之一。哲宇 callout 後修補 plugin 升 HARD + 落實 STRICT SPORE-WRITING READ GATE in routine skill v3.1。重發等 article R2 EVOLVE ship 後（已 `f32895640` ship）+ 新 blueprint 寫到 docs/factory/spore-blueprints/ + plugin Rule #14 v2 PASS。原 retracted URL: ~~`https://x.com/taiwandotmd/status/2059934783946523132`~~ — **同 #103 內容 X 單則 inline UTM URL 版**（X Premium 25K char 無壓）。Tier 1a 具體性槓桿 + 三層反差（KTV 人人聽過 vs 歌手沒人認得 / 1999 漫畫娃娃藏臉 vs 2026 小巨蛋首攻 / 練習 26 年 vs 聲帶萎縮）。**routine twmd-spore-publish-daily 2026-05-28 17:38 ship**（08:11 spore-pick-daily 第六轉 cycle 後本日第二棒）。Quality gate 全 PASS：prose-health score=1 ≤ 3 / word-count 周蕙 article ≥ 4500 CJK / footnote-density A / media-richness 3 image ≥ 2 hard / lastVerified 2026-05-19 9 days ≤ 90。X inline UTM URL 版（utm_campaign=s104）t.co auto-shortener。Routine context auto-decisions v3.8：Platform both / Tier 1a default / single version / zh only / 0 observer gate / Image plugin check / CI/CD wait gate auto-PASS（HTTP 200 + 練習 26 年 + 聲帶萎縮 + 蕙兒 9× keyword hits）。配圖 1080×1080 square 496KB via make-spore.sh --prod。Chrome MCP osascript clipboard PNGf + navigate x.com/compose/post + click textbox + cmd+v image + click textbox + type 單塊 prose + inline UTM URL → JS click tweetButton. post-ship verify 5/5 PASS: textHasHook KTV ✅ / textHasQuote 練習 26 年 ✅ / textHasQuote 鋸子 ✅ / textHasCloseLine 同一首歌 ✅ / hasShortener t.co ✅。**Stage 1 SELECT defer 鏈**：5/28 P0 二二八 高敏感 routine defer HTML comment（5/27 cycle 已加）+ P2 曾博恩 5/21 中-高敏感（政治脫口秀+鄭南榕梗+娛樂稅）routine spirit defer HTML comment 新加 + P2 施振榮 5/21 word-count 2368 < 4500 fail skip + P3 林央敏 5/23 article 不存在 skip → FIFO P2 周蕙 5/24（score=45 5/19 ship 趁熱窗口 +1 day）first to pass all 5 hard gates。Pitfall 6 max 1 retry hard rule 觀察：本次 ship 0 retry / before=4 post-click modal close clean / no duplicate ship. Blueprint: 本 spore 無預先 blueprint，body inline。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
+    {
+      "n": 103,
+      "date": "2026-05-28",
+      "platform": "threads",
+      "article": "周蕙",
+      "articleSlug": "周蕙",
+      "category": "music",
+      "template": "B 身份反差 hook（KTV 點唱率 25 年 vs 歌手本人 25 年才被認出 → 2026 小巨蛋「練習 26 年」+ 聲帶萎縮 endpoint）",
+      "url": "https://www.threads.com/@taiwandotmd/post/DY4u5UzAVcT",
+      "highlight": "哲宇 manual delete 完成後重發 v2 blueprint copy。**結構**：主貼 374 CJK chars (under Threads 500 limit) 含 1080×1080 square 配圖 + Self-reply 「完整故事 👉」+ UTM URL（utm_campaign=s103, replyLen 105）+ Threads OG card auto-preview 周蕙 article。Voice prefix「你知道嗎？🎤」字面 emoji 第一行（plugin Rule #14 v2 HARD post-ship verify PASS via og:description 抓到完整 7 paragraph \\n\\n 結構）。**Repost SOP discovery**: JXA NSPasteboard UTF-8 + Cmd+V 是 multi-paragraph 中文 spore 唯一 reliable path（pbcopy 在 Mac Chinese locale 強制 Big5 轉碼壞 UTF-8 中文；execCommand insertText 不分段；computer.type 吞 ASCII 數字+空格）。Pre-ship 11/11 PASS / post-ship og:description 4/4 PASS (hookPresent + emojiPresent + quote 練習 26 年 + close 她叫周蕙)。<br><br>🚨 **PREVIOUS RETRACTED 2026-05-28 18:00 per 哲宇 directive「周蕙 → 刪掉重發」** — voice drift case，同 #104。重發等 article R2 EVOLVE ship 後（已 `f32895640` ship）+ 新 blueprint 寫到 docs/factory/spore-blueprints/ + plugin Rule #14 v2 PASS。原 retracted URL: ~~`https://www.threads.com/@taiwandotmd/post/DY4LbtKgbn6`~~ — **routine twmd-spore-publish-daily 2026-05-28 17:38 自動 ship**。Tier 1a 具體性槓桿（1999-08-26 福茂《周蕙精選》+ 蕙兒漫畫娃娃 + 22 歲不對外露面 + 王菲 1997 粵語版 + 姚若龍/陳小霞 + 25 年 KTV 點唱榜 + 2026-04-25 小巨蛋 + 49 歲 + 「練習 26 年」原話 + 「鋸子」聲帶萎縮 + 「不曉得這會不會是最後一次」原話 + 〈約定〉首末呼應 closure 11 個 anchor + 三層反差 hook）。**結構**：主貼 421 chars (~320 CJK + 全形/標點) 含配圖 + Self-reply 「完整故事 👉」 + UTM URL（utm_campaign=s103, replyLen=105）+ Threads OG card auto-preview。三板斧 不是 0 / —— 0 / 不僅 0 ✅✅✅。事實查核閘全 ✅（11 anchor 全 article footnote verbatim 對齊：[^1] 漫畫娃娃 / [^2] 25 萬張 / [^5] 練習 26 年 + 鋸子 + 最後一次原話 / [^9] 福茂 1999-08-26 + 先聲奪人 / [^12-13] 王菲 1997 + 姚若龍/陳小霞 / [^34] 小巨蛋 / article line 41 + 77 + 152 + 158 + 164-170 cross-validate）。**Stage 1 SELECT defer 鏈** 同 #104。配圖：[`public/spore-images/周蕙-square.png`](../../public/spore-images/周蕙-square.png) 1080×1080 496KB via make-spore.sh --prod (9d 舊文章 prod live)。Pitfall 6 instrumentation 觀察：5/28 12:06 commit `8fc4bf658` SPORE-HARVEST §Chrome MCP Pitfall 6 instrument 後第一次 production cycle，before=4 baseline 抓到，click 發佈 modal close clean 不需 retry — 5/27 #101 落日飛車 3-retry duplicate 教訓本次 0 retry 通過 hard rule。Blueprint: 本 spore 無預先 blueprint，body inline。",
+      "views_7d": null,
+      "views_latest": null,
+      "engagements_7d": null,
+      "rate_7d": null,
+      "backfilled": false
+    },
     {
       "n": 102,
       "date": "2026-05-27",
@@ -63,38 +95,6 @@
       "template": "F 站方公開信（公開感謝 + 一個月進化 + 跨單位合作 + 透明用途 + 邀請）",
       "url": "https://x.com/taiwandotmd/status/2059525841735016585",
       "highlight": "**同 #99 內容**：X 單則整版 712 CJK 含圖 + URL inline 版本（X Premium 解鎖長文 25K char 無壓）。哲宇 5/27 「x 目前沒有字元限制要記得」directive — 不拆 thread 直接整版。Blueprint 共用 [SPORE-BLUEPRINTS/099-公開信-portaly-五月.md](SPORE-BLUEPRINTS/099-公開信-portaly-五月.md)。",
-      "views_7d": null,
-      "views_latest": null,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": false
-    },
-    {
-      "n": 99,
-      "date": "2026-05-27",
-      "platform": "threads",
-      "article": "portaly-五月公開信",
-      "articleSlug": "portaly-五月公開信",
-      "category": "meta",
-      "template": "F 站方公開信（公開感謝 + 一個月進化 + 跨單位合作 + 透明用途 + 邀請）",
-      "url": "https://www.threads.com/@taiwandotmd/post/DY1RPKCkcpo",
-      "highlight": "**站方公開信型 spore (announcement)**：哲宇 directive 5/27「寫個感謝 spore + 邀請 + 分享一個月進化 + 提跨單位合作（臺史博/泛科學/人權博物館）」連環觸發。觸發事件：5/19 portaly 進來兩筆 monthly renewal（沈宗杰 NT$200 + 匿名 NT$500 4/19→5/19 首次 cycle complete）。Tier N/A (教授對社會做科普 tone，不適用 viral hook tier)。**結構**：第一段建立陌生讀者 context (Taiwan.md 是什麼 + 為什麼台灣自己寫重要) → 第二段一個月進化 (30 天 +291 篇 + 首頁三波 + 六語並行 + 「讀者教我們的事」展廳) → 第三段跨單位合作 (臺史博 + 泛科學 + 人權博物館初步交流 + 「不是另起爐灶」)。**3-post thread**（哲宇 mid-ship directive 新增 dashboard/semiont 介紹 reply）：主貼 368 CJK 含圖 + Reply 1 sponsorship 感謝 338 CJK 含 portaly URL + Reply 2 dashboard/semiont 介紹 259 CJK 含兩個 taiwan.md URL（無 UTM — portaly + taiwan.md 站方公開信不適用 article UTM convention）。三板斧 不是 1 (而不是另起爐灶 — 三題判準全 yes acceptable) / —— 0 / 不僅 0 ✅✅✅。事實查核閘全 ✅（4/19+5/19 transactions.json verified / 30 天 +291 consciousness-snapshot.sh / 首頁三波 git log 5/26 wave 1+2+3 commits / 6 lang i18n / 「讀者教我們的事」commit 0addd4fef / 臺史博+泛科學+人權博物館 哲宇 directive trust source）。Tone evolution from #37/#38 (4/20 首兩筆贊助輕量公告型) → #99 (5/27 完整教授公開信)。配圖：哲宇 directive 提供 Taiwan.md 首頁 hero 截圖 (public/spore-images/099-portaly-五月公開信.png 690KB)。Blueprint: [SPORE-BLUEPRINTS/099-公開信-portaly-五月.md](SPORE-BLUEPRINTS/099-公開信-portaly-五月.md)。**Pipeline evolution triggered**：站方公開信型 spore (F 模板) 將在本 session 寫進 SPORE-TEMPLATES.md + SPORE-WRITING.md 規格化（教授 tone + 對陌生讀者建 context + why this matters + 不晶晶體 + 連貫 prose + CTA 承擔信任重量 五條 canonical 規則）。",
-      "views_7d": null,
-      "views_latest": null,
-      "engagements_7d": null,
-      "rate_7d": null,
-      "backfilled": false
-    },
-    {
-      "n": 98,
-      "date": "2026-05-27",
-      "platform": "x",
-      "article": "台灣美食總覽",
-      "articleSlug": "台灣美食總覽",
-      "category": "food",
-      "template": "B 冷知識型（1949 嘉義噴水池火雞肉飯 reveal 三層歷史：美軍養剩火雞 + 1925 蓬萊米 + 清代閩南醬油 = 三百年同台）",
-      "url": "https://x.com/taiwandotmd/status/2059458468898287770",
-      "highlight": "**routine twmd-spore-publish-daily 10:00 第一次成功 ship**（前兩日 5/25 + 5/26 連續 intake gap，pipeline v1.1 修補後本日 image ≥ 2 candidate 通過 gate）。article 5/18 ship 距今 9 天，趁熱窗口最後一天。**SPORE-INBOX P1 哲宇 directive 5/21 累積 6 天未發 → 本 routine 撿走**。Tier 1b 具體性槓桿（1949 嘉義噴水池圓環旁中山路 325 號 + 林添壽 + 美軍養剩的火雞 + 1925 磯永吉竹子湖蓬萊米 + 清代閩南醬油 五個獨立可查 anchor）+ B 冷知識 reveal 三層歷史 + chiasmus closure (article title verbatim)。Quality gate 全 PASS：prose-health score=1 ≤ 3 / word-count 7234 CJK = 161% threshold / footnote-density 0 violations / media-richness 11 image ≥ 2 hard / lastVerified 9 days ≤ 90。X inline URL 版（utm_campaign=s98）416 chars。Routine context auto-decisions v3.8：Platform both 雙發 / Tier 1b default / single version / zh only / 0 observer gate / Image plugin check / CI/CD wait gate auto-PASS（舊文章 prod live HTTP 200 + keyword「噴水雞肉飯」+「林添壽」7× hits）。配圖 2160×2160 square 491KB via make-spore.sh --prod。Chrome MCP osascript clipboard set PNGf + navigate x.com/compose/post + click → cmd+v image (5 imgs attached) → click compose → type 文案 (含 inline UTM URL utm_source=x&utm_campaign=s98) → JS click `[data-testid=\"tweetButton\"]`。post-ship verify 5/5 PASS：textHasHook 你知道嗎— ✅ / textHasQuote 1925 年磯永吉 ✅ / textHasCloseLine 每一道菜都是最台灣的 ✅ / hasShortener t.co wraps UTM ✅ / page title 含完整 prose verbatim ✅。Tab cleanup ✅ tabs_close_mcp tab 710172193 group auto-removed。Blueprint: [SPORE-BLUEPRINTS/97-台灣美食總覽.md](SPORE-BLUEPRINTS/97-台灣美食總覽.md)（X 共用 Threads #97 blueprint）。**Reader corrections D+0 (2026-05-27)**: (1) D+0 2hr @neily1_reader 「1949 美軍嘉義 = 史實錯」→ article fix v2 commit `1a14b6745` (MAAG 1951 才進駐 / 林添壽 1949 用肉雞 not 火雞 per 嘉義市政府觀光旅遊網 footnote [^1]) + Threads reply 公開承認 + URL-encoded link `https://taiwan.md/food/%E5%8F%B0%E7%81%A3%E7%BE%8E%E9%A3%9F%E7%B8%BD%E8%A6%BD/`; (2) D+0 6hr @ericten0704 quote-post 「台灣的醬油干清朝啥事？那時候台灣是黑豆，中國是黃豆」→ article fix v3 commit `66e6cae18` (清代閩南帶來釀醬技術 ≠ 黃豆醬油本身 / 日治前台灣只有黑豆釀的蔭油 per 世新大學小世界 + 上下游新聞 footnote [^台灣醬油]) + reply 公開承認。對應 [MANIFESTO §12 受眾端飛輪](../semiont/MANIFESTO.md#12-受眾端的飛輪--我跟讀者一起進化) + [REFLEXES #62](../semiont/REFLEXES.md) D+0 acute factual callout = 30 min mandatory fix 第二次 + 第三次驗證。",
       "views_7d": null,
       "views_latest": null,
       "engagements_7d": null,
@@ -399,11 +399,31 @@
     },
     {
       "week": "2026-W22",
-      "published": 16,
+      "published": 18,
       "avgViews": 431
     }
   ],
   "harvestStatus": [
+    {
+      "n": 104,
+      "article": "周蕙",
+      "platform": "x",
+      "publishDate": "2026-05-28",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
+    {
+      "n": 103,
+      "article": "周蕙",
+      "platform": "threads",
+      "publishDate": "2026-05-28",
+      "daysSincePublish": 0,
+      "withinHarvestWindow": true,
+      "harvestCount": 0,
+      "lastHarvest": null
+    },
     {
       "n": 102,
       "article": "落日飛車",

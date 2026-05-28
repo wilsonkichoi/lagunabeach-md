@@ -24,6 +24,17 @@
     "path": "es/Society/taiwan-zoos.md"
   },
   {
+    "title": "¿Qué son las elecciones \"nueve en uno\"? Nueve cargos, cuatro elevaciones de estatus y treinta años de evolución del autogobierno local",
+    "description": "El término \"nueve en uno\" se utilizó por primera vez de forma generalizada en 2014. Detrás de él hay cuatro reorganizaciones geográficas urbanas — la elevación de estatus de Taipéi y Kaohsiung en 1967, la de Kaohsiung en 1979, la de las Cinco Metrópolis en 2010 y la de Taoyuan en 2014 — junto con tres nodos institucionales: la primera elección popular de alcaldes de municipios especiales en 1994, la integración de la Ley de Gobierno Local en 1999 y la creación del cargo de jefe de distrito de zona montañosa indígena en 2014. Los nueve cargos votados el mismo día — alcalde de municipio especial / concejal de municipio especial / magistrado de condado o ciudad / concejal de condado o ciudad / jefe de municipio / representante de municipio / jefe de distrito de zona montañosa indígena / representante de distrito de zona montañosa indígena / jefe de aldea o barrio — son el cristal acumulado de treinta años de evolución del autogobierno local en Taiwán.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Politics/nine-in-one-elections-explained",
+    "readingTime": 97,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "es/Politics/nine-in-one-elections-explained.md"
+  },
+  {
     "title": "¿Quién está de guardia cuando llega el terremoto? El código institucional del sistema de medicina de desastres de Taiwán",
     "description": "Desde el terremoto de 921 hasta el fuerte sismo de Hualien, ¿cómo construyó Taiwán una red de medicina de desastres centrada en los servicios de urgencias? La genialidad del diseño institucional no radica en el equipamiento, sino en la ingeniosidad de «quién está de guardia».",
     "category": "es",
@@ -498,7 +509,7 @@
       "이이팔"
     ],
     "url": "https://taiwan.md/ko/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory",
-    "readingTime": 43,
+    "readingTime": 44,
     "featured": true,
     "date": "2026-03-31",
     "path": "ko/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory.md"
@@ -553,6 +564,17 @@
     "path": "Society/2026鄭習會與國共十年再會.md"
   },
   {
+    "title": "2026 Nine-in-One Elections: Stress Testing Democratic Infrastructure in the Age of AI Cognitive Warfare",
+    "description": "On November 28, 2026, all 22 cities and counties across Taiwan will simultaneously open polling stations to elect nine categories of office, filling over 11,000 elected executive and representative positions. This election is unlike any before — the difference is not the candidates, but the environment in which it takes place: the CCP's escalation of state-level AI cognitive warfare, 123+ spoofed news websites, and prosecutors listing AI disinformation as one of four key election investigation priorities. This is not an election information roundup — it is a historical positioning and structural pressure analysis of this election.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Politics/2026-local-elections-taiwan",
+    "readingTime": 141,
+    "featured": true,
+    "date": "2026-05-27",
+    "path": "en/Politics/2026-local-elections-taiwan.md"
+  },
+  {
     "title": "2026 정시회담: 국공 지도자 10년 만의 재회, 단 10분",
     "description": "2026년 4월 10일, 정리원이 베이징에서 시진핑을 만났다. 10년 만에 중화민국 주요 정당 지도자가 중공 총서기를 만난 역사적 회담이었다. 회담은 10분, 그 시각 대만해협에는 중국 인민해방군 함선 100척이 배치되어 있었다. 이 \"평화 방문\"은 과연 무엇을 위한 것이었나?",
     "category": "ko",
@@ -570,6 +592,28 @@
     "featured": true,
     "date": "2026-04-11",
     "path": "ko/Society/2026-cheng-xi-meeting-kmt-ccp-decade-reunion.md"
+  },
+  {
+    "title": "2026 지방선거: AI 인지전 시대의 민주주의 인프라 스트레스 테스트",
+    "description": "2026년 11월 28일, 전국 22개 시·도에서 동시에 투표소를 열어 9개 직종, 1만 1천 명 이상의 선출직 단체장과 의원을 선출한다. 이번 선거는 그 어떤 선거와도 다르다 — 차이는 후보자가 아니라 선거가 벌어지는 환경에 있다: 중국 국가급 AI 인지전 격상, 123개 이상의 가짜 뉴스 사이트, 검찰이 AI 허위정보를 선거 수사 4대 중점에 포함시킨 상황. 이 글은 선거 정보 정리가 아니라, 이번 선거의 역사적 위치와 구조적 압력 분석이다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Politics/2026-local-elections-taiwan",
+    "readingTime": 63,
+    "featured": true,
+    "date": "2026-05-27",
+    "path": "ko/Politics/2026-local-elections-taiwan.md"
+  },
+  {
+    "title": "2026年統一地方選挙：AI認知戦時代の民主主義インフラストラクチャーに対するストレステスト",
+    "description": "2026年11月28日、台湾全22県市で同日に投票所が開かれ、9種類の職種、1万1000人以上の民選首長と民意代表が選出されます。この選挙は過去のいずれの選挙とも異なります。違いは候補者にあるのではなく、選挙が行われる環境にあります。中国共産党国家レベルのAI認知戦の激化、123以上の偽装ニュースサイト、検察によるAI偽情報の捜査重点4項目への格上げ。本記事は選挙情報の整理ではなく、この選挙の歴史的位置づけと構造的圧力の分析です。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Politics/2026-local-elections-taiwan",
+    "readingTime": 56,
+    "featured": true,
+    "date": "2026-05-27",
+    "path": "ja/Politics/2026-local-elections-taiwan.md"
   },
   {
     "title": "44 South Village: A Military Dependents' Village for an Arsenal, Now a Cultural and Creative Park Beside Taipei 101",
@@ -650,6 +694,17 @@
     "featured": false,
     "date": "2026-03-27",
     "path": "ja/Culture/jiutian-xuannu-belief.md"
+  },
+  {
+    "title": "九合一選挙とは何か？九つの職位、四回の昇格、三十年の地方自治の進化史",
+    "description": "「九合一」という言葉が広く使われるようになったのは2014年が初めてです。その背景には、1967年の台北・高雄昇格、1979年の高雄昇格、2010年の五都昇格、2014年の桃園昇格という四回の都市地理の再編と、1994年の直轄市長初の民選、1999年の《地方制度法》による統合、2014年の直轄市山地原住民區長新設という三つの制度的転換点があります。同日に九つの職位 — 直轄市長 / 直轄市議員 / 縣市長 / 縣市議員 / 鄉鎮市長 / 鄉鎮市民代表 / 山地原住民區長 / 山地原住民區民代表 / 村里長 — を投票するという形態は、台湾の三十年にわたる地方自治の進化の結晶です。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Politics/nine-in-one-elections-explained",
+    "readingTime": 33,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ja/Politics/nine-in-one-elections-explained.md"
   },
   {
     "title": "九合一選舉是什麼？九種職位、四次升格、三十年的地方自治演化史",
@@ -984,17 +1039,6 @@
     "path": "Economy/台灣企業：大立光電.md"
   },
   {
-    "title": "大宇双剣：あの午後、DOSウィンドウで泣いたあなた",
-    "description": "1995年7月、解像度320×200のDOSゲームが数百万人のプレイヤーに、初めて仮想キャラクターのために涙を流させました。『仙剣奇侠伝』と『軒轅剣』、台北・内湖で鍛えられた二振りの剣は、中国語圏全体の「RPGとは何か」という想像を定義しました。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Technology/softstar-twin-classics",
-    "readingTime": 4,
-    "featured": false,
-    "date": "2026-04-23",
-    "path": "ja/Technology/softstar-twin-classics.md"
-  },
-  {
     "title": "大宇雙劍：那個下午你在 DOS 視窗裡哭了",
     "description": "1995 年 7 月，一款 320×200 解析度的 DOS 遊戲讓幾百萬玩家第一次因為虛擬角色掉眼淚。仙劍奇俠傳和軒轅劍，兩把從台北內湖鍛出來的劍，定義了整個中文世界對「RPG 可以是什麼」的想像。",
     "category": "Technology",
@@ -1004,6 +1048,17 @@
     "featured": false,
     "date": "2026-05-26",
     "path": "Technology/大宇雙劍.md"
+  },
+  {
+    "title": "大宇ダブルソード：あの午後、あなたは DOS のウィンドウで泣いた",
+    "description": "1995年7月、320×200解像度の DOS ゲームが、何百万人ものプレイヤーに初めてバーチャルキャラクターのために涙を流させた。仙剣奇侠伝と軒轅剣、台北・内湖から鍛えられた二振りの剣は、中文世界における「RPGとは何であり得るか」という想像を定義した。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Technology/softstar-twin-classics",
+    "readingTime": 54,
+    "featured": false,
+    "date": "2026-04-23",
+    "path": "ja/Technology/softstar-twin-classics.md"
   },
   {
     "title": "大稲埕：800メートルに三つの世紀、Formosa Teaから二二八の第一発まで",
@@ -1186,6 +1241,23 @@
     "path": "ja/History/chiang-kai-shek-memorial-hall.md"
   },
   {
+    "title": "中選会制度：行政・立法による二重抑制の反直感的設計",
+    "description": "中央選挙委員会は行政院長の指名と立法院の同意によって構成され、与党が少数の場合は指名が可決されにくくなる。二つの政治部門が相互に牽制し合うこの設計は、台湾の選挙公正性を支える最後の構造的なセーフティネットであり、欠陥ではありません。",
+    "category": "ja",
+    "tags": [
+      "中選会",
+      "中央選挙委員会",
+      "選挙制度",
+      "独立機関",
+      "2026年選挙"
+    ],
+    "url": "https://taiwan.md/ja/Politics/central-election-commission",
+    "readingTime": 34,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ja/Politics/central-election-commission.md"
+  },
+  {
     "title": "中選會制度：行政立法雙重節制的反直覺設計",
     "description": "中央選舉委員會由行政院長提名、立法院同意，朝小野大時提名可能難以通過。這個讓兩個政治部門互相牽制的設計，是台灣選舉公正性的最後一道結構性保險，而不是 bug。",
     "category": "Politics",
@@ -1237,6 +1309,17 @@
     "path": "Economy/台灣企業：中鋼.md"
   },
   {
+    "title": "尹衍樑: 그가 세운 과학상, 노벨상보다 비싸다",
+    "description": "2026년 5월 26일 새벽 4시 21분, 룬타이그룹 회장 윤연량(尹衍樑)이 타이베이 중민총병원에서 영면했다. 향년 76세. 진덕중학교 시절 왕진평이 싸움의 상처를 치료해 주던 폭력 소년에서, 1989년 먼지가 발목을 덮북경대학에 발을 들여 광화경영대학원을 설립한 뒤, 2012년 30억 신만위안 신탁기금을 출연하여 탕상(唐獎)을 창립하기까지. 각 부문 상금 5,000만 신만위안으로 노벨상을 능가한다. 막 떠난 대만 사업가가 세계에 남긴 것은 노벨상보다 비싼 상(賞)이었다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/People/samuel-yin-yan-liang",
+    "readingTime": 67,
+    "featured": true,
+    "date": "2026-05-26",
+    "path": "ko/People/samuel-yin-yan-liang.md"
+  },
+  {
     "title": "尹衍樑：他蓋的科學獎，比諾貝爾還貴",
     "description": "2026 年 5 月 26 日清晨四點二十一分，潤泰集團總裁尹衍樑於台北榮民總醫院辭世，享壽 76 歲。從進德中學被王金平包紮傷口的鬥毆少年，到 1989 年踏進灰塵蓋過腳踝的北大、出資創辦光華管理學院，到 2012 年捐 30 億新台幣信託基金成立唐獎。獎金每項 5,000 萬新台幣，超過諾貝爾。一個剛走的台灣商人，留給世界一座比諾貝爾還貴的獎。",
     "category": "People",
@@ -1246,6 +1329,17 @@
     "featured": true,
     "date": "2026-05-26",
     "path": "People/尹衍樑.md"
+  },
+  {
+    "title": "尹衍樑：彼が創った科学賞は、ノーベルより高額だった",
+    "description": "2026年5月26日午前4時21分、潤泰グループ総裁の尹衍樑（イン・エンリャン）が台北栄民総医院で逝去、享年76歳。進徳中学で王金平に傷口を包帯で巻いてもらった喧嘩っ早い少年から、1989年に足首まで砂埃に覆われた北京大学を訪れ、光華管理学院の創設に出資した人物へ、そして2012年に30億台湾ドル（約138億円）の信託基金を寄付して唐獎を設立した人物へ。各分野の賞金は5,000万台湾ドル（約2.3億円）で、ノーベル賞を上回る。この世を去ったばかりの台湾の実業家が、世界に残したのはノーベルより高額な賞だった。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/People/samuel-yin-yan-liang",
+    "readingTime": 3,
+    "featured": true,
+    "date": "2026-05-26",
+    "path": "ja/People/samuel-yin-yan-liang.md"
   },
   {
     "title": "五月天",
@@ -1318,6 +1412,17 @@
     "featured": false,
     "date": "2026-05-27",
     "path": "Society/公視.md"
+  },
+  {
+    "title": "公共テレビ：9億の緊箍呪から議場追放まで、28年の独立性研究はまだ書き終わっていない",
+    "description": "1998年、公共テレビ（PTS）の開局時に制定された《公視法》は、政府の交付予算を毎年減額し、最終的に年間9億台湾元で凍結する条文を盛り込んだ。この条文は23年間にわたって縛り続けた。その間、PTSは《我們與悪的距離》《茶金》《通霊少女》《麻醉風暴》《一把青》という社会を揺るがす5本の旗艦級台湾ドラマを生み出した。2023年5月、法改正により緊箍呪は解かれ、予算は2倍の23億台湾元に増額された。しかし19カ月後、予算は1%削減・25%凍結され、さらに1年後の2026年5月、董事長（会長）胡元輝が立法院議場から退席を求められた。28年間でPTSが証明したことは、緊箍呪が解かれたからといって独立性能が確立されるわけではないということである。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Society/pts-public-television-service",
+    "readingTime": 63,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ja/Society/pts-public-television-service.md"
   },
   {
     "title": "公館：日本帝国の研究室、戒厳期の地下サロン、台湾大学生のフライドチキンカツ、500メートルに重なる三つの世紀",
@@ -1406,6 +1511,25 @@
     "featured": false,
     "date": "2026-05-27",
     "path": "Culture/天燈.md"
+  },
+  {
+    "title": "天燈：1820年の安否を知らせる信号、2019年の326キロの山林ゴミ、同じ平溪の人々が二つの身分を背負う",
+    "description": "1820年代、胡氏一族が十分寮で最初の安否を知らせる天燈を放った。200年後の2019年の元宵節、アメリカ人のボランティアが2時間で平溪鉄道周辺で326キロの天燈残骸を回収した。一方で稼ぎ、一方で被害を受け、一方で清掃する — 天燈協会の理事長は胡氏、家を焼かれた被害者も胡氏、老街の屋台を営む88歳の蔡ママと基隆河守護連盟の陳建志は同じ川の水を飲んでいる。2025年に自治条例が三読可決され、平溪の人々は祭りの転換への第四つの道を模索している。",
+    "category": "ja",
+    "tags": [
+      "天燈",
+      "平溪",
+      "十分",
+      "元宵節",
+      "永續觀光",
+      "無形文化資產",
+      "節慶轉型"
+    ],
+    "url": "https://taiwan.md/ja/Culture/sky-lanterns-pingxi",
+    "readingTime": 53,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ja/Culture/sky-lanterns-pingxi.md"
   },
   {
     "title": "太陽花学運——あの三十秒から十二年後",
@@ -1834,10 +1958,10 @@
   },
   {
     "title": "王永慶：米店から六軽への二十年の奮戦、そして死後の遺産争奪劇",
-    "description": "1917年1月18日、台北新店に生まれた王永慶は、15歳で中退し借金で米店を開業、1954年に台湾プラスチックを設立した。1973年に政府に六軽（第六ナフサ分解工場）の建設を提案し、約二十年の奮戦を経てようやく認可され、1998年に雲林県麦寮で本格量産が始まった。2008年10月15日に米国にて逝去、享年92歳。死後、十年以上にわたる家族間の遺産争いが残された。",
+    "description": "1917年1月18日、台北新店に生まれた王永慶は、15歳で中退し借金して米店を開業、1954年に台湾プラスチックを設立した。1973年に政府に六軽（第六ナフサクラッカー）の建設を提案し、約二十年の奮戦を経て認可され、1998年に雲林県麦寮で本格量産を開始した。2008年10月15日に米国にて逝去、享年92歳。死後、十年以上にわたる家族間の遺産争いが残された。",
     "category": "ja",
     "tags": [
-      "科技與企業",
+      "科技と企業",
       "台塑グループ",
       "石油化学工業",
       "六軽",
@@ -2062,14 +2186,14 @@
     "path": "Geography/北投溫泉街.md"
   },
   {
-    "title": "半導体産業：RCA 技術移転から窒化ガリウムと量子パッケージングまでの50年にわたる材料革命",
-    "description": "台湾の護国神山はファウンドリで世界の先端プロセスを制しましたが、急速充電器の中の窒化ガリウム、AI チップ下の CoWoS、量子ビット上方の希釈冷凍機をめぐり、次の50年の材料科学の戦場はようやく幕を開けたところです。",
+    "title": "半導体産業：RCA 技術移転から窒化ガリウムと量子封裝への50年の材料革命",
+    "description": "台湾の護国神山はファウンドリで世界の先進プロセスを制圧しているが、急速充電器の中の窒化ガリウム（GaN）、AIチップの下のCoWoS、量子ビットの上の希釈冷凍機――次の50年の材料科学の戦場はまだ整ったばかりである。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Technology/semiconductor-industry",
-    "readingTime": 84,
+    "readingTime": 90,
     "featured": true,
-    "date": "2026-05-25",
+    "date": "2026-03-17",
     "path": "ja/Technology/semiconductor-industry.md"
   },
   {
@@ -2977,9 +3101,7 @@
     "title": "台湾美食の総覧：純粋に台湾料理である料理は一つもなく、どの料理も最も台湾らしいものである",
     "description": "1949年、嘉義の噴水池円環のそばで、林添寿は鶏肉をスライスして白米の上に載せ、閩南の煮汁をかけた。戦後、駐台米軍が水上空港に駐留した後、大量の七面鳥が台湾に持ち込まれ、この鶏肉飯は七面鳥肉飯へと進化した。原住民の石板焼き山豚、客家のショウガ絲炒め大腸、眷村の四川風牛肉麺から、1986年に台中で発明された珍珠奶茶、さらに2025年にミシュランが選出した419軒のレストランに至るまで。この島は400年かけて、借りてきたすべての料理を自分たちのやり方で煮上げてきた。",
     "category": "ja",
-    "tags": [
-      "["
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/Food/taiwan-food-overview",
     "readingTime": 65,
     "featured": true,
@@ -4481,6 +4603,17 @@
     "path": "ja/Society/taiwan-diplomatic-allies-and-international-relations.md"
   },
   {
+    "title": "台湾の国防と軍事近代化",
+    "description": "2025年10月、頼清徳が湖口でM1A2T戦車大隊の編成式を主宰した。同じ月、前参謀総長の李喜明は苦笑しながら「戦車が非対称兵器になり得るなら、何が非対称兵器ではないのか」と語った。これは一つの島が二つの国防論理の間で揺れる物語である。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Society/taiwan-defense-modernization",
+    "readingTime": 19,
+    "featured": false,
+    "date": "2026-04-10",
+    "path": "ja/Society/taiwan-defense-modernization.md"
+  },
+  {
     "title": "台湾の国際貿易政策：グローバル化の潮流の中で位置づけを探る",
     "description": "台湾は貿易志向型経済として、CPTPP加盟、新南向政策など多元的な貿易戦略を推進し、地政学的制約の下で国際経済貿易空間の突破口を模索しています。",
     "category": "ja",
@@ -5243,7 +5376,7 @@
   },
   {
     "title": "台湾の選挙と政党政治",
-    "description": "中壢事件の炎から817万票へ——台湾が半世紀をかけて投票を戒厳の道具から国民の信へと変えた道のり",
+    "description": "中壢事件の炎から817万票へ――台湾が半世紀をかけて投票を戒厳の道具から国民の信へと変えた道のり",
     "category": "ja",
     "tags": [
       "選挙",
@@ -5253,7 +5386,7 @@
       "総統直接選挙"
     ],
     "url": "https://taiwan.md/ja/History/taiwan-elections-and-party-politics",
-    "readingTime": 27,
+    "readingTime": 53,
     "featured": false,
     "date": "2026-03-20",
     "path": "ja/History/taiwan-elections-and-party-politics.md"
@@ -11370,6 +11503,17 @@
     "path": "History/戒嚴時期.md"
   },
   {
+    "title": "投票権の閾値の歴史：20歳から18歳へ、20年にわたる未完の改正への道",
+    "description": "2022年11月26日午後4時、台湾全土の開票所の職員が憲法改正国民投票の投票箱の封を切りました——それは2005年に国民投票による改正手続きを採用して以来、初めて憲法改正案が全課程を経て公投の段階に進んだものでした。賛成564万票、反対502万票、賛成率53%でしたが、国民投票の改正閾値が「選挙人名簿総数の過半数＝賛成票962万票」と定められていたため、397万票足りず到達できませんでした。本稿は、1947年の制憲時の憲法第130条から2022年の改正失敗に至るまで、台湾の投票年齢の閾値が75年間変わらなかった構造的な原因を記録したものです。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Politics/voting-rights-threshold-history",
+    "readingTime": 41,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ja/Politics/voting-rights-threshold-history.md"
+  },
+  {
     "title": "投票權門檻歷史：從 20 歲到 18 歲，二十年的修憲未竟之路",
     "description": "2022 年 11 月 26 日下午四點，全台投開票所工作人員開始拆封修憲複決公投票匭——那是台灣自 2005 年改採公投複決修憲程序以來，第一次有修憲案走完整套流程。同意 564 萬、不同意 502 萬，同意率 53%，但因為公投複決門檻訂在「選舉人總額過半 = 962 萬同意票」，差了 397 萬票未能跨過。這篇從 1947 年制憲時的憲法第 130 條一路走到 2022 那場失敗的修憲公投，記錄台灣投票年齡門檻七十五年沒變的結構性原因。",
     "category": "Politics",
@@ -11803,6 +11947,23 @@
     "path": "Politics/村里長制度.md"
   },
   {
+    "title": "村里長制度：7,748人の民選首長、台湾最末端の政治ユニット",
+    "description": "午前5時半の里事務所、月額4.5万円の事務補助費、6割超の無所属——村里長は台湾の選挙の中で最も「政治的」でない政治的ポストであり、台湾の民主化が最も完全に証明されている存在でもある。日治時代の保甲制度から1950年の直接選挙へ、台湾全土に7,748あり、7-Elevenよりも多いこのポストは、80年にわたり地域の関係代理を担ってきた。",
+    "category": "ja",
+    "tags": [
+      "村里長",
+      "基層自治",
+      "地方制度法",
+      "日治保甲",
+      "2026選舉"
+    ],
+    "url": "https://taiwan.md/ja/Politics/village-chief-system",
+    "readingTime": 20,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ja/Politics/village-chief-system.md"
+  },
+  {
     "title": "杜奕瑾",
     "description": "用一台 486 電腦架起台灣最大論壇、在微軟帶領 Cortana 問世，然後放棄高薪回台做非營利 AI——PTT 創世神的三十年數位史",
     "category": "People",
@@ -12149,13 +12310,13 @@
   },
   {
     "title": "周蕙：唱了 25 年〈約定〉的女聲，從漫畫娃娃到小巨蛋的長跑",
-    "description": "1999 年福茂發行《周蕙精選》，封面用一隻叫蕙兒的漫畫娃娃代替她本人的臉。〈約定〉走進每一間 KTV、走過 25 年，她的本人卻始終比歌晚一步被認出來。2026 年 4 月 25 日她第一次站上小巨蛋，演唱會尾聲卻宣布聲帶萎縮，「不曉得這會不會是最後一次唱歌給大家聽」。一個翻唱歌手的 25 年長跑。",
+    "description": "1999 年福茂發行《周蕙精選》，封面用一隻叫蕙兒的漫畫娃娃代替她本人的臉。〈約定〉走進每一間 KTV、走過 25 年，她的本人卻始終比歌晚一步被認出來。從福茂五張到 BMG 雪藏，從群石、華研到 2025 自任監製跨進 Disco，12 張專輯走過 26 年。2026 年 4 月 25 日她第一次站上小巨蛋，演唱會尾聲卻宣布聲帶萎縮，「不曉得這會不會是最後一次唱歌給大家聽」。",
     "category": "Music",
     "tags": [],
     "url": "https://taiwan.md/Music/%E5%91%A8%E8%95%99",
-    "readingTime": 42,
+    "readingTime": 75,
     "featured": false,
-    "date": "2026-05-19",
+    "date": "2026-05-28",
     "path": "Music/周蕙.md"
   },
   {
@@ -13101,6 +13262,23 @@
     "path": "Culture/注音符號.md"
   },
   {
+    "title": "直轄市山地原住民区長：2014年昇格改正法で維持された民選自治職",
+    "description": "2014年12月25日、桃園が直轄市に昇格したその日、復興日、復興郷の郷長は民選の地位を失おうとしていた。昇格の副作用は原住民族の自治を剥奪することだった。立法院は緊急で「地方制度法」を改正し、「直轄市山地原住民区」という新たな地位を新設。六都（六大直轄市）管内のすべての旧山地郷において、区長と区民代表の民選を継続させた。全国に6つ、タイヤル族、ブヌン族、ツォウ族、ルカイ族、客家、閩南が混住する山林部落を対象とする。これは憲法増修条文の「積極的に原住民族文化を維持・発展させる」という規定が地方制度面において具体化されたものである。",
+    "category": "ja",
+    "tags": [
+      "山地原住民区長",
+      "原住民族自治",
+      "地方制度法",
+      "2014昇格",
+      "2026選挙"
+    ],
+    "url": "https://taiwan.md/ja/Politics/indigenous-district-chief-system",
+    "readingTime": 52,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ja/Politics/indigenous-district-chief-system.md"
+  },
+  {
     "title": "直轄市山地原住民區長：2014 升格修法保留的民選自治職位",
     "description": "2014 年 12 月 25 日桃園升格直轄市那一天，復興鄉的鄉長即將失去民選地位 — 升格的副作用是剝奪原住民族自治。立法院火速修《地方制度法》，新設「直轄市山地原住民區」職位，讓六都境內所有原本的山地鄉繼續民選區長、區民代表。全台 6 個，涵蓋泰雅、布農、鄒、魯凱、客家、閩南混居的山林部落。這是憲法增修條文「積極維護發展原住民族文化」在地方制度層的具體落地。",
     "category": "Politics",
@@ -13794,6 +13972,17 @@
     "featured": false,
     "date": "2026-05-18",
     "path": "Geography/屏東縣.md"
+  },
+  {
+    "title": "政治献金の透明性：監察院プラットフォーム、g0vによる可視化、22年間の公開基盤整備",
+    "description": "監察院の政治献金公開閲覧プラットフォームを開き、候補者の名前を入力すれば、誰からいくら受け取り、どの選挙活動に使ったかを確認できます。この基盤は突然完成したものではありません。2004年の《政治献金法》制定、2008年のプラットフォーム公開、2017年の中央選挙管理委員会と監察院のデータ公開協定、g0vのエンジニアによる10年間の可視化による補完、一つひとつの法律、一つひとつの会計報告書、一人ひとりの市民エンジニアによって築き上げられたものです。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Politics/political-donation-transparency",
+    "readingTime": 45,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ja/Politics/political-donation-transparency.md"
   },
   {
     "title": "政治獻金透明度：監察院平臺、g0v 視覺化、22 年的公開化基礎建設",
@@ -15208,17 +15397,6 @@
     "path": "People/馬英九.md"
   },
   {
-    "title": "馬英九：ハーバード法学博士が蔣経国の執務室で英語通訳となり、その後8年間の清廉な総統を務め、両岸、ひまわり、22Kを残した人物",
-    "description": "2015年11月7日、シンガポールのシャングリラで、彼は習近平と1分20秒握手しました。1949年以来、両岸の最高指導者が初めて会った瞬間でした。同じ一枚の写真を、台湾社会はいまも二つのまったく異なる形で記憶しています。一方は歴史的突破を見て、もう一方は主体性の譲歩を見ます。8年間の総統任期で残した清廉さ、両岸政策、22K、ひまわり学生運動に加え、退任後10年間の二度の訪中と2026年の家族声明まで、今日に至るまで評価は定まっていません。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/People/ma-ying-jeou-cross-strait-reconciliation-leader",
-    "readingTime": 78,
-    "featured": false,
-    "date": "2026-03-30",
-    "path": "ja/People/ma-ying-jeou-cross-strait-reconciliation-leader.md"
-  },
-  {
     "title": "馬英九迷因：從「死亡之握」到「馬腦水母」，網路文化如何重塑政治人物形象",
     "description": "2012年起，前總統馬英九的言行在台灣網路社群中發酵，從「死亡之握」的戲謔到「鹿茸」的失言，乃至「馬腦水母」的自嘲，一系列迷因深刻影響了公眾對其的觀感。這些網路現象不僅反映了台灣獨特的政治文化，更展現了數位時代下，迷因如何解構並重塑政治人物的公共形象與社會記憶。",
     "category": "Society",
@@ -16377,7 +16555,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/People/cho-yun-hsu-bridging-historian",
-    "readingTime": 110,
+    "readingTime": 113,
     "featured": false,
     "date": "2026-05-22",
     "path": "ja/People/cho-yun-hsu-bridging-historian.md"
@@ -17656,6 +17834,17 @@
     "path": "Culture/無名小站.md"
   },
   {
+    "title": "猴硐：山城を救ったレンズが捨て猫の収容施設を肥やした；TNRが補完するのは、観光が終結できない善意である",
+    "description": "2009年、写真家・簡佩玲（猫夫人）が、1990年に瑞三鉱業の操業停止後19年間忘れられてきた新北市平渓線の山城を訪れた。彼女のレンズは猴硐をCNNが2013年に選出した「世界六大猫観光地」へと変えた。しかし「猫の天国」という呼称は、台湾最大級の捨て猫収容施設を育んでしまった。2012年の猫ウィルス感染症流行、2013年の虐待猫事件10件以上、2022年の猫放棄事件で罰金11万台湾ドル。2014年、猫夫人が「猫を、私を、侯硐を消費し続ける」という言葉を残して撤退した。2026年1月、TNVR（捕獲・不妊手術・返却）により猫の頭数は200〜300頭から30頭台に制御されたが、鏡週刊は「村の消滅」というフレームで報じた。しかし消えたのは猫の村ではなく、「単一のインフルエンサーIPに支えられた地域再生モデル」である。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Geography/houtong-cat-village",
+    "readingTime": 5,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ja/Geography/houtong-cat-village.md"
+  },
+  {
     "title": "猴硐：救起山城的鏡頭，餵肥了棄貓場；TNR 修補的，是觀光無法收尾的善意",
     "description": "2009 年攝影師簡佩玲（貓夫人）走進新北平溪線一座 1990 年瑞三鑛業停產後被遺忘 19 年的山城。她的鏡頭把猴硐變成 CNN 2013 評選的世界六大賞貓景點。但「貓咪天堂」這個名號養出全台最大棄貓場 — 2012 年貓瘟爆發、2013 年至少 10 起虐貓事件、2022 年棄貓案罰 11 萬。2014 年貓夫人退出留下「不停消費貓、消費我、消費侯硐」這句話。2026 年 1 月，TNVR 把 200-300 隻貓控制到 30+ 隻，鏡週刊用「滅村」框架報導。但消失的不是貓村，是「單一網紅 IP 撐起的地方創生模式」。",
     "category": "Geography",
@@ -18899,6 +19088,17 @@
     "path": "Culture/傳統節慶與慶典.md"
   },
   {
+    "title": "瘂弦：寫完《深淵》就封筆，後半生在聯副成詩史一頁",
+    "description": "1968 年瘂弦 36 歲，把九十首詩編成一本《深淵》之後就停筆。從 1977 到 1998 年他主編《聯合報》副刊 21 年，把編輯台變成台灣戰後最重要的文學公共空間。2024 年 10 月 11 日他在加拿大溫哥華辭世，享耆壽 92 歲——封筆 56 年的沉默比千冊詩集更長，「哈里路亞，我仍活著」副歌成為戒嚴年代晦澀躲過警總審檢的詩史記號。",
+    "category": "People",
+    "tags": [],
+    "url": "https://taiwan.md/People/%E7%98%82%E5%BC%A6",
+    "readingTime": 38,
+    "featured": true,
+    "date": "2026-05-28",
+    "path": "People/瘂弦.md"
+  },
+  {
     "title": "經濟奇蹟",
     "description": "1952年，台灣人均GDP只有196美元，比海地還窮。40年後，台灣成為「亞洲四小龍」之首，人均GDP超過1萬美元。但這個「奇蹟」的代價是什麼？當我們讚美台灣錢淹腳目的年代時，很少人談起那些在加工出口區裡每天工作12小時的女工，和那些把一生積蓄押在小工廠裡的老闆們。",
     "category": "Economy",
@@ -18983,17 +19183,6 @@
     "featured": true,
     "date": "2026-05-27",
     "path": "Music/落日飛車.md"
-  },
-  {
-    "title": "落日飛車：Photo Boothの背景写真からCoachellaへ、英語だけで台北の夕陽を歌った14年",
-    "description": "2010年、19歳の学生がMacのPhoto Boothで何気なく「Sunset Rollercoaster」のpresetを選び、MySpaceのプロフィール画像にしました。14年後、このバンドはCoachella音楽祭で20年以上の歴史のなか初めて招待された台湾のバンドとなりました。全英語、亜熱帯のCity Pop、産業システムに依存しない姿勢。彼らは一枚の何気ないジェットコースターのシルエット写真から、台湾の音楽が世界に最も届く方法を作り出しました。",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Music/sunset-rollercoaster",
-    "readingTime": 67,
-    "featured": true,
-    "date": "2026-05-23",
-    "path": "ja/Music/sunset-rollercoaster.md"
   },
   {
     "title": "葉丙成",
@@ -19474,8 +19663,8 @@
     "path": "Technology/維基百科.md"
   },
   {
-    "title": "緑島監獄：政治的な闇牢から「大哥の故郷」へ、重なり合う記憶",
-    "description": "太平洋上の孤島である緑島は、白色テロ期に政治犯の煉獄であり、また黒社会の大哥たちの最終的な行き着く先でもありました。新生訓導処から崇徳新村まで、緑島監獄の歴史は、台湾社会の矛盾と記憶をどのように重ね合わせてきたのでしょうか。",
+    "title": "緑島監獄：政治犯の黒い牢獄から「大哥の故郷」へ――重なり合う記憶の影",
+    "description": "緑島、太平洋に浮かぶこの孤島は、かつて白色テロ時代の政治犯の煉獄であり、同時に暴力団の「大哥（ボス）」たちの最期の棲家でもあった。新生訓導処から崇德新村へ――緑島監獄の歴史は、台湾社会の矛盾と記憶をいかに重ね映し出してきたのか。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/History/green-island-prison",
@@ -21005,6 +21194,23 @@
     "path": "ja/People/stan-lai-theater-innovation-master.md"
   },
   {
+    "title": "選挙公報：国家が配布する公平な基準、候補者が自費で行う選挙ビラの分流",
+    "description": "有権者が投票前に受け取るあの分厚い公報は、1980年から蓄積されてきたデザインの進化です。国家配布 vs 候補者自費という分流ロジックは、「候補者が何を言いたいか」を広告主の影響力から切り離すもので、台湾の民主主義インフラの中で最も安価で最も見過ごされている部分です。",
+    "category": "ja",
+    "tags": [
+      "選舉公報",
+      "公職人員選舉罷免法",
+      "中選會",
+      "競選文宣",
+      "2026選舉"
+    ],
+    "url": "https://taiwan.md/ja/Politics/election-bulletin-system",
+    "readingTime": 41,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ja/Politics/election-bulletin-system.md"
+  },
+  {
     "title": "選舉公報：國家配發的公平基準，候選人自費競選文宣的分流",
     "description": "每位選民投票前都會收到的那本厚厚公報，是 1980 年起累積的設計演化。國家配發 vs 候選人自費的分流邏輯，把「候選人想說什麼」從廣告主的影響力中切割出來，是台灣民主基礎建設中最便宜也最被忽略的一塊。",
     "category": "Politics",
@@ -22001,6 +22207,24 @@
     "featured": false,
     "date": "2026-05-27",
     "path": "Politics/議員制度.md"
+  },
+  {
+    "title": "議員制度：なぜ立法委員と異なるのか、SNTVが地方政治に残り続けた30年",
+    "description": "2008年に立法委員が単一選挙区二票制に変更されたのと同じ年に、県市議員選挙は依然として1980年代のSNTV旧制度を使用していました — 同じ国、同じ有権者、同じ選挙公報上の異なるポジションでありながら、まったく異なる2つのゲームルールが適用されていました。これはバグではなく、台湾の選挙制度改革史上最大の未完の事業であり、その背景には地方派閥、政党利益、関連コストが絡んでいます。2つの制度がどのように機能するか、なぜ一方が変わって他方が変わらなかったのか、小党と多様な代表性にとって何を意味するかを解き明かす制度マップです。",
+    "category": "ja",
+    "tags": [
+      "議員",
+      "選舉制度",
+      "SNTV",
+      "單一選區兩票制",
+      "立法委員",
+      "2026選舉"
+    ],
+    "url": "https://taiwan.md/ja/Politics/city-councilor-system-taiwan",
+    "readingTime": 49,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ja/Politics/city-councilor-system-taiwan.md"
   },
   {
     "title": "櫻花鉤吻鮭：冰河孑遺的歸鄉路，從瀕危到流域整體保育的台灣奇蹟",
@@ -23589,6 +23813,17 @@
     "path": "en/People/bobby-chen-indie-music-pioneer.md"
   },
   {
+    "title": "Boletín electoral: la referencia equitativa distribuida por el Estado y la separación de la propaganda de campaña autofinanciada",
+    "description": "El grueso boletín que cada elector recibe antes de votar es el resultado de una evolución de diseño acumulada desde 1980. La lógica de separación entre lo distribuido por el Estado y lo autofinanciado por los candidatos desvincula lo que 'los candidatos quieren decir' de la influencia de los anunciantes, constituyendo uno de los componentes más económicos y más ignorados de la infraestructura democrática de Taiwán.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Politics/election-bulletin-system",
+    "readingTime": 124,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "es/Politics/election-bulletin-system.md"
+  },
+  {
     "title": "Bourse et marchés de capitaux à Taïwan : de l’effondrement des 10 000 points en 1990 à la 6e place mondiale en 2026, une île dont 44 % du patrimoine repose sur une seule valeur",
     "description": "Le 28 avril 2026, Bloomberg affichait « Taiwan Overtakes Canada ». Une île où l’effondrement des 10 000 points en 1990 avait emporté l’épargne-retraite de 160 000 personnes se hissait, trente-six ans plus tard, au 6e rang mondial des marchés boursiers — mais sur 4,47 billions de dollars de capitalisation, près de la moitié reposait sur une seule entreprise de semi-conducteurs.",
     "category": "fr",
@@ -24219,6 +24454,17 @@
     "featured": true,
     "date": "2026-04-20",
     "path": "en/People/che-yu-wu.md"
+  },
+  {
+    "title": "Chefs de district autochtone de montagne des municipalités spéciales : un poste démocratique préservé par la réforme de 2014",
+    "description": "Le 25 décembre 2014, le jour où Taoyuan a été élevée au rang de municipalité spéciale, le chef du canton de Fuxing était sur le point de perdre son statut d'élu — l'effet secondaire de la promotion étant de priver les peuples autochtones de leur autonomie. L'Assemblée législative a adopté en urgence un amendement à la Loi sur l'organisation locale, créant le nouveau statut de « district autochtone de montagne de municipalité spéciale », permettant à tous les anciens cantons de montagne autochtones situés dans les six municipalités spéciales de continuer à élire démocratiquement leurs chefs de district et représentants. Six districts au total à travers Taïwan, couvrant des communautés forestières mixtes où cohabitent Tayal, Bunun, Tsou, Rukai, Hakka et Minnan. C'est la traduction concrète, au niveau de l'organisation locale, de l'article additionnel de la Constitution stipulant le « maintien et le développement actifs de la culture des peuples autochtones ».",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Politics/indigenous-district-chief-system",
+    "readingTime": 169,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "fr/Politics/indigenous-district-chief-system.md"
   },
   {
     "title": "Chen Cheng-po",
@@ -28487,7 +28733,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory",
-    "readingTime": 85,
+    "readingTime": 87,
     "featured": true,
     "date": "2026-03-31",
     "path": "es/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory.md"
@@ -28773,6 +29019,24 @@
     "path": "es/Geography/national-scenic-area-system.md"
   },
   {
+    "title": "El sistema de concejales: por qué es diferente al de los legisladores y los 30 años del SNTV en la política local",
+    "description": "En 2008 los legisladores pasaron al sistema de distrito único con dos votos, pero las elecciones de concejales de ese mismo año siguieron usando el antiguo sistema SNTV de los años 80 — mismo país, mismo electorado, distintos cargos en la misma papeleta, pero con dos conjuntos de reglas completamente diferentes. No es un error de software, es la mayor tarea inconclusa en la historia de la reforma electoral de Taiwán, atada a intereses de facciones locales, beneficios partidistas y costos de implementación. Un mapa del sistema que desmonta cómo funcionan ambos regímenes, por qué uno cambió y el otro no, y qué significa para los partidos pequeños y la representación plural.",
+    "category": "es",
+    "tags": [
+      "議員",
+      "選舉制度",
+      "SNTV",
+      "單一選區兩票制",
+      "立法委員",
+      "2026選舉"
+    ],
+    "url": "https://taiwan.md/es/Politics/city-councilor-system-taiwan",
+    "readingTime": 144,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "es/Politics/city-councilor-system-taiwan.md"
+  },
+  {
     "title": "El sistema de salud pública y respuesta epidémica de Taiwán",
     "description": "En 2003, el cierre del Hospital Ho Ping dejó 30 muertos. Diecisiete años después, durante la pandemia global de COVID-19, Taiwán se sostuvo 18 meses sin transmisión comunitaria gracias a las lecciones de aquel desastre. Cómo un trauma se convirtió en la memoria inmunológica de una isla.",
     "category": "es",
@@ -28884,32 +29148,65 @@
     "path": "en/Culture/elder-greeting-images.md"
   },
   {
-    "title": "Elecciones y política partidista en Taiwán",
-    "description": "Desde las llamas del Incidente de Zhongli hasta los 8.17 millones de votos, cómo Taiwán transformó el voto en medio siglo de herramienta de la ley marcial a fe cívica de toda la nación",
+    "title": "Elecciones locales de 2026 en Taiwán: prueba de estrés para la infraestructura democrática en la era de la guerra cognitiva con IA",
+    "description": "El 28 de noviembre de 2026, las 22 ciudades y condados de todo Taiwán abrirán simultáneamente sus colegios electorales para elegir nueve tipos de cargos, más de 11 000 jefes ejecutivos y representantes electos. Esta elección no se parece a ninguna anterior — la diferencia no está en los candidatos, sino en el entorno en el que se celebra: la escalada de la guerra cognitiva con IA a nivel estatal por parte del PCCh, más de 123 sitios web de noticias falsificadas, y la inclusión de la desinformación generada por IA como uno de los cuatro ejes prioritarios de fiscalización electoral por parte del Ministerio de Justicia. Este artículo no es un resumen de información electoral, sino un análisis del posicionamiento histórico y las presiones estructurales de estas elecciones.",
     "category": "es",
-    "tags": [
-      "Elecciones",
-      "Democratización",
-      "Política partidista",
-      "Movimiento pro-democracia",
-      "Elección presidencial directa"
-    ],
+    "tags": [],
+    "url": "https://taiwan.md/es/Politics/2026-local-elections-taiwan",
+    "readingTime": 146,
+    "featured": true,
+    "date": "2026-05-27",
+    "path": "es/Politics/2026-local-elections-taiwan.md"
+  },
+  {
+    "title": "Elecciones y política partidista en Taiwán",
+    "description": "Desde las llamas del Incidente de Zhongli hasta los 8.17 millones de votos, cómo Taiwán transformó el voto en medio siglo de herramienta de la ley marcial a fe cívica",
+    "category": "es",
+    "tags": [],
     "url": "https://taiwan.md/es/History/taiwan-elections-and-party-politics",
-    "readingTime": 80,
+    "readingTime": 164,
     "featured": false,
     "date": "2026-03-20",
     "path": "es/History/taiwan-elections-and-party-politics.md"
   },
   {
-    "title": "Élections à Taïwan et politique partisane",
-    "description": "Du feu de l'incident de Zhongli aux 8,17 millions de bulletins, comment Taïwan a transformé le vote, d’un outil de la loi martiale, en une foi nationale en un demi‑siècle",
+    "title": "Election Bulletins: The State-Distributed Baseline of Fairness, and the Split-Stream of Candidate-Funded Campaign Literature",
+    "description": "That thick bulletin every voter receives before casting a ballot is the product of design evolution accumulated since 1980. The split-stream logic — state-distributed vs. candidate-funded — separates 'what candidates want to say' from the influence of advertisers. It is the cheapest and most overlooked piece of Taiwan's democratic infrastructure.",
+    "category": "en",
+    "tags": [
+      "選舉公報",
+      "公職人員選舉罷免法",
+      "中選會",
+      "競選文宣",
+      "2026選舉"
+    ],
+    "url": "https://taiwan.md/en/Politics/election-bulletin-system",
+    "readingTime": 110,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "en/Politics/election-bulletin-system.md"
+  },
+  {
+    "title": "Élections et vie politique partisane à Taïwan",
+    "description": "Des flammes de l'incident de Zhongli aux 8,17 millions de voix, comment Taïwan a transformé le vote en un demi-siècle, d'un outil de la loi martiale en une foi populaire",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/History/taiwan-elections-and-party-politics",
-    "readingTime": 74,
+    "readingTime": 158,
     "featured": false,
     "date": "2026-03-20",
     "path": "fr/History/taiwan-elections-and-party-politics.md"
+  },
+  {
+    "title": "Élections locales unifiées de 2026 : test de résistance des infrastructures démocratiques à l'ère de la guerre cognitive par l'IA",
+    "description": "Le 28 novembre 2026, les 22 municipalités et comtés de Taïwan ouvriront simultanément leurs bureaux de vote pour élire neuf types de fonctions publiques, soit plus de 11 000 élus locaux et représentants. Cette élection ne ressemble à aucune de ses prédécesseurs — la différence ne réside pas dans les candidats, mais dans le contexte où elle se déroule : escalade de la guerre cognitive par l'IA au niveau étatique par la RPC, plus de 123 sites d'information contrefaits, et l'inclusion des désinformations générées par l'IA parmi les quatre axes prioritaires de contrôle du parquet. Cet article n'est pas un guide électoral : c'est une analyse du positionnement historique et des pressions structurelles de ce scrutin.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Politics/2026-local-elections-taiwan",
+    "readingTime": 157,
+    "featured": true,
+    "date": "2026-05-27",
+    "path": "fr/Politics/2026-local-elections-taiwan.md"
   },
   {
     "title": "Empresa taiwanesa: Chang Chun Petrochemical",
@@ -29859,6 +30156,17 @@
     "path": "en/Economy/taiwanese-companies-far-eastern-group.md"
   },
   {
+    "title": "Faroles de cielo: señal de paz en 1820, 326 kilogramos de basura forestal en 2019, el mismo pueblo de Pingxi cargando dos identidades",
+    "description": "En la década de 1820, la familia Hu lanzó el primer farol de cielo en Shifenliao como señal de paz y seguridad. Doscientos años después, en el Festival de los Faroles de 2019, voluntarios estadounidenses recogieron 326 kilogramos de restos de faroles en las vías del tren de Pingxi en apenas dos horas. Unos ganan, otros pierden, otros limpian: el presidente de la Asociación de Faroles de Cielo se apellida Hu, y la víctima cuya casa se quemó también se apellida Hu. La vendedora de 88 años del casco antiguo, mamá Tsai, y Chen Chien-chih de la Alianza para la Protección del Río Keelung beben del mismo río. En 2025 se aprobó en tercera lectura la ordenanza autónoma. La gente de Pingxi está probando el cuarto camino: la transformación del festival.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Culture/sky-lanterns-pingxi",
+    "readingTime": 143,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "es/Culture/sky-lanterns-pingxi.md"
+  },
+  {
     "title": "February 28 Incident and White Terror: Trauma and Memory under Taiwan's Authoritarian Rule",
     "description": "From the February 28 Incident of 1947 to 38 years of martial law, Taiwan experienced state violence under authoritarian rule, only beginning to confront historical trauma and pursue transitional justice after the lifting of martial law.",
     "category": "en",
@@ -30187,12 +30495,12 @@
     "path": "es/Geography/gongguan.md"
   },
   {
-    "title": "Green Island Prison: Layered Memories from a Political Black Jail to the Hometown of Big Brothers",
-    "description": "Green Island, an isolated island in the Pacific, was once a purgatory for political prisoners during the White Terror and also the final destination of underworld bosses. From the New Life Correction Center to Chongde New Village, how does the history of Green Island Prison layer the contradictions and memories of Taiwanese society?",
+    "title": "Green Island Prison: Layered Memories from Political Black Jail to the Homeland of Big Brothers",
+    "description": "Green Island, a solitary island in the Pacific, was once a purgatory for political prisoners during the White Terror era and the final resting place for underworld 'big brothers.' From the New Life Training Center to Chongde New Village, how does the history of Green Island Prison reflect the contradictions and memories of Taiwanese society?",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/History/green-island-prison",
-    "readingTime": 62,
+    "readingTime": 60,
     "featured": false,
     "date": "2026-05-15",
     "path": "en/History/green-island-prison.md"
@@ -30938,6 +31246,17 @@
     "path": "es/Nature/taiwan-environmental-movement-history.md"
   },
   {
+    "title": "Historia del umbral del derecho al voto: de los 20 a los 18 años, dos décadas de una reforma constitucional inconclusa",
+    "description": "El 26 de noviembre de 2022 a las cuatro de la tarde, el personal de los colegios electorales de todo Taiwán comenzó a abrir las urnas del referéndum de reforma constitucional. Fue la primera vez que un proyecto de reforma constitucional completaba todo el proceso desde que Taiwán adoptó el procedimiento de referéndum constitucional en 2005. 5,64 millones de votos a favor, 5,02 millones en contra, una tasa de aprobación del 53%, pero el umbral del referéndón se fijó en \"más de la mitad del total de electores = 9,62 millones de votos a favor\", faltando 3,97 millones de votos para alcanzarlo. Este artículo recorre desde el Artículo 130 de la Constitución de 1947 hasta el fallido referéndum constitucional de 2022, documentando las razones estructurales por las que el umbral de edad para votar en Taiwán no ha cambiado en setenta y cinco años.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Politics/voting-rights-threshold-history",
+    "readingTime": 113,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "es/Politics/voting-rights-threshold-history.md"
+  },
+  {
     "title": "Historia ferroviaria de Taiwán: el ferrocarril tuberculoso, los cabezas negras y una genealogía que perdió sus nombres extranjeros",
     "description": "Cómo una vía ruinosa que los japoneses llamaron «ferrocarril tuberculoso» se convirtió, en poco más de un siglo, en una arteria de alta velocidad que transporta a 200.000 personas por día. Los ingenieros alemanes y británicos contratados por Liu Ming-chuan fueron luego descartados por los japoneses, que rehiceron la obra desde cero; la línea longitudinal de Hasegawa Kinsuke fue rebautizada y renumerada por la Administración de Ferrocarriles de Taiwán después de la guerra; cada generación empujó los registros de la anterior hacia las notas al pie. Los nombres extranjeros fueron perdiendo brillo, hasta quedar solo los nombres en taiwanés «o͘-thâu-á» y «hué-chhia-á», los lemas políticos Juguang, Ziqiang y Fuxing, y recién en la generación de Puyuma y Taroko los topónimos indígenas volvieron a tenderse sobre los rieles.",
     "category": "es",
@@ -30971,6 +31290,17 @@
     "path": "es/History/indigenous-peoples-history-and-naming-movement.md"
   },
   {
+    "title": "Historique du seuil du droit de vote : de 20 à 18 ans, vingt ans de révision constitutionnelle inachevée",
+    "description": "Le 26 novembre 2022 à seize heures, les agents des bureaux de vote et de dépouillement de tout le pays ont commencé à ouvrir les urnes du référendum de révision constitutionnelle — c'était la première fois, depuis que Taïwan a adopté la procédure de révision constitutionnelle par référendum en 2005, qu'un projet de révision constitutionnelle parcourait l'ensemble du processus. 5,64 millions de voix pour, 5,02 millions contre, un taux d'approbation de 53 %, mais le seuil du référendum de révision constitutionnelle étant fixé à « la moitié du total des électeurs = 9,62 millions de voix favorables », il manquait 3,97 millions de voix pour le franchir. Cet article retrace le parcours depuis l'article 130 de la Constitution lors de sa promulgation en 1947 jusqu'au référendum de révision constitutionnelle échoué de 2022, documentant les raisons structurelles pour lesquelles le seuil d'âge du droit de vote à Taïwan n'a pas changé en soixante-quinze ans.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Politics/voting-rights-threshold-history",
+    "readingTime": 117,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "fr/Politics/voting-rights-threshold-history.md"
+  },
+  {
     "title": "History of Railways in Taiwan",
     "description": "How a railway the Japanese called a 'consumptive railroad' became a 300 km/h artery carrying 21 million passengers a day",
     "category": "History",
@@ -31002,6 +31332,17 @@
     "featured": true,
     "date": "2026-03-23",
     "path": "en/Lifestyle/history-of-taiwan-mrt-development.md"
+  },
+  {
+    "title": "History of the Voting Rights Threshold: From Age 20 to Age 18, a Twenty-Year Unfinished Constitutional Journey",
+    "description": "At 4:00 PM on November 26, 2022, poll workers across Taiwan began unsealing the ballot boxes for the constitutional amendment referendum — the first time a constitutional amendment had gone through the full process since Taiwan adopted the referendum-based constitutional revision procedure in 2005. 5.64 million votes in favor, 5.02 million against, an approval rate of 53%, but because the referendum threshold was set at 'half the total electorate = 9.62 million affirmative votes,' it fell short by 3.97 million votes. This article traces the path from Article 130 of the Constitution as drafted in 1947 to the failed 2022 constitutional referendum, documenting the structural reasons why Taiwan's voting age threshold has remained unchanged for seventy-five years.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Politics/voting-rights-threshold-history",
+    "readingTime": 101,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "en/Politics/voting-rights-threshold-history.md"
   },
   {
     "title": "Ho Fei-peng",
@@ -31127,6 +31468,28 @@
     "featured": true,
     "date": "2026-03-24",
     "path": "fr/People/hou-hsiao-hsien.md"
+  },
+  {
+    "title": "Houtong : l'objectif qui a sauvé la ville de montagne a engraissé le plus grand dépotoir à chats de Taïwan ; le TNVR répare ce que la générosité incontrôlée du tourisme ne pouvait pas conclure",
+    "description": "En 2009, la photographe Chien Pei-ling (Madame Chats) entre dans une ville de montagne oubliée depuis 19 ans après l'arrêt de l'exploitation minière de Ruisan en 1990, sur la ligne Pingxi du Nouveau Taipei. Son objectif a transformé Houtong en l'un des six meilleurs sites d'observation de chats au monde selon CNN en 2013. Mais le label « paradis des chats » a engendré le plus grand dépotoir à chats de Taïwan — épidémie de typhus félin en 2012, au moins 10 cas de maltraitance en 2013, amende de 110 000 NTD pour abandon en 2022. En 2014, Madame Chats se retire en laissant ces mots : « On ne cesse de consommer les chats, de me consommer moi, de consommer Houtong. » En janvier 2026, le TNVR a ramené la population de 200-300 chats à une trentaine, et le magazine Mirror Weekly a couvert l'information avec un cadrage d'« extermination du village ». Mais ce qui a disparu, ce n'est pas le village de chats, c'est « le modèle de revitalisation locale porté par un seul IP de célébrité numérique ».",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Geography/houtong-cat-village",
+    "readingTime": 154,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "fr/Geography/houtong-cat-village.md"
+  },
+  {
+    "title": "Houtong: la cámara que rescató un pueblo de montaña alimentó un vertedero de gatos abandonados; lo que TNVR repara es la buena voluntad que el turismo no pudo cerrar",
+    "description": "En 2009, la fotógrafa Chien Pei-ling (Madre Gata) entró en un pueblo de montaña olvidado durante 19 años tras el cese de la minería Ruisan en 1990, en la línea Pingxi de la Nueva Taipei. Su cámara convirtió Houtong en uno de los seis mejores destinos del mundo para ver gatos según CNN en 2013. Pero el apodo de 'paraíso de los gatos' engendró el mayor vertedero de gatos abandonados de Taiwán: brote de panleucopenia felina en 2012, al menos 10 casos de maltrato animal en 2013, multa de 110 mil TWD por abandono en 2022. En 2014 Madre Gata se retiró dejando la frase 'no paran de consumir a los gatos, consumirme a mí, consumir Houtong'. En enero de 2026, TNVR redujo de 200-300 gatos a poco más de 30, y Mirror Weekly reportó con el marco de 'extinción del pueblo'. Pero lo que desapareció no fue el pueblo gatuno, sino 'el modelo de revitalización local sostenido por un solo IP de celebridad digital'.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Geography/houtong-cat-village",
+    "readingTime": 149,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "es/Geography/houtong-cat-village.md"
   },
   {
     "title": "Houtong: The Camera That Saved a Mountain Town Also Fed Taiwan's Largest Cat Dumping Ground; TNVR Patches Up What Tourism's Good Intentions Couldn't Finish",
@@ -31393,7 +31756,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/People/cho-yun-hsu-bridging-historian",
-    "readingTime": 292,
+    "readingTime": 303,
     "featured": false,
     "date": "2026-05-22",
     "path": "fr/People/cho-yun-hsu-bridging-historian.md"
@@ -31404,7 +31767,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/People/cho-yun-hsu-bridging-historian",
-    "readingTime": 271,
+    "readingTime": 281,
     "featured": false,
     "date": "2026-05-22",
     "path": "es/People/cho-yun-hsu-bridging-historian.md"
@@ -31415,7 +31778,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/People/cho-yun-hsu-bridging-historian",
-    "readingTime": 273,
+    "readingTime": 283,
     "featured": false,
     "date": "2026-05-22",
     "path": "en/People/cho-yun-hsu-bridging-historian.md"
@@ -32132,6 +32495,23 @@
     "path": "en/Society/inclusive-travel-taiwan.md"
   },
   {
+    "title": "Indigenous District Chiefs in Special Municipalities: The Elected Autonomous Office Preserved by the 2014 Municipal Upgrade Amendment",
+    "description": "On December 25, 2014, the day Taoyuan was upgraded to a special municipality, the township mayor of Fuxing was about to lose elected status — a side effect of municipal upgrading is the erosion of indigenous self-governance. The Legislative Yuan fast-tracked an amendment to the Local Government Act, creating the new position of 'Mountain Indigenous District within a Special Municipality,' allowing all former mountain indigenous townships within the six special municipalities to continue electing their district chiefs and district representatives. There are six such districts nationwide, encompassing mountain and forest villages where Atayal, Bunun, Tsou, Rukai, Hakka, and Hoklo communities live side by side. This is the concrete implementation at the local governance level of the Additional Articles of the Constitution mandating the 'active preservation and development of indigenous cultures.'",
+    "category": "en",
+    "tags": [
+      "山地原住民區長",
+      "原住民族自治",
+      "地方制度法",
+      "2014升格",
+      "2026選舉"
+    ],
+    "url": "https://taiwan.md/en/Politics/indigenous-district-chief-system",
+    "readingTime": 151,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "en/Politics/indigenous-district-chief-system.md"
+  },
+  {
     "title": "Indigenous Land Justice and Traditional Territories in Taiwan",
     "description": "Exploring the historical context, legal developments, territorial demarcation controversies, and achievements of Taiwan's Indigenous Transitional Justice Commission in restoring indigenous land rights",
     "category": "en",
@@ -32453,6 +32833,17 @@
     "featured": false,
     "date": "2026-03-23",
     "path": "fr/People/jay-chou.md"
+  },
+  {
+    "title": "Jefe de Distrito Indígena de Montaña en Municipios Especiales: el cargo autónomo electo que la reforma de 2014 preservó tras la elevación administrativa",
+    "description": "El 25 de diciembre de 2014, cuando Taoyuan se elevó a municipio especial, el magistrado del municipio de Fuxing estaba a punto de perder su condición de cargo electo — un efecto secundario de la elevación era la supresión de la autonomía indígena. El Yuan Legislativo reformó de urgencia la Ley de Gobierno Local, creando la figura del \"Distrito Indígena de Montaña en Municipio Especial\", para que todos los antiguos municipios de montaña dentro de los seis municipios especiales pudieran seguir eligiendo por sufragio a sus jefes de distrito y representantes. En total, 6 distritos en toda la isla, que abarcan comunidades montañosas mixtas de pueblos Atayal, Bunun, Tsou, Rukai, Hakka y Minnan. Esta es la materialización concreta del mandato constitucional de \"mantener y desarrollar activamente la cultura de los pueblos indígenas\" en el nivel del sistema de gobierno local.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Politics/indigenous-district-chief-system",
+    "readingTime": 110,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "es/Politics/indigenous-district-chief-system.md"
   },
   {
     "title": "Jensen Huang",
@@ -33902,7 +34293,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory",
-    "readingTime": 114,
+    "readingTime": 116,
     "featured": true,
     "date": "2026-03-31",
     "path": "fr/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory.md"
@@ -35138,6 +35529,28 @@
     "path": "fr/Lifestyle/taiwan-youbike-and-micromobility-revolution.md"
   },
   {
+    "title": "La defensa nacional y la modernización militar de Taiwán",
+    "description": "En octubre de 2025, Lai Ching-te presidió en Hukou la activación de un batallón de tanques M1A2T. Ese mismo mes, el exjefe del Estado Mayor Conjunto Li Hsi-ming dijo con una sonrisa amarga: \"Si un tanque puede considerarse un arma asimétrica, ¿qué otra cosa no lo sería?\" Esta es la historia de una isla atrapada entre dos lógicas de defensa.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Society/taiwan-defense-modernization",
+    "readingTime": 134,
+    "featured": false,
+    "date": "2026-04-10",
+    "path": "es/Society/taiwan-defense-modernization.md"
+  },
+  {
+    "title": "La défense taïwanaise et la modernisation militaire",
+    "description": "En octobre 2025, Lai Ching-te a présidé à Hukou la mise en service d'un bataillon de chars M1A2T. Le même mois, l'ancien chef d'état-major Hsi-ming Lee a déclaré avec un amer sourire : « Si un char peut être considéré comme une arme asymétrique, qu'est-ce qui ne le serait pas ? » C'est l'histoire d'une île tiraillée entre deux logiques de défense.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Society/taiwan-defense-military-modernization",
+    "readingTime": 139,
+    "featured": false,
+    "date": "2026-04-10",
+    "path": "fr/Society/taiwan-defense-military-modernization.md"
+  },
+  {
     "title": "La démocratisation de Taïwan",
     "description": "Le 18 mars 1980, dans la salle d'audience d'un tribunal militaire de Kaohsiung, Shih Ming-teh renonce à son mémoire de défense de soixante mille caractères et demande au juge de le condamner à mort. Les jeunes avocats qui le défendaient ce jour-là — Chen Shui-bian, Hsieh Chang-ting, Su Tseng-chang — allaient tous devenir présidents ou premiers ministres dans les vingt années suivantes. Un procès conçu pour faire taire l'opposition a, contre toute attente, formé toute une génération de dirigeants politiques.",
     "category": "fr",
@@ -35572,7 +35985,7 @@
       "Terreur blanche"
     ],
     "url": "https://taiwan.md/fr/History/taiwan-transitional-justice",
-    "readingTime": 90,
+    "readingTime": 92,
     "featured": false,
     "date": "2026-03-31",
     "path": "fr/History/taiwan-transitional-justice.md"
@@ -35583,7 +35996,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/History/taiwan-transitional-justice",
-    "readingTime": 90,
+    "readingTime": 92,
     "featured": false,
     "date": "2026-03-31",
     "path": "es/History/taiwan-transitional-justice.md"
@@ -36011,6 +36424,17 @@
     "path": "es/Nature/taiwan-atlas-moth.md"
   },
   {
+    "title": "La prison de Green Island : des geôles politiques à la « terre des parrains », strates de mémoire",
+    "description": "Green Island, cet îlot isolé du Pacifique, fut autrefois un enfer pour les prisonniers politiques de la Terreur blanche et le dernier refuge des parrains du milieu. Du Centre de rééducation pour nouveaux détenus au village de Chongde, comment l'histoire de la prison de Green Island superpose-t-elle les contradictions et les mémoires de la société taïwanaise ?",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/History/green-island-prison",
+    "readingTime": 67,
+    "featured": false,
+    "date": "2026-05-15",
+    "path": "fr/History/green-island-prison.md"
+  },
+  {
     "title": "La prolifération des rats à Taïpei : de l'édit antipeste du Gouvernement général en 1896 au virus Hantan à Da'an en 2026",
     "description": "En janvier 2026, un homme d'une soixantaine d'années est décédé du syndrome à virus Hantan dans l'arrondissement de Da'an, le premier décès en Taïwan depuis 25 ans. Mais le véritable tournant de cette histoire est survenu le même mois : l'interdiction de nourrir les porcs avec les déchets alimentaires ménagers. Quand les porcs ne mangent plus les ordures, les rats commencent à manger Taïpei.",
     "category": "fr",
@@ -36226,16 +36650,9 @@
     "title": "La télévision publique : du sortilège des neuf cents millions à l'expulsion de l'enceinte parlementaire, vingt-huit ans d'indépendance inachevée",
     "description": "En 1998, lors du lancement de la télévision publique (PTS), la loi sur la télévision publique a imposé une réduction progressive des subventions gouvernementales, gelées à 900 millions de dollars taïwanais par an — un carcan qui a duré 23 ans. Durant cette période, PTS a produit cinq séries phares qui ont marqué la société : *The World Between Us*, *Gold Leaf*, *The Teenage Psychic*, *Wake Up* et *A Touch of Green*. En mai 2023, une révision législative a levé le sortilège, doublant le budget à 2,3 milliards. Mais 19 mois plus tard, le budget a été amputé de 1 % et gelé à 25 % ; un an après, en mai 2026, le président Hu Yuan-hui a été prié de quitter l'enceinte du Yuan législatif. En 28 ans, PTS a démontré une chose : lever le sortilège ne signifie pas établir l'indépendance.",
     "category": "fr",
-    "tags": [
-      "Médias",
-      "Télévision publique",
-      "Politique culturelle",
-      "Industrie audiovisuelle",
-      "Retrait du parti-armée-État des médias",
-      "Principe de la distance"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/Society/pts-public-television-service",
-    "readingTime": 162,
+    "readingTime": 163,
     "featured": false,
     "date": "2026-05-27",
     "path": "fr/Society/pts-public-television-service.md"
@@ -36607,12 +37024,12 @@
     "path": "es/History/hukou-camp-shengli-road-memory.md"
   },
   {
-    "title": "Las Dos Espadas de Softstar: Aquella tarde en que lloraste frente a la ventana de DOS",
-    "description": "En julio de 1995, un juego de DOS con resolución de 320×200 hizo que millones de jugadores derramaran por primera vez lágrimas por personajes virtuales. Paladin of Souls y Xuan-Yuan Sword, dos espadas forjadas en Neihu, Taipéi, definieron la imaginación de todo el mundo hispanohablante sobre «lo que un RPG puede ser».",
+    "title": "Las Dos Espadas de Softstar: Esa tarde en la ventana DOS en la que lloraste",
+    "description": "En julio de 1995, un juego DOS con resolución de 320×200 hizo que millones de jugadores derramaran lágrimas por primera vez por un personaje virtual. Xian Jian Qi Zhuan y Xuan Yuan Jian, dos espadas forjadas en Neihu, Taipéi, definieron la imaginación de todo el mundo hispanohablante sobre \"lo que puede ser un RPG\".",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Technology/softstar-twin-classics",
-    "readingTime": 68,
+    "readingTime": 138,
     "featured": false,
     "date": "2026-04-23",
     "path": "es/Technology/softstar-twin-classics.md"
@@ -36678,6 +37095,17 @@
     "featured": false,
     "date": "2026-05-02",
     "path": "fr/Culture/taiwanese-glove-puppetry-budaixi.md"
+  },
+  {
+    "title": "Le bulletin de vote : la base équitable fournie par l'État et le financement autonome des tracts de campagne",
+    "description": "Ce bulletin épais que chaque électeur reçoit avant de voter est le fruit d'une évolution de conception accumulée depuis 1980. La logique de séparation entre la prise en charge par l'État et le financement autonome par les candidats isole « ce que le candidat veut dire » de l'influence des annonceurs. C'est l'un des éléments les moins chers et les plus négligés de l'infrastructure démocratique taïwanaise.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Politics/election-bulletin-system",
+    "readingTime": 128,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "fr/Politics/election-bulletin-system.md"
   },
   {
     "title": "Le cerf sambar de Taïwan : de la « divinité disparue des montagnes » à l'ingénieur écologique de basse altitude",
@@ -37467,6 +37895,23 @@
     "path": "fr/Society/taiwan-unification-independence-spectrum.md"
   },
   {
+    "title": "Le système de la CEC : une conception contre-intuitive de double contrôle exécutif-législatif",
+    "description": "La Commission électorale centrale est nommée par le Premier ministre et approuvée par le Yuan législatif. Lorsque la majorité parlementaire appartient à l'opposition, la confirmation des nominations peut s'avérer difficile. Ce mécanisme, qui impose un contrôle mutuel entre les deux branches politiques, constitue la dernière assurance structurelle de l'intégrité électorale à Taïwan — non pas un dysfonctionnement, mais une caractéristique délibérée.",
+    "category": "fr",
+    "tags": [
+      "中選會",
+      "中央選舉委員會",
+      "選舉制度",
+      "獨立機關",
+      "2026選舉"
+    ],
+    "url": "https://taiwan.md/fr/Politics/central-election-commission",
+    "readingTime": 97,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "fr/Politics/central-election-commission.md"
+  },
+  {
     "title": "Le système de santé taïwanais et l'Assurance Maladie Universelle",
     "description": "Le paradoxe d'une couverture à 99 % : classée première mondiale par Numbeo pendant six années consécutives, pourquoi l'assurance maladie taïwanaise repose-t-elle sur l'épuisement du personnel soignant ?",
     "category": "fr",
@@ -37487,6 +37932,34 @@
     "featured": true,
     "date": "2026-04-26",
     "path": "fr/Lifestyle/transportation-system.md"
+  },
+  {
+    "title": "Le système des chefs de village et de quartier : 7 748 élus, l'unité politique la plus locale de Taïwan",
+    "description": "Le bureau de quartier à cinq heures et demie du matin, une indemnité mensuelle de 45 000 NT$, plus de 60 % sans étiquette partisane — le chef de village ou de quartier est le mandat électif le moins « politique » des élections taïwanaises, et pourtant la preuve la plus complète de la démocratisation de l''île. Du système baojia de l''ère coloniale japonaise à l''élection directe en 1950, ces 7 748 postes — plus nombreux que les 7-Eleven — assurent depuis quatre-vingts ans la gestion locale des relations de proximité.",
+    "category": "fr",
+    "tags": [
+      "村里長",
+      "基層自治",
+      "地方制度法",
+      "日治保甲",
+      "2026選舉"
+    ],
+    "url": "https://taiwan.md/fr/Politics/village-chief-system",
+    "readingTime": 136,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "fr/Politics/village-chief-system.md"
+  },
+  {
+    "title": "Le système des conseillers municipaux : pourquoi il diffère des législateurs, et les 30 ans du SNTV dans la politique locale",
+    "description": "En 2008, l'élection des législateurs a adopté le scrutin uninominal majoritaire à deux tours, tandis que l'élection des conseillers municipaux de la même année a conservé le système SNTV datant des années 1980 — un même pays, un même électorat, des fonctions différentes sur le même bulletin de vote, mais deux ensembles de règles du jeu complètement distincts. Ce n'est pas un bug, c'est la plus grande affaire inachevée de l'histoire de la réforme électorale à Taiwan, liée aux factions locales, aux intérêts des partis et aux coûts d'accompagnement. Une carte institutionnelle détaillant le fonctionnement des deux systèmes, pourquoi l'un a été réformé et pas l'autre, et ce que cela signifie pour les petits partis et la représentation pluraliste.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Politics/city-councilor-system-taiwan",
+    "readingTime": 154,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "fr/Politics/city-councilor-system-taiwan.md"
   },
   {
     "title": "Le système des zones panoramiques nationales de Taïwan",
@@ -38171,11 +38644,11 @@
   },
   {
     "title": "Les Deux Épées de Softstar : cet après-midi où tu as pleuré dans une fenêtre DOS",
-    "description": "En juillet 1995, un jeu DOS en résolution 320×200 a fait pleurer des millions de joueurs pour la première fois à cause de personnages virtuels. The Legend of Sword and Fairy et Xuan-Yuan Sword, deux épées forgées à Neipei, Taipei, ont défini l'imagination de l'ensemble du monde sinophone quant à « ce qu'un RPG peut être ».",
+    "description": "En juillet 1995, un jeu DOS en résolution 320×200 a fait pleurer pour la première fois des millions de joueurs pour des personnages virtuels. The Legend of Sword and Fairy et Xuan-Yuan Sword, deux épées forgées à Neihu, Taipei, ont défini l'imagination de l'ensemble du monde sinophone quant à ce qu'un RPG peut être.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Technology/softstar-twin-classics",
-    "readingTime": 70,
+    "readingTime": 140,
     "featured": false,
     "date": "2026-04-23",
     "path": "fr/Technology/softstar-twin-classics.md"
@@ -38313,6 +38786,17 @@
     "featured": true,
     "date": "2026-03-22",
     "path": "fr/Geography/offshore-islands-and-maritime-culture.md"
+  },
+  {
+    "title": "Les lanternes célestes : signal de paix en 1820, 326 kilogrammes de déchets forestiers en 2019, les mêmes habitants de Pingxi portant deux identités",
+    "description": "Dans les années 1820, la famille Hu lança la première lanterne céleste depuis Shifenliao pour signaler que tout allait bien. Deux cents ans plus tard, lors de la fête des Lanternes 2019, des bénévoles américains ramassèrent 326 kilogrammes de débris de lanternes le long du chemin de fer de Pingxi en deux heures. Gagner d'un côté, perdre de l'autre, nettoyer en parallèle — le président de l'association des lanternes célestes s'appelle M. Hu, la victime dont la maison a brûlé s'appelle aussi M. Hu, la marchande de 88 ans du vieux quartier, maman Tsai, et Chen Chien-che de l'Alliance pour la protection de la rivière Keelung boivent l'eau du même cours d'eau. En 2025, le règlement d'autonomie a été adopté en troisième lecture. Les habitants de Pingxi explorent la quatrième voie de la transformation festive.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Culture/sky-lanterns-pingxi",
+    "readingTime": 146,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "fr/Culture/sky-lanterns-pingxi.md"
   },
   {
     "title": "Les mèmes de Ma Ying-jeou : de la « poignée de mort » au « méduse-cerveau de Ma », comment la culture internet a remodelé l'image d'un homme politique",
@@ -39890,15 +40374,7 @@
     "title": "Ma Ying-jeou : docteur en droit de Harvard entré au bureau de Chiang Ching-kuo comme traducteur anglais, président pendant huit ans appuyé sur une image d'« intégrité », et qui a laissé derrière lui les deux rives, les Tournesols et les 22K",
     "description": "Le 7 novembre 2015, au Shangri-La de Singapour, il serre la main de Xi Jinping pendant 1 minute 20 secondes : première rencontre entre les plus hauts dirigeants des deux rives depuis 1949. Une même photographie que la société taïwanaise continue de se rappeler de deux manières radicalement différentes : d'un côté, on y voit une percée historique ; de l'autre, une concession de subjectivité politique. Son image d'« intégrité » construite pendant huit ans de présidence, les relations entre les deux rives, les 22K et le Mouvement des Tournesols, puis deux visites en Chine durant la décennie qui suit son départ du pouvoir et la déclaration familiale de 2026, ne font toujours pas consensus aujourd'hui.",
     "category": "fr",
-    "tags": [
-      "président",
-      "Kuomintang",
-      "relations entre les deux rives",
-      "ECFA",
-      "Mouvement étudiant des Tournesols",
-      "rencontre Ma-Xi",
-      "maire de Taipei"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/People/ma-ying-jeou-cross-strait-reconciliation-leader",
     "readingTime": 221,
     "featured": false,
@@ -39920,15 +40396,7 @@
     "title": "Ma Ying-jeou: el doctor en Derecho de Harvard que entró a la oficina de Chiang Ching-kuo como traductor de inglés, fue presidente durante ocho años apoyado en una imagen de “integridad” y dejó como legado las relaciones a través del Estrecho, el Movimiento Girasol y el 22K",
     "description": "El 7 de noviembre de 2015, en el Shangri-La de Singapur, estrechó la mano de Xi Jinping durante 1 minuto y 20 segundos: fue el primer encuentro entre los máximos líderes de ambos lados del Estrecho desde 1949. Esa misma fotografía sigue siendo recordada por la sociedad taiwanesa de dos maneras completamente distintas: para unos, como una ruptura histórica; para otros, como una concesión de subjetividad política. Su imagen de “integridad” tras ocho años de presidencia, las relaciones a través del Estrecho, el 22K y el Movimiento Girasol, sumados a sus dos visitas a China en la década posterior a dejar el cargo y a la declaración de sus familiares en 2026, siguen sin una conclusión definitiva hasta hoy.",
     "category": "es",
-    "tags": [
-      "presidente",
-      "Kuomintang",
-      "relaciones a través del Estrecho",
-      "ECFA",
-      "Movimiento Estudiantil Girasol",
-      "encuentro Ma-Xi",
-      "alcalde de Taipéi"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/People/ma-ying-jeou-cross-strait-reconciliation-leader",
     "readingTime": 235,
     "featured": false,
@@ -39939,15 +40407,7 @@
     "title": "Ma Ying-jeou: The Harvard Doctor of Law Who Entered Chiang Ching-kuo's Office as an English Interpreter, Served Eight Years as a President Grounded in a 'Clean' Image, and Left Behind Cross-Strait Policy, the Sunflower Movement, and 22K",
     "description": "On November 7, 2015, at the Shangri-La in Singapore, he shook Xi Jinping's hand for 1 minute and 20 seconds: the first meeting between the top leaders on the two sides of the Taiwan Strait since 1949. Taiwan society still remembers the same photograph in two completely different ways: one side sees a historic breakthrough; the other sees a concession of subjectivity. His 'clean' image after eight years as president, cross-strait policy, 22K, and the Sunflower Movement, together with two post-presidency visits to China over the following decade and the 2026 family statement, remain unsettled to this day.",
     "category": "en",
-    "tags": [
-      "President",
-      "Kuomintang",
-      "Cross-Strait Relations",
-      "ECFA",
-      "Sunflower Movement",
-      "Ma-Xi Meeting",
-      "Taipei Mayor"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/People/ma-ying-jeou-cross-strait-reconciliation-leader",
     "readingTime": 211,
     "featured": false,
@@ -42063,7 +42523,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Food/taiwan-food-overview",
-    "readingTime": 280,
+    "readingTime": 279,
     "featured": true,
     "date": "2026-05-18",
     "path": "es/Food/taiwan-food-overview.md"
@@ -42698,6 +43158,17 @@
     "path": "es/Economy/taiwan-international-trade-policy.md"
   },
   {
+    "title": "Political Donation Transparency: The Control Yuan Platform, g0v Visualization, and 22 Years of Openness Infrastructure",
+    "description": "Open the Control Yuan's political donation public search platform, enter any candidate's name, and you can find out who gave them money, how much, and what campaign activities the funds went toward. This infrastructure didn't fall from the sky — it was built step by step through the 2004 Political Donations Act, the 2008 platform launch, the 2017 data-openness agreement between the CEC and the Control Yuan, and a decade of g0v engineers filling in with visualization tools — one law at a time, one accounting report at a time, one civic engineer at a time.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Politics/political-donation-transparency",
+    "readingTime": 103,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "en/Politics/political-donation-transparency.md"
+  },
+  {
     "title": "Politique commerciale internationale de Taïwan : trouver sa place dans la vague de la mondialisation",
     "description": "Taïwan, économie orientée vers le commerce, déploie des stratégies commerciales diversifiées, dont la candidature au CPTPP et la Nouvelle politique en direction du Sud, afin de chercher des percées dans l'espace économique et commercial international malgré les contraintes géopolitiques.",
     "category": "fr",
@@ -42943,26 +43414,15 @@
     "path": "fr/Nature/typhoons-in-taiwan.md"
   },
   {
-    "title": "Prisión de Green Island: estratos de memoria, de cárcel negra política a patria de los jefes del hampa",
-    "description": "Green Island, esta isla solitaria del Pacífico, fue en otro tiempo el infierno de los presos políticos durante el Terror Blanco y también el destino final de los grandes jefes del hampa. Desde el Centro de Instrucción de los Nuevos Nacidos hasta la Aldea Chongde, ¿cómo la historia de la Prisión de Green Island superpone las contradicciones y memorias de la sociedad taiwanesa?",
+    "title": "Prisión de Isla Verde: De los calabozos políticos a las capas de memoria del hogar de los capos",
+    "description": "Isla Verde, esta isla solitaria en el Pacífico, fue un infierno para los presos políticos durante el Terror Blanco y también el destino final de los capos del hampa. Desde el Centro de Reeducación de Xinsheng hasta la Aldea Chongde, ¿cómo la historia de la prisión de Isla Verde refleja las contradicciones y la memoria de la sociedad taiwanesa?",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/History/green-island-prison",
-    "readingTime": 69,
+    "readingTime": 67,
     "featured": false,
     "date": "2026-05-15",
     "path": "es/History/green-island-prison.md"
-  },
-  {
-    "title": "Prison de Green Island : superposition de mémoires, du cachot politique à la « patrie des grands frères »",
-    "description": "Green Island, cette île isolée du Pacifique, fut à la fois le purgatoire des prisonniers politiques pendant la Terreur blanche et l’ultime destination des parrains du crime organisé. Du Centre d’instruction des nouveaux arrivants au village de Chongde, comment l’histoire de la prison de Green Island superpose-t-elle les contradictions et les mémoires de la société taïwanaise ?",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/History/green-island-prison",
-    "readingTime": 71,
-    "featured": false,
-    "date": "2026-05-15",
-    "path": "fr/History/green-island-prison.md"
   },
   {
     "title": "Prosa taiwanesa",
@@ -43150,16 +43610,7 @@
     "title": "Public Television: From the NT$900 Million Golden Headband to Expulsion from the Legislative Chamber, Twenty-Eight Years of Independence Still Unfinished",
     "description": "When PTS went on air in 1998, the Public Television Act required government-donated funding to decrease year by year and eventually froze it at NT$900 million annually. That provision bound PTS for 23 years. In the meantime, it nurtured five flagship Taiwanese dramas that shook society: The World Between Us, Gold Leaf, The Teenage Psychic, Wake Up, and A Touch of Green. In May 2023, legal amendments lifted the golden headband, and the budget more than doubled to NT$2.3 billion. But 19 months later, 1% of the budget was cut and 25% frozen; another year later, in May 2026, Chairperson Hu Yuan-hui was asked to leave the Legislative Yuan chamber. What PTS has proved over 28 years is this: removing the golden headband does not mean independence has been built.",
     "category": "en",
-    "tags": [
-      "Media",
-      "Public Television",
-      "Cultural Policy",
-      "Film and Television Industry",
-      "Political Parties",
-      "Government",
-      "and Military Exit from Media",
-      "Arms-Length Principle"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/Society/pts-public-television-service",
     "readingTime": 146,
     "featured": false,
@@ -43399,6 +43850,17 @@
     "featured": false,
     "date": "2026-05-16",
     "path": "es/Geography/qingtiangang.md"
+  },
+  {
+    "title": "Qu'est-ce que l'élection « neuf-en-un » ? Neuf fonctions, quatre réorganisations territoriales, trente ans d'évolution de l'autonomie locale",
+    "description": "Le terme « neuf-en-un » a été utilisé pour la première fois de manière généralisée en 2014. Il résulte de quatre réorganisations territoriales — la promotion de Taipei et Kaohsiung en 1967, celle de Kaohsiung en 1979, la création des « cinq municipalités spéciales » en 2010, et la promotion de Taoyuan en 2014 — ainsi que de trois jalons institutionnels : la première élection populaire des maires de municipalités spéciales en 1994, l'unification par la Loi sur l'organisation locale en 1999, et la création des chefs de district autochtone de montagne en 2014. Le vote simultané de neuf fonctions — maires de municipalités spéciales / conseillers municipaux de municipalités spéciales / magistrats de comté et de ville / conseillers de comté et de ville / maires de canton et de ville / représentants de canton et de ville / chefs de district autochtone de montagne / représentants de district autochtone de montagne / chefs de village ou de quartier — est le produit cumulé de trente ans d'évolution de l'autonomie locale à Taïwan.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Politics/nine-in-one-elections-explained",
+    "readingTime": 95,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "fr/Politics/nine-in-one-elections-explained.md"
   },
   {
     "title": "Quand l'épidémie s'éteint, les feux d'artifice deviennent tradition : l'évolution inattendue des fêtes à Taïwan",
@@ -44104,12 +44566,21 @@
     "path": "fr/People/samuel-yin-yan-liang.md"
   },
   {
+    "title": "Samuel Yin: el premio científico que construyó vale más que el Nobel",
+    "description": "El 26 de mayo de 2026, a las cuatro horas y veintiuna minutos de la madrugada, Samuel Yin, presidente del Grupo Ruentex y fundador del Tang Prize, falleció en el Hospital General de Veteranos de Taipéi a los 76 años de edad. Desde el adolescente pendenciero al que Wang Jinping vendó las heridas en la secundaria Jin De, hasta su llegada en 1989 a la Universidad de Pekín con el polvo cubriéndole los tobillos y su decisión de financiar la fundación de la Guanghua School of Management, hasta la creación en 2012 del Tang Prize con un fondo fiduciario de 3,000 millones de dólares taiwaneses. El premio asciende a 50 millones de dólares taiwaneses por categoría, más que el Nobel. Un empresario taiwanés que acaba de partir dejó al mundo un premio más valioso que el Nobel.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/People/samuel-yin-yan-liang",
+    "readingTime": 164,
+    "featured": true,
+    "date": "2026-05-26",
+    "path": "es/People/samuel-yin-yan-liang.md"
+  },
+  {
     "title": "Samuel Yin: The Science Prize He Built Is Worth More Than a Nobel",
     "description": "At 4:21 a.m. on May 26, 2026, Samuel Yin, chairman of the Ruentex Group, passed away at Taipei Veterans General Hospital at the age of 76. From a brawling teenager whose wounds were dressed by Wang Jin-pyng at Chin Teh Middle School, to the man who walked into a dust-covered Peking University in 1989 and funded the founding of the Guanghua School of Management, to the 2012 donation of a NT$3 billion trust fund to establish the Tang Prize — with each category carrying a prize of NT$50 million, exceeding the Nobel. A Taiwanese businessman who just left the world a prize more valuable than a Nobel.",
     "category": "en",
-    "tags": [
-      "["
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/People/samuel-yin-yan-liang",
     "readingTime": 145,
     "featured": true,
@@ -44268,42 +44739,6 @@
     "featured": false,
     "date": "2026-04-17",
     "path": "fr/Society/earthquakes-in-taiwan.md"
-  },
-  {
-    "title": "Semiconductor Industry",
-    "description": "From Morris Chang's Historical Bet to the 2nm Era: How TSMC Made Taiwan the Global Tech Lifeline",
-    "category": "ja",
-    "tags": [
-      "semiconductor",
-      "TSMC",
-      "TSMC",
-      "advanced process",
-      "tech island",
-      "silicon shield"
-    ],
-    "url": "https://taiwan.md/ja/Technology/taiwan-semiconductor-industry",
-    "readingTime": 62,
-    "featured": true,
-    "date": "2026-03-17",
-    "path": "ja/Technology/taiwan-semiconductor-industry.md"
-  },
-  {
-    "title": "Semiconductor Industry",
-    "description": "From Morris Chang's Historical Bet to the 2-Nanometer Era: How TSMC Made Taiwan the Global Tech Lifeline",
-    "category": "ko",
-    "tags": [
-      "semiconductor",
-      "TSMC",
-      "Taiwan Semiconductor Manufacturing Company",
-      "advanced process",
-      "tech island",
-      "silicon shield"
-    ],
-    "url": "https://taiwan.md/ko/Technology/taiwan-semiconductor-industry",
-    "readingTime": 63,
-    "featured": true,
-    "date": "2026-03-17",
-    "path": "ko/Technology/taiwan-semiconductor-industry.md"
   },
   {
     "title": "Semiconductor Industry: Fifty Years of Materials Revolution from RCA Technology Transfer to Gallium Nitride and Quantum Packaging",
@@ -44526,6 +44961,34 @@
     "path": "es/Geography/44-south-village.md"
   },
   {
+    "title": "Sistema de juntas de aldea y barrio: 7.748 juntas electas, la unidad política más básica de Taiwán",
+    "description": "La oficina de barrio abierta a las cinco y media de la mañana, un subsidio mensual de 45.000 por gastos operativos, más del 60 % sin afiliación partidista: los jefes de aldea y barrio son el cargo político menos \"político\" de las elecciones taiwanesas, y también la evidencia más completa de la democratización de Taiwán. Desde el sistema baojia de la era colonial japonesa hasta las elecciones directas de 1950, estos 7.748 cargos —más que los establecimientos de 7-Eleven en toda la isla— representan ochenta años de representación de las relaciones locales.",
+    "category": "es",
+    "tags": [
+      "村里長",
+      "基層自治",
+      "地方制度法",
+      "日治保甲",
+      "2026選舉"
+    ],
+    "url": "https://taiwan.md/es/Politics/village-chief-system",
+    "readingTime": 128,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "es/Politics/village-chief-system.md"
+  },
+  {
+    "title": "Sistema de la CEC: un diseño contraintuitivo de doble control ejecutivo-legislativo",
+    "description": "La Comisión Central de Elecciones es nombrada por el primer ministro con la aprobación del Legislativo. Cuando el gobierno es minoritario en el Legislado, la confirmación puede ser difícil. Este diseño, que obliga a los dos poderes políticos a controlarse mutuamente, es la última garantía estructural de la imparcialidad electoral en Taiwán, y no un error del sistema.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Politics/central-election-commission",
+    "readingTime": 101,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "es/Politics/central-election-commission.md"
+  },
+  {
     "title": "Sistema democrático: de la derogación de la ley marcial en 1987 a Lai Ching-te en 2024, coordenadas de treinta y siete años de democracia en Taiwán",
     "description": "Taiwán inició en 1949 un régimen autoritario de 38 años bajo ley marcial, que fue levantada el 15 de julio de 1987; en 1996 celebró su primera elección presidencial directa (Lee Teng-hui), y en 2000 tuvo su primera alternancia partidaria (Chen Shui-bian). El 17 de mayo de 2019 se convirtió en la primera jurisdicción de Asia en legalizar el matrimonio entre personas del mismo sexo. El 13 de enero de 2024, Lai Ching-te fue elegido 16.º presidente con el 40.05% y 5.58 millones de votos, dando al Partido Democrático Progresista su primera tercera victoria consecutiva; el Kuomintang recuperó la posición de mayor partido en el Yuan Legislativo (52 escaños), frente a 51 escaños del Partido Democrático Progresista y 8 del Partido Popular de Taiwán, sin que ninguno de los tres partidos alcanzara la mayoría.",
     "category": "es",
@@ -44599,6 +45062,17 @@
     "featured": false,
     "date": "2026-03-17",
     "path": "es/resources/official-websites.md"
+  },
+  {
+    "title": "Sky Lanterns: A Signal of Peace in 1820, 326 Kilograms of Mountain Waste in 2019 — The Same Pingxi People Carrying Two Identities",
+    "description": "In the 1820s, the Hu family released the first sky lantern in Shifenliao as a signal of peace. Two hundred years later, on the Lantern Festival of 2019, American volunteers collected 326 kilograms of sky lantern debris along the Pingxi railway in just two hours. Earning, paying, cleaning — the chairman of the Sky Lantern Association is surnamed Hu, and the victim whose house burned down is also surnamed Hu. Eighty-eight-year-old Mama Cai, a vendor on the Old Street, and Chen Chien-chih of the Keelung River Guardian Alliance drink from the same river. In 2025, the autonomous ordinance was passed on its third reading. The people of Pingxi are now trying a fourth path of festival transformation.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Culture/sky-lanterns-pingxi",
+    "readingTime": 127,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "en/Culture/sky-lanterns-pingxi.md"
   },
   {
     "title": "Social Housing and Housing Justice",
@@ -44692,14 +45166,14 @@
     "path": "en/Music/sodagreen.md"
   },
   {
-    "title": "Softstar's Twin Classics: That Afternoon You Cried at a DOS Window",
-    "description": "In July 1995, a DOS game running at 320x200 resolution made millions of players cry over virtual characters for the first time. The Legend of Sword and Fairy and Xuan-Yuan Sword — two blades forged in Taipei's Neihu district — defined an entire Chinese-speaking world's imagination of what an RPG could be.",
+    "title": "Softstar's Twin Classics: That Afternoon You Cried in a DOS Window",
+    "description": "In July 1995, a DOS game at 320×200 resolution made millions of players cry over a virtual character for the first time. The Legend of Sword and Fairy and Xuan-Yuan Sword — two blades forged in Neihu, Taipei — defined the entire Chinese-speaking world's imagination of what an RPG could be.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Technology/softstar-twin-classics",
-    "readingTime": 60,
+    "readingTime": 126,
     "featured": false,
-    "date": "2026-04-23",
+    "date": "2026-05-26",
     "path": "en/Technology/softstar-twin-classics.md"
   },
   {
@@ -45255,7 +45729,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Music/sunset-rollercoaster",
-    "readingTime": 172,
+    "readingTime": 173,
     "featured": true,
     "date": "2026-05-23",
     "path": "fr/Music/sunset-rollercoaster.md"
@@ -45908,17 +46382,17 @@
   },
   {
     "title": "Taiwan Elections and Party Politics",
-    "description": "From the flames of the Zhongli Incident to 8.17 million votes, how Taiwan spent half a century turning voting from a martial law instrument into a civic faith",
+    "description": "From the flames of the Zhongli Incident to 8.17 million votes, how Taiwan spent half a century turning voting from a martial law tool into a civic faith",
     "category": "en",
     "tags": [
-      "Elections",
-      "Democratization",
-      "Party Politics",
-      "Tangwai Movement",
-      "Direct Presidential Election"
+      "選舉",
+      "民主化",
+      "政黨政治",
+      "黨外運動",
+      "總統直選"
     ],
     "url": "https://taiwan.md/en/History/taiwan-elections-and-party-politics",
-    "readingTime": 70,
+    "readingTime": 140,
     "featured": false,
     "date": "2026-03-20",
     "path": "en/History/taiwan-elections-and-party-politics.md"
@@ -46791,7 +47265,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/History/taiwan-transitional-justice",
-    "readingTime": 79,
+    "readingTime": 81,
     "featured": false,
     "date": "2026-03-31",
     "path": "en/History/taiwan-transitional-justice.md"
@@ -46855,17 +47329,9 @@
     "title": "Taiwan White Terror",
     "description": "The 38-year martial law was not maintained by a few thousand secret agents, but by the 'joint liability guarantee' system where every family in Taiwan had to mutually guarantee each other to work, enroll in school, or marry. Chen Chih-hsiung, Shih Shui-huan, Gao Yi-sheng, and Bo Yang—four names, four reasons for arrest, one common machine.",
     "category": "fr",
-    "tags": [
-      "History",
-      "White Terror",
-      "Martial Law",
-      "Political Persecution",
-      "Joint Liability Guarantee",
-      "Green Island",
-      "Machangting"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/History/taiwan-white-terror",
-    "readingTime": 95,
+    "readingTime": 97,
     "featured": false,
     "date": "2026-04-05",
     "path": "fr/History/taiwan-white-terror.md"
@@ -47189,63 +47655,22 @@
   },
   {
     "title": "Taiwan's Defense and Military Modernization",
-    "description": "In October 2025, Lai Ching-te presided over the commissioning of an M1A2T tank battalion in Hukou. In the same month, former Chief of the General Staff Li Hsi-ming smiled wryly, saying, 'If tanks can be asymmetric weapons, what isn't an asymmetric weapon?' This is the story of an island torn between two defense logics.",
+    "description": "In October 2025, Lai Ching-te presided over the activation of the M1A2T tank battalion at Hukou. That same month, former Chief of the General Staff Lee Hsi-ming said with a wry smile: 'If a tank can be called an asymmetric weapon, then what can't be called an asymmetric weapon?' This is the story of an island torn between two defense logics.",
     "category": "en",
-    "tags": [],
+    "tags": [
+      "國防",
+      "軍事",
+      "不對稱作戰",
+      "豪豬戰略",
+      "無人機",
+      "兵役",
+      "全民防衛"
+    ],
     "url": "https://taiwan.md/en/Society/taiwan-defense-modernization",
-    "readingTime": 121,
+    "readingTime": 10,
     "featured": false,
     "date": "2026-04-10",
     "path": "en/Society/taiwan-defense-modernization.md"
-  },
-  {
-    "title": "Taiwan's Defense and Military Modernization",
-    "description": "In October 2025, Lai Ching-te presided over the commissioning of an M1A2T tank battalion in Hukou. In the same month, former Chief of the General Staff Li Hsi-ming smiled wryly and said, 'If tanks can be asymmetric weapons, what isn't an asymmetric weapon?' This is the story of an island pulling between two defense logics.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/Society/taiwan-defense-modernization",
-    "readingTime": 120,
-    "featured": false,
-    "date": "2026-04-10",
-    "path": "es/Society/taiwan-defense-modernization.md"
-  },
-  {
-    "title": "Taiwan's Defense and Military Modernization",
-    "description": "In October 2025, Lai Ching-te presided over the commissioning of an M1A2T tank battalion in Hukou. In the same month, former Chief of the General Staff Li Hsi-ming smiled wryly and said, 'If tanks can be asymmetric weapons, what is not an asymmetric weapon?' This is the story of an island torn between two defense logics.",
-    "category": "fr",
-    "tags": [
-      "Defense",
-      "Military",
-      "Asymmetric Warfare",
-      "Porcupine Strategy",
-      "Drones",
-      "Military Service",
-      "Total Defense"
-    ],
-    "url": "https://taiwan.md/fr/Society/taiwan-defense-military-modernization",
-    "readingTime": 119,
-    "featured": false,
-    "date": "2026-04-10",
-    "path": "fr/Society/taiwan-defense-military-modernization.md"
-  },
-  {
-    "title": "Taiwan's Defense and Military Modernization",
-    "description": "In October 2025, Lai Ching-te presided over the commissioning of the M1A2T tank battalion in Hukou. That same month, former Chief of the General Staff Li Hsi-ming smiled bitterly, saying, 'If tanks can be asymmetric weapons, what isn't an asymmetric weapon?' This is the story of an island torn between two defense logics.",
-    "category": "ko",
-    "tags": [
-      "Defense",
-      "Military",
-      "Asymmetric Warfare",
-      "Porcupine Strategy",
-      "Drones",
-      "Military Service",
-      "Total Defense"
-    ],
-    "url": "https://taiwan.md/ko/Society/national-defense-modernization",
-    "readingTime": 119,
-    "featured": false,
-    "date": "2026-04-10",
-    "path": "ko/Society/national-defense-modernization.md"
   },
   {
     "title": "Taiwan's Democratic Transformation — The Authoritarian Regime's Self‑Digged Grave",
@@ -47759,17 +48184,6 @@
     "path": "en/Music/taiwan-music-industry-and-the-streaming-era.md"
   },
   {
-    "title": "Taiwan's National Defense and Military Modernization",
-    "description": "In October 2025, Lai Ching-te presided over the commissioning of an M1A2T tank battalion in Hukou. In the same month, former Chief of the General Staff Li Hsi-ming smiled wryly, saying, 'If tanks can be asymmetric weapons, what is not an asymmetric weapon?' This is the story of an island torn between two national defense logics.",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Society/taiwan-defense-modernization",
-    "readingTime": 121,
-    "featured": false,
-    "date": "2026-04-10",
-    "path": "ja/Society/taiwan-defense-modernization.md"
-  },
-  {
     "title": "Taiwan’s Neighborhood and Li (里) Culture",
     "description": "From the grassroots of democracy to community‑building movements, Taiwan’s li system shows how civic life is practiced on the street level.",
     "category": "en",
@@ -48236,7 +48650,7 @@
       "馬場町"
     ],
     "url": "https://taiwan.md/en/History/taiwan-white-terror",
-    "readingTime": 95,
+    "readingTime": 96,
     "featured": true,
     "date": "2026-04-05",
     "path": "en/History/taiwan-white-terror.md"
@@ -48245,17 +48659,9 @@
     "title": "Taiwan's White Terror",
     "description": "The 38-year martial law was not maintained by a few thousand secret agents, but by the 'joint liability guarantee' system where every family in Taiwan had to mutually guarantee each other's employment, school enrollment, and marriage. Chen Zhi-xiong, Shi Shui-huan, Gao Yi-sheng, and Bo Yang—four names, four reasons for arrest, one common machine.",
     "category": "es",
-    "tags": [
-      "History",
-      "White Terror",
-      "Martial Law",
-      "Political Persecution",
-      "Joint Liability Guarantee",
-      "Green Island",
-      "Machangting"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/History/taiwan-white-terror",
-    "readingTime": 94,
+    "readingTime": 96,
     "featured": false,
     "date": "2026-04-05",
     "path": "es/History/taiwan-white-terror.md"
@@ -48264,17 +48670,9 @@
     "title": "Taiwan's White Terror",
     "description": "The 38-year martial law was not maintained by a few thousand secret agents, but by the 'joint liability guarantee' system that required every family in Taiwan to mutually guarantee each other for employment, school admission, and marriage. Chen Zhi-xiong, Shi Shui-huan, Gao Yi-sheng, and Bo Yang—four names, four reasons for arrest, one common machine.",
     "category": "ko",
-    "tags": [
-      "History",
-      "White Terror",
-      "Martial Law",
-      "Political Persecution",
-      "Joint Liability Guarantee",
-      "Green Island",
-      "Machangting"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/History/taiwan-white-terror",
-    "readingTime": 94,
+    "readingTime": 95,
     "featured": false,
     "date": "2026-04-05",
     "path": "ko/History/taiwan-white-terror.md"
@@ -48508,7 +48906,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Food/taiwan-food-overview",
-    "readingTime": 252,
+    "readingTime": 253,
     "featured": true,
     "date": "2026-05-18",
     "path": "en/Food/taiwan-food-overview.md"
@@ -49156,14 +49554,7 @@
     "title": "Televisión pública: del hechizo de los nueve mil millones a la expulsión del hemiciclo, veintiocho años de independencia aún sin escribir",
     "description": "Cuando la televisión pública (PTS) inició sus transmisiones en 1998, la Ley de Televisión Pública fijó una reducción progresiva de la subvención gubernamental hasta congelarla en 900 millones de dólares taiwaneses al año, una cláusula que permaneció vigente durante 23 años. En ese período produjo cinco series insignia que sacudieron a la sociedad: *La distancia entre nosotros y el mal*, *Té dorado*, *La médium*, *Tormenta anestésica* y *Una mata de verde*. En mayo de 2023, una reforma legal deshizo el hechizo y el presupuesto se duplicó a 2.300 millones, pero 19 meses después se recortó un 1 % y se congeló un 25 %; un año más tarde, en mayo de 2026, el presidente Hu Yuanhui fue expulsado del hemiciclo legislativo. En 28 años, la televisión pública ha demostrado algo: deshacer el hechizo no equivale a establecer la independencia.",
     "category": "es",
-    "tags": [
-      "Medios de comunicación",
-      "Televisión pública",
-      "Política cultural",
-      "Industria audiovisual",
-      "Retiro del partido-gobierno-militar de los medios",
-      "Principio de distancia (arms length)"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/Society/pts-public-television-service",
     "readingTime": 166,
     "featured": false,
@@ -49359,6 +49750,23 @@
     "path": "en/Society/breakfast-shops-and-community-intelligence-network.md"
   },
   {
+    "title": "The CEC System: A Counterintuitive Design of Dual Executive-Legislative Checks",
+    "description": "The Central Election Commission's members are nominated by the Premier and confirmed by the Legislative Yuan. When the ruling party holds a minority in the legislature, nominations may be difficult to pass. This design, which forces the two political branches to check each other, is the last structural safeguard of electoral fairness in Taiwan — not a bug.",
+    "category": "en",
+    "tags": [
+      "中選會",
+      "中央選舉委員會",
+      "選舉制度",
+      "獨立機關",
+      "2026選舉"
+    ],
+    "url": "https://taiwan.md/en/Politics/central-election-commission",
+    "readingTime": 84,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "en/Politics/central-election-commission.md"
+  },
+  {
     "title": "The Civilization Clash on the Keyboard: A Century of East Asian Input Method Evolution",
     "description": "When keyboards around the world all look the same, how do different civilizations cram their writing systems into 26 English letters? From Taiwan's Bopomofo to Korea's Dubeolsik, input methods are a silent cultural defense war.",
     "category": "en",
@@ -49368,6 +49776,24 @@
     "featured": true,
     "date": "2026-03-19",
     "path": "en/Technology/east-asian-input-methods.md"
+  },
+  {
+    "title": "The Councilor System: Why It Differs from the Legislator System, and SNTV's 30 Years in Local Politics",
+    "description": "In 2008, legislators switched to the single-member district two-vote system, while that same year's city and county councilor elections still used the SNTV system from the 1980s — the same country, the same voters, different offices on the same ballot, yet governed by two entirely different sets of rules. This is not a bug; it is the greatest unfinished business in Taiwan's electoral reform history, bound up with local factions, party interests, and the costs of complementary reforms. A structural map of how the two systems operate, why one was reformed and the other was not, and what this means for small parties and diverse representation.",
+    "category": "en",
+    "tags": [
+      "議員",
+      "選舉制度",
+      "SNTV",
+      "單一選區兩票制",
+      "立法委員",
+      "2026選舉"
+    ],
+    "url": "https://taiwan.md/en/Politics/city-councilor-system-taiwan",
+    "readingTime": 127,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "en/Politics/city-councilor-system-taiwan.md"
   },
   {
     "title": "Thé de Sanxia : de l’inflexion spiralée du « Qingxin Ganzai » à la montée en valeur miellée du thé d’été",
@@ -50240,6 +50666,36 @@
     "path": "fr/History/taiwan-democratization.md"
   },
   {
+    "title": "Transparence des dons politiques : plateforme du Yuan de contrôle, visualisation g0v, 22 ans d'infrastructure de publication",
+    "description": "Ouvrez la plateforme publique de consultation des dons politiques du Yuan de contrôle, saisissez le nom de n'importe quel candidat, et vous pouvez voir de qui il a reçu combien d'argent et sur quelles activités de campagne il l'a dépensé. Cette infrastructure n'est pas tombée du ciel — elle a été construite article par article de loi, rapport par rapport comptable, ingénieur citoyen par ingénieur citoyen : la loi sur les dons politiques de 2004, la mise en ligne de la plateforme en 2008, l'accord de publication des données entre la Commission électorale centrale et le Yuan de contrôle en 2017, et dix ans de visualisation complémentaire par les ingénieurs de g0v.",
+    "category": "fr",
+    "tags": [
+      "政治獻金",
+      "透明度",
+      "監察院",
+      "g0v",
+      "選舉金流",
+      "2004立法",
+      "2026選舉"
+    ],
+    "url": "https://taiwan.md/fr/Politics/political-donation-transparency",
+    "readingTime": 121,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "fr/Politics/political-donation-transparency.md"
+  },
+  {
+    "title": "Transparencia de donaciones políticas: plataforma del Yuan de Control, visualización de g0v, 22 años de infraestructura de apertura",
+    "description": "Abra la plataforma pública de consulta de donaciones políticas del Yuan de Control, introduzca el nombre de cualquier candidato y podrá ver de cuánto dinero recibió y de quién, y en qué actividades de campaña lo gastó. Esta infraestructura no cayó del cielo: es el resultado de la promulgación de la Ley de Donaciones Políticas en 2004, la puesta en marcha de la plataforma en 2008, el acuerdo de apertura de datos entre la Comisión Electoral Central y el Yuan de Control en 2017, y una década de ingenieros ciudadanos de g0v cubriendo las brechas de visualización, construida ley por ley, informe contable por informe contable, ingeniero ciudadano por ingeniero ciudadano.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Politics/political-donation-transparency",
+    "readingTime": 118,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "es/Politics/political-donation-transparency.md"
+  },
+  {
     "title": "Travailleurs migrants internationaux : le « grand salon » de 870 000 personnes et la survie au-dessus des océans",
     "description": "En mars 2026, le nombre de travailleurs migrants à Taïwan a atteint 873 000 personnes ; avec les travailleurs en situation irrégulière, le total approche le million, soit plus de 5 % de la population résidente. Cet article analyse en profondeur les caractéristiques de la main-d'œuvre de quatre pays — Indonésie, Vietnam, Philippines et Thaïlande —, examine la revendication de la grande marche des travailleurs migrants pour « l'abolition de la durée maximale de travail », et présente de manière équilibrée les inquiétudes de l'opinion publique, la surveillance de l'opposition et la position du gouvernement en faveur d'une introduction « conditionnelle » des travailleurs indiens en 2026.",
     "category": "fr",
@@ -50928,6 +51384,17 @@
     "path": "en/Music/village-armed-youth.md"
   },
   {
+    "title": "Village Chief System: 7,748 Elected Heads, Taiwan’s Most Grassroots Political Unit",
+    "description": "A 5:30 a.m. village office, a monthly administrative subsidy of NT$45,000, over 60 % non‑partisan — the village chief is the political position that looks least like “politics” in Taiwan’s elections, and the most complete evidence of Taiwan’s democratization. From the Japanese‑era Baojia system to direct elections in 1950, this nationwide total of 7,748 positions—more than the number of 7‑Eleven stores—has been operating as a local‑relationship agency for eight decades.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Politics/village-chief-system",
+    "readingTime": 99,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "en/Politics/village-chief-system.md"
+  },
+  {
     "title": "Ville de Kaohsiung : en 1979, l’année de son élévation au rang de municipalité spéciale, huit habitants de Kaohsiung étaient enfermés dans une prison de Taipei",
     "description": "Le 1er juillet 1979, Kaohsiung devint la deuxième municipalité spéciale de Taïwan ; le 10 décembre, Journée mondiale des droits de l’homme, le meeting de la revue Formosa au rond-point de Dagangpu se transforma en affrontement sous les gaz lacrymogènes. Huit personnes furent condamnées ; le 28 février 1980, un massacre eut lieu au domicile de Lin Yi-hsiung, rue Xinyi à Taipei. Cette même année 1979, Kaohsiung reçut une gloire administrative et avala aussi la répression politique la plus lourde du Taïwan d’après-guerre. Ses 2,71 millions d’habitants sont dispersés dans 38 districts ; le cordon sableux de Cijin, les villages bunun de Namaxia, les cheminées de China Steel et le toit d’aluminium de Weiwuying cohabitent dans une même ville, qui a passé 45 ans à recoudre ses blessures jusqu’à leur donner sa propre forme.",
     "category": "fr",
@@ -51257,7 +51724,7 @@
   },
   {
     "title": "Wang Yung-ching : du rizier à la bataille de vingt ans pour la Sixième Raffinerie, puis le feuilleton de la succession",
-    "description": "Né le 18 janvier 1917 à Xindian, Taipei, Wang Yung-ching quitte l'école à 15 ans et emprunte pour ouvrir un commerce de riz. En 1954, il fonde Formosa Plastics. En 1973, il propose au gouvernement la construction de la Sixième Raffinerie de craquage léger (六輕), projet rejeté à plusieurs reprises ; après une bataille de près de vingt ans, l'autorisation est enfin accordée et la production démarre à Mailiao, dans le comté de Yunlin, en 1998. Il meurt le 15 octobre 2008 aux États-Unis, à l'âge de 92 ans, laissant derrière lui un conflit successoral familial qui s'étend sur plus d'une décennie.",
+    "description": "Né le 18 janvier 1917 à Xindian, Taipei, Wang Yung-ching quitte l'école à 15 ans et emprunte pour ouvrir un commerce de riz. En 1954, il fonde Formosa Plastics. En 1973, il soumet au gouvernement le projet de la Sixième Raffinerie de craquage léger (六輕), qui n'est approuvé qu'après près de vingt ans de lutte, pour une production en série lancée en 1998 à Mailiao, dans le comté de Yunlin. Il meurt le 15 octobre 2008 aux États-Unis, à l'âge de 92 ans, laissant derrière lui un conflit successoral familial qui s'étend sur plus d'une décennie.",
     "category": "fr",
     "tags": [
       "科技與企業",
@@ -51267,14 +51734,14 @@
       "企業家"
     ],
     "url": "https://taiwan.md/fr/People/yung-ching-wang-formosa-plastics-founder",
-    "readingTime": 63,
+    "readingTime": 64,
     "featured": false,
     "date": "2026-03-19",
     "path": "fr/People/yung-ching-wang-formosa-plastics-founder.md"
   },
   {
-    "title": "Wang Yung-ching: de la tienda de arroz a la batalla de veinte años por la Sexta Nafta, y la disputa por la herencia tras su muerte",
-    "description": "Nacido el 18 de enero de 1917 en Xindian, Taipéi, Wang Yung-ching abandonó la escuela a los 15 años y pidió prestado dinero para abrir una tienda de arroz. En 1954 fundó Formosa Plastics. En 1973 propuso al gobierno la construcción de la Sexta Planta de Craqueo de Nafta (六輕), y tras casi veinte años de lucha finalmente obtuvo la aprobación; la producción en masa comenzó en 1998 en Mailiao, Yunlin. Falleció el 15 de octubre de 2008 en Estados Unidos, a los 92 años, dejando tras de sí una disputa familiar por la herencia que se prolongó durante más de una década.",
+    "title": "Wang Yung-ching: de la tienda de arroz a la batalla de veinte años por la Sexta Nafta, y el drama sucesorio tras su muerte",
+    "description": "Nacido el 18 de enero de 1917 en Xindian, Taipéi, Wang Yung-ching dejó la escuela a los 15 años y pidió prestado dinero para abrir una tienda de arroz. En 1954 fundó Formosa Plastics. En 1973 propuso al gobierno la construcción de la Sexta Planta de Craqueo de Nafta (六輕), y tras casi veinte años de lucha finalmente obtuvo la aprobación; la producción en masa comenzó en 1998 en Mailiao, Yunlin. Falleció el 15 de octubre de 2008 en Estados Unidos, a los 92 años, dejando tras de sí una disputa familiar por la herencia que se prolongó durante más de una década.",
     "category": "es",
     "tags": [
       "科技與企業",
@@ -51284,7 +51751,7 @@
       "企業家"
     ],
     "url": "https://taiwan.md/es/People/yung-ching-wang-formosa-plastics-founder",
-    "readingTime": 63,
+    "readingTime": 64,
     "featured": false,
     "date": "2026-03-19",
     "path": "es/People/yung-ching-wang-formosa-plastics-founder.md"
@@ -51405,6 +51872,17 @@
     "featured": false,
     "date": "2026-03-22",
     "path": "fr/People/chen-wei-yin-mlb-pitcher.md"
+  },
+  {
+    "title": "What Are the Nine-in-One Elections? Nine Offices, Four Upgrades, and Three Decades of Local Self-Governance Evolution",
+    "description": "The term 'Nine-in-One' was first widely used in 2014, built on four waves of municipal restructuring — the 1967 upgrade of Taipei and Kaohsiung, the 1979 Kaohsiung upgrade, the 2010 Five Municipalities upgrade, and the 2014 Taoyuan upgrade — alongside three institutional milestones: the first direct election of special municipality mayors in 1994, the consolidation under the Local Government Act in 1999, and the creation of mountain indigenous district mayors in 2014. Nine offices voted on a single day — special municipality mayors / special municipality councilors / county and city mayors / county and city councilors / township and city mayors / township and city councilors / mountain indigenous district mayors / mountain indigenous district councilors / village and borough wardens — represent the accumulated crystallization of three decades of Taiwan's local self-governance evolution.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Politics/nine-in-one-elections-explained",
+    "readingTime": 86,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "en/Politics/nine-in-one-elections-explained.md"
   },
   {
     "title": "Wheel Cakes: From Japanese Colonial 'Imagawa-yaki' to Wandan Red Bean — Taiwan's Identity Arc",
@@ -52664,7 +53142,7 @@
   },
   {
     "title": "Yung-ching Wang: From a Rice Shop to the Twenty-Year Battle for the Sixth Naphtha Cracker, and the Posthumous Family Inheritance War",
-    "description": "Born on January 18, 1917, in Xindian, Taipei, Yung-ching Wang dropped out of school at 15 and borrowed money to open a rice shop. He founded Formosa Plastics in 1954. In 1973, he proposed the Sixth Naphtha Cracker (No. 6 Naphtha Cracker Complex) to the government; after nearly two decades of fighting, it was finally approved, and full-scale production began in Mailiao, Yunlin, in 1998. He died in the United States on October 15, 2008, at the age of 92, leaving behind a family inheritance dispute that spanned more than a decade.",
+    "description": "Born on January 18, 1917, in Xindian, Taipei, Yung-ching Wang dropped out of school at 15 and borrowed money to open a rice shop. He founded Formosa Plastics in 1954. In 1973, he proposed the Sixth Naphtha Cracker (No. 6 Naphtha Cracker Complex) to the government, fighting for nearly two decades before it was finally approved, with full-scale production beginning in 1998 at Mailiao, Yunlin. He died on October 15, 2008, in the United States at the age of 92, leaving behind a family inheritance dispute that spanned over a decade.",
     "category": "en",
     "tags": [
       "科技與企業",
@@ -52674,7 +53152,7 @@
       "企業家"
     ],
     "url": "https://taiwan.md/en/People/yung-ching-wang-formosa-plastics-founder",
-    "readingTime": 58,
+    "readingTime": 59,
     "featured": false,
     "date": "2026-03-19",
     "path": "en/People/yung-ching-wang-formosa-plastics-founder.md"
@@ -53288,6 +53766,17 @@
     "path": "ko/Lifestyle/taiwan-garbage-truck-music.md"
   },
   {
+    "title": "공공방송: 9억 예산의 금족에서 국회 추방까지, 28년간의 독립성은 아직 끝나지 않았다",
+    "description": "1998년 공공방송(PTS) 개국 당시 「공공방송법」은 정부 출연 예산을 매년 감축하여 매년 9억 신대만 달러에 동결하도록 규정했으며, 이 조항은 23년간 유지되었다. 그 기간 동안 「우리와 악의 距離」, 「茶金」, 「通靈少女」, 「麻醉風暴」, 「一把青」 등 사회에 큰 반향을 일으킨 5편의 대형 대만 드라마가 제작되었다. 2023년 5월 법 개정으로 예산 상한선이 해제되어 23억으로 두 배로 늘었으나, 19개월 후 예산이 1% 삭감되고 25%가 동결되었으며, 다시 1년 후인 2026년 5월에는 후원장 후원휘(胡元輝)가 입법원 회의장에서 추방되었다. 28년간 공공방송이 증명한 것은 예산 상한선 해제가 곧 독립성 확립을 의미하지 않는다는 것이다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Society/pts-public-television-service",
+    "readingTime": 68,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ko/Society/pts-public-television-service.md"
+  },
+  {
     "title": "공식 웹사이트",
     "description": "대만의 공식 웹사이트는 정부 서비스와 정책 정보를 제공할 뿐만 아니라, 대만의 정치 체제, 문화 발전, 사회 거버넌스를 이해하는 중요한 창 역할을 한다. 이러한 웹사이트들은 대만 민주 정치의 투명성, 디지털 거버넌스의 진전 수준, 그리고 문화 보존과 홍보에 대한 중시를 반영한다. 대만을 연구하거나 이해하고자 하거나 공식 정보가 필요한 모든 분야의 사람들에게 이 자료 대전은 가장 권위 있는 정보 출처를 안내한다.",
     "category": "ko",
@@ -53490,6 +53979,17 @@
     "featured": false,
     "date": "2026-03-27",
     "path": "ko/Culture/jiutian-xuannu-belief.md"
+  },
+  {
+    "title": "구합일 선거란 무엇인가? 아홉 가지 직위, 네 차례 승격, 삼십 년의 지방자치 진화사",
+    "description": "\"구합일\"이라는 단어가 2014년에 처음 널리 사용되기 시작한 배경에는 1967년 북고(북·고) 승격, 1979년 가오슝 승격, 2010년 오두(五都) 승격, 2014년 타오위안 승격이라는 네 차례 도시 지리 재편과 1994년 직할시장 최초 민선, 1999년 《지방제도법》 통합, 2014년 산지 원주민구 구장 신설이라는 세 가지 제도적 분기점이 있다. 같은 날 투표하는 아홉 가지 직위 — 직할시장 / 직할시 의원 / 현시장 / 현시 의원 / 향진시장 / 향진시 민대표 / 산지 원주민구 구장 / 산지 원주민구 민대표 / 리장(촌장) — 은 대만 삼십 년 지방자치 진화의 축적 결정체이다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Politics/nine-in-one-elections-explained",
+    "readingTime": 37,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ko/Politics/nine-in-one-elections-explained.md"
   },
   {
     "title": "국가공원",
@@ -53788,6 +54288,17 @@
     "featured": false,
     "date": "2026-05-08",
     "path": "ko/People/nieh-yung-jen.md"
+  },
+  {
+    "title": "녹도감옥: 정치 흑옥에서 대고향으로 겹쳐진 기억의 영상",
+    "description": "녹도, 이 태평양 위의 외딴섬은 백색테러 시기 정치범의 연옥이자 조직폭력배 두목들의 최후 귀착지였다. 신생훈도처에서 숍덕신촌에 이르기까지, 녹도감옥의 역사는 어떻게 대만 사회의 모순과 기억을 겹쳐 보여주는가?",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/History/green-island-prison",
+    "readingTime": 9,
+    "featured": false,
+    "date": "2026-05-15",
+    "path": "ko/History/green-island-prison.md"
   },
   {
     "title": "농업 기술과 고부가가치 농업",
@@ -55047,7 +55558,7 @@
       "대통령 직선"
     ],
     "url": "https://taiwan.md/ko/History/taiwan-elections-and-party-politics",
-    "readingTime": 33,
+    "readingTime": 47,
     "featured": false,
     "date": "2026-03-20",
     "path": "ko/History/taiwan-elections-and-party-politics.md"
@@ -55642,7 +56153,7 @@
       "백색공포"
     ],
     "url": "https://taiwan.md/ko/History/taiwan-transitional-justice",
-    "readingTime": 34,
+    "readingTime": 35,
     "featured": false,
     "date": "2026-03-31",
     "path": "ko/History/taiwan-transitional-justice.md"
@@ -56347,6 +56858,17 @@
     "path": "ko/Society/taiwan-public-health-epidemic-response.md"
   },
   {
+    "title": "대만의 국방과 군사 현대화",
+    "description": "2025년 10월, 라잉췬더는 후커우에서 M1A2T 전차 부대 창설식을 주재했다. 같은 달, 전 참모총장 리시밍은 쓴웃음을 지으며 '전차가 비대칭 무기가 될 수 있다면, 무엇이 비대칭 무기가 아닐 수 있겠는가'라고 말했다. 이는 한 섬이 두 가지 국방 논리 사이에서 팽팽히 당겨지는 이야기이다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Society/national-defense-modernization",
+    "readingTime": 3,
+    "featured": false,
+    "date": "2026-04-10",
+    "path": "ko/Society/national-defense-modernization.md"
+  },
+  {
     "title": "대만의 국제 표기 문제",
     "description": "ISO 코드에서 오픈소스 소프트웨어까지——대만의 이름이 글로벌 디지털 인프라에서 어떻게 기록되고, 논쟁되며, 수정되는가",
     "category": "ko",
@@ -57042,11 +57564,11 @@
   },
   {
     "title": "대우쌍검: 그 오후 당신은 DOS 창에서 울었다",
-    "description": "1995년 7월, 320×200 해상도의 DOS 게임 하나가 수백만 명의 플레이어로 하여금 가상의 인물을 처음으로 눈물짓게 했다. 선협기전과 현무검, 타이베이 네이후에서 벼려 나온 두 자루의 검은 중문권 세계에 대해 \"RPG가 무엇이 될 수 있는가\"에 대한 상상 자체를 정의했다.",
+    "description": "1995년 7월, 320×200 해상도의 DOS 게임 하나가 수백만 명의 플레이어로 하여금 처음으로 가상의 인물 때문에 눈물을 흘리게 했다. 선협기전과 현원검, 타이베이 네이후에서 벼려 나온 두 자루의 검은 중문권 세계에 대해 \"RPG가 무엇이 될 수 있는가\"에 대한 상상 자체를 정의했다.",
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Technology/softstar-twin-classics",
-    "readingTime": 29,
+    "readingTime": 61,
     "featured": false,
     "date": "2026-04-23",
     "path": "ko/Technology/softstar-twin-classics.md"
@@ -57437,17 +57959,6 @@
     "path": "ko/Geography/tadian-mountain.md"
   },
   {
-    "title": "뤼다오 감옥: 정치적 암흑 감옥에서 큰형님들의 고향으로 이어진 기억의 중첩",
-    "description": "태평양 위의 외딴섬 뤼다오는 백색테러 시기 정치범들의 연옥이었고, 조직폭력배 두목들의 최종 귀착지이기도 했다. 신생훈도처에서 충더신촌에 이르기까지, 뤼다오 감옥의 역사는 어떻게 타이완 사회의 모순과 기억을 중첩해 드러내는가?",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/History/green-island-prison",
-    "readingTime": 28,
-    "featured": false,
-    "date": "2026-05-15",
-    "path": "ko/History/green-island-prison.md"
-  },
-  {
     "title": "뤼슈렌",
     "description": "내란범에서 부총통까지: 중화권 최초 여성 부총통의 전설적인 삶",
     "category": "ko",
@@ -57530,6 +58041,23 @@
     "featured": true,
     "date": "2026-03-21",
     "path": "ko/People/lee-yuan-tseh.md"
+  },
+  {
+    "title": "리장·촌장 제도: 7,748명의 민선 수장, 대만 최하층의 정치 단위",
+    "description": "새벽 다섯 시 반의 리 사무처, 월 4만 5천 원의 업무 보조비, 무소속 비율 60% 이상 — 리장·촌장은 대만 선거에서 가장 \"정치\"답지 않은 정치직이자, 대만 민주화의 가장 완전한 증거다. 일제 보갑 제도에서 1950년 직선까지, 전국 7,748개로 세븐일레븐보다 많은 이 직위는 80년간 지역 관계 대리인으로서 기능해 왔다.",
+    "category": "ko",
+    "tags": [
+      "리장·촌장",
+      "기층 자치",
+      "지방 제도법",
+      "일제 보갑",
+      "2026 선거"
+    ],
+    "url": "https://taiwan.md/ko/Politics/village-chief-system",
+    "readingTime": 50,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ko/Politics/village-chief-system.md"
   },
   {
     "title": "리즈카이 (李智凱)",
@@ -57740,15 +58268,7 @@
     "title": "마잉주: 하버드 법학박사가 장징궈 집무실에서 영어 통역을 맡고, 8년 동안 '청렴' 이미지를 기반으로 대통령직을 수행했으나 양안, 해바라기와 22K를 남긴 인물",
     "description": "2015년 11월 7일 싱가포르 샹그릴라에서 그는 시진핑과 1분 20초 동안 악수했다. 1949년 이후 양안 최고지도자가 처음 만난 순간이었다. 같은 사진을 두고 대만 사회는 지금까지 완전히 다른 두 방식으로 기억한다. 한쪽은 역사적 돌파를 보고, 다른 한쪽은 주체성의 양보를 본다. 그가 8년 대통령 임기 동안 구축한 '청렴' 이미지, 양안, 22K와 해바라기, 여기에 퇴임 후 10년 사이 두 차례 중국 방문과 2026년 가족 성명까지 더해져, 오늘날까지도 평가는 정리되지 않았다.",
     "category": "ko",
-    "tags": [
-      "대통령",
-      "국민당",
-      "양안 관계",
-      "ECFA",
-      "해바라기 학생운동",
-      "마시 회동",
-      "타이베이 시장"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/People/ma-ying-jeou-cross-strait-reconciliation-leader",
     "readingTime": 92,
     "featured": false,
@@ -58434,6 +58954,17 @@
     "path": "ko/People/barbie-hsu-actress.md"
   },
   {
+    "title": "선거공보: 국가가 배포하는 공정한 기준, 후보자가 자비로 제작하는 선거 홍보물의 분리",
+    "description": "모든 유권자가 투표 전에 받아보는 두꺼운 공보 한 권은 1980년부터 축적된 설계의 진화다. 국가 배포 vs 후보자 자비의 분리 논리는 '후보자가 무엇을 말하고 싶은지'를 광고주의 영향력에서 분리해 내며, 대만 민주주의 기반 시설 중 가장 저렴하면서도 가장 간과되는 부분이다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Politics/election-bulletin-system",
+    "readingTime": 47,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ko/Politics/election-bulletin-system.md"
+  },
+  {
     "title": "선사시대와 원주민: 창빈 2~3만 년부터 남도어족 확산의 기점",
     "description": "대만 최초의 인간 활동: 창빈 문화 약 2~3만 년 전(구석기시대, 팔선동 유적). 공식 인정 원주민족 16개 부족. 남도어족 가능한 발상지 중 하나(남도어 10대 분류 중 대만이 9개 분류 차지). 2024년 최신 연구: 대만 이주 비율 약 20%, 인도네시아 확산 경로도 존재(P0⚠️). 17세기 다두왕국 부족 연합, 싼하싱 문화 철기시대.",
     "category": "ko",
@@ -58459,15 +58990,7 @@
     "title": "선셋 롤러코스터: 포토부스 배경 사진 한 장에서 첼라까지, 타이베이 노을을 영어로 노른  14년",
     "description": "2010년, 19세의 학생이 맥 포토부스에서 아무렇게나 「Sunset Rollercoaster」 프리셋을 골라 마이스페이스 프로필 사진으로 설정했다. 14년 후, 이 밴드는 코첼라 페스티벌 20여 년 역사상 무대에 오른 최초의 타이완 밴드가 되었다. 전곡 영어 가사, 아열대 시티팝, 산업 시스템에 기대지 않고, 그들은 대충 찍은 롤러코스터 실루엣 한 장으로 타이완이 세계에 가장 많이 들리는 방식을 만들어냈다.",
     "category": "ko",
-    "tags": [
-      "독립밴드",
-      "city-pop",
-      "투어",
-      "골든 멜로디 어워드",
-      "coachella",
-      "혁오",
-      "타이베이"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/Music/sunset-rollercoaster",
     "readingTime": 87,
     "featured": true,
@@ -59568,18 +60091,12 @@
     "path": "ko/Lifestyle/wang-a-piau-pog-cards.md"
   },
   {
-    "title": "왕영칭: 미점(米店), 육경(六輕) 20년 분투, 사후의 재산 분쟁 대서사",
-    "description": "1917년 1월 18일 타이베이 신디안(新店)에서 태어난 왕영칭은 15세에 중퇴하고 돈을 빌려 미점을 열었으며, 1954년 타이완 플라스틱을 창립했다. 1973년 정부에 육경(第六輕油裂解廠)을 제안했으나 근 20년에 걸친 분투 끝에 비로소 승인을 받았고, 1998년 윈린(雲林) 마이랴오(麥寮)에서 본격 양산에 돌입했다. 2008년 10월 15일 미국에서 향년 92세로 서거했으며, 사후 10년 이상 이어진 가족 간 재산 분쟁을 남겼다.",
+    "title": "왕영경: 쌀가게, 제6경유분해공장 20년 투쟁, 사후 상속 분쟁 대극",
+    "description": "1917년 1월 18일 대만 신똥(신당)에서 태어난 왕영경은 15세에 학교를 중퇴하고 200엔을 빌려 쌀가게를 열었으며, 1954년에 대만플라스틱을 설립했다. 1973년에 정부에 제6경유분해공장(六輕) 건설을 제안했으나 수차례 거절당한 뒤 거의 20년간 투쟁한 끝에 1998년에 운린 마이료에서 정식 양산에 성공했다. 2008년 10월 15일 미국에서 별세해 92세를 일렀으며, 사후 10여 년에 걸친 가문 상속 분쟁을 남겼다.",
     "category": "ko",
-    "tags": [
-      "기술과 기업",
-      "타이사 그룹",
-      "석유화학 산업",
-      "육경",
-      "기업가"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/People/yung-ching-wang-formosa-plastics-founder",
-    "readingTime": 26,
+    "readingTime": 24,
     "featured": false,
     "date": "2026-03-19",
     "path": "ko/People/yung-ching-wang-formosa-plastics-founder.md"
@@ -60012,6 +60529,17 @@
     "featured": false,
     "date": "2026-05-10",
     "path": "ko/Society/medical-care-act.md"
+  },
+  {
+    "title": "의원 제도: 왜 국회의원과 다른가, 지방 정치에 남은 SNTV의 30년",
+    "description": "2008년 국회의원 선거가 단일선거구 양대투표제로 바뀌었지만, 같은 해 시·군의원 선거는 여전히 1980년대의 SNTV 구제도를 유지했다 — 같은 나라, 같은 유권자, 같은 투표용지 위의 다른 직위에 전혀 다른 두 가지 게임 규칙이 적용되었다. 이것은 버그가 아니라 대만 선거 제도 개혁 역사상 가장 큰 미완의 과제이며, 그 배경에는 지방 파벌, 정당 이해관계, 제도 정비 비용이 얽혀 있다. 두 제도가 어떻게 작동하는지, 왜 한쪽은 바뀌고 한쪽은 바뀌지 않았는지, 소당과 다양한 대표성에 어떤 의미를 갖는지를 해부하는 제도 지도.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Politics/city-councilor-system-taiwan",
+    "readingTime": 44,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ko/Politics/city-councilor-system-taiwan.md"
   },
   {
     "title": "이국수",
@@ -60875,6 +61403,17 @@
     "path": "ko/People/cheng-chou-yu-poet.md"
   },
   {
+    "title": "정치자금 투명성: 감찰원 플랫폼, g0v 시각화, 22년간의 공개 인프라 구축",
+    "description": "감찰원 정치자금 공개 열람 플랫폼을 열어 후보자 이름을 입력하면, 그가 누구로부터 얼마를 받았고 어떤 선거 활동에 사용했는지 확인할 수 있다. 이 인프라가 하늘에서 떨어진 것은 아니다 — 2004년 「정치자금법」 제정, 2008년 플랫폼 개시, 2017년 중앙선거관리위원회와 감찰원의 자료 공개 협약, g0v 엔지니어 10년간의 시각화 보완, 하나의 법률, 하나의 회계 보고서, 하나의 시민 엔지니어가 쌓아올린 결과다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Politics/political-donation-transparency",
+    "readingTime": 49,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ko/Politics/political-donation-transparency.md"
+  },
+  {
     "title": "제리 양: 영어 단어 하나만 아는 소년에서 글로벌 포털 시대를 연 \"야후\"의 아버지로",
     "description": "1978년, 10세의 제리 양(楊致遠)이 미국으로 이민했을 때 그가 아는 영어 단어는 \"Shoe\" 하나뿐이었다. 1994년, 그는 스탠퍼드 대학교에서 박사 논문을 피해 동료와 트레일러 안에서 수동으로 웹페이지를 분류하다 우연히 시가총액 1,000억 달러를 돌파한 Yahoo!를 창립했고, 2005년 \"미친 도박\"으로 알리바바에 투자하여 글로벌 인터넷 지도를 바꿔놓았다.",
     "category": "ko",
@@ -61099,6 +61638,23 @@
     "path": "ko/Geography/zhongshan-north-road-tiaotong.md"
   },
   {
+    "title": "중선회 제도: 행정·입법 이중 견제의 반직관적 설계",
+    "description": "중앙선거관리위원회는 행정원장이 후보를 지명하고 입법원이 동의하는 방식으로 구성되며, 여소야대 시기에 지명이 통과되기 어려울 수 있다. 두 정치 부서가 서로 견제하도록 한 이 설계는 대만 선거 공정성의 마지막 구조적 보험이며, 버그가 아니다.",
+    "category": "ko",
+    "tags": [
+      "중선회",
+      "중앙선거관리위원회",
+      "선거제도",
+      "독립기관",
+      "2026선거"
+    ],
+    "url": "https://taiwan.md/ko/Politics/central-election-commission",
+    "readingTime": 38,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ko/Politics/central-election-commission.md"
+  },
+  {
     "title": "중정기념당",
     "description": "타이베이 도심 한가운데 자리한 거대한 정치적 상징이자, 가장 민주적인 연습 공간. 권위주의의 성전에서 전환적 정의의 폭풍의 눈으로, 이 건물은 타이완 역사에서 가장 격렬했던 진동을 고스란히 담고 있다.",
     "category": "ko",
@@ -61216,6 +61772,17 @@
     "featured": false,
     "date": "2026-04-18",
     "path": "ko/People/nymphia-wind-drag-queen.md"
+  },
+  {
+    "title": "직할시 산지 원주민 구장: 2014년 승격 개정으로 보존된 민선 자치 직위",
+    "description": "2014년 12월 25일 타오위안이 직할시로 승격된 그날, 푸싱향의 향장은 민선 지위를 잃게 될 위기에 처했다 — 승격의 부작용은 원주민 자치를 박탈하는 것이었다. 입법원은 서둘러 「지방제도법」을 개정하여 「직할시 산지 원주민 구」라는 새로운 직위를 신설하였고, 육직할시 내 모든 기존 산지향이 계속해서 민선 구장과 구민대표를 선출할 수 있도록 하였다. 전국 6개 구로, 타이야, 부난, 쩌우, 루카이, 객가, 민난 등이 혼거하는 산간 부락을 아우른다. 이는 헌법 증수조문의 「적극적으로 원주민 언어 및 문화를 유지·발전시킨다는」 원칙이 지방제도 차원에서 구체적으로 실현된 것이다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Politics/indigenous-district-chief-system",
+    "readingTime": 59,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ko/Politics/indigenous-district-chief-system.md"
   },
   {
     "title": "진건기: 회계학과에서 삼금(三金) 프로듀서까지, 중화 팝 음악의 「괴성괴조」 금지선을 없앤 사람",
@@ -61456,6 +62023,17 @@
     "featured": false,
     "date": "2026-03-17",
     "path": "ko/People/tsai-ing-wen.md"
+  },
+  {
+    "title": "천등(天燈): 1820년 평안을 알리는 신호, 2019년 326킬로그램의 산림 쓰레기, 같은 평계(平溪) 사람들이 짊어진 두 개의 정체성",
+    "description": "1820년대, 호(胡) 씨 가문이 십분료(十分寮)에서 평안을 알리는 첫 번째 천등을 띄웠다. 200년 후인 2019년 원절(元宵節), 미국 자원봉사자들이 2시간 동안 평계 철도 주변에서 326킬로그램의 천등 잔해를 수거했다. 벌기도 하고, 손해도 보고, 치우기도 한다 — 천등 협회 이사장은 호 씨이고, 집이 불탄 피해자도 호 씨이며, 오래된 거리 노점상 88세 채(蔡) 할머니와 기륜하(基隆河) 수호 연맹 천젠즈(陳建志)는 같은 시냇물을 마신다. 2025년 자치 조례가 삼독을 통과하고, 평계 사람들은 축제 전환의 네 번째 길을 시도하고 있다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Culture/sky-lanterns-pingxi",
+    "readingTime": 61,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ko/Culture/sky-lanterns-pingxi.md"
   },
   {
     "title": "천수이볜",
@@ -62670,6 +63248,17 @@
     "path": "ko/Food/bamboo-tube-rice.md"
   },
   {
+    "title": "투표권 역사적 변천: 20세에서 18세로, 이십 년의 미완 헌법 개정의 길",
+    "description": "2022년 11월 26일 오후 4시, 타이완 전역의 투개표소 직원들이 헌법 개정 국민투표 투표함의 봉인을 뜯기 시작했다——그것은 타이완이 2005년 국민투표 복결 헌법 개정 절차를 채택한 이래 처음으로 헌법 개정안이 전체 절차를 밟은 사례였다. 찬성 564만, 반대 502만, 찬성률 53%였으나, 국민투표 복결 문턱이 \"선거인 총수 과반 = 962만 찬성표\"로 설정되어 있어 397만 표 부족으로 통과하지 못했다. 이 글은 1947년 제헌 당시 헌법 제130조부터 2022년 그 실패한 헌법 개정 국민투표까지 이어지며, 타이완의 투표 연령 문턱이 칠십오 년간 변하지 않은 구조적 원인을 기록한다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Politics/voting-rights-threshold-history",
+    "readingTime": 47,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ko/Politics/voting-rights-threshold-history.md"
+  },
+  {
     "title": "특산종",
     "description": "대만의 풍부한 특산종 생물: 섬 지리학, 수직 기후대 및 장기 격리 진화의 공동 산물이자 세계 생물다양성 연구의 중요한 야외 연구 현장",
     "category": "ko",
@@ -63152,7 +63741,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/People/cho-yun-hsu-bridging-historian",
-    "readingTime": 126,
+    "readingTime": 130,
     "featured": false,
     "date": "2026-05-22",
     "path": "ko/People/cho-yun-hsu-bridging-historian.md"
@@ -63233,6 +63822,17 @@
     "featured": false,
     "date": "2026-05-18",
     "path": "ko/Geography/changhua-county.md"
+  },
+  {
+    "title": "호봉: 산골마을을 구한 렌즈가 유기묘 양식장을 키웠고, TNVR이 수습한 것은 관광이 마무리하지 못한 선의였다",
+    "description": "2009년 사진작가 젠페이링(캣 레이디)이 신베이 핑시선(平溪線) 구간에 위치한 1990년 루이산(瑞三) 광업 폐광 후 19년간 잊혀진 산골마을에 발을 들였다. 그녀의 렌즈는 호봉을 2013년 CNN이 선정한 세계 6대 고양이 명소로 만들었다. 그러나 \"고천국(고천당)\"이라는 이름은 대만 최대 유기묘 양식장을 낳았다 — 2012년 고양이 전염병 발생, 2013년 최소 10건의 학대 사건, 2022년 유기묘 사건 벌금 11만 신달러. 2014년 캣 레이디는 물러나며 \"고양이를, 나를, 호봉을 끊임없이 소비한다\"는 말을 남겼다. 2026년 1월 TNVR은 200-300마리를 30여 마리로 줄였고, 미러 위클리는 \"촌락 소멸\" 프레임으로 보도했다. 그러나 사라진 것은 고양이 마을이 아니라 \"단일 인플루언서 IP로 지탱한 지역 창생 모델\"이었다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Geography/houtong-cat-village",
+    "readingTime": 65,
+    "featured": false,
+    "date": "2026-05-27",
+    "path": "ko/Geography/houtong-cat-village.md"
   },
   {
     "title": "홍싱푸: 너무 일찍 떨어진 향토 문학의 별",
@@ -63669,6 +64269,17 @@
     "path": "ja/Nature/formosan-landlocked-salmon.md"
   },
   {
+    "title": "サンセット・ローラーコースター：一枚のPhoto Booth背景写真からCoachellaへ、台北の夕陽を英語で歌った14年",
+    "description": "2010年、19歳の学生がMacのPhoto Boothで「Sunset Rollercoaster」のプリセットをMySpaceのプロフィール画像に選んだ。14年後、このバンドはコーチェラ・フェスティバルが創設されて20年以上で初めて大舞台に招待された台湾のバンドとなった。全英語、亜熱帯シティ・ポップ、音楽産業の体制に頼らず、彼らは一枚の何気なく撮ったローラーコースターのシルエットで、台湾が世界に最も聴かれる形を実現した。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Music/sunset-rollercoaster",
+    "readingTime": 84,
+    "featured": true,
+    "date": "2026-05-23",
+    "path": "ja/Music/sunset-rollercoaster.md"
+  },
+  {
     "title": "ジェイ・チョウ",
     "description": "1997年、内気な18歳の少年が中国語ポップミュージックの歴史を書き換えました",
     "category": "ja",
@@ -63929,6 +64540,17 @@
     "path": "ja/Music/pop-music-and-golden-melody-awards.md"
   },
   {
+    "title": "マ英九：ハーバード法学博士が蔣経国事務所の英語通訳に就任し、「清廉」のイメージで八年間大統領を務め、両岸関係・太陽花・22Kを遺した人物",
+    "description": "2015年11月7日、シンガポール・シャングリラにて、彼は習近平と1分20秒握手した。1949年以来、両岸の最高指導者として初めての会面であった。同じ写真を、台湾社会は今でもまったく異なる二つの方法で記憶している。一方は歴史的突破を見、もう一方は主体性の譲歩を見る。彼が八年の在任中に築いた「清廉」のイメージ、両岸関係、22K、太陽花に加え、退任後の二度の中国訪問と2026年の家族声明に至るまで、今日なお結論は出ていない。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/People/ma-ying-jeou-cross-strait-reconciliation-leader",
+    "readingTime": 77,
+    "featured": false,
+    "date": "2026-03-30",
+    "path": "ja/People/ma-ying-jeou-cross-strait-reconciliation-leader.md"
+  },
+  {
     "title": "マスコット：黒熊への熱狂から語呂合わせによる救済までの文化キュレーション",
     "description": "2013年に「喔熊（OhBear）」が誕生し、台湾のマスコット戦国時代が幕を開けました。全台で繰り広げられる黒熊マスコットの乱立、アメリカのトークショーに取り上げられるほどの「醜さ」を誇る「虱目魚小子」から、年間収益が億単位の「福利熊」、議会で質疑応答に立つ「熊讚（Bravo）」まで、台湾のマスコットは政府の宣伝ツールから、魂と社会の共感を備えた文化シンボルへと進化しています。",
     "category": "ja",
@@ -63998,9 +64620,7 @@
     "title": "レイアーク：美学で立つ音楽帝国と、十四年の亀裂",
     "description": "2012年、台大電資院出身の若者6人が3千万円を集めて『Cytus』を開発し、リリース1か月で14カ国のランキング1位に輝いた。十四年後、Deemoアニメ化、『インプロージョン』アニメは十一年経っても未納品、『Sdorica 万象物語』は2026年2月にメンテナンスモードに移行、2020年のICEモールス信号事件では従業員を切り離して中国市場を守る選択をした。美学がレイアークを世界に見せてくれた一方で、音楽以外の領域では何度も躓かせている。",
     "category": "ja",
-    "tags": [
-      "["
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/Technology/rayark-games",
     "readingTime": 104,
     "featured": false,

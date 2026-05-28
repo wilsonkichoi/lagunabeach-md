@@ -1,28 +1,28 @@
 {
-  "totalArticles": 4615,
+  "totalArticles": 4673,
   "totalCategories": 21,
   "estimatedContributors": 57,
-  "totalTags": 6377,
+  "totalTags": 6335,
   "categories": [
     {
       "name": "es",
-      "count": 758
+      "count": 770
     },
     {
       "name": "ko",
-      "count": 761
+      "count": 773
     },
     {
       "name": "fr",
-      "count": 779
+      "count": 790
     },
     {
       "name": "en",
-      "count": 781
+      "count": 791
     },
     {
       "name": "ja",
-      "count": 766
+      "count": 778
     },
     {
       "name": "History",
@@ -42,7 +42,7 @@
     },
     {
       "name": "People",
-      "count": 221
+      "count": 222
     },
     {
       "name": "Music",
@@ -104,7 +104,7 @@
     },
     {
       "name": "科技與企業",
-      "count": 43
+      "count": 42
     },
     {
       "name": "文學",
@@ -147,15 +147,11 @@
       "count": 25
     },
     {
-      "name": "인물",
-      "count": 23
-    },
-    {
-      "name": "TSMC",
-      "count": 23
-    },
-    {
       "name": "民主化",
+      "count": 24
+    },
+    {
+      "name": "인물",
       "count": 23
     },
     {
@@ -169,16 +165,20 @@
     {
       "name": "體育",
       "count": 22
+    },
+    {
+      "name": "歷史",
+      "count": 21
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4615,
+    "zh-TW": 4673,
     "en": 0
   },
-  "lastUpdated": "2026-05-27T22:11:32.678Z",
+  "lastUpdated": "2026-05-28T15:10:51.760Z",
   "stars": 1010,
   "forks": 148,
-  "zhPages": 3834,
-  "enPages": 781,
-  "totalPages": 4615
+  "zhPages": 3882,
+  "enPages": 791,
+  "totalPages": 4673
 }

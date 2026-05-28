@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-05-27T22:11:33Z",
-  "total": 768,
-  "flagged": 323,
+  "timestamp": "2026-05-28T15:10:52Z",
+  "total": 769,
+  "flagged": 324,
   "files": [
     {
       "file": "music/拍謝少年.md",
@@ -973,6 +973,11 @@
       "file": "people/林懷民.md",
       "score": 4,
       "reasons": "塑膠句2個; 後段清單堆砌38%; 稀薄段落×1"
+    },
+    {
+      "file": "people/瘂弦.md",
+      "score": 4,
+      "reasons": "未人工審核; 破折號21個"
     },
     {
       "file": "people/陳菊.md",

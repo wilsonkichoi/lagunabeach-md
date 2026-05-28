@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-05-28T11:58:38.586558",
+  "lastUpdated": "2026-05-28T23:10:32.718844",
   "schemaVersion": "v2-2026-05-16",
   "featureFlag": "IMMUNE_V2",
-  "immuneScore": 67,
+  "immuneScore": 63,
   "status": "需關注 — T1 review < 80% OR plugin pass < 90%",
   "components": {
-    "review_coverage": 29.0,
+    "review_coverage": 28.9,
     "plugin_pass_rate": 70.0,
     "plugin_health": 100.0,
     "citation_density": 89.9,
-    "tool_freshness": 80,
+    "tool_freshness": 40,
     "drift_velocity": 90.0
   },
   "componentWeights": {
@@ -22,9 +22,9 @@
   },
   "tierBreakdown": {
     "T1": {
-      "total": 339,
+      "total": 340,
       "reviewed": 106,
-      "pct": 31.3,
+      "pct": 31.2,
       "weight": 3.0
     },
     "T2": {
@@ -41,8 +41,8 @@
     }
   },
   "pluginPassDetail": {
-    "total_files": 768,
-    "hard_pass_files": 768,
+    "total_files": 769,
+    "hard_pass_files": 769,
     "hard_pass_pct": 100.0,
     "warn_pass_files": 0,
     "warn_pass_pct": 0.0,
@@ -50,30 +50,30 @@
   },
   "citationDetail": {
     "grades": {
-      "A": 582,
+      "A": 583,
       "B": 11,
       "C": 160,
       "D": 4,
       "F": 9
     },
-    "files_with_grade": 766
+    "files_with_grade": 767
   },
   "freshnessDetail": {
-    "editorial_days_old": 5,
-    "avg_plugin_days_old": 17.1,
-    "plugin_count": 20,
+    "editorial_days_old": 999,
+    "avg_plugin_days_old": 15.5,
+    "plugin_count": 21,
     "source": "git log %ai (not fs mtime — worktree-safe)"
   },
   "driftDetail": {
-    "new_articles_7d": 33,
+    "new_articles_7d": 31,
     "rate_per_article": 1.0,
     "note": "v1 heuristic — longitudinal tracking pending (B-line meta-health)"
   },
   "pluginHealthDetail": {
-    "plugin_count": 20,
-    "fresh_count": 20,
+    "plugin_count": 21,
+    "fresh_count": 21,
     "drifted_count": 0,
-    "editorial_age_days": 5,
+    "editorial_age_days": 0,
     "drift_thresholds": {
       "editorial_recent_days": 14,
       "plugin_stale_days": 30
@@ -145,6 +145,11 @@
         "drifted": false
       },
       {
+        "plugin": "paragraph_rhythm",
+        "plugin_age_days": 0,
+        "drifted": false
+      },
+      {
         "plugin": "prose_health",
         "plugin_age_days": 18,
         "drifted": false
@@ -161,7 +166,7 @@
       },
       {
         "plugin": "spore_writing",
-        "plugin_age_days": 15,
+        "plugin_age_days": 0,
         "drifted": false
       },
       {

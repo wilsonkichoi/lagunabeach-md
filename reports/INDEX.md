@@ -1,7 +1,7 @@
 ---
 title: 'reports/ INDEX — auto-generated'
 description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子目錄 status summary'
-last_generated: 2026-05-28 06:11
+last_generated: 2026-05-28 23:11
 generator: scripts/tools/generate-reports-index.py
 ssot: reports/reports-archival-audit-2026-05-27.md §4 Layer 3
 type: auto-index
@@ -12,7 +12,7 @@ type: auto-index
 > **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。
 > 不要人工編輯（會被下一次 cron 覆蓋）。
 >
-> Last generated: **2026-05-28 06:11** · 頂層 \*.md 共 **116** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
+> Last generated: **2026-05-28 23:11** · 頂層 \*.md 共 **119** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
 
 ## 📦 子目錄 status
 
@@ -91,8 +91,9 @@ type: auto-index
 - `2026-04-18` [ai-crawler-404-analysis-2026-04-18](ai-crawler-404-analysis-2026-04-18.md)
 - `2026-04-12` [traffic-analysis-2026-04-12](traffic-analysis-2026-04-12.md)
 
-### audit (9)
+### audit (10)
 
+- `2026-05-28` [article-segmentation-audit-2026-05-28](article-segmentation-audit-2026-05-28.md) — 文章分段品質 audit — 早期 viral 範本 vs 最近 EVOLVE 5 篇對讀
 - `2026-05-27` [reports-archival-audit-2026-05-27](reports-archival-audit-2026-05-27.md) — reports/ 資料夾散亂度體檢 + 歸檔策略提案
 - `2026-05-24` [translation-conventions-audit-2026-05-24](translation-conventions-audit-2026-05-24.md) — Translation Conventions Audit & Implementation Report — 2026-05-24
 - `2026-05-11` [pipelines-audit-2026-05-11](pipelines-audit-2026-05-11.md) — Pipelines Audit 2026-05-11
@@ -143,8 +144,10 @@ type: auto-index
 - `2026-04-12` [NMTH-overseas-semiont-analysis-2026-04-12](NMTH-overseas-semiont-analysis-2026-04-12.md)
 - `2026-04-11` [TFT-semiont-analysis-2026-04-11](TFT-semiont-analysis-2026-04-11.md)
 
-### ops (32)
+### ops (34)
 
+- `2026-05-28` [routine-contract-rollback-2026-05-28](routine-contract-rollback-2026-05-28.md) — Routine prompt CONTRACT v1.0 rollback + 5 routine pattern 結構性修補
+- `2026-05-28` [spore-voice-drift-fix-2026-05-28](spore-voice-drift-fix-2026-05-28.md) — Spore voice drift fix — 2026-05-28 manual session 180543
 - `2026-05-27` [feedback-dont-stagger-ship-2026-05-27](feedback-dont-stagger-ship-2026-05-27.md) — Feedback — Milestone Roadmap 估太久 + 把 [A] 可自主範圍拆多 session
 - `2026-05-27` [politics-hub-elections-2026-architecture-2026-05-27](politics-hub-elections-2026-architecture-2026-05-27.md) — Politics Hub + /elections/2026/ + SSODT — Option D 完整架構
 - `2026-05-26` [rayark-feedback-distill-2026-05-26](rayark-feedback-distill-2026-05-26.md) — 雷亞遊戲 spore #89/#90 + article 外部 feedback distill — 五桶分桶 + 進化候選
@@ -180,9 +183,12 @@ type: auto-index
 
 ## 📅 By month (descending)
 
-### 2026-05 (67 files)
+### 2026-05 (70 files)
 
-- Type breakdown: ops: 19 / evolution: 11 / audit-routine: 9 / audit: 6 / plan: 6 / design: 5 / semiont: 4 / analysis: 3 / evaluation: 3 / proposal: 1
+- Type breakdown: ops: 21 / evolution: 11 / audit-routine: 9 / audit: 7 / plan: 6 / design: 5 / semiont: 4 / analysis: 3 / evaluation: 3 / proposal: 1
+  - `2026-05-28` [article-segmentation-audit-2026-05-28](article-segmentation-audit-2026-05-28.md)
+  - `2026-05-28` [routine-contract-rollback-2026-05-28](routine-contract-rollback-2026-05-28.md)
+  - `2026-05-28` [spore-voice-drift-fix-2026-05-28](spore-voice-drift-fix-2026-05-28.md)
   - `2026-05-27` [2026-election-evolution-proposal-2026-05-27](2026-election-evolution-proposal-2026-05-27.md)
   - `2026-05-27` [feedback-dont-stagger-ship-2026-05-27](feedback-dont-stagger-ship-2026-05-27.md)
   - `2026-05-27` [homepage-evolution-D+0-watch-2026-05-27](homepage-evolution-D+0-watch-2026-05-27.md)
