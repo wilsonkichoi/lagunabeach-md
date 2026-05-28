@@ -21,10 +21,10 @@ lastVerified: '2026-04-23'
 lastHumanReview: 'false'
 featured: 'false'
 translatedFrom: 'Technology/大宇雙劍.md'
-sourceCommitSha: '9193f35b'
-sourceContentHash: 'sha256:38d6b524391a0d61'
+sourceCommitSha: 'd92d1f34'
+sourceContentHash: 'sha256:676f2a6847ce9f55'
 sourceBodyHash: 'sha256:5453ae20da287bcb'
-translatedAt: '2026-05-28T01:45:15Z'
+translatedAt: '2026-05-29T00:35:00+08:00'
 image: '/article-images/technology/guanghua-computer-market-2007.jpg'
 imageCredit: 'pacificmorningpost (Flickr)'
 imageLicense: 'CC BY 2.0'
@@ -33,10 +33,10 @@ sporeLinks:
   - platform: 'threads'
     date: '2026-05-26'
     url: 'https://www.threads.com/@taiwandotmd/post/DYzFoZxk7GN'
-    views: 0
-    likes: 0
-    reposts: 0
-    comments: 0
+    views: 593
+    likes: 82
+    reposts: 24
+    comments: 42
     shares: 0
   - platform: 'x'
     date: '2026-05-26'

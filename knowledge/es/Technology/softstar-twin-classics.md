@@ -21,10 +21,10 @@ lastVerified: 2026-04-23
 lastHumanReview: false
 featured: false
 translatedFrom: 'Technology/大宇雙劍.md'
-sourceCommitSha: '9193f35b'
-sourceContentHash: 'sha256:38d6b524391a0d61'
+sourceCommitSha: 'd92d1f34'
+sourceContentHash: 'sha256:676f2a6847ce9f55'
 sourceBodyHash: 'sha256:5453ae20da287bcb'
-translatedAt: '2026-05-28T00:00:00Z'
+translatedAt: '2026-05-29T00:35:00+08:00'
 ---
 
 > **Resumen en 30 segundos:** En 1990, un grupo de universitarios se agachaba en Guang Hua Computer Market buscando manuales técnicos, compartiendo un solo ordenador, y creó el primer RPG de artes marciales en chino: _Xuan Yuan Jian_. Cinco años después, un joven de 26 años escribió el dolor de un amor no correspondido en el final de _Xian Jian Qi Zhuan_, y vendió diez mil copias el primer día. Ambos juegos pasaron a conocerse como las "Dos Espadas de Softstar", abarcando tres décadas, generando series de televisión y películas, con ventas acumuladas que superan el millón de copias. En septiembre de 2024, Softstar vendió la propiedad intelectual de ambas espadas por 500 millones de dólares taiwaneses; en junio de 2025, la IP de _Xuan Yuan Jian_ pasó de Huan Dong a Chengdu Xingyue Chenshi; el 3 de noviembre de 2025, Softstar cambió su nombre a "Star Fusion Group", con el 65% de su negocio en semiconductores. Pero para toda una generación de jugadores, aquella tarde en la que lloraron por primera vez frente a una ventana DOS, no se vende.

@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-28T23:10:49+08:00",
-    "zhCommitHead": "528b19d73",
+    "lastUpdated": "2026-05-29T01:10:58+08:00",
+    "zhCommitHead": "d92d1f346",
     "totalZh": 769,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
         "total_zh": 769,
-        "fresh": 757,
-        "stale": 11,
+        "fresh": 759,
+        "stale": 10,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       },
       "ja": {
         "total_zh": 769,
-        "fresh": 757,
-        "stale": 11,
+        "fresh": 759,
+        "stale": 10,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       },
       "ko": {
         "total_zh": 769,
-        "fresh": 757,
-        "stale": 11,
+        "fresh": 759,
+        "stale": 10,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       },
       "es": {
         "total_zh": 769,
-        "fresh": 757,
-        "stale": 11,
+        "fresh": 759,
+        "stale": 10,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       },
       "fr": {
         "total_zh": 769,
-        "fresh": 757,
-        "stale": 11,
+        "fresh": 759,
+        "stale": 10,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       }
     },
@@ -2466,77 +2466,67 @@
         "en": {
           "path": "en/Music/chou-hui.md",
           "translatedFrom": "Music/周蕙.md",
-          "sourceCommitSha": "4183834da",
-          "sourceContentHash": "sha256:94c157b4ce51fa75",
-          "sourceBodyHash": "sha256:2eee04086207a2ca",
-          "translatedAt": "2026-05-19T05:08:06+08:00",
+          "sourceCommitSha": "528b19d73",
+          "sourceContentHash": "sha256:50a2dc8af252fba1",
+          "sourceBodyHash": "sha256:74e33914371a886e",
+          "translatedAt": "2026-05-29T00:39:33+08:00",
           "translationLastCommit": "a70355a3",
           "translationLastModified": "2026-05-19T07:07:43+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+218 -13"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
           "path": "ja/Music/chou-hui.md",
           "translatedFrom": "Music/周蕙.md",
-          "sourceCommitSha": "4183834da",
-          "sourceContentHash": "sha256:94c157b4ce51fa75",
-          "sourceBodyHash": "sha256:2eee04086207a2ca",
-          "translatedAt": "2026-05-19T05:08:06+08:00",
+          "sourceCommitSha": "528b19d73",
+          "sourceContentHash": "sha256:50a2dc8af252fba1",
+          "sourceBodyHash": "sha256:74e33914371a886e",
+          "translatedAt": "2026-05-29T00:39:33+08:00",
           "translationLastCommit": "a70355a3",
           "translationLastModified": "2026-05-19T07:07:43+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+218 -13"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
           "path": "ko/Music/chou-hui.md",
           "translatedFrom": "Music/周蕙.md",
-          "sourceCommitSha": "4183834da",
-          "sourceContentHash": "sha256:94c157b4ce51fa75",
-          "sourceBodyHash": "sha256:2eee04086207a2ca",
-          "translatedAt": "2026-05-19T05:08:07+08:00",
+          "sourceCommitSha": "528b19d73",
+          "sourceContentHash": "sha256:50a2dc8af252fba1",
+          "sourceBodyHash": "sha256:74e33914371a886e",
+          "translatedAt": "2026-05-29T00:39:33+08:00",
           "translationLastCommit": "a70355a3",
           "translationLastModified": "2026-05-19T07:07:43+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+218 -13"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
           "path": "es/Music/chou-hui.md",
           "translatedFrom": "Music/周蕙.md",
-          "sourceCommitSha": "4183834da",
-          "sourceContentHash": "sha256:94c157b4ce51fa75",
-          "sourceBodyHash": "sha256:2eee04086207a2ca",
-          "translatedAt": "2026-05-19T05:08:07+08:00",
+          "sourceCommitSha": "528b19d73",
+          "sourceContentHash": "sha256:50a2dc8af252fba1",
+          "sourceBodyHash": "sha256:74e33914371a886e",
+          "translatedAt": "2026-05-29T00:39:33+08:00",
           "translationLastCommit": "a70355a3",
           "translationLastModified": "2026-05-19T07:07:43+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+218 -13"
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
           "path": "fr/Music/chou-hui.md",
           "translatedFrom": "Music/周蕙.md",
-          "sourceCommitSha": "4183834da",
-          "sourceContentHash": "sha256:94c157b4ce51fa75",
-          "sourceBodyHash": "sha256:2eee04086207a2ca",
-          "translatedAt": "2026-05-19T05:08:07+08:00",
+          "sourceCommitSha": "528b19d73",
+          "sourceContentHash": "sha256:50a2dc8af252fba1",
+          "sourceBodyHash": "sha256:74e33914371a886e",
+          "translatedAt": "2026-05-29T00:39:34+08:00",
           "translationLastCommit": "a70355a3",
           "translationLastModified": "2026-05-19T07:07:43+08:00",
           "inferred": false,
-          "status": "stale",
-          "reason": "body-drift",
-          "commitsBehind": 2,
-          "diffSummary": "+218 -13"
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -9442,8 +9432,8 @@
     },
     "Technology/半導體產業.md": {
       "zh": {
-        "lastCommit": "4f25cbbc",
-        "lastModified": "2026-05-27T23:09:54+08:00",
+        "lastCommit": "decc6fc1",
+        "lastModified": "2026-05-28T23:13:26+08:00",
         "contentHash": "sha256:4d6c76146a148f9f",
         "bodyHash": "sha256:54602876f4b03760"
       },
@@ -9451,7 +9441,7 @@
         "en": {
           "path": "en/taiwan-semiconductor-industry.md",
           "translatedFrom": "Technology/半導體產業.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:4d6c76146a148f9f",
           "sourceBodyHash": "sha256:54602876f4b03760",
           "translatedAt": "2026-05-28T05:08:33+08:00",
@@ -9464,7 +9454,7 @@
         "ja": {
           "path": "ja/Technology/semiconductor-industry.md",
           "translatedFrom": "Technology/半導體產業.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:4d6c76146a148f9f",
           "sourceBodyHash": "sha256:54602876f4b03760",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -9477,7 +9467,7 @@
         "ko": {
           "path": "ko/Technology/semiconductor-industry.md",
           "translatedFrom": "Technology/半導體產業.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:4d6c76146a148f9f",
           "sourceBodyHash": "sha256:54602876f4b03760",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -9490,7 +9480,7 @@
         "es": {
           "path": "es/Technology/taiwan-semiconductor-industry.md",
           "translatedFrom": "Technology/半導體產業.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:4d6c76146a148f9f",
           "sourceBodyHash": "sha256:54602876f4b03760",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -9503,7 +9493,7 @@
         "fr": {
           "path": "fr/Technology/semiconductor-industry.md",
           "translatedFrom": "Technology/半導體產業.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:4d6c76146a148f9f",
           "sourceBodyHash": "sha256:54602876f4b03760",
           "translatedAt": "2026-05-28T05:08:35+08:00",
@@ -9742,8 +9732,8 @@
     },
     "Technology/大宇雙劍.md": {
       "zh": {
-        "lastCommit": "6925637f",
-        "lastModified": "2026-05-28T06:42:29+08:00",
+        "lastCommit": "decc6fc1",
+        "lastModified": "2026-05-28T23:13:26+08:00",
         "contentHash": "sha256:8e80804c9910ac1a",
         "bodyHash": "sha256:c6e2238f1a2c15d5"
       },
@@ -9751,10 +9741,10 @@
         "en": {
           "path": "en/Technology/softstar-twin-classics.md",
           "translatedFrom": "Technology/大宇雙劍.md",
-          "sourceCommitSha": "9193f35b",
-          "sourceContentHash": "sha256:38d6b524391a0d61",
+          "sourceCommitSha": "d92d1f34",
+          "sourceContentHash": "sha256:676f2a6847ce9f55",
           "sourceBodyHash": "sha256:5453ae20da287bcb",
-          "translatedAt": "2026-05-28T01:45:15Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -9764,10 +9754,10 @@
         "ja": {
           "path": "ja/Technology/softstar-twin-classics.md",
           "translatedFrom": "Technology/大宇雙劍.md",
-          "sourceCommitSha": "9193f35b",
-          "sourceContentHash": "sha256:38d6b524391a0d61",
+          "sourceCommitSha": "d92d1f34",
+          "sourceContentHash": "sha256:676f2a6847ce9f55",
           "sourceBodyHash": "sha256:5453ae20da287bcb",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -9777,10 +9767,10 @@
         "ko": {
           "path": "ko/Technology/softstar-twin-classics.md",
           "translatedFrom": "Technology/大宇雙劍.md",
-          "sourceCommitSha": "9193f35b",
-          "sourceContentHash": "sha256:38d6b524391a0d61",
+          "sourceCommitSha": "d92d1f34",
+          "sourceContentHash": "sha256:676f2a6847ce9f55",
           "sourceBodyHash": "sha256:5453ae20da287bcb",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -9790,10 +9780,10 @@
         "es": {
           "path": "es/Technology/softstar-twin-classics.md",
           "translatedFrom": "Technology/大宇雙劍.md",
-          "sourceCommitSha": "9193f35b",
-          "sourceContentHash": "sha256:38d6b524391a0d61",
+          "sourceCommitSha": "d92d1f34",
+          "sourceContentHash": "sha256:676f2a6847ce9f55",
           "sourceBodyHash": "sha256:5453ae20da287bcb",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -9803,10 +9793,10 @@
         "fr": {
           "path": "fr/Technology/softstar-twin-classics.md",
           "translatedFrom": "Technology/大宇雙劍.md",
-          "sourceCommitSha": "9193f35b",
-          "sourceContentHash": "sha256:38d6b524391a0d61",
+          "sourceCommitSha": "d92d1f34",
+          "sourceContentHash": "sha256:676f2a6847ce9f55",
           "sourceBodyHash": "sha256:5453ae20da287bcb",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -9967,8 +9957,8 @@
     },
     "Technology/雷亞遊戲.md": {
       "zh": {
-        "lastCommit": "4f25cbbc",
-        "lastModified": "2026-05-27T23:09:54+08:00",
+        "lastCommit": "decc6fc1",
+        "lastModified": "2026-05-28T23:13:26+08:00",
         "contentHash": "sha256:d307bb82f3b9e301",
         "bodyHash": "sha256:c5aec6ca99b3567c"
       },
@@ -9976,7 +9966,7 @@
         "en": {
           "path": "en/Technology/rayark-games.md",
           "translatedFrom": "Technology/雷亞遊戲.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:d307bb82f3b9e301",
           "sourceBodyHash": "sha256:c5aec6ca99b3567c",
           "translatedAt": "2026-05-28T05:08:33+08:00",
@@ -9989,7 +9979,7 @@
         "ja": {
           "path": "ja/Technology/rayark-games.md",
           "translatedFrom": "Technology/雷亞遊戲.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:d307bb82f3b9e301",
           "sourceBodyHash": "sha256:c5aec6ca99b3567c",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -10002,7 +9992,7 @@
         "ko": {
           "path": "ko/Technology/rayark-games.md",
           "translatedFrom": "Technology/雷亞遊戲.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:d307bb82f3b9e301",
           "sourceBodyHash": "sha256:c5aec6ca99b3567c",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -10015,7 +10005,7 @@
         "es": {
           "path": "es/Technology/rayark-games.md",
           "translatedFrom": "Technology/雷亞遊戲.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:d307bb82f3b9e301",
           "sourceBodyHash": "sha256:c5aec6ca99b3567c",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -10028,7 +10018,7 @@
         "fr": {
           "path": "fr/Technology/rayark-games.md",
           "translatedFrom": "Technology/雷亞遊戲.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:d307bb82f3b9e301",
           "sourceBodyHash": "sha256:c5aec6ca99b3567c",
           "translatedAt": "2026-05-28T05:08:35+08:00",
@@ -10717,8 +10707,8 @@
     },
     "Art/臺灣漫遊錄.md": {
       "zh": {
-        "lastCommit": "4f25cbbc",
-        "lastModified": "2026-05-27T23:09:54+08:00",
+        "lastCommit": "decc6fc1",
+        "lastModified": "2026-05-28T23:13:26+08:00",
         "contentHash": "sha256:04cc7caa03e151f7",
         "bodyHash": "sha256:1999959e3ea909b4"
       },
@@ -10726,7 +10716,7 @@
         "en": {
           "path": "en/Art/taiwan-travelogue.md",
           "translatedFrom": "Art/臺灣漫遊錄.md",
-          "sourceCommitSha": "4f25cbbc",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:04cc7caa03e151f7",
           "sourceBodyHash": "sha256:1999959e3ea909b4",
           "translatedAt": "2026-05-24T05:06:32+08:00",
@@ -10739,7 +10729,7 @@
         "ja": {
           "path": "ja/Art/taiwan-travelogue.md",
           "translatedFrom": "Art/臺灣漫遊錄.md",
-          "sourceCommitSha": "4f25cbbc",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:04cc7caa03e151f7",
           "sourceBodyHash": "sha256:1999959e3ea909b4",
           "translatedAt": "2026-05-24T05:06:32+08:00",
@@ -10752,7 +10742,7 @@
         "ko": {
           "path": "ko/Art/taiwan-travelogue.md",
           "translatedFrom": "Art/臺灣漫遊錄.md",
-          "sourceCommitSha": "4f25cbbc",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:04cc7caa03e151f7",
           "sourceBodyHash": "sha256:1999959e3ea909b4",
           "translatedAt": "2026-05-24T05:06:32+08:00",
@@ -10765,7 +10755,7 @@
         "es": {
           "path": "es/Art/taiwan-travelogue.md",
           "translatedFrom": "Art/臺灣漫遊錄.md",
-          "sourceCommitSha": "4f25cbbc",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:04cc7caa03e151f7",
           "sourceBodyHash": "sha256:1999959e3ea909b4",
           "translatedAt": "2026-05-24T05:06:33+08:00",
@@ -10778,7 +10768,7 @@
         "fr": {
           "path": "fr/Art/taiwan-travelogue.md",
           "translatedFrom": "Art/臺灣漫遊錄.md",
-          "sourceCommitSha": "4f25cbbc",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:04cc7caa03e151f7",
           "sourceBodyHash": "sha256:1999959e3ea909b4",
           "translatedAt": "2026-05-24T05:06:33+08:00",
@@ -11017,8 +11007,8 @@
     },
     "Art/江賢二.md": {
       "zh": {
-        "lastCommit": "4f25cbbc",
-        "lastModified": "2026-05-27T23:09:54+08:00",
+        "lastCommit": "decc6fc1",
+        "lastModified": "2026-05-28T23:13:26+08:00",
         "contentHash": "sha256:3870280529c79170",
         "bodyHash": "sha256:67baf16d4a608267"
       },
@@ -11026,7 +11016,7 @@
         "en": {
           "path": "en/Art/chiang-hsien-yi.md",
           "translatedFrom": "Art/江賢二.md",
-          "sourceCommitSha": "4f25cbbc",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:3870280529c79170",
           "sourceBodyHash": "sha256:67baf16d4a608267",
           "translatedAt": "2026-05-25T21:06:51Z",
@@ -11039,7 +11029,7 @@
         "ja": {
           "path": "ja/Art/chiang-hsien-yi.md",
           "translatedFrom": "Art/江賢二.md",
-          "sourceCommitSha": "4f25cbbc",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:3870280529c79170",
           "sourceBodyHash": "sha256:67baf16d4a608267",
           "translatedAt": "2026-05-25T21:07:04Z",
@@ -11052,7 +11042,7 @@
         "ko": {
           "path": "ko/Art/chiang-hsien-yi.md",
           "translatedFrom": "Art/江賢二.md",
-          "sourceCommitSha": "4f25cbbc",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:3870280529c79170",
           "sourceBodyHash": "sha256:67baf16d4a608267",
           "translatedAt": "2026-05-25T21:07:07Z",
@@ -11065,7 +11055,7 @@
         "es": {
           "path": "es/Art/chiang-hsien-yi.md",
           "translatedFrom": "Art/江賢二.md",
-          "sourceCommitSha": "4f25cbbc",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:3870280529c79170",
           "sourceBodyHash": "sha256:67baf16d4a608267",
           "translatedAt": "2026-05-26T21:07:27Z",
@@ -11078,7 +11068,7 @@
         "fr": {
           "path": "fr/Art/chiang-hsien-yi.md",
           "translatedFrom": "Art/江賢二.md",
-          "sourceCommitSha": "4f25cbbc",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:3870280529c79170",
           "sourceBodyHash": "sha256:67baf16d4a608267",
           "translatedAt": "2026-05-25T21:07:36Z",
@@ -11401,10 +11391,10 @@
         "en": {
           "path": "en/Art/taiwanese-experimental-and-new-media-art.md",
           "translatedFrom": "Art/FAB DAO與百岳計畫.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:7a32729b455c6498",
           "sourceBodyHash": "sha256:efb1bd81aaf69268",
-          "translatedAt": "2026-05-28T01:45:15Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -11414,10 +11404,10 @@
         "ja": {
           "path": "ja/Art/taiwanese-experimental-and-new-media-art.md",
           "translatedFrom": "Art/FAB DAO與百岳計畫.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:7a32729b455c6498",
           "sourceBodyHash": "sha256:efb1bd81aaf69268",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -11427,10 +11417,10 @@
         "ko": {
           "path": "ko/Art/taiwanese-experimental-and-new-media-art.md",
           "translatedFrom": "Art/FAB DAO與百岳計畫.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:7a32729b455c6498",
           "sourceBodyHash": "sha256:efb1bd81aaf69268",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -11453,10 +11443,10 @@
         "fr": {
           "path": "fr/Art/taiwanese-experimental-and-new-media-art.md",
           "translatedFrom": "Art/FAB DAO與百岳計畫.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:7a32729b455c6498",
           "sourceBodyHash": "sha256:efb1bd81aaf69268",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -13966,10 +13956,10 @@
         "ja": {
           "path": "ja/Lifestyle/taiwan-healthcare-and-national-health-insurance.md",
           "translatedFrom": "Lifestyle/台灣醫療與全民健保.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:c5ff1dd2cc7e3855",
           "sourceBodyHash": "sha256:882670c81d48e0c6",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -13979,10 +13969,10 @@
         "ko": {
           "path": "ko/Lifestyle/taiwan-healthcare-and-national-health-insurance.md",
           "translatedFrom": "Lifestyle/台灣醫療與全民健保.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:c5ff1dd2cc7e3855",
           "sourceBodyHash": "sha256:882670c81d48e0c6",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -13992,10 +13982,10 @@
         "es": {
           "path": "es/Lifestyle/taiwan-healthcare-and-national-health-insurance.md",
           "translatedFrom": "Lifestyle/台灣醫療與全民健保.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:c5ff1dd2cc7e3855",
           "sourceBodyHash": "sha256:882670c81d48e0c6",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -14005,10 +13995,10 @@
         "fr": {
           "path": "fr/Lifestyle/taiwan-healthcare-and-national-health-insurance.md",
           "translatedFrom": "Lifestyle/台灣醫療與全民健保.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:c5ff1dd2cc7e3855",
           "sourceBodyHash": "sha256:882670c81d48e0c6",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -15603,10 +15593,10 @@
         "en": {
           "path": "en/Society/taiwan-environmental-justice-nimby-conflicts.md",
           "translatedFrom": "Society/台灣環境正義與鄰避爭議.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:25ea2bd0128c18a8",
           "sourceBodyHash": "sha256:f83ec53b765f106c",
-          "translatedAt": "2026-05-28T01:45:15Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -15631,10 +15621,10 @@
         "ko": {
           "path": "ko/Society/taiwan-environmental-justice-nimby-conflicts.md",
           "translatedFrom": "Society/台灣環境正義與鄰避爭議.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:25ea2bd0128c18a8",
           "sourceBodyHash": "sha256:f83ec53b765f106c",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -15644,10 +15634,10 @@
         "es": {
           "path": "es/Society/taiwan-environmental-justice-nimby-conflicts.md",
           "translatedFrom": "Society/台灣環境正義與鄰避爭議.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:25ea2bd0128c18a8",
           "sourceBodyHash": "sha256:f83ec53b765f106c",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -29698,8 +29688,8 @@
     },
     "People/許倬雲.md": {
       "zh": {
-        "lastCommit": "4f25cbbc",
-        "lastModified": "2026-05-27T23:09:54+08:00",
+        "lastCommit": "decc6fc1",
+        "lastModified": "2026-05-28T23:13:26+08:00",
         "contentHash": "sha256:b128007e07e1536d",
         "bodyHash": "sha256:6a51eda75b8ff9c7"
       },
@@ -29707,7 +29697,7 @@
         "en": {
           "path": "en/People/cho-yun-hsu-bridging-historian.md",
           "translatedFrom": "People/許倬雲.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:b128007e07e1536d",
           "sourceBodyHash": "sha256:6a51eda75b8ff9c7",
           "translatedAt": "2026-05-28T05:08:33+08:00",
@@ -29720,7 +29710,7 @@
         "ja": {
           "path": "ja/People/cho-yun-hsu-bridging-historian.md",
           "translatedFrom": "People/許倬雲.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:b128007e07e1536d",
           "sourceBodyHash": "sha256:6a51eda75b8ff9c7",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -29733,7 +29723,7 @@
         "ko": {
           "path": "ko/People/cho-yun-hsu-bridging-historian.md",
           "translatedFrom": "People/許倬雲.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:b128007e07e1536d",
           "sourceBodyHash": "sha256:6a51eda75b8ff9c7",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -29746,7 +29736,7 @@
         "es": {
           "path": "es/People/cho-yun-hsu-bridging-historian.md",
           "translatedFrom": "People/許倬雲.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:b128007e07e1536d",
           "sourceBodyHash": "sha256:6a51eda75b8ff9c7",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -29759,7 +29749,7 @@
         "fr": {
           "path": "fr/People/cho-yun-hsu-bridging-historian.md",
           "translatedFrom": "People/許倬雲.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:b128007e07e1536d",
           "sourceBodyHash": "sha256:6a51eda75b8ff9c7",
           "translatedAt": "2026-05-28T05:08:35+08:00",
@@ -30223,8 +30213,8 @@
     },
     "People/鄭愁予.md": {
       "zh": {
-        "lastCommit": "4f25cbbc",
-        "lastModified": "2026-05-27T23:09:54+08:00",
+        "lastCommit": "decc6fc1",
+        "lastModified": "2026-05-28T23:13:26+08:00",
         "contentHash": "sha256:086f24d0c1633e3e",
         "bodyHash": "sha256:f40f6f8b3d6781ad"
       },
@@ -30232,7 +30222,7 @@
         "en": {
           "path": "en/People/cheng-chou-yu-poet.md",
           "translatedFrom": "People/鄭愁予.md",
-          "sourceCommitSha": "4f25cbbc",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:086f24d0c1633e3e",
           "sourceBodyHash": "sha256:f40f6f8b3d6781ad",
           "translatedAt": "2026-05-26T05:10:57+08:00",
@@ -30245,7 +30235,7 @@
         "ja": {
           "path": "ja/People/cheng-chou-yu-poet.md",
           "translatedFrom": "People/鄭愁予.md",
-          "sourceCommitSha": "4f25cbbc",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:086f24d0c1633e3e",
           "sourceBodyHash": "sha256:f40f6f8b3d6781ad",
           "translatedAt": "2026-05-26T05:10:57+08:00",
@@ -30258,7 +30248,7 @@
         "ko": {
           "path": "ko/People/cheng-chou-yu-poet.md",
           "translatedFrom": "People/鄭愁予.md",
-          "sourceCommitSha": "4f25cbbc",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:086f24d0c1633e3e",
           "sourceBodyHash": "sha256:f40f6f8b3d6781ad",
           "translatedAt": "2026-05-26T05:10:57+08:00",
@@ -30271,7 +30261,7 @@
         "es": {
           "path": "es/People/cheng-chou-yu-poet.md",
           "translatedFrom": "People/鄭愁予.md",
-          "sourceCommitSha": "4f25cbbc",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:086f24d0c1633e3e",
           "sourceBodyHash": "sha256:f40f6f8b3d6781ad",
           "translatedAt": "2026-05-26T05:10:57+08:00",
@@ -30284,7 +30274,7 @@
         "fr": {
           "path": "fr/People/cheng-chou-yu-poet.md",
           "translatedFrom": "People/鄭愁予.md",
-          "sourceCommitSha": "4f25cbbc",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:086f24d0c1633e3e",
           "sourceBodyHash": "sha256:f40f6f8b3d6781ad",
           "translatedAt": "2026-05-26T05:10:58+08:00",
@@ -30673,8 +30663,8 @@
     },
     "People/尹衍樑.md": {
       "zh": {
-        "lastCommit": "4f25cbbc",
-        "lastModified": "2026-05-27T23:09:54+08:00",
+        "lastCommit": "decc6fc1",
+        "lastModified": "2026-05-28T23:13:26+08:00",
         "contentHash": "sha256:232e75e6f0a55e9d",
         "bodyHash": "sha256:72b70b205da94b86"
       },
@@ -30682,7 +30672,7 @@
         "en": {
           "path": "en/People/samuel-yin-yan-liang.md",
           "translatedFrom": "People/尹衍樑.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:232e75e6f0a55e9d",
           "sourceBodyHash": "sha256:72b70b205da94b86",
           "translatedAt": "2026-05-28T05:08:33+08:00",
@@ -30695,7 +30685,7 @@
         "ja": {
           "path": "ja/People/samuel-yin-yan-liang.md",
           "translatedFrom": "People/尹衍樑.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:232e75e6f0a55e9d",
           "sourceBodyHash": "sha256:72b70b205da94b86",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -30708,7 +30698,7 @@
         "ko": {
           "path": "ko/People/samuel-yin-yan-liang.md",
           "translatedFrom": "People/尹衍樑.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:232e75e6f0a55e9d",
           "sourceBodyHash": "sha256:72b70b205da94b86",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -30721,7 +30711,7 @@
         "es": {
           "path": "es/People/samuel-yin-yan-liang.md",
           "translatedFrom": "People/尹衍樑.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:232e75e6f0a55e9d",
           "sourceBodyHash": "sha256:72b70b205da94b86",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -30734,7 +30724,7 @@
         "fr": {
           "path": "fr/People/samuel-yin-yan-liang.md",
           "translatedFrom": "People/尹衍樑.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:232e75e6f0a55e9d",
           "sourceBodyHash": "sha256:72b70b205da94b86",
           "translatedAt": "2026-05-28T05:08:35+08:00",
@@ -35180,19 +35170,69 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/People/ya-hsien-poet.md",
+          "translatedFrom": "People/瘂弦.md",
+          "sourceCommitSha": "e70936dd9",
+          "sourceContentHash": "sha256:07b153459b5b921e",
+          "sourceBodyHash": "sha256:6597d0fd8fb4ea67",
+          "translatedAt": "2026-05-29T00:39:33+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/People/ya-hsien-poet.md",
+          "translatedFrom": "People/瘂弦.md",
+          "sourceCommitSha": "e70936dd9",
+          "sourceContentHash": "sha256:07b153459b5b921e",
+          "sourceBodyHash": "sha256:6597d0fd8fb4ea67",
+          "translatedAt": "2026-05-29T00:39:33+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/People/ya-hsien-poet.md",
+          "translatedFrom": "People/瘂弦.md",
+          "sourceCommitSha": "e70936dd9",
+          "sourceContentHash": "sha256:07b153459b5b921e",
+          "sourceBodyHash": "sha256:6597d0fd8fb4ea67",
+          "translatedAt": "2026-05-29T00:39:33+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/People/ya-hsien-poet.md",
+          "translatedFrom": "People/瘂弦.md",
+          "sourceCommitSha": "e70936dd9",
+          "sourceContentHash": "sha256:07b153459b5b921e",
+          "sourceBodyHash": "sha256:6597d0fd8fb4ea67",
+          "translatedAt": "2026-05-29T00:39:33+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/People/ya-hsien-poet.md",
+          "translatedFrom": "People/瘂弦.md",
+          "sourceCommitSha": "e70936dd9",
+          "sourceContentHash": "sha256:07b153459b5b921e",
+          "sourceBodyHash": "sha256:6597d0fd8fb4ea67",
+          "translatedAt": "2026-05-29T00:39:34+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -36797,10 +36837,10 @@
         "ja": {
           "path": "ja/People/lee-ju-eun-singer.md",
           "translatedFrom": "People/李珠珢.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:c87fa614c30922e7",
           "sourceBodyHash": "sha256:c0d649ed19f7f301",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -36810,10 +36850,10 @@
         "ko": {
           "path": "ko/People/lee-ju-eun-singer.md",
           "translatedFrom": "People/李珠珢.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:c87fa614c30922e7",
           "sourceBodyHash": "sha256:c0d649ed19f7f301",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -36823,10 +36863,10 @@
         "es": {
           "path": "es/People/lee-ju-eun-singer.md",
           "translatedFrom": "People/李珠珢.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:c87fa614c30922e7",
           "sourceBodyHash": "sha256:c0d649ed19f7f301",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -36836,10 +36876,10 @@
         "fr": {
           "path": "fr/People/lee-ju-eun-singer.md",
           "translatedFrom": "People/李珠珢.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:c87fa614c30922e7",
           "sourceBodyHash": "sha256:c0d649ed19f7f301",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -38800,8 +38840,8 @@
     },
     "People/馬英九.md": {
       "zh": {
-        "lastCommit": "4f25cbbc",
-        "lastModified": "2026-05-27T23:09:54+08:00",
+        "lastCommit": "decc6fc1",
+        "lastModified": "2026-05-28T23:13:26+08:00",
         "contentHash": "sha256:638d3a0f5fb85b4f",
         "bodyHash": "sha256:054579b8b6abb208"
       },
@@ -38809,7 +38849,7 @@
         "en": {
           "path": "en/People/ma-ying-jeou-cross-strait-reconciliation-leader.md",
           "translatedFrom": "People/馬英九.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:638d3a0f5fb85b4f",
           "sourceBodyHash": "sha256:054579b8b6abb208",
           "translatedAt": "2026-05-28T05:08:33+08:00",
@@ -38822,7 +38862,7 @@
         "ja": {
           "path": "ja/People/ma-ying-jeou-cross-strait-reconciliation-leader.md",
           "translatedFrom": "People/馬英九.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:638d3a0f5fb85b4f",
           "sourceBodyHash": "sha256:054579b8b6abb208",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -38835,7 +38875,7 @@
         "ko": {
           "path": "ko/People/ma-ying-jeou-cross-strait-reconciliation-leader.md",
           "translatedFrom": "People/馬英九.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:638d3a0f5fb85b4f",
           "sourceBodyHash": "sha256:054579b8b6abb208",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -38848,7 +38888,7 @@
         "es": {
           "path": "es/People/ma-ying-jeou-cross-strait-reconciliation-leader.md",
           "translatedFrom": "People/馬英九.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:638d3a0f5fb85b4f",
           "sourceBodyHash": "sha256:054579b8b6abb208",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -38861,7 +38901,7 @@
         "fr": {
           "path": "fr/People/ma-ying-jeou-cross-strait-reconciliation-leader.md",
           "translatedFrom": "People/馬英九.md",
-          "sourceCommitSha": "4f25cbbc5",
+          "sourceCommitSha": "decc6fc1",
           "sourceContentHash": "sha256:638d3a0f5fb85b4f",
           "sourceBodyHash": "sha256:054579b8b6abb208",
           "translatedAt": "2026-05-28T05:08:35+08:00",
@@ -44824,10 +44864,10 @@
         "ja": {
           "path": "ja/Food/tea-culture.md",
           "translatedFrom": "Food/茶文化.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:355edf5d838e3009",
           "sourceBodyHash": "sha256:84b4858bc19ac1b0",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -44837,10 +44877,10 @@
         "ko": {
           "path": "ko/Food/tea-culture.md",
           "translatedFrom": "Food/茶文化.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:355edf5d838e3009",
           "sourceBodyHash": "sha256:84b4858bc19ac1b0",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -44850,10 +44890,10 @@
         "es": {
           "path": "es/Food/tea-culture.md",
           "translatedFrom": "Food/茶文化.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:355edf5d838e3009",
           "sourceBodyHash": "sha256:84b4858bc19ac1b0",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -44863,10 +44903,10 @@
         "fr": {
           "path": "fr/Food/tea-culture.md",
           "translatedFrom": "Food/茶文化.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:355edf5d838e3009",
           "sourceBodyHash": "sha256:84b4858bc19ac1b0",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -46341,10 +46381,10 @@
         "ko": {
           "path": "ko/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory.md",
           "translatedFrom": "History/二二八事件.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:93c12f10fee5236e",
           "sourceBodyHash": "sha256:5e2fbb5dd024ce00",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -46354,10 +46394,10 @@
         "es": {
           "path": "es/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory.md",
           "translatedFrom": "History/二二八事件.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:93c12f10fee5236e",
           "sourceBodyHash": "sha256:5e2fbb5dd024ce00",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -46367,10 +46407,10 @@
         "fr": {
           "path": "fr/History/february-28-incident-and-white-terror-taiwan-authoritarian-rule-trauma-and-memory.md",
           "translatedFrom": "History/二二八事件.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:93c12f10fee5236e",
           "sourceBodyHash": "sha256:5e2fbb5dd024ce00",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -46540,10 +46580,10 @@
         "en": {
           "path": "en/History/taiwan-democratization-history.md",
           "translatedFrom": "History/民主化.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:55ef98c123ecc353",
           "sourceBodyHash": "sha256:a653498f18a92571",
-          "translatedAt": "2026-05-28T01:45:15Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -46568,10 +46608,10 @@
         "ko": {
           "path": "ko/History/taiwan-democratization-history.md",
           "translatedFrom": "History/民主化.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:55ef98c123ecc353",
           "sourceBodyHash": "sha256:a653498f18a92571",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -46581,10 +46621,10 @@
         "es": {
           "path": "es/History/taiwan-democratization-history.md",
           "translatedFrom": "History/民主化.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:55ef98c123ecc353",
           "sourceBodyHash": "sha256:a653498f18a92571",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -46594,10 +46634,10 @@
         "fr": {
           "path": "fr/History/taiwan-democratization-history.md",
           "translatedFrom": "History/民主化.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:55ef98c123ecc353",
           "sourceBodyHash": "sha256:a653498f18a92571",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -47292,10 +47332,10 @@
         "en": {
           "path": "en/History/taiwan-transitional-justice.md",
           "translatedFrom": "History/台灣轉型正義.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:374479ea740e2331",
           "sourceBodyHash": "sha256:4c9cc6fafe9a085c",
-          "translatedAt": "2026-05-28T01:45:15Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -47320,10 +47360,10 @@
         "ko": {
           "path": "ko/History/taiwan-transitional-justice.md",
           "translatedFrom": "History/台灣轉型正義.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:374479ea740e2331",
           "sourceBodyHash": "sha256:4c9cc6fafe9a085c",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -47333,10 +47373,10 @@
         "es": {
           "path": "es/History/taiwan-transitional-justice.md",
           "translatedFrom": "History/台灣轉型正義.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:374479ea740e2331",
           "sourceBodyHash": "sha256:4c9cc6fafe9a085c",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -47346,10 +47386,10 @@
         "fr": {
           "path": "fr/History/taiwan-transitional-justice.md",
           "translatedFrom": "History/台灣轉型正義.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:374479ea740e2331",
           "sourceBodyHash": "sha256:4c9cc6fafe9a085c",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -48044,10 +48084,10 @@
         "en": {
           "path": "en/History/taiwan-white-terror.md",
           "translatedFrom": "History/台灣白色恐怖.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:2745e3b13be3485d",
           "sourceBodyHash": "sha256:3c3f9e49a7a59ba1",
-          "translatedAt": "2026-05-28T01:45:15Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -48070,10 +48110,10 @@
         "ko": {
           "path": "ko/History/taiwan-white-terror.md",
           "translatedFrom": "History/台灣白色恐怖.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:2745e3b13be3485d",
           "sourceBodyHash": "sha256:3c3f9e49a7a59ba1",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -48083,10 +48123,10 @@
         "es": {
           "path": "es/History/taiwan-white-terror.md",
           "translatedFrom": "History/台灣白色恐怖.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:2745e3b13be3485d",
           "sourceBodyHash": "sha256:3c3f9e49a7a59ba1",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,
@@ -48096,10 +48136,10 @@
         "fr": {
           "path": "fr/History/taiwan-white-terror.md",
           "translatedFrom": "History/台灣白色恐怖.md",
-          "sourceCommitSha": "9193f35b",
+          "sourceCommitSha": "d92d1f34",
           "sourceContentHash": "sha256:2745e3b13be3485d",
           "sourceBodyHash": "sha256:3c3f9e49a7a59ba1",
-          "translatedAt": "2026-05-28T00:00:00Z",
+          "translatedAt": "2026-05-29T00:35:00+08:00",
           "translationLastCommit": "f0168508",
           "translationLastModified": "2026-05-28T09:57:56+08:00",
           "inferred": false,

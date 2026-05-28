@@ -19,10 +19,10 @@ lastVerified: 2026-05-13
 lastHumanReview: false
 category: People
 translatedFrom: 'People/李珠珢.md'
-sourceCommitSha: '9193f35b'
+sourceCommitSha: 'd92d1f34'
 sourceContentHash: 'sha256:c87fa614c30922e7'
 sourceBodyHash: 'sha256:c0d649ed19f7f301'
-translatedAt: '2026-05-28T00:00:00Z'
+translatedAt: '2026-05-29T00:35:00+08:00'
 ---
 
 > **Resumen en 30 segundos:** Lee Ju-eun firmó un contrato de representación completo con los Fubon Guardians en 2025 y en 2026 reubicó de forma más clara su centro de trabajo en Taiwán. Su importancia no radica únicamente en su alto volumen de audiencia, sino en que impulsó la trayectoria de las animadoras coreanas desde un modelo de "viaje bilateral" hacia una "permanencia prolongada en Taiwán".

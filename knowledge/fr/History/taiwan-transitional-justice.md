@@ -11,10 +11,10 @@ featured: false
 translatedFrom: "History/台灣轉型正義.md"
 lastVerified: 2026-03-31
 lastHumanReview: false
-sourceCommitSha: '9193f35b'
+sourceCommitSha: 'd92d1f34'
 sourceContentHash: 'sha256:374479ea740e2331'
 sourceBodyHash: 'sha256:4c9cc6fafe9a085c'
-translatedAt: '2026-05-28T00:00:00Z'
+translatedAt: '2026-05-29T00:35:00+08:00'
 ---
 
 > **En 30 secondes :** En 1950, dans la ville de Qingshui, un jeune homme de vingt ans fut arrêté parce qu'un inconnu était venu lui rendre visite. Il passa dix ans emprisonné sur l'île de Green Island, avant de fonder, à sa libération, le premier magazine de bandes dessinées pour enfants de Taïwan. Il vécut jusqu'à quatre-vingt-treize ans, et jusqu'à la fin il revenait toujours à la même question : « Qui exactement a tué mes amis ? » La justice transitionnelle taïwanaise a obtenu l'annulation des condamnations de près de six mille personnes — mais elle n'a toujours pas répondu à cette question.

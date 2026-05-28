@@ -19,9 +19,9 @@ readingTime: 11
 lastVerified: 2026-04-05
 lastHumanReview: false
 translatedFrom: 'History/台灣白色恐怖.md'
-sourceCommitSha: '9193f35b'
+sourceCommitSha: 'd92d1f34'
 sourceContentHash: 'sha256:2745e3b13be3485d'
-translatedAt: '2026-05-28T00:00:00Z'
+translatedAt: '2026-05-29T00:35:00+08:00'
 sourceBodyHash: 'sha256:3c3f9e49a7a59ba1'
 ---
 

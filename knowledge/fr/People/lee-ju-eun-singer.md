@@ -10,10 +10,10 @@ lastVerified: 2026-05-13
 lastHumanReview: false
 category: People
 translatedFrom: People/李珠珢.md
-sourceCommitSha: '9193f35b'
+sourceCommitSha: 'd92d1f34'
 sourceContentHash: 'sha256:c87fa614c30922e7'
 sourceBodyHash: 'sha256:c0d649ed19f7f301'
-translatedAt: '2026-05-28T00:00:00Z'
+translatedAt: '2026-05-29T00:35:00+08:00'
 ---
 
 > **Aperçu en 30 secondes :** Lee Ju-eun a signé un contrat d'exclusivité complète avec les Fubon Braves en 2025, puis a clairement recentré sa carrière à Taïwan en 2026. Son importance ne réside pas uniquement dans sa forte visibilité : elle a fait évoluer le parcours des pom-pom girls coréennes (韓援) d'un modèle « aller-retour bilatéral » vers une « installation durable à Taïwan ».

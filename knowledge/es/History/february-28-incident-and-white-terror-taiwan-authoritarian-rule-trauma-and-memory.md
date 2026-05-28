@@ -19,10 +19,10 @@ featured: true
 lastVerified: 2026-03-31
 lastHumanReview: false
 translatedFrom: 'History/二二八事件.md'
-sourceCommitSha: '9193f35b'
+sourceCommitSha: 'd92d1f34'
 sourceContentHash: 'sha256:93c12f10fee5236e'
 sourceBodyHash: 'sha256:5e2fbb5dd024ce00'
-translatedAt: '2026-05-28T00:00:00Z'
+translatedAt: '2026-05-29T00:35:00+08:00'
 ---
 
 # El Incidente del 28 de febrero (228)

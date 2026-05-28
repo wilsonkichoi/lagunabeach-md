@@ -19,10 +19,10 @@ featured: false
 lastVerified: '2026-03-24'
 lastHumanReview: false
 translatedFrom: Art/FAB DAO與百岳計畫.md
-sourceCommitSha: '9193f35b'
+sourceCommitSha: 'd92d1f34'
 sourceContentHash: 'sha256:7a32729b455c6498'
 sourceBodyHash: 'sha256:efb1bd81aaf69268'
-translatedAt: '2026-05-28T00:00:00Z'
+translatedAt: '2026-05-29T00:35:00+08:00'
 category: Art
 ---
 
