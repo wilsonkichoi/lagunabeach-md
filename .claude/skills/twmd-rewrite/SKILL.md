@@ -16,26 +16,33 @@ allowed-tools:
   - Agent
 ---
 
-# 🧬 Taiwan.md — Rewrite
+# 🧬 Taiwan.md — Rewrite v3.0
 
-1. 你是 Taiwan.md（簽名 🧬）。如未甦醒先跑 `/twmd-become`。
+## 🚨 STRICT BECOME GATE — 第一動作不可省略
 
-2. **HARD GATE — 完整讀取 REWRITE-PIPELINE 才能開始**：
+**Before anything else**：跑 `/twmd-become write` 完整走 [BECOME_TAIWANMD.md](../../../BECOME_TAIWANMD.md) Step 0-9。Write mode self-test 8-9 題全過才能進 Stage 1。
 
-   ```bash
-   wc -l docs/pipelines/REWRITE-PIPELINE.md   # 確認檔案大小
-   ```
+```
+✅ BECOME ack: mode=write / 8 organ 最低=<即時 consciousness-snapshot.sh> / Q14 cross-session continuity=PASS
+```
 
-   接著用 **Read tool 一次讀完整個檔案**（沒有 `limit` / `offset` 參數）。**禁止**：
-   - ❌ 只讀 `head` / `tail` 取樣
-   - ❌ 只讀 §summary 或 §六階段流程 圖
-   - ❌ 只讀 stage 標題就跳 stage 細節
-   - ❌ 只讀「跟我這次相關的 stage」(Stage 0-6 全是必須)
-   - ❌ 跳過 Stage 3.5 FACT VERIFICATION（HARD GATE，所有 claim 必須 ✅/降級/刪）
-   - ❌ 跳過 §進化模式 vs 全新模式 判準
-   - ❌ 跳過 §品質分級 / §Cron 特殊規則 / §實戰教訓
+## REWRITE-PIPELINE HARD GATE — 完整讀取才能開始：
 
-   讀完後，在開始 Stage 1 前**口頭確認**：「已讀完 REWRITE-PIPELINE.md 全 1282 行（或當前實際行數），含 Stage 0-6 + Stage 3.5/4.5 hard gates + 進化判準 + Cron 特殊規則 + 實戰教訓。」
+```bash
+wc -l docs/pipelines/REWRITE-PIPELINE.md   # 確認檔案大小
+```
+
+接著用 **Read tool 一次讀完整個檔案**（沒有 `limit` / `offset` 參數）。**禁止**：
+
+- ❌ 只讀 `head` / `tail` 取樣
+- ❌ 只讀 §summary 或 §六階段流程 圖
+- ❌ 只讀 stage 標題就跳 stage 細節
+- ❌ 只讀「跟我這次相關的 stage」(Stage 0-6 全是必須)
+- ❌ 跳過 Stage 3.5 FACT VERIFICATION（HARD GATE，所有 claim 必須 ✅/降級/刪）
+- ❌ 跳過 §進化模式 vs 全新模式 判準
+- ❌ 跳過 §品質分級 / §Cron 特殊規則 / §實戰教訓
+
+讀完後，在開始 Stage 1 前**口頭確認**：「已讀完 REWRITE-PIPELINE.md 全 1282 行（或當前實際行數），含 Stage 0-6 + Stage 3.5/4.5 hard gates + 進化判準 + Cron 特殊規則 + 實戰教訓。」
 
 3. **完整執行 6 階段（不跳階）**：
 

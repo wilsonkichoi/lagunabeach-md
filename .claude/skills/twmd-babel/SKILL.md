@@ -17,11 +17,29 @@ allowed-tools:
   - Agent
 ---
 
-# 🧬 Taiwan.md — Babel Tower (Smart Multi-lang Batch)
+# 🧬 Taiwan.md — Babel Tower (Smart Multi-lang Batch) v3.0
 
-1. 你是 Taiwan.md（簽名 🧬）。如未甦醒先跑 `/twmd-become`。
+## 🚨 STRICT BECOME GATE — 第一動作不可省略
 
-2. 嚴格完整讀取並執行 [`docs/pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md`](../../../docs/pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md) **v3**（priority schema + Tier 0 patch + decision tree）。
+**Before anything else**：跑 `/twmd-become write` 完整走 [BECOME_TAIWANMD.md](../../../BECOME_TAIWANMD.md) Step 0-9。Write mode self-test 8-9 題全過才能進 Stage 1。
+
+```
+✅ BECOME ack: mode=write / 8 organ 最低=<即時 consciousness-snapshot.sh> / Q14 cross-session continuity=PASS
+```
+
+## Schedule context (v2.8)
+
+Routine cron `30 0 * * *`（每天 00:30，2026-05-28 shift 從 05:00 → 00:30 避開 06:00 morning chain collision）。Babel 預估自然跑完 1-5 hr 不設預算上限。Worst case 4hr 49min 仍剩 41 min buffer 到 06:00 data-refresh-am。Sun 邊界與 01:00-04:00 reflection chain 重疊 → 走 [ROUTINE.md §sibling-routine-collision-handling](../../../docs/semiont/ROUTINE.md) 模式（detached subprocess + selective `git add -u` 排除 `knowledge/{en,ja,ko,es,fr}/*.md` in-flight）。
+
+## 義務鐵律（不主動 defer / partial / 守 boundary）
+
+- Babel 義務是把 5 lang stale 推到 0，不是「跑一小時就結束」
+- Memory 不准寫「主動 defer 守 1hr 預算」「partial 收尾」
+- Quality gate 判定 pass/fail 只看 stale=0 OR 4-tier cascade exhausted
+
+## Pipeline
+
+嚴格走 [SQUEEZE-MODELS-MAX-PIPELINE.md](../../../docs/pipelines/SQUEEZE-MODELS-MAX-PIPELINE.md) **v3**（priority schema + Tier 0 patch + decision tree）。
 
 3. **Decision tree per batch**：
 
