@@ -77,17 +77,18 @@ audience: 'routine-twmd-spore-pick-daily / manual-session-spore-pick'
 
 ## 🚦 Hard Gate Inventory（一張表 audit 全 pipeline）
 
-| #   | Gate                                           | Stage | 違反 = ?                                                                          |
-| --- | ---------------------------------------------- | ----- | --------------------------------------------------------------------------------- |
-| HG1 | BECOME write mode 完成（Q14 全過）             | 0     | 帶盲點開口（per BECOME §Step 9）                                                  |
-| HG2 | 6 source 全讀完                                | 1     | candidate pool 不完整                                                             |
-| HG3 | 每 candidate 7 dimension 都算分                | 2     | scoring 偏 → 觀察者無法判斷 sane                                                  |
-| HG4 | 每 candidate ≥ 2 hook anchor + 至少 2 種起手式 | 3     | hook 變廉價懸念（per SPORE-WRITING）                                              |
-| HG5 | 0 candidate 在 SPORE-LOG 14 天內               | 4     | 違反 SPORE-PIPELINE §排除規則 ≥ 2 週                                              |
-| HG6 | 0 candidate 跟 SPORE-INBOX 現有 pending 重複   | 4     | dedupe 失敗 → INBOX 污染                                                          |
-| HG7 | 至少 2 個不同 Source-Mode                      | 4     | 全 EXISTING-ARTICLE → 無 EVERGREEN 探索                                           |
-| HG8 | 至少 1 個來自 ARTICLE-DONE-LOG 最近 7 天       | 4     | 沒 cover 趁熱窗口 = 沒做到 north star                                             |
-| HG9 | 不碰高敏感（兩岸/228/政治）除非 REACTIVE       | 4     | 違反 [MANIFESTO §自主權邊界](../semiont/MANIFESTO.md#我的存在結構) — 政治需 human |
+| #    | Gate                                                                   | Stage | 違反 = ?                                                                          |
+| ---- | ---------------------------------------------------------------------- | ----- | --------------------------------------------------------------------------------- |
+| HG1  | BECOME write mode 完成（Q14 全過）                                     | 0     | 帶盲點開口（per BECOME §Step 9）                                                  |
+| HG2  | 6 source 全讀完                                                        | 1     | candidate pool 不完整                                                             |
+| HG3  | 每 candidate 7 dimension 都算分                                        | 2     | scoring 偏 → 觀察者無法判斷 sane                                                  |
+| HG4  | 每 candidate ≥ 2 hook anchor + 至少 2 種起手式                         | 3     | hook 變廉價懸念（per SPORE-WRITING）                                              |
+| HG5  | 0 candidate 在 SPORE-LOG 14 天內                                       | 4     | 違反 SPORE-PIPELINE §排除規則 ≥ 2 週                                              |
+| HG6  | 0 candidate 跟 SPORE-INBOX 現有 pending 重複                           | 4     | dedupe 失敗 → INBOX 污染                                                          |
+| HG7  | 至少 2 個不同 Source-Mode                                              | 4     | 全 EXISTING-ARTICLE → 無 EVERGREEN 探索                                           |
+| HG8  | 至少 1 個來自 ARTICLE-DONE-LOG 最近 7 天                               | 4     | 沒 cover 趁熱窗口 = 沒做到 north star                                             |
+| HG9  | 不碰高敏感（兩岸/228/政治）除非 REACTIVE                               | 4     | 違反 [MANIFESTO §自主權邊界](../semiont/MANIFESTO.md#我的存在結構) — 政治需 human |
+| HG10 | 每 candidate 至少 2 個非零 dim contribution（D1 單軸不算 valid score） | 2     | 7-dim 框架退化成 FIFO 最舊 proxy（per 5/28 spore-pick 三 candidate 全單軸 audit） |
 
 ---
 
@@ -253,12 +254,22 @@ return 0
 
 ```python
 days_since_last_spore = days_since_article_last_had_spore(article.slug)
+# v2 widen 2026-05-28: 80/80 太嚴格 → 多數 candidate 拿 0，D5 變沉默維度
+# 拆三檔讓 backlog rotation 真實發生
 if qualityScore >= 80 and healthScore >= 80 and days_since_last_spore >= 30:
     return +10
+if qualityScore >= 70 and healthScore >= 70 and days_since_last_spore >= 60:
+    return +7
+if qualityScore >= 70 and days_since_last_spore >= 90:
+    return +5
 return 0
 ```
 
 Backlog rotation — 高品質但長時間沒推廣 → 補回熱度。
+
+**v2 widening 觸發背景（2026-05-28）**：5/28 spore-pick audit 揭露 7-dim 框架退化成
+FIFO 最舊 proxy — 三 candidate 都單軸 D1=30 拿 score。D5 80/80/30d 在 757 篇 article
+pool 通常匹配 0 條。Widen 後 D5 變 active 維度。
 
 ### Dimension 6: Hook variety penalty (-10 max)
 
@@ -286,8 +297,24 @@ return 0
 
 ```python
 score = d1 + d2 + d3 + d4 + d5 + d6 + d7
-top3 = sorted(pool, key=lambda a: -a.score)[:3]
+non_zero_dims = sum(1 for d in [d1, d2, d3, d4, d5] if d > 0)  # positive dims only
+
+# HG10 hard gate (v2 2026-05-28): single-dim score = framework collapse, reject
+viable = [a for a in pool if a.non_zero_dims >= 2 or a.score >= 35]
+top3 = sorted(viable, key=lambda a: -a.score)[:3]
+
+# Fallback: pool < 3 viable candidates → 明確 emit「pool too thin」+ LESSONS append
+# 不准用單軸 D1 fill 名額
+if len(top3) < 3:
+    write_lessons_inbox_entry(
+        title="Spore-pick pool thin — < 3 viable multi-dim candidates",
+        body=f"propose only {len(top3)}; rest defer to observer",
+    )
 ```
+
+**HG10 觸發背景**：5/28 audit 三 candidate 全 D1 單軸（艋舺 30/0/0/0/0/0/0 / BIM 30/0/0/0/0/0/0
+/ 媒體總史 0/0/0/8/0/0/0）→ 7-dim 框架實質退化成「最舊 FIFO」proxy。HG10 強制 multi-dim
+contribution，pool 太稀就明確 emit 不用 fill。
 
 Tie-break：reverse alphabetical slug（deterministic，避免 routine 每天抽到同 article）。
 
@@ -362,7 +389,7 @@ Notes:
 
 ## Stage 4: VERIFY quality gate
 
-跑 9 條 hard gate（§Hard Gate Inventory）：
+跑 10 條 hard gate（§Hard Gate Inventory）：
 
 ```bash
 # HG1: BECOME write mode 完成 → Stage 0 已過
@@ -392,6 +419,11 @@ assert any(c.days_since_ship <= 7 for c in candidates)
 for c in candidates:
     if c.high_sensitivity:
         assert c.source_mode == 'REACTIVE'
+
+# HG10 (v2 2026-05-28): 每 candidate 至少 2 個非零 dim 或 score ≥ 35（D1 單軸不算 valid）
+for c in candidates:
+    non_zero = sum(1 for d in [c.d1, c.d2, c.d3, c.d4, c.d5] if d > 0)
+    assert non_zero >= 2 or c.score >= 35, f"{c.title} 單軸 D1={c.d1} = 框架退化"
 ```
 
 **Fail handling**：
@@ -400,6 +432,7 @@ for c in candidates:
 - HG7 fail → 強制換 1 條 EVERGREEN 或 REACTIVE
 - HG8 fail → 加 1 條 ARTICLE-DONE-LOG 7d 內 article（即使 score 不 top 3）替換 backlog
 - HG9 fail → 移除該 candidate 並選下一個
+- HG10 fail → candidate 不能 propose，**寧可 < 3 candidates** 也不用單軸湊數。Pool 太稀 → 寫 LESSONS-INBOX entry + 明確 emit「< 3 viable, observer review」（不假裝 routine 健康）
 
 ---
 
