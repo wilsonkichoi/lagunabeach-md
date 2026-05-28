@@ -84,12 +84,65 @@ python3 scripts/tools/article-health.py knowledge/<path>.md --json
 
 ---
 
-## Stage 3: WRITE — delegate SPORE-PIPELINE Stage 3
+## Stage 3: WRITE — delegate SPORE-PIPELINE Stage 3 (v3.1 STRICT READ GATE)
 
 詳見 [SPORE-PIPELINE.md](../../../docs/factory/SPORE-PIPELINE.md) Stage 3。`SPORE_ROUTINE_MODE=1` auto-decision per v3.7。
 
-關鍵 anti-pattern：
+### 🚨 STRICT SPORE-WRITING READ GATE — v3.1 新加（2026-05-28）
 
+**Before drafting any prose**: 強制 `Read` 完整 [SPORE-WRITING.md](../../../docs/factory/SPORE-WRITING.md)（不 head / 不 grep / 不憑記憶）。落 ACK 一行進 memory：
+
+```
+✅ SPORE-WRITING ack: §朋友 tone prime + §模板速查表(6 模板) + §Wave 2 plugin gate + §三板斧 + §晶晶體禁用 全讀完。Family judged = <viral A/B/C/D | F-公開信 | E-串文>
+```
+
+**沒寫 ACK = Stage 3 未完成**。不准用「我熟了」「上次跑過」「等價 prompt」這類藉口跳。
+
+**為什麼這條 gate 是 routine 不可省的閘門**（2026-05-28 哲宇 callout「為什麼孢子失去『你知道嗎』voice」+ #97 美食「你知道嗎—」破折號 + #101 落日飛車「你知道嗎，」無 emoji + #103 周蕙「走進台灣 KTV」完全無 prefix 三條連續 drift 觸發 root cause audit）：
+
+- CONTRACT v1.0 over-engineering 後 routine skill Stage 3「delegate SPORE-PIPELINE」是 pointer-only — cron context 不會主動 Read SPORE-WRITING 完整檔
+- post-ship verify `textHasHook` 抓 keyword（"KTV"）不抓 prefix（"你知道嗎"）— self-attest 自我矇眼
+- 對應 [REFLEXES #15 反覆浮現要儀器化](../../../docs/semiont/REFLEXES.md) + §神經迴路「儀器化也會 over-engineer」第二個 instance
+
+### Plugin gate hard 鐵律（v3.1 新加）
+
+寫完 spore body 落 `docs/factory/spore-blueprints/{N}-{slug}.md` 後**強制跑**：
+
+```bash
+python3 scripts/tools/article-health.py docs/factory/spore-blueprints/{N}-{slug}.md --check=spore-writing
+```
+
+`Rule #14 v2 HARD` — viral spore 第一行**必須**有友善 prefix 之一：
+
+- `你知道嗎？{emoji}` （最強推薦）
+- `你知道嗎，{...}` （舊風格逗號變體仍允許）
+- `欸，{具體事件}` / `欸你{...}`
+- `身為台灣人` / `想像{一下}` / `如果{你/台}` / `當你/你們`
+- `「『引語』」` 直接引語開場
+- emoji 開場
+
+**場景代入 / 第二人稱化 / 日常感不算等效 prime** — 必須字面 prefix。
+F-公開信 / E-串文 / `hook_tier: N/A` exempt（plugin auto-detect via frontmatter）。
+
+Plugin hard=1 → **revise prose 加 prefix，重跑 plugin。不准 `--no-verify` 繞過**。
+
+### Blueprint 落檔鐵律（v3.1 新加）
+
+routine spore-publish-daily **必須**寫 `docs/factory/spore-blueprints/{N}-{slug}.md` blueprint file（含 fence-wrapped 完整 spore prose），不准只在 session memory inline body。觸發背景：周蕙 #103 inline 而非 blueprint → plugin Rule #14 根本沒跑 → silent voice drift through gate。
+
+Blueprint frontmatter 必填：
+
+```yaml
+spore_number: '#{Threads N} / #{X N+1}'
+template: <A1 / A2 / B / C / D / E-thread / F-站方公開信>
+hook_tier: <1a / 1b / N/A>
+```
+
+`template: F-...` 或 `hook_tier: N/A` = publicletter family exempt（plugin auto-detect）。
+
+### 關鍵 anti-pattern（讀 SPORE-WRITING ACK 後仍要 self-check）
+
+- **朋友 tone prime「你知道嗎？」開場必跑**（viral family，per Wave 2 plugin gate v2 HARD severity）
 - **Family discrimination 先做** — 用 [SPORE-WRITING §模板選擇速查表](../../../docs/factory/SPORE-WRITING.md) 判 viral / F 公開信 / E 串文 family（5/27 #99 portaly v1 callout 教訓）
 - **三板斧自檢**（破折號連用 / 對位 / 塑膠句）
 - **事實鐵三角**（時間 / 地點 / 數字）— verbatim 對齊 article footnote source
@@ -133,7 +186,7 @@ Self-review 4 題（必填 memory）：
 
 1. Quality gate 過得乾不乾淨？（borderline ≤ 5% 算 borderline）
 2. Hook tier 達標？（per SPORE-WRITING tier 表）
-3. 朋友 tone prime？（不是新聞 lead）
+3. 朋友 tone prime plugin pass？（**plugin spore-writing Rule #14 v2 HARD=0**，不再靠 self-attest；不准回答「等價 prime」「場景代入算」這類 drift 藉口 — plugin 字面 prefix 過閘 = 真過閘）
 4. 事實對齊？（全 anchor verbatim 對齊 article footnote source）
 
 ---

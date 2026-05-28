@@ -218,6 +218,27 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ## 📥 Pending（待發）
 
+### 周蕙 — RETRACTION 重發（哲宇 directive 2026-05-28，#103/#104 voice drift 修補後重發）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Music/周蕙.md](../../knowledge/Music/周蕙.md)
+- **Priority**: `P0`
+- **Status**: `pending`
+- **Requested**: 2026-05-28 by 哲宇 directive 「周蕙 → 刪掉重發」
+- **Trigger**: SPORE-LOG #103/#104 retracted（voice drift — 第一行「走進台灣任何一間 KTV」完全無「你知道嗎？」prefix，是觸發 plugin Rule #14 v2 HARD gate 升級的三條 spore 之一）
+- **Pre-conditions for re-ship**:
+  - ✅ Article R2 EVOLVE 已 ship（commit `f32895640`，6655 CJK / 9 iframe / 12 張專輯 26 年弧線）
+  - ⏳ 哲宇手動刪除 Threads + X 既有 post（per §自主權邊界，社群刪文 = human action）
+  - ⏳ 新 blueprint **必須**寫到 `docs/factory/spore-blueprints/103-周蕙.md`（routine 必填 blueprint，不准 inline session memory）
+  - ⏳ Blueprint frontmatter `template: <viral A/B/C/D>` + `hook_tier: 1a or 1b`
+  - ⏳ Plugin Rule #14 v2 HARD=0 — 第一行字面 prefix「你知道嗎？{emoji}」/「欸，」/...
+- **Hook 候選**（待 routine pick）:
+  - A2 首尾呼應「你知道嗎？🎤 1999 年福茂發行一張很奇怪的精選輯，封面是漫畫娃娃，歌手 22 歲不對外露面...26 年後她第一次站上小巨蛋，尾聲說『不曉得這會不會是最後一次』」
+  - B 反差「你知道嗎？🎵 全台灣 80% 的人都會哼〈約定〉副歌，但有 60% 認不出唱者的臉。她出道 25 年，三個月前才第一次站上小巨蛋...」
+- **Notes**:
+  - 重發是 v3.1 STRICT SPORE-WRITING READ GATE + plugin v2 HARD severity 第一次 production 驗證
+  - 若 routine pick 跑時 plugin Rule #14 fail → revise prose，重跑 plugin（不准跳）
+
 ### 瘂弦 — 一冊不再，封筆 56 年仍是台灣詩史前五
 
 - **Source-Mode**: `EXISTING-ARTICLE`

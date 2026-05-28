@@ -223,11 +223,31 @@ sys.exit(0 if days <= 90 else 2)
 
 ---
 
-## Stage 3: WRITE — delegate to SPORE-PIPELINE
+## Stage 3: WRITE — delegate to SPORE-PIPELINE (v1.2 STRICT READ GATE)
 
 跑 [SPORE-PIPELINE Stage 3 WRITE](SPORE-PIPELINE.md) 全程：起手式 5 種 + 鉤子三要素 + 自檢三板斧 + spore-writing plugin gate。
 
-Routine context defaults（per SPORE-PIPELINE §Routine 自動決策 v3.7）：
+### 🚨 STRICT SPORE-WRITING READ GATE — v1.2 新加（2026-05-28）
+
+**Before drafting any prose**: 強制 `Read` 完整 [SPORE-WRITING.md](SPORE-WRITING.md)（不 head / 不 grep / 不憑記憶），落 ACK 一行進 memory：
+
+```
+✅ SPORE-WRITING ack: §朋友 tone prime + §模板速查表(6 模板) + §Wave 2 plugin gate + §三板斧 + §晶晶體禁用 全讀完。Family judged = <viral A/B/C/D | F-公開信 | E-串文>
+```
+
+寫完 spore body **強制**落 `docs/factory/spore-blueprints/{N}-{slug}.md` blueprint file（含 fence-wrapped 完整 prose 跟 frontmatter `template:` `hook_tier:`）— 不准只在 session memory inline body。觸發背景：周蕙 #103 inline body → plugin Rule #14 根本沒跑 → silent voice drift through gate。
+
+Blueprint 落檔後**強制跑** plugin gate：
+
+```bash
+python3 scripts/tools/article-health.py docs/factory/spore-blueprints/{N}-{slug}.md --check=spore-writing
+```
+
+`Rule #14 v2 HARD severity` — viral spore 第一行必須字面 prefix（你知道嗎？/欸/身為台灣人/想像/當你/『引語』/emoji）。場景代入 / 第二人稱化不算等效 prime。F-公開信 / E-串文 / `hook_tier: N/A` exempt（plugin auto-detect via frontmatter）。
+
+Plugin hard=1 → revise prose 加 prefix，重跑 plugin。**不准 `--no-verify` 繞過 / 不准用「等價 prime」自我合理化**。
+
+### Routine context defaults（per SPORE-PIPELINE §Routine 自動決策 v3.7）
 
 - Platform: Threads + X（雙平台，per 哲宇 directive「未來一天穩定至少發一個孢子」）
 - Hook tier: 1b default
@@ -260,7 +280,7 @@ Routine context defaults（per SPORE-PIPELINE §Routine 自動決策 v3.7）：
 
 1. **Quality gate 過得乾不乾淨？** prose-health score / word-count / footnote / media — 各分數列出。borderline pass（剛好過門檻）vs comfortable pass 要區分
 2. **Hook tier 達標？** 1a → 1b → 2a 自評。低於 1b → 記 LESSONS
-3. **朋友 tone prime？** 第一秒像不像新聞 lead → 是 = AI 水印漏網
+3. **朋友 tone prime plugin pass？** spore-writing Rule #14 v2 HARD=0（v1.2 升級，不再靠 self-attest「不像新聞 lead」這類 drift 藉口 — plugin 字面 prefix HARD gate 過閘 = 真過閘）
 4. **事實對齊？** Spore 提到的數字 / 時間 / 引語 vs article footnote source 一致？任何不對齊立刻 retract（per `feedback_absolute_facts_extra_caution` 鐵律）
 
 ### 5.2 LESSONS-INBOX surface

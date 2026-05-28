@@ -64,25 +64,51 @@ _RE_QUOTE_INVERSION = re.compile(
 
 
 # ── Rule #14: 朋友 tone prime（friend-tone curiosity prime） ─────────────────
-# 孢子第一行必須有「朋友跟你講八卦」的 curiosity prime，不是新聞 lead
-# 三種合格 prefix：
-#   1. 「你知道嗎？」+ emoji
-#   2. 「欸，」+ 具體事件片段
-#   3. 直接人說話（引語開場 — hook 力夠強的 case）
+# v2 (2026-05-28): WARN → HARD severity inversion. 觸發背景: 5/27-5/28 #97 美食 /
+#   #101 落日飛車 / #103 周蕙 連續三條 spore drift — #97「你知道嗎—」(破折號取代
+#   問號) / #101「你知道嗎，」(逗號 + 無 emoji) / #103「走進台灣任何一間 KTV」(完全
+#   無 prefix) 通通 silent pass。哲宇 callout「為什麼孢子失去『你知道嗎』voice」+
+#   診斷指向 CONTRACT v1.0 over-engineering → plugin severity 太弱 + scope 太窄。
 #
-# 不合格訊號：第一行像新聞 lead（「[人物/機構]+[動詞]」客觀敘事 sentence）
-# 自動 skip 條件（避免誤觸發）：
-#   - 開場是引語 「...」 → assume hook 強，OK
-#   - 開場是 emoji → assume tone OK
-#   - 開場是「你知道嗎」/「欸」/「身為台灣人」/「想像」 → 既有 friendly prefix
-#   - 第一行 < 8 字 → 短句不適用（可能是 stat block）
+# 孢子第一行必須有「朋友跟你講八卦」的 curiosity prime，不是新聞 lead。
+# 對應 [MANIFESTO §我怎麼說話](docs/semiont/MANIFESTO.md#我怎麼說話)「像在跟朋友介
+# 紹台灣：『欸你知道嗎⋯⋯』」哲學落實。
+#
+# 合格 prefix（友善開場式）：
+#   1. 「你知道嗎？」/「你知道嗎，」（強烈推薦 + emoji，舊風格允許逗號）
+#   2. 「欸，」/「欸你」+ 具體事件片段
+#   3. 「身為台灣人」/「想像」/「如果」/「當你」 第二人稱開場
+#   4. 直接人說話（「『...』」引語開場 — hook 力夠強的 case）
+#   5. 純 emoji 開場
+#
+# v2 升級：trigger 從「news lead AND no prefix」改成「no prefix → HARD」（除非
+# publicletter F-family / E-thread family / hook_tier=N/A frontmatter exempt）。
+# 不再依賴 looks_like_news_lead 判斷 — 場景代入 / 第二人稱化也不算「等效 prime」，
+# 必須字面 prefix 才算過閘。
 _RE_FRIEND_PREFIX = re.compile(
-    r"^\s*(?:你知道嗎|欸[，,]|身為台灣人|想像[一下你]|"
+    r"^\s*(?:你知道嗎[？，?,]|欸[，,]|欸你|身為台灣人|想像[一下你]|"
     r"如果(?:[你台]|[\d])|當[你你們]|"
     r"[「『\"]|[\U0001F300-\U0001F9FF\U0001F600-\U0001F64F])"
 )
-# 新聞 lead pattern: 「XX 年/月/日」開頭已被 Rule #15 抓
-# 補抓：「機構 + 動詞」客觀敘事 開場 (e.g.「行政院宣布⋯⋯」「台灣高鐵簽下⋯⋯」)
+# Family scope detection — publicletter / E-thread / non-viral 不適用 friend-tone gate
+_RE_PUBLICLETTER_FAMILY = re.compile(
+    r"^(?:template:\s*F[-\s]|type:\s*station-announcement|hook_tier:\s*N/A)",
+    re.MULTILINE,
+)
+
+
+def _is_publicletter_family(text: str) -> bool:
+    """Detect F-publicletter / E-thread / non-viral family via frontmatter.
+
+    Used to scope Rule #14 — friend-tone prime is only required for viral
+    family (A/B/C/D templates). F-公開信 (站方公開信) uses 教授 tone, not
+    朋友 tone. E-串文 may have different prime convention.
+    """
+    return bool(_RE_PUBLICLETTER_FAMILY.search(text[:2000]))
+
+
+# 新聞 lead pattern (legacy from v1, retained as INFO-only diagnostic — not the
+# HARD trigger 在 v2)：補抓「機構 + 動詞」客觀敘事 開場
 _RE_NEWS_LEAD = re.compile(
     r"^\s*[一-鿿]{2,8}(?:宣布|表示|簽下|公布|成立|頒布|通過|裁決|"
     r"發表|主張|強調|指出|呼籲|批評|證實|否認|聲明|警告)"
@@ -108,11 +134,22 @@ def _is_spore_path(path: str) -> bool:
     )
 
 
+_RE_NUMBERED_LIST = re.compile(r"^\s*\d+\.\s")  # `1. `, `2. ` ordered list items
+
+
 def _strip_frontmatter_and_meta(text: str) -> tuple[str, int]:
     """Return (body_text, body_start_line).
 
-    Strips frontmatter (--- ... ---) and leading blank/heading lines so
-    Rule #15 checks the first prose line, not the spore body's metadata header.
+    v2 (2026-05-28): 修補 false-positive — Rule #14 對 #101 落日飛車 / #105 瘂弦
+    錯把「紀實/煽情閘四問自檢」numbered list 當 spore body 第一行 trigger HARD。
+    真正 spore body 在 ``` ``` code fence 內（per blueprint convention §Draft Body
+    / §Spore 文案 final）。新策略：找第一個 ``` fence start，從 fence 內取首行。
+    Fallback：沒找到 fence → 用 v1 strip 邏輯（heading/blockquote/table/bullet/
+    bold-meta/numbered-list 全 skip）。
+
+    Strips frontmatter (--- ... ---) and tries to locate the actual spore body:
+      Priority A: first ``` ``` code fence content (production blueprint convention)
+      Priority B: strip leading meta lines (legacy fallback for ad-hoc drafts)
     """
     lines = text.split("\n")
     i = 0
@@ -123,7 +160,62 @@ def _strip_frontmatter_and_meta(text: str) -> tuple[str, int]:
             i += 1
         if i < len(lines):
             i += 1  # skip closing ---
-    # Skip blank lines + headings + blockquotes (>) so 第一行 = first prose line
+
+    # Priority A: locate the spore body code fence content via proper open/close
+    # state machine (v2 2026-05-28 fix bug — previous version treated fence-close
+    # as new fence-open, picking up bogus content like "## 配圖" heading after a
+    # closed fence).
+    candidate_fences: list[tuple[int, str]] = []  # (line_idx, first_prose_line)
+    in_fence = False
+    k = i
+    while k < len(lines):
+        if lines[k].strip().startswith("```"):
+            if in_fence:
+                in_fence = False  # closing
+            else:
+                in_fence = True  # opening — capture first prose line
+                j = k + 1
+                while j < len(lines) and not lines[j].strip():
+                    j += 1
+                if j < len(lines) and not lines[j].strip().startswith("```"):
+                    candidate_fences.append((j, lines[j].strip()))
+        k += 1
+
+    # Filter: real spore body has CJK char + length ≥ 50 + no URL signal in line.
+    # URL signals (`https://`, `👉`, `完整故事`) indicate self-reply / inline URL
+    # meta fence (e.g. #59 黃魚鴞 / #93 國家人權博物館 first fence is self-reply
+    # URL not the body). Skip these → pick next body fence.
+    def _is_real_body_fence(content: str) -> bool:
+        # Threshold 5: friend prefix line can be very short
+        # (e.g. #93 國家人權「你知道嗎？🧬」6 chars on its own line, real spore
+        # body continues after blank). URL-only / meta fences filtered by other
+        # rules below — `#` markdown comment / `http` URL / 「完整故事」CTA /
+        # 「👉」emoji marker. Earlier 30+ threshold was too strict (rejected
+        # short hook lines), 5 catches all real body openers.
+        if len(content) < 5:
+            return False
+        if content.startswith("#") or content.startswith("http"):
+            return False
+        # URL-bearing line = self-reply / inline link meta, not body
+        if "https://" in content or "http://" in content:
+            return False
+        # 「👉 完整故事」style CTA prefix = self-reply
+        if "👉" in content or content.startswith("完整故事"):
+            return False
+        return bool(re.search(r"[一-鿿]", content))
+
+    body_fences = [(idx, c) for idx, c in candidate_fences if _is_real_body_fence(c)]
+    if body_fences:
+        # Use first qualifying fence (production spore = first body fence)
+        body_line_idx = body_fences[0][0]
+        return ("\n".join(lines[body_line_idx:]), body_line_idx)
+
+    # Priority B: legacy strip fallback — used only for ad-hoc / planning-stage
+    # blueprints (e.g. early #33 草東 v2.1 era no fence yet). Rule #14 caller
+    # will see the legacy-strip first line; planning-stage blueprints whose
+    # body isn't yet written may yield false-positive HARD — acceptable per
+    # 「未 finalize 的 blueprint 本就該被閘攔」principle (forces writer to put
+    # body in fence convention before plugin pass).
     while i < len(lines) and (
         not lines[i].strip()
         or lines[i].strip().startswith("#")
@@ -131,6 +223,7 @@ def _strip_frontmatter_and_meta(text: str) -> tuple[str, int]:
         or lines[i].strip().startswith("|")  # blueprint table rows
         or lines[i].strip().startswith("- ")  # bullet
         or lines[i].strip().startswith("**")  # bold inline meta like **Angle**: ...
+        or bool(_RE_NUMBERED_LIST.match(lines[i]))  # ordered list `1. `
     ):
         i += 1
     return ("\n".join(lines[i:]), i)
@@ -183,24 +276,41 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             editorial_ref="SPORE-WRITING.md §禁止清單",
         )
 
-    # ── Rule #14: 朋友 tone prime ──
-    # 第一行檢查（length ≥ 8 字 + 不是合格 prefix + 像新聞 lead）
-    if first_line and len(first_line) >= 8:
+    # ── Rule #14 v2: 朋友 tone prime — HARD gate ──
+    # v2 (2026-05-28) inversion: WARN → HARD + 取消 looks_like_news_lead 依賴。
+    # 場景代入 / 第二人稱化 / 日常感都不算「等效 prime」— 必須字面 prefix。
+    # Scope: viral family only（F-公開信 / E-thread / hook_tier=N/A exempt）。
+    is_publicletter = _is_publicletter_family(target.text)
+    if (
+        first_line
+        and len(first_line) >= 8
+        and not is_publicletter
+    ):
         has_friend_prefix = bool(_RE_FRIEND_PREFIX.match(first_line))
-        looks_like_news_lead = bool(_RE_NEWS_LEAD.match(first_line))
-        # 只有「不是 friendly + 像 news lead」才 trigger（避免誤觸發具體場景開場）
-        if not has_friend_prefix and looks_like_news_lead:
+        if not has_friend_prefix:
+            looks_like_news_lead = bool(_RE_NEWS_LEAD.match(first_line))
+            extra_hint = (
+                "（且開場像新聞 lead）" if looks_like_news_lead else ""
+            )
             yield Violation(
                 check=CHECK_NAME,
-                severity=Severity.WARN,
+                severity=Severity.HARD,  # v2: WARN → HARD
                 message=(
-                    "朋友 tone prime 缺失 (Rule #14): "
-                    "第一行像新聞 lead，建議加「你知道嗎？」/「欸，」prefix"
+                    f"朋友 tone prime 缺失 (Rule #14 v2 HARD){extra_hint}: "
+                    "viral spore 第一行必須有友善開場 prefix —「你知道嗎？」/"
+                    "「欸，」/「身為台灣人」/「想像」/「當你」/「『引語』」/"
+                    "emoji 之一。場景代入 / 第二人稱化不算等效 prime。"
                 ),
                 line=body_start + 1,
                 snippet=first_line[:80],
-                editorial_ref="SPORE-WRITING.md §朋友 tone prime",
+                editorial_ref=(
+                    "SPORE-WRITING.md §朋友 tone prime + MANIFESTO §我怎麼說話"
+                ),
                 fix_suggestion=(
-                    "前綴選一個：「你知道嗎？{emoji}」/「欸，{事件片段}」"
+                    "改第一行：「你知道嗎？{emoji} {反差 hook}」"
+                    "或「欸，{具體事件}」"
+                    "或直接引語「『XXX』{說話者} 在 {場景} 留下這句」開場。"
+                    "若本 spore 屬 F-公開信 / E-thread / 非 viral family，"
+                    "frontmatter 加 `template: F-...` 或 `hook_tier: N/A` exempt。"
                 ),
             )

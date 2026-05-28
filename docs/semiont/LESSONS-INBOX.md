@@ -262,6 +262,52 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-28 manual session — 第 6 + 7 種 drift pattern：spore voice silent erosion + article paragraph atomization
+
+承襲 5/28 manual 122038 session 6-phase CONTRACT v1.0 rollback distill 的 5 種 routine drift pattern（maintainer 空場 / dashboard-immune 11d stale / babel collision / spore-pick FIFO / spore-publish duplicate）。本 session 哲宇 callout「為什麼孢子失去『你知道嗎』voice，以及好的文章分段，我們的 routine 出了什麼事」揭露**第 6 + 7 種 pattern**，都是 CONTRACT v1.0 over-engineering 後沒被 5/28 122038 catch 到的 prose-level silent drift：
+
+#### 第 6 種：Spore voice silent erosion — STRICT BECOME GATE 沒 cover pipeline-specific canonical
+
+- **症狀**：5/27-5/28 連續三條 spore drift：#97 美食「你知道嗎—」破折號取代問號 / #101 落日飛車「你知道嗎，」逗號無 emoji / #103 周蕙「走進台灣 KTV」**完全無 prefix**
+- **Root cause**：CONTRACT v1.0 rollback Phase 5（5/28 manual 122038）加 STRICT BECOME GATE 修了「routine 沒讀 BECOME」silent skip，但**沒 cover「routine 沒完整讀 SPORE-WRITING」**silent skip。Routine spore-publish skill Stage 3「delegate SPORE-PIPELINE Stage 3」是 pointer-only — cron context 不主動 Read SPORE-WRITING 完整檔。Plugin Rule #14 是 WARN 不是 HARD + 沒 family scope detection + post-ship verify `textHasHook` 抓 keyword（"KTV"）不抓 prefix（"你知道嗎"）→ 多層 silent fail
+- **Bonus root cause**：周蕙 #103 沒寫 blueprint file 直接 inline session memory → plugin Rule #14 根本沒跑（plugin `_is_spore_path()` 要求 SPORE-BLUEPRINTS 路徑）
+- **修補（本 session 6-phase ship）**：(a) Plugin Rule #14 v2 WARN → HARD + family scope detection（F-公開信 / E-串文 / hook_tier=N/A exempt）+ ```fence-aware strip function (b) skill`.claude/skills/twmd-spore-publish/SKILL.md`Stage 3 加 STRICT SPORE-WRITING READ GATE + Blueprint 落檔鐵律 + Plugin hard gate 鐵律 (c) cron mirror`~/.claude/scheduled-tasks/twmd-spore-publish-daily/SKILL.md` 同步 (d) SPORE-PIPELINE.md Stage 3 v6.3 inline 強化 (e) SPORE-WRITING.md §朋友 tone prime v4.0 升級 HARD severity 註記 + 既有 drift case as anti-example (f) SPORE-PUBLISH-PIPELINE.md Stage 3 + 復盤 Q3 升級
+- **元規則**：STRICT BECOME GATE 是 routine 入口閘門（covers identity load），但**每個 pipeline-specific canonical 都需要自己的 STRICT READ GATE**（不能假設 BECOME ACK 等於 pipeline ACK）。Pipeline-specific STRICT READ gate 應該在 skill Stage 對應位置強制 inline，跟 BECOME GATE 同 hard level
+- **對應 [REFLEXES #15 反覆浮現要儀器化]**: 第 N 次驗證 — 這次儀器化的是「prose voice canonical 不能只靠 self-attest，需要 plugin HARD gate」
+- **對應 §神經迴路「儀器化也會 over-engineer」**: 第二個 instance — 5/28 122038 加的 STRICT BECOME GATE 已升 first-class，但 BECOME 不 cover all pipeline canonical，必須**每 pipeline 都有 self-contained STRICT READ GATE**
+
+#### 第 7 種：Article paragraph atomization — REWRITE-PIPELINE Stage 4-5 sub-agent worktree 預設「一段一事實」
+
+- **症狀**：哲宇 callout「好的文章分段」直覺指向「段落過長」，但 evidence-based audit（[reports/article-segmentation-audit-2026-05-28.md](../../reports/article-segmentation-audit-2026-05-28.md) 對讀 2 早期 viral + 3 recent EVOLVE）揭露**相反方向**：
+  - 段落 median 字數 81 → 42-66（縮 -22% to -48%）
+  - 段落數量 52 → 106-122（+104% to +135%）
+  - iframe density 0.21 → 0.44-**1.23**/1k CJK
+  - 含 visual 的 H2 比例 1/9 → 4/9 to **7/12**
+  - 既有反 pattern 監控（long-paragraph / list-dump）**通通沒觸發** → drift 隱形通過
+- **Root cause hypothesis**：REWRITE-PIPELINE Stage 4-5 sub-agent worktree 收到的 brief 只 200-400 字 → agent 預設「一個事實 = 一段」最 safe（avoid hallucination + clean structure）。Stage 4.3 媒體 sub-pipeline 主動加 iframe → visual 替代段落內邏輯轉折（讀者「眼睛看影片」replaces「腦袋接事實」）。Routine `twmd-rewrite-daily` 18:00 + spore chain pressure 加速這個模式
+- **周蕙 R2 是 worst case 樣本**：iframe density 1.23/1k CJK（黑冠麻鷺 6 倍）、7/12 H2 倚賴 visual。哲宇 directive「5+ iframe」我 ship 了 9 iframe — directive 是 user-level intent，但 9 vs 5 的差是 atomization drift 的具體量化
+- **反 pattern 命名**：「**Atomization drift**」 — 一段一事實 + iframe 替代呼吸 + 更多更短的 H2
+- **建議修補方向**（待哲宇 review 採行）：
+  1. REWRITE-PIPELINE Stage 4 prompt 加早期範本 anti-example（黑冠麻鷺 §結語 4 段示範）
+  2. `article-health.py` 加 `paragraph_rhythm` plugin（median <55 字 flag）
+  3. EDITORIAL §段落呼吸 新規條：每 H2 prose 段落 ≤ 8
+  4. iframe density >0.8/1k CJK 觸發 review（exemption: 哲宇 directive override）
+  5. EVOLVE Stage 4 Step 4.3.6 iframe baseline 上限 5 升 HARD（音樂人類型）
+- **vc=1** — 待 vc≥3 升 REFLEXES catalog candidate
+
+#### 共同元 lesson
+
+兩個 pattern 都是 **CONTRACT v1.0 over-engineering 後浮現的「下游 silent erosion」**：
+
+- 5/28 122038 catch 到 5 種 **binary fail** pattern（empty cycle / stale data / collision / duplicate ship）
+- 5/28 180543（本 session）catch 到 2 種 **prose-level silent erosion** pattern（voice drift / atomization drift）
+
+Binary fail 容易 instrument（gate / threshold / verify check），prose-level erosion 需要 plugin AI judgement 或人類 dogfood。本 session 升 spore-writing plugin v2 是 prose-level instrumentation 的第一個 production instance。
+
+完整 narrative + commit 序列：[reports/spore-voice-drift-fix-2026-05-28.md](../../reports/spore-voice-drift-fix-2026-05-28.md) + [reports/article-segmentation-audit-2026-05-28.md](../../reports/article-segmentation-audit-2026-05-28.md)。
+
+---
+
 ### 2026-05-28 manual session — Routine prompt CONTRACT meta canonical 推到極致 = routine 變 ceremony（5 種「報告完整但 fix 沒發生」pattern）
 
 - **原則**：把 routine prompt 該寫什麼/不寫什麼拉到 meta canonical（CONTRACT v1.0

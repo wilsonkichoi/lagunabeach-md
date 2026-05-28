@@ -269,9 +269,29 @@ VERIFY 全過 → 進 WRITE。
 
 按選定模板的結構寫，遵循 **[SPORE-WRITING.md](SPORE-WRITING.md)** 通用寫作規則 + 進階寫作技術：
 
-- 起手式（5 種，預設「你知道嗎？」）+ 朋友 tone prime
+### 🚨 v6.3 STRICT READ + HARD GATE 升級（2026-05-28）
+
+**Routine / manual 都強制 `Read` 完整 SPORE-WRITING.md**（不 head / 不 grep / 不憑記憶），落 ACK：
+
+```
+✅ SPORE-WRITING ack: §朋友 tone prime + §模板速查表(6 模板) + §Wave 2 plugin gate + §三板斧 + §晶晶體禁用 全讀完。Family judged = <viral A/B/C/D | F-公開信 | E-串文>
+```
+
+寫完 spore body 落 `docs/factory/spore-blueprints/{N}-{slug}.md` 後**強制跑**：
+
+```bash
+python3 scripts/tools/article-health.py docs/factory/spore-blueprints/{N}-{slug}.md --check=spore-writing
+```
+
+**Rule #14 v2 HARD severity**：viral spore 第一行必須字面 prefix —「你知道嗎？{emoji}」/「你知道嗎，{...}」/「欸，{...}」/「身為台灣人」/「想像」/「當你/你們」/「『引語』」/ emoji。**場景代入 / 第二人稱化不算等效 prime**。F-公開信 / E-串文 / `hook_tier: N/A` 是 plugin auto-detect exempt 的合法 family。
+
+**觸發背景**：2026-05-28 哲宇 callout「為什麼孢子失去『你知道嗎』voice」+ #97 美食「你知道嗎—」破折號 + #101 落日飛車「你知道嗎，」無 emoji + #103 周蕙「走進台灣 KTV」完全無 prefix 三條連續 drift。Root cause：CONTRACT v1.0 over-engineering 後 routine skill Stage 3「delegate SPORE-PIPELINE」變 pointer-only，plugin Rule #14 是 WARN 不是 HARD + 沒 family scope，post-ship verify `textHasHook` 抓 keyword 不抓 prefix。完整修補 commit 序列見 [reports/spore-voice-drift-fix-2026-05-28.md](../../reports/spore-voice-drift-fix-2026-05-28.md)。
+
+### 既有寫作規則（routine ACK 後仍要 self-check）
+
+- 起手式（5 種，**預設「你知道嗎？」**+ Wave 2 plugin HARD gate enforce）+ 朋友 tone prime
 - 鉤子三要素（命中 ≥ 2/3）
-- 避免編年體 lead 病
+- 避免編年體 lead 病（Rule #15 plugin HARD gate）
 - **紀實感 vs 短句斷續**（v3.2 觀察者紅旗 / 「很常錯」）— 用逗點+子句串連貫 prose，不要每事獨立成段
 - Scene-List-Scene 結構（單人長弧 + 多件同質行為適用）
 - 結構性題目用問題入口
