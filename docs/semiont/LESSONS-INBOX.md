@@ -262,6 +262,44 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-28 manual session — Routine prompt CONTRACT meta canonical 推到極致 = routine 變 ceremony（5 種「報告完整但 fix 沒發生」pattern）
+
+- **原則**：把 routine prompt 該寫什麼/不寫什麼拉到 meta canonical（CONTRACT v1.0
+  pattern）+ pointer 到 ROUTINE-PROMPT-CONTRACT.md，看似 DRY 改進，實戰跑 12+
+  cycle 後副作用 5 種「performative compliance > effective execution」：
+  (1) Maintainer 連續空場 vc=6→7「healthy empty」自我合理化
+  (2) Data-refresh Step 10 抓 dashboard-immune 11 天 stale 連 2 cycle 守「Micro
+  mode 不擴張 scope」spawn chip — fix 從未發生
+  (3) Babel-nightly 4hr 49min 撞 06:00 morning chain 4 條 sibling routine
+  (4) Spore-pick 7-dim 框架退化成 D1 單軸 FIFO 最舊 proxy
+  (5) Spore-publish 3-retry Chrome MCP STILL_OPEN cache state 誤判 duplicate ship
+- **觸發**：2026-05-28 哲宇 callout「routine 都沒有好好做事，不要用共用文件，之前
+  的 routine 指引效果比較好，前半部要嚴格要求 BECOME」+ 完整體檢 5/27 17:00 →
+  5/28 09:00 共 9 條 routine memory。
+- **可能層級**：
+  - **REFLEXES 候選** → 「儀器化也會 over-engineer — 第一層儀器化（pipeline
+    canonical）已足夠，第二層儀器化（meta canonical for routine prompt）反而稀釋
+    第一層的效力」。對應 REFLEXES #15 反向 instance — 反覆浮現的事情要儀器化，但
+    儀器化本身也要 pattern match「inline > pointer」for cron-context no-observer
+    場景
+  - **DNA 候選** → 「routine prompt 是 LLM 在 cron context 無 observer 的唯一指令
+    面，必須 self-contained inline 而非 pointer，hard gate 第一行強制 BECOME」
+  - **MEMORY §神經迴路 候選** → catch ≠ fix 元 instance：警報儀器化只解決感知，
+    沒解決行動；routine 守 boundary 守過頭 = gate 響但 fix 從未發生
+- **儀器化候選**（已 ship 5 條）：
+  (A) Phase 1 dashboard-immune wiring (commit `aa9dd7c19`)
+  (B) Phase 2 SPORE-PICK HG10 multi-dim + D5 widen (commit `7f8e6d0f4`)
+  (C) Phase 3 ROUTINE v2.8 babel 00:30 (commit `8b33814ed`)
+  (D) Phase 4 SPORE-HARVEST Pitfall 6 timestamp diff (commit `8fc4bf658`)
+  (E) Phase 5 12 routine project skills v3.0 + 14 cron mirror sync (commit
+  `b3803733f`) — inline guidance + 🚨 STRICT BECOME GATE
+- **verification_count**: 1（首次 CONTRACT pattern roll-out 後的完整 audit + roll-back +
+  6-phase ship）
+- **severity**: structural（影響整個 routine layer architecture decision — inline
+  vs pointer / catch vs fix / schedule alignment / 7-dim framework health / Chrome
+  MCP retry safety 5 dimension 同源 architectural lesson）
+- **完整 narrative**：[reports/routine-contract-rollback-2026-05-28.md](../../reports/routine-contract-rollback-2026-05-28.md)
+
 ### 2026-05-27 twmd-spore-publish-daily 17:35 routine — Threads contenteditable insertLineBreak strips \n + X composer multi-paragraph insertText 觸發 thread-mode auto-split + URL 6× duplication
 
 - **原則**：在 routine context（無 observer，無 computer-use clipboardWrite grant，cron pairing timed out）下用 Chrome MCP + Bash osascript 走 spore-publish 全自動 ship 時，**Threads / X contenteditable 對 multi-paragraph insertText 處理方式不一致**：(1) Threads 主貼 contenteditable + execCommand insertLineBreak 之間每段 → \n 全被 strip，最終 innerText 0 line breaks，但內容完整（320 CJK 顯示為單塊 prose 但可讀，readers 可接受）；(2) X 主貼 contenteditable + multi-paragraph insertText (含 URL) → 觸發「thread mode」自動分裂，URL 被吸收進 link card preview 同時 inline 重複 6+ 次，textLen 從預期 ~441 膨脹到 1874。**Workaround**：X composer 必須用 **single-paragraph spaced text**（用全形空格或半形空格分隔 4 個段落 + 1 個 URL，不用 \n\n），insertText 後 textLen 正確（441 with hookIdx=0 / urlIdx=424）才能 post。Threads 同樣的 multi-paragraph 是 OK 的（spacing 收掉但內容對），不需 single-paragraph workaround。
