@@ -218,6 +218,30 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ## 📥 Pending（待發）
 
+### 瘂弦 — 一冊不再，封筆 56 年仍是台灣詩史前五
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/People/瘂弦.md](../../knowledge/People/瘂弦.md)
+- **Priority**: `P0`
+- **Status**: `scheduled`
+- **Requested**: 2026-05-28 by twmd-rewrite-daily routine (article ship 同 cycle queue)
+- **Hook anchor 候選**（Tier 1b 具體性槓桿）：
+  1. **數字 hook**：「你知道嗎？台灣現代詩史前五，有一位 36 歲就停筆、然後活到 92 歲的詩人」（推薦主 hook，反差 + 具體數字）
+  2. **場景 hook**：「1968 年瘂弦寫完《深淵》詩集，把九十首詩收進一本書，然後就停下來」
+  3. **verbatim hook**：「『哈里路亞，我仍活著』— 戒嚴年代他用晦澀的句子躲過警總審檢」
+  4. **時間反差**：「封筆 56 年，比寫詩的 15 年還長將近 4 倍 — 但他用《聯副》21 年的編輯台繼續寫」
+- **時效**：article 2026-05-28 18:18 ship（today），CI/CD wait ~10-15 min；2024-10-11 辭世距 spore 已 19 個月屬於紀念非趁熱
+- **敏感度**：低-中（死亡 flag — 紀實非煽情，紀實/煽情閘四問已過 per blueprint）
+- **必驗事實**：12 條 fact blueprint 全 article footnote cross-verify — 詳見 [SPORE-BLUEPRINTS/105-瘂弦.md](SPORE-BLUEPRINTS/105-瘂弦.md) §Fact Blueprint
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在，同 routine cycle ship）
+- **預估發佈時機**：next twmd-spore-publish-daily 2026-05-29 17:35（routine 150min cap 不在本 cycle ship，defer 到次日 cron）
+- **Notes**：
+  - Blueprint 已預備：[SPORE-BLUEPRINTS/105-瘂弦.md](SPORE-BLUEPRINTS/105-瘂弦.md)，draft body + verify checklist 全寫好
+  - 配圖：1080×1080 square via `bash scripts/factory/make-spore.sh --prod 瘂弦`（spore-publish 跑前生成 fresh OG）
+  - Platform：both default per v3.8（#105 Threads / #106 X）
+  - UTM：utm_campaign=s105（Threads）/ s106（X）
+  - CI/CD wait：article ship 18:18 → next cron 17:35 隔日，prod ≥ 23hr live，curl 200 + keyword verify auto-pass
+
 <!-- routine defer 2026-05-28: 中-高敏感 (政治脫口秀 + 鄭南榕梗 + 娛樂稅官司爭議 fit 政治立場 category) — 需 observer 親自 ship per spore-publish v3.0 §高敏感 REACTIVE defer rule spirit + MANIFESTO §自主權邊界 政治立場條款。cron no-observer context 走 conservative defer。 -->
 
 ### 曾博恩 — 旗艦人物 spore
