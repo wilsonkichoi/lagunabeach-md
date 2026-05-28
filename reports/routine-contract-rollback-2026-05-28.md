@@ -288,13 +288,48 @@ v3.0 + 6 commit narrative。
 
 ---
 
-## 待 observer review 的開放項目
+## Phase 7：fix-up audit（哲宇 callout「還有什麼沒留意到」觸發）
 
-1. **Maintainer schedule 對齊** — 當前 am 08:30 / pm 22:00，建議下次 routine-audit
-   cycle 檢討是否砍 am 或移到 09:30-10:00（觀察者醒 + 早晨 chain 跑完之後）
-2. **Worktree branch claude/naughty-fermat-b42028 處置** — CONTRACT v1.0 改動只在
-   該分支，merge 進 main 還是放棄？建議放棄（本 session 已把可保留的 lesson distill
-   到 main，CONTRACT.md / audit tool / REFLEXES #63 都不需要進 main）
+完成 Phase 6 後再跑一次 audit 揭 9 條漏網：
+
+### 🔴 馬上會出事
+
+1. **ROUTINE.md `#sibling-routine-collision-handling` anchor 假連結** — v2.8 註腳兩處 pointer 但 section heading 不存在 → Phase 7.1 fix
+2. **14 cron mirror task description 還是「v2.0 CONTRACT-aligned 2026-05-27」** — SKILL.md 內容已 v3.0 但 MCP 層 task description metadata stale → Phase 7.2 fix
+3. **今晚 17:30 spore-publish 撞 P0 二二八事件** — SPORE-INBOX §Pending P0 二二八敏感主題，新 v3.0 skill 沒明寫高敏感 REACTIVE 必 defer to human → Phase 7.3 fix
+
+### 🟠 結構性遺漏
+
+4. **Maintainer schedule 不需要動 schedule** — Phase 5 已寫 anti-pattern「連續 ≥ 3 cycle 空場必 LESSONS escalate observer」，明早 cron 跑會自動 trigger → 不動 schedule，由 Phase 5 邏輯接住
+5. **REFLEXES #63 在 worktree 沒進 main** — 原始 lesson 仍有效（只是 instrumentation 從 CONTRACT 改 inline），需 port 進 main REFLEXES → Phase 7.5 fix
+6. **Worktree branch `claude/naughty-fermat-b42028` 還留著** — 3 commit dangling 不會 merge，刪除清潔 → Phase 7.6 fix
+
+### 🟡 角落小事
+
+7. **News-lens project skill 不存在** — `.claude/skills/twmd-news-lens/SKILL.md` 缺，只有 cron mirror → Phase 7.7 fix（補建 project skill）
+8. **Diary entry 應補寫** — Beat 5 反芻「儀器化也會 over-engineer」明確 identity-level 不止 memory level → Phase 7.8 fix
+9. **Phase 6 commit cross-narrative warning silent passed** — 既然 commit 已 ship 不能改，但下次 commit 必加 `multi-narrative:` prefix → Phase 7.x 應用於 Phase 7 commits
+
+## Phase 7 修補（9 條一次跑完，不 defer）— 全 done
+
+| #   | 動作                                                                                                                                                                    | 處置                                                                                                | 狀態         |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------ |
+| 7.1 | ROUTINE.md 加 `<a id="sibling-routine-collision-handling">` HTML anchor 給既存「Detached worker routine collision SOP」section                                          | Edit ROUTINE.md                                                                                     | ✅           |
+| 7.2 | 13 cron mirror task description v2.0 → v3.0 sync via MCP（babel 早 Phase 3 同步過，剩 13 條本 phase）                                                                   | 13× mcp**scheduled-tasks**update_scheduled_task                                                     | ✅           |
+| 7.3 | spore-publish v3.0 skill + cron mirror 加「高敏感 REACTIVE defer rule」+ SPORE-INBOX P0 二二八 entry 加 `<!-- routine defer -->` HTML comment 防今晚 17:30 routine 撞牆 | Edit project skill + cron mirror + INBOX entry                                                      | ✅           |
+| 7.4 | Maintainer schedule                                                                                                                                                     | **不動**（Phase 5 已 cover anti-pattern + LESSONS escalate；明早 08:30 cron 跑會 trigger 鏈條閉合） | ✅ no-action |
+| 7.5 | REFLEXES #63 重寫進 main（inline + STRICT BECOME 版）+ index row                                                                                                        | Edit REFLEXES.md                                                                                    | ✅           |
+| 7.6 | Delete worktree branch claude/naughty-fermat-b42028                                                                                                                     | git branch -D                                                                                       | ✅           |
+| 7.7 | Create news-lens project skill (.claude/skills/twmd-news-lens/SKILL.md)                                                                                                 | Write                                                                                               | ✅           |
+| 7.8 | Diary entry for 2026-05-28-122038-manual (identity-level 反芻 + 自我校正 + meta-pattern「self-evolve loop 跑得越順越要懷疑前提」)                                       | Write docs/semiont/diary/2026-05-28-122038-manual.md + DIARY.md index                               | ✅           |
+| 7.9 | multi-narrative: prefix awareness                                                                                                                                       | applied to Phase 7 commit                                                                           | ✅           |
+
+---
+
+## 待 observer review 的開放項目（Phase 7 完成後）
+
+1. ~~Maintainer schedule 對齊~~ — Phase 5 anti-pattern 已 cover，明早 08:30 cron 跑會 trigger LESSONS escalation；vc=8 累積後升 REFLEXES first-class instance
+2. **Worktree branch claude/naughty-fermat-b42028 處置** — Phase 7.6 fix（刪除清潔）
 3. **REFLEXES #63 內容是否進 main** — 「Routine prompt = LLM 在 cron context 無
    observer 的唯一指令面 — prompt 偷工 = routine 永久偷工」這條教訓還是成立，但
    instrumentation 從 CONTRACT pointer 改為 inline + STRICT BECOME。建議在本 session

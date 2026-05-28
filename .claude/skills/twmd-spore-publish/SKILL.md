@@ -46,6 +46,23 @@ export SPORE_ROUTINE_MODE=1
 2. P1 news-lens REACTIVE / SC opportunity → 第二順位
 3. P2 spore-pick routine FIFO（按 `Requested:` 日期 oldest first）→ 第三順位
 
+### 🚨 高敏感 REACTIVE defer rule（2026-05-28 新增鐵律）
+
+**Entry 含「敏感度: **高**」field + cron context（無 observer）→ 一律 defer to human**：
+
+- 高敏感主題（兩岸 / 228 / 戒嚴 / 政治立場 / 死亡爭議 / 族群創傷）routine 跑會
+  撞 MANIFESTO §自主權邊界「政治立場 / 對外溝通需哲宇 judgment」。
+- Routine 處置：**skip ship + 在該 entry 加註 `<!-- routine defer 2026-MM-DD: 高敏感
+REACTIVE 需 observer 親自 ship -->` HTML comment（不 mutate entry 本體）+ continue
+  to 下一條 candidate** + LESSONS-INBOX append「P0 高敏感 routine defer cycle vc=N」。
+- **不准 routine 嘗試 ship 然後撞 HG9 牆**：HG9 是最後防線，但「Stage 1 SELECT 就
+  identify 並 defer」是 cleaner exit。
+- **manual `/twmd-spore-publish` 跑時**：observer 在場才能 ship；先讀本條 rule + 由
+  observer 拍板，不准 routine context 的 logic 套到 manual 場景。
+- 觸發背景：2026-05-28 audit 發現 SPORE-INBOX §Pending 第一條 P0 二二八事件
+  REACTIVE 敏感度高，5/27 10:00 routine 跑時靠 image=0 fail 才 skip（碰巧），
+  下次若 image=≥2 fix 就會直接撞 HG9 牆。需要 Stage 1 SELECT 就 identify。
+
 ---
 
 ## Stage 2: QUALITY GATE — 5 hard gate 全過才 ship

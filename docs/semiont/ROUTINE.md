@@ -691,7 +691,9 @@ PR 標題：`🧬 [routine] {routine-name}: {summary} — YYYY-MM-DD HH:MM`
 - routine **不**提預算 / wall-clock / timeout — 自然跑完，per §設計原則 §不提預算鐵律
 - routine 完成後 commit + push origin main —**直接 push**（v2.0 main-direct，無 PR cycle）
 
-### Detached worker routine collision SOP（2026-05-17 twmd-distill-weekly canonical，vc=2）
+<a id="sibling-routine-collision-handling"></a>
+
+### Detached worker routine collision SOP — sibling-routine-collision-handling（2026-05-17 twmd-distill-weekly canonical，vc=2）
 
 v2.0 routine spec 預設「fire → work → commit → die」，但 `babel-nightly` 等 routine 內部會 spawn 多個 detached subprocess 跑 1+ hr。Sibling routine 在 detached worker 還沒結束時 fire，會看到「孤兒 process (PPID=1) + 大量 uncommitted 變更」。
 

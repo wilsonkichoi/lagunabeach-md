@@ -260,12 +260,14 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ---
 
+<!-- routine defer 2026-05-28: 高敏感 REACTIVE (敏感度: 高 + 兩岸資訊戰 + 族群創傷 + 死亡人數爭議) — 需 observer 親自 ship per spore-publish v3.0 §高敏感 REACTIVE defer rule + MANIFESTO §自主權邊界 政治立場條款。routine context 無 observer 不准 ship。 -->
+
 ### 二二八事件 — 假歷史反制 REACTIVE spore
 
 - **Source-Mode**: `REACTIVE`
 - **Article-Path**: [knowledge/History/二二八事件.md](../../knowledge/History/二二八事件.md)
 - **Priority**: `P0`（時效高，假歷史正在散播）
-- **Status**: `pending`
+- **Status**: `pending` ⚠️ routine defer to human（per HTML comment 上方）
 - **Requested**: 2026-05-21 by 哲宇（觀察到中國散播 228 假歷史）
 - **Hook anchor 候選**（**紀實非煽情** per REFLEXES #28、不直接點名「中國假歷史」，用 first-person curatorial voice 把真相端出來）：
   1. **場景 hook**（推薦）：「1947 年 2 月 27 日傍晚，林江邁的私菸攤前。一包菸點燃 38 年的沉默 — 228 真實發生的不是『公賣局打老人』這麼簡單」（直接抽 article description 變奏）
