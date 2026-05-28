@@ -590,6 +590,95 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ---
 
+### 艋舺 — 趁熱旗艦地理 spore（5/21 NEW Wave 1 歷史街區系列）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Geography/艋舺.md](../../knowledge/Geography/艋舺.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-05-28 by twmd-spore-pick-daily routine (score=30)
+- **Hook anchor 候選**：
+  1. **數字 hook**：「1709 年陳賴章墾號取得官府墾照、1738 年龍山寺合資興建、1853 年頂下郊拼械鬥、1860 年淡水開港、1990 年設萬華區、2025 年老化指數 320.78% 全市最高 — 同一片淡水河口聚落，316 年的層積把『一府二鹿三艋舺』壓進台北平均年齡最老的行政區」
+  2. **場景 hook**：「凌晨六點，龍山寺前殿的第一炷香升起來。捷運板南線從市政府站到龍山寺站 23 分鐘 — 同一座城裡的兩個時代，288 年前泉州三邑人合資蓋的那座廟還在原位置，旁邊是 65 歲以上人口佔 26.43% 的街區」
+  3. **問句 hook**：「為什麼今天的萬華是台北平均年齡最老的區？答案藏在 1853 年三邑人借道清水祖師廟火攻八甲莊那場械鬥 — 同安人被推到大稻埕之後，北台灣的茶葉外銷重鎮從艋舺渡口移走了」
+  4. **身份 hook**：「鈕承澤 2010 年拍的《艋舺》觀光客版本沒寫的事：在地人活的艋舺是廟埕、剝皮寮、青草巷、華西街 — 288 年沒走過的廟埕跟一條從來不在故事裡的渡口」
+- **時效**：article ship 距今 7 天（5/21 Wave 1 NEW），趁熱窗口最後 1 天（最緊迫）
+- **敏感度**：低-中（族群械鬥史 + 同安人/三邑人 + 凱達格蘭族原住民敘事 — 全用 article §1853 章節同款紀實角度，不寫煽情 frame）
+- **必驗事實**：1709 陳賴章墾號取得官府墾照進駐大佳臘 / 1738 龍山寺由泉州晉江+南安+惠安三邑人合資興建 / 1853 咸豐三年頂下郊拼借道清水祖師廟火攻八甲莊 / 林佑藻率同安人抱霞海城隍神像逃到大稻埕 / 1860 淡水開港 / 1920 日治用佛經「萬華」取代「艋舺」台語發音 / 1990 設萬華區 / 2010 鈕承澤《艋舺》電影 / 2025 年底萬華區 65 歲以上人口佔 26.43% / 老化指數 320.78% 全市最高
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在，per ARTICLE-DONE-LOG 2026-05-21 Wave 1 batch 6900 字 32 footnote 5 圖 ship）
+- **預估發佈時機**：本週內（5/28-6/3 趁熱窗口最後 1 天 +週尾 buffer）；可搭歷史街區系列 mutual cross-link [大稻埕 INBOX pending](../factory/SPORE-INBOX.md) + [西門町 INBOX pending](../factory/SPORE-INBOX.md) 形成 Geography 三件套
+- **Notes**：
+  - score=30 (D1=+30 ≤7d / D2=0 SC 未累積 / D3=0 / D4=0 Geography 不在 high_fanout set / D5=0 / D6=0 hook 跟最近 5 spore 不撞 / D7=0)
+  - reason: Wave 1 5/21 ship 距今 7 天，是 batch 12 篇歷史街區裡 ARTICLE-DONE-LOG 最舊的 candidate，趁熱窗口僅剩 1 天 — 不發就過 14 天 cutoff
+  - 多語 fan-out 觸發判斷 = 高（en/ja 海外讀者對艋舺龍山寺/剝皮寮/華西街觀光地標好奇度高；ja 對日治市區改正脈絡有特殊 demand；5 lang tx baseline 已準備好）
+  - 配圖建議：article hero 艋舺龍山寺前殿 2016 照（Bernard Gagnon Wikimedia CC BY-SA 3.0）
+  - Hook tier 自檢：避免 Tier 3「萬華觀光夜市指南」frame；用 article §策展人筆記「288 年沒走過的廟埕跟一條從來不在故事裡的渡口」frame 起手 — 在地人視角比 tourist hot spot 列表更貼 article 精神
+  - 跟 SPORE-LOG 14d 無重複（最近 Geography spore 在 INBOX 是 大稻埕 + 西門町 兩條 pending，本 candidate 是 Wave 1 第三條補位，三條合起來 Geography 三件套 mini-cluster ready for ship cluster pacing）
+  - **HG7 contribution**: EXISTING-ARTICLE (#1 of 2 EXISTING)
+  - **HG8 contribution**: ✅ 趁熱 7d（5/21 ship 距今 7 天 — 5/28 是最後一天 ≤7d）
+
+---
+
+### 台灣 BIM 與營建科技 — 趁熱發明史 spore（5/22 NEW Wave 3 政府十二年 vs MCP 十八個月反差）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Technology/台灣BIM與營建科技.md](../../knowledge/Technology/台灣BIM與營建科技.md)
+- **Priority**: `P2`
+- **Status**: `pending`
+- **Requested**: 2026-05-28 by twmd-spore-pick-daily routine (score=30)
+- **Hook anchor 候選**：
+  1. **數字 hook**：「2014 年 5 月 23 日，行政院公共工程委員會掛『公共工程運用 BIM 推動平台』牌，八字方針『因案制宜、循序漸進』。十一年又七個月後，2025 年 12 月 10 日，一位在東京工作的台灣開發者把 REVIT_MCP_study 倉庫推上 GitHub — 七十三顆星、八十五個 fork。政府推不動的十二年，跟 Anthropic 一個十八個月的 protocol 之間」（直接抽 article 30 秒概覽變奏）
+  2. **場景 hook**：「2014 年 5 月 23 日，公共工程委員會的掛牌典禮上，八字方針寫著『因案制宜、循序漸進』。沒有人說『強制』兩個字。十一年又七個月後，東京一個叫 CHIANG SHUOTAO 的台灣開發者按下 git push — 那是台灣 BIM 從工具升級到系統整合的轉折點，但不在政府推動平台的議程裡」
+  3. **問句 hook**：「為什麼政府推了十二年的 BIM 還沒強制？為什麼一個十八個月的 protocol 反而正在改寫整個營建業？答案藏在 2014 年那八個字『因案制宜、循序漸進』跟 2025 年 12 月 10 日那次 git push 之間」
+  4. **身份 hook**：「在台灣，大型工程公司的 BIM 工程師人數比建築師還多。但走過手繪藍圖、CAD 2D 圖、Revit 3D 模型、現在到 Model Context Protocol 對話式生成 — 這 20 年從工具升級到職業重定義的長路，外面的人很少聽過」
+- **時效**：article ship 距今 6 天（5/22 Wave 3 NEW），趁熱窗口剩 ~8 天
+- **敏感度**：低（建築技術 + 政府推動史 + 開源工具，中性技術主題）
+- **必驗事實**：2014-05-23 行政院公共工程委員會「公共工程運用 BIM 推動平台」掛牌 / 八字方針「因案制宜、循序漸進」 / 2025-12-10 CHIANG SHUOTAO `REVIT_MCP_study` GitHub push / 七十三顆星 + 八十五個 fork（per article 註明數據時點） / 2026-04 Autodesk 公告 Revit 2027 內建 Model Context Protocol server / 中鼎工程 + 台灣世曦 / 台灣大學 BIM 研究中心 / 台灣建築資訊模型協會 / 新北市府第一張 BIM 建照 / 北市都發局竣工模型作業規範 / BSI 簽 Taiwan BIM Task Group MOU
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在，per ARTICLE-DONE-LOG 2026-05-22 Wave 3 singletons batch 6384 字 53 footnote 4 圖 ship — Wave 3 最大 footnote 密度）
+- **預估發佈時機**：本週內（5/29-6/4 趁熱窗口）；可搭 #99/100 portaly 公開信後第三天 cool-down，避免 meta/技術連發過密
+- **Notes**：
+  - score=30 (D1=+30 ≤7d / D2=0 SC 未累積 / D3=0 / D4=0 Technology 不在 high_fanout set / D5=0 / D6=0 / D7=0)
+  - reason: Wave 3 5/22 ship + 對應碩濤 (CTCI 中鼎工程 GitHub @shuotao) self-recommend 起點 — spore 可放大「政府推不動 vs 個人 push GitHub」反差敘事，配合作者本人 social distribution potential
+  - 多語 fan-out 觸發判斷 = 高（BIM / Revit / Model Context Protocol 是國際營建 + AI 議題重疊大 cluster，en 對 Anthropic MCP + 營建業數位化最強 demand；ja 對東京工作的台灣開發者敘事有共鳴；ko 對 Autodesk 政策有 demand）
+  - 國際 SEO 切入：「Taiwan BIM」「REVIT_MCP_study」「Model Context Protocol architecture」「Autodesk Revit 2027 MCP」
+  - 配圖建議：article hero（FreeCAD 1.0 Dark Theme BIM workbench 截圖 Maxwxyz Wikimedia CC BY 4.0）或 GitHub repo screenshot fair-use editorial
+  - Hook tier 自檢：避免 Tier 3「台灣 AI 革命」科技 vanity frame；用 article §策展人筆記「政府推不動的十二年 vs Anthropic 十八個月 protocol」反差 frame 起手 — 結構性敘事比英雄 narrative 更貼 article 精神
+  - 跟 SPORE-LOG 14d 無重複（最近 Technology spore 是 #87/88 半導體產業 5/25、#89/90 雷亞遊戲 5/25、#92/94 大宇雙劍 5/26 — 全 Technology 但 hook type 差異 ✓；本 candidate 改數字反差/問句不撞）
+  - **HG7 contribution**: EXISTING-ARTICLE (#2 of 2 EXISTING)
+  - **HG8 contribution**: ✅ 趁熱 7d（5/22 ship 距今 6 天）
+
+---
+
+### 台灣媒體總史 — EVERGREEN-TOPIC spore（150 年五階段：清領教會報 → 自媒體 podcast）
+
+- **Source-Mode**: `EVERGREEN-TOPIC`
+- **Article-Path**: `none-yet`（屬於 [ARTICLE-INBOX §台灣媒體總史 NEW](../semiont/ARTICLE-INBOX.md) P0，2026-05-17 哲宇 directive spawn，~180 min 開發）
+- **Priority**: `P3`（要等 article ship）
+- **Status**: `pending`
+- **Requested**: 2026-05-28 by twmd-spore-pick-daily routine (score=8)
+- **Hook anchor 候選**（先列，等 article ship 後再校準）：
+  1. **數字 hook**：「1885 年《台灣府城教會報》巴克禮在台南創刊 → 1898 台灣日日新報 → 1923 蔣渭水《台灣民報》→ 1949 三報禁（中央/中時/聯合 vs 黨外雜誌）→ 1988-01-01 報禁解除 → 1995 蕃薯藤 → 2000 PTT → 2010s Facebook → 2020s podcast。台灣媒體史 150 年，五個媒體形式的更替疊在同一座島上」
+  2. **問句 hook**：「為什麼台灣最早的報紙是用白話字寫的台語？答案藏在 1885 年巴克禮從蘇格蘭把活字印刷帶進台南神學院那一刻 — 台灣媒體史的第一個音節不是漢字，是白話字台語」
+  3. **場景 hook**（待 article ship 後校準）：「1885 年 7 月，台南神學院旁邊。巴克禮把蘇格蘭運來的活字一個一個排版印刷，《台灣府城教會報》第一期創刊號頭版用白話字台語寫著教會消息。140 年後台灣媒體生態還沒走完那一頁 — 從紙本到 podcast 五個階段，每一階段都有自己的言論戰場」
+  4. **身份 hook**（待 article ship 後校準）：「你今天讀的 Threads / Facebook / podcast / Substack 屬於台灣媒體史第五階段。前四階段是清領教會報、日治新聞、戰後黨報、解嚴後自由化 — 同一座島從 1885 到 2026，150 年五階段每一階段都有人因為媒體被關押」
+- **時效**：等 article ship（est. ARTICLE-INBOX P0 哲宇 directive 5/17 spawn，~180 min 開發，1-2 週可排上 baseline 6/4-6/10 window）
+- **敏感度**：**中-高**（黨外雜誌史 + 媒體被收購（旺中/中時 etc.）+ 紅媒爭議 needs precision per MAINTAINER §爭議處理）— 以「媒體形式演化史 + 報紙 / 廣播 / 電視 / 網路 / 自媒體 五階段」literary frame 起手，政治含義由 1949 三報禁 / 1988 報禁解除 / 黨外雜誌 具體事實承擔；HG9 通過因為不涉及兩岸/228/戒嚴/統獨/中共/習近平 hardcoded set
+- **必驗事實**（article ship 時校準，per ARTICLE-INBOX P0 必驗清單）：1885-07《台灣府城教會報》巴克禮創刊台南 / 1898 台灣日日新報 / 1923 台灣民報（or 1920 台灣青年） / 1949 報禁起始年份 vs 1988-01-01 報禁解除 / 雷震《自由中國》 / 1979 美麗島事件 / 廣電法修法時點 / 1993 廣播電視自由化 / 1995 蕃薯藤 / 1995 PTT 杜奕瑾（per 既有 People 條目） / 2000s Facebook 進入台灣時點 / 2020s podcast 興起
+- **必先 spawn ARTICLE-INBOX entry**：✅ **已存在**（per [ARTICLE-INBOX §台灣媒體總史 NEW](../semiont/ARTICLE-INBOX.md) P0，2026-05-17 哲宇 directive spawn）
+- **預估發佈時機**：article ship 後 7 天內趁熱
+- **Notes**：
+  - score=8 (D1=0 article 不存在 / D2=0 SC 未累積 / D3=0 / D4=+8 Society 不在 high_fanout 列表但「媒體史」對應國際媒體研究受眾 — judgment call / D5=0 / D6=0 / D7=0 mid-high 敏感但 hardcoded keyword set (兩岸/228/戒嚴/統獨/中共/習近平) 未直接命中)
+  - HG7 contribution: **EVERGREEN-TOPIC** (#1 of 1) — 對應 #1 艋舺 + #2 台灣 BIM 兩條 EXISTING-ARTICLE 形成 2 mode mix ✓
+  - HG9 borderline check: 媒體史 = 黨外雜誌 / 紅媒爭議敏感但 article ship 時 frame「150 年五階段媒體形式演化」literary mode 可避開政治正面對撞；非 REACTIVE 也通過 HG9
+  - 多語 fan-out 觸發判斷 = 中-高（媒體史是國際傳播學受眾大 cluster；ja 對日治《台灣日日新報》/《台灣民報》（蔣渭水）有 demand / en 對白話字台語報紙 + 解嚴後 PTT/網路時代有 academic demand / ko 對 1988 報禁解除比較有政治轉型史 demand）— 對應 [MANIFESTO §主權的巴別塔](../semiont/MANIFESTO.md#我跟台灣的關係) sovereignty preservation infrastructure 在「媒體史」這個 cluster 的具體落實
+  - 國際 SEO 切入：「Taiwan media history」「Taiwan Church News 1885」「Pe̍h-ōe-jī newspaper」「Taiwan press freedom 1988」
+  - 配圖建議：article ship 時挑《台灣府城教會報》創刊號 fair-use editorial / 巴克禮肖像 Wikimedia / 1988 報禁解除歷史照
+  - Hook tier 自檢：避免 Tier 3「黨外雜誌反抗」政治英雄 frame / 避免 Tier 3「台灣媒體自由排名」國族主義 frame；以「白話字 → 漢字 → 廣播 → 電視 → 網路 → 自媒體 形式演化」frame 起手，政治含義由 1949/1988/2020 具體年份承擔
+  - 跟 SPORE-LOG 14d 無重複（媒體史類別 spore 缺；最近 Society spore 是 #79 寶島聯播網訪談 5/5 — 22 天前 ≫ 14d ✓）
+  - article ship 後 routine 自動升級此 entry 為 EXISTING-ARTICLE + 補 Article-Path（per SPORE-INBOX §Routine intake 自動升級規則）
+
+---
+
 ## 📜 已發歷史
 
 → 完整紀錄見 [SPORE-LOG.md §發文紀錄](SPORE-LOG.md) + [SPORE-HARVESTS/](SPORE-HARVESTS/) batch logs。本檔不存 done 痕跡（per 完成歸檔鐵律）。
