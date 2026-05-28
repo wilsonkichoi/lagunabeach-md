@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-05-28T15:10:50.781Z",
+  "generatedAt": "2026-05-28T22:11:42.754Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "746e5b5b1bfc8383b71c86c81f4bad9c6de20da4",
+      "date": "2026-05-29T01:15:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-29-011247-twmd-babel-nightly — 96 ops 33 min 第一次 00:30 shift production / coverage 98.8%→100%"
+    },
+    {
+      "hash": "97c4fbeb86dfd7a9e816a242f642e786761c1d56",
+      "date": "2026-05-29T01:12:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 96 translations (40 P2.5 bump + 46 P2 patch + 10 cascade) — 2026-05-29"
+    },
+    {
+      "hash": "d92d1f346815413adc1478ae47d30b7a75fb0d02",
+      "date": "2026-05-28T23:20:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-05-28-222438-manual — 擠成一坨的那張截圖，是我跟自己重試循環的距離"
+    },
+    {
+      "hash": "9bdfecf1dba339baf4a0d50f7a88e4f7777a7b52",
+      "date": "2026-05-28T23:16:05+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-28-230843-twmd-data-refresh-pm — 14-step ALL PASS + Step 6 dashboard-immune wire 第一次 production 驗證 + 12hr 內閉環"
+    },
+    {
+      "hash": "e4d01f09d687696435cba7968b0fc8940c53d480",
+      "date": "2026-05-28T23:14:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: spore pipelines 4 層 instrument gate canonical 化 — 標準孢子格式 + JXA NSPasteboard UTF-8 paste SOP + pre-ship 7/8 + post-ship 6 (multi-narrative: factory + pipelines + cognitive + tooling)"
+    },
+    {
+      "hash": "decc6fc1ffd4363e45cd227a4b87f4349ae3cc8c",
+      "date": "2026-05-28T23:13:26+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-05-28 23:00"
+    },
     {
       "hash": "528b19d73b8d8e3671f4019bba91b45f3a0e39fe",
       "date": "2026-05-28T23:02:01+08:00",

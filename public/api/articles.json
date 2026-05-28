@@ -186,19 +186,6 @@
     "path": "ko/Society/the-reporter-investigative-journalism.md"
   },
   {
-    "title": "'주혜: 25년간 〈약속〉을 부른 여성 목소리, 만화 속 인형에서 새규까지의 장거리 주자'",
-    "description": "'1999년 포리(福茂)가 《주혜 선집》을 발매했을 때, 표지에는 그녀 본인의 얼굴 대신 '혜이(蕙兒)'라는 이름의 만화 인형이 실렸다. 〈약속〉은 모든 KTV를 누비며 25년을 걸어왔지만, 그녀 본인은 언제나 노래보다 한 발짝 늦게 알려졌다. 2026년 4월 25일 그녀는 처음으로 타이베이 새규(小巨蛋)에 올랐고, 콘서트 막바지에 성대 위축을 고하며 '이것이 여러분께 마지막으로 노래하는 것이 될지 모르겠다'고 말했다. 커버 싱어의 25년 장거리 주행.'",
-    "category": "ko",
-    "tags": [
-      "["
-    ],
-    "url": "https://taiwan.md/ko/Music/chou-hui",
-    "readingTime": 60,
-    "featured": false,
-    "date": "2026-05-19",
-    "path": "ko/Music/chou-hui.md"
-  },
-  {
     "title": "'쩡보언: 웃음의 지점은 계산했지만, 사회는 계산하지 못했다'",
     "description": "1990년생 쩡보언은 젠궈중학 책걸상 위의 이어폰에서 출발해, 국립대만대학교 외국어문학·심리학 복수전공, 런던대학교 뇌와 마음 과학, 파리 제6대학교 통합생물학 석사 과정을 거쳐 박사과정 지원을 앞두고 스탠드업 코미디로 방향을 틀었다. 그는 셰정하오와 사타이어 엔터테인먼트를 공동 창업해, 대만 토크쇼를 코미디 클럽 카미디의 Open Mic에서 1만 3천 명 규모의 타이베이 아레나까지 밀어 올렸다. 동시에 신경과학자다운 정밀함으로 정난룽 농담, 배달원 영상, 오락세 소송에 담긴 사회적 감정의 무게를 잘못 계산했다.",
     "category": "ko",
@@ -12298,12 +12285,12 @@
     "path": "People/周杰倫.md"
   },
   {
-    "title": "周蕙：25年間〈約定〉を歌い続けた女性の声、漫画キャラから小巨蛋への長距離走",
-    "description": "1999年、福茂レコードから『周蕙精選』がリリースされた。表紙には本人の顔ではなく、蕙兒（ホェイ）という漫画のキャラクターが使われた。〈約定〉はすべてのKTVに浸透し、25年を歩み続けたが、本人はいつも歌より一歩遅れて認識される存在だった。2026年4月25日、彼女は初めて台北小巨蛋のステージに立った。コンサートの終盤で声帯萎縮を公表し、「これが皆さんの前で歌える最後になるかもしれない」と語った。カバーソング歌手の25年間の長距離走。",
+    "title": "周蕙：25年にわたり〈約定〉を歌い続けた女性歌手、漫画の人形から台北アリーナまでの長距離走",
+    "description": "1999年、福茂唱片は《周蕙精選》を発売し、ジャケットには本人の顔の代わりに「蕙兒」という漫画の人形を用いました。〈約定〉はあらゆるKTV（カラオケボックス）に入り、25年を歩みましたが、彼女本人は歌より一歩遅れて認識され続けました。福茂での5枚からBMGでの雪蔵、群石、華研を経て、2025年には自らプロデューサーを務めDiscoへ踏み込むまで、12枚のアルバムで26年を歩んできました。2026年4月25日、彼女は初めて台北アリーナの舞台に立ちましたが、コンサート終盤に声帯萎縮を公表し、「これが皆さんに歌を聴いていただく最後になるのかは分かりません」と語りました。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Music/chou-hui",
-    "readingTime": 53,
+    "readingTime": 93,
     "featured": false,
     "date": "2026-05-19",
     "path": "ja/Music/chou-hui.md"
@@ -19088,6 +19075,17 @@
     "path": "Culture/傳統節慶與慶典.md"
   },
   {
+    "title": "瘂弦：『深淵』を書き終えて筆を断ち、後半生は「聯副」で詩史の一頁となりました",
+    "description": "1968 年、36 歳の瘂弦は九十篇の詩を一冊の『深淵』に編んだ後、筆を止めました。1977 年から 1998 年までの 21 年間、『聯合報』副刊を主編し、編集台を台湾戦後文学における最重要の公共空間へと変えました。2024 年 10 月 11 日、カナダ・バンクーバーで逝去し、享年 92 歳でした。断筆 56 年の沈黙は千冊の詩集よりも長く、「ハレルヤ、私はまだ生きている」というリフレインは、戒厳令時代に晦渋さによって警備総司令部の検閲をくぐり抜けた詩史上の記号となりました。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/People/ya-hsien-poet",
+    "readingTime": 48,
+    "featured": true,
+    "date": "2026-05-28",
+    "path": "ja/People/ya-hsien-poet.md"
+  },
+  {
     "title": "瘂弦：寫完《深淵》就封筆，後半生在聯副成詩史一頁",
     "description": "1968 年瘂弦 36 歲，把九十首詩編成一本《深淵》之後就停筆。從 1977 到 1998 年他主編《聯合報》副刊 21 年，把編輯台變成台灣戰後最重要的文學公共空間。2024 年 10 月 11 日他在加拿大溫哥華辭世，享耆壽 92 歲——封筆 56 年的沉默比千冊詩集更長，「哈里路亞，我仍活著」副歌成為戒嚴年代晦澀躲過警總審檢的詩史記號。",
     "category": "People",
@@ -25694,25 +25692,23 @@
     "path": "en/People/cho-jung-tai.md"
   },
   {
-    "title": "Chou Hui : la voix féminine qui chante « Yueding » depuis 25 ans, de la poupée dessinée au marathon du Taipei Arena",
-    "description": "En 1999, Linfair Records publie *Chou Hui Selection*, dont la couverture arbore une poupée de dessin animé nommée Hui Er à la place du visage de l'artiste. « Yueding » entre dans chaque salle de karaoke et traverse 25 ans, mais son interprète reste toujours un pas derrière sa propre chanson. Le 25 avril 2026, elle monte pour la première fois sur la scène du Taipei Arena, puis annonce en fin de concert une atrophie des cordes vocales : « Je ne sais pas si ce sera la dernière fois que je chante pour vous. » Le marathon de 25 ans d'une chanteuse de reprises.",
+    "title": "Chou Hui : la voix féminine qui chante « Promesse » depuis 25 ans, du personnage de manga au Taipei Arena",
+    "description": "En 1999, Forward Music publie « Where Chou’s Greatest Hits » ; sur la pochette, une poupée dessinée appelée Huier remplace le visage de la chanteuse. « Promesse » entre dans tous les KTV et traverse 25 ans, mais la personne qui l’interprète reste toujours reconnue un pas après la chanson. Des cinq albums chez Forward Music au gel de sa carrière par BMG, de Seed Music à HIM International Music, puis à son passage au disco en 2025 comme productrice de son propre album, 12 albums ont parcouru 26 ans. Le 25 avril 2026, elle monte pour la première fois sur la scène du Taipei Arena ; à la fin du concert, elle annonce pourtant souffrir d’atrophie des cordes vocales : « Je ne sais pas si ce sera la dernière fois que je chanterai pour vous ».",
     "category": "fr",
-    "tags": [
-      "["
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/Music/chou-hui",
-    "readingTime": 139,
+    "readingTime": 216,
     "featured": false,
     "date": "2026-05-19",
     "path": "fr/Music/chou-hui.md"
   },
   {
-    "title": "Chou Hui: la voz femenina que cantó \"Yueding\" durante 25 años, del muñeco de cómic al maratón del Taipei Arena",
-    "description": "En 1999, Linfair Records lanzó \"Chou Hui Jingxuan\" (Selección de Chou Hui), con un muñeco de cómic llamado Hui Er en la portada en lugar del rostro de la cantante. \"Yueding\" entró en cada karaoke de Taiwán y recorrió 25 años, pero su intérprete siempre fue reconocida un paso después que su canción. El 25 de abril de 2026 pisó por primera vez el Taipei Arena, y al final del concierto anunció que sus cuerdas vocales se habían atrofiado: \"No sé si esta será la última vez que cante para ustedes\". Un maratón de 25 años de una cantante de versiones.",
+    "title": "Chou Hui: la voz femenina que cantó 25 años 〈Promise〉, una carrera de fondo desde una muñeca de cómic hasta el Taipei Arena",
+    "description": "En 1999, Linfair Records lanzó 《Chou Hui Selection》 y puso en la portada una muñeca de cómic llamada Huier en lugar del rostro de la cantante. 〈Promise〉 entró en cada KTV y atravesó 25 años, pero la persona detrás de la canción siempre fue reconocida un paso después que la canción. De cinco álbumes en Linfair al congelamiento en BMG; de Group Stone y HIM International Music a asumir en 2025 la producción ejecutiva y entrar en el disco: 12 álbumes en 26 años. El 25 de abril de 2026 subió por primera vez al Taipei Arena, pero al final del concierto anunció atrofia de las cuerdas vocales: “No sé si esta será la última vez que cante para ustedes”.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Music/chou-hui",
-    "readingTime": 137,
+    "readingTime": 204,
     "featured": false,
     "date": "2026-05-19",
     "path": "es/Music/chou-hui.md"
@@ -51946,14 +51942,12 @@
     "path": "en/Technology/taiwan-disaster-medicine-system.md"
   },
   {
-    "title": "Where Chou: The Voice Behind 'Yue Ding' for 25 Years, From Cartoon Doll to Taipei Arena",
-    "description": "In 1999, Linfair Records released 'Where Chou's Greatest Hits,' its cover featuring a cartoon doll named Hui-er in place of the singer's own face. 'Yue Ding' entered every KTV room and endured for 25 years, yet the woman behind the voice was always recognized a step later than her song. On April 25, 2026, she stepped onto the stage of Taipei Arena for the first time, only to announce vocal cord atrophy at the end of the concert: 'I don't know if this will be the last time I sing for everyone.' A cover singer's 25-year marathon.",
+    "title": "Where Chou: The Voice Behind 'Agreement' for 25 Years, From Cartoon Doll to Taipei Arena Marathon",
+    "description": "In 1999, Linfair Records released 'Where Chou's Greatest Hits,' its cover featuring a cartoon doll named Hui-er in place of the singer's face. 'Agreement' entered every KTV room and endured for 25 years, yet the woman behind the voice was always recognized a step later than her song. From five albums at Linfair to being shelved at BMG, from Qunshi to HIM International, to self-producing a Disco turn with 'Where X Zou' in 2025, twelve albums spanned twenty-six years. On April 25, 2026, she stepped onto the Taipei Arena stage for the first time, only to announce vocal cord atrophy at the concert's end: 'I don't know if this will be the last time I sing for everyone.'",
     "category": "en",
-    "tags": [
-      "["
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/Music/chou-hui",
-    "readingTime": 127,
+    "readingTime": 189,
     "featured": false,
     "date": "2026-05-19",
     "path": "en/Music/chou-hui.md"
@@ -52543,6 +52537,39 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "es/People/xu-wen-long-chimei-founder-violin-entrepreneur.md"
+  },
+  {
+    "title": "Ya Hsien : après avoir achevé Le Gouffre, il cessa d’écrire ; sa seconde vie au supplément littéraire du United Daily News devint une page d’histoire poétique",
+    "description": "En 1968, Ya Hsien avait 36 ans : après avoir réuni quatre-vingt-dix poèmes dans Le Gouffre, il cessa d’écrire. De 1977 à 1998, il dirigea pendant 21 ans le supplément littéraire du United Daily News, transformant la rédaction en l’un des plus importants espaces publics de la littérature taïwanaise d’après-guerre. Le 11 octobre 2024, il est mort à Vancouver, au Canada, à l’âge vénérable de 92 ans : son silence de 56 ans après l’abandon de l’écriture fut plus long que mille recueils, et le refrain « Alléluia, je suis encore vivant » devint un marqueur de l’histoire poétique de l’époque de la loi martiale, dont l’obscurité échappa à l’examen du Commandement général de la garnison.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/People/ya-hsien-poet",
+    "readingTime": 122,
+    "featured": true,
+    "date": "2026-05-28",
+    "path": "fr/People/ya-hsien-poet.md"
+  },
+  {
+    "title": "Ya Hsien: After Writing Abyss, He Stopped Writing; in the United Daily News Supplement, His Later Life Became a Page in Poetry History",
+    "description": "In 1968, at age 36, Ya Hsien gathered ninety poems into Abyss and then stopped writing. From 1977 to 1998, he edited the United Daily News literary supplement for 21 years, turning the editor's desk into one of postwar Taiwan's most important public spaces for literature. On October 11, 2024, he died in Vancouver, Canada, at the venerable age of 92. His 56 years of silence after laying down the pen lasted longer than a thousand poetry collections, and the refrain 'Hallelujah, I am still alive' became a marker in poetry history: an obscurity that slipped past the Taiwan Garrison Command's censorship during the martial-law era.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/People/ya-hsien-poet",
+    "readingTime": 118,
+    "featured": true,
+    "date": "2026-05-28",
+    "path": "en/People/ya-hsien-poet.md"
+  },
+  {
+    "title": "Ya Hsien: dejó de escribir tras terminar Abismo y convirtió su segunda mitad de vida en una página de la historia poética desde el suplemento literario de United Daily News",
+    "description": "En 1968, a los 36 años, Ya Hsien reunió noventa poemas en un volumen, Abismo, y luego dejó de escribir. Entre 1977 y 1998 dirigió durante 21 años el suplemento literario de United Daily News, transformando la mesa editorial en el espacio público literario más importante del Taiwán de posguerra. El 11 de octubre de 2024 falleció en Vancouver, Canadá, a la avanzada edad de 92 años: su silencio de 56 años desde que dejó la pluma fue más largo que mil poemarios, y el estribillo «Aleluya, sigo vivo» se convirtió en una marca de la historia poética que, por su oscuridad, logró eludir la censura del Comando General de Guarnición durante la era de la ley marcial.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/People/ya-hsien-poet",
+    "readingTime": 111,
+    "featured": true,
+    "date": "2026-05-28",
+    "path": "es/People/ya-hsien-poet.md"
   },
   {
     "title": "Yang Chuan-kwang : le village de Taitung, l'argent à Rome, et le record du monde à 9 121 points de l'Homme de fer asiatique",
@@ -59637,6 +59664,17 @@
     "path": "ko/Lifestyle/nightlife-and-ktv-culture.md"
   },
   {
+    "title": "야셴: 《심연》을 쓴 뒤 절필하고, 후반생은 《연합보》 부간에서 시사의 한 페이지가 되다",
+    "description": "1968년, 서른여섯 살의 야셴은 아흔 편의 시를 한 권의 《심연》으로 엮은 뒤 펜을 놓았다. 1977년부터 1998년까지 그는 21년 동안 《연합보》 부간을 주편하며 편집부를 전후 타이완에서 가장 중요한 문학적 공공 공간으로 만들었다. 2024년 10월 11일 그는 캐나다 밴쿠버에서 별세했으며 향년 92세였다. 절필 56년의 침묵은 천 권의 시집보다 길었고, “할렐루야, 나는 아직 살아 있다”라는 후렴은 계엄 시대의 난해함이 경총의 검열을 피해 지나간 시사적 표지가 되었다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/People/ya-hsien-poet",
+    "readingTime": 57,
+    "featured": true,
+    "date": "2026-05-28",
+    "path": "ko/People/ya-hsien-poet.md"
+  },
+  {
     "title": "야시장 경제학: 브랜드 없는 상업의 기적",
     "description": "브랜드도, 인테리어도, 고정 장소도 없이 연간 4,000억 대만달러의 생산 가치를 창출하는 대만 야시장의 경제적 기적을 탐구한다",
     "category": "ko",
@@ -61210,6 +61248,17 @@
     "featured": true,
     "date": "2026-04-14",
     "path": "ko/People/tzuyu.md"
+  },
+  {
+    "title": "저우후이: 25년 동안 〈약속〉을 불러온 여성 보컬, 만화 인형에서 타이베이 아레나까지의 장거리 주행",
+    "description": "1999년 푸마오 레코드는 《저우후이 정선》을 발매하며, 표지에 본인의 얼굴 대신 후이얼이라는 만화 인형을 내세웠다. 〈약속〉은 모든 KTV와 25년의 시간을 통과했지만, 정작 그녀 자신은 늘 노래보다 한발 늦게 알아봐졌다. 푸마오에서의 다섯 장에서 BMG의 활동 중단, 군스와 화옌을 거쳐 2025년 직접 프로듀서를 맡아 Disco로 들어선 데까지, 12장의 앨범이 26년을 걸어왔다. 2026년 4월 25일 그녀는 처음으로 타이베이 아레나 무대에 섰고, 공연 말미에 성대 위축을 고백하며 “이것이 여러분께 노래를 들려드리는 마지막이 될지 모르겠다”고 말했다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Music/chou-hui",
+    "readingTime": 107,
+    "featured": false,
+    "date": "2026-05-19",
+    "path": "ko/Music/chou-hui.md"
   },
   {
     "title": "전련복리센터: 암흑 복리사에서 대만 유통 제왕으로의 역습",

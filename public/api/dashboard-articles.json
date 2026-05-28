@@ -44,11 +44,11 @@
     "tagCount": 0,
     "tags": [],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 1,
     "commitHash": "e70936dd",
@@ -81,7 +81,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 10,
+    "revision": 11,
     "commitHash": "6925637f",
     "commitSubject": "🧬 [semiont] heal: 大宇雙劍 — 趙靈兒/林月如 死亡場景 勘誤 per @appendhuang + @crazymarty (83 likes) D+2 callout",
     "description": "1995 年 7 月，一款 320×200 解析度的 DOS 遊戲讓幾百萬玩家第一次因為虛擬角色掉眼淚。仙劍奇俠傳和軒轅劍，兩把從台北內湖鍛出來的劍，定義了整個中文世界對「RPG 可以是什麼」的想像。",
@@ -252,7 +252,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 18,
+    "revision": 19,
     "commitHash": "5445d4c5",
     "commitSubject": "🧬 [semiont] heal: pending sweep — 馬英九「清廉」中性化 + SPORE-LOG #97/#98 evolution column",
     "description": "2015 年 11 月 7 日新加坡香格里拉，他跟習近平握手 1 分 20 秒，1949 年來兩岸最高領導人首次見面。同一張照片，台灣社會至今用兩種完全不同的方式記得：一邊看到歷史突破，一邊看到主體性讓步。他八年總統做下來的「清廉」形象、兩岸、22K 跟太陽花，加上卸任後十年的二度訪中跟 2026 年家屬聲明，到今天還沒有定論。",
@@ -321,7 +321,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 26,
+    "revision": 27,
     "commitHash": "cc90aec3",
     "commitSubject": "🧬 [semiont] rewrite: 半導體產業 EVOLVE Round 2 — 林本堅 + ASML 曝光機血脈",
     "description": "台灣護國神山靠代工稱霸全球先進製程，但快充頭裡的氮化鎵、AI 晶片下的 CoWoS、量子位元上方的稀釋冷凍機,下一個 50 年的材料科學戰場才剛擺開。",
@@ -565,11 +565,11 @@
       "es": true,
       "fr": true
     },
-    "revision": 4,
+    "revision": 5,
     "commitHash": "12f9e090",
     "commitSubject": "🧬 [semiont] spore: #95 尹衍樑 Threads + #96 X 雙平台 ship — 比諾貝爾還貴的獎 (Tier 1b 4 年驗證 hook)",
     "description": "2026 年 5 月 26 日清晨四點二十一分，潤泰集團總裁尹衍樑於台北榮民總醫院辭世，享壽 76 歲。從進德中學被王金平包紮傷口的鬥毆少年，到 1989 年踏進灰塵蓋過腳踝的北大、出資創辦光華管理學院，到 2012 年捐 30 億新台幣信託基金成立唐獎。獎金每項 5,000 萬新台幣，超過諾貝爾。一個剛走的台灣商人，留給世界一座比諾貝爾還貴的獎。",
-    "healthScore": 62,
+    "healthScore": 65,
     "qualityScore": 0,
     "formatIssues": 0,
     "hasOverview": true,
@@ -633,7 +633,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 18,
+    "revision": 19,
     "commitHash": "1e180a59",
     "commitSubject": "🧬 [semiont] rewrite: 尹衍樑 NEW — 辭世當日紀念文 + sovereignty 透鏡 (4606 CJK / 40 footnote / 3 圖 / 7 H2)",
     "description": "1930 年生於廈門、1949 年隨國府渡台、1970 年到匹茲堡的史學家，先天肢障一生坐輪椅，卻用兩根能施力的手指敲鍵盤完成近四十部著作。2024 年第六屆唐獎漢學獎得主，獎金 5,000 萬全捐設「許-孫獎學金」；他是王力宏的七舅公、李建復的舅舅。2025 年 8 月辭世前留下一句「我嚥氣的一刻，我還在學習」。",
@@ -703,7 +703,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 10,
+    "revision": 11,
     "commitHash": "ce6dd557",
     "commitSubject": "🧬 [semiont] rewrite: 雷亞遊戲 EVOLVE Round 2 — PTT/Threads feedback 五桶分桶 + Stage 1 multi-source 補完",
     "description": "2012 年六位台大電資院的年輕人湊三千萬做了《Cytus》，一個月登上 14 國排行榜第一。十四年後他們有了 Deemo 動畫、聚爆動畫十一年未交付、Sdorica 2026 年 2 月進入維護模式、2020 年 ICE 摩斯密碼事件後切割員工保住中國市場的選擇。美學讓雷亞被世界看見，也讓它在每個非音樂的場域跌倒。",
@@ -734,7 +734,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 5,
+    "revision": 6,
     "commitHash": "3171bab8",
     "commitSubject": "🧬 [semiont] rewrite: 江賢二 — 4 件作品圖嵌入（藝術家官方網站來源）",
     "description": "1967 年冬，二十五歲的江賢二奔赴巴黎找賈柯梅蒂，發現偶像前一年已過世。接下來四十五年，他在紐約 SoHo 把窗子封起來找心裡的光、1975 年 Lamagna 畫廊賣不出一張畫。1990 年代父親跌倒那一年，他回到龍山寺的香煙裡畫出「百年廟」。2008 年定居台東金樽是六十五歲，2025 年江賢二藝術園區開幕已經八十三歲。",
@@ -765,7 +765,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 5,
+    "revision": 6,
     "commitHash": "76ef70ac",
     "commitSubject": "🧬 [routine] twmd-spore-harvest: 8 spores — 2026-05-25",
     "description": "2015 年 6 月妹妹楊若暉過世那天，楊若慈打開她留下的帳本開始記帳，花三天才看懂打勾打圈的密碼。五年後春山出版的《臺灣漫遊錄》掛名「青山千鶴子著・楊双子譯」——譯者那欄寫的是已逝的妹妹。2024 紐約 NBA、2026 倫敦布克獎，她用妹妹的名字翻譯了一本不存在的書。",
@@ -805,7 +805,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 5,
+    "revision": 6,
     "commitHash": "76ef70ac",
     "commitSubject": "🧬 [routine] twmd-spore-harvest: 8 spores — 2026-05-25",
     "description": "1955 年 22 歲的鄭愁予在《夢土上》寫下「我達達的馬蹄是美麗的錯誤」，台灣讀者把它當成情詩讀了七十年。但他晚年澄清這是反戰詩，寫的是抗戰時期母親在內地等不到父親回家的場景。2005 年他從耶魯退休回台，把戶籍遷進金門縣鄭家族人的戶內。2025 年 6 月 13 日凌晨四點四十四分，他在美國因心臟衰竭辭世，享壽 91 歲。",

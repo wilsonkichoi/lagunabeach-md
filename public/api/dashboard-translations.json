@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T15:10:52.151Z",
+  "lastUpdated": "2026-05-28T22:11:44.162Z",
   "languages": [
     "zh-TW",
     "en",
@@ -18,64 +18,64 @@
       "deficit": 0
     },
     "en": {
-      "total": 768,
-      "percentage": 99.9,
-      "fresh": 757,
+      "total": 769,
+      "percentage": 100,
+      "fresh": 759,
       "metadataStale": 0,
-      "stale": 11,
-      "missing": 1,
+      "stale": 10,
+      "missing": 0,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 98.4,
-      "bodyFreshPct": 98.4
+      "deficit": 0,
+      "freshPct": 98.7,
+      "bodyFreshPct": 98.7
     },
     "ja": {
-      "total": 768,
-      "percentage": 99.9,
-      "fresh": 757,
+      "total": 769,
+      "percentage": 100,
+      "fresh": 759,
       "metadataStale": 0,
-      "stale": 11,
-      "missing": 1,
+      "stale": 10,
+      "missing": 0,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 98.4,
-      "bodyFreshPct": 98.4
+      "deficit": 0,
+      "freshPct": 98.7,
+      "bodyFreshPct": 98.7
     },
     "ko": {
-      "total": 768,
-      "percentage": 99.9,
-      "fresh": 757,
+      "total": 769,
+      "percentage": 100,
+      "fresh": 759,
       "metadataStale": 0,
-      "stale": 11,
-      "missing": 1,
+      "stale": 10,
+      "missing": 0,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 98.4,
-      "bodyFreshPct": 98.4
+      "deficit": 0,
+      "freshPct": 98.7,
+      "bodyFreshPct": 98.7
     },
     "es": {
-      "total": 768,
-      "percentage": 99.9,
-      "fresh": 757,
+      "total": 769,
+      "percentage": 100,
+      "fresh": 759,
       "metadataStale": 0,
-      "stale": 11,
-      "missing": 1,
+      "stale": 10,
+      "missing": 0,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 98.4,
-      "bodyFreshPct": 98.4
+      "deficit": 0,
+      "freshPct": 98.7,
+      "bodyFreshPct": 98.7
     },
     "fr": {
-      "total": 768,
-      "percentage": 99.9,
-      "fresh": 757,
+      "total": 769,
+      "percentage": 100,
+      "fresh": 759,
       "metadataStale": 0,
-      "stale": 11,
-      "missing": 1,
+      "stale": 10,
+      "missing": 0,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 98.4,
-      "bodyFreshPct": 98.4
+      "deficit": 0,
+      "freshPct": 98.7,
+      "bodyFreshPct": 98.7
     }
   },
   "matrix": {
@@ -387,36 +387,36 @@
       "zh-TW": 33,
       "en": {
         "count": 33,
-        "fresh": 32,
-        "stale": 1,
+        "fresh": 33,
+        "stale": 0,
         "missing": 0,
         "deficit": 0
       },
       "ja": {
         "count": 33,
-        "fresh": 32,
-        "stale": 1,
+        "fresh": 33,
+        "stale": 0,
         "missing": 0,
         "deficit": 0
       },
       "ko": {
         "count": 33,
-        "fresh": 32,
-        "stale": 1,
+        "fresh": 33,
+        "stale": 0,
         "missing": 0,
         "deficit": 0
       },
       "es": {
         "count": 33,
-        "fresh": 32,
-        "stale": 1,
+        "fresh": 33,
+        "stale": 0,
         "missing": 0,
         "deficit": 0
       },
       "fr": {
         "count": 33,
-        "fresh": 32,
-        "stale": 1,
+        "fresh": 33,
+        "stale": 0,
         "missing": 0,
         "deficit": 0
       }
@@ -462,39 +462,39 @@
     "people": {
       "zh-TW": 222,
       "en": {
-        "count": 221,
-        "fresh": 220,
+        "count": 222,
+        "fresh": 221,
         "stale": 1,
-        "missing": 1,
-        "deficit": 1
+        "missing": 0,
+        "deficit": 0
       },
       "ja": {
-        "count": 221,
-        "fresh": 220,
+        "count": 222,
+        "fresh": 221,
         "stale": 1,
-        "missing": 1,
-        "deficit": 1
+        "missing": 0,
+        "deficit": 0
       },
       "ko": {
-        "count": 221,
-        "fresh": 220,
+        "count": 222,
+        "fresh": 221,
         "stale": 1,
-        "missing": 1,
-        "deficit": 1
+        "missing": 0,
+        "deficit": 0
       },
       "es": {
-        "count": 221,
-        "fresh": 220,
+        "count": 222,
+        "fresh": 221,
         "stale": 1,
-        "missing": 1,
-        "deficit": 1
+        "missing": 0,
+        "deficit": 0
       },
       "fr": {
-        "count": 221,
-        "fresh": 220,
+        "count": 222,
+        "fresh": 221,
         "stale": 1,
-        "missing": 1,
-        "deficit": 1
+        "missing": 0,
+        "deficit": 0
       }
     },
     "society": {
@@ -576,20 +576,7 @@
   },
   "missing": {
     "en": [
-      "People/瘂弦：寫完《深淵》就封筆，後半生在聯副成詩史一頁.md",
       "Technology/半導體產業：從 RCA 技轉到氮化鎵與量子封裝的 50 年材料革命.md"
-    ],
-    "ja": [
-      "People/瘂弦：寫完《深淵》就封筆，後半生在聯副成詩史一頁.md"
-    ],
-    "ko": [
-      "People/瘂弦：寫完《深淵》就封筆，後半生在聯副成詩史一頁.md"
-    ],
-    "es": [
-      "People/瘂弦：寫完《深淵》就封筆，後半生在聯副成詩史一頁.md"
-    ],
-    "fr": [
-      "People/瘂弦：寫完《深淵》就封筆，後半生在聯副成詩史一頁.md"
     ]
   },
   "statusSource": "translation-status.json",
