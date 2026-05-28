@@ -39,38 +39,40 @@ upstream_canonical:
 │                                                                          │
 │   📍 一鍵入口: bash scripts/tools/refresh-data.sh                        │
 │                                                                          │
-│   ──── 13 step 主流程 ──────────────────────────────────────             │
+│   ──── 14 step 主流程 ──────────────────────────────────────             │
 │                                                                          │
 │   Step 1: git sync ──→ auto-stash + rebase pull                          │
 │              ↳ Hard gate: cwd assertion + dirty tree auto-stash          │
 │                                                                          │
-│   Step 2-5: 三源感知 ──→ fetch-sense-data.sh + sync + spores + i18n     │
+│   Step 2-6: 三源感知 ──→ fetch + sync + spores + i18n + immune          │
 │            ├── Step 2 fetch-sense-data → dashboard-analytics.json        │
 │            ├── Step 3 sync-translations-json → _translations.json        │
 │            ├── Step 4 generate-dashboard-spores → dashboard-spores.json  │
-│            └── Step 5 i18n-coverage-audit → dashboard-i18n.json          │
+│            ├── Step 5 i18n-coverage-audit → dashboard-i18n.json          │
+│            └── Step 6 generate-dashboard-immune → dashboard-immune.json  │
+│                       (v2 6-dim score; wired 2026-05-28 修補 11d stale)  │
 │                                                                          │
-│   Step 6: npm run prebuild ──→ sync.sh + 12 prebuild:* parallel          │
+│   Step 7: npm run prebuild ──→ sync.sh + 12 prebuild:* parallel          │
 │            ├── prebuild:sync (NEW 2026-05-12): scripts/core/sync.sh       │
 │            │   knowledge/ → src/content/{lang}/ projection (gitignored)   │
 │            └── prebuild:* parallel: 12 dashboard JSON / search / OG regen │
 │                                                                          │
-│   Step 7-9: stats + perf                                                 │
-│            ├── Step 7 refresh-llms-txt → public/llms.txt                 │
-│            ├── Step 8 update-stats → README + stats.json                 │
-│            └── Step 9 extract-build-perf → dashboard-build-perf.json     │
+│   Step 8-10: stats + perf                                                │
+│            ├── Step 8 refresh-llms-txt → public/llms.txt                 │
+│            ├── Step 9 update-stats → README + stats.json                 │
+│            └── Step 10 extract-build-perf → dashboard-build-perf.json    │
 │                                                                          │
-│   Step 10: verify dashboard freshness ──→ REFLEXES #43 gate                  │
+│   Step 11: verify dashboard freshness ──→ REFLEXES #43 gate              │
 │            └── 每個 public/api/dashboard-*.json 有今天的 mtime           │
 │              ↳ Hard gate: stale = generator 漏跑（silent failure）       │
 │                                                                          │
-│   Step 11: validate-spore-data ──→ 5 SSOT consistency check              │
+│   Step 12: validate-spore-data ──→ 5 SSOT consistency check              │
 │              ↳ Hard gate: SSOT 不一致 → 阻 ship                          │
 │                                                                          │
-│   Step 12: sync-spore-links ──→ 從 SSOT regen knowledge sporeLinks       │
+│   Step 13: sync-spore-links ──→ 從 SSOT regen knowledge sporeLinks       │
 │              ↳ Hard gate: 不要手寫 knowledge sporeLinks（會被覆蓋）      │
 │                                                                          │
-│   Step 13: generate-reports-index ──→ regen reports/INDEX.md             │
+│   Step 14: generate-reports-index ──→ regen reports/INDEX.md             │
 │            └── 9 type bucket × 月份 雙軸索引 (per audit Layer 3)         │
 │              ↳ Soft fail OK (心跳繼續)                                   │
 │                                                                          │
@@ -95,9 +97,10 @@ upstream_canonical:
 | Dirty tree auto-stash       | Step 1     | working tree dirty         | `git stash push --include-untracked`  | auto handle                  |
 | git pull rebase 成功        | Step 1     | sync 階段                  | `git pull --rebase origin main`       | hard abort（人類介入）       |
 | 三源 sense-fetch 200        | Step 2     | fetch GA/SC/CF             | per-source HTTP check                 | soft skip + LESSONS entry    |
-| Dashboard mtime fresh       | Step 10    | 整個 refresh 後            | manual stat check                     | REFLEXES #43 silent failure  |
-| validate-spore-data 5 check | Step 11    | SSOT consistency           | `validate-spore-data.py`              | 阻 ship + 修補               |
-| sync-spore-links 從 SSOT    | Step 12    | knowledge sporeLinks regen | `sync-spore-links.py`                 | drift = manual override      |
+| immune v2 6-dim regen       | Step 6     | every refresh              | `generate-dashboard-immune.py`        | Step 11 freshness gate catch |
+| Dashboard mtime fresh       | Step 11    | 整個 refresh 後            | manual stat check                     | REFLEXES #43 silent failure  |
+| validate-spore-data 5 check | Step 12    | SSOT consistency           | `validate-spore-data.py`              | 阻 ship + 修補               |
+| sync-spore-links 從 SSOT    | Step 13    | knowledge sporeLinks regen | `sync-spore-links.py`                 | drift = manual override      |
 | 不手寫 knowledge sporeLinks | 全程       | knowledge/\*.md            | manual                                | 會被 Step 12 覆蓋            |
 | pre-commit hook             | git commit | refresh result commit      | `.husky/pre-commit`                   | 修補後重 commit              |
 
@@ -108,10 +111,11 @@ upstream_canonical:
 > 從 REFLEXES #43 silent failure + REFLEXES #38 SSOT drift + 5/8 Phase 0/5/6 cleanup + ROUTINE refresh-am/pm 半夜重排抽 friction 最高的 5 條。
 
 1. **Step 1 git sync auto-stash + pop 流程** — 不是「dirty 就 skip pull」，而是 stash + pull + pop（避免 silent stale base）
-2. **Step 6 npm run prebuild 含 8 個 JSON regen** — 不只是 dashboard data，articles / translations / vitals / organism / supporters 全部 regen
-3. **Step 10 verify dashboard freshness gate** — REFLEXES #43 silent failure detection，每個 dashboard-\*.json 必須今天的 mtime
-4. **Step 11 validate-spore-data 5 checks** — SSOT consistency gate，不過不准 ship
-5. **Step 12 sync-spore-links 從 SSOT regen** — 不要手寫 knowledge sporeLinks，會被覆蓋（REFLEXES #38 SSOT drift）
+2. **Step 6 generate-dashboard-immune.py** — 2026-05-28 wire 修補 5/17 silent stale 11 天；任何新 `public/api/dashboard-*.json` generator 都要在這層 wire（rule of thumb：新 generator 沒進 refresh-data.sh = Step 11 gate 馬上 catch，但 catch ≠ fix）
+3. **Step 7 npm run prebuild 含 8 個 JSON regen** — 不只是 dashboard data，articles / translations / vitals / organism / supporters 全部 regen
+4. **Step 11 verify dashboard freshness gate** — REFLEXES #43 silent failure detection，每個 dashboard-\*.json 必須今天的 mtime；Step 11 catch 之後 routine 不准只 spawn chip，必須當 cycle wire 進來
+5. **Step 12 validate-spore-data 5 checks** — SSOT consistency gate，不過不准 ship
+6. **Step 13 sync-spore-links 從 SSOT regen** — 不要手寫 knowledge sporeLinks，會被覆蓋（REFLEXES #38 SSOT drift）
 
 ---
 

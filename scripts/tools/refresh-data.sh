@@ -1,20 +1,22 @@
 #!/usr/bin/env bash
 # refresh-data.sh — 心跳用的單一資料刷新入口
 #
-# 13 個步驟（v2026-05-27 加 Step 13 reports/INDEX.md regen，per reports-archival-audit-2026-05-27.md Layer 3）：
+# 14 個步驟（v2026-05-28 加 Step 6 generate-dashboard-immune.py，per dashboard-immune-wiring-2026-05-28，
+# 修補 5/17 → 5/28 11 天 silent stale）：
 #    1. Git sync                            (auto-stash + pull, hard abort on failure)
 #    2. fetch-sense-data.sh                 (CF + GA4 + SC + dashboard-analytics merge)
 #    3. sync-translations-json.py           (sync _translations.json from frontmatter SSOT)
 #    4. generate-dashboard-spores.py        (spore dashboard from SPORE-HARVESTS body — Phase 6 primary)
 #    5. i18n-coverage-audit.sh              (UI string coverage dashboard)
-#    6. npm run prebuild                    (dashboard-vitals/organism/articles/translations)
-#    7. refresh-llms-txt.py                 (sync llms.txt content stats)
-#    8. update-stats.sh                     (README + stats.json)
-#    9. extract-build-perf.mjs              (build perf trend dashboard)
-#   10. verify dashboard freshness          (mtime gate, REFLEXES #43)
-#   11. validate-spore-data.py              (SSOT consistency check)
-#   12. sync-spore-links.py                 (regen knowledge/*.md sporeLinks; Phase 3)
-#   13. generate-reports-index.py           (regen reports/INDEX.md; per audit Layer 3)
+#    6. generate-dashboard-immune.py        (免疫系統 6-dim v2 score — wire 修補 5/17 silent stale)
+#    7. npm run prebuild                    (dashboard-vitals/organism/articles/translations)
+#    8. refresh-llms-txt.py                 (sync llms.txt content stats)
+#    9. update-stats.sh                     (README + stats.json)
+#   10. extract-build-perf.mjs              (build perf trend dashboard)
+#   11. verify dashboard freshness          (mtime gate, REFLEXES #43)
+#   12. validate-spore-data.py              (SSOT consistency check)
+#   13. sync-spore-links.py                 (regen knowledge/*.md sporeLinks; Phase 3)
+#   14. generate-reports-index.py           (regen reports/INDEX.md; per audit Layer 3)
 #
 # Removed in Phase 6 (2026-05-08):
 #   - extract-spore-metrics.py — workaround for narrative→struct gap, no longer needed
@@ -136,9 +138,9 @@ else
 fi
 echo ""
 
-# ────────────────── Step 6 — generate dashboard-i18n.json ──────────────────
+# ────────────────── Step 5 — generate dashboard-i18n.json ──────────────────
 # 為什麼: UI 字串覆蓋率 dashboard 之前 12 小時 stale，原因是這個生成步驟沒進 refresh pipeline
-echo -e "${GRN}[5/13]${RST} generate dashboard-i18n.json (UI string coverage)..."
+echo -e "${GRN}[5/14]${RST} generate dashboard-i18n.json (UI string coverage)..."
 if bash scripts/tools/i18n-coverage-audit.sh --json-out public/api/dashboard-i18n.json 2>&1 | tail -3; then
   echo -e "${DIM}   ✓ dashboard-i18n.json generated${RST}"
 else
@@ -146,8 +148,20 @@ else
 fi
 echo ""
 
+# ────────────────── Step 6 — generate dashboard-immune.json ──────────────────
+# 為什麼: 免疫系統 6-dim v2 score generator existed since 2026-05-17 but never wired into refresh pipeline.
+# Step 11 freshness gate caught 5/17 → 5/28 (11 days) silent stale across 22+ consecutive cycles.
+# Wire here between i18n + prebuild so npm prebuild can consume IMMUNE_V2 flag downstream.
+echo -e "${GRN}[6/14]${RST} generate dashboard-immune.json (6-dim immune score v2)..."
+if python3 scripts/core/generate-dashboard-immune.py 2>&1 | tail -5; then
+  echo -e "${DIM}   ✓ dashboard-immune.json generated${RST}"
+else
+  echo -e "${YEL}⚠️  generate-dashboard-immune 部分失敗 — 心跳繼續${RST}"
+fi
+echo ""
+
 # ────────────────── Step 7 — prebuild dashboard data ──────────────────
-echo -e "${GRN}[6/13]${RST} npm run prebuild..."
+echo -e "${GRN}[7/14]${RST} npm run prebuild..."
 if npm run prebuild > /tmp/prebuild.log 2>&1; then
   tail -6 /tmp/prebuild.log
   echo -e "${DIM}   ✓ dashboard JSON 已重生${RST}"
@@ -160,7 +174,7 @@ echo ""
 
 # ────────────────── Step 8 — refresh public/llms.txt content stats ──────────────────
 # 為什麼: llms.txt 是 LLM training pipeline 的 robots.txt-equivalent，必須跟 dashboard-vitals 同步
-echo -e "${GRN}[7/13]${RST} refresh public/llms.txt content stats..."
+echo -e "${GRN}[8/14]${RST} refresh public/llms.txt content stats..."
 if python3 scripts/tools/refresh-llms-txt.py 2>&1 | tail -3; then
   echo -e "${DIM}   ✓ llms.txt 已同步 dashboard-vitals${RST}"
 else
@@ -169,7 +183,7 @@ fi
 echo ""
 
 # ────────────────── Step 9 — GitHub stats ──────────────────
-echo -e "${GRN}[8/13]${RST} GitHub stats..."
+echo -e "${GRN}[9/14]${RST} GitHub stats..."
 if bash scripts/tools/update-stats.sh > /tmp/stats.log 2>&1; then
   tail -5 /tmp/stats.log
   echo -e "${DIM}   ✓ README/stats 已刷新${RST}"
@@ -182,7 +196,7 @@ echo ""
 
 # ────────────────── Step 10 — extract build perf trend ──────────────────
 # 為什麼: 12 天內 per-page render time 漲 70%（98ms → 167ms）沒人發現，因為 build 效能不在 dashboard freshness check 範圍
-echo -e "${GRN}[9/13]${RST} extract build perf trend..."
+echo -e "${GRN}[10/14]${RST} extract build perf trend..."
 if node scripts/core/extract-build-perf.mjs --runs 30 2>&1 | tail -5; then
   echo -e "${DIM}   ✓ dashboard-build-perf.json updated${RST}"
 else
@@ -192,7 +206,7 @@ echo ""
 
 # ────────────────── Step 11 — verify dashboard freshness ──────────────────
 # REFLEXES #43: 每個 public/api/dashboard-*.json 都必須有今天的 mtime，否則 generator 漏跑了
-echo -e "${GRN}[10/13]${RST} verify dashboard freshness..."
+echo -e "${GRN}[11/14]${RST} verify dashboard freshness..."
 TODAY=$(date +%Y-%m-%d)
 STALE_COUNT=0
 STALE_LIST=""
@@ -216,7 +230,7 @@ echo ""
 # ────────────────── Step 12 — spore data SSOT validation ──────────────────
 # 為什麼: dashboard freshness 只看 mtime，不檢查 spore 解析正確性
 # 過去 generator parser bug (K suffix) silent fail → views_latest=null but mtime fresh
-echo -e "${GRN}[11/13]${RST} spore data SSOT validation..."
+echo -e "${GRN}[12/14]${RST} spore data SSOT validation..."
 if python3 scripts/tools/validate-spore-data.py 2>&1 | tail -4 | head -3; then
   echo -e "${DIM}   ✓ spore data validation passed${RST}"
 else
@@ -228,7 +242,7 @@ echo ""
 # 為什麼: knowledge/*.md sporeLinks 過去人類手寫，drift from SPORE-LOG (identity SSOT)
 # + SPORE-HARVESTS (event SSOT). Phase 3 之後 sporeLinks 是 derived view，每次 refresh
 # 從 canonical 來源重生，eliminates drift surface.
-echo -e "${GRN}[12/13]${RST} sync sporeLinks (regen from SPORE-LOG + SPORE-HARVESTS)..."
+echo -e "${GRN}[13/14]${RST} sync sporeLinks (regen from SPORE-LOG + SPORE-HARVESTS)..."
 if python3 scripts/tools/sync-spore-links.py --apply 2>&1 | tail -3; then
   echo -e "${DIM}   ✓ sporeLinks synced${RST}"
 else
@@ -240,7 +254,7 @@ echo ""
 # 為什麼: reports/ 頂層 *.md 散落 113+ files / 沒分類沒索引（per audit Layer 3 高 leverage
 # 解 grep noise 90%）。每日 regen 讓 INDEX 始終新鮮，不搬家不破壞 239 既有 reference。
 # Script 為 idempotent — 沒改變則 INDEX content 一樣。
-echo -e "${GRN}[13/13]${RST} regen reports/INDEX.md..."
+echo -e "${GRN}[14/14]${RST} regen reports/INDEX.md..."
 if python3 scripts/tools/generate-reports-index.py 2>&1 | tail -2; then
   echo -e "${DIM}   ✓ reports/INDEX.md 更新（per audit Layer 3）${RST}"
 else
