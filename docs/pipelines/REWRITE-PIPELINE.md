@@ -1327,18 +1327,19 @@ grep -E "^title:|^description:" knowledge/{Category}/{slug}.md
 python3 scripts/tools/article-health.py knowledge/{Category}/{文章}.md --profile=rewrite-stage-4
 ```
 
-`rewrite-stage-4` profile 含 7 個 plugin（HARD all）：
+`rewrite-stage-4` profile 含 9 個 plugin（HARD all）：
 
-| Plugin               | 檢查內容                                                                             |
-| -------------------- | ------------------------------------------------------------------------------------ |
-| `frontmatter-format` | 必要欄位 + 順序                                                                      |
-| `format-structure`   | 30 秒概覽 / 延伸閱讀 / 參考資料 section 存在                                         |
-| `wikilink-target`    | wikilink 對應檔案存在                                                                |
-| `link-target`        | markdown link path casing + existence                                                |
-| `cjk-punct`          | 中文 prose 全形標點                                                                  |
-| `chronicle-lead`     | H2 不是 `## YYYY 年 X 月` 編年體                                                     |
-| `word-count`         | depth article ≥ 4500 CJK chars（v3.1 sad-shockley 新增，HARD via severity_override） |
-| `image-health`       | depth ≥ 3 張（hero + 2 scene-mid）— v3.2 kind-mirzakhani 新增（HARD）                |
+| Plugin               | 檢查內容                                                                                                                                                                                                                                                                    |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `frontmatter-format` | 必要欄位 + 順序                                                                                                                                                                                                                                                             |
+| `format-structure`   | 30 秒概覽 / 延伸閱讀 / 參考資料 section 存在                                                                                                                                                                                                                                |
+| `wikilink-target`    | wikilink 對應檔案存在                                                                                                                                                                                                                                                       |
+| `link-target`        | markdown link path casing + existence                                                                                                                                                                                                                                       |
+| `cjk-punct`          | 中文 prose 全形標點                                                                                                                                                                                                                                                         |
+| `chronicle-lead`     | H2 不是 `## YYYY 年 X 月` 編年體                                                                                                                                                                                                                                            |
+| `word-count`         | depth article ≥ 4500 CJK chars（v3.1 sad-shockley 新增，HARD via severity_override）                                                                                                                                                                                        |
+| `image-health`       | depth ≥ 3 張（hero + 2 scene-mid）— v3.2 kind-mirzakhani 新增（HARD）                                                                                                                                                                                                       |
+| `paragraph-rhythm`   | **段落 median ≥ 55 CJK + H2 prose 段落 ≤ 8 + iframe density ≤ 0.8/1k CJK**（v6.4 atomization drift 修補，2026-05-28 manual session 180543 新增，WARN-only soft launch 直到 vc≥3 升 HARD via severity_override；HARD only when density >1.5 AND median <55 combined signal） |
 
 > ⚠️ **profile 邊界鐵律**（v6.1，2026-05-17 admiring-montalcini）：`rewrite-stage-4` profile **不含** `footnote-format` / `footnote-density`（那兩個在 `rewrite-stage-3-5` profile，Stage 3.3 跑）。Stage 4 跑全綠**不代表 CI 會過** — CI full sweep 跑全 16 plugin，包含 stage-3-5 的 footnote 系列。如果跳過 Stage 3.3 的 `rewrite-stage-3-5` plugin gate，本機 Stage 4 顯示綠燈但 CI 會 hard-fail。誕生事件：2026-05-17 臺灣前途決議文 ship 後 CI footnote-format hard=23（commit `b39ea5529` 補修 29 條 footnote）。對策：**Stage 3.3 必跑 `--profile=rewrite-stage-3-5`**（已寫進本檔 Step 3.3 + 頂部 Hard Gate Inventory）。
 
@@ -1595,6 +1596,8 @@ python3 scripts/tools/article-health.py knowledge/{Category}/{slug}.md --check=i
 | **Hub 頁**                | 0                | 0    | 不放 iframe                                      |
 
 Hub 頁 / 短文 / 純架構性條目不放 iframe。多於上限 → 視覺擁擠打斷敘事，重新分散。
+
+> ⚠️ **iframe density HARD ceiling**（v6.4 atomization drift 修補，2026-05-28）：除上方類型上限外，**總體 iframe + image density ≤ 1.0 / 1k CJK chars**（觀察者 directive override 寬限上限）。`paragraph-rhythm` plugin 自動 catch density > 0.8 = WARN / > 1.5 + median < 55 = HARD combined signal。觸發背景：周蕙 R2 EVOLVE ship 9 iframe / 6804 CJK = 1.76/1k 是 worst case atomization drift 樣本（黑冠麻鷺早期範本 0.21/1k 的 6 倍）。哲宇 directive「5+ iframe」是 user-level intent，但 5+ vs 9 的差是量化 drift；新 article 預設上限 ≤ 5 iframe（per 類型表）+ density ≤ 0.8/1k；directive override 寬限 ≤ 1.0/1k；超過 1.5 + median <55 combined HARD。完整 narrative：[reports/spore-voice-drift-fix-2026-05-28.md §第 7 種 pattern](../../reports/spore-voice-drift-fix-2026-05-28.md)。
 
 **位置原則**（呼應 Step 4.3.1 三段敘事節奏）：
 

@@ -83,13 +83,16 @@ fail_on = "hard"
 # article-health (DNA #15 第 N 次驗證)。min_images=3 對齊 depth article 理想
 # hero + 1-2 scene-mid，rewrite-stage-4 升 HARD。
 # Legacy heal 路徑：以下 sub-list 累積 audit 後分批 heal commit。
-checks = ["frontmatter-format", "format-structure", "wikilink-target", "link-target", "cjk-punct", "chronicle-lead", "word-count", "image-health"]
+checks = ["frontmatter-format", "format-structure", "wikilink-target", "link-target", "cjk-punct", "chronicle-lead", "word-count", "image-health", "paragraph-rhythm"]
 fail_on = "hard"
 
 [profiles."rewrite-stage-4".severity_overrides]
 frontmatter-format = "hard"
 chronicle-lead = "hard"
 word-count = "hard"
+# paragraph-rhythm: soft launch - stays at default WARN. Will upgrade to HARD
+# via severity_override here after vc≥3 cases collected from production
+# (per chronicle-lead / word-count / image-health staged promotion pattern).
 
 # Options overrides — 2026-05-11 kind-mirzakhani 修正既有 typo:
 # `check_options` → `options_overrides` (per config.py:127 ProfileConfig schema)。
