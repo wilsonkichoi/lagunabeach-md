@@ -11,10 +11,10 @@ lastVerified: 2026-04-05
 lastHumanReview: false
 featured: true
 translatedFrom: 'History/台灣白色恐怖.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:29fe9cec7fc2be98'
-sourceBodyHash: 'sha256:da583c5d2ae27d5b'
-translatedAt: '2026-05-03T23:14:05+08:00'
+sourceCommitSha: '9193f35b'
+sourceContentHash: 'sha256:2745e3b13be3485d'
+sourceBodyHash: 'sha256:3c3f9e49a7a59ba1'
+translatedAt: '2026-05-28T01:45:15Z'
 ---
 
 # Taiwan's White Terror
@@ -163,6 +163,7 @@ This is not about hatred — it is about the ledger. The day the White Terror tr
 - [Taiwan's Democratic Transition](/history/台灣民主轉型) — The full picture of the forty-year transformation from martial law to one of Asia's freest democracies
 - [The Martial Law Period](/history/戒嚴時期) — The legal container of 38 years and 56 days and the process of lifting martial law
 - [Taiwan's Transitional Justice](/history/台灣轉型正義) — Post–martial law truth investigations and the unfinished business of holding perpetrators accountable
+- [National Human Rights Museum](/history/國家人權博物館) — The institution behind the two White Terror memorial parks at Jingmei and Green Island: from six years of preparation to the 2025 budget freeze
 - [The February 28 Incident](/history/二二八事件) — The prelude to the White Terror: how the 1947 crackdown foreshadowed the martial law regime
 - [The Kaohsiung Incident](/history/美麗島事件) — A pivotal turning point in the late White Terror period, 1979
 - [Alishan: The Empire's Forest and Kao I-sheng's Mountain](/history/阿里山：帝國的林場與高一生的山) — Kao I-sheng's mountain and the story of a silenced Indigenous people

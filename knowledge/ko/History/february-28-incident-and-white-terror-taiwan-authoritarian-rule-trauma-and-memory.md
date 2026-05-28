@@ -10,10 +10,10 @@ featured: true
 lastVerified: 2026-03-31
 author: 'Taiwan.md Translation Team'
 translatedFrom: 'History/二二八事件.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:634ee0a75c18646d'
-sourceBodyHash: 'sha256:af07edaeaadb2899'
-translatedAt: '2026-04-14T04:54:47+08:00'
+sourceCommitSha: '9193f35b'
+sourceContentHash: 'sha256:93c12f10fee5236e'
+sourceBodyHash: 'sha256:5e2fbb5dd024ce00'
+translatedAt: '2026-05-28T00:00:00Z'
 ---
 
 # 2·28 사건
@@ -189,6 +189,13 @@ translatedAt: '2026-04-14T04:54:47+08:00'
 그 종이에 무엇이 쓰여 있는지는 중요하지 않다. 중요한 것은, 마침내 누군가가 그것을 썼다는 것이다.
 
 ---
+
+**더 읽기**:
+
+- [국가인권박물관](/history/國家人權博物館) — 희생자 추모와 가해자 책임 추궁의 제도화, 2018년 개관·2025년 예산 동결 위기
+- [계엄 시기](/history/戒嚴時期) — 1949년부터 38년간의 법적 용기(容器), 1947년 진압의 연장선
+- [타이완 백색공포](/history/台灣白色恐怖) — 계엄 38년의 정치적 사건들
+- [타이완 전환정의](/history/台灣轉型正義) — 판결 취소와 가해자 책임 추궁 사이의 긴장
 
 ## 참고 자료
 

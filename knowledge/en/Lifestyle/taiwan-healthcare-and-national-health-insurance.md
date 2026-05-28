@@ -19,10 +19,10 @@ featured: true
 lastVerified: 2026-03-30
 lastHumanReview: false
 translatedFrom: 'Lifestyle/台灣醫療與全民健保.md'
-sourceCommitSha: '037d3df5'
+sourceCommitSha: '9193f35b'
 sourceContentHash: 'sha256:c5ff1dd2cc7e3855'
 sourceBodyHash: 'sha256:882670c81d48e0c6'
-translatedAt: '2026-05-25T21:06:51Z'
+translatedAt: '2026-05-28T01:45:15Z'
 ---
 
 # Taiwan Healthcare and National Health Insurance

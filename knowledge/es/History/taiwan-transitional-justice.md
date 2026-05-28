@@ -15,10 +15,10 @@ featured: false
 lastVerified: 2026-03-31
 lastHumanReview: false
 translatedFrom: History/台灣轉型正義.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:03ace6f797438b47'
-sourceBodyHash: 'sha256:720afaba13078662'
-translatedAt: 2026-05-01T20:54:23+08:00
+sourceCommitSha: '9193f35b'
+sourceContentHash: 'sha256:374479ea740e2331'
+sourceBodyHash: 'sha256:4c9cc6fafe9a085c'
+translatedAt: '2026-05-28T00:00:00Z'
 category: History
 ---
 
@@ -174,6 +174,13 @@ Pero la historia de [[鄭南榕]] (Cheng Nan-jung) nos recuerda que este camino 
 > La verdadera dificultad de la justicia transicional de Taiwán no es que no se puedan encontrar los documentos, sino que la sociedad aún no tiene consenso sobre "qué hacer una vez que se ha dicho con claridad". Rehabilitar a las víctimas: la mayoría está de acuerdo. Exigir responsabilidades a los perpetradores: ahí se rompe el consenso.
 >
 > Esa fractura puede ser más difícil de resolver que las propias estatuas.
+
+**Lecturas relacionadas**:
+
+- [Museo Nacional de Derechos Humanos](/history/國家人權博物館) — El museo que el propio Estado construyó para honrar a las víctimas políticas: inaugurado en 2018, su presupuesto fue congelado en 2025
+- [Terror Blanco en Taiwán](/history/台灣白色恐怖) — El objeto histórico al que apunta la revocación de sentencias
+- [Era de la ley marcial](/history/戒嚴時期) — El contenedor legal de 1949 a 1987
+- [Incidente del 28 de Febrero](/history/二二八事件) — La represión de 1947 en la Taiwán de posguerra, la otra línea del trabajo de justicia transicional
 
 ## Referencias
 

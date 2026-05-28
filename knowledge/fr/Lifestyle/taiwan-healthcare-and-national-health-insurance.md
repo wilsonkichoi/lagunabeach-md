@@ -18,10 +18,10 @@ lastVerified: 2026-03-30
 lastHumanReview: false
 featured: true
 translatedFrom: 'Lifestyle/台灣醫療與全民健保.md'
-sourceCommitSha: '9c91f365'
-sourceContentHash: 'sha256:44244a287820de65'
-sourceBodyHash: 'sha256:4fe433074ad9b614'
-translatedAt: '2026-05-25T21:07:36Z'
+sourceCommitSha: '9193f35b'
+sourceContentHash: 'sha256:c5ff1dd2cc7e3855'
+sourceBodyHash: 'sha256:882670c81d48e0c6'
+translatedAt: '2026-05-28T00:00:00Z'
 ---
 
 # Le système de santé taïwanais et l'Assurance Maladie Universelle

@@ -15,10 +15,10 @@ featured: false
 lastVerified: 2026-03-31
 lastHumanReview: false
 translatedFrom: 'History/台灣轉型正義.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:03ace6f797438b47'
-sourceBodyHash: 'sha256:720afaba13078662'
-translatedAt: '2026-05-01T14:11:02+08:00'
+sourceCommitSha: '9193f35b'
+sourceContentHash: 'sha256:374479ea740e2331'
+sourceBodyHash: 'sha256:4c9cc6fafe9a085c'
+translatedAt: '2026-05-28T01:45:15Z'
 category: History
 ---
 
@@ -174,6 +174,13 @@ But [Zheng Nan-rong's](/en/people/zheng-nanrong/) story reminds us that this roa
 > The true difficulty of Taiwan's transitional justice is not that the documents cannot be found — it is that society has not yet reached consensus on "what happens after we say it clearly." Rehabilitating victims: most people agree. Holding perpetrators accountable: there the consensus fractures.
 >
 > That fracture may be harder to deal with than the statues themselves.
+
+**Further Reading:**
+
+- [National Human Rights Museum](/history/國家人權博物館) — The museum built by the state to commemorate political victims; inaugurated in 2018, its budget was frozen in 2025
+- [Taiwan's White Terror](/history/台灣白色恐怖) — The historical body that the vacated convictions address
+- [The Martial Law Period](/history/戒嚴時期) — The legal container of 1949–1987
+- [The February 28 Incident](/history/二二八事件) — The 1947 post-war crackdown in Taiwan; the other line of transitional justice work
 
 ## References
 

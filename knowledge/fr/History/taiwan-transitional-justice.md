@@ -11,10 +11,10 @@ featured: false
 translatedFrom: "History/台灣轉型正義.md"
 lastVerified: 2026-03-31
 lastHumanReview: false
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:03ace6f797438b47'
-sourceBodyHash: 'sha256:720afaba13078662'
-translatedAt: "2026-04-14T12:31:49+08:00"
+sourceCommitSha: '9193f35b'
+sourceContentHash: 'sha256:374479ea740e2331'
+sourceBodyHash: 'sha256:4c9cc6fafe9a085c'
+translatedAt: '2026-05-28T00:00:00Z'
 ---
 
 > **En 30 secondes :** En 1950, dans la ville de Qingshui, un jeune homme de vingt ans fut arrêté parce qu'un inconnu était venu lui rendre visite. Il passa dix ans emprisonné sur l'île de Green Island, avant de fonder, à sa libération, le premier magazine de bandes dessinées pour enfants de Taïwan. Il vécut jusqu'à quatre-vingt-treize ans, et jusqu'à la fin il revenait toujours à la même question : « Qui exactement a tué mes amis ? » La justice transitionnelle taïwanaise a obtenu l'annulation des condamnations de près de six mille personnes — mais elle n'a toujours pas répondu à cette question.
@@ -169,6 +169,13 @@ Mais l'histoire de Cheng Nan-jung nous rappelle que ce chemin est bien plus long
 > La vraie difficulté de la justice transitionnelle à Taïwan n'est pas le manque de données. C'est l'absence de consensus sur ce qu'on ferait une fois qu'on aurait tout dit. Réhabiliter les victimes — la majorité est d'accord. Mettre en cause les bourreaux — le consensus se fracture.
 >
 > Cette fracture est peut-être plus difficile à traiter que les statues elles-mêmes.
+
+**Pour aller plus loin :**
+
+- [Musée national des droits de l'homme](/history/國家人權博物館) — musée créé par l'État pour commémorer les victimes de persécutions politiques, inauguré en 2018, budget gelé en 2025
+- [La Terreur blanche à Taïwan](/history/台灣白色恐怖) — le fond historique visé par l'annulation des condamnations
+- [La loi martiale à Taïwan](/history/戒嚴時期) — contenant juridique de 1949 à 1987
+- [L'Incident du 28 Février](/history/二二八事件) — la répression de 1947 dans le Taïwan de l'après-guerre, autre ligne de travail de la justice transitionnelle
 
 ## Références
 

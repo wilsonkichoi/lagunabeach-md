@@ -19,10 +19,10 @@ featured: true
 lastVerified: 2026-03-31
 lastHumanReview: false
 translatedFrom: 'History/二二八事件.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:634ee0a75c18646d'
-sourceBodyHash: 'sha256:af07edaeaadb2899'
-translatedAt: '2026-05-02T08:50:00+08:00'
+sourceCommitSha: '9193f35b'
+sourceContentHash: 'sha256:93c12f10fee5236e'
+sourceBodyHash: 'sha256:5e2fbb5dd024ce00'
+translatedAt: '2026-05-28T00:00:00Z'
 ---
 
 # El Incidente del 28 de febrero (228)
@@ -198,6 +198,13 @@ El cuerpo de Lin Mao-sheng nunca fue encontrado. Su familia esperó 78 años; lo
 Lo que diga ese papel no es lo importante. Lo importante es que, por fin, alguien lo ha escrito.
 
 ---
+
+**Lecturas relacionadas**:
+
+- [Museo Nacional de Derechos Humanos](/history/國家人權博物館) — La institucionalización del homenaje a las víctimas y la rendición de cuentas de los perpetradores: inaugurado en 2018, su presupuesto fue congelado en 2025
+- [Era de la ley marcial](/history/戒嚴時期) — El contenedor legal de 38 años desde 1949, prolongación de la represión de 1947
+- [Terror Blanco en Taiwán](/history/台灣白色恐怖) — Los casos políticos de los 38 años de ley marcial
+- [Justicia transicional en Taiwán](/history/台灣轉型正義) — La pugna entre la revocación de sentencias y la exigencia de responsabilidades a los perpetradores
 
 ## Referencias
 
