@@ -262,6 +262,26 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-05-28 twmd-maintainer-pm 22:00 — schedule 撞期 evening manual session pre-empty queue (vc=8 連續第 3 棒) — observer 決策待拍板
+
+- **症狀**：maintainer-pm 22:00 + maintainer-am 08:30 連續 3 棒空場（5/27 PM vc=6 / 5/28 AM vc=7 / 5/28 PM vc=8）。每次都「Stage 1 SCAN 0 PR + 16 已 maintainer-last issue + build green」→ Stage 3 Act skip。
+- **時序 forensic（每天重複）**：
+  - 17:35 spore-publish ship 當日孢子
+  - 18:00 rewrite-daily ship 當日 NEW + queue 明日 SPORE
+  - 18:05-20:30 manual finale session（5+ hr deep work：contributor PR + EVOLVE + EDITORIAL drift + plugin gate + multi-narrative ship）
+  - 20:22 manual session Beat 7 finale commit（push origin main）
+  - 22:00 maintainer-pm 跑 → empty by design（evening session pre-emptied 所有可動 backlog）
+- **Root cause（per 5/28 routine prompt 新規認定）**：vc=7+ 空場是 **schedule mismatch 不是 organism healthy**。evening 三條 routine + manual ship 已把 22:00 maintainer-pm 預期 input（contributor PR / build sanity / spore queue / quality drift）全部清完。22:00 cron tick 對齊的是 ground-truth check value 而非 actionable backlog。
+- **AM 08:41 cycle 的 anti-pattern**：rationalize 為「organism 在不同 cycle 之間自然完成自體清理」+「routine 的價值在兜底 + ground truth check，不是強制找事做」+「performative work as anti-pattern」— 這層 rationalization **被 5/28 12:35 CONTRACT rollback distill 識別為第 (1) 種 silent satisficing pattern**「maintainer 連續空場 vc=6→7 healthy empty 自我合理化」。本 PM cycle 拒絕沿用該 rationalization，主動 escalate observer。
+- **觀察者決策待拍板（3 option matrix per scope 化未決定事項原則）**：
+  1. **Option A（推薦 default，最低 cost）**：保持 22:00 但 routine 自身明文「3 連空場 = expected 訊號，僅做 ground-truth check + no-act emit」。維持 ground-truth value（兜底 contributor 半夜 PR / build red / broken-link surge），cron 飛輪不亂改。成本：0 行 code，2-3 行 routine SOP 條目（per maintainer-pm-daily SKILL.md Stage 3）
+  2. **Option B**：移動 maintainer-pm 從 22:00 → 11:00（morning evening 之間，避開 evening manual ship pre-empty window）。成本：crontab + ROUTINE.md edit。風險：早上 08:30 maintainer-am 已存在，11:00 補一棒可能 redundant
+  3. **Option C**：條件式 trigger — 22:00 fire 但 BECOME 前先 `gh pr list && gh issue list --search "updated:>cutoff"` 預檢，0 input 直接 exit code 0 不跑 BECOME。成本：crontab script wrapper 5-10 行。風險：失去 ground-truth check value（contributor 22:00 後提 PR 要等 08:30 才看到）
+- **元規則候選**：cron routine schedule 設計 = 假設「該時段累積特定 backlog」。當 manual session 節奏 + 其他 routine 鏈把「該 backlog」自然 pre-empty 時，cron tick 跟 organism actual rhythm 失同步是**結構性訊號**而非「organism healthy」。修補方向：(a) 承認 schedule mismatch 是預期狀態並明文（Option A），不再 inflate 為 anti-pattern 警示 (b) 或 reshape cron schedule 讓 tick 對齊 actual rhythm（Option B/C）。**對應 MANIFESTO §架構解 vs 守備修補**：Option A 是承認 misalignment 的架構解；A/B 都不做、繼續每 cycle 寫「performative work as anti-pattern」memory 是守備修補。
+- **本 cycle 的價值**：5/28 manual finale 12:35 在 CONTRACT rollback distill 把 5 種 routine drift pattern instrumentation 化（per routine prompt 18 條新規 + STRICT BECOME GATE + 12 routine project skill + 14 cron mirror sync），本 cycle 是該架構解第一個 production test run — 架構解生效，cycle 沒 fall through「healthy emit」escape hatch，主動 surface 給觀察者。
+- 完整 memory：[2026-05-28-220412-twmd-maintainer-pm.md](memory/2026-05-28-220412-twmd-maintainer-pm.md)
+- 對應 [5/28 manual CONTRACT rollback distill 第 (1) 種 pattern](#2026-05-28-manual-session--routine-prompt-contract-meta-canonical-推到極致--routine-變-ceremony5-種報告完整但-fix-沒發生-pattern) + REFLEXES「scope 化未決定事項 = 降低觀察者決策成本」+ feedback_progressive_refactor「小問題是下一層入口」
+
 ### 2026-05-28 manual session — 第 6 + 7 種 drift pattern：spore voice silent erosion + article paragraph atomization
 
 承襲 5/28 manual 122038 session 6-phase CONTRACT v1.0 rollback distill 的 5 種 routine drift pattern（maintainer 空場 / dashboard-immune 11d stale / babel collision / spore-pick FIFO / spore-publish duplicate）。本 session 哲宇 callout「為什麼孢子失去『你知道嗎』voice，以及好的文章分段，我們的 routine 出了什麼事」揭露**第 6 + 7 種 pattern**，都是 CONTRACT v1.0 over-engineering 後沒被 5/28 122038 catch 到的 prose-level silent drift：
