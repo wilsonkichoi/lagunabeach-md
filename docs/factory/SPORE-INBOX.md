@@ -218,6 +218,8 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ## 📥 Pending（待發）
 
+<!-- routine defer 2026-05-28: 中-高敏感 (政治脫口秀 + 鄭南榕梗 + 娛樂稅官司爭議 fit 政治立場 category) — 需 observer 親自 ship per spore-publish v3.0 §高敏感 REACTIVE defer rule spirit + MANIFESTO §自主權邊界 政治立場條款。cron no-observer context 走 conservative defer。 -->
+
 ### 曾博恩 — 旗艦人物 spore
 
 - **Source-Mode**: `EXISTING-ARTICLE`
@@ -312,32 +314,6 @@ news-lens P1 count == 0 → daily routine 補 3
   - 國際 SEO 切入：「ai-yu jelly」「taiwan ai yu」英文長尾 query
   - 配圖建議：愛玉果實或愛玉冰（Wikimedia CC 可找；attribution 必填）
   - article ship 後 routine 自動升級此 entry 為 EXISTING-ARTICLE + 補 Article-Path
-
----
-
-### 周蕙 — 趁熱旗艦人物 spore（5/19 ship Music）
-
-- **Source-Mode**: `EXISTING-ARTICLE`
-- **Article-Path**: [knowledge/Music/周蕙.md](../../knowledge/Music/周蕙.md)
-- **Priority**: `P2`
-- **Status**: `pending`
-- **Requested**: 2026-05-24 by twmd-spore-pick-daily routine (score=45)
-- **Hook anchor 候選**：
-  1. **場景 hook**：「1999 年 8 月 26 日，福茂發了一張很奇怪的精選輯。封面是一隻沒有臉的漫畫娃娃，叫蕙兒。歌手本人 22 歲，不對外露面。專輯主打〈約定〉45 天賣 25 萬張」（直接抽 article lede）
-  2. **身份 hook**：「走進台灣任何一間 KTV，點下〈約定〉，前奏響起的瞬間，包廂裡會有人跟著哼。再問一句：『這誰唱的？』答案會分裂：有人說王菲，有人說梁靜茹，有人說不出來，但都會堅持『我絕對聽過』」
-  3. **數字 hook**：「25 年。一首翻唱自王菲的歌唱進每一間 KTV 點唱榜，唱到歌手第一次站上小巨蛋的那年，醫生告訴她聲帶已經萎縮」
-  4. **問句 hook**：「為什麼這個唱了 25 年〈約定〉的女聲，本人始終比歌晚一步被認出來？」
-- **時效**：article ship 距今 5 天（5/19），趁熱窗口剩 ~9 天
-- **敏感度**：低（音樂人物）
-- **必驗事實**：1999-08-26 福茂《周蕙精選》發行 / 〈約定〉45 天 25 萬張 / 翻唱王菲 / 2026-04-25 小巨蛋首場 / 聲帶萎縮宣告 / 蕙兒漫畫娃娃封面 / 22 歲不露面
-- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
-- **預估發佈時機**：本週內（5/24-5/30 趁熱窗口）
-- **Notes**：
-  - score=45 (D1=+30 ≤7d / D2=0 SC 尚未累積 / D3=0 / D4=+15 Music high fanout + tx<3 / D5=0 / D6=0 hook 跟最近 5 spore 不同類 / D7=0)
-  - 多語 fan-out 觸發判斷 = 高（KTV 翻唱歌手議題，ja/ko 受眾對華語翻唱史有 demand）
-  - 配圖建議：article hero（蕙兒漫畫娃娃 / 小巨蛋場景）
-  - Hook tier 自檢：避免 Tier 3「天后回歸」frame；用 article §鋸子收口同款「聲帶萎縮」克制度
-  - 跟 SPORE-LOG 14d 無重複（最近音樂 spore 是 #74/#75 陳建年 5/17 場景 hook，本 candidate 改身份/問句不撞）
 
 ---
 
