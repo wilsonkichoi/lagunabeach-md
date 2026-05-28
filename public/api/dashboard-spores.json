@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T22:11:42.693663Z",
+  "lastUpdated": "2026-05-28T22:53:17.434291Z",
   "schemaVersion": "1.1",
   "totals": {
     "count": 103,
@@ -400,7 +400,7 @@
     {
       "week": "2026-W22",
       "published": 18,
-      "avgViews": 431
+      "avgViews": 433
     }
   ],
   "harvestStatus": [
@@ -491,8 +491,8 @@
       "publishDate": "2026-05-26",
       "daysSincePublish": 3,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-05-28 06:30"
+      "harvestCount": 3,
+      "lastHarvest": "2026-05-29 06:30"
     },
     {
       "n": 95,
@@ -501,8 +501,8 @@
       "publishDate": "2026-05-26",
       "daysSincePublish": 3,
       "withinHarvestWindow": true,
-      "harvestCount": 2,
-      "lastHarvest": "2026-05-28 06:30"
+      "harvestCount": 3,
+      "lastHarvest": "2026-05-29 06:30"
     },
     {
       "n": 94,
@@ -511,8 +511,8 @@
       "publishDate": "2026-05-26",
       "daysSincePublish": 3,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-05-28 06:30"
+      "harvestCount": 2,
+      "lastHarvest": "2026-05-29 06:30"
     },
     {
       "n": 93,
@@ -541,8 +541,8 @@
       "publishDate": "2026-05-25",
       "daysSincePublish": 4,
       "withinHarvestWindow": true,
-      "harvestCount": 3,
-      "lastHarvest": "2026-05-28 06:30"
+      "harvestCount": 4,
+      "lastHarvest": "2026-05-29 06:30"
     },
     {
       "n": 90,
@@ -551,8 +551,8 @@
       "publishDate": "2026-05-25",
       "daysSincePublish": 4,
       "withinHarvestWindow": true,
-      "harvestCount": 3,
-      "lastHarvest": "2026-05-28 06:30"
+      "harvestCount": 4,
+      "lastHarvest": "2026-05-29 06:30"
     },
     {
       "n": 89,
@@ -561,8 +561,8 @@
       "publishDate": "2026-05-25",
       "daysSincePublish": 4,
       "withinHarvestWindow": true,
-      "harvestCount": 3,
-      "lastHarvest": "2026-05-28 06:30"
+      "harvestCount": 4,
+      "lastHarvest": "2026-05-29 06:30"
     },
     {
       "n": 88,
@@ -571,8 +571,8 @@
       "publishDate": "2026-05-25",
       "daysSincePublish": 4,
       "withinHarvestWindow": true,
-      "harvestCount": 3,
-      "lastHarvest": "2026-05-28 06:30"
+      "harvestCount": 4,
+      "lastHarvest": "2026-05-29 06:30"
     },
     {
       "n": 87,
@@ -581,8 +581,8 @@
       "publishDate": "2026-05-25",
       "daysSincePublish": 4,
       "withinHarvestWindow": true,
-      "harvestCount": 3,
-      "lastHarvest": "2026-05-28 06:30"
+      "harvestCount": 4,
+      "lastHarvest": "2026-05-29 06:30"
     },
     {
       "n": 86,
@@ -591,8 +591,8 @@
       "publishDate": "2026-05-24",
       "daysSincePublish": 5,
       "withinHarvestWindow": true,
-      "harvestCount": 4,
-      "lastHarvest": "2026-05-28 06:30"
+      "harvestCount": 5,
+      "lastHarvest": "2026-05-29 06:30"
     },
     {
       "n": 85,
@@ -601,8 +601,8 @@
       "publishDate": "2026-05-23",
       "daysSincePublish": 6,
       "withinHarvestWindow": true,
-      "harvestCount": 4,
-      "lastHarvest": "2026-05-28 06:30"
+      "harvestCount": 5,
+      "lastHarvest": "2026-05-29 06:30"
     },
     {
       "n": 84,
@@ -611,8 +611,8 @@
       "publishDate": "2026-05-23",
       "daysSincePublish": 6,
       "withinHarvestWindow": true,
-      "harvestCount": 4,
-      "lastHarvest": "2026-05-28 06:30"
+      "harvestCount": 5,
+      "lastHarvest": "2026-05-29 06:30"
     },
     {
       "n": 83,
@@ -621,8 +621,8 @@
       "publishDate": "2026-05-23",
       "daysSincePublish": 6,
       "withinHarvestWindow": true,
-      "harvestCount": 5,
-      "lastHarvest": "2026-05-28 06:30"
+      "harvestCount": 6,
+      "lastHarvest": "2026-05-29 06:30"
     },
     {
       "n": 82,
@@ -631,8 +631,8 @@
       "publishDate": "2026-05-23",
       "daysSincePublish": 6,
       "withinHarvestWindow": true,
-      "harvestCount": 5,
-      "lastHarvest": "2026-05-28 06:30"
+      "harvestCount": 6,
+      "lastHarvest": "2026-05-29 06:30"
     },
     {
       "n": 81,
@@ -641,8 +641,8 @@
       "publishDate": "2026-05-23",
       "daysSincePublish": 6,
       "withinHarvestWindow": true,
-      "harvestCount": 5,
-      "lastHarvest": "2026-05-28 06:30"
+      "harvestCount": 6,
+      "lastHarvest": "2026-05-29 06:30"
     },
     {
       "n": 80,
@@ -651,8 +651,8 @@
       "publishDate": "2026-05-23",
       "daysSincePublish": 6,
       "withinHarvestWindow": true,
-      "harvestCount": 5,
-      "lastHarvest": "2026-05-28 06:30"
+      "harvestCount": 6,
+      "lastHarvest": "2026-05-29 06:30"
     },
     {
       "n": 78,
