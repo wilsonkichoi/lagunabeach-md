@@ -423,7 +423,7 @@ javascript_tool: |
 // Step 9: Wait 3s + verify via JS query
 ```
 
-### 🚨 Critical pitfalls（5/27 manual session 實證 — vc=1 instrument candidate）
+### 🚨 Critical pitfalls（5/27 manual session 6 條實證 — Pitfall 1-5 + 5/28 spore-harvest-am routine 新增 Pitfall 6 post-ship verify duplicate ship 防護）
 
 **Pitfall 1: `computer.type` 吞 ASCII 數字 + 空格**
 
@@ -450,6 +450,26 @@ javascript_tool: |
 
 - Post 後 JS query my reply 文字 + 對 input 做 diff
 - 任一字差異 ≥1 → delete + repost（或補 follow-up）
+
+**Pitfall 6: Post-ship verify 依賴 dialog `STILL_OPEN` cache state → multi-retry 觸發 duplicate ship（2026-05-28 spore-harvest-am 實證 vc=1）**
+
+- 5/28 06:30 spore-harvest #92 大宇雙劍 D+2 reply：第一次 click 發佈 button 沒觸發 React PointerEvent handler，後續 dispatchEvent + Cmd+Enter + computer.left_click 多次 retry，**Chrome MCP query 回的 dialog `STILL_OPEN` state 是 cached** → 誤判前次 post 失敗 → 每次 retry 真的成功 post → 同個 reply ship 3 次（`DY2_rWQE0oi` 06:33 / `DY2_uNqExf*` 06:34 / `DY2_xybk8Bi` 06:34）。手動 navigate 到後兩個 URL → overflow menu → 刪除 → 確認，保留最早 ship 的 `DY2_rWQE0oi`
+- **根因**：Threads 發佈 button 是 React PointerEvent handler，synthetic event 跟 MouseEvent dispatch 都會 register；retry-loop 變多次成功 post。Dialog state query 走 Chrome MCP cached state 不反映即時 DOM。
+- **Fix（hard rule）**：post 後 verify **不可**用 `STILL_OPEN` / dialog visible state 當 "post failed" 判斷。改用 **latest reply timestamp diff**：
+  ```js
+  // ✅ 正確 verify pattern
+  // (1) post 前 record baseline:
+  const before = document.querySelectorAll('[data-pressable-container]').length;
+  // (2) click 發佈 + wait 3s
+  // (3) post 後 query 同 selector:
+  const after = document.querySelectorAll('[data-pressable-container]').length;
+  // (4) 判斷:
+  //   after > before → ship success, exit loop
+  //   after == before → genuine fail, ONE retry max
+  //   after >> before+1 → duplicate already shipped, navigate to /replies tab cleanup
+  ```
+- **Hard rule**: max **1 retry** per ship attempt。第二次失敗 → screenshot + LESSONS-INBOX append + escalate observer，不要 silent third retry
+- **Cleanup SOP（已 duplicate）**：navigate 到 `https://www.threads.com/@taiwandotmd/replies` → 找重複 reply → 點「⋯」overflow menu →「刪除」→ 確認 dialog 點「刪除」→ profile `/replies` tab 重新 sweep 驗證只剩一筆
 
 ### Threads-only 操作鐵律
 
