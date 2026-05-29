@@ -64,7 +64,18 @@ HOMEPAGE_DIMENSIONS = [
     ("depth_pct", "Scroll Depth Percent", "scroll_depth 階段 25/50/75/100（取代死掉的 pct）"),
 ]
 
-DIMENSIONS = SEARCH_DIMENSIONS + HOMEPAGE_DIMENSIONS
+# ── page-level events（404.astro page_404）────────────────────────────────
+# 2026-05-29 instrumentation-audit 抓到：page_404 fire 5 param 但全沒註冊。
+# page_lang 統一用 HOMEPAGE_DIMENSIONS 那個（404.astro 已從 page_language 改名對齊）。
+# 注意：GA4 display_name 必須以字母開頭（不能 "404 ..."）。
+PAGE_DIMENSIONS = [
+    ("failed_path", "Failed Path 404", "page_404 命中的不存在路徑（先前 fetch-ga4 query 一直 try/except 吞掉）"),
+    ("failed_url", "Failed URL 404", "page_404 完整 URL（含 query/hash）"),
+    ("referrer", "Referrer 404", "從哪裡連到 404（內部斷鏈 vs 外部，direct = 直接輸入）"),
+    ("had_suggestion", "Had Suggestion 404", "smart-404 是否找到鄰近文章建議 true/false"),
+]
+
+DIMENSIONS = SEARCH_DIMENSIONS + HOMEPAGE_DIMENSIONS + PAGE_DIMENSIONS
 
 # ── 廢棄維度（archive 而非刪除，GA4 archive 可重建）──────────────────────────
 # pct: 2026-05-27 誤註冊。HomeEventTracker scroll_depth 實際 fire `depth_pct`，
