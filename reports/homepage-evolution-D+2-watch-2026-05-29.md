@@ -15,7 +15,7 @@ related:
 - **Ship**：Wave 1+2+3 全 ship `2026-05-26 23:00-23:50 origin/main`
 - **Custom dim 註冊**：`2026-05-27 14:30` Chrome MCP（6 dim）
 - **本檔取數**：`2026-05-29 10:48`（D+2.5 since ship / D+1.5 since dim register）
-- **資料來源**：`reports/scratch/d2-homepage-watch-2026-05-29.json`（13 個 GA4 query）
+- **資料來源**：13 個 GA4 Data API query（取數時的 raw JSON 在 gitignored `reports/scratch/`）。**完整 rows 永久保存在文末 §附錄：完整數據**（A1-A13）
 
 > 與 [reports/homepage-evolution-D+0-watch-2026-05-27.md](homepage-evolution-D+0-watch-2026-05-27.md) 14.5 hr partial snapshot 配對閱讀。本檔目標：驗證 D+0 §6 watch list 8 個假設、第一次跑新 6 個 custom dim attribution。
 
@@ -297,3 +297,389 @@ community_feedback / contribute p50 60s 表示這兩個 section 只有真的閱�
 ---
 
 🧬 D+2 stabilized snapshot，full retention picture needs 7-14 day baseline 對比。
+
+---
+
+## 附錄：完整數據（13 query raw dump）
+
+> 取數 `2026-05-29 10:48`，property `528789281`。原始 JSON 在 `reports/scratch/`（gitignored），
+> 本附錄是完整 rows 的永久保存版。`*` = 5/29 partial（取數時 ~10:48，非完整日）。
+
+### A1 · 站體 daily 全指標（5/22-5/29，8 metrics）
+
+| date |   PV | users | sessions | avgDur | engRate | bounce | engSec | PV/sess |
+| ---- | ---: | ----: | -------: | -----: | ------: | -----: | -----: | ------: |
+| 5/22 | 1341 |   684 |      834 | 123.6s |   29.1% |  70.9% |  34140 |    1.61 |
+| 5/23 | 1202 |   780 |      897 |  63.3s |   25.4% |  74.6% |  19073 |    1.34 |
+| 5/24 | 2587 |  2011 |     2217 |  67.5s |   18.6% |  81.4% |  61807 |    1.17 |
+| 5/25 | 2529 |  1561 |     1819 | 127.5s |   28.4% |  71.6% |  81893 |    1.39 |
+| 5/26 | 2156 |  1296 |     1579 | 111.4s |   27.2% |  72.8% |  60410 |    1.37 |
+| 5/27 | 2048 |  1199 |     1438 | 133.1s |   33.1% |  66.9% |  55015 |    1.42 |
+| 5/28 | 1333 |   839 |     1035 | 246.0s |    0.5% |  99.5% |  29930 |    1.29 |
+| 5/29 |  370 |   232 |      273 | 127.5s |    0.0% | 100.0% |   8276 |    1.36 |
+
+### A2 · 首頁 daily per-lang 完整（28 rows）
+
+| date | path |  PV | users |  avgDur | engSec |
+| ---- | ---- | --: | ----: | ------: | -----: |
+| 5/22 | /    | 328 |   238 |   72.0s |   4778 |
+| 5/22 | /en/ |  19 |    14 |  161.5s |     82 |
+| 5/22 | /es/ |   2 |     1 |   73.3s |     64 |
+| 5/22 | /ja/ |   1 |     1 |   15.9s |     13 |
+| 5/23 | /    | 355 |   287 |   42.8s |   2975 |
+| 5/23 | /en/ |  25 |    14 |  106.2s |    456 |
+| 5/23 | /fr/ |   4 |     4 |   52.4s |     20 |
+| 5/24 | /    | 247 |   190 |   55.8s |   2731 |
+| 5/24 | /en/ |  19 |    11 |   28.4s |    201 |
+| 5/24 | /ja/ |   1 |     1 |   22.7s |     19 |
+| 5/24 | /ko/ |   1 |     1 |    3.1s |      0 |
+| 5/25 | /    | 311 |   217 |   90.6s |   5218 |
+| 5/25 | /en/ |  11 |     9 |   64.4s |    180 |
+| 5/25 | /ja/ |   2 |     2 |   36.3s |     67 |
+| 5/25 | /fr/ |   1 |     1 |    6.1s |      0 |
+| 5/26 | /    | 407 |   228 |   91.5s |   3675 |
+| 5/26 | /en/ |  13 |    11 |   69.6s |    316 |
+| 5/27 | /    | 342 |   211 |  163.6s |   4532 |
+| 5/27 | /en/ |  16 |    14 |   19.7s |    148 |
+| 5/27 | /ko/ |   3 |     2 |   11.5s |     23 |
+| 5/27 | /ja/ |   1 |     1 |    8.9s |      7 |
+| 5/28 | /    | 223 |   171 |  496.3s |   3230 |
+| 5/28 | /en/ |  13 |     9 | 1001.8s |    279 |
+| 5/28 | /ko/ |   2 |     3 |  599.6s |     26 |
+| 5/28 | /es/ |   1 |     1 |   14.0s |     11 |
+| 5/29 | /    |  42 |    39 |  129.0s |    583 |
+| 5/29 | /en/ |   2 |     3 |   85.4s |     51 |
+| 5/29 | /es/ |   2 |     1 | 1096.9s |     23 |
+
+### A3 · post-ship top 30 pages（5/27-5/28 合計）
+
+| pagePath                 |  PV | users | avgDur |
+| ------------------------ | --: | ----: | -----: |
+| /                        | 565 |   378 | 313.9s |
+| /technology/大宇雙劍/    | 244 |   205 |  83.4s |
+| /food/台灣美食總覽/      | 133 |   107 | 155.6s |
+| /people/尹衍樑/          | 130 |   109 |  99.9s |
+| /terminology/converter/  |  70 |    25 | 124.5s |
+| /technology/雷亞遊戲/    |  60 |    41 |  85.7s |
+| /about/                  |  57 |    37 |  90.0s |
+| /semiont/                |  50 |    31 | 148.5s |
+| /taiwan-shape/           |  41 |    36 | 192.6s |
+| /data/                   |  34 |    25 |  61.6s |
+| /en/                     |  29 |    23 | 397.4s |
+| /map/                    |  29 |    18 | 166.2s |
+| /contribute/             |  28 |    19 |  71.3s |
+| /dashboard/              |  28 |    21 | 174.2s |
+| /history/                |  28 |    21 |  87.3s |
+| /soundscape/             |  28 |    19 | 108.4s |
+| /explore/                |  27 |    20 | 120.7s |
+| /art/臺灣漫遊錄/         |  25 |    19 |  41.0s |
+| /resources/              |  25 |    20 | 102.2s |
+| /graph/                  |  23 |    19 |  38.5s |
+| /music/落日飛車/         |  23 |    20 |  37.1s |
+| /history/國家人權博物館/ |  19 |    16 | 256.0s |
+| /elections/2026/         |  17 |    14 | 298.9s |
+| /food/                   |  17 |    14 |  50.9s |
+| /music/張懸與安溥/       |  17 |    15 | 141.9s |
+| /terminology/            |  17 |    13 | 144.2s |
+| /nature/                 |  14 |     9 | 113.2s |
+| /music/                  |  13 |     9 |  81.6s |
+| /technology/             |  12 |    12 |  36.3s |
+| /music/周蕙/             |  11 |     9 |  91.1s |
+
+### A4 · homepage\_\* event daily 完整（16 rows）
+
+| date | event                   | count | users |
+| ---- | ----------------------- | ----: | ----: |
+| 5/26 | homepage_section_view   |    34 |     1 |
+| 5/26 | homepage_time_milestone |    14 |     1 |
+| 5/27 | homepage_section_view   |   744 |   170 |
+| 5/27 | homepage_time_milestone |   316 |    88 |
+| 5/27 | homepage_scroll_depth   |   185 |    78 |
+| 5/27 | homepage_click          |    75 |    45 |
+| 5/27 | homepage_outbound_click |     2 |     2 |
+| 5/28 | homepage_section_view   |   506 |   121 |
+| 5/28 | homepage_time_milestone |   307 |    71 |
+| 5/28 | homepage_scroll_depth   |    99 |    29 |
+| 5/28 | homepage_click          |    60 |    32 |
+| 5/28 | homepage_outbound_click |     5 |     4 |
+| 5/29 | homepage_section_view   |   130 |    31 |
+| 5/29 | homepage_time_milestone |    41 |     9 |
+| 5/29 | homepage_scroll_depth   |    40 |     9 |
+| 5/29 | homepage_click          |     6 |     3 |
+
+### A5 · homepage_section_view by section（完整 14 rows，含 not-set）
+
+| section            | events | users |
+| ------------------ | -----: | ----: |
+| hero               |    380 |   238 |
+| (not set)          |    308 |    75 |
+| reader_doors       |    185 |   130 |
+| random_discovery   |    113 |    89 |
+| feature_cards      |     70 |    55 |
+| reading_path       |     66 |    55 |
+| organism_preview   |     59 |    46 |
+| cover_story        |     55 |    43 |
+| category_grid      |     38 |    33 |
+| language_statement |     34 |    29 |
+| recent_updates     |     28 |    23 |
+| newsletter         |     20 |    17 |
+| community_feedback |     12 |    11 |
+| contribute         |     12 |    12 |
+
+### A6 · homepage_click by section × label（完整 26 rows）
+
+| section          | label      | events | users |
+| ---------------- | ---------- | -----: | ----: |
+| (not set)        | (not set)  |     26 |    16 |
+| hero_cta         | explore    |     25 |    24 |
+| random_dice      | roll       |     16 |    13 |
+| reader_door      | first      |      9 |     9 |
+| category_grid    | history    |      6 |     6 |
+| reader_door      | random     |      6 |     5 |
+| reading_path     | step_1     |      6 |     5 |
+| category_grid    | food       |      5 |     5 |
+| category_grid    | technology |      5 |     4 |
+| cover_story      | read_full  |      5 |     5 |
+| reader_door      | search     |      5 |     5 |
+| category_grid    | music      |      4 |     4 |
+| organism_preview | open       |      3 |     3 |
+| reader_door      | organism   |      3 |     3 |
+| recent_updates   | view_all   |      3 |     2 |
+| contribute       | guide      |      2 |     2 |
+| reading_path     | step_2     |      2 |     2 |
+| reading_path     | step_4     |      2 |     2 |
+| category_grid    | economy    |      1 |     1 |
+| category_grid    | geography  |      1 |     1 |
+| category_grid    | lifestyle  |      1 |     1 |
+| category_grid    | nature     |      1 |     1 |
+| category_grid    | people     |      1 |     1 |
+| category_grid    | society    |      1 |     1 |
+| feature_cta      | graph      |      1 |     1 |
+| hall_pick        | 唐鳳       |      1 |     1 |
+
+### A7 · homepage_scroll_depth by `pct`（bug 證據 — 全 empty/not-set）
+
+| pct value      | events | users |
+| -------------- | -----: | ----: |
+| (empty string) |    139 |    38 |
+| (not set)      |    185 |    78 |
+
+> `pct` dim 全部 empty/(not set) — JS 實際送 `depth_pct`。2026-05-29 已修（註冊 depth_pct dim）。
+
+### A8 · homepage_time_milestone by seconds（完整 5 rows）
+
+| seconds   | events | users |
+| --------- | -----: | ----: |
+| (not set) |    123 |    36 |
+| 180       |    111 |    61 |
+| 30        |    200 |   134 |
+| 60        |    152 |    90 |
+| 600       |     78 |    43 |
+
+### A9 · homepage\_\* event by page_lang × event（完整 25 rows）
+
+| page_lang | event                   | events | users |
+| --------- | ----------------------- | -----: | ----: |
+| zh-TW     | homepage_section_view   |    988 |   244 |
+| zh-TW     | homepage_time_milestone |    510 |   130 |
+| (not set) | homepage_section_view   |    310 |    75 |
+| zh-TW     | homepage_scroll_depth   |    215 |    72 |
+| (not set) | homepage_time_milestone |    123 |    36 |
+| zh-TW     | homepage_click          |    106 |    58 |
+| (not set) | homepage_scroll_depth   |     87 |    38 |
+| en        | homepage_section_view   |     30 |    12 |
+| (not set) | homepage_click          |     26 |    16 |
+| ko        | homepage_section_view   |     24 |     4 |
+| zh-CN     | homepage_section_view   |     20 |     3 |
+| en        | homepage_time_milestone |     19 |     4 |
+| ko        | homepage_scroll_depth   |      9 |     3 |
+| zh-TW     | homepage_outbound_click |      7 |     6 |
+| en        | homepage_scroll_depth   |      6 |     3 |
+| zh-CN     | homepage_scroll_depth   |      6 |     2 |
+| es        | homepage_section_view   |      5 |     2 |
+| es        | homepage_time_milestone |      5 |     2 |
+| zh-CN     | homepage_click          |      5 |     3 |
+| ko        | homepage_time_milestone |      4 |     1 |
+| en        | homepage_click          |      3 |     2 |
+| ja        | homepage_section_view   |      3 |     1 |
+| zh-CN     | homepage_time_milestone |      3 |     3 |
+| es        | homepage_scroll_depth   |      1 |     1 |
+| ko        | homepage_click          |      1 |     1 |
+
+### A10 · watch-list pages day-by-day（完整 41 rows）
+
+| date | path           |  PV | users | avgDur |
+| ---- | -------------- | --: | ----: | -----: |
+| 5/22 | /about/        |  33 |    23 | 217.6s |
+| 5/22 | /semiont/      |  26 |    17 | 148.2s |
+| 5/22 | /dashboard/    |  16 |    12 |  92.7s |
+| 5/22 | /explore/      |  15 |     9 |  79.5s |
+| 5/22 | /taiwan-shape/ |  12 |    10 | 107.1s |
+| 5/23 | /about/        |  19 |    14 | 267.9s |
+| 5/23 | /taiwan-shape/ |  12 |     9 |  32.6s |
+| 5/23 | /semiont/      |  11 |     7 | 121.6s |
+| 5/23 | /explore/      |   7 |     4 |  16.7s |
+| 5/23 | /dashboard/    |   6 |     6 |  55.8s |
+| 5/24 | /about/        |  20 |    15 | 150.6s |
+| 5/24 | /semiont/      |  17 |    11 |  10.1s |
+| 5/24 | /taiwan-shape/ |  10 |     9 |  52.9s |
+| 5/24 | /dashboard/    |   9 |     6 |  49.9s |
+| 5/24 | /explore/      |   9 |     9 |  20.0s |
+| 5/25 | /semiont/      | 100 |    15 | 354.4s |
+| 5/25 | /about/        |  46 |    28 | 104.0s |
+| 5/25 | /taiwan-shape/ |  25 |    21 | 320.0s |
+| 5/25 | /dashboard/    |  13 |    10 |  85.5s |
+| 5/25 | /explore/      |   8 |     8 | 121.8s |
+| 5/25 | /DASHBOARD     |   1 |     1 |   7.5s |
+| 5/26 | /semiont/      |  27 |    15 | 189.6s |
+| 5/26 | /about/        |  24 |    18 | 148.7s |
+| 5/26 | /taiwan-shape/ |  23 |    17 | 146.2s |
+| 5/26 | /explore/      |  13 |    10 |  22.5s |
+| 5/26 | /dashboard/    |  11 |     9 | 216.7s |
+| 5/27 | /about/        |  37 |    25 |  52.8s |
+| 5/27 | /semiont/      |  26 |    17 |  54.0s |
+| 5/27 | /taiwan-shape/ |  23 |    21 | 186.4s |
+| 5/27 | /dashboard/    |  21 |    16 | 119.1s |
+| 5/27 | /explore/      |  18 |    13 |  83.9s |
+| 5/28 | /semiont/      |  24 |    16 | 251.2s |
+| 5/28 | /about/        |  20 |    15 | 145.8s |
+| 5/28 | /taiwan-shape/ |  18 |    16 | 200.6s |
+| 5/28 | /explore/      |   9 |     7 | 194.3s |
+| 5/28 | /dashboard/    |   7 |     6 | 376.6s |
+| 5/29 | /about/        |   7 |     5 |  19.7s |
+| 5/29 | /semiont/      |   7 |     5 | 178.3s |
+| 5/29 | /explore/      |   3 |     3 |   0.0s |
+| 5/29 | /taiwan-shape/ |   3 |     3 |  25.2s |
+| 5/29 | /dashboard/    |   2 |     2 | 212.8s |
+
+### A11 · 首頁 hourly engagement（5/27 + 5/28，完整 46 rows）
+
+| date | hour |  PV | users | engSec | engSec/user |
+| ---- | ---: | --: | ----: | -----: | ----------: |
+| 5/27 |   00 |  21 |    15 |    114 |           8 |
+| 5/27 |   01 |  17 |    14 |    143 |          10 |
+| 5/27 |   02 |  12 |     3 |     63 |          21 |
+| 5/27 |   03 |   5 |     5 |     19 |           4 |
+| 5/27 |   04 |   2 |     2 |     13 |           6 |
+| 5/27 |   05 |   3 |     4 |     53 |          13 |
+| 5/27 |   06 |   3 |     2 |     15 |           8 |
+| 5/27 |   07 |   3 |     2 |      0 |           0 |
+| 5/27 |   08 |  13 |     8 |    174 |          22 |
+| 5/27 |   09 |  19 |    13 |    106 |           8 |
+| 5/27 |   10 |  14 |    11 |    123 |          11 |
+| 5/27 |   11 |  20 |    11 |    319 |          29 |
+| 5/27 |   12 |   7 |     6 |     84 |          14 |
+| 5/27 |   13 |  15 |     7 |    133 |          19 |
+| 5/27 |   14 |  38 |    24 |    301 |          13 |
+| 5/27 |   15 |  37 |    28 |    443 |          16 |
+| 5/27 |   16 |  26 |    18 |    425 |          24 |
+| 5/27 |   17 |  20 |    16 |    278 |          17 |
+| 5/27 |   18 |   7 |     4 |    186 |          46 |
+| 5/27 |   19 |  17 |    12 |    107 |           9 |
+| 5/27 |   20 |   9 |     7 |     70 |          10 |
+| 5/27 |   21 |  19 |    17 |    290 |          17 |
+| 5/27 |   22 |  16 |    12 |    562 |          47 |
+| 5/27 |   23 |  19 |    16 |    689 |          43 |
+| 5/28 |   00 |   5 |     6 |     80 |          13 |
+| 5/28 |   01 |  12 |    14 |     32 |           2 |
+| 5/28 |   03 |   1 |     2 |    142 |          71 |
+| 5/28 |   05 |   3 |     4 |      7 |           2 |
+| 5/28 |   06 |  11 |     7 |    344 |          49 |
+| 5/28 |   07 |   8 |    10 |     64 |           6 |
+| 5/28 |   08 |   9 |     6 |     36 |           6 |
+| 5/28 |   09 |  17 |    12 |    275 |          23 |
+| 5/28 |   10 |  19 |    19 |    351 |          18 |
+| 5/28 |   11 |   7 |     6 |    281 |          47 |
+| 5/28 |   12 |   6 |     5 |     65 |          13 |
+| 5/28 |   13 |  19 |    17 |    422 |          25 |
+| 5/28 |   14 |  12 |    11 |    193 |          18 |
+| 5/28 |   15 |  11 |    11 |    163 |          15 |
+| 5/28 |   16 |  26 |    23 |    387 |          17 |
+| 5/28 |   17 |  17 |    12 |    133 |          11 |
+| 5/28 |   18 |   5 |     6 |     50 |           8 |
+| 5/28 |   19 |  13 |     8 |    236 |          30 |
+| 5/28 |   20 |   8 |     6 |     94 |          16 |
+| 5/28 |   21 |  12 |    12 |    130 |          11 |
+| 5/28 |   22 |   6 |     6 |     17 |           3 |
+| 5/28 |   23 |  12 |     7 |     44 |           6 |
+
+### A12 · section_view by page_lang × section（完整 55 rows）
+
+| page_lang | section            | events | users |
+| --------- | ------------------ | -----: | ----: |
+| zh-TW     | hero               |    357 |   234 |
+| (not set) | (not set)          |    308 |    75 |
+| zh-TW     | reader_doors       |    173 |   125 |
+| zh-TW     | random_discovery   |    104 |    82 |
+| zh-TW     | feature_cards      |     64 |    49 |
+| zh-TW     | reading_path       |     61 |    51 |
+| zh-TW     | organism_preview   |     54 |    41 |
+| zh-TW     | cover_story        |     52 |    42 |
+| zh-TW     | category_grid      |     35 |    30 |
+| zh-TW     | language_statement |     29 |    24 |
+| zh-TW     | recent_updates     |     23 |    18 |
+| zh-TW     | newsletter         |     16 |    13 |
+| en        | hero               |     15 |    11 |
+| zh-TW     | community_feedback |     11 |    10 |
+| zh-TW     | contribute         |      9 |     9 |
+| en        | reader_doors       |      4 |     4 |
+| en        | random_discovery   |      3 |     3 |
+| es        | hero               |      3 |     2 |
+| ko        | feature_cards      |      3 |     3 |
+| ko        | hero               |      3 |     3 |
+| zh-CN     | random_discovery   |      3 |     3 |
+| zh-CN     | reader_doors       |      3 |     2 |
+| en        | reading_path       |      2 |     2 |
+| ko        | category_grid      |      2 |     2 |
+| ko        | cover_story        |      2 |     2 |
+| ko        | language_statement |      2 |     2 |
+| ko        | organism_preview   |      2 |     2 |
+| ko        | random_discovery   |      2 |     2 |
+| ko        | reader_doors       |      2 |     2 |
+| ko        | reading_path       |      2 |     2 |
+| ko        | recent_updates     |      2 |     2 |
+| zh-CN     | feature_cards      |      2 |     2 |
+| zh-CN     | language_statement |      2 |     2 |
+| zh-CN     | newsletter         |      2 |     2 |
+| zh-CN     | organism_preview   |      2 |     2 |
+| zh-CN     | recent_updates     |      2 |     2 |
+| (not set) | hero               |      1 |     1 |
+| (not set) | reader_doors       |      1 |     1 |
+| en        | contribute         |      1 |     1 |
+| en        | feature_cards      |      1 |     1 |
+| en        | language_statement |      1 |     1 |
+| en        | newsletter         |      1 |     1 |
+| en        | organism_preview   |      1 |     1 |
+| en        | recent_updates     |      1 |     1 |
+| es        | random_discovery   |      1 |     1 |
+| es        | reader_doors       |      1 |     1 |
+| ja        | cover_story        |      1 |     1 |
+| ja        | hero               |      1 |     1 |
+| ja        | reader_doors       |      1 |     1 |
+| ko        | contribute         |      1 |     1 |
+| ko        | newsletter         |      1 |     1 |
+| zh-CN     | category_grid      |      1 |     1 |
+| zh-CN     | community_feedback |      1 |     1 |
+| zh-CN     | contribute         |      1 |     1 |
+| zh-CN     | reading_path       |      1 |     1 |
+
+### A13 · section discovery time `elapsed_ms` per section（p50/p90/p99 + 分桶）
+
+從 200 raw (section, elapsed_ms, count) rows 計算。bin: <5s / 5-30s / 30-120s / >120s。
+
+| section            |   n |    p50 |    p90 |     p99 | <5s | 5-30s | 30-120s | >120s |
+| ------------------ | --: | -----: | -----: | ------: | --: | ----: | ------: | ----: |
+| hero               |  25 |   1.7s |   7.5s |    7.7s |  19 |     6 |       0 |     0 |
+| reading_path       |   4 |   2.0s |   2.0s |    2.0s |   4 |     0 |       0 |     0 |
+| organism_preview   |   4 |   3.1s |   3.1s |    3.1s |   4 |     0 |       0 |     0 |
+| reader_doors       |   8 |   8.0s |  10.2s |   10.2s |   4 |     4 |       0 |     0 |
+| cover_story        |  55 |  11.8s |  61.1s | 5096.4s |   9 |    38 |       3 |     5 |
+| feature_cards      |  64 |  16.8s | 191.5s | 5096.4s |  17 |    26 |      12 |     9 |
+| category_grid      |  38 |  21.0s | 202.1s | 5096.6s |   2 |    24 |       7 |     5 |
+| community_feedback |  12 |  58.1s | 634.6s | 5096.6s |   0 |     5 |       3 |     4 |
+| contribute         |  12 |  62.7s | 635.1s | 5096.6s |   0 |     5 |       3 |     4 |
+| random_discovery   |   4 | 322.2s | 322.2s |  322.2s |   2 |     0 |       0 |     2 |
+
+---
+
+🧬 完整數據附錄 end — 13 query / 2026-05-29 10:48 取數。
