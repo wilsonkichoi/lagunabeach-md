@@ -1,14 +1,19 @@
 #!/usr/bin/env python3
 """
-register-ga4-custom-dimensions.py — 一次註冊 7 個 search event custom dimensions
+register-ga4-custom-dimensions.py — GA4 event-param custom dimension SSOT（一鍵註冊 + 對齊）
+
+這份是「所有 instrumentation event param → custom dimension」的 single source of truth。
+每次埋新 gtag event param，把它加進對應 *_DIMENSIONS list 再跑一次（idempotent，skip 已存在）。
 
 背景：
-  2026-04-13 γ session 上線 search_query / search_result_click 事件追蹤，但事件參數
-  在 GA4 必須註冊為 custom dimension 後才能在 Explore/API 中查詢。
-  2026-04-18 δ session 嘗試跑 fetch-search-events.py 失敗：
-    Field customEvent:search_term is not a valid dimension.
-
-  → 用 GA4 Admin API 一鍵註冊 7 個 event-scope custom dimensions。
+  2026-04-13 γ session 上線 search event 追蹤；GA4 event param 必須註冊為 custom
+  dimension 後才能在 Explore / Data API group by。2026-04-18 δ 用 Admin API 一鍵註冊 7
+  個 search dim。2026-05-27 首頁 Wave 1+2+3 改版埋 6 個 homepage dim（當時走 Chrome MCP
+  手動點，沒進這份 SSOT）。2026-05-29 D+2 watch 發現兩個 gap：
+    (1) homepage_scroll_depth fire `depth_pct` 但只註冊了 `pct` → scroll attribution 全 (not set)
+    (2) homepage_click fire `link_url` 但從沒註冊 → click 目的地 attribution 拿不到
+  → 把 6 個 homepage dim 補進這份 SSOT（造橋：手動 Chrome 工作 codify 成可重跑的 code），
+    並補 depth_pct + link_url，archive 死掉的 pct。
 
 需要的權限：
   服務帳號 taiwan-md-reader@taiwan-md-sense.iam.gserviceaccount.com
@@ -36,7 +41,8 @@ if VENV_DIR.exists() and sys.prefix != str(VENV_DIR):
         os.execv(str(venv_python), [str(venv_python), __file__, *sys.argv[1:]])
 
 
-DIMENSIONS = [
+# ── search events（2026-04-13 上線，2026-04-18 δ 註冊）─────────────────────
+SEARCH_DIMENSIONS = [
     ("search_term", "Search Term", "讀者在站內搜尋的 query 字串"),
     ("results_count", "Search Results Count", "該次搜尋回傳的結果筆數"),
     ("search_lang", "Search Language", "搜尋發生的語言介面 zh/en/ja/ko"),
@@ -45,6 +51,25 @@ DIMENSIONS = [
     ("click_url", "Clicked Result URL", "從搜尋結果點擊的文章 URL"),
     ("click_position", "Clicked Result Position", "點擊結果在列表中的位置（1-based）"),
 ]
+
+# ── homepage events（2026-05-27 Wave 1+2+3 改版上線，HomeEventTracker.astro）──
+# param 名以 HomeEventTracker.astro 實際 _fire() 送的為準（SSOT 對齊用）。
+HOMEPAGE_DIMENSIONS = [
+    ("section", "Homepage Section", "section_view / click 發生在哪個 section"),
+    ("label", "Homepage Click Label", "click 子項 label（reader_door first/search/random...）"),
+    ("link_url", "Homepage Click URL", "homepage_click 點擊的目的地 URL（2026-05-29 補）"),
+    ("page_lang", "Page Language", "事件發生的語言介面 zh-TW/en/ja/ko/es/fr"),
+    ("seconds", "Time Milestone Seconds", "time_milestone 階段 30/60/180/600"),
+    ("elapsed_ms", "Elapsed MS", "section 第一次進 viewport 距 page load 的毫秒"),
+    ("depth_pct", "Scroll Depth Percent", "scroll_depth 階段 25/50/75/100（取代死掉的 pct）"),
+]
+
+DIMENSIONS = SEARCH_DIMENSIONS + HOMEPAGE_DIMENSIONS
+
+# ── 廢棄維度（archive 而非刪除，GA4 archive 可重建）──────────────────────────
+# pct: 2026-05-27 誤註冊。HomeEventTracker scroll_depth 實際 fire `depth_pct`，
+# 沒有任何 gtag 送 `pct` → 此 dim 永遠 (not set)。2026-05-29 D+2 watch 抓到。
+DEPRECATED_DIMENSIONS = ["pct"]
 
 
 def fail(msg):
@@ -82,12 +107,14 @@ def main():
     print(f"📝 Registering {len(DIMENSIONS)} custom dimensions on {parent}")
     if args.dry_run:
         for p, name, desc in DIMENSIONS:
-            print(f"  [dry-run] {p} → {name}")
+            print(f"  [dry-run] register {p} → {name}")
+        for p in DEPRECATED_DIMENSIONS:
+            print(f"  [dry-run] archive {p}")
         return
 
-    # List existing to skip duplicates
+    # List existing (keep full objects so we can resolve names for archive)
     try:
-        existing = {cd.parameter_name for cd in client.list_custom_dimensions(parent=parent)}
+        existing_objs = list(client.list_custom_dimensions(parent=parent))
     except PermissionDenied as e:
         fail(
             f"PermissionDenied: service account缺 Editor 角色\n"
@@ -95,6 +122,8 @@ def main():
             f"taiwan-md-reader@taiwan-md-sense.iam.gserviceaccount.com 升級為 Editor\n"
             f"詳細: {e}"
         )
+    existing = {cd.parameter_name for cd in existing_objs}
+    by_param = {cd.parameter_name: cd for cd in existing_objs}
 
     created, skipped = 0, 0
     for param_name, display_name, description in DIMENSIONS:
@@ -116,9 +145,23 @@ def main():
             print(f"  ⏭  {param_name} (AlreadyExists race)")
             skipped += 1
 
-    print(f"\n✅ Done: {created} created, {skipped} skipped")
+    # Archive deprecated dims (reversible — GA4 archive can be undone by recreate)
+    archived = 0
+    for param_name in DEPRECATED_DIMENSIONS:
+        cd = by_param.get(param_name)
+        if not cd:
+            print(f"  ⏭  {param_name} not present (already archived?)")
+            continue
+        try:
+            client.archive_custom_dimension(name=cd.name)
+            print(f"  🗄  archived {param_name} ({cd.name})")
+            archived += 1
+        except Exception as e:  # noqa: BLE001 — log + continue, archive 非關鍵路徑
+            print(f"  ⚠️  archive {param_name} failed: {type(e).__name__}: {e}")
+
+    print(f"\n✅ Done: {created} created, {skipped} skipped, {archived} archived")
     print("\n⏱  資料可用時間：新事件開始帶維度，歷史無法回補。")
-    print("   建議 48h 後（2026-04-20）再跑 fetch-search-events.py 驗證。")
+    print("   sanity query: scripts/tools/fetch-ga4.py 或 reports/scratch d2-watch query.")
 
 
 if __name__ == "__main__":
