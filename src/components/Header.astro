@@ -114,7 +114,7 @@ const navConfig = [
   { path: '/data', label: t('nav.data') },
   { path: '/soundscape', label: t('nav.soundscape') },
   { path: '/resources', label: t('nav.resources') },
-  { path: '/semiont', label: '生命體 🧬' },
+  { path: '/semiont', label: t('nav.semiont') },
   { path: '/elections/2026', label: t('nav.elections') },
   { path: '/contribute', label: t('nav.contribute') },
 ].map((item) => {
@@ -124,15 +124,18 @@ const navConfig = [
     pathWithoutHash !== fullPath
       ? false
       : currentPath.startsWith(pathWithoutHash);
-  // 生命體 covers both /semiont and /dashboard
+  // Semiont covers both the cognitive layer and dashboard.
   if (item.path === '/semiont') {
+    const semiontPath = translatePath('/semiont');
+    const dashboardPath = translatePath('/dashboard');
     active =
       currentPath.startsWith('/semiont') ||
-      currentPath.startsWith('/dashboard');
+      currentPath.startsWith(semiontPath) ||
+      currentPath.startsWith('/dashboard') ||
+      currentPath.startsWith(dashboardPath);
   }
-  // semiont pages only exist in zh-TW; never translate path to /en/semiont etc.
   // elections/2026 also exists only as single-lang page for MVP
-  const singleLangPaths = ['/semiont', '/elections/2026'];
+  const singleLangPaths = ['/elections/2026'];
   return {
     ...item,
     fullPath: singleLangPaths.includes(item.path) ? item.path : fullPath,
@@ -423,10 +426,10 @@ const categoryList = [
                       </a>
                       <div class="dropdown-menu">
                         <a
-                          href="/semiont"
+                          href={translatePath('/semiont')}
                           class="dropdown-item dropdown-section-header"
                         >
-                          認知層 🧠
+                          {t('nav.semiont.cognitive')}
                         </a>
                         <a
                           href={translatePath('/dashboard')}
@@ -615,7 +618,7 @@ const categoryList = [
                   {hasSub && (
                     <button
                       class="mobile-sub-toggle open"
-                      aria-label="展開子選單"
+                      aria-label={t('nav.aria-expand-submenu')}
                     >
                       ▸
                     </button>
@@ -653,11 +656,11 @@ const categoryList = [
                 {item.path === '/semiont' && (
                   <div class="mobile-sub-links open">
                     <a
-                      href="/semiont"
+                      href={translatePath('/semiont')}
                       class="nav-link nav-sub-link"
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
-                      認知層 🧠
+                      {t('nav.semiont.cognitive')}
                     </a>
                     <a
                       href={translatePath('/dashboard')}
