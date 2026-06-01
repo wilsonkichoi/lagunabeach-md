@@ -22,10 +22,10 @@ featured: true
 lastVerified: 2026-04-11
 lastHumanReview: false
 translatedFrom: 'Technology/台灣機器人產業.md'
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:1474f16951c52f9b'
-sourceBodyHash: 'sha256:e0fcab720b26db10'
-translatedAt: '2026-04-14T12:33:27+08:00'
+sourceCommitSha: '38412654'
+sourceContentHash: 'sha256:727c897f10782c2b'
+sourceBodyHash: 'sha256:3b63599a42d7872a'
+translatedAt: '2026-06-02T00:40:00+08:00'
 ---
 
 # L'industrie robotique à Taïwan
@@ -146,6 +146,7 @@ La différence entre ces deux réponses, c'est le vrai bulletin de notes de l'in
 - La crise de la dénatalité à Taïwan — Pourquoi le NCAIR place-t-il l'assistance aux personnes âgées en tête de liste ? La réponse est dans la démographie
 - La transformation industrielle de Taïwan — De la sous-traitance à la marque, des composants à l'intégration système : un défi structurel évoqué depuis vingt ans
 - L'industrie des machines-outils à Taïwan — Les 1 500 fabricants de mécanique de précision dans la vallée dorée de Dadu Mountain, base amont du hardware robotique
+- [Computex : sur les trois grands salons informatiques internationaux, deux ont disparu, et celui qui reste pousse à Taipei](/technology/Computex) — l'édition 2026 du Computex met l'accent sur l'« IA physique » et l'intelligence incarnée ; la chaîne d'approvisionnement robotique taïwanaise s'y prolonge, de l'assemblage des serveurs IA à celui des robots, comme scène annuelle d'exposition
 
 ## Références
 

@@ -10,8 +10,8 @@ lastVerified: 2026-03-19
 lastHumanReview: 'false'
 featured: 'true'
 translatedFrom: 'People/楊德昌.md'
-sourceCommitSha: '18157ab5d'
-sourceContentHash: 'sha256:e463e40762fea107'
+sourceCommitSha: 'fa062cc1'
+sourceContentHash: 'sha256:dd210fd225a73bd3'
 sourceBodyHash: 'sha256:3f3a71807f18f434'
 translatedAt: '2026-05-22T05:08:46+08:00'
 ---

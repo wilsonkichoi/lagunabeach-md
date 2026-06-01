@@ -1,6 +1,6 @@
 ---
-title: 'Développement des parcs scientifiques'
-description: "Du pari d'une rizière au bouclier de silicium d'une production annuelle de cinq milliards de dollars — comment les trois grands parcs scientifiques de Taïwan ont réécrit la carte technologique mondiale en quarante-cinq ans"
+title: "Les parcs scientifiques de Taïwan : le pari d'une rizière qui est devenu l'artère vitale du monde, mais aussi son talon d'Achille"
+description: "En 1979, à Jinshanmian, Hsinchu, Ho Yi-tzu, un ingénieur revenu de chez IBM à Taïwan, fit surgir le premier parc scientifique d'Asie au milieu d'une rizière. Quarante-cinq ans plus tard, le chiffre d'affaires annuel des parcs de Hsinchu, du Sud et du Centre dépasse 5,8 billions de dollars taïwanais, et les puces les plus avancées du monde sont produites en série dans ces trois sites. Mais le plus puissant talisman de cette île est aussi son point le plus fragile : une sécheresse, une panne d'électricité ou une carte géopolitique peuvent suffire à suspendre le souffle de toute la chaîne d'approvisionnement mondiale."
 date: 2026-03-25
 author: 'Taiwan.md'
 category: 'Technology'
@@ -8,199 +8,205 @@ subcategory: '半導體與硬體'
 tags:
   [
     'parcs scientifiques',
-    'parc de Hsinchu',
-    'parc central',
-    'parc du sud',
+    'parc scientifique de Hsinchu',
+    'parc scientifique du Centre',
+    'parc scientifique du Sud',
     'semi-conducteurs',
     'cluster industriel',
     'TSMC',
     'bouclier de silicium',
   ]
-readingTime: 12
-lastVerified: 2026-03-25
+readingTime: 18
+lastVerified: 2026-05-29
 lastHumanReview: false
 featured: true
 translatedFrom: 'Technology/科技園區發展.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:9c6e710290cc0283'
-sourceBodyHash: 'sha256:a3981dca8f771cd5'
-translatedAt: '2026-05-01T20:54:17+08:00'
+sourceCommitSha: '8bd79599d'
+sourceContentHash: 'sha256:1d77734f34a7a5f8'
+sourceBodyHash: 'sha256:e01e7169a98c4aba'
+translatedAt: '2026-06-02T00:40:00+08:00'
 ---
 
-# Développement des parcs scientifiques
+# Les parcs scientifiques de Taïwan : le pari d'une rizière qui est devenu l'artère vitale du monde, mais aussi son talon d'Achille
 
-## Vue d'ensemble en 30 secondes
+> **Aperçu en 30 secondes :** En 1979, une rizière de la banlieue est de Hsinchu fut nivelée, et Ho Yi-tzu, un ingénieur revenu de chez IBM à Taïwan, y construisit le premier parc scientifique d'Asie. Quarante-cinq ans plus tard, le chiffre d'affaires annuel cumulé des trois parcs de Hsinchu, du Sud et du Centre dépasse 5,8 billions de dollars taïwanais ; les puces les plus avancées du monde sont produites en série dans ces trois sites, et le procédé 2 nm est déjà entré en production à Hsinchu et dans le Sud. Mais ce que cette terre a misé dépasse de loin l'industrie : elle a parié qu'une petite île pauvre en ressources pourrait se redresser par un coup de poker auquel presque personne ne croyait. Le pari a été gagné : Taïwan est devenu l'artère vitale du monde. Et précisément parce qu'il a été gagné, Taïwan est aussi devenu son talon d'Achille.
 
-En 1980, une plantation de canne à sucre à la périphérie est de Hsinchu fut rasée. Le gouvernement pariait sur un futur que personne n'osait envisager. Quarante-cinq ans plus tard, les trois parcs scientifiques de l'île — Hsinchu, le Sud et le Centre — affichent une production annuelle combinée dépassant les cinq mille milliards de dollars taïwanais. 170 000 personnes travaillent dans le parc de Hsinchu, le parc du Sud a surpassé Hsinchu pour la première fois en 2025 avec une production de 2,97 milliards de dollars taïwanais, et les procédés les plus avancés de TSMC en 2 nanomètres sont déployés simultanément dans les trois parcs. Les parcs scientifiques taïwanais ne sont pas de simples regroupements d'usines : c'est une biographie nationale écrite sur des wafers de silicium.
-
-**Chiffres clés :** plus de 600 entreprises dans le parc de Hsinchu, production du parc du Sud en 2025 : 2,97 milliards (+34 % en glissement annuel), seulement 10 mois entre l'approbation et le lancement du parc central.
-
----
-
-## Un pari sur une rizière : la naissance du parc de Hsinchu
-
-Le 10 janvier 1979, la première pelleteuse retourna la terre de Jinshanmian, dans la banlieue est de Hsinchu. Cette année-là, le PIB par habitant de Taïwan était inférieur à deux mille dollars et le mot « semi-conducteur » sonnait comme une langue extraterrestre pour la plupart des gens. Mais le Conseil national des sciences prit une décision qui se révélera par la suite infiniment visionnaire : implanter le parc à proximité de l'Université Tsing Hua et de l'Université Chiao Tong, à cinq minutes en voiture de l'ITRI (Institut de recherche technologique industriel).
-
-Cette logique d'implantation s'inspirait de l'expérience de la Silicon Valley : Hewlett-Packard et Intel avaient émergé autour de Stanford, ARM autour de Cambridge. La version taïwanaise : en 1977, l'ITRI avait créé la première usine pilote de wafers de quatre pouces du pays, la technologie ayant été transférée depuis RCA. Puis les ingénieurs sortis de ce laboratoire devinrent les premiers entrepreneurs du parc de Hsinchu.
-
-Le 15 décembre 1980, le parc scientifique industriel de Hsinchu fut officiellement achevé et inauguré. Les entreprises installées la première année se comptaient sur les doigts d'une main, et la plupart des observateurs y voyaient un projet d'envergure gaspillant l'argent public.
-
-Personne ne pouvait prévoir ce qui allait suivre.
-
-## Du sous-traitant PC au bouclier de silicium
-
-La croissance du parc de Hsinchu ressemble à une théorie de l'évolution compressée :
-
-**Années 1980** — Terrain d'entraînement pour le périphérique informatique. Acer et MiTAC y assemblaient des PC et des périphériques. Les ingénieurs taïwanais apprirent la loi de survie : « bon marché, rapide, fonctionnel. »
-
-**1987** — Morris Chang fonda TSMC dans le parc de Hsinchu et inventa le modèle économique de la « fonderie pure » (pure-play foundry). À l'époque, personne au monde ne croyait qu'une entreprise pouvait se consacrer exclusivement au sous-traitage sans concevoir ses propres produits. Trente-huit ans plus tard, ce modèle porta la capitalisation boursière de TSMC au-delà du milliard de dollars.
-
-**Années 1990** — Explosion de la chaîne de valeur des semi-conducteurs. UMC, MediaTek, Realtek et Powertech Technology ouvrirent successivement des usines dans le parc de Hsinchu. De la conception de circuits intégrés à l'encapsulation et aux tests, une chaîne d'approvisionnement complète prit forme dans un rayon de dix kilomètres. Nulle part ailleurs au monde on ne pouvait accomplir l'intégralité du processus, de la conception à l'expédition d'une puce, dans une distance aussi courte.
-
-**Années 2000 à aujourd'hui** — Optoélectronique, télécommunications, IA. Les panneaux d'AU Optronics, les puces mobiles de MediaTek, la mémoire embarquée de eMemory : le parc de Hsinchu étendit ses ramifications vers chaque domaine nécessitant du silicium. En 2025, le campus X de Hsinchu — le premier parc logiciel urbain du complexe — fut achevé sur l'ancien site de la Taiwan Fertilizer Company, le long de la cinquième route Kungdao, avec un taux d'occupation supérieur à 80 %, ciblant l'IA et l'Internet des objets.
-
-## État actuel du parc de Hsinchu
-
-En octobre 2024, les six campus du parc de Hsinchu (Hsinchu, Zhunan, Tongluo, Longtan, biomédical et Yili) comptaient **plus de 600 entreprises**, **177 389 employés** et une superficie totale développée de **1 342 hectares**. L'industrie des circuits intégrés représentait 70 % de la production totale du parc, et la production de TSMC et UMC à elles seules en constituait la moitié.
-
-Mais les chiffres ne rendent pas compte de l'atmosphère. Entrez dans un dépanneur du parc de Hsinchu à vingt-trois heures du soir et vous trouverez encore des ingénieurs faisant la queue pour acheter un café. Les menus des restaurants du parc classent les plats selon la « vitesse d'expédition » — ceux servis en cinq minutes sont étiquetés « urgent ». Ici, l'unité de temps n'est pas l'heure, c'est le lot de wafers.
+**Chiffres clés :** chiffre d'affaires cumulé des trois parcs en 2025 : 5,80 billions de dollars taïwanais (+21,83 % sur un an) ; plus de 320 000 emplois ; depuis 2023, le parc scientifique du Sud a dépassé Hsinchu et occupe la première place en valeur de production.
 
 ---
 
-## Le parc du Sud : du poursuivant au dépassant
+## Un homme revenu d'IBM vers les rizières
 
-### Un vote de sélection de site à huit contre un
+À l'hiver 1979, lorsque le premier bulldozer retourna les rizières de Jinshanmian, dans la banlieue est de Hsinchu, le revenu par habitant à Taïwan n'atteignait pas encore 2 000 dollars américains, et les trois caractères de « semi-conducteur » sonnaient pour la plupart des gens comme une langue extraterrestre. Ceux qui acceptèrent de miser le pays sur cette rizière formaient un petit groupe d'ingénieurs tout juste revenus des États-Unis ; l'un d'eux s'appelait Ho Yi-tzu.
 
-Au début des années 1990, le parc de Hsinchu était saturé. Le Yuan exécutif décida de créer un deuxième parc scientifique dans le sud. Le processus de sélection fut un bras de fer entre politique et science : 11 sites candidats, 8 municipalités et comtés se disputant la victoire. Kaohsiung alla jusqu'à proposer un « projet des deux étoiles » pour obtenir sa part.
+Né en 1921, il sortit diplômé de l'université de Xiamen, obtint ensuite un doctorat en génie électrique à Stanford, puis passa près de vingt ans chez IBM. En 1974, invité par le Conseil national des sciences, il revint à Taïwan et ouvrit au département de génie électrique de l'Université nationale de Taïwan un cours intitulé « Conception et applications des microprocesseurs », ramenant sur l'île ce qui se passait alors dans la Silicon Valley. En 1979, il devint vice-président du Conseil national des sciences et directeur du bureau préparatoire du parc scientifique et industriel ; l'année suivante, il fut le premier directeur du bureau d'administration du parc scientifique de Hsinchu[^1]. Ce que l'on appelle « copier la Silicon Valley » fut en réalité quelque chose de très concret : des personnes comme Ho Yi-tzu portaient en elles l'expérience de la Silicon Valley et revinrent avec elle.
 
-Le 14 janvier 1995, jour de la décision finale. Neuf membres du comité d'évaluation visitèrent les sites de Xinshi (Tainan) et de Luzhu (Kaohsiung) avant de voter — Xinshi l'emporta **8 à 1**. Les raisons étaient pragmatiques : Tainan disposait de l'Université Cheng Kung pour les talents, était proche de la gare TGV, et les terres plates de la ferme de la Taiwan Sugar Corporation facilitaient le développement. Luzhu devint finalement un satellite du parc du Sud (aujourd'hui le campus de Kaohsiung), une sorte de lot de consolation.
+Si le parc s'installa à Hsinchu, ce fut par décision de Hsu Hsien-hsiu, président du Conseil national des sciences. Sa justification figure dans les archives officielles du vingtième anniversaire du parc de Hsinchu : Hsinchu possédait l'université Tsing Hua, l'université Chiao Tung et l'ITRI, « des capacités de recherche et développement technologique ainsi que des ressources humaines, comparables aux caractéristiques de stimulation mutuelle entre les universités de Stanford, Berkeley et autres dans la Silicon Valley américaine »[^4]. Le choix du site était délibéré : construire le parc à côté des universités et des laboratoires nationaux, afin que talents, technologies et entrepreneurs puissent se rencontrer dans un rayon de cinq minutes en voiture.
 
-Le 20 janvier 1996, les travaux du campus de Tainan du parc du Sud débutèrent. Personne n'imaginait alors que cette plantation de canne à sucre deviendrait, trente ans plus tard, la base de production des puces les plus avancées au monde.
+Les graines technologiques avaient été plantées plus tôt encore. En mars 1976, l'ITRI signa un contrat de transfert de technologie avec la Radio Corporation of America (RCA), et un groupe de jeunes ingénieurs fut envoyé se former aux États-Unis. L'année suivante, l'ITRI construisit à Hsinchu la première usine pilote de circuits intégrés de Taïwan, utilisant des wafers de trois pouces et un procédé de 7,5 micromètres[^2]. Ce laboratoire devint par la suite la matrice des semi-conducteurs taïwanais : certains de ceux qui en sortirent fondèrent United Microelectronics Corporation, UMC, première entreprise taïwanaise de semi-conducteurs créée en 1980[^8] ; d'autres devinrent les premiers entrepreneurs du parc de Hsinchu. Le 15 décembre 1980, le parc scientifique et industriel de Hsinchu fut officiellement inauguré, sous la présidence personnelle de Chiang Ching-kuo[^3]. La première année, les entreprises installées se comptaient sur les doigts d'une main ; beaucoup y voyaient un projet de prestige gaspillant l'argent public.
 
-## Du panneau d'affichage au procédé avancé : le virage
+![Entrée du campus Chung Hsing de l'Institut de recherche sur les technologies industrielles. En 1977, l'ITRI construisit la première usine pilote de circuits intégrés de Taïwan ; les technologies et talents issus du transfert de RCA furent à l'origine de la première génération d'entrepreneurs du parc de Hsinchu](/article-images/technology/itri-chung-hsing-main-gate-2006.jpg)
+_Institut de recherche sur les technologies industrielles (ITRI). En 1976, l'ITRI signa un contrat de transfert de technologie avec RCA ; l'année suivante, il construisit la première usine pilote taïwanaise sur wafers de trois pouces, devenant la matrice de l'industrie taïwanaise des semi-conducteurs. Photo : briston, 2006 (domaine public). [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ITRI_Chung_Hsing_Compound_main_gate_20060226.jpg)._
 
-La première moitié de l'existence du parc du Sud appartint à l'industrie des panneaux d'affichage. ChiMei Electronics (fusionné par la suite dans Innolux) et South-Mountain Technology y construisirent des usines ; les écrans TFT-LCD furent un temps la fierté du parc du Sud. Mais les marges de l'industrie des panneaux glissèrent comme sur un toboggan, et le parc du Sud avait besoin d'un nouveau moteur.
+Le véritable tournant eut lieu en 1987. Cette année-là, Morris Chang, revenu à Taïwan pour prendre la tête de l'ITRI, fonda TSMC dans le parc de Hsinchu et fit ce que le monde entier jugeait impossible : ne faire que de la fonderie de wafers, sans concevoir ses propres puces. L'idée avait en fait une origine antérieure : en 1985, le ministre sans portefeuille K. T. Li, surnommé le « parrain de la technologie », posa à Morris Chang une question : « Si Taïwan devait créer une nouvelle entreprise de semi-conducteurs, quel type d'entreprise devrait-ce être ? »[^5] La réponse de Morris Chang fut : une entreprise spécialisée dans la fonderie. Plus de trente ans plus tard, revenant sur les débuts de cette société, il le formula très simplement : « Je voulais seulement survivre ! »[^6] À l'époque, personne ne croyait qu'un modèle de pure fonderie puisse faire vivre une entreprise. TSMC est née d'un calcul élémentaire : « survivre d'abord ».
 
-Le tournant vint de TSMC. Lorsque les terres et les ressources en eau de Hsinchu approchèrent de leurs limites, TSMC déplaça ses procédés les plus avancés vers le sud — les fabs 14 et 18 s'installèrent dans le parc du Sud, où les procédés en 5 nm et 3 nm furent produits en série. Les lithographes à ultraviolets extrêmes (EUV) d'ASM coûtent plusieurs milliards l'unité ; les salles blanches du parc du Sud en abritent le plus grand nombre de Taïwan.
+![Bâtiment administratif du bureau d'administration du parc scientifique de Hsinchu, centre administratif de la gouvernance du parc](/article-images/technology/hsinchu-science-park-admin-2010.jpg)
+_Bureau d'administration du parc scientifique de Hsinchu. Ce modèle, dans lequel l'État crée un bureau d'administration, centralise la prospection d'entreprises et construit les infrastructures, fut ensuite reproduit par le parc du Sud puis par celui du Centre, devenant le prototype commun de gouvernance des parcs scientifiques taïwanais. Photo : Peellden, 2010. [CC BY-SA via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hsinchu_Science_and_Industrial_Park_Administration_20101017.jpg)._
 
-**En 2025, le parc du Sud, avec un chiffre d'affaires annuel de 2,97 mille milliards de dollars taïwanais, en hausse de 34,26 % par rapport à l'année précédente, surpassa pour la première fois le parc de Hsinchu pour devenir le premier des trois parcs scientifiques taïwanais.** Ce n'est pas seulement un renversement de chiffres — cela signifie que le centre de gravité de la fabrication de semi-conducteurs taïwanais se déplace vers le sud.
+> **📝 Note curatoriale**
+> Aujourd'hui, nous avons l'habitude de raconter Hsinchu comme une success story de « planification éclairée par l'État ». Mais son point de départ fut en réalité une succession de décisions incertaines : miser de l'argent sur des semi-conducteurs que personne ne comprenait, construire un parc au milieu des rizières, croire à un modèle de fonderie auquel personne ne faisait confiance. Un pari est un pari précisément parce qu'au moment de miser, on ne sait pas si l'on va gagner. L'histoire des quarante-cinq ans des parcs scientifiques taïwanais est, au fond, celle d'un coup de poker gagné ; et ceux qui gagnent sont souvent les plus prompts à oublier qu'ils auraient aussi pu perdre.
 
-## La carte d'expansion de six campus
+## Un parc où l'on fait encore la queue pour acheter du café à onze heures du soir
 
-Le parc du Sud n'est plus seulement « celui de Tainan ». En 2026, l'administration du parc du Sud supervise six campus :
+La croissance de Hsinchu ressemble à une histoire de l'évolution en accéléré. Dans les années 1980, le parc fut le terrain d'entraînement des périphériques informatiques : Acer et Mitac y assemblaient des ordinateurs personnels, et les ingénieurs taïwanais apprirent la règle de survie du « bon marché, rapide, utilisable ». Dans les années 1990, la chaîne d'approvisionnement des semi-conducteurs y explosa ; de la conception de circuits intégrés à l'encapsulation et aux tests, une chaîne industrielle complète prit forme dans un rayon de dix kilomètres. Nulle part ailleurs dans le monde on ne pouvait, sur une distance aussi courte, faire passer une puce de la conception à l'expédition.
 
-| Campus              | Localisation               | Superficie | Effectifs (2026/3) | Spécificités                                                                         |
-| ------------------- | -------------------------- | ---------- | ------------------ | ------------------------------------------------------------------------------------ |
-| Campus de Tainan    | Xinshi / Shanding / Anding | 1 043 ha   | 76 642 personnes   | Centre de fabrication de semi-conducteurs avancés, incluant la phase III d'expansion |
-| Campus de Kaohsiung | Luzhu / Yong'an / Gangshan | 567 ha     | 15 472 personnes   | Zone spécialisée en dispositifs médicaux et biotechnologies                          |
-| Campus de Ciaotou   | Ciaotou, Kaohsiung         | 164 ha     | 276 personnes      | Semi-conducteurs + machines intelligentes, travaux débutés en 2021                   |
-| Campus de Nanzi     | Nanzi, Kaohsiung           | 29,83 ha   | 5 240 personnes    | Procédés avancés de TSMC (anciennement parc industriel de Nanzi)                     |
-| Campus de Chiayi    | Taibao                     | 88 ha      | 1 256 personnes    | Médecine de précision + agriculture intelligente, phase II en planification          |
-| Campus de Pingtung  | Ville de Pingtung          | 73,83 ha   | 0 personne         | Agriculture et médecine intelligentes + espace, travaux débutés en 2023              |
+À la fin de 2024, le parc de Hsinchu comptait déjà six sites satellites sous son autorité, Hsinchu, Zhunan, Tongluo, Longtan, biomédical et Yilan, totalisant plus de 600 entreprises, plus de 177 000 employés et plus de 1 300 hectares développés ; l'industrie des circuits intégrés représentait environ 70 % de la valeur totale de production du parc[^9]. Mais ces chiffres ne disent pas l'atmosphère du lieu. Entrez dans une supérette du parc de Hsinchu : à onze heures du soir, des ingénieurs font encore la queue pour acheter du café. Dans les restaurants du parc, les menus sont classés selon la « vitesse d'expédition » ; le plat servi en cinq minutes s'appelle une « commande urgente ». Ici, l'unité de temps n'est pas l'heure, mais le wafer lot, le lot de wafers.
 
-La vitesse d'expansion du parc du Sud est stupéfiante. L'expansion de phase III vise les semi-conducteurs avancés, et la phase IV, le parc écologique scientifique de Shalun, a obtenu une évaluation de faisabilité en 2025. La phase II du campus de Chiayi a passé l'évaluation environnementale début 2026, se préparant à accueillir l'usine d'encapsulation avancée CoWoS de TSMC.
+![Colonnes de l'entrée du parc scientifique de Hsinchu sur Guangfu Road, repère portant le nom du parc](/article-images/technology/hsinchu-science-park-main-gate-2025.jpg)
+_Entrée du parc scientifique de Hsinchu sur Guangfu Road. Parti du pari d'une petite ville, le parc de Hsinchu est devenu un cluster technologique qui a remodelé tout le visage urbain de Hsinchu. Photo : T Gordon Cheng, 2025. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hsinchu_Science_Park_%E5%85%89%E5%BE%A9%E8%B7%AF%E5%9C%92%E5%8D%80%E5%A4%A7%E9%96%80%E7%AB%8B%E6%9F%B1*2025-12-02.jpg).*
 
-Ce n'est pas de la planification — c'est une course aux armements.
+La portée de cette transformation dépasse de loin la carte industrielle : les valeurs de toute l'île ont tourné avec elle. À Taïwan, une plaisanterie circule depuis longtemps : « Premier choix : génie électrique ; deuxième choix : informatique ; troisième choix... envisager de repasser l'examen. » Derrière cette blague se trouve la profonde transformation des choix sociaux opérée par les parcs scientifiques depuis quarante-cinq ans. L'expression « nouveaux riches de la tech » est née à la fin des années 1990 pour désigner le phénomène des employés de Hsinchu devenus riches du jour au lendemain grâce aux primes en actions ; ce n'est qu'après l'entrée en vigueur, en 2008, de la comptabilisation des primes aux salariés comme charges, obligeant les entreprises à les inscrire en coûts, que l'aura de ces « nouveaux riches » s'est progressivement estompée[^10]. Mais les parcs demeurent le premier choix des talents taïwanais en sciences et en ingénierie : le salaire annuel d'un ingénieur senior de TSMC peut dépasser 3 millions de dollars taïwanais, au prix d'une vie en astreinte permanente, convertie en wafer lots.
 
----
+## Le parc scientifique du Sud a ravi la première place
 
-## Le parc central : le miracle de dix mois
+Au début des années 1990, Hsinchu était saturé, et le Yuan exécutif décida de construire un deuxième parc scientifique dans le sud. Le choix du site fut un bras de fer entre politique et science. Le 14 janvier 1995, jour de la décision finale, neuf membres du comité d'évaluation inspectèrent sur place Xinshi, à Tainan, et Luzhu, à Kaohsiung, puis votèrent. Xinshi l'emporta par huit voix contre une, pour des raisons très concrètes : Tainan disposait de l'université Cheng Kung pour fournir des talents, et le terrain était plat, donc facile à développer. Luzhu devint finalement un site satellite du parc du Sud, aujourd'hui le parc de Kaohsiung, une forme de lot de consolation[^13]. En janvier de l'année suivante, les travaux du parc de Tainan commencèrent. Personne n'imaginait alors que, trente ans plus tard, ce champ de canne à sucre deviendrait une base de production des puces les plus avancées du monde.
 
-### Les « trois troisièmes » de Chen Shui-bian
+![Fab 18 de TSMC dans le parc scientifique du Sud à Tainan, usine attenante à des champs agricoles, image la plus directe des « salles blanches sorties d'un champ de canne à sucre »](/article-images/technology/tainan-science-park-tsmc-fab18-fields-2025.jpg)
+_Fab 18 de TSMC dans le parc scientifique du Sud, attenante à des terres agricoles. Le procédé 3 nm y est produit en série, tandis qu'au-delà du mur se trouvent encore les champs de Tainan : une coupe contemporaine, très concrète, du pari lancé dans une rizière il y a quarante-cinq ans. Photo : 4300streetcar, 2025. [CC BY 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TSMC_Fab_18_and_fields_May_2025.jpg)._
 
-Lors de l'élection présidentielle de 2000, le programme de Chen Shui-bian comportait une promesse des « trois troisièmes » : la troisième municipalité spéciale, le troisième parc scientifique, le troisième aéroport international. Après son élection, la création du parc central fut officiellement lancée.
+La première moitié de la vie du parc du Sud appartint aux écrans plats. Chi Mei Optoelectronics, plus tard fusionnée dans Innolux, et ChipMOS Technologies y construisirent des usines ; le TFT-LCD fut un temps la marque de fabrique du parc. Mais les marges des écrans glissèrent comme sur un toboggan, et le parc du Sud avait besoin d'un nouveau moteur. Ce moteur vint de TSMC. Lorsque les terres et les ressources en eau de Hsinchu approchèrent de leurs limites, TSMC déplaça vers le sud ses procédés les plus avancés : les Fab 14 et 18 s'installèrent dans le parc du Sud, le procédé 3 nm y entra en production de masse, et les salles blanches y accueillirent le plus grand nombre de machines de lithographie EUV de Taïwan, chacune coûtant plusieurs milliards de dollars taïwanais.
 
-Mais ce qui fit véritablement avancer le parc central ne fut pas la politique, mais le marché. En 2000, le fabricant de panneaux AU Optronics avait un besoin urgent de nouvelles usines ; Hsinchu était saturé. Le vice-président du Yuan exécutif, Lin Hsin-i, promit à AU Optronics que le gouvernement ouvrirait un nouveau parc dans le centre du pays. Au moment où AU Optronics accepta de s'installer, le parc central passa du statut de projet sur papier à celui de réalité.
+Le parc scientifique du Sud d'aujourd'hui n'est plus seulement « celui de Tainan ». Sous l'autorité de son bureau d'administration, six sites ont déjà pris forme : le parc de Tainan est le cœur des procédés avancés, avec les Fab 14 et 18 de TSMC ; les trois sites satellites de Kaohsiung, Qiaotou et Nanzi prennent le relais dans les semi-conducteurs et les biotechnologies médicales ; le parc de Chiayi vise l'encapsulation avancée CoWoS, afin de tirer vers le sud la capacité d'encapsulation du dernier kilomètre pour les puces d'IA de TSMC ; le parc le plus méridional, à Pingtung, mise sur l'agromédecine intelligente et l'espace. Le vote à huit contre un d'il y a trente ans pariait qu'un champ de canne à sucre pourrait produire de la technologie. Trente ans plus tard, la technologie née de ce champ descend vers le sud le long de la ligne à grande vitesse, formant un corridor industriel qui s'étend de Tainan à Pingtung.
 
-En septembre 2002, le Yuan exécutif approuva le plan de création ; en juillet 2003, l'installation des entreprises fut ouverte — **seulement 10 mois et 5 jours entre l'approbation et le lancement**, un record pour les parcs scientifiques taïwanais. En octobre 2004, AU Optronics entra officiellement en production dans le parc central, et il ne fallut qu'un an et trois mois entre la construction de l'usine et l'expédition des premiers produits.
+Alors se produisit une chose que beaucoup n'ont pas remarquée : en 2023, avec plus de 1 580 milliards de dollars taïwanais de chiffre d'affaires, le parc du Sud dépassa pour la première fois Hsinchu et devint le premier des trois parcs scientifiques taïwanais en valeur de production[^12]. Ce basculement ne signifiait pas seulement que le parc du Sud s'était renforcé ; cette année-là, Hsinchu subissait la récession mondiale, avec un chiffre d'affaires en baisse de près de 12 %, tandis que le parc du Sud progressait à contre-courant grâce à l'entrée en production du 3 nm. D'un côté la marée se retirait, de l'autre elle montait : le centre de gravité de la fabrication taïwanaise de semi-conducteurs se déplaça discrètement vers le sud dans cet écart. En 2025, le chiffre d'affaires cumulé des trois parcs atteignit 5,80 billions de dollars taïwanais, dont 2,97 billions pour le parc du Sud, 1,70 billion pour Hsinchu et 1,13 billion pour le parc du Centre[^11] ; l'écart continue de se creuser.
 
-## La disposition de cinq campus
+## Dix mois pour faire sortir un parc de la feuille de papier
 
-Les cinq campus du parc central sont dispersés entre Taichung, Changhua, Yunlin et Nantou :
+Si Hsinchu est le pari et le parc du Sud le dépassement, le mot-clé de l'histoire du parc du Centre est « vitesse ». Lors de l'élection présidentielle de 2000, le programme de Chen Shui-bian comportait une formule dite des « trois troisièmes » : troisième municipalité spéciale, troisième parc scientifique, troisième aéroport international. Après son élection, la préparation du parc du Centre commença ; mais ce qui le mit vraiment en mouvement ne fut pas la politique, mais le marché. Le géant des écrans AU Optronics avait un besoin urgent de nouvelles usines, Hsinchu était déjà saturé, et le gouvernement promit à AUO qu'il ouvrirait un nouveau parc dans le centre de Taïwan. Au moment où AUO donna son accord, le parc du Centre passa du plan sur papier à la réalité.
 
-- **Campus de Taichung** (556 ha) : le quartier général, l'usine de wafers de 12 pouces de TSMC s'y trouve, l'expansion de phase II devrait accueillir les procédés inférieurs à 2 nm. Le siège mondial de Giant Bicycles y est également implanté.
-- **Campus de Houli** (255 ha) : fief d'AU Optronics et de Micron, optoélectronique et semi-conducteurs à parts égales.
-- **Campus de Huwei** (97 ha) : à proximité immédiate de la gare TGV de Yunlin, principalement optoélectronique et biotechnologies.
-- **Campus de Erlin** (631 ha) : longtemps paralysé par des controverses environnementales, reconverti en parc de machines de précision, avec l'installation progressive de Siliconware Precision Industries et de GlobalWafers.
-- **Campus de Zhongxing** (36,58 ha) : dans le village de Zhongxing à Nantou, accueillant l'ITRI et l'III (Institut de l'information industrielle), positionné comme centre de R&D et de création culturelle.
+Entre l'approbation de sa création par le Yuan exécutif en septembre 2002 et l'ouverture aux entreprises en juillet 2003, le parc du Centre mit moins de dix mois[^14]. En octobre 2004, AUO y lança officiellement sa production de masse ; il ne fallut qu'un an et trois mois entre la construction de l'usine et les premières expéditions. Cette vitesse constituait alors un record pour les parcs scientifiques taïwanais. Aujourd'hui, le parc du Centre comprend cinq sites dispersés de Taichung à Changhua, Yunlin et Nantou : le parc de Taichung est la base principale, où TSMC possède des usines de wafers et où la deuxième phase d'extension vise des procédés encore plus avancés ; le parc de Houli est le terrain principal d'AUO et de Micron ; le parc d'Erlin, longtemps bloqué par des controverses environnementales, s'est finalement transformé en parc de machines de précision. L'histoire du parc du Centre est celle d'une logique : « construire d'abord la scène, puis laisser les entreprises décider quelle pièce y jouer ».
 
-L'histoire du parc central est une histoire de « vitesse » — monter la scène le plus rapidement possible et laisser les entreprises décider du spectacle.
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/videoseries?list=PLtFP6bZ75fOUFxDUPUuN8wmhLpDgQlFF6" title="《矽島．春秋》台灣半導體產業紀錄片" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
----
+_La série documentaire en cinq épisodes « Île de silicium, printemps et automnes », produite par DIGITIMES, utilise cinq termes solaires, « réveil des insectes, apparition de l'arc-en-ciel, floraison, début des récoltes, village des oies », pour retracer un demi-siècle de semi-conducteurs taïwanais, depuis l'usine pilote de l'ITRI jusqu'à la « montagne sacrée qui protège le pays »._
 
-## La guerre invisible des trois parcs
+## Trois monstres assoiffés, une île qui manque d'eau
 
-## La course à la production
+En observant les trois parcs ensemble, on voit une concurrence qui ne dit pas son nom : Hsinchu, le parc du Sud et le parc du Centre se disputent talents, terrains, eau et électricité. À eux trois, ils absorbent plus de 320 000 travailleurs, soit presque la population d'une ville moyenne ; mais le nombre annuel de diplômés taïwanais en sciences et en ingénierie reste fixe. L'expansion du parc du Sud rend le recrutement plus difficile pour Hsinchu ; la croissance du parc du Centre fait grimper les loyers à Taichung. À Taïwan, le mot « parc » ne relève plus seulement de l'industrie : il a remodelé les villes. Hsinchu est passée de petite ville au peloton de tête des prix immobiliers ; au premier semestre 2024, elle affichait la plus forte hausse des loyers de tout Taïwan, et le volume des transactions de logements en prévente dans le canton de Baoshan avait plus que quintuplé en cinq ans[^18].
 
-Les trois parcs se livrent une compétition tacite. Avant 2023, Hsinchu était le leader incontesté ; en 2025, le parc du Sud dépassa pour la première fois avec ses 2,97 mille milliards, porté par l'explosion de la production des procédés avancés de TSMC. Le parc central connaît une croissance stable, et l'expansion de TSMC dans le campus de Taichung lui offre la possibilité d'augmenter significativement sa production dans les années à venir.
+Le versant le plus fragile est l'eau. La fabrication de semi-conducteurs exige d'énormes quantités d'eau ultrapure, or Taïwan est une île sujette au manque d'eau. La grande sécheresse de 2021, la plus grave depuis cinquante-six ans, exposa cette vulnérabilité aux yeux du monde entier. En février de cette année-là, le réservoir de Baoshan, à Hsinchu, tomba à 26 % de sa capacité, et l'Agence des ressources en eau avertit que l'approvisionnement des parcs serait « à sec en trente à soixante jours ». À elle seule, TSMC consommait 156 000 tonnes d'eau par jour, soit plus de 30 % de l'eau utilisée par les parcs scientifiques. L'entreprise dut finalement mobiliser des camions-citernes pour transporter de l'eau en urgence, et tint de justesse grâce à un taux de recyclage de l'eau de procédé atteignant 86,7 %[^15]. Dans l'évaluation environnementale de la troisième phase d'extension du parc du Sud, la consommation d'eau devait passer de 200 000 à 250 000 tonnes par jour, entièrement prélevées sur l'eau agricole, ce qui devint le principal point de controverse[^16].
 
-Le vainqueur de cette course n'est pas un parc en particulier, mais Taïwan. La répartition des trois parcs garantit qu'un séisme ou une panne de courant ne paralysera pas d'un coup l'approvisionnement mondial en puces — même si ce risque ne s'est jamais véritablement dissipé.
+![Ensemble d'usines de wafers de TSMC dans le parc scientifique du Sud](/article-images/technology/tainan-science-park-tsmc-2006.jpg)
+_Site de TSMC dans le parc du Sud. La fabrication de semi-conducteurs exige d'immenses quantités d'eau ultrapure et une électricité stable ; les trois parcs sont comme trois monstres assoiffés, liant le destin de toute l'île à des questions aussi élémentaires que « pleuvra-t-il ? » et « y aura-t-il assez d'électricité ? ». Photo : koika, 2006. [CC BY-SA via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TSMC_in_Tainan_Science_Park.JPG)._
 
-## Le jeu à somme nulle des talents
+> **⚠️ Point de vue controversé**
+> Les semi-conducteurs ne consomment pas seulement de l'eau ; ils consomment aussi de l'électricité. L'objectif taïwanais d'énergies renouvelables pour 2030 est de 30 %, mais le déploiement du solaire comme de l'éolien accuse du retard sur les cibles prévues. Par ailleurs, le mécanisme d'ajustement carbone aux frontières de l'Union européenne (CBAM) entre officiellement en vigueur en 2026 et couvre plus de deux cents produits d'exportation taïwanais[^17]. Lorsque les engagements de neutralité carbone des parcs rencontrent la réalité d'un déficit d'électricité verte, la compétitivité des puces taïwanaises risque-t-elle d'être freinée par la structure énergétique même de l'île ? La question reste sans réponse.
 
-Les trois parcs absorbent au total plus de **300 000 employés**, soit presque la population d'une ville de taille moyenne. Mais le nombre de diplômés en sciences et ingénierie chaque année en Taïwan est fixe. L'expansion du parc du Sud signifie qu'il est plus difficile de recruter à Hsinchu, et la croissance du parc central fait grimper les loyers à Taichung.
+C'est là la contradiction la plus forte des parcs scientifiques taïwanais : sur une petite île, trois monstres qui boivent eau et électricité fonctionnent simultanément, soutenant l'approvisionnement mondial en puces, tout en attachant le destin de l'île entière à des questions aussi fondamentales que « le ciel fera-t-il tomber la pluie ? » et « l'électricité suffira-t-elle ? ».
 
-Le mot « parc » en Taïwan n'est plus seulement un concept industriel — il a refaçonné le visage des villes. Hsinchu, petite bourgade, est devenue une ville aux prix immobiliers parmi les plus élevés grâce à son parc scientifique ; sur les terres agricoles de Shanding (Tainan) ont poussé des salles blanches et des Starbucks ; la ligne d'horizon de Xitun (Taichung) a été redessinée par les usines et les dortoirs.
+## Talisman ou cible ?
 
-## L'anxiété de l'eau et de l'électricité
+En 2001, le journaliste australien Craig Addison publia un livre proposant le concept de « bouclier de silicium » (Silicon Shield) : si la Chine attaquait Taïwan, la chaîne d'approvisionnement mondiale en puces serait coupée ; de l'intelligence artificielle aux automobiles et aux appareils ménagers, tout serait paralysé en quelques semaines. Cette « destruction économique mutuellement assurée » forcerait les pays à intervenir pour protéger Taïwan[^19]. Depuis plus de vingt ans, le « bouclier de silicium » est devenu le talisman le plus souvent évoqué pour Taïwan. Et son cœur est précisément ce cluster centré sur les trois grands parcs scientifiques, où se concentre dans un rayon de cinquante kilomètres la capacité mondiale de production des puces les plus avancées.
 
-La fabrication de semi-conducteurs nécessite d'énormes quantités d'eau ultra-pure et une alimentation électrique stable. Lors de la grande sécheresse de 2021 à Taïwan, le parc de Hsinchu mit en place des restrictions d'eau, et les images de camions-citernes de TSMC faisant la queue pour s'approvisionner choquèrent le monde entier. Dans le rapport d'évaluation environnementale de l'expansion de phase III du parc du Sud, l'approvisionnement en eau constitue le principal point de discorde.
+Mais en 2025, l'histoire du bouclier de silicium connut un tournant inquiétant. La secrétaire américaine au Commerce lança l'idée d'un « partage à 50-50 » de la fabrication de puces, affirmant que les États-Unis devaient disposer d'une capacité suffisante de production sur leur sol pour pouvoir protéger Taïwan. Liu Pei-chen, directrice de la base de données industrielle de l'Institut taïwanais de recherche économique, résuma la bascule en une phrase : les États-Unis « transforment la définition du bouclier de silicium, d'un atout propre à Taïwan vers une résilience commune États-Unis-Taïwan »[^20]. Ce bouclier est en train d'être redéfini, et le pouvoir de le définir glisse des mains de Taïwan. Face à l'idée du « 50-50 », les autorités taïwanaises ont exprimé un refus clair : la vice-Première ministre Cheng Li-chun a déclaré que cela n'avait « pas été discuté, et ne serait pas accepté »[^20].
 
-C'est le côté le plus vulnérable des parcs scientifiques taïwanais : sur une petite îté, trois monstres assoiffés fonctionnent simultanément, et quand le ciel ne pleut plus, il ne reste qu'à prier.
+À l'intérieur de l'île aussi, la question de savoir si le talisman pourrait devenir une cible divise profondément. Les optimistes estiment que le bouclier de silicium est en train de monter en gamme. Le député Chen Kuan-ting affirme qu'il est passé de « le monde s'inquiète que Taïwan n'ait plus de puces » à « les alliés du monde ne peuvent pas se passer de Taïwan comme partenaire central » ; la clé réside dans le maintien à Taïwan des procédés les plus avancés ainsi que de la recherche, du développement et de la production pilote[^21]. L'ancien directeur de la R&D de TSMC, Yang Guang-lei, donne quant à lui une réponse à double face, plus troublante encore : d'un côté, il affirme que « la fuite technologique est un faux problème », car les technologies des usines à l'étranger appartiennent toujours à TSMC ; de l'autre, il reconnaît que « l'effet du bouclier de silicium va effectivement s'affaiblir », car les pressions liées à la résilience des chaînes d'approvisionnement finiront tôt ou tard par pousser TSMC à implanter des usines à l'étranger[^21].
 
----
+Le cœur de ce débat tient en réalité à un principe appelé « N moins un » : TSMC garde à Taïwan le procédé le plus avancé, tandis que les technologies exportées à l'étranger appartiennent toujours à la génération précédente. Si l'on ouvre les chiffres des sites industriels, Taïwan compte plus de quarante usines de wafers, contre seulement quelques unités à l'étranger ; l'entreprise a également déclaré que ses futures expansions maintiendraient un ratio d'« une usine à l'étranger pour trois à Taïwan ». Les partisans y voient la preuve que le cœur de la R&D et de la décision demeure solidement ancré sur l'île. Les sceptiques, eux, s'inquiètent : à mesure que les usines d'Arizona, de Kumamoto au Japon et de Dresde en Allemagne sortent de terre, le sentiment d'urgence mondial selon lequel il faudrait absolument protéger Taïwan ne risque-t-il pas de s'émousser peu à peu ? Le MIT Technology Review l'a formulé sans détour : la plus grande anxiété de Taïwan est que les implantations à l'étranger puissent faire penser aux États-Unis et à d'autres pays que Taïwan « ne mérite plus autant d'être défendu »[^24].
 
-## Ce que les parcs ont changé au-delà du PIB
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/TzI-kTINIB8" title="《造山者－世紀的賭注》正式預告" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-## La République des ingénieurs
+_Le documentaire « Les faiseurs de montagne : le pari du siècle », de la réalisatrice Hsiao Chu-chen, a nécessité cinq ans d'entretiens avec plus de quatre-vingts pionniers des semi-conducteurs pour porter à l'écran ce « pari du siècle ». Alors que TSMC implante successivement des usines en Arizona, à Kumamoto au Japon et à Dresde en Allemagne, la question laissée au public par le film est précisément celle-ci : l'expansion à l'étranger dilue-t-elle le bouclier de silicium, ou pousse-t-elle Taïwan au cœur de la division mondiale du travail ?_
 
-Il existe un dicton taïwan : « Premier choix : étudier l'électrotechnique. Deuxième choix : étudier l'informatique. Troisième choix… envisager de repasser le concours. » Derrière cette blague se cache la profonde transformation des valeurs sociales taïwanaises opérée par les parcs scientifiques en quarante-cinq ans.
+> **✦** Un même ingénieur peut dire, dans le même souffle, que la fuite technologique est un faux problème et reconnaître que le bouclier de silicium va s'affaiblir. C'est exactement la situation la plus réelle de Taïwan aujourd'hui : l'île reste en tête sur le plan technologique, mais rien, sur le plan géopolitique, ne garantit que cette avance puisse se convertir en sécurité durable.
 
-Le terme « nouveau riche de la tech » naquit à la fin des années 1990, désignant les employés du parc de Hsinchu devenant du jour au lendemain riches grâce à des attributions d'actions. Bien que la comptabilisation des attributions d'actions comme charges après 2008 ait terni l'aura des « nouveaux riches », les parcs restent la destination privilégiée des talents scientifiques et techniques taïwanais. Le salaire annuel d'un ingénieur senior de TSMC peut dépasser 3 millions de dollars taïwanais — au prix d'une vie en permanence en état d'alerte.
+## À côté des salles blanches repose une jarre vieille de cinq mille ans
 
-## De la copie de la Silicon Valley à l'originalité taïwanaise
+Le développement du parc du Sud a mis au jour de nombreux sites préhistoriques. Sous cette terre, les archéologues ont découvert la culture de Dapenkeng, vieille de cinq mille ans, la culture de Niuchouzi, vieille de plus de trois mille ans, ainsi que des villages siraya de quelques siècles. Dans l'ensemble du périmètre du parc du Sud, soixante-huit sites ont été identifiés, couvrant six périodes culturelles. En octobre 2019, le musée d'archéologie du parc scientifique du Sud, rattaché au Musée national de la préhistoire de Taïwan, ouvrit officiellement. Conçu par l'architecte Kris Yao, il prend la forme de blocs noirs aux lignes blanches ; vu d'en haut, il ressemble à un Rubik's Cube, et les textures en coupe de ses murs ont été délibérément conçues pour évoquer des couches archéologiques mises au jour une à une[^22].
 
-Les parcs scientifiques taïwanais furent initialement des produits de la « copie de la Silicon Valley », mais quarante-cinq ans plus tard, ils développèrent une personnalité entièrement différente. Le cœur de la Silicon Valley est l'entrepreneuriat et le capital-risque ; le cœur de Hsinchu est la fabrication et l'intégration de la chaîne d'approvisionnement. La Silicon Valley produit des entreprises de logiciels qui changent le monde ; les parcs taïwanais produisent le matériel qui permet à ces entreprises de fonctionner.
+C'est probablement l'une des scènes les plus surréalistes du monde : à côté des salles blanches où l'on fabrique des puces 3 nm se trouve un musée exposant des jarres de cinq mille ans. Sur une même terre sont superposés deux régimes de temps : l'un se compte en wafer lots, si rapide qu'il se mesure en minutes ; l'autre se compte en millénaires, si lent qu'il faut le dater au carbone 14. Les parcs scientifiques taïwanais n'ont pas seulement superposé des industries ; ils ont aussi superposé le temps lui-même.
 
-Il ne s'agit pas d'une hiérarchie, mais d'une division du travail. Sans les puces taïwanaises, les modèles d'IA de la Silicon Valley ne pourraient même pas effectuer une inférence.
+![Vue extérieure du musée d'archéologie du parc scientifique du Sud, rattaché au Musée national de la préhistoire de Taïwan, bâtiment de blocs noirs conçu par Kris Yao et situé dans le parc scientifique du Sud](/article-images/technology/nanke-archaeology-museum-2019.jpg)
+_Musée d'archéologie du parc scientifique du Sud, conçu par Kris Yao et inauguré en 2019. Le développement du parc a mis au jour soixante-huit sites préhistoriques, dont ceux des cultures de Dapenkeng, de Niuchouzi et des Siraya : des usines de wafers et des jarres vieilles de cinq mille ans sont reliées par une même terre. Photo : Pbdragonwang, 2019. [CC BY-SA 4.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:國立臺灣史前文化博物館南科分館.jpg)._
 
-## Des usines de wafers sur des sites archéologiques
+Revenons à la rizière nivelée de 1979. À l'époque, rien ne garantissait que ce pari serait gagné : la technologie était empruntée, le modèle était décrié, le site se trouvait sur des terres agricoles. Quarante-cinq ans plus tard, cette île a fait naître la capacité de production de puces dont le monde dépend le plus. La capitalisation de TSMC a un temps approché le produit intérieur brut annuel de tout Taïwan, et les impôts qu'elle paie représentent une proportion considérable du budget de la défense[^23]. Le plus puissant talisman de Taïwan a grandi ; mais cette même irremplaçabilité en a fait la carte que toutes les grandes puissances veulent tenir à la table du jeu.
 
-Le développement du parc du Sud mit au jour un grand nombre de sites préhistoriques — la culture Dabenkeng datant de cinq mille ans, la culture Niuchouzi de trois mille ans, les villages du peuple Siraya datant de mille ans. En 2018, le musée d'archéologie du parc du Sud ouvrit officiellement ses portes, exposant des dizaines de milliers d'artefacts extraits du sous-sol du parc.
-
-C'est probablement la scène la plus surréaliste au monde : une salle blanche jouxte un musée archéologique ; des puces de 3 nm et des pots en céramique vieux de cinq mille ans sont reliés par la même terre. Les parcs scientifiques taïwanais n'ont pas seulement superposé des industries — ils ont aussi superposé le temps.
-
----
-
-## Prochaines étapes : l'avenir des parcs
-
-Les parcs scientifiques taïwanais font face à trois défis structurels :
-
-**L'ombre de la géopolitique.** La compétition technologique sino-américaine a transformé le « Fabriqué à Taïwan » d'un avantage commercial en un enjeu stratégique. TSMC construit une usine en Arizona, en installe une à Kumamoto au Japon — cela signifie-t-il que l'irremplaçabilité des parcs taïwanais est en train d'être diluée ?
-
-**La pression de la transition énergétique.** La fabrication de semi-conducteurs est une grande consommatrice d'électricité, et la part des énergies renouvelables à Taïwan est encore loin de l'objectif. Si l'énergie verte est insuffisante, les engagements de neutralité carbone des parcs resteront lettre morte, et le mécanisme d'ajustement carbone aux frontières de l'UE (CBAM) érodera la compétitivité des puces taïwanaises.
-
-**Le plafond de verre des talents.** La baisse de la natalité réduit chaque année le nombre de diplômés en sciences et ingénierie à Taïwan. D'où viendront les ressources humaines pour l'expansion simultanée des trois parcs ? L'ouverture aux talents étrangers est une voie, mais les barrières culturelles et linguistiques rendent l'attractivité des parcs scientifiques taïwanais bien inférieure à celle de la Silicon Valley ou de Singapour sur le marché international des talents.
-
-Ces défis n'ont pas de réponses simples. Mais en regardant en arrière vers cette plantation de canane à sucre rasée en 1980, le plus grand atout des parcs scientifiques taïwanais n'a jamais été les usines ou les équipements — ce sont les habitants de cette île qui, dans des conditions de ressources limitées, ont prouvé à maintes reprises que « impossible » n'est qu'un synonyme de « pas encore trouvé la méthode ».
+Il y a quarante-cinq ans, cette rizière misait sur la survie. Une fois le pari gagné, l'île est devenue l'artère vitale du monde, mais aussi son talon d'Achille. Le prochain pari, sur l'eau, l'électricité, les talents et ce bouclier en cours de redéfinition, a déjà commencé. Et cette fois, Taïwan n'est plus seul à la table.
 
 ---
 
-_Pour aller plus loin :_
+**Lectures complémentaires** :
 
-- [Industrie des semi-conducteurs](/technology/半導體產業)
-- [Développement des parcs scientifiques](/technology/科技園區發展)
+- [Industrie des semi-conducteurs](/technology/半導體產業) — Cinquante ans de révolution des matériaux, du transfert de technologie de RCA au nitrure de gallium et à l'encapsulation quantique : comment les puces des parcs sont devenues les plus avancées au monde
+- [Les 50 plus grandes entreprises de Taïwan](/economy/台灣前50大企業) — La « montagne sacrée qui protège le pays » soutient un tableau, mais aussi un pays à point de défaillance unique : l'autre face de la concentration de la valeur de production dans les parcs scientifiques
+- [Les faiseurs de montagne : le pari du siècle](/art/造山者世紀的賭注) — Documentaire de Hsiao Chu-chen sorti en 2025, cinq ans d'entretiens avec plus de quatre-vingts pionniers des semi-conducteurs pour porter à l'écran ce pari du siècle
 
 ---
 
-_Sources :_
+## Sources des images
 
-- [Administration du parc scientifique de Hsinchu](https://www.sipa.gov.tw/)
-- [Administration du parc scientifique du Sud](https://www.stsp.gov.tw/)
-- [Administration du parc scientifique central](https://www.ctsp.gov.tw/)
-- [Base de données statistiques du Conseil national des sciences et technologies](https://www.nstc.gov.tw/)
-- Wikipedia : Parc scientifique de Hsinchu, Parc scientifique du Sud, Parc scientifique central
+Cet article utilise 7 images du domaine public ou sous licence Creative Commons, toutes mises en cache dans `public/article-images/technology/` afin d'éviter le hotlinking depuis les serveurs sources :
 
-## Pour aller plus loin
+- [TSMC Fab 5 dans le parc scientifique de Hsinchu](https://commons.wikimedia.org/wiki/File:TSMC_Fab5.JPG) — Photo : Peellden, 2010, CC BY-SA 3.0 (hero)
+- [Entrée du campus Chung Hsing de l'Institut de recherche sur les technologies industrielles](https://commons.wikimedia.org/wiki/File:ITRI_Chung_Hsing_Compound_main_gate_20060226.jpg) — Photo : briston, 2006, domaine public
+- [Colonnes de l'entrée du parc scientifique de Hsinchu sur Guangfu Road](https://commons.wikimedia.org/wiki/File:Hsinchu_Science_Park_%E5%85%89%E5%BE%A9%E8%B7%AF%E5%9C%92%E5%8D%80%E5%A4%A7%E9%96%80%E7%AB%8B%E6%9F%B1_2025-12-02.jpg) — Photo : T Gordon Cheng, 2025, CC BY-SA 4.0
+- [Bureau d'administration du parc scientifique de Hsinchu](https://commons.wikimedia.org/wiki/File:Hsinchu_Science_and_Industrial_Park_Administration_20101017.jpg) — Photo : Peellden, 2010, CC BY-SA
+- [Fab 18 de TSMC et champs agricoles dans le parc scientifique du Sud](https://commons.wikimedia.org/wiki/File:TSMC_Fab_18_and_fields_May_2025.jpg) — Photo : 4300streetcar, 2025, CC BY 4.0
+- [Site de TSMC dans le parc scientifique du Sud](https://commons.wikimedia.org/wiki/File:TSMC_in_Tainan_Science_Park.JPG) — Photo : koika, 2006, CC BY-SA 3.0
+- [Musée d'archéologie du parc scientifique du Sud, Musée national de la préhistoire de Taïwan](https://commons.wikimedia.org/wiki/File:國立臺灣史前文化博物館南科分館.jpg) — Photo : Pbdragonwang, 2019, CC BY-SA 4.0
 
-- [Les Bâtisseurs de montagnes : le pari du siècle](/art/造山者世紀的賭注) — Documentaire de 2025 d'萧菊贞 (Hsiao Chü-chen), cinq ans d'entretiens avec plus de 80 pionniers des semi-conducteurs, projeté en 2026 dans trois universités américaines bénéficiant d'investissements du CHIPS Act (Purdue, Wisconsin, Michigan)
+---
+
+## Références
+
+[^1]: [Vie du Dr Ho Yi-tzu — Fondation Ho Yi-tzu pour l'éducation au développement technologique](https://irvingthofoundation.github.io/about-dr-ho.htm) — Biographie de Ho Yi-tzu (1921–2003) compilée par la fondation commémorative, retraçant son parcours de l'université de Xiamen au doctorat en génie électrique à Stanford, son passage chez IBM, son retour à Taïwan en 1974, sa nomination en 1979 comme vice-président du Conseil national des sciences et directeur du bureau préparatoire du parc, puis son rôle de premier directeur du parc de Hsinchu en 1980.
+
+[^2]: [Archives du cinquantième anniversaire de l'ITRI : les débuts des semi-conducteurs](https://50th.itri.org.tw/history/semiconductors/1/) — Archives officielles de l'Institut de recherche sur les technologies industrielles, documentant la signature du contrat de transfert de technologie avec RCA en mars 1976, l'envoi de personnel en formation aux États-Unis, puis la création en 1977 de la première usine pilote taïwanaise sur wafers de trois pouces avec procédé de 7,5 micromètres.
+
+[^3]: [Parc scientifique de Hsinchu — Wikipédia](https://zh.wikipedia.org/zh-tw/新竹科學園區) — Page rassemblant l'index et des liens vers des sources primaires sur la création du parc de Hsinchu, notamment la loi sur l'établissement et la gestion des parcs scientifiques et industriels, adoptée par le Yuan législatif et promulguée par le président en 1979, la création du bureau d'administration en septembre 1980 et la cérémonie d'inauguration du 15 décembre.
+
+[^4]: [Publication du vingtième anniversaire du parc de Hsinchu : les timoniers du parc scientifique](https://www.sipa.gov.tw/home.jsp?serno=201002250007&mserno=201001210118&menudata=ChineseMenu&contlink=content/20years_10.jsp) — Publication officielle du bureau d'administration du parc scientifique de Hsinchu, rapportant les raisons pour lesquelles Hsu Hsien-hsiu, président du Conseil national des sciences, soutint fortement l'implantation du parc à Hsinchu ; le texte compare explicitement les interactions entre Tsing Hua, Chiao Tung et l'ITRI à Hsinchu avec celles de Stanford et Berkeley dans la Silicon Valley.
+
+[^5]: [Les 40 ans du parc de Hsinchu : K. T. Li et les semi-conducteurs taïwanais — CommonWealth Magazine](https://www.cw.com.tw/article/5102883) — Article documentant la question clé posée en 1985 à Morris Chang par le ministre sans portefeuille K. T. Li, surnommé le « parrain de la technologie » : « Si Taïwan devait créer une nouvelle entreprise de semi-conducteurs, quel type d'entreprise devrait-ce être ? », ainsi que son rôle politique dans la promotion de l'ITRI et du parc de Hsinchu.
+
+[^6]: [Morris Chang parle de la création de TSMC — Business Today](https://www.businesstoday.com.tw/article/category/183015/post/202303160037/) — Entretien avec le fondateur de TSMC, Morris Chang, revenant sur les débuts de l'entreprise ; la citation « Je voulais seulement survivre » y est reprise mot pour mot et replace la naissance du modèle de pure fonderie de wafers dans le contexte d'un calcul de survie.
+
+[^7]: [Chronologie des trente ans de TSMC](https://investor.tsmc.com/static/annualReports/2016/chinese/c_12_1.html) — Chronologie officielle du site relations investisseurs de TSMC, indiquant qu'en février 1987 TSMC fut fondée conjointement par Philips, l'État et des capitaux privés, ouvrant le modèle économique de la pure fonderie de wafers.
+
+[^8]: [Jalons d'United Microelectronics Corporation — Site officiel d'UMC](https://www.umc.com/zh-TW/Milestone/UMC_milestone) — Page officielle des jalons d'UMC, indiquant qu'en mai 1980 l'entreprise fut fondée par l'ITRI, la Banque des communications, China Development et d'autres investisseurs, devenant la première société taïwanaise de semi-conducteurs.
+
+[^9]: [Bureau d'administration du parc scientifique de Hsinchu](https://www.sipa.gov.tw/) — Site officiel du bureau d'administration de Hsinchu, fournissant les statistiques officielles sur les six sites satellites du parc, Hsinchu, Zhunan, Tongluo, Longtan, biomédical et Yilan, le nombre d'entreprises, les effectifs, la superficie développée et la structure industrielle.
+
+[^10]: [Comptabilisation des primes aux salariés et nouveaux riches de la tech — CommonWealth Magazine](https://www.cw.com.tw/article/5116117) — Analyse du phénomène des « nouveaux riches de la tech », né à la fin des années 1990 lorsque les primes en actions enrichirent les employés de Hsinchu, et des effets de la comptabilisation des primes aux salariés comme charges, entrée en vigueur en 2008, sur la structure de rémunération et l'attractivité des talents dans la haute technologie.
+
+[^11]: [Le chiffre d'affaires des parcs scientifiques atteint 5,80 billions de dollars taïwanais en 2025, en hausse de 21,83 % — Conseil national des sciences et technologies](https://www.nstc.gov.tw/folksonomy/detail/d512df1e-3ced-445c-930c-021a734e88bc?l=CH) — Communiqué officiel du NSTC annonçant que le chiffre d'affaires cumulé des trois grands parcs scientifiques a atteint 5,80 billions de dollars taïwanais en 2025, dont 1,70 billion pour Hsinchu, 1,13 billion pour le parc du Centre et 2,97 billions pour le parc du Sud, en hausse de 34,26 %.
+
+[^12]: [Le chiffre d'affaires du parc du Sud dépasse celui de Hsinchu en 2023 — IEK Industry Intelligence Network](https://ieknet.iek.org.tw/ieknews/news_open.aspx?actiontype=ieknews&indu_idno=1&nsl_id=c14aee6801ab4b1094e78eab8735ad23) — Analyse de l'Industrial Technology International Strategy Center de l'ITRI, indiquant qu'en 2023 le parc du Sud, avec 1 585,5 milliards de dollars taïwanais de chiffre d'affaires, a pour la première fois dépassé Hsinchu, à 1 420,1 milliards ; le parc du Sud a progressé à contre-courant grâce à la production du 3 nm, tandis que Hsinchu reculait de près de 12 % dans le contexte de récession mondiale.
+
+[^13]: [Historique de la création du parc scientifique du Sud — Bureau d'administration du parc scientifique du Sud](https://www.stsp.gov.tw/web/WEB/Jsp/Page/cindex.jsp?frontTarget=DEFAULT&thisRootID=195) — Historique officiel du bureau d'administration du parc du Sud, documentant la décision finale du 14 janvier 1995 : après inspection par neuf membres du comité d'évaluation, Xinshi l'emporta huit voix contre une sur Luzhu, à Kaohsiung, puis les travaux du parc de Tainan commencèrent en janvier 1996.
+
+[^14]: [Parc scientifique du Centre — Wikipédia](https://zh.wikipedia.org/zh-tw/中部科學園區) — Page rassemblant l'index et des sources primaires sur le calendrier du parc du Centre, de l'approbation de sa création par le Yuan exécutif en septembre 2002 à l'ouverture aux entreprises en juillet 2003, l'arrivée d'AU Optronics et la production de masse en 2004, ainsi que l'organisation des cinq sites de Taichung, Houli, Huwei, Erlin et Zhongxing.
+
+[^15]: [Crise de soixante jours sans eau dans les parcs scientifiques pendant la grande sécheresse — TechNews](https://technews.tw/2021/02/25/nikki-science-park-60-days-without-water/) — Reportage sur la plus grave sécheresse en cinquante-six ans en 2021, lorsque le réservoir de Baoshan à Hsinchu tomba à 26 %, que l'Agence des ressources en eau avertit d'un épuisement en trente à soixante jours, et que TSMC, consommant 156 000 tonnes d'eau par jour, mobilisa des camions-citernes tout en atteignant un taux de recyclage de l'eau de procédé de 86,7 %.
+
+[^16]: [Controverse sur l'eau dans la troisième phase d'extension du parc du Sud — Environmental Information Center](https://e-info.org.tw/node/105200) — Reportage sur l'évaluation environnementale de la troisième phase d'extension du parc scientifique du Sud, où les besoins en eau passent de 200 000 à 250 000 tonnes par jour et proviennent entièrement de l'eau agricole, ainsi que sur les critiques des organisations environnementales à propos des transferts interrégionaux de ressources hydriques.
+
+[^17]: [Comment les entreprises taïwanaises peuvent répondre au mécanisme carbone aux frontières CBAM — EY Taïwan](https://www.ey.com/zh_tw/insights/tax/how-taiwan-government-and-business-should-prepare-for-cbam) — Analyse des effets de l'entrée en vigueur officielle en 2026 du mécanisme d'ajustement carbone aux frontières de l'Union européenne (CBAM), couvrant plus de deux cents produits d'exportation taïwanais, ainsi que de l'impact du retard taïwanais dans le déploiement des énergies renouvelables sur les engagements de neutralité carbone de l'industrie des semi-conducteurs.
+
+[^18]: [Pénurie de talents dans les semi-conducteurs et faible natalité — Global Views Monthly](https://www.gvm.com.tw/article/87135) — Reportage sur un déficit d'environ 34 000 talents dans l'industrie taïwanaise des semi-conducteurs, la pression de la faible natalité avec seulement 135 000 naissances en 2023, ainsi que les défis structurels que l'expansion des parcs scientifiques pose aux prix de l'immobilier et aux loyers dans des régions comme Hsinchu.
+
+[^19]: [Bouclier de silicium — Wikipédia](https://zh.wikipedia.org/zh-tw/矽盾) — Page présentant le concept de « bouclier de silicium » (Silicon Shield) proposé en 2001 par le journaliste australien Craig Addison, expliquant comment la position clé des semi-conducteurs taïwanais dans la chaîne d'approvisionnement mondiale forme un effet dissuasif de type « destruction économique mutuellement assurée ».
+
+[^20]: [La définition du bouclier de silicium passe d'un atout propre à Taïwan à une résilience commune États-Unis-Taïwan — TechNews](https://technews.tw/2025/09/30/silicon-shield-usa-taiwan/) — Reportage sur la controverse déclenchée en 2025 par l'idée américaine d'un « partage à 50-50 » de la fabrication de puces, citant l'analyse de Liu Pei-chen, de l'Institut taïwanais de recherche économique, selon laquelle les États-Unis transforment la définition du bouclier de silicium d'un atout propre à Taïwan vers une résilience commune États-Unis-Taïwan, ainsi que la réponse officielle de la vice-Première ministre Cheng Li-chun : « pas discuté, et ne sera pas accepté ».
+
+[^21]: [Le bouclier de silicium est-il renforcé ou dilué ? — United Daily News](https://udn.com/news/story/7240/9310882) — Reportage sur les arguments pour et contre l'effet du bouclier de silicium dans le contexte de l'expansion internationale de TSMC, citant la thèse du renforcement portée par le député Chen Kuan-ting, selon laquelle « les alliés du monde ne peuvent pas se passer de Taïwan comme partenaire central », et le point de vue ambivalent de l'ancien directeur de la R&D de TSMC, Yang Guang-lei, qui affirme que « la fuite technologique est un faux problème » tout en reconnaissant que « l'effet du bouclier de silicium va effectivement s'affaiblir ».
+
+[^22]: [Musée d'archéologie du parc scientifique du Sud, Musée national de la préhistoire de Taïwan — Wikipédia](https://zh.wikipedia.org/zh-tw/國立臺灣史前文化博物館南科考古館) — Page recensant les soixante-huit sites préhistoriques mis au jour lors du développement du parc du Sud, dont la culture de Dapenkeng vieille de cinq mille ans, la culture de Niuchouzi et des villages siraya, ainsi que l'architecture et l'histoire du musée d'archéologie du parc du Sud, conçu par Kris Yao et officiellement inauguré en octobre 2019.
+
+[^23]: [Analyse de la capitalisation de TSMC et de sa contribution économique — Economic Daily News](https://money.udn.com/money/story/5612/8636749) — Article citant les analyses de QIC, expliquant le poids de la capitalisation de TSMC dans l'indice boursier taïwanais et par rapport au produit intérieur brut de Taïwan, ainsi que l'ordre de grandeur de ses contributions en impôt sur les sociétés, dividendes et taxe sur les transactions, équivalentes à une proportion considérable du budget de la défense.
+
+[^24]: [Le bouclier de silicium de Taïwan, TSMC et la fabrication chinoise de puces — MIT Technology Review](https://www.technologyreview.com/2025/08/15/1121358/taiwan-silicon-shield-tsmc-china-chip-manufacturing/) — Reportage de 2025 du MIT Technology Review analysant les inquiétudes liées à la dilution de l'effet dissuasif du « bouclier de silicium » par l'expansion internationale de TSMC ; il souligne que Taïwan craint que les usines à l'étranger réduisent le sentiment d'urgence des autres pays quant au fait que l'île « mérite d'être défendue », et présente le ratio entre le nombre de fabs à Taïwan et à l'étranger ainsi que le principe d'exportation des procédés N-1.

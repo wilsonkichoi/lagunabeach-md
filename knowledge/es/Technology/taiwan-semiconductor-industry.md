@@ -23,10 +23,10 @@ lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/半導體產業.md'
-sourceCommitSha: '9c2bf6ef'
-sourceContentHash: 'sha256:115d98f6c5ac9a50'
-sourceBodyHash: 'sha256:52ef4b48467ab1f4'
-translatedAt: '2026-05-28T05:08:34+08:00'
+sourceCommitSha: '3951afb0'
+sourceContentHash: 'sha256:1f5e02f4a237b0ed'
+sourceBodyHash: 'sha256:c57a5c2dd34021cd'
+translatedAt: '2026-06-02T00:40:00+08:00'
 ---
 
 # Industria de semiconductores: 50 años de revolución de materiales desde la transferencia tecnológica de RCA hasta el nitruro de galio y el empaquetado cuántico
@@ -260,6 +260,7 @@ La montaña sagrada protectora conquistó el presente apoyada en 50 años de exp
 - [Industria robótica de Taiwán](/technology/台灣機器人產業) — ¿Por qué la isla número uno mundial en semiconductores llega como estudiante rezagado a la era robótica? Una mirada a la fractura industrial desde la inauguración de NCAIR
 - [Mercado bursátil y mercado de capitales de Taiwán](/economy/台灣股市與資本市場) — Cómo el ecosistema completo de cadena de suministro que sostiene a Taiwán como el sexto mercado bursátil mundial en 2026 se refleja en el mercado de capitales
 - [Taiwan AI Academy](/technology/台灣人工智慧學校) — Cómo los diez mil ingenieros de IA formados por AIA en ocho años regresan a la cadena ICT ya existente de semiconductores y refuerzan el lado software de Taiwán
+- [Computex: de las tres grandes ferias internacionales de computación, dos cerraron; la que queda crece en Taipéi](/technology/Computex) — El CoWoS y los procesos avanzados de TSMC se dan la mano cada finales de mayo con los gigantes globales de la IA en esta feria de computación de Taipéi de 45 años
 - [Parques científicos de Taiwán](/technology/科技園區發展) — Los tres parques de Hsinchu, Tainan y Taichung, soporte físico del clúster semiconductor y centro geográfico del escudo de silicio
 
 ## Fuentes de imágenes

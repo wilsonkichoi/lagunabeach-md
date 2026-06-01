@@ -23,10 +23,10 @@ lastVerified: '2026-05-19'
 lastHumanReview: 'true'
 featured: 'true'
 translatedFrom: 'Technology/半導體產業.md'
-sourceCommitSha: '9c2bf6ef'
-sourceContentHash: 'sha256:115d98f6c5ac9a50'
-sourceBodyHash: 'sha256:52ef4b48467ab1f4'
-translatedAt: '2026-05-28T05:08:34+08:00'
+sourceCommitSha: '3951afb0'
+sourceContentHash: 'sha256:1f5e02f4a237b0ed'
+sourceBodyHash: 'sha256:c57a5c2dd34021cd'
+translatedAt: '2026-06-02T00:40:00+08:00'
 ---
 
 # 半導体産業：RCA 技術移転から窒化ガリウムと量子封裝への50年の材料革命
@@ -260,6 +260,7 @@ Nokia 3310の充電器の出力は4.56ワット、2025年の急速充電器は24
 - [台湾ロボット産業](/technology/台灣機器人産業) —— 半導体世界一位の島が、なぜロボット時代に追い上げ組なのか。NCAIRの開幕から産業の断層を見る
 - [台湾株式市場と資本市場](/economy/台灣股市與資本市場) —— 2026年の世界第6位の台湾株式市場を支えるサプライチェーン全体のエコシステムが資本市場にどのように表れているか
 - [台湾人工知能学校](/technology/台灣人工智慧学校) —— AIAが8年間で育成した1万人のAIエンジニアーが、半導体既存のICTチェーンに戻り、台湾のソフトウェア側をどのように補強しているか
+- [Computex：三大国際コンピュータ展のうち2つは閉幕、残った1つは台北に根を張る](/technology/Computex) —— 台積電のCoWoSと先進プロセスが、毎年5月末にこの45歳の台北コンピュータ展で世界のAI巨頭と握手を交わす
 - [台湾科学工業園区](/technology/科技園區發展) —— 竹科・南科・中科の三つの園区、半導体集積の物理的基盤、そしてシリコン・シールドの地理的中心
 
 ## 画像出典

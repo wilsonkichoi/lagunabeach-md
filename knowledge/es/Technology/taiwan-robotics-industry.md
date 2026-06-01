@@ -20,10 +20,10 @@ lastVerified: 2026-04-11
 lastHumanReview: false
 featured: true
 translatedFrom: Technology/台灣機器人產業.md
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:1474f16951c52f9b'
-sourceBodyHash: 'sha256:e0fcab720b26db10'
-translatedAt: 2026-05-01T20:54:23+08:00
+sourceCommitSha: '38412654'
+sourceContentHash: 'sha256:727c897f10782c2b'
+sourceBodyHash: 'sha256:3b63599a42d7872a'
+translatedAt: '2026-06-02T00:40:00+08:00'
 category: Technology
 ---
 
@@ -145,6 +145,7 @@ La diferencia entre esas dos respuestas es la verdadera calificación de la indu
 - [Crisis de baja natalidad en Taiwán](/society/台灣少子化危機) — ¿Por qué el NCAIR puso el "cuidado a domicilio de personas mayores" en primer lugar? La respuesta está en la estructura demográfica
 - [Transformación y mejora industrial de Taiwán](/economy/台灣產業轉型升級) — Del ensamblaje por encargo a la marca propia, de los componentes a la integración de sistemas: el dilema estructural debatido repetidamente en las últimas dos décadas
 - [Industria de máquinas herramienta de Taiwán](/economy/台灣機械工具產業) — Las 1,500 empresas de maquinaria de precisión del Valle Dorado de Dadu Shan son la base de suministro superior para el hardware robótico
+- [Computex: de las tres grandes ferias internacionales de computación, dos cerraron; la que queda crece en Taipéi](/technology/Computex) — La edición de Computex 2026 destaca la "IA física" y la inteligencia encarnada: la cadena de suministro robótica de Taiwán pasa de ensamblar servidores de IA a ensamblar robots en este escenario anual
 
 ## Referencias
 

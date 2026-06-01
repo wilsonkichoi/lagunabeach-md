@@ -1,0 +1,69 @@
+---
+title: 'Grafiti callejero en Taiwán: de forajidos nocturnos a luces urbanas de Ximending'
+description: 'En 1989, Lu Xueyuan trazó la primera línea con aerosol en Minsheng East Road, inaugurando la historia subterránea del grafiti en Taiwán. Desde la leyenda urbana de Horumon Baby hasta la crítica social de Candy Bird, este juego de persecución de treinta años con la Oficina de Protección Ambiental está redefiniendo la estética urbana taiwanesa.'
+date: 2026-06-01
+author: 'Taiwan.md Contributors'
+category: 'Art'
+subcategory: '視覺藝術'
+tags: ['arte callejero', 'Horumon Baby', 'subcultura', 'espacio urbano']
+readingTime: 8
+lastVerified: 2026-06-01
+lastHumanReview: false
+featured: false
+translatedFrom: 'Art/街頭塗鴉.md'
+sourceCommitSha: 'edae9fc94'
+sourceContentHash: 'sha256:fe0060220b6915dc'
+sourceBodyHash: 'sha256:daf1424133334015'
+translatedAt: '2026-06-02T00:40:00+08:00'
+---
+
+> **Panorama en 30 segundos:**
+> A fines de la década de 1980, las calles de Taiwán comenzaron a mostrar colores no permitidos por la ley. Desde su origen como daño ilegal hasta la coexistencia legal actual en el Taipei Cinema Park de Ximending y en ocho parques ribereños, el grafiti refleja el aflojamiento del poder en la isla. No se trata solo de capas de pintura en aerosol, sino de una lucha prolongada sobre “quién posee el derecho de interpretar la calle”; en ella, “Horumon Baby”, con imágenes feas pero tiernas, logró transformar el arte callejero en una leyenda urbana de sabor marcadamente taiwanés.
+
+En 1989, junto a una fábrica militar abandonada en Minsheng East Road, Taipéi, apareció una enorme obra en aerosol de más de 60 metros de largo: fue la primera huella dejada por Lu Xueyuan, considerado el pionero del grafiti en Taiwán [^1]. En ese momento, Taiwán llevaba apenas dos años desde el levantamiento de la ley marcial; la sociedad estaba cargada de inquietud y de tanteos frente al sistema, y el grafiti era, en aquella época, algo puramente fuera de la ley. Más de treinta años después, las mismas latas de aerosol aparecen en listas de invitados para exhibiciones y presentaciones legales: el artista de grafiti “Horumon Baby” pasó de ser un “destructor de bienes públicos” multado por la Oficina de Protección Ambiental a convertirse en un creador representativo de la ciudad.
+
+### Síndrome del intestino irritable y leyenda urbana: la estética de lo “feo” de Horumon Baby
+
+En cajas eléctricas, vallas de construcción o esquinas de callejones de Taipéi, suele verse al “bebé Horumon Baby”, una figura de líneas simples, con flequillo QQ y una sonrisa misteriosa. Este símbolo, considerado una de las cuatro grandes leyendas callejeras de Taipéi, surgió de la transformación humorística que su creador, Horumon Baby (CYH Jason), hizo de su propio “síndrome del intestino irritable” [^9]. Estudió en Estados Unidos en un área vinculada al arte, pero al regresar a Taiwán eligió como escenario la calle, el espacio más “low” [^9].
+
+📝 Nota curatorial: El éxito de Horumon Baby radica en su rechazo de lo refinado; con una forma blanda, desprolija y auténticamente “taiwanesa”, desmanteló los muros elevados del arte.
+
+Horumon Baby declaró con franqueza en una entrevista: “El arte en sí no tiene jerarquías; mientras haya ideas buenas y nuevas, originalidad e imaginación, es una buena obra de arte” [^3]. Busca deliberadamente un equilibrio de “feo pero adorable” (kimokawaii), y transforma imágenes de alimentos locales como los fideos con intestino grueso o el intestino grueso envuelto en intestino delgado en una marca visual que reivindica “#productos locales de Taiwán” [^3]. Esta postura antielitista hizo que sus obras detonaran en Instagram una fiebre ciudadana por “capturar” bebés en la calle.
+
+### Del margen social al cubo blanco: los recorridos de Reach y Candy Bird
+
+Si Horumon Baby es el humorista de la calle, Reach y Candy Bird representan otros dos extremos del grafiti taiwanés. Reach, que comenzó a acercarse al grafiti en 1995, fue pionero en vincular el grafiti taiwanés con el comercio: combinó sus líneas minimalistas de “mano de gato” con marcas como Nike y G-Shock, demostrando que el grafiti podía pasar de la calle a las galerías y los centros comerciales [^4].
+
+En contraste, las obras de Candy Bird están cargadas de una densa preocupación social. Desde 2010 utiliza el grafiti para transmitir perspectivas ignoradas por la corriente dominante; pinta en las grietas de los márgenes urbanos con la intención de practicar la resistencia social entre el acero y el cemento [^5].
+
+📝 Nota curatorial: En Taiwán, el grafiti no es solo decoración; es un registro de “combate cuerpo a cuerpo” de distintas generaciones frente a la realidad social.
+
+### Multas y zonas legales: coexistencia y forcejeo con el sistema
+
+El grafiti en Taiwán siempre ha permanecido en una zona gris legal. El grafiti no autorizado infringe el artículo 27 de la Ley de Eliminación de Residuos y, según el artículo 50 de la misma ley, puede ser sancionado con multas de entre 1.200 y 6.000 nuevos dólares taiwaneses [^6]. Horumon Baby fue multado con decenas de miles de dólares por la Oficina de Protección Ambiental debido a obras aparecidas en zonas no habilitadas.
+
+Para equilibrar el paisaje urbano y el derecho a crear, el Gobierno de la Ciudad de Taipéi abrió actualmente ocho parques ribereños, como Yingfeng, Meiti y Guanshan, como zonas legales para el grafiti [^6]. Además, el “Taipei Cinema Park” de Ximending cuenta con el muro legal de grafiti más grande de Taiwán, cuya superficie es recreada cada año por distintos artistas [^8].
+
+### Un final contradictorio: ¿la ciudad de quién?
+
+Cuando el grafiti queda domesticado dentro de zonas legales, ¿conserva todavía su alma rebelde original? Este es el mayor desafío que enfrenta el arte callejero taiwanés. El grafiti actual en Taiwán se encuentra en una intersección contradictoria: por un lado, los artistas reciben el favor de marcas internacionales y las invitaciones del gobierno; por otro, el aerosol “ilegal” que juega al gato y al ratón con la Oficina de Protección Ambiental en plena noche sigue siendo la fuente más central de vitalidad de esta cultura.
+
+📝 Nota curatorial: El mejor grafiti siempre aparece donde menos debería aparecer; es una recuperación momentánea de la soberanía sobre el espacio.
+
+Desde aquel muro de Minsheng East Road en 1989 hasta hoy, el grafiti taiwanés pasó de ser una forma de “ruido” a convertirse en parte de la ciudad. Ya no es solo una descarga de ira, sino un espejo que refleja el proceso mediante el cual esta isla oscila y tantea, una y otra vez, entre la ley, la estética y la libertad.
+
+## Referencias
+
+[^1]: WowLavie, [¡La contraofensiva de los artistas taiwaneses de grafiti Reach y Blake! Un estilo que va de la calle a la creación diversa](https://www.wowlavie.com/article/ae1902012)
+
+[^3]: Heaven Raven, [Entrevista al artista de grafiti Horumon Baby: el interior del intestino grueso es excremento, y el arte también.](https://www.heavenraven.com/2021/02/18/taiwan-graffiti-artist-horumonbaby426-interview/)
+
+[^4]: BeautyMode, [¿Está mal que la cultura callejera se vuelva comercial? Reach, pionero del grafiti taiwanés](https://www.beautimode.com/article/content/86906/)
+
+[^5]: Archivo de Arte Contemporáneo de Taiwán, [Candy Bird](https://tcaaarchive.org/Artist/Detail/69b3c7a50e2b30c545ccc22b)
+
+[^6]: Oficina de Protección Ambiental del Gobierno de la Ciudad de Taipéi, [¡El grafiti ilegal puede recibir multas de hasta 6.000 dólares! Lista de 14 muros legales de grafiti en Taipéi](https://newtalk.tw/news/view/2019-11-27/332344)
+
+[^8]: Departamento de Información y Turismo del Gobierno de la Ciudad de Taipéi, [La integración de sitios históricos y arte posmoderno: “Arte sin fin” te lleva a recorrer el Taipei Cinema Park](https://www.tpedoit.gov.taipei/ct.asp?xItem=238721969&ctNode=13246&mp=112001)
+
+[^9]: Hatsumimi, [Sacar el intenso sabor taiwanés de entre los pliegues: amigo artista de Hatsumimi, Horumon Baby](https://hatsumimi-mag.com/2021/08/05/friendoftheartist011/)

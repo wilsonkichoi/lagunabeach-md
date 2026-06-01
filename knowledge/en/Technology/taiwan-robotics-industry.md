@@ -21,10 +21,10 @@ featured: true
 lastVerified: 2026-04-11
 lastHumanReview: false
 translatedFrom: 'Technology/台灣機器人產業.md'
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:1474f16951c52f9b'
-sourceBodyHash: 'sha256:e0fcab720b26db10'
-translatedAt: '2026-05-01T13:19:11+08:00'
+sourceCommitSha: '38412654'
+sourceContentHash: 'sha256:727c897f10782c2b'
+sourceBodyHash: 'sha256:3b63599a42d7872a'
+translatedAt: '2026-06-02T00:40:00+08:00'
 category: Technology
 ---
 
@@ -146,6 +146,7 @@ The difference between those two answers is Taiwan's robotics industry's real re
 - [Taiwan's Declining Birthrate Crisis](/society/台灣少子化危機) — Why NCAIR places "home eldercare" in the top priority? The answer is in demographic structure
 - [Taiwan's Industrial Transformation and Upgrading](/economy/台灣產業轉型升級) — From OEM to brand, from components to system integration — a structural challenge that has been discussed for the past twenty years without resolution
 - [Taiwan's Machine Tool Industry](/economy/台灣機械工具產業) — The 1,500 precision machinery companies in the Taichung "Golden Valley" are the upstream foundation of robotics hardware
+- [Computex: Two of the Three International Computer Shows Are Gone, and the One That Remains Grew in Taipei](/technology/Computex) — Computex 2026 spotlights "physical AI" and embodied intelligence, where Taiwan's robotics supply chain extends from assembling AI servers to assembling robots as the annual showcase
 
 ## References
 

@@ -13,10 +13,10 @@ lastVerified: 2026-05-02
 lastHumanReview: false
 category: 'Technology'
 translatedFrom: 'Technology/台灣機器人產業.md'
-sourceCommitSha: 'f99a9959'
-sourceContentHash: 'sha256:1474f16951c52f9b'
-sourceBodyHash: 'sha256:e0fcab720b26db10'
-translatedAt: '2026-05-02T10:00:00+08:00'
+sourceCommitSha: '38412654'
+sourceContentHash: 'sha256:727c897f10782c2b'
+sourceBodyHash: 'sha256:3b63599a42d7872a'
+translatedAt: '2026-06-02T00:40:00+08:00'
 ---
 
 # 台湾ロボット産業
@@ -137,6 +137,7 @@ NCAIRの200億と頼清徳の「技術の島」のビジョンの背後にある
 - [台灣少子化危機](/society/台灣少子化危機) — なぜNCAIRは「家庭長期介護」を首位に置くのか。答えは人口構造に
 - [台灣產業轉型升級](/economy/台灣產業轉型升級) — 受託製造からブランドへ、部品からシステム統合へ。過去20年に何度も語られた構造的難題
 - [台灣機械工具產業](/economy/台灣機械工具產業) — 大肚山ゴールデンバレーの1,500社の精密機械メーカーは、ロボット・ハードウェアの上流の根
+- [Computex：三大国際コンピュータ展のうち2つは閉幕、残った1つは台北に根を張る](/technology/Computex) — 2026年のComputexは「フィジカルAI」と身体性知能を主軸に。台湾のロボット・サプライチェーンは、AIサーバーを組み立てるところからロボットを組み立てるところまで延伸する年次展示の舞台となる
 
 ## 参考資料
 

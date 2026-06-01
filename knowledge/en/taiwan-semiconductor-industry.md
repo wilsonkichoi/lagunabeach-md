@@ -23,10 +23,10 @@ lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/半導體產業.md'
-sourceCommitSha: '9c2bf6ef'
-sourceContentHash: 'sha256:115d98f6c5ac9a50'
-sourceBodyHash: 'sha256:52ef4b48467ab1f4'
-translatedAt: '2026-05-28T05:08:33+08:00'
+sourceCommitSha: '3951afb0'
+sourceContentHash: 'sha256:1f5e02f4a237b0ed'
+sourceBodyHash: 'sha256:c57a5c2dd34021cd'
+translatedAt: '2026-06-02T00:40:00+08:00'
 ---
 
 # Semiconductor Industry: Fifty Years of Materials Revolution from RCA Technology Transfer to Gallium Nitride and Quantum Packaging
@@ -260,6 +260,7 @@ The sacred mountain protecting the nation has dominated the present through fift
 - [Taiwan's Robotics Industry](/technology/台灣機器人產業) — Why is the island that leads the world in semiconductors catching up in the robotics era? Reading the industrial gap from the opening of NCAIR
 - [Taiwan's Stock Market and Capital Markets](/economy/台灣股市與資本市場) — How the entire supply-chain ecosystem supporting Taiwan's status as the world's sixth-largest stock market in 2026 appears in capital markets
 - [Taiwan Artificial Intelligence School](/technology/台灣人工智慧學校) — How the ten thousand AI engineers trained by AIA over eight years return to the existing semiconductor and ICT chain and strengthen Taiwan's software side
+- [Computex: Two of the Three International Computer Shows Are Gone, and the One That Remains Grew in Taipei](/technology/Computex) — TSMC's CoWoS and advanced process nodes shake hands with the world's AI giants every late May at this 45-year-old Taipei computer show
 - [Taiwan Science Parks](/technology/科技園區發展) — Hsinchu, Tainan, and Taichung Science Parks: the physical substrate of semiconductor clusters and the geographic center of the silicon shield
 
 ## Image Sources

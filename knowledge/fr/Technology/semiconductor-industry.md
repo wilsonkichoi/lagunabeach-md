@@ -23,10 +23,10 @@ lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/半導體產業.md'
-sourceCommitSha: '9c2bf6ef'
-sourceContentHash: 'sha256:115d98f6c5ac9a50'
-sourceBodyHash: 'sha256:52ef4b48467ab1f4'
-translatedAt: '2026-05-28T05:08:35+08:00'
+sourceCommitSha: '3951afb0'
+sourceContentHash: 'sha256:1f5e02f4a237b0ed'
+sourceBodyHash: 'sha256:c57a5c2dd34021cd'
+translatedAt: '2026-06-02T00:40:00+08:00'
 ---
 
 # Industrie des semi-conducteurs : cinquante ans de révolution des matériaux, du transfert technologique de RCA au nitrure de gallium et au packaging quantique
@@ -260,6 +260,7 @@ La montagne sacrée qui protège Taïwan a dominé le présent grâce à cinquan
 - [Industrie robotique taïwanaise](/technology/台灣機器人產業) — pourquoi l’île numéro un mondiale des semi-conducteurs est-elle en rattrapage à l’ère robotique ? Lecture des fractures industrielles à partir de l’inauguration du NCAIR
 - [Marché boursier et marché des capitaux de Taïwan](/economy/台灣股市與資本市場) — comment l’écosystème complet de chaîne d’approvisionnement, qui soutient en 2026 le sixième marché boursier mondial, se reflète sur les marchés de capitaux
 - [Taiwan AI Academy](/technology/台灣人工智慧學校) — comment les dix mille ingénieurs IA formés en huit ans par l’AIA reviennent dans la chaîne ICT existante des semi-conducteurs pour renforcer le versant logiciel de Taïwan
+- [Computex : sur les trois grands salons informatiques internationaux, deux ont disparu, et celui qui reste pousse à Taipei](/technology/Computex) — le CoWoS et les procédés avancés de TSMC serrent la main des géants mondiaux de l’IA chaque fin mai, sur ce salon informatique de Taipei vieux de 45 ans
 - [Parcs scientifiques de Taïwan](/technology/科技園區發展) — les parcs de Hsinchu, Tainan et Taichung, support physique des clusters de semi-conducteurs et centre géographique du bouclier de silicium
 
 ## Sources des images
