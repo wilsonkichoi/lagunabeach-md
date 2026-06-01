@@ -122,7 +122,10 @@ jobs:
         id: playwright-cache
         with:
           path: ~/.cache/ms-playwright
-          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          # runner.arch in key: runner.os 對 arm64/x64 ubuntu 都是 "Linux"，少了 arch
+          # → 切 runner 架構時會 restore 錯架構的 browser cache 且 cache-hit=true 跳過安裝
+          # → 找不到對應架構的 chrome-headless-shell。2026-06-01 ARM→x86 hotfix 暴露此 latent bug。
+          key: playwright-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('package-lock.json') }}
       - name: Install Playwright system deps (always)
         timeout-minutes: 5
         run: npx --no-install playwright install-deps chromium
