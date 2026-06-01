@@ -7,12 +7,18 @@
  * github-only fallback,永遠不讓 feedback 的錯誤影響主站。lazy auth：先讓讀者打字,
  * 按送出才要求登入。draft 在 OAuth redirect 前存 sessionStorage,回來自動續。
  */
-import type { FeedbackBackend, FeedbackType, FeedbackUser } from './types';
+import type {
+  FeedbackBackend,
+  FeedbackType,
+  FeedbackUser,
+  OAuthProvider,
+} from './types';
 import { getStrings, type FeedbackStrings } from './i18n';
 import { createBackend } from './backend';
 import {
   resolveBackendKind,
   GITHUB_NEW_ISSUE_URL,
+  FEEDBACK_PROVIDERS,
 } from '../../config/feedback.mjs';
 
 const DRAFT_KEY = 'twmd_fb_pending_draft';
@@ -262,16 +268,34 @@ class Widget {
 
   private renderAuth(): void {
     const t = this.t;
+    const oauthProviders = FEEDBACK_PROVIDERS.filter(
+      (p) => p === 'google' || p === 'github',
+    ) as OAuthProvider[];
+    const hasEmail = FEEDBACK_PROVIDERS.includes('email');
+    const labels: Record<OAuthProvider, string> = {
+      google: t.google,
+      github: t.github,
+    };
+    const marks: Record<OAuthProvider, string> = { google: 'G', github: '' };
+    const oauthBtns = oauthProviders
+      .map(
+        (p) =>
+          `<button type="button" class="twmd-fb-primary twmd-fb-oauth twmd-fb-oauth--${p}" data-oauth="${p}">
+            <span class="twmd-fb-oauth-mark" aria-hidden="true">${marks[p]}</span> ${esc(labels[p])}
+          </button>`,
+      )
+      .join('');
+    const emailBlock = hasEmail
+      ? `<div class="twmd-fb-or"><span></span></div>
+        <input type="email" class="twmd-fb-input" data-email placeholder="${esc(t.emailPlaceholder)}" autocomplete="email" />
+        <button type="button" class="twmd-fb-secondary" data-emailbtn>${esc(t.emailSend)}</button>`
+      : '';
     this.panel.innerHTML =
       this.header(t.authTitle) +
       `<div class="twmd-fb-body">
         <p class="twmd-fb-intro">${esc(t.authIntro)}</p>
-        <button type="button" class="twmd-fb-primary twmd-fb-google" data-google>
-          <span aria-hidden="true">G</span> ${esc(t.google)}
-        </button>
-        <div class="twmd-fb-or"><span></span></div>
-        <input type="email" class="twmd-fb-input" data-email placeholder="${esc(t.emailPlaceholder)}" autocomplete="email" />
-        <button type="button" class="twmd-fb-secondary" data-emailbtn>${esc(t.emailSend)}</button>
+        ${oauthBtns}
+        ${emailBlock}
         <p class="twmd-fb-msg" data-msg hidden></p>
         <button type="button" class="twmd-fb-link" data-back>← ${esc(t.back)}</button>
       </div>`;
@@ -280,42 +304,45 @@ class Widget {
       .querySelector('[data-back]')
       ?.addEventListener('click', () => this.renderForm());
 
-    this.panel
-      .querySelector('[data-google]')
-      ?.addEventListener('click', async () => {
+    this.panel.querySelectorAll('[data-oauth]').forEach((btn) =>
+      btn.addEventListener('click', async () => {
+        const provider = (btn as HTMLElement).dataset.oauth as OAuthProvider;
         this.stashDraft();
         try {
-          await this.backend!.signInWithGoogle();
+          await this.backend!.signInWithOAuth(provider);
           // supabase 會 redirect 離開；mock 不會 → 直接續。
           await this.afterMaybeInlineLogin();
         } catch (e) {
           this.showMsg(this.t.errorBody);
         }
-      });
+      }),
+    );
 
-    const emailInput = this.panel.querySelector(
-      '[data-email]',
-    ) as HTMLInputElement;
-    this.panel
-      .querySelector('[data-emailbtn]')
-      ?.addEventListener('click', async () => {
-        const email = emailInput.value.trim();
-        if (!/.+@.+\..+/.test(email)) {
-          this.showMsg(this.t.emailPlaceholder);
-          return;
-        }
-        this.stashDraft();
-        try {
-          const { sent } = await this.backend!.signInWithEmail(email);
-          if (sent) {
-            this.showMsg(this.t.emailSent); // 等使用者去收信點連結
-          } else {
-            await this.afterMaybeInlineLogin(); // mock：已登入,續
+    if (hasEmail) {
+      const emailInput = this.panel.querySelector(
+        '[data-email]',
+      ) as HTMLInputElement;
+      this.panel
+        .querySelector('[data-emailbtn]')
+        ?.addEventListener('click', async () => {
+          const email = emailInput.value.trim();
+          if (!/.+@.+\..+/.test(email)) {
+            this.showMsg(this.t.emailPlaceholder);
+            return;
           }
-        } catch (e) {
-          this.showMsg(this.t.errorBody);
-        }
-      });
+          this.stashDraft();
+          try {
+            const { sent } = await this.backend!.signInWithEmail(email);
+            if (sent) {
+              this.showMsg(this.t.emailSent); // 等使用者去收信點連結
+            } else {
+              await this.afterMaybeInlineLogin(); // mock：已登入,續
+            }
+          } catch (e) {
+            this.showMsg(this.t.errorBody);
+          }
+        });
+    }
   }
 
   private async afterMaybeInlineLogin(): Promise<void> {

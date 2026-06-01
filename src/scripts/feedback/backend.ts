@@ -11,6 +11,7 @@ import type {
   FeedbackBackend,
   FeedbackDraft,
   FeedbackUser,
+  OAuthProvider,
   SubmitResult,
 } from './types';
 import { resolveDisplayName } from './types';
@@ -70,11 +71,14 @@ class MockBackend implements FeedbackBackend {
       : 'mock-' + Math.abs(Date.now()).toString(36);
   }
 
-  async signInWithGoogle(): Promise<void> {
+  async signInWithOAuth(provider: OAuthProvider): Promise<void> {
     const rec: MockUserRecord = {
       uid: this.uuid(),
-      email: 'tester.google@gmail.com',
-      oauthName: 'Google 測試者',
+      email:
+        provider === 'github'
+          ? 'tester@users.noreply.github.com'
+          : 'tester.google@gmail.com',
+      oauthName: provider === 'github' ? 'GitHub 測試者' : 'Google 測試者',
     };
     localStorage.setItem(LS_USER, JSON.stringify(rec));
   }
@@ -183,9 +187,9 @@ class SupabaseBackend implements FeedbackBackend {
     };
   }
 
-  async signInWithGoogle(): Promise<void> {
+  async signInWithOAuth(provider: OAuthProvider): Promise<void> {
     await this.sb.auth.signInWithOAuth({
-      provider: 'google',
+      provider,
       options: { redirectTo: location.href },
     });
     // OAuth 會 redirect 離開頁面；回來後 detectSessionInUrl 還原 session。

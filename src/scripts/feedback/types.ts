@@ -4,6 +4,9 @@
 
 export type FeedbackType = 'content' | 'bug' | 'newtopic';
 
+/** OAuth 登入提供者（email magic-link 走另一條路，不在此列）。 */
+export type OAuthProvider = 'google' | 'github';
+
 /** 登入後拿到的使用者。email 一定有（goal: 帳號至少要拿到 email）。 */
 export interface FeedbackUser {
   uid: string;
@@ -40,8 +43,8 @@ export interface FeedbackBackend {
   /** 載入 SDK / 還原 session。拋錯 = widget 降級成 github-only。 */
   init(): Promise<void>;
   currentUser(): Promise<FeedbackUser | null>;
-  /** Google OAuth（正式：redirect；mock：即時登入）。 */
-  signInWithGoogle(): Promise<void>;
+  /** OAuth 登入（google / github）。正式：redirect；mock：即時登入。 */
+  signInWithOAuth(provider: OAuthProvider): Promise<void>;
   /** Email 登入（正式：寄 magic-link / OTP；mock：即時登入）。回傳是否已寄出。 */
   signInWithEmail(email: string): Promise<{ sent: boolean }>;
   /** 設定暱稱（留空 → 用帳號代替）。 */

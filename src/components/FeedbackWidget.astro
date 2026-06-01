@@ -227,17 +227,25 @@ const url =
   .twmd-fb-primary:not(:disabled):hover {
     background: #14302a;
   }
-  .twmd-fb-google {
+  .twmd-fb-oauth--google {
     background: #fff;
     color: #1f2937;
     border: 1px solid rgba(0, 0, 0, 0.18);
   }
-  .twmd-fb-google span {
+  .twmd-fb-oauth--google .twmd-fb-oauth-mark {
     font-weight: 800;
     color: #4285f4;
   }
-  .twmd-fb-google:hover {
+  .twmd-fb-oauth--google:hover {
     background: #f9fafb;
+  }
+  .twmd-fb-oauth--github {
+    background: #1f2937;
+    color: #fff;
+    border: 1px solid #1f2937;
+  }
+  .twmd-fb-oauth--github:hover {
+    background: #0d1117;
   }
   .twmd-fb-secondary {
     padding: 0.55rem 0.8rem;
@@ -319,7 +327,7 @@ const url =
   html[data-theme='dark'] .twmd-fb-input,
   html[data-theme='dark'] .twmd-fb-textarea,
   html[data-theme='dark'] .twmd-fb-secondary,
-  html[data-theme='dark'] .twmd-fb-google {
+  html[data-theme='dark'] .twmd-fb-oauth--google {
     background: #1f2937;
     color: #e5e7eb;
     border-color: rgba(255, 255, 255, 0.14);

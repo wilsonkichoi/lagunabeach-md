@@ -23,6 +23,7 @@ export interface FeedbackStrings {
   authTitle: string;
   authIntro: string;
   google: string;
+  github: string;
   emailPlaceholder: string;
   emailSend: string;
   emailSent: string;
@@ -59,6 +60,7 @@ const en: FeedbackStrings = {
   authTitle: 'Sign in to send',
   authIntro: 'One step so we can follow up on your feedback.',
   google: 'Continue with Google',
+  github: 'Continue with GitHub',
   emailPlaceholder: 'you@example.com',
   emailSend: 'Email me a sign-in link',
   emailSent: 'Check your inbox for the sign-in link.',
@@ -93,6 +95,7 @@ const zhTW: FeedbackStrings = {
   authTitle: '登入後送出',
   authIntro: '一個步驟,讓我們能追蹤你的回饋。',
   google: '用 Google 繼續',
+  github: '用 GitHub 繼續',
   emailPlaceholder: 'you@example.com',
   emailSend: '寄登入連結給我',
   emailSent: '登入連結寄出了,去收信箱點一下。',
@@ -127,6 +130,7 @@ const ja: FeedbackStrings = {
   authTitle: 'ログインして送信',
   authIntro: 'フィードバックを追跡するための一手間です。',
   google: 'Google で続ける',
+  github: 'GitHub で続ける',
   emailPlaceholder: 'you@example.com',
   emailSend: 'ログインリンクを送る',
   emailSent: 'メールのログインリンクを確認してください。',
@@ -161,6 +165,7 @@ const ko: FeedbackStrings = {
   authTitle: '로그인 후 제출',
   authIntro: '피드백을 추적하기 위한 한 단계입니다.',
   google: 'Google로 계속',
+  github: 'GitHub로 계속',
   emailPlaceholder: 'you@example.com',
   emailSend: '로그인 링크 보내기',
   emailSent: '메일함에서 로그인 링크를 확인하세요.',
@@ -195,6 +200,7 @@ const es: FeedbackStrings = {
   authTitle: 'Inicia sesión para enviar',
   authIntro: 'Un paso para poder dar seguimiento a tus comentarios.',
   google: 'Continuar con Google',
+  github: 'Continuar con GitHub',
   emailPlaceholder: 'tu@ejemplo.com',
   emailSend: 'Envíame un enlace de acceso',
   emailSent: 'Revisa tu correo para el enlace de acceso.',
@@ -230,6 +236,7 @@ const fr: FeedbackStrings = {
   authTitle: 'Connectez-vous pour envoyer',
   authIntro: 'Une étape pour pouvoir suivre votre retour.',
   google: 'Continuer avec Google',
+  github: 'Continuer avec GitHub',
   emailPlaceholder: 'vous@exemple.com',
   emailSend: 'Envoyez-moi un lien de connexion',
   emailSent: 'Vérifiez votre boîte mail pour le lien de connexion.',

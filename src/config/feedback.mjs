@@ -27,7 +27,7 @@ export const SUPABASE_ANON_KEY = env.PUBLIC_SUPABASE_ANON_KEY || '';
 
 /** 啟用哪些登入方式（順序 = UI 顯示順序）。email 一定保底（拿得到 email + 無需外部 OAuth app）。 */
 export const FEEDBACK_PROVIDERS = (
-  env.PUBLIC_FEEDBACK_PROVIDERS || 'google,email'
+  env.PUBLIC_FEEDBACK_PROVIDERS || 'google,github,email'
 )
   .split(',')
   .map((s) => s.trim())
