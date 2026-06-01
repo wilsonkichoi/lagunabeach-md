@@ -565,3 +565,62 @@ triage 處理每筆回報時,除了開 issue,**回寫一行 `triage_note`**（AI
 ---
 
 _v3 supplement｜2026-06-01｜哲宇 directive「參考 Grokipedia,看變更史,進化 taiwan.md」。閉環可見性:我的回報 + AI 回饋透明 + 修訂史 surface。實作見同 session commits。_
+
+---
+
+---
+
+# 第三階段：git 主權 + 完整測試 + GA 數據驅動（2026-06-01 哲宇 directive）
+
+> 哲宇 directive：「外掛 feedback 結構下盡可能保存資訊在 git repo + 完整 unit/UX test + 全面 GA 追蹤事件互動用數據驅動自我進化飛輪。」
+
+## P3.1 git 主權層（資訊保存在 repo）
+
+**問題**：feedback live 在外掛 Supabase；BaaS 死/鎖/降級 = 回報 + 溝通史全丟。
+**解**：triage 每跑把 canonical 紀錄落進 git（per MANIFESTO 知識在 git / 分散式不可殺滅）。
+
+- `scripts/feedback/lib/archive.mjs`（純函式）：`buildArchiveRecord` + `mergeComments` + `archiveRelPath`。
+- triage `--commit`：每筆 filed → `docs/feedback/archive/{YYYY-MM}/{id}.md`；掃既有 archive →
+  issue 新留言（含維護者回覆）sync 進 §溝通紀錄（marker 去重、idempotent）。
+- **PII 鐵律**：只存 `contributor`（display_name），**email 永不進 git**（unit test regex 守）。
+- routine 收官 `git add docs/feedback/archive/`（pipeline §Stage 4.5 + skill HG9）。
+- 效果：Supabase 全毀，repo 裡仍有每筆回報 + 完整 issue 對話，可 `git log`/diff/grep/匯出。
+
+## P3.2 GA4 數據驅動（事件 → 自我進化飛輪）
+
+`src/scripts/feedback/track.ts`（safe gtag wrapper,對齊 Layout `G-JGC5W00N7T` + HomeEventTracker）。
+widget 全程 8 事件（stable taxonomy）：
+
+| 事件                      | params                                   | 回答什麼                   |
+| ------------------------- | ---------------------------------------- | -------------------------- |
+| `feedback_open`           | source(fab/selection), page_kind         | 哪種入口、哪種頁面觸發回報 |
+| `feedback_selection_pill` | page_kind                                | 選文段標註被用多少         |
+| `feedback_type_select`    | type, page_kind                          | 讀者最常回報哪類           |
+| `feedback_login`          | provider, page_kind                      | 哪種登入摩擦最低           |
+| `feedback_submit`         | type, page_kind, has_quote, login_method | 完成轉換率 + 選文段比例    |
+| `feedback_done`           | type, page_kind                          | 完成                       |
+| `feedback_my_view`        | —                                        | 閉環可見性被用多少         |
+| `feedback_degraded`       | reason                                   | 降級率（BaaS 健康 proxy）  |
+
+**飛輪接點**：事件流進 GA4 → `twmd-news-lens` / EVOLVE routine 讀 `dashboard-analytics.json` →
+知道「哪類回報多 / 哪頁互動高 / 哪種登入順」→ 回頭校正 widget + 內容優先序。對齊 §受眾端飛輪。
+
+## P3.3 完整測試覆蓋
+
+| 層     | 檔                                  | 內容                                                                                                       | 數       |
+| ------ | ----------------------------------- | ---------------------------------------------------------------------------------------------------------- | -------- |
+| Unit   | `scripts/feedback/triage.test.mjs`  | classify / spam / dedupe / type / quote / idea / no-email / triage_note                                    | 18       |
+| Unit   | `scripts/feedback/archive.test.mjs` | archive builder / mergeComments idempotent / no-email                                                      | 6        |
+| **UX** | `tests/feedback/widget.uxtest.mjs`  | Playwright chromium 全流程：FAB→chips→選文段→pill→quote→lazy auth→3 provider→GitHub 跳暱稱→submit→我的回報 | 10 check |
+
+`npm run feedback:test`（24 unit）+ `npm run feedback:uxtest`（10 UX browser）。全綠。
+
+## P3.4 §自主權邊界 / 失敗域再確認
+
+- git archive：AI 機械轉錄（輸入端）,維護者回覆仍人類 gate（archive 只是把已公開的 issue 對話 mirror 進 git）。✅
+- GA：純讀者行為遙測,無 PII（不送 email/body,只送 type/page_kind/provider 等維度）。✅
+- 全部仍在 feedback 子系統 + cron,主站零改動,degrade 不變。✅
+
+---
+
+_第三階段 supplement｜2026-06-01｜git 主權 archive + GA 8 事件 + 24 unit/10 UX test。實作見同 session commits + go-live log。_

@@ -16,6 +16,7 @@ import type {
 } from './types';
 import { getStrings, type FeedbackStrings } from './i18n';
 import { createBackend } from './backend';
+import { track } from './track';
 import {
   resolveBackendKind,
   GITHUB_NEW_ISSUE_URL,
@@ -69,6 +70,7 @@ export async function initFeedbackWidget(): Promise<void> {
 
     // github-only：純靜態,按鈕直接連 GitHub issue chooser,不載 backend。
     if (kind === 'github-only') {
+      track('degraded', { reason: 'github-only' });
       renderGithubOnlyButton(root, t);
       return;
     }
@@ -113,6 +115,8 @@ class Widget {
   private open = false;
   /** 選文段標註（article 頁）。設了 → 表單顯示 quote，送出用 anchorUrl 當 source。 */
   private selection: { quote: string; anchorUrl: string } | null = null;
+  /** 本 session 登入方式（GA submit 事件用）。 */
+  private loginMethod = '';
 
   constructor(
     private root: HTMLElement,
@@ -166,6 +170,8 @@ class Widget {
 
   /** 選文段觸發：開面板 + 預填 content + quote + 深連結。 */
   openWithSelection(quote: string, anchorUrl: string): void {
+    track('selection_pill', { page_kind: this.ctx.pageKind });
+    track('open', { source: 'selection', page_kind: this.ctx.pageKind });
     this.selection = { quote, anchorUrl };
     this.draft = { type: 'content', body: '', correctInfo: '', quote };
     this.open = true;
@@ -234,6 +240,7 @@ class Widget {
     this.panel.hidden = !this.open;
     if (this.open) {
       this.selection = null; // FAB 開啟 = 一般回饋（非選文段）
+      track('open', { source: 'fab', page_kind: this.ctx.pageKind });
       this.renderForm(); // 先畫，避免等待
       await this.ensureBackend(); // 取回 this.user
       if (this.open) this.renderForm(); // 登入態確定後重畫（顯示「我的回報」入口）
@@ -318,6 +325,10 @@ class Widget {
     this.panel.querySelectorAll('.twmd-fb-chip').forEach((c) =>
       c.addEventListener('click', () => {
         this.draft.type = (c as HTMLElement).dataset.type as FeedbackType;
+        track('type_select', {
+          type: this.draft.type,
+          page_kind: this.ctx.pageKind,
+        });
         this.panel.querySelectorAll('.twmd-fb-chip').forEach((x) => {
           const on = x === c;
           x.classList.toggle('is-on', on);
@@ -339,6 +350,7 @@ class Widget {
   /** v3：「我的回報」列表（狀態 + issue 連結 + AI 初判理由）。 */
   private async renderMyFeedback(): Promise<void> {
     const t = this.t;
+    track('my_view', {});
     this.panel.innerHTML =
       this.header(t.myFeedback) +
       `<div class="twmd-fb-body"><div class="twmd-fb-spin" aria-hidden="true"></div></div>`;
@@ -433,6 +445,8 @@ class Widget {
     this.panel.querySelectorAll('[data-oauth]').forEach((btn) =>
       btn.addEventListener('click', async () => {
         const provider = (btn as HTMLElement).dataset.oauth as OAuthProvider;
+        this.loginMethod = provider;
+        track('login', { provider, page_kind: this.ctx.pageKind });
         this.stashDraft();
         try {
           await this.backend!.signInWithOAuth(provider);
@@ -456,6 +470,8 @@ class Widget {
             this.showMsg(this.t.emailPlaceholder);
             return;
           }
+          this.loginMethod = 'email';
+          track('login', { provider: 'email', page_kind: this.ctx.pageKind });
           this.stashDraft();
           try {
             const { sent } = await this.backend!.signInWithEmail(email);
@@ -531,6 +547,12 @@ class Widget {
         quote: this.selection?.quote || this.draft.quote,
         pageKind: this.ctx.pageKind,
       });
+      track('submit', {
+        type: this.draft.type,
+        page_kind: this.ctx.pageKind,
+        has_quote: !!this.selection,
+        login_method: this.loginMethod || 'session',
+      });
       this.renderDone();
     } catch (e) {
       console.warn('[feedback] submit failed:', e);
@@ -562,6 +584,7 @@ class Widget {
 
   private renderError(): void {
     const t = this.t;
+    track('degraded', { reason: 'submit-error' });
     this.panel.innerHTML =
       this.header(t.title) +
       `<div class="twmd-fb-body">

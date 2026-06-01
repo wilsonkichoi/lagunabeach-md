@@ -53,9 +53,12 @@ node scripts/feedback/triage.mjs --commit
 - HG3 🔴 讀者文字 verbatim 不改寫
 - HG5/HG6 spam reject + dedupe 正確
 - HG8 🔴 不以維護者身份開口（留人類）
+- HG9 🔴 **git archive 主權層**：每筆 filed 寫 `docs/feedback/archive/`（無 email），
+  issue 留言 sync 進 §溝通紀錄。**收官前 `git add docs/feedback/archive/`**（不進 git = 主權層失效）。
 
 ## 收官
 
-`/twmd-finale` → memory 必含 BECOME ACK + file/reject/skip count + 開的 issue #N + Handoff。
+`/twmd-finale` → memory 必含 BECOME ACK + file/reject/skip count + 開的 issue #N + archive 檔數 + Handoff。
+**commit 前**：`git add docs/feedback/archive/`（per HG9，讓回報+溝通紀錄落進 git）。
 
 ARGUMENTS: (none — script 自己讀 Supabase status='new')
