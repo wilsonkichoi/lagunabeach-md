@@ -196,6 +196,25 @@ export function isDuplicate(row, existingIssues = []) {
 /**
  * 整批分流。回傳每筆的 decision。純函式 —— 不開 issue,只決定。
  */
+/**
+ * 讀者面的 AI 初判理由（v3 Grokipedia 透明化）。中性措辭、標「自動初判 + 人工會再看」，
+ * 不是維護者正式回覆（那走 MAINTAINER 人類 gate）。
+ */
+export function triageNoteFor(row) {
+  const type = resolveType(row);
+  const m = {
+    content:
+      '已收到你的勘誤，自動初判分類為「內容勘誤」，已轉維護者查核（人工會再看）。',
+    bug: '已收到，自動初判分類為「網站問題」，已轉維護者。',
+    newtopic: '已收到你的新主題建議，已排入待評估清單。',
+    idea: '已收到你的想法，已轉維護者參考。',
+  };
+  return m[type] || '已收到，已轉維護者。';
+}
+
+const REJECT_NOTE =
+  '系統初步判定為廣告/無效內容，未轉成 issue。如果是誤判，歡迎再送一次或補上來源。';
+
 export function triageBatch(rows, existingIssues = []) {
   const seen = new Set();
   return rows.map((row) => {
@@ -205,6 +224,7 @@ export function triageBatch(rows, existingIssues = []) {
         row,
         decision: 'reject',
         reason: `spam:${spam.reasons.join(',')}`,
+        note: REJECT_NOTE,
       };
     }
     const key = dedupeKey(row);
@@ -215,6 +235,11 @@ export function triageBatch(rows, existingIssues = []) {
       return { row, decision: 'skip', reason: 'duplicate-existing-issue' };
     }
     seen.add(key);
-    return { row, decision: 'file', issue: buildIssue(row) };
+    return {
+      row,
+      decision: 'file',
+      issue: buildIssue(row),
+      note: triageNoteFor(row),
+    };
   });
 }

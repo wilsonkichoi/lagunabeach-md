@@ -11,6 +11,7 @@ import type {
   FeedbackBackend,
   FeedbackDraft,
   FeedbackUser,
+  MyFeedbackItem,
   OAuthProvider,
   SubmitResult,
 } from './types';
@@ -119,6 +120,32 @@ class MockBackend implements FeedbackBackend {
     items.push(row);
     localStorage.setItem(LS_ITEMS, JSON.stringify(items));
     return { id };
+  }
+
+  async myFeedback(): Promise<MyFeedbackItem[]> {
+    const rec = this.read();
+    if (!rec) return [];
+    let items: any[] = [];
+    try {
+      items = JSON.parse(localStorage.getItem(LS_ITEMS) || '[]');
+    } catch {
+      items = [];
+    }
+    return items
+      .filter((it) => it.uid === rec.uid)
+      .reverse()
+      .map((it) => ({
+        id: it.id,
+        type: it.type,
+        body: it.body,
+        status: it.status || 'new',
+        issueUrl: it.issue_url || null,
+        issueNumber: it.issue_number || null,
+        triageNote: it.triage_note || null,
+        createdAt: it.created_at,
+        articleTitle: it.articleTitle || it.article_title || null,
+        quote: it.quote || null,
+      }));
   }
 
   async signOut(): Promise<void> {
@@ -245,6 +272,28 @@ class SupabaseBackend implements FeedbackBackend {
       .single();
     if (error) throw error;
     return { id: data.id };
+  }
+
+  async myFeedback(): Promise<MyFeedbackItem[]> {
+    // RLS 自動限定為自己的列（feedback_select_own policy）。
+    const { data, error } = await this.sb
+      .from('feedback')
+      .select('*')
+      .order('created_at', { ascending: false })
+      .limit(30);
+    if (error) throw error;
+    return (data || []).map((r: any) => ({
+      id: r.id,
+      type: r.type,
+      body: r.body,
+      status: r.status,
+      issueUrl: r.issue_url ?? null,
+      issueNumber: r.issue_number ?? null,
+      triageNote: r.triage_note ?? null, // 0003 後才有；缺欄位 → undefined → null
+      createdAt: r.created_at,
+      articleTitle: r.article_title ?? null,
+      quote: r.quote ?? null,
+    }));
   }
 
   async signOut(): Promise<void> {

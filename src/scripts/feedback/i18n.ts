@@ -20,6 +20,13 @@ export interface FeedbackStrings {
   typeNewArticleHint: string;
   selectPill: string; // 選文段浮出的小藥丸
   quoteLabel: string; // 表單裡顯示「你選取的段落」
+  myFeedback: string; // 「我的回報」入口
+  myFeedbackEmpty: string;
+  statusNew: string;
+  statusFiled: string;
+  statusRejected: string;
+  viewIssue: string;
+  triageNoteLabel: string; // AI 初判理由標籤
   bodyPlaceholder: string;
   correctInfoLabel: string;
   correctInfoPlaceholder: string;
@@ -64,6 +71,13 @@ const en: FeedbackStrings = {
   typeNewArticleHint: 'Propose an article for this category',
   selectPill: '🧬 Suggest a fix',
   quoteLabel: 'Your selected passage',
+  myFeedback: 'My feedback',
+  myFeedbackEmpty: 'No feedback yet.',
+  statusNew: 'Pending',
+  statusFiled: 'Filed as issue',
+  statusRejected: 'Not used',
+  viewIssue: 'View issue',
+  triageNoteLabel: 'System note',
   bodyPlaceholder: 'What did you find? Be specific.',
   correctInfoLabel: 'Correct info + source (optional)',
   correctInfoPlaceholder: 'Correct: …  Source: https://…',
@@ -105,6 +119,13 @@ const zhTW: FeedbackStrings = {
   typeNewArticleHint: '提議這個分類值得收的主題',
   selectPill: '🧬 勘誤這段',
   quoteLabel: '你選取的段落',
+  myFeedback: '我的回報',
+  myFeedbackEmpty: '還沒有回報。',
+  statusNew: '待處理',
+  statusFiled: '已轉成 issue',
+  statusRejected: '未採用',
+  viewIssue: '看 issue',
+  triageNoteLabel: '系統初判',
   bodyPlaceholder: '你發現了什麼?請具體一點。',
   correctInfoLabel: '正確資訊 + 來源(選填)',
   correctInfoPlaceholder: '正確的是:…  來源:https://…',
@@ -146,6 +167,13 @@ const ja: FeedbackStrings = {
   typeNewArticleHint: 'このカテゴリで扱うべきテーマを提案',
   selectPill: '🧬 この部分を訂正',
   quoteLabel: '選択した箇所',
+  myFeedback: '自分のフィードバック',
+  myFeedbackEmpty: 'まだありません。',
+  statusNew: '処理待ち',
+  statusFiled: 'issue 化済み',
+  statusRejected: '不採用',
+  viewIssue: 'issue を見る',
+  triageNoteLabel: 'システム初判',
   bodyPlaceholder: '何を見つけましたか?具体的にお願いします。',
   correctInfoLabel: '正しい情報 + 出典(任意)',
   correctInfoPlaceholder: '正しくは:…  出典:https://…',
@@ -187,6 +215,13 @@ const ko: FeedbackStrings = {
   typeNewArticleHint: '이 분류에 다룰 만한 주제를 제안',
   selectPill: '🧬 이 부분 정정',
   quoteLabel: '선택한 문단',
+  myFeedback: '내 피드백',
+  myFeedbackEmpty: '아직 없습니다.',
+  statusNew: '대기 중',
+  statusFiled: 'issue로 전환됨',
+  statusRejected: '미채택',
+  viewIssue: 'issue 보기',
+  triageNoteLabel: '시스템 판정',
   bodyPlaceholder: '무엇을 발견했나요? 구체적으로 적어주세요.',
   correctInfoLabel: '올바른 정보 + 출처(선택)',
   correctInfoPlaceholder: '올바른 내용: …  출처: https://…',
@@ -228,6 +263,13 @@ const es: FeedbackStrings = {
   typeNewArticleHint: 'Propón un artículo para esta categoría',
   selectPill: '🧬 Corregir esto',
   quoteLabel: 'El pasaje que seleccionaste',
+  myFeedback: 'Mis comentarios',
+  myFeedbackEmpty: 'Aún no hay comentarios.',
+  statusNew: 'Pendiente',
+  statusFiled: 'Convertido en issue',
+  statusRejected: 'No usado',
+  viewIssue: 'Ver issue',
+  triageNoteLabel: 'Nota del sistema',
   bodyPlaceholder: '¿Qué encontraste? Sé específico.',
   correctInfoLabel: 'Información correcta + fuente (opcional)',
   correctInfoPlaceholder: 'Correcto: …  Fuente: https://…',
@@ -270,6 +312,13 @@ const fr: FeedbackStrings = {
   typeNewArticleHint: 'Proposez un article pour cette catégorie',
   selectPill: '🧬 Corriger ce passage',
   quoteLabel: 'Le passage sélectionné',
+  myFeedback: 'Mes retours',
+  myFeedbackEmpty: 'Rien pour l’instant.',
+  statusNew: 'En attente',
+  statusFiled: 'Converti en issue',
+  statusRejected: 'Non retenu',
+  viewIssue: 'Voir l’issue',
+  triageNoteLabel: 'Note système',
   bodyPlaceholder: "Qu'avez-vous trouvé ? Soyez précis.",
   correctInfoLabel: 'Info correcte + source (facultatif)',
   correctInfoPlaceholder: 'Correct : …  Source : https://…',

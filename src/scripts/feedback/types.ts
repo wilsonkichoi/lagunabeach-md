@@ -38,6 +38,20 @@ export interface SubmitResult {
   id: string;
 }
 
+/** 「我的回報」列表的一筆（v3 閉環可見性）。 */
+export interface MyFeedbackItem {
+  id: string;
+  type: FeedbackType;
+  body: string;
+  status: string; // new | filed | rejected
+  issueUrl?: string | null;
+  issueNumber?: number | null;
+  triageNote?: string | null; // AI 初判理由（0003 後才有）
+  createdAt?: string;
+  articleTitle?: string | null;
+  quote?: string | null;
+}
+
 /**
  * Backend 介面 — SupabaseBackend / MockBackend 都實作這份。
  * widget.ts 永遠只認這個介面，不直接碰 supabase-js，好做隔離 + 測試。
@@ -54,6 +68,8 @@ export interface FeedbackBackend {
   /** 設定暱稱（留空 → 用帳號代替）。 */
   saveNickname(nickname: string): Promise<FeedbackUser>;
   submit(draft: FeedbackDraft): Promise<SubmitResult>;
+  /** 「我的回報」列表（登入者自己的，RLS 自動限定）。 */
+  myFeedback(): Promise<MyFeedbackItem[]>;
   signOut(): Promise<void>;
 }
 

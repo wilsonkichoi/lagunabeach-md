@@ -14,6 +14,7 @@ import {
   dedupeKey,
   isDuplicate,
   triageBatch,
+  triageNoteFor,
 } from './lib/classify.mjs';
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -162,4 +163,18 @@ test('provenance carries page_kind', () => {
     page_kind: 'dashboard',
   });
   assert.match(iss.body, /來源頁:dashboard/);
+});
+
+// ── v3: reader-facing triage note (Grokipedia transparency) ──────────────────
+test('triageNoteFor gives a type-specific reader note', () => {
+  assert.match(triageNoteFor({ type: 'content', body: 'x' }), /勘誤/);
+  assert.match(triageNoteFor({ type: 'newtopic', body: 'x' }), /新主題/);
+});
+
+test('triageBatch attaches note to file + reject decisions', () => {
+  const results = triageBatch(seed, []);
+  const filed = results.find((r) => r.decision === 'file');
+  const rejected = results.find((r) => r.decision === 'reject');
+  assert.ok(filed.note && filed.note.length > 0);
+  assert.ok(rejected.note && rejected.note.length > 0);
 });
