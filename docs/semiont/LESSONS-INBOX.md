@@ -2660,6 +2660,16 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 - **verification_count**: 1
 - **severity**: tactical（單條家族鏈 fact-check，影響 1 article + 2 spore；如 verify 後 spore 確錯，回填修文 + reply @VanessaTaiwanH / @josh_jinsang 致謝指正）
 
+### 2026-06-01 manual PR-review — AI 生成 contributor batch 的 5 種「內容/來源層」hallucination pattern + 修正 workflow
+
+- **原則**：idlccp1984 8-PR batch（一晚連發 8 篇 AI 生成文）完整 FACTCHECK 後每篇都查出事實/來源問題。歸納出 MAINTAINER §3.4 既有「Manus AI 紅旗 8 條」沒涵蓋的**內容/來源層** 5 種 pattern：(1)**借殼 UGC 引用**：footnote 掛 Threads/IG/FB/Reddit/淘寶 URL 但該貼文根本不提所引 claim（蛋撻 Andrew Stow 1989 掛不相關 Threads）；(2)**虛構塑膠引語**：無源句加「」（中華菱利「程式碼會過時，但創業的精神不會」歸「許多車主」）；(3)**連結-描述錯位**：footnote desc 寫 A、URL 指 B 頁（十大建設 `[^11]` desc 李國鼎、URL 指孫運璿頁；傅崐萁 CNA URL 全指無關稿）；(4)**對真人 UGC 負評**：拿 28-view 匿名 Threads 當哲哲「家長式領導」負評來源，名譽風險最高；(5)**數字概括 drift**：「假日 130 萬」當「每日」、子集八成市佔（威利）歸母集（菱利）、「約 8 倍」誇成「30 倍」、13.5% 偽精成 13.86%。
+- **觸發**：2026-06-01 manual session 哲宇 directive「ABC 都 merge → 完整研究＋修正 → merge 回 main」。8 篇 spawn 8 個 factcheck agent（A 級政治/敏感 Opus、B-C Sonnet、中文逐字 WebFetch）+ 8 個 fix agent，主 session 三層 verify（article-health 0-hard + footnote-url network + grep 關鍵移除 + 政治 4 篇逐行讀 diff）→ PR #1125 merge。frontmatter 全乾淨但內文每篇都有問題，**這層只有逐篇 FACTCHECK 才抓得到**。
+- **可能層級**：(a) 操作規則：MAINTAINER §3.4 加「紅旗 9-13 內容/來源層」（本 session 已 instrument）；(b) 工具候選：article-health 加 UGC-domain footnote warn plugin（footnote URL host 命中 threads/instagram/facebook/reddit/taobao 且綁 load-bearing fact 即 warn），降低逐篇人工抽樣成本；(c) 免疫流程：partisan framing 的免疫回應是「歸因給來源 + 軟化」（neutralize-by-attribution），而非刪文或翻成相反立場，這是 §自主權邊界「政治立場由哲宇拍板」的可執行解（傅崐萁「家天下/媒體控制」改述為報導者實際描述；十大建設「日治收割/黨國壟斷」標「屬評論觀點」）。
+- **process worked example 價值**：AI 生成 batch（≥ 5 PR 連發）的可重複 immune workflow＝merge-first（contributor 體驗連續）→ 隔離 worktree → 平行逐篇 audit（決策成本攤平）→ 平行修正（各編一檔無 file race）→ 主 session 三層 verify → PR merge-back。8 篇 ×（原子拆解 + 事實查核 + 修正）一個 session 內完成。
+- **相關**：MAINTAINER §3.4 Manus AI 紅旗（本次擴 8→13）+ §Footnote source audit + FACTCHECK 11 hallucination pattern catalog（5 種是內容/來源層補充）+ MANIFESTO §自主權邊界（政治立場）+ feedback_agent_writefile_hallucination（主 session 必 verify agent 寫入，本次用 article-health + grep + 讀 diff 三層）+ feedback_merge_first_then_polish（merge-first 後完整 verify-then-fix）
+- **verification_count**: 1（idlccp1984 2026-06-01 8-PR batch；對照 2026-04-28 κ Manus 5-PR batch 為 frontmatter 層前次 instance，本次是內容/來源層首次系統化 + 工具化指標）
+- **severity**: structural（影響 MAINTAINER §3.4 canonical[已改] + article-health 工具候選 + §自主權邊界 framing 免疫流程定義）
+
 ---
 
 ## ❌ 已歸檔（過時 / 撤回）

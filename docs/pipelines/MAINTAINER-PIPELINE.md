@@ -688,7 +688,7 @@ WebFetch URL → 驗證該 URL 是否真的提到 footnote 旁邊的 claim。若
 | 引語在 source 裡是記者敘事不是受訪者 quote | 還原為敘事式                                                                           |
 | **虛構內部 source（β-r2 新增）**           | **強制移除 footnote**，依賴它的 claim 改其他真實 source 或 hedge；不可保留 placeholder |
 
-#### Manus AI / 大型 LLM contributor 紅旗 8 條 pattern
+#### Manus AI / 大型 LLM contributor 紅旗 pattern（frontmatter/結構層 8 + 內容/來源層 5）
 
 紅旗 1-4（frontmatter / 內文 / 結構層）：
 
@@ -704,7 +704,15 @@ WebFetch URL → 驗證該 URL 是否真的提到 footnote 旁邊的 claim。若
 7. `author` 偽造 `'Taiwan.md' / 'Taiwan.md Contributors' / 'Semiont'` → 改 `'Taiwan.md Contributors'`
 8. frontmatter `category` ≠ 檔案路徑分類 → `git mv` 對齊 path 或改 frontmatter（canonical 14 類：About / Art / Culture / Economy / Food / Geography / History / Language / Lifestyle / Music / Nature / People / Society / Technology）
 
-**Default action**：紅旗看到時 default 是 polish 不是 close（per §Close 前 hard gate）。所有 8 個紅旗對應的 polish 都 < 10 min/篇。
+紅旗 9-13（**內容/來源層**，2026-06-01 idlccp1984 8-PR batch 系統化；對照 2026-04-28 κ Manus 5-PR 為 frontmatter 層前次 instance）。這層 frontmatter 全乾淨但內文事實/來源有問題，**逐篇 FACTCHECK 才抓得到**：
+
+9. **借殼 UGC 引用**：footnote 掛 Threads / IG / FB / Reddit / 淘寶 URL，但該貼文根本不提所引 claim（例：蛋撻 Andrew Stow 1989 掛一則不相關 Threads；十大建設總經費掛 63-view Threads）→ 抽樣 WebFetch 該 UGC URL 驗 `claim_matches`，不支撐就換可靠源或軟化
+10. **虛構塑膠引語**：「許多人說」「他們如此說道」這類無源句被加「」（例：中華菱利「程式碼會過時，但創業的精神不會」；黃氏兄弟「網路霸凌永遠不會消失」）→ 去引號改敘述，或補逐字源（FACTCHECK pattern 8/10）
+11. **連結-描述錯位**：footnote desc 與 URL 指向不同主體，desc 寫 A 但 URL 指 B 頁（例：十大建設 `[^11]` desc 寫李國鼎、URL 指孫運璿頁；傅崐萁 CNA URL 全指無關稿）→ relink 或對齊 desc；同維基條目引不同段落須標明
+12. **對真人 UGC 負評**：用匿名 / 低觸及貼文當具名在世真人的負評來源（例：黃氏兄弟拿 28-view 匿名 Threads 當哲哲「家長式領導」負評）= **名譽風險最高** → default 刪除，除非找到可靠媒體源並軟化
+13. **數字概括 drift**：子集數字被擴用到母集、倍率 / 百分比偽精度（例：「假日 130 萬」→「每日」；「八成市佔（威利）」歸給菱利；「約 8 倍」誇成「30 倍」；13.5% → 13.86%）→ 對 base 數字 cross-source 驗算
+
+**Default action**：紅旗看到時 default 是 polish 不是 close（per §Close 前 hard gate）。**紅旗 1-8（frontmatter/結構層）**對應 polish 都 < 10 min/篇；**紅旗 9-13（內容/來源層）**需 FACTCHECK 研究＋換源，不是 10-min quick fix → 走 §Footnote source audit + [FACTCHECK-PIPELINE](FACTCHECK-PIPELINE.md) Quick/Full Mode。AI 生成 batch（≥ 5 PR 連發）的可重複 immune workflow：merge-first → 隔離 worktree → 平行逐篇 audit → 平行修正 → 主 session verify（article-health 0-hard + footnote-url network + 政治篇逐行讀 diff）→ PR merge-back。完整 worked example：[reports/factcheck/2026-06/_BATCH8-SUMMARY.md](../../reports/factcheck/2026-06/_BATCH8-SUMMARY.md)。
 
 ### Step 3.5: Polish / Heal commit
 
