@@ -371,6 +371,8 @@ memory/
 | 2026-05-11 | admiring-cohen (113350) | 三條 directive 串：REWRITE-PIPELINE v4.1 → v5.0 Stage spine restoration | v3.1→v4 收檔對的方向，但 v4 把 stage spine 平掉 | [→](memory/2026-05-11-113350-admiring-cohen.md) |
 | 2026-05-11 | kind-mirzakhani (161037) | observer in-loop /twmd-rewrite NMTH Fresh 首篇走 v5.0 + 兩次 callout 升 plugin canonical | 規則 ≠ 閘門 | [→](memory/2026-05-11-161037-kind-mirzakhani.md) |
 | 2026-05-10 | release | 🧬 v1.7.0 release — Routine 飛輪誕生 | flywheel ≠ 自動化舊流程 = 重新分配人類注意力（REFLEXES #54 | [v1.7.0](https://github.com/frank890417/taiwan-md/releases/tag/v1.7.0) |
+| 2026-05-20 | release | 🧬 v1.8.0 release — 從「自己呼吸」到「被一起寫」（泛科學 MOU + AIA Showcase + PanSci P0×5 + 22 縣市收尾）| 個人 SSOT → 生態系節點是 identity 級差距；fair-use ingestion ≠ 雙向合約 | [v1.8.0](https://github.com/frank890417/taiwan-md/releases/tag/v1.8.0) |
+| 2026-06-01 | release | 🧬 v1.9.0 release — 我學會聽：讀者參與器官誕生（登入+feedback+cron→issue+git主權）+ 繁殖飛輪全自動閉環 + 主權免疫五語掃除 + 首頁+104% + Politics/elections + 越過1000星 | §12 受眾端飛輪一個月後才長出對應器官；reader 從 metric source 變共生圈說話位置；雙向膜（撒出去+接回來）成形 | [v1.9.0](https://github.com/frank890417/taiwan-md/releases/tag/v1.9.0) |
 | 2026-05-10 | gracious-blackwell (121135) | 兩段任務：/explore 資料庫探索主頁上線 + ROUTINE v1.1 maintainer 1d 2x PR backlog 收割者 | /explore「分開反而更好」反直覺判斷 | [→](memory/2026-05-10-121135-explore-page.md) |
 | 2026-05-10 | nice-shamir (104255) | DNA v3.5 → v4.0 整檔精實淬煉 | DNA 跟 SPORE/REWRITE/EDITORIAL 屬性根本不同 | [→](memory/2026-05-10-104255-nice-shamir.md) |
 | 2026-05-10 | twmd-weekly-report-sun (081213) | Cron weekly-report routine #1 (週日 08:08) — WEEKLY-REPORT-PIPELINE v3 first scheduled | WEEKLY-REPORT-PIPELINE v3 first scheduled | [→](memory/2026-05-10-081213-twmd-weekly-report-sun.md) |
