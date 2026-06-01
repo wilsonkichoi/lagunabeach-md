@@ -66,8 +66,10 @@ checks = ["prose-health"]
 fail_on = "score-budget"
 
 [profiles."rewrite-stage-3-5"]
-# Stage 3.5 FactCheck — citation health.
-checks = ["footnote-format", "footnote-density"]
+# Stage 3.5 FactCheck — citation health + 校正焦慮掃描 (v6.2).
+# correction-meta WARN default (advisory in gate)；callout-triggered EVOLVE 由
+# REWRITE Step 3.2-bis 視為 must-fix（surface here，人/agent 判斷）。
+checks = ["footnote-format", "footnote-density", "correction-meta"]
 fail_on = "hard"
 
 [profiles."rewrite-stage-4"]

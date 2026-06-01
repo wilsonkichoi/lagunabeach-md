@@ -3,7 +3,7 @@ title: 'REWRITE-PIPELINE'
 description: '文章改寫主流程 canonical — 6 stage 線性 (Stage 0 觀點 + 1-5 取材/寫/驗/形/連) / 模式判定在 Stage 0 內部分支 / Step N.M 編號 / heading 階層 H1-H4 / 翻譯收斂為 pointer 到巴別塔 (v6.0)'
 type: 'pipeline-canonical'
 status: 'canonical'
-current_version: 'v6.0'
+current_version: 'v6.2'
 last_updated: 2026-05-11
 last_session: 'admiring-montalcini-ec53b4-stage0-viewpoint'
 plugin_check: 'python3 scripts/tools/article-health.py {file} --profile=rewrite-stage-4'
@@ -21,7 +21,7 @@ upstream_canonical:
   - '../editorial/EDITORIAL.md'
 ---
 
-# REWRITE-PIPELINE.md — 文章改寫主流程 v6.0
+# REWRITE-PIPELINE.md — 文章改寫主流程 v6.2
 
 > **第一性原理**：所有文章都走同一條 6-stage pipeline，每篇都跑過。模式判定 + 編輯前思考收斂在 **Stage 0 觀點**（Step 0.1-0.6），Stage 1 變純取材，Stage 2-5 完全 mode-agnostic。
 >
@@ -122,6 +122,7 @@ upstream_canonical:
 | FACTCHECK Quick/Full Mode  | Stage 3    | 所有 article / A 級           | FACTCHECK-PIPELINE                                                                   | 不進 Stage 4     |
 | **Citation plugin gate**   | Stage 3    | **所有 article（含 EVOLVE）** | article-health.py --profile=rewrite-stage-3-5 (footnote-format + footnote-density)   | **不進 Stage 4** |
 | **Title+desc spine sync**  | Stage 3    | **所有 article（含 EVOLVE）** | manual: title 冒號三明治 + desc 吃進核心矛盾                                         | 不 commit        |
+| **校正焦慮掃描** 🧱        | Stage 3    | **callout-triggered EVOLVE**  | Step 3.2-bis: backstop 自檢句 + grep 校正型句式 + 論點脊椎自檢                       | **不 commit**    |
 | Format check 7 維度        | Stage 4    | 所有 article                  | article-health.py --profile=rewrite-stage-4                                          | pre-commit hook  |
 | word-count ≥ 4500          | Stage 4    | depth article                 | article-health.py --check=word-count                                                 | pre-commit hook  |
 | 多語 visual smoke          | Stage 4    | i18n 改動                     | 6 步 bash                                                                            | revert commit    |
@@ -129,7 +130,7 @@ upstream_canonical:
 | Aspect ratio 護欄          | Stage 4    | 涉及圖                        | check-aspect.sh                                                                      | 換圖             |
 | Sibling 格式預檢           | Stage 5    | 補 reverse cross-link         | article-health.py --check=format-structure                                           | DEFER + 開 issue |
 
-**🔴 三條反射特別強化**（v3.1 sad-shockley 升級 + v6.0 新增第 3 條）：
+**🔴 四條反射特別強化**（v3.1 sad-shockley 升級 + v6.0 新增第 3 條 + v6.2 新增第 4 條）：
 
 1. **Title+desc spine sync 🥪** — 所有 category（不限 People）的 EVOLVE 在 Stage 2 寫完後**必須回看 frontmatter title + description**：
    - 標題是否走「主題：副標 hook」冒號三明治？
@@ -147,7 +148,14 @@ upstream_canonical:
    - 切入點清單 + 預期核心矛盾候選 + 研究方向 落 research report §觀點成型 section
    - frontmatter `viewpoint_formed: true` 表示通過
    - Stage 1.4 找矛盾鎖定時，從 Stage 0.6 候選收斂為單一核心矛盾
-   - **EVOLVE 模式**：Stage 0.6 在 0.2 萃取舊素材之後跑，可參考「為什麼舊文寫不好」幫助觀點成型
+   - **EVOLVE 模式**：Stage 0.6 在 0.2 萃取舊素材之後跑。觀點從題材 + 研究長出，**不從「為什麼舊文寫不好」長出**（v6.2 反轉 v6.0：後者會讓校正焦慮變成論點脊椎，見 [Step 0.2-bis 拆除防火牆](#step-02-bis-拆除防火牆teardown-firewall-callout-triggered-evolve-強制-)）。**callout-triggered EVOLVE 強制走 Step 0.2-bis 三條防火牆規則 + Step 3.2-bis backstop。**
+
+4. **拆除防火牆 🧱**（v6.2 新增）— **callout-triggered EVOLVE**（讀者/專家/peer 指出舊文錯、或自己 factcheck 抓到誤植所觸發的重寫）必過：
+   - callout 只進 Stage 1 查證（`[CALLOUT-VERIFY]`），用完即丟，**不進觀點、不進正文**
+   - Stage 0.6 觀點當作 Fresh 在做，**blind to errata**——論點脊椎不准是「歸屬要正確 / 別搞混 / 名字很重要」
+   - Stage 2 寫作 context 隔離：首選 spawn fresh writer agent 只給 fact-pack，主 session 自寫則 Stage 2 不重開舊文
+   - Stage 3.2-bis backstop 自檢句：「如果第一次就寫對，這句還會存在嗎？只為回應過去錯誤而存在的，刪」
+   - canonical：[Step 0.2-bis](#step-02-bis-拆除防火牆teardown-firewall-callout-triggered-evolve-強制-) + [Step 3.2-bis](#step-32-bis-校正焦慮掃描correction-meta-scancallout-triggered-強制-)。觸發：2026-06-01 影視配樂第二輪 callout（事實修對但充滿 AI 校正焦慮）
 
 ---
 
@@ -230,6 +238,13 @@ else:
 | issue 指 N 篇主題重疊可融合進 1 篇  | **Merge variant**    | Step 0.2 多萃 [MERGE-IN] + Step 0.3 選 canonical                   | + Step 5.4 路徑改寫 5 lang redirect |
 | issue 指 N 篇主題重疊應分段不減篇數 | **Boundary variant** | Step 0.2 三類劃分 [保留/吸納/移除] + Step 0.4 範圍切片表           | + sibling 反向回補                  |
 
+#### ⚡ 觸發來源旗標：callout-triggered（v6.2 新增，正交於 4 模式）
+
+判完模式後**再問一句**：這次 EVOLVE 是不是被「外部錯誤 callout」觸發的（讀者 / 領域專家 / peer 指出舊文錯了，或我自己 factcheck 抓到誤植）？
+
+- **是** → 在 4 模式之上**疊加 Teardown Firewall**：強制走 [Step 0.2-bis 三條防火牆規則](#step-02-bis-拆除防火牆teardown-firewall-callout-triggered-evolve-強制-) + [Step 3.2-bis backstop](#step-32-bis-校正焦慮掃描correction-meta-scancallout-triggered-強制-)。callout 只進 Stage 1 查證，不進觀點、不進正文。
+- **否**（單純品質提升）→ 照常 EVOLVE，但 Step 0.2-bis 規則 2（觀點 blind to errata）仍建議遵守。
+
 #### 整併（Merge）vs 範圍重切（Boundary）判定
 
 - ✅ 兩篇覆蓋同主題、視角可融合進一篇且讀起來更完整 → **Merge**
@@ -298,6 +313,52 @@ Step 0.2 萃取既有素材後**強制**分成三類：
 - 接力者 5 分鐘自檢題：讀完 entry 能否回答「我這篇要寫什麼、不寫什麼、邊界在哪裡」？
 
 ⚠️ **萃取完畢後，舊文不再被參考。只看事實清單進入後續 step。**
+
+### Step 0.2-bis: 拆除防火牆（Teardown Firewall）— callout-triggered EVOLVE 強制 🔥🧱
+
+> **觸發**：EVOLVE 的觸發來源是「外部錯誤 callout」（讀者 / 領域專家 / peer / 我自己的 factcheck 發現「舊文錯了 A↔B」），而不是單純「品質提升」。
+>
+> **背景**：2026-06-01 配樂專業讀者 peilinwu0702 第二輪 callout。第一輪指出 `台灣影視配樂` 作曲家↔作品大量誤植 → 走 EVOLVE 重寫 → 事實層確實修對了（25 footnote 全一手）→ **但讀者第二輪罵的是「整篇充滿 AI 道歉 / AI 澄清、架構從頭就有問題」**。診斷：[reports/reader-callout-pipeline-diagnosis-2026-06-01.md](../../reports/reader-callout-pipeline-diagnosis-2026-06-01.md)。
+
+#### 投毒機制（為什麼「只提取事實」這條鐵律會失守）
+
+「舊文是病毒，只提取事實」是 Step 0.2 既有鐵律。但 callout-triggered EVOLVE 多了**第二層毒**：
+
+1. **舊文 body** 在 session context window 裡（你讀它來萃取事實）。
+2. **callout 本身**（「你把 X 配給 Y 是錯的」一連串勘誤）也在 context 裡。
+3. Step 0.6 觀點成型若參考「為什麼舊文寫不好」（原 v6.0 reflexes #3 允許）→ **觀點 = 校正清單的昇華**。
+
+結果：文章的論點脊椎變成「不要搞錯名字 / 名字很重要」（影視配樂 v2 thesis「搞錯名字就是搞錯聲音的出處」正是如此），正文散落「把 X 掛在他名下其實是錯的」「常被誤記成 Y」式的 9 處校正型句子 + 校正型策展 box。**「別人會搞錯」的那個「別人」就是這篇文章的前一版。** 讀者一眼看穿這是 AI 在公開處理自己的道歉。這是 `feedback_red_line_anxiety_leak`（別把來源焦慮漏進正文）的**架構級放大**：從「焦慮漏進句子」升級到「校正焦慮變成全文脊椎」。
+
+#### 三條防火牆規則（callout-triggered 強制）
+
+**規則 1 — callout → 純 fact-checklist，用完即丟**
+
+callout 是線索不是 source（[REFLEXES #16](../semiont/REFLEXES.md)）。把它拆成 `[CALLOUT-VERIFY]` 逐條，**只餵 Stage 1 查證**（每條對一手來源重驗，連 callout 本身的 frame 都要查 — 影視配樂案：讀者也把 OPUS 誤記成雷亞，其實是 SIGONO）。查證完，**callout 文字本身丟掉，不進 Stage 0.6 觀點、不進 Stage 2 正文**。
+
+**規則 2 — 觀點對 errata 失明（blind to errata）**
+
+Stage 0.6 觀點成型**當作 Fresh 在做**：從題材本身 + 一手研究長出觀點，**像舊文與 callout 從不存在**。「為什麼舊文寫不好」是 meta 觀察，落 research report §舊文診斷 + LESSONS-INBOX，**永遠不准進觀點、不准進正文**。
+
+- 反指標自檢：我的核心矛盾 / 論點脊椎，是不是在講「歸屬要正確 / 不要搞混 / 名字很重要」？**是 → 觀點被 errata 投毒了，砍掉重想。** 一個配樂專家寫這題不會用「別搞錯名字」當主軸，他會用產業制度史 / 美學流派 / 世代傳承的真實骨架。
+
+**規則 3 — Stage 2 寫作 context 隔離（架構解，非守備修補）**
+
+「不再參考舊文」靠意志力做不到 —— 舊文 + callout 還在 context 裡就會 prime（[神經迴路：規則要能執行才算規則](../semiont/MEMORY.md)）。**強制隔離**：
+
+- Stage 2 的寫作輸入 = **只有** `reports/research/{slug}.md` 的 fact-pack + §觀點成型 + EDITORIAL.md。
+- **首選**：spawn 一個 fresh writer agent（Step 1.8 既有 spawn 機制），prompt 只給 fact-pack + 觀點 + anchors，**不給舊文 body、不給 callout**。Agent 在乾淨 context 裡像第一次寫。
+- **主 session 自寫時**：Stage 2 期間**不准重新打開舊文檔案**，只看 research report。寫完跑下方 Step 3.2-bis backstop。
+
+#### Backstop 自檢句（Stage 3 hard gate，見 Step 3.2-bis）
+
+> **「如果這篇文章第一次就寫對了，這個句子 / 這個 box 還會存在嗎？只為回應過去的錯誤、或為了澄清一個混淆而存在的，刪。」**
+
+**Anti-example（影視配樂 v2 live，2026-06-01）**——這 9 處全部該被 backstop 攔下：
+
+- 正文校正句：「把《海角七號》或《賽德克》的配樂掛在他名下，反而抹掉了…」「常被誤記成雷亞作品，其實出自 SIGONO」「把《茶金》…都記到他名下，反而蓋掉了他自己那座金馬」「順帶把遊戲和電影分清楚」
+- 校正型策展 box：照片下方「把林強跟林生祥搞混，看起來只是拼錯一個字…」「叫錯一個名字，就把三種判斷攪成一團模糊讚美」
+- 投毒的論點脊椎：「搞錯名字就是搞錯聲音的出處」
 
 ### Step 0.3: 選 canonical（Merge variant only）
 
@@ -1240,6 +1301,32 @@ Ctrl-F 搜「我最早到學校」→ 搜不到 ❌
 
 **任何一項打不勾 = 不 commit，回去修。**
 
+### Step 3.2-bis: 校正焦慮掃描（correction-meta scan）— callout-triggered 強制 🧱
+
+> Step 0.2-bis 拆除防火牆的 backstop。即使前面三條防火牆做了，Stage 2 寫作仍可能漏出校正型 meta。這一關專抓「文章在公開處理自己的勘誤」。
+
+**唯一自檢句（逐句 / 逐 box 過一遍）**：
+
+> **「如果這篇文章第一次就寫對了，這個句子 / 這個 box 還會存在嗎？」**
+> 只為回應過去的錯誤、或為了澄清一個混淆而存在的 → **刪**。
+
+**儀器化掃描（callout-triggered 必跑）** — 2026-06-01 已升 article-health plugin：
+
+```bash
+# correction-meta plugin（取代原 raw grep）：抓 9 類校正型句式，回 line + snippet + 自檢句
+python3 scripts/tools/article-health.py knowledge/{Cat}/{slug}.md --check=correction-meta
+# 或直接跑 Stage 3.5 profile（含 footnote-format + footnote-density + correction-meta）
+python3 scripts/tools/article-health.py knowledge/{Cat}/{slug}.md --profile=rewrite-stage-3-5
+```
+
+correction-meta DEFAULT WARN（dual-use 句式 + legacy soft-launch）。**callout-triggered EVOLVE 把任何 WARN 視為 must-fix**（人/agent 逐條過自檢句）。plugin: `scripts/tools/lib/article_health/checks/correction_meta.py`。
+
+**論點脊椎自檢**：核心矛盾 / 30 秒概覽 / 結語，是不是在講「歸屬要正確 / 不要搞混 / 名字很重要」這類 meta？是 → 論點被 errata 投毒，回 Step 0.6 重想（**這關不過不只是刪句子，是重定觀點**）。
+
+**Anti-example**：影視配樂 v2 的 9 處（Step 0.2-bis 已列）。**規則不如反例好記**（`feedback_subagent_anti_example_works`）—— 寫到「把 X 掛在他名下其實是錯的」這種句子時，腦中應該浮現「這就是影視配樂被罵的那種句子」。
+
+**不過 = 不 commit。** 純品質提升的 EVOLVE 不強制此關，但論點脊椎自檢建議跑。
+
 ### Step 3.3: FACTCHECK Quick Mode（A 級 / 政治敏感 → Full Mode）
 
 > **本 step 是 [FACTCHECK-PIPELINE](FACTCHECK-PIPELINE.md) 的 trigger context**。完整 SOP、atom 類型、11 種 hallucination pattern、6 種 drift modes、Phase 1-6 執行細節、checklist 全部 SSOT 在 FACTCHECK-PIPELINE，本 step 不複寫（[MANIFESTO §指標 over 複寫](../semiont/MANIFESTO.md#我的進化哲學--指標-over-複寫) 原則）。
@@ -1925,12 +2012,18 @@ git push
 
 ---
 
+_v6.2 | 2026-06-01 170717-manual — 拆除防火牆（Teardown Firewall）for callout-triggered EVOLVE：新增 Step 0.2-bis（投毒機制 + 三條防火牆規則：callout→純 fact-checklist 用完即丟 / 觀點 blind to errata / Stage 2 context 隔離）+ Step 3.2-bis（校正焦慮掃描 backstop 自檢句 + grep 校正型句式 + 論點脊椎自檢）+ Step 0.1 callout-triggered 觸發旗標（正交於 4 模式）+ Hard Gate Inventory 加「校正焦慮掃描」row + 反射 #4 拆除防火牆 + 反轉 v6.0 reflexes #3 EVOLVE 條款（「可參考為什麼舊文寫不好幫助觀點成型」是投毒源，移除）。觸發：2026-06-01 配樂專業讀者 peilinwu0702 第二輪 callout —— `台灣影視配樂` EVOLVE 後事實層修對（25 footnote 全一手）但「整篇充滿 AI 道歉/澄清、架構從頭就有問題」。根因：舊文 body + callout 同在 session context → 觀點變成校正清單昇華 → 9 處校正型句 + 2 個校正型策展 box + 投毒論點脊椎「搞錯名字就是搞錯聲音的出處」。哲宇診斷「舊文+舊 context 投毒」比「callout 過擬合」更精準 —— 架構解（context 隔離）非守備修補（自檢句）。診斷報告：[reports/reader-callout-pipeline-diagnosis-2026-06-01.md](../../reports/reader-callout-pipeline-diagnosis-2026-06-01.md)。對應 `feedback_red_line_anxiety_leak` 架構級放大 + REFLEXES #16 + #15（規則要能執行）。_
+
+_v6.1 | 2026-05-2x — footnote plugin gate：Stage 3 加 article-health.py --profile=rewrite-stage-3-5（footnote-format + footnote-density）為 citation hard gate。_
+
 _v6.0 | 2026-05-11 admiring-montalcini-ec53b4 — Stage 0 觀點獨立 stage：新增 Stage 0「觀點」（6 step：模式識別 / 既有素材萃取 / 選 canonical / 範圍切片 / 載入方法論 / 觀點成型）作為 editorial vision 階段，與 Stage 1 取材的 data gathering 階段認知模式分離。觀點成型 6 核心問題（記憶 / 多元面貌 / 想法感受 / 歷史脈絡 / 社會關聯 / 類型專屬）+ 7 品質維度（溫度 / 人味 / 故事 / 策展 / 觀點 / 體驗 / 歷史社會關聯）+ 5 row 類型加權矩陣（People / Food-Culture / History-Politics / Tech-Industry / Nature-Geography）。允許輕量探索性搜尋 ≤ 5 次。§觀點成型 落 research report + frontmatter `viewpoint_formed: true` 為 HARD GATE，不過不進 Stage 1。原 Stage 1 Step 1.6-1.14 重編為 1.1-1.9，原 Step 1.1-1.5 移至 Stage 0。觸發：哲宇 2026-05-11 callout「重點在溫度 / 人味 / 故事 / 策展 / 觀點 / 體驗 / 與社會歷史環境跟我們人生的關聯」+「希望加一個觀點成型的步驟，總編輯視角看這個主題怎麼寫才會立體」+「想要獨立一個 stage」。Dogfood: [蘋果西打 PR #1041](https://github.com/frank890417/taiwan-md/pull/1041) research report 補 retroactive §觀點成型 section 作為首個案例。_
 
 _v5.0 | 2026-05-11 admiring-cohen-8b68fc — Stage spine restoration：heading 階層 H1-H4 統一深度（文件 H1 / Stage H2 / Step H3 / sub-step H4）+ Step 編號正規化 N.M（解 v4.1 `## Step A-X` 5 套並排 grep collision）+ ASCII spine 顯化在頂部 + Stage 6 翻譯維持 v4.1 抽掉狀態指向巴別塔。觸發：哲宇 callout「用 v4 的精神進化 v3 — 所有步驟都是相同的，每篇都要跑過，只有第一個步驟有判定模式」。設計理由：[reports/rewrite-pipeline-v5-stage-spine-design-2026-05-11.md](../../reports/rewrite-pipeline-v5-stage-spine-design-2026-05-11.md)。_
 
 _最近 milestone（完整 changelog → `git log docs/pipelines/REWRITE-PIPELINE.md`）_：
 
+- **v6.2**（2026-06-01 170717-manual）— 拆除防火牆 for callout-triggered EVOLVE：Step 0.2-bis 三條防火牆（callout→fact-checklist 用完即丟 / 觀點 blind to errata / Stage 2 context 隔離）+ Step 3.2-bis 校正焦慮掃描 backstop；反轉 v6.0「觀點可參考舊文為什麼爛」投毒源。觸發：影視配樂第二輪 callout
+- **v6.1** — footnote plugin gate（Stage 3 footnote-format + footnote-density 升 citation hard gate）
 - **v6.0**（2026-05-11 admiring-montalcini-ec53b4）— Stage 0 觀點獨立 stage：editorial vision 階段先於 data gathering；6 核心問題 + 7 品質維度 + 5 類型矩陣；§觀點成型 HARD GATE
 - **v5.0**（2026-05-11 admiring-cohen-8b68fc）— Stage spine restoration：H1-H4 階層一致 + Step N.M 編號 + ASCII spine 在頂部；v3.0 spine 骨架 × v4 單檔載體 × v4 evolved 內容（影音必找 + 標題三明治不丟）
 - **v4.1**（2026-05-11 sad-shockley）— Stage 6 抽掉 → 巴別塔 pipeline 指標；REWRITE 變 5 stage 線性
