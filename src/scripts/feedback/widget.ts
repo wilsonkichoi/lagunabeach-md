@@ -11,6 +11,7 @@ import type {
   FeedbackBackend,
   FeedbackType,
   FeedbackUser,
+  MyFeedbackItem,
   OAuthProvider,
 } from './types';
 import { getStrings, type FeedbackStrings } from './i18n';
@@ -228,13 +229,14 @@ class Widget {
     this.afterAuth();
   }
 
-  private toggle(): void {
+  private async toggle(): Promise<void> {
     this.open = !this.open;
     this.panel.hidden = !this.open;
     if (this.open) {
       this.selection = null; // FAB 開啟 = 一般回饋（非選文段）
-      this.ensureBackend();
-      this.renderForm();
+      this.renderForm(); // 先畫，避免等待
+      await this.ensureBackend(); // 取回 this.user
+      if (this.open) this.renderForm(); // 登入態確定後重畫（顯示「我的回報」入口）
     }
   }
 
@@ -265,6 +267,7 @@ class Widget {
       this.header(t.title) +
       `<div class="twmd-fb-body">
         <p class="twmd-fb-intro">${esc(t.intro)}</p>
+        ${this.user ? `<button type="button" class="twmd-fb-link twmd-fb-mine-entry" data-mine>${esc(t.myFeedback)} →</button>` : ''}
         ${this.ctx.title ? `<p class="twmd-fb-about">${esc(t.about)} ${esc(this.ctx.title)}</p>` : ''}
         ${quoteBlock}
         <div class="twmd-fb-chips" role="radiogroup">
@@ -284,6 +287,9 @@ class Widget {
         <button type="button" class="twmd-fb-primary" data-submit disabled>${esc(t.submit)}</button>
       </div>`;
     this.wireClose();
+    this.panel
+      .querySelector('[data-mine]')
+      ?.addEventListener('click', () => this.renderMyFeedback());
 
     const hintEl = this.panel.querySelector('[data-hint]') as HTMLElement;
     const bodyEl = this.panel.querySelector(
@@ -328,6 +334,54 @@ class Widget {
       this.draft.correctInfo = correctEl.value;
     });
     submit.addEventListener('click', () => this.onSubmit());
+  }
+
+  /** v3：「我的回報」列表（狀態 + issue 連結 + AI 初判理由）。 */
+  private async renderMyFeedback(): Promise<void> {
+    const t = this.t;
+    this.panel.innerHTML =
+      this.header(t.myFeedback) +
+      `<div class="twmd-fb-body"><div class="twmd-fb-spin" aria-hidden="true"></div></div>`;
+    this.wireClose();
+    let items: MyFeedbackItem[] = [];
+    try {
+      items = (await this.backend?.myFeedback()) || [];
+    } catch {
+      items = [];
+    }
+    const statusLabel = (s: string) =>
+      s === 'filed'
+        ? t.statusFiled
+        : s === 'rejected'
+          ? t.statusRejected
+          : t.statusNew;
+    const clip = (s: string) => (s.length > 120 ? s.slice(0, 119) + '…' : s);
+    const list = items.length
+      ? items
+          .map(
+            (it) =>
+              `<div class="twmd-fb-mineitem">
+                <div class="twmd-fb-minehead">
+                  <span class="twmd-fb-minetype">${esc(this.labelFor(it.type))}</span>
+                  <span class="twmd-fb-minestatus twmd-fb-st-${esc(it.status)}">${esc(statusLabel(it.status))}</span>
+                </div>
+                <div class="twmd-fb-minebody">${esc(clip(it.body || ''))}</div>
+                ${it.triageNote ? `<div class="twmd-fb-minenote"><strong>${esc(t.triageNoteLabel)}</strong> ${esc(it.triageNote)}</div>` : ''}
+                ${it.issueUrl ? `<a class="twmd-fb-link" href="${esc(it.issueUrl)}" target="_blank" rel="noopener">${esc(t.viewIssue)}${it.issueNumber ? ' #' + it.issueNumber : ''} →</a>` : ''}
+              </div>`,
+          )
+          .join('')
+      : `<p class="twmd-fb-intro">${esc(t.myFeedbackEmpty)}</p>`;
+    this.panel.innerHTML =
+      this.header(t.myFeedback) +
+      `<div class="twmd-fb-body">
+        ${list}
+        <button type="button" class="twmd-fb-link" data-back>← ${esc(t.back)}</button>
+      </div>`;
+    this.wireClose();
+    this.panel
+      .querySelector('[data-back]')
+      ?.addEventListener('click', () => this.renderForm());
   }
 
   private async onSubmit(): Promise<void> {

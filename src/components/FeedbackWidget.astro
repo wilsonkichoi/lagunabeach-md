@@ -369,6 +369,71 @@ const url =
     color: #d1d5db;
   }
 
+  /* v3：「我的回報」列表（閉環可見性） */
+  .twmd-fb-mine-entry {
+    align-self: flex-end;
+    color: var(--twmd-fb-accent2);
+    font-weight: 600;
+  }
+  .twmd-fb-mineitem {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    padding: 0.55rem 0.65rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  .twmd-fb-minehead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+  .twmd-fb-minetype {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #374151;
+  }
+  .twmd-fb-minestatus {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.45rem;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .twmd-fb-st-new {
+    background: #eef2ff;
+    color: #4338ca;
+  }
+  .twmd-fb-st-filed {
+    background: #dcfce7;
+    color: #15803d;
+  }
+  .twmd-fb-st-rejected {
+    background: #f3f4f6;
+    color: #6b7280;
+  }
+  .twmd-fb-minebody {
+    font-size: 0.8rem;
+    color: #4b5563;
+    line-height: 1.45;
+  }
+  .twmd-fb-minenote {
+    font-size: 0.76rem;
+    color: #6b7280;
+    background: rgba(26, 60, 52, 0.05);
+    border-radius: 6px;
+    padding: 0.35rem 0.5rem;
+  }
+  .twmd-fb-minenote strong {
+    color: var(--twmd-fb-accent);
+  }
+  html[data-theme='dark'] .twmd-fb-mineitem {
+    border-color: rgba(255, 255, 255, 0.12);
+  }
+  html[data-theme='dark'] .twmd-fb-minebody {
+    color: #d1d5db;
+  }
+
   /* dark theme（站上用 <html data-theme="dark">） */
   html[data-theme='dark'] .twmd-fb-fab {
     background: #1f2937;

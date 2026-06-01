@@ -71,13 +71,14 @@ async function fetchNewFeedback(limit) {
   return res.json();
 }
 
-async function writeBackStatus(id, status, issue) {
+async function writeBackStatus(id, status, issue, note) {
   const url = process.env.SUPABASE_URL;
   const key = process.env.SUPABASE_SERVICE_KEY;
   const patch = {
     status,
     triaged_at: new Date().toISOString(),
     ...(issue ? { issue_url: issue.url, issue_number: issue.number } : {}),
+    ...(note ? { triage_note: note } : {}),
   };
   const res = await fetch(`${url}/rest/v1/feedback?id=eq.${id}`, {
     method: 'PATCH',
@@ -168,7 +169,7 @@ async function main() {
       console.log(`         labels: ${r.issue.labels.join(', ')}`);
       if (args.commit) {
         const created = createIssue(r.issue);
-        await writeBackStatus(r.row.id, 'filed', created);
+        await writeBackStatus(r.row.id, 'filed', created, r.note);
         console.log(`         → ${created.url}`);
       } else {
         console.log(`         (dry-run; --commit to file)`);
@@ -176,7 +177,7 @@ async function main() {
     } else {
       console.log(`  ${tag} id=${r.row.id} · ${r.reason}`);
       if (args.commit && r.decision === 'reject') {
-        await writeBackStatus(r.row.id, 'rejected', null);
+        await writeBackStatus(r.row.id, 'rejected', null, r.note);
       }
       // skip(dup) 不改 status:留著下次再判（避免漏接真不同的回報）
     }

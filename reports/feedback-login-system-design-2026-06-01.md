@@ -489,3 +489,79 @@ alter table public.feedback add constraint feedback_type_check
 ---
 
 _v2 supplement｜2026-06-01｜哲宇 directive「全站 + 選文段 + 極度好登入」。實作見同 session commits + go-live log。_
+
+---
+
+---
+
+# v3 設計：Grokipedia 啟發 — 回報的「閉環可見性」（2026-06-01 哲宇 directive）
+
+> 哲宇 directive：「參考 Grokipedia,有可以看到曾經變更過什麼的頁面等,完整思考、進化 taiwan.md。」
+>
+> Grokipedia 給的不是「怎麼收回報」(v1/v2 已解決),是**回報之後的閉環如何對讀者可見**:edit 列表、狀態(In Review/Approved)、AI 對每筆 edit 的公開回應(Grok Feedback)、貢獻者個人頁、文章修訂史。**核心洞見:讓貢獻者看見自己的貢獻被怎麼處理,是維持貢獻動機的關鍵。**
+
+## v3.1 對照盤點:taiwan.md 已有什麼 / 缺什麼
+
+| Grokipedia 元素                               | taiwan.md 現況                                           | 進化動作                                                                |
+| --------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Suggest Edit modal（summary + 選錯字 + 來源） | **v2 widget 已對齊**（選文段勘誤 + correct_info 來源欄） | 已完成 ✅                                                               |
+| Edit 列表 + 狀態（In Review/Approved）        | feedback 表有 status（new/filed/rejected）+ issue_url    | **「我的回報」view**（登入者看自己的 + 狀態 + issue 連結）              |
+| Grok Feedback（AI 回應每筆 edit + 理由）      | triage 開 issue,但理由不回給讀者                         | **回寫 `triage_note`**（AI 初判理由）+ 讀者在「我的回報」看得到         |
+| Contributor profile（統計 + edit 史）         | `/contributors` 有貢獻者資料（git-based）                | **per-contributor 頁**（既有 PR/commit + 未來 feedback 統計）           |
+| Edit history / 修訂史                         | **每篇文章已有完整 git 史**（.md 按鈕 + GitHub blame）   | **文章「修訂紀錄」affordance**（surface git log 成讀者可讀的 timeline） |
+
+**關鍵體悟**:taiwan.md 的「修訂史」其實**比 Grokipedia 更強** —— 每篇文章是 git-tracked Markdown,完整 commit 史、diff、blame 都在。Grokipedia 要自建 revision 系統;我們只要把既有 git 史**surface 給讀者**。這是 sovereignty 的副產品(知識在 git 不在黑箱 DB)。
+
+## v3.2 北極星:閉環可見性（Closed-loop visibility）
+
+讀者送出回報後,旅程不該斷在「謝謝」。長期最好的設計讓他能：
+
+1. **看見自己送過什麼**（我的回報列表 + 狀態）。
+2. **看見系統怎麼回應**（AI 初判理由 + 最終 issue/merge 連結）—— 這是信任引擎。
+3. **看見文章怎麼演化**（修訂史 timeline,他的貢獻在其中）。
+
+這把「一次性回報」變成「持續參與的關係」,呼應 MANIFESTO §受眾端飛輪(人本 + 透明度 + 誠懇)。
+
+## v3.3 增量 A：「我的回報」狀態 view（widget 內，本 session 實作）
+
+widget header 加一個「我的回報」入口（登入後顯示）。點開 → 列出該使用者送過的 feedback（RLS 已允許讀自己的列）：
+
+- 每列：類別 icon + 摘要 + 狀態 badge（待處理 / 已轉 issue / 已婉拒）+（若 filed）issue 連結 +（若有）AI 初判理由。
+- 資料：`backend.myFeedback()` → `select * from feedback where uid=auth.uid() order by created_at desc`（RLS 自動限定）。
+- 對應 Grokipedia 的「Your Edits」+ 狀態。
+
+## v3.4 增量 B：AI 回饋透明化（Grok Feedback 對應）
+
+triage 處理每筆回報時,除了開 issue,**回寫一行 `triage_note`**（AI 初判:可驗證 / 待查 / 為何分這類）到 feedback 列。讀者在「我的回報」看得到。
+
+- schema 0003：`alter table feedback add column triage_note text;`
+- triage.mjs：filed 時一併 PATCH `triage_note`。
+- **§自主權邊界守則不變**:`triage_note` 是「機械初判 + 分類理由」(輸入端處理),**不是**維護者對讀者的正式回覆(那仍走 MAINTAINER 人類 gate）。措辭中性、標「初步自動初判,維護者會再看」。
+
+## v3.5 增量 C：文章修訂史 affordance（surface git，本 session 設計，可後續實作）
+
+每篇文章頁加一個「修訂紀錄」入口（既有 git 史 surface）：
+
+- 資料源:文章 .md 的 git log（taiwan.md 已在 build 時抓 contributors/git info — `buildGitInfoCache`）。
+- 呈現:最近 N 次變更 timeline（日期 + 貢獻者 + commit summary + diff 連結到 GitHub）。
+- 與 feedback 閉環:讀者的勘誤 → issue → 文章 commit,出現在修訂史 → 讀者看見自己的回報「落地成歷史」。
+- **長期最好**:這層不需要新 DB(git 就是 revision store),純 prebuild 生 JSON + 一個 client view。隔離失敗域不變。
+
+## v3.6 增量 D：貢獻者個人頁（設計，phase-next）
+
+`/contributor/{handle}`:該貢獻者的 PR/commit 統計（既有 contributors data）+ 未來 feedback 統計（送出/被採納/approval rate,對應 Grokipedia profile）。git-based,靜態 prebuild。
+
+## v3.7 實作優先序（本 session）
+
+1. **A「我的回報」view** + **B `triage_note` 透明化**:最對齊 Grokipedia「Your Edits + Grok Feedback」,且在既有 feedback 子系統內、隔離失敗域不變、實作量可控 → **本 session 做**。
+2. **C 修訂史** + **D 貢獻者頁**:價值高但是新 surface（碰 article template / 新路由）、量較大 → 設計定稿在此,phase-next 實作（避免一次塞太多進已在 build 的 v2）。
+
+## v3.8 失敗域 / 邊界再確認
+
+- A/B 都在 feedback 子系統內（widget + BaaS + triage），主站零改動,degrade 不變。✅
+- B 的 `triage_note` 是 AI 機械初判（輸入端）,維護者正式回覆仍人類 gate。✅
+- C/D 是 git surface（讀既有資料生靜態 JSON）,不碰寫入、不新增失敗域。✅
+
+---
+
+_v3 supplement｜2026-06-01｜哲宇 directive「參考 Grokipedia,看變更史,進化 taiwan.md」。閉環可見性:我的回報 + AI 回饋透明 + 修訂史 surface。實作見同 session commits。_
