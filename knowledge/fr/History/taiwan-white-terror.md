@@ -19,10 +19,10 @@ readingTime: 11
 lastVerified: 2026-04-05
 lastHumanReview: false
 translatedFrom: 'History/台灣白色恐怖.md'
-sourceCommitSha: '49fa1f59'
-sourceContentHash: 'sha256:2745e3b13be3485d'
+sourceCommitSha: '6c2f8ea8'
+sourceContentHash: 'sha256:95fed80eda56f46a'
 translatedAt: '2026-05-29T00:35:00+08:00'
-sourceBodyHash: 'sha256:3c3f9e49a7a59ba1'
+sourceBodyHash: 'sha256:c81706526bb2277b'
 ---
 
 # Taiwan White Terror

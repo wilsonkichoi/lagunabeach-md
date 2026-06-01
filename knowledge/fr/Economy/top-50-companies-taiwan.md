@@ -23,9 +23,9 @@ lastVerified: 2026-05-20
 lastHumanReview: false
 featured: false
 translatedFrom: 'Economy/台灣前50大企業.md'
-sourceCommitSha: '49fa1f59'
-sourceContentHash: 'sha256:266d920f5a131ed1'
-sourceBodyHash: 'sha256:95f251cf4a5d28b7'
+sourceCommitSha: '9c2bf6ef'
+sourceContentHash: 'sha256:2559cf50531f733b'
+sourceBodyHash: 'sha256:6dff77bc3fd9be7a'
 translatedAt: '2026-05-20T05:08:34+08:00'
 ---
 

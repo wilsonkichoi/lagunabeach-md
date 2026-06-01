@@ -19,9 +19,9 @@ featured: false
 lastVerified: 2026-05-13
 translatedFrom: 'People/李珠珢.md'
 readingTime: 10
-sourceCommitSha: '49fa1f59'
-sourceContentHash: 'sha256:c87fa614c30922e7'
-sourceBodyHash: 'sha256:c0d649ed19f7f301'
+sourceCommitSha: '859d7316'
+sourceContentHash: 'sha256:451da618ddccb297'
+sourceBodyHash: 'sha256:4b9c8f80e4d299c5'
 translatedAt: '2026-05-29T00:35:00+08:00'
 ---
 

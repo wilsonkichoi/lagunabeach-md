@@ -19,9 +19,9 @@ readingTime: 14
 lastVerified: 2026-03-31
 lastHumanReview: false
 translatedFrom: 'History/二二八事件.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:634ee0a75c18646d'
-sourceBodyHash: 'sha256:af07edaeaadb2899'
+sourceCommitSha: '6c2f8ea8'
+sourceContentHash: 'sha256:4d3c97207d94073d'
+sourceBodyHash: 'sha256:1db38e403d646d80'
 translatedAt: '2026-05-02T08:50:00+08:00'
 ---
 

@@ -19,9 +19,9 @@ featured: true
 lastVerified: 2026-03-24
 lastHumanReview: false
 translatedFrom: 'Food/茶文化.md'
-sourceCommitSha: '800114ea'
-sourceContentHash: 'sha256:224c9e016e85d4f1'
-sourceBodyHash: 'sha256:6ba7adb37f74ad5b'
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:86475082b87388fc'
+sourceBodyHash: 'sha256:a9375147f15627a6'
 translatedAt: '2026-05-01T17:09:56+08:00'
 ---
 

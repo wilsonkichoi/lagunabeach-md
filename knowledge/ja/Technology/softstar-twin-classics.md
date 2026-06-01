@@ -21,9 +21,9 @@ lastVerified: '2026-04-23'
 lastHumanReview: 'false'
 featured: 'false'
 translatedFrom: 'Technology/大宇雙劍.md'
-sourceCommitSha: '49fa1f59'
-sourceContentHash: 'sha256:676f2a6847ce9f55'
-sourceBodyHash: 'sha256:5453ae20da287bcb'
+sourceCommitSha: 'decc6fc1'
+sourceContentHash: 'sha256:8e80804c9910ac1a'
+sourceBodyHash: 'sha256:c6e2238f1a2c15d5'
 translatedAt: '2026-05-29T00:35:00+08:00'
 ---
 
