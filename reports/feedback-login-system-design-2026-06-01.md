@@ -375,3 +375,117 @@ create policy sel_own on feedback for select using (auth.uid() = uid);
 ---
 
 _🧬 Taiwan.md draft，2026-06-01 twmd-become full session。命中 §自主權邊界，等哲宇 review §9 決策才動帳號與錢。完整調查見 §1。_
+
+---
+
+---
+
+# v2 升級：全站 ambient feedback + 文段精準標註（2026-06-01 哲宇 directive）
+
+> 哲宇 directive：「review 出現在所有頁面、極度好登入跟低阻力、文章頁特化（選文段勘誤/提案）、各頁型類似操作，想清楚對長期最好、最能讓大家好回報。」
+>
+> v1（§0-§10）做的是「文章頁浮動鈕 + 三類別 + 三登入」。v2 把 feedback 從**一顆按鈕**升成**一層遍佈全站、依頁面語境變形、能精準指到某一句話的回報神經**。
+
+## v2.1 北極星與長期原則
+
+**北極星**：讓「我發現了什麼 / 我想看什麼」這個念頭，在讀者腦中浮現的**那一秒、那個位置**就能無摩擦送出。回報不是一個要「去找」的功能，是一個**隨時在手邊、貼著當下語境**的反射。
+
+長期設計原則（決定每個取捨）：
+
+1. **語境貼合 > 通用表單**：讀者在李安那篇選到「1990 年得獎」時，最低摩擦是**就地**說「這裡錯了」，而不是「開回報 → 重打哪篇 → 描述哪段」。系統要把語境（哪頁、哪段、哪句）自動帶上。
+2. **阻力階梯遞減**：先讓人**動手**（選字 / 打字），最後一刻才要身份；有 Google session 的人一鍵；OAuth 給了名字就不再問暱稱。每一步都問「這步能不能省」。
+3. **隔離失敗域不變**：v2 仍是一層 client-side island，BaaS 掛了就 graceful degrade，主站（含全站每一頁）零影響。全站鋪開 ≠ 全站耦合。
+4. **一個回報 = 一個可定位的事實**：精準到「哪一句」的回報，對 Semiont 的逆熵價值最高（維護者不用猜哪裡錯）。所以資料模型要存 `quote` + 可深連結的 anchor。
+5. **頁型是一等公民**：文章 / 分類 / 首頁 / dashboard / semiont 各有最自然的回報動作。同一個 widget，依 `pageKind` 變形類別與文案，而不是每頁寫一個 widget。
+
+## v2.2 全站 ambient 架構
+
+- **掛載點上移到 Layout**：v1 只有 `article.template.astro` 傳 `feedback`。v2 改成 **Layout 對每個頁面都 render**（gate 在 `resolveBackendKind() !== 'off'`），shot-mode / raw 純文字頁 opt-out。一處改、全站有。
+- **`pageKind` 衍生**：Layout 從 `type`（website/article）+ `Astro.url.pathname` 推出 `pageKind ∈ {article, category, home, dashboard, semiont, other}`，連同 slug/category/title/url 一起當 data 屬性傳給 widget。
+- **失敗域**：widget 仍整包 try/catch；任何一頁的 widget 出錯只 swallow，不影響該頁 render。
+
+## v2.3 文章頁特化：選文段就地標註（核心）
+
+讀者在文章內文選取一段文字 → 游標旁浮出小藥丸 **「🧬 勘誤這段 / 提案」** → 點下去 widget 開啟,**自動帶**：
+
+- `type = content`（勘誤）
+- `quote` = 選取的原文（trim、capped ~1000 字）
+- `source_url` = 該頁 URL + **W3C Text Fragment**（`#:~:text=prefix-,start,...,-suffix`）
+
+**為什麼用 W3C Text Fragment 當 anchor（長期最穩）**：
+
+- 維護者點 issue 裡的連結 → 瀏覽器**自動捲到並高亮**那段原文,不用人工找。
+- 不依賴 DOM id / 字數位移,文章小改也大多還能命中（fragment 用前後文 disambiguate）。
+- 純 URL,可貼進 GitHub issue / 任何地方,零額外基建。
+- 退化優雅:就算 fragment 失效,`quote` 原文仍在 issue body,維護者搜尋即得。
+
+**anchor 穩健度補強**：除了 text fragment,issue body 也存 `quote` blockquote +（選取點最近的 heading）當人類可讀定位。雙保險。
+
+非文章頁不啟用選字標註（沒有「原文」可標）,但其他頁型有對應動作（見 v2.4）。
+
+## v2.4 頁型 context-aware 行為
+
+同一 widget,依 `pageKind` 換**類別集 + 文案 + 預設**：
+
+| pageKind            | 類別集（預設）                             | 特化                                   |
+| ------------------- | ------------------------------------------ | -------------------------------------- |
+| `article`           | 勘誤 / 網站問題 / 建議新主題               | + 選文段 → 勘誤這段（帶 quote+anchor） |
+| `category`          | 建議這個分類的新文章 / 網站問題 / 一般想法 | 預設 newtopic,帶 category              |
+| `home`              | 建議新主題 / 網站問題 / 一般想法           | 預設 idea                              |
+| `dashboard`         | 資料/顯示問題 / 一般想法                   | 預設 bug（數據頁常是回報數字怪）       |
+| `semiont` / `other` | 一般想法 / 網站問題                        | 預設 idea                              |
+
+類別在後端仍正規化成 cron 認得的四桶（content / bug / newtopic / idea→newtopic 或獨立）。**新增一桶 `idea`（一般想法/建議）** 對應 GitHub label `enhancement`（既有），讓「不針對特定文章的想法」有家。
+
+## v2.5 極度好登入（阻力階梯）
+
+由低到高摩擦,能停在越前面越好：
+
+1. **已登入**（persistent session）→ 0 步,直接送。
+2. **Google One-Tap**（有 Google session 的瀏覽器）→ 面板開啟即浮 One-Tap 卡,一點完成,不離開頁面。（實作:GSI client + `supabase.auth.signInWithIdToken`;Supabase Google provider 已啟用。列為 v2 enhancement,nonce 處理見實作註記。）
+3. **OAuth 一鍵**（Google / GitHub 按鈕）→ redirect 回來自動續(draft 存 sessionStorage)。
+4. **Email magic-link** → 保底,拿得到 email。
+
+**省掉的步**：
+
+- **OAuth 給了名字 → 跳過暱稱步**：`needsNickname` 改成「只有完全沒有可用顯示名（email-only 且沒設過暱稱）才問」。Google/GitHub 登入者直接送出,少一步。
+- draft 跨 redirect 不掉（已實作）。
+- 送出即時確認（optimistic,已實作）。
+
+## v2.6 資料模型增量（migration 0002，additive）
+
+```sql
+alter table public.feedback add column if not exists quote text check (char_length(quote) <= 1000);
+alter table public.feedback add column if not exists page_kind text;
+-- type CHECK 放寬納入 'idea'
+alter table public.feedback drop constraint if exists feedback_type_check;
+alter table public.feedback add constraint feedback_type_check
+  check (type in ('content','bug','newtopic','idea'));
+```
+
+`source_url` 沿用（裝 text-fragment deep link）。零破壞、純加欄,既有 v1 資料不動。
+
+## v2.7 triage / issue 變化
+
+`buildIssue` 在 content（含選字勘誤）時,body 加：
+
+```
+> （讀者選取的原文）
+{quote}
+
+🔗 直接定位：{source_url 含 #:~:text=...}
+```
+
+- `idea` 類 → label `enhancement` + `from-feedback`,title `[Idea] …`,進 maintainer 一般 triage。
+- `page_kind` 寫進 provenance 行（維護者知道來自哪種頁面）。
+
+## v2.8 對 MANIFESTO / 失敗域的再確認
+
+- **逆熵升級**：精準到句的勘誤 = 最高純度 entropy signal。✅
+- **隔離失敗域**：全站鋪開仍是單層 island + try/catch + degrade;BaaS 掛 → 全站每頁照常 render。✅
+- **§自主權邊界**：開 issue 仍是機械轉錄讀者原話(現在連他選的那句都 verbatim);維護者回覆/merge 留人類。✅
+- **低阻力 vs 品質防線**：登入仍是門檻（擋匿名洗版 + 給維護者可聯絡身份）;One-Tap 只是把「已是 Google 使用者」的人摩擦降到極低,不是拿掉身份。✅
+
+---
+
+_v2 supplement｜2026-06-01｜哲宇 directive「全站 + 選文段 + 極度好登入」。實作見同 session commits + go-live log。_

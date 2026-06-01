@@ -16,8 +16,16 @@ interface Props {
   slug?: string;
   category?: string; // category slug
   title?: string;
+  /** article | category | home | dashboard | semiont | other (v2 context-aware). */
+  pageKind?: string;
 }
-const { lang = 'zh-TW', slug = '', category = '', title = '' } = Astro.props;
+const {
+  lang = 'zh-TW',
+  slug = '',
+  category = '',
+  title = '',
+  pageKind = 'other',
+} = Astro.props;
 const langUrlPrefix = lang === 'zh-TW' ? '' : `/${lang}`;
 const url =
   category && slug
@@ -32,6 +40,7 @@ const url =
   data-category={category}
   data-title={title}
   data-url={url}
+  data-pagekind={pageKind}
 >
 </div>
 
@@ -306,6 +315,58 @@ const url =
     to {
       transform: rotate(360deg);
     }
+  }
+
+  /* 選文段浮出的藥丸（v2 inline annotation） */
+  .twmd-fb-selpill {
+    position: absolute;
+    z-index: 70;
+    padding: 0.4rem 0.7rem;
+    border: none;
+    border-radius: 999px;
+    background: var(--twmd-fb-accent);
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+    white-space: nowrap;
+    animation: twmd-fb-pop 0.12s ease-out;
+  }
+  .twmd-fb-selpill:hover {
+    background: #14302a;
+  }
+  @keyframes twmd-fb-pop {
+    from {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+  }
+  /* 表單裡顯示讀者選取的原文 */
+  .twmd-fb-quote {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .twmd-fb-quote-label {
+    font-size: 0.72rem;
+    color: #9ca3af;
+  }
+  .twmd-fb-quote blockquote {
+    margin: 0;
+    padding: 0.4rem 0.6rem;
+    border-left: 3px solid var(--twmd-fb-accent);
+    background: #f3f4f6;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.82rem;
+    color: #374151;
+    max-height: 96px;
+    overflow-y: auto;
+  }
+  html[data-theme='dark'] .twmd-fb-quote blockquote {
+    background: #1f2937;
+    color: #d1d5db;
   }
 
   /* dark theme（站上用 <html data-theme="dark">） */

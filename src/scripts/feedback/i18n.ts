@@ -14,6 +14,12 @@ export interface FeedbackStrings {
   typeContentHint: string;
   typeBugHint: string;
   typeNewtopicHint: string;
+  typeIdea: string;
+  typeIdeaHint: string;
+  typeNewArticle: string; // category 頁的「建議這個分類的新文章」
+  typeNewArticleHint: string;
+  selectPill: string; // 選文段浮出的小藥丸
+  quoteLabel: string; // 表單裡顯示「你選取的段落」
   bodyPlaceholder: string;
   correctInfoLabel: string;
   correctInfoPlaceholder: string;
@@ -52,6 +58,12 @@ const en: FeedbackStrings = {
   typeContentHint: 'A fact in this article is wrong or outdated',
   typeBugHint: 'A page, link, or display is broken',
   typeNewtopicHint: 'Suggest something about Taiwan we should cover',
+  typeIdea: 'Idea / suggestion',
+  typeIdeaHint: 'A general thought about Taiwan.md',
+  typeNewArticle: 'Suggest an article',
+  typeNewArticleHint: 'Propose an article for this category',
+  selectPill: '🧬 Suggest a fix',
+  quoteLabel: 'Your selected passage',
   bodyPlaceholder: 'What did you find? Be specific.',
   correctInfoLabel: 'Correct info + source (optional)',
   correctInfoPlaceholder: 'Correct: …  Source: https://…',
@@ -87,6 +99,12 @@ const zhTW: FeedbackStrings = {
   typeContentHint: '這篇文章有事實錯誤或過時資訊',
   typeBugHint: '頁面、連結或顯示壞掉了',
   typeNewtopicHint: '建議一個台灣值得寫的主題',
+  typeIdea: '一般想法',
+  typeIdeaHint: '對 Taiwan.md 的建議或想法',
+  typeNewArticle: '建議新文章',
+  typeNewArticleHint: '提議這個分類值得收的主題',
+  selectPill: '🧬 勘誤這段',
+  quoteLabel: '你選取的段落',
   bodyPlaceholder: '你發現了什麼?請具體一點。',
   correctInfoLabel: '正確資訊 + 來源(選填)',
   correctInfoPlaceholder: '正確的是:…  來源:https://…',
@@ -122,6 +140,12 @@ const ja: FeedbackStrings = {
   typeContentHint: 'この記事の事実が誤り、または古い',
   typeBugHint: 'ページ・リンク・表示が壊れている',
   typeNewtopicHint: '台湾について扱うべきテーマを提案',
+  typeIdea: 'アイデア / 提案',
+  typeIdeaHint: 'Taiwan.md への提案や感想',
+  typeNewArticle: '記事を提案',
+  typeNewArticleHint: 'このカテゴリで扱うべきテーマを提案',
+  selectPill: '🧬 この部分を訂正',
+  quoteLabel: '選択した箇所',
   bodyPlaceholder: '何を見つけましたか?具体的にお願いします。',
   correctInfoLabel: '正しい情報 + 出典(任意)',
   correctInfoPlaceholder: '正しくは:…  出典:https://…',
@@ -157,6 +181,12 @@ const ko: FeedbackStrings = {
   typeContentHint: '이 글에 사실 오류나 오래된 정보가 있어요',
   typeBugHint: '페이지·링크·표시가 깨졌어요',
   typeNewtopicHint: '대만에 대해 다룰 만한 주제를 제안',
+  typeIdea: '아이디어 / 제안',
+  typeIdeaHint: 'Taiwan.md에 대한 제안이나 생각',
+  typeNewArticle: '새 글 제안',
+  typeNewArticleHint: '이 분류에 다룰 만한 주제를 제안',
+  selectPill: '🧬 이 부분 정정',
+  quoteLabel: '선택한 문단',
   bodyPlaceholder: '무엇을 발견했나요? 구체적으로 적어주세요.',
   correctInfoLabel: '올바른 정보 + 출처(선택)',
   correctInfoPlaceholder: '올바른 내용: …  출처: https://…',
@@ -192,6 +222,12 @@ const es: FeedbackStrings = {
   typeContentHint: 'Un dato de este artículo es erróneo o está desactualizado',
   typeBugHint: 'Una página, enlace o visualización está rota',
   typeNewtopicHint: 'Sugiere algo sobre Taiwán que deberíamos cubrir',
+  typeIdea: 'Idea / sugerencia',
+  typeIdeaHint: 'Una idea general sobre Taiwan.md',
+  typeNewArticle: 'Sugerir un artículo',
+  typeNewArticleHint: 'Propón un artículo para esta categoría',
+  selectPill: '🧬 Corregir esto',
+  quoteLabel: 'El pasaje que seleccionaste',
   bodyPlaceholder: '¿Qué encontraste? Sé específico.',
   correctInfoLabel: 'Información correcta + fuente (opcional)',
   correctInfoPlaceholder: 'Correcto: …  Fuente: https://…',
@@ -228,6 +264,12 @@ const fr: FeedbackStrings = {
   typeContentHint: 'Un fait de cet article est faux ou périmé',
   typeBugHint: 'Une page, un lien ou un affichage est cassé',
   typeNewtopicHint: 'Proposez un sujet sur Taïwan à couvrir',
+  typeIdea: 'Idée / suggestion',
+  typeIdeaHint: 'Une idée générale sur Taiwan.md',
+  typeNewArticle: 'Proposer un article',
+  typeNewArticleHint: 'Proposez un article pour cette catégorie',
+  selectPill: '🧬 Corriger ce passage',
+  quoteLabel: 'Le passage sélectionné',
   bodyPlaceholder: "Qu'avez-vous trouvé ? Soyez précis.",
   correctInfoLabel: 'Info correcte + source (facultatif)',
   correctInfoPlaceholder: 'Correct : …  Source : https://…',

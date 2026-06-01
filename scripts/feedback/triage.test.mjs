@@ -117,3 +117,49 @@ test('triageBatch: file genuine, reject spam, skip in-batch dup', () => {
   const filed = results.filter((r) => r.decision === 'file');
   assert.equal(filed.length, 3);
 });
+
+// ── v2: idea type + selected-quote annotation ────────────────────────────────
+test('resolveType passes idea through', () => {
+  assert.equal(resolveType({ type: 'idea', body: '想法' }), 'idea');
+});
+
+test('buildIssue maps idea → enhancement + [Idea] title', () => {
+  const iss = buildIssue({
+    id: 'i1',
+    type: 'idea',
+    body: '希望每頁都能切深色模式',
+    page_kind: 'home',
+  });
+  assert.equal(iss.type, 'idea');
+  assert.match(iss.title, /^\[Idea\] /);
+  assert.deepEqual(iss.labels, ['enhancement', 'from-feedback']);
+});
+
+test('content issue embeds selected quote + text-fragment deep link', () => {
+  const row = {
+    id: 'q1',
+    type: 'content',
+    article_title: '李安',
+    article_slug: '李安',
+    page_kind: 'article',
+    source_url: 'https://taiwan.md/people/李安#:~:text=1990',
+    quote: '《臥虎藏龍》1990 年得獎',
+    body: '年份錯了，應為 2001。',
+  };
+  const iss = buildIssue(row);
+  assert.match(iss.body, /讀者選取的原文/);
+  assert.match(iss.body, /《臥虎藏龍》1990 年得獎/);
+  assert.match(iss.body, /直接定位/);
+  assert.match(iss.body, /#:~:text=/);
+  assert.doesNotMatch(iss.body, /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/i);
+});
+
+test('provenance carries page_kind', () => {
+  const iss = buildIssue({
+    id: 'p1',
+    type: 'bug',
+    body: '這個數字怪怪的',
+    page_kind: 'dashboard',
+  });
+  assert.match(iss.body, /來源頁:dashboard/);
+});

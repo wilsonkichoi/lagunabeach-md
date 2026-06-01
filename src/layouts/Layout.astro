@@ -47,7 +47,8 @@ interface Props {
    * (correction / bug / new-topic → managed backend → cron → GitHub issue).
    * Self-gates on PUBLIC_FEEDBACK_MODE (off/github-only/mock/supabase); when
    * unconfigured it degrades to a static "report on GitHub" button, so it is
-   * always safe to leave on. Default: false. Article template opts in.
+   * always safe to leave on. Default: true (every surface that uses Layout).
+   * Pass feedback={false} to opt a surface out (e.g. embed/raw views).
    */
   feedback?: boolean;
 }
@@ -69,7 +70,7 @@ const {
   categorySlug: propCategorySlug,
   noindex,
   readerSettings = false,
-  feedback = false,
+  feedback = true,
 } = Astro.props;
 
 // Search index now loaded via /api/search-index.json (fetch API)
@@ -86,6 +87,20 @@ const categorySlug =
   propCategorySlug?.toLowerCase() || category?.toLowerCase() || '';
 const currentPath = Astro.url.pathname.replace(/\/$/, '') || '/';
 const isHome = currentPath === '/' || currentPath === '/en';
+// Feedback widget page-kind (v2): drives context-aware category set + inline
+// text-selection annotation on articles. Derived from page type + path.
+const fbPageKind =
+  type === 'article'
+    ? 'article'
+    : currentPath.includes('/dashboard')
+      ? 'dashboard'
+      : currentPath.includes('/semiont')
+        ? 'semiont'
+        : isHome
+          ? 'home'
+          : propCategorySlug
+            ? 'category'
+            : 'other';
 // justfont: only put the body font class on <body> to avoid rate-limit.
 // Other font classes go on specific elements (h1-h6, blockquote, nav, etc.)
 const jfClass = [
@@ -871,6 +886,7 @@ const jfClass = [
           slug={slug}
           category={categorySlug}
           title={title}
+          pageKind={fbPageKind}
         />
       )
     }

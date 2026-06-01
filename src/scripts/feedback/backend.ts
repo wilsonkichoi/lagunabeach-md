@@ -56,7 +56,8 @@ class MockBackend implements FeedbackBackend {
       uid: rec.uid,
       email: rec.email,
       displayName: resolveDisplayName(nickname, rec.oauthName, rec.email),
-      needsNickname: !nickname,
+      // v2 低阻力：OAuth 給了名字就不再問暱稱（只有 email-only 且沒設過才問）。
+      needsNickname: !nickname && !rec.oauthName,
     };
   }
 
@@ -183,7 +184,8 @@ class SupabaseBackend implements FeedbackBackend {
       uid: u.id,
       email,
       displayName: resolveDisplayName(nickname, oauthName, email),
-      needsNickname: !nickname,
+      // v2 低阻力：OAuth 給了名字就不再問暱稱。
+      needsNickname: !nickname && !oauthName,
     };
   }
 
@@ -235,6 +237,8 @@ class SupabaseBackend implements FeedbackBackend {
         type: draft.type,
         body: draft.body,
         correct_info: draft.correctInfo || null,
+        quote: draft.quote || null,
+        page_kind: draft.pageKind || null,
         status: 'new',
       })
       .select('id')

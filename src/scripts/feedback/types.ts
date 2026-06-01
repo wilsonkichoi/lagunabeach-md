@@ -2,7 +2,7 @@
  * types.ts — Feedback 子系統共用型別（widget ↔ backend 契約）。
  */
 
-export type FeedbackType = 'content' | 'bug' | 'newtopic';
+export type FeedbackType = 'content' | 'bug' | 'newtopic' | 'idea';
 
 /** OAuth 登入提供者（email magic-link 走另一條路，不在此列）。 */
 export type OAuthProvider = 'google' | 'github';
@@ -28,6 +28,10 @@ export interface FeedbackDraft {
   category: string;
   lang: string;
   sourceUrl: string;
+  /** 讀者在文章選取的原文（選文段勘誤；v2）。 */
+  quote?: string;
+  /** 來源頁型 article/category/home/dashboard/semiont/other（v2）。 */
+  pageKind?: string;
 }
 
 export interface SubmitResult {
