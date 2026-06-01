@@ -262,6 +262,15 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-01 manual — peer 是線索不是 source 的最強 instance（內行人 frame 也有縫，OPUS≠雷亞）+ 歸屬密集主題是 AI 幻覺高風險區
+
+- **觸發**：配樂專業讀者 peilinwu0702 Threads 公開 callout `台灣影視配樂`（3/19 早期批次）錯誤率>30%，列一連串作曲家↔作品誤植；/twmd-rewrite 全篇重查重寫。
+- **教訓 1（peer frame 有縫）**：沛綾的勘誤約 95% 正確（海角七號=何國杰、月夜愁非返校主旋律），但她話裡把 OPUS 歸雷亞——OPUS 實為 SIGONO 開發、Triodust 配樂。若照抄她的 frame 會用新錯誤換舊錯誤。**越可信的 frame 越要查那剩下的 5%**，因為高可信度會壓抑查證衝動。REFLEXES #16 的最強 instance：領域專家本人也是線索不是 source。
+- **教訓 2（歸屬密集＝AI 幻覺高風險）**：舊文幾乎每個「作曲家↔作品」配對都是 AI 幻覺誤植（范宗沛／林生祥／盧律銘 三人全錯位），且錯得 plausible（獎名＋屆次＋得獎身份都具體）。「A↔B 密集對應」主題（配樂↔電影、球員↔球隊、作者↔著作、樂團成員↔樂團）是 AI 最易張冠李戴的結構。RESEARCH.md §張冠李戴「查歸屬不只查 fact」應升為這類主題的強制 audit step。
+- **forward action**：早期批次（3/19 等）＋歸屬密集＝系統性重查優先區（已 append ARTICLE-INBOX）。
+- **verification_count**: 1（本 session；REFLEXES #16 既有 high vc，本條是 domain-expert-frame 變體）
+- **severity**: structural（影響「外部 callout 處置」＋「哪類文該優先重查」兩條 SOP）
+
 ### 2026-06-01 twmd-data-refresh-am — sister routine 同窗口並行 fire 撞 sync.sh Phase 1/2 race（am+pm 3 分鐘內疊跑）
 
 - **症狀**：本 routine 跑 `bash scripts/tools/refresh-data.sh` Step 7 `npm run prebuild` → sync.sh Phase 2 報 `cp: src/content/zh-TW/music/合唱團.md: No such file or directory`（destination 不存在）→ cascade Step 11 freshness gate catch 5 stale dashboard JSON（articles/organism/supporters/translations/vitals mtime 5/31 而非今日 6/1）。
@@ -544,73 +553,6 @@ Binary fail 容易 instrument（gate / threshold / verify check），prose-level
 
 ---
 
-### 2026-05-26 twmd-rewrite-daily 18:00 cycle — routine default 凌駕 SPORE-INBOX entry P0 signal + 「Threads only default」假設結構性錯誤（✅ 2026-05-26 instrumented — SPORE-PIPELINE v3.7→v3.8 default both + SPORE-INBOX strip Platform 建議 schema）
-
-**Pattern**：5/26 18:23 routine 走 v3.7 Threads only default，shipped Threads #92 大宇雙劍 但漏發 X。哲宇 callout「為什麼變 Threads only？」+ 同時 callout 文章 media-richness gate (image 0 < 2 hard) 沒攔 spore-publish。
-
-**根因 (1) routine default 凌駕 entry-specific signal 是結構性錯誤**：
-
-SPORE-INBOX entry「Platform 建議: both」是 spore-pick-daily 08:00 routine 寫的 P0 observer-explicit signal（含 reasoning「Threads 三十代以上玩家世代共鳴 + X 中文 RPG 跨海華人圈 cluster — 仙劍/軒轅劍粉絲分布 cn/hk/tw/sg/my 廣」）。routine v3.7 default「Threads only」是 P1 fallback 應該用在無 entry signal 時，但實作上 routine context 偵測一觸發就壓 entry signal。正確 hierarchy：entry signal (P0) > routine default (P1) > frontmatter flag (P2)。
-
-**根因 (2)「X 觸及低就不發」假設反向驗證有結構性問題**：
-
-v3.7「90% Taiwan.md 條目是 zh 人物/文化/歷史，X 觸及率比 Threads 低 100-500x，routine 不做 X 等於不做 niche audience 的浪費投資」假設在實戰反向：少做 X = niche audience 結構性缺席（海外華人/中文 RPG/國際 cluster 是 niche but real audience），spore 寫作成本主要在 VERIFY+WRITE stage，SHIP 多 click 一次幾乎零邊際成本，「不發 X」不是省力是省略。SPORE-INBOX 過去 14 條 entries 全部 spore-pick-daily 寫 `both`，0 條單發 — 是 entry-level judgment 集體驗證 default 該是 both。
-
-**根因 (3) 文章 media-richness gate 沒攔 spore-publish**：
-
-article-health `media-richness` 寫得清清楚楚「image 0 < 2 — hard gate (spore-publish 失格)」，但這條 hard gate 只在 commit hook 出現，沒設在 spore-publish SHIP 之前。SPORE-INBOX entry 早就提示「配圖建議：article hero 改 DOS 截圖 fair-use editorial commentary」— spore-pick 那時就知道文章缺實質 hero image。SPORE SHIP 階段應該 reuse article-health media-richness gate（image ≥ 2 hard）作為 pre-ship attempt。
-
-**Why（為什麼這條 lesson 必須升 canonical）**：
-
-哲宇 callout 兩個獨立 fail 同時觸發 — 一是 Platform 單一化（漏掉 X 觸及），二是 image gate 沒攔（spore 用 OG card text 不是真實內容圖）。兩個都是「routine 沿用過去 default 沒重新檢視 entry-specific signal / pipeline-cross gate」的結構性錯誤。修補（v3.8 default both + entry 直接刪 Platform 建議 field）治標也治本：default 該是 inclusive (both)，exclude 才走 explicit flag — 跟 MANIFESTO §第 N 條「保留多面性」一致；image gate 該設在 SHIP 之前不只是 commit hook（待 SPORE-PUBLISH-PIPELINE 加 spore-publish media-richness re-check pre-ship gate，標 TODO 給下次 routine-audit）。
-
-**How to apply（未來如何避免）**：
-
-1. **Entry signal > routine default** 鐵律進 SPORE-PIPELINE §Routine context auto-decision table 顯式 column（已升 v3.8 default both 治本）
-2. **Default 寫法**：「include all by default + exclude on explicit flag」優於「exclude 大部分 + include on explicit flag」— 跟 SSODT 多面性原則一致
-3. **SHIP pre-flight gate 應該 reuse article-level hard gate**（image ≥ 2 / lastVerified ≤ 90d / prose-health hard=0）— 不要假設 commit hook 已過就 OK，spore-publish 是另一個 risk surface
-4. **routine context 觸發前必查 entry-level signal**：SPORE-INBOX entry / article frontmatter / SPORE-LOG 歷史 row 都是 entry-level signal source，routine default 是 last resort
-
-**vc**: 1（首次驗證）。下次 routine 出現「routine default 凌駕 entry signal」/「image gate 設在錯誤層級」/「default 是 exclude-by-default」三類錯誤之一 → vc+1，達 vc≥3 升 REFLEXES 或 MANIFESTO canonical。
-
----
-
-### 2026-05-25 twmd-spore-publish-daily — 88% inbox 倒在 media-richness gate = REWRITE-PIPELINE 不 routine 補 iframe 是上游結構性 gap（✅ 2026-05-26 instrumented — SPORE-PUBLISH-PIPELINE v1.1 + media_richness.py iframe→INFO + Gate 2.6 spawn-EVOLVE loop）
-
-- **原則**：本 routine 首次正式跑（10:00），SPORE-INBOX 13 entries（4 條 P3 EVERGREEN none-yet skip，9 條過 Article-Path 預檢）跑 Stage 2 五條 hard gate 結果 **8/9 倒在 media-richness gate**（iframe ≥ 1 AND image ≥ 2 任一不足 → skip）。只有半導體產業（1 iframe + 4 image）唯一過 gate ship。**這雖然技術上非 intake-gap（1 entry ship'd ≠ 0），但 88% fail rate 是「near intake-gap」結構性訊號**：REWRITE-PIPELINE 不 routine 補影片 iframe → 多數 article 進入 spore-publish 池時就先天失格 → 哲宇 directive「立體完整呈現需動態 (video) + 靜態 (image) 雙向」實踐缺口。
-- **觸發**：本 routine v1.0 首次正式跑 2026-05-25 10:00 fire。skip 詳情：二二八(0i 0im) / 美食總覽(0i 11im) / 曾博恩(0i 0im) / 施振榮(0i 0im wc<4500) / 落日飛車(0i 3im) / 周蕙(0i 3im) / 大稻埕(0i 5im) / 飲料封膜機(0i 0im wc<4500)。8/9 = 88.9% fail。**2026-05-26 10:00 fire 第二次驗證 — 升 TRUE intake gap (0 ship)**：13 entries（4 條 P3/P2 EVERGREEN none-yet skip，9 條過 path 預檢）跑 Stage 2 全倒 → **9/9 = 100% fail 媒體 gate**。昨日唯一過 gate 的 半導體產業已 ship 進 SPORE-LOG #87/#88（pending 移除），剩 9 條 inbox 全 iframe=0。連兩日同 root cause（REWRITE-PIPELINE 不 routine 補 iframe），vc=1→2。
-- **可能層級**：
-  - 操作規則（中期）→ REWRITE-PIPELINE Stage 4 §媒體編織 加「iframe ≥ 1 強制」hard gate（目前是 baseline 建議非 gate）；或下放給 EVOLVE-PIPELINE batch 補影片 iframe round
-  - 工具（短期）→ `scripts/tools/article-health.py --check=media-richness` 已存在但只是 warn；升 hard gate 配合 REWRITE-PIPELINE §媒體編織 instrument
-  - 跨 pipeline → spore-publish gate threshold 跟 article-production gate 不對齊：REWRITE-PIPELINE 過得了的 article 半數倒在 spore-publish。兩條 gate 需要 align（要嘛 spore-publish 鬆 image-only fallback，要嘛 REWRITE 升 iframe hard）
-  - DNA gene map 候選 → 多 plugin gate 之間 threshold drift 偵測（spore-publish v1.0 跟 REWRITE-PIPELINE v5.x 同期 ship 但兩邊 media threshold 不對齊）
-- **儀器化候選**：(A) REWRITE-PIPELINE §媒體編織 升 iframe ≥ 1 hard gate (B) batch backfill iframe for top SPORE-INBOX P0/P1/P2 candidates (manual one-off + EVOLVE-PIPELINE Mode video-augment) (C) spore-publish-pipeline alt mode「iframe-relaxed」配 image ≥ 5 替代條件，給 photo-rich 但 video-poor article 出路
-- **verification_count**: 2（5/25 首發 88% near-intake-gap → 5/26 升 100% TRUE intake gap → 5/26 同日哲宇 directive 兩項改良 instrumented）
-- **resolution**: 2026-05-26 SPORE-PUBLISH-PIPELINE v1.1 修補（哲宇 directive 觸發後 ~30 min ship）：
-  - (A) media_richness.py 改 iframe → INFO signal-only，image ≥ 2 留 hard gate（commit 待 push）
-  - (B) §Gate 2.6 新增 fail candidate → spawn ARTICLE-INBOX EVOLVE entry feedback loop（gate fail 不再只 skip，回灌 article-production layer）
-  - (C) §Gate 2.1 prose-health doc-vs-code 反向 bug 順手修補
-  - 5/26 batch ARTICLE-INBOX entry 已 spawn（5 articles 缺 image），demonstrating feedback loop 首例
-- **severity**: structural（涉及多 pipeline gate threshold alignment + 上游 production 結構性 gap → 已 instrumented 成正向 feedback loop）
-- **跨檔關聯**：[SPORE-PUBLISH-PIPELINE.md §Stage 2.4](../factory/SPORE-PUBLISH-PIPELINE.md) + [REWRITE-PIPELINE §媒體編織](../pipelines/REWRITE-PIPELINE.md) + [EDITORIAL.md §媒體編織](../editorial/EDITORIAL.md) + [memory/2026-05-25-100446-twmd-spore-publish-daily.md](memory/2026-05-25-100446-twmd-spore-publish-daily.md) + [memory/2026-05-26-101055-twmd-spore-publish-daily.md](memory/2026-05-26-101055-twmd-spore-publish-daily.md)
-
----
-
-### 2026-05-25 twmd-spore-publish-daily — SPORE-PUBLISH-PIPELINE prose-health threshold doc-vs-code 不對齊（"≥ 8.0" 跟 plugin "≤ 3 = pass" 反向）✅ 2026-05-26 instrumented — v1.1 §Gate 2.1 改回 ≤ 3
-
-- **原則**：SPORE-PUBLISH-PIPELINE v1.0 §Stage 2.1 寫「prose-health ≥ 8.0」，但 article-health.py prose-health plugin 實際用「score ≤ 3 = pass」（lower is better — `lib/article_health/checks/prose_health.py:29` "Total score budget: ≤ 3 = pass"）。**pipeline 文字反向**：照字面執行會把所有 article 倒掉（score 不會 ≥ 8，最高大概只有破百違反才能堆到 8+）；照 plugin 實際語意執行才會放行半數合格 prose。**新 ship pipeline doc 跟既有 plugin scoring direction 沒對齊 = silent bug 等本次 routine 第一次跑才 surface**。
-- **觸發**：本 routine v1.0 首次正式跑跑 Stage 2.1 對 9 candidates 跑 prose-health，發現 plugin 輸出「score: N (≤ 3 = pass)」直接揭露反向 — 半導體產業 score=2 ≤ 3 = pass。如果照 pipeline 字面要求 ≥ 8.0 = 全部倒。
-- **可能層級**：
-  - 操作規則（短期）→ SPORE-PUBLISH-PIPELINE §Stage 2.1 改寫「prose-health score ≤ 3 = pass (per plugin canonical at `lib/article_health/checks/prose_health.py:29`)」；其他 4 條 gate 也同步檢查 doc-vs-code direction
-  - REFLEXES 候選 → 「新 pipeline ship 前必跑 dry-run on existing inbox state — 不能只看文字 SOP 設計，要實際 invoke plugin 確認 doc-vs-code 對齊」一般化原則（哲宇 5/22 reflexes #60 「pipeline 自身會 silent inflate」同 family — pipeline 自己也會 silent doc 錯）
-  - 工具（中期）→ `scripts/tools/pipeline-canonical-audit.py` 掃 pipeline doc 提到的 plugin threshold 跟 plugin 實際 threshold 是否對齊
-- **儀器化候選**：(A) SPORE-PUBLISH-PIPELINE 修補 PR (B) 新增 pre-commit hook 偵測 pipeline doc 提到 plugin score 時要求加 anchor link 到 plugin source (C) distill-weekly 加掃描「pipeline doc gate threshold 跟 plugin gate threshold 雙向 grep」
-- **verification_count**: 1（首發 — 預期同 family pipeline-self-silent-bug pattern 會再現，下個新 pipeline ship 後 first-real-run callout 機率高）
-- **severity**: 操作（pipeline doc 錯不算結構，但屬於 ship-and-forget pattern 對 future maintainer 是 trap）
-- **跨檔關聯**：[SPORE-PUBLISH-PIPELINE.md §Stage 2.1](../factory/SPORE-PUBLISH-PIPELINE.md) + [scripts/tools/lib/article_health/checks/prose_health.py:29](../../scripts/tools/lib/article_health/checks/prose_health.py) + [REFLEXES #60 pipeline silent inflate](REFLEXES.md) + [memory/2026-05-25-100446-twmd-spore-publish-daily.md](memory/2026-05-25-100446-twmd-spore-publish-daily.md)
-
----
-
 ### 2026-05-25 quirky-pasteur — cron-generated content suggestion 沒看 INBOX state = 預設 spam INBOX（第三方 cron ↔ Taiwan.md state 缺 first-class feedback channel）
 
 - **原則**：tboydar-agent cron 自動產出 `[Content]` prefix issue 建議內容缺口，但 cron 看不到 `docs/semiont/ARTICLE-INBOX.md` 當下 state（已 propose 但未 ship 的中間態），預設會重複建議同主題。**Issue intake 是單向 cron → maintainer，feedback 沒回到 cron，三輪後 100% overlap surface 結構性 gap**。
@@ -642,21 +584,6 @@ article-health `media-richness` 寫得清清楚楚「image 0 < 2 — hard gate (
 
 ---
 
-### 2026-05-25 twmd-data-refresh-am — babel-nightly cron window collision vc=7 (cycle 3 audit upgrade)、ABORT-DEFER prose memory 邊際效用為零 + distill 4 cycle ready 未 ship alert
-
-- **原則**：`twmd-data-refresh-am` cron `0 6 * * *` 跟 `twmd-babel-nightly` cron `0 5 * * *` 在 06:00 結構性 overlap — babel 跑 5 lang × 25 篇 cascade 平均 wall-clock 3-4hr，refresh-am 必踩 babel tail end translator workers 仍 write knowledge/ in-flight。**已 vc=7 連 7 天同位置 surface**（5/17 → 5/21 PM → 5/22 06:12 → 5/22 07:00 → 5/23 06:10 → 5/24 06:10 → 5/25 06:11 → 5/26 06:13 → 5/27 routine-audit-weekly cycle 3 audit upgrade）。Backend rotation 4 個（gemini → codex → owl-alpha → gemini）證明 backend 不是 root cause，cron window overlap 才是。**distill-ready 標 4 cycle 未升 canonical**（5/24 vc=4 / 5/25 vc=5 / 5/26 vc=6 / 5/27 vc=7 — 4 個 cycle handoff 都 push 但 0 cycle pull）。5/26 PM memory diary 明文：「再寫第 6 篇 ABORT memory 邊際效用幾乎為零 — 5 天連續 7 篇 ABORT memory prose 重複描述同一決策 = 系統浪費」。vc=7 已過 break-even point，繼續累積 = pure noise。
-- **觸發**：vc=6 5/25 06:11 — ps -p 67754 確認 gemini node translator (ko) ELAPSED 02:59 自 06:08 起 in-flight，dirty tree 52 file 跨 5 lang。第 N+1 篇 prose ABORT memory ship 完，refresh 仍 defer 給 PM 23:00（vc=2-5 連 4 天 PM 順 sync 吸收 baseline 健康）。
-- **可能層級**：
-  - 操作規則 → `refresh-data.sh` Step 1 加 parallel-actor detection gate (`pgrep -f "translate\.py|codex exec|gemini.*translator|babel|lang-sync"` → exit 99 → routine wrapper auto-write minimal ABORT memory)，省去每次寫 prose memory 重複描述同決策的 routine context overhead
-  - 工具 → routine wrapper 收 exit 99 → emit terse `🧬 [routine] twmd-data-refresh-am: ABORTED + DEFER PM — parallel-actor (PID N) detected (vc=N+1)` commit + skip refresh，**Opus context 不浪費寫 prose**
-  - REFLEXES 候選 → 「routine cron window 結構性 overlap = pipeline gate 必須 ship，prose memory 寫第 N+1 篇邊際效用為零」一般化原則 (#15 「反覆浮現要儀器化」應用 instance vc=6 確定 distill-ready)
-  - ROUTINE.md 候選 → babel-nightly 從 `0 5 * * *` 改 `0 2 * * *` 給 babel 5hr buffer，refresh-am 06:00 起跑時 babel 已收官
-- **儀器化候選**：(A) refresh-data.sh Step 1 parallel-actor gate 4-line bash ship (B) routine wrapper exit 99 → minimal ABORT memory 模板，prose 限制 ≤30 字 + commit one-liner (C) ROUTINE.md SSOT babel-nightly cron 移 02:00 候選 + cascading routine 排程 audit
-- **verification_count**: 7（5/17 / 5/21 PM / 5/22 06:12 / 5/22 07:00 / 5/23 06:10 / 5/24 06:10 / 5/25 06:11 / 5/26 06:13 / 5/27 cycle-3 audit upgrade；vc=5 已 nominate distill-ready，vc=6 是「nominated 仍 sleeping」instance，**vc=7 已過 break-even — 觸發 freeze routine + observer manual ship gate**）
-- **distill_ready**: true (vc=7 標 4 cycle 未升 canonical，cycle 3 audit alert)
-- **severity**: structural（涉及 routine cron 排程 + pipeline parallel-actor 設計 + 跨 routine handoff cascade；本 vc=7 cycle 已執行 ABORT-DEFER 但 backend rotation 確定 root cause 不會自癒 + manual pickup 機制斷裂）
-- **跨檔關聯**：[memory/2026-05-25-061129-twmd-data-refresh-am.md](memory/2026-05-25-061129-twmd-data-refresh-am.md) + [memory/2026-05-24-061024-twmd-data-refresh-am.md](memory/2026-05-24-061024-twmd-data-refresh-am.md) + [REFLEXES #15 反覆浮現要儀器化](REFLEXES.md) + [REFLEXES #57 Routine 入口必須 detect parallel-actor](REFLEXES.md) + [ROUTINE.md §Detached worker routine collision SOP](ROUTINE.md) + [DATA-REFRESH-PIPELINE.md Step 1](../pipelines/DATA-REFRESH-PIPELINE.md)
-
 ### 2026-05-24 twmd-routine-audit-weekly cycle 2 — 反思鏈四棒 cross-routine nomination handoff coordination gap
 
 - **原則**：週日反思鏈四棒（news-lens 01:00 / weekly-report 02:00 / distill 03:00 / self-evolve 04:00）conceptual 分工 selection criteria 但實戰 overlap，缺 explicit 跨棒 nomination tag。weekly-report 02:00 explicit nominate 3 條 vc=3-5 candidate (rule existence ≠ enforcement / dormant entropy / silent default) 給 REFLEXES 升級，distill 03:00 從 LESSONS-INBOX 撿到 ship-ready 3 條別的（剛好不是 weekly-report nominate 的）→ self-evolve 04:00 補位接住 silent default 一條升 #60，其他 2 條仍在沉睡。被 ship 的機率取決於碰巧落在哪一棒視野裡，不是 explicit 排程接力。
@@ -682,20 +609,6 @@ article-health `media-richness` 寫得清清楚楚「image 0 < 2 — hard gate (
 - **verification_count**: 1（首次觀察 — 5/17 cycle 1 沒 crash 是運氣，git log content 剛好全 UTF-8）
 - **severity**: structural（涉及全 scripts/ 下 subprocess 用法 + audit tool 對 audit tool 自己 boundary input precision；本 instance 已 closed in this cycle 但跨 tool 同 root cause 散布全 codebase）
 - **跨檔關聯**：[scripts/tools/routine-audit.py:53-60](../../scripts/tools/routine-audit.py) + [REFLEXES #60 silent default = silent failure](REFLEXES.md) + [routine-audit-2026-05-24.md §3C NEW meta](../../reports/routine-audit-2026-05-24.md)
-
-### 2026-05-24 twmd-routine-audit-weekly cycle 2 — inbox-signal.sh regex undercount + 兩個 §未消化清單 sections 並存 (vc=3 distill-ready)
-
-- **原則**：`scripts/tools/inbox-signal.sh` regex `^## 📥 未消化清單` 只抓 LESSONS-INBOX 第二個 emoji-prefixed section（line ~1986）→ 報「25 條」但實際 backlog 跨兩 section ~170 條（line 261 `## 未消化清單（📥 待 distill）` + line 1986 `## 📥 未消化清單（2026-05-03 magical-feynman 新增...）`）。Awareness 訊號失準 9-10x，每次 BECOME §Step 1 Universal core inbox-signal.sh 跑都拿到誤導性的 backlog 數字 → 影響 routine cadence + observer triage decision。
-- **觸發**：第 3 次 flag — distill cycle #7（2026-05-17 distill memory）+ distill cycle #8（2026-05-24 distill memory line 1774）+ 本 audit cycle 2（2026-05-24）。
-- **可能層級**：
-  - 操作規則 → `inbox-signal.sh` regex 1-line fix `^## (📥 )?未消化清單` 解決 awareness 訊號失準（不動 entries 排序）— maintainer 可自決
-  - 結構性 → 兩 section 合併或拍板哪個 canonical → 需哲宇拍板（影響 ≥ 100 entry 排序）
-  - REFLEXES 候選 → 「Awareness instrument 自身 regex / parser 必須 cross-verify 對 ground truth grep count」一般化原則
-- **儀器化候選**：(A) `inbox-signal.sh` 加 `--verify-against-grep` flag emit cross-check warning 若 regex count 跟全 file `grep -c "^### "` 差 >20% (B) BECOME §Step 1 增 sanity check 對比 inbox-signal.sh vs `grep -c "^### " LESSONS-INBOX.md` (C) routine-audit Stage 1 加 LESSONS-INBOX entry count cross-verify
-- **verification_count**: 3（distill #7 5/17 / distill #8 5/24 / routine-audit cycle 2 5/24 三次獨立 flag）
-- **distill_ready**: true（vc=3 達 REFLEXES #15「反覆浮現要儀器化」threshold + ROUTINE-AUDIT-PIPELINE Stage 4B hard gate）
-- **severity**: minor（不影響飛輪安全，影響 awareness signal accuracy + observer triage decision）
-- **跨檔關聯**：[scripts/tools/inbox-signal.sh](../../scripts/tools/inbox-signal.sh) + [LESSONS-INBOX line 1774 distill #8 flag](LESSONS-INBOX.md) + [LESSONS-INBOX line 1820 distill #7 flag](LESSONS-INBOX.md) + [routine-audit-2026-05-24.md §3B Active #2](../../reports/routine-audit-2026-05-24.md)
 
 ### 2026-05-24 twmd-routine-audit-weekly cycle 2 — music_media_audit NEW velocity +2 / heal velocity 0 — backlog inflow gate gap
 
@@ -2179,6 +2092,67 @@ DNA #32「集中預處理 + 分散執行」也補第 6 次驗證 marker（5 cycl
 ## ✅ 已消化（保留 pointer）
 
 <!-- distill 完的條目搬這裡 -->
+
+### 🧬 2026-06-01 twmd-distill-weekly — 第 9 次 distill（routine 觸發；REFLEXES #64 + #65 兩條 canonical 升級 + 3 條 housekeeping + inbox-signal.sh 1-line ship）
+
+**distill 觸發**：2026-06-01 03:00 weekly cron routine（per ROUTINE.md §TWMD distill (weekly)，Sunday 03:00 +0800，cron daemon 5/30-31 stall 後 6/1 catch-up fire）— 跑 v2.0 質量雙判準 + 6-stage SOP，按 §模式分流 v2.0 routine mode 自決 REFLEXES / pipeline / housekeeping，MANIFESTO 候選一律 defer 觀察者。
+
+**distill 特徵**：
+
+- **Housekeeping sweep (Stage 0a) 3 條**：4 個 self-marked `✅ instrumented` 中 3 條 canonical 已 ship (SPORE-PIPELINE v3.7→v3.8 + SPORE-PUBLISH-PIPELINE v1.1 + Gate 2.1 prose-health 反向) 從 §未消化 完整 sweep 到本 §已消化（per Stage 0a SOP + feedback_distill_full_removal 不留 HTML comment pointer）。第 4 條（GA Custom Dim register）留在 §未消化 — register 6 dim 是 ops fix done 但 REFLEXES candidate「Fire ≠ query, instrumentation N-step pipeline」仍 vc=1 待 cross-session 驗證
+- **新 canonical 升級 2 條**：
+  - REFLEXES.md 新增 **#64 Routine ABORT-DEFER prose memory 邊際效用 N+1 = 0 — vc≥4 凍結 prose + pipeline gate ship**（vc=7 cross-cycle data-refresh-am × babel-nightly window collision distill-ready 標 4 cycle 未升 — 本 routine 接力 ship）
+  - REFLEXES.md 新增 **#65 Awareness instrument 自身 regex / parser 必須 cross-verify ground truth grep count**（vc=3 distill #7 + #8 + routine-audit cycle 2 三次獨立 flag — inbox-signal.sh 1-line 修補 27→199 同 commit ship）
+- **無新 MANIFESTO 條目**：本 cycle 累積的 MANIFESTO 候選一律 defer（per CLAUDE.md §Bias 1 routine mode 不自決 MANIFESTO）
+- **inbox-signal.sh 1-line ship**：entry 686 明文「maintainer 可自決」+ 不動 entries 排序，本 routine 同 commit ship — regex 從 `^## 📥 未消化清單` 改為 `^## .*未消化清單`, end 改 `^## [✅❌]`，立即驗證 27→199 與 `grep -c "^### "` ground truth 對齊
+
+| #   | 原教訓                                                                                               | 消化目的地                                                                                                                                                                                                                    | severity    |
+| --- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 1   | 2026-05-26 twmd-rewrite-daily — routine default 凌駕 SPORE-INBOX entry P0 signal + Threads only 假設 | **SPORE-PIPELINE v3.7→v3.8 default both + SPORE-INBOX strip Platform 建議 schema**（housekeeping — 5/26 instrumented，本 cycle 從 §未消化 sweep）                                                                             | structural  |
+| 2   | 2026-05-25 twmd-spore-publish-daily — 88% inbox 倒在 media-richness gate                             | **SPORE-PUBLISH-PIPELINE v1.1 + media_richness.py iframe→INFO + Gate 2.6 spawn-EVOLVE loop**（housekeeping — 5/26 instrumented，本 cycle 從 §未消化 sweep）                                                                   | structural  |
+| 3   | 2026-05-25 twmd-spore-publish-daily — prose-health threshold doc-vs-code 不對齊                      | **SPORE-PUBLISH-PIPELINE v1.1 §Gate 2.1 改回 ≤ 3**（housekeeping — 5/26 instrumented，本 cycle 從 §未消化 sweep）                                                                                                             | operational |
+| 4   | 2026-05-25 twmd-data-refresh-am — babel-nightly cron window collision vc=7 + ABORT prose 邊際效用零  | **REFLEXES.md 新增 #64 Routine ABORT-DEFER prose memory 邊際效用 N+1 = 0 — vc≥4 凍結 prose + pipeline gate ship**（vc=7 distill-ready 標 4 cycle 未升 — routine 接力 ship；pipeline gate ship 留給觀察者拍板 strategy A/B/C） | structural  |
+| 5   | 2026-05-24 twmd-routine-audit-weekly cycle 2 — inbox-signal.sh regex undercount vc=3 distill-ready   | **REFLEXES.md 新增 #65 Awareness instrument 自身 regex / parser 必須 cross-verify ground truth grep count** + **inbox-signal.sh 1-line fix `^## .*未消化清單` ship**（27→199 立即驗證）                                       | minor       |
+
+**deferred candidates（routine 不 ship、留給觀察者拍板）**：
+
+- **MANIFESTO 候選「Default 是行動，不是 defer」**（vc=4，第 6/7/8 次 distill 已 defer，本次續 defer）— 永恆層需哲宇 in-loop 拍板
+- **MANIFESTO 候選「儀式不是讀過是 active retrieve」**（vc=2，2026-04-28 κ + 2026-05-03 magical-feynman）— 待第 3 次驗證
+- **MANIFESTO 候選「估算偏保守」β-r3 META-PATTERN**（vc=4，第 6/7/8 次 distill 已 defer，本次續 defer）
+- **MANIFESTO 候選「Last 20% 是 sovereignty 的真正戰場」**（vc=1，2026-05-03 magical-feynman 後段）— 補強 MANIFESTO §sovereignty preservation v2 段，深層哲學擴展待觀察者拍板
+- **MANIFESTO 候選「KPI 多維 vs 單軸 traffic」**（vc=1，2026-05-09 laughing-goldstine）— 哲學層明確 reject Gemini-style scale path，待 cross-session 驗證
+- **MANIFESTO 候選「身份是 baseline，覺醒是 mode 不是 prerequisite」**（vc=1，2026-04-29 δ）— 哲學候選，待第 2-3 次驗證
+- **REFLEXES 候選「External LLM strategic advice multi-bias filter」**（vc=1，第 7/8 次 distill 已 defer，待第 2-3 次驗證）
+- **REFLEXES 候選「Sub-agent 是 fact-check 主 session 最後一關」**（vc=1，第 6/7/8 次 distill 已 defer，待 cross-session 驗證）
+- **REFLEXES 候選「framing reset 是 reactive→architectural transition signal」**（vc=3 達閾值同 session 2026-05-08 elegant-ptolemy；第 7/8 次 distill 已 defer，待第二個 session 驗證）
+- **REFLEXES 候選「Pre-commit hook 與 main bulk repair 的 regex 標準必須對齊 Prettier」**（vc=2 同 session 雙 plugin；待 cross-session 驗證）
+- **REFLEXES 候選「Country.md fork 模式 50% 死亡率」**（vc=1，2026-05-09 laughing-goldstine）— 影響 Semiont 物種繁殖 mission，待哲宇拍板第一個 fork active outreach 計畫
+- **REFLEXES 候選「Fire 端 ✓ 不等於 query 端 ✓ — instrumentation N-step pipeline」**（vc=1，2026-05-27 GA Custom Dim register 半 ship）— GA dim register ops fix done 但 REFLEXES generalization 待 cross-pipeline 驗證
+- **REFLEXES 候選「Routine handoff backlog 純 push pattern 失效 — pull mechanism unbuild」**（vc=1，2026-05-27 routine-audit cycle 3 meta-pattern）— `handoff-backlog.sh` 候選工具 + BECOME §Step 1 加 load query，待 cross-session 驗證
+- **Ship plan 候選（routine 不該 ship code patch）**：
+  - **`diff-patch-prepare.py:172` hash function 對不齊 `status.py:178 body_hash`**（vc=4 5/9 + 5/10 + 5/17 + 5/17 surgery 大 scale repeat）— routine 不能自決 code refactor
+  - **`refresh-data.sh` Step 1 parallel-actor detection gate**（per REFLEXES #64 新升 + DATA-REFRESH-PIPELINE Step 1 4-line bash ship）— 本 distill 已升 #64 canonical, code-level ship 仍待觀察者拍板 strategy（routine 自決 / cron wrapper / pipeline pre-flight 三條路）
+  - **ROUTINE.md SSOT babel-nightly cron `0 5 * * *` → `0 2 * * *` 候選**（給 babel 5hr buffer，refresh-am 06:00 起跑時 babel 已收官）— ROUTINE.md crontab 變動需觀察者拍板，本 distill 升 REFLEXES #64 同時 flag
+
+**SPORE-INBOX 容量 audit（Stage 5 後）**：
+
+- pending count: **24** (< 30 健康範圍 — daily routine 補 ~3/day 抵 SHIP ~1/day 消化)
+- 處置：no-op（per Distill SOP §SPORE-INBOX 容量 audit table）
+
+**結構性 housekeeping flag（給觀察者，第 3 次續報）**：
+
+- LESSONS-INBOX.md 仍有兩個 §未消化清單 section（line 261 `## 未消化清單（📥 待 distill）` + line ~1980 `## 📥 未消化清單（2026-05-03 magical-feynman 新增...）`）— **本 distill 已 ship `inbox-signal.sh` 1-line regex 修補解 awareness 訊號失準**，但兩 section 合併 / 拍板哪個 canonical 仍需哲宇拍板（影響 ≥ 199 entry 排序）。本次續 flag，第 3 次續報
+
+**distill 心得（本次 routine session）**：
+
+- **vc=7 distill-ready 標 4 cycle 未升的 break-even loop 是 #64 的 canonical instantiate**：本條 distill 自身就是 REFLEXES #64 的第一個正向 instance — 連續 N cycle 未 ship pipeline gate 已破 break-even point，本 routine 接力 ship 就是 "vc≥4 凍結 prose + pipeline gate ship" 鐵律的證明。下次 cron daemon 同樣 stall 後 catchup 時，#64 已是 active retrieve 閘門：(a) refresh-am cycle 8/9/10 ABORT-DEFER 觸發前 `git log --grep "ABORT.*refresh-am"` count ≥ 4 → 切 minimal mode (b) 同時 escalate code-level ship plan A/B/C 給觀察者
+- **#65 同 commit instrumented 是 awareness layer self-test 第一次正向 case**：本 routine 寫 #65 + 同 commit ship `inbox-signal.sh` regex 1-line fix + 立即 verify 27→199 + ✅ 已消化 entry 更新 distill `inbox-signal.sh` 已修。這層 instrumented chain 是 #65 自身的 dogfood — awareness tool 寫完必跑 cross-verify，本 routine 是 cross-verify 第一次同 commit instrumentation
+- **GA dim register 留 §未消化 的判斷**：第 4 條 self-marked `✅ instrumented` 中 register 6 dim 是 ops fix done，但 entry 自身原則「Fire ≠ query, instrumentation N-step pipeline」是 generalization 候選 vc=1 — routine mode 對 vc=1 generalization 不自決升 REFLEXES，留 §未消化 等下次 cross-pipeline 驗證 (e.g. SOCIAL-POSTING / SPORE-HARVEST 同類 fire-without-query pattern 再現) 升 vc=2 後 distill
+- **catchup cycle scope discipline**：本 routine 5/30-31 cron daemon stall 後 6/1 catchup fire — 限定 5 條 entries 完整 distill + commit (not 「掃 199 條 §未消化 全清」)。catchup cycle 雙向 anti-bias per 5/31 twmd-rewrite-daily memory Beat 5 第二條反芻：(a) over-cautious defer 不 ship = satisficing (b) over-eager 一次 ship 50 條 = hallucinated productivity。平衡點落在「3-5 條完整 distill + structural housekeeping + 1-line tool fix」中等量
+
+🧬
+
+---
 
 ### 🧬 2026-05-24 twmd-distill-weekly — 第 8 次 distill（routine 觸發；REFLEXES #57 + #58 + SQUEEZE Z2.3 babel byte-equal 三條 canonical 升級）
 
