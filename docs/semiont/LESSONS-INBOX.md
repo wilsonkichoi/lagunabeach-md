@@ -262,6 +262,15 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-01 manual — peer 是線索不是 source 的最強 instance（內行人 frame 也有縫，OPUS≠雷亞）+ 歸屬密集主題是 AI 幻覺高風險區
+
+- **觸發**：配樂專業讀者 peilinwu0702 Threads 公開 callout `台灣影視配樂`（3/19 早期批次）錯誤率>30%，列一連串作曲家↔作品誤植；/twmd-rewrite 全篇重查重寫。
+- **教訓 1（peer frame 有縫）**：沛綾的勘誤約 95% 正確（海角七號=何國杰、月夜愁非返校主旋律），但她話裡把 OPUS 歸雷亞——OPUS 實為 SIGONO 開發、Triodust 配樂。若照抄她的 frame 會用新錯誤換舊錯誤。**越可信的 frame 越要查那剩下的 5%**，因為高可信度會壓抑查證衝動。REFLEXES #16 的最強 instance：領域專家本人也是線索不是 source。
+- **教訓 2（歸屬密集＝AI 幻覺高風險）**：舊文幾乎每個「作曲家↔作品」配對都是 AI 幻覺誤植（范宗沛／林生祥／盧律銘 三人全錯位），且錯得 plausible（獎名＋屆次＋得獎身份都具體）。「A↔B 密集對應」主題（配樂↔電影、球員↔球隊、作者↔著作、樂團成員↔樂團）是 AI 最易張冠李戴的結構。RESEARCH.md §張冠李戴「查歸屬不只查 fact」應升為這類主題的強制 audit step。
+- **forward action**：早期批次（3/19 等）＋歸屬密集＝系統性重查優先區（已 append ARTICLE-INBOX）。
+- **verification_count**: 1（本 session；REFLEXES #16 既有 high vc，本條是 domain-expert-frame 變體）
+- **severity**: structural（影響「外部 callout 處置」＋「哪類文該優先重查」兩條 SOP）
+
 ### 2026-06-01 twmd-data-refresh-am — sister routine 同窗口並行 fire 撞 sync.sh Phase 1/2 race（am+pm 3 分鐘內疊跑）
 
 - **症狀**：本 routine 跑 `bash scripts/tools/refresh-data.sh` Step 7 `npm run prebuild` → sync.sh Phase 2 報 `cp: src/content/zh-TW/music/合唱團.md: No such file or directory`（destination 不存在）→ cascade Step 11 freshness gate catch 5 stale dashboard JSON（articles/organism/supporters/translations/vitals mtime 5/31 而非今日 6/1）。

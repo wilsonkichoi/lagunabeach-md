@@ -160,6 +160,15 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 <!-- 三毛 已完成 2026-05-17 2026-05-17-184444-manual → ARTICLE-DONE-LOG.md -->
 
+### 🎼 早期批次「歸屬密集」文章 系統性重查 batch — AI 幻覺高風險區 audit
+
+- **觸發**：2026-06-01 `台灣影視配樂`被配樂專業讀者 peilinwu0702 公開 callout 錯誤率>30%，全篇作曲家↔作品誤植（已重寫 ship `b0c92a2d2`）。揭露「A↔B 密集對應」主題是 AI 最易張冠李戴的結構，早期批次（3/19 編修校對不嚴謹）風險最高。
+- **Priority**: P1
+- **Status**: pending
+- **Type**: audit / EVOLVE batch
+- **範圍**：3/19 早期批次 + 歸屬密集主題（音樂的「作曲家↔作品」、運動的「球員↔球隊／賽事」、文學的「作者↔著作」、樂團的「成員↔樂團」）優先重查；每篇對每個歸屬「查 attribution 不只查 fact」(RESEARCH.md §張冠李戴 self-apply)。
+- **下一步**：先 `grep -l "date: 2026-03-19" knowledge/**/*.md` 列早期批次 → 挑歸屬密集者（Music / Sports / People）排重查順序 → 走 REWRITE-PIPELINE Evolution。
+
 ### 📷 SPORE-INBOX 候選圖片補強 batch — 5 articles missing hero + scene-mid (2026-05-27 spore-publish-daily gate fail)
 
 - **Type**: `EVOLVE`
