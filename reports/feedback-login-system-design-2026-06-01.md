@@ -624,3 +624,110 @@ widget 全程 8 事件（stable taxonomy）：
 ---
 
 _第三階段 supplement｜2026-06-01｜git 主權 archive + GA 8 事件 + 24 unit/10 UX test。實作見同 session commits + go-live log。_
+
+---
+
+---
+
+# v4 研究：從每日掃描到即時 hook + 未來進化全景（2026-06-01 哲宇 directive）
+
+> 哲宇 directive：「研究 Supabase 有沒有可能即時通知我們，讓它變 hook-based（有人回饋就開 issue，不是每天掃）。完整研究這些可能性，還有想到我完全沒想過的所有問題跟未來進化方向。」
+
+## v4.1 即時化：Supabase webhook → 秒級開 issue
+
+**現況**：cron 每天 07:00 掃一次 `status='new'`。最壞情況讀者送出後 24 小時才變 issue。對「我的回報」的閉環體驗來說，那是一段死寂。
+
+**目標**：讀者按下送出 → 幾秒內變成 GitHub issue + git archive + 「我的回報」即時看到「已轉成 issue」。
+
+### 三條路 + 各自的坑
+
+| #   | 機制                                                                                                                   | 評估                                                                                                                                                                                                                                                                                                                            |
+| --- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | **Supabase DB Webhook → GitHub `repository_dispatch` 直連**                                                            | DB Webhook 是 pg_net 的包裝，INSERT 時 POST 到一個 URL。**坑（research 證實）**：Supabase 已知 bug [supabase#38848](https://github.com/supabase/supabase/issues/38848)——webhook 更新時 `Authorization` header 會被靜默刪除。GitHub dispatch API 偏偏要 `Authorization: Bearer <PAT>`。每次編輯 webhook 都要重貼，脆弱。不推薦。 |
+| 2   | **DB Webhook → Supabase Edge Function（trampoline）→ `repository_dispatch` → GitHub Actions 跑 `triage.mjs --commit`** | ✅ **推薦**。Edge Function 是 10 行的安全中繼：收到 INSERT，用環境變數裡的 PAT 打 GitHub dispatch。PAT 在 function env 不在 webhook header → 避開 #38848。重的事（分類/開 issue/**git 主權 archive**/回寫）全留在 Actions 跑的 `triage.mjs`，single source of logic 不分叉。                                                    |
+| 3   | **DB Webhook → Edge Function 直接開 issue**                                                                            | 即時，但 Edge（Deno）沒有 git checkout，**寫不了 git 主權 archive**，等於丟掉主權層。除非 Edge 再用 GitHub API commit 一份（複雜且重造輪子）。不推薦。                                                                                                                                                                          |
+| 4   | Supabase Realtime（WebSocket 訂閱）                                                                                    | 需要一個常駐 listener process。我們是 serverless，沒有。不適用。                                                                                                                                                                                                                                                                |
+
+### 推薦架構（hybrid：即時 + backstop）
+
+```
+讀者送出 → Supabase feedback INSERT
+   │ (DB Webhook, pg_net async)
+   ▼
+Supabase Edge Function（trampoline，持 GITHUB_PAT env）
+   │ POST /repos/frank890417/taiwan-md/dispatches  {event_type: "feedback_new"}
+   ▼
+GitHub Actions（on: repository_dispatch [feedback_new]）
+   └─ node scripts/feedback/triage.mjs --commit   ← 重用既有 triage（分類→issue→archive→回寫）
+      + git add docs/feedback/archive/ → commit → push
+   ▼
+秒級：issue 開出 + 主權 archive 落 git + Supabase status='filed'
+
+並行 backstop：每日 cron twmd-feedback-triage 照跑
+   └─ 撈任何 webhook 漏接的 status='new'（pg_net 是 fire-and-forget 不保證送達）
+```
+
+**為什麼留 cron 當 backstop**：pg_net 不保證送達，Edge / Actions 偶爾失敗。cron 每天掃 `status='new'` 會自然補上任何漏接的——belt + suspenders。triage 本來就 idempotent（dedup vs 既有 issue），重複觸發無害。
+
+### 安全模型
+
+- Edge Function env：`GITHUB_PAT`（fine-grained，只給 `repository_dispatch` / actions:write，scope 到單一 repo）。
+- Webhook → Edge：用 Supabase service role JWT 或自訂 secret header 驗證來源（不是 `Authorization` 那個會被刪的）。
+- Actions repo secret：`SUPABASE_URL` + `SUPABASE_SERVICE_KEY`（triage 讀回報 + 回寫）。
+- Actions 的 `GITHUB_TOKEN`：開 issue + push。
+
+### 延遲對照 + 體驗
+
+|                      | cron-only（現況） | + webhook hybrid          |
+| -------------------- | ----------------- | ------------------------- |
+| 送出 → issue         | 最多 24h          | 秒級                      |
+| 「我的回報」看到狀態 | 隔天              | 幾秒（配合下方 Realtime） |
+
+配合 widget 裡 Supabase Realtime 訂閱「我的回報」，讀者送出後幾秒就看到那筆從「待處理」跳成「已轉成 issue #N」+ AI 初判理由。那是會讓人想再回報一次的瞬間。
+
+### 實作量
+
+Edge Function（~15 行 Deno）+ 1 個 GitHub Actions workflow（`on: repository_dispatch`，body 就是現有 triage）+ Supabase Dashboard 建一個 webhook 指向 Edge Function。半天工。**全部 additive，cron 不動、widget 不動、主站不動。**
+
+## v4.2 我可能沒設想到、但值得想的問題（風險盤點）
+
+把整個系統推到「很多人用」的規模，這些會浮現：
+
+1. **Spam / 濫用在規模下**：Google/GitHub 登入降低門檻但擋不住有心人開帳號洗。現在只有 DB trigger 每小時 20 筆 + cron 端 deterministic spam 關鍵字。規模上來要：Cloudflare Turnstile 上 submit、cron 端換 LLM 分類器、累犯自動 throttle、人工 moderation queue。
+2. **Supabase 免費層天花板**：閒置 7 天會 pause（cron + webhook 每天打它就不會）；但 50k MAU / 500MB / 5GB egress 若某篇爆紅可能破。feedback 寫入量低，DB 不是瓶頸；真爆量再上 Pro（$25/mo）。
+3. **GitHub issue 洪水**：每筆回報 = 一個 issue。量大時 issue tracker 淹掉。緩解：同篇文章的多筆勘誤 digest 成一個 issue（或留言到既有 issue 而非開新的）、用 project board / from-feedback label 隔離、更激進的 dedup。
+4. **讀者送出後沒有下文**：「我的回報」看得到狀態，但 issue 被修好 / 文章被改了，讀者不會被**主動通知**。這是情感閉環的缺口（見 v4.3 第 1 條）。
+5. **Text Fragment 會過期**：文章被改寫後，`#:~:text=` 可能對不上原文（那句話被改了）。quote 原文還在 issue 裡，但深連結會失效——優雅降級，但要知道。
+6. **公開內容的 moderation**：v1 是私訊式（只有讀者 + 維護者看得到）。若做公開勘誤串（v2 想法），就有 UGC 審核面，要防洗版 + 仇恨內容。
+7. **PII / 被遺忘權**：email 在 Supabase profiles。需要隱私政策 + 「刪除我的資料」路徑（GDPR right-to-erasure）。現在 auth.users 刪除會 cascade，但沒有讓使用者自助刪帳號的 UI。
+8. **無障礙（a11y）**：widget 有 role=dialog + aria-label，但沒有完整 focus trap / 鍵盤導航 / 螢幕報讀測試。該做一輪 a11y audit。
+9. **手機選文段**：桌面選字浮藥丸測過了；手機觸控選字會跟系統原生選字選單打架，藥丸定位也更難。手機體驗要單獨設計（可能改成長按 → 自訂選單）。
+10. **issue 的語言**：issue body 標籤是中文。ja/ko/es/fr 讀者的回報會中外混雜。維護者看得懂，但可依 `lang` 把 issue 模板在地化。
+11. **LLM triage 品質**：現在分類是 deterministic（信讀者選的 type + 關鍵字）。content 類的「這到底對不對」沒有驗證。LLM triage（對來源跨源查證、更好的 dedup、更準的 spam）會大幅升級（見 v4.3 第 4 條）。
+
+## v4.3 進化方向全景（roadmap，含「沒想過」的）
+
+由近到遠、由容易到難：
+
+1. **讀者通知閉環（最高情感槓桿）**：issue 被修好 / 文章更新時，用 Supabase auth 裡的 email 主動寄信給回報者——「你 3 天前指出的李安得獎年份已經修正，謝謝你。」這是讓人**第二次回報**的關鍵。回報從一次性互動變成持續關係（呼應 MANIFESTO §受眾端飛輪 + 影視配樂那次「邀前輩校正」的開門）。
+2. **公開「讀者修訂」牆**：每篇文章下方顯示被採納的勘誤（git archive 已有資料）。社會證明 + 透明，對應 Grokipedia 的修訂史。讀者看見自己的回報變成文章歷史的一部分。
+3. **貢獻者信譽 / 遊戲化**：`/contributor/{handle}` 頁顯示他被採納的回報數、approval rate（Grokipedia profile）。把一次性回報者變常客。高信譽者的回報可跳過 spam gate（trusted tier）；累犯自動 throttle。
+4. **AI 跨源查證 triage + 自動 PR**：triage（cron 或 webhook）呼叫 LLM，對 content 類勘誤**實際去查證來源**再開 issue（標信心分數）。高信心 + 有來源的修正（錯字、日期）→ 直接開**修好的 PR**（不只 issue），維護者一鍵 merge。往「自我修復的知識庫」走。
+5. **GA → EVOLVE 閉環**：feedback 的 GA 事件（哪些文章最常被勘誤 / 回報 bug）餵進 `twmd-news-lens` / EVOLVE routine → 優先重寫最常被 flag 的文章。讀者訊號驅動內容進化，這正是哲宇要的「數據驅動自我進化飛輪」真正閉環。
+6. **Realtime「我的回報」**：widget 用 Supabase Realtime 訂閱，狀態變更即時刷新，不用重整。配合 v4.1 webhook = 送出幾秒看到結果。
+7. **feedback analytics 面板**：`/dashboard` 加一塊：回報量、類別分布、解決率、最常被 flag 的文章。納入生命體 anatomy dashboard——讀者參與度變成可見的器官生命徵象。
+8. **Google One-Tap**：真正零摩擦登入（有 Google session 的人面板開啟即一鍵）。設計已在 §v2.5，值得補實作。
+9. **截圖 bug 回報**：bug 類可附頁面截圖（widget 抓當下 DOM 狀態）。更richer 的 bug report。
+10. **confidence-scored 自動分流**：AI triage 給信心分數——高 → 自動 PR，中 → issue，低 → 人工 queue。把維護者精力留給真正需要判斷的。
+11. **跨 Semiont 可攜**：Japan.md / Ukraine.md fork 時，整套 feedback 系統（widget + schema + triage + archive）是 fork-friendly 的——讀者參與器官跟著物種繁殖。
+12. **Sovereignty 連動**：哪些語言的讀者最常回報 → 校正 babel 翻譯優先序（呼應主權的巴別塔）。
+
+## v4.4 邊界 / 失敗域再確認
+
+- webhook hybrid 全 additive：cron / widget / 主站都不動，多一條即時路 + 留 cron backstop。✅
+- AI triage / 自動 PR：開 issue / 開 PR 仍是機械轉錄 + 機械修正；**merge 與對讀者正式回覆永遠人類 gate**（§自主權邊界）。✅
+- 通知讀者：用他自己留的 email，不外洩、不對外。✅
+
+---
+
+_v4 supplement｜2026-06-01｜哲宇 directive「研究即時 webhook + 想未曾設想的問題與進化」。即時化推薦 Edge Function trampoline → repository_dispatch → triage（避開 Supabase #38848 header bug）+ cron backstop。風險盤點 11 條 + 進化 roadmap 12 條。實作待哲宇 ratify。_
