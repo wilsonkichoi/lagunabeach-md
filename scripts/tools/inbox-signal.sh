@@ -19,7 +19,8 @@ SPORE="${SPORE:-docs/factory/SPORE-INBOX.md}"
 
 # LESSONS-INBOX §未消化清單 count
 if [[ -f "$LESSONS" ]]; then
-  LESSONS_UNDIGESTED=$(awk '/^## 📥 未消化清單/,/^## ✅ 已消化/' "$LESSONS" | grep -cE "^### " || echo 0)
+  # awk range covers both §未消化 sections (line ~261 no-emoji + ~2434 emoji-prefixed); end at ✅ or ❌ H2
+  LESSONS_UNDIGESTED=$(awk '/^## .*未消化清單/,/^## [✅❌]/' "$LESSONS" | grep -cE "^### " || echo 0)
   LESSONS_DIGESTED=$(awk '/^## ✅ 已消化/,EOF' "$LESSONS" | grep -cE "^### " || echo 0)
   echo "📥 lessons | 未消化 $LESSONS_UNDIGESTED 條 / 已消化 $LESSONS_DIGESTED 條（distill 時讀 §未消化清單）"
 fi
