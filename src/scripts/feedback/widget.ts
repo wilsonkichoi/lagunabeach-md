@@ -29,18 +29,26 @@ interface Ctx {
   category: string;
   title: string;
   url: string;
+  pageKind: string;
 }
 
 interface DraftState {
   type: FeedbackType;
   body: string;
   correctInfo: string;
+  quote?: string;
 }
 
 export async function initFeedbackWidget(): Promise<void> {
   try {
     const root = document.getElementById('twmd-feedback');
     if (!root) return;
+
+    // OG / spore 截圖模式（?shot=1）不顯示 widget。
+    if (document.documentElement.getAttribute('data-shot') === '1') {
+      root.remove();
+      return;
+    }
 
     const kind = resolveBackendKind();
     if (kind === 'off') {
@@ -54,6 +62,7 @@ export async function initFeedbackWidget(): Promise<void> {
       category: root.dataset.category || '',
       title: root.dataset.title || '',
       url: root.dataset.url || location.href,
+      pageKind: root.dataset.pagekind || 'other',
     };
     const t = getStrings(ctx.lang);
 
@@ -64,7 +73,18 @@ export async function initFeedbackWidget(): Promise<void> {
     }
 
     // mock / supabase：完整 widget。
-    new Widget(root, ctx, t).mount();
+    const widget = new Widget(root, ctx, t);
+    widget.mount();
+
+    // 文章頁特化：選字 → 浮藥丸 → 開 widget 帶 quote + 深連結 anchor。
+    if (ctx.pageKind === 'article') {
+      const { initSelectionAnnotation } = await import('./selection');
+      initSelectionAnnotation(
+        '[data-pagefind-body]',
+        t.selectPill,
+        ({ quote, anchorUrl }) => widget.openWithSelection(quote, anchorUrl),
+      );
+    }
   } catch (err) {
     // 任何意外 → 確保主站不受影響。
     console.warn('[feedback] init failed, hidden:', err);
@@ -90,12 +110,68 @@ class Widget {
   private draft: DraftState = { type: 'content', body: '', correctInfo: '' };
   private panel!: HTMLElement;
   private open = false;
+  /** 選文段標註（article 頁）。設了 → 表單顯示 quote，送出用 anchorUrl 當 source。 */
+  private selection: { quote: string; anchorUrl: string } | null = null;
 
   constructor(
     private root: HTMLElement,
     private ctx: Ctx,
     private t: FeedbackStrings,
-  ) {}
+  ) {
+    this.draft.type = this.categoriesForPage()[0];
+  }
+
+  /** 依頁型決定類別集（順序 = 顯示順序，第一個 = 預設）。 */
+  private categoriesForPage(): FeedbackType[] {
+    switch (this.ctx.pageKind) {
+      case 'article':
+        return ['content', 'bug', 'newtopic'];
+      case 'category':
+        return ['newtopic', 'bug', 'idea'];
+      case 'home':
+        return ['newtopic', 'bug', 'idea'];
+      case 'dashboard':
+        return ['bug', 'idea'];
+      case 'semiont':
+        return ['idea', 'bug'];
+      default:
+        return ['idea', 'bug', 'newtopic'];
+    }
+  }
+
+  private labelFor(type: FeedbackType): string {
+    const s = this.t;
+    if (type === 'newtopic' && this.ctx.pageKind === 'category')
+      return s.typeNewArticle;
+    return {
+      content: s.typeContent,
+      bug: s.typeBug,
+      newtopic: s.typeNewtopic,
+      idea: s.typeIdea,
+    }[type];
+  }
+
+  private hintFor(type: FeedbackType): string {
+    const s = this.t;
+    if (type === 'newtopic' && this.ctx.pageKind === 'category')
+      return s.typeNewArticleHint;
+    return {
+      content: s.typeContentHint,
+      bug: s.typeBugHint,
+      newtopic: s.typeNewtopicHint,
+      idea: s.typeIdeaHint,
+    }[type];
+  }
+
+  /** 選文段觸發：開面板 + 預填 content + quote + 深連結。 */
+  openWithSelection(quote: string, anchorUrl: string): void {
+    this.selection = { quote, anchorUrl };
+    this.draft = { type: 'content', body: '', correctInfo: '', quote };
+    this.open = true;
+    this.panel.hidden = false;
+    this.ensureBackend();
+    this.renderForm();
+  }
 
   mount(): void {
     this.root.innerHTML = '';
@@ -156,6 +232,7 @@ class Widget {
     this.open = !this.open;
     this.panel.hidden = !this.open;
     if (this.open) {
+      this.selection = null; // FAB 開啟 = 一般回饋（非選文段）
       this.ensureBackend();
       this.renderForm();
     }
@@ -180,21 +257,21 @@ class Widget {
 
   private renderForm(): void {
     const t = this.t;
-    const chips: Array<[FeedbackType, string, string]> = [
-      ['content', t.typeContent, t.typeContentHint],
-      ['bug', t.typeBug, t.typeBugHint],
-      ['newtopic', t.typeNewtopic, t.typeNewtopicHint],
-    ];
+    const cats = this.categoriesForPage();
+    const quoteBlock = this.selection
+      ? `<div class="twmd-fb-quote"><span class="twmd-fb-quote-label">${esc(t.quoteLabel)}</span><blockquote>${esc(this.selection.quote)}</blockquote></div>`
+      : '';
     this.panel.innerHTML =
       this.header(t.title) +
       `<div class="twmd-fb-body">
         <p class="twmd-fb-intro">${esc(t.intro)}</p>
         ${this.ctx.title ? `<p class="twmd-fb-about">${esc(t.about)} ${esc(this.ctx.title)}</p>` : ''}
+        ${quoteBlock}
         <div class="twmd-fb-chips" role="radiogroup">
-          ${chips
+          ${cats
             .map(
-              ([val, label, hint]) =>
-                `<button type="button" class="twmd-fb-chip${this.draft.type === val ? ' is-on' : ''}" data-type="${val}" role="radio" aria-checked="${this.draft.type === val}" title="${esc(hint)}">${esc(label)}</button>`,
+              (val) =>
+                `<button type="button" class="twmd-fb-chip${this.draft.type === val ? ' is-on' : ''}" data-type="${val}" role="radio" aria-checked="${this.draft.type === val}" title="${esc(this.hintFor(val))}">${esc(this.labelFor(val))}</button>`,
             )
             .join('')}
         </div>
@@ -223,12 +300,7 @@ class Widget {
     ) as HTMLButtonElement;
 
     const syncType = () => {
-      const map: Record<FeedbackType, string> = {
-        content: t.typeContentHint,
-        bug: t.typeBugHint,
-        newtopic: t.typeNewtopicHint,
-      };
-      hintEl.textContent = map[this.draft.type];
+      hintEl.textContent = this.hintFor(this.draft.type);
       correctWrap.hidden = this.draft.type !== 'content';
     };
     const syncSubmit = () => {
@@ -400,7 +472,10 @@ class Widget {
         articleTitle: this.ctx.title,
         category: this.ctx.category,
         lang: this.ctx.lang,
-        sourceUrl: this.ctx.url,
+        // 選文段：用 W3C text-fragment 深連結當 source，維護者一點直達高亮。
+        sourceUrl: this.selection ? this.selection.anchorUrl : this.ctx.url,
+        quote: this.selection?.quote || this.draft.quote,
+        pageKind: this.ctx.pageKind,
       });
       this.renderDone();
     } catch (e) {
@@ -422,8 +497,13 @@ class Widget {
     this.panel
       .querySelector('[data-close2]')
       ?.addEventListener('click', () => this.close());
-    // reset draft body so再次開啟是乾淨的
-    this.draft = { type: this.draft.type, body: '', correctInfo: '' };
+    // reset so再次開啟是乾淨的
+    this.selection = null;
+    this.draft = {
+      type: this.categoriesForPage()[0],
+      body: '',
+      correctInfo: '',
+    };
   }
 
   private renderError(): void {

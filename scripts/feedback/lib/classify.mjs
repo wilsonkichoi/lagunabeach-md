@@ -11,7 +11,7 @@
  *       讀者文字 verbatim 引用,triage 不替讀者改寫對錯（那是維護者人類 gate 的事）。
  */
 
-const TYPES = new Set(['content', 'bug', 'newtopic']);
+const TYPES = new Set(['content', 'bug', 'newtopic', 'idea']);
 
 // ── spam ─────────────────────────────────────────────────────────────────────
 const SPAM_KEYWORDS = [
@@ -95,7 +95,8 @@ function provenance(row) {
   const who = row.display_name || '匿名讀者'; // 匿名讀者
   const when = (row.created_at || '').slice(0, 16).replace('T', ' ');
   // 只放 display_name + feedback id;不放 email。
-  return `\n\n---\n> 🧬 由站上回報轉入（twmd-feedback-triage）· 回報者：${who} · feedback id: \`${row.id}\`${when ? ` · ${when}` : ''}`;
+  const where = row.page_kind ? ` · 來源頁:${row.page_kind}` : '';
+  return `\n\n---\n> 🧬 由站上回報轉入（twmd-feedback-triage）· 回報者：${who} · feedback id: \`${row.id}\`${when ? ` · ${when}` : ''}${where}`;
 }
 
 function truncate(s, n) {
@@ -138,13 +139,26 @@ export function buildIssue(row) {
     };
   }
 
-  // content（勘誤）→ 對齊 fact-correction.yml
+  if (type === 'idea') {
+    return {
+      type,
+      title: `[Idea] ${truncate(row.body, 55)}`,
+      labels: ['enhancement', 'from-feedback'],
+      body: `**想法 / Idea**\n${row.body}` + provenance(row),
+    };
+  }
+
+  // content（勘誤）→ 對齊 fact-correction.yml。有 quote = 讀者選文段標註。
+  const quoteBlock = row.quote
+    ? `**讀者選取的原文 / Selected passage**\n> ${String(row.quote).replace(/\n/g, '\n> ')}\n\n🔗 直接定位：${row.source_url}\n\n`
+    : '';
   return {
     type,
     title: `[Fact Check] ${title}`,
     labels: ['needs-verification', 'from-feedback'],
     body:
       `**哪篇文章 / Which article?**\n${articleRef(row)}\n\n` +
+      quoteBlock +
       `**哪裡有誤 / What's wrong?**\n${row.body}` +
       (row.correct_info
         ? `\n\n**正確資訊 + 來源 / Correct info + source**\n${row.correct_info}`
