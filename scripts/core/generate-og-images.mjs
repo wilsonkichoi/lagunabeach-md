@@ -744,8 +744,8 @@ async function main() {
 
   // Load favicon → base64 (embed once into template)
   if (!existsSync(faviconPath)) {
-    console.error(`❌ favicon not found: ${faviconPath}`);
-    process.exit(1);
+    // throw（非 process.exit）→ 走 main().catch 的非致命 handler，不擋 build
+    throw new Error(`favicon not found: ${faviconPath}`);
   }
   const faviconB64 = readFileSync(faviconPath).toString('base64');
   const faviconDataUri = `data:image/png;base64,${faviconB64}`;
@@ -826,6 +826,38 @@ async function main() {
 }
 
 main().catch((err) => {
-  console.error(err);
-  process.exit(1);
+  // 容錯機制（2026-06-01）：OG 圖是補充性 SEO 社群分享資產，不是站點內容本身。
+  // 既有 cache 的 OG 圖仍有效、缺的走 SEO fallback，所以「產生失敗」絕不該擋掉整個
+  // build / deploy（2026-06-01 deploy 連環失敗根因之一：prebuild:og 因 Playwright
+  // chrome-headless-shell 缺失 exit 1 → npm run build fail → 全站無法上線）。
+  // 預設非致命：印醒目警告 + exit 0，build 繼續。本地開發要嚴格抓錯設 OG_STRICT=1。
+  const strict = process.env.OG_STRICT === '1';
+  const msg = err && err.message ? err.message : String(err);
+  console.error(
+    '\n⚠️  ════════════════════════════════════════════════════════',
+  );
+  console.error(
+    '⚠️  OG 圖生成失敗 —— 非致命，build/deploy 繼續（既有 cache + SEO fallback 生效）',
+  );
+  console.error(`⚠️  原因：${msg}`);
+  if (
+    /Executable doesn't exist|playwright install|chrome-headless-shell/i.test(
+      msg,
+    )
+  ) {
+    console.error(
+      '⚠️  → Playwright 瀏覽器二進位缺失/版本不符。檢查 deploy.yml Playwright',
+    );
+    console.error(
+      '⚠️    cache key（需含 runner.arch）+「Install Playwright Chromium binary」step。',
+    );
+  }
+  console.error(
+    '⚠️  ════════════════════════════════════════════════════════\n',
+  );
+  if (strict) {
+    console.error('OG_STRICT=1 → 視為致命，exit 1。');
+    process.exit(1);
+  }
+  process.exit(0);
 });
