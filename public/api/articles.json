@@ -893,6 +893,24 @@
     "path": "Music/八部合音.md"
   },
   {
+    "title": "十大建設：在十億美元外匯上的兩千億豪賭",
+    "description": "1973年台灣外匯存底僅10億美元，蔣經國卻宣布投入約3000億台幣推動十大建設。這不僅是應對石油危機與外交孤立的經濟轉身，更是一場將日治遺留藍圖重新包裝，轉化為國家認同的政治敘事。",
+    "category": "History",
+    "tags": [
+      "經濟發展",
+      "蔣經國",
+      "石油危機",
+      "基礎建設",
+      "台灣歷史",
+      "產業升級"
+    ],
+    "url": "https://taiwan.md/History/%E5%8D%81%E5%A4%A7%E5%BB%BA%E8%A8%AD",
+    "readingTime": 15,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "History/十大建設.md"
+  },
+  {
     "title": "三人の外国人が見た乙未（いつび）の役：写真師のアルバム、記者の手帳、牧師の日記",
     "description": "1895年の乙未の役（台湾割譲戦争）において、三人の外国人が最も重要な外語目撃文献を残した——日本の写真師・遠藤誠の凱旋アルバム、アメリカ人記者・ダビッドソンの従軍手帳、日本の牧師・細川瀏の渡台日記。問題は彼らが何を見たかではなく、誰のために見たかだ。",
     "category": "ja",
@@ -1226,6 +1244,23 @@
     "featured": false,
     "date": "2026-04-10",
     "path": "ja/History/chiang-kai-shek-memorial-hall.md"
+  },
+  {
+    "title": "中華菱利：撐起台灣經濟的發財車",
+    "description": "從 1988 年自主研發的「威利」到稱霸輕商車市二十載的「菱利」，中華汽車如何將日本 Minicab 在地化，演變成台灣街頭巷尾最熟悉的經濟支柱？",
+    "category": "Economy",
+    "tags": [
+      "中華汽車",
+      "商用車",
+      "台灣經濟",
+      "汽車工業",
+      "發財車"
+    ],
+    "url": "https://taiwan.md/Economy/%E4%B8%AD%E8%8F%AF%E8%8F%B1%E5%88%A9",
+    "readingTime": 9,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "Economy/中華菱利.md"
   },
   {
     "title": "中選会制度：行政・立法による二重抑制の反直感的設計",
@@ -2189,7 +2224,7 @@
     "category": "Technology",
     "tags": [],
     "url": "https://taiwan.md/Technology/%E5%8D%8A%E5%B0%8E%E9%AB%94%E7%94%A2%E6%A5%AD",
-    "readingTime": 70,
+    "readingTime": 71,
     "featured": true,
     "date": "2026-05-25",
     "path": "Technology/半導體產業.md"
@@ -2460,20 +2495,9 @@
     "title": "台湾上位 50 大企業：「護国神山」が一枚の表を支え、単一障害点を抱える国家も支えています",
     "description": "2026 年 5 月 19 日、TSMC 一社の時価総額は台湾加権指数全体の 31.51%、台湾株式市場の総時価総額の約 4 割を占めました。上位 50 社を合計すると一つの GDP を支えますが、そのうち一社だけでこの GDP の運命を左右しています。電子産業 36%、金融 25%、伝統産業 10%。いわゆる「電子・金融・伝統産業」の三本柱は、実際には電子産業という一本の脚で身体の半分を支えています。寧夏夜市（ナイトマーケット）でジェンスン・フアンと張忠謀が写真を撮ったあの夜から、凱旋三路で未明に 32 人の命が失われた現場まで、このランキングは台湾にとって代替不能な脊椎であると同時に、最も脆弱な単一障害点でもあります。",
     "category": "ja",
-    "tags": [
-      "企業",
-      "時価総額",
-      "TSMC",
-      "産業構造",
-      "半導体",
-      "金融",
-      "伝統産業",
-      "AI",
-      "ファミリー企業",
-      "集中度"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ja/Economy/top-50-companies-taiwan",
-    "readingTime": 62,
+    "readingTime": 63,
     "featured": false,
     "date": "2026-05-20",
     "path": "ja/Economy/top-50-companies-taiwan.md"
@@ -8739,6 +8763,22 @@
     "path": "Culture/台灣華語的演化.md"
   },
   {
+    "title": "台灣街頭塗鴉：從深夜的法外之徒到西門町的城市之光",
+    "description": "1989 年呂學淵在民生東路噴下第一道線條，開啟了台灣塗鴉的地下史。從大腸王的都市傳說到 Candy Bird 的社會批判，這場與環保局追逐三十年的遊戲，正重新定義台灣的城市美學。",
+    "category": "Art",
+    "tags": [
+      "街頭藝術",
+      "大腸王",
+      "次文化",
+      "城市空間"
+    ],
+    "url": "https://taiwan.md/Art/%E8%A1%97%E9%A0%AD%E5%A1%97%E9%B4%89",
+    "readingTime": 8,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "Art/街頭塗鴉.md"
+  },
+  {
     "title": "台灣街頭藝術與塗鴉文化",
     "description": "從地下塗鴉到合法彩繪，城市牆面如何成為台灣藝術家的創作舞台",
     "category": "Culture",
@@ -9304,21 +9344,13 @@
     "path": "Culture/台灣廟會與陣頭文化.md"
   },
   {
-    "title": "台灣影視配樂：從電影原聲到遊戲音樂的聲音美學",
-    "description": "探索台灣影視配樂的發展軌跡，從侯孝賢與林強的合作到魏德聖與范宗沛的史詩配樂，再到雷亞遊戲的電玩音樂創新，台灣如何建立獨特的影像聲音語言",
+    "title": "台灣影視配樂：從替畫面鋪情緒，到替一座島挖出自己的聲音",
+    "description": "2001 年坎城放完《千禧曼波》，外國觀眾追問「Lim Giong 是誰」。台灣影視配樂常被講成規格愈來愈國際級——雪梨交響樂團、奧斯卡、坎城。但它真正的成熟不在技術升級，而在作曲家從哪裡取材：從 1980 年代模仿好萊塢的管弦，轉身鑽回月琴、歌仔戲、嗩吶喪葬樂與一首平埔族採集來的老調。在地的聲音，反而讓這座島被世界認得。",
     "category": "Music",
-    "tags": [
-      "電影配樂",
-      "影視音樂",
-      "遊戲配樂",
-      "侯孝賢",
-      "林強",
-      "范宗沛",
-      "雷亞遊戲"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/Music/%E5%8F%B0%E7%81%A3%E5%BD%B1%E8%A6%96%E9%85%8D%E6%A8%82",
-    "readingTime": 26,
-    "featured": true,
+    "readingTime": 48,
+    "featured": false,
     "date": "2026-03-19",
     "path": "Music/台灣影視配樂.md"
   },
@@ -9528,6 +9560,22 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "Nature/台灣環境運動史.md"
+  },
+  {
+    "title": "台灣總統的寵物：從官邸裡的威權狼犬到「第一貓」的社會共鳴",
+    "description": "1951年，一隻狼犬進入士林官邸成為蔣中正的護衛；七十年後，蔡英文帶著流浪貓「想想」入主官邸。從象徵威權守衛的軍犬到代表社會關懷的浪犬與貓咪，台灣總統寵物的更迭，無意間側寫了這座島嶼從強人政治轉向多元平權的民主軌跡。",
+    "category": "Politics",
+    "tags": [
+      "總統官邸",
+      "寵物政治",
+      "動物保護",
+      "台灣民主"
+    ],
+    "url": "https://taiwan.md/Politics/%E7%B8%BD%E7%B5%B1%E7%9A%84%E5%AF%B5%E7%89%A9",
+    "readingTime": 13,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "Politics/總統的寵物.md"
   },
   {
     "title": "台灣聲音地景",
@@ -15107,6 +15155,24 @@
     "path": "ja/Technology/submarine-cables-taiwan-lifeline.md"
   },
   {
+    "title": "消失的遊樂園：從「第一樂園」到猛鬼傳說，那些被都市計畫沒收的童年",
+    "description": "1972 年全台第一座主題樂園「大同水上樂園」在板橋開幕，開啟了台灣長達二十年的「大樂園時代」。從陳釗炳親自端盤子的盛況，到卡多里樂園的斷軌謠言，這些樂園的集體消失並非單純因為設施老舊，而是台灣城市擴張與休閒產業轉型的縮影。",
+    "category": "History",
+    "tags": [
+      "遊樂園",
+      "懷舊",
+      "都市計畫",
+      "大同水上樂園",
+      "卡多里樂園",
+      "亞哥花園"
+    ],
+    "url": "https://taiwan.md/History/%E6%B6%88%E5%A4%B1%E7%9A%84%E9%81%8A%E6%A8%82%E5%9C%92",
+    "readingTime": 10,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "History/消失的遊樂園.md"
+  },
+  {
     "title": "特有種",
     "description": "台灣豐富的特有種生物：島嶼地理學、垂直氣候帶與長期隔離演化的共同產物，也是全球生物多樣性研究的重要田野場域",
     "category": "Nature",
@@ -16434,6 +16500,23 @@
     "path": "Food/蚵仔煎.md"
   },
   {
+    "title": "蛋撻：從澳門修道院到台灣「一窩蜂」的集體記憶",
+    "description": "1998 年一場暴起暴落的「蛋撻之亂」，不僅定義了台灣社會的「一窩蜂」消費行為，更讓肯德基在台灣被迫轉型成「被炸雞耽誤的蛋撻店」。",
+    "category": "Food",
+    "tags": [
+      "蛋撻",
+      "蛋撻效應",
+      "肯德基",
+      "台灣美食",
+      "消費心理"
+    ],
+    "url": "https://taiwan.md/Food/%E8%9B%8B%E6%92%BB",
+    "readingTime": 13,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "Food/蛋撻.md"
+  },
+  {
     "title": "許文龍：台南1928，奇美實業1959到全球最多提琴的博物館創辦人",
     "description": "1928/2/25生於台南，2023/11/18辭世（95歲）。1959/10創立奇美實業（資本200萬）。1990年起收購提琴，共1362把（全球最多）。2015/1/1奇美博物館正式開館（台南都會公園）。熱愛小提琴、奇美博物館免費開放（現行政策P0⚠️待確認）。",
     "category": "People",
@@ -17543,6 +17626,22 @@
     "path": "ja/Food/heysong-soft-drinks.md"
   },
   {
+    "title": "傅崐萁：從後山「花蓮王」到國會「總召」的權力螺旋",
+    "description": "從 1990 年代的股市巨賈「凱聚小傅」，到 2001 年踏入國會、2009 年入主花蓮，傅崐萁在後山建立起長達二十年、連中央都難以撼動的「傅家王朝」。從炒股案帶職入監、假離婚任命妻子為副縣長，到 2024 年重返立法院擔任國民黨團總召並率團訪中，他展現了台灣政壇最極致的權力韌性與爭議。",
+    "category": "People",
+    "tags": [
+      "花蓮",
+      "政治人物",
+      "國民黨",
+      "立法院"
+    ],
+    "url": "https://taiwan.md/People/%E5%82%85%E5%B4%90%E8%90%81",
+    "readingTime": 8,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "People/傅崐萁.md"
+  },
+  {
     "title": "勝利路的兩面：從裝甲兵政變到「大停車場」的湖口記憶",
     "description": "在新竹湖口勝利路上，營區圍牆的一側是戰車與政治風暴，另一側則是民居、福利社與消失的電影院。這是一段關於鄰里、意外與社會正義的在地史。",
     "category": "History",
@@ -18156,6 +18255,24 @@
     "featured": false,
     "date": "2026-04-20",
     "path": "People/黃少雍.md"
+  },
+  {
+    "title": "黃氏兄弟：在清新的標籤背後，那場被強制攤開的真實與溫柔",
+    "description": "從 2017 年的一支整人影片開始，黃氏兄弟以「清新、正向」在 YouTube 圈突圍。然而 2020 年一場強迫出櫃的報導，讓這對兄弟在百萬訂閱的巔峰，被迫在鏡頭前拆解私隱，卻也意外勾勒出台灣社會對性別平權最溫柔的一次集體回應。",
+    "category": "People",
+    "tags": [
+      "YouTuber",
+      "黃氏兄弟",
+      "瑋瑋",
+      "哲哲",
+      "性別平權",
+      "台灣文化"
+    ],
+    "url": "https://taiwan.md/People/%E9%BB%83%E6%B0%8F%E5%85%84%E5%BC%9F",
+    "readingTime": 12,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "People/黃氏兄弟.md"
   },
   {
     "title": "黃玉嬌",
@@ -26296,6 +26413,17 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "fr/Economy/compal-electronics-global-odm-leader.md"
+  },
+  {
+    "title": "Computex：三大國際電腦展收了兩個，剩下的那個長在台北",
+    "description": "2026 年 6 月，黃仁勳站上台北的舞台說「回到家真好」，背板上印的是肉粽和豬腳。Computex 從 1981 年松山機場旁一場中小企業出口商展，長成全球 AI 巨頭每年朝聖的地方。德國 CeBIT、美國 COMDEX 都收攤了，這個 45 歲的台北電腦展卻越辦越大，因為它辦在全世界近九成 AI 伺服器真正被組裝出來的島上。",
+    "category": "Technology",
+    "tags": [],
+    "url": "https://taiwan.md/Technology/Computex",
+    "readingTime": 44,
+    "featured": true,
+    "date": "2026-06-01",
+    "path": "Technology/Computex.md"
   },
   {
     "title": "Comté de Changhua : un grand comté agricole qui a vaincu DuPont, mais ne parvient pas à retenir ses jeunes",
@@ -36995,20 +37123,9 @@
     "title": "Las 50 mayores empresas de Taiwán: la montaña sagrada que protege la nación sostiene una tabla, y también un país con un único punto de falla",
     "description": "El 19 de mayo de 2026, la capitalización bursátil de una sola empresa, TSMC, representaba el 31,51% de todo el índice ponderado de Taiwán y cerca del 40% del valor total del mercado accionario taiwanés; las 50 mayores compañías, sumadas, sostienen un PIB, pero una de ellas ha secuestrado el destino de ese PIB. Electrónica 36%, finanzas 25%, industrias tradicionales 10%: el supuesto trípode de «electrónica, finanzas e industrias tradicionales» en realidad sostiene medio cuerpo con una sola pierna, la electrónica. Desde aquella noche en el mercado nocturno de Ningxia en que Jensen Huang se fotografió con Morris Chang, hasta las 32 vidas perdidas de madrugada en Kaixuan 3rd Road, esta clasificación es a la vez la columna vertebral irremplazable de Taiwán y su punto único de falla más frágil.",
     "category": "es",
-    "tags": [
-      "empresas",
-      "capitalización bursátil",
-      "TSMC",
-      "estructura industrial",
-      "semiconductores",
-      "finanzas",
-      "industrias tradicionales",
-      "IA",
-      "empresas familiares",
-      "concentración"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/Economy/top-50-companies-taiwan",
-    "readingTime": 153,
+    "readingTime": 154,
     "featured": false,
     "date": "2026-05-20",
     "path": "es/Economy/top-50-companies-taiwan.md"
@@ -38463,20 +38580,9 @@
     "title": "Les 50 plus grandes entreprises de Taïwan : la montagne sacrée protectrice du pays soutient un classement, mais aussi un pays à point de défaillance unique",
     "description": "Le 19 mai 2026, la capitalisation boursière de TSMC représentait à elle seule 31,51 % de l'indice pondéré de Taïwan et environ 40 % de la capitalisation totale du marché taïwanais ; les 50 plus grandes entreprises réunies soutiennent l'équivalent d'un PIB, mais l'une d'elles tient en otage le destin de ce PIB. Électronique 36 %, finance 25 %, industries traditionnelles 10 % : le prétendu tripode « électronique-finance-industries traditionnelles » est en réalité un corps à moitié porté par la seule jambe électronique. De la soirée où Jensen Huang et Morris Chang ont été photographiés au marché de nuit de Ningxia, jusqu'aux 32 vies perdues avant l'aube sur Kaixuan 3rd Road, ce classement est à la fois la colonne vertébrale irremplaçable de Taïwan et son point de défaillance unique le plus fragile.",
     "category": "fr",
-    "tags": [
-      "entreprises",
-      "capitalisation boursière",
-      "TSMC",
-      "structure industrielle",
-      "semi-conducteurs",
-      "finance",
-      "industries traditionnelles",
-      "IA",
-      "entreprises familiales",
-      "concentration"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/fr/Economy/top-50-companies-taiwan",
-    "readingTime": 152,
+    "readingTime": 155,
     "featured": false,
     "date": "2026-05-20",
     "path": "fr/Economy/top-50-companies-taiwan.md"
@@ -48553,20 +48659,9 @@
     "title": "Taiwan's Top 50 Companies: The Sacred Mountain That Holds Up One Table, and Also Holds Up a Single-Point-of-Failure State",
     "description": "On May 19, 2026, TSMC alone accounted for 31.51% of the Taiwan Capitalization Weighted Stock Index and roughly 40% of the total market capitalization of Taiwan stocks; the top 50 companies together sustain an economy the size of one GDP, but one company among them has hijacked that GDP's fate. Electronics account for 36%, finance 25%, and traditional industries 10%; the so-called tripartite balance of electronics, finance, and traditional industries is in fact half a body held up by one electronics leg. From the night Jensen Huang and Morris Chang took a photo together at Ningxia Night Market, to the 32 lives lost on Kaixuan 3rd Road before dawn, this ranking is both Taiwan's irreplaceable spine and its most fragile single point of failure.",
     "category": "en",
-    "tags": [
-      "Companies",
-      "Market Capitalization",
-      "TSMC",
-      "Industrial Structure",
-      "Semiconductors",
-      "Finance",
-      "Traditional Industries",
-      "AI",
-      "Family Businesses",
-      "Concentration"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/Economy/top-50-companies-taiwan",
-    "readingTime": 141,
+    "readingTime": 143,
     "featured": false,
     "date": "2026-05-20",
     "path": "en/Economy/top-50-companies-taiwan.md"
@@ -54505,20 +54600,9 @@
     "title": "대만 50대 기업: 호국신산이 하나의 표를 떠받치고, 단일 장애점의 국가도 떠받친다",
     "description": "2026년 5월 19일, TSMC 한 회사의 시가총액은 대만 가권지수 전체의 31.51%, 대만 주식시장 총시가총액의 약 40%를 차지했다. 50대 기업을 합치면 하나의 GDP를 떠받치지만, 그중 한 회사가 이 GDP의 운명을 사실상 붙들고 있다. 전자 36%, 금융 25%, 전통 산업 10%. 이른바 ‘전자·금융·전통 산업’의 삼각 구도는 실제로는 전자 산업 한 다리가 몸의 절반을 지탱하는 구조다. 닝샤 야시장에서 젠슨 황과 장중머우가 함께 사진을 찍었던 그 밤부터, 카이쉬안 3로 새벽의 32명 사망 사건까지, 이 순위표는 대만의 대체 불가능한 척추이자 가장 취약한 단일 장애점이다.",
     "category": "ko",
-    "tags": [
-      "기업",
-      "시가총액",
-      "TSMC",
-      "산업 구조",
-      "반도체",
-      "금융",
-      "전통 산업",
-      "AI",
-      "가족기업",
-      "집중도"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/ko/Economy/top-50-companies-taiwan",
-    "readingTime": 68,
+    "readingTime": 69,
     "featured": false,
     "date": "2026-05-20",
     "path": "ko/Economy/top-50-companies-taiwan.md"

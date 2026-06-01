@@ -1,7 +1,499 @@
 {
-  "generatedAt": "2026-06-01T02:59:42.982Z",
+  "generatedAt": "2026-06-01T15:09:54.987Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "6b4c08be561cea48e8b55541bd2b2e08cb89ef22",
+      "date": "2026-06-01T23:03:54+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1125 from frank890417/worktree-20260601-idlccp1984-batch8"
+    },
+    {
+      "hash": "edae9fc942b90ef7609e90b1d2ae0c4431a8bb9e",
+      "date": "2026-06-01T23:03:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: idlccp1984 8-PR batch 事實查核修正 — 全篇 P0 fix"
+    },
+    {
+      "hash": "da0ee1b976e96e98874c6ee3a66a563c5457163a",
+      "date": "2026-06-01T22:47:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diagnose: idlccp1984 8-PR batch 完整事實查核 — 8 篇 FACTCHECK-PIPELINE Phase 1-6 audit trail + 總表"
+    },
+    {
+      "hash": "c9c64e418a80eb6f2563080211de392373009842",
+      "date": "2026-06-01T22:30:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: idlccp1984 8-PR batch 結構修復 — frontmatter subcategory/featured/canonical-order + 32 footnote 格式 + 參考資料 H2 + #1109 date 2024→2026 + #1113 category→Politics"
+    },
+    {
+      "hash": "f0e7aac7465134214827a62a7e96cce2e95548d4",
+      "date": "2026-06-01T22:20:38+08:00",
+      "author": "idlccp1984",
+      "message": "Create 十大建設.md (#1116)"
+    },
+    {
+      "hash": "0d77d3d1372698ece6735450d5701af1c59308fc",
+      "date": "2026-06-01T22:20:32+08:00",
+      "author": "idlccp1984",
+      "message": "Create 中華菱利.md (#1115)"
+    },
+    {
+      "hash": "b23796398a167ddde76ba644953f0c5e619e5bc9",
+      "date": "2026-06-01T22:20:27+08:00",
+      "author": "idlccp1984",
+      "message": "Create 消失的遊樂園.md (#1114)"
+    },
+    {
+      "hash": "17b2adf4dba014b73f45f5333e990194f900a312",
+      "date": "2026-06-01T22:20:22+08:00",
+      "author": "idlccp1984",
+      "message": "Create 總統的寵物.md (#1113)"
+    },
+    {
+      "hash": "e2bf9d6d4eb66a114d4a5e23f91c5ab45bfc2c1a",
+      "date": "2026-06-01T22:20:16+08:00",
+      "author": "idlccp1984",
+      "message": "Create 黃氏兄弟.md (#1112)"
+    },
+    {
+      "hash": "e5ef8efd76b6aad6c1b27a1f9c78d440dae7e6f0",
+      "date": "2026-06-01T22:20:11+08:00",
+      "author": "idlccp1984",
+      "message": "Create 傅崐萁.md (#1111)"
+    },
+    {
+      "hash": "7b23a60ab1481022d80c0c34383038ea95ce5aea",
+      "date": "2026-06-01T22:20:06+08:00",
+      "author": "idlccp1984",
+      "message": "Create 蛋撻.md (#1110)"
+    },
+    {
+      "hash": "3a48496f88d21d1b50ba988c585c2743cee9ecad",
+      "date": "2026-06-01T22:20:01+08:00",
+      "author": "idlccp1984",
+      "message": "Create 街頭塗鴉.md (#1109)"
+    },
+    {
+      "hash": "42db96a1b83ba72a1dea2b5cd40c39c19bb1bf65",
+      "date": "2026-06-01T22:16:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] fix: OG 容錯改「自我修復 + 擋上線」取代靜默 exit 0（哲宇 directive 校正）"
+    },
+    {
+      "hash": "9cc24d7453e9029c8573202c83e73c2d66462fbf",
+      "date": "2026-06-01T22:08:07+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] fix: OG 圖生成容錯 — 失敗非致命不擋 deploy（補 2026-06-01 deploy 連環失敗根因）"
+    },
+    {
+      "hash": "794f60ec48f62b252840b9a00671668a68918920",
+      "date": "2026-06-01T22:07:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-01-220458-twmd-maintainer-pm — 22:00 real fire / vc=2 effective-empty / observer 12hr passive defer / build ✅"
+    },
+    {
+      "hash": "1e708c6e3f21cf822d40ba8d076bc7b581e5395a",
+      "date": "2026-06-01T20:14:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] fix: Playwright cache key 加 runner.arch — 修 ARM→x86 切換暴露的 latent bug"
+    },
+    {
+      "hash": "879b6e17fe3439cfd02b748f5f74f69f53d6fec1",
+      "date": "2026-06-01T20:09:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] fix: deploy build job ubuntu-24.04-arm → ubuntu-latest (x86) — ARM runner pool 反覆 SIGTERM reclaim"
+    },
+    {
+      "hash": "e1c8cb2996e4210545bdd0ef39a9f94e5c150f5d",
+      "date": "2026-06-01T19:01:05+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory+diary: 2026-06-01-170717-manual — 拆除防火牆 v6.2/v6.3 + 影視配樂 clean 重寫 + 一手抓 agent 杜撰引語"
+    },
+    {
+      "hash": "f0f37effbf3767bcb334f60ef4193b16648127d5",
+      "date": "2026-06-01T18:30:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: REWRITE-PIPELINE v6.3 多 agent 編排 — orchestrator + tiered sub-agents"
+    },
+    {
+      "hash": "6dc4c225673a7530fe67381b896478a01459c73f",
+      "date": "2026-06-01T18:25:12+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 台灣影視配樂 媒體素材豐富化 — 4 verified iframe + 8 官方 inline link"
+    },
+    {
+      "hash": "babf80dc33fb81850d7db9359ce8cfa1d360e323",
+      "date": "2026-06-01T18:17:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 台灣影視配樂 clean re-write via REWRITE-PIPELINE v6.2 拆除防火牆"
+    },
+    {
+      "hash": "669e9ec17fff6d96b56456c7a68319350cadb99f",
+      "date": "2026-06-01T18:10:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite-daily: 18:00 cycle defer — Stage 8 collision detect (parallel manual session 第三輪影視配樂 EVOLVE in-flight)"
+    },
+    {
+      "hash": "f962b524fa58c4eeffaffefa66e65fe7c166fd90",
+      "date": "2026-06-01T17:45:25+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: REWRITE-PIPELINE v6.2 拆除防火牆 + 校正焦慮儀器化 — 讀者 callout 第二輪根因"
+    },
+    {
+      "hash": "d66f97e9dc2d8089673300279a0d997db1aebafc",
+      "date": "2026-06-01T17:33:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore: #112 Computex → X — 同 #111 內容雙平台補齊（@taiwandotmd 切帳號後 ship）"
+    },
+    {
+      "hash": "1d90202481ac33a8ccc50b24ec33af3fef517f08",
+      "date": "2026-06-01T17:25:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore: #111 Computex → Threads — 三大電腦展死了兩個，剩下的長在台北（黃仁勳「回到家真好」）"
+    },
+    {
+      "hash": "8d1d5e63a2829ffb46281383b82e784a05c34500",
+      "date": "2026-06-01T16:49:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-01-164749-manual — v1.9.0 release ship + about 里程碑 4 lang + RELEASE-PIPELINE v2.1 + 多核心 same-dir 碰撞教訓"
+    },
+    {
+      "hash": "118dd77d8555387c3485f53ee604ae0eccbd0c01",
+      "date": "2026-06-01T15:27:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: RELEASE-PIPELINE v2.1 — §5c-bis-α 概念式敘事骨架（哲宇 v1.9.0 directive codify）"
+    },
+    {
+      "hash": "89d8242201f1f0818e1d716f6b26b6b88327cf52",
+      "date": "2026-06-01T15:27:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: v1.9.0 認知層同步 — CONSCIOUSNESS §里程碑 (補 v1.8.0 漏加 + v1.9.0)"
+    },
+    {
+      "hash": "00293f99ed35675b61461db77c2e8ef5d2947c2a",
+      "date": "2026-06-01T15:26:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] about: v1.9.0 里程碑 — 我學會聽：讀者參與器官誕生（第七十六天，4 lang en/ja/ko/zh-TW）"
+    },
+    {
+      "hash": "37dd063d4421a42420971411b5e713e59aacc593",
+      "date": "2026-06-01T15:22:21+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1124 from frank890417/worktree-20260601-feedback-login-system"
+    },
+    {
+      "hash": "7d5d04b5a60ed2619906b4f6b0535693c7bf5378",
+      "date": "2026-06-01T15:20:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory+diary: finale 增量 — pill 透明 bug + PR #1123"
+    },
+    {
+      "hash": "581108b19414312d9add7f8784f14c86eb28bb42",
+      "date": "2026-06-01T15:19:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 台灣影視配樂 +5 官方影片 iframe + 11 inline 官方音樂連結"
+    },
+    {
+      "hash": "67ab352c8535c8d8547fea59a81969654112dd83",
+      "date": "2026-06-01T14:52:17+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1123 from frank890417/worktree-20260601-feedback-login-system"
+    },
+    {
+      "hash": "c8e474e2445b80b2681e25ea3c3acf2ce3b64d4a",
+      "date": "2026-06-01T14:50:21+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] fix: 選文 pill 非 hover 時透明 — var 加 literal fallback"
+    },
+    {
+      "hash": "2803ae0d04a8c38bbc5f1cdc9616e28bacbeb006",
+      "date": "2026-06-01T14:41:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: feedback 管理視圖 feedback_admin（0004）"
+    },
+    {
+      "hash": "66af2d7d10518d444bbf85708d9a3aac49c30427",
+      "date": "2026-06-01T14:33:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: feedback v4 研究 — 即時 webhook hook-based + 風險盤點 + 進化 roadmap"
+    },
+    {
+      "hash": "e28f21848803a54608040550fbb613ee0cfcdf95",
+      "date": "2026-06-01T14:21:53+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1122 from frank890417/worktree-20260601-feedback-login-system"
+    },
+    {
+      "hash": "74ae2053d83cf41b73808f5fa59395286f86cafc",
+      "date": "2026-06-01T14:21:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "Merge remote-tracking branch 'origin/main' into worktree-20260601-feedback-login-system"
+    },
+    {
+      "hash": "626568c9503c9146390e763f864564a5678dfdb0",
+      "date": "2026-06-01T14:20:12+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-06-01-134740-feedback-login-system — 讀者第一次能回話，而他們的話會留在我的 git 裡"
+    },
+    {
+      "hash": "f75190da41c016786243e8509894b3453579c868",
+      "date": "2026-06-01T14:15:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: feedback go-live 紀錄更新 — Step 10 端到端煙霧 ✅ + Step 9 deferred"
+    },
+    {
+      "hash": "8edab6ee48716e62506aa6565d84c895d01acb52",
+      "date": "2026-06-01T14:14:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: LESSONS-INBOX 候選 — attribution-density Fresh 新文三層擋幻覺（falsification agent + anti-example + 一手 verbatim）"
+    },
+    {
+      "hash": "96dcae93fb7521be2a8a7083a63e4776465ef68d",
+      "date": "2026-06-01T14:13:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-06-01-130850-manual — 派出去查證的 agent 回來打我臉，而我很高興（教訓的可移植性 + 文章論點與自身方法押韻）"
+    },
+    {
+      "hash": "aa90c102eef939b87f070671cbe7b18f95f783d3",
+      "date": "2026-06-01T14:10:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-01-130850-manual — Computex Fresh 深度文 ship + 影視配樂 attribution 教訓首次跨主題 self-apply 驗證"
+    },
+    {
+      "hash": "38412654444da27aa913916aa8bb3052b6d0cba7",
+      "date": "2026-06-01T13:53:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] cross-link: 為「Computex」建立雙向延伸閱讀"
+    },
+    {
+      "hash": "778eb211f24f12cb4277ae2b865cfcf478b33dfa",
+      "date": "2026-06-01T13:53:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: Computex 台北國際電腦展 NEW — 45 年沿革 + 2026 AI Together 即時研究 + 台灣 AI 供應鏈定位"
+    },
+    {
+      "hash": "1ab411ca7faa5d807b6c59b00c2abcd761687e61",
+      "date": "2026-06-01T13:51:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-01-134740-feedback-login-system — 讀者參與器官誕生"
+    },
+    {
+      "hash": "71257e0f517ef3271ef5eb83aac01c76c7fbc03e",
+      "date": "2026-06-01T13:47:03+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1120 from frank890417/worktree-20260601-feedback-login-system"
+    },
+    {
+      "hash": "55193bc454b9dbc93a4e9393e6bec577e9240271",
+      "date": "2026-06-01T13:46:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "Merge remote-tracking branch 'origin/main' into worktree-20260601-feedback-login-system"
+    },
+    {
+      "hash": "d50763a063255897b24d4b5b9cfc5eb9c0c43f08",
+      "date": "2026-06-01T13:46:37+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: feedback 第三階段 — git 主權 archive + GA4 數據驅動 + 完整測試"
+    },
+    {
+      "hash": "3f8eabb98a5699c7d6ee4731a64ea99649263c1e",
+      "date": "2026-06-01T13:31:37+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1119 from frank890417/worktree-20260601-feedback-login-system"
+    },
+    {
+      "hash": "8354d20dd9919e3d34e9c68b6df69580b40ac569",
+      "date": "2026-06-01T13:31:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "Merge remote-tracking branch 'origin/main' into worktree-20260601-feedback-login-system"
+    },
+    {
+      "hash": "f4664b3571a358f0d2e02eff545236941cf94774",
+      "date": "2026-06-01T13:30:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: feedback v3 — Grokipedia 啟發「閉環可見性」（我的回報 + AI 初判透明）"
+    },
+    {
+      "hash": "2712039e1ca1e63c7369b1629761ead67a1dce37",
+      "date": "2026-06-01T13:11:56+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1118 from frank890417/worktree-20260601-feedback-login-system"
+    },
+    {
+      "hash": "cd9b1d00f882340f656bee366a0bfda7b159beba",
+      "date": "2026-06-01T13:11:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "Merge remote-tracking branch 'origin/main' into worktree-20260601-feedback-login-system"
+    },
+    {
+      "hash": "bc0a01b881f79029c6206dede0a43c6759bc984a",
+      "date": "2026-06-01T13:11:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: feedback v2 — 全站 ambient + 選文段精準標註 + 極低阻力"
+    },
+    {
+      "hash": "e90c400a37963be9ea99acf34744205d616cda40",
+      "date": "2026-06-01T12:48:51+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1117 from frank890417/worktree-20260601-feedback-login-system"
+    },
+    {
+      "hash": "215f80af1b293c196811dce7722da3cfb37c99cc",
+      "date": "2026-06-01T12:48:08+08:00",
+      "author": "Che-Yu Wu",
+      "message": "Merge remote-tracking branch 'origin/main' into worktree-20260601-feedback-login-system"
+    },
+    {
+      "hash": "cafbc99d7ecd4d0831dd1ba59090bbb015d3a60f",
+      "date": "2026-06-01T12:45:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: feedback widget 加 GitHub OAuth + go-live 紀錄（Email/Google/GitHub 三登入）"
+    },
+    {
+      "hash": "9448ee6cba0068ce68f4e59eab904e6eae5bcde2",
+      "date": "2026-06-01T11:57:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 影視配樂 callout → LESSONS + ARTICLE-INBOX 前瞻捕捉"
+    },
+    {
+      "hash": "bd13abf9241523bfb9345d8197896c9e724d0fdc",
+      "date": "2026-06-01T11:56:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: deploy.yml 帶 PUBLIC_FEEDBACK_* env 進 build（feedback widget 上線開關）"
+    },
+    {
+      "hash": "67605673eba21e3b87fa020967a1a596c157b757",
+      "date": "2026-06-01T11:55:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 讀者登入 + 即時 feedback widget + cron→issue 飛輪（隔離失敗域實作）"
+    },
+    {
+      "hash": "52cc8ad982e2862c64d1fab393914e4aa58380c5",
+      "date": "2026-06-01T11:55:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-06-01-105713-manual — 講「名字是聲音的來歷」的文章剛好被名字搞錯而需要重寫"
+    },
+    {
+      "hash": "4f06e248188400198bb6edfcba9d5e56429775d3",
+      "date": "2026-06-01T11:53:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-01-105713-manual — 台灣影視配樂 深度重寫 + §12 飛輪閉環"
+    },
+    {
+      "hash": "e1c4bb08fc796ab4e898e267f6fbe2635690694a",
+      "date": "2026-06-01T11:47:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-01-114515-twmd-spore-harvest-am — 15 spores harvested / 0 Bucket A/C urgent / Pitfall 6 vacuously satisfied"
+    },
+    {
+      "hash": "b0c92a2d2c3b6b106e0bf47f3e0be01239b3f31d",
+      "date": "2026-06-01T11:46:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 台灣影視配樂 深度重寫 — 修正配樂作曲家系統性誤植"
+    },
+    {
+      "hash": "9136de3fbf8df074e34ae3d1832b2e954c243976",
+      "date": "2026-06-01T11:44:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest-am: 15 spores (8 Threads + 7 X skip) / 0 Bucket A/C urgent — 2026-06-01"
+    },
+    {
+      "hash": "a10dda1a15bf545bd8b940ea13a9dcd98544a16c",
+      "date": "2026-06-01T11:40:08+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-01-113603-twmd-self-evolve-weekly — Pattern Y schedule drift 升 instrumentation + Pattern A1/A2 orphan pickup ABORT per #57"
+    },
+    {
+      "hash": "093cd3b1383d3913d843e9a8a26587c4b1a11a95",
+      "date": "2026-06-01T11:35:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-self-evolve-weekly: ship routine-drift.sh — REFLEXES #66 candidate instrumentation (vc=3 schedule drift)"
+    },
+    {
+      "hash": "c3304d49c6e9c421a2fee616c8805e096efc4115",
+      "date": "2026-06-01T11:33:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-distill-weekly: 第 9 次 distill — REFLEXES #64 + #65 + 3 housekeeping + inbox-signal.sh 1-line ship"
+    },
+    {
+      "hash": "aeea161be9e7c6beb191c49d84f1fa98c30cab09",
+      "date": "2026-06-01T11:31:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-01-112731-twmd-maintainer-pm — schedule-mismatch fire 11:29 / vc=1 effective-empty after AM 34 min / 4 escalation pointer 留 observer"
+    },
+    {
+      "hash": "8d27a1dcc659d78bccc9c26501b1f15c8f6ccf73",
+      "date": "2026-06-01T11:25:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-01-110144-twmd-babel-nightly — 95 translations shipped (Tier 0a/0b) + 3 結構性 tooling bug 浮現 + Tier 1-3 cascade exhausted"
+    },
+    {
+      "hash": "4b2f10ce15cac1408196ac5bf6782d6de9ecd0d0",
+      "date": "2026-06-01T11:25:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-01-112334-twmd-weekly-report-sun — W22 weekly report first routine fire / Stage 0-6 ALL PASS / Resend 200"
+    },
+    {
+      "hash": "ad4d68357f7eb15628c1fbb558f4acccfb5c7ec0",
+      "date": "2026-06-01T11:25:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 讀者登入 + 即時 feedback + cron→issue 飛輪整合架構計劃"
+    },
+    {
+      "hash": "bdf265c1d59d6f507207da3cab94f65cb24a4a25",
+      "date": "2026-06-01T11:23:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: backfill es/fab-dao no-source-sha (auto-detect 4b6d28c5)"
+    },
+    {
+      "hash": "12a29d78cddf45f7d6a399e483d57a1fecf67582",
+      "date": "2026-06-01T11:23:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-weekly-report-sun: W22 weekly digest — 2026-05-25 → 2026-06-01"
+    },
+    {
+      "hash": "a0ced853d0da03208d3fdb109f5375e0acbbd600",
+      "date": "2026-06-01T11:21:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: corrective frontmatter bump — 74 patched files SHA/hash align with zh status — 2026-06-01"
+    },
+    {
+      "hash": "44a5514ce0a432e07660e78bc3e3ebab53b81ec6",
+      "date": "2026-06-01T11:18:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite-daily: catchup defer + ARTICLE-INBOX 鄭愁予/瘂弦 補搬 DONE-LOG"
+    },
+    {
+      "hash": "3690aff1d85aaa5d7ba7fe77df2f49b757a43310",
+      "date": "2026-06-01T11:17:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 94 translations sync — P2.5×20 bump + P2/P3×74 diff-patch — 2026-06-01"
+    },
+    {
+      "hash": "daa2270b6498b75eb20a306897a5b212ec85e41e",
+      "date": "2026-06-01T11:16:20+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-news-lens-weekly: 6 P1 candidates → SPORE-INBOX (W22 first fire)"
+    },
+    {
+      "hash": "49fa1f595f16b170b01ec46a6435726dcd2fab0f",
+      "date": "2026-06-01T11:05:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: duplicate cycle + sync.sh race catch — 2026-06-01 11:01"
+    },
+    {
+      "hash": "3db567fc589b0b0c693b9e7132d7d80d31405e74",
+      "date": "2026-06-01T11:02:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-01-105822-twmd-data-refresh-pm — 14-step ALL PASS + Step 11 freshness 第 4 cycle 全綠 + snapshot drift vc=2 未修"
+    },
+    {
+      "hash": "6fce15388f0b376f60cf0964650984b0613615d7",
+      "date": "2026-06-01T11:00:32+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-01-105549-twmd-maintainer-am — idlccp1984 8 PR 批量觸發 §自主權邊界 deferral"
+    },
     {
       "hash": "8c9a002a4526a8c0a1bd04b6dff0ba36e8bb1684",
       "date": "2026-06-01T10:59:06+08:00",

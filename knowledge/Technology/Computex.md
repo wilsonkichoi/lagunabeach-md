@@ -27,6 +27,13 @@ image: '/article-images/technology/computex-nangang-floor-2011.jpg'
 imageCredit: 'Masaru Kamikura via Wikimedia Commons'
 imageLicense: 'CC BY 2.0'
 imageSource: 'https://commons.wikimedia.org/wiki/File:Computex_Taipei_sign_inside_of_Taipei_Nangang_Exhibition_Center_20110531.jpg'
+sporeLinks:
+  - platform: 'threads'
+    date: '2026-06-01'
+    url: 'https://www.threads.com/@taiwandotmd/post/DZCb3_QEyJX'
+  - platform: 'x'
+    date: '2026-06-01'
+    url: 'https://x.com/taiwandotmd/status/2061379958304584103'
 ---
 
 # Computex：三大國際電腦展收了兩個，剩下的那個長在台北

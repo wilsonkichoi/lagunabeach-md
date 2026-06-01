@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-06-01T10:57:06.595347",
+  "lastUpdated": "2026-06-01T23:09:30.280197",
   "schemaVersion": "v2-2026-05-16",
   "featureFlag": "IMMUNE_V2",
   "immuneScore": 67,
   "status": "需關注 — T1 review < 80% OR plugin pass < 90%",
   "components": {
-    "review_coverage": 28.9,
+    "review_coverage": 28.5,
     "plugin_pass_rate": 70.0,
     "plugin_health": 100.0,
-    "citation_density": 90.0,
+    "citation_density": 90.1,
     "tool_freshness": 80,
     "drift_velocity": 90.0
   },
@@ -22,27 +22,27 @@
   },
   "tierBreakdown": {
     "T1": {
-      "total": 341,
+      "total": 345,
       "reviewed": 106,
-      "pct": 31.1,
+      "pct": 30.7,
       "weight": 3.0
     },
     "T2": {
-      "total": 337,
+      "total": 341,
       "reviewed": 85,
-      "pct": 25.2,
+      "pct": 24.9,
       "weight": 1.5
     },
     "T3": {
-      "total": 91,
+      "total": 92,
       "reviewed": 18,
-      "pct": 19.8,
+      "pct": 19.6,
       "weight": 0.5
     }
   },
   "pluginPassDetail": {
-    "total_files": 771,
-    "hard_pass_files": 771,
+    "total_files": 780,
+    "hard_pass_files": 780,
     "hard_pass_pct": 100.0,
     "warn_pass_files": 0,
     "warn_pass_pct": 0.0,
@@ -50,28 +50,28 @@
   },
   "citationDetail": {
     "grades": {
-      "A": 586,
+      "A": 595,
       "B": 11,
       "C": 159,
       "D": 4,
       "F": 9
     },
-    "files_with_grade": 769
+    "files_with_grade": 778
   },
   "freshnessDetail": {
     "editorial_days_old": 4,
-    "avg_plugin_days_old": 19.5,
-    "plugin_count": 21,
+    "avg_plugin_days_old": 18.6,
+    "plugin_count": 22,
     "source": "git log %ai (not fs mtime — worktree-safe)"
   },
   "driftDetail": {
-    "new_articles_7d": 17,
+    "new_articles_7d": 25,
     "rate_per_article": 1.0,
     "note": "v1 heuristic — longitudinal tracking pending (B-line meta-health)"
   },
   "pluginHealthDetail": {
-    "plugin_count": 21,
-    "fresh_count": 21,
+    "plugin_count": 22,
+    "fresh_count": 22,
     "drifted_count": 0,
     "editorial_age_days": 4,
     "drift_thresholds": {
@@ -87,6 +87,11 @@
       {
         "plugin": "cjk_punct",
         "plugin_age_days": 28,
+        "drifted": false
+      },
+      {
+        "plugin": "correction_meta",
+        "plugin_age_days": 0,
         "drifted": false
       },
       {

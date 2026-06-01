@@ -1,8 +1,8 @@
 {
-  "totalArticles": 4680,
+  "totalArticles": 4689,
   "totalCategories": 21,
-  "estimatedContributors": 312,
-  "totalTags": 6341,
+  "estimatedContributors": 57,
+  "totalTags": 6331,
   "categories": [
     {
       "name": "es",
@@ -26,11 +26,11 @@
     },
     {
       "name": "History",
-      "count": 42
+      "count": 44
     },
     {
       "name": "Politics",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Society",
@@ -42,7 +42,7 @@
     },
     {
       "name": "People",
-      "count": 223
+      "count": 225
     },
     {
       "name": "Music",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Food",
-      "count": 54
+      "count": 55
     },
     {
       "name": "Geography",
@@ -58,11 +58,11 @@
     },
     {
       "name": "Economy",
-      "count": 53
+      "count": 54
     },
     {
       "name": "Technology",
-      "count": 49
+      "count": 50
     },
     {
       "name": "Lifestyle",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Art",
-      "count": 36
+      "count": 37
     },
     {
       "name": "About",
@@ -100,7 +100,7 @@
     },
     {
       "name": "企業",
-      "count": 61
+      "count": 60
     },
     {
       "name": "科技與企業",
@@ -127,19 +127,15 @@
       "count": 26
     },
     {
-      "name": "기업",
-      "count": 26
-    },
-    {
       "name": "政治",
       "count": 25
     },
     {
-      "name": "AI",
+      "name": "高雄",
       "count": 25
     },
     {
-      "name": "高雄",
+      "name": "기업",
       "count": 25
     },
     {
@@ -155,15 +151,19 @@
       "count": 23
     },
     {
+      "name": "YouTuber",
+      "count": 23
+    },
+    {
       "name": "文化",
       "count": 23
     },
     {
-      "name": "YouTuber",
+      "name": "體育",
       "count": 22
     },
     {
-      "name": "體育",
+      "name": "AI",
       "count": 22
     },
     {
@@ -172,8 +172,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4680,
+    "zh-TW": 4689,
     "en": 0
   },
-  "lastUpdated": "2026-06-01T02:59:45.792Z"
+  "lastUpdated": "2026-06-01T15:09:56.202Z",
+  "stars": 1014,
+  "forks": 149,
+  "zhPages": 3897,
+  "enPages": 792,
+  "totalPages": 4689
 }

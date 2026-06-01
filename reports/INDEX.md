@@ -1,7 +1,7 @@
 ---
 title: 'reports/ INDEX — auto-generated'
 description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子目錄 status summary'
-last_generated: 2026-06-01 10:58
+last_generated: 2026-06-01 23:10
 generator: scripts/tools/generate-reports-index.py
 ssot: reports/reports-archival-audit-2026-05-27.md §4 Layer 3
 type: auto-index
@@ -12,29 +12,32 @@ type: auto-index
 > **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。
 > 不要人工編輯（會被下一次 cron 覆蓋）。
 >
-> Last generated: **2026-06-01 10:58** · 頂層 \*.md 共 **120** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
+> Last generated: **2026-06-01 23:10** · 頂層 \*.md 共 **123** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
 
 ## 📦 子目錄 status
 
 | Subdir                  | Files | Size     | 用途                                                 |
 | ----------------------- | ----: | -------- | ---------------------------------------------------- |
-| `research/`             |   234 | 33.6 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
+| `research/`             |   237 | 33.6 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
 | `visual/`               |   111 | 214.5 MB | Visual smoke test 基線 (partial gitignored)          |
 | `archive/`              |    27 | 342.8 KB | 歸檔位置 (per audit Layer 4)                         |
+| `factcheck/`            |     9 | 98.7 KB  | —                                                    |
 | `scratch/`              |     9 | 1.7 MB   | POC / 暫存 (per audit Layer 1，已 .gitignored)       |
+| `weekly/`               |     8 | 2.0 MB   | Self-evolve weekly digest                            |
 | `probe/`                |     6 | 69.8 KB  | BECOME §Step 7 探測器報告                            |
-| `weekly/`               |     6 | 1.7 MB   | Self-evolve weekly digest                            |
 | `translation-research/` |     5 | 338.0 KB | 巴別塔 5 lang research                               |
 | `ab-tests/`             |     4 | 69.2 KB  | Editorial v6 A/B test                                |
 | `music-media-audit/`    |     4 | 115.5 KB | Music 條目 media audit (json + md)                   |
 | `harvest/`              |     2 | 14.3 KB  | Harvest engine 紀錄                                  |
+| `audit/`                |     1 | 20.7 KB  | —                                                    |
 
 ## 🏷️ By type (頂層 \*.md only)
 
 9 type bucket 從現有 corpus 萃取 (per [audit §2.3 + §4 Layer 2](reports-archival-audit-2026-05-27.md))，未來新加 report 建議遵循 `{type}-{topic}-{YYYY-MM-DD}.md` 命名。
 
-### design (11)
+### design (12)
 
+- `2026-06-01` [feedback-login-system-design-2026-06-01](feedback-login-system-design-2026-06-01.md) — 讀者帳號登入 + 即時 Feedback + cron→GitHub issue 飛輪整合：架構評估與計劃
 - `2026-05-23` [spore-pick-daily-routine-design-2026-05-23](spore-pick-daily-routine-design-2026-05-23.md) — twmd-spore-pick-daily routine 設計 — SPORE-INBOX automation intake
 - `2026-05-16` [spore-content-hash-gate-design-2026-05-16](spore-content-hash-gate-design-2026-05-16.md) — Spore Content-hash Gate Design 2026-05-16
 - `2026-05-13` [become-boot-mode-design-2026-05-13](become-boot-mode-design-2026-05-13.md) — BECOME Boot Mode Design 2026-05-13
@@ -146,8 +149,10 @@ type: auto-index
 - `2026-04-12` [NMTH-overseas-semiont-analysis-2026-04-12](NMTH-overseas-semiont-analysis-2026-04-12.md)
 - `2026-04-11` [TFT-semiont-analysis-2026-04-11](TFT-semiont-analysis-2026-04-11.md)
 
-### ops (34)
+### ops (36)
 
+- `2026-06-01` [feedback-go-live-log-2026-06-01](feedback-go-live-log-2026-06-01.md) — Feedback 系統 go-live 紀錄
+- `2026-06-01` [reader-callout-pipeline-diagnosis-2026-06-01](reader-callout-pipeline-diagnosis-2026-06-01.md) — 讀者 callout 診斷：rewrite pipeline 在「被 callout 觸發的重寫」路徑上的失效模式 + 殘留文章風險稽核
 - `2026-05-28` [routine-contract-rollback-2026-05-28](routine-contract-rollback-2026-05-28.md) — Routine prompt CONTRACT v1.0 rollback + 5 routine pattern 結構性修補
 - `2026-05-28` [spore-voice-drift-fix-2026-05-28](spore-voice-drift-fix-2026-05-28.md) — Spore voice drift fix — 2026-05-28 manual session 180543
 - `2026-05-27` [feedback-dont-stagger-ship-2026-05-27](feedback-dont-stagger-ship-2026-05-27.md) — Feedback — Milestone Roadmap 估太久 + 把 [A] 可自主範圍拆多 session
@@ -184,6 +189,13 @@ type: auto-index
 - `2026-03-31` [evolve-2026-03-31](evolve-2026-03-31.md)
 
 ## 📅 By month (descending)
+
+### 2026-06 (3 files)
+
+- Type breakdown: ops: 2 / design: 1
+  - `2026-06-01` [feedback-go-live-log-2026-06-01](feedback-go-live-log-2026-06-01.md)
+  - `2026-06-01` [feedback-login-system-design-2026-06-01](feedback-login-system-design-2026-06-01.md)
+  - `2026-06-01` [reader-callout-pipeline-diagnosis-2026-06-01](reader-callout-pipeline-diagnosis-2026-06-01.md)
 
 ### 2026-05 (71 files)
 

@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-06-01T02:59:46Z",
-  "total": 771,
-  "flagged": 324,
+  "timestamp": "2026-06-01T15:09:56Z",
+  "total": 780,
+  "flagged": 325,
   "files": [
     {
       "file": "music/拍謝少年.md",
@@ -1143,6 +1143,11 @@
       "file": "food/糖蔥.md",
       "score": 7,
       "reasons": "未人工審核; 連續bullet4行; 塑膠句1個; 套路結尾; 稀薄段落×5"
+    },
+    {
+      "file": "food/蛋撻.md",
+      "score": 4,
+      "reasons": "未人工審核; 塑膠句1個; 稀薄段落×2"
     },
     {
       "file": "food/台灣米食文化.md",
