@@ -1015,37 +1015,6 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 - `2026-05-23 manual (220053)`: BRANCH-PIPELINE v2.0 broad-theme mode 首例實戰，spawn 4 parallel agents ~11 min 完成 30K 中文字 research → master report aggregate + 8 ARTICLE-INBOX entries split + 5 series umbrella opportunities pointer
 
-### 鄭愁予 NEW — 戰後第一代詩人 / 2025-06 辭世趁熱
-
-- **Type**: `NEW`
-- **Category**: People（subcategory: 文學與詩人）
-- **Priority**: `P0`
-- **Status**: `pending`
-- **Source**: 2026-05-23 BRANCH-PIPELINE broad-theme research — [taiwan-poets-2-postwar-modernism.md §4.1 P0](../../reports/research/2026-05/taiwan-poets-2-postwar-modernism.md)
-- **對比理由**：
-  - **辭世趁熱窗口**：2025-06-13 辭世（距 2026-05 < 12 個月）+ 享壽 91 歲
-  - **代表名作 SC demand**：〈錯誤〉是台灣詩史最廣為流傳的單篇詩作，「達達的馬蹄」+「美麗的錯誤」是台灣 80s-00s 世代共同記憶
-  - **SC 英文圈 demand**：Zheng Chouyu Yale 任教多年 + 英譯〈錯誤〉廣為傳誦
-  - **連結密度**：跟戰後第一代其他 P0（瘂弦 / 洛夫）+ 創世紀詩社 movement + 1957 紀弦覃子豪論戰 cross-link
-- **預估時間**：90-120 min（人物 deep portrait + verbatim 名作核對 + 三源辭世 verify）
-- **Reference**: reports/research/2026-05/taiwan-poets-2-postwar-modernism.md §鄭愁予 brief
-
-### 瘂弦 NEW — 戰後第一代詩人 / 2024-10 辭世趁熱 / 一冊不再傳奇
-
-- **Type**: `NEW`
-- **Category**: People（subcategory: 文學與詩人）
-- **Priority**: `P0`
-- **Status**: `pending`
-- **Source**: 2026-05-23 BRANCH-PIPELINE broad-theme research — [taiwan-poets-2-postwar-modernism.md §4.1 P0](../../reports/research/2026-05/taiwan-poets-2-postwar-modernism.md)
-- **對比理由**：
-  - **辭世趁熱窗口**：2024-10-11 辭世（距 2026-05 < 8 個月）+ 享耆壽 92 歲
-  - **「一冊不再」傳奇**：詩集《深淵》出版後從未再出新詩集，這是台灣詩史獨特 narrative
-  - **聯副主編 20 年雙棲身份**：詩人 + 報紙文化版主編，影響台灣戰後文壇結構 30+ 年
-  - **代表名作**：〈深淵〉「哈里路亞我仍活著」副歌極易記憶
-  - **連結密度**：跟創世紀詩社 + 鄭愁予 / 洛夫 / 商禽 cross-link
-- **預估時間**：90-120 min
-- **Reference**: reports/research/2026-05/taiwan-poets-2-postwar-modernism.md §瘂弦 brief
-
 ### 莫那能 NEW — 第一位原住民漢語詩人 + 盲詩人雙重 first
 
 - **Type**: `NEW`

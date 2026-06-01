@@ -59,6 +59,25 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 瘂弦 NEW — 2026-05-28 twmd-rewrite-daily（戰後第一代詩人 / 2024-10 辭世趁熱 / 一冊不再傳奇 / 「36 歲封筆後在《聯副》21 年用編輯台繼續寫詩」）
+
+- **Article**: [knowledge/People/瘂弦.md](../../knowledge/People/瘂弦.md) — ~25.9 KB / 18 footnote / 8 H2
+- **Pipeline**: REWRITE-PIPELINE — NEW Fresh 模式（twmd-rewrite-daily 18:00 routine 自動 ship）
+- **Hook**：1968 年瘂弦 36 歲把九十首詩編成《深淵》之後就停筆。1977-1998 主編《聯合報》副刊 21 年把編輯台變成台灣戰後最重要的文學公共空間。2024-10-11 加拿大溫哥華辭世享耆壽 92 歲——封筆 56 年的沉默比千冊詩集更長。
+- **Research**: [reports/research/2026-05/taiwan-poets-2-postwar-modernism.md](../../reports/research/2026-05/taiwan-poets-2-postwar-modernism.md) §瘂弦 brief（broad-theme 共用 research 報告）
+- **Commit**: `e70936dd9` 2026-05-28 18:23:18
+- **歸檔修補補登**：2026-06-01 twmd-rewrite-daily catchup cycle 發現本 entry 在 INBOX 殘留 P0 NEW pending（routine 5/28 ship 後沒搬 DONE-LOG），補登歸位。INBOX 對應 pending entry 同 commit 移除。
+
+### 鄭愁予 NEW — 2026-05-24 twmd-rewrite-daily（戰後第一代詩人 / 2025-06 辭世趁熱 / 「達達的馬蹄是反戰詩」晚年澄清 / 4773 CJK / 12 footnote）
+
+- **Article**: [knowledge/People/鄭愁予.md](../../knowledge/People/鄭愁予.md) — ~23.6 KB / 4773 字 / 12 footnote / 13 H2 / hero zheng-chouyu-portrait-2017.jpg Wikimedia CC BY-SA 4.0（目宿媒體股份有限公司）
+- **Pipeline**: REWRITE-PIPELINE — NEW Fresh 模式（**twmd-rewrite-daily v6.1 full-cycle 首例** — article + spore 同 routine cycle 連跑）
+- **Hook**：1955 年 22 歲鄭愁予在《夢土上》寫下「我達達的馬蹄是美麗的錯誤」台灣讀者把它當情詩讀了七十年。晚年澄清這是反戰詩寫的是抗戰時期母親在內地等不到父親回家的場景。2005 年從耶魯退休回台把戶籍遷進金門縣鄭家族人戶內。2025-06-13 凌晨四點四十四分美國心臟衰竭辭世享壽 91 歲。
+- **Research**: [reports/research/2026-05/taiwan-poets-2-postwar-modernism.md](../../reports/research/2026-05/taiwan-poets-2-postwar-modernism.md) §鄭愁予 brief（broad-theme 共用 research 報告）
+- **Spore #86**: Threads ship 2026-05-24 18:49:37 [DYt_TMpE2WV](https://www.threads.com/@taiwandotmd/post/DYt_TMpE2WV)（v6.1 article→spore→broadcast 整合首次完成）
+- **Commit**: rewrite `7d0b06c4e` 2026-05-24 18:23:03 + spore `68b99fe95` 18:49:37
+- **歸檔修補補登**：2026-06-01 twmd-rewrite-daily catchup cycle 發現本 entry 在 INBOX 殘留 P0 NEW pending（routine 5/24 ship 後沒搬 DONE-LOG），補登歸位。INBOX 對應 pending entry 同 commit 移除。
+
 ### 尹衍樑 NEW — 2026-05-26 manual（辭世當日紀念文 + sovereignty 透鏡 / Stage 0 觀點成型 + Stage 1 sub-agent 41 searches research + Stage 2 寫 4606 CJK / 40 footnote / 3 圖 / 7 H2，核心矛盾「一個剛走的台灣商人，留給世界一座比諾貝爾還貴的獎」）
 
 - **Article**: [knowledge/People/尹衍樑.md](../../knowledge/People/尹衍樑.md) — 4606 CJK chars (102% 4500) / 40 footnote / 7 H2 / 1 hero + 2 inline（hero yin-1st-tang-prize-laureates-2014 CC BY 2.0 中華民國總統府 Wikimedia + 2 inline yin-yan-liang-tang-prize-reception + yin-public-housing-2015-hires 台北市政府開放資訊 Wikimedia）
