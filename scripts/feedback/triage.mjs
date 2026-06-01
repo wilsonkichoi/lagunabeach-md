@@ -19,9 +19,23 @@
  * env（正式跑才需要,放 ~/.taiwanmd-feedback.env 或環境變數）：
  *   SUPABASE_URL, SUPABASE_SERVICE_KEY
  */
-import { readFileSync } from 'node:fs';
+import {
+  readFileSync,
+  writeFileSync,
+  mkdirSync,
+  existsSync,
+  readdirSync,
+} from 'node:fs';
+import { dirname, join } from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { triageBatch } from './lib/classify.mjs';
+import {
+  buildArchiveRecord,
+  mergeComments,
+  archiveRelPath,
+} from './lib/archive.mjs';
+
+const ARCHIVE_ROOT = 'docs/feedback/archive';
 
 const REPO = 'frank890417/taiwan-md';
 
@@ -141,6 +155,84 @@ function createIssue(issue) {
   return { url, number: num };
 }
 
+// ── git archive（主權層：feedback + 溝通紀錄落進 repo）──────────────────────────
+function writeArchive(row, note) {
+  const rel = archiveRelPath(row);
+  try {
+    mkdirSync(dirname(rel), { recursive: true });
+    if (!existsSync(rel)) {
+      writeFileSync(
+        rel,
+        buildArchiveRecord({ ...row, triage_note: note }, note),
+      );
+    }
+    return rel;
+  } catch (e) {
+    console.warn(`[triage] archive write failed for ${row.id}:`, e.message);
+    return null;
+  }
+}
+
+function fetchIssueComments(issueNumber) {
+  try {
+    const out = execFileSync(
+      'gh',
+      [
+        'issue',
+        'view',
+        String(issueNumber),
+        '--repo',
+        REPO,
+        '--json',
+        'comments',
+      ],
+      { encoding: 'utf8' },
+    );
+    const data = JSON.parse(out);
+    return (data.comments || []).map((c) => ({
+      id: `${c.author?.login || '?'}-${c.createdAt}`,
+      author: c.author?.login || '?',
+      createdAt: c.createdAt,
+      body: c.body,
+    }));
+  } catch {
+    return [];
+  }
+}
+
+// 掃 archive dir，把每筆已 filed 紀錄的 issue 新留言 sync 進 §溝通紀錄（人類維護者
+// 的回覆也進 git）。回傳更新的檔數。
+function syncArchiveComments() {
+  if (!existsSync(ARCHIVE_ROOT)) return 0;
+  let synced = 0;
+  for (const m of readdirSync(ARCHIVE_ROOT)) {
+    const dir = join(ARCHIVE_ROOT, m);
+    let files = [];
+    try {
+      files = readdirSync(dir).filter((f) => f.endsWith('.md'));
+    } catch {
+      continue;
+    }
+    for (const f of files) {
+      const path = join(dir, f);
+      let content;
+      try {
+        content = readFileSync(path, 'utf8');
+      } catch {
+        continue;
+      }
+      const num = (content.match(/^issue_number:\s*(\d+)/m) || [])[1];
+      if (!num) continue;
+      const merged = mergeComments(content, fetchIssueComments(num));
+      if (merged !== content) {
+        writeFileSync(path, merged);
+        synced++;
+      }
+    }
+  }
+  return synced;
+}
+
 // ── main ──────────────────────────────────────────────────────────────────────
 async function main() {
   const args = parseArgs(process.argv);
@@ -170,7 +262,16 @@ async function main() {
       if (args.commit) {
         const created = createIssue(r.issue);
         await writeBackStatus(r.row.id, 'filed', created, r.note);
-        console.log(`         → ${created.url}`);
+        const arch = writeArchive(
+          {
+            ...r.row,
+            status: 'filed',
+            issue_url: created.url,
+            issue_number: created.number,
+          },
+          r.note,
+        );
+        console.log(`         → ${created.url}${arch ? ` · 📁 ${arch}` : ''}`);
       } else {
         console.log(`         (dry-run; --commit to file)`);
       }
@@ -183,8 +284,12 @@ async function main() {
     }
   }
 
+  // sync 既有 filed 紀錄的 issue 新留言（維護者回覆）進 git archive。
+  let commentsSynced = 0;
+  if (args.commit) commentsSynced = syncArchiveComments();
+
   console.log(
-    `\n[triage] done · file=${summary.file} reject=${summary.reject} skip=${summary.skip}`,
+    `\n[triage] done · file=${summary.file} reject=${summary.reject} skip=${summary.skip} · archive-comments-synced=${commentsSynced}`,
   );
   return summary;
 }

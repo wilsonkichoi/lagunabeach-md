@@ -118,9 +118,22 @@ env（`~/.taiwanmd-feedback.env`,**不在 repo**）：`SUPABASE_URL` + `SUPABASE
 
 ## Stage 4 — WRITE-BACK
 
-- `file` 成功 → Supabase `status='filed'` + `issue_url` + `issue_number` + `triaged_at`。
-- `reject`（spam）→ `status='rejected'`。
+- `file` 成功 → Supabase `status='filed'` + `issue_url` + `issue_number` + `triaged_at` + `triage_note`。
+- `reject`（spam）→ `status='rejected'` + `triage_note`。
 - `skip`（dedupe）→ **不改 status**（留著下次再判,避免漏接）。
+
+## Stage 4.5 — GIT ARCHIVE（主權層，v3 第三階段）
+
+per MANIFESTO「知識在 git 不在黑箱 / 分散式不可殺滅」：feedback 的 live 在 Supabase，
+**canonical 紀錄落進 git**。`triage.mjs --commit` 自動：
+
+1. 每筆 filed → 寫 `docs/feedback/archive/{YYYY-MM}/{id}.md`（contributor/time/content/type/
+   status/issue/quote/triage_note，**只 display_name 不存 email**）。
+2. 掃既有 archive → 把對應 issue 的**新留言（含維護者回覆）sync 進 §溝通紀錄**（去重）。
+
+**routine 收官 commit 鐵律**：finale 前 `git add docs/feedback/archive/`，讓紀錄進 git。
+記錄產生器：[scripts/feedback/lib/archive.mjs](../../scripts/feedback/lib/archive.mjs)（純函式 + unit test）。
+完整：[docs/feedback/README.md](../../docs/feedback/README.md)。Supabase 死了也不丟一筆。
 
 ---
 

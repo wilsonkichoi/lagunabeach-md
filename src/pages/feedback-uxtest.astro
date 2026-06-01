@@ -1,0 +1,45 @@
+---
+/**
+ * feedback-uxtest.astro — Playwright UX-test fixture for the FeedbackWidget.
+ *
+ * DEV-ONLY: redirects to home in a production build, so it never ships as a
+ * usable page on taiwan.md (noindex + redirect guard). Used by
+ * tests/feedback/widget.spec.mjs against the mock dev server
+ * (PUBLIC_FEEDBACK_MODE=mock).
+ */
+import FeedbackWidget from '../components/FeedbackWidget.astro';
+if (import.meta.env.PROD) {
+  return Astro.redirect('/');
+}
+---
+
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FeedbackWidget UX test fixture</title>
+  </head>
+  <body
+    style="min-height:160vh;font-family:system-ui;padding:2rem;background:#f8f1e9"
+  >
+    <h1>FeedbackWidget UX test fixture</h1>
+    <main class="article-page">
+      <article data-pagefind-body>
+        <p id="para1">
+          李安執導的《臥虎藏龍》在 1990
+          年拿下奧斯卡最佳外語片，是台灣電影史上的里程碑。
+        </p>
+        <p id="para2">第二段，用來測試另一處選取。</p>
+      </article>
+    </main>
+    <FeedbackWidget
+      lang="zh-TW"
+      slug="李安"
+      category="people"
+      title="李安"
+      pageKind="article"
+    />
+  </body>
+</html>
