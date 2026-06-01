@@ -23,9 +23,9 @@ lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/半導體產業.md'
-sourceCommitSha: 'decc6fc1'
-sourceContentHash: 'sha256:4d6c76146a148f9f'
-sourceBodyHash: 'sha256:54602876f4b03760'
+sourceCommitSha: '49fa1f59'
+sourceContentHash: 'sha256:b024bac30328c85a'
+sourceBodyHash: 'sha256:bfb101697005960a'
 translatedAt: '2026-05-28T05:08:34+08:00'
 ---
 
@@ -260,6 +260,7 @@ La montaña sagrada protectora conquistó el presente apoyada en 50 años de exp
 - [Industria robótica de Taiwán](/technology/台灣機器人產業) — ¿Por qué la isla número uno mundial en semiconductores llega como estudiante rezagado a la era robótica? Una mirada a la fractura industrial desde la inauguración de NCAIR
 - [Mercado bursátil y mercado de capitales de Taiwán](/economy/台灣股市與資本市場) — Cómo el ecosistema completo de cadena de suministro que sostiene a Taiwán como el sexto mercado bursátil mundial en 2026 se refleja en el mercado de capitales
 - [Taiwan AI Academy](/technology/台灣人工智慧學校) — Cómo los diez mil ingenieros de IA formados por AIA en ocho años regresan a la cadena ICT ya existente de semiconductores y refuerzan el lado software de Taiwán
+- [Parques científicos de Taiwán](/technology/科技園區發展) — Los tres parques de Hsinchu, Tainan y Taichung, soporte físico del clúster semiconductor y centro geográfico del escudo de silicio
 
 ## Fuentes de imágenes
 

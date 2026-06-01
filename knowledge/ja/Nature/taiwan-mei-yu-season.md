@@ -10,9 +10,9 @@ readingTime: 16
 lastVerified: 2026-05-02
 lastHumanReview: false
 translatedFrom: 'Nature/梅雨.md'
-sourceCommitSha: '4b6d28c5'
-sourceBodyHash: 'sha256:31c92fd7633ce35e'
-sourceContentHash: 'sha256:08c48a6ddad4519e'
+sourceCommitSha: '49fa1f59'
+sourceBodyHash: 'sha256:c099b7572715741d'
+sourceContentHash: 'sha256:dbf302a9f957f108'
 translatedAt: '2026-05-25T21:07:04Z'
 ---
 

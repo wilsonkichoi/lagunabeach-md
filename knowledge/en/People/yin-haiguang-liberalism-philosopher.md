@@ -20,9 +20,9 @@ readingTime: 14
 lastVerified: 2026-05-02
 lastHumanReview: false
 translatedFrom: 'People/殷海光.md'
-sourceCommitSha: '4b6d28c5'
-sourceBodyHash: 'sha256:51ae38d79a7cc954'
-sourceContentHash: 'sha256:0d8d9acd7b29d4d0'
+sourceCommitSha: '49fa1f59'
+sourceBodyHash: 'sha256:5d8647bc6e3b1804'
+sourceContentHash: 'sha256:c9b42a31789bb559'
 ---
 
 > **30-second overview:**

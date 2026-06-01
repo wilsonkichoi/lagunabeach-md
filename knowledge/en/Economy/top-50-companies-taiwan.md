@@ -2,19 +2,31 @@
 title: "Taiwan's Top 50 Companies: The Sacred Mountain That Holds Up One Table, and Also Holds Up a Single-Point-of-Failure State"
 description: "On May 19, 2026, TSMC alone accounted for 31.51% of the Taiwan Capitalization Weighted Stock Index and roughly 40% of the total market capitalization of Taiwan stocks; the top 50 companies together sustain an economy the size of one GDP, but one company among them has hijacked that GDP's fate. Electronics account for 36%, finance 25%, and traditional industries 10%; the so-called tripartite balance of electronics, finance, and traditional industries is in fact half a body held up by one electronics leg. From the night Jensen Huang and Morris Chang took a photo together at Ningxia Night Market, to the 32 lives lost on Kaixuan 3rd Road before dawn, this ranking is both Taiwan's irreplaceable spine and its most fragile single point of failure."
 date: 2026-05-20
-author: "Taiwan.md"
-category: "Economy"
-subcategory: "Economy"
-tags: ["Companies", "Market Capitalization", "TSMC", "Industrial Structure", "Semiconductors", "Finance", "Traditional Industries", "AI", "Family Businesses", "Concentration"]
+author: 'Taiwan.md'
+category: 'Economy'
+subcategory: 'Economy'
+tags:
+  [
+    'Companies',
+    'Market Capitalization',
+    'TSMC',
+    'Industrial Structure',
+    'Semiconductors',
+    'Finance',
+    'Traditional Industries',
+    'AI',
+    'Family Businesses',
+    'Concentration',
+  ]
 readingTime: 18
 lastVerified: 2026-05-20
 lastHumanReview: false
 featured: false
-translatedFrom: "Economy/台灣前50大企業.md"
-sourceCommitSha: "50fbcf0cc"
-sourceContentHash: "sha256:01adc215d02d77f4"
-sourceBodyHash: "sha256:87d34ddd076d7458"
-translatedAt: "2026-05-20T05:08:27+08:00"
+translatedFrom: 'Economy/台灣前50大企業.md'
+sourceCommitSha: '49fa1f59'
+sourceContentHash: 'sha256:266d920f5a131ed1'
+sourceBodyHash: 'sha256:95f251cf4a5d28b7'
+translatedAt: '2026-05-20T05:08:27+08:00'
 ---
 
 > **30-second overview:** After the market closed on May 19, 2026, TSMC's market capitalization stood at NT$57.18 trillion. One company accounted for 31.51% of the Taiwan Capitalization Weighted Stock Index, roughly 40% of total Taiwan stock market capitalization, and 71% of global foundry market share. The 49 spots behind it were divided among 12 financial holding companies, 11 semiconductor firms, 6 electronics contract manufacturers, and 5 veterans of traditional industry. The so-called tripartite balance of electronics, finance, and traditional industries is in fact half a body held up by one electronics leg; since 2024, the AI wave has pulled Quanta, Wistron, Wiwynn, and Hon. Precision from the middle of the pack toward the top, further raising concentration. Reading the top 50 table is like reading an anatomical chart of Taiwan's economy: where the spine is, where the single point of failure is, and where the internal organs hidden outside the table are.
@@ -40,16 +52,16 @@ _Taipei 101 in Xinyi District, Taipei. The Taiwan Stock Exchange is headquartere
 
 Slicing the top 50 by industry, excluding the Yuanta Taiwan 50 and Yuanta High Dividend ETFs:
 
-| Industry Category | Seats | Share |
-| ------------------------------------------- | ---------- | ---- |
-| Semiconductors (foundry / IC design / packaging and testing / memory / equipment) | 11 seats | 23% |
-| Finance (financial holding companies) | 12 seats | 25% |
-| Electronics contract manufacturing (including AI servers and branded PCs) | 6 seats | 13% |
-| PCB / ABF substrates / thermal solutions | 5 seats | 10% |
-| Traditional industries (petrochemicals / steel / shipping / food) | 5 seats | 10% |
-| Communications (telecom) | 3 seats | 6% |
-| Networking / industrial computers / passive components / optics / testing | 7 seats | 15% |
-| Other (auto distribution) | 1 seat (borderline) | 2% |
+| Industry Category                                                                 | Seats               | Share |
+| --------------------------------------------------------------------------------- | ------------------- | ----- |
+| Semiconductors (foundry / IC design / packaging and testing / memory / equipment) | 11 seats            | 23%   |
+| Finance (financial holding companies)                                             | 12 seats            | 25%   |
+| Electronics contract manufacturing (including AI servers and branded PCs)         | 6 seats             | 13%   |
+| PCB / ABF substrates / thermal solutions                                          | 5 seats             | 10%   |
+| Traditional industries (petrochemicals / steel / shipping / food)                 | 5 seats             | 10%   |
+| Communications (telecom)                                                          | 3 seats             | 6%    |
+| Networking / industrial computers / passive components / optics / testing         | 7 seats             | 15%   |
+| Other (auto distribution)                                                         | 1 seat (borderline) | 2%    |
 
 > **💡 Did You Know**
 > Investors have long used the mnemonic "electronics, finance, traditional industries" to describe the three pillars of Taiwan stocks. But when the 2026 top 50 are laid out, electronics plus semiconductors already take 36% of the seats, finance 25%, and traditional industries are compressed to 10%. The tripartite balance is in fact half a body held up by one leg, another leg (finance) holding up one quarter, and the remaining toes distributed among traditional industry, communications, and passive components.
@@ -124,7 +136,7 @@ Formosa Plastics Group's Sixth Naphtha Cracker in Mailiao, Yunlin, has been oper
 
 ![Aerial view of Formosa Plastics Group's Sixth Naphtha Cracker industrial complex in Mailiao, Yunlin, stretching along the entire coastline; it is Taiwan's largest petrochemical industrial cluster and one of the environmental ledgers left by the traditional-industry camp among the top 50 companies](/article-images/economy/mailiao-formosa-complex-2014.jpg)
 
-_Aerial view of Formosa Plastics Group's Sixth Naphtha Cracker industrial complex in Mailiao, Yunlin. Operating since 1998, the complex covers more than 2,600 hectares. It is Taiwan's largest petrochemical industrial cluster and one of the environmental ledgers left by the traditional-industry camp among the top 50 companies. Photo: Mk2010 (Malcolm Koo), 2014-03-15. [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,_Yunlin_(Taiwan).jpg)._
+_Aerial view of Formosa Plastics Group's Sixth Naphtha Cracker industrial complex in Mailiao, Yunlin. Operating since 1998, the complex covers more than 2,600 hectares. It is Taiwan's largest petrochemical industrial cluster and one of the environmental ledgers left by the traditional-industry camp among the top 50 companies. Photo: Mk2010 (Malcolm Koo), 2014-03-15. [CC BY-SA 3.0 via Wikimedia Commons](<https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,_Yunlin_(Taiwan).jpg>).\_
 
 China Steel in Xiaogang, Kaohsiung, also carries a bill. Data from the Citizen of the Earth Foundation indicate that 80-90% of air pollution from Kaohsiung's steel industry comes from China Steel, and that among Kaohsiung's stationary pollution sources, 36% of PM emissions and 32% of SOx emissions come from the steel industry[^31]. China Steel invested NT$4.756 billion from 2017 to 2020 to improve equipment, reducing PM by 15.6%, SOx by 18.9%, and NOx by 11.3%. The numbers improved, but the structure in which "the steel industry as a whole affects Kaohsiung's air quality" did not change.
 
@@ -152,6 +164,7 @@ After reading this table, what readers should take away is not "who ranks where,
 - [Taiwan's Semiconductor Industry](/technology/半導體產業) — From ITRI to 2 nm, the origins of the 11 semiconductor seats in the top 50
 - [Taiwan's Stock Market and Capital Markets](/economy/台灣股市與資本市場) — The weighted index, market-cap rankings, and the structure of institutional investors
 - [Taiwan's National Defense and Military Modernization](/society/台灣國防與軍事現代化) — The geopolitical linkage between the silicon shield and the top 50
+- [Taiwan Science Parks](/technology/科技園區發展) — The production bases behind the top 50's 11 semiconductor seats, and the spatial version of three-park output concentration
 
 ## References
 
@@ -223,4 +236,4 @@ This article uses three public-domain / Creative Commons licensed images, all ca
 
 - **Hero**: [Tsmc factory hsinchu](https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG) — Photo: Arusanov, 2009-07-20, exterior of a TSMC plant in Hsinchu Science Park. Public domain via Wikimedia Commons.
 - **Inline 1 (Taipei 101 / Taiwan Stock Exchange)**: [Taipei 101 20230511 114624](https://commons.wikimedia.org/wiki/File:Taipei_101_20230511_114624.jpg) — Photo: Anas1712, 2023-05-11, exterior of Taipei 101, headquarters of the Taiwan Stock Exchange. CC BY 4.0 via Wikimedia Commons.
-- **Inline 2 (Mailiao Sixth Naphtha Cracker)**: [Formosa Plastics Group Mail-Liao Industrial Complex, Yunlin (Taiwan)](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,_Yunlin_(Taiwan).jpg) — Photo: Malcolm Koo (User:Mk2010), 2014-03-15, aerial view of Formosa Plastics Group's Sixth Naphtha Cracker industrial complex in Mailiao, Yunlin. CC BY-SA 3.0 via Wikimedia Commons.
+- **Inline 2 (Mailiao Sixth Naphtha Cracker)**: [Formosa Plastics Group Mail-Liao Industrial Complex, Yunlin (Taiwan)](<https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,_Yunlin_(Taiwan).jpg>) — Photo: Malcolm Koo (User:Mk2010), 2014-03-15, aerial view of Formosa Plastics Group's Sixth Naphtha Cracker industrial complex in Mailiao, Yunlin. CC BY-SA 3.0 via Wikimedia Commons.

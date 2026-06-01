@@ -23,9 +23,9 @@ lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/半導體產業.md'
-sourceCommitSha: 'decc6fc1'
-sourceContentHash: 'sha256:4d6c76146a148f9f'
-sourceBodyHash: 'sha256:54602876f4b03760'
+sourceCommitSha: '49fa1f59'
+sourceContentHash: 'sha256:b024bac30328c85a'
+sourceBodyHash: 'sha256:bfb101697005960a'
 translatedAt: '2026-05-28T05:08:33+08:00'
 ---
 
@@ -260,6 +260,7 @@ The sacred mountain protecting the nation has dominated the present through fift
 - [Taiwan's Robotics Industry](/technology/台灣機器人產業) — Why is the island that leads the world in semiconductors catching up in the robotics era? Reading the industrial gap from the opening of NCAIR
 - [Taiwan's Stock Market and Capital Markets](/economy/台灣股市與資本市場) — How the entire supply-chain ecosystem supporting Taiwan's status as the world's sixth-largest stock market in 2026 appears in capital markets
 - [Taiwan Artificial Intelligence School](/technology/台灣人工智慧學校) — How the ten thousand AI engineers trained by AIA over eight years return to the existing semiconductor and ICT chain and strengthen Taiwan's software side
+- [Taiwan Science Parks](/technology/科技園區發展) — Hsinchu, Tainan, and Taichung Science Parks: the physical substrate of semiconductor clusters and the geographic center of the silicon shield
 
 ## Image Sources
 

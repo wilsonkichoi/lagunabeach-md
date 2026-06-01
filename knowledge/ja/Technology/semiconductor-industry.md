@@ -23,9 +23,9 @@ lastVerified: '2026-05-19'
 lastHumanReview: 'true'
 featured: 'true'
 translatedFrom: 'Technology/半導體產業.md'
-sourceCommitSha: 'decc6fc1'
-sourceContentHash: 'sha256:4d6c76146a148f9f'
-sourceBodyHash: 'sha256:54602876f4b03760'
+sourceCommitSha: '49fa1f59'
+sourceContentHash: 'sha256:b024bac30328c85a'
+sourceBodyHash: 'sha256:bfb101697005960a'
 translatedAt: '2026-05-28T05:08:34+08:00'
 ---
 
@@ -260,6 +260,7 @@ Nokia 3310の充電器の出力は4.56ワット、2025年の急速充電器は24
 - [台湾ロボット産業](/technology/台灣機器人産業) —— 半導体世界一位の島が、なぜロボット時代に追い上げ組なのか。NCAIRの開幕から産業の断層を見る
 - [台湾株式市場と資本市場](/economy/台灣股市與資本市場) —— 2026年の世界第6位の台湾株式市場を支えるサプライチェーン全体のエコシステムが資本市場にどのように表れているか
 - [台湾人工知能学校](/technology/台灣人工智慧学校) —— AIAが8年間で育成した1万人のAIエンジニアーが、半導体既存のICTチェーンに戻り、台湾のソフトウェア側をどのように補強しているか
+- [台湾科学工業園区](/technology/科技園區發展) —— 竹科・南科・中科の三つの園区、半導体集積の物理的基盤、そしてシリコン・シールドの地理的中心
 
 ## 画像出典
 

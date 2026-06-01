@@ -1,20 +1,32 @@
 ---
-title: "Les 50 plus grandes entreprises de Taïwan : la montagne sacrée protectrice du pays soutient un classement, mais aussi un pays à point de défaillance unique"
+title: 'Les 50 plus grandes entreprises de Taïwan : la montagne sacrée protectrice du pays soutient un classement, mais aussi un pays à point de défaillance unique'
 description: "Le 19 mai 2026, la capitalisation boursière de TSMC représentait à elle seule 31,51 % de l'indice pondéré de Taïwan et environ 40 % de la capitalisation totale du marché taïwanais ; les 50 plus grandes entreprises réunies soutiennent l'équivalent d'un PIB, mais l'une d'elles tient en otage le destin de ce PIB. Électronique 36 %, finance 25 %, industries traditionnelles 10 % : le prétendu tripode « électronique-finance-industries traditionnelles » est en réalité un corps à moitié porté par la seule jambe électronique. De la soirée où Jensen Huang et Morris Chang ont été photographiés au marché de nuit de Ningxia, jusqu'aux 32 vies perdues avant l'aube sur Kaixuan 3rd Road, ce classement est à la fois la colonne vertébrale irremplaçable de Taïwan et son point de défaillance unique le plus fragile."
 date: 2026-05-20
-author: "Taiwan.md"
-category: "Economy"
-subcategory: "Economy"
-tags: ["entreprises", "capitalisation boursière", "TSMC", "structure industrielle", "semi-conducteurs", "finance", "industries traditionnelles", "IA", "entreprises familiales", "concentration"]
+author: 'Taiwan.md'
+category: 'Economy'
+subcategory: 'Economy'
+tags:
+  [
+    'entreprises',
+    'capitalisation boursière',
+    'TSMC',
+    'structure industrielle',
+    'semi-conducteurs',
+    'finance',
+    'industries traditionnelles',
+    'IA',
+    'entreprises familiales',
+    'concentration',
+  ]
 readingTime: 18
 lastVerified: 2026-05-20
 lastHumanReview: false
 featured: false
-translatedFrom: "Economy/台灣前50大企業.md"
-sourceCommitSha: "50fbcf0cc"
-sourceContentHash: "sha256:01adc215d02d77f4"
-sourceBodyHash: "sha256:87d34ddd076d7458"
-translatedAt: "2026-05-20T05:08:34+08:00"
+translatedFrom: 'Economy/台灣前50大企業.md'
+sourceCommitSha: '49fa1f59'
+sourceContentHash: 'sha256:266d920f5a131ed1'
+sourceBodyHash: 'sha256:95f251cf4a5d28b7'
+translatedAt: '2026-05-20T05:08:34+08:00'
 ---
 
 > **Aperçu en 30 secondes :** Après la clôture du marché le 19 mai 2026, la capitalisation boursière de TSMC atteignait 57,18 billions de dollars taïwanais. Une seule entreprise représentait 31,51 % de l'indice pondéré de Taïwan, environ 40 % de la capitalisation totale du marché taïwanais et 71 % de la fonderie mondiale de semi-conducteurs. Les 49 places suivantes étaient réparties entre 12 holdings financiers, 11 entreprises de semi-conducteurs, 6 sous-traitants électroniques et 5 vétérans des industries traditionnelles. Le prétendu tripode électronique-finance-industries traditionnelles est, dans les faits, un corps à moitié soutenu par la seule jambe électronique ; à partir de 2024, la vague de l'IA a fait remonter Quanta, Wistron, Wiwynn et Hon Hai Precision Industry du milieu du classement, augmentant encore la concentration. Lire ce tableau des 50 plus grandes entreprises revient à lire une carte anatomique de l'économie taïwanaise : où se trouve la colonne vertébrale, où se trouve le point de défaillance unique, et où se trouvent les organes internes cachés hors du tableau.
@@ -40,16 +52,16 @@ _Taipei 101, dans le district de Xinyi à Taipei. Le siège de la Bourse de Taï
 
 En découpant les 50 plus grandes entreprises par secteur, à l'exclusion des deux ETF Yuanta Taiwan 50 et Yuanta High Dividend :
 
-| Catégorie sectorielle | Places | Part |
-| ------------------------------------------- | ---------- | ---- |
-| Semi-conducteurs (fonderie / conception de circuits intégrés / assemblage et test / mémoire / équipements) | 11 places | 23 % |
-| Finance (holdings financiers) | 12 places | 25 % |
-| Sous-traitance électronique (serveurs IA inclus, PC de marque) | 6 places | 13 % |
-| PCB / substrats ABF / dissipation thermique | 5 places | 10 % |
-| Industries traditionnelles (pétrochimie / acier / transport maritime / alimentation) | 5 places | 10 % |
-| Communications (télécommunications) | 3 places | 6 % |
-| Réseaux / ordinateurs industriels / composants passifs / optique / test | 7 places | 15 % |
-| Autres (distribution automobile) | 1 place (limite) | 2 % |
+| Catégorie sectorielle                                                                                      | Places           | Part |
+| ---------------------------------------------------------------------------------------------------------- | ---------------- | ---- |
+| Semi-conducteurs (fonderie / conception de circuits intégrés / assemblage et test / mémoire / équipements) | 11 places        | 23 % |
+| Finance (holdings financiers)                                                                              | 12 places        | 25 % |
+| Sous-traitance électronique (serveurs IA inclus, PC de marque)                                             | 6 places         | 13 % |
+| PCB / substrats ABF / dissipation thermique                                                                | 5 places         | 10 % |
+| Industries traditionnelles (pétrochimie / acier / transport maritime / alimentation)                       | 5 places         | 10 % |
+| Communications (télécommunications)                                                                        | 3 places         | 6 %  |
+| Réseaux / ordinateurs industriels / composants passifs / optique / test                                    | 7 places         | 15 % |
+| Autres (distribution automobile)                                                                           | 1 place (limite) | 2 %  |
 
 > **💡 Le saviez-vous**
 > Les investisseurs utilisent depuis longtemps la formule « électronique-finance-industries traditionnelles » pour décrire le tripode du marché boursier taïwanais. Mais lorsqu'on déploie le top 50 de 2026, l'électronique et les semi-conducteurs occupent déjà 36 % des sièges, la finance 25 %, et les industries traditionnelles sont comprimées à 10 %. Ce tripode est en réalité un corps à moitié porté par une seule jambe, une autre jambe, la finance, portant un quart, le reste des orteils revenant aux industries traditionnelles, aux communications et aux composants passifs.
@@ -124,7 +136,7 @@ Le sixième complexe de craquage de Formosa Plastics à Mailiao, dans le comté 
 
 ![Vue aérienne du sixième complexe pétrochimique de Formosa Plastics à Mailiao, Yunlin, dont les installations s'étendent le long de toute la côte ; c'est le plus grand pôle pétrochimique de Taïwan et l'un des grands registres environnementaux laissés par le camp des industries traditionnelles au sein des 50 plus grandes entreprises](/article-images/economy/mailiao-formosa-complex-2014.jpg)
 
-_Vue aérienne du sixième complexe pétrochimique de Formosa Plastics à Mailiao, Yunlin. En fonctionnement depuis 1998, le site couvre plus de 2 600 hectares ; c'est le plus grand pôle pétrochimique de Taïwan et l'un des grands registres environnementaux laissés par le camp des industries traditionnelles au sein des 50 plus grandes entreprises. Photo : Mk2010 (Malcolm Koo), 2014-03-15. [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,_Yunlin_(Taiwan).jpg)._
+_Vue aérienne du sixième complexe pétrochimique de Formosa Plastics à Mailiao, Yunlin. En fonctionnement depuis 1998, le site couvre plus de 2 600 hectares ; c'est le plus grand pôle pétrochimique de Taïwan et l'un des grands registres environnementaux laissés par le camp des industries traditionnelles au sein des 50 plus grandes entreprises. Photo : Mk2010 (Malcolm Koo), 2014-03-15. [CC BY-SA 3.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,_Yunlin_(Taiwan).jpg).\_
 
 China Steel, à Xiaogang, Kaohsiung, porte aussi une facture. Les données de la Citizens of the Earth Foundation indiquent que 80 à 90 % de la pollution atmosphérique de l'industrie sidérurgique de Kaohsiung provient de China Steel ; parmi les sources fixes de pollution de Kaohsiung, 36 % des émissions de particules et 32 % des émissions de SOx proviennent de la sidérurgie[^31]. Entre 2017 et 2020, China Steel a investi 4,756 milliards de dollars taïwanais pour améliorer ses équipements, réduisant les particules de 15,6 %, les SOx de 18,9 % et les NOx de 11,3 %. Les chiffres ont progressé, mais la structure selon laquelle « la sidérurgie dans son ensemble influence la qualité de l'air de Kaohsiung » n'a pas changé.
 
@@ -152,6 +164,7 @@ Après avoir lu ce tableau, le lecteur ne devrait pas seulement retenir « qui e
 - [L'industrie taïwanaise des semi-conducteurs](/technology/半導體產業) — De l'ITRI au 2 nanomètres, l'origine des 11 places des semi-conducteurs dans le top 50
 - [Marché boursier et marché des capitaux de Taïwan](/economy/台灣股市與資本市場) — Indice pondéré, classements de capitalisation et structure des investisseurs institutionnels
 - [Défense taïwanaise et modernisation militaire](/society/台灣國防與軍事現代化) — Le silicon shield et l'interaction géopolitique des 50 plus grandes entreprises
+- [Parcs scientifiques de Taïwan](/technology/科技園區發展) — La base de production des 11 entreprises de semi-conducteurs du top 50 ; version spatiale de la concentration des trois parcs
 
 ## Références
 
@@ -223,4 +236,4 @@ Cet article utilise trois images sous domaine public ou licence Creative Commons
 
 - **Hero** : [Tsmc factory hsinchu](https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG) — Photo : Arusanov, 2009-07-20, vue extérieure du site de TSMC dans le parc scientifique de Hsinchu. Public domain via Wikimedia Commons.
 - **Inline 1 (Taipei 101 / Bourse de Taïwan)** : [Taipei 101 20230511 114624](https://commons.wikimedia.org/wiki/File:Taipei_101_20230511_114624.jpg) — Photo : Anas1712, 2023-05-11, vue extérieure de Taipei 101, siège de la Bourse de Taïwan. CC BY 4.0 via Wikimedia Commons.
-- **Inline 2 (sixième complexe de Mailiao)** : [Formosa Plastics Group Mail-Liao Industrial Complex, Yunlin (Taiwan)](https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,_Yunlin_(Taiwan).jpg) — Photo : Malcolm Koo (User:Mk2010), 2014-03-15, vue aérienne du sixième complexe pétrochimique de Formosa Plastics à Mailiao, Yunlin. CC BY-SA 3.0 via Wikimedia Commons.
+- **Inline 2 (sixième complexe de Mailiao)** : [Formosa Plastics Group Mail-Liao Industrial Complex, Yunlin (Taiwan)](<https://commons.wikimedia.org/wiki/File:Formosa_Plastics_Group_Mail-Liao_Industrial_Complex,_Yunlin_(Taiwan).jpg>) — Photo : Malcolm Koo (User:Mk2010), 2014-03-15, vue aérienne du sixième complexe pétrochimique de Formosa Plastics à Mailiao, Yunlin. CC BY-SA 3.0 via Wikimedia Commons.

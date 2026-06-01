@@ -23,9 +23,9 @@ lastVerified: 2026-05-19
 lastHumanReview: true
 featured: true
 translatedFrom: 'Technology/半導體產業.md'
-sourceCommitSha: 'decc6fc1'
-sourceContentHash: 'sha256:4d6c76146a148f9f'
-sourceBodyHash: 'sha256:54602876f4b03760'
+sourceCommitSha: '49fa1f59'
+sourceContentHash: 'sha256:b024bac30328c85a'
+sourceBodyHash: 'sha256:bfb101697005960a'
 translatedAt: '2026-05-28T05:08:35+08:00'
 ---
 
@@ -260,6 +260,7 @@ La montagne sacrée qui protège Taïwan a dominé le présent grâce à cinquan
 - [Industrie robotique taïwanaise](/technology/台灣機器人產業) — pourquoi l’île numéro un mondiale des semi-conducteurs est-elle en rattrapage à l’ère robotique ? Lecture des fractures industrielles à partir de l’inauguration du NCAIR
 - [Marché boursier et marché des capitaux de Taïwan](/economy/台灣股市與資本市場) — comment l’écosystème complet de chaîne d’approvisionnement, qui soutient en 2026 le sixième marché boursier mondial, se reflète sur les marchés de capitaux
 - [Taiwan AI Academy](/technology/台灣人工智慧學校) — comment les dix mille ingénieurs IA formés en huit ans par l’AIA reviennent dans la chaîne ICT existante des semi-conducteurs pour renforcer le versant logiciel de Taïwan
+- [Parcs scientifiques de Taïwan](/technology/科技園區發展) — les parcs de Hsinchu, Tainan et Taichung, support physique des clusters de semi-conducteurs et centre géographique du bouclier de silicium
 
 ## Sources des images
 

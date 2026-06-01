@@ -8,9 +8,9 @@ featured: false
 lastVerified: 2026-03-31
 lastHumanReview: false
 translatedFrom: History/台灣轉型正義.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:03ace6f797438b47'
-sourceBodyHash: 'sha256:720afaba13078662'
+sourceCommitSha: '49fa1f59'
+sourceContentHash: 'sha256:374479ea740e2331'
+sourceBodyHash: 'sha256:4c9cc6fafe9a085c'
 translatedAt: 2026-05-01T18:02:56+08:00
 category: History
 ---
