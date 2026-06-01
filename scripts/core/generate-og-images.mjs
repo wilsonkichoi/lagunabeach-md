@@ -52,6 +52,7 @@
  */
 
 import { chromium } from 'playwright';
+import { execSync } from 'node:child_process';
 import { statSync, mkdirSync, existsSync, readFileSync } from 'node:fs';
 import { readdir, stat, readFile } from 'node:fs/promises';
 import { join, dirname, basename } from 'node:path';
@@ -706,6 +707,42 @@ async function workerLoop(
 
 // ── Main ────────────────────────────────────────────────────────────────────
 
+/**
+ * 自我修復的 Playwright 啟動（2026-06-01）：OG 生成最常見的失敗是 Playwright 瀏覽器
+ * 二進位缺失/版本不符（cache key 漂移、arch 不符、版本 bump）。容錯的正解不是靜默跳過
+ * （會讓問題長期隱形、很難發現），而是「偵測到 binary 問題 → 重新安裝 → 重渲染」自我修復。
+ * 自癒一次仍失敗才上拋（由 main().catch 印明確錯誤 + 擋 build），確保真問題不被埋掉。
+ */
+async function launchChromiumWithHeal() {
+  try {
+    return await chromium.launch({ headless: true });
+  } catch (err) {
+    const msg = err && err.message ? err.message : String(err);
+    const isMissingBinary =
+      /Executable doesn't exist|playwright install|chrome-headless-shell/i.test(
+        msg,
+      );
+    if (!isMissingBinary) throw err; // 非 binary 問題（如系統 deps）→ 直接上拋
+    console.error(
+      '\n⚠️  Playwright 瀏覽器二進位缺失 → 自我修復：重新安裝 chromium 後重試 launch（一次）',
+    );
+    console.error(`⚠️  觸發訊息：${msg.split('\n')[0]}`);
+    try {
+      execSync('npx playwright install chromium', { stdio: 'inherit' });
+    } catch (installErr) {
+      const im =
+        installErr && installErr.message
+          ? installErr.message
+          : String(installErr);
+      throw new Error(
+        `Playwright 自動安裝失敗，無法 self-heal。launch 原錯：${msg.split('\n')[0]}；安裝錯：${im.split('\n')[0]}`,
+      );
+    }
+    console.error('✓ Playwright chromium 安裝完成，重試 launch...');
+    return await chromium.launch({ headless: true }); // 再失敗 → 上拋給 main().catch
+  }
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const getArg = (name) => {
@@ -786,7 +823,7 @@ async function main() {
   }
   console.log(`📝 ${toUpdate.length} images queued.\n`);
 
-  const browser = await chromium.launch({ headless: true });
+  const browser = await launchChromiumWithHeal();
   const startTime = Date.now();
 
   const queue = [...toUpdate];
@@ -826,38 +863,44 @@ async function main() {
 }
 
 main().catch((err) => {
-  // 容錯機制（2026-06-01）：OG 圖是補充性 SEO 社群分享資產，不是站點內容本身。
-  // 既有 cache 的 OG 圖仍有效、缺的走 SEO fallback，所以「產生失敗」絕不該擋掉整個
-  // build / deploy（2026-06-01 deploy 連環失敗根因之一：prebuild:og 因 Playwright
-  // chrome-headless-shell 缺失 exit 1 → npm run build fail → 全站無法上線）。
-  // 預設非致命：印醒目警告 + exit 0，build 繼續。本地開發要嚴格抓錯設 OG_STRICT=1。
-  const strict = process.env.OG_STRICT === '1';
+  // 擋上線 + 錯誤標注明確（2026-06-01 哲宇 directive，修正先前「靜默 exit 0」）：
+  // 容錯的正解是「自我修復」（launchChromiumWithHeal 偵測 binary 問題就重裝重渲染），
+  // 不是吞掉錯誤。若 self-heal 後仍失敗 = 真問題 → 印「分類 + 怎麼修」明確錯誤並 exit 1
+  // 擋住 deploy。寧可擋住讓人馬上發現且好修，也不要靜默讓問題長期隱形（很難發現）。
   const msg = err && err.message ? err.message : String(err);
   console.error(
-    '\n⚠️  ════════════════════════════════════════════════════════',
+    '\n❌ ════════════════════════════════════════════════════════',
   );
   console.error(
-    '⚠️  OG 圖生成失敗 —— 非致命，build/deploy 繼續（既有 cache + SEO fallback 生效）',
+    '❌ OG 圖生成失敗 —— 擋 build/deploy（self-heal 後仍無解 = 真問題，需修）',
   );
-  console.error(`⚠️  原因：${msg}`);
+  console.error(`❌ 錯誤：${msg.split('\n')[0]}`);
   if (
     /Executable doesn't exist|playwright install|chrome-headless-shell/i.test(
       msg,
     )
   ) {
+    console.error('❌ 分類：Playwright 瀏覽器二進位問題（自動重裝後仍失敗）');
+    console.error('❌ 怎麼修：');
     console.error(
-      '⚠️  → Playwright 瀏覽器二進位缺失/版本不符。檢查 deploy.yml Playwright',
+      '❌   1) deploy.yml Playwright cache key 要含 runner.arch（os 對 arm/x64 都是 Linux）',
     );
     console.error(
-      '⚠️    cache key（需含 runner.arch）+「Install Playwright Chromium binary」step。',
+      '❌   2)「Install Playwright Chromium binary」step 確認有跑（cache-hit 時也要能補裝）',
     );
+    console.error(
+      '❌   3) 本地重現：rm -rf ~/.cache/ms-playwright && npx playwright install chromium',
+    );
+  } else if (/favicon not found/i.test(msg)) {
+    console.error(
+      '❌ 分類：favicon 缺失 — 確認 public/favicon.png 存在於 repo',
+    );
+  } else {
+    console.error('❌ 分類：未分類 OG 生成錯誤 — 完整 stack 如下供診斷：');
+    console.error(err);
   }
   console.error(
-    '⚠️  ════════════════════════════════════════════════════════\n',
+    '❌ ════════════════════════════════════════════════════════\n',
   );
-  if (strict) {
-    console.error('OG_STRICT=1 → 視為致命，exit 1。');
-    process.exit(1);
-  }
-  process.exit(0);
+  process.exit(1);
 });
