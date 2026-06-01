@@ -7,6 +7,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import BrandMark from '../components/BrandMark.astro';
 import ReaderSettings from '../components/ReaderSettings.astro';
+import FeedbackWidget from '../components/FeedbackWidget.astro';
 import HeadInlineScripts from '../components/HeadInlineScripts.astro';
 
 import type { Lang } from '../config/languages';
@@ -41,6 +42,14 @@ interface Props {
    * Default: false. Article + category-hub templates opt in.
    */
   readerSettings?: boolean;
+  /**
+   * Opt this surface into the floating reader FeedbackWidget
+   * (correction / bug / new-topic → managed backend → cron → GitHub issue).
+   * Self-gates on PUBLIC_FEEDBACK_MODE (off/github-only/mock/supabase); when
+   * unconfigured it degrades to a static "report on GitHub" button, so it is
+   * always safe to leave on. Default: false. Article template opts in.
+   */
+  feedback?: boolean;
 }
 
 const { lang = 'zh-TW' } = Astro.props;
@@ -60,6 +69,7 @@ const {
   categorySlug: propCategorySlug,
   noindex,
   readerSettings = false,
+  feedback = false,
 } = Astro.props;
 
 // Search index now loaded via /api/search-index.json (fetch API)
@@ -850,6 +860,20 @@ const jfClass = [
          prop on Layout. Surfaces opt in by passing readerSettings={true}
          (and audit dark CSS in dark-polish.css before doing so). -->
     {readerSettings && <ReaderSettings lang={lang} />}
+
+    <!-- Reader feedback widget: correction / bug / new-topic → backend → cron → issue.
+         Self-gates on PUBLIC_FEEDBACK_MODE; safe to leave on (degrades to a static
+         GitHub-issue button when unconfigured). 2026-06-01 feedback-login-system. -->
+    {
+      feedback && (
+        <FeedbackWidget
+          lang={lang}
+          slug={slug}
+          category={categorySlug}
+          title={title}
+        />
+      )
+    }
 
     <script is:inline>
       // Set .md button href based on current path
