@@ -2,7 +2,7 @@
 title: '讀者帳號登入 + 即時 Feedback + cron→GitHub issue 飛輪整合：架構評估與計劃'
 description: '在 taiwan.md 現有 100% 靜態（GitHub Pages）架構上，加一層 Google/多平台登入 + 結構化勘誤/修正/新主題回報，用 managed BaaS 做隔離失敗域，再用一條新 routine 把回報自動轉成 GitHub issue 接進既有 maintainer 飛輪。'
 type: 'design-report'
-status: 'draft-for-observer-review'
+status: 'implemented + live（v1→v2→v3→第三階段 merged；go-live Step 1-8+10 ✅）'
 author: 'Taiwan.md (Semiont) 🧬'
 observer: '哲宇 (creator/BDFL)'
 date: 2026-06-01

@@ -2,7 +2,7 @@
 title: 'Feedback 系統 go-live 紀錄'
 description: '讀者登入 + feedback 飛輪系統上線的逐步 runbook + 驗證紀錄。哲宇做 §自主權邊界 內的帳號/錢/service key 步驟,Taiwan.md 驗證 + 記錄。'
 type: 'runbook-log'
-status: 'in-progress'
+status: 'live — Step 1-8+10 ✅，Step 9 routine 之後建立'
 date: 2026-06-01
 related:
   - 'reports/feedback-login-system-design-2026-06-01.md'
@@ -12,27 +12,27 @@ related:
 
 # Feedback 系統 go-live 紀錄
 
-> 實作完成在 branch `worktree-20260601-feedback-login-system`（22 檔 / 12 test 綠）。
-> 本檔記錄上線過程,每步勾選 + 貼驗證證據。
+> 實作完成（v1→v2→v3→第三階段，PR #1117-1120 全 merged，24 unit + 10 UX test 綠）。
+> 本檔記錄上線過程,每步勾選 + 貼驗證證據。Step 1-8 + 10 ✅；Step 9 routine 哲宇 directive「之後再建立」。
 
 ## 狀態總覽
 
-| #                       | 步驟                                                    | 誰          | 狀態 | 驗證                                 |
-| ----------------------- | ------------------------------------------------------- | ----------- | ---- | ------------------------------------ |
+| #                       | 步驟                                                    | 誰          | 狀態 | 驗證                                       |
+| ----------------------- | ------------------------------------------------------- | ----------- | ---- | ------------------------------------------ |
 | **A. Supabase backend** |
-| 1                       | 開 Supabase 專案                                        | 哲宇        | ✅   | URL live + key 認證 OK               |
-| 2                       | 跑 migration `0001_feedback.sql`                        | 哲宇        | ✅   | 両表 200 + RLS 擋匿名 insert         |
-| 3                       | 開 Email + Google + GitHub 登入                         | 哲宇 + TWMD | ✅   | 3 provider enabled / widget 3 鈕 e2e |
+| 1                       | 開 Supabase 專案                                        | 哲宇        | ✅   | URL live + key 認證 OK                     |
+| 2                       | 跑 migration `0001_feedback.sql`                        | 哲宇        | ✅   | 両表 200 + RLS 擋匿名 insert               |
+| 3                       | 開 Email + Google + GitHub 登入                         | 哲宇 + TWMD | ✅   | 3 provider enabled / widget 3 鈕 e2e       |
 | **B. 前端上線**         |
-| 4                       | merge branch → main                                     | TWMD        | ✅   | PR #1117 merged → main e90c400a3     |
-| 5                       | 設 repo Variables（mode+URL+anon key）                  | TWMD        | ✅   | 4 Variables set（gh variable list）  |
-| 6                       | deploy + 驗證 widget 在 taiwan.md live                  | TWMD        | 🔄   | deploy run 26735776667 building      |
+| 4                       | merge branch → main                                     | TWMD        | ✅   | PR #1117 merged → main e90c400a3           |
+| 5                       | 設 repo Variables（mode+URL+anon key）                  | TWMD        | ✅   | 4 Variables set（gh variable list）        |
+| 6                       | deploy + 驗證 widget 在 taiwan.md live                  | TWMD        | ✅   | v3 deploy 成功上線（phase3 deploy 中）     |
 | **C. cron triage**      |
-| 7                       | 設 `~/.taiwanmd-feedback.env`（service key）            | 哲宇        | ⬜   | triage 連得上 Supabase               |
-| 8                       | triage dry-run（真資料）                                | TWMD        | ⬜   | 讀到 status=new                      |
-| 9                       | 排 cron `twmd-feedback-triage` 07:00                    | 哲宇/TWMD   | ⬜   | scheduler list                       |
+| 7                       | 設 `~/.taiwanmd-feedback.env`（service key）            | 哲宇        | ✅   | 「env 好了」                               |
+| 8                       | triage dry-run（真資料）                                | TWMD        | ✅   | triage 連上 Supabase，讀 0 new（無真資料） |
+| 9                       | 排 cron `twmd-feedback-triage` 07:00                    | TWMD        | ⏸️   | 之後建立（Claude routine / RemoteTrigger） |
 | **D. 端到端煙霧測試**   |
-| 10                      | 真送一筆 feedback → triage --commit → 看 issue + status | 哲宇+TWMD   | ⬜   | issue 開出 + status=filed            |
+| 10                      | 真送一筆 feedback → triage --commit → 看 issue + status | TWMD        | ✅   | issue #1121 全驗證 + 清理（見下方）        |
 
 ---
 
@@ -94,3 +94,37 @@ related:
 captured email `tester@users.noreply.github.com` → 進 nickname step。12 unit test 仍綠。
 
 **Supabase callback（3 provider 共用）**:`https://peaukuolztyiepblwuos.supabase.co/auth/v1/callback`。
+
+### Step 8 ✅ triage 連線真資料（2026-06-01）
+
+`node scripts/feedback/triage.mjs`（無 --seed）讀 `~/.taiwanmd-feedback.env` → 連上 Supabase REST →
+`fetched 0 new feedback`（當下無真資料，連線+認證 OK）。
+
+### Step 10 ✅ 端到端煙霧測試（2026-06-01，TWMD 全程驅動 + 清理）
+
+1. **建測試資料**（service key admin API）：test auth user + feedback row（type=content / quote /
+   correct_info / status=new，body 標「[煙霧測試]」）。
+2. **`node scripts/feedback/triage.mjs --commit`** → `fetched 1 · FILE [content] [Fact Check] 李安 ·
+labels needs-verification+from-feedback · → issue #1121 · 📁 archive 寫入`。
+3. **驗證全鏈**：
+   - GitHub issue #1121：title/labels 對 + body 含 quote blockquote + 🔗 W3C 深連結 + provenance
+     `回報者:煙霧測試讀者 · feedback id · 來源頁:article` + **無 email**。
+   - git archive `docs/feedback/archive/2026-06/{id}.md`：frontmatter（contributor=display_name，無 email）
+     - 回報內容 + 選取原文 + 系統初判（triage_note）。
+   - Supabase write-back：`status='filed'` + `issue_number=1121` + `triage_note` ✅。
+4. **清理**：刪 feedback row + test user / 關 issue #1121（附說明 comment）/ rm 未 commit 的測試 archive。零殘留。
+
+→ **整條飛輪（widget→Supabase→triage→issue→git 主權 archive→write-back→我的回報狀態）驗證打通。**
+
+### Step 9 ⏸️ 排 routine（之後建立）
+
+哲宇 directive「之後再建立」。建立方式（Claude routine via RemoteTrigger / `/schedule`）：
+
+- name `twmd-feedback-triage` / cron `0 23 * * *`（UTC = 07:00 Asia/Taipei，maintainer-am 08:30 前）/
+  model sonnet / repo taiwan-md / tools Bash+Read+Write+Edit+Glob+Grep。
+- prompt：STRICT BECOME GATE（`/twmd-become review`）→ `/twmd-feedback-triage` skill →
+  `node scripts/feedback/triage.mjs --commit` → `git add docs/feedback/archive/` → commit+push → `/twmd-finale`。
+- **cloud 環境前提**：CCR 環境要有 `SUPABASE_URL` + `SUPABASE_SERVICE_KEY` env（cloud 讀不到本機
+  `~/.taiwanmd-feedback.env`；triage.mjs 已 `process.env` 優先）+ `gh`/git 推送權限。未設則 emit
+  「backend 未配置, skip」不算 fail。
+- ROUTINE.md #15 SSOT entry 已寫好（schedule canonical）。
