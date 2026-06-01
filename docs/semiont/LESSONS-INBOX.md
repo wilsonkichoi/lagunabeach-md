@@ -262,6 +262,15 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-01 manual (130850) — 寫 attribution-density 高的 Fresh 新文，標配＝falsification agent + anti-example + 一手 verbatim 三層擋幻覺
+
+- **原則**：寫「A↔B 密集對應」高風險主題的 Fresh 新文時，研究 agent 的 prompt 必須強制「證偽不要確認」＋附最近一次同類錯當 anti-example，主 session 再對所有載重歸屬做一手中文 verbatim 核——三層攔截網。
+- **觸發**：2026-06-01 14:00 /twmd-rewrite Computex（同日早上 105713 影視配樂被 callout 的反向：那條講「舊文怎麼錯」，本條講「新文怎麼擋」）。3 個 general-purpose research agent 收到 falsification + anti-example prompt 後，當天 falsify 掉主 session 4 個 plausible attribution 錯：黃仁勳夜市 2024（張忠謀蚵仔煎）vs 2026（帶父母請豆花）兩事件混淆、2024 無官方主 keynote（與 ARM joint）、Intel 2026=陳立武非 Gelsinger、NXP=Sotomayor 非 Reger。每條再對一手中文 source 逐字核。證據 memory/2026-06-01-130850-manual.md + diary 同 id。
+- **可能層級**：操作規則（REWRITE-PIPELINE Stage 1 Step 1.8 spawn agent 選型的延伸——對 attribution-density 主題加「falsification prompt + anti-example」強制條款）
+- **相關**：同日 105713 影視配樂教訓 2（歸屬密集＝AI 幻覺高風險）的 forward action 落地——前者講「哪類文要重查」，本條講「寫新文時三層怎麼搭」。REFLEXES #31（sub-agent claim 是線索）＋ #16 的組合應用。
+- **verification_count**: 1（本 session Computex 實證有效）
+- **severity**: operational（REWRITE-PIPELINE Stage 1 spawn agent SOP 的強化）
+
 ### 2026-06-01 manual — peer 是線索不是 source 的最強 instance（內行人 frame 也有縫，OPUS≠雷亞）+ 歸屬密集主題是 AI 幻覺高風險區
 
 - **觸發**：配樂專業讀者 peilinwu0702 Threads 公開 callout `台灣影視配樂`（3/19 早期批次）錯誤率>30%，列一連串作曲家↔作品誤植；/twmd-rewrite 全篇重查重寫。
