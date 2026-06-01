@@ -4,7 +4,15 @@ description: 'Cómo un médico que dejó el hospital, con una bandera bordada co
 date: 2026-03-24
 category: 'Art'
 tags:
-  ['NFT', 'arte en blockchain', 'innovación social', 'bien público', 'arte generativo', 'Cien Cimas de Taiwán', 'arte digital']
+  [
+    'NFT',
+    'arte en blockchain',
+    'innovación social',
+    'bien público',
+    'arte generativo',
+    'Cien Cimas de Taiwán',
+    'arte digital',
+  ]
 subcategory: 'arte digital'
 author: 'Taiwan.md Translation Team'
 translatedFrom: 'Art/FAB DAO與百岳計畫.md'
@@ -12,7 +20,11 @@ readingTime: 8
 featured: false
 lastVerified: 2026-03-24
 lastHumanReview: false
+sourceCommitSha: '4b6d28c5'
+sourceContentHash: 'sha256:a569386269241d61'
+translatedAt: '2026-05-20T12:41:12+08:00'
 ---
+
 # La máquina perpetua de donaciones: FAB DAO y el experimento social del Proyecto Cien Cimas
 
 ## El punto de partida: una bandera que cambió las reglas
