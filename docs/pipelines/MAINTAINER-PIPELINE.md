@@ -266,6 +266,8 @@ gh run list --limit 5 --workflow="i18n Smoke Test" --json conclusion,status,crea
 | 📣 Feedback                   | 對現有文章的建議                                                                                            | Step 3.6: 標記給 REWRITE-PIPELINE / 入 backlog         |
 | 📋 **[Content] 主題建議**     | title `[Content]` prefix / body 含 cron-generated 標記 / contributor 列「現有 / 建議新增 / 優先序」三段結構 | **Step 2.1.1 sub-flow** + Step 3.6.b 4-route templates |
 
+> **`from-feedback` label（2026-06-01 新增）**：issue 帶 `from-feedback` label = 站上讀者回報經 `twmd-feedback-triage` 自動轉入（讀者原話 verbatim + provenance）。**走一般 issue 流程,不另設分支**：`needs-verification`（勘誤）→ 當 Bug/Content 處理修事實;`bug` → Step 3.5;`content`（newtopic）→ Step 2.1.1 [Content] digest 4-route dedupe。差別只在**回覆時對象是讀者**（用讀者語言、敘事化、列接下來要做的事,per feedback_contributor_reply_humanize),且回覆仍是**人類 gate**（§自主權邊界）。完整來源 pipeline：[FEEDBACK-TRIAGE-PIPELINE.md](FEEDBACK-TRIAGE-PIPELINE.md)。
+
 #### 人物文章知名度門檻
 
 **核心問題**：「一個不認識台灣的外國人，有沒有可能透過主流管道知道這個人？」

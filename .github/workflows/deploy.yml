@@ -171,6 +171,14 @@ jobs:
           }
 
       - name: Build
+        # Feedback widget config (2026-06-01). Unset → empty → resolveBackendKind()
+        # falls back to 'github-only' (static GitHub-issue button), so the build is
+        # safe before Supabase is provisioned. Set these as repo Variables to go live.
+        env:
+          PUBLIC_FEEDBACK_MODE: ${{ vars.PUBLIC_FEEDBACK_MODE }}
+          PUBLIC_SUPABASE_URL: ${{ vars.PUBLIC_SUPABASE_URL }}
+          PUBLIC_SUPABASE_ANON_KEY: ${{ vars.PUBLIC_SUPABASE_ANON_KEY }}
+          PUBLIC_FEEDBACK_PROVIDERS: ${{ vars.PUBLIC_FEEDBACK_PROVIDERS }}
         run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

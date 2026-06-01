@@ -44,6 +44,9 @@
     "article-health": "python3 scripts/tools/article-health.py",
     "article-health:all": "python3 scripts/tools/article-health.py --all --profile=dashboard --output=json",
     "article-health:test": "python3 -m pytest tests/article_health -q",
+    "feedback:triage": "node scripts/feedback/triage.mjs",
+    "feedback:test": "node --test scripts/feedback/triage.test.mjs",
+    "feedback:devtest": "PUBLIC_FEEDBACK_MODE=mock astro dev --port 4330",
     "visual:baseline": "node scripts/visual/capture-baseline.mjs --baseline",
     "visual:capture": "node scripts/visual/capture-baseline.mjs",
     "visual:diff": "node scripts/visual/diff.mjs",
@@ -57,6 +60,7 @@
   "dependencies": {
     "@astrojs/rss": "^4.0.17",
     "@astrojs/sitemap": "^3.7.1",
+    "@supabase/supabase-js": "^2.106.2",
     "@tailwindcss/vite": "^4.2.2",
     "astro": "^6.2.1",
     "gray-matter": "^4.0.3",

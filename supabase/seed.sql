@@ -1,0 +1,15 @@
+-- Local-dev seed（只給 `supabase start` 本機用；正式環境不要跑）。
+-- 需要先有一個 auth user;本機可用 Supabase Studio 建一個測試帳號後把 uid 填進來。
+-- 線上 triage 測試請改用 scripts/feedback/seed-feedback.json（不需 DB）。
+
+-- 範例（把 <UID> 換成本機測試帳號的 auth.users.id）：
+-- insert into public.profiles (uid, email, nickname)
+--   values ('<UID>', 'tester@example.com', '海邊的讀者');
+-- insert into public.feedback (uid, display_name, article_slug, article_title, category, lang, source_url, type, body, correct_info)
+--   values
+--     ('<UID>', '海邊的讀者', '李安', '李安', 'people', 'zh-TW',
+--      'https://taiwan.md/people/李安', 'content',
+--      '文中說 1990 年得獎,應為 1993。', '正確:1993 金熊獎。來源:https://example.com'),
+--     ('<UID>', '海邊的讀者', '台灣棒球文化', '台灣棒球文化', 'culture', 'zh-TW',
+--      'https://taiwan.md/culture/台灣棒球文化', 'bug',
+--      '手機上目錄會蓋住內文。', null);
