@@ -1,8 +1,8 @@
 {
-  "totalArticles": 4678,
+  "totalArticles": 4680,
   "totalCategories": 21,
   "estimatedContributors": 57,
-  "totalTags": 6335,
+  "totalTags": 6341,
   "categories": [
     {
       "name": "es",
@@ -42,7 +42,7 @@
     },
     {
       "name": "People",
-      "count": 222
+      "count": 223
     },
     {
       "name": "Music",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Food",
-      "count": 53
+      "count": 54
     },
     {
       "name": "Geography",
@@ -100,7 +100,7 @@
     },
     {
       "name": "企業",
-      "count": 62
+      "count": 61
     },
     {
       "name": "科技與企業",
@@ -127,10 +127,6 @@
       "count": 26
     },
     {
-      "name": "AI",
-      "count": 26
-    },
-    {
       "name": "기업",
       "count": 26
     },
@@ -139,7 +135,7 @@
       "count": 25
     },
     {
-      "name": "半導體",
+      "name": "AI",
       "count": 25
     },
     {
@@ -148,6 +144,10 @@
     },
     {
       "name": "民主化",
+      "count": 24
+    },
+    {
+      "name": "半導體",
       "count": 24
     },
     {
@@ -172,13 +172,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4678,
+    "zh-TW": 4680,
     "en": 0
   },
-  "lastUpdated": "2026-05-28T22:11:43.732Z",
-  "stars": 1010,
-  "forks": 148,
-  "zhPages": 3886,
+  "lastUpdated": "2026-06-01T02:57:43.947Z",
+  "stars": 1014,
+  "forks": 149,
+  "zhPages": 3888,
   "enPages": 792,
-  "totalPages": 4678
+  "totalPages": 4680
 }

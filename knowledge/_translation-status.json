@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-05-29T06:11:41+08:00",
-    "zhCommitHead": "746e5b5b1",
-    "totalZh": 769,
+    "lastUpdated": "2026-06-01T10:57:38+08:00",
+    "zhCommitHead": "de2bdf585",
+    "totalZh": 771,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 769,
-        "fresh": 759,
-        "stale": 10,
+        "total_zh": 771,
+        "fresh": 756,
+        "stale": 13,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 2,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 769,
-        "fresh": 759,
-        "stale": 10,
+        "total_zh": 771,
+        "fresh": 756,
+        "stale": 13,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 2,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 769,
-        "fresh": 759,
-        "stale": 10,
+        "total_zh": 771,
+        "fresh": 756,
+        "stale": 13,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 2,
         "orphan": 0
       },
       "es": {
-        "total_zh": 769,
-        "fresh": 759,
-        "stale": 10,
+        "total_zh": 771,
+        "fresh": 756,
+        "stale": 13,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 2,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 769,
-        "fresh": 759,
-        "stale": 10,
+        "total_zh": 771,
+        "fresh": 756,
+        "stale": 13,
         "metadata_stale": 0,
-        "missing": 0,
+        "missing": 2,
         "orphan": 0
       }
     },
@@ -3882,10 +3882,10 @@
     },
     "Economy/台灣前50大企業.md": {
       "zh": {
-        "lastCommit": "50fbcf0c",
-        "lastModified": "2026-05-20T00:39:45+08:00",
-        "contentHash": "sha256:01adc215d02d77f4",
-        "bodyHash": "sha256:87d34ddd076d7458"
+        "lastCommit": "9c2bf6ef",
+        "lastModified": "2026-05-29T13:58:40+08:00",
+        "contentHash": "sha256:2559cf50531f733b",
+        "bodyHash": "sha256:6dff77bc3fd9be7a"
       },
       "translations": {
         "en": {
@@ -3898,8 +3898,10 @@
           "translationLastCommit": "e860007e",
           "translationLastModified": "2026-05-20T06:14:13+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+26 -13"
         },
         "ja": {
           "path": "ja/Economy/top-50-companies-taiwan.md",
@@ -3911,8 +3913,10 @@
           "translationLastCommit": "e860007e",
           "translationLastModified": "2026-05-20T06:14:13+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+26 -13"
         },
         "ko": {
           "path": "ko/Economy/top-50-companies-taiwan.md",
@@ -3924,8 +3928,10 @@
           "translationLastCommit": "e860007e",
           "translationLastModified": "2026-05-20T06:14:13+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+26 -13"
         },
         "es": {
           "path": "es/Economy/top-50-companies-taiwan.md",
@@ -3937,8 +3943,10 @@
           "translationLastCommit": "e860007e",
           "translationLastModified": "2026-05-20T06:14:13+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+26 -13"
         },
         "fr": {
           "path": "fr/Economy/top-50-companies-taiwan.md",
@@ -3950,8 +3958,10 @@
           "translationLastCommit": "e860007e",
           "translationLastModified": "2026-05-20T06:14:13+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+26 -13"
         }
       }
     },
@@ -6957,10 +6967,10 @@
     },
     "Technology/科技園區發展.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:9c6e710290cc0283",
-        "bodyHash": "sha256:a3981dca8f771cd5"
+        "lastCommit": "8bd79599",
+        "lastModified": "2026-05-29T14:43:26+08:00",
+        "contentHash": "sha256:1d77734f34a7a5f8",
+        "bodyHash": "sha256:e01e7169a98c4aba"
       },
       "translations": {
         "en": {
@@ -6973,8 +6983,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 4,
+          "diffSummary": "+127 -100"
         },
         "ja": {
           "path": "ja/Technology/science-park-development.md",
@@ -6986,8 +6998,10 @@
           "translationLastCommit": "06ed4c82",
           "translationLastModified": "2026-05-20T12:37:22+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 4,
+          "diffSummary": "+127 -100"
         },
         "ko": {
           "path": "ko/Technology/science-park-development.md",
@@ -6999,8 +7013,10 @@
           "translationLastCommit": "04a9c0df",
           "translationLastModified": "2026-05-09T14:18:36+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 4,
+          "diffSummary": "+127 -100"
         },
         "es": {
           "path": "es/Technology/science-park-development.md",
@@ -7012,8 +7028,10 @@
           "translationLastCommit": "06ed4c82",
           "translationLastModified": "2026-05-20T12:37:22+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 4,
+          "diffSummary": "+127 -100"
         },
         "fr": {
           "path": "fr/Technology/science-park-development.md",
@@ -7025,8 +7043,10 @@
           "translationLastCommit": "1c916604",
           "translationLastModified": "2026-05-25T07:48:04+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 4,
+          "diffSummary": "+127 -100"
         }
       }
     },
@@ -9432,10 +9452,10 @@
     },
     "Technology/半導體產業.md": {
       "zh": {
-        "lastCommit": "decc6fc1",
-        "lastModified": "2026-05-28T23:13:26+08:00",
-        "contentHash": "sha256:4d6c76146a148f9f",
-        "bodyHash": "sha256:54602876f4b03760"
+        "lastCommit": "9c2bf6ef",
+        "lastModified": "2026-05-29T13:58:40+08:00",
+        "contentHash": "sha256:115d98f6c5ac9a50",
+        "bodyHash": "sha256:52ef4b48467ab1f4"
       },
       "translations": {
         "en": {
@@ -9448,8 +9468,10 @@
           "translationLastCommit": "97c4fbeb",
           "translationLastModified": "2026-05-29T01:12:23+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ja": {
           "path": "ja/Technology/semiconductor-industry.md",
@@ -9461,8 +9483,10 @@
           "translationLastCommit": "97c4fbeb",
           "translationLastModified": "2026-05-29T01:12:23+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "ko": {
           "path": "ko/Technology/semiconductor-industry.md",
@@ -9474,8 +9498,10 @@
           "translationLastCommit": "97c4fbeb",
           "translationLastModified": "2026-05-29T01:12:23+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "es": {
           "path": "es/Technology/taiwan-semiconductor-industry.md",
@@ -9487,8 +9513,10 @@
           "translationLastCommit": "97c4fbeb",
           "translationLastModified": "2026-05-29T01:12:23+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         },
         "fr": {
           "path": "fr/Technology/semiconductor-industry.md",
@@ -9500,8 +9528,10 @@
           "translationLastCommit": "97c4fbeb",
           "translationLastModified": "2026-05-29T01:12:23+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "stale",
+          "reason": "body-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+1 -0"
         }
       }
     },
@@ -25483,6 +25513,31 @@
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "People/楊維哲.md": {
+      "zh": {
+        "lastCommit": "e03b004e",
+        "lastModified": "2026-05-31T17:31:14+08:00",
+        "contentHash": "sha256:69fc2aa712d41a4f",
+        "bodyHash": "sha256:dbdac5a6701910e0"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },
@@ -42060,6 +42115,31 @@
           "inferred": false,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "Food/蘋果麵包.md": {
+      "zh": {
+        "lastCommit": "a0314c6e",
+        "lastModified": "2026-05-31T17:30:56+08:00",
+        "contentHash": "sha256:1a92c24eb1a7d8cf",
+        "bodyHash": "sha256:4f26d4508afc31e5"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },

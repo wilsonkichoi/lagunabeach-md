@@ -1,7 +1,115 @@
 {
-  "generatedAt": "2026-05-28T22:11:42.754Z",
+  "generatedAt": "2026-06-01T02:57:40.086Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "de2bdf585b35747abccb116585a59ada200ad06b",
+      "date": "2026-05-31T22:51:38+08:00",
+      "author": "Che-Yu Wu",
+      "message": "fix: localize nav and share homepage hall styles"
+    },
+    {
+      "hash": "e03b004e862dc657198724b57e951efff5a7035c",
+      "date": "2026-05-31T17:31:14+08:00",
+      "author": "idlccp1984",
+      "message": "Create 楊維哲.md"
+    },
+    {
+      "hash": "a0314c6e3e0aedaed8b8b50df9c8dd273741f6c1",
+      "date": "2026-05-31T17:30:56+08:00",
+      "author": "idlccp1984",
+      "message": "Create 蘋果麵包.md"
+    },
+    {
+      "hash": "4587b2fd48fbecfabd646b1f9aedca8f5035d41d",
+      "date": "2026-05-29T14:51:21+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory + diary: 2026-05-29-144438-manual — 科學園區 EVOLVE + 孢子 #109/#110 收官"
+    },
+    {
+      "hash": "8bd79599d55a4476ad841afb5de79e9c9dd660c2",
+      "date": "2026-05-29T14:43:26+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore: #109/#110 科學園區 → Threads + X 雙平台 — 一片稻田的賭注賭出全世界的命脈也賭成命門"
+    },
+    {
+      "hash": "541585564480b489622fa98486e57f1bb071425d",
+      "date": "2026-05-29T14:14:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 科學園區 30 秒概覽 + description 2 奈米精確化 — 「2 奈米同時在三座園區量產」過度宣稱修正"
+    },
+    {
+      "hash": "4509d160c0ca2e8eda9ca8185c92de6a8f2d3bfc",
+      "date": "2026-05-29T14:02:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 科學園區 大門立柱 caption Commons URL percent-encode — 修 prettier 把 _光復路…_ 誤判為 emphasis 損壞 URL"
+    },
+    {
+      "hash": "9c2bf6ef8f4fa4af5684a122c96aad9cedd9744c",
+      "date": "2026-05-29T13:58:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 台灣科學園區 EVOLVE Round 1 — 3445→5361 字 + 0→24 腳註 + 0→7 圖 + 2 影片 iframe（矽盾既是護身符也是靶心）"
+    },
+    {
+      "hash": "40de06c2e197e0f762b53deaaa9200ed85ee3e4c",
+      "date": "2026-05-29T12:56:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-05-29-125036-manual — 我以為只是一個 typo，偵測器第一次睜眼就看見八個"
+    },
+    {
+      "hash": "fe979268bef0da870a73f23da1492f0eeb0b6812",
+      "date": "2026-05-29T12:53:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-05-29-125036-manual — 首頁 D+2 GA4 watch + instrumentation drift 架構解三器官 + MEMORY index row"
+    },
+    {
+      "hash": "9515b10bfc879713e0e82875d8b54555f45b6f8d",
+      "date": "2026-05-29T12:48:25+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: instrumentation drift 架構解 — code↔SSOT↔GA4 三方對齊偵測器 + CI gate (multi-narrative: tooling + immune + cognitive + frontend)"
+    },
+    {
+      "hash": "cef3d0760fb84648851e87c0361719e845eab902",
+      "date": "2026-05-29T11:58:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diagnose: D+2 watch 報告補完整數據附錄 §A1-A13 — 13 query raw dump 永久保存"
+    },
+    {
+      "hash": "28897428993d5665f89ea26eb6d4cfbd3a67092c",
+      "date": "2026-05-29T11:55:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diagnose: 首頁 Wave 1+2+3 改版 D+2 GA4 watch — engagement +104% 驗證 + scroll_depth attribution bug 修復 (multi-narrative: sensor + tooling)"
+    },
+    {
+      "hash": "f3083917c3fdf56a8731dbdcfc99195810484837",
+      "date": "2026-05-29T08:42:38+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-29-084034-twmd-maintainer-am — 空場 cycle vc=9 連續第 4 棒 / pointer-not-duplicate"
+    },
+    {
+      "hash": "3cafda84fa7c8f4b3895d3b57e2dcddfdca20671",
+      "date": "2026-05-29T06:56:26+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-29-065355-twmd-spore-harvest-am — 15 OVERDUE sweep + Pitfall 6 v2 manifestation"
+    },
+    {
+      "hash": "446daad7f6d9a16dcda2c569684ca49dcd27a0f5",
+      "date": "2026-05-29T06:53:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 15 spores + 1 reply harvested — 2026-05-29"
+    },
+    {
+      "hash": "7ba9f415b550c6c55f8254a29d08fe5631ed00cb",
+      "date": "2026-05-29T06:14:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-05-29-061239-twmd-data-refresh-am — 14-step ALL PASS + Step 11 clean / catch ≠ fix 12hr 三段閉環正向 instance"
+    },
+    {
+      "hash": "de02a9f9a358e885a63a8b1870e409cf1fcb811d",
+      "date": "2026-05-29T06:12:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: dashboard sync — 2026-05-29 06:00"
+    },
     {
       "hash": "746e5b5b1bfc8383b71c86c81f4bad9c6de20da4",
       "date": "2026-05-29T01:15:31+08:00",

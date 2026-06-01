@@ -1,7 +1,7 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-05-28T22:11:44Z",
-  "total": 769,
+  "timestamp": "2026-06-01T02:57:45Z",
+  "total": 771,
   "flagged": 324,
   "files": [
     {
@@ -158,11 +158,6 @@
       "file": "technology/Facebook.md",
       "score": 5,
       "reasons": "空洞詞13個; 未人工審核; 稀薄段落×5"
-    },
-    {
-      "file": "technology/科技園區發展.md",
-      "score": 8,
-      "reasons": "未人工審核; 連續bullet5行; 塑膠句2個; 破折號19個; 稀薄段落×1; 無腳註"
     },
     {
       "file": "technology/台灣開源精神.md",
@@ -743,6 +738,11 @@
       "file": "people/康士坦的變化球.md",
       "score": 4,
       "reasons": "塑膠句1個; 破折號28個"
+    },
+    {
+      "file": "people/楊維哲.md",
+      "score": 5,
+      "reasons": "未人工審核; 教科書開場; 稀薄段落×2"
     },
     {
       "file": "people/林良.md",

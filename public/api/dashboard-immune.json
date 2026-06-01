@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T06:11:25.103259",
+  "lastUpdated": "2026-06-01T10:57:06.595347",
   "schemaVersion": "v2-2026-05-16",
   "featureFlag": "IMMUNE_V2",
   "immuneScore": 67,
@@ -8,7 +8,7 @@
     "review_coverage": 28.9,
     "plugin_pass_rate": 70.0,
     "plugin_health": 100.0,
-    "citation_density": 89.9,
+    "citation_density": 90.0,
     "tool_freshness": 80,
     "drift_velocity": 90.0
   },
@@ -22,9 +22,9 @@
   },
   "tierBreakdown": {
     "T1": {
-      "total": 340,
+      "total": 341,
       "reviewed": 106,
-      "pct": 31.2,
+      "pct": 31.1,
       "weight": 3.0
     },
     "T2": {
@@ -34,15 +34,15 @@
       "weight": 1.5
     },
     "T3": {
-      "total": 90,
+      "total": 91,
       "reviewed": 18,
-      "pct": 20.0,
+      "pct": 19.8,
       "weight": 0.5
     }
   },
   "pluginPassDetail": {
-    "total_files": 769,
-    "hard_pass_files": 769,
+    "total_files": 771,
+    "hard_pass_files": 771,
     "hard_pass_pct": 100.0,
     "warn_pass_files": 0,
     "warn_pass_pct": 0.0,
@@ -50,22 +50,22 @@
   },
   "citationDetail": {
     "grades": {
-      "A": 583,
+      "A": 586,
       "B": 11,
-      "C": 160,
+      "C": 159,
       "D": 4,
       "F": 9
     },
-    "files_with_grade": 767
+    "files_with_grade": 769
   },
   "freshnessDetail": {
-    "editorial_days_old": 1,
-    "avg_plugin_days_old": 16.5,
+    "editorial_days_old": 4,
+    "avg_plugin_days_old": 19.5,
     "plugin_count": 21,
     "source": "git log %ai (not fs mtime — worktree-safe)"
   },
   "driftDetail": {
-    "new_articles_7d": 30,
+    "new_articles_7d": 17,
     "rate_per_article": 1.0,
     "note": "v1 heuristic — longitudinal tracking pending (B-line meta-health)"
   },
@@ -73,7 +73,7 @@
     "plugin_count": 21,
     "fresh_count": 21,
     "drifted_count": 0,
-    "editorial_age_days": 1,
+    "editorial_age_days": 4,
     "drift_thresholds": {
       "editorial_recent_days": 14,
       "plugin_stale_days": 30
@@ -81,107 +81,107 @@
     "plugins": [
       {
         "plugin": "chronicle_lead",
-        "plugin_age_days": 16,
-        "drifted": false
-      },
-      {
-        "plugin": "cjk_punct",
-        "plugin_age_days": 25,
-        "drifted": false
-      },
-      {
-        "plugin": "cross_reference",
-        "plugin_age_days": 25,
-        "drifted": false
-      },
-      {
-        "plugin": "footnote_density",
-        "plugin_age_days": 25,
-        "drifted": false
-      },
-      {
-        "plugin": "footnote_format",
-        "plugin_age_days": 21,
-        "drifted": false
-      },
-      {
-        "plugin": "footnote_url",
-        "plugin_age_days": 25,
-        "drifted": false
-      },
-      {
-        "plugin": "format_structure",
-        "plugin_age_days": 25,
-        "drifted": false
-      },
-      {
-        "plugin": "frontmatter_format",
-        "plugin_age_days": 21,
-        "drifted": false
-      },
-      {
-        "plugin": "frontmatter_title",
-        "plugin_age_days": 6,
-        "drifted": false
-      },
-      {
-        "plugin": "image_alt",
-        "plugin_age_days": 13,
-        "drifted": false
-      },
-      {
-        "plugin": "image_health",
-        "plugin_age_days": 16,
-        "drifted": false
-      },
-      {
-        "plugin": "link_target",
-        "plugin_age_days": 25,
-        "drifted": false
-      },
-      {
-        "plugin": "media_richness",
-        "plugin_age_days": 3,
-        "drifted": false
-      },
-      {
-        "plugin": "paragraph_rhythm",
-        "plugin_age_days": 1,
-        "drifted": false
-      },
-      {
-        "plugin": "prose_health",
         "plugin_age_days": 19,
         "drifted": false
       },
       {
-        "plugin": "rationale_presence",
+        "plugin": "cjk_punct",
+        "plugin_age_days": 28,
+        "drifted": false
+      },
+      {
+        "plugin": "cross_reference",
+        "plugin_age_days": 28,
+        "drifted": false
+      },
+      {
+        "plugin": "footnote_density",
+        "plugin_age_days": 28,
+        "drifted": false
+      },
+      {
+        "plugin": "footnote_format",
+        "plugin_age_days": 24,
+        "drifted": false
+      },
+      {
+        "plugin": "footnote_url",
+        "plugin_age_days": 28,
+        "drifted": false
+      },
+      {
+        "plugin": "format_structure",
+        "plugin_age_days": 28,
+        "drifted": false
+      },
+      {
+        "plugin": "frontmatter_format",
+        "plugin_age_days": 24,
+        "drifted": false
+      },
+      {
+        "plugin": "frontmatter_title",
+        "plugin_age_days": 9,
+        "drifted": false
+      },
+      {
+        "plugin": "image_alt",
+        "plugin_age_days": 16,
+        "drifted": false
+      },
+      {
+        "plugin": "image_health",
+        "plugin_age_days": 19,
+        "drifted": false
+      },
+      {
+        "plugin": "link_target",
+        "plugin_age_days": 28,
+        "drifted": false
+      },
+      {
+        "plugin": "media_richness",
         "plugin_age_days": 6,
+        "drifted": false
+      },
+      {
+        "plugin": "paragraph_rhythm",
+        "plugin_age_days": 4,
+        "drifted": false
+      },
+      {
+        "plugin": "prose_health",
+        "plugin_age_days": 22,
+        "drifted": false
+      },
+      {
+        "plugin": "rationale_presence",
+        "plugin_age_days": 9,
         "drifted": false
       },
       {
         "plugin": "seo_meta",
-        "plugin_age_days": 6,
+        "plugin_age_days": 9,
         "drifted": false
       },
       {
         "plugin": "spore_writing",
-        "plugin_age_days": 1,
+        "plugin_age_days": 4,
         "drifted": false
       },
       {
         "plugin": "terminology",
-        "plugin_age_days": 25,
+        "plugin_age_days": 28,
         "drifted": false
       },
       {
         "plugin": "wikilink_target",
-        "plugin_age_days": 25,
+        "plugin_age_days": 28,
         "drifted": false
       },
       {
         "plugin": "word_count",
-        "plugin_age_days": 18,
+        "plugin_age_days": 21,
         "drifted": false
       }
     ],

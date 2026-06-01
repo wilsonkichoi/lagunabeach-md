@@ -1,7 +1,7 @@
 ---
 title: 'reports/ INDEX — auto-generated'
 description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子目錄 status summary'
-last_generated: 2026-05-29 06:12
+last_generated: 2026-06-01 10:58
 generator: scripts/tools/generate-reports-index.py
 ssot: reports/reports-archival-audit-2026-05-27.md §4 Layer 3
 type: auto-index
@@ -12,18 +12,18 @@ type: auto-index
 > **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。
 > 不要人工編輯（會被下一次 cron 覆蓋）。
 >
-> Last generated: **2026-05-29 06:12** · 頂層 \*.md 共 **119** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
+> Last generated: **2026-06-01 10:58** · 頂層 \*.md 共 **120** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
 
 ## 📦 子目錄 status
 
 | Subdir                  | Files | Size     | 用途                                                 |
 | ----------------------- | ----: | -------- | ---------------------------------------------------- |
-| `research/`             |   233 | 33.5 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
+| `research/`             |   234 | 33.6 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
 | `visual/`               |   111 | 214.5 MB | Visual smoke test 基線 (partial gitignored)          |
 | `archive/`              |    27 | 342.8 KB | 歸檔位置 (per audit Layer 4)                         |
+| `scratch/`              |     9 | 1.7 MB   | POC / 暫存 (per audit Layer 1，已 .gitignored)       |
 | `probe/`                |     6 | 69.8 KB  | BECOME §Step 7 探測器報告                            |
 | `weekly/`               |     6 | 1.7 MB   | Self-evolve weekly digest                            |
-| `scratch/`              |     5 | 1.6 MB   | POC / 暫存 (per audit Layer 1，已 .gitignored)       |
 | `translation-research/` |     5 | 338.0 KB | 巴別塔 5 lang research                               |
 | `ab-tests/`             |     4 | 69.2 KB  | Editorial v6 A/B test                                |
 | `music-media-audit/`    |     4 | 115.5 KB | Music 條目 media audit (json + md)                   |
@@ -105,8 +105,9 @@ type: auto-index
 - `2026-04-17` [cron-schedule-snapshot-2026-04-17](cron-schedule-snapshot-2026-04-17.md)
 - `2026-04-12` [i18n-qa-audit-2026-04-12](i18n-qa-audit-2026-04-12.md)
 
-### audit-routine (14)
+### audit-routine (15)
 
+- `2026-05-29` [homepage-evolution-D+2-watch-2026-05-29](homepage-evolution-D+2-watch-2026-05-29.md) — Homepage Evolution D+2 Watch — 2026-05-29
 - `2026-05-27` [homepage-evolution-D+0-watch-2026-05-27](homepage-evolution-D+0-watch-2026-05-27.md) — Homepage Evolution D+0 Watch — 2026-05-27 (ship 5/26 23:00-23:50 + 14hr)
 - `2026-05-27` [routine-audit-2026-05-27](routine-audit-2026-05-27.md) — Routine Audit 2026-05-27 (Weekly Cycle 3)
 - `2026-05-26` [homepage-evolution-2026-05-26](homepage-evolution-2026-05-26.md) — Homepage Evolution — 從「策展首頁」到「Semiont 接觸首頁」
@@ -184,9 +185,10 @@ type: auto-index
 
 ## 📅 By month (descending)
 
-### 2026-05 (70 files)
+### 2026-05 (71 files)
 
-- Type breakdown: ops: 21 / evolution: 11 / audit-routine: 9 / audit: 7 / plan: 6 / design: 5 / semiont: 4 / analysis: 3 / evaluation: 3 / proposal: 1
+- Type breakdown: ops: 21 / evolution: 11 / audit-routine: 10 / audit: 7 / plan: 6 / design: 5 / semiont: 4 / analysis: 3 / evaluation: 3 / proposal: 1
+  - `2026-05-29` [homepage-evolution-D+2-watch-2026-05-29](homepage-evolution-D+2-watch-2026-05-29.md)
   - `2026-05-28` [article-segmentation-audit-2026-05-28](article-segmentation-audit-2026-05-28.md)
   - `2026-05-28` [routine-contract-rollback-2026-05-28](routine-contract-rollback-2026-05-28.md)
   - `2026-05-28` [spore-voice-drift-fix-2026-05-28](spore-voice-drift-fix-2026-05-28.md)
