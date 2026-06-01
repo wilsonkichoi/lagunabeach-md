@@ -17,22 +17,22 @@ related:
 
 ## 狀態總覽
 
-| #                       | 步驟                                                    | 誰          | 狀態 | 驗證                                 |
-| ----------------------- | ------------------------------------------------------- | ----------- | ---- | ------------------------------------ |
+| #                       | 步驟                                                    | 誰          | 狀態 | 驗證                                       |
+| ----------------------- | ------------------------------------------------------- | ----------- | ---- | ------------------------------------------ |
 | **A. Supabase backend** |
-| 1                       | 開 Supabase 專案                                        | 哲宇        | ✅   | URL live + key 認證 OK               |
-| 2                       | 跑 migration `0001_feedback.sql`                        | 哲宇        | ✅   | 両表 200 + RLS 擋匿名 insert         |
-| 3                       | 開 Email + Google + GitHub 登入                         | 哲宇 + TWMD | ✅   | 3 provider enabled / widget 3 鈕 e2e |
+| 1                       | 開 Supabase 專案                                        | 哲宇        | ✅   | URL live + key 認證 OK                     |
+| 2                       | 跑 migration `0001_feedback.sql`                        | 哲宇        | ✅   | 両表 200 + RLS 擋匿名 insert               |
+| 3                       | 開 Email + Google + GitHub 登入                         | 哲宇 + TWMD | ✅   | 3 provider enabled / widget 3 鈕 e2e       |
 | **B. 前端上線**         |
-| 4                       | merge branch → main                                     | TWMD        | ✅   | PR #1117 merged → main e90c400a3     |
-| 5                       | 設 repo Variables（mode+URL+anon key）                  | TWMD        | ✅   | 4 Variables set（gh variable list）  |
-| 6                       | deploy + 驗證 widget 在 taiwan.md live                  | TWMD        | 🔄   | deploy run 26735776667 building      |
+| 4                       | merge branch → main                                     | TWMD        | ✅   | PR #1117 merged → main e90c400a3           |
+| 5                       | 設 repo Variables（mode+URL+anon key）                  | TWMD        | ✅   | 4 Variables set（gh variable list）        |
+| 6                       | deploy + 驗證 widget 在 taiwan.md live                  | TWMD        | ✅   | v3 deploy 成功上線（phase3 deploy 中）     |
 | **C. cron triage**      |
-| 7                       | 設 `~/.taiwanmd-feedback.env`（service key）            | 哲宇        | ⬜   | triage 連得上 Supabase               |
-| 8                       | triage dry-run（真資料）                                | TWMD        | ⬜   | 讀到 status=new                      |
-| 9                       | 排 cron `twmd-feedback-triage` 07:00                    | 哲宇/TWMD   | ⬜   | scheduler list                       |
+| 7                       | 設 `~/.taiwanmd-feedback.env`（service key）            | 哲宇        | ✅   | 「env 好了」                               |
+| 8                       | triage dry-run（真資料）                                | TWMD        | ✅   | triage 連上 Supabase，讀 0 new（無真資料） |
+| 9                       | 排 cron `twmd-feedback-triage` 07:00                    | 哲宇/TWMD   | ⬜   | scheduler list                             |
 | **D. 端到端煙霧測試**   |
-| 10                      | 真送一筆 feedback → triage --commit → 看 issue + status | 哲宇+TWMD   | ⬜   | issue 開出 + status=filed            |
+| 10                      | 真送一筆 feedback → triage --commit → 看 issue + status | 哲宇+TWMD   | ⬜   | issue 開出 + status=filed                  |
 
 ---
 
