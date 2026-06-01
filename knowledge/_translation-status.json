@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-01T10:57:38+08:00",
-    "zhCommitHead": "de2bdf585",
+    "lastUpdated": "2026-06-01T11:03:19+08:00",
+    "zhCommitHead": "3db567fc5",
     "totalZh": 771,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
@@ -9987,8 +9987,8 @@
     },
     "Technology/雷亞遊戲.md": {
       "zh": {
-        "lastCommit": "decc6fc1",
-        "lastModified": "2026-05-28T23:13:26+08:00",
+        "lastCommit": "8c9a002a",
+        "lastModified": "2026-06-01T10:59:06+08:00",
         "contentHash": "sha256:d307bb82f3b9e301",
         "bodyHash": "sha256:c5aec6ca99b3567c"
       },
@@ -9996,7 +9996,7 @@
         "en": {
           "path": "en/Technology/rayark-games.md",
           "translatedFrom": "Technology/雷亞遊戲.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:d307bb82f3b9e301",
           "sourceBodyHash": "sha256:c5aec6ca99b3567c",
           "translatedAt": "2026-05-28T05:08:33+08:00",
@@ -10009,7 +10009,7 @@
         "ja": {
           "path": "ja/Technology/rayark-games.md",
           "translatedFrom": "Technology/雷亞遊戲.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:d307bb82f3b9e301",
           "sourceBodyHash": "sha256:c5aec6ca99b3567c",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -10022,7 +10022,7 @@
         "ko": {
           "path": "ko/Technology/rayark-games.md",
           "translatedFrom": "Technology/雷亞遊戲.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:d307bb82f3b9e301",
           "sourceBodyHash": "sha256:c5aec6ca99b3567c",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -10035,7 +10035,7 @@
         "es": {
           "path": "es/Technology/rayark-games.md",
           "translatedFrom": "Technology/雷亞遊戲.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:d307bb82f3b9e301",
           "sourceBodyHash": "sha256:c5aec6ca99b3567c",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -10048,7 +10048,7 @@
         "fr": {
           "path": "fr/Technology/rayark-games.md",
           "translatedFrom": "Technology/雷亞遊戲.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:d307bb82f3b9e301",
           "sourceBodyHash": "sha256:c5aec6ca99b3567c",
           "translatedAt": "2026-05-28T05:08:35+08:00",
@@ -10737,8 +10737,8 @@
     },
     "Art/臺灣漫遊錄.md": {
       "zh": {
-        "lastCommit": "decc6fc1",
-        "lastModified": "2026-05-28T23:13:26+08:00",
+        "lastCommit": "8c9a002a",
+        "lastModified": "2026-06-01T10:59:06+08:00",
         "contentHash": "sha256:04cc7caa03e151f7",
         "bodyHash": "sha256:1999959e3ea909b4"
       },
@@ -10746,7 +10746,7 @@
         "en": {
           "path": "en/Art/taiwan-travelogue.md",
           "translatedFrom": "Art/臺灣漫遊錄.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:04cc7caa03e151f7",
           "sourceBodyHash": "sha256:1999959e3ea909b4",
           "translatedAt": "2026-05-24T05:06:32+08:00",
@@ -10759,7 +10759,7 @@
         "ja": {
           "path": "ja/Art/taiwan-travelogue.md",
           "translatedFrom": "Art/臺灣漫遊錄.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:04cc7caa03e151f7",
           "sourceBodyHash": "sha256:1999959e3ea909b4",
           "translatedAt": "2026-05-24T05:06:32+08:00",
@@ -10772,7 +10772,7 @@
         "ko": {
           "path": "ko/Art/taiwan-travelogue.md",
           "translatedFrom": "Art/臺灣漫遊錄.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:04cc7caa03e151f7",
           "sourceBodyHash": "sha256:1999959e3ea909b4",
           "translatedAt": "2026-05-24T05:06:32+08:00",
@@ -10785,7 +10785,7 @@
         "es": {
           "path": "es/Art/taiwan-travelogue.md",
           "translatedFrom": "Art/臺灣漫遊錄.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:04cc7caa03e151f7",
           "sourceBodyHash": "sha256:1999959e3ea909b4",
           "translatedAt": "2026-05-24T05:06:33+08:00",
@@ -10798,7 +10798,7 @@
         "fr": {
           "path": "fr/Art/taiwan-travelogue.md",
           "translatedFrom": "Art/臺灣漫遊錄.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:04cc7caa03e151f7",
           "sourceBodyHash": "sha256:1999959e3ea909b4",
           "translatedAt": "2026-05-24T05:06:33+08:00",
@@ -11037,8 +11037,8 @@
     },
     "Art/江賢二.md": {
       "zh": {
-        "lastCommit": "decc6fc1",
-        "lastModified": "2026-05-28T23:13:26+08:00",
+        "lastCommit": "8c9a002a",
+        "lastModified": "2026-06-01T10:59:06+08:00",
         "contentHash": "sha256:3870280529c79170",
         "bodyHash": "sha256:67baf16d4a608267"
       },
@@ -11046,7 +11046,7 @@
         "en": {
           "path": "en/Art/chiang-hsien-yi.md",
           "translatedFrom": "Art/江賢二.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:3870280529c79170",
           "sourceBodyHash": "sha256:67baf16d4a608267",
           "translatedAt": "2026-05-25T21:06:51Z",
@@ -11059,7 +11059,7 @@
         "ja": {
           "path": "ja/Art/chiang-hsien-yi.md",
           "translatedFrom": "Art/江賢二.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:3870280529c79170",
           "sourceBodyHash": "sha256:67baf16d4a608267",
           "translatedAt": "2026-05-25T21:07:04Z",
@@ -11072,7 +11072,7 @@
         "ko": {
           "path": "ko/Art/chiang-hsien-yi.md",
           "translatedFrom": "Art/江賢二.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:3870280529c79170",
           "sourceBodyHash": "sha256:67baf16d4a608267",
           "translatedAt": "2026-05-25T21:07:07Z",
@@ -11085,7 +11085,7 @@
         "es": {
           "path": "es/Art/chiang-hsien-yi.md",
           "translatedFrom": "Art/江賢二.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:3870280529c79170",
           "sourceBodyHash": "sha256:67baf16d4a608267",
           "translatedAt": "2026-05-26T21:07:27Z",
@@ -11098,7 +11098,7 @@
         "fr": {
           "path": "fr/Art/chiang-hsien-yi.md",
           "translatedFrom": "Art/江賢二.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:3870280529c79170",
           "sourceBodyHash": "sha256:67baf16d4a608267",
           "translatedAt": "2026-05-25T21:07:36Z",
@@ -30718,8 +30718,8 @@
     },
     "People/尹衍樑.md": {
       "zh": {
-        "lastCommit": "decc6fc1",
-        "lastModified": "2026-05-28T23:13:26+08:00",
+        "lastCommit": "8c9a002a",
+        "lastModified": "2026-06-01T10:59:06+08:00",
         "contentHash": "sha256:232e75e6f0a55e9d",
         "bodyHash": "sha256:72b70b205da94b86"
       },
@@ -30727,7 +30727,7 @@
         "en": {
           "path": "en/People/samuel-yin-yan-liang.md",
           "translatedFrom": "People/尹衍樑.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:232e75e6f0a55e9d",
           "sourceBodyHash": "sha256:72b70b205da94b86",
           "translatedAt": "2026-05-28T05:08:33+08:00",
@@ -30740,7 +30740,7 @@
         "ja": {
           "path": "ja/People/samuel-yin-yan-liang.md",
           "translatedFrom": "People/尹衍樑.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:232e75e6f0a55e9d",
           "sourceBodyHash": "sha256:72b70b205da94b86",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -30753,7 +30753,7 @@
         "ko": {
           "path": "ko/People/samuel-yin-yan-liang.md",
           "translatedFrom": "People/尹衍樑.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:232e75e6f0a55e9d",
           "sourceBodyHash": "sha256:72b70b205da94b86",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -30766,7 +30766,7 @@
         "es": {
           "path": "es/People/samuel-yin-yan-liang.md",
           "translatedFrom": "People/尹衍樑.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:232e75e6f0a55e9d",
           "sourceBodyHash": "sha256:72b70b205da94b86",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -30779,7 +30779,7 @@
         "fr": {
           "path": "fr/People/samuel-yin-yan-liang.md",
           "translatedFrom": "People/尹衍樑.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "8c9a002a",
           "sourceContentHash": "sha256:232e75e6f0a55e9d",
           "sourceBodyHash": "sha256:72b70b205da94b86",
           "translatedAt": "2026-05-28T05:08:35+08:00",

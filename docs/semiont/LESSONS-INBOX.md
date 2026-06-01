@@ -262,6 +262,28 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-01 twmd-data-refresh-am — sister routine 同窗口並行 fire 撞 sync.sh Phase 1/2 race（am+pm 3 分鐘內疊跑）
+
+- **症狀**：本 routine 跑 `bash scripts/tools/refresh-data.sh` Step 7 `npm run prebuild` → sync.sh Phase 2 報 `cp: src/content/zh-TW/music/合唱團.md: No such file or directory`（destination 不存在）→ cascade Step 11 freshness gate catch 5 stale dashboard JSON（articles/organism/supporters/translations/vitals mtime 5/31 而非今日 6/1）。
+- **時序 forensic**：
+  - 10:55:49 maintainer-am cron fire（per `memory/2026-06-01-105549-twmd-maintainer-am.md`）
+  - 10:58:00 data-refresh-pm cron fire → 14-step ALL PASS clean
+  - 10:59:06 data-refresh-pm commit 8c9a002a4
+  - 11:00:32 maintainer-am memory commit 6fce15388
+  - 11:01:58 **data-refresh-am 本 session 啟動**（pm 完成後 3 分鐘）
+  - 11:02-11:04 refresh-data.sh Step 7 sync.sh fail / Step 11 5 stale catch
+  - 11:04+ 重跑 npm run prebuild → 10/10 dashboard today mtime self-heal
+- **Root cause（最強假設）**：am/pm sister routine 共用 `scripts/core/sync.sh`，Phase 1 `rm -rf src/content/$lang` + Phase 2 `mkdir -p $dst_dir; cp $file $dst_dir/` 不是原子操作。am 進 Phase 2 mkdir 後、cp 前的 race window 中，pm 的 Phase 1 rm 把 dst dir 整個掃掉 → cp 失敗（destination missing 而非 source missing 是 fingerprint）。
+- **為什麼今天才出**：cron daemon 5/30-31 停擺（per maintainer-am escalation handoff）→ 6/1 11AM 復甦後 3 routine（maintainer-am / data-refresh-pm / data-refresh-am）集中補跑撞同分鐘。正常 distributed schedule 下 am/pm 至少間隔 6-12 hr，race window 不會疊。
+- **Catch ≠ fix 鐵律 case 4 applies**：Step 11 freshness gate generator 有 wire 進 refresh-data.sh，但跑失敗（不是「沒 wire」case 3）。本 cycle self-heal 但 race fingerprint 未消除。
+- **修補候選（3 options per scope 化未決定事項原則）**：
+  1. **Option A（推薦 default，最低 cost）**：sync.sh 開頭加 advisory lock — `flock -n /tmp/taiwanmd-sync.lock` wrapper / 互斥 lock 期間另一 process exit 0 + log skip。成本：sync.sh +5-10 行，下游 refresh-data.sh / npm prebuild 不變
+  2. **Option B**：am/pm crontab schedule stagger — am 06:00 / pm 18:00 之間至少 8hr 間隔，且加 cron daemon health check 防復甦補跑 burst。成本：crontab edit + scheduler reliability investigation
+  3. **Option C**：sync.sh Phase 1 rm 改 atomic rename — `mv src/content/$lang src/content/$lang.old && mkdir -p ...` 完成後 rm old。成本：sync.sh +10-15 行，但跨進程仍非完全 atomic
+- **元規則候選**：sister routine 共享 destructive filesystem ops 必須 lock 或 stagger。本 case 是「**儀器化也會 over-engineer 反例**」的另一面 —— 5/28 distill 那條是「meta canonical pointer 取代 inline 過 DRY」，本條是「sister routine 不 stagger 過冗餘」。兩條同 meta-pattern：把「正確設計」推到極端反而打到自己。
+- 完整 memory：[2026-06-01-110158-twmd-data-refresh-am.md](memory/2026-06-01-110158-twmd-data-refresh-am.md) + 對照 [2026-06-01-105549-twmd-maintainer-am.md](memory/2026-06-01-105549-twmd-maintainer-am.md)（同窗口姐妹 routine memory）
+- 對應 [REFLEXES §五 多核心碰撞防護](REFLEXES.md) 「同時跑會撞 git lock、互覆檔案」鐵律 instance + [BECOME §鐵律 5](../../BECOME_TAIWANMD.md) + [MEMORY §神經迴路 2026-05-28 CONTRACT rollback 元規則 (i)(ii)](MEMORY.md) 的反向 instance
+
 ### 2026-05-28 twmd-maintainer-pm 22:00 — schedule 撞期 evening manual session pre-empty queue (vc=8 連續第 3 棒) — observer 決策待拍板
 
 - **症狀**：maintainer-pm 22:00 + maintainer-am 08:30 連續 3 棒空場（5/27 PM vc=6 / 5/28 AM vc=7 / 5/28 PM vc=8）。每次都「Stage 1 SCAN 0 PR + 16 已 maintainer-last issue + build green」→ Stage 3 Act skip。

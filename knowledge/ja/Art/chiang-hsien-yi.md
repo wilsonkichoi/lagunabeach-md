@@ -33,7 +33,7 @@ sporeLinks:
   - platform: 'threads'
     date: '2026-05-25'
     url: 'https://www.threads.com/@taiwandotmd/post/DYwhhzFgfe0'
-sourceCommitSha: 'decc6fc1'
+sourceCommitSha: '8c9a002a'
 sourceContentHash: 'sha256:3870280529c79170'
 sourceBodyHash: 'sha256:67baf16d4a608267'
 translatedAt: '2026-05-25T21:07:04Z'
