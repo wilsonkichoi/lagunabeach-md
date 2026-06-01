@@ -19,7 +19,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 7,
+    "revision": 8,
     "commitHash": "8c9a002a",
     "commitSubject": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-06-01 10:58",
     "description": "1967 年冬，二十五歲的江賢二奔赴巴黎找賈柯梅蒂，發現偶像前一年已過世。接下來四十五年，他在紐約 SoHo 把窗子封起來找心裡的光、1975 年 Lamagna 畫廊賣不出一張畫。1990 年代父親跌倒那一年，他回到龍山寺的香煙裡畫出「百年廟」。2008 年定居台東金樽是六十五歲，2025 年江賢二藝術園區開幕已經八十三歲。",
@@ -50,7 +50,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 7,
+    "revision": 8,
     "commitHash": "8c9a002a",
     "commitSubject": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-06-01 10:58",
     "description": "2015 年 6 月妹妹楊若暉過世那天，楊若慈打開她留下的帳本開始記帳，花三天才看懂打勾打圈的密碼。五年後春山出版的《臺灣漫遊錄》掛名「青山千鶴子著・楊双子譯」——譯者那欄寫的是已逝的妹妹。2024 紐約 NBA、2026 倫敦布克獎，她用妹妹的名字翻譯了一本不存在的書。",
@@ -80,11 +80,11 @@
       "城市空間"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 3,
     "commitHash": "edae9fc9",
@@ -117,11 +117,11 @@
       "發財車"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 3,
     "commitHash": "edae9fc9",
@@ -154,11 +154,11 @@
       "消費心理"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 3,
     "commitHash": "edae9fc9",
@@ -192,11 +192,11 @@
       "產業升級"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 3,
     "commitHash": "edae9fc9",
@@ -230,11 +230,11 @@
       "亞哥花園"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 3,
     "commitHash": "edae9fc9",
@@ -297,11 +297,11 @@
       "立法院"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 3,
     "commitHash": "edae9fc9",
@@ -334,7 +334,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 6,
+    "revision": 7,
     "commitHash": "8c9a002a",
     "commitSubject": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-06-01 10:58",
     "description": "2026 年 5 月 26 日清晨四點二十一分，潤泰集團總裁尹衍樑於台北榮民總醫院辭世，享壽 76 歲。從進德中學被王金平包紮傷口的鬥毆少年，到 1989 年踏進灰塵蓋過腳踝的北大、出資創辦光華管理學院，到 2012 年捐 30 億新台幣信託基金成立唐獎。獎金每項 5,000 萬新台幣，超過諾貝爾。一個剛走的台灣商人，留給世界一座比諾貝爾還貴的獎。",
@@ -344,6 +344,82 @@
     "hasOverview": true,
     "hasReading": true,
     "fnCount": 40
+  },
+  {
+    "title": "李安：兩座奧斯卡背後，那個沒能對父親好好說再見的兒子",
+    "slug": "李安",
+    "category": "people",
+    "subcategory": "電影與戲劇",
+    "date": "2026-03-17",
+    "lastModified": "2026-06-01",
+    "lastVerified": "2026-06-01",
+    "lastHumanReview": false,
+    "featured": true,
+    "wordCount": 9546,
+    "tagCount": 7,
+    "tags": [
+      "人物",
+      "李安",
+      "導演",
+      "奧斯卡",
+      "電影",
+      "跨文化",
+      "金馬獎"
+    ],
+    "translations": {
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
+    },
+    "revision": 13,
+    "commitHash": "fa062cc1",
+    "commitSubject": "🧬 [semiont] rewrite: 李安 深度 EVOLVE — 拆掉編年體 filmography 重寫成「恐懼/壓抑/父親」脊椎策展文 + 7 官方影片 iframe + 3 CC 圖",
+    "description": "2006 年奧斯卡台上，李安成為史上第一位拿下最佳導演的亞裔，他卻用國語說了「謝謝大家的關心」。世人記得兩座小金人的台灣之光，但他拍了一輩子的是壓抑、恐懼，和兩年前突然過世、一向反對他拍片的父親。從六年在家煮飯的失業女婿到威尼斯兩度金獅，他真正的對手從來不是片場，是闖不過去的自己。",
+    "healthScore": 75,
+    "qualityScore": 0,
+    "formatIssues": 0,
+    "hasOverview": true,
+    "hasReading": true,
+    "fnCount": 50
+  },
+  {
+    "title": "楊德昌",
+    "slug": "楊德昌",
+    "category": "people",
+    "subcategory": "電影與戲劇",
+    "date": "2026-03-19",
+    "lastModified": "2026-06-01",
+    "lastVerified": "2026-03-19",
+    "lastHumanReview": false,
+    "featured": true,
+    "wordCount": 1970,
+    "tagCount": 5,
+    "tags": [
+      "導演",
+      "台灣新電影",
+      "楊德昌",
+      "坎城影展",
+      "都市電影"
+    ],
+    "translations": {
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
+    },
+    "revision": 12,
+    "commitHash": "fa062cc1",
+    "commitSubject": "🧬 [semiont] rewrite: 李安 深度 EVOLVE — 拆掉編年體 filmography 重寫成「恐懼/壓抑/父親」脊椎策展文 + 7 官方影片 iframe + 3 CC 圖",
+    "description": "台灣新電影運動核心人物，坎城最佳導演，都市疏離的詩人",
+    "healthScore": 61,
+    "qualityScore": 0,
+    "formatIssues": 1,
+    "hasOverview": true,
+    "hasReading": false,
+    "fnCount": 6
   },
   {
     "title": "黃氏兄弟：在清新的標籤背後，那場被強制攤開的真實與溫柔",
@@ -366,11 +442,11 @@
       "台灣文化"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 3,
     "commitHash": "edae9fc9",
@@ -397,17 +473,17 @@
     "tagCount": 0,
     "tags": [],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
-    "revision": 1,
+    "revision": 2,
     "commitHash": "778eb211",
     "commitSubject": "🧬 [semiont] rewrite: Computex 台北國際電腦展 NEW — 45 年沿革 + 2026 AI Together 即時研究 + 台灣 AI 供應鏈定位",
     "description": "2026 年 6 月，黃仁勳站上台北的舞台說「回到家真好」，背板上印的是肉粽和豬腳。Computex 從 1981 年松山機場旁一場中小企業出口商展，長成全球 AI 巨頭每年朝聖的地方。德國 CeBIT、美國 COMDEX 都收攤了，這個 45 歲的台北電腦展卻越辦越大，因為它辦在全世界近九成 AI 伺服器真正被組裝出來的島上。",
-    "healthScore": 53,
+    "healthScore": 56,
     "qualityScore": 0,
     "formatIssues": 0,
     "hasOverview": true,
@@ -434,7 +510,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 29,
+    "revision": 30,
     "commitHash": "38412654",
     "commitSubject": "🧬 [semiont] cross-link: 為「Computex」建立雙向延伸閱讀",
     "description": "台灣護國神山靠代工稱霸全球先進製程，但快充頭裡的氮化鎵、AI 晶片下的 CoWoS、量子位元上方的稀釋冷凍機,下一個 50 年的材料科學戰場才剛擺開。",
@@ -496,7 +572,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 12,
+    "revision": 13,
     "commitHash": "8c9a002a",
     "commitSubject": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-06-01 10:58",
     "description": "2012 年六位台大電資院的年輕人湊三千萬做了《Cytus》，一個月登上 14 國排行榜第一。十四年後他們有了 Deemo 動畫、聚爆動畫十一年未交付、Sdorica 2026 年 2 月進入維護模式、2020 年 ICE 摩斯密碼事件後切割員工保住中國市場的選擇。美學讓雷亞被世界看見，也讓它在每個非音樂的場域跌倒。",
@@ -529,11 +605,11 @@
       "麵食推廣"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 1,
     "commitHash": "a0314c6e",
@@ -568,11 +644,11 @@
       "楊啟東"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
-      "fr": false
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
     },
     "revision": 1,
     "commitHash": "e03b004e",
@@ -900,7 +976,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 19,
+    "revision": 20,
     "commitHash": "5445d4c5",
     "commitSubject": "🧬 [semiont] heal: pending sweep — 馬英九「清廉」中性化 + SPORE-LOG #97/#98 evolution column",
     "description": "2015 年 11 月 7 日新加坡香格里拉，他跟習近平握手 1 分 20 秒，1949 年來兩岸最高領導人首次見面。同一張照片，台灣社會至今用兩種完全不同的方式記得：一邊看到歷史突破，一邊看到主體性讓步。他八年總統做下來的「清廉」形象、兩岸、22K 跟太陽花，加上卸任後十年的二度訪中跟 2026 年家屬聲明，到今天還沒有定論。",
@@ -1219,7 +1295,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 19,
+    "revision": 20,
     "commitHash": "1e180a59",
     "commitSubject": "🧬 [semiont] rewrite: 尹衍樑 NEW — 辭世當日紀念文 + sovereignty 透鏡 (4606 CJK / 40 footnote / 3 圖 / 7 H2)",
     "description": "1930 年生於廈門、1949 年隨國府渡台、1970 年到匹茲堡的史學家，先天肢障一生坐輪椅，卻用兩根能施力的手指敲鍵盤完成近四十部著作。2024 年第六屆唐獎漢學獎得主，獎金 5,000 萬全捐設「許-孫獎學金」；他是王力宏的七舅公、李建復的舅舅。2025 年 8 月辭世前留下一句「我嚥氣的一刻，我還在學習」。",
@@ -1298,7 +1374,7 @@
       "es": true,
       "fr": true
     },
-    "revision": 6,
+    "revision": 7,
     "commitHash": "76ef70ac",
     "commitSubject": "🧬 [routine] twmd-spore-harvest: 8 spores — 2026-05-25",
     "description": "1955 年 22 歲的鄭愁予在《夢土上》寫下「我達達的馬蹄是美麗的錯誤」，台灣讀者把它當成情詩讀了七十年。但他晚年澄清這是反戰詩，寫的是抗戰時期母親在內地等不到父親回家的場景。2005 年他從耶魯退休回台，把戶籍遷進金門縣鄭家族人的戶內。2025 年 6 月 13 日凌晨四點四十四分，他在美國因心臟衰竭辭世，享壽 91 歲。",
@@ -22968,45 +23044,6 @@
     "fnCount": 5
   },
   {
-    "title": "李安",
-    "slug": "李安",
-    "category": "people",
-    "subcategory": "電影與戲劇",
-    "date": "2026-03-17",
-    "lastModified": "2026-03-19",
-    "lastVerified": "2026-03-19",
-    "lastHumanReview": false,
-    "featured": true,
-    "wordCount": 4444,
-    "tagCount": 7,
-    "tags": [
-      "人物",
-      "李安",
-      "導演",
-      "奧斯卡",
-      "電影",
-      "跨文化",
-      "好萊塢"
-    ],
-    "translations": {
-      "en": true,
-      "ja": true,
-      "ko": true,
-      "es": true,
-      "fr": true
-    },
-    "revision": 12,
-    "commitHash": "9f958053",
-    "commitSubject": "feat: 大量精選標記 + 4 篇新文章",
-    "description": "從台灣到好萊塢，兩度奧斯卡最佳導演，跨文化敘事大師與電影技術革新者",
-    "healthScore": 70,
-    "qualityScore": 0,
-    "formatIssues": 3,
-    "hasOverview": false,
-    "hasReading": false,
-    "fnCount": 5
-  },
-  {
     "title": "李宗盛：三十年幫別人寫最好的歌，《山丘》才說自己",
     "slug": "李宗盛",
     "category": "people",
@@ -23305,43 +23342,6 @@
     "hasOverview": true,
     "hasReading": true,
     "fnCount": 5
-  },
-  {
-    "title": "楊德昌",
-    "slug": "楊德昌",
-    "category": "people",
-    "subcategory": "電影與戲劇",
-    "date": "2026-03-19",
-    "lastModified": "2026-03-19",
-    "lastVerified": "2026-03-19",
-    "lastHumanReview": false,
-    "featured": true,
-    "wordCount": 1943,
-    "tagCount": 5,
-    "tags": [
-      "導演",
-      "台灣新電影",
-      "楊德昌",
-      "坎城影展",
-      "都市電影"
-    ],
-    "translations": {
-      "en": true,
-      "ja": true,
-      "ko": true,
-      "es": true,
-      "fr": true
-    },
-    "revision": 11,
-    "commitHash": "9f958053",
-    "commitSubject": "feat: 大量精選標記 + 4 篇新文章",
-    "description": "台灣新電影運動核心人物，坎城最佳導演，都市疏離的詩人",
-    "healthScore": 61,
-    "qualityScore": 0,
-    "formatIssues": 1,
-    "hasOverview": true,
-    "hasReading": false,
-    "fnCount": 6
   },
   {
     "title": "白先勇：《台北人》1971，到青春版牡丹亭二十年巡演",

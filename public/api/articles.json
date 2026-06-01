@@ -168,6 +168,25 @@
     "path": "ko/People/mark-liu.md"
   },
   {
+    "title": "'이안: 두 개의 오스카 뒤에, 아버지에게 제대로 작별을 말하지 못한 아들'",
+    "description": "2006년 오스카 무대에서 이안은 역사상 최초로 감독상을 받은 아시아인이 되었지만, 그는 중국어로 「여러분의 관심에 감사드립니다」라고 말했다. 세상은 두 개의 황금상을 안은 대만의 빛을 기억하지만, 그가 평생 찍어 온 것은 억압과 공포, 그리고 2년 전 갑자기 세상을 떠난, 늘 그의 영화 일을 반대했던 아버지였다. 6년 동안 집에서 밥을 짓던 실직한 사위에서 베네치아 두 차례 황금사자상 수상자에 이르기까지, 그의 진정한 상대는 한 번도 촬영장이 아니라 넘어서지 못한 자기 자신이었다.",
+    "category": "ko",
+    "tags": [
+      "인물",
+      "이안",
+      "감독",
+      "오스카",
+      "영화",
+      "횡문화",
+      "금마장"
+    ],
+    "url": "https://taiwan.md/ko/People/ang-lee",
+    "readingTime": 98,
+    "featured": true,
+    "date": "2026-03-17",
+    "path": "ko/People/ang-lee.md"
+  },
+  {
     "title": "'조사 보도를 영업 항목에서 공공재로 구해낸 10년'",
     "description": "'2015년 9월 1일 기자절, 허룽싱과 장티에즈가 기자회견을 열어 통즈셴의 초기 기부금 500만 위안으로 설립된 《보도자(報導者)》를 발표했다. 10년 후, 광고를 거부하고 정부 입찰을 받지 않으며 조회수를 표시하지 않는 이 비영리 미디어의 연간 모금액은 3,400만 위안에서 5,200만 위안으로 증가했으며, 수년 연속 SOPA와 탁월 뉴스상을 수상했다. 그들이 해낸 일은 조사 보도를 상업 미디어의 영업 항목에서, 낯선 독자들의 월정액 결제로 유지되는 공공재로 구해낸 것이다.'",
     "category": "ko",
@@ -893,6 +912,24 @@
     "path": "Music/八部合音.md"
   },
   {
+    "title": "十大建設：10億ドルの外貨準備に賭けた2000億台湾ドルの大勝負",
+    "description": "1973年、台湾の外貨準備はわずか10億ドルでしたが、蔣経国は約3000億台湾ドルを投じて十大建設を推進すると発表しました。これは石油危機と外交的孤立に対応するための経済的転換であっただけでなく、日本統治期から残された構想を再包装し、国家アイデンティティへと転化する政治的叙事でもありました。",
+    "category": "ja",
+    "tags": [
+      "経済発展",
+      "蔣経国",
+      "石油危機",
+      "インフラ建設",
+      "台湾史",
+      "産業高度化"
+    ],
+    "url": "https://taiwan.md/ja/History/ten-major-construction-projects",
+    "readingTime": 20,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "ja/History/ten-major-construction-projects.md"
+  },
+  {
     "title": "十大建設：在十億美元外匯上的兩千億豪賭",
     "description": "1973年台灣外匯存底僅10億美元，蔣經國卻宣布投入約3000億台幣推動十大建設。這不僅是應對石油危機與外交孤立的經濟轉身，更是一場將日治遺留藍圖重新包裝，轉化為國家認同的政治敘事。",
     "category": "History",
@@ -1244,6 +1281,23 @@
     "featured": false,
     "date": "2026-04-10",
     "path": "ja/History/chiang-kai-shek-memorial-hall.md"
+  },
+  {
+    "title": "中華菱利：台湾経済を支える発財車",
+    "description": "1988 年に自主開発された「威利」から、軽商用車市場を二十年にわたり制覇した「菱利」まで、中華汽車はいかに日本の Minicab を現地化し、台湾の街角で最も親しまれる経済の支柱へと発展させたのでしょうか。",
+    "category": "ja",
+    "tags": [
+      "中華汽車",
+      "商用車",
+      "台湾経済",
+      "自動車産業",
+      "発財車"
+    ],
+    "url": "https://taiwan.md/ja/Economy/china-motor-veryca",
+    "readingTime": 13,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "ja/Economy/china-motor-veryca.md"
   },
   {
     "title": "中華菱利：撐起台灣經濟的發財車",
@@ -3109,6 +3163,17 @@
     "path": "ja/Art/taiwanese-cinema.md"
   },
   {
+    "title": "台湾科学園区：一枚の水田に賭け、世界の生命線を生み出し、同時に急所となりました",
+    "description": "1979 年、新竹金山面で、IBM から台湾へ戻った技術者・何宜慈は、一面の水田の上にアジア初の科学園区を築きました。四十五年後、竹科、南科、中科の年商は 5.8 兆を突破し、世界最先端の半導体チップがこの三つの園区で量産されています。しかし、この島にとって最強のお守りは、同時に最も脆弱な急所でもあります。ひとたびの干ばつ、一度の停電、一枚の地政学カードが、世界のサプライチェーン全体を息をのませる状態に追い込み得るのです。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Technology/science-park-development",
+    "readingTime": 62,
+    "featured": true,
+    "date": "2026-03-25",
+    "path": "ja/Technology/science-park-development.md"
+  },
+  {
     "title": "台湾美食の総覧：純粋に台湾料理である料理は一つもなく、どの料理も最も台湾らしいものである",
     "description": "1949年、嘉義の噴水池円環のそばで、林添寿は鶏肉をスライスして白米の上に載せ、閩南の煮汁をかけた。戦後、駐台米軍が水上空港に駐留した後、大量の七面鳥が台湾に持ち込まれ、この鶏肉飯は七面鳥肉飯へと進化した。原住民の石板焼き山豚、客家のショウガ絲炒め大腸、眷村の四川風牛肉麺から、1986年に台中で発明された珍珠奶茶、さらに2025年にミシュランが選出した419軒のレストランに至るまで。この島は400年かけて、借りてきたすべての料理を自分たちのやり方で煮上げてきた。",
     "category": "ja",
@@ -3724,6 +3789,22 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "ja/Art/taiwan-comics.md"
+  },
+  {
+    "title": "台湾総統のペット：官邸の権威主義的なシェパード犬から「ファーストキャット」の社会的共鳴まで",
+    "description": "1951年、一匹のシェパード犬が士林官邸に入り、蔣中正の護衛となりました。七十年後、蔡英文は保護猫「想想」を連れて官邸に入りました。権威主義的な護衛を象徴した軍用犬から、社会的ケアを代表する保護犬と猫へ。台湾総統のペットの変遷は、強人政治から多元的平等の民主主義へと向かったこの島の軌跡を、意図せず側面から描き出しています。",
+    "category": "ja",
+    "tags": [
+      "総統官邸",
+      "ペット政治",
+      "動物保護",
+      "台湾民主主義"
+    ],
+    "url": "https://taiwan.md/ja/Politics/taiwan-presidential-pets",
+    "readingTime": 19,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "ja/Politics/taiwan-presidential-pets.md"
   },
   {
     "title": "台湾語歌曲の進化：おじさんの歌から文青の新寵へと変貌するアイデンティティ",
@@ -4730,13 +4811,13 @@
     "path": "ja/Society/taiwan-political-landscape-and-electoral-system.md"
   },
   {
-    "title": "台湾の映像音楽：映画サウンドトラックからゲーム音楽へのサウンドエステティクス",
-    "description": "台湾の映像音楽の発展の軌跡を探る。侯孝賢と林強のコラボレーションから魏徳聖と范宗沛の壮大なサウンドトラック、そしてRayark Games（レイアゲーム）のゲーム音楽のイノベーションに至るまで、台湾はいかにして独自の映像サウンド言語を確立したのか",
+    "title": "台湾の映像音楽：画面に感情を敷くことから、一つの島の固有の音を掘り起こすことへ",
+    "description": "2001 年、カンヌで《千禧曼波》の上映が終わると、外国の観客は「Lim Giong とは誰か」と問い続けました。台湾の映像音楽は、しばしば規模がますます国際級になったものとして語られます。シドニー交響楽団、アカデミー賞、カンヌ。しかしその本当の成熟は技術の高度化にあるのではなく、作曲家がどこから素材を取るかにあります。1980 年代にハリウッド風の管弦楽を模倣するところから、月琴、歌仔戲、嗩吶による葬送音楽、そして平埔族から採集された古い旋律へと身を翻して潜り込んでいったのです。土地に根ざした音こそが、かえってこの島を世界に認識させました。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Music/taiwan-screen-scoring-from-cinema-to-games",
-    "readingTime": 28,
-    "featured": true,
+    "readingTime": 63,
+    "featured": false,
     "date": "2026-03-19",
     "path": "ja/Music/taiwan-screen-scoring-from-cinema-to-games.md"
   },
@@ -5664,6 +5745,22 @@
     "path": "ja/Music/taiwan-soundscape.md"
   },
   {
+    "title": "台湾のストリート・グラフィティ：深夜のアウトローから西門町の都市の光へ",
+    "description": "1989年、呂学淵が民生東路に最初の線をスプレーで描き、台湾グラフィティの地下史が始まりました。大腸王の都市伝説からCandy Birdの社会批判まで、環境保護局との30年にわたる追走劇は、台湾の都市美学を再定義しつつあります。",
+    "category": "ja",
+    "tags": [
+      "ストリートアート",
+      "大腸王",
+      "サブカルチャー",
+      "都市空間"
+    ],
+    "url": "https://taiwan.md/ja/Art/graffiti-and-street-art-in-taiwan",
+    "readingTime": 11,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "ja/Art/graffiti-and-street-art-in-taiwan.md"
+  },
+  {
     "title": "台湾のストリートアートとグラフィティ文化",
     "description": "アンダーグラウンドのグラフィティから合法な壁画まで、都市の壁が台湾のアーティストたちの創作の舞台になるまで",
     "category": "ja",
@@ -5985,7 +6082,7 @@
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Technology/taiwan-robotics-industry",
-    "readingTime": 31,
+    "readingTime": 32,
     "featured": true,
     "date": "2026-05-02",
     "path": "ja/Technology/taiwan-robotics-industry.md"
@@ -11593,8 +11690,19 @@
     "path": "ja/People/lee-da-hye.md"
   },
   {
-    "title": "李安",
-    "description": "從台灣到好萊塢，兩度奧斯卡最佳導演，跨文化敘事大師與電影技術革新者",
+    "title": "李安：二つのアカデミー賞の背後にいた、父にきちんと別れを告げられなかった息子",
+    "description": "2006 年のアカデミー賞の舞台で、李安は史上初めて監督賞を受賞したアジア人となりましたが、彼は中国語で「皆さんのご配慮に感謝します」と語りました。世間は二つのオスカー像を手にした「台湾の光」として彼を記憶していますが、彼が生涯撮り続けてきたのは、抑圧、恐怖、そして 2 年前に突然亡くなり、長年彼の映画制作に反対していた父でした。6 年間家で料理を作っていた失業中の婿から、ヴェネツィアで二度の金獅子賞を受けるまで、彼にとって本当の相手は撮影現場ではなく、乗り越えられない自分自身でした。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/People/ang-lee",
+    "readingTime": 88,
+    "featured": true,
+    "date": "2026-03-17",
+    "path": "ja/People/ang-lee.md"
+  },
+  {
+    "title": "李安：兩座奧斯卡背後，那個沒能對父親好好說再見的兒子",
+    "description": "2006 年奧斯卡台上，李安成為史上第一位拿下最佳導演的亞裔，他卻用國語說了「謝謝大家的關心」。世人記得兩座小金人的台灣之光，但他拍了一輩子的是壓抑、恐懼，和兩年前突然過世、一向反對他拍片的父親。從六年在家煮飯的失業女婿到威尼斯兩度金獅，他真正的對手從來不是片場，是闖不過去的自己。",
     "category": "People",
     "tags": [
       "人物",
@@ -11603,10 +11711,10 @@
       "奧斯卡",
       "電影",
       "跨文化",
-      "好萊塢"
+      "金馬獎"
     ],
     "url": "https://taiwan.md/People/%E6%9D%8E%E5%AE%89",
-    "readingTime": 24,
+    "readingTime": 67,
     "featured": true,
     "date": "2026-03-17",
     "path": "People/李安.md"
@@ -14401,17 +14509,6 @@
     "path": "Economy/台灣企業：研華科技.md"
   },
   {
-    "title": "科学園区の発展",
-    "description": "稲田の上の賭けから年間生産額五兆円の「シリコンシールド」へ——台湾三大科学園区が45年間で世界の地図を書き換えた物語",
-    "category": "ja",
-    "tags": [],
-    "url": "https://taiwan.md/ja/Technology/science-park-development",
-    "readingTime": 26,
-    "featured": true,
-    "date": "2026-03-25",
-    "path": "ja/Technology/science-park-development.md"
-  },
-  {
     "title": "紀政：10つの世界記録を打ち立て、50年後も台湾の正名のために走り続ける",
     "description": "1944年3月15日、新竹に生まれた紀政は「飛躍の羚羊」として台湾陸上競技史上最も傑出した女子選手となった。1968年メキシコオリンピックにおいて、80メートルハードルで10秒51の銅メダルを獲得し、台湾初の女子オリンピック陸上メダルとなった。キャリアを通じて10つの世界記録を樹立した。引退後はランニングの普及に尽力し、80代を超えた現在も台湾の正名運動の現場で活躍を続けている。",
     "category": "ja",
@@ -15171,6 +15268,17 @@
     "featured": false,
     "date": "2026-06-01",
     "path": "History/消失的遊樂園.md"
+  },
+  {
+    "title": "消えた遊園地：「第一楽園」から幽霊伝説まで、都市計画に奪われた子ども時代",
+    "description": "1972 年、台湾初のテーマパーク「大同水上楽園」が板橋で開業し、台湾で二十年にわたる「大楽園時代」の幕を開けました。陳釗炳が自ら皿を運んだほどの盛況から、カドリー楽園のレール断裂の噂まで、これらの遊園地が一斉に姿を消したのは、単に施設が老朽化したためではなく、台湾の都市拡張とレジャー産業転換の縮図でした。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/History/taiwan-defunct-amusement-parks",
+    "readingTime": 15,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "ja/History/taiwan-defunct-amusement-parks.md"
   },
   {
     "title": "特有種",
@@ -17626,6 +17734,22 @@
     "path": "ja/Food/heysong-soft-drinks.md"
   },
   {
+    "title": "傅崐萁：後山の「花蓮王」から国会「総召」へ至る権力の螺旋",
+    "description": "1990 年代に株式市場の大物「凱聚小傅」と呼ばれた時期から、2001 年の国会進出、2009 年の花蓮掌握に至るまで、傅崐萁は後山に二十年にわたり、中央さえ揺るがしにくい「傅家王朝」を築きました。株価操作事件で在職のまま収監され、偽装離婚で妻を副県長に任命し、2024 年には立法院に復帰して国民党団総召を務め、代表団を率いて訪中しました。彼は台湾政界における権力の粘り強さと争議性の極致を示しています。",
+    "category": "ja",
+    "tags": [
+      "花蓮",
+      "政治家",
+      "国民党",
+      "立法院"
+    ],
+    "url": "https://taiwan.md/ja/People/fu-kun-chi",
+    "readingTime": 10,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "ja/People/fu-kun-chi.md"
+  },
+  {
     "title": "傅崐萁：從後山「花蓮王」到國會「總召」的權力螺旋",
     "description": "從 1990 年代的股市巨賈「凱聚小傅」，到 2001 年踏入國會、2009 年入主花蓮，傅崐萁在後山建立起長達二十年、連中央都難以撼動的「傅家王朝」。從炒股案帶職入監、假離婚任命妻子為副縣長，到 2024 年重返立法院擔任國民黨團總召並率團訪中，他展現了台灣政壇最極致的權力韌性與爭議。",
     "category": "People",
@@ -18446,6 +18570,17 @@
     "path": "ja/People/huang-shao-yong-musician.md"
   },
   {
+    "title": "黄氏兄弟：清新というラベルの背後にあった、強制的に広げられた真実と優しさ",
+    "description": "2017 年の一本のドッキリ動画から始まり、黄氏兄弟は「清新で、ポジティブ」というイメージで YouTube 界に頭角を現しました。しかし 2020 年の強制アウティング報道により、この兄弟はチャンネル登録者数 100 万人超の頂点にいた時期に、カメラの前でプライバシーを解体することを余儀なくされました。それは同時に、台湾社会がジェンダー平等に対して示した、最も優しい集団的応答の一つを思いがけず描き出すことにもなりました。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/People/huang-brothers-youtubers",
+    "readingTime": 18,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "ja/People/huang-brothers-youtubers.md"
+  },
+  {
     "title": "黄玉嬌",
     "description": "1977年の中壢事件の最中、彼女は警察署の門の前で群衆に冷静さを呼びかけた——58歳の留日薬師であり、後に4期連続で台湾省議員に選出され、民主進歩党の創党メンバーとなった人物であるにもかかわらず、歴史的語りの中で長らく無視されてきた。",
     "category": "ja",
@@ -19022,6 +19157,25 @@
     "path": "People/楊維哲.md"
   },
   {
+    "title": "楊維哲：微積分から母語へ、数学界のパフォーミング・アーティスト",
+    "description": "台湾大学数学科名誉教授の楊維哲は、短パン、自転車、台湾語での授業で知られています。著名な画家・楊啓東の子として生まれた彼は、父命に背いて医学を捨て数学へ進み、1997 年には台湾語による授業をめぐって「違憲」論争を引き起こしました。彼は数学オリンピック推進の担い手であるだけでなく、陳文成事件における揺るぎない抵抗者でもあり、生涯を通じて論理と文化的主体性のあいだで「パフォーミング・アート」を実践しました。",
+    "category": "ja",
+    "tags": [
+      "数学",
+      "台湾語",
+      "台湾大学",
+      "教育",
+      "楊維哲",
+      "陳文成",
+      "楊啓東"
+    ],
+    "url": "https://taiwan.md/ja/People/yang-wei-cher",
+    "readingTime": 17,
+    "featured": false,
+    "date": "2026-05-30",
+    "path": "ja/People/yang-wei-cher.md"
+  },
+  {
     "title": "楊德昌",
     "description": "台灣新電影運動核心人物，坎城最佳導演，都市疏離的詩人",
     "category": "People",
@@ -19033,7 +19187,7 @@
       "都市電影"
     ],
     "url": "https://taiwan.md/People/%E6%A5%8A%E5%BE%B7%E6%98%8C",
-    "readingTime": 10,
+    "readingTime": 11,
     "featured": true,
     "date": "2026-03-19",
     "path": "People/楊德昌.md"
@@ -23091,61 +23245,37 @@
     "path": "en/People/andre-chiang-taiwanese-culinary-innovator.md"
   },
   {
-    "title": "Ang Lee",
-    "description": "From Taiwan to Hollywood, two-time Oscar Best Director winner, master of cross-cultural narrative and innovator in cinematic technology",
+    "title": "Ang Lee : derrière deux Oscars, le fils qui n’a pas pu dire vraiment adieu à son père",
+    "description": "Sur la scène des Oscars 2006, Ang Lee devint le premier Asiatique de l’histoire à remporter l’Oscar du meilleur réalisateur, mais c’est en mandarin qu’il dit : « Merci à tous pour votre sollicitude. » Le monde se souvient de cette fierté taïwanaise aux deux statuettes dorées ; pourtant, ce qu’il a filmé toute sa vie, ce sont la répression, la peur et ce père soudainement disparu deux ans plus tôt, qui s’était toujours opposé à ce qu’il fasse du cinéma. Du gendre sans emploi qui passa six ans à cuisiner à la maison au double Lion d’or de Venise, son véritable adversaire n’a jamais été le plateau de tournage, mais ce lui-même qu’il n’arrivait pas à traverser.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/People/ang-lee",
+    "readingTime": 198,
+    "featured": true,
+    "date": "2026-03-17",
+    "path": "fr/People/ang-lee.md"
+  },
+  {
+    "title": "Ang Lee: Behind Two Oscars, the Son Who Never Properly Said Goodbye to His Father",
+    "description": "On the Oscar stage in 2006, Ang Lee became the first Asian in history to win Best Director, yet in Mandarin he said, 'Thank you all for your concern.' The world remembers Taiwan's pride and his two golden statuettes, but what he spent a lifetime filming was repression, fear, and the father who had always opposed his filmmaking and suddenly died two years earlier. From an unemployed son-in-law who cooked at home for six years to a two-time Venice Golden Lion winner, his real opponent was never the film set. It was the self he could not get past.",
     "category": "en",
-    "tags": [
-      "人物",
-      "李安",
-      "導演",
-      "奧斯卡",
-      "電影",
-      "跨文化",
-      "好萊塢"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/People/ang-lee",
-    "readingTime": 80,
+    "readingTime": 182,
     "featured": true,
     "date": "2026-03-17",
     "path": "en/People/ang-lee.md"
   },
   {
-    "title": "Ang Lee",
-    "description": "De Taiwán a Hollywood: dos veces ganador del Óscar a mejor director, maestro de la narración transcultural e innovador de la tecnología cinematográfica",
+    "title": "Ang Lee: detrás de dos Óscar, el hijo que no pudo despedirse bien de su padre",
+    "description": "En el escenario de los Óscar de 2006, Ang Lee se convirtió en el primer asiático de la historia en ganar el premio a mejor director, pero dijo en mandarín: «Gracias a todos por su preocupación». El mundo recuerda al orgullo de Taiwán y sus dos estatuillas, pero lo que él filmó durante toda su vida fue la represión, el miedo y a su padre, que murió repentinamente dos años antes y que siempre se había opuesto a que hiciera cine. Desde el yerno desempleado que pasó seis años cocinando en casa hasta el dos veces León de Oro en Venecia, su verdadero adversario nunca estuvo en el set, sino en ese yo interior que no lograba atravesar.",
     "category": "es",
-    "tags": [
-      "personas",
-      "Ang Lee",
-      "director",
-      "Óscar",
-      "cine",
-      "transcultural",
-      "Hollywood"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/es/People/ang-lee",
-    "readingTime": 89,
+    "readingTime": 190,
     "featured": true,
     "date": "2026-03-17",
     "path": "es/People/ang-lee.md"
-  },
-  {
-    "title": "Ang Lee",
-    "description": "De Taïwan à Hollywood, deux fois Oscar du meilleur réalisateur, maître du récit transculturel et innovateur des techniques cinématographiques",
-    "category": "fr",
-    "tags": [
-      "personnalité",
-      "Ang Lee",
-      "réalisateur",
-      "Oscars",
-      "cinéma",
-      "transculturel",
-      "Hollywood"
-    ],
-    "url": "https://taiwan.md/fr/People/ang-lee",
-    "readingTime": 91,
-    "featured": true,
-    "date": "2026-03-17",
-    "path": "fr/People/ang-lee.md"
   },
   {
     "title": "Annette Lu",
@@ -23179,6 +23309,17 @@
     "featured": false,
     "date": "2026-03-22",
     "path": "en/People/annette-lu.md"
+  },
+  {
+    "title": "Apple Bread: Feeding a Modernization Illusion on an Island Without Apples",
+    "description": "This was not merely a piece of bread, but a modernization experiment in 1960s Taiwan under the shadow of U.S. aid, woven from flour, symbols, and resilience. Retired Major Liu Che-chi used the luxury metaphor of the apple and Japanese dehydration technology to transform what had been austere military rations into a national memory spanning generations, revealing how postwar Taiwanese society used substitutes to bridge the gap between aspiration and reality.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Food/taiwan-apple-bread",
+    "readingTime": 42,
+    "featured": false,
+    "date": "2026-05-30",
+    "path": "en/Food/taiwan-apple-bread.md"
   },
   {
     "title": "Apple Sidra : de boisson gazeuse nationale à tempête capitalistique, comment un goût taïwanais sexagénaire renaît",
@@ -23697,6 +23838,17 @@
     "featured": false,
     "date": "2026-04-27",
     "path": "es/Music/labor-exchange-band.md"
+  },
+  {
+    "title": "Bandas sonoras audiovisuales de Taiwán: de cubrir la imagen con emoción a excavar el sonido propio de una isla",
+    "description": "En 2001, tras la proyección de Millennium Mambo en Cannes, el público extranjero preguntaba: «¿Quién es Lim Giong?». La música para cine y audiovisual de Taiwán suele narrarse como una historia de especificaciones cada vez más internacionales: la Orquesta Sinfónica de Sídney, los Oscar, Cannes. Pero su verdadera madurez no está en la mejora técnica, sino en el lugar del que los compositores extraen sus materiales: desde la orquestación de los años ochenta que imitaba a Hollywood, hasta un giro hacia el yueqin, la ópera gezaixi, la música fúnebre de suona y una antigua melodía recopilada entre los pueblos pingpu. Los sonidos locales, paradójicamente, hicieron que el mundo reconociera a esta isla.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Music/taiwan-screen-scoring-from-cinema-to-games",
+    "readingTime": 147,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "es/Music/taiwan-screen-scoring-from-cinema-to-games.md"
   },
   {
     "title": "Bangka : le lieu le plus animé du Taipei sous les Qing est aujourd'hui le district dont l'âge moyen est le plus élevé à Taipei",
@@ -25702,6 +25854,17 @@
     "path": "en/Economy/chimei-corporation-plastics-empire-and-museum-dreams.md"
   },
   {
+    "title": "China Motor Veryca: la camioneta de prosperidad que sostiene la economía de Taiwán",
+    "description": "Desde la Varica, desarrollada de forma autónoma en 1988, hasta la Veryca, que dominó durante dos décadas el mercado de vehículos comerciales ligeros, ¿cómo localizó China Motor el Minicab japonés hasta convertirlo en el pilar económico más familiar de las calles y callejones de Taiwán?",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Economy/china-motor-veryca",
+    "readingTime": 33,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "es/Economy/china-motor-veryca.md"
+  },
+  {
     "title": "China Steel : le « ministre de fer » et la légende de l'acier des Dix Grands Projets",
     "description": "Des négociations de Zhao Yaodong en Europe et aux États-Unis pour obtenir la technologie, à la première fumée blanche s'élevant à Siaogang, Kaohsiung, China Steel a mis 50 ans à bâtir l'épine dorsale de l'industrie lourde taïwanaise, devenant la perle la plus brillante des Dix Grands Projets",
     "category": "fr",
@@ -26279,6 +26442,28 @@
     "path": "es/Geography/taoyuan-city.md"
   },
   {
+    "title": "CMC Veryca : le « véhicule de prospérité » qui soutient l'économie taïwanaise",
+    "description": "De la Varica, développée en interne en 1988, à la Veryca, dominante sur le marché des utilitaires légers pendant vingt ans, comment China Motor a-t-elle localisé le Minicab japonais pour en faire le pilier économique le plus familier des rues et ruelles de Taïwan ?",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Economy/china-motor-veryca",
+    "readingTime": 35,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "fr/Economy/china-motor-veryca.md"
+  },
+  {
+    "title": "CMC Veryca: The Fortune Van That Keeps Taiwan's Economy Moving",
+    "description": "From the independently developed Varica in 1988 to the Veryca, which dominated the light commercial vehicle market for two decades, how did China Motor localize Japan's Minicab and turn it into the economic mainstay most familiar on Taiwan's streets and alleys?",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Economy/china-motor-veryca",
+    "readingTime": 28,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "en/Economy/china-motor-veryca.md"
+  },
+  {
     "title": "Cocina de las villas de dependientes militares en Taiwán",
     "description": "Los sabores de distintas provincias traídos por la gran migración de 1949, desde las cocinas dentro de las cercas de bambú hasta la preservación del gusto tras la demolición de las villas de dependientes militares",
     "category": "es",
@@ -26413,6 +26598,61 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "fr/Economy/compal-electronics-global-odm-leader.md"
+  },
+  {
+    "title": "Computex : deux des trois grands salons internationaux de l’informatique ont disparu ; celui qui reste a poussé à Taipei",
+    "description": "En juin 2026, Jensen Huang est monté sur scène à Taipei et a déclaré : « Que c’est bon de rentrer à la maison » ; sur le panneau derrière lui figuraient des zongzi à la viande et des jarrets de porc. Depuis un salon d’exportation pour PME organisé en 1981 près de l’aéroport de Songshan, Computex est devenu le lieu où les géants mondiaux de l’IA viennent chaque année en pèlerinage. Le CeBIT allemand et le COMDEX américain ont fermé leurs portes ; ce salon informatique de Taipei, âgé de 45 ans, ne cesse pourtant de grandir, parce qu’il se tient sur l’île où près de 90 % des serveurs d’IA du monde sont effectivement assemblés.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Technology/computex-taipei",
+    "readingTime": 140,
+    "featured": true,
+    "date": "2026-06-01",
+    "path": "fr/Technology/computex-taipei.md"
+  },
+  {
+    "title": "Computex: 3대 국제 컴퓨터 전시회 중 두 곳은 막을 내렸고, 남은 하나는 타이베이에서 자랐다",
+    "description": "2026년 6월, 젠슨 황은 타이베이 무대에 올라 “집에 돌아오니 정말 좋다”고 말했고, 뒤편 화면에는 러우쭝과 돼지족발이 인쇄되어 있었다. Computex는 1981년 쑹산공항 옆에서 열린 중소기업 수출 전시회에서 출발해, 전 세계 AI 거물들이 해마다 성지순례하듯 찾는 장소로 성장했다. 독일 CeBIT와 미국 COMDEX는 모두 문을 닫았지만, 45세가 된 이 타이베이 컴퓨터 전시회는 오히려 더 커지고 있다. 전 세계 AI 서버의 거의 90%가 실제로 조립되는 섬에서 열리기 때문이다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Technology/computex-taipei",
+    "readingTime": 66,
+    "featured": true,
+    "date": "2026-06-01",
+    "path": "ko/Technology/computex-taipei.md"
+  },
+  {
+    "title": "Computex: de las tres grandes ferias internacionales de computación, dos cerraron; la que queda creció en Taipéi",
+    "description": "En junio de 2026, Jensen Huang subió a un escenario en Taipéi y dijo: «Qué bueno volver a casa»; en la pantalla de fondo aparecían zongzi de carne y manitas de cerdo. Computex pasó de ser, en 1981, una feria de exportación para pequeñas y medianas empresas junto al aeropuerto de Songshan, a convertirse en el lugar de peregrinación anual de los gigantes globales de la IA. La CeBIT alemana y la COMDEX estadounidense cerraron; esta feria de computación de Taipéi, con 45 años de historia, sigue creciendo porque se realiza en la isla donde se ensamblan realmente casi nueve de cada diez servidores de IA del mundo.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Technology/computex-taipei",
+    "readingTime": 142,
+    "featured": true,
+    "date": "2026-06-01",
+    "path": "es/Technology/computex-taipei.md"
+  },
+  {
+    "title": "Computex: Of the Three Major International Computer Shows, Two Have Closed; the Remaining One Grew in Taipei",
+    "description": "In June 2026, Jensen Huang took the stage in Taipei and said, “It is good to be home,” with a backdrop printed with rice dumplings and pork knuckle. Computex began in 1981 as an export trade show for small and medium-sized enterprises beside Songshan Airport, and grew into the place where global AI giants make their annual pilgrimage. Germany's CeBIT and the United States' COMDEX have both shut down, yet this 45-year-old Taipei computer show keeps getting bigger, because it is held on the island where nearly 90 percent of the world's AI servers are actually assembled.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Technology/computex-taipei",
+    "readingTime": 131,
+    "featured": true,
+    "date": "2026-06-01",
+    "path": "en/Technology/computex-taipei.md"
+  },
+  {
+    "title": "Computex：三大国際コンピューター展示会のうち二つは幕を閉じ、残った一つは台北で育ちました",
+    "description": "2026 年 6 月、黄仁勳は台北の舞台に立ち、「回到家真好」と語りました。背面パネルに印刷されていたのは肉粽と豚足でした。Computex は 1981 年、松山空港そばで開かれた中小企業向け輸出商談会から、世界の AI 巨頭が毎年巡礼する場へと成長しました。ドイツの CeBIT、米国の COMDEX はいずれも幕を閉じましたが、45 歳を迎えたこの台北のコンピューター展示会は、むしろ規模を拡大し続けています。なぜなら、世界の AI サーバーの約 9 割が実際に組み立てられる島で開催されているからです。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Technology/computex-taipei",
+    "readingTime": 61,
+    "featured": true,
+    "date": "2026-06-01",
+    "path": "ja/Technology/computex-taipei.md"
   },
   {
     "title": "Computex：三大國際電腦展收了兩個，剩下的那個長在台北",
@@ -27871,17 +28111,6 @@
     "path": "es/Culture/taiwan-cultural-creative-park-development.md"
   },
   {
-    "title": "Desarrollo de parques científicos",
-    "description": "De una apuesta sobre un arrozal al escudo de silicio con una producción anual de cinco billones de dólares — cómo los tres grandes parques científicos de Taiwán reescribieron el mapa tecnológico mundial en cuarenta y cinco años",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/Technology/science-park-development",
-    "readingTime": 75,
-    "featured": true,
-    "date": "2026-03-25",
-    "path": "es/Technology/science-park-development.md"
-  },
-  {
     "title": "Desarrollo del hip hop y el rap en Taiwán",
     "description": "De Dwagie y MC HotDog a MJ116, Soft Lipa y Leo Wang: la localización de la cultura hip hop taiwanesa y su reconocimiento en los Golden Melody Awards",
     "category": "es",
@@ -28115,17 +28344,6 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "fr/Culture/taiwan-cultural-creative-park-development.md"
-  },
-  {
-    "title": "Développement des parcs scientifiques",
-    "description": "Du pari d'une rizière au bouclier de silicium d'une production annuelle de cinq milliards de dollars — comment les trois grands parcs scientifiques de Taïwan ont réécrit la carte technologique mondiale en quarante-cinq ans",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Technology/science-park-development",
-    "readingTime": 78,
-    "featured": true,
-    "date": "2026-03-25",
-    "path": "fr/Technology/science-park-development.md"
   },
   {
     "title": "Développement du hip-hop et du rap à Taïwan",
@@ -28611,18 +28829,23 @@
     "title": "Edward Yang",
     "description": "A central figure of the Taiwan New Cinema movement, Cannes Best Director winner, and poet of urban alienation",
     "category": "en",
-    "tags": [
-      "Director",
-      "Taiwan New Cinema",
-      "Edward Yang",
-      "Cannes Film Festival",
-      "Urban Cinema"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/People/yang-dechang",
     "readingTime": 35,
     "featured": true,
     "date": "2026-03-19",
     "path": "en/People/yang-dechang.md"
+  },
+  {
+    "title": "Egg Tarts: From Macao Monasteries to Taiwan’s Collective Memory of “Swarming”",
+    "description": "The explosive rise and collapse of Taiwan’s 1998 “egg tart frenzy” not only defined the island’s “swarming” consumer behavior, but also forced KFC in Taiwan to become “an egg tart shop delayed by fried chicken.”",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Food/portuguese-egg-tart-in-taiwan",
+    "readingTime": 40,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "en/Food/portuguese-egg-tart-in-taiwan.md"
   },
   {
     "title": "EggPlantEgg — le groupe qui a réinventé la chanson taïwanaise",
@@ -30489,6 +30712,54 @@
     "path": "en/People/nymphia-wind-drag-queen.md"
   },
   {
+    "title": "Fu Kun-chi : du « roi de Hualien » du Houshan au « chef de groupe » parlementaire, la spirale du pouvoir",
+    "description": "Du grand opérateur boursier des années 1990 surnommé « Xiao Fu de Kaiju » à son entrée au Parlement en 2001, puis à sa prise de contrôle de Hualien en 2009, Fu Kun-chi a bâti dans le Houshan une « dynastie Fu » longue de vingt ans, difficile à ébranler même pour le pouvoir central. De son incarcération tout en conservant son mandat dans une affaire de manipulation boursière, à son faux divorce pour nommer son épouse vice-magistrate, jusqu’à son retour au Yuan législatif en 2024 comme chef du groupe parlementaire du Kuomintang et sa conduite d’une délégation en Chine, il incarne l’une des formes les plus extrêmes de résilience du pouvoir et de controverse dans la vie politique taïwanaise.",
+    "category": "fr",
+    "tags": [
+      "Hualien",
+      "personnalités politiques",
+      "Kuomintang",
+      "Yuan législatif"
+    ],
+    "url": "https://taiwan.md/fr/People/fu-kun-chi",
+    "readingTime": 28,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "fr/People/fu-kun-chi.md"
+  },
+  {
+    "title": "Fu Kun-chi: la espiral de poder desde el «rey de Hualien» de Houshan hasta el «jefe de bancada» en el Parlamento",
+    "description": "Desde el magnate bursátil de los años 1990 conocido como «el pequeño Fu de Kaiju», hasta su ingreso al Parlamento en 2001 y su llegada al gobierno de Hualien en 2009, Fu Kun-chi construyó en Houshan una «dinastía Fu» de dos décadas que ni siquiera el poder central ha logrado sacudir fácilmente. Desde ingresar a prisión sin dejar el cargo por un caso de manipulación bursátil, pasando por un divorcio simulado para nombrar a su esposa vicegobernadora, hasta su regreso en 2024 al Yuan Legislativo como jefe de la bancada del Kuomintang y su liderazgo de una delegación a China, ha exhibido una de las formas más extremas de resiliencia del poder y controversia en la política taiwanesa.",
+    "category": "es",
+    "tags": [
+      "Hualien",
+      "figuras políticas",
+      "Kuomintang",
+      "Yuan Legislativo"
+    ],
+    "url": "https://taiwan.md/es/People/fu-kun-chi",
+    "readingTime": 30,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "es/People/fu-kun-chi.md"
+  },
+  {
+    "title": "Fu Kun-chi: The Spiral of Power from the East Coast's 'Hualien King' to Legislative Caucus Convener",
+    "description": "From the 1990s stock-market magnate known as 'Kai Ju Little Fu,' to entering the legislature in 2001 and taking control of Hualien in 2009, Fu Kun-chi built on Taiwan's east coast a two-decade 'Fu family dynasty' that even the central government found difficult to shake. From serving prison time while still holding office in a stock-manipulation case and staging a sham divorce to appoint his wife as deputy county magistrate, to returning to the Legislative Yuan in 2024 as Kuomintang caucus convener and leading a delegation to China, he has embodied one of the most extreme cases of resilience and controversy in Taiwanese politics.",
+    "category": "en",
+    "tags": [
+      "Hualien",
+      "politician",
+      "Kuomintang",
+      "Legislative Yuan"
+    ],
+    "url": "https://taiwan.md/en/People/fu-kun-chi",
+    "readingTime": 26,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "en/People/fu-kun-chi.md"
+  },
+  {
     "title": "Fubon Financial Holdings : l'empire financier des frères Tsai",
     "description": "De 10 à 60 000 employés : comment les frères Tsai ont bâti en 60 ans le plus grand empire financier de Taïwan",
     "category": "fr",
@@ -30644,6 +30915,38 @@
     "featured": false,
     "date": "2026-05-21",
     "path": "es/Geography/gongguan.md"
+  },
+  {
+    "title": "Graffiti de rue à Taïwan : des hors-la-loi de la nuit aux lumières urbaines de Ximending",
+    "description": "En 1989, Lü Xueyuan traça à la bombe la première ligne sur Minsheng East Road, ouvrant l'histoire souterraine du graffiti taïwanais. De la légende urbaine de Horumon King à la critique sociale de Candy Bird, ce jeu de poursuite avec les services de protection de l'environnement, mené depuis trente ans, redéfinit aujourd'hui l'esthétique urbaine de Taïwan.",
+    "category": "fr",
+    "tags": [
+      "art de rue",
+      "Horumon King",
+      "sous-culture",
+      "espace urbain"
+    ],
+    "url": "https://taiwan.md/fr/Art/graffiti-and-street-art-in-taiwan",
+    "readingTime": 29,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "fr/Art/graffiti-and-street-art-in-taiwan.md"
+  },
+  {
+    "title": "Grafiti callejero en Taiwán: de forajidos nocturnos a luces urbanas de Ximending",
+    "description": "En 1989, Lu Xueyuan trazó la primera línea con aerosol en Minsheng East Road, inaugurando la historia subterránea del grafiti en Taiwán. Desde la leyenda urbana de Horumon Baby hasta la crítica social de Candy Bird, este juego de persecución de treinta años con la Oficina de Protección Ambiental está redefiniendo la estética urbana taiwanesa.",
+    "category": "es",
+    "tags": [
+      "arte callejero",
+      "Horumon Baby",
+      "subcultura",
+      "espacio urbano"
+    ],
+    "url": "https://taiwan.md/es/Art/graffiti-and-street-art-in-taiwan",
+    "readingTime": 27,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "es/Art/graffiti-and-street-art-in-taiwan.md"
   },
   {
     "title": "Green Island Prison: Layered Memories from Political Black Jail to the Homeland of Big Brothers",
@@ -31106,6 +31409,17 @@
     "featured": false,
     "date": "2026-03-29",
     "path": "fr/People/henry-lee-forensic.md"
+  },
+  {
+    "title": "Hermanos Huang: detrás de la etiqueta de frescura, la verdad y la ternura obligadas a quedar expuestas",
+    "description": "A partir de un video de broma publicado en 2017, los Hermanos Huang se abrieron paso en el ecosistema de YouTube con una imagen “fresca y positiva”. Sin embargo, en 2020, un reportaje que forzó una salida del clóset llevó a estos dos hermanos, en la cima del millón de suscriptores, a desarmar su intimidad frente a la cámara; al mismo tiempo, delineó de manera inesperada una de las respuestas colectivas más amables de la sociedad taiwanesa ante la igualdad de género.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/People/huang-brothers-youtubers",
+    "readingTime": 45,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "es/People/huang-brothers-youtubers.md"
   },
   {
     "title": "HeySong Sarsaparilla: From a Mocked 'Third-Rate' Drink to the Century-Long Legend That Defeated the Cola Giants",
@@ -32130,6 +32444,17 @@
     "path": "en/Geography/hualien-county.md"
   },
   {
+    "title": "Huang Brothers: Behind the Fresh-Faced Label, the Reality and Tenderness Forced into the Open",
+    "description": "Beginning with a prank video in 2017, the Huang Brothers broke through Taiwan's YouTube scene with a “fresh, positive” image. Yet a forced-outing report in 2020 pushed the brothers, then at the peak of one million subscribers, to dissect their privacy before the camera, while unexpectedly tracing one of Taiwanese society's gentlest collective responses to gender equality.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/People/huang-brothers-youtubers",
+    "readingTime": 40,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "en/People/huang-brothers-youtubers.md"
+  },
+  {
     "title": "Huang Chun-ming : Luodong 1935, de Jours à regarder la mer à La grande poupée de son fils, l'écrivain des petites gens",
     "description": "Né le 13 février 1935 à Luodong, Yilan. Jours à regarder la mer en 1967 et La grande poupée de son fils en 1969 incarnent l'attention portée aux petites gens au coeur de la littérature nativiste taïwanaise. Débat sur la littérature nativiste en 1977. Lauréat du prix littéraire Wu San-lien et du Prix national des arts. Son deuxième fils Huang Kuo-chun (écrivain) se suicide le 20 juin 2003. Hou Hsiao-hsien porte son oeuvre à l'écran en 1983. Toujours en vie en 2026.",
     "category": "fr",
@@ -32734,7 +33059,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Technology/taiwan-semiconductor-industry",
-    "readingTime": 207,
+    "readingTime": 208,
     "featured": true,
     "date": "2026-03-17",
     "path": "es/Technology/taiwan-semiconductor-industry.md"
@@ -32745,7 +33070,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Technology/semiconductor-industry",
-    "readingTime": 214,
+    "readingTime": 215,
     "featured": true,
     "date": "2026-03-17",
     "path": "fr/Technology/semiconductor-industry.md"
@@ -34528,7 +34853,7 @@
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/Technology/taiwan-robotics-industry",
-    "readingTime": 73,
+    "readingTime": 75,
     "featured": true,
     "date": "2026-04-11",
     "path": "fr/Technology/taiwan-robotics-industry.md"
@@ -36057,7 +36382,7 @@
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Technology/taiwan-robotics-industry",
-    "readingTime": 82,
+    "readingTime": 83,
     "featured": true,
     "date": "2026-04-11",
     "path": "es/Technology/taiwan-robotics-industry.md"
@@ -36296,17 +36621,6 @@
     "path": "es/Society/the-buffet-aunties-intuitive-pricing.md"
   },
   {
-    "title": "La música cinematográfica taiwanesa: de las bandas sonoras originales a la estética sonora de los videojuegos",
-    "description": "Explora la trayectoria del desarrollo de la música cinematográfica en Taiwán, desde la colaboración entre Hou Hsiao-hsien y Lin Chung hasta las bandas sonoras épicas de Wei Te-sheng y Fan Tsung-pei, pasando por la innovación musical en videojuegos de Rayark. Cómo Taiwán ha construido un lenguaje sonoro visual único.",
-    "category": "es",
-    "tags": [],
-    "url": "https://taiwan.md/es/Music/taiwan-screen-scoring-from-cinema-to-games",
-    "readingTime": 77,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "es/Music/taiwan-screen-scoring-from-cinema-to-games.md"
-  },
-  {
     "title": "La música electrónica y la cultura de fiestas en Taiwán: del Rave underground al escenario internacional",
     "description": "Desde la cultura de fiestas Rave de los años 1990 hasta el festival Road to Ultra, cómo la música electrónica taiwanesa pasó de la escena underground a la corriente principal, dando lugar a DJ de nivel internacional y sellos independientes de música electrónica",
     "category": "es",
@@ -36316,17 +36630,6 @@
     "featured": true,
     "date": "2026-03-19",
     "path": "es/Music/taiwan-electronic-music-and-party-culture.md"
-  },
-  {
-    "title": "La musique de Taïwan à l'écran : de la bande originale au jeu vidéo, une esthétique sonore singulière",
-    "description": "Plongée dans l'univers des compositeurs taïwanais qui ont façonné le son du cinéma d'auteur, des épopées historiques et des jeux vidéo acclamés à l'international — de la collaboration légendaire entre Hou Hsiao-hsien et Lim Giong jusqu'aux créations numériques de Rayark Games",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Music/taiwan-screen-scoring-from-cinema-to-games",
-    "readingTime": 62,
-    "featured": true,
-    "date": "2026-03-19",
-    "path": "fr/Music/taiwan-screen-scoring-from-cinema-to-games.md"
   },
   {
     "title": "La musique électronique et la culture party à Taïwan : des raves underground à la scène internationale",
@@ -37184,6 +37487,17 @@
     "featured": false,
     "date": "2026-04-25",
     "path": "es/History/19th-century-camphor-wars.md"
+  },
+  {
+    "title": "Las mascotas de los presidentes de Taiwán: del perro lobo autoritario de la residencia oficial a la resonancia social de la «primera gata»",
+    "description": "En 1951, un perro lobo ingresó a la residencia oficial de Shilin como guardián de Chiang Kai-shek; setenta años después, Tsai Ing-wen llegó a la residencia con Think Think, una gata callejera. Del perro militar que simbolizaba la vigilancia autoritaria a los perros rescatados y gatos que representan la preocupación social, la sucesión de mascotas presidenciales en Taiwán traza, de manera involuntaria, la trayectoria democrática de esta isla: de la política de hombres fuertes hacia una democracia plural e igualitaria.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Politics/taiwan-presidential-pets",
+    "readingTime": 53,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "es/Politics/taiwan-presidential-pets.md"
   },
   {
     "title": "Las montañas de Taiwán y la cultura del montañismo",
@@ -38618,6 +38932,17 @@
     "path": "fr/Society/diplomatic-allies.md"
   },
   {
+    "title": "Les animaux de compagnie des présidents taïwanais : des chiens-loups autoritaires de la résidence officielle à la résonance sociale du « premier chat »",
+    "description": "En 1951, un chien-loup entra dans la résidence de Shilin pour devenir le gardien de Tchang Kaï-chek ; soixante-dix ans plus tard, Tsai Ing-wen s'installa dans la résidence avec « Think Think », une chatte errante. Du chien militaire symbolisant la garde autoritaire aux chiens errants et chats incarnant l'attention sociale, la succession des animaux de compagnie présidentiels à Taïwan esquisse incidemment la trajectoire démocratique de cette île, passée de la politique des hommes forts à une démocratie pluraliste et égalitaire.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Politics/taiwan-presidential-pets",
+    "readingTime": 51,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "fr/Politics/taiwan-presidential-pets.md"
+  },
+  {
     "title": "Les arts traditionnels de Taïwan",
     "description": "Le plus grand miracle culturel du XXIe siècle en Asie : comment le théâtre de marionnettes Pili, avec un chiffre d'affaires annuel dépassant le milliard, est passé d'un spectacle de village à une puissance douce qui conquiert le monde.",
     "category": "fr",
@@ -38816,6 +39141,17 @@
     "path": "fr/Geography/administrative-divisions-of-taiwan.md"
   },
   {
+    "title": "Les Dix grands travaux : un pari de 200 milliards avec 1 milliard de dollars de réserves de change",
+    "description": "En 1973, les réserves de change de Taïwan ne s'élevaient qu'à 1 milliard de dollars américains, mais Chiang Ching-kuo annonça un investissement d'environ 300 milliards de dollars taïwanais pour lancer les Dix grands travaux. Il ne s'agissait pas seulement d'un tournant économique face à la crise pétrolière et à l'isolement diplomatique, mais aussi d'un récit politique qui reconditionnait des plans hérités de la période japonaise pour les transformer en identité nationale.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/History/ten-major-construction-projects",
+    "readingTime": 63,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "fr/History/ten-major-construction-projects.md"
+  },
+  {
     "title": "Les échos d'un âge d'or : l'évolution et le savoir-faire de la culture du thé à Taïwan",
     "description": "Dans les années 1930, les grandes puissances signèrent un accord de limitation de la production qui excluait Taïwan — les exportations de thé noir taïwanais bondirent aussitôt de 3,29 à 5,8 millions de kilos. Quatre-vingt-dix ans plus tard, la même île ouvre une nouvelle boutique de thé à emporter toutes les demi-heures.",
     "category": "fr",
@@ -38871,6 +39207,17 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "fr/Culture/taiwan-temple-festivals-and-performance-troupes.md"
+  },
+  {
+    "title": "Les frères Huang : derrière l’étiquette de fraîcheur, cette vérité et cette douceur exposées de force",
+    "description": "Depuis une vidéo de canular publiée en 2017, les frères Huang se sont imposés dans l’univers YouTube par une image « fraîche et positive ». Mais en 2020, un article relevant de l’outing forcé a contraint les deux frères, alors au sommet avec plus d’un million d’abonnés, à disséquer leur intimité devant la caméra ; il a aussi, de façon inattendue, esquissé l’une des réponses collectives les plus bienveillantes de la société taïwanaise en faveur de l’égalité de genre.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/People/huang-brothers-youtubers",
+    "readingTime": 44,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "fr/People/huang-brothers-youtubers.md"
   },
   {
     "title": "Les gardiens de l'écran : l'évolution du système de classification des films et séries à Taïwan",
@@ -38987,6 +39334,17 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "fr/Lifestyle/taiwan-parks-and-everyday-leisure.md"
+  },
+  {
+    "title": "Les parcs scientifiques de Taïwan : le pari d'une rizière qui est devenu l'artère vitale du monde, mais aussi son talon d'Achille",
+    "description": "En 1979, à Jinshanmian, Hsinchu, Ho Yi-tzu, un ingénieur revenu de chez IBM à Taïwan, fit surgir le premier parc scientifique d'Asie au milieu d'une rizière. Quarante-cinq ans plus tard, le chiffre d'affaires annuel des parcs de Hsinchu, du Sud et du Centre dépasse 5,8 billions de dollars taïwanais, et les puces les plus avancées du monde sont produites en série dans ces trois sites. Mais le plus puissant talisman de cette île est aussi son point le plus fragile : une sécheresse, une panne d'électricité ou une carte géopolitique peuvent suffire à suspendre le souffle de toute la chaîne d'approvisionnement mondiale.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Technology/science-park-development",
+    "readingTime": 168,
+    "featured": true,
+    "date": "2026-03-25",
+    "path": "fr/Technology/science-park-development.md"
   },
   {
     "title": "Les paysages thermaux de Taïwan",
@@ -40262,6 +40620,17 @@
     "featured": true,
     "date": "2026-04-24",
     "path": "es/Art/mountain-makers-tsmc-documentary.md"
+  },
+  {
+    "title": "Los Diez Grandes Proyectos de Construcción: una apuesta de 200.000 millones sobre reservas de divisas de mil millones de dólares",
+    "description": "En 1973, las reservas de divisas de Taiwán eran de apenas 1.000 millones de dólares, pero Chiang Ching-kuo anunció una inversión de unos 300.000 millones de dólares taiwaneses para impulsar los Diez Grandes Proyectos de Construcción. No fue solo un giro económico para responder a la crisis del petróleo y al aislamiento diplomático, sino también una narrativa política que reempaquetó planos heredados del periodo japonés y los transformó en identidad nacional.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/History/ten-major-construction-projects",
+    "readingTime": 62,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "es/History/ten-major-construction-projects.md"
   },
   {
     "title": "Los embalses y la gestión de los recursos hídricos de Taiwán",
@@ -41905,6 +42274,17 @@
     "path": "fr/Music/pop-music-and-golden-melody-awards.md"
   },
   {
+    "title": "Musiques taïwanaises pour l’écran : d’une émotion posée sur l’image à l’excavation de la voix propre d’une île",
+    "description": "En 2001, après la projection de Millennium Mambo à Cannes, des spectateurs étrangers demandaient : « Qui est Lim Giong ? » Les musiques taïwanaises pour le cinéma et l’audiovisuel sont souvent racontées comme une montée en gamme de plus en plus internationale : Orchestre symphonique de Sydney, Oscars, Cannes. Mais leur véritable maturité ne tient pas à une mise à niveau technique ; elle tient à l’endroit où les compositeurs puisent leur matériau : après avoir imité l’orchestration hollywoodienne dans les années 1980, ils sont revenus creuser dans le yueqin, l’opéra taïwanais, les musiques funéraires au suona et un vieil air collecté auprès des peuples pingpu. Ce sont les sons locaux qui ont finalement permis au monde de reconnaître cette île.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Music/taiwan-screen-scoring-from-cinema-to-games",
+    "readingTime": 160,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "fr/Music/taiwan-screen-scoring-from-cinema-to-games.md"
+  },
+  {
     "title": "Mythes autochtones taïwanais : des récits oraux de la création au déluge",
     "description": "Les mythes autochtones taïwanais ne sont pas de simples récits anciens : ils constituent des archives vivantes de la mémoire collective et de la transmission culturelle, porteuses d'une sagesse de coexistence avec la nature et d'une vision profonde de la vie.",
     "category": "fr",
@@ -42541,6 +42921,17 @@
     "path": "en/People/pai-hsien-yung-literary-master.md"
   },
   {
+    "title": "Pain aux pommes : sur une île sans pommes, nourrir l’illusion d’une modernisation",
+    "description": "Ce n’est pas seulement un morceau de pain, mais une expérience de modernisation menée dans le Taïwan des années 1960, dans le contexte de l’aide américaine, tissée de farine, de symboles et de résilience. En mobilisant la métaphore luxueuse de la « pomme » et une technique japonaise de déshydratation, le major à la retraite Liu Zheji transforma une ration militaire austère en mémoire nationale transgénérationnelle, révélant comment la société taïwanaise d’après-guerre utilisa des substituts pour combler l’écart avec la réalité.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Food/taiwan-apple-bread",
+    "readingTime": 48,
+    "featured": false,
+    "date": "2026-05-30",
+    "path": "fr/Food/taiwan-apple-bread.md"
+  },
+  {
     "title": "Paisaje sonoro de Taiwán",
     "description": "De Para Elisa en los camiones de basura a la polifonía de ocho partes del pueblo bunun: conocer Taiwán con los oídos",
     "category": "es",
@@ -42617,6 +43008,17 @@
     "featured": false,
     "date": "2026-05-08",
     "path": "en/Nature/palakaw.md"
+  },
+  {
+    "title": "Pan de manzana: en una isla sin manzanas, alimentar la ilusión de la modernización",
+    "description": "Esto no es solo un trozo de pan, sino también un experimento de modernización en el Taiwán de la década de 1960, bajo el trasfondo de la ayuda estadounidense, tejido con harina, símbolos y resiliencia para sobrevivir. El mayor retirado Liu Zheji, mediante la metáfora lujosa de la «manzana» y la tecnología japonesa de deshidratación, transformó una ración militar originalmente árida en una memoria nacional que atraviesa generaciones, revelando cómo la sociedad taiwanesa de posguerra utilizó sustitutos para llenar la brecha entre la realidad y sus aspiraciones.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Food/taiwan-apple-bread",
+    "readingTime": 49,
+    "featured": false,
+    "date": "2026-05-30",
+    "path": "es/Food/taiwan-apple-bread.md"
   },
   {
     "title": "Pan y repostería de Taiwán",
@@ -42743,6 +43145,17 @@
     "path": "es/Society/paraguay-taiwan.md"
   },
   {
+    "title": "Parcs d'attractions disparus : du « premier parc » aux légendes de fantômes, ces enfances confisquées par l'urbanisme",
+    "description": "En 1972, le premier parc à thème de Taïwan, le « Datong Water Park », ouvrait à Banqiao, inaugurant deux décennies de « grande époque des parcs d'attractions » à Taïwan. De l'affluence qui obligea Chen Zhaobing à servir lui-même les clients, aux rumeurs de rails rompus au parc Katoli, la disparition collective de ces parcs ne tient pas seulement au vieillissement des installations : elle condense l'expansion urbaine de Taïwan et la transformation de son industrie des loisirs.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/History/taiwan-defunct-amusement-parks",
+    "readingTime": 42,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "fr/History/taiwan-defunct-amusement-parks.md"
+  },
+  {
     "title": "Parcs nationaux",
     "description": "36 197 kilomètres carrés abritant 9 parcs nationaux : une densité parmi les plus élevées au monde, un miracle de conservation.",
     "category": "fr",
@@ -42826,6 +43239,28 @@
     "featured": false,
     "date": "2026-05-13",
     "path": "fr/People/park-sung-eun.md"
+  },
+  {
+    "title": "Parques científicos de Taiwán: la apuesta de un arrozal que se convirtió en arteria vital del mundo y también en su punto vulnerable",
+    "description": "En 1979, en Jinshan Mian, Hsinchu, Irving Ho, un ingeniero que volvió a Taiwán desde IBM, levantó sobre un arrozal el primer parque científico de Asia. Cuarenta y cinco años después, los ingresos anuales de los parques de Hsinchu, del Sur y del Centro superaron los 5,8 billones de nuevos dólares taiwaneses, y los chips más avanzados del mundo se producen en masa en esos tres parques. Pero el amuleto más poderoso de esta isla es, al mismo tiempo, su punto más frágil: una sequía, un apagón o una carta geopolítica bastan para que la cadena global de suministro contenga la respiración.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Technology/science-park-development",
+    "readingTime": 166,
+    "featured": true,
+    "date": "2026-03-25",
+    "path": "es/Technology/science-park-development.md"
+  },
+  {
+    "title": "Parques de diversiones desaparecidos: del “primer parque” a las leyendas de fantasmas, las infancias confiscadas por la planificación urbana",
+    "description": "En 1972, el “Parque Acuático Tatung”, el primer parque temático de Taiwán, abrió sus puertas en Banqiao e inauguró la “era de los grandes parques” que se prolongaría durante dos décadas. Desde las multitudes que llevaron a Chen Chao-ping a servir platos personalmente, hasta los rumores sobre rieles rotos en el Parque Katori, la desaparición colectiva de estos parques no se debió simplemente al envejecimiento de sus instalaciones, sino que refleja la expansión urbana de Taiwán y la transformación de su industria del ocio.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/History/taiwan-defunct-amusement-parks",
+    "readingTime": 39,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "es/History/taiwan-defunct-amusement-parks.md"
   },
   {
     "title": "Parques de Taiwán y ocio cotidiano",
@@ -43162,6 +43597,17 @@
     "featured": true,
     "date": "2026-03-27",
     "path": "fr/History/taiwan-island-historiography.md"
+  },
+  {
+    "title": "Pets of Taiwan’s Presidents: From Authoritarian Wolfdogs in the Official Residence to the Social Resonance of the “First Cat”",
+    "description": "In 1951, a wolfdog entered the Shilin Official Residence as Chiang Kai-shek’s guard; seventy years later, Tsai Ing-wen moved into the residence with her rescued cat, Think Think. From military dogs symbolizing authoritarian vigilance to rescued dogs and cats representing social concern, the changing pets of Taiwan’s presidents have, almost unintentionally, sketched the island’s democratic trajectory from strongman politics toward pluralism and equality.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Politics/taiwan-presidential-pets",
+    "readingTime": 47,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "en/Politics/taiwan-presidential-pets.md"
   },
   {
     "title": "Pineapple Cake: From Election Refreshments to a NT$25 Billion 'Golden Brick'",
@@ -44810,17 +45256,6 @@
     "path": "en/Food/school-lunch-reform.md"
   },
   {
-    "title": "Science Park Development",
-    "description": "From a bet on a rice field to five trillion NT dollars in annual output — how Taiwan's three science parks rewrote the global tech map in forty-five years",
-    "category": "en",
-    "tags": [],
-    "url": "https://taiwan.md/en/Technology/science-park-development",
-    "readingTime": 60,
-    "featured": true,
-    "date": "2026-03-25",
-    "path": "en/Technology/science-park-development.md"
-  },
-  {
     "title": "Screws: Taiwan's Hidden Champions' Fight for Survival Under 50% Tariffs and Carbon Border Pressures",
     "description": "Once a critical link in the U.S. military''s Vietnam War supply line, Gangshan in Kaohsiung laid the foundation for Taiwan''s \"Kingdom of Screws.\" Today it stands at a historic crossroads. Under the double blow of the United States'' Section 232 tariff of 50% and the European Union''s CBAM carbon border tax, these hidden champions, once dominant in the global market, are trying to write a new chapter of resilient transformation under the halo of the semiconductor industry.",
     "category": "en",
@@ -44875,7 +45310,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/taiwan-semiconductor-industry",
-    "readingTime": 193,
+    "readingTime": 194,
     "featured": true,
     "date": "2026-03-17",
     "path": "en/taiwan-semiconductor-industry.md"
@@ -47191,15 +47626,15 @@
     "path": "en/Food/Taiwan Regional Street Food Map.md"
   },
   {
-    "title": "Taiwan Screen Scoring: The Sound Aesthetics from Cinema to Game Music",
-    "description": "Exploring the development of Taiwan's screen scoring, from Hou Hsiao-hsien and Lim Giong's collaboration to Wei Te-sheng and Fan Tsung-pei's epic scores, to Rayark Games' innovation in game music — how Taiwan built its own cinematic sound language",
+    "title": "Taiwan Science Parks: A Bet on a Rice Field That Became the World’s Lifeline, and Its Chokepoint",
+    "description": "In 1979, in Jinshanmian, Hsinchu, Irving Ho, an engineer who had returned to Taiwan from IBM, built Asia’s first science park on a rice field. Forty-five years later, the Hsinchu, Southern Taiwan, and Central Taiwan science parks have surpassed NT$5.8 trillion in annual revenue, and the world’s most advanced chips are mass-produced in these three parks. Yet this island’s strongest talisman is also its most fragile chokepoint: one drought, one power outage, or one geopolitical card can make the global supply chain hold its breath.",
     "category": "en",
     "tags": [],
-    "url": "https://taiwan.md/en/Music/taiwan-screen-scoring-from-cinema-to-games",
-    "readingTime": 64,
+    "url": "https://taiwan.md/en/Technology/science-park-development",
+    "readingTime": 153,
     "featured": true,
-    "date": "2026-03-19",
-    "path": "en/Music/taiwan-screen-scoring-from-cinema-to-games.md"
+    "date": "2026-03-25",
+    "path": "en/Technology/science-park-development.md"
   },
   {
     "title": "Taiwan Software Industry Development",
@@ -47275,6 +47710,22 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "en/Culture/taiwan-street-art-and-graffiti-culture.md"
+  },
+  {
+    "title": "Taiwan Street Graffiti: From Late-Night Outlaws to Ximending's Urban Light",
+    "description": "In 1989, Lü Hsueh-yuan sprayed the first line on Minsheng East Road, opening the underground history of graffiti in Taiwan. From the urban legend of Horumon Baby to Candy Bird's social critique, this thirty-year chase with the Department of Environmental Protection is redefining Taiwan's urban aesthetics.",
+    "category": "en",
+    "tags": [
+      "Street Art",
+      "Horumon Baby",
+      "Subculture",
+      "Urban Space"
+    ],
+    "url": "https://taiwan.md/en/Art/graffiti-and-street-art-in-taiwan",
+    "readingTime": 25,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "en/Art/graffiti-and-street-art-in-taiwan.md"
   },
   {
     "title": "Taiwan Sugar : de l'empire sucré qui finançait 74 % des devises à la grande propriétaire terrienne « hors sol » qui bat des records de profit en 2025",
@@ -48512,7 +48963,7 @@
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Technology/taiwan-robotics-industry",
-    "readingTime": 75,
+    "readingTime": 76,
     "featured": true,
     "date": "2026-04-11",
     "path": "en/Technology/taiwan-robotics-industry.md"
@@ -49249,6 +49700,17 @@
     "path": "en/Food/taiwanese-salt-and-pepper-fried-chicken.md"
   },
   {
+    "title": "Taiwanese Screen Scoring: From Laying Emotion Under Images to Unearthing an Island's Own Sound",
+    "description": "After Millennium Mambo screened at Cannes in 2001, foreign audiences kept asking, 'Who is Lim Giong?' Taiwanese screen scoring is often described as increasingly international in scale: the Sydney Symphony Orchestra, the Oscars, Cannes. Yet its true maturation lies not in technical upgrading, but in where composers draw their materials from: from imitating Hollywood-style orchestration in the 1980s to turning back toward the yueqin, Taiwanese opera, suona funeral music, and an old melody collected from the Plains Indigenous peoples. Local sound, as it turned out, is what made this island recognizable to the world.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Music/taiwan-screen-scoring-from-cinema-to-games",
+    "readingTime": 144,
+    "featured": false,
+    "date": "2026-03-19",
+    "path": "en/Music/taiwan-screen-scoring-from-cinema-to-games.md"
+  },
+  {
     "title": "Taiwanese Sensibility: How Korea Fell in Love with Taiwan's Streets",
     "description": "Two guys from Kaohsiung spent a decade photographing 2,000 iron window grilles. Korea spent five years turning them into a cultural phenomenon called 대만감성.",
     "category": "en",
@@ -49489,6 +49951,28 @@
     "featured": false,
     "date": "2026-05-18",
     "path": "en/Geography/taoyuan-city.md"
+  },
+  {
+    "title": "Tarta de huevo: del monasterio de Macao a la memoria colectiva del “comportamiento de rebaño” en Taiwán",
+    "description": "La “revuelta de las tartas de huevo” de 1998, con su auge y desplome vertiginosos, no solo definió el consumo “en masa” de la sociedad taiwanesa, sino que además obligó a KFC en Taiwán a transformarse en “una tienda de tartas de huevo distraída por vender pollo frito”.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Food/portuguese-egg-tart-in-taiwan",
+    "readingTime": 45,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "es/Food/portuguese-egg-tart-in-taiwan.md"
+  },
+  {
+    "title": "Tartelettes aux œufs : du monastère de Macao à la mémoire collective taïwanaise de l’« engouement collectif »",
+    "description": "En 1998, une « crise des tartelettes aux œufs » faite d’essor fulgurant et d’effondrement brutal a non seulement défini à Taïwan les comportements de consommation « moutonniers », mais a aussi contraint KFC à s’y transformer en « boutique de tartelettes aux œufs retardée par le poulet frit ».",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Food/portuguese-egg-tart-in-taiwan",
+    "readingTime": 47,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "fr/Food/portuguese-egg-tart-in-taiwan.md"
   },
   {
     "title": "Tawny Fish Owl: One Pair per Six Kilometers of Stream, a Nocturnal Raptor in a 1,800-Meter Michelia Tree",
@@ -50316,6 +50800,17 @@
     "featured": true,
     "date": "2026-04-12",
     "path": "en/Society/sunflower-movement.md"
+  },
+  {
+    "title": "The Ten Major Construction Projects: A NT$200 Billion Gamble on US$1 Billion in Foreign Reserves",
+    "description": "In 1973, Taiwan's foreign exchange reserves stood at only US$1 billion, yet Chiang Ching-kuo announced an investment of roughly NT$300 billion to advance the Ten Major Construction Projects. This was not only an economic pivot in response to the oil crisis and diplomatic isolation, but also a political narrative that repackaged blueprints inherited from Japanese rule and transformed them into national identity.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/History/ten-major-construction-projects",
+    "readingTime": 50,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "en/History/ten-major-construction-projects.md"
   },
   {
     "title": "The Walking Green Man: A 25-Year Legend from Traffic Signal to National Icon",
@@ -51373,6 +51868,17 @@
     "featured": false,
     "date": "2026-04-30",
     "path": "es/Nature/taiwan-blue-magpie.md"
+  },
+  {
+    "title": "Vanished Amusement Parks: From the “First Park” to Ghost Legends, the Childhoods Confiscated by Urban Planning",
+    "description": "In 1972, Taiwan’s first theme park, Datong Water Park, opened in Banqiao, inaugurating Taiwan’s two-decade “great amusement park era.” From the crowds that had Chen Zhaobing personally serving dishes, to the broken-track rumors surrounding Carton King-style Katori Amusement Park, the collective disappearance of these parks was not simply the result of aging facilities, but a microcosm of Taiwan’s urban expansion and the transformation of its leisure industry.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/History/taiwan-defunct-amusement-parks",
+    "readingTime": 39,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "en/History/taiwan-defunct-amusement-parks.md"
   },
   {
     "title": "Ver Taiwán — Impresiones históricas de Taiwán",
@@ -52836,6 +53342,39 @@
     "path": "en/People/yang-shen-keng-educator.md"
   },
   {
+    "title": "Yang Wei-che : du calcul infinitésimal à la langue maternelle, l’artiste performeur du monde des mathématiques",
+    "description": "Yang Wei-che, professeur émérite du département de mathématiques de l’Université nationale de Taïwan, est connu pour ses shorts, son vélo et ses cours donnés en taïwanais. Fils du célèbre peintre Yang Chi-tung, il défia autrefois la volonté paternelle en abandonnant la médecine pour les mathématiques et, en 1997, déclencha une controverse sur l’« inconstitutionnalité » de son enseignement en taïwanais. Il fut non seulement un moteur des Olympiades de mathématiques, mais aussi un résistant déterminé dans l’affaire Chen Wen-chen ; toute sa vie, il pratiqua un « art de la performance » entre logique et subjectivité culturelle.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/People/yang-wei-cher",
+    "readingTime": 51,
+    "featured": false,
+    "date": "2026-05-30",
+    "path": "fr/People/yang-wei-cher.md"
+  },
+  {
+    "title": "Yang Wei-cher: del cálculo a la lengua materna, el artista escénico del mundo de las matemáticas",
+    "description": "Yang Wei-cher, profesor emérito del Departamento de Matemáticas de la Universidad Nacional de Taiwán, es conocido por dar clases en pantalones cortos, desplazarse en bicicleta y enseñar en taiwanés. Hijo del célebre pintor Yang Chi-tung, desafió la voluntad paterna al abandonar la medicina por las matemáticas y, en 1997, provocó una controversia sobre una supuesta “inconstitucionalidad” por enseñar en taiwanés. No solo fue un impulsor de la Olimpiada Matemática, sino también un resistente firme durante el caso Chen Wen-chen; a lo largo de su vida practicó una forma de “arte escénico” entre la lógica y la subjetividad cultural.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/People/yang-wei-cher",
+    "readingTime": 51,
+    "featured": false,
+    "date": "2026-05-30",
+    "path": "es/People/yang-wei-cher.md"
+  },
+  {
+    "title": "Yang Wei-cher: From Calculus to the Mother Tongue, the Performing Artist of the Mathematics World",
+    "description": "Yang Wei-cher, professor emeritus in National Taiwan University's Department of Mathematics, is known for teaching in shorts, riding a bicycle, and lecturing in Taiwanese. The son of renowned painter Yang Chi-tung, he once defied his father's wishes by abandoning medicine for mathematics, and in 1997 sparked a controversy over whether teaching in Taiwanese was 'unconstitutional.' He was not only a driving force behind the Mathematical Olympiad, but also a steadfast resister in the Chen Wen-chen Incident, practicing 'performance art' throughout his life between logic and cultural subjectivity.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/People/yang-wei-cher",
+    "readingTime": 44,
+    "featured": false,
+    "date": "2026-05-30",
+    "path": "en/People/yang-wei-cher.md"
+  },
+  {
     "title": "Yang You-ren",
     "description": "Founder of Step30 International Christian Care Association, Ten Outstanding Young Persons of Taiwan 2017, who collected 100,000 pairs of used shoes for East African children with a single poster",
     "category": "en",
@@ -53960,17 +54499,6 @@
     "path": "ko/Food/gua-bao.md"
   },
   {
-    "title": "과학단지 발전",
-    "description": "논밭 위의 도박에서 연간 생산액 5조 원의 실리콘 방패까지——대만 세 과학단지가 45년 만에 세계 기술 지도를 다시 쓴 이야기",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/Technology/science-park-development",
-    "readingTime": 31,
-    "featured": true,
-    "date": "2026-03-25",
-    "path": "ko/Technology/science-park-development.md"
-  },
-  {
     "title": "곽태명: 반교 1950, 홍해 플라스틱 1974에서 주문제작 제국의 창업자",
     "description": "1950년 10월 18일 타이베이현 반교 출생. 1974년 10만 위안으로 홍해 플라스틱 기업 창립(직원 10명). 1981년 PC 커넥터 분야 진출, 1982년 홍해 정밀로 사명 변경. 2019년 6월 유양위에게 회장직 이양. 2021년 영령재단이 TSMC·홍해와 협력하여 BNT 백신 기부. 2023년 대통령 독립 후보 등록 3시간 전 사퇴. 2024년 포춘 글로벌 500 32위, 2026년 대만 제1의 부호(153억 달러).",
     "category": "ko",
@@ -54881,6 +55409,17 @@
     "featured": false,
     "date": "2026-05-18",
     "path": "ko/Economy/tech-park-peripheral-business-ecosystem.md"
+  },
+  {
+    "title": "대만 과학단지: 논 한복판의 도박, 세계의 생명줄이자 급소가 되다",
+    "description": "1979년 신주 진산몐에서 IBM을 떠나 대만으로 돌아온 엔지니어 허이츠가 논 위에 아시아 최초의 과학단지를 세웠다. 45년 뒤, 신주과학단지·남부과학단지·중부과학단지의 연 매출은 5.8조 대만달러를 돌파했고, 세계 최첨단 칩은 이 세 단지에서 양산되고 있다. 그러나 이 섬의 가장 강한 부적은 동시에 가장 취약한 급소이기도 하다. 한 차례 가뭄, 한 번의 정전, 한 장의 지정학 카드만으로도 전 세계 공급망은 숨을 죽인다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Technology/science-park-development",
+    "readingTime": 70,
+    "featured": true,
+    "date": "2026-03-25",
+    "path": "ko/Technology/science-park-development.md"
   },
   {
     "title": "대만 교사의 생활지도 딜레마: 회초리가 사라진 이후 입도 열지 못하는 이십 년",
@@ -55848,13 +56387,13 @@
     "path": "ko/Society/media-and-press-freedom-in-taiwan.md"
   },
   {
-    "title": "대만 영상 음악: 영화 OST부터 게임 음악까지, 소리의 미학",
-    "description": "허우샤오시엔과 린창의 협업부터 웨이더성과 판쭝페이의 서사시적 음악, 레이야게임의 게임 음악 혁신까지—대만이 어떻게 독자적인 영상 음악 언어를 구축했는지 탐색한다",
+    "title": "대만 영상음악: 화면에 감정을 깔아 주는 일에서, 한 섬의 고유한 소리를 발굴하는 일로",
+    "description": "2001년 칸에서 《밀레니엄 맘보》 상영이 끝난 뒤, 외국 관객들은 “Lim Giong이 누구냐”고 물었다. 대만의 영상음악은 흔히 점점 국제적 규모를 갖추어 간 이야기로 설명된다. 시드니 심포니 오케스트라, 오스카, 칸 같은 이름들이 그렇다. 그러나 그 진정한 성숙은 기술적 업그레이드에 있지 않았다. 작곡가들이 어디에서 재료를 가져왔는가에 있었다. 1980년대 할리우드식 관현악을 모방하던 데서 돌아서, 월금, 가자희, 수오나 장례 음악, 그리고 평포족에게서 채집된 오래된 선율 속으로 파고든 것이다. 지역의 소리야말로 오히려 이 섬을 세계가 알아보게 했다.",
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Music/taiwan-screen-scoring-from-cinema-to-games",
-    "readingTime": 28,
-    "featured": true,
+    "readingTime": 71,
+    "featured": false,
     "date": "2026-03-19",
     "path": "ko/Music/taiwan-screen-scoring-from-cinema-to-games.md"
   },
@@ -56463,6 +57002,22 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "ko/Food/military-dependents-village-cuisine.md"
+  },
+  {
+    "title": "대만 총통의 반려동물: 관저 안 권위주의의 셰퍼드에서 「퍼스트 캣」의 사회적 공명까지",
+    "description": "1951년, 한 마리 셰퍼드가 스린 관저에 들어와 장제스의 호위견이 되었다. 70년 뒤, 차이잉원은 유기묘 「샹샹」과 함께 관저에 입주했다. 권위주의적 호위를 상징하던 군견에서 사회적 돌봄을 대표하는 유기견과 고양이에 이르기까지, 대만 총통 반려동물의 변화는 이 섬이 강인 정치에서 다원적 평권의 민주주의로 옮겨 간 궤적을 뜻밖에 비추어 보인다.",
+    "category": "ko",
+    "tags": [
+      "총통 관저",
+      "반려동물 정치",
+      "동물 보호",
+      "대만 민주주의"
+    ],
+    "url": "https://taiwan.md/ko/Politics/taiwan-presidential-pets",
+    "readingTime": 21,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "ko/Politics/taiwan-presidential-pets.md"
   },
   {
     "title": "대만 통일-독립 스펙트럼: 네 가지 입장과 하나의 현상 유지, 30년 동안 조용히 다시 그려진 정체성 지도",
@@ -58143,25 +58698,6 @@
     "path": "ko/Geography/sun-moon-lake.md"
   },
   {
-    "title": "리안",
-    "description": "대만에서 할리우드까지, 두 차례 아카데미 감독상을 수상한 초문화 서사의 거장 겸 영화 기술 혁신가",
-    "category": "ko",
-    "tags": [
-      "인물",
-      "리안",
-      "감독",
-      "아카데미상",
-      "영화",
-      "초문화",
-      "할리우드"
-    ],
-    "url": "https://taiwan.md/ko/People/ang-lee",
-    "readingTime": 37,
-    "featured": true,
-    "date": "2026-03-17",
-    "path": "ko/People/ang-lee.md"
-  },
-  {
     "title": "리위안저 — 대만 최초의 노벨 과학상 수상자",
     "description": "1986년 노벨 화학상 수상자. 교차 분자빔 기술로 화학 동역학의 새 지평을 열었으며, 학문적 정점에서 귀국해 중앙연구원 원장으로 대만 과학계를 이끌었다",
     "category": "ko",
@@ -58795,7 +59331,7 @@
     "category": "ko",
     "tags": [],
     "url": "https://taiwan.md/ko/Technology/semiconductor-industry",
-    "readingTime": 101,
+    "readingTime": 102,
     "featured": true,
     "date": "2026-03-17",
     "path": "ko/Technology/semiconductor-industry.md"
@@ -58883,6 +59419,28 @@
     "featured": false,
     "date": "2026-04-26",
     "path": "ko/Nature/formosan-salamander.md"
+  },
+  {
+    "title": "사과빵: 사과 없는 섬에서 현대화의 환상을 먹여 살리다",
+    "description": "이는 단지 빵 한 조각이 아니라, 1960년대 대만이 미국 원조의 배경 속에서 밀가루, 기호, 생존의 탄력성으로 엮어 낸 현대화 실험이었다. 퇴역 소령 류저지는 ‘사과’라는 사치의 은유와 일본의 탈수 기술을 통해 본래 건조하고 단조로운 군용 비상식량을 세대를 가로지르는 국민적 기억으로 전환했으며, 전후 대만 사회가 어떻게 대체물을 이용해 현실의 간극을 메웠는지를 드러낸다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Food/taiwan-apple-bread",
+    "readingTime": 19,
+    "featured": false,
+    "date": "2026-05-30",
+    "path": "ko/Food/taiwan-apple-bread.md"
+  },
+  {
+    "title": "사라진 놀이공원: ‘제1의 낙원’에서 귀신 전설까지, 도시계획에 몰수된 유년의 기억들",
+    "description": "1972년, 대만 최초의 테마파크인 ‘다퉁 수상낙원’이 반차오에서 개장하며 대만에서 20년에 걸친 ‘대형 놀이공원 시대’의 막이 올랐다. 천자오빙이 직접 접시를 나르던 성황부터 카도리 놀이공원의 선로 단절 소문까지, 이들 놀이공원이 집단적으로 사라진 것은 단순히 시설 노후화 때문이 아니라 대만의 도시 확장과 여가 산업 전환을 보여주는 축도였다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/History/taiwan-defunct-amusement-parks",
+    "readingTime": 17,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "ko/History/taiwan-defunct-amusement-parks.md"
   },
   {
     "title": "사회운동과 시민 참여",
@@ -59561,6 +60119,24 @@
     "path": "ko/Geography/hsinchu-county.md"
   },
   {
+    "title": "십대건설: 10억 달러 외환보유액 위의 2천억 호화 도박",
+    "description": "1973년 대만의 외환보유액은 겨우 10억 달러였지만, 장징궈는 약 3,000억 대만달러를 투입해 십대건설을 추진하겠다고 발표했다. 이는 석유 위기와 외교적 고립에 대응한 경제적 전환이었을 뿐 아니라, 일제시기부터 남겨진 청사진을 새롭게 포장하여 국가 정체성의 정치적 서사로 전환한 사건이기도 했다.",
+    "category": "ko",
+    "tags": [
+      "경제 발전",
+      "장징궈",
+      "석유 위기",
+      "기반시설",
+      "대만사",
+      "산업 고도화"
+    ],
+    "url": "https://taiwan.md/ko/History/ten-major-construction-projects",
+    "readingTime": 23,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "ko/History/ten-major-construction-projects.md"
+  },
+  {
     "title": "싼샤 차: 「칭신간자이」의 나선형 전환에서 여름차 가치의 밀향 고도화까지",
     "description": "싼샤는 대만을 대표하는 전문 덖음 녹차 산지이며, 그 산업 경로는 「적응」에 관한 장기 실험이었다. 청나라 동치 연간 존 도드의 발견에서 일제 시기 녹차 수출의 억압, 다시 1990년대 말 벽라춘의 공식 명명에 이르기까지, 싼샤 차농들은 고유 품종과 토지 개발의 틈새에서 대만 녹차의 지역 표준을 그려냈다.",
     "category": "ko",
@@ -59866,6 +60442,17 @@
     "path": "ko/People/yang-you-ren-shoes-for-hope-taiwan-youth-hero.md"
   },
   {
+    "title": "양웨이저: 미적분에서 모어까지, 수학계의 공연예술가",
+    "description": "국립타이완대학교 수학과 명예교수 양웨이저는 반바지, 자전거, 타이완어 강의로 잘 알려져 있다. 유명 화가 양치둥의 아들인 그는 부친의 뜻을 거슬러 의학을 버리고 수학을 택했으며, 1997년에는 타이완어 수업으로 인해 “위헌” 논란을 일으켰다. 그는 수학 올림피아드의 추진자였을 뿐 아니라 천원청 사건에서 단호한 저항자였고, 평생 논리와 문화적 주체성 사이에서 “공연예술”을 실천했다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/People/yang-wei-cher",
+    "readingTime": 19,
+    "featured": false,
+    "date": "2026-05-30",
+    "path": "ko/People/yang-wei-cher.md"
+  },
+  {
     "title": "양융웨이 — 유도계의 예술가",
     "description": "2021 도쿄 올림픽 유도 60kg급 은메달, 대만 최초 올림픽 유도 메달리스트, 동년 세계 랭킹 1위 달성",
     "category": "ko",
@@ -59949,6 +60536,23 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "ko/Culture/linguistic-diversity-and-mother-tongue-culture.md"
+  },
+  {
+    "title": "에그타르트: 마카오 수도원에서 타이완의 「우르르 몰림」 집단 기억까지",
+    "description": "1998년에 급격히 일어났다가 사그라진 「에그타르트 소동」은 타이완 사회의 「우르르 몰림」 소비 행태를 규정했을 뿐 아니라, KFC가 타이완에서 어쩔 수 없이 「프라이드치킨에 가려진 에그타르트 가게」로 변신하게 만들었다.",
+    "category": "ko",
+    "tags": [
+      "에그타르트",
+      "에그타르트 효과",
+      "KFC",
+      "타이완 음식",
+      "소비 심리"
+    ],
+    "url": "https://taiwan.md/ko/Food/portuguese-egg-tart-in-taiwan",
+    "readingTime": 22,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "ko/Food/portuguese-egg-tart-in-taiwan.md"
   },
   {
     "title": "에이서 그룹(Acer) - PC 산업의 변혁 선구자",
@@ -61826,6 +62430,23 @@
     "path": "ko/History/chiang-kai-shek-memorial-hall.md"
   },
   {
+    "title": "중화 Veryca: 대만 경제를 떠받친 파차이처",
+    "description": "1988년 자체 개발한 「Varica」에서 20년 동안 경상용차 시장을 제패한 「Veryca」까지, 중화자동차는 어떻게 일본 Minicab을 현지화하여 대만 골목과 거리에서 가장 익숙한 경제적 버팀목으로 변화시켰는가?",
+    "category": "ko",
+    "tags": [
+      "중화자동차",
+      "상용차",
+      "대만 경제",
+      "자동차 산업",
+      "파차이처"
+    ],
+    "url": "https://taiwan.md/ko/Economy/china-motor-veryca",
+    "readingTime": 15,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "ko/Economy/china-motor-veryca.md"
+  },
+  {
     "title": "즈쥐창(植劇場): 노트북을 만드는 사람이 대만 드라마 부흥의 씨앗을 심다",
     "description": "2016년, IT 업계의 거물 퉁쯔셴이 돈을 내놓았고, 왕샤오디는 대만 최정상 감독들을 이끌어 반(反)상업 논리의 일을 해냈다. 블록버스터를 찍지 않고, 오직 신인을 키우는 것.",
     "category": "ko",
@@ -62666,6 +63287,22 @@
     "featured": false,
     "date": "2026-04-14",
     "path": "ko/Lifestyle/taiwan-youbike-and-micromobility-revolution.md"
+  },
+  {
+    "title": "타이완 거리 그래피티: 심야의 무법자에서 시먼딩의 도시의 빛으로",
+    "description": "1989년 뤼쉐위안이 민성둥루에 첫 선을 뿌리며 타이완 그래피티의 지하사가 시작되었다. 대장왕의 도시 전설에서 Candy Bird의 사회 비판에 이르기까지, 환경보호국과 30년간 추격전을 벌여 온 이 게임은 타이완의 도시 미학을 새롭게 정의하고 있다.",
+    "category": "ko",
+    "tags": [
+      "거리 예술",
+      "대장왕",
+      "하위문화",
+      "도시 공간"
+    ],
+    "url": "https://taiwan.md/ko/Art/graffiti-and-street-art-in-taiwan",
+    "readingTime": 12,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "ko/Art/graffiti-and-street-art-in-taiwan.md"
   },
   {
     "title": "타이완 거리 예술과 그래피티 문화",
@@ -63668,6 +64305,22 @@
     "path": "ko/Food/puli-shaoxing-wine.md"
   },
   {
+    "title": "푸쿤치: 후산의 '화롄왕'에서 국회의 '총소집인'으로 이어진 권력의 나선",
+    "description": "1990년대 주식시장의 거물 '카이쥐 샤오푸'에서 2001년 국회 진출, 2009년 화롄 장악에 이르기까지, 푸쿤치는 후산에서 중앙정부조차 흔들기 어려운 20년에 걸친 '푸가 왕조'를 구축했다. 주가조작 사건으로 직을 유지한 채 수감되고, 위장 이혼 뒤 아내를 부현장으로 임명한 일, 2024년 입법원에 복귀해 국민당 원내 총소집인을 맡고 방중단을 이끈 일까지, 그는 대만 정계에서 가장 극단적인 권력의 탄력성과 논란을 보여 주었다.",
+    "category": "ko",
+    "tags": [
+      "화롄",
+      "정치인",
+      "국민당",
+      "입법원"
+    ],
+    "url": "https://taiwan.md/ko/People/fu-kun-chi",
+    "readingTime": 12,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "ko/People/fu-kun-chi.md"
+  },
+  {
     "title": "플러크 Plurk",
     "description": "2008년에 서비스를 시작한 마이크로블로그 플랫폼 플러크는 가로 스크롤 방식의 \"타임라인\"과 알고리즘 없는 피드로, Facebook과 Twitter가 전 세계를 휩쓸던 10년 동안 살아남았다. 2016년 Google 광고 네트워크에 차단당한 후 \"플러크 코인\" 유료 회원제로 흑자 전환에 성공했다 — 대만 사용자들이 대만 달러로 투표해, 알고리즘에 묶이지 않는 이 강이 계속 흐르도록 만든 것이다.",
     "category": "ko",
@@ -64177,6 +64830,24 @@
     "path": "ko/People/huang-shao-yong-musician.md"
   },
   {
+    "title": "황씨 형제: 산뜻함이라는 표식 뒤, 강제로 펼쳐진 진실과 다정함",
+    "description": "2017년 한 편의 장난 영상에서 시작한 황씨 형제는 ‘산뜻하고 긍정적인’ 이미지로 YouTube 생태계에서 두각을 나타냈다. 그러나 2020년 한 강제 아웃팅 보도는 백만 구독자의 정점에 있던 이 형제가 카메라 앞에서 사생활을 해부당하도록 만들었고, 동시에 대만 사회가 성평등에 대해 보여 준 가장 다정한 집단적 응답을 뜻밖에도 그려 냈다.",
+    "category": "ko",
+    "tags": [
+      "유튜버",
+      "황씨 형제",
+      "웨이웨이",
+      "저저",
+      "성평등",
+      "대만 문화"
+    ],
+    "url": "https://taiwan.md/ko/People/huang-brothers-youtubers",
+    "readingTime": 19,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "ko/People/huang-brothers-youtubers.md"
+  },
+  {
     "title": "황위자오: 17년을 기다린 여성 정치인",
     "description": "1977년 중리사건의 현장에서 군중을 말린 58세의 약사 출신 성의원. 네 번 연임하며 북부 대만의 수원을 지켜낸 민진당 창당 원로",
     "category": "ko",
@@ -64234,6 +64905,17 @@
     "path": "ko/Culture/culinary-class-wars-in-taiwan.md"
   },
   {
+    "title": "アップルパン：リンゴのない島で、近代化という幻想を満たしたもの",
+    "description": "これは単なる一個のパンではありません。1960年代の台湾において、米国援助を背景に、小麦粉、記号、そして生存のレジリエンスによって編まれた近代化の実験でした。退役少佐の劉哲基は、「リンゴ」という贅沢の隠喩と日本の脱水技術を通じて、もともと味気ない軍用携行食を世代を超える国民的記憶へと転換し、戦後台湾社会が代替物によって現実との落差をどのように埋めたのかを示しました。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Food/taiwan-apple-bread",
+    "readingTime": 18,
+    "featured": false,
+    "date": "2026-05-30",
+    "path": "ja/Food/taiwan-apple-bread.md"
+  },
+  {
     "title": "アドバンテック",
     "description": "世界的な産業用コンピューターのリーディングカンパニーであり、台湾発のIoTスマートシステムの先駆者",
     "category": "ja",
@@ -64248,25 +64930,6 @@
     "featured": false,
     "date": "2026-03-20",
     "path": "ja/Economy/advantech-technology.md"
-  },
-  {
-    "title": "アン・リー",
-    "description": "台湾からハリウッドへ、二度のアカデミー賞監督賞に輝いた、異文化叙事の巨匠であり映画技術の革新者",
-    "category": "ja",
-    "tags": [
-      "人物",
-      "アン・リー",
-      "監督",
-      "アカデミー賞",
-      "映画",
-      "異文化",
-      "ハリウッド"
-    ],
-    "url": "https://taiwan.md/ja/People/ang-lee",
-    "readingTime": 34,
-    "featured": true,
-    "date": "2026-03-17",
-    "path": "ja/People/ang-lee.md"
   },
   {
     "title": "イン・ハイクァン（殷海光）：温州街十八巷で台湾に自由主義の種を蒔いた哲学者",
@@ -64289,6 +64952,17 @@
     "featured": false,
     "date": "2026-04-29",
     "path": "ja/Technology/wikipedia-in-taiwan.md"
+  },
+  {
+    "title": "エッグタルト：マカオの修道院から台湾の「一斉追随」へと至る集合的記憶",
+    "description": "1998 年に起きた急騰急落の「エッグタルト騒動」は、台湾社会における「一斉追随」型の消費行動を定義しただけでなく、台湾のケンタッキーフライドチキンを「フライドチキンに足を引っ張られたエッグタルト店」へと転換させることにもなりました。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Food/portuguese-egg-tart-in-taiwan",
+    "readingTime": 20,
+    "featured": false,
+    "date": "2026-06-01",
+    "path": "ja/Food/portuguese-egg-tart-in-taiwan.md"
   },
   {
     "title": "オードリー・タン：彼女の有名な決断は、すべて「天才」というラベルを拒むものでした",

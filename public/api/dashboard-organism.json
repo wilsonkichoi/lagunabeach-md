@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T15:09:56.778Z",
+  "lastUpdated": "2026-06-01T22:11:38.227Z",
   "organs": [
     {
       "id": "heart",
@@ -10,8 +10,8 @@
       "score": 90,
       "trend": "up",
       "metrics": {
-        "articlesLast7Days": 41,
-        "articlesLast30Days": 229,
+        "articlesLast7Days": 43,
+        "articlesLast30Days": 231,
         "totalArticles": 768
       }
     },
@@ -104,11 +104,11 @@
       "metrics": {
         "languageCoverage": {
           "zh-TW": 768,
-          "en": 779,
-          "ja": 768,
-          "ko": 763,
-          "es": 760,
-          "fr": 780
+          "en": 789,
+          "ja": 778,
+          "ko": 773,
+          "es": 770,
+          "fr": 790
         },
         "translationPct": 93,
         "langHealthDetails": {
@@ -127,8 +127,8 @@
               "pct": 100
             },
             "articles": {
-              "count": 779,
-              "pct": 101
+              "count": 789,
+              "pct": 103
             },
             "score": 100
           },
@@ -147,8 +147,8 @@
               "pct": 0
             },
             "articles": {
-              "count": 768,
-              "pct": 100
+              "count": 778,
+              "pct": 101
             },
             "score": 80
           },
@@ -167,8 +167,8 @@
               "pct": 100
             },
             "articles": {
-              "count": 763,
-              "pct": 99
+              "count": 773,
+              "pct": 101
             },
             "score": 100
           },
@@ -187,8 +187,8 @@
               "pct": 100
             },
             "articles": {
-              "count": 760,
-              "pct": 99
+              "count": 770,
+              "pct": 100
             },
             "score": 100
           },
@@ -207,8 +207,8 @@
               "pct": 25
             },
             "articles": {
-              "count": 780,
-              "pct": 102
+              "count": 790,
+              "pct": 103
             },
             "score": 86
           }

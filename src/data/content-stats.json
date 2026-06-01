@@ -1,19 +1,19 @@
 {
   "categories": {
     "About": 30,
-    "Art": 184,
+    "Art": 188,
     "Culture": 306,
-    "Economy": 267,
-    "Food": 267,
+    "Economy": 271,
+    "Food": 275,
     "Geography": 310,
-    "History": 217,
+    "History": 225,
     "Lifestyle": 141,
     "Music": 173,
     "Nature": 185,
-    "People": 1118,
-    "Politics": 46,
+    "People": 1130,
+    "Politics": 50,
     "Society": 396,
-    "Technology": 245,
+    "Technology": 249,
     "resources": 10,
     "people": 2
   },
@@ -309,6 +309,10 @@
     {
       "date": "2026-06-01",
       "count": 9
+    },
+    {
+      "date": "2026-06-02",
+      "count": 1
     }
   ],
   "updated": "2026-06-01"

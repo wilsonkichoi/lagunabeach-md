@@ -1,28 +1,28 @@
 {
-  "totalArticles": 4689,
+  "totalArticles": 4744,
   "totalCategories": 21,
   "estimatedContributors": 57,
-  "totalTags": 6331,
+  "totalTags": 6365,
   "categories": [
     {
       "name": "es",
-      "count": 771
+      "count": 782
     },
     {
       "name": "ko",
-      "count": 774
+      "count": 785
     },
     {
       "name": "fr",
-      "count": 791
+      "count": 802
     },
     {
       "name": "en",
-      "count": 792
+      "count": 803
     },
     {
       "name": "ja",
-      "count": 779
+      "count": 790
     },
     {
       "name": "History",
@@ -96,7 +96,7 @@
     },
     {
       "name": "人物",
-      "count": 63
+      "count": 61
     },
     {
       "name": "企業",
@@ -172,13 +172,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4689,
+    "zh-TW": 4744,
     "en": 0
   },
-  "lastUpdated": "2026-06-01T15:09:56.202Z",
+  "lastUpdated": "2026-06-01T22:11:37.531Z",
   "stars": 1014,
   "forks": 149,
-  "zhPages": 3897,
-  "enPages": 792,
-  "totalPages": 4689
+  "zhPages": 3941,
+  "enPages": 803,
+  "totalPages": 4744
 }

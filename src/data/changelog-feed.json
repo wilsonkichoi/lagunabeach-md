@@ -1,7 +1,49 @@
 {
-  "generatedAt": "2026-06-01T15:09:54.987Z",
+  "generatedAt": "2026-06-01T22:11:36.308Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "be6cc7f0957a0d5ced752302509a8395673afb21",
+      "date": "2026-06-02T01:22:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-02-012010-twmd-babel-nightly — 5 lang ALL 100% / 120 cells / wall-clock ~45 min"
+    },
+    {
+      "hash": "40894e77094cefcf36035945f507f3044d70f0e6",
+      "date": "2026-06-02T01:19:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 120 translations (cascade Tier 1 + Tier 0a + Tier 0b) — 5 lang ALL 100%"
+    },
+    {
+      "hash": "fa062cc11670ccb8346a468826f9709b813607af",
+      "date": "2026-06-01T23:36:22+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 李安 深度 EVOLVE — 拆掉編年體 filmography 重寫成「恐懼/壓抑/父親」脊椎策展文 + 7 官方影片 iframe + 3 CC 圖"
+    },
+    {
+      "hash": "c52b7eda3721b2cf81b7f7f7ee663d94bbbb73c9",
+      "date": "2026-06-01T23:12:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-01-231135-twmd-data-refresh-pm — 14-step ALL PASS + Step 11 全綠 + idlccp1984 batch 已 merge"
+    },
+    {
+      "hash": "3951afb08198fb5ea6c73711ccd4ba5980778a78",
+      "date": "2026-06-01T23:11:22+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-06-01 23:00"
+    },
+    {
+      "hash": "749b0f0ff296d4c0344f4fd8da7233d8cb2eb31a",
+      "date": "2026-06-01T23:35:44+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1126 from frank890417/finale-20260601"
+    },
+    {
+      "hash": "efeee985a176ba71a1576ced1fa01c2d69d0588e",
+      "date": "2026-06-01T23:35:25+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-01-232507-manual finale — idlccp1984 8-PR batch 收官 + 自我演化"
+    },
     {
       "hash": "6b4c08be561cea48e8b55541bd2b2e08cb89ef22",
       "date": "2026-06-01T23:03:54+08:00",
