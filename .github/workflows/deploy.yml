@@ -20,7 +20,11 @@ jobs:
     # (4 vCPU / 16 GB), and arm64 is reported 1.3-1.7× faster on Node + Sharp
     # workloads. Playwright Chromium binary supports linux/arm64 since 1.40.
     # If perf regresses, revert to ubuntu-latest in a hotfix.
-    runs-on: ubuntu-24.04-arm
+    # 2026-06-01 hotfix: ubuntu-24.04-arm pool 在 09:25–11:15 window 連 6 次把 build job
+    # 在隨機步驟（apt read 53s / sync 3min / build render）SIGTERM(143) 反覆 reclaim，
+    # 無競爭 push、本地 build exit 0、GitHub Status 全綠 = ARM runner pool 不穩。
+    # 切 x86 ubuntu-latest（deploy job 本來就用）避開該 pool。穩定後可評估切回 arm。
+    runs-on: ubuntu-latest
     # 2026-04-22 β post-mortem: run 24782448133 `npx playwright install --with-deps`
     # silent hang 6 小時才被 default 360 min timeout 殺掉。加上限避免重演。
     # 2026-05-02 γ: 35 → 60 — article volume grew (641 zh × 6 langs ≈ 3800 pages)
