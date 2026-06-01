@@ -702,6 +702,167 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ---
 
+### 公視 — 28 年弧線 趁熱 REACTIVE spore（5/27 NEW ship + 5/7 議場驅逐事件）
+
+- **Source-Mode**: `REACTIVE`
+- **Article-Path**: [knowledge/Society/公視.md](../../knowledge/Society/公視.md)
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-01 by twmd-news-lens-weekly (week 2026-W22, event: 公視 article NEW ship 5/27 + 2026-05-07 立法院議場董事長驅逐)
+- **Hook anchor 候選**：
+  1. **數字 hook**：「1998 開播、23 年九億預算緊箍咒、養出 5 部旗艦劇（《我們與惡的距離》《茶金》《通靈少女》《麻醉風暴》《一把青》）、2023-05 修法翻倍到 23 億、19 個月後遭刪 1% 凍結 25%、2026-05-07 董事長被請出立法院議場。28 年下來公視證明的事：緊箍咒解開不代表獨立性建立」
+  2. **場景 hook**：「2026 年 5 月 7 日早上，立法院教育委員會開議前。國民黨立委羅智強要求公視董事長胡元輝離席，理由是他已『任期屆滿』。文化部長李遠當場抗議，僵持後胡元輝起身走出議場。當天晚上他在臉書寫『個人遭遇事小，但公共媒體的尊嚴必須捍衛』。那一幕距離 1998-07-01 公視開播，剛好 28 年」
+  3. **問句 hook**：「為什麼《我們與惡的距離》是公視做的、不是商業電視台？答案藏在 1998 那條被通過的法律裡 — 政府預算捐贈逐年遞減、最終凍結在每年 9 億，這條條文綁了 23 年，公視只能拿那點錢拍別人不敢拍的題材」
+- **時效**：article ship 5/27 距今 5 天（趁熱窗口剩 ~9 天）+ 5/7 議場事件 25 天前仍是 active news anchor
+- **敏感度**：**高**（媒體獨立 / 黨派預算政治 / 立法院衝突）— 必須用 article §策展人筆記 28 年弧線中性 frame 起手，不站隊任一政黨；REACTIVE 但**先講歷史弧線後落地新聞事件**，不直接 callout 個別立委姓名（footnote 已存記錄即可，spore 文體要克制）
+- **必驗事實**：1998-07-01 公視開播 / 9 億預算 23 年緊箍咒 / 2023-05 修法解凍預算 23 億 / 19 個月後砍預算 1% 凍結 25% / 2026-05-07 議場驅逐董事長胡元輝 / 5 部旗艦劇片名 / 文化部長李遠抗議
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
+- **預估發佈時機**：本週內（6/1-6/7 趁熱窗口疊 5/7 議場事件 anchor 仍活）
+- **Notes**：
+  - from news-lens weekly 2026-06-01 (event: 公視 5/27 ship + 5/7 議場驅逐事件 仍熱, GA #14: 32 views/26 users, no spore yet — Society cluster spore 缺位; CF AI crawler 對「Taiwan public broadcasting」議題感興趣)
+  - 高敏感 REACTIVE 配 frame 規則：用 28 年歷史弧線敘事，不用「立委 X 違法驅逐」對抗 frame；hook 1/2/3 三條都從歷史結構切入再落地事件（per [二二八事件 entry §Notes](../factory/SPORE-INBOX.md) frame 範例）
+  - 多語 fan-out 觸發判斷 = 中（en 海外讀者對 Taiwan public broadcasting 結構 / 與 PBS NHK BBC 對照有 demand；ja 對日治臺灣放送協會→戰後公視轉型有歷史 anchor；5 lang tx 待 ship 後 verify）
+  - 配圖建議：article hero（公視 B 棟建築 2024 Yu tptw Wikimedia CC BY-SA 4.0）或 5 部旗艦劇 collage（fair-use editorial）
+  - Hook tier 自檢：避免 Tier 3「公視又被欺負了」受害者 frame；用 article §28 年弧線中性結構 frame 起手
+  - 跟 SPORE-LOG 14d 無重複（Society / 媒體 cluster spore 缺；最近 Society 大型 spore 是 #79 寶島聯播網訪談 5/5 — 27 天前 ≫ 14d ✓）
+
+---
+
+### 猴硐 — 鏡頭餵肥棄貓場 趁熱 REACTIVE spore（5/27 NEW ship + 2026-01 鏡週刊「滅村」框架反制）
+
+- **Source-Mode**: `REACTIVE`
+- **Article-Path**: [knowledge/Geography/猴硐.md](../../knowledge/Geography/猴硐.md)
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-01 by twmd-news-lens-weekly (week 2026-W22, event: 猴硐 article NEW ship 5/27 + 2026-01 鏡週刊 TNVR「滅村」框架報導)
+- **Hook anchor 候選**：
+  1. **場景 hook**：「2009 年攝影師簡佩玲（貓夫人）走進新北平溪線一座 1990 年瑞三鑛業停產後被遺忘 19 年的山城。她的鏡頭把猴硐變成 CNN 2013 評選的世界六大賞貓景點。但『貓咪天堂』這個名號養出全台最大棄貓場 — 2012 貓瘟、2013 至少 10 起虐貓、2022 棄貓案罰 11 萬。2014 貓夫人留下『不停消費貓、消費我、消費侯硐』退出」
+  2. **數字 hook**：「貓口從 200-300 隻 → 2026-01 剩 30+ 隻。鏡週刊用『滅村』兩個字當標題框架。但消失的不是貓村 — 是『單一網紅 IP 撐起的地方創生模式』。TNVR 把貓口控制到可承載量，是收尾，不是失敗」
+  3. **問句 hook**：「鏡頭可以救起一座礦業遺址，也可以餵肥一座棄貓場。誰要負責收尾？2009 走進來的攝影師、2013 把名字傳出去的 CNN、2014 退出的貓夫人、2024 設貓公所的光復里里長、2026 用『滅村』兩字下標的鏡週刊 — 17 年來，這道題沒有單一答案」
+- **時效**：article ship 5/27 距今 5 天（趁熱窗口剩 ~9 天）+ 2026-01 鏡週刊報導留下「滅村」反差 frame 仍有反駁空間
+- **敏感度**：中（地方創生 / 動保政策 / 在地產業利益）— 不踩動保倡議或商業反 TNVR 任一立場，以 article §反身性悖論 frame 起手（鏡頭救起 / 鏡頭餵肥 / TNR 收尾的三段反身結構）
+- **必驗事實**：1990-05-01 瑞三鑛業瑞山本坑關閉 / 2009 貓夫人走進光復里 / 2013 CNN 世界六大賞貓景點 / 2012 貓瘟 / 2013 至少 10 起虐貓事件 / 2022 棄貓案罰 11 萬 / 2014 貓夫人退出聲明原文 / 2024 貓公所成立 / 2026-01 鏡週刊滅村框架報導 / TNVR 200-300 隻 → 30+ 隻
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
+- **預估發佈時機**：本週內（6/1-6/7 趁熱窗口，可搭五月底動保話題或六月初端午連假觀光討論）
+- **Notes**：
+  - from news-lens weekly 2026-06-01 (event: 猴硐 5/27 ship + 2026-01 鏡週刊滅村報導 反制 frame 機會, GA: 暫未進 top 15 但 Geography 5/27 三件套 cluster 一起趁熱)
+  - 中敏感 REACTIVE，frame 用 article D anchor「反身性悖論」三段結構（鏡頭救起 / 鏡頭餵肥 / TNR 收尾），不寫「貓村已死」哀悼或「TNR 大勝利」勝利兩極
+  - 多語 fan-out 觸發判斷 = 高（ja 對日本田代島 / 青島貓島平行對照有 demand；en 對地方創生 + tourism overshoot 國際案例研究有 academic demand；5 lang tx 已 baseline）
+  - 配圖建議：article hero（基隆河猴硐段 CharlieDigital Wikimedia CC BY-SA 4.0）或瑞三鑛業整煤廠遺址（fair-use editorial）
+  - Hook tier 自檢：避免 Tier 3「貓村再見」悲情 frame 或「TNR 成功」宣傳 frame；用 article D anchor 反身性悖論 frame 起手
+  - 跟 SPORE-LOG 14d 無重複（Geography 大 cluster 最近 spore 是 #87/88 大稻埕 + #89/90 西門町 + #91 艋舺 5/25 — 但都是台北歷史街區 cluster，猴硐是聚落+動保獨立 sub-cluster ✓）
+
+---
+
+### 天燈 — 200 年身分 趁熱 spore（5/27 NEW ship + 326 公斤環境災難 anchor）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Culture/天燈.md](../../knowledge/Culture/天燈.md)
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-01 by twmd-news-lens-weekly (week 2026-W22, event: 天燈 article NEW ship 5/27 + 2019 326 公斤環境災難仍是國際媒體 frame)
+- **Hook anchor 候選**：
+  1. **數字 hook**：「1820 年代第一盞報平安的天燈 → 2019 元宵節隔天 326 公斤殘骸 → 2025 自治條例三讀通過。200 年從報平安信號到山林垃圾，主旋律是同一群平溪人扛兩個身分 — 天燈協會理事長姓胡，房子被燒毀的受害者也姓胡，老街攤商蔡媽媽跟基隆河守護聯盟陳建志喝同一條溪的水」
+  2. **場景 hook**：「2019 年 2 月 19 日清晨，元宵節隔天。25 名美國志工跟著 Taiwan Adventure Outings 進入平溪鐵道周邊。兩小時，他們從竹林、河谷、軌道兩側撿出 326.15 公斤的天燈殘骸 — 鐵絲扭曲的支架、被雨打濕的紙糊、燒到一半的金紙、菸盒。Taipei Times 那篇報導被 BBC、衛報、紐約時報、法新社援引，『環境災難』這個標籤從此釘上平溪」
+  3. **問句 hook**：「胡氏家族 200 年前在十分寮放出第一盞天燈，給躲到山上的家人看『土匪走了』。同一個姓今天扛兩個身分 — 天燈協會理事長胡民樹、72 歲房子被燒毀的胡維銘。一個賺、一個賠、整村清。為什麼 200 年後同一個信號變成同一個家族的雙面？」
+  4. **身份 hook**：「下次在平溪放天燈的時候，記得那不是觀光景點發明的儀式 — 是 1820 年代胡氏家族避難山林的求生通訊，200 年後變成 326 公斤殘骸的環境難題，也變成在地產業、受害者、環團、下一代四方 50 年議題」
+- **時效**：article ship 5/27 距今 5 天（趁熱窗口剩 ~9 天）+ 2025-12 自治條例公告 + 2026 罰則生效日期可作 anchor
+- **敏感度**：低-中（環境議題 + 在地產業利益 + 文化資產）— 用 article §四方並陳結構 frame（產業派 / 受害者派 / 環團派 / 下一代派），不站隊
+- **必驗事實**：1820 年代胡氏家族在十分寮放第一盞天燈 / 1988 觀光化 / 2013 CNN 世界 52 必去 / 2016 國家地理 全球十大冬季旅遊 / 2019-02-19 元宵隔天 326.15 公斤 / 2019-06 胡維銘 72 歲房子被燒 / Taipei Times Davina Tham 報導 / 2025 自治條例 / 2026 罰則生效
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
+- **預估發佈時機**：本週內（6/1-6/7 趁熱），可搭端午（6/19）前環境永續觀光話題前置 buffer
+- **Notes**：
+  - from news-lens weekly 2026-06-01 (event: 天燈 5/27 ship + 2019 326 公斤事件 + 2025 自治條例 三層 anchor 仍熱)
+  - 中敏感配 frame 規則：用 article §四方並陳（產業/受害者/環團/下一代），不二元化
+  - 多語 fan-out 觸發判斷 = 極高（天燈是台灣最強國際 SEO 文化符號之一，en/ja/ko 對 sky lantern Taiwan / Pingxi 搜尋量高，2019 326kg 事件英文媒體大量引用，海外讀者有 first-person 角度 demand；5 lang tx 已 baseline）
+  - 配圖建議：article hero（Jirka Matousek 平溪天燈節 2014 Wikimedia CC BY 2.0）或 326 公斤殘骸 Taipei Times 報導圖（fair-use editorial 標明出處）
+  - Hook tier 自檢：避免 Tier 3「天燈污染必須禁」環團 advocacy frame 或「天燈很美 must-visit」觀光手冊 frame；用 article 四方並陳結構 frame 起手
+  - 跟 SPORE-LOG 14d 無重複（Culture / 節慶 cluster spore 缺，最近 Culture spore 是 #51-54 4 月底 — 30+ 天前 ≫ 14d ✓）
+
+---
+
+### 台灣藍鵲 — SC 缺口 REACTIVE spore（SC 215 imp / 0 click / position 2.35 高 demand 低 ranking 補位）
+
+- **Source-Mode**: `REACTIVE`
+- **Article-Path**: [knowledge/Nature/台灣藍鵲.md](../../knowledge/Nature/台灣藍鵲.md)
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-01 by twmd-news-lens-weekly (week 2026-W22, event: SC top opportunity 7d 「台灣藍鵲」215 impressions / 0 clicks / position 2.35 / 無對應 spore push reach)
+- **Hook anchor 候選**：
+  1. **問句 hook**：「為什麼 2007 年那場國鳥選舉 18 萬票投給台灣藍鵲不是黑面琵鷺？答案不是因為牠藍得漂亮 — 是因為這顆山林寶石會打群架。97% 的巢用『巢邊幫手制』集體育雛，家族成員會發動空襲護巢，比黑面琵鷺更像台灣」
+  2. **數字 hook**：「1862 年英國領事郇和在淡水收到兩根亮藍色尾羽，憑羽毛末端的白點判斷是新種。164 年後台灣藍鵲面臨外來種紅嘴藍鵲基因污染、3 隻搶食大安森林公園貓糧、巢邊幫手制 97% 適用率 — 從中低海拔闊葉林進駐到都市叢林的『藍色幫派』」
+  3. **場景 hook**：「清晨六點，大安森林公園靠近建國南路那側。三隻台灣藍鵲低空俯衝，搶走志工剛擺好給流浪貓的乾糧。牠們不是迷路 — 牠們是進城。從中低海拔闊葉林到都市叢林，藍色幫派的領域版圖正在改寫」
+  4. **身份 hook**：「你以為國鳥是黑面琵鷺？2007 年 18 萬票選的是台灣藍鵲。下次在公園看到那道藍色閃光，記得那不是流浪鳥 — 是一個 97% 巢邊幫手制的家族在巡邏」
+- **時效**：non-time-sensitive 但 SC 215 imp 7d 顯示有人正在 actively 搜尋；越早 push reach 越好補位
+- **敏感度**：低（特有種保育 / 國鳥討論中性）
+- **必驗事實**：1862 郇和（Robert Swinhoe）在淡水採集首個標本 / 2007 國鳥票選 18 萬票 / 巢邊幫手制 97% 適用率 / 紅嘴藍鵲基因污染議題 / 大安森林公園都市進駐 / 鄒族布農族傳說 / 學名 Urocissa caerulea 台灣特有種
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在 4/30 ship）
+- **預估發佈時機**：本週內（6/1-6/7）— SC 缺口越快補越好，無時間窗口限制
+- **Notes**：
+  - from news-lens weekly 2026-06-01 (event: SC 7d 「台灣藍鵲」215 impressions / 0 clicks / position 2.35 — Top SC opportunity #1, 無對應 spore push reach; article 4/30 ship 後 32 天無 spore)
+  - 低敏感無 frame 限制
+  - 多語 fan-out 觸發判斷 = 高（Taiwan Blue Magpie 是國際 birdwatching cluster 強 SEO 詞，en 對 endemic bird species 有 demand，ja 對台湾固有種 / 観光鳥類 有需求；5 lang tx 待 verify baseline）
+  - 配圖建議：article hero（Wikimedia 台灣藍鵲特寫，多張 CC 授權可用）或大安森林公園都市進駐場景
+  - Hook tier 自檢：避免 Tier 3「國鳥！台灣之光！」民族主義 frame；用 article §巢邊幫手制 + 都市進駐 結構 frame 起手
+  - 跟 SPORE-LOG 14d 無重複（Nature cluster 最近 spore 是 #54 黑冠麻鷺 4/30 — 32 天前 ≫ 14d ✓）
+
+---
+
+### 李國修 — SC 高曝光人物 EXISTING-ARTICLE spore（SC 596 imp / 6 clicks / CTR 1.01% / position 1.93 高 demand 但 metadata 失效）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/People/李國修.md](../../knowledge/People/李國修.md)
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-01 by twmd-news-lens-weekly (week 2026-W22, event: SC top query 7d 「李國修」596 impressions / 6 clicks / CTR 1.01% / position 1.93 — 已第二名但 CTR 偏低 = title/description metadata 失效，spore 補 reach + 順便 review metadata)
+- **Hook anchor 候選**：
+  1. **數字 hook**：（待 article ship 時校準）「屏風表演班 24 年（1986-2010）/ 27 部原創舞台劇 / 2013-07-02 直腸癌 58 歲早逝。從『有個結巴的孩子，在劇場找到了聲音』那一年算起到今天 39 年，台灣劇場有他、跟沒他，是兩個世界」
+  2. **問句 hook**（待 article ship 時校準）：「為什麼台灣本土喜劇有屏風表演班、表演工作坊兩條根？答案藏在 1980 年代蘭陵劇坊那批人各自離開後選擇的路線分歧 — 賴聲川走實驗 / 李國修走本土民間，這兩條路後來都成了台灣劇場的主幹」
+  3. **場景 hook**（待 article ship 時校準）：「1986 年 10 月，西門町。剛從蘭陵離隊的李國修跟劉若瑀、李立群在一個地下室開了屏風表演班。第一齣戲票房慘淡，三人坐在台下發呆。誰也沒想到這個地下室後來會養出 27 部原創、《京戲啟示錄》《女兒紅》《半里長城》三大代表作」
+  4. **身份 hook**：「你聽過《京戲啟示錄》？那是李國修。看過《女兒紅》？那是他。屏風表演班、京劇之外的台灣本土喜劇大半個傳統，是這個結巴男孩 24 年用 27 部原創撐出來的 — 58 歲走的時候，台灣劇場一夜空了一塊」
+- **時效**：non-time-sensitive 但 SC 596 imp 7d 顯示有人 actively 搜尋名字；CTR 1% = 標題吸引力低，spore push 直接 reach 比優化 metadata 更快
+- **敏感度**：低（已故文化人物 / 劇場史中性）
+- **必驗事實**（**HG: 必須先讀 article 校準**，article 內容可能跟此處草稿不一致）：李國修生卒年 / 屏風表演班創立年（1986）/ 27 部原創數字 / 京戲啟示錄 / 女兒紅 / 半里長城 三大代表作確認 / 蘭陵劇坊出身 / 2013-07-02 直腸癌離世
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
+- **預估發佈時機**：本週內（6/1-6/7）— SC 高 demand 越早 push 越好；可搭順便 review 標題/description 是否需要 SEO 校準（CTR 1.01% 是 metadata 警訊）
+- **Notes**：
+  - from news-lens weekly 2026-06-01 (event: SC 7d 「李國修」596 impressions / 6 clicks / position 1.93 — 已排名第二但 CTR 1.01% 偏低，metadata 可能失效；spore 補 reach 同時 trigger metadata review)
+  - 低敏感無 frame 限制
+  - **SEO 副作用提示**：Stage 1 PICK 抽到此 entry 時，建議同時跑 [knowledge/People/李國修.md](../../knowledge/People/李國修.md) 的 title/description SEO review（CTR 1.01% 是 metadata 失效 signal，per EVOLVE-PIPELINE §SEO 優化判準）
+  - 多語 fan-out 觸發判斷 = 中（People cluster；ja 對台湾劇場史 + 賴聲川對照有 demand；5 lang tx 待 verify baseline）
+  - 配圖建議：article 既有圖（若有）或屏風表演班海報 fair-use editorial / 李國修舞台照
+  - Hook tier 自檢：避免 Tier 3「台灣喜劇之神」神化 frame；用 article 結構 frame 起手 — Stage 1 PICK 前必須先 Read article 才能定 hook 細節
+  - 跟 SPORE-LOG 14d 無重複（People cluster 最近 spore 是 #95/96 尹衍樑 5/26 + #91 江賢二 5/25 + #94 大宇雙劍創辦人段 5/26 — 14d 內 People 已 3 條，但李國修是劇場/喜劇 sub-cluster 跟 Tech 創辦人 / 視覺藝術家 sub-cluster 不撞 ✓）
+
+---
+
+### 洪醒夫 — SC 已 #1 排名 補位 EXISTING-ARTICLE spore（SC 237 imp / 7 clicks / CTR 2.95% / position 1.14 排名第一但流量天花板）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/People/洪醒夫.md](../../knowledge/People/洪醒夫.md)
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-01 by twmd-news-lens-weekly (week 2026-W22, event: SC top query 7d 「洪醒夫」237 impressions / 7 clicks / CTR 2.95% / position 1.14 — 已排名第一但 CTR < 5% 顯示 SERP click 流量被 Wikipedia / 教科書摘要切走，spore 補社群 reach)
+- **Hook anchor 候選**（**待 article ship 時校準**，下方為草稿）：
+  1. **場景 hook**：「1982 年 7 月 31 日下午，台一線員林段。洪醒夫的車對撞翻覆。33 歲的鄉土小說家當場辭世。他留下的《田莊老師之死》《散戲》《市井傳奇》是 1970-80 年代台灣鄉土文學最完整的鄉村塑像之一」
+  2. **數字 hook**：「33 歲離世、4 本短篇小說集、12 篇代表作。鄉土文學論戰 1977 那批人裡，黃春明、王禎和、陳映真、宋澤萊都還在，洪醒夫是唯一沒走完那場辯論的」
+  3. **問句 hook**：「為什麼國中課本〈散戲〉印象那麼深？答案藏在洪醒夫寫法的克制 — 他不寫鄉村悲情，他寫鄉村做為勞動、生死、人情交織的場域，這是宋澤萊《打牛湳村》以外另一條鄉土寫實的路」
+  4. **身份 hook**：「你讀過國中課文〈散戲〉？那是洪醒夫，33 歲在台一線員林段車禍走的鄉土小說家。他留下的書比他活的歲數多 — 4 本短篇集、12 篇代表作，1977 鄉土文學論戰那批人少數沒走完辯論的一個」
+- **時效**：non-time-sensitive 但 SC 237 imp 7d 顯示穩態搜尋量；7/31 忌日將至（55 天後）可作 anchor preview，但本 spore 不一定要綁忌日
+- **敏感度**：低-中（鄉土文學論戰可能踩政治；用文學作品 anchor 中性處理）
+- **必驗事實**（**HG: 必須先讀 article 校準**）：洪醒夫生卒年（1949-1982）/ 1982-07-31 車禍地點台一線員林段 / 享年 33 歲 / 4 本短篇小說集名稱 + 出版年 / 12 篇代表作或主要篇目 / 1977 鄉土文學論戰參與 / 黃春明 王禎和 陳映真 宋澤萊 同代脈絡
+- **必先 spawn ARTICLE-INBOX entry**：❌（article 已存在）
+- **預估發佈時機**：本週內（6/1-6/7）— SC 穩態搜尋越早 push 越好；7/31 忌日 anchor 可作後續 SPORE 第二輪 plan
+- **Notes**：
+  - from news-lens weekly 2026-06-01 (event: SC 7d 「洪醒夫」237 impressions / 7 clicks / position 1.14 — 已排名第一但 CTR < 5% = SERP click 被 Wikipedia / 教科書摘要切走; spore 直接 push 社群 reach 比 SEO 優化更直接)
+  - 中敏感（鄉土文學論戰）用文學作品 anchor 中性處理
+  - **多語 fan-out 觸發判斷** = 低-中（People / Literature；國際 demand 不如政治文化人物高，但 ja 對台湾鄉土文學 1970s 比較研究有 academic 受眾）
+  - 配圖建議：article 既有圖（若有）/《田莊老師之死》或《散戲》書影 fair-use editorial / 洪醒夫肖像（若 CC 授權可得）
+  - Hook tier 自檢：避免 Tier 3「鄉土文學大師」神化 frame；用 article 結構 frame 起手 — Stage 1 PICK 前必須先 Read article 才能定 hook 細節
+  - 跟 SPORE-LOG 14d 無重複（People 文學 sub-cluster 缺；最近 People spore 都集中在企業家 / 藝術家 / 音樂人，文學人物 spore 上次 #N 暫無近期記錄）
+
+---
+
 ## 📜 已發歷史
 
 → 完整紀錄見 [SPORE-LOG.md §發文紀錄](SPORE-LOG.md) + [SPORE-HARVESTS/](SPORE-HARVESTS/) batch logs。本檔不存 done 痕跡（per 完成歸檔鐵律）。
