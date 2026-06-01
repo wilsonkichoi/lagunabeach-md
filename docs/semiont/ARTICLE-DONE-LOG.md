@@ -59,6 +59,20 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 李安 EVOLVE — 2026-06-01 manual（哲宇 explicit /twmd-rewrite「深度研究李安」+ 中途 directive「補很多影片跟多媒體素材／sub-agent 強制讀 EDITORIAL」— People 電影與戲劇 / 多 agent 編排 v6.3 全跑）
+
+- **Article**: [knowledge/People/李安.md](../../knowledge/People/李安.md) — 舊編年體 filmography（~16.5KB / 5 footnote / 0 圖 / 0 媒體）全文重寫 → **7,164 CJK / 50 footnote / 11 直引語 / 3 圖（hero+2 inline CC）/ 7 官方影片 iframe / 10 場景式 H2**
+- **Pipeline**: REWRITE-PIPELINE v6.3 — EVOLVE 模式（非 callout-triggered）。多 agent 編排：觀點 Opus orchestrator blind to 舊編年體框架 / 6 個 Sonnet research fan-out falsification-first / fresh Opus writer 只吃 fact-pack（強制讀 EDITORIAL gate）/ 主 session 一手 spot-check 引語 + oembed 驗 7 iframe 官方性
+- **核心矛盾**：世人記得的是兩座奧斯卡的台灣之光，但他拍了一輩子的，是壓抑、恐懼，和那個沒能對父親好好說再見的兒子
+- **Hook**：2006 奧斯卡台上用國語說「謝謝大家的關心」/ 六年在家煮飯的失業女婿 / 父親臨終「戴著鋼盔往前衝」/「當我感覺很安全的時候，反而是最不安」
+- **品質**：rewrite-stage-4 hard=0 / rewrite-stage-3-5（footnote+correction-meta）hard=0 warn=0 / prose-health score 2（≤3）/ 破折號 44→3 / 對位 2（皆合法 reverse-explanation）/ word-count 159%
+- **falsification 修正**：恩師 Mackendrick@NYU=錯（CalArts，真實人脈是同學 Spike Lee）/《追打》是 1980 一年級作非 1984 / 推手亞太影展最佳影片非最佳導演 / 優良劇本獎只釘死推手首獎 40 萬 / 金馬主席 2018-2022 非 2018-2020 / 母親姓名分歧故略 / 補上舊文漏掉的《綠巨人浩克》與《色，戒》正文
+- **媒體**：7 oembed-verified 官方 iframe（推手 Film Movement / 理性與感性 Sony / 臥虎藏龍 SPC / 色戒 Focus / 少年Pi 20th Century / 比利林恩 Sony / 雙子殺手 Paramount）+ 3 CC 圖（BAFTA 2013 hero / HKAFF 2007 / Cannes 2013）。斷背山/囍宴/飲食男女/浩克查無官方影片故不嵌
+- **Research**: [reports/research/2026-06/李安.md](../../reports/research/2026-06/李安.md)
+- **Cross-link**: 延伸閱讀 → 台灣電影 / 侯孝賢 / 楊德昌 / 蔡明亮；reverse cross-link 補進楊德昌（侯孝賢 pre-existing format warn 故 defer）
+- **政治敏感處理**：2018 金馬傅榆事件中性記錄事件本身 + 李安維護電影獨立於政治的 verbatim，未替 Taiwan.md 對兩岸主權表態（per §自主權邊界）
+- **待哲宇驗證**：lastHumanReview=false；2006 奧斯卡感言敘事略作壓縮（quit-you 開場 + 謝謝大家的關心結尾，皆 verbatim 屬實）
+
 ### 瘂弦 NEW — 2026-05-28 twmd-rewrite-daily（戰後第一代詩人 / 2024-10 辭世趁熱 / 一冊不再傳奇 / 「36 歲封筆後在《聯副》21 年用編輯台繼續寫詩」）
 
 - **Article**: [knowledge/People/瘂弦.md](../../knowledge/People/瘂弦.md) — ~25.9 KB / 18 footnote / 8 H2
