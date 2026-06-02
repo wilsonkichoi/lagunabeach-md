@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-02T23:09:03+08:00",
-    "zhCommitHead": "7d2b0fef9",
+    "lastUpdated": "2026-06-03T00:41:12+08:00",
+    "zhCommitHead": "94fc0c578",
     "totalZh": 780,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
@@ -2082,8 +2082,8 @@
     },
     "Music/落日飛車.md": {
       "zh": {
-        "lastCommit": "0f6f4ed7",
-        "lastModified": "2026-05-27T18:17:42+08:00",
+        "lastCommit": "91eb4403",
+        "lastModified": "2026-06-02T23:09:45+08:00",
         "contentHash": "sha256:a199eb8f6aa7f0fc",
         "bodyHash": "sha256:2680b892b33ad9fa"
       },
@@ -2091,7 +2091,7 @@
         "en": {
           "path": "en/Music/sunset-rollercoaster.md",
           "translatedFrom": "Music/落日飛車.md",
-          "sourceCommitSha": "0f6f4ed7a",
+          "sourceCommitSha": "91eb4403",
           "sourceContentHash": "sha256:a199eb8f6aa7f0fc",
           "sourceBodyHash": "sha256:2680b892b33ad9fa",
           "translatedAt": "2026-05-28T05:08:33+08:00",
@@ -2104,7 +2104,7 @@
         "ja": {
           "path": "ja/Music/sunset-rollercoaster.md",
           "translatedFrom": "Music/落日飛車.md",
-          "sourceCommitSha": "0f6f4ed7a",
+          "sourceCommitSha": "91eb4403",
           "sourceContentHash": "sha256:a199eb8f6aa7f0fc",
           "sourceBodyHash": "sha256:2680b892b33ad9fa",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -2117,7 +2117,7 @@
         "ko": {
           "path": "ko/Music/sunset-rollercoaster.md",
           "translatedFrom": "Music/落日飛車.md",
-          "sourceCommitSha": "0f6f4ed7a",
+          "sourceCommitSha": "91eb4403",
           "sourceContentHash": "sha256:a199eb8f6aa7f0fc",
           "sourceBodyHash": "sha256:2680b892b33ad9fa",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -2130,7 +2130,7 @@
         "es": {
           "path": "es/Music/sunset-rollercoaster.md",
           "translatedFrom": "Music/落日飛車.md",
-          "sourceCommitSha": "0f6f4ed7a",
+          "sourceCommitSha": "91eb4403",
           "sourceContentHash": "sha256:a199eb8f6aa7f0fc",
           "sourceBodyHash": "sha256:2680b892b33ad9fa",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -2143,7 +2143,7 @@
         "fr": {
           "path": "fr/Music/sunset-rollercoaster.md",
           "translatedFrom": "Music/落日飛車.md",
-          "sourceCommitSha": "0f6f4ed7a",
+          "sourceCommitSha": "91eb4403",
           "sourceContentHash": "sha256:a199eb8f6aa7f0fc",
           "sourceBodyHash": "sha256:2680b892b33ad9fa",
           "translatedAt": "2026-05-28T05:08:35+08:00",
@@ -9882,8 +9882,8 @@
     },
     "Technology/大宇雙劍.md": {
       "zh": {
-        "lastCommit": "decc6fc1",
-        "lastModified": "2026-05-28T23:13:26+08:00",
+        "lastCommit": "91eb4403",
+        "lastModified": "2026-06-02T23:09:45+08:00",
         "contentHash": "sha256:8e80804c9910ac1a",
         "bodyHash": "sha256:c6e2238f1a2c15d5"
       },
@@ -9891,7 +9891,7 @@
         "en": {
           "path": "en/Technology/softstar-twin-classics.md",
           "translatedFrom": "Technology/大宇雙劍.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "91eb4403",
           "sourceContentHash": "sha256:8e80804c9910ac1a",
           "sourceBodyHash": "sha256:c6e2238f1a2c15d5",
           "translatedAt": "2026-05-29T00:35:00+08:00",
@@ -9904,7 +9904,7 @@
         "ja": {
           "path": "ja/Technology/softstar-twin-classics.md",
           "translatedFrom": "Technology/大宇雙劍.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "91eb4403",
           "sourceContentHash": "sha256:8e80804c9910ac1a",
           "sourceBodyHash": "sha256:c6e2238f1a2c15d5",
           "translatedAt": "2026-05-29T00:35:00+08:00",
@@ -9917,7 +9917,7 @@
         "ko": {
           "path": "ko/Technology/softstar-twin-classics.md",
           "translatedFrom": "Technology/大宇雙劍.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "91eb4403",
           "sourceContentHash": "sha256:8e80804c9910ac1a",
           "sourceBodyHash": "sha256:c6e2238f1a2c15d5",
           "translatedAt": "2026-05-29T00:35:00+08:00",
@@ -9930,7 +9930,7 @@
         "es": {
           "path": "es/Technology/softstar-twin-classics.md",
           "translatedFrom": "Technology/大宇雙劍.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "91eb4403",
           "sourceContentHash": "sha256:8e80804c9910ac1a",
           "sourceBodyHash": "sha256:c6e2238f1a2c15d5",
           "translatedAt": "2026-05-29T00:35:00+08:00",
@@ -9943,7 +9943,7 @@
         "fr": {
           "path": "fr/Technology/softstar-twin-classics.md",
           "translatedFrom": "Technology/大宇雙劍.md",
-          "sourceCommitSha": "decc6fc1",
+          "sourceCommitSha": "91eb4403",
           "sourceContentHash": "sha256:8e80804c9910ac1a",
           "sourceBodyHash": "sha256:c6e2238f1a2c15d5",
           "translatedAt": "2026-05-29T00:35:00+08:00",
@@ -30057,19 +30057,19 @@
     },
     "People/尊.md": {
       "zh": {
-        "lastCommit": "4b6d28c5",
-        "lastModified": "2026-05-08T16:59:31+08:00",
-        "contentHash": "sha256:a6815e61d9f9974b",
-        "bodyHash": "sha256:98e516e5b31fe3b8"
+        "lastCommit": "e9a16926",
+        "lastModified": "2026-06-03T00:24:13+08:00",
+        "contentHash": "sha256:819aa11b63d4ce35",
+        "bodyHash": "sha256:3521b01769e0a2d4"
       },
       "translations": {
         "en": {
           "path": "en/People/zun.md",
           "translatedFrom": "People/尊.md",
-          "sourceCommitSha": "4b6d28c54",
-          "sourceContentHash": "sha256:a6815e61d9f9974b",
-          "sourceBodyHash": "sha256:98e516e5b31fe3b8",
-          "translatedAt": "2026-05-09T11:09:57+08:00",
+          "sourceCommitSha": "e9a16926e",
+          "sourceContentHash": "sha256:819aa11b63d4ce35",
+          "sourceBodyHash": "sha256:3521b01769e0a2d4",
+          "translatedAt": "2026-06-03T00:36:16+08:00",
           "translationLastCommit": "45f38fef",
           "translationLastModified": "2026-05-09T12:10:53+08:00",
           "inferred": false,
@@ -30079,10 +30079,10 @@
         "ja": {
           "path": "ja/People/zun.md",
           "translatedFrom": "People/尊.md",
-          "sourceCommitSha": "4b6d28c54",
-          "sourceContentHash": "sha256:a6815e61d9f9974b",
-          "sourceBodyHash": "sha256:98e516e5b31fe3b8",
-          "translatedAt": "2026-05-09T11:09:57+08:00",
+          "sourceCommitSha": "e9a16926e",
+          "sourceContentHash": "sha256:819aa11b63d4ce35",
+          "sourceBodyHash": "sha256:3521b01769e0a2d4",
+          "translatedAt": "2026-06-03T00:36:19+08:00",
           "translationLastCommit": "45f38fef",
           "translationLastModified": "2026-05-09T12:10:53+08:00",
           "inferred": false,
@@ -30092,10 +30092,10 @@
         "ko": {
           "path": "ko/People/zun.md",
           "translatedFrom": "People/尊.md",
-          "sourceCommitSha": "4b6d28c54",
-          "sourceContentHash": "sha256:a6815e61d9f9974b",
-          "sourceBodyHash": "sha256:98e516e5b31fe3b8",
-          "translatedAt": "2026-05-09T11:09:57+08:00",
+          "sourceCommitSha": "e9a16926e",
+          "sourceContentHash": "sha256:819aa11b63d4ce35",
+          "sourceBodyHash": "sha256:3521b01769e0a2d4",
+          "translatedAt": "2026-06-03T00:36:19+08:00",
           "translationLastCommit": "45f38fef",
           "translationLastModified": "2026-05-09T12:10:53+08:00",
           "inferred": false,
@@ -30105,10 +30105,10 @@
         "es": {
           "path": "es/People/zun.md",
           "translatedFrom": "People/尊.md",
-          "sourceCommitSha": "4b6d28c54",
-          "sourceContentHash": "sha256:a6815e61d9f9974b",
-          "sourceBodyHash": "sha256:98e516e5b31fe3b8",
-          "translatedAt": "2026-05-09T11:09:57+08:00",
+          "sourceCommitSha": "e9a16926e",
+          "sourceContentHash": "sha256:819aa11b63d4ce35",
+          "sourceBodyHash": "sha256:3521b01769e0a2d4",
+          "translatedAt": "2026-06-03T00:36:19+08:00",
           "translationLastCommit": "45f38fef",
           "translationLastModified": "2026-05-09T12:10:53+08:00",
           "inferred": false,
@@ -30118,10 +30118,10 @@
         "fr": {
           "path": "fr/People/zun.md",
           "translatedFrom": "People/尊.md",
-          "sourceCommitSha": "4b6d28c54",
-          "sourceContentHash": "sha256:a6815e61d9f9974b",
-          "sourceBodyHash": "sha256:98e516e5b31fe3b8",
-          "translatedAt": "2026-05-09T11:09:58+08:00",
+          "sourceCommitSha": "e9a16926e",
+          "sourceContentHash": "sha256:819aa11b63d4ce35",
+          "sourceBodyHash": "sha256:3521b01769e0a2d4",
+          "translatedAt": "2026-06-03T00:36:20+08:00",
           "translationLastCommit": "45f38fef",
           "translationLastModified": "2026-05-09T12:10:53+08:00",
           "inferred": false,
@@ -47982,8 +47982,8 @@
     },
     "History/國家人權博物館.md": {
       "zh": {
-        "lastCommit": "51f3c6a8",
-        "lastModified": "2026-05-26T18:34:36+08:00",
+        "lastCommit": "91eb4403",
+        "lastModified": "2026-06-02T23:09:45+08:00",
         "contentHash": "sha256:2f06c4f836b83834",
         "bodyHash": "sha256:a49e0a9584cc26cc"
       },
@@ -47991,7 +47991,7 @@
         "en": {
           "path": "en/History/national-human-rights-museum.md",
           "translatedFrom": "History/國家人權博物館.md",
-          "sourceCommitSha": "51f3c6a8e",
+          "sourceCommitSha": "91eb4403",
           "sourceContentHash": "sha256:2f06c4f836b83834",
           "sourceBodyHash": "sha256:a49e0a9584cc26cc",
           "translatedAt": "2026-05-28T05:08:33+08:00",
@@ -48004,7 +48004,7 @@
         "ja": {
           "path": "ja/History/national-human-rights-museum.md",
           "translatedFrom": "History/國家人權博物館.md",
-          "sourceCommitSha": "51f3c6a8e",
+          "sourceCommitSha": "91eb4403",
           "sourceContentHash": "sha256:2f06c4f836b83834",
           "sourceBodyHash": "sha256:a49e0a9584cc26cc",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -48017,7 +48017,7 @@
         "ko": {
           "path": "ko/History/national-human-rights-museum.md",
           "translatedFrom": "History/國家人權博物館.md",
-          "sourceCommitSha": "51f3c6a8e",
+          "sourceCommitSha": "91eb4403",
           "sourceContentHash": "sha256:2f06c4f836b83834",
           "sourceBodyHash": "sha256:a49e0a9584cc26cc",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -48030,7 +48030,7 @@
         "es": {
           "path": "es/History/national-human-rights-museum.md",
           "translatedFrom": "History/國家人權博物館.md",
-          "sourceCommitSha": "51f3c6a8e",
+          "sourceCommitSha": "91eb4403",
           "sourceContentHash": "sha256:2f06c4f836b83834",
           "sourceBodyHash": "sha256:a49e0a9584cc26cc",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -48043,7 +48043,7 @@
         "fr": {
           "path": "fr/History/national-human-rights-museum.md",
           "translatedFrom": "History/國家人權博物館.md",
-          "sourceCommitSha": "51f3c6a8e",
+          "sourceCommitSha": "91eb4403",
           "sourceContentHash": "sha256:2f06c4f836b83834",
           "sourceBodyHash": "sha256:a49e0a9584cc26cc",
           "translatedAt": "2026-05-28T05:08:35+08:00",
