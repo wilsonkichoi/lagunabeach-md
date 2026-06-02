@@ -282,23 +282,6 @@
     "path": "ko/People/su-chiao-hui.md"
   },
   {
-    "title": "\"존: ‘황모주''에서 대만 최연소 만 구독자 유튜버로, 청류 라벨 아래의 고독한 실험\"",
-    "description": "\"2017년, 19세의 주위엔(朱玉恩)은 대만 세 번째 만 구독자 유튜버가 되었다. 일본식 스타일로 커뮤니티를 휩쓴 ‘인생비존(人生肥宅)’은 ‘YT계 유일한 청류’로 불리는 동시에, 표절로 시작해 협찬 사고, 가족 논란에 연달아 휘말리며 스스로를 변명하는 과정을 겪었다.\"",
-    "category": "ko",
-    "tags": [
-      "유튜버",
-      "존",
-      "대만 문화",
-      "온라인 크리에이터",
-      "인생비존"
-    ],
-    "url": "https://taiwan.md/ko/People/zun",
-    "readingTime": 13,
-    "featured": false,
-    "date": "2026-05-03",
-    "path": "ko/People/zun.md"
-  },
-  {
     "title": "« A Shen »",
     "description": "Le 15 octobre 2023, A Shen, streamer de jeux vidéo comptant 300 000 abonnés, a mis en ligne sa dernière vidéo, mettant officiellement fin à 14 ans de carrière créative. Cet artiste, devenu célèbre grâce à ses séries sur *Minecraft* et auteur du mythe d'une mise à jour quotidienne ininterrompue pendant 11 ans consécutifs, a choisi de se retirer au sommet de sa carrière, avouant avoir « vécu comme une machine », révélant ainsi la lutte acharnée que mènent les créateurs de premier plan entre l'algorithme et leur propre existence.",
     "category": "fr",
@@ -16597,6 +16580,25 @@
     "path": "People/莫那·魯道.md"
   },
   {
+    "title": "莫那能：兩種盲，一本詩集",
+    "description": "第一位出版漢語現代詩集的原住民詩人莫那能 1979 年才失明，1989 年由晨星出版《美麗的稻穗》。〈來，乾一杯〉那句「一千八百萬人自決的口號／聽不到我們的歎息」把「誰算台灣人」的問題寫進了 30 首詩 — 37 年後讀，那個提問還沒有人回答。",
+    "category": "People",
+    "tags": [
+      "原住民",
+      "詩",
+      "文學",
+      "排灣族",
+      "原運",
+      "台東",
+      "1980s"
+    ],
+    "url": "https://taiwan.md/People/%E8%8E%AB%E9%82%A3%E8%83%BD",
+    "readingTime": 40,
+    "featured": false,
+    "date": "2026-06-03",
+    "path": "People/莫那能.md"
+  },
+  {
     "title": "蚵仔煎：從貧困到國民美食的味蕾演變史",
     "description": "一道源於糧食匱乏的台灣小吃，如何從鄭成功時期的「煎鎚」演變為今日風靡海內外的國民美食，其背後隱藏著粉漿與醬汁的味蕾秘密。",
     "category": "Food",
@@ -17838,37 +17840,39 @@
     "path": "ja/Society/the-reporter-investigative-journalism.md"
   },
   {
-    "title": "尊：「黄毛豚」から台湾最年少の百万YouTuberへ、清流という孤独な実験",
-    "description": "2017年、19歳の朱玉恩（しゅぎょくおん）は台湾人3人目の百万YouTuberとなりました。日本的スタイルでコミュニティを席巻した「人生デブタレント」は、「YT界唯一の清流」と称される一方で、模倣からの出発、タイアップ広告の不祥事、家族の問題に巻き込まれるなど、自己との葛藤を経験してきました。",
+    "title": "尊：『黄毛豚』から二つのチャンネルで百万登録へ、27歳の清流が背負う孤独の重み",
+    "description": "2018年1月、19歳の朱玉恩は台湾で最年少の百万登録YouTuberになりました。8年後、彼は27歳となり、第二チャンネルも百万登録を突破し、初めての家を購入し、恋人はエンジニアの蘿倫です。ファンが贈った『清流』という称号の背後には、兄の汚名を背負い、ファンの期待するキャラクターを背負い、自分自身の孤独を背負う、一つの台湾的な事例があります。",
     "category": "ja",
     "tags": [
       "YouTuber",
       "尊",
       "台湾文化",
       "ネットクリエイター",
-      "人生デブタレント"
+      "人生肥宅",
+      "清流"
     ],
     "url": "https://taiwan.md/ja/People/zun",
-    "readingTime": 13,
+    "readingTime": 51,
     "featured": false,
-    "date": "2026-05-03",
+    "date": "2026-06-03",
     "path": "ja/People/zun.md"
   },
   {
-    "title": "尊：從「黃毛豬」到台灣最年輕百萬 YouTuber，在清流標籤下的孤獨實驗",
-    "description": "2017 年，19 歲的朱玉恩成為台灣第三位百萬 YouTuber。這位以日式風格席捲社群的「人生肥宅」，在被封為「YT 界唯一清流」的同時，也經歷了從抄襲起家到業配翻車、家族爭議波及的自我辯證。",
+    "title": "尊：從「黃毛豬」到雙頻道百萬，27 歲清流的孤獨重量",
+    "description": "2018 年 1 月，19 歲的朱玉恩成為台灣最年輕的百萬 YouTuber。八年後他 27 歲、開了第二頻道也破百萬、買了第一棟房子、女友是工程師蘿倫——「清流」這個粉絲冠的禮物，背後是一個替哥哥扛污名、替粉絲扛人設、替自己扛孤獨的台灣樣本。",
     "category": "People",
     "tags": [
       "YouTuber",
       "尊",
       "台灣文化",
       "網路創作者",
-      "人生肥宅"
+      "人生肥宅",
+      "清流"
     ],
     "url": "https://taiwan.md/People/%E5%B0%8A",
-    "readingTime": 10,
+    "readingTime": 37,
     "featured": false,
-    "date": "2026-05-03",
+    "date": "2026-06-03",
     "path": "People/尊.md"
   },
   {
@@ -54215,42 +54219,36 @@
     "path": "fr/Society/zoo-and-exhibition-animal-ethics.md"
   },
   {
-    "title": "Zun : De « Cochon à poils jaunes » au plus jeune millionnaire de YouTube à Taïwan, une expérience solitaire sous l'étiquette de « pureté »",
-    "description": "En 2017, à 19 ans, Zhu Yuen est devenu le troisième YouTuber taïwanais à atteindre le million d'abonnés. Ce « gros geek de la vie », qui a conquis les réseaux sociaux avec un style japonais, a été salué comme « la seule voix pure de YouTube » tout en traversant une introspection marquée par des débuts de plagiat, un scandale de publicité mensongère et des controverses familiales.",
+    "title": "Zun : de « porc aux cheveux jaunes » au million sur deux chaînes, le poids solitaire d’un créateur de 27 ans perçu comme une valeur sûre",
+    "description": "En janvier 2018, Zhu Yu’en, 19 ans, est devenu le plus jeune YouTuber taïwanais à atteindre le million d’abonnés. Huit ans plus tard, à 27 ans, sa deuxième chaîne a elle aussi dépassé le million, il a acheté son premier logement, et sa petite amie est l’ingénieure Lauren. Derrière le cadeau que les fans lui ont fait en le qualifiant de « courant pur » se dessine un cas taïwanais : un jeune homme qui porte le stigmate de son frère, le personnage que ses fans projettent sur lui, et sa propre solitude.",
     "category": "fr",
     "tags": [],
     "url": "https://taiwan.md/fr/People/zun",
-    "readingTime": 34,
+    "readingTime": 128,
     "featured": false,
-    "date": "2026-05-03",
+    "date": "2026-06-03",
     "path": "fr/People/zun.md"
   },
   {
-    "title": "Zun: De \"Cerdo Amarillo Peludo\" al millonario YouTuber más joven de Taiwán, un experimento solitario bajo la etiqueta de \"corriente pura\"",
-    "description": "En 2017, Zhu Yuen, de 19 años, se convirtió en el tercer YouTuber taiwanés en alcanzar el millón de suscriptores. Conocido como el \"gordo vitalicio\" que arrasó en las redes con un estilo japonés, fue aclamado como la \"única corriente pura de YouTube\" mientras atravesaba una autocrítica que abarcaba desde sus inicios plagados de copias hasta un escándalo publicitario y las repercusiones de controversias familiares.",
+    "title": "Zun: de «cerdo de pelo amarillo» al millón en dos canales, el peso solitario de un “aire limpio” de 27 años",
+    "description": "En enero de 2018, Zhu Yu-en, de 19 años, se convirtió en el YouTuber taiwanés más joven en alcanzar el millón de suscriptores. Ocho años después, con 27 años, también superó el millón con su segundo canal, compró su primera casa y su novia es la ingeniera Lauren. Detrás del regalo que sus fans le dieron al coronarlo como “aire limpio” hay un caso taiwanés: alguien que carga con el estigma de su hermano, con la imagen que sus fans esperan de él y con su propia soledad.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/People/zun",
-    "readingTime": 34,
+    "readingTime": 122,
     "featured": false,
-    "date": "2026-05-03",
+    "date": "2026-06-03",
     "path": "es/People/zun.md"
   },
   {
-    "title": "Zun: From 'Yellow-Haired Pig' to Taiwan's Youngest Million-Subscriber YouTuber — A Lonely Experiment Under the 'Clean Stream' Label",
-    "description": "In 2017, 19-year-old Zhu Yuen became Taiwan's third YouTuber to reach one million subscribers. Known for his Japanese-inspired aesthetic and self-styled persona as the 'Life Fat Otaku,' he was hailed as the 'only clean stream on YouTube' — yet his journey has also been marked by self-reckoning over early plagiarism, a sponsored-content scandal, and family controversies that spilled into his public life.",
+    "title": "Zun: From 'Yellow-Haired Pig' to Two Million-Subscriber Channels, the Lonely Weight of a 27-Year-Old 'Clean Stream'",
+    "description": "In January 2018, 19-year-old Chu Yu-en became Taiwan's youngest million-subscriber YouTuber. Eight years later, at 27, his second channel has also passed one million subscribers, he has bought his first home, and his girlfriend is the engineer Lauren. Behind the fan-given gift of the label 'clean stream' lies a Taiwanese case study: a young man carrying stigma for his older brother, a persona for his fans, and loneliness for himself.",
     "category": "en",
-    "tags": [
-      "YouTuber",
-      "Zun",
-      "Taiwan culture",
-      "online creator",
-      "Life Fat Otaku"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/People/zun",
-    "readingTime": 30,
+    "readingTime": 118,
     "featured": false,
-    "date": "2026-05-03",
+    "date": "2026-06-03",
     "path": "en/People/zun.md"
   },
   {
@@ -62703,6 +62701,24 @@
     "featured": true,
     "date": "2026-04-05",
     "path": "ko/Food/zongzi-rice-dumpling.md"
+  },
+  {
+    "title": "쭌: 「황마오주」에서 두 채널 100만까지, 27세 청류가 짊어진 고독의 무게",
+    "description": "2018년 1월, 19세의 주위언은 대만 최연소 100만 유튜버가 되었다. 8년 뒤 그는 27세가 되었고, 개설한 두 번째 채널도 100만을 돌파했으며, 첫 집을 샀고, 여자친구는 엔지니어 로런이다. 팬들이 씌워 준 선물인 「청류」라는 이름 뒤에는 형의 오명을 대신 짊어지고, 팬들을 위해 캐릭터를 짊어지며, 자신을 위해 고독을 짊어진 하나의 대만 사례가 있다.",
+    "category": "ko",
+    "tags": [
+      "유튜버",
+      "쭌",
+      "대만 문화",
+      "인터넷 창작자",
+      "인생 비만 오타쿠",
+      "청류"
+    ],
+    "url": "https://taiwan.md/ko/People/zun",
+    "readingTime": 57,
+    "featured": false,
+    "date": "2026-06-03",
+    "path": "ko/People/zun.md"
   },
   {
     "title": "차오싱청: 웨이퍼 제패자에서 항공호대(抗共護台)의 「불팔거사(八不居士)」로",

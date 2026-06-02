@@ -10,7 +10,7 @@
     "Lifestyle": 141,
     "Music": 173,
     "Nature": 185,
-    "People": 1130,
+    "People": 1131,
     "Politics": 50,
     "Society": 396,
     "Technology": 249,
@@ -312,6 +312,10 @@
     },
     {
       "date": "2026-06-02",
+      "count": 1
+    },
+    {
+      "date": "2026-06-03",
       "count": 1
     }
   ],

@@ -1,7 +1,97 @@
 {
-  "generatedAt": "2026-06-02T15:09:04.981Z",
+  "generatedAt": "2026-06-02T22:12:46.765Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "f6b6ffe3863c419b97d821f43bd683602a47f182",
+      "date": "2026-06-03T06:07:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite-daily: 06:06 storm-pattern defer #8 — 靜默 defer, 觀察者 wake imminent"
+    },
+    {
+      "hash": "126155544bd497f43278f216d2ed955900a0587e",
+      "date": "2026-06-03T05:08:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite-daily: 05:06 storm-pattern defer #7 — incident已記，靜默 defer"
+    },
+    {
+      "hash": "d263a4dbde2429bda4f4e3a636c504a063e106c0",
+      "date": "2026-06-03T04:09:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite-daily: 04:06 storm-pattern defer #6 — incident-level escalation"
+    },
+    {
+      "hash": "158d72a8fa953cacc5e0db0e0fa15292974ad4be",
+      "date": "2026-06-03T03:09:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite-daily: 03:07 storm-pattern defer #5/4hr — vc=3 達 REFLEXES #15 儀器化門檻，候選 routine-drift.sh 升級交觀察者"
+    },
+    {
+      "hash": "bfff8e8c8e7b9bfe0dd049ff261a83fe430da90e",
+      "date": "2026-06-03T02:09:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite-daily: 02:06 storm-pattern defer — 4 fires in 4hr (00:24 ship 尊 / 00:30 dup defer / 01:09 ship 莫那能 / 02:06 now), spirit beyond strict 30-min rule"
+    },
+    {
+      "hash": "138e2b508a64295ac4f28e3865b1450575bbd374",
+      "date": "2026-06-03T01:44:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-03-010946-twmd-rewrite-daily — 莫那能 NEW ship + 7 個 Stage 0 hypothesis ❌ refuted + 政治敏感 SPORE DEFER boundary 練習"
+    },
+    {
+      "hash": "d99a231b50af2b172573133f3adc7d6556d56f9c",
+      "date": "2026-06-03T01:39:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] rewrite: 莫那能 NEW — 第一位原住民漢語現代詩人 + 1979 車禍致盲 + 〈來，乾一杯〉一千八百萬人 + 左統派身分正面處理"
+    },
+    {
+      "hash": "8b613cb5bb21a6560f423ae2a5c8dcfdd869faed",
+      "date": "2026-06-03T00:43:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-03-003406-twmd-babel-nightly — 5 lang ALL 100% / 5 cell sweep / codex 5/5 first-pass"
+    },
+    {
+      "hash": "8d91c2f6528b35dd00c40d23e3eaa68c7efef861",
+      "date": "2026-06-03T00:41:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 20 translations (5 Tier 1 codex + 15 Tier 0b bump) — 5 lang ALL 100% — 2026-06-03"
+    },
+    {
+      "hash": "94fc0c5780f7192e4b5702d3124ceeb4ac14cb56",
+      "date": "2026-06-03T00:33:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite-daily: 00:30 duplicate fire defer — Stage 8 collision detect (prev fire 尊 EVOLVE shipped 00:26:57, 3m45s ago)"
+    },
+    {
+      "hash": "cb8fc7d26a28743371e95af98978a9487f30e9c0",
+      "date": "2026-06-03T00:26:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-03-002429-twmd-rewrite-daily — 尊 EVOLVE ship + sub-agent falsification + pre-commit profile asymmetry lesson"
+    },
+    {
+      "hash": "e9a16926e1b2be42d84307fea325b31a97ad46ac",
+      "date": "2026-06-03T00:24:13+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] rewrite: 尊 EVOLVE — 雙頻道百萬 + 獄中金紙龍船 + 清流標籤三重重量"
+    },
+    {
+      "hash": "7713e8c000844ccf450e326f4cdfdb0ca148bf66",
+      "date": "2026-06-02T23:59:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] routine-audit-weekly: cycle 4 — 211 commits / 5 cross-cutting patterns / 5 new LESSONS + 4 vc++ — 2026-06-02"
+    },
+    {
+      "hash": "8cf0326adb17b0eff982ae825c965a991f0d3399",
+      "date": "2026-06-02T23:49:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-02-234658-twmd-maintainer-daily — evening fire vc=1 effective-empty / 0 PR / build ✅ / 17 老 issue 無 action"
+    },
+    {
+      "hash": "91eb4403a8f6332c8bfe44b57a341598e1fd8040",
+      "date": "2026-06-02T23:09:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-06-02 23:00"
+    },
     {
       "hash": "7d2b0fef9896c2d63a3ffe310dd9c08a675c0c65",
       "date": "2026-06-02T08:42:51+08:00",

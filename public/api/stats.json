@@ -1,8 +1,8 @@
 {
-  "totalArticles": 4744,
+  "totalArticles": 4745,
   "totalCategories": 21,
   "estimatedContributors": 57,
-  "totalTags": 6365,
+  "totalTags": 6364,
   "categories": [
     {
       "name": "es",
@@ -42,7 +42,7 @@
     },
     {
       "name": "People",
-      "count": 225
+      "count": 226
     },
     {
       "name": "Music",
@@ -108,7 +108,7 @@
     },
     {
       "name": "文學",
-      "count": 33
+      "count": 34
     },
     {
       "name": "ODM",
@@ -151,34 +151,34 @@
       "count": 23
     },
     {
-      "name": "YouTuber",
+      "name": "文化",
       "count": 23
     },
     {
-      "name": "文化",
-      "count": 23
+      "name": "YouTuber",
+      "count": 22
     },
     {
       "name": "體育",
       "count": 22
     },
     {
-      "name": "AI",
+      "name": "原住民",
       "count": 22
     },
     {
-      "name": "歷史",
-      "count": 21
+      "name": "AI",
+      "count": 22
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4744,
+    "zh-TW": 4745,
     "en": 0
   },
-  "lastUpdated": "2026-06-02T15:09:06.339Z",
+  "lastUpdated": "2026-06-02T22:12:48.670Z",
   "stars": 1017,
   "forks": 149,
-  "zhPages": 3941,
+  "zhPages": 3942,
   "enPages": 803,
-  "totalPages": 4744
+  "totalPages": 4745
 }

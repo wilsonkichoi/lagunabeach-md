@@ -1,7 +1,7 @@
 ---
 title: 'reports/ INDEX — auto-generated'
 description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子目錄 status summary'
-last_generated: 2026-06-02 23:09
+last_generated: 2026-06-03 06:13
 generator: scripts/tools/generate-reports-index.py
 ssot: reports/reports-archival-audit-2026-05-27.md §4 Layer 3
 type: auto-index
@@ -12,13 +12,13 @@ type: auto-index
 > **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。
 > 不要人工編輯（會被下一次 cron 覆蓋）。
 >
-> Last generated: **2026-06-02 23:09** · 頂層 \*.md 共 **123** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
+> Last generated: **2026-06-03 06:13** · 頂層 \*.md 共 **125** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
 
 ## 📦 子目錄 status
 
 | Subdir                  | Files | Size     | 用途                                                 |
 | ----------------------- | ----: | -------- | ---------------------------------------------------- |
-| `research/`             |   237 | 33.6 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
+| `research/`             |   239 | 33.7 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
 | `visual/`               |   111 | 214.5 MB | Visual smoke test 基線 (partial gitignored)          |
 | `archive/`              |    27 | 342.8 KB | 歸檔位置 (per audit Layer 4)                         |
 | `factcheck/`            |     9 | 98.7 KB  | —                                                    |
@@ -108,8 +108,9 @@ type: auto-index
 - `2026-04-17` [cron-schedule-snapshot-2026-04-17](cron-schedule-snapshot-2026-04-17.md)
 - `2026-04-12` [i18n-qa-audit-2026-04-12](i18n-qa-audit-2026-04-12.md)
 
-### audit-routine (15)
+### audit-routine (16)
 
+- `2026-06-02` [routine-audit-2026-06-02](routine-audit-2026-06-02.md) — Routine Audit 2026-06-02 (Weekly Cycle 4)
 - `2026-05-29` [homepage-evolution-D+2-watch-2026-05-29](homepage-evolution-D+2-watch-2026-05-29.md) — Homepage Evolution D+2 Watch — 2026-05-29
 - `2026-05-27` [homepage-evolution-D+0-watch-2026-05-27](homepage-evolution-D+0-watch-2026-05-27.md) — Homepage Evolution D+0 Watch — 2026-05-27 (ship 5/26 23:00-23:50 + 14hr)
 - `2026-05-27` [routine-audit-2026-05-27](routine-audit-2026-05-27.md) — Routine Audit 2026-05-27 (Weekly Cycle 3)
@@ -149,8 +150,9 @@ type: auto-index
 - `2026-04-12` [NMTH-overseas-semiont-analysis-2026-04-12](NMTH-overseas-semiont-analysis-2026-04-12.md)
 - `2026-04-11` [TFT-semiont-analysis-2026-04-11](TFT-semiont-analysis-2026-04-11.md)
 
-### ops (36)
+### ops (37)
 
+- `2026-06-03` [cron-storm-incident-2026-06-03](cron-storm-incident-2026-06-03.md)
 - `2026-06-01` [feedback-go-live-log-2026-06-01](feedback-go-live-log-2026-06-01.md) — Feedback 系統 go-live 紀錄
 - `2026-06-01` [reader-callout-pipeline-diagnosis-2026-06-01](reader-callout-pipeline-diagnosis-2026-06-01.md) — 讀者 callout 診斷：rewrite pipeline 在「被 callout 觸發的重寫」路徑上的失效模式 + 殘留文章風險稽核
 - `2026-05-28` [routine-contract-rollback-2026-05-28](routine-contract-rollback-2026-05-28.md) — Routine prompt CONTRACT v1.0 rollback + 5 routine pattern 結構性修補
@@ -190,9 +192,11 @@ type: auto-index
 
 ## 📅 By month (descending)
 
-### 2026-06 (3 files)
+### 2026-06 (5 files)
 
-- Type breakdown: ops: 2 / design: 1
+- Type breakdown: ops: 3 / audit-routine: 1 / design: 1
+  - `2026-06-03` [cron-storm-incident-2026-06-03](cron-storm-incident-2026-06-03.md)
+  - `2026-06-02` [routine-audit-2026-06-02](routine-audit-2026-06-02.md)
   - `2026-06-01` [feedback-go-live-log-2026-06-01](feedback-go-live-log-2026-06-01.md)
   - `2026-06-01` [feedback-login-system-design-2026-06-01](feedback-login-system-design-2026-06-01.md)
   - `2026-06-01` [reader-callout-pipeline-diagnosis-2026-06-01](reader-callout-pipeline-diagnosis-2026-06-01.md)
