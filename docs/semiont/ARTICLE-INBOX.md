@@ -232,9 +232,16 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Type**: `EVOLVE`
 - **Category**: People（數位與媒體）
 - **Priority**: `P1`
-- **Status**: `pending`
+- **Status**: `done` (shipped by twmd-rewrite-daily 2026-06-02, EVOLVE done — move to ARTICLE-DONE-LOG next distill)
 - **Requested**: 2026-05-26 by twmd-finale evolve scan (session 2026-05-26-230513-manual)
-- **Target article**: `knowledge/People/尊.md`（lastVerified 2026-05-03，72 行）
+- **Target article**: `knowledge/People/尊.md`（v2，2026-06-03 lastVerified；72→~140 行；2000→4381 CJK）
+- **Ship log**:
+  - 2026-06-02 twmd-rewrite-daily routine：Stage 0.2 萃取 + Stage 0.6 觀點成型（核心矛盾鎖定為「清流不是天賦，是一個 27 歲青年扛住三重重量的稱號」）+ Stage 1 research fan-out（50 searches by sub-agent，落 `reports/research/2026-06/尊.md`）+ Stage 2-5 ship
+  - **5 個 ❌ refute of v1 facts**：「2017 第三位百萬」→ 2018/1/14 第十位最年輕；「聖火玉尊三人組」→ 四人組（聖結石、放火、小玉、尊）；「我！的！新！家！系列」→ 2025/12/13 單支非系列；「完全不知情」非逐字 → 鏡週刊原文「小玉從未對家人提及…我到現在還覺得莫名奇妙」「我真的很累了」；「30 歲節點」→ 27 歲逼近 30 歲轉向期
+  - **1 個重大新 fact 加入**：2024 底雙頻道百萬（人生肥宅x尊 + 人生魯宅x尊），獄中小玉寄金紙龍船祝賀（UDN 2025/1/13）— 成為文章核心 anchor
+  - **核心矛盾鎖定**：清流標籤的三重重量（粉絲冠的禮物 × 兄弟連坐 × 27 歲轉向期）
+  - **Stage 3-4 quality gate**：pre-commit profile pass（hard=0 warn=13），prose-health score 1/3 pass，word-count 4381（97% of 4500 baseline，warn 非 hard）
+  - **Known minor gaps for next manual session polish**:（a）補 hero + scene-mid（v2 仍 NO-MEDIA，因 fair-use 真人肖像在 cron 不宜決定）(b) 補最後 119 CJK 到 4500 baseline（c) review 對位句型 4 處（score=1 已 pass，可酌情再修）(d) 修延伸閱讀 broken link `/people/howhow` + `/culture/台灣youtube發展史` 都不存在 → 創建 stub 或移除
 - **數據訊號（三源交叉，per EVOLVE-PIPELINE Phase 1）**:
   - **SC 7d (2026-05-18 → 05-24)**: query「朱玉恩」118 impressions / 3 clicks / **CTR 2.54%** / position 7.98 — 高曝光 + 低 CTR + 排名中前段（典型「文章太短 hold 不住 pos 提升」signal）
   - **SC 對照**: 同期「張懸」74 imp / 4.05% CTR / pos 12.62（張懸與安溥已 deep article 5000+ CJK），「莊朱玉女」65 imp / 6.15% CTR / pos 15.46（已有完整 article）→「朱玉恩」impression 反而最高但 CTR 倒數，反映 description meta 沒抓住 query intent
