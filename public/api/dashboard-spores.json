@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T22:12:46.639977Z",
+  "lastUpdated": "2026-06-02T22:45:35.574201Z",
   "schemaVersion": "1.1",
   "totals": {
     "count": 107,
@@ -451,8 +451,8 @@
       "publishDate": "2026-05-28",
       "daysSincePublish": 6,
       "withinHarvestWindow": true,
-      "harvestCount": 0,
-      "lastHarvest": null
+      "harvestCount": 1,
+      "lastHarvest": "2026-06-03 06:30"
     },
     {
       "n": 103,
@@ -471,8 +471,8 @@
       "publishDate": "2026-05-27",
       "daysSincePublish": 7,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-02 06:30"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-03 06:30"
     },
     {
       "n": 101,
@@ -491,8 +491,8 @@
       "publishDate": "2026-05-27",
       "daysSincePublish": 7,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-02 06:30"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-03 06:30"
     },
     {
       "n": 99,
@@ -511,8 +511,8 @@
       "publishDate": "2026-05-27",
       "daysSincePublish": 7,
       "withinHarvestWindow": true,
-      "harvestCount": 1,
-      "lastHarvest": "2026-06-02 06:30"
+      "harvestCount": 2,
+      "lastHarvest": "2026-06-03 06:30"
     },
     {
       "n": 97,
