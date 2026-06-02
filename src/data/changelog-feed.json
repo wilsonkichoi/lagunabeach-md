@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-06-01T22:11:36.308Z",
+  "generatedAt": "2026-06-02T15:09:04.981Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "7d2b0fef9896c2d63a3ffe310dd9c08a675c0c65",
+      "date": "2026-06-02T08:42:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-02-084133-twmd-maintainer-am — close #1127 #1128 as feedback-triage smoke test + build ✅ + 0 PR"
+    },
+    {
+      "hash": "f3ceccc6888880d727ae181903ac4ab480c7c8f3",
+      "date": "2026-06-02T07:10:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-feedback-triage: 2 feedback → 2 issue (#1127 #1128) + git archive — 2026-06-02"
+    },
+    {
+      "hash": "b6a5af27d2178a497da1904bb25a072c199d7281",
+      "date": "2026-06-02T06:43:25+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-02-064159-twmd-spore-harvest-am — 15 OVERDUE sweep / 0 fact-fix / fact-fix chain holding D+5"
+    },
+    {
+      "hash": "df53a2ee23cb7387a2c341ce77b54256e248cfb8",
+      "date": "2026-06-02T06:41:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 15 spores (5 Threads + 10 X) / 0 fact-fix / 0 reply — 2026-06-02"
+    },
+    {
+      "hash": "03cadc73ef7aee4243344bb5249f5737bf47930f",
+      "date": "2026-06-02T06:13:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-02-061217-twmd-data-refresh-am — 14-step ALL PASS + Step 11 全綠"
+    },
+    {
+      "hash": "9a966cf3d0a0e4de3cc80f18f19c22c978c2b71a",
+      "date": "2026-06-02T06:12:07+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: dashboard sync — 2026-06-02 06:00"
+    },
     {
       "hash": "be6cc7f0957a0d5ced752302509a8395673afb21",
       "date": "2026-06-02T01:22:03+08:00",
