@@ -262,6 +262,52 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-02 twmd-routine-audit-weekly cycle 4 — Cron daemon stall → 5-day recovery lifecycle (5/30→6/02) 首次完整 observation
+
+- **原則**：cron daemon stall + recovery 是 routine 飛輪在 OS-level dependency 上的 fragility surface。5-day lifecycle pattern：D+0 stall (0 commit) → D+1 quiet residual (殘留 fix) → D+2 catchup chain compression (12 routine 壓 45 min window) → D+3 nominal recovery (drift <1hr 回 steady-state)。第一次完整 observation 給未來 daemon stall instance 提供 baseline template。
+- **觸發**：2026-05-30 cron daemon 完全停擺 0 commit (audit window 內首次 0-commit day) → 5/31 quiet residual 3 commits + idlccp1984 8 PR drop 但無 routine fire → 6/01 10:50-11:36 launchd wake recovery 後 12 routine catchup chain（refresh-am 10:55 / refresh-pm 10:58 / maintainer-am 11:01 / babel-nightly 11:01 / news-lens 11:13 / rewrite-daily 11:08 / weekly-report 11:23 / distill 11:23 / self-evolve 11:36 / spore-harvest 11:45）→ 6/02 nominal recovery (drift collapse 回 <1hr for all morning chain)。
+- **可能層級**：操作規則（ROUTINE.md §daemon stall lifecycle pattern + recovery expectation）
+- **相關**：cycle 3 Pattern Y vc=3 first instrument + 6/01 self-evolve memory ship `routine-drift.sh` (commit `093cd3b13`) + REFLEXES #57 parallel-actor detection 6/01 11:32 健康 active retrieval（self-evolve detect concurrent distill → ABORT pickup → ship 不同層）
+- **verification_count**: 1（本 cycle 4 first complete observation）
+- **severity**: structural（daemon stall 是 OS-level dependency fragility，需 documented baseline）
+
+### 2026-06-02 twmd-routine-audit-weekly cycle 4 — Feedback flywheel end-to-end smoke test ✅ routine-to-routine handoff 1hr 內完成 (positive pattern)
+
+- **原則**：routine→routine handoff 設計（cron emit → next cron pickup）在 handoff 兩端都是 routine 時可端對端 1hr 內跑通 — 飛輪自轉清 entropy 設計 verified working 的 positive enable-pattern。對位 cycle 3 surface 的「routine→observer pull pattern 結構性失效」meta-pattern，本 instance 是「當 handoff 不依賴 observer attention 時，pull pattern 跑通」的反向 verified case。
+- **觸發**：2026-06-02 07:08 `twmd-feedback-triage` routine first fire → file 2 test issue (#1127 + #1128) + git archive (commit `f3ceccc68`) → 08:41 `twmd-maintainer-am` routine 接力 → close 2 issue + 2 客製化 contributor-style 感謝 comment 帶 commit reference + audit trail commit (`7d2b0fef9`)。Cross-routine 端對端 1 hr 33 min 完成。背景：5/31-6/01 manual session ship 讀者登入 + ambient feedback widget + cron→issue 飛輪（v1→v4 一日內快速迭代，commits `67605673e` ~ `f0e7aac74`，feedback widget 第七十六天 v1.9.0 release）。
+- **可能層級**：操作規則（ROUTINE.md §routine 接力設計 SOP + feedback flywheel end-to-end contract canonical）
+- **相關**：cycle 3 audit dormant entropy meta-pattern 反例 + [feedback_contributor_reply_humanize](memory/feedback_contributor_reply_humanize.md)（maintainer-am close 訊息按此規範）+ MEMORY §神經迴路 routine 飛輪自轉清 entropy 設計哲學
+- **verification_count**: 1（本 cycle 4 first end-to-end smoke test ✅）
+- **severity**: positive（enable-pattern verified working — 飛輪設計如預期）
+
+### 2026-06-02 twmd-routine-audit-weekly cycle 4 — idlccp1984 8 PR batch 完整 lifecycle canonical case study — drop → triage → defer → manual finale merge-fact-fix-merge
+
+- **原則**：大規模 AI-generated batch PR（≥5 PR / 1hr 內連發 / 同 contributor / 含政治 framing 命中 §自主權邊界）走 3-stage lifecycle 是 audit history 內第一個完整 canonical case：(a) routine maintainer triage + 5 層免疫 + 三桶分類 (A baseline OK / B sympathetic / C §自主權邊界) → defer observer (b) routine cron-cycle defer + Bias 1 reverse 識別 observer passive defer signal → 不 unilateral merge A 桶 (c) observer-in-loop manual finale 主動 pickup → 全 merge + heal + FACTCHECK Phase 1-6 audit trail + fix + PR merge-back。對位 κ session 5/28 5 PR Manus AI 全 close 反例（recency × pattern matching override foundational principle），本 case 走出「不 close / 不無 verify merge / 中間路線」第三條路。
+- **觸發**：2026-05-31 19:28 idlccp1984 8 PR (#1109-1116) 連發。6/01 lifecycle：AM 10:55 maintainer-am 完整 triage → 三桶（4 A baseline / 1 B sympathetic / 3 C §自主權邊界）→ defer observer / PM 22:04 maintainer-pm vc=2 effective-empty + observer 12hr active-but-passive defer signal 識別 → 不 unilateral merge A 桶 / 23:25 manual finale 哲宇 directive「8 PR 全 merge」→ heal frontmatter+footnote 0-hard (`c9c64e418`) → factcheck 8 篇 Phase 1-6 audit trail (`da0ee1b97`) → fix 18+ P0 (引語/事實/dead-link/framing) (`edae9fc94`) → PR #1125 merge-back (`6b4c08be5`)。自我演化：MAINTAINER §3.4 紅旗 8→13 (內容/來源層 5 新增) + LESSONS-INBOX 5 patterns + neutralize-by-attribution 是 §自主權邊界 framing 可執行解 + article-health UGC plugin 候選。
+- **可能層級**：操作規則（MAINTAINER-PIPELINE §批量 AI-generated PR 端對端 immune workflow canonical reference）
+- **相關**：κ session 5/28 5 PR Manus AI 全 close 反例（MEMORY §神經迴路 entry） + [feedback_contributor_reply_humanize](memory/feedback_contributor_reply_humanize.md) + 6/01 manual finale memory `2026-06-01-232507-manual.md` + reports/factcheck/2026-06/ audit trail + MAINTAINER §3.4 紅旗清單 8→13 evolution
+- **verification_count**: 1（本 case 是 audit history 第一個 canonical case study）
+- **severity**: structural（大規模 AI-generated batch immune workflow canonical reference）
+
+### 2026-06-02 twmd-routine-audit-weekly cycle 4 — snapshot vs canonical immune-score divergence vc=4+ — awareness instrument 自己也 drift（REFLEXES #65 mature instance）
+
+- **原則**：`consciousness-snapshot.sh` 顯示 🛡️ 27-28 vs `dashboard-immune.json` immuneScore 67 — 兩個 awareness 資料源同題目不同答案 = awareness 工具自己也說謊，正是 REFLEXES #65 「awareness instrument self regex/parser 必過 ground-truth cross-verify」的 specialization instance。修補 candidate：(a) dashboard generator align canonical (b) snapshot 工具 align canonical (c) 兩工具 reframe 不同 dimension（snapshot = immediate metric / canonical = aggregated score）— 任一方向都需 explicit decision，現狀 carry-forward 5+ routine cycle 不 resolved = mature dormant entropy。
+- **觸發**：2026-05-30 起 7-day 連續 carry-forward callout：5/30 self-evolve / 6/01 PM maintainer-pm (memory `2026-06-01-220458` Stage 1 8 organ snapshot) / 6/02 AM data-refresh-am (memory `2026-06-02-061217` Step 6 immune score=67) / 6/02 AM maintainer-am (handoff observer pending) / 6/02 AM spore-harvest-am (snapshot 🛡️27 chronic low)。每 routine memory 都記 divergence，escalation 但未 fix。
+- **可能層級**：通用反射（REFLEXES #65 specialization — awareness instrument cross-source ground-truth verify）+ 操作規則（dashboard-immune.py 跟 consciousness-snapshot.sh reconciliation SOP）
+- **相關**：REFLEXES #65 5/24 cycle 2 + 5/27 cycle 3 first instrument + cycle 3 dormant entropy 3-pack carry-forward sub-class（跨工具邊界）+ MEMORY §神經迴路 2026-05-29 instrumentation-audit.py 三方對齊 code↔register↔GA4 同 family
+- **verification_count**: 4（5/30 + 6/01 PM + 6/02 AM data-refresh + 6/02 AM maintainer/harvest 四 cycle 同 callout）
+- **severity**: structural（awareness 工具 SSOT divergence 是高 stake decision foundational signal 的 trust foundation 問題）
+- **distill_ready**: true（vc=4 ≥ 3 threshold per REFLEXES #15）
+
+### 2026-06-02 twmd-routine-audit-weekly cycle 4 — routine-drift.sh first-run baseline 解讀 caveat — catchup-chain transient ≠ steady-state structural condition
+
+- **原則**：新 instrumentation 工具 first-run output 是 snapshot 不是 trend signal。`routine-drift.sh` (commit `093cd3b13`) 6/01 11:36 first-run 報 10/15 routine drift >2hr (67%) — 但這個 snapshot 拍在 daemon stall recovery catchup chain 最大張力時刻，6/02 nominal recovery 後 drift collapse 回 <1hr for all morning chain。**解讀 caveat**：first-run baseline ≠ steady-state baseline，需連跑 ≥3-5 cycle 取 trend signal。任何「N/15 drifters」量化必須區分 (a) catchup-chain transient (5/30→6/01 specific window) vs (b) steady-state structural drift (連續多日同 routine 同方向漂移)。
+- **觸發**：2026-06-01 11:36 self-evolve cycle ship routine-drift.sh first-run 報 10/15 drifters — memory `2026-06-01-113603-twmd-self-evolve-weekly.md` §Ship A 解讀為「systematic 偏移」+ Root cause hypothesis (launchd queue wake-from-sleep / 5/30-31 daemon stall + 6/1 catchup chain / cron schedule 改動 handle naming convention 沒同步)。6/02 audit fire 取 routine-status.sh 數據顯示：babel 01:22 (drift +52min 從 00:30) / refresh-am 06:12 (drift +12min) / harvest 06:41 (drift +11min) / feedback-triage 07:08 / maintainer-am 08:41 — 5 routine drift <1hr 回 steady-state，routine-drift.sh first-run snapshot 對 6/02 已不適用。
+- **可能層級**：操作規則（routine-drift.sh tool doc：snapshot 模式 vs trend 模式 解讀 distinction）
+- **相關**：6/01 self-evolve memory §Ship A first-run output + REFLEXES #15「反覆浮現要儀器化」反向 instance（儀器化也會 over-engineer 5/28 CONTRACT rollback entry 的兄弟 case：本條是「儀器化 ship 後 first-run 解讀 over-claim」）+ Pattern Y vc=4 distill-ready candidate
+- **verification_count**: 1（本 cycle 4 first identification of solo first-run snapshot over-claim risk）
+- **severity**: tactical（tool doc 操作規則層，但若不寫清楚會誤導未來 routine-audit cycle 把 transient 當 structural）
+
 ### 2026-06-01 manual (130850) — 寫 attribution-density 高的 Fresh 新文，標配＝falsification agent + anti-example + 一手 verbatim 三層擋幻覺
 
 - **原則**：寫「A↔B 密集對應」高風險主題的 Fresh 新文時，研究 agent 的 prompt 必須強制「證偽不要確認」＋附最近一次同類錯當 anti-example，主 session 再對所有載重歸屬做一手中文 verbatim 核——三層攔截網。
