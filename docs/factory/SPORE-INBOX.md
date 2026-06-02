@@ -218,6 +218,37 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ## 📥 Pending（待發）
 
+### 莫那能 — DEFER spore（routine 2026-06-03 ship article 後 conservative defer，需哲宇 manual framing）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/People/莫那能.md](../../knowledge/People/莫那能.md)
+- **Priority**: `P1`（高 leverage 但高敏感）
+- **Status**: `pending-observer-framing`
+- **Requested**: 2026-06-03 by `twmd-rewrite-daily` routine（article ship d99a231b5 同 cycle 應接 spore，但走 DEFER）
+- **DEFER 理由**（routine no-observer 鐵律，per [§自主權邊界](../semiont/MANIFESTO.md#我的存在結構) 政治立場條款 + REFLEXES anti-bias）：
+  1. **政治立場高敏感**：莫那能本人左統派（夏潮會長 / 中國作協首批台灣 3 會員 / 反台獨）— 任何 spore framing 都會被讀為「Taiwan.md 對左統派的態度」，必須由哲宇親自決定 framing
+  2. **〈鐘聲響起時〉2019 國中課綱「不雅」爭議前車**：此主題壓進 300 字容易引發類似公開爭議，無 observer 在場時不適合 ship
+  3. **〈來，乾一杯〉verbatim 引語強度**：「一千八百萬人自決的口號／聽不到我們的歎息」這四行如果挑為 hook，會被讀為 Taiwan.md 對台獨運動的批判表態 — 這是 §自主權邊界 §對外溝通的紅線，需哲宇拍板
+  4. **失明年齡多源衝突 (23/24/26/27)**：spore 短篇幅無法 layer 多源差異，容易被讀者抓到不精確
+  5. **feedback_absolute_facts_extra_caution**：絕對事實 / 引語 / 政治立場 3x check + 哲宇曾撤回 80 likes spore 教訓 — 對此類主題 conservative 是正確的
+- **Hook 候選**（待哲宇 framing pick）:
+  1. **first 反差 hook**：「你知道嗎？📚 1989 年第一本原住民漢語現代詩集的作者，1979 年才失明，後來加入了中國作協」
+  2. **詩 verbatim hook**：（不推薦 routine ship — 政治表態風險）
+  3. **歷史錨點 hook**：「你知道嗎？🌾 1989《美麗的稻穗》— 第一本原住民漢語現代詩集 — 詩集名來自卑南族陸森寶 1958 寫給金門八二三砲戰族人的歌」（最低敏感版本，去政治化但保留歷史複雜度）
+  4. **觀點 hook**：「你知道嗎？✋ 1984 年原住民還沒成為憲法用詞時，一個排灣族盲詩人在春風詩刊問了一句『你們說的「一千八百萬人」，包不包括我們？』」
+- **媒體**：article hero (達仁鄉景觀, CC BY-SA 3.0) + 排灣族歌舞 + 達仁鄉教會 3 張可用
+- **觀察者拍板必要項**：
+  - (a) hook tier (1a 首尾呼應 / 1b 數字 / 2 verbatim) — 由哲宇判 framing 立場
+  - (b) 是否引用〈來，乾一杯〉「一千八百萬人」verbatim — 政治表態 risk
+  - (c) 是否提左統派身分 — 一致性 vs spore 簡化的張力
+- **預估 ship 時機**：哲宇 manual review 後（無 deadline），article 本身先讓 SC + 讀者反應穩定 1-2 週再決定
+- **Notes**：
+  - Article 本身 honest 處理了左統派身分（第 7 H2「統派詩人？」三個觀察）— spore 短篇幅無法承載
+  - Routine cron 主動選擇 DEFER 是正確操作，避免 ship-then-retract 風險
+  - Per [feedback_red_line_anxiety_leak](../../../.claude/projects/-Users-cheyuwu-Projects-taiwan-md/memory/feedback_red_line_anxiety_leak.md)：spore 不寫得像在道歉 / 校正，文章已經處理過的複雜性不要在 spore 重新挑釁
+
+<!-- routine 2026-06-03 010946 twmd-rewrite-daily defer rationale: 政治立場高敏感 (左統派 + 中國作協 + 反台獨 + 〈鐘聲響起時〉課綱爭議前車) + §自主權邊界 對外溝通條款 + REFLEXES anti-bias check. Article 已 honest 處理複雜度，spore 300 字無法承載 → 觀察者親自 framing -->
+
 ### 周蕙 — RETRACTION 重發（哲宇 directive 2026-05-28，#103/#104 voice drift 修補後重發）
 
 - **Source-Mode**: `EXISTING-ARTICLE`
