@@ -590,3 +590,35 @@ budget: 18 WebSearch + 13 WebFetch
 
 _報告完成：2026-05-06，Explore agent，α session_
 _總計：18 次 WebSearch + 13 次 WebFetch = 31 次操作_
+
+---
+
+## 媒體授權矩陣（2026-06-03 media-enrichment EVOLVE append）
+
+> 觸發：哲宇 directive「大量增補媒體素材與坎入影片」。Nature 條目 iframe 升級（REWRITE-PIPELINE Step 4.3.6）。所有 YouTube ID 經 oembed endpoint 一手驗證 author_name（官方頻道）+ title（影片 live），**且 preview 實際 render 驗證 embeddable**（見下方教訓）。最終 density：3 iframe + 2 圖（hero + inline）= 5 body media / ~4,448 CJK = 1.12/1k（directive override「大量」寬限，< 1.5 HARD ceiling）。
+
+### inline 影片 iframe（YouTube）— 最終 3 支
+
+| 影片                                                                                     | video ID      | 官方頻道（oembed author_name）          | 插入位置                  | embed render | narrative 呼應                           |
+| ---------------------------------------------------------------------------------------- | ------------- | --------------------------------------- | ------------------------- | ------------ | ---------------------------------------- |
+| 太空中心量能宣傳片─獵風者衛星                                                            | `PsYcjcHiGtU` | 國家太空中心 TASA（@TaiwanSpaceAgency） | §追風的人（福衛七號段後） | ✅ render OK | 繼福衛七號之後，台灣自製衛星量測海面風場 |
+| AI 天氣模型，預測颱風路徑更精準？《科技 Tech 好聊》EP.4                                  | `grDcqNrZISA` | DIGITIMES（@DIGITIMES）                 | §追風的人（AI 模型段後）  | ✅ render OK | 4 分鐘算 30 天、172→57 公里的精度躍進    |
+| 莫拉克十年系列報導-我眼所見即是天地｜重建記憶中的小林村、杉林社區（第1016集 2019-08-12） | `j9T4xC5lzBo` | 公共電視-我們的島（@ourislandTAIWAN）   | §小林十五年               | ✅ render OK | 大滿舞團用古謠「種回家」的重建           |
+
+### ⚠️ 驗證過官方但棄用（embed render 失敗 / 主題重複）
+
+| 影片                                          | video ID      | 官方頻道          | 棄用原因                                                                                                               |
+| --------------------------------------------- | ------------- | ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| 福衛七號系列報導-台灣太空20年 MIT衛星下一步！ | `h252TJhIl6Q` | 台視新聞 TTV NEWS | **❌ embed 被禁**：preview render 出「無法播放影片，TTV 已禁止在外站播放」。oembed 過但不可嵌。改用 TASA `PsYcjcHiGtU` |
+| 莫拉克十年系列報導-風災十年路（第1015集）     | `6pU2OiA7lEM` | 公共電視-我們的島 | density 收斂 + 與 `j9T4xC5lzBo`（小林村，同 PTS 莫拉克十年系列）主題重複；保留 1016 集（小林村更貼 §小林十五年）       |
+
+**教訓（→ LESSONS-INBOX 候選）**：oembed endpoint 能一手驗 title + author_name（影片 live + 官方頻道），但 **驗不到 embeddable 與否**。新聞台（TTV/部分商業頻道）常開 oembed 卻關 iframe embed。Step 4.3.6 的「preview render 驗證」不是可選步驟 — 是唯一能抓到 embed-disabled 的 gate。政府頻道（TASA / CWA）+ 公廣（PTS）embed 通常開放，商業新聞台需逐支 render 驗。
+
+### 圖片素材
+
+| 媒體檔                           | 用途   | 來源 URL                                                                                                           | 授權                 | 攝影者/作者                      | 拍攝日期   | Commons File                                                                    | 本地 cache                                              | alt text                                                                                                       |
+| -------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------ | -------------------- | -------------------------------- | ---------- | ------------------------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| morakot-modis-satellite-2009.jpg | hero   | https://commons.wikimedia.org/wiki/File:Typhoon_Morakot_Aug_7_2009.jpg                                             | Public domain (NASA) | NASA MODIS Rapid Response (Aqua) | 2009-08-07 | File:Typhoon Morakot Aug 7 2009.jpg                                             | /article-images/nature/morakot-modis-satellite-2009.jpg | 莫拉克颱風 2009 年 8 月 7 日通過台灣海峽的衛星雲圖，巨大的逆時針螺旋雲系幾乎填滿整個畫面，左側可見中國東南沿岸 |
+| morakot-minxiong-flood-2009.jpg  | inline | https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg | CC BY 2.0            | zilupe（Flickr）                 | 2009-08-09 | File:2009-08-09 at a village under the Typhoon Morakot, in Minxiong, Chiayi.jpg | /article-images/nature/morakot-minxiong-flood-2009.jpg  | 2009 年 8 月 9 日嘉義民雄一處村落在莫拉克豪雨後淹水，渾濁泥水淹過道路與民宅一樓                                |
+
+注：hero 原圖 7200×9200 portrait（aspect 0.78 不過 hero 護欄），center-square-crop → 1600×1600（aspect 1.00）+ q68 477KB；inline resize 1400×931 + q76 399KB；兩張 EXIF GPS 已清，aspect 護欄通過。
