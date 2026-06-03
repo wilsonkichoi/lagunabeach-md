@@ -1,10 +1,9 @@
 {
   "slug": "天燈",
   "category": "culture",
-  "accent2": "#7c3aed",
   "url": "taiwan.md/culture/天燈",
   "heroImage": "public/article-images/culture/pingxi-lantern-festival-2014.jpg",
-  "_note": "SPORE-IG-PIPELINE v0.3 canonical 10-slide。第 2 篇 pilot — 套字數規範（body 80-120 / kw 10-20）+ 物種紀律重做。事實 100% 繼承 knowledge/Culture/天燈.md + SPORE-BLUEPRINTS/113-天燈.md。紀實/煽情閘四問全過（soft 親屬悲劇紀實處理）。",
+  "_note": "SPORE-IG-PIPELINE v0.4 — accent2 分類色拿掉（哲宇 directive「主題色效果不好先不要用」），全 deck 統一 TWMD 識別色 #00d4aa。第 2 篇 pilot。事實 100% 繼承 knowledge/Culture/天燈.md + SPORE-BLUEPRINTS/113-天燈.md。紀實/煽情閘四問全過。",
   "slides": [
     {
       "type": "cover",

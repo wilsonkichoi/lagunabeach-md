@@ -1,10 +1,9 @@
 {
   "slug": "颱風",
   "category": "nature",
-  "accent2": "#15803d",
   "url": "taiwan.md/nature/颱風",
   "heroImage": "public/article-images/nature/morakot-modis-satellite-2009.jpg",
-  "_note": "SPORE-IG-PIPELINE v0.2 canonical 10-slide。套新 §五字數規範（body 80-120 字、kw 10-20 字）+ 物種紀律重做。事實 100% 繼承 knowledge/Nature/颱風.md。",
+  "_note": "SPORE-IG-PIPELINE v0.4 — accent2 分類色拿掉（哲宇 directive 2026-06-03），全 deck 統一 TWMD 識別色。事實 100% 繼承 knowledge/Nature/颱風.md。",
   "slides": [
     {
       "type": "cover",

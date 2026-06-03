@@ -126,7 +126,32 @@ related:
 
 **這次升級為什麼重要**：把「容量限制」變成「**敘事機會**」— 10 張不只是 IG cap，是讓 thesis 多走一個半圓的空間。下次寫 9 張覺得不夠的時候，問「多一張可以講未來嗎？」
 
-### v0.2.1 → v0.3 — 第三次 callout：「字太小、寬度用滿、1.2x」
+### v0.3 → v0.4 — 第四次 callout：「主題色效果不好，先不要用」+「產完自動開資料夾」（session 後半 addendum）
+
+**觸發**：session 後半哲宇要求用天燈做第 2 篇 pilot。完整走完 PICK → CURATE → DRAFT → RENDER 出 10 張後，哲宇看完整套說「主題色效果不好，先不要用」+ 順手交代「產完圖之後自動開啟對應的資料夾」。
+
+**進化動作**：
+
+- canonical 核心紀律從「主色為識別，分類色是 accent」改成「**單一識別色**」（拿掉 accent2 機制）
+- Top 6 #6 改寫：分類色（nature 綠 / culture 紫）在深主底色上**對比度不夠**且 profile feed 顏色雜亂；統一 TWMD `#00d4aa` 識別色後對比強、視覺一致
+- §三母片共通規範升 v0.4：所有 kicker / idx / em / qmark / source bullet 都用同一個 accent
+- §Stage 4 RENDER 加自動開資料夾 SOP（macOS `open` / Linux `xdg-open` / Windows `explorer`，CI 用 `--no-open` 或 `CAROUSEL_NO_OPEN=1` 關掉）
+- 生成器 v0.4：移除 accent2 變數 + 所有 `var(--accent2)` → `var(--accent)` + 結尾 `spawn(open)` 自動開 outDir
+- 颱風 + 天燈兩篇 worked example JSON 全部 strip accent2 + 重 render 驗證
+
+**為什麼這次進化最有趣**：前三次（v0.1→v0.3）都是「加東西」— 加物種紀律、加 slide 數、加字級。v0.4 是第一次「**減東西**」— 拿掉分類色。視覺上的反直覺是：去除一個維度反而讓整 deck 更強。原因：深主底色 `#1a3c34` 上，分類色（nature `#15803d` 深綠 / culture `#7c3aed` 紫）對比度不夠，反而 TWMD 識別 accent `#00d4aa` 湖綠才有足夠對比 + profile feed 視覺一致。這層 trade-off 在 v0.1 設計時想當然耳「分類色當 accent 是正解」沒驗證；要等真的跑兩篇不同分類（nature + culture）並排看才看得出來。
+
+**收穫的 meta 紀律**：**設計決策要等樣本驗證**。SPORE-IG-PIPELINE v0.1 的「分類色當次要 accent」是從 spore 系統慣例直覺帶過來的，沒有 IG carousel 特有的驗證。一篇 pilot 看不出問題（颱風時就覺得不錯），兩篇並排才暴露分類色 in-feed 一致度問題。未來新設計都該標「待 ≥2 篇驗證」flag。
+
+### v0.4 後追加的工程便利性升級：自動開資料夾
+
+哲宇隨手提的「產完開資料夾」其實是**開發者體驗的 hard gate**。之前每次 render 完都要手動 `open public/carousel-images/{slug}`，現在直接彈出 Finder 視窗看 thumbnails，視覺自檢 8 條的循環速度直接快兩倍。
+
+實作極簡：`spawn(cmd, [outDir], {detached:true, stdio:'ignore'}).unref()`，cross-platform 用 `os.platform()` 決定 `open` / `xdg-open` / `explorer`。`--no-open` flag + `CAROUSEL_NO_OPEN=1` env 給 CI / cron / headless 用。
+
+未來啟示：開發體驗的小升級值得放進 canonical SOP — 不只工具層改改，pipeline 也明文（§Stage 4 RENDER step 4），讓 future session 跑生成器時不會被 deprecated convention 拖累。
+
+---
 
 **觸發**：哲宇看 slide 3 visual 截圖「字全都太小了、寬度用滿、字體全部 1.2x」。
 
@@ -140,18 +165,21 @@ related:
 
 ---
 
-## 三、Canonical 升級總覽（v0.1 → v0.3）
+## 三、Canonical 升級總覽（v0.1 → v0.4）
 
-| 維度              | v0.1（初版）                          | v0.2（物種紀律 + 10 張）                           | v0.3（字級寬度升級）                            |
-| ----------------- | ------------------------------------- | -------------------------------------------------- | ----------------------------------------------- |
-| 母片 type         | cover / point / stat / quote / source | + figure / bullets / `point` rename `section`      | (同)                                            |
-| Slide 數 default  | 6-10 sweet spot                       | **10 hard default**                                | (同)                                            |
-| section body 字數 | 30-50 字 sweet                        | **80-120 字 sweet / 130 ceiling**                  | (同)                                            |
-| section kw 字數   | 5-20 字 / floor 5                     | **10-20 字 / floor 10**（看得懂）                  | (同)                                            |
-| body 字級         | 2.15rem                               | (同)                                               | **2.14rem × full-width**（移除 max-width 36ch） |
-| kw 字級           | 4.6rem                                | (同)                                               | **4.56rem 1.2x**                                |
-| 自檢 gate         | 字數 ceiling                          | + floor + 轉述測試 + 名詞配對                      | (同)                                            |
-| 物種定位          | 「策展不搬運」泛論                    | **「IG ≠ SPORE，是 10 張 micro-essay」** canonical | (同)                                            |
+| 維度             | v0.1                          | v0.2                              | v0.3                                         | v0.4                                       |
+| ---------------- | ----------------------------- | --------------------------------- | -------------------------------------------- | ------------------------------------------ |
+| 母片 type        | cover/point/stat/quote/source | + figure/bullets / section        | (同)                                         | (同)                                       |
+| Slide 數 default | 6-10 sweet                    | **10 hard default**               | (同)                                         | (同)                                       |
+| section body     | 30-50 字 sweet                | (同)                              | **80-120 字 / 130 ceiling**                  | (同)                                       |
+| section kw       | 5-20 / floor 5                | (同)                              | **10-20 / floor 10**                         | (同)                                       |
+| body 字級        | 2.15rem                       | (同)                              | **2.14rem × full-width** (移 max-width 36ch) | (同)                                       |
+| kw 字級          | 4.6rem                        | (同)                              | **4.56rem 1.2x**                             | (同)                                       |
+| Accent 色        | TWMD + 分類色 accent2         | (同)                              | (同)                                         | **拿掉 accent2，單一 #00d4aa 識別色**      |
+| 自檢 gate        | 字數 ceiling                  | + floor + 轉述測試 + 名詞配對     | (同)                                         | (同)                                       |
+| 物種定位         | 「策展不搬運」泛論            | **IG ≠ SPORE，10 張 micro-essay** | (同)                                         | (同)                                       |
+| RENDER 結尾      | console log only              | (同)                              | (同)                                         | **自動開 outDir** (open/xdg-open/explorer) |
+| Worked examples  | 颱風 (1 篇)                   | (同)                              | (同)                                         | **颱風 + 天燈 (2 篇)** 跨 archetype 驗證   |
 
 ---
 

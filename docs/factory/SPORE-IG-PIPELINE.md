@@ -1,9 +1,9 @@
 ---
 title: 'SPORE-IG-PIPELINE'
-description: 'IG 圖文孢子產線 — 4 階段 PICK → CURATE → DRAFT → RENDER（+ SHIP / HARVEST archived future）。把長文策展成可滑動的 IG carousel；母片系統 + 讀者觀點方法論 + 6 種版型範例。(v0.1 canonical)'
+description: 'IG 圖文孢子產線 — 4 階段 PICK → CURATE → DRAFT → RENDER（+ SHIP / HARVEST archived future）。物種紀律 + 母片系統 + 字數 floor/ceiling + 單一識別色 + 自動開資料夾。v0.4 canonical：颱風 + 天燈 2 篇 worked example。'
 type: 'factory-canonical'
 status: 'canonical'
-current_version: 'v0.1'
+current_version: 'v0.4'
 last_updated: 2026-06-03
 last_session: '2026-06-03-manual'
 sister_docs:
@@ -42,7 +42,7 @@ audience: 'AI session 接續 + 哲宇 review'
 │            ├── 一頁一意（每張 slide 只裝一個 takeaway）                  │
 │            ├── default ≥ 10 張（IG hard cap = 10；不滿 10 = 浪費容量）   │
 │            ├── 來源即招牌（末頁固定來源 + 連結 = 差異化武器）            │
-│            └── 主色為識別（TWMD #1a3c34 + #00d4aa 不變，分類色是 accent）│
+│            └── 單一識別色（TWMD #1a3c34 主底 + #00d4aa 唯一 accent，v0.4 拿掉分類色）│
 │                                                                          │
 │   ──── 4 階段主流程 ──────────────────────────────────────              │
 │                                                                          │
@@ -86,7 +86,7 @@ audience: 'AI session 接續 + 哲宇 review'
 3. **CURATE 在 DRAFT 之前** — 必須先過綱要（純結構 + 一句話/頁），確認敘事弧再灌字。跳這步 = 寫到第 7 頁才發現結構錯了要全改。
 4. **每頁字數雙鎖：floor + ceiling**（標題也要過自檢）— 每種母片有 hard 字數上下限（§五字數規範）。**超 ceiling = 砍或拆**；**低於 floor = 補因果/規模/為什麼，不是 ship**。寫太短 = 霧煞煞，寫太長 = 視覺密度爆。**標題（kw）floor 升到 10 字** — 5 字以下 = 簡訊縮寫，讀者看不懂；10-20 字 1-2 行、含動作或具體 context = 看得懂。
 5. **末頁固定來源 + 連結** — 這是 Taiwan.md 的差異化武器（多數台灣知識 IG 來源偏弱）。沒末頁來源 = 失去 traceability DNA = 像匿名懶人包。
-6. **主色不變，分類色只當 accent** — TWMD `#1a3c34` 主底 + `#00d4aa` 識別色每張都在；分類色（nature `#15803d` 等）只出現在 kicker tag 或一個 keyword 高亮，**不換主底**。換了 = 失去 in-feed 辨識度。
+6. **單一識別色不變**（v0.4 升級）— TWMD `#1a3c34` 主底 + **單一** `#00d4aa` accent 識別色每張都在（kicker / idx / em 高亮 / 引號 / source bullet 全用同一個 accent）。**v0.4 拿掉分類色**（哲宇 directive「主題色效果不好」）— 分類色（nature 綠 / culture 紫 etc）在深主底色上對比度不夠，且 profile feed 顏色雜亂；統一識別色後對比強、視覺一致。
 
 ---
 
@@ -304,6 +304,7 @@ slide-NN | <type> | <一句話重點> | <配圖預定> | <字數預算>
    - [ ] 每張視覺密度合理（不擁擠 / 不過空）
    - [ ] 整 deck 視覺一致（主色不變、字體系統一致）
 3. 不過 → 回 Stage 2（結構問題）或 Stage 3（文字 / 配圖問題）
+4. **v0.4 升級**：生成器結尾**自動開啟 outDir 資料夾**（macOS `open` / Linux `xdg-open` / Windows `explorer`），方便觀察者立即視覺檢視整 deck。CI / cron / headless 用 `--no-open` 或 `CAROUSEL_NO_OPEN=1` 關掉。
 
 **輸出**：`public/carousel-images/{slug}/slide-01.png` 到 `slide-NN.png`。
 
@@ -319,7 +320,7 @@ slide-NN | <type> | <一句話重點> | <配圖預定> | <字數預算>
 
 > **核心觀念**：母片不是版型清單，是**內容模具**。每種 type 規定「裝什麼欄位、字數多少、配圖怎麼擺」。寫的時候像填表格，不像自由排版。
 >
-> 共通規範：尺寸 **1080×1350（4:5）** / 主底色 `#1a3c34` 漸層 / accent `#00d4aa` 識別色 / 字體 Noto Serif TC（標題 900）+ Noto Sans TC（內文）/ 每張右下 wordmark + 進度條 + page indicator。
+> 共通規範：尺寸 **1080×1350（4:5）** / 主底色 `#1a3c34` 漸層 / **單一 accent `#00d4aa`**（v0.4：拿掉分類色 accent2，所有 kicker/idx/em/qmark/source bullet 都用同一個識別色） / 字體 Noto Serif TC（標題 900）+ Noto Sans TC（內文）/ 每張右下 wordmark + 進度條 + page indicator。
 
 ### 3.1 cover（封面）
 
@@ -776,9 +777,27 @@ inline: /article-images/nature/morakot-minxiong-flood-2009.jpg
 
 ## 十、本檔狀態
 
-- v0.1 canonical — 2026-06-03 manual session
-- 觸發：哲宇 directive「先寫整個方法論的 spore-ig-pipeline.md，不要跳步驟」
+### v0.1 → v0.4 進化軌跡（2026-06-03 同 session 5 次升級）
+
+| 版本       | 觸發                                       | 升級點                                                                                             |
+| ---------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------- |
+| **v0.1**   | 哲宇 directive「先寫整個方法論」           | 4 階段 + 6 母片 + 颱風 worked example                                                              |
+| **v0.2**   | 哲宇 callout「沒啥內容、霧煞煞」           | §〇 物種紀律誕生（IG ≠ SPORE，是 10 張 micro-essay）+ 轉述測試 + 名詞↔規模配對 + Top 6 #1 物種差異 |
+| **v0.2.1** | 哲宇 directive「default ≥ 10 張」          | 9→10 張 + 母片組合速查 + 拉出未來感 slide 完成 thesis 弧                                           |
+| **v0.3**   | 哲宇 callout「字太小、寬度用滿、1.2x」     | 字級全 ×1.2 + body max-width 移除 + 字數規範 floor/sweet/ceiling 三層（body 80-120 / kw 10-20）    |
+| **v0.4**   | 哲宇 directive「主題色效果不好，先不要用」 | 拿掉分類色 accent2，全 deck 統一 TWMD 識別色 `#00d4aa`；RENDER 結尾自動開啟資料夾                  |
+
+### 已驗證
+
 - 母片系統 6 種：cover / quote / stat / section / figure / bullets / source
-- 颱風完整 worked example（outline + JSON + 字數查核 + 事實查核 + 紀實閘）
-- 沿用：SPORE-VERIFY 事實查核 / §11 / 紀實煽情閘
-- archived future：SHIP / HARVEST / 生成器 v2 / Graph API
+- **2 篇 worked example**：颱風（概念悖論型，nature）+ 天燈（概念悖論 + 歷史時間軸 hybrid，culture）
+- 跨 archetype / category / ethical flag 通用性已驗證
+- 沿用 gate：SPORE-VERIFY 事實查核 7 類 / §11 prose-health / 紀實煽情閘四問
+
+### archived future
+
+- SPORE-IG-VERIFY 分檔（字數 + 物種紀律 + 視覺自檢 8 條 instrument 化）
+- SPORE-IG-SHIP 分檔（IG 發佈 SOP / Graph API）
+- SPORE-IG-HARVEST 分檔（saves/shares 回填）
+- 生成器 v0.5+（CSS scale variable / 更多母片 type / VERIFY plugin）
+- AI 自動產 outline（給定 slug + archetype → outline 草稿）

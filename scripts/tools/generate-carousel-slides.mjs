@@ -7,8 +7,9 @@
  * single-page setContent → per-slide page.evaluate(__renderSlide) → screenshot。
  * 無需 dev server。Google Fonts Noto Serif/Sans TC CDN。
  *
- * 品牌識別（哲宇 directive 2026-06-03）：Taiwan.md 主色 #1a3c34 + accent #00d4aa
- * 當識別沿用；每篇分類色 (accent2) 是次要 accent（kicker 條 + keyword 高亮）。
+ * 品牌識別（v0.4，2026-06-03 哲宇 directive「主題色效果不好，先不要用」）：
+ * Taiwan.md 主色 #1a3c34 + 單一 accent #00d4aa（識別色）。
+ * 不再用分類色當次要 accent — 統一識別色，profile feed 一致度更高。
  *
  * Usage:
  *   node scripts/tools/generate-carousel-slides.mjs --script docs/factory/CAROUSEL-BLUEPRINTS/颱風.json
@@ -18,7 +19,7 @@
  *   {
  *     "slug": "颱風",
  *     "category": "nature",
- *     "accent2": "#15803d",          // 分類色 (次要 accent)，省略 → 用主 accent
+ *     // accent2 已 deprecated（v0.4）— 全 accent 統一用 #00d4aa 識別色
  *     "url": "taiwan.md/nature/颱風",
  *     "heroImage": "public/article-images/nature/morakot-modis-satellite-2009.jpg",
  *     "slides": [
@@ -35,6 +36,8 @@ import { chromium } from 'playwright';
 import { mkdirSync, existsSync, readFileSync } from 'node:fs';
 import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { spawn } from 'node:child_process';
+import { platform } from 'node:os';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -67,7 +70,7 @@ const VIEWPORT = { width: 1080, height: 1350 };
 
 // ── load slide script + assets ───────────────────────────────────────────────
 const script = JSON.parse(readFileSync(resolve(repoRoot, scriptPath), 'utf-8'));
-const accent2 = script.accent2 || BRAND.accent; // 分類色 (次要)
+// v0.4: 拿掉 accent2，全 deck 統一用 BRAND.accent 識別色（哲宇 directive）
 
 function toDataUri(absPath) {
   const buf = readFileSync(absPath);
@@ -102,7 +105,6 @@ function buildTemplateHtml() {
   --dark:${BRAND.dark}; --dark-grad:${BRAND.darkGrad};
   --accent:${BRAND.accent}; --accent-soft:${BRAND.accentSoft};
   --text:${BRAND.text}; --text-dim:${BRAND.textDim};
-  --accent2:${accent2};
 }
 *{margin:0;padding:0;box-sizing:border-box;}
 html,body{width:1080px;height:1350px;overflow:hidden;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
@@ -124,7 +126,7 @@ body{
 .pageno{font-size:1.8rem;color:var(--text-dim);font-variant-numeric:tabular-nums;font-weight:500;}
 
 /* kicker */
-.kicker{display:inline-block;align-self:flex-start;background:var(--accent2);color:#fff;font-weight:700;
+.kicker{display:inline-block;align-self:flex-start;background:var(--accent);color:#fff;font-weight:700;
   font-size:1.8rem;padding:.35em 1em;border-radius:999px;margin-bottom:2rem;letter-spacing:.04em;}
 
 /* big serif title */
@@ -145,14 +147,14 @@ body{
 
 /* section — v0.3: 字級 1.2x、寬度用滿 */
 .frame[data-type="section"]{justify-content:center;}
-.idx{font-family:'Noto Serif TC',serif;font-weight:900;font-size:3.12rem;color:var(--accent2);opacity:.9;margin-bottom:1rem;letter-spacing:.05em;}
+.idx{font-family:'Noto Serif TC',serif;font-weight:900;font-size:3.12rem;color:var(--accent);opacity:.9;margin-bottom:1rem;letter-spacing:.05em;}
 .kw{font-family:'Noto Serif TC',serif;font-weight:900;font-size:4.56rem;line-height:1.25;color:var(--text);margin-bottom:1.5rem;white-space:pre-line;}
 .kw em{color:var(--accent);font-style:normal;}
 .body{font-size:2.14rem;line-height:1.78;color:rgba(244,240,234,.92);white-space:pre-line;}
 
 /* figure — v0.3: 字級 1.2x */
 .frame[data-type="figure"]{justify-content:flex-start;padding-top:160px;padding-bottom:130px;}
-.figpull{display:inline-block;align-self:flex-start;background:var(--accent2);color:#fff;font-weight:700;font-size:1.8rem;padding:.35em 1em;border-radius:999px;margin-bottom:1.2rem;letter-spacing:.04em;}
+.figpull{display:inline-block;align-self:flex-start;background:var(--accent);color:#fff;font-weight:700;font-size:1.8rem;padding:.35em 1em;border-radius:999px;margin-bottom:1.2rem;letter-spacing:.04em;}
 .figimg{width:100%;aspect-ratio:5/3;background-size:cover;background-position:center;border-radius:12px;box-shadow:0 12px 36px rgba(0,0,0,.45);margin-bottom:1.2rem;}
 .figcap{font-size:1.8rem;line-height:1.55;color:rgba(244,240,234,.78);font-style:italic;margin-bottom:.7rem;}
 .figbody{font-family:'Noto Serif TC',serif;font-weight:700;font-size:2.14rem;line-height:1.7;color:var(--text);white-space:pre-line;}
@@ -165,7 +167,7 @@ body{
 .blist[data-style="dot"] li::before{content:"●";color:var(--accent);font-size:1.68rem;}
 .blist[data-style="num"] li{counter-increment:bnum;}
 .blist[data-style="num"]{counter-reset:bnum;}
-.blist[data-style="num"] li::before{content:counter(bnum,decimal-leading-zero);font-family:'Noto Serif TC',serif;font-weight:900;color:var(--accent2);min-width:2ch;}
+.blist[data-style="num"] li::before{content:counter(bnum,decimal-leading-zero);font-family:'Noto Serif TC',serif;font-weight:900;color:var(--accent);min-width:2ch;}
 .blist[data-style="arrow"] li::before{content:"→";color:var(--accent);font-weight:700;}
 .bcaveat{margin-top:2rem;font-size:1.86rem;color:var(--text-dim);font-style:italic;}
 
@@ -177,7 +179,7 @@ body{
 
 /* quote — v0.3: 字級 1.2x */
 .frame[data-type="quote"]{justify-content:center;}
-.qmark{font-family:'Noto Serif TC',serif;font-weight:900;font-size:8.4rem;line-height:.6;color:var(--accent2);opacity:.85;margin-bottom:.6rem;}
+.qmark{font-family:'Noto Serif TC',serif;font-weight:900;font-size:8.4rem;line-height:.6;color:var(--accent);opacity:.85;margin-bottom:.6rem;}
 .qtext{font-family:'Noto Serif TC',serif;font-weight:700;font-size:4.8rem;line-height:1.5;color:var(--text);white-space:pre-line;}
 .qby{font-size:2.28rem;color:var(--text-dim);margin-top:2rem;}
 
@@ -186,7 +188,7 @@ body{
 .srctitle{font-family:'Noto Sans TC';font-weight:700;font-size:2.04rem;letter-spacing:.18em;color:var(--accent);margin-bottom:1.6rem;}
 .srclist{list-style:none;}
 .srclist li{font-family:'Noto Serif TC',serif;font-size:2.88rem;line-height:1.8;color:var(--text);display:flex;gap:.7rem;align-items:baseline;}
-.srclist li::before{content:"·";color:var(--accent2);font-weight:900;}
+.srclist li::before{content:"·";color:var(--accent);font-weight:900;}
 .srcurl{margin-top:2.4rem;font-size:2.52rem;color:var(--accent-soft);font-weight:500;word-break:break-all;}
 .cta{margin-top:2rem;font-size:2.4rem;line-height:1.7;color:rgba(244,240,234,.92);font-weight:500;white-space:pre-line;}
 
@@ -345,6 +347,26 @@ async function main() {
   await ctx.close();
   await browser.close();
   console.log(`\n✨ ${total} slides → ${outDir.replace(repoRoot + '/', '')}/`);
+
+  // v0.4: auto-open output folder (per哲宇 directive 2026-06-03)
+  // macOS: open / Linux: xdg-open / Windows: explorer
+  // skip if --no-open or env CAROUSEL_NO_OPEN=1
+  const noOpen =
+    process.argv.includes('--no-open') || process.env.CAROUSEL_NO_OPEN === '1';
+  if (!noOpen) {
+    const cmd =
+      platform() === 'darwin'
+        ? 'open'
+        : platform() === 'win32'
+          ? 'explorer'
+          : 'xdg-open';
+    try {
+      spawn(cmd, [outDir], { detached: true, stdio: 'ignore' }).unref();
+      console.log(`📂 opened: ${outDir.replace(repoRoot + '/', '')}/`);
+    } catch (e) {
+      console.warn(`⚠ failed to auto-open folder: ${e.message}`);
+    }
+  }
 }
 
 main().catch((e) => {
