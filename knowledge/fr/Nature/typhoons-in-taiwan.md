@@ -1,232 +1,260 @@
 ---
-title: 'Prevoir la trajectoire, pas le destin : quatre cents ans de typhons a Taiwan'
-description: "Ce matin-là en 2009, Luo Pan-chunmei, 71 ans, se tenait sur le balcon du deuxième etage et regardait le mont Xiandu s'effondrer, engloutissant 462 de ses proches au village de Xiaolin. Quinze ans plus tard, Taiwan utilise six modèles d'IA pour comprimer l'erreur de prediction sur 24 heures de la trajectoire des typhons de 172 km à 57 km. Mais dans ces 57 km, personne ne peut predire qui sortira travailler sous la pluie et le vent, ni qui ne recevra pas l'alerte."
+title: 'Pouvoir prévoir le vent et la pluie, mais pas le destin : quatre siècles de Taïwan face aux typhons'
+description: "Ce matin-là, pendant le typhon Morakot en 2009, Lo Pan Chun-mei, 71 ans, se tenait sur le balcon du deuxième étage et regardait le mont Xiandu s'effondrer, engloutissant les 462 proches du village de Xiaolin. Quinze ans plus tard, Taïwan a utilisé six ensembles de modèles d'IA pour réduire l'erreur de trajectoire des typhons à 24 heures de 172 kilomètres à 57 kilomètres. Mais, dans ces 57 kilomètres, qui sortira travailler sous le vent et la pluie, qui ne recevra pas l'alerte : cela reste impossible à prévoir."
 date: 2026-05-09
+author: 'Taiwan.md'
 category: 'Nature'
+subcategory: '氣候與災害'
 tags:
   [
-    'typhon',
+    'typhons',
     'Morakot',
     'Herb',
     'Nari',
     'changement climatique',
-    'jour ferie pour typhon',
-    'sagesse autochtone',
-    'Wu Derong',
-    'Wu Junjie',
-    'Luo Pan Chunmei',
-    'prediction IA',
+    'congé typhon',
+    'savoirs autochtones',
+    'Wu Te-jung',
+    'Wu Chun-chieh',
+    'Lo Pan Chun-mei',
+    'prévision par IA',
     'FORMOSAT-7',
   ]
-subcategory: '氣候與災害'
-author: 'Taiwan.md'
-featured: false
+readingTime: 13
 lastVerified: 2026-05-09
 lastHumanReview: false
-readingTime: 13
+featured: false
 translatedFrom: 'Nature/颱風.md'
-sourceCommitSha: 'ef195fa9d'
-sourceContentHash: 'sha256:f24328f70712f01e'
-sourceBodyHash: 'sha256:b9d03786e906ca4a'
-translatedAt: '2026-05-13T09:30:29+08:00'
+sourceCommitSha: '4407f0af6'
+sourceContentHash: 'sha256:b25ee135b9bea711'
+sourceBodyHash: 'sha256:c5aa7038d81fc4d3'
+translatedAt: '2026-06-03T21:58:47+08:00'
 ---
 
-# Prevoir la trajectoire, pas le destin : quatre cents ans de typhons a Taiwan
+# Pouvoir prévoir le vent et la pluie, mais pas le destin : quatre siècles de Taïwan face aux typhons
 
-> **En 30 secondes :** Le 8 août 2009 à l'aube, le mont Xiandu s'effondra après trois jours de pluies torrentielles consecutives, engloutissant le village de Xiaolin et 462 vies. Seize ans plus tard, l'erreur de prediction sur 24 heures de la trajectoire des typhons à Taiwan est passee de 172 km en l'an 2000 à 57 km en 2025. Chaque jour, le satellite FORMOSAT-7 collecte plus de 4 000 donnees atmospheriques, et six modèles d'IA generent en quatre minutes des cartes d'alerte sur trente jours. Mais la seconde où Luo Pan-chunmei se tenait au deuxième etage et regardait ses proches disparaître, aucun radar, aussi precis soit-il, ne pouvait les sauver. On peut prevoir le vent et la pluie, mais pas le destin.
+> **Aperçu en 30 secondes :** À l’aube du 8 août 2009, après trois jours de pluies diluviennes continues, le mont Xiandu s’est effondré et a englouti 462 vies dans le village de Xiaolin. Seize ans plus tard, l’erreur des prévisions taïwanaises de trajectoire des typhons à 24 heures est passée de 172 kilomètres en 2000 à 57 kilomètres en 2025. Chaque jour, un satellite FORMOSAT-7 fournit plus de 4 000 relevés atmosphériques, et six ensembles de modèles d’IA génèrent en quatre minutes des cartes d’alerte pour trente jours. Mais à l’instant où Lo Pan Chun-mei, depuis le deuxième étage, a vu ses proches disparaître, même le radar le plus précis ne pouvait plus rien rattraper. On peut prévoir le vent et la pluie, mais pas le destin.
 
 ## « Xiaolin a disparu ! »
 
-Le 8 août 2009 à l'aube, Luo Pan-chunmei, 71 ans, se tenait sur le balcon du deuxième etage.
+À l’aube du 8 août 2009, Lo Pan Chun-mei, 71 ans, se tenait sur le balcon du deuxième étage.
 
-Le mont Xiandu, qui semblait en si bon etat la veille, s'effondra sous l'erosion de trois jours de pluies consecutives. Une coulée de boue, tel un dragon jaune gigantesque, devala depuis le sommet, engloutissant les rues, les maisons, le village où elle avait vecu toute sa vie. Ses 462 proches disparurent alors dans les montagnes.[^1]
+Le mont Xiandu, intact encore la veille, s’est effondré sous l’érosion de trois jours de pluies torrentielles continues. La boue et les rochers ont dévalé du sommet comme un immense dragon jaune, engloutissant les rues, les maisons, la tribu où elle avait vécu toute sa vie. Ses 462 proches ont alors disparu entre les montagnes.[^1]
 
-> **✦** « J'ai pleure jusqu'à ne plus pouvoir pleurer. Maintenant, je pleure moins. Il faut avancer. » — Luo Pan-chunmei, dix ans après la catastrophe de Morakot
+> **✦** « J’ai pleuré jusqu’à ne plus pouvoir pleurer. Aujourd’hui, les larmes viennent moins facilement. Il faut que nous avancions. » — Lo Pan Chun-mei, revenant sur le désastre du typhon Morakot dix ans plus tard
 
-Ce cri est l'un des instants les plus douloureux des quatre cents ans de confrontation entre Taiwan et les typhons. À Taiwan, le typhon, c'est le poème ecrit par un fonctionnaire de Penghu en 1705, les drapeaux de couleur sur les toits du port de Takao en 1865, le matin de la disparition du village de Xiaolin en 2009 — et aussi, chaque ete, la pluie sous laquelle 81 % des travailleurs continuent de se rendre au bureau.
+Ce cri fut l’un des instants les plus douloureux de quatre siècles de lutte entre Taïwan et les typhons. Le typhon, sur cette île, c’est un vers écrit en 1705 par un fonctionnaire de Penghu, un pavillon de signalisation hissé en 1865 sur le toit du port de Takao, le matin de 2009 où le village de Xiaolin a disparu, mais aussi cette pluie sous laquelle 81 % des travailleurs continuent chaque été à aller travailler.
 
-| Indicateur                                               | Valeur                                                            |
-| -------------------------------------------------------- | ----------------------------------------------------------------- |
-| Nombre moyen de typhons frappant Taiwan par an           | 3,5                                                               |
-| Part des typhons dans les precipitations annuelles       | Près de 50 %                                                      |
-| Pertes agricoles dues aux typhons en 2024                | Environ 52 milliards NT$ (98,88 % des pertes agricoles annuelles) |
-| Erreur de prediction de trajectoire sur 24 h (2000→2025) | 172 km → 57 km                                                    |
-| Profils atmospheriques quotidiens de FORMOSAT-7          | 4 000 à 5 000                                                     |
+| Indicateur                                                        | Valeur                                                                                                             |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Nombre annuel moyen de typhons affectant Taïwan                   | 3,5                                                                                                                |
+| Part des typhons dans les précipitations annuelles de Taïwan      | Près de 50 %                                                                                                       |
+| Pertes agricoles dues aux typhons en 2024                         | Environ 52 milliards de nouveaux dollars taïwanais (98,88 % des pertes agricoles annuelles liées aux catastrophes) |
+| Erreur de prévision de trajectoire des typhons à 24 h (2000→2025) | 172 km → 57 km                                                                                                     |
+| Volume quotidien de profils atmosphériques fournis par FORMOSAT-7 | 4 000 à 5 000 relevés                                                                                              |
 
-## Des drapeaux de couleur de Takao aux 1094 mm d'Alishan
+## Des pavillons météo de Takao aux 1 094 millimètres d’Alishan
 
-L'histoire de Taiwan face aux typhons est bien plus longue que celle de la Republique de Chine.
+L’histoire de Taïwan face aux typhons est bien plus ancienne que la République de Chine.
 
-À l'epoque Tongzhi de la dynastie Qing (vers 1865), les Britanniques hissèrent des drapeaux de couleur indiquant le vent et la pluie sur le toit de l'hopital Mudock à Takao (aujourd'hui Kaohsiung) — c'etait le premier système d'alerte meteorologique de Taiwan. La couleur des drapeaux indiquait differents niveaux de force du vent, et les navires savaient s'il fallait ou non prendre la mer.[^6]
+Sous le règne Tongzhi des Qing, vers 1865, les Britanniques hissèrent des pavillons de signalisation météorologique sur le toit de l’hôpital Mudé à Takao, l’actuel Kaohsiung : ce fut le premier système d’alerte météorologique de Taïwan. Les couleurs des pavillons correspondaient à différents niveaux de vent ; les navires savaient ainsi s’ils devaient ou non prendre la mer.[^6]
 
-Plus d'un siècle et demi auparavant, en 1705 à Penghu, le fonctionnaire Sun Yuan-heng fut temoin de la terreur d'un ouragan. Il ecrivit quatre-vingt-cinq vers du « Chant de l'ouragan » : « Le vent d'automne s'elève en une nuit de furie, la mère de l'ouragan arrive de l'ouest dans sa colère arrogante. »[^35] Trois cents ans plus tard, ces vers sont encore relus avant chaque typhon dans des publications sur les reseaux sociaux.
+Cent soixante ans plus tôt, en 1705, à Penghu, le fonctionnaire Sun Yuanheng fut témoin d’un ouragan. Il écrivit les quatre-vingt-cinq vers du « Chant de l’ouragan » : « Le vent d’automne s’est levé en tornade dans la nuit ; la mère des ouragans est venue de l’ouest, superbe dans sa colère. »[^35] Trois siècles plus tard, à chaque approche de typhon, ses vers sont encore relus quelque part dans une publication Facebook.
 
-Le temps saute au 31 juillet 1996. Le typhon Herb (Herb) frappa Taiwan, et Alishan recut 1 094,5 mm de pluie en un seul jour — l'equivalent des precipitations annuelles de la ville de Taipei, deversees en une journee.[^5] C'etait une première depuis l'installation de la station meteorologique en 1933. Des annees plus tard, des internautes sur PTT (le plus grand forum en ligne de Taiwan) se souviennent : « Le typhon Herb a directement inonde le rez-de-chaussee de notre maison. » Un autre : « La moitie des terres piscicoles qui representaient toute une vie de travail de mon père a ete emportee. »[^5] Herb fut surnomme « le 921 des typhons », avec des pertes totales estimees à 25 à 30 milliards NT$.
+Avançons jusqu’au 31 juillet 1996. Le typhon Herb frappe Taïwan, et Alishan reçoit 1 094,5 millimètres de pluie en une seule journée, l’équivalent des précipitations « annuelles » de Taipei déversées en vingt-quatre heures.[^5] C’était une première depuis l’installation de la station météorologique en 1933. Des années plus tard, un internaute de PTT se souvenait : « Le typhon Herb a littéralement inondé notre maison au rez-de-chaussée. » Un autre écrivait : « L’étang à poissons et les terres agricoles auxquels mon père avait consacré toute sa vie ont été en grande partie emportés. »[^5] Herb fut surnommé le « 921 du monde des typhons », avec des pertes totales estimées entre 25 et 30 milliards de nouveaux dollars taïwanais.
 
-Cinq ans plus tard, en septembre 2001, le typhon Nari (Nari) resta bloque sur Taiwan pendant 49 heures avec une trajectoire deconcertante. La station meteorologique de Taipei enregistra 425 mm de pluie en un jour, un record en 105 ans.[^2] La ligne Bannan du metro de Taipei fut entièrement interrompue, 16 stations et depots furent completement inondes. Hu Zong-li, ancien chef de section de la ligne Bannan, s'enfuit avec ses cles et quelques centaines de milliers de fonds de roulement, ses 12 stations etant toutes submergees en une nuit. Les residents de Bishanli dans le district de Neihu avaient passe un an à trier leurs dechets — la catastrophe paralysa l'ensemble du système de recyclage avec quinze mille tonnes de dechets.[^2]
+Cinq ans plus tard, en septembre 2001, le typhon Nari stationna au-dessus de Taïwan pendant 49 heures, suivant une trajectoire étrange. La station météorologique de Taipei mesura 425 millimètres de pluie en une journée, un record historique en 105 ans d’existence.[^2] Toute la ligne Bannan du métro de Taipei fut suspendue ; 16 stations et le dépôt furent entièrement inondés. Hu Tsung-li, ancien chef de section de la ligne Bannan, s’enfuit avec ses clés et plusieurs centaines de milliers de dollars taïwanais de fonds de roulement ; en une nuit, les 12 stations dont il avait la charge furent toutes submergées. À Bishan, dans Neihu, les habitants avaient poussé pendant un an la collecte des ressources recyclables ; lorsque le typhon arriva, 150 000 tonnes de déchets paralysèrent tout le système de recyclage.[^2]
 
-Des vers d'un poème de 1705 à la paralysie du metro de 2001 : les details consignes changent, mais les faits racontes sont les mêmes — cette île ne sait jamais où elle se cassera quand un typhon arrive.
+Des vers de 1705 au métro de 2001, les détails consignés par l’écriture diffèrent, mais ce qu’ils enregistrent est la même chose : cette île ne sait jamais où elle cédera quand un typhon arrive.
 
-## La « montagne gardienne » est un compresseur, pas un bouclier
+## La « montagne sacrée qui protège le pays » est un compresseur, pas un rempart
 
-Chaque fois qu'un typhon s'approche d'est en ouest, les Taiwanais ont l'habitude de tourner le regard vers la Chaîne centrale, dont l'altitude moyenne depasse 3 000 mètres. Populairement surnommee la « montagne gardienne de la nation », on lui attribue le merite d'affaiblir les typhons et de proteger la moitie ouest de l'île.
+Chaque fois qu’un typhon approche d’est en ouest, les Taïwanais ont l’habitude de regarder vers cette chaîne centrale dont l’altitude moyenne dépasse 3 000 mètres. On la surnomme familièrement la « montagne sacrée qui protège le pays », en la remerciant d’affaiblir les typhons et de protéger la moitié occidentale.
 
-Wu Derong, ancien directeur du Centre de prediction meteorologique, a refute cette affirmation à plusieurs reprises.[^3]
+Wu Te-jung, ancien directeur du centre de prévision du Bureau météorologique, a publiquement réfuté cette idée à plusieurs reprises.[^3]
 
-> « Si Taiwan etait plat, les precipitations apportees par Morakot auraient ete radicalement differentes. C'est precisement parce que le relief eleve force l'air chaud et humide à s'elever que des precipitations extrêmes tombent sur le versant au vent. »
+> « Si Taïwan était plate, les précipitations apportées par Morakot auraient été “à mille lieues” de ce qu’elles furent. C’est précisément parce que le relief élevé force l’air chaud et humide à s’élever que des pluies extrêmes tombent sur le versant au vent. »
 
-Les donnees scientifiques confirment son analyse. Le typhon Herb a deverse un cumul de 1 994 mm de pluie en trois jours à Alishan — près de deux mille millimètres. Le cumul de Morakot à Alishan a meme depasse les 3 000 mm, battant un record historique.[^5] Ces chiffres ne sont pas « bloques par la montagne » mais « comprimes par la montagne ». La montagne transforme le vent en eau et la deverse sur le versant au vent.
+Les données scientifiques soutiennent son analyse. Le typhon Herb a déversé 1 994 millimètres de pluie en trois jours à Alishan, soit près de deux mètres. Morakot y a même dépassé 3 000 millimètres, établissant un record historique.[^5] Comment ces chiffres pourraient-ils correspondre à une pluie « arrêtée par la montagne sacrée » ? Elle a été exprimée par la montagne. La montagne transforme le vent en eau et le déverse sur le versant au vent.
 
-> 📝 **Note de curation**
+> **📝 Note du curateur**
 >
-> Le titre de « montagne gardienne de la nation » reflete essentiellement le point de vue des habitants des plaines de la moitie ouest. Pour les zones montagneuses au vent, la Chaîne centrale joue le role d'un compresseur — le vent est comprime en eau, qui se deverser sur le versant expose. La même tempête, la moitie ouest remercie les montagnes pour avoir bloque le vent, les zones montagneuses subissent seules les deux mille millimètres de pluie qui en sont extraits. Cette repartition geographique du « qui profite, qui subit » prefigure la même ligne de fracture visible dans toutes les histoires de typhons qui suivront.
+> L’expression « montagne sacrée qui protège le pays » est, fondamentalement, le point de vue des habitants des plaines occidentales. Pour les zones montagneuses exposées au vent, le rôle de la chaîne centrale est celui d’un compresseur : le vent est pressé en eau, puis déversé sur le versant au vent. Dans un même typhon, la moitié occidentale remercie la montagne d’avoir bloqué le vent, tandis que les régions de montagne supportent seules les deux mille millimètres de pluie qui en ont été extraits. Cette géographie du « qui en bénéficie, qui le subit » annonce la même fracture qui réapparaît dans toutes les histoires de typhon.
 
-Lorsque la circulation du typhon descend après avoir franchi les montagnes, elle provoque souvent un vent chaud et sec (foehn) sous le vent. Les regions de Taitung et de Taichung voient regulièrement les temperatures flamber après un typhon, causant de graves dommages aux cultures.[^5]
+Lorsque la circulation du typhon franchit la chaîne et redescend, elle provoque souvent, du côté sous le vent, un foehn chaud et sec. À Taitung et Taichung, après chaque typhon, la température grimpe brutalement et les cultures subissent de lourds dégâts.[^5]
 
-## Moins frequents mais plus violents : la nouvelle normalite
+## Moins nombreux mais plus forts : chaque année, un ou deux typhons, chacun un événement extrême
 
-Les statistiques de Taiwan de 1951 à 2023 montrent qu'il y a eu six annees sans aucun typhon forme avant mai. De 2020 à 2022, un record de trois annees consecutives sans typhon atterrissant fut enregistre.[^1]
+Les statistiques taïwanaises de 1951 à 2023 montrent que six années n’ont connu aucun typhon formé avant mai. De 2020 à 2022, Taïwan a même établi le record de trois années consécutives sans typhon touchant terre.[^1]
 
-Mais derrière cette tendance à la baisse, une transformation plus preoccupante se cache.
+Mais derrière cette tendance au « moins nombreux » se cache une transformation plus inquiétante.
 
-Le Centre de recherche sur le changement environnemental (RCEC) de l'Academia Sinica, en collaboration avec l'Universite normale nationale de Taiwan, a utilise des simulations de modèle en nuage haute resolution HiRAM :[^1] d'ici la fin du siècle (2080 à 2099), les typhons frappant Taiwan pourraient n'être plus que 1 à 2 par an — mais la proportion de typhons de categorie 4 et plus augmentera de plus de 150 %, l'intensite des precipitations des typhons augmentera de 40 %, et la vitesse du vent à l'atterrissage augmentera de 10 %.
+Le Research Center for Environmental Changes (RCEC) de l’Academia Sinica et l’Université normale nationale de Taïwan ont utilisé le modèle nuageux à haute résolution HiRAM pour simuler l’évolution future :[^1] d’ici la fin du siècle (2080-2099), les typhons affectant Taïwan pourraient n’être plus que 1 à 2 par an, mais la proportion de typhons intenses de catégorie 4 ou plus augmenterait de plus de 150 %, l’intensité des pluies cycloniques de 40 %, et la vitesse des vents à l’atterrissage de 10 %.
 
-| Indicateur                                | Actuellement (1979-2015) | Milieu du siècle (2040-2059) | Fin du siècle (2080-2099) |
-| ----------------------------------------- | ------------------------ | ---------------------------- | ------------------------- |
-| Nombre annuel de typhons affectant Taiwan | 4 à 5                    | 3 à 4                        | 1 à 2                     |
-| Proportion de typhons de categorie 4+     | Valeur de reference      | +105 %                       | +150 %+                   |
-| Intensite des precipitations              | Valeur de reference      | +20 %                        | +40 %                     |
-| Vitesse du vent à l'atterrissage          | Valeur de reference      | +8 %                         | +10 %                     |
+| Indicateur                                   | Présent (période de référence 1979-2015) | Milieu du XXIe siècle (2040-2059) | Fin du XXIe siècle (2080-2099) |
+| -------------------------------------------- | ---------------------------------------- | --------------------------------- | ------------------------------ |
+| Nombre annuel de typhons affectant Taïwan    | 4-5                                      | 3-4                               | 1-2                            |
+| Proportion de typhons de catégorie 4 ou plus | Valeur de référence                      | +105 %                            | +150 %+                        |
+| Intensité des pluies cycloniques             | Valeur de référence                      | +20 %                             | +40 %                          |
+| Vitesse du vent à l’atterrissage             | Valeur de référence                      | +8 %                              | +10 %                          |
 
-La recherche a egalement revele que 6,5 % des precipitations extrêmes du typhon Morakot ont ete amplifiees par le changement climatique d'origine humaine.[^1] Sans le rechauffement climatique, le mont Xiandu n'aurait peut-être pas cede ce matin-là. C'est un chiffre qui relie directement un typhon specifique à l'eleve global de la temperature du globe — une connexion etayee par des preuves academiques.
+L’étude a aussi montré que 6,5 % des précipitations extrêmes du typhon Morakot ont été amplifiées par le changement climatique anthropique.[^1] Sans réchauffement global, le mont Xiandu ne se serait peut-être pas effondré ce matin-là. C’est un chiffre concret par lequel le monde académique relie directement un typhon au réchauffement de la planète.
 
-« Moins frequents mais plus violents » renverse la logique de prevention des catastrophes passee. Auparavant, les ressources etaient allouees sur la base du principe « un typhon arrivera chaque annee » ; desormais, le scenario est « peut-être tout un ete calme, mais quand il arrive, un seul typhon doit encaisser à lui seul les degats d'une annee entière ». Un typhon est desormais un evenement extreme annuel.
+![Le 9 août 2009, dans un village de Minxiong, à Chiayi, après les pluies torrentielles de Morakot, une eau boueuse recouvre la route, pénètre dans le rez-de-chaussée des habitations, tandis que des habitants avancent au loin dans l’eau](/article-images/nature/morakot-minxiong-flood-2009.jpg)
+_Le 9 août 2009, à Minxiong, Chiayi. Morakot avançait lentement, et plusieurs jours de pluies torrentielles se sont déversés dans ce village. Les 6,5 % de pluie amplifiée par le changement climatique sont finalement devenus cette eau-là. Photo : zilupe, [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg)._
 
-## Les chasseurs de typhons : de l'oeil du typhon jusqu'au satellite
+« Moins nombreux mais plus forts » renverse la logique ancienne de prévention des catastrophes. Auparavant, les ressources étaient organisées sur l’hypothèse que « plusieurs typhons viendront chaque année ». Désormais, l’hypothèse devient : « l’été peut rester entièrement calme, mais le seul typhon qui arrivera devra être supporté comme une année entière de destructions ». Un typhon devient un événement extrême annuel.
 
-La relation de l'humanite avec les typhons a evolue des drapeaux de couleur de 1865 aux modèles d'IA de 2025. Cette trajectoire inclut un professeur de l'Universite nationale de Taiwan nomme Wu Jun-jie.
+## Les chasseurs de vent : Taïwan revenue de l’œil du typhon
 
-Depuis 2002, il dirige le programme DOTSTAR (Dropwindsonde Observation for Typhoon Surveillance near the Taiwan Region, « Programme de poursuite des typhons ») — le premier grand programme de recherche sur les typhons en Asie. Le 1er septembre 2003, lors du typhon Dujuan, l'equipe effectua sa première « chasse aux typhons » officielle. Fin 2012, ils avaient accompli 49 missions d'observation sur 64 vols, largue 1 051 sondes et totalise 334 heures de vol. Ces donnees de première main reduisirent en moyenne de 20 % l'erreur de prediction de trajectoire sur 24 à 72 heures.[^9]
+Face aux typhons, les outils humains sont passés des pavillons de 1865 à l’IA de 2025. Dans cette trajectoire figure un professeur de l’Université nationale de Taïwan : Wu Chun-chieh.
 
-Wu Jun-jie decrit à la première personne ce qu'il ressent dans l'oeil d'un typhon :
+Depuis 2002, il dirige le programme « Dropwindsonde Observations for Typhoon Surveillance near the Taiwan Region » (DOTSTAR), communément appelé « programme de chasse aux typhons », le premier grand programme asiatique de recherche sur les typhons. Le 1er septembre 2003, lors du typhon Dujuan, l’équipe réalisa sa première mission officielle. Fin 2012, elle avait mené des observations sur 49 typhons, lors de 64 vols, largué 1 051 sondes et accumulé 334 heures de vol. Ces données de première main ont réduit en moyenne de 20 % l’erreur des prévisions de trajectoire des typhons à 24-72 heures.[^9]
 
-> « J'ai grandi à Taitung, j'ai chasse des typhons. On sent d'abord le vent du nord, car le typhon tourne dans le sens inverse des aiguilles d'une montre, puis soudain il n'y a plus de vent — c'est que l'on est dans l'oeil du typhon ; quelques dizaines de minutes plus tard, le vent du sud se leve — c'est que l'oeil du typhon est deja passe. »
+Wu Chun-chieh décrit à la première personne ce qu’il ressent dans l’œil d’un typhon :
 
-Mais le programme de poursuite des typhons n'est qu'une partie du tableau. En 1998, Taiwan devint le premier pays au monde à utiliser des avions-sondes sans pilote Aerosonde pour observer les typhons.[^10] Après que les Etats-Unis interdirent l'exportation de l'Aerosonde en septembre 2001, Taiwan resta le dernier pays à posseder et utiliser ce système.
+> « J’ai grandi à Taitung, je l’ai vécu. On sent d’abord le vent du nord, car un typhon tourne dans le sens inverse des aiguilles d’une montre ; puis soudain il n’y a plus de vent, cela signifie que vous êtes dans l’œil du typhon ; quelques dizaines de minutes plus tard, le vent du sud se lève, cela veut dire que l’œil du typhon vous a déjà dépassé. »
 
-Le 25 juin 2019, le lancement du satellite FORMOSAT-7 (福爾摩沙衛星七號) porta la perspective d'observation au-delà de la stratosphère, vers l'espace.[^11] Six petits satellites collaborant avec la NOAA americaine fournissent chaque jour 4 000 à 5 000 profils de donnees atmospheriques, dont environ 80 % penetrent jusqu'à 1 km d'altitude — le double de l'ancien système FS3/COSMIC.
+Mais la chasse aux typhons n’est qu’une partie du dispositif taïwanais d’observation. En 1998, Taïwan est devenu le premier pays au monde à utiliser un drone de sondage Aerosonde pour observer les typhons.[^10] Après l’interdiction d’exportation américaine des Aerosonde en septembre 2001, Taïwan est devenu le dernier pays à posséder et utiliser ce système.
 
-En 2025, le Bureau meteorologique integre six modèles d'IA integrant les donnees americaines, taiwanaises et japonaises, produisant 18 trajectoires de prediction. L'erreur de prediction sur 24 heures est passee de 172 km en l'an 2000 à 57 km en 2025, une amelioration de 67 % en 25 ans. Les modèles d'IA peuvent generer des donnees d'alerte sur 30 jours en 4 minutes, soit 900 fois plus vite que les methodes traditionnelles.[^11]
+Lancé le 25 juin 2019, le satellite FORMOSAT-7 a déplacé l’angle d’observation de la stratosphère vers l’espace.[^11] Six petits satellites, en coopération avec la NOAA américaine, fournissent chaque jour 4 000 à 5 000 profils atmosphériques, dont environ 80 % pénètrent sous 1 kilomètre d’altitude : deux fois plus que l’ancien système FS3/COSMIC.
 
-| Technologie                        | Donnees cles                                | Impact sur la prevention des catastrophes               |
-| ---------------------------------- | ------------------------------------------- | ------------------------------------------------------- |
-| Programme de poursuite (drones)    | 64 vols, 1 051 sondes larguees              | Erreur de prediction 24-72 h reduite de 20 %            |
-| FORMOSAT-7 (satellite)             | 4 000-5 000 profils atmospheriques par jour | 80 % penetrent sous 1 km, le double de l'ancien système |
-| Drones de l'Univ. centrale         | Etancheite IP65, altitude 3 000 m           | Plus de 1 000 missions d'observation                    |
-| Modèles IA (6 groupes dont Huawei) | 30 jours de previsions en 4 minutes         | Erreur sur 24 h passee de 172 km à 57 km                |
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/PsYcjcHiGtU" title="太空中心量能宣傳片─獵風者衛星（國家太空中心 TASA）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-Des drapeaux de couleur à une prediction de 30 jours en 4 minutes : les 160 ans de precision accumulee permettent au gouvernement de deployer des ressources de secours 72 heures à l'avance, aux agriculteurs de recolter leurs bananes une semaine avant. Mais la precision reste une affaire de carte. La carte dit où le typhon atterrira — elle ne dit pas qui, dans la rue de cet atterrissage, devra aller travailler quand meme.
+_Film promotionnel de l’Agence spatiale taïwanaise TASA : après FORMOSAT-7, le satellite taïwanais Triton, conçu localement, mesure spécialement les champs de vent à la surface de la mer et pousse encore plus loin le regard de l’île sur les typhons._
 
-## Le cout de 31,5 milliards : qui paie ?
+En 2025, l’Administration centrale de la météorologie utilise six ensembles de modèles d’IA intégrant 18 trajectoires prévues à partir de données américaines, taïwanaises et japonaises. L’erreur de prévision de trajectoire à 24 heures est tombée de 172 kilomètres en 2000 à 57 kilomètres, soit une amélioration d’environ 67 % en vingt-cinq ans. Les modèles d’IA peuvent générer en 4 minutes des données d’alerte pour 30 jours, à une vitesse 900 fois supérieure aux méthodes traditionnelles.[^11]
 
-Les typhons ont engendre une institution unique à Taiwan : le « jour ferie pour typhon ».
+| Technologie                                           | Données clés                                | Importance pour la prévention des catastrophes                      |
+| ----------------------------------------------------- | ------------------------------------------- | ------------------------------------------------------------------- |
+| Programme de chasse aux typhons (avions)              | 64 vols, 1 051 sondes larguées              | Réduction de 20 % de l’erreur de prévision de trajectoire à 24-72 h |
+| FORMOSAT-7 (satellites)                               | 4 000-5 000 profils atmosphériques par jour | 80 % pénètrent sous 1 km, soit 2 fois l’ancien système              |
+| Drones de l’Université centrale nationale             | Étanchéité IP65, altitude de 3 000 m        | Plus de 1 000 missions d’observation                                |
+| Modèles météo d’IA (dont Huawei Weather, 6 ensembles) | Prévision sur 30 jours générée en 4 minutes | Erreur de trajectoire à 24 h réduite de 172 km à 57 km              |
 
-Cette institution nait d'une tragedie. Le 30 juillet 2001, pendant le typhon Toraji, l'enseignante Hsu Pi-lan de l'ecole primaire Qingshan dans le comte de Changhua tomba accidentellement dans un fosse d'evacuation en protegant ses eleves et mourut. Le president Chen Shui-bian se rendit personnellement au salon funeraire pour lui rendre hommage. Douze ans plus tard, en 2013, la directive originelle fut renommee « Mesures pour la suspension du travail et des cours en cas de catastrophe naturelle ».[^22]
+Des pavillons de signalisation aux prévisions de 30 jours générées en 4 minutes, cette précision accumulée en 160 ans suffit au gouvernement pour prépositionner les secours 72 heures à l’avance et aux agriculteurs pour récolter leurs bananes une semaine plus tôt. Mais la précision demeure une affaire de carte. La carte vous dit où le typhon touchera terre ; elle ne vous dit pas qui, dans cette rue-là, devra aller travailler comme d’habitude.
 
-> **✦** « Chaque jour de suspension du travail et des cours coûte à Taiwan plus de 31 milliards NT$. »
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/grDcqNrZISA" title="AI 天氣模型，預測颱風路徑更精準？《科技 Tech 好聊》EP.4（DIGITIMES）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-Cette affirmation provient d'une tribune de l'ancien ministre de l'Environnement Peng Chi-ming en 2005 ; recalculee par le president du Conseil des 3-3 Lin Bo-feng sur la base des donnees du PIB de 2023, la perte nette quotidienne est d'environ 31,5 milliards NT$.[^4]
+_DIGITIMES, « Tech好聊 » EP.4 : comment les modèles d’IA ont réduit l’erreur de prévision des trajectoires de typhons jusqu’à 57 kilomètres._
 
-Mais cette arithmetique comporte une lacune structurelle. Une enquête du site d'emploi yes123 aupres de 1 330 travailleurs revela que 81 % avaient travaille un jour de typhon, dont 65 % sur ordre de leur superieur. Une enquête du media FTNN montra que 53,5 % des travailleurs recevaient leur salaire integral, mais 37,7 % ne recevaient aucun salaire du tout.[^7] Les fonctionnaires et les cols blancs attendent chez eux les notifications de fermeture, tandis que les travailleurs des secteurs du commerce de gros, de la distribution, de l'agriculture, de la pêche, de l'elevage et de la restauration sortent sous la même tempête.
+## Un coût de 31,5 milliards : qui paie ?
 
-> 📝 **Note de curation**
+Les typhons ont aussi produit une institution propre à Taïwan : le congé typhon.
+
+Ce dispositif trouve son origine dans une tragédie. Le 30 juillet 2001, pendant le passage du typhon modéré Toraji, l’enseignante Hsu Pi-lan, de l’école primaire Qingshan dans le comté de Changhua, tomba accidentellement dans un canal de drainage et mourut en service alors qu’elle protégeait ses élèves. Le président Chen Shui-bian se rendit personnellement à la chapelle funéraire pour présenter ses condoléances. Douze ans plus tard, en 2013, les anciennes directives furent renommées « Règlement sur la suspension du travail et des cours en cas de catastrophe naturelle ».[^22]
+
+> **✦** « Chaque journée de suspension du travail et des cours a un impact supérieur à 31 milliards de nouveaux dollars taïwanais. »
+
+Cette affirmation vient d’une tribune publiée en 2005 par Peng Chi-ming, futur ministre de l’Environnement. Elle fut ensuite recalculée par Lin Por-fong, président de l’Association des trois-trois, à partir des données du PIB 2023, donnant une perte nette d’environ 31,5 milliards de nouveaux dollars taïwanais par jour.[^4]
+
+Mais ce calcul laisse de côté un problème structurel. Une enquête de yes123 auprès de 1 330 travailleurs a montré que 81 % avaient déjà travaillé normalement un jour de typhon, dont 65 % sur demande de leur supérieur. Une enquête de FTNN News indique que 53,5 % des travailleurs conservent leur salaire complet, mais que 37,7 % ne reçoivent aucune rémunération.[^7] Tandis que les fonctionnaires et cols blancs de bureau attendent chez eux l’annonce du congé, les travailleurs du commerce de gros et de détail, de l’agriculture, de la pêche, de l’élevage et de la restauration continuent à sortir sous le même typhon.
+
+> **📝 Note du curateur**
 >
-> L'histoire du jour ferie pour typhon et celle de la « montagne gardienne » sont en realite deux versions du même recit. La montagne transforme le vent en eau — sur la maison de qui ? La declaration de fermeture donne conge à qui — et oublie qui ? Dans le même typhon, la quantite de pluie sur la carte est uniforme, mais les gens qui supportent le cout ne l'ont jamais ete.
+> L’histoire du congé typhon et celle de la « montagne sacrée qui protège le pays » sont en réalité deux versions d’une même histoire. La montagne transforme le vent en eau : sur quelles maisons la déverse-t-elle ? L’annonce de suspension du travail donne un congé à qui, et oublie qui ? Dans un même typhon, la pluviométrie paraît uniforme sur la carte, mais ceux qui en supportent le coût ne le sont jamais.
 
-Le tableau complet de la stratification sociale du jour ferie pour typhon, les angles morts derrière l'arithmetique des 31,5 milliards, et la situation des travailleurs migrants — ce sont des histoires independantes, racontees dans [Jour ferie pour typhon](/Society/颱風假).
+La distribution sociale complète du congé typhon, les angles morts derrière le calcul des 31,5 milliards, et la situation des travailleurs migrants : tout cela relève d’une autre histoire indépendante, racontée dans l’article [Congé typhon](/Society/颱風假).
 
-## La station meteorologique du village : le dernier filet de securite de la sagesse millenaire
+## Les stations météo des tribus : une sagesse millénaire comme dernier filet de sécurité
 
-La technologie n'est pas la seule façon dont Taiwan predit les typhons.
+La technologie n’est pas la seule manière dont Taïwan prévoit les typhons.
 
-Dans le village de Shenshan du canton de Laiyi, comte de Pingtung, les anciens Paiwan observent les phenomenes naturels pour juger des changements meteorologiques. Un arc-en-ciel apparaissant dans la direction du lever du soleil indique que le typhon s'affaiblira ; un arc-en-ciel dans la direction du coucher du soleil annonce l'arrivee d'un typhon. Des masses de crabes grimpant sur la terre ferme, des fourmis migrant en grand nombre, des lombrics sortant massivement du sol — ce sont tous des signaux avant-coureurs de typhon ou de seisme.[^12]
+Dans la tribu de Shenshan, dans le canton de Laiyi, comté de Pingtung, les anciens Paiwan jugent l’évolution du temps en observant les phénomènes naturels. Si l’arc-en-ciel apparaît dans la direction où le soleil se lève, le typhon faiblira ; s’il apparaît du côté du couchant, il attirera un typhon. De grandes quantités de crabes montant sur la terre ferme, des fourmilières déplacées en masse, des vers de terre sortant en grand nombre : autant de signes annonçant l’arrivée d’un typhon ou d’un séisme.[^12]
 
-Lors du typhon Morakot en 2009, des membres du village de Kakanami (村神山, Shenshan) dans le comte de Taitung remarquèrent que l'eau de la rivière etait trouble, ce qui indiquait un risque de glissement de terrain en amont, et ils evacuerent rapidement tout le village.[^12] Cette annee-là, les 462 vies du village de Xiaolin ne furent sauvees par aucun satellite, mais les habitants du village de Kakanami survecurent grace à une rivière trouble.
+Pendant le typhon Morakot en 2009, les membres de la tribu Kakanami, à Taitung, remarquèrent que l’eau du cours d’eau devenait trouble et alertèrent sur le risque de glissement de terrain, permettant l’évacuation rapide de tout le village.[^12] Cette année-là, aucune satellite n’a sauvé les 462 vies de Xiaolin ; mais les habitants de Kakanami ont survécu grâce à l’eau trouble d’un ruisseau.
 
-Les Amis (peuple autochtone Amis) du village de Gankan dans le canton de Fengbin, Hualien, ont leur propre sagesse d'observation de la mer. Avant l'arrivee d'un typhon, le vent souffle du nord ; après le passage, il souffle davantage du sud. Si les pierres noires sont recouvertes par les vagues, cela signifie que le typhon balayera la region. À Lanyu, les noms de lieux des Tao codent des connaissances sur les risques de catastrophes. « Ji-Rako a Poas » designe une zone de glissement de terrain à grande echelle, « Ji-Igang » designe une zone de danger d'inondation.[^12] Les habitations traditionnelles semi-enterrees des Tao se comporterent mieux que les constructions modernes en beton lors de Morakot et du typhon Tembin.
+Les Amis de la tribu de Makotaay, à Fengbin, Hualien, possèdent leur propre savoir d’observation de la mer. Avant l’arrivée d’un typhon, le vent du nord souffle ; après son passage, le vent du sud devient plus fréquent. Si les rochers noirs sont recouverts par les grandes vagues, cela signifie que le typhon balaiera la région. À Lanyu, les toponymes des Tao encodent des connaissances sur les risques de catastrophe. « Ji-Rako a Poas » désigne une zone de grands glissements de terrain ; « Ji-Igang » une zone à risque d’inondation.[^12] Les habitations traditionnelles semi-enterrées des Tao ont mieux résisté que les maisons modernes en béton pendant Morakot et le typhon Tembin.
 
-Le professeur Guan Da-wei de l'Universite nationale Chengchi a souligne que les previsions meteorologiques traditionnelles des peuples autochtones, bien que moins precises que les instruments modernes, reflètent une sagesse d'observation à long terme de la nature et de coexistence avec l'environnement.[^14] Dans les situations où les modèles d'IA sont imprecis ou dans les zones de montagne sans couverture reseau, ces connaissances peuvent être le dernier filet de securite.
+Les recherches de Kuan Da-wei, professeur à l’Université nationale Chengchi, montrent que les prévisions météorologiques traditionnelles autochtones ne sont pas aussi précises que les instruments modernes, mais qu’elles reflètent une longue observation de la nature et une sagesse de coexistence avec l’environnement.[^14] Lorsque les modèles d’IA se trompent, ou quand les zones montagneuses périphériques n’ont pas de couverture réseau, ces savoirs peuvent devenir le dernier filet de sécurité.
 
-Il y a 400 ans, Sun Yuan-heng observait le ciel et le vent à Penghu ; 300 ans plus tard, un ancien des Tao lisait la couleur de l'eau de la rivière pour juger du risque de glissement de terrain ; aujourd'hui, le Bureau meteorologique calcule des alertes sur 30 jours avec l'IA. Ces trois systèmes sont en superposition. Quand la precision sur la carte atteint 57 km, ce qui protege vraiment les gens dans ces 57 km peut encore être cette rivière trouble.
+Il y a quatre siècles, Sun Yuanheng observait le ciel et le vent à Penghu ; trois siècles plus tard, les anciens Tao lisaient la couleur de l’eau pour juger d’un glissement de terrain ; aujourd’hui, l’Administration météorologique calcule avec l’IA des alertes à 30 jours. Ces trois systèmes ne s’excluent pas : ils se superposent. Quand la précision cartographique atteint 57 kilomètres, ce qui protège réellement les personnes à l’intérieur de ces 57 kilomètres peut encore être l’eau trouble d’un ruisseau.
 
-## Quinze ans après Xiaolin : de l'effondrement aux chants ancestraux
+## Xiaolin, quinze ans après : de l’effondrement aux chants anciens
 
-En 2024, quinzième anniversaire de la catastrophe de Morakot.
+En 2024, quinze ans se sont écoulés depuis le désastre du typhon Morakot.
 
-Pan Yuan-ming, president de l'association de developpement communautaire de Xiaolin, retourna au memorial. Il changea les fleurs des offrandes du tournesol au chrysanthème — symbole de longevite, signifiant que les ancêtres souhaitent que les generations suivantes vivent bien.[^1]
+Pan Yuan-ming, président de l’Association de développement communautaire de Xiaolin, est retourné au sanctuaire mémoriel. Il a remplacé les tournesols des offrandes par des chrysanthèmes, symbole de longévité, pour signifier que les ancêtres souhaitent que les générations suivantes vivent bien.[^1]
 
-> « Parce que c'etait un jour de typhon, tout le monde avait peur et n'osait pas revenir ici. »
+> « Comme c’est un jour de typhon, les gens ont peur et n’osent plus revenir ici. »
 
-Les logements permanents de Wulipu, 90 nouveaux foyers construits par la Croix-Rouge pour les villageois de Xiaolin, n'ont qu'un taux d'occupation de 30 à 40 %. Gagner sa vie est difficile, la jeunesse continue de quitter.[^19] Mais certains jeunes ont choisi un chemin different.
+Les logements permanents de Wulipu, construits par la Croix-Rouge pour les habitants de Xiaolin, comptent 90 nouveaux foyers, mais leur taux d’occupation n’est que de 30 à 40 %. Les moyens de subsistance sont difficiles à trouver, et les jeunes générations continuent de partir.[^19] Mais certains jeunes ont choisi une autre voie.
 
-Wang Min-liang (Ah Liang), secretaire general de l'association de developpement communautaire de Riguang Xiaolin, fonda le groupe de danse Damanwu en 2011, guidant les habitants de Xiaolin à surmonter leur douleur par le chant ancestral et la danse. Le groupe recut le prix Golden Melody des arts traditionnels en 2019.[^1] La petite Bang Siqi, cinq ans, avait toujours ecoute sa mère chanter des chants ancestraux. Elle dit : « J'ecoute, j'ecoute, j'ecoute maman chanter et je sais ! »
+Wang Min-liang, dit A-liang, secrétaire général de l’Association de développement communautaire Sunlight Xiaolin, a fondé en 2011 la troupe de danse Taivoan Daman, guidant les habitants de Xiaolin hors de la douleur par les chants anciens et la danse. La troupe a été récompensée aux Golden Melody Awards for Traditional Arts and Music en 2019.[^1] Pang Ssu-chi, cinq ans, a toujours entendu sa mère chanter les chants anciens. Elle dit : « À force d’écouter, encore et encore, quand j’entends maman chanter, je sais faire ! »
 
-En 2019, lors du dixième anniversaire de Morakot, le survivant Weng Rui-qi avait reconstruit une vie commune avec sa voisine Yang Mei-lu, qui avait egalement perdu des proches, dans les logements permanents de Wulipu. Il dit : « La vie doit continuer. »[^20]
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/j9T4xC5lzBo" title="【八八風災】莫拉克十年系列報導-我眼所見即是天地｜重建記憶中的小林村、杉林社區（公視 我們的島 第1016集 2019-08-12）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-> 📝 **Note de curation**
+_PTS, « Our Island », épisode 1016 (2019-08-12) : dix ans après Morakot, la troupe Taivoan Daman « replante le chemin de la maison » vers le Xiaolin de la mémoire, chant ancien après chant ancien._
+
+Dans un entretien réalisé en 2019, pour les dix ans de Morakot, le survivant Weng Jui-chi avait recomposé une famille dans les logements permanents de Wulipu avec sa voisine Yang Mei-lu, qui avait elle aussi perdu des proches. Il disait : « La vie doit bien continuer. »[^20]
+
+> **📝 Note du curateur**
 >
-> L'histoire de Xiaolin revele un paradoxe de l'ere des typhons : la modernisation a permis à davantage de personnes de quitter les zones à risque, mais les racines culturelles se sont egalement rompues. La tentative du groupe Damanwu de « planter à nouveau chez soi » par les chants ancestraux repond à une question plus fondamentale — quand le foyer physique ne peut plus être retrouve, où construire le foyer culturel ? Cela rejoint le principe central des 335 communautes autonomes de prevention des catastrophes de Taiwan : « Sauver son propre foyer soi-même ». Ce programme, promu par l'Administration de l'eau depuis 2010, etait deja constitue de 335 communautes en 2015, de Meizhou (ville de Yilan) à Bishanli (ville de Keelung) jusqu'à Liren (ville de Yunlin), chaque quartier s'organisant pour son propre reseau d'alerte et de secours.[^15]
+> L’histoire du village de Xiaolin révèle un paradoxe de l’ère des typhons : la modernisation permet à davantage de personnes de quitter les zones à risque, mais les racines culturelles se rompent aussi dans ce mouvement. L’effort de la troupe Taivoan Daman pour « replanter le chemin de la maison » par les chants anciens répond à une question plus fondamentale : quand le foyer physique n’est plus accessible, où construire le foyer culturel ? C’est en réalité la même idée centrale que celle des 335 communautés taïwanaises autonomes de prévention des catastrophes : sauver soi-même son propre territoire. Lancé en 2010 par l’Agence des ressources en eau du ministère des Affaires économiques, ce programme avait établi 335 communautés en 2015, de Meizhou à Yilan et Dingxiang à Keelung jusqu’à Liren à Huwei, Yunlin ; chaque voisinage organise son propre réseau d’alerte et de secours.[^15]
 
-Les typhons continueront d'arriver. Les modèles d'IA continueront de s'ameliorer. Mais ce que Xiaolin enseigne à Taiwan après quinze ans, c'est que la technologie peut être aussi precise qu'elle veut — la reconstruction depend toujours de ces liens disperses puis retisses : entre les gens, entre les gens et la terre, entre les vivants et les morts.
+Les typhons continueront à venir. Les modèles d’IA continueront à progresser. Mais quinze ans après Xiaolin, ce que Taïwan a appris tient à ceci : même la technologie la plus précise ne suffit pas à reconstruire. Il faut encore cette relation dispersée par l’eau puis recomposée, entre les personnes, entre les personnes et la terre, entre les vivants et les morts.
 
-## Prevoir le vent et la pluie, pas le destin
+## Pouvoir prévoir le vent et la pluie, mais pas le destin
 
-L'erreur de prediction de la trajectoire des typhons est passee de 172 km à 57 km.
+L’erreur de prévision de trajectoire des typhons est passée de 172 kilomètres à 57 kilomètres.
 
-Mais cette seconde du matin du 8 août 2009, quand Luo Pan-chunmei se tenait au deuxième etage et regardait le mont Xiandu s'effondrer, ses 462 proches disparaître de son champ de vision — aucune prediction, si precise soit-elle, n'aurait eu le temps d'intervenir.
+Mais ce matin de 2009, lorsque Lo Pan Chun-mei, debout au deuxième étage, a vu le mont Xiandu s’effondrer et 462 proches disparaître de son champ de vision, aucune précision de prévision, à quelque échelle que ce soit, ne pouvait arriver à temps.
 
-On peut prevoir le vent et la pluie, mais pas le destin.
+Nous pouvons prévoir le vent et la pluie, mais pas le destin.
 
-## Pour aller plus loin
+## Lectures complémentaires
 
-- [Jour ferie pour typhon](/Society/颱風假) — Dans le même typhon, les fonctionnaires restent chez eux, les travailleurs du commerce de gros sortent. La ligne de fracture sociale cachee derrière l'arithmetique des 31,5 milliards
-- [Crise climatique et transition vers le zero net à Taiwan](/Nature/台灣氣候危機與淨零轉型) — Derrière l'augmentation de 40 % de l'intensite des precipitations des typhons se trouve le contexte plus large du rechauffement climatique et de la transition energetique de Taiwan
-- [Ecosystèmes de haute montagne et relicts glaciaires de Taiwan](/Nature/台灣高山生態系與冰河孑遺) — La Chaîne centrale ne modifie pas seulement les trajectoires des typhons, c'est aussi le foyer des ecosystèmes de plus haute altitude au monde
-- [Pluies de meiyu](/Nature/梅雨) — Au-delà des typhons, les pluies de meiyu sont une autre grande source de saison des pluies à Taiwan, egalement affectees par le changement climatique
-- [Îles peripheriques et culture maritime](/Geography/離島與海洋文化) — L'architecture traditionnelle et les noms de lieux des Tao de Lanyu ont une valeur unique de prevention des catastrophes à l'ère des typhons
+- [Congé typhon](/Society/颱風假) — Dans un même typhon, les cols blancs du secteur public restent chez eux, les travailleurs du commerce de gros et de détail sortent. La fracture de classe oubliée par le calcul des 31,5 milliards
+- [Crise climatique et transition vers le zéro émission nette à Taïwan](/Nature/台灣氣候危機與淨零轉型) — Derrière l’augmentation de 40 % de l’intensité des pluies cycloniques, il y a le contexte plus large du réchauffement global et de la transition énergétique de Taïwan
+- [Écosystèmes de haute montagne et reliques glaciaires à Taïwan](/Nature/台灣高山生態系與冰河孑遺) — La chaîne centrale ne modifie pas seulement les trajectoires des typhons ; elle abrite aussi les écosystèmes de haute altitude parmi les plus élevés du monde
+- [Pluies de prunes](/Nature/梅雨) — En dehors des typhons, la saison des pluies de prunes est une autre grande source de précipitations à Taïwan, elle aussi affectée par le changement climatique
+- [Îles périphériques et cultures océaniques](/Geography/離島與海洋文化) — Les architectures traditionnelles et les savoirs toponymiques des Tao de Lanyu ont une valeur particulière de prévention des catastrophes à l’ère des typhons
 
-## References
+## Sources des images
 
-[^1]: [Rapport climatique : d'ici la fin du siècle, les typhons frappant Taiwan pourraient n'être que 1 à 2 par an mais plus violents](http://www.cna.com.tw/news/ahel/202405080408.aspx) — Reportage CNA 2024, le RCEC de l'Academia Sinica simule les tendances futures des typhons avec le modèle en nuage HiRAM, incluant les elements biographiques de Luo Pan-chunmei et du groupe Damanwu de Wang Min-liang.
+Cet article utilise 2 images du domaine public ou sous licence CC, toutes mises en cache dans `public/article-images/nature/` afin d’éviter le hotlinking vers les serveurs sources :
 
-[^2]: [Metro de Taipei 30e anniversaire / Les ravages du typhon Nari](http://news.tvbs.com.tw/life/3161340) — Reportage TVBS pour le 30e anniversaire du metro de Taipei, retour sur les inondations du typhon Nari, la ligne Bannan interrompue 3 mois, temoignage de Hu Zong-li.
+- [Image satellite du typhon Morakot (2009-08-07)](https://commons.wikimedia.org/wiki/File:Typhoon_Morakot_Aug_7_2009.jpg) — Photo : NASA MODIS Rapid Response (satellite Aqua), 2009-08-07, domaine public (NASA). Image originale 7200×9200, recadrée en carré centré 1600×1600 pour l’image hero.
+- [Inondation à Minxiong, Chiayi, après les pluies torrentielles de Morakot (2009-08-09)](https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg) — Photo : zilupe, 2009-08-09, CC BY 2.0 via Wikimedia Commons.
 
-[^3]: [Prenant Morakot comme exemple : l'expert meteorologique Wu Derong affirme que la Chaîne centrale n'est absolument pas la montagne gardienne de la nation](https://tw.news.yahoo.com/%E8%88%89%E8%8E%AB%E6%8B%89%E5%85%8B%E7%82%BA%E4%BE%8B-%E6%B0%A3%E8%B1%A1%E5%B0%88%E5%AE%B6%EF%BC%9A%E4%B8%AD%E5%A4%AE%E5%B1%B1%E8%84%88%E7%B5%95%E9%9D%9E%E8%AD%B7%E5%9C%8B%E7%A5%9E%E5%B1%B1-015829806.html) — Reportage Yahoo News 2016, Wu Derong explique comment la pluie orographique amplifie les precipitations en prenant Morakot comme exemple.
+## Références
 
-[^4]: [Mise à jour des donnees : Huang Yang-ming — Un jour de conge typhon coûte à Taiwan plus de ce chiffre en NT$](https://www.nownews.com/news/6480095) — NOWnews, recalcul du coût economique du jour ferie pour typhon sur la base du chiffre d'affaires des exportations de 2023.
+[^1]: [氣候報告示警 本世紀末襲台颱風可能每年僅 1 至 2 個但風雨更強](http://www.cna.com.tw/news/ahel/202405080408.aspx) — Article de la Central News Agency publié en 2024 : le Research Center for Environmental Changes de l’Academia Sinica utilise le modèle nuageux HiRAM pour simuler les tendances des typhons sur le siècle à venir, avec des éléments de contexte sur Lo Pan Chun-mei et la troupe Taivoan Daman de Wang Min-liang.
 
-[^5]: [Quand le typhon arrive, la Chaîne centrale est-elle vraiment la « montagne gardienne » ? Les experts : cette idee est absolument fausse](https://www.storm.mg/article/139829) — Storm Media 2016, exploration approfondie du mythe de la montagne gardienne et des causes geographiques du foehn, incluant les donnees de precipitations du typhon Herb à Alishan.
+[^2]: [北捷 30 週年／納莉颱風慘況觸目驚心！](http://news.tvbs.com.tw/life/3161340) — Reportage de TVBS pour les 30 ans du métro de Taipei, revenant sur les inondations catastrophiques du typhon Nari : suspension complète de la ligne Bannan pendant 3 mois et témoignage de Hu Tsung-li sur le terrain.
 
-[^6]: [Cent questions sur les typhons](https://www.cwa.gov.tw/V8/C/K/Encyclopedia/typhoon/index.html) — Rubrique de vulgarisation scientifique officielle du Bureau meteorologique central, expliquant completement la formation, la classification, la prediction et l'histoire des typhons, incluant les informations sur les drapeaux de Takao.
+[^3]: [舉莫拉克為例：氣象專家吳德榮指中央山脈絕非護國神山](https://tw.news.yahoo.com/%E8%88%89%E8%8E%AB%E6%8B%89%E5%85%8B%E7%82%BA%E4%BE%8B-%E6%B0%A3%E8%B1%A1%E5%B0%88%E5%AE%B6%EF%BC%9A%E4%B8%AD%E5%A4%AE%E5%B1%B1%E8%84%88%E7%B5%95%E9%9D%9E%E8%AD%B7%E5%9C%8B%E7%A5%9E%E5%B1%B1-015829806.html) — Article de Yahoo News publié en 2016 : Wu Te-jung explique, à partir du cas Morakot, comment la pluie orographique amplifie les précipitations.
 
-[^7]: [FTNN — Enquête : un typhon sur deux, le patron donne le salaire integral](https://www.ftnn.com.tw/news/467148) — Enquête salariale du jour ferie pour typhon par 1111 Human Bank, source des donnees des 37,7 % sans salaire.
+[^4]: [數據更新！黃揚明：放一天颱風假、台灣損失超過「這數字」新台幣](https://www.nownews.com/news/6480095) — NOWnews, recalcul du coût économique du congé typhon à partir de la valeur des exportations en 2023.
 
-[^9]: [Le programme de poursuite des typhons fête ses 20 ans ! Wu Jun-jie parle du premier grand programme de recherche sur les typhons en Asie](https://scitechvista.nat.gov.tw/Article/C000003/detail?ID=ab691668-650c-4ffc-be83-866054a3e029) — SciTechVista du ministère des Sciences et Technologies, recit complet des vingt ans du programme de poursuite des typhons, de la première chasse lors du typhon Dujuan en 2003 à 2023, incluant la description à la première personne de Wu Jun-jie dans l'oeil du typhon.
+[^5]: [颱風來時，中央山脈真的是「護國神山」？專家：觀念絕對錯誤](https://www.storm.mg/article/139829) — Article de The Storm Media publié en 2016, examinant en détail le mythe de la « montagne sacrée qui protège le pays » et les causes géomorphologiques du foehn, avec les données de précipitations d’Alishan pendant Herb.
 
-[^10]: [Chant du ciel et de l'eau : à l'interieur du coeur du typhon ! L'equipe taiwanaise de sondage par avion sans pilote](https://scitechvista.nat.gov.tw/Article/C000003/detail?ID=7e5fafbb-62bc-41ee-93c3-d178854b0cb5) — SciTechVista du ministère des Sciences et Technologies, retraçant l'histoire complete de Taiwan de l'introduction de l'Aerosonde en 1998 aux drones de nouvelle generation en 2014.
+[^6]: [颱風百問](https://www.cwa.gov.tw/V8/C/K/Encyclopedia/typhoon/index.html) — Rubrique officielle de vulgarisation de l’Administration centrale de la météorologie du ministère des Transports, expliquant de manière complète la formation, la classification, la prévision et l’histoire des typhons, avec le contexte des pavillons météo de Takao.
 
-[^11]: [Introduction au satellite FORMOSAT-7](https://www.tasa.org.tw/satellite_program/formosat-7/) — Page officielle du Centre national de l'espace, expliquant comment FORMOSAT-7 ameliore la precision des previsions meteorologiques, incluant les donnees d'erreur des modèles d'IA sur 24 heures.
+[^7]: [FTNN 新聞網 — 調查：颱風假五成老闆給全薪](https://www.ftnn.com.tw/news/467148) — Enquête salariale de 1111 Job Bank sur le congé typhon, source du chiffre selon lequel 37,7 % ne reçoivent aucun salaire.
 
-[^12]: [La sagesse traditionnelle pour interpreter la trajectoire des typhons — temoignages des anciens des villages de Shenshan et de Kankan](https://news.ipcf.org.tw/140803) — Television Indigene de Taiwan (TITV), documentant la sagesse meteorologique traditionnelle des Paiwan, Amis et Tao, incluant le cas d'evacuation du village Kakanami lors de Morakot en 2009.
+[^9]: [「追風計畫」20 年！吳俊傑談亞洲第一個大型颱風研究計畫](https://scitechvista.nat.gov.tw/Article/C000003/detail?ID=ab691668-650c-4ffc-be83-866054a3e029) — SciTech Vista du ministère de la Science et de la Technologie, dossier complet sur les vingt ans du programme de chasse aux typhons, du premier vol pendant Dujuan en 2003 jusqu’en 2023, avec la description à la première personne de Wu Chun-chieh dans l’œil du typhon.
 
-[^14]: [Sciences humaines et île de NCCU — Face aux typhons et au climat extrême, le professeur Guan Da-wei de NCCU partage la vision autochtone de la nature](https://humanityisland.nccu.edu.tw/guan-da-wei/) — Le professeur Guan Da-wei de l'Universite nationale Chengchi partage la relation complementaire entre la vision autochtone de la nature et la meteorologie moderne.
+[^10]: [天與水之歌：深入颱風暴風圈！台灣無人飛機探空團隊](https://scitechvista.nat.gov.tw/Article/C000003/detail?ID=7e5fafbb-62bc-41ee-93c3-d178854b0cb5) — SciTech Vista du ministère de la Science et de la Technologie, retraçant l’histoire complète de Taïwan depuis l’introduction de l’Aerosonde en 1998 jusqu’aux drones de nouvelle génération en 2014.
 
-[^15]: [Centre de recherche sur les catastrophes climatiques et meteorologiques de l'Universite nationale de Taiwan — Sauver son propre foyer soi-même](https://case.ntu.edu.tw/highscope/%e8%87%aa%e5%b7%b1%e7%9a%84%e5%ae%b6%e5%9c%92%e8%87%aa%e5%b7%b4%e6%95%91-%e8%aa%8d%e8%ad%98%e6%b0%b4%e6%82%a3%e8%87%aa%e4%b8%bb%e9%98%b2%e7%81%bd%e7%a4%be%e5%8d%80/index.html) — Centre de recherche de l'Universite nationale de Taiwan, presentation du modèle des communautes autonomes de prevention des inondations, source des donnees des 335 communautes.
+[^11]: [福爾摩沙衛星七號介紹](https://www.tasa.org.tw/satellite_program/formosat-7/) — Page officielle de l’Agence spatiale taïwanaise expliquant comment FORMOSAT-7 améliore la précision des prévisions météorologiques, avec les données d’erreur à 24 heures des modèles d’IA.
 
-[^19]: [RTI Radio internationale de Taiwan — [Morakot dix ans après] La crise de disparition en cours, le village de Xiaolin attendant le retour des siens](https://www.rti.org.tw/news/view/id/2030098) — Dix ans après Morakot, taux d'occupation des logements permanents de Wulipu et situation actuelle des villageois.
+[^12]: [傳統智慧判讀颱風路徑 — 神山、港口部落長者經驗談](https://news.ipcf.org.tw/140803) — TITV News, reportage sur les savoirs météorologiques traditionnels des Paiwan, des Amis et des Tao, avec le cas d’évacuation de la tribu Kakanami pendant Morakot en 2009.
 
-[^20]: [Des eaux implacables, des coeurs humains : la petite consolation des survivants du village de Xiaolin](https://www.cna.com.tw/news/aloc/201908070236.aspx) — Reportage CNA pour le dixième anniversaire de Morakot en 2019, temoignage de Weng Rui-qi et d'autres survivants dans les logements permanents de Wulipu.
+[^14]: [政大人文．島嶼 — 面對颱風、極端氣候 政大官大偉分享原住民的自然觀](https://humanityisland.nccu.edu.tw/guan-da-wei/) — Kuan Da-wei, professeur à l’Université nationale Chengchi, présente les relations complémentaires entre les conceptions autochtones de la nature et la météorologie moderne.
 
-[^22]: [Storm Media — C'est comme ça qu'est ne le « jour ferie pour typhon » : une tragedie il y a 24 ans a transforme la pensee de prevention des catastrophes à Taiwan](https://www.storm.mg/articles/1080271) — Retraçant l'origine du système jusqu'à la mort de l'enseignante Hsu Pi-lan en 2001.
+[^15]: [國立台灣大學氣候天氣災害研究中心 — 自己的家園自己救](https://case.ntu.edu.tw/highscope/%e8%87%aa%e5%b7%b1%e7%9a%84%e5%ae%b6%e5%9c%92%e8%87%aa%e4%b8%bb%e9%98%b2%e7%81%bd%e7%a4%be%e5%8d%80/index.html) — Centre de recherche sur les catastrophes climatiques et météorologiques de l’Université nationale de Taïwan, présentation du modèle de communautés autonomes de prévention des inondations et source du chiffre de 335 communautés.
 
-[^35]: [Portail des connaissances agricoles — Les legendes du vent et de la pluie de l'ancien Taiwan](https://kmweb.moa.gov.tw/theme_data.php?id=55279&sub_theme=agri_life&theme=news) — Recueil de poèmes classiques sur les typhons de la periode Qing, dont le « Chant de l'ouragan » de Sun Yuan-heng (1705).
+[^19]: [RTI 中央廣播電臺 — 【莫拉克十年】消失危機進行式 等待歸人的小林村](https://www.rti.org.tw/news/view/id/2030098) — Pour les dix ans de Morakot, données sur le taux d’occupation des logements permanents de Wulipu et la situation actuelle des villageois.
+
+[^20]: [惡水無情人間有愛：小林村倖存者不幸中小確幸](https://www.cna.com.tw/news/aloc/201908070236.aspx) — Reportage de la Central News Agency en 2019, pour les dix ans de Morakot, sur Weng Jui-chi et d’autres survivants reconstruisant leur vie dans les logements permanents de Wulipu.
+
+[^22]: [風傳媒 — 「颱風假」是這樣來的：24 年前一場悲劇，改變台灣防災思維](https://www.storm.mg/articles/1080271) — Retour sur l’origine du dispositif de congé typhon, depuis la mort en service de l’enseignante Hsu Pi-lan en 2001.
+
+[^35]: [農業知識入口網 — 古早台灣的風雨傳說](https://kmweb.moa.gov.tw/theme_data.php?id=55279&sub_theme=agri_life&theme=news) — Portail des connaissances agricoles, recueillant des poèmes classiques taïwanais sur les typhons, dont le « Chant de l’ouragan » de Sun Yuanheng et « Ouragan » de Cheng Yung-hsi.

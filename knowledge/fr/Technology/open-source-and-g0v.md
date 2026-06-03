@@ -10,10 +10,10 @@ lastVerified: 2026-03-23
 lastHumanReview: true
 featured: false
 translatedFrom: Technology/開源社群與g0v.md
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:af78147ce6c1c764'
-sourceBodyHash: 'sha256:4d33a6651c774237'
-translatedAt: 2026-05-01T20:54:17+08:00
+sourceCommitSha: '6eeee35c'
+sourceContentHash: 'sha256:ccabd00d4cba7d6b'
+sourceBodyHash: 'sha256:c135fc23da71593b'
+translatedAt: '2026-06-03T14:27:09Z'
 ---
 
 # La communauté open source et g0v
@@ -213,5 +213,6 @@ La réponse est encore en train de s'écrire, et chaque personne prête à contr
 
 ## Thèmes connexes
 
+- [Open Culture Foundation](/fr/technology/open-culture-foundation) : la fondation à but non lucratif qui tient la comptabilité, émet les factures et gère les formalités administratives pour le compte de g0v — et comment cette infrastructure de l'ombre est devenue un chien de garde des droits numériques
 - [Industrie des semi-conducteurs](/technology/半導體產業) : les fondements de la puissance technologique de Taïwan
 - [Mini Taiwan Pulse](/technology/mini-taiwan-pulse) : un projet open source personnel de technologie citoyenne en 2026 — utiliser les données ouvertes TDX + Three.js pour dessiner Taïwan en trajectoires lumineuses 3D

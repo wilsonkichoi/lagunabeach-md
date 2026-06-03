@@ -10,10 +10,10 @@ lastHumanReview: true
 readingTime: 8
 featured: false
 translatedFrom: 'Technology/開源社群與g0v.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:af78147ce6c1c764'
-sourceBodyHash: 'sha256:4d33a6651c774237'
-translatedAt: '2026-05-01T12:53:58+08:00'
+sourceCommitSha: '6eeee35c'
+sourceContentHash: 'sha256:ccabd00d4cba7d6b'
+sourceBodyHash: 'sha256:c135fc23da71593b'
+translatedAt: '2026-06-03T14:26:45Z'
 ---
 
 # Open Source Community and g0v
@@ -213,5 +213,6 @@ The answer is still being written, and everyone willing to contribute is an auth
 
 ## Related Topics
 
+- [Open Culture Foundation](/en/technology/open-culture-foundation): the foundation behind g0v that handles the accounting, invoicing, and admin for the community — and how that back office grew into a digital-rights watchdog
 - [Semiconductor Industry](/en/taiwan-semiconductor-industry) (zh only: 半導體產業): Taiwan's technological strength base
 - [Mini Taiwan Pulse](/en/technology/mini-taiwan-pulse-civic-tech): 2026 civic technology personal open-source practice — using TDX open data + Three.js to draw Taiwan as 3D light tracks

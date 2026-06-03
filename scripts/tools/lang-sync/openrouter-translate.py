@@ -37,6 +37,31 @@ LANG_NAMES = {
 }
 
 
+def load_lang_guide_sections(lang, max_chars=11000):
+    """Z2.0 hard gate (SQUEEZE-MODELS-MAX §Z2.0): inline the per-language canonical
+    guide's leak-critical sections — §1 國名/地區指稱, §2 人名 romanization,
+    §3 地名 romanization, §6 sovereignty-avoid lexicon, + the TL;DR — into the
+    translation prompt. The full guides are 50-60KB; we extract only these sections
+    so every backend (codex / gemini / owl-alpha / ollama) carries sovereignty-correct
+    naming without bloating context. Was the pipeline's pending『儀器化候選』(2026-06-03).
+    """
+    guide = REPO / "docs/editorial/per-language" / f"TRANSLATION-{lang}.md"
+    if not guide.exists():
+        return ""
+    text = guide.read_text(encoding="utf-8")
+    keep = []
+    for block in re.split(r"\n(?=## )", text):
+        head = block.lstrip()
+        if head.startswith("## TL;DR") or re.match(r"## (?:1|2|3|6)[.\s]", head):
+            keep.append(block.strip())
+    if not keep:
+        return ""
+    out = "\n\n".join(keep)
+    if len(out) > max_chars:
+        out = out[:max_chars] + f"\n…(節錄；完整 canonical 在 docs/editorial/per-language/TRANSLATION-{lang}.md)"
+    return out
+
+
 KEY_ROTATION_DIR = CREDS_DIR / "openrouter-keys"
 KEY_COOLDOWN_FILE = Path("/tmp/openrouter-key-cooldown.json")
 KEY_COOLDOWN_SEC = 300
@@ -211,6 +236,16 @@ CRITICAL output rules:
 - Output ONLY the translated markdown file content (frontmatter + body)
 - DO NOT add ```markdown wrapper or any meta-commentary
 - DO NOT include any text before the opening `---` or after the body"""
+
+    # Z2.0 hard gate: inline per-language canonical guide (sovereignty naming/romanization)
+    _guide = load_lang_guide_sections(lang)
+    if _guide:
+        system += (
+            f"\n\n═══ MANDATORY {LANG_NAMES.get(lang, lang)} CANONICAL GUIDE — sovereignty (overrides your defaults) ═══\n"
+            "Use the site-canonical form for 台灣 / 中華民國 and ALL place + person romanization below. "
+            "NEVER use any PRC-coded form listed in the sovereignty-avoid lexicon.\n\n"
+            + _guide
+        )
 
     user_msg = f"""Translate this zh-TW article to {LANG_NAMES.get(lang, lang)}.
 

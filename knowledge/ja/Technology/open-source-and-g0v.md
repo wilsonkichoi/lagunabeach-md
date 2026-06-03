@@ -10,10 +10,10 @@ lastHumanReview: true
 readingTime: 8
 featured: false
 translatedFrom: 'Technology/開源社群與g0v.md'
-sourceCommitSha: '4b6d28c5'
-sourceContentHash: 'sha256:af78147ce6c1c764'
-sourceBodyHash: 'sha256:4d33a6651c774237'
-translatedAt: '2026-05-01T17:15:07+08:00'
+sourceCommitSha: '6eeee35c'
+sourceContentHash: 'sha256:ccabd00d4cba7d6b'
+sourceBodyHash: 'sha256:c135fc23da71593b'
+translatedAt: '2026-06-03T14:27:20Z'
 ---
 
 # オープンソースコミュニティとg0v
@@ -128,3 +128,9 @@ g0vの運営モデルは非常にシンプルです：**上司も従業員も予
 **2015年**、Uberの台湾での運営がタクシー業界の抗議を引き起こしました。伝統的な処理方式は政府の一方的な決定でしたが、vTaiwanは第三の道を提供しました：すべての利害関係者がオンラインプラットフォームで対話し、ウィンウィンの解決策を見つけるというものです。
 
 数ヶ月のオンライン討論と対面ワークショップを経て、最終的に「多元タクシー」政策が形成されました。
+
+## 関連トピック
+
+- [開放文化基金会](/ja/technology/open-culture-foundation)：g0v の背後で経費精算・請求書発行・行政手続きを一手に引き受けてきた財団法人、そしてその縁の下の存在がデジタル人権の番犬へと成長した物語
+- [半導体産業](/ja/technology/semiconductor-industry)：台湾のテクノロジー基盤
+- [Mini Taiwan Pulse](/ja/technology/mini-taiwan-pulse)：2026年のシビックテック個人オープンソース実践――TDXオープンデータ＋Three.jsで台湾を3D光軌として描く
