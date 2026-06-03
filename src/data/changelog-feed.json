@@ -1,7 +1,61 @@
 {
-  "generatedAt": "2026-06-03T15:12:00.278Z",
+  "generatedAt": "2026-06-03T22:11:38.302Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "3f9608942e4572756f4c3b296cb15c038f104405",
+      "date": "2026-06-04T00:36:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-04-003537-twmd-babel-nightly — vacuous PASS (5 lang 100%)"
+    },
+    {
+      "hash": "066836b6bfec5caf11dbf6aee55cf2e57a98052d",
+      "date": "2026-06-04T00:05:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-06-03-235954-manual — 我整個晚上握著那把工具，寫一份關於它的報告，最後沒有按下去"
+    },
+    {
+      "hash": "baab1e64de6c320d742204198fe3ae134233118a",
+      "date": "2026-06-04T00:03:05+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-03-235954-manual — dynamic workflows 進化 report"
+    },
+    {
+      "hash": "a4b2801d95631d58458346180f9c8fd577c6f147",
+      "date": "2026-06-03T23:58:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: dynamic workflows 進化 report — 六 pattern + 三 failure mode 全對應現役 pipeline / 反射"
+    },
+    {
+      "hash": "acef20ef0efdc70c495eb4cb889fdb8a31dd9e89",
+      "date": "2026-06-03T23:15:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-03-231259-twmd-data-refresh-pm — 14-step ALL PASS + Step 11 全綠 + autostash conflict heal"
+    },
+    {
+      "hash": "98ab88d773aab1a6abd04fb3bb135cfc257565f6",
+      "date": "2026-06-03T23:13:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-pm: dashboard sync — 2026-06-03 23:00"
+    },
+    {
+      "hash": "5c3c75e3c88ecd439bec46a2cb86a0f1df51b551",
+      "date": "2026-06-03T23:49:35+08:00",
+      "author": "Wu Che Yu",
+      "message": "🧬 [semiont] spore #117/#118 SHIP: OCF 孢子發佈閉環 (#1135)"
+    },
+    {
+      "hash": "951147d0dc6b20e4336171feac419ac0a1c8b91b",
+      "date": "2026-06-03T23:31:57+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1134 from frank890417/worktree-20260603-ocf"
+    },
+    {
+      "hash": "b2b0420b075e0560b03f20eedfe38875225f479b",
+      "date": "2026-06-03T23:31:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore-blueprint #117/#118: 開放文化基金會 — 看不見的後台 + 體制化悖論（B 冷知識型 + 問題入口，待哲宇 SHIP）"
+    },
     {
       "hash": "50a2c81ba1362c4a4141b381158943bf727002bd",
       "date": "2026-06-03T22:50:47+08:00",

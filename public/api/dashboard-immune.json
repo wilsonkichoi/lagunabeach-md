@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-06-03T23:11:33.326319",
+  "lastUpdated": "2026-06-04T06:11:05.986999",
   "schemaVersion": "v2-2026-05-16",
   "featureFlag": "IMMUNE_V2",
-  "immuneScore": 67,
+  "immuneScore": 62,
   "status": "需關注 — T1 review < 80% OR plugin pass < 90%",
   "components": {
     "review_coverage": 28.5,
     "plugin_pass_rate": 70.0,
-    "plugin_health": 100.0,
+    "plugin_health": 63.6,
     "citation_density": 90.1,
     "tool_freshness": 80,
     "drift_velocity": 90.0
@@ -59,8 +59,8 @@
     "files_with_grade": 780
   },
   "freshnessDetail": {
-    "editorial_days_old": 6,
-    "avg_plugin_days_old": 20.6,
+    "editorial_days_old": 7,
+    "avg_plugin_days_old": 21.6,
     "plugin_count": 22,
     "source": "git log %ai (not fs mtime — worktree-safe)"
   },
@@ -71,9 +71,9 @@
   },
   "pluginHealthDetail": {
     "plugin_count": 22,
-    "fresh_count": 22,
-    "drifted_count": 0,
-    "editorial_age_days": 6,
+    "fresh_count": 14,
+    "drifted_count": 8,
+    "editorial_age_days": 7,
     "drift_thresholds": {
       "editorial_recent_days": 14,
       "plugin_stale_days": 30
@@ -81,112 +81,112 @@
     "plugins": [
       {
         "plugin": "chronicle_lead",
-        "plugin_age_days": 21,
+        "plugin_age_days": 22,
         "drifted": false
       },
       {
         "plugin": "cjk_punct",
-        "plugin_age_days": 30,
-        "drifted": false
+        "plugin_age_days": 31,
+        "drifted": true
       },
       {
         "plugin": "correction_meta",
-        "plugin_age_days": 2,
+        "plugin_age_days": 3,
         "drifted": false
       },
       {
         "plugin": "cross_reference",
-        "plugin_age_days": 30,
-        "drifted": false
+        "plugin_age_days": 31,
+        "drifted": true
       },
       {
         "plugin": "footnote_density",
-        "plugin_age_days": 30,
-        "drifted": false
+        "plugin_age_days": 31,
+        "drifted": true
       },
       {
         "plugin": "footnote_format",
-        "plugin_age_days": 26,
+        "plugin_age_days": 27,
         "drifted": false
       },
       {
         "plugin": "footnote_url",
-        "plugin_age_days": 30,
-        "drifted": false
+        "plugin_age_days": 31,
+        "drifted": true
       },
       {
         "plugin": "format_structure",
-        "plugin_age_days": 30,
-        "drifted": false
+        "plugin_age_days": 31,
+        "drifted": true
       },
       {
         "plugin": "frontmatter_format",
-        "plugin_age_days": 26,
+        "plugin_age_days": 27,
         "drifted": false
       },
       {
         "plugin": "frontmatter_title",
-        "plugin_age_days": 11,
+        "plugin_age_days": 12,
         "drifted": false
       },
       {
         "plugin": "image_alt",
-        "plugin_age_days": 18,
+        "plugin_age_days": 19,
         "drifted": false
       },
       {
         "plugin": "image_health",
-        "plugin_age_days": 21,
+        "plugin_age_days": 22,
         "drifted": false
       },
       {
         "plugin": "link_target",
-        "plugin_age_days": 30,
-        "drifted": false
+        "plugin_age_days": 31,
+        "drifted": true
       },
       {
         "plugin": "media_richness",
-        "plugin_age_days": 8,
+        "plugin_age_days": 9,
         "drifted": false
       },
       {
         "plugin": "paragraph_rhythm",
-        "plugin_age_days": 6,
+        "plugin_age_days": 7,
         "drifted": false
       },
       {
         "plugin": "prose_health",
-        "plugin_age_days": 24,
+        "plugin_age_days": 25,
         "drifted": false
       },
       {
         "plugin": "rationale_presence",
-        "plugin_age_days": 11,
+        "plugin_age_days": 12,
         "drifted": false
       },
       {
         "plugin": "seo_meta",
-        "plugin_age_days": 11,
+        "plugin_age_days": 12,
         "drifted": false
       },
       {
         "plugin": "spore_writing",
-        "plugin_age_days": 6,
+        "plugin_age_days": 7,
         "drifted": false
       },
       {
         "plugin": "terminology",
-        "plugin_age_days": 30,
-        "drifted": false
+        "plugin_age_days": 31,
+        "drifted": true
       },
       {
         "plugin": "wikilink_target",
-        "plugin_age_days": 30,
-        "drifted": false
+        "plugin_age_days": 31,
+        "drifted": true
       },
       {
         "plugin": "word_count",
-        "plugin_age_days": 23,
+        "plugin_age_days": 24,
         "drifted": false
       }
     ],

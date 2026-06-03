@@ -1,7 +1,7 @@
 ---
 title: 'reports/ INDEX — auto-generated'
 description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子目錄 status summary'
-last_generated: 2026-06-03 23:12
+last_generated: 2026-06-04 06:12
 generator: scripts/tools/generate-reports-index.py
 ssot: reports/reports-archival-audit-2026-05-27.md §4 Layer 3
 type: auto-index
@@ -12,7 +12,7 @@ type: auto-index
 > **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。
 > 不要人工編輯（會被下一次 cron 覆蓋）。
 >
-> Last generated: **2026-06-03 23:12** · 頂層 \*.md 共 **128** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
+> Last generated: **2026-06-04 06:12** · 頂層 \*.md 共 **129** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
 
 ## 📦 子目錄 status
 
@@ -68,8 +68,9 @@ type: auto-index
 - `2026-04-13` [ssodt-spore-linkback-plan-2026-04-13](ssodt-spore-linkback-plan-2026-04-13.md)
 - `2026-04-12` [semiont-public-pages-plan-2026-04-12](semiont-public-pages-plan-2026-04-12.md)
 
-### evolution (16)
+### evolution (17)
 
+- `2026-06-03` [dynamic-workflows-evolution-2026-06-03](dynamic-workflows-evolution-2026-06-03.md)
 - `2026-05-23` [spore-pipeline-evolution-2026-05-23-article-to-spore-to-broadcast-cycle](spore-pipeline-evolution-2026-05-23-article-to-spore-to-broadcast-cycle.md) — 「文章→孢子→傳播」自動化飛輪首例 cycle smoothness report
 - `2026-05-18` [map-page-evolution-2026-05-18](map-page-evolution-2026-05-18.md) — 地圖頁面進化評估 — 22 縣市系列完成後的整合機會
 - `2026-05-12` [sync-architecture-evolution-2026-05-12](sync-architecture-evolution-2026-05-12.md) — sync.sh 架構演化策略：knowledge/ → src/content/ 投影管線的長期解法
@@ -195,11 +196,12 @@ type: auto-index
 
 ## 📅 By month (descending)
 
-### 2026-06 (8 files)
+### 2026-06 (9 files)
 
-- Type breakdown: ops: 4 / design: 2 / proposal: 1 / audit-routine: 1
+- Type breakdown: ops: 4 / design: 2 / evolution: 1 / proposal: 1 / audit-routine: 1
   - `2026-06-03` [carousel-pipeline-design-2026-06-03](carousel-pipeline-design-2026-06-03.md)
   - `2026-06-03` [cron-storm-incident-2026-06-03](cron-storm-incident-2026-06-03.md)
+  - `2026-06-03` [dynamic-workflows-evolution-2026-06-03](dynamic-workflows-evolution-2026-06-03.md)
   - `2026-06-03` [ig-carousel-strategy-2026-06-03](ig-carousel-strategy-2026-06-03.md)
   - `2026-06-03` [spore-ig-pipeline-session-2026-06-03](spore-ig-pipeline-session-2026-06-03.md)
   - `2026-06-02` [routine-audit-2026-06-02](routine-audit-2026-06-02.md)

@@ -1,47 +1,47 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-03T23:11:58+08:00",
-    "zhCommitHead": "50a2c81ba",
+    "lastUpdated": "2026-06-04T06:11:36+08:00",
+    "zhCommitHead": "3f9608942",
     "totalZh": 782,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
         "total_zh": 782,
-        "fresh": 782,
+        "fresh": 781,
         "stale": 0,
-        "metadata_stale": 0,
+        "metadata_stale": 1,
         "missing": 0,
         "orphan": 0
       },
       "ja": {
         "total_zh": 782,
-        "fresh": 782,
+        "fresh": 781,
         "stale": 0,
-        "metadata_stale": 0,
+        "metadata_stale": 1,
         "missing": 0,
         "orphan": 0
       },
       "ko": {
         "total_zh": 782,
-        "fresh": 782,
+        "fresh": 781,
         "stale": 0,
-        "metadata_stale": 0,
+        "metadata_stale": 1,
         "missing": 0,
         "orphan": 0
       },
       "es": {
         "total_zh": 782,
-        "fresh": 782,
+        "fresh": 781,
         "stale": 0,
-        "metadata_stale": 0,
+        "metadata_stale": 1,
         "missing": 0,
         "orphan": 0
       },
       "fr": {
         "total_zh": 782,
-        "fresh": 782,
+        "fresh": 781,
         "stale": 0,
-        "metadata_stale": 0,
+        "metadata_stale": 1,
         "missing": 0,
         "orphan": 0
       }
@@ -9657,8 +9657,8 @@
     },
     "Technology/開放文化基金會.md": {
       "zh": {
-        "lastCommit": "6eeee35c",
-        "lastModified": "2026-06-03T21:32:50+08:00",
+        "lastCommit": "5c3c75e3",
+        "lastModified": "2026-06-03T23:49:35+08:00",
         "contentHash": "sha256:86d967e85da7c7d6",
         "bodyHash": "sha256:67d272869ebc35ab"
       },
@@ -9673,8 +9673,10 @@
           "translationLastCommit": "b5853256",
           "translationLastModified": "2026-06-03T22:34:33+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+17 -0"
         },
         "ja": {
           "path": "ja/Technology/open-culture-foundation.md",
@@ -9686,8 +9688,10 @@
           "translationLastCommit": "b5853256",
           "translationLastModified": "2026-06-03T22:34:33+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+17 -0"
         },
         "ko": {
           "path": "ko/Technology/open-culture-foundation.md",
@@ -9699,8 +9703,10 @@
           "translationLastCommit": "b5853256",
           "translationLastModified": "2026-06-03T22:34:33+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+17 -0"
         },
         "es": {
           "path": "es/Technology/open-culture-foundation.md",
@@ -9712,8 +9718,10 @@
           "translationLastCommit": "b5853256",
           "translationLastModified": "2026-06-03T22:34:33+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+17 -0"
         },
         "fr": {
           "path": "fr/Technology/open-culture-foundation.md",
@@ -9725,8 +9733,10 @@
           "translationLastCommit": "b5853256",
           "translationLastModified": "2026-06-03T22:34:33+08:00",
           "inferred": false,
-          "status": "fresh",
-          "reason": "same-commit"
+          "status": "metadata-stale",
+          "reason": "trailer-only-drift",
+          "commitsBehind": 1,
+          "diffSummary": "+17 -0"
         }
       }
     },
