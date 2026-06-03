@@ -1,267 +1,260 @@
 ---
-title: 'Monaneng: dos ciegos, un poemario'
-description: 'El primer poeta indígena que publicó un poemario en chino moderno, Monaneng (莫那能) perdió la vista en 1979. Su colección Hermosas espigas de arroz (1989), prologada por Chen Yingzhen, reúne 30 poemas. El verso «dieciocho millones de personas gritan su autodeterminación / pero no escuchan nuestros suspiros» formula en poesía la pregunta «¿quién cuenta como taiwanés?» — 37 años después, nadie la ha respondido todavía.'
+title: 'Monaneng: dos tipos de ceguera, un poemario'
+description: 'Monaneng, el primer poeta indígena que publicó un poemario moderno en chino, perdió la vista recién en 1979; en 1989, Morning Star publicó The Beautiful Rice Ear. En Come, brindemos, el verso «La consigna de autodeterminación de dieciocho millones de personas / no oye nuestros suspiros» inscribió la pregunta de «quién cuenta como taiwanés» en 30 poemas. Leído 37 años después, esa pregunta sigue sin respuesta.'
 date: 2026-06-03
+author: 'Taiwan.md'
 category: 'People'
+subcategory: '原住民文化人 / 文學與詩人'
 tags:
   [
-    'pueblos indígenas',
+    'indígenas',
     'poesía',
     'literatura',
-    'paiwan',
+    'pueblo paiwan',
     'movimiento indígena',
     'Taitung',
     '1980s',
   ]
-subcategory: 'Figuras culturales indígenas / Literatura y poetas'
-author: 'Taiwan.md'
-featured: false
-canonical-order: 110
 lastVerified: 2026-06-03
 lastHumanReview: false
-researchReport: 'reports/research/2026-06/莫那能.md'
-viewpoint_formed: true
-image: '/article-images/people/monaneng-daren-township-2011.jpg'
-imageCredit: 'Bernard Gagnon / Wikimedia Commons'
-imageLicense: 'CC BY-SA 3.0'
-imageSource: 'https://commons.wikimedia.org/wiki/File:Daren_Township,_Taiwan.jpg'
+featured: false
 translatedFrom: 'People/莫那能.md'
 sourceCommitSha: 'd99a231b5'
 sourceContentHash: 'sha256:7457dd9d76d393b5'
 sourceBodyHash: 'sha256:9f6cfc94d06126bd'
-translatedAt: '2026-06-03T21:02:26+08:00'
+translatedAt: '2026-06-03T21:58:47+08:00'
 ---
 
-# Monaneng: dos ciegos, un poemario
+# Monaneng: dos tipos de ceguera, un poemario
 
-![Paisaje del distrito de Daren, condado de Taitung, con montañas y mar; a lo lejos, el océano Pacífico. Monaneng nació en 1956 en la aldea Aluwei de ese distrito.](/article-images/people/monaneng-daren-township-2011.jpg)
-_Distrito de Daren, condado de Taitung — lugar natal de Monaneng, donde se encuentra la aldea Aluwei. Foto: Bernard Gagnon, 2011-06-08. [Licencia vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Daren_Township,_Taiwan.jpg) CC BY-SA 3.0._
+![Paisaje del municipio de Daren, condado de Taitung: una comunidad tribal entre la montaña y el mar, con el Pacífico a lo lejos. Monaneng nació en 1956 en la comunidad de Aluwei (aldea de Anshuo) de este municipio.](/article-images/people/monaneng-daren-township-2011.jpg)
+_Municipio de Daren, condado de Taitung: lugar donde se encuentra la comunidad de Aluwei, sitio de nacimiento de Monaneng en 1956. Photo: Bernard Gagnon, 2011-06-08. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Daren_Township,_Taiwan.jpg) CC BY-SA 3.0._
 
-> **Resumen de 30 segundos:** Maljaljaves Mulaneng (马列雅弗斯·莫那能), también conocido por su nombre en chino mandarín Tseng Shun-wang (曾舜旺), poeta ciego del pueblo paiwan (排灣族) nacido en 1956 en la aldea Aluwei del distrito de Daren, condado de Taitung, es el **primer poeta indígena que publicó un poemario en chino moderno** en Taiwán. Su colección _Hermosas espigas de arroz_ (《美麗的稻穗》), editada por la editorial Chenxing en 1989 y prologada por el escritor Chen Yingzhen (陳映真) con el ensayo «El poeta colonial en el interior de Taiwán», reúne 30 poemas. Monaneng no nació ciego: perdió la vista en 1979 a causa de un accidente de tráfico mientras trabajaba en una empresa de transportes. El verso del poema «Anda, brindemos» — «dieciocho millones de personas gritan su autodeterminación / pero no escuchan nuestros suspiros» — inscribe simultáneamente en la poesía el movimiento pro-independencia recién emergido tras el levantamiento de la ley marcial, el movimiento «Devuélvannos nuestras tierras» y la pregunta «¿quién cuenta como taiwanés?» — y sin embargo el propio Monaneng declaró públicamente su oposición a la independencia de Taiwán, su defensa de la unificación a ambos lados del estrecho y se incorporó a la Asociación de Escritores de China[^1]. Leer su obra conlleva dos dificultades: físicamente, él no puede ver; políticamente, muchos lectores taiwaneses tampoco están dispuestos a mirar su postura.
+> **Resumen en 30 segundos:** El poeta ciego paiwan Maljaljaves Mulaneng, nacido en 1956 en la comunidad de Aluwei, municipio de Daren, Taitung, y registrado en chino como Tseng Shun-wang, fue el **primer poeta indígena de Taiwán en publicar un poemario moderno en chino**. The Beautiful Rice Ear, publicado por Morning Star en 1989, reúne 30 poemas y lleva un largo prólogo del escritor Chen Ying-chen titulado “Un poeta colonial dentro de Taiwán”. Monaneng no nació ciego: perdió completamente la vista después de una conmoción cerebral provocada por un accidente de tránsito mientras trabajaba en una empresa de transporte de carga en 1979. En Come, brindemos, el verso «La consigna de autodeterminación de dieciocho millones de personas / no oye nuestros suspiros» llevó al poema, simultáneamente, el movimiento independentista taiwanés recién salido del levantamiento de la ley marcial, el movimiento indígena por la devolución de tierras y la pregunta de «quién cuenta como taiwanés». Más tarde, el propio Monaneng se opuso públicamente a la independencia de Taiwán, defendió la unificación a ambos lados del estrecho y se incorporó a la Asociación de Escritores de China[^1]. Leer su poesía presenta dos dificultades: físicamente, él no ve; políticamente, muchos lectores taiwaneses tampoco quieren ver su posición.
 
-## El niño de la aldea Aluwei
+## Un niño de la comunidad de Aluwei
 
-3 de junio de 1956. Distrito de Daren, condado de Taitung. Un poblado paiwan llamado **Aluwei** (阿魯威), cuyo nombre administrativo en chino es **aldea Ansuo** (安朔村)[^2]. Allí nace un niño al que el poblado llama **Maljaljaves Mulaneng**; el registro civil inscribe su nombre en chino como **Tseng Shun-wang** (曾舜旺)[^3]. Años después, cuando escribe poesía, adopta como seudónimo la transliteración de su nombre en lengua paiwan: **Maljaljaves Monaneng** (馬列雅弗斯·莫那能).
+3 de junio de 1956, municipio de Daren, condado de Taitung. Una comunidad paiwan llamada **Aluwei**, cuyo topónimo chino es **aldea de Anshuo**[^2]. Allí nació un niño al que la comunidad llamó **Maljaljaves Mulaneng** y que la oficina del registro civil inscribió con el nombre chino de **Tseng Shun-wang**[^3]. Más tarde escribiría poesía con un seudónimo transliterado de su lengua: **Maljaljaves Monaneng**.
 
-Antes de cumplir los seis años, su madre muere de tuberculosis[^4]. En la secundaria, su padre va a prisión por hacerse responsable del delito de otro[^5]. Hasta los dieciséis años cuida ganado en su tierra natal; a partir de los dieciséis trabaja como bestia de carga en la ciudad[^4]. En 1972, con dieciocho años, es engañado por traficantes de personas y llevado a la ciudad para trabajar como obrero en obras y descargador[^5].
+Antes de cumplir seis años, su madre murió de tuberculosis[^4]. En la secundaria básica, su padre fue a prisión por asumir la culpa de otra persona[^5]. Antes de los dieciséis años, cuidaba ganado en su pueblo natal; después de los dieciséis, fue a la ciudad a trabajar como bestia de carga[^4]. En 1972, cuando tenía dieciocho años, traficantes de personas lo engañaron y lo llevaron a la ciudad para trabajar como obrero de arena y grava y como cargador[^5].
 
-Estos detalles importan porque muchos archivos literarios gubernamentales lo describen como «el milagroso poeta ciego que triunfó sobre la adversidad» — una imagen cómoda para venerar. En realidad, su infancia fue un itinerario muy frecuente en las familias de montaña del condado de Taitung durante los años sesenta y setenta: madre tuberculosa, padre encarcelado, infancia pastoreando ganado, adolescencia llevada a obras por intermediarios. Cada eslabón de esa cadena tiene su equivalente en otros jóvenes de las comunidades de la época. El propio Monaneng describió después ese itinerario en un poema: «Anda, brindemos», dedicado a un amigo del poblado que nunca pudo regresar a casa de verdad.
+Estos detalles importan porque muchos archivos literarios de instituciones públicas lo presentan como “el poeta ciego del milagro en la adversidad”: una imagen cómoda para venerar. En realidad, su infancia siguió una trayectoria muy común entre familias de zonas montañosas de Taitung en las décadas de 1960 y 1970: madre con tuberculosis, padre encarcelado, niñez cuidando ganado, adolescencia llevada por intermediarios a obras de construcción. Cada una de esas líneas tenía equivalentes en otros jóvenes de comunidades indígenas de la época. Él mismo escribiría más tarde esa trayectoria en un poema titulado Come, brindemos, dedicado a un amigo de la comunidad que nunca volvió verdaderamente a casa.
 
-> 📝 **Nota del curador:** Monaneng no fue alguien que descubrió los problemas sociales después de empezar a escribir poesía. Primero vivió ese itinerario en primera persona y solo a los treinta años lo tradujo en versos. El orden — primero la experiencia, luego la poesía — es fundamental para entender su obra.
+> 📝 **Nota curatorial**: Monaneng no fue alguien que entró en contacto con los problemas sociales después de escribir poesía. Primero fue protagonista de esa trayectoria; solo después, a los treinta años, la escribió entera en forma de poema. Ese orden —primero la experiencia, luego la poesía— es decisivo para leerlo.
 
-## Un accidente le robó la luz
+## Un accidente robó la luz
 
-En el reconocimiento médico escolar, le comunicaron algo: tenía **retinosis pigmentaria**, una enfermedad hereditaria y degenerativa de la retina que avanza progresivamente. Acabaría perdiendo la vista; era solo cuestión de tiempo[^6].
+Durante un examen médico escolar en la secundaria, le dijeron algo: tenía **retinosis pigmentaria**, una enfermedad hereditaria y progresiva de degeneración de la retina. Terminaría ciego; era solo cuestión de tiempo[^6].
 
-Al terminar la secundaria, aprobó el examen de ingreso a la **Escuela de Mecánica de la Fuerza Aérea**. No superó el reconocimiento médico de incorporación a causa de la retinosis pigmentaria. El sueño de la aviación se truncó. Después barajó la Escuela Normal de Taitung y la Academia de Policía — ambas vetadas también por problemas de visión. Las pocas vías de ascenso social disponibles para un joven de las comunidades de montaña en los años setenta se cerraban una tras otra[^6].
+Tras graduarse de la secundaria básica, ingresó en la **Escuela de Mecánica de la Fuerza Aérea**. Al presentarse, no aprobó el examen médico por la retinosis pigmentaria. Su sueño de entrar en la Fuerza Aérea terminó. Más tarde consideró la escuela normal de Taitung y la academia de policía, pero ambas vías quedaron cerradas por su problema de visión. Para un joven de zona montañosa en la década de 1970, los pocos canales de movilidad social ascendente se fueron bloqueando uno por uno[^6].
 
-Luego llegó el engaño de 1972. En 1977, un primo político vendió a su hermana a un prostíbulo como joven prostituta. Monaneng recorrió la ciudad pidiendo prestado dinero y se apostó de madrugada a la puerta del burdel para rescatarla. En el proceso le golpearon y su visión se deterioró aún más[^7].
+Luego vino el engaño de traficantes de personas en 1972. En 1977, su hermana fue vendida por el esposo de una prima a un prostíbulo como prostituta infantil. Monaneng pidió dinero prestado por todas partes, esperó de madrugada en la puerta del burdel y logró rescatarla; durante el proceso fue golpeado, y su visión se deterioró aún más[^7].
 
-El accidente decisivo ocurrió en **1979**. Trabajando en una empresa de transportes, sufrió un accidente de tráfico que le provocó una conmoción cerebral y lo mantuvo en coma casi dos meses. Al despertar, el ojo derecho había quedado completamente ciego y el izquierdo conservaba una agudeza visual de 0,2[^8]. Wikipedia recoge que tenía entonces 23 años; el Diccionario de Escritores del Museo Nacional de Literatura Taiwanesa escribe «24 años»; las entrevistas de las revistas _Yuánshì jiè_ y _Observer_ apuntan a los 26 y 27 años respectivamente[^9]. Circulan varias versiones, pero el propio Monaneng, en su testimonio oral de 2022, precisa claramente: «1979, mientras trabajaba en la empresa de transportes»[^10].
+El accidente decisivo ocurrió en **1979**. Trabajaba en una empresa de transporte de carga cuando sufrió un accidente de tránsito y una conmoción cerebral; permaneció casi dos meses inconsciente en el hospital. Al despertar, el ojo derecho estaba completamente ciego y el izquierdo tenía una visión de 0,2[^8]. Wikipedia registra que entonces tenía 23 años; el diccionario del Museo Nacional de Literatura de Taiwán escribe 24; las entrevistas de Indigenous Sight y de la revista Observer indican 26 y 27 años[^9]. Circulan varias versiones, pero el testimonio oral del propio Monaneng en 2022 afirma con claridad: “1979, mientras trabajaba en una empresa de transporte de carga”[^10].
 
-Después ingresó en el **Centro de Rehabilitación para Ciegos de Taiwán**, donde aprendió masaje terapéutico y escritura braille. Más adelante estableció en Taipéi un pequeño consultorio de masajes que llamó «Consultorio de Masajes de A-neng» (阿能按摩院)[^11]. No era un masajista callejero — como suele escribirse erróneamente en internet —: tenía un local propio, y en ese local componía poesía en braille. Aunque **la poesía no nació del braille**.
+Después fue al **Instituto de Reconstrucción para Ciegos de Taiwán** para aprender masaje y braille. Más tarde abrió en Taipéi una pequeña clínica de masajes llamada “A-Neng Massage”[^11]. No era un “masajista callejero” —como suele escribirse en internet, de manera imprecisa—, sino que tenía un local físico. Allí escribía poemas en braille. **Pero la poesía no empezó en el braille**.
 
-![Actuación de canto y danza del pueblo paiwan: tres personas con indumentaria tradicional actúan juntas. La poesía de Monaneng surgió también así en 1984, transmitida oralmente entre brindis y canciones, anotada después por otro.](/article-images/people/monaneng-paiwan-song-dance-2018.jpg)
-_Actuación de canto y danza paiwan (festival cultural indígena Riddu Riđđu, Noruega, 2018) — evoca el contexto original de 1984, cuando Monaneng improvisó sus poemas en voz alta en casa de Yang Du entre copas de vino. Foto: Riddu Riđđu Festival vía Flickr. [Licencia vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Familieforestilling_-_Paiwan_sang_og_dans_(41534824410).jpg) CC BY-SA 2.0.\_
+![Presentación tradicional de canto y danza paiwan: tres integrantes del pueblo interpretan juntos con vestimenta tradicional. La poesía de Monaneng también surgió originalmente así en 1984: de su boca, en forma de bebida, oralidad y canto, para luego ser transcrita por otros.](/article-images/people/monaneng-paiwan-song-dance-2018.jpg)
+_Canto y danza paiwan (festival de culturas indígenas Riddu Riđđu, norte de Europa, 2018): imagen correspondiente a la escena originaria de 1984, cuando Monaneng bebía en casa de Yang Tu y recitaba oralmente sus poemas. Photo: Riddu Riđđu Festival via Flickr. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Familieforestilling_-_Paiwan_sang_og_dans_(41534824410).jpg) CC BY-SA 2.0.\_
 
-## En casa de Yang Du, entre vino y canciones
+## Beber en casa de Yang Tu y cantar los poemas
 
-El verdadero origen de la poesía es más complejo que el relato romántico del «ciego que escribe en braille».
+El verdadero origen de su poesía es más complejo que la narración romántica de “un ciego que escribe poemas en braille”.
 
-En 1974 — aunque otras fuentes apuntan a comienzos de 1977 — un profesor de la Universidad de Tamkang llamado Wang Chin-ping lo puso en contacto con un grupo de intelectuales de izquierda: **Su Ching-li, Chen Yingzhen (陳映真) y Chen Ku-ying (陳鼓應)**[^12]. Chen Ku-ying lo acogió en su casa varios meses para que se recuperara; el cuarto estaba lleno de libros sobre pensamiento de izquierda, que Monaneng fue leyendo con sus ojos casi perdidos. A finales de 1978 participó por primera vez en actividades políticas, colaborando en las campañas electorales de Chen Ku-ying y Chen Wan-chen para la Asamblea Legislativa y la Asamblea Nacional[^13].
+En 1974 —algunas fuentes escriben comienzos de 1977— conoció, por intermedio de Wang Chin-ping, profesor de la Universidad Tamkang, a un grupo de intelectuales de izquierda: **Su Ching-li, Chen Ying-chen y Chen Ku-ying**[^12]. Chen Ku-ying lo invitó a recuperarse durante varios meses en su casa, donde había libros de pensamiento izquierdista; Monaneng los fue leyendo lentamente con sus ojos medio ciegos. A fines de 1978 participó por primera vez en actividades políticas, ayudando en las campañas de Chen Ku-ying y Chen Wan-chen para las elecciones legislativas y de la Asamblea Nacional[^13].
 
-En marzo de 1984, en la casa de **Yang Du** (楊渡), en Taichung, Monaneng bebía, cantaba e improvisaba fragmentos de voz. El poeta **Li Chi** (李疾), que estaba presente, pensó que aquello no debía perderse y transcribió esas declamaciones orales en poemas, que publicó en el primer número de la revista _Chūnfēng shīkān_ (《春風詩刊》) bajo el título «Poemas de un indígena de montaña». En el segundo número apareció el que llegaría a ser su poema más célebre: «Anda, brindemos». Esto ocurría en la primavera de 1984, **cinco años antes que el poemario _Hermosas espigas de arroz_**[^14].
+En marzo de 1984, en Taichung, bebía, cantaba e improvisaba una serie de fragmentos orales en casa de **Yang Tu**. El poeta **Li Chi**, presente allí, pensó que aquello no debía dispersarse y organizó esos cantos orales en poemas. Los publicó en el primer número de **Spring Wind Poetry Magazine** bajo el título “Poemas de gente de las montañas”. En el segundo número apareció el que luego sería su poema más célebre, Come, brindemos. Era la primavera de 1984, **cinco años completos antes de la publicación del poemario The Beautiful Rice Ear**[^14].
 
-Esta secuencia merece leerse despacio:
+Conviene leer despacio esta secuencia:
 
-- La poesía de Monaneng **nació primero como tradición oral** (vino, canciones, recitación)
-- **Li Chi la transcribió** y así adquirió forma escrita
-- **_Chūnfēng shīkān_** la publicó primero (1984)
-- **La editorial Chenxing** publicó el poemario después (1989)
-- **El aliento de Chen Yingzhen para que escribiera en braille** vino más tarde; no fue el origen de la creación
+- La poesía de Monaneng **fue primero oral**: beber, cantar, recitar.
+- Solo con la **transcripción de Li Chi** hubo texto escrito.
+- **Spring Wind Poetry Magazine** la publicó primero, en 1984.
+- El poemario de **Morning Star** apareció después, en 1989.
+- La **escritura en braille alentada por Chen Ying-chen** vino más tarde; no fue el origen creativo.
 
-Este linaje oral, que evoca las epopeyas homérica y odiseica, es el verdadero fundamento de que Chen Yingzhen lo llamara «**el poeta colonial en el interior de Taiwán**» y de que los académicos lo compararan con «**el Homero de Taiwán**». La grandeza de Homero no reside en su ceguera sino en que la tradición épica oral pervivió a través de él[^15].
+Ese origen oral, de tipo odiseico, es el fundamento real de que Chen Ying-chen lo llamara más tarde “**un poeta colonial dentro de Taiwán**” y de que la academia lo comparara con “**el Homero de Taiwán**”. Homero no fue grande por su ceguera, sino porque en él continuó la tradición de la épica oral[^15].
 
-![Templo presbiteriano de Daren, condado de Taitung, uno de los primeros espacios modernizados en las comunidades indígenas de posguerra y nodo de la red del movimiento indígena en los años ochenta.](/article-images/people/monaneng-daren-church-2011.jpg)
-_Iglesia Presbiteriana de Daren, condado de Taitung — uno de los primeros espacios de organización moderna en las comunidades indígenas de posguerra; nodo clave de la red del movimiento indígena en los años ochenta. Foto: Bernard Gagnon, 2011-03-08. [Licencia vía Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Daren_Church,_Presbyterian_Church_in_Taiwan_20110308.jpg) CC BY-SA 3.0._
+![Edificio de la Iglesia Presbiteriana en el municipio de Daren, Taitung: uno de los primeros espacios modernos de las comunidades indígenas taiwanesas de posguerra y también un nodo de las redes del movimiento indígena en la década de 1980.](/article-images/people/monaneng-daren-church-2011.jpg)
+_Iglesia Presbiteriana del municipio de Daren, Taitung: uno de los primeros espacios organizativos modernos en las comunidades indígenas taiwanesas de posguerra y un nodo importante de las redes del movimiento indígena en la década de 1980. Photo: Bernard Gagnon, 2011-03-08. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Daren_Church,_Presbyterian_Church_in_Taiwan_20110308.jpg) CC BY-SA 3.0._
 
-## El estruendo de la mina Haishan; el bastón de la Asociación por los Derechos Indígenas
+## Las campanas de la mina Haishan, el bastón de la Asociación por los Derechos Indígenas
 
-En la madrugada del 20 de junio de 1984, una explosión de polvo de carbón sacudió la **mina de carbón Haishan** (海山), en Tucheng, condado de Taipéi del Norte. **Setenta y dos personas murieron**, la mayoría mineros del pueblo amis[^16].
+En la madrugada del 20 de junio de 1984, una explosión de polvo de carbón sacudió la **mina Haishan** en Tucheng, condado de Taipéi. **Murieron setenta y dos personas**, en su mayoría mineros amis[^16].
 
-En aquella Taiwán, el flujo de indígenas de montaña desde las comunidades de Hualien y Taitung hacia minas urbanas, pesqueros y obras de construcción ya era algo habitual, pero esas personas prácticamente carecían de nombre en la sociedad predominante. Tras la explosión de la mina Haishan, **Hu De-fu** (胡德夫) organizó el concierto benéfico «Cantos de las montañas» para recaudar fondos; en ese proceso conoció a Monaneng y otros. En diciembre del mismo año fundaron con **Icyang Parod** (夷將·拔路兒), **Tung Chun-fa** (童春發) e **Ivan Nogan** (伊凡·諾幹), entre otros, la **Asociación para la Promoción de los Derechos de los Pueblos Indígenas de Taiwán** (臺灣原住民族權利促進會), abreviada como «Asociación por los Derechos Indígenas» — la primera organización política indígena de alcance nacional en la Taiwán de posguerra[^17].
+En el Taiwán de ese año, la migración de indígenas de las zonas montañosas desde las comunidades de Hualien y Taitung hacia minas urbanas, barcos pesqueros y obras de construcción ya era habitual. Pero esas personas casi no tenían nombre en la sociedad dominante. Tras la explosión de la mina Haishan, **Hu Te-fu** organizó el concierto benéfico “Cantando por la montaña” y durante ese proceso conoció a Monaneng y a otros. En diciembre del mismo año, junto con **Icyang Parer**, **Tung Chun-fa**, **Ivan Nokan** y otras personas, fundaron la **Asociación Taiwanesa para la Promoción de los Derechos de los Pueblos Indígenas** —la primera organización política indígena nacional de la posguerra[^17].
 
-En la Asociación por los Derechos Indígenas, Monaneng ejerció como **coordinador del Comité de Promoción** y como **coordinador del Equipo de Trabajo Comunitario**[^18]. Por los trabajadores amis muertos en la mina Haishan escribió el poema «¿Por qué?».
+Monaneng fue **convocante del comité de promoción** de la asociación y también convocante de su **equipo de trabajo tribal**[^18]. Para los trabajadores amis muertos en la mina Haishan escribió ¿Por qué?.
 
-En la segunda mitad de los años ochenta, su figura con gafas oscuras y bastón apareció en cada momento clave del movimiento indígena[^19]:
+En la segunda mitad de la década de 1980, su figura con gafas oscuras y bastón apareció en todos los escenarios clave del movimiento indígena[^19]:
 
-- **Septiembre de 1985**: protesta contra la inauguración del templo dedicado a Wu Feng en Chiayi; convocatoria de la marcha «No queremos mitos, queremos historia»
-- **9 de enero de 1988**: primera gran marcha callejera de la historia de Taiwán para el **rescate de jóvenes prostituidas indígenas**; Monaneng escribió «Cuando repican las campanas — para las hermanas indígenas víctimas», cuya inspiración directa fue su propia hermana
-- **25 de agosto de 1988**: primera gran marcha del movimiento **«Devuélvannos nuestras tierras»**
-- **31 de diciembre de 1988**: derribo de la estatua de Wu Feng frente a la estación de ferrocarril de Chiayi
+- **Septiembre de 1985**: protesta contra la inauguración del templo de Wu Feng en Chiayi y marcha “Queremos historia, no mitología”.
+- **9 de enero de 1988**: primera gran marcha callejera de la historia social taiwanesa para el **rescate de niñas prostituidas**; escribió Cuando suenan las campanas: para las hermanas de la montaña que sufren para apoyarla, inspirado en la experiencia de su propia hermana.
+- **25 de agosto de 1988**: primera gran marcha del movimiento **Devuélvannos nuestra tierra**.
+- **31 de diciembre de 1988**: derribo de la estatua de Wu Feng frente a la estación de tren de Chiayi.
 
-⚠️ **Perspectiva en disputa:** Muchos lectores taiwaneses menores de treinta años conocen hoy términos como «pueblos indígenas», nombres tribales como «tao» o «truku», y conceptos como «territorio tradicional» — todo ello tiene su origen en las movilizaciones callejeras de 1984 a 1990. Sin embargo, tres décadas de exposiciones conmemorativas, documentales y museos han envuelto esas movilizaciones en un marco de «punto de inflexión histórico» que borra la violencia real del conflicto originario. El bastón de Monaneng no era entonces ninguna metáfora literaria: era literalmente el bastón del que dependía para caminar.
+⚠️ **Punto de vista polémico**: Muchos lectores taiwaneses menores de 30 años hoy conocen el término “pueblos indígenas”, saben nombres como “tao” o “truku” y reconocen el concepto de “territorio tradicional”. El origen de todo eso está en los movimientos callejeros de 1984-1990. Pero después de que durante las últimas tres décadas esos movimientos fueran empaquetados por exposiciones conmemorativas, documentales y museos como “puntos de inflexión históricos”, es fácil olvidar que en su origen fueron conflictos muy intensos. El bastón de Monaneng no era entonces una metáfora literaria: era el bastón del que dependía realmente.
 
-## Chen Yingzhen le escribe el prólogo: «el poeta colonial en el interior de Taiwán»
+## Chen Ying-chen escribió para él el prólogo “Un poeta colonial dentro de Taiwán”
 
-En el otoño de 1989, la **Editorial Chenxing** (晨星出版社) de Taichung imprimió _Hermosas espigas de arroz_ (《美麗的稻穗》)[^20].
+En el otoño de 1989, **Morning Star Publishing** imprimió en Taichung The Beautiful Rice Ear[^20].
 
-El título evoca la canción «Cosecha abundante» (〈豐年〉) — conocida después como «Hermosas espigas de arroz» —, compuesta en 1958 por el músico bunun **Lu Sen-pao** (陸森寶, 1910-1988) para los jóvenes soldados del pueblo puyuma (卑南族) destinados a la isla Kinmen durante la batalla del Primero de Enero. Lu Sen-pao la escribió para los puyuma; Hu De-fu la difundió durante el movimiento de música folclórica de los años setenta; el poeta **paiwan** Monaneng la adoptó como título de su poemario. Esa apropiación cruzada entre etnias era ya en sí misma una declaración de principios: la categoría «pueblos indígenas» estaba siendo construida colectivamente por encima de las identidades tribales[^21].
+El título remite a una canción del compositor pinuyumayan **Lu Sen-pao** (1910-1988), Harvest Festival Song, escrita en 1958 y conocida más tarde como Beautiful Rice Ear; originalmente estaba dedicada a los jóvenes pinuyumayan destinados a Kinmen durante la segunda crisis del estrecho de Taiwán[^21]. Lu Sen-pao escribió sobre el pueblo pinuyumayan, Hu Te-fu difundió la canción en el movimiento de canción folk de la década de 1970, y Monaneng, paiwan, la tomó como título de su libro. Esa apropiación interétnica ya era una afirmación: el concepto de “pueblos indígenas” estaba siendo reensamblado por ese grupo por encima de las divisiones étnicas específicas.
 
-El poemario reúne **30 poemas** distribuidos en **5 secciones**:
+El poemario reúne **30 poemas** en **5 secciones**:
 
-1. «Devolvednos nuestros nombres»
-2. «Regresa, Saumi»
-3. «Canción del bastón blanco»
-4. «Ya no veremos la oscuridad»
+1. Restauren nuestros nombres
+2. Vuelve, Shawmi
+3. Canción del bastón blanco
+4. Ya no vemos la oscuridad
 5. Apéndice
 
-Chen Yingzhen escribió el prólogo extenso, titulado «**Monaneng — el poeta colonial en el interior de Taiwán**»[^22]. Ese mismo año, Monaneng recibió el galardón cultural de la Fundación Atención a Taiwán[^23].
+Chen Ying-chen escribió para el libro un largo prólogo titulado **Monaneng: un poeta colonial dentro de Taiwán**[^22]. Ese mismo año Monaneng recibió una subvención cultural de la Fundación Care Taiwan[^23].
 
-El poema «Devolvednos nuestros nombres» comienza así[^24]:
+Restauren nuestros nombres comienza así[^24]:
 
-> De «salvaje» a «compatriota de las montañas»
+> De “salvajes crudos” a “compatriotas de la montaña”
 > nuestros nombres
-> han ido olvidándose poco a poco en los rincones de la historia de Taiwán
-> de las montañas a la llanura
-> nuestro destino — ay, nuestro destino —
-> solo en los informes de los estudios antropológicos
-> recibe atención y cuidado digno…
+> fueron quedando poco a poco olvidados en un rincón de la historia de Taiwán
+> de la montaña a la llanura
+> nuestro destino, ay, nuestro destino
+> solo en los informes de investigación antropológica
+> recibe trato y cuidado solemnes...
 
-Y concluye:
+Y termina así:
 
 > Si algún día
-> queremos dejar de errar por nuestra propia tierra
-> devolvednos primero nuestros nombres y nuestra dignidad
+> queremos dejar de vagar por nuestra propia tierra
+> restauren primero nuestros nombres y nuestra dignidad
 
-En 1995, el Yuan Legislativo aprobó la reforma de la Ley de Nombres, y los pueblos indígenas obtuvieron oficialmente el derecho a registrarse con sus nombres tribales. Durante los seis años que mediaron entre el poemario y esa ley, «Devolvednos nuestros nombres» fue el poema recitado con mayor frecuencia en las concentraciones del movimiento.
+En 1995, el Yuan Legislativo aprobó una reforma de la Ley de Nombres y los pueblos indígenas obtuvieron formalmente el derecho a registrarse con sus nombres étnicos. Durante esos seis años, Restauren nuestros nombres fue uno de los poemas más leídos en los escenarios del movimiento.
 
-> 💡 **¿Sabías que...?** El primer escritor indígena de Taiwán que escribió en chino **no** fue Monaneng. En 1971, el también paiwan **Chen Ying-hsiung** (陳英雄, Kowan Talall) publicó la colección de relatos cortos _Huellas de sueños en tierras lejanas_ (《域外夢痕》, Editorial Comercial de Taiwán), dieciocho años antes que Monaneng. El «primero» de Monaneng es, con precisión, «**el primer poeta indígena que publicó un poemario en chino moderno**» — poesía, no narrativa ni ensayo. Esa distinción importa: los orígenes de la literatura indígena taiwanesa en chino fueron siempre múltiples, y no deberían reducirse a un único relato heroico.
+> 💡 **¿Sabías que...?** El primer escritor indígena taiwanés que escribió en chino **no** fue Monaneng. En 1971, **Chen Ying-hsiung** (Kowan Talall), también paiwan, publicó el volumen de cuentos Traces of Dreams Beyond the Realm con Taiwan Commercial Press, 18 años antes que Monaneng. En sentido estricto, el “primero” de Monaneng significa **primer poeta indígena que publicó un poemario moderno en chino**: poesía, no novela, no ensayo. Esa precisión es importante porque el inicio de la literatura indígena en chino siempre tuvo caminos plurales y no debe simplificarse en el relato de un único héroe.
 
-## Aquellos «dieciocho millones de personas»
+## Ese verso sobre “dieciocho millones de personas”
 
-El poema más citado y más polémico del poemario es «Anda, brindemos» (〈來，乾一杯〉). Retrata a un amigo paiwan llamado **Kalabai** — castigado corporalmente en la escuela de primaria, que dejó la secundaria antes de graduarse para convertirse en obrero en el occidente de la isla, que salió al mar como pescador, cumplió el servicio militar, volvió a embarcarse en alta mar y acabó **muriendo en Ciudad del Cabo, Sudáfrica**[^25].
+El poema más citado y también más polémico del libro se titula Come, brindemos. Escribe sobre un amigo paiwan de la comunidad, **Kalabai**, que pasa de la aldea a la ciudad y luego a barcos pesqueros de altura: castigado físicamente en la escuela cuando era niño, trabajador de arena y grava en el oeste de Taiwán antes de terminar la secundaria básica, pescador, soldado, tripulante de buques oceánicos y finalmente **muerto lejos de casa en Ciudad del Cabo, Sudáfrica**[^25].
 
-En el poema aparece este pasaje:
+El poema contiene este pasaje:
 
-> Dieciocho millones de personas gritan su autodeterminación
-> pero no escuchan nuestros suspiros.
-> La igualdad, la fraternidad, la justicia y el derecho
-> nos abandonaron hace tiempo.
+> La consigna de autodeterminación de dieciocho millones de personas
+> no oye nuestros suspiros
+> igualdad y fraternidad, justicia y razón
+> hace tiempo nos abandonaron
 
-A finales de los años ochenta, «**dieciocho millones**» era la cifra aproximada de la población de Taiwán, y «**autodeterminación**» era la palabra central del discurso de la oposición dangwai y de la recién fundada doctrina del Partido Democrático Progresista. Si se sitúan estos cuatro versos en el arco temporal de 1984-1989 — en torno al levantamiento de la ley marcial, en el auge del movimiento «Devuélvannos nuestras tierras», con Cheng Nan-jung (鄭南榕) de _Free Times Weekly_ quemándose vivo en abril de 1989 — se comprende el peso que tienen. Monaneng lanzaba en esos versos una interpelación directa al movimiento pro-independencia que entonces se estaba formando: **¿vuestra «autodeterminación» nos incluye a nosotros?**
+A fines de la década de 1980, “**dieciocho millones**” era una cifra aproximada de la población de Taiwán, y “**autodeterminación**” era una palabra central del movimiento tangwai y, después, del discurso fundacional del Partido Democrático Progresista. Si se devuelven esas cuatro líneas a la línea temporal de 1984-1989 —antes y después del levantamiento de la ley marcial, el auge del movimiento Devuélvannos nuestra tierra, la autoinmolación de Deng Nan-jung en abril de 1989 en la revista Freedom Era Weekly— se entiende su peso. En esas cuatro líneas, Monaneng lanzó una pregunta directa al movimiento independentista taiwanés que empezaba a tomar forma: **la “autodeterminación” de la que hablan, ¿nos incluye a nosotros?**
 
 Esa pregunta admite lecturas distintas:
 
-- **Lectura solidaria**: Monaneng habla de la posición marginal de los pueblos indígenas dentro del relato predominante de la democratización en los años ochenta. El encuadre «dieciocho millones de personas» del movimiento pro-independencia presuponía un «sujeto taiwanés» de base han; los indígenas eran incorporados al marco, pero sin representación real.
-- **Lectura crítica**: la oposición de Monaneng al movimiento pro-independencia seguía siendo viva y explícita en 2022, lo que sugiere que la pregunta de 1989 ya era la expresión de una postura política duradera — con sus propias contradicciones.
+- **Lectura empática**: Monaneng habla de la posición marginal de los pueblos indígenas en la narrativa dominante de democratización a fines de la década de 1980. El framing de “dieciocho millones de personas” del movimiento independentista presuponía un “sujeto taiwanés” centrado en la población han; los pueblos indígenas eran incorporados, pero no verdaderamente representados.
+- **Lectura crítica**: La oposición del propio Monaneng al movimiento independentista seguía siendo nítida en 2022, lo que muestra que la pregunta del poema de 1989 ya formaba parte de una posición política de largo plazo, y esa posición tiene sus propios problemas.
 
-Las dos lecturas son válidas. Lo decisivo es esto: el poema **fue escrito en 1984** (segundo número de _Chūnfēng shīkān_), antes de que existiera el Partido Democrático Progresista, antes de que estallara el movimiento «Devuélvannos nuestras tierras». **Esos cuatro versos existen en la historia literaria taiwanesa como una pregunta — y esa pregunta permanece hoy sin respuesta**.
+Ambas lecturas son válidas. Lo importante es que este poema **fue escrito en 1984** —en el segundo número de Spring Wind Poetry Magazine—, cuando aún no existía el Partido Democrático Progresista y el movimiento Devuélvannos nuestra tierra todavía no había estallado. **Esas cuatro líneas entraron primero en la historia de la literatura taiwanesa como pregunta, y la respuesta sigue pendiente hasta hoy**.
 
-## ¿El poeta de la unificación?
+## ¿Un poeta pro-unificación?
 
-El 16 de junio de 2010, la Asociación de Escritores de China anunció la incorporación de **Monaneng, Chu Hsiu-chuan (朱秀娟) y Chen Yingzhen (陳映真)** como sus tres primeros miembros taiwaneses[^26]. Ese mismo año, en mayo, la Editorial Renjian (人間出版社) publicó la autobiografía oral de Monaneng, _Las vivencias de un indígena taiwanés_ (《一個台灣原住民的經歷》)[^27]. Monaneng pasó después a presidir la **Liga de la Marea de Verano** (夏潮聯合會) — una organización explícitamente partidaria de la izquierda unificadora[^1].
+El 16 de junio de 2010, la Asociación de Escritores de China anunció la incorporación de **Monaneng, Chu Hsiu-chuan y Chen Ying-chen** como sus tres primeros miembros taiwaneses[^26]. En mayo de ese mismo año, Renjian Publishing publicó la autobiografía oral de Monaneng, **La experiencia de un indígena taiwanés**[^27]. Más tarde, Monaneng fue presidente de la **Federación Xiashao**, una organización de izquierda explícitamente favorable a la unificación[^1].
 
-Su postura pública es inequívoca: defiende la unificación a ambos lados del estrecho porque «**cuanto más paz haya entre los dos lados del estrecho, más les conviene a los pueblos indígenas**»[^28]. La Wikipedia en chino resume: «Defiende desde hace tiempo que los pueblos indígenas de Taiwán también son chinos y que la paz en el estrecho de Taiwán derivada de la unificación es lo más beneficioso para los pueblos indígenas de Taiwán»[^1].
+Su posición pública es clara: defiende la unificación a ambos lados del estrecho, con el argumento de que “**cuanto más pacíficas sean las relaciones a ambos lados del estrecho, más favorable será para los pueblos indígenas**”[^28]. Wikipedia lo formula así: “ha sostenido durante largo tiempo que los pueblos indígenas taiwaneses también son chinos y que la paz en el estrecho de Taiwán derivada de la unificación a ambos lados del estrecho es lo más favorable para los pueblos indígenas taiwaneses”[^1].
 
-Esta postura lo ha situado en una posición incómoda en los círculos literarios taiwaneses a partir de los años 2010. El poema «Devolvednos nuestros nombres» sigue apareciendo en el currículo de la secundaria y sigue recitándose en el Día de los Pueblos Indígenas; pero el propio autor ha viajado a Pekín y publicado artículos en prensa pro-unificación. Cuando en 2019 el nuevo currículo de secundaria incluyó «Cuando repican las campanas — para las hermanas indígenas víctimas», una legisladora objetó que el poema era «indecoroso» y exigió su retirada — en aquella controversia, los argumentos contra la retirada procedieron de la comisión del currículo y de organizaciones indígenas, pero Monaneng no apareció públicamente[^29].
+Esa postura lo colocó, después de la década de 2010, en una posición incómoda dentro del campo literario taiwanés. El poema Restauren nuestros nombres siguió incluido en los programas de secundaria básica y leyéndose en el Día de los Pueblos Indígenas; pero el autor fue a Pekín y publicó artículos en revistas pro-unificación. En 2019, cuando el programa de secundaria básica incluyó Cuando suenan las campanas: para las hermanas de la montaña que sufren, un legislador cuestionó que fuera “indecente” y exigió retirarlo. En esa controversia, los argumentos contra la retirada provinieron de integrantes del comité curricular y de grupos indígenas, pero Monaneng no intervino públicamente[^29].
 
-¿Cómo leer esa doble posición? Tres observaciones:
+¿Cómo leer esta posición doble? Tres observaciones:
 
-1. **Los poemas son de los años ochenta; la postura se hizo pública en los años 2010; entre ambos hay treinta años**. La pregunta de 1984 en «Anda, brindemos» — «¿dieciocho millones de personas» incluye a los nuestros? — y la declaración de 2022 «el Partido Democrático Progresista está secuestrado por la independencia» son muy distintas: la segunda es mucho más explícita, pero no son la misma frase.
-2. **La línea izquierdista pro-unificación no es una excentricidad personal de Monaneng**. Sus mentores intelectuales — Chen Yingzhen, Chen Ku-ying, Wang Chin-ping, Su Ching-li — formaban una generación de intelectuales de izquierda de los años setenta y ochenta que en aquel momento constituían una de las pocas voces capaces de criticar simultáneamente el autoritarismo del Kuomintang y la explotación capitalista. Con el auge de la conciencia local taiwanesa en los años noventa fueron progresivamente marginados y viraron hacia posturas pro-unificación. En esa misma trayectoria se inscriben la Liga de la Marea de Verano, la revista _Renjian_ (人間) y _Straits Review_ (《海峽評論》), que forman una comunidad intelectual nutrida por la confluencia de los perseguidos de izquierda durante la Guerra Fría, los ex presos políticos del Terror Blanco y los veteranos del movimiento Baodiaoyu que volvieron a Taiwán. Para entender a Monaneng es necesario entender esa trayectoria generacional de la izquierda pro-unificación; no se puede examinar su figura aislada de ese contexto. Y al mismo tiempo — comprender esa trayectoria no equivale a suscribir sus conclusiones. Una postura de antiimperialismo en los años setenta que en los años 2020 se transforma en apoyo a las pretensiones soberanas chinas sobre Taiwán plantea la pregunta de si el contenido de fondo no ha sido sustituido por el camino, y esa pregunta exige responderse con honestidad.
-3. **La postura política no anula el valor literario de la poesía, y el valor literario de la poesía no debería anular la postura política**. El poemario de Monaneng de 1989 está bien escrito — eso es verdad. Su incorporación a la Asociación de Escritores de China en 2010 también ocurrió — eso también es verdad. Cualquier versión que solo admita una de las dos cosas es una versión que lo _sanitiza_.
+1. **Los poemas fueron escritos en los años ochenta; la posición se hizo pública en los años dos mil diez; entre ambos momentos hay treinta años**. En 1984, Come, brindemos preguntaba si “dieciocho millones de personas” incluía a los pueblos indígenas; en 2022, Monaneng dijo que “el Partido Democrático Progresista fue secuestrado por la independencia de Taiwán”. Lo segundo es mucho más explícito que lo primero, pero no es la misma frase.
+2. **La línea de izquierda pro-unificación no es una excepción individual de Monaneng**. Sus mentores Chen Ying-chen, Chen Ku-ying, Wang Chin-ping, Su Ching-li y toda esa generación de intelectuales de izquierda de las décadas de 1970 y 1980 fueron de las pocas voces en Taiwán que criticaban simultáneamente el autoritarismo del Kuomintang y la explotación capitalista. Más tarde, con el ascenso de la conciencia local taiwanesa en la década de 1990, fueron quedando marginados y derivaron hacia posiciones favorables a la unificación a ambos lados del estrecho. En esa trayectoria también estuvieron la Federación Xiashao, la revista Renjian, Straits Review y otras publicaciones que formaron una comunidad intelectual; detrás había una historia compleja de persecución de la izquierda durante la Guerra Fría, presos políticos del Terror Blanco liberados y participantes del movimiento en defensa de las islas Diaoyutai que confluyeron al regresar a Taiwán. Comprender a Monaneng exige comprender esa trayectoria generacional de intelectuales de izquierda pro-unificación, no aislarlo de ella para examinarlo por separado. Al mismo tiempo, comprender esa trayectoria no equivale a aceptar sus conclusiones. La posición antiimperialista de los años setenta se convirtió en los años veinte del siglo XXI en apoyo a la reivindicación de soberanía de China sobre Taiwán: si hubo o no un reemplazo de contenido en ese tránsito es otra pregunta que debe afrontarse con honestidad.
+3. **La posición política no cancela el valor literario de la poesía, y el valor literario de la poesía tampoco debería cancelar la posición política**. El poemario de Monaneng de 1989 está bien escrito, y su incorporación en 2010 a la Asociación de Escritores de China **también es un hecho**. Las versiones que intentan reconocer solo una de esas dos cosas están sanitizando la historia.
 
-> ✦ En la entrevista que la revista _Observer_ le hizo en 2022, Monaneng utilizó una frase más directa: «**El Partido Democrático Progresista no se preocupa por los derechos de las personas de base ni de las minorías étnicas, y ha sido secuestrado por la "independencia de Taiwán" llevando al país por el camino sin salida de la división**»[^28]. Estas palabras aparecen en una publicación pro-unificación (el lector debe tener en cuenta la línea editorial de la fuente); son el testimonio oral del propio Monaneng en 2022. Si el lector no comparte ese juicio, puede no compartirlo — pero es la postura que Monaneng declaró explícitamente ese año.
+> ✦ Cuando la revista Observer lo entrevistó en 2022, él usó una frase todavía más directa: “**El Partido Democrático Progresista no se preocupa por los derechos e intereses de las personas de base ni de las minorías étnicas, y además fue secuestrado por la ‘independencia de Taiwán’ hacia el camino sin salida de dividir el país**”[^28]. Es un testimonio oral suyo publicado en una revista pro-unificación. Si el lector no está de acuerdo con ese juicio, puede no estarlo; pero esa fue la posición que Monaneng expresó claramente en 2022.
 
-## La poesía sigue leyéndose; la pregunta sigue sin respuesta
+## La poesía sigue leyéndose, la pregunta sigue sin respuesta
 
-Tras la controversia de 2019 en torno a «Cuando repican las campanas» en el currículo de secundaria, el poema permaneció. «Devolvednos nuestros nombres» sigue siendo el poema emblemático del movimiento por el reconocimiento del nombre indígena. «Anda, brindemos» sigue siendo redescubierto por las nuevas generaciones de lectores de poesía taiwanesa — normalmente en círculos de amigos, librerías independientes y documentales sobre cuestiones indígenas, no en las aulas de secundaria.
+Después de la controversia curricular de 2019 sobre Cuando suenan las campanas, el poema permaneció. Restauren nuestros nombres siguió siendo el poema emblemático del movimiento indígena por la rectificación de nombres. Come, brindemos siguió siendo redescubierto por nuevas generaciones de lectores de poesía taiwanesa, por lo general en círculos de amistades, librerías independientes y documentales sobre temas indígenas, no en aulas de secundaria básica.
 
-Pero hay una cosa que en 2026 nadie ha respondido todavía de frente:
+Pero hay algo que en 2026 todavía nadie ha respondido de frente:
 
-Hace treinta y siete años, en un poemario, un ciego escribía en chino y preguntaba con un poema: «**¿El grito de autodeterminación de dieciocho millones de personas nos incluye a nosotros?**». En 1984 esa pregunta era radical; en 2026 sigue siéndolo. En estos treinta y siete años, la sociedad taiwanesa ha creado la Televisión Indígena, aprobado la Ley de Base de los Pueblos Indígenas, declarado el «Día de los Pueblos Indígenas» como fiesta nacional y consagrado el concepto de «territorio tradicional» en la legislación — todo ello es positivo, todo ello es un avance. Pero la pregunta de Monaneng no era sobre eso. Era una pregunta anterior: **¿somos miembros plenos de esta comunidad política llamada Taiwán, o somos simplemente invitados que han sido bienvenidos a entrar?**
+Hace 37 años, en aquel poemario, un ciego escribió caracteres chinos y preguntó en un poema: “**La consigna de autodeterminación de dieciocho millones de personas, ¿nos incluye a nosotros?**”. Esa pregunta era radical en 1984 y sigue siendo radical en 2026. En estos 37 años, la sociedad taiwanesa creó la Televisión Indígena de Taiwán, aprobó la Ley Básica de los Pueblos Indígenas, convirtió el Día de los Pueblos Indígenas en feriado nacional e incorporó el “territorio tradicional” al derecho. Todo eso está bien; todo eso es progreso. Pero la pregunta de Monaneng no apuntaba a eso. Preguntaba algo anterior: **¿somos miembros reales de esta comunidad política llamada Taiwán, o somos invitados a los que se permite entrar?**
 
-Esa pregunta no tiene aún respuesta. **El poema no se ha convertido en historia** — el poema sigue siendo presente.
+Esa pregunta aún no tiene respuesta. **El poema no se convirtió en historia**: el poema sigue siendo contemporáneo.
 
-Y en ese presente, el poeta ciego — doblemente ciego: físicamente no puede ver, y políticamente muchos lectores taiwaneses no están dispuestos a ver su postura — sigue ahí. Setenta años. 3 de junio de 2026: su cumpleaños. La copa de «Anda, brindemos» lleva treinta y siete años sin ser apurada.
+Y en esa contemporaneidad, aquel poeta ciego —doblemente ciego: físicamente no ve, y políticamente muchos lectores taiwaneses no quieren ver su posición— sigue ahí. Tiene 70 años; su cumpleaños es el 3 de junio de 2026. La copa de Come, brindemos lleva treinta y siete años sin vaciarse.
 
-En la última sección del poemario de 1989, «Ya no veremos la oscuridad», escribió: **«Si algún día / queremos dejar de errar por nuestra propia tierra / devolvednos primero nuestros nombres y nuestra dignidad»**. En 1995, cuando el Yuan Legislativo reformó la Ley de Nombres y los pueblos indígenas obtuvieron el derecho al registro con nombres tribales, esas palabras se cumplieron a medias. La otra mitad — «**dejar de errar por nuestra propia tierra**» — sigue siendo una pregunta abierta treinta años después. Una pregunta que un ciego escribió en chino hace treinta y siete años, y que en 2026 Taiwán todavía no ha sabido responder.
+En la última sección de aquel poemario de 1989, Ya no vemos la oscuridad, escribió una frase: **“Si algún día / queremos dejar de vagar por nuestra propia tierra / restauren primero nuestros nombres y nuestra dignidad”**. En 1995, el año en que el Yuan Legislativo reformó la Ley de Nombres y los pueblos indígenas obtuvieron el derecho a registrar sus nombres étnicos, esa frase se cumplió a medias. La otra mitad —“**dejar de vagar por nuestra propia tierra**”— sigue siendo una pregunta treinta años después. Una pregunta escrita en caracteres chinos por un ciego hace treinta y siete años; una pregunta a la que el Taiwán de 2026 aún no ha dado respuesta.
 
 ---
 
-**Lecturas relacionadas:**
+**Lecturas complementarias**:
 
-- [Chen Yingzhen](/people/陳映真) — autor del prólogo extenso «El poeta colonial en el interior de Taiwán» del poemario de 1989 de Monaneng; figura central del círculo literario izquierdista pro-unificación
-- [Historia de los pueblos indígenas de Taiwán y movimiento por el reconocimiento de nombres](/history/台灣原住民族歷史與正名運動) — historia completa del movimiento, de la Asociación por los Derechos Indígenas de 1984 a la vigilia en el bulevar Ketagalan de 2017, incluido el contexto del movimiento «Devuélvannos nuestras tierras» de 1988
-- [Prehistoria y pueblos indígenas](/history/史前時代與原住民) — el trasfondo de larga duración de los pueblos indígenas en esta isla
-- [El Incidente 228](/history/二二八事件) — el origen del discurso sobre la unificación-independencia en la Taiwán de posguerra y el telón de fondo histórico de la postura pro-unificación de Monaneng
-- [La transición democrática en Taiwán](/history/台灣民主轉型) — el contexto del levantamiento de la ley marcial en los años ochenta, el momento político en el que se inscriben los poemas de Monaneng
+- [Chen Ying-chen](/people/陳映真) — escribió para el poemario de Monaneng de 1989 el largo prólogo “Un poeta colonial dentro de Taiwán”; figura central del círculo literario de izquierda pro-unificación.
+- [Historia de los pueblos indígenas de Taiwán y movimiento por la rectificación de nombres](/history/台灣原住民族歷史與正名運動) — historia completa del movimiento, desde la Asociación por los Derechos Indígenas de 1984 hasta la acampada nocturna en Ketagalan Boulevard en 2017, incluido el contexto del movimiento Devuélvannos nuestra tierra de 1988.
+- [Prehistoria y pueblos indígenas](/history/史前時代與原住民) — contexto de larga duración de los pueblos indígenas taiwaneses en esta isla.
+- [Incidente del 28 de Febrero](/history/二二八事件) — origen de la formación del discurso sobre unificación e independencia en el Taiwán de posguerra, y trasfondo histórico de la posición de izquierda pro-unificación de Monaneng.
+- [Transición democrática de Taiwán](/history/台灣民主轉型) — contexto del levantamiento de la ley marcial en los años ochenta y momento político en que se sitúa la poesía de Monaneng.
 
-## Créditos de las imágenes
+## Fuentes de las imágenes
 
-Este artículo utiliza 3 imágenes con licencia de Wikimedia Commons, todas alojadas en `public/article-images/people/` para evitar enlazar directamente a los servidores de origen. A fecha de 3 de junio de 2026, la entrada de Wikipedia sobre Monaneng no incluye ningún retrato fotográfico con licencia CC; por ello este artículo recurre a **imágenes de contexto geográfico y cultural** en lugar de fotografías del personaje — el distrito de Daren y la cultura paiwan son los dos ejes biográficos y poéticos de la vida de Monaneng:
+Este artículo usa 3 imágenes con licencia de Wikimedia Commons, todas almacenadas en caché en `public/article-images/people/` para evitar hotlinking al servidor de origen. Según la consulta realizada el 2026-06-03, el artículo de Wikipedia sobre Monaneng aún no cuenta con un retrato con licencia CC; por ello, este texto usa **imágenes de contexto local y cultural** en lugar de un retrato de la persona: el municipio de Daren y la cultura paiwan son dos puntos de anclaje de la vida y la poesía de Monaneng.
 
-- [Distrito de Daren, condado de Taitung](https://commons.wikimedia.org/wiki/File:Daren_Township,_Taiwan.jpg) — Foto: Bernard Gagnon, 2011-06-08, CC BY-SA 3.0 (imagen principal; lugar de nacimiento de Monaneng)
-- [Actuación de canto y danza paiwan](<https://commons.wikimedia.org/wiki/File:Familieforestilling_-_Paiwan_sang_og_dans_(41534824410).jpg>) — Foto: Riddu Riđđu Festival, 2018-07-11, CC BY-SA 2.0 (contexto del origen oral de la poesía)
-- [Iglesia Presbiteriana de Daren](https://commons.wikimedia.org/wiki/File:Daren_Church,_Presbyterian_Church_in_Taiwan_20110308.jpg) — Foto: Bernard Gagnon, 2011-03-08, CC BY-SA 3.0 (nodo de la red del movimiento indígena en los años ochenta)
+- [Municipio de Daren, condado de Taitung](https://commons.wikimedia.org/wiki/File:Daren_Township,_Taiwan.jpg) — Photo: Bernard Gagnon, 2011-06-08, CC BY-SA 3.0 (hero, lugar de nacimiento de Monaneng).
+- [Canto y danza paiwan](<https://commons.wikimedia.org/wiki/File:Familieforestilling_-_Paiwan_sang_og_dans_(41534824410).jpg>) — Photo: Riddu Riđđu Festival, 2018-07-11, CC BY-SA 2.0 (contexto del origen oral).
+- [Iglesia Presbiteriana del municipio de Daren](https://commons.wikimedia.org/wiki/File:Daren_Church,_Presbyterian_Church_in_Taiwan_20110308.jpg) — Photo: Bernard Gagnon, 2011-03-08, CC BY-SA 3.0 (nodo de las redes del movimiento indígena en los años ochenta).
 
 ## Referencias
 
-[^1]: [Wikipedia en chino — Monaneng (莫那能)](https://zh.wikipedia.org/zh-tw/%E8%8E%AB%E9%82%A3%E8%83%BD) — Artículo de Wikipedia en chino (CC BY-SA), que documenta el cargo de presidente de la Liga de la Marea de Verano y la postura pro-unificación.
+[^1]: [Wikipedia — Monaneng](https://zh.wikipedia.org/zh-tw/%E8%8E%AB%E9%82%A3%E8%83%BD) — Artículo de Wikipedia en chino bajo CC BY-SA; registra su condición de presidente de la Federación Xiashao y su postura favorable a la unificación a ambos lados del estrecho.
 
-[^2]: [Revista _Observer_ n.º 103 (marzo de 2022) — Monaneng: historia colonial y olvidada de una comunidad](https://www.observer-taipei.com/book2021/item/499) — Entrevista oral de Monaneng publicada en marzo de 2022 en la revista _Observer_ (publicación pro-unificación; el lector debe tener en cuenta la línea editorial). Cita textual: «Nací en 1956 en la aldea paiwan de Aluwei, es decir, en la aldea Ansuo del distrito de Daren, condado de Taitung».
+[^2]: [Observer Magazine NO.103 (2022-03) — Monaneng: historia tribal colonizada y olvidada](https://www.observer-taipei.com/book2021/item/499) — Entrevista oral a Monaneng publicada en marzo de 2022 por Observer Magazine, de postura pro-unificación; verbatim: «1956 年生於排灣族阿魯威部落，即台東縣達仁鄉安朔村». Atención del lector a la posición de la fuente.
 
-[^3]: [Diccionario de Escritores del Museo Nacional de Literatura Taiwanesa — Monaneng (Tseng Shun-wang)](https://db.nmtl.gov.tw/site2/dictionary?id=Dictionary01588) — Entrada del Diccionario de Escritores del Museo Nacional de Literatura Taiwanesa (fuente gubernamental); documenta el nombre en chino Tseng Shun-wang (曾舜旺).
+[^3]: [Diccionario de escritores del Museo Nacional de Literatura de Taiwán — Monaneng (Tseng Shun-wang)](https://db.nmtl.gov.tw/site2/dictionary?id=Dictionary01588) — Entrada del diccionario de escritores del Museo Nacional de Literatura de Taiwán, fuente pública institucional; registra el nombre chino Tseng Shun-wang.
 
-[^4]: [_Yuánshì jiè_ — El poeta ciego que ilumina el mundo de las tinieblas, Monaneng](https://insight.ipcf.org.tw/article/407) — Entrevista de la revista _Yuánshì jiè_ (órgano oficial de la Fundación Cultural de los Pueblos Indígenas de Taiwán), que documenta los detalles de la infancia: la situación familiar, la muerte de la madre por tuberculosis, el encarcelamiento del padre y la llegada a la ciudad a los dieciséis años.
+[^4]: [Indigenous Sight — Monaneng, el poeta ciego que ilumina el mundo oscuro](https://insight.ipcf.org.tw/article/407) — Entrevista de Indigenous Sight, revista oficial de la Fundación de Cultura Indígena; registra detalles sobre su infancia, pobreza familiar, tuberculosis de la madre, prisión del padre por tala y traslado a la ciudad a los 16 años.
 
-[^5]: [Chaiwan Benpost — El Homero de Taiwán: el poeta ciego indígena Monaneng](https://chaiwanbenpost.net/article/%E5%8F%B0%E7%81%A3%E7%9A%84%E8%8D%B7%E9%A6%AC%EF%BC%9A%E5%8E%9F%E4%BD%8F%E6%B0%91%E7%9B%B2%E8%A9%A9%E4%BA%BA%E8%8E%AB%E9%82%A3%E8%83%BD/960) — Artículo académico de formato largo; documenta el engaño de 1972 (18 años), el encarcelamiento del padre por asumir la culpa de otro y la historia completa del amigo «Kalabai» desde la aldea hasta Ciudad del Cabo.
+[^5]: [Chai Wan Ben Post — El Homero de Taiwán: Monaneng, poeta indígena ciego](https://chaiwanbenpost.net/article/%E5%8F%B0%E7%81%A3%E7%9A%84%E8%8D%B7%E9%A6%AC%EF%BC%9A%E5%8E%9F%E4%BD%8F%E6%B0%91%E7%9B%B2%E8%A9%A9%E4%BA%BA%E8%8E%AB%E9%82%A3%E8%83%BD/960) — Artículo largo de estilo académico; registra detalles del engaño por traficantes de personas en 1972, cuando tenía 18 años, el encarcelamiento del padre por asumir la culpa de otra persona y el relato completo del amigo “Kalabai” en Come, brindemos, desde la comunidad hasta Ciudad del Cabo, Sudáfrica.
 
-[^6]: [Reportaje especial en Minbao — Monaneng: el poeta en la oscuridad](https://www.peoplemedia.tw) — Reportaje especial de Minbao; documenta el diagnóstico escolar de retinosis pigmentaria, el examen de ingreso superado en la Escuela de Mecánica de la Fuerza Aérea y la exclusión en el reconocimiento médico, así como la trayectoria educativa truncada.
+[^6]: [People Media — Monaneng: poeta en la oscuridad](https://www.peoplemedia.tw) — Reportaje especial de People Media; registra el descubrimiento de la retinosis pigmentaria durante el examen médico de secundaria y el fracaso del examen médico tras ingresar en la Escuela de Mecánica de la Fuerza Aérea.
 
-[^7]: [Archivo digital de Literatura Indígena de Shanhai, Ministerio de Cultura — Monaneng](https://aborigine.moc.gov.tw/home/zh-tw/writer/4568) — Entrada del Archivo Digital de Literatura Indígena de Shanhai del Ministerio de Cultura de Taiwán; documenta la venta de la hermana al prostíbulo en 1977 por un primo político y el deterioro de la vista de Monaneng durante el proceso de rescate.
+[^7]: [Archivo Digital de Literatura Indígena Shanhai Culture — Monaneng](https://aborigine.moc.gov.tw/home/zh-tw/writer/4568) — Entrada del Archivo Digital de Literatura Indígena Shanhai Culture del Ministerio de Cultura; registra que en 1977 su hermana fue vendida por el esposo de una prima a un prostíbulo y que Monaneng fue golpeado durante el rescate, lo que agravó su pérdida de visión.
 
-[^8]: Cita textual del artículo de Wikipedia en chino sobre Monaneng: «En 1979, Monaneng sufrió una conmoción cerebral a causa de un accidente de tráfico y permaneció en coma casi dos meses; al despertar, el ojo derecho estaba completamente ciego y el izquierdo conservaba una agudeza visual de 0,2» (véase nota 1).
+[^8]: Artículo de Wikipedia “Monaneng”, verbatim: «1979 年，莫那能因車禍腦震盪，在醫院昏迷了將近兩個月，醒來的時候右眼全盲、左眼視力 0.2» (misma referencia 1).
 
-[^9]: Conflicto entre fuentes sobre la edad en el momento de la ceguera: Wikipedia señala 1979 (23 años entonces); el Diccionario de Escritores del Museo Nacional de Literatura Taiwanesa escribe «a los 24 años»; la revista _Observer_ escribe «a los 26 años»; _Yuánshì jiè_ escribe «27 años». Este artículo adopta la versión «1979» del propio testimonio oral de Monaneng y documenta las divergencias entre fuentes.
+[^9]: Conflicto entre fuentes sobre la edad al perder la vista: Wikipedia indica 1979 (cuando tenía 23 años); el diccionario del Museo Nacional de Literatura de Taiwán escribe “a los 24 años”; Observer Magazine escribe “a los 26 años”; Indigenous Sight escribe “a los 27 años”. Este artículo adopta la versión autobiográfica de Wikipedia, “1979”, y señala las diferencias entre fuentes.
 
-[^10]: Cita textual del testimonio oral de Monaneng en _Observer_ en 2022: «En 1979, sufrí un accidente mientras trabajaba en una empresa de transportes; tras despertar del coma de casi dos meses, había quedado prácticamente ciego a causa de la conmoción cerebral» (véase nota 2).
+[^10]: Testimonio oral de Monaneng en Observer Magazine, 2022, verbatim: «1979 年，我在貨運行工作時發生事故，昏迷近兩個月後醒來，但因腦震盪而近於全盲» (misma referencia 2).
 
-[^11]: [Catálogo del Archivo Digital Central — entrevista con Maljaljaves Monaneng sobre su obra _Hermosas espigas de arroz_](https://catalog.digitalarchives.tw/item/00/42/38/b1.html) — Los metadatos de la entrevista del Archivo Digital de la Academia Sínica consignan el lugar de entrevista como «Consultorio de Masajes de A-neng, Taipéi».
+[^11]: [Catálogo de archivos digitales — Maljaljaves Monaneng habla sobre su obra The Beautiful Rice Ear](https://catalog.digitalarchives.tw/item/00/42/38/b1.html) — Metadatos de entrevista de Academia Sinica Digital Archives; registra el lugar de entrevista como “Taipéi, A-Neng Massage”.
 
-[^12]: El contexto de la iniciación intelectual de Monaneng con Wang Chin-ping, Su Ching-li, Chen Yingzhen y Chen Ku-ying se documenta en la entrevista de _Yuánshì jiè_ (véase nota 4), con cita textual: «Chen Ku-ying lo invitó a recuperarse en su casa durante varios meses; Monaneng leyó los numerosos libros de pensamiento de izquierda que había en la habitación».
+[^12]: Para el contexto de iniciación de Wang Chin-ping, Su Ching-li, Chen Ying-chen y Chen Ku-ying con Monaneng, véase la entrevista de Indigenous Sight (misma referencia 4), verbatim: «陳鼓應邀請他到家中養病數月，莫那能看著房內許多左翼思潮的書籍».
 
-[^13]: La participación de Monaneng en las campañas electorales de Chen Ku-ying y Chen Wan-chen para la Asamblea Legislativa y la Asamblea Nacional a finales de 1978 se documenta en el artículo de Wikipedia en chino sobre Monaneng (véase nota 1) y en la entrevista de _Yuánshì jiè_ (véase nota 4).
+[^13]: El registro de su ayuda a las campañas de Chen Ku-ying y Chen Wan-chen para legislador y representante de la Asamblea Nacional a fines de 1978 aparece en el artículo de Wikipedia sobre Monaneng (misma referencia 1) y en la entrevista de Indigenous Sight (misma referencia 4).
 
-[^14]: La historia de la declamación oral de marzo de 1984 en casa de Yang Du, la transcripción de Li Chi y la publicación en _Chūnfēng shīkān_ n.º 1 («Poemas de un indígena de montaña») y n.º 2 («Anda, brindemos») se documenta en el artículo largo de Chaiwan Benpost (véase nota 5) y en un artículo académico de Taiwan NEL Club: [twnelclub.ning.com/profiles/blogs/3917868:BlogPost:30754](http://twnelclub.ning.com/profiles/blogs/3917868:BlogPost:30754).
+[^14]: El relato de marzo de 1984 en casa de Yang Tu, con bebida y oralidad, la transcripción de Li Chi, la publicación en el primer número de Spring Wind Poetry Magazine como “Poemas de gente de las montañas” y en el segundo número como Come, brindemos, aparece en el artículo largo de Chai Wan Ben Post (misma referencia 5) y en el artículo académico de la Alianza del Frente de Literatura Taiwanesa [twnelclub.ning.com/profiles/blogs/3917868:BlogPost:30754](http://twnelclub.ning.com/profiles/blogs/3917868:BlogPost:30754).
 
-[^15]: El título del prólogo de Chen Yingzhen para _Hermosas espigas de arroz_ — «Monaneng — el poeta colonial en el interior de Taiwán» — se documenta en el artículo de Wikipedia en chino (véase nota 1) y en numerosas referencias académicas.
+[^15]: El título del prólogo de Chen Ying-chen para The Beautiful Rice Ear, “Monaneng: un poeta colonial dentro de Taiwán”, aparece en el artículo de Wikipedia (misma referencia 1) y en múltiples citas de reseñas académicas.
 
-[^16]: [Wikipedia en chino — Catástrofe de la mina de carbón Haishan](https://zh.wikipedia.org/zh-tw/%E6%B5%B7%E5%B1%B1%E7%85%A4%E7%A4%A6%E7%88%86%E7%82%B8) — Explosión de polvo de carbón en la mina de carbón Haishan de Tucheng, condado de Taipéi del Norte, el 20 de junio de 1984; 72 muertos, la mayoría mineros del pueblo amis.
+[^16]: [Wikipedia — desastre de la mina Haishan](https://zh.wikipedia.org/zh-tw/%E6%B5%B7%E5%B1%B1%E7%85%A4%E7%A4%A6%E7%88%86%E7%82%B8) — Explosión de polvo de carbón en la mina Haishan de Tucheng, condado de Taipéi, durante la madrugada del 20 de junio de 1984; 72 muertos, en su mayoría mineros amis.
 
-[^17]: La fundación de la Asociación para la Promoción de los Derechos de los Pueblos Indígenas de Taiwán en diciembre de 1984 se documenta en el artículo de Wikipedia en chino sobre Monaneng (véase nota 1) y en el artículo largo de Chaiwan Benpost (véase nota 5). Los cofundadores incluyen a Hu De-fu (胡德夫), Icyang Parod (夷將·拔路兒), Tung Chun-fa (童春發) e Ivan Nogan (伊凡·諾幹).
+[^17]: La fundación en diciembre de 1984 de la Asociación Taiwanesa para la Promoción de los Derechos de los Pueblos Indígenas se registra en el artículo de Wikipedia sobre Monaneng (misma referencia 1) y en el artículo largo de Chai Wan Ben Post (misma referencia 5); sus cofundadores incluyeron a Hu Te-fu, Icyang Parer, Tung Chun-fa e Ivan Nokan, entre otros.
 
-[^18]: El rol de Monaneng como coordinador del Comité de Promoción y del Equipo de Trabajo Comunitario en la Asociación por los Derechos Indígenas se documenta en el Diccionario de Escritores del Museo Nacional de Literatura Taiwanesa (véase nota 3).
+[^18]: El papel de Monaneng como convocante del comité de promoción y del equipo de trabajo tribal de la Asociación por los Derechos Indígenas aparece en el diccionario de escritores del Museo Nacional de Literatura de Taiwán (misma referencia 3).
 
-[^19]: La participación de Monaneng en las cuatro movilizaciones — protesta contra el templo de Wu Feng en septiembre de 1985, marcha por el rescate de jóvenes prostituidas en enero de 1988, marcha «Devuélvannos nuestras tierras» en agosto de 1988 y derribo de la estatua de Wu Feng el 31 de diciembre de 1988 — se documenta en la entrevista de _Yuánshì jiè_ (véase nota 4), con cita textual: «En las manifestaciones del derribo de la estatua de Wu Feng, el movimiento "Devuélvannos nuestras tierras" y el rescate de las jóvenes prostituidas, Monaneng siempre estaba presente con sus gafas oscuras y su bastón».
+[^19]: La participación de Monaneng en cuatro movimientos —la protesta de 1985 contra el templo de Wu Feng en Chiayi, la marcha de 1988 por el rescate de niñas prostituidas, el movimiento Devuélvannos nuestra tierra de 1988 y el derribo de la estatua de Wu Feng el 31 de diciembre de 1988— aparece en la entrevista de Indigenous Sight, verbatim: «拉倒吳鳳銅像、還我土地運動、救援雛妓等運動場合，都能看到莫那能戴著墨鏡、拄著拐杖的身影» (misma referencia 4).
 
-[^20]: La publicación de _Hermosas espigas de arroz_ por la Editorial Chenxing de Taichung en 1989 está documentada de forma consistente en múltiples fuentes. Existe conflicto entre fuentes sobre el mes exacto: Wikipedia apunta a agosto de 1989; la [entrada del Museo Nacional de Literatura Taiwanesa](https://db.nmtl.gov.tw/site2/ikm?id=527) indica «noviembre: Monaneng publica el primer poemario en chino de un escritor indígena, _Hermosas espigas de arroz_». Este artículo usa la expresión «otoño de 1989» para reflejar ambas fuentes.
+[^20]: El dato de que The Beautiful Rice Ear fue publicado en 1989 por Morning Star Publishing en Taichung coincide en múltiples fuentes. Hay conflicto sobre el mes exacto de publicación: Wikipedia indica agosto de 1989, mientras que la [entrada ikm del Museo Nacional de Literatura de Taiwán](https://db.nmtl.gov.tw/site2/ikm?id=527) registra: “noviembre, Monaneng publica el primer poemario indígena en chino, The Beautiful Rice Ear”. Este artículo usa la formulación regresiva “otoño de 1989”.
 
-[^21]: «Hermosas espigas de arroz» — originalmente titulada «Cosecha abundante» (〈豐年〉) — fue compuesta en 1958 por Lu Sen-pao (陸森寶, 1910-1988), músico del pueblo puyuma, como homenaje a los jóvenes soldados puyuma destinados al frente de Kinmen durante la batalla del Primero de Enero; Hu De-fu la popularizó en el movimiento de música folclórica de los años setenta. Monaneng la adoptó como título de su poemario paiwan.
+[^21]: La canción Beautiful Rice Ear fue originalmente Harvest Festival Song, compuesta en 1958 por Lu Sen-pao (1910-1988), compositor pinuyumayan, para reconfortar a integrantes de su pueblo destinados al frente de Kinmen durante la segunda crisis del estrecho de Taiwán; más tarde Hu Te-fu la difundió ampliamente en el movimiento de canción folk de la década de 1970. Monaneng la tomó como título de un poemario paiwan.
 
-[^22]: El prólogo de Chen Yingzhen «Monaneng — el poeta colonial en el interior de Taiwán» (莫那能 — 台灣內部的殖民地詩人) aparece en la primera edición de _Hermosas espigas de arroz_ (Editorial Chenxing, 1989) y se mantuvo en la reedición de Editorial Renjian de 2010.
+[^22]: El prólogo de Chen Ying-chen, “Monaneng: un poeta colonial dentro de Taiwán”, fue incluido en la primera edición de The Beautiful Rice Ear de Morning Star en 1989 y se conservó en la reedición de Renjian Publishing de 2010.
 
-[^23]: El premio cultural de la Fundación Atención a Taiwán en 1989 se documenta en el Diccionario de Escritores del Museo Nacional de Literatura Taiwanesa (véase nota 3).
+[^23]: La subvención cultural de 1989 de la Fundación Care Taiwan aparece en el diccionario de escritores del Museo Nacional de Literatura de Taiwán (misma referencia 3).
 
-[^24]: Los fragmentos inicial y final del poema «Devolvednos nuestros nombres» se citan textualmente de la entrevista de _Yuánshì jiè_ (véase nota 4) y de una fuente periodística complementaria. El texto íntegro puede consultarse en _Hermosas espigas de arroz_ (primera edición, Editorial Chenxing, 1989; reedición, Editorial Renjian, 2010).
+[^24]: Los pasajes inicial y final de Restauren nuestros nombres se citan verbatim de la entrevista de Indigenous Sight (misma referencia 4) y de una cita de Secret China News. El texto original del poema también aparece en The Beautiful Rice Ear (primera edición de Morning Star, 1989; reedición de Renjian, 2010).
 
-[^25]: La descripción del amigo «Kalabai» en «Anda, brindemos» — desde la aldea hasta Ciudad del Cabo, Sudáfrica — se documenta en el extracto literal del artículo largo de Chaiwan Benpost (véase nota 5). Los versos «Dieciocho millones de personas gritan su autodeterminación / pero no escuchan nuestros suspiros / La igualdad, la fraternidad, la justicia y el derecho / nos abandonaron hace tiempo» se citan en numerosos comentarios académicos.
+[^25]: El relato de Come, brindemos sobre el amigo “Kalabai”, desde la comunidad a la ciudad, el mar y la muerte lejos de casa en Ciudad del Cabo, Sudáfrica, aparece en un extracto verbatim del artículo largo de Chai Wan Ben Post (misma referencia 5). El pasaje del poema «一千八百萬人自決的口號／聽不到我們的歎息／平等和博愛、正義與公理／早將我們遺棄» aparece citado en múltiples comentarios académicos.
 
-[^26]: El anuncio del 16 de junio de 2010 de la Asociación de Escritores de China incorporando a Monaneng, Chu Hsiu-chuan (朱秀娟) y Chen Yingzhen (陳映真) como sus tres primeros miembros taiwaneses se documenta en el artículo de Wikipedia en chino sobre Monaneng (véase nota 1).
+[^26]: El anuncio del 16 de junio de 2010 por el cual la Asociación de Escritores de China incorporó a Monaneng, Chu Hsiu-chuan y Chen Ying-chen como sus tres primeros miembros taiwaneses aparece en el artículo de Wikipedia sobre Monaneng (misma referencia 1).
 
-[^27]: _Las vivencias de un indígena taiwanés_ (《一個台灣原住民的經歷》), publicado en mayo de 2010 por la Editorial Renjian (人間出版社); testimonio oral de Monaneng, transcrito y editado por Liu Meng-yi (劉孟宜) y Lü Cheng-hui (呂正惠); ISBN 978-986-6777-19-6. La imagen de la página de derechos puede consultarse en [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Copyright_page_of_A_Taiwanese_Aborigine%27s_Experience_by_Monaneng_20160525.jpg).
+[^27]: La experiencia de un indígena taiwanés fue publicada por Renjian Publishing en mayo de 2010; testimonio oral de Monaneng, grabación y organización de Liu Meng-yi, edición y revisión de Lu Cheng-hui, ISBN 978-986-6777-19-6. Imagen de la página de derechos en [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Copyright_page_of_A_Taiwanese_Aborigine%27s_Experience_by_Monaneng_20160525.jpg).
 
-[^28]: Cita textual del testimonio oral de Monaneng en la revista _Observer_ en 2022 (publicación pro-unificación; el lector debe tener en cuenta la línea editorial): «El Partido Democrático Progresista no se preocupa por los derechos de las personas de base ni de las minorías étnicas, y ha sido secuestrado por la "independencia de Taiwán" llevando al país por el camino sin salida de la división» y «cuanto más paz haya entre los dos lados del estrecho, más les conviene a los pueblos indígenas» (véase nota 2).
+[^28]: Entrevista oral de Monaneng en 2022 en Observer Magazine, publicación pro-unificación; atención del lector a la posición de la fuente. Verbatim: «民進黨並不關心底層人民與少數民族的權益，而且被『台獨』綁架走向分裂國家的死路» y «兩岸越和平，對原住民越有利» (misma referencia 2).
 
-[^29]: La controversia de 2019 en torno a la inclusión en el currículo de secundaria del poema «Cuando repican las campanas — para las hermanas indígenas víctimas» se documenta en la cobertura informativa de IPCF-TITV [del 8 de octubre de 2019](https://www.youtube.com/watch?v=0A9SOoYRQVw).
+[^29]: La controversia de 2019 por la inclusión de Cuando suenan las campanas: para las hermanas de la montaña que sufren en el programa de secundaria básica aparece en el reportaje de Indigenous TV [IPCF-TITV, 2019-10-08](https://www.youtube.com/watch?v=0A9SOoYRQVw).

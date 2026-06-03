@@ -1,282 +1,260 @@
 ---
-title: 'Predicting the Storm, Not the Fate: Taiwan and Typhoons Across Four Centuries'
-description: "On the morning of 2009's Typhoon Morakot, 71-year-old Lo Pan Chun-mei stood on her second-floor balcony and watched Mount Hsientou collapse, swallowing 462 of her relatives in Xiaolin Village. Fifteen years later, Taiwan has used six AI models to compress its 24-hour typhoon track error from 172 kilometers down to 57. But who within those 57 kilometers goes to work in the storm, and who never receives the warning — that, no forecast can predict."
-date: 2026-05-09
+title: 'Can Forecast Wind and Rain, but Not Fate: Four Hundred Years of Taiwan and Typhoons'
+description: 'On the morning Morakot struck in 2009, 71-year-old Lo Pan Chun-mei stood on a second-floor balcony and watched Mt. Xiandu collapse, swallowing 462 loved ones in Xiaolin Village. Fifteen years later, Taiwan used six AI models to cut the 24-hour typhoon-track forecast error from 172 kilometers to 57 kilometers. But within those 57 kilometers, who will go out to work in the storm, and who will not receive the warning, still cannot be predicted.'
+date: '2026-05-09'
+author: 'Taiwan.md'
 category: 'Nature'
+subcategory: '氣候與災害'
 tags:
   [
-    'Typhoon',
+    'typhoons',
     'Morakot',
     'Herb',
     'Nari',
-    'Climate Change',
-    'Typhoon Holiday',
-    'Indigenous Knowledge',
-    'Wu Derong',
-    'Wu Chun-chieh',
+    'climate change',
+    'typhoon leave',
+    'Indigenous wisdom',
+    'Wu Der-rong',
+    'Chun-Chieh Wu',
     'Lo Pan Chun-mei',
-    'AI Forecast',
+    'AI forecasting',
     'FORMOSAT-7',
   ]
-subcategory: '氣候與災害'
-author: 'Taiwan.md'
-featured: false
-lastVerified: 2026-05-09
+readingTime: '13'
+lastVerified: '2026-05-09'
+lastHumanReview: 'false'
+featured: 'false'
 translatedFrom: 'Nature/颱風.md'
-sourceCommitSha: '4407f0af'
+sourceCommitSha: '4407f0af6'
 sourceContentHash: 'sha256:b25ee135b9bea711'
 sourceBodyHash: 'sha256:c5aa7038d81fc4d3'
-translatedAt: '2026-06-03T21:02:26+08:00'
-lastHumanReview: false
-researchReport: reports/research/2026-05/颱風-rewrite-research.md
-readingTime: 13
-image: '/article-images/nature/morakot-modis-satellite-2009.jpg'
-imageCredit: 'NASA MODIS Rapid Response (Aqua)'
-imageLicense: 'Public domain (NASA)'
-imageSource: 'https://commons.wikimedia.org/wiki/File:Typhoon_Morakot_Aug_7_2009.jpg'
-sporeLinks:
-  - platform: 'threads'
-    date: '2026-06-03'
-    url: 'https://www.threads.com/@taiwandotmd/post/DZHUHpQk02w'
-    views: 0
-    likes: 0
-    reposts: 0
-    comments: 0
-    shares: 0
-  - platform: 'x'
-    date: '2026-06-03'
-    url: 'https://x.com/taiwandotmd/status/2062065024613679469'
-    views: 0
-    likes: 0
-    reposts: 0
-    comments: 0
-    shares: 0
+translatedAt: '2026-06-03T21:58:47+08:00'
 ---
 
-# Predicting the Storm, Not the Fate: Taiwan and Typhoons Across Four Centuries
+# Can Forecast Wind and Rain, but Not Fate: Four Hundred Years of Taiwan and Typhoons
 
-> **30-Second Overview:** On August 8, 2009, after three consecutive days of torrential rain, Mount Hsientou collapsed and swallowed the village of Xiaolin — 462 lives gone. Sixteen years later, Taiwan has compressed its 24-hour typhoon track forecast error from 172 kilometers in 2000 to 57 kilometers in 2025. Every day, FORMOSAT-7 transmits over 4,000 atmospheric soundings; six AI models generate a 30-day warning map in four minutes. But the moment Lo Pan Chun-mei stood on her second-floor balcony and watched her relatives disappear — no radar, however precise, could catch that. We can predict the storm. We cannot predict the fate.
+> **30-second overview:** In the early morning of August 8, 2009, after three straight days of torrential rain, Mt. Xiandu collapsed and swallowed 462 lives in Xiaolin Village. Sixteen years later, Taiwan's 24-hour typhoon-track forecast error had shrunk from 172 kilometers in 2000 to 57 kilometers in 2025. Each day, one FORMOSAT-7 satellite delivers more than 4,000 atmospheric data profiles, and six AI models generate 30 days of warning maps within four minutes. But the second Lo Pan Chun-mei stood on the second floor and watched her loved ones disappear, even the most precise radar could not catch them. We can forecast wind and rain, but not fate.
 
-## "Xiaolin Is Gone!"
+## "Xiaolin is gone!"
 
-On the morning of August 8, 2009, 71-year-old Lo Pan Chun-mei stood on her second-floor balcony.
+In the early morning of August 8, 2009, 71-year-old Lo Pan Chun-mei stood on a second-floor balcony.
 
-The mountain that had been there the day before — Hsientou Shan — had been eating rain for three straight days. It collapsed. A yellow torrent of earth and rock rushed down from the summit, swallowing the streets, the houses, and the indigenous community she had lived in all her life. All 462 of her relatives vanished into the mountains.[^1]
+Mt. Xiandu, which had looked intact the day before, collapsed under the erosion of three consecutive days of torrential rain. Earth and rock rushed down from the summit like a giant yellow dragon, swallowing streets, houses, and the community where she had spent her entire life. Her 462 loved ones disappeared into the mountains from that moment on.[^1]
 
-> **✦** "I cried until I couldn't cry anymore. Now the tears don't come so easily. We have to keep moving forward." — Lo Pan Chun-mei, reflecting on Typhoon Morakot ten years later
+> **✦** "I cried until I could not cry anymore. Now I don't shed tears as easily. We have to come through it." — Lo Pan Chun-mei, looking back ten years after Typhoon Morakot
 
-That cry of grief is the single most devastating instant in four centuries of Taiwan's struggle with typhoons. On this island, a typhoon was the poem a Penghu official wrote in 1705, the colored flags flying above a Takao harbor rooftop in 1865, the morning Xiaolin disappeared in 2009 — and also the rain in which 81% of workers simply go to work every summer.
+That cry was one of the most painful moments in Taiwan's four-hundred-year struggle with typhoons. On this land, typhoons are the lines of poetry Penghu officials wrote in 1705, the colored storm flags on the roof of a hospital in Takao Harbor in 1865, the morning Xiaolin Village disappeared in 2009, and the rain in which 81% of workers still go to work every summer.
 
-| Metric                                           | Figure                                                              |
-| ------------------------------------------------ | ------------------------------------------------------------------- |
-| Average typhoons hitting Taiwan per year         | 3.5                                                                 |
-| Typhoon contribution to annual rainfall          | nearly 50%                                                          |
-| 2024 typhoon agricultural damage                 | approx. NT\ billion (98.88% of annual agricultural disaster losses) |
-| 24-hour typhoon track forecast error (2000→2025) | 172 km → 57 km                                                      |
-| FORMOSAT-7 daily atmospheric profiles            | 4,000–5,000                                                         |
+| Indicator                                                 | Figure                                                              |
+| --------------------------------------------------------- | ------------------------------------------------------------------- |
+| Average annual number of typhoons affecting Taiwan        | 3.5                                                                 |
+| Share of Taiwan's annual rainfall contributed by typhoons | Nearly 50%                                                          |
+| Agricultural losses from typhoons in 2024                 | About NT$52 billion (98.88% of annual agricultural disaster losses) |
+| 24-hour typhoon-track forecast error (2000->2025)         | 172 km -> 57 km                                                     |
+| Daily atmospheric profile data from FORMOSAT-7            | 4,000-5,000 profiles                                                |
 
-## The Colored Flags of Takao, to 1,094 Millimeters on Alishan
+## From Takao's Colored Storm Flags to Alishan's 1,094 Millimeters
 
-Taiwan's history of confronting typhoons is older than the Republic of China itself.
+Taiwan's history of facing typhoons is far older than the Republic of China.
 
-During the Qing dynasty's Tongzhi period (around 1865), the British hung wind-and-rain colored signal flags on the roof of the MacKay Hospital in Takao (present-day Kaohsiung) — Taiwan's earliest meteorological warning system. The colors indicated wind intensity levels; ships watching the flags would know whether it was safe to put to sea.[^6]
+During the Qing dynasty's Tongzhi era, around 1865, the British hung colored wind-and-rain flags on the roof of the Takao Hospital in Takao, today's Kaohsiung. This was Taiwan's earliest meteorological warning system. The colors of the flags represented different wind-force levels, letting ships know whether they should go to sea.[^6]
 
-One hundred and sixty years earlier, in 1705 in Penghu, an official named Sun Yuan-heng witnessed a typhoon firsthand and wrote 85 lines of verse titled "Song of the Hurricane": "Autumn winds rise overnight in raging squall — the hurricane's mother comes from the west, proud in fury."[^35] Three hundred years later, his lines still get shared in some Facebook post every time a typhoon approaches.
+One hundred and sixty years earlier, in Penghu in 1705, official Sun Yuan-heng personally witnessed a hurricane. He wrote the 85-line "Song of the Hurricane": "Autumn wind rose overnight in a mad gale; the hurricane mother came west, haughty in rage."[^35] Three centuries later, before each typhoon arrives, his lines still get reread somewhere in a Facebook post.
 
-Fast-forward to July 31, 1996. Typhoon Herb struck Taiwan. Alishan recorded 1,094.5 millimeters of rainfall in a single day — the equivalent of Taipei's _annual_ rainfall, dumped in 24 hours.[^5] It was the highest reading since the weather station opened in 1933. PTT users recalled years later: "Herb directly flooded the ground floor of my home." Another: "My father's fish pond and farmland, most of it washed away."[^5] Herb was nicknamed the "921 of typhoons," with total damages estimated at NT\–30 billion.
+Jump forward to July 31, 1996. Typhoon Herb struck Taiwan, and Alishan received 1,094.5 millimeters of rain in a single day. That is equivalent to Taipei City's "annual" rainfall pouring down in one day.[^5] It was the first such event since the weather station was established in 1933. Years later, one PTT user recalled: "Typhoon Herb directly flooded my first-floor home." Another said: "Most of the fish ponds and farmland my father had worked for all his life were carried away."[^5] Herb was called "the 921 earthquake of typhoons," with total losses of about NT$25 billion to NT$30 billion.
 
-Five years later, in September 2001, Typhoon Nari moved through Taiwan on a bizarre trajectory, stalling for 49 hours. Taipei's weather station recorded 425 millimeters in a single day — the highest in the station's 105-year history.[^2] The Bannan Line of the Taipei Metro shut down entirely; 16 stations and the depot flooded. Bannan Line section manager Hu Tsung-li fled with his keys and a few hundred thousand in petty cash while all 12 of his stations submerged overnight. Beihu Bishan residents had spent a year building up their recycling program — one typhoon wiped out 150,000 tons of recyclables and paralyzed the entire system.[^2]
+Five years later, in September 2001, Typhoon Nari stalled over Taiwan for 49 hours along an eerie track. Taipei weather station recorded 425 millimeters of rainfall in one day, the station's highest figure in 105 years.[^2] The entire Bannan Line of Taipei Metro stopped running, and 16 stations and depots were completely flooded. Hu Tsung-li, a former Bannan Line section chief, escaped with keys and several hundred thousand dollars in working cash; overnight, all 12 stations under his management were submerged. Residents of Bishan Village in Neihu had spent a year promoting resource recycling; when the storm disaster arrived, 150,000 tons of garbage completely paralyzed the entire recycling system.[^2]
 
-From a civil servant's poem in 1705 to flooded MRT stations in 2001, the details recorded are different — but they all record the same event: this island never knows where it will break when the typhoon comes.
+From the poem of 1705 to the metro system of 2001, the recorded details differ, but what they record is the same thing: when a typhoon arrives, this country does not know where it will break.
 
-## The "Guardian Mountain" Is a Pressure Cooker, Not a Shield
+## The "Sacred Mountain Protecting the Nation" Is a Pressure Amplifier, Not a Barrier
 
-Whenever a typhoon approaches from the east, Taiwanese instinctively look toward the Central Mountain Range — averaging over 3,000 meters — which locals affectionately call the "Guardian Mountain," grateful for how it weakens typhoons before they reach the western plains.
+Whenever a typhoon approaches from east to west, people in Taiwan habitually look toward the Central Mountain Range, whose average elevation exceeds 3,000 meters. Popular speech calls it the "sacred mountain protecting the nation," thanking it for weakening typhoons and protecting the western half of Taiwan.
 
-Meteorological Agency former forecast center director Wu Derong has publicly rebutted this idea many times.[^3]
+Wu Der-rong, former director of the Central Weather Bureau's Forecast Center, has publicly refuted this claim many times.[^3]
 
-> "If Taiwan were flat, the rainfall from Morakot would have been 'incomparably smaller.' It is precisely because of the towering terrain that warm, moist air is forced to rise — which pours extreme rainfall onto the windward slopes."
+> "If Taiwan were flat, the rainfall Morakot brought would have been a world apart. It was precisely the towering terrain forcing warm, moist air upward that produced extreme rainfall on the windward side."
 
-Scientific data backs him up. Typhoon Herb's three-day total rainfall on Alishan reached 1,994 millimeters — nearly two thousand millimeters. Morakot's total rainfall on Alishan broke 3,000 millimeters, a historical record.[^5] How could that possibly be "blocked by the divine mountain"? It was _squeezed out_ by the mountain. The range turns wind into water and dumps it on the windward side.
+Scientific data support his judgment. Typhoon Herb's three-day total rainfall at Alishan reached 1,994 millimeters, nearly 2,000 millimeters. Morakot's total rainfall at Alishan exceeded 3,000 millimeters, setting a historical record.[^5] How could these figures mean the storm was "blocked by the sacred mountain"? They were squeezed out by it. The mountains turn wind into water and dump it on the windward side.
 
-> 📝 **Editor's note**
+> **📝 Curator's Note**
 >
-> The "Guardian Mountain" label is fundamentally the perspective of western plains residents. For mountain communities on the windward side, the Central Mountain Range is a pressure cooker — wind gets squeezed into water and pours down on them. In the same typhoon, western plains residents thank the range for blocking the wind; the mountain communities shoulder the two thousand millimeters alone. This geographic question of "who benefits, who bears the cost" foreshadows the same fault line that runs through every typhoon story that follows.
+> The title "sacred mountain protecting the nation" is, at its core, the perspective of residents on the western plains. For the mountain areas on the windward side, the Central Mountain Range acts as a pressure amplifier: wind is squeezed into water and poured onto the windward slope. In the same typhoon, the western half thanks the mountains for blocking the wind, while mountain communities bear the 2,000 millimeters of rain squeezed out by them alone. This geographic pattern of "who benefits, who bears the cost" foreshadows the same fault line that appears in every later typhoon story.
 
-When the typhoon circulation crosses the range and descends on the leeward side, it often triggers the Foehn effect — hot, dry air that spikes temperatures in Taitung and Taichung, causing severe crop damage.[^5]
+When a typhoon's circulation crosses the mountains and descends, it often triggers hot, dry foehn winds on the leeward side. In Taitung and Taichung, temperatures surge after typhoons, severely damaging crops.[^5]
 
-## Fewer but Fiercer: Every Typhoon a Potential Annual Catastrophe
+## Fewer but Stronger: One to Two Typhoons a Year, Each an Extreme Event
 
-Taiwan's statistics from 1951 to 2023 show six years with no typhoon forming before May. Between 2020 and 2022, the island recorded three consecutive years with no typhoon making landfall.[^1]
+Taiwan's statistics from 1951 to 2023 show that in six years, no typhoon formed before May. From 2020 to 2022, Taiwan also set a record of three consecutive years without a typhoon landfall.[^1]
 
-But behind this trend of "fewer typhoons" is a more alarming shift.
+But behind this "fewer and fewer" trend is an even more worrying transformation.
 
-The Research Center for Environmental Changes (RCEC) at Academia Sinica, collaborating with National Taiwan Normal University and using the HiRAM high-resolution cloud model, projects:[^1] by the end of this century (2080–2099), Taiwan may be affected by only 1–2 typhoons per year — but the proportion of Category 4 or stronger typhoons will increase by over 150%, typhoon rainfall intensity will increase by 40%, and landfall wind speeds will increase by 10%.
+The Research Center for Environmental Changes (RCEC) at Academia Sinica and National Taiwan Normal University used the high-resolution HiRAM cloud-resolving model to simulate future trends:[^1] by the end of this century, from 2080 to 2099, typhoons affecting Taiwan may number only one or two per year, but the share of Category 4 or stronger typhoons will increase by more than 150%, typhoon rainfall intensity will increase by 40%, and landfall wind speed will increase by 10%.
 
-| Metric                      | Present (baseline 1979–2015) | Mid-century (2040–2059) | Late century (2080–2099) |
-| --------------------------- | ---------------------------- | ----------------------- | ------------------------ |
-| Annual typhoon count        | 4–5                          | 3–4                     | 1–2                      |
-| Category 4+ typhoon share   | baseline                     | +105%                   | +150%+                   |
-| Typhoon rainfall intensity  | baseline                     | +20%                    | +40%                     |
-| Typhoon landfall wind speed | baseline                     | +8%                     | +10%                     |
+| Indicator                                    | Present (baseline 1979-2015) | Mid-21st century (2040-2059) | Late 21st century (2080-2099) |
+| -------------------------------------------- | ---------------------------- | ---------------------------- | ----------------------------- |
+| Number of typhoons affecting Taiwan annually | 4-5                          | 3-4                          | 1-2                           |
+| Share of Category 4+ typhoons                | Baseline                     | +105%                        | +150%+                        |
+| Typhoon rainfall intensity                   | Baseline                     | +20%                         | +40%                          |
+| Typhoon landfall wind speed                  | Baseline                     | +8%                          | +10%                          |
 
-The research also found that 6.5% of Morakot's extreme rainfall was amplified by anthropogenic climate change.[^1] Without global warming, Mount Hsientou might not have collapsed on that particular morning. This is a specific number connecting a typhoon directly to global temperature rise — accepted by the scientific community.
+The study also found that 6.5% of Typhoon Morakot's extreme rainfall was amplified by human-induced climate change.[^1] Without global warming, Mt. Xiandu might not have collapsed on that morning. This is a concrete number by which academia directly connected one typhoon to a warming planet.
 
-![A village in Minxiong, Chiayi, flooded after Typhoon Morakot's heavy rains on August 9, 2009 — murky brown water submerging roads and the ground floors of homes, with people wading through the flood in the distance](/article-images/nature/morakot-minxiong-flood-2009.jpg)
-_August 9, 2009, Minxiong, Chiayi. Morakot moved slowly; days of relentless rain poured into this village. That 6.5% amplified by climate change — this is what it became. Photo: zilupe, [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg)._
+![A village in Minxiong, Chiayi, flooded after Morakot's torrential rain on August 9, 2009; muddy water covers roads and enters the first floors of homes, while people wade through water in the distance](/article-images/nature/morakot-minxiong-flood-2009.jpg)
+_On August 9, 2009, in Minxiong, Chiayi, Morakot moved slowly, and days of torrential rain poured into this village. The rain amplified by that 6.5% from climate change ultimately became water like this. Photo: zilupe, [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg)._
 
-"Fewer but fiercer" overturns past disaster preparedness logic. The old assumption: "several will come every year, so distribute resources accordingly." The new assumption: "the whole summer might be quiet, but when one does come, it will carry the destruction of a whole year." One typhoon becomes one annual extreme event.
+"Fewer but stronger" overturns the old logic of disaster prevention. In the past, resources were allocated on the assumption that "several will come every year." The new premise is: "The whole summer may be quiet, but when that one comes, we have to withstand an entire year's worth of destruction." One typhoon becomes an annual extreme event.
 
-## Storm Chasers: Taiwan Flying Into the Eye
+## The People Who Chase Wind: Taiwan Returning from the Eye of the Typhoon
 
-Humanity's tools for facing typhoons have evolved from the colored flags of 1865 to AI in 2025. On that trajectory stands National Taiwan University professor Wu Chun-chieh.
+Human tools for facing typhoons have evolved from colored flags in 1865 to AI in 2025. Along this trajectory stands a National Taiwan University professor named Chun-Chieh Wu.
 
-Starting in 2002, he led "Dropwindsonde Observations for Typhoon Surveillance near the TAiwan Region" (DOTSTAR) — Asia's first large-scale typhoon research program. The first operational chase was on September 1, 2003, during Typhoon Dujuan. Through the end of 2012, the team completed 49 typhoon observations across 64 flights, deployed 1,051 dropwindsondes, and flew a combined 334 hours. That first-hand data reduced average 24–72 hour typhoon track forecast errors by 20%.[^9]
+Beginning in 2002, he led "Dropwindsonde Observations for Typhoon Surveillance near the Taiwan Region" (DOTSTAR), commonly called the typhoon-chasing project, Asia's first large-scale typhoon research program. On September 1, 2003, with Typhoon Dujuan, the team formally chased a typhoon for the first time. By the end of 2012, they had completed observation missions for 49 typhoons across 64 flights, released 1,051 dropwindsondes, and logged 334 flight hours. These first-hand data reduced the average error in 24- to 72-hour typhoon-track forecasts by 20%.[^9]
 
-Wu Chun-chieh described being inside the eye in the first person:
+Chun-Chieh Wu described, in the first person, how it felt to be inside a typhoon's eye:
 
-> "I grew up in Taitung, and I've chased typhoons. You first feel the north wind — because typhoons rotate counter-clockwise — then suddenly there's no wind, and that means you're in the eye. A few tens of minutes later the south wind picks up, and that means the eye has passed."
+> "I grew up in Taitung, and I have chased them. You first feel the northerly wind, because a typhoon rotates counterclockwise, and then suddenly there is no wind. That means you are inside the typhoon eye. Several dozen minutes later, a southerly wind begins to blow. That means the eye has already passed over you."
 
-But chasing typhoons is only part of Taiwan's typhoon observation picture. In 1998, Taiwan became the first country in the world to use an Aerosonde unmanned aircraft to observe typhoons.[^10] After the US banned Aerosonde exports in September 2001, Taiwan became the last country in the world to still own and operate the system.
+But storm chasing is only one part of Taiwan's typhoon-observation map. In 1998, Taiwan became the first country in the world to use Aerosonde unmanned sounding aircraft to observe typhoons.[^10] After the United States banned Aerosonde exports in September 2001, Taiwan became the last country to possess and use the system.
 
-FORMOSAT-7, launched June 25, 2019, elevated the observation angle from the troposphere to space.[^11] Six small satellites, in partnership with US NOAA, provide 4,000–5,000 atmospheric profile data points daily — roughly 80% penetrating to below 1 kilometer altitude, twice the coverage of the previous FS3/COSMIC system.
+FORMOSAT-7, launched on June 25, 2019, lifted the observation angle from within the stratosphere into space.[^11] Six small satellites, in cooperation with the U.S. National Oceanic and Atmospheric Administration (NOAA), provide 4,000 to 5,000 atmospheric profile datasets per day. About 80% of them can penetrate below an altitude of 1 kilometer, twice the figure of the older FS3/COSMIC system.
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
   <iframe src="https://www.youtube.com/embed/PsYcjcHiGtU" title="太空中心量能宣傳片─獵風者衛星（國家太空中心 TASA）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-_Taiwan Space Agency (TASA) promotional film: following FORMOSAT-7, Taiwan's homegrown TRITON satellite is dedicated to measuring ocean surface winds — pushing the island's ability to watch typhoons one step further into space._
+_Taiwan Space Agency (TASA) promotional video: after FORMOSAT-7, Taiwan's domestically built Triton satellite was designed specifically to measure sea-surface wind fields, pushing this country's eyes on typhoons another step forward._
 
-By 2025, the Meteorological Agency integrates data from US, Taiwan, and Japan into 18 track predictions using six AI models. The 24-hour track forecast error fell from 172 km in 2000 to 57 km — a 67% improvement in 25 years. AI models can generate 30-day warning data in 4 minutes, 900 times faster than traditional methods.[^11]
+By 2025, the Central Weather Administration was using six AI models to integrate data from the United States, Taiwan, and Japan into 18 predicted tracks. The 24-hour track forecast error fell from 172 kilometers in 2000 to 57 kilometers, an improvement of about 67% over 25 years. AI models can generate 30 days of warning data within four minutes, 900 times faster than traditional methods.[^11]
 
-| Technology                             | Key Data                             | Disaster Preparedness Impact                |
-| -------------------------------------- | ------------------------------------ | ------------------------------------------- |
-| DOTSTAR (drone surveillance)           | 64 flights, 1,051 dropwindsondes     | 24–72h track forecast error reduced 20%     |
-| FORMOSAT-7 (satellite)                 | 4,000–5,000 atmospheric profiles/day | 80% penetrate below 1km, 2× previous system |
-| NCU unmanned aircraft                  | IP65 waterproof, 3,000m altitude     | 1,000+ observation sorties                  |
-| AI weather models (HuaFeng + 5 others) | 30-day forecast in 4 minutes         | 24h track error from 172km to 57km          |
+| Technology                                            | Key Data                                 | Significance for Disaster Prevention                 |
+| ----------------------------------------------------- | ---------------------------------------- | ---------------------------------------------------- |
+| Typhoon-chasing project (aircraft)                    | 64 flights, 1,051 dropwindsondes         | 20% reduction in 24- to 72-hour track forecast error |
+| FORMOSAT-7 (satellite)                                | 4,000-5,000 atmospheric profiles per day | 80% penetrate below 1 km, twice the old system       |
+| National Central University drones                    | IP65 waterproofing, 3,000-meter altitude | 1,000+ observation missions                          |
+| AI weather models (including HuaFeng and five others) | 30-day forecasts generated in 4 minutes  | 24-hour track error reduced from 172 km to 57 km     |
 
-From colored flags to a 4-minute 30-day forecast — 160 years of accumulated precision is enough to let the government deploy emergency supplies 72 hours ahead, enough to let farmers harvest their bananas a week early. But precision ultimately lives on a map. The map tells you where a typhoon will make landfall; it cannot tell you who on the street where it lands is still expected to show up for work.
+From colored storm flags to predicting 30 days in four minutes, the accuracy accumulated over these 160 years is enough for the government to deploy rescue supplies 72 hours in advance, and enough for farmers to harvest bananas a week early. But precision ultimately belongs to the map. A map tells you where a typhoon will make landfall. It cannot tell you who on that street will have to go to work as usual.
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
   <iframe src="https://www.youtube.com/embed/grDcqNrZISA" title="AI 天氣模型，預測颱風路徑更精準？《科技 Tech 好聊》EP.4（DIGITIMES）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-_DIGITIMES "Tech Talk" EP.4: how AI models pushed typhoon track forecast error all the way down to 57 kilometers._
+_DIGITIMES Tech Talk EP.4: how AI models pushed typhoon-track forecast errors all the way down to 57 kilometers._
 
-## NT\.5 Billion a Day — Who Pays?
+## The NT$31.5 Billion Price: Who Pays?
 
-Typhoons also gave Taiwan a uniquely local institution: the typhoon day off.
+Typhoons have also produced a distinctive Taiwanese institution: typhoon leave.
 
-That institution was born from a tragedy. On July 30, 2001, during Typhoon Toraji, Xu Bi-lan, a teacher at Beigang Elementary School in Changhua, fell into a drainage ditch while protecting her students and died. Then-president Chen Shui-bian personally visited the memorial hall. Twelve years later in 2013, the relevant regulations were formally renamed the "Measures Governing Work and School Suspension Due to Natural Disasters."[^22]
+The system began with a tragedy. On July 30, 2001, during the assault of the moderate Typhoon Toraji, teacher Hsu Pi-lan of Qingshan Elementary School in Changhua County died in the line of duty after accidentally falling into a drainage ditch while protecting students. Then-president Chen Shui-bian personally went to the mourning hall to pay tribute. Twelve years later, in 2013, the original operational guidelines were renamed the "Regulations Governing the Suspension of Work and Classes Due to Natural Disasters."[^22]
 
-> **✦** "Every time school and work suspension is called for one day, the impact exceeds NT\.5 billion."
+> **✦** "Each day of suspended work and classes has an impact exceeding NT$31 billion."
 
-This figure originated in a 2005 op-ed by former Environment Minister Peng Chi-ming, later recalculated by Three-Three Association chairman Lin Po-feng using 2023 GDP data to arrive at a net daily loss of approximately NT\.5 billion.[^4]
+This claim originated in a 2005 op-ed by former environment minister Peng Chi-ming. It was later recalculated by Lin Por-fong, chair of the Third Wednesday Club, using 2023 GDP data, producing an estimated net loss of about NT$31.5 billion per day.[^4]
 
-But this arithmetic has a structural problem it leaves out. A yes123 survey of 1,330 workers found that 81% had gone to work during a typhoon day, with 65% ordered by their supervisors. An FTNN News survey found that 53.5% of workers received their full pay, but 37.7% received nothing at all.[^7] Civil servants and office workers waited at home for the suspension announcement; workers in wholesale, retail, agriculture, fisheries, and food service went out into the same typhoon.
+But this arithmetic misses a structural problem. A yes123 job bank survey of 1,330 workers found that 81% had gone to work as usual on typhoon days, and 65% of them did so at a supervisor's request. An FTNN News survey showed that 53.5% of workers still received full pay, while 37.7% received no pay at all.[^7] Civil servants and white-collar office workers wait at home for leave announcements, while workers in wholesale and retail, agriculture, fisheries, animal husbandry, and food service keep going out in the same typhoon.
 
-> 📝 **Editor's note**
+> **📝 Curator's Note**
 >
-> The typhoon day story and the "Guardian Mountain" story are actually two versions of the same story. The mountain turns wind into water — whose houses does that water fall on? The suspension announcement gives a holiday to whom, and leaves out whom? In the same typhoon, the rainfall on the map is uniform, but the people bearing the cost are anything but.
+> The story of typhoon leave and the story of the "sacred mountain protecting the nation" are actually two versions of the same story. The mountains turn wind into water, but onto whose houses does that water pour? Work-suspension announcements give leave to whom, and leave whom out? In the same typhoon, the rainfall on the map is uniform, but the people who bear the cost never are.
 
-The full class breakdown of typhoon day inequality, the blind spots in the NT\.5 billion arithmetic, and the situation of migrant workers — these are a separate story, covered in the [Typhoon Day](/Society/颱風假) article.
+The full class distribution of typhoon leave, the blind spots behind the NT$31.5 billion arithmetic, and the situation of migrant workers are a separate story, told in the article [Typhoon Leave](/Society/颱風假).
 
-## The Tribal Weather Station: Ancient Wisdom as the Last Safety Net
+## Tribal Weather Stations: Thousand-Year Wisdom as the Last Safety Net
 
-Technology is not Taiwan's only way of predicting typhoons.
+Technology is not Taiwan's only way of forecasting typhoons.
 
-In the Shendao community of Laiyi Township, Pingtung County, Paiwan tribal elders predict weather changes by observing natural phenomena. A rainbow appearing in the direction of the rising sun means the typhoon will weaken; appearing toward the setting sun, it will draw the typhoon in. Large numbers of crabs crawling onto land, ant nests relocating en masse, earthworms surfacing in large numbers — all are signals that a typhoon or earthquake is coming.[^12]
+In the Kabalelradhane community in Laiyi Township, Pingtung County, Paiwan elders judge weather changes by observing natural phenomena. If a rainbow appears in the direction of sunrise, a typhoon will weaken; if a rainbow appears in the direction of sunset, it will bring in a typhoon. Large numbers of crabs climbing onto land, mass movements of ant nests, and earthworms emerging in great numbers are all signals that a typhoon or earthquake is approaching.[^12]
 
-During Typhoon Morakot in 2009, members of the Kakanami (Shendao) community in Taitung County noticed that the river water had turned murky, warning of landslide risk — and evacuated the entire village in time.[^12] That year, 462 lives in Xiaolin were not saved by any satellite. But the people of Kakanami survived because of a turbid stream.
+During Typhoon Morakot in 2009, members of the Kakanami community in Taitung County noticed that creek water had turned muddy, warning of landslide risk and evacuating the entire village in time.[^12] That year, no satellite saved the 462 lives in Xiaolin Village. But the people of Kakanami survived because of one muddy creek.
 
-The Amis people of Gangkou Tribe in Fengbin, Hualien have their own ocean-reading wisdom. North winds blow before a typhoon arrives; south winds prevail after it passes. If black rocks are covered by large waves, the typhoon will sweep through that area. The place names of the Tao people on Orchid Island encode disaster risk knowledge: "Ji-Rako a Poas" marks a zone of major landslides; "Ji-Igang" marks a flood danger zone.[^12] The Tao's traditional semi-underground architecture outperformed modern concrete buildings during Morakot and Typhoon Tembin.
+Amis people in the Makelahay community of Fengbin, Hualien, have their own ocean-watching knowledge. Before a typhoon arrives, northerly winds blow; after it passes, southerly winds are more common. If the dark rocks are covered by large waves, it means a typhoon will sweep through the area. On Orchid Island, Tao place names encode knowledge of disaster risk. "Ji-Rako a Poas" denotes an area of large-scale landslides, while "Ji-Igang" denotes a flood-danger zone.[^12] The Tao people's traditional semi-subterranean houses performed better than modern concrete buildings during Morakot and Typhoon Tembin.
 
-National Chengchi University professor Guan Da-wei's research notes that indigenous traditional weather prediction, while less precise than modern instruments, reflects centuries of observing nature and coexisting with the environment.[^14] In scenarios where AI models fail or edge mountain areas have no network coverage, this knowledge may be the last safety net.
+Research by National Chengchi University professor Da-Wei Kuan indicates that although Indigenous traditional weather forecasting is not as precise as modern instruments, it reflects the wisdom of long-term observation of nature and coexistence with the environment.[^14] When AI models miss the mark, or when remote mountain areas have no internet coverage, this knowledge may be the last safety net.
 
-Four hundred years ago, Sun Yuan-heng read the sky and wind in Penghu; three hundred years later, Tao elders read the river's color to assess landslide risk; today the Meteorological Agency uses AI to calculate 30-day warnings. Three systems operate in layers. When the map's precision closes in to 57 kilometers, what actually protects people inside those 57 kilometers may still be a turbid stream.
+Four hundred years ago, Sun Yuan-heng watched the sky and wind in Penghu. Three hundred years later, Tao elders read the color of creek water to judge landslides. Today, the Central Weather Administration uses AI to calculate 30 days of warnings. The three systems are layered on top of one another. When the precision on the map has been pushed to 57 kilometers, what actually protects people within those 57 kilometers may still be that muddy creek.
 
-## Xiaolin at Fifteen: From Collapse to Ancient Song
+## Xiaolin Fifteen Years Later: From Collapse to Ancient Songs
 
-2024. The 15th anniversary of Typhoon Morakot.
+In 2024, Typhoon Morakot's devastation marked its fifteenth anniversary.
 
-Pan Yuan-ming, chairman of the Xiaolin Community Development Association, returned to the memorial shrine. He changed the offering flowers from sunflowers to chrysanthemums — symbolizing long life, expressing the wish that ancestors hope their descendants live well.[^1]
+Pan Yuan-ming, chair of the Xiaolin Community Development Association, returned to the memorial shrine. He changed the flowers used for offerings from sunflowers to chrysanthemums, which symbolize longevity and suggest that the ancestors hope their descendants will live well.[^1]
 
-> "Because it was a typhoon day, everyone had fear in them, afraid to come back here."
+> "Because it was a typhoon day, everyone carries fear and does not dare come back here."
 
-Five Li Pu permanent housing — 90 units built by the Red Cross for Xiaolin survivors — has an occupancy rate of only 30–40%. Livelihood is difficult, and the younger generation keeps leaving.[^19] But some young people have chosen a different path.
+The permanent housing at Wulipu consisted of 90 new homes built by the Red Cross for Xiaolin villagers, but the occupancy rate is only 30% to 40%. Making a living is difficult, and younger generations continue to leave.[^19] Yet some young people chose a different path.
 
-Wang Min-liang (A-Liang), director general of the Nji-Gushan Xiaolin Community Development Association, founded the Damajia Dance Troupe in 2011, leading Xiaolin people through ancient songs and dance to heal from trauma. The troupe won recognition at the 2019 Golden Melody Awards for Traditional Arts and Music.[^1] Five-year-old Pang Si-chi had listened to her mother singing ancient songs constantly: "I just kept listening, kept listening — I learned it by hearing Mom sing!"
+Wang Min-liang, known as A-liang, secretary-general of the Sunshine Xiaolin Community Development Association, founded the Daman Dance Troupe in 2011, leading Xiaolin people through grief by way of ancient songs and dance. The troupe was recognized at the 2019 Golden Melody Awards for Traditional Arts and Music.[^1] Five-year-old Bang Szu-chi had always listened to her mother sing ancient songs. She said: "Listening and listening, listening to Mom sing, then I learned it!"
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
   <iframe src="https://www.youtube.com/embed/j9T4xC5lzBo" title="【八八風災】莫拉克十年系列報導-我眼所見即是天地｜重建記憶中的小林村、杉林社區（公視 我們的島 第1016集 2019-08-12）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-_PTS "Our Island" Episode 1016 (2019-08-12): ten years after Morakot, the Damajia Dance Troupe sings the memory of Xiaolin Village back into existence, one ancient melody at a time._
+_Public Television Service's Our Island, Episode 1016 (2019-08-12): ten years after Morakot, the Daman Dance Troupe uses ancient songs to "plant home back" into the remembered Xiaolin Village, line by line._
 
-In a 2019 interview marking the tenth anniversary of Morakot, survivor Weng Jui-chi had rebuilt a family with neighbor Yang Mei-lu, who had also lost relatives, in the Five Li Pu permanent housing. He said: "Life has to go on."[^20]
+In interviews marking Morakot's tenth anniversary in 2019, survivor Weng Jui-chi formed a new family in the Wulipu permanent housing with his neighbor Yang Mei-lu, who had also lost relatives. He said: "Life still has to go on."[^20]
 
-> 📝 **Editor's note**
+> **📝 Curator's Note**
 >
-> The Xiaolin Village story reveals a paradox of the typhoon era: modernization has moved more people out of risk zones, but cultural roots have frayed along with the move. The Damajia Dance Troupe's attempt to "replant home" through ancient song is answering a more fundamental question — when the physical homeland can never be returned to, where should the cultural homeland be built? This connects to the core idea behind Taiwan's 335 community-based disaster prevention programs: save your own community yourself. Promoted by the Water Resources Agency since 2010, by 2015 this initiative had established 335 communities — from Yilan's Meizhou and Keelung's Dingxiang to Yunlin's Huli Liren — each neighborhood organizing its own early warning and rescue network.[^15]
+> Xiaolin Village's story reveals a paradox of the typhoon era: modernization allows more people to move away from high-risk areas, but cultural roots are also severed in the process. The Daman Dance Troupe's attempt to "plant home back" through ancient songs answers a more fundamental question: when the physical hometown can no longer be returned to, where should the cultural hometown be built? This is in fact the same core idea behind Taiwan's 335 autonomous disaster-prevention communities: saving one's own homeland oneself. This project, promoted by the Water Resources Agency under the Ministry of Economic Affairs since 2010, had established 335 communities by 2015, from Meizhou in Yilan and Dingxiang Village in Keelung to Liren in Huwei, Yunlin. Each village or neighborhood organizes its own warning and rescue network.[^15]
 
-Typhoons will keep coming. AI models will keep improving. But what Xiaolin's fifteen years tells Taiwan is this: no matter how accurate the technology, reconstruction still depends on the relationships washed apart and then pieced back together — between people, between people and land, between the living and the dead.
+Typhoons will keep coming. AI models will keep improving. But fifteen years after Xiaolin, what the village tells Taiwan is this: however accurate technology becomes, reconstruction still depends on relationships washed apart and pieced back together again: between people, between people and land, and between the living and the dead.
 
-## Predicting the Storm, Not the Fate
+## Can Forecast Wind and Rain, but Not Fate
 
-The typhoon track forecast error has been compressed from 172 kilometers to 57.
+The typhoon-track forecast error has shrunk from 172 kilometers to 57 kilometers.
 
-But on that morning in 2009, the instant Lo Pan Chun-mei stood on her second floor and watched Mount Hsientou collapse, watched 462 relatives disappear from her sight — no forecast precise to any scale could have reached her in time.
+But on that morning in 2009, when Lo Pan Chun-mei stood on the second floor and watched Mt. Xiandu collapse, watched 462 loved ones disappear from her sight, no forecast at any scale could have arrived in time.
 
-We can predict the storm. We cannot predict the fate.
+We can forecast wind and rain, but not fate.
 
 ## Further Reading
 
-- [Typhoon Day](/Society/颱風假) — Same typhoon, public sector workers at home, retail and logistics workers still out. The class fault line hidden in the NT\.5 billion arithmetic
-- [Taiwan's Climate Crisis and Net-Zero Transition](/Nature/台灣氣候危機與淨零轉型) — Behind the 40% increase in typhoon rainfall intensity lies the larger context of global warming and Taiwan's energy transition
-- [Taiwan's Alpine Ecosystems and Glacial Relicts](/Nature/台灣高山生態系與冰河孑遺) — The Central Mountain Range doesn't just redirect typhoon paths — it is home to the world's highest-elevation ecosystems
-- [Plum Rain Season](/Nature/梅雨) — Beyond typhoons, the plum rain season is Taiwan's other major rainy season, equally affected by climate change
-- [Outlying Islands and Ocean Culture](/Geography/離島與海洋文化) — The Tao people's traditional architecture and place name knowledge carry unique disaster prevention value in the typhoon era
+- [Typhoon Leave](/Society/颱風假) — In the same typhoon, public-sector white-collar workers stay home while wholesale and retail workers go out. The class fracture missing from the NT$31.5 billion arithmetic
+- [Taiwan's Climate Crisis and Net-Zero Transition](/Nature/台灣氣候危機與淨零轉型) — Behind the 40% increase in typhoon rainfall intensity is the larger context of global warming and Taiwan's energy transition
+- [Taiwan's High-Mountain Ecosystems and Glacial Relicts](/Nature/台灣高山生態系與冰河孑遺) — The Central Mountain Range not only changes typhoon tracks; it is also home to the world's highest-elevation ecosystems
+- [Plum Rains](/Nature/梅雨) — Beyond typhoons, the plum rain season is another major source of rainfall in Taiwan and is likewise affected by climate change
+- [Offshore Islands and Ocean Culture](/Geography/離島與海洋文化) — The Tao people's traditional architecture and place-name knowledge on Orchid Island have unique disaster-prevention value in the typhoon era
 
 ## Image Sources
 
-This article uses 2 images under public domain / CC licenses, all cached in `public/article-images/nature/` to avoid hotlinking source servers:
+This article uses two public-domain / CC-licensed images, all cached in `public/article-images/nature/` to avoid hotlinking source servers:
 
-- [Typhoon Morakot satellite image (2009-08-07)](https://commons.wikimedia.org/wiki/File:Typhoon_Morakot_Aug_7_2009.jpg) — Photo: NASA MODIS Rapid Response (Aqua satellite), 2009-08-07, Public domain (NASA). Original 7200×9200; center-square-cropped to 1600×1600 for use as hero image.
-- [Flooding in Minxiong, Chiayi after Typhoon Morakot (2009-08-09)](https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg) — Photo: zilupe, 2009-08-09, CC BY 2.0 via Wikimedia Commons.
+- [Satellite cloud image of Typhoon Morakot (2009-08-07)](https://commons.wikimedia.org/wiki/File:Typhoon_Morakot_Aug_7_2009.jpg) — Photo: NASA MODIS Rapid Response (Aqua satellite), 2009-08-07, public domain (NASA). Original image 7200x9200, center-square-cropped to 1600x1600 as the hero image.
+- [Flooding in Minxiong, Chiayi, after Morakot's torrential rain (2009-08-09)](https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg) — Photo: zilupe, 2009-08-09, CC BY 2.0 via Wikimedia Commons.
 
 ## References
 
-[^1]: [Climate report warns: by century's end, Taiwan may see just 1–2 typhoons per year, but they'll be much stronger](http://www.cna.com.tw/news/ahel/202405080408.aspx) — CNA 2024 report, Academia Sinica RCEC simulation of typhoon trends over the next century using HiRAM cloud model, including background on Lo Pan Chun-mei and Wang Min-liang's Damajia Dance Troupe.
+[^1]: [Climate report warns typhoons striking Taiwan may fall to only 1 to 2 per year by century's end, but with stronger wind and rain](http://www.cna.com.tw/news/ahel/202405080408.aspx) — A 2024 Central News Agency report on Academia Sinica's Research Center for Environmental Changes using the HiRAM cloud-resolving model to simulate typhoon trends over the next century; includes background on Lo Pan Chun-mei and Wang Min-liang's Daman Dance Troupe.
 
-[^2]: [MRT at 30: Typhoon Nari flooding was horrifying](http://news.tvbs.com.tw/life/3161340) — TVBS report on the 30th anniversary of Taipei's MRT, reviewing Nari typhoon flooding — Bannan Line shut down for 3 months, with Hu Tsung-li's on-site account.
+[^2]: [Taipei Metro 30th anniversary / The devastation of Typhoon Nari was shocking](http://news.tvbs.com.tw/life/3161340) — TVBS report reviewing the flooding of Taipei Metro during Typhoon Nari for the system's 30th anniversary; the Bannan Line stopped running for three months, with on-site recollections by Hu Tsung-li.
 
-[^3]: [Using Morakot as an example: meteorologist Wu Derong says the Central Mountain Range is absolutely not a guardian protector](https://tw.news.yahoo.com/%E8%88%89%E8%8E%AB%E6%8B%89%E5%85%8B%E7%82%BA%E4%BE%8B-%E6%B0%A3%E8%B1%A1%E5%B0%88%E5%AE%B6%EF%BC%9A%E4%B8%AD%E5%A4%AE%E5%B1%B1%E8%84%88%E7%B5%95%E9%9D%9E%E8%AD%B7%E5%9C%8B%E7%A5%9E%E5%B1%B1-015829806.html) — Yahoo News 2016, Wu Derong explains how topographic rain amplifies rainfall using Morakot as an example.
+[^3]: [Using Morakot as an example: meteorological expert Wu Der-rong says the Central Mountain Range is absolutely not a sacred mountain protecting the nation](https://tw.news.yahoo.com/%E8%88%89%E8%8E%AB%E6%8B%89%E5%85%8B%E7%82%BA%E4%BE%8B-%E6%B0%A3%E8%B1%A1%E5%B0%88%E5%AE%B6%EF%BC%9A%E4%B8%AD%E5%A4%AE%E5%B1%B1%E8%84%88%E7%B5%95%E9%9D%9E%E8%AD%B7%E5%9C%8B%E7%A5%9E%E5%B1%B1-015829806.html) — Yahoo News report from 2016 in which Wu Der-rong uses Morakot to explain how orographic rain amplifies rainfall.
 
-[^4]: [Updated figures: Huang Yang-ming says one typhoon day off costs Taiwan more than this figure](https://www.nownews.com/news/6480095) — NOWnews Today, recalculating the economic cost of a typhoon day off using 2023 export data.
+[^4]: [Data updated! Huang Yang-ming: one day of typhoon leave costs Taiwan more than "this figure" in New Taiwan dollars](https://www.nownews.com/news/6480095) — NOWnews recalculation of the economic cost of typhoon leave using 2023 export figures.
 
-[^5]: [When a typhoon comes, is the Central Mountain Range really the 'guardian mountain?'? Expert: absolutely wrong](https://www.storm.mg/article/139829) — Storm Media 2016, in-depth exploration of the Guardian Mountain myth and Foehn effect formation, including Herb's Alishan rainfall data.
+[^5]: [When a typhoon comes, is the Central Mountain Range really a "sacred mountain protecting the nation"? Expert: the idea is absolutely wrong](https://www.storm.mg/article/139829) — A 2016 Storm Media report discussing in depth the myth of the sacred mountain protecting the nation and the terrain-driven causes of foehn winds; includes Alishan rainfall data from Typhoon Herb.
 
-[^6]: [Typhoon FAQ](https://www.cwa.gov.tw/V8/C/K/Encyclopedia/typhoon/index.html) — Central Weather Administration official science encyclopedia, complete explanation of typhoon formation, classification, forecasting, and history, including the Takao colored signal flag background.
+[^6]: [One Hundred Questions on Typhoons](https://www.cwa.gov.tw/V8/C/K/Encyclopedia/typhoon/index.html) — Official popular-science column by the Ministry of Transportation and Communications' Central Weather Administration, with a full explanation of typhoon formation, classification, forecasting, and history; includes background on Takao's colored storm flags.
 
-[^7]: [FTNN News: Survey — typhoon day: half of bosses give full pay](https://www.ftnn.com.tw/news/467148) — 1111 Job Bank typhoon day pay survey, source of the 37.7% "no pay at all" figure.
+[^7]: [FTNN News — Survey: half of employers give full pay on typhoon leave](https://www.ftnn.com.tw/news/467148) — 1111 Job Bank survey on typhoon-leave wages, source for the figure that 37.7% receive no pay at all.
 
-[^9]: ["DOTSTAR" at 20! Wu Chun-chieh discusses Asia's first major typhoon research program](https://scitechvista.nat.gov.tw/Article/C000003/detail?ID=ab691668-650c-4ffc-be83-866054a3e029) — MOST Science Panorama, full record from DOTSTAR's first flight (Typhoon Dujuan, 2003) through the program's 20-year history (2023), including Wu Chun-chieh's first-person typhoon eye description.
+[^9]: [20 years of the "typhoon-chasing project": Chun-Chieh Wu discusses Asia's first large-scale typhoon research program](https://scitechvista.nat.gov.tw/Article/C000003/detail?ID=ab691668-650c-4ffc-be83-866054a3e029) — SciTechVista of the Ministry of Science and Technology, fully documenting the typhoon-chasing project's 20-year history from the first flight during Typhoon Dujuan in 2003 to 2023; includes Chun-Chieh Wu's first-person description of the typhoon eye.
 
-[^10]: [Song of the Sky and Sea: Flying deep into a typhoon! Taiwan's unmanned drone sounding team](https://scitechvista.nat.gov.tw/Article/C000003/detail?ID=7e5fafbb-62bc-41ee-93c3-d178854b0cb5) — MOST Science Panorama, records Taiwan's full history from introducing Aerosonde in 1998 to next-generation drones in 2014.
+[^10]: [A Song of Sky and Water: Into the Typhoon Storm Circle! Taiwan's Unmanned Aircraft Sounding Team](https://scitechvista.nat.gov.tw/Article/C000003/detail?ID=7e5fafbb-62bc-41ee-93c3-d178854b0cb5) — SciTechVista of the Ministry of Science and Technology, documenting Taiwan's full trajectory from importing Aerosonde in 1998 to developing a new generation of unmanned aircraft in 2014.
 
-[^11]: [FORMOSAT-7 introduction](https://www.tasa.org.tw/satellite_program/formosat-7/) — National Space Organization official page, explaining how FORMOSAT-7 improves weather forecast accuracy, including AI model 24-hour error data.
+[^11]: [Introduction to FORMOSAT-7](https://www.tasa.org.tw/satellite_program/formosat-7/) — Official Taiwan Space Agency page explaining how FORMOSAT-7 improves the precision of weather forecasts; includes AI-model data on 24-hour forecast error.
 
-[^12]: [Traditional wisdom reads typhoon paths — accounts from Shendao and Gangkou tribal elders](https://news.ipcf.org.tw/140803) — Indigenous Television Network (TITV), records Paiwan, Amis, and Tao traditional meteorological knowledge, including the Kakanami community's 2009 Morakot evacuation case.
+[^12]: [Reading typhoon tracks through traditional wisdom — elders' experiences from Kabalelradhane and Makelahay communities](https://news.ipcf.org.tw/140803) — Taiwan Indigenous Television report recording the traditional meteorological wisdom of Paiwan, Amis, and Tao peoples; includes the 2009 Morakot evacuation case in Kakanami.
 
-[^14]: [NCCU Humanity Island — facing typhoons and extreme climate: NCCU's Guan Da-wei shares indigenous views of nature](https://humanityisland.nccu.edu.tw/guan-da-wei/) — NCCU professor Guan Da-wei shares the complementary relationship between indigenous nature views and modern meteorology.
+[^14]: [NCCU Humanities Island — Facing typhoons and extreme climate, NCCU's Da-Wei Kuan shares Indigenous views of nature](https://humanityisland.nccu.edu.tw/guan-da-wei/) — National Chengchi University professor Da-Wei Kuan discusses Indigenous views of nature and their complementary relationship with modern meteorology.
 
-[^15]: [National Taiwan University Climate and Weather Disaster Research Center — Save your own community yourself](https://case.ntu.edu.tw/highscope/%e8%87%aa%e5%b7%b1%e7%9a%84%e5%ae%b6%e5%9c%92%e8%87%aa%e5%b7%b1%e6%95%91-%e8%aa%8d%e8%ad%98%e6%b0%b4%e6%82%a3%e8%87%aa%e4%b8%bb%e9%98%b2%e7%81%bd%e7%a4%be%e5%8d%80/index.html) — NTU disaster research center introduction to community-based flood disaster prevention, source for the 335 community figure.
+[^15]: [National Taiwan University Research Center for Future Earth — Saving one's own homeland oneself](https://case.ntu.edu.tw/highscope/%e8%87%aa%e5%b7%b1%e7%9a%84%e5%ae%b6%e5%9c%92%e8%87%aa%e5%b7%b1%e6%95%91-%e8%aa%8d%e8%ad%98%e6%b0%b4%e6%82%a3%e8%87%aa%e4%b8%bb%e9%98%b2%e7%81%bd%e7%a4%be%e5%8d%80/index.html) — National Taiwan University Research Center for Future Earth introduction to the autonomous flood-disaster-prevention community model; source for the figure of 335 communities.
 
-[^19]: [RTI — Morakot at Ten: The ongoing erasure of Xiaolin Village as it awaits its people's return](https://www.rti.org.tw/news/view/id/2030098) — Occupancy rate and current conditions at Five Li Pu permanent housing, ten years after Morakot.
+[^19]: [Radio Taiwan International — Ten years after Morakot: Xiaolin Village, still in the process of disappearing, waits for those who will return](https://www.rti.org.tw/news/view/id/2030098) — Occupancy rates and current conditions for villagers in Wulipu permanent housing ten years after Morakot.
 
-[^20]: [In raging waters: Xiaolin Village survivors find small consolations amid great loss](https://www.cna.com.tw/news/aloc/201908070236.aspx) — CNA 2019 Morakot tenth anniversary report, documenting survivor Weng Jui-chi and others rebuilding their lives at Five Li Pu.
+[^20]: [Ruthless floodwaters, human compassion: small fortunes amid misfortune for Xiaolin Village survivors](https://www.cna.com.tw/news/aloc/201908070236.aspx) — Central News Agency's 2019 report on Morakot's tenth anniversary, documenting the reconstruction stories of survivors including Weng Jui-chi in Wulipu permanent housing.
 
-[^22]: [Storm Media — How 'typhoon day off' came to be: a tragedy 24 years ago that changed Taiwan's disaster prevention thinking](https://www.storm.mg/articles/1080271) — Traces the origin of typhoon day policy to the 2001 death of teacher Xu Bi-lan.
+[^22]: [Storm Media — How "typhoon leave" came about: a tragedy 24 years ago that changed Taiwan's disaster-prevention thinking](https://www.storm.mg/articles/1080271) — Traces the origin of the typhoon-leave system to the 2001 death in the line of duty of teacher Hsu Pi-lan.
 
-[^35]: [MOA Knowledge Portal — Old Taiwan's legends of wind and rain](https://kmweb.moa.gov.tw/theme_data.php?id=55279&sub_theme=agri_life&theme=news) — Collects classical typhoon poetry including Qing dynasty Sun Yuan-heng's "Song of the Hurricane" and Cheng Yung-hsi's "Hurricane."
+[^35]: [Agricultural Knowledge Portal — Wind-and-rain legends of old Taiwan](https://kmweb.moa.gov.tw/theme_data.php?id=55279&sub_theme=agri_life&theme=news) — Collects classical typhoon poems including Qing-era Sun Yuan-heng's "Song of the Hurricane" and Zheng Yong-xi's "Hurricane."
