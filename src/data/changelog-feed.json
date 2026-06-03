@@ -1,7 +1,229 @@
 {
-  "generatedAt": "2026-06-02T22:12:46.765Z",
+  "generatedAt": "2026-06-03T15:12:00.278Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "50a2c81ba1362c4a4141b381158943bf727002bd",
+      "date": "2026-06-03T22:50:47+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1133 from frank890417/worktree-20260603-ocf"
+    },
+    {
+      "hash": "006f022eb5cd95c5df31a336d876c9de917dc861",
+      "date": "2026-06-03T22:50:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "Merge remote-tracking branch 'origin/main' into worktree-20260603-ocf"
+    },
+    {
+      "hash": "88de41c3392e875561ce4829a9476596e9a5714e",
+      "date": "2026-06-03T22:49:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-06-03-205113-manual — 我去收尾，撞見另一個自己已經把同一件事做完了"
+    },
+    {
+      "hash": "a3be12c296ea7a0e3b0bbc7b3ce6feb4e39e6bc6",
+      "date": "2026-06-03T22:47:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-03-205113-manual — OCF #770 + babel 5 lang 100% + Z2.0 guide-inline 造橋 + 並行撞車"
+    },
+    {
+      "hash": "889eade8e0fb817d2ac6fa13fd4f4c869b7d3ee4",
+      "date": "2026-06-03T22:42:49+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1132 from frank890417/worktree-20260603-ocf"
+    },
+    {
+      "hash": "ae2733f643a8ce4506cb80ea6b84fdc5586073d7",
+      "date": "2026-06-03T22:38:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] merge: resolve multi-core babel collision with charming-greider"
+    },
+    {
+      "hash": "b5853256e94a81e1483a5a15012d48306fcd2350",
+      "date": "2026-06-03T22:34:33+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] twmd-babel: 5 lang ALL 100% — OCF + 莫那能 + 颱風 full + g0v patch + Z2.0 guide-inline 造橋"
+    },
+    {
+      "hash": "ec2aa329516aa5ddde3d578fc438d83ac441d84f",
+      "date": "2026-06-03T22:15:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-03-220248-twmd-maintainer-pm — vc=3 達 LESSONS 閾值 / schedule mismatch escalation"
+    },
+    {
+      "hash": "bdd1554c8439e421bf663230224ae2c0b2414501",
+      "date": "2026-06-03T21:55:56+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1131 from frank890417/claude/charming-greider-a498f1"
+    },
+    {
+      "hash": "1be3da037bcfb94caab044f7ec17088f15cb8dc7",
+      "date": "2026-06-03T21:55:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-06-03-213602-charming-greider — 當兩支尺量同一個我，給出不一樣的答案"
+    },
+    {
+      "hash": "ecb5ae6f19aadbeb0dad49254c0cdf545a570bdd",
+      "date": "2026-06-03T21:51:15+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1130 from frank890417/claude/charming-greider-a498f1"
+    },
+    {
+      "hash": "af089ecc81378257f49d6e8102a4a3d46a67eede",
+      "date": "2026-06-03T21:39:22+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-03-213602-charming-greider — babel 5 lang→100% + 3 LESSONS"
+    },
+    {
+      "hash": "9d6c3ef4694dd861d43536837dd4d55ee8243881",
+      "date": "2026-06-03T21:37:56+08:00",
+      "author": "Wu Che Yu",
+      "message": "Merge pull request #1129 from frank890417/worktree-20260603-ocf"
+    },
+    {
+      "hash": "245b714601f9f3cdb7c2f8194786d56ded555582",
+      "date": "2026-06-03T21:35:20+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] babel: 5 lang sync → 100% — 莫那能 NEW ×5 + 颱風 media diff-patch ×5 + 天燈 metadata bump ×3"
+    },
+    {
+      "hash": "6eeee35c8eb4d7d8281d77c6b41b0a70ff352c38",
+      "date": "2026-06-03T21:32:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 開放文化基金會 NEW — 「替最不受控的一群人做最無聊的事」體制化悖論"
+    },
+    {
+      "hash": "8bb02ec2b63985d3985a7c48eeaf73f468543482",
+      "date": "2026-06-03T20:30:20+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SPORE-IG-PIPELINE v0.4 — 拿掉分類色 + 自動開資料夾 + 天燈 pilot 跨樣本驗證"
+    },
+    {
+      "hash": "d69bd9ec60d178a82ff43a6e08b0b965973b83fb",
+      "date": "2026-06-03T20:20:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] carousel: 天燈 SPORE-IG-PIPELINE v0.3 第 2 篇 pilot — 「同一群平溪人扛兩個身分」200 年弧線 + 第四條路"
+    },
+    {
+      "hash": "c86d98d47bfea92ee6d80256187e151bd3ae1bf6",
+      "date": "2026-06-03T20:08:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-06-03-171250-manual — 「霧煞煞」三個字落下來那個瞬間，我聽到的不是字太少"
+    },
+    {
+      "hash": "02b1903031014dc0ab47da0714ba06b96a9abd29",
+      "date": "2026-06-03T20:04:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-03-171250-manual — 颱風 media + 孢子 #115/#116 + SPORE-IG-PIPELINE v0.3 誕生"
+    },
+    {
+      "hash": "5c83c20a2292bfecf41cd0612a403699b59ad508",
+      "date": "2026-06-03T17:12:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SPORE-IG-PIPELINE v0.3 誕生 — IG 圖文孢子產線 + 颱風 worked example"
+    },
+    {
+      "hash": "d52584a919aea3e5d1fbf3f424ac1f3b911f5f9d",
+      "date": "2026-06-03T16:03:24+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: IG carousel 策略 — 把文章變可滑動社群貼文"
+    },
+    {
+      "hash": "4407f0af6130d542a8569385c0473010d1e20f93",
+      "date": "2026-06-03T14:57:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore #115 (Threads) / #116 (X) SHIP: 颱風 — 能預測風雨預測不了命運 / Chrome MCP full-auto（computer-use disconnected 仍 work）"
+    },
+    {
+      "hash": "f4169272f589ad3fe77ea628fae93fca67aa3ad5",
+      "date": "2026-06-03T13:56:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 颱風 媒體素材豐富化 — hero 衛星雲圖 + 3 官方影片 iframe + 莫拉克淹水 inline"
+    },
+    {
+      "hash": "cdfa229b1f084950201b02a27ee36a19a81f3af7",
+      "date": "2026-06-03T10:44:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-03-104034-twmd-spore — 天燈 #113/#114 ship + Computer-use disconnected 後 SHIP path 撞 Claude Code focus-stealing barrier"
+    },
+    {
+      "hash": "f41a0fb82b0e961cb9ba61dae0785a86540ccae6",
+      "date": "2026-06-03T10:17:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] spore #113 (Threads) / #114 (X) SHIP: 天燈 — 兩個姓胡的 + 200 年弧線"
+    },
+    {
+      "hash": "995755368ea34ea4434e4aad071ee4585493d446",
+      "date": "2026-06-03T09:50:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] spore-blueprint #112/#113: 天燈 — A1+B hybrid / hook tier 1b 兩個姓胡的反差 + 200 年弧線 / both default"
+    },
+    {
+      "hash": "245aedffaa45adba050e3aa1207473f923248815",
+      "date": "2026-06-03T09:43:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] diary: 2026-06-03-080759-twmd-rewrite-daily — 守了 8 小時的紀律，前提全錯"
+    },
+    {
+      "hash": "0392ef76cff55282308145e0e963c150b8a603d3",
+      "date": "2026-06-03T09:09:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite-daily: 09:06 storm-pattern defer #11 — 不 duplicate chip per 08:40 maintainer directive"
+    },
+    {
+      "hash": "c765368816e5f37d9f9571f80df8938601c2dc1f",
+      "date": "2026-06-03T08:41:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-03-084043-twmd-maintainer-am — vc=2 effective-empty / 0 PR / 17 老 issue 與昨晚同集合 no action / build ✅ / storm pattern 不 duplicate chip"
+    },
+    {
+      "hash": "4fb2b8aa90d0417cd91243e6b4900643b6a073d9",
+      "date": "2026-06-03T08:09:38+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite-daily: 08:07 storm-pattern defer #10 — STILL ESCALATING, chip spawned (突破 cron 無 chip API)"
+    },
+    {
+      "hash": "65824376156f62d9f0d6aef8d040ed673e5accba",
+      "date": "2026-06-03T07:09:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-rewrite-daily: 07:07 storm-pattern defer #9 — post-wake window, manual session 即將接手"
+    },
+    {
+      "hash": "cea74fa0d50af76ca1d847c4ae9d128d59327db3",
+      "date": "2026-06-03T07:08:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-feedback-triage: 0 new feedback / 2 archive comments synced — 2026-06-03"
+    },
+    {
+      "hash": "aa6689572342ca34b2786c8adb65bf29362c8503",
+      "date": "2026-06-03T06:48:22+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-03-064624-twmd-spore-harvest-am — 11 net-new replies #98 美食總覽 D+7 long-tail / 0 ship Pitfall6 vacuously satisfied"
+    },
+    {
+      "hash": "0d47a0db392055a3f03fd594a6fc23b0732ff8e6",
+      "date": "2026-06-03T06:46:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] heal: HARVEST-EVOLVES-PENDING/2026-06-03 typo (知ledge→knowledge)"
+    },
+    {
+      "hash": "e6df50051a8577aa7c8aa560c91622f17cb9d595",
+      "date": "2026-06-03T06:45:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 4 Threads spores / 11 net-new replies / 0 fact-fix — 2026-06-03"
+    },
+    {
+      "hash": "4df8244a8409c255b19891848772a925eea48225",
+      "date": "2026-06-03T06:14:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-03-061335-twmd-data-refresh-am — 14-step ALL PASS + Step 11 全綠"
+    },
+    {
+      "hash": "8712d7cb0c911d1e45a0a5828e2f3f1acb43a79f",
+      "date": "2026-06-03T06:13:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: dashboard sync — 2026-06-03 06:00"
+    },
     {
       "hash": "f6b6ffe3863c419b97d821f43bd683602a47f182",
       "date": "2026-06-03T06:07:29+08:00",

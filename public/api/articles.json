@@ -1568,7 +1568,7 @@
     "url": "https://taiwan.md/Culture/%E5%A4%A9%E7%87%88",
     "readingTime": 43,
     "featured": false,
-    "date": "2026-05-27",
+    "date": "2026-06-03",
     "path": "Culture/天燈.md"
   },
   {
@@ -14736,12 +14736,12 @@
     "path": "ja/People/yu-yong-he.md"
   },
   {
-    "title": "風雨は予測できても、運命は予測できない：台湾と台風の四百年",
-    "description": "2009 年、モーラコット台風のあの早朝、71 歳の羅潘春美は二階のバルコニーに立ち、獻肚山が崩れ落ち、小林村の親族 462 人をのみ込むのを見ていました。十五年後、台湾は六組の AI モデルにより、24 時間先の台風進路誤差を 172 キロメートルから 57 キロメートルへ縮小しました。しかし、その 57 キロメートルの中で、誰が風雨の中で出勤し、誰に通知が届かないのかは、予測できません。",
+    "title": "風雨は予測できても、運命は予測できません：台湾と台風の四百年",
+    "description": "2009 年、モーラコット台風のあの明け方、71 歳の羅潘春美は二階のバルコニーに立ち、献肚山が崩れ落ち、小林村の 462 人の親族をのみ込むのを見ていました。十五年後、台湾は六組の AI モデルによって、24 時間先の台風進路予報誤差を 172 キロから 57 キロへ縮めました。しかし、その 57 キロの中で誰が風雨の中を出勤し、誰が通知を受け取れないのかは、予測できません。",
     "category": "ja",
     "tags": [],
     "url": "https://taiwan.md/ja/Nature/typhoons-in-taiwan",
-    "readingTime": 46,
+    "readingTime": 56,
     "featured": false,
     "date": "2026-05-09",
     "path": "ja/Nature/typhoons-in-taiwan.md"
@@ -15376,9 +15376,9 @@
     "category": "Nature",
     "tags": [],
     "url": "https://taiwan.md/Nature/%E9%A2%B1%E9%A2%A8",
-    "readingTime": 34,
+    "readingTime": 42,
     "featured": false,
-    "date": "2026-05-09",
+    "date": "2026-06-03",
     "path": "Nature/颱風.md"
   },
   {
@@ -18219,6 +18219,28 @@
     "featured": false,
     "date": "2026-03-19",
     "path": "ja/People/niu-cheng-ze-controversial-filmmaker-monga-director.md"
+  },
+  {
+    "title": "開放文化基金会：台湾で最も制御不能な人びとのために、最も退屈なことを担う",
+    "description": "2014 年、台湾でオープンソース・カンファレンスを開いていたエンジニアたちは、最も退屈な問題に行き詰まりました。イベントの領収書を精算する場所がなかったのです。そこで彼らは開放文化基金会（OCF）を設立し、「誰も万能ではない」シビックテックのボランティアたちのために、請求書を発行し、寄付を受け取り、契約を結ぶことを専門に担いました。10 年後、もともとは人びとの経費精算を助けるだけだったこの裏方は、政府がむやみにネット遮断をしないかを監視する番犬へと成長しました。",
+    "category": "ja",
+    "tags": [],
+    "url": "https://taiwan.md/ja/Technology/open-culture-foundation",
+    "readingTime": 54,
+    "featured": false,
+    "date": "2026-06-03",
+    "path": "ja/Technology/open-culture-foundation.md"
+  },
+  {
+    "title": "開放文化基金會：替台灣最不受控的一群人，做最無聊的那件事",
+    "description": "2014 年，一群在台灣辦開源研討會的工程師卡在一個最無聊的問題：活動收據沒地方報帳。於是他們成立了開放文化基金會（OCF），專門替那群「沒有人是萬能的」公民科技志工開發票、收捐款、簽合約。十年後，這個原本只是幫人報帳的後台，長成了會盯著政府別亂封網的看門狗。",
+    "category": "Technology",
+    "tags": [],
+    "url": "https://taiwan.md/Technology/%E9%96%8B%E6%94%BE%E6%96%87%E5%8C%96%E5%9F%BA%E9%87%91%E6%9C%83",
+    "readingTime": 37,
+    "featured": false,
+    "date": "2026-06-03",
+    "path": "Technology/開放文化基金會.md"
   },
   {
     "title": "開源社群與g0v",
@@ -24408,6 +24430,17 @@
     "path": "es/Geography/yongkang-street.md"
   },
   {
+    "title": "Can Forecast Wind and Rain, but Not Fate: Four Hundred Years of Taiwan and Typhoons",
+    "description": "On the morning Morakot struck in 2009, 71-year-old Lo Pan Chun-mei stood on a second-floor balcony and watched Mt. Xiandu collapse, swallowing 462 loved ones in Xiaolin Village. Fifteen years later, Taiwan used six AI models to cut the 24-hour typhoon-track forecast error from 172 kilometers to 57 kilometers. But within those 57 kilometers, who will go out to work in the storm, and who will not receive the warning, still cannot be predicted.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Nature/typhoons-in-taiwan",
+    "readingTime": 117,
+    "featured": false,
+    "date": "2026-05-09",
+    "path": "en/Nature/typhoons-in-taiwan.md"
+  },
+  {
     "title": "Cantautores indígenas contemporáneos",
     "description": "De A-mei a Suming y Sangpuy: cómo los cantantes indígenas de Taiwán transmiten almas antiguas en la música moderna y crean un paisaje musical indígena contemporáneo singular",
     "category": "es",
@@ -26840,7 +26873,7 @@
       "Tecnología cívica"
     ],
     "url": "https://taiwan.md/es/Technology/open-source-and-g0v",
-    "readingTime": 25,
+    "readingTime": 65,
     "featured": false,
     "date": "2026-03-23",
     "path": "es/Technology/open-source-and-g0v.md"
@@ -35105,7 +35138,7 @@
       "公民科技"
     ],
     "url": "https://taiwan.md/fr/Technology/open-source-and-g0v",
-    "readingTime": 67,
+    "readingTime": 68,
     "featured": false,
     "date": "2026-03-23",
     "path": "fr/Technology/open-source-and-g0v.md"
@@ -41799,6 +41832,39 @@
     "path": "fr/People/mona-rudao.md"
   },
   {
+    "title": "Monaneng : deux formes de cécité, un recueil de poésie",
+    "description": "Premier poète autochtone à publier un recueil de poésie moderne en chinois, Monaneng ne devint aveugle qu'en 1979 ; en 1989, Morning Star publia Les beaux épis de riz. Dans « Viens, buvons un verre », le vers « le mot d'ordre de l'autodétermination de dix-huit millions de personnes / n'entend pas nos soupirs » inscrit la question de savoir « qui compte comme Taïwanais » dans 30 poèmes ; 37 ans plus tard, cette question n'a toujours pas reçu de réponse.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/People/monaneng",
+    "readingTime": 142,
+    "featured": false,
+    "date": "2026-06-03",
+    "path": "fr/People/monaneng.md"
+  },
+  {
+    "title": "Monaneng: dos tipos de ceguera, un poemario",
+    "description": "Monaneng, el primer poeta indígena que publicó un poemario moderno en chino, perdió la vista recién en 1979; en 1989, Morning Star publicó The Beautiful Rice Ear. En Come, brindemos, el verso «La consigna de autodeterminación de dieciocho millones de personas / no oye nuestros suspiros» inscribió la pregunta de «quién cuenta como taiwanés» en 30 poemas. Leído 37 años después, esa pregunta sigue sin respuesta.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/People/monaneng",
+    "readingTime": 136,
+    "featured": false,
+    "date": "2026-06-03",
+    "path": "es/People/monaneng.md"
+  },
+  {
+    "title": "Monaneng: Two Kinds of Blindness, One Poetry Collection",
+    "description": "Monaneng, the first Indigenous poet to publish a modern poetry collection in Chinese, became blind only in 1979; in 1989, Morning Star published The Beautiful Rice Stalks. The line in 'Come, Have a Drink' — 'The slogan of self-determination for eighteen million people / cannot hear our sighs' — wrote the question of 'who counts as Taiwanese' into thirty poems. Read thirty-seven years later, that question still has no answer.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/People/monaneng",
+    "readingTime": 132,
+    "featured": false,
+    "date": "2026-06-03",
+    "path": "en/People/monaneng.md"
+  },
+  {
     "title": "Montagnes de Taïwan et culture de la randonnée",
     "description": "268 sommets dépassant les trois mille mètres entassés sur une île — et pourtant, les Taïwanais ont attendu un demi-siècle avant de pouvoir grimper librement leurs propres montagnes",
     "category": "fr",
@@ -42768,6 +42834,39 @@
     "path": "en/Food/oil-rice.md"
   },
   {
+    "title": "Open Culture Foundation : faire la chose la plus ennuyeuse pour les personnes les plus incontrôlables de Taïwan",
+    "description": "En 2014, un groupe d'ingénieurs qui organisaient des conférences open source à Taïwan s'est retrouvé bloqué par le problème le plus ennuyeux qui soit : il n'existait aucun endroit où faire passer en comptabilité les reçus des événements. Ils ont donc fondé l'Open Culture Foundation (OCF), chargée d'émettre des factures, de recevoir des dons et de signer des contrats pour ces bénévoles de la technologie civique, cette foule où « personne n'est omnipotent ». Dix ans plus tard, cette infrastructure administrative, qui servait à l'origine seulement à aider les autres à faire leurs notes de frais, est devenue un chien de garde qui surveille si le gouvernement ne bloque pas abusivement l'accès au Web.",
+    "category": "fr",
+    "tags": [],
+    "url": "https://taiwan.md/fr/Technology/open-culture-foundation",
+    "readingTime": 129,
+    "featured": false,
+    "date": "2026-06-03",
+    "path": "fr/Technology/open-culture-foundation.md"
+  },
+  {
+    "title": "Open Culture Foundation: Doing the Most Boring Thing for Taiwan's Least Controllable People",
+    "description": "In 2014, a group of engineers organizing open-source conferences in Taiwan got stuck on the most boring problem imaginable: there was nowhere to submit event receipts for reimbursement. So they founded the Open Culture Foundation (OCF), dedicated to issuing invoices, receiving donations, and signing contracts for those civic-tech volunteers who believe that “nobody is omnipotent.” Ten years later, what began as a back office for reimbursements has grown into a watchdog that keeps an eye on whether the government is overreaching when it blocks websites.",
+    "category": "en",
+    "tags": [],
+    "url": "https://taiwan.md/en/Technology/open-culture-foundation",
+    "readingTime": 118,
+    "featured": false,
+    "date": "2026-06-03",
+    "path": "en/Technology/open-culture-foundation.md"
+  },
+  {
+    "title": "Open Culture Foundation: hacer lo más aburrido por el grupo más incontrolable de Taiwán",
+    "description": "En 2014, un grupo de ingenieros que organizaba conferencias de código abierto en Taiwán quedó atrapado en el problema más aburrido: no había dónde rendir los recibos del evento. Así fundaron la Open Culture Foundation (OCF), dedicada a emitir facturas, recibir donaciones y firmar contratos por ese grupo de voluntarios de tecnología cívica para quienes “nadie es omnipotente”. Diez años después, aquel back office que originalmente solo ayudaba a rendir cuentas se convirtió en un perro guardián que vigila que el gobierno no bloquee sitios web de manera abusiva.",
+    "category": "es",
+    "tags": [],
+    "url": "https://taiwan.md/es/Technology/open-culture-foundation",
+    "readingTime": 123,
+    "featured": false,
+    "date": "2026-06-03",
+    "path": "es/Technology/open-culture-foundation.md"
+  },
+  {
     "title": "Open Source Community and g0v",
     "description": "In February 2020, while the rest of the world was scrambling to buy masks, a group of Taiwanese programmers built a mask-inventory query system covering 13,000 convenience stores in just 72 hours — with no government mandate and no budget, only one belief: use code to change society. This is g0v (gov-zero), a remarkable experiment in 'forking the government.'",
     "category": "en",
@@ -42778,7 +42877,7 @@
       "Civic Technology"
     ],
     "url": "https://taiwan.md/en/Technology/open-source-and-g0v",
-    "readingTime": 57,
+    "readingTime": 58,
     "featured": false,
     "date": "2026-03-23",
     "path": "en/Technology/open-source-and-g0v.md"
@@ -43898,15 +43997,15 @@
     "path": "fr/About/why-taiwan-needs-its-own-knowledge-base.md"
   },
   {
-    "title": "Predicting the Storm, Not the Fate: Taiwan and Typhoons Across Four Centuries",
-    "description": "On the morning of 2009's Typhoon Morakot, 71-year-old Lo Pan Chun-mei stood on her second-floor balcony and watched Mount Hsientou collapse, swallowing 462 of her relatives in Xiaolin Village. Fifteen years later, Taiwan has used six AI models to compress its 24-hour typhoon track error from 172 kilometers down to 57. But who within those 57 kilometers goes to work in the storm, and who never receives the warning — that, no forecast can predict.",
-    "category": "en",
+    "title": "Pouvoir prévoir le vent et la pluie, mais pas le destin : quatre siècles de Taïwan face aux typhons",
+    "description": "Ce matin-là, pendant le typhon Morakot en 2009, Lo Pan Chun-mei, 71 ans, se tenait sur le balcon du deuxième étage et regardait le mont Xiandu s'effondrer, engloutissant les 462 proches du village de Xiaolin. Quinze ans plus tard, Taïwan a utilisé six ensembles de modèles d'IA pour réduire l'erreur de trajectoire des typhons à 24 heures de 172 kilomètres à 57 kilomètres. Mais, dans ces 57 kilomètres, qui sortira travailler sous le vent et la pluie, qui ne recevra pas l'alerte : cela reste impossible à prévoir.",
+    "category": "fr",
     "tags": [],
-    "url": "https://taiwan.md/en/Nature/typhoons-in-taiwan",
-    "readingTime": 96,
+    "url": "https://taiwan.md/fr/Nature/typhoons-in-taiwan",
+    "readingTime": 126,
     "featured": false,
     "date": "2026-05-09",
-    "path": "en/Nature/typhoons-in-taiwan.md"
+    "path": "fr/Nature/typhoons-in-taiwan.md"
   },
   {
     "title": "Preferir consumirse antes que oxidarse: Mackay y su amada Formosa",
@@ -43980,17 +44079,6 @@
     "featured": false,
     "date": "2026-03-23",
     "path": "es/Culture/loanwords-and-language-contact-in-taiwan.md"
-  },
-  {
-    "title": "Prevoir la trajectoire, pas le destin : quatre cents ans de typhons a Taiwan",
-    "description": "Ce matin-là en 2009, Luo Pan-chunmei, 71 ans, se tenait sur le balcon du deuxième etage et regardait le mont Xiandu s'effondrer, engloutissant 462 de ses proches au village de Xiaolin. Quinze ans plus tard, Taiwan utilise six modèles d'IA pour comprimer l'erreur de prediction sur 24 heures de la trajectoire des typhons de 172 km à 57 km. Mais dans ces 57 km, personne ne peut predire qui sortira travailler sous la pluie et le vent, ni qui ne recevra pas l'alerte.",
-    "category": "fr",
-    "tags": [],
-    "url": "https://taiwan.md/fr/Nature/typhoons-in-taiwan",
-    "readingTime": 113,
-    "featured": false,
-    "date": "2026-05-09",
-    "path": "fr/Nature/typhoons-in-taiwan.md"
   },
   {
     "title": "Prisión de Isla Verde: De los calabozos políticos a las capas de memoria del hogar de los capos",
@@ -44197,12 +44285,12 @@
     "path": "en/Society/pts-public-television-service.md"
   },
   {
-    "title": "Puede predecir el viento y la lluvia, pero no el destino: cuatrocientos años de tifones en Taiwán",
-    "description": "En la madrugada de 2009, Luo Pan Chun-mei, de 71 años, estaba en el balcón del segundo piso mirando cómo el monte Xiantou se derrumbaba, tragándose a 462 de sus seres queridos del pueblo de Xiaolin. Quince años después, Taiwán usa seis modelos de IA para reducir el margen de error en la predicción de trayectorias de tifones a 24 horas de 172 kilómetros a 57 kilómetros. Pero quién saldrá a trabajar en medio del temporal dentro de esos 57 kilómetros, quién no recibirá la notificación de alerta: eso no se puede predecir.",
+    "title": "Puede predecir el viento y la lluvia, pero no el destino: cuatrocientos años de Taiwán y los tifones",
+    "description": "Aquella madrugada de Morakot en 2009, Lo Pan Chun-mei, de 71 años, estaba en el balcón del segundo piso viendo cómo se derrumbaba el monte Xiandu y se tragaba a 462 familiares de la aldea de Xiaolin. Quince años después, Taiwán usa seis modelos de IA para reducir el error de trayectoria de tifones a 24 horas de 172 kilómetros a 57 kilómetros. Pero dentro de esos 57 kilómetros, quién saldrá a trabajar bajo el viento y la lluvia, y quién no recibirá la alerta, eso no se puede predecir.",
     "category": "es",
     "tags": [],
     "url": "https://taiwan.md/es/Nature/typhoons-in-taiwan",
-    "readingTime": 118,
+    "readingTime": 126,
     "featured": false,
     "date": "2026-05-09",
     "path": "es/Nature/typhoons-in-taiwan.md"
@@ -59147,6 +59235,25 @@
     "path": "ko/People/mona-rudao.md"
   },
   {
+    "title": "모나넝: 두 종류의 맹목, 한 권의 시집",
+    "description": "중국어 현대시집을 출간한 첫 원주민 시인 모나넝은 1979년에야 실명했고, 1989년 천싱출판사에서 《아름다운 벼 이삭》을 펴냈다. 〈자, 한잔하세〉의 “1,800만 인민 자결의 구호는 / 우리의 탄식을 듣지 못한다”라는 구절은 ‘누가 타이완인으로 간주되는가’라는 문제를 30편의 시 속에 써 넣었다. 37년 뒤 읽어도, 그 질문에는 아직 아무도 답하지 않았다.",
+    "category": "ko",
+    "tags": [
+      "원주민",
+      "시",
+      "문학",
+      "파이완족",
+      "원주민 운동",
+      "타이둥",
+      "1980s"
+    ],
+    "url": "https://taiwan.md/ko/People/monaneng",
+    "readingTime": 60,
+    "featured": false,
+    "date": "2026-06-03",
+    "path": "ko/People/monaneng.md"
+  },
+  {
     "title": "무명소잔(無名小站): 기숙사에서 태어나 대만 인터넷 세대의 청춘을 품다",
     "description": "\"고물 줍기\"로 시작한 대학생 프로젝트가 어떻게 한 세대 전체의 삶을 바꾼 소셜 플랫폼이 되었는가",
     "category": "ko",
@@ -59267,17 +59374,6 @@
     "featured": false,
     "date": "2026-05-08",
     "path": "ko/Nature/palakaw.md"
-  },
-  {
-    "title": "바람과 비는 예측할 수 있어도, 운명은 예측할 수 없다: 대만과 태풍의 400년",
-    "description": "2009년 모라꼬(莫拉克) 태풍의 그 새벽, 71세의 뤄판춘메이(羅潘春美)는 2층 베란다에 서서 샨두산(獻肚山)이 무너지며 샤오린촌(小林村) 462명의 이웃을 삼키는 것을 지켜봤다. 15년 후, 대만은 여섯 개의 AI 모델로 24시간 태풍 경로 오차를 172km에서 57km로 줄였다. 그러나 그 57km 안에서 누가 폭우 속에 출근할지, 누가 경보를 받지 못할지는 예측할 수 없다.",
-    "category": "ko",
-    "tags": [],
-    "url": "https://taiwan.md/ko/Nature/typhoons-in-taiwan",
-    "readingTime": 47,
-    "featured": false,
-    "date": "2026-05-09",
-    "path": "ko/Nature/typhoons-in-taiwan.md"
   },
   {
     "title": "바오장옌: 30년 동안 철거 대상이었던 무허가 취락이 마침내 타이베이에서 가장 멋진 예술촌이 되다",
@@ -59406,6 +59502,17 @@
     "featured": false,
     "date": "2026-03-22",
     "path": "ko/Society/the-buffet-aunties-intuitive-pricing.md"
+  },
+  {
+    "title": "비바람은 예측할 수 있어도 운명은 예측할 수 없다: 타이완과 태풍의 400년",
+    "description": "2009년 모라꼿의 그 새벽, 71세의 뤄판춘메이는 2층 발코니에 서서 셴두산이 무너져 내려 샤오린촌의 친족 462명을 삼키는 모습을 보았다. 15년 뒤, 타이완은 여섯 개 AI 모델로 24시간 태풍 경로 오차를 172킬로미터에서 57킬로미터로 줄였다. 그러나 그 57킬로미터 안에서 누가 비바람 속에 출근할지, 누가 통지를 받지 못할지는 예측할 수 없다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Nature/typhoons-in-taiwan",
+    "readingTime": 59,
+    "featured": false,
+    "date": "2026-05-09",
+    "path": "ko/Nature/typhoons-in-taiwan.md"
   },
   {
     "title": "빙하 잔존의 미소: 타이완 산천어의 백 년 생애와 기술 보호의 길",
@@ -60749,10 +60856,21 @@
       "公民科技"
     ],
     "url": "https://taiwan.md/ko/Technology/open-source-and-g0v",
-    "readingTime": 28,
+    "readingTime": 29,
     "featured": false,
     "date": "2026-03-23",
     "path": "ko/Technology/open-source-and-g0v.md"
+  },
+  {
+    "title": "오픈컬처재단: 타이완에서 가장 통제되지 않는 사람들을 위해 가장 따분한 일을 하다",
+    "description": "2014년, 타이완에서 오픈소스 콘퍼런스를 열던 엔지니어들은 가장 따분한 문제에 걸려 있었다. 행사 영수증을 처리해 비용을 정산할 곳이 없었다. 그래서 이들은 오픈컬처재단(OCF)을 세워, ‘아무도 만능은 아니다’라고 말하는 시민 기술 자원봉사자들을 위해 세금계산서를 발행하고, 기부금을 받고, 계약을 체결하는 일을 전담했다. 10년 뒤, 원래는 사람들의 비용 정산을 돕는 뒷단에 불과했던 이 조직은 정부가 함부로 웹사이트를 차단하지 못하도록 감시하는 감시견으로 성장했다.",
+    "category": "ko",
+    "tags": [],
+    "url": "https://taiwan.md/ko/Technology/open-culture-foundation",
+    "readingTime": 58,
+    "featured": false,
+    "date": "2026-06-03",
+    "path": "ko/Technology/open-culture-foundation.md"
   },
   {
     "title": "온천 문화: 전쟁의 상처에서 세계 3대 온천 왕국으로",
@@ -65002,7 +65120,7 @@
       "シビックテック"
     ],
     "url": "https://taiwan.md/ja/Technology/open-source-and-g0v",
-    "readingTime": 17,
+    "readingTime": 18,
     "featured": false,
     "date": "2026-03-23",
     "path": "ja/Technology/open-source-and-g0v.md"
@@ -65449,6 +65567,25 @@
     "featured": false,
     "date": "2026-03-25T00:00:00Z",
     "path": "ja/People/mona-rudao.md"
+  },
+  {
+    "title": "モナネン：二つの盲目、一冊の詩集",
+    "description": "漢語現代詩集を出版した初の原住民族詩人モナネンは、1979 年に失明し、1989 年に晨星から『美しい稲穂』を出版しました。〈さあ、一杯飲もう〉の「一千八百万人の自決のスローガン／私たちのため息は聞こえない」という一節は、「誰が台湾人とみなされるのか」という問いを 30 編の詩に刻み込みました。37 年後に読んでも、その問いにはまだ誰も答えていません。",
+    "category": "ja",
+    "tags": [
+      "原住民族",
+      "詩",
+      "文学",
+      "パイワン族",
+      "原住民族運動",
+      "台東",
+      "1980s"
+    ],
+    "url": "https://taiwan.md/ja/People/monaneng",
+    "readingTime": 54,
+    "featured": false,
+    "date": "2026-06-03",
+    "path": "ja/People/monaneng.md"
   },
   {
     "title": "リー・チャンユー（李昌鈺）",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T22:12:49.352Z",
+  "lastUpdated": "2026-06-03T15:12:03.113Z",
   "languages": [
     "zh-TW",
     "en",
@@ -10,72 +10,72 @@
   ],
   "summary": {
     "zh-TW": {
-      "total": 769,
+      "total": 770,
       "percentage": 100,
-      "fresh": 769,
+      "fresh": 770,
       "stale": 0,
       "missing": 0,
       "deficit": 0
     },
     "en": {
-      "total": 780,
-      "percentage": 99.9,
-      "fresh": 780,
+      "total": 782,
+      "percentage": 100,
+      "fresh": 782,
       "metadataStale": 0,
       "stale": 0,
-      "missing": 1,
+      "missing": 0,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 99.9,
-      "bodyFreshPct": 99.9
+      "deficit": 0,
+      "freshPct": 100,
+      "bodyFreshPct": 100
     },
     "ja": {
-      "total": 780,
-      "percentage": 99.9,
-      "fresh": 780,
+      "total": 782,
+      "percentage": 100,
+      "fresh": 782,
       "metadataStale": 0,
       "stale": 0,
-      "missing": 1,
+      "missing": 0,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 99.9,
-      "bodyFreshPct": 99.9
+      "deficit": 0,
+      "freshPct": 100,
+      "bodyFreshPct": 100
     },
     "ko": {
-      "total": 780,
-      "percentage": 99.9,
-      "fresh": 780,
+      "total": 782,
+      "percentage": 100,
+      "fresh": 782,
       "metadataStale": 0,
       "stale": 0,
-      "missing": 1,
+      "missing": 0,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 99.9,
-      "bodyFreshPct": 99.9
+      "deficit": 0,
+      "freshPct": 100,
+      "bodyFreshPct": 100
     },
     "es": {
-      "total": 780,
-      "percentage": 99.9,
-      "fresh": 780,
+      "total": 782,
+      "percentage": 100,
+      "fresh": 782,
       "metadataStale": 0,
       "stale": 0,
-      "missing": 1,
+      "missing": 0,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 99.9,
-      "bodyFreshPct": 99.9
+      "deficit": 0,
+      "freshPct": 100,
+      "bodyFreshPct": 100
     },
     "fr": {
-      "total": 780,
-      "percentage": 99.9,
-      "fresh": 780,
+      "total": 782,
+      "percentage": 100,
+      "fresh": 782,
       "metadataStale": 0,
       "stale": 0,
-      "missing": 1,
+      "missing": 0,
       "orphan": 0,
-      "deficit": 1,
-      "freshPct": 99.9,
-      "bodyFreshPct": 99.9
+      "deficit": 0,
+      "freshPct": 100,
+      "bodyFreshPct": 100
     }
   },
   "matrix": {
@@ -462,39 +462,39 @@
     "people": {
       "zh-TW": 226,
       "en": {
-        "count": 225,
-        "fresh": 225,
+        "count": 226,
+        "fresh": 226,
         "stale": 0,
-        "missing": 1,
-        "deficit": 1
+        "missing": 0,
+        "deficit": 0
       },
       "ja": {
-        "count": 225,
-        "fresh": 225,
+        "count": 226,
+        "fresh": 226,
         "stale": 0,
-        "missing": 1,
-        "deficit": 1
+        "missing": 0,
+        "deficit": 0
       },
       "ko": {
-        "count": 225,
-        "fresh": 225,
+        "count": 226,
+        "fresh": 226,
         "stale": 0,
-        "missing": 1,
-        "deficit": 1
+        "missing": 0,
+        "deficit": 0
       },
       "es": {
-        "count": 225,
-        "fresh": 225,
+        "count": 226,
+        "fresh": 226,
         "stale": 0,
-        "missing": 1,
-        "deficit": 1
+        "missing": 0,
+        "deficit": 0
       },
       "fr": {
-        "count": 225,
-        "fresh": 225,
+        "count": 226,
+        "fresh": 226,
         "stale": 0,
-        "missing": 1,
-        "deficit": 1
+        "missing": 0,
+        "deficit": 0
       }
     },
     "society": {
@@ -536,38 +536,38 @@
       }
     },
     "technology": {
-      "zh-TW": 50,
+      "zh-TW": 51,
       "en": {
-        "count": 50,
-        "fresh": 50,
+        "count": 51,
+        "fresh": 51,
         "stale": 0,
         "missing": 0,
         "deficit": 0
       },
       "ja": {
-        "count": 50,
-        "fresh": 50,
+        "count": 51,
+        "fresh": 51,
         "stale": 0,
         "missing": 0,
         "deficit": 0
       },
       "ko": {
-        "count": 50,
-        "fresh": 50,
+        "count": 51,
+        "fresh": 51,
         "stale": 0,
         "missing": 0,
         "deficit": 0
       },
       "es": {
-        "count": 50,
-        "fresh": 50,
+        "count": 51,
+        "fresh": 51,
         "stale": 0,
         "missing": 0,
         "deficit": 0
       },
       "fr": {
-        "count": 50,
-        "fresh": 50,
+        "count": 51,
+        "fresh": 51,
         "stale": 0,
         "missing": 0,
         "deficit": 0
@@ -576,20 +576,7 @@
   },
   "missing": {
     "en": [
-      "People/莫那能：兩種盲，一本詩集.md",
       "Technology/半導體產業：從 RCA 技轉到氮化鎵與量子封裝的 50 年材料革命.md"
-    ],
-    "ja": [
-      "People/莫那能：兩種盲，一本詩集.md"
-    ],
-    "ko": [
-      "People/莫那能：兩種盲，一本詩集.md"
-    ],
-    "es": [
-      "People/莫那能：兩種盲，一本詩集.md"
-    ],
-    "fr": [
-      "People/莫那能：兩種盲，一本詩集.md"
     ]
   },
   "statusSource": "translation-status.json",

@@ -1,28 +1,28 @@
 {
-  "totalArticles": 4745,
+  "totalArticles": 4756,
   "totalCategories": 21,
   "estimatedContributors": 57,
-  "totalTags": 6364,
+  "totalTags": 6369,
   "categories": [
     {
       "name": "es",
-      "count": 782
+      "count": 784
     },
     {
       "name": "ko",
-      "count": 785
+      "count": 787
     },
     {
       "name": "fr",
-      "count": 802
+      "count": 804
     },
     {
       "name": "en",
-      "count": 803
+      "count": 805
     },
     {
       "name": "ja",
-      "count": 790
+      "count": 792
     },
     {
       "name": "History",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Technology",
-      "count": 50
+      "count": 51
     },
     {
       "name": "Lifestyle",
@@ -172,13 +172,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4745,
+    "zh-TW": 4756,
     "en": 0
   },
-  "lastUpdated": "2026-06-02T22:12:48.670Z",
+  "lastUpdated": "2026-06-03T15:12:02.407Z",
   "stars": 1017,
-  "forks": 149,
-  "zhPages": 3942,
-  "enPages": 803,
-  "totalPages": 4745
+  "forks": 148,
+  "zhPages": 3951,
+  "enPages": 805,
+  "totalPages": 4756
 }

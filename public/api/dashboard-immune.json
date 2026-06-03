@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T06:12:21.764167",
+  "lastUpdated": "2026-06-03T23:11:33.326319",
   "schemaVersion": "v2-2026-05-16",
   "featureFlag": "IMMUNE_V2",
   "immuneScore": 67,
@@ -28,7 +28,7 @@
       "weight": 3.0
     },
     "T2": {
-      "total": 341,
+      "total": 342,
       "reviewed": 85,
       "pct": 24.9,
       "weight": 1.5
@@ -41,8 +41,8 @@
     }
   },
   "pluginPassDetail": {
-    "total_files": 781,
-    "hard_pass_files": 781,
+    "total_files": 782,
+    "hard_pass_files": 782,
     "hard_pass_pct": 100.0,
     "warn_pass_files": 0,
     "warn_pass_pct": 0.0,
@@ -50,13 +50,13 @@
   },
   "citationDetail": {
     "grades": {
-      "A": 596,
+      "A": 597,
       "B": 11,
       "C": 159,
       "D": 4,
       "F": 9
     },
-    "files_with_grade": 779
+    "files_with_grade": 780
   },
   "freshnessDetail": {
     "editorial_days_old": 6,
@@ -65,7 +65,7 @@
     "source": "git log %ai (not fs mtime — worktree-safe)"
   },
   "driftDetail": {
-    "new_articles_7d": 24,
+    "new_articles_7d": 14,
     "rate_per_article": 1.0,
     "note": "v1 heuristic — longitudinal tracking pending (B-line meta-health)"
   },
