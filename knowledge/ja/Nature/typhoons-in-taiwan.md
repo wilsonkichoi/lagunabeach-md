@@ -24,11 +24,32 @@ readingTime: 13
 lastVerified: '2026-05-09'
 lastHumanReview: false
 featured: false
+image: '/article-images/nature/morakot-modis-satellite-2009.jpg'
+imageCredit: 'NASA MODIS Rapid Response (Aqua)'
+imageLicense: 'Public domain (NASA)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Typhoon_Morakot_Aug_7_2009.jpg'
+sporeLinks:
+  - platform: 'threads'
+    date: '2026-06-03'
+    url: 'https://www.threads.com/@taiwandotmd/post/DZHUHpQk02w'
+    views: 0
+    likes: 0
+    reposts: 0
+    comments: 0
+    shares: 0
+  - platform: 'x'
+    date: '2026-06-03'
+    url: 'https://x.com/taiwandotmd/status/2062065024613679469'
+    views: 0
+    likes: 0
+    reposts: 0
+    comments: 0
+    shares: 0
 translatedFrom: 'Nature/颱風.md'
-sourceCommitSha: 'ef195fa9d'
-sourceContentHash: 'sha256:f24328f70712f01e'
-sourceBodyHash: 'sha256:b9d03786e906ca4a'
-translatedAt: '2026-05-16T05:07:55+08:00'
+sourceCommitSha: '4407f0af'
+sourceContentHash: 'sha256:b25ee135b9bea711'
+sourceBodyHash: 'sha256:c5aa7038d81fc4d3'
+translatedAt: '2026-06-03T21:02:26+08:00'
 ---
 
 # 風雨は予測できても、運命は予測できない：台湾と台風の四百年
@@ -100,6 +121,9 @@ translatedAt: '2026-05-16T05:07:55+08:00'
 
 研究はさらに、モーラコット台風の極端降雨量のうち 6.5% が人為的な気候変動によって増幅されたことも示しました。[^1] 地球温暖化がなければ、獻肚山はあの早朝に崩れなかったかもしれません。これは、一つの台風と地球の昇温が学術界によって直接結びつけられた、具体的な数値です。
 
+![2009年8月9日、嘉義民雄（ミンシォン）の一集落でモーラコット台風の豪雨後に浸水が発生し、濁った泥水が道路を覆い民家の一階に流れ込む。遠方では人々が水の中を歩いている](/article-images/nature/morakot-minxiong-flood-2009.jpg)
+_2009 年 8 月 9 日、嘉義民雄（ミンシォン）。モーラコットはゆっくりと移動し、連日の豪雨がこの集落に流れ込んだ。気候変動によって増幅された 6.5% の雨は、最終的にこのような水になった。Photo: zilupe, [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg)._
+
 「少なく強く」は、従来の防災の論理を反転させました。過去の資源配置は「毎年いくつかは来る」ことを前提にしていました。現在の前提は「夏の間ずっと静かかもしれないが、来る一つに一年分の破壊力が集中しても耐えなければならない」へと変わりました。一つの台風が、一回の年間極端現象なのです。
 
 ## 風を追う人：台風の目から帰ってきた台湾
@@ -116,6 +140,12 @@ translatedAt: '2026-05-16T05:07:55+08:00'
 
 2019 年 6 月 25 日に打ち上げられた FORMOSAT-7 は、観測の視点を成層圏内から宇宙へと引き上げました。[^11] 六機の小型衛星は米国 NOAA と協力し、毎日 4,000 から 5,000 件の大気プロファイルデータを提供します。そのうち約 80% は高度 1 キロメートル以下まで到達できます。この数値は旧システム FS3/COSMIC の二倍です。
 
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/PsYcjcHiGtU" title="太空中心量能宣傳片─獵風者衛星（國家太空中心 TASA）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_国家宇宙センター（TASA）プロモーション映像：FORMOSAT-7 の後継として台湾が自製した獵風者衛星（TRITON）は、海面の風を専門に計測し、この島が台風を見る目をさらに一歩前進させた。_
+
 2025 年になると、気象署は六組の AI モデルを用いて米国、台湾、日本のデータを統合し、計 18 本の進路予測を作成しました。24 時間進路予報誤差は、2000 年の 172 キロメートルから 57 キロメートルへ低下し、25 年間で約 67% 改善しました。AI モデルは 4 分以内に 30 日分の早期警戒資料を生成でき、速度は従来手法より 900 倍向上しました。[^11]
 
 | 技術                           | 主要データ                            | 防災上の意味                               |
@@ -126,6 +156,12 @@ translatedAt: '2026-05-16T05:07:55+08:00'
 | AI 気象モデル（華風など 6 組） | 4 分で 30 日予報を生成                | 24 時間進路誤差を 172km から 57km へ低減   |
 
 風雨色旗から、4 分で 30 日先を予測するまで。この 160 年間に積み重ねられた精度は、政府が 72 時間前に救援物資を配備するのに十分であり、農民が一週間前にバナナを収穫するのに十分です。しかし精度は、結局のところ地図上のことです。地図は台風がどこに上陸するかを教えてくれますが、上陸するその街で誰が通常どおり出勤しなければならないのかまでは教えてくれません。
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/grDcqNrZISA" title="AI 天氣模型，預測颱風路徑更精準？《科技 Tech 好聊》EP.4（DIGITIMES）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_DIGITIMES《科技 Tech 好聊》EP.4：AI モデルが台風進路の予報誤差を、どのようにして 57 キロメートルまで押し縮めたか。_
 
 ## 315 億の代価は、誰が払うのですか
 
@@ -171,6 +207,12 @@ translatedAt: '2026-05-16T05:07:55+08:00'
 
 王民亮（阿亮）は、日光小林社区発展協会の事務局長です。彼は 2011 年に大満舞団を設立し、小林の人々が古謡と舞踊を通じて痛みから歩み出すことを支えました。舞団は 2019 年、伝藝金曲奨で評価されました。[^1] 五歳の邦思斉は、母親が古謡を歌うのをずっと聞いてきました。彼女は「ずっと聞いて、ずっと聞いて、母が歌うのを聞いていたらできるようになりました」と言います。
 
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/j9T4xC5lzBo" title="【八八風災】莫拉克十年系列報導-我眼所見即是天地｜重建記憶中的小林村、杉林社區（公視 我們的島 第1016集 2019-08-12）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_公視《我々の島》第 1016 集（2019-08-12）：モーラコットから十年、大満舞団は古謠によって記憶の中の小林村を一句一句「家に植え戻した」。_
+
 2019 年、モーラコット十周年の取材で、生存者の翁瑞琪は、五里埔永久住宅で同じく家族を失った隣人の楊美露と新たな家庭を築いていました。彼は「日々は、それでも続けていかなければならない」と語りました。[^20]
 
 > **📝 キュレーター・ノート**
@@ -194,6 +236,13 @@ translatedAt: '2026-05-16T05:07:55+08:00'
 - [台湾高山生態系と氷河遺存種](/Nature/台灣高山生態系與冰河孑遺) — 中央山脈は台風の進路を変えるだけでなく、世界で最も高い標高帯に位置する生態系のすみかでもあります
 - [梅雨](/Nature/梅雨) — 台風以外に、梅雨は台湾のもう一つの大きな雨季の源であり、同じく気候変動の影響を受けています
 - [離島と海洋文化](/Geography/離島與海洋文化) — 蘭嶼タオ族の伝統建築と地名知識は、台風の時代に独自の防災価値を持っています
+
+## 画像出典
+
+本文では 2 点のパブリックドメイン／CC ライセンス画像を使用しています。すべて `public/article-images/nature/` にキャッシュし、ホットリンクを回避しています。
+
+- [モーラコット台風の衛星雲図（2009-08-07）](https://commons.wikimedia.org/wiki/File:Typhoon_Morakot_Aug_7_2009.jpg) — Photo: NASA MODIS Rapid Response（Aqua 衛星）、2009-08-07、Public domain（NASA）。原画像 7200×9200、center-square-crop で 1600×1600 にトリミングしてヒーロー画像として使用。
+- [モーラコット豪雨後の嘉義民雄浸水（2009-08-09）](https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg) — Photo: zilupe、2009-08-09、CC BY 2.0 via Wikimedia Commons。
 
 ## 参考資料
 

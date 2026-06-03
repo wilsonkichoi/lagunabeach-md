@@ -23,13 +23,34 @@ author: 'Taiwan.md'
 featured: false
 lastVerified: 2026-05-09
 translatedFrom: 'Nature/颱風.md'
-sourceCommitSha: 'ef195fa9d'
-sourceContentHash: 'sha256:f24328f70712f01e'
-sourceBodyHash: 'sha256:b9d03786e906ca4a'
-translatedAt: '2026-05-13T09:30:28+08:00'
+sourceCommitSha: '4407f0af'
+sourceContentHash: 'sha256:b25ee135b9bea711'
+sourceBodyHash: 'sha256:c5aa7038d81fc4d3'
+translatedAt: '2026-06-03T21:02:26+08:00'
 lastHumanReview: false
 researchReport: reports/research/2026-05/颱風-rewrite-research.md
 readingTime: 13
+image: '/article-images/nature/morakot-modis-satellite-2009.jpg'
+imageCredit: 'NASA MODIS Rapid Response (Aqua)'
+imageLicense: 'Public domain (NASA)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Typhoon_Morakot_Aug_7_2009.jpg'
+sporeLinks:
+  - platform: 'threads'
+    date: '2026-06-03'
+    url: 'https://www.threads.com/@taiwandotmd/post/DZHUHpQk02w'
+    views: 0
+    likes: 0
+    reposts: 0
+    comments: 0
+    shares: 0
+  - platform: 'x'
+    date: '2026-06-03'
+    url: 'https://x.com/taiwandotmd/status/2062065024613679469'
+    views: 0
+    likes: 0
+    reposts: 0
+    comments: 0
+    shares: 0
 ---
 
 # Predicting the Storm, Not the Fate: Taiwan and Typhoons Across Four Centuries
@@ -101,6 +122,9 @@ The Research Center for Environmental Changes (RCEC) at Academia Sinica, collabo
 
 The research also found that 6.5% of Morakot's extreme rainfall was amplified by anthropogenic climate change.[^1] Without global warming, Mount Hsientou might not have collapsed on that particular morning. This is a specific number connecting a typhoon directly to global temperature rise — accepted by the scientific community.
 
+![A village in Minxiong, Chiayi, flooded after Typhoon Morakot's heavy rains on August 9, 2009 — murky brown water submerging roads and the ground floors of homes, with people wading through the flood in the distance](/article-images/nature/morakot-minxiong-flood-2009.jpg)
+_August 9, 2009, Minxiong, Chiayi. Morakot moved slowly; days of relentless rain poured into this village. That 6.5% amplified by climate change — this is what it became. Photo: zilupe, [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg)._
+
 "Fewer but fiercer" overturns past disaster preparedness logic. The old assumption: "several will come every year, so distribute resources accordingly." The new assumption: "the whole summer might be quiet, but when one does come, it will carry the destruction of a whole year." One typhoon becomes one annual extreme event.
 
 ## Storm Chasers: Taiwan Flying Into the Eye
@@ -117,6 +141,12 @@ But chasing typhoons is only part of Taiwan's typhoon observation picture. In 19
 
 FORMOSAT-7, launched June 25, 2019, elevated the observation angle from the troposphere to space.[^11] Six small satellites, in partnership with US NOAA, provide 4,000–5,000 atmospheric profile data points daily — roughly 80% penetrating to below 1 kilometer altitude, twice the coverage of the previous FS3/COSMIC system.
 
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/PsYcjcHiGtU" title="太空中心量能宣傳片─獵風者衛星（國家太空中心 TASA）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Taiwan Space Agency (TASA) promotional film: following FORMOSAT-7, Taiwan's homegrown TRITON satellite is dedicated to measuring ocean surface winds — pushing the island's ability to watch typhoons one step further into space._
+
 By 2025, the Meteorological Agency integrates data from US, Taiwan, and Japan into 18 track predictions using six AI models. The 24-hour track forecast error fell from 172 km in 2000 to 57 km — a 67% improvement in 25 years. AI models can generate 30-day warning data in 4 minutes, 900 times faster than traditional methods.[^11]
 
 | Technology                             | Key Data                             | Disaster Preparedness Impact                |
@@ -127,6 +157,12 @@ By 2025, the Meteorological Agency integrates data from US, Taiwan, and Japan in
 | AI weather models (HuaFeng + 5 others) | 30-day forecast in 4 minutes         | 24h track error from 172km to 57km          |
 
 From colored flags to a 4-minute 30-day forecast — 160 years of accumulated precision is enough to let the government deploy emergency supplies 72 hours ahead, enough to let farmers harvest their bananas a week early. But precision ultimately lives on a map. The map tells you where a typhoon will make landfall; it cannot tell you who on the street where it lands is still expected to show up for work.
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/grDcqNrZISA" title="AI 天氣模型，預測颱風路徑更精準？《科技 Tech 好聊》EP.4（DIGITIMES）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_DIGITIMES "Tech Talk" EP.4: how AI models pushed typhoon track forecast error all the way down to 57 kilometers._
 
 ## NT\.5 Billion a Day — Who Pays?
 
@@ -172,6 +208,12 @@ Five Li Pu permanent housing — 90 units built by the Red Cross for Xiaolin sur
 
 Wang Min-liang (A-Liang), director general of the Nji-Gushan Xiaolin Community Development Association, founded the Damajia Dance Troupe in 2011, leading Xiaolin people through ancient songs and dance to heal from trauma. The troupe won recognition at the 2019 Golden Melody Awards for Traditional Arts and Music.[^1] Five-year-old Pang Si-chi had listened to her mother singing ancient songs constantly: "I just kept listening, kept listening — I learned it by hearing Mom sing!"
 
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/j9T4xC5lzBo" title="【八八風災】莫拉克十年系列報導-我眼所見即是天地｜重建記憶中的小林村、杉林社區（公視 我們的島 第1016集 2019-08-12）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_PTS "Our Island" Episode 1016 (2019-08-12): ten years after Morakot, the Damajia Dance Troupe sings the memory of Xiaolin Village back into existence, one ancient melody at a time._
+
 In a 2019 interview marking the tenth anniversary of Morakot, survivor Weng Jui-chi had rebuilt a family with neighbor Yang Mei-lu, who had also lost relatives, in the Five Li Pu permanent housing. He said: "Life has to go on."[^20]
 
 > 📝 **Editor's note**
@@ -195,6 +237,13 @@ We can predict the storm. We cannot predict the fate.
 - [Taiwan's Alpine Ecosystems and Glacial Relicts](/Nature/台灣高山生態系與冰河孑遺) — The Central Mountain Range doesn't just redirect typhoon paths — it is home to the world's highest-elevation ecosystems
 - [Plum Rain Season](/Nature/梅雨) — Beyond typhoons, the plum rain season is Taiwan's other major rainy season, equally affected by climate change
 - [Outlying Islands and Ocean Culture](/Geography/離島與海洋文化) — The Tao people's traditional architecture and place name knowledge carry unique disaster prevention value in the typhoon era
+
+## Image Sources
+
+This article uses 2 images under public domain / CC licenses, all cached in `public/article-images/nature/` to avoid hotlinking source servers:
+
+- [Typhoon Morakot satellite image (2009-08-07)](https://commons.wikimedia.org/wiki/File:Typhoon_Morakot_Aug_7_2009.jpg) — Photo: NASA MODIS Rapid Response (Aqua satellite), 2009-08-07, Public domain (NASA). Original 7200×9200; center-square-cropped to 1600×1600 for use as hero image.
+- [Flooding in Minxiong, Chiayi after Typhoon Morakot (2009-08-09)](https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg) — Photo: zilupe, 2009-08-09, CC BY 2.0 via Wikimedia Commons.
 
 ## References
 
