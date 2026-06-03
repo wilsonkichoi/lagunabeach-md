@@ -262,6 +262,49 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-03 twmd-maintainer-pm (220248) — maintainer-pm 22:00 cron 與 morning chain + manual evening window schedule 撞期 → vc=3 effective-empty 結構性 mismatch
+
+- **原則**：`twmd-maintainer-pm` daily cron 22:00 fire 在「morning chain 已 captures 早上 contributor PR/comment + manual session evening window 17:00-22:00 已清完所有可動 backlog」的時間點上。實證 vc 計數：6/1 pm vc=2 → 6/2 am 真 backlog (close #1127/#1128) reset → 6/2 pm vc=1 → 6/3 am vc=2 → **6/3 pm vc=3** 達 cron task spec 的「連續空場 ≥ 3 cycle = 結構性警示」閾值。Quality gate「effective-empty 算 cycle」捕捉這個 mismatch — 不是 organism healthy（如「issue queue 真的清空」），而是 **routine schedule 撞在 attention dead zone**。Per routine prompt Stage 3 鐵律：「不要用 default-action 反向第 4 種 performative work 自我合理化第 N 次空場」。
+- **觸發**：2026-06-03 22:02 maintainer-pm cron fire — 0 open PR / 17 chronic issue 跟今早 08:40 + 昨晚 23:46 同集合 / build green + broken-link 6.62% PASS / 真實 actionable 為 0。Morning chain 06:00-08:40 已 captures 4 routine + feedback-triage 0 new。Manual session 17:12 + charming-greider 21:36 已 ship 颱風/開放文化基金會/babel/3 LESSONS。22:00 fire 進入完全空場。對比清醒時段（如 14:00-16:00）：可能 captures 早午剛來的 contributor PR/comment，產生真實 immune work。
+- **可能層級**：操作規則（觀察者拍板 3 候選之一）：
+  1. **改 schedule**：22:00 → 14:00 或 16:00 — capture daytime contributor inflow window，避開 morning chain 已清 + manual evening 接續的 dead zone
+  2. **改 cadence**：daily cron → weekly cron — schedule density mismatch 直接解（但失去 daily backlog visibility）
+  3. **改 quality gate 定義**：vc 計數從「effective-empty」改「跑後仍 empty」— 重定義 healthy 不解物理 mismatch（不推薦）
+- **相關**：
+  - 神經迴路「儀器化也會 over-engineer — Inline > pointer for cron-context no-observer 場景」（2026-05-28 manual session CONTRACT rollback）— 同一個 routine layer 的不同 instance：CONTRACT 是 prompt-layer mismatch，本 entry 是 schedule-layer mismatch
+  - REFLEXES #15「反覆浮現要儀器化」第 N 次驗證 — vc 計數本身就是這條反射的 instantiation（routine prompt Stage 3 inline）
+  - 2026-06-01 22:04 maintainer-pm + 2026-06-02 23:46 maintainer-daily + 2026-06-03 08:40 maintainer-am 三條 memory 都記了 effective-empty 但無 LESSONS 升級（因為 vc 個別 < 3 閾值）— 本 entry 補 cross-cycle pattern visibility
+- **verification_count**: 1
+- **severity**: structural（影響 routine schedule design 決策，但非 immediate organism harm — chronic 浪費 cron token budget + LLM context dilution）
+- **defer 給觀察者**：⚠️ 需哲宇拍板 3 schedule 候選；本 entry 是 escalation gate，下次 maintainer cycle 仍 empty 加 verification_count
+
+### 2026-06-03 charming-greider (213602) — diff-patch-prepare.py hash 算法 ≠ status.py(SSOT) → babel diff-patch perpetual stale
+
+- **原則**：`diff-patch-prepare.py` 自家 `hash_content`(line 125) 算出的 `expected_new_content_hash`/`expected_new_body_hash` 跟 `status.py` 的 `body_hash`/`body_hash_pure`（dashboard + babel quality gate 的 SSOT）算出的值不一致。agent 忠實把 diff-patch task 的 expected 值寫進 translation frontmatter → status.py 永遠判 stale（Case D `sha-lost-hash-mismatch`）。額外：diff-patch 的 `expected_new_sha` 用 **repo HEAD** 而非檔案 last-touch commit → src_sha 不在該檔 git ancestry → `behind < 0` 觸發 hash fallback。**這是 REFLEXES #24「工具在說謊」最深的一種：不是漏報/誤報，是兩個 SSOT 候選對「同一份 zh 的同一個 hash」給出不同答案，下游採信 diff-patch 的就永遠無法 converge 到 status fresh。**
+- **觸發**：2026-06-03 21:0x — 颱風 P1 Tier 0a diff-patch × 5 lang 內容 100% 正確（media + caption 都到位、unchanged 段落 verbatim），但 status.py 仍判 5 篇 stale。逐層 diagnose（先排除 commit-sha 長度）後用 status.py 自己的函數算出 canonical zh hash = `b25ee135`/`c5aa7038`（diff-patch 給的是 `e3967f3c`/`c01afbf0`），sha 該是檔案 last commit `4407f0af` 非 repo HEAD `8bb02ec2`。修守備 = 5 篇 sync-field 校正（commit `245b71460`）。證據：[memory/2026-06-03-213602-charming-greider.md §三個 finding](memory/2026-06-03-213602-charming-greider.md)
+- **可能層級**：操作規則 + 工具架構解（diff-patch-prepare.py 改 `import status` 用 body_hash/body_hash_pure 當唯一 hash SSOT；expected_new_sha 改用 `git log -1 --format=%h -- {zh_path}` 檔案 last-touch commit）
+- **相關**：REFLEXES #24（工具說謊第 N 種：SSOT 候選分歧）+ REFLEXES #53（Babel Tier 0 patch 三路徑）。production 隱性 bug：任何 P1/P2 走 diff-patch-prepare expected hash 的 babel 都會 perpetual stale，須靠事後 sync-field 校正才 converge
+- **verification_count**: 1
+- **severity**: structural（影響所有 babel diff-patch 路徑的 stale convergence）
+
+### 2026-06-03 charming-greider (213602) — translate.py CLI 的 Z2.0 guide-inline hard gate 從未落地（規則寫了≠跑了 babel instance）
+
+- **原則**：SQUEEZE-PIPELINE Z2.0 hard gate（2026-05-24 韓籍譯者 callout 後立）規定「每個 backend prompt 必嵌目標語言 TRANSLATION-{lang}.md §1/§2/§6」，但 shared `build_translation_prompt`（openrouter-translate.py，被 codex/gemini/ollama backend 共用）至今**無任何 guide 字串** — `--guide-inline auto` 仍是 pipeline 標的「pending 儀器化候選」。babel-nightly cron 走 CLI cascade，每一篇都沒過這個 hard gate，全靠 backend default + 事後 lang-renormalize 補。
+- **觸發**：2026-06-03 manual babel — 莫那能（排灣族盲詩人 / 兩岸統一立場 / ko 대만↔타이완）是 sovereignty + romanization archetype，grep `build_translation_prompt` 發現 CLI 不 inline guide → 改走 Sonnet sub-agent 路徑（agent mandatory Read full guide + 輸出 compliance report 當 proof-of-read，破 REFLEXES #42 三偷吃步）。結果 ko 타이완 ×66/대만 ×0。但這暴露 CLI 路徑的 systemic gap。
+- **可能層級**：操作規則（實作 `translate.py --guide-inline auto`：把 guide §1+§2+§6 table 拼進每 backend system message 前綴）
+- **相關**：REFLEXES #42（sub-agent 三偷吃步 — guide 只給 path pointer 不會讀）+「規則要能執行才算規則」（§神經迴路）的 babel layer instance；Z2.0 hard gate canonical 但 production 未 enforce
+- **verification_count**: 1
+- **severity**: structural（sovereignty leak 防線在 CLI 路徑缺席）
+
+### 2026-06-03 charming-greider (213602) — fr 颱風 pre-existing 去重音壞檔（孤例）→ Z6 accent-density gate 候選
+
+- **原則**：某早期 backend 對 `fr/Nature/typhoons-in-taiwan.md` strip 了所有法文重音（git HEAD patch 前 é=5 / 13 個 stripped「prediction」），其餘 fr Nature 文 é=119-681 → 孤例非 systemic。diff-patch agent 忠實保留 unchanged-but-broken body（正確 patch 行為 — 不重譯未變段落）但 ship 仍壞 → 須全文 proper-French 重譯修復（é 5→477，0 stripped）。**Z6 auto-scan 目前只有 size-ratio < 0.5 truncation gate，抓不到「長度正常但重音被剝」的壞檔。**
+- **觸發**：2026-06-03 manual babel — fr 颱風 patch 後 grep「amplifies/reduit/prediction」發現滿篇缺重音，git show HEAD 確認 patch 前就壞（非我引入）。Spanish 颱風 accented-count=628 正常對照。修法：dispatch 1 fr full re-translate agent。證據：[memory/2026-06-03-213602-charming-greider.md](memory/2026-06-03-213602-charming-greider.md)
+- **可能層級**：操作規則（Z6.1 加 accent-density gate：fr/es 文 `(accented-char count)/(byte) < threshold` → flag suspected accent-strip；article-health.py plugin 候選）
+- **相關**：REFLEXES #24（工具說謊：size-ratio 過了不代表內容健康，重音剝離是 ratio 抓不到的維度）
+- **verification_count**: 1
+- **severity**: medium（孤例，但 detection gap 是 systemic — 無 gate 抓 accent-strip）
+
 ### 2026-06-02 twmd-routine-audit-weekly cycle 4 — Cron daemon stall → 5-day recovery lifecycle (5/30→6/02) 首次完整 observation
 
 - **原則**：cron daemon stall + recovery 是 routine 飛輪在 OS-level dependency 上的 fragility surface。5-day lifecycle pattern：D+0 stall (0 commit) → D+1 quiet residual (殘留 fix) → D+2 catchup chain compression (12 routine 壓 45 min window) → D+3 nominal recovery (drift <1hr 回 steady-state)。第一次完整 observation 給未來 daemon stall instance 提供 baseline template。
