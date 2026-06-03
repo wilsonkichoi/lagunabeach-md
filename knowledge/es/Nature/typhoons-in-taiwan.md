@@ -24,11 +24,32 @@ featured: false
 lastVerified: 2026-05-09
 lastHumanReview: false
 translatedFrom: 'Nature/颱風.md'
-sourceCommitSha: 'ef195fa9d'
-sourceContentHash: 'sha256:f24328f70712f01e'
-sourceBodyHash: 'sha256:b9d03786e906ca4a'
-translatedAt: '2026-05-13T09:30:28+08:00'
+sourceCommitSha: '4407f0af'
+sourceContentHash: 'sha256:b25ee135b9bea711'
+sourceBodyHash: 'sha256:c5aa7038d81fc4d3'
+translatedAt: '2026-06-03T21:02:26+08:00'
 readingTime: 13
+image: '/article-images/nature/morakot-modis-satellite-2009.jpg'
+imageCredit: 'NASA MODIS Rapid Response (Aqua)'
+imageLicense: 'Public domain (NASA)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Typhoon_Morakot_Aug_7_2009.jpg'
+sporeLinks:
+  - platform: 'threads'
+    date: '2026-06-03'
+    url: 'https://www.threads.com/@taiwandotmd/post/DZHUHpQk02w'
+    views: 0
+    likes: 0
+    reposts: 0
+    comments: 0
+    shares: 0
+  - platform: 'x'
+    date: '2026-06-03'
+    url: 'https://x.com/taiwandotmd/status/2062065024613679469'
+    views: 0
+    likes: 0
+    reposts: 0
+    comments: 0
+    shares: 0
 ---
 
 # Puede predecir el viento y la lluvia, pero no el destino: cuatrocientos años de tifones en Taiwán
@@ -100,6 +121,9 @@ El Centro de Investigación sobre el Cambio Ambiental (RCEC) de la Academia Sini
 
 La investigación también constató que el 6,5% de las precipitaciones extremas del tifón Morakot fue amplificado por el cambio climático antropogénico.[^1] Sin el calentamiento global, el monte Xiantou podría no haberse derrumbado en aquella madrugada. Este es un número concreto mediante el que la comunidad académica conecta directamente un tifón con el calentamiento del planeta.
 
+![Un pueblo de Minxiong, Chiayi, inundado el 9 de agosto de 2009 tras las lluvias torrenciales del tifón Morakot; agua turbia y fangosa cubre la carretera y alcanza la planta baja de las casas, con vecinos vadeando al fondo](/article-images/nature/morakot-minxiong-flood-2009.jpg)
+_9 de agosto de 2009, Minxiong, Chiayi. Morakot avanzó lentamente; las lluvias torrenciales de varios días consecutivos inundaron este pueblo. Ese 6,5% amplificado por el cambio climático se materializó precisamente en esta agua. Photo: zilupe, [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg)._
+
 "Menos pero más fuertes" invierte la lógica de prevención de desastres del pasado. Antes, los recursos se distribuían partiendo de la premisa de "vendrán varios cada año"; ahora, la premisa es "puede que todo el verano sea tranquilo, pero el que venga tendrá que aguantar la destrucción de todo un año". Un tifón es un evento extremo anual.
 
 ## Los cazadores de tifones: Taiwán que vuela dentro del ojo
@@ -116,6 +140,12 @@ Pero la caza de tifones es solo una parte del panorama de observación de tifone
 
 El satélite FORMOSAT-7, lanzado el 25 de junio de 2019, elevó el ángulo de observación desde la troposfera hasta el espacio.[^11] Seis pequeños satélites, en colaboración con la NOAA de Estados Unidos, proporcionan entre 4.000 y 5.000 perfiles atmosféricos al día, de los que aproximadamente el 80% puede penetrar hasta por debajo de 1 kilómetro de altitud, el doble que el sistema antiguo FS3/COSMIC.
 
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/PsYcjcHiGtU" title="太空中心量能宣傳片─獵風者衛星（國家太空中心 TASA）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Vídeo promocional de la Agencia Espacial de Taiwán (TASA): tras FORMOSAT-7, el satélite TRITON, fabricado en Taiwán, está especializado en medir el campo de viento sobre la superficie marina, dando un paso más en la capacidad de observación de tifones desde esta isla._
+
 Para 2025, el Servicio Meteorológico de Taiwán usa seis modelos de IA que integran datos de Estados Unidos, Taiwán y Japón en 18 predicciones de trayectoria. El margen de error en la predicción a 24 horas se redujo de 172 km en 2000 a 57 km en 2025, una mejora del ~67% en 25 años. Los modelos de IA pueden generar datos de alerta para 30 días en tan solo 4 minutos, una velocidad 900 veces superior a los métodos tradicionales.[^11]
 
 | Tecnología                                                 | Datos clave                              | Significado para la prevención de desastres                              |
@@ -126,6 +156,12 @@ Para 2025, el Servicio Meteorológico de Taiwán usa seis modelos de IA que inte
 | Modelos de IA meteorológicos (6 modelos, incluido Huafeng) | 4 min para generar predicción de 30 días | Error a 24 h de 172 km reducido a 57 km                                  |
 
 De las banderas de colores a las predicciones a 4 minutos para 30 días, la precisión acumulada durante 160 años es suficiente para que el Gobierno despliegue materiales de rescate con 72 horas de antelación y para que los agricultores cosechen sus plátanos una semana antes. Pero la precisión es, en última instancia, algo que existe en los mapas. El mapa te dice dónde va a tocar tierra el tifón, pero no te dice quién en la calle donde toca tierra tiene que seguir trabajando.
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/grDcqNrZISA" title="AI 天氣模型，預測颱風路徑更精準？《科技 Tech 好聊》EP.4（DIGITIMES）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_DIGITIMES «Ciencia y Tech: hablemos» EP.4: cómo los modelos de IA han logrado reducir el margen de error en la predicción de trayectorias de tifones hasta los 57 kilómetros._
 
 ## El costo de 31.500 millones: ¿quién lo paga?
 
@@ -171,6 +207,12 @@ Las casas permanentes de Wulipo, construidas por la Cruz Roja para los 90 hogare
 
 Wang Min-liang (A-liang), director ejecutivo de la Asociación de Desarrollo Comunitario de Riyue Xiaolin, fundó en 2011 el Gran Grupo de Danza Man para acompañar a los habitantes de Xiaolin a superar el dolor a través de cantos ancestrales y danzas. El grupo de danza recibió el reconocimiento del Premio Golden Melody de Artes Tradicionales en 2019.[^1] La pequeña Bangsi-qi llevaba toda la vida escuchando a su madre cantar cantos ancestrales, y dice: «¡Escucho, escucho, oír a mamá cantar y ya lo aprendes!»
 
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/j9T4xC5lzBo" title="【八八風災】莫拉克十年系列報導-我眼所見即是天地｜重建記憶中的小林村、杉林社區（公視 我們的島 第1016集 2019-08-12）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Nuestras Islas de PTS (公視《我們的島》), episodio 1016 (2019-08-12): diez años después de Morakot, el Gran Grupo de Danza Man «planta de vuelta el hogar» verso a verso a través de los cantos ancestrales que guardan la memoria del pueblo de Xiaolin._
+
 En la entrevista del décimo aniversario de Morakot en 2019, el superviviente Weng Rui-qi, en las casas permanentes de Wulipo, rehízo su familia con la vecina Yang Mei-lu, que también había perdido a sus seres queridos. Dijo: «La vida tiene que continuar de todos modos.»[^20]
 
 > **📝 Nota editorial**
@@ -194,6 +236,13 @@ Se puede predecir el viento y la lluvia, pero no el destino.
 - [Ecosistema alpino de Taiwán y reliquias glaciares](/Nature/台灣高山生態系與冰河孑遺) — La Cordillera Central no solo cambia la trayectoria de los tifones, sino que también alberga el ecosistema alpino de mayor altitud del mundo
 - [Lluvia de ciruelo](/Nature/梅雨) — Además de los tifones, la lluvia de ciruelo es otra fuente importante de la estación lluviosa en Taiwán, igualmente afectada por el cambio climático
 - [Islas periféricas y cultura marítima](/Geography/離島與海洋文化) — La arquitectura tradicional y el conocimiento de los topónimos de los dao de Orchid Island tienen un valor único para la prevención de desastres en la era de los tifones
+
+## Créditos de las imágenes
+
+Este artículo utiliza 2 imágenes de dominio público o con licencia CC, todas almacenadas localmente en `public/article-images/nature/` para evitar la carga directa desde los servidores de origen:
+
+- [Imagen satelital del tifón Morakot (2009-08-07)](https://commons.wikimedia.org/wiki/File:Typhoon_Morakot_Aug_7_2009.jpg) — Photo: NASA MODIS Rapid Response (satélite Aqua), 2009-08-07, Public domain (NASA). Imagen original de 7200×9200; recortada en cuadrado central a 1600×1600 para la imagen destacada del artículo.
+- [Inundación en Minxiong, Chiayi, tras el tifón Morakot (2009-08-09)](https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg) — Photo: zilupe, 2009-08-09, CC BY 2.0 via Wikimedia Commons.
 
 ## Referencias
 

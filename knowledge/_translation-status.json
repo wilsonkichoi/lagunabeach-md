@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-03T06:12:45+08:00",
-    "zhCommitHead": "f6b6ffe38",
+    "lastUpdated": "2026-06-03T21:32:57+08:00",
+    "zhCommitHead": "8bb02ec2b",
     "totalZh": 781,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
         "total_zh": 781,
-        "fresh": 780,
+        "fresh": 781,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       },
       "ja": {
         "total_zh": 781,
-        "fresh": 780,
+        "fresh": 781,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       },
       "ko": {
         "total_zh": 781,
-        "fresh": 780,
+        "fresh": 781,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       },
       "es": {
         "total_zh": 781,
-        "fresh": 780,
+        "fresh": 781,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       },
       "fr": {
         "total_zh": 781,
-        "fresh": 780,
+        "fresh": 781,
         "stale": 0,
         "metadata_stale": 0,
-        "missing": 1,
+        "missing": 0,
         "orphan": 0
       }
     },
@@ -22932,19 +22932,19 @@
     },
     "Nature/颱風.md": {
       "zh": {
-        "lastCommit": "ef195fa9",
-        "lastModified": "2026-05-09T23:11:43+08:00",
-        "contentHash": "sha256:f24328f70712f01e",
-        "bodyHash": "sha256:b9d03786e906ca4a"
+        "lastCommit": "4407f0af",
+        "lastModified": "2026-06-03T14:57:30+08:00",
+        "contentHash": "sha256:b25ee135b9bea711",
+        "bodyHash": "sha256:c5aa7038d81fc4d3"
       },
       "translations": {
         "en": {
           "path": "en/Nature/typhoons-in-taiwan.md",
           "translatedFrom": "Nature/颱風.md",
-          "sourceCommitSha": "ef195fa9d",
-          "sourceContentHash": "sha256:f24328f70712f01e",
-          "sourceBodyHash": "sha256:b9d03786e906ca4a",
-          "translatedAt": "2026-05-13T09:30:28+08:00",
+          "sourceCommitSha": "4407f0af",
+          "sourceContentHash": "sha256:b25ee135b9bea711",
+          "sourceBodyHash": "sha256:c5aa7038d81fc4d3",
+          "translatedAt": "2026-06-03T21:02:26+08:00",
           "translationLastCommit": "e8dd348a",
           "translationLastModified": "2026-05-15T13:49:45+08:00",
           "inferred": false,
@@ -22954,10 +22954,10 @@
         "ja": {
           "path": "ja/Nature/typhoons-in-taiwan.md",
           "translatedFrom": "Nature/颱風.md",
-          "sourceCommitSha": "ef195fa9d",
-          "sourceContentHash": "sha256:f24328f70712f01e",
-          "sourceBodyHash": "sha256:b9d03786e906ca4a",
-          "translatedAt": "2026-05-16T05:07:55+08:00",
+          "sourceCommitSha": "4407f0af",
+          "sourceContentHash": "sha256:b25ee135b9bea711",
+          "sourceBodyHash": "sha256:c5aa7038d81fc4d3",
+          "translatedAt": "2026-06-03T21:02:26+08:00",
           "translationLastCommit": "50927d95",
           "translationLastModified": "2026-05-16T06:13:49+08:00",
           "inferred": false,
@@ -22967,10 +22967,10 @@
         "ko": {
           "path": "ko/Nature/typhoons-in-taiwan.md",
           "translatedFrom": "Nature/颱風.md",
-          "sourceCommitSha": "ef195fa9d",
-          "sourceContentHash": "sha256:f24328f70712f01e",
-          "sourceBodyHash": "sha256:b9d03786e906ca4a",
-          "translatedAt": "2026-05-13T09:30:28+08:00",
+          "sourceCommitSha": "4407f0af",
+          "sourceContentHash": "sha256:b25ee135b9bea711",
+          "sourceBodyHash": "sha256:c5aa7038d81fc4d3",
+          "translatedAt": "2026-06-03T21:02:26+08:00",
           "translationLastCommit": "e8dd348a",
           "translationLastModified": "2026-05-15T13:49:45+08:00",
           "inferred": false,
@@ -22980,10 +22980,10 @@
         "es": {
           "path": "es/Nature/typhoons-in-taiwan.md",
           "translatedFrom": "Nature/颱風.md",
-          "sourceCommitSha": "ef195fa9d",
-          "sourceContentHash": "sha256:f24328f70712f01e",
-          "sourceBodyHash": "sha256:b9d03786e906ca4a",
-          "translatedAt": "2026-05-13T09:30:28+08:00",
+          "sourceCommitSha": "4407f0af",
+          "sourceContentHash": "sha256:b25ee135b9bea711",
+          "sourceBodyHash": "sha256:c5aa7038d81fc4d3",
+          "translatedAt": "2026-06-03T21:02:26+08:00",
           "translationLastCommit": "76527342",
           "translationLastModified": "2026-05-25T05:49:38+08:00",
           "inferred": false,
@@ -22993,10 +22993,10 @@
         "fr": {
           "path": "fr/Nature/typhoons-in-taiwan.md",
           "translatedFrom": "Nature/颱風.md",
-          "sourceCommitSha": "ef195fa9d",
-          "sourceContentHash": "sha256:f24328f70712f01e",
-          "sourceBodyHash": "sha256:b9d03786e906ca4a",
-          "translatedAt": "2026-05-13T09:30:29+08:00",
+          "sourceCommitSha": "4407f0af",
+          "sourceContentHash": "sha256:b25ee135b9bea711",
+          "sourceBodyHash": "sha256:c5aa7038d81fc4d3",
+          "translatedAt": "2026-06-03T21:02:26+08:00",
           "translationLastCommit": "69bba8e0",
           "translationLastModified": "2026-05-25T05:48:02+08:00",
           "inferred": false,
@@ -36439,19 +36439,69 @@
       },
       "translations": {
         "en": {
-          "status": "missing"
+          "path": "en/People/monaneng.md",
+          "translatedFrom": "People/莫那能.md",
+          "sourceCommitSha": "d99a231b5",
+          "sourceContentHash": "sha256:7457dd9d76d393b5",
+          "sourceBodyHash": "sha256:9f6cfc94d06126bd",
+          "translatedAt": "2026-06-03T21:02:26+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ja": {
-          "status": "missing"
+          "path": "ja/People/monaneng.md",
+          "translatedFrom": "People/莫那能.md",
+          "sourceCommitSha": "d99a231b5",
+          "sourceContentHash": "sha256:7457dd9d76d393b5",
+          "sourceBodyHash": "sha256:9f6cfc94d06126bd",
+          "translatedAt": "2026-06-03T21:02:26+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "ko": {
-          "status": "missing"
+          "path": "ko/People/monaneng.md",
+          "translatedFrom": "People/莫那能.md",
+          "sourceCommitSha": "d99a231b5",
+          "sourceContentHash": "sha256:7457dd9d76d393b5",
+          "sourceBodyHash": "sha256:9f6cfc94d06126bd",
+          "translatedAt": "2026-06-03T21:02:26+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "es": {
-          "status": "missing"
+          "path": "es/People/monaneng.md",
+          "translatedFrom": "People/莫那能.md",
+          "sourceCommitSha": "d99a231b5",
+          "sourceContentHash": "sha256:7457dd9d76d393b5",
+          "sourceBodyHash": "sha256:9f6cfc94d06126bd",
+          "translatedAt": "2026-06-03T21:02:26+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         },
         "fr": {
-          "status": "missing"
+          "path": "fr/People/monaneng.md",
+          "translatedFrom": "People/莫那能.md",
+          "sourceCommitSha": "d99a231b5",
+          "sourceContentHash": "sha256:7457dd9d76d393b5",
+          "sourceBodyHash": "sha256:9f6cfc94d06126bd",
+          "translatedAt": "2026-06-03T21:02:26+08:00",
+          "translationLastCommit": "",
+          "translationLastModified": "",
+          "inferred": false,
+          "status": "fresh",
+          "reason": "same-commit"
         }
       }
     },
@@ -54532,8 +54582,8 @@
     },
     "Culture/天燈.md": {
       "zh": {
-        "lastCommit": "0cec1d6e",
-        "lastModified": "2026-05-27T21:23:01+08:00",
+        "lastCommit": "f41a0fb8",
+        "lastModified": "2026-06-03T10:17:34+08:00",
         "contentHash": "sha256:3aee5165c69ac020",
         "bodyHash": "sha256:d0f05c3694c2e800"
       },
@@ -54541,7 +54591,7 @@
         "en": {
           "path": "en/Culture/sky-lanterns-pingxi.md",
           "translatedFrom": "Culture/天燈.md",
-          "sourceCommitSha": "0cec1d6e1",
+          "sourceCommitSha": "f41a0fb8",
           "sourceContentHash": "sha256:3aee5165c69ac020",
           "sourceBodyHash": "sha256:d0f05c3694c2e800",
           "translatedAt": "2026-05-28T05:08:33+08:00",
@@ -54554,7 +54604,7 @@
         "ja": {
           "path": "ja/Culture/sky-lanterns-pingxi.md",
           "translatedFrom": "Culture/天燈.md",
-          "sourceCommitSha": "0cec1d6e1",
+          "sourceCommitSha": "f41a0fb8",
           "sourceContentHash": "sha256:3aee5165c69ac020",
           "sourceBodyHash": "sha256:d0f05c3694c2e800",
           "translatedAt": "2026-05-28T05:08:34+08:00",
@@ -54580,7 +54630,7 @@
         "es": {
           "path": "es/Culture/sky-lanterns-pingxi.md",
           "translatedFrom": "Culture/天燈.md",
-          "sourceCommitSha": "0cec1d6e1",
+          "sourceCommitSha": "f41a0fb8",
           "sourceContentHash": "sha256:3aee5165c69ac020",
           "sourceBodyHash": "sha256:d0f05c3694c2e800",
           "translatedAt": "2026-05-28T05:08:34+08:00",

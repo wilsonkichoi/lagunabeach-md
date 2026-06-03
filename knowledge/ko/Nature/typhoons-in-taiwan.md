@@ -24,11 +24,32 @@ featured: false
 lastVerified: 2026-05-09
 lastHumanReview: false
 readingTime: 13
+image: '/article-images/nature/morakot-modis-satellite-2009.jpg'
+imageCredit: 'NASA MODIS Rapid Response (Aqua)'
+imageLicense: 'Public domain (NASA)'
+imageSource: 'https://commons.wikimedia.org/wiki/File:Typhoon_Morakot_Aug_7_2009.jpg'
+sporeLinks:
+  - platform: 'threads'
+    date: '2026-06-03'
+    url: 'https://www.threads.com/@taiwandotmd/post/DZHUHpQk02w'
+    views: 0
+    likes: 0
+    reposts: 0
+    comments: 0
+    shares: 0
+  - platform: 'x'
+    date: '2026-06-03'
+    url: 'https://x.com/taiwandotmd/status/2062065024613679469'
+    views: 0
+    likes: 0
+    reposts: 0
+    comments: 0
+    shares: 0
 translatedFrom: Nature/颱風.md
-sourceCommitSha: ef195fa9d
-sourceContentHash: 'sha256:f24328f70712f01e'
-sourceBodyHash: 'sha256:b9d03786e906ca4a'
-translatedAt: '2026-05-13T09:30:28+08:00'
+sourceCommitSha: '4407f0af'
+sourceContentHash: 'sha256:b25ee135b9bea711'
+sourceBodyHash: 'sha256:c5aa7038d81fc4d3'
+translatedAt: '2026-06-03T21:02:26+08:00'
 ---
 
 # 바람과 비는 예측할 수 있어도, 운명은 예측할 수 없다: 대만과 태풍의 400년
@@ -100,6 +121,9 @@ translatedAt: '2026-05-13T09:30:28+08:00'
 
 연구에서는 또한 모라꼬 태풍의 극단적 강수량 중 6.5%가 인위적 기후 변화로 증폭된 것임을 발견했다.[^1] 지구 온난화가 없었다면, 샨두산은 그 새벽에 무너지지 않았을 수도 있다. 이는 태풍 하나와 지구 온난화가 학계에서 직접 연결된 구체적인 수치이다.
 
+![2009년 8월 9일 자이(嘉義) 민슝(民雄)의 한 마을이 모라꼬 태풍 호우로 침수되어, 흙탕물이 도로를 뒤덮고 민가 1층까지 차오른 가운데 멀리서 주민들이 물을 헤치며 걷고 있다](/article-images/nature/morakot-minxiong-flood-2009.jpg)
+_2009년 8월 9일, 자이 민슝. 모라꼬는 느린 이동 속도로 연일 폭우를 이 마을에 쏟아부었다. 기후 변화로 6.5% 증폭된 그 비는, 결국 이런 물이 되었다. Photo: zilupe, [CC BY 2.0 via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg)._
+
 "적고 강한" 태풍은 과거의 방재 논리를 뒤집었다. 과거에는 "매년 몇 개가 올 것"이라는 전제로 자원을 배분했다면, 이제 전제는 "온 여름이 조용할 수 있지만, 왔을 때 그 한 개가 일 년치 피해를 감당해야 한다"는 것이다. 태풍 한 개가 곧 연간 극단적 사건 하나이다.
 
 ## 태풍을 쫓는 사람들: 태풍의 눈에서 날아 돌아온 대만
@@ -116,6 +140,12 @@ translatedAt: '2026-05-13T09:30:28+08:00'
 
 2019년 6월 25일 발사된 포르모사 위성 7호(FORMOSAT-7)는 관측 시각을 대류권에서 우주로 끌어올렸다.[^11] 여섯 개의 소형 위성이 미국 NOAA와 협력해 매일 4,000~5,000개의 대기 프로파일 데이터를 제공하며, 그 중 약 80%가 1km 고도 이하까지 도달한다――구 시스템 FS3/COSMIC의 두 배 수치이다.
 
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/PsYcjcHiGtU" title="太空中心量能宣傳片─獵風者衛星（國家太空中心 TASA）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_국가우주센터 TASA 홍보 영상: 포르모사 위성 7호(福爾摩沙衛星七號)에 이어, 타이완이 자체 제작한 트리톤 위성(獵風者衛星)은 해면 풍장(海面風場)을 전문적으로 측정하며, 이 섬이 태풍을 바라보는 눈을 한 걸음 더 앞으로 내밀었다._
+
 2025년에 이르러 기상청은 여섯 개의 AI 모델로 미국·대만·일본 3국 데이터를 통합해 18개 경로 예측을 생성한다. 24시간 경로 예보 오차는 2000년의 172km에서 57km로 줄어 25년간 약 67% 개선됐다. AI 모델은 4분 안에 30일 예보 데이터를 생성하는데, 이는 전통적 방법보다 900배 빠른 속도이다.[^11]
 
 | 기술                       | 주요 데이터                      | 방재에 미치는 의미                   |
@@ -126,6 +156,12 @@ translatedAt: '2026-05-13T09:30:28+08:00'
 | AI 기상 모델 (화펑 등 6개) | 4분 만에 30일 예보 생성          | 24시간 경로 오차 172km에서 57km로    |
 
 색깔 깃발에서 4분 예측까지, 160년간 축적된 정밀도는 정부가 72시간 전에 구호 물자를 배치하고 농민이 1주일 전에 바나나를 수확할 수 있을 만큼 충분하다. 그러나 정밀도란 결국 지도 위의 일이다. 지도는 태풍이 어디에 상륙할지를 알려주지만, 상륙 지점의 거리에 사는 누가 정상 출근해야 하는지는 알려주지 않는다.
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/grDcqNrZISA" title="AI 天氣模型，預測颱風路徑更精準？《科技 Tech 好聊》EP.4（DIGITIMES）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_DIGITIMES《科技 Tech 好聊》EP.4: AI 모델이 태풍 경로 예보 오차를 어떻게 57km까지 줄였는지 들여다본다._
 
 ## 315억의 대가, 누가 치르나?
 
@@ -171,6 +207,12 @@ translatedAt: '2026-05-13T09:30:28+08:00'
 
 왕민량(王民亮, 아량), 일광샤오린 지역발전협의회 총무, 2011년 다만 무용단(大滿舞團)을 창설해 샤오린 사람들이 고요(古謠, 전통 노래)와 춤을 통해 상처에서 벗어날 수 있도록 이끌었다. 무용단은 2019년 전통 예술 금곡상(金曲獎)을 수상했다.[^1] 다섯 살 방쓰치(邦思齊)는 줄곧 어머니의 고요를 들으며 "계속 듣고, 계속 듣다 보니, 어머니가 부르는 걸 들으면 저절로 알게 됐어요!"라고 말했다.
 
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/j9T4xC5lzBo" title="【八八風災】莫拉克十年系列報導-我眼所見即是天地｜重建記憶中的小林村、杉林社區（公視 我們的島 第1016集 2019-08-12）" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_공영방송 PTS《우리들의 섬(我們的島)》제1016화 (2019-08-12): 모라꼬 10년, 다만 무용단이 고요(古謠)로 기억 속의 샤오린촌을 한 소절씩 "집에 다시 심다"._
+
 2019년 모라꼬 10주년 취재에서, 생존자 웡루이치(翁瑞琪)는 우리포 영구 주택 단지에서 같은 가족을 잃은 이웃 양메이루(楊美露)와 새 가정을 꾸렸다. 그는 "나날이 살아가야 해요"라고 말했다.[^20]
 
 > **📝 큐레이터 노트**
@@ -186,6 +228,21 @@ translatedAt: '2026-05-13T09:30:28+08:00'
 그러나 2009년 그 새벽, 뤄판춘메이가 2층에서 샨두산이 무너지는 것을 바라보며 462명의 이웃이 시야에서 사라지던 그 순간, 예보가 아무리 정밀해도 이미 늦었다.
 
 우리는 바람과 비를 예측할 수 있지만, 운명은 예측할 수 없다.
+
+## 더 읽어보기
+
+- [태풍 공휴일](/Society/颱風假) — 같은 태풍 속에서 공공기관 사무직은 집에서 대기하고 도소매 노동자는 출근한다. 315억 계산에 빠진 계층 균열
+- [타이완의 기후 위기와 탄소중립 전환](/Nature/台灣氣候危機與淨零轉型) — 태풍 강수 강도 40% 증가의 배경, 지구 온난화와 타이완 에너지 전환의 더 큰 맥락
+- [타이완 고산 생태계와 빙하 잔존 생물](/Nature/台灣高山生態系與冰河孑遺) — 중앙산맥은 태풍 경로를 바꿀 뿐 아니라 세계 최고 고도 생태계의 보금자리이기도 하다
+- [매화우(梅雨)](/Nature/梅雨) — 태풍 외에, 매화우는 타이완의 또 다른 주요 우기로 마찬가지로 기후 변화의 영향을 받는다
+- [외딴 섬과 해양 문화](/Geography/離島與海洋文化) — 란위 다우족의 전통 건축과 지명 지식은 태풍 시대에 독특한 방재 가치를 지닌다
+
+## 이미지 출처
+
+이 글에서는 공공 도메인 및 CC 라이선스 이미지 2장을 사용하며, 외부 서버 핫링크를 방지하기 위해 모두 `public/article-images/nature/`에 캐시되어 있다:
+
+- [모라꼬 태풍 위성 구름 사진 (2009-08-07)](https://commons.wikimedia.org/wiki/File:Typhoon_Morakot_Aug_7_2009.jpg) — Photo: NASA MODIS Rapid Response (Aqua 위성), 2009-08-07, Public domain (NASA). 원본 7200×9200, center-square-crop하여 1600×1600을 히어로 이미지로 사용.
+- [모라꼬 태풍 호우 후 자이 민슝 침수 (2009-08-09)](https://commons.wikimedia.org/wiki/File:2009-08-09_at_a_village_under_the_Typhoon_Morakot,_in_Minxiong,_Chiayi.jpg) — Photo: zilupe, 2009-08-09, CC BY 2.0 via Wikimedia Commons.
 
 ## 참고 자료
 
