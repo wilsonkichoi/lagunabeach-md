@@ -160,6 +160,38 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 <!-- 三毛 已完成 2026-05-17 2026-05-17-184444-manual → ARTICLE-DONE-LOG.md -->
 
+### 🟠 台灣藍鵲 SEO 優化 — #2 排名卻 0 CTR，259 曝光是當前最大流量洩漏點
+
+- **Type**: `EVOLVE`
+- **Category**: Nature
+- **Path** (EVOLVE only): knowledge/Nature/台灣藍鵲.md
+- **Priority**: P1
+- **Status**: `pending`
+- **Requested**: 2026-06-04 by /twmd-evolve SC scan (session 深度研究-設計研究院)
+- **Notes**:
+  - **訊號**：SC 7d `台灣藍鵲` impressions 259 / clicks 0 / position 2.02 — 全站 7 日**曝光最高的 opportunity**，排名已在第 2 名卻完全沒人點。
+  - **動作判定 🟠 SEO 優化（非 Rewrite）**：文章本體扎實（5147 CJK / 205 行 / 標題已是強標「都市叢林裡的藍色幫派」），品質缺陷維度低 → 不是內容問題。0 CTR 在 position 2 是異常，最可能原因：(a) 野生動物查詢被 Google 圖片包 / 知識面板搶走點擊；(b) meta description / structured data 在 SERP 呈現弱。
+  - **必查**：實際搜「台灣藍鵲」看 SERP 長相（是否有 image pack / knowledge panel 卡在我們上面）→ 對症下藥（補 structured data / 改 description / 強化 SERP 縮圖），不要盲目改文章本體。
+  - **源信心**：SC 單源強訊號（position+impressions 確定）；per-article GA 在本次 cached export 只有首頁級彙總、無法交叉確認站內行為。DNA #4 雙源未滿足，標記為 SC-primary。
+- **Reference**: public/api/dashboard-analytics.json `searchConsole7d.opportunities[0]`
+
+### 🔴 Howhow EVOLVE — page 2 + 短文 + broken 延伸閱讀，105 曝光接不住
+
+- **Type**: `EVOLVE`
+- **Category**: People
+- **Path** (EVOLVE only): knowledge/People/Howhow.md
+- **Priority**: P2
+- **Status**: `pending`
+- **Requested**: 2026-06-04 by /twmd-evolve SC scan (session 深度研究-設計研究院)
+- **Notes**:
+  - **訊號**：SC 7d `howhow` impressions 105 / clicks 0 / position 11.39（卡在第 2 頁頂）。有需求、有文章、但排不上第 1 頁。
+  - **動作判定 🔴 Rewrite/擴寫**：文章偏短（3021 CJK / 92 行，低於 ~4500 baseline）+ 第 2 頁排名 + 既有 broken 延伸閱讀（INBOX 既有 entry 已記 `/people/howhow` link 壞掉）。短文 × 有需求 = 典型 rewrite 訊號，補深 + 修連結可望推 page 2→1。
+  - **必驗**：YouTuber 業配轉型時間線、頻道數據、與其他創作者的具體合作案例（避免泛化）。
+  - **源信心**：SC 單源（position+impressions 確定）；per-article GA 同上缺口。SC-primary。
+- **Reference**: public/api/dashboard-analytics.json `searchConsole7d.opportunities[2]`
+
+<!-- watch-signal（未升 candidate，下次 scan 覆核）：`台灣日治時期` SC7d 173 impr / pos 9.45 — 既有 hub knowledge/History/日治時期.md 排在第 1 頁底，子題文章（日治時期文學 / 社會運動）齊全但 broad-query 接不滿。若下個 cycle 仍高曝光低排名 → 升 EVOLVE 深化 hub。`原住民女歌手` 68 impr / pos 8.62 — 既有 當代原住民創作歌手 / 台灣原住民音樂傳統，可考慮聚焦女性創作者 list。`周智宣` 100 impr 無專文 = 潛在 NEW，但人物 niche 待哲宇判斷敏感度。 -->
+
 ### 🎼 早期批次「歸屬密集」文章 系統性重查 batch — AI 幻覺高風險區 audit
 
 - **觸發**：2026-06-01 `台灣影視配樂`被配樂專業讀者 peilinwu0702 公開 callout 錯誤率>30%，全篇作曲家↔作品誤植（已重寫 ship `b0c92a2d2`）。揭露「A↔B 密集對應」主題是 AI 最易張冠李戴的結構，早期批次（3/19 編修校對不嚴謹）風險最高。
