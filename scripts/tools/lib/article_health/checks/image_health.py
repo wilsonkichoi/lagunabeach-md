@@ -46,6 +46,8 @@ DEFAULT_ZERO_IMAGES_SEVERITY = "warn"  # rewrite-stage-4 promotes to "hard"
 
 # Markdown image syntax: ![alt](src)
 _RE_INLINE_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)\n]+)\)")
+# 2026-06-04: count 影片 iframe toward the media threshold (哲宇「圖+影片」directive).
+_RE_IFRAME = re.compile(r"<iframe[\s>]", re.IGNORECASE)
 _RE_IMAGE_SOURCES_H2 = re.compile(r"^##\s*圖片來源", re.MULTILINE)
 
 
@@ -198,27 +200,47 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     # = 2-3 張。default min_images=3, soft-launch WARN, rewrite-stage-4 升 HARD.
     if not _is_excluded_from_count_gate(str(target.path)):
         min_images = int(options.get("min_images", DEFAULT_MIN_IMAGES))
-        if total_images < min_images:
-            if total_images == 0:
-                # 0 images = broken article (always HARD by default)
+        # 2026-06-04 哲宇 directive「圖+影片 valued together」：門檻算「媒體」(圖+影片)，
+        # 不再只算圖。但保留 ≥1 靜態圖 floor (OG card / spore poster 需要靜態圖，影片無法 derive)。
+        # 修補：video-rich 範本 黃魚鴞 (1 圖+2 官方影片=3 媒體) 原本被 image-only 門檻 hard-fail。
+        iframe_count = len(_RE_IFRAME.findall(body))
+        media_total = total_images + iframe_count
+        if media_total >= min_images and total_images == 0:
+            # 媒體夠但 0 靜態圖 — OG card / poster 缺素材 (影片 thumbnail 不可靠)
+            yield Violation(
+                check=CHECK_NAME,
+                severity=_parse_severity(
+                    options.get("min_images_severity"),
+                    Severity(DEFAULT_MIN_IMAGES_SEVERITY),
+                ),
+                message=(
+                    f"缺靜態圖：{iframe_count} 影片但 0 圖 — 至少補 1 張 hero "
+                    "(OG 社群卡 / spore poster 需靜態圖，影片 thumbnail 不可靠)"
+                ),
+                fix_suggestion="補 1 張 hero 圖 (frontmatter image:) 即可解，影片仍計入媒體總量。",
+                editorial_ref=EDITORIAL_REF,
+            )
+        elif media_total < min_images:
+            if media_total == 0:
+                # 0 media = broken article (always HARD by default)
                 sev = _parse_severity(
                     options.get("zero_images_severity"),
                     Severity(DEFAULT_ZERO_IMAGES_SEVERITY),
                 )
                 msg_detail = (
-                    f"0 張圖片 — depth article 應至少 hero + scene-mid 共 "
-                    f"{min_images} 張 (per REWRITE-PIPELINE Step 4.3.1 三段敘事節奏)"
+                    f"0 媒體 — depth article 應至少 hero + scene-mid / 影片共 "
+                    f"{min_images} (per REWRITE-PIPELINE Step 4.3.1 三段敘事節奏)"
                 )
             else:
-                # 1-2 images = below ideal (configurable WARN/HARD)
+                # 1-2 media = below ideal (configurable WARN/HARD)
                 sev = _parse_severity(
                     options.get("min_images_severity"),
                     Severity(DEFAULT_MIN_IMAGES_SEVERITY),
                 )
                 msg_detail = (
-                    f"圖片數量不足：{total_images} 張 < {min_images} 張下限 "
-                    f"(depth article 理想 hero + 1-2 scene-mid = 2-3 張，"
-                    f"per REWRITE-PIPELINE Step 4.3.1 三段敘事節奏)"
+                    f"媒體不足：圖 {total_images} + 影片 {iframe_count} = {media_total} "
+                    f"< {min_images} 下限 (depth article 理想 hero + 1-2 scene-mid / "
+                    f"官方影片，per REWRITE-PIPELINE Step 4.3.1 三段敘事節奏)"
                 )
             yield Violation(
                 check=CHECK_NAME,

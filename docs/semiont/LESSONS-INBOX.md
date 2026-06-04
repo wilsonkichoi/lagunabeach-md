@@ -2769,6 +2769,15 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 - **verification_count**: 2（2026-06-04 中華台北 homepage 腳註隱性債 ＋ 天下雜誌 verbatim-but-untraceable，兩 session 連續）
 - **severity**: structural（影響 REWRITE Stage 3 ＋ article-health footnote-url 工具候選 ＋ fan-out research SSOT 可追溯性）
 
+### 2026-06-04 天下雜誌 — 儀器停在被校準那天的資料上：舊閾值可能跟新 directive 相反
+
+- **原則**：哲宇 directive「提升媒體素材要求」時，量測 8 篇校準語料發現 **paragraph-rhythm 舊密度上限 0.8 反而把哲宇點名的富媒體範本（設研院 0.91 / 天下 0.92 / 黃魚鴞 0.82）判為「密度偏高」**。儀器是 2026-05-28 atomization 修補時用「黑冠麻鷺 0.21（當時只 1 hero）/ 周蕙 1.23」校準的，閾值凍結在舊資料 + 舊方向（「visual 別太多」）。當 directive 轉 180 度（「要更多媒體」），舊閾值從「守門」變「擋路」。第二個同型矛盾：image-health ≥3 hard gate 只算圖不算影片，把 video-rich 範本黃魚鴞（1 圖+2 官方影片=3 媒體）hard-fail，跟「圖+影片 valued together」衝突。修補：density 升完整 band（floor 0.7 / ceiling 0.8→1.2 / hard 1.5+median<55，從富媒體範本重新校準）+ image-health 門檻算「圖+影片」保留 ≥1 靜態圖 floor。
+- **觸發**：2026-06-04 天下雜誌 session 哲宇 directive「檢測的儀器也要進化」。報告：[reports/media-richness-band-evolution-2026-06-04.md](../../reports/media-richness-band-evolution-2026-06-04.md)。
+- **可能層級**：(a) 反射候選：**任何 quality gate 閾值改 directive 方向時，先量測現役語料看舊閾值會不會誤判新目標範本**（量測先於設計，REFLEXES #59 延伸）；(b) 操作規則：儀器升級的 footer/docstring 記「校準語料 + 校準日期」，方便日後判斷閾值是否 stale（如 paragraph-rhythm 已記 8 篇校準）；(c) 流程：directive 轉向（「別 X」→「要 X」）時，對應的舊 gate 是優先 audit 對象。
+- **相關**：REFLEXES #15 反覆浮現要儀器化 + #59 製造數字的人最易被數字騙 + #58 儀器化 detection ≠ remediation + project_article_health_ssot（27+ 工具整合）+ feedback_progressive_refactor（小問題揭露下一層）
+- **verification_count**: 1（2026-06-04 媒體 band；對照 5/28 atomization 是同一儀器前一次反向校準 = 同儀器兩次方向相反的校準史）
+- **severity**: structural（影響 article-health 3 plugin + REWRITE-PIPELINE v6.6 + EDITORIAL v6.5 + 儀器校準方法論）
+
 ---
 
 ## ❌ 已歸檔（過時 / 撤回）

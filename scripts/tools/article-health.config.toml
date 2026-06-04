@@ -84,8 +84,12 @@ fail_on = "hard"
 # 後哲宇 callout「為什麼圖片用那麼少」揭露 Step 4.3.1 三段敘事節奏沒儀器化進
 # article-health (DNA #15 第 N 次驗證)。min_images=3 對齊 depth article 理想
 # hero + 1-2 scene-mid，rewrite-stage-4 升 HARD。
+# media-richness added 2026-06-04 哲宇 directive「提升媒體素材要求 + 圖文配比更精妙」—
+# paragraph-rhythm 升級為媒體密度 band (floor 0.7 media-poor / ceiling 1.2 / hard 1.5+median<55，
+# 從富媒體範本 設研院 0.91 / 天下 0.92 / 黃魚鴞 0.82 校準)；media-richness 補 length-scaled
+# count target (圖+影片 ~1/1.1k 字，長文朝 ≥8，INFO) + 多模態 nudge (People/Music/Nature 補影片)。
 # Legacy heal 路徑：以下 sub-list 累積 audit 後分批 heal commit。
-checks = ["frontmatter-format", "format-structure", "wikilink-target", "link-target", "cjk-punct", "chronicle-lead", "word-count", "image-health", "paragraph-rhythm"]
+checks = ["frontmatter-format", "format-structure", "wikilink-target", "link-target", "cjk-punct", "chronicle-lead", "word-count", "image-health", "paragraph-rhythm", "media-richness"]
 fail_on = "hard"
 
 [profiles."rewrite-stage-4".severity_overrides]

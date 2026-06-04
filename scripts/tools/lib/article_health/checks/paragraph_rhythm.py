@@ -1,4 +1,11 @@
-"""paragraph_rhythm — 段落呼吸節奏 + iframe density gate (atomization drift).
+"""paragraph_rhythm — 段落呼吸節奏 + 媒體密度 band (floor + ceiling).
+
+2026-06-04 哲宇 directive「提升媒體素材要求 + 圖文配比用更精妙的方式評估」→ R3
+從「只有上緣 (atomization ceiling)」升級為**完整 band (floor + ceiling)**。校準語料
+(8 篇富媒體/偏少對照，prose-CJK 同軸)：媒體偏少 中華台北 0.56 / 黑冠麻鷺 0.57 / 張懸 0；
+健康富媒體 黃魚鴞 0.82 (video-rich) / 設研院 0.91 / 天下雜誌 0.92；密集 陳建年 1.48
+(8 媒體)；atomization 周蕙 1.76。**舊 WARN=0.8 反而誤判哲宇點名的富媒體範本 (設研院/
+天下/黃魚鴞) 為「偏高」** → ceiling 升 1.2，並新增 floor 0.7 (media-poor)。
 
 2026-05-28 atomization drift 修補 Plugin (per [LESSONS-INBOX 第 7 種 drift pattern](../../../../docs/semiont/LESSONS-INBOX.md))：
 
@@ -24,11 +31,13 @@ Rules:
   - **R1 paragraph median CJK < 55**：WARN — atomization drift signal。早期
     範本 median 80+，<55 開始進入 atomization zone
   - **R2 H2 prose 段落數 > 8**：WARN — H2 章節 over-fragmented，該 H2 拆或合段
-  - **R3 iframe+image density > 0.8 / 1k CJK**：WARN — visual 倚賴上升 (周蕙
-    R2 = 1.23/1k 是 worst case)。Visual 是輔助呼吸，不是替代敘事節奏。觀察
-    者 directive override 允許上限 ≤ 1.0
-  - **R3-HARD iframe+image density > 1.5 / 1k CJK**：HARD — 超過任何 directive
-    合理範圍，必然 atomization drift
+  - **R3-FLOOR media density < 0.7 / 1k CJK**：WARN (2026-06-04 新增) — 媒體偏少 /
+    立體呈現不足。depth article 應 ~1 媒體/1k 字；長文 (≥7000) 朝 圖+影片 ≥ 8。
+    WARN soft-launch (vc≥3 後可升 HARD)
+  - **R3-WARN media density > 1.2 / 1k CJK**：WARN (2026-06-04 從 0.8 升) — visual
+    密度偏高 (陳建年 1.48 = 8 媒體已偏密)。健康富媒體 ~0.9 不該被誤判
+  - **R3-HARD media density > 1.5 / 1k CJK AND 段落 median < 55**：HARD — visual
+    倚賴 + 段落原子化雙信號 = 真 atomization drift (周蕙 1.76)
 
 Skipped paths:
   - Hub pages (knowledge/{Category}/_*.md)
@@ -57,11 +66,15 @@ DEFAULT_SEVERITY = Severity.WARN
 EDITORIAL_REF = "EDITORIAL.md §段落呼吸 + REWRITE-PIPELINE.md §Step 4.3.6 + reports/spore-voice-drift-fix-2026-05-28.md"
 APPLIES_TO = ["zh-TW"]
 
-# Thresholds
+# Thresholds — 媒體密度「band」(floor + ceiling)，2026-06-04 哲宇 directive 升級。
+# 校準語料 (8 篇，prose-CJK 同軸)：媒體偏少 中華台北 0.56 / 黑冠麻鷺 0.57 / 張懸 0；
+# 健康富媒體 黃魚鴞 0.82 / 設研院 0.91 / 天下雜誌 0.92；密集 陳建年 1.48；atomization 周蕙 1.76。
+# 舊 WARN=0.8 會誤判 設研院/天下/黃魚鴞 (哲宇點名的富媒體範本) 為「偏高」→ 升 1.2。
 PARA_MEDIAN_WARN = 55  # CJK chars — below this = atomization signal
 H2_PARA_MAX = 8  # per-H2 prose paragraph soft cap
-IFRAME_DENSITY_WARN = 0.8  # iframe+image / 1k CJK
-IFRAME_DENSITY_HARD = 1.5  # 任何 directive override 都不該超這個
+MEDIA_DENSITY_FLOOR = 0.7  # < floor = 媒體偏少 (立體呈現不足，WARN soft-launch)
+IFRAME_DENSITY_WARN = 1.2  # > warn = visual 密度偏高 (2026-06-04 從 0.8 升，避免誤判富媒體範本)
+IFRAME_DENSITY_HARD = 1.5  # > hard + median<55 = atomization drift (directive override 都不該超)
 
 
 _RE_CJK = re.compile(r"[一-鿿㐀-䶿]")
@@ -278,11 +291,33 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     visual_count = iframe_count + image_count + (1 if has_hero else 0)
     density = (visual_count * 1000) / total_cjk if total_cjk > 0 else 0
 
+    # ── R3-FLOOR: 媒體偏少 (band 下緣) — 2026-06-04 哲宇 directive「richer media」──
+    # depth article 立體呈現不足 = media-poor。WARN soft-launch (對齊 image-health /
+    # word-count staged promotion；vc≥3 後可在 rewrite-stage-4 severity_override 升 HARD)。
+    if density < MEDIA_DENSITY_FLOOR:
+        yield Violation(
+            check=CHECK_NAME,
+            severity=Severity.WARN,
+            message=(
+                f"媒體偏少 (band 下緣 R3-FLOOR): "
+                f"{visual_count} visual / {total_cjk} CJK = {density:.2f}/1k < "
+                f"{MEDIA_DENSITY_FLOOR}/1k 下限。富媒體範本 設研院 0.91 / 天下 0.92 / "
+                f"黃魚鴞 0.82 (video-rich)。"
+            ),
+            line=1,
+            snippet=f"density={density:.2f} media={visual_count}",
+            editorial_ref="EDITORIAL.md §媒體編織 (媒體密度 band)",
+            fix_suggestion=(
+                "(a) 補 hero + scene-mid 圖到 ~1 張/1k 字 (REWRITE Step 4.3.1) "
+                "(b) People/Music/Nature/媒體機構題材補官方影片 iframe (Step 4.3.6) "
+                "(c) 長文 (≥7000 字) 朝 圖+影片 ≥ 8 (per 哲宇 2026-06-04 directive)"
+            ),
+        )
     # HARD only when BOTH high visual density AND atomized paragraphs.
     # High visual density alone may be observer-directive driven (e.g. 5+ iframe
     # directive on music person) and acceptable if prose rhythm is healthy.
     # Combined signal (density + atomization) indicates true drift.
-    if density >= IFRAME_DENSITY_HARD and para_median < PARA_MEDIAN_WARN:
+    elif density >= IFRAME_DENSITY_HARD and para_median < PARA_MEDIAN_WARN:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.HARD,
@@ -306,17 +341,17 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             check=CHECK_NAME,
             severity=Severity.WARN,
             message=(
-                f"Visual density 偏高 (atomization drift R3-WARN): "
+                f"Visual density 偏高 (band 上緣 R3-WARN): "
                 f"{visual_count} visual / {total_cjk} CJK = {density:.2f}/1k > "
-                f"{IFRAME_DENSITY_WARN}/1k 建議上限。"
-                f"早期範本如黑冠麻鷺 0.21/1k = 6 倍以下。"
+                f"{IFRAME_DENSITY_WARN}/1k 建議上限 (健康富媒體 設研院/天下 ~0.9；"
+                f"陳建年 1.48 = 8 媒體已偏密；周蕙 1.76 = atomization)。"
             ),
             line=1,
             snippet=f"density={density:.2f}",
             editorial_ref="EDITORIAL.md §媒體編織",
             fix_suggestion=(
                 "考慮：(a) 文字段落自己承擔節奏不要 outsource 給 iframe "
-                "(b) 觀察者 directive override 允許上限 ≤ 1.0/1k "
-                "(c) 移除次要 iframe，留代表性 3-5 個"
+                "(b) 留代表性 3-5 個 iframe，次要的移除 "
+                "(c) > 1.5/1k 且段落 median < 55 = atomization HARD"
             ),
         )

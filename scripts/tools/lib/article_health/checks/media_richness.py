@@ -50,12 +50,20 @@ APPLIES_TO = ["zh-TW"]
 DEFAULT_MIN_IFRAMES = 1
 DEFAULT_MIN_IMAGES = 2
 
+# 2026-06-04 哲宇 directive「圖+影片 > 8 或圖文配比更精妙評估」：length-scaled count
+# target (INFO advisory) + multimodal nudge。密度 band (floor/ceiling) 由 paragraph-rhythm
+# 主責 (同軸 prose-CJK)；本檔負責 count target (denominator-free) + 多模態 (圖 AND 影片)。
+DEFAULT_CJK_PER_MEDIA = 1100  # ~1 媒體/1.1k 字 → 7700 字朝 7、長文朝 ≥8 (per directive)
+# 官方影片通常存在的題材 (0 iframe 時 nudge 補影片，per EDITORIAL §媒體編織 baseline)。
+VIDEO_RICH_CATEGORIES = {"People", "Music", "Nature"}
+
 # `<iframe` followed by whitespace or `>` — accommodates `<iframe src=...>` and
 # `<iframe>` and `<iframe\nsrc=...>`. Case-sensitive (HTML iframe spec lowercase).
 _RE_IFRAME = re.compile(r"<iframe[\s>]", re.IGNORECASE)
 _RE_INLINE_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)\n]+)\)")
 # Strip fenced code blocks before counting iframes (avoid example snippets in docs).
 _RE_CODE_BLOCK = re.compile(r"```.*?```", re.DOTALL)
+_RE_CJK = re.compile(r"[一-鿿㐀-䶿]")
 
 
 def _is_excluded_path(path_str: str) -> bool:
@@ -149,4 +157,48 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                 "(1) 補 PD/CC 圖庫進 public/article-images/ (REWRITE-PIPELINE Step 1.14)"
                 " (2) 走 §媒體編織 baseline (hero + ≥1 inline scene-mid)"
             ),
+        )
+
+    # ── Length-scaled count target (INFO) — 2026-06-04 哲宇 directive「圖+影片>8」──
+    # depth article (≥ 3000 CJK) 才評估 count target；短文不適用。INFO advisory，
+    # 密度 floor (硬一點的訊號) 由 paragraph-rhythm R3-FLOOR 主責。
+    total_media = total_images + iframe_count
+    cjk = len(_RE_CJK.findall(body_clean))
+    if cjk >= 3000:
+        count_target = max(3, round(cjk / DEFAULT_CJK_PER_MEDIA))
+        if total_media < count_target:
+            tail = "；長文 (≥7000 字) 朝 圖+影片 ≥ 8" if cjk >= 7000 else ""
+            yield Violation(
+                check=CHECK_NAME,
+                severity=Severity.INFO,
+                message=(
+                    f"媒體數量 advisory：圖+影片 {total_media} < {count_target} "
+                    f"(depth {cjk} 字，~1 媒體/{DEFAULT_CJK_PER_MEDIA} 字{tail})。"
+                    " 富媒體範本：設研院 5 圖 / 陳建年 8 (圖+影片) / 天下 6。"
+                ),
+                line=None,
+                snippet=f"media={total_media} target={count_target} cjk={cjk}",
+                editorial_ref=EDITORIAL_REF,
+                fix_suggestion="補 scene-mid 圖或官方影片 iframe (REWRITE Step 4.3.1 / 4.3.6)",
+            )
+
+    # ── Multimodal nudge (INFO) — 圖 AND 影片 (per §媒體編織 立體呈現) ──
+    category = target.frontmatter.get("category") if target.frontmatter else None
+    if (
+        cjk >= 3000
+        and iframe_count == 0
+        and isinstance(category, str)
+        and category.strip() in VIDEO_RICH_CATEGORIES
+    ):
+        yield Violation(
+            check=CHECK_NAME,
+            severity=Severity.INFO,
+            message=(
+                f"多模態 advisory：{category} 題材通常有官方影片可嵌，目前 0 iframe。"
+                " 黃魚鴞 (2 官方影片) / 陳建年 (4) 是 video-rich 立體呈現範本。"
+            ),
+            line=None,
+            snippet=f"category={category} iframe=0",
+            editorial_ref=EDITORIAL_REF,
+            fix_suggestion="找官方頻道影片嵌 iframe (oembed 驗證官方：youtube.com/oembed?url=...)",
         )
