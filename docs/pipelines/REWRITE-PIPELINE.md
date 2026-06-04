@@ -1253,6 +1253,7 @@ agent 在研究報告中聲稱的「XXX 背書」「XXX 公開推薦」等名人
 1. **冒號三明治測試** — title 是否走「主題：副標 hook」格式？單純名詞 stub（`台灣無人機產業` / `颱風` / `周杰倫`）= 百科風格，需升。對照 [EDITORIAL §Title 強制冒號三明治（所有 category）](../editorial/EDITORIAL.md#title-強制冒號三明治所有-categoryv63) v6.3 — 不限 People，全 category 強制
 2. **副標獨立成立測試** — 冒號後一句能不能單獨 tweet 出去？讀者只看到副標也能停下來嗎？
 3. **EVOLVE spine sync 測試** — 這次 EVOLVE 加的新節核心矛盾，是否已寫進 description？舊 description 還適用嗎？description 沒吃進新核心 = SC 顯示舊 hook 但讀者點進來看到新內容 = 落差
+4. **文字感 + 負面/草率掃描** 🆕（v6.5）— 標題有沒有報導者腔的文字感（具體人/地/物 + 張力 + 留白）？有沒有踩中文語境紅線（網路輕佻「搞/爛/雷/翻車」、農場「震驚/竟然/真相是」、負面定調「崩壞/淪陷」、自貶 dismissive、過度賣弄）？一句判準：念給長輩聽像「認真報導」還是「網路八卦」？canonical + 18 範例 gallery 在 [EDITORIAL §Title 的文字感](../editorial/EDITORIAL.md#title-的文字感--對標報導者公視獨立媒體v65-新增2026-06-04)
 
 **任一答 no → 重寫 frontmatter title + description，跟 prose 同 commit**。
 

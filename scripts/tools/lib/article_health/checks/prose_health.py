@@ -170,11 +170,26 @@ def _count_urls(body: str) -> int:
     return body.count("http")
 
 
+# 參考裝置 section 標題：延伸閱讀 / 圖片來源 / 參考資料 / 授權清單 —— 這些是
+# attribution / reference apparatus，bullet 是結構必需（每張圖一條、每篇延伸一條），
+# 不是 prose 灌水。bullet 灌水檢查只看正文，碰到這些 heading 就截斷。
+# 2026-06-04 v2 實驗：5 圖 article 的「## 圖片來源」5 bullet 誤判成「連續bullet5行」。
+_REF_APPARATUS_RE = re.compile(
+    r"(?m)^#{2,3}\s*(延伸閱讀|圖片來源|圖片授權|媒體授權|參考資料|參考來源|資料來源|來源)"
+)
+
+
+def _body_before_apparatus(body: str) -> str:
+    """正文 = 第一個參考裝置 heading 之前（bullet 灌水只查正文）。"""
+    m = _REF_APPARATUS_RE.search(body)
+    return body[: m.start()] if m else body
+
+
 def _count_repeated_bullets(body: str) -> int:
-    """Max consecutive `- **` bullet block length."""
+    """Max consecutive `- **` bullet block length（排除參考裝置 section）。"""
     max_run = 0
     cur = 0
-    for line in body.splitlines():
+    for line in _body_before_apparatus(body).splitlines():
         if line.startswith("- **"):
             cur += 1
             if cur > max_run:
@@ -185,9 +200,10 @@ def _count_repeated_bullets(body: str) -> int:
 
 
 def _count_bullet_lines(body: str) -> tuple[int, int]:
-    """Returns (bullet_lines, total_lines). Bullet = `- **` style."""
-    total = body.count("\n") + 1
-    bullets = sum(1 for line in body.splitlines() if line.startswith("- **"))
+    """Returns (bullet_lines, total_lines). Bullet = `- **` style（排除參考裝置）。"""
+    prose = _body_before_apparatus(body)
+    total = prose.count("\n") + 1
+    bullets = sum(1 for line in prose.splitlines() if line.startswith("- **"))
     return bullets, total
 
 
