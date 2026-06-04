@@ -1,11 +1,18 @@
 ---
 title: 'Postwar Economic Development'
-description: 'The trajectory of Taiwan's economic miracle, rising from an agricultural society to become one of the Four Asian Tigers'
+description: "The trajectory of Taiwan's economic miracle, rising from an agricultural society to become one of the Four Asian Tigers"
 date: 2026-03-17
 author: 'Taiwan.md'
 category: 'History'
 subcategory: '殖民與帝國'
-tags: ['Economic History', 'Industrialization', 'Ten Major Construction Projects', 'Economic Miracle', 'Industrial Transformation']
+tags:
+  [
+    'Economic History',
+    'Industrialization',
+    'Ten Major Construction Projects',
+    'Economic Miracle',
+    'Industrial Transformation',
+  ]
 lastVerified: 2026-03-19
 lastHumanReview: false
 featured: false
@@ -162,7 +169,11 @@ _References:_
 - Related academic works on Taiwan economic history
 
 [^1]: Export Processing Zone Administration, "Founding History," https://www.epza.gov.tw/page.aspx?pageid=45da8e73a81d495d
+
 [^2]: "US Aid" entry, Wikipedia, https://zh.wikipedia.org/zh-tw/美援
+
 [^3]: Wu Tsong-Min, "From Control to Export Expansion," https://homepage.ntu.edu.tw/~ntut019/ltes/Taiwan-Growth-Ch.pdf
+
 [^4]: Directorate-General of Budget, Accounting and Statistics Statistical Database, https://www.dgbas.gov.tw/
+
 [^5]: Wu Tsong-Min, "Research on Taiwan's Hyperinflation," http://homepage.ntu.edu.tw/~ntut019/ltes/Big-inflation.pdf

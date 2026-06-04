@@ -1,11 +1,18 @@
 ---
 title: 'Urban Character and Regional Culture'
-description: 'From Taipei's international metropolis to Tainan's ancient capital charm, how cities across Taiwan shape unique local identities'
+description: "From Taipei's international metropolis to Tainan's ancient capital charm, how cities across Taiwan shape unique local identities"
 date: 2026-03-18
 author: 'Taiwan.md'
 category: 'Geography'
 subcategory: '城市與人文地理'
-tags: ['City', 'Regional Culture', 'Local Character', 'Urban Development', 'Cultural Geography']
+tags:
+  [
+    'City',
+    'Regional Culture',
+    'Local Character',
+    'Urban Development',
+    'Cultural Geography',
+  ]
 readingTime: 12
 lastVerified: 2026-03-19
 lastHumanReview: false
@@ -67,7 +74,7 @@ Taipei residents tend to have a strong international outlook, high receptivity t
 
 New Taipei City encircles Taipei and encompasses a diverse landscape of mountains, coastline, industrial zones, and residential areas, forming a key component of the Taipei metropolitan area.
 
-New Taipei's vast territory gives each district its own character. Tamsui Old Street and Fisherman's Wharf at the mouth of the Tamsui River are among northern Taiwan's most popular weekend destinations; Jiufen and Jinguashih, mountain towns shaped by Japanese-era gold mining settlements, are often associated by foreign visitors with scenes from *Spirited Away*. Yingge is renowned for its ceramics craftsmanship, Sanxia Zushi Temple for its intricate carvings, and Xindian's Wulai district preserves Atayal hot spring culture.
+New Taipei's vast territory gives each district its own character. Tamsui Old Street and Fisherman's Wharf at the mouth of the Tamsui River are among northern Taiwan's most popular weekend destinations; Jiufen and Jinguashih, mountain towns shaped by Japanese-era gold mining settlements, are often associated by foreign visitors with scenes from _Spirited Away_. Yingge is renowned for its ceramics craftsmanship, Sanxia Zushi Temple for its intricate carvings, and Xindian's Wulai district preserves Atayal hot spring culture.
 
 ### Taoyuan City: The Aviation Gateway
 
@@ -302,7 +309,11 @@ This urban diversity constitutes Taiwan's most unique human asset, allowing peop
 ## References
 
 [^1]: Department of Household Registration, Ministry of the Interior, [Population Statistics Query System](https://www.ris.gov.tw/).
+
 [^2]: National Yang Ming Chiao Tung University, [Official Website](https://www.nycu.edu.tw/), including university history and introduction.
+
 [^3]: Tourism Administration, Ministry of Transportation and Communications, [Urban Tourism Statistics](https://admin.taiwan.net.tw/).
-[^4]: Lin Shurong et al., *Rereading Taiwan: Anthropological Perspectives*, [link](https://www.books.com.tw/products/0010659492).
+
+[^4]: Lin Shurong et al., _Rereading Taiwan: Anthropological Perspectives_, [link](https://www.books.com.tw/products/0010659492).
+
 [^5]: Cultural Affairs Bureaus of various cities, [Official publications (Tainan City Bureau of Culture as example)](https://culture.tainan.gov.tw/).

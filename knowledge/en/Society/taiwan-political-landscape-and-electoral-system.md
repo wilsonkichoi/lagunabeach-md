@@ -1,11 +1,19 @@
 ---
-title: 'Taiwan's Political Landscape and Electoral System'
+title: "Taiwan's Political Landscape and Electoral System"
 description: 'From the constitutional framework, central and local electoral mechanisms, to the deeper party-political culture, a comprehensive analysis of how Taiwan maintains a vibrant and institutionally rigorous democratic society amid complex geopolitics'
 date: 2026-03-18
 author: 'Taiwan.md Contributors'
 category: 'Society'
 subcategory: '民主與政治'
-tags: ['Political System', 'Electoral System', 'Semi-Presidentialism', 'Local Self-Governance', 'Civil Society', 'Digital Democracy']
+tags:
+  [
+    'Political System',
+    'Electoral System',
+    'Semi-Presidentialism',
+    'Local Self-Governance',
+    'Civil Society',
+    'Digital Democracy',
+  ]
 readingTime: 12
 lastVerified: 2026-03-19
 lastHumanReview: false
@@ -23,7 +31,7 @@ translatedAt: '2026-05-17T05:34:48+08:00'
 
 ## I. Constitutional Framework: Five-Power Separation and Dual Executive System
 
-Taiwan's governmental structure derives from the *Constitution of the Republic of China*. After seven rounds of critical additional articles, it has evolved into the current **semi-presidential system**, also known as the dual executive system.[^1] The president is directly elected by all citizens every four years, responsible for national defense, foreign affairs, and cross-strait relations, and holds the power to directly appoint the premier (without Legislative Yuan confirmation). The premier is appointed by the president; cabinet ministers are nominated by the premier and appointed by the president. The Executive Yuan is accountable to the Legislative Yuan; if the Legislative Yuan passes a vote of no confidence, the premier must resign. The Legislative Yuan is a unicameral legislature responsible for law review, budgetary scrutiny, and government oversight.
+Taiwan's governmental structure derives from the _Constitution of the Republic of China_. After seven rounds of critical additional articles, it has evolved into the current **semi-presidential system**, also known as the dual executive system.[^1] The president is directly elected by all citizens every four years, responsible for national defense, foreign affairs, and cross-strait relations, and holds the power to directly appoint the premier (without Legislative Yuan confirmation). The premier is appointed by the president; cabinet ministers are nominated by the premier and appointed by the president. The Executive Yuan is accountable to the Legislative Yuan; if the Legislative Yuan passes a vote of no confidence, the premier must resign. The Legislative Yuan is a unicameral legislature responsible for law review, budgetary scrutiny, and government oversight.
 
 The constitutional design includes the Judicial Yuan, Examination Yuan, and Control Yuan, forming a five-power separation framework. In practice, however, Taiwan has gradually converged toward the core tripartite structure of executive, legislative, and judicial branches. The abolition or functional adjustment of the Examination and Control Yuans remains a long-standing topic of constitutional reform discussion in Taiwan, though no formal constitutional amendment proceedings are currently underway. Academic debate over "whether semi-presidentialism suits Taiwan" also persists—constitutional scholars Wu Yushan and Lin Jiwen, among others, have pointed out that constitutional gridlock during divided government is one of the structural problems inherent to semi-presidentialism.
 
@@ -55,7 +63,7 @@ On **January 13, 2024**, presidential and legislative elections were held concur
 
 From **May to June 2024**, the legislative opposition majority (KMT + TTP) pushed forward the **Legislative Reform Bill**, containing controversial provisions including expanded Legislative Yuan investigative powers, a hearing system, and requiring the president to take questions on the spot during the State of the Nation address. These raised concerns of unconstitutionality and triggered large-scale civic street protests (the Bluebird Movement). The bill was ultimately referred for constitutional review by President Lai and the DPP caucus. On **October 25, 2024**, the Constitutional Court issued **J.Y. Interpretation No. 113-9**, ruling multiple provisions unconstitutional—an outcome widely referred to as **"113 Xian Pan 9."**
 
-The Grand Justice vacancy crisis was the most severe constitutional challenge of this period. In **October 2024**, **7 of the 15 Grand Justice seats** on the Constitutional Court had their terms expire (including then-President Hsu Tzong-li and Vice President Tsai Chiang-ting). Lai Ching-te nominated 7 replacement candidates in August 2024, but the Legislative Yuan, under its KMT-TPP majority, rejected all of them on **December 24, 2024**, leaving the Constitutional Court operating with only 8 justices for an extended period. The Legislative Yuan subsequently amended the *Constitutional Procedure Act* to raise the threshold for calculating the total number of sitting Grand Justices, further constraining the Constitutional Court's operational capacity and triggering subsequent disputes over constitutional validity.[^4]
+The Grand Justice vacancy crisis was the most severe constitutional challenge of this period. In **October 2024**, **7 of the 15 Grand Justice seats** on the Constitutional Court had their terms expire (including then-President Hsu Tzong-li and Vice President Tsai Chiang-ting). Lai Ching-te nominated 7 replacement candidates in August 2024, but the Legislative Yuan, under its KMT-TPP majority, rejected all of them on **December 24, 2024**, leaving the Constitutional Court operating with only 8 justices for an extended period. The Legislative Yuan subsequently amended the _Constitutional Procedure Act_ to raise the threshold for calculating the total number of sitting Grand Justices, further constraining the Constitutional Court's operational capacity and triggering subsequent disputes over constitutional validity.[^4]
 
 In **2025**, the DPP and civil society organizations launched a large-scale recall campaign, initiating recall petitions against several opposition legislators—an event dubbed the **"Great Recall Wave."** Multiple recall cases crossed the petition threshold and advanced to the voting stage, becoming the largest simultaneous recall action in Taiwan's democratic history and once again testing the procedural design of the recall system.[^5]
 
@@ -70,9 +78,13 @@ Taiwan's democratic resilience derives from the system's own separation-of-power
 ## References
 
 [^1]: [National Laws and Regulations Database: Constitution of the Republic of China](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001) — Full text of the Constitution and its Additional Articles.
+
 [^2]: [Central Election Commission Historical Election Database](https://db.cec.gov.tw/) — Election data and turnout statistics dating back to the 1980s.
+
 [^3]: [Central Election Commission: 2024 16th Presidential and Vice-Presidential Election](https://db.cec.gov.tw/histQuery.jsp?voteCode=20240101A1&type=presMain) — Confirms Lai Ching-te's vote share of 40.05% and seat distribution by party.
+
 [^4]: [Constitutional Court Announcements: Grand Justice Personnel Overview](https://cons.judicial.gov.tw/) — Confirms the expiration of 7 Grand Justice terms in October 2024 and the resulting vacancies.
+
 [^5]: [g0v (gov-zero)](https://g0v.tw/) — Civic technology and recall petition tracking tools during the 2025 Great Recall Wave.
 
 **Further Reading**

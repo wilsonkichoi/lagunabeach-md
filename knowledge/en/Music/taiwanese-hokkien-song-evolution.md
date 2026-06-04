@@ -1,11 +1,21 @@
 ---
-title: 'The Evolution of Taiwanese Hokkien Songs: From "Old Man's Music" to Indie Darling'
+title: 'The Evolution of Taiwanese Hokkien Songs: From "Old Man''s Music" to Indie Darling'
 description: 'Tracing the evolution of Taiwanese Hokkien songs from the nakashi era, the golden age of Hung I-feng and Jody Chiang, to the new-generation bands such as Eggplant Egg, Sorry Youth, and Collage — exploring how Hokkien music has regained the identity of younger generations.'
 date: 2026-03-19
 author: 'Taiwan.md'
 category: 'Music'
 subcategory: '流行音樂'
-tags: ['台語歌曲', '那卡西', '洪一峰', '江蕙', '茄子蛋', '拍謝少年', '珂拉琪', '金曲獎']
+tags:
+  [
+    '台語歌曲',
+    '那卡西',
+    '洪一峰',
+    '江蕙',
+    '茄子蛋',
+    '拍謝少年',
+    '珂拉琪',
+    '金曲獎',
+  ]
 readingTime: 14
 lastVerified: 2026-03-19
 lastHumanReview: false
@@ -16,6 +26,7 @@ sourceContentHash: 'sha256:f008ac775b92e042'
 sourceBodyHash: 'sha256:14cffd9d61fb7eb9'
 translatedAt: '2026-05-17T05:34:48+08:00'
 ---
+
 # The Evolution of Taiwanese Hokkien Songs: From "Old Man's Music" to Indie Darling
 
 ## 30-Second Overview
@@ -46,13 +57,13 @@ The busking culture also cultivated the distinctive vocal style characteristic o
 
 ### Hung I-feng: The Rise of the Hokkien Song King
 
-Hung I-feng is revered as the "Hokkien Song King." His emergence marked the transition of Hokkien songs from the streets to the formal music industry. His 1957 release *The One I Long For* (思慕的人) became a classic in the history of Hokkien music, its beautiful melody and deeply emotional lyrics showcasing the artistic heights Hokkien songs could reach.
+Hung I-feng is revered as the "Hokkien Song King." His emergence marked the transition of Hokkien songs from the streets to the formal music industry. His 1957 release _The One I Long For_ (思慕的人) became a classic in the history of Hokkien music, its beautiful melody and deeply emotional lyrics showcasing the artistic heights Hokkien songs could reach.
 
 Hung I-feng's success lay not only in his outstanding vocal technique but also in his ability to capture the collective emotions of the Taiwanese people. His songs often depicted the joys and sorrows of ordinary people, expressing the most profound feelings in the most unadorned language, creating a powerful resonance with listeners.
 
 ### Wen Xia: Pioneer of the Singer-Songwriter
 
-Wen Xia was another song king who left an indelible mark on the Hokkien music scene — both an exceptional performer and a prolific composer. His signature works, including *Mother, Please Take Care of Yourself* (媽媽請你也保重) and *Hometown at Dusk* (黃昏的故鄉), remain widely sung to this day.[^2]
+Wen Xia was another song king who left an indelible mark on the Hokkien music scene — both an exceptional performer and a prolific composer. His signature works, including _Mother, Please Take Care of Yourself_ (媽媽請你也保重) and _Hometown at Dusk_ (黃昏的故鄉), remain widely sung to this day.[^2]
 
 Wen Xia's compositional style blended traditional Taiwanese folk elements with modern pop sensibilities, preserving the indigenous character of Hokkien songs while giving them a contemporary feel. His success proved that Hokkien songs could achieve the highest artistic standards, setting a model for later Hokkien musicians.
 
@@ -90,7 +101,7 @@ Jody Chiang's concerts were perpetually sold out, a testament to the important p
 
 ### Eggplant Egg: A Rock-and-Roll Interpretation of Hokkien
 
-The emergence of [[Eggplant Egg]] marked the entry of Hokkien songs into an entirely new era. The band pairs rock arrangements with Hokkien lyrics, creating a unique musical style. Their signature hit *Wayward Son Returns* (浪子回頭) went viral online, leading many young people to rediscover the appeal of Hokkien songs.
+The emergence of [[Eggplant Egg]] marked the entry of Hokkien songs into an entirely new era. The band pairs rock arrangements with Hokkien lyrics, creating a unique musical style. Their signature hit _Wayward Son Returns_ (浪子回頭) went viral online, leading many young people to rediscover the appeal of Hokkien songs.
 
 Eggplant Egg's success lies in their ability to interpret Hokkien songs through a musical language familiar to young people, breaking down the language barrier. Their lyrics are full of colloquial, life-like expressions, paired with solid arrangements, giving Hokkien songs an unprecedented sense of modernity.
 
@@ -154,8 +165,8 @@ Streaming data has also made the audience profile of Hokkien songs quantifiable 
 
 ## References
 
-- Jian Shang-ren, *Legends of Taiwanese Ballads*, Taipei: Nongxue Society
-- Zhuang Yongming, *Taiwanese Ballads and Local Sentiment*, Taipei: China Times Publishing
+- Jian Shang-ren, _Legends of Taiwanese Ballads_, Taipei: Nongxue Society
+- Zhuang Yongming, _Taiwanese Ballads and Local Sentiment_, Taipei: China Times Publishing
 - Golden Melody Awards Hokkien Album Winners List and Jury Records: https://gma.tavis.tw/
 - Hung I-feng Music and Culture Association Database
 - Jody Chiang Official Performance Records and Media Coverage Compilation
@@ -163,12 +174,16 @@ Streaming data has also made the audience profile of Hokkien songs quantifiable 
 - Sorry Youth Band: https://sorryyouth.bandcamp.com/
 - Collage Official Music Platform Information
 - Hokkien Music Culture Research Society Conference Proceedings
-- *A History of Hokkien Song Development*, published by the National Museum of Taiwan Literature
+- _A History of Hokkien Song Development_, published by the National Museum of Taiwan Literature
 - Hakka TV Hokkien Music Program Database
 - Chinese Musicians Exchange Association Hokkien Music Special Research
 
 [^1]: Wikipedia, "Golden Melody Award for Best Hokkien Album" entry: The Best Hokkien Album award was established starting from the 16th awards (2005). https://zh.wikipedia.org/wiki/金曲獎最佳台語專輯
-[^2]: Wikipedia, "Wen Xia" entry: Biography of Wen Xia, records of signature works including *Mother, Please Take Care of Yourself* and *Hometown at Dusk*. https://zh.wikipedia.org/wiki/文夏
+
+[^2]: Wikipedia, "Wen Xia" entry: Biography of Wen Xia, records of signature works including _Mother, Please Take Care of Yourself_ and _Hometown at Dusk_. https://zh.wikipedia.org/wiki/文夏
+
 [^3]: Wikipedia, "Jody Chiang" entry: Biography and career of Jody Chiang, background on the revival of the Hokkien song market after the lifting of martial law. https://zh.wikipedia.org/wiki/江蕙
+
 [^4]: Collage official music channel and creative introduction. [StreetVoice](https://streetvoice.com/collage7275/) ｜ [YouTube](https://www.youtube.com/@collage7275)
+
 [^5]: Golden Melody Awards official website: Historical Best Hokkien Album winners records. https://gma.tavis.tw/

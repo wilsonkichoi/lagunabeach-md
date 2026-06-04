@@ -1,6 +1,6 @@
 ---
 title: 'Taiwan Agricultural Landscapes and Industry Belts'
-description: 'The shift in agricultural landscapes from north to south traces Taiwan's transformation from the "Taiwanese Granary" to "precision agriculture."'
+description: 'The shift in agricultural landscapes from north to south traces Taiwan''s transformation from the "Taiwanese Granary" to "precision agriculture."'
 date: 2026-03-18
 author: 'Taiwan.md'
 category: 'Geography'
@@ -157,9 +157,14 @@ Taiwan's agriculture is transforming from the "Taiwanese Granary" to a "Precisio
 
 ## References
 
-[^1]: Department of Statistics, Ministry of Agriculture, [*Taiwan Agricultural Statistical Yearbook*](https://agrstat.moa.gov.tw/sdweb/public/book/Book.aspx), 2025.
-[^2]: Ministry of Agriculture, [Agricultural Policy and Development Information](https://www.moa.gov.tw/), including *History of Taiwan's Agricultural Development* (2023).
-[^3]: Changhua County Government, [Agricultural Industry Development Information](https://www.chcg.gov.tw/), including *Zhuoshui River Rice Barn Industry Development Report* (2024).
-[^4]: Taitung County Government, [Indigenous Agriculture and Industry Development](https://www.taitung.gov.tw/), including *Indigenous Agricultural Revitalization Plan* (2025).
-[^5]: Agency of Irrigation and Engineering, Ministry of Agriculture, [Chianan Irrigation System and Water History Information](https://www.ia.gov.tw/), including *Centennial History of the Chianan Irrigation System* (2020).
-[^6]: Hualien County Government Agriculture Department, [Eastern Organic Agriculture Development Information](https://www.hl.gov.tw/), including *Survey of the Current State of Eastern Organic Agriculture* (2024).
+[^1]: Department of Statistics, Ministry of Agriculture, [_Taiwan Agricultural Statistical Yearbook_](https://agrstat.moa.gov.tw/sdweb/public/book/Book.aspx), 2025.
+
+[^2]: Ministry of Agriculture, [Agricultural Policy and Development Information](https://www.moa.gov.tw/), including _History of Taiwan's Agricultural Development_ (2023).
+
+[^3]: Changhua County Government, [Agricultural Industry Development Information](https://www.chcg.gov.tw/), including _Zhuoshui River Rice Barn Industry Development Report_ (2024).
+
+[^4]: Taitung County Government, [Indigenous Agriculture and Industry Development](https://www.taitung.gov.tw/), including _Indigenous Agricultural Revitalization Plan_ (2025).
+
+[^5]: Agency of Irrigation and Engineering, Ministry of Agriculture, [Chianan Irrigation System and Water History Information](https://www.ia.gov.tw/), including _Centennial History of the Chianan Irrigation System_ (2020).
+
+[^6]: Hualien County Government Agriculture Department, [Eastern Organic Agriculture Development Information](https://www.hl.gov.tw/), including _Survey of the Current State of Eastern Organic Agriculture_ (2024).
