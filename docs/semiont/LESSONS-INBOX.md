@@ -275,7 +275,8 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
   - REFLEXES #15「反覆浮現要儀器化」第 N 次驗證 — vc 計數本身就是這條反射的 instantiation（routine prompt Stage 3 inline）
   - 2026-06-01 22:04 maintainer-pm + 2026-06-02 23:46 maintainer-daily + 2026-06-03 08:40 maintainer-am 三條 memory 都記了 effective-empty 但無 LESSONS 升級（因為 vc 個別 < 3 閾值）— 本 entry 補 cross-cycle pattern visibility
   - 2026-06-04 08:40 maintainer-am 第 4 棒連續空場 — 0 PR / 17 chronic issue 同集合 / build green / morning chain (06:00 refresh / 06:30 harvest / 07:07 feedback-triage) 已 captures 全部 routine input → 08:40 fire 落在 morning chain 後 / observer wake 前的 dead zone。AM 也有 schedule 撞期 issue，不只 PM。escalation 持續 pending 觀察者拍板（3 候選見上方）
-- **verification_count**: 2
+  - 2026-06-04 22:02 maintainer-pm 第 5 棒連續空場 — 0 PR / 同 17 chronic issue (most-recent updated 5/31 = 4 天前) / build green / broken-link 6.62% PASS (chronic, < 7% threshold, < 8% spike threshold) / day 全 manual session 跑 8+ 篇 rewrite (中華台北 / 天下雜誌 / 開放文化基金會 / 設研院 / TASA / 健保 / Computex + 2 spore SHIP #117/#118 #120/#121) — 但都是 routine 自轉 + manual rewrite，**非 contributor PR**。afternoon-pm gap 仍未 captures contributor inflow（17 issue 集合無變化）。watch criteria 全 vacuous：(a) 0 contributor PR / (b) build green / (c) broken-link 6.62% no spike / (d) observer 拍板尚未 land。escalation 6 天 chronic（5/28 vc=8 → 6/3 vc=3 → 6/4 vc=4 → 6/4 vc=5）
+- **verification_count**: 3
 - **severity**: structural（影響 routine schedule design 決策，但非 immediate organism harm — chronic 浪費 cron token budget + LLM context dilution）
 - **defer 給觀察者**：⚠️ 需哲宇拍板 3 schedule 候選；本 entry 是 escalation gate，下次 maintainer cycle 仍 empty 加 verification_count
 
