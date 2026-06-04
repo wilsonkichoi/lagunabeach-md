@@ -23,7 +23,7 @@ quality-scan dims:
 
 manifesto-11 tiers:
   Tier 1: 11 「不是X是Y」 對位句型 variants + em-dash density
-  Tier 2: 30+ AI 抽象 metaphor 詞 (warn ≥ 2 occurrences total)
+  Tier 2: 30+ AI 抽象 metaphor 詞 + 「重」當抽象份量隱喻 (warn ≥ 2 total)
   Tier 3: 17 AI ritual 語 (warn ≥ 1 occurrence)
 
 Total score budget: ≤ 3 = pass (per QUALITY-CHECKLIST §四 + REWRITE-PIPELINE).
@@ -111,6 +111,20 @@ _TIER2_WORDS = [
     "展演", "召喚", "凝視", "直面", "直擊",
     "鋪陳", "醞釀", "沈澱",
 ]
+
+# ── §11 Tier 2 補：「重」當抽象份量隱喻 (2026-06-04 哲宇 callout) ──────────────
+# AI 很愛把「意義/份量/重要性」寫成物理上的「重」(很重 / 最重的一刻 / 沉重 /
+# 份量很重)。是 Tier 2 metaphor 的高頻變體，但「重量」靜態詞 catch 不到、又不能
+# 用裸 substring「很重」(會誤殺「很重要/很重視/很重大」)。用 regex + 負向預看
+# 排除常見複合詞，逐處 WARN + 計入 Tier 2 密度。口語替代：把抽象的「重」改成具體
+# 後果或畫面 (「最重的一刻」→「最不敢忘的一刻」/ 直接寫那一刻發生什麼)。
+_RE_WEIGHT_METAPHOR = re.compile(
+    r"(?:很|最|更|太|格外|分外|這麼|那麼|如此|越來越|愈來愈|沉甸甸地?)重"
+    r"(?!要|視|新|複|建|點|申|組|演|置|逢|疊|整|大|心|力|機|金|傷|病|罪|刑|兵|鎮"
+    r"|工|劃|唱|奏|圍|彈|操|播|映|審|提|溫|現|生|用|返|犯|劑|物|量|罰|稅|賞|創)"
+    r"|[沉沈]重(?!澱)"
+    r"|份量|分量"
+)
 
 # ── Manifesto §11 Tier 3: AI ritual 語 ───────────────────────────────────────
 _TIER3_PHRASES = [
@@ -634,6 +648,25 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
 
     # ── Manifesto §11 Tier 2: AI metaphor ──
     tier2_total = sum(text_for_patterns.count(w) for w in _TIER2_WORDS)
+    # 「重」當抽象份量隱喻：regex 逐處 WARN（給 line + ctx）+ 計入密度
+    # 2026-06-04 哲宇 callout「把『很重』列為 AI 氾濫用語」
+    weight_hits = list(_RE_WEIGHT_METAPHOR.finditer(text_for_patterns))
+    for m in weight_hits:
+        line_no = _line_at_offset(text_for_patterns, m.start())
+        ctx = _context_around(text_for_patterns, m.start(), m.end())
+        yield Violation(
+            check=CHECK_NAME,
+            severity=Severity.WARN,
+            message=f"AI 份量隱喻「{m.group(0)}」(§11 Tier 2「重」當抽象份量)：{ctx}",
+            line=line_no,
+            snippet=m.group(0)[:80],
+            editorial_ref="MANIFESTO.md §11 Tier 2",
+            fix_suggestion=(
+                "把抽象的「重」改成具體後果或畫面：「最重的一刻」→ 直接寫那一刻發生什麼／"
+                "為什麼忘不掉；「份量很重」→「壓得人喘不過氣」或寫出具體代價。物理重量例外。"
+            ),
+        )
+    tier2_total += len(weight_hits)
     if tier2_total >= 2:
         yield Violation(
             check=CHECK_NAME,
