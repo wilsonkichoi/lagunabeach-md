@@ -81,6 +81,9 @@ _宏碁創辦人施振榮。1984 年他把「台北市電腦展」正名為 COMP
 
 先倒下的是美國的 COMDEX。2003 年，隨著 COMDEX 沒落，Computex 主辦單位把台北世貿三館正式納入展區，這一年它正式爬上「僅次於 CeBIT 的世界第二大」電腦展，並在 2004 年確立四館同開的規模[^4][^5]。
 
+![德國漢諾威 CeBIT 2005 展場內人潮洶湧，寬闊的展館走道兩側排滿各家資訊廠商的攤位，天花板挑高、看板林立，呈現當年世界第一大電腦展的規模](/article-images/technology/cebit-hannover-2005.jpg)
+_德國漢諾威 CeBIT 2005 年的展場。網路泡沫全盛期，它一度衝到 85 萬參觀人次，是不折不扣的世界第一；2018 年它宣布走入歷史。Photo: Florian K, 2005-03-16. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cebit_Hannover_2004.JPG)._
+
 撐得比較久的是德國的 CeBIT。CeBIT 1986 年從歷史悠久的漢諾威工業展獨立出來，網路泡沫的全盛期一度衝到 85 萬參觀人次，是不折不扣的世界第一[^7]。但盛極而衰，參觀和參展的人數年年下滑，市場被一月的 CES、二月的 MWC、六月的 Computex、九月的 IFA 一塊塊分食。2018 年 11 月，主辦方宣布 CeBIT 走入歷史[^7]。
 
 報導 CeBIT 收攤的中央社，在新聞裡點了一句名：「每年 6 月的台北國際電腦展（Computex），對想要接單的亞洲廠商來說有地利之便，規模一再擴大。」[^7]
@@ -185,6 +188,9 @@ _NVIDIA 官方頻道：黃仁勳 2026 年 GTC Taipei 主題演講完整版。就
 
 把鏡頭從舞台拉開，會看到 Computex 真正的底氣，以及它的隱憂。
 
+![新竹科學園區的台積電廠房外觀，米白色大型無塵室廠房建築群，是全球先進晶片的主要生產基地](/article-images/technology/tsmc-fab-hsinchu-2009.jpg)
+_新竹科學園區的台積電廠房。一顆 AI 晶片要變成一台伺服器，第一道工序就在這裡——全球逾九成最先進的晶片由台積電生產。Photo: Arusanov, 2009，公有領域. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG)._
+
 一顆 NVIDIA 的 AI 晶片，要變成一台能進資料中心運轉的伺服器，中間每一道工序幾乎都在台灣完成。晶片靠台積電生產，全球逾九成最先進的晶片出自它手；晶片要封裝，靠的是台積電的 CoWoS 先進封裝，這道工序如今是整個 AI 算力供不應求的咽喉[^18]。伺服器要組裝，靠的是鴻海、廣達、緯創這些代工廠，光是鴻海一家，全球 AI 伺服器代工市占就約四成[^19]。電源要靠台達電，全球伺服器電源市占約一半；散熱、連接器、機殼，也幾乎被台廠包辦[^18]。研究機構估計，全球近九成的 AI 伺服器，由台灣廠商組裝出貨[^18]。
 
 這就是 Computex 的地利之便。設計端在美國，製造端在台灣，而每年五月底六月初，設計端飛來製造端握手的地方，就是這個展。
@@ -213,10 +219,12 @@ _NVIDIA 官方頻道：黃仁勳 2026 年 GTC Taipei 主題演講完整版。就
 
 ## 圖片來源
 
-本文使用 4 張 Wikimedia Commons CC 授權圖片，全部 cache 於 `public/article-images/technology/` 避免熱連結來源伺服器；另內嵌 2 支 NVIDIA 官方頻道 YouTube 影片（黃仁勳 2024、2026 主題演講）：
+本文使用 6 張 Wikimedia Commons 公有領域 / CC 授權圖片，全部 cache 於 `public/article-images/technology/` 避免熱連結來源伺服器；另內嵌 2 支 NVIDIA 官方頻道 YouTube 影片（黃仁勳 2024、2026 主題演講）：
 
 - [Computex Taipei sign inside Taipei Nangang Exhibition Center](https://commons.wikimedia.org/wiki/File:Computex_Taipei_sign_inside_of_Taipei_Nangang_Exhibition_Center_20110531.jpg) — Photo: Masaru Kamikura, 2011-05-31, CC BY 2.0（hero 圖：南港展覽館內的 COMPUTEX 展場與看板）
 - [Stan Shih at Taipei IT Month 2014](https://commons.wikimedia.org/wiki/File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg) — Photo: Tony Tseng, 2014-12-05, CC BY 2.0（施振榮 2014 年於台北資訊月受訪）
+- [CeBIT Hannover 2005](https://commons.wikimedia.org/wiki/File:Cebit_Hannover_2004.JPG) — Photo: Florian K, 2005-03-16, CC BY-SA 3.0（德國 CeBIT 2005 展場人潮，世界第一大電腦展，2018 停辦）
+- [TSMC factory Hsinchu](https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG) — Photo: Arusanov, 2009, 公有領域（PD）（新竹科學園區台積電廠房）
 - [Computex Taipei at Taipei Nangang Exhibition Center](https://commons.wikimedia.org/wiki/File:Computex_Taipei_at_Taipei_Nangang_Exhibition_Center_20160531.jpg) — Photo: NVIDIA Taiwan, 2016-05-31, CC BY 2.0（南港展覽館主場館外觀）
 - [Jensen Huang at Computex Taipei](https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531c.jpg) — Photo: NVIDIA Taiwan, 2016-05-31, CC BY 2.0（黃仁勳於 Computex 舞台演講）
 

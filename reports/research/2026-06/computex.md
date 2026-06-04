@@ -226,18 +226,22 @@ core_contradiction: 全球電腦展一個個收攤，Computex 卻越辦越大—
 
 - 「今年的台北：AI Together」機器人段：forward-looking「今年它要長出手腳」→ 補實際展場事實（180+ 廠商 AI 機器人區完整產業鏈 + 上銀首登雙臂機器手/減速機 + 黃志芳「解決方案中心」逐字）。新增 [^22]（上銀）[^23]（官方）。論點延伸（不偏移）：精密機械本事 → 接上「實體 AI」身體，強化既有「台灣製造端不可取代」thesis
 
-### 媒體矩陣更新（3 → 6：4 圖 + 2 官方影片）
+### 媒體矩陣更新（round 1: 3→6；round 2 哲宇「補到 8+」: 6→8 = 6 圖 + 2 官方影片）
 
-| 新增媒體                           | 用途                  | 來源                                                    | 授權/驗證                                                                          |
-| ---------------------------------- | --------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| stan-shih-taipei-it-month-2014.jpg | scene（施振榮命名段） | Commons File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg | CC BY 2.0 / Tony Tseng 2014-12-05；1500×1001（aspect 1.50）；EXIF GPS clean；298KB |
-| iframe `pKXDVsWZmUU`               | 2024 keynote 段       | youtube.com/embed（NVIDIA 官方）                        | oembed author=NVIDIA ✅                                                            |
-| iframe `wSp6AiNIrsY`               | 2026 keynote 段       | youtube.com/embed（NVIDIA 官方）                        | oembed author=NVIDIA ✅                                                            |
+| 新增媒體                           | 用途                          | 來源                                                    | 授權/驗證                                                                          |
+| ---------------------------------- | ----------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| stan-shih-taipei-it-month-2014.jpg | scene（施振榮命名段）         | Commons File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg | CC BY 2.0 / Tony Tseng 2014-12-05；1500×1001（aspect 1.50）；EXIF GPS clean；298KB |
+| cebit-hannover-2005.jpg            | scene（三大電腦展死了兩個段） | Commons File:Cebit_Hannover_2004.JPG                    | CC BY-SA 3.0 / Florian K 2005-03-16；1500×1125（aspect 1.33）；no GPS；360KB       |
+| tsmc-fab-hsinchu-2009.jpg          | scene（九成的伺服器段）       | Commons File:Tsmc_factory_hsinchu.JPG                   | 公有領域 PD / Arusanov 2009；1500×1000（aspect 1.50）；no GPS；381KB               |
+| iframe `pKXDVsWZmUU`               | 2024 keynote 段               | youtube.com/embed（NVIDIA 官方）                        | oembed author=NVIDIA ✅                                                            |
+| iframe `wSp6AiNIrsY`               | 2026 keynote 段               | youtube.com/embed（NVIDIA 官方）                        | oembed author=NVIDIA ✅                                                            |
+
+> 政治敏感 defer（§自主權邊界）：搜尋意外撈到「Computex 2026 China lockout — Taiwan 卡 219 家陸廠 entry permit」（Tom's Hardware/techtimes 6/3）。涉政治立場，**不加入文章**，留 observer 決定。
 
 ### EVOLVE gate 通過紀錄
 
 - rewrite-stage-3-5 hard=0（footnote-format + footnote-density + correction-meta 全綠，[^22][^23] 合規）✅
-- rewrite-stage-4 hard=0：paragraph-rhythm **warn=0**（媒體密度 0.63→band 內 ~1.18，floor WARN 清除）/ media-richness 6 媒體（達 count target）/ image-health 4 圖 / word-count 5074 ✅
-- Step 4.3.6 iframe render verify（dev server preview_eval）：2 iframe render，video ID `pKXDVsWZmUU`+`wSp6AiNIrsY` 對稿一致；4 圖 load（含 stan-shih natural 1500×1001）；0 console error ✅
+- rewrite-stage-4 hard=0（round 2 = 8 媒體）：image-health 6 圖 / media-richness 8 媒體（達「8+」directive）/ word-count 5207 ✅；**paragraph-rhythm warn=1**（8 visual / 5473 CJK = 1.46/1k 上緣 R3-WARN soft，陳建年 1.48 同級富媒體非 atomization，median 健康無 HARD）— 哲宇「補到 8+」directive 覆蓋 ceiling guideline，不灌 prose 閃 soft WARN
+- Step 4.3.6 iframe render verify（dev server preview_eval）：2 iframe render，video ID `pKXDVsWZmUU`+`wSp6AiNIrsY` 對稿一致；6 圖 load；0 console error ✅
 - 事實鐵三角：黃志芳「解決方案中心」逐字 ✓；180 家/上銀產品逐字 ✓；無新算術 claim ✓
 - lastVerified 2026-06-01 → 2026-06-04
