@@ -2760,6 +2760,15 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 - **verification_count**: 1（idlccp1984 2026-06-01 8-PR batch；對照 2026-04-28 κ Manus 5-PR batch 為 frontmatter 層前次 instance，本次是內容/來源層首次系統化 + 工具化指標）
 - **severity**: structural（影響 MAINTAINER §3.4 canonical[已改] + article-health 工具候選 + §自主權邊界 framing 免疫流程定義）
 
+### 2026-06-04 天下雜誌 — fan-out research agent 標「verbatim Ctrl-F✓」但給 aggregator 首頁 URL：引語真但不可追溯
+
+- **原則**：Stage 1 research agent 把 verbatim 引語標「Ctrl-F ✓ 逐字確認」，但附的 source URL 是 `tw.news.yahoo.com/`（aggregator 首頁）而非具體文章頁。天下雜誌 §A agent 對殷允芃「要害一個人，就讓他去辦雜誌」＋張愛玲訪談三小時/賀卡兩句如此標。主 session Stage 3 WebFetch 具體 udn 頁 → 該頁**沒有**這兩句 → 差點用無法溯源的引用 ship。再 WebSearch 追到 Yahoo 蔡萬才台灣貢獻獎報導完整 URL、WebFetch 逐字核 → 兩句**都真實 verbatim 一致**，再把腳註 URL 從首頁換成具體頁。**引語可以同時是真的、又是溯源斷掉的**——agent 沒說謊，但首頁 URL 讓讀者驗不到。
+- **觸發**：2026-06-04 天下雜誌 NEW Stage 3 adversarial 驗證。同一 pattern 中華台北 session（141642）已記「homepage 腳註＝fan-out 隱性債」——兩 session 連續出現。
+- **可能層級**：(a) 操作規則：REWRITE Stage 3.2.3 引語逐字核對加一條「附的 source URL 必須是具體文章頁，不是 aggregator 首頁；agent 標 Ctrl-F✓ 但 URL 是 `news.yahoo.com/`／`google.com/` 等首頁時，主 session 必追到具體頁再 ship」；(b) 工具候選：article-health footnote-url 加「aggregator-homepage warn」（host 命中 news.yahoo.com／google.com 等且 path 為 `/` 或極短時 warn）；(c) RESEARCH §URL 必須指向具體頁面（已存在）的 Stage 3 enforcement。
+- **相關**：REFLEXES #31 sub-agent claim 是線索不是 oracle ＋ RESEARCH §URL 指向具體頁面 ＋ project_error_boundary_traceability（準確 ≠ 可追溯，兩條軸）＋ feedback_no_scene_inference_from_english（同 fan-out factcheck 家族）
+- **verification_count**: 2（2026-06-04 中華台北 homepage 腳註隱性債 ＋ 天下雜誌 verbatim-but-untraceable，兩 session 連續）
+- **severity**: structural（影響 REWRITE Stage 3 ＋ article-health footnote-url 工具候選 ＋ fan-out research SSOT 可追溯性）
+
 ---
 
 ## ❌ 已歸檔（過時 / 撤回）
