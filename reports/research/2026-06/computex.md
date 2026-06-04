@@ -194,3 +194,50 @@ core_contradiction: 全球電腦展一個個收攤，Computex 卻越辦越大—
 - Stage 3 rewrite-stage-3-5 hard=0 / 事實鐵三角 ✅ / footnote-url 11 warn 全為 bot-block 403（3 載重源 WebFetch 確認 live）✅
 - Stage 4 rewrite-stage-4 全 hard=0（含 image-health 3 張 + paragraph-rhythm）✅
 - Stage 5 雙向 cross-link（半導體產業 + 台灣機器人產業，sibling format-structure 預檢 PASS）✅
+
+---
+
+## EVOLVE 2026-06-04（媒體豐富化 + 展場時效更新）
+
+> 觸發：`/twmd-rewrite COMPUTEX`。原文 2026-06-01 ship（展前），今日 6/4 為 COMPUTEX 2026（6/2-6/5）live 第 3 天。v6.6 `paragraph-rhythm` 量到原文媒體密度 0.63/1k < 0.7 floor（media-poor WARN）→ surgical EVOLVE：補官方影片 iframe + 1 圖 + 把展前 forward-looking 機器人段落更新為實際展場事實。**非 callout-triggered**（原文無事實錯，prose/thesis 強），不走拆除防火牆。
+
+### 搜尋日誌（EVOLVE，8 query）
+
+1. `NVIDIA official YouTube Jensen Huang Computex 2026 GTC Taipei keynote` [英] → GTC Taipei 2026 full replay `wSp6AiNIrsY`；2026 keynote 重點 Vera Rubin 全面投產/RTX Spark/N1X
+2. `Computex 2026 actual attendance June 2-5 robots` [英] → 機器人/Physical AI 實際登場；Asus 服務機器人；techxplore「supply strain」hot topic；SK hynix Chey Tae-won「double capacity in 5 years」（供給吃緊，韓廠視角，非台灣 thesis）
+3. `NVIDIA YouTube Jensen Huang Computex 2024 keynote` [英] → 官方 `pKXDVsWZmUU`（COMPUTEX 2024 keynote, 6/2 7pm）
+4. `Computex 2026 展場 機器人 上銀 鴻海 人形機器人` [中] → 世貿一館首設 AI 機器人區、180+ 廠商、上銀首登、8 檔機器人概念股
+5. `黃仁勳 COMPUTEX 2026 台灣 GDP 成長 近一成 供應鏈` [中] → koc.com.tw/今周刊；GDP 近 10%、生態系、1500 億美元投資（**多為記者轉述非黃仁勳逐字**）
+6. oembed verify `wSp6AiNIrsY` [一手] → author_name=NVIDIA / author_url=youtube.com/@NVIDIA ✅ 官方
+7. oembed verify `pKXDVsWZmUU` [一手] → author_name=NVIDIA / author_url=youtube.com/@NVIDIA ✅ 官方
+8. WebFetch chinatimes 上銀 + computextaipei 官方 [中/一手] → 逐字驗證（見下）
+
+### 新增 findings（逐字驗證）
+
+- **上銀（2049）首登 COMPUTEX**（工商時報 20260603001106，一手，6/3）逐字：「上銀(2049)首度跨界參與COMPUTEX 2026，於世貿一館展出AI機器人、智慧製造等關鍵技術成果」；「展出涵蓋雙臂物流機器人、人形機器人核心模組、智慧夾爪技術、PLP半導體智慧設備方案」；「上銀整合自製滾珠螺桿、諧波減速機、馬達、驅動器與控制技術…線性與旋轉致動模組」。信度 A（一手）。Ctrl-F ✓
+- **AI 機器人展區官方**（computextaipei 官方新聞）逐字：「集結從感測器、馬達、減速機到系統整合的完整產業鏈業者，並透過現場實機動態展示，呈現機器人在工業自動化、物流運輸、醫療照護等場域的實際應用」；「今年世貿展區集結超過180家參展商」；黃志芳逐字：「期待臺灣在AI機器人時代，從全球科技製造重鎮進一步躍升為『全球AI解決方案中心』」。信度 A（官方一手）。Ctrl-F ✓
+
+### 反例 / 不採信清單（falsification 攔下）
+
+- ❌ **摩根士丹利「人形機器人 100 強」納入上銀** — search snippet 有，但工商時報一手原文 Ctrl-F **無**此句 → 單源未證實，不寫進文章
+- ❌ **黃仁勳「台灣 GDP 成長近 10%」/「每年投資台灣 1500 億美元」/「最重要的起點」** — koc.com.tw 為**記者轉述非黃仁勳逐字直引**（WebFetch 逐字確認源頭非引號內），不通過事實鐵三角引語關 → 不加入（文章既有 2026「回到家真好」「台北就是這一切的起點」+ 2024「台灣是無名的英雄」逐字已足）
+
+### prose 更新（surgical）
+
+- 「今年的台北：AI Together」機器人段：forward-looking「今年它要長出手腳」→ 補實際展場事實（180+ 廠商 AI 機器人區完整產業鏈 + 上銀首登雙臂機器手/減速機 + 黃志芳「解決方案中心」逐字）。新增 [^22]（上銀）[^23]（官方）。論點延伸（不偏移）：精密機械本事 → 接上「實體 AI」身體，強化既有「台灣製造端不可取代」thesis
+
+### 媒體矩陣更新（3 → 6：4 圖 + 2 官方影片）
+
+| 新增媒體                           | 用途                  | 來源                                                    | 授權/驗證                                                                          |
+| ---------------------------------- | --------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| stan-shih-taipei-it-month-2014.jpg | scene（施振榮命名段） | Commons File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg | CC BY 2.0 / Tony Tseng 2014-12-05；1500×1001（aspect 1.50）；EXIF GPS clean；298KB |
+| iframe `pKXDVsWZmUU`               | 2024 keynote 段       | youtube.com/embed（NVIDIA 官方）                        | oembed author=NVIDIA ✅                                                            |
+| iframe `wSp6AiNIrsY`               | 2026 keynote 段       | youtube.com/embed（NVIDIA 官方）                        | oembed author=NVIDIA ✅                                                            |
+
+### EVOLVE gate 通過紀錄
+
+- rewrite-stage-3-5 hard=0（footnote-format + footnote-density + correction-meta 全綠，[^22][^23] 合規）✅
+- rewrite-stage-4 hard=0：paragraph-rhythm **warn=0**（媒體密度 0.63→band 內 ~1.18，floor WARN 清除）/ media-richness 6 媒體（達 count target）/ image-health 4 圖 / word-count 5074 ✅
+- Step 4.3.6 iframe render verify（dev server preview_eval）：2 iframe render，video ID `pKXDVsWZmUU`+`wSp6AiNIrsY` 對稿一致；4 圖 load（含 stan-shih natural 1500×1001）；0 console error ✅
+- 事實鐵三角：黃志芳「解決方案中心」逐字 ✓；180 家/上銀產品逐字 ✓；無新算術 claim ✓
+- lastVerified 2026-06-01 → 2026-06-04
