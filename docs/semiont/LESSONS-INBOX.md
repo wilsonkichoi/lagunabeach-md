@@ -2779,6 +2779,15 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 - **verification_count**: 1（2026-06-04 媒體 band；對照 5/28 atomization 是同一儀器前一次反向校準 = 同儀器兩次方向相反的校準史）
 - **severity**: structural（影響 article-health 3 plugin + REWRITE-PIPELINE v6.6 + EDITORIAL v6.5 + 儀器校準方法論）
 
+### 2026-06-04 TASA 媒體 — observer 指定的具體素材要不到 clean license 時，誠實 skip 不硬塞
+
+- **原則**：哲宇 directive 補四張太空圖（影像服務平台／0403 山崩／福五糊照／火箭），其中「福五失焦舊金山首光糊照」是 ©國研院／NSPO，在每個新聞站都 hotlink-protected（curl 回 HTML、頁內 `naturalWidth` 0×0）、Wikimedia Commons 無、TASA 官網 WebGL 不展示自己的失敗。**正確動作是 flag + skip + 回報哲宇，不把壞掉或版權存疑的檔塞進已發佈文章**。湊滿 observer 點名的數量不是品檢目標；ship 三張 clean（©TASA 福衛精選 + ©TASA 災害判釋 + NASA PD 發射）比硬湊第四張更接近本分。順帶事實鐵三角一刀：哲宇記的「旺來／鳳梨田」查證是水稻田＋首光拍的是舊金山，不確定的細節不寫進圖說。
+- **觸發**：2026-06-04 TASA 收官續章（232402）媒體 +3。memory [2026-06-04-232402-manual.md](memory/2026-06-04-232402-manual.md) §媒體 +3。
+- **可能層級**：(a) 操作規則：媒體 sourcing 遇 ©third-party 素材，license 驗證順序 = Wikimedia Commons（clean）→ 官方 PD/CC → ©fair-use 可下載原檔 → 要不到就 skip，不從 hotlink-protected 新聞站硬抓；(b) 反射候選：observer 指定素材清單是「想要」不是「hard requirement」，缺一張的誠實回報 > 湊滿數量。
+- **相關**：feedback_absolute_facts_extra_caution（旺來查證）＋ project_error_boundary_traceability（版權可追溯）＋ MANIFESTO §自主權邊界（對外發佈／已發佈文章的素材紀律）＋ feedback_progressive_refactor
+- **verification_count**: 1（2026-06-04 福五糊照）
+- **severity**: operational（媒體 sourcing SOP；非 structural）
+
 ---
 
 ## ❌ 已歸檔（過時 / 撤回）
