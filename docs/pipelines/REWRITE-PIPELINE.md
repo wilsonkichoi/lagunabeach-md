@@ -3,9 +3,9 @@ title: 'REWRITE-PIPELINE'
 description: '文章改寫主流程 canonical — 6 stage 線性 (Stage 0 觀點 + 1-5 取材/寫/驗/形/連) / 模式判定在 Stage 0 內部分支 / Step N.M 編號 / heading 階層 H1-H4 / 翻譯收斂為 pointer 到巴別塔 (v6.0)'
 type: 'pipeline-canonical'
 status: 'canonical'
-current_version: 'v6.6'
+current_version: 'v6.7'
 last_updated: 2026-06-04
-last_session: '2026-06-04-151548-天下雜誌'
+last_session: '2026-06-04-102449-深度研究-設計研究院'
 plugin_check: 'python3 scripts/tools/article-health.py {file} --profile=rewrite-stage-4'
 sister_docs:
   - 'EVOLVE-PIPELINE.md'
@@ -952,6 +952,8 @@ Stage 1 spawn 研究 agent 時，**必須先判斷需不需要直接落檔**：
 **強制動作**：研究 agent 額外蒐集「文章預期會提到的所有公開作品」的官方連結，列入研究筆記獨立一節 §inline 外連 manifest。找不到官方版本 → 標 `[no official URL found]`，**Stage 2 寫作時不附 link 也不掰連結**。
 
 #### Step 1.9.2: 圖片素材（hero + inline 圖）+ 授權矩陣
+
+**🥇 選圖第一問：證據層級（2026-06-04 設研院 session 新增）** — 在挑授權之前先挑「這張圖讓讀者看到主角嗎」。Tier A 主體成果圖（改造後成果／作品本身／當事人在做那件事）> Tier B 脈絡圖 > Tier C generic 填位圖。**機構／設計／產品／作品／工程／事件題材，Tier A 成果圖優先；Tier A 找不到 CC 授權就走下方來源優先序第 8 點 fair use editorial commentary，不要退用 generic CC 填位圖**（授權便利不凌駕證據強度）。caption 一旦得寫「示意／非當事／非改造後」= Tier C 警訊，回頭找 Tier A。完整證據層級表 + source 技巧 canonical 在 [EDITORIAL §媒體編織 §圖片的證據層級](../editorial/EDITORIAL.md)。
 
 **圖片用途分類**：
 
@@ -2121,6 +2123,8 @@ git push
 ```
 
 ---
+
+_v6.7 | 2026-06-04 深度研究-設計研究院 — 配圖證據層級（Step 1.9.2 選圖第一問）：v6.6（天下）升級的是媒體的「量／密度」（圖+影片 ≥8 / band 0.7–1.2/1k）；v6.7 補上正交的「質／證據」軸。**Tier A 主體成果圖**（改造後成果／作品本身／當事人在做那件事）> Tier B 脈絡圖 > **Tier C generic 填位圖**；機構／設計／產品／作品／工程／事件題材 Tier A 優先，Tier A 找不到 CC 就走 fair use editorial commentary（來源優先序第 8 點），不退用 generic CC 填位（授權便利不凌駕證據強度）。判準訊號：caption 一旦得寫「示意／非當事／非改造後」= Tier C 在報警，回頭找 Tier A。完整層級表 + source 技巧 canonical 落 [EDITORIAL §媒體編織 §圖片的證據層級](../editorial/EDITORIAL.md)。觸發：設研院文章 5 張原本全是情境圖（松山文創×2 / generic 投開票所 / 中山站既有空間「非改造後」），哲宇 callout「圖要補關鍵案例被改造完後的圖（fair use）」→ 換 3 張 TDRI 改造後成果圖（衛生所候診區／公投公報／中山站售票區，cache 本地 + fair use 標註）。fair use scope 沿用 EDITORIAL 2026-05-09 既立的機構公開作品編輯評論。對應 REFLEXES #15 儀器化。_
 
 _v6.6 | 2026-06-04 天下雜誌 — 媒體素材要求 + 圖文配比儀器升級：哲宇 directive「提升 rewrite-pipeline 媒體素材要求 + 文章健檢工具，想要圖+影片>8 或圖文配比更精妙評估，參考設研院/黃魚鴞富媒體文章自我進化」。**儀器先於規則**：量測 8 篇校準語料（黑冠麻鷺/黃魚鴞/陳建年/周蕙/張懸/設研院/中華台北/天下，prose-CJK 同軸）發現**舊 paragraph-rhythm 上限 0.8 反而誤判哲宇點名的富媒體範本**（設研院 0.91 / 天下 0.92 / 黃魚鴞 0.82）為「密度偏高」——儀器跟 directive 矛盾。修補：(1) `paragraph-rhythm` R3 從單一 ceiling 升**密度 band**（floor 0.7 media-poor / ceiling 0.8→1.2 / hard 1.5+median<55），catch 媒體偏少（中華台北 0.56）也 catch atomization（周蕙 1.76）；(2) `media-richness` 加 length-scaled count target（圖+影片 ~1/1.1k 字，長文朝 ≥8，INFO）+ 多模態 nudge（People/Music/Nature 0 影片提示補官方影片）；(3) media-richness 進 rewrite-stage-4 profile。富媒體範本（設研院 image-rich / 黃魚鴞 video-rich / 陳建年 8 multimodal / 天下 mixed）寫進 Step 1.9.2 + EDITORIAL §媒體編織 baseline。dogfood：8 篇驗證 band 正確分流（rich 範本 clean / media-poor WARN / atomization HARD）。對應 REFLEXES #15 反覆浮現要儀器化 + #59 製造數字的人最易被數字騙（量測校準不憑感覺）。_
 
