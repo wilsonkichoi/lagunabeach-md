@@ -3,9 +3,9 @@ title: 'RESEARCH'
 description: '研究方法論 SSOT — 怎麼搜可靠資訊 / 三源驗證 / WebFetch 中文 verbatim 規範'
 type: 'editorial-canonical'
 status: 'canonical'
-current_version: 'v1.1'
-last_updated: 2026-04-28
-last_session: 'κ'
+current_version: 'v1.3'
+last_updated: 2026-06-04
+last_session: '2026-06-04-102449-深度研究-設計研究院'
 sister_docs:
   - 'EDITORIAL.md'
   - 'CITATION-GUIDE.md'
