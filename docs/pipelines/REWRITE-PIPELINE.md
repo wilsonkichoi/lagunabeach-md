@@ -613,6 +613,8 @@ Stage 0 結束時 deliverable：
 - 研究深度直接決定文章品質——40 次仍會留單源依賴風險，80 次才有 triangulation 餘裕、找到反方、挖到非 Wikipedia 層級的具體錨點（引語、場景、日期）
 - **多語系不是 nice-to-have**：英文/國際來源是 default 不是例外。真正只有中文來源的題目（極在地的兩岸/戒嚴細節）→ 在 §搜尋日誌 明寫「本題英文來源稀少，因為 X」，不要靜默跳過（對應 research-report-health en==0 HARD）
 
+> ⚠️ **≥80 是 fan-out aggregate，不是單 agent 串行能達到的**（2026-06-04 v2 實驗實證）：minimal-guidance 單一 Opus research agent 串行只跑到 ~36 次就接近 token 上限。**要達 80+ 必須照 [§多 agent 編排](#-多-agent-編排v63-orchestrator--tiered-sub-agents) 派 N 個 parallel research sub-agent**（按 §A/§B/§C/§D 子領域切，每 agent ~20-30 次，aggregate ≥80），orchestrator 合 §8 raw + §6 fact-pack。單 agent 自跑只適合 standard tier（≥40）；硬要 depth ≥80 而不 fan-out → 在 §未達標誠實說明 記缺口，不灌水硬湊。**研究廣度（4 子題 + 反方 + 一手 + 英文）優先於搜尋次數的硬達標**。
+
 **v5.1 升級理由**（2026-05-11 cranky-newton）：v2.17 訂 ≥ 20 是相對 12 次淺研究的下限。實戰累積後（NMTH Fresh / 政治人物 batch / 認知作戰深度文）顯示 20 次仍會留下「單源依賴」風險（同一篇 ltn 報導被 5 atom 綁住 = over-citing 紅旗），40 次才開始有 triangulation 空間。
 
 **v2.17 原版觸發**：2026-04-18 當日 11 篇音樂人批次中，12-15 次搜尋的 Cicada / 草東 / 康士坦 / 魏如萱 雖然 pass format-check，但小標題淪為編年史，缺乏場景/意象級的敘事錨點，研究深度是根本原因。

@@ -36,8 +36,11 @@ EN_HINTS = (
     "japantimes", "koreaherald", "scmp.com",
 )
 # 一手 = 官方 / 政府 / 學術原始來源
+# 註：.org.tw 多為財團法人 / 官方機構 / 協會官網（tdri.org.tw / goldenpin.org.tw /
+#     *.design.org.tw 等），算一手；.com.tw 太廣（含 chinatimes 等媒體）故不納入。
 PRIMARY_HINTS = (
     ".gov.tw", ".gov/", "gov.tw", ".edu.tw", ".edu/", "edu.tw", "sinica.edu",
+    ".org.tw",  # 財團法人 / 官方機構 / 協會官網（2026-06-04 v2 實驗補：原漏 tdri.org.tw 等）
     "ndltd.ncl", "airitilibrary", "stat.gov", "ly.gov.tw", "president.gov",
     "ey.gov", "moc.gov", "moe.gov", "drnh.gov", "scholar.google", "jstor",
     "law.moj", "mops.twse", "gcis.nat", "data.gov", "nmth", "npm.gov",
