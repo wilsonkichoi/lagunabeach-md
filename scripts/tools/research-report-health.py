@@ -54,6 +54,21 @@ SEARCHLOG_RE = re.compile(
     r"研究方法|搜尋軌跡|methodology)",
     re.IGNORECASE,
 )
+# 信心程度三層系統（v6.5 — 12 範本 #1 共通 pattern）
+VERIF_TIERS = (
+    re.compile(r"high_confidence|高信度|高可信"),
+    re.compile(r"single_source|單一來源"),
+    re.compile(r"unverified|未驗證|搜尋.{0,6}未(找到|獲)"),
+)
+# negative findings（搜了沒找到也要記）
+NEGATIVE_RE = re.compile(
+    r"未找到|未獲|查無|搜尋.{0,8}(未|無)|no data found|未發布|未公開|找不到|無法(取得|查證|驗證)"
+)
+# 反例 / 不能說的話 / 不採信清單 section（護欄前置）
+COUNTEREX_RE = re.compile(
+    r"##+\s*.*(反例|不能說|不採信|必驗反例|可能陷阱|red[_\s-]?flag|護欄|不可寫|風險)",
+    re.IGNORECASE,
+)
 URL_RE = re.compile(r"https?://[^\s\)\]\>\"'，。、；]+")
 
 TIERS = {
@@ -73,6 +88,9 @@ def analyze(path: Path):
     primary = [u for u in distinct if any(h in u.lower() for h in PRIMARY_HINTS)]
     confidence = len(CONFIDENCE_RE.findall(txt))
     has_searchlog = bool(SEARCHLOG_RE.search(txt))
+    verif_tiers = sum(1 for r in VERIF_TIERS if r.search(txt))  # 0-3
+    has_negative = bool(NEGATIVE_RE.search(txt))
+    has_counterex = bool(COUNTEREX_RE.search(txt))
     # domain diversity
     domains = set()
     for u in distinct:
@@ -87,6 +105,9 @@ def analyze(path: Path):
         domains=len(domains),
         confidence=confidence,
         has_searchlog=has_searchlog,
+        verif_tiers=verif_tiers,
+        has_negative=has_negative,
+        has_counterex=has_counterex,
     )
 
 
@@ -124,7 +145,12 @@ def grade(metrics, tier):
     floor_then_target("一手/官方/學術來源", metrics["primary"], mp)
     simple("搜尋日誌/方法論 section",
            1 if metrics["has_searchlog"] else 0, 1, "hard")
+    simple("信度三層系統 (high/single/unverified)", metrics["verif_tiers"], 2, "hard")
     simple("信度標記數", metrics["confidence"], mc, "warn")
+    simple("negative findings 紀錄 (搜了沒找到)",
+           1 if metrics["has_negative"] else 0, 1, "warn")
+    simple("反例/不採信/護欄 section",
+           1 if metrics["has_counterex"] else 0, 1, "warn")
     simple("報告行數 (SSOT 厚度)", metrics["lines"], ml, "warn")
     return results, hard_fail, warn
 
