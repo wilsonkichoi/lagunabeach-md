@@ -1,7 +1,7 @@
 ---
 title: 'reports/ INDEX — auto-generated'
 description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子目錄 status summary'
-last_generated: 2026-06-05 12:35
+last_generated: 2026-06-05 12:42
 generator: scripts/tools/generate-reports-index.py
 ssot: reports/reports-archival-audit-2026-05-27.md §4 Layer 3
 type: auto-index
@@ -12,7 +12,7 @@ type: auto-index
 > **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。
 > 不要人工編輯（會被下一次 cron 覆蓋）。
 >
-> Last generated: **2026-06-05 12:35** · 頂層 \*.md 共 **135** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
+> Last generated: **2026-06-05 12:42** · 頂層 \*.md 共 **136** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
 
 ## 📦 子目錄 status
 
@@ -35,8 +35,9 @@ type: auto-index
 
 9 type bucket 從現有 corpus 萃取 (per [audit §2.3 + §4 Layer 2](reports-archival-audit-2026-05-27.md))，未來新加 report 建議遵循 `{type}-{topic}-{YYYY-MM-DD}.md` 命名。
 
-### design (13)
+### design (14)
 
+- `2026-06-05` [analysis-pipeline-design-2026-06-05](analysis-pipeline-design-2026-06-05.md) — ANALYSIS-PIPELINE 設計報告 — 把這批分析方法論儀器化、造橋鋪路
 - `2026-06-03` [carousel-pipeline-design-2026-06-03](carousel-pipeline-design-2026-06-03.md) — Taiwan.md CAROUSEL-PIPELINE — 設計 + 研究 + 實作規劃（完整歸檔）
 - `2026-06-01` [feedback-login-system-design-2026-06-01](feedback-login-system-design-2026-06-01.md) — 讀者帳號登入 + 即時 Feedback + cron→GitHub issue 飛輪整合：架構評估與計劃
 - `2026-05-23` [spore-pick-daily-routine-design-2026-05-23](spore-pick-daily-routine-design-2026-05-23.md) — twmd-spore-pick-daily routine 設計 — SPORE-INBOX automation intake
@@ -202,9 +203,10 @@ type: auto-index
 
 ## 📅 By month (descending)
 
-### 2026-06 (15 files)
+### 2026-06 (16 files)
 
-- Type breakdown: ops: 7 / evolution: 3 / design: 2 / analysis: 1 / proposal: 1 / audit-routine: 1
+- Type breakdown: ops: 7 / design: 3 / evolution: 3 / analysis: 1 / proposal: 1 / audit-routine: 1
+  - `2026-06-05` [analysis-pipeline-design-2026-06-05](analysis-pipeline-design-2026-06-05.md)
   - `2026-06-05` [homepage-redesign-impact-D+10-2026-06-05](homepage-redesign-impact-D+10-2026-06-05.md)
   - `2026-06-05` [ptt-computex-discussion-analysis-2026-06-05](ptt-computex-discussion-analysis-2026-06-05.md)
   - `2026-06-04` [media-richness-band-evolution-2026-06-04](media-richness-band-evolution-2026-06-04.md)
