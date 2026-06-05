@@ -155,14 +155,26 @@ taiwanmd cite "Good Vibrations" --json
 
 Only returns claims that have `[^N]` footnote attached in the source article.
 
-### `taiwanmd mcp` 🔌 **v0.6.1**
+### `taiwanmd mcp` 🔌 **v0.7**
 
-Model Context Protocol server — Claude Desktop / Cursor / Warp integration.
+Model Context Protocol server — a **free, no-API-key, local-first** Taiwan
+knowledge connector for Claude Code, Claude Desktop, Cursor, Copilot CLI,
+Codex CLI, and any other MCP client. Queries run against your local knowledge
+base; nothing leaves your machine.
+
+**Claude Code — one line:**
 
 ```bash
-taiwanmd mcp install                   # Print Claude Desktop config snippet
+claude mcp add taiwanmd -- npx -y taiwanmd mcp serve
+```
+
+**Other clients:**
+
+```bash
+taiwanmd mcp install                       # Claude Code (default)
+taiwanmd mcp install --client claude-desktop
 taiwanmd mcp install --client cursor
-taiwanmd mcp serve                     # Start MCP server on stdio (for Claude Desktop)
+taiwanmd mcp serve                         # Start MCP server on stdio
 ```
 
 **Exposed MCP tools** (6):
@@ -174,7 +186,8 @@ taiwanmd mcp serve                     # Start MCP server on stdio (for Claude D
 - `taiwanmd_organs` — 8 organ vital signs
 - `taiwanmd_stats` — project summary stats
 
-After installing, add the config snippet to Claude Desktop and reload. Taiwan.md becomes queryable from inside Claude conversations.
+Once added, ask Claude anything about Taiwan and it will pull verified,
+source-backed answers from Taiwan.md instead of guessing.
 
 ### `taiwanmd sync`
 

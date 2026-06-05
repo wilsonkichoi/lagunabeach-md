@@ -1,15 +1,17 @@
 /**
- * Taiwan.md MCP Command — Model Context Protocol server scaffold (v0.7 preview)
+ * Taiwan.md MCP Command — Model Context Protocol server
  *
- * Exposes CLI commands as MCP tools so Claude Desktop / Cursor / Warp can
- * query Taiwan.md directly without shelling out.
+ * Exposes Taiwan.md as a free, local-first, no-API-key MCP server so Claude
+ * Code / Claude Desktop / Cursor / Copilot CLI / Codex CLI can query the
+ * knowledge base directly. Tools: search / read / rag / cite / organs / stats.
  *
- * This is a v0.7 preview scaffold; actual MCP server implementation requires
- * @modelcontextprotocol/sdk as a dependency.
+ * The server (lib/mcp-server.js) is implemented on @modelcontextprotocol/sdk
+ * over stdio. Nothing leaves the machine — queries run against the local
+ * knowledge base (auto-synced to ~/.taiwanmd on first use).
  *
  * Usage:
- *   taiwanmd mcp serve           # start MCP server on stdio
- *   taiwanmd mcp install         # print Claude Desktop config snippet
+ *   taiwanmd mcp serve                      # start MCP server on stdio
+ *   taiwanmd mcp install --client claude-code   # print one-line install
  */
 
 import chalk from 'chalk';
@@ -19,29 +21,29 @@ export function mcpCommand(program) {
   const mcp = program
     .command('mcp')
     .description(
-      '[v0.7 preview] Model Context Protocol server — Claude Desktop integration',
+      'Model Context Protocol server — free, local-first Taiwan knowledge for any MCP client',
     )
     .action(() => {
       console.log('');
-      console.log(chalk.bold('🔌 taiwanmd MCP — v0.7 preview'));
+      console.log(chalk.bold('🔌 taiwanmd MCP — Taiwan knowledge for your AI'));
+      console.log('');
+      console.log(
+        chalk.gray(
+          '  Free · no API key · local-first (queries never leave your machine)',
+        ),
+      );
       console.log('');
       console.log(chalk.gray('  Subcommands:'));
       console.log(
         chalk.gray('    taiwanmd mcp serve     Start MCP server (stdio)'),
       );
       console.log(
-        chalk.gray('    taiwanmd mcp install   Print Claude Desktop config'),
+        chalk.gray('    taiwanmd mcp install   Print client install snippet'),
       );
       console.log('');
+      console.log(chalk.gray('  Quick start (Claude Code):'));
       console.log(
-        chalk.yellow(
-          '  ⚠ MCP server scaffold — @modelcontextprotocol/sdk integration pending.',
-        ),
-      );
-      console.log(
-        chalk.gray(
-          '  Reference: reports/cli-evolution-roadmap-2026-04-20.md §v0.7',
-        ),
+        chalk.cyan('    claude mcp add taiwanmd -- npx -y taiwanmd mcp serve'),
       );
       console.log('');
     });
@@ -65,23 +67,38 @@ export function mcpCommand(program) {
 
   mcp
     .command('install')
-    .description(
-      'Print Claude Desktop / Cursor MCP config snippet for copy-paste',
-    )
+    .description('Print an MCP install snippet for the given client')
     .option(
       '--client <client>',
-      'claude-desktop | cursor | warp',
-      'claude-desktop',
+      'claude-code | claude-desktop | cursor',
+      'claude-code',
     )
     .action((opts) => {
-      const binPath = 'taiwanmd'; // after npm install -g, taiwanmd is on PATH
       console.log('');
-      console.log(chalk.bold(`🔌 MCP config snippet — ${opts.client}`));
+      console.log(chalk.bold(`🔌 MCP install — ${opts.client}`));
       console.log('');
-      if (opts.client === 'claude-desktop') {
+      if (opts.client === 'claude-code') {
+        console.log(chalk.gray('  Run this once (zero-install via npx):'));
+        console.log('');
+        console.log(
+          chalk.cyan('  claude mcp add taiwanmd -- npx -y taiwanmd mcp serve'),
+        );
+        console.log('');
+        console.log(
+          chalk.gray('  Then ask Claude anything about Taiwan — it will use'),
+        );
+        console.log(
+          chalk.gray('  taiwanmd_search / taiwanmd_rag / taiwanmd_cite.'),
+        );
+      } else if (opts.client === 'claude-desktop') {
         console.log(
           chalk.gray(
-            '  Add to ~/Library/Application Support/Claude/claude_desktop_config.json:',
+            '  Easiest: install the one-click bundle (taiwanmd.mcpb).',
+          ),
+        );
+        console.log(
+          chalk.gray(
+            '  Manual: add to ~/Library/Application Support/Claude/claude_desktop_config.json:',
           ),
         );
         console.log('');
@@ -89,8 +106,8 @@ export function mcpCommand(program) {
           {
             mcpServers: {
               taiwanmd: {
-                command: binPath,
-                args: ['mcp', 'serve'],
+                command: 'npx',
+                args: ['-y', 'taiwanmd', 'mcp', 'serve'],
               },
             },
           },
@@ -101,22 +118,24 @@ export function mcpCommand(program) {
       } else if (opts.client === 'cursor') {
         console.log(chalk.gray('  Cursor MCP config (via Settings → MCP):'));
         console.log('');
-        console.log(chalk.cyan(`command: ${binPath}`));
-        console.log(chalk.cyan(`args: ["mcp", "serve"]`));
+        console.log(chalk.cyan('command: npx'));
+        console.log(chalk.cyan('args: ["-y", "taiwanmd", "mcp", "serve"]'));
       } else {
         console.log(
           chalk.yellow(`  Client "${opts.client}" not yet documented.`),
         );
+        console.log(
+          chalk.gray(
+            '  Any MCP client works — point it at: npx -y taiwanmd mcp serve',
+          ),
+        );
       }
       console.log('');
       console.log(
-        chalk.gray(`  Knowledge base location: ${getKnowledgePath()}`),
+        chalk.gray('  Free · no API key · local-first · open-source (MIT)'),
       );
-      console.log('');
       console.log(
-        chalk.yellow(
-          '  ⚠ Server implementation is v0.7 preview — config works, but `mcp serve` will print a not-implemented notice.',
-        ),
+        chalk.gray(`  Knowledge base location: ${getKnowledgePath()}`),
       );
       console.log('');
     });

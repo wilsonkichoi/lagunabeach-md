@@ -20,14 +20,29 @@ import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'
 import { z } from 'zod';
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import { getArticleFiles, readArticle, getApiPath } from './knowledge.js';
 import { searchArticles } from './search.js';
+import { ensureData } from './ensure-data.js';
+
+/** Read the CLI version from package.json so MCP serverInfo never drifts. */
+function getCliVersion() {
+  try {
+    const pkgPath = path.resolve(
+      path.dirname(fileURLToPath(import.meta.url)),
+      '../../package.json',
+    );
+    return JSON.parse(fs.readFileSync(pkgPath, 'utf8')).version || '0.0.0';
+  } catch {
+    return '0.0.0';
+  }
+}
 
 /** Build and return a configured McpServer instance. */
 export function createTaiwanmdMcpServer() {
   const server = new McpServer({
     name: 'taiwanmd',
-    version: '0.6.1',
+    version: getCliVersion(),
   });
 
   // ─── Tool: search ──────────────────────────────────────────────────────
@@ -236,6 +251,19 @@ export function createTaiwanmdMcpServer() {
 
 /** Start the MCP server on stdio. Called from `taiwanmd mcp serve`. */
 export async function startMcpServer() {
+  // Pre-warm the knowledge base so the first tool call isn't slow on a fresh
+  // install. ensureData() (via sync) logs to stdout, which would corrupt the
+  // MCP JSON-RPC stream — route any such logging to stderr for the duration.
+  const origLog = console.log;
+  console.log = (...args) => console.error(...args);
+  try {
+    await ensureData({ quiet: true });
+  } catch {
+    // Tools degrade gracefully (remote fallback) if pre-warm fails.
+  } finally {
+    console.log = origLog;
+  }
+
   const server = createTaiwanmdMcpServer();
   const transport = new StdioServerTransport();
   await server.connect(transport);
