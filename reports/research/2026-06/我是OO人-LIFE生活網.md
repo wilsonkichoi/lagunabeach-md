@@ -99,6 +99,7 @@
   - **年頡科技股份有限公司** — 統編 **53314727**，負責人林憲明，同址，設立 **2011-02-24**；營業項目含廣告 / 資訊軟體 / 市場研究及民意調查。
   - **波仕特科技行銷股份有限公司（POLLSTER）** — 統編 **27961825**，代表人林憲明，同址，設立 **2005-10-20**。
 - ⚠️ **「美商」存疑**：查無台灣登記叫「全通」的公司；ALL ACCESS HOLDING GROUP LTD. 推測為境外（美國）控股名稱，台灣端用三實體運作。**文章只能寫「網站自稱美商全通集團」，不可斷言其美商法律實體。**
+- ⚠️ **Round 2 §E2 負責人校正（推翻本段「代表人林憲明」對波仕特/年頡的描述）**：三家負責人各異——績碩=林憲明、**波仕特=林秀子**、年頡=徐韻婷；靠林家重疊董監事（林憲明/張玉佳/林秀子/林兆烽 四人輪流）+ 同址構成**家族交叉持股**控制集團，不是單一人頭。文章措辭改「林家關係企業/同一內湖團隊」。
 
 **B2 — 商業模式（行銷話術 verbatim）**
 
@@ -293,10 +294,388 @@
 
 ---
 
-## 8. Agent 原始輸出（raw，不摘要）
+## 8. Round 1 Agent 原始輸出（raw）
 
-> 四隻 agent 完整 raw 輸出保存在本 session transcript（agentId: ab30a020ab31cf50f / aefba00a7a9a987de / a5df14daf9c70f5f6 / a696f908b957496cd）。上述 §3-§7 為主 session 合成 + 直驗層；raw 細節以 transcript 為準。
+> Round 1 四隻 agent（粉專運作 / 經營主體 / 分析框架 / 結構脈絡）完整 raw 在 session transcript（agentId: ab30a020ab31cf50f / aefba00a7a9a987de / a5df14daf9c70f5f6 / a696f908b957496cd）。上述 §3-§7 為主 session 合成 + 直驗層。**Round 2 六隻深掘 agent 的完整輸出見下方 Part II（原文落檔）。**
 
 ---
 
-_研究完成 2026-06-05。下一步：交哲宇決定（A）是否 ship、（B）切角、（C）ship 前補驗清單（Page Transparency / 403-500 URL verbatim / 年頡·波仕特個別直驗 / life.tw 商業合作頁原證）。_
+# Part II — 第二輪深度研究（Round 2，假設驅動 + 證偽，~121 搜尋）
+
+> 2026-06-05 哲宇 directive：「研究階段沒做足，嚴格遵照 rewrite-pipeline，補到 100+ 搜尋 + 深度假設研究」「搜尋的東西全部都要完整詳細補回 SSOT，不要只留綱要，SSOT 就是 report」。
+> Round 2 六隻 agent（E 企業深掘 / F 歷史考古+旺中 / G 徵婚網軍證偽 / H 學術框架 / I 平台治理法規 / J AI 農場數據）每隻 15-27 次搜尋，合計 ~121 次。Round 1+2 累計 ~199 次。以下為六隻 agent 完整輸出**原文落檔**（不摘要）。
+
+## Part II 整合校正摘要（Round 2 推翻 / 修正 Round 1 的關鍵點）
+
+1. **負責人結構校正（E2/F5）**：原寫「三家公司同一負責人林憲明」**不精確**。實況：績碩科技董事長=林憲明；**波仕特負責人=林秀子（非林憲明）**；年頡科技負責人=徐韻婷。三家靠**林家重疊董監事（林憲明/張玉佳/林秀子/林兆烽 四人輪流掛名）+ 同址**構成控制集團，是**家族交叉持股**不是單一人頭。文章措辭要改成「同一個內湖團隊/林家關係企業」。
+2. **「每過一陣子」= TRUE 非修辭（F1）**：有 **2025-12-28 大紀元/「新‧二七部隊」** 前例（早於 2026-02 起底）+ **2026-03-07 東京巨蛋 AI 假圖再犯**。但「系統性起底到母公司」確是 2026-02 首次。兩層次分開寫。
+3. **治理真空 PARTIALLY OUTDATED（I 全文，最重要校正）**：2024《詐欺犯罪危害防制條例》（打詐專法）第 29-33 條 + 2025-01 廣告實名制，已把「**詐騙廣告**」這塊真空填上，moda 已對 Meta 累計開罰 **1,850 萬**。真空從「全面」縮成「**非付費的政治/情感操作粉專**」這塊——管它的水平式平台問責法（數位中介法）2022 流產後到 2026 仍未復活。文章「一切都合法」段**必須校正**，不能照搬「全面真空」。
+4. **徵婚網軍 = 最可能殺豬盤 scam 非政治 CIB（G 全文）**：巴基斯坦=已知中資詐騙園區（Faisalabad 突襲 48 中國籍）；「加 LINE 真心交友」導流=詐騙指紋（政治 astroturf 會留在平台不導流）。文章寫徵婚案要**框成「假在地身分的詐騙」**，不可暗示「境外政治認知作戰」。且 ctchart.lab 是單一公民 AI 分析、未經第三方查核，須標明。
+5. **拒絕二元有沈伯洋本人學術背書（H3.1）**：沈伯洋 2021 TSSCI 論文把「商業性內容農場 / 一般 YouTuber」放在**經濟動機象限**，明說「發動者不限於境外勢力」、動機是「政治↔經濟光譜」、中間有「無奈型」。加上王希「金錢對價」、黃俊儒「惡訊息/錯訊息看意圖」、Meta「協同與真實性是光譜不是二元」、François ABC、Twinmark（商業農場被政治收編國際案例）——四層級全指向同一結論。
+6. **疫情「很多孩子都走了」維持護欄牆 A（F2）**：IORG 2022 名單（愛經驗/BuzzHand…農場 beautygirl01.com）與我是OO人（life.tw）無交集。高雄好過日是 retroactive 指控。保持分開。
+7. **案例 A vs 案例 B 維持護欄牆 B（J3）**：秦皇島「無邊界集團」prompt 全文「面向臺灣用戶，用繁體語言，重新編輯這個文章，字數控制在500，保留原文的開頭部分，不改變原文歷史真實性」連網信辦=國家級；我是OO人 prompt「移除敏感字眼，強化台灣在地口語」=本土營利。不可混。
+
+---
+
+## §Thread E（原文）：LIFE生活網企業體 + 林憲明 + 全通粉專矩陣
+
+研究心態：證偽。每條 finding 標證據等級 (a) 官方/一手 (b) 媒體 (c) 臆測/自我宣稱。母集團官網自稱數字一律標自我宣稱級。
+
+### §E1 波仕特 POLLSTER 來頭
+
+- **E1-1 公司本體**〔a〕：波仕特科技行銷股份有限公司，統編 27961825，核准設立 2005-10-20，內湖基湖路10巷46號5樓，資本/實收 12,000,000 元，現況核准設立。來源：opengovtw.com/ban/27961825
+- **E1-2 董監事結構（關鍵：負責人不是林憲明）**〔a〕：波仕特登記負責人/董事長是 **林秀子**（出資 250,000），不是林憲明。林憲明在波仕特只是董事（出資 680,000，反而最高）。董事張玉佳（250,000）、監察人林兆烽（20,000）。對照績碩科技：董事長林憲明（1,800,000）、董事張玉佳（760,000）、董事林兆烽（20,000）、監察人林秀子（20,000）。對照年頡科技：董事長 **徐韻婷**、董事張馨文/陳緹榆、監察人張玉佳。→ 三家負責人各異（林憲明/林秀子/徐韻婷），靠重疊董監事（林憲明、張玉佳、林秀子、林兆烽 四人輪流掛名）+ 同址構成同一控制集團，是家族/關係人交叉持股，不是單一人頭。
+- **E1-3 規模自我宣稱**〔b/c〕：波仕特官網自述「成立於 2005 年初」「已協助…上百位客戶」，據點台北、上海、越南。AAMS 集團自述波仕特市調網「近二十萬有效會員」。來源：pollster.com.tw/AboutPollster/about_pollster_company.aspx；aamsruben.pixnet.net
+- **E1-4 Lippincott Mercer 合作（攀附包裝）**〔c〕：波仕特自述為「Lippincott Mercer 在中國大陸及台灣的獨家代理機構」，列「其知名客戶案例：Samsung、IBM、Citibank、AOL、BMW、HP、NISSAN、GM、McDonalds、UPS、Microsoft、intel」。**證偽：這份名單是 Lippincott Mercer（北美品牌顧問）的客戶，不是波仕特自己的**。波仕特把上游母品牌的 logo 牆當自己招牌。
+- **E1-5 「同時握民調+在地粉專+原生廣告」**〔a 自我定位逐字〕：集團徵才頁「為國內**唯一同時經營社群網站、專業市場調查、新聞入口網站、部落格聯播網、SEO網站優化與Facebook平台行銷**的單位，透過總數百萬以上的會員互動協助客戶進行網路行銷規劃」。→ 同一集團同時掌握「生產民意數據（波仕特）」「分發管道（近百粉專/入口網/部落格聯播）」「變現（原生廣告置入）」三種能力，是它自己的賣點。來源：518.com.tw/company-N4lemQ.html
+- **E1-6 波仕特民調媒體引用**〔b〕：多被軟性消費/生活議題引用（「西式早餐是國人最愛」「逾八成民眾掃過 QR code」），平台多為蕃新聞(yam)、健康九九；未見主流政治民調由波仕特執行。**ETtoday民調雲是另一家獨立品牌，與波仕特無關。** 波仕特定位偏行銷話題操作，非選舉政治民調機構。
+
+### §E2 林憲明其人（政治關聯證據等級）
+
+- **E2-1 可查證身份**〔a〕：績碩科技董事長、波仕特董事、AAMS全通代表人/最大股東，地址全集中內湖基湖路10巷46號5樓。
+- **E2-2 媒體公開形象=幾乎空白**〔a/b〕：多角度搜尋查無任何個人專訪、演講、學經歷、商業媒體人物報導。一個經營「近百粉專/百萬會員」近 20 年的負責人在台灣行銷/商業媒體幾乎零個人曝光——「低調到查不到人」本身是 finding。「林憲明」常見姓名易撞名，已排除。
+- **E2-3 政治獻金/政治關聯：查無（標清限制）**〔a「查無」+ caveat〕：一般網路檢索未發現林憲明本人申報或捐贈政治獻金的公開記錄。**誠實標註：這是「公開網路搜尋查無」，不等於監察院政治獻金公開查閱平臺(ardata.cy.gov.tw)逐筆比對查無**。結論應寫「目前公開可得資訊中查無林憲明本人的政治獻金或政黨職務記錄」，不可寫成「確定無政治關聯」。
+- **E2-4 「親中」關聯是內容層、不是人物層**〔b〕：所有「親中」指控都指向**內容來源**（LIFE 轉載中天/CTWANT）與 **AI 操作**（移除敏感字眼 prompt、日本巨蛋假圖、伊朗軍事假消息），**沒有任何媒體把林憲明本人連到具體中國資金、統戰組織或政黨**。媒體一致用「金流不明」「無法瞭解客戶與金流來自何方」=「查不到」而非「查到中資」。**證偽紀律：把林憲明寫成「中共代理人」會超出現有證據。** 現有證據只支持「一個極低調的內湖行銷集團，產出親中媒體的二次分發 + AI在地化 + 金流不透明」。人物動機（純商業 vs 政治）目前無一手證據可斷。
+
+### §E3 全通粉專矩陣清單
+
+- **E3-1 集團自報子網站/品牌（逐字，c）**：Pollster 波仕特市調網 / 1758.cc 一起玩吧社群網（自述「十二萬註冊會員」）/ UrlAD 部落格廣告聯播網（「超過六萬個部落格」）/ ENews 網路新聞網 / 噓!傳媒 Sheeee.com / 就是愛寵物 Pet Group / 每日健康 Health / VMAX 威邁思電信 / Webbiz 套版網站 / Value 虛擬主機 / iso 愛搜精準行銷網 / SEO優化。來源：518.com.tw/company-N4lemQ.html；aamsruben.pixnet.net
+- **E3-2 「我是OO人」= 矩陣的政治敏感前緣**〔b〕：由 LIFE 同一團隊統一經營，涵蓋全台各縣市，頭像/格式高度一致。已具名：我是台北人(Taipei.Info)、我是高雄人(Kaohsiung.Info, 20萬粉)、LIFE生活網旅遊資訊/社會搜查線/健康新聞快遞(HealthyNews.tw)/生活好簡單So Easy(enjoyingourlife)/我是運動+(lovesportsplus)/台灣大小事(0101testnews9)。母粉專「LIFE生活網」自報 86萬粉、就是愛寵物 48萬、每日健康 76萬（daheadtsai 調查轉述 b/c）。「近百個粉絲團、超過百萬粉絲」是集團自我宣稱，本 thread 未能取得第三方驗證的完整逐一清單——可具名約十餘個，「近百」無法獨立證實。
+- **E3-3 內容生產手法**〔b〕：「我是台北人」被抓未刪 AI prompt「移除敏感字眼，強化台灣在地口語」。內容主要轉載中天集團、CTWANT，AI 改寫+配 AI 生成圖。自由時報 2026-03-07：粉專曾發 AI 假圖批日本巨蛋台灣球迷「區域地上堆滿便當、飲料杯、塑膠袋等垃圾」「女廁所一片狼藉」。杜奕瑾指該系列另發「中國主導的伊朗軍事假消息」。大紀元 2025-12-28 報「新‧二七部隊」發現大量同格式 AI 粉專，網友推測「為明年11月選舉做準備」。
+
+### §E4 「美商」ALL ACCESS HOLDING GROUP 境外註冊
+
+- **E4-1 英文名三版本（self-inconsistent，a 觀察）**：LIFE頁尾/登記版 ALL ACCESS HOLDING GROUP LTD；AAMS自述版 ALL ACCESS HOLDING & MARKETING SOLUTIONS；LinkedIn版 All-Access Holdings Group Limited。三名不一致=品牌話術跡象。
+- **E4-2 美國註冊：查無實體**〔a「查無」+工具受限〕：OpenCorporates 被 captcha 擋，一般搜尋查無 Delaware/California/Nevada「All Access Holding Group」註冊記錄。daheadtsai 自述「從股權來看缺乏明顯『美商』之跡象」。**證偽：「美商」高度可能是行銷話術**，但「查無」目前是搜尋查無，未在某州官方 registry 完成否證；只能寫「公開可查資料中找不到對應美國註冊實體，且股權結構無外資跡象」。
+- **E4-3 與「中國全通」無關**〔a〕：「美商全通」與港股「中國全通 China All Access Holdings」是完全不同兩家公司，勿誤連。
+
+### §E5 財務/規模
+
+- **E5-1 三家資本額**〔a〕：績碩 26,000,000（1995-03-11）/ 波仕特 12,000,000（2005-10-20）/ 年頡 10,000,000（2011-02-24）。合計約 4,800 萬，屬中小企業量級。
+- **E5-2 員工數（自報矛盾，c）**：518 徵才頁 40 人；LinkedIn 一處「642 員工」、另一處「51-200」「成立2007」——自相矛盾，傾向採信 518 的 40 人量級。
+- **E5-3 集團自報歷史（c）**：「過去近二十年來服務超過四千家以上客戶」「1990年初期從製版印刷起家」「2006年起擴大投入越南」。無公開營收（未上市）。
+
+### §Thread E 引語庫（verbatim）
+
+1. AI prompt：「移除敏感字眼，強化台灣在地口語」
+2. 金流：「並無法瞭解到這系列公司的客戶與金流來自何方」
+3. 集團自我定位：「為國內唯一同時經營社群網站、專業市場調查、新聞入口網站、部落格聯播網、SEO網站優化與Facebook平台行銷的單位」
+4. 集團版圖：「該集團事業領域分佈於美國、台灣、中國與越南」
+5. 美商存疑：「從股權來看缺乏明顯『美商』之跡象」
+6. 日本巨蛋假圖：「台灣粉絲區域地上堆滿便當、飲料杯、塑膠袋等垃圾」「女廁所一片狼藉、衛生紙亂丟」
+7. 杜奕瑾：該系列另發「中國主導的伊朗軍事假消息」
+8. 規模自述：「過去近二十年來服務超過四千家以上客戶」；波仕特「近二十萬有效會員」；UrlAD「超過六萬個部落格」；1758「十二萬註冊會員」
+
+### §Thread E 參考來源
+
+opengovtw.com/ban/89977832 · /27961825 · /53314727；pollster.com.tw/AboutPollster/about_pollster_company.aspx；518.com.tw/company-N4lemQ.html；1111.com.tw/corp/50061878/；aamsruben.pixnet.net/blog/post/2806393；tw.linkedin.com/company/all-access-holdings-group-limited；aams.tw；n.yam.com/Article/20170413152201 · /20160824853685；health99.hpa.gov.tw/news/12881；newtalk.tw/news/view/2026-02-21/1020740；news.ltn.com.tw/news/life/breakingnews/5362274；news.ltn.com.tw/news/politics/breakingnews/5347155；epochtimes.com/gb/25/12/28/n14663860.htm；threads @takaogoodday/DU-N5qIE-cS · @daheadtsai/DU-0HOak5ig；ardata.cy.gov.tw；zh.wikipedia.org/中國全通。**Thread E 共 17 次 search/fetch。**
+
+---
+
+## §Thread F（原文）：「我是OO人」歷年爭議考古 + 旺中內容下游生態
+
+### §F1 歷年爭議時間線
+
+**核心：「每過一陣子被提及」是 TRUE 不是純修辭，但 nuance：2026-02 起底是目前最系統性一次（公司結構+金流+AI prompt 鐵證），但非第一次。**
+
+| 時間       | 事件                                                                                                                                                                                                                                                                                                                             | 出處                 |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| 2025-12-28 | 軍事粉專「新‧二七部隊」12/27 點名「我是台北人」「我是高雄人」「內容幾乎都是根據時事，以AI撰寫出來的新聞，配上AI生成圖片」「所有的開頭和格式幾乎都一致」，質疑「背後有組織行動，用於接下來的選舉輿論操作」「都是公關公司創立的，然後職業帶風向」。**這是起底前約 2 個月的前例，但完全未提及 LIFE生活網/中天**（尚未起底到公司層） | 大紀元 2025-12-28    |
+| 2026-02-21 | 高雄好過日 Threads 系統性起底（導火線：殘留 AI prompt）+ 多家媒體跟進                                                                                                                                                                                                                                                            | Newtalk / LTN / 民視 |
+| 2026-03-07 | **起底後再犯**：LIFE生活網粉專發 AI 圖造謠台灣球迷在東京巨蛋「地上堆滿便當、飲料杯、塑膠袋等垃圾」「女廁所一片狼藉」，被踢爆同網站                                                                                                                                                                                               | LTN 2026-03-07       |
+
+媒體轉述歷史宣稱：自由時報 2026-03-07 寫「PTT 創辦人杜奕瑾曾多次提出相關疑慮」（但搜尋未找到杜針對「我是OO人」的具體歷史發文日期/原文，僅此媒體轉述，confidence 中）。
+**falsification 結論**：「每過一陣子」NOT 純修辭（2025-12 前例 + 2026-03 再犯）；但「系統性起底到母公司+親中來源」確是 2026-02 第一次。兩層次分開寫。
+
+### §F2 疫情「很多孩子都走了」指控 — 證據等級（護欄牆 A）
+
+**結論：高雄好過日把該句歸給「我是OO人」是 retroactive 連結，查無一手存證直接證明該句出自「我是OO人」粉專。(c) 級指控。**
+
+- 指控原文（Newtalk）：「疫情期間該系列粉專大量發送『很多孩子都走了』等許多可疑內容」
+- 2022 原始事件一手查核（IORG）點名粉專**完全不同**：源自 2022-05-25 郭彥均臉書（後刪文道歉）。IORG 查到至少 25 個粉專群聚發文，19 個在 10 秒內（15:31:34–15:31:43）同步。IORG 點名名單（verbatim, iorg.tw/\_en/da/24）：**15:31 群聚 19 個**：美女樂園、男人本色、人生按個讚、就是愛正妹、正向看人生、Giga Circle、美好的人生、每天來點正能量、台灣隊長、正向人生、Hssszn 讚新聞、一見你就發財、分享身邊美好的給你、人生停看聽、超废冷笑话、笑话连篇xp、我愛你你愛他他不愛你、不是每句對不起都能換來沒關系、我們不一樣、保证笑死你！！！；**其他 6 個**：愛經驗(13:32)、BuzzHand(13:23)、人生向前走(14:21)、每日正能量(16:10)、OMG快報(18:30)。導向內容農場 beautygirl01.com、health580.net、omgnews.cc、nocancers.net、look543.com。25 則共「至少 7,363 互動、321 分享、1,235 留言」。
+- **關鍵 falsification：IORG 25 粉專名單中沒有任何一個是「我是OO人」系列，也沒有 LIFE生活網/績碩/波仕特相關粉專。農場是 beautygirl01.com 等，與 life.tw 不同網域。**
+- **邊界裁定**：引用此句必須標注為「高雄好過日的指控」而非既成事實。
+
+### §F3 旺中/中天 2020 關台後內容下游放大
+
+- 中天 2020-12-12 NCC 不予換照停播，蔡衍明轉戰新媒體。關台當日 YouTube 訂閱 176 萬，深夜直播 18 萬人線上，後續 YT 抖內坐收 435 萬元。（中央社 / 數位時代）
+- 「電視新聞→內容農場」論述：陳夏民〈電視新聞如何變身內容農場？〉（鳴人堂）；報導者《打不死的內容農場——密訊》。
+- LIFE生活網作為「下游放大」網絡：中天/CTWANT 內容 → LIFE AI 轉譯改寫（去敏感字+強化台灣口語）→ 散佈到「我是OO人」各縣市粉專 + 多入口二次擴散。目前描述來自起底文/集團自介，缺第三方完整拆解（confidence 中）。
+
+### §F4 中天/旺中 NCC 裁罰史 + 親中定性實證
+
+- **NCC 裁罰（a，沃草+維基+中央社）**：中天新聞台 2014–2020/11 共違規 25 次（2 警告、23 罰款），合計 1,153 萬元，為罰款最高電視台。2018 起裁罰 21 次其中 14 件政治相關，合計 1,073 萬。2019 全年罰 553 萬。2019/2-8 報導韓國瑜半年遭罰 380 萬。2019/4 統計中天 82.65% 報導集中韓國瑜其中 94.54% 正面。案例：《新聞深喉嚨》「浙江台商父親來電」罰 40 萬；「封台倒數6天」跑馬罰 80 萬；播女童哭「為什麼要罵韓國瑜」罰 60 萬。中天辯詞：「評論節目並非新聞報導，製作單位沒有事實查證的責任」。2020-11-18 NCC 7 委員一致不予換照，2020-12-12 停播。2023-05-12 北高行撤銷不予換照原處分，但同時駁回換照及國賠請求（法院亦未准換照）。
+- **親中硬證據**：FT 2019 國台辦指示（席佳琳 Kathrin Hille 2019-07-16 報導，旺中記者透露國台辦曾打電話下達編採指示要求支持特定候選人，點名中時及中天；旺中提告 FT/中央社，2021 初撤告，北檢不起訴）。蔡衍明 2012 違法收受中國政府資金置入新聞被罰 180 萬；蔡承認收受中共資金，2010 購中時後赴國台辦向王毅報告（內部刊物「都是按照上面指示，好好報導祖國繁榮」）。黃兆年「中國因素」學術研究（政大國發所；〈中國因素影響下臺灣媒體人的日常抵抗〉《民主與治理》7卷2期 2020/8；"The China Factor in Taiwan's Media", _China Perspectives_ 2017/9）。
+
+### §F5 粉專 Page Transparency 線索
+
+**搜尋未找到任何人對「我是OO人」做完整 FB Page Transparency（建立日/更名史/管理員所在地）逐項分析。** 高雄好過日走的是公司登記路線。
+
+- ⚠️ **cross-source 校正**：原假設關係企業「捷諾科技/博識特/念業科技」**錯誤**；一手三源（LTN/Newtalk/民視 verbatim）為**績碩科技/波仕特科技行銷/年頡科技**。
+- **年頡科技徵才原文（verbatim，證明農場規模）**：「跟上時事，腦洞大開，用 AI 文字、AI 圖片、AI 影片工具產出有趣內容，協助**超過 100 個粉專**的發文與素材創作」（Newtalk）→ 證明逾 100 個粉專由同一團隊 AI 量產。
+- 大頭貼辨識（X @dabowagaga）：「請認明圖二、三的大頭貼格式，全台灣的『我是哪裡人』都是這家 LIFE生活網創的」。
+
+### §Thread F 引語庫（verbatim）
+
+1.「每過一陣子，『我是OO人』粉專的爭議就會被提及」（高雄好過日）2.「移除敏感字眼，強化台灣在地口語」3.「疫情期間該系列粉專大量發送『很多孩子都走了』等許多可疑內容」（Newtalk）— ⚠️ 屬指控 4.「實際瀏覽其網站主要以各類新聞為主，但最多來自中天集團」（民視）/「大多數都來自中天集團和王道旺台媒體的 CTWANT」（LTN）5.「總和目前公開資訊，並無法瞭解到這系列公司的客戶與金流來自何方」6. 年頡徵才：「用 AI 文字、AI 圖片、AI 影片工具產出有趣內容，協助超過 100 個粉專」7. 大紀元 2025-12-28：「內容幾乎都是根據時事，以 AI 撰寫出來的新聞，配上 AI 生成圖片」「所有的開頭和格式幾乎都一致」「可能背後有組織行動，用於接下來的選舉輿論操作」「都是公關公司創立的，然後職業帶風向」8. 中天辯詞：「評論節目並非新聞報導，製作單位沒有事實查證的責任」9. FT 2019：「旺中媒體旗下記者透露，中國國務院台灣事務辦公室曾打電話下達編採指示，要求支持特定的候選人」10. 蔡衍明對王毅：「我們都是按照上面的指示，好好報導祖國的繁榮」（內部刊物披露，轉述）
+
+### §Thread F 參考來源
+
+newtalk.tw/news/view/2026-02-21/1020740；news.ltn.com.tw/news/politics/breakingnews/5347155；ftvnews.com.tw/news/detail/2026221W0159；threads @takaogoodday/DU-N5qIE-cS；news.ltn.com.tw/news/life/breakingnews/5362274；epochtimes.com/gb/25/12/28/n14663860.htm；iorg.tw/\_en/da/24；news.ltn.com.tw/news/politics/breakingnews/3942072；mirrormedia.mg/story/20220528edi008；youtube t3WtFfbAWJ0；watchout.tw/reports/kNnkqK0bOa3845vSizPF；cna.com.tw/news/firstnews/202011230234.aspx；zh.wikipedia.org/中天新聞台不予換照事件；newtalk.tw/news/view/2020-05-06/402825；news.ltn.com.tw/news/society/breakingnews/3463540；watchout.tw/reports/J4EnldXrHEb0HPl3Re3V；epochtimes.com/b5/24/9/3/n14323209.htm；polsci.ccu.edu.tw/var/file/87/1087/img/1666/662746560.pdf；gids.nccu.edu.tw/PageStaffing/Detail?fid=3429&id=4343；aams.tw/?app=Service&act=life；pollster.com.tw；x.com/dabowagaga/status/2030157080599089454；opinion.udn.com/opinion/story/5776/671322；twreporter.org/a/information-warfare-business-content-farm-mission；bnext.com.tw/article/62611。**Thread F 共 16 WebSearch + 7 WebFetch = 23 次。**
+
+---
+
+---
+
+## §Thread G（原文）：「人在台灣，只嫁台灣人」徵婚網軍 — 殺豬盤 vs 政治 astroturf 證偽
+
+**研究紀律：強證偽。核心結論——以現有公開證據，這波最可能是 commercial romance scam（殺豬盤/假交友引流）為主，而非國家級政治 astroturf，但無法完全排除混合。「只嫁台灣人」措辭易誘導歸因政治，但手法指紋（同秒齊發模板＋假女性照＋導流加 LINE）幾乎完全吻合詐騙產業標準作業；巴基斯坦/中國分布正是已知中資詐騙園區所在地，不是政治網軍的典型分布。**
+
+### §G1 詐騙 vs 政治 — 證據加權
+
+**支持 commercial romance scam（較強）**：
+
+1. 假女性照+模板自介：臺北地檢署「詐騙集團成員大多盜用他人照片或身分創設假帳號……偽裝成帥氣男子或漂亮女性」；China Story 田野證實男性操作員扮假女性，一房約 70 人。
+2. 「加 LINE 真心交友」導流=殺豬盤關鍵識別。網友實證 @lilu_8542：「我跟他要賣場也不提供，只叫我加閆娘的 LINE，這種就很奇怪了」。**政治 astroturf 目的是留在平台洗留言/帶風向，不會把目標導離平台去 LINE（導離平台對政治動員是反效果）。**
+3. 同秒齊發+一字不差模板：詐騙與政治網軍都會出現，本身不單獨區分，但配合 1+2 在詐騙語境更自洽。
+
+- 加權：殺豬盤起源中國（最早在同性交友網站找受害者，後擴及異性），產業鏈「選豬→養豬→殺豬」第一步就是「用假社群帳號搭建豬圈」。這波大量假徵婚帳號=「養豬圈」階段。
+
+**支持政治 astroturf（較弱、間接）**：1.「只嫁台灣人」措辭強化台灣 vs 中國身分對立，看似政治；但也可能只是詐騙劇本蹭在地情緒（最能引發台灣男性點擊的措辭）。措辭政治 ≠ 動機政治。2. 時間/平台脈絡巧合：2026-06 正值 Threads 上線「帳號所在地」（2025-12）後大量「假台灣人真中國網軍」被抓的氛圍，台灣社群此刻對「中國 IP 偽裝台灣人」高度敏感，是歸因偏誤溫床。3. 既有政治洗版前例：426 遊行後「美女頭貼+一字不差『我寧願被中國統一』」疑公關公司操作情緒動員（三立/Newtalk/風傳媒）。**但那波明確是政治口號、留在平台、不導流，與「徵婚→加 LINE」動機結構不同。** 前例存在反而幫助區分。
+
+| 假設                               | 加權           | 主要依據                                                         |
+| ---------------------------------- | -------------- | ---------------------------------------------------------------- |
+| 純 commercial scam（殺豬盤養豬圈） | **最高**       | 加 LINE 導流+假女照+巴/中地理=詐騙三重指紋                       |
+| 混合（詐騙借政治措辭提高觸及）     | 中等，不可排除 | 「只嫁台灣人」蹭在地情緒可同時是 engagement bait                 |
+| 純國家級政治 astroturf             | **最低**       | 導流 LINE 與政治動員目的相悖；無政治 payload；分布偏向詐騙園區國 |
+
+**最重要證偽心得：不要因「中國 IP + 台灣身分措辭」就跳到「認知作戰」。殺豬盤本來就是中資跨國產業，本來就會偽裝台灣女性、用在地化措辭。政治歸因需要「政治 payload + 留在平台 + 不索取金錢/個資」三項，本波都不具備。**
+
+### §G2 地理分布意義（中國 21/巴基斯坦 3/美國 1/台灣 0）
+
+- **巴基斯坦=已知中資詐騙園區（最強證偽證據）**：Faisalabad 詐騙中心突襲（2026）巴基斯坦 NCCIA 逮 149 人，48 名中國籍，運作龐氏/投資詐騙（SCMP/Arab News）。巴 FIA「Operation Grey」業務含「針對美國人的 romance scam」「假投資平台」，資金經 hawala 轉加密貨幣。ScamWatchHQ 估巴詐騙危機 93 億美元。→ 巴基斯坦帳號 ≠ 巴基斯坦人發政治文，是中資詐騙集團營運據點。
+- 中國 21：殺豬盤起源國+操作母體（產業鏈估 2024 加密貨幣詐騙 124 億美元，Chainalysis）。中國 IP 既可能政治網軍也可能詐騙，單看中國無法區分，配合巴基斯坦就傾向詐騙。
+- 227 隱藏（「未分享」）：高機率 VPN/隱藏定位，詐騙與政治都會這樣做。台灣 0：強烈指向全部境外操作。
+- **整體：地理分布（特別巴基斯坦）向「跨國詐騙產業」傾斜。**
+
+### §G3 ctchart.lab 以外的獨立佐證（不足，須當線索）
+
+- 原始來源 ctchart.lab（壹加壹的「一粒」，用 Codex AI 分析）。搜尋時 @ctchart.lab 顯示「尚無貼文」，原始 458 篇分析未被搜尋引擎獨立索引，無法逐字交叉驗證原數據——**confidence 主要缺口**。
+- 轉述/評論帳號 @vladiv1024 是對徵婚內容的評論，非原始分析數據。
+- 未找到獨立佐證：MyGoPen 有大量 Threads 詐騙查核但未見針對「只嫁台灣人徵婚潮」專文；Cofacts/TFC 同樣未檢索到這波特定事件查核。
+- **結論：ctchart.lab AI 分析是有價值的線索，數據若屬實則高度可疑，但截至研究時點缺乏第二個獨立來源交叉驗證。引用須標明「單一公民 AI 分析，未經第三方查核」。**
+
+### §G4 Threads「帳號所在地」功能可信度
+
+- 機制（Meta 官方+科技媒體）：非使用者自填，系統依 IP+裝置訊號（GPS/藍牙/Wi-Fi）+帳號活動紀錄強制判定。
+- 三樣態：顯示「國家」/「未分享」（位置訊號衝突、刻意隱藏或頻繁 VPN 切換；部分被標中國後刪位置紀錄變未分享）/完全無欄位（功能未推送）。
+- 造假空間：能被 VPN/隱藏規避→「顯示中國」是 false negative 偏誤下的**下限**（真實境外帳號只會更多）。已知 edge case：中國發行漫遊網卡/eSIM 會把流量路由回中國，導致人在日韓 IP 仍顯示中國→「顯示中國」不能 100% 等於人在中國。
+- **代表/不代表**：代表網路足跡指向中國且沒用 VPN 規避（假台灣人語境下強烈可疑）；不代表 100% 人在中國、不代表動機政治（詐騙集團 IP 同樣在中/巴）、「未分享」不代表清白。
+- **修正：對「揪境外帳號」可信度中高；對「判動機（詐騙 vs 政治）」零幫助——只告訴你「不在台灣」，不告訴你「為什麼假裝在台灣」。**
+
+### §G5「嫁台灣人」敘事脈絡
+
+- 真實兩岸婚姻退潮：2003 高峰後 15 年驟減約 80%（聯合報）。中配入籍年限/健保是中國社群（小紅書/抖音）反覆討論的真實話題。
+- 小紅書/抖音演算法滲透被指認知作戰管道，但與本波「Threads 徵婚帳號」是不同層次。
+- 「養豬圈」蹭在地情緒（最相關）：「人在台灣、只嫁台灣人」對台灣男性同時觸發「在地認同+排他稀缺性+異性吸引」三重 engagement bait。措辭利用兩岸敏感情緒，但不等於動機統戰。
+- 真實跨國脈絡（佐證該地理區犯罪生態）：China–Pakistan 婚姻人口販運——629 名巴基斯坦女性自 2018 被販賣到中國，估累計 750-1,000 人；經紀人從新郎收 2.5-6.5 萬美元只給女方 1,500 美元，鎖定貧窮基督教少數族群（Al Jazeera/WaPo/HRW）。**意義：佐證「巴基斯坦+中國+婚姻敘事+跨國犯罪」是真實犯罪生態圈，使「巴基斯坦 IP 假徵婚帳號出自跨國詐騙集團」假設更可信。**
+- 加權：統戰敘事通常推「兩岸一家親/被統一也好」，**不是推「我要嫁台灣人」**——後者方向反而肯定台灣人價值，與統戰目標不一致，更像純釣魚鉤子。
+
+### §Thread G 引語庫（verbatim）
+
+- @lilu_8542：「我跟他要賣場也不提供，只叫我加閆娘的 LINE，這種就很奇怪了……徵人不可能連自己的賣場都無法提供資料吧」
+- @zz.fang 假帳號辨識：「1.照片永遠都是個人獨照…2.幾乎很少在台灣的照片，沒有任何明顯地標。3.運動的健身房或餐廳不像在台灣」
+- @scorpio.0920：「『未分享』通常發生在系統偵測到位置訊號有衝突、被刻意隱藏，或頻繁使用 VPN 切換國家……部分帳號在被系統顯示為『中國』後，透過刪除位置紀錄或更改權限，使狀態變為『未分享』」
+- Newtalk 2025-12-04：「自從脆可查位置後 中國網軍瞬間消失」
+- 塔科女子 eSIM 誤判：「某些中國發行的漫遊網卡會將流量先路由回中國伺服器，導致 IP 位址與 SIM 識別資訊皆顯示為中國來源，即使用戶身處日本或韓國」
+- 426 後政治洗版（三立/Newtalk）：「Threads 上出現大量使用『美女頭像』的假帳號，都發布相同內容，表示『我寧願被中國統一』……疑似由公關公司協助操作」
+- 殺豬盤養豬圈（天下/獨立評論）：「詐騙者首先用假的社群媒體帳號搭建『豬圈』，接著挑選目標受害者（選豬），然後花費數週、甚至數個月的時間建立信任（養豬），接著再引誘受害者投資（套豬）」
+- 臺北地檢署：「詐騙集團成員大多盜用他人照片或身分創設假帳號……偽裝成帥氣男子或漂亮女性，並以『軍人』『醫生』『金融專業人士』等身分與被害人互動」
+- China Story 田野（en）：「One compound employed approximately 70 people in a single room… In a five-month period, one syndicate extracted $4.4 million from 214 victims」
+- Wikipedia 殺豬盤起源（en）：「Pig-butchering scams originated in 2016 or earlier as a regional scam in China, originally finding their victims on same-sex dating sites…Many…are overseas Chinese criminal syndicates based in Southeast Asia」
+- 巴基斯坦 Faisalabad（en）：「Pakistan police arrested 149, including 48 Chinese nationals, in a scam center raid in Faisalabad」
+- 巴基斯坦新娘販運（en）：「Investigators had a list of 629 girls and women trafficked to China since 2018…an estimated 750 to 1,000 girls have been married off」
+
+### §Thread G confidence note
+
+詐騙手法指紋吻合度=高；動機是詐騙而非政治=中–高（邏輯強但無法直接證實金流）；巴/中地理=詐騙園區=中–高（Faisalabad 突襲直接佐證）；ctchart.lab 原始數據=低–中（**最大缺口**，單一公民 AI 分析無第三方查核）；Threads 所在地功能=中–高（揪境外）/零（判動機）。**整體中等：證偽方向清楚（不應急於歸因政治認知作戰），但原始數據無第三方交叉驗證、金流未證實，不能 100% 排除混合或政治成分。寫此題必三層分級：①手法符合詐騙產業（可寫）②動機加權傾向 commercial（標明推論）③ctchart.lab 數據（標明單一來源待查核）。**
+
+### §Thread G 參考來源（全列）
+
+threads @vladiv1024/DTVEUQrk_aW · @lilu_8542/DViRawbj-12 · @zz.fang/C_X-VwvTIHG · @scorpio.0920/DR4ZOqpEmdA；tech-girlz.com/2025/12/threads-based-in.html；applealmond.com/posts/299285；mrmad.com.tw/threads-account-location-origin-check；newtalk.tw/news/view/2025-12-04/1007958 · /2025-12-05/1008189；news.ltn.com.tw/news/politics/breakingnews/5267336；setn.com/News.aspx?NewsID=1661425；storm.mg/article/11040890；en.wikipedia.org/wiki/Pig_butchering_scam；thechinastory.org/lrp/the-pig-butchers-payroll-inside-a-romance-scam；cw.com.tw/article/5134004；opinion.cw.com.tw/blog/profile/565/article/15400；xrex.io；police.gov.hk；tpc.moj.gov.tw（臺北地檢署）；scmp.com/news/asia/south-asia/article/3317696；arabnews.com/node/2607593；dawn.com/news/1764628；tribune.com.pk/story/2549711；ohchr.org/en/stories/2026/02；aljazeera.com/news/2019/12/5；washingtonpost.com/world/2019/12/05；christianpost.com 629；mygopen.com/2025/12/threads.html；cofacts.tw。**Thread G 共 17 WebSearch + 5 WebFetch（含補強至 22 條 query）。**
+
+---
+
+## §Thread H（原文）：資訊操弄定性學術框架 + 假在地身分國際比較
+
+### §H1 國際 disinformation 框架（verbatim）
+
+- **Wardle & Derakhshan「information disorder」三分（2017, Council of Europe）**：Misinformation="false information shared without intent to harm"（不帶傷害意圖分享的錯誤訊息）；Disinformation="false information shared with harmful intent"（帶傷害意圖）；Malinformation="accurate information used to cause harm"（為造成傷害而使用的真實訊息）。核心軸=「意圖」×「真假」兩維度。
+- **Camille François「ABC framework」(Actors, Behaviors, Content, 2019)**：verbatim「Manipulative actors, deceptive behaviors, harmful content: each vector presents different characteristics, difficulties, and implications.」/「the public debate in the U.S. has been largely concerned with actors… the technology industry has invested in better regulating behavior… while governments have been most preoccupied with content.」/ A=「Manipulative actors, by definition, engage knowingly and with clear intent in viral deception campaigns. Their campaigns are covert.」/ B 目標=「to enable a small number of actors to have the perceived impact that a greater number of actors would have if the campaign were organic.」
+- **Ben Nimmo Breakout Scale**（2020 Brookings，六級量表依跨平台/跨社群評估影響）+ 4 Ds（dismiss/distort/distract/dismay）+ DFRLab 3A（Activity, Amplification, Anonymity）。
+
+### §H2 Meta CIB 官方定義
+
+- CIB（term 由 Facebook 2018 創）=「domestic, non-government campaigns that include groups of accounts and Pages seeking to mislead people about who they are and what they are doing while relying on fake accounts」。
+- 行為導向 verbatim（Facebook 2020-07）：「we focus on behavior rather than content, no matter who's behind them, what they post, or whether they're foreign or domestic.」
+- FGI（Foreign or Government Interference）=CIB 的子集（境外/政府版本），底層行為相同。
+- **學術 caveat（拒絕二元的平台級背書）**：platform glossary「coordinated inauthentic behavior still does not have a completely stable or clear definition」；2020 TikTok/K-pop 搶票 Facebook 拒歸 CIB（無假帳號）；結論「coordination and authenticity exist on spectrums rather than as binary states」（協同與真實性是光譜不是二元）。
+
+### §H3 台灣具名學者論述（verbatim 全列）
+
+**H3.1 沈伯洋〈中國認知領域作戰模型初探：以2020臺灣選舉為例〉《遠景基金會季刊》22卷1期 2021/1 頁1-65（TSSCI）**：
+
+- 層次：「混合戰為資訊作戰的上位概念，而資訊作戰為認知領域作戰的上位概念。」
+- 西方定義：「利用媒體、網路等資訊改變人們之意識、認知、作為或決策」。
+- NED 定義：「利用爭議訊息，破壞社會既有網絡、並加深原本之對立」「認知領域攻擊的要素有二：一為利用爭議訊息做為管道，二為混淆或破壞敵方的認知，並造成對立」。
+- ★境內也能大量製造爭議訊息（頁6）：「臺灣境內亦可能大量製造爭議訊息，如內容農場『密訊』，以及新媒體『芋傳媒』等，都可能形成爭議訊息散布的溫床。」
+- ★★發動者不限境外（頁7，**直接支撐「商業 vs 政治」灰色地帶**）：「常然，混淆大眾認知體系的發動者，並不限於境外勢力，大公司利用個資和分眾投放不同的廣告，早已成為日常生活的一部分，而這種技術若被應用在影響投票行為之上……將造成更大的威脅。」
+- 中國「去中心化」攻擊（頁12-13）：「中國的情報單位並不是主要的領導者……此種網路攻擊反而常常大量依賴民間人士或公司的活動。」
+- ★鑽石模型（圖2 頁13）：經濟象限「資本追求者」格明列「（尋租者）**商業性的內容農場、一般 Youtuber／直播主**、宗教團體、粉專管理員、移民、地方政黨、弱勢群體、罪犯」；政治象限「資本擁有者」格列「國家安全部、解放軍、武警、共青團、統戰部、政協、國台辦、中宣部/網信辦、媒體」。動機 verbatim：「（發動者）在政治與動機的光譜中間，尚有中間型態這種特殊角色」（如「無奈之下」「為建立在中國地位」而散布）。
+- 惡意難證實（卓越新聞獎講座）：「（是否視為作戰）取決於惡意（bad intention）的有無。不過，惡意非常難被證實。」「中國對台灣進行的輿論戰，80%都跟『真假』無關，反而是『敘事攻擊』居多。」
+- 五種手法（Yahoo 2024）含「砸錢給台灣公關公司」「紅色資金控制言論」「教授成為帶進門的人」。
+  **H3.2 王希（IORG，沃草）**：「沒有辦法隨便、任意指控誰是網軍。因為構成『網軍』的要素是有無『金錢對價』關係」「現在一概而論、只要自己不喜歡的論述就戴上『網軍』的帽子……對於臺灣的公共討論是很危險的」「如此造成臺灣內部互相對立、隨便指控認知作戰，也正是資訊操弄者最想看到的，因為這樣真正的網軍或者認知作戰者就更難被發現」。
+  **H3.3 游知澔/IORG**：資訊操弄「始於用強制手段產製訊息……也會用金錢收買在地協力者」；分「來源操弄/內容操弄/推論誤導」；「微博到臉書是中國資訊入侵最重要的途徑」。
+  **H3.4 黃兆年（紅色滲透三途徑）**：(1) 經濟吸納（廣告市場如置入性行銷、資本市場如補貼入股收購）(2) 規範擴散（兩岸媒體論壇把中國式媒體規範帶入，淡化六四/藏獨/疆獨/法輪功）(3) 假訊息輸出（中國內容農場、台灣親中媒體、中國官媒）。自我審查→「建構式言論審查」。
+  **H3.5 王宏恩（思想坦克 2026-02-10，★直接命中我是OO人）**：「專門用AI把文章重寫並改成繁體字，可避免因相同內容重複複製貼上而被抓到訊息源頭或被降觸及，是有目的用AI避開調查偵測」；判準「假如只是想要分享來自中國的優良好文章，直接原文照貼附連結就好，不用特別用AI把文修成繁體還重寫」。**區別不在「用了 AI 在地化」，在「是否刻意隱匿來源/規避偵測」——本土商業公開自己是台灣公司、不隱匿，與內容農場「用AI修繁體+隱身分」有本質差異。**
+  **H3.6 杜奕瑾（Taiwan AI Labs 協同操作年報）**：協同帳號定義含「公關公司操作的帳號，以非有機、組織性的方式在擴散特定言論」；「文字的曲解敘事為大型語言模型參戰後的主要戰場」；協同帳號「甚至還有『排班表』、有明確的上下班時間」；此類操作「不太像是台灣內部公關公司所為，已超出國內公關組織的能力」。
+  **H3.7 黃俊儒（鳴人堂）**：「disinformation翻譯成『惡訊息』、misinformation翻譯成『錯訊息』……最大的差別就是其中的意圖程度，前者是蓄意破壞，後者則是不經意犯錯」「民眾得先從最基本的惡意與否來劃分」。
+
+### §H4 假在地身分 astroturfing 定義 + 國際案例
+
+- **Kovic et al. (2018) 數位 astroturfing 學術定義**：「Digital astroturfing is a form of manufactured, deceptive and strategic top-down activity on the Internet initiated by political actors that mimics bottom-up activity by autonomous individuals.」五必要條件：在網路上/由政治行為者發起/人造/欺騙/策略性。內建中國案例（引 King et al. 2017 五毛黨）。
+- **俄羅斯 IRA 假在地粉專**：「Blacktivist」（佯裝非裔行動者，1,120 萬互動）；「Heart of Texas」（反穆斯林，25 萬追蹤，2016 休士頓清真寺外策動實體對峙，同一操作者同時扮演對立雙方在地身分）。
+- 其他國家：菲律賓 Twinmark（見 H5.2）；巴西（假扮記者人設）；哥斯大黎加/薩爾瓦多連到 PR 公司 Noelix Media。Meta 共同結論：移除的多數行動「focused on domestic audiences… linked to commercial entities and individuals associated with political campaigns」。
+
+### §H5 商業 vs 政治灰色地帶學術討論
+
+- **Oxford OII《Industrialized Disinformation》(2021)**：private「strategic communications」公司提供「disinformation-for-hire services」，state actor 與這類公司合作見於 48 國。Howard「misinformation has become more professionalized and is now produced on an industrial scale」。
+- **★Twinmark（商業農場被政治收編教科書案例）**：Facebook 2019-01 禁「digital marketing group in the Philippines — Twinmark Media Enterprises」，違規「coordinated inauthentic behavior, the use of fake accounts, leading people to ad farms, and selling access to Facebook Pages to artificially increase distribution and generate profit」。移除 220 粉專/73 帳號/29 IG，約 4,300 萬追蹤。內容「mostly clickbait… and several political materials」並對 Duterte 批評者發假故事。**Facebook 移除依據是「行為」（假帳號+misrepresentation）而非「內容親某政治立場」。**
+- 沈伯洋鑽石模型（H3.1）+ 吳介民〈從商業模式看統戰：跨海峽政商關係中的政治代理機制〉（中研院社會所 2017）。
+- King, Pan & Roberts (2013/2017) 中國 50 Cent Army 系統性 astroturfing（國家級政治動機典型）。
+
+### §Thread H confidence note
+
+高信度（primary 逐字驗證）：François ABC 全文、沈伯洋 TSSCI 論文（逐頁讀 22 頁含圖2象限頁碼）、Kovic 定義、Meta 2020 公告、Twinmark Meta 官方。中信度（WebFetch 二手轉述，出版前再核標點）：王希沃草、黃兆年三途徑、王宏恩 AI 指令、杜奕瑾年報、黃俊儒。注意：Wardle/Derakhshan 三定義中文是綜整二手介紹頁，長引文應回 Council of Europe 原報告核對。**未取得**：沈伯洋「三I模型」（Information/Influence/Interference）未找到他本人以此三詞命名的原始出處——他論文用「混合戰→資訊作戰→認知領域作戰」三層+鑽石模型四維度；**若文章要寫「三I模型」需謹慎，建議改用論文實際表述。**
+
+### §Thread H 參考來源（全列）
+
+profolus.com/topics/wardle-derakhshan-framework；konsyse.com；ivir.nl/publicaties/download/ABC_Framework_2019_Sept_2019.pdf；demdigest.org/a-disinformation-abc；brookings.edu/wp-content/uploads/2020/09/Nimmo_influence_operations_PDF.pdf；about.fb.com/news/2020/07/removing-political-coordinated-inauthentic-behavior；platformglossary.info/coordinated-inauthentic-behavior；pf.org.tw/wSite/public/Attachment/003/f1646210580296.pdf（沈伯洋論文）；airitilibrary.com/Article/Detail/15601696-202101；feja.org.tw/74059；tw.news.yahoo.com 沈伯洋五種手法；watchout.tw/reports/NqxdmV2ut5pGPMsjW049；inside.com.tw/article/22770；iorg.tw/\_en/about；whogovernstw.org/2019/05/27/jawnianhuang9；talk.ltn.com.tw/article/breakingnews/2811562；voicettank.org/20260210-1；ailabs.tw 協同操作年報；cna.com.tw/100/article/news/202407010101；opinion.udn.com/opinion/story/6077/5388292；hope.uzh.ch/scoms/article/download/j.scoms.2018.01.005/991（Kovic PDF）；en.wikipedia.org/wiki/Astroturfing；npr.org/2019/10/08/768319934；texastribune.org/2018/12/17；ox.ac.uk/news/2021-01-13；about.fb.com/news/2019/01/banning-twinmark-media-enterprises；rappler.com/technology/social-media/220741；transparency.meta.com/metasecurity/threat-reporting。**Thread H 共 16 WebSearch + 11 WebFetch/Read = 27 次。**
+
+---
+
+## §Thread I（原文）：平台 CIB 治理 + 台灣法規深掘
+
+**★核心發現：「治理真空」2026 年已部分失準需校正。2024 打詐專法（詐欺犯罪危害防制條例）對「網路廣告平臺、假廣告、出資者揭露、下架時限」課了有牙齒的法定義務並已實際開罰 Meta 累計 1,850 萬。真空從「假廣告/詐騙帳號」這塊明顯縮小；但「政治性協同操作（CIB）／粉專經營者揭露／非廣告內容來源透明」這塊真空仍在——因為填補真空的是「打詐」邏輯不是「平台問責/言論透明」邏輯，後者（數位中介法）2022 流產後到 2026 仍未復活。**
+
+### §I1 Meta CIB 台灣案例（多批，台灣均為被攻擊目標，歸因中國）
+
+- **2023-08 Spamouflage（最大批）**：Meta 移除 7,704 帳號、954 粉專、15 社團，稱「the largest known cross-platform covert influence operation in the world」，連結「individuals associated with Chinese law enforcement」；目標含「Taiwan, the U.S., Australia, the U.K., and Japan」。跨 50+ 平台。
+- **2023-11 季度報告**：2023 全年下架 5 個中國網絡（多於任何國家）；其中一個「almost 5,000 fake accounts」鎖定美國。⚠️ 精確數字「4,789」未驗到，**勿採用**，用「將近 5,000」。
+- **2025-05 Q1 報告（台灣最明確被點名）**：下架 157 FB 帳號、19 粉專、1 社團、17 IG，China-based，與 2022-09/2024-02 兩批中國行動有連結；目標緬甸、台灣、日本；對台敘事「claimed corruption among Taiwanese political leaders」（指控台灣政治領導人貪腐）；部分帳號用 AI 生成頭像。
+- **2024 大選 Doublethink Lab《Artificial Multiverse》（研究機構歸因，非 Meta 官方下架）**：ECFA 案 450 不實帳號協同；「私生子」案單日 7,537 貼文來自 1,638 帳號（73% 在 2023-11 建立）；可疑海外匿名粉專：政事每天報、每日資訊速報、熱點新聞報、話仙、新聞一起看。
+- **小結：Meta 多次官方點名台灣為中國 CIB 目標，但全是攻擊「政治影響操作」的下架，不是針對「徵婚/交友詐騙網軍」或「我是OO人」式商業/情感操作的下架。**
+
+### §I2 數位中介服務法流產後續（2023-2026）
+
+- 2022-06-29 NCC 通過草案（含「資訊限制令」法院 48 小時內裁定、加註警語、平台問責），2022-09-07 副主委翁柏宗宣布全部退回工作小組「一切回到原點，沒有時間表」。
+- **關鍵：到 2025 仍未復活立法**。2025-05 行政院重提概念引在野黨「網路審查大復活」疑慮，「截至搜尋，沒有跡象顯示該法已成功立法」。水平式平台治理 2022 後懸而未決到 2026。
+- 真空不是完全沒填：改走「垂直式議題立法」用 2024 打詐專法處理「詐騙廣告/假帳號」，但邏輯不同（填「詐欺」洞不是「平台言論透明」洞）。
+- **小結（falsify）：對「政治粉專揭露金主/經營者/內容來源」這個文章原指的真空，2022 流產後到 2026 仍成立——沒有法律強制一般政治/意見型粉專揭露經營者或金主。打詐專法揭露義務只綁「廣告」（付費刊播）不綁「免費經營的粉專內容」。**
+
+### §I3 打詐專法 2024 義務（法條 verbatim）★最重要 falsify 證據★
+
+《詐欺犯罪危害防制條例》立法院 2024-07-12 三讀、2024-07-31 公布。主管：數位發展部。pcode D0080226。
+
+- **第 30 條**：「網路廣告平臺刊登或推播之廣告，不得含有涉及詐欺之內容。」+ 應「以數位簽章、快速身分識別機制或其他安全性相當之技術或方式驗證委託刊播者及出資者之身分」+ 每年發布詐欺防制透明度報告。
+- **第 31 條（廣告實名/揭露）★**：「網路廣告平臺業者於其平臺刊登或推播廣告時，應於廣告中揭露下列資訊：一、標示為廣告之訊息。二、委託刊播者、出資者相關資訊。三、廣告依法須經許可者，其許可字號。四、廣告使用深度偽造技術或人工智慧生成之個人影像。」
+- **第 32 條（下架/停權+連帶賠償）★**：知悉為詐欺廣告或明顯涉及詐欺時應於通知期限內移除/限制瀏覽/停止播送，並提供委託刊播者/出資者及涉詐通訊軟體帳號/電信號碼給司法警察；對涉詐用戶於合理期間暫停服務；「網路廣告平臺業者違反前項規定，對於因誤信廣告內容而受有損害之人，應與廣告委託刊播者、出資者負連帶損害賠償責任」。下架時限「24 小時」由數發部依第四項授權公告。
+- **第 29 條**：境外平台無營業所應書面指定在台法律代表並提報。
+- **罰則**：第 39 條（落地/下架/停權違規）50 萬–1,000 萬，情節重大 250 萬–1 億並得令 ISP「停止解析或限制接取」（封網）；第 40 條（揭露/實名/驗證違規）20 萬–500 萬，情節重大 100 萬–2,500 萬。**Meta 1,500 萬罰單即依第 40 條第 2 項+第 31 條第 1 項第 2 款。**
+- **小結（falsify「真空」）：打詐專法確實填補一塊真空——對「假廣告/假交友假投資廣告/出資者身分/24 小時下架/在台法律代表」課了明確、有金額、可開罰、甚至可封網的義務+連帶賠償。但範圍嚴格限縮在「廣告（付費刊播）」與「詐欺」，不及於「非廣告的政治/意見型粉專經營者揭露」。**
+
+### §I4 置入性行銷/業配法規史
+
+- **預算法第 62 條之 1（2011-01-26 公布）**：「各機關編列預算於平面媒體、廣播媒體、網路媒體（含社群媒體）及電視媒體辦理政策及業務宣導，應明確標示其為廣告且揭示辦理或贊助機關、單位名稱，並不得以置入性行銷方式進行。」背景：2010 記者黃哲斌辭職發起反置入連署（廣為人知背景，本次未逐字驗黃哲斌之名，標三級）。
+- **公平交易法第 21 條**+公平會《網路廣告案件處理原則》：網紅/直播主區分「薦證者/廣告主」，薦證須遵守「薦證廣告真實原則」與「揭露利益關係義務」。裁罰案例：「穿戴式空氣清淨機 99.7%」罰 5 萬（公處字 113060）；網紅團購「保證最低價」罰 5 萬（公處字 114086，首次對網紅團購廣告不實開罰）。**關鍵 nuance：公平會管「廣告不實」，「沒揭露是業配」本身的裁罰相對少——這對「未揭露金主」治理仍是相對真空。**
+- **NCC 電視置入辦法**：新聞/兒童節目不得置入；不得以菸酒/跨國境婚姻媒合/處方藥置入；「應於該節目播送前或後明顯揭露置入者之名稱或商標……時間不得超過二十秒」。
+
+### §I5 數位部（moda）反詐/平台治理
+
+- 廣告實名制 2025-01-01 上路（先從高風險廣告客戶），既有帳號 KYC 2025-03-26 至 2025-07-01。2024-09 第一次公告納管：Meta、Google、LINE、TikTok。
+- **對 Meta 三度開罰累計 1,850 萬**：① 2025-05-22 首罰 100 萬（廣告資訊揭露不全）② 2025-06-30 重罰 1,500 萬（違第 31 條第 1 項第 2 款「系統性缺失」，依第 40 條第 2 項，令 30 日改正）③ 2025-08-21 再罰 250 萬（違第 32 條第 1 項第 1 款+第 39 條，未在時限下架；台北市政府移送 1,763 則，其中 77 則 Meta 未在 24 小時內下架≈5% 未達標，1,686 則未提供委託刊播者資訊）。
+- Meta 自陳（標明平台自報）：在台去年下架超過 14.6 萬廣告帳號、160 萬則詐騙廣告內容。缺口：5% 未 24 小時下架；詐騙轉移到 Threads 成新溫床。
+
+### §Thread I confidence note（治理真空是否仍成立）
+
+**結論：論點需從「治理真空」改寫為「真空被部分填補但填補邏輯錯位」。直接照搬「治理真空」會在 2026 年讀來過時、被懂法讀者抓漏。**
+
+- **真空已縮小**：付費廣告金主揭露（第 31 條，廣告實名制 2025-01-01）+ 24 小時下架（第 32 條，可罰可連帶賠償可封網）+ 在台法律代表（第 29 條）+ 執法是真的（moda 罰 Meta 1,850 萬）。
+- **真空仍成立（文章可保留的核心張力）**：①非廣告的粉專內容不受揭露義務拘束（只綁付費廣告）——一個冒充台灣人的政治/情感粉專仍無法律強制揭露經營者/金主 ②水平式平台問責法（數位中介法）2022 流產到 2026 未復活，台灣沒有歐盟 DSA 式通案透明度報告法 ③政治性 CIB 靠平台自律+外部研究，無國內法強制 ④業配「未揭露利益關係」執法弱。
+- **2026 措辭建議**：把「治理真空」校正為——「詐騙廣告這塊 2024 打詐專法+2025 廣告實名制已實際填補（Meta 因此被罰 1,850 萬）；但非付費的政治/情感操作粉專——冒充台灣人帶風向、未揭露經營者的意見型粉專——仍卡在真空裡：管它們的水平式平台問責法 2022 流產後到 2026 仍未復活，現有打詐專法揭露義務只綁『廣告』不綁『內容』。治理真空從『全面』縮成『內容/政治操作的真空』。」
+- 分級：法條/罰款/開罰日/Meta CIB 下架數字=高；「將近 5,000」=中（精確「4,789」未驗勿用）；黃哲斌導火線=中-低（寫前再查）；Meta 自報 14.6 萬/160 萬=中（標「Meta 自陳」）。
+
+### §Thread I 參考來源（全列）
+
+law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080226（詐防條例全文）；law.moj.gov.tw/LawClass/LawSingle.aspx?pcode=T0020001&flno=62-1（預算法62-1）；acc.nccu.edu.tw/sites/default/files/62-1_0.pdf；cy.gov.tw/News_Content.aspx?n=528&s=22097；law.moj.gov.tw/LawClass/LawAll.aspx?pcode=P0050055（電視置入辦法）；ncc.gov.tw/chinese/law_detail.aspx?site_content_sn=3715&law_sn=2581；ftc.gov.tw/internet/main/doc/docDetail.aspx?uid=165&docid=12231；ncc.gov.tw/chinese/news.aspx?site_content_sn=5542；moda.gov.tw/ADI/news/latest-news/16524（Meta 1,500 萬）· /17138（Meta 250 萬+1,763 則）；moda.gov.tw/press/press-releases/13876；transparency.fb.com/sr/Q1-2025-Adversarial-threat-report；transparency.meta.com/metasecurity/threat-reporting；winklerpartners.com（防詐義務/網紅團購）；lexology.com；medium.com/doublethinklab Artificial Multiverse；ai.iias.sinica.edu.tw/digital-services-act-eu-vs-tw；cna.com.tw/news/aipl/202209070201 · /afe/202505220269；udn.com/news/story/6656/6595632；chinatimes.com/newspapers/20250516000510；news.pts.org.tw/article/724139；technews.tw/2025/08/22/meta-scam-ads · /2024/11/13/platform-advertising-real-name-system；bnext.com.tw/article/83747；gvm.com.tw/article/122932；ithome.com.tw/news/169820；news.cnyes.com/news/id/5792775；time.com/6310040；voanews.com Spamouflage；techcrunch.com/2023/08/29；securityonline.info Q1 2025；npr.org/2023/11/30/1215898523；rappler.com Q3 2023。**Thread I 共 11 WebSearch + 5 WebFetch（含 2 次 403 替代）= 16 次。**
+
+---
+
+## §Thread J（原文）：AI 內容農場數據 + 台灣內容農場產業史
+
+**⚠️ 校正：brief 寫密訊操盤手「林裕紘」錯誤，報導者實際指認 林正國。**
+**⚠️ 案例 A（我是OO人/LIFE，本土營利，prompt「移除敏感字眼，強化台灣在地口語」，非國家級）vs 案例 B（秦皇島無邊界，prompt「面向臺灣用戶…保留原文的開頭部分，不改變原文歷史真實性」，連網信辦，國家級）不可混。**
+
+### §J1 NewsGuard 數據
+
+- AI Tracking Center 截至 2026-03-17 追蹤 **3,006 個 AI Content Farm 網站**，跨 16 語含中文（Arabic, Chinese, Czech, Dutch, English, French, German, Indonesian, Italian, Korean, Portuguese, Russian, Spanish, Tagalog, Thai, Turkish），「has more than doubled over the past year」。2024-11 為止含內容農場+不實操作共 1,121 個 AI 網站→印證翻倍。
+- NewsGuard 中國 AI 模型 audit（2025 1-7月，5 款中國 chatbot）：台灣假 claim 含賴清德「has a mainland China identification card」、「the U.S. has cut ties with Taiwan」、「Taiwan enacted a mandatory draft」；結果「repeated false claims 40% of the time… 60% fail rate」；「nearly identical behavior in both English and Mandarin」（內建於設計）。
+- Graphika「Falsos Amigos」：11 個假新聞網站（2024-12 末–2025-03），系統性發 CGTN 文章 AI 生成摘要（英法西越語），全經阿里雲在中國註冊，10 個註冊人在北京。
+
+### §J2 台灣內容農場產業史
+
+- **密訊（報導者 2019-12-25，孔德廉/柯皓翔/劉致昕/許家瑜）**：原始碼鑲「顧問：方行商務整合行銷有限公司──林正國」。方行商務（代表人 2019-12-17 由劉芳妤變更林正國，資本 50 萬，2019/1 成立）。林正國與劉芳妤為夫妻、均新黨青委、林曾協助新黨發言人王炳忠操作 FB 粉專。數據：2019/4 密訊 FB 一週分享數約《自由時報》近 5 倍。Cofacts 檢舉 39 篇→正確僅 4 篇、含不實 15 篇。三大規避手法：SEO 鏈輪（建鏡像分身 new.mission-tw.com/gaochuji.com…）/分身網站規避 FB 封鎖（whatnews.cc/missiback.com/pplomo.com…）/引入中國媒體合作（「掌上蜀Show」參與單位含四川省台辦、中央廣播電視總台、海峽導報）。林穎佑稱數位輿論戰是中國三戰延伸「虛實並進」「高低配」。
+- **馬來西亞華人「八成」（遠見 2018-05-30 蕭玉品）**：「八成」是蘋果仁創辦人 Joey 的**推估非統計**：「我推估有八成是馬來西亞人，台灣、中國、香港加起來，頂多兩成」。經濟：分享 5 篇得 1.84 元台幣；馬時薪約 40 元 vs 台灣 140 元。農場名單：COCO大馬、COCOHK、蘋果網、大榴槤、大時代、每日頭條、壹讀。
+- **COCO/直銷產業鏈（報導者 2019-12-25 劉致昕/柯皓翔/許家瑜）**：馬來西亞余國威「全球華人聯盟媒體集團主席」；幕後 Evan（Telegram daliuluan）；台灣阿華（高雄，「鬼島狂新聞」）。直銷模式「每篇文章旁顯示瀏覽數+複製按鈕」「每千次分到 2-10 元新幣」「一篇成功文章約 1,200 新幣≈27,000 台幣」。技術指紋：多農場共用同一 GA ID「UA-19409266」；「Evan 一人所建平台…至少 399 個網站」。
+- kknews（每日頭條）：盜用中國微信公眾號文章簡轉繁賺廣告，2024-12 起停更，月流量曾達 100 萬。buzzhand 台灣型農場。（個別經營者無調查級實證，confidence 低。）
+
+### §J3 AI 在地化轉譯案例（秦皇島完整細節 — 案例 B 國家級）
+
+- **王宏恩 2026-02-10（思想坦克）**：AI prompt 完整逐字（截圖一）「面向臺灣用戶，用繁體語言，重新編輯這個文章，字數控制在500，保留原文的開頭部分，不改變原文歷史真實性」；截圖二「…字數控制在300」。農場「無邊界媒體」（網站位於秦皇島），「跟宣傳部、網信辦有直接的聯繫」。發現法：檢查粉專編輯紀錄發現 AI prompt 痕跡「兩分鐘之內就修掉」。主題愛國主義+反日。
+- **王宏恩 2024-06-04**：河北秦皇島 Laixiu Cultural Media 控制「經典語錄」粉專（17 香港管理者、10 萬追蹤）。證明河北人：管理者「温凤奎」2021/4/16 發文提地震對上河北 4.3 地震；外賣餐廳在河北秦皇島。介入大選：管理「力挺郭台銘參選」社團（4 萬+團員）「一個月平均一百篇文章，大概一半支持國民黨、攻擊民進黨」。
+- **王宏恩 2026-03-10**：另一 prompt「要不要我再幫你把文字壓縮成臉書短爆文版，更適合臺灣社群快速傳閱？」（疑 ChatGPT）；操作鏈「八天前先出現在新浪網部落格全文簡體，一周後由無邊界集團透過 ChatGPT 轉繁體」隨後「出現在大量無邊界非政治粉專，包括親子教育、影視明星、老人健康保養」。
+- **白沙屯媽祖粉專（2026-03-24）**：中國經營，2020 創立 FB 社團 12 萬會員，管理員多自稱香港。
+- 自由時報 2026-02-11 王宏恩：「這些文章跟許多大學生以及期刊作者一樣，忘記把 AI 生成的 prompt 刪除」；兩 finding「一、有使用 AI；二、的確就是針對台灣人客製化（而非海外華語讀者）」。
+- **案例 A（我是OO人/LIFE，本土營利，prompt 不同）**：Newtalk 2026-02-21「移除敏感字眼，強化台灣在地口語」；經營實體 LIFE生活網/美商全通集團/林憲明；我是高雄人約 20 萬粉；金流「並無法瞭解到這系列公司的客戶與金流來自何方」；內容轉載中天/CTWANT；關聯績碩/波仕特/年頡內湖同址。
+
+### §J4 查核機構歷年數據
+
+- TFC 2025：產出 540+ 篇查核報告、85 篇解釋性、200+ IG 圖卡、46 影音。AI 案例：「2026 勞保重新計算」AI 生成虛構；2025/6 以伊衝突軍事影像「有的以 AI 生成，有的挪用遊戲畫面」。**缺口：TFC 與 IORG 未公布「內容農場佔查核量百分比」「AI 生成佔比」逐年趨勢數字——撰文不可杜撰此類比例。**
+- IORG《2024 台灣資訊環境調查》：樣本 1,129、誤差 ±2.92%。社群使用率 LINE 87.6%/YouTube 78.3%/Facebook 73.6%/TikTok 34.8%/Threads 29.4%。TikTok 用戶 51.9% 顯示台灣經濟失敗傾向（高於非用戶 43.6%）。未量化內容農場/AI 暴露率。
+
+### §J5「洗產地」(content/information laundering) 機制
+
+- 中文「洗稿/洗產地」（維基）：「洗稿是脫胎於『洗錢』的新詞」，掩蓋真實來源、爭取審查時間差。台港澳農場盜用微信公眾號文章簡轉繁。SEO 漂白：「當大量公眾號文章來到中國網路防火牆外，Google 便認定它們是每天生產原創內容的好網站，將排序提前」；「為避免被判垃圾網域，這些網站通常不斷更換網址，但內容、後台資料全都共用」。
+- 學術 Information Laundering（Adam Klein, Pace University）：「Information laundering…is the surfacing of news, false or otherwise, from unverified sources into the mainstream.」「By advancing disinformation to make it accepted as legitimate information, information laundering resembles money laundering—the transforming of illicit funds into legitimate funds.」進程：陰謀論在 Reddit/Twitter 孵化→graduate 到較受尊敬網站/政治部落格→有時被主流媒體當「trusted information」採用。AI 加成：generative AI 越來越多支持國家級 information laundering（尤其中俄）。
+- China Media Project《China's AI Content Dragnet》(2025-03-24)：Baidu 伺服器洩漏數百 GB，含 38 個內容分類；CCTV「約 60% 資料標註現由機器執行」；框架「舆情监测」。**台灣是 38 類中唯一被點名的明確例子：「Taiwan's political situation… the only explicit example given across all 38 categories」。** 用 Baidu Ernie Bot 或 DeepSeek。
+
+### §Thread J 引語庫（標 A/B）
+
+【案例 B 秦皇島/國家級】1.「面向臺灣用戶，用繁體語言，重新編輯這個文章，字數控制在500，保留原文的開頭部分，不改變原文歷史真實性」2.「…字數控制在300」3.「要不要我再幫你把文字壓縮成臉書短爆文版，更適合臺灣社群快速傳閱？」4.「八天前先出現在新浪網的部落格，原本是全文簡體字，但在一周之後，由無邊界集團透過 ChatGPT 把文章轉成繁體字」5. 王宏恩「一、有使用 AI；二、的確就是針對台灣人客製化（而非海外華語讀者）」
+【案例 A 本土營利 LIFE】6.「移除敏感字眼，強化台灣在地口語」
+【密訊】7.「Mission密訊為自由創作平台…顧問：方行商務整合行銷有限公司──林正國」8. 林穎佑：數位輿論戰是中國三戰延伸「虛實並進」「高低配」
+【馬來西亞八成】9. Joey「我推估有八成是馬來西亞人，台灣、中國、香港加起來，頂多兩成」（推估非統計）
+【直銷】10. 阿華「最好的時候每個月有 2,000 多美元收入」11.「Evan 一人所建平台…誕生至少有 399 個網站」
+【洗產地】12.「當大量公眾號文章來到中國的網路防火牆外，Google 便認定它們是每天生產原創內容的好網站，將排序提前」13. Adam Klein「information laundering resembles money laundering」14. China Media Project「Taiwan's political situation… the only explicit example given across all 38 categories」
+
+### §Thread J confidence note
+
+高：NewsGuard 3,006/16語/翻倍；NewsGuard 60% fail+台灣三假claim；密訊全部 finding（報導者一手）；王宏恩秦皇島 prompt 逐字（思想坦克+自由時報互證）；LIFE/林憲明/美商全通（Newtalk+自由互證）；遠見「八成」（須標 Joey 推估非統計）；直銷 399 站/GA UA-19409266；Klein 定義。中高：Graphika 11 站（The Diplomat 403 靠 WebSearch）；CMP 38 類/60% 機器標註。中/待補：kknews/buzzhand 個別經營者（無實證）。缺口：TFC/IORG 未公布內容農場/AI 佔比逐年趨勢——不可杜撰。校正：密訊操盤手是林正國非「林裕紘」。
+
+### §Thread J 參考來源（全列）
+
+newsguardtech.com/special-reports/ai-tracking-center · /chinese-ai-models-60-percent-fail-rate-pro-china-claims；twreporter.org/a/information-warfare-business-content-farm-mission · /information-warfare-business-disinformation-fake-news-behind-line-groups；gvm.com.tw/article/44438；voicettank.org/20260210-1 · /20240604-1 · /20260310-1 · /20260324-1 · /香港內容農場如何介入台灣選舉；news.ltn.com.tw/news/politics/breakingnews/5340193；newtalk.tw/news/view/2026-02-21/1020740；news.ltn.com.tw/news/life/breakingnews/5362274；medium.com/info-op-forensic 以台灣為名的香港內容農場；tfc-taiwan.org.tw/2025-fact-checking-year-in-review-key-moments；iorg.tw/\_en/a/survey-2024；en.wikipedia.org/wiki/Information_laundering；mprcenter.org/review/blurring-the-source；chinamediaproject.org/2025/03/24/chinas-ai-content-dragnet；thediplomat.com/2025/09；zh.wikipedia.org/內容農場 · /洗稿；applealmond.com/posts/15406。**Thread J 共 16 次 search/fetch。**
+
+---
+
+_研究完成 2026-06-05（Round 1+2，~199 搜尋）。哲宇 authorize ship。下一步：依 Part II 校正改寫文章（負責人結構 / 每過一陣子 / 治理真空 / 徵婚=scan / 沈伯洋光譜背書）→ 補媒體 → article-health rewrite-stage-4 → sync → push → babel。ship 前仍建議補：各涉案粉專 Page Transparency 截圖 / 403-500 URL verbatim 重抓。_
