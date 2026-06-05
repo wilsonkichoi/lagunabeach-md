@@ -65,6 +65,7 @@ export interface McpContent {
   osParaHtml: string; // contains <a>
   btnDocs: string;
   btnContribute: string;
+  downloadLabel: string;
   backHomeLabel: string;
 }
 
@@ -209,6 +210,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       '這個 connector 是 <a href="/semiont" class="mcp-link">Taiwan.md</a> 繁殖系統的一部分 —— 讓台灣的聲音住進每個開發者的 AI session。歡迎 fork、貢獻、回報。',
     btnDocs: '文件',
     btnContribute: '貢獻',
+    downloadLabel: '下載 taiwanmd.mcpb',
     backHomeLabel: '← 回首頁',
   },
 
@@ -352,6 +354,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       'This connector is part of <a href="/semiont" class="mcp-link">Taiwan.md</a>’s reproduction system — letting Taiwan’s voice live inside every developer’s AI session. Forks, contributions and reports are welcome.',
     btnDocs: 'Docs',
     btnContribute: 'Contribute',
+    downloadLabel: 'Download taiwanmd.mcpb',
     backHomeLabel: '← Back home',
   },
 
@@ -495,6 +498,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       'このコネクタは <a href="/semiont" class="mcp-link">Taiwan.md</a> の繁殖システムの一部です——台湾の声を、すべての開発者の AI セッションの中に住まわせます。fork・貢献・報告を歓迎します。',
     btnDocs: 'ドキュメント',
     btnContribute: '貢献する',
+    downloadLabel: 'taiwanmd.mcpb をダウンロード',
     backHomeLabel: '← ホームへ',
   },
 
@@ -638,6 +642,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       '이 커넥터는 <a href="/semiont" class="mcp-link">Taiwan.md</a> 번식 시스템의 일부로, 대만의 목소리를 모든 개발자의 AI 세션 안에 살게 합니다. fork·기여·제보를 환영합니다.',
     btnDocs: '문서',
     btnContribute: '기여하기',
+    downloadLabel: 'taiwanmd.mcpb 다운로드',
     backHomeLabel: '← 홈으로',
   },
 
@@ -781,6 +786,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       'Este conector es parte del sistema de reproducción de <a href="/semiont" class="mcp-link">Taiwan.md</a>: deja que la voz de Taiwán viva dentro de la sesión de IA de cada desarrollador. Forks, contribuciones e informes son bienvenidos.',
     btnDocs: 'Documentación',
     btnContribute: 'Contribuir',
+    downloadLabel: 'Descargar taiwanmd.mcpb',
     backHomeLabel: '← Inicio',
   },
 
@@ -924,6 +930,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       'Ce connecteur fait partie du système de reproduction de <a href="/semiont" class="mcp-link">Taiwan.md</a> — il fait vivre la voix de Taïwan dans la session IA de chaque développeur. Forks, contributions et signalements bienvenus.',
     btnDocs: 'Documentation',
     btnContribute: 'Contribuer',
+    downloadLabel: 'Télécharger taiwanmd.mcpb',
     backHomeLabel: '← Accueil',
   },
 };

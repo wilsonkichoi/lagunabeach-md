@@ -60,6 +60,8 @@ const installs = c.installClientLabels.map((client, i) => ({
   badge: c.installBadges[i],
   code: installCodes[i],
   note: c.installNotes[i],
+  // Claude Desktop (i===1) gets a real .mcpb download button.
+  download: i === 1 ? { href: '/downloads/taiwanmd.mcpb', label: c.downloadLabel } : null,
 }));
 
 // CLI command signatures + examples are SHARED; descriptions come from content.
@@ -182,6 +184,13 @@ const cliGroups = (() => {
                   <button class="copy-btn" data-copy={it.code} aria-label={c.copyLabel}>{c.copyLabel}</button>
                   <pre><code>{it.code}</code></pre>
                 </div>
+                {
+                  it.download && (
+                    <a class="mcp-download" href={it.download.href} download>
+                      ⬇ {it.download.label}
+                    </a>
+                  )
+                }
                 <p class="mcp-card-note">{it.note}</p>
               </div>
             ))
@@ -574,6 +583,22 @@ const cliGroups = (() => {
     font-size: 0.82rem;
     line-height: 1.6;
     color: rgba(244, 240, 234, 0.55);
+  }
+  .mcp-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-top: 0.7rem;
+    padding: 0.45rem 0.9rem;
+    border-radius: 8px;
+    background: #4fd1b0;
+    color: #03080a;
+    font-size: 0.82rem;
+    font-weight: 700;
+    transition: filter 0.15s;
+  }
+  .mcp-download:hover {
+    filter: brightness(1.1);
   }
 
   .mcp-tools {
