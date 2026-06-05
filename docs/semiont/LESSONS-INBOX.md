@@ -262,7 +262,28 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
-### 2026-06-05 Connector (174805) — connector 三通道落地的 5 條操作教訓（broken-link hub / branch-not-main push / 貼指令無註解 / DNS negative-cache / workers.dev vs custom domain）
+### 2026-06-06 twmd-spore-harvest-am (063706) — Chrome MCP 連線 2 cycle 連續 unavailable → routine 飛輪在無 observer Chrome session 時自然 idle
+
+**原則**：spore-harvest 是 Taiwan.md 唯一需要 active paired browser 的 routine（其他 routine 都靠 git / npm / Python / WebFetch，無外部 device dependency）。哲宇 Mac 不開機 / Chrome 未啟動 / Claude in Chrome extension 未 pair → `list_connected_browsers` 回空陣列 → hard gate 失守 → routine 飛輪在無 observer 時被動 idle。對位 ROUTINE-PROMPT-CONTRACT rollback「inline > pointer for cron context」教訓的兄弟 case：本條是「routine 仰賴非 always-on 外部 device 的 fragility surface」— pipeline 寫得再 inline 也敵不過 `[]` 回應。
+
+**觸發**：2026-06-06 06:37 routine fire → `list_connected_browsers` 回 `[]`（11 X OVERDUE + 4 Threads OVERDUE 全 abort）。前 cycle 6/05 06:30 cron 應 fire 但無 commit 紀錄（git log 過去 5 day 連續 4 day 06:30-11:45 範圍 spore-harvest commit 6/01-6/04 都有，6/05 缺）→ 推測同樣 Chrome MCP unavailable 但 silent retry。本日 2nd consecutive cycle 達 escalation ladder「連 2 day → LESSONS entry」threshold。
+
+**可能層級**：
+
+- **操作規則** → ROUTINE.md §twmd-spore-harvest-am 加 Chrome MCP unavailable 處置 SOP（已 canonical「abort + LESSONS entry」但需明確 N 連 fail 後升 telegram alert / pause routine 的 N 值，現狀「3 連 fail → pause」可能太寬鬆對 fragile-device-dependency routine）
+- **REFLEXES 候選** → 「Routine fragility surface 分層：純 git/npm/Python routine = no fragility / WebFetch routine = remote-server fragility / Chrome MCP routine = local-device fragility（observer 機器狀態 dependency）」一般化（cron context routine 的 dependency tier 系統性檢視，避免假設「routine = always autonomous」）
+- **MEMORY §神經迴路 候選** → 「飛輪自轉清 entropy 設計的 implicit 假設是 routine 自身 dependency 全 cron daemon controllable；外部 device dependency 等於把 always-on 期望加到觀察者身上，跟 Bias 1『預設加分』隔層耦合」
+
+**相關**：
+
+- 5/28 ROUTINE-PROMPT-CONTRACT rollback「inline > pointer for cron」 — 兄弟 case 但 root cause 不同層（彼 = prompt-layer over-abstraction / 此 = device-layer dependency）
+- 5/30-6/02 cron daemon stall 5-day lifecycle — 兄弟 case 但同樣是 routine 飛輪 fragility 但 root cause 在 OS layer（launchd）非 device layer
+- DNA #26 v2 AI 自主邊界 — harvest 讀取屬 AI 自主，但 device dependency 是 AI 自主邊界的隱性 prerequisite，沒寫進 DNA
+- [feedback_hourly_cron_intentional](memory/feedback_hourly_cron_intentional.md) — 哲宇刻意設 hourly cron 消預算 ≠ 默許 silent fail 累積；本條是「fail 不是 storm」但「fail 不是 vacuous PASS」應該被看見
+
+**verification_count**: 2（6/05 silent retry + 6/06 routine-fire LESSONS entry — 達 escalation ladder threshold）
+
+**severity**: structural（device dependency 是 routine 飛輪的 fragility surface，需 documented baseline + escalation N 值校正）
 
 從「參考 Twinkle Hub 做 Claude Code Connector」整條 arc 萃出（詳見 [memory/2026-06-05-174805-manual.md](memory/2026-06-05-174805-manual.md)）：
 
