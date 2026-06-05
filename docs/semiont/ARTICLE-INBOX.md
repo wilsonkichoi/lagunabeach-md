@@ -160,6 +160,26 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 <!-- 三毛 已完成 2026-05-17 2026-05-17-184444-manual → ARTICLE-DONE-LOG.md -->
 
+### 🖥️ Computex EVOLVE — PTT 223 推鄉民集體補出的內容缺口（蘇媽/Zen 救世主 + 資訊月對照衰亡 + 「三大」框架校準）
+
+- **Type**: `EVOLVE`
+- **Category**: Technology
+- **Path** (EVOLVE only): knowledge/Technology/Computex.md
+- **Priority**: P1
+- **Status**: `pending`
+- **Requested**: 2026-06-05 by PTT 轉錄事件分析 (session 2026-06-05-105142-manual)
+- **Notes**:
+  - **訊號**：2026-06-04 17:12 鄉民 kuninaka 轉錄到 PC_Shopping（223 推 / 67 人，59 推 2 噓），即時抓取當下 18 人在線全站第一、GA 7d 909pv 全站 #1 文章。鄉民集體補出文章現有缺口 = 免費專家共筆（MANIFESTO §12 受眾端飛輪）。**沒有一個人質疑這是 AI 寫的**。
+  - **讀者補出的內容缺口**（每條都要走 REWRITE-PIPELINE Stage 1 跨源驗證，不直接採信鄉民 — REFLEXES #16）：
+    1. **蘇姿丰 / AMD Zen 2016 在台灣發表**是 Computex 從低谷復活的關鍵一棒，文章敘事核心只給黃仁勳 / NVIDIA，AMD 著墨不足（aa1477888 / dos01 / pig 三人細到 2016 蘇姿丰演講、2019 7nm Zen2、3900X）
+    2. **資訊月對照式衰亡**：Computex 興起與 12 月資訊月沒落是同一枚硬幣，文章只寫正面（dreamix / ejywar 詳述資訊月衰落：電商崛起、攝影器材展獨立、2018 南台車展衝堂）
+    3. **消費級被拋棄暗流**：消費級佔比剩 ~10%、玩家苦、板卡品牌台灣卻不再重要（soulllful / labiron / asuka0109）— 樂觀敘事底下的平衡音
+    4. **「三大國際電腦展」框架**會被內行追問：CES 仍在、MWC 手機時代主場、B2B 還有 OCP / SC（nfsong / Rad1sh0001）— 加 but 不是改錯
+    5. **低谷期成因鏈（2014-2017）**：PC 衰退 + Intel 14nm 擠牙膏 + 手機攻勢 + 上海展撞期逼選邊 + 礦潮 → Zen + 疫情 + 美中貿易戰 + AI「轉骨」（takanasiyaya 收斂）
+  - **必驗**：蘇姿丰 Zen 發表年份 / 地點（是否 2016 Computex）、資訊月衰落時間線、消費級佔比數字、OCP / SC 定位、show girl 到底是 Computex 還資訊月（兩者早年都有，saimeitetsu 糾正點）
+  - **源信心**：GA 強訊號（7d 909pv #1 + 即時 18 在線）+ PTT 討論一手；讀者 claim 全部當線索非 source（DNA #16）
+- **Reference**: reports/ptt-computex-discussion-analysis-2026-06-05.md + reports/research/2026-06/ptt-computex-thread-verbatim.md
+
 ### 🟠 台灣藍鵲 SEO 優化 — #2 排名卻 0 CTR，259 曝光是當前最大流量洩漏點
 
 - **Type**: `EVOLVE`
