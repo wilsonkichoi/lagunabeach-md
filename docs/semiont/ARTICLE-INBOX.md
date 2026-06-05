@@ -201,8 +201,9 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Category**: People
 - **Path** (EVOLVE only): knowledge/People/Howhow.md
 - **Priority**: P2
-- **Status**: `pending`
+- **Status**: `done` (shipped 2026-06-05 loop /twmd-rewrite — move to ARTICLE-DONE-LOG next distill)
 - **Requested**: 2026-06-04 by /twmd-evolve SC scan (session 深度研究-設計研究院)
+- **Ship log**: 2026-06-05 loop iteration — EVOLVE 3021→5074 CJK / 10→29 footnotes / 0→3 CC 圖 + 1 官方影片 iframe / 新增延伸閱讀 6 連結。4-agent fanout 128 搜尋（en 14 / 學術 6），falsification 抓 8+ 既有事實錯（出生地萬里→金山 / SCAD 動畫和視覺特效 / 告五人 MV 客串非製作 / 《How哥宇宙》是歌非書 / 工商時間字幕無據 / claim3 de-quote / 一人團隊非純一人且他討厭孤獨）。新主標「把業配攤在陽光下的人，和他一個人撐起的越來越貴的誠實」。reverse cross-link 補蔡阿嘎 + 修 尊 /people/howhow→/people/Howhow casing。SSOT: reports/research/2026-06/Howhow.md。
 - **Notes**:
   - **訊號**：SC 7d `howhow` impressions 105 / clicks 0 / position 11.39（卡在第 2 頁頂）。有需求、有文章、但排不上第 1 頁。
   - **動作判定 🔴 Rewrite/擴寫**：文章偏短（3021 CJK / 92 行，低於 ~4500 baseline）+ 第 2 頁排名 + 既有 broken 延伸閱讀（INBOX 既有 entry 已記 `/people/howhow` link 壞掉）。短文 × 有需求 = 典型 rewrite 訊號，補深 + 修連結可望推 page 2→1。
