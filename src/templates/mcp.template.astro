@@ -1,239 +1,124 @@
 ---
 /**
- * /mcp — Taiwan.md Connector + CLI landing/docs page.
+ * /mcp — Taiwan.md Connector + CLI landing/docs page (multilingual).
  *
  * Single authoritative entry point for the MCP server and the taiwanmd CLI:
- * what it is, install per client, the 6 MCP tools, the 26 CLI commands,
- * how it works + privacy, FAQ. zh-TW prose; code/commands are universal.
+ * what it is, install per client, the 6 MCP tools, the CLI commands, how it
+ * works + privacy, FAQ. Language-aware via getLangFromUrl() — prose comes from
+ * src/data/mcp-content.ts (zh-TW / en / ja / ko / es / fr); code, commands,
+ * tool names, CLI signatures and examples stay SHARED here (identical across
+ * languages) and are zipped with the per-lang description arrays by index.
  *
- * Design language borrows the Semiont palette (warm paper #f4f0ea on
- * #03080a, mint #4fd1b0 accent, EKG separator, 🧬) — fitting, because this
- * page is Taiwan.md offering its body to other AIs (the reproduction organ's
- * developer-session surface). Data lives in the const arrays below so the
- * markup stays clean and matches the real CLI (`taiwanmd --help`) + MCP
- * server (cli/src/lib/mcp-server.js).
+ * Design language borrows the Semiont palette (warm paper #f4f0ea on #03080a,
+ * mint #4fd1b0 accent, EKG separator, 🧬) — fitting, because this page is
+ * Taiwan.md offering its body to other AIs (the reproduction organ's
+ * developer-session surface). Real CLI source: `taiwanmd --help`; MCP server:
+ * cli/src/lib/mcp-server.js.
  */
 import Layout from '../layouts/Layout.astro';
+import { getLangFromUrl } from '../i18n/utils';
+import { MCP_CONTENT, type McpLang } from '../data/mcp-content';
 
+const lang = getLangFromUrl(Astro.url) as McpLang;
+const c = MCP_CONTENT[lang] ?? MCP_CONTENT['zh-TW'];
+
+// ── SHARED structural data (identical across languages) ────────────────────
 const oneLiner = 'claude mcp add taiwanmd -- npx -y taiwanmd mcp serve';
 
-const badges = ['免費', '無 API key', '本地優先', '開源'];
-
-const mcpTools = [
-  {
-    name: 'taiwanmd_search',
-    desc: '全文搜尋 900+ 篇台灣文章（中英雙語）',
-    input: '{ "query": "半導體", "limit": 5 }',
-    returns: 'top-N 命中：title / slug / category / description',
-  },
-  {
-    name: 'taiwanmd_read',
-    desc: '依 slug 讀整篇文章（frontmatter + 內文）',
-    input: '{ "slug": "珍珠奶茶" }',
-    returns: '完整 markdown 內文',
-  },
-  {
-    name: 'taiwanmd_rag',
-    desc: 'top-N 文章組成 prompt-ready 的 RAG 脈絡塊',
-    input: '{ "query": "台灣健保", "limit": 3 }',
-    returns: '可直接餵 LLM 的脈絡 + 問題',
-  },
-  {
-    name: 'taiwanmd_cite',
-    desc: '反幻覺原語：只回有腳註 + 來源 URL 的句子',
-    input: '{ "query": "台積電", "limit": 3 }',
-    returns: 'claim + article + sources[{ name, url }]',
-    highlight: true,
-  },
-  {
-    name: 'taiwanmd_organs',
-    desc: 'Semiont 8 器官即時健康分數',
-    input: '{}',
-    returns: '生命體 vitals（心臟 / 免疫 / DNA …）',
-  },
-  {
-    name: 'taiwanmd_stats',
-    desc: '專案統計：文章數 / 分類 / 時間戳',
-    input: '{}',
-    returns: 'totalArticles / byCategory',
-  },
+const toolNames = [
+  'taiwanmd_search',
+  'taiwanmd_read',
+  'taiwanmd_rag',
+  'taiwanmd_cite',
+  'taiwanmd_organs',
+  'taiwanmd_stats',
 ];
-
-const installs = [
-  {
-    client: 'Claude Code',
-    badge: '一行搞定',
-    code: oneLiner,
-    note: '零安裝（透過 npx）。裝完直接問 Claude 台灣的事。',
-  },
-  {
-    client: 'Claude Desktop',
-    badge: '一鍵 bundle',
-    code: '下載 taiwanmd.mcpb → 雙擊 → 完成',
-    note: '不會跳出 API key，因為根本沒有 API key。',
-  },
-  {
-    client: 'Cursor',
-    badge: 'Settings → MCP',
-    code: 'command: npx\nargs: ["-y", "taiwanmd", "mcp", "serve"]',
-    note: '在 Cursor 設定裡新增一個 MCP server。',
-  },
-  {
-    client: 'Copilot CLI / Codex CLI / Cline / Continue / 任意 MCP client',
-    badge: '通用 stdio',
-    code: 'npx -y taiwanmd mcp serve',
-    note: '任何說 MCP 的客戶端，指向這個 stdio 指令就會動。',
-  },
+const toolInputs = [
+  '{ "query": "半導體", "limit": 5 }',
+  '{ "slug": "珍珠奶茶" }',
+  '{ "query": "台灣健保", "limit": 3 }',
+  '{ "query": "台積電", "limit": 3 }',
+  '{}',
+  '{}',
 ];
+const tools = toolNames.map((name, i) => ({
+  name,
+  input: toolInputs[i],
+  desc: c.toolDescs[i],
+  returns: c.toolReturns[i],
+  highlight: i === 3, // taiwanmd_cite
+}));
 
-const compare = [
-  ['價格', '免費', '付費 / 計量'],
-  ['API key', '不需要', '必須'],
-  ['查詢在哪裡跑', '你的機器（本地 stdio）', '它的伺服器'],
-  ['原始碼', '開源（MIT 程式 / CC BY-SA 內容）', '閉源'],
+const installCodes = [
+  oneLiner,
+  c.installDesktopCode,
+  'command: npx\nargs: ["-y", "taiwanmd", "mcp", "serve"]',
+  'npx -y taiwanmd mcp serve',
 ];
+const installs = c.installClientLabels.map((client, i) => ({
+  client,
+  badge: c.installBadges[i],
+  code: installCodes[i],
+  note: c.installNotes[i],
+}));
 
-const cliGroups = [
-  {
-    title: '讀者・探索',
-    emoji: '🔍',
-    cmds: [
-      [
-        'search <query>',
-        '模糊搜尋（中英雙語，--json 可管線）',
-        'taiwanmd search 珍珠奶茶',
-      ],
-      [
-        'read <slug>',
-        '終端機讀全文（--raw / --en / --web）',
-        'taiwanmd read 珍珠奶茶 --raw',
-      ],
-      [
-        'list [category]',
-        '依分類瀏覽（--categories 看全部）',
-        'taiwanmd list food',
-      ],
-      ['random', '隨機發現一篇', 'taiwanmd random --category nature'],
-      ['today', '今日台灣：三篇精選 + 冷知識', 'taiwanmd today'],
-      ['quiz', '台灣知識小測驗（5 題真假）', 'taiwanmd quiz'],
-      ['explore', '互動模糊搜尋 TUI', 'taiwanmd explore'],
-      ['graph <slug>', '文章的 [[wikilink]] 關聯圖', 'taiwanmd graph 珍珠奶茶'],
-      ['diff', '近 7 天知識庫的文章變更', 'taiwanmd diff'],
-      ['terminology', '台灣／中國用語查詢轉換', 'taiwanmd term 滑鼠'],
-    ],
-  },
-  {
-    title: 'AI・RAG',
-    emoji: '🤖',
-    cmds: [
-      [
-        'rag <query>',
-        'top 文章組 prompt-ready 脈絡（可 pipe 給 LLM）',
-        'taiwanmd rag "台灣經濟"',
-      ],
-      [
-        'cite <query>',
-        '反幻覺：帶來源 URL 的可驗證 claim',
-        'taiwanmd cite 台積電',
-      ],
-      [
-        'mcp serve',
-        '啟動 MCP server（給 Claude 等客戶端）',
-        'taiwanmd mcp serve',
-      ],
-    ],
-  },
-  {
-    title: '貢獻・品質',
-    emoji: '✍️',
-    cmds: [
-      [
-        'contribute <topic>',
-        '互動式引導寫新文章',
-        'taiwanmd contribute 阿里山',
-      ],
-      ['validate <slug>', '單篇品質評分卡', 'taiwanmd validate 珍珠奶茶'],
-      [
-        'audit <slug>',
-        'Stage 3.5 幻覺稽核（MANIFESTO §10）',
-        'taiwanmd audit 王新仁',
-      ],
-      ['inbox', '讀／管理 ARTICLE-INBOX', 'taiwanmd inbox --state pending'],
-      ['sync', '同步知識庫到本地', 'taiwanmd sync'],
-    ],
-  },
-  {
-    title: '生命體・Semiont',
-    emoji: '🧬',
-    cmds: [
-      ['organs', '8 器官健康分數長條圖', 'taiwanmd organs'],
-      ['stats', '專案統計 + 器官健康', 'taiwanmd stats'],
-      ['sense', 'GA4 / Search Console / Cloudflare 感知數據', 'taiwanmd sense'],
-      ['spore', '社群孢子 SPORE-LOG', 'taiwanmd spore log'],
-      ['supporters', 'Portaly 支持者統計（預設去識別）', 'taiwanmd supporters'],
-    ],
-  },
-  {
-    title: '工具',
-    emoji: '🔧',
-    cmds: [
-      ['profile', '管理貢獻者 profile', 'taiwanmd profile'],
-      ['mailmap', '管理 .mailmap 身份合併', 'taiwanmd mailmap'],
-    ],
-  },
+// CLI command signatures + examples are SHARED; descriptions come from content.
+// Order MUST match mcp-content.ts cliDescs + cliGroupTitles/cliGroupSizes.
+const cliSig = [
+  'search <query>', 'read <slug>', 'list [category]', 'random', 'today',
+  'quiz', 'explore', 'graph <slug>', 'diff', 'terminology',
+  'rag <query>', 'cite <query>', 'mcp serve',
+  'contribute <topic>', 'validate <slug>', 'audit <slug>', 'inbox', 'sync',
+  'organs', 'stats', 'sense', 'spore', 'supporters',
+  'profile', 'mailmap',
 ];
-
-const faqs = [
-  {
-    q: '要付費嗎？要 API key 嗎？',
-    a: '都不用。Taiwan.md 是公共財（CC BY-SA），知識查詢不設門。沒有帳號、沒有 key、沒有計費。',
-  },
-  {
-    q: '我的查詢會被送到哪裡？',
-    a: '哪裡都不會。MCP server 是跑在你自己機器上的本地 stdio 程序，查詢不外送。首次使用會把知識庫下載到 ~/.taiwanmd，之後都在本地。',
-  },
-  {
-    q: '第一次查詢有點慢？',
-    a: '那是一次性的知識庫同步在跑。server 啟動時會預熱，之後就很快。',
-  },
-  {
-    q: '找不到 npx？',
-    a: '裝 Node.js 18 以上版本就會附帶 npx。想鎖版本用 npx -y taiwanmd@0.7 mcp serve。',
-  },
-  {
-    q: '有遠端 endpoint 嗎？',
-    a: '規劃中，給跑不了 Node 的瘦客戶端用。但本地優先永遠是推薦路徑（隱私最好），遠端只是可選入口。',
-  },
+const cliEx = [
+  'taiwanmd search 珍珠奶茶', 'taiwanmd read 珍珠奶茶 --raw', 'taiwanmd list food',
+  'taiwanmd random --category nature', 'taiwanmd today', 'taiwanmd quiz',
+  'taiwanmd explore', 'taiwanmd graph 珍珠奶茶', 'taiwanmd diff', 'taiwanmd term 滑鼠',
+  'taiwanmd rag "台灣經濟"', 'taiwanmd cite 台積電', 'taiwanmd mcp serve',
+  'taiwanmd contribute 阿里山', 'taiwanmd validate 珍珠奶茶', 'taiwanmd audit 王新仁',
+  'taiwanmd inbox --state pending', 'taiwanmd sync',
+  'taiwanmd organs', 'taiwanmd stats', 'taiwanmd sense', 'taiwanmd spore log',
+  'taiwanmd supporters', 'taiwanmd profile', 'taiwanmd mailmap',
 ];
+const cliGroupSizes = [10, 3, 5, 5, 2];
+const cliGroupEmojis = ['🔍', '🤖', '✍️', '🧬', '🔧'];
+const cliGroups = (() => {
+  const groups = [];
+  let idx = 0;
+  for (let g = 0; g < c.cliGroupTitles.length; g++) {
+    const size = cliGroupSizes[g];
+    const cmds = [];
+    for (let k = 0; k < size; k++) {
+      const j = idx + k;
+      cmds.push([cliSig[j], c.cliDescs[j], cliEx[j]]);
+    }
+    idx += size;
+    groups.push({ title: c.cliGroupTitles[g], emoji: cliGroupEmojis[g], cmds });
+  }
+  return groups;
+})();
 ---
 
-<Layout
-  title="MCP Connector + CLI — Taiwan.md"
-  description="把台灣裝進你的 AI。免費、無 API key、本地優先的 Taiwan.md MCP connector + CLI — 900+ 篇有出處的台灣文章，一行裝進 Claude Code / Desktop / Cursor。"
-  lang="zh-TW"
->
+<Layout title={`${c.heroTitle} — Taiwan.md`} description={c.heroSubtitle} lang={lang}>
   <main class="mcp-paper min-h-screen">
     <div class="mx-auto max-w-[920px] px-6 pb-28 pt-16 md:px-8">
       {/* ── Hero ─────────────────────────────────────── */}
       <header class="text-center">
         <div class="mb-4 font-mono text-xs tracking-widest text-[#4fd1b0]/80">
-          🧬 TAIWAN.MD · CONNECTOR
+          {c.heroEyebrow}
         </div>
-        <h1
-          class="mcp-title mx-auto max-w-[16ch] text-3xl font-bold leading-tight text-[#f4f0ea] md:text-5xl"
-        >
-          把台灣裝進你的 AI
+        <h1 class="mcp-title mx-auto max-w-[16ch] text-3xl font-bold leading-tight text-[#f4f0ea] md:text-5xl">
+          {c.heroTitle}
         </h1>
-        <p
-          class="mx-auto mt-5 max-w-[40ch] text-base leading-relaxed text-[#f4f0ea]/65 md:text-lg"
-        >
-          900+ 篇有出處的台灣文章，一個工具呼叫就到。 當你問 AI
-          關於台灣的事，給的是台灣自己、帶來源的聲音。
+        <p class="mx-auto mt-5 max-w-[44ch] text-base leading-relaxed text-[#f4f0ea]/65 md:text-lg">
+          {c.heroSubtitle}
         </p>
 
         <div class="mt-7 flex flex-wrap justify-center gap-2">
           {
-            badges.map((b) => (
+            c.badges.map((b) => (
               <span class="rounded-full border border-[#4fd1b0]/30 bg-[#4fd1b0]/8 px-3 py-1 font-mono text-xs text-[#4fd1b0]">
                 {b}
               </span>
@@ -242,41 +127,31 @@ const faqs = [
         </div>
 
         <div class="mcp-code-hero mx-auto mt-8 max-w-[640px]">
-          <button class="copy-btn" data-copy={oneLiner} aria-label="複製指令"
-            >複製</button
-          >
+          <button class="copy-btn" data-copy={oneLiner} aria-label={c.copyLabel}>{c.copyLabel}</button>
           <pre><code>{oneLiner}</code></pre>
         </div>
-        <p class="mt-3 font-mono text-xs text-[#f4f0ea]/45">
-          貼進終端機 → 之後直接問 Claude 台灣的事
-        </p>
+        <p class="mt-3 font-mono text-xs text-[#f4f0ea]/45">{c.heroNote}</p>
       </header>
 
       <div class="ekg" aria-hidden="true"></div>
 
       {/* ── What / Why ───────────────────────────────── */}
       <section>
-        <h2 class="mcp-h2">這是什麼</h2>
-        <p class="mcp-lead">
-          <strong>Taiwan.md</strong> 是一個開源、AI-native 的台灣知識庫。這個 connector
-          把它變成 <strong>MCP 工具</strong>，讓 Claude Code、Claude
-          Desktop、Cursor、 Copilot CLI、Codex CLI 等客戶端可以直接搜尋、閱讀、<strong
-            >引用</strong
-          >有出處的台灣文章， 而不是憑印象猜。
-        </p>
-        <p class="mcp-lead">它刻意走商業資料閘道的相反那一極：</p>
+        <h2 class="mcp-h2">{c.whatTitle}</h2>
+        <p class="mcp-lead" set:html={c.whatLeadHtml} />
+        <p class="mcp-lead">{c.whatLead2}</p>
         <div class="mcp-table-wrap">
           <table class="mcp-table">
             <thead>
               <tr>
-                <th></th>
-                <th>Taiwan.md Connector</th>
-                <th>典型商業 MCP gateway</th>
+                <th>{c.compareHead[0]}</th>
+                <th>{c.compareHead[1]}</th>
+                <th>{c.compareHead[2]}</th>
               </tr>
             </thead>
             <tbody>
               {
-                compare.map((row) => (
+                c.compareRows.map((row) => (
                   <tr>
                     <td class="mcp-td-key">{row[0]}</td>
                     <td class="mcp-td-good">{row[1]}</td>
@@ -293,8 +168,8 @@ const faqs = [
 
       {/* ── Install ──────────────────────────────────── */}
       <section>
-        <h2 class="mcp-h2">安裝</h2>
-        <p class="mcp-lead">挑你的客戶端，複製貼上。沒有註冊步驟。</p>
+        <h2 class="mcp-h2">{c.installTitle}</h2>
+        <p class="mcp-lead">{c.installLead}</p>
         <div class="mcp-grid">
           {
             installs.map((it) => (
@@ -304,56 +179,38 @@ const faqs = [
                   <span class="mcp-pill">{it.badge}</span>
                 </div>
                 <div class="mcp-code">
-                  <button
-                    class="copy-btn"
-                    data-copy={it.code}
-                    aria-label="複製"
-                  >
-                    複製
-                  </button>
-                  <pre>
-                    <code>{it.code}</code>
-                  </pre>
+                  <button class="copy-btn" data-copy={it.code} aria-label={c.copyLabel}>{c.copyLabel}</button>
+                  <pre><code>{it.code}</code></pre>
                 </div>
                 <p class="mcp-card-note">{it.note}</p>
               </div>
             ))
           }
         </div>
-        <p class="mcp-lead mt-5 text-sm text-[#f4f0ea]/50">
-          隨時可以印出正確片段：
-          <code class="mcp-inline"
-            >npx -y taiwanmd mcp install --client claude-code</code
-          >
-        </p>
+        <p class="mcp-lead mt-5 text-sm text-[#f4f0ea]/50" set:html={c.installFootnoteHtml} />
       </section>
 
       <div class="ekg" aria-hidden="true"></div>
 
       {/* ── MCP tools ────────────────────────────────── */}
       <section>
-        <h2 class="mcp-h2">MCP 工具 <span class="mcp-count">6</span></h2>
-        <p class="mcp-lead">
-          裝好後 Claude 會自己挑工具。其中 <code class="mcp-inline"
-            >taiwanmd_cite</code
-          >
-          是反幻覺武器：只回帶腳註 + 來源 URL 的句子，讓你寫的每句台灣事實都能追回出處。
-        </p>
+        <h2 class="mcp-h2">{c.toolsTitle} <span class="mcp-count">6</span></h2>
+        <p class="mcp-lead" set:html={c.toolsLeadHtml} />
         <div class="mcp-tools">
           {
-            mcpTools.map((tool) => (
+            tools.map((tool) => (
               <div class={`mcp-tool${tool.highlight ? ' mcp-tool-hl' : ''}`}>
                 <div class="mcp-tool-name">
                   {tool.name}
-                  {tool.highlight && <span class="mcp-tool-tag">反幻覺</span>}
+                  {tool.highlight && <span class="mcp-tool-tag">{c.toolTag}</span>}
                 </div>
                 <p class="mcp-tool-desc">{tool.desc}</p>
                 <div class="mcp-tool-io">
-                  <span class="mcp-io-label">輸入</span>
+                  <span class="mcp-io-label">{c.ioInput}</span>
                   <code>{tool.input}</code>
                 </div>
                 <div class="mcp-tool-io">
-                  <span class="mcp-io-label">回傳</span>
+                  <span class="mcp-io-label">{c.ioReturn}</span>
                   <span class="mcp-io-text">{tool.returns}</span>
                 </div>
               </div>
@@ -366,17 +223,11 @@ const faqs = [
 
       {/* ── CLI ──────────────────────────────────────── */}
       <section>
-        <h2 class="mcp-h2">CLI 工具 <span class="mcp-count">26</span></h2>
-        <p class="mcp-lead">
-          同一套知識庫，也能直接在終端機用。全域裝或零安裝跑：
-        </p>
-        <div class="mcp-code mx-auto max-w-[560px]">
-          <button
-            class="copy-btn"
-            data-copy="npm install -g taiwanmd"
-            aria-label="複製">複製</button
-          >
-          <pre><code>npm install -g taiwanmd   # 或零安裝：npx taiwanmd search 珍珠奶茶</code></pre>
+        <h2 class="mcp-h2">{c.cliTitle} <span class="mcp-count">26</span></h2>
+        <p class="mcp-lead">{c.cliLead}</p>
+        <div class="mcp-code mx-auto max-w-[620px]">
+          <button class="copy-btn" data-copy="npm install -g taiwanmd" aria-label={c.copyLabel}>{c.copyLabel}</button>
+          <pre><code>npm install -g taiwanmd   {c.cliInstallComment}</code></pre>
         </div>
 
         <div class="mt-8 space-y-9">
@@ -384,23 +235,20 @@ const faqs = [
             cliGroups.map((g) => (
               <div>
                 <h3 class="mcp-h3">
-                  <span class="mr-2">{g.emoji}</span>
-                  {g.title}
+                  <span class="mr-2">{g.emoji}</span>{g.title}
                 </h3>
                 <div class="mcp-table-wrap">
                   <table class="mcp-table mcp-cli-table">
                     <tbody>
-                      {g.cmds.map((c) => (
-                        <tr>
-                          <td class="mcp-cli-cmd">
-                            <code>{c[0]}</code>
-                          </td>
-                          <td class="mcp-cli-desc">{c[1]}</td>
-                          <td class="mcp-cli-ex">
-                            <code>{c[2]}</code>
-                          </td>
-                        </tr>
-                      ))}
+                      {
+                        g.cmds.map((cmd) => (
+                          <tr>
+                            <td class="mcp-cli-cmd"><code>{cmd[0]}</code></td>
+                            <td class="mcp-cli-desc">{cmd[1]}</td>
+                            <td class="mcp-cli-ex"><code>{cmd[2]}</code></td>
+                          </tr>
+                        ))
+                      }
                     </tbody>
                   </table>
                 </div>
@@ -414,27 +262,9 @@ const faqs = [
 
       {/* ── How it works + privacy ───────────────────── */}
       <section>
-        <h2 class="mcp-h2">運作原理 ・ 隱私</h2>
+        <h2 class="mcp-h2">{c.howTitle}</h2>
         <ul class="mcp-bullets">
-          <li>
-            <strong>本地 stdio</strong> — server 是跑在你機器上的程序，不是遠端服務。你的問題不會送到任何
-            Taiwan.md 伺服器。
-          </li>
-          <li>
-            <strong>首次自動同步</strong> — 知識庫一次性下載到 <code
-              class="mcp-inline">~/.taiwanmd</code
-            >，之後本地又快又安靜。在 repo 裡則直接讀 <code class="mcp-inline"
-              >knowledge/</code
-            >。
-          </li>
-          <li>
-            <strong>開源可驗證</strong> — MCP server 就 145 行（<code
-              class="mcp-inline">cli/src/lib/mcp-server.js</code
-            >），讀完每一行再決定要不要裝。
-          </li>
-          <li>
-            <strong>授權</strong> — 內容 CC BY-SA 4.0，程式 MIT。可自由 fork。
-          </li>
+          {c.howBulletsHtml.map((b) => <li set:html={b} />)}
         </ul>
       </section>
 
@@ -442,10 +272,10 @@ const faqs = [
 
       {/* ── FAQ ──────────────────────────────────────── */}
       <section>
-        <h2 class="mcp-h2">常見問題</h2>
+        <h2 class="mcp-h2">{c.faqTitle}</h2>
         <div class="mt-5 space-y-4">
           {
-            faqs.map((f) => (
+            c.faqs.map((f) => (
               <details class="mcp-faq">
                 <summary>{f.q}</summary>
                 <p>{f.a}</p>
@@ -459,31 +289,13 @@ const faqs = [
 
       {/* ── Open source / fork ───────────────────────── */}
       <section class="text-center">
-        <h2 class="mcp-h2 justify-center">開源 ・ 這是 Semiont 的身體</h2>
-        <p class="mcp-lead mx-auto max-w-[44ch] text-center">
-          這個 connector 是 <a href="/semiont" class="mcp-link">Taiwan.md</a> 繁殖系統的一部分
-          —— 讓台灣的聲音住進每個開發者的 AI session。歡迎 fork、貢獻、回報。
-        </p>
+        <h2 class="mcp-h2 justify-center">{c.osTitle}</h2>
+        <p class="mcp-lead mx-auto max-w-[46ch] text-center" set:html={c.osParaHtml} />
         <div class="mt-6 flex flex-wrap justify-center gap-3">
-          <a
-            class="mcp-btn"
-            href="https://github.com/frank890417/taiwan-md"
-            target="_blank"
-            rel="noopener">GitHub</a
-          >
-          <a
-            class="mcp-btn"
-            href="https://www.npmjs.com/package/taiwanmd"
-            target="_blank"
-            rel="noopener">npm</a
-          >
-          <a
-            class="mcp-btn"
-            href="https://github.com/frank890417/taiwan-md/blob/main/cli/CONNECTOR.md"
-            target="_blank"
-            rel="noopener">文件</a
-          >
-          <a class="mcp-btn" href="/contribute">貢獻</a>
+          <a class="mcp-btn" href="https://github.com/frank890417/taiwan-md" target="_blank" rel="noopener">GitHub</a>
+          <a class="mcp-btn" href="https://www.npmjs.com/package/taiwanmd" target="_blank" rel="noopener">npm</a>
+          <a class="mcp-btn" href="https://github.com/frank890417/taiwan-md/blob/main/cli/CONNECTOR.md" target="_blank" rel="noopener">{c.btnDocs}</a>
+          <a class="mcp-btn" href="/contribute">{c.btnContribute}</a>
         </div>
         <div class="mt-10 font-mono text-xs text-[#4fd1b0]/75">🧬</div>
       </section>
@@ -491,7 +303,7 @@ const faqs = [
   </main>
 </Layout>
 
-<script>
+<script define:vars={{ copiedLabel: c.copiedLabel }}>
   // Copy-to-clipboard for all .copy-btn buttons.
   document.querySelectorAll('.copy-btn').forEach((btn) => {
     btn.addEventListener('click', async () => {
@@ -499,7 +311,7 @@ const faqs = [
       try {
         await navigator.clipboard.writeText(text);
         const prev = btn.textContent;
-        btn.textContent = '已複製 ✓';
+        btn.textContent = copiedLabel;
         btn.classList.add('copied');
         setTimeout(() => {
           btn.textContent = prev;
@@ -555,7 +367,6 @@ const faqs = [
     width: 44px;
     height: 12px;
     transform: translate(-50%, -50%);
-    background: #03080a;
     -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='12' viewBox='0 0 44 12'%3E%3Cpolyline fill='none' stroke='%23000' stroke-width='1.4' points='0,6 10,6 14,1 17,11 20,4 23,8 26,6 44,6'/%3E%3C/svg%3E")
       center / contain no-repeat;
     mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='12' viewBox='0 0 44 12'%3E%3Cpolyline fill='none' stroke='%23000' stroke-width='1.4' points='0,6 10,6 14,1 17,11 20,4 23,8 26,6 44,6'/%3E%3C/svg%3E")
@@ -817,7 +628,7 @@ const faqs = [
     font-family: 'SF Mono', monospace;
     font-size: 0.68rem;
     color: rgba(79, 209, 176, 0.7);
-    width: 2.4rem;
+    min-width: 2.4rem;
   }
   .mcp-tool-io code {
     font-family: 'SF Mono', 'Fira Code', monospace;
