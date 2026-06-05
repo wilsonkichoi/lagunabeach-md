@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-06-05T15:10:45.583Z",
+  "generatedAt": "2026-06-05T22:11:54.134Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "478d8b8724766f37d6abff0422421201c62cca1f",
+      "date": "2026-06-06T01:56:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-06-015405-twmd-babel-nightly — 105 translations / stale 13→0 / cascade 45/45 + 3 side findings"
+    },
+    {
+      "hash": "95cc42159b11a5cc28214015f740d4ceb237782c",
+      "date": "2026-06-06T01:53:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 105 translations (5 P0 + 25 P1 cascade / 40 P2 patch / 20 P2.5 bump) — 2026-06-06 nightly"
+    },
+    {
+      "hash": "a6c89503024b98dba49cf62a17758f429af40295",
+      "date": "2026-06-05T23:13:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-05-231153-twmd-data-refresh-pm — 14-step ALL PASS + Step 11 全綠 + immune snapshot 27 vs fresh 61 illusion 發現"
+    },
+    {
+      "hash": "defff464b39ad3bd25822d1daa372f37c8a60de2",
+      "date": "2026-06-05T23:11:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] data-refresh-pm: 14-step ALL PASS + Step 11 全綠 + immune 27(stale)→61(fresh) — 昨夜 11d stale 已 heal"
+    },
     {
       "hash": "c0adb10618fc402abd1a4847dce99782df7c4ca3",
       "date": "2026-06-05T22:09:08+08:00",

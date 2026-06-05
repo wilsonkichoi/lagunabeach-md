@@ -1,28 +1,28 @@
 {
-  "totalArticles": 4761,
+  "totalArticles": 4781,
   "totalCategories": 21,
   "estimatedContributors": 57,
-  "totalTags": 6359,
+  "totalTags": 6338,
   "categories": [
     {
       "name": "es",
-      "count": 784
+      "count": 788
     },
     {
       "name": "ko",
-      "count": 787
+      "count": 791
     },
     {
       "name": "fr",
-      "count": 804
+      "count": 808
     },
     {
       "name": "en",
-      "count": 805
+      "count": 809
     },
     {
       "name": "ja",
-      "count": 792
+      "count": 796
     },
     {
       "name": "History",
@@ -115,10 +115,6 @@
       "count": 27
     },
     {
-      "name": "音樂",
-      "count": 27
-    },
-    {
       "name": "客家",
       "count": 26
     },
@@ -132,6 +128,10 @@
     },
     {
       "name": "高雄",
+      "count": 25
+    },
+    {
+      "name": "音樂",
       "count": 25
     },
     {
@@ -172,13 +172,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4761,
+    "zh-TW": 4781,
     "en": 0
   },
-  "lastUpdated": "2026-06-05T15:10:46.971Z",
+  "lastUpdated": "2026-06-05T22:11:55.439Z",
   "stars": 1021,
   "forks": 148,
-  "zhPages": 3956,
-  "enPages": 805,
-  "totalPages": 4761
+  "zhPages": 3972,
+  "enPages": 809,
+  "totalPages": 4781
 }
