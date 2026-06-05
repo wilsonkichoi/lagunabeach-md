@@ -262,6 +262,22 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-05 Connector (174805) — connector 三通道落地的 5 條操作教訓（broken-link hub / branch-not-main push / 貼指令無註解 / DNS negative-cache / workers.dev vs custom domain）
+
+從「參考 Twinkle Hub 做 Claude Code Connector」整條 arc 萃出（詳見 [memory/2026-06-05-174805-manual.md](memory/2026-06-05-174805-manual.md)）：
+
+- **broken-link hub 鏡像**：新增非文章 hub 頁面要嘛全語言鏡像、要嘛標 single-lang。`getLangSwitchPath` 對 1-segment hub 預設 `has[lang]=!isArticle`=true（假設所有語言版都存在，像 /about /data /semiont）；新 hub 沒鏡像 → 語言切換器 + nav 生 /en/X 壞連結（nav 在每個非中文頁 → 放大上千條）→ broken-link gate（8.06%≥7%）擋 deploy。
+- **branch-not-main push**：feature branch 上 `git push` 只推 branch，要 `git fetch . branch:main` ff main 才觸發 deploy。同 session 第二次忘記（push 顯示成功但 origin/main 沒動、deploy 沒跑）。收官前驗 `git rev-parse origin/main` == 預期 commit。
+- **貼指令無註解**：給哲宇貼的 terminal 指令不要帶中文註解 / placeholder，zsh 互動 paste 把 `#` 跟 `<x>` 當指令（他第一次 deploy 撞 3 個 error）。給可直接貼的純指令，說明放 code block 外。
+- **Node DNS negative-cache**：新 DNS 記錄 `dig` 看得到但 Node `dns.lookup` 持續 ENOTFOUND（OS resolver 負快取）。驗證剛建的網域用 `curl --resolve host:443:IP` 強制 IP 繞過本地 DNS。
+- **workers.dev vs custom domain**：`*.workers.dev` 免 DNS 即時 live = 快速路徑（先求 live）；自訂網域要 domain zone 在同一個 CF 帳號才能 `wrangler.toml [[routes]] custom_domain` 一鍵加（wrangler 自動建 DNS + TLS）。
+
+- **觸發**：2026-06-05 17:48→收官 Full-mode manual connector arc。
+- **相關**：第 1 條是「多語言 nav 隱性路由 scope」神經迴路的**新增頁面側 instance**（前都是 article 側，vc+1）；整體呼應 REFLEXES #16「自己的舊文件也是線索不是 source」。
+- **可能層級**：操作規則（1=REWRITE/i18n、2=git workflow、3=observer UX、4-5=deploy/CF infra）。
+- **verification_count**: 1
+- **severity**: tactical（第 1 條 structural — 會擋 deploy）
+
 ### 2026-06-05 manual (105142) — 分析幻覺（真實但誤導）是 MANIFESTO §10 寫作幻覺的孿生 + ga4-analytics runReport 靜默吞 filter
 
 兩條相關教訓，從 ANALYSIS-PIPELINE 造橋萃出：
