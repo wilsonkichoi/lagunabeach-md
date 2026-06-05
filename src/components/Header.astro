@@ -115,8 +115,6 @@ const navConfig = [
   { path: '/soundscape', label: t('nav.soundscape') },
   { path: '/resources', label: t('nav.resources') },
   { path: '/semiont', label: t('nav.semiont') },
-  { path: '/mcp', label: t('nav.mcp') },
-  { path: '/elections/2026', label: t('nav.elections') },
   { path: '/contribute', label: t('nav.contribute') },
 ].map((item) => {
   const fullPath = translatePath(item.path);
@@ -134,6 +132,18 @@ const navConfig = [
       currentPath.startsWith(semiontPath) ||
       currentPath.startsWith('/dashboard') ||
       currentPath.startsWith(dashboardPath);
+  }
+  // 2026-06-05: /elections moved under 探索 subnav, /mcp under 資源 subnav —
+  // keep the parent nav item highlighted when on those pages.
+  if (item.path === '/explore') {
+    active = active || currentPath.startsWith('/elections');
+  }
+  if (item.path === '/resources') {
+    const mcpPath = translatePath('/mcp');
+    active =
+      active ||
+      currentPath.startsWith('/mcp') ||
+      currentPath.startsWith(mcpPath);
   }
   // elections/2026 also exists only as single-lang page for MVP
   const singleLangPaths = ['/elections/2026'];
@@ -325,6 +335,12 @@ const categoryList = [
                         >
                           {t('nav.bench')} 🧬
                         </a>
+                        <a
+                          href="/elections/2026"
+                          class="dropdown-item dropdown-section-header"
+                        >
+                          {t('nav.elections')}
+                        </a>
                         <div class="dropdown-divider" />
                         {categoryList.map((category) => (
                           <a href={category.path} class="dropdown-item">
@@ -408,6 +424,36 @@ const categoryList = [
                           class="dropdown-item"
                         >
                           🏢 {t('nav.data.enterprise')}
+                        </a>
+                      </div>
+                    </div>
+                  </Fragment>
+                );
+              }
+              if (item.path === '/resources') {
+                return (
+                  <Fragment>
+                    {showSep && <span class="nav-sep" />}
+                    <div class="nav-dropdown">
+                      <a
+                        href={item.fullPath}
+                        class:list={['nav-link', { active: item.active }]}
+                      >
+                        {item.label} <span class="dropdown-arrow">▾</span>
+                      </a>
+                      <div class="dropdown-menu">
+                        <a
+                          href={translatePath('/resources')}
+                          class="dropdown-item dropdown-section-header"
+                        >
+                          {t('nav.resources')}
+                        </a>
+                        <div class="dropdown-divider" />
+                        <a
+                          href={translatePath('/mcp')}
+                          class="dropdown-item"
+                        >
+                          🔌 {t('nav.mcp')}
                         </a>
                       </div>
                     </div>
@@ -605,7 +651,9 @@ const categoryList = [
       <nav class="nav-mobile" aria-label={t('nav.aria-mobile-navigation')}>
         {
           navConfig.map((item) => {
-            const hasSub = ['/explore', '/map', '/semiont'].includes(item.path);
+            const hasSub = ['/explore', '/map', '/semiont', '/resources'].includes(
+              item.path,
+            );
             return (
               <Fragment>
                 <div class:list={['mobile-nav-item', { 'has-sub': hasSub }]}>
@@ -641,6 +689,13 @@ const categoryList = [
                     >
                       {t('nav.terminology')} 📖
                     </a>
+                    <a
+                      href="/elections/2026"
+                      class="nav-link nav-sub-link"
+                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
+                    >
+                      {t('nav.elections')}
+                    </a>
                   </div>
                 )}
                 {item.path === '/map' && (
@@ -669,6 +724,17 @@ const categoryList = [
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
                       {t('nav.dashboard')}
+                    </a>
+                  </div>
+                )}
+                {item.path === '/resources' && (
+                  <div class="mobile-sub-links open">
+                    <a
+                      href={translatePath('/mcp')}
+                      class="nav-link nav-sub-link"
+                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
+                    >
+                      🔌 {t('nav.mcp')}
                     </a>
                   </div>
                 )}
