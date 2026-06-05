@@ -66,6 +66,7 @@ export interface McpContent {
   btnDocs: string;
   btnContribute: string;
   downloadLabel: string;
+  remoteNote: string;
   backHomeLabel: string;
 }
 
@@ -201,7 +202,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       },
       {
         q: '有遠端 endpoint 嗎？',
-        a: '規劃中，給跑不了 Node 的瘦客戶端用。但本地優先永遠是推薦路徑（隱私最好），遠端只是可選入口。',
+        a: '有了：https://mcp.taiwan.md（免費、唯讀、無 key）。任何 MCP 客戶端用 npx mcp-remote https://mcp.taiwan.md 連。給跑不了 Node 的瘦客戶端——但本地優先永遠是推薦路徑（隱私最好），遠端只是可選入口。',
       },
     ],
 
@@ -211,6 +212,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     btnDocs: '文件',
     btnContribute: '貢獻',
     downloadLabel: '下載 taiwanmd.mcpb',
+    remoteNote: '給跑不了 Node 的瘦客戶端 / 純 web。本地優先仍是推薦（隱私最好）。',
     backHomeLabel: '← 回首頁',
   },
 
@@ -345,7 +347,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       },
       {
         q: 'Is there a remote endpoint?',
-        a: 'Planned, for thin clients that can’t run Node. But local-first is always the recommended path (best for privacy); remote is just an optional entry point.',
+        a: 'Yes: https://mcp.taiwan.md (free, read-only, no key). Connect any MCP client with npx mcp-remote https://mcp.taiwan.md. For thin clients that can’t run Node — but local-first is always the recommended path (best for privacy); remote is just an optional entry point.',
       },
     ],
 
@@ -355,6 +357,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     btnDocs: 'Docs',
     btnContribute: 'Contribute',
     downloadLabel: 'Download taiwanmd.mcpb',
+    remoteNote: 'For thin clients that can’t run Node / pure web. Local-first is still recommended (best privacy).',
     backHomeLabel: '← Back home',
   },
 
@@ -489,7 +492,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       },
       {
         q: 'リモートエンドポイントはありますか？',
-        a: 'Node を実行できないシンクライアント向けに計画中です。ただしローカル優先が常に推奨（プライバシー最良）で、リモートは任意の入口にすぎません。',
+        a: 'あります：https://mcp.taiwan.md（無料・読み取り専用・キー不要）。任意の MCP クライアントから npx mcp-remote https://mcp.taiwan.md で接続できます。Node を実行できないシンクライアント向けですが、ローカル優先が常に推奨（プライバシー最良）で、リモートは任意の入口にすぎません。',
       },
     ],
 
@@ -499,6 +502,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     btnDocs: 'ドキュメント',
     btnContribute: '貢献する',
     downloadLabel: 'taiwanmd.mcpb をダウンロード',
+    remoteNote: 'Node を実行できないシンクライアント / 純 Web 向け。ローカル優先が推奨（プライバシー最良）。',
     backHomeLabel: '← ホームへ',
   },
 
@@ -633,7 +637,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       },
       {
         q: '원격 엔드포인트가 있나요?',
-        a: 'Node를 실행할 수 없는 씬 클라이언트를 위해 계획 중입니다. 하지만 로컬 우선이 늘 권장 경로(프라이버시 최선)이고, 원격은 선택적 입구일 뿐입니다.',
+        a: '있습니다: https://mcp.taiwan.md (무료·읽기 전용·키 불필요). 모든 MCP 클라이언트에서 npx mcp-remote https://mcp.taiwan.md 로 연결하세요. Node를 실행할 수 없는 씬 클라이언트용이지만, 로컬 우선이 늘 권장 경로(프라이버시 최선)이고, 원격은 선택적 입구일 뿐입니다.',
       },
     ],
 
@@ -643,6 +647,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     btnDocs: '문서',
     btnContribute: '기여하기',
     downloadLabel: 'taiwanmd.mcpb 다운로드',
+    remoteNote: 'Node를 실행할 수 없는 씬 클라이언트 / 순수 웹용. 로컬 우선을 권장합니다(프라이버시 최선).',
     backHomeLabel: '← 홈으로',
   },
 
@@ -777,7 +782,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       },
       {
         q: '¿Hay un endpoint remoto?',
-        a: 'En planes, para clientes ligeros que no pueden ejecutar Node. Pero local primero es siempre la vía recomendada (mejor privacidad); lo remoto es solo una entrada opcional.',
+        a: 'Sí: https://mcp.taiwan.md (gratis, solo lectura, sin clave). Conecta cualquier cliente MCP con npx mcp-remote https://mcp.taiwan.md. Para clientes ligeros que no pueden ejecutar Node — pero local primero es siempre la vía recomendada (mejor privacidad); lo remoto es solo una entrada opcional.',
       },
     ],
 
@@ -787,6 +792,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     btnDocs: 'Documentación',
     btnContribute: 'Contribuir',
     downloadLabel: 'Descargar taiwanmd.mcpb',
+    remoteNote: 'Para clientes ligeros que no pueden ejecutar Node / web pura. Se sigue recomendando local primero (mejor privacidad).',
     backHomeLabel: '← Inicio',
   },
 
@@ -921,7 +927,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
       },
       {
         q: 'Y a-t-il un point d’accès distant ?',
-        a: 'Prévu, pour les clients légers qui ne peuvent pas exécuter Node. Mais le local d’abord reste la voie recommandée (meilleur pour la vie privée) ; le distant n’est qu’une entrée optionnelle.',
+        a: 'Oui : https://mcp.taiwan.md (gratuit, lecture seule, sans clé). Connecte n’importe quel client MCP avec npx mcp-remote https://mcp.taiwan.md. Pour les clients légers qui ne peuvent pas exécuter Node — mais le local d’abord reste la voie recommandée (meilleur pour la vie privée) ; le distant n’est qu’une entrée optionnelle.',
       },
     ],
 
@@ -931,6 +937,7 @@ export const MCP_CONTENT: Record<McpLang, McpContent> = {
     btnDocs: 'Documentation',
     btnContribute: 'Contribuer',
     downloadLabel: 'Télécharger taiwanmd.mcpb',
+    remoteNote: 'Pour les clients légers qui ne peuvent pas exécuter Node / web pur. Le local d’abord reste recommandé (meilleure confidentialité).',
     backHomeLabel: '← Accueil',
   },
 };

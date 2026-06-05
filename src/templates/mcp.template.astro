@@ -55,14 +55,26 @@ const installCodes = [
   'command: npx\nargs: ["-y", "taiwanmd", "mcp", "serve"]',
   'npx -y taiwanmd mcp serve',
 ];
-const installs = c.installClientLabels.map((client, i) => ({
-  client,
-  badge: c.installBadges[i],
-  code: installCodes[i],
-  note: c.installNotes[i],
-  // Claude Desktop (i===1) gets a real .mcpb download button.
-  download: i === 1 ? { href: '/downloads/taiwanmd.mcpb', label: c.downloadLabel } : null,
-}));
+// Optional remote endpoint (Cloudflare Worker) — thin-client path. Local-first
+// stays primary; this is the secondary entry for clients that can't run Node.
+const remoteUrl = 'https://mcp.taiwan.md';
+const installs = [
+  ...c.installClientLabels.map((client, i) => ({
+    client,
+    badge: c.installBadges[i],
+    code: installCodes[i],
+    note: c.installNotes[i],
+    // Claude Desktop (i===1) gets a real .mcpb download button.
+    download: i === 1 ? { href: '/downloads/taiwanmd.mcpb', label: c.downloadLabel } : null,
+  })),
+  {
+    client: 'Remote · any MCP client',
+    badge: 'mcp-remote',
+    code: `npx mcp-remote ${remoteUrl}`,
+    note: c.remoteNote,
+    download: null,
+  },
+];
 
 // CLI command signatures + examples are SHARED; descriptions come from content.
 // Order MUST match mcp-content.ts cliDescs + cliGroupTitles/cliGroupSizes.
