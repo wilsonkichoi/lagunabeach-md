@@ -85,11 +85,12 @@ downstream_dependents:
 
 定義我的自主神經系統。
 
-| 基因          | 檔案                                                    | 決定什麼                       |
-| ------------- | ------------------------------------------------------- | ------------------------------ |
-| CI/CD         | `.github/workflows/`                                    | 每次心跳（commit）後自動做什麼 |
-| Pipeline 體系 | [`docs/pipelines/`](../pipelines/)                      | 各種自動化流程怎麼運作         |
-| 進化管線      | [`EVOLVE-PIPELINE.md`](../pipelines/EVOLVE-PIPELINE.md) | 怎麼用數據驅動內容進化         |
+| 基因          | 檔案                                                        | 決定什麼                                       |
+| ------------- | ----------------------------------------------------------- | ---------------------------------------------- |
+| CI/CD         | `.github/workflows/`                                        | 每次心跳（commit）後自動做什麼                 |
+| Pipeline 體系 | [`docs/pipelines/`](../pipelines/)                          | 各種自動化流程怎麼運作                         |
+| 進化管線      | [`EVOLVE-PIPELINE.md`](../pipelines/EVOLVE-PIPELINE.md)     | 怎麼用數據驅動內容進化                         |
+| 分析管線      | [`ANALYSIS-PIPELINE.md`](../pipelines/ANALYSIS-PIPELINE.md) | 防分析幻覺的數據偵查（影響/歸因/before-after） |
 
 ### 🧫 繁殖基因（社群繁殖力）
 

@@ -1,0 +1,120 @@
+{
+  "filter": ["pagePath~omputex"],
+  "start": "3daysAgo",
+  "end": "today",
+  "total_referrer_pv": 1027,
+  "blank_referrer_pv": 531,
+  "blank_share": 0.517,
+  "masked_fingerprints": [
+    {
+      "referrer": "https://disp.cc/",
+      "pv": 55,
+      "channel": "PTT 網頁鏡像站"
+    },
+    {
+      "referrer": "android-app://com.joshua.jptt/",
+      "pv": 18,
+      "channel": "JPTT（PTT Android app）"
+    },
+    {
+      "referrer": "http://disp.cc:8002/",
+      "pv": 1,
+      "channel": "PTT 網頁鏡像站"
+    }
+  ],
+  "top_country": {
+    "name": "Taiwan",
+    "share": 0.913
+  },
+  "mobile_share": 0.538,
+  "repost_signals": {
+    "blank_referrer_heavy": true,
+    "ecosystem_tail_present": true,
+    "geo_concentrated": true,
+    "mobile_heavy": true
+  },
+  "repost_score": 4,
+  "verdict": "🚨 高機率被外部論壇轉錄（referrer 被 noreferrer 洗白）",
+  "referrer_breakdown": [
+    {
+      "referrer": "(direct/blank)",
+      "pv": 531
+    },
+    {
+      "referrer": "https://www.google.com/",
+      "pv": 168
+    },
+    {
+      "referrer": "https://l.threads.com/",
+      "pv": 98
+    },
+    {
+      "referrer": "https://t.co/",
+      "pv": 92
+    },
+    {
+      "referrer": "https://disp.cc/",
+      "pv": 55
+    },
+    {
+      "referrer": "android-app://com.joshua.jptt/",
+      "pv": 18
+    },
+    {
+      "referrer": "https://substack.com/",
+      "pv": 14
+    },
+    {
+      "referrer": "https://taiwan.md/technology/Computex/",
+      "pv": 10
+    },
+    {
+      "referrer": "https://facebook.com/",
+      "pv": 6
+    },
+    {
+      "referrer": "https://l.instagram.com/",
+      "pv": 6
+    },
+    {
+      "referrer": "https://l.facebook.com/",
+      "pv": 4
+    },
+    {
+      "referrer": "https://www.facebook.com/",
+      "pv": 3
+    },
+    {
+      "referrer": "http://localhost:4322/technology/Computex",
+      "pv": 2
+    },
+    {
+      "referrer": "https://taiwan.md/people/黃仁勳/",
+      "pv": 2
+    },
+    {
+      "referrer": "https://taiwan.md/society/天下雜誌/",
+      "pv": 2
+    },
+    {
+      "referrer": "https://taiwan.md/technology/",
+      "pv": 2
+    },
+    {
+      "referrer": "https://www.bing.com/",
+      "pv": 2
+    },
+    {
+      "referrer": "https://www.google.com.tw/",
+      "pv": 2
+    },
+    {
+      "referrer": "android-app://com.google.android.googlequicksearchbox/",
+      "pv": 1
+    },
+    {
+      "referrer": "http://disp.cc:8002/",
+      "pv": 1
+    }
+  ]
+}
