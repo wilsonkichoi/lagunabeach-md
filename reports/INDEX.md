@@ -1,7 +1,7 @@
 ---
 title: 'reports/ INDEX — auto-generated'
 description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子目錄 status summary'
-last_generated: 2026-06-04 06:12
+last_generated: 2026-06-05 11:02
 generator: scripts/tools/generate-reports-index.py
 ssot: reports/reports-archival-audit-2026-05-27.md §4 Layer 3
 type: auto-index
@@ -12,13 +12,13 @@ type: auto-index
 > **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。
 > 不要人工編輯（會被下一次 cron 覆蓋）。
 >
-> Last generated: **2026-06-04 06:12** · 頂層 \*.md 共 **129** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
+> Last generated: **2026-06-05 11:02** · 頂層 \*.md 共 **134** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
 
 ## 📦 子目錄 status
 
 | Subdir                  | Files | Size     | 用途                                                 |
 | ----------------------- | ----: | -------- | ---------------------------------------------------- |
-| `research/`             |   240 | 33.7 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
+| `research/`             |   259 | 34.7 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
 | `visual/`               |   111 | 214.5 MB | Visual smoke test 基線 (partial gitignored)          |
 | `archive/`              |    27 | 342.8 KB | 歸檔位置 (per audit Layer 4)                         |
 | `factcheck/`            |     9 | 98.7 KB  | —                                                    |
@@ -68,8 +68,10 @@ type: auto-index
 - `2026-04-13` [ssodt-spore-linkback-plan-2026-04-13](ssodt-spore-linkback-plan-2026-04-13.md)
 - `2026-04-12` [semiont-public-pages-plan-2026-04-12](semiont-public-pages-plan-2026-04-12.md)
 
-### evolution (17)
+### evolution (19)
 
+- `2026-06-04` [media-richness-band-evolution-2026-06-04](media-richness-band-evolution-2026-06-04.md)
+- `2026-06-04` [rewrite-pipeline-research-ssot-evolution-2026-06-04](rewrite-pipeline-research-ssot-evolution-2026-06-04.md)
 - `2026-06-03` [dynamic-workflows-evolution-2026-06-03](dynamic-workflows-evolution-2026-06-03.md)
 - `2026-05-23` [spore-pipeline-evolution-2026-05-23-article-to-spore-to-broadcast-cycle](spore-pipeline-evolution-2026-05-23-article-to-spore-to-broadcast-cycle.md) — 「文章→孢子→傳播」自動化飛輪首例 cycle smoothness report
 - `2026-05-18` [map-page-evolution-2026-05-18](map-page-evolution-2026-05-18.md) — 地圖頁面進化評估 — 22 縣市系列完成後的整合機會
@@ -88,8 +90,9 @@ type: auto-index
 - `2026-04-17` [evolution-roadmap-2026-04-17-δ](evolution-roadmap-2026-04-17-δ.md)
 - `2026-04-13` [x-evolution-report-2026-04-13](x-evolution-report-2026-04-13.md)
 
-### analysis (6)
+### analysis (7)
 
+- `2026-06-05` [ptt-computex-discussion-analysis-2026-06-05](ptt-computex-discussion-analysis-2026-06-05.md) — PTT PC_Shopping Computex 轉錄事件 — 討論歸檔 × GA/SC 數據分析 × 深度洞察
 - `2026-05-13` [claude-with-webhook-evaluation-2026-05-13](claude-with-webhook-evaluation-2026-05-13.md) — claude-with-webhook 評估報告：自架 GitHub Issue → Claude Code 自動化的可借力性
 - `2026-05-05` [zhtw-mcp-integration-evaluation-2026-05-05](zhtw-mcp-integration-evaluation-2026-05-05.md)
 - `2026-05-01` [ci-build-page-cache-investigation-2026-05-01](ci-build-page-cache-investigation-2026-05-01.md) — CI build 文章頁面 cache 化深度研究 + 本機 per-language matrix 實驗
@@ -153,8 +156,10 @@ type: auto-index
 - `2026-04-12` [NMTH-overseas-semiont-analysis-2026-04-12](NMTH-overseas-semiont-analysis-2026-04-12.md)
 - `2026-04-11` [TFT-semiont-analysis-2026-04-11](TFT-semiont-analysis-2026-04-11.md)
 
-### ops (38)
+### ops (40)
 
+- `2026-06-04` [research-methodology-synthesis-2026-06-04](research-methodology-synthesis-2026-06-04.md)
+- `2026-06-04` [research-pipeline-v65-experiment-2026-06-04](research-pipeline-v65-experiment-2026-06-04.md)
 - `2026-06-03` [cron-storm-incident-2026-06-03](cron-storm-incident-2026-06-03.md)
 - `2026-06-03` [spore-ig-pipeline-session-2026-06-03](spore-ig-pipeline-session-2026-06-03.md) — SPORE-IG-PIPELINE 誕生 session — 經驗紀錄與自我進化軌跡
 - `2026-06-01` [feedback-go-live-log-2026-06-01](feedback-go-live-log-2026-06-01.md) — Feedback 系統 go-live 紀錄
@@ -196,9 +201,14 @@ type: auto-index
 
 ## 📅 By month (descending)
 
-### 2026-06 (9 files)
+### 2026-06 (14 files)
 
-- Type breakdown: ops: 4 / design: 2 / evolution: 1 / proposal: 1 / audit-routine: 1
+- Type breakdown: ops: 6 / evolution: 3 / design: 2 / analysis: 1 / proposal: 1 / audit-routine: 1
+  - `2026-06-05` [ptt-computex-discussion-analysis-2026-06-05](ptt-computex-discussion-analysis-2026-06-05.md)
+  - `2026-06-04` [media-richness-band-evolution-2026-06-04](media-richness-band-evolution-2026-06-04.md)
+  - `2026-06-04` [research-methodology-synthesis-2026-06-04](research-methodology-synthesis-2026-06-04.md)
+  - `2026-06-04` [research-pipeline-v65-experiment-2026-06-04](research-pipeline-v65-experiment-2026-06-04.md)
+  - `2026-06-04` [rewrite-pipeline-research-ssot-evolution-2026-06-04](rewrite-pipeline-research-ssot-evolution-2026-06-04.md)
   - `2026-06-03` [carousel-pipeline-design-2026-06-03](carousel-pipeline-design-2026-06-03.md)
   - `2026-06-03` [cron-storm-incident-2026-06-03](cron-storm-incident-2026-06-03.md)
   - `2026-06-03` [dynamic-workflows-evolution-2026-06-03](dynamic-workflows-evolution-2026-06-03.md)
