@@ -217,9 +217,10 @@ BECOME_TAIWANMD.md Step 5 新增：
 
 - **觸發**：2026-06-01 `台灣影視配樂`被配樂專業讀者 peilinwu0702 公開 callout 錯誤率>30%，全篇作曲家↔作品誤植（已重寫 ship `b0c92a2d2`）。揭露「A↔B 密集對應」主題是 AI 最易張冠李戴的結構，早期批次（3/19 編修校對不嚴謹）風險最高。
 - **Priority**: P1
-- **Status**: pending
+- **Status**: in-progress（batch 進行中）
 - **Type**: audit / EVOLVE batch
 - **範圍**：3/19 早期批次 + 歸屬密集主題（音樂的「作曲家↔作品」、運動的「球員↔球隊／賽事」、文學的「作者↔著作」、樂團的「成員↔樂團」）優先重查；每篇對每個歸屬「查 attribution 不只查 fact」(RESEARCH.md §張冠李戴 self-apply)。
+- **進度**：✅ 李宗盛（2026-06-05 loop /twmd-rewrite，1185→4588 CJK）— batch 首篇。falsification 抓大量 attribution 誤植：滾滾紅塵=羅大佑 / 愛上一個不回家的人=飛碟陳志遠 / 味道(歌)=姚謙黃國倫 / 分手快樂=姚若龍 / 花心=喜納昌吉 / 我很醜=夏宇黃韻玲 / 讓我歡喜讓我憂=CHAGE&ASKA(李只填詞) / Music Factory=羅大佑廠牌；另修滾石 1984/出生北投/有歌之年 2019。新增「那些其實不是他寫的歌」段把 audit 變讀者價值。SSOT: reports/research/2026-06/李宗盛.md。下批候選（3/19 Music/People 歸屬密集）：羅大佑 / 伍佰 / 張惠妹 / 林俊傑 / 蕭青陽 等。
 - **下一步**：先 `grep -l "date: 2026-03-19" knowledge/**/*.md` 列早期批次 → 挑歸屬密集者（Music / Sports / People）排重查順序 → 走 REWRITE-PIPELINE Evolution。
 
 ### 📷 SPORE-INBOX 候選圖片補強 batch — 5 articles missing hero + scene-mid (2026-05-27 spore-publish-daily gate fail)
