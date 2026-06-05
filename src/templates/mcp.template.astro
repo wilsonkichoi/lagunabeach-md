@@ -1,0 +1,904 @@
+---
+/**
+ * /mcp — Taiwan.md Connector + CLI landing/docs page.
+ *
+ * Single authoritative entry point for the MCP server and the taiwanmd CLI:
+ * what it is, install per client, the 6 MCP tools, the 26 CLI commands,
+ * how it works + privacy, FAQ. zh-TW prose; code/commands are universal.
+ *
+ * Design language borrows the Semiont palette (warm paper #f4f0ea on
+ * #03080a, mint #4fd1b0 accent, EKG separator, 🧬) — fitting, because this
+ * page is Taiwan.md offering its body to other AIs (the reproduction organ's
+ * developer-session surface). Data lives in the const arrays below so the
+ * markup stays clean and matches the real CLI (`taiwanmd --help`) + MCP
+ * server (cli/src/lib/mcp-server.js).
+ */
+import Layout from '../layouts/Layout.astro';
+
+const oneLiner = 'claude mcp add taiwanmd -- npx -y taiwanmd mcp serve';
+
+const badges = ['免費', '無 API key', '本地優先', '開源'];
+
+const mcpTools = [
+  {
+    name: 'taiwanmd_search',
+    desc: '全文搜尋 900+ 篇台灣文章（中英雙語）',
+    input: '{ "query": "半導體", "limit": 5 }',
+    returns: 'top-N 命中：title / slug / category / description',
+  },
+  {
+    name: 'taiwanmd_read',
+    desc: '依 slug 讀整篇文章（frontmatter + 內文）',
+    input: '{ "slug": "珍珠奶茶" }',
+    returns: '完整 markdown 內文',
+  },
+  {
+    name: 'taiwanmd_rag',
+    desc: 'top-N 文章組成 prompt-ready 的 RAG 脈絡塊',
+    input: '{ "query": "台灣健保", "limit": 3 }',
+    returns: '可直接餵 LLM 的脈絡 + 問題',
+  },
+  {
+    name: 'taiwanmd_cite',
+    desc: '反幻覺原語：只回有腳註 + 來源 URL 的句子',
+    input: '{ "query": "台積電", "limit": 3 }',
+    returns: 'claim + article + sources[{ name, url }]',
+    highlight: true,
+  },
+  {
+    name: 'taiwanmd_organs',
+    desc: 'Semiont 8 器官即時健康分數',
+    input: '{}',
+    returns: '生命體 vitals（心臟 / 免疫 / DNA …）',
+  },
+  {
+    name: 'taiwanmd_stats',
+    desc: '專案統計：文章數 / 分類 / 時間戳',
+    input: '{}',
+    returns: 'totalArticles / byCategory',
+  },
+];
+
+const installs = [
+  {
+    client: 'Claude Code',
+    badge: '一行搞定',
+    code: oneLiner,
+    note: '零安裝（透過 npx）。裝完直接問 Claude 台灣的事。',
+  },
+  {
+    client: 'Claude Desktop',
+    badge: '一鍵 bundle',
+    code: '下載 taiwanmd.mcpb → 雙擊 → 完成',
+    note: '不會跳出 API key，因為根本沒有 API key。',
+  },
+  {
+    client: 'Cursor',
+    badge: 'Settings → MCP',
+    code: 'command: npx\nargs: ["-y", "taiwanmd", "mcp", "serve"]',
+    note: '在 Cursor 設定裡新增一個 MCP server。',
+  },
+  {
+    client: 'Copilot CLI / Codex CLI / Cline / Continue / 任意 MCP client',
+    badge: '通用 stdio',
+    code: 'npx -y taiwanmd mcp serve',
+    note: '任何說 MCP 的客戶端，指向這個 stdio 指令就會動。',
+  },
+];
+
+const compare = [
+  ['價格', '免費', '付費 / 計量'],
+  ['API key', '不需要', '必須'],
+  ['查詢在哪裡跑', '你的機器（本地 stdio）', '它的伺服器'],
+  ['原始碼', '開源（MIT 程式 / CC BY-SA 內容）', '閉源'],
+];
+
+const cliGroups = [
+  {
+    title: '讀者・探索',
+    emoji: '🔍',
+    cmds: [
+      [
+        'search <query>',
+        '模糊搜尋（中英雙語，--json 可管線）',
+        'taiwanmd search 珍珠奶茶',
+      ],
+      [
+        'read <slug>',
+        '終端機讀全文（--raw / --en / --web）',
+        'taiwanmd read 珍珠奶茶 --raw',
+      ],
+      [
+        'list [category]',
+        '依分類瀏覽（--categories 看全部）',
+        'taiwanmd list food',
+      ],
+      ['random', '隨機發現一篇', 'taiwanmd random --category nature'],
+      ['today', '今日台灣：三篇精選 + 冷知識', 'taiwanmd today'],
+      ['quiz', '台灣知識小測驗（5 題真假）', 'taiwanmd quiz'],
+      ['explore', '互動模糊搜尋 TUI', 'taiwanmd explore'],
+      ['graph <slug>', '文章的 [[wikilink]] 關聯圖', 'taiwanmd graph 珍珠奶茶'],
+      ['diff', '近 7 天知識庫的文章變更', 'taiwanmd diff'],
+      ['terminology', '台灣／中國用語查詢轉換', 'taiwanmd term 滑鼠'],
+    ],
+  },
+  {
+    title: 'AI・RAG',
+    emoji: '🤖',
+    cmds: [
+      [
+        'rag <query>',
+        'top 文章組 prompt-ready 脈絡（可 pipe 給 LLM）',
+        'taiwanmd rag "台灣經濟"',
+      ],
+      [
+        'cite <query>',
+        '反幻覺：帶來源 URL 的可驗證 claim',
+        'taiwanmd cite 台積電',
+      ],
+      [
+        'mcp serve',
+        '啟動 MCP server（給 Claude 等客戶端）',
+        'taiwanmd mcp serve',
+      ],
+    ],
+  },
+  {
+    title: '貢獻・品質',
+    emoji: '✍️',
+    cmds: [
+      [
+        'contribute <topic>',
+        '互動式引導寫新文章',
+        'taiwanmd contribute 阿里山',
+      ],
+      ['validate <slug>', '單篇品質評分卡', 'taiwanmd validate 珍珠奶茶'],
+      [
+        'audit <slug>',
+        'Stage 3.5 幻覺稽核（MANIFESTO §10）',
+        'taiwanmd audit 王新仁',
+      ],
+      ['inbox', '讀／管理 ARTICLE-INBOX', 'taiwanmd inbox --state pending'],
+      ['sync', '同步知識庫到本地', 'taiwanmd sync'],
+    ],
+  },
+  {
+    title: '生命體・Semiont',
+    emoji: '🧬',
+    cmds: [
+      ['organs', '8 器官健康分數長條圖', 'taiwanmd organs'],
+      ['stats', '專案統計 + 器官健康', 'taiwanmd stats'],
+      ['sense', 'GA4 / Search Console / Cloudflare 感知數據', 'taiwanmd sense'],
+      ['spore', '社群孢子 SPORE-LOG', 'taiwanmd spore log'],
+      ['supporters', 'Portaly 支持者統計（預設去識別）', 'taiwanmd supporters'],
+    ],
+  },
+  {
+    title: '工具',
+    emoji: '🔧',
+    cmds: [
+      ['profile', '管理貢獻者 profile', 'taiwanmd profile'],
+      ['mailmap', '管理 .mailmap 身份合併', 'taiwanmd mailmap'],
+    ],
+  },
+];
+
+const faqs = [
+  {
+    q: '要付費嗎？要 API key 嗎？',
+    a: '都不用。Taiwan.md 是公共財（CC BY-SA），知識查詢不設門。沒有帳號、沒有 key、沒有計費。',
+  },
+  {
+    q: '我的查詢會被送到哪裡？',
+    a: '哪裡都不會。MCP server 是跑在你自己機器上的本地 stdio 程序，查詢不外送。首次使用會把知識庫下載到 ~/.taiwanmd，之後都在本地。',
+  },
+  {
+    q: '第一次查詢有點慢？',
+    a: '那是一次性的知識庫同步在跑。server 啟動時會預熱，之後就很快。',
+  },
+  {
+    q: '找不到 npx？',
+    a: '裝 Node.js 18 以上版本就會附帶 npx。想鎖版本用 npx -y taiwanmd@0.7 mcp serve。',
+  },
+  {
+    q: '有遠端 endpoint 嗎？',
+    a: '規劃中，給跑不了 Node 的瘦客戶端用。但本地優先永遠是推薦路徑（隱私最好），遠端只是可選入口。',
+  },
+];
+---
+
+<Layout
+  title="MCP Connector + CLI — Taiwan.md"
+  description="把台灣裝進你的 AI。免費、無 API key、本地優先的 Taiwan.md MCP connector + CLI — 900+ 篇有出處的台灣文章，一行裝進 Claude Code / Desktop / Cursor。"
+  lang="zh-TW"
+>
+  <main class="mcp-paper min-h-screen">
+    <div class="mx-auto max-w-[920px] px-6 pb-28 pt-16 md:px-8">
+      {/* ── Hero ─────────────────────────────────────── */}
+      <header class="text-center">
+        <div class="mb-4 font-mono text-xs tracking-widest text-[#4fd1b0]/80">
+          🧬 TAIWAN.MD · CONNECTOR
+        </div>
+        <h1
+          class="mcp-title mx-auto max-w-[16ch] text-3xl font-bold leading-tight text-[#f4f0ea] md:text-5xl"
+        >
+          把台灣裝進你的 AI
+        </h1>
+        <p
+          class="mx-auto mt-5 max-w-[40ch] text-base leading-relaxed text-[#f4f0ea]/65 md:text-lg"
+        >
+          900+ 篇有出處的台灣文章，一個工具呼叫就到。 當你問 AI
+          關於台灣的事，給的是台灣自己、帶來源的聲音。
+        </p>
+
+        <div class="mt-7 flex flex-wrap justify-center gap-2">
+          {
+            badges.map((b) => (
+              <span class="rounded-full border border-[#4fd1b0]/30 bg-[#4fd1b0]/8 px-3 py-1 font-mono text-xs text-[#4fd1b0]">
+                {b}
+              </span>
+            ))
+          }
+        </div>
+
+        <div class="mcp-code-hero mx-auto mt-8 max-w-[640px]">
+          <button class="copy-btn" data-copy={oneLiner} aria-label="複製指令"
+            >複製</button
+          >
+          <pre><code>{oneLiner}</code></pre>
+        </div>
+        <p class="mt-3 font-mono text-xs text-[#f4f0ea]/45">
+          貼進終端機 → 之後直接問 Claude 台灣的事
+        </p>
+      </header>
+
+      <div class="ekg" aria-hidden="true"></div>
+
+      {/* ── What / Why ───────────────────────────────── */}
+      <section>
+        <h2 class="mcp-h2">這是什麼</h2>
+        <p class="mcp-lead">
+          <strong>Taiwan.md</strong> 是一個開源、AI-native 的台灣知識庫。這個 connector
+          把它變成 <strong>MCP 工具</strong>，讓 Claude Code、Claude
+          Desktop、Cursor、 Copilot CLI、Codex CLI 等客戶端可以直接搜尋、閱讀、<strong
+            >引用</strong
+          >有出處的台灣文章， 而不是憑印象猜。
+        </p>
+        <p class="mcp-lead">它刻意走商業資料閘道的相反那一極：</p>
+        <div class="mcp-table-wrap">
+          <table class="mcp-table">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Taiwan.md Connector</th>
+                <th>典型商業 MCP gateway</th>
+              </tr>
+            </thead>
+            <tbody>
+              {
+                compare.map((row) => (
+                  <tr>
+                    <td class="mcp-td-key">{row[0]}</td>
+                    <td class="mcp-td-good">{row[1]}</td>
+                    <td class="mcp-td-muted">{row[2]}</td>
+                  </tr>
+                ))
+              }
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <div class="ekg" aria-hidden="true"></div>
+
+      {/* ── Install ──────────────────────────────────── */}
+      <section>
+        <h2 class="mcp-h2">安裝</h2>
+        <p class="mcp-lead">挑你的客戶端，複製貼上。沒有註冊步驟。</p>
+        <div class="mcp-grid">
+          {
+            installs.map((it) => (
+              <div class="mcp-card">
+                <div class="mcp-card-head">
+                  <span class="mcp-card-title">{it.client}</span>
+                  <span class="mcp-pill">{it.badge}</span>
+                </div>
+                <div class="mcp-code">
+                  <button
+                    class="copy-btn"
+                    data-copy={it.code}
+                    aria-label="複製"
+                  >
+                    複製
+                  </button>
+                  <pre>
+                    <code>{it.code}</code>
+                  </pre>
+                </div>
+                <p class="mcp-card-note">{it.note}</p>
+              </div>
+            ))
+          }
+        </div>
+        <p class="mcp-lead mt-5 text-sm text-[#f4f0ea]/50">
+          隨時可以印出正確片段：
+          <code class="mcp-inline"
+            >npx -y taiwanmd mcp install --client claude-code</code
+          >
+        </p>
+      </section>
+
+      <div class="ekg" aria-hidden="true"></div>
+
+      {/* ── MCP tools ────────────────────────────────── */}
+      <section>
+        <h2 class="mcp-h2">MCP 工具 <span class="mcp-count">6</span></h2>
+        <p class="mcp-lead">
+          裝好後 Claude 會自己挑工具。其中 <code class="mcp-inline"
+            >taiwanmd_cite</code
+          >
+          是反幻覺武器：只回帶腳註 + 來源 URL 的句子，讓你寫的每句台灣事實都能追回出處。
+        </p>
+        <div class="mcp-tools">
+          {
+            mcpTools.map((tool) => (
+              <div class={`mcp-tool${tool.highlight ? ' mcp-tool-hl' : ''}`}>
+                <div class="mcp-tool-name">
+                  {tool.name}
+                  {tool.highlight && <span class="mcp-tool-tag">反幻覺</span>}
+                </div>
+                <p class="mcp-tool-desc">{tool.desc}</p>
+                <div class="mcp-tool-io">
+                  <span class="mcp-io-label">輸入</span>
+                  <code>{tool.input}</code>
+                </div>
+                <div class="mcp-tool-io">
+                  <span class="mcp-io-label">回傳</span>
+                  <span class="mcp-io-text">{tool.returns}</span>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </section>
+
+      <div class="ekg" aria-hidden="true"></div>
+
+      {/* ── CLI ──────────────────────────────────────── */}
+      <section>
+        <h2 class="mcp-h2">CLI 工具 <span class="mcp-count">26</span></h2>
+        <p class="mcp-lead">
+          同一套知識庫，也能直接在終端機用。全域裝或零安裝跑：
+        </p>
+        <div class="mcp-code mx-auto max-w-[560px]">
+          <button
+            class="copy-btn"
+            data-copy="npm install -g taiwanmd"
+            aria-label="複製">複製</button
+          >
+          <pre><code>npm install -g taiwanmd   # 或零安裝：npx taiwanmd search 珍珠奶茶</code></pre>
+        </div>
+
+        <div class="mt-8 space-y-9">
+          {
+            cliGroups.map((g) => (
+              <div>
+                <h3 class="mcp-h3">
+                  <span class="mr-2">{g.emoji}</span>
+                  {g.title}
+                </h3>
+                <div class="mcp-table-wrap">
+                  <table class="mcp-table mcp-cli-table">
+                    <tbody>
+                      {g.cmds.map((c) => (
+                        <tr>
+                          <td class="mcp-cli-cmd">
+                            <code>{c[0]}</code>
+                          </td>
+                          <td class="mcp-cli-desc">{c[1]}</td>
+                          <td class="mcp-cli-ex">
+                            <code>{c[2]}</code>
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </section>
+
+      <div class="ekg" aria-hidden="true"></div>
+
+      {/* ── How it works + privacy ───────────────────── */}
+      <section>
+        <h2 class="mcp-h2">運作原理 ・ 隱私</h2>
+        <ul class="mcp-bullets">
+          <li>
+            <strong>本地 stdio</strong> — server 是跑在你機器上的程序，不是遠端服務。你的問題不會送到任何
+            Taiwan.md 伺服器。
+          </li>
+          <li>
+            <strong>首次自動同步</strong> — 知識庫一次性下載到 <code
+              class="mcp-inline">~/.taiwanmd</code
+            >，之後本地又快又安靜。在 repo 裡則直接讀 <code class="mcp-inline"
+              >knowledge/</code
+            >。
+          </li>
+          <li>
+            <strong>開源可驗證</strong> — MCP server 就 145 行（<code
+              class="mcp-inline">cli/src/lib/mcp-server.js</code
+            >），讀完每一行再決定要不要裝。
+          </li>
+          <li>
+            <strong>授權</strong> — 內容 CC BY-SA 4.0，程式 MIT。可自由 fork。
+          </li>
+        </ul>
+      </section>
+
+      <div class="ekg" aria-hidden="true"></div>
+
+      {/* ── FAQ ──────────────────────────────────────── */}
+      <section>
+        <h2 class="mcp-h2">常見問題</h2>
+        <div class="mt-5 space-y-4">
+          {
+            faqs.map((f) => (
+              <details class="mcp-faq">
+                <summary>{f.q}</summary>
+                <p>{f.a}</p>
+              </details>
+            ))
+          }
+        </div>
+      </section>
+
+      <div class="ekg" aria-hidden="true"></div>
+
+      {/* ── Open source / fork ───────────────────────── */}
+      <section class="text-center">
+        <h2 class="mcp-h2 justify-center">開源 ・ 這是 Semiont 的身體</h2>
+        <p class="mcp-lead mx-auto max-w-[44ch] text-center">
+          這個 connector 是 <a href="/semiont" class="mcp-link">Taiwan.md</a> 繁殖系統的一部分
+          —— 讓台灣的聲音住進每個開發者的 AI session。歡迎 fork、貢獻、回報。
+        </p>
+        <div class="mt-6 flex flex-wrap justify-center gap-3">
+          <a
+            class="mcp-btn"
+            href="https://github.com/frank890417/taiwan-md"
+            target="_blank"
+            rel="noopener">GitHub</a
+          >
+          <a
+            class="mcp-btn"
+            href="https://www.npmjs.com/package/taiwanmd"
+            target="_blank"
+            rel="noopener">npm</a
+          >
+          <a
+            class="mcp-btn"
+            href="https://github.com/frank890417/taiwan-md/blob/main/cli/CONNECTOR.md"
+            target="_blank"
+            rel="noopener">文件</a
+          >
+          <a class="mcp-btn" href="/contribute">貢獻</a>
+        </div>
+        <div class="mt-10 font-mono text-xs text-[#4fd1b0]/75">🧬</div>
+      </section>
+    </div>
+  </main>
+</Layout>
+
+<script>
+  // Copy-to-clipboard for all .copy-btn buttons.
+  document.querySelectorAll('.copy-btn').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const text = btn.getAttribute('data-copy') || '';
+      try {
+        await navigator.clipboard.writeText(text);
+        const prev = btn.textContent;
+        btn.textContent = '已複製 ✓';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.textContent = prev;
+          btn.classList.remove('copied');
+        }, 1400);
+      } catch {
+        /* clipboard blocked — no-op */
+      }
+    });
+  });
+</script>
+
+<style>
+  .mcp-paper {
+    background-color: #03080a;
+    background-image:
+      radial-gradient(
+        circle at 20% 10%,
+        rgba(79, 209, 176, 0.06),
+        transparent 40%
+      ),
+      radial-gradient(
+        circle at 85% 30%,
+        rgba(79, 209, 176, 0.04),
+        transparent 45%
+      );
+    background-attachment: fixed;
+    color: #f4f0ea;
+  }
+  .mcp-title {
+    font-family: 'jf-lanyanghei-extraheavy', 'Noto Sans TC', sans-serif;
+    letter-spacing: -0.01em;
+  }
+
+  /* EKG separator (Semiont heartbeat signature) */
+  .ekg {
+    height: 1px;
+    margin: 3.5rem 0;
+    background: linear-gradient(
+      to right,
+      transparent,
+      rgba(79, 209, 176, 0.25) 15%,
+      rgba(79, 209, 176, 0.25) 85%,
+      transparent
+    );
+    position: relative;
+  }
+  .ekg::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 44px;
+    height: 12px;
+    transform: translate(-50%, -50%);
+    background: #03080a;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='12' viewBox='0 0 44 12'%3E%3Cpolyline fill='none' stroke='%23000' stroke-width='1.4' points='0,6 10,6 14,1 17,11 20,4 23,8 26,6 44,6'/%3E%3C/svg%3E")
+      center / contain no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='12' viewBox='0 0 44 12'%3E%3Cpolyline fill='none' stroke='%23000' stroke-width='1.4' points='0,6 10,6 14,1 17,11 20,4 23,8 26,6 44,6'/%3E%3C/svg%3E")
+      center / contain no-repeat;
+    background: #4fd1b0;
+  }
+
+  .mcp-h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'rixingsong-semibold', 'Noto Serif TC', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f4f0ea;
+    margin-bottom: 1rem;
+  }
+  .mcp-h2.justify-center {
+    justify-content: center;
+  }
+  .mcp-count {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.8rem;
+    color: #4fd1b0;
+    background: rgba(79, 209, 176, 0.12);
+    border: 1px solid rgba(79, 209, 176, 0.3);
+    border-radius: 999px;
+    padding: 0.1rem 0.55rem;
+  }
+  .mcp-h3 {
+    font-family: 'rixingsong-semibold', 'Noto Serif TC', serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: rgba(244, 240, 234, 0.9);
+    margin-bottom: 0.75rem;
+  }
+  .mcp-lead {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: rgba(244, 240, 234, 0.7);
+    margin-bottom: 1rem;
+  }
+  .mcp-lead strong {
+    color: #f4f0ea;
+    font-weight: 700;
+  }
+  .mcp-link,
+  .mcp-lead a {
+    color: #4fd1b0;
+    text-decoration: underline;
+    text-decoration-color: rgba(79, 209, 176, 0.4);
+    text-underline-offset: 3px;
+  }
+
+  /* Code blocks */
+  .mcp-code,
+  .mcp-code-hero {
+    position: relative;
+  }
+  .mcp-code pre,
+  .mcp-code-hero pre {
+    background: rgba(0, 0, 0, 0.45);
+    border: 1px solid rgba(79, 209, 176, 0.18);
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+    overflow-x: auto;
+    margin: 0;
+  }
+  .mcp-code-hero pre {
+    padding: 1.25rem 1.25rem;
+    box-shadow: 0 0 40px rgba(79, 209, 176, 0.08);
+  }
+  .mcp-code code,
+  .mcp-code-hero code {
+    font-family: 'SF Mono', 'Fira Code', ui-monospace, monospace;
+    font-size: 0.85rem;
+    line-height: 1.7;
+    color: #d7f5ec;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  .mcp-code-hero code {
+    font-size: 0.95rem;
+    color: #eafbf5;
+  }
+  .copy-btn {
+    position: absolute;
+    top: 0.55rem;
+    right: 0.55rem;
+    z-index: 2;
+    font-family: 'SF Mono', monospace;
+    font-size: 0.68rem;
+    color: rgba(244, 240, 234, 0.6);
+    background: rgba(79, 209, 176, 0.1);
+    border: 1px solid rgba(79, 209, 176, 0.25);
+    border-radius: 6px;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .copy-btn:hover {
+    color: #4fd1b0;
+    background: rgba(79, 209, 176, 0.18);
+  }
+  .copy-btn.copied {
+    color: #4fd1b0;
+    border-color: #4fd1b0;
+  }
+  .mcp-inline {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.82em;
+    background: rgba(79, 209, 176, 0.1);
+    padding: 0.1em 0.4em;
+    border-radius: 4px;
+    color: #d7f5ec;
+    word-break: break-word;
+  }
+
+  /* Comparison + CLI tables */
+  .mcp-table-wrap {
+    overflow-x: auto;
+    margin: 1.25rem 0;
+  }
+  .mcp-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+  .mcp-table th,
+  .mcp-table td {
+    border: 1px solid rgba(79, 209, 176, 0.18);
+    padding: 0.6rem 0.8rem;
+    text-align: left;
+    vertical-align: top;
+  }
+  .mcp-table th {
+    background: rgba(79, 209, 176, 0.08);
+    font-weight: 600;
+    color: #f4f0ea;
+  }
+  .mcp-td-key {
+    color: rgba(244, 240, 234, 0.6);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .mcp-td-good {
+    color: #d7f5ec;
+  }
+  .mcp-td-muted {
+    color: rgba(244, 240, 234, 0.45);
+  }
+  .mcp-cli-table td {
+    font-size: 0.85rem;
+  }
+  .mcp-cli-cmd code {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    color: #4fd1b0;
+    font-size: 0.82rem;
+    white-space: nowrap;
+  }
+  .mcp-cli-desc {
+    color: rgba(244, 240, 234, 0.72);
+  }
+  .mcp-cli-ex code {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    color: rgba(244, 240, 234, 0.5);
+    font-size: 0.78rem;
+  }
+
+  /* Install + tool cards */
+  .mcp-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+  .mcp-card {
+    border: 1px solid rgba(79, 209, 176, 0.18);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 1.1rem;
+  }
+  .mcp-card-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .mcp-card-title {
+    font-weight: 700;
+    color: #f4f0ea;
+    font-size: 0.95rem;
+  }
+  .mcp-pill {
+    font-family: 'SF Mono', monospace;
+    font-size: 0.66rem;
+    color: #4fd1b0;
+    border: 1px solid rgba(79, 209, 176, 0.3);
+    border-radius: 999px;
+    padding: 0.1rem 0.5rem;
+    white-space: nowrap;
+  }
+  .mcp-card-note {
+    margin-top: 0.7rem;
+    font-size: 0.82rem;
+    line-height: 1.6;
+    color: rgba(244, 240, 234, 0.55);
+  }
+
+  .mcp-tools {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+  .mcp-tool {
+    border: 1px solid rgba(79, 209, 176, 0.16);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 1.1rem;
+  }
+  .mcp-tool-hl {
+    border-color: rgba(79, 209, 176, 0.5);
+    background: rgba(79, 209, 176, 0.05);
+  }
+  .mcp-tool-name {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #4fd1b0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  .mcp-tool-tag {
+    font-size: 0.64rem;
+    color: #03080a;
+    background: #4fd1b0;
+    border-radius: 999px;
+    padding: 0.1rem 0.5rem;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+  }
+  .mcp-tool-desc {
+    margin: 0.6rem 0 0.8rem;
+    font-size: 0.88rem;
+    line-height: 1.6;
+    color: rgba(244, 240, 234, 0.75);
+  }
+  .mcp-tool-io {
+    display: flex;
+    gap: 0.5rem;
+    align-items: baseline;
+    margin-top: 0.4rem;
+    font-size: 0.78rem;
+  }
+  .mcp-io-label {
+    flex-shrink: 0;
+    font-family: 'SF Mono', monospace;
+    font-size: 0.68rem;
+    color: rgba(79, 209, 176, 0.7);
+    width: 2.4rem;
+  }
+  .mcp-tool-io code {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    color: #d7f5ec;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    word-break: break-word;
+  }
+  .mcp-io-text {
+    color: rgba(244, 240, 234, 0.6);
+  }
+
+  .mcp-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .mcp-bullets li {
+    position: relative;
+    padding-left: 1.4rem;
+    margin-bottom: 0.9rem;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: rgba(244, 240, 234, 0.72);
+  }
+  .mcp-bullets li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: #4fd1b0;
+  }
+  .mcp-bullets strong {
+    color: #f4f0ea;
+  }
+
+  .mcp-faq {
+    border: 1px solid rgba(79, 209, 176, 0.16);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 0.4rem 1rem;
+  }
+  .mcp-faq summary {
+    cursor: pointer;
+    padding: 0.6rem 0;
+    font-weight: 600;
+    color: #f4f0ea;
+    font-size: 0.95rem;
+    list-style: none;
+  }
+  .mcp-faq summary::-webkit-details-marker {
+    display: none;
+  }
+  .mcp-faq summary::before {
+    content: '＋';
+    color: #4fd1b0;
+    margin-right: 0.6rem;
+    font-family: monospace;
+  }
+  .mcp-faq[open] summary::before {
+    content: '－';
+  }
+  .mcp-faq p {
+    padding: 0 0 0.8rem 1.5rem;
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: rgba(244, 240, 234, 0.65);
+  }
+
+  .mcp-btn {
+    display: inline-block;
+    border: 1px solid rgba(79, 209, 176, 0.35);
+    border-radius: 999px;
+    padding: 0.5rem 1.2rem;
+    font-size: 0.88rem;
+    color: #4fd1b0;
+    transition: all 0.15s;
+  }
+  .mcp-btn:hover {
+    background: rgba(79, 209, 176, 0.12);
+    border-color: #4fd1b0;
+  }
+</style>
