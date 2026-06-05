@@ -262,6 +262,14 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-05 manual (105142) — 分析幻覺（真實但誤導）是 MANIFESTO §10 寫作幻覺的孿生 + ga4-analytics runReport 靜默吞 filter
+
+兩條相關教訓，從 ANALYSIS-PIPELINE 造橋萃出：
+
+1. **分析幻覺值得升 canonical（候選 REFLEXES 或 MANIFESTO §10 延伸）**：分析端有跟寫作幻覺同構的失敗模式 — 「完全真實、卻會誤導」的數字（首頁 avgSessionDuration +334% session 級講成 page 級停留四倍）。摧毀信任機制一樣（抓到一次全盤懷疑）。命名了 H1-H9 失敗模式目錄（尺度/率量/lag/混淆波/加權遮蔽/新鮮感/自我驗證/爬蟲/遮蔽渠道），已 instantiate 進 ANALYSIS-PIPELINE Stage 2 confounder checklist + analysis-report-health.py linter。H7 自我驗證偏誤（自己分析自己）在分析端比寫作端更危險，因為是**有動機的**（REFLEXES #59 升級場景）。distill 時考慮 H1-H9 升 REFLEXES 一條（跨 fork 可遷移）。
+
+2. **ga4-analytics skill 的 runReport 靜默吞 filter（REFLEXES #24 工具在說謊新 instance）**：`scripts/src/api/reports.ts` runReport 把 `filters` 參數 destructure 出來但**從沒放進 request** → 任何人下 filtered query 拿到沒過濾的全站數字而不報錯（靜默給錯答案比 crash 危險）。已造 `ga-query.py` 取代（filter 真的作用，dogfood 驗證首頁 vs 全站窄化）。未來分析一律用 `ga-query.py` 不用 toolkit runReport。完整：reports/analysis-pipeline-design-2026-06-05.md §七.7。
+
 ### 2026-06-03 twmd-maintainer-pm (220248) — maintainer-pm 22:00 cron 與 morning chain + manual evening window schedule 撞期 → vc=3 effective-empty 結構性 mismatch
 
 - **原則**：`twmd-maintainer-pm` daily cron 22:00 fire 在「morning chain 已 captures 早上 contributor PR/comment + manual session evening window 17:00-22:00 已清完所有可動 backlog」的時間點上。實證 vc 計數：6/1 pm vc=2 → 6/2 am 真 backlog (close #1127/#1128) reset → 6/2 pm vc=1 → 6/3 am vc=2 → **6/3 pm vc=3** 達 cron task spec 的「連續空場 ≥ 3 cycle = 結構性警示」閾值。Quality gate「effective-empty 算 cycle」捕捉這個 mismatch — 不是 organism healthy（如「issue queue 真的清空」），而是 **routine schedule 撞在 attention dead zone**。Per routine prompt Stage 3 鐵律：「不要用 default-action 反向第 4 種 performative work 自我合理化第 N 次空場」。
