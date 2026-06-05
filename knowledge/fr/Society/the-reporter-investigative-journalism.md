@@ -18,10 +18,10 @@ featured: true
 lastVerified: 2026-04-29
 lastHumanReview: false
 translatedFrom: 'Society/報導者.md'
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:6c6fd9ecbe1e0609'
-sourceBodyHash: 'sha256:5f1735314ca6d06c'
-translatedAt: 2026-05-16T22:24:11Z
+sourceCommitSha: 'aaa69aba'
+sourceContentHash: 'sha256:55376eb6d0dcb7fd'
+sourceBodyHash: 'sha256:7c76adc95f0a8dd7'
+translatedAt: '2026-06-06T00:00:00Z'
 ---
 
 > **En 30 secondes :** The Reporter est un média d'investigation à but non lucratif fondé le 1er septembre 2015, jour de la Fête des journalistes, par Ho Jung-hsing et Tieh Chih-chih, avec un don initial de cinq millions de dollars taïwanais de Tzu-hsien Tung, cofondateur d'ASUS, pour créer une fondation[^1]. Le média s'est volontairement lié les mains : les trois principes « ne pas posséder, ne pas intervenir, ne pas récupérer » sont inscrits dans la charte des donateurs[^2]. La rédaction n'accepte aucune publicité, n'accepte pas de contrats gouvernementaux et n'affiche pas les taux de clics ; tous les articles sont gratuits sur le site. En dix ans, _Blood and Tears Fishing Grounds_ a conduit le Yuan de Contrôle à émettre une correction officielle contre l'Agence des pêches[^3], _Children of the Ruins_ a remporté l'Excellence in Journalism Award en deux volets, _Child Hunting Storm_ a infiltré pendant huit mois les réseaux d'exploitation sexuelle de mineurs, et _MIT Machine Tools Flowing into Russian Military Industry_ a remporté le premier prix du SOPA 2025 pour le journalisme économique d'excellence[^4]. Les dons annuels sont passés de 34,47 millions en 2022 à 52,98 millions en 2025[^5]. La société civile de cette île a, par des prélèvements mensuels entre inconnus, sauvé le journalisme d'investigation — d'activité commerciale des médias, il est devenu un bien public viable et qui continue de nourrir.
@@ -132,6 +132,7 @@ Mais le titre de l'exposition du dixième anniversaire s'appelle _OPEN_, pas _Fi
 
 **Pour aller plus loin** :
 
+- [CommonWealth Magazine](/society/天下雜誌) — Avant de fonder The Reporter, Ho Jung-hsing venait de quitter son poste de rédacteur en chef de _Commonwealth Magazine_ ; Commonwealth emprunte la voie du média économique commercial avec mur payant et écosystème d'entreprises, formant le contraste le plus direct avec la voie non lucrative et sans publicité de The Reporter.
 - [Mouvements sociaux et participation citoyenne](/society/社會運動與公民參與) — La naissance et le fonctionnement de The Reporter sont étroitement liés au pouls de la société civile taïwanaise ; cet article retrace le spectre plus large des mouvements sociaux et de la participation citoyenne dans lequel The Reporter s'inscrit.
 - [Nouveaux médias artistiques taïwanais](/art/台灣新媒體藝術) — Un autre cas de Taiwan-DNA, porté par la communauté citoyenne et en croissance transversale.
 - [PanSci](/society/泛科學) — Autre cas taïwanais d'utilité publique dans les nouveaux médias né dans les années 2010, mais PanSci a choisi de maintenir l'espace de débat public par la vulgarisation scientifique, les cours, les vidéos, les projets publicitaires et le modèle d'entreprise de services de connaissance.

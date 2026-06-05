@@ -1,149 +1,137 @@
 ---
-title: "Le système de santé taïwanais et l'Assurance Maladie Universelle"
-description: "Le paradoxe d'une couverture à 99 % : classée première mondiale par Numbeo pendant six années consécutives, pourquoi l'assurance maladie taïwanaise repose-t-elle sur l'épuisement du personnel soignant ?"
-date: 2026-03-30
+title: 'Santé à Taïwan et assurance maladie universelle : 99,6 % soutenu par 12,61 % – le premier mondial'
+description: 'La carte d’assurance maladie du 1er mars 1995 a été créée en catastrophe : six jours avant, la carte n’était même pas imprimée. Trente ans plus tard, les droits de soins de 23 millions de personnes reposent sur un taux de cotisation de 5,17 %, un taux de départ à la retraite du personnel infirmier de 12,61 % (un record de dix ans) et un tabou politique sur le revenu total des ménages qui n’a pas été remis en cause depuis trente ans.'
+date: 2026-06-04
 category: 'Lifestyle'
+subcategory: '醫療與健保'
 tags:
-  [
-    'Assurance Maladie Universelle',
-    'système de santé',
-    'carte à puce',
-    "réforme de l'assurance maladie",
-    'qualité des soins',
-    'accessibilité des soins',
-    'protection sociale',
-  ]
-readingTime: 7
-lastVerified: 2026-03-30
-lastHumanReview: false
+  - 'Assurance maladie universelle'
+  - 'Système de santé'
+  - "Réforme de l'assurance maladie"
+  - 'Pénurie infirmière'
+  - 'Cinq spécialités en manque'
+  - 'Protection sociale'
+  - 'Yeh Jin-chuan'
+  - 'Yang Chih-liang'
+  - "Base de données de l'assurance maladie"
+author: 'Taiwan.md'
 featured: true
+lastVerified: 2026-06-04
+lastHumanReview: false
+readingTime: '22'
 translatedFrom: 'Lifestyle/台灣醫療與全民健保.md'
-sourceCommitSha: '9c91f365'
-sourceContentHash: 'sha256:44244a287820de65'
-sourceBodyHash: 'sha256:4fe433074ad9b614'
-translatedAt: '2026-05-29T00:35:00+08:00'
+sourceCommitSha: '49e065a4c'
+sourceContentHash: 'sha256:176680224548ea6b'
+sourceBodyHash: 'sha256:2349abd166630d0e'
+translatedAt: '2026-06-06T00:51:20+08:00'
 ---
 
-# Le système de santé taïwanais et l'Assurance Maladie Universelle
+# Santé à Taïwan et assurance maladie universelle : 99,6 % soutenu par 12,61 % – le premier mondial
 
-> **En 30 secondes :** En 1995, Taïwan lance son Assurance Maladie Universelle (AMU), atteignant un taux de couverture de 99,9 %. En 2024, l'indice de santé de Numbeo classe le pays au premier rang mondial pour la sixième année consécutive, avec des frais d'enregistrement en consultation dès 50 NT$. Mais derrière ce « premier mondial » se cache une crise structurelle : un taux de démission des infirmières atteignant un sommet décennal, et la pénurie croissante des « cinq grandes spécialités » — miracle et épuisement ne font qu'un.
+> **Vue d’ensemble en 30 secondes :** l’assurance maladie universelle a démarré le 1 mars 1995, Yeh Jin-chuan a déclaré « le temps de préparation était en fait de trois jours »[^1]. Trente ans plus tard, le taux de couverture atteint 99,6 % de la population admissible[^2], les coûts administratifs restent en dessous de 2 % à long terme[^3], l’indice de santé de Numbeo se classe premier mondial depuis six ans consécutifs[^4]. Mais le système repose simultanément sur trois piliers : un taux de cotisation de 5,17 %, un taux de départ à la retraite du personnel infirmier de 12,61 % (record de dix ans)[^5] et un tabou politique de trente ans sur le « revenu total des ménages ». Cet article part du « temps de préparation de trois jours » de 1995 pour analyser le ratio infirmier‑patient à trois équipes en 2026, déconstruire les consensus « l’assurance maladie est bon marché », « cinq spécialités en manque = faible valeur de point » et « carte IC première du monde », et montrer comment la conception réussie du système a bloqué les voies de mise à jour politique.
 
-Le 1er mars 1995, à minuit, 23 millions de Taïwanais reçurent simultanément une petite carte.
+## « Le temps de préparation était en fait de trois jours »
 
-C'était la carte d'assurance maladie. À partir de ce moment, « se soigner » cessa d'être un fardeau pour devenir un droit. Dès le premier jour, le taux d'adhérence atteignit 92 % ; en un an, 96 % ; aujourd'hui, 99,9 % — le taux de couverture d'assurance maladie le plus élevé au monde, sans exception.
+À minuit le 1 mars 1995, l’assurance maladie universelle a officiellement démarré. La version externe était présentée comme un « record mondial » : 96 % de la population couverte, une carte valable dans 18 000 établissements médicaux à travers Taïwan[^6]. La version interne, racontée par le premier directeur général du Bureau central de l’assurance maladie, Yeh Jin-chuan, en 2021, était « le temps de préparation était en fait de trois jours », « nous n’avions même pas encore imprimé la carte », « le système d’information n’était pas en place », « c’était la panique »[^1]. Plus de vingt‑deux millions de cartes ont été produites un mois après le lancement ; le jour du 1 mars, les patients utilisaient encore leur carte d’identité pour entrer dans les cabinets.
 
-Mais le système taïwanais recèle un chiffre qui laisse perplexe chaque chercheur étranger : le tarif d'une chambre en centre hospitalier universitaire est de 598 NT$ par jour, moins cher qu'un hôtel d'affaires en centre-ville.
+En remontant la chronologie, le dispositif a en réalité mis 27 ans à se former. En 1968, le ministère de l’Intérieur a esquissé pour la première fois une assurance maladie universelle ; en 1986, le Conseil exécutif a fixé 2000 comme année cible ; en 1988, le Comité de planification économique a créé un groupe de travail dédié[^7]. Le 28 février 1989, le ministre Yu Kuo‑hua a annoncé au législatif un lancement anticipé à 1995 ; en juillet 1990, la planification a été transférée du Comité de planification économique au ministère de la Santé ; après la nomination de Hao Po‑tsun, la date a été avancée à 1994 ; le 1 février 1991, le ministère de la Santé a créé un groupe de planification de l’assurance maladie ; en décembre 1993, le Bureau central a été créé et Yeh Jin-chuan en est devenu le directeur[^7].
 
----
+Le processus législatif a été mouvementé. Le 16 juillet 1994, le député du DPP Shen Fu‑hsiong a entamé une grève de la faim pour protester contre la loi sur l’assurance maladie[^8] ; le 19 juillet, la loi a été adoptée en troisième lecture ; le 12 novembre, les syndicats ont manifesté lors du « automne combat », scandant « trois non‑assurances »[^7]. Le 23 décembre 1994, le règlement d’organisation du Bureau central a été adopté ; le 1 janvier 1995, le Bureau a été créé ; le 25 février 1995, le Premier ministre Lien Chan a ordonné que le lancement se fasse « le 1 mars comme prévu », et c’est à partir de ce moment‑là que Yeh Jin-chuan a commencé à parler du « temps de préparation de trois jours »[^1].
 
-## La veille de la révolution : 40 % de la population sans assurance
+L’ossature du système a été définie en 1989 par une task force dirigée par le professeur William Hsiao (蕭慶倫) de la Harvard School of Public Health, qui a comparé les modèles de six pays (États‑Unis, Royaume‑Uni, Allemagne, France, Canada, Japon) et a choisi le modèle canadien du « single‑payer »[^9]. Hsiao a justifié ce choix en quelques mots : « the quality of services was very high »[^10]. Les cinq attributs du single‑payer ont ensuite été décomposés par les universitaires : mise en commun d’un même pool de risques, prestation de soins uniforme, ressources médicales suffisantes, acheteur unique qui fixe les règles du jeu, contrôle global des dépenses de santé[^11]. Ces cinq piliers expliquent pourquoi, trente ans après, le système taïwanais maintient le taux de couverture le plus élevé du monde ; ils expliquent aussi pourquoi chaque réforme qui touche l’un de ces piliers affecte l’ensemble du dispositif.
 
-Avant 1995, l'assurance maladie à Taïwan était un système fragmenté où « le statut déterminait le destin ». Les fonctionnaires bénéficiaient de l'assurance publique, les travailleurs de l'assurance professionnelle, les agriculteurs de l'assurance agricole, les militaires de l'assurance militaire. Les plus démunis étaient les 40 % de la population non assurée — travailleurs indépendants, chômeurs, femmes au foyer — qui devaient payer de leur poche en cas de maladie, ou endurer en silence.
+Les données de satisfaction de la première année sont souvent « mythifiées » : en 1995, le taux de couverture a atteint 96 % mais la satisfaction n’était que de 39 % contre 47 % d’insatisfaction[^12]. Le récit de « soutien populaire total » est donc post‑hoc ; à l’époque, la société taïwanaise était encore méfiante face à ce nouveau prélèvement imposé du jour au lendemain.
 
-Dans un même hôpital, un patient assuré public occupait une chambre individuelle, un patient assuré professionnel une chambre quadruple, et un patient sans assurance ne pouvait tout simplement pas franchir la porte.
+> 📝 **Note du curateur :** « Single‑payer » se traduit littéralement par « assureur unique », mais ces quatre mots ont enfermé trente ans de possibilités politiques. Tous les assurés sont placés dans le même pool, ce qui signifie que toute modification du taux de cotisation, du niveau de prestation, de la part de charge ou du calcul du revenu total des ménages ne bénéficie d’aucune phase pilote ou de test. Soit tout le pays change, soit rien ne change. C’est le même principe inscrit dans l’ADN du modèle choisi par Hsiao en 1989 ; trente ans plus tard, il constitue à la fois le plus grand atout et le principal frein politique du système.
 
-En 1995, le gouvernement prit une décision radicale : démanteler tous les systèmes existants pour les reconstruire en une seule « Assurance Maladie Universelle ». Un seul principe directeur — **que chacun puisse se soigner**.
+![Carte IC de l’assurance maladie 2017](/article-images/lifestyle/nhi-ic-card-2017.jpg)
+_Version 2017 de la carte IC. Taïwan a remplacé l’ensemble de ses cartes en 2004 et prétend souvent « premier du monde », mais la Slovénie avait déjà déployé son système national en septembre 2000, faisant d’elle le premier pays à l’échelle nationale ; Taïwan est donc le deuxième, le plus grand et le plus intégré._
 
-Les cotisations étaient partagées entre l'individu, l'employeur et l'État ; les bien-portants et les malades partageaient les risques. Ce n'était pas une réforme, c'était une révolution institutionnelle.
+## Les quatre mots de Lee Yu‑chun
 
-> 📝 **Note du curateur**
-> L'AMU taïwanaise adopte un système d'« assureur unique » — l'Agence nationale de l'assurance maladie (NHIA) est le seul assureur de Taïwan, collectant uniformément les cotisations et remboursant uniformément les hôpitaux. Cela réduit les coûts administratifs à moins de 2 %, bien en dessous des 12 % des États-Unis. Lors de la réforme de l'Obamacare, des experts américains furent envoyés à Taïwan pour étudier ce modèle.
+« Cinq spécialités en manque » est devenu, dans les années 2020, le synonyme de la crise médicale taïwanaise : aucune spécialité (médecine interne, chirurgie, gynécologie, pédiatrie, urgences) ne parvient à recruter suffisamment de résidents. L’inventeur de ce terme n’est ni Yeh Jin‑chuan, ni les syndicats de médecins, ni le ministère de la Santé ; c’est le professeur de santé publique Lee Yu‑chun de l’Université Yang‑Ming, qui l’a créé en été 2009 sous la forme « quatre spécialités en manque » (interne, chirurgie, gynécologie, pédiatrie)[^13]. Les médias ont ensuite ajouté les urgences, transformant le concept en « cinq spécialités en manque ».
 
----
+Le fil chronologique est le suivant. Le professeur Jiang Tung‑liang se souvient en 2018 : « En été 2009, le commissaire de surveillance Huang Huang‑hsiong a lancé une inspection globale de l’assurance maladie. En 2011, le rapport d’inspection a fait apparaître d’urgence le problème des quatre spécialités »[^13]. Yeh Jin‑chuan a également écrit en 2018 une version opposée : « Ce que le milieu médical qualifie de « cinq spécialités en manque », c’est d’abord apparu lors d’une conférence où un directeur d’hôpital a signalé le manque de médecins dans les quatre spécialités, puis le terme a été repris, les médias ont ajouté les urgences, et le tout a été généralisé »[^14].
 
-## 2004 : la première carte d'assurance maladie intelligente au monde
+L’amendement de correction du 17 juillet 2012 du Contrôle des comptes (101 ans du calendrier républicain) constitue la première officialisation de ce terme. Les commissaires Huang, Shen et Liu y décrivent : « Les quatre spécialités sont caractérisées par « peu d’argent, beaucoup de travail, proximité de la prison »», « les litiges médicaux et le système de paiement sont devenus les deux « cicatrices » qui étouffent le développement des cinq spécialités », « dans la plupart des hôpitaux, les médecins des quatre spécialités travaillent plus de 300 heures par mois ; dans certains établissements sans aucun résident, les chefs de service assurent les gardes, portant parfois le total à 400 heures »[^15].
 
-La carte de 1995 était en papier. Le 1er janvier 2004, Taïwana passa à une carte à puce de 32 Ko — le premier système de carte d'assurance maladie intelligente au monde.
+Yeh Jin‑chuan a toujours nuancé le concept : dans un article de 2018, il a affirmé « Il n’y a pas de pénurie généralisée de médecins, le nombre total est suffisant »[^14]. Cette contre‑argumentation, presque inaudible dans le discours dominant, est pourtant cruciale pour comprendre le raisonnement « faible valeur de point = cinq spécialités en manque ». Si le nombre total de médecins est suffisant, le problème de recrutement réside dans la répartition, les conditions de travail, les litiges médicaux et les systèmes de garde, et non dans une offre globale insuffisante.
 
-En insérant la carte, le médecin accédait instantanément à l'historique médical du patient, à ses prescriptions, à ses allergies. En 2013, le système évolua vers un dossier médical en ligne, permettant la consultation inter-hôpitaux des prescriptions des trois derniers mois, des radiographies et des rapports de scanner.
+## Le taux de 5,17 % apparaît deux fois
 
-**Les résultats sont mesurables :** réduction de 20 % des prescriptions redondantes, baisse de 15 % des examens en double, et une économie annuelle d'environ 5 milliards de NT$ pour l'assurance maladie.
+L’histoire politique du taux de cotisation peut presque se résumer en un tableau. En 1995, le taux était de 4,25 % ; en septembre 2002, il a été porté à 4,55 % ; en avril 2010, sous la direction de Yang Chih‑liang, il a atteint 5,17 % — une hausse qui a conduit Yang à démissionner le 26 janvier 2011 après le troisième vote de lecture de la deuxième génération d’assurance maladie[^16]. En janvier 2013, la deuxième génération a été mise en place, le taux principal est retombé à 4,91 % avec un « supplément de cotisation » de 2 %; de 2016 à 2020, le taux est descendu à 4,69 % avec 1,91 % de supplément ; en janvier 2021, sous le mandat de Chen Shih‑chung, le taux est revenu à **5,17 %**, le supplément passant à 2,11 %[^17].
 
-L'OMS a cité ce système en exemple. Les États-Unis, le Japon et de nombreux pays européens ont envoyé des délégations à Taïwan pour l'étudier, mais aucun n'a réussi à le reproduire intégralement à ce jour.
+Ainsi, 5,17 % apparaît deux fois : la première fois en 2010 avec la démission de Yang, la seconde en 2021 avec Chen. Entre les deux, onze ans se sont écoulés, le système a fait le tour pour revenir au même chiffre. Cette stabilité résulte d’une double contrainte : le modèle du single‑payer couplé à un taux politiquement sensible. Chaque ajustement entraîne un coût politique ; lorsqu’il atteint son maximum, le taux recule, puis remonte lorsque les finances ne tiennent plus.
 
----
+La deuxième génération a choisi le « supplément de cotisation » comme compromis de dernier recours. L’option initiale était le « revenu total des ménages » — facturation basée sur le revenu annuel total du foyer, théoriquement la plus équitable. En 2010, le processus législatif a été renversé. Yang Chih‑liang a déclaré en 2011 après le troisième vote : « Le supplément de cotisation est une erreur », « la deuxième génération devait toujours être basée sur le revenu total des ménages, mais le ministère des Finances n’a pas pu le mettre en œuvre, puis le comité des finances a renversé la décision du comité de santé et d’environnement en trois jours »[^18].
 
-## Les chiffres du premier rang mondial, et le coût qu'ils dissimulent
+Le supplément de 2013 a donc ciblé six catégories de revenu : primes élevées, salaires à temps partiel, revenus d’activités indépendantes, dividendes, intérêts et loyers[^19]. Ce dispositif présentait deux failles dès le départ : le calcul « par transaction » était facilement contournable, et les revenus hors de ces six catégories (revenus à l’étranger, actifs cryptographiques) n’étaient pas pris en compte. En novembre 2025, le Bureau de l’assurance maladie a prévu de passer d’un calcul « par transaction » à un système de « régularisation annuelle » — tout revenu cumulé au‑delà de 20 000 NTD serait imposé, le plafond de retenue passant de 10 M à 50 M NTD, affectant 4,8 M de personnes et injectant entre 100 et 200 milliards de NTD[^20]. Cette réforme a été suspendue en novembre 2025 par le Conseil exécutif, suscitant la colère des investisseurs et des retraités[^20].
 
-En 2024, l'« Indice mondial de santé » de Numbeo classe Taïwan **premier au monde** — pour la sixième année consécutive, avec un score de 86 sur 100. La même année, Taïwan se classe 9e dans l'indice d'efficacité médicale de Bloomberg.
+Le « revenu total des ménages » reste un tabou depuis trente ans. En 1989, le modèle de Hsiao prévoyait déjà une facturation à la manière de l’impôt sur le revenu global ; Yang a quitté le poste en 2010 après avoir poussé ce taux ; même la version « régularisation annuelle » de 2025 a été stoppée. Sur le plan technique, c’est faisable ; politiquement, c’est impossible. Toute réforme qui veut intégrer différentes sources de revenu dans une même base rencontrera une opposition au législatif.
 
-Les chiffres sont impressionnants. Mais sous un autre angle, le même système présente une lecture moins reluisante :
+> ⚠️ **Point de vue controversé :** le supplément de cotisation est souvent critiqué à gauche comme une « taxe régressive ». Les salariés voient leurs salaires prélevés chaque mois, tandis que les détenteurs de revenus du capital ne sont taxés que lorsqu’ils perçoivent dividendes ou loyers, avec un plafond de retenue. Mais le processus législatif de 2010 montre le contraire : les syndicats de gauche s’opposaient au « revenu total des ménages » (craignant une double imposition des familles ouvrières), tandis que le ministère des Finances s’y opposait (inquiétude sur la capacité administrative). Le comité de santé et d’environnement a finalement été renversé en trois jours par le comité des finances[^18]. Qui était le « mouton égaré » ? Aucun consensus n’a émergé en trente ans.
 
-| Indicateur                           | Taïwan          | Comparaison                                       |
-| ------------------------------------ | --------------- | ------------------------------------------------- |
-| Dépenses de santé en % du PIB        | 6,2 %           | États-Unis 17,8 %, Allemagne 10,7 %               |
-| Nombre moyen de consultations par an | 14 par personne | Royaume-Uni 5, États-Unis 4                       |
-| Taux de cotisation                   | 5,17 % (2025)   | —                                                 |
-| Tarif d'hospitalisation              | 598 NT$/jour    | Hôtel d'affaires à Taipei : environ 800–1 200 NT$ |
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+<iframe src="https://www.youtube.com/embed/OAqQEHVO3a4" title="創造奇蹟的旅程 健保 30 週年紀錄片" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-Un Taïwanais consulte en moyenne 14 fois par an — trois fois plus qu'un Britannique, trois fois et demi plus qu'un Américain. Le bas coût facilite l'accès, mais engendre aussi une culture du « shopping médical » — comparer trois hôpitaux pour un simple rhume, accumuler des médicaments en double pour les maladies chroniques.
+_Documentaire officiel du Bureau central de l’assurance maladie — 30 ans depuis le « temps de préparation de trois jours » jusqu’au régime de paiement unique partagé par 23,4 millions de résidents._
 
-> L'ancien directeur général du Bureau de l'assurance maladie, Zhang Hongren, a déclaré sans détour : « Le sous-investissement chronique dans l'AMU taïwanaise a conduit à l'épuisement du personnel soignant et à une baisse de la qualité. Ce n'est pas le "meilleur au monde", c'est un "appel d'offres au plus bas prix". »
+## 39,8 % en utilisation, 54,8 % en contribution
 
----
+Le rapport n° 231 du Bureau des statistiques nationales, publié le 6 décembre 2021, indique que, en 2020, 39,8 % des ressources de l’assurance maladie étaient consommées par les plus de 65 ans, 54,8 % par les 15‑64 ans et 5,4 % par les 0‑14 ans[^21]. Comparé à 2015, la part des 65 ans a augmenté de 4,2 points de pourcentage. Les dépenses par habitant pour les plus de 65 ans dépassent 70 000 NTD, contre environ 10 000 NTD pour les plus jeunes, soit un facteur 7[^21].
 
-## Les « cinq grandes spécialités en pénurie » : la face sombre du miracle
+Cette différence, multipliée par le vieillissement rapide de Taïwan, constitue le plus grand défi financier du système depuis trente ans. Yeh Jin‑chuan a déclaré en 2020 que « le système ne pourra plus tenir plus de cinq ans »[^22]. En comptant à partir de 2020, cela mène à 2025 ; en novembre 2025, le Bureau a prévu un budget total de 9 883,35 milliards de NTD pour 2026, avec une croissance de 5,5 % et un niveau de réserve de sécurité de deux mois, maintenant le taux de 5,17 % sans ajustement[^23]. Sur le papier, le système tient, mais les mécanismes sous‑jacents sont fragiles.
 
-À Taïwan, on parle des « cinq grandes spécialités en pénurie » (五大皆空) : médecine interne, chirurgie, gynécologie-obstétrique, pédiatrie et urgences — les cinq spécialités qui prennent en charge les cas les plus critiques, mais qui ne parviennent plus à recruter ni à retenir les praticiens.
+Le premier point à corriger est la rhétorique « l’assurance maladie va faire faillite ». Le système est du type « pay‑as‑you‑go », il n’y a donc pas de notion de faillite ; il s’agit plutôt de savoir si le « niveau de réserve de sécurité » tombe en dessous du seuil légal[^24]. En juin 2025, le niveau de réserve était de 0,96 mois, passé à deux mois en novembre, grâce à un financement gouvernemental de 30 milliards de NTD et à un transfert de 181 milliards du budget administratif[^23]. Le secrétaire exécutif du Bureau, Zhou Shu‑wan, a déclaré le 19 novembre 2025 : « Le niveau de réserve de sécurité pour l’an 115 est de deux mois, il n’est pas en dessous du seuil, le taux de cotisation reste à 5,17 % »[^23].
 
-La cause est directe : les tarifs de remboursement de l'AMU sont structurellement bas. Une intervention chirurgicale rapporte bien moins que la médecine esthétique à forte part de paiement direct, et les spécialités à haut risque sont en plus exposées aux litiges médicaux. Après calcul rationnel, les jeunes médecins se tournent vers la dermatologie, l'ophtalmologie ou la chirurgie esthétique.
+Un autre levier moins visible est la politique de « valeur de point » garantie à 0,95 NTD. Taïwan utilise un système de budget global + valeur de point variable : le nombre de points déclarés par les établissements est divisé par le budget total, puis converti en NTD. Lorsque la valeur de point chute à 0,7‑0,8 NTD, certaines régions sont accusées de « faire un bloc de trois centimes ». Depuis 2024, le gouvernement a promis de garantir la valeur à 0,95 NTD, mais le journal _Reporters_ a révélé que cela augmenterait les dépenses de 70 milliards de NTD, avec un supplément de 336 milliards de NTD (181 milliards de budget administratif + 155 milliards de fonds de réserve)[^25]. Zheng Shou‑hsia (doyen de la School of Public Health de l’Université nationale de Taïwan et premier directeur du Bureau après la réforme) a commenté : « Garantir la valeur de point, c’est abolir le budget global ; c’est du calcul, mais cela ne résout pas le problème réel »[^25].
 
-La situation des infirmières est encore plus critique. En 2022, la députée Chen Jinghui a souligné devant le Yuan législatif que **le taux de démission des avoisinait 12 %, un sommet décennal**. Une vague de fermetures de lits a touché les grands centres hospitaliers universitaires : 10 % des lits fermés dans les 22 plus grands centres, 20 à 30 % dans les hôpitaux régionnels. Il n'est pas rare qu'une seule infirmière soit responsable de 15 à 20 patients, et le taux de démission à trois ans dépasse régulièrement 50 %.
+La réforme partielle du 1 juillet 2023 a augmenté le plafond de la participation financière pour les médicaments en consultation dans les centres médicaux et les hôpitaux régionaux à 300 NTD ; pour les urgences, le plafond est passé à 750 NTD dans les centres médicaux et 400 NTD dans les hôpitaux régionaux[^26]. Cette mesure a touché 8,45 M de personnes, générant 3,273 milliards de NTD supplémentaires en une année. Cependant, le PTN a évalué un an plus tard que le nombre moyen de consultations par personne était de 14,3 fois, un record de quatre ans, et que les urgences avaient augmenté de 0,1 fois par personne[^26]. Le directeur du Bureau, Shi Chong‑liang, a souligné l’augmentation des maladies chroniques de base et un apport de 5,27 milliards, tandis que la directrice de la réforme médicale, Lin Ya‑hui, a critiqué le fait que « l’assurance maladie n’est pas une assurance commerciale, elle met l’accent sur la solidarité et le paiement à capacité »[^26]. Utiliser la participation financière comme « outil de restriction de la demande » crée un effet inverse sur l’esprit même de la loi.
 
-L'équipe d'investigation du _Reporter_ a titré son enquête fin 2024 : « La plus grande vague de départs d'infirmières en 30 ans — fermetures de lits, délais imposés aux urgences, engorgement des services d'urgence : la pénurie d'infirmières qui ébranle les fondations du pays. »
+## Une faible valeur de point : explication symptomatique, pas solution fondamentale
 
-> 📝 **Paradoxe structurel**
-> La logique de remboursement de l'AMU taïwanaise oblige les médecins à voir 50 à 80 patients par consultation pour maintenir leur revenu, soit en moyenne 3 à 5 minutes par patient. Au-delà de 40 patients, les tarifs sont dégressifs — plus on consulte, moins chaque acte rapporte. Conçu à l'origine pour maîtriser les coûts, ce mécanisme a créé une pression structurelle où la « consultation de trois minutes » est devenue la norme.
+Le discours dominant attribue les « cinq spécialités en manque » à une variable unique : « les prestations de l’assurance maladie sont trop faibles ». Cette chaîne de raisonnement : « faible valeur de point → bas salaire des médecins → incapacité de recrutement » est largement acceptée dans la politique médicale de 2024‑2026, mais cinq contre‑arguments académiques et institutionnels la démantèlent.
 
----
+1. Zheng Shou‑hsia, dans son article « Abolir le budget global », affirme : « Garantir la valeur de point, c’est abolir le budget global ; c’est du calcul, mais cela ne résout pas le problème réel »[^25].
 
-## L'horloge financière
+2. Gao Ruoxiang (secrétaire général de la Fédération taïwanaise des travailleurs de la santé) soutient que l’effet de « goutte‑à‑goutte » n’existe pas : l’analyse de 13 hôpitaux privés montre que le ratio coûts du personnel et le taux de profit sont peu corrélés. Les excédents des hôpitaux sont investis dans la construction, les équipements, l’expansion, et ne « descendent pas » automatiquement aux salaires du personnel de première ligne ; la chaîne « subvention du point → profit hospitalier → augmentation des salaires » ne se vérifie pas dans les données[^25].
 
-L'AMU taïwanaise fait face à un problème mathématique dont la réponse est connue, même si personne ne connaît le point de bascule.
+3. Lee Yu‑chun, créatrice du terme, a déclaré en 2024 à *Reporters* : « La valeur de point est une explication symptomatique, pas une solution fondamentale »[^25]. Ironiquement, celle qui a alerté sur le problème en 2009 affirme maintenant que le problème n’est pas monétaire.
 
-La population de 65 ans et plus atteindra 18,1 % en 2026 et devrait dépasser 23,8 % en 2030. Cette tranche d'âge consomme 40 % des ressources de l'assurance maladie, tandis que le nombre de jeunes cotisants diminue. Les dépenses de l'AMU croissent de 4 à 5 % par an, les recettes de cotisation de moins de 2,5 %.
+4. Shi Chong‑liang, directeur du Bureau, a indiqué que l’objectif de 0,95 NTD était souhaitable, mais pas sous forme de garantie ; sinon les services médicaux seraient déformés, et les salaires des médecins dépendent de la gestion hospitalière, qui porte une responsabilité majeure [^25].
 
-La « réforme des tickets modérateurs » lancée en 2023 constitue un premier correctif : consulter directement un grand hôpital sans orientation préalable entraîne une hausse du reste à charge ; la participation aux frais pharmaceutiques a été recalculée pour orienter les patients vers les cliniques de proximité. Mais la résistance au changement est forte — les citoyens associent intuitivement « grand hôpital » à « meilleure qualité », et les cliniques locales n'ont effectivement pas les mêmes capacités diagnostiques que les centres universitaires.
+5. Yeh Jin‑chuan a rappelé en 2018 que le nombre total de médecins était suffisant : « Il n’y a pas de pénurie généralisée de médecins »[^14]. Si le total est adéquat, le « ne pas pouvoir recruter » relève de la distribution, des conditions de travail, des litiges médicaux et des systèmes de garde, pas d’une offre globale insuffisante.
 
-La question du taux de cotisation est encore plus délicate. Le taux actuel de 5,17 % est maintenu depuis des années sans ajustement. La NHIA estime que la réserve de sécurité couvrira environ deux mois en fin 2025, mais le déficit financier à long terme persiste. « Quand augmenter les cotisations ? » est un bras de fer politique qui se rejoue tous les quelques années.
+Ces cinq contre‑arguments aboutissent à la conclusion que le cadre « faible valeur de point = cinq spécialités en manque » est simple, politiquement correct et mobilisateur, mais ne résiste pas à une analyse détaillée. La vraie solution implique la gestion des litiges médicaux, la limitation du temps de travail des résidents, la répartition interne des hôpitaux, le système d’admission aux spécialités et la reconnaissance des licences à l’étranger — chaque volet étant environ dix fois plus complexe que la simple modification du taux ou de la valeur de point.
 
----
+> 💡 **Le saviez‑vous ?** : le Taïwanais moyen consulte en moyenne 18 fois par an, soit plus du double de la moyenne de l’OCDE[^27]. Un même rhume peut entraîner trois visites chez trois médecins différents et trois ordonnances. C’est ce que les chercheurs appellent le « doctor shopping ». Le faible coût de l’assurance maladie entraîne une utilisation massive, qui à son tour fait baisser la valeur de point, créant un cercle vicieux : « bon marché → usage intensif → valeur de point en baisse → salaires médicaux non viables ».
 
-## Où en sera-t-on dans 30 ans ?
+## 12,61 % de taux de départ, 60 % de taux d’exercice
 
-Revenons à cette petite carte du 1er mars 1995.
+La pénurie infirmière se mesure ainsi : le nombre de licences infirmières n’équivaut pas au nombre d’infirmières en exercice. En 2023, environ 310 000 infirmières étaient titulaires, mais le taux d’exercice était de 60 %, soit 186 000 infirmières réellement en clinique[^28]. Un tiers des nouvelles infirmières quittent le métier dans les trois premiers mois[^28]. Le taux de départ annuel (par rapport aux rapports hospitaliers) était de 11,12 % en 2019, 10,13 % en 2021, 11,73 % en 2022 et **12,61 %** en 2023 — un record de dix ans, avec un taux de postes vacants de 9,05 % la même année, également un record[^29].
 
-Elle a donné aux 40 % de Taïwanais sans assurance le droit de se soigner pour la première fois. Elle a permis aux familles pauvres de ne plus choisir entre « se soigner » et « manger ». Elle a permis à une petite île de soutenir le taux de couverture médicale le plus élevé du monde avec le coût le plus bas au monde.
+Le vieillissement de la population amplifie le problème. L’âge moyen des infirmières en exercice était de 36,33 ans en 2019, dépassant 39 ans en juin 2024[^28]. La proportion de moins de 40 ans est passée de plus de 70 % en 2017 à moins de 50 % en 2023. Les flux de sortie (analyse de 13 hôpitaux privés par le Laboratoire de finance et de fiscalité de l’Université de Taipei) montrent : 30 % vers les cliniques d’assurance maladie, 25 % vers les cliniques privées, 10 % vers les soins de longue durée, 15 % vers d’autres secteurs, 20 % vers l’étranger ou la retraite[^28].
 
-Tout cela est vrai.
+La demande mondiale de personnel infirmier augmente également. En 2030, on estime un déficit mondial de 4,5 M d’infirmières ; Taïwan compte 186 000 infirmières en exercice en 2023, avec une demande prévue de 241 000 à 260 000 en 2030, soit un manque de 55 000 à 74 000 postes[^28]. En Australie, le salaire annuel d’une infirmière enregistrée varie entre 1,44 M et 2,20 M de NTD, soit deux à trois fois le salaire taïwanais. Lin Hsiu‑chu (vice‑présidente de la Fédération nationale des infirmières) indique que des universités australiennes recrutent activement des infirmières taïwanaises depuis plusieurs années[^28].
 
-> 📝 **Épilogue**
-> L'AMU taïwanaise nous a habitués à quelque chose d'anormal : tomber malade ne coûte pas cher.
-> Mais ce « pas cher » a un prix que quelqu'un paie — ce sont les infirmières dont le taux de démission atteint 12 %, les médecins qui doivent achever une consultation en 3 minutes, les patients dont les lits sont fermés et dont les opérations sont retardées.
-> Ce système mérite notre fierté. Mais fierté ne veut pas dire que c'est suffisant.
+La fermeture de lits est l’indicateur le plus visible. Les 22 centres médicaux de Taïwan déclarent que leurs lits d’hospitalisation représentent 92 % du total national ; après la pandémie, on estime que le taux de fermeture dépasse 30 %[^28]. Gao Jing‑chiu (vice‑directeur du Hôpital Wan‑Fang et ancien président de la Fédération des infirmières) résume : « C’est la perte la plus sévère en trente ans », « Quel hôpital signalera volontairement les fermetures ? Les hôpitaux ne parlent que de « déchargement », jamais de fermeture »[^28].
 
-C'est aussi l'une des rares tentatives au monde d'avoir transformé la « santé » d'un bien de marché en bien public. Les États-Unis comptent encore 30 millions de personnes sans assurance maladie. La réponse taïwanaise n'est pas parfaite, mais elle existe.
+Le débat politique sur les fermetures a éclaté en juin 2024. Cai Shu‑fang (directrice du service infirmier du ministère de la Santé et du Bien‑être) a demandé publiquement : « Quels hôpitaux ferment réellement ? »[^28]. Cette question a été perçue comme un refus du ministère de reconnaître les fermetures ; le 5 juin, le ministre du Bien‑être, Chiu Tai‑yuan, s’est excusé devant le législatif[^30]. Le même mois, Zhao Lin‑yu (chef du service de la colonne vertébrale du Kaiji Hospital) a témoigné dans *Reporters* : « Sans couteau, les chirurgiens n’ont plus de carrière », « Nous manquons d’infirmières anesthésistes, les chirurgiens ne peuvent opérer qu’un jour par semaine »[^28]. Luo Xiang‑yun (chef du service des urgences du Chang Gung Memorial Hospital) a déclaré aux familles : « Vous pouvez me crier dessus, être impoli, mais pas envers les infirmières »[^28].
 
-L'avenir de ce système dépend de la volonté de la société taïwanaise de reconnaître une chose : une assurance maladie première au monde nécessite des investissements à la hauteur pour la maintenir.
+![Station mobile infirmière Kaiji 2007](/article-images/lifestyle/nhi-mobile-nurse-station-2007.jpg)
+_Station mobile infirmière du Kaiji Hospital, 2007. La réforme du ratio infirmier‑patient à trois équipes, mise en place en 2026, constitue la plus grande amélioration structurelle des conditions de travail infirmières depuis trente ans._
 
----
+La réforme du ratio infirmier‑patient à trois équipes : le 1 mars 2024, le ministère a publié un ordre administratif (jour 1 :6/1 :7/1 :10, soirée 1 :9/1 :11/1 :13, nuit 1 :11/1 :13/1 :15) ; le 8 mai 2026, le législatif a adopté en troisième lecture la modification de la loi médicale ; le 12 mai 2026, Lai Ching‑te a annoncé un déploiement anticipé à partir du 20 mai 2027, avec mise en œuvre progressive[^31]. Les sanctions : amendes de 250 000‑500 000 NTD pour les hôpitaux régionaux, 500 000‑1 M pour les hôpitaux régionaux, 1‑2 M pour les centres médicaux[^31]. C’est la plus grande réforme structurelle des conditions de travail infirmières depuis trente ans, mais les universitaires soulignent que « améliorer les horaires ne ramène pas automatiquement le personnel » ; les conditions en Australie ou au Canada restent plus attractives, et les salaires taïwanais n’ont pas suivi, de sorte que le ratio à trois équipes ne pourra qu’atténuer la fuite, sans l’inverser.
 
-**Pour aller plus loin**
+## La zone aveugle des 99,6 %
 
-- [Controverses sur les médicaments vétérinaires à Taïwan](/society/台灣動物用藥爭議) — L'AMU couvre les humains, pas les animaux ; les controverses sur les médicaments pour animaux de compagnie offrent un contrepoint au système d'assurance maladie, révélant un monde alternatif sans couverture universelle, sans séparation complète entre prescription et dispensation pharmaceutique, où même l'oxygène en urgence doit être enregistré article par article.
+« 99,6 % de couverture » est souvent abrégé en « universel ». En réalité, il s’agit de « 99,6 % de la population admissible »[^2]. En dehors de cette définition, trois groupes restent exclus : les travailleurs migrants non répertoriés, les nouveau‑nés non enregistrés (bébés « sans dossier ») et les résidents à l’étranger dont l’assurance a été suspendue.
 
----
+Les travailleurs migrants non répertoriés perdent leur droit à l’assurance maladie et accumulent des factures impayées en cas d’urgence médicale, constituant un trou persistant dans la politique de santé taïwanaise[^32]. Le Global Taiwan Institute a publié en janvier 2025 un rapport indiquant que le mécanisme « stop‑and‑resume » pour les résidents à l’étranger était exploité : les personnes vivant à l’étranger ne paient pas de cotisations, puis doivent réactiver leur assurance avant de revenir à Taïwan, créant une forme d’exploitation [^33]. Le 23 décembre 2024, la réforme a finalement aboli le « stop‑and‑resume », mais la question du calcul des coûts résiduels et de la rétroactivité reste un tabou politique.
 
-## Références
+Le problème du registre de données de l’assurance maladie est encore plus profond. Depuis 1995, le registre a accumulé, en 2024, 70 milliards d’enregistrements médicaux et 3,4 milliards d’imageries, soutenant plus de 8 414 publications évaluées par des pairs[^34]. Le Bureau a signé un protocole d’accord avec le National Taiwan University Hospital pour créer la première base de données mondiale basée sur les informations d’imagerie cardiovasculaire[^34]. Cette ressource constitue l’un des plus grands atouts de soft power de Taïwan.
 
-- [Agence nationale de l'assurance maladie, Ministère de la Santé et du Bien-être](https://www.nhi.gov.tw/ch/np-3087-1.html) (source primaire)
-- [Numbeo Health Care Index 2024 — Taiwan #1](https://nspp.mofa.gov.tw/nsppe/news.php?post=248618&unit=381) (cité par le Ministère des Affaires étrangères)
-- [The Reporter : La plus grande vague de départs d'infirmières en 30 ans](https://www.twreporter.org/a/data-reporter-health-emergency-nursing-shortage) (2024)
-- [The Reporter : L'ère de la rupture de l'AMU](https://www.twreporter.org/topics/health-insurance-system-reform) (crise financière et institutionnelle)
-- [PMC : An overview of the healthcare system in Taiwan](https://pmc.ncbi.nlm.nih.gov/articles/PMC3960712/) (source académique en anglais)
-- [GeneOnline : 30 ans de l'AMU — risques structurels](https://geneonline.news/taiwan-national-health-insurance-30-years-series-1/)
-- [Future City : Punir les médecins qui passent plus de temps avec chaque patient ?](https://futurecity.cw.com.tw/article/2509)
+Cependant, le 12 août 2022, la Cour constitutionnelle a jugé, dans l’affaire 111 année, que cette base de données était inconstitutionnelle à trois niveaux : absence de droit de retrait, cadre juridique flou, manque de mécanisme de supervision indépendante[^35]. Un délai de trois ans a été imposé. Le 2 décembre 2025, la loi de gestion des données de l’assurance maladie a été adoptée en troisième lecture, accordant le droit de retrait aux individus[^36] — la plus grande correction de gouvernance des données depuis trente ans.
 
-## Thèmes connexes
-
-台灣社會福利 (zh) · IC卡 (zh) · 台灣人口老化 (zh) · 分級醫療 (zh)
+Ces deux faits combinés montrent que le 99,6 % représente un succès de couverture, tandis que la violation constitutionnelle du registre montre que la couverture a été utilisée « trop profondément ». L’assurance maladie universelle implique que chaque dossier médical entre dans le même pool ; trente ans plus tard, les données massives sont exploitées à des fins de recherche, et les citoyens découvrent qu’ils n’ont jamais consenti. Le jugement de la Cour constitutionnelle a, en substance, rendu les «

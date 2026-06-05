@@ -19,10 +19,10 @@ lastVerified: 2026-05-07
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/泛科學.md'
-sourceCommitSha: '4f25cbbc'
-sourceContentHash: 'sha256:56debc6c7910d6f6'
-sourceBodyHash: 'sha256:62844ef5ee6bcb04'
-translatedAt: '2026-05-22T05:08:47+08:00'
+sourceCommitSha: 'aaa69aba'
+sourceContentHash: 'sha256:b3bb240ec7dc60f9'
+sourceBodyHash: 'sha256:eb3a67c8a9337ec9'
+translatedAt: '2026-06-06T00:00:00Z'
 ---
 
 > **Resumen en 30 segundos:** PanSci es un sitio web y comunidad científica de Taiwán fundado en 2011. Surgió de un proyecto cancelado de la Taiwan Digital Culture Association; en sus primeros años se sostuvo gracias a que Cheng Kuo-wei y Hsu Ting-yao visitaban a blogueros científicos, solicitaban colaboraciones y gestionaban la comunidad. Para 2013 ya contaba con más de 80 blogueros científicos y más de 2.780 artículos. Los estudios posteriores de comunicación situaron a PanSci dentro de la democratización de la comunicación científica en Taiwán, la participación pública en redes sociales y la comparación entre sitios de divulgación científica de ambos lados del estrecho. Para la década de 2020, PanSci había conectado artículos, PanSci School, Science Student, video, proyectos publicitarios, comercio electrónico y una MCN de YouTube en una red de servicios de conocimiento. Su tensión central es muy clara: para que la ciencia permanezca en la discusión pública, la plataforma primero debe sobrevivir entre proyectos comerciales y algoritmos.
@@ -190,6 +190,7 @@ La respuesta sigue siendo inestable en 2026. Pero la pregunta que PanSci deja es
 **Lecturas complementarias**:
 
 - [The Reporter](/es/Society/the-reporter-investigative-journalism/) — También aborda la dimensión pública de los nuevos medios taiwaneses, pero The Reporter construye confianza mediante periodismo de investigación sin fines de lucro, en contraste con la ruta de PanSci como plataforma comercial de conocimiento.
+- [CommonWealth Magazine](/society/天下雜誌) — Nacida treinta años antes que PanSci, es el referente taiwanés de medios financieros y empresariales; también busca sobrevivir entre «lo público» y el mercado, pero ha tomado la ruta de los rankings empresariales y la suscripción de pago como medio de autoridad.
 - [Thinking Taiwan Forum](/es/Society/thinking-taiwan-forum/) — También es una plataforma de discusión pública; Thinking Taiwan Forum convierte el diálogo político y democrático en un contenedor de comentarios, mientras PanSci convierte la discusión científica en una industria del conocimiento.
 - [Enciclopedia de Taiwán](/es/Society/encyclopedia-of-taiwan/) — Contraste entre una ingeniería estatal del conocimiento y una comunidad civil de divulgación científica: una busca una versión autorizada; la otra busca legibilidad, circulación y transformación.
 - [Industria y cultura de los YouTubers taiwaneses](/es/Culture/taiwan-youtuber-industry/) — El ecosistema de plataformas más amplio que PanSci debe enfrentar tras entrar en el video corto, las MCN y la economía de creadores.

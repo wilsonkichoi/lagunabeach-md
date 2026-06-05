@@ -21,10 +21,10 @@ lastVerified: '2026-05-19'
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/台灣再生醫療雙法沿革從業人員告白.md'
-sourceCommitSha: '89026b10'
-sourceContentHash: 'sha256:22d1f9fc4fe57b36'
-sourceBodyHash: 'sha256:5c0fd1397ca8fbdd'
-translatedAt: '2026-05-25T21:07:07Z'
+sourceCommitSha: '49e065a4'
+sourceContentHash: 'sha256:0f033d635b472973'
+sourceBodyHash: 'sha256:06cd641264af37d8'
+translatedAt: '2026-06-06T00:00:00Z'
 ---
 
 ![커털린 커리코와 드루 와이스먼이 2022년 Life Science 메달을 공동 수상한 뒤 배경판 앞에서 촬영한 사진. 커리코는 붉은색 정장을, 와이스먼은 짙은색 정장을 입고 있다](/article-images/society/kariko-weissman-life-science-2022.jpg)
@@ -272,7 +272,7 @@ _Nobel Prize 공식 채널: 커털린 커리코의 2023년 12월 7일 노벨상 
 - [대만 공중보건과 방역 체계](/society/台灣公共衛生與防疫體系) — COVID-19 기간 대만 방역 시스템의 전체 맥락. 이 글의 2021년 BNT 구매는 그중 한 대목이다
 - [의료법](/society/醫療法) — 재생의료 이중법은 의료법에서 독립한 특별법이다. 의료법은 대만 기관 차원의 의료 규범의 근본 법이다
 - [대만 바이오테크 산업 발전](/technology/台灣生技產業發展) — 학술 연구에서 산업화까지의 바이오테크 전체 맥락. 세포치료와 mRNA 플랫폼은 모두 그 분기다
-- [건강보험 제도](/lifestyle/健保制度) — 세포치료가 건강보험 급여에 포함될 수 있는지는 “아시아 세포은행” 비전의 핵심이다
+- [대만 의료와 전민건강보험](/lifestyle/台灣醫療與全民健保) — 세포치료가 건강보험 급여에 포함될 수 있는지는 “아시아 세포은행” 비전의 핵심이다; 건강보험 총액 예산 구조 역시 재생의료 상업화 경로를 좌우한다
 - [대만 의료산업](/economy/台灣醫療產業) — 신약 제조와 CDMO의 산업적 측면으로, 이 글의 규정 준수 관점과 상호 보완된다
 
 ## 이미지 출처

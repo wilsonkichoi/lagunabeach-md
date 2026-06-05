@@ -11,10 +11,10 @@ lastVerified: '2026-06-03'
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/尊.md'
-sourceCommitSha: 'e9a16926e'
-sourceContentHash: 'sha256:819aa11b63d4ce35'
-sourceBodyHash: 'sha256:3521b01769e0a2d4'
-translatedAt: '2026-06-03T00:36:19+08:00'
+sourceCommitSha: 'aeb8b0e4'
+sourceContentHash: 'sha256:0d80278055d155a0'
+sourceBodyHash: 'sha256:44a77176cac892eb'
+translatedAt: '2026-06-06T00:00:00Z'
 ---
 
 > **30초 개요:**
@@ -131,7 +131,7 @@ UDN은 2025년 1월 13일 보도에서 한 가지 세부를 기록했다. 감옥
 
 **더 읽기**:
 
-- [HowHow](/people/howhow) — 같은 시기 100만 유튜버, 광고왕의 또 다른 전환 사례
+- [HowHow](/people/Howhow) — 같은 시기 100만 유튜버, 광고왕의 또 다른 전환 사례
 - [차이아가](/people/蔡阿嘎) — 쭌보다 14세 많고 가족 노선을 완주한 대만 유튜버의 종심 참조
 - [대만 YouTube사](/culture/台灣youtube發展史) — 2010년 양분기에서 2024년 대퇴조까지의 전체 지도
 

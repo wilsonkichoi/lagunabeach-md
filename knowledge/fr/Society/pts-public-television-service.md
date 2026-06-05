@@ -19,10 +19,10 @@ lastVerified: 2026-05-27
 lastHumanReview: false
 readingTime: 16
 translatedFrom: 'Society/公視.md'
-sourceCommitSha: '31b44ba1d'
-sourceContentHash: 'sha256:e0c32df83dc8d9c2'
-sourceBodyHash: 'sha256:350b52df52cdd2ac'
-translatedAt: '2026-05-28T05:08:35+08:00'
+sourceCommitSha: 'aaa69aba'
+sourceContentHash: 'sha256:941a68e0174e1033'
+sourceBodyHash: 'sha256:b772fb26a3100193'
+translatedAt: '2026-06-06T00:00:00Z'
 ---
 
 > **En 30 secondes :**
@@ -167,10 +167,12 @@ Peut-être que les 28 prochaines années apporteront une réponse. Peut-être pa
 **Pour aller plus loin :**
 
 - [Médias et liberté de la presse à Taïwan](/society/台灣媒體與新聞自由) — PTS dans l'écosystème médiatique et son interaction avec l'environnement global de la liberté de la presse
+- [CommonWealth Magazine](/society/天下雜誌) — Comment un média commercial économique aborde la même question « à qui les médias doivent-ils rendre des comptes ? », en s'appuyant sur les abonnements payants et un écosystème d'entreprises, formant un contraste avec la voie du budget public de PTS
 - [Variétés taïwanaises](/culture/台灣綜藝) — En comparaison avec les émissions de variétés des chaînes commerciales, comprendre pourquoi PTS a choisi de produire des dramas et des documentaires
 - [Musique de films et séries taïwanaises](/music/台灣影視配樂) — La place de la musique des séries phares de PTS dans l'industrie musicale taïwanaise
 - [Animation taïwanaise en sous-traitance](/economy/台灣動畫代工) — En comparaison avec l'industrie commerciale de la propriété intellectuelle, la logique différente de PTS dans le choix des sujets d'animation
 - [Fêtes et célébrations traditionnelles](/culture/傳統節慶與慶典) — La contribution à long terme du documentaire _Viewpoint_ de PTS à la préservation de la mémoire culturelle taïwanaise
+- [Institut de recherche en design de Taïwan](/society/台灣設計研究院) — Un autre établissement public qui marche sur la corde raide entre « visibilité » et service public, faisant du design une méthode gouvernementale au service du peuple
 
 ## Sources des images
 

@@ -1,6 +1,6 @@
 ---
 title: 'Taiwan Instrument Manufacturing: From Houli Saxophones to Global Music Factories'
-description: 'Explore the development of Taiwan''s instrument manufacturing industry, from Houli saxophones'' dominance of the global market to the guitar OEM kingdom, to the precision craftsmanship of music box manufacturing — and how Taiwan transitioned from contract manufacturing to building its own brands'
+description: "Explore the development of Taiwan's instrument manufacturing industry, from Houli saxophones' dominance of the global market to the guitar OEM kingdom, to the precision craftsmanship of music box manufacturing — and how Taiwan transitioned from contract manufacturing to building its own brands"
 date: 2026-03-19
 author: 'Taiwan.md'
 category: 'Music'
@@ -11,10 +11,10 @@ lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Music/台灣樂器製造.md'
-sourceCommitSha: 'f712b7242'
-sourceContentHash: 'sha256:dd45e3ed9087901c'
-sourceBodyHash: 'sha256:c400829f2d36e900'
-translatedAt: '2026-05-17T05:34:48+08:00'
+sourceCommitSha: 'ce74fa26'
+sourceContentHash: 'sha256:d7bd090bae6990bf'
+sourceBodyHash: 'sha256:381c1171bf2bf67f'
+translatedAt: '2026-06-05T16:40:22Z'
 ---
 
 # Taiwan Instrument Manufacturing: From Houli Saxophones to Global Music Factories
@@ -299,12 +299,21 @@ Whenever musicians around the world play instruments made in Taiwan, the craftsm
 ## References
 
 [^1]: [Jupiter Music Official Website](http://www.jupitermusic.com/) — Jupiter brand history
+
 [^2]: [Lien-Chang Zhang Saxophone Museum Official Website](http://www.sax.org.tw/) — Houli saxophone industry history
+
 [^3]: [Houli District Office Saxophone Industry Introduction](https://www.houli.taichung.gov.tw/) — Official industry information
+
 [^4]: [Sanyo Seiki Co., Ltd.](http://www.sankyo-taiwan.com.tw/) — Taiwan music box manufacturing
-[^5]: *History of Taiwan's Instrument Manufacturing Industry*, Industrial Technology Research Institute, 2015 ([itri.org.tw](https://www.itri.org.tw/)) — Industry research report
-[^6]: *Research on the Houli Saxophone Industry Cluster*, National Taichung University of Science and Technology, 2018 ([nutc.edu.tw](http://www.nutc.edu.tw/)) — Academic research report
-[^7]: *The Rise and Fall of Taiwan's Guitar OEM Industry*, CommonWealth Magazine, 2010 ([cw.com.tw](https://www.cw.com.tw/)) — Industry analysis article
+
+[^5]: _History of Taiwan's Instrument Manufacturing Industry_, Industrial Technology Research Institute, 2015 ([itri.org.tw](https://www.itri.org.tw/)) — Industry research report
+
+[^6]: _Research on the Houli Saxophone Industry Cluster_, National Taichung University of Science and Technology, 2018 ([nutc.edu.tw](http://www.nutc.edu.tw/)) — Academic research report
+
+[^7]: _The Rise and Fall of Taiwan's Guitar OEM Industry_, CommonWealth Magazine, 2010 ([cw.com.tw](https://www.cw.com.tw/)) — Industry analysis article
+
 [^8]: [Sun Moon Lake Music Box Museum](http://www.musicbox.com.tw/) — Music box industry exhibition
+
 [^9]: [Ministry of Economic Affairs, Department of Statistics — Instrument Manufacturing Statistics](https://www.moea.gov.tw/) — Official industry statistics
-[^10]: *Case Studies of Taiwan's Hidden Champion Enterprises*, Chung-Hua Institution for Economic Research, 2019 ([cier.edu.tw](http://www.cier.edu.tw/)) — Manufacturing competitiveness analysis
+
+[^10]: _Case Studies of Taiwan's Hidden Champion Enterprises_, Chung-Hua Institution for Economic Research, 2019 ([cier.edu.tw](http://www.cier.edu.tw/)) — Manufacturing competitiveness analysis

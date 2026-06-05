@@ -21,9 +21,9 @@ lastVerified: '2026-05-12'
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/聶永真.md'
-sourceCommitSha: '3e3b32c98'
-sourceContentHash: 'sha256:7a0c11ede6eb6e44'
-sourceBodyHash: 'sha256:25eea4bfa6479f06'
+sourceCommitSha: '1993f212'
+sourceContentHash: 'sha256:669edb7f4c118cc5'
+sourceBodyHash: 'sha256:389438b7aa71a102'
 translatedAt: '2026-05-24T05:06:32+08:00'
 ---
 

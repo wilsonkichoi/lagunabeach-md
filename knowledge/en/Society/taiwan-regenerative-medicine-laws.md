@@ -21,10 +21,10 @@ lastVerified: 2026-05-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/台灣再生醫療雙法沿革從業人員告白.md'
-sourceCommitSha: '89026b10'
-sourceContentHash: 'sha256:22d1f9fc4fe57b36'
-sourceBodyHash: 'sha256:5c0fd1397ca8fbdd'
-translatedAt: '2026-05-25T21:06:51Z'
+sourceCommitSha: '49e065a4'
+sourceContentHash: 'sha256:0f033d635b472973'
+sourceBodyHash: 'sha256:06cd641264af37d8'
+translatedAt: '2026-06-05T16:40:22Z'
 ---
 
 ![Katalin Karikó and Drew Weissman jointly receiving the Life Science Medal in 2022, photographed in front of a backdrop; Karikó wears a red suit and Weissman a dark suit](/article-images/society/kariko-weissman-life-science-2022.jpg)
@@ -272,7 +272,7 @@ Every October, an elderly Hungarian woman once turned on the radio and quietly l
 - [Taiwan’s Public Health and Pandemic-Prevention System](/society/台灣公共衛生與防疫體系) — The full context of Taiwan’s pandemic-prevention system during COVID-19; the 2021 BNT procurement in this article is one part of that story
 - [Medical Care Act](/society/醫療法) — The regenerative medicine dual laws are special laws separated from the Medical Care Act; the Medical Care Act is the root law for institutional medical regulation in Taiwan
 - [Development of Taiwan’s Biotechnology Industry](/technology/台灣生技產業發展) — The broader biotech context from academic research to industrialization; cell therapy and mRNA platforms are both branches within it
-- [National Health Insurance System](/lifestyle/健保制度) — Whether cell therapy can be included in National Health Insurance reimbursement is key to the vision of an “Asian cell bank”
+- [Taiwan Healthcare and National Health Insurance](/lifestyle/台灣醫療與全民健保) — Whether cell therapy can be included in National Health Insurance reimbursement is key to the vision of an “Asian cell bank”; the NHI global budget structure also determines the commercialization pathway for regenerative medicine
 - [Taiwan’s Medical Industry](/economy/台灣醫療產業) — The industrial side of new drug manufacturing and CDMO, complementing this article’s compliance perspective
 
 ## Image Sources

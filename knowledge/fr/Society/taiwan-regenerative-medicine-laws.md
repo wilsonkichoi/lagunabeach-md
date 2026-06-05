@@ -21,10 +21,10 @@ lastVerified: 2026-05-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/台灣再生醫療雙法沿革從業人員告白.md'
-sourceCommitSha: '89026b10'
-sourceContentHash: 'sha256:22d1f9fc4fe57b36'
-sourceBodyHash: 'sha256:5c0fd1397ca8fbdd'
-translatedAt: '2026-05-25T21:07:36Z'
+sourceCommitSha: '49e065a4'
+sourceContentHash: 'sha256:0f033d635b472973'
+sourceBodyHash: 'sha256:06cd641264af37d8'
+translatedAt: '2026-06-06T00:00:00Z'
 ---
 
 ![Katalin Karikó et Drew Weissman recevant ensemble la médaille Life Science en 2022, posant devant un panneau, Karikó vêtue d’un tailleur rouge et Weissman d’un costume sombre](/article-images/society/kariko-weissman-life-science-2022.jpg)
@@ -272,7 +272,7 @@ Chaque mois d’octobre, une vieille dame hongroise allumait autrefois sa radio 
 - [Système taïwanais de santé publique et de lutte contre les épidémies](/society/台灣公共衛生與防疫體系) — contexte complet du système taïwanais de lutte contre les épidémies pendant la COVID-19 ; l’achat de BNT en 2021 traité ici en constitue un épisode
 - [Loi médicale](/society/醫療法) — les deux lois sur la médecine régénérative sont des lois spéciales séparées de la Loi médicale ; celle-ci constitue la loi fondamentale de la réglementation institutionnelle des soins à Taïwan
 - [Développement de l’industrie biotechnologique taïwanaise](/technology/台灣生技產業發展) — panorama global de la biotechnologie, de la recherche académique à l’industrialisation ; la thérapie cellulaire et les plateformes ARNm en sont deux branches
-- [Système d’assurance maladie nationale](/lifestyle/健保制度) — l’intégration éventuelle de la thérapie cellulaire au remboursement de l’assurance maladie est un enjeu clé de la vision d’une « banque cellulaire asiatique »
+- [Système médical taïwanais et assurance maladie universelle](/lifestyle/台灣醫療與全民健保) — l’intégration éventuelle de la thérapie cellulaire au remboursement de l’assurance maladie est un enjeu clé de la vision d’une « banque cellulaire asiatique » ; la structure du budget global de l’assurance maladie détermine également la voie de commercialisation de la médecine régénérative
 - [Industrie médicale taïwanaise](/economy/台灣醫療產業) — versant industriel de la fabrication de nouveaux médicaments et des CDMO, complémentaire de l’angle conformité de cet article
 
 ## Sources des images

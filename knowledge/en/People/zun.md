@@ -19,10 +19,10 @@ lastVerified: 2026-06-03
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/尊.md'
-sourceCommitSha: 'e9a16926e'
-sourceContentHash: 'sha256:819aa11b63d4ce35'
-sourceBodyHash: 'sha256:3521b01769e0a2d4'
-translatedAt: '2026-06-03T00:36:16+08:00'
+sourceCommitSha: 'aeb8b0e4'
+sourceContentHash: 'sha256:0d80278055d155a0'
+sourceBodyHash: 'sha256:44a77176cac892eb'
+translatedAt: '2026-06-05T16:40:22Z'
 ---
 
 > **30-second overview:**
@@ -34,7 +34,7 @@ In 2012, a junior high school student in Kaohsiung sat in his room and, under th
 
 Years later, in a video on his second channel titled “Digging Up My Dark-History Videos from Five Years Ago,” Zun mocked his early years as having “started out by plagiarizing A-Shen”[^2]: from tone and editing rhythm to the way he approached topics, he was imitating the top gaming streamers in Taiwan’s YouTube scene at the time. He later locked those old videos, and when filming his own videos he would often joke about this prehistoric period.
 
-The real turning point came when he began following Japan’s YouTube scene, especially Hajime-shachō (はじめしゃちょー). He brought into Taiwan the rapid jump cuts, exaggerated typographic effects, and experimental topics common in Japanese videos. At the time, Taiwan’s YouTube field was still dominated by long-form gameplay commentary, and this sense of rhythm was like replacing an entire system of visual language. The channel name “人生肥宅x尊” also took shape during this period. It evolved from “Yellow-Haired Pig” through several changes and eventually became the symbol of a generation. “肥宅” (fei-zhai, literally “fat otaku,” a self-deprecating internet label for a socially withdrawn nerd) still carried a strong self-mocking tone in 2014-2015; on PTT’s C_Chat board, users wore the two characters almost like a badge. By attaching it to his own ID, Zun was effectively telling viewers: “I am not trying to act like a sunny boy. I am the otaku recording _Minecraft_ in his room.” That refusal to pretend was an early foreshadowing of why the “clean stream” label would later stick to him.
+The real turning point came when he began following Japan’s YouTube scene, especially Hajime-shachō (はじめしゃちょー). He brought into Taiwan the rapid jump cuts, exaggerated typographic effects, and experimental topics common in Japanese videos. At the time, Taiwan’s YouTube field was still dominated by long-form gameplay commentary, and this sense of rhythm was like replacing an entire system of visual language. The channel name “人生肥宅x尊” also took shape during this period. It evolved from “Yellow-Haired Pig” through several changes and eventually became the symbol of a generation. “肥宅” (fei-zhai, literally “fat otaku,” a self-deprecating internet label for a socially withdrawn nerd) still carried a strong self-mocking tone in 2014-2015; on PTT’s C*Chat board, users wore the two characters almost like a badge. By attaching it to his own ID, Zun was effectively telling viewers: “I am not trying to act like a sunny boy. I am the otaku recording \_Minecraft* in his room.” That refusal to pretend was an early foreshadowing of why the “clean stream” label would later stick to him.
 
 📝 Curator’s note: Imitation is the entry ticket to creation, but whether one can grow something of one’s own after imitation is a separate matter. The key to Zun is not “whom he imitated,” but how he localized a Japanese visual language into an otaku culture Taiwanese teenagers could understand.
 
@@ -139,7 +139,7 @@ For the viewers who grew up watching Zun in the 2014-2018 wave, this article is,
 
 **Further Reading**:
 
-- [HowHow](/people/howhow) — A million-subscriber YouTuber from the same period, and another model of transformation as the king of sponsored content
+- [HowHow](/people/Howhow) — A million-subscriber YouTuber from the same period, and another model of transformation as the king of sponsored content
 - [Tsai A-ga](/people/蔡阿嘎) — A Taiwanese YouTuber 14 years older than Zun who completed the family-route arc, offering a deeper point of comparison
 - [History of YouTube in Taiwan](/culture/台灣youtube發展史) — The overall map from the 2010 incubation period to the 2024 major retreat
 

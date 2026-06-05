@@ -19,10 +19,10 @@ lastVerified: '2026-06-03'
 lastHumanReview: 'false'
 featured: 'false'
 translatedFrom: 'People/尊.md'
-sourceCommitSha: 'e9a16926e'
-sourceContentHash: 'sha256:819aa11b63d4ce35'
-sourceBodyHash: 'sha256:3521b01769e0a2d4'
-translatedAt: '2026-06-03T00:36:20+08:00'
+sourceCommitSha: 'aeb8b0e4'
+sourceContentHash: 'sha256:0d80278055d155a0'
+sourceBodyHash: 'sha256:44a77176cac892eb'
+translatedAt: '2026-06-06T00:00:00Z'
 ---
 
 > **Vue d’ensemble en 30 secondes :**
@@ -34,7 +34,7 @@ En 2012, un collégien de Kaohsiung s’assied dans sa chambre et, sous le pseud
 
 Quelques années plus tard, dans une vidéo de sa deuxième chaîne intitulée « J’ai ressorti mes vidéos embarrassantes d’il y a cinq ans », Zun se moque de cette première période en disant qu’il a « commencé en copiant A-Shen »[^2] : le ton, le rythme du montage et l’angle des sujets imitaient tous les grands vidéastes de gameplay du YouTube taïwanais de l’époque. Il a ensuite verrouillé ses anciennes vidéos et plaisante souvent lui-même, dans ses productions, sur cette préhistoire.
 
-Le véritable tournant arrive quand il commence à suivre le YouTube japonais, en particulier Hajime Shacho (はじめしゃちょー). Il importe à Taïwan les jump cuts rapides, les effets typographiques exagérés et les sujets expérimentaux courants dans les vidéos japonaises. À ce moment-là, le YouTube taïwanais reste dominé par de longues vidéos de gameplay ; ce sens du rythme donne l’impression de remplacer d’un coup tout un système de langage visuel. Le nom de chaîne « 人生肥宅x尊 » se fixe aussi à cette période : parti de « porc aux cheveux jaunes », il évolue jusqu’à devenir un symbole générationnel. Entre 2014 et 2015, « feizhai », littéralement « gros geek casanier », reste une étiquette d’Internet fortement marquée par l’autodérision ; sur le forum PTT, le board C_Chat la porte presque comme une décoration. En l’accolant à son propre identifiant, Zun dit en substance à son public : « Je ne vais pas jouer au garçon solaire ; je suis bien ce geek casanier qui enregistre _Minecraft_ dans sa chambre. » Ce refus du déguisement annonce déjà pourquoi l’étiquette de « courant pur » pourra plus tard lui coller à la peau.
+Le véritable tournant arrive quand il commence à suivre le YouTube japonais, en particulier Hajime Shacho (はじめしゃちょー). Il importe à Taïwan les jump cuts rapides, les effets typographiques exagérés et les sujets expérimentaux courants dans les vidéos japonaises. À ce moment-là, le YouTube taïwanais reste dominé par de longues vidéos de gameplay ; ce sens du rythme donne l’impression de remplacer d’un coup tout un système de langage visuel. Le nom de chaîne « 人生肥宅x尊 » se fixe aussi à cette période : parti de « porc aux cheveux jaunes », il évolue jusqu’à devenir un symbole générationnel. Entre 2014 et 2015, « feizhai », littéralement « gros geek casanier », reste une étiquette d’Internet fortement marquée par l’autodérision ; sur le forum PTT, le board C*Chat la porte presque comme une décoration. En l’accolant à son propre identifiant, Zun dit en substance à son public : « Je ne vais pas jouer au garçon solaire ; je suis bien ce geek casanier qui enregistre \_Minecraft* dans sa chambre. » Ce refus du déguisement annonce déjà pourquoi l’étiquette de « courant pur » pourra plus tard lui coller à la peau.
 
 📝 Note curatoriale : l’imitation est le billet d’entrée de la création, mais faire naître quelque chose à soi après avoir imité en est une autre affaire. L’enjeu chez Zun n’est pas « qui il a imité », mais la manière dont il a localisé un langage japonais pour en faire une culture otaku compréhensible par les adolescents taïwanais.
 
@@ -139,7 +139,7 @@ Pour le public qui a grandi avec Zun pendant la vague de 2014-2018, cet article 
 
 **Lectures complémentaires** :
 
-- [HowHow](/people/howhow) — YouTuber millionnaire de la même période, autre exemple de transformation autour du roi des placements de produit
+- [HowHow](/people/Howhow) — YouTuber millionnaire de la même période, autre exemple de transformation autour du roi des placements de produit
 - [Tsai Aga](/people/蔡阿嘎) — YouTuber taïwanais de 14 ans l’aîné de Zun, référence en profondeur d’une trajectoire familiale menée jusqu’au bout
 - [Histoire de YouTube à Taïwan](/culture/台灣youtube發展史) — Cartographie générale, de la période de maturation de 2010 au grand reflux de 2024
 

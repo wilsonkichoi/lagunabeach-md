@@ -21,10 +21,10 @@ lastVerified: 2026-05-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Society/台灣再生醫療雙法沿革從業人員告白.md'
-sourceCommitSha: '89026b10'
-sourceContentHash: 'sha256:22d1f9fc4fe57b36'
-sourceBodyHash: 'sha256:5c0fd1397ca8fbdd'
-translatedAt: '2026-05-26T21:07:27Z'
+sourceCommitSha: '49e065a4'
+sourceContentHash: 'sha256:0f033d635b472973'
+sourceBodyHash: 'sha256:06cd641264af37d8'
+translatedAt: '2026-06-06T00:00:00Z'
 ---
 
 ![Katalin Karikó y Drew Weissman reciben juntos la Medalla Life Science en 2022 y posan frente al panel de fondo; Karikó lleva un traje rojo y Weissman un traje oscuro](/article-images/society/kariko-weissman-life-science-2022.jpg)
@@ -272,7 +272,7 @@ Cada octubre, una anciana húngara solía encender la radio y escuchar en silenc
 - [Sistema taiwanés de salud pública y prevención epidémica](/society/台灣公共衛生與防疫體系) — contexto completo del sistema taiwanés de prevención epidémica durante la COVID-19; la compra de BNT de 2021 tratada en este artículo es una parte de esa historia.
 - [Ley Médica](/society/醫療法) — las leyes gemelas de medicina regenerativa son leyes especiales independizadas de la Ley Médica; la Ley Médica es la norma raíz de la regulación institucional de la atención médica en Taiwán.
 - [Desarrollo de la industria biotecnológica de Taiwán](/technology/台灣生技產業發展) — panorama general de la biotecnología desde la investigación académica hasta la industrialización; la terapia celular y la plataforma de mRNA son dos de sus ramas.
-- [Sistema de Seguro Nacional de Salud](/lifestyle/健保制度) — que la terapia celular pueda incorporarse a la cobertura del seguro de salud es clave para la visión de un “banco celular asiático”.
+- [Salud y seguro médico universal en Taiwán](/lifestyle/台灣醫療與全民健保) — que la terapia celular pueda incorporarse a la cobertura del seguro de salud es clave para la visión de un «banco celular asiático»; la estructura del presupuesto global del seguro también determina la vía de comercialización de la medicina regenerativa.
 - [Industria médica de Taiwán](/economy/台灣醫療產業) — dimensión industrial de la fabricación de nuevos fármacos y los CDMO, complementaria a la perspectiva regulatoria de este artículo.
 
 ## Fuentes de imágenes

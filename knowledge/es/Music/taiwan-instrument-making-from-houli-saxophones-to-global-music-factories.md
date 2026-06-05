@@ -5,16 +5,24 @@ date: 2026-03-19
 author: 'Taiwan.md'
 category: 'Music'
 subcategory: '樂器與製造'
-tags: ['fabricación de instrumentos', 'saxofón de Houli', 'fabricación de guitarras bajo contrato', 'cajas de música', 'industria manufacturera', 'artesanía taiwanesa']
+tags:
+  [
+    'fabricación de instrumentos',
+    'saxofón de Houli',
+    'fabricación de guitarras bajo contrato',
+    'cajas de música',
+    'industria manufacturera',
+    'artesanía taiwanesa',
+  ]
 readingTime: 13
 lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
 translatedFrom: 'Music/台灣樂器製造.md'
-sourceCommitSha: 'f712b7242'
-sourceContentHash: 'sha256:dd45e3ed9087901c'
-sourceBodyHash: 'sha256:c400829f2d36e900'
-translatedAt: '2026-05-17T05:34:54+08:00'
+sourceCommitSha: 'ce74fa26'
+sourceContentHash: 'sha256:d7bd090bae6990bf'
+sourceBodyHash: 'sha256:381c1171bf2bf67f'
+translatedAt: '2026-06-06T00:00:00Z'
 ---
 
 # La industria taiwanesa de fabricación de instrumentos musicales: del saxofón de Houli a las fábricas globales de música
@@ -300,12 +308,21 @@ Cada vez que músicos de todo el mundo interpretan melodías con instrumentos fa
 ## Referencias
 
 [^1]: [Sitio web oficial de Jupiter Music](http://www.jupitermusic.com/) — Historia de la marca Jupiter
+
 [^2]: [Sitio web oficial del Museo del Saxofón Zhang Lianchang](http://www.sax.org.tw/) — Historia de la industria del saxofón en Houli
+
 [^3]: [Introducción a la industria del saxofón, Oficina de Distrito de Houli](https://www.houli.taichung.gov.tw/) — Datos oficiales de la industria
+
 [^4]: [Xieying Industrial Co., Ltd.](http://www.sankyo-taiwan.com.tw/) — Fabricación de cajas de música en Taiwán
-[^5]: *Historia del desarrollo de la industria taiwanesa de fabricación de instrumentos musicales*, Instituto de Investigación Tecnológica Industrial (ITRI), 2015 ([itri.org.tw](https://www.itri.org.tw/)) — Informe de investigación industrial
-[^6]: *Estudio del clúster industrial del saxofón en Houli*, Universidad de Ciencia y Tecnología de Taichung, 2018 ([nutc.edu.tw](http://www.nutc.edu.tw/)) — Informe de investigación académica
-[^7]: *El auge y declive de la industria taiwanesa de fabricación de guitarras bajo contrato*, CommonWealth Magazine, 2010 ([cw.com.tw](https://www.cw.com.tw/)) — Artículo de análisis industrial
+
+[^5]: _Historia del desarrollo de la industria taiwanesa de fabricación de instrumentos musicales_, Instituto de Investigación Tecnológica Industrial (ITRI), 2015 ([itri.org.tw](https://www.itri.org.tw/)) — Informe de investigación industrial
+
+[^6]: _Estudio del clúster industrial del saxofón en Houli_, Universidad de Ciencia y Tecnología de Taichung, 2018 ([nutc.edu.tw](http://www.nutc.edu.tw/)) — Informe de investigación académica
+
+[^7]: _El auge y declive de la industria taiwanesa de fabricación de guitarras bajo contrato_, CommonWealth Magazine, 2010 ([cw.com.tw](https://www.cw.com.tw/)) — Artículo de análisis industrial
+
 [^8]: [Museo de la Caja de Música del Lago Sunmoon](http://www.musicbox.com.tw/) — Exhibición de la industria de cajas de música
+
 [^9]: [Estadísticas de la industria de fabricación de instrumentos musicales, Departamento de Estadísticas del Ministerio de Asuntos Económicos](https://www.moea.gov.tw/) — Estadísticas oficiales de la industria
-[^10]: *Estudio de casos de empresas "campeones ocultos" de Taiwán*, Academia de Investigación Económica de China, 2019 ([cier.edu.tw](http://www.cier.edu.tw/)) — Análisis de competitividad manufacturera
+
+[^10]: _Estudio de casos de empresas "campeones ocultos" de Taiwán_, Academia de Investigación Económica de China, 2019 ([cier.edu.tw](http://www.cier.edu.tw/)) — Análisis de competitividad manufacturera

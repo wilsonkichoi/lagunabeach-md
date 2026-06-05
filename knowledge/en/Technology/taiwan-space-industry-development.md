@@ -15,13 +15,13 @@ subcategory: 'Space & Frontier'
 author: 'Taiwan.md'
 readingTime: 14
 featured: true
-lastVerified: 2026-03-29
+lastVerified: 2026-06-04
 lastHumanReview: false
 translatedFrom: 'Technology/台灣太空產業發展.md'
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:bce66d0a209761dc'
-sourceBodyHash: 'sha256:a7427d47ab9372d5'
-translatedAt: '2026-05-16T22:19:17Z'
+sourceCommitSha: 'f3baded5'
+sourceContentHash: 'sha256:e66143fe99e401f4'
+sourceBodyHash: 'sha256:f2a71a6d6f47c4eb'
+translatedAt: '2026-06-05T16:40:22Z'
 category: Technology
 ---
 
@@ -53,7 +53,7 @@ The turning point was Formosat-5, launched in 2017. Taiwan's first completely in
 
 📝 **What mattered wasn't just the technology.** Formosat-5 meant Taiwan had a group of engineers who knew, end-to-end, how to build a satellite. That same group became the backbone of Formosat-8.
 
-In 2023, the National Space Program Office (NSPO) was elevated into an administrative corporation: the Taiwan Space Agency (TASA). More than a rename — a strategic repositioning. The government announced the Third-Phase National Space Technology Development Program: 2024 to 2033, total budget NT$71 billion. Nearly three times the second phase's NT$25.1 billion.
+In 2023, the National Space Program Office (NSPO) was elevated into an administrative corporation: the Taiwan Space Agency (TASA). More than a rename — a strategic repositioning. Behind that elevation was the Third-Phase National Space Technology Development Long-Term Plan, originally approved in 2019 at NT$25.1 billion covering 2019 to 2028; on October 20, 2025, the Executive Yuan expanded that same plan to NT$71 billion and extended the timeline to 2031 — a budget increase of nearly 1.8 times. The plan locks onto three priorities: developing an optical remote-sensing satellite constellation (Formosat-8), pushing communications satellite commercialization (four LEO satellites), and incubating private space startups.
 
 ---
 
@@ -79,7 +79,7 @@ The full Formosat-8 constellation will include eight satellites: six with sub-me
 
 Why does repeat coverage matter? After the 2024 Hualien earthquake, rapid damage assessment required satellite imagery. After typhoons, flooded farmland and changed topography demand frequent updates. Currently Taiwan depends on commercial satellite services. With a full Formosat-8 constellation, Taiwan will have sovereign, daily repeat-visit capability.
 
-> **Key figure:** Formosat-8 has achieved 84% local key component manufacturing rate, targeting 95% by 2030.
+> **Key figure:** Formosat-8's first satellite has achieved 84% local key component manufacturing rate; subsequent satellites are targeted to improve generation by generation.
 
 Program director Liu Hsiao-ching emphasized that the integration and testing cycle exceeded one year. Before shipping, each satellite must pass electromagnetic compatibility, vibration, acoustic, thermal vacuum, and pyrotechnic shock tests. "Every step matters," she said. "Because once it's up, it's not coming back."
 
@@ -123,12 +123,12 @@ ONGLAISAT program director Chen Chen-yu captured the philosophy: "CubeSats have 
 
 ## Where Taiwan Stands
 
-| Metric                     | Taiwan           | Japan            | Korea            | Singapore       |
-| -------------------------- | ---------------- | ---------------- | ---------------- | --------------- |
-| Space budget (annual)      | ~NT$7.1B         | ~¥400B           | ~₩760B           | ~S$1.5B         |
-| Indigenous rocket          | No               | H3 ✅            | Nuri ✅          | No              |
-| Best optical resolution    | Sub-meter (2025) | Sub-meter (2006) | Sub-meter (2006) | Commercial only |
-| Commercial space ecosystem | Emerging         | Mature           | Mature           | Emerging        |
+| Metric                     | Taiwan                        | Japan            | Korea            | Singapore       |
+| -------------------------- | ----------------------------- | ---------------- | ---------------- | --------------- |
+| Space budget (annual)      | ~NT$5.5B (NT$71B / 13-yr avg) | ~¥400B           | ~₩760B           | ~S$1.5B         |
+| Indigenous rocket          | No                            | H3 ✅            | Nuri ✅          | No              |
+| Best optical resolution    | Sub-meter (2025)              | Sub-meter (2006) | Sub-meter (2006) | Commercial only |
+| Commercial space ecosystem | Emerging                      | Mature           | Mature           | Emerging        |
 
 Taiwan's competitive advantage isn't scale — it's manufacturing. The semiconductor supply chain, precision manufacturing capabilities, ICT industry infrastructure. Where Taiwan may win is not "building entire satellites" (where Japan and Korea have decades of advantage), but "building the few most critical components inside each satellite."
 
@@ -152,9 +152,16 @@ Taiwan is a satellite manufacturing power without its own rocket — but it has 
 4. [TechNews: TASA Plans NT$2.5B for Taiwan's LEO Communication Satellite Network](https://technews.tw/2025/03/30/tasa-6g-ntn-satellite/) (secondary, 2025)
 5. [TechNews: ONGLAISAT CubeSat Completes Mission After Three Months in Orbit](https://technews.tw/2025/02/05/tasa-onboard-globe-looking-and-imaging-satellite-onglaisat/) (secondary, 2025)
 6. [TechNews: YTTEK Technology Joins TASA's B5G LEO Satellite National Team](https://technews.tw/2026/02/03/yttek/) (secondary, 2026)
-7. [NSTC: Third-Phase National Space Technology Development Plan Approved](https://www.nstc.gov.tw/folksonomy/detail/a16b289c-4cd1-4ab1-b760-49a13ef229e2?l=ch) (primary, 2024)
-8. [Taiwan Space Agency (TASA) Official Website](https://www.tasa.org.tw/) (primary)
+7. [NSTC: Third-Phase National Space Technology Development Plan Approved](https://www.nstc.gov.tw/folksonomy/detail/a16b289c-4cd1-4ab1-b760-49a13ef229e2?l=ch) (primary, Third-Phase Plan original approval NT$25.1B / 2019–2028)
+8. [Audit Administration: Third-Phase National Space Technology Development Long-Term Plan Audit Report](https://www.audit.gov.tw/p/406-1000-11228,r12.php?Lang=zh-tw) (primary, timeline and budget verification)
+9. [UDN: Third-Phase Space Plan Expanded to NT$71 Billion, Timeline Extended to 2031](https://udn.com/news/story/7240/9211240) (secondary, Executive Yuan approval for expansion, 2025-10-20)
+10. [Taiwan Space Agency (TASA) Official Website](https://www.tasa.org.tw/) (primary)
 
 ---
 
-_See also: [Semiconductor Industry](/en/taiwan-semiconductor-industry/) · [Taiwan Startup Ecosystem](/en/technology/taiwan-startup-ecosystem/) · [Taiwan Electric Vehicle Industry Chain](/en/technology/taiwan-electric-vehicle-industry-chain/)_
+**Further Reading**:
+
+- [National Space Center](/technology/國家太空中心) — This article covers the industry chain; that article covers the institution behind it: how the National Space Center grew from a "preparatory office" into the administrative corporation TASA, assembling its name, legal status, land, and rocket plans one piece at a time.
+- [Semiconductor Industry](/technology/半導體產業) — The upstream foundation of the space industry; satellite chips come from the same supply chain
+- [Taiwan Startup Ecosystem](/economy/新創生態系) — How private space startups connect with the national program
+- [Taiwan 5G Network Development and Digital Transformation](/technology/台灣5G網路建設與數位轉型) — The resilient complementarity between satellite communications and ground-level 5G

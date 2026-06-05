@@ -16,13 +16,13 @@ category: 'Technology'
 author: 'Taiwan.md'
 readingTime: 14
 featured: true
-lastVerified: 2026-03-29
+lastVerified: 2026-06-04
 lastHumanReview: false
 translatedFrom: Technology/台灣太空產業發展.md
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:bce66d0a209761dc'
-sourceBodyHash: 'sha256:a7427d47ab9372d5'
-translatedAt: '2026-05-16T22:20:03Z'
+sourceCommitSha: 'f3baded5'
+sourceContentHash: 'sha256:e66143fe99e401f4'
+sourceBodyHash: 'sha256:f2a71a6d6f47c4eb'
+translatedAt: '2026-06-06T00:00:00Z'
 ---
 
 # Desarrollo de la industria espacial de Taiwán: potencia en fabricación de satélites, pero sin cohete propio
@@ -51,7 +51,7 @@ La historia de los siguientes quince años fue un proceso continuo de aprender d
 
 📝 **Lo importante no es solo la tecnología, sino su significado**: la existencia de FORMOSAT-5 significó que en Taiwán había un grupo de ingenieros capaces de construir un satélite de principio a fin. Ese grupo se convirtió después en el pilar central del programa FORMOSAT-8.
 
-En 2023, el «Centro Nacional Espacial (NSPO)» fue elevado a la entidad administrativa «Agencia Espacial de Taiwán (TASA)». No fue solo un cambio de nombre, sino una reorientación estratégica a nivel institucional. Detrás de esta elevación estaba el «Tercer Programa Espacial» anunciado por el gobierno: de 2024 a 2033, con un presupuesto total de 71,000 millones de dólares taiwaneses, un incremento superior al 180 % frente a los 25,100 millones del segundo programa. Tres objetivos: desarrollar una constelación de satélites de teledetección óptica (FORMOSAT-8), impulsar la industrialización de satélites de comunicaciones (cuatro satélites en órbita baja) y fomentar startups espaciales privadas.
+En 2023, el «Centro Nacional Espacial (NSPO)» fue elevado a la entidad administrativa «Agencia Espacial de Taiwán (TASA)». No fue solo un cambio de nombre, sino una reorientación estratégica a nivel institucional. Lo que sostuvo esa elevación fue el «Tercer Programa a Largo Plazo de Desarrollo de Tecnología Espacial Nacional», aprobado originalmente en 2019: presupuesto inicial de 25,100 millones de dólares taiwaneses para el período 2019-2028; el 20 de octubre de 2025, el Yuan Ejecutivo amplió ese mismo programa a 71,000 millones y extendió el plazo hasta 2031, es decir, casi 1,8 veces más de presupuesto. El programa apunta a tres objetivos: desarrollar una constelación de satélites de teledetección óptica (FORMOSAT-8), impulsar la industrialización de satélites de comunicaciones (cuatro satélites en órbita baja) y fomentar startups espaciales privadas.
 
 ---
 
@@ -87,7 +87,7 @@ Con un solo satélite, solo se puede fotografiar un lugar una vez al día. Con 8
 
 La constelación completa de FORMOSAT-8 consta de 8 satélites (6 de resolución submétrica más 2 de resolución submétrica original). Tras el lanzamiento del primero en noviembre de 2025, se prevén lanzamientos anuales hasta completar el despliegue en 2031. ¿Por qué tantos? Porque el mayor cuello de botella de la imagen satelital no es la resolución, sino la oportunidad temporal. Tras el terremoto de Hualien en 2024, fue necesario evaluar rápidamente el alcance de los daños; los cambios topográficos posteriores a un tifón o las inundaciones de tierras de cultivo requieren imágenes satelitales como evidencia. Actualmente, Taiwán depende de servicios satelitales comerciales; una vez completada la constelación de FORMOSAT-8, se dispondrá de capacidad autónoma de revisita múltiple diaria.
 
-> **Cifra clave**: la tasa actual de fabricación nacional de componentes clave del programa FORMOSAT-8 alcanza el 84 %, con el objetivo de elevarla al 95 % para 2030.
+> **Cifra clave**: la tasa de fabricación nacional de componentes clave del primer satélite de FORMOSAT-8 alcanza el 84 %; los satélites sucesivos tienen como objetivo ir elevando esa cifra generación a generación.
 
 La directora del programa, Liu Hsiao-ching, enfatizó que el proceso total de integración y pruebas de FORMOSAT-8 supera el año. Antes de enviar el satélite, debe pasar una serie de pruebas: compatibilidad electromagnética, vibración, acústica, vacío térmico, detonación de separación, entre otras. «No se puede descuidar ninguna fase, porque una vez que el satélite está arriba, no vuelve.»
 
@@ -119,16 +119,16 @@ El contexto técnico del programa de satélites de comunicaciones de Taiwán tam
 
 La desventaja de Taiwán está en la escala y en los cohetes: tanto en financiación como en tiempo de desarrollo, va casi veinte años por detrás de Japón y Corea del Sur. Pero las ventajas de Taiwán son concretas: la cadena de suministro de la [[semiconductor industry|industria de semiconductores]], la capacidad de manufactura de precisión y la base de la industria de TIC le otorgan una competitividad distinta en componentes satelitales y equipos terrestres.
 
-| Indicador                               | Taiwán                                 | Japón                       | Corea del Sur               | Singapur                             |
-| --------------------------------------- | -------------------------------------- | --------------------------- | --------------------------- | ------------------------------------ |
-| Presupuesto anual del programa espacial | Aprox. 7,100 millones TWD (desde 2024) | Aprox. 400,000 millones JPY | Aprox. 760,000 millones KRW | Aprox. 1,500 millones SGD            |
-| Cohete propio                           | No                                     | H3 ✅                       | Nuri ✅                     | No                                   |
-| Resolución de satélite de teledetección | Submétrica (2025)                      | Submétrica (2006)           | Submétrica (2006)           | Dependencia de servicios comerciales |
-| Ecosistema espacial comercial           | En desarrollo                          | Maduro                      | Maduro                      | En desarrollo                        |
+| Indicador                               | Taiwán                                                  | Japón                       | Corea del Sur               | Singapur                             |
+| --------------------------------------- | ------------------------------------------------------- | --------------------------- | --------------------------- | ------------------------------------ |
+| Presupuesto anual del programa espacial | Aprox. 5,500 millones TWD (71,000 M / promedio 13 años) | Aprox. 400,000 millones JPY | Aprox. 760,000 millones KRW | Aprox. 1,500 millones SGD            |
+| Cohete propio                           | No                                                      | H3 ✅                       | Nuri ✅                     | No                                   |
+| Resolución de satélite de teledetección | Submétrica (2025)                                       | Submétrica (2006)           | Submétrica (2006)           | Dependencia de servicios comerciales |
+| Ecosistema espacial comercial           | En desarrollo                                           | Maduro                      | Maduro                      | En desarrollo                        |
 
 Donde las empresas taiwanesas tienen mayor oportunidad de incursión no es en «construir satélites completos» (Japón y Corea del Sur llevan décadas de ventaja), sino en «fabricar esos pocos componentes clave de los que depende el éxito o fracaso de todo el satélite». Los sensores CMOS TDI, los módulos de comunicación SDR y los componentes electrónicos resistentes a la radiación son direcciones en las que la [[semiconductor industry|industria de semiconductores]] puede diferenciarse en el ámbito espacial. Dentro del ecosistema de startups (新創生態系), cada vez más empresas lo ven como el próximo nicho posible.
 
-Corea del Sur probó su cohete autónomo Nuri en 2021 y logró la inserción orbital en 2023: de desarrollo a éxito pasaron 12 años, con una inversión superior a 2 billones de wones coreanos (aproximadamente 50,000 millones de TWD). El cohete H3 de Japón falló en su primer vuelo pero tuvo éxito en 2024, con un costo de desarrollo superior a 200,000 millones de yenes japoneses. El tercer programa espacial de Taiwán, con 71,000 millones de TWD en 10 años, equivale a aproximadamente 1.4 veces el presupuesto del solo programa Nuri de Corea del Sur, pero debe cubrir tres frentes: satélites, comunicaciones y startups. Con presupuesto limitado, la estrategia de TASA es «no hacer cohetes, centrarse en satélites y sensores»: aprovechar la ventaja manufacturera de la [[semiconductor industry|industria de semiconductores]] para insertarse en la cadena de suministro espacial, en lugar de competir directamente en capacidad de lanzamiento. El desarrollo de la cadena industrial de vehículos eléctricos de Taiwán (台灣電動車產業鏈發展) siguió un camino similar: comenzar por la manufactura bajo contrato, acumular capacidad en componentes clave y luego escalar hacia la integración de sistemas.
+Corea del Sur probó su cohete autónomo Nuri en 2021 y logró la inserción orbital en 2023: de desarrollo a éxito pasaron 12 años, con una inversión superior a 2 billones de wones coreanos (aproximadamente 50,000 millones de TWD). El cohete H3 de Japón falló en su primer vuelo pero tuvo éxito en 2024, con un costo de desarrollo superior a 200,000 millones de yenes japoneses. El tercer programa espacial de Taiwán, con 71,000 millones de TWD en 13 años (2019-2031), equivale a aproximadamente 1.4 veces el presupuesto del solo programa Nuri de Corea del Sur, pero debe cubrir tres frentes: satélites, comunicaciones y startups. Con presupuesto limitado, la estrategia de TASA es «no hacer cohetes, centrarse en satélites y sensores»: aprovechar la ventaja manufacturera de la [[semiconductor industry|industria de semiconductores]] para insertarse en la cadena de suministro espacial, en lugar de competir directamente en capacidad de lanzamiento. El desarrollo de la cadena industrial de vehículos eléctricos de Taiwán (台灣電動車產業鏈發展) siguió un camino similar: comenzar por la manufactura bajo contrato, acumular capacidad en componentes clave y luego escalar hacia la integración de sistemas.
 
 ---
 
@@ -148,13 +148,16 @@ Taiwán es una potencia en fabricación de satélites y aún no tiene cohete pro
 4. [TechNews: TASA planea invertir 2,500 millones para lanzar satélites de comunicaciones en órbita baja con la industria](https://technews.tw/2025/03/30/tasa-6g-ntn-satellite/) (secundaria, 2025)
 5. [TechNews: El satélite cúbico Onglaisat cumple su misión tres meses después del lanzamiento](https://technews.tw/2025/02/05/tasa-onboard-globe-looking-and-imaging-satellite-onglaisat/) (secundaria, 2025)
 6. [TechNews: YTTEK se incorpora al equipo nacional de satélites de comunicaciones en órbita baja B5G](https://technews.tw/2026/02/03/yttek/) (secundaria, 2026)
-7. [Consejo Nacional de Ciencia: El Yuan Ejecutivo aprueba formalmente el tercer programa a largo plazo de desarrollo de tecnología espacial nacional](https://www.nstc.gov.tw/folksonomy/detail/a16b289c-4cd1-4ab1-b760-49a13ef229e2?l=ch) (primaria, 2019/2024)
-8. [Sitio web oficial de la Agencia Espacial de Taiwán (TASA)](https://www.tasa.org.tw/) (primaria)
+7. [Consejo Nacional de Ciencia: El Yuan Ejecutivo aprueba formalmente el tercer programa a largo plazo de desarrollo de tecnología espacial nacional](https://www.nstc.gov.tw/folksonomy/detail/a16b289c-4cd1-4ab1-b760-49a13ef229e2?l=ch) (primaria, tercer programa aprobado originalmente con 25,100 millones / 2019-2028)
+8. [Tribunal de Cuentas: informe de auditoría del tercer programa a largo plazo de desarrollo de tecnología espacial nacional](https://www.audit.gov.tw/p/406-1000-11228,r12.php?Lang=zh-tw) (primaria, verificación de plazo y presupuesto)
+9. [UDN: tercer programa espacial ampliado a 71,000 millones; plazo extendido hasta 2031](https://udn.com/news/story/7240/9211240) (secundaria, aprobación del Yuan Ejecutivo el 20/10/2025)
+10. [Sitio web oficial de la Agencia Espacial de Taiwán (TASA)](https://www.tasa.org.tw/) (primaria)
 
 ---
 
 **Lectura complementaria**:
 
+- [Centro Nacional Espacial](/technology/國家太空中心) — este artículo trata la cadena industrial; aquel artículo trata la institución detrás: cómo el Centro Nacional Espacial pasó de una «oficina de preparación» a la entidad administrativa TASA, reuniendo nombre, personalidad jurídica, terreno y cohete, uno por uno.
 - [Industria de semiconductores](/technology/半導體產業) — la base de la cadena de suministro para la industria espacial; los chips satelitales provienen de la misma cadena
 - [Ecosistema de startups](/economy/新創生態系) — cómo las startups espaciales privadas se conectan con los programas nacionales
 - [Construcción de redes 5G y transformación digital en Taiwán](/technology/台灣5G網路建設與數位轉型) — complementariedad resiliente entre comunicaciones satelitales y 5G terrestre

@@ -2,19 +2,27 @@
 title: "L'industrie taïwanaise de la fabrication d'instruments de musique : des saxophones de Houli aux usines musicales mondiales"
 description: "Explorez l'évolution de l'industrie taïwanaise de la fabrication d'instruments de musique, de la position dominante mondiale des saxophones de Houli au royaume de la sous-traitance de guitares, en passant par la précision artisanale de la fabrication de boîtes à musique, et découvrez comment Taïwan est passé de la sous-traitance à la création de marques propres."
 date: 2026-03-19
-author: "Taiwan.md"
-category: "Music"
-subcategory: "樂器與製造"
-tags: ["fabrication d'instruments", "saxophones de Houli", "sous-traitance de guitares", "boîtes à musique", "industrie manufacturière", "artisanat taïwanais"]
+author: 'Taiwan.md'
+category: 'Music'
+subcategory: '樂器與製造'
+tags:
+  [
+    "fabrication d'instruments",
+    'saxophones de Houli',
+    'sous-traitance de guitares',
+    'boîtes à musique',
+    'industrie manufacturière',
+    'artisanat taïwanais',
+  ]
 readingTime: 13
 lastVerified: 2026-03-19
 lastHumanReview: false
 featured: true
-translatedFrom: "Music/台灣樂器製造.md"
-sourceCommitSha: "f712b7242"
-sourceContentHash: "sha256:dd45e3ed9087901c"
-sourceBodyHash: "sha256:c400829f2d36e900"
-translatedAt: "2026-05-17T05:34:56+08:00"
+translatedFrom: 'Music/台灣樂器製造.md'
+sourceCommitSha: 'ce74fa26'
+sourceContentHash: 'sha256:d7bd090bae6990bf'
+sourceBodyHash: 'sha256:381c1171bf2bf67f'
+translatedAt: '2026-06-06T00:00:00Z'
 ---
 
 # L'industrie taïwanaise de la fabrication d'instruments de musique : des saxophones de Houli aux usines musicales mondiales
@@ -300,12 +308,21 @@ Chaque fois que des musiciens du monde entier jouent sur des instruments fabriqu
 ## Références
 
 [^1]: [Site officiel de Jupiter Music](http://www.jupitermusic.com/) — Historique de la marque Jupiter
+
 [^2]: [Site officiel du Musée du saxophone Zhang Lianchang](http://www.sax.org.tw/) — Histoire de l'industrie du saxophone à Houli
+
 [^3]: [Présentation de l'industrie du saxophone par le bureau de district de Houli](https://www.houli.taichung.gov.tw/) — Données officielles sur l'industrie
+
 [^4]: [Xieying Industrial Co., Ltd.](http://www.sankyo-taiwan.com.tw/) — Fabrication de boîtes à musique à Taïwan
-[^5]: *Histoire du développement de l'industrie taïwanaise de la fabrication d'instruments de musique*, Institut de recherche technologique industriel (ITRI), 2015 ([itri.org.tw](https://www.itri.org.tw/)) — Rapport de recherche industrielle
-[^6]: *Étude du pôle industriel du saxophone à Houli*, Université des sciences et technologies de Taichung, 2018 ([nutc.edu.tw](http://www.nutc.edu.tw/)) — Rapport de recherche académique
-[^7]: *L'essor et le déclin de l'industrie taïwanaise de la sous-traitance de guitares*, CommonWealth Magazine, 2010 ([cw.com.tw](https://www.cw.com.tw/)) — Article d'analyse industrielle
+
+[^5]: _Histoire du développement de l'industrie taïwanaise de la fabrication d'instruments de musique_, Institut de recherche technologique industriel (ITRI), 2015 ([itri.org.tw](https://www.itri.org.tw/)) — Rapport de recherche industrielle
+
+[^6]: _Étude du pôle industriel du saxophone à Houli_, Université des sciences et technologies de Taichung, 2018 ([nutc.edu.tw](http://www.nutc.edu.tw/)) — Rapport de recherche académique
+
+[^7]: _L'essor et le déclin de l'industrie taïwanaise de la sous-traitance de guitares_, CommonWealth Magazine, 2010 ([cw.com.tw](https://www.cw.com.tw/)) — Article d'analyse industrielle
+
 [^8]: [Musée de la boîte à musique du lac Sun Moon](http://www.musicbox.com.tw/) — Vitrine de l'industrie de la boîte à musique
+
 [^9]: [Statistiques de l'industrie de la fabrication d'instruments du ministère des Affaires économiques](https://www.moea.gov.tw/) — Statistiques officielles de l'industrie
-[^10]: *Études de cas d'entreprises championnes cachées taïwanaises*, Académie de l'économie de Chine, 2019 ([cier.edu.tw](http://www.cier.edu.tw/)) — Analyse de la compétitivité manufacturière
+
+[^10]: _Études de cas d'entreprises championnes cachées taïwanaises_, Académie de l'économie de Chine, 2019 ([cier.edu.tw](http://www.cier.edu.tw/)) — Analyse de la compétitivité manufacturière

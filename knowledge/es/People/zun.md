@@ -19,10 +19,10 @@ lastVerified: 2026-06-03
 lastHumanReview: false
 featured: false
 translatedFrom: 'People/尊.md'
-sourceCommitSha: 'e9a16926e'
-sourceContentHash: 'sha256:819aa11b63d4ce35'
-sourceBodyHash: 'sha256:3521b01769e0a2d4'
-translatedAt: '2026-06-03T00:36:19+08:00'
+sourceCommitSha: 'aeb8b0e4'
+sourceContentHash: 'sha256:0d80278055d155a0'
+sourceBodyHash: 'sha256:44a77176cac892eb'
+translatedAt: '2026-06-06T00:00:00Z'
 ---
 
 > **Panorama en 30 segundos:**
@@ -139,7 +139,7 @@ Para el público que creció viendo a Zun durante la ola de 2014-2018, este art�
 
 **Lecturas ampliadas**:
 
-- [HowHow](/people/howhow) — YouTuber millonario de la misma época y otro modelo de transformación: el rey de las publicidades integradas
+- [HowHow](/people/Howhow) — YouTuber millonario de la misma época y otro modelo de transformación: el rey de las publicidades integradas
 - [Tsai Aga](/people/蔡阿嘎) — Referencia en profundidad de un YouTuber taiwanés 14 años mayor que Zun que completó la ruta familiar
 - [Historia de YouTube en Taiwán](/culture/台灣youtube發展史) — Panorama completo desde el período de gestación de 2010 hasta la gran retirada de 2024
 

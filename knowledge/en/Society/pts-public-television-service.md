@@ -19,10 +19,10 @@ lastVerified: '2026-05-27'
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/公視.md'
-sourceCommitSha: '31b44ba1d'
-sourceContentHash: 'sha256:e0c32df83dc8d9c2'
-sourceBodyHash: 'sha256:350b52df52cdd2ac'
-translatedAt: '2026-05-28T05:08:33+08:00'
+sourceCommitSha: 'aaa69aba'
+sourceContentHash: 'sha256:941a68e0174e1033'
+sourceBodyHash: 'sha256:b772fb26a3100193'
+translatedAt: '2026-06-05T16:40:22Z'
 ---
 
 > **30-second overview:**
@@ -167,10 +167,12 @@ Perhaps the next 28 years will give an answer. Perhaps they will not. But one th
 **Further Reading**:
 
 - [Taiwan Media and Press Freedom](/society/台灣媒體與新聞自由) — PTS as one part of the media ecosystem, and its interaction with the broader environment of press freedom
+- [CommonWealth Magazine](/society/天下雜誌) — How a commercial financial media outlet tackles the same question of "who media should be accountable to," surviving on paid subscribers and a corporate ecosystem — a contrast with PTS's public-funding path
 - [Taiwan Variety Shows](/culture/台灣綜藝) — A comparison with commercial television variety programs, for understanding why PTS chose to make dramas and documentaries
 - [Taiwan Film and Television Scores](/music/台灣影視配樂) — The place of PTS flagship-drama scores within Taiwan's music industry
 - [Taiwan Animation Outsourcing](/economy/台灣動畫代工) — A comparison with the commercial IP industry, showing the different logic behind PTS's choices in animation subject matter
 - [Traditional Festivals and Celebrations](/culture/傳統節慶與慶典) — The long-term contribution of PTS's Documentary Viewpoint to preserving Taiwan's cultural memory
+- [Taiwan Design Research Institute](/society/台灣設計研究院) — Another government-funded foundation walking the tightrope between "being seen" and publicness, turning design into a way for the government to serve the people
 
 ## Image Sources
 

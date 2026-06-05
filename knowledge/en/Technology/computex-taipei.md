@@ -1,220 +1,264 @@
 ---
-title: 'Computex: Of the Three Major International Computer Shows, Two Have Closed; the Remaining One Grew in Taipei'
-description: "In June 2026, Jensen Huang took the stage in Taipei and said, “It is good to be home,” with a backdrop printed with rice dumplings and pork knuckle. Computex began in 1981 as an export trade show for small and medium-sized enterprises beside Songshan Airport, and grew into the place where global AI giants make their annual pilgrimage. Germany's CeBIT and the United States' COMDEX have both shut down, yet this 45-year-old Taipei computer show keeps getting bigger, because it is held on the island where nearly 90 percent of the world's AI servers are actually assembled."
-date: 2026-06-01
-author: 'Taiwan.md'
+title: 'Computex: Two of the Three Major International Computer Shows Have Folded, the Remaining One Grows in Taipei'
+description: 'In June 2026, Jensen Huang took the stage in Taipei and said, “It’s great to be home,” while the backdrop displayed images of rice dumplings and pork knuckles. Starting in 1981 as a small export exhibition for SMEs beside Songshan Airport, Computex has become the pilgrimage site for global AI giants each May‑June. While Germany’s CeBIT and the United States’ COMDEX have shut down, this 45‑year‑old Taipei computer show continues to expand because it is held on the island where nearly ninety percent of AI servers are actually assembled.'
+date: '2026-06-01'
 category: 'Technology'
 subcategory: '半導體與硬體'
 tags:
-  [
-    'Computex',
-    'Taipei International Computer Show',
-    'Jensen Huang',
-    'NVIDIA',
-    'AI servers',
-    'Semiconductors',
-    'Stan Shih',
-    'Supply chain',
-    'CeBIT',
-    'AI Together',
-  ]
-readingTime: 21
-lastVerified: 2026-06-01
-lastHumanReview: false
+  - 'Computex'
+  - '台北國際電腦展'
+  - '黃仁勳'
+  - 'NVIDIA'
+  - 'AI伺服器'
+  - '半導體'
+  - '施振榮'
+  - '供應鏈'
+  - 'CeBIT'
+  - 'AI Together'
+author: 'Taiwan.md'
 featured: true
+lastVerified: '2026-06-04'
+lastHumanReview: false
+readingTime: '21'
 translatedFrom: 'Technology/Computex.md'
-sourceCommitSha: '3951afb08'
-sourceContentHash: 'sha256:16c856a6feac48b7'
-sourceBodyHash: 'sha256:1926b4a36696a1f7'
-translatedAt: '2026-06-02T00:39:59+08:00'
+sourceCommitSha: 'c6ff13fe2'
+sourceContentHash: 'sha256:d37367135548def0'
+sourceBodyHash: 'sha256:bb5555703c8ada78'
+translatedAt: '2026-06-06T00:51:18+08:00'
 ---
 
-# Computex: Of the Three Major International Computer Shows, Two Have Closed; the Remaining One Grew in Taipei
+# Computex: Two of the Three Major International Computer Shows Have Folded, the Remaining One Grows in Taipei
 
-> **30-second overview:** Computex, the Taipei International Computer Show, turns 45 this year. It began in 1981 as an export trade show for small and medium-sized enterprises beside Songshan Airport, and grew into the stage that global AI giants must visit every year in late May and early June. Its two major contemporaneous rivals, Germany’s CeBIT and the United States’ COMDEX, have both shut down; only Computex has kept getting bigger. The theme for 2026 is “AI Together.” Jensen Huang took the stage in Taipei, and his first words were: “It is good to be home.” Why does the global technology industry fly to Taipei every year in late May? The answer is hidden in a hard, cold number: research institutions estimate that nearly 90 percent of the world’s AI servers are assembled on this island.
+> **30‑second overview:** Computex Taipei turns 45 this year. Originating in 1981 as an export exhibition for small‑ and medium‑sized enterprises beside Songshan Airport, it has become the must‑attend stage for global AI giants at the end of May and early June. Its two contemporaries—Germany’s CeBIT and the United States’ COMDEX—have both shut down, leaving Computex to grow ever larger. The 2026 theme is “AI Together,” and Jensen Huang opened the Taipei stage with the line “It’s great to be home.” Why does the global tech industry flock to Taipei every year’s end of May? The answer lies in a stark figure: research institutes estimate that nearly ninety percent of the world’s AI servers are assembled on this island.
 
-## It Is Good to Be Home
+## “It’s Great to Be Home”
 
-On the morning of June 1, 2026, in Taipei, Jensen Huang took the stage. His first words were: “It is good to be home.”[^1]
+On the morning of 1 June 2026 in Taipei, Jensen Huang stepped onto the stage and opened with, “It’s great to be home.”[^1]
 
-On the large presentation backdrop behind him were not chip model numbers, but the names of Taiwanese snack shops such as Wangji Fucheng Rice Dumplings and Fu Ba Wang Pork Knuckle.[^1] A boy from Tainan who moved to the United States at age nine and later founded, in California, the company with the world’s highest market capitalization[^2] had returned to Taipei and called this place “home,” and “where it all began.”[^1]
+Behind him, the massive presentation backdrop listed not chip models but the names of local snack stalls—Wang Ji Fu‑Cheng rice dumplings and Fu Bang Wang pork knuckles—rather than technical specifications.[^1] A Tainan‑born boy who moved to the United States at nine and later founded the world’s most valuable company in California returned to Taipei, calling it “home” and “the starting point of everything.”[^1]
 
-In that speech, he unveiled the next-generation computing chip codenamed Vera Rubin, announced that it had “fully entered production,” and showed a chip called N1X, describing it as “the world’s most amazing chip.” He spoke of “useful AI” having arrived, and of “agentic AI” arriving.[^1] But what the audience may remember most clearly was still the backdrop filled with rice dumplings and pork knuckle.
+In that speech he unveiled the next‑generation compute chip codenamed **Vera Rubin**, announcing its full‑scale production, and also showcased a chip called **N1X**, described as “the world’s most astonishing chip.” He spoke of “useful AI arriving” and “agent AI arriving.”[^1] Yet what the audience remembered most was the backdrop featuring rice dumplings and pork knuckles.
 
-The show where he stood is called COMPUTEX, the Taipei International Computer Show. This year it is 45 years old. And he was not the only one who poured into Taipei that week: AMD’s Lisa Su, Intel’s Lip-Bu Tan, and Qualcomm’s Cristiano Amon joined him, with the CEOs of four global technology giants speaking on the same stage. TAITRA chairman James Huang did the math: the combined market capitalization of the companies represented by the four keynote speakers and nearly 30 forum speakers exceeded US$10 trillion.[^3]
+The exhibition he addressed is called **COMPUTEX**, the Taipei International Computer Show, now 45 years old. That same week, not only Huang but also AMD’s **Soo‑zef Su**, Intel’s **Chen Li‑wu**, and Qualcomm’s **Cristiano Amon**—four CEOs of global tech giants—took the stage. TAITRA chairman **Huang Chih‑fang** calculated that the combined market value of the companies represented by the four keynote speeches and the nearly thirty speakers’ firms exceeded ten trillion USD.[^3]
 
-> **📝 Curator’s Note**
-> One question is worth pausing over: why do several of the world’s most valuable technology companies choose Taipei, and choose a computer show that began beside Songshan Airport in 1981, to announce their most important products? The conventional explanation is the “Jensen Huang effect”: a Taiwanese American star CEO brought the world’s attention to Taiwan. But this explanation gets cause and effect backward. Huang returned to a place that was already impossible to bypass. To understand this, we have to begin with the small exhibition 45 years ago that no one expected much from.
+> **📝 Curator’s note**  
+> A question worth pausing on: why do the world’s highest‑valued tech companies choose Taipei, a computer show that started in 1981 beside Songshan Airport, to unveil their most critical products? The common answer is the “Jensen Huang whirlwind,” a Taiwanese‑American star CEO drawing global attention to Taiwan. That explanation reverses cause and effect. Huang returned to a place that was already unavoidable. To understand this, we must go back to the modest exhibition of 45 years ago that nobody expected to thrive.
 
-## The Export Trade Show Beside Songshan Airport
+## The Export Exhibition Beside Songshan Airport
 
-In 1981, Taiwan’s personal computer industry was just beginning to sprout. That year’s first exhibition had a plain name: the “Taipei Computer Show.” It was held at the TAITRA Exhibition Hall beside Songshan Airport, and organized by the Taipei Computer Association.[^4][^5]
+In 1981 Taiwan’s personal‑computer industry was just budding. The inaugural exhibition was simply named the **Taipei City Computer Exhibition**, held at the TAITRA exhibition hall beside Songshan Airport and organized by the **Taipei City Computer Business Association**.[^4][^5]
 
-Its initial function was practical: to give Taiwan’s newly emerging small and medium-sized computer companies booth space, so they could lay out motherboards and components and sell them to foreign buyers visiting Taiwan for procurement.[^5] This was the era of “Taiwan money flooding up to the ankles,” when the electronic parts culture of Guanghua Market was about to spill outward into an export business. This show was the annual gathering point for that business.
+Its initial purpose was practical: give Taiwan’s fledgling computer SMEs a booth to display motherboards and components to foreign buyers visiting Taiwan.[^5] It was an era of “money‑driven growth,” when the electronics‑parts culture of the Guanghua Mall was about to spill over into export business, and this show was the annual gathering point for that trade.
 
-At the second edition, there were only 40 exhibitors.[^4] No one would have imagined that, more than four decades later, that number would become 1,500 companies and 6,000 booths.[^6]
+The second edition featured only 40 exhibitors.[^4] No one could have imagined that, more than four decades later, the number would swell to 1 500 companies occupying 6 000 booths.[^6]
 
-## The Year Stan Shih Changed the Name
+## The Year Stan Shih Changed the Name
 
-1984 was a turning point. According to Wikipedia and multiple reports, Stan Shih, then chairman of the Taipei Computer Association and later the founder of Acer, made the decision to formalize the show’s English name as “COMPUTEX TAIPEI.”[^4][^5] A naming act by a local engineer gave an exhibition originally meant only for Taiwanese manufacturers a signboard facing the world.
+![Stan Shih at the 2014 Taipei IT Month press event, wearing a dark suit, surrounded by microphones and cameras; the backdrop shows the IT Month exhibition hall.](/article-images/technology/stan-shih-taipei-it-month-2014.jpg)
+_Stan Shih, founder of Acer. In 1984 he renamed the “Taipei City Computer Exhibition” to **COMPUTEX TAIPEI**, giving the show a globally recognizable brand; the photo shows him speaking at Taipei IT Month in 2014. Photo: Tony Tseng, 2014‑12‑05. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stan_Shih_at_Taipei_IT_Month_20141205a.jpg)._
 
-The following year, beginning with the fifth edition in 1985, the semi-official Taiwan External Trade Development Council, or TAITRA, joined as co-organizer, and the Chinese name was changed to “Taipei International Computer Show.”[^4] From then on, Computex had two engines: an industry association that understood the sector and stayed close to manufacturers’ needs, and a trade promotion organization with the resources to push the exhibition international. With both engines turning, the show began to climb.
+1984 marked a turning point. According to Wikipedia and multiple reports, the then‑chairman of the Taipei City Computer Business Association, **Stan Shih**—who would later found Acer—approved the English name **COMPUTEX TAIPEI**.[^4][^5] This locally driven naming move gave a show that had previously catered only to Taiwanese manufacturers a sign that faced the world.
 
-By 1989, it was already Asia’s largest computer show and the world’s third largest, behind only CeBIT in Hanover, Germany, and COMDEX in the United States.[^4] That was the golden age of Taiwan’s PC contract manufacturing. ASUS, Gigabyte, MSI, and other later global brands all walked out from the booths of this show.
+The following year, starting with the fifth edition in 1985, the semi‑official **Taiwan External Trade Development Council (TAITRA)** joined as co‑organizer, and the Chinese name was changed to **Taipei International Computer Exhibition**.[^4] From then on the show had two engines: a private association that understood industry needs, and a trade‑promotion agency with resources to push the exhibition internationally. The two engines together propelled the show upward.
 
-> **💡 Did You Know?**
-> Computex’s venues were not “moved” into existence; they grew. From the Songshan Airport venue in 1981, to the World Trade Center Exhibition Hall on Xinyi Road from 1986, then the Taipei International Convention Center, World Trade Center Hall 2, and Hall 3, and from 2008 Taipei Nangang Exhibition Center Hall 1 and later Hall 2 as well.[^4] It expanded its exhibition grounds outward all the way, like a tree gradually growing new branches without ever changing pots.
+By 1989 it had become Asia’s largest computer exhibition and the world’s third‑largest, trailing only Germany’s **CeBIT** in Hanover and the United States’ **COMDEX**.[^4] This was the golden era of Taiwan’s PC OEM boom, when brands such as ASUS, Gigabyte and MSI emerged from booths at this very show.
 
-## Three Major Computer Shows; Two Died
+> **💡 Did you know?**  
+> Computex’s venue did not “move” outward; it **grew** outward. From the 1981 Songshan Airport hall, to the permanent 1986 venue at the Xinyi‑Road World Trade Center, then adding the Taipei International Convention Center, the World Trade Center’s Hall 2 and Hall 3, and from 2008 incorporating Nangang Exhibition Hall Hall 1 (later Hall 2), the site has expanded like a tree sprouting new branches—never transplanted.
 
-Entering the 2000s, the balance among the world’s three major computer shows began to tilt.
+## Two of the Three Global Computer Shows Have Died
 
-The first to fall was COMDEX in the United States. In 2003, as COMDEX declined, Computex’s organizers officially incorporated Taipei World Trade Center Hall 3 into the exhibition area. That year, Computex formally climbed to become the world’s second-largest computer show, behind only CeBIT, and in 2004 it established the scale of operating across four halls at once.[^4][^5]
+Entering the new millennium, the balance among the world’s three major computer shows began to tip.
 
-Germany’s CeBIT lasted longer. CeBIT was spun off from the long-running Hannover Messe in 1986, and at the height of the internet bubble it once reached 850,000 visitors, making it indisputably the world’s number one.[^7] But after reaching its peak it declined. Visitor and exhibitor numbers fell year after year, while the market was carved up piece by piece by CES in January, MWC in February, Computex in June, and IFA in September. In November 2018, the organizer announced that CeBIT would pass into history.[^7]
+The first to fall was the United States’ **COMDEX**. In 2003, as COMDEX declined, Computex’s organizers incorporated Taipei World Trade Center Hall 3 into the exhibition area, officially becoming the “second‑largest computer show in the world, behind only CeBIT.” In 2004 the four‑hall format was solidified.[^4][^5]
 
-In its report on CeBIT’s closure, Taiwan’s Central News Agency made one pointed observation: “The Taipei International Computer Show (Computex), held every June, has a geographic advantage for Asian manufacturers seeking orders, and its scale has continued to expand.”[^7]
+![Crowds at CeBIT 2005 in Hanover, Germany, with rows of vendor booths lining the wide aisles and high ceilings.](/article-images/technology/cebit-hannover-2005.jpg)
+_The 2005 CeBIT exhibition in Hanover, Germany. At the height of the dot‑com bubble it attracted 850 000 visitors, making it the undisputed world‑leading computer show; it announced its closure in 2018. Photo: Florian K, 2005‑03‑16. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cebit_Hannover_2004.JPG)._
 
-The phrase “geographic advantage” is the key to the whole matter.
+The longer‑lasting rival was Germany’s **CeBIT**. CeBIT split off from the historic Hanover industrial fair in 1986 and, during the dot‑com boom, peaked at 850 000 visitors, becoming the world’s number‑one computer show.[^7] Yet as the boom faded, attendance and exhibitor numbers steadily declined, with the market being divided among January’s **CES**, February’s **MWC**, June’s **Computex**, and September’s **IFA**. In November 2018 the organizers announced CeBIT’s closure.[^7]
 
-Of the three major computer shows, COMDEX closed in 2003, CeBIT closed in 2018, and the one that remains grew in Taipei. Why was Computex the one that survived?
+A Central News Agency (CNA) report on CeBIT’s shutdown quoted the agency: “Every June, the Taipei International Computer Show (Computex) offers Asian manufacturers a geographic advantage, and its scale keeps expanding.”[^7]
 
-> **📝 Curator’s Note**
-> The common online claim is that “Jensen Huang made Computex great again.” But this gets the chronology backward. COMDEX and CeBIT had already died before the AI wave arrived, while Computex had been expanding long before that. What do exhibitions follow? They follow orders, and orders follow manufacturing. The shows in Germany and the United States were held where “demand” was: buyers, media, product launches. The show in Taipei was held where “supply” was, meaning where things were actually made. When an industry enters a stage in which “who can build it” becomes scarcer than “who can imagine it,” the exhibition held at the manufacturing end wins. Exhibitions do not grow out of thin air. They grow where things are actually made.
+The phrase “geographic advantage” is the key.
 
-## The Six Thousand Booths No One Photographs
+Thus, of the three historic computer shows, COMDEX folded in 2003, CeBIT folded in 2018, and the one that survived **grew in Taipei**. Why did it endure?
 
-![Exterior of Nangang Exhibition Center Hall 1, a glass-curtain-wall building carrying a large COMPUTEX TAIPEI exhibition sign, with crowds of badge-wearing visitors gathered at the entrance waiting to enter; this is the main venue of the Taipei International Computer Show in recent years](/article-images/technology/computex-nangang-exterior-2016.jpg)
-_Taipei Nangang Exhibition Center, COMPUTEX’s main venue in recent years. Every year in late May and early June, buyers from more than a hundred countries crowd into this place. Photo: NVIDIA Taiwan, 2016-05-31. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Computex_Taipei_at_Taipei_Nangang_Exhibition_Center_20160531.jpg)._
+> **📝 Curator’s note**  
+> The common internet narrative is “Jensen Huang made Computex great again.” That narrative reverses chronology. COMDEX and CeBIT died before the AI wave, while Computex had already been expanding. What drives an exhibition? Orders. Orders follow manufacturing. German and American shows were held where **demand** gathered: buyers, media, product launches. Taipei’s show is held where **supply** is created—the place where the actual hardware is built. When an industry reaches a stage where “who can make it” becomes scarcer than “who can imagine it,” a supply‑side exhibition wins. Exhibitions do not grow in a vacuum; they grow where the things are actually manufactured.
 
-The media’s cameras are always aimed at the keynote stage, at those few CEOs. But Computex’s real body is its 6,000 booths.[^6]
+## The Six‑Thousand Booths No One Films
 
-Most of those booths do not belong to any brand you can name. They are small and medium-sized companies making cases, cooling systems, power supplies, and connectors. No one will write a feature story about them, but without them, an AI server cannot be assembled. Starting with the export trade show beside Songshan Airport in 1981, these “unphotographed” small and medium-sized enterprises have always been the skeleton of the show. Take, for example, Auras and Shuang Hong, which make cold plates and quick connectors. Ordinary people may never have heard their names, but they are indispensable cooling links inside NVIDIA’s scorching AI racks.
+![Exterior of Nangang Exhibition Hall Hall 1, with a large COMPUTEX TAIPEI banner on the glass curtain wall; crowds with badges line the entrance. This is the main venue for recent Taipei International Computer Exhibitions.](/article-images/technology/computex-nangang-exterior-2016.jpg)
+_The Nangang Exhibition Hall, the recent main venue for Computex. Every late May‑early June, buyers from hundreds of countries converge here. Photo: NVIDIA Taiwan, 2016‑05‑31. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Computex_Taipei_at_Taipei_Nangang_Exhibition_Center_20160531.jpg)._
 
-This is precisely what makes Computex most different from other technology shows. In essence, it is a B2B procurement site. Foreign buyers come here to place orders. Because the show is held on the island where the supply chain is densest, buyers can walk a few booths and assemble the components of an entire machine. That kind of efficiency cannot be offered by a Silicon Valley launch event.
+Media always focus on the keynote stage and the CEOs. But Computex’s real body is those 6 000 booths.[^6]
 
-## The Decade When “The PC Is Dead”
+The overwhelming majority of booths belong to SMEs that make chassis, cooling solutions, power supplies, connectors, and other components. They rarely receive individual press coverage, yet without them an AI server cannot be assembled. Since the 1981 export exhibition, these “unfilmed” SMEs have formed the show’s backbone. For example, companies like **Qihong** and **Shuang‑Hong**, which produce water‑cooling plates and quick‑connectors, are unknown to most, yet they are indispensable to NVIDIA’s scorching AI cabinets.
 
-Computex, however, did not have only smooth sailing.
+This is what sets Computex apart from other tech shows. It is fundamentally a B2B procurement arena; foreign buyers come to place orders. Held on the island with the densest supply chain, a buyer can walk a handful of booths and gather all the parts needed for a complete machine—efficiency that Silicon Valley launch events cannot match.
 
-In 2012, global PC shipments declined for the first time, and this show that had begun with the PC entered a downturn with them.[^5] The claim that “the PC is dead” began to spread, while smartphones carried away consumers’ attention wholesale. In 2014, even Lenovo, the leading PC maker, was absent, and some began questioning whether Computex had been reduced to a feel-good event for Taiwan’s own brands. In 2015, an article circulating in technology circles across Taiwan and China put it bluntly in the headline: “The Declining ComputeX, a Game Close to Self-Amusement.”[^5]
+## The “PC Is Dead” Decade
 
-That was also the most awkward era for Computex’s image. In its early years, it was famous for halls full of show girls. In 2018, this drew criticism from foreign media for objectifying women and for marketing attitudes stuck in the previous century. The following year, TAITRA stepped in and encouraged exhibitors to use more creative marketing. Although it did not issue an explicit ban, show girls became noticeably fewer on the exhibition floor.[^8]
+Computex has not always sailed smoothly.
 
-Crisis forced transformation. In 2016, Computex established the startup exhibition InnoVEX, extending the show’s reach from mature PC hardware toward artificial intelligence, the Internet of Things, and startup teams.[^6] The show’s official positioning was also quietly rewritten from a “computer show” into a “leading global AIoT and startup industry show.”[^4] In 2020, the pandemic interrupted the physical exhibition, and the organizers moved it online, surviving the hardest year.[^4]
+In 2012 global PC shipments fell for the first time, and the PC‑originated show followed suit.[^5] The “PC is dead” narrative spread as smartphones captured consumer attention. In 2014 even PC leader **Lenovo** was absent, prompting doubts that Computex had become a self‑indulgent platform for Taiwanese brands. In 2015 an article circulating in cross‑Strait tech circles titled “The Declining Computex, a Self‑Amusing Game” criticized the show.[^5]
 
-No one knew that this transformation, made in order to survive, would happen to prepare the beach for the tsunami that arrived three years later.
+That period was also Computex’s most awkward image-wise. Early on it was known for its showgirls; in 2018 foreign media criticized the objectification of women and the show’s outdated marketing. The following year TAITRA encouraged vendors to adopt more creative marketing; while no ban was issued, the presence of showgirls noticeably declined.[^8]
 
-## The Year Jensen Huang Came Back
+Crisis forced transformation. In 2016 Computex launched the **InnoVEX** innovation zone, extending its reach from mature PC hardware to AI, IoT and startups.[^6] Officially the exhibition’s positioning quietly shifted from “computer show” to “global leading AIoT and innovation exhibition.”[^4] The 2020 pandemic forced the event online, allowing it to survive its toughest year.[^4]
 
-![Jensen Huang speaking on the Computex Taipei stage, wearing his signature dark top, with a large projection screen behind him and a full audience listening attentively; this is one of the scenes from his many returns to the Taipei computer show for keynote speeches](/article-images/technology/computex-jensen-huang-2016.jpg)
-_Jensen Huang speaking at Computex Taipei in 2016. Starting in 2023, he has returned to this show almost every year to announce NVIDIA’s latest AI chips. Photo: NVIDIA Taiwan, 2016-05-31. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531c.jpg)._
+No one foresaw that this survival‑driven transformation would lay the groundwork for the tsunami three years later.
 
-On May 29, 2023, Jensen Huang took the Computex stage to deliver his first in-person keynote after the pandemic, and his first public speech in nearly four years.[^9] He brought the Grace Hopper Superchip, announced its formal mass production, and unveiled the DGX GH200 supercomputer, which could connect 256 chips through NVLink and reach one exaflop of computing power, with Google, Meta, and Microsoft as its first customers.[^9] His main message could be reduced to one sentence: bring generative AI into every data center.
+## The Year Jensen Huang Returned
 
-The wave of generative AI thus pulled Computex out from under the shadow of “the PC is dead.”
+![Jensen Huang speaking on the Computex Taipei stage in 2016, wearing a dark shirt, with a large projection screen behind him and an attentive audience below. This is one of several occasions he has returned to the Taipei computer show for a keynote.](/article-images/technology/computex-jensen-huang-2016.jpg)
+_Jensen Huang’s 2016 Computex Taipei keynote. Since 2023 he has returned almost annually to announce NVIDIA’s latest AI chips. Photo: NVIDIA Taiwan, 2016‑05‑31. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531c.jpg)._
 
-> **✦** A computer show that had been running for 40 years and written off for nearly a decade did not rely on becoming stronger by itself. The world suddenly needed the place where it was located.
+On 29 May 2023, Jensen Huang took the Computex stage for his first post‑pandemic in‑person keynote—and his first public speech in nearly four years.[^9] He introduced the **Grace Hopper** super‑chip, announced its mass production, and unveiled a **DGX GH200** supercomputer that links 256 chips via NVLink to achieve exaflop‑scale performance, with Google, Meta and Microsoft among the first customers.[^9] His core message: bring generative AI into every data center.
 
-In 2024, more technology-giant CEOs than ever gathered in Taipei. That year’s opening keynote was delivered by AMD’s Lisa Su, followed by the CEOs of Qualcomm, Intel, MediaTek, and Supermicro, while Jensen Huang appeared in conversation with the CEO of ARM.[^3] Outside the exhibition speeches, Huang also held a solo talk that year at National Taiwan University Sports Center, on how AI would drive a new global industrial revolution. At the end, he thanked Taiwan and said a line that would later be quoted repeatedly: “Taiwan is an unsung hero, yet a pillar of the world.” He also said: “Without Taiwan, NVIDIA’s vision would be an unrealizable dream.”[^10]
+That generative‑AI wave pulled Computex out of the “PC is dead” shadow.
 
-During those days, he went with the 92-year-old Morris Chang and Quanta’s Barry Lam to Ningxia Night Market, eating oyster omelets and tofu pudding, in images that spread across Taiwan.[^11] Two years later, in 2026, he appeared at a night market again, this time with his parents, taking out cash to buy tofu pudding for people waiting in line and laughing as he said, “This is on me, sorry, sorry, I brought my father and mother here.”[^12] One of the world’s most powerful technology CEOs treated Taipei’s night markets as his own backyard.
+> **✦** A four‑decade‑old computer show, long dismissed as past its prime, survived not by becoming stronger itself but because the world suddenly needed the place where its hardware is actually built.
 
-By 2025, Computex had become entirely AI’s main stage. That year’s theme was “AI NEXT.” Huang spoke at the Taipei Music Center, which seats 5,000, to a full house, announcing the next-generation GB300 chip and working with Foxconn, the National Science and Technology Council, and TSMC to build AI infrastructure for Taiwan.[^13]
+In 2024, a record number of tech‑company CEOs gathered in Taipei. AMD’s **Soo‑zef Su** delivered the opening keynote; Qualcomm, Intel, and **MediaTek** CEOs followed, while Jensen Huang shared a stage with ARM’s CEO.[^3] Outside the keynotes, Huang gave a personal talk at National Taiwan University’s sports arena on how AI drives a new global industrial revolution. He concluded by thanking Taiwan, saying, “Taiwan is an unsung hero, yet the world’s pillar.” He added, “Without Taiwan, NVIDIA’s vision would be an unattainable dream.”[^10]
 
-## Taipei This Year: AI Together
+<div
+  class="video-embed"
+  style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;"
+>
+  <iframe
+    src="https://www.youtube.com/embed/pKXDVsWZmUU"
+    title="NVIDIA CEO Jensen Huang Keynote at COMPUTEX 2024"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+</div>
 
-And so we arrive in 2026.
+_NVIDIA official channel: Jensen Huang’s full 2024 Computex keynote. He likens generative AI to an “AI factory,” with a crowd of Taiwanese supply‑chain vendors in the audience._
 
-TAITRA chairman James Huang described this year’s Computex as “adopting a dual-exhibition-area model for the first time. In addition to Nangang Exhibition Center Halls 1 and 2, it returns to World Trade Center Hall 1, making it the largest edition in history.”[^14] Thirty-three countries, 1,500 exhibitors, and 6,000 booths; the show runs from June 2 to 5 and is estimated to attract 40,000 international buyers.[^6][^15]
+That same week he toured Ningxia Night Market with 92‑year‑old **Morris Chang**, **Lin Bai‑li** of Quanta, devouring oyster omelets and tofu pudding—images that spread across Taiwan.[^11] Two years later, in 2026, he returned to a night market, this time with his parents, paying for a line of patrons to enjoy tofu pudding and joking, “I’m treating you, sorry, I brought my dad and mom.”[^12] The world’s most powerful tech CEO treats Taipei’s night markets like his own backyard.
 
-This year’s theme is “AI Together.” Huang said this represents not only a new intersection between humans and AI, but “also symbolizes Taiwan joining hands with the global technology industry to jointly create a new chapter in future AI civilization.”[^14] The exhibition revolves around three major axes: AI and computing, robotics and mobility, and next-generation technology.[^6]
+By 2025 Computex had become wholly an AI stage. That year’s theme, “AI NEXT,” saw Huang speak at the 5 000‑seat Taipei Pop Music Center to a packed audience, announcing the next‑generation **GB300** chip and partnering with **Foxconn**, the **National Science and Technology Council**, and **TSMC** to build AI infrastructure in Taiwan.[^13]
 
-The most notable new focus is robotics. This year, the returning World Trade Center Hall 1 has three specially planned zones: an AI Robotics Area, an E-Paper Industry Zone, and the TechXperience pavilion, focusing on “physical AI” and the “embodied intelligence” of robots.[^14] For the past few years, AI still lived inside servers in data centers. This year it is to grow hands and feet and enter the physical world. Taiwan’s supply chain has sensed the wind: Foxconn, Pegatron, and other contract manufacturers that had originally assembled AI servers have begun showing robots on the exhibition floor.[^16]
+## This Year’s Taipei: AI Together
 
-The main stage remains star-studded. Jensen Huang spoke first on June 1, unveiling the Vera Rubin chip already in mass production; Qualcomm’s Cristiano Amon gave an opening keynote the same day; AMD’s Lisa Su and Intel’s Lip-Bu Tan each led their own appearances; and the CEOs of Marvell and NXP each gave speeches on AI infrastructure and physical AI.[^3][^17] On the exhibition floor, as GPU computing power stacks higher and higher and air cooling has reached its physical limits, liquid cooling became standard equipment at major contract manufacturers’ booths for the first time.[^16]
+In 2026, TAITRA chairman **Huang Chih‑fang** described Computex as “the first edition to adopt a dual‑venue model, adding World Trade Center Hall 1 to the existing Nangang Hall 1 and Hall 2, making it the largest edition ever.”[^14] The show featured 33 countries, 1 500 exhibitors, 6 000 booths, and ran from 2 June to 5 June, attracting an estimated 40 000 international buyers.[^6][^15]
 
-> **📝 Curator’s Note**
-> Pay attention to Jensen Huang’s backdrop this year, with rice dumplings and pork knuckle, and to his line, “Taipei is where it all began.” A technology CEO announcing a chip did so against a background of night market snacks. This image tells the world that the chip he is discussing, from design to becoming a usable machine, depends at every step on this island. The pork knuckle on the backdrop and the 6,000 booths below making cooling systems and power supplies are speaking about the same thing.
+The theme is **“AI Together.”** Huang explained that it not only represents a new human‑AI intersection but also “symbolizes Taiwan joining forces with the global tech industry to co‑create the next chapter of AI civilization.”[^14] The exhibition revolves around three pillars: AI & computing, robotics & mobility, and next‑generation technologies.[^6]
 
-## Ninety Percent of the Servers, Three Percent Gross Margin
+The most notable new focus is **robotics**. Returning to World Trade Center Hall 1, three dedicated zones were created: an AI‑robotics area, an electronic‑paper industry zone, and a technology‑experience pavilion, emphasizing “embodied AI” and “physical AI.” After years of existing mainly in data‑center servers, AI this year is meant to grow limbs and walk into the physical world.
 
-Pull the camera back from the stage, and you can see Computex’s real confidence, as well as its hidden worries.
+The newly added AI‑robotics zone became Hall 1’s centerpiece, hosting over 180 companies covering the full chain from sensors, motors, gearboxes to system integration, demonstrating live robots in industrial automation, logistics and medical care.[^23] The most representative exhibitor was **HIWIN Technologies**, traditionally a precision‑motion parts maker, which debuted dual‑arm logistics robots, humanoid core modules and smart grippers, leveraging its in‑house ball‑screws, harmonic reducers and actuation modules.[^22] A company that once supplied precision parts for machine tools and semiconductor equipment now supplies the mechanical “body” for the “physical AI” that NVIDIA describes. Huang said he hopes Taiwan will “leap from a global tech‑manufacturing hub to a global AI‑solution center.”[^23] Original AI‑server OEMs **Foxconn** and **Wistron** also showcased robots at their booths.[^16]
 
-For an NVIDIA AI chip to become a server that can operate in a data center, almost every intermediate process is completed in Taiwan. The chip is produced by TSMC, which makes more than 90 percent of the world’s most advanced chips. The chip must be packaged, relying on TSMC’s CoWoS advanced packaging, a process that is now the choke point in the shortage of AI computing power.[^18] The server must be assembled, relying on contract manufacturers such as Foxconn, Quanta, and Wistron. Foxconn alone holds about 40 percent of the global AI server contract manufacturing market.[^19] Power supplies depend on Delta Electronics, which holds about half of the global server power supply market; cooling systems, connectors, and cases are also almost entirely covered by Taiwanese manufacturers.[^18] Research institutions estimate that nearly 90 percent of global AI servers are assembled and shipped by Taiwanese companies.[^18]
+The main stage remained star‑studded. Jensen Huang opened on 1 June with the fully‑produced **Vera Rubin** chip; Qualcomm’s **Cristiano Amon** delivered the opening speech the same day; AMD’s **Soo‑zef Su** and Intel’s **Chen Li‑wu** each led a keynote; CEOs of **Marvell** and **NXP** also presented on AI infrastructure and embodied AI.[^3][^17] Inside the exhibition hall, because GPU compute power kept climbing and air cooling reached physical limits, liquid cooling became standard equipment at the major OEM booths.[^16]
 
-This is Computex’s geographic advantage. The design end is in the United States, the manufacturing end is in Taiwan, and every year in late May and early June, the place where the design end flies in to shake hands with the manufacturing end is this show.
+<div
+  class="video-embed"
+  style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;"
+>
+  <iframe
+    src="https://www.youtube.com/embed/wSp6AiNIrsY"
+    title="NVIDIA GTC Taipei 2026 Keynote | Full Replay"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+  ></iframe>
+</div>
 
-But beneath the halo of this “home court” is a shadow very familiar to people in Taiwan. Gross margins in assembly contract manufacturing have long been only 3 to 5 percentage points, leading the industry to joke in Chinese about “gross three to four,” and about being “Maoshan priests,” a pun on “gross margin” and a term for ritual specialists.[^19] In the same supply chain, TSMC’s gross margin exceeds 50 percent, and NVIDIA’s exceeds 70 percent. What Taiwan earns is the hard money of assembling parts. The core intellectual property and design tools are still controlled by a few foreign companies upstream. The world’s most watched AI show is held in Taipei, yet Taiwan stands at a position in the value chain that is “irreplaceable, but not necessarily taking the largest share.”
+_NVIDIA official channel: Jensen Huang’s full 2026 GTC Taipei keynote. Here he said “It’s great to be home,” unveiled the fully‑produced Vera Rubin, and the backdrop displayed Taipei’s rice dumplings and pork‑knuckle stalls._
 
-> **⚠️ Controversies and Worries**
-> Two even heavier stones weigh on this position. The first is geopolitics: in the past, the idea of a “silicon shield” held that Taiwan’s irreplaceability in semiconductors was a barrier deterring military force against Taiwan. But beginning in 2025, international think tanks started talking in the opposite direction, arguing that “the silicon shield is turning into a target.”[^20] The second is energy. Here is a counterintuitive number worth remembering. According to an investigation by The Reporter, in 2025 Taiwan’s data centers accounted for only about 0.5 percent of national electricity consumption. The real electricity guzzler was semiconductor manufacturing, which used nearly 15 percent of the country’s power.[^21] In other words, what truly supports Taiwan’s home-field status in AI is the fabs that run day and night, etching chips into existence, and their enormous appetite for electricity. The servers on the exhibition floor are merely the end of this long electricity chain. As for the loudly proclaimed slogans of supply-chain “de-Sinicization,” the reality is that contract manufacturers such as Compal operate factories simultaneously in Taiwan, China, Vietnam, Thailand, India, Mexico, and the United States. This is a dispersed “China plus N” layout, not a real withdrawal from China.[^15]
+> **📝 Curator’s note**  
+> Pay attention to the backdrop featuring rice dumplings and pork knuckles, and Huang’s line “Taipei is the starting point of everything.” A tech CEO presenting a chip with a night‑market snack backdrop tells the world that every step—from design to a usable machine—depends on this island. The pork knuckle on the backdrop and the 6 000 booths supplying cooling and power speak the same story.
 
-The halo and the shadow are two sides of the same thing. Taiwan is Computex’s home court precisely because it has made “manufacturing,” something many advanced countries outsourced, irreplaceable. The price of that irreplaceability is staking the island’s electricity, geopolitical risk, and industrial center of gravity on this supply chain.
+## Nine‑Tenth of Servers, Three‑Percent Margin
 
-## Taipei Is Where It All Began
+Zooming out from the stage reveals Computex’s real strength—and its hidden risk.
 
-In 1984, Stan Shih gave the “Taipei Computer Show” an English name facing the world. Taiwan at that time was still a small island making motherboards under contract for major international brands.
+![Exterior of a TSMC fab in Hsinchu Science Park, a massive white clean‑room building that produces the world’s most advanced chips.](/article-images/technology/tsmc-fab-hsinchu-2009.jpg)
+_TSMC’s Hsinchu fab. An AI chip’s first step is here—over ninety percent of the world’s most advanced chips are produced by TSMC. Photo: Arusanov, 2009, public domain. [License via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tsmc_factory_hsinchu.JPG)._
 
-Forty-two years later, in 2026, Jensen Huang stood at the same show, with rice dumplings and pork knuckle behind him, and said, “It is good to be home,” and “Taipei is where it all began.”[^1] In the 42 years between, COMDEX closed, CeBIT closed, and computer shows around the world shut their doors one after another. Only this show, which grew out from beside Songshan Airport, has kept getting larger.
+For a NVIDIA AI chip to become a data‑center server, almost every step occurs in Taiwan. The chip is fabricated by **TSMC**, which produces over ninety percent of the world’s most advanced chips. Packaging relies on TSMC’s **CoWoS** advanced packaging, now the bottleneck of AI compute supply.[^18] Assembly is handled by **Foxconn**, **Quanta**, **Wistron** and others; Foxconn alone accounts for roughly forty percent of global AI‑server OEM market share.[^19] Power supplies come from **Delta Electronics**, which holds about half of the global server‑power market; cooling, connectors and chassis are likewise dominated by Taiwanese firms.[^18] Research institutes estimate that nearly ninety percent of AI servers are assembled and shipped by Taiwanese manufacturers.[^18]
 
-It did not become smarter than everyone else. It simply grew in the right place. Exhibitions follow orders, orders follow manufacturing, and manufacturing remained on this island. The next time you see news that “Jensen Huang has come to Taiwan,” you can read it this way: the infrastructure of global computing returns once a year to the place where it is actually assembled, to make a pilgrimage.
+That is Computex’s geographic advantage: design in the United States, manufacturing in Taiwan, and the annual May‑June rendezvous where designers fly to the manufacturing hub.
 
-**Further Reading**:
+Yet beneath this “main stage” glow lies a familiar Taiwanese shadow. Assembly‑OEM profit margins have lingered at only three to five percentage points for years—colloquially called “毛三到四” or “Mao‑shan Taoist.”[^19] By contrast, TSMC enjoys margins above fifty percent, and NVIDIA exceeds seventy percent. Taiwan earns the hard‑earned money of putting parts together, while the upstream owners of core IP and design tools capture the larger slices.
 
-- [The Semiconductor Industry: A 50-Year Materials Revolution from RCA Technology Transfer to Gallium Nitride and Quantum Packaging](/technology/半導體產業) — The materials science battlefield behind TSMC and CoWoS advanced packaging, which support Computex’s home-field status
-- [Taiwan’s Artificial Intelligence Development and Future Strategy](/technology/台灣人工智慧發展與未來策略) — From hardware supply chains to AI applications, Taiwan’s position and choices in this wave
-- [Taiwan’s Robotics Industry](/technology/台灣機器人產業) — The “physical AI” and embodied intelligence highlighted at Computex 2026, and the foundations of Taiwan’s robotics supply chain
-- [Development of Taiwan’s Electric Vehicle Industry Chain](/technology/台灣電動車產業鏈發展) — How the same electronics contract manufacturers extended from assembling computers to assembling cars and robots
+> **⚠️ Controversy & Concern**  
+> Two heavier stones press this position. First, geopolitics: the once‑celebrated “silicon shield” that deterred aggression is now being framed as a strategic target, according to think‑tank analyses since 2025.[^20] Second, energy: a 2025 investigation found that data centers consume only about 0.5 % of Taiwan’s total electricity, while the semiconductor manufacturing sector consumes nearly fifteen percent of national power.[^21] In other words, the real power‑hungry engines supporting Taiwan’s AI leadership are the wafer fabs, not the servers displayed at Computex. As for the loudly proclaimed “de‑Sinicization” of the supply chain, reality shows that companies like **Compal** operate factories across Taiwan, China, Vietnam, Thailand, India, Mexico and the United States—a “China + N” dispersion rather than a full withdrawal.[^15]
 
-## Image Sources
+The halo and the shadow are two sides of the same coin. Taiwan’s status as Computex’s home stage stems from its irreplaceable manufacturing capability, but that indispensability comes at the cost of concentrating the island’s electricity demand, geopolitical risk, and industrial focus onto a single supply‑chain backbone.
 
-This article uses three Wikimedia Commons images under CC licenses, all cached in `public/article-images/technology/` to avoid hotlinking source servers:
+## Taipei Is the Starting Point of Everything
 
-- [Computex Taipei sign inside Taipei Nangang Exhibition Center](https://commons.wikimedia.org/wiki/File:Computex_Taipei_sign_inside_of_Taipei_Nangang_Exhibition_Center_20110531.jpg) — Photo: Masaru Kamikura, 2011-05-31, CC BY 2.0 (hero image: the COMPUTEX exhibition floor and signage inside Nangang Exhibition Center)
-- [Computex Taipei at Taipei Nangang Exhibition Center](https://commons.wikimedia.org/wiki/File:Computex_Taipei_at_Taipei_Nangang_Exhibition_Center_20160531.jpg) — Photo: NVIDIA Taiwan, 2016-05-31, CC BY 2.0 (exterior of the main Nangang Exhibition Center venue)
-- [Jensen Huang at Computex Taipei](https://commons.wikimedia.org/wiki/File:Jensen_Huang_at_Computex_Taipei_20160531c.jpg) — Photo: NVIDIA Taiwan, 2016-05-31, CC BY 2.0 (Jensen Huang speaking on the Computex stage)
+In 1984 Stan Shih gave the Taipei City Computer Exhibition an English name that faced the world; at that time Taiwan was still a small island assembling motherboards for multinational firms.
 
-## References
+Forty‑two years later, in 2026, Jensen Huang stood on the same stage, with rice dumplings and pork knuckles behind him, declaring “It’s great to be home” and “Taipei is the starting point of everything.”[^1] In the intervening four decades, COMDEX folded, CeBIT folded, and every major computer exhibition around the world closed—leaving only the show that sprouted beside Songshan Airport to keep growing.
 
-[^1]: [United Daily News: Jensen Huang’s GTC Taipei 2026 keynote, “It is good to be home” (2026)](https://udn.com/news/story/7240/9537914) — Reports on Jensen Huang’s GTC Taipei keynote during Computex on June 1, 2026, including verbatim lines such as “It is good to be home,” “useful AI has arrived,” and “agentic AI is arriving,” the Vera Rubin/Vera CPU/N1X product announcements, and the backdrop listing Taiwanese food vendors including Wangji Fucheng Rice Dumplings and Fu Ba Wang Pork Knuckle.
+It did not become smarter than its rivals; it simply grew in the right place. Exhibitions follow orders; orders follow manufacturing; manufacturing stays on this island. The next time you see news of “Jensen Huang visiting Taiwan,” read it as: the global computing infrastructure returns each year to the place where it is truly assembled, making a pilgrimage.
 
-[^2]: [Wikipedia: Jensen Huang](https://zh.wikipedia.org/zh-tw/%E9%BB%83%E4%BB%81%E5%8B%B3) — Records biographical information on Jensen Huang, including his birth in 1963, upbringing in Tainan, move to the United States in 1973 at age nine, education in electrical engineering at Oregon State University and Stanford, and co-founding of NVIDIA in 1993 with Chris Malachowsky and Curtis Priem.
+**Further Reading**
 
-[^3]: [Business Today: Four major CEOs on stage at COMPUTEX 2026, companies’ market capitalization exceeds US$10 trillion (2026)](https://www.businesstoday.com.tw/article/category/183009/post/202605260033/) — Reports on the four CEO keynotes in 2026 by Jensen Huang (NVIDIA), Lisa Su (AMD), Lip-Bu Tan (Intel), and Cristiano Amon (Qualcomm), as well as verbatim remarks by TAITRA chairman James Huang that the companies represented by the four CEOs and nearly 30 forum speakers have a combined market capitalization exceeding US$10 trillion, and that “this wave of AI momentum is real.”
+- [Semiconductor Industry: 50 Years of Material Innovation from RCA Transfer to GaN and Quantum Packaging](/technology/半導體產業) — The TSMC and CoWoS advanced‑packaging backbone that underpins Computex’s home‑stage status.
+- [Taiwan AI Development and Future Strategy](/technology/台灣人工智慧發展與未來策略) — From hardware supply chain to AI applications, Taiwan’s position in this wave.
+- [Taiwan Robotics Industry](/technology/台灣機器人產業) — The “embodied AI” focus of Computex 2026 and the domestic robotics supply chain.
+- [Taiwan Electric‑Vehicle Industry Chain Development](/technology/台灣電動車產業鏈發展) — The same electronics OEMs that assemble computers now extend to cars and robots.
 
-[^4]: [Wikipedia: Taipei International Computer Show](https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E5%8C%97%E5%9C%8B%E9%9A%9B%E9%9B%BB%E8%85%A6%E5%B1%95%E8%A6%BD%E6%9C%83) — Records the full development of Computex since the first “Taipei Computer Show” in 1981: the 1984 renaming, TAITRA’s entry in 1985 and the change to “Taipei International Computer Show,” annual scale figures, changes in world ranking, the venue expansion timeline, and the establishment of InnoVEX.
+**Image Credits**
 
-[^5]: [Jiemian News: Forty Years of the Taipei Computer Show (Computex history review)](https://www.jiemian.com/article/3180048.html) — Details the full trajectory of Computex from an export trade show in 1981, Stan Shih’s 1984 renaming, TAITRA becoming an organizer in 1985, its rise in 1989 to Asia’s largest computer show, its ascent to the world’s second largest in 2003, and its downturn after PC shipments declined in 2012, with annual scale figures.
+- Computex Taipei sign inside Taipei Nangang Exhibition Center – Photo: Masaru Kamikura, 2011‑05‑31, CC BY 2.0 (hero image: Nangang hall signage).
+- Stan Shih at Taipei IT Month 2014 – Photo: Tony Tseng, 2014‑12‑05, CC BY 2.0.
+- CeBIT Hannover 2005 – Photo: Florian K, 2005‑03‑16, CC BY‑SA 3.0.
+- TSMC factory Hsinchu – Photo: Arusanov, 2009, public domain.
+- Computex Taipei at Taipei Nangang Exhibition Center – Photo: NVIDIA Taiwan, 2016‑05‑31, CC BY 2.0.
+- Jensen Huang at Computex Taipei – Photo: NVIDIA Taiwan, 2016‑05‑31, CC BY 2.0.
 
-[^6]: [Economic Daily News: COMPUTEX 2026 reaches a new scale record (2026)](https://money.udn.com/money/story/5612/9525595) — Reports that the 2026 show runs from June 2 to 5, spans four exhibition halls, includes 1,500 exhibitors from 33 countries and 6,000 booths, and centers on three major themes (AI and computing / robotics and mobility / next-generation technology), as well as the new AI Robotics Area, E-Paper Industry Zone, and TechXperience in World Trade Center Hall 1, and a new 11-year high for InnoVEX with nearly 500 startups from 23 countries.
+**References**
 
-[^7]: [Central News Agency: Germany’s CeBIT computer show passes into history (2018)](https://www.cna.com.tw/news/firstnews/201811295002.aspx) — Reports that CeBIT in Hanover, Germany, announced its closure in November 2018, analyzes the decline in visitor and exhibitor numbers and the division of the market by CES / MWC / Computex / IFA, and specifically notes that “the Taipei International Computer Show every June has a geographic advantage for Asian manufacturers seeking orders, and its scale has continued to expand.”
+[^1]: United Daily News: Jensen Huang GTC Taipei 2026 keynote “It’s great to be home” (2026) – transcript of Huang’s remarks, including “Useful AI has arrived,” “Agent AI has arrived,” Vera Rubin/Vera CPU/N1X product announcements, and the backdrop listing Wang Ji Fu‑Cheng rice dumplings and Fu Bang Wang pork knuckles. https://udn.com/news/story/7240/9537914
 
-[^8]: [TechNews: Computex 2019 InnoVEX and the transformation of show girls](https://technews.tw/2019/05/02/computex-2019-innovex/) — Reports on InnoVEX, Computex’s innovation and startup exhibition area established in 2016, its focus on AI and IoT, and provides a point of comparison for foreign media criticism of show girl culture in 2018 and TAITRA’s 2019 transformation direction of “encouraging creative marketing but not mandating it.”
+[^2]: Wikipedia: Jensen Huang – biography noting his 1963 birth in Tainan, move to the United States at nine, education at Oregon State University and Stanford, and co‑founding of NVIDIA in 1993. https://zh.wikipedia.org/zh-tw/%E9%BB%83%E4%BB%81%E5%8B%B3
 
-[^9]: [NVIDIA Blog: Jensen Huang Computex 2023 Keynote](https://blogs.nvidia.com/blog/computex-keynote-generative-ai/) — NVIDIA’s official blog, recording Jensen Huang’s May 29, 2023 Computex keynote, his first in-person keynote after the pandemic, where he announced mass production of the Grace Hopper Superchip and the DGX GH200 supercomputer (256 chips connected by NVLink, 1 exaflop), with the main theme of bringing generative AI into every data center.
+[^3]: Business Today (Taiwan): COMPUTEX 2026 four CEOs share stage, combined enterprise market value exceeds ten trillion USD (2026). https://www.businesstoday.com.tw/article/category/183009/post/202605260033/
 
-[^10]: [Economic Daily News: Jensen Huang’s NTU speech, “Taiwan is an unsung hero” (2024)](https://money.udn.com/money/story/5612/8009818) — Reports on Jensen Huang’s speech on the evening of June 2, 2024, at National Taiwan University Sports Center, recording verbatim lines including “Taiwan is an unsung hero, yet a pillar of the world,” “Without Taiwan, NVIDIA’s vision would be an unrealizable dream,” and “You are the backing of the AI industry’s innovation; no matter how great the storm, you have always stood firm as a rock.”
+[^4]: Wikipedia: Taipei International Computer Exhibition – full history from the 1981 inaugural “Taipei City Computer Exhibition” through renaming, TAITRA co‑organization, scale figures, world‑ranking changes, venue expansions, and InnoVEX establishment. https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E5%8C%97%E5%9C%8B%E9%9A%9B%E9%9B%BB%E8%85%A6%E5%B1%95%E8%A6%BD%E6%9C%83
 
-[^11]: [United Daily News: Jensen Huang visits Ningxia Night Market with Morris Chang and Barry Lam (2024)](https://udn.com/news/story/7193/7999299) — Reports the details of Jensen Huang’s May 29, 2024 visit with 92-year-old Morris Chang and his wife and Quanta’s Barry Lam to Ningxia Night Market after dining at Zou Ji, where they tasted oyster omelets and tofu pudding.
+[^5]: Jiemian News: Forty‑year history of Taipei Computer Exhibition (Computex) – detailed account of growth from 1981 export show, 1984 renaming, 1985 TAITRA co‑hosting, 1989 rise to Asia’s largest, 2003 ascent to world‑second, 2012 PC‑shipment decline, and yearly scale data. https://www.jiemian.com/article/3180048.html
 
-[^12]: [EBC News: Jensen Huang takes his parents to Ningxia Night Market and buys tofu pudding for others (2026)](https://news.ebc.net.tw/news/business/553385) — Reports that during his 2026 Taiwan visit, on May 25 Jensen Huang took his parents to a tofu pudding shop beside Ningxia Night Market, took out cash to buy tofu pudding for people waiting in line, and records verbatim: “This is on me, sorry, sorry, I brought my father and mother here; we won’t eat for too long, let me treat everyone.”
+[^6]: Economic Daily News: COMPUTEX 2026 sets new scale record (2026) – report on dates, four venues, 33 countries, 1 500 exhibitors, 6 000 booths, three main pillars, AI‑robotics zone, electronic‑paper zone, TechXperience, and InnoVEX participation. https://money.udn.com/money/story/5612/9525595
 
-[^13]: [TechNews: Key points from Jensen Huang’s Computex 2025 keynote (2025)](https://finance.technews.tw/2025/05/19/computex-2025-nvidia-brief/) — Reports on Computex 2025’s theme “AI NEXT,” Jensen Huang’s speech at the Taipei Music Center, the GB300 announcement, cooperation with Foxconn / the National Science and Technology Council / TSMC to build Taiwan’s AI infrastructure, and planning for NVIDIA’s Taiwan office in Beitou-Shilin.
+[^7]: Central News Agency: Germany’s CeBIT computer show enters history (2018) – analysis of declining attendance, competition from CES, MWC, Computex, IFA, and quote on Computex’s geographic advantage. https://www.cna.com.tw/news/firstnews/201811295002.aspx
 
-[^14]: [United Daily News: James Huang discusses COMPUTEX 2026’s dual exhibition areas and AI Together (2026)](https://udn.com/news/story/7240/9536845) — Records verbatim remarks by TAITRA chairman James Huang: “adopting a dual-exhibition-area model for the first time. In addition to Nangang Exhibition Center Halls 1 and 2, it returns to World Trade Center Hall 1, making it the largest edition in history,” and “AI Together symbolizes Taiwan joining hands with the global technology industry to jointly create a new chapter in future AI civilization,” as well as plans for the AI Robotics Area, E-Paper Industry Zone, and TechXperience in World Trade Center Hall 1, with a focus on physical AI and embodied intelligence.
+[^8]: TechNews Taiwan: Computex 2019 InnoVEX and showgirl transformation – coverage of InnoVEX’s 2016 launch, AI/IoT focus, and 2019 shift away from showgirls after foreign media criticism. https://technews.tw/2019/05/02/computex-2019-innovex/
 
-[^15]: [TechNews: AI server capacity relocation and Taiwanese manufacturers’ multi-location layouts (2025)](https://technews.tw/2025/06/09/ai-server-manufacturing-location-relocation/) — Reports on Taiwanese AI server contract manufacturers’ global capacity layouts, including Wiwynn having 70% of its capacity in Mexico, Wistron and Quanta building factories in the United States, and Compal’s “China plus N” diversified strategy of operating factories in Taiwan, China, Vietnam, Thailand, India, Mexico, and the United States.
+[^9]: NVIDIA Blog: Jensen Huang Computex 2023 Keynote – official blog detailing Huang’s May 29 2023 keynote, Grace Hopper mass production, DGX GH200 specs, and generative AI message. https://blogs.nvidia.com/blog/computex-keynote-generative-ai/
 
-[^16]: [Commercial Times: Taiwanese manufacturers’ booths at COMPUTEX 2026 and liquid cooling as standard equipment (2026)](https://www.ctee.com.tw/news/20260525700049-439901) — Reports that in 2026 Foxconn uses the largest booth to exhibit the Vera Rubin NVL72 computing rack and robots, the booth scales of Quanta and Wistron, and how, as GPU computing power rises and air cooling reaches physical limits, liquid cooling has become a standard exhibit for major contract manufacturers, with the supply chain extending from assembling AI servers to assembling AI robots.
+[^10]: Economic Daily News: Jensen Huang NTU speech “Taiwan is an unsung hero” (2024) – transcript of Huang’s June 2 2024 speech at National Taiwan University, including praise for Taiwan as the world’s pillar and the indispensability of Taiwan to NVIDIA’s vision. https://money.udn.com/money/story/5612/8009818
 
-[^17]: [Commercial Times: COMPUTEX 2026 is the largest in history and is expected to attract 40,000 international buyers (2026)](https://www.ctee.com.tw/news/20260531700013-430105) — Reports that Computex 2026 is the largest edition in history, including dates, scale figures, an estimated 40,000 international buyers, and speeches by CEOs from Marvell and NXP on AI infrastructure and physical AI.
+[^11]: United Daily News: Jensen Huang, Morris Chang, and Lin Bai‑li visit Ningxia Night Market (2024) – coverage of their oyster‑omelet and tofu‑pudding outing. https://udn.com/news/story/7193/7999299
 
-[^18]: [EE Times Taiwan: Taiwanese contract manufacturers account for nearly 90 percent of global AI server shipments (2024)](https://www.eettaiwan.com/20240118nt21-ai-server/) — Cites research institution estimates that Taiwanese manufacturers (including Quanta, Wistron, Wiwynn, Inventec, and Foxconn) account for nearly 90 percent of global AI server shipments, and explains the supply-chain position of TSMC producing more than 90 percent of the world’s most advanced chips and CoWoS advanced packaging as a bottleneck in AI computing power.
+[^12]: EBC News: Jensen Huang brings parents to Ningxia Night Market, treats crowd to tofu pudding (2026) – verbatim quote of Huang’s invitation. https://news.ebc.net.tw/news/business/553385
 
-[^19]: [Anue: Foxconn’s AI server contract manufacturing market share and analysis of contract manufacturing gross margins](https://news.cnyes.com/news/id/6213008) — Reports that Foxconn holds about 40 percent of the global AI server contract manufacturing market and ranks first globally, and explains the low-margin structure of electronics contract manufacturing, described in Chinese industry jokes as “gross three to four” and “Maoshan priests,” in contrast to the high gross margins upstream at TSMC and NVIDIA.
+[^13]: TechNews Taiwan: Computex 2025 Jensen Huang keynote highlights (2025) – report on “AI NEXT” theme, GB300 announcement, and collaboration with Foxconn, National Science and Technology Council, and TSMC. https://finance.technews.tw/2025/05/19/computex-2025-nvidia-brief/
 
-[^20]: [Lawfare: Taiwan's Silicon Shield Is Turning Into a Target (2025)](https://www.lawfaremedia.org/article/taiwan-s-silicon-shield-is-turning-into-a-target) — An analysis by the U.S. legal and policy publication Lawfare arguing that, beginning in 2025, the concept of the “silicon shield” has inverted: Taiwan’s semiconductor irreplaceability is turning from a barrier deterring force into a strategic target.
+[^14]: United Daily News: Huang Chih‑fang on COMPUTEX 2026 dual‑venue and AI Together (2026) – full quotation of Huang’s remarks on the dual‑venue model, AI Together symbolism, and AI‑robotics zone, electronic‑paper zone, TechXperience planning. https://udn.com/news/story/7240/9536845
 
-[^21]: [The Reporter: Data center electricity consumption and Taiwan’s energy challenge (2025)](https://www.twreporter.org/a/data-center-electricity-demand) — An in-depth investigation of data center electricity consumption in Taiwan, including the counterintuitive contrast that in 2025 data centers accounted for about 0.5 percent of national electricity consumption while semiconductor manufacturing accounted for about 15 percent, Taipower’s suspension from 2024 of new electricity applications for data centers above 5MW north of Taoyuan, and analysis of Taiwan’s energy mix after the shutdown of Maanshan Nuclear Power Plant eliminated nuclear power.
+[^15]: TechNews Taiwan: AI server capacity relocation and Taiwanese factories’ multi‑site layout (2025) – report on global AI‑server OEM capacity distribution, including Wistron’s 70 % capacity in Mexico and Wistron/Quanta’s U.S. plants, and Compal’s “China + N” strategy. https://technews.tw/2025/06/09/ai-server-manufacturing-location-relocation/
+
+[^16]: Commercial Times: COMPUTEX 2026 Taiwanese booths and liquid cooling become standard (2026) – coverage of Foxconn’s Vera Rubin NVL72 cabinet and robots, Quanta and Wistron booth sizes, and the shift to liquid cooling as GPU power escalates. https://www.ctee.com.tw/news/20260525700049-439901
+
+[^17]: Commercial Times: COMPUTEX 2026 largest ever, attracting 40 000 international buyers (2026) – report on record scale, attendance estimates, and AI‑infrastructure talks by Marvell and NXP CEOs. https://www.ctee.com.tw/news/20260531700013-430105
+
+[^18]: EE Times Taiwan: Taiwanese OEMs account for nearly ninety percent of global AI‑server shipments (2024) – research institute estimate of Taiwanese firms’ share, plus TSMC’s >90 % production of advanced chips and CoWoS bottleneck role. https://www.eettaiwan.com/20240118nt21-ai-server/
+
+[^19]: CNYES: Foxconn AI‑server OEM market share and margin analysis – report on Foxconn’s ~40 % global AI‑server OEM share and the low “毛三到四” margin contrasted with TSMC and NVIDIA’s high margins. https://news.cnyes.com/news/id/6213008
+
+[^20]: Lawfare: Taiwan’s Silicon Shield Is Turning Into a Target (2025) – analysis of the reversal of the “silicon shield” concept from deterrent to strategic target. https://www.lawfaremedia.org/article/taiwan-s-silicon-shield-is-turning-into-a-target
+
+[^21]: The Reporter: Data‑center electricity use and Taiwan’s energy challenge (2025) – investigation showing data‑center electricity at ~0.5 % of national consumption versus ~15 % for semiconductor manufacturing. https://www.twreporter.org/a/data-center-electricity-demand
+
+[^22]: Commercial Times: HIWIN’s first COMPUTEX appearance building Physical AI (2026) – report on HIWIN’s debut with dual‑arm logistics robots, humanoid core modules, smart grippers, and integrated linear/rotary actuation solutions. https://www.chinatimes.com/realtimenews/20260603001106-260410
+
+[^23]: COMPUTEX TAIPEI official: 2026 return to World Trade Center, first AI‑robotics exhibition zone – official news detailing the AI‑robotics zone’s 180 exhibitors, full supply‑chain showcase, and Huang’s quote on advancing from a manufacturing hub to a global AI‑solution center. https://www.computextaipei.com.tw/zh-tw/news/B02F1CE581650BDA/list-info.html

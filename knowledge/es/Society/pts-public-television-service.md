@@ -19,10 +19,10 @@ lastVerified: 2026-05-27
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/公視.md'
-sourceCommitSha: '31b44ba1d'
-sourceContentHash: 'sha256:e0c32df83dc8d9c2'
-sourceBodyHash: 'sha256:350b52df52cdd2ac'
-translatedAt: '2026-05-28T05:08:34+08:00'
+sourceCommitSha: 'aaa69aba'
+sourceContentHash: 'sha256:941a68e0174e1033'
+sourceBodyHash: 'sha256:b772fb26a3100193'
+translatedAt: '2026-06-06T00:00:00Z'
 ---
 
 > **Resumen en 30 segundos:**
@@ -167,10 +167,12 @@ Quizá los próximos 28 años den una respuesta. Quizá no. Pero hay algo que la
 **Lectura complementaria:**
 
 - [Medios de comunicación y libertad de prensa en Taiwán](/society/台灣媒體與新聞自由) — PTS como parte del ecosistema mediático y su interacción con el entorno general de la libertad de prensa
+- [CommonWealth Magazine](/society/天下雜誌) — Cómo los medios financieros y empresariales afrontan la misma pregunta sobre a quién deben rendir cuentas: sobreviven gracias a suscriptores de pago y un ecosistema corporativo, en contraste con la vía del presupuesto público de PTS
 - [Entretenimiento televisivo taiwanés](/culture/台灣綜藝) — Contraste con los programas de entretenimiento de las cadenas comerciales, para entender por qué PTS eligió hacer drama y documentales
 - [Bandas sonoras del cine y la televisión taiwaneses](/music/台灣影視配樂) — La posición de las bandas sonoras de las series insignia de PTS dentro de la industria musical taiwanesa
 - [Subcontratación de animación en Taiwán](/economy/台灣動畫代工) — Contraste con la industria comercial de propiedad intelectual; la lógica diferente de PTS en la selección de temas de animación
 - [Festivales y celebraciones tradicionales](/culture/傳統節慶與慶典) — La contribución a largo plazo del programa documental _Perspectiva documental_ de PTS a la preservación de la memoria cultural taiwanesa
+- [Instituto de Investigación del Diseño de Taiwán](/society/台灣設計研究院) — Otra fundación pública que camina en la cuerda floja entre «ser visible» y lo público: convierte el diseño en un método de servicio del gobierno hacia la ciudadanía
 
 ## Créditos de imágenes
 

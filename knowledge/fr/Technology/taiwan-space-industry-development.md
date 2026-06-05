@@ -16,13 +16,13 @@ category: 'Technology'
 author: 'Taiwan.md'
 readingTime: 14
 featured: true
-lastVerified: 2026-03-29
+lastVerified: 2026-06-04
 lastHumanReview: false
 translatedFrom: Technology/台灣太空產業發展.md
-sourceCommitSha: 'd6e87d07'
-sourceContentHash: 'sha256:bce66d0a209761dc'
-sourceBodyHash: 'sha256:a7427d47ab9372d5'
-translatedAt: 2026-05-16T22:27:56Z
+sourceCommitSha: 'f3baded5'
+sourceContentHash: 'sha256:e66143fe99e401f4'
+sourceBodyHash: 'sha256:f2a71a6d6f47c4eb'
+translatedAt: '2026-06-06T00:00:00Z'
 ---
 
 # Le développement de l'industrie spatiale taïwanaise : grande puissance de fabrication de satellites, mais sans ses propres fusées
@@ -51,7 +51,7 @@ L'histoire des quinze années suivantes est un processus continu d'apprentissage
 
 📝 **L'essentiel n'est pas seulement la technique, c'est la signification** : l'existence de FORMOSAT-5 signifiait qu'un groupe d'ingénieurs taïwanais savait comment concevoir un satellite de A à Z. Ces personnes sont devenues l'épine dorsale du programme FORMOSAT-8.
 
-En 2023, le « National Space Organization (NSPO) » a été élevé au rang d'entité administrative indépendante sous le nom d'« Agence spatiale de Taïwan (TASA) ». Ce n'était pas qu'un changement de nom, mais un repositionnement stratégique. Derrière cette restructuration se trouvait le « Programme spatial de troisième phase » annoncé par le gouvernement : de 2024 à 2033, un budget total de 71 milliards de dollars taïwanais, soit une augmentation de plus de 180 % par rapport aux 25,1 milliards de la deuxième phase. Trois axes : développer une constellation de satellites de télédétection optique (FORMOSAT-8), industrialiser les satellites de communication (4 satellites en orbite basse), et incuber les startups spatiales privées.
+En 2023, le « National Space Organization (NSPO) » a été élevé au rang d'entité administrative indépendante sous le nom d'« Agence spatiale de Taïwan (TASA) ». Ce n'était pas qu'un changement de nom, mais un repositionnement stratégique. Ce qui sous-tend cette restructuration, c'est le « Plan à long terme de troisième phase de développement technologique spatial national » approuvé en 2019 : initialement fixé à 25,1 milliards de dollars taïwanais pour la période 2019-2028 ; le 20 octobre 2025, le Yuan exécutif a élargi ce même plan à 71 milliards de dollars taïwanais, avec une période étendue jusqu'en 2031 — soit un budget multiplié par près de 1,8. Il cible trois axes : développer une constellation de satellites de télédétection optique (FORMOSAT-8), industrialiser les satellites de communication (4 satellites en orbite basse), et incuber les startups spatiales privées.
 
 ---
 
@@ -87,7 +87,7 @@ Avec un seul satellite, on ne peut photographier un lieu donné qu'une fois par 
 
 La constellation complète de FORMOSAT-8 comprend 8 satellites (6 satellites à résolution submétrique plus 2 satellites à résolution submétrique de première génération). Après le lancement du premier en novembre 2025, les lancements se poursuivront année après année, avec un déploiement complet prévu en 2031. Pourquoi autant ? Parce que le principal goulot d'étranglement de l'imagerie satellite n'est pas la résolution, mais la fréquence de revisite. Après le séisme de Hualien en 2024, il a fallu évaluer rapidement l'étendue des dégâts ; les changements topographiques après un typhon, les inondations agricoles — tout cela nécessite des images satellites. Actuellement, Taïwan dépend de services commerciaux de satellites. Une fois la constellation FORMOSAT-8 opérationnelle, elle fournira une capacité autonome de revisite multiple quotidienne.
 
-> **Chiffre clé** : le taux de fabrication nationale des composants clés du programme FORMOSAT-8 atteint actuellement 84 %, avec un objectif de 95 % d'ici 2030.
+> **Chiffre clé** : le taux de fabrication nationale des composants clés du premier satellite FORMOSAT-8 atteint 84 %, avec un objectif d'augmentation progressive satellite après satellite pour les suivants.
 
 Liu Xiao-jing, directrice du programme, a souligné que le calendrier total d'intégration et de test de FORMOSAT-8 dépasse un an, et qu'avant même d'envoyer le satellite, celui-ci doit passer une série de tests : compatibilité électromagnétique, vibration, acoustique, thermique sous vide, choc de séparation, entre autres. « Aucune étape ne peut être bâclée, car une fois en orbite, le satellite ne revient pas. »
 
@@ -119,16 +119,16 @@ Le contexte technique du programme de satellites de communication de Taïwan mé
 
 Les désavantages de Taïwan résident dans l'échelle et les fusées : elle a près de vingt ans de retard sur le Japon et la Corée du Sud en termes de financement et de date de démarrage. Mais les avantages de Taïwan sont concrets : la chaîne d'approvisionnement de l'[industrie des semi-conducteurs](/fr/technology/semiconductor-industry/), les capacités de fabrication de précision et la base industrielle des TIC confèrent à Taïwan une compétitivité distincte dans les composants satellites et les équipements au sol.
 
-| Indicateur                                 | Taïwan                                | Japon              | Corée du Sud       | Singapour                           |
-| ------------------------------------------ | ------------------------------------- | ------------------ | ------------------ | ----------------------------------- |
-| Budget annuel du programme spatial         | ~7,1 milliards TWD (à partir de 2024) | ~400 milliards JPY | ~760 milliards KRW | ~1,5 milliard SGD                   |
-| Fusée autonome                             | Non                                   | H3 ✅              | Nuri ✅            | Non                                 |
-| Résolution des satellites de télédétection | Submétrique (2025)                    | Submétrique (2006) | Submétrique (2006) | Dépendance aux services commerciaux |
-| Écosystème spatial commercial              | En développement                      | Mature             | Mature             | En développement                    |
+| Indicateur                                 | Taïwan                                      | Japon              | Corée du Sud       | Singapour                           |
+| ------------------------------------------ | ------------------------------------------- | ------------------ | ------------------ | ----------------------------------- |
+| Budget annuel du programme spatial         | ~5,5 milliards TWD (71 md / moyenne 13 ans) | ~400 milliards JPY | ~760 milliards KRW | ~1,5 milliard SGD                   |
+| Fusée autonome                             | Non                                         | H3 ✅              | Nuri ✅            | Non                                 |
+| Résolution des satellites de télédétection | Submétrique (2025)                          | Submétrique (2006) | Submétrique (2006) | Dépendance aux services commerciaux |
+| Écosystème spatial commercial              | En développement                            | Mature             | Mature             | En développement                    |
 
 Ce dans quoi les fabricants taïwanais ont le plus de chances de percer, ce n'est pas « fabriquer des satellites entiers » (le Japon et la Corée du Sud ont des décennies d'avance), mais plutôt « fabriquer ces quelques composants critiques dont dépend le succès ou l'échec du satellite ». Les capteurs CMOS TDI, les modules de communication SDR et les composants électroniques résistants aux radiations sont autant de domaines où l'[industrie des semi-conducteurs](/fr/technology/semiconductor-industry/) peut se différencier dans le secteur spatial. De plus en plus d'entreprises de l'[écosystème startup](/fr/technology/startup-ecosystem/) taïwanais voient cela comme une niche potentielle.
 
-La Corée du Sud a testé sa fusée autonome Nuri en 2021, avec une mise en orbite réussie en 2033, après 12 ans de R&D et un investissement de plus de 2 000 milliards de KRW (environ 50 milliards TWD). La fusée japonaise H3 a échoué à son premier vol avant de réussir en 2024, pour un coût de développement supérieur à 200 milliards de JPY. Le programme spatial de troisième phase de Taïwan, à 71 milliards TWD sur 10 ans, représente environ 1,4 fois le budget du seul programme Nuri coréen, mais doit couvrir trois axes : satellites, communication et startups. Le budget étant limité, la stratégie du TASA est de « ne pas faire de fusées, mais de se concentrer sur les satellites et les capteurs » — exploiter l'avantage manufacturier de l'[industrie des semi-conducteurs](/fr/technology/semiconductor-industry/) pour s'insérer dans la chaîne d'approvisionnement spatiale, plutôt que de rivaliser frontalement en capacité de lancement. Le [développement de la chaîne industrielle des véhicules électriques](/fr/technology/ev-industry/) à Taïwan a suivi une trajectoire similaire : commencer par la fabrication sous contrat, accumuler des capacités sur les composants clés, puis progresser vers l'intégration de systèmes.
+La Corée du Sud a testé sa fusée autonome Nuri en 2021, avec une mise en orbite réussie en 2023, après 12 ans de R&D et un investissement de plus de 2 000 milliards de KRW (environ 50 milliards TWD). La fusée japonaise H3 a échoué à son premier vol avant de réussir en 2024, pour un coût de développement supérieur à 200 milliards de JPY. Le programme spatial de troisième phase de Taïwan, à 71 milliards TWD sur 13 ans (2019-2031), représente environ 1,4 fois le budget du seul programme Nuri coréen, mais doit couvrir trois axes : satellites, communication et startups. Le budget étant limité, la stratégie du TASA est de « ne pas faire de fusées, mais de se concentrer sur les satellites et les capteurs » — exploiter l'avantage manufacturier de l'[industrie des semi-conducteurs](/fr/technology/semiconductor-industry/) pour s'insérer dans la chaîne d'approvisionnement spatiale, plutôt que de rivaliser frontalement en capacité de lancement. Le [développement de la chaîne industrielle des véhicules électriques](/fr/technology/ev-industry/) à Taïwan a suivi une trajectoire similaire : commencer par la fabrication sous contrat, accumuler des capacités sur les composants clés, puis progresser vers l'intégration de systèmes.
 
 ---
 
@@ -148,13 +148,16 @@ Taïwan est une grande puissance de fabrication de satellites, mais elle n'a pas
 4. [TechNews : Pour créer un « Starlink taïwanais », le TASA prévoit d'investir 2,5 milliards avec l'industrie pour lancer des satellites de communication en orbite basse](https://technews.tw/2025/03/30/tasa-6g-ntn-satellite/) (source secondaire, 2025)
 5. [TechNews : Le cubesat Onglaisat a accompli sa mission trois mois après son lancement](https://technews.tw/2025/02/05/tasa-onboard-globe-looking-and-imaging-satellite-onglaisat/) (source secondaire, 2025)
 6. [TechNews : YTTEK se positionne dans l'équipe nationale des satellites de communication en orbite basse B5G](https://technews.tw/2026/02/03/yttek/) (source secondaire, 2026)
-7. [Conseil national des sciences : Le Yuan exécutif a officiellement approuvé le plan à long terme de troisième phase du développement technologique spatial national](https://www.nstc.gov.tw/folksonomy/detail/a16b289c-4cd1-4ab1-b760-49a13ef229e2?l=ch) (source primaire, 2019/2024)
-8. [Site officiel de l'Agence spatiale de Taïwan (TASA)](https://www.tasa.org.tw/) (source primaire)
+7. [Conseil national des sciences : Le Yuan exécutif a officiellement approuvé le plan à long terme de troisième phase du développement technologique spatial national](https://www.nstc.gov.tw/folksonomy/detail/a16b289c-4cd1-4ab1-b760-49a13ef229e2?l=ch) (source primaire, plan de troisième phase approuvé initialement à 25,1 milliards / 2019-2028)
+8. [Cour des comptes : Rapport d'audit du Plan à long terme de troisième phase de développement technologique spatial national](https://www.audit.gov.tw/p/406-1000-11228,r12.php?Lang=zh-tw) (source primaire, vérification de la période et du budget)
+9. [UDN : Le plan spatial de troisième phase élargi à 71 milliards, période étendue jusqu'en 2031](https://udn.com/news/story/7240/9211240) (source secondaire, approbation du Yuan exécutif le 20 octobre 2025)
+10. [Site officiel de l'Agence spatiale de Taïwan (TASA)](https://www.tasa.org.tw/) (source primaire)
 
 ---
 
 **Pour aller plus loin** :
 
+- [Centre spatial national](/technology/國家太空中心) — Cet article traite de la chaîne industrielle ; cet autre article traite de l'institution qui la soutient : comment le Centre spatial national est passé d'un « bureau de préparation » à une entité administrative indépendante TASA, en rassemblant un à un son nom, son statut juridique, ses terrains et ses fusées.
 - [Industrie des semi-conducteurs](/technology/半導體產業) — la base en amont de l'industrie spatiale, les puces satellites proviennent de la même chaîne d'approvisionnement
 - [Écosystème startup](/economy/新創生態系) — comment les startups spatiales privées s'articulent avec les programmes nationaux
 - [Déploiement du réseau 5G et transformation numérique à Taïwan](/technology/台灣5G網路建設與數位轉型) — la complémentarité résiliente entre communication satellite et 5G terrestre
