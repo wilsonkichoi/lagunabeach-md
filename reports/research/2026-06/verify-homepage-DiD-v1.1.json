@@ -1,0 +1,79 @@
+{
+  "filter": ["pagePath=/"],
+  "before": ["2026-05-19", "2026-05-25"],
+  "after": ["2026-05-29", "2026-06-03"],
+  "before_agg": {
+    "users": 1873,
+    "sessions": 2346,
+    "pv": 2612,
+    "engagedSessions": 870,
+    "avgSessionDur_s": 63.32417251577152,
+    "pageEngDur_per_user_s": 16.147891083822746,
+    "pageEngDur_per_sess_s": 12.892156862745098,
+    "engagementRate": 0.37084398976982097,
+    "bounceRate": 0.629156010230179
+  },
+  "after_agg": {
+    "users": 1377,
+    "sessions": 1708,
+    "pv": 1928,
+    "engagedSessions": 1097,
+    "avgSessionDur_s": 274.851098456089,
+    "pageEngDur_per_user_s": 18.90704429920116,
+    "pageEngDur_per_sess_s": 15.242974238875878,
+    "engagementRate": 0.642271662763466,
+    "bounceRate": 0.35772833723653397
+  },
+  "before_lag_days": [],
+  "after_lag_days": [],
+  "deltas": {
+    "avgSessionDuration (s) [session 級·H1]": {
+      "before": 63.32417251577152,
+      "after": 274.851098456089,
+      "pct": 334.03819984798787
+    },
+    "pageEngDur/user (s) [page 級·H1]": {
+      "before": 16.147891083822746,
+      "after": 18.90704429920116,
+      "pct": 17.08677127592584
+    },
+    "engagementRate [率·H2]": {
+      "before": 37.084398976982094,
+      "after": 64.22716627634661,
+      "pct": 73.19187595897604
+    },
+    "bounceRate [率·H2]": {
+      "before": 62.9156010230179,
+      "after": 35.7728337236534,
+      "pct": -43.141552902648456
+    },
+    "activeUsers [量·H2]": {
+      "before": 1873,
+      "after": 1377,
+      "pct": -26.481580352375865
+    },
+    "sessions [量·H2]": {
+      "before": 2346,
+      "after": 1708,
+      "pct": -27.195225916453538
+    },
+    "engagedSessions [量·H2]": {
+      "before": 870,
+      "after": 1097,
+      "pct": 26.091954022988507
+    }
+  },
+  "significance": {
+    "engaged_rate_z": 17.74,
+    "significant_95": true
+  },
+  "diff_in_diff": {
+    "target_delta_pp": 27.1,
+    "control_delta_pp": 0.8,
+    "net_pp": 26.4
+  },
+  "warnings": [
+    "⚠️ H2 率量: user 數差 -26% (>15%) → 結論一律用率(engagementRate/bounce/page級)，不用絕對量",
+    "⚠️ H1 尺度: avgSessionDuration 大漲但 page 級 engDur 沒跟上 → 是 session 變深(往下走)，不是首頁本身停更久。別把 session 級講成 page 級"
+  ]
+}

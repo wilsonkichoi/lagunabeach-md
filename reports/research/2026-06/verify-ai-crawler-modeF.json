@@ -1,0 +1,160 @@
+{
+  "period": {
+    "start": "2026-06-04T00:17:06Z",
+    "end": "2026-06-05T00:17:06Z",
+    "days": 1,
+    "daysFetched": 1,
+    "daysFailed": 0
+  },
+  "totals": {
+    "detectedRequests": 11555,
+    "http200": 8281,
+    "allowedRequests": 11555,
+    "unsuccessfulRequests": 3274,
+    "topCrawler": {
+      "name": "FacebookBot",
+      "category": "Meta",
+      "requests": 2579,
+      "http200": 2402
+    },
+    "unmatchedBotRequests": 73753
+  },
+  "crawlers": [
+    {
+      "name": "FacebookBot",
+      "category": "Meta",
+      "requests": 2579,
+      "http200": 2402
+    },
+    {
+      "name": "ChatGPT-User",
+      "category": "OpenAI",
+      "requests": 1905,
+      "http200": 1853
+    },
+    {
+      "name": "BingBot",
+      "category": "Microsoft",
+      "requests": 1461,
+      "http200": 949
+    },
+    {
+      "name": "Googlebot",
+      "category": "Google",
+      "requests": 1270,
+      "http200": 862
+    },
+    {
+      "name": "PetalBot",
+      "category": "Huawei",
+      "requests": 980,
+      "http200": 512
+    },
+    {
+      "name": "Bytespider",
+      "category": "ByteDance",
+      "requests": 844,
+      "http200": 647
+    },
+    {
+      "name": "OAI-SearchBot",
+      "category": "OpenAI",
+      "requests": 833,
+      "http200": 279
+    },
+    {
+      "name": "Applebot",
+      "category": "Apple",
+      "requests": 490,
+      "http200": 296
+    },
+    {
+      "name": "GPTBot",
+      "category": "OpenAI",
+      "requests": 326,
+      "http200": 81
+    },
+    {
+      "name": "ClaudeBot",
+      "category": "Anthropic",
+      "requests": 203,
+      "http200": 94
+    },
+    {
+      "name": "Meta-ExternalAgent",
+      "category": "Meta",
+      "requests": 193,
+      "http200": 21
+    },
+    {
+      "name": "Amazonbot",
+      "category": "Amazon",
+      "requests": 182,
+      "http200": 71
+    },
+    {
+      "name": "PerplexityBot",
+      "category": "Perplexity",
+      "requests": 166,
+      "http200": 133
+    },
+    {
+      "name": "CCBot",
+      "category": "CommonCrawl",
+      "requests": 65,
+      "http200": 35
+    },
+    {
+      "name": "YandexBot",
+      "category": "Yandex",
+      "requests": 46,
+      "http200": 36
+    },
+    {
+      "name": "DuckDuckBot",
+      "category": "DuckDuckGo",
+      "requests": 7,
+      "http200": 5
+    },
+    {
+      "name": "Perplexity-User",
+      "category": "Perplexity",
+      "requests": 5,
+      "http200": 5
+    }
+  ],
+  "sovereignty_buckets": {
+    "🌐 Western AI": {
+      "requests": 9620,
+      "http200": 7051,
+      "names": [
+        "FacebookBot",
+        "ChatGPT-User",
+        "BingBot",
+        "Googlebot",
+        "OAI-SearchBot",
+        "Applebot",
+        "GPTBot",
+        "ClaudeBot",
+        "Meta-ExternalAgent",
+        "Amazonbot",
+        "PerplexityBot",
+        "DuckDuckBot",
+        "Perplexity-User"
+      ],
+      "share": 0.833
+    },
+    "🚩 PRC AI": {
+      "requests": 1824,
+      "http200": 1159,
+      "names": ["PetalBot", "Bytespider"],
+      "share": 0.158
+    },
+    "其他": {
+      "requests": 111,
+      "http200": 71,
+      "names": ["CCBot", "YandexBot"],
+      "share": 0.01
+    }
+  }
+}

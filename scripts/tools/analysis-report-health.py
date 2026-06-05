@@ -93,6 +93,23 @@ def check_verdict(t):
     return ok, "需有明確 verdict / 結論"
 
 
+def check_prereg(t):
+    # v1.1：預先註冊紀律 — 報告有沒有明說它的假設 + 成功/證偽判準（對付 H7 搬龍門）
+    ok = has(t, r"假設", r"成功判準", r"證偽判準", r"預先註冊", r"pre.?reg",
+             r"hypothesis", r"^windows:", r"成功/?證偽", r"判準")
+    return ok, "(v1.1) 宜先宣告假設 + 成功/證偽判準（pre-registration，對付 H7 事後搬龍門）"
+
+
+def check_mission(t):
+    # v1.1：Goodhart / 使命對齊 — 優化型分析有沒有問「這指標服務 MANIFESTO 還是 goodhart 一個代理」
+    optimization = has(t, r"改版", r"優化", r"轉換率", r"提升.{0,4}engagement", r"建議.{0,8}(上移|重設計|加)", r"feature")
+    if not optimization:
+        return True, "(非優化型分析，使命對齊檢查不適用)"
+    ok = has(t, r"Goodhart", r"使命", r"代理指標", r"proxy", r"MANIFESTO", r"clickbait",
+             r"靈魂", r"背叛", r"策展.{0,4}靈魂", r"局部.{0,2}最高")
+    return ok, "(v1.1) 優化型分析宜問：這個指標服務 MANIFESTO，還是 goodhart 一個代理（engagement↑但靈魂↓）"
+
+
 CHECKS = [
     ("window-defined", "hard", check_window),
     ("confounder-section", "hard", check_confounder),
@@ -101,6 +118,8 @@ CHECKS = [
     ("scope-disambig", "hard", check_scope),
     ("rate-vs-count", "warn", check_rate),
     ("verdict", "warn", check_verdict),
+    ("pre-registration", "warn", check_prereg),
+    ("mission-alignment", "warn", check_mission),
 ]
 
 LIGHT_HARD = {"raw-archived"}  # light tier: only require reproducibility

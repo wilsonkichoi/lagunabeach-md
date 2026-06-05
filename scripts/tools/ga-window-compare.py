@@ -26,6 +26,7 @@ filter: 同 ga-query（field=value / field~contains / field^begins）。
 """
 import argparse
 import json
+import math
 import sys
 import pathlib
 
@@ -33,6 +34,19 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from lib.sense_client import reexec_in_venv  # noqa: E402
 reexec_in_venv()
 from lib.sense_client import ga_run  # noqa: E402
+
+
+def two_prop_z(eng_b, n_b, eng_a, n_a):
+    """Two-proportion z-test on engaged-session rate. Returns (z, significant).
+    H11: 顯著性守衛 — 小樣本的 rate 差可能純雜訊。|z|>=2 ≈ 95%。"""
+    if n_b == 0 or n_a == 0:
+        return 0.0, False
+    pb, pa = eng_b / n_b, eng_a / n_a
+    se = math.sqrt(pb * (1 - pb) / n_b + pa * (1 - pa) / n_a)
+    if se == 0:
+        return 0.0, False
+    z = (pa - pb) / se
+    return z, abs(z) >= 2.0
 
 CORE_METRICS = ["activeUsers", "sessions", "screenPageViews", "userEngagementDuration",
                 "averageSessionDuration", "engagementRate", "bounceRate", "engagedSessions"]
@@ -96,6 +110,7 @@ def pct(b, a):
 def main():
     ap = argparse.ArgumentParser(description="GA4 before/after impact comparator")
     ap.add_argument("--filter", action="append", default=[], help="page filter (e.g. pagePath=/)")
+    ap.add_argument("--control", action="append", default=[], help="H10 控制組 filter（沒被改的表面，如 pagePath~/technology/）→ 算 DiD 減掉大盤趨勢")
     ap.add_argument("--before", nargs=2, metavar=("START", "END"), required=True)
     ap.add_argument("--after", nargs=2, metavar=("START", "END"), required=True)
     ap.add_argument("--cohort", action="store_true", help="add new-vs-returning split")
@@ -109,6 +124,22 @@ def main():
     A = agg(flt, *a.after)
     bd, ad = daily(flt, *a.before), daily(flt, *a.after)
     blag, alag = lag_days(bd), lag_days(ad)
+
+    # H11 顯著性：engaged session rate 兩比例 z 檢定
+    z, signif = two_prop_z(B["engagedSessions"], B["sessions"], A["engagedSessions"], A["sessions"])
+
+    # H10 控制組 / DiD：減掉大盤趨勢
+    diff_in_diff = None
+    C = CA = None
+    if a.control:
+        cflt = [parse_filter(f) for f in a.control]
+        C = agg(cflt, *a.before)
+        CA = agg(cflt, *a.after)
+        target_d = (A["engagementRate"] - B["engagementRate"]) * 100      # pp
+        control_d = (CA["engagementRate"] - C["engagementRate"]) * 100    # pp
+        diff_in_diff = {"target_delta_pp": round(target_d, 1),
+                        "control_delta_pp": round(control_d, 1),
+                        "net_pp": round(target_d - control_d, 1)}
 
     rows = [
         ("avgSessionDuration (s) [session 級·H1]", B["avgSessionDur_s"], A["avgSessionDur_s"], "{:.0f}"),
@@ -129,11 +160,19 @@ def main():
         warnings.append(f"⚠️ H2 率量: user 數差 {pct(B['users'], A['users']):+.0f}% (>15%) → 結論一律用率(engagementRate/bounce/page級)，不用絕對量")
     if pct(B["avgSessionDur_s"], A["avgSessionDur_s"]) > 50 and pct(B["pageEngDur_per_user_s"], A["pageEngDur_per_user_s"]) < 50:
         warnings.append("⚠️ H1 尺度: avgSessionDuration 大漲但 page 級 engDur 沒跟上 → 是 session 變深(往下走)，不是首頁本身停更久。別把 session 級講成 page 級")
+    if not signif:
+        warnings.append(f"⚠️ H11 顯著性: engaged-rate 差異 z={z:.1f} (<2) → 可能是雜訊，樣本不夠別當勝利")
+    if a.control and diff_in_diff and B["engagementRate"] > 0:
+        cd = diff_in_diff["control_delta_pp"]
+        if abs(cd) >= 3:
+            warnings.append(f"⚠️ H10 控制組: 控制組 engagementRate 同期也動了 {cd:+.1f}pp（大盤趨勢）→ 淨效果 = {diff_in_diff['net_pp']:+.1f}pp，不是 target 的全部變化")
 
     payload = {
         "filter": a.filter, "before": a.before, "after": a.after,
         "before_agg": B, "after_agg": A, "before_lag_days": blag, "after_lag_days": alag,
         "deltas": {r[0]: {"before": r[1], "after": r[2], "pct": pct(r[1], r[2])} for r in rows},
+        "significance": {"engaged_rate_z": round(z, 2), "significant_95": signif},
+        "diff_in_diff": diff_in_diff,
         "warnings": warnings,
     }
     if a.cohort:
@@ -157,6 +196,11 @@ def main():
         d = pct(b, av)
         ds = ("+" if d >= 0 else "") + (f"{d:.0f}%" if d == d else "n/a")
         print(f"{label:<40}{fmt.format(b):>12}{fmt.format(av):>12}{ds:>10}")
+    sig_tag = "✅顯著(95%)" if signif else "⚠️雜訊範圍"
+    print(f"\nengaged-rate 顯著性 [H11]: z={z:.1f}  {sig_tag}")
+    if diff_in_diff:
+        print(f"控制組 DiD [H10]: target {diff_in_diff['target_delta_pp']:+.1f}pp − "
+              f"控制組 {diff_in_diff['control_delta_pp']:+.1f}pp = 淨效果 {diff_in_diff['net_pp']:+.1f}pp（已減大盤趨勢）")
     if a.cohort:
         print("\n— new vs returning —")
         for win, c in (("BEFORE", payload.get("cohort_before", {})), ("AFTER", payload.get("cohort_after", {}))):
