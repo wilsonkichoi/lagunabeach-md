@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T22:11:41.449Z",
+  "lastUpdated": "2026-06-05T15:10:47.877Z",
   "organs": [
     {
       "id": "heart",
@@ -10,9 +10,9 @@
       "score": 90,
       "trend": "up",
       "metrics": {
-        "articlesLast7Days": 36,
-        "articlesLast30Days": 202,
-        "totalArticles": 770
+        "articlesLast7Days": 48,
+        "articlesLast30Days": 200,
+        "totalArticles": 775
       }
     },
     {
@@ -25,9 +25,9 @@
       "trend": "stable",
       "version": "v1",
       "metrics": {
-        "humanReviewedCount": 210,
-        "totalArticles": 770,
-        "humanReviewedPercent": 27.3
+        "humanReviewedCount": 209,
+        "totalArticles": 775,
+        "humanReviewedPercent": 27
       }
     },
     {
@@ -39,7 +39,7 @@
       "score": 95,
       "trend": "up",
       "metrics": {
-        "editorialLastModified": "2026-05-28T11:32:17.000Z"
+        "editorialLastModified": "2026-06-04T13:21:45.000Z"
       }
     },
     {
@@ -74,7 +74,7 @@
       "trend": "up",
       "metrics": {
         "recentContributors": 8,
-        "recentSpores": 28,
+        "recentSpores": 34,
         "topPerformerCount": 5,
         "topPerformerAvgViews": 153428,
         "hasBlockbuster": true
@@ -103,7 +103,7 @@
       "trend": "up",
       "metrics": {
         "languageCoverage": {
-          "zh-TW": 770,
+          "zh-TW": 775,
           "en": 791,
           "ja": 780,
           "ko": 775,
@@ -128,7 +128,7 @@
             },
             "articles": {
               "count": 791,
-              "pct": 103
+              "pct": 102
             },
             "score": 100
           },
@@ -168,7 +168,7 @@
             },
             "articles": {
               "count": 775,
-              "pct": 101
+              "pct": 100
             },
             "score": 100
           },
@@ -208,7 +208,7 @@
             },
             "articles": {
               "count": 792,
-              "pct": 103
+              "pct": 102
             },
             "score": 86
           }

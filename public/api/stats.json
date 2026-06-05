@@ -1,8 +1,8 @@
 {
-  "totalArticles": 4756,
+  "totalArticles": 4761,
   "totalCategories": 21,
   "estimatedContributors": 57,
-  "totalTags": 6369,
+  "totalTags": 6359,
   "categories": [
     {
       "name": "es",
@@ -34,7 +34,7 @@
     },
     {
       "name": "Society",
-      "count": 76
+      "count": 80
     },
     {
       "name": "Culture",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Technology",
-      "count": 51
+      "count": 52
     },
     {
       "name": "Lifestyle",
@@ -115,15 +115,15 @@
       "count": 27
     },
     {
-      "name": "金曲獎",
-      "count": 27
-    },
-    {
       "name": "音樂",
       "count": 27
     },
     {
       "name": "客家",
+      "count": 26
+    },
+    {
+      "name": "金曲獎",
       "count": 26
     },
     {
@@ -172,13 +172,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4756,
+    "zh-TW": 4761,
     "en": 0
   },
-  "lastUpdated": "2026-06-03T22:11:40.603Z",
-  "stars": 1017,
+  "lastUpdated": "2026-06-05T15:10:46.971Z",
+  "stars": 1021,
   "forks": 148,
-  "zhPages": 3951,
+  "zhPages": 3956,
   "enPages": 805,
-  "totalPages": 4756
+  "totalPages": 4761
 }

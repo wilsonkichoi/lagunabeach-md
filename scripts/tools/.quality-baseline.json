@@ -1,8 +1,8 @@
 {
   "version": "ssot-1.0",
-  "timestamp": "2026-06-03T22:11:41Z",
-  "total": 782,
-  "flagged": 325,
+  "timestamp": "2026-06-05T15:10:47Z",
+  "total": 787,
+  "flagged": 320,
   "files": [
     {
       "file": "music/拍謝少年.md",
@@ -155,6 +155,11 @@
       "reasons": "年份僅0個; 塑膠句1個"
     },
     {
+      "file": "technology/國家太空中心.md",
+      "score": 6,
+      "reasons": "空洞詞6個; 未人工審核; 破折號38個; 稀薄段落×1"
+    },
+    {
       "file": "technology/Facebook.md",
       "score": 5,
       "reasons": "空洞詞13個; 未人工審核; 稀薄段落×5"
@@ -167,7 +172,7 @@
     {
       "file": "technology/台灣太空產業發展.md",
       "score": 6,
-      "reasons": "未人工審核; 塑膠句1個; 後段清單堆砌34%; 品質衰退前25%後16%; 無腳註"
+      "reasons": "未人工審核; 塑膠句1個; 後段清單堆砌40%; 品質衰退前25%後16%; 無腳註"
     },
     {
       "file": "technology/台灣BIM與營建科技.md",
@@ -232,7 +237,7 @@
     {
       "file": "technology/mini-taiwan-pulse.md",
       "score": 6,
-      "reasons": "連續bullet5行; 後段清單堆砌45%; 稀薄段落×2"
+      "reasons": "連續bullet4行; 後段清單堆砌45%; 稀薄段落×2"
     },
     {
       "file": "technology/海底電纜.md",
@@ -241,13 +246,8 @@
     },
     {
       "file": "technology/雷亞遊戲.md",
-      "score": 6,
-      "reasons": "空洞詞16個; 未人工審核; 連續bullet8行"
-    },
-    {
-      "file": "art/林經堯.md",
       "score": 4,
-      "reasons": "未人工審核; 連續bullet5行; 破折號11個"
+      "reasons": "空洞詞16個; 未人工審核"
     },
     {
       "file": "art/台灣電影.md",
@@ -266,8 +266,8 @@
     },
     {
       "file": "art/紀柏豪.md",
-      "score": 5,
-      "reasons": "空洞詞7個; 連續bullet4行; 破折號43個"
+      "score": 4,
+      "reasons": "空洞詞7個; 破折號43個"
     },
     {
       "file": "art/台灣現代詩.md",
@@ -318,11 +318,6 @@
       "file": "art/植劇場.md",
       "score": 6,
       "reasons": "年份僅0個; 未人工審核; 塑膠句2個; 無腳註"
-    },
-    {
-      "file": "art/王新仁.md",
-      "score": 4,
-      "reasons": "連續bullet5行; 塑膠句1個; 破折號12個"
     },
     {
       "file": "art/台灣傳統藝術.md",
@@ -386,8 +381,8 @@
     },
     {
       "file": "lifestyle/台灣醫療與全民健保.md",
-      "score": 5,
-      "reasons": "未人工審核; 破折號14個; 稀薄段落×1; 無腳註"
+      "score": 4,
+      "reasons": "空洞詞8個; 未人工審核; 破折號13個"
     },
     {
       "file": "lifestyle/台灣捷運發展史.md",
@@ -548,6 +543,11 @@
       "file": "society/自助餐阿姨的謎之目測精算能力.md",
       "score": 10,
       "reasons": "年份僅1個; 未人工審核; 連續bullet4行; 塑膠句3個; 破折號6個; 稀薄段落×1; 無腳註"
+    },
+    {
+      "file": "society/中華台北.md",
+      "score": 4,
+      "reasons": "未人工審核; 破折號9個; 稀薄段落×1"
     },
     {
       "file": "society/外省人.md",
@@ -755,11 +755,6 @@
       "reasons": "未人工審核; 塑膠句1個; 稀薄段落×3"
     },
     {
-      "file": "people/吳哲宇.md",
-      "score": 4,
-      "reasons": "連續bullet5行; 塑膠句1個; 破折號10個"
-    },
-    {
       "file": "people/阿翰.md",
       "score": 5,
       "reasons": "未人工審核; 塑膠句1個; 破折號13個; 稀薄段落×1"
@@ -925,11 +920,6 @@
       "reasons": "未人工審核; 塑膠句1個; 破折號22個"
     },
     {
-      "file": "people/Howhow.md",
-      "score": 6,
-      "reasons": "空洞詞8個; 未人工審核; 塑膠句3個; 稀薄段落×2"
-    },
-    {
       "file": "people/蔣為文.md",
       "score": 5,
       "reasons": "破折號7個; 後段清單堆砌33%; 稀薄段落×3"
@@ -1058,11 +1048,6 @@
       "file": "people/戴資穎.md",
       "score": 6,
       "reasons": "空洞詞12個; 塑膠句2個; 套路結尾; 無腳註"
-    },
-    {
-      "file": "people/聶永真.md",
-      "score": 4,
-      "reasons": "空洞詞5個; 未人工審核; 連續bullet5行; 稀薄段落×1"
     },
     {
       "file": "people/鄭成功.md",
@@ -1246,8 +1231,8 @@
     },
     {
       "file": "food/金牛角.md",
-      "score": 8,
-      "reasons": "年份僅1個; 未人工審核; 連續bullet4行; 塑膠句1個; 破折號10個"
+      "score": 7,
+      "reasons": "年份僅1個; 未人工審核; 塑膠句1個; 破折號10個"
     },
     {
       "file": "history/源興牛與牛肉湯的歷史.md",
@@ -1376,8 +1361,8 @@
     },
     {
       "file": "geography/新北市.md",
-      "score": 5,
-      "reasons": "空洞詞18個; 未人工審核; 連續bullet5行"
+      "score": 4,
+      "reasons": "空洞詞18個; 未人工審核"
     },
     {
       "file": "geography/擎天崗.md",
@@ -1388,16 +1373,6 @@
       "file": "geography/漯底山.md",
       "score": 6,
       "reasons": "年份2個; 未人工審核; 後段清單堆砌38%; 稀薄段落×2"
-    },
-    {
-      "file": "geography/新竹縣.md",
-      "score": 4,
-      "reasons": "空洞詞7個; 未人工審核; 連續bullet6行"
-    },
-    {
-      "file": "geography/台東縣.md",
-      "score": 4,
-      "reasons": "空洞詞7個; 未人工審核; 連續bullet6行"
     },
     {
       "file": "geography/清水斷崖.md",
@@ -1441,8 +1416,8 @@
     },
     {
       "file": "geography/金門縣.md",
-      "score": 6,
-      "reasons": "空洞詞6個; 未人工審核; 連續bullet5行; 破折號30個"
+      "score": 5,
+      "reasons": "空洞詞6個; 未人工審核; 破折號30個"
     },
     {
       "file": "geography/氣候.md",
@@ -1556,8 +1531,8 @@
     },
     {
       "file": "culture/神豬.md",
-      "score": 6,
-      "reasons": "空洞詞7個; 未人工審核; 連續bullet5行; 塑膠句2個; 稀薄段落×4"
+      "score": 5,
+      "reasons": "空洞詞7個; 未人工審核; 塑膠句2個; 稀薄段落×4"
     },
     {
       "file": "culture/媽祖與大道公的傳說.md",
@@ -1621,8 +1596,8 @@
     },
     {
       "file": "culture/紙傘.md",
-      "score": 6,
-      "reasons": "未人工審核; 連續bullet4行; 塑膠句2個; 破折號5個; 稀薄段落×2"
+      "score": 5,
+      "reasons": "未人工審核; 塑膠句2個; 破折號5個; 稀薄段落×2"
     },
     {
       "file": "culture/關聖帝君信仰.md",

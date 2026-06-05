@@ -12,8 +12,8 @@
     "Nature": 185,
     "People": 1135,
     "Politics": 50,
-    "Society": 396,
-    "Technology": 254,
+    "Society": 400,
+    "Technology": 255,
     "resources": 10,
     "people": 2
   },
@@ -317,7 +317,15 @@
     {
       "date": "2026-06-03",
       "count": 3
+    },
+    {
+      "date": "2026-06-04",
+      "count": 4
+    },
+    {
+      "date": "2026-06-05",
+      "count": 1
     }
   ],
-  "updated": "2026-06-03"
+  "updated": "2026-06-05"
 }

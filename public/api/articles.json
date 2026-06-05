@@ -1266,6 +1266,24 @@
     "path": "ja/History/chiang-kai-shek-memorial-hall.md"
   },
   {
+    "title": "中華台北：那張讓台灣上場、卻印不上自己名字的入場券",
+    "description": "1960 年羅馬奧運，台灣代表團舉著「UNDER PROTEST」白布條走進開幕式，是奧運史上唯一一次開幕抗議。從蔣經國拒絕國際奧會給的「台灣」、徐亨告贏 IOC、洛桑協議換來梅花旗與會歌，到 2018 年運動員自己投票否決正名——這個名字四十年沒換，但站在頒獎台上進退兩難的，始終是要靠它才能上場的選手，不是吵名字的政治人物。",
+    "category": "Society",
+    "tags": [
+      "中華台北",
+      "奧會模式",
+      "洛桑協議",
+      "台灣正名",
+      "體育外交",
+      "主權"
+    ],
+    "url": "https://taiwan.md/Society/%E4%B8%AD%E8%8F%AF%E5%8F%B0%E5%8C%97",
+    "readingTime": 58,
+    "featured": false,
+    "date": "2026-06-04",
+    "path": "Society/中華台北.md"
+  },
+  {
     "title": "中華菱利：台湾経済を支える発財車",
     "description": "1988 年に自主開発された「威利」から、軽商用車市場を二十年にわたり制覇した「菱利」まで、中華汽車はいかに日本の Minicab を現地化し、台湾の街角で最も親しまれる経済の支柱へと発展させたのでしょうか。",
     "category": "ja",
@@ -1467,7 +1485,7 @@
       "臂距原則"
     ],
     "url": "https://taiwan.md/Society/%E5%85%AC%E8%A6%96",
-    "readingTime": 50,
+    "readingTime": 51,
     "featured": false,
     "date": "2026-05-27",
     "path": "Society/公視.md"
@@ -1551,6 +1569,17 @@
     "featured": false,
     "date": "2026-05-17",
     "path": "ja/People/au-sow-yee.md"
+  },
+  {
+    "title": "天下雜誌：替台灣的「成功」排了四十年名次，站在離資本最近的地方",
+    "description": "1981 年 6 月，一本叫《天下》的財經雜誌在戒嚴的孤島創刊，首刷一萬本兩天售罄。發起人是經濟學者高希均，靈魂是當過合眾國際社、紐約時報記者的殷允芃。四十年後它成了台灣最受信任的媒體之一，也成了兩千大、50 大、幸福城市的「成功定義者」。它公信力的來源，和它排名權力的來源，是同一段距離。",
+    "category": "Society",
+    "tags": [],
+    "url": "https://taiwan.md/Society/%E5%A4%A9%E4%B8%8B%E9%9B%9C%E8%AA%8C",
+    "readingTime": 55,
+    "featured": true,
+    "date": "2026-06-04",
+    "path": "Society/天下雜誌.md"
   },
   {
     "title": "天燈：1820 報平安的信號，2019 三百二十六公斤的山林垃圾，同一群平溪人扛兩個身分",
@@ -6385,7 +6414,7 @@
       "商業太空"
     ],
     "url": "https://taiwan.md/Technology/%E5%8F%B0%E7%81%A3%E5%A4%AA%E7%A9%BA%E7%94%A2%E6%A5%AD%E7%99%BC%E5%B1%95",
-    "readingTime": 23,
+    "readingTime": 24,
     "featured": true,
     "date": "2026-03-29",
     "path": "Technology/台灣太空產業發展.md"
@@ -8586,6 +8615,17 @@
     "path": "History/台灣眷村歷史.md"
   },
   {
+    "title": "台灣設計研究院：把設計偷偷塞進衛生所跟選票裡的那個機構",
+    "description": "2022 年，台北捷運中山站售票區改造後，有人留言「做得不錯，以後別做了」。一個靠金點獎、百萬人次設計展、國際排名活下來的機構，最大的賭注卻押在你「沒感覺」的地方——汐止的衛生所候診區、你手上那張選票的字體。從「Made in Taiwan 是仿冒品代名詞」到「設計力就是國力」，台灣設計研究院想證明這座代工島能自己決定東西長什麼樣子，包括政府碰到人民的方式。",
+    "category": "Society",
+    "tags": [],
+    "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E8%A8%AD%E8%A8%88%E7%A0%94%E7%A9%B6%E9%99%A2",
+    "readingTime": 44,
+    "featured": false,
+    "date": "2026-06-04",
+    "path": "Society/台灣設計研究院.md"
+  },
+  {
     "title": "台灣軟體產業發展",
     "description": "從代工思維到軟體創新，台灣如何在後半導體時代找到新定位",
     "category": "Technology",
@@ -9723,14 +9763,14 @@
     "path": "History/台灣轉型正義.md"
   },
   {
-    "title": "台灣醫療與全民健保",
-    "description": "99% 覆蓋率的矛盾奇蹟：Numbeo 連六年全球第一的健保制度，為何讓醫護人員以血汗支撐？",
+    "title": "台灣醫療與全民健保：99.6% 撐在 12.61% 之上的世界第一",
+    "description": "1995 年 3 月 1 日的健保卡是火燒屁股趕出來的：六天前連卡都沒印好。30 年後，2,300 萬人的就醫權利撐在 5.17% 費率、護理離職率 10 年新高 12.61%、跟 30 年沒人敢動的政治禁忌上。",
     "category": "Lifestyle",
     "tags": [],
     "url": "https://taiwan.md/Lifestyle/%E5%8F%B0%E7%81%A3%E9%86%AB%E7%99%82%E8%88%87%E5%85%A8%E6%B0%91%E5%81%A5%E4%BF%9D",
-    "readingTime": 13,
+    "readingTime": 73,
     "featured": true,
-    "date": "2026-03-30",
+    "date": "2026-06-04",
     "path": "Lifestyle/台灣醫療與全民健保.md"
   },
   {
@@ -10551,16 +10591,7 @@
     "title": "再生醫療雙法 × mRNA 30 年：兩種救命藥怎麼被國家納管",
     "description": "2023 年 Karikó 與 Weissman 拿諾貝爾獎那天，距離她在賓州大學被降職整整 28 年。2021 年 9 月 2 日 BNT 第一批 93 萬劑落地桃機那一刻，距離她 1997 年跟 Weissman 在影印機前撞見也已 24 年。本文以「再生醫療雙法 2024」與「mRNA 30 年辛酸」雙線並置，從匈牙利移民女科學家的玩具熊到桃園科學園區的無塵室，看國家怎麼納管兩種完全不同的救命藥——細胞，跟分子。",
     "category": "Society",
-    "tags": [
-      "再生醫療雙法",
-      "細胞製備",
-      "mRNA 疫苗",
-      "COVID-19",
-      "Karikó",
-      "BNT",
-      "醫療人權",
-      "GMP"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E5%86%8D%E7%94%9F%E9%86%AB%E7%99%82%E9%9B%99%E6%B3%95%E6%B2%BF%E9%9D%A9%E5%BE%9E%E6%A5%AD%E4%BA%BA%E5%93%A1%E5%91%8A%E7%99%BD",
     "readingTime": 68,
     "featured": true,
@@ -11569,6 +11600,17 @@
     "path": "ja/Lifestyle/wang-a-piau-pog-cards.md"
   },
   {
+    "title": "我是OO人：喊你「鄉親」的粉專，後台是內湖一間公司和一句忘了刪的 AI 指令",
+    "description": "2026 年 2 月，一個自稱「我是台北人」的在地粉專，貼文裡留著一句沒刪掉的 AI 指令：「移除敏感字眼，強化台灣在地口語」。順著這條線索往回拉，盡頭是內湖一棟大樓裡的林家關係企業，把中天、CTWANT 的新聞洗成鄉親口氣，掛在偽裝成各縣市在地人的粉專上散布。它不造假新聞，它轉的是真新聞，問題在產地與金流查不到，而台灣最會抓認知作戰的人，卻都在喊：別急著貼標籤。",
+    "category": "Society",
+    "tags": [],
+    "url": "https://taiwan.md/Society/%E6%88%91%E6%98%AFOO%E4%BA%BA",
+    "readingTime": 43,
+    "featured": false,
+    "date": "2026-06-05",
+    "path": "Society/我是OO人.md"
+  },
+  {
     "title": "戒厳令時代",
     "description": "1949年5月19日、陳誠が台湾省戒厳令を発布しました。38年後の1987年7月15日、蒋介石の長男・蒋経国が戒厳令の解除を宣言しました。金門・馬祖地域は1992年まで戒厳が続きました。この5年間、彼らは何を経験したのでしょうか？",
     "category": "ja",
@@ -11725,8 +11767,8 @@
     "path": "ja/People/li-zongsheng.md"
   },
   {
-    "title": "李宗盛：三十年幫別人寫最好的歌，《山丘》才說自己",
-    "description": "1958年7月19日生於台北，李宗盛是華語流行音樂史上最重要的詞曲創作者與製作人。1985年為張艾嘉製作《忙與盲》，1986年1月發行首張個人專輯。製作林憶蓮、周華健、陳淑樺等無數經典。2013年55歲推出《山丘》，2024-2026年展開「有歌之年」巡迴演唱會。",
+    "title": "李宗盛：用大白話替別人寫盡心事，《山丘》才終於說自己",
+    "description": "1958年生於北投瓦斯行的李宗盛，怕回去送瓦斯，於是寫了一輩子的歌。他用市井大白話替陳淑樺、辛曉琪、林憶蓮一代女歌手寫盡情愛與人生的坎，被稱「窺人心」的白居易。但這個最懂別人心事的人，自己的中年與父親活到55歲《山丘》、60歲《新寫的舊歌》才正面開口；而他「靠女人的歌吃飯」的同時，真實生活的情感選擇也讓他背上「渣男」之名。",
     "category": "People",
     "tags": [
       "音樂",
@@ -11737,7 +11779,7 @@
       "人生哲學"
     ],
     "url": "https://taiwan.md/People/%E6%9D%8E%E5%AE%97%E7%9B%9B",
-    "readingTime": 7,
+    "readingTime": 42,
     "featured": false,
     "date": "2026-03-19",
     "path": "People/李宗盛.md"
@@ -13329,7 +13371,7 @@
       "知識平台"
     ],
     "url": "https://taiwan.md/Society/%E6%B3%9B%E7%A7%91%E5%AD%B8",
-    "readingTime": 40,
+    "readingTime": 41,
     "featured": false,
     "date": "2026-05-20",
     "path": "Society/泛科學.md"
@@ -15807,6 +15849,24 @@
     "path": "Nature/國家公園.md"
   },
   {
+    "title": "國家太空中心：花三十二年，替一個還沒湊齊名字的國家湊齊一個太空署",
+    "description": "1991 年它叫「籌備處」，沒有名字、沒有火箭、沒有自己的地。三十二年後它把 Taiwan 放回名字裡，現在新竹的操控中心 24 小時追著八顆衛星的心跳；0403 花蓮地震那天，它在震後六分鐘重設任務、三小時取像。它正在補上最後一塊零件——一枚自己的入軌火箭，還有一個已經核定、最快 2028 上路的月球任務。",
+    "category": "Technology",
+    "tags": [
+      "國家太空中心",
+      "TASA",
+      "太空科技",
+      "吳宗信",
+      "福衛",
+      "太空主權"
+    ],
+    "url": "https://taiwan.md/Technology/%E5%9C%8B%E5%AE%B6%E5%A4%AA%E7%A9%BA%E4%B8%AD%E5%BF%83",
+    "readingTime": 92,
+    "featured": true,
+    "date": "2026-06-04",
+    "path": "Technology/國家太空中心.md"
+  },
+  {
     "title": "國家文化記憶庫：數位時代下的記憶策展與文化共創",
     "description": "國家文化記憶庫不僅是數位典藏平台，更是一場與時間拔河的社會工程，透過開放授權與共創，讓台灣常民記憶在數位時代中活化再生。",
     "category": "Technology",
@@ -18232,12 +18292,12 @@
     "path": "ja/Technology/open-culture-foundation.md"
   },
   {
-    "title": "開放文化基金會：替台灣最不受控的一群人，做最無聊的那件事",
-    "description": "2014 年，一群在台灣辦開源研討會的工程師卡在一個最無聊的問題：活動收據沒地方報帳。於是他們成立了開放文化基金會（OCF），專門替那群「沒有人是萬能的」公民科技志工開發票、收捐款、簽合約。十年後，這個原本只是幫人報帳的後台，長成了會盯著政府別亂封網的看門狗。",
+    "title": "開放文化基金會：幫台灣最不受控的一群人，做最無聊的那件事",
+    "description": "2020 年口罩地圖三天上線，全台灣都記得那個奇蹟，沒人記得是誰幫專案報帳、簽約、報勞健保。那個後台叫開放文化基金會——一場喊著「沒有人是萬能的」的去中心化運動，為了讓黑客繼續黑客，最後得自己長出一個會開發票、受董事會約束的財團法人。十年後，這個只想幫人報帳的後台，成了台灣在國際上談數位人權時會被想起的名字。",
     "category": "Technology",
     "tags": [],
     "url": "https://taiwan.md/Technology/%E9%96%8B%E6%94%BE%E6%96%87%E5%8C%96%E5%9F%BA%E9%87%91%E6%9C%83",
-    "readingTime": 37,
+    "readingTime": 61,
     "featured": false,
     "date": "2026-06-03",
     "path": "Technology/開放文化基金會.md"
@@ -26697,7 +26757,7 @@
     "category": "Technology",
     "tags": [],
     "url": "https://taiwan.md/Technology/Computex",
-    "readingTime": 44,
+    "readingTime": 55,
     "featured": true,
     "date": "2026-06-01",
     "path": "Technology/Computex.md"
@@ -32082,12 +32142,12 @@
     "path": "ja/People/howhow.md"
   },
   {
-    "title": "Howhow：從一人分飾多角的邊緣人，到重新定義廣告的業配之王",
-    "description": "1989年出生的陳孜昊，從政大經濟系跨界到美國薩凡納藝術設計學院攻讀視覺特效。他以一人分飾多角的無厘頭短劇，將觀眾最反感的「業配」轉化為頻道最強的核心競爭力。這場長達十年的「孤獨演出」，重新定義了傳統行銷的界線，並讓他在自嘲與邊緣人設定中，建立起與台灣鄉民最深層的集體共鳴。",
+    "title": "Howhow：把業配攤在陽光下的人，和他一個人撐起的越來越貴的誠實",
+    "description": "2015 年，一個粉絲不到十萬的 YouTuber 被三星飛去紐約，他以為自己是要去當攝影師，把聯絡人存成「大恩人」。陳孜昊後來用一句「直接進入業配主題！」把創作者最想藏的廣告變成招牌，靠自己一個人編導演剪撐起 154 萬訂閱。但他討厭孤獨，一直想要團隊；而他堅持的長片，正落在被短影音碾壓最重的那條賽道上。",
     "category": "People",
     "tags": [],
     "url": "https://taiwan.md/People/Howhow",
-    "readingTime": 16,
+    "readingTime": 44,
     "featured": false,
     "date": "2026-05-13",
     "path": "People/Howhow.md"
@@ -43916,13 +43976,7 @@
     "title": "Postwar Economic Development",
     "description": "The trajectory of Taiwan's economic miracle, rising from an agricultural society to become one of the Four Asian Tigers",
     "category": "en",
-    "tags": [
-      "Economic History",
-      "Industrialization",
-      "Ten Major Construction Projects",
-      "Economic Miracle",
-      "Industrial Transformation"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/History/postwar-economic-development",
     "readingTime": 44,
     "featured": false,
@@ -46692,7 +46746,7 @@
   },
   {
     "title": "Taiwan Agricultural Landscapes and Industry Belts",
-    "description": "The shift in agricultural landscapes from north to south traces Taiwan's transformation from the \"Taiwanese Granary\" to \"precision agriculture.\"",
+    "description": "The shift in agricultural landscapes from north to south traces Taiwan''s transformation from the \"Taiwanese Granary\" to \"precision agriculture.\"",
     "category": "en",
     "tags": [
       "Agriculture",
@@ -48944,14 +48998,7 @@
     "title": "Taiwan's Political Landscape and Electoral System",
     "description": "From the constitutional framework, central and local electoral mechanisms, to the deeper party-political culture, a comprehensive analysis of how Taiwan maintains a vibrant and institutionally rigorous democratic society amid complex geopolitics",
     "category": "en",
-    "tags": [
-      "Political System",
-      "Electoral System",
-      "Semi-Presidentialism",
-      "Local Self-Governance",
-      "Civil Society",
-      "Digital Democracy"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/Society/taiwan-political-landscape-and-electoral-system",
     "readingTime": 48,
     "featured": false,
@@ -50614,19 +50661,10 @@
     "path": "en/Music/taiwan-independent-music-scene-evolution.md"
   },
   {
-    "title": "The Evolution of Taiwanese Hokkien Songs: From \"Old Man's Music\" to Indie Darling",
+    "title": "The Evolution of Taiwanese Hokkien Songs: From \"Old Man''s Music\" to Indie Darling",
     "description": "Tracing the evolution of Taiwanese Hokkien songs from the nakashi era, the golden age of Hung I-feng and Jody Chiang, to the new-generation bands such as Eggplant Egg, Sorry Youth, and Collage — exploring how Hokkien music has regained the identity of younger generations.",
     "category": "en",
-    "tags": [
-      "台語歌曲",
-      "那卡西",
-      "洪一峰",
-      "江蕙",
-      "茄子蛋",
-      "拍謝少年",
-      "珂拉琪",
-      "金曲獎"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/Music/taiwanese-hokkien-song-evolution",
     "readingTime": 62,
     "featured": true,
@@ -51937,13 +51975,7 @@
     "title": "Urban Character and Regional Culture",
     "description": "From Taipei's international metropolis to Tainan's ancient capital charm, how cities across Taiwan shape unique local identities",
     "category": "en",
-    "tags": [
-      "City",
-      "Regional Culture",
-      "Local Character",
-      "Urban Development",
-      "Cultural Geography"
-    ],
+    "tags": [],
     "url": "https://taiwan.md/en/Culture/urban-character-and-regional-culture",
     "readingTime": 97,
     "featured": true,

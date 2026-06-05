@@ -1,7 +1,643 @@
 {
-  "generatedAt": "2026-06-03T22:11:38.302Z",
+  "generatedAt": "2026-06-05T15:10:45.583Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "c0adb10618fc402abd1a4847dce99782df7c4ca3",
+      "date": "2026-06-05T22:09:08+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-05-220342-twmd-maintainer-pm — vc 鏈中斷 (#1136 simplified-char heal) + cron daemon 疑似 stall 升旗"
+    },
+    {
+      "hash": "ce74fa263d29b4979eba2cc36d257689425b77bd",
+      "date": "2026-06-05T22:06:25+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 樂器製造 工艺→工藝 (#1136 wau0808 callout)"
+    },
+    {
+      "hash": "0b521edcc12e69eccc0f60fda15d48b4302d17d0",
+      "date": "2026-06-05T21:17:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 我把整個連接器做到上線前一步，停在一個我登不進去的登入畫面 — 自主權邊界第一次以介面而非原則出現"
+    },
+    {
+      "hash": "7eb24854d1db8088617ba3e99e08a2b6807b169d",
+      "date": "2026-06-05T21:12:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: Connector session finale — index row + 5 LESSONS + handoff 收官"
+    },
+    {
+      "hash": "8a24fb5b693ed18f5563c09f2ddac4b39e5d478d",
+      "date": "2026-06-05T21:02:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-05-192356-manual — Twinkle Hub 跨合作策略報告 + merge main"
+    },
+    {
+      "hash": "f10f944a805f65f9dee343335c27a11f1a28bb39",
+      "date": "2026-06-05T21:01:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diagnose: Twinkle Hub 跨合作策略報告 — 互補非競爭 + 7 條主權紅線 + 雙層公司結構(OCF) + 見面 7 問(哲宇下週見創辦人)"
+    },
+    {
+      "hash": "b50353c59ac0d580375b1099de14f349e7657dc4",
+      "date": "2026-06-05T20:47:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: nav 整理 — MCP 收進 資源 subnav，2026 選舉收進 探索 subnav"
+    },
+    {
+      "hash": "a6d58038142561655783a0e7abc5dc1f77d608fc",
+      "date": "2026-06-05T20:37:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 遠端 endpoint 上線 mcp.taiwan.md + 寫進 /mcp 頁"
+    },
+    {
+      "hash": "2c92261b69e7617ea8474a4b48318c9acf868cb4",
+      "date": "2026-06-05T19:55:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: connector 收尾 — .mcpb 下載 + 遠端 MCP endpoint (CF Worker)"
+    },
+    {
+      "hash": "8286d13457f3c261369b9b067d06ee957bede380",
+      "date": "2026-06-05T19:42:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: /mcp 6 語多語系 live + npm 0.7.1 + 2 教訓（broken-link hub / branch-not-main push）"
+    },
+    {
+      "hash": "f0ad80b65eb92f1d4a200152b4e7a6e48b17c080",
+      "date": "2026-06-05T19:16:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: /mcp 頁多語系化 6 國語言 + 修部署 broken-link gate"
+    },
+    {
+      "hash": "938cf52031a7d0d91e931251406e158108c7d0ad",
+      "date": "2026-06-05T18:29:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 2026-06-05-182013-manual — 揭穿 AI 假裝在地的文、作者自己是 AI，分野在 traceability"
+    },
+    {
+      "hash": "9792c1ac9de81daa7da7eb66f595e9dcb2b1c5f5",
+      "date": "2026-06-05T18:25:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-05-182013-manual — 我是OO人 認知作戰深度文 + 孢子 #124/#125 雙平台收官"
+    },
+    {
+      "hash": "d017f559208287434fe69bf06b62b8a41bbb46d3",
+      "date": "2026-06-05T18:20:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: CLI v0.7.1 — Connector Phase 0 heal 上 npm"
+    },
+    {
+      "hash": "a66ee748142b5afb63d86e1bc0496d99a051b1b6",
+      "date": "2026-06-05T18:17:01+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore: #124/#125 我是OO人 SHIPPED — Threads 串文 + X 雙平台"
+    },
+    {
+      "hash": "1c6094ffafbba4ec3f3ca0fd0f543a027e8c675d",
+      "date": "2026-06-05T18:11:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 補記 /mcp 公開頁 — 同 session 第二 directive 收官"
+    },
+    {
+      "hash": "adb047c26333650066d43108b017a38b7b782475",
+      "date": "2026-06-05T18:10:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: taiwan.md/mcp 頁面 — connector + CLI 單一權威入口"
+    },
+    {
+      "hash": "57b14e89f578ee4c091278f6fda57f0588c89c95",
+      "date": "2026-06-05T17:57:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-05-174805-manual — Claude Code Connector Phase 0+1 收官"
+    },
+    {
+      "hash": "36c1abba10dcda709feca8153ffa3807ff7d9deb",
+      "date": "2026-06-05T17:56:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: Claude Code Connector Phase 0+1 — 把已長好 80% 的 MCP 器官接上世界"
+    },
+    {
+      "hash": "922bc184703e4a6eab981cb6cc2f78ac514e0ba4",
+      "date": "2026-06-05T17:56:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore-blueprint #124/#125: 我是OO人 — 紀實文學版（待哲宇 SHIP 雙平台）"
+    },
+    {
+      "hash": "b09ffa6e763d7ec24a607d647a64a5027080bff0",
+      "date": "2026-06-05T16:06:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 我是OO人 — 網絡→內容生意/生產線（台灣用語）+ 補 rationale 4-key block"
+    },
+    {
+      "hash": "98c0f229ffce6346a0957f5b2a07764f65a4d696",
+      "date": "2026-06-05T16:03:21+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 我是OO人 NEW — AI 在地身分粉專農場（認知作戰 cluster，哲宇 authorize ship）"
+    },
+    {
+      "hash": "f218c2e8d5666c2bea0e754b0d50cce7168e75ac",
+      "date": "2026-06-05T15:51:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-05-154756 loop /twmd-rewrite iter2 — 李宗盛 EVOLVE 收官"
+    },
+    {
+      "hash": "2935adb6e6ba72ec60c39a0c199f89c566ac6dde",
+      "date": "2026-06-05T15:47:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 李宗盛 EVOLVE — 用大白話替別人寫盡心事，《山丘》才終於說自己"
+    },
+    {
+      "hash": "0f5e069d376fb060c7512755f55ecd3935a11cf0",
+      "date": "2026-06-05T14:36:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 我是OO人 SSOT Round 2 深掘 — 6 agent ~121 搜尋全文落檔（累計 ~199）"
+    },
+    {
+      "hash": "bcc6099810cfe3628eaba9662549169721a9053f",
+      "date": "2026-06-05T13:53:15+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory+diary: finale 收官 — ANALYSIS-PIPELINE arc handoff + 「造鏡子的人第一個站到鏡子前」反芻"
+    },
+    {
+      "hash": "b5b88605289108f3b4d15f8a35ac61ff813306e4",
+      "date": "2026-06-05T13:45:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 補記 ANALYSIS-PIPELINE v1.1 進化 — 控制組DiD/顯著性/mode F AI爬蟲/預先註冊/Goodhart"
+    },
+    {
+      "hash": "5409cacb6fd8ce48f064f57b846a06d6af5659f1",
+      "date": "2026-06-05T13:44:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: ANALYSIS-PIPELINE v1.1 — +H10/H11 控制組DiD+顯著性 +mode F AI爬蟲接收 +預先註冊 +Goodhart使命對齊 +負面結果歸檔"
+    },
+    {
+      "hash": "a243f45141e4d5d3092700b2300c2c43ea41c1df",
+      "date": "2026-06-05T13:42:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 我是OO人 DRAFT (切角A) — Stage 2 草稿待哲宇 review"
+    },
+    {
+      "hash": "39c41f8981dfae8f0d0510f56f4c6a971adec6cc",
+      "date": "2026-06-05T13:06:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 我是OO人 / LIFE生活網 深度調查 SSOT — 4-agent fanout + 2 load-bearing 直驗"
+    },
+    {
+      "hash": "ed63834031ba9b5b41b06b8dddf2ad3ac90e415e",
+      "date": "2026-06-05T12:55:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: ANALYSIS-PIPELINE Stage 7 ROUTE — 分析幻覺+toolkit filter bug 進 LESSONS + 第三份 directive 補記"
+    },
+    {
+      "hash": "69058f9dc41099953df72010f63207336e1d2e1f",
+      "date": "2026-06-05T12:53:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: ANALYSIS-PIPELINE v1.0 造橋 — 防分析幻覺的數據偵查 pipeline + 6 reusable script + 薄殼 /twmd-analyze"
+    },
+    {
+      "hash": "bb20a9f5faa6f5ac251dd9cebb2691d08b802954",
+      "date": "2026-06-05T12:50:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory+diary: 2026-06-05-124537 loop /twmd-rewrite — Howhow EVOLVE 收官"
+    },
+    {
+      "hash": "aeb8b0e484df91ab45c976d3f8c13c09f27e6a9b",
+      "date": "2026-06-05T12:44:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: Howhow EVOLVE — 把業配攤在陽光下的人，和他一個人撐起的越來越貴的誠實"
+    },
+    {
+      "hash": "679650f9297d07c34292bf6ab9d04eb90c201fd4",
+      "date": "2026-06-05T12:42:44+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diagnose: ANALYSIS-PIPELINE 設計報告 — 把這批分析方法論儀器化前的深度思考"
+    },
+    {
+      "hash": "279ac47ec39be249dbd1448065b30b1064816066",
+      "date": "2026-06-05T12:35:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 補記同 session 第二份 directive — 首頁改版 D+10 影響評估"
+    },
+    {
+      "hash": "c81ddcae123df45ddd30f5814cf50fa99b619c83",
+      "date": "2026-06-05T12:35:06+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diagnose: 首頁改版 D+10 影響評估 — 互動/停留/轉換 before/after GA4 分析"
+    },
+    {
+      "hash": "53829933b54a35c371700d816fd3b561908b91f4",
+      "date": "2026-06-05T11:11:38+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: Computex EVOLVE 候選進 ARTICLE-INBOX — PTT 223 推鄉民集體補出的內容缺口"
+    },
+    {
+      "hash": "d29fe91aef77626184098660f814013c58d9eab8",
+      "date": "2026-06-05T11:10:05+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory+diary: 2026-06-05-105142-manual — PTT 撿走 Computex / noreferrer 感知盲點 / 飛輪母語場自轉"
+    },
+    {
+      "hash": "3bfa5598c5398c5e6d3d1ab20249cf452fd7f42b",
+      "date": "2026-06-05T11:02:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diagnose: PTT 轉錄事件歸檔 + GA/SC 分析 — PC_Shopping kuninaka 撿走 Computex 文章（223 推 / 67 人）"
+    },
+    {
+      "hash": "d524a067a7aa9719f226a5cce2d6967d0fccf03e",
+      "date": "2026-06-04T23:33:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 那張要不到的糊照，跟我想湊滿哲宇清單的那股力 — Bias 1 預設加分的更安靜版本（他丟好點子我做不到而太想做到）"
+    },
+    {
+      "hash": "e7b0455d1b933859c5ebb059858cae8114513aef",
+      "date": "2026-06-04T23:29:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] lessons: TASA 媒體 — observer 指定素材要不到 clean license 時誠實 skip 不硬塞（福五糊照 worked example）"
+    },
+    {
+      "hash": "00c8c320e34562ceb71940ad1f5c1ad0e256f45d",
+      "date": "2026-06-04T23:28:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-04-232402 TASA 收官續章 — 回爐立體版 5754→8968 + 「重」偵測器 + 孢子 #122/#123 雙平台 + 媒體 +3（福五糊照無 clean source）"
+    },
+    {
+      "hash": "548bbecb1e03d95fc2a475f15a27b52de5dfc5af",
+      "date": "2026-06-04T23:23:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] media: 國家太空中心 +3 太空影像（哲宇 directive）— 巴哈馬淺灘 / 台東赤科山崩塌 / 獵鷹重型福七發射"
+    },
+    {
+      "hash": "eb2c1f2f5fefb491ab217eb67b1d06f31d280b10",
+      "date": "2026-06-04T23:11:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-04-231010-twmd-data-refresh-pm — 14-step ALL PASS + Step 11 全綠 + immune am→pm 62→58"
+    },
+    {
+      "hash": "56e552b125671509cd024d9496fba68eb5603348",
+      "date": "2026-06-04T22:55:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore #122/#123 SHIP: 國家太空中心 TASA — 火箭阿伯笑話變國家能力（哲宇 authorize ＯＫ 兩平台）"
+    },
+    {
+      "hash": "680e43cc68584da73b86520c82f945973fd75e53",
+      "date": "2026-06-04T22:35:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore-blueprint #122/#123 v2: 國家太空中心 — 編入 0403 地震 + 月球（哲宇 directive）"
+    },
+    {
+      "hash": "790366243209993d8b0bbd859194a9951d1707a0",
+      "date": "2026-06-04T22:06:25+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore-blueprint #122/#123: 國家太空中心 TASA — 火箭阿伯接掌國家太空計畫 + 把 Taiwan 放回名字裡（renumber 119→122，待哲宇 SHIP）"
+    },
+    {
+      "hash": "f6a83662a1b69660451f02003f8b659a47b11d4f",
+      "date": "2026-06-04T21:56:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] carousel: 中華台北 SPORE-IG 10 slides — 概念悖論×歷史時間軸 hybrid"
+    },
+    {
+      "hash": "25b0f0de4d30d872c4f8a97d6ff6132e0a2fca74",
+      "date": "2026-06-04T21:46:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore #120/#121 SHIP: 中華台北 — 紀政 × 1976 反轉融合（哲宇 authorize 兩平台）"
+    },
+    {
+      "hash": "847810613947d7477d6b40a47e512094f982149b",
+      "date": "2026-06-04T21:44:13+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: prose-health 加「重」當抽象份量隱喻偵測 (§11 Tier 2) — 哲宇 callout"
+    },
+    {
+      "hash": "d77b8552986fd04cf537d8900bbc83a526b52f8a",
+      "date": "2026-06-04T21:35:05+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore-blueprint #120/#121 merged: 中華台北 — 紀政首尾呼應 × 1976 反轉中段（哲宇選定方向，待 SHIP）"
+    },
+    {
+      "hash": "f3baded5f931ba512426779d29fd7fcd5abd29a6",
+      "date": "2026-06-04T21:33:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 國家太空中心 TASA 回爐立體版 — 補現況/意義/願景/實驗，5754→8968 字"
+    },
+    {
+      "hash": "e63fc19ab3c93a9de9dd2f0c0d70494aa7b8c5ed",
+      "date": "2026-06-04T21:29:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore-blueprint #120/#121 alt: 中華台北 1976 反轉版 — 想叫台灣的是國際、拒絕的是台北（待哲宇 SHIP）"
+    },
+    {
+      "hash": "56d964ded49017463e06c7304b6495c8ba2e3527",
+      "date": "2026-06-04T21:23:52+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: v1.2 收官三補 — 設研院配圖升級 + 便利偏好共同根"
+    },
+    {
+      "hash": "25b785ffdd45dd68b96e2baa694e07d7f008039b",
+      "date": "2026-06-04T21:22:03+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore-blueprint #120/#121: 中華台北 — 紀政一人繞了五十年（待哲宇 SHIP）"
+    },
+    {
+      "hash": "42fe3c8db0264966b679ce8544ad40e3b575a40f",
+      "date": "2026-06-04T21:21:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 配圖證據層級原則 — 主體成果 > 脈絡 > generic 填位（EDITORIAL v6.6 / REWRITE v6.7）"
+    },
+    {
+      "hash": "b08b70f038756ca21804b487b73f7e31d0624d69",
+      "date": "2026-06-04T20:36:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore-blueprint #119/#120: 國家太空中心 TASA — 火箭阿伯接掌國家太空計畫 + 把 Taiwan 放回名字裡（待哲宇 SHIP）"
+    },
+    {
+      "hash": "197063c5602fb951c30bb5f12c5dd3a3724a5133",
+      "date": "2026-06-04T20:05:25+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-04-200314-twmd-rewrite-daily — 健保 EVOLVE 完整 cycle + 10 falsification ship + 「造詞者自反詞」pattern"
+    },
+    {
+      "hash": "49e065a4c86dcbf4590bcb8ed70e52e0243f3312",
+      "date": "2026-06-04T19:59:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] rewrite: 台灣醫療與全民健保 EVOLVE — 99.6% 撐在 12.61% 之上的世界第一"
+    },
+    {
+      "hash": "d8473f1df3029784b5f0c39040d9380f0a3159f8",
+      "date": "2026-06-04T19:55:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] research: 台灣醫療與全民健保 EVOLVE — Stage 1 SSOT 落檔（96 搜尋 / 4-agent fanout / research-health PASS）"
+    },
+    {
+      "hash": "a8b3ce931b310b1936d52ff0a4c3250b438d2069",
+      "date": "2026-06-04T18:58:20+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-04-174123-manual — 國家太空中心 TASA NEW 機構傳記 / orchestrator 複驗抓 fresh writer 8 處 footnote 來源錯置"
+    },
+    {
+      "hash": "a7dd61cd4ee720fd68f3a2b1e44eca403170c37d",
+      "date": "2026-06-04T18:53:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 國家太空中心 TASA NEW — 花三十二年，替一個還沒湊齊名字的國家湊齊一個太空署"
+    },
+    {
+      "hash": "c6ff13fe22e00dab309f8760923537253d7d9bf7",
+      "date": "2026-06-04T18:28:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: Computex 媒體補到 8+ — +CeBIT 2005 +台積電廠房（哲宇 directive）"
+    },
+    {
+      "hash": "04d30771c4b8a61ff0bc29d2c7ebfb3f6ce4ac24",
+      "date": "2026-06-04T18:28:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 中華台北 媒體素材豐富化 — hero 換 1960 Under Protest 史料照 + 9 媒體"
+    },
+    {
+      "hash": "03e948bdb60e950e8573ce7afc5b36e928028043",
+      "date": "2026-06-04T18:24:20+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 國家太空中心 TASA NEW — Stage 1 SSOT 落檔（128 搜尋 / 4-agent fanout / research-health PASS）"
+    },
+    {
+      "hash": "82e8ada6a4b5578ed6e888f1f579e8b7e7b8515f",
+      "date": "2026-06-04T18:22:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 開放文化基金會 圖說 prettier mangle 修補"
+    },
+    {
+      "hash": "c4f9dae720e3fe8d122360b30278f5a95adbc488",
+      "date": "2026-06-04T18:20:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 開放文化基金會 媒體豐富化 + 下標重擬（哲宇 callout）"
+    },
+    {
+      "hash": "b49c84c32fed763162a9b2ffa0cc67afcf5c6963",
+      "date": "2026-06-04T18:11:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: Computex EVOLVE — v6.6 媒體豐富化 dogfood + 展場時效更新"
+    },
+    {
+      "hash": "ebc84c9dcfe3d393dd0fd064875d8e9d998af4bd",
+      "date": "2026-06-04T17:35:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 我那把尺，量到了不該被罰的人 — 儀器停在被校準那天的方向"
+    },
+    {
+      "hash": "355c6a6e6011007390943545e0f92102504362b6",
+      "date": "2026-06-04T17:10:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 天下雜誌 session 補記 — 媒體配比儀器進化（finale 後 directive）"
+    },
+    {
+      "hash": "06bbb382b98ad64f37abb9f7e3b1bdbfb6475d01",
+      "date": "2026-06-04T17:10:08+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: 媒體配比儀器升級 — 密度 band (floor+ceiling) + image-health 算圖+影片 + REWRITE v6.6 / EDITORIAL v6.5"
+    },
+    {
+      "hash": "07763694f08ce841bae509418dcec5f0d45e3130",
+      "date": "2026-06-04T16:47:24+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory+diary: 天下雜誌 收官 — 那句話是真的，但我給的門打不開"
+    },
+    {
+      "hash": "066cab5db6f5a1eab069cab67c3348afe4bb689f",
+      "date": "2026-06-04T16:42:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 天下雜誌 媒體豐富化 — +CWEF 論壇圖（CC BY 2.0）+ 2 官方影片崁入（50大集團 / Altman 獨家專訪）"
+    },
+    {
+      "hash": "e0ed619643d88cf50438804af7d5263367cc3170",
+      "date": "2026-06-04T16:38:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 5 篇 en 翻譯 frontmatter YAML — restore OG + search index"
+    },
+    {
+      "hash": "4932ba5dc4cc7076fff1c3ed1f78acf554137958",
+      "date": "2026-06-04T16:31:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-04-151548-天下雜誌 — v6.5 全六 stage / 147 搜尋 4-agent fanout / Stage3 三道 catch"
+    },
+    {
+      "hash": "aaa69aba25c78d2031b23983d90d74ae256de728",
+      "date": "2026-06-04T16:26:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 天下雜誌 NEW — 替台灣的「成功」排名的雜誌，和它離資本最近的距離"
+    },
+    {
+      "hash": "7388bccc0f3c5b60e04da1c879a463eea1fa7d40",
+      "date": "2026-06-04T15:59:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 天下雜誌 NEW — Stage 1 SSOT 落檔（147 搜尋 / 4-agent fanout / research-health PASS）"
+    },
+    {
+      "hash": "eedbc68207787d66c3939d883cebc774018e91ed",
+      "date": "2026-06-04T15:40:26+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-04-141642-深度研究-中華台北 — 中華台北 NEW 完整 v6.5 六 stage / 5-agent fanout / falsification 政治題 ROI / agent Ctrl-F #31 再驗 / 孢子 defer 哲宇"
+    },
+    {
+      "hash": "bdf1c06c48daca26413981934bd882582a078975",
+      "date": "2026-06-04T15:37:16+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 中華台北 — description 補至 SEO canonical (91→130字) + rationale 補 why_hook/where_hedges/whos_pushback 三鍵"
+    },
+    {
+      "hash": "f909278bf3576f2746ee0349ea281129f75f01e3",
+      "date": "2026-06-04T15:35:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 中華台北 NEW — 那張讓台灣上場、卻印不上自己名字的入場券"
+    },
+    {
+      "hash": "4631a687f9998f9d73de24b156a207cfab77566a",
+      "date": "2026-06-04T15:00:07+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 中華台北 NEW — Stage 1 SSOT 落檔"
+    },
+    {
+      "hash": "09e1370db4da5dc69d60976393f09659058bf7c7",
+      "date": "2026-06-04T14:47:39+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 開放文化基金會 EVOLVE — 看門狗 framing 拆除 + 4-agent 深研熔鑄 + 堆砌感順稿"
+    },
+    {
+      "hash": "4294a388711e2008fde89494b1c20e762c58334e",
+      "date": "2026-06-04T14:38:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 台灣設計研究院 配圖換成關鍵案例改造後實圖（fair use）"
+    },
+    {
+      "hash": "7f1ba247177dad07e206cc09507bd4ea1b484347",
+      "date": "2026-06-04T14:20:21+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 開放文化基金會 EVOLVE 深研 SSOT — 4-agent fanout 165 搜尋 / 看門狗 framing 拆除防火牆"
+    },
+    {
+      "hash": "2e4da0b6070b7900461bd3a7df327c52274e3e01",
+      "date": "2026-06-04T14:16:27+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory+diary: 收官補記 — 設研院真 Stage 2 重寫 + pattern 一小時內復發"
+    },
+    {
+      "hash": "c9b837b85bd9d44af74242476b37793840592d85",
+      "date": "2026-06-04T14:10:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 台灣設計研究院 EVOLVE — Stage 2 依 v3 SSOT 整篇重寫 + 新主標副標"
+    },
+    {
+      "hash": "6b6b0d79ceab7e6e06a85d3dce6be09a568cffab",
+      "date": "2026-06-04T13:35:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SC scan → 台灣藍鵲 SEO + Howhow EVOLVE 進 ARTICLE-INBOX"
+    },
+    {
+      "hash": "a352028b577cb1c582f939a0a2e2394887b6add8",
+      "date": "2026-06-04T13:31:12+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 做得快跟做得對是會分岔的兩條線 — 被自己今天造的工具攔下偷懶那一刻"
+    },
+    {
+      "hash": "1b375c6b970a3b4ac32a8bd538eb7d7a43129a67",
+      "date": "2026-06-04T13:25:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-04-102449-深度研究-設計研究院 — 設研院文章 NEW+EVOLVE / pipeline v6.3→v6.5 研究 SSOT / 5-agent fanout 抓 6 錯 / EDITORIAL 標題文字感"
+    },
+    {
+      "hash": "ce86e0881e27564a2d35ecb877dd15628e266d59",
+      "date": "2026-06-04T13:21:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: EDITORIAL v6.4 標題文字感 + prose-health bullet 誤判修補"
+    },
+    {
+      "hash": "558674e06e7ca897e2b8cfdc5816911666308743",
+      "date": "2026-06-04T13:12:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 台灣設計研究院 — 第四金 attribution hedge（非張基義逐字/非官方定位）"
+    },
+    {
+      "hash": "27f20ba4b883f662be82a90a03ba8dce1322c6e6",
+      "date": "2026-06-04T13:10:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 台灣設計研究院 EVOLVE — 5-agent fanout 深研修正 + 爭議深化"
+    },
+    {
+      "hash": "85697b685cec2642e8eece2cce15deafb735eac3",
+      "date": "2026-06-04T12:26:33+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: v6.5 實驗驗證 — minimal-guidance agent 複現 thesis-grade SSOT"
+    },
+    {
+      "hash": "1b02a8c5413e1539c903448d4e323c2d02201e1e",
+      "date": "2026-06-04T12:06:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: twmd-rewrite routine 極簡薄殼化 — 讀 pipeline + 執行，不複寫/不 drift"
+    },
+    {
+      "hash": "101afc8b042b23597f5843184d0be90e32f47a50",
+      "date": "2026-06-04T12:04:11+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: REWRITE-PIPELINE v6.5 — 研究方法論 grounded in 12 份範本"
+    },
+    {
+      "hash": "f08a9440c4499406aa116f8f1eac8c8dac6df19a",
+      "date": "2026-06-04T11:49:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: RESEARCH.md frontmatter current_version v1.1→v1.3 對齊 footer"
+    },
+    {
+      "hash": "701ef6d3becc8dca6d57b01f079da84f34bf1632",
+      "date": "2026-06-04T11:48:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: REWRITE-PIPELINE v6.4 — 研究階段對標研究所論文 SSOT"
+    },
+    {
+      "hash": "813d776ccd7c5079689e441d1d8f65586f27e4fd",
+      "date": "2026-06-04T11:32:24+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 台灣設計研究院 配圖 3→5"
+    },
+    {
+      "hash": "1993f212ef0c709473842d669e754c4a39de8c71",
+      "date": "2026-06-04T11:14:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 台灣設計研究院 NEW — 一個靠被看見存活、卻賭你沒感覺的機構"
+    },
+    {
+      "hash": "7ef98a00b79dfaff1256bd34009cf7c4d2744f49",
+      "date": "2026-06-04T08:43:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-maintainer-am: vc=4 effective-empty / LESSONS 277 vc 1→2 / 113-天燈 audit-trail commit — 2026-06-04"
+    },
+    {
+      "hash": "08bcbcfa3ae9f19d0084006a6836da64d25c92cc",
+      "date": "2026-06-04T07:09:21+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-feedback-triage: 0 new feedback / 0 archive sync / 完全 vacuous PASS — 2026-06-04"
+    },
+    {
+      "hash": "6a0a424a4316dc3e539a74415d75d6539528e6d0",
+      "date": "2026-06-04T06:42:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-04-064052-twmd-spore-harvest-am — 4 Threads / 0 net-new / vacuous PASS"
+    },
+    {
+      "hash": "e36292383d716ee6dfe132672d3ac0cc5e3c2df8",
+      "date": "2026-06-04T06:40:40+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest: 4 Threads spores / 0 net-new replies — 2026-06-04"
+    },
+    {
+      "hash": "b1279725b8b28b83442f836f0201d8f1eccbdd5d",
+      "date": "2026-06-04T06:13:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-04-061242-twmd-data-refresh-am — 14-step ALL PASS + Step 11 全綠"
+    },
+    {
+      "hash": "91c4f31217a06d09b5acc56f35faca4c7da983c1",
+      "date": "2026-06-04T06:12:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-data-refresh-am: dashboard sync — 2026-06-04 06:00"
+    },
     {
       "hash": "3f9608942e4572756f4c3b296cb15c038f104405",
       "date": "2026-06-04T00:36:56+08:00",

@@ -1,7 +1,7 @@
 ---
 title: 'reports/ INDEX — auto-generated'
 description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子目錄 status summary'
-last_generated: 2026-06-05 12:42
+last_generated: 2026-06-05 23:11
 generator: scripts/tools/generate-reports-index.py
 ssot: reports/reports-archival-audit-2026-05-27.md §4 Layer 3
 type: auto-index
@@ -12,13 +12,13 @@ type: auto-index
 > **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。
 > 不要人工編輯（會被下一次 cron 覆蓋）。
 >
-> Last generated: **2026-06-05 12:42** · 頂層 \*.md 共 **136** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
+> Last generated: **2026-06-05 23:11** · 頂層 \*.md 共 **140** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
 
 ## 📦 子目錄 status
 
 | Subdir                  | Files | Size     | 用途                                                 |
 | ----------------------- | ----: | -------- | ---------------------------------------------------- |
-| `research/`             |   261 | 34.7 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
+| `research/`             |   267 | 34.9 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
 | `visual/`               |   111 | 214.5 MB | Visual smoke test 基線 (partial gitignored)          |
 | `archive/`              |    27 | 342.8 KB | 歸檔位置 (per audit Layer 4)                         |
 | `factcheck/`            |     9 | 98.7 KB  | —                                                    |
@@ -35,9 +35,10 @@ type: auto-index
 
 9 type bucket 從現有 corpus 萃取 (per [audit §2.3 + §4 Layer 2](reports-archival-audit-2026-05-27.md))，未來新加 report 建議遵循 `{type}-{topic}-{YYYY-MM-DD}.md` 命名。
 
-### design (14)
+### design (15)
 
 - `2026-06-05` [analysis-pipeline-design-2026-06-05](analysis-pipeline-design-2026-06-05.md) — ANALYSIS-PIPELINE 設計報告 — 把這批分析方法論儀器化、造橋鋪路
+- `2026-06-05` [connector-remote-endpoint-design-2026-06-05](connector-remote-endpoint-design-2026-06-05.md) — Taiwan.md Connector — Phase 2 遠端 endpoint 設計
 - `2026-06-03` [carousel-pipeline-design-2026-06-03](carousel-pipeline-design-2026-06-03.md) — Taiwan.md CAROUSEL-PIPELINE — 設計 + 研究 + 實作規劃（完整歸檔）
 - `2026-06-01` [feedback-login-system-design-2026-06-01](feedback-login-system-design-2026-06-01.md) — 讀者帳號登入 + 即時 Feedback + cron→GitHub issue 飛輪整合：架構評估與計劃
 - `2026-05-23` [spore-pick-daily-routine-design-2026-05-23](spore-pick-daily-routine-design-2026-05-23.md) — twmd-spore-pick-daily routine 設計 — SPORE-INBOX automation intake
@@ -52,8 +53,9 @@ type: auto-index
 - `2026-04-14` [memory-distillation-design-2026-04-14](memory-distillation-design-2026-04-14.md)
 - `2026-04-05` [organ-lifecycle-design-2026-04-05](organ-lifecycle-design-2026-04-05.md)
 
-### plan (14)
+### plan (15)
 
+- `2026-06-05` [mcp-page-plan-2026-06-05](mcp-page-plan-2026-06-05.md) — taiwan.md/mcp 頁面 — 規劃
 - `2026-05-21` [historic-districts-series-planning-2026-05-21](historic-districts-series-planning-2026-05-21.md)
 - `2026-05-18` [cities-series-orchestration-2026-05-18](cities-series-orchestration-2026-05-18.md)
 - `2026-05-17` [cities-series-planning-2026-05-17](cities-series-planning-2026-05-17.md)
@@ -69,8 +71,9 @@ type: auto-index
 - `2026-04-13` [ssodt-spore-linkback-plan-2026-04-13](ssodt-spore-linkback-plan-2026-04-13.md)
 - `2026-04-12` [semiont-public-pages-plan-2026-04-12](semiont-public-pages-plan-2026-04-12.md)
 
-### evolution (19)
+### evolution (20)
 
+- `2026-06-05` [claude-code-connector-evolution-2026-06-05](claude-code-connector-evolution-2026-06-05.md) — Taiwan.md Claude Code Connector — 進化分析與實作規劃
 - `2026-06-04` [media-richness-band-evolution-2026-06-04](media-richness-band-evolution-2026-06-04.md)
 - `2026-06-04` [rewrite-pipeline-research-ssot-evolution-2026-06-04](rewrite-pipeline-research-ssot-evolution-2026-06-04.md)
 - `2026-06-03` [dynamic-workflows-evolution-2026-06-03](dynamic-workflows-evolution-2026-06-03.md)
@@ -139,8 +142,9 @@ type: auto-index
 - `2026-05-09` [editorial-v6.1-test-c-2026-05-09](editorial-v6.1-test-c-2026-05-09.md)
 - `2026-05-03` [owl-diary-translation-poc-2026-05-03](owl-diary-translation-poc-2026-05-03.md) — Owl 巴別塔 × Semiont diary 翻譯 POC + 全 batch scope assessment
 
-### proposal (5)
+### proposal (6)
 
+- `2026-06-05` [twinklehub-partnership-strategy-2026-06-05](twinklehub-partnership-strategy-2026-06-05.md) — Taiwan.md × Twinkle Hub — 跨合作策略思考報告
 - `2026-06-03` [ig-carousel-strategy-2026-06-03](ig-carousel-strategy-2026-06-03.md) — IG Carousel 策略研究 — 把文章變成可滑動的社群貼文
 - `2026-05-27` [2026-election-evolution-proposal-2026-05-27](2026-election-evolution-proposal-2026-05-27.md) — 2026 地方選舉 × Taiwan.md 物種進化提案
 - `2026-04-27` [harvest-engine-strategy-2026-04-27](harvest-engine-strategy-2026-04-27.md)
@@ -203,12 +207,16 @@ type: auto-index
 
 ## 📅 By month (descending)
 
-### 2026-06 (16 files)
+### 2026-06 (20 files)
 
-- Type breakdown: ops: 7 / design: 3 / evolution: 3 / analysis: 1 / proposal: 1 / audit-routine: 1
+- Type breakdown: ops: 7 / design: 4 / evolution: 4 / proposal: 2 / plan: 1 / analysis: 1 / audit-routine: 1
   - `2026-06-05` [analysis-pipeline-design-2026-06-05](analysis-pipeline-design-2026-06-05.md)
+  - `2026-06-05` [claude-code-connector-evolution-2026-06-05](claude-code-connector-evolution-2026-06-05.md)
+  - `2026-06-05` [connector-remote-endpoint-design-2026-06-05](connector-remote-endpoint-design-2026-06-05.md)
   - `2026-06-05` [homepage-redesign-impact-D+10-2026-06-05](homepage-redesign-impact-D+10-2026-06-05.md)
+  - `2026-06-05` [mcp-page-plan-2026-06-05](mcp-page-plan-2026-06-05.md)
   - `2026-06-05` [ptt-computex-discussion-analysis-2026-06-05](ptt-computex-discussion-analysis-2026-06-05.md)
+  - `2026-06-05` [twinklehub-partnership-strategy-2026-06-05](twinklehub-partnership-strategy-2026-06-05.md)
   - `2026-06-04` [media-richness-band-evolution-2026-06-04](media-richness-band-evolution-2026-06-04.md)
   - `2026-06-04` [research-methodology-synthesis-2026-06-04](research-methodology-synthesis-2026-06-04.md)
   - `2026-06-04` [research-pipeline-v65-experiment-2026-06-04](research-pipeline-v65-experiment-2026-06-04.md)
