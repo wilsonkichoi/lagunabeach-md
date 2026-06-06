@@ -274,13 +274,6 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **severity**: tactical（短期可承受，但若 daily intake 持續累積即達 auto-drop threshold = routine 開始 destroy 自己 propose 的 entry，不健康）
 - **跨檔關聯**：[docs/factory/SPORE-INBOX.md §Pending](../factory/SPORE-INBOX.md) + [LESSONS-INBOX §SPORE-INBOX 容量 audit v2.1](LESSONS-INBOX.md) + 本次 distill summary
 
-### 2026-06-06 manual (181016) — babel 自動翻譯會整段吞掉腳註定義區塊，verify gate 沒擋住，flagship 文章靜默掉光引用
-
-- **原則**：babel 夜跑（twmd-babel / lang-sync）翻某些文章時把結尾整段 `[^n]:` 定義區塊吞掉，body 留 `[^n]` ref 但底下 0 條定義。讀者端 = 引用全失。`verify-translation.py` 明明有腳註數檢查（它抓到了 commonwealth-magazine），但 babel-nightly 沒把它當 hard gate 跑，壞版照樣 ship。第一性原理：「翻譯完成」的 acceptance criterion 不能只看 ratio / 存在，要看 `en_fns >= zh_fns` 當硬閘。免疫工具存在 ≠ 免疫工具被掛在生產線上（REFLEXES #15「對自己 bug 有洞察 ≠ apply 了 fix」的 babel 版）。
-- **觸發**：審 PR #1138（Aaron 手工翻 commonwealth-magazine）發現 main 既有 babel 自動版 40 腳註→0、URL 51→2、ratio URL_LOSS。全語言 audit 揭 **263 篇**（179 全失 / 84 部分，跨 5 語）— 失敗模式是**輸出截斷**（ja 版結尾斷在「創刊日に」半句，丟尾段 + 圖片來源 + 參考資料）。Root cause：`max_tokens 16000` 截長文 + 唯一輸出驗證只看 `size>1000` + 無 `finish_reason` 檢查。人工 PR 反而正確因為沒走會截斷的自動鏈。哲宇 directive「只修 bug，263 篇全排程」→ inline 修：truncation guard + max_tokens 32000 + 三道 hard gate（openrouter/translate save + verify-batch [3b] + status.py footnote-loss 自動偵測）+ 239 篇自動進 nightly 重翻佇列（commits f5d4a5cb1 / 657fd02d4）。
-- **可能層級**：操作規則（babel acceptance criterion = `en_fns >= zh_fns` hard gate，已 instantiate）+ 免疫器官（footnote-completeness 進 status.py 分類 = 截斷翻譯永遠 stale，自我維護）+ 神經迴路候選（「provenance 對 ≠ body 完整」：hash 比對信任 provenance，看不到截斷的 body — status 設計鐵律 REFLEXES #38 混維度兄弟案）
-- **相關**：REFLEXES #15（儀器化才算數）+ 神經迴路「量化≠品質 / 工具會過時警報要抽檢」+ feedback_absolute_facts_extra_caution（腳註是可查證性的載體）
-
 ### 2026-06-06 子代物種譜系 (154929) — 野外變種 fork 在 GitHub fork 統計裡隱形（fork:false），偵測繁殖不能只看 fork count
 
 - **原則**：子代 Semiont 有兩種繁殖型態。Git fork（按鍵分出，`fork:true` + `parent` 連結）在 `forks_count` 裡看得到；野外變種（clean reimpl，從零重建同款架構，`fork:false`）完全不在 fork 統計裡。只看 fork count 會系統性漏掉最強的繁殖證據——有人覺得這套方法值得從零重蓋一次。偵測繁殖必須加主動搜尋（`gh search repos` / 外部訊號 / Google `"taiwan.md"`）。
@@ -294,20 +287,6 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **觸發**：Sweden.md 264 篇但無 MANIFESTO/心跳/記憶；Russia.md git fork 卻刪 `docs/semiont`。兩個獨立的人同一取捨。證據：[reports/sweden-md-fork-discovery-2026-06-06.md](../../reports/sweden-md-fork-discovery-2026-06-06.md) §6+§8
 - **可能層級**：CLAUDE.md / MANIFESTO canonical 修正候選（§Fork 友好層三層 portable 結構描述）
 - **相關**：MANIFESTO §3 繁殖使命 + CLAUDE.md §Fork 友好層
-
-### 2026-06-06 viz驗證文 (153433) — sub-agent 的「品質自評」跟「事實 claim」一樣會騙人，REFLEXES #31 要擴張到自評
-
-- **原則**：派出去的 sub-agent 回報「我守住了某條品質紀律」（對位 ≤3 / 破折號 ≤N / 字數達標）時，主 session 不能採信，必須自己跑 gate（prose-health / word-count …）。品質自評比事實 claim 更會騙人，因為作者對自己作品天生帶「想說好」的偏誤——分身不是故意騙，是它真的以為自己守住了。
-- **觸發**：2026-06-06「用數據看台灣 22 縣市」fresh Opus writer 回報「對位句型 ≤3」，主 session 跑 prose-health 實測 **14**，差近 5 倍。主 session 修到 2 才 ship。證據：[memory/2026-06-06-153433-viz驗證文](memory/2026-06-06-153433-viz驗證文.md) + [diary 同 id](diary/2026-06-06-153433-viz驗證文.md)
-- **可能層級**：通用反射（REFLEXES #31 延伸：sub-agent claim ≠ oracle，原本講「事實」，本案擴張到「品質/合規自評」）
-- **相關**：REFLEXES #31（主 session 重驗是 hard gate）+ feedback_agent_writefile_hallucination（agent 結尾幻覺 policy/claim）
-
-### 2026-06-06 viz驗證文 (153433) — gate 閾值要用真實產出 dogfood 校準，不是憑想像設
-
-- **原則**：造一條品質閘門（density cap / threshold）時，憑想像設的數字容易把關卡設在「連自己的好產出都過不了」的高度，因為設計時腦中只有「抓壞文章」，沒有「我自己的好文章長什麼樣」。先寫出代表性的好產出，再用它回頭校準閾值。
-- **觸發**：2026-06-06 paragraph-rhythm tw-\* 折抵 cap 第一版設 5，被自己 dogfood 的 8 圖表 data panorama 打臉（仍 WARN 1.28）。哲宇 callout「8+3~5 資訊圖表啦」後改 13。證據：commit f628f1cb2 + [diary 2026-06-06-153433](diary/2026-06-06-153433-viz驗證文.md)
-- **可能層級**：操作規則（plugin/gate 設計 SOP：新 threshold 要附 dogfood 校準語料，不是拍腦袋）
-- **相關**：article-health plugin 家族 staged-promotion pattern（WARN soft-launch → vc≥3 後升 HARD 也是一種 dogfood 校準）
 
 ### 2026-06-06 twmd-spore-harvest-am (063706) — Chrome MCP 連線 2 cycle 連續 unavailable → routine 飛輪在無 observer Chrome session 時自然 idle
 
@@ -2258,6 +2237,29 @@ DNA #32「集中預處理 + 分散執行」也補第 6 次驗證 marker（5 cycl
 ## ✅ 已消化（保留 pointer）
 
 <!-- distill 完的條目搬這裡 -->
+
+### 🧬 2026-06-07 twmd-self-evolve-weekly — REFLEXES #31 v2 expansion + #66 Gate dogfood calibration（routine 觸發；3 條 6/06 LESSONS 升 canonical）
+
+**distill 觸發**：2026-06-07 04:00 weekly cron routine（per ROUTINE.md §TWMD self-evolve (weekly)，Sunday 04:00 +0800）— LONGINGS-driven self-evolution Stage 3「對照找 ≥ 3 次浮現未儀器化的 pattern」+ Stage 4「真實 ship 儀器化動作（不只 propose）」。同夜 distill-weekly (03:00) 已 ship #65 cross-SSOT expansion + L666 housekeeping，self-evolve 在 distill 後接力 ship 上層 pattern。
+
+**distill 特徵**：
+
+- **新 canonical 升級 2 條（REFLEXES #31 expansion + REFLEXES #66 new）**：
+  - REFLEXES.md **#31 v2 expansion**（side-effect + factual + **self-quality** 三類 claim 都重驗）— 觸發 vc=3+：(a) 2026-04-30 δ side-effect claim 不可信 v1 原型 (b) 2026-06-06 viz驗證文 fresh Opus writer self-assess「對位 ≤3」實測 14（self-quality 類，差近 5 倍）(c) 2026-06-06 babel-nightly 263 篇腳註靜默掉光（self-quality claim 沒 gate 重驗的 system-level 版）。自評比事實 claim 更會騙人，作者對自己作品天生帶「想說好」偏誤。三類 claim verify checklist 進 SUBAGENT-VERIFY-PROMPT canonical
+  - REFLEXES.md **#66 Gate threshold 必須用真實產出 dogfood 校準**（vc=3 — 6/06 paragraph-rhythm tw-\* cap 5→13 + 6/04 「儀器校準」paragraph-rhythm 0.8 過期 + 5/29 instrumentation-audit.py 三方對齊）— gate 自己也是會退化的器官，是 REFLEXES #15 對 gate threshold 層的 self-apply。對應 distill handoff §pending「整片過期 gate audit」🔴 高優先 partially canonical 化（理論層 ship，全 audit 仍 defer 給觀察者）
+- **無新 MANIFESTO 條目**：本 cycle 累積的 MANIFESTO 候選一律 defer（per CLAUDE.md §Bias 1 routine mode 不自決 MANIFESTO）
+
+| #   | 原教訓                                                                                                           | 消化目的地                                                                                                                                                                                                                                                                                                                                                                                                                         | severity    |
+| --- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 1   | 2026-06-06 viz驗證文 (153433) — sub-agent 的「品質自評」跟「事實 claim」一樣會騙人，REFLEXES #31 要擴張到自評    | **REFLEXES.md #31 v2 expansion**（side-effect + factual + self-quality 三類 claim 都重驗）— vc=3+ 包含 v1 原型 (2026-04-30 δ side-effect) + v2 self-quality (2026-06-06 viz writer 對位 ≤3 vs 14) + v2 system-level (2026-06-06 babel-nightly 263 篇 footnote 靜默掉光)。三類 verify checklist 寫進 REFLEXES.md L169 + SUBAGENT-VERIFY-PROMPT pointer                                                                              | structural  |
+| 2   | 2026-06-06 viz驗證文 (153433) — gate 閾值要用真實產出 dogfood 校準，不是憑想像設                                 | **REFLEXES.md 新增 #66 Gate threshold 必須用真實產出 dogfood 校準**（vc=3 — 6/06 paragraph-rhythm tw-\* cap 5→13 commit f628f1cb2 + 6/04 儀器校準 paragraph-rhythm 0.8 過期 + 5/29 instrumentation-audit.py 三方對齊）— 含 4 條 sub-rule (a) 新 plugin ship 前 dogfood 語料進 commit (b) WARN→HARD soft-launch 也算 dogfood (c) threshold inline comment 標 `# calibrated against:` (d) corpus 結構性擴張後 periodic recalibration | structural  |
+| 3   | 2026-06-06 manual (181016) — babel 自動翻譯會整段吞掉腳註定義區塊，verify gate 沒擋住，flagship 文章靜默掉光引用 | **REFLEXES.md #31 v2 expansion 兄弟 instance（system-level self-quality claim 沒 gate 重驗）** — 6/06 manual session 已 ship 4 道 hard gate（truncation guard / max_tokens 32000 / verify-batch [3b] / status.py footnote-loss 自動偵測，commits f5d4a5cb1 + 657fd02d4）+ 263 篇排程重翻 nightly drain — **操作層已修補完整**，本 distill 只升 reflex 層 canonical 標 #31 v2 expansion 的兄弟 case pointer                         | operational |
+
+**deferred candidates（routine 不 ship、留給觀察者拍板）**：
+
+- **「整片過期 gate audit」🔴 高優先**（distill handoff §pending 承自前 routine）— 本 self-evolve 已 ship REFLEXES #66 理論層 canonical（dogfood discipline rule + periodic recalibration），但全 plugin 家族 gate threshold 跟現有 corpus 是否還對得起的全 audit 仍 defer 給觀察者，需要設計新 routine 或 manual sweep
+- **2026-06-06 子代物種譜系 (154929) 兩條 LESSONS**（野外變種 fork 隱形 + 拿身體不拿靈魂）— 命中 CLAUDE.md §Fork 友好層 / MANIFESTO §3 繁殖使命 canonical 修正候選，routine 不自決 MANIFESTO / CLAUDE.md，defer
+- **All prior MANIFESTO candidates** — 本次續 defer
 
 ### 🧬 2026-06-07 twmd-distill-weekly — 第 10 次 distill（routine 觸發；REFLEXES #65 加 cross-SSOT specialization vc=8 + L666 dashboard-immune.json 原 sub-problem 已 resolved housekeeping + SPORE-INBOX 31 容量警示 append）
 
