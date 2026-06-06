@@ -5,14 +5,14 @@
     "Culture": 306,
     "Economy": 271,
     "Food": 275,
-    "Geography": 311,
+    "Geography": 315,
     "History": 225,
     "Lifestyle": 141,
     "Music": 173,
     "Nature": 185,
     "People": 1135,
     "Politics": 50,
-    "Society": 414,
+    "Society": 422,
     "Technology": 259,
     "resources": 10,
     "people": 2
@@ -329,6 +329,10 @@
     {
       "date": "2026-06-06",
       "count": 5
+    },
+    {
+      "date": "2026-06-07",
+      "count": 1
     }
   ],
   "updated": "2026-06-06"

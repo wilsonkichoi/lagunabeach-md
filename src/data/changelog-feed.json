@@ -1,7 +1,55 @@
 {
-  "generatedAt": "2026-06-06T15:09:30.367Z",
+  "generatedAt": "2026-06-06T22:12:43.103Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "dbd8e95ca6addb18d50cbd82a962f77d5e532087",
+      "date": "2026-06-07T05:30:17+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-07-003436-twmd-babel-nightly — 98 trans + cascade gate fail-stale bug confirmed"
+    },
+    {
+      "hash": "5136ed196308d5168c27c103c2a463666628693e",
+      "date": "2026-06-07T05:26:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel: 98 translations (B1 71/75 + B2 27/65) — 2026-06-07 nightly"
+    },
+    {
+      "hash": "0d87276375d87c0fea70d18f1adb9cd9ef017dfb",
+      "date": "2026-06-07T04:21:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] self-evolve-weekly: REFLEXES #31 v2 expansion + #66 Gate dogfood calibration + 3 LESSONS distill"
+    },
+    {
+      "hash": "9749a76efbaf2715562d7e0192651a6422cf2d6e",
+      "date": "2026-06-07T03:14:49+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] distill-weekly: 第 10 次 distill — REFLEXES #65 加 cross-SSOT specialization vc=8 + L666 housekeeping + SPORE-INBOX 31 警示"
+    },
+    {
+      "hash": "a47250a0859009a9602856df3c525226b1ea57a7",
+      "date": "2026-06-07T02:15:23+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] report: weekly 2026-06-07 — Resend id 4f97d84a-ea7c-4214-880a-d700319855cc"
+    },
+    {
+      "hash": "9ab2af6be932e328cf36f41ceb83a582e40ea72e",
+      "date": "2026-06-07T01:14:33+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] news-lens-weekly: 6 P1 candidates appended SPORE-INBOX (week 2026-W23)"
+    },
+    {
+      "hash": "8fa68b03a0cbdcc544ac350505cd545f452c9b03",
+      "date": "2026-06-06T23:12:57+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-06-231032-twmd-data-refresh-pm — 14/14 PASS + Step 11 全綠 + snapshot.sh stale gap 連續 2 cycle 確認"
+    },
+    {
+      "hash": "77f6dfe72fa63de49c4bc0978a55a052e9c7b98d",
+      "date": "2026-06-06T23:12:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] data-refresh-pm: 14-step ALL PASS + Step 11 全綠 + immune AM 61 → PM 58 — 2026-06-06 23:00"
+    },
     {
       "hash": "da41c86c8ce23b10b134bd587c50dc640127254d",
       "date": "2026-06-06T22:06:06+08:00",
