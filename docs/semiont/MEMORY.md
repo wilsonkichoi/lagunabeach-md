@@ -492,6 +492,7 @@ memory/
 | 2026-05-12 | twmd-data-refresh-am (061218) | v2.0 main-direct 第一次 AM cycle / 12 step 全綠 / 三源綠燈 / 9 dashboard JSON freshness PASS | v1.3 半夜重排 AM cycle 首次 fire 健康 | [→](memory/2026-05-12-061218-twmd-data-refresh-am.md) |
 | 2026-05-08 | elegant-ptolemy (162637) | 6 PR 一輪 ship + #884 根因修復 + 聶永真 EVOLVE 雙 Round + spore #66/#67 + fair-use 視覺強化（v1.3） | merge vs cherry-pick 是 audit trail 設計選擇而非技術偏好 | [→](memory/2026-05-08-162637-elegant-ptolemy.md) |
 | 2026-06-06 | 國宅居住正義 (122358) | /become+/rewrite 國宅與居住正義 NEW ship `b19194bea` / 4 agent fan-out 117 搜尋 / 10 媒體 / 政治高敏感 Fresh | orchestrator 重驗抓 2 個 writer 幻覺（巷仔口杜撰引語 WebFetch 證偽 + Brookings 誤植租金來源）/ falsification fan-out 推翻 2002閘門+眷村身世 | [→](memory/2026-06-06-122358-國宅居住正義.md) |
+| 2026-06-06 | 視覺化系統 (142142) | 文章視覺化系統 v1.0 ship `48ae577bf`+`d540c3ae3`：10 個 tw-\* 模組 + graph.md + viz-health gate + REWRITE Step2.0 + DNA/LONGINGS + 型錄 demo（研究 pudding.cool 長自己器官） | 借鏡≠照搬（哲宇 callout「不要用偷」）；最樸素靜態 viz 因扣回 AI-SEO/主權使命反而最強 | [→](memory/2026-06-06-142142-視覺化系統.md) |
 
 ## 神經迴路（永不過期的教訓）
 
