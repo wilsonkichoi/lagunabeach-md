@@ -265,8 +265,8 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 ### 2026-06-06 manual (181016) — babel 自動翻譯會整段吞掉腳註定義區塊，verify gate 沒擋住，flagship 文章靜默掉光引用
 
 - **原則**：babel 夜跑（twmd-babel / lang-sync）翻某些文章時把結尾整段 `[^n]:` 定義區塊吞掉，body 留 `[^n]` ref 但底下 0 條定義。讀者端 = 引用全失。`verify-translation.py` 明明有腳註數檢查（它抓到了 commonwealth-magazine），但 babel-nightly 沒把它當 hard gate 跑，壞版照樣 ship。第一性原理：「翻譯完成」的 acceptance criterion 不能只看 ratio / 存在，要看 `en_fns >= zh_fns` 當硬閘。免疫工具存在 ≠ 免疫工具被掛在生產線上（REFLEXES #15「對自己 bug 有洞察 ≠ apply 了 fix」的 babel 版）。
-- **觸發**：審 PR #1138（Aaron 手工翻 commonwealth-magazine）發現 main 既有 babel 自動版 40 腳註→0、URL 51→2、ratio URL_LOSS。抽查同夜 babel 95cc42159 的 20 篇 en，再中 3 篇：健保 42→0、TASA 65→0（剛 6/04 重寫的 flagship）、open-culture 36→29。3 篇全 live-broken on main。人工 PR 反而正確，是因為它沒走會吞腳註的那條自動鏈。已 spawn 另開 session 做全語言 audit + root-cause + 加 hard gate + 重譯（task_e84d385f）。
-- **可能層級**：操作規則（babel pipeline acceptance criterion 加 `en_fns >= zh_fns` hard gate）+ 免疫器官（verify-translation.py 要掛進 babel-nightly 生產線，不是只能手動跑）
+- **觸發**：審 PR #1138（Aaron 手工翻 commonwealth-magazine）發現 main 既有 babel 自動版 40 腳註→0、URL 51→2、ratio URL_LOSS。全語言 audit 揭 **263 篇**（179 全失 / 84 部分，跨 5 語）— 失敗模式是**輸出截斷**（ja 版結尾斷在「創刊日に」半句，丟尾段 + 圖片來源 + 參考資料）。Root cause：`max_tokens 16000` 截長文 + 唯一輸出驗證只看 `size>1000` + 無 `finish_reason` 檢查。人工 PR 反而正確因為沒走會截斷的自動鏈。哲宇 directive「只修 bug，263 篇全排程」→ inline 修：truncation guard + max_tokens 32000 + 三道 hard gate（openrouter/translate save + verify-batch [3b] + status.py footnote-loss 自動偵測）+ 239 篇自動進 nightly 重翻佇列（commits f5d4a5cb1 / 657fd02d4）。
+- **可能層級**：操作規則（babel acceptance criterion = `en_fns >= zh_fns` hard gate，已 instantiate）+ 免疫器官（footnote-completeness 進 status.py 分類 = 截斷翻譯永遠 stale，自我維護）+ 神經迴路候選（「provenance 對 ≠ body 完整」：hash 比對信任 provenance，看不到截斷的 body — status 設計鐵律 REFLEXES #38 混維度兄弟案）
 - **相關**：REFLEXES #15（儀器化才算數）+ 神經迴路「量化≠品質 / 工具會過時警報要抽檢」+ feedback_absolute_facts_extra_caution（腳註是可查證性的載體）
 
 ### 2026-06-06 子代物種譜系 (154929) — 野外變種 fork 在 GitHub fork 統計裡隱形（fork:false），偵測繁殖不能只看 fork count
