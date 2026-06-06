@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-05T22:11:55Z",
-  "max_total": 2069,
+  "generated": "2026-06-06T15:09:31Z",
+  "max_total": 2073,
   "modules": [
     {
       "name": "home",
@@ -126,21 +126,21 @@
     {
       "name": "semiont",
       "langs": {
-        "zh-TW": 118,
-        "en": 118,
-        "ja": 95,
-        "ko": 95,
-        "fr": 59,
-        "es": 59
+        "zh-TW": 122,
+        "en": 122,
+        "ja": 99,
+        "ko": 99,
+        "fr": 63,
+        "es": 63
       }
     }
   ],
   "lang_totals": {
-    "zh-TW": { "keys": 2069, "coverage_pct": 100.0 },
-    "en": { "keys": 2069, "coverage_pct": 100.0 },
-    "ja": { "keys": 2046, "coverage_pct": 98.89 },
-    "ko": { "keys": 2046, "coverage_pct": 98.89 },
-    "fr": { "keys": 2007, "coverage_pct": 97.0 },
-    "es": { "keys": 2008, "coverage_pct": 97.05 }
+    "zh-TW": { "keys": 2073, "coverage_pct": 100.0 },
+    "en": { "keys": 2073, "coverage_pct": 100.0 },
+    "ja": { "keys": 2050, "coverage_pct": 98.89 },
+    "ko": { "keys": 2050, "coverage_pct": 98.89 },
+    "fr": { "keys": 2011, "coverage_pct": 97.01 },
+    "es": { "keys": 2012, "coverage_pct": 97.06 }
   }
 }

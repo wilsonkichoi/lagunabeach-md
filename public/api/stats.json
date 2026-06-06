@@ -1,8 +1,8 @@
 {
-  "totalArticles": 4781,
+  "totalArticles": 4784,
   "totalCategories": 21,
   "estimatedContributors": 57,
-  "totalTags": 6338,
+  "totalTags": 6341,
   "categories": [
     {
       "name": "es",
@@ -34,7 +34,7 @@
     },
     {
       "name": "Society",
-      "count": 80
+      "count": 82
     },
     {
       "name": "Culture",
@@ -54,7 +54,7 @@
     },
     {
       "name": "Geography",
-      "count": 62
+      "count": 63
     },
     {
       "name": "Economy",
@@ -172,13 +172,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4781,
+    "zh-TW": 4784,
     "en": 0
   },
-  "lastUpdated": "2026-06-05T22:11:55.439Z",
-  "stars": 1021,
-  "forks": 148,
-  "zhPages": 3972,
+  "lastUpdated": "2026-06-06T15:09:31.696Z",
+  "stars": 1023,
+  "forks": 149,
+  "zhPages": 3975,
   "enPages": 809,
-  "totalPages": 4781
+  "totalPages": 4784
 }

@@ -10323,6 +10323,17 @@
     "path": "Nature/生態多樣性.md"
   },
   {
+    "title": "用數據看台灣 22 縣市：最擠和最空差 151 倍，最老和最年輕差一個世代",
+    "description": "同一座島，人口密度最高的臺北市每平方公里 8,975 人，最低的臺東縣只有 59 人，差 151 倍。人口最多的新北市 404 萬，最少的連江縣 1.36 萬，差 297 倍。最年輕的新竹縣高齡化率 15.08%，最老的嘉義縣 24.11%，差將近一個世代。用內政部戶政司 2025 年底的官方數據，替整座島畫一張有刻度、可查證的肖像：七成的人擠在三成的土地，老化的前緣不在都市而在東部、離島與農業縣，而全台 22 個縣市無一例外，死亡都已經多過出生。",
+    "category": "Geography",
+    "tags": [],
+    "url": "https://taiwan.md/Geography/%E7%94%A8%E6%95%B8%E6%93%9A%E7%9C%8B%E5%8F%B0%E7%81%A322%E7%B8%A3%E5%B8%82",
+    "readingTime": 29,
+    "featured": false,
+    "date": "2026-06-06",
+    "path": "Geography/用數據看台灣22縣市.md"
+  },
+  {
     "title": "田馥甄：S.H.E 千萬銷量之後，把偶像體制一件件丟掉的歌手",
     "description": "2010 年 9 月田馥甄發行首張個人專輯《To Hebe》時，海報文案寫「出道十年超級新人」——那年 S.H.E 已賣超過千萬張唱片。十一年後她在第 32 屆金曲獎舞台對媽媽喊「媽，我沒浪費水費，我拿到金曲獎了」。從新竹客家小鎮到小巨蛋舞台，這位被華研唱片培養出的偶像花了二十五年，把代言、綜藝、中國市場、「文青歌后」標籤一件件主動退掉。",
     "category": "People",
@@ -15836,6 +15847,23 @@
     "path": "Society/國立臺灣歷史博物館.md"
   },
   {
+    "title": "國宅與居住正義：政府蓋的便宜房，最後養出誰的資產扶梯",
+    "description": "1985 年成功國宅一坪 6.7 萬還沒人要，老里長湊 40 萬頭期款買下；四十年後同一個門牌逼近一坪百萬。國宅本是「幫人民買得起房」的工具，卻從沒裝上增值回收的閘門，公共補貼最後變成早買者的私人資產。2026 桃園把那道閘門裝回去，等於替國宅認錯。",
+    "category": "Society",
+    "tags": [
+      "國民住宅",
+      "居住正義",
+      "住宅政策",
+      "世代正義",
+      "可負擔住宅"
+    ],
+    "url": "https://taiwan.md/Society/%E5%9C%8B%E5%AE%85%E8%88%87%E5%B1%85%E4%BD%8F%E6%AD%A3%E7%BE%A9",
+    "readingTime": 63,
+    "featured": false,
+    "date": "2026-06-06",
+    "path": "Society/國宅與居住正義.md"
+  },
+  {
     "title": "國家人權博物館：垂淚碑上沒寫的名字",
     "description": "1999 年國際人權日，李登輝在綠島親手揭幕「垂淚碑」，柏楊寫了 28 個字寫盡所有母親的長夜哭泣，卻沒寫一個加害者的名字。六年籌備、2018 揭牌、2025 預算被凍。一座國家自己建來紀念自己做過的事的博物館，解嚴 39 年來，沒有一個加害者受過司法審判。",
     "category": "History",
@@ -16528,6 +16556,22 @@
     "featured": true,
     "date": "2026-03-18",
     "path": "ja/Music/contemporary-indigenous-singer-songwriters.md"
+  },
+  {
+    "title": "視覺化模組型錄：十種看見台灣居住數據的方法",
+    "description": "Taiwan.md 的文章視覺化模組活範例——用真實的台灣居住數據，把每一種 tw-* 視覺模組渲染一次，搭配 graph.md 的語法與設計原則一起看。",
+    "category": "Society",
+    "tags": [
+      "資料視覺化",
+      "居住正義",
+      "住宅政策",
+      "開放資料"
+    ],
+    "url": "https://taiwan.md/Society/%E8%A6%96%E8%A6%BA%E5%8C%96%E6%A8%A1%E7%B5%84%E5%9E%8B%E9%8C%84",
+    "readingTime": 9,
+    "featured": false,
+    "date": "2026-06-06",
+    "path": "Society/視覺化模組型錄.md"
   },
   {
     "title": "経済の奇跡",
@@ -26735,12 +26779,12 @@
     "path": "es/Society/commonwealth-magazine.md"
   },
   {
-    "title": "Commonwealth Magazine: Ranking Taiwan’s “Success” for Forty Years, Standing Closest to Capital",
-    "description": "In June 1981, a financial magazine called Commonwealth was launched on the martial‑law‑bound island, with an initial print run of 10,000 copies sold out in two days. Its founder was economist Kao Hsi‑chun, and its soul was former United Press International and New York Times reporter Diane Ying. Forty years later it became one of Taiwan’s most trusted media outlets and the “definer of success” for the 2,000‑big, Top‑50 and Happy‑City rankings. The source of its public credibility and the source of its ranking power stem from the same distance.",
+    "title": "CommonWealth Magazine: Four Decades of Defining Taiwan''s \"Success,\" Standing Closest to Capital",
+    "description": "In June 1981, a business magazine called CommonWealth launched on a martial-law island, selling out its first print run of 10,000 copies in two days. Founded by economist Kao Hsi-chun, its editorial soul was Diane Ying — a former UPI, New York Times, and Asian Wall Street Journal reporter. Forty years later it became one of Taiwan''s most trusted media outlets, and the maker of rankings — the Top 2000, Top 50, Happiest Cities — that quietly define what \"success\" means. Its credibility and its power to rank others draw from the same distance.",
     "category": "en",
     "tags": [],
     "url": "https://taiwan.md/en/Society/commonwealth-magazine",
-    "readingTime": 104,
+    "readingTime": 161,
     "featured": true,
     "date": "2026-06-04",
     "path": "en/Society/commonwealth-magazine.md"

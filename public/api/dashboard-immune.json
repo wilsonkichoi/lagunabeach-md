@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-06-06T06:11:30.679648",
+  "lastUpdated": "2026-06-06T23:08:52.621073",
   "schemaVersion": "v2-2026-05-16",
   "featureFlag": "IMMUNE_V2",
-  "immuneScore": 61,
-  "status": "需關注 — T1 review < 80% OR plugin pass < 90%",
+  "immuneScore": 58,
+  "status": "漂移 — 多維度退化中",
   "components": {
-    "review_coverage": 28.0,
+    "review_coverage": 27.9,
     "plugin_pass_rate": 70.0,
-    "plugin_health": 63.6,
-    "citation_density": 90.2,
-    "tool_freshness": 80,
+    "plugin_health": 65.2,
+    "citation_density": 90.3,
+    "tool_freshness": 40,
     "drift_velocity": 90.0
   },
   "componentWeights": {
@@ -22,15 +22,15 @@
   },
   "tierBreakdown": {
     "T1": {
-      "total": 350,
+      "total": 352,
       "reviewed": 105,
-      "pct": 30.0,
+      "pct": 29.8,
       "weight": 3.0
     },
     "T2": {
-      "total": 343,
+      "total": 344,
       "reviewed": 85,
-      "pct": 24.8,
+      "pct": 24.7,
       "weight": 1.5
     },
     "T3": {
@@ -41,8 +41,8 @@
     }
   },
   "pluginPassDetail": {
-    "total_files": 787,
-    "hard_pass_files": 787,
+    "total_files": 790,
+    "hard_pass_files": 790,
     "hard_pass_pct": 100.0,
     "warn_pass_files": 0,
     "warn_pass_pct": 0.0,
@@ -50,30 +50,30 @@
   },
   "citationDetail": {
     "grades": {
-      "A": 603,
+      "A": 606,
       "B": 11,
       "C": 158,
       "D": 4,
       "F": 9
     },
-    "files_with_grade": 785
+    "files_with_grade": 788
   },
   "freshnessDetail": {
-    "editorial_days_old": 2,
-    "avg_plugin_days_old": 20.8,
-    "plugin_count": 22,
+    "editorial_days_old": 999,
+    "avg_plugin_days_old": 19.8,
+    "plugin_count": 23,
     "source": "git log %ai (not fs mtime — worktree-safe)"
   },
   "driftDetail": {
-    "new_articles_7d": 18,
+    "new_articles_7d": 21,
     "rate_per_article": 1.0,
     "note": "v1 heuristic — longitudinal tracking pending (B-line meta-health)"
   },
   "pluginHealthDetail": {
-    "plugin_count": 22,
-    "fresh_count": 14,
+    "plugin_count": 23,
+    "fresh_count": 15,
     "drifted_count": 8,
-    "editorial_age_days": 2,
+    "editorial_age_days": 0,
     "drift_thresholds": {
       "editorial_recent_days": 14,
       "plugin_stale_days": 30
@@ -151,7 +151,7 @@
       },
       {
         "plugin": "paragraph_rhythm",
-        "plugin_age_days": 2,
+        "plugin_age_days": 0,
         "drifted": false
       },
       {
@@ -178,6 +178,11 @@
         "plugin": "terminology",
         "plugin_age_days": 33,
         "drifted": true
+      },
+      {
+        "plugin": "viz_health",
+        "plugin_age_days": 0,
+        "drifted": false
       },
       {
         "plugin": "wikilink_target",
