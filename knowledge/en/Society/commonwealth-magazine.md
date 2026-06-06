@@ -5,7 +5,7 @@ date: 2026-06-04
 category: 'Society'
 tags:
   ['media', 'business media', 'CommonWealth Magazine', 'Diane Ying', 'press freedom', 'publishing', 'media and journalism']
-subcategory: 'Media and Journalism'
+subcategory: '媒體與新聞'
 author: 'Taiwan.md'
 featured: true
 lastVerified: 2026-06-04
@@ -15,9 +15,10 @@ imageCredit: 'Ramon Magsaysay Award Foundation'
 imageLicense: 'Fair use editorial commentary'
 imageSource: 'https://rmaward.asia/rmawardees/ying-diane-yun-peng/'
 translatedFrom: 'Society/天下雜誌.md'
-sourceCommitSha: ''
-sourceContentHash: ''
-translatedAt: ''
+sourceCommitSha: '066cab5db'
+sourceContentHash: 'sha256:2beb304e3dcd92aa'
+sourceBodyHash: 'sha256:d56e6832b599d478'
+translatedAt: '2026-06-06T12:29:48+08:00'
 ---
 
 > **30-second overview:** On June 1, 1981, a business magazine called CommonWealth launched in Taiwan, still under martial law and recently expelled from the international stage. Its first edition of 10,000 copies sold out in two days[^1]. The driving force was economist Kao Hsi-chun, who gathered Wang Li-hsing, Chang Tso-chin, and Diane Ying under the banner of "scholars serving the nation"[^2]; Ying — a reporter who had worked at the Philadelphia Inquirer, UPI, the New York Times, and the Asian Wall Street Journal — became the magazine's editorial soul, and the person who held it together after the 1986 split[^3]. Over four decades, it grew from a magazine that "made economics readable" into Taiwan's foremost maker of business and governance rankings: the Top 2000, Top 50, Benchmark Enterprises, Happiest Cities — names that quietly define what "success" means for an entire society. It is one of Taiwan's most trusted media outlets per the Reuters Institute[^4], a recipient of the Ramon Magsaysay Award and the SOPA Lifetime Achievement Award. Yet the position that makes it most trusted is precisely where it stands closest to capital and power. Its credibility, and its power to rank others, come from the same distance.
