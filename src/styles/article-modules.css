@@ -1,0 +1,589 @@
+/**
+ * article-modules.css — Taiwan.md 文章內共用視覺模組
+ *
+ * 「呈現關鍵對比與數據，給讀者好的視覺化感受。」
+ * 作者用極簡 fenced-code 語法叫用（見 docs/editorial/graph.md）；marked 的 code
+ * renderer（article.template.astro renderTwModule）把 tw-* 區塊轉成下列 HTML。
+ *
+ * 設計哲學（參考 The Pudding，長出自己的器官，per reports/article-visualization-design-2026-06-06.md）：
+ *   靜態 + semantic HTML + 標註優先 → 同時對人、螢幕閱讀器、Google、AI 爬蟲可讀。
+ *   「讓 LLM 讀得懂的視覺化 = 主權的視覺化」。資料文字進 DOM，babel 翻譯天然能處理。
+ *
+ * 模組（10）：
+ *   .tw-figure   數據大字   single big number / before→after          [編輯]
+ *   .tw-stat     數據組     2-4 key stats in a row                    [編輯]
+ *   .tw-versus   對比卡     two systems side by side                  [編輯]
+ *   .tw-bars     比例條     horizontal bars (comparison / ranking)    [編輯]
+ *   .tw-waffle   方格圖     part-to-whole, 100 cells                  [編輯]
+ *   .tw-timeline 政策軸     annotated node timeline                   [編輯]
+ *   .tw-quote    引語卡     pull quote                                [編輯]
+ *   .tw-source   來源條     source / method chip                      [編輯]
+ *   .tw-line     折線圖     trend over time (inline SVG + table)      [圖表]
+ *   .tw-heatmap  熱力圖     intensity matrix (HTML table)             [圖表]
+ *
+ * 全部讀 tokens.css 設計變數 → dark mode / RWD / 字體自動跟著走。
+ * ⚠️ 不在這裡新增散落色號；module 專屬色集中在下方 --tw-* 區塊。
+ */
+
+:root {
+  --tw-warm: #c2410c; /* 暖（問題／before／序列1）orange-700 */
+  --tw-cool: #0e7490; /* 冷（對照／after／序列2）cyan-700 */
+  --tw-green: #2a7d52; /* 序列3（色盲友善）*/
+  --tw-fill: var(--color-accent);
+  --tw-mute: #94a3b8; /* 中性／其他 */
+  --tw-track: rgba(15, 23, 42, 0.06);
+  --tw-grid: rgba(15, 23, 42, 0.12);
+  --tw-mod-radius: 14px;
+}
+:root[data-theme='dark'] {
+  --tw-warm: #fb923c;
+  --tw-cool: #22d3ee;
+  --tw-green: #4ade80;
+  --tw-mute: #64748b;
+  --tw-track: rgba(241, 245, 249, 0.1);
+  --tw-grid: rgba(241, 245, 249, 0.18);
+}
+
+/* 共用容器外距 + 卡片底 */
+.tw-figure,
+.tw-stat,
+.tw-versus,
+.tw-bars,
+.tw-waffle,
+.tw-timeline,
+.tw-quote,
+.tw-source,
+.tw-line,
+.tw-heatmap {
+  margin: var(--space-5) 0;
+  font-family: var(--font-interface);
+  color: var(--color-ink);
+}
+.tw-figure,
+.tw-versus,
+.tw-bars,
+.tw-waffle,
+.tw-timeline,
+.tw-line,
+.tw-heatmap {
+  border: 1px solid var(--color-border);
+  border-radius: var(--tw-mod-radius);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-soft);
+}
+
+/* 模組標題（圖表類用）+ 來源列共用 */
+.tw-mod-title {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1.35;
+  color: var(--color-ink);
+  margin-bottom: 0.5em;
+}
+/* 來源列：放在模組「外面」當 caption（sibling），避免跟容器 padding 打架 */
+.tw-mod-src {
+  margin: -0.3em 0 var(--space-5);
+  padding-left: 0.2em;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: var(--color-ink-soft);
+  opacity: 0.85;
+}
+.tw-mod-src b {
+  color: var(--color-ink);
+  font-weight: 600;
+}
+.tw-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ════════════════════════════ 1. 數據大字 .tw-figure ════════════════════════════ */
+.tw-figure {
+  text-align: center;
+  padding: var(--space-5) var(--space-4);
+}
+.tw-figure-nums {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.4em 0.5em;
+  font-family: var(--font-title);
+  font-weight: 700;
+  line-height: 1.05;
+}
+.tw-figure-num {
+  font-size: clamp(2rem, 7vw, 3.4rem);
+  color: var(--tw-warm);
+  letter-spacing: -0.01em;
+}
+.tw-figure-nums .tw-figure-num:last-child:not(:first-child) {
+  color: var(--tw-cool);
+}
+.tw-figure-num--solo {
+  color: var(--color-accent);
+}
+.tw-figure-arrow {
+  font-size: clamp(1.4rem, 4vw, 2.2rem);
+  color: var(--color-ink-soft);
+  opacity: 0.7;
+  transform: translateY(-0.05em);
+}
+.tw-figure-cap {
+  margin: 0.7em auto 0;
+  font-family: var(--font-reading);
+  font-size: 1rem;
+  line-height: 1.55;
+  color: var(--color-ink-soft);
+  max-width: 36ch;
+}
+.tw-figure-src {
+  margin-top: 0.9em;
+  padding-top: 0.7em;
+  border-top: 1px dashed var(--color-border);
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: var(--color-ink-soft);
+  opacity: 0.85;
+}
+
+/* ════════════════════════════ 2. 數據組 .tw-stat ════════════════════════════ */
+.tw-stat {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+  gap: 0.8em;
+}
+.tw-stat-card {
+  padding: var(--space-4) 1em;
+  border: 1px solid var(--color-border);
+  border-radius: var(--tw-mod-radius);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-soft);
+  text-align: center;
+}
+.tw-stat-val {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: clamp(1.5rem, 4.5vw, 2.1rem);
+  line-height: 1.1;
+  color: var(--color-accent);
+}
+.tw-stat-label {
+  margin-top: 0.4em;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--color-ink-soft);
+}
+.tw-stat-note {
+  margin-top: 0.2em;
+  font-size: 0.74rem;
+  color: var(--color-ink-soft);
+  opacity: 0.8;
+}
+
+/* ════════════════════════════ 3. 對比卡 .tw-versus ════════════════════════════ */
+.tw-versus {
+  overflow: hidden;
+}
+.tw-versus-heads {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.9em var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg-soft);
+}
+.tw-versus-head {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+.tw-versus-head--a {
+  color: var(--tw-warm);
+}
+.tw-versus-head--b {
+  color: var(--tw-cool);
+  text-align: right;
+}
+.tw-versus-vs {
+  font-family: var(--font-title);
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--color-ink-soft);
+  padding: 0.1em 0.55em;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-surface);
+}
+.tw-versus-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--color-border);
+}
+.tw-versus-row:nth-child(even) .tw-versus-cell {
+  background: var(--color-bg-soft);
+}
+.tw-versus-cell {
+  background: var(--color-surface);
+  padding: 0.75em var(--space-4);
+  font-size: 0.96rem;
+  line-height: 1.5;
+}
+.tw-versus-cell:first-child {
+  box-shadow: inset 3px 0 0 -1px var(--tw-warm);
+}
+.tw-versus-cell:last-child {
+  box-shadow: inset -3px 0 0 -1px var(--tw-cool);
+}
+
+/* ════════════════════════════ 4. 比例條 .tw-bars ════════════════════════════ */
+.tw-bars {
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+}
+.tw-bars-row {
+  display: grid;
+  grid-template-columns: minmax(5.5em, 9em) 1fr auto;
+  align-items: center;
+  gap: 0.8em;
+}
+.tw-bars-label {
+  font-size: 0.9rem;
+  color: var(--color-ink-soft);
+  text-align: right;
+}
+.tw-bars-track {
+  position: relative;
+  height: 0.85em;
+  background: var(--tw-track);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.tw-bars-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--tw-cool), var(--tw-fill));
+  min-width: 0.85em;
+}
+.tw-bars-val {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--color-ink);
+  white-space: nowrap;
+}
+.tw-bars-note {
+  font-family: var(--font-interface);
+  font-weight: 400;
+  font-size: 0.78rem;
+  color: var(--color-ink-soft);
+}
+
+/* ════════════════════════════ 5. 方格圖 .tw-waffle ════════════════════════════ */
+.tw-waffle {
+  padding: var(--space-4);
+}
+.tw-waffle-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 3px;
+  max-width: 22em;
+  margin: 0 auto;
+  aspect-ratio: 1;
+}
+.tw-waffle-cell {
+  border-radius: 3px;
+  background: var(--tw-track);
+}
+.tw-waffle-cell[data-cat='0'] {
+  background: var(--tw-warm);
+}
+.tw-waffle-cell[data-cat='1'] {
+  background: var(--tw-cool);
+}
+.tw-waffle-cell[data-cat='2'] {
+  background: var(--tw-green);
+}
+.tw-waffle-cell[data-cat='3'] {
+  background: var(--color-accent);
+}
+.tw-waffle-cell[data-cat='4'] {
+  background: var(--tw-mute);
+}
+.tw-waffle-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5em 1.1em;
+  margin-top: var(--space-4);
+}
+.tw-waffle-key {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-size: 0.88rem;
+  color: var(--color-ink-soft);
+}
+.tw-waffle-swatch {
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 3px;
+  flex: none;
+}
+.tw-waffle-key b {
+  color: var(--color-ink);
+  font-family: var(--font-title);
+}
+
+/* ════════════════════════════ 6. 政策軸 .tw-timeline ════════════════════════════ */
+.tw-timeline {
+  padding: var(--space-4) var(--space-4) 0.4em;
+}
+.tw-timeline-item {
+  display: grid;
+  grid-template-columns: 3.6em 1.2em 1fr;
+  gap: 0.9em;
+  align-items: start;
+  padding-bottom: var(--space-4);
+}
+.tw-timeline-year {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--tw-warm);
+  text-align: right;
+  padding-top: 0.05em;
+}
+.tw-timeline-node {
+  position: relative;
+  justify-self: center;
+  width: 0.7em;
+  height: 0.7em;
+  margin-top: 0.35em;
+  border-radius: 999px;
+  background: var(--color-accent);
+  box-shadow:
+    0 0 0 3px var(--color-surface),
+    0 0 0 4px var(--color-border);
+}
+.tw-timeline-item:not(:last-child) .tw-timeline-node::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 1em;
+  transform: translateX(-50%);
+  width: 2px;
+  height: calc(100% + var(--space-4));
+  background: var(--color-border);
+}
+.tw-timeline-title {
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 1.02rem;
+  color: var(--color-ink);
+}
+.tw-timeline-desc {
+  margin-top: 0.2em;
+  font-family: var(--font-reading);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--color-ink-soft);
+}
+
+/* ════════════════════════════ 7. 引語卡 .tw-quote ════════════════════════════ */
+.tw-quote {
+  position: relative;
+  padding: 0.2em 0 0.2em 1.1em;
+  border-left: 4px solid var(--color-accent);
+  margin: var(--space-5) 0;
+}
+.tw-quote-text {
+  font-family: var(--font-quote);
+  font-size: clamp(1.2rem, 3.2vw, 1.6rem);
+  line-height: 1.5;
+  color: var(--color-ink);
+}
+.tw-quote-text::before {
+  content: '「';
+  color: var(--color-accent);
+  opacity: 0.6;
+}
+.tw-quote-text::after {
+  content: '」';
+  color: var(--color-accent);
+  opacity: 0.6;
+}
+.tw-quote-by {
+  margin-top: 0.6em;
+  font-family: var(--font-interface);
+  font-size: 0.92rem;
+  color: var(--color-ink-soft);
+}
+.tw-quote-by::before {
+  content: '— ';
+}
+.tw-quote-by b {
+  color: var(--color-ink);
+}
+
+/* ════════════════════════════ 8. 來源條 .tw-source ════════════════════════════ */
+.tw-source {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5em;
+  padding: 0.6em 0.9em;
+  background: var(--color-bg-soft);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--color-ink-soft);
+  width: fit-content;
+  max-width: 100%;
+}
+.tw-source-icon {
+  flex: none;
+  font-weight: 700;
+  color: var(--color-accent);
+}
+.tw-source b {
+  color: var(--color-ink);
+  font-weight: 600;
+}
+
+/* ════════════════════════════ 9. 折線圖 .tw-line ════════════════════════════ */
+.tw-line {
+  padding: var(--space-4);
+}
+.tw-line-plot {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  overflow: visible;
+}
+.tw-line-area {
+  opacity: 0.12;
+  stroke: none;
+}
+.tw-line-path {
+  fill: none;
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+}
+.tw-line-dot {
+  stroke: var(--color-surface);
+  stroke-width: 1.5;
+  vector-effect: non-scaling-stroke;
+}
+.tw-line-axis {
+  stroke: var(--tw-grid);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+.tw-line-xlab,
+.tw-line-ylab {
+  font-family: var(--font-interface);
+  font-size: 11px;
+  fill: var(--color-ink-soft);
+}
+.tw-line-slab {
+  font-family: var(--font-title);
+  font-size: 12px;
+  font-weight: 700;
+}
+.tw-line-s0 {
+  stroke: var(--tw-warm);
+  fill: var(--tw-warm);
+}
+.tw-line-s1 {
+  stroke: var(--tw-cool);
+  fill: var(--tw-cool);
+}
+.tw-line-s2 {
+  stroke: var(--tw-green);
+  fill: var(--tw-green);
+}
+
+/* ════════════════════════════ 10. 熱力圖 .tw-heatmap ════════════════════════════ */
+.tw-heatmap {
+  padding: var(--space-4);
+  overflow-x: auto;
+}
+.tw-heatmap table {
+  border-collapse: separate;
+  border-spacing: 3px;
+  width: 100%;
+  font-size: 0.86rem;
+}
+.tw-heatmap th {
+  font-family: var(--font-interface);
+  font-weight: 600;
+  color: var(--color-ink-soft);
+  padding: 0.3em 0.5em;
+  text-align: center;
+}
+.tw-heatmap th[scope='row'] {
+  text-align: right;
+  white-space: nowrap;
+}
+.tw-heatmap td {
+  text-align: center;
+  padding: 0.55em 0.5em;
+  border-radius: 5px;
+  font-family: var(--font-title);
+  font-weight: 700;
+  /* --i (0-1) 注入 → 冷到暖漸層 */
+  background: color-mix(
+    in srgb,
+    var(--tw-cool) calc((1 - var(--i, 0)) * 100%),
+    var(--tw-warm)
+  );
+  color: #fff;
+}
+@supports not (background: color-mix(in srgb, red, blue)) {
+  .tw-heatmap td {
+    background: var(--tw-fill);
+    opacity: calc(0.35 + var(--i, 0) * 0.65);
+  }
+}
+
+/* ════════════════════════════ RWD ════════════════════════════ */
+@media (max-width: 560px) {
+  .tw-versus-row {
+    grid-template-columns: 1fr;
+  }
+  .tw-versus-cell:last-child {
+    box-shadow: inset 3px 0 0 -1px var(--tw-cool);
+  }
+  .tw-bars-row {
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      'label val'
+      'track track';
+  }
+  .tw-bars-label {
+    grid-area: label;
+    text-align: left;
+  }
+  .tw-bars-val {
+    grid-area: val;
+  }
+  .tw-bars-track {
+    grid-area: track;
+  }
+}

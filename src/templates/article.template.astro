@@ -205,6 +205,314 @@ renderer.image = ({ href, title, text }) => {
   return `<img src="${href}" alt="${text || ''}"${titleAttr} loading="lazy" onerror="this.onerror=null;this.classList.add('img-broken')" />`;
 };
 
+// ── 文章內共用視覺模組（fenced-code 語法糖 → HTML，CSS 在 article-modules.css）─
+// 作者寫 ```tw-figure / tw-versus / tw-bars / tw-timeline 區塊，逐列用 | 分欄。
+const _esc = (s: string) =>
+  String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+function renderTwModule(lang: string, raw: string): string {
+  let lines = raw
+    .split('\n')
+    .map((l) => l.trim())
+    .filter(Boolean);
+  if (lines.length === 0) return '';
+
+  // 跨模組「來源」列：任一列 `來源：…` / `資料來源：…` / `source: …` 抽成 sibling 來源 caption
+  let src = '';
+  const _srcRe = /^(?:資料來源|來源|source)\s*[:：]\s*(.+)$/i;
+  lines = lines.filter((l) => {
+    const m = l.match(_srcRe);
+    if (m) {
+      src = m[1].trim();
+      return false;
+    }
+    return true;
+  });
+  if (lines.length === 0 && !src) return '';
+  const _src = src ? `<p class="tw-mod-src">資料來源：${_esc(src)}</p>` : '';
+
+  if (lang === 'tw-figure') {
+    // line1: 大數字（含 -> / → 視為 before→after）；line2: 說明；line3: 來源
+    const [big = '', cap = '', src = ''] = lines;
+    const parts = big.split(/\s*(?:->|→|➜)\s*/);
+    const nums =
+      parts.length >= 2
+        ? `<span class="tw-figure-num">${_esc(parts[0])}</span><span class="tw-figure-arrow">→</span><span class="tw-figure-num">${_esc(parts[1])}</span>`
+        : `<span class="tw-figure-num tw-figure-num--solo">${_esc(big)}</span>`;
+    return (
+      `<div class="tw-figure"><div class="tw-figure-nums">${nums}</div>` +
+      (cap ? `<div class="tw-figure-cap">${_esc(cap)}</div>` : '') +
+      (src ? `<div class="tw-figure-src">資料來源：${_esc(src)}</div>` : '') +
+      `</div>`
+    );
+  }
+
+  if (lang === 'tw-versus') {
+    // line1: 左標題 | 右標題；其餘列: 左 | 右
+    const [head, ...rows] = lines;
+    const [lt = '', rt = ''] = head.split('|').map((s) => s.trim());
+    const body = rows
+      .map((r) => {
+        const [l = '', rr = ''] = r.split('|').map((s) => s.trim());
+        return `<div class="tw-versus-row"><div class="tw-versus-cell">${_esc(l)}</div><div class="tw-versus-cell">${_esc(rr)}</div></div>`;
+      })
+      .join('');
+    return (
+      `<div class="tw-versus"><div class="tw-versus-heads">` +
+      `<div class="tw-versus-head tw-versus-head--a">${_esc(lt)}</div>` +
+      `<div class="tw-versus-vs">vs</div>` +
+      `<div class="tw-versus-head tw-versus-head--b">${_esc(rt)}</div></div>` +
+      `<div class="tw-versus-body">${body}</div></div>`
+    );
+  }
+
+  if (lang === 'tw-bars') {
+    // 每列: 標籤 | 數值 | (選填註記)。數值取數字部分縮放長度。
+    const parsed = lines.map((l) => {
+      const [label = '', val = '', note = ''] = l
+        .split('|')
+        .map((s) => s.trim());
+      const num = parseFloat(val.replace(/[^0-9.]/g, '')) || 0;
+      return { label, val, num, note };
+    });
+    const max = Math.max(...parsed.map((p) => p.num), 0.0001);
+    const body = parsed
+      .map((p) => {
+        const pct = Math.max(3, Math.round((p.num / max) * 100));
+        return (
+          `<div class="tw-bars-row"><div class="tw-bars-label">${_esc(p.label)}</div>` +
+          `<div class="tw-bars-track"><div class="tw-bars-fill" style="width:${pct}%"></div></div>` +
+          `<div class="tw-bars-val">${_esc(p.val)}${p.note ? `<span class="tw-bars-note"> ${_esc(p.note)}</span>` : ''}</div></div>`
+        );
+      })
+      .join('');
+    return `<div class="tw-bars">${body}</div>${_src}`;
+  }
+
+  if (lang === 'tw-timeline') {
+    // 每列: 年份 | 標題 | (選填說明)
+    const body = lines
+      .map((l) => {
+        const [year = '', t = '', desc = ''] = l
+          .split('|')
+          .map((s) => s.trim());
+        return (
+          `<div class="tw-timeline-item"><div class="tw-timeline-year">${_esc(year)}</div>` +
+          `<div class="tw-timeline-node"></div>` +
+          `<div class="tw-timeline-content"><div class="tw-timeline-title">${_esc(t)}</div>` +
+          (desc ? `<div class="tw-timeline-desc">${_esc(desc)}</div>` : '') +
+          `</div></div>`
+        );
+      })
+      .join('');
+    return `<div class="tw-timeline">${body}</div>`;
+  }
+
+  if (lang === 'tw-stat') {
+    // 每列: 數值 | 標籤 | (選填註記)
+    const cards = lines
+      .map((l) => {
+        const [val = '', label = '', note = ''] = l
+          .split('|')
+          .map((s) => s.trim());
+        return (
+          `<div class="tw-stat-card"><div class="tw-stat-val">${_esc(val)}</div>` +
+          (label ? `<div class="tw-stat-label">${_esc(label)}</div>` : '') +
+          (note ? `<div class="tw-stat-note">${_esc(note)}</div>` : '') +
+          `</div>`
+        );
+      })
+      .join('');
+    return `<div class="tw-stat">${cards}</div>${_src}`;
+  }
+
+  if (lang === 'tw-waffle') {
+    // 選填標題（不含 |）+ 每列: 類別 | 數值(%)；100 格依比例填色
+    let title = '';
+    let rows = lines;
+    if (lines[0] && !lines[0].includes('|')) {
+      title = lines[0];
+      rows = lines.slice(1);
+    }
+    const cats = rows.map((l) => {
+      const [label = '', val = ''] = l.split('|').map((s) => s.trim());
+      const num = parseFloat(val.replace(/[^0-9.]/g, '')) || 0;
+      return { label, val, num };
+    });
+    const total = cats.reduce((a, c) => a + c.num, 0) || 1;
+    const floors = cats.map((c) => Math.floor((c.num / total) * 100));
+    const rem = 100 - floors.reduce((a, b) => a + b, 0);
+    const fracs = cats
+      .map((c, i) => ({ i, f: (c.num / total) * 100 - floors[i] }))
+      .sort((a, b) => b.f - a.f);
+    for (let k = 0; k < rem && k < fracs.length; k++) floors[fracs[k].i]++;
+    const order: number[] = [];
+    floors.forEach((cnt, ci) => {
+      for (let j = 0; j < cnt; j++) order.push(ci);
+    });
+    const cells = order
+      .slice(0, 100)
+      .map((ci) => `<div class="tw-waffle-cell" data-cat="${ci % 5}"></div>`)
+      .join('');
+    const swatch = [
+      'var(--tw-warm)',
+      'var(--tw-cool)',
+      'var(--tw-green)',
+      'var(--color-accent)',
+      'var(--tw-mute)',
+    ];
+    const legend = cats
+      .map(
+        (c, ci) =>
+          `<span class="tw-waffle-key"><span class="tw-waffle-swatch" style="background:${swatch[ci % 5]}"></span>${_esc(c.label)} <b>${_esc(c.val)}</b></span>`,
+      )
+      .join('');
+    return (
+      `<div class="tw-waffle">` +
+      (title ? `<div class="tw-mod-title">${_esc(title)}</div>` : '') +
+      `<div class="tw-waffle-grid" role="img" aria-label="${_esc(title || '方格圖')}">${cells}</div>` +
+      `<div class="tw-waffle-legend">${legend}</div></div>${_src}`
+    );
+  }
+
+  if (lang === 'tw-quote') {
+    // line1: 引文；line2: 姓名 | 角色/場合
+    const [q = '', by = ''] = lines;
+    const qt = q.replace(/^[「『]/, '').replace(/[」』]$/, '');
+    const [name = '', role = ''] = by.split('|').map((s) => s.trim());
+    const byHtml = name
+      ? `<figcaption class="tw-quote-by"><b>${_esc(name)}</b>${role ? `，${_esc(role)}` : ''}</figcaption>`
+      : '';
+    return `<figure class="tw-quote"><blockquote class="tw-quote-text">${_esc(qt)}</blockquote>${byHtml}</figure>${_src}`;
+  }
+
+  if (lang === 'tw-source') {
+    // 整段當來源條（或被 _srcRe 抽走則用 src）
+    const txt = lines.join(' ') || src;
+    if (!txt) return '';
+    return `<p class="tw-source"><span class="tw-source-icon">⌖</span><span>${_esc(txt)}</span></p>`;
+  }
+
+  if (lang === 'tw-line') {
+    // line1: 標題；line2: x軸名 | 序列1 | 序列2…；其餘: x值 | y1 | y2…
+    if (lines.length < 3) return '';
+    const title = lines[0];
+    const header = lines[1].split('|').map((s) => s.trim());
+    const xName = header[0] || '';
+    const series = header.slice(1);
+    const rows = lines.slice(2).map((l) => {
+      const c = l.split('|').map((s) => s.trim());
+      return {
+        x: c[0] || '',
+        ys: series.map((_, i) =>
+          parseFloat((c[i + 1] || '').replace(/[^0-9.\-]/g, '')),
+        ),
+      };
+    });
+    const allY = rows.flatMap((r) => r.ys).filter((v) => !isNaN(v));
+    if (allY.length === 0) return '';
+    let yMin = Math.min(...allY);
+    const yMax = Math.max(...allY);
+    if (yMin === yMax) yMin = yMin > 0 ? 0 : yMin - 1;
+    const W = 320,
+      H = 176,
+      mL = 40,
+      mR = 58,
+      mT = 14,
+      mB = 26;
+    const pw = W - mL - mR,
+      ph = H - mT - mB;
+    const sx = (i: number) =>
+      mL + (rows.length > 1 ? (i / (rows.length - 1)) * pw : pw / 2);
+    const sy = (v: number) => mT + (1 - (v - yMin) / (yMax - yMin)) * ph;
+    const colors = ['var(--tw-warm)', 'var(--tw-cool)', 'var(--tw-green)'];
+    let g = '';
+    g += `<line class="tw-line-axis" x1="${mL}" y1="${sy(yMax).toFixed(1)}" x2="${W - mR}" y2="${sy(yMax).toFixed(1)}"/>`;
+    g += `<line class="tw-line-axis" x1="${mL}" y1="${sy(yMin).toFixed(1)}" x2="${W - mR}" y2="${sy(yMin).toFixed(1)}"/>`;
+    g += `<text class="tw-line-ylab" x="${mL - 6}" y="${(sy(yMax) + 4).toFixed(1)}" text-anchor="end">${_esc(String(yMax))}</text>`;
+    g += `<text class="tw-line-ylab" x="${mL - 6}" y="${(sy(yMin) + 4).toFixed(1)}" text-anchor="end">${_esc(String(yMin))}</text>`;
+    g += `<text class="tw-line-xlab" x="${sx(0).toFixed(1)}" y="${H - 8}" text-anchor="start">${_esc(rows[0].x)}</text>`;
+    if (rows.length > 1)
+      g += `<text class="tw-line-xlab" x="${sx(rows.length - 1).toFixed(1)}" y="${H - 8}" text-anchor="end">${_esc(rows[rows.length - 1].x)}</text>`;
+    series.forEach((sname, si) => {
+      const pts = rows
+        .map((r, i) => ({ x: sx(i), y: sy(r.ys[si]), v: r.ys[si] }))
+        .filter((p) => !isNaN(p.v));
+      if (pts.length === 0) return;
+      const col = colors[si % 3];
+      const line = pts
+        .map((p) => `${p.x.toFixed(1)},${p.y.toFixed(1)}`)
+        .join(' ');
+      const area = `${pts[0].x.toFixed(1)},${sy(yMin).toFixed(1)} ${line} ${pts[pts.length - 1].x.toFixed(1)},${sy(yMin).toFixed(1)}`;
+      g += `<polygon class="tw-line-area" points="${area}" style="fill:${col}"/>`;
+      g += `<polyline class="tw-line-path" points="${line}" style="stroke:${col}"/>`;
+      pts.forEach((p) => {
+        g += `<circle class="tw-line-dot" cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="2.5" style="fill:${col}"/>`;
+      });
+      const last = pts[pts.length - 1];
+      g += `<text class="tw-line-slab" x="${(last.x + 4).toFixed(1)}" y="${(last.y + 4).toFixed(1)}" style="fill:${col}">${_esc(sname)}</text>`;
+    });
+    const svg = `<svg class="tw-line-plot" viewBox="0 0 ${W} ${H}" role="img" aria-label="${_esc(title)}" xmlns="http://www.w3.org/2000/svg">${g}</svg>`;
+    const thead = `<tr><th scope="col">${_esc(xName)}</th>${series.map((s) => `<th scope="col">${_esc(s)}</th>`).join('')}</tr>`;
+    const tbody = rows
+      .map(
+        (r) =>
+          `<tr><th scope="row">${_esc(r.x)}</th>${r.ys.map((y) => `<td>${isNaN(y) ? '' : _esc(String(y))}</td>`).join('')}</tr>`,
+      )
+      .join('');
+    const table = `<table class="tw-sr-only"><caption>${_esc(title)}</caption><thead>${thead}</thead><tbody>${tbody}</tbody></table>`;
+    return `<figure class="tw-line"><div class="tw-mod-title">${_esc(title)}</div>${svg}${table}</figure>${_src}`;
+  }
+
+  if (lang === 'tw-heatmap') {
+    // line1: 角標 | 欄1 | 欄2…；其餘: 列標 | v1 | v2…（每欄各自正規化成色深）
+    if (lines.length < 2) return '';
+    const header = lines[0].split('|').map((s) => s.trim());
+    const corner = header[0] || '';
+    const cols = header.slice(1);
+    const rows = lines.slice(1).map((l) => {
+      const c = l.split('|').map((s) => s.trim());
+      return { label: c[0] || '', vals: cols.map((_, i) => c[i + 1] || '') };
+    });
+    const colNums = cols.map((_, ci) =>
+      rows.map((r) => parseFloat((r.vals[ci] || '').replace(/[^0-9.\-]/g, ''))),
+    );
+    const colMin = colNums.map((arr) =>
+      Math.min(...arr.filter((v) => !isNaN(v))),
+    );
+    const colMax = colNums.map((arr) =>
+      Math.max(...arr.filter((v) => !isNaN(v))),
+    );
+    const thead = `<tr><th scope="col">${_esc(corner)}</th>${cols.map((c) => `<th scope="col">${_esc(c)}</th>`).join('')}</tr>`;
+    const tbody = rows
+      .map((r) => {
+        const tds = r.vals
+          .map((v, ci) => {
+            const num = parseFloat((v || '').replace(/[^0-9.\-]/g, ''));
+            const range = colMax[ci] - colMin[ci];
+            const i =
+              isNaN(num) || range === 0 ? 0.5 : (num - colMin[ci]) / range;
+            return `<td style="--i:${i.toFixed(2)}">${_esc(v)}</td>`;
+          })
+          .join('');
+        return `<tr><th scope="row">${_esc(r.label)}</th>${tds}</tr>`;
+      })
+      .join('');
+    return `<div class="tw-heatmap"><table><thead>${thead}</thead><tbody>${tbody}</tbody></table></div>${_src}`;
+  }
+
+  return '';
+}
+
+renderer.code = ({ text, lang }) => {
+  if (lang && lang.startsWith('tw-')) {
+    const html = renderTwModule(lang, text);
+    if (html) return html;
+  }
+  const langClass = lang ? ` class="language-${lang}"` : '';
+  return `<pre><code${langClass}>${_esc(text)}</code></pre>`;
+};
+
 // ── Footnote preprocessor (GFM-compatible [^n] syntax) ──────────────────────
 function processFootnotes(md: string): string {
   // Collect footnote definitions: [^label]: content (may span rest of line)

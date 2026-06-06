@@ -129,6 +129,7 @@ upstream_canonical:
 | 多語 visual smoke           | Stage 4    | i18n 改動                     | 6 步 bash                                                                                              | revert commit    |
 | Image health                | Stage 4    | 涉及圖                        | article-health.py --check=image-health                                                                 | 不進 Stage 5     |
 | Aspect ratio 護欄           | Stage 4    | 涉及圖                        | check-aspect.sh                                                                                        | 換圖             |
+| **視覺化 viz-health** 📊    | Stage 4    | 含 `tw-*` 資料模組            | article-health.py --check=viz-health（資料圖表標來源 / 禁「如上圖」AI-blind 指示語，per graph.md）     | WARN（soft）     |
 | Sibling 格式預檢            | Stage 5    | 補 reverse cross-link         | article-health.py --check=format-structure                                                             | DEFER + 開 issue |
 
 **🔴 四條反射特別強化**（v3.1 sad-shockley 升級 + v6.0 新增第 3 條 + v6.2 新增第 4 條）：
@@ -174,18 +175,19 @@ upstream_canonical:
 
 ## 跨檔案職責分工
 
-| 檔案                                                             | 範圍                                                                    |
-| ---------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| **本檔**                                                         | 6 stage 線性主流程（單檔，含觀點成型 + 模式判定 + 媒體生命週期 + cron） |
-| [RESEARCH.md](../editorial/RESEARCH.md)                          | 研究方法論 SSOT（怎麼搜、怎麼判斷、怎麼避坑）                           |
-| [EDITORIAL.md](../editorial/EDITORIAL.md)                        | 品質基因 SSOT（好文章長什麼樣、風格、禁止事項）                         |
-| [CITATION-GUIDE.md](../editorial/CITATION-GUIDE.md)              | 引用規範（腳註格式、密度標準、來源品質）                                |
-| [RESEARCH-TEMPLATE.md](../editorial/RESEARCH-TEMPLATE.md)        | 研究模板（Stage 1 輸出格式）                                            |
-| [QUALITY-CHECKLIST.md](../editorial/QUALITY-CHECKLIST.md)        | 驗證清單（Stage 3 逐項檢查）                                            |
-| [TERMINOLOGY.md](../editorial/TERMINOLOGY.md)                    | 用語規範（台灣在地用語標準）                                            |
-| [FACTCHECK-PIPELINE.md](FACTCHECK-PIPELINE.md)                   | Stage 3 Step 3.3 觸發（事實查核完整 SOP）                               |
-| [TRANSLATION-PIPELINE.md](TRANSLATION-PIPELINE.md)               | 中文 ship 後跨 pipeline 觸發（單篇翻譯 SOP）                            |
-| [SQUEEZE-MODELS-MAX-PIPELINE.md](SQUEEZE-MODELS-MAX-PIPELINE.md) | 中文 ship 後跨 pipeline 觸發（多語 batch sync 巴別塔）                  |
+| 檔案                                                             | 範圍                                                                               |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| **本檔**                                                         | 6 stage 線性主流程（單檔，含觀點成型 + 模式判定 + 媒體生命週期 + cron）            |
+| [RESEARCH.md](../editorial/RESEARCH.md)                          | 研究方法論 SSOT（怎麼搜、怎麼判斷、怎麼避坑）                                      |
+| [EDITORIAL.md](../editorial/EDITORIAL.md)                        | 品質基因 SSOT（好文章長什麼樣、風格、禁止事項）                                    |
+| [CITATION-GUIDE.md](../editorial/CITATION-GUIDE.md)              | 引用規範（腳註格式、密度標準、來源品質）                                           |
+| [RESEARCH-TEMPLATE.md](../editorial/RESEARCH-TEMPLATE.md)        | 研究模板（Stage 1 輸出格式）                                                       |
+| [QUALITY-CHECKLIST.md](../editorial/QUALITY-CHECKLIST.md)        | 驗證清單（Stage 3 逐項檢查）                                                       |
+| [TERMINOLOGY.md](../editorial/TERMINOLOGY.md)                    | 用語規範（台灣在地用語標準）                                                       |
+| [graph.md](../editorial/graph.md)                                | 視覺化編輯指南（型錄/模組語法/AI 可讀性）— Stage 2 視覺化思考 + Stage 4 viz-health |
+| [FACTCHECK-PIPELINE.md](FACTCHECK-PIPELINE.md)                   | Stage 3 Step 3.3 觸發（事實查核完整 SOP）                                          |
+| [TRANSLATION-PIPELINE.md](TRANSLATION-PIPELINE.md)               | 中文 ship 後跨 pipeline 觸發（單篇翻譯 SOP）                                       |
+| [SQUEEZE-MODELS-MAX-PIPELINE.md](SQUEEZE-MODELS-MAX-PIPELINE.md) | 中文 ship 後跨 pipeline 觸發（多語 batch sync 巴別塔）                             |
 
 ---
 
@@ -1113,6 +1115,21 @@ Stage 1 結束時 deliverable：
 > 不要用 `head` / `tail` 截斷「必讀」指令。完讀後必須回頭檢查四個段落：§挖引語制度、§小標題規範、§結尾的四種模式、§Before/After 實例對比。
 
 **輸入**：Stage 1 研究筆記 + EDITORIAL.md。
+
+**視覺化必讀**（含資料 / 對比 / 時序的文章）：`cat docs/editorial/graph.md`（型錄 + 模組語法 + AI 可讀性 + 檢查清單）。
+
+### Step 2.0: 視覺化思考（v6.8 新增）💭📊
+
+借 The Pudding「問題先於資料」：寫之前掃過 fact-pack，問三題（**不是強制加圖**——沒有適合的資料就誠實不加，記 research report）：
+
+1. 這篇有哪些「**資料關係**」（比較 / 排名 / 比例 / 分布 / 趨勢 / 流向 / 單一大數字 / 質性對比）密集到讓 prose 變數字堆疊？
+2. 每個密集點，[graph.md §型錄](../editorial/graph.md) 哪個 `tw-*` 模組最適合？（**一圖一重點**：一個關係一張圖）
+3. 這張圖的 **annotation** 要寫什麼「為什麼重要」？（不是裝飾，是策展觀點）
+
+產出：在 research report §觀點成型 或 fact-pack 標「視覺化候選清單」（哪段 → 哪個 `tw-*` → 想講的重點 → 來源）。Writer agent 吃這份清單，把密集數字段升級成模組（語法見 graph.md §四）。
+
+> **指標**（viz 不是越多越好，避免 chartjunk）：depth 文至少**評估過** 1 個候選（可記「評估後不加 + 理由」）；資料圖表模組 100% 標來源（`viz-health` gate）；viz 密度跟 media band 共管（`paragraph-rhythm`）。**「讓 LLM 讀得懂的視覺化 = 主權的視覺化」**——禁圖片型/D3/Canvas viz、禁「如上圖」AI-blind 指示語。
+> **設計脈絡**：[reports/article-visualization-design-2026-06-06.md](../../reports/article-visualization-design-2026-06-06.md)。
 
 ### Step 2.1: 載入 EDITORIAL.md
 
