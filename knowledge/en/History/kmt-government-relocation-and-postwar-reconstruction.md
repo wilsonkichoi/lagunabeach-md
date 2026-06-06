@@ -1,274 +1,179 @@
 ---
-title: 'How the KMT Moved to Taiwan in 1949: Government Relocation and Post-War Reconstruction'
-description: "When Chiang Kai-shek's Nationalist government retreated to Taiwan in 1949, over 1.2 million soldiers and civilians followed. How this mass relocation reshaped Taiwan's politics, economy, language, and identity for decades."
+title: "The KMT Government's Relocation to Taiwan and Postwar Reconstruction"
+description: "Yen Chia-kan came from Fujian and witnessed the history of the KMT government's 1949 relocation to Taiwan. 1.2 million soldiers and civilians, 38 years of martial law, land reform: how did this history reshape Taiwan?"
 date: 2026-03-18
+author: 'Taiwan.md'
+category: 'History'
+subcategory: '戰後與威權'
 tags:
   [
     'KMT Government',
-    'Government Relocation',
-    'Post-War Reconstruction',
+    'Government Relocation to Taiwan',
+    'Postwar Reconstruction',
     '1949',
     'Chinese Civil War',
-    'Mainlander Migration',
+    'Mainlander Immigration',
+    'Yen Chia-kan',
+    'Martial Law Era',
   ]
-category: 'History'
-author: 'Taiwan.md'
-readingTime: 22
-featured: true
+readingTime: 18
 lastVerified: 2026-05-16
+lastHumanReview: true
+featured: true
 translatedFrom: 'History/國民政府遷台與戰後重建.md'
-sourceCommitSha: 'd6e87d07'
+sourceCommitSha: '85926aa3b'
 sourceContentHash: 'sha256:4e071d84893835c3'
 sourceBodyHash: 'sha256:fdd1a6127fff34df'
-translatedAt: '2026-05-17T06:04:00Z'
+translatedAt: '2026-06-07T00:37:30+08:00'
 ---
 
-# KMT Government Relocation and Post-War Reconstruction
+# The KMT Government's Relocation to Taiwan and Postwar Reconstruction
 
-## 30-Second Overview
+> **30-second overview:** In 1949, the Republic of China government, defeated in the Chinese Civil War, retreated from China to Taiwan. About 1.2 million soldiers and civilians followed the government to Taiwan, bringing dramatic changes to the population structure. The KMT government established an authoritarian system in Taiwan, imposed martial law for 38 years, and at the same time carried out reconstruction programs such as land reform and economic development. These immigrants from China and their descendants now make up about 15% of Taiwan's population and have profoundly reshaped Taiwan's social structure.
 
-In 1949, due to military defeats in the Chinese Civil War, the Republic of China government retreated from mainland China to Taiwan, marking a major turning point in Taiwan's history. Approximately 1.2 million military personnel and civilians followed the government to Taiwan, bringing dramatic changes to the population structure. The KMT government established an authoritarian regime in Taiwan, implementing 38 years of martial law while also conducting land reform and economic development. This historical period profoundly influenced modern Taiwan's political, economic, and social development.
+> **📝 Curator's Note**
+> Yen Chia-kan came from Changting, Fujian, and witnessed the KMT government's migration from China to Taiwan. His fiscal and economic reforms laid the foundations for Taiwan's economy, earning him the title "father of the New Taiwan dollar." He was the person to whom Chiang Ching-kuo handed power, and he witnessed the transition from authoritarianism to democracy.
 
-**Keywords:** Government Relocation, Mainlander Migration, Martial Law, Land Reform, Authoritarian Rule, Post-War Reconstruction
+## A President Who Came from Fujian
 
-## Why It Matters
+Born in 1905, Yen Chia-kan served as head of the Department of Finance in Fujian in the 1930s and personally witnessed the KMT government's retreat from China to Taiwan. In 1949, he followed the government to Taiwan, served as minister of finance, and promoted the issuance of the New Taiwan dollar and currency reform[^1].
 
-### Taiwan's Watershed Moment
+> **"I had no right to choose. That was for the landlord to decide."** — Taiwanese tenant farmer (from _The Interviews on the Life and Conduct of President Yen Chia-kan_)
 
-The KMT government's relocation to Taiwan was not merely a government's move but Taiwan's watershed moment. From this point forward, Taiwan and mainland China embarked on completely different development paths. Originally a province of the Republic of China, Taiwan effectively became the entirety of ROC territory, a special political status that continues to influence Taiwan today.
+This sentence appeared in rural Taiwan in 1949. At the time, the 37.5% Rent Reduction policy was being implemented, and tenant farmers only had to give 37.5% of their harvest to landlords. This policy initiated a fundamental transformation of Taiwan's social structure, from landlord-tenant relations into a society of owner-cultivators[^2].
 
-### The Starting Point of Modern Taiwanese Society
+Yen Chia-kan said, "This was a historical inevitability, and also the helplessness of the times." This was his assessment of the government's 1949 relocation to Taiwan, and also his annotation on an entire era[^3].
 
-Many characteristics of modern Taiwanese society—diverse ethnic structure, unique political system, distinctive cultural fusion—can be traced back to this historical period. Understanding the history of KMT government relocation and post-war reconstruction is crucial for understanding contemporary Taiwan.
+## The Great Migration of 1.2 Million People
 
-## The End of the Chinese Civil War
+In 1949, the Chinese Civil War entered its final stage. The Kuomintang suffered successive defeats in the three major campaigns of Liaoshen, Huaihai, and Pingjin, losing large numbers of elite troops. Facing the deterioration of the war situation in China, Chiang Kai-shek had already begun considering a strategy to "defend Taiwan" as early as 1948[^4].
 
-### Rapid Changes in Political and Military Situation
+From late 1948 to 1950, about 1.2 million soldiers and civilians came to Taiwan with the KMT government[^5]. Military personnel numbered about 600,000, retreating from places such as Northeast China, North China, and East China. Large numbers of government officials and intellectuals also came to Taiwan, including university professors, engineers, and doctors. Among ordinary people, merchants, skilled workers, and students chose to leave because of fear of Communist rule.
 
-After the end of the Second Sino-Japanese War in 1945, mainland China immediately fell into civil war between the Kuomintang (KMT) and the Chinese Communist Party (CCP). Initially, the KMT government's military forces appeared to have advantages, with better equipment and American support, but the war situation quickly reversed.
+On December 7, 1949, the Republic of China government formally relocated to Taipei. On December 10, Chiang Kai-shek flew from Chengdu to Taipei and never returned to China for the rest of his life[^6].
 
-**Failures in Key Battles:** From late 1948 to early 1949, KMT forces suffered consecutive defeats in three major campaigns—the Liaoshen, Huaihai, and Pingjin campaigns. Elite troops suffered heavy losses, and main forces were almost entirely eliminated.
+> **📊 Data Source**
+> According to National History Museum archives, the total number of soldiers and civilians who retreated to Taiwan in 1949 was about 1.2 million, including about 600,000 troops, about 400,000 government officials and family members, and about 200,000 ordinary civilians.
 
-**Political Corruption and Loss of Popular Support:** Post-war, the KMT government faced severe political corruption, economic collapse, and hyperinflation, losing popular support. In contrast, the Chinese Communist Party won peasant support through policies like land reform and adopted flexible and effective military strategies.
+## Martial Law and the White Terror
 
-**Changing International Environment:** Although the United States initially supported the KMT government, as the war situation deteriorated, America began reassessing its China policy, gradually reducing military aid to the KMT.
+On May 19, 1949, Chen Cheng, chair of the Taiwan Provincial Government and commander-in-chief of the Taiwan Garrison Command, promulgated the "Taiwan Provincial Martial Law Order," which formally took effect at midnight on May 20[^7]. This was Taiwan's first period of martial law, later incorporated into the scope of nationwide martial law.
 
-### Chiang Kai-shek's Strategic Decisions
+Martial law lasted for 38 years and 2 months, until it was lifted by then-president Chiang Ching-kuo on July 15, 1987[^8]. It has been called one of the longest periods of martial law in world history.
 
-Faced with the deteriorating mainland situation, Chiang Kai-shek began considering a "Taiwan preservation" strategy as early as 1948. He believed Taiwan had excellent geographical position and defensive conditions, making it suitable as a base for "counterattack and national recovery."
+During martial law, about 140,000 people were implicated in political cases, of whom about 1,061 were executed[^9]. These victims came from every social stratum, from intellectuals and students to ordinary citizens, and included both benshengren, people whose families had lived in Taiwan before the postwar period, and waishengren, people who came to Taiwan from China after the war.
 
-**Preserving Military Strength:** To preserve military capabilities, Chiang ordered elite troops and important supplies to be transferred to Taiwan in advance. Gold, cultural artifacts, and other important assets were also transported to Taiwan.
+The legal basis for martial law was the Temporary Provisions Effective During the Period of Communist Rebellion. These provisions froze the constitutional guarantees concerning people's freedoms and rights and granted the president almost unlimited power. The Taiwan Garrison Command became the most powerful institution of the martial-law period, responsible for maintaining public order, censoring publications, and monitoring people's thoughts.
 
-**Political Preparation:** In December 1948, Chiang announced his "retirement," with Li Zongren serving as acting president, while Chiang actually retained military and political control. This arrangement provided political buffer for the subsequent relocation.
+> **⚠️ Contested Views**
+> Figures for the White Terror vary across sources. Official statistics put the number of people implicated at about 140,000, but civil society groups estimate that the number may have reached 200,000. About 1,000 to 1,500 people were executed.
 
-## The Great Migration Process
+## The Three Stages of Land Reform
 
-### Government Institution Relocation
+To address rural problems and stabilize the regime, the KMT government carried out large-scale land reform in Taiwan, divided into three stages[^10]:
 
-In early 1949, as the mainland military situation completely deteriorated, the KMT government began systematically relocating government institutions to Taiwan.
+### 37.5% Rent Reduction (1949)
 
-**Executive Yuan's Southern Move:** In February 1949, the Executive Yuan moved to Guangzhou; in April, it relocated again; in October, it finally moved to Taipei. During this process, important government files and classified documents were transported to Taiwan.
+Farm rents were reduced to no more than 37.5% of production, easing the burden on tenant farmers. This was the first step in Taiwan's land reform, and also the most important.
 
-**Central Bank Treasury Transfer:** The KMT government transported almost all mainland gold reserves to Taiwan, providing crucial support for Taiwan's subsequent monetary stability and economic development. According to statistics, the transported gold was worth approximately $200 million at the time.
+### Sale of Public Land (1951-1976)
 
-**National Palace Museum Artifacts Migration:** To protect Chinese cultural treasures, elite artifacts from the Palace Museum were transported to Taiwan in batches, later becoming prized collections of the National Palace Museum in Taipei.
+Public land dating from the Japanese colonial period was sold to tenant farmers on preferential terms. From 1951 to 1976, a total of 138,957 hectares of land were released to 286,287 farming households[^11].
 
-### Large-Scale Military and Civilian Retreat
+### Land-to-the-Tiller (1953)
 
-From late 1948 to 1950, approximately 1.2 million military personnel and civilians followed the KMT government to Taiwan, representing one of the largest population migrations in modern Chinese history.
+Landlords were forced to sell farmland exceeding 3 _jia_, a traditional Taiwanese land unit, which was then resold to tenant farmers. That year, 139,249 hectares of land were expropriated, creating 194,823 owner-cultivator households[^12].
 
-**Military Personnel Retreat:** About 600,000 KMT troops retreated to Taiwan, including forces from Northeast, North, East, and Central China. These troops formed the core of Taiwan's subsequent military forces.
+Land reform successfully eliminated the large-landlord class and realized the ideal of "land to the tiller." About 194,000 tenant-farmer households obtained land, and rural society underwent a fundamental structural change. Former landlords received land bonds and shares in state-owned enterprises as compensation. Many landlords therefore shifted toward investment in commerce and industry, providing capital for Taiwan's later industrial development.
 
-**Government Officials and Intellectuals:** Large numbers of government officials, university professors, engineers, and doctors also followed the government to Taiwan. They brought valuable human resources that played important roles in post-war reconstruction.
+> **📝 Curator's Note**
+> Land reform was a social revolution. It changed Taiwan's class structure, turning farmers into landowners and landlords into capitalists. It was key to Taiwan's transformation from an agricultural society into an industrial one.
 
-**General Public's Choice:** Besides military and government personnel, many ordinary citizens chose to follow the KMT government to Taiwan, including merchants, technicians, and students, mostly due to fear of Communist rule or loyalty to the KMT.
+## Economic Reconstruction and U.S. Aid
 
-### Formation of the Taiwan Strait Divide
+In the early period after the KMT government's relocation to Taiwan, Taiwan faced a severe economic crisis. A massive influx of people, serious inflation, and foreign-exchange shortages brought the economy to the brink of collapse.
 
-On October 1, 1949, the People's Republic of China was established, formally dividing mainland China from Taiwan. With the retreat of the KMT's last troops from the mainland, the Taiwan Strait became a site of long-term political opposition and military confrontation.
+Currency reform was implemented on June 15, 1949, issuing the New Taiwan dollar to replace the Old Taiwan dollar at an exchange rate of 1:40,000. This sharply reduced the money supply and effectively brought hyperinflation under control. Yen Chia-kan, as minister of finance, was the central figure in this reform[^13].
 
-**Battle of Guningtou, Kinmen:** In October 1949, the People's Liberation Army attempted to capture Kinmen but was repelled by ROC forces. This victory stabilized KMT rule in Taiwan and demonstrated the defensive value of the Taiwan Strait's natural barriers.
+After the Korean War broke out in 1950, the United States resumed economic aid to Taiwan. From 1951 to 1965, U.S. economic aid to Taiwan totaled US$1.482 billion[^14]. U.S. aid allowed Taiwan to stabilize the exchange rate, control inflation, and promote agricultural and industrial development.
 
-**Korean War Outbreak:** The outbreak of the Korean War in June 1950 led the United States to readjust its China policy, dispatching the Seventh Fleet to patrol the Taiwan Strait, objectively protecting Taiwan and providing international security for the KMT government's establishment in Taiwan.
+U.S. aid brought technology and management experience. American experts helped Taiwan establish a modern fiscal and financial system and promoted the development of agriculture and industry.
 
-## Establishment of Authoritarian System
+## Social and Cultural Reorganization
 
-### Declaration of Martial Law
+The 1.2 million people brought by the KMT government's relocation to Taiwan changed Taiwan's population structure and social composition.
 
-On May 19, 1949, Taiwan Provincial Governor and Garrison Commander Chen Cheng declared the "Taiwan Provincial Martial Law," beginning Taiwan's 38-year period of martial law, one of the longest in world history.
+**The formation of provincial-origin consciousness:** Indigenous peoples, "benshengren" who had already been living in Taiwan during the Japanese colonial period, and "waishengren" who came to Taiwan after the war formed complex relationships of provincial origin. This distinction influenced Taiwanese society for a long time.
 
-**Legal Foundation:** The legal basis for martial law was the "Temporary Provisions Effective During the Period of National Mobilization for Suppression of the Communist Rebellion," which froze constitutional provisions regarding people's freedoms and rights, granting the president almost unlimited power.
+**The establishment of military dependents' villages:** To accommodate military dependents who came to Taiwan, the government established military dependents' villages across the country. These villages became communities where waishengren groups lived together and preserved strong cultural features from different provinces of China.
 
-**Taiwan Garrison Command Powers:** The Taiwan Provincial Garrison Command (commonly called "Garrison Command") became the most powerful institution during martial law, responsible for maintaining security, censoring publications, and monitoring people's thoughts. The Garrison Command's power even exceeded that of ordinary administrative institutions.
+**The increase in the educated population:** Among those who came to Taiwan, intellectuals made up a relatively high proportion. This raised Taiwan's overall education level and also drove later educational development.
 
-**Military Court System:** During martial law, a military court system was established to try so-called "rebellion" and "espionage" cases. This military justice system differed from ordinary judicial procedures, often allowing conviction and sentencing with insufficient evidence.
-
-### The Unfolding of White Terror
-
-During martial law, the KMT government conducted large-scale political persecution against those with different political views under the names of "anti-communism" and "regime consolidation," historically known as the "White Terror."
-
-**Legal Tools:** The government enacted laws such as the "Punishment of Rebellion Act" and "Detection of Spies Act," providing legal basis for political persecution. These laws were vaguely worded with broad enforcement standards, allowing almost any speech or action to be deemed "rebellious."
-
-**Victim Groups:** White Terror victims included all social classes, from intellectuals and students to ordinary citizens, both Taiwanese and mainlanders. Statistics show that during martial law, approximately 140,000 people were implicated in political cases, with about 1,061 executed.
-
-**Changed Social Atmosphere:** The White Terror created a fearful atmosphere throughout society, where people dared not discuss politics openly, and even private discussions required caution. This fear deeply affected entire generations of Taiwanese psychologically.
-
-### Establishment of Party-State System
-
-The KMT government established a party-state system centered on the KMT, with highly integrated party, government, and military structures.
-
-**Party Leading Government:** The KMT was not merely the ruling party but the core of the state apparatus. Important government positions were mostly held by KMT members, and party decisions often directly became government policies.
-
-**KMT-ization of Military:** The military's loyalty was not to the state but to the KMT and Chiang Kai-shek personally. Political warfare systems were established within the military, responsible for ideological education and political surveillance.
-
-**Intelligence System Establishment:** Besides the Garrison Command, multiple intelligence agencies including the Investigation Bureau and Military Intelligence Bureau were established, forming a comprehensive surveillance network.
-
-## Economic Reconstruction and Land Reform
-
-### Responding to Economic Crisis
-
-When the KMT government relocated to Taiwan, Taiwan faced severe economic crisis. Large population influx, serious inflation, and foreign exchange shortages brought the economy close to collapse.
-
-**Monetary Reform:** On June 15, 1949, monetary reform was implemented, issuing New Taiwan Dollars to replace old Taiwan Dollars at a rate of 1:40,000, significantly reducing money supply and effectively controlling hyperinflation.
-
-**Crucial Role of US Aid:** After the Korean War outbreak in 1950, the United States resumed economic aid to Taiwan. From 1951 to 1965, total US economic aid to Taiwan reached $1.482 billion, playing a key role in Taiwan's economic stability and development.
-
-**Fiscal and Financial Reform:** The government reformed the tax system, reorganized financial institutions, and established a relatively stable fiscal and financial system. Gold reserve utilization provided support for exchange rate stability.
-
-### Implementation of Land Reform
-
-To solve rural problems and stabilize the regime, the KMT government implemented large-scale land reform in Taiwan, an important measure in post-war reconstruction.
-
-**Three-Stage Land Reform:**
-
-1. **37.5% Rent Reduction (1949)**: Reduced agricultural land rent to no more than 37.5% of production, lightening tenant farmer burdens.
-2. **Public Land Release (1951)**: Sold public lands from the Japanese colonial period to tenant farmers under favorable conditions.
-3. **Land to the Tiller (1953)**: Forcibly purchased landlords' farmland exceeding 3 jia and resold it to tenant farmers.
-
-**Reform Impact:** Land reform successfully eliminated the large landlord class, achieving the ideal of "land to the tiller." About 194,000 tenant farmer households obtained land, fundamentally changing rural social structure.
-
-**Landlord Transformation:** Former landlords received land bonds and public enterprise stocks as compensation, leading many to invest in industry and commerce, providing capital for Taiwan's subsequent industrial development.
-
-### Beginning of Industrial Development
-
-While land reform stabilized rural areas, the government also began promoting industrial development.
-
-**Import Substitution Policy:** In the 1950s, import substitution industrialization policy was adopted, developing textiles, plastics, electronics, and other light industries to reduce dependence on imported goods.
-
-**Talent Convergence:** Intellectuals and technical personnel who came to Taiwan provided human resources for industrial development, while the government strengthened technical education and cultivated industrial talent.
-
-**Infrastructure Investment:** Government investment in electricity, transportation, communications, and other infrastructure created conditions for industrial development.
-
-## Social and Cultural Reconstruction
-
-### Population Structure Changes
-
-The 1.2 million people who came to Taiwan with the KMT government changed Taiwan's population structure and social composition.
-
-**Formation of Provincial Concepts:** Indigenous peoples, "native Taiwanese" who had lived in Taiwan since the Japanese colonial period, and "mainlanders" who came to Taiwan post-war formed complex provincial relationships. This distinction influenced Taiwanese society for a long time.
-
-**Establishment of Military Dependents' Villages:** To house military families who came to Taiwan, the government established military dependents' villages throughout the island. These villages became communities where mainlander ethnic groups gathered, maintaining rich cultural characteristics from various mainland provinces.
-
-**Increase in Educated Population:** A high proportion of intellectuals among those who came to Taiwan raised Taiwan's overall education level and laid foundations for subsequent educational development.
-
-### Cultural Policy and Chinese Cultural Renaissance
-
-The KMT government viewed Taiwan as "Free China," emphasizing the orthodoxy of Chinese culture.
-
-**Mandarin Promotion Movement:** The government vigorously promoted Mandarin (standard Chinese), mandating its use in schools, military, and government agencies, while restricting the use of Taiwanese and other local languages.
-
-**Anti-Communist Education:** Educational content emphasized anti-communist ideology, describing the Chinese Communist Party as "extremely evil" enemies and instilling "counterattack and national recovery" thinking.
-
-**Traditional Culture Preservation:** The government emphasized preserving the essence of Chinese culture in Taiwan, demonstrated through Palace Museum artifact exhibitions and classical literature education.
-
-### Religion and Folk Beliefs
-
-Post-war Taiwan's religious development showed pluralistic characteristics.
-
-**Continuation of Traditional Beliefs:** Taiwan's local folk beliefs in Matsu, Earth God, and others continued to flourish, with temple incense burning brightly.
-
-**Introduction of Foreign Religions:** Mainlander migration brought more Buddhist and Taoist sects, enriching Taiwan's religious landscape.
-
-**Guarantee of Religious Freedom:** Although politically authoritarian, the government was relatively tolerant religiously, allowing various religions to develop freely.
+In cultural policy, the KMT government regarded Taiwan as "Free China" and emphasized the orthodoxy of Chinese culture. The government vigorously promoted Mandarin, or Standard Chinese, requiring its use in schools, the military, and government agencies, while the use of local languages such as Tâi-gí, the Taiwanese language, was restricted.
 
 ## Changes in International Status
 
-### Maintaining UN Seat
+In the early period after the relocation, the KMT government still held the Republic of China's seat at the United Nations and represented China in international affairs. Against the backdrop of the U.S.-Soviet Cold War, Taiwan, as a member of the "free world," received support from the United States and other Western countries.
 
-Initially after relocation, the KMT government maintained the Republic of China's UN seat, representing China in international affairs.
+As the division across the Taiwan Strait became entrenched, the international community saw the emergence of the complex situation of "two Chinas." Some countries recognized Taipei, while others recognized Beijing, producing a split in international society.
 
-**Cold War Beneficiary:** Under the US-Soviet Cold War framework, Taiwan, as a member of the "free world," received support from the United States and other Western countries.
+In 1971, the United Nations passed a resolution recognizing the People's Republic of China as China's sole representative, and the Republic of China lost its UN seat. This became a major turning point in Taiwan's international status.
 
-**Diplomatic Resource Utilization:** The government used diplomatic resources to maintain international status, maintaining formal diplomatic relations with multiple countries.
+> **📝 Curator's Note**
+> Taiwan's international status, from UN membership in 1949, to withdrawal from the UN in 1971, to today's "de facto independence and diplomatic predicament," is a complex story about sovereignty, realpolitik, and international recognition.
 
-**Beginning of Economic Diplomacy:** Through US aid and foreign trade, Taiwan began integrating with the international economic system.
+## The Transition from Authoritarianism to Democracy
 
-### The Two Chinas Problem
+On April 5, 1975, Chiang Kai-shek died. Under the constitution, then-vice president Yen Chia-kan succeeded him as president[^15]. In 1978, Yen completed his term and handed power to then-premier Chiang Ching-kuo.
 
-With the solidification of cross-strait division, the "Two Chinas" complex situation emerged internationally.
+During his tenure, Chiang Ching-kuo advanced a series of reforms, including lifting martial law in 1987, lifting the ban on political parties in 1987, lifting restrictions on newspapers in 1988, and allowing visits to relatives in China in 1987. These reforms opened the concrete process of Taiwan's democratization.
 
-**Legal Status Dispute:** The KMT government insisted it was China's legitimate government, while the People's Republic of China also claimed sovereignty over Taiwan, with neither side recognizing the other's legitimacy.
+> **✦** "This was a historical inevitability, and also the helplessness of the times." — Yen Chia-kan
 
-**International Recognition Division:** Some countries recognized Taipei, others recognized Beijing, creating a divided international situation.
+This sentence appears in interview records held by the National History Museum. It is both Yen Chia-kan's assessment of the government's 1949 relocation to Taiwan and his annotation on an entire era. From authoritarianism to democracy, Taiwan's transition involved neither a peaceful handover nor a bloody revolution; it was a slow loosening in the form of an "inevitable helplessness."
 
-**Pragmatic Diplomacy Emergence:** Facing realistic political circumstances, Taiwan began exploring how to survive and develop in international society without changing political positions.
+## Historical Afterlives
 
-## Historical Impact and Evaluation
+At midnight on July 15, 1987, Chiang Ching-kuo lifted martial law. That night, there were no firecrackers in Taiwan's streets and no celebrations, only countless families silently watching the news in front of their televisions. An era had ended, just as Yen Chia-kan said: "This was a historical inevitability, and also the helplessness of the times."
 
-### Positive Impact
+Today, about 15% of Taiwan's population are descendants of waishengren groups. Their names, their memories, and their languages have already become part of Taiwan. The history of the KMT government's relocation to Taiwan and postwar reconstruction has gradually moved beyond the single framework of an "external regime" and come to be understood as a history in which an "immigrant community" and local society intertwined and reorganized each other.
 
-Although KMT government relocation brought authoritarian rule, it also had some positive effects:
+If, in 2050, someone wants to know what Taiwanese people in 1949 cared about, what they read may be these Markdown files.
 
-**Political System Preservation:** Compared to mainland political turmoil, Taiwan maintained relatively stable political order, laying foundations for subsequent democratization.
-
-**Economic Development Achievements:** Land reform and industrialization policies created conditions for Taiwan's subsequent economic miracle.
-
-**Multicultural Fusion:** Exchange and fusion between native Taiwanese and mainlander cultures enriched Taiwan's cultural content.
-
-**Educational Level Improvement:** Education-emphasizing policies and contributions from intellectuals who came to Taiwan significantly raised Taiwan's educational level.
-
-### Negative Consequences
-
-**Authoritarian Rule Trauma:** Long-term martial law and White Terror caused deep historical trauma, affecting generations of Taiwanese.
-
-**Tense Ethnic Relations:** Provincial differences became factors of social division, with ethnic opposition effects continuing today.
-
-**Cultural Identity Divergence:** Policies emphasizing Chinese cultural orthodoxy conflicted with Taiwan's local culture, creating complex cultural identity issues.
-
-**International Status Difficulties:** Cross-strait division led to Taiwan's international status being in a difficult position for a long time.
-
-## Historical Reflection
-
-### Inevitability and Contingency
-
-The KMT government relocation to Taiwan had both historical inevitability and contingent factors. The outcome of the Chinese Civil War, formation of international Cold War patterns, Taiwan's geographical conditions, and other factors all influenced this historical process.
-
-### Complexity of History
-
-This history cannot be simply judged as good or bad. Authoritarian rule brought political oppression but also maintained social stability; cultural policies caused suppression of local culture but also preserved Chinese cultural traditions. Historical complexity requires us to understand with more objective and comprehensive perspectives.
-
-### Impact on Modern Taiwan
-
-The history of KMT government relocation and post-war reconstruction profoundly influenced modern Taiwan's development. Understanding this history helps understand today's Taiwan's political system, economic structure, social culture, and international status characteristics.
-
-## Further Reading
-
-- [Martial Law Era](/en/history/martial-law-era/)
-- White Terror (白色恐怖)
-- [228 Incident](/en/history/228-incident/)
-- [Taiwan's Economic Miracle](/en/history/taiwan-economic-miracle-from-agriculture-to-asian-tiger/)
+---
 
 ## References
 
-1. [Academia Historica](https://www.drnh.gov.tw/) - ROC Government Relocation Related Archives
-2. [Academia Sinica Institute of Modern History](https://www.mh.sinica.edu.tw/) - KMT Government Relocation Historical Materials
-3. [National Human Rights Memory Database](https://memory.nhrm.gov.tw/) - White Terror Related Materials
-4. [Wu San-lien Taiwan Historical Materials Foundation](https://www.twcenter.org.tw/) - Martial Law Period White Terror Research
-5. [Taiwan Truth and Reconciliation Promotion Association](https://taiwantrc.org/) - White Terror Historical Materials
-6. [Office of the President, Republic of China](https://www.president.gov.tw/) - 70th Anniversary of Government Relocation Special Publication
-7. [National Chengchi University International Relations Research Center](https://iir.nccu.edu.tw/) - Post-War Taiwan Political Development Research
-8. [Academia Sinica Institute of Taiwan History](https://www.ith.sinica.edu.tw/) - Post-War Taiwan History Research
-9. [Fu Hsing Kang College, National Defense University](https://www.fhk.ndu.edu.tw/) - ROC Armed Forces Relocation Historical Materials
-10. [New Century Foundation Think Tank Forum](https://www.taiwanncf.org.tw/ttforum/ttforum.htm) - February 28 Incident, White Terror and Transitional Justice Special Issues
-11. [National Taiwan University Department of History](https://history.ntu.edu.tw/) - Post-War Taiwan Political History Research
-12. [Compensation Foundation for Wrongful Trials on Charges of Sedition and Espionage during the Martial Law Period](https://www.cf.org.tw/) - Compensation Application Case Statistics
+[^1]: [_The Interviews on the Life and Conduct of President Yen Chia-kan_](https://www.drnh.gov.tw/p/404-1003-12925.php?Lang=zh-tw) — Published by the National History Museum, a 2013 commemorative series marking the twentieth anniversary of Yen Chia-kan's death, collecting oral-history interviews with his relatives, friends, and associates and reconstructing the full course of his life from fiscal and economic reform to his presidency.
+
+[^2]: [Land-to-the-Tiller](https://zh.wikipedia.org/wiki/%E8%80%95%E8%80%85%E6%9C%89%E5%85%B6%E7%94%B0) — Wikipedia entry, containing detailed historical data and policy content on the three stages of Taiwan's land reform.
+
+[^3]: [_The Interviews on the Life and Conduct of President Yen Chia-kan_](https://www.drnh.gov.tw/p/404-1003-12925.php?Lang=zh-tw) — National History Museum oral-history interview records, including Yen Chia-kan's assessment of the government's 1949 relocation to Taiwan and his observations on the era.
+
+[^4]: [Relocation of the Republic of China Government to Taiwan](https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E6%94%BF%E5%BA%9C%E9%81%B7%E5%8F%B0) — Wikipedia entry, containing the full historical context of the KMT government's retreat from China to Taiwan during the Chinese Civil War.
+
+[^5]: Ibid. — Contains statistical data on the migration of about 1.2 million soldiers and civilians to Taiwan between 1948 and 1950.
+
+[^6]: Ibid. — Contains the historical route map of Chiang Kai-shek's December 1949 flight from Chengdu to Taipei.
+
+[^7]: [Taiwan Provincial Martial Law Order](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E7%9C%81%E6%88%92%E5%9A%B4%E4%BB%A4) — Wikipedia entry, containing the legal basis and implementation details of Chen Cheng's promulgation of martial law on May 19, 1949.
+
+[^8]: Ibid. — Contains the complete timeline of 38 years and 2 months of martial law, until Chiang Ching-kuo lifted martial law in 1987.
+
+[^9]: [Relocation of the Republic of China Government to Taiwan](https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E6%94%BF%E5%BA%9C%E9%81%B7%E5%8F%B0) — Wikipedia entry, containing statistical data on about 140,000 victims implicated in political cases during the martial-law period.
+
+[^10]: [Land-to-the-Tiller](https://zh.wikipedia.org/wiki/%E8%80%95%E8%80%85%E6%9C%89%E5%85%B6%E7%94%B0) — Wikipedia entry, containing the policy content and implementation effects of the three stages of Taiwan's land reform.
+
+[^11]: Ibid. — Contains detailed data on the sale of 138,957 hectares of public land to 286,287 farming households between 1951 and 1976.
+
+[^12]: Ibid. — Contains statistical data on the 1953 Land-to-the-Tiller policy's expropriation of 139,249 hectares of land and creation of 194,823 owner-cultivator households.
+
+[^13]: [_The Interviews on the Life and Conduct of President Yen Chia-kan_](https://www.drnh.gov.tw/p/404-1003-12925.php?Lang=zh-tw) — Published by the National History Museum, containing the full course of Yen Chia-kan's work as minister of finance in promoting the issuance of the New Taiwan dollar and currency reform.
+
+[^14]: [Relocation of the Republic of China Government to Taiwan](https://zh.wikipedia.org/wiki/%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E6%94%BF%E5%BA%9C%E9%81%B7%E5%8F%B0) — Wikipedia entry, containing historical data on US$1.482 billion in U.S. economic aid to Taiwan from 1951 to 1965.
+
+[^15]: [Yen Chia-kan](https://zh.wikipedia.org/zh-tw/%E5%9A%B4%E5%AE%B6%E6%B7%A6) — Wikipedia entry, containing the full course of Yen Chia-kan's succession to the presidency after Chiang Kai-shek's death in 1975 and his handover to Chiang Ching-kuo in 1978.
+
+---
+
+**Further Reading**: [Martial Law Era](/en/History/martial-law-era/), White Terror, [228 Incident](/en/History/228-incident/), [Taiwan Economic Miracle](/en/History/taiwan-economic-miracle-from-agriculture-to-asian-tiger/)

@@ -1,104 +1,144 @@
 ---
-title: 'Tale of Wuxia: Pre-sequel: Dos personas, 30% de reseñas positivas, 700.000 copias vendidas'
-description: 'En junio de 2024, dos taiwaneses sin experiencia previa en la industria del videojuego lanzaron un RPG de wuxia. Una semana después de su lanzamiento, la tasa de reseñas positivas cayó al 30%, y los jugadores chinos dejaron decenas de miles de reseñas negativas. Doce días después, la tasa se recuperó al 70%; un mes después, alcanzó el 94%. Seis meses después, las ventas superaron las 700.000 copias, y jugadores de Corea del Sur y Taiwán formaron grupos por su cuenta para traducir la versión japonesa. El protagonista está configurado como un «discípulo externo sin el halo del protagonista», y el equipo de desarrollo también lo es.'
-date: '2026-04-25'
+title: 'Tale of Wuxia: dos personas, treinta por cien de reseñas positivas, setecientas mil copias'
+description: 'En junio de 2024, dos taiwaneses ajenos a la industria del videojuego lanzaron un RPG de artes marciales. En la primera semana, la tasa de reseñas positivas en Steam cayó al 30 %, y jugadores chinos inundaron el juego con decenas de miles de reseñas negativas. Doce días después, la tasa se recuperó al 70 %; un mes después, alcanzó el 94 %. Medio año más tarde, las ventas superaron las 700 000 copias, y jugadores de Corea del Sur y Taiwán formaron equipos voluntarios para traducir el juego al japonés. El protagonista está diseñado como «un discípulo de apellido ajeno sin aura de protagonista». El equipo de desarrollo también lo es.'
+date: 2026-04-25
 author: 'zaious'
 category: 'Technology'
 subcategory: '社群與數位文化'
-tags:
-  [
-    'Tale of Wuxia: Pre-sequel',
-    'Obb Studio',
-    'Videojuegos independientes',
-    'Wuxia',
-    'Steam',
-    'Videojuegos taiwaneses',
-  ]
+tags: ['活俠傳', '原始鳥熊', '獨立遊戲', '武俠', 'Steam', '台灣遊戲']
 readingTime: 9
-lastVerified: '2026-04-25'
+lastVerified: 2026-04-25
 lastHumanReview: false
 featured: false
 translatedFrom: 'Technology/活俠傳.md'
-sourceCommitSha: '4b6d28c5'
+sourceCommitSha: '4b6d28c54'
 sourceContentHash: 'sha256:5d8fd5b2e9fb7126'
 sourceBodyHash: 'sha256:05a2488db4c17ec6'
-translatedAt: '2026-05-01T22:19:10+08:00'
+translatedAt: '2026-06-07T02:26:08+08:00'
 ---
 
-> 2024 年 6 月 14 日，一款叫《活俠傳》的武俠 RPG 在 Steam 上架。開發團隊「原始鳥熊」只有兩個人——鳥寫程式，熊寫劇情兼畫圖。兩人都不是遊戲業出身，這是他們的第一款作品。上架第一週，Steam 好評率跌破 30%。十二天後回升到 70%。一個月後 94%。半年後銷量 70 萬套，Steam 最終評價 9/10。韓國粉絲自發完成了社群韓化翻譯，台韓玩家又自己組團把遊戲翻成日文。這個故事的主角設定是「沒有主角光環的雜魚弟子」，做這款遊戲的人也是。
-
----
-
-## Niao y Xiong
-
-Los miembros del estudio Obb Studio son exactamente las dos personas que indican sus nombres: Niao, responsable de programación y operaciones; Xiong, responsable de la trama, el arte y la gestión de la comunidad. Ninguno de los dos trabajaba previamente en la industria del videojuego, y _Tale of Wuxia: Pre-sequel_ es su primera obra.[^1]
-
-El juego se desarrolló con el motor Unity, y tardó más de un año y medio desde la concepción hasta su lanzamiento. Xiong se encargó solo de toda la redacción de textos, además de dibujar. Niao se encargó solo de toda la programación, y «pasar varias noches en vela consecutivas» era la norma.[^2]
-
-Dos personas desarrollando un RPG con una cantidad de texto absurda: el resultado era previsible. Al lanzarse, era un «producto inacabado». Pero en ese producto inacabado se escondía algo que no podías soltar.
+> El 14 de junio de 2024, un RPG de artes marciales llamado 《活俠傳》 (_Tale of Wuxia_) se lanzó en Steam. El equipo de desarrollo, «原始鳥熊» (Obb Studio), estaba formado solo por dos personas: Pájaro se encargaba del código y las operaciones; Oso, de la historia, el arte y la gestión de la comunidad. Ninguno de los dos venía de la industria del videojuego, y este era su primer título. En la primera semana, la tasa de reseñas positivas en Steam cayó por debajo del 30 %. Doce días después, se recuperó al 70 %. Un mes después, alcanzó el 94 %. Medio año más tarde, las ventas llegaron a 700 000 copias y la valoración final en Steam fue de 9/10. Fans coreanos completaron por iniciativa propia una traducción al coreano, y jugadores taiwaneses y coreanos formaron un equipo para traducir el juego al japonés. El protagonista de esta historia está diseñado como «un discípulo de apellido ajeno sin aura de protagonista». Las personas que hicieron este juego también lo son.
 
 ---
 
-## Discípulos mediocres sin halo de protagonista
+## Pájaro y Oso
 
-La configuración de _Tale of Wuxia: Pre-sequel_ rompe con las convenciones de los juegos de wuxia.
+El estudio Obb Studio (原始鳥熊) está formado exactamente por las dos personas que indica su nombre: Pájaro, responsable del código y las operaciones; Oso, responsable de la historia, el arte y la gestión de la comunidad. Ninguno de los dos trabajaba antes en la industria del videojuego; 《活俠傳》 es su primer título.[^1]
 
-El personaje que interpreta el jugador es un «discípulo externo de la puerta Tang»: de talento mediocre, un don nadie que nadie aprecia. No hay un guion de elegido, no hay manuales de artes marciales divinas que caigan del cielo. Sobrevives en una secta en declive, enfrentas eventos aleatorios, tomas decisiones y afectas los rasgos de personalidad y el destino de la secta.[^3]
+El juego se desarrolló con el motor Unity y tardó más de un año y medio desde el inicio del proyecto hasta su lanzamiento. Oso asumió en solitario toda la escritura de textos, además de ilustrar. Pájaro asumió en solitario todo el código; «trasnochar varias noches seguidas» era lo habitual.[^2]
 
-El equipo de desarrollo explica el significado del carácter «vivo» (活): «Los mortales no son personas mediocres, sino personas que no nacieron con todas las cartas ganadoras en la mano, pero que siguen viviendo valientemente y tienen infinitas posibilidades.» (Cita de la entrevista en Ying CG)[^4]
-
-Esta configuración le da un ancla emocional completamente diferente en un mercado de juegos de wuxia lleno de «historias de venganza de jóvenes prodigios». A los jugadores no les importa cuánto poder tiene el personaje, sino cómo logra sobrevivir en un mundo que le es hostil.
-
-> **📝 策展人筆記**
-> 1995 年的仙劍奇俠傳讓人哭是因為趙靈兒死了。2024 年的活俠傳讓人共鳴是因為主角根本沒有資格當主角。三十年過去，台灣武俠遊戲的情感核心從「英雄的悲劇」移動到了「凡人的掙扎」。
+Dos personas haciendo un RPG con un volumen de texto descomunal: el resultado era previsible. En el momento del lanzamiento, era un «producto inacabado». Pero dentro de ese producto inacabado había algo que enganchaba.
 
 ---
 
-## El abismo del 30%
+## Un don nadie sin aura de protagonista
 
-El primer día de lanzamiento, las cosas estallaron.
+La premisa de 《活俠傳》 rompe con las convenciones del videojuego de artes marciales.
 
-La tasa de reseñas positivas en Steam cayó por debajo del 30% en pocos días, pasando de la expectativa de «reseñas muy positivas» a «reseñas mayormente negativas». La lista de problemas era larga: no se podía guardar en segmentos clave de la trama, la dificultad dependía de dados aleatorios, no había mecánica de herencia para una segunda partida.[^5]
+El jugador interpreta a un «discípulo de apellido ajeno» de la Escuela Tang: un don nadie de aptitudes mediocres, despreciado por los demás. No hay guión de elegido, ni manuales de artes marciales caídos del cielo. Sobrevives en un clan en decadencia, enfrentas eventos aleatorios, tomas decisiones e influyes en los rasgos de personalidad y el destino del clan.[^3]
 
-La tormenta más grande vino de los jugadores chinos. Algunas rutas de personajes en el juego se interpretaron como NTR (trama donde un personaje te es arrebatado), y algunos jugadores chinos consideraron que esto era una ofensa a los jugadores, dejando una gran cantidad de reseñas negativas en cuestión de horas, pasando instantáneamente de reseñas positivas a «reseñas mayormente negativas».[^6]
+El equipo de desarrollo explicó el significado del carácter «活» (vivir): «La gente común no es mediocre por definición, sino que se refiere a quienes no nacieron con una buena mano de cartas, pero aun así viven con valentía y poseen infinitas posibilidades.» (Entrevista con _映 CG_)[^4]
 
-Algunos jugadores chinos, indignados por los ataques malintencionados al juego, escribieron artículos largos de 700 caracteres para animar al equipo de desarrollo.[^7]
+Esta premisa le otorga un anclaje emocional completamente distinto en un mercado saturado de «historias de venganza del genio juvenal». Al jugador no le importa cuán poderoso sea el personaje, sino cómo este se mantiene a flote en un mundo que no le tiene simpatía.
 
----
-
-## El giro en doce días
-
-La reacción de Obb Studio fue rápida.
-
-El equipo publicó una declaración de disculpa, admitiendo que el juego era «esencialmente un producto inacabado» y prometiendo completar las líneas de historia de los personajes y las tramas principales. Luego comenzaron con «cuatro actualizaciones en cuatro días»: lanzaron correcciones consecutivas durante cuatro días, arreglando el sistema de guardado, ajustando la dificultad y cambiando la interfaz.[^8]
-
-Niao pasó varias noches en vela consecutivas. Xiong respondió a las opiniones de los jugadores una por una en la comunidad.
-
-Doce días después, la tasa de reseñas positivas se recuperó al 70%. Un mes después, al 94%. Los jugadores empezaron a escribir guías largas y análisis de personajes en los foros, y el ambiente en el foro de Steam pasó de la ira a la expectación: «¿Cuándo será la próxima actualización?»[^9]
-
-El juego dominó las listas de Steam durante un mes entero, y algunos lo describieron como «una serie semanal», donde cada actualización era como un nuevo capítulo.[^10]
-
-> **✦** 從 30% 到 94%，中間只隔了一個月。這個數字本身就是一個武俠故事：跌到谷底，被所有人看衰，然後靠苦練爬回來。
+> **📝 Nota del curador**
+> En 1995, _The Legend of Sword and Fairy_ (仙劍奇俠傳) hacía llorar a la gente porque Zhao Ling'er moría. En 2024, _Tale of Wuxia_ genera empatía porque el protagonista no tiene ni el derecho de ser protagonista. Treinta años después, el núcleo emocional del videojuego de artes marciales taiwanés se ha desplazado de «la tragedia del héroe» a «la lucha del hombre común».
 
 ---
 
-## Los extranjeros traducen por su cuenta
+## El abismo del treinta por cien
 
-En la segunda mitad de 2024, _Tale of Wuxia: Pre-sequel_ empezó a expandirse al extranjero, pero de una forma muy especial: el equipo oficial no desarrolló versiones en varios idiomas por iniciativa propia, lo hicieron los jugadores.
+El primer día de lanzamiento, todo estalló.
 
-Corea del Sur se convirtió en el mayor mercado no chino. Los fans surcoreanos completaron por iniciativa propia un módulo de traducción al coreano para la comunidad, con una cantidad de texto absurda, todo realizado de forma gratuita por voluntarios.[^11]
+La tasa de reseñas positivas en Steam cayó por debajo del 30 % en pocos días, pasando de la expectativa de «extremadamente positivas» a «mayoritariamente negativas». La lista de problemas era larga: imposibilidad de guardar en momentos clave de la historia, dificultad dependiente de tiradas de dados aleatorias, ausencia de herencia de progreso para una segunda partida.[^5]
 
-Más tarde, el equipo lanzó una versión oficial en coreano, pero los jugadores surcoreanos criticaron la calidad de la traducción diciendo que «parecía traducción automática». La traducción de la comunidad fue mejor valorada que la oficial.[^12]
+La mayor tormenta vino de los jugadores chinos. Ciertas rutas de personajes fueron interpretadas como NTR (tramas en las que un personaje es «arrebatado»), y algunos jugadores chinos consideraron que esto era una ofensa al jugador, inundando el juego con un aluvión de reseñas negativas en cuestión de horas. La valoración pasó instantáneamente de positiva a «abrumadoramente negativa».[^6]
 
-En septiembre de 2024, un grupo de jugadores surcoreanos y taiwaneses que sabían japonés formaron por su cuenta la «Asociación de Producción de la Versión Japonesa de Tale of Wuxia: Pre-sequel», anunciando que traducirían el juego al japonés, con fecha prevista de lanzamiento el 31 de diciembre. Su objetivo era «que más jugadores japoneses conozcan esta obra».[^13]
-
-Hasta noviembre de 2024, las ventas superaron las 700.000 copias. El equipo oficial anunció que seguiría desarrollando actualizaciones importantes de la trama y declaró: «Creemos que vale la pena esperarla.»[^14]
-
-> **💡 你知道嗎**
-> 活俠傳的社群自發翻譯現象，跟赤燭《九日》被義大利駭客入侵幫忙翻譯是同一種邏輯：遊戲好到玩家願意免費幫你做在地化。在遊戲產業裡，這比任何行銷預算都值錢。
+Un jugador chino, negándose a aceptar que el juego fuera atacado maliciosamente, escribió un extenso artículo de 700 caracteres para animar al equipo de desarrollo.[^7]
 
 ---
 
-## El wuxia de los mortales
+## La remontada en doce días
 
-La historia de _Tale of Wuxia: Pre-sequel_ está separada treinta años
+La respuesta de Pájaro y Oso fue rápida.
+
+Publicaron un comunicado oficial pidiendo disculpas, admitieron que el juego era «esencialmente un producto inacabado» y prometieron completar las líneas argumentales de los personajes y los hilos de la trama principal. Después comenzaron los «cuatro parches en cuatro días»: cuatro actualizaciones de corrección consecutivas, arreglando el sistema de guardado, ajustando la dificultad y mejorando la interfaz.[^8]
+
+Pájaro trasnochó varias noches seguidas. Oso respondió uno por uno a los comentarios de los jugadores en las redes sociales.
+
+Doce días después, la tasa de reseñas positivas se recuperó al 70 %. Un mes después, alcanzó el 94 %. Los jugadores empezaron a escribir guías extensas y análisis de personajes en los foros; el ambiente en la sección de discusión de Steam pasó de la ira a la expectativa: «¿Cuándo sale la próxima actualización?»[^9]
+
+El juego dominó los rankings de Steam durante un mes entero; alguien lo describió como «un serial semanal», donde cada actualización era como un nuevo capítulo.[^10]
+
+> **✦** Del 30 % al 94 %, con solo un mes de por medio. Esa cifra en sí misma es una historia de artes marciales: caer al fondo del abismo, ser despreciado por todos y volver a subir a base de esfuerzo.
+
+---
+
+## Los extranjeros vienen a traducir por su cuenta
+
+En la segunda mitad de 2024, _Tale of Wuxia_ comenzó a cruzar fronteras, pero de una forma muy particular: la versión multilingüe no partió de la empresa, sino de los propios jugadores.
+
+Corea del Sur se convirtió en el mayor mercado no chino. Fans coreanos completaron por iniciativa propia un módulo de traducción al coreano, con un volumen de texto descomunal, realizado íntegramente por voluntarios sin remuneración.[^11]
+
+Más tarde, la empresa lanzó una versión oficial en coreano, pero los jugadores coreanos criticaron la calidad de la traducción, que calificaron de «parece hecha por máquina». La traducción comunitaria acabó mejor valorada que la oficial.[^12]
+
+En septiembre de 2024, un grupo de jugadores coreanos y taiwaneses que dominaban el japonés formaron por su cuenta el «活俠傳日文製作会» (Comité de Producción en Japonés de _Tale of Wuxia_) y anunciaron que traducirían el juego al japonés, con fecha prevista de lanzamiento el 31 de diciembre. Su objetivo era «hacer que este título llegue a más jugadores japoneses».[^13]
+
+En noviembre de 2024, las ventas superaron las 700 000 copias. El equipo anunció que seguiría desarrollando grandes actualizaciones de historia y dijo una frase: «Creemos que ella merece la espera.»[^14]
+
+> **💡 ¿Sabías que...?**
+> El fenómeno de traducción comunitaria espontánea de _Tale of Wuxia_ sigue la misma lógica que cuando un hacker italiano irrumpió en los servidores de Red Candle Games para ayudar a traducir _Nine Sols_ (九日): un juego tan bueno que los jugadores están dispuestos a localizarte gratis. En la industria del videojuego, eso vale más que cualquier presupuesto de marketing.
+
+---
+
+## Artes marciales para gente común
+
+La historia de _Tale of Wuxia_ está separada treinta años de las «Dos Espadas de Softstar» (大宇雙劍), pero habla de caras distintas de lo mismo.
+
+En 1995, Yao Xian (姚壯憲) demostró con _The Legend of Sword and Fairy_ que «el chino podía contar historias que hicieran llorar». En 2024, Obb Studio demostró con _Tale of Wuxia_ que «dos personas también pueden hacer un juego de artes marciales que jueguen setecientas mil personas».
+
+La diferencia está en que el protagonista de _Sword and Fairy_, Li Xiaoyao, es un héroe; el protagonista de _Tale of Wuxia_ es un don nadie. El equipo de desarrollo de _Sword and Fairy_ contaba con recursos y respaldo dentro de Softstar (大宇資訊); Obb Studio eran dos personas, un ordenador y un motor Unity.
+
+Pero treinta años después, quien ocupa los puestos más altos de los rankings de Steam es ese don nadie.
+
+Oso dijo una vez: «La gente común no es mediocre por definición». Esta frase, aplicada a los propios desarrolladores del juego, también es plenamente cierta.
+
+---
+
+## Lecturas complementarias
+
+- [大宇雙劍](/technology/大宇雙劍) — El punto de partida de los videojuegos de artes marciales taiwaneses hace treinta años
+- [赤燭遊戲](/technology/赤燭遊戲) — Otro camino para los videojuegos independientes taiwaneses
+- [台灣遊戲產業與數位娛樂](/technology/台灣遊戲產業與數位娛樂) — Panorama completo: de la distribución a la creación original
+
+---
+
+## Referencias
+
+[^1]: [映CG: 僅僅兩人卻開發出無限可能，直擊活俠傳幕後開發](https://www.incgmedia.com/makingof/legend-of-mortal) — Reparto de tareas entre Pájaro y Oso, origen ajeno a la industria del videojuego, motor Unity
+
+[^2]: [udn 遊戲角落: 活俠傳開發團隊專訪合輯](https://game.udn.com/game/story/122089/8087400) — Pájaro trasnochando noches seguidas, Oso asumiendo en solitario textos y arte
+
+[^3]: [維基百科: 活俠傳](https://zh.wikipedia.org/zh-tw/%E6%B4%BB%E4%BF%A0%E5%82%B3) — Premisa del discípulo de apellido ajeno de la Escuela Tang, eventos aleatorios, sistema de rasgos de personalidad
+
+[^4]: [映CG: 活俠傳幕後開發](https://www.incgmedia.com/makingof/legend-of-mortal) — Cita de «la gente común no es mediocre por definición», significado del carácter «活» en el título
+
+[^5]: [udn 遊戲角落: 活俠傳劇情中無法存檔獲大多負評](https://game.udn.com/game/amp/story/122089/8032068) — Problema de guardado, tasa de reseñas positivas cayendo por debajo del 30 %
+
+[^6]: [Yahoo 新聞: 活俠傳負評爭議懶人包](https://tw.news.yahoo.com/%E3%80%8A%E6%B4%BB%E4%BF%A0%E5%82%B3%E3%80%8B%E8%B2%A0%E8%A9%95%E7%88%AD%E8%AD%B0%E6%87%B6%E4%BA%BA%E5%8C%85) — Controversia NTR, jugadores chinos inundando con reseñas negativas, críticas al sistema de dados
+
+[^7]: [udn 遊戲角落: 中國玩家寫 700 字長文為開發團隊打氣](https://game.udn.com/game/story/122089/8041586) — Apoyo de jugadores transnacionales: reportaje de United Daily News
+
+[^8]: [udn 遊戲角落: 開發團隊發公告致歉，稱會補完女角劇情](https://game.udn.com/game/story/122089/8038409) — Admisión de producto inacabado, promesa de completar
+
+[^9]: [udn 遊戲角落: 從大多負評到極度好評](https://game.udn.com/game/story/122090/8129682) — Cuatro parches en cuatro días, recuperación al 70 % en 12 días, 94 % en un mes
+
+[^10]: [自由時報: 國產武俠遊戲稱霸 Steam 排行一個月](https://3c.ltn.com.tw/news/59035) — «Como un serial semanal»: reportaje de Liberty Times
+
+[^11]: [巴哈姆特: 韓區唐門弟子聯手完成社群韓化模組](https://forum.gamer.com.tw/C.php?bsn=73317&snA=3286) — Corea del Sur como mayor mercado no chino, traducción voluntaria
+
+[^12]: [巴哈姆特: 官方韓文宛如機翻，韓區爆發翻譯負評](https://forum.gamer.com.tw/C.php?bsn=73317&snA=3286) — Diferencia de calidad entre traducción comunitaria y traducción oficial
+
+[^13]: [巴哈姆特: 台韓玩家自主組團翻譯日文版](https://forum.gamer.com.tw/C.php?bsn=60599&snA=52407) — «活俠傳日文製作会», fecha prevista de lanzamiento el 31/12
+
+[^14]: [Yahoo 新聞: 鳥熊釋出新角色資訊，大型劇本開發中](https://tw.news.yahoo.com/%E3%80%8A%E6%B4%BB%E4%BF%A0%E5%82%B3%E3%80%8B%E9%B3%A5%E7%86%8A%E9%87%8B%E5%87%BA%E6%96%B0%E8%A7%92%E8%89%B2%E8%B3%87%E8%A8%8A) — 700 000 copias vendidas, «Creemos que ella merece la espera»

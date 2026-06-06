@@ -1,152 +1,159 @@
 ---
 title: 'Vivienda social y justicia habitacional'
-description: 'Cómo Taiwán busca realizar la justicia habitacional mediante políticas de vivienda social, para que todas las personas tengan un lugar donde vivir y desarrollarse'
+description: 'Cómo Taiwán busca hacer realidad la justicia habitacional mediante políticas de vivienda social, para que cada persona tenga un lugar donde establecerse y construir su vida'
 date: 2026-03-18
 author: 'Taiwan.md'
 category: 'Society'
 subcategory: '人權與平等'
-tags: ['vivienda social', 'justicia habitacional', 'política de vivienda', 'alquiler con subarrendamiento y gestión delegada', 'renovación urbana']
+tags:
+  [
+    'vivienda social',
+    'justicia habitacional',
+    'política de vivienda',
+    'arrendamiento y administración delegada',
+    'renovación urbana',
+  ]
 readingTime: 13
 lastVerified: 2026-03-19
 lastHumanReview: false
 featured: false
 translatedFrom: 'Society/社會住宅與居住正義.md'
-sourceCommitSha: 'f712b7242'
-sourceContentHash: 'sha256:5d1fa82481f0de8a'
-sourceBodyHash: 'sha256:0c75c60def3a136b'
-translatedAt: '2026-05-20T05:08:32+08:00'
+sourceCommitSha: 'b19194bea'
+sourceContentHash: 'sha256:21ee8c77270d6c3e'
+sourceBodyHash: 'sha256:bafb3fe2db142763'
+translatedAt: '2026-06-07T00:37:31+08:00'
 ---
 
 # Vivienda social y justicia habitacional
 
 ## Panorama en 30 segundos
 
-La vivienda es una necesidad básica de la población y también una responsabilidad fundamental del Estado. Desde 2016, Taiwán impulsa la política de “200.000 viviendas sociales en 8 años”, mediante una estrategia de doble vía que combina la construcción directa con el alquiler con subarrendamiento y gestión delegada, con el objetivo de hacer realidad la “justicia habitacional”. Esta política intenta reconfigurar la naturaleza de la vivienda, para que deje de ser una mercancía pura y vuelva a ser una garantía del derecho a habitar.
+La vivienda es una necesidad básica de la población y también una responsabilidad central del Estado. Desde 2016, Taiwán impulsa la política de “200.000 unidades de vivienda social en 8 años”, con una estrategia de doble vía que combina construcción directa y arrendamiento con administración delegada, orientada a hacer realidad la “justicia habitacional”. Esta política intenta reconfigurar la naturaleza de la vivienda, para que deje de ser una mercancía pura y vuelva a ser una garantía del derecho a habitar.
 
-A fines de 2024, la política había completado cerca de 213.000 unidades, superando la meta fijada. Sin embargo, los altos precios de la vivienda y las dificultades del mercado de alquiler no desaparecieron por ello; el papel y los límites de la vivienda social siguen siendo un tema central del debate de políticas públicas en Taiwán.
+A finales de 2024, la política había completado alrededor de 213.000 unidades, superando la meta establecida. Sin embargo, los altos precios inmobiliarios y las dificultades del mercado de alquiler no desaparecieron con ello, y el papel y los límites de la vivienda social siguen siendo asuntos centrales del debate público en Taiwán.
 
-Palabras clave: vivienda social, justicia habitacional, alquiler con subarrendamiento y gestión delegada, Ley de Vivienda, vivienda segura para jóvenes, vivienda para grupos vulnerables
+Palabras clave: vivienda social, justicia habitacional, arrendamiento y administración delegada, Ley de Vivienda, asentamiento juvenil, vivienda para grupos vulnerables
 
 ## Por qué importa
 
-La vivienda es la base para que las personas puedan establecerse, formar una familia y perseguir sus proyectos de vida. Cuando la relación entre el precio de la vivienda y los ingresos alcanza entre 15 y 20 veces, muchos jóvenes quedan atrapados en el dilema de “no poder comprar y no poder alquilar bien”. La vivienda social se ha convertido en una herramienta clave con la que el gobierno responde a la demanda de justicia habitacional.
+La vivienda es la base para que las personas puedan asentarse, formar una familia y perseguir sus proyectos de vida. Cuando la relación entre el precio de la vivienda y el ingreso alcanza entre 15 y 20 veces, muchas personas jóvenes quedan atrapadas en la dificultad de “no poder comprar y no poder alquilar bien”. La vivienda social se convierte así en una herramienta clave mediante la cual el gobierno responde a la demanda de justicia habitacional.
 
-El significado de la política de vivienda social no se limita a construir casas. Representa una elección: permitir que las personas en situación de vulnerabilidad económica también puedan acceder a una calidad habitacional adecuada, ofrecer a los jóvenes la posibilidad de vivir con estabilidad y promover, mediante la renovación urbana, la mejora de comunidades antiguas.
+El significado de la política de vivienda social no consiste solo en construir viviendas. Representa una opción: permitir que las personas económicamente vulnerables también accedan a una calidad habitacional adecuada, ofrecer a los jóvenes la posibilidad de vivir con estabilidad y promover, mediante la renovación urbana, la mejora de comunidades envejecidas.
 
-Desde una perspectiva comparada internacional, la proporción de vivienda social en Taiwán sigue siendo baja. No obstante, la rápida expansión desde 2016 ha llevado este tema desde los márgenes hacia el centro de la agenda pública.
+Desde una perspectiva comparada internacional, la proporción de vivienda social en Taiwán sigue siendo baja. Pero la rápida expansión desde 2016 ha llevado este tema desde los márgenes hacia el centro de la política pública.
 
-- **Equidad social**: permitir que las personas en situación de vulnerabilidad económica también accedan a una calidad habitacional adecuada
-- **Justicia intergeneracional**: dar a los jóvenes oportunidades de vivienda estable, sin cargar con hipotecas pesadas
-- **Desarrollo urbano**: orientar la regeneración urbana y mejorar el entorno de comunidades antiguas
+- **Equidad social**: permitir que los sectores económicamente vulnerables también accedan a una calidad habitacional adecuada
+- **Justicia generacional**: ofrecer a los jóvenes oportunidades de vivienda estable, sin cargar con hipotecas excesivas
+- **Desarrollo urbano**: orientar la regeneración urbana y mejorar el entorno de comunidades envejecidas
 - **Armonía social**: reducir las tensiones sociales derivadas de los problemas de vivienda
 
 ## Situación actual del problema habitacional en Taiwán
 
-### Las dificultades de vivir en una época de altos precios inmobiliarios
+### La dificultad de habitar en la era de los altos precios
 
-En la ciudad de Taipéi, la relación entre el precio de la vivienda y los ingresos ronda entre 15 y 16 veces según datos de 2024; en Nuevo Taipéi, entre 12 y 13 veces; y en Taoyuan, entre 9 y 10 veces, muy por encima del estándar internacional considerado razonable, de 5 a 6 veces.[^4] Una familia promedio tendría que pasar entre 10 y 15 años sin gastar en nada más para comprar una vivienda, por lo que muchos jóvenes se ven obligados a recurrir al mercado de alquiler.
+La relación entre el precio de la vivienda y el ingreso en la ciudad de Taipéi es de aproximadamente 15 a 16 veces los ingresos anuales, según datos de 2024; en la ciudad de Nuevo Taipéi, de unas 12 a 13 veces; y en Taoyuan, de unas 9 a 10 veces, muy por encima del estándar internacional razonable de 5 a 6 veces.[^4] Una familia promedio necesitaría no comer ni gastar durante 10 a 15 años para poder comprar una vivienda, por lo que muchas personas jóvenes se ven obligadas a acudir al mercado de alquiler.
 
-Pero el mercado de alquiler también acumula problemas: alta proporción de alquileres informales, propietarios que en general no declaran impuestos, falta de transparencia en los precios, contratos de corto plazo muy extendidos y escasa protección efectiva de los derechos de los inquilinos. La superposición de estas dos dificultades ha convertido la cuestión habitacional en uno de los temas de política pública más urgentes de la sociedad taiwanesa.
+Pero el mercado de alquiler también está lleno de problemas: una alta proporción de alquileres informales, propietarios que en general no declaran impuestos, rentas opacas, contratos de corto plazo generalizados y falta de protección efectiva de los derechos de los inquilinos. La superposición de estas dos dificultades convierte la vivienda en uno de los temas de política pública más urgentes de la sociedad taiwanesa.
 
 **Necesidades habitacionales de grupos específicos**
 
-- **Jóvenes**: los salarios no alcanzan el ritmo de los precios de la vivienda, y comprar una casa queda fuera de alcance
-- **Familias monoparentales**: enfrentan una carga económica pesada y opciones limitadas de alquiler
-- **Personas mayores**: al disminuir sus ingresos fijos, enfrentan riesgos habitacionales
-- **Personas con discapacidad**: necesitan entornos accesibles, pero las opciones son aún más escasas
+- **Jóvenes**: los salarios no alcanzan el ritmo de los precios inmobiliarios, por lo que comprar vivienda queda fuera de alcance
+- **Familias monoparentales**: alta carga económica y opciones limitadas de alquiler
+- **Personas mayores**: reducción de ingresos fijos y exposición a riesgos habitacionales
+- **Personas con discapacidad**: necesidad de entornos accesibles y una oferta aún más escasa
 
-### Contexto de la evolución de las políticas
+### Antecedentes de la evolución de la política
 
 **Primeras políticas de vivienda (1950-2010)**
-Las primeras políticas de vivienda de Taiwán se centraron principalmente en “fomentar la compra de vivienda”:
+Las primeras políticas habitacionales de Taiwán se centraron sobre todo en “fomentar la compra de vivienda”:
 
 - Política de vivienda nacional: construcción de viviendas nacionales para venderlas a precios preferenciales
-- Préstamos preferenciales para compra de vivienda: apoyo a la compra mediante políticas financieras
-- Devolución de impuestos por recompra y beneficios para compradores primerizos: incentivos fiscales para fomentar la adquisición de vivienda
-- Problema: los principales beneficiarios fueron las clases medias, mientras que los grupos vulnerables recibieron beneficios limitados
+- Préstamos preferenciales para compra de vivienda: apoyo a la adquisición mediante políticas financieras
+- Devoluciones fiscales por recompra y beneficios para primera vivienda: incentivos tributarios para estimular la compra
+- Problema: los principales beneficiarios fueron las clases medias, con beneficios limitados para grupos vulnerables
 
 **Promulgación de la Ley de Vivienda (2011-2016)**
 En 2011 se promulgó la Ley de Vivienda, que estableció una nueva orientación para la política habitacional:[^3]
 
 - Incorporar el “derecho a la vivienda” como derecho humano básico
-- Establecer la base legal de la vivienda social
+- Establecer la base jurídica de la vivienda social
 - Impulsar un sistema de subsidios al alquiler
-- Sin embargo, la capacidad de ejecución fue insuficiente y la construcción de vivienda social avanzó lentamente
+- Pero la capacidad de ejecución fue insuficiente y la construcción de vivienda social avanzó lentamente
 
 ## Contenido de la política de vivienda social
 
-### Plan de 200.000 viviendas en 8 años
+### Plan de 200.000 unidades en 8 años
 
-Tras la llegada del nuevo gobierno en 2016, se propuso la política de “200.000 viviendas sociales en 8 años”:[^2]
+Tras la llegada al poder del nuevo gobierno en 2016, se presentó la política de “200.000 unidades de vivienda social en 8 años”:[^2]
 
-**Objetivos de la política**
+**Objetivos de política**
 
 - Promover 200.000 unidades de vivienda social entre 2017 y 2024
 - Construir directamente 120.000 unidades
-- Incorporar 80.000 unidades mediante alquiler con subarrendamiento y gestión delegada
-- Inversión total estimada de unos 440.000 millones de nuevos dólares taiwaneses
+- Incorporar 80.000 unidades mediante arrendamiento y administración delegada
+- Inversión total aproximada de 440.000 millones de nuevos dólares taiwaneses
 
 **Estrategias de ejecución**
 
-1. **Cooperación entre el gobierno central y los gobiernos locales**: planificación coordinada por el Centro Nacional de Vivienda y Renovación Urbana
-2. **Fuentes diversas de suelo**: terrenos estatales, unidades obtenidas por renovación urbana, donaciones, entre otras
+1. **Cooperación entre gobierno central y gobiernos locales**: coordinación general a cargo del Centro Nacional de Vivienda y Renovación Urbana
+2. **Fuentes diversificadas de suelo**: tierras estatales, cuotas obtenidas mediante renovación urbana, donaciones, entre otras
 3. **Mecanismos innovadores de financiamiento**: fondo de vivienda y presupuesto especial para infraestructura prospectiva
-4. **Ejecución por equipos profesionales**: creación de organismos especializados para elevar la eficiencia de implementación
+4. **Ejecución por equipos profesionales**: creación de instituciones especializadas para aumentar la eficiencia de implementación
 
 ### Modelo de doble vía
 
-**Primera vía: construcción directa**
-El gobierno construye, posee y administra directamente viviendas sociales:
+**Vía uno: construcción directa**
+El gobierno construye, posee y administra directamente la vivienda social:
 
 - Meta de construcción: 120.000 unidades
-- Fuentes de financiamiento: fondo de vivienda y presupuestos especiales
-- Modalidad de administración: operación directa por el gobierno o administración encargada al sector privado
-- Rasgos distintivos: mejor control de calidad y posibilidad de planificar funciones comunitarias completas
+- Fuentes de financiamiento: fondo de vivienda y presupuesto especial
+- Modalidad de gestión: operación directa por el gobierno o gestión encomendada al sector privado
+- Características: mejor control de calidad y posibilidad de planificar funciones comunitarias integrales
 
-**Segunda vía: alquiler con subarrendamiento y gestión delegada**
-El gobierno coopera con propietarios privados para vincular viviendas con inquilinos vulnerables:
+**Vía dos: arrendamiento y administración delegada**
+El gobierno coopera con propietarios privados y vincula la oferta con arrendatarios vulnerables:
 
 - Meta: 80.000 unidades
 - Modelo operativo:
-  - **Alquiler con subarrendamiento**: el gobierno arrienda viviendas privadas y luego las subarrienda a grupos vulnerables
-  - **Gestión delegada**: se ayuda a los propietarios a alquilar sus viviendas y se ofrecen servicios de administración
-- Ventajas: activar viviendas ociosas y aumentar rápidamente la oferta de vivienda social
+  - **Arrendamiento**: el gobierno arrienda viviendas privadas y luego las subarrienda a grupos vulnerables
+  - **Administración delegada**: ayuda a los propietarios a alquilar sus viviendas y ofrece servicios de gestión
+- Ventajas: activa viviendas ociosas y aumenta rápidamente la oferta de vivienda social
 
 ### Estadísticas de resultados
 
-**Datos a fines de 2024**
+**Datos hasta finales de 2024**
 
-- Para fines de 2024 se habían completado cerca de 213.000 unidades, superando la meta de 200.000; la tasa de cumplimiento llegó al 107%[^1]
+- A finales de 2024 se habían completado alrededor de 213.000 unidades, superando la meta de 200.000 unidades, con una tasa de cumplimiento del 107%.[^1]
 
 **Distribución regional**
 
 - Las seis municipalidades especiales concentran alrededor del 75%, principalmente Taipéi, Nuevo Taipéi, Taoyuan y Taichung
-- Nuevo Taipéi: 32.000 unidades, la mayor cantidad
-- Taipéi: 28.000 unidades
-- Taoyuan: 21.000 unidades
-- Taichung: 19.000 unidades
+- Ciudad de Nuevo Taipéi: 32.000 unidades, la cifra más alta
+- Ciudad de Taipéi: 28.000 unidades
+- Ciudad de Taoyuan: 21.000 unidades
+- Ciudad de Taichung: 19.000 unidades
 
-## Filosofía de diseño de la vivienda social
+## Concepto de diseño de la vivienda social
 
-La filosofía de diseño de la vivienda social taiwanesa parte de la “mezcla social” y procura evitar deliberadamente la repetición de los problemas de concentración de pobreza observados en la vivienda pública de Hong Kong o en la vivienda social de Estados Unidos, haciendo que residentes de distintos orígenes convivan en una misma comunidad.
+La filosofía de diseño de la vivienda social en Taiwán parte de la “mezcla social”. Busca evitar deliberadamente la repetición de problemas de concentración de pobreza asociados con la vivienda pública de Hong Kong o la vivienda social de Estados Unidos, permitiendo que residentes de distintos orígenes vivan juntos.
 
 ### Principio de mezcla social
 
-Se reserva un 30% de las unidades para familias vulnerables, mientras que las familias generales, con prioridad para jóvenes, recién casados y hogares con hijos, ocupan el 70%. La equidad se garantiza mediante sorteos periódicos. La Ley de Vivienda define de manera amplia a los grupos vulnerables, e incluye hogares de bajos ingresos, familias en circunstancias especiales, familias con tres o más hijos menores de edad, personas mayores, víctimas de violencia doméstica, personas con discapacidad, pueblos indígenas, damnificados por desastres y otros grupos.
+Se reserva un 30% de las plazas para familias vulnerables y el 70% para hogares generales, con prioridad para jóvenes, recién casados y familias con hijos, mediante sorteos periódicos para garantizar la equidad. La Ley de Vivienda define de forma amplia los grupos vulnerables e incluye hogares de bajos ingresos, familias en circunstancias especiales, familias con tres o más hijos menores de edad, personas mayores, víctimas de violencia doméstica, personas con discapacidad, pueblos indígenas, damnificados, entre otros.
 
 **Alcance de los grupos vulnerables**
-Según la Ley de Vivienda, incluye:
+Según la definición de la Ley de Vivienda, incluye:
 
-- Hogares de bajos ingresos y de ingresos medios-bajos
+- Hogares de bajos ingresos y de ingresos bajos-medios
 - Familias en circunstancias especiales
 - Familias con tres o más hijos menores de edad
-- Personas que, tras terminar una colocación en instituciones de acogida y educación o en familias de acogida, no pueden regresar a su hogar
+- Personas que, tras finalizar una colocación en instituciones de acogida, educación o cuidado, o en familias de acogida, no pueden regresar a su hogar
 - Personas mayores de 65 años
 - Víctimas de violencia doméstica o agresión sexual y sus hijos
 - Personas con discapacidad
-- Personas infectadas con el virus de inmunodeficiencia humana o que padecen síndrome de inmunodeficiencia adquirida
+- Personas infectadas con el virus de inmunodeficiencia humana o con síndrome de inmunodeficiencia adquirida
 - Pueblos indígenas
-- Damnificados por desastres
+- Damnificados
 - Personas sin hogar
 - Otras personas reconocidas por la autoridad competente
 
@@ -154,150 +161,155 @@ Según la Ley de Vivienda, incluye:
 
 **Instalaciones necesarias**
 
-- Entorno accesible: rampas sin barreras, ascensores y diseño de tipologías habitacionales accesibles
-- Jardines infantiles: prioridad para jardines infantiles sin fines de lucro
-- Puntos de atención de larga duración: centros de atención diurna y puntos de apoyo comunitario
-- Espacios de actividad comunitaria: salas de reunión y salas de lectura
-- Servicios comerciales: tiendas de conveniencia, lavanderías y otros servicios de uso cotidiano
+- Entorno accesible: rampas accesibles, ascensores y diseño de unidades habitacionales
+- Jardines de infancia: prioridad para jardines de infancia sin fines de lucro
+- Puntos de atención de larga duración: centros de atención diurna y puntos de cuidado comunitario
+- Espacios comunitarios: salas de reunión y salas de lectura
+- Instalaciones comerciales: tiendas de conveniencia, lavanderías y otros servicios de proximidad
 
 **Diseño innovador**
 
-En los últimos años, la vivienda social ha seguido experimentando con instalaciones innovadoras. Los espacios de emprendimiento juvenil ofrecen talleres para jóvenes emprendedores, mientras que las cocinas compartidas promueven la interacción entre residentes. Las huertas en azoteas combinan agricultura urbana y educación ambiental; los centros de reciclaje impulsan la idea de economía circular; y algunos nuevos proyectos incorporan dispositivos IoT para crear plataformas inteligentes de gestión comunitaria.
+En los últimos años, la vivienda social ha seguido ensayando instalaciones innovadoras. Los espacios de emprendimiento juvenil ofrecen talleres para jóvenes emprendedores, mientras que las cocinas compartidas fomentan el intercambio entre residentes. Los huertos en azoteas combinan agricultura urbana y educación ambiental; los centros de reciclaje promueven la idea de economía circular, y algunos proyectos nuevos incorporan dispositivos IoT para crear plataformas inteligentes de gestión comunitaria.
 
-### Principio de asequibilidad del alquiler
+### Principio de carga del alquiler
 
 **Principio del 85% del precio de mercado**
 
-- El alquiler se fija en el 85% del precio de mercado de la zona
-- Se evita que un subsidio excesivo distorsione el mercado
-- Se asegura que las familias generales puedan asumir el costo
+- El alquiler se fija en el 85% del valor de mercado del entorno
+- Se evitan subsidios excesivos que distorsionen el mercado
+- Se garantiza la capacidad de pago de los hogares generales
 
-**Sistema de subsidios escalonados**
+**Sistema de subsidios por niveles**
 
 - Primer nivel, ingresos extremadamente bajos: alquiler al 30%
 - Segundo nivel, hogares de bajos ingresos: alquiler al 50%
-- Tercer nivel, hogares de ingresos medios-bajos: alquiler al 70%
+- Tercer nivel, hogares de ingresos bajos-medios: alquiler al 70%
 - Cuarto nivel, hogares generales: 85% del precio de mercado
 
 ## Casos importantes de vivienda social
 
-Los casos taiwaneses de vivienda social muestran distintos ensayos, desde la filosofía de diseño hasta la construcción de comunidad. Varios proyectos representativos se han convertido en referencias para las políticas nacionales. La vivienda pública Jiankang de Taipéi, terminada en 2017; la vivienda social juvenil de Zhonghe, en Nuevo Taipéi, de 2019; y la vivienda social de Bade, en Taoyuan, de 2020, representan respectivamente distintas escalas y enfoques de diseño.
+Los casos de vivienda social en Taiwán muestran distintos intentos, desde el concepto de diseño hasta la construcción comunitaria. Varios proyectos representativos se han convertido en referencias para la política nacional. La vivienda pública Jiankang de Taipéi, finalizada en 2017; la vivienda social juvenil de Zhonghe, en Nuevo Taipéi, de 2019; y la vivienda social de Bade, en Taoyuan, de 2020, representan respectivamente distintas escalas y orientaciones de diseño.
 
-Lo que comparten estos tres casos es que superan la función puramente residencial e integran en la vivienda social instalaciones públicas como jardines infantiles, puntos de atención de larga duración y espacios de emprendimiento juvenil, formando circuitos comunitarios de vida de carácter compuesto. Esta idea de planificación según la cual “la vivienda social es comunidad” también ha influido gradualmente en el diseño de proyectos posteriores.
+Los tres casos tienen en común que van más allá de la función puramente residencial e integran en la vivienda social instalaciones públicas como jardines de infancia, puntos de atención de larga duración y espacios de emprendimiento juvenil, formando circuitos comunitarios de vida de carácter mixto. Esta lógica de planificación, según la cual “la vivienda social es comunidad”, también ha influido gradualmente en el diseño de proyectos posteriores.
 
-### Vivienda pública Jiankang de Taipéi
+### Vivienda pública Jiankang de la ciudad de Taipéi
 
-La vivienda pública Jiankang de Taipéi se ubica en el distrito de Zhongshan. Terminada en 2017, cuenta con 1.400 unidades y fue la primera vivienda social de gran escala de la ciudad de Taipéi. Su fachada adopta un diseño de vegetación vertical para aliviar el efecto de isla de calor urbana. En su interior incluye un jardín infantil sin fines de lucro, un centro de atención diurna para personas mayores y el espacio de emprendimiento juvenil “Base Creativa Jiankang LOHAS”. También incorpora un sistema inteligente de estacionamiento y gestión comunitaria mediante una aplicación.
+La vivienda pública Jiankang de la ciudad de Taipéi está ubicada en el distrito de Zhongshan. Finalizada en 2017, cuenta con 1.400 unidades y fue la primera vivienda social de gran escala de Taipéi. Su fachada adopta un diseño de vegetación vertical para mitigar el efecto de isla de calor urbana. En su interior incluye un jardín de infancia sin fines de lucro, un centro de atención diurna para personas mayores y un espacio de emprendimiento juvenil llamado “Base Creativa Jiankang Lohas”, además de incorporar un sistema inteligente de estacionamiento y gestión comunitaria mediante app.
 
-La importancia social principal de este caso radica en que cambió el estereotipo de muchas personas que equiparaban la vivienda social con un “barrio marginal”. También impulsó la revitalización de las zonas comerciales cercanas y se convirtió en referencia para la planificación de vivienda social en otros condados y ciudades.
+La importancia social más relevante de este caso fue cambiar el estereotipo de muchas personas que equiparaban la vivienda social con un “barrio marginal”. También impulsó la revitalización del distrito comercial circundante y se convirtió en una referencia para la planificación de vivienda social en otras ciudades y condados.
 
-### Vivienda social juvenil de Zhonghe, Nuevo Taipéi
+### Vivienda social juvenil de Zhonghe, ciudad de Nuevo Taipéi
 
-La vivienda social juvenil de Zhonghe, en Nuevo Taipéi, fue terminada en 2019 y cuenta con 522 unidades. Su rasgo principal es la integración entre renovación urbana y vivienda social. El mismo edificio incorpora vivienda social, locales comerciales y oficinas, además de una institución comunitaria de atención de larga duración, una huerta en la azotea y un sistema de recuperación de agua de lluvia. Obtuvo la certificación diamante de edificio verde. En materia de gobernanza comunitaria, los residentes formaron por iniciativa propia un “grupo de participación juvenil”, que organiza periódicamente festividades comunitarias. Las encuestas de satisfacción de residentes superan el 85%, por lo que se considera uno de los casos exitosos de construcción comunitaria en la vivienda social taiwanesa.
+La vivienda social juvenil de Zhonghe, en la ciudad de Nuevo Taipéi, fue finalizada en 2019 y cuenta con 522 unidades. Su principal característica es la integración de renovación urbana y vivienda social. El mismo edificio incorpora vivienda social, centro comercial y oficinas, además de una institución comunitaria de atención de larga duración, un huerto en la azotea y un sistema de recolección de aguas lluvias. Obtuvo la certificación de edificio verde en nivel diamante. En materia de gobernanza comunitaria, los residentes organizaron por sí mismos un “grupo de participación juvenil”, que celebra periódicamente actividades festivas comunitarias. Las encuestas de satisfacción residencial superaron el 85%, por lo que es considerado uno de los casos exitosos de construcción comunitaria en la vivienda social taiwanesa.
 
 ### Vivienda social de Bade, Taoyuan
 
-La vivienda social de Bade, en Taoyuan, fue terminada en 2020 y cuenta con 1.003 unidades. Es el mayor proyecto individual de vivienda social en Taiwán. El terreno está junto a infraestructura de tren ligero y dispone de 300 espacios de estacionamiento para motocicletas y 50 para automóviles. Las instalaciones comerciales introducen marcas conocidas como PX Mart y Starbucks, mientras que el equipamiento comunitario incluye jardín infantil, centro de atención de larga duración y centro de actividades. En la gestión se utiliza un sistema de acceso con reconocimiento facial por IA y una aplicación comunitaria que integra diversos servicios. Además, se estableció un sistema de voluntariado comunitario. Es uno de los casos de mayor nivel de digitalización inteligente dentro de la vivienda social taiwanesa.
+La vivienda social de Bade, en Taoyuan, fue finalizada en 2020 y cuenta con 1.003 unidades. Es el mayor proyecto individual de vivienda social de todo Taiwán. El predio está junto a infraestructura de tren ligero, dispone de 300 espacios de estacionamiento para motocicletas y 50 para automóviles, y sus instalaciones comerciales incorporan marcas conocidas como PX Mart y Starbucks. Los servicios comunitarios incluyen jardín de infancia, centro de atención de larga duración y centro de actividades. En gestión, utiliza un sistema de control de acceso con reconocimiento facial mediante IA y una app comunitaria que integra distintos servicios. También estableció un sistema de voluntariado comunitario y es uno de los casos de vivienda social con mayor grado de inteligencia tecnológica en Taiwán.
 
-## Política de alquiler con subarrendamiento y gestión delegada
+## Política de arrendamiento y administración delegada
 
-El alquiler con subarrendamiento y gestión delegada es la segunda vía de la política taiwanesa de vivienda social. Mediante la intervención gubernamental en el mercado privado de alquiler, aumenta rápidamente la oferta de vivienda social y al mismo tiempo activa recursos habitacionales ociosos. A fines de 2024, se habían vinculado cerca de 68.000 unidades, beneficiando a unas 27.000 familias vulnerables.
+El arrendamiento y la administración delegada constituyen la segunda vía de la política taiwanesa de vivienda social. Mediante la intervención del gobierno en el mercado privado de alquiler, aumentan rápidamente la oferta de vivienda social y, al mismo tiempo, activan recursos habitacionales ociosos. Hasta finales de 2024, se habían vinculado alrededor de 68.000 unidades, beneficiando a unas 27.000 familias vulnerables.
 
 ### Modelo operativo
 
-**Modelo de alquiler con subarrendamiento**
-El gobierno arrienda viviendas privadas a través de operadores profesionales y luego las subarrienda a familias vulnerables:
+**Modelo de arrendamiento**
+El gobierno, a través de empresas profesionales, arrienda viviendas privadas y luego las subarrienda a familias vulnerables:
 
-- Plazo: 3 años, con posibilidad de extenderse hasta 6 años
-- Precio al que arrienda el gobierno: entre 80% y 90% del precio de mercado
-- Precio de subarriendo: entre 60% y 70% del precio de mercado
+- Plazo de arrendamiento: 3 años, prorrogable hasta un máximo de 6 años
+- Precio de arrendamiento del gobierno: 80% a 90% del valor de mercado
+- Precio de subarriendo: 60% a 70% del valor de mercado
 - El gobierno asume el riesgo de vacancia
 
-**Modelo de gestión delegada**
+**Modelo de administración delegada**
 
-El gobierno vincula a propietarios e inquilinos, mientras operadores profesionales se encargan de seleccionar inquilinos, cobrar alquileres y coordinar reparaciones. El gobierno ofrece subsidios para reparaciones, de hasta 10.000 a 30.000 nuevos dólares taiwaneses por unidad; reducciones en el impuesto a la vivienda y el impuesto sobre el valor del suelo; contratación de seguro de seguridad residencial en nombre del propietario; y servicios de mediación de disputas y asesoría legal, con el fin de reducir los riesgos de alquilar para los propietarios.
+El gobierno vincula a propietarios e inquilinos, mientras empresas profesionales se encargan de seleccionar arrendatarios, cobrar alquileres y coordinar reparaciones. El gobierno ofrece subsidios de reparación, de hasta 10.000 a 30.000 nuevos dólares taiwaneses por unidad; reducciones del impuesto a la vivienda y del impuesto sobre el valor del suelo; contratación de seguro de seguridad del hogar en nombre del propietario; además de mediación de conflictos y asesoría jurídica, con el fin de reducir el riesgo que asumen los propietarios al alquilar.
 
-### Mecanismos de ejecución y resultados
+### Mecanismo de ejecución y resultados
 
-Actualmente participan unos 200 operadores, entre ellos empresas de servicios habitacionales, corredores inmobiliarios y administradores de propiedades. A fines de 2024, el programa de alquiler con subarrendamiento y gestión delegada había vinculado cerca de 68.000 unidades, con la participación de unos 55.000 propietarios y beneficios para alrededor de 27.000 familias vulnerables. También movilizó inversiones privadas en vivienda por unos 120.000 millones de nuevos dólares taiwaneses.
+Actualmente participan alrededor de 200 empresas, incluidas firmas de servicios habitacionales, corretaje inmobiliario y administración de propiedades. Hasta finales de 2024, el sistema de arrendamiento y administración delegada había vinculado aproximadamente 68.000 unidades, con la participación de unos 55.000 propietarios, el beneficio de unas 27.000 familias vulnerables y una movilización de inversión privada en vivienda de alrededor de 120.000 millones de nuevos dólares taiwaneses.
 
-Los principales desafíos incluyen la renuencia de algunos propietarios a participar por preocupación respecto de la calidad de los inquilinos, la concentración de viviendas disponibles en áreas metropolitanas, el hecho de que los hogares en situación de vulnerabilidad extrema aún enfrentan dificultades para pagar los alquileres vigentes, y diferencias considerables en la calidad de servicio entre distintos operadores.
+Los principales desafíos incluyen la reticencia de algunos propietarios a participar por preocupación sobre el perfil de los inquilinos, la concentración de la oferta en áreas metropolitanas, la persistencia de cargas de alquiler para familias en situación de vulnerabilidad extrema y la marcada variación en la calidad del servicio entre distintas empresas.
 
 ## Efectos de la política e impacto social
 
-### Análisis de efectos cuantitativos
+### Análisis cuantitativo de efectos
 
-Por el lado de la oferta, la política de vivienda social aumentó la disponibilidad del mercado de alquiler en unas 200.000 unidades, moderó en cierta medida el aumento de los alquileres y elevó la transparencia del mercado mediante el avance del sistema de alquiler con subarrendamiento y gestión delegada. Por el lado de la demanda, se estima que la política resolvió problemas habitacionales de unas 400.000 a 500.000 personas, aumentó la estabilidad residencial de grupos vulnerables y mejoró la proporción de jóvenes con vivienda estable. Los efectos indirectos sobre la industria también son significativos: impulsó el surgimiento de un sector de servicios habitacionales, promovió el desarrollo de la construcción y la decoración, y creó aproximadamente entre 30.000 y 40.000 empleos.
+Por el lado de la oferta, la política de vivienda social ha añadido alrededor de 200.000 unidades al mercado de alquiler, ha moderado en cierta medida el crecimiento de los alquileres y ha incrementado la transparencia del mercado conforme avanza el sistema de arrendamiento y administración delegada. Por el lado de la demanda, se estima que la política ha resuelto los problemas habitacionales de unas 400.000 a 500.000 personas, ha aumentado la estabilidad residencial de grupos vulnerables y también ha mejorado la proporción de jóvenes con vivienda estable. Los efectos indirectos sobre la industria también son significativos: ha impulsado el surgimiento de la industria de servicios habitacionales, ha dinamizado la construcción y la remodelación, y ha creado unas 30.000 a 40.000 oportunidades de empleo.
 
 ### Evaluación del impacto social
 
 **Realización de la justicia habitacional**
 
-La calidad espacial de las nuevas viviendas sociales suele ser superior a la del alquiler promedio. La planificación de instalaciones comunitarias es completa, el nivel de alquiler resulta más asequible que el del mercado y se ofrece una garantía habitacional de más largo plazo. Para los grupos que durante mucho tiempo ocuparon una posición débil en el mercado de alquiler, se trata de una mejora concreta y perceptible.
+La calidad espacial de la vivienda social nueva suele ser superior a la de los alquileres ordinarios. La planificación de instalaciones comunitarias es integral, el nivel de renta es más asequible que en el mercado y ofrece una protección habitacional de más largo plazo. Para grupos que durante años han ocupado una posición vulnerable en el mercado de alquiler, se trata de una mejora concreta y perceptible.
 
 **Integración social y desarrollo urbano**
 
-El diseño de mezcla social permite que familias vulnerables y familias generales vivan juntas, evitando la concentración territorial de la pobreza. Algunos casos de vivienda social también han impulsado el desarrollo de zonas comerciales cercanas, actuando como catalizadores de regeneración urbana en comunidades antiguas y mejorando la calidad general del entorno comunitario.
+El diseño de mezcla social permite que familias vulnerables y hogares generales vivan juntos, evitando la concentración territorial de la pobreza. Algunos casos de vivienda social también han impulsado el desarrollo de áreas comerciales cercanas, convirtiéndose en catalizadores de regeneración urbana en comunidades envejecidas y mejorando la calidad del entorno comunitario en su conjunto.
 
 ## Comparación con experiencias internacionales
 
-### Sistema de vivienda HDB de Singapur
+### Sistema de HDB en Singapur
 
-Singapur es conocido por la construcción de vivienda pública a gran escala liderada por el gobierno; alrededor del 85% de la población vive en este tipo de vivienda. El sistema de cuotas étnicas promueve la integración entre grupos, y su articulación con el sistema de pensiones fomenta la compra de vivienda y la acumulación de patrimonio. Taiwán puede tomar como referencia su capacidad de ejecución estable y de largo plazo, así como su concepción integral de planificación comunitaria. Sin embargo, Taiwán pone mayor énfasis en el alquiler que en la compra, por lo que su orientación general es distinta.
+Singapur es conocido por un sistema de vivienda pública liderado por el gobierno y construido a gran escala, donde alrededor del 85% de la población vive en viviendas HDB. El sistema de cuotas étnicas promueve la integración entre grupos, y su articulación con el sistema de pensiones fomenta la compra de vivienda y la acumulación de patrimonio. Taiwán puede aprender de su capacidad de ejecución sostenida y estable en el largo plazo, así como de su concepto integral de planificación comunitaria. Sin embargo, Taiwán pone más énfasis en el alquiler que en la adquisición, por lo que la orientación general es distinta.
 
-### Vivienda social en Países Bajos
+### Vivienda social en los Países Bajos
 
-La vivienda social en Países Bajos representa alrededor del 34% del parque habitacional nacional, según estadísticas de 2023. Es construida y administrada por asociaciones de vivienda sin fines de lucro, y utiliza un sistema escalonado por ingresos para asegurar una distribución justa. La atención neerlandesa a la calidad del diseño arquitectónico y a la sostenibilidad ambiental ofrece a Taiwán una referencia orientada a la calidad.
+La vivienda social neerlandesa representa alrededor del 34% del parque habitacional nacional, según estadísticas de 2023. Es construida y administrada por asociaciones de vivienda sin fines de lucro, y utiliza un sistema de clasificación por ingresos para garantizar una distribución equitativa. La importancia que los Países Bajos otorgan a la calidad del diseño arquitectónico y a la sostenibilidad ambiental ofrece a Taiwán una referencia orientada a la calidad.
 
-### Vivienda pública de Hong Kong
+### Vivienda pública en Hong Kong
 
-Alrededor del 45% de la población de Hong Kong vive en vivienda pública, dividida entre vivienda pública de alquiler y vivienda de propiedad subsidiada. Taiwán se distingue de manera consciente del modelo hongkonés: enfatiza más la mezcla social, evita el desarrollo concentrado a gran escala y presta atención al equipamiento completo de servicios comunitarios, con el fin de prevenir la “concentración de la pobreza”.
+Alrededor del 45% de la población de Hong Kong vive en vivienda pública, dividida en vivienda pública de alquiler y vivienda subsidiada para compra. Taiwán se distingue de manera deliberada del modelo de Hong Kong: pone más énfasis en la mezcla social, evita desarrollos concentrados a gran escala y, al mismo tiempo, presta atención a la dotación integral de instalaciones comunitarias para prevenir la “concentración de pobreza”.
 
 ## Desafíos futuros y desarrollo
 
 ### Principales desafíos
 
-La política de vivienda social enfrenta cuatro grandes desafíos estructurales. La obtención de suelo es la primera barrera: el suelo urbano es escaso y costoso, los propietarios tienen baja disposición a cooperar, los procedimientos de modificación de planes urbanos son complejos y, además, la actitud NIMBY de la población frente a la idea de “tener vivienda social al lado” dificulta la selección de emplazamientos. En el plano fiscal, el aumento de los costos de construcción, los gastos operativos de largo plazo y la presión sobre el fondo de vivienda también desplazan recursos del presupuesto público.
+La política de vivienda social enfrenta cuatro grandes desafíos estructurales. La obtención de suelo es la primera barrera: el suelo urbano es escaso y costoso, los propietarios tienen poca disposición a cooperar, los procedimientos de modificación de planes urbanísticos son complejos y, además, el rechazo vecinal a que “construyan vivienda social al lado” dificulta mucho la selección de emplazamientos. En el plano fiscal, el aumento de los costos de construcción, los gastos operativos de largo plazo y la presión sobre el fondo de vivienda también desplazan otros rubros del presupuesto público.
 
-Parte de la población aún conserva el estereotipo de que la vivienda social equivale a un “barrio marginal” y teme que afecte los precios inmobiliarios cercanos. La integración comunitaria requiere tiempo y comunicación sostenida. En términos de gestión, la convivencia entre residentes con necesidades diversas, los costos de mantenimiento de las instalaciones comunitarias y la alta rotación de residentes plantean exigencias elevadas a la capacidad profesional de los equipos administradores.
+Parte de la población todavía mantiene el estereotipo de que la vivienda social equivale a un “barrio marginal” y teme que afecte los precios inmobiliarios de los alrededores. La integración comunitaria requiere tiempo y comunicación sostenida. En el plano de la gestión, la convivencia de residentes con necesidades distintas, los costos de mantenimiento de instalaciones comunitarias y una rotación relativamente alta de inquilinos plantean exigencias elevadas a la capacidad profesional de los equipos administradores.
 
-### Orientaciones futuras
+### Líneas de desarrollo futuro
 
-Las recomendaciones de política formuladas por el sector abarcan varias direcciones: modificar la Ley de Vivienda, fortalecer la base legal e impulsar una ley especial de vivienda social son tareas prioritarias en el plano institucional. En materia de innovación financiera, la incorporación de capital privado, el desarrollo de REITs de vivienda social y la creación de sistemas de fideicomiso de suelo pueden ayudar a ampliar las fuentes de recursos. La gestión inteligente, mediante sistemas IoT e integración de aplicaciones comunitarias, junto con la promoción de certificaciones de edificio verde, constituye una vía para elevar la calidad. También merece atención el desarrollo regional equilibrado: actualmente la vivienda social se concentra de manera marcada en las seis municipalidades especiales, mientras que las necesidades habitacionales de las zonas no urbanas requieren mayor atención de las políticas públicas.
+Las recomendaciones de política formuladas por el sector abarcan varias direcciones: reformar la Ley de Vivienda, fortalecer la base jurídica e impulsar una ley especial sobre vivienda social son prioridades institucionales. En innovación financiera, la introducción de capital privado, el desarrollo de REITs de vivienda social y los sistemas de fideicomiso de tierras ayudarían a ampliar las fuentes de recursos. La gestión inteligente, mediante sistemas IoT e integración de apps comunitarias, junto con la promoción de certificaciones de edificio verde, constituye una vía para elevar la calidad. El desarrollo territorial equilibrado también merece atención: actualmente la vivienda social está fuertemente concentrada en las seis municipalidades especiales, mientras las necesidades habitacionales de las zonas no urbanas aún requieren mayor atención de política pública.
 
 ## Conclusión: hacia la justicia habitacional
 
-La vivienda social expresa la puesta en práctica de valores sociales, no una simple política de construcción de viviendas. Desde 2016, Taiwán impulsa el plan de 200.000 viviendas en 8 años, y no solo se ha acercado a la meta en términos cuantitativos, sino que también ha construido, en términos cualitativos, un “modelo taiwanés”:
+La vivienda social encarna la práctica de valores sociales, no una simple política de construcción de viviendas. Desde que Taiwán comenzó en 2016 a impulsar el plan de 200.000 unidades en 8 años, no solo se acercó al cumplimiento de la meta cuantitativa, sino que también estableció, en términos cualitativos, un “modelo taiwanés”:
 
-Las características de la vivienda social taiwanesa radican en varias decisiones centrales: utilizar el diseño de mezcla social para evitar la concentración de la pobreza; hacer que la construcción directa y el alquiler con subarrendamiento y gestión delegada se complementen como dos vías; valorar la estética del diseño y las funciones comunitarias; y adaptar los proyectos a las condiciones climáticas y culturales de Taiwán. Aunque este “modelo taiwanés” sigue en proceso de ajuste, ya ha formado una trayectoria de política pública reconocible.
+Las características de la vivienda social taiwanesa se basan en varias decisiones centrales: usar el diseño de mezcla social para evitar la concentración de pobreza, combinar de manera complementaria la construcción directa con el arrendamiento y la administración delegada, valorar la estética del diseño y las funciones comunitarias, e implementar todo ello de acuerdo con el clima y la cultura de Taiwán. Aunque este “modelo taiwanés” sigue en proceso de ajuste, ya ha formado una trayectoria de política pública reconocible.
 
 **Visión de futuro**
-Que toda persona que viva en Taiwán, cualquiera sea su capacidad económica, pueda disfrutar de un entorno habitacional adecuado, estable y digno. Solo al alcanzar este objetivo Taiwán podrá construir una sociedad más justa e inclusiva.
+Que toda persona que viva en Taiwán, sin importar su capacidad económica, pueda disfrutar de un entorno habitacional adecuado, estable y digno. Solo al alcanzar este objetivo Taiwán podrá construir una sociedad más justa e inclusiva.
 
-La realización de la justicia habitacional requiere el esfuerzo conjunto de toda la sociedad. El gobierno debe ofrecer marcos de política y recursos; los profesionales, aportar técnica y creatividad; y la ciudadanía, brindar comprensión y apoyo. Solo así la vivienda social podrá cumplir realmente su función e impulsar a la sociedad taiwanesa hacia adelante.
+La realización de la justicia habitacional requiere el esfuerzo conjunto de toda la sociedad. El gobierno debe aportar el marco de política y los recursos; los profesionales, la técnica y la creatividad; y la ciudadanía, comprensión y apoyo. Solo así la vivienda social podrá cumplir verdaderamente su función e impulsar el avance de la sociedad taiwanesa.
 
 **Lecturas complementarias**:
 
-- [Casas de chapa](/society/鐵皮屋) — El dilema de gobernanza de 716.000 construcciones ilegales en todo Taiwán; los techos añadidos de chapa y las construcciones informales son parte de la estructura de fondo de la justicia habitacional
-- [Justicia ambiental y controversias NIMBY en Taiwán](/society/台灣環境正義與鄰避爭議) — La extensión del problema habitacional hacia el uso del suelo: distribución desigual de riesgos ambientales y conflictos comunitarios por instalaciones rechazadas localmente
+- [Vivienda nacional y justicia habitacional](/society/國宅與居住正義) — La vía de “construir para vender” que fue abandonada antes de la vivienda social de 2016: desde la Ordenanza de Vivienda Nacional de 1975 hasta su derogación en 2015, cómo la vivienda nacional se convirtió en una escalera patrimonial y el debate contemporáneo de 2026 sobre la vivienda asequible de Taoyuan que vuelve a introducir la idea de “vender” (artículo hermano de este texto)
+- [Viviendas de chapa metálica](/society/鐵皮屋) — El dilema de gobernanza de 716.000 construcciones ilegales en todo Taiwán; las ampliaciones de chapa en azoteas y la construcción irregular son parte de la estructura subyacente del debate sobre justicia habitacional
+- [Justicia ambiental y controversias NIMBY en Taiwán](/society/台灣環境正義與鄰避爭議) — La extensión territorial del problema habitacional: distribución desigual de riesgos ambientales y conflictos comunitarios en torno a instalaciones rechazadas por los vecinos
 
-[^1]: Agencia Nacional de Administración del Territorio, Ministerio del Interior, “Informe sobre resultados de promoción de vivienda social”, diciembre de 2024, https://pip.moi.gov.tw/v3/b/SCRB0501.aspx?mode=7
+[^1]: Agencia de Administración Territorial del Ministerio del Interior, “Informe de resultados de promoción de vivienda social”, diciembre de 2024, https://pip.moi.gov.tw/v3/b/SCRB0501.aspx?mode=7
+
 [^2]: Yuan Ejecutivo, “Plan de promoción de vivienda social”, versión aprobada en marzo de 2017, https://www.ey.gov.tw/Page/5A8A0CB5B41DA11E/7345b2c6-1314-4fda-8e21-18b012466827
-[^3]: Base de Datos Nacional de Leyes y Reglamentos, “Ley de Vivienda (versión revisada de 2017)”, https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070195
-[^4]: Fundación Tsuei Ma Ma, “Informe de investigación sobre la situación actual del mercado de alquiler”, 2024, https://www.tmm.org.tw/
+
+[^3]: Base Nacional de Leyes y Reglamentos, “Ley de Vivienda (versión modificada de 2017)”, https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070195
+
+[^4]: Fundación Tsuei Ma-ma, “Informe de investigación sobre la situación actual del mercado de alquiler”, 2024, https://www.tmm.org.tw/
+
 [^5]: Centro Nacional de Vivienda y Renovación Urbana, “Resultados de ejecución del plan de promoción de vivienda social”, 2024, https://www.hurc.org.tw/
 
 ## Referencias
 
-1. [Agencia Nacional de Administración del Territorio, Ministerio del Interior](https://pip.moi.gov.tw/v3/b/SCRB0501.aspx?mode=7), “Informe sobre resultados de promoción de vivienda social”, diciembre de 2024
+1. [Agencia de Administración Territorial del Ministerio del Interior](https://pip.moi.gov.tw/v3/b/SCRB0501.aspx?mode=7), “Informe de resultados de promoción de vivienda social”, diciembre de 2024
 2. [Centro Nacional de Vivienda y Renovación Urbana](https://www.hurc.org.tw/), “Resultados de ejecución del plan de promoción de vivienda social”, 2024
 3. [Yuan Ejecutivo, “Plan de promoción de vivienda social”, versión aprobada en marzo de 2017](https://www.ey.gov.tw/Page/5A8A0CB5B41DA11E/7345b2c6-1314-4fda-8e21-18b012466827)
-4. [Ley de Vivienda (versión revisada de 2017), Base de Datos Nacional de Leyes y Reglamentos](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070195)
-5. [Fundación de Investigación y Desarrollo de Renovación Urbana](https://www.ur.org.tw/), “Estadísticas de resultados de promoción de la renovación urbana”, 2024
+4. [Ley de Vivienda (versión modificada de 2017), Base Nacional de Leyes y Reglamentos](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0070195)
+5. [Fundación de Investigación y Desarrollo de Renovación Urbana](https://www.ur.org.tw/), “Estadísticas de resultados de promoción de renovación urbana”, 2024
 6. [Wikipedia, entrada “Vivienda social en Taiwán”](https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E7%81%A3%E7%A4%BE%E6%9C%83%E4%BD%8F%E5%AE%85), versión de marzo de 2024
-7. [Urban Renewal, “La cantidad de construcción directa y de alquiler con gestión delegada alcanza un nuevo máximo”](https://urbanrenewal.wealth.com.tw/news-detail/1102), 2024
-8. [Departamento de Desarrollo Urbano de la Ciudad de Taipéi](https://udd.gov.taipei/), “Libro blanco de política de vivienda social”, 2023
-9. [Departamento de Desarrollo Urbano y Rural de Nuevo Taipéi](https://www.planning.ntpc.gov.tw/home.jsp?id=68301de1098d53bb), “Plan de desarrollo de vivienda social de Nuevo Taipéi”, 2024
-10. [Oficina de Desarrollo de Vivienda de la Ciudad de Taoyuan](https://ohd.tycg.gov.tw/), “Resultados de promoción de vivienda social de Taoyuan”, 2024
-11. [Fundación Tsuei Ma Ma](https://www.tmm.org.tw/), “Informe de investigación sobre la situación actual del mercado de alquiler”, 2024
-12. [Alianza para la Promoción de la Vivienda Social](https://socialhousingtw.blogspot.com/), “Propuestas de política de vivienda social”, 2023
+7. [Urban Renewal Wealth, reportaje “La construcción directa y el arrendamiento con administración delegada alcanzan cifras récord”](https://urbanrenewal.wealth.com.tw/news-detail/1102), 2024
+8. [Departamento de Desarrollo Urbano de la ciudad de Taipéi](https://udd.gov.taipei/), “Libro blanco de política de vivienda social”, 2023
+9. [Departamento de Desarrollo Urbano y Rural de la ciudad de Nuevo Taipéi](https://www.planning.ntpc.gov.tw/home.jsp?id=68301de1098d53bb), “Plan de desarrollo de vivienda social de Nuevo Taipéi”, 2024
+10. [Oficina de Desarrollo Habitacional de la ciudad de Taoyuan](https://ohd.tycg.gov.tw/), “Resultados de promoción de vivienda social de Taoyuan”, 2024
+11. [Fundación Tsuei Ma-ma](https://www.tmm.org.tw/), “Informe de investigación sobre la situación actual del mercado de alquiler”, 2024
+12. [Alianza para la Promoción de la Vivienda Social](https://socialhousingtw.blogspot.com/), “Propuesta de política de vivienda social”, 2023

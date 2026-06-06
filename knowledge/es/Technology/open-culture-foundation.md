@@ -1,241 +1,269 @@
 ---
-title: 'Fundación de Cultura Abierta: Ayudar a las personas menos controladas de Taiwán a hacer la cosa más aburrida'
-description: 'En 2020, el mapa de mascarillas se lanzó en tres días; todo Taiwán recuerda ese milagro, pero nadie recuerda quién gestionó la contabilidad, los contratos y la seguridad social del proyecto. Ese backend se llama Fundación de Cultura Abierta (OCF): un movimiento descentralizado que proclamaba “Nadie es todopoderoso”, que para que los hackers siguieran hackeando tuvo que convertirse en una corporación sin fines de lucro que emite facturas y está sujeta a una junta directiva. Diez años después, ese backend que solo quería ayudar con la contabilidad se ha convertido en un nombre que se menciona cuando Taiwán habla de derechos digitales a nivel internacional.'
+title: 'Fundación Cultura Abierta: ayudar al grupo más ingobernable de Taiwán a hacer lo más aburrido'
+description: 'En 2020, el mapa de mascarillas se puso en línea en tres días. Todo Taiwán recuerda aquel milagro; casi nadie recuerda quién llevó la contabilidad del proyecto, firmó contratos o tramitó el seguro laboral y de salud. Ese equipo de apoyo se llama Fundación Cultura Abierta: un movimiento descentralizado que gritaba “nadie lo puede todo” y que, para que los hackers pudieran seguir hackeando, terminó teniendo que desarrollar por sí mismo una fundación capaz de emitir facturas y sujeta a una junta directiva. Diez años después, ese equipo de apoyo que solo quería ayudar a rendir cuentas se convirtió en un nombre que se recuerda cuando Taiwán habla de derechos digitales en el ámbito internacional.'
 date: 2026-06-03
-category: 'Technology'
-tags:
-  - 'Tecnología'
-  - 'Fundación de Cultura Abierta'
-  - 'OCF'
-  - 'Tecnología cívica'
-  - 'Derechos digitales'
-  - 'Comunidad de código abierto'
-  - 'Libertad en internet'
-subcategory: '開源社群'
 author: 'Taiwan.md'
-featured: false
+category: 'Technology'
+subcategory: '開源社群'
+tags:
+  [
+    'Tecnología',
+    'Fundación Cultura Abierta',
+    'OCF',
+    'tecnología cívica',
+    'derechos digitales',
+    'comunidad de código abierto',
+    'libertad de internet',
+  ]
+readingTime: 13
 lastVerified: 2026-06-04
 lastHumanReview: false
-readingTime: 13
+featured: false
 translatedFrom: 'Technology/開放文化基金會.md'
 sourceCommitSha: '82e8ada6a'
 sourceContentHash: 'sha256:37f0be012505ad0e'
 sourceBodyHash: 'sha256:b03ef22e9c42b62e'
-translatedAt: '2026-06-06T00:51:19+08:00'
+translatedAt: '2026-06-07T00:37:31+08:00'
 ---
 
-# Fundación de Cultura Abierta: Ayudar a las personas menos controladas de Taiwán a hacer la cosa más aburrida
+# Fundación Cultura Abierta: ayudar al grupo más ingobernable de Taiwán a hacer lo más aburrido
 
-> **Resumen de 30 segundos:** El mapa de mascarillas que salvó a todo Taiwán en 2020 se construyó con hackers programando, el gobierno abriendo una API y los supermercados proporcionando datos, pero pocos se preguntan quién gestionó la contabilidad, los contratos y la seguridad social de esos proyectos improvisados. La respuesta es una corporación sin fines de lucro que probablemente no hayas escuchado: la Fundación de Cultura Abierta (OCF). Nació en 2014 a partir de un recibo de conferencia que no se podía contabilizar; su personal pasó de 1 a 19 personas y la comunidad de código abierto que respalda creció de 4 a más de cuarenta[^1]. Lo más contraintuitivo es que este movimiento, que proclamaba “Nadie es todopoderoso” y buscaba descentralizarse, para sobrevivir tuvo que crear una “estructura” que pudiera emitir facturas y estar bajo la supervisión de una junta directiva. Ese backend que solo quería ayudar con la contabilidad, diez años después, se ha convertido en el nombre que se menciona internacionalmente cuando se habla de derechos digitales en Taiwán.
+> **Resumen en 30 segundos:** En 2020, aquel mapa de mascarillas que ayudó a todo Taiwán tenía detrás hackers que escribieron código, un gobierno que abrió APIs y tiendas de conveniencia que aportaron datos. Pero pocas personas preguntaron quién llevó la contabilidad de esos proyectos improvisados, quién firmó contratos y quién tramitó seguros laborales y de salud. La respuesta es una fundación de la que quizá nunca has oído hablar: la Fundación Cultura Abierta (OCF). Nació en 2014 a partir de un recibo de conferencia que nadie podía rendir; pasó de 1 a 19 empleados, y las comunidades de código abierto que sostiene pasaron de 4 a más de cuarenta[^1]. Lo más contraintuitivo es esto: un movimiento que gritaba “nadie lo puede todo” y que buscaba deliberadamente descentralizarse, para sobrevivir, tuvo que desarrollar por sí mismo una pieza de “institución” capaz de emitir facturas y sometida a una junta directiva. Y ese equipo de apoyo que solo quería ayudar a rendir cuentas, diez años después, se convirtió en un nombre que la comunidad internacional menciona de forma activa cuando Taiwán habla de derechos digitales.
 
-En febrero 2020, la COVID llegó de forma repentina y rápida; nadie sabía dónde comprar mascarillas ni cuántas quedaban. En tres días se lanzó un mapa actualizado en tiempo real: un grupo de ingenieros civiles conectó los datos de salud del gobierno con la información de cada farmacia sobre el stock de mascarillas y lo marcó en Google Maps[^2].
+En febrero de 2020, la COVID llegó con rapidez y urgencia. Nadie sabía con claridad dónde se podían comprar mascarillas ni cuántas quedaban. En tres días, apareció en línea un mapa actualizado en tiempo real: un grupo de ingenieros civiles conectó los datos abiertos del seguro nacional de salud publicados por el gobierno y marcó en Google Maps cuántas mascarillas quedaban en cada farmacia[^2].
 
-Este hecho se ha contado muchas veces y se considera uno de los momentos más brillantes de la tecnología cívica en Taiwán. Todos recuerdan g0v, esos tres días y el lema “Nadie es todopoderoso”. Pero pocos indagan quién abrió las cuentas, recibió los pagos, firmó los contratos y gestionó la seguridad social de esos proyectos improvisados. Los hackers pueden crear un mapa en un fin de semana, pero las tareas aburridas, vigiladas por la autoridad fiscal y que requieren una firma responsable, son cosas que los hackers no quieren tocar.
+Después, esta historia se contó muchas veces: fue un momento estelar de la tecnología cívica taiwanesa. La gente recuerda g0v, recuerda esos tres días, recuerda el lema “nadie lo puede todo”. Pero pocas personas siguieron preguntando: esos proyectos armados de emergencia, ¿quién les abrió cuentas bancarias, recibió pagos, firmó contratos con el gobierno y aseguró a los ingenieros con seguro laboral y de salud? Un hacker puede crear un mapa en un fin de semana, pero detrás de ese mapa hay tareas aburridas, vigiladas por la autoridad tributaria y que exigen que alguien firme y asuma responsabilidad. Los hackers ni siquiera quieren tocarlas.
 
-Quien hace esas cosas es la Fundación de Cultura Abierta, una corporación sin fines de lucro abreviada como OCF.
+Quien hizo esas tareas fue una fundación llamada Fundación Cultura Abierta, abreviada en inglés como OCF.
 
-Probablemente no hayas escuchado ese nombre, pero es muy posible que hayas usado sus resultados: la comunidad g0v detrás del mapa de mascarillas, “Cofacts ¿Verdad o mentira?” en LINE, y la conferencia anual de código abierto. OCF es ese tipo de entidad típica: **has usado sus resultados, pero no puedes nombrarla**. Incluso su directora ejecutiva, Li Hsin‑ying, siente esa incomodidad y comenta que cuando sale a montar un puesto “cada vez que organizamos un evento o montamos un puesto, tengo que volver a explicar qué es el código abierto, así que es difícil tener una conversación profunda con la gente”[^3]. Diez años después, incluso sus propios miembros todavía tienen que explicar “¿qué hacemos realmente?”.
+Probablemente no has oído su nombre, pero es muy posible que hayas usado cosas que apoya o aloja: la comunidad g0v detrás del mapa de mascarillas, “Cofacts 真的假的”, el bot de LINE que te ayuda a verificar desinformación, o la conferencia anual de gente de código abierto que se celebra cada verano. OCF es ese tipo de presencia típica: **has usado sus resultados, pero no sabes decir su nombre.** Incluso su directora ejecutiva, Li Hsin-ying, percibe muy bien esa incomodidad. Cuenta que cuando sale a montar un puesto, “cada vez que organizamos un evento o ponemos un stand, tenemos que explicar desde cero qué es el código abierto, así que es difícil tener una conversación profunda con la otra persona”[^3]. Después de diez años, incluso la gente de dentro sigue empezando por explicar “qué hacemos exactamente”.
 
-## Un recibo de conferencia que no se podía contabilizar
+## Un recibo de conferencia imposible de rendir
 
-![Calle de Taipéi durante la ocupación del Parlamento en la protesta del Movimiento Sunflower de 2014, con gente y pancartas alrededor.](/article-images/technology/ocf-sunflower-movement-2014.jpg)
-_2014, durante el Movimiento Sunflower en Taipéi. g0v usó la transmisión ciudadana para impulsar la energía de “modificar el dominio público por cuenta propia”. OCF nació en ese contexto. Foto: Jesse Steele, CC BY 2.0 (fuente completa al final)._
+![Una calle de Taipéi durante el Movimiento Girasol, con personas reunidas alrededor del Yuan Legislativo y pancartas de protesta; el suelo conserva la atmósfera quieta de un escenario de movilización.](/article-images/technology/ocf-sunflower-movement-2014.jpg)
+_Calle de Taipéi durante el Movimiento Girasol de 2014. g0v instaló transmisiones cívicas en vivo durante este movimiento y llevó al punto más alto la energía de “transformar el espacio público con las propias manos”; OCF también nació dentro de esa energía. Imagen: Jesse Steele, CC BY 2.0 (fuente completa al final)._
 
-El origen de la historia no es romántico.
+El inicio de la historia no tiene nada de romántico.
 
-En 2012 surgió en Taiwán una comunidad llamada g0v (se pronuncia “gov‑zero”) cuyo espíritu era “forkear al gobierno”: si los sitios del gobierno son difíciles de usar y los datos no están abiertos, entonces copia sus funciones y crea una versión mejor. Tras el Movimiento Sunflower, esa energía de “modificar el dominio público por cuenta propia” explotó: hackatones tras hackatón, proyecto tras proyecto.
+En 2012 apareció en Taiwán una comunidad llamada g0v, pronunciada gov-zero. Su espíritu era “forkear el gobierno”: si los sitios web gubernamentales eran difíciles de usar y los datos no estaban abiertos, entonces había que copiar sus funciones y escribir una versión mejor. Después del Movimiento Girasol, esa energía de “transformar el espacio público con las propias manos” explotó por completo: un hackatón tras otro, un proyecto tras otro.
 
-Luego la realidad llamó a la puerta: organizar eventos cuesta dinero, y el dinero necesita rendición de cuentas. g0v era tan suelto que, según su cofundador Gao Jia‑liang (clkao), “no tiene un alcance fijo, ni miembros fijos, ni proceso de afiliación, ni portavoz, ni líder único”[^4]. Ese espíritu de “nadie” funciona bien para programar, pero se desmorona frente a un contador. Cuando llega una donación, ¿a quién se emite el recibo? ¿A nombre de quién se registran los gastos de un evento?
+Entonces la realidad llamó a la puerta: organizar actividades cuesta dinero, y cuando hay dinero hay que rendir cuentas. Pero g0v era tan laxo que casi no tenía límites. En palabras de Kao Chia-liang, cofundador al que en la comunidad llaman clkao, g0v “no tiene un alcance fijo, no tiene miembros fijos, no tiene forma de afiliación, no tiene portavoz, no tiene un único líder”[^4]. Ese espíritu de “nadie” funciona muy bien para escribir programas; para cuadrar cuentas con un contador, no funciona en absoluto. Si entra un patrocinio, ¿a nombre de quién se emite el recibo? Si hay comprobantes de un evento, ¿a nombre de quién se reembolsan?
 
-El sitio web de OCF describe el dilema: “Los gastos y documentos de una conferencia, si se liquidan a través de una empresa privada o una asociación, a menudo tienen limitaciones”. Por eso la comunidad empezó a discutir la creación de una corporación sin fines de lucro, y bajo la “excavación” de clkao, en junio 2014 solicitaron al Departamento de Cultura del Gobierno de Taipéi la aprobación para constituirla[^5]. En esencia, OCF nació de un recibo que no se podía contabilizar.
+El sitio oficial de OCF describe con claridad esa situación incómoda: en las conferencias, “la contabilidad y los comprobantes de la organización, si se reembolsaban a través de una empresa privada o una asociación legal, solían tener restricciones”. Por eso, algunas personas de la comunidad empezaron a discutir la creación de una fundación; al final, “bajo el hoyo cavado por el jefe de aldea de g0v, clkao”, en junio de 2014 solicitaron a la Oficina de Cultura del Gobierno de la Ciudad de Taipéi la aprobación para constituirla[^5]. Dicho sin rodeos: OCF nació de un recibo que no se podía rendir.
 
-> 📝 **Nota del curador**  
-> Aquí se oculta una elección que la mayoría de los reportajes pasan por alto. OCF se registró como “corporación sin fines de lucro”, no como “asociación”. La asociación es “un conjunto de personas” con miembros y asamblea, lo que permite la descentralización; la corporación sin fines de lucro es “un conjunto de bienes”, sin miembros, solo un fondo y una junta directiva[^6]. En otras palabras, un movimiento que cree en “nadie es todopoderoso, no hay líder único” eligió, al buscar su contenedor, una estructura más centralizada y que requiere firmas responsables. Es un compromiso consciente: la comunidad puede no tener centro, pero el punto de contacto con la autoridad fiscal debe tener nombre y apellido.
+> 📝 **Nota de curaduría**
+> Aquí hay una decisión que la mayoría de los reportajes pasa por alto. OCF se registró como “fundación”, no como “asociación”. Una asociación es una “agrupación de personas”: tiene miembros, asamblea de miembros y decisiones por votación; en esencia, es descentralizada. Una fundación es una “agrupación de bienes”: no tiene miembros, solo un fondo y una junta directiva[^6]. En otras palabras, un movimiento descentralizado que profesaba “nadie lo puede todo” y “no hay un único líder”, al elegir un recipiente para sí mismo, escogió una caja estructuralmente más concentrada, que necesitaba más claramente a alguien con nombre y apellido que firmara y asumiera responsabilidad. Fue un compromiso lúcido: una comunidad descentralizada puede no tener centro, pero la ventanilla que trata con la autoridad tributaria tiene que tener nombre y apellido.
 
-El fondo inicial de 5 millones de NT$ provino de caras conocidas del ecosistema de código abierto: los organizadores de COSCUP, PyCon Taiwan, OSDC, además del entonces COO de KKBOX, Li Ming‑che, y la organización de tecnología cívica Netivism[^5]. Curiosamente, clkao no tomó el puesto principal; la actual presidenta del consejo es Li Po‑feng, proveniente de COSCUP.
+Quienes reunieron el fondo inicial de 5 millones de dólares taiwaneses fueron caras conocidas del círculo de código abierto: figuras centrales de conferencias como COSCUP, PyCon Taiwan y OSDC, junto con Li Ming-che, entonces director de operaciones de KKBOX, y NETivism, una organización dedicada a herramientas de tecnología cívica[^5]. Lo interesante es que clkao, quien cavó el hoyo, no terminó ocupando el lugar principal; el actual presidente de la junta es Li Po-feng, surgido de COSCUP.
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
-  <iframe src="https://www.youtube.com/embed/bNZUmHfCFxg" title="COSCUP 2014 - State of the unison: g0v 村情咨文 - clkao" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/bNZUmHfCFxg" title="COSCUP 2014 - Discurso sobre el estado de la aldea g0v - clkao" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-_clkao en COSCUP 2014 explica cómo funciona una comunidad sin líder único. Fuente: canal oficial de g0v.tw, Zero‑Time Government._
+_clkao presentó en COSCUP 2014 el “Discurso sobre el estado de la aldea g0v”, explicando de primera mano cómo funciona esta comunidad “sin un único líder”. Video: canal oficial de g0v.tw Taiwan Zero Government._
 
 ## Emitir facturas para “nadie”
 
-![Grupo de personas alrededor de una mesa larga colaborando, con laptops y pantallas encendidas, en el hackatón de g0v de 2015.](/article-images/technology/ocf-g0v-hackathon-2015.jpg)
-_Hackatón g0v 2015, décimo‑tercer evento. Los hackers pueden crear un proyecto en un fin de semana, pero la contabilidad, los contratos y la seguridad social requieren a alguien que los asuma; esa es la parte que OCF gestiona. Foto: g0v.tw Zero‑Time Government, CC BY 2.0 (fuente completa al final)._
+![Un grupo de personas sentadas alrededor de una mesa larga colaboran con laptops y pantallas encendidas; es el interior del decimotercer hackatón de g0v en 2015, con participantes divididos en grupos trabajando en proyectos de tecnología cívica.](/article-images/technology/ocf-g0v-hackathon-2015.jpg)
+_Decimotercer hackatón de g0v, 2015. Los hackers pueden producir un proyecto en un fin de semana, pero detrás del proyecto alguien tiene que hacerse cargo de contabilidad, contratos y seguros laborales y de salud. Esa es la parte que asumió OCF. Imagen: g0v.tw Taiwan Zero Government, CC BY 2.0 (fuente completa al final)._
 
-Lo que OCF hace, sin rodeos, no es sexy: abrir cuentas, recibir pagos, conciliar, emitir recibos, gestionar procesos, solicitar subvenciones y encargarse de la logística completa de un evento[^7]. Una comunidad que quiere organizar actividades o recibir donaciones, pero no quiere constituirse ni asumir costos de personal a tiempo completo, puede delegar esas tareas a OCF. El presidente Li Po‑feng comentó: “Son cosas pequeñas, pero acumuladas se vuelven muchas y complejas”[^8]. Cada tarea individual parece insignificante, pero juntas pueden agotar a un equipo de voluntarios.
+Lo que OCF hace en realidad suena muy poco atractivo: abrir cuentas, recibir pagos, conciliar movimientos, emitir recibos, correr trámites, solicitar subsidios y ocuparse de toda la logística de un evento de principio a fin[^7]. Si una comunidad quiere organizar actividades o recibir donaciones, pero no quiere registrar su propia organización ni cargar con el costo de personal de tiempo completo, puede pasarle a OCF ese trabajo de apoyo que vuelve loca a la gente. El director Li Po-feng lo resumió con una frase muy precisa: “Todas estas son cosas pequeñas, pero acumuladas son muchas y muy variadas”[^8]. La naturaleza de la administración de apoyo está ahí. Ninguna tarea, vista por separado, parece grande; juntas, pueden aplastar a un equipo de voluntarios que solo quiere escribir código.
 
-El ejemplo más representativo es Cofacts. En 2016, ingenieros y voluntarios de g0v crearon este bot de verificación “¿Verdad o mentira?” para LINE; el bot necesita servidores, personal y gestión administrativa para mantenerse. Cofacts recuerda que, gracias a OCF, “no tuvo que preocuparse por la burocracia, la contabilidad o los costos de personal”, lo que le permitió crecer dentro del “nido” que OCF ofrece[^9].
+El ejemplo más representativo es Cofacts. En 2016, un grupo de ingenieros y voluntarios de g0v creó este bot de verificación “真的假的” (“¿verdadero o falso?”): envías un mensaje sospechoso a LINE y te dice si ya fue verificado y si es cierto o falso. Fue el primer bot de fact-checking colaborativo y de código abierto de Taiwán. Pero para que el bot funcione a largo plazo necesita servidores, necesita personas y necesita resolver muchas tareas sueltas. Cofacts recordó después esa etapa así: no tuvo que “preocuparse por el papeleo complicado, los sistemas contables ni asumir por su cuenta el costo de personal de tiempo completo para crear una organización”, y pudo crecer poco a poco dentro de OCF como “cuna de comunidades”[^9].
 
-> 💡 **¿Lo sabías?**  
-> Mucha gente piensa que OCF es la “organización madre” de g0v; en realidad es lo contrario. clkao explicó que, como la comunidad suelta de g0v no podía incorporarse a redes internacionales formales, OCF actúa como **proxy** que representa a g0v en esos entornos[^10]. En otras palabras, OCF es la representación legal de g0v, no su jefa.
+“Cuna de comunidades” probablemente sea la descripción más exacta del papel de OCF. Nunca actúa como jefa de esos proyectos, ni se presenta como inventora. Solo permite que los proyectos, cuando aún son frágiles, tengan un lugar donde quedarse.
 
-OCF nunca se atribuye la creación del mapa de mascarillas; ese fue el trabajo conjunto de hackers de g0v, la API gubernamental y los supermercados. Su papel fue más bien el de la pieza silenciosa y posterior que permitió que la energía del momento tuviera un lugar donde aterrizar.
+> 💡 **¿Sabías que…?**
+> Muchas personas creen que OCF es la “organización madre” o instancia superior de g0v, pero en realidad ocurre lo contrario. clkao explicó que, como “una comunidad laxa como g0v” tenía dificultades para integrarse a redes internacionales formales, se creó OCF para que “actuara como proxy y representara” a g0v dentro de esas redes[^10]. En palabras simples: OCF es el agente legal de g0v en el mundo formal; firma por él aquellos documentos que necesariamente requieren una firma. No es su jefa. g0v sigue siendo ese g0v en el que nadie puede representar a todos.
 
-## De una casa a un castillo móvil
+Por eso, OCF nunca afirma que el mapa de mascarillas lo hizo ella. Lo hicieron hackers de g0v, APIs del gobierno y canales de tiendas de conveniencia trabajando juntos. El lugar de OCF en ese milagro fue más atrás y más silencioso: cuando el entusiasmo necesitó un sitio donde aterrizar, ahí estaba.
 
-![Espacio de trabajo luminoso con decenas de personas sentadas en mesas ordenadas participando en un taller, con una presentación al frente.](/article-images/technology/ocf-g0v-civictech-grant-2017.jpg)
-_Taller de lanzamiento del fondo cívico de g0v 2017. Cuando la comunidad quiere escalar proyectos, necesita una entidad que administre dinero, organice eventos y gestione contactos externos; esa es la función que OCF ha desarrollado. Foto: Kirby Wu, CC BY‑SA 2.0 (fuente completa al final)._
+## De una casa a un castillo en movimiento
 
-La primera empleada de OCF fue Li Hsin‑ying (Singing), ahora directora ejecutiva[^11]. Partiendo de su oficina en el cuarto piso del número 94 de la calle Ba‑de, en Taipéi, la plantilla a tiempo completo ha crecido a 19 personas y la comunidad de código abierto que respalda pasó de 4 a más de 40[^1].
+![En una sala de reuniones luminosa, decenas de personas sentadas frente a mesas ordenadas participan en un taller; al frente alguien presenta. Es la escena de arranque de la beca de tecnología cívica de g0v de 2017.](/article-images/technology/ocf-g0v-civictech-grant-2017.jpg)
+_Taller de inicio de la beca de tecnología cívica de g0v, 2017. Cuando las comunidades quieren hacer crecer sus proyectos, necesitan detrás un equipo capaz de administrar dinero, organizar actividades y tratar con actores externos. Ese fue precisamente el rol que OCF desarrolló. Imagen: Kirby Wu, CC BY-SA 2.0 (fuente completa al final)._
 
-Los números hablan, pero OCF se describe a sí misma con metáforas más vivas: “una estación de suministro para todas las comunidades de código abierto de Taiwán”, “una casa que se ha convertido en un castillo móvil que lleva a la comunidad a distintas direcciones”, y “un puente que conecta tecnología y derechos, comunidad y gobierno”[^12]. Esa combinación de estación, casa, castillo y puente constituye la línea narrativa del artículo: OCF no busca la fama en el escenario, sino ser el respaldo y la zona de tránsito de otros.
+La primera empleada de OCF fue Li Hsin-ying, conocida en la comunidad como singing y actual directora ejecutiva[^11]. Empezó sola en el espacio del cuarto piso del número 94, sección 1, Bade Road, en Taipéi, apodado por la comunidad “Bade 94”. Diez años después, el personal de tiempo completo llegó a 19 personas, y las comunidades de código abierto sostenidas pasaron de las 4 iniciales a más de cuarenta[^1].
 
-En su décimo aniversario, OCF organizó un concierto con más de 800 asistentes en un Live House de Taipéi, con 15 puestos y actuaciones de Lin Chiang, Kao Chiu‑chin y la banda Bai He Hua[^3]. Un backend que nació para gestionar contabilidad celebró su décimo año con un concierto, mientras que la mayor reunión anual de la comunidad de código abierto, COSCUP, sigue siendo un evento que OCF respalda tras bambalinas.
+Los números hablan, pero la propia descripción de OCF es más vívida. Dice que Bade 94 era como una “estación de abastecimiento para comunidades de código abierto de todo Taiwán”; que ella misma pasó “de ser un ‘hogar’ donde las comunidades aliadas podían descansar, a convertirse en un castillo en movimiento que lleva a las comunidades de código abierto hacia distintas direcciones”; y que es un “puente que conecta tecnología y derechos humanos, comunidades y gobierno”[^12]. Estación de abastecimiento, hogar, castillo en movimiento, puente: esas palabras, juntas, trazan la línea principal de este artículo. OCF no se hizo conocida brillando en primera fila, sino siendo el respaldo y el punto de transferencia de otras personas.
 
-<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
-  <iframe src="https://www.youtube.com/embed/MK0BeifqfBE" title="COSCUP 2024: Welcome Day 1" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-_COSCUP 2024, apertura. Eventos de miles de personas dependen de la gestión de fondos, lugares y contratos bajo el nombre de OCF._
-
-El presidente Li Ming‑che (Izero) resume la evolución: “Cuando fundamos OCF, la misión era resolver los problemas de financiación, flujo de dinero y contabilidad de la comunidad de código abierto. Ahora hacemos mucho más”[^13]. Esa frase encapsula la transición de un backend de contabilidad a un agente que habla con el gobierno en nombre de la comunidad.
-
-## Quienes hacen la contabilidad, ahora también hablan por todos
-
-![Retrato de Audrey Tang, con gafas de montura fina, cabello corto y una sonrisa, fondo neutro.](/article-images/technology/ocf-audrey-tang-2016.jpg)
-_Audrey Tang: de participante de g0v a primera ministra de desarrollo digital de Taiwán. OCF ha colaborado varias veces con su ministerio, tanto cooperando como vigilando. Foto: Audrey Tang, CC0 (fuente completa al final)._
-
-Imagina a un vecino que hace recados para todos en la comunidad. Con el tiempo, ese vecino también asiste a las reuniones del ayuntamiento y habla en nombre de toda la calle. OCF siguió ese camino: al dominar la contabilidad, la gestión legal y de personal, descubrió que ocupaba una posición única—conoce a todas las comunidades, entiende la tecnología y tiene una identidad oficial para tratar con gobierno y empresas. Así empezó a hacer más que contabilidad: defender los intereses públicos relacionados con “apertura” y “libertad”.
-
-Su primera gran acción fue en 2022, el año en que se creó el Ministerio de Desarrollo Digital. OCF, junto a la Asociación de Promoción de Derechos Humanos de Taiwán, emitió una declaración con seis demandas, una de ellas “Dinero público, código público”: el software desarrollado con fondos públicos debe estar disponible para todos. Después de la declaración, invitaron al ministro de desarrollo digital, Audrey Tang, a responder cerca de 40 preguntas de la comunidad[^14].
-
-Ese mismo año, la Asamblea Legislativa debatió el borrador de la Ley de Servicios de Intermediación Digital. OCF organizó cuatro talleres para analizar cada artículo, presentar regulaciones internacionales y buscar consenso[^15]. La propuesta finalmente se retiró tras una fuerte controversia.
-
-En 2023, OCF colaboró con la Asociación de Promoción de Derechos Humanos de Taiwán para evaluar 20 plataformas y operadores de telecomunicaciones taiwaneses con indicadores internacionales de derechos digitales. Los resultados mostraron que incluso los líderes del mercado obtuvieron puntuaciones bajas (Rakuten Market 33.5, Taiwan Mobile 21.49) en “respeto a los derechos digitales”[^16][^17].
-
-> 📝 **Nota del curador**  
-> La narrativa popular atribuye el éxito de la tecnología cívica en Taiwán a la “pasión de los hackers”. En realidad, la pasión es efímera; lo que permite que la energía se mantenga es la existencia de una entidad que asume las tareas poco atractivas y brinda un punto de aterrizaje. OCF, al encargarse de esas tareas aburridas, ha desarrollado la capacidad de representar a la comunidad ante el gobierno y las empresas.
-
-## Una orden de comando para hacer desaparecer un sitio web de Taiwán
-
-El caso más claro de la transición de OCF de “contabilidad” a “vigilancia” es la censura de sitios web.
-
-En julio 2024, la Ley de Prevención de Delitos de Fraude entró en vigor; su artículo 42 permite a la autoridad competente, en situaciones de urgencia, ordenar a los proveedores de internet que “detengan la resolución o limiten el acceso” a sitios fraudulentos[^18]. Técnicamente, se usa un mecanismo DNS llamado RPZ: los dominios incluidos en una lista de políticas son devueltos como “no encontrados”, haciendo que el sitio desaparezca silenciosamente de la red de Taiwán[^19].
-
-El problema radica en quién puede emitir esa orden y si se requiere una revisión judicial. RPZ 1.0 exige una orden judicial; RPZ 1.5 permite a la autoridad actuar de forma urgente sin revisión previa[^19]. Según Freedom House, entre junio 2023 y mayo 2024, RPZ 1.0 resultó en 29 bloqueos, mientras que RPZ 1.5 provocó 36 559 bloqueos. En la primera mitad de 2025, más de 50 000 dominios fueron bloqueados, la gran mayoría sin supervisión judicial[^20].
-
-> ⚠️ **Punto de vista controvertido**  
-> Taiwán se sitúa entre los mejores en libertad de internet (puntuación 79, 7.º a nivel mundial, 1.º en Asia). Sin embargo, la falta de supervisión judicial en RPZ 1.5 es una de las áreas que impide una puntuación perfecta[^21]. Además, la línea de aplicación se está expandiendo: en febrero 2025, un foro LGBT fue bloqueado bajo la Ley de Prevención de Abuso Sexual Infantil; en diciembre 2025, la plataforma china Xiaohongshu fue bloqueada por el Ministerio del Interior bajo el artículo 42[^22]. Estos casos generan debate sobre los límites, la transparencia y los recursos de apelación.
-
-OCF no se quedó al margen. En octubre 2024, publicó una serie de artículos en su columna “Digital Rights Weatherball” analizando los límites del bloqueo; en diciembre organizó una “pequeña reunión sobre libertad en internet” para debatir si RPZ 1.5 estaba siendo excesivo[^23][^24]. En 2025, el Ministerio de Desarrollo Digital revisó el procedimiento de RPZ, exigiendo una orden judicial y estableciendo un mecanismo de recurso[^25]. OCF ha sido una fuerza constante que impulsa esa mejora.
+Cuando ese castillo cumplió diez años, organizó un evento poco parecido a lo que uno esperaría de una fundación. En septiembre de 2024, más de 800 personas llenaron un live house de Taipéi; hubo 15 puestos, y Lim Giong, Kou Chou Ching y la banda Lily Flower subieron al escenario uno tras otro[^3]. Un equipo de apoyo nacido de la contabilidad celebró su décimo aniversario como si fuera un concierto. Y lo que sostiene esa vitalidad es la tradición del mayor encuentro anual de verano del mundo taiwanés de código abierto: conferencias como la COSCUP que aparece abajo son precisamente el tipo de evento que organizaciones como OCF sostienen silenciosamente detrás.
 
 <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
-  <iframe src="https://www.youtube.com/embed/7YMu-K66jHA" title="g0v Summit 2020: Taiwan community and democratic defence" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/MK0BeifqfBE" title="COSCUP 2024: Bienvenida Día 1" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-_g0v Summit 2020, panel “Taiwan community and democratic defence”. Mantener una red abierta y sin censura es una tarea colectiva de la comunidad cívica de Taiwán._
+_Apertura de COSCUP 2024, conferencia anual de gente de código abierto. En estos grandes eventos comunitarios de miles de personas, la contabilidad, el recinto y los contratos suelen estar bajo el nombre de OCF. Video: canal oficial de COSCUP._
+
+Una frase del director Li Ming-che, conocido en la comunidad como Izero, revela esa curva de crecimiento: cuando OCF se creó, “era para resolver los problemas de organización de actividades, flujos de dinero y contabilidad de las comunidades de código abierto. Ahora no solo hace eso; hace muchas cosas significativas”[^13]. En esas seis palabras, “ahora no solo hace eso”, se esconde un giro: ¿cómo empezó un equipo de apoyo que en principio solo rendía cuentas a hablar con el gobierno en nombre de toda una comunidad?
+
+## Quien rendía cuentas aprendió después a hablar por todos
+
+![Retrato individual de Audrey Tang, con lentes de montura fina, pelo corto y una sonrisa, sobre un fondo claro y simple.](/article-images/technology/ocf-audrey-tang-2016.jpg)
+_Audrey Tang: de participante de g0v a primera ministra de Desarrollo Digital de Taiwán. OCF interactuó muchas veces con el ministerio que ella encabezó: cooperando y también vigilando. Imagen publicada por la propia Audrey Tang, dominio público CC0 (fuente completa al final)._
+
+Imagina a una persona de un barrio que hace mandados para todos. Ayuda a los vecinos con sellos y trámites, y mientras se ocupa de esas tareas, termina hablando en las reuniones de la oficina distrital en nombre de toda la calle. La transformación de OCF siguió más o menos ese camino. Cuando ya dominaba contabilidad, asuntos legales y recursos humanos, descubrió que estaba en una posición especial: conocía a todas las comunidades, entendía la tecnología y tenía una identidad formal para tratar con el gobierno y las empresas. Entonces empezó a hacer cosas más allá de rendir cuentas: vigilar, en nombre de las comunidades, los asuntos públicos relacionados con “apertura” y “libertad”.
+
+El primer movimiento grande fue en 2022. El año en que se creó el Ministerio de Desarrollo Digital fue para el círculo de tecnología cívica un momento de expectativa y alerta: por fin el gobierno tenía un ministerio dedicado a lo digital, pero ¿cómo usaría ese ministerio su poder? OCF articuló a la Asociación Taiwanesa por los Derechos Humanos y otros grupos para emitir una declaración conjunta. Entre sus seis demandas había una llamada “Dinero público, código público” (Public Money Public Code): el software desarrollado con dinero de los contribuyentes debería abrir su código para que todos puedan usarlo. Después de publicar la declaración, invitaron a Audrey Tang, ministra de Desarrollo Digital, a responder cara a cara casi 40 preguntas de la comunidad[^14].
+
+Ese mismo año, el Yuan Legislativo revisaba el borrador de la Ley de Servicios Intermediarios Digitales. Muchas personas temían que esa ley se convirtiera en una herramienta de control de la expresión. La respuesta de OCF muestra bien su carácter: no salió a la calle a encabezar una protesta, sino que organizó cuatro talleres para discutir artículo por artículo, presentar cómo otros países regulan plataformas y poner distintas posiciones sobre la mesa para construir consenso[^15]. El borrador terminó suspendido y devuelto en medio de una enorme controversia.
+
+También miró hacia las empresas. En 2023, OCF colaboró con la Asociación Taiwanesa por los Derechos Humanos y otros socios para evaluar, con un conjunto de indicadores internacionales, a 20 plataformas y telecomunicaciones que la gente en Taiwán usa a diario: revisaron si respetaban lo suficiente a sus usuarios en gobernanza corporativa, libertad de expresión y protección de privacidad[^16]. Los resultados fueron reveladores: sobre 100 puntos, la mejor calificada, Rakuten Marketplace, obtuvo apenas 33,5; la última, Taiwan Mobile, solo 21,49[^17]. Incluso las mayores plataformas y telecomunicaciones están lejos de aprobar en aquello de “respetar tus derechos digitales”.
+
+> 📝 **Nota de curaduría**
+> La explicación común atribuye el éxito de la tecnología cívica taiwanesa a que “los hackers son especialmente apasionados”. Suena bien, pero invierte la causalidad. La pasión es en realidad lo más barato y lo que más rápido se quema. El entusiasmo que enciende un hackatón de fin de semana no sobrevive a la tercera pregunta de “quién va a encargarse de la factura de ese patrocinio”. La explicación más cercana a la verdad de por qué la tecnología cívica de Taiwán no fue flor de un día y pudo sostenerse diez años es otra: alguien estuvo dispuesto a hacer las tareas menos atractivas, para que el entusiasmo tuviera un lugar donde aterrizar. Y ese equipo de apoyo especializado en hacer cosas aburridas, al hacerlas una y otra vez, terminó desarrollando la capacidad de hablar con el gobierno y las empresas por toda una comunidad.
+
+## Una línea de comando que hace desaparecer en silencio un sitio web de Taiwán
+
+Lo que mejor muestra la distancia recorrida por OCF desde “rendir cuentas” hasta “vigilar” es el bloqueo de sitios web.
+
+En julio de 2024, la Ley de Prevención de Daños por Delitos de Fraude pasó su tercera lectura. Su artículo 42 otorgó a la autoridad competente un poder: en situaciones urgentes, para impedir que la población se conecte a sitios fraudulentos, puede ordenar a proveedores de internet “detener la resolución o restringir el acceso”[^18]. “Detener la resolución” suena técnico, pero explicado de forma simple significa esto: el gobierno puede pedir a los proveedores que, desde la red de Taiwán, “hagan como si no conocieran” cierta dirección web. Técnicamente se usa un mecanismo llamado DNS RPZ: cuando una dirección entra en una lista de políticas, el servidor DNS, al verla, finge no encontrarla. Así, ese sitio web desaparece silenciosamente de la red taiwanesa; ni siquiera recibes un aviso que diga “esto está bloqueado”[^19].
+
+Combatir el fraude, por supuesto, es algo bueno. El problema está en “quién puede emitir esa orden y si antes debe pasar por un tribunal”. Este mecanismo tiene en realidad dos versiones: la RPZ 1.0 inicial exigía una sentencia judicial, una resolución judicial o una disposición administrativa para bloquear un sitio, con control judicial; la RPZ 1.5 posterior flexibilizó el estándar y permitió bloquear por solicitud urgente de agencias de aplicación de la ley, sin revisión judicial previa[^19]. La diferencia entre ambas versiones impresiona en números. Según el informe de Freedom House, entre junio de 2023 y mayo de 2024, los bloqueos realizados mediante RPZ 1.0, con orden judicial, fueron apenas 29 dominios; mediante RPZ 1.5, por solicitudes urgentes, se bloquearon 36.559. Para la primera mitad de 2025, más de 50.000 sitios web habían sido designados para bloqueo, la gran mayoría sin ninguna revisión judicial[^20].
+
+> ⚠️ **Punto de vista controvertido**
+> La libertad de internet en Taiwán está, de hecho, entre las mejores: Freedom House le da 79 puntos, categoría “libre”, séptimo lugar mundial y primero de Asia. Pero no es una puntuación perfecta, y uno de los motivos de descuento es precisamente que RPZ 1.5 carece de supervisión judicial[^21]. Lo más inquietante es si los límites se ampliarán: una herramienta que originalmente se presentó para combatir el fraude empezó a usarse en ámbitos que no eran fraude. En febrero de 2025, un foro LGBT fue bloqueado conforme a la Ley de Prevención de la Explotación Sexual de Niños y Jóvenes; en diciembre de ese mismo año, el Ministerio del Interior bloqueó por un año la plataforma social china Xiaohongshu conforme al artículo 42[^22]. Ambos casos provocaron controversia: ¿un mecanismo urgente pensado originalmente para fraudes irá usándose poco a poco contra cada vez más contenidos que al gobierno no le gustan? Eso es precisamente lo que la “vigilancia” debe observar: dónde se trazan los límites, si hay suficiente transparencia y si las personas bloqueadas pueden apelar.
+
+OCF no estuvo ausente en este asunto, y su forma de vigilar fue muy OCF: no subirse a un escenario callejero a gritar consignas, sino organizar actividades y abrir el problema a discusión. En octubre de 2024, publicó en su blog dos entregas de la columna “Barómetro de derechos digitales” sobre bloqueo de sitios, y todas sus preguntas apuntaban a los límites[^23]. En diciembre del mismo año organizó un “encuentro por la libertad de internet” con un título directo: “¿Se ha excedido la medida gubernamental antifraude de bloqueo de sitios mediante detención de resolución DNS RPZ?”, invitando a abogados e investigadores a conversar bajo la regla de Chatham House para que la gente pudiera hablar con tranquilidad[^24]. En 2025, el Ministerio de Desarrollo Digital revisó el procedimiento para DNS RPZ, exigiendo explícitamente una sentencia judicial, resolución judicial o disposición administrativa, y estableciendo vías de reclamación y reparación[^25]. Esa es justamente la dirección que OCF y estos grupos venían impulsando con vigilancia sostenida. Vigilar nunca produce resultados con una sola declaración; es un trabajo de largo plazo sobre “dónde deben trazarse los límites”, y seguirá siendo debatido.
+
+<div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:1.5rem 0;border-radius:8px;">
+  <iframe src="https://www.youtube.com/embed/7YMu-K66jHA" title="Mesa principal: comunidades taiwanesas y defensa democrática | g0v summit 2020" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+_Mesa principal de g0v Summit 2020, “Comunidades taiwanesas y defensa democrática”. Defender una red abierta y no bloqueada arbitrariamente ha sido una tarea compartida por las comunidades cívicas de Taiwán en estos años. Video: canal oficial de g0v.tw Taiwan Zero Government._
 
 ## Tomar recursos del gobierno, vigilar la mano del gobierno
 
-Sin embargo, la historia no termina en un tono heroico. OCF también reconoce sus propias tensiones.
+Pero si la historia terminara aquí, quedaría demasiado limpia, demasiado heroica. La propia OCF no está tan tranquila.
 
-El director del consejo, Chen Kuei‑cheng (KC), expresó en la revisión del décimo aniversario su preocupación: “Me preocupa que, al crecer, la organización pueda desviarse de sus valores fundamentales por presiones operativas”[^26]. Otro consejo, Zhao Bo‑qiang, señaló que los activistas del núcleo de código abierto podrían sentir que “los derechos digitales no les conciernen”[^27]. Cuando una organización que originalmente servía a la comunidad de código abierto se orienta cada vez más hacia los derechos digitales, sus fundadores pueden percibir que ya no es la misma entidad que ayudaba con la contabilidad.
+La voz más honesta viene de Chen Kuei-cheng, director conocido como KC. En la retrospectiva del décimo aniversario dijo: “Lo que ahora me preocupa más es que, al ampliarse la organización, las presiones operativas puedan provocar una desviación de los valores centrales”[^26]. Esa frase viene desde dentro de la organización y muestra la alerta de OCF ante su propio crecimiento: una organización que pasó de rendir cuentas a ser un puente internacional, ¿podría, al perseguir subsidios y proyectos, olvidar poco a poco por qué existía al comienzo? Otro director, Chao Po-chiang, señaló una fisura más sutil: las personas del núcleo del código abierto “quizá sientan que los derechos digitales no tienen nada que ver conmigo”[^27]. A medida que una organización originalmente dedicada a servir comunidades de código abierto se mueve cada vez más hacia los derechos digitales, ¿sentirán sus primeras comunidades que ya no es aquel hogar que ayudaba a rendir cuentas?
 
-Una tensión estructural persiste: OCF recibe fondos gubernamentales mientras supervisa al gobierno. En 2024, colaboró con el Ministerio de Desarrollo Digital y KPMG Taiwan para ofrecer seis talleres “Dinero público, código público” en todo el país[^28]; al mismo tiempo, organizó eventos que cuestionaban la amplitud del bloqueo de sitios web. Su sitio web en inglés reconoce abiertamente que “las operaciones de OCF dependen de fondos del gobierno, empresas y otros proyectos”[^29].
+Hay además una tensión más estructural que OCF siempre ha enfrentado y nunca evita: recibe proyectos del gobierno y, al mismo tiempo, supervisa al gobierno. En 2024, colaboró con el Ministerio de Desarrollo Digital y Deloitte en seis cursos de capacitación sobre “Dinero público, código público” en todo Taiwán[^28]; al mismo tiempo, organizaba actividades para cuestionar si el bloqueo gubernamental de sitios web estaba yendo demasiado lejos. El sitio en inglés de OCF incluso lo plantea directamente, al reconocer que “las operaciones de OCF dependen de fondos provenientes del gobierno, empresas y otros proyectos”[^29].
 
-En contraste, la Asociación de Promoción de Derechos Humanos de Taiwán declara su independencia total: “No aceptamos fondos de partidos políticos, donaciones, ni proyectos gubernamentales que puedan comprometer nuestra autonomía”[^30]. Ambas organizaciones persiguen la misma meta de proteger los derechos digitales, pero adoptan posturas financieras opuestas. OCF aborda la tensión mediante la máxima transparencia: informes anuales, metodologías de evaluación y registros de talleres están disponibles públicamente para que cualquiera pueda verificar si el dinero recibido ha influido en sus posiciones.
+Esa tensión se ve con claridad al compararla con otro grupo. La Asociación Taiwanesa por los Derechos Humanos, que también trabaja en derechos digitales, expresa su independencia de manera tajante: “no acepta subsidios ni donaciones de partidos políticos, no asume compras públicas ni proyectos de investigación gubernamentales, y tampoco acepta fondos que puedan afectar la naturaleza independiente de su funcionamiento”[^30]. Ambas organizaciones vigilan lo mismo, pero eligieron posiciones completamente opuestas sobre sus fuentes de financiamiento: una mantiene deliberadamente distancia respecto del dinero del gobierno; la otra toma recursos gubernamentales mientras vigila la mano del gobierno. ¿Cuál es más correcta? No hay una respuesta estándar. La forma en que OCF maneja esta tensión es exponer tanto como sea posible lo que hace: informes anuales públicos, metodologías de evaluación públicas, registros públicos de talleres, para que cualquiera pueda revisar si haber recibido dinero la volvió menos crítica.
 
-> 💡 **¿Lo sabías?**  
-> El ecosistema de derechos digitales en Taiwán no depende solo de OCF; la Asociación de Promoción de Derechos Humanos, la organización civil de reforma judicial y el Laboratorio de Democracia de Taiwán también juegan roles complementarios. OCF actúa como puente y nodo que conecta a estos actores, no como un héroe solitario. El lema “Nadie es todopoderoso” vuelve a ser válido aquí.
+> 💡 **¿Sabías que…?**
+> El círculo de derechos digitales de Taiwán nunca ha sido sostenido por OCF en solitario. Se parece más a un conjunto de actores que cuidan distintas piezas: la Asociación Taiwanesa por los Derechos Humanos trabaja en informes de transparencia de internet; la Judicial Reform Foundation impulsa incidencia sobre bloqueos de sitios; Taiwan Democracy Laboratory investiga operaciones de información. En esa red, OCF actúa como puente y nodo que conecta, organiza actividades y trabaja internacionalmente; no como una heroína solitaria. Vigilar siempre ha sido una tarea de cooperación y reparto de funciones. “Nadie lo puede todo”: aquí esa frase vuelve a cumplirse.
 
-## La vigilancia se extiende más allá de la isla
+## Vigilar también mirando fuera de la isla
 
-OCF es socio de OONI en Taiwán; OONI, bajo el Tor Project, monitorea la censura global. OCF traduce la documentación, realiza observaciones de cobertura de red y, en febrero 2025, co‑organizó un taller con Tor y Tails, invitando a Roger Dingledine a Taiwán[^31]. En la Asociación de Comunicaciones Progresistas (APC), OCF se define como la única organización de Taiwán que cruza los tres ámbitos: tecnología abierta, derechos digitales y gobernanza de internet[^32]. Además, publicó un informe de privacidad en Asia Oriental que compara a Taiwán y Hong Kong: Taiwán se centra en la digitalización de la identificación y la falta de opción de “rechazar” datos de salud, mientras que Hong Kong se ocupa de la Ley de Seguridad Nacional[^33].
+La mirada vigilante de OCF no se detiene dentro de la isla.
 
-Estos esfuerzos culminaron en febrero 2025 cuando RightsCon, la mayor conferencia internacional de derechos digitales, se celebró por primera vez en Asia Oriental, en Taipéi, con 3 000 asistentes de 150 países y más de 500 sesiones. OCF fue el socio local[^34].
+Es socia de Taiwán de OONI, un proyecto del Tor Project dedicado a monitorear la censura de internet en el mundo. OCF ayuda a traducir documentación de monitoreo al chino, realiza observación de cobertura de internet en Taiwán y, en febrero de 2025, coorganizó con Tor y Tails un taller que llevó a Taiwán a Roger Dingledine, desarrollador central de Tor[^31]. En la Asociación para el Progreso de las Comunicaciones (APC), OCF se define como la “única organización” de Taiwán que cruza tres áreas de incidencia: tecnología abierta, derechos digitales y gobernanza de internet[^32]. También produce investigación. Un informe sobre privacidad en Asia Oriental coloca a Taiwán y Hong Kong lado a lado: en Taiwán, el foco está en la digitalización de la cédula de identidad y en que los datos del seguro nacional de salud no ofrecen a la ciudadanía una opción de “rechazo”; en Hong Kong, en cómo la ley de seguridad nacional ha reducido el espacio de incidencia[^33].
+
+Esas acumulaciones tuvieron un momento estelar en febrero de 2025: RightsCon, la mayor conferencia mundial de derechos digitales, llegó por primera vez a Asia Oriental. La sede fue Taipéi. Hubo 3.000 personas, 150 países y más de 500 sesiones. OCF fue la socia local de ese gran encuentro[^34].
 
 <div style="max-width:340px;margin:1.5rem auto;">
 <div class="video-embed" style="position:relative;padding-bottom:177.78%;height:0;overflow:hidden;border-radius:8px;">
-  <iframe src="https://www.youtube.com/embed/gxx0a4RmVLk" title="RightsCon 25 Taipei preview" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/gxx0a4RmVLk" title="Resumen del encuentro por la libertad de internet: presentación previa de RightsCon 25 Taipei, conferencia global de derechos digitales" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 </div>
 
-_OCF presenta el video de introducción de RightsCon 2025 en Taipéi. Fuente: canal oficial de OCF._
+_Video breve de OCF presentando RightsCon 2025 Taipéi en un “encuentro por la libertad de internet”. Video: canal oficial de OCF Fundación Cultura Abierta._
 
-Un año después, un incidente volvió a centrar la atención: RightsCon 2026, originalmente programado para Zambia, fue cancelado porque el recinto había sido financiado en 2022 por China y el organizador Access Now rechazó la presión china de excluir a participantes de Taiwán y censurar temas relacionados con China[^35]. Un representante de OCF comentó con una mezcla de resignación y amargura que la interferencia china en la participación internacional de Taiwán “nunca es una novedad para la comunidad de ONG de Taiwán”[^36].
+Ese fue el momento estelar. Pero algo ocurrido un año después devolvió la historia a un terreno más pesado.
 
-Así, la historia del “backend” que solo quería ayudar con la contabilidad se cierra en un círculo completo: la defensa de una red abierta y sin censura está íntimamente ligada a la capacidad de Taiwán para aparecer en el escenario internacional bajo su propio nombre. Un congreso cancelado por “no poder incluir a taiwaneses” y un sitio web borrado con una sola línea de comando comparten la misma fuerza subyacente: alguien decide quién puede ser visto y quién debe desaparecer.
+## Una conferencia cancelada porque “no podía haber taiwaneses”
 
-En conclusión, el movimiento que gritaba “Nadie es todopoderoso” necesitó, al final, a alguien que tomara en serio la contabilidad, firmara los informes anuales y mantuviera la infraestructura operativa. OCF nació de un recibo que no se podía contabilizar y hoy vigila una isla entera para que su red no sea bloqueada.
+RightsCon 2026 estaba previsto originalmente en Zambia. El problema fue la sede: un edificio donado por China en 2022 con 30 millones de dólares. Durante la preparación, la parte china presionó para exigir que se excluyera a participantes taiwaneses y se revisaran los temas relacionados con China. La organización anfitriona, Access Now, rechazó esas condiciones y terminó cancelando toda la conferencia[^35].
 
-Usas sus resultados (el mapa de mascarillas, el bot de verificación, la conferencia de código abierto), pero aún no puedes nombrarla. Tal vez esa sea la mayor semejanza con el vecino que hace los recados: lleva la carga más aburrida, conecta toda la calle y permanece en un edificio cuya dirección rara vez recuerdas: 94 Ba‑de Road, 4.º piso.
+OCF planeaba enviar alrededor de 5 representantes. Sobre este tipo de situaciones, una representante de OCF lo dijo con tono sereno, tan sereno que resulta algo doloroso: la interferencia de China en la participación internacional de Taiwán “nunca ha sido nada nuevo para la comunidad de ONG de Taiwán”[^36].
 
-## Lecturas relacionadas
+Llegados aquí, la cancelación de una conferencia y un equipo de apoyo que solo sabía rendir cuentas dibujan una línea completa. Aquello que OCF vigila, una red abierta, sin censura y a la que cualquiera pueda conectarse libremente, y la posibilidad de que Taiwán aparezca en el mundo con su propio nombre, son en realidad parte de lo mismo. Una conferencia cancelada porque “no podía haber taiwaneses” y un sitio web borrado de internet con una sola línea de comando tienen detrás la misma fuerza: alguien quiere decidir quién puede ser visto y quién debe desaparecer.
 
-- [Comunidad de código abierto y g0v](/technology/開源社群與g0v) — OCF nació para gestionar la contabilidad de comunidades como g0v, que “forkean al gobierno” y crearon el mapa de mascarillas en 72 horas.
-- [Espíritu de código abierto en Taiwán](/technology/台灣開源精神) — La filosofía “Dinero público, código público” de OCF muestra cómo la cultura de código abierto de Taiwán pasó de la técnica a la gobernanza pública.
-- [Audrey Tang](/people/唐鳳) — De participante de g0v a primera ministra de desarrollo digital; OCF ha colaborado y vigilado su ministerio.
-- [Guerra cognitiva](/society/認知作戰) — El bot Cofacts combate la desinformación; un ejemplo de la lucha de Taiwán contra la manipulación informativa.
+Así que volvamos al comienzo. Un movimiento que gritaba “nadie lo puede todo” acabó necesitando que alguien, con seriedad, pegara cada recibo y firmara cada informe anual. OCF es esa existencia dispuesta a hacer la parte menos atractiva. Hace diez años nació de un recibo de conferencia imposible de rendir; hoy vigila, para toda una isla, una red que aún no ha sido bloqueada.
+
+Has usado sus resultados: el mapa de mascarillas, el bot de verificación, la conferencia anual de gente de código abierto. Pero quizá sigues sin saber decir su nombre. Tal vez eso sea precisamente lo que más la asemeja a aquella persona del barrio que hace mandados: cargó con las tareas más variadas, conectó a toda la calle y, aun así, permanece en silencio en esa oficina frente a la que pasas todos los días sin recordar nunca el número de la puerta. Bade Road, sección 1, número 94, cuarto piso.
+
+## Lecturas complementarias
+
+- [Comunidades de código abierto y g0v](/technology/開源社群與g0v) — OCF nació originalmente para ayudar a comunidades como g0v a rendir cuentas: esos hackers cívicos que “forkearon el gobierno” y crearon el mapa de mascarillas en 72 horas.
+- [El espíritu de código abierto de Taiwán](/technology/台灣開源精神) — La idea de “Dinero público, código público” que encarna OCF es una extensión de la cultura taiwanesa de código abierto desde el círculo técnico hacia la gobernanza pública.
+- [Audrey Tang](/people/唐鳳) — De participante de g0v a primera ministra de Desarrollo Digital, OCF interactuó muchas veces con el Ministerio de Desarrollo Digital que ella encabezó: cooperando y también vigilando.
+- [Guerra cognitiva](/society/認知作戰) — El campo de batalla de desinformación que enfrenta el bot de verificación Cofacts y las manipulaciones informativas que encara Taiwán.
 
 ## Fuentes de imágenes
 
-Este artículo utiliza imágenes bajo dominio público o licencias CC, todas almacenadas en `public/article-images/technology/` para evitar enlaces externos:
+Este artículo usa las siguientes imágenes de dominio público o con licencias CC, todas cacheadas en `public/article-images/technology/` para evitar hotlinking a los servidores de origen:
 
-- [Poster “Open” de OCF]https://ocf.tw/mediakit/ — Foto: Fundación de Cultura Abierta (OCF), CC BY‑SA 4.0.
-- [Calle de Taipéi durante el Movimiento Sunflower (2014)]https://commons.wikimedia.org/wiki/File:Taipei_Sunflower_Movement_All_Is_Quiet_%2813662054395%29.jpg — Foto: Jesse Steele, CC BY 2.0.
-- [Hackatón g0v 2015]https://commons.wikimedia.org/wiki/File:G0v_hackathon_13_%2817209196362%29.jpg — Foto: g0v.tw Zero‑Time Government, CC BY 2.0.
-- [Kickoff del fondo cívico de g0v 2017]https://commons.wikimedia.org/wiki/File:%E5%85%AC%E6%B0%91%E7%A7%91%E6%8A%80%E7%8D%8E%E5%8A%A9%E9%87%91_Kickoff_DSC_6125_%2833364440162%29.jpg — Foto: Kirby Wu, CC BY‑SA 2.0.
-- [Retrato de Audrey Tang (2016)]https://commons.wikimedia.org/wiki/File:Audrey_tang_089_%2825378300354%29_%28cropped%29.jpg — Foto: Audrey Tang, CC0.
+- [Afiche temático “Apertura” de OCF](https://ocf.tw/mediakit/) (hero) — Imagen: Fundación Cultura Abierta (OCF), CC BY-SA 4.0.
+- [Calle de Taipéi durante el Movimiento Girasol (2014)](https://commons.wikimedia.org/wiki/File:Taipei_Sunflower_Movement_All_Is_Quiet_%2813662054395%29.jpg) — Imagen: Jesse Steele, CC BY 2.0.
+- [Decimotercer hackatón de g0v (2015)](https://commons.wikimedia.org/wiki/File:G0v_hackathon_13_%2817209196362%29.jpg) — Imagen: g0v.tw Taiwan Zero Government, CC BY 2.0.
+- [Taller Kickoff de la beca de tecnología cívica de g0v (2017)](https://commons.wikimedia.org/wiki/File:%E5%85%AC%E6%B0%91%E7%A7%91%E6%8A%80%E7%8D%8E%E5%8A%A9%E9%87%91_Kickoff_DSC_6125_%2833364440162%29.jpg) — Imagen: Kirby Wu, CC BY-SA 2.0.
+- [Retrato de Audrey Tang (2016)](https://commons.wikimedia.org/wiki/File:Audrey_tang_089_%2825378300354%29_%28cropped%29.jpg) — Imagen publicada por la propia Audrey Tang, dominio público CC0.
 
-Los videos están incrustados desde los canales oficiales de YouTube: g0v “Village Address” (COSCUP 2014), COSCUP 2024 Welcome, g0v Summit 2020 “Taiwan community and democratic defence”, todos con derechos reservados a sus respectivos canales oficiales.
+Todos los videos están insertados desde canales oficiales de YouTube: “Discurso sobre el estado de la aldea” de g0v (COSCUP 2014), COSCUP 2024 Welcome y “Comunidades taiwanesas y defensa democrática” de g0v Summit 2020. Los derechos pertenecen a los canales oficiales de g0v.tw Taiwan Zero Government / COSCUP.
 
 ## Referencias
 
-[^1]: [Diez años de OCF | Fundación de Cultura Abierta](https://ocf.tw/story/ten-years-of-ocf/) — Resumen oficial del décimo aniversario, con datos de personal y comunidad.
+[^1]: [十年了，OCF | 財團法人開放文化基金會](https://ocf.tw/story/ten-years-of-ocf/) — Retrospectiva oficial de OCF por su décimo aniversario; registra textualmente el crecimiento de 1 a 19 empleados de tiempo completo, el aumento de comunidades de código abierto sostenidas de las 4 iniciales a más de cuarenta, y autodescripciones como “estación de abastecimiento”, “hogar”, “castillo en movimiento” y “puente”.
 
-[^2]: [g0v | Wikipedia](https://en.wikipedia.org/wiki/G0v) — Artículo sobre el movimiento g0v y su papel en el mapa de mascarillas de 2020.
+[^2]: [g0v | Wikipedia](https://en.wikipedia.org/wiki/G0v) — Entrada sobre el movimiento g0v; registra cómo, durante la COVID-19 en 2020, la comunidad g0v colaboró con el gobierno para conectar en pocos días los inventarios de mascarillas de farmacias de todo Taiwán y completar el mapa de mascarillas.
 
-[^3]: [Encuentra tu lugar | Fundación de Cultura Abierta](https://ocf.tw/story/find-your-place/) — Relato de la directora ejecutiva Li Hsin‑ying sobre la dificultad de explicar el código abierto en eventos.
+[^3]: [找到你的位置 | 財團法人開放文化基金會](https://ocf.tw/story/find-your-place/) — Crónica oficial de OCF sobre la conferencia de gente de código abierto y la participación comunitaria; incluye la cita textual de la directora ejecutiva Li Hsin-ying: “cada vez que organizamos un evento o ponemos un stand, tenemos que explicar desde cero qué es el código abierto”.
 
-[^4]: [Observaciones del primer decenio: la fluidez de g0v | Gao Jia‑liang (clkao)](https://clkaozh.substack.com/p/g0v-first-decade) — Descripción de la ausencia de estructura fija en g0v.
+[^4]: [十年觀察：g0v 的嗨與鬆 | 高嘉良（clkao）](https://clkaozh.substack.com/p/g0v-first-decade) — Texto coescrito por clkao, cofundador de g0v, junto con ipa y Kirby; describe textualmente el carácter descentralizado de g0v: “no tiene un alcance fijo, no tiene miembros fijos, no tiene forma de afiliación, no tiene portavoz, no tiene un único líder”.
 
-[^5]: [Sobre nosotros | Fundación de Cultura Abierta](https://ocf.tw/about/) — Detalles de la fundación de OCF en 2014.
+[^5]: [關於我們 | 財團法人開放文化基金會](https://ocf.tw/about/) — Página oficial de presentación de OCF; registra textualmente que la fundación surgió en 2014 por problemas de contabilidad y reembolso de conferencias, que fue impulsada por el “hoyo” cavado por el jefe de aldea de g0v, clkao, y que solicitó aprobación a la Oficina de Cultura de Taipéi, junto con la lista de donantes fundadores.
 
-[^6]: [Diferencias entre corporación sin fines de lucro y asociación | Legalpedia](https://www.legis-pedia.com/article/company-enterprise-organization/1114) — Explicación legal de ambas formas jurídicas.
+[^6]: [財團法人與社團法人的差別 | 法律百科](https://www.legis-pedia.com/article/company-enterprise-organization/1114) — Comparación de Legal Pedia entre dos tipos de personas jurídicas: la asociación como “agrupación de personas”, con asamblea general de miembros como máximo órgano; la fundación como “agrupación de bienes”, operada por una junta directiva conforme a su carta de donación.
 
-[^7]: [Asistencia administrativa | Fundación de Cultura Abierta](https://ocf.tw/p/admin/) — Lista de servicios administrativos que OCF ofrece.
+[^7]: [行政協助 | 財團法人開放文化基金會](https://ocf.tw/p/admin/) — Página oficial de OCF sobre servicios administrativos; enumera apertura de cuentas independientes, recepción y retiro de fondos, conciliación, elaboración de reportes, emisión de recibos y otros ítems de administración de apoyo. Es un documento de primera mano para entender el modelo de alojamiento de OCF.
 
-[^8]: [Diez años de OCF | Fundación de Cultura Abierta](https://ocf.tw/story/ten-years-of-ocf/) — Cita del presidente Li Po‑feng sobre la acumulación de pequeñas tareas.
+[^8]: [十年了，OCF | 財團法人開放文化基金會](https://ocf.tw/story/ten-years-of-ocf/) — Retrospectiva de OCF por su décimo aniversario; incluye la cita textual del presidente de la junta, Li Po-feng, sobre la administración de apoyo: “Todas estas son cosas pequeñas, pero acumuladas son muchas y muy variadas”.
 
-[^9]: [Proyecto comunitario: Cofacts “¿Verdad o mentira?” | Fundación de Cultura Abierta](https://ocf.tw/p/cofacts/) — Descripción del papel de OCF en Cofacts.
+[^9]: [社群專案：Cofacts 真的假的 | 財團法人開放文化基金會](https://ocf.tw/p/cofacts/) — Página oficial de OCF; explica que Cofacts fue iniciado en 2016 por la comunidad g0v como el único proyecto de bot de fact-checking ciudadano colaborativo y de código abierto, y que OCF le proporcionó alojamiento administrativo, contable y de personal para crecer dentro de una “cuna de comunidades”.
 
-[^10]: [Entrevista de Gao Jia‑liang (clkao) en Medium](https://medium.com/@clkao/cw-interview-73848141ac5) — Explicación de OCF como proxy legal de g0v.
+[^10]: [高嘉良（clkao）天下雜誌專訪](https://medium.com/@clkao/cw-interview-73848141ac5) — Entrevista de Commonwealth Magazine a clkao, donde explica cómo, al crearse OCF, la fundación pudo “actuar como proxy y representar” a la comunidad laxa de g0v, aclarando que OCF no es la organización madre de g0v sino su ventanilla legal.
 
-[^11]: [What is OCF | Open Culture Foundation](https://ocf.tw/en/p/what_is_ocf_en.html) — Página en inglés que confirma a Li Hsin‑ying como directora ejecutiva.
+[^11]: [What is OCF | Open Culture Foundation](https://ocf.tw/en/p/what_is_ocf_en.html) — Página de autopresentación en inglés de OCF; explica que la fundación fue creada en 2014 por varias comunidades taiwanesas de código abierto, y confirma que Li Hsin-ying (Singing Li) es la actual directora ejecutiva y la primera empleada.
 
-[^12]: [Diez años de OCF | Fundación de Cultura Abierta](https://ocf.tw/story/ten-years-of-ocf/) — Metáforas de “estación de suministro”, “casa”, “castillo móvil” y “puente”.
+[^12]: [十年了，OCF | 財團法人開放文化基金會](https://ocf.tw/story/ten-years-of-ocf/) — Retrospectiva oficial de OCF por su décimo aniversario; recoge textualmente metáforas como “estación de abastecimiento”, “hogar”, “castillo en movimiento” y “puente”, además del origen del apodo comunitario “Bade 94” para la oficina de Bade Road.
 
-[^13]: [Diez años de OCF | Fundación de Cultura Abierta](https://ocf.tw/story/ten-years-of-ocf/) — Declaración del director Li Ming‑che (Izero) sobre la expansión de la misión.
+[^13]: [十年了，OCF | 財團法人開放文化基金會](https://ocf.tw/story/ten-years-of-ocf/) — Retrospectiva de OCF por su décimo aniversario; recoge la cita textual del director Li Ming-che (Izero) sobre la transición de OCF desde resolver problemas de “flujos de dinero y contabilidad” hacia “hacer muchas cosas significativas”.
 
-[^14]: [Declaración conjunta: el Ministerio de Desarrollo Digital debe tener una transformación digital integral | Fundación de Cultura Abierta](https://ocf.tw/p/issues/2022/) — Declaración de 2022 con la ministra Audrey Tang.
+[^14]: [【聯合聲明】數位發展部應有全面的數位轉型規劃 | 財團法人開放文化基金會](https://ocf.tw/p/issues/2022/) — Declaración conjunta emitida en julio de 2022 por OCF, la Asociación Taiwanesa por los Derechos Humanos y otros grupos ante la creación del Ministerio de Desarrollo Digital; sus seis demandas incluyen “Dinero público, código público”, y luego invitaron a Audrey Tang a responder cara a cara casi 40 preguntas de la comunidad.
 
-[^15]: [Proyecto de la Ley de Servicios de Intermediación Digital | Fundación de Cultura Abierta](https://ocf.tw/p/ocf) — Talleres de 2022 sobre la ley propuesta.
+[^15]: [基金會專案：數位中介服務法工作坊 | 財團法人開放文化基金會](https://ocf.tw/p/ocf) — Ante el borrador de 2022 de la Ley de Servicios Intermediarios Digitales, OCF y la comunidad coorganizaron cuatro talleres para discutir el texto artículo por artículo, presentar políticas de regulación de servicios digitales en distintos países y construir consenso social; el borrador quedó suspendido tras la controversia.
 
-[^16]: [Derechos digitales corporativos | Fundación de Cultura Abierta](https://ocf.tw/p/rdr/) — Evaluación de 2023 de 20 plataformas taiwanesas.
+[^16]: [企業數位人權 | 財團法人開放文化基金會](https://ocf.tw/p/rdr/) — Proyecto de OCF con la Asociación Taiwanesa por los Derechos Humanos y otros socios; en 2023 evaluó, con los indicadores internacionales de Ranking Digital Rights, a 20 empresas taiwanesas de telecomunicaciones, redes sociales, bolsas de empleo y comercio electrónico en gobernanza corporativa, libertad de expresión y privacidad.
 
-[^17]: [Resultados de la evaluación de derechos digitales corporativos | Fundación de Cultura Abierta](https://ocf.tw/p/rdr/) — Puntuaciones específicas de Rakuten Market y Taiwan Mobile.
+[^17]: [企業數位人權評比結果 | 財團法人開放文化基金會](https://ocf.tw/p/rdr/) — Resultados del informe de OCF sobre derechos digitales corporativos; incluye puntuaciones como Rakuten Marketplace 33,5, Shopee 31,67, Dcard 30,76, Far EasTone 29,67, Chunghwa Telecom 26,73 y Taiwan Mobile 21,49 sobre 100.
 
-[^18]: [Artículo 42 de la Ley de Prevención de Delitos de Fraude | Base de datos legislativa de la República de China (Taiwán)](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080226) — Texto completo del artículo sobre “detener la resolución”.
+[^18]: [詐欺犯罪危害防制條例第 42 條 | 全國法規資料庫](https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0080226) — Base de datos oficial de leyes del gobierno de la República de China (Taiwán); recoge el texto completo del artículo 42 sobre la facultad de la autoridad competente para ordenar a proveedores de internet “detener la resolución o restringir el acceso” a sitios fraudulentos, vigente desde julio de 2024.
 
-[^19]: [Control de contenido en plataformas intermedias: de “notificación y retirada” a “censura” | Boletín NCC](https://newsweb.ncc.gov.tw/202412/ch5.html) — Explicación del mecanismo DNS RPZ y sus versiones.
+[^19]: [網路中介平臺內容管制：從「通知即下架」到被「封網」 | NCC NEWS 月刊](https://newsweb.ncc.gov.tw/202412/ch5.html) — Revista mensual oficial de la Comisión Nacional de Comunicaciones; explica cómo el mecanismo DNS RPZ hace que un sitio web desaparezca mediante “detención de resolución”, y la diferencia entre RPZ 1.0 (requiere decisión judicial o disposición administrativa) y RPZ 1.5 (solicitud urgente).
 
-[^20]: [Freedom on the Net 2024: Taiwán | Freedom House](https://freedomhouse.org/country/taiwan/freedom-net/2024) — Estadísticas de bloqueos RPZ 1.0 y 1.5.
+[^20]: [Freedom on the Net 2024: Taiwan | Freedom House](https://freedomhouse.org/country/taiwan/freedom-net/2024) — Informe anual de Freedom House sobre libertad en internet; registra que entre junio de 2023 y mayo de 2024 hubo 29 dominios bloqueados mediante RPZ 1.0 con orden judicial, frente a 36.559 dominios bloqueados mediante RPZ 1.5 por solicitudes urgentes.
 
-[^21]: [Freedom on the Net 2024: Taiwán | Freedom House](https://freedomhouse.org/country/taiwan/freedom-net/2024) — Puntuación de 79 y análisis de la falta de supervisión judicial.
+[^21]: [Freedom on the Net 2024: Taiwan | Freedom House](https://freedomhouse.org/country/taiwan/freedom-net/2024) — Freedom House otorgó a Taiwán 79 puntos en libertad de internet, categoría “libre”, séptimo lugar mundial y primero de Asia; también señaló que una de las razones por las que el apartado de restricciones de contenido no obtuvo puntuación perfecta fue la falta de supervisión judicial de RPZ 1.5.
 
-[^22]: [Freedom on the Net 2025: Taiwán | Freedom House](https://freedomhouse.org/country/taiwan/freedom-net/2025) — Informe de 2025 sobre bloqueos sin revisión judicial.
+[^22]: [Freedom on the Net 2025: Taiwan | Freedom House](https://freedomhouse.org/country/taiwan/freedom-net/2025) — Informe 2025 de Freedom House; registra que en la primera mitad del año más de 50.000 sitios web fueron designados para bloqueo por DNS RPZ, la gran mayoría sin revisión judicial, y señala controversias por el uso del mecanismo en contextos no típicamente relacionados con fraude, como foros y plataformas sociales extranjeras.
 
-[^23]: [Digital Rights Weatherball: bloqueos y controversias | Blog de OCF](https://blog.ocf.tw/2024/10/ocf.html) — Serie de artículos de octubre 2024.
+[^23]: [數位人權風向球：封網的應用與爭議 | OCF 部落格](https://blog.ocf.tw/2024/10/ocf.html) — Columna “Barómetro de derechos digitales” del blog de OCF, octubre de 2024; publicó dos entregas sobre bloqueo de sitios y discutió estándares, transparencia y vías de reparación del mecanismo taiwanés de bloqueo.
 
-[^24]: [Reunión de libertad en internet: ¿RPZ excesivo? | KKTIX](https://ocftw.kktix.cc/events/internetfreedom-dec2024) — Evento de diciembre 2024.
+[^24]: [網路自由小聚：DNS RPZ 停止解析過度了嗎？ | KKTIX](https://ocftw.kktix.cc/events/internetfreedom-dec2024) — Página del encuentro de OCF por la libertad de internet en diciembre de 2024; el tema discutía si la medida gubernamental antifraude de bloqueo mediante detención de resolución DNS RPZ era excesiva, con abogados e investigadores bajo la regla de Chatham House.
 
-[^25]: [Procedimiento de uso de DNS RPZ para detener la resolución de sitios ilegales | Ministerio de Desarrollo Digital](https://moda.gov.tw/information-service/govinfo/administrative-directions/ad-resource-management/16778) — Directriz oficial de 2025.
+[^25]: [運用 DNS RPZ 自律機制停止解析違法網站處理參考程序 | 數位發展部](https://moda.gov.tw/information-service/govinfo/administrative-directions/ad-resource-management/16778) — Directriz administrativa oficial del Ministerio de Desarrollo Digital; tras la revisión de 2025, exige explícitamente que la detención de resolución cuente con sentencia judicial, resolución judicial o disposición administrativa, y establece vías de reclamación y reparación.
 
-[^26]: [Diez años de OCF | Fundación de Cultura Abierta](https://ocf.tw/story/ten-years-of-ocf/) — Comentario del director Chen Kuei‑cheng (KC) sobre la posible desviación de valores.
+[^26]: [十年了，OCF | 財團法人開放文化基金會](https://ocf.tw/story/ten-years-of-ocf/) — Retrospectiva de OCF por su décimo aniversario; incluye la reflexión interna textual del director Chen Kuei-cheng (KC): “al ampliarse la organización, las presiones operativas puedan provocar una desviación de los valores centrales”.
 
-[^27]: [Diez años de OCF | Fundación de Cultura Abierta](https://ocf.tw/story/ten-years-of-ocf/) — Comentario del director Zhao Bo‑qiang sobre la desconexión percibida entre código abierto y derechos digitales.
+[^27]: [十年了，OCF | 財團法人開放文化基金會](https://ocf.tw/story/ten-years-of-ocf/) — Retrospectiva de OCF por su décimo aniversario; recoge la cita textual del director Chao Po-chiang sobre la tensión de rumbo entre el núcleo del código abierto y la incidencia en derechos digitales.
 
-[^28]: [Dinero público, código público | Fundación de Cultura Abierta](https://ocf.tw/p/pmpc/) — Programa de 2024 con el Ministerio de Desarrollo Digital y KPMG Taiwan.
+[^28]: [公共出資，公共程式 | 財團法人開放文化基金會](https://ocf.tw/p/pmpc/) — Página oficial de OCF; registra el proyecto de 2024 realizado con el Ministerio de Desarrollo Digital y Deloitte para organizar en todo Taiwán seis cursos de capacitación sobre “Dinero público, código público”.
+
+[^29]: [What is OCF | Open Culture Foundation](https://ocf.tw/en/p/what_is_ocf_en.html) — Sitio oficial en inglés de OCF; reconoce textualmente que sus operaciones dependen de fondos provenientes del gobierno, empresas y otros proyectos. Es una declaración de primera mano para entender su estructura de financiamiento y la tensión sobre independencia.
+
+[^30]: [關於我們 | 台灣人權促進會](https://www.tahr.org.tw/about) — Sitio oficial de la Asociación Taiwanesa por los Derechos Humanos; declara textualmente el principio de independencia de “no aceptar subsidios ni donaciones de partidos políticos, no asumir compras públicas ni proyectos de investigación gubernamentales”, lo que sirve como contraste con la postura financiera de OCF.
+
+[^31]: [Open Culture Foundation | OONI](https://ooni.org/partners/open-culture-foundation/) — Página oficial de socios de OONI, proyecto del Tor Project para monitorear censura en internet; explica la colaboración de OCF en observación de cobertura de internet en Taiwán, traducción de documentación al chino y organización de talleres.
+
+[^32]: [Open Culture Foundation (OCF) | APC](https://www.apc.org/en/open-culture-foundation-ocf) — Sitio oficial de la Asociación para el Progreso de las Comunicaciones (APC); recoge la autodefinición textual de OCF como la “única” organización de Taiwán que cruza los tres campos de incidencia de tecnología abierta, derechos digitales y gobernanza de internet.
+
+[^33]: [Empowering Privacy 東亞隱私報告 | Open Culture Foundation](https://ocf.tw/en/p/dra/ep/) — Informe sobre privacidad en Asia Oriental liderado por OCF; compara las situaciones de Taiwán y Hong Kong: Taiwán se centra en la cédula digital y la falta de opción de exclusión respecto de datos del seguro nacional de salud; Hong Kong, en el efecto inhibidor de la ley de seguridad nacional sobre activistas.
+
+[^34]: [RightsCon 2025 @ Taipei — Introducing OCF | RightsCon](https://www.rightscon.org/introducing-ocf/) — Página oficial de RightsCon; presenta a OCF como socia local de la conferencia de Taipéi 2025 y confirma la escala de 3.000 participantes, 150 países y más de 500 sesiones, así como que fue la primera RightsCon celebrada en Asia Oriental.
+
+[^35]: [RightsCon 2026 因中國施壓排除台灣而取消 | Focus Taiwan](https://focustaiwan.tw/politics/202605090005) — Reportaje en inglés de la Agencia Central de Noticias; relata cómo RightsCon 2026 fue cancelada porque la sede en Zambia había sido donada por China, y la parte china presionó para excluir a taiwaneses y revisar temas relacionados con China; Access Now rechazó esas condiciones y canceló la conferencia.
+
+[^36]: [RightsCon 2026 取消：OCF 的回應 | Focus Taiwan](https://focustaiwan.tw/politics/202605090005) — Reportaje en inglés de la Agencia Central de Noticias; recoge la respuesta textual de una representante de OCF: la interferencia de China en la participación internacional de Taiwán “nunca ha sido nada nuevo para la comunidad de ONG de Taiwán”.

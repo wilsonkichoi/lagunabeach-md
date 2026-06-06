@@ -1,166 +1,169 @@
 ---
-title: "Taiwanese Sensibility: How Korea Fell in Love with Taiwan's Streets"
-description: 'Two guys from Kaohsiung spent a decade photographing 2,000 iron window grilles. Korea spent five years turning them into a cultural phenomenon called 대만감성.'
+title: 'Taiwanese Sensibility: Taiwanese Aesthetics Through Korean Eyes'
+description: "Two Kaohsiung natives spent ten years photographing two thousand types of decorative iron window grilles; Koreans spent five years turning them into a cultural phenomenon. How did “대만감성” make Taiwan's everyday streetscapes into one of Asia's most captivating aesthetic symbols?"
 date: 2026-03-18
+author: 'Taiwan.md'
 category: 'Culture'
+subcategory: '區域特色'
 tags:
   [
-    'Taiwanese sensibility',
+    'Taiwanese Sensibility',
     '대만감성',
-    'Korea',
-    'aesthetics',
-    'streetscape',
-    'cultural export',
-    'iron window grilles',
+    'South Korea',
+    'Aesthetics',
+    'Streetscapes',
+    'Cultural Export',
+    'Decorative Iron Window Grilles',
     'Old House Face',
   ]
-subcategory: 'Regional Features'
-author: 'Taiwan.md'
-difficulty: 'beginner'
 readingTime: 14
-featured: true
 lastVerified: 2026-05-16
 lastHumanReview: true
+featured: true
 translatedFrom: 'Culture/台灣感性.md'
-sourceCommitSha: 'd6e87d07'
+sourceCommitSha: '85926aa3b'
 sourceContentHash: 'sha256:413833a72961c88e'
 sourceBodyHash: 'sha256:9858a809538deaaf'
-translatedAt: '2026-05-17T05:58:00Z'
+translatedAt: '2026-06-07T00:37:30+08:00'
 ---
 
-# Taiwanese Sensibility: How Korea Fell in Love with Taiwan's Streets
+# Taiwanese Sensibility: Taiwanese Aesthetics Through Korean Eyes
 
-> **30-Second Overview:** "대만감성 (Taiwanese Sensibility)" is what young Koreans call the feeling they get from Taiwan's streets — iron window grilles, covered arcades packed with scooters, faded signage, bougainvillea creeping over old apartment walls. Things Taiwanese people want to tear down, Koreans frame as Asia's most captivating aesthetic. After NewJeans and ILLIT filmed music videos in Taiwan in 2024, the concept went viral. In 2025, Seoul International Book Fair made "Taiwanese Sensibility" its theme, drawing 150,000 visitors. But the Korean word 감성 doesn't mean "aesthetics" — it means "the capacity to be moved." The subject is the visitor, not the place.
-
----
-
-## Two Thousand Window Grilles
-
-In 2013, Hsin Yung-sheng and Yang Chao-ching set themselves an "impossibly ambitious goal" in Tainan[^1] — they wanted to find out how many different iron window grille patterns the city had.
-
-Hsin studied interior design. Yang studied information engineering. Both from Kaohsiung, they'd met in 2011 at a shipping container art festival and noticed their cameras kept drifting toward old buildings. They launched "Old House Face" (老屋顏), a studio dedicated to documenting Taiwan's vanishing architectural details. In their first six months in Tainan alone, they photographed over two thousand distinct patterns — geometric lines, birds, fish, flowers, each one hand-bent by an ironworker to a homeowner's taste.
-
-"Then we realized this was an absolute abyss!" Yang said[^1].
-
-These grilles were born between the 1960s and 1980s as practical anti-burglar devices on Taiwanese houses. No two were alike. But as aluminum windows replaced iron ones, old buildings fell to urban renewal, and elderly ironworkers passed away, the craft began to vanish[^2]. What haunts Hsin most isn't the demolition itself: "Even if you rescue an iron window grille and move it elsewhere, the connection and context with the original homeowner vanishes."[^1]
-
-Taiwanese people look at iron grilles and think about whether to install aluminum. Koreans look at them and post them on Instagram with #대만감성.
-
-> **📝 Curator's Note**
-> The Korean word 감성 (gamsong) doesn't simply mean "sensibility" or "aesthetics." It means the capacity to feel deeply, to be moved. 대만감성 isn't "Taiwan's aesthetic" — it's "being moved by Taiwan." The subject of the emotion is the visitor, not the place being visited.
+> **30-second overview:** “대만감성 (Taiwanese sensibility)” is the Korean younger generation’s affectionate name for Taiwan’s streetscapes: decorative iron window grilles, arcades, scooters, faded signs. The very things many Taiwanese want to tear down have become, through Korean lenses, one of Asia’s most captivating aesthetic symbols. In 2024, NewJeans and ILLIT came to Taiwan to film music videos, setting off a wave on social media. In 2025, the Seoul International Book Fair welcomed 150,000 visitors with “Taiwanese Sensibility” as its theme. But what the term really names is not Taiwan’s aesthetics, but the “capacity to be moved by Taiwan”: in Korean, “감성” refers to sensibility itself.
 
 ---
 
-## From One Music Video to a Million Visitors
+## Two Thousand Kinds of Decorative Iron Window Grilles
 
-The phrase "대만감성" began circulating in Korean photography and travel circles around 2019. That year, indie singer-songwriter Car, the garden came to Taiwan to film the music video for "Tree" — nothing but railway tracks, scooters, and corrugated metal houses, the kind of scenery Taiwanese wouldn't look at twice[^3].
+In 2013, Hsin Yung-sheng and Yang Chao-ching set up what they called an “audacious ideal” in Tainan[^1]: they wanted to find out exactly how many kinds of decorative iron window grilles there were in the city.
 
-The real explosion came in 2024. In March, HYBE's rookie girl group ILLIT shot concept photos for their debut EP _Super Real Me_ across Taipei — MRT stations, apartment blocks, convenience stores, all making it into the frame[^4]. In May, NewJeans released the "How Sweet" MV, and every scene — the circular overpass at Huajiang Housing Complex in Wanhua, tree-lined streets in Minsheng Community, rice paddies and a railroad crossing in Jiaoxi, Yilan — was forensically identified and pilgrimaged by Korean fans[^5].
+Hsin studied interior design, and Yang studied information engineering. Both from Kaohsiung, they met in 2011 at the Kaohsiung Container Arts Festival and realized that, without noticing it, both of their camera lenses were always pointed at old houses. They founded the studio Old House Face and drove through the city alley by alley, photographing as they went. Within half a year, they had documented more than two thousand distinct patterns: geometric lines, flowers, birds, fish, insects, and traditional symbols. Every window was a household’s aesthetics and memory.
 
-By year's end, HYUKOH frontman Oh Hyuk and model Hwang Jimin shot their wedding photos in Taipei. The locations included a Huaxi Street ice shop, Banqiao 435 Art Zone, and the Heping Xinsheng pedestrian overpass — a forty-year-old landmark that had appeared in Edward Yang's _Yi Yi_ and Ang Lee's _Eat Drink Man Woman_. The bridge was demolished in November 2024[^6]. Oh Hyuk's photos became its last artistic record.
+“Later we realized this was basically an abyss!” Yang said[^1].
 
-> **✦** "The things being loved are the same things being torn down — that's the deepest paradox of Taiwanese Sensibility."
+These decorative iron window grilles emerged between the 1960s and 1980s as practical anti-theft devices on Taiwanese homes. Blacksmiths bent iron by hand into the patterns homeowners wanted; no two windows were exactly alike. But as aluminum windows replaced iron ones, urban renewal demolished old houses, and aging blacksmiths passed away one after another, the craft has been disappearing[^2]. What pains Hsin most is not demolition itself: “Even if the decorative iron window grilles are rescued and moved somewhere else, their connection and context with the original homeowners are gone.”[^1]
 
-By 2025, Taiwan's Tourism Administration recruited Super Junior's Kyuhyun as its brand ambassador, with the campaign theme "Romance is Around You"[^7]. That June, Taiwan became the featured country at the 70th Seoul International Book Fair under the banner of "Taiwanese Sensibility" — 23 Taiwanese creators, 85 publishers, 550 book titles, 63 events, a 360-square-meter pavilion. Total attendance exceeded 150,000, a record[^8].
+When Taiwanese see decorative iron window grilles, they think about whether it is time to replace them with aluminum windows. When Koreans see decorative iron window grilles, they photograph them and post them with #대만감성.
 
-| 1,000,000+                                             | 150,000                                                    |
-| ------------------------------------------------------ | ---------------------------------------------------------- |
-| Korean visitors to Taiwan in 2024 (3rd largest source) | Seoul Book Fair Taiwan Pavilion visitors (all-time record) |
-
----
-
-## Your Ordinary Life Is Someone Else's Nostalgia
-
-There's a structural reason Koreans are drawn to Taiwan's streets: their own have been demolished.
-
-From the 1990s onward, South Korea underwent aggressive urban renewal. Old neighborhoods were flattened and replaced with uniform high-rises. Taiwan, with its slower pace of urban redevelopment and different land policies, preserved far more of its 1960s-to-80s streetscape[^9]. What Taiwanese call "just daily life," Koreans see as "the landscape we lost."
-
-Korea's recent Newtro (뉴트로, New + Retro) trend has fed into this. But the retro cafés and vintage shops in Seoul are largely manufactured sets. Taiwan's iron grilles and terrazzo floors aren't sets — they're the real thing[^3]. Unintentional nostalgia hits harder than designed nostalgia.
-
-Then there's the pace. Korea's education grind, overtime culture, and intense competition have left younger generations craving slowness. Taiwan's street rhythms — a grandmother brewing tea under an arcade, a cat napping on a scooter seat, a breakfast stall owner unhurriedly flipping an egg pancake — transmit a feeling of "people actually living well"[^9].
-
-Deeper still, Taiwan New Cinema laid the groundwork. Hou Hsiao-hsien's long takes, Edward Yang's urban dissections, Tsai Ming-liang's loneliness — these films have a devoted following among Korean cinephiles. Many Koreans' first mental image of Taiwan came from these movies, and Taiwanese Sensibility's visual language overlaps almost perfectly with those cinematic memories.
-
-> **📝 Curator's Note**
-> The appeal of Taiwanese Sensibility isn't beauty. It's authenticity. Iron grilles weren't installed to look good. Arcades weren't built to be photographed. Precisely because these things weren't made to be seen, they're profoundly moving when someone finally sees them.
+> **📝 Curator’s Note**
+> 감성 (gamsong) in Korean is not merely “sensibility”; it is the “capacity to be moved.” 대만감성 is not “Taiwan’s aesthetics,” but “being moved by Taiwan.” The subject is the perceiver, not the place being perceived.
 
 ---
 
-## The Pilgrimage Map and Its Shadow
+## From One Music Video to One Million People
 
-The places that went viral through Taiwanese Sensibility aren't conventional tourist attractions — they're everyday spots with the texture of lived life: the Huajiang Housing Complex in Wanhua (NewJeans MV), Dadaocheng's Baroque-façade Dihua Street, the tree-lined blocks of Minsheng Community, Tainan's Shennong Street, and the Jiaoxi railroad crossing in Yilan.
+The term “대만감성” appears to have emerged around 2019 in Korean photography and travel communities. That year, Korean indie singer Car, the garden came to Taiwan to film the music video for “Tree.” Its images were railway tracks, scooters, and sheet-metal houses: all scenes of everyday life that Taiwanese people would barely glance at[^3].
 
-But when "imperfect daily life" becomes a tourist draw, tensions follow.
+The real explosion came in 2024. In March, HYBE’s new girl group ILLIT came to Taipei to shoot concept photos for their debut album, _Super Real Me_, with MRT stations, apartments, and convenience stores all appearing in frame[^4]. In May, NewJeans released the music video for “How Sweet.” The circular skybridge at Wanhua’s Huajiang public housing complex, the streets of Minsheng Community, the rice fields and level crossings of Jiaoxi in Yilan: Korean fans identified each location one by one and made pilgrimages to them one by one[^5].
 
-In Taipei, neighborhoods like Yongkang Street and Dadaocheng have already been reshaped by tourism. A coffee shop owner in Ximending observed: "You can only find the same types of stores."[^10] A French documentary filmmaker working in Taipei put it bluntly: "The new buildings are so expensive that only 7-Eleven and high-end restaurants can afford to rent them. And the new buildings all look the same without traditional Taiwanese features."[^10]
+At the end of the year, HYUKOH lead singer Oh Hyuk and model Hwang Ji-min shot a set of wedding photos in Taipei. Their locations included a Huaxi Street ice fruit shop, the Banqiao 435 Art Zone, and the Heping-Xinsheng pedestrian overpass. This forty-year-old pedestrian bridge had appeared in Edward Yang’s _Yi Yi_ and Ang Lee’s _Eat Drink Man Woman_. It was demolished in November 2024[^6]. Oh Hyuk’s wedding photos became the bridge’s final artistic record.
 
-Dihua Street offers a more hopeful model. Through a Transfer of Development Rights (TDR) mechanism, historic building façades have been preserved without mass displacement[^11]. But this approach doesn't scale to every neighborhood.
+> **✦** “The thing being loved is being torn down. The deepest contradiction of Taiwanese sensibility is right here.”
 
-The core tension is this: the scenes Korean cameras celebrate are the same ones Taiwan's urban renewal machine wants to demolish. The Heping Xinsheng overpass where Oh Hyuk shot his wedding photos was torn down a month later.
+By 2025, Taiwan’s Tourism Administration had invited Super Junior’s Kyuhyun to serve as a tourism ambassador under the theme “Romance Is Close By”[^7]. In June of the same year, Taiwan became the Guest of Honor at the 70th Seoul International Book Fair under the theme “Taiwanese Sensibility”: 23 Taiwanese creators, 85 publishers, 550 books, 63 events, and a 360-square-meter Taiwan Pavilion. Total attendance at the fair exceeded 150,000 people[^8].
+
+| 1 million+                                                         | 150,000 people                                                                                                 |
+| ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
+| Korean visitors to Taiwan in 2024, the third-largest source market | Attendance at the Taiwan Pavilion at the 2025 Seoul International Book Fair, the highest in the fair’s history |
 
 ---
 
-## Seeing Yourself Through Foreign Eyes
+## Your Everyday Life Is Someone Else’s Nostalgia
 
-The Korean craze has forced Taiwanese to look at their own surroundings differently.
+There is a structural reason Koreans are fascinated by Taiwan’s streetscapes: their own have already disappeared.
 
-Streetscapes once dismissed as "messy," "dilapidated," and "overdue for redevelopment" have been re-valued through foreign lenses. Designer Liao Hsiao-tzu (廖小子) keeps a sober perspective: "Many people say my designs are very 'Taiwan-flavored,' but I absolutely cannot represent Taiwan." He pushes further: "The rush to define 'Taiwan flavor' — isn't it because we fear that if we can't articulate what Taiwan is, then Taiwan is nothing?"[^12]
+Beginning in the 1990s, South Korea underwent drastic urban renewal. Large numbers of old buildings were demolished and replaced with orderly high-rises. Because of Taiwan’s land policies and the slower pace of urban renewal, Taiwan has preserved a large share of streetscapes from the 1960s through the 1980s[^9]. Taiwan’s “everyday” is, for Koreans, a “landscape already lost.”
 
-Designer Joe Fang (方序中) echoes the point: "This shouldn't be done by one person alone — I cannot define Taiwan's beauty with a single visual logic."[^12]
+In recent years, Newtro (뉴트로) culture has become popular in South Korea: New plus Retro. But Seoul’s retro cafés and nostalgic shops are often deliberately designed sets. Taiwan’s decorative iron window grilles and terrazzo floors are not sets. They are traces of life that have genuinely remained[^3]. Unintentional nostalgia moves people more deeply than meticulously designed retro spaces.
+
+There is also a difference in rhythm. South Korea’s pressure around schooling, overtime work culture, and intense competition have left the younger generation longing for a chance to breathe. The slower pace of Taiwan’s streets: an _a-má_ (grandmother in Tâi-gí, the Taiwanese language)[^amá] making tea under an arcade, a cat sleeping on a scooter seat, a snack-stall owner calmly frying an _danbing_ (egg crepe), conveys the feeling that “someone is living well”[^9].
+
+[^amá]: This site uses the standardized written Tâi-gí form “阿媽” (a-má). In Taiwanese, the standard written character for “grandmother” is “媽”; “嬤” is a later usage from the Mandarin writing system. According to the Ministry of Education’s Dictionary of Frequently Used Taiwan Taigi, the standard written form is “阿媽.”
+
+Digging deeper, there is also the groundwork laid by Taiwan New Cinema. Hou Hsiao-hsien’s long takes, Edward Yang’s urban observation, and Tsai Ming-liang’s aesthetics of solitude have long had a foundation among Korean cinephiles. Many Koreans’ earliest imaginings of Taiwan came from these films, and the visual language of Taiwanese sensibility overlaps strongly with those cinematic memories.
+
+> **📝 Curator’s Note**
+> The appeal of Taiwanese sensibility is not “prettiness,” but “truth.” Decorative iron window grilles were not installed to look good; arcades were not built for photographs. Precisely because they did not exist in order to be seen, they become especially moving when they are seen.
+
+---
+
+## The Pilgrimage Map and Its Shadows
+
+The sites made famous by Taiwanese sensibility bypass traditional tourist attractions and land instead on everyday scenes with a lived-in quality: Wanhua’s Huajiang public housing complex, seen in the NewJeans music video; the Baroque façades of Dihua Street in Dadaocheng; the tree-lined blocks of Minsheng Community; Shennong Street in Tainan; and the level crossings of Jiaoxi in Yilan.
+
+But when “imperfect everyday life” becomes a tourist selling point, tension follows.
+
+In Taipei, the touristification of neighborhoods such as Yongkang Street and Dadaocheng has already changed the look of communities. One café owner in Ximending observed: “You can only find the same kind of shop.”[^10] The diversity of old neighborhoods is flattened by tourist consumption. French documentary filmmaker Jean-Robert Thomann, while shooting in Taipei, said: “The new buildings are too expensive to rent, and only convenience stores and high-end restaurants can afford them. And the new buildings all look the same; they have none of Taiwan’s character.”[^10]
+
+Dihua Street is a relatively fortunate case. Through a transfer of development rights (TDR) mechanism, the façades of old buildings have been preserved without large-scale demolition[^11]. But this method is not applicable to every neighborhood.
+
+The core contradiction of Taiwanese sensibility is here: the scenes Koreans love through their cameras are precisely the objects Taiwan’s urban renewal seeks to tear down. The Heping-Xinsheng pedestrian overpass where Oh Hyuk shot his wedding photos was demolished one month after the shoot.
+
+---
+
+## Seeing Ourselves Again
+
+The popularity of Taiwanese sensibility in South Korea has also forced Taiwanese people to turn back and look at themselves.
+
+Streetscapes once regarded as “messy,” “old,” and “due for urban renewal” have, through outsiders’ lenses, regained aesthetic value. Designer Aaron Nieh remains clear-eyed about the trend: “Many people say my designs have a strong ‘Taiwanese flavor,’ but I absolutely cannot represent Taiwan.” He presses the question further: “Isn’t the desire to define Taiwanese flavor wholesale rooted in the fear that if we cannot say what Taiwan is, it is as if Taiwan is nothing?”[^12]
+
+Designer Joe Fang takes a similar view: “This is not something that should be completed by me alone, because I cannot define Taiwan’s sense of beauty through a single visual logic and imagination.”[^12]
 
 > **💡 Did You Know?**
-> Over one million Korean tourists visited Taiwan in 2024, making up 12.77% of all international visitors — the third-largest source country. In January 2025 alone, 118,000 Koreans arrived, a 4% year-on-year increase[^13].
+> In 2024, more than 1 million Korean travelers visited Taiwan, accounting for 12.77% of all international visitors that year and ranking third. In January 2025 alone, the number reached 118,000, a 4% year-on-year increase[^13].
 
-Writer Lu Hung-chin captured it well: "For Taiwanese people, Taiwanese Sensibility is as daily as breathing — DNA fused into the bloodstream."[^14] You don't notice your own breathing until someone tells you how good it sounds.
+Writer Lu Hung-chin once made a precise observation: “For Taiwanese people, Taiwanese sensibility is an everyday reality like breathing; it is a gene already dissolved into the blood.”[^14] You do not notice that you are breathing until someone says your breathing sounds beautiful.
 
-The 2025 Seoul Book Fair curation pushed toward deeper understanding. Its six thematic zones — Literature, Lifestyle, Images, Land & Travel, Food & Entertainment, Historical Sensibility — weren't just showcasing Taiwan's visual charm but unfolding the cultural fabric behind it[^8]. Culture Minister Lee Yuan said at the opening that Taiwan's sensibility emerges from a small island's "resilience and inclusivity," absorbing external influences while developing a uniquely distinctive cultural depth[^15].
+The curatorial program for the 2025 Seoul International Book Fair also sought to push toward a deeper understanding. Its six thematic sections: literature, living, images, land travel, food and entertainment, and historical sensibility, placed the focus on the cultural texture behind these aesthetics[^8]. At the opening of the book fair, Minister of Culture Li Yuan said that Taiwan’s sensibility comes from a small island’s “resilience and inclusiveness,” absorbing outside influences while growing a distinctive cultural depth of its own[^15].
 
-After years of visiting old houses across Taiwan, Yang Chao-ching offered this: "Houses are like vessels — every family brews a different drink, depending on what emotions we pour in."[^1]
+After visiting countless old houses, Yang Chao-ching once said: “A house is like a container. The drink each household mixes is different; it depends on what kinds of feeling we pour into it.”[^1]
 
 ---
 
-The strangest thing about Taiwanese Sensibility may be this: the street scenes it points to — the iron grilles, the old apartment walls, the bougainvillea — none of them were made to be admired. They simply survived. And things that have survived will, one day, die.
+Perhaps the most paradoxical thing about Taiwanese sensibility is this: the streetscapes it points to, the decorative iron window grilles, the bougainvillea on the exterior walls of old apartments, none of them existed in order to be appreciated. They simply came alive. And things that come alive will one day die.
 
-Going through a decade's worth of photographs, Hsin Yung-sheng has noticed that many of the grilles he shot are already gone. Some were torn off. Some went down with the whole building. He says his camera is now racing against the wrecking ball[^2].
+While organizing ten years of photographs of decorative iron window grilles, Hsin Yung-sheng discovered that many he had photographed were already gone. Some had been torn down; in some cases, even the houses were gone. He said that the speed at which he now takes photographs is racing against the speed of demolition[^2].
 
-The Heping Xinsheng overpass is an empty lot now. But in Oh Hyuk's wedding photos, the bridge is still there.
+The Heping-Xinsheng pedestrian overpass has already become an empty lot. But in Oh Hyuk’s wedding photos, that bridge is still there.
 
 **Further Reading**:
 
-- [Taiwanese Architecture](/art/taiwanese-architecture) — From the Japanese colonial era to the present, how Taiwan's architecture grew layer upon layer into what it is today
-- [Taiwan Cinema](/art/taiwan-cinema) — The long takes of Hou Hsiao-hsien, Edward Yang, and Tsai Ming-liang are the cinematic DNA of Taiwanese Sensibility
-- [Taiwanese Tea Ceremony and Aesthetic Living](/culture/taiwanese-tea-ceremony-and-aesthetic-living) — Another dimension of Taiwan's slow-life ethos, seen through the tea table
-- [Convenience Store Culture](/lifestyle/convenience-store-culture) — The late-night glowing convenience store is a quintessential Taiwanese Sensibility scene
-- [Taiwan's Religion and Temple Culture](/culture/taiwan-religion-and-temple-culture) — Temples are the most vivid layer of color and faith in Taiwan's streetscape
+- [Taiwanese Architecture](/art/台灣建築) — From the Japanese colonial period to the present, how Taiwanese architecture accumulated layer by layer into its current form
+- [Taiwanese Cinema](/art/台灣電影) — The long takes of Hou Hsiao-hsien, Edward Yang, and Tsai Ming-liang are the cinematic genes of Taiwanese sensibility
+- [Taiwanese Tea Ceremony and Everyday Aesthetics](/culture/台灣茶道與生活美學) — Another representative form of Taiwan’s slow living; reading Taiwanese everyday aesthetics through the tea setting
+- [Taiwan’s Convenience Store Culture](/lifestyle/台灣便利商店文化) — The convenience store glowing late at night is a classic scene of Taiwanese sensibility
+- [Taiwanese Religion and Temple Culture](/culture/台灣宗教與寺廟文化) — Temples are the most intense layer of color and faith in Taiwan’s streetscapes
+- [Chou Tzu-yu](/people/周子瑜) — One of the first Taiwanese faces to appear along Koreans’ path of learning about Taiwan
+- [Tehching Hsieh](/art/謝德慶) — A Taiwanese performance artist who makes “time and life” directly into artworks; another, more extreme version of Taiwanese sensibility
 
 ## References
 
-[^1]: [Old House Face Studio Interview](https://okapi.books.com.tw/article/3681) — OKAPI in-depth interview documenting how Hsin Yung-sheng and Yang Chao-ching founded Old House Face in 2013, their iron window grille documentation project, and their preservation philosophy.
+[^1]: [Interview with Old House Face Studio](https://okapi.books.com.tw/article/3681) — An in-depth interview from OKAPI Reading Life Magazine, documenting the full course of Hsin Yung-sheng and Yang Chao-ching’s work from founding Old House Face Studio in 2013 to publishing multiple specialist books on decorative iron window grilles, as well as their ideas on preservation.
 
-[^2]: [Iron Window Grilles (鐵窗花)](https://zh.wikipedia.org/zh-tw/%E9%90%B5%E7%AA%97%E8%8A%B1) — Wikipedia entry on Taiwan's decorative iron window grilles, covering historical development, craft characteristics, and the crisis of disappearance.
+[^2]: [Decorative Iron Window Grilles](https://zh.wikipedia.org/zh-tw/%E9%90%B5%E7%AA%97%E8%8A%B1) — The Wikipedia entry on “decorative iron window grilles,” summarizing the historical development, craft characteristics, and disappearance crisis of Taiwan’s decorative iron window grilles, with multiple academic and media sources.
 
-[^3]: [From K-pop to Book Fairs: A Deep Read of Taiwanese Sensibility's Sweep Through Korea](https://www.wowlavie.com/article/250025783) — La Vie 2025 feature tracing 대만감성 from photography niche to K-pop explosion, including Car, the garden's "Tree" MV and Newtro culture context.
+[^3]: [From K-pop to the Book Fair: A Deeper Reading of Taiwanese Sensibility Sweeping South Korea](https://www.wowlavie.com/article/250025783) — A 2025 feature report from La Vie, analyzing the full timeline of 대만감성 from its emergence in photography circles to its explosion through K-pop, including Car, the garden’s “Tree” music video and the context of Newtro culture.
 
-[^4]: [ILLIT](https://en.wikipedia.org/wiki/Illit) — Wikipedia entry recording ILLIT's January 2024 Taiwan filming for debut EP concept photos and March 2024 official debut.
+[^4]: [ILLIT Super Real Me](https://en.wikipedia.org/wiki/Illit) — The Wikipedia entry on ILLIT, recording the January 2024 Taiwan shoot for concept photos for the debut EP and the group’s formal debut in March of the same year.
 
-[^5]: [NewJeans "How Sweet" MV Filming in Taiwan](https://news.vocofm.com/en/entertainment-news/96629/) — VOCO News report detailing "How Sweet" MV filming locations across Wanhua, Minsheng Community, and Jiaoxi, with ADOR's official statement.
+[^5]: [NewJeans "How Sweet" MV filming in Taiwan](https://news.vocofm.com/en/entertainment-news/96629/) — A VOCO News report detailing the filming locations for the “How Sweet” music video, including Wanhua’s Huajiang public housing complex, Minsheng Community, and Jiaoxi in Yilan, as well as ADOR’s official statement.
 
-[^6]: [HYUKOH Oh Hyuk's Taipei Wedding Photo Locations](https://www.bella.tw/articles/travel&foodies/50953/taiwanese-retro-wedding-photoshoot-locations-top5) — Bella.tw guide to Oh Hyuk and Hwang Jimin's December 2024 wedding photo shoot at Heping Xinsheng overpass, Huaxi Street, and Banqiao 435 Art Zone.
+[^6]: [HYUKOH Oh Hyuk’s Taipei Wedding Photo Locations](https://www.bella.tw/articles/travel&foodies/50953/taiwanese-retro-wedding-photoshoot-locations-top5) — Bella.tw’s complete list of the locations where Oh Hyuk and Hwang Ji-min shot wedding photos in December 2024, including Taipei’s Heping-Xinsheng pedestrian overpass, Huaxi Street, and the Banqiao 435 Art Zone.
 
-[^7]: [Super Junior Kyuhyun as Taiwan Tourism Ambassador](https://www.cna.com.tw/news/ahel/202408160067.aspx) — CNA 2024 report on Kyuhyun's appointment as Taiwan's tourism ambassador with the "Romance is Around You" campaign.
+[^7]: [Super Junior’s Kyuhyun Serves as Taiwan Tourism Ambassador](https://www.cna.com.tw/news/ahel/202408160067.aspx) — A 2024 Central News Agency report on Kyuhyun being invited to serve as Taiwan tourism ambassador, promoting the theme “Romance Is Close By,” with four new promotional videos filmed in 2025.
 
-[^8]: [Taiwan and Its 'Sensibility': Seoul's 2025 Guest of Honor](https://publishingperspectives.com/2025/06/taiwan-and-its-sensibility-seouls-2025-guest-of-honor/) — Publishing Perspectives English coverage of Taiwan as 2025 Seoul Book Fair featured country, detailing curatorial scale, six thematic zones, and 23 Taiwanese creators.
+[^8]: [Taiwan and Its 'Sensibility': Seoul's 2025 Guest of Honor](https://publishingperspectives.com/2025/06/taiwan-and-its-sensibility-seouls-2025-guest-of-honor/) — An English-language report from Publishing Perspectives detailing Taiwan’s curatorial scale as Guest of Honor at the 2025 Seoul International Book Fair, the design of its six thematic sections, the list of 23 Taiwanese creators, and the results of rights negotiations.
 
-[^9]: [Why Korean Tourists Are Going Crazy for Taiwan](https://english.cw.com.tw/article/article.action?id=3933) — CommonWealth Magazine English analysis of Korean visitors' structural fascination with Taiwan: urban renewal speed gap, Newtro culture extension, slow-life appeal.
+[^9]: [Why Korean Tourists Are Going Crazy for Taiwan](https://english.cw.com.tw/article/article.action?id=3933) — An English-language analysis from _CommonWealth Magazine_ on Korean tourists’ structural fascination with Taiwan: the differing pace of urban renewal, the extension of Newtro culture, the longing for slow living, and other deeper reasons.
 
-[^10]: [Modernity, Gentrification, and Café Culture in Taipei](https://newbloommag.net/2018/08/24/modernity-gentrification-cafe-tpe/) — New Bloom Magazine report on gentrification tensions in Taipei neighborhoods, featuring observations from local café owners and a foreign documentary filmmaker.
+[^10]: [Modernity, Gentrification, and Café Culture in Taipei](https://newbloommag.net/2018/08/24/modernity-gentrification-cafe-tpe/) — A New Bloom Magazine report on the tensions of touristification and gentrification in Taipei neighborhoods, including observations on community change from a local café owner and a foreign documentary filmmaker.
 
-[^11]: [Alternative Gentrification at Dihua Street, Taipei](https://www.tandfonline.com/doi/abs/10.1080/13527258.2023.2250776) — Taylor & Francis 2023 academic paper studying Dihua Street's use of Transfer of Development Rights to preserve historic building façades.
+[^11]: [Alternative Gentrification at Dihua Street, Taipei](https://www.tandfonline.com/doi/abs/10.1080/13527258.2023.2250776) — A 2023 Taylor & Francis academic article studying Dihua Street’s urban renewal model of preserving historic building façades through a transfer of development rights (TDR) mechanism.
 
-[^12]: [Liao Hsiao-tzu × Joe Fang: What Is Taiwan's Aesthetic?](https://www.wowlavie.com/article/ae1902136) — La Vie feature dialogue between two leading Taiwanese designers on the anxiety of defining "Taiwan flavor" and the case for pluralist aesthetics.
+[^12]: [Aaron Nieh × Joe Fang: What Is Taiwan’s Sense of Beauty?](https://www.wowlavie.com/article/ae1902136) — A La Vie feature presenting an in-depth conversation between two Taiwanese designers on the definition of “Taiwanese flavor,” reflecting on anxiety over cultural definition and plural aesthetics.
 
-[^13]: [Taiwan Tourism Statistics 2024](https://admin.taiwan.net.tw/english/info/News?a=1329&id=33574) — Taiwan Tourism Administration official English statistics: 1,003,086 Korean visitors in 2024, 12.77% of total international arrivals, ranking third.
+[^13]: [Taiwan Tourism Statistics 2024](https://admin.taiwan.net.tw/english/info/News?a=1329&id=33574) — Official English statistics from Taiwan’s Tourism Administration: in 2024, Korean visitors to Taiwan totaled 1,003,086, accounting for 12.77% of international visitors and ranking third.
 
-[^14]: [Lu Hung-chin, "Taiwanese Sensibility"](https://reading.udn.com/read/story/7048/8942251) — UDN Reading essay likening Taiwanese Sensibility to "DNA fused into the bloodstream" and "breathing-like daily life," using food and memory as interpretive threads.
+[^14]: [Lu Hung-chin, “Taiwanese Sensibility”](https://reading.udn.com/read/story/7048/8942251) — An essay from United Daily News’s reading channel, comparing Taiwanese sensibility to “a gene dissolved into the blood” and “everyday life like breathing,” using food and memory as clues to interpret the cultural substrate.
 
-[^15]: [Taiwan at the Seoul Book Fair Under the Banner of "Taiwanese Sensibility"](https://www.tibe.org.tw/tw/news_detail/4/1702) — TiBE official news on Culture Minister Lee Yuan's remarks on Taiwan's resilience and inclusivity, with curatorial advisor Rex How's full program outline.
+[^15]: [Taiwan Participates in the Seoul International Book Fair under the Theme “Taiwanese Sensibility”](https://www.tibe.org.tw/tw/news_detail/4/1702) — Official news from the Taipei Book Fair Foundation, including Minister of Culture Li Yuan’s remarks on the resilience and inclusiveness of Taiwanese culture and the full curatorial plan led by Rex How as curatorial consultant.
