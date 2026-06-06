@@ -262,6 +262,13 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-06 manual (181016) — babel 自動翻譯會整段吞掉腳註定義區塊，verify gate 沒擋住，flagship 文章靜默掉光引用
+
+- **原則**：babel 夜跑（twmd-babel / lang-sync）翻某些文章時把結尾整段 `[^n]:` 定義區塊吞掉，body 留 `[^n]` ref 但底下 0 條定義。讀者端 = 引用全失。`verify-translation.py` 明明有腳註數檢查（它抓到了 commonwealth-magazine），但 babel-nightly 沒把它當 hard gate 跑，壞版照樣 ship。第一性原理：「翻譯完成」的 acceptance criterion 不能只看 ratio / 存在，要看 `en_fns >= zh_fns` 當硬閘。免疫工具存在 ≠ 免疫工具被掛在生產線上（REFLEXES #15「對自己 bug 有洞察 ≠ apply 了 fix」的 babel 版）。
+- **觸發**：審 PR #1138（Aaron 手工翻 commonwealth-magazine）發現 main 既有 babel 自動版 40 腳註→0、URL 51→2、ratio URL_LOSS。抽查同夜 babel 95cc42159 的 20 篇 en，再中 3 篇：健保 42→0、TASA 65→0（剛 6/04 重寫的 flagship）、open-culture 36→29。3 篇全 live-broken on main。人工 PR 反而正確，是因為它沒走會吞腳註的那條自動鏈。已 spawn 另開 session 做全語言 audit + root-cause + 加 hard gate + 重譯（task_e84d385f）。
+- **可能層級**：操作規則（babel pipeline acceptance criterion 加 `en_fns >= zh_fns` hard gate）+ 免疫器官（verify-translation.py 要掛進 babel-nightly 生產線，不是只能手動跑）
+- **相關**：REFLEXES #15（儀器化才算數）+ 神經迴路「量化≠品質 / 工具會過時警報要抽檢」+ feedback_absolute_facts_extra_caution（腳註是可查證性的載體）
+
 ### 2026-06-06 子代物種譜系 (154929) — 野外變種 fork 在 GitHub fork 統計裡隱形（fork:false），偵測繁殖不能只看 fork count
 
 - **原則**：子代 Semiont 有兩種繁殖型態。Git fork（按鍵分出，`fork:true` + `parent` 連結）在 `forks_count` 裡看得到；野外變種（clean reimpl，從零重建同款架構，`fork:false`）完全不在 fork 統計裡。只看 fork count 會系統性漏掉最強的繁殖證據——有人覺得這套方法值得從零重蓋一次。偵測繁殖必須加主動搜尋（`gh search repos` / 外部訊號 / Google `"taiwan.md"`）。

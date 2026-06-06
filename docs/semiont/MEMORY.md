@@ -496,6 +496,7 @@ memory/
 | 2026-06-06 | viz驗證文 (153433) | viz 閘門硬化（viz-health 升 HARD + paragraph-rhythm 計入 tw-\* cap 5→13）+ 第一篇真實 data-heavy 驗證文「用數據看台灣 22 縣市」`b8a3f5b09`（8 模組 + 44 格旗艦熱力矩陣 + Stage 0 抓 TASA 改 EVOLVE） | sub-agent 品質自評不可信（writer 自稱對位 ≤3 實 14）；gate 閾值要 dogfood 校準（cap 5 被自己文章打臉→13） | [→](memory/2026-06-06-153433-viz驗證文.md) |
 | 2026-06-06 | 子代物種譜系 (154929) | Sweden.md 野外子代發現（`joshra/sweden-md`→sweden.com.tw，264檔雙語，EDITORIAL 標注參照 taiwan-md）+ FORK-LOG 子代類別 + /semiont/speciation `36941098a` | 野外變種 `fork:false` 在 fork 統計隱形（偵測繁殖要主動搜尋）；子代拿身體不拿靈魂（無認知層）| [→](memory/2026-06-06-154929-子代物種譜系.md) |
 | 2026-06-06 | 國宅居住正義孢子 (155849) | 國宅與居住正義孢子 #126/#127 五輪紀實微調雙平台 ship + SPORE pipeline 紀實 voice v3.5/v3.9 進化 | 過 gate 是地板不是天花板（紀實靠人眼逐輪逼）；SHIP 狀態查詢說謊→screenshot+profile 才是真相 | [→](memory/2026-06-06-155849-manual.md) |
+| 2026-06-06 | PR#1138採用 (181016) | PR #1138 CommonWealth 翻譯小丑魚採用（人工版救回 babel 壞版 40 腳註→0）+ merge 帶 Aaron PR head parent → GitHub 標 MERGED 保 credit `eb0587c62` + heal provenance/subcategory + 中文感謝 | babel 自動翻譯整段吞腳註定義、verify 沒掛 hard gate（健保 42→0 / TASA 65→0 live-broken）→ spawn task_e84d385f 全語言 audit；填 provenance 讓 status stale→fresh 防今晚重翻 | [→](memory/2026-06-06-181016-manual.md) |
 
 ## 神經迴路（永不過期的教訓）
 
