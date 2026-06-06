@@ -262,6 +262,20 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-06 viz驗證文 (153433) — sub-agent 的「品質自評」跟「事實 claim」一樣會騙人，REFLEXES #31 要擴張到自評
+
+- **原則**：派出去的 sub-agent 回報「我守住了某條品質紀律」（對位 ≤3 / 破折號 ≤N / 字數達標）時，主 session 不能採信，必須自己跑 gate（prose-health / word-count …）。品質自評比事實 claim 更會騙人，因為作者對自己作品天生帶「想說好」的偏誤——分身不是故意騙，是它真的以為自己守住了。
+- **觸發**：2026-06-06「用數據看台灣 22 縣市」fresh Opus writer 回報「對位句型 ≤3」，主 session 跑 prose-health 實測 **14**，差近 5 倍。主 session 修到 2 才 ship。證據：[memory/2026-06-06-153433-viz驗證文](memory/2026-06-06-153433-viz驗證文.md) + [diary 同 id](diary/2026-06-06-153433-viz驗證文.md)
+- **可能層級**：通用反射（REFLEXES #31 延伸：sub-agent claim ≠ oracle，原本講「事實」，本案擴張到「品質/合規自評」）
+- **相關**：REFLEXES #31（主 session 重驗是 hard gate）+ feedback_agent_writefile_hallucination（agent 結尾幻覺 policy/claim）
+
+### 2026-06-06 viz驗證文 (153433) — gate 閾值要用真實產出 dogfood 校準，不是憑想像設
+
+- **原則**：造一條品質閘門（density cap / threshold）時，憑想像設的數字容易把關卡設在「連自己的好產出都過不了」的高度，因為設計時腦中只有「抓壞文章」，沒有「我自己的好文章長什麼樣」。先寫出代表性的好產出，再用它回頭校準閾值。
+- **觸發**：2026-06-06 paragraph-rhythm tw-\* 折抵 cap 第一版設 5，被自己 dogfood 的 8 圖表 data panorama 打臉（仍 WARN 1.28）。哲宇 callout「8+3~5 資訊圖表啦」後改 13。證據：commit f628f1cb2 + [diary 2026-06-06-153433](diary/2026-06-06-153433-viz驗證文.md)
+- **可能層級**：操作規則（plugin/gate 設計 SOP：新 threshold 要附 dogfood 校準語料，不是拍腦袋）
+- **相關**：article-health plugin 家族 staged-promotion pattern（WARN soft-launch → vc≥3 後升 HARD 也是一種 dogfood 校準）
+
 ### 2026-06-06 twmd-spore-harvest-am (063706) — Chrome MCP 連線 2 cycle 連續 unavailable → routine 飛輪在無 observer Chrome session 時自然 idle
 
 **原則**：spore-harvest 是 Taiwan.md 唯一需要 active paired browser 的 routine（其他 routine 都靠 git / npm / Python / WebFetch，無外部 device dependency）。哲宇 Mac 不開機 / Chrome 未啟動 / Claude in Chrome extension 未 pair → `list_connected_browsers` 回空陣列 → hard gate 失守 → routine 飛輪在無 observer 時被動 idle。對位 ROUTINE-PROMPT-CONTRACT rollback「inline > pointer for cron context」教訓的兄弟 case：本條是「routine 仰賴非 always-on 外部 device 的 fragility surface」— pipeline 寫得再 inline 也敵不過 `[]` 回應。
