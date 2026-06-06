@@ -3,9 +3,9 @@ title: 'SPORE-PIPELINE'
 description: '孢子產線主流程（process layer）— 5 stage PICK/VERIFY/WRITE/SHIP/HARVEST + Step N.M (v3.8)'
 type: 'factory-canonical'
 status: 'canonical'
-current_version: 'v3.8'
-last_updated: 2026-05-26
-last_session: 'cranky-newton-220237'
+current_version: 'v3.9'
+last_updated: 2026-06-06
+last_session: '2026-06-06-國宅居住正義-spore'
 sister_docs:
   - 'SPORE-WRITING.md'
   - 'SPORE-VERIFY.md'
@@ -18,7 +18,7 @@ upstream_canonical:
   - '../editorial/EDITORIAL.md'
 ---
 
-# SPORE-PIPELINE.md — 孢子產線主流程（process layer）v3.8
+# SPORE-PIPELINE.md — 孢子產線主流程（process layer）v3.9
 
 > **第一性原理**：這份文件是 AI 可執行的。任何 AI agent 讀完本檔 + WRITING + VERIFY，應該能獨立完成一篇孢子的選題、品檢、撰寫、發佈、收割。
 >
@@ -274,7 +274,7 @@ VERIFY 全過 → 進 WRITE。
 **Routine / manual 都強制 `Read` 完整 SPORE-WRITING.md**（不 head / 不 grep / 不憑記憶），落 ACK：
 
 ```
-✅ SPORE-WRITING ack: §朋友 tone prime + §模板速查表(6 模板) + §Wave 2 plugin gate + §三板斧 + §晶晶體禁用 全讀完。Family judged = <viral A/B/C/D | F-公開信 | E-串文>
+✅ SPORE-WRITING ack: §朋友 tone prime + §模板速查表(6 模板) + §Wave 2 plugin gate + §三板斧 + §晶晶體禁用 + §紀實文學 voice 五方向+終局自檢 全讀完。Family judged = <viral A/B/C/D | F-公開信 | E-串文>
 ```
 
 寫完 spore body 落 `docs/factory/spore-blueprints/{N}-{slug}.md` 後**強制跑**：
@@ -311,6 +311,7 @@ python3 scripts/tools/article-health.py docs/factory/spore-blueprints/{N}-{slug}
 - **事實查核表**（[SPORE-VERIFY.md §事實查核閘](SPORE-VERIFY.md)）— 7 類 claim audit，全 ✅ 才放行 prose
 - **§11 書寫節制**（[SPORE-VERIFY.md §§11 書寫節制閘](SPORE-VERIFY.md)）— `article-health.py --check=prose-health` HARD=0
 - **三板斧自檢**（[SPORE-WRITING.md §深層 pattern 自檢三板斧](SPORE-WRITING.md)）— 不是 / 破折號 / 不僅 各條 ≤ 1 次
+- **🆕 紀實文學終局自檢（v3.9）**（[SPORE-WRITING.md §紀實文學 voice 五個微調方向 + 終局自檢](SPORE-WRITING.md)）— 過上面三 gate 後問「**有辦法再微調 更接近紀實文學與大家的生活，語感與故事更完整順暢嗎？**」逐條過五方向（地點起手 / 拿掉口號 / 接回生活 / 長句連貫 / 首尾呼應 image 收尾），能再進一階就再改一輪。**過 gate 是地板不是天花板**，routine 無 observer 也至少自改一輪。觸發：2026-06-06 國宅 #126 哲宇 directive「未來都要照這個品質與方向來寫」
 
 ---
 
@@ -786,3 +787,5 @@ _前一版 v2.9（2026-05-03）含 1334 行 prose dump + Step 0/1/2.5/2.6/2.7/3a
 _v3.5 | 2026-05-11 cranky-newton — Spine restoration 對齊 REWRITE v5.0 + MAINTAINER v2.0：頂部加 ASCII spine（5 stage box-frame + Step N.M 顯化）+ Top 5 最常忘 step + 跨檔案職責分工 standalone table（明確跟 WRITING / VERIFY / HARVEST 4 sub-canonical 分工）。觸發：[reports/pipelines-audit-2026-05-11.md](../../reports/pipelines-audit-2026-05-11.md) Tier A.2 SPORE family audit。5 階段 prose body 不動（已健康，Direction A 拆檔保留）。_
 
 _v3.8 | 2026-05-26 twmd-rewrite-daily 18:00 cycle — Platform allocation default 從 Threads only → both (Threads + X) — 哲宇 directive「完整去除所有 Platform 建議避免只發單一的平台」。觸發事件：2026-05-26 18:23 routine 走 v3.7 Threads only default，shipped Threads #92 大宇雙劍 但漏發 X，哲宇 callout「為什麼變 Threads only？」+ 同時 callout 文章 media-richness gate (image 0 < 2 hard) 沒攔 spore-publish。根因分析：(1) SPORE-INBOX entry「Platform 建議: both」是 spore-pick-daily 寫的 P0 observer-explicit signal，被 P1 routine v3.7 default「Threads only」凌駕；(2)「X 觸及低就不發」假設在實戰反向驗證有結構性問題（少做 X = niche audience 結構性缺席 + spore 寫作成本主要在 VERIFY+WRITE，SHIP 多 click 一次幾乎零邊際成本）。修補：(a) Routine context auto-decision table default 改 both，例外條款改用 article frontmatter `platformExclude: ['x']` 或 `['threads']` 顯式標單發；(b) Top 5 最常忘 #3 文字同步；(c)「為什麼 Threads only default」段重寫為「為什麼 both default」+ 文件根因； (d) SPORE-INBOX 全檔 strip `Platform 建議` field（schema + 12 entries 共 14 lines）— 之前的雙建議 noise 已不需要，default 即 both；(e) REWRITE-PIPELINE + ROUTINE.md routine description 同步更新；(f) SPORE-PICK-PIPELINE 無 platform field generation 不需動。對應 [LESSONS-INBOX 同日 entry](../semiont/LESSONS-INBOX.md)：「routine default 不可凌駕 entry-specific signal」+「default 應為 inclusive (both)，exclude 走 explicit flag」。_
+
+_v3.9 | 2026-06-06 國宅與居住正義 #126 — Stage 3 §寫完強制 gate 加第 4 條「紀實文學終局自檢」+ §v6.3 STRICT READ ACK 加「§紀實文學 voice 五方向+終局自檢」。哲宇 directive「把這個 voice 拿回去進化 spore-pipeline，未來都要照這個品質與方向來寫，把原則跟思考寫進去 + 加上自檢『有辦法再微調 更接近紀實文學與大家的生活，語感與故事更完整順暢嗎』」。Meat 在 [SPORE-WRITING v3.5 §紀實文學 voice 五個微調方向 + 終局自檢](SPORE-WRITING.md)（craft canonical），本檔只加 process gate pointer（薄殼 SSOT）。核心：**過 plugin gate 是地板不是天花板，能再進一階就再改一輪**。Worked example #126 跑五輪微調哲宇拍板「很棒」。對應 REFLEXES #15。_
