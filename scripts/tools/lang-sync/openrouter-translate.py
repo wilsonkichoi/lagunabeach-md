@@ -12,7 +12,7 @@ Usage:
     # Translate all articles in a group file
     python3 openrouter-translate.py --group .lang-sync-tasks/ja/_group-A.json
 
-    # Override model (default: tencent/hy3-preview:free)
+    # Override model (default: openai/gpt-oss-120b:free)
     python3 openrouter-translate.py --group ... --model "deepseek/deepseek-chat:free"
 
 Requires: ~/.config/taiwan-md/credentials/openrouter.key
@@ -25,7 +25,7 @@ KNOWLEDGE = REPO / "knowledge"
 CREDS_DIR = Path.home() / ".config/taiwan-md/credentials"
 KEY_FILE = CREDS_DIR / "openrouter.key"
 ENV_FILE = CREDS_DIR / ".env"
-DEFAULT_MODEL = "tencent/hy3-preview:free"
+DEFAULT_MODEL = "openai/gpt-oss-120b:free"
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 LANG_NAMES = {

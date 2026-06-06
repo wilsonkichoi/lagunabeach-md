@@ -35,6 +35,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 import time
 from pathlib import Path
@@ -207,6 +208,17 @@ def translate_one(article: dict, lang: str, cascade: TranslationCascade,
         output = output[3:].lstrip("\n")
     if output.endswith("```"):
         output = output[:-3].rstrip("\n")
+
+    # Footnote completeness hard gate (2026-06-06): reject truncated/incomplete output.
+    # The cascade model can hit its token limit and cut off the article tail (image
+    # credits + footnote definitions), silently de-citationing the translation. If the
+    # output has fewer [^n]: definitions than the source, don't save it — return failure
+    # so the article stays stale and is retried (possibly by a different backend) next run.
+    fn_def_re = re.compile(r"(?m)^\[\^[^\]]+\]:")
+    src_fns = len(fn_def_re.findall(zh_content))
+    out_fns = len(fn_def_re.findall(output))
+    if src_fns > 0 and out_fns < src_fns:
+        return False, f"footnote loss ({src_fns}→{out_fns} defs) via {backend_used} — incomplete, not saved", backend_used
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(output + "\n")

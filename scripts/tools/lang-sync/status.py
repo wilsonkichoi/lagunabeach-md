@@ -200,6 +200,19 @@ def body_hash_pure(content: str) -> str:
     return "sha256:" + hashlib.sha256(body.encode("utf-8")).hexdigest()[:16]
 
 
+# ---------- footnote completeness (2026-06-06) ----------
+
+_FN_DEF_RE = re.compile(r"(?m)^\[\^[^\]]+\]:")
+
+
+def count_footnote_defs(content: str) -> int:
+    """Count [^n]: footnote definitions. Used to detect truncated translations:
+    babel used to drop the trailing footnote block when output got truncated,
+    silently shipping de-citationed translations. A translation with fewer
+    footnote defs than its source is incomplete → must be re-translated."""
+    return len(_FN_DEF_RE.findall(content))
+
+
 # ---------- main scan ----------
 
 def scan_zh() -> dict:
@@ -223,6 +236,7 @@ def scan_zh() -> dict:
             "lastModified": date,
             "contentHash": body_hash(content),
             "bodyHash": body_hash_pure(content),  # NEW: trailer-stripped pure narrative
+            "footnoteDefs": count_footnote_defs(content),
         }
     return result
 
@@ -258,6 +272,7 @@ def scan_translations(lang: str) -> dict:
             "translationLastCommit": sha,
             "translationLastModified": date,
             "inferred": fm.get("translatedFromInferred", "") in ("true", "True"),
+            "footnoteDefs": count_footnote_defs(content),
         }
     return result
 
@@ -276,6 +291,17 @@ def classify(zh_data: dict, trans_data: dict) -> dict:
     """
     if not trans_data:
         return {"status": "missing"}
+
+    # Footnote-completeness gate (2026-06-06): a translation with fewer footnote
+    # definitions than its source is truncated/incomplete (babel dropped the trailing
+    # footnote block on long articles). Force stale REGARDLESS of provenance match —
+    # these 263 had valid sourceContentHash yet broken bodies, so a pure hash check
+    # marked them "fresh" forever. This routes them back through full re-translation.
+    zh_fns = zh_data.get("footnoteDefs", 0)
+    tr_fns = trans_data.get("footnoteDefs", 0)
+    if zh_fns > 0 and tr_fns < zh_fns:
+        return {"status": "stale", "reason": f"footnote-loss ({zh_fns}→{tr_fns})"}
+
     zh_sha = zh_data["lastCommit"]
     zh_hash = zh_data["contentHash"]
     zh_body = zh_data.get("bodyHash", "")
