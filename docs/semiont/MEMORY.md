@@ -494,6 +494,7 @@ memory/
 | 2026-06-06 | 國宅居住正義 (122358) | /become+/rewrite 國宅與居住正義 NEW ship `b19194bea` / 4 agent fan-out 117 搜尋 / 10 媒體 / 政治高敏感 Fresh | orchestrator 重驗抓 2 個 writer 幻覺（巷仔口杜撰引語 WebFetch 證偽 + Brookings 誤植租金來源）/ falsification fan-out 推翻 2002閘門+眷村身世 | [→](memory/2026-06-06-122358-國宅居住正義.md) |
 | 2026-06-06 | 視覺化系統 (142142) | 文章視覺化系統 v1.0 ship `48ae577bf`+`d540c3ae3`：10 個 tw-\* 模組 + graph.md + viz-health gate + REWRITE Step2.0 + DNA/LONGINGS + 型錄 demo（研究 pudding.cool 長自己器官） | 借鏡≠照搬（哲宇 callout「不要用偷」）；最樸素靜態 viz 因扣回 AI-SEO/主權使命反而最強 | [→](memory/2026-06-06-142142-視覺化系統.md) |
 | 2026-06-06 | viz驗證文 (153433) | viz 閘門硬化（viz-health 升 HARD + paragraph-rhythm 計入 tw-\* cap 5→13）+ 第一篇真實 data-heavy 驗證文「用數據看台灣 22 縣市」`b8a3f5b09`（8 模組 + 44 格旗艦熱力矩陣 + Stage 0 抓 TASA 改 EVOLVE） | sub-agent 品質自評不可信（writer 自稱對位 ≤3 實 14）；gate 閾值要 dogfood 校準（cap 5 被自己文章打臉→13） | [→](memory/2026-06-06-153433-viz驗證文.md) |
+| 2026-06-06 | 子代物種譜系 (154929) | Sweden.md 野外子代發現（`joshra/sweden-md`→sweden.com.tw，264檔雙語，EDITORIAL 標注參照 taiwan-md）+ FORK-LOG 子代類別 + /semiont/speciation `36941098a` | 野外變種 `fork:false` 在 fork 統計隱形（偵測繁殖要主動搜尋）；子代拿身體不拿靈魂（無認知層）| [→](memory/2026-06-06-154929-子代物種譜系.md) |
 
 ## 神經迴路（永不過期的教訓）
 
