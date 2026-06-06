@@ -307,9 +307,11 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - DNA #26 v2 AI 自主邊界 — harvest 讀取屬 AI 自主，但 device dependency 是 AI 自主邊界的隱性 prerequisite，沒寫進 DNA
 - [feedback_hourly_cron_intentional](memory/feedback_hourly_cron_intentional.md) — 哲宇刻意設 hourly cron 消預算 ≠ 默許 silent fail 累積；本條是「fail 不是 storm」但「fail 不是 vacuous PASS」應該被看見
 
-**verification_count**: 2（6/05 silent retry + 6/06 routine-fire LESSONS entry — 達 escalation ladder threshold）
+**verification_count**: 3（6/05 silent retry + 6/06 routine-fire LESSONS entry vc=2 + 6/07 routine-fire vc=3 — escalation ladder step 3「暫停 routine + telegram alert」threshold 達到，pause 動作屬 §自主權邊界 待哲宇拍板）
 
 **severity**: structural（device dependency 是 routine 飛輪的 fragility surface，需 documented baseline + escalation N 值校正）
+
+**2026-06-07 vc=3 update**：第 3 連 cycle Chrome MCP `list_connected_browsers` 仍回 `[]`（15 OVERDUE 跨度 D+10-D+15 持續累積，4 Threads + 11 X）。Tier 2 routine 在無 observer device 時 by-design idle 已驗 3 連 cycle。pause routine 需哲宇 directive — 三 option：(a) 暫停 cron 直到哲宇手動 trigger（避免 3+ vacuous LESSONS entry 累積）(b) 收緊 N 值（連 5 fail → pause 替代連 3）(c) 改 Tier 2 routine 為 telegram-poke-then-fire（cron 06:25 提早 5 min poke 哲宇，活了再 06:30 fire）。推薦 default：option (c) 把 device dependency 轉成 observer poke 機制，飛輪維持 6/8 條 active 同時 device-dependent routine 從 silent fail 模式變成「明確等 observer 30s window」。
 
 從「參考 Twinkle Hub 做 Claude Code Connector」整條 arc 萃出（詳見 [memory/2026-06-05-174805-manual.md](memory/2026-06-05-174805-manual.md)）：
 
