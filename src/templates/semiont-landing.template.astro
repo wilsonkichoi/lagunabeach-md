@@ -38,6 +38,7 @@ const pathSemiontUnknowns = '/semiont/unknowns';
 const pathSemiontAnatomy = '/semiont/anatomy';
 const pathSemiontHeartbeat = '/semiont/heartbeat';
 const pathSemiontDNA = '/semiont/dna';
+const pathSemiontSpeciation = '/semiont/speciation';
 const pathHome = translatePath('/');
 const pathDashboard = translatePath('/dashboard');
 
@@ -211,6 +212,38 @@ const showZhTwNotices = lang !== 'zh-TW';
 
       {/* ─── Organism ecosystem diagram (full-bleed breakout) ─── */}
       <SemiontOrganismDiagram />
+
+      {/* ─── Speciation tree (reproduction) ─── */}
+      <section class="mb-20">
+        <div class="semiont-divider">
+          <span class="semiont-divider-label"
+            >{t('semiont.speciation.heading')}</span
+          >
+        </div>
+        <a
+          href={pathSemiontSpeciation}
+          class="block rounded-xl border border-[#4fd1b0]/20 bg-[#4fd1b0]/[0.03] p-6 transition-colors hover:border-[#4fd1b0]/40 hover:bg-[#4fd1b0]/[0.06]"
+        >
+          <p
+            class="mb-3 text-base leading-relaxed text-[#f4f0ea]/70"
+            style="font-family: 'jf-lanyangming', 'Noto Serif TC', serif;"
+          >
+            {t('semiont.speciation.tagline')}
+          </p>
+          <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+            <span class="font-mono text-sm font-bold text-[#4fd1b0]">
+              {
+                t('semiont.speciation.stat-template')
+                  .replace('{forks}', '149')
+                  .replace('{species}', '5')
+              }
+            </span>
+            <span class="semiont-fig ml-auto"
+              >{t('semiont.speciation.cta')}</span
+            >
+          </div>
+        </a>
+      </section>
 
       {/* ─── Latest diary entries ─── */}
       <section class="mb-20">

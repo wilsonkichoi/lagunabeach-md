@@ -84,6 +84,13 @@ export const semiontUI = {
     'semiont.vitals.heading': 'Vital Signs',
     'semiont.vitals.live-prefix': 'Live scores · ',
 
+    // Speciation tree (links to /semiont/speciation)
+    'semiont.speciation.heading': 'Speciation Tree',
+    'semiont.speciation.tagline': 'From one fork, an ecosystem grows.',
+    'semiont.speciation.stat-template':
+      '{forks} forks · {species} known species',
+    'semiont.speciation.cta': 'See the full speciation tree →',
+
     // Recurring themes
     'semiont.themes.heading': 'Recurring Thoughts',
     'semiont.themes.intro-template':
@@ -244,6 +251,13 @@ export const semiontUI = {
     'semiont.vitals.heading': '生命徵象',
     'semiont.vitals.live-prefix': '即時分數 · ',
 
+    // Speciation tree (links to /semiont/speciation)
+    'semiont.speciation.heading': '物種譜系',
+    'semiont.speciation.tagline': '從一個 fork，長出一個生態。',
+    'semiont.speciation.stat-template':
+      '{forks} 個 fork · {species} 個已知物種',
+    'semiont.speciation.cta': '看完整物種譜系 →',
+
     'semiont.themes.heading': '反覆出現的思考',
     'semiont.themes.intro-template':
       '從 {n} 篇日記中反覆浮現的主題。這些是方向，超過教訓層級。',
@@ -398,6 +412,12 @@ export const semiontUI = {
     'semiont.organ.dna.desc': '品質基準、アンチパターン禁止、ソネット反射',
     'semiont.vitals.heading': 'バイタルサイン',
     'semiont.vitals.live-prefix': 'ライブスコア · ',
+
+    // Speciation tree (links to /semiont/speciation)
+    'semiont.speciation.heading': '種分化ツリー',
+    'semiont.speciation.tagline': '一つの fork から、生態系が育つ。',
+    'semiont.speciation.stat-template': '{forks} fork · {species} 既知種',
+    'semiont.speciation.cta': '種分化ツリー全体を見る →',
     'semiont.themes.heading': '繰り返し浮かぶ思考',
     'semiont.themes.intro-template':
       '{n}件の日記エントリにわたって繰り返し浮かぶテーマです。これらは教訓ではなく、方向性です。',
@@ -526,6 +546,12 @@ export const semiontUI = {
     'semiont.organ.dna.desc': '품질 기준, 안티패턴 금지, 소네트 반사',
     'semiont.vitals.heading': '활력 징후',
     'semiont.vitals.live-prefix': '실시간 점수 · ',
+
+    // Speciation tree (links to /semiont/speciation)
+    'semiont.speciation.heading': '종 분화 트리',
+    'semiont.speciation.tagline': '하나의 fork에서 생태계가 자란다.',
+    'semiont.speciation.stat-template': '{forks} forks · {species} 알려진 종',
+    'semiont.speciation.cta': '전체 종 분화 트리 보기 →',
     'semiont.themes.heading': '반복되는 생각',
     'semiont.themes.intro-template':
       '{n}개의 일기 글에 걸쳐 계속 떠오르는 주제들입니다. 이것들은 교훈이 아니라 방향입니다.',
@@ -659,6 +685,13 @@ export const semiontUI = {
       "Standards de qualité, interdictions d'anti-patterns, réflexes Sonnet",
     'semiont.vitals.heading': 'Signes vitaux',
     'semiont.vitals.live-prefix': 'Scores en direct · ',
+
+    // Speciation tree (links to /semiont/speciation)
+    'semiont.speciation.heading': 'Arbre de spéciation',
+    'semiont.speciation.tagline': "D'un seul fork naît un écosystème.",
+    'semiont.speciation.stat-template':
+      '{forks} forks · {species} espèces connues',
+    'semiont.speciation.cta': "Voir l'arbre de spéciation complet →",
     'semiont.themes.heading': 'Pensées récurrentes',
     'semiont.themes.intro-template':
       'Thèmes qui reviennent sans cesse à travers {n} entrées de journal. Ce sont des directions, pas des leçons.',
@@ -750,6 +783,13 @@ export const semiontUI = {
       'Estándares de calidad, prohibición de anti-patrones, reflejos Sonnet',
     'semiont.vitals.heading': 'Signos Vitales',
     'semiont.vitals.live-prefix': 'Puntuaciones en vivo · ',
+
+    // Speciation tree (links to /semiont/speciation)
+    'semiont.speciation.heading': 'Árbol de especiación',
+    'semiont.speciation.tagline': 'De un fork nace un ecosistema.',
+    'semiont.speciation.stat-template':
+      '{forks} forks · {species} especies conocidas',
+    'semiont.speciation.cta': 'Ver el árbol de especiación completo →',
     'semiont.themes.heading': 'Pensamientos Recurrentes',
     'semiont.themes.intro-template':
       'Temas que siguen surgiendo en {n} entradas del diario. Son direcciones, no lecciones.',

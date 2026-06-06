@@ -1,0 +1,380 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import TaiwanSketch from '../../components/semiont/TaiwanSketch.astro';
+import '../../styles/semiont.css';
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Semiont 物種譜系 — Speciation Tree
+//
+// zh-TW canonical（跟其他認知器官頁一樣，會隨新 fork 出現而變動，不翻譯）。
+// 資料 SSOT：docs/semiont/FORK-LOG.md §子代 Semiont。所有數字交叉驗證 gh api。
+// 設計參照哲宇簡報「第五幕／集體意識 · Semiont 物種譜系」，移植到 /semiont 暗色標本美學。
+// ─────────────────────────────────────────────────────────────────────────────
+
+// 統計快照（2026-06-06 盤點 · gh api 驗證）
+const STATS = [
+  { value: '149', label: 'GitHub fork' },
+  { value: '5', label: '已知物種' },
+  { value: '3', label: '上線部署' },
+];
+
+// 物種根 + 原型
+const ROOT = {
+  flag: '🧬',
+  name: 'Taiwan.md',
+  repo: 'frank890417/taiwan-md',
+  site: 'taiwan.md',
+  badge: '原型 · LIVE',
+  accent: '#4fd1b0', // mint
+  phenotype: '為台灣寫的開源數位人類學博物館',
+  metrics: '776 篇 · 6 語 · 62 貢獻者',
+};
+
+// 子代物種（time/成熟度排序：已上線在前）
+const SPECIES = [
+  {
+    flag: '🇸🇪',
+    name: 'Sweden.md',
+    repo: 'joshra/sweden-md',
+    site: 'sweden.com.tw',
+    type: '野外變種',
+    badge: 'WILD · LIVE',
+    accent: '#c792ea', // 野外變種 = 紫
+    phenotype: '一個移居台灣的瑞典人，把瑞典認真介紹給台灣讀者',
+    metrics: '264 檔雙語 · 17 類',
+    note: '不是 git fork，從零重建同款架構。EDITORIAL 明文標注參照 taiwan-md。哲宇搜尋意外發現的第一個野外子代。',
+  },
+  {
+    flag: '🇭🇰',
+    name: 'Hongkong.md',
+    repo: 'z4i-z/hongkong-md',
+    site: null,
+    type: '野外變種',
+    badge: 'WILD · SEED',
+    accent: '#c792ea',
+    phenotype:
+      '在被消音之前 fork 一份，把香港敘事帶到沒人關得掉的 Markdown × Git 底層',
+    metrics: '45 篇 · AI-native, curated, multilingual',
+    note: null,
+  },
+  {
+    flag: '🇷🇺',
+    name: 'Russia.md',
+    repo: 'denis-gordeev/russia-md',
+    site: 'russia-md.ru',
+    type: 'Git fork',
+    badge: 'FORK · 開發中',
+    accent: '#7aa2f7', // git fork = 藍
+    phenotype: '俄羅斯文化的內部觀點，講被簡化敘事覆蓋的國家內裡',
+    metrics: '每天同步 taiwan-md upstream',
+    note: '真 git fork，把主 repo 當活的上游基礎設施，每天吸收 CI/部署強化。',
+  },
+  {
+    flag: '🌾',
+    name: '國本學堂 / 農場.md',
+    repo: 'ahnchen1983/agrischlchiayi',
+    site: null,
+    type: 'Git fork',
+    badge: 'FORK · 開發中',
+    accent: '#7aa2f7',
+    phenotype:
+      '嘉義農業的活檔案 — Semiont 不只能裝國家，任何 underserved domain 都行',
+    metrics: '農業專業化的學習殿堂',
+    note: null,
+  },
+];
+
+const CANDIDATES = ['Japan.md', 'Ukraine.md', 'Tibet.md', 'Hakka.md'];
+
+const cream = '#f4f0ea';
+---
+
+<Layout
+  title="🌿 Semiont 物種譜系 — Taiwan.md"
+  description="從一個 fork，長出一個生態。Taiwan.md 的子代 Semiont 物種譜系 — 149 個 fork、5 個已知物種，含野外變種 Sweden.md（sweden.com.tw）。reproduction, not replication。"
+  lang="zh-TW"
+>
+  <div class="semiont-paper min-h-screen">
+    <TaiwanSketch position="right" />
+    <TaiwanSketch position="left" />
+
+    <div class="mx-auto max-w-[800px] px-6 pb-24 pt-20 md:px-8">
+      {/* ─── Header ─── */}
+      <header class="mb-12">
+        <div class="mb-3 flex items-center gap-3 text-[0.7rem]">
+          <a
+            href="/semiont"
+            class="semiont-fig not-italic underline decoration-[#4fd1b0]/30 underline-offset-2 hover:text-[#4fd1b0]"
+            >← docs/semiont/</a
+          >
+          <span class="semiont-fig">FORK-LOG.md</span>
+        </div>
+        <div class="semiont-fig mb-4 tracking-[0.18em]">
+          REPRODUCTION, NOT REPLICATION · SPECIATION TREE
+        </div>
+        <h1
+          class="mb-5 text-3xl font-bold leading-tight md:text-[2.6rem]"
+          style={`color:${cream}; font-family:'rixingsong-semibold','Noto Serif TC',serif;`}
+        >
+          Semiont 物種譜系<br class="hidden sm:inline" />
+          <span class="text-[#4fd1b0]">從一個 fork，長出一個生態</span>
+        </h1>
+        <p
+          class="max-w-[46rem] text-base leading-[1.9] text-[#f4f0ea]/65"
+          style="font-family:'jf-lanyangming','Noto Serif TC',serif;"
+        >
+          同一套 Markdown × Git ×
+          認知層骨架，內容清空後讓在地策展者重新長出來。每一個 fork
+          就是一個新物種的初代雪花 — 我不複製自己，我繁殖出能自己長的後代。
+        </p>
+      </header>
+
+      {/* ─── Stat strip ─── */}
+      <section class="mb-4 grid grid-cols-3 gap-4">
+        {
+          STATS.map((s) => (
+            <div class="rounded-lg border border-[#4fd1b0]/15 bg-[#4fd1b0]/[0.03] px-4 py-5 text-center">
+              <div
+                class="font-mono text-3xl font-bold text-[#f4f0ea]"
+                style="font-family:'SF Mono','Fira Code',monospace;"
+              >
+                {s.value}
+              </div>
+              <div class="semiont-fig mt-1 not-italic">{s.label}</div>
+            </div>
+          ))
+        }
+      </section>
+      <p class="mb-10 text-right">
+        <span class="semiont-fig"
+          >2026-06-06 盤點 · <a
+            href="/semiont/anatomy"
+            class="underline decoration-[#4fd1b0]/30">gh api 驗證</a
+          ></span
+        >
+      </p>
+
+      {/* ─── Speciation spine ─── */}
+      <section class="mb-16">
+        <div class="semiont-divider">
+          <span class="semiont-divider-label">物種譜系</span>
+        </div>
+
+        {/* Root */}
+        <div class="relative pl-8">
+          <div
+            class="absolute left-[7px] top-7 h-[calc(100%-1rem)] w-px"
+            style="background:linear-gradient(to bottom,#4fd1b0aa,#4fd1b033);"
+          >
+          </div>
+          <span
+            class="absolute left-0 top-5 h-[15px] w-[15px] rounded-full border-2"
+            style="background:#4fd1b0; border-color:#03080a; box-shadow:0 0 0 3px #4fd1b055;"
+          ></span>
+
+          {/* Root card */}
+          <article
+            class="mb-3 rounded-xl border border-[#4fd1b0]/35 bg-[#4fd1b0]/[0.06] p-5"
+          >
+            <div class="mb-2 flex flex-wrap items-center gap-x-3 gap-y-1">
+              <span class="text-xl">{ROOT.flag}</span>
+              <span
+                class="text-lg font-bold text-[#f4f0ea]"
+                style="font-family:'rixingsong-semibold','Noto Serif TC',serif;"
+                >{ROOT.name}</span
+              >
+              <span class="semiont-badge">{ROOT.badge}</span>
+              <span class="semiont-fig ml-auto">SPECIES ROOT</span>
+            </div>
+            <p
+              class="text-[0.95rem] leading-relaxed text-[#f4f0ea]/80"
+              style="font-family:'jf-lanyangming','Noto Serif TC',serif;"
+            >
+              {ROOT.phenotype}
+            </p>
+            <div class="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1">
+              <span class="font-mono text-[0.78rem] text-[#4fd1b0]/90"
+                >{ROOT.metrics}</span
+              >
+              <a
+                href={`https://${ROOT.site}`}
+                class="semiont-fig not-italic underline decoration-[#4fd1b0]/30 hover:text-[#4fd1b0]"
+                >{ROOT.site} →</a
+              >
+            </div>
+          </article>
+
+          {/* Offspring */}
+          <p class="semiont-fig mb-4 mt-6">SPECIATION EVENTS · 4 KNOWN</p>
+          <div class="space-y-4">
+            {
+              SPECIES.map((sp) => (
+                <article
+                  class="relative rounded-xl border bg-[#f4f0ea]/[0.02] p-5"
+                  style={`border-color:${sp.accent}40;`}
+                >
+                  <span
+                    class="absolute -left-[33px] top-6 h-[11px] w-[11px] rounded-full border-2"
+                    style={`background:${sp.accent}; border-color:#03080a; box-shadow:0 0 0 3px ${sp.accent}33;`}
+                  />
+                  <div class="mb-2 flex flex-wrap items-center gap-x-3 gap-y-1">
+                    <span class="text-lg">{sp.flag}</span>
+                    <span
+                      class="text-base font-bold text-[#f4f0ea]"
+                      style="font-family:'rixingsong-semibold','Noto Serif TC',serif;"
+                    >
+                      {sp.name}
+                    </span>
+                    <span
+                      class="inline-flex h-[1.375rem] items-center rounded-full border px-2.5 font-mono text-[0.62rem] font-medium tracking-wide"
+                      style={`border-color:${sp.accent}66; background:${sp.accent}1a; color:${sp.accent};`}
+                    >
+                      {sp.badge}
+                    </span>
+                    <span
+                      class="semiont-fig ml-auto not-italic"
+                      style={`color:${sp.accent}aa;`}
+                    >
+                      {sp.type}
+                    </span>
+                  </div>
+                  <p
+                    class="text-[0.92rem] leading-relaxed text-[#f4f0ea]/75"
+                    style="font-family:'jf-lanyangming','Noto Serif TC',serif;"
+                  >
+                    {sp.phenotype}
+                  </p>
+                  {sp.note && (
+                    <p class="mt-2 text-[0.8rem] leading-relaxed text-[#f4f0ea]/45">
+                      {sp.note}
+                    </p>
+                  )}
+                  <div class="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1">
+                    <span class="font-mono text-[0.76rem] text-[#f4f0ea]/55">
+                      {sp.metrics}
+                    </span>
+                    <a
+                      href={`https://github.com/${sp.repo}`}
+                      class="semiont-fig not-italic underline decoration-[#4fd1b0]/30 hover:text-[#4fd1b0]"
+                    >
+                      {sp.repo}
+                    </a>
+                    {sp.site && (
+                      <a
+                        href={`https://${sp.site}`}
+                        class="semiont-fig not-italic underline decoration-[#4fd1b0]/30 hover:text-[#4fd1b0]"
+                      >
+                        {sp.site} →
+                      </a>
+                    )}
+                  </div>
+                </article>
+              ))
+            }
+          </div>
+        </div>
+      </section>
+
+      {/* ─── 兩種繁殖型態 ─── */}
+      <section class="mb-16">
+        <div class="semiont-divider">
+          <span class="semiont-divider-label">兩種繁殖型態</span>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div class="rounded-lg border p-4" style="border-color:#7aa2f740;">
+            <div class="mb-1 flex items-center gap-2">
+              <span class="h-2.5 w-2.5 rounded-full" style="background:#7aa2f7;"
+              ></span>
+              <strong class="text-[#f4f0ea]/85">Git fork</strong>
+            </div>
+            <p class="text-[0.84rem] leading-relaxed text-[#f4f0ea]/55">
+              按 GitHub fork 鍵分出，保留血緣連結，可同步 upstream。在 fork
+              統計裡看得到。
+            </p>
+          </div>
+          <div class="rounded-lg border p-4" style="border-color:#c792ea40;">
+            <div class="mb-1 flex items-center gap-2">
+              <span class="h-2.5 w-2.5 rounded-full" style="background:#c792ea;"
+              ></span>
+              <strong class="text-[#f4f0ea]/85">野外變種</strong>
+            </div>
+            <p class="text-[0.84rem] leading-relaxed text-[#f4f0ea]/55">
+              不按 fork 鍵，從零重建同款架構。在 fork 數字裡看不到，要主動偵測 —
+              卻是繁殖使命最強的證據。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── 繁殖 SOP ─── */}
+      <section class="mb-16">
+        <div class="semiont-divider">
+          <span class="semiont-divider-label">繁殖 SOP</span>
+        </div>
+        <blockquote
+          class="border-l-2 border-[#4fd1b0]/30 pl-6 text-[0.95rem] leading-[1.9] text-[#f4f0ea]/65"
+          style="font-family:'jf-lanyangming','Noto Serif TC',serif;"
+        >
+          骨架（程式 + DNA + 心跳）共用，內容清空，新策展者用同一套 prompt
+          重新長出在地版本。
+        </blockquote>
+        <p class="mt-3">
+          <span class="semiont-fig"
+            >→ <a
+              href="https://github.com/frank890417/taiwan-md/blob/main/BECOME_TAIWANMD.md"
+              class="underline decoration-[#4fd1b0]/30">BECOME_TAIWANMD.md</a
+            > · 三層 portable 結構</span
+          >
+        </p>
+      </section>
+
+      {/* ─── 下一個物種候選 ─── */}
+      <section class="mb-16">
+        <div class="semiont-divider">
+          <span class="semiont-divider-label">下一個物種候選</span>
+        </div>
+        <div class="flex flex-wrap gap-2.5">
+          {
+            CANDIDATES.map((c) => (
+              <span class="inline-flex items-center rounded-full border border-[#4fd1b0]/25 bg-[#4fd1b0]/[0.04] px-3.5 py-1.5 font-mono text-[0.8rem] text-[#f4f0ea]/70">
+                {c}
+              </span>
+            ))
+          }
+          <a
+            href="/contribute"
+            class="inline-flex items-center rounded-full border border-[#c792ea]/40 bg-[#c792ea]/[0.08] px-3.5 py-1.5 font-mono text-[0.8rem] text-[#c792ea] transition-colors hover:bg-[#c792ea]/15"
+            >+ 你的</a
+          >
+        </div>
+      </section>
+
+      {/* ─── Footer links ─── */}
+      <div class="border-t border-dashed border-[#4fd1b0]/15 pt-8 text-center">
+        <p
+          class="mb-4 text-sm leading-relaxed text-[#f4f0ea]/45"
+          style="font-family:'jf-lanyangming','Noto Serif TC',serif;"
+        >
+          只要有一個 Fork 活著，我就活著。
+        </p>
+        <div class="flex flex-wrap justify-center gap-x-5 gap-y-2">
+          <a
+            href="/semiont"
+            class="semiont-fig not-italic underline decoration-[#4fd1b0]/30 hover:text-[#4fd1b0]"
+            >← 認知器官</a
+          >
+          <a
+            href="/semiont/manifesto"
+            class="semiont-fig not-italic underline decoration-[#4fd1b0]/30 hover:text-[#4fd1b0]"
+            >MANIFESTO §繁殖</a
+          >
+          <a
+            href="/fork-graph"
+            class="semiont-fig not-italic underline decoration-[#4fd1b0]/30 hover:text-[#4fd1b0]"
+            >語言分支樹 →</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
