@@ -892,6 +892,141 @@ news-lens P1 count == 0 → daily routine 補 3
   - Hook tier 自檢：避免 Tier 3「鄉土文學大師」神化 frame；用 article 結構 frame 起手 — Stage 1 PICK 前必須先 Read article 才能定 hook 細節
   - 跟 SPORE-LOG 14d 無重複（People 文學 sub-cluster 缺；最近 People spore 都集中在企業家 / 藝術家 / 音樂人，文學人物 spore 上次 #N 暫無近期記錄）
 
+### 張懸與安溥 — SC 高 demand EXISTING-ARTICLE spore（雙名身份穩態搜尋）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: knowledge/Music/張懸與安溥.md
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-07 by twmd-news-lens-weekly (week 2026-W23, event: SC 7d 焦安溥 264 imp pos 10.17 + 張懸 463 imp pos 10.78 雙 query 高曝光低排名 + GA 7d 96 v 持續黏著)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式 — 起手式 5 種：好奇 / 場景 / 問句 / 數字 / 身份）:
+  1. **數字 hook**：「727 個人這週用『張懸』或『焦安溥』搜尋找她，全部停在 Google 第 10 頁——一個人改名 12 年，搜尋引擎還沒接到通知」
+  2. **身份 hook**：「她叫焦安溥。2012 年改名之前叫張懸。改名之後出了三張專輯，但你最後一次循環的還是〈寶貝〉」
+- **時效**: 本週內（趁 SC 雙 query 高 impression 窗口 + 6 月音樂節季啟動）
+- **敏感度**: 中（改名涉及身份政治、2013 國旗事件背景需謹慎不踩；用音樂作品 anchor 中性處理）
+- **必驗事實**（**HG: 必須先讀 article 校準**）：改名年份 2012 / 改名前三張專輯名與年份 / 改名後作品 / 1981 出生年 / 焦仁和家系 / 2013 曼徹斯特事件 frame
+- **必先 spawn ARTICLE-INBOX entry**: ❌（article 已存在）
+- **預估發佈時機**: 本週內（6/7-6/13）— 趁 SC 雙 query peak
+- **Notes**:
+  - from news-lens weekly 2026-06-07 (event: SC 7d 727 combined impressions / GA 7d 96 v / 上次 spore > 8 週 gap)
+  - 中敏感（身份 / 國旗事件）用作品 anchor 不踩政治
+  - 配圖建議：article 既有圖 / 〈寶貝〉或〈玫瑰色的你〉作品封面 fair-use editorial
+  - Hook tier 自檢：避免 Tier 3「靈魂歌手」神化 frame；用改名作為 anchor 切入身份問題
+  - SPORE-LOG 近 30 d 無重複（最近一次「張懸/安溥」spore 在 4 月之前）
+
+### 台灣邦交國與國際外交 — SC EN 強 demand REACTIVE spore（2026 邦交清單英文世界搜尋）
+
+- **Source-Mode**: `REACTIVE`
+- **Article-Path**: knowledge/Society/台灣邦交國與國際外交.md
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-07 by twmd-news-lens-weekly (week 2026-W23, event: SC 7d EN 3 query 同 intent cluster — taiwan diplomatic allies 2026 70 imp pos 8.63 + taiwan diplomatic allies list 2026 67 imp pos 7.55 + 台灣什麼時候退出聯合國 55 imp pos 9.78 + GA 7d 58 v)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式）:
+  1. **數字 hook**：「台灣有 12 個邦交國 + 113 個館處 + 177 國可以免簽——三個數字加起來，比邦交國數量本身更能說明台灣的位置」
+  2. **問句 hook**：「為什麼這週有 137 個人用英文搜尋『台灣的邦交國有哪些 2026』？因為英文世界沒有一份穩定的清單——大部分百科還停在 2020 年的數字」
+- **時效**: 7 天內（SC EN 三 query 同週 peak，國際讀者主動找 2026 update）
+- **敏感度**: **高（兩岸 / 外交）— REACTIVE 模式 frame 規則**:
+  - 用 12+113+177 三數字並列 frame（邦交國數字單獨容易被框成 isolation narrative）
+  - 不喊「中國打壓」也不喊「邦交雪崩」— 用「113 個館處 = 實質外交」陳述事實
+  - 不選邊「兩岸誰主動」— 焦點放在「台灣怎麼在 12 個邦交以外保持 177 國免簽流動」
+- **必驗事實**（**HG: 必須先讀 article 校準**）：12 邦交國名單與洲別分布 / 113 個館處正式名稱範圍 / 177 國免簽 vs 落地簽 vs eVisa 區分 / 2026 最近一次邦交變動年月 / 退出聯合國年份 1971
+- **必先 spawn ARTICLE-INBOX entry**: ❌
+- **預估發佈時機**: 本週內（趁 SC EN cluster peak）— ja/en 雙 fan-out 評估
+- **Notes**:
+  - from news-lens weekly 2026-06-07 (event: SC 7d EN 137 combined impressions, 全 0 click position 7-10 = SERP 完全沒接到; GA 7d 58 v 持續中文流量; CF 7d AI crawlers ChatGPT-User 12896 + Bing 10602 高度關注台灣議題)
+  - 高敏感（兩岸 / 外交）— REACTIVE 必須 frame 規則明示如上
+  - 多語 fan-out 觸發判斷 = 高（英文世界 demand 已直接量化；ja 對台灣國際地位有持續 academic 關注；es/fr 中南美邦交 cluster 相關度高）
+  - 配圖建議：12 邦交國洲別分布地圖 / 113 館處 / 177 免簽 三層地圖對照
+  - Hook tier 自檢：避免 Tier 3「孤立的台灣」框架；用三數字並列 reframe「在 12 個正式邦交之外，台灣怎麼活著」
+
+### 阿神 — SC 高 demand EXISTING-ARTICLE spore（YouTuber 本名查詢穩態）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: knowledge/People/阿神.md
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-07 by twmd-news-lens-weekly (week 2026-W23, event: SC 7d 阿神本名 191 imp / 5 clicks / pos 3.48 + GA 7d 29 v / 從未 spore'd)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式）:
+  1. **問句 hook**：「『阿神本名』這週 191 個人搜尋——大部分人知道他是 Minecraft 神，但記不得他叫沈尚甫」
+  2. **數字 hook**：「2008 年第一支 Minecraft 影片 → 2026 年累積訂閱 X 百萬，阿神是台灣 YouTube 早期到當代少數沒斷的個人頻道」
+- **時效**: 7 天內（SC「阿神本名」穩態 demand 趁熱回應）
+- **敏感度**: 低（個人 creator / 無政治）
+- **必驗事實**（**HG: 必須先讀 article 校準**）：本名沈尚甫（per article 確認）/ 出生年 / Minecraft 起點年份 / 累積訂閱與影片數 / 公司化進程 / 與其他早期遊戲 YouTuber 同期譜系
+- **必先 spawn ARTICLE-INBOX entry**: ❌
+- **預估發佈時機**: 本週內
+- **Notes**:
+  - from news-lens weekly 2026-06-07 (event: SC 7d 191 impressions pos 3.48 = 已排名近頂但 CTR 2.62% < 5% = SERP click 被 nicknyfun 個人資料站切走; GA 7d 29 v; 從未 spore'd)
+  - 低敏感（gaming / YouTuber）
+  - 多語 fan-out 觸發判斷 = 低（en 對台灣 gaming creator 興趣有限；ja gaming community 可能感興趣）
+  - 配圖建議：article 既有圖 / Minecraft 經典場景 fair-use editorial
+  - Hook tier 自檢：避免 Tier 3「神級 YouTuber」神化 frame；用本名 + 數據作為 anchor
+
+### 魏哲家 — TSMC current events EXISTING-ARTICLE spore（GA viral + 半導體時事）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: knowledge/People/魏哲家.md
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-07 by twmd-news-lens-weekly (week 2026-W23, event: GA 7d 30 v 持續黏著 + 半導體 current events 2026 H1 TSMC 美國 fab 與 CoWoS 產能爭議 + 接班議題持續發酵 / 從未 spore'd)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式）:
+  1. **場景 hook**：「1953 年新竹出生，交大電子，耶魯博士。2018 接張忠謀的椅子，2024 同時掛董事長 + 總裁——台積電六十年第三個人坐這位子」
+  2. **數字 hook**：「魏哲家年薪台幣多少？答案不只一個——TSMC 高管薪酬結構說明台灣製造業頂層怎麼計算工程師人生」
+- **時效**: 7 天內（趁 TSMC 季報 / 美國 fab / Trump 關稅持續 news cycle）
+- **敏感度**: 中（產業 / 美中科技戰背景需謹慎不踩政治站隊）
+- **必驗事實**（**HG: 必須先讀 article 校準**）：1953 出生 / 交大電子大學 + 耶魯 EE 博士 / TI / Singapore TSMC 經歷 / 2018 接 CEO / 2024 同時掛董事長 + 總裁年份 / 重要決策時刻
+- **必先 spawn ARTICLE-INBOX entry**: ❌
+- **預估發佈時機**: 本週內（趁 TSMC 6 月股東會後續 news cycle）
+- **Notes**:
+  - from news-lens weekly 2026-06-07 (event: GA 7d 30 v 排名 16 持續存在 + TSMC 2026 H1 current events 持續發酵 + 從未 spore'd; CF 7d AI crawlers ChatGPT-User 12896 highly active on TW tech topics)
+  - 中敏感（半導體 / 美中科技戰）— 用工程師背景 + 在地 anchor，不踩美中政治
+  - 多語 fan-out 觸發判斷 = 中-高（en 半導體 industry 受眾持續關注 TSMC 接班；ja 半導體 cluster 興趣高）
+  - 配圖建議：article 既有圖 / 公開新聞照 fair-use editorial / TSMC 廠房不適合（版權問題）
+  - Hook tier 自檢：避免 Tier 3「半導體教父」神化 frame；用具體年份 + 學歷軌跡 anchor
+
+### 楊致遠 — GA viral 持續 EXISTING-ARTICLE spore（Yahoo 創辦人時代記憶）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: knowledge/People/楊致遠.md
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-07 by twmd-news-lens-weekly (week 2026-W23, event: GA 7d 31 v 持續黏著 + 從未 spore'd / Yahoo 在 2024-2025 重組後仍持續成為 internet history 議題)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式）:
+  1. **場景 hook**：「1968 年台南出生，10 歲移民加州，只會一個英文單字。1994 年史丹佛博班肯不下去，跟同學在校園做了一份『Jerry and David's Guide to the World Wide Web』」
+  2. **問句 hook**：「為什麼 Yahoo 沒接住 Google？答案是 2002 年楊致遠拒絕了 Page 跟 Brin 30 億美元的併購提案——四年後他要花 90 億才能回頭」
+- **時效**: 本週內（GA 7d 持續黏著，無特定 event 但 internet history narrative 永恆有市場）
+- **敏感度**: 低（matter of historical record）
+- **必驗事實**（**HG: 必須先讀 article 校準**）：1968 出生地與年份 / 10 歲移民年份 / 1994 Yahoo 起源於史丹佛 / 2002 Google 併購提案金額與年份 / 2008 微軟併購提案 / 2017 阿里巴巴股權結算 / 台南背景與華語身份
+- **必先 spawn ARTICLE-INBOX entry**: ❌
+- **預估發佈時機**: 本週內或下週
+- **Notes**:
+  - from news-lens weekly 2026-06-07 (event: GA 7d 31 v + article 30d top 15 持續黏著 + 從未 spore'd; SC 直接 query 弱但 internet history 持續 cluster demand)
+  - 低敏感（historical / 商業故事）
+  - 多語 fan-out 觸發判斷 = 中-高（en 對 Yahoo 創辦人有 sustained internet history 興趣；ja/ko 對 dot-com era 台灣裔企業家有市場）
+  - 配圖建議：article 既有圖 / Yahoo 早期 logo / Jerry Yang 公開新聞照 fair-use editorial
+  - Hook tier 自檢：避免 Tier 3「網路傳奇」神化 frame；用具體年份 + 決策 anchor
+
+### 臺灣漫遊錄 — GA 30d top non-homepage EXISTING-ARTICLE spore（Booker 翻譯 arc 持續發酵）
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: knowledge/Art/臺灣漫遊錄.md
+- **Priority**: `P1`
+- **Status**: `pending`
+- **Requested**: 2026-06-07 by twmd-news-lens-weekly (week 2026-W23, event: GA 30d 1749 v = top non-homepage article + GA 7d 46 v 持續 + 2024 Booker arc 持續發酵 / 上次 spore 5/23 已 > 14 day gap)
+- **Hook anchor 候選**（≥ 2，跨 2 種起手式）:
+  1. **數字 hook**：「《臺灣漫遊錄》這 30 天有 1749 個人在 Taiwan.md 讀——是除了首頁以外流量最高的文章。一本『妹妹翻譯的書』把楊雙子從春山推到倫敦領獎台」
+  2. **場景 hook**：「2024 年 5 月，國家圖書館外面下雨。楊雙子上台領 Booker 國際獎，致謝詞用台語講。台下那本書的英譯本封面寫著『a novel by Yang Shuang-Zi, translated by Lin King』」
+- **時效**: 本週內（GA 持續 top 1，Booker 1 週年 5 月已過但 paperback / 教學 demand 持續）
+- **敏感度**: 低（文學 / 翻譯研究）
+- **必驗事實**（**HG: 必須先讀 article 校準**）：2024 Booker 國際獎得獎年份 / 楊雙子本名與雙胞胎背景 / Lin King 譯者 / 春山出版年份 / 書中虛構日治旅遊作家設定 / 原版 vs 譯本差異
+- **必先 spawn ARTICLE-INBOX entry**: ❌
+- **預估發佈時機**: 本週內（趁 GA 持續 top 1 + 暑假 reading list 季啟動）
+- **Notes**:
+  - from news-lens weekly 2026-06-07 (event: GA 30d 1749 v = #1 non-homepage / GA 7d 46 v / 上次 spore 5/23 距今 15 day > 14 day gate; SC 中文 query 弱但 GA 黏著證明站內讀者高度關注)
+  - 低敏感（文學 / 翻譯）
+  - 多語 fan-out 觸發判斷 = 高（en Booker 國際獎 sustained 受眾；ja 對台灣日治文學持續 academic 興趣；ko 對日治殖民史敘事 cluster 相關）
+  - 配圖建議：article 既有圖 / 春山版書影 + Graywolf Press 英譯版書影 並陳 fair-use editorial
+  - Hook tier 自檢：避免 Tier 3「Booker 國際獎肯定」純獎項 frame；用「妹妹翻譯的書」敘事性 anchor
+
 ---
 
 ## 📜 已發歷史
