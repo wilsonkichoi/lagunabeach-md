@@ -56,7 +56,7 @@ class CodexBackend(TranslationBackend):
             return False
         return True
 
-    def translate(self, system: str, user: str, *, max_tokens: int = 16000, timeout: int = None) -> str:
+    def translate(self, system: str, user: str, *, max_tokens: int = 32000, timeout: int = None) -> str:
         timeout = timeout or self.DEFAULT_TIMEOUT
         full_prompt = (
             "System instructions (follow strictly):\n"

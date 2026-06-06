@@ -168,6 +168,34 @@ def main():
         if result.returncode != 0:
             warnings.append(f"ratio check returncode {result.returncode}")
 
+    # ----- 3b. Footnote completeness HARD GATE (2026-06-06) -----
+    # Root cause of 263 silently de-citationed translations: long articles got
+    # truncated mid-output by the translate model (max_tokens), dropping the trailing
+    # footnote-definition block. The ratio check above only WARNS; footnote loss must
+    # be a hard ERROR. Count [^n]: defs in zh source vs translation — translation must
+    # have >= source. This is the universal gate: every translate path's output flows
+    # through verify-batch, so footnote loss can never ship regardless of which model
+    # or sub-agent produced it.
+    log("[3b] Footnote completeness (translation defs >= source defs)...")
+    fn_def_re = re.compile(r"(?m)^\[\^[^\]]+\]:")
+    fn_losses = []
+    for a in articles:
+        en_full = REPO / a["en_path"]
+        zh_full = REPO / "knowledge" / a["zh_path"]
+        if not en_full.exists() or not zh_full.exists():
+            continue
+        src_fns = len(fn_def_re.findall(zh_full.read_text()))
+        out_fns = len(fn_def_re.findall(en_full.read_text()))
+        if src_fns > 0 and out_fns < src_fns:
+            fn_losses.append((a["en_path"], src_fns, out_fns))
+    if fn_losses:
+        log(f"   ❌ {len(fn_losses)} translation(s) with footnote loss (likely truncated):")
+        for p, s, o in fn_losses[:10]:
+            log(f"      {p}: {s}→{o} footnote defs")
+            errors.append(f"footnote loss: {p} ({s}→{o} defs)")
+    else:
+        log(f"   {len([a for a in articles if (REPO/a['en_path']).exists()])} OK")
+
     # ----- 4. Wikilink residue -----
     log("[4/8] Wikilink residue (target 0)...")
     residue = 0

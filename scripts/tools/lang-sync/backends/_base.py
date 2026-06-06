@@ -150,7 +150,7 @@ class TranslationBackend(abc.ABC):
         """Pre-flight: backend ready to receive calls (auth/network/CLI)."""
 
     @abc.abstractmethod
-    def translate(self, system: str, user: str, *, max_tokens: int = 16000, timeout: int = 600) -> str:
+    def translate(self, system: str, user: str, *, max_tokens: int = 32000, timeout: int = 600) -> str:
         """Single translation call.
 
         Args:

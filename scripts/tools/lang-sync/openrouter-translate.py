@@ -282,7 +282,11 @@ def call_openrouter(_api_key_unused, model, system, user_msg, max_retries=3, max
             {"role": "user", "content": user_msg},
         ],
         "temperature": 0.3,
-        "max_tokens": 16000,
+        # 2026-06-06: 16000 truncated long articles (TASA 65 footnotes, 健保 42 etc.)
+        # mid-output — the tail (image credits + footnote definitions) was silently lost,
+        # silently shipping 263 de-citationed translations. Bumped to give long articles
+        # room; the finish_reason=="length" guard below is the real backstop.
+        "max_tokens": 32000,
     }).encode("utf-8")
 
     tried = set()
@@ -314,7 +318,10 @@ def call_openrouter(_api_key_unused, model, system, user_msg, max_retries=3, max
                     data = json.loads(resp.read())
                     if "choices" not in data or not data["choices"]:
                         raise RuntimeError(f"No choices in response: {data}")
-                    return data["choices"][0]["message"]["content"]
+                    choice = data["choices"][0]
+                    # Return finish_reason too — "length" means output hit max_tokens
+                    # and was truncated mid-article (tail/footnotes lost). Caller must check.
+                    return choice["message"]["content"], choice.get("finish_reason", "")
             except urllib.error.HTTPError as e:
                 body = e.read().decode("utf-8", errors="replace")[:500]
                 if e.code == 429:
@@ -350,9 +357,17 @@ def translate_one(article, lang, api_key, model, dry_run=False):
         return True, None
 
     try:
-        result = call_openrouter(api_key, model, system, user_msg)
+        result, finish_reason = call_openrouter(api_key, model, system, user_msg)
     except Exception as e:
         return False, f"API error: {e}"
+
+    # Truncation guard (2026-06-06): finish_reason == "length" means the model hit
+    # max_tokens and the output is cut off mid-article. The tail (image credits +
+    # footnote definitions) is silently lost. NEVER save a truncated translation —
+    # return failure so the cascade retries / falls to next model. Root cause of the
+    # 263 silently de-citationed translations (TASA 65→0, 健保 42→0, ...).
+    if finish_reason == "length":
+        return False, "output truncated (finish_reason=length) — tail/footnotes lost, not saved"
 
     # 2026-05-01 γ-late3: PRC content moderation may return null content
     # (more aggressive than the 40-byte 「你好，我无法给到相关内容」 string
@@ -370,6 +385,16 @@ def translate_one(article, lang, api_key, model, dry_run=False):
         result = result[3:].lstrip("\n")
     if result.endswith("```"):
         result = result[:-3].rstrip("\n")
+
+    # Footnote completeness hard gate (2026-06-06): count [^n]: definitions in zh
+    # source vs translated output. Truncation or summarization drops the trailing
+    # footnote-definition block. If the translation has fewer footnote definitions
+    # than the source, it is incomplete — do not ship it. This is the per-call
+    # backstop; verify-batch.py enforces the same gate at batch level.
+    src_fns = len(re.findall(r"(?m)^\[\^[^\]]+\]:", zh_content))
+    out_fns = len(re.findall(r"(?m)^\[\^[^\]]+\]:", result))
+    if src_fns > 0 and out_fns < src_fns:
+        return False, f"footnote loss ({src_fns}→{out_fns} defs) — incomplete translation, not saved"
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(result + "\n")

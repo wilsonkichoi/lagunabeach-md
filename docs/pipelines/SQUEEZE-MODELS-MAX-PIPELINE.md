@@ -86,6 +86,8 @@ upstream_canonical:
 | Manifest 完整                  | Z1         | dispatch 前        | `prepare-batch.py` output                                                                  | 不 dispatch                   |
 | Group snake-balance            | Z1         | dispatch 前        | manifest 內建                                                                              | 重 balance                    |
 | 40-byte refusal detection      | Z2         | per-article        | `output too small (40 bytes)` worker log                                                   | log ❌ + cleanup + 繼續       |
+| **輸出截斷偵測 (truncation)**  | Z2         | per-call           | `finish_reason == "length"` guard（max_tokens 32000）                                      | 不 save + 走 cascade retry    |
+| **🔴 腳註完整 (defs ≥ source)**| Z2 + Z5    | per-call + batch   | `openrouter-translate.py` 內建 + `verify-batch.py` [3b]（zh `[^n]:` count vs translation）  | **不 save / 不 ship**（截斷靜默掉腳註 = 263 文去引用 root cause，2026-06-06） |
 | null content refusal           | Z2         | per-article        | `result is None` guard                                                                     | log ❌ + 繼續                 |
 | HTTP 429 backoff               | Z2         | per-call           | 指數退避 3 retry                                                                           | 最後失敗 log ❌ + 繼續        |
 | YAML parse fail                | Z2 + Z3    | per-article        | `yaml.safe_load(frontmatter_block)`                                                        | rm + retry queue              |
@@ -94,7 +96,7 @@ upstream_canonical:
 | Pre-commit hook（YAML / 憑證） | Z3         | per commit         | `.husky/pre-commit`                                                                        | 不 commit                     |
 | 不 push 中途                   | Z3         | 整個 batch round   | manual                                                                                     | abort push                    |
 | Destructive git ops 禁令       | 全程       | sub-agents alive   | REFLEXES #35                                                                               | abort op，走 worktree         |
-| `verify-batch.py` 8 項         | Z5         | 整個 batch         | `verify-batch.py`                                                                          | 不 ship                       |
+| `verify-batch.py` 9 項         | Z5         | 整個 batch         | `verify-batch.py`（含 [3b] 腳註完整 hard gate）                                            | 不 ship                       |
 | Size-ratio scan ≥ 0.5          | Z6         | 每篇新翻譯         | `audit-quality.py`（待造）                                                                 | flag + retry                  |
 | Healthy ratio ≥ 90%            | Z6         | sample audit       | random N = max(10, 5%)                                                                     | 回 Z4 retry                   |
 | `lang-sync status` fresh       | Z5         | ship 前            | `status.py`                                                                                | retry 直到達標                |

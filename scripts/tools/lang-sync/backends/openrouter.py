@@ -100,7 +100,7 @@ class OpenRouterBackend(TranslationBackend):
     def is_available(self) -> bool:
         return KEY_FILE.exists() or (KEY_ROTATION_DIR.exists() and any(KEY_ROTATION_DIR.iterdir()))
 
-    def translate(self, system: str, user: str, *, max_tokens: int = 16000, timeout: int = 600) -> str:
+    def translate(self, system: str, user: str, *, max_tokens: int = 32000, timeout: int = 600) -> str:
         keys = list(_load_all_keys())
         if not keys:
             self._record_failure("unavailable", "no OpenRouter API keys")
