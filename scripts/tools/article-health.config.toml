@@ -96,6 +96,10 @@ fail_on = "hard"
 frontmatter-format = "hard"
 chronicle-lead = "hard"
 word-count = "hard"
+# viz-health 升 HARD (2026-06-06 哲宇 directive)：含 tw-* 資料圖表的新文必須標來源 +
+# 不得用「如上圖」AI-blind 指示語。對 rewrite-stage-4 (新文自檢) HARD；pre-commit /
+# legacy 仍走 default WARN (目前 國宅 + 視覺化模組型錄 用模組，皆已 viz-health hard=0)。
+viz-health = "hard"
 # paragraph-rhythm: soft launch - stays at default WARN. Will upgrade to HARD
 # via severity_override here after vc≥3 cases collected from production
 # (per chronicle-lead / word-count / image-health staged promotion pattern).

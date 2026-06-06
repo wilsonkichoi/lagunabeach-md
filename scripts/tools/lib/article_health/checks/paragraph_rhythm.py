@@ -75,6 +75,14 @@ H2_PARA_MAX = 8  # per-H2 prose paragraph soft cap
 MEDIA_DENSITY_FLOOR = 0.7  # < floor = 媒體偏少 (立體呈現不足，WARN soft-launch)
 IFRAME_DENSITY_WARN = 1.2  # > warn = visual 密度偏高 (2026-06-04 從 0.8 升，避免誤判富媒體範本)
 IFRAME_DENSITY_HARD = 1.5  # > hard + median<55 = atomization drift (directive override 都不該超)
+# tw-* 視覺模組納入 media count (2026-06-06 哲宇 directive)。資料模組 ≠ 裝飾媒體：
+# 對 FLOOR (媒體偏少) 全額計入 (viz-rich 文章不該被判 media-poor)；對 atomization
+# ceiling 給每篇最多 5 個模組的 headroom (「往上加 3-5」) — 用 discount 而非調高全域
+# ceiling，才不會順手弱化純媒體文章的 atomization 護欄 (WARN/HARD 仍 1.2 / 1.5)。
+TW_MODULE_CEILING_DISCOUNT_CAP = 5
+# 媒體密度 band 校準於 depth article (設研院/天下/黃魚鴞)；短頁 / gallery / showcase
+# (如 視覺化模組型錄，prose 1k 字以模組為主體) density 失真 → 不適用 band。
+MEDIA_BAND_MIN_CJK = 1500
 
 
 _RE_CJK = re.compile(r"[一-鿿㐀-䶿]")
@@ -82,6 +90,8 @@ _RE_H2 = re.compile(r"^##\s+(?!#)", re.MULTILINE)  # H2 only, not H3+
 _RE_IFRAME = re.compile(r"<iframe\s", re.IGNORECASE)
 _RE_IMAGE_MD = re.compile(r"!\[[^\]]*\]\([^\)]+\)")
 _RE_HERO_IMAGE_FRONTMATTER = re.compile(r"^image:\s*['\"]?/", re.MULTILINE)
+# tw-* fenced viz 模組 (graph.md / article-modules.css) — 納入媒體密度 count
+_RE_TW_MODULE = re.compile(r"(?m)^```tw-[a-z]+")
 # Frontmatter delimiters
 _RE_FRONTMATTER = re.compile(r"^---\s*\n.*?\n---\s*\n", re.DOTALL)
 # Code fences
@@ -283,13 +293,22 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             ),
         )
 
-    # ── R3: iframe+image density / 1k CJK ──
+    # ── R3: 媒體密度 band / 1k CJK ──
+    # band 校準於 depth article；短頁 / gallery / showcase (prose 太短) density 失真，跳過。
+    if total_cjk < MEDIA_BAND_MIN_CJK:
+        return
     iframe_count = len(_RE_IFRAME.findall(text))
     image_count = len(_RE_IMAGE_MD.findall(text))
     # Hero image from frontmatter counts as 1 if present
     has_hero = bool(_RE_HERO_IMAGE_FRONTMATTER.search(text))
-    visual_count = iframe_count + image_count + (1 if has_hero else 0)
+    tw_module_count = len(_RE_TW_MODULE.findall(text))
+    # 全額 visual count（含 tw-* 模組）— 用於 FLOOR (媒體偏少) 判斷 + 報告數字
+    visual_count = iframe_count + image_count + (1 if has_hero else 0) + tw_module_count
     density = (visual_count * 1000) / total_cjk if total_cjk > 0 else 0
+    # atomization ceiling 用「折抵最多 5 個 tw-* 模組」後的 count — 資料模組不算 atomization，
+    # 給 viz-rich 文章 3-5 模組 headroom（哲宇 directive「往上加 3-5」）。
+    ceiling_visual = visual_count - min(tw_module_count, TW_MODULE_CEILING_DISCOUNT_CAP)
+    ceiling_density = (ceiling_visual * 1000) / total_cjk if total_cjk > 0 else 0
 
     # ── R3-FLOOR: 媒體偏少 (band 下緣) — 2026-06-04 哲宇 directive「richer media」──
     # depth article 立體呈現不足 = media-poor。WARN soft-launch (對齊 image-health /
@@ -317,18 +336,18 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     # High visual density alone may be observer-directive driven (e.g. 5+ iframe
     # directive on music person) and acceptable if prose rhythm is healthy.
     # Combined signal (density + atomization) indicates true drift.
-    elif density >= IFRAME_DENSITY_HARD and para_median < PARA_MEDIAN_WARN:
+    elif ceiling_density >= IFRAME_DENSITY_HARD and para_median < PARA_MEDIAN_WARN:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.HARD,
             message=(
                 f"Combined atomization drift HARD: "
-                f"density {density:.2f}/1k > {IFRAME_DENSITY_HARD} AND "
-                f"para median {para_median} < {PARA_MEDIAN_WARN}。"
+                f"density {ceiling_density:.2f}/1k (折抵 {min(tw_module_count, TW_MODULE_CEILING_DISCOUNT_CAP)} tw-* 模組後) "
+                f"> {IFRAME_DENSITY_HARD} AND para median {para_median} < {PARA_MEDIAN_WARN}。"
                 f"Visual 倚賴 + 段落原子化雙信號。"
             ),
             line=1,
-            snippet=f"density={density:.2f} para_median={para_median}",
+            snippet=f"ceiling_density={ceiling_density:.2f} para_median={para_median}",
             editorial_ref="EDITORIAL.md §媒體編織 + §段落呼吸",
             fix_suggestion=(
                 "(a) 合段恢復 prose rhythm 到 median 75-90 字 "
@@ -336,18 +355,19 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                 "(c) 兩條至少滿足一條才能 ship"
             ),
         )
-    elif density >= IFRAME_DENSITY_WARN:
+    elif ceiling_density >= IFRAME_DENSITY_WARN:
         yield Violation(
             check=CHECK_NAME,
             severity=Severity.WARN,
             message=(
                 f"Visual density 偏高 (band 上緣 R3-WARN): "
-                f"{visual_count} visual / {total_cjk} CJK = {density:.2f}/1k > "
-                f"{IFRAME_DENSITY_WARN}/1k 建議上限 (健康富媒體 設研院/天下 ~0.9；"
-                f"陳建年 1.48 = 8 媒體已偏密；周蕙 1.76 = atomization)。"
+                f"{visual_count} visual ({tw_module_count} tw-* 模組折抵 "
+                f"{min(tw_module_count, TW_MODULE_CEILING_DISCOUNT_CAP)}) / {total_cjk} CJK = "
+                f"{ceiling_density:.2f}/1k > {IFRAME_DENSITY_WARN}/1k 建議上限 (健康富媒體 "
+                f"設研院/天下 ~0.9；陳建年 1.48 = 8 媒體已偏密；周蕙 1.76 = atomization)。"
             ),
             line=1,
-            snippet=f"density={density:.2f}",
+            snippet=f"ceiling_density={ceiling_density:.2f} visual={visual_count}",
             editorial_ref="EDITORIAL.md §媒體編織",
             fix_suggestion=(
                 "考慮：(a) 文字段落自己承擔節奏不要 outsource 給 iframe "
