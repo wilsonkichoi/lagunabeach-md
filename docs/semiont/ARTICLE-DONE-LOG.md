@@ -59,6 +59,20 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 用數據看台灣 22 縣市 NEW — 2026-06-06 manual（哲宇 directive「寫一篇真實的文章驗證視覺化系統 / twmd-rewrite 從 inbox 挑」— Geography 純數據 panorama / Fresh / viz 系統 v1.0 真實驗證文）
+
+- **Article**: [knowledge/Geography/用數據看台灣22縣市.md](../../knowledge/Geography/用數據看台灣22縣市.md) — NEW Fresh，純數據新聞 panorama → **4,638 CJK / 5 footnote / 6 場景式 H2 / 3 圖（NASA 衛星 hero + 台北天際線 + 池上伯朗大道）+ 8 個 tw-\* 視覺模組**
+- **同時是視覺化系統 v1.0 的真實 data-heavy 驗證文**：tw-heatmap（22 縣市 × 高齡化率/老化指數 = 44 格旗艦熱力矩陣）/ tw-line（全國 65+ 占比 2000→2025 加速攀升 + 自動資料表 fallback）/ tw-waffle（六都 vs 16 縣市人口分布 100 格）/ tw-bars（密度 ranking）/ tw-figure / tw-stat / tw-versus（新竹 vs 嘉義）/ tw-timeline（WHO 三級老化里程碑）全用真實資料
+- **論點**：台灣不是均質的台灣 — 密度差 151 倍（臺北 8,975 vs 臺東 59）/ 規模差 297 倍（新北 404 萬 vs 連江 1.36 萬）/ 高齡化差近一個世代（新竹縣 15.08% vs 嘉義縣 24.11%）；七成人擠三成土地；老化前緣在東部/離島/農業縣不在都市；全 22 縣市無一例外生不如死
+- **Stage 0 falsification**：原 inbox 挑 TASA（P0），baseline audit 發現既有《國家太空中心》14k CJK 深文 → 改判 EVOLVE 不重做；改選無 panorama 的 22 縣市數據總覽（22 個體文已全 ship，缺總覽）
+- **資料嚴謹度**：單一官方時點 spine（內政部戶政司 114 年底 2025-12-31），22 縣市人口加總 23,299,132 = 官方總計列完全吻合；六都 69.87%/30.12% Python 驗算；超高齡 20.06% 中央社/經濟日報跨源確認；國發會中推估 2070 點獨立查證
+- **Pipeline**: REWRITE v6.8（含新 Step 2.0 視覺化思考）— Fresh，1 Sonnet research agent compile 驗證資料集 + 主 session REFLEXES #31 重驗 + 預建 chart blocks（驗證數字）交 fresh Opus writer 寫 prose
+- **品質**：rewrite-stage-4 hard=0（viz-health **HARD** PASS + cjk-punct + word-count 103%）/ prose-health score 1（writer 對位 14 → 主 session 修到 2）/ 8 模組 curl 渲染 PASS（44 熱力格 + 100 方格 + 0 leftover raw）/ 44 熱力格色階正確
+- **Research**: [reports/research/2026-06/22-counties-data.md](../../reports/research/2026-06/22-counties-data.md)（22 縣市驗證資料集 + falsification 待驗區）
+- **Cross-link**: 延伸閱讀 → 臺北市（最擠最老）/ 臺東縣（最空）/ 嘉義縣（最老）/ 新竹縣（最年輕）/ 台灣少子化危機（出生端）
+- **待哲宇驗證**：lastHumanReview=false；視覺密度 1.28/1k（8 模組折抵 5 後，WARN-only，data panorama 性質）
+- **Ship**: `b8a3f5b09`
+
 ### 國宅與居住正義 NEW — 2026-06-06 manual（哲宇 /twmd-become + /twmd-rewrite「國宅與居住正義 完整做完 / 媒體 10+ / 不問一路推」— Society 政策斷層 / Fresh / 多 agent 編排 v6.3 全跑 / 政治高敏感）
 
 - **Article**: [knowledge/Society/國宅與居住正義.md](../../knowledge/Society/國宅與居住正義.md) — NEW Fresh（與既有姊妹篇《社會住宅與居住正義》劃界：本篇寫 1975-2015 國宅「供售」路線生命史，社宅只帶過）→ **7,711 CJK / 27 footnote / 9 場景式 H2 / 8 CC 圖 + 2 官方影片 iframe = 10 媒體**

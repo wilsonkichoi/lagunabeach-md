@@ -252,7 +252,7 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Type**: `NEW`
 - **Category**: Technology（subcategory: 太空科技 / 國家科研機構）
 - **Priority**: `P0`
-- **Status**: `pending`
+- **Status**: `pending`（⚠️ **2026-06-06 Stage 0 audit 更正**：既有 `knowledge/Technology/國家太空中心.md`（14k CJK 深文，2026-06-04 ship，featured）+ `台灣太空產業發展.md` 已覆蓋本主題 → 本 entry 應改判 **EVOLVE**（補資料圖表層 / 補福衛 spec heatmap）或降優先，**不是 clean NEW**。baseline audit 鐵律第 N 次驗證）
 - **Source**: 哲宇 directive 2026-05-26（P0 優先）
 - **Hook 候選**：
   - (A) 從 1991 國科會太空計劃室 → 2023/1/1 改制行政法人「國家太空中心 TASA」3 線並進的 32 年弧線
