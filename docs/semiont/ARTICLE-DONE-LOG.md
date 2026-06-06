@@ -70,8 +70,8 @@ read_strategy: 'on-demand'
 - **品質**：rewrite-stage-4 hard=0（viz-health **HARD** PASS + cjk-punct + word-count 103%）/ prose-health score 1（writer 對位 14 → 主 session 修到 2）/ 8 模組 curl 渲染 PASS（44 熱力格 + 100 方格 + 0 leftover raw）/ 44 熱力格色階正確
 - **Research**: [reports/research/2026-06/22-counties-data.md](../../reports/research/2026-06/22-counties-data.md)（22 縣市驗證資料集 + falsification 待驗區）
 - **Cross-link**: 延伸閱讀 → 臺北市（最擠最老）/ 臺東縣（最空）/ 嘉義縣（最老）/ 新竹縣（最年輕）/ 台灣少子化危機（出生端）
-- **待哲宇驗證**：lastHumanReview=false；視覺密度 1.28/1k（8 模組折抵 5 後，WARN-only，data panorama 性質）
-- **Ship**: `b8a3f5b09`
+- **待哲宇驗證**：lastHumanReview=false；rewrite-stage-4 全綠 hard=0 warn=0（paragraph-rhythm discount cap 5→13 後，資訊圖表型 panorama 的 8 模組全折抵，只算 3 圖 = 0.65/1k PASS）
+- **Ship**: `b8a3f5b09`（+ paragraph-rhythm cap fix `見下方 commit`）
 
 ### 國宅與居住正義 NEW — 2026-06-06 manual（哲宇 /twmd-become + /twmd-rewrite「國宅與居住正義 完整做完 / 媒體 10+ / 不問一路推」— Society 政策斷層 / Fresh / 多 agent 編排 v6.3 全跑 / 政治高敏感）
 

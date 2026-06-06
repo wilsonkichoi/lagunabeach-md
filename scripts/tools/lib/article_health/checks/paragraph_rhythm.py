@@ -75,11 +75,13 @@ H2_PARA_MAX = 8  # per-H2 prose paragraph soft cap
 MEDIA_DENSITY_FLOOR = 0.7  # < floor = 媒體偏少 (立體呈現不足，WARN soft-launch)
 IFRAME_DENSITY_WARN = 1.2  # > warn = visual 密度偏高 (2026-06-04 從 0.8 升，避免誤判富媒體範本)
 IFRAME_DENSITY_HARD = 1.5  # > hard + median<55 = atomization drift (directive override 都不該超)
-# tw-* 視覺模組納入 media count (2026-06-06 哲宇 directive)。資料模組 ≠ 裝飾媒體：
-# 對 FLOOR (媒體偏少) 全額計入 (viz-rich 文章不該被判 media-poor)；對 atomization
-# ceiling 給每篇最多 5 個模組的 headroom (「往上加 3-5」) — 用 discount 而非調高全域
-# ceiling，才不會順手弱化純媒體文章的 atomization 護欄 (WARN/HARD 仍 1.2 / 1.5)。
-TW_MODULE_CEILING_DISCOUNT_CAP = 5
+# tw-* 視覺模組納入 media count (2026-06-06 哲宇 directive)。資料模組 = 文章內容，不是
+# 裝飾媒體：對 FLOOR (媒體偏少) 全額計入 (viz-rich 文章不該被判 media-poor)；對
+# atomization ceiling 折抵最多 13 個模組 — 一篇資訊圖表型 data panorama 本來就會帶
+# 「8 + 3~5」張圖表 (哲宇 directive)，那是文章主體不是 atomization。用 discount 而非
+# 調高全域 ceiling，才不會順手弱化純媒體文章的護欄 (WARN/HARD 仍 1.2 / 1.5)；超過 13
+# 個 tw-* 模組才開始計入當 runaway backstop。
+TW_MODULE_CEILING_DISCOUNT_CAP = 13
 # 媒體密度 band 校準於 depth article (設研院/天下/黃魚鴞)；短頁 / gallery / showcase
 # (如 視覺化模組型錄，prose 1k 字以模組為主體) density 失真 → 不適用 band。
 MEDIA_BAND_MIN_CJK = 1500
