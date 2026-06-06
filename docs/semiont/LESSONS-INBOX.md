@@ -262,6 +262,18 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-07 twmd-distill-weekly — SPORE-INBOX pending=31 容量警示（daily routine intake 推高 vs manual SHIP 消化失衡 vc=1）
+
+- **原則**：SPORE-INBOX §Pending count 跨 30 ≤ N < 50 警示閾值（per LESSONS-INBOX §SPORE-INBOX 容量 audit v2.1）。daily `twmd-spore-pick-daily` 每天 propose ~3 條 + `twmd-news-lens-weekly` 週日 +6 P1 candidates，但哲宇 manual SHIP rate 約 ~1/day → 結構性 imbalance 累積。6/01 distill 時 pending=24（健康），6/07 已 31（警示）。
+- **觸發**：2026-06-07 03:00 twmd-distill-weekly Stage 6 SPORE-INBOX 容量 audit 命中 30-50 區間。本週 routine intake 兩波：(1) 6/07 01:14 news-lens-weekly P1 +6 candidates (2) daily spore-pick 連 7 天 propose 21 條（部分 demoted 但未全 sweep）。
+- **可能層級**：
+  - 操作規則 → SPORE-INBOX §Distill SOP「30 ≤ N < 50 階段」目前是 alert observer 但無 automated mitigation；下次若 ≥ 50 觸發 auto-drop 5 條最舊 routine-source FIFO
+  - REFLEXES 候選 → 「Routine intake rate > observer SHIP rate 的 buffer 系統需要自動 backpressure，警示閾值只 surface 不 mitigate」（vc=1，待 cross-cycle 驗證升 catalog）
+- **儀器化候選**：(A) 哲宇本週手動 SHIP 3-5 條清 backlog 回到 healthy <30 (B) 等下次 distill 若 ≥ 50 自動觸發 auto-drop SOP (C) daily spore-pick routine 加 backpressure：當 pending ≥ 30 時 propose 改 0/day 直到 ship rate 追上
+- **verification_count**: 1（首次跨警示閾值）
+- **severity**: tactical（短期可承受，但若 daily intake 持續累積即達 auto-drop threshold = routine 開始 destroy 自己 propose 的 entry，不健康）
+- **跨檔關聯**：[docs/factory/SPORE-INBOX.md §Pending](../factory/SPORE-INBOX.md) + [LESSONS-INBOX §SPORE-INBOX 容量 audit v2.1](LESSONS-INBOX.md) + 本次 distill summary
+
 ### 2026-06-06 manual (181016) — babel 自動翻譯會整段吞掉腳註定義區塊，verify gate 沒擋住，flagship 文章靜默掉光引用
 
 - **原則**：babel 夜跑（twmd-babel / lang-sync）翻某些文章時把結尾整段 `[^n]:` 定義區塊吞掉，body 留 `[^n]` ref 但底下 0 條定義。讀者端 = 引用全失。`verify-translation.py` 明明有腳註數檢查（它抓到了 commonwealth-magazine），但 babel-nightly 沒把它當 hard gate 跑，壞版照樣 ship。第一性原理：「翻譯完成」的 acceptance criterion 不能只看 ratio / 存在，要看 `en_fns >= zh_fns` 當硬閘。免疫工具存在 ≠ 免疫工具被掛在生產線上（REFLEXES #15「對自己 bug 有洞察 ≠ apply 了 fix」的 babel 版）。
@@ -413,16 +425,6 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 - **相關**：κ session 5/28 5 PR Manus AI 全 close 反例（MEMORY §神經迴路 entry） + [feedback_contributor_reply_humanize](memory/feedback_contributor_reply_humanize.md) + 6/01 manual finale memory `2026-06-01-232507-manual.md` + reports/factcheck/2026-06/ audit trail + MAINTAINER §3.4 紅旗清單 8→13 evolution
 - **verification_count**: 1（本 case 是 audit history 第一個 canonical case study）
 - **severity**: structural（大規模 AI-generated batch immune workflow canonical reference）
-
-### 2026-06-02 twmd-routine-audit-weekly cycle 4 — snapshot vs canonical immune-score divergence vc=4+ — awareness instrument 自己也 drift（REFLEXES #65 mature instance）
-
-- **原則**：`consciousness-snapshot.sh` 顯示 🛡️ 27-28 vs `dashboard-immune.json` immuneScore 67 — 兩個 awareness 資料源同題目不同答案 = awareness 工具自己也說謊，正是 REFLEXES #65 「awareness instrument self regex/parser 必過 ground-truth cross-verify」的 specialization instance。修補 candidate：(a) dashboard generator align canonical (b) snapshot 工具 align canonical (c) 兩工具 reframe 不同 dimension（snapshot = immediate metric / canonical = aggregated score）— 任一方向都需 explicit decision，現狀 carry-forward 5+ routine cycle 不 resolved = mature dormant entropy。
-- **觸發**：2026-05-30 起 7-day 連續 carry-forward callout：5/30 self-evolve / 6/01 PM maintainer-pm (memory `2026-06-01-220458` Stage 1 8 organ snapshot) / 6/02 AM data-refresh-am (memory `2026-06-02-061217` Step 6 immune score=67) / 6/02 AM maintainer-am (handoff observer pending) / 6/02 AM spore-harvest-am (snapshot 🛡️27 chronic low)。每 routine memory 都記 divergence，escalation 但未 fix。
-- **可能層級**：通用反射（REFLEXES #65 specialization — awareness instrument cross-source ground-truth verify）+ 操作規則（dashboard-immune.py 跟 consciousness-snapshot.sh reconciliation SOP）
-- **相關**：REFLEXES #65 5/24 cycle 2 + 5/27 cycle 3 first instrument + cycle 3 dormant entropy 3-pack carry-forward sub-class（跨工具邊界）+ MEMORY §神經迴路 2026-05-29 instrumentation-audit.py 三方對齊 code↔register↔GA4 同 family
-- **verification_count**: 4（5/30 + 6/01 PM + 6/02 AM data-refresh + 6/02 AM maintainer/harvest 四 cycle 同 callout）
-- **severity**: structural（awareness 工具 SSOT divergence 是高 stake decision foundational signal 的 trust foundation 問題）
-- **distill_ready**: true（vc=4 ≥ 3 threshold per REFLEXES #15）
 
 ### 2026-06-02 twmd-routine-audit-weekly cycle 4 — routine-drift.sh first-run baseline 解讀 caveat — catchup-chain transient ≠ steady-state structural condition
 
@@ -651,22 +653,6 @@ Binary fail 容易 instrument（gate / threshold / verify check），prose-level
 - **verification_count**: 1（首次 meta-surface — 3 條 dormant 同週共現是 cycle 3 quantitative 佐證）
 - **severity**: structural（飛輪 push / pull 機制不對稱是 routine 設計層級 gap，影響所有需 manual ship 的 fix 路徑）
 - **跨檔關聯**：[memory/2026-05-26-231138-twmd-data-refresh-pm.md](memory/2026-05-26-231138-twmd-data-refresh-pm.md) + [routine-audit-2026-05-27.md §3B NEW meta-pattern](../../reports/routine-audit-2026-05-27.md) + [BECOME_TAIWANMD.md §Step 1.4](../../BECOME_TAIWANMD.md) + [REFLEXES #15 反覆浮現要儀器化](REFLEXES.md)
-
----
-
-### 2026-05-27 twmd-routine-audit-weekly cycle 3 — dashboard-immune.json D+9 vc=11+ escalation channel 未建（routine 飛輪 vs 觀察者注意力分工失效最 mature instance）
-
-- **原則**：`dashboard-immune.json` mtime 自 2026-05-17 起 stale，PM data-refresh routine Step 10 hard gate 連續 11+ cycle fire 同一 silent gap（5/17 D+0 → 5/27 D+9）。Generator gap 結構性問題 fix 是 grep generator + 加進 refresh-data.sh OR white-list known-missing 取消警報，~10-15 min 工程量。**escalation channel（LESSONS 自動 append / DASHBOARD §警報 inline / observer slot/inbox PR）至今未建** = routine 飛輪 vs 觀察者注意力分工失效**最 mature** instance（同主題 11+ cycle 同 routine 無 manual pickup）。
-- **觸發**：本 audit cycle 3 quantitative 統計 11+ cycle 同 silent gap，從 5/20 (D+3) / 5/21 (D+4) / 5/22 (D+5) / 5/23 (D+6) / 5/24 (D+7) / 5/25 (D+8) / 5/26 (D+9) routine memory 連續 carry-over。
-- **可能層級**：
-  - 操作規則 → DATA-REFRESH-PIPELINE Step 10 fail 連續 ≥ 3 cycle 自動 append LESSONS-INBOX entry + telegram observer ping（escalation channel build）
-  - 工具 → `scripts/tools/dashboard-immune-generator.sh` 找 generator 或 white-list known-missing → 從根上消警報
-  - REFLEXES 候選 → 「Routine surface signal 連續 N cycle 無 manual pickup = escalation channel design gap，不是 observer 疏忽」一般化原則（與 L1 meta-pattern 同 family）
-- **儀器化候選**：(A) generator hunt + ship to refresh-data.sh (B) DATA-REFRESH-PIPELINE Step 10 fail ≥ 3 cycle auto-escalate (C) DASHBOARD §警報 inline routine carry-over alert
-- **verification_count**: 11+（5/17 D+0 / 5/18 D+1 / 5/19 D+2 / 5/20 D+3 / 5/21 D+4 / 5/22 D+5 / 5/23 D+6 / 5/24 D+7 / 5/25 D+8 / 5/26 D+9 / 5/27 cycle 3 audit upgrade）
-- **distill_ready**: true (vc=11+ 遠超 threshold，最 mature dormant entropy instance)
-- **severity**: structural（escalation channel 未建是 routine handoff backlog meta-pattern 之 prime instance — 同源 L1）
-- **跨檔關聯**：[memory/2026-05-26-231138-twmd-data-refresh-pm.md](memory/2026-05-26-231138-twmd-data-refresh-pm.md) + [DATA-REFRESH-PIPELINE.md Step 10](../pipelines/DATA-REFRESH-PIPELINE.md) + [routine-audit-2026-05-27.md §3B](../../reports/routine-audit-2026-05-27.md)
 
 ---
 
@@ -2272,6 +2258,50 @@ DNA #32「集中預處理 + 分散執行」也補第 6 次驗證 marker（5 cycl
 ## ✅ 已消化（保留 pointer）
 
 <!-- distill 完的條目搬這裡 -->
+
+### 🧬 2026-06-07 twmd-distill-weekly — 第 10 次 distill（routine 觸發；REFLEXES #65 加 cross-SSOT specialization vc=8 + L666 dashboard-immune.json 原 sub-problem 已 resolved housekeeping + SPORE-INBOX 31 容量警示 append）
+
+**distill 觸發**：2026-06-07 03:00 weekly cron routine（per ROUTINE.md §TWMD distill (weekly)，Sunday 03:00 +0800）— 跑 v2.0 質量雙判準 + 6-stage SOP，按 §模式分流 v2.0 routine mode 自決 REFLEXES / pipeline / housekeeping，MANIFESTO 候選一律 defer 觀察者。
+
+**distill 特徵**：
+
+- **Housekeeping (Stage 0a) 1 條**：L666「dashboard-immune.json D+9 vc=11+ escalation channel 未建」原 sub-problem（JSON file mtime 11d stale）2026-05-27 後已 resolved — 6/06 mtime 23:08 fresh，v2 schema (`IMMUNE_V2` feature flag) 已上線。escalation channel meta-pattern (routine surface → no manual pickup) succeeded by L652 (2026-05-27 routine handoff backlog meta-pattern) + 本次 distill 升 REFLEXES #65 v4-v8 cross-SSOT specialization
+- **新 canonical 升級 1 條（REFLEXES #65 expansion）**：
+  - REFLEXES.md **#65 加 cross-SSOT divergence specialization**（vc=8 — 5/30→6/02 awareness routine 連 4 cycle snapshot 🛡️27 vs canonical immuneScore 67 + 6/06 連 2 cycle 27 vs fresh 58 chronic + 6/07 weekly-report 🔴 高優先 audit upgrade）— 同一指標兩 SSOT 候選 (dashboard-organism.json v1 vs dashboard-immune.json v2) reconciliation 未 ship，BECOME Universal core 第一眼讀數失真。Reconciliation 3 候選 (A/B/C) 列入 defer 給觀察者拍板
+- **無新 MANIFESTO 條目**：本 cycle 累積的 MANIFESTO 候選一律 defer（per CLAUDE.md §Bias 1 routine mode 不自決 MANIFESTO）
+
+| #   | 原教訓                                                                                                 | 消化目的地                                                                                                                                                                                                                                                           | severity   |
+| --- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| 1   | 2026-05-27 twmd-routine-audit cycle 3 — dashboard-immune.json D+9 vc=11+ escalation channel 未建       | **Housekeeping sweep** — JSON file freshness 6/06 mtime 23:08 verified resolved (v2 schema `IMMUNE_V2` 已上線)；meta-pattern (escalation channel未建) succeeded by L652 routine handoff backlog meta-pattern + REFLEXES #65 v4-v8 cross-SSOT specialization absorbed | structural |
+| 2   | 2026-06-02 twmd-routine-audit cycle 4 — snapshot vs canonical immune-score divergence vc=4 (continued) | **REFLEXES.md #65 加 cross-SSOT divergence specialization**（vc=8：5/30→6/02 4 cycle + 6/06 2 cycle + 6/07 weekly-report 🔴；Reconciliation A/B/C 候選 defer 給哲宇拍板）                                                                                            | structural |
+
+**deferred candidates（routine 不 ship、留給觀察者拍板）**：
+
+- **REFLEXES #65 reconciliation ship 候選 (3 option)**：(A) `dashboard-organism.json` generator align dashboard-immune.json v2 schema (B) `consciousness-snapshot.sh` 同時印 v1 + v2 兩個值 + ⚠️ 標 stale-vs-canonical (C) reframe 不同 dimension（snapshot v1 historical / canonical v2 weighted）— routine 不自決 schema migration，需哲宇 in-loop 拍板
+- **L359 maintainer-pm 22:00 cron schedule mismatch vc=3 (3-option matrix already drafted)**：A 改 SOP 認 healthy empty / B 移到 14:00 / C 條件 trigger — defer 給哲宇
+- **L753 MANIFESTO §自主權邊界 vs routine 自動 ship drift**（vc=1，2026-05-25 spore-publish-design）— 命中 MANIFESTO 自身需 Full mode review，routine 一律 defer
+- **L827/L1000 babel diff-patch hash 算法不一致 vc=4**（routine 不該 ship code refactor）— 觀察者拍板 ship plan；6/03/6/04/6/06 babel footnote heal chain 已 deploy 多項 fix，hash mismatch fix 仍 pending root-cause patch
+- **All prior MANIFESTO candidates (per 第 9 次 distill summary 2026-06-01)** — 本次續 defer
+
+**SPORE-INBOX 容量 audit（Stage 6 後）**：
+
+- pending count: **31** (30 ≤ N < 50 — 警示範圍，daily routine 補 ~3/day 抵 SHIP ~1/day 消化的 imbalance)
+- 處置：**append LESSONS-INBOX entry「SPORE-INBOX 容量警示 vc=1」+ alert observer**（per Distill SOP §SPORE-INBOX 容量 audit table 30-50 區間規則）
+- 觸發背景：6/06 18:51 babel 腳註截斷 bug 修復 + 6/07 01:14 news-lens-weekly +6 P1 candidates 進 SPORE-INBOX → 連續 routine intake 推高 pending count，無哲宇 manual SHIP burst 消化
+
+**結構性 housekeeping flag（給觀察者，第 4 次續報）**：
+
+- LESSONS-INBOX.md 仍有兩個 §未消化清單 section（line 261 `## 未消化清單（📥 待 distill）` + line ~1980 `## 📥 未消化清單（2026-05-03 magical-feynman 新增...）`）— `inbox-signal.sh` 6/01 regex fix 後 awareness 訊號已對齊 (216 條 ground truth)，但兩 section 合併 / 拍板哪個 canonical 仍需哲宇拍板。本次續 flag，第 4 次續報
+
+**distill 心得（本次 routine session）**：
+
+- **REFLEXES #65 cross-SSOT specialization 是同 reflex 第二層 expansion**：v1-v3 regex within one tool（5/24 inbox-signal.sh）；v4-v8 cross-SSOT divergence between two tools（snapshot.sh organism.json v1 vs dashboard-immune.json v2）。同 root cause family（awareness layer self-trust gap），不同 manifestation surface。把兩層 instance 放同一 reflex 比新開 #66 好 — reader 看 #65 一條就接到完整 awareness layer self-verification 義務
+- **L666 housekeeping 的判斷邊界**：原 entry「JSON file 11d stale」確實 resolved（generator 已 hooked refresh-data.sh + IMMUNE_V2 schema 已上線）；但更深層的 meta-pattern（escalation channel未建 → routine surface signal 跨 N cycle 無 manual pickup）transferred to L652 (2026-05-27 routine handoff backlog) + REFLEXES #65 v4-v8 absorb cross-SSOT specialization。Housekeeping 不是 deletion，是「sub-problem solved + meta-pattern transferred to successor entries」的 explicit traceability move
+- **SPORE-INBOX 31 警示是 daily routine intake imbalance 的第一次 hit**：6/01 distill 時 pending=24（健康），6/07 已 31（警示）。routine 自動 propose >> manual SHIP rate 結構性問題首次 quantitative 浮現。本 distill 不 auto-drop（< 50 threshold），但記錄 vc=1，下次 distill 若 ≥ 50 觸發 auto-drop SOP
+
+🧬
+
+---
 
 ### 🧬 2026-06-01 twmd-distill-weekly — 第 9 次 distill（routine 觸發；REFLEXES #64 + #65 兩條 canonical 升級 + 3 條 housekeeping + inbox-signal.sh 1-line ship）
 
