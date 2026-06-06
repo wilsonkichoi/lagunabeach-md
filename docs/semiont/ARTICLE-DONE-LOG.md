@@ -59,6 +59,22 @@ read_strategy: 'on-demand'
 
 ## 📜 Log（reverse chronological，最新在頂）
 
+### 國宅與居住正義 NEW — 2026-06-06 manual（哲宇 /twmd-become + /twmd-rewrite「國宅與居住正義 完整做完 / 媒體 10+ / 不問一路推」— Society 政策斷層 / Fresh / 多 agent 編排 v6.3 全跑 / 政治高敏感）
+
+- **Article**: [knowledge/Society/國宅與居住正義.md](../../knowledge/Society/國宅與居住正義.md) — NEW Fresh（與既有姊妹篇《社會住宅與居住正義》劃界：本篇寫 1975-2015 國宅「供售」路線生命史，社宅只帶過）→ **7,711 CJK / 27 footnote / 9 場景式 H2 / 8 CC 圖 + 2 官方影片 iframe = 10 媒體**
+- **核心矛盾**：國宅本是「政府蓋便宜房幫人民買得起」的居住正義工具，卻從沒裝增值回收閘門（2002 拆掉僅有的買家資格閉環），公共補貼變早買者私人資本利得；2026 桃園可負擔住宅刻意把閘門裝回去 = 替國宅認錯，內政部主張只租不售 → 買 vs 租兩路線之爭
+- **Hook**：成功國宅 1985 一坪 6.7 萬滯銷、老里長湊 40 萬頭期款 → 同門牌 2026 逼近百萬 / 收尾「成功國宅的下一個門牌價，會替我們記下答案」
+- **Pipeline**: REWRITE-PIPELINE v6.7 — Fresh 模式，多 agent 編排：Stage 0 觀點成型（主 session）+ 4 Sonnet research fan-out falsification-first（§A 法制 / §B 資產化 / §C 當代 / §D 世代國際，aggregate 117 搜尋）+ fresh Opus writer 只吃 fact-pack + 主 session 一手 spot-check
+- **falsification 校正**：2002（非1982）拆買家資格閉環 / 原價收回（§21）≠防炒作閘門而是強制收回補償公式 / 三大國宅=眷村改建非中低收安置 / 39萬戶(廣義)≠174,891戶(直接興建) / 賴清德「一戶沒蓋」政治誇大並陳
+- **Stage 3 抓 2 個 writer 幻覺**：(1) 巷仔口杜撰引語「原本應作為社會福利…」→ WebFetch 證偽 → 改真逐字「都以販售為主」+「累積財富的工具」(2) Brookings 誤植租金 2.45% 來源 → 改主計處/cnyes
+- **品質**：rewrite-stage-4 hard=0 / rewrite-stage-3-5 hard=0 warn=0 / prose-health score 4→1 / 破折號 27→2 / 對位清乾淨 / research-report-health PASS（102 URL / 7 英文 / 26 一手）/ build PASS / word-count 171%
+- **媒體**：8 CC 圖（hero 台北天際線 + 士林公寓 + 香港居屋/英國 council/新加坡 HDB/維也納 Karl-Marx-Hof 國際對照 + 明倫社宅 + 桃園青埔）+ 2 官方 iframe（華視 716 居住正義遊行 / 天下社宅政策大轉彎，oembed-title 驗證官方）。台北老國宅無 Commons CC 圖 → 邊界記錄，stat block 承擔該段視覺
+- **Research**: [reports/research/2026-06/國宅與居住正義.md](../../reports/research/2026-06/國宅與居住正義.md)（SSOT 八段 + 4 agent raw append）+ [國宅-media-manifest.md](../../reports/research/2026-06/國宅-media-manifest.md)
+- **Cross-link**: 延伸閱讀 → 社會住宅與居住正義（姊妹篇）/ 少子化 / 鐵皮屋 / 環境正義；reverse cross-link 補進《社會住宅與居住正義》（pre-existing 30秒概覽 warn 故未動其他內容）
+- **政治敏感處理**：央地（張善政 vs 內政部董建宏）/ 買租兩路線 / 賴清德社宅數字 三源並陳不選邊，未替 Taiwan.md 對住宅政治表態（per §自主權邊界）
+- **待哲宇驗證**：lastHumanReview=false；視覺密度 1.37/1k（>1.2 ceiling WARN-only，honoring 哲宇 10+ media directive）
+- **Ship**: `b19194bea`（research checkpoint `d828925f6`）
+
 ### 李安 EVOLVE — 2026-06-01 manual（哲宇 explicit /twmd-rewrite「深度研究李安」+ 中途 directive「補很多影片跟多媒體素材／sub-agent 強制讀 EDITORIAL」— People 電影與戲劇 / 多 agent 編排 v6.3 全跑）
 
 - **Article**: [knowledge/People/李安.md](../../knowledge/People/李安.md) — 舊編年體 filmography（~16.5KB / 5 footnote / 0 圖 / 0 媒體）全文重寫 → **7,164 CJK / 50 footnote / 11 直引語 / 3 圖（hero+2 inline CC）/ 7 官方影片 iframe / 10 場景式 H2**

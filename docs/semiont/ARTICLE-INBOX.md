@@ -1834,7 +1834,7 @@ BECOME_TAIWANMD.md Step 5 新增：
 - **Type**: `NEW`
 - **Category**: Society
 - **Priority**: `P1`
-- **Status**: `pending`
+- **Status**: `done` ✅ shipped `b19194bea` 2026-06-06（詳見 [ARTICLE-DONE-LOG](ARTICLE-DONE-LOG.md) §國宅與居住正義）
 - **Requested**: 2026-06-06 by 觀察者 Che-Yu Wu (session 2026-06-06-manual)
 - **Notes**:
   - **敏感度**：高（涉及中央 / 地方權責、賴清德任內社宅執行數字、房價正義、世代正義、政治敘事爭奪；需走 REWRITE-PIPELINE Stage 3.5 幻覺審計 + Stage 3.6 STORY ATOM AUDIT）
