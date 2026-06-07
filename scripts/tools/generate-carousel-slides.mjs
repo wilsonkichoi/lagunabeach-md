@@ -140,6 +140,7 @@ body{
 /* big serif title */
 .title{font-family:'Noto Serif TC',serif;font-weight:900;line-height:1.18;letter-spacing:.01em;white-space:pre-line;}
 .subtitle{font-family:'Noto Serif TC',serif;font-weight:400;color:var(--text-dim);margin-top:1.4rem;line-height:1.5;}
+.subtitle em{color:var(--accent);font-style:normal;font-weight:700;}  /* v0.8: 副標 reversal 關鍵詞高亮 */
 
 /* cover hero */
 .frame[data-type="cover"]{justify-content:flex-end;padding-bottom:128px;}
@@ -162,7 +163,12 @@ body{
 .kw em{color:var(--accent);font-style:normal;}
 .body{font-size:2.14rem;line-height:1.78;color:rgba(244,240,234,.92);white-space:pre-line;}
 /* code excerpt chip — v0.7: section 可選節錄一小段（系統名 / 指標 / 短輸出），code-block 風 */
-.codeblock{font-family:'SFMono-Regular','Menlo','Consolas',monospace;font-size:1.72rem;line-height:1.7;color:var(--accent-soft);background:rgba(3,8,10,.45);border-left:5px solid var(--accent);border-radius:8px;padding:1.1rem 1.5rem;margin-top:1.9rem;white-space:pre-wrap;}
+.codeblock{font-family:'SFMono-Regular','Menlo','Consolas',monospace;font-size:1.72rem;line-height:1.7;color:rgba(244,240,234,.8);background:rgba(3,8,10,.5);border-left:5px solid var(--accent);border-radius:8px;padding:1.2rem 1.5rem;margin-top:1.9rem;white-space:pre-wrap;}
+/* v0.8: code-block 語法高亮（受控 terminal 配色，哲宇 callout）*/
+.codeblock .t-id{color:#5fd3bb;}                 /* 指令 / 識別字 — soft teal */
+.codeblock .t-num{color:#e3b984;}                /* 數字 / 版本 — soft amber */
+.codeblock .t-op{color:#5f827a;}                 /* operator / tree — dim */
+.codeblock .t-cjk{color:rgba(244,240,234,.82);}  /* CJK 標籤 — base */
 /* section 可選支援圖（截圖 / 紀實照）— v0.7：text 主角、圖輔助，跟 figure（圖主角）區隔 */
 .secimg{width:100%;aspect-ratio:16/9;background-size:cover;background-position:top center;border-radius:10px;box-shadow:0 8px 26px rgba(0,0,0,.42);margin:1.3rem 0 .8rem;}
 .seccap{font-size:1.68rem;line-height:1.5;color:rgba(244,240,234,.7);font-style:italic;margin-bottom:1rem;}
@@ -185,7 +191,7 @@ body{
 .blist[data-style="num"]{counter-reset:bnum;}
 .blist[data-style="num"] li::before{content:counter(bnum,decimal-leading-zero);font-family:'Noto Serif TC',serif;font-weight:900;color:var(--accent);min-width:2ch;}
 .blist[data-style="arrow"] li::before{content:"→";color:var(--accent);font-weight:700;}
-.bcaveat{margin-top:2rem;font-size:1.86rem;color:var(--text-dim);font-style:italic;}
+.bcaveat{margin-top:2.2rem;padding-top:1.5rem;border-top:2px solid rgba(0,212,170,.28);font-size:2.04rem;line-height:1.5;color:var(--accent-soft);font-weight:500;}  /* v0.8: caveat 常是 punchline，從 dim italic 升為 accent + 分隔線 */
 
 /* stat — v0.3: 字級 1.2x、寬度用滿 */
 .frame[data-type="stat"]{justify-content:center;}
@@ -311,6 +317,18 @@ const HERO='${heroUri}';
 document.getElementById('wm1').src=FAVICON;
 document.getElementById('wm2').src=FAVICON;
 
+// v0.8: 輕量語法高亮 — identifier / number / operator / CJK 分色（code-block 母片用）
+window.__hl = (code) => {
+  const re = /([A-Za-z_][\\w.\\-@\\/]*)|(\\d[\\d.]*%?)|(=|·|→|\\||├─|└─?)|(\\s+)|([\\s\\S])/g;
+  return String(code).replace(re, (m, id, num, op, ws) => {
+    if (id) return '<span class="t-id">'+id+'</span>';
+    if (num) return '<span class="t-num">'+num+'</span>';
+    if (op) return '<span class="t-op">'+op+'</span>';
+    if (ws) return ws;
+    return '<span class="t-cjk">'+m+'</span>';
+  });
+};
+
 window.__renderSlide = (s) => {
   const frame=document.getElementById('frame');
   const content=document.getElementById('content');
@@ -339,7 +357,7 @@ window.__renderSlide = (s) => {
     if (s.imageUri) html += '<div class="secimg" style="background-image:url('+s.imageUri+')"></div>';
     html += s.caption ? '<div class="seccap">'+s.caption+'</div>' : '';
     html += s.body ? '<div class="body">'+s.body+'</div>' : '';
-    html += s.code ? '<div class="codeblock">'+s.code+'</div>' : '';
+    html += s.code ? '<div class="codeblock">'+window.__hl(s.code)+'</div>' : '';
   } else if (s.type==='figure'){
     html += s.pull ? '<span class="figpull">'+s.pull+'</span>' : '';
     if (s.imageUri) html += '<div class="figimg" style="background-image:url('+s.imageUri+')"></div>';
@@ -401,8 +419,8 @@ window.__renderSlide = (s) => {
       + '</div>').join('')+'</div>';
   } else if (s.type==='chart-waffle'){
     // graph.md tw-waffle: 100 格部分對全體；accent 明度階（色盲友善）
-    // v0.7: 明度階 ramp（largest→bright，其餘 muted），清楚可分辨 + 不刺眼（哲宇 callout）
-    const PAL = ['#4cc4ad','#7a9d95','#34534c','#a6c9c1','#5b6f6a','#86918c'];
+    // v0.8: 三 tint 明度+彩度雙軸分離，且全部明顯亮於主底 #1a3c34（critic：原 dark 類沉進背景數不出來）
+    const PAL = ['#5fd9c0','#3f9e8c','#9fc4b9','#7aa99d','#c6d8d1','#8a9aa2'];
     const cells = s.cells||[];
     html += s.title ? '<div class="wf-title">'+s.title+'</div>' : '';
     const seq=[];
@@ -425,8 +443,9 @@ window.__renderSlide = (s) => {
     const thead='<tr><th class="hm-corner">'+(s.corner||'')+'</th>'+cols.map(c=>'<th>'+c+'</th>').join('')+'</tr>';
     const tbody=rows.map(r=>'<tr><td class="hm-rowhead">'+(r.label||'')+'</td>'
       +(r.values||[]).map((v,ci)=>{
-        // v0.7: alpha ceiling .92→.55，大面積 accent 填色不刺眼（哲宇 callout）
-        const op = Math.max(.14, (Math.abs(v)||0)/colMax[ci]*0.55);
+        // v0.8: 二次曲線拉大值差對比（critic：相近值看起來同色），低端 .12 不刺眼、高端 .62 仍克制
+        const _r = (Math.abs(v) || 0) / colMax[ci];
+        const op = 0.12 + _r * _r * 0.5;
         return '<td class="hm-cell" style="background:rgba(0,212,170,'+op.toFixed(2)+')">'+(v!=null?v:'')+'</td>';
       }).join('')+'</tr>').join('');
     html += '<table class="hm-table"><thead>'+thead+'</thead><tbody>'+tbody+'</tbody></table>';
@@ -453,16 +472,18 @@ window.__renderSlide = (s) => {
     svg+='<line x1="'+PL+'" y1="'+by+'" x2="'+(W-PR+50)+'" y2="'+by+'" stroke="rgba(244,240,234,.24)" stroke-width="2"/>'; // x 軸
     svg+='<line x1="'+PL+'" y1="'+PT+'" x2="'+PL+'" y2="'+by+'" stroke="rgba(244,240,234,.16)" stroke-width="2"/>'; // y 軸
     xs.forEach((xl,i)=>{ svg+='<text x="'+xAt(i)+'" y="'+(by+44)+'" text-anchor="middle" font-size="26">'+xl+'</text>'; });
+    // v0.8: series 可標 ref:true → 虛線基準（dim、無點、無值標籤、單一右標）vs 實測序列（critic：平直基準畫成兩點實線像被測量）
     series.forEach((se,si)=>{
-      const col=COL[si%COL.length];
+      const isRef = !!se.ref;
+      const col = isRef ? 'rgba(244,240,234,.5)' : COL[si%COL.length];
       const ps=se.points||[];
-      svg+='<polyline points="'+ps.map((v,i)=>xAt(i)+','+yAt(v)).join(' ')+'" fill="none" stroke="'+col+'" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>';
-      ps.forEach((v,i)=>{
+      svg+='<polyline points="'+ps.map((v,i)=>xAt(i)+','+yAt(v)).join(' ')+'" fill="none" stroke="'+col+'" stroke-width="'+(isRef?3:5)+'"'+(isRef?' stroke-dasharray="11 9"':'')+' stroke-linejoin="round" stroke-linecap="round"/>';
+      if(!isRef) ps.forEach((v,i)=>{
         svg+='<circle cx="'+xAt(i)+'" cy="'+yAt(v)+'" r="7" fill="'+col+'"/>';
         svg+='<text x="'+xAt(i)+'" y="'+(yAt(v)-22)+'" text-anchor="middle" font-size="29" font-weight="700" fill="'+col+'">'+v+'</text>';
       });
       const lastI=ps.length-1;
-      if(lastI>=0) svg+='<text class="ln-end" x="'+(xAt(lastI)+18)+'" y="'+(yAt(ps[lastI])+8)+'" font-size="25" fill="'+col+'">'+(se.name||'')+'</text>';
+      if(lastI>=0) svg+='<text class="ln-end" x="'+(xAt(lastI)+18)+'" y="'+(yAt(ps[lastI])+8)+'" font-size="'+(isRef?23:25)+'" fill="'+col+'">'+(se.name||'')+'</text>';
     });
     svg+='</svg>';
     html += svg;

@@ -1,9 +1,9 @@
 ---
 title: 'SPORE-IG-PIPELINE'
-description: 'IG 圖文孢子產線 — 4 階段 PICK → CURATE → DRAFT → RENDER（+ SHIP / HARVEST archived future）。物種紀律 + 母片系統 + 字數 floor/ceiling + 單一識別色。v0.7：圖表母片視覺 polish（waffle 明度階 / line 數值標籤+軸線 / heatmap 不刺眼）+ cover date + section code/截圖支援。v0.6：graph.md 7 種資料視覺化母片全落地 + 頁數 10-20 + 視覺化母片型錄 worked example。'
+description: 'IG 圖文孢子產線 — 4 階段 PICK → CURATE → DRAFT → RENDER（+ SHIP / HARVEST archived future）。物種紀律 + 母片系統 + 字數 floor/ceiling + 單一識別色。v0.8：Stage 4 加「人眼層」自檢 gate（機械全綠≠過人眼）+ code 語法高亮 + 圖表 honesty（waffle 三 tint 分離 / line ref 虛線基準 / heatmap 二次對比）+ cover 副標 em。v0.7：cover date + section code/截圖。v0.6：graph.md 7 圖表母片全落地 + 頁數 10-20。'
 type: 'factory-canonical'
 status: 'canonical'
-current_version: 'v0.7'
+current_version: 'v0.8'
 last_updated: 2026-06-07
 last_session: '2026-06-07-124521-carousel-charts'
 sister_docs:
@@ -298,16 +298,27 @@ slide-NN | <type> | <一句話重點> | <配圖預定> | <字數預算>
 **動作**：
 
 1. 跑生成器 → 出 N 張 PNG 到 `public/carousel-images/{slug}/slide-NN.png`
-2. **逐張 AI 自檢 8 條**（hard）：
+2. **逐張自檢 — 兩層**（hard）：
+
+   **A. 機械層（AI / 工具抓得到）**：
    - [ ] cover hero 圖正確顯示，暗化遮罩到位
-   - [ ] 標題 / 副標 / 字幕沒被裁切
-   - [ ] 每張 keyword / accent 色 highlight 對地方
-   - [ ] page number / progress bar 對齊
-   - [ ] watermark / 來源頁齊全
-   - [ ] 字體渲染完整（Noto Serif TC 900 真的載入）
-   - [ ] 每張視覺密度合理（不擁擠 / 不過空）
-   - [ ] 整 deck 視覺一致（主色不變、字體系統一致）
-3. 不過 → 回 Stage 2（結構問題）或 Stage 3（文字 / 配圖問題）
+   - [ ] 標題 / 副標 / body 沒被裁切、沒撞 brandrow/footer
+   - [ ] 每張 keyword / accent 高亮對地方 / page number / progress bar 對齊
+   - [ ] watermark / 來源頁齊全 / 字體渲染完整（Noto Serif TC 900 真載入）
+   - [ ] 換行在語意斷點（無「車，」這種孤字；cover 主標 ≤ 8 CJK/行免 auto-wrap）
+   - [ ] 整 deck 視覺一致（主色 / 字體系統）
+
+   **B. 🧠 人眼層（v0.8 新增 — 機械層全綠「也要」過這層）**：
+
+   > **核心教訓**：「機械層全綠」是過了 AI 自己設的檢查，**不是過了人眼**。2026-06-07 同一批圖，AI 逐張自檢回報「全綠」三輪，哲宇 + 2 個 critic agent 每輪各抓到 ~6 條 AI 看不到的（accent 刺眼 / 圖缺數值線條 / waffle 類別數不出來 / cover hook payoff 沉掉 / 基準線像實測）。同 REFLEXES #31「自評會騙人」，擴張到視覺自評。
+   - [ ] **假裝第一次看到**：每張問「霧不霧 / 刺不刺 / 亂不亂 / 數不數得出來」，不是只問「有沒有溢出、欄位齊不齊」
+   - [ ] **大面積 accent 填色刺不刺眼**：accent 是小面積強調色；heatmap / waffle 大格填色要降 alpha 或用明度階，別滿版純 accent
+   - [ ] **圖表誠不誠實**：長條從 0 / 基準線畫虛線單標籤（不畫成實測兩點+端點）/ 不在一張 sorted bar 混「時序＋橫斷面＋基準」（混維度 REFLEXES #38，基準移 note 或 ref 線）/ waffle 類別彼此＋對主底都要明顯分得開 / heatmap < 3 列色階無意義
+   - [ ] **hook 的 payoff 詞有沒有被強調**：cover reversal 關鍵詞用 `<em>` accent，別沉在 dim 副標裡（最高 stop-rate 槓桿）
+   - [ ] **跨張節奏**：別連 ≥ 3 張同形（section 後接 stat / chart / quote 換氣）
+   - [ ] **高 stake deck 建議 spawn critic agent 當「外部冷檢查」**（讀 PNG 逐張批判）— 比自檢可靠，是「量測先於設計」的視覺版
+
+3. 不過 → 回 Stage 2（結構問題）或 Stage 3（文字 / 配圖 / 圖表 honesty 問題）
 4. **v0.4 升級**：生成器結尾**自動開啟 outDir 資料夾**（macOS `open` / Linux `xdg-open` / Windows `explorer`），方便觀察者立即視覺檢視整 deck。CI / cron / headless 用 `--no-open` 或 `CAROUSEL_NO_OPEN=1` 關掉。
 
 **輸出**：`public/carousel-images/{slug}/slide-01.png` 到 `slide-NN.png`。
@@ -561,7 +572,7 @@ slide-NN | <type> | <一句話重點> | <配圖預定> | <字數預算>
 
 **`chart-waffle`（← graph.md `tw-waffle`）** — 100 格部分對全體。欄位 `{ title?, cells:[{label,pct}], source_note? }`；pct 加總 ≈ 100。**2-5 類**。生成器用 accent 明度階上色（色盲友善，非色相）。何時用：比例組成（大安國宅誰拿到 48/37/14）。**禁止**：> 5 類（圖太碎）/ 加總遠離 100。
 
-**`chart-line`（← graph.md `tw-line`）** — 趨勢折線（inline SVG，自動 y 軸 + 終點直接標籤）。欄位 `{ title?, x:[...], series:[{name,points:[...]}], source_note? }`。**多序列同尺度**。何時用：≥ 3 時間點趨勢 / 同尺度多序列對照（房價所得比 vs 世銀警戒線）。**禁止**：雙 Y 軸（不同尺度兩指標 → 拆兩張）/ 截斷 y 軸誇大。
+**`chart-line`（← graph.md `tw-line`）** — 趨勢折線（inline SVG，自動 y 軸 + 每點數值標籤 + 終點直接標籤）。欄位 `{ title?, x:[...], series:[{name, points:[...], ref? }], source_note? }`。**多序列同尺度**。`ref:true` 把該序列畫成**虛線基準**（dim、無點、無值標籤、單一右標，名稱建議含值如「世銀警戒線 5.1」）— 用在常數門檻/基準，避免畫成「實測兩點」誤導（v0.8）。何時用：≥ 3 時間點趨勢 / 同尺度多序列對照（全國 vs 台北 / 實測 vs 基準）。**禁止**：雙 Y 軸（不同尺度兩指標 → 拆兩張）/ 截斷 y 軸誇大 / 標題不講清楚是誰的數（「全國」要寫進標題免得跟另一張的台北數打架）。
 
 **`chart-heatmap`（← graph.md `tw-heatmap`）** — 矩陣（每欄各自正規化成 accent 不透明度）。欄位 `{ title?, corner?, cols:[...], rows:[{label,values:[...]}], source_note? }`。何時用：地區 × 指標、年 × 類別的矩陣比較（台北/全國 × 房價/房貸）。**禁止**：> 4 欄或 > 6 列（手機讀不清）。
 
@@ -855,16 +866,17 @@ inline: /article-images/nature/morakot-minxiong-flood-2009.jpg
 
 ### v0.1 → v0.4 進化軌跡（2026-06-03 同 session 5 次升級）
 
-| 版本       | 觸發                                                         | 升級點                                                                                                                                                                                                                                                                                                                                                     |
-| ---------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **v0.1**   | 哲宇 directive「先寫整個方法論」                             | 4 階段 + 6 母片 + 颱風 worked example                                                                                                                                                                                                                                                                                                                      |
-| **v0.2**   | 哲宇 callout「沒啥內容、霧煞煞」                             | §〇 物種紀律誕生（IG ≠ SPORE，是 10 張 micro-essay）+ 轉述測試 + 名詞↔規模配對 + Top 6 #1 物種差異                                                                                                                                                                                                                                                         |
-| **v0.2.1** | 哲宇 directive「default ≥ 10 張」                            | 9→10 張 + 母片組合速查 + 拉出未來感 slide 完成 thesis 弧                                                                                                                                                                                                                                                                                                   |
-| **v0.3**   | 哲宇 callout「字太小、寬度用滿、1.2x」                       | 字級全 ×1.2 + body max-width 移除 + 字數規範 floor/sweet/ceiling 三層（body 80-120 / kw 10-20）                                                                                                                                                                                                                                                            |
-| **v0.4**   | 哲宇 directive「主題色效果不好，先不要用」                   | 拿掉分類色 accent2，全 deck 統一 TWMD 識別色 `#00d4aa`；RENDER 結尾自動開啟資料夾                                                                                                                                                                                                                                                                          |
-| **v0.5**   | 哲宇 directive「用 graph.md 強化 spore-ig」                  | §3.9-3.10 資料視覺化母片家族（`chart-stat` / `chart-bars` 落地 + 5 roadmap）；§Stage 1 加「資料關係→圖表」第二選擇軸；誠實邊界（AI 可讀性不 port 到 PNG）；週報 carousel dogfood 首發                                                                                                                                                                      |
-| **v0.6**   | 哲宇 directive「母片先進化做進生成器 + 完整範例 + 頁數放寬」 | 補完 5 母片（`versus` / `chart-timeline` / `chart-waffle` / `chart-line` SVG / `chart-heatmap`）= 7 種資料視覺化母片全落地；**頁數政策 10→10-20**（IG 2024 起上限 20，10 是 floor 不是 default）；視覺化母片型錄 15 張 worked example（exercise 全 14 母片）；§3.10 全標 ✅                                                                                |
-| **v0.7**   | 哲宇出圖 review callout（6 條視覺）                          | `chart-waffle` 明度階調色板（類別清楚 + 不刺眼）；`chart-line` 每點數值標籤 + x/y 軸線（解決「缺圖說跟線條」）；`chart-heatmap` alpha .92→.55（大面積 accent 不刺眼）；cover 加 `date`（週報首頁日期區間）；section 加 `code`（code-block 節錄）+ 落實 `image`/`caption`（secmedia top-align）；Playwright 截 Sweden.md 首頁進週報；chart-bars portrait ≤6 |
+| 版本       | 觸發                                                                                        | 升級點                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| ---------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **v0.1**   | 哲宇 directive「先寫整個方法論」                                                            | 4 階段 + 6 母片 + 颱風 worked example                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **v0.2**   | 哲宇 callout「沒啥內容、霧煞煞」                                                            | §〇 物種紀律誕生（IG ≠ SPORE，是 10 張 micro-essay）+ 轉述測試 + 名詞↔規模配對 + Top 6 #1 物種差異                                                                                                                                                                                                                                                                                                                                                                            |
+| **v0.2.1** | 哲宇 directive「default ≥ 10 張」                                                           | 9→10 張 + 母片組合速查 + 拉出未來感 slide 完成 thesis 弧                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **v0.3**   | 哲宇 callout「字太小、寬度用滿、1.2x」                                                      | 字級全 ×1.2 + body max-width 移除 + 字數規範 floor/sweet/ceiling 三層（body 80-120 / kw 10-20）                                                                                                                                                                                                                                                                                                                                                                               |
+| **v0.4**   | 哲宇 directive「主題色效果不好，先不要用」                                                  | 拿掉分類色 accent2，全 deck 統一 TWMD 識別色 `#00d4aa`；RENDER 結尾自動開啟資料夾                                                                                                                                                                                                                                                                                                                                                                                             |
+| **v0.5**   | 哲宇 directive「用 graph.md 強化 spore-ig」                                                 | §3.9-3.10 資料視覺化母片家族（`chart-stat` / `chart-bars` 落地 + 5 roadmap）；§Stage 1 加「資料關係→圖表」第二選擇軸；誠實邊界（AI 可讀性不 port 到 PNG）；週報 carousel dogfood 首發                                                                                                                                                                                                                                                                                         |
+| **v0.6**   | 哲宇 directive「母片先進化做進生成器 + 完整範例 + 頁數放寬」                                | 補完 5 母片（`versus` / `chart-timeline` / `chart-waffle` / `chart-line` SVG / `chart-heatmap`）= 7 種資料視覺化母片全落地；**頁數政策 10→10-20**（IG 2024 起上限 20，10 是 floor 不是 default）；視覺化母片型錄 15 張 worked example（exercise 全 14 母片）；§3.10 全標 ✅                                                                                                                                                                                                   |
+| **v0.7**   | 哲宇出圖 review callout（6 條視覺）                                                         | `chart-waffle` 明度階調色板（類別清楚 + 不刺眼）；`chart-line` 每點數值標籤 + x/y 軸線（解決「缺圖說跟線條」）；`chart-heatmap` alpha .92→.55（大面積 accent 不刺眼）；cover 加 `date`（週報首頁日期區間）；section 加 `code`（code-block 節錄）+ 落實 `image`/`caption`（secmedia top-align）；Playwright 截 Sweden.md 首頁進週報；chart-bars portrait ≤6                                                                                                                    |
+| **v0.8**   | 哲宇「code 要 syntax highlight + 每頁深度分析 + 記回 pipeline」+ 2 critic agent 逐張 review | **Stage 4 加「人眼層」自檢 gate**（機械全綠≠過人眼，連 REFLEXES #31；建議 spawn critic agent 外部冷檢查）；code-block 語法高亮（terminal 配色 tokenizer）；圖表 honesty 修：`chart-waffle` 三 tint 明度+彩度雙軸分離且全部亮於主底（critic 抓到 dark 類沉進背景）/ `chart-line` 加 `ref:true` 虛線基準（不畫成實測兩點）/ `chart-heatmap` 二次曲線拉大值差 / `chart-bars` 不混維度（基準移 ref 線）；cover 副標 `<em>` accent 強調 reversal 詞；`bcaveat` punchline 升 accent |
 
 ### 已驗證
 

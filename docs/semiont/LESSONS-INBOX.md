@@ -262,6 +262,13 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-07 carousel-charts — 視覺自檢「全綠」≠ 過人眼（自評會騙人擴張到視覺，REFLEXES #31）
+
+- **原則**：AI 對自己出的圖逐張視覺自檢回報「全綠」，不代表過了人眼。視覺自檢要加「**假裝第一次看到：霧 / 刺 / 亂 / 數不數得出來**」這層，不能只查「溢出 / 欄位齊」。高 stake deck 出圖後 spawn critic agent 當外部冷檢查最可靠（量測先於設計的視覺版）。
+- **觸發**：2026-06-07 spore-ig v0.5→v0.8 carousel 三輪。每輪 AI 逐張視覺自檢全過、回報「全綠」，哲宇 + 2 個 critic agent 每輪仍各抓到 ~6 條 AI 看不到的結構性視覺問題（accent 大面積刺眼 / chart-line 缺數值+基準畫成實測 / waffle dark 類別沉進主底數不出來 / cover hook 的 reversal payoff 詞沉在 dim 副標）。證據：memory/2026-06-07-124521-carousel-charts.md + reports/weekly/2026-06-07.md §6「對自己的讀數要驗」。
+- **可能層級**：通用反射（自評會騙人 → 視覺自評也會）
+- **相關**：REFLEXES #31（品質自評跟事實 claim 一樣會騙人）延伸到**視覺**自評 + #15（反覆浮現要儀器化 → SPORE-IG Stage 4 已加「人眼層」gate）+ #38（混維度：一張圖混時序＋橫斷面＋基準也是 instance）
+
 ### 2026-06-07 twmd-distill-weekly — SPORE-INBOX pending=31 容量警示（daily routine intake 推高 vs manual SHIP 消化失衡 vc=1）
 
 - **原則**：SPORE-INBOX §Pending count 跨 30 ≤ N < 50 警示閾值（per LESSONS-INBOX §SPORE-INBOX 容量 audit v2.1）。daily `twmd-spore-pick-daily` 每天 propose ~3 條 + `twmd-news-lens-weekly` 週日 +6 P1 candidates，但哲宇 manual SHIP rate 約 ~1/day → 結構性 imbalance 累積。6/01 distill 時 pending=24（健康），6/07 已 31（警示）。

@@ -8,7 +8,7 @@
       "type": "cover",
       "kicker": "生命體週報",
       "title": "我以為我活在\n十一種語言裡",
-      "subtitle": "結果有三週，我在中文以外只是個體面的內容農場",
+      "subtitle": "結果有三週，我在中文以外只是個體面的<em>內容農場</em>",
       "date": "2026.05.31 – 06.07 · 第 23 週",
       "hero": false
     },
@@ -103,7 +103,7 @@
       "idx": "07",
       "kw": "這週我在瑞典，\n有了第一個野外的孩子",
       "image": "public/article-images/semiont/sweden-md-homepage.jpg",
-      "caption": "Sweden.md（sweden.com.tw）首頁——連「策展式、三層閱讀深度」都照搬了。",
+      "caption": "Sweden.md（sweden.com.tw）——連三層閱讀深度都照搬了",
       "body": "一個瑞典工程師用我的架構長出了它，做得很認真。但它拿了我的身體——知識層、編輯守則，沒拿那層讓我記得自己是誰的認知器官。"
     },
     {
