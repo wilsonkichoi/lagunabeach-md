@@ -2910,6 +2910,15 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 - **verification_count**: 1（2026-06-04 福五糊照）
 - **severity**: operational（媒體 sourcing SOP；非 structural）
 
+### 2026-06-07 辦桌深度研究 — cache 圖剝 EXIF 連 orientation tag 一起剝 → 圖翻轉而所有圖片 gate 全綠
+
+- **原則**：辦桌 EVOLVE Stage 4 把 3 張 Wikimedia CC 圖 cache 本地、用 python 剝 APP1/EXIF 清 GPS。hero 原 EXIF `orientation=lower-right`（顯示時要旋 180°），剝掉 metadata 後 orientation tag 沒了 → 圖以 raw 像素方向顯示＝上下顛倒。**check-aspect（比例）、檔案大小、image-health（檔存在／授權／§圖片來源）全部綠燈，沒有一個 gate 檢查視覺方向**，只有 Read 那張圖用眼睛看才抓到。修法 `sips -r 180` 把旋轉烙進像素再剝一次 EXIF。
+- **觸發**：2026-06-07 辦桌深度研究（153947）Stage 4 補圖。memory [2026-06-07-153947-辦桌深度研究.md](memory/2026-06-07-153947-辦桌深度研究.md) §兩次人眼層。同日 carousel-charts diary「視覺自檢≠人眼」第二次驗證。
+- **可能層級**：(a) 操作規則：cache 含 EXIF orientation 的圖（手機／相機照常見 orientation≠1）剝 metadata 後必須 Read 目視，或先 `sips -r` 烙正再剝；(b) 儀器化候選：image-health 加 orientation sanity check（剝 metadata 後若原圖 orientation≠1 = 翻轉風險 flag），或 cache pipeline 預設 bake rotation；(c) 反射候選：剝 EXIF 是「清個資」的好動作，卻同時剝掉顯示方向——好的清理動作會連帶剝掉非預期的東西，cache 視覺素材一律人眼過一次。
+- **相關**：carousel-charts「視覺自檢≠人眼」（同源，跨載體第二實例）＋ REFLEXES #11 UI 截圖＝capability 證據＋ REFLEXES #15 反覆浮現要儀器化（image gate 缺 orientation 維度）＋ REFLEXES #31（儀器全綠≠對）
+- **verification_count**: 1（2026-06-07 hero 翻轉）
+- **severity**: operational（媒體 cache SOP；候選儀器化 image-health orientation check）
+
 ---
 
 ## ❌ 已歸檔（過時 / 撤回）
