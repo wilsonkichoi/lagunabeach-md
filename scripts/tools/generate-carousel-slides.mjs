@@ -27,6 +27,12 @@
  *       { "type": "stat",   "value": "172→57", "unit": "公里", "label": "25 年來，颱風 24 小時路徑預報誤差壓掉三分之二" },
  *       { "type": "chart-stat", "title": "一週的代謝", "stats": [{ "value": "310", "label": "次 commit" }, { "value": "28", "label": "個 PR" }] },
  *       { "type": "chart-bars", "title": "誰在讀台灣的故事？", "bars": [{ "label": "西方 AI", "value": 83, "display": "83%" }, { "label": "對岸", "value": 16, "display": "16%", "note": "成功回應率較低" }], "source_note": "Cloudflare 7d" },
+ *       // v0.6 圖表母片（← graph.md tw-* port，spec 見 SPORE-IG-PIPELINE §3.9-3.10）：
+ *       { "type": "versus", "title": "台灣 vs 香港", "left": "台灣國宅", "right": "香港居屋", "rows": [{ "l": "住滿即可全價轉售", "r": "轉售須補地價" }] },
+ *       { "type": "chart-timeline", "title": "政策軸", "nodes": [{ "year": "1975", "label": "國宅條例上路", "desc": "設買家資格閉環" }] },
+ *       { "type": "chart-waffle", "title": "誰拿到", "cells": [{ "label": "軍方", "pct": 48 }, { "label": "民眾", "pct": 37 }], "source_note": "配售結構" },
+ *       { "type": "chart-line", "title": "房價所得比", "x": ["2014","2024"], "series": [{ "name": "全國", "points": [8.41, 10.76] }], "source_note": "政大" },
+ *       { "type": "chart-heatmap", "title": "房價×房貸", "corner": "地區", "cols": ["房價所得比","房貸負擔率%"], "rows": [{ "label": "台北", "values": [16.6, 64] }] },
  *       { "type": "point",  "kw": "飛進颱風眼", "body": "追風計畫的飛機真的衝進颱風中心，投下探空儀。" },
  *       { "type": "quote",  "text": "再精準的預報，都接不住那一秒。", "by": "" },
  *       { "type": "source", "sources": ["中央社","國家太空中心","原視"], "cta": "收藏這篇・分享給需要的人・追蹤 Taiwan.md" }
@@ -204,6 +210,59 @@ body{
 .cs-note{font-size:1.68rem;line-height:1.5;color:var(--text-dim);margin-top:.7rem;}
 .cs-source{margin-top:3rem;font-size:1.68rem;color:var(--text-dim);}
 
+/* versus — v0.6: graph.md tw-versus port（兩制度/兩路線並排對比） */
+.frame[data-type="versus"]{justify-content:center;}
+.vs-title{font-family:'Noto Serif TC',serif;font-weight:900;font-size:3.6rem;line-height:1.3;color:var(--text);margin-bottom:2.4rem;white-space:pre-line;}
+.vs-head{display:flex;gap:0;margin-bottom:1.6rem;}
+.vs-head>div{flex:1;font-family:'Noto Serif TC',serif;font-weight:900;font-size:2.7rem;color:var(--accent);text-align:center;padding-bottom:1rem;border-bottom:3px solid var(--accent);}
+.vs-head>div:first-child{margin-right:1.6rem;}
+.vs-head>div:last-child{margin-left:1.6rem;}
+.vs-row{display:flex;gap:0;margin-bottom:1.6rem;align-items:stretch;}
+.vs-row>div{flex:1;font-family:'Noto Sans TC';font-size:2.0rem;line-height:1.5;color:rgba(244,240,234,.92);}
+.vs-row>div:first-child{text-align:right;padding-right:1.6rem;border-right:2px solid rgba(0,212,170,.3);}
+.vs-row>div:last-child{text-align:left;padding-left:1.6rem;}
+
+/* chart-timeline — v0.6: graph.md tw-timeline port（節點時間軸） */
+.frame[data-type="chart-timeline"]{justify-content:center;}
+.tl-title{font-family:'Noto Serif TC',serif;font-weight:900;font-size:3.6rem;line-height:1.3;color:var(--text);margin-bottom:2.6rem;white-space:pre-line;}
+.tl-list{position:relative;padding-left:3.4rem;}
+.tl-list::before{content:"";position:absolute;left:.95rem;top:.7rem;bottom:.7rem;width:3px;background:rgba(0,212,170,.4);}
+.tl-node{position:relative;margin-bottom:2.4rem;}
+.tl-node:last-child{margin-bottom:0;}
+.tl-node::before{content:"";position:absolute;left:-2.8rem;top:.4rem;width:1.3rem;height:1.3rem;border-radius:50%;background:var(--accent);box-shadow:0 0 0 6px var(--ground);}
+.tl-year{font-family:'Noto Serif TC',serif;font-weight:900;font-size:2.34rem;color:var(--accent);}
+.tl-label{font-family:'Noto Serif TC',serif;font-weight:700;font-size:2.4rem;color:var(--text);margin:.15rem 0 .35rem;}
+.tl-desc{font-size:1.86rem;line-height:1.5;color:var(--text-dim);}
+
+/* chart-waffle — v0.6: graph.md tw-waffle port（100 格部分對全體；accent 明度階，色盲友善） */
+.frame[data-type="chart-waffle"]{justify-content:center;align-items:center;}
+.wf-title{font-family:'Noto Serif TC',serif;font-weight:900;font-size:3.24rem;line-height:1.3;color:var(--text);margin-bottom:1.8rem;white-space:pre-line;align-self:flex-start;}
+.wf-grid{display:grid;grid-template-columns:repeat(10,1fr);gap:7px;width:560px;margin-bottom:2rem;}
+.wf-cell{aspect-ratio:1;border-radius:5px;background:rgba(244,240,234,.08);}
+.wf-legend{display:flex;flex-direction:column;gap:1rem;align-self:flex-start;width:100%;}
+.wf-leg{display:flex;align-items:center;gap:1.1rem;font-size:2.04rem;color:var(--text);}
+.wf-sw{width:1.7rem;height:1.7rem;border-radius:5px;flex-shrink:0;}
+.wf-pct{margin-left:auto;color:var(--text-dim);font-variant-numeric:tabular-nums;}
+.wf-source{margin-top:1.8rem;font-size:1.66rem;color:var(--text-dim);align-self:flex-start;}
+
+/* chart-heatmap — v0.6: graph.md tw-heatmap port（矩陣，每欄各自正規化色深） */
+.frame[data-type="chart-heatmap"]{justify-content:center;}
+.hm-title{font-family:'Noto Serif TC',serif;font-weight:900;font-size:3.24rem;line-height:1.3;color:var(--text);margin-bottom:2rem;white-space:pre-line;}
+.hm-table{width:100%;border-collapse:separate;border-spacing:7px;}
+.hm-table th{font-family:'Noto Sans TC';font-weight:700;font-size:1.92rem;color:var(--text-dim);padding:.5rem;text-align:center;line-height:1.3;}
+.hm-table th.hm-corner{text-align:left;}
+.hm-rowhead{font-family:'Noto Sans TC';font-weight:700;color:var(--text);font-size:2.04rem;white-space:nowrap;text-align:left;padding-right:.8rem;}
+.hm-cell{font-family:'Noto Serif TC',serif;font-weight:900;font-size:2.4rem;color:var(--text);text-align:center;padding:1.3rem .5rem;border-radius:9px;}
+.hm-source{margin-top:1.8rem;font-size:1.66rem;color:var(--text-dim);}
+
+/* chart-line — v0.6: graph.md tw-line port（趨勢折線，inline SVG + 終點直接標籤） */
+.frame[data-type="chart-line"]{justify-content:center;}
+.ln-title{font-family:'Noto Serif TC',serif;font-weight:900;font-size:3.24rem;line-height:1.3;color:var(--text);margin-bottom:2rem;white-space:pre-line;}
+.ln-svg{width:100%;display:block;}
+.ln-svg text{font-family:'Noto Sans TC';fill:var(--text-dim);}
+.ln-svg .ln-end{font-family:'Noto Sans TC';font-weight:700;}
+.ln-source{margin-top:1.6rem;font-size:1.66rem;color:var(--text-dim);}
+
 /* quote — v0.3: 字級 1.2x */
 .frame[data-type="quote"]{justify-content:center;}
 .qmark{font-family:'Noto Serif TC',serif;font-weight:900;font-size:8.4rem;line-height:.6;color:var(--accent);opacity:.85;margin-bottom:.6rem;}
@@ -309,6 +368,87 @@ window.__renderSlide = (s) => {
       + (it.note ? '<span class="cs-note">'+it.note+'</span>' : '')
       + '</div>').join('')+'</div>';
     html += s.source_note ? '<div class="cs-source">'+s.source_note+'</div>' : '';
+  } else if (s.type==='versus'){
+    // graph.md tw-versus: 兩制度逐點對照
+    html += s.title ? '<div class="vs-title">'+s.title+'</div>' : '';
+    html += '<div class="vs-head"><div>'+(s.left||'')+'</div><div>'+(s.right||'')+'</div></div>';
+    html += (s.rows||[]).map(r=>{
+      const l = r.l != null ? r.l : (Array.isArray(r) ? r[0] : '');
+      const rr = r.r != null ? r.r : (Array.isArray(r) ? r[1] : '');
+      return '<div class="vs-row"><div>'+l+'</div><div>'+rr+'</div></div>';
+    }).join('');
+  } else if (s.type==='chart-timeline'){
+    // graph.md tw-timeline: 節點時間軸
+    html += s.title ? '<div class="tl-title">'+s.title+'</div>' : '';
+    html += '<div class="tl-list">'+(s.nodes||[]).map(n=>
+      '<div class="tl-node">'
+      + (n.year ? '<div class="tl-year">'+n.year+'</div>' : '')
+      + (n.label ? '<div class="tl-label">'+n.label+'</div>' : '')
+      + (n.desc ? '<div class="tl-desc">'+n.desc+'</div>' : '')
+      + '</div>').join('')+'</div>';
+  } else if (s.type==='chart-waffle'){
+    // graph.md tw-waffle: 100 格部分對全體；accent 明度階（色盲友善）
+    const PAL = ['#00d4aa','#4fd1b0','#1a9e85','#7de8d0','#0e6e5c','#9aa8a2'];
+    const cells = s.cells||[];
+    html += s.title ? '<div class="wf-title">'+s.title+'</div>' : '';
+    const seq=[];
+    cells.forEach((c,i)=>{ const cnt=Math.round(Math.abs(c.pct)||0); for(let k=0;k<cnt;k++) seq.push(i); });
+    const grid = Array.from({length:100},(_,i)=>{
+      const ci = seq[i];
+      return ci>=0 && ci!=null ? '<div class="wf-cell" style="background:'+PAL[ci%PAL.length]+'"></div>' : '<div class="wf-cell"></div>';
+    }).join('');
+    html += '<div class="wf-grid">'+grid+'</div>';
+    html += '<div class="wf-legend">'+cells.map((c,i)=>
+      '<div class="wf-leg"><span class="wf-sw" style="background:'+PAL[i%PAL.length]+'"></span>'
+      +'<span>'+(c.label||'')+'</span><span class="wf-pct">'+(c.pct!=null?c.pct+'%':'')+'</span></div>').join('')+'</div>';
+    html += s.source_note ? '<div class="wf-source">'+s.source_note+'</div>' : '';
+  } else if (s.type==='chart-heatmap'){
+    // graph.md tw-heatmap: 矩陣，每欄各自正規化成 accent 不透明度
+    const cols = s.cols||[];
+    const rows = s.rows||[];
+    html += s.title ? '<div class="hm-title">'+s.title+'</div>' : '';
+    const colMax = cols.map((_,ci)=>Math.max(1,...rows.map(r=>Math.abs((r.values||[])[ci])||0)));
+    const thead='<tr><th class="hm-corner">'+(s.corner||'')+'</th>'+cols.map(c=>'<th>'+c+'</th>').join('')+'</tr>';
+    const tbody=rows.map(r=>'<tr><td class="hm-rowhead">'+(r.label||'')+'</td>'
+      +(r.values||[]).map((v,ci)=>{
+        const op = Math.max(.1, (Math.abs(v)||0)/colMax[ci]*.92);
+        return '<td class="hm-cell" style="background:rgba(0,212,170,'+op.toFixed(2)+')">'+(v!=null?v:'')+'</td>';
+      }).join('')+'</tr>').join('');
+    html += '<table class="hm-table"><thead>'+thead+'</thead><tbody>'+tbody+'</tbody></table>';
+    html += s.source_note ? '<div class="hm-source">'+s.source_note+'</div>' : '';
+  } else if (s.type==='chart-line'){
+    // graph.md tw-line: 趨勢折線，自動 y 範圍 + 終點直接標籤（不用圖例）
+    html += s.title ? '<div class="ln-title">'+s.title+'</div>' : '';
+    const xs = s.x||[];
+    const series = s.series||[];
+    const W=900,H=520,PL=78,PR=210,PT=34,PB=72;
+    const allY = series.flatMap(se=>(se.points||[])).filter(v=>v!=null).map(Number);
+    let ymin=Math.min(...allY), ymax=Math.max(...allY);
+    if(!isFinite(ymin)){ymin=0;ymax=1;}
+    if(ymin===ymax){ymin-=1;ymax+=1;}
+    const pad=(ymax-ymin)*0.12; ymin-=pad; ymax+=pad;
+    const n=xs.length;
+    const xAt=i=> PL + (n<=1?0:(i/(n-1))*(W-PL-PR));
+    const yAt=v=> PT + (1-((v-ymin)/(ymax-ymin)))*(H-PT-PB);
+    const r1=x=>String(Math.round(x*10)/10);
+    const COL=['#00d4aa','#4fd1b0','#7de8d0','#1a9e85'];
+    let svg='<svg class="ln-svg" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="xMidYMid meet">';
+    svg+='<line x1="'+PL+'" y1="'+yAt(ymax)+'" x2="'+(W-PR)+'" y2="'+yAt(ymax)+'" stroke="rgba(244,240,234,.12)"/>';
+    svg+='<line x1="'+PL+'" y1="'+yAt(ymin)+'" x2="'+(W-PR)+'" y2="'+yAt(ymin)+'" stroke="rgba(244,240,234,.12)"/>';
+    svg+='<text x="'+(PL-14)+'" y="'+(yAt(ymax)+8)+'" text-anchor="end" font-size="22">'+r1(ymax)+'</text>';
+    svg+='<text x="'+(PL-14)+'" y="'+(yAt(ymin)+8)+'" text-anchor="end" font-size="22">'+r1(ymin)+'</text>';
+    xs.forEach((xl,i)=>{ svg+='<text x="'+xAt(i)+'" y="'+(H-PB+40)+'" text-anchor="middle" font-size="24">'+xl+'</text>'; });
+    series.forEach((se,si)=>{
+      const col=COL[si%COL.length];
+      const pts=(se.points||[]).map((v,i)=>xAt(i)+','+yAt(v)).join(' ');
+      svg+='<polyline points="'+pts+'" fill="none" stroke="'+col+'" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>';
+      (se.points||[]).forEach((v,i)=>{ svg+='<circle cx="'+xAt(i)+'" cy="'+yAt(v)+'" r="6" fill="'+col+'"/>'; });
+      const lastI=(se.points||[]).length-1;
+      if(lastI>=0) svg+='<text class="ln-end" x="'+(xAt(lastI)+16)+'" y="'+(yAt(se.points[lastI])+9)+'" font-size="26" fill="'+col+'">'+(se.name||'')+'</text>';
+    });
+    svg+='</svg>';
+    html += svg;
+    html += s.source_note ? '<div class="ln-source">'+s.source_note+'</div>' : '';
   } else if (s.type==='quote'){
     html += '<div class="qmark">“</div>';
     html += '<div class="qtext">'+(s.text||'')+'</div>';
