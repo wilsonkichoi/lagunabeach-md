@@ -16,6 +16,7 @@ related:
   - '../../reports/article-visualization-design-2026-06-06.md'
   - '../../src/styles/article-modules.css'
   - '../pipelines/REWRITE-PIPELINE.md'
+  - '../factory/SPORE-IG-PIPELINE.md'
 ---
 
 # graph.md — 視覺化編輯指南

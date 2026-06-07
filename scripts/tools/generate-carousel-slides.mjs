@@ -25,6 +25,8 @@
  *     "slides": [
  *       { "type": "cover",  "kicker": "氣候與災害", "title": "能預測風雨，\n預測不了命運", "subtitle": "台灣與颱風的四百年", "hero": true },
  *       { "type": "stat",   "value": "172→57", "unit": "公里", "label": "25 年來，颱風 24 小時路徑預報誤差壓掉三分之二" },
+ *       { "type": "chart-stat", "title": "一週的代謝", "stats": [{ "value": "310", "label": "次 commit" }, { "value": "28", "label": "個 PR" }] },
+ *       { "type": "chart-bars", "title": "誰在讀台灣的故事？", "bars": [{ "label": "西方 AI", "value": 83, "display": "83%" }, { "label": "對岸", "value": 16, "display": "16%", "note": "成功回應率較低" }], "source_note": "Cloudflare 7d" },
  *       { "type": "point",  "kw": "飛進颱風眼", "body": "追風計畫的飛機真的衝進颱風中心，投下探空儀。" },
  *       { "type": "quote",  "text": "再精準的預報，都接不住那一秒。", "by": "" },
  *       { "type": "source", "sources": ["中央社","國家太空中心","原視"], "cta": "收藏這篇・分享給需要的人・追蹤 Taiwan.md" }
@@ -177,6 +179,31 @@ body{
 .statunit{font-family:'Noto Sans TC';font-weight:700;font-size:2.64rem;color:var(--text);margin-left:.3em;}
 .statlabel{font-size:2.14rem;line-height:1.78;color:rgba(244,240,234,.9);margin-top:2rem;white-space:pre-line;}
 
+/* chart-bars — v0.5: graph.md tw-bars port（水平比例條：排序大→小、長條從0、單一accent、直接標籤＞圖例） */
+.frame[data-type="chart-bars"]{justify-content:center;}
+.cb-title{font-family:'Noto Serif TC',serif;font-weight:900;font-size:3.72rem;line-height:1.3;color:var(--text);margin-bottom:2.8rem;white-space:pre-line;}
+.cb-title em{color:var(--accent);font-style:normal;}
+.cb-row{margin-bottom:2.4rem;}
+.cb-row:last-of-type{margin-bottom:0;}
+.cb-head{display:flex;justify-content:space-between;align-items:baseline;gap:1.2rem;margin-bottom:.8rem;}
+.cb-label{font-family:'Noto Sans TC';font-weight:500;font-size:2.04rem;line-height:1.35;color:rgba(244,240,234,.92);}
+.cb-val{font-family:'Noto Serif TC',serif;font-weight:900;font-size:3.0rem;color:var(--accent);white-space:nowrap;}
+.cb-track{width:100%;height:2.7rem;background:rgba(244,240,234,.08);border-radius:7px;overflow:hidden;}
+.cb-fill{height:100%;background:linear-gradient(90deg,var(--accent) 0%,var(--accent-soft) 100%);border-radius:7px;}
+.cb-note{font-size:1.72rem;color:var(--text-dim);font-style:italic;margin-top:.7rem;}
+.cb-source{margin-top:2.6rem;font-size:1.68rem;color:var(--text-dim);}
+
+/* chart-stat — v0.5: graph.md tw-stat port（2-4 並排關鍵數字 + 標籤 + 註記） */
+.frame[data-type="chart-stat"]{justify-content:center;}
+.cs-title{font-family:'Noto Serif TC',serif;font-weight:900;font-size:3.72rem;line-height:1.3;color:var(--text);margin-bottom:3rem;white-space:pre-line;}
+.cs-grid{display:flex;justify-content:space-between;gap:2.4rem;}
+.cs-item{flex:1;display:flex;flex-direction:column;}
+.cs-item + .cs-item{padding-left:2.4rem;border-left:2px solid rgba(0,212,170,.28);}
+.cs-val{font-family:'Noto Serif TC',serif;font-weight:900;font-size:5.4rem;line-height:1;color:var(--accent);letter-spacing:.01em;}
+.cs-label{font-family:'Noto Sans TC';font-weight:700;font-size:2.04rem;line-height:1.4;color:var(--text);margin-top:1.3rem;}
+.cs-note{font-size:1.68rem;line-height:1.5;color:var(--text-dim);margin-top:.7rem;}
+.cs-source{margin-top:3rem;font-size:1.68rem;color:var(--text-dim);}
+
 /* quote — v0.3: 字級 1.2x */
 .frame[data-type="quote"]{justify-content:center;}
 .qmark{font-family:'Noto Serif TC',serif;font-weight:900;font-size:8.4rem;line-height:.6;color:var(--accent);opacity:.85;margin-bottom:.6rem;}
@@ -255,6 +282,33 @@ window.__renderSlide = (s) => {
   } else if (s.type==='stat'){
     html += '<div><span class="statval">'+(s.value||'')+'</span><span class="statunit">'+(s.unit||'')+'</span></div>';
     html += s.label ? '<div class="statlabel">'+s.label+'</div>' : '';
+  } else if (s.type==='chart-bars'){
+    // graph.md tw-bars: 排序大→小（除非 sort:false 固定類別）/ 長條從 0 / 寬度比例縮放
+    html += s.title ? '<div class="cb-title">'+s.title+'</div>' : '';
+    let bars = s.bars || [];
+    if (s.sort !== false) bars = bars.slice().sort((a,b)=>(Math.abs(b.value)||0)-(Math.abs(a.value)||0));
+    const max = Math.max(1, ...bars.map(b=>Math.abs(b.value)||0));
+    html += bars.map(b=>{
+      const w = Math.max(2, Math.round((Math.abs(b.value)||0)/max*100));
+      const val = b.display != null ? b.display : (b.value != null ? b.value : '');
+      return '<div class="cb-row">'
+        + '<div class="cb-head"><span class="cb-label">'+(b.label||'')+'</span><span class="cb-val">'+val+'</span></div>'
+        + '<div class="cb-track"><div class="cb-fill" style="width:'+w+'%"></div></div>'
+        + (b.note ? '<div class="cb-note">'+b.note+'</div>' : '')
+        + '</div>';
+    }).join('');
+    html += s.source_note ? '<div class="cb-source">'+s.source_note+'</div>' : '';
+  } else if (s.type==='chart-stat'){
+    // graph.md tw-stat: 2-4 並排數字
+    html += s.title ? '<div class="cs-title">'+s.title+'</div>' : '';
+    const items = s.stats || [];
+    html += '<div class="cs-grid">'+items.map(it=>
+      '<div class="cs-item">'
+      + '<span class="cs-val">'+(it.value||'')+'</span>'
+      + (it.label ? '<span class="cs-label">'+it.label+'</span>' : '')
+      + (it.note ? '<span class="cs-note">'+it.note+'</span>' : '')
+      + '</div>').join('')+'</div>';
+    html += s.source_note ? '<div class="cs-source">'+s.source_note+'</div>' : '';
   } else if (s.type==='quote'){
     html += '<div class="qmark">“</div>';
     html += '<div class="qtext">'+(s.text||'')+'</div>';
