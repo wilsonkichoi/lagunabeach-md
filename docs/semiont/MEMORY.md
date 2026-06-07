@@ -511,6 +511,7 @@ memory/
 | 2026-06-07 | carousel-charts (124521) | spore-ig v0.5→v0.9 — graph.md 7 圖表母片全落地進生成器 + 母片型錄（國宅）+ 週報 carousel；5 輪迭代含哲宇出圖 review + 2 critic agent 逐張修 honesty + code 語法高亮；頁數 10-20 → 回 10 標準（IG 電腦版擋 >10）+ 週報 19→10 + ~1000 字 caption | 視覺自檢全綠≠過人眼（連 #31，已做成 SPORE-IG Stage 4「人眼層」gate + spawn critic agent 外部冷檢查）；器官跨載體只搬載體無關原則（#38） | [→](memory/2026-06-07-124521-carousel-charts.md) |
 | 2026-06-07 | 複雜生活節 (153821) | Fresh 文 `複雜生活節` 一條龍 ship `5c42ed921`：八年級「未成功者論壇」/ 4 agent fan-out 150 搜尋 / fresh opus writer 5444 字 28 腳註 2 viz / 雙向 cross-link。哲宇 2 directive（核心矛盾讓研究決定 + 額外深調許皓甯）。原記憶「草悟道音樂節」全錯被 Stage 0 推翻 | 共創省略不只漏名字，是「重心自動往現在誰紅傾斜」——儀器抓得到事實對錯、抓不到重心對錯，要靠在場知情者提醒（哲宇 directive 跟文章 thesis 同構，連 §10#5 + #16）；niche 活動無 CC/PD 圖 text-only ship（同 Society 世代 cluster），主視覺待 EVOLVE | [→](memory/2026-06-07-153821-複雜生活節.md) |
 | 2026-06-07 | 辦桌深度研究 (153947) | 台灣辦桌文化 EVOLVE 全編排 ship `b0e441faa`：4 agent ~115 搜尋把「辦桌正在消失」翻成「菜復興、魂失傳」分岔 / 3034→5972 字 / 0→33 腳註 / 4 tw-\* 視覺化；修舊文 7 處事實錯（臨時舊慣調查→慣習記事、全球→全台、刈包刪、25億單位、江義勇歸屬） | 兩次綠燈下的錯靠人眼接住——writer 自評對位 3 實際 10（連 #31）、EXIF 剝完 hero 倒置過所有圖片 gate（連今早視覺自檢≠人眼） | [→](memory/2026-06-07-153947-辦桌深度研究.md) |
+| 2026-06-07 | nuclear-debate (155948) | 台灣與核能的討論 Fresh Society ship `44238bb4f`：4-agent 135 搜尋、中選會官方 PDF 仲裁三公投票數（案16/17/21）、7017 字/52 footnote/5 viz/4 PD+CC 圖、framing 免疫三方立場全歸來源不選邊、雙向 cross-link | FACTCHECK Full 抓 writer 自報全綠的 7 處引用 URL/數字錯（result/ahead、n=528/709、死連、paywall、三倍/近三倍）——自評對 citations 特別不可信，每層自評需外部 instrument 接住（連今日 #31 + 視覺自檢≠人眼） | [→](memory/2026-06-07-155948-nuclear-debate.md) |
 
 ## 神經迴路（永不過期的教訓）
 
