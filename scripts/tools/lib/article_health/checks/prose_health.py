@@ -74,6 +74,17 @@ _RE_HOLLOW = re.compile(
 # ── Em-dash (manifesto-11 [9-10] / quality-scan §8b) ─────────────────────────
 _RE_EMDASH = re.compile(r"——")
 
+# 歐化「(不)是 X 的」判斷句 (余光中〈中文的常態與變態〉)：是/不是 + 評價形容詞 + 的 + 句末標點。
+# 自然中文直接讓形容詞當謂語：「這個選址不隨便」優於「這個選址不是隨便的」。2026-06-07 哲宇
+# directive 加入 (live review 複雜生活節「這個選址不是隨便的」)。curated 評價形容詞 list +
+# 的後接標點 lookahead，避開合法的「是…的」(是我的 / 是紅色的 / 是教書的 / 是昨天來的)。
+_EURO_DE_ADJ = (
+    "隨便|必然|偶然|明顯|顯而易見|理所當然|合理|正確|錯誤|重要|必要|多餘|困難|容易|"
+    "普遍|常見|罕見|獨特|特別|相同|一致|值得|危險|公平|刻意|足夠|充分|有限|徒勞|"
+    "空洞|脆弱|致命|關鍵|根本|主觀|客觀|清楚|模糊|完整|完美|理想|樂觀|悲觀"
+)
+_RE_EURO_DE = re.compile(rf"不?是(?:{_EURO_DE_ADJ})的(?=[。，！？、；：」』）\s])")
+
 # ── Manifesto §11 Tier 1: 不是X是Y 對位句型 變體 ───────────────────────────
 # Tightened versions of patterns from check-manifesto-11.sh.
 # 2026-05-09 brave-kirch: 加 antithesis-bare 抓最普遍的「不是 X，是 Y」
@@ -645,6 +656,23 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                         "(3) 讀者真會預設 X 嗎？三題全 no = 改成正面斷言"
                     ),
                 )
+
+    # ── 歐化「(不)是 X 的」判斷句 — 2026-06-07 哲宇 directive 儀器化 ──
+    for m in _RE_EURO_DE.finditer(text_for_patterns):
+        line_no = _line_at_offset(text_for_patterns, m.start())
+        ctx = _context_around(text_for_patterns, m.start(), m.end())
+        yield Violation(
+            check=CHECK_NAME,
+            severity=Severity.WARN,
+            message=f"歐化「是…的」判斷句：{ctx}",
+            line=line_no,
+            snippet=m.group(0)[:40],
+            editorial_ref="EDITORIAL.md §歐化語法 (是…的判斷句)",
+            fix_suggestion=(
+                "去掉「是…的」讓形容詞直接當謂語：「這個選址不是隨便的」→「這個選址不隨便」"
+                "或「挑這裡有它的道理」；「答案是顯而易見的」→「答案顯而易見」。"
+            ),
+        )
 
     # ── Manifesto §11 Tier 2: AI metaphor ──
     tier2_total = sum(text_for_patterns.count(w) for w in _TIER2_WORDS)

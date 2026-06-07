@@ -61,6 +61,10 @@ _RE_CJK = re.compile(r"[一-鿿㐀-䶿]")
 # length-scaling 用 prose-CJK (strip 參考資料 footnote 段) — footnotes 可 inflate CJK ~25%
 # → 過度要求媒體。對齊 paragraph_rhythm density 的 prose 基準 (校準保留 設研院/天下/黃魚鴞)。
 _RE_REF_SECTION = re.compile(r"^##\s*參考資料", re.MULTILINE)
+# caption 渲染檢查：HTML block (</div> / </iframe>) 緊接 markdown italic caption (_..._) 無空行
+# → remark/markdown 不會 render italic (底線變字面字元)。2026-06-07 哲宇 directive (live review
+# 複雜生活節 3 支影片 caption 都缺空行)。working pattern (陳建年)：</div> 跟 _caption_ 之間有空行。
+_RE_CAPTION_NO_BLANK = re.compile(r"</(?:div|iframe)>[ \t]*\n_")
 
 
 def _is_local_path(src: str) -> bool:
@@ -205,6 +209,22 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                 "`## 圖片來源` section (CC 圖片需 cite 來源)"
             ),
             editorial_ref=EDITORIAL_REF,
+        )
+
+    # ── 3.5 caption render：HTML block 緊接 _caption_ 無空行 (italic 不 render) ──
+    for m in _RE_CAPTION_NO_BLANK.finditer(body):
+        line_no = body.count("\n", 0, m.start()) + 1
+        yield Violation(
+            check=CHECK_NAME,
+            severity=Severity.WARN,
+            message=(
+                "影片/HTML caption 缺空行：`</div>`／`</iframe>` 緊接 `_caption_` "
+                "無空行 → markdown 不 render italic (底線變字面字元)。"
+            ),
+            line=line_no,
+            snippet="</div>↵_caption_  (應 </div>↵↵_caption_)",
+            editorial_ref="REWRITE-PIPELINE Step 4.3.6 iframe caption 格式",
+            fix_suggestion="在 </div> 跟 _caption_ 之間補一個空行 (對齊 陳建年 working pattern)。",
         )
 
     # ── 4. Min image count gate (depth article media rhythm) ──────────────────

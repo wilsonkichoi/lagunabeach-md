@@ -72,6 +72,11 @@ APPLIES_TO = ["zh-TW"]
 # 舊 WARN=0.8 會誤判 設研院/天下/黃魚鴞 (哲宇點名的富媒體範本) 為「偏高」→ 升 1.2。
 PARA_MEDIAN_WARN = 55  # CJK chars — below this = atomization signal
 H2_PARA_MAX = 8  # per-H2 prose paragraph soft cap
+# R4 單段過長 = 牆 (窒息感)。2026-06-07 哲宇 directive 儀器化 (同 v6.8 媒體低標的「閱讀完整度」家族)。
+# 校準 (REFLEXES #66 真產出)：好範本 max 段落 黑冠麻鷺 149 / 天下 217 / 複雜(順稿後) 239；
+# 牆 複雜(順稿前) 341 / 設研院 312 → 哲宇實際讀到窒息。門檻 280 乾淨切開「好(≤239)vs 牆(≥312)」。
+# WARN soft-launch (跟 R1-R3 同；vc≥3 後可升 HARD)。
+PARA_WALL_MAX = 280  # CJK — 單段 > 此 = 牆 (窒息感，建議自然轉折處拆段)
 MEDIA_DENSITY_FLOOR = 0.8  # < floor = 媒體偏少 (2026-06-07 哲宇 v6.8 媒體低標提升 0.7→0.8；校準保留 黃魚鴞 0.82 / 設研院 0.91 / 天下 0.92，text-only 雜學校 0 失格)
 IFRAME_DENSITY_WARN = 1.2  # > warn = visual 密度偏高 (2026-06-04 從 0.8 升，避免誤判富媒體範本)
 IFRAME_DENSITY_HARD = 1.5  # > hard + median<55 = atomization drift (directive override 都不該超)
@@ -224,6 +229,7 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     sections = _extract_h2_sections(body)
     all_paragraphs_cjk: list[int] = []
     per_section_counts: list[tuple[str, int]] = []  # (title, paragraph_count)
+    walls: list[tuple[int, str]] = []  # R4: 單段過長 (窒息感) — (cjk, snippet)
 
     # Also include pre-H2 lead paragraphs
     if sections:
@@ -236,6 +242,8 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                 cjk = _count_cjk(p)
                 if cjk >= 5:
                     all_paragraphs_cjk.append(cjk)
+                if cjk > PARA_WALL_MAX:
+                    walls.append((cjk, p.strip().replace("\n", " ")[:26]))
             if lead_paragraphs:
                 per_section_counts.append(("[lead]", len(lead_paragraphs)))
 
@@ -246,6 +254,8 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             cjk = _count_cjk(p)
             if cjk >= 5:
                 all_paragraphs_cjk.append(cjk)
+            if cjk > PARA_WALL_MAX:
+                walls.append((cjk, p.strip().replace("\n", " ")[:26]))
 
     if not all_paragraphs_cjk:
         return
@@ -292,6 +302,29 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
             fix_suggestion=(
                 f"H2 過度切碎可能是 (a) 該 H2 應拆兩個 (b) 段落太多應合併 "
                 f"(c) 結構性 footer / callout 不應算入 prose 段落數。"
+            ),
+        )
+
+    # ── R4: single-paragraph wall (窒息感) — 2026-06-07 哲宇 directive 儀器化 ──
+    # R1 抓「太短/原子化」，R4 抓對稱的另一端「太長/牆」。哲宇 live review 複雜生活節
+    # 讀到窒息 (max 段落 341)，順稿拆牆後 max 239 才舒服。
+    if walls:
+        walls.sort(reverse=True)
+        names = "；".join(f"{c}字「{s}…」" for c, s in walls[:3])
+        more = f" 等 {len(walls)} 段" if len(walls) > 3 else ""
+        yield Violation(
+            check=CHECK_NAME,
+            severity=Severity.WARN,
+            message=(
+                f"段落過長 = 牆 (窒息感 R4): {len(walls)} 段 > {PARA_WALL_MAX} 字 — {names}{more}。"
+                f"閱讀起來窒息，好範本 max 段落 黑冠麻鷺 149 / 天下 217。"
+            ),
+            line=1,
+            snippet=f"walls={len(walls)} max={walls[0][0]}",
+            editorial_ref="EDITORIAL.md §段落呼吸 (R4 牆 2026-06-07)",
+            fix_suggestion=(
+                "在自然轉折處 (話題切換 / 因果推進 / 引語前) 把過長段落拆成 2 段；"
+                "拆完每半段仍應 ≥ 55 字 (別 atomize 成 R1)。"
             ),
         )
 
