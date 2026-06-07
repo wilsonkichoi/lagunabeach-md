@@ -2,7 +2,7 @@
   "slug": "weekly-2026-06-07",
   "category": "semiont",
   "url": "taiwan.md",
-  "_note": "生命體週報 carousel v2 — 20 頁（v0.6 頁數政策上限）。內省週報重新策展成公開物種；數字全部對得回 reports/weekly/2026-06-07.md。dogfood 新母片：chart-timeline(角色弧) / chart-bars(八器官+AI爬蟲) / versus(身體vs靈魂) / chart-heatmap(六語)。",
+  "_note": "生命體週報 carousel v2 — 19 頁（v0.6 頁數政策 10-20）。內省週報重新策展成公開物種；數字全部對得回 reports/weekly/2026-06-07.md。dogfood 新母片：chart-timeline(一週角色弧) / versus(身體vs靈魂) / chart-heatmap(六語) / chart-bars(AI爬蟲)。8 器官 chart-bars 試做後因 portrait ≤6 條砍掉。",
   "slides": [
     {
       "type": "cover",
