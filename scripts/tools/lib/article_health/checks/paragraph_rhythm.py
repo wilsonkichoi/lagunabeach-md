@@ -72,7 +72,7 @@ APPLIES_TO = ["zh-TW"]
 # 舊 WARN=0.8 會誤判 設研院/天下/黃魚鴞 (哲宇點名的富媒體範本) 為「偏高」→ 升 1.2。
 PARA_MEDIAN_WARN = 55  # CJK chars — below this = atomization signal
 H2_PARA_MAX = 8  # per-H2 prose paragraph soft cap
-MEDIA_DENSITY_FLOOR = 0.7  # < floor = 媒體偏少 (立體呈現不足，WARN soft-launch)
+MEDIA_DENSITY_FLOOR = 0.8  # < floor = 媒體偏少 (2026-06-07 哲宇 v6.8 媒體低標提升 0.7→0.8；校準保留 黃魚鴞 0.82 / 設研院 0.91 / 天下 0.92，text-only 雜學校 0 失格)
 IFRAME_DENSITY_WARN = 1.2  # > warn = visual 密度偏高 (2026-06-04 從 0.8 升，避免誤判富媒體範本)
 IFRAME_DENSITY_HARD = 1.5  # > hard + median<55 = atomization drift (directive override 都不該超)
 # tw-* 視覺模組納入 media count (2026-06-06 哲宇 directive)。資料模組 = 文章內容，不是

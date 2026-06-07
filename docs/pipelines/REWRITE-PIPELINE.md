@@ -3,7 +3,7 @@ title: 'REWRITE-PIPELINE'
 description: '文章改寫主流程 canonical — 6 stage 線性 (Stage 0 觀點 + 1-5 取材/寫/驗/形/連) / 模式判定在 Stage 0 內部分支 / Step N.M 編號 / heading 階層 H1-H4 / 翻譯收斂為 pointer 到巴別塔 (v6.0)'
 type: 'pipeline-canonical'
 status: 'canonical'
-current_version: 'v6.7'
+current_version: 'v6.8'
 last_updated: 2026-06-04
 last_session: '2026-06-04-102449-深度研究-設計研究院'
 plugin_check: 'python3 scripts/tools/article-health.py {file} --profile=rewrite-stage-4'
@@ -111,26 +111,27 @@ upstream_canonical:
 
 ## 🚦 Hard Gate Inventory（一張表 audit 全 pipeline）
 
-| Gate                        | 觸發 stage | 條件                          | 工具                                                                                                                                     | 不過 = ?         |
-| --------------------------- | ---------- | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
-| **§觀點成型落檔**           | Stage 0 終 | depth article                 | manual: grep `## 觀點成型` in research report + frontmatter `viewpoint_formed: true`                                                     | **不進 Stage 1** |
-| 核心矛盾鎖                  | Stage 1 終 | 所有 depth                    | research report frontmatter manual                                                                                                       | 不進 Stage 2     |
-| 研究報告落檔                | Stage 1 終 | depth ≥ 2000 字               | manual ls + frontmatter `researchReport`                                                                                                 | 不進 Stage 2     |
-| **研究報告 SSOT health** 🔬 | Stage 1 終 | **所有 depth**                | `research-report-health.py --tier=depth`（distinct≥25 / en≠0 / 一手≠0 / 搜尋日誌 / 信度三層 / raw §8）                                   | **不進 Stage 2** |
-| 媒體授權矩陣三表            | Stage 1 終 | 所有 article（**含 EVOLVE**） | manual append research 檔末尾 + ls public/article-images/{cat}/                                                                          | 不進 Stage 2     |
-| 五指 + 結構 + 塑膠 + 算術   | Stage 3    | 所有 article                  | quality-scan + manual                                                                                                                    | 不 commit        |
-| 事實鐵三角(算術/單位/引語)  | Stage 3    | 含金額/數字/引語              | python algebra + Ctrl-F                                                                                                                  | 不 commit        |
-| FACTCHECK Quick/Full Mode   | Stage 3    | 所有 article / A 級           | FACTCHECK-PIPELINE                                                                                                                       | 不進 Stage 4     |
-| **Citation plugin gate**    | Stage 3    | **所有 article（含 EVOLVE）** | article-health.py --profile=rewrite-stage-3-5 (footnote-format + footnote-density)                                                       | **不進 Stage 4** |
-| **Title+desc spine sync**   | Stage 3    | **所有 article（含 EVOLVE）** | manual: title 冒號三明治 + desc 吃進核心矛盾                                                                                             | 不 commit        |
-| **校正焦慮掃描** 🧱         | Stage 3    | **callout-triggered EVOLVE**  | Step 3.2-bis: backstop 自檢句 + grep 校正型句式 + 論點脊椎自檢                                                                           | **不 commit**    |
-| Format check 7 維度         | Stage 4    | 所有 article                  | article-health.py --profile=rewrite-stage-4                                                                                              | pre-commit hook  |
-| word-count ≥ 4500           | Stage 4    | depth article                 | article-health.py --check=word-count                                                                                                     | pre-commit hook  |
-| 多語 visual smoke           | Stage 4    | i18n 改動                     | 6 步 bash                                                                                                                                | revert commit    |
-| Image health                | Stage 4    | 涉及圖                        | article-health.py --check=image-health                                                                                                   | 不進 Stage 5     |
-| Aspect ratio 護欄           | Stage 4    | 涉及圖                        | check-aspect.sh                                                                                                                          | 換圖             |
-| **視覺化 viz-health** 📊🧱  | Stage 4    | 含 `tw-*` 資料模組            | article-health.py --check=viz-health（資料圖表標來源 / 禁「如上圖」AI-blind 指示語，per graph.md）；rewrite-stage-4 **HARD**（新文必過） | 不進 Stage 5     |
-| Sibling 格式預檢            | Stage 5    | 補 reverse cross-link         | article-health.py --check=format-structure                                                                                               | DEFER + 開 issue |
+| Gate                                  | 觸發 stage | 條件                          | 工具                                                                                                                                                                                                                                                                                                                  | 不過 = ?         |
+| ------------------------------------- | ---------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
+| **§觀點成型落檔**                     | Stage 0 終 | depth article                 | manual: grep `## 觀點成型` in research report + frontmatter `viewpoint_formed: true`                                                                                                                                                                                                                                  | **不進 Stage 1** |
+| 核心矛盾鎖                            | Stage 1 終 | 所有 depth                    | research report frontmatter manual                                                                                                                                                                                                                                                                                    | 不進 Stage 2     |
+| 研究報告落檔                          | Stage 1 終 | depth ≥ 2000 字               | manual ls + frontmatter `researchReport`                                                                                                                                                                                                                                                                              | 不進 Stage 2     |
+| **研究報告 SSOT health** 🔬           | Stage 1 終 | **所有 depth**                | `research-report-health.py --tier=depth`（distinct≥25 / en≠0 / 一手≠0 / 搜尋日誌 / 信度三層 / raw §8）                                                                                                                                                                                                                | **不進 Stage 2** |
+| 媒體授權矩陣三表                      | Stage 1 終 | 所有 article（**含 EVOLVE**） | manual append research 檔末尾 + ls public/article-images/{cat}/                                                                                                                                                                                                                                                       | 不進 Stage 2     |
+| **深度媒體掃描協議** 🔍🎬             | Stage 1 終 | **所有 depth（含 EVOLVE）**   | [Step 1.9.0](#step-190-深度媒體掃描協議hardv68-)：Chrome MCP rendered-DOM 圖掃（curl/WebFetch 對 JS-CDN 失效）+ YouTube 官方頻道影片掃；no-media 結論前必跑，落 §6 negative finding                                                                                                                                   | **不進 Stage 2** |
+| 五指 + 結構 + 塑膠 + 算術             | Stage 3    | 所有 article                  | quality-scan + manual                                                                                                                                                                                                                                                                                                 | 不 commit        |
+| 事實鐵三角(算術/單位/引語)            | Stage 3    | 含金額/數字/引語              | python algebra + Ctrl-F                                                                                                                                                                                                                                                                                               | 不 commit        |
+| FACTCHECK Quick/Full Mode             | Stage 3    | 所有 article / A 級           | FACTCHECK-PIPELINE                                                                                                                                                                                                                                                                                                    | 不進 Stage 4     |
+| **Citation plugin gate**              | Stage 3    | **所有 article（含 EVOLVE）** | article-health.py --profile=rewrite-stage-3-5 (footnote-format + footnote-density)                                                                                                                                                                                                                                    | **不進 Stage 4** |
+| **Title+desc spine sync**             | Stage 3    | **所有 article（含 EVOLVE）** | manual: title 冒號三明治 + desc 吃進核心矛盾                                                                                                                                                                                                                                                                          | 不 commit        |
+| **校正焦慮掃描** 🧱                   | Stage 3    | **callout-triggered EVOLVE**  | Step 3.2-bis: backstop 自檢句 + grep 校正型句式 + 論點脊椎自檢                                                                                                                                                                                                                                                        | **不 commit**    |
+| Format check 7 維度                   | Stage 4    | 所有 article                  | article-health.py --profile=rewrite-stage-4                                                                                                                                                                                                                                                                           | pre-commit hook  |
+| word-count ≥ 4500                     | Stage 4    | depth article                 | article-health.py --check=word-count                                                                                                                                                                                                                                                                                  | pre-commit hook  |
+| 多語 visual smoke                     | Stage 4    | i18n 改動                     | 6 步 bash                                                                                                                                                                                                                                                                                                             | revert commit    |
+| **媒體完整度低標** (length-scaled) 🎬 | Stage 4    | **depth article**             | `--profile=rewrite-stage-4`：image-health 媒體 ≥ **max(3, round(prose-CJK/1200))**（4500→4 / 7000→6 / 9000→8，HARD）+ media-richness ≥3 靜態圖 / People·Music·Nature ≥1 官方影片（WARN）+ paragraph-rhythm density 0.8–1.2 / 1k（v6.8 floor 0.7→0.8）。校準：複雜生活節 13 / 設研院 5 / 黃魚鴞 3 全過、text-only 失格 | 不進 Stage 5     |
+| Aspect ratio 護欄                     | Stage 4    | 涉及圖                        | check-aspect.sh                                                                                                                                                                                                                                                                                                       | 換圖             |
+| **視覺化 viz-health** 📊🧱            | Stage 4    | 含 `tw-*` 資料模組            | article-health.py --check=viz-health（資料圖表標來源 / 禁「如上圖」AI-blind 指示語，per graph.md）；rewrite-stage-4 **HARD**（新文必過）                                                                                                                                                                              | 不進 Stage 5     |
+| Sibling 格式預檢                      | Stage 5    | 補 reverse cross-link         | article-health.py --check=format-structure                                                                                                                                                                                                                                                                            | DEFER + 開 issue |
 
 **🔴 四條反射特別強化**（v3.1 sad-shockley 升級 + v6.0 新增第 3 條 + v6.2 新增第 4 條）：
 
@@ -928,6 +929,22 @@ Stage 1 spawn 研究 agent 時，**必須先判斷需不需要直接落檔**：
 ### Step 1.9: 媒體素材研究 🎬
 
 > Stage 1 結尾必跑（除非 hub / 短修正）。蒐集媒體素材 + 授權檢查 + manifest 落 research 檔末尾。
+
+#### Step 1.9.0: 深度媒體掃描協議（HARD，v6.8）🔍🎬
+
+> **v6.8 新增（2026-06-07 哲宇 directive「媒體完整度低標提升」）**：媒體完整度是**素材挖掘深度問題，不是素材有無問題**。複雜生活節 worked example——同一個 niche 主題，`curl` / `WebFetch` 抓圖全 404 → 一度 text-only ship；改用 Chrome MCP 驅動瀏覽器讀 rendered DOM 後，9 圖 + 3 官方影片全挖出來。**「找不到媒體」這個結論在跑完本協議之前不成立。**
+
+**強制兩段掃描（出任何「找不到 / 不勉強塞 / text-only」結論之前必跑）**：
+
+1. **Chrome MCP rendered-DOM 圖片掃描** — Medium / FB / 官網 / 機構新聞稿頁是 JS-render，`curl` / `WebFetch` 取不到圖片 CDN URL（miro.medium.com 等被 JS 包住）：
+   - `list_connected_browsers` → `select_browser` → `tabs_context_mcp(createIfEmpty)`
+   - `navigate` 到來源頁 → `javascript_tool` 跑 scroll-through 觸發 lazy-load + `[...document.querySelectorAll('figure img')].map(i=>({src:i.currentSrc||i.src, cap:figcaption}))` 取 rendered `img.src` + 圖說
+   - 下載 hi-res（miro 改 `resize:fit:2000`）→ `sips` 優化 + 清 EXIF → cache `public/article-images/{cat}/` → fair use editorial commentary 標註（per Step 1.9.2 第 8 點）
+2. **YouTube 官方頻道影片掃描** — `navigate` 到 `youtube.com/results?search_query={主題／人物／創辦人／機構}` → `javascript_tool` 取 `ytd-video-renderer` 的 videoId + channel → 篩**官方頻道**（藝人／廠牌／節目方／機構／政府單位，如 教育部青年發展署 / TEDxTaipei / 數位時代 / 公視）→ Step 4.3.6 iframe embed
+
+**落檔**：掃描結果（找到的 URL 清單 + negative finding「跑過深掃仍無 X」）寫進 research report §6 媒體 manifest。**跑過深掃後真的無官方媒體 → 才可走 image-only / text-only，並在 §6 明記 negative finding**（不是省略掃描）。
+
+**為什麼是 HARD**：text-only / media-poor ship 過去多半不是「真沒素材」，是深掃沒做（curl 失敗就放棄）。把深掃變必經 = 把媒體完整度的低標從「有沒有順手的 CC 圖」提到「有沒有挖到該有的素材」。儀器化在 `image-health`（length-scaled hard，見 §Hard Gate Inventory）+ `media-richness`（≥1 官方影片 WARN for People/Music/Nature）+ `paragraph-rhythm`（density floor 0.8）三個 plugin；但工具只擋「數量不足」，**深掃這個動作本身是 SOP HARD 步驟**。
 
 #### Step 1.9.1: inline 外連 manifest（YouTube／影像／音檔）
 
@@ -2140,6 +2157,8 @@ git push
 ```
 
 ---
+
+_v6.8 | 2026-06-07 複雜生活節 — 媒體完整度低標提升（深掃協議 + length-scaled 硬底）：哲宇 directive「調整 rewrite-pipeline，媒體素材完整度未來文章都以複雜生活節規格為標準，提升低標」。複雜生活節 worked example——同一 niche 主題 curl/WebFetch 抓圖全 404 → 一度 text-only，改用 **Chrome MCP 驅動瀏覽器讀 rendered DOM** 後 9 圖 + 3 官方影片（教育部青年署 / TEDxTaipei / 數位時代）全挖出來，5.4k→10.5k 字擴寫承載。**核心洞察：媒體完整度是素材挖掘深度問題，不是有無問題**。三層升級：(1) **Step 1.9.0 深度媒體掃描協議（HARD）**——出 no-media 結論前必跑 Chrome MCP rendered-DOM 圖掃（JS-CDN curl/WebFetch 失效）+ YouTube 官方頻道影片掃，落 §6 negative finding；(2) **image-health length-scaled**（`max(3, round(prose-CJK/1200))` → 4500→4 / 7000→6 / 9000→8，rewrite-stage-4 HARD，prose-CJK 排除 參考資料 footnote 段對齊 density 基準）；(3) **media-richness** 靜態圖 floor 2→3 + People/Music/Nature 影片 INFO→WARN；**paragraph-rhythm** density floor 0.7→0.8。**dogfood（REFLEXES #66 真產出校準，先抓到 base 4 + full-CJK 兩個 bug）**：複雜 13 / 設研院 5 / 天下 6 / 黃魚鴞 3 / 陳建年 8 named 範本全過、text-only（雜學校 0）失格 → EVOLVE。對應 REFLEXES #15 儀器化 + #66 gate dogfood 校準 + #50 pipeline auto-detect（深掃變 SOP 必經）。_
 
 _v6.7 | 2026-06-04 深度研究-設計研究院 — 配圖證據層級（Step 1.9.2 選圖第一問）：v6.6（天下）升級的是媒體的「量／密度」（圖+影片 ≥8 / band 0.7–1.2/1k）；v6.7 補上正交的「質／證據」軸。**Tier A 主體成果圖**（改造後成果／作品本身／當事人在做那件事）> Tier B 脈絡圖 > **Tier C generic 填位圖**；機構／設計／產品／作品／工程／事件題材 Tier A 優先，Tier A 找不到 CC 就走 fair use editorial commentary（來源優先序第 8 點），不退用 generic CC 填位（授權便利不凌駕證據強度）。判準訊號：caption 一旦得寫「示意／非當事／非改造後」= Tier C 在報警，回頭找 Tier A。完整層級表 + source 技巧 canonical 落 [EDITORIAL §媒體編織 §圖片的證據層級](../editorial/EDITORIAL.md)。觸發：設研院文章 5 張原本全是情境圖（松山文創×2 / generic 投開票所 / 中山站既有空間「非改造後」），哲宇 callout「圖要補關鍵案例被改造完後的圖（fair use）」→ 換 3 張 TDRI 改造後成果圖（衛生所候診區／公投公報／中山站售票區，cache 本地 + fair use 標註）。fair use scope 沿用 EDITORIAL 2026-05-09 既立的機構公開作品編輯評論。對應 REFLEXES #15 儀器化。_
 

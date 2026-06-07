@@ -113,7 +113,13 @@ viz-health = "hard"
 min_chars = 4500
 
 [profiles."rewrite-stage-4".options_overrides.image-health]
+# 2026-06-07 哲宇 directive (REWRITE v6.8 媒體完整度低標提升)：length_scaled —
+# effective_min = max(3, round(prose-CJK / 1200)) → 4500→4 / 7000→6 / 9000→8；base 3 是
+# 短 depth floor (黃魚鴞 3635 字/3 媒體 全過)。named 富媒體範本 (設研院 5 / 天下 6 / 複雜 13)
+# 全過、text-only (雜學校 0) 失格。prose-CJK 排除 參考資料 footnote 段。深掃協議見 Step 1.9.0。
 min_images = 3
+length_scaled = true
+cjk_per_media = 1200
 min_images_severity = "hard"
 zero_images_severity = "hard"
 
@@ -125,6 +131,8 @@ fail_on = "hard"
 
 [profiles."rewrite-stage-4-5".options_overrides.image-health]
 min_images = 3
+length_scaled = true
+cjk_per_media = 1200
 min_images_severity = "hard"
 zero_images_severity = "hard"
 

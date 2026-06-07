@@ -48,7 +48,9 @@ EDITORIAL_REF = "EDITORIAL.md §媒體編織 + SPORE-PUBLISH-PIPELINE §Stage 1 
 APPLIES_TO = ["zh-TW"]
 
 DEFAULT_MIN_IFRAMES = 1
-DEFAULT_MIN_IMAGES = 2
+# 2026-06-07 哲宇 directive (REWRITE v6.8 媒體完整度低標提升)：static 圖 floor 2→3
+# (depth 應 hero + ≥2 inline scene-mid，不只 hero+1)。WARN — spore-publish 失格 → EVOLVE 補。
+DEFAULT_MIN_IMAGES = 3
 
 # 2026-06-04 哲宇 directive「圖+影片 > 8 或圖文配比更精妙評估」：length-scaled count
 # target (INFO advisory) + multimodal nudge。密度 band (floor/ceiling) 由 paragraph-rhythm
@@ -182,7 +184,11 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
                 fix_suggestion="補 scene-mid 圖或官方影片 iframe (REWRITE Step 4.3.1 / 4.3.6)",
             )
 
-    # ── Multimodal nudge (INFO) — 圖 AND 影片 (per §媒體編織 立體呈現) ──
+    # ── Multimodal 影片 floor (WARN) — 2026-06-07 哲宇 directive (v6.8) INFO→WARN ──
+    # People/Music/Nature 題材幾乎一定有官方影片 (黃魚鴞 2 / 陳建年 4 範本)；0 iframe 在
+    # 跑過 Step 1.9.0 深掃 (Chrome MCP rendered-DOM + YouTube 官方頻道) 後仍 0 = 真的沒有 →
+    # 在 research §6 記 negative finding 即可 (WARN advisory 不擋 pre-commit ship)。
+    # 影像偏 image-rich 的題材 (機構/設計/產品，如 設研院) 不在此 set，不會被 video-WARN。
     category = target.frontmatter.get("category") if target.frontmatter else None
     if (
         cjk >= 3000
@@ -192,9 +198,10 @@ def check(target: FileTarget, config: dict[str, Any]) -> Iterator[Violation]:
     ):
         yield Violation(
             check=CHECK_NAME,
-            severity=Severity.INFO,
+            severity=Severity.WARN,
             message=(
-                f"多模態 advisory：{category} 題材通常有官方影片可嵌，目前 0 iframe。"
+                f"影片素材不足：{category} 題材通常有官方影片可嵌，目前 0 iframe。"
+                " 跑過 Step 1.9.0 深掃 (Chrome MCP + YouTube 官方頻道) 仍 0 → research §6 記 negative。"
                 " 黃魚鴞 (2 官方影片) / 陳建年 (4) 是 video-rich 立體呈現範本。"
             ),
             line=None,
