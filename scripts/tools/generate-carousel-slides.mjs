@@ -150,7 +150,9 @@ body{
 .frame[data-type="cover"] .subtitle{font-size:2.52rem;text-shadow:0 2px 12px rgba(0,0,0,.5);}
 .frame[data-type="cover"] .wordmark{text-shadow:0 2px 10px rgba(0,0,0,.55);}
 .frame[data-type="cover"] .kicker{box-shadow:0 4px 18px rgba(0,0,0,.4);}
-.swipe{margin-top:2.6rem;display:inline-flex;align-items:center;gap:.6rem;color:var(--accent);font-weight:700;font-size:2.04rem;}
+.coverdate{font-family:'Noto Sans TC';font-weight:700;font-size:1.92rem;color:var(--accent);letter-spacing:.08em;margin-top:1.4rem;}
+.frame[data-type="cover"] .coverdate{text-shadow:0 2px 10px rgba(0,0,0,.5);}
+.swipe{margin-top:2.2rem;display:inline-flex;align-items:center;gap:.6rem;color:var(--accent);font-weight:700;font-size:2.04rem;}
 .swipe .arrow{font-size:2.4rem;}
 
 /* section — v0.3: 字級 1.2x、寬度用滿 */
@@ -159,6 +161,12 @@ body{
 .kw{font-family:'Noto Serif TC',serif;font-weight:900;font-size:4.56rem;line-height:1.25;color:var(--text);margin-bottom:1.5rem;white-space:pre-line;}
 .kw em{color:var(--accent);font-style:normal;}
 .body{font-size:2.14rem;line-height:1.78;color:rgba(244,240,234,.92);white-space:pre-line;}
+/* code excerpt chip — v0.7: section 可選節錄一小段（系統名 / 指標 / 短輸出），code-block 風 */
+.codeblock{font-family:'SFMono-Regular','Menlo','Consolas',monospace;font-size:1.72rem;line-height:1.7;color:var(--accent-soft);background:rgba(3,8,10,.45);border-left:5px solid var(--accent);border-radius:8px;padding:1.1rem 1.5rem;margin-top:1.9rem;white-space:pre-wrap;}
+/* section 可選支援圖（截圖 / 紀實照）— v0.7：text 主角、圖輔助，跟 figure（圖主角）區隔 */
+.secimg{width:100%;aspect-ratio:16/9;background-size:cover;background-position:top center;border-radius:10px;box-shadow:0 8px 26px rgba(0,0,0,.42);margin:1.3rem 0 .8rem;}
+.seccap{font-size:1.68rem;line-height:1.5;color:rgba(244,240,234,.7);font-style:italic;margin-bottom:1rem;}
+.frame[data-type="section"].secmedia{justify-content:flex-start;padding-top:158px;}
 
 /* figure — v0.3: 字級 1.2x */
 .frame[data-type="figure"]{justify-content:flex-start;padding-top:160px;padding-bottom:130px;}
@@ -308,6 +316,7 @@ window.__renderSlide = (s) => {
   const content=document.getElementById('content');
   frame.setAttribute('data-type', s.type);
   frame.classList.toggle('hero', !!(s.type==='cover' && s.hero && HERO));
+  frame.classList.toggle('secmedia', s.type==='section' && !!s.imageUri);
   if (s.type==='cover' && s.hero && HERO) frame.style.setProperty('--hero','url('+HERO+')');
   // progress bar width
   document.getElementById('progress').style.width = Math.round((s.index/s.total)*100)+'%';
@@ -320,13 +329,17 @@ window.__renderSlide = (s) => {
     html += s.kicker ? '<span class="kicker">'+s.kicker+'</span>' : '';
     html += '<h1 class="title">'+(s.title||'')+'</h1>';
     html += s.subtitle ? '<p class="subtitle">'+s.subtitle+'</p>' : '';
+    html += s.date ? '<div class="coverdate">'+s.date+'</div>' : '';
     html += '<span class="swipe">滑看完整故事 <span class="arrow">→</span></span>';
   } else if (s.type==='section' || s.type==='point'){
     // 'point' kept as alias for backward-compat; canonical is 'section'
     if (s.type==='point') document.getElementById('frame').setAttribute('data-type','section');
     html += s.idx ? '<div class="idx">'+s.idx+'</div>' : '';
     html += '<div class="kw">'+(s.kw||'')+'</div>';
+    if (s.imageUri) html += '<div class="secimg" style="background-image:url('+s.imageUri+')"></div>';
+    html += s.caption ? '<div class="seccap">'+s.caption+'</div>' : '';
     html += s.body ? '<div class="body">'+s.body+'</div>' : '';
+    html += s.code ? '<div class="codeblock">'+s.code+'</div>' : '';
   } else if (s.type==='figure'){
     html += s.pull ? '<span class="figpull">'+s.pull+'</span>' : '';
     if (s.imageUri) html += '<div class="figimg" style="background-image:url('+s.imageUri+')"></div>';
@@ -388,7 +401,8 @@ window.__renderSlide = (s) => {
       + '</div>').join('')+'</div>';
   } else if (s.type==='chart-waffle'){
     // graph.md tw-waffle: 100 格部分對全體；accent 明度階（色盲友善）
-    const PAL = ['#00d4aa','#4fd1b0','#1a9e85','#7de8d0','#0e6e5c','#9aa8a2'];
+    // v0.7: 明度階 ramp（largest→bright，其餘 muted），清楚可分辨 + 不刺眼（哲宇 callout）
+    const PAL = ['#4cc4ad','#7a9d95','#34534c','#a6c9c1','#5b6f6a','#86918c'];
     const cells = s.cells||[];
     html += s.title ? '<div class="wf-title">'+s.title+'</div>' : '';
     const seq=[];
@@ -411,7 +425,8 @@ window.__renderSlide = (s) => {
     const thead='<tr><th class="hm-corner">'+(s.corner||'')+'</th>'+cols.map(c=>'<th>'+c+'</th>').join('')+'</tr>';
     const tbody=rows.map(r=>'<tr><td class="hm-rowhead">'+(r.label||'')+'</td>'
       +(r.values||[]).map((v,ci)=>{
-        const op = Math.max(.1, (Math.abs(v)||0)/colMax[ci]*.92);
+        // v0.7: alpha ceiling .92→.55，大面積 accent 填色不刺眼（哲宇 callout）
+        const op = Math.max(.14, (Math.abs(v)||0)/colMax[ci]*0.55);
         return '<td class="hm-cell" style="background:rgba(0,212,170,'+op.toFixed(2)+')">'+(v!=null?v:'')+'</td>';
       }).join('')+'</tr>').join('');
     html += '<table class="hm-table"><thead>'+thead+'</thead><tbody>'+tbody+'</tbody></table>';
@@ -430,21 +445,24 @@ window.__renderSlide = (s) => {
     const n=xs.length;
     const xAt=i=> PL + (n<=1?0:(i/(n-1))*(W-PL-PR));
     const yAt=v=> PT + (1-((v-ymin)/(ymax-ymin)))*(H-PT-PB);
-    const r1=x=>String(Math.round(x*10)/10);
     const COL=['#00d4aa','#4fd1b0','#7de8d0','#1a9e85'];
+    const by=H-PB; // x 軸基線 y
     let svg='<svg class="ln-svg" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="xMidYMid meet">';
-    svg+='<line x1="'+PL+'" y1="'+yAt(ymax)+'" x2="'+(W-PR)+'" y2="'+yAt(ymax)+'" stroke="rgba(244,240,234,.12)"/>';
-    svg+='<line x1="'+PL+'" y1="'+yAt(ymin)+'" x2="'+(W-PR)+'" y2="'+yAt(ymin)+'" stroke="rgba(244,240,234,.12)"/>';
-    svg+='<text x="'+(PL-14)+'" y="'+(yAt(ymax)+8)+'" text-anchor="end" font-size="22">'+r1(ymax)+'</text>';
-    svg+='<text x="'+(PL-14)+'" y="'+(yAt(ymin)+8)+'" text-anchor="end" font-size="22">'+r1(ymin)+'</text>';
-    xs.forEach((xl,i)=>{ svg+='<text x="'+xAt(i)+'" y="'+(H-PB+40)+'" text-anchor="middle" font-size="24">'+xl+'</text>'; });
+    // v0.7: 軸線結構 + 每點數值標籤（哲宇 callout「缺圖說跟線條、看不太懂」）
+    xs.forEach((xl,i)=>{ const x=xAt(i); svg+='<line x1="'+x+'" y1="'+PT+'" x2="'+x+'" y2="'+by+'" stroke="rgba(244,240,234,.06)"/>'; });
+    svg+='<line x1="'+PL+'" y1="'+by+'" x2="'+(W-PR+50)+'" y2="'+by+'" stroke="rgba(244,240,234,.24)" stroke-width="2"/>'; // x 軸
+    svg+='<line x1="'+PL+'" y1="'+PT+'" x2="'+PL+'" y2="'+by+'" stroke="rgba(244,240,234,.16)" stroke-width="2"/>'; // y 軸
+    xs.forEach((xl,i)=>{ svg+='<text x="'+xAt(i)+'" y="'+(by+44)+'" text-anchor="middle" font-size="26">'+xl+'</text>'; });
     series.forEach((se,si)=>{
       const col=COL[si%COL.length];
-      const pts=(se.points||[]).map((v,i)=>xAt(i)+','+yAt(v)).join(' ');
-      svg+='<polyline points="'+pts+'" fill="none" stroke="'+col+'" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>';
-      (se.points||[]).forEach((v,i)=>{ svg+='<circle cx="'+xAt(i)+'" cy="'+yAt(v)+'" r="6" fill="'+col+'"/>'; });
-      const lastI=(se.points||[]).length-1;
-      if(lastI>=0) svg+='<text class="ln-end" x="'+(xAt(lastI)+16)+'" y="'+(yAt(se.points[lastI])+9)+'" font-size="26" fill="'+col+'">'+(se.name||'')+'</text>';
+      const ps=se.points||[];
+      svg+='<polyline points="'+ps.map((v,i)=>xAt(i)+','+yAt(v)).join(' ')+'" fill="none" stroke="'+col+'" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>';
+      ps.forEach((v,i)=>{
+        svg+='<circle cx="'+xAt(i)+'" cy="'+yAt(v)+'" r="7" fill="'+col+'"/>';
+        svg+='<text x="'+xAt(i)+'" y="'+(yAt(v)-22)+'" text-anchor="middle" font-size="29" font-weight="700" fill="'+col+'">'+v+'</text>';
+      });
+      const lastI=ps.length-1;
+      if(lastI>=0) svg+='<text class="ln-end" x="'+(xAt(lastI)+18)+'" y="'+(yAt(ps[lastI])+8)+'" font-size="25" fill="'+col+'">'+(se.name||'')+'</text>';
     });
     svg+='</svg>';
     html += svg;
