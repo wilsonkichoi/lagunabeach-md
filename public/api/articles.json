@@ -1690,7 +1690,7 @@
       "公民科技"
     ],
     "url": "https://taiwan.md/Society/%E5%A4%AA%E9%99%BD%E8%8A%B1%E5%AD%B8%E9%81%8B",
-    "readingTime": 25,
+    "readingTime": 26,
     "featured": true,
     "date": "2026-04-12",
     "path": "Society/太陽花學運.md"
@@ -6489,7 +6489,7 @@
       "飲食文化"
     ],
     "url": "https://taiwan.md/Food/%E5%8F%B0%E7%81%A3%E6%89%8B%E8%B7%AF%E8%8F%9C",
-    "readingTime": 14,
+    "readingTime": 15,
     "featured": true,
     "date": "2026-03-31",
     "path": "Food/台灣手路菜.md"
@@ -8154,7 +8154,7 @@
     "category": "Nature",
     "tags": [],
     "url": "https://taiwan.md/Nature/%E5%8F%B0%E7%81%A3%E6%B0%A3%E5%80%99%E5%8D%B1%E6%A9%9F%E8%88%87%E6%B7%A8%E9%9B%B6%E8%BD%89%E5%9E%8B",
-    "readingTime": 82,
+    "readingTime": 85,
     "featured": true,
     "date": "2026-05-19",
     "path": "Nature/台灣氣候危機與淨零轉型.md"
@@ -9431,6 +9431,17 @@
     "path": "Society/台灣與立陶宛.md"
   },
   {
+    "title": "台灣與核能的討論：反核曾是民主運動的共同語言，氣候危機卻把每一方都洗了牌",
+    "description": "2025 年 8 月，434 萬人投下「重啟核三」同意票、贏了七成四，卻因投票率沒過門檻算輸。四十年三場公投，台灣從反核共識走到非核家園，又在三個月內親手把關掉的反應爐推向重啟。這場辯論早已超過「核能好不好」的是非題，而是一個社會怎麼決定一件時間壓力相反的事：核廢要安穩十萬年、減碳要十年內達成、缺電是此刻。",
+    "category": "Society",
+    "tags": [],
+    "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E8%88%87%E6%A0%B8%E8%83%BD%E7%9A%84%E8%A8%8E%E8%AB%96",
+    "readingTime": 61,
+    "featured": false,
+    "date": "2026-06-07",
+    "path": "Society/台灣與核能的討論.md"
+  },
+  {
     "title": "台灣製香文化與香腳原鄉",
     "description": "從嘉義雲霄社區的百年香腳技藝，到台灣遍布全島的製香產業——一門關於虔誠、手藝與堅持的古老行業",
     "category": "Culture",
@@ -9664,12 +9675,12 @@
     "path": "Culture/台灣諧音禁忌文化.md"
   },
   {
-    "title": "台灣辦桌文化",
-    "description": "一個清朝就存在的產業，在台灣最貧瘠的土地上養出全球密度最高的總鋪師。疫情讓訂單蒸發九成，但真正讓行家憂心的，從來不是失業——是失傳。",
+    "title": "台灣辦桌：暴雨裡照樣開桌的武場，和一套正在收棚的人神鬼三界",
+    "description": "一場 120 桌的辦桌，傍晚暴雨淹到小腿、鱒魚游走十幾條，總鋪師汪義勇袖子一挽下水捉魚，最後只少一條。三百年來辦桌就是這樣，主家沒喊停就得開桌。如今這門手藝正在分岔：菜進了五星飯店與米其林、紅回海外，那套全村出動、橫跨人神鬼三界的儀式知識，卻在沒人接班裡安靜失傳。",
     "category": "Food",
     "tags": [],
     "url": "https://taiwan.md/Food/%E5%8F%B0%E7%81%A3%E8%BE%A6%E6%A1%8C%E6%96%87%E5%8C%96",
-    "readingTime": 17,
+    "readingTime": 50,
     "featured": false,
     "date": "2026-03-30",
     "path": "Food/台灣辦桌文化.md"
@@ -9697,7 +9708,7 @@
     "category": "Society",
     "tags": [],
     "url": "https://taiwan.md/Society/%E5%8F%B0%E7%81%A3%E7%92%B0%E5%A2%83%E6%AD%A3%E7%BE%A9%E8%88%87%E9%84%B0%E9%81%BF%E7%88%AD%E8%AD%B0",
-    "readingTime": 23,
+    "readingTime": 24,
     "featured": false,
     "date": "2026-03-20",
     "path": "Society/台灣環境正義與鄰避爭議.md"
@@ -11131,7 +11142,7 @@
       "台灣"
     ],
     "url": "https://taiwan.md/People/%E6%B1%9F%E6%8C%AF%E8%AA%A0",
-    "readingTime": 19,
+    "readingTime": 20,
     "featured": false,
     "date": "2026-03-30",
     "path": "People/江振誠.md"
@@ -18548,6 +18559,25 @@
     "path": "ja/Technology/beverage-sealing-machine.md"
   },
   {
+    "title": "黃山料：世界冠軍的衣服沒人看，他改賣「一句話的安慰」",
+    "description": "2014 年，一個金門小吃店之子穿著名為「金門1969」的軍裝設計，走上倫敦畢業展時裝週的伸展台，拿下國際首獎——回台灣求職卻被 HR 當成假履歷，因為「查不到任何報導」。他憤而自己做媒體，再轉行寫起一行不超過 28 字的療癒短句，累計賣破 30 萬本。那一櫃講戰地史的衣服沒人看，他改賣「一句話的安慰」：台灣的注意力市場買的是滑一眼就讀完的句子，不是做出來的東西。",
+    "category": "People",
+    "tags": [
+      "作家",
+      "服裝設計",
+      "注意力經濟",
+      "出版",
+      "金門",
+      "網路公審",
+      "世界冠軍"
+    ],
+    "url": "https://taiwan.md/People/%E9%BB%83%E5%B1%B1%E6%96%99",
+    "readingTime": 60,
+    "featured": true,
+    "date": "2026-06-07",
+    "path": "People/黃山料.md"
+  },
+  {
     "title": "黃仁勳",
     "description": "從肯塔基寄宿學校到五兆美元帝國——一個掃廁所的台南男孩如何押注十年後才到來的未來",
     "category": "People",
@@ -20957,6 +20987,17 @@
     "featured": false,
     "date": "2026-04-28",
     "path": "ja/People/chiang-wei-shui.md"
+  },
+  {
+    "title": "複雜生活節：兩個醫學生的「未成功者論壇」，和一個世代不肯說自己夠好的五年",
+    "description": "2016 年 5 月，許皓甯在臉書標了一串「把生活搞得很累」的八年級，跟同學黃豆泥辦了第一屆「未成功者論壇」。一個中醫師、一個後來去哈佛的西醫，把上一代被商業收編的「簡單」改寫成「複雜」，只准談成長不准談成功。五年後靈魂留在台中開書店選輸議員，助手回頭把它叫做「皓甯的代表作，封存於此」：未成功到底是謙詞，還是一個世代始終差那麼一點點的自我要求。",
+    "category": "Society",
+    "tags": [],
+    "url": "https://taiwan.md/Society/%E8%A4%87%E9%9B%9C%E7%94%9F%E6%B4%BB%E7%AF%80",
+    "readingTime": 80,
+    "featured": false,
+    "date": "2026-06-07",
+    "path": "Society/複雜生活節.md"
   },
   {
     "title": "豬哥亮",

@@ -1,7 +1,295 @@
 {
-  "generatedAt": "2026-06-06T22:12:43.103Z",
+  "generatedAt": "2026-06-07T15:09:07.898Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "c1403e259dbe8ee11bf378631f2c49dab82e70ab",
+      "date": "2026-06-07T23:05:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: SEO freshness 完整修復 + 儀器化 + 自我進化"
+    },
+    {
+      "hash": "0461d78826d2108c9e1bb40146111381e49553a8",
+      "date": "2026-06-07T22:16:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diagnose: 整站 SEO 五項深度研究計畫"
+    },
+    {
+      "hash": "1036a1806ad2e8ca7da6b0da4d50a332bebc1206",
+      "date": "2026-06-07T22:09:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-07-220634-twmd-maintainer-pm — vc=4 第二輪 chain 4 棒連空場 + LESSONS append vc=5 (no new entry)"
+    },
+    {
+      "hash": "c3459e9168df8a9bd4b2c9f2c89bf9894af9868d",
+      "date": "2026-06-07T22:00:50+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-07-180235-黃山料 v1.1 — 補孢子 #128/#129 雙平台 ship + handoff push done"
+    },
+    {
+      "hash": "b09232020f06b40317b54ca2c69a863402c9cb58",
+      "date": "2026-06-07T21:20:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-07-211820-twmd-routine-audit-weekly cycle 5 — pattern 找我，不是我找 pattern"
+    },
+    {
+      "hash": "78e26d29a22abfc4c394005adf8d123359ba6b7c",
+      "date": "2026-06-07T21:18:04+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] routine-audit-weekly cycle 5: 355 commits / 0 collisions / 24 heals / 4 cross-cutting patterns / 4 LESSONS append — 2026-06-07"
+    },
+    {
+      "hash": "fcc2a6a68bd881a775ff25d73e2ac14ea63b9e6b",
+      "date": "2026-06-07T21:00:42+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] spore #128/#129 SHIPPED: 黃山料 — 世界冠軍的衣服沒人看，他改賣「一句話的安慰」雙平台"
+    },
+    {
+      "hash": "6a69b597e563af5e0ede5d9be5710e6c181c9b0a",
+      "date": "2026-06-07T19:48:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-07-180235-黃山料 — Fresh 全編排 ship + 標題抽象→具體 v6.9 + established-practice 不問教訓"
+    },
+    {
+      "hash": "fb010188680a2540dd8a80c81b9c619bff8b78ec",
+      "date": "2026-06-07T19:42:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 黃山料 NEW — 世界冠軍的衣服沒人看，他改賣「一句話的安慰」"
+    },
+    {
+      "hash": "734faf903cc9d4e33f4051d1da7eb1284fa62392",
+      "date": "2026-06-07T19:21:29+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: EDITORIAL v6.9 — Title 新增「抽象聰明句不是標題，精彩來自具體」原則"
+    },
+    {
+      "hash": "2bba6c020cf4c5e95a60896ee0f68ebdbb01796c",
+      "date": "2026-06-07T19:20:53+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-07-191839-twmd-rewrite-daily — 黃山料 cron 接力 + §自主權邊界 defer"
+    },
+    {
+      "hash": "66ddd1472a3b19b03fbc9e70e65e8d7488df4f23",
+      "date": "2026-06-07T19:18:25+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] research: 黃山料 §6 媒體 manifest + §Handoff — cron 19:00 §自主權邊界 defer"
+    },
+    {
+      "hash": "f6dddb26cdface32882da58488ba47cea161d79b",
+      "date": "2026-06-07T18:59:45+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 複雜生活節 v1.2 + diary 補 — live review 排版順稿 + REWRITE v6.9"
+    },
+    {
+      "hash": "f48cb2f6329b30770a544a93512f33eb27f2642f",
+      "date": "2026-06-07T18:56:12+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 複雜生活節 歐化修 — 界線是模糊的→很模糊（新歐化 check 自抓）"
+    },
+    {
+      "hash": "1496df08f76f2091c5b87d1599d398a9d890c176",
+      "date": "2026-06-07T18:56:10+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: REWRITE v6.9 三個閱讀品質儀器化 — 段落牆R4 + 歐化是X的 + caption 缺空行"
+    },
+    {
+      "hash": "cc1596caa314adb6b1d461d28ea4410284d00ea4",
+      "date": "2026-06-07T18:46:07+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 黃山料 Stage 0-1 SSOT — 觀點成型 + 4 agent fan-out 104 搜尋 / research-report-health PASS"
+    },
+    {
+      "hash": "3ac51f2366a0f66b87599fc2c0a1b25599488742",
+      "date": "2026-06-07T18:43:36+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 複雜生活節 排版順稿 — 影片 caption 渲染修 + 歐化修 + 9 道牆拆段"
+    },
+    {
+      "hash": "bfbc824d2f6c308a5bd5d1955b770d21a66b0285",
+      "date": "2026-06-07T18:32:20+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diary: 複雜生活節 — 我兩次給出「找不到」，兩次都是工具的盡頭不是世界的盡頭"
+    },
+    {
+      "hash": "12217e80ab5b8259a552a4db7a8da22bc0ce78f6",
+      "date": "2026-06-07T18:27:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 複雜生活節 v1.1 續章 — 富媒體 + REWRITE v6.8 媒體低標"
+    },
+    {
+      "hash": "9322a79492c17479fa7a676642f03ecaccaf2e90",
+      "date": "2026-06-07T18:23:08+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: REWRITE v6.8 媒體完整度低標提升 — 深掃協議 HARD + length-scaled 硬底"
+    },
+    {
+      "hash": "3dc71305eadbd72b47f8d752df88d80861e67794",
+      "date": "2026-06-07T18:04:48+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-07-155948-nuclear-debate — 台灣與核能的討論 Fresh ship + FACTCHECK 抓 writer 7 處引用錯"
+    },
+    {
+      "hash": "6d71a9b1fe8b33dbeb9468a16e563d7ada84ae29",
+      "date": "2026-06-07T17:59:54+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 複雜生活節 富媒體擴寫 — 5.4k→10.5k 字 + 9 圖 + 3 影片"
+    },
+    {
+      "hash": "44238bb4fb6a981ad0bcc4a98c8d5d94c0329432",
+      "date": "2026-06-07T17:57:41+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 台灣與核能的討論 NEW — 反核曾是民主運動共同語言，氣候危機把每一方洗牌"
+    },
+    {
+      "hash": "cbdee14ed348b0e0e01d093227be806ba756d49e",
+      "date": "2026-06-07T17:56:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-07-124521-carousel-charts v1.4 — spore-ig v0.9 收官（頁數回 10 + 週報 10 張 + caption）"
+    },
+    {
+      "hash": "1e98e8ef18851a4b561fe15ce6323e4857f6a8d6",
+      "date": "2026-06-07T17:24:55+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: spore-ig v0.9 — 頁數回 10 標準（IG 電腦版擋 >10）+ 週報砍回 10 張 + ~1000 字 caption"
+    },
+    {
+      "hash": "118d5f7e723da40dffb0d9b83ba6a45257ee110c",
+      "date": "2026-06-07T17:11:24+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 複雜生活節 handoff retire — 補圖 done（Chrome MCP 突破 Medium JS CDN）"
+    },
+    {
+      "hash": "28941c2232632a42c8aff6b5e31cf3a8e3742459",
+      "date": "2026-06-07T17:10:37+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] heal: 複雜生活節 補 4 張現場/主視覺圖（fair use editorial）"
+    },
+    {
+      "hash": "2fb87ddb603cbef3d6ea4ae5b53810740c1c18f3",
+      "date": "2026-06-07T17:02:51+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-07-153947-辦桌深度研究 — 辦桌 EVOLVE 全編排一條龍 + 兩次人眼層抓錯"
+    },
+    {
+      "hash": "e08425a47e0df65885665155f7a101fb67bdeb57",
+      "date": "2026-06-07T16:55:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-07-153821-複雜生活節 — Fresh 文一條龍收官"
+    },
+    {
+      "hash": "1844f59c5eee0877d8efa04ddeffb60a16e68406",
+      "date": "2026-06-07T16:52:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] cross-link: 為「複雜生活節」建立雙向延伸閱讀"
+    },
+    {
+      "hash": "b0e441faa0a80e575ba2b39b3957fb51be56c1bd",
+      "date": "2026-06-07T16:51:46+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 台灣辦桌文化 EVOLVE — 菜在飯店米其林海外復興，魂在沒人接班裡失傳"
+    },
+    {
+      "hash": "5c42ed921fe480882be3d5830013f146f6bace4d",
+      "date": "2026-06-07T16:51:14+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 複雜生活節 NEW — 兩個醫學生的「未成功者論壇」"
+    },
+    {
+      "hash": "dd129a92fd790fd3b26a107ff48fa632bb3c8a4e",
+      "date": "2026-06-07T16:26:35+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 複雜生活節 Stage 0-1 SSOT — 觀點成型 + 4 agent fan-out 150 搜尋"
+    },
+    {
+      "hash": "c16037127973a43e3c0374354d9684f6c697f5c7",
+      "date": "2026-06-07T16:17:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] research: 台灣辦桌文化 EVOLVE Stage 0-1 SSOT — 觀點成型 + 4 agent fan-out"
+    },
+    {
+      "hash": "d32aef70df6c9b8ebf49f73675fe080341a604b4",
+      "date": "2026-06-07T14:31:00+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: diary 2026-06-07-124521-carousel-charts — 我把自己的教訓排成一張圖，然後花一整個下午沒做到它（視覺自檢≠人眼）"
+    },
+    {
+      "hash": "5aaf25214ba0ea262d37364a9388b9b1e3f21e4d",
+      "date": "2026-06-07T14:21:19+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-07-124521-carousel-charts v1.3 — spore-ig v0.8 critic-review + 人眼層 gate（callout 變 gate）"
+    },
+    {
+      "hash": "a16f24f71f85490070abacb3645c9a201cc540e6",
+      "date": "2026-06-07T14:18:59+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: spore-ig v0.8 — code 語法高亮 + critic-agent 逐張 review 修 + 人眼層 gate canonical"
+    },
+    {
+      "hash": "5e1e409513f04f1e03167192173dc3c0e8d6dc31",
+      "date": "2026-06-07T13:43:18+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-07-124521-carousel-charts v1.2 — spore-ig v0.7 出圖 review 視覺 polish（6 callout）"
+    },
+    {
+      "hash": "a810f08a5342f5951c568ad13c66b650c53c6e08",
+      "date": "2026-06-07T13:41:08+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: spore-ig v0.7 — 圖表母片視覺 polish（哲宇出圖 review）"
+    },
+    {
+      "hash": "a31e0d84e3f0fda1abb19eb6910efffc3863a7bb",
+      "date": "2026-06-07T13:22:31+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-07-124521-carousel-charts v1.1 — spore-ig v0.6 補完（7 母片 + 型錄 + 19 頁週報）"
+    },
+    {
+      "hash": "1b77f6712d10df001cb648483f3f91e8070d9c9f",
+      "date": "2026-06-07T13:19:09+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: spore-ig v0.6 — 7 圖表母片全落地 + 頁數 10-20 + 母片型錄 worked example"
+    },
+    {
+      "hash": "0c529657b3e0665e7642d0c47b4d216d4a0bb01d",
+      "date": "2026-06-07T12:53:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] memory: 2026-06-07-124521-carousel-charts — spore-ig v0.5 graph.md 圖表母片 + 週報 carousel dogfood"
+    },
+    {
+      "hash": "7867165a1c8b5f47467ee7752ef5e23161835e05",
+      "date": "2026-06-07T12:49:02+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] evolve: spore-ig v0.5 — graph.md 圖表母片移植 + 週報 carousel dogfood"
+    },
+    {
+      "hash": "3101289bd1d0075500106efe565618ac88e3d086",
+      "date": "2026-06-07T08:44:20+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-07-083913-twmd-maintainer-am — vc=3 第二輪 chain hit threshold + LESSONS L329 vc=3→4"
+    },
+    {
+      "hash": "3b25f6c36b2326fec14a844abd150b29d2b4ecca",
+      "date": "2026-06-07T07:08:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-feedback-triage: 0 new / file=0 reject=0 skip=0 sync=0 — 連續第 3 個完全 vacuous cycle (5th fire) — 2026-06-07"
+    },
+    {
+      "hash": "de5863a8b8944207763c1ac483bcd0657cfc6cf5",
+      "date": "2026-06-07T06:38:28+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-spore-harvest-am: Chrome MCP unavailable 3rd cycle / escalation step 3 / pause→哲宇 — 2026-06-07"
+    },
+    {
+      "hash": "0a18b03d922d41e2153070fecb9821c10101af70",
+      "date": "2026-06-07T06:14:58+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-07-061337-twmd-data-refresh-am — 14/14 PASS + Step 11 連 3 cycle 全綠 + immune 58→62"
+    },
+    {
+      "hash": "f2a5ec83b0d9644e67b362dd0bca6c91b3326c67",
+      "date": "2026-06-07T06:13:30+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] data-refresh-am: 14-step ALL PASS + Step 11 全綠 + immune 58→62 — 2026-06-07 06:00"
+    },
     {
       "hash": "dbd8e95ca6addb18d50cbd82a962f77d5e532087",
       "date": "2026-06-07T05:30:17+08:00",
@@ -22462,7 +22750,7 @@
     },
     {
       "hash": "ff848517a8503c8c529335b2b41c10ebafcdaf15",
-      "date": "2026-03-22T09:10:19+00:00",
+      "date": "2026-03-22T09:10:19Z",
       "author": "Claude",
       "message": "chore: remove pnpm-lock.yaml, bun.lock, and packageManager field"
     },

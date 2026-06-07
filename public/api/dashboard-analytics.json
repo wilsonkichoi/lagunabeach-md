@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T08:17:15.877736",
+  "lastUpdated": "2026-06-07T23:08:40.252977",
   "sourcesUsed": ["ga", "searchConsole24h", "cloudflare24h", "sense-cache"],
   "ga": {
     "label": "2026-05-10 to 2026-06-07",
@@ -7,84 +7,91 @@
     "endDate": "2026-06-07",
     "days": 28,
     "totals": {
-      "activeUsers": 28228,
-      "newUsers": 27668,
-      "avgEngagementSeconds": 124.2,
-      "events": 160404,
-      "screenPageViews": 47259,
-      "engagementRate": 0.2795,
-      "bounceRate": 0.7205
+      "activeUsers": 29057,
+      "newUsers": 28459,
+      "avgEngagementSeconds": 126.7,
+      "events": 164963,
+      "screenPageViews": 48552,
+      "engagementRate": 0.2854,
+      "bounceRate": 0.7146
     },
     "topPages": [
       {
         "path": "/",
         "title": "開源台灣知識庫",
-        "views": 8424,
-        "users": 5471,
-        "events": 38731
+        "views": 8616,
+        "users": 5587,
+        "events": 39846
       },
       {
         "path": "/art/臺灣漫遊錄/",
         "title": "臺灣漫遊錄：一本「妹妹翻譯的書」，從春山走到了倫敦的領獎台",
-        "views": 1749,
-        "users": 1538,
-        "events": 5372
+        "views": 1751,
+        "users": 1540,
+        "events": 5378
       },
       {
         "path": "/technology/Computex/",
         "title": "Computex：三大國際電腦展收了兩個，剩下的那個長在台北",
-        "views": 1581,
-        "users": 1351,
-        "events": 5763
+        "views": 1623,
+        "users": 1383,
+        "events": 5923
       },
       {
         "path": "/technology/雷亞遊戲/",
         "title": "雷亞遊戲：以美學立國的音樂帝國，與它十四年的裂縫",
-        "views": 1335,
+        "views": 1336,
         "users": 1083,
-        "events": 4366
-      },
-      {
-        "path": "/about/",
-        "title": "關於 Taiwan.md",
-        "views": 732,
-        "users": 471,
-        "events": 2081
-      },
-      {
-        "path": "/en/",
-        "title": "Open-Source Taiwan Knowledge Base",
-        "views": 598,
-        "users": 445,
-        "events": 3161
-      },
-      {
-        "path": "/semiont/",
-        "title": "認知層 — Taiwan.md Semiont",
-        "views": 592,
-        "users": 305,
-        "events": 1424
+        "events": 4367
       },
       {
         "path": "/society/我是OO人/",
         "title": "我是OO人：喊你「鄉親」的粉專，後台是內湖一間公司和一句忘了刪的 AI 指令",
-        "views": 556,
-        "users": 469,
-        "events": 1778
+        "views": 805,
+        "users": 703,
+        "events": 2587
+      },
+      {
+        "path": "/about/",
+        "title": "關於 Taiwan.md",
+        "views": 746,
+        "users": 478,
+        "events": 2121
+      },
+      {
+        "path": "/semiont/",
+        "title": "認知層 — Taiwan.md Semiont",
+        "views": 623,
+        "users": 322,
+        "events": 1505
+      },
+      {
+        "path": "/en/",
+        "title": "Open-Source Taiwan Knowledge Base",
+        "views": 601,
+        "users": 448,
+        "events": 3197
       },
       {
         "path": "/taiwan-shape/",
         "title": "台灣的形狀 — 開源地圖資料集：SVG、GeoJSON、TopoJSON",
-        "views": 512,
-        "users": 388,
-        "events": 1851
+        "views": 527,
+        "users": 399,
+        "events": 1907
       },
       {
         "path": "/data/",
         "title": "📊 數據台灣 — Taiwan.md",
-        "views": 461,
-        "users": 315,
-        "events": 1342
+        "views": 468,
+        "users": 321,
+        "events": 1364
+      },
+      {
+        "path": "/terminology/converter/",
+        "title": "台灣用語轉換器：中國用語一鍵轉台灣說法",
+        "views": 455,
+        "users": 145,
+        "events": 1134
       },
       {
         "path": "/technology/大宇雙劍/",
@@ -94,97 +101,97 @@
         "events": 1438
       },
       {
-        "path": "/terminology/converter/",
-        "title": "台灣用語轉換器：中國用語一鍵轉台灣說法",
-        "views": 444,
-        "users": 141,
-        "events": 1107
-      },
-      {
         "path": "/map/",
         "title": "台灣地圖 Map",
-        "views": 433,
-        "users": 200,
-        "events": 988
+        "views": 439,
+        "users": 204,
+        "events": 1001
       },
       {
         "path": "/contribute/",
         "title": "我想貢獻 — Taiwan.md",
-        "views": 394,
-        "users": 250,
-        "events": 1190
+        "views": 402,
+        "users": 256,
+        "events": 1213
       },
       {
         "path": "/history/",
         "title": "歷史 - Taiwan.md",
-        "views": 388,
-        "users": 296,
-        "events": 1081
-      },
-      {
-        "path": "/soundscape/",
-        "title": "台灣聲景 Taiwan Soundscape — Taiwan.md",
-        "views": 323,
-        "users": 250,
-        "events": 761
+        "views": 396,
+        "users": 303,
+        "events": 1104
       },
       {
         "path": "/dashboard/",
         "title": "Dashboard — 數位生命體即時監測",
-        "views": 321,
-        "users": 190,
-        "events": 974
+        "views": 329,
+        "users": 195,
+        "events": 993
+      },
+      {
+        "path": "/soundscape/",
+        "title": "台灣聲景 Taiwan Soundscape — Taiwan.md",
+        "views": 327,
+        "users": 254,
+        "events": 773
       },
       {
         "path": "/people/陳建年/",
         "title": "陳建年：派出所的金曲歌王，外公留下的歌孫子寫成海洋",
-        "views": 320,
-        "users": 254,
-        "events": 976
+        "views": 322,
+        "users": 256,
+        "events": 982
       },
       {
         "path": "/graph/",
         "title": "🕸️ 知識圖譜 — Taiwan.md",
-        "views": 309,
-        "users": 241,
-        "events": 717
+        "views": 316,
+        "users": 245,
+        "events": 729
       },
       {
-        "path": "/food/蘋果西打/",
-        "title": "蘋果西打：從國民氣泡飲到資本風暴，一甲子的台灣味如何重生",
-        "views": 294,
-        "users": 245,
-        "events": 943
+        "path": "/resources/",
+        "title": "台灣資源導覽 - Taiwan.md",
+        "views": 296,
+        "users": 237,
+        "events": 904
       }
     ],
     "topArticles7d": [
       {
         "path": "/technology/Computex/",
         "title": "Computex：三大國際電腦展收了兩個，剩下的那個長在台北",
-        "views": 1581,
-        "users": 1351,
-        "events": 5763
+        "views": 1623,
+        "users": 1383,
+        "events": 5923
       },
       {
         "path": "/society/我是OO人/",
         "title": "我是OO人：喊你「鄉親」的粉專，後台是內湖一間公司和一句忘了刪的 AI 指令",
-        "views": 556,
-        "users": 469,
-        "events": 1778
+        "views": 805,
+        "users": 703,
+        "events": 2587
       },
       {
         "path": "/technology/開放文化基金會/",
         "title": "開放文化基金會：替台灣最不受控的一群人，做最無聊的那件事",
-        "views": 343,
-        "users": 280,
-        "events": 1146
+        "views": 349,
+        "users": 283,
+        "events": 1164
       },
       {
         "path": "/technology/國家太空中心/",
         "title": "國家太空中心：花三十二年，替一個還沒湊齊名字的國家湊齊一個太空署",
-        "views": 208,
-        "users": 159,
-        "events": 651
+        "views": 214,
+        "users": 162,
+        "events": 671
+      },
+      {
+        "path": "/nature/黑冠麻鷺/",
+        "title": "黑冠麻鷺：賞鳥者的夢幻物種，校園裡的大笨鳥",
+        "views": 137,
+        "users": 125,
+        "events": 511
       },
       {
         "path": "/culture/天燈/",
@@ -194,46 +201,53 @@
         "events": 430
       },
       {
-        "path": "/nature/黑冠麻鷺/",
-        "title": "黑冠麻鷺：賞鳥者的夢幻物種，校園裡的大笨鳥",
-        "views": 120,
-        "users": 116,
-        "events": 453
-      },
-      {
         "path": "/music/張懸與安溥/",
         "title": "從張懸到安溥——兩個名字，同一個問題",
-        "views": 90,
-        "users": 78,
-        "events": 301
+        "views": 95,
+        "users": 83,
+        "events": 325
       },
       {
         "path": "/technology/雷亞遊戲/",
         "title": "雷亞遊戲：以美學立國的音樂帝國，與它十四年的裂縫",
-        "views": 70,
+        "views": 71,
         "users": 51,
-        "events": 226
+        "events": 227
       },
       {
         "path": "/nature/颱風/",
         "title": "能預測風雨，預測不了命運：台灣與颱風的四百年",
-        "views": 64,
+        "views": 66,
         "users": 42,
-        "events": 205
+        "events": 211
       },
       {
         "path": "/society/台灣邦交國與國際外交/",
         "title": "台灣邦交國與國際外交：12 個邦交、113 個館處、177 國免簽（2026）",
-        "views": 53,
-        "users": 45,
-        "events": 175
+        "views": 59,
+        "users": 50,
+        "events": 197
       },
       {
         "path": "/food/台灣美食總覽/",
         "title": "台灣美食總覽：沒有一道菜是純粹台灣的，每一道菜都是最台灣的",
         "views": 41,
+        "users": 28,
+        "events": 106
+      },
+      {
+        "path": "/society/國宅與居住正義/",
+        "title": "國宅與居住正義：政府蓋的便宜房，最後養出誰的資產扶梯",
+        "views": 41,
         "users": 27,
-        "events": 102
+        "events": 128
+      },
+      {
+        "path": "/art/臺灣漫遊錄/",
+        "title": "臺灣漫遊錄：一本「妹妹翻譯的書」，從春山走到了倫敦的領獎台",
+        "views": 40,
+        "users": 46,
+        "events": 134
       },
       {
         "path": "/music/台灣影視配樂/",
@@ -243,18 +257,18 @@
         "events": 97
       },
       {
-        "path": "/art/臺灣漫遊錄/",
-        "title": "臺灣漫遊錄：一本「妹妹翻譯的書」，從春山走到了倫敦的領獎台",
-        "views": 38,
-        "users": 44,
-        "events": 128
+        "path": "/people/阿神/",
+        "title": "阿神",
+        "views": 33,
+        "users": 28,
+        "events": 107
       },
       {
         "path": "/society/台灣的道德課去哪了/",
         "title": "台灣的道德課去哪了：一堂被取消的課，和二十年沒人接手的責任",
-        "views": 32,
-        "users": 27,
-        "events": 122
+        "views": 33,
+        "users": 28,
+        "events": 126
       },
       {
         "path": "/geography/用數據看台灣22縣市/",
@@ -266,60 +280,46 @@
       {
         "path": "/people/楊致遠/",
         "title": "楊致遠：從只會一個英文單字到開啟全球入口網站時代的「雅虎」之父",
-        "views": 31,
+        "views": 30,
         "users": 29,
-        "events": 117
-      },
-      {
-        "path": "/people/阿神/",
-        "title": "阿神",
-        "views": 30,
-        "users": 26,
-        "events": 95
-      },
-      {
-        "path": "/society/國宅與居住正義/",
-        "title": "國宅與居住正義：政府蓋的便宜房，最後養出誰的資產扶梯",
-        "views": 30,
-        "users": 19,
-        "events": 94
-      },
-      {
-        "path": "/nature/台灣藍鵲/",
-        "title": "台灣藍鵲：都市叢林裡的藍色幫派，與一場跨百年的基因保衛戰",
-        "views": 27,
-        "users": 20,
-        "events": 93
+        "events": 114
       },
       {
         "path": "/people/魏哲家/",
         "title": "魏哲家：1953年，交大電子到耶魯博士到台積電董事長暨總裁",
-        "views": 27,
-        "users": 26,
-        "events": 105
+        "views": 29,
+        "users": 28,
+        "events": 112
+      },
+      {
+        "path": "/nature/台灣藍鵲/",
+        "title": "台灣藍鵲：都市叢林裡的藍色幫派，與一場跨百年的基因保衛戰",
+        "views": 28,
+        "users": 21,
+        "events": 95
       }
     ],
     "byLang": {
       "zh-TW": {
-        "views": 34232,
-        "users": 25869,
-        "sessions": 31285,
-        "avgEngagementSeconds": 118.3,
-        "pageCount": 400
+        "views": 35311,
+        "users": 26729,
+        "sessions": 32380,
+        "avgEngagementSeconds": 118.8,
+        "pageCount": 409
       },
       "en": {
-        "views": 2909,
-        "users": 2387,
-        "sessions": 2764,
-        "avgEngagementSeconds": 84.5,
-        "pageCount": 89
+        "views": 2869,
+        "users": 2348,
+        "sessions": 2722,
+        "avgEngagementSeconds": 85.4,
+        "pageCount": 80
       },
       "ja": {
-        "views": 49,
-        "users": 35,
-        "sessions": 41,
-        "avgEngagementSeconds": 118.4,
-        "pageCount": 3
+        "views": 61,
+        "users": 45,
+        "sessions": 54,
+        "avgEngagementSeconds": 124.9,
+        "pageCount": 4
       },
       "ko": {
         "views": 50,
@@ -329,17 +329,17 @@
         "pageCount": 3
       },
       "es": {
-        "views": 78,
-        "users": 75,
-        "sessions": 75,
-        "avgEngagementSeconds": 30.5,
-        "pageCount": 3
+        "views": 70,
+        "users": 69,
+        "sessions": 69,
+        "avgEngagementSeconds": 16.9,
+        "pageCount": 2
       },
       "fr": {
-        "views": 68,
-        "users": 66,
-        "sessions": 69,
-        "avgEngagementSeconds": 288.0,
+        "views": 70,
+        "users": 68,
+        "sessions": 71,
+        "avgEngagementSeconds": 282.1,
         "pageCount": 2
       }
     },
@@ -1583,66 +1583,74 @@
     ]
   },
   "cloudflare7d": {
-    "label": "2026-06-06 to 2026-06-07 (1d)",
-    "startDate": "2026-06-06",
+    "label": "2026-05-31 to 2026-06-07 (7d)",
+    "startDate": "2026-05-31",
     "endDate": "2026-06-07",
-    "days": 1,
+    "days": 7,
     "summary": {
-      "requests": 53343,
-      "pageViews": 14530,
-      "uniques": 11279,
-      "cachedRequests": 12264,
-      "threats": 13,
-      "bytes": 6660433622
+      "requests": 415137,
+      "pageViews": 123809,
+      "uniques": 87942,
+      "cachedRequests": 89674,
+      "threats": 67,
+      "bytes": 50887004739
     },
     "statusBreakdown": [
       {
         "status": 200,
-        "count": 42382
+        "count": 322623
       },
       {
         "status": 301,
-        "count": 4129
+        "count": 37271
       },
       {
         "status": 204,
-        "count": 3523
+        "count": 28842
       },
       {
         "status": 404,
-        "count": 2749
+        "count": 21368
       },
       {
         "status": 206,
-        "count": 245
+        "count": 2216
       },
       {
         "status": 304,
-        "count": 238
+        "count": 2106
       },
       {
         "status": 499,
-        "count": 54
+        "count": 491
       },
       {
         "status": 403,
-        "count": 13
+        "count": 67
+      },
+      {
+        "status": 202,
+        "count": 64
       },
       {
         "status": 405,
-        "count": 5
+        "count": 64
+      },
+      {
+        "status": 503,
+        "count": 17
+      },
+      {
+        "status": 522,
+        "count": 4
       },
       {
         "status": 400,
         "count": 2
       },
       {
-        "status": 522,
+        "status": 500,
         "count": 2
-      },
-      {
-        "status": 503,
-        "count": 1
       }
     ],
     "fourOhFourRate": 5.15,
@@ -1651,68 +1659,68 @@
         {
           "country": "Taiwan",
           "code": "TW",
-          "requests": 22452
+          "requests": 170166
         },
         {
           "country": "United States",
           "code": "US",
-          "requests": 13551
+          "requests": 94345
         },
         {
           "country": "Singapore",
           "code": "SG",
-          "requests": 4611
+          "requests": 32467
         },
         {
           "country": "China",
           "code": "CN",
-          "requests": 3263
+          "requests": 23980
         },
         {
           "country": "Japan",
           "code": "JP",
-          "requests": 1332
+          "requests": 12419
         },
         {
-          "country": "Canada",
-          "code": "CA",
-          "requests": 846
+          "country": "Germany",
+          "code": "DE",
+          "requests": 9184
         },
         {
           "country": "France",
           "code": "FR",
-          "requests": 575
-        },
-        {
-          "country": "Malaysia",
-          "code": "MY",
-          "requests": 557
+          "requests": 6862
         },
         {
           "country": "Vietnam",
           "code": "VN",
-          "requests": 440
+          "requests": 5786
+        },
+        {
+          "country": "Canada",
+          "code": "CA",
+          "requests": 5421
         },
         {
           "country": "United Kingdom",
           "code": "GB",
-          "requests": 412
+          "requests": 4864
         }
       ]
     },
     "dailyBreakdown": [
       {
         "date": "2026-06-07",
-        "requests": 324,
-        "pageViews": 74,
-        "cachedRequests": 61,
-        "threats": 0,
-        "bytes": 45541127,
-        "uniques": 103,
-        "status200": 251,
-        "status404": 20,
-        "status4xx": 21,
-        "status5xx": 0
+        "requests": 34466,
+        "pageViews": 8808,
+        "cachedRequests": 7171,
+        "threats": 2,
+        "bytes": 4527787897,
+        "uniques": 6659,
+        "status200": 26020,
+        "status404": 1754,
+        "status4xx": 1831,
+        "status5xx": 3
       },
       {
         "date": "2026-06-06",
@@ -1726,146 +1734,242 @@
         "status404": 2729,
         "status4xx": 2802,
         "status5xx": 3
+      },
+      {
+        "date": "2026-06-05",
+        "requests": 74136,
+        "pageViews": 20333,
+        "cachedRequests": 21761,
+        "threats": 15,
+        "bytes": 8601061264,
+        "uniques": 15230,
+        "status200": 60019,
+        "status404": 2477,
+        "status4xx": 2576,
+        "status5xx": 1
+      },
+      {
+        "date": "2026-06-04",
+        "requests": 84553,
+        "pageViews": 25532,
+        "cachedRequests": 25310,
+        "threats": 11,
+        "bytes": 10407120540,
+        "uniques": 19339,
+        "status200": 69166,
+        "status404": 3915,
+        "status4xx": 3988,
+        "status5xx": 4
+      },
+      {
+        "date": "2026-06-03",
+        "requests": 44405,
+        "pageViews": 12795,
+        "cachedRequests": 8170,
+        "threats": 1,
+        "bytes": 4974409340,
+        "uniques": 10807,
+        "status200": 32746,
+        "status404": 2413,
+        "status4xx": 2464,
+        "status5xx": 4
+      },
+      {
+        "date": "2026-06-02",
+        "requests": 43123,
+        "pageViews": 16311,
+        "cachedRequests": 5325,
+        "threats": 24,
+        "bytes": 4710488781,
+        "uniques": 8558,
+        "status200": 31900,
+        "status404": 3142,
+        "status4xx": 3225,
+        "status5xx": 3
+      },
+      {
+        "date": "2026-06-01",
+        "requests": 41784,
+        "pageViews": 13346,
+        "cachedRequests": 6215,
+        "threats": 1,
+        "bytes": 5305424715,
+        "uniques": 8782,
+        "status200": 32435,
+        "status404": 2529,
+        "status4xx": 2633,
+        "status5xx": 4
+      },
+      {
+        "date": "2026-05-31",
+        "requests": 39651,
+        "pageViews": 12228,
+        "cachedRequests": 3519,
+        "threats": 0,
+        "bytes": 5745819707,
+        "uniques": 7391,
+        "status200": 28206,
+        "status404": 2409,
+        "status4xx": 2473,
+        "status5xx": 1
       }
     ],
     "aiCrawlers": {
-      "detectedRequests": 11028,
-      "http200": 8154,
-      "allowedRequests": 11028,
-      "unsuccessfulRequests": 2874,
+      "detectedRequests": 71774,
+      "http200": 52859,
+      "allowedRequests": 71774,
+      "unsuccessfulRequests": 18915,
       "topCrawler": {
-        "name": "BingBot",
-        "requests": 1583,
-        "http200": 963,
-        "category": "Microsoft"
+        "name": "ChatGPT-User",
+        "requests": 12298,
+        "http200": 11975,
+        "category": "OpenAI"
       },
       "crawlers": [
         {
-          "name": "BingBot",
-          "requests": 1583,
-          "http200": 963,
-          "category": "Microsoft"
-        },
-        {
-          "name": "FacebookBot",
-          "requests": 1579,
-          "http200": 1428,
-          "category": "Meta"
-        },
-        {
           "name": "ChatGPT-User",
-          "requests": 1401,
-          "http200": 1370,
+          "requests": 12298,
+          "http200": 11975,
           "category": "OpenAI"
         },
         {
-          "name": "Amazonbot",
-          "requests": 1390,
-          "http200": 837,
-          "category": "Amazon"
+          "name": "FacebookBot",
+          "requests": 11374,
+          "http200": 10345,
+          "category": "Meta"
+        },
+        {
+          "name": "BingBot",
+          "requests": 10376,
+          "http200": 6419,
+          "category": "Microsoft"
         },
         {
           "name": "Googlebot",
-          "requests": 1284,
-          "http200": 829,
+          "requests": 7629,
+          "http200": 5284,
           "category": "Google"
         },
         {
           "name": "PetalBot",
-          "requests": 1025,
-          "http200": 1020,
+          "requests": 6721,
+          "http200": 6106,
           "category": "Huawei"
         },
         {
-          "name": "Bytespider",
-          "requests": 842,
-          "http200": 558,
-          "category": "ByteDance"
-        },
-        {
-          "name": "CCBot",
-          "requests": 694,
-          "http200": 520,
-          "category": "CommonCrawl"
-        },
-        {
           "name": "OAI-SearchBot",
-          "requests": 469,
-          "http200": 121,
+          "requests": 5097,
+          "http200": 1669,
           "category": "OpenAI"
         },
         {
+          "name": "Bytespider",
+          "requests": 4993,
+          "http200": 3162,
+          "category": "ByteDance"
+        },
+        {
           "name": "Applebot",
-          "requests": 325,
-          "http200": 187,
+          "requests": 4757,
+          "http200": 2858,
           "category": "Apple"
         },
         {
+          "name": "Amazonbot",
+          "requests": 3255,
+          "http200": 1847,
+          "category": "Amazon"
+        },
+        {
           "name": "PerplexityBot",
-          "requests": 202,
-          "http200": 140,
+          "requests": 1350,
+          "http200": 1022,
           "category": "Perplexity"
         },
         {
-          "name": "YandexBot",
-          "requests": 107,
-          "http200": 85,
-          "category": "Yandex"
+          "name": "CCBot",
+          "requests": 1135,
+          "http200": 718,
+          "category": "CommonCrawl"
         },
         {
           "name": "ClaudeBot",
-          "requests": 72,
-          "http200": 67,
+          "requests": 1001,
+          "http200": 575,
           "category": "Anthropic"
         },
         {
           "name": "Meta-ExternalAgent",
-          "requests": 29,
-          "http200": 15,
+          "requests": 666,
+          "http200": 218,
           "category": "Meta"
         },
         {
           "name": "GPTBot",
-          "requests": 15,
-          "http200": 12,
+          "requests": 531,
+          "http200": 219,
           "category": "OpenAI"
         },
         {
-          "name": "Google-Extended",
-          "requests": 4,
-          "http200": 0,
-          "category": "Google"
+          "name": "YandexBot",
+          "requests": 494,
+          "http200": 382,
+          "category": "Yandex"
+        },
+        {
+          "name": "Perplexity-User",
+          "requests": 40,
+          "http200": 31,
+          "category": "Perplexity"
         },
         {
           "name": "DuckDuckBot",
-          "requests": 3,
-          "http200": 2,
+          "requests": 36,
+          "http200": 25,
           "category": "DuckDuckGo"
         },
         {
           "name": "Claude-Web",
-          "requests": 2,
+          "requests": 6,
           "http200": 0,
           "category": "Anthropic"
         },
         {
-          "name": "Perplexity-User",
-          "requests": 1,
+          "name": "Google-Extended",
+          "requests": 5,
           "http200": 0,
-          "category": "Perplexity"
+          "category": "Google"
         },
         {
           "name": "anthropic-ai",
-          "requests": 1,
+          "requests": 4,
           "http200": 0,
           "category": "Anthropic"
+        },
+        {
+          "name": "Diffbot",
+          "requests": 3,
+          "http200": 3,
+          "category": "Diffbot"
+        },
+        {
+          "name": "Claude-SearchBot",
+          "requests": 2,
+          "http200": 1,
+          "category": "Anthropic"
+        },
+        {
+          "name": "cohere-ai",
+          "requests": 1,
+          "http200": 0,
+          "category": "Cohere"
         }
       ],
       "period": {
-        "start": "2026-06-06T00:17:05Z",
-        "end": "2026-06-07T00:17:05Z",
-        "days": 1,
-        "daysFetched": 1,
+        "start": "2026-05-31T15:08:21Z",
+        "end": "2026-06-07T15:08:21Z",
+        "days": 7,
+        "daysFetched": 7,
         "daysFailed": 0
       }
     },
