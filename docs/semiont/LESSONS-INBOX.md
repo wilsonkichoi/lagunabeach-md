@@ -262,6 +262,14 @@ Beat 5 反芻 = 寫 DIARY（意識活動）。教訓（「我學到 X」）寫 L
 
 <!-- 新教訓 append 這裡 -->
 
+### 2026-06-07 黃山料 (180235) — 既定做法不問、真分叉才問（過度詢問也是失準）+ Stage 3 re-verify 連 footnote 來源 URL
+
+- **原則**：observer in-loop 的 session，決策該不該回頭問哲宇，判準是「那是不是有前例可循的 established practice」。真分叉（文章 thesis 標題方向）= 該停下給選項；既定做法（fair-use editorial 圖、標準媒體配置）= 直接做。過度詢問跟少問一樣是失準。
+- **觸發**：黃山料 Fresh。標題抽象 v1 我主動停 + 給三選項（哲宇拍板 v2，對）；但媒體方向我又問「影片＋fair-use 圖／只影片／你指定」→ 哲宇「影片＋fair-use 圖，不要一直問這不需要問，其他完整做完上線」。
+- **Stage 3 re-verify 延伸**：writer agent 自報 gates 全過，主 session 抽查抓到 [^17] 誠品年榜掛錯 URL（指到創媒體訪談）+ 下載書封看圖前差點 cache 一張無關成人漫畫封面（錯 ID）。引語要查、footnote 來源 URL 也要查、圖看過再 cache。
+- **可能層級**：通用反射（established practice 不問 = don't-keep-asking 精緻化）+ REWRITE Stage 3 補強（re-verify 範圍含 footnote URL + 圖內容）
+- **相關**：REFLEXES #31（自評會騙人，連今日辦桌／nuclear／carousel 同 pattern）；標題抽象原則已升 EDITORIAL v6.9 不另進 inbox
+
 ### 2026-06-07 carousel-charts — 視覺自檢「全綠」≠ 過人眼（自評會騙人擴張到視覺，REFLEXES #31）
 
 - **原則**：AI 對自己出的圖逐張視覺自檢回報「全綠」，不代表過了人眼。視覺自檢要加「**假裝第一次看到：霧 / 刺 / 亂 / 數不數得出來**」這層，不能只查「溢出 / 欄位齊」。高 stake deck 出圖後 spawn critic agent 當外部冷檢查最可靠（量測先於設計的視覺版）。
