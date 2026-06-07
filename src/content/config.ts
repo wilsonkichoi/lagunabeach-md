@@ -8,6 +8,10 @@ const articleSchema = z.object({
   description: z.string().optional(),
   tags: z.array(z.string()).optional(),
   date: z.date().optional(),
+  // 2026-06-07 SEO freshness: explicit "last meaningful edit" override. Set by
+  // EVOLVE-PIPELINE on a substantive rewrite. When absent, dateModified falls
+  // back to git last-meaningful-commit (content-dates.json) → frontmatter.date.
+  modified: z.date().optional(),
   draft: z.boolean().optional(),
   category: z.string().optional(),
   author: z.string().optional(),

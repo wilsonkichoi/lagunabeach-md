@@ -38,6 +38,7 @@ import {
 import { getRelatedArticles, getAllArticles } from '../utils/articles-index';
 import { resolve, join } from 'path';
 import type { Lang } from '../config/languages';
+import contentDatesData from '../data/content-dates.json';
 
 interface Props {
   title: string;
@@ -62,6 +63,24 @@ const {
   category,
   slug,
 } = Astro.props;
+
+// ── SEO freshness dates (reports/seo-optimization-plan-2026-06-07.md §1.1) ──
+// dateModified comes from content-dates.json (git last-meaningful-commit,
+// cosmetic-filtered) so EVOLVE'd articles signal real freshness instead of a
+// build-time "now". frontmatter.modified (set by EVOLVE) is the explicit
+// override; falls back to git date → publish date. Same source as the sitemap
+// <lastmod> so visible/structured dates stay consistent (a Google requirement).
+const _seoUrlPath =
+  lang === 'zh-TW' ? `/${category}/${slug}/` : `/${lang}/${category}/${slug}/`;
+const _toISO = (v: unknown): string | undefined =>
+  v instanceof Date ? v.toISOString() : typeof v === 'string' ? v : undefined;
+const seoDatePublished = _toISO(frontmatter.date);
+const seoDateModified =
+  _toISO(frontmatter.modified) ||
+  ((contentDatesData as { dates?: Record<string, string> }).dates || {})[
+    _seoUrlPath
+  ] ||
+  seoDatePublished;
 
 // ── Lang-derived helpers ─────────────────────────────────────────────────────
 // langPath: '' for zh-TW (SSOT root), else '{lang}/' for non-default langs.
@@ -641,10 +660,8 @@ const encodedTitle = encodeURIComponent(title);
   title={title}
   description={description}
   type="article"
-  datePublished={frontmatter.date || new Date().toISOString()}
-  dateModified={frontmatter.modified ||
-    frontmatter.date ||
-    new Date().toISOString()}
+  datePublished={seoDatePublished}
+  dateModified={seoDateModified}
   content={content}
   tags={frontmatter.tags}
   category={categoryInfo.name}

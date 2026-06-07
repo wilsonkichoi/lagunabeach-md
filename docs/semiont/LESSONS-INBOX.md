@@ -2682,6 +2682,33 @@ Tiebreaker 實戰（MANIFESTO > DNA > MEMORY）：多數條目落 MEMORY（綁 T
 
 ## 📥 未消化清單（2026-05-03 magical-feynman 新增 4 條 + magical-feynman 後段 babel 4 條）
 
+### 2026-06-07 SEO研究 — 「加 X schema 搶 rich result」建議必須當場查最新狀態（§10 幻覺鐵律 SEO 版）
+
+- **原則**：SEO rich-result 生態 2026 急速縮表。Google 2026-05-07 對「所有網站」廢除 FAQ rich result（Search Console API 8 月也移除），HowTo 2023 已廢，Course/ClaimReview 等陸續退場。任何「加 X schema 搶 rich result」的建議若憑 2023-24 記憶就會給出已死的方案。我這次 SEO audit 第一版就建議「加 FAQPage 搶 FAQ snippet」，深度研究才發現整類 rich result 已廢。外部快速變動的政策（Google SEO / News / AI 功能）一律當場查 primary doc，不靠訓練記憶。
+- **觸發**：2026-06-07 SEO 五項深度研究，FAQPage 自我修正案例。[reports/seo-optimization-plan-2026-06-07.md](../../reports/seo-optimization-plan-2026-06-07.md) §1.5 + §5。
+- **可能層級**：(a) 反射候選 → REFLEXES 新條「外部快速變動政策的建議必須當場查最新 primary doc」（§10 的 external-policy 延伸，類比 #16 peer 是線索不是 source）；(b) 操作規則 → schema/SEO 類建議一律附「查證日期 + primary URL」。
+- **相關**：MANIFESTO §10 幻覺鐵律（這是它的 external-policy 版）+ REFLEXES #16（記憶/peer 是線索不是 source）。
+- **verification_count**: 1（FAQPage 案例）
+- **severity**: structural（影響所有 SEO / 外部政策類建議的可信度）
+
+### 2026-06-07 SEO研究 — §神經迴路舊教訓會在新基建下過期（trailing slash 已被 CF 308 自動解決）
+
+- **原則**：§神經迴路「trailing slash 分流是骨骼層裂痕」是真教訓，但在 Cloudflare Pages（directory build）production 已被自動解決——CF 對 /foo 一律 308 導到 /foo/，canonical/sitemap/內部連結也全是斜線版。把它當「待修項」會做 churn 無回報。教訓沒錯，是它的修補在新基建下變成 no-op。認知層教訓該標註「在什麼基建下成立」，避免後人重複當待辦。
+- **觸發**：2026-06-07 trailingSlash 深度研究（Astro + CF Pages）。[reports/seo-optimization-plan-2026-06-07.md](../../reports/seo-optimization-plan-2026-06-07.md) §1.4。
+- **可能層級**：(a) 操作規則 → §神經迴路該條加註「production 由 CF 308 處理，trailingSlash:'always' 僅 dev/prod parity」；(b) 元規則 → 教訓有「基建依賴」維度，基建換了要重審。
+- **相關**：REFLEXES #15（反覆浮現要儀器化的反面——已被基建自動化，不需再儀器化）。
+- **verification_count**: 1
+- **severity**: operational（單一教訓 scope 修正）
+
+### 2026-06-07 SEO研究 — derived freshness 訊號必須對齊真實 git 日期，sitemap lastmod=now 是 Google 點名反模式（已實作儀器化）
+
+- **原則**：sitemap 全域 `lastmod: new Date()` 讓每頁每次 build 都宣稱「今天改」，是 Google 文件明文點名的反模式（後果是對整站 lastmod 停止信任）。同理 Article dateModified 永遠＝datePublished＝EVOLVE 白做。修法已實作：`scripts/core/build-content-dates.mjs` 一次 git pass 算每篇 last-meaningful-commit（cosmetic 過濾 babel/routine 避免假 fresh），寫 content-dates.json，sitemap + JSON-LD 同源讀取。護欄：cosmetic commit 排除，否則從「懶」滑成 Google 紅旗「artificially refreshing」。
+- **觸發**：2026-06-07 freshness 深度研究 + 完整修復實作。[reports/seo-optimization-plan-2026-06-07.md](../../reports/seo-optimization-plan-2026-06-07.md) §1.1。
+- **可能層級**：(a) 反射候選 → REFLEXES「derived state 的 freshness/日期訊號必須對齊真實來源 commit，不能 build-time now」（#43「新 derived 資料儀器化進生命週期」的 freshness 維度延伸）；(b) 已實作儀器化，待 dogfood verify。
+- **相關**：REFLEXES #43（derived state 儀器化）+ #59（製造數字的人最易被數字騙——自製 lastmod 騙自己 fresh）+ feedback_wall_clock_timestamps（git %aI 真實日期）。
+- **verification_count**: 1
+- **severity**: structural（全站 4000+ 頁 freshness 訊號，已實作）
+
 ### 2026-05-03 magical-feynman 後段 — Last 20% 是 sovereignty 的真正戰場
 
 - **原則**：cloud free tier 拿到的 80% 永遠是「中性內容」（Lifestyle / Food / Economy 安全 topics）。剩 20% 全是 PRC sensitive — 心戰 / 戒嚴 / 黑名單 / 兩岸 / 政治歷史敘事。這 20% 不是隨機分布，是 PRC content policy 的指紋。**babel architecture 的設計目的就是為了這 20%** — 為了讓 PRC 影響不到的 first-person voice 在所有語言存在。如果 cascade 拿不下這 20%，整個 architecture 跟普通新聞網站翻譯 plugin 沒差別。
