@@ -141,3 +141,68 @@ export async function getAllArticles(
   }
   return out;
 }
+
+/* ───────────────────────────────────────────────────────────────────────────
+ * Latest articles (時序主軸) — joins the article index with content-dates.json
+ * (git last-content-change times) so "latest" reflects when an article was
+ * actually shipped, not a hand-set frontmatter date. Used by the /latest page,
+ * the /explore section, the homepage strip, and (via /api/latest.json) the
+ * client-side article-page rail. Design: reports/latest-articles-discoverability
+ * -design-2026-06-09.md §4.
+ * ──────────────────────────────────────────────────────────────────────────*/
+
+export interface DatedArticle extends ArticleSummary {
+  date: string; // ISO 8601 git-ship timestamp
+}
+
+let _contentDates: Promise<Record<string, string>> | null = null;
+function loadContentDates(): Promise<Record<string, string>> {
+  if (!_contentDates) {
+    _contentDates = readFile(
+      resolve(process.cwd(), 'src/data/content-dates.json'),
+      'utf-8',
+    )
+      .then((raw) => {
+        try {
+          return (JSON.parse(raw).dates as Record<string, string>) ?? {};
+        } catch {
+          return {};
+        }
+      })
+      .catch(() => ({}));
+  }
+  return _contentDates;
+}
+
+// URL key aligned with content-dates.json: zh-TW → `/${cat}/${slug}/`,
+// other langs → `/${lang}/${cat}/${slug}/` (raw, not percent-encoded).
+function latestUrlKey(lang: string, cat: string, slug: string): string {
+  return lang === 'zh-TW' ? `/${cat}/${slug}/` : `/${lang}/${cat}/${slug}/`;
+}
+
+/**
+ * Latest articles across all categories for a language, newest-first by git
+ * ship time. Articles without a content-dates entry, plus the `about` meta
+ * folder, are excluded. `excludeSlug` drops the current article (for the rail).
+ */
+export async function getLatestArticles(
+  lang: string,
+  limit = 12,
+  excludeSlug?: string,
+): Promise<DatedArticle[]> {
+  const [all, dates] = await Promise.all([
+    getAllArticles(lang),
+    loadContentDates(),
+  ]);
+  const out: DatedArticle[] = [];
+  for (const a of all) {
+    if (a.category === 'about') continue;
+    if (excludeSlug && a.slug === excludeSlug) continue;
+    const date = dates[latestUrlKey(lang, a.category, a.slug)] ?? '';
+    if (!date) continue;
+    out.push({ ...a, date });
+  }
+  // ISO timestamps sort lexicographically; newest first.
+  out.sort((x, y) => (x.date < y.date ? 1 : x.date > y.date ? -1 : 0));
+  return out.slice(0, limit);
+}
