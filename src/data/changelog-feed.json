@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-06-08T15:10:12.761Z",
+  "generatedAt": "2026-06-08T22:15:23.104Z",
   "source": "git",
   "commits": [
+    {
+      "hash": "2a0584281e5e2a5dfb1575d5189e2f264d20dbbb",
+      "date": "2026-06-09T04:29:26+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-09-003433-twmd-babel-nightly — 80 trans (Ollama Tier 4 唯一活路) + 4 model 連環 deprecation + sovereignty backbone 量化證實"
+    },
+    {
+      "hash": "0e52a9143cea48e0e1aaec1e9250a63784d9968d",
+      "date": "2026-06-09T04:26:56+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] twmd-babel-nightly: 80 translations (Tier 4 Ollama fallback) — 2026-06-09"
+    },
+    {
+      "hash": "5de488e73557b3faee817759e82852766843406b",
+      "date": "2026-06-09T02:35:34+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] rewrite: 台灣嘻哈與饒舌發展 EVOLVE — 三劣勢翻成主權聲紋 + 張冠李戴 audit"
+    },
+    {
+      "hash": "b008644d9db9ada356628234e9db045909da4c36",
+      "date": "2026-06-09T00:16:43+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [semiont] diagnose: 最新文章可發現性 — 時序主軸設計 + 全掃實作規劃"
+    },
+    {
+      "hash": "2191738de593b682d7a52054ffa0f45f6c4a9660",
+      "date": "2026-06-08T23:12:47+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] memory: 2026-06-08-231129-twmd-data-refresh-pm — 14-step ALL PASS + Step 11 連 6 cycle 全綠 + 6/08 routine SKIP per-routine 訊號"
+    },
+    {
+      "hash": "b6f1d375cbef1ca22cce0d47ced8eaf963074b9b",
+      "date": "2026-06-08T23:11:22+08:00",
+      "author": "Che-Yu Wu",
+      "message": "🧬 [routine] data-refresh-pm: 14-step ALL PASS + Step 11 全綠 + immune 60 — 2026-06-08 23:00"
+    },
     {
       "hash": "8914bbb783223f936d7d7041da61bdc646e31f66",
       "date": "2026-06-08T22:07:11+08:00",

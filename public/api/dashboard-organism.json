@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T15:10:14.421Z",
+  "lastUpdated": "2026-06-08T22:15:24.757Z",
   "organs": [
     {
       "id": "heart",
@@ -10,8 +10,8 @@
       "score": 90,
       "trend": "up",
       "metrics": {
-        "articlesLast7Days": 61,
-        "articlesLast30Days": 195,
+        "articlesLast7Days": 63,
+        "articlesLast30Days": 196,
         "totalArticles": 782
       }
     },
@@ -104,10 +104,10 @@
       "metrics": {
         "languageCoverage": {
           "zh-TW": 782,
-          "en": 798,
-          "ja": 787,
-          "ko": 782,
-          "es": 779,
+          "en": 802,
+          "ja": 792,
+          "ko": 787,
+          "es": 784,
           "fr": 799
         },
         "translationPct": 93,
@@ -127,8 +127,8 @@
               "pct": 100
             },
             "articles": {
-              "count": 798,
-              "pct": 102
+              "count": 802,
+              "pct": 103
             },
             "score": 100
           },
@@ -147,7 +147,7 @@
               "pct": 0
             },
             "articles": {
-              "count": 787,
+              "count": 792,
               "pct": 101
             },
             "score": 80
@@ -167,8 +167,8 @@
               "pct": 100
             },
             "articles": {
-              "count": 782,
-              "pct": 100
+              "count": 787,
+              "pct": 101
             },
             "score": 100
           },
@@ -187,7 +187,7 @@
               "pct": 100
             },
             "articles": {
-              "count": 779,
+              "count": 784,
               "pct": 100
             },
             "score": 100

@@ -1,7 +1,7 @@
 ---
 title: 'reports/ INDEX — auto-generated'
 description: '頂層 *.md 按 9 type bucket × 月份 雙軸索引 + 子目錄 status summary'
-last_generated: 2026-06-08 23:10
+last_generated: 2026-06-09 06:11
 generator: scripts/tools/generate-reports-index.py
 ssot: reports/reports-archival-audit-2026-05-27.md §4 Layer 3
 type: auto-index
@@ -12,13 +12,13 @@ type: auto-index
 > **本 file 由 `scripts/tools/generate-reports-index.py` 完全 overwrite**。
 > 不要人工編輯（會被下一次 cron 覆蓋）。
 >
-> Last generated: **2026-06-08 23:10** · 頂層 \*.md 共 **144** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
+> Last generated: **2026-06-09 06:11** · 頂層 \*.md 共 **145** files · SSOT: [reports-archival-audit-2026-05-27.md §4 Layer 3](reports-archival-audit-2026-05-27.md)
 
 ## 📦 子目錄 status
 
 | Subdir                  | Files | Size     | 用途                                                 |
 | ----------------------- | ----: | -------- | ---------------------------------------------------- |
-| `research/`             |   282 | 35.5 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
+| `research/`             |   288 | 48.1 MB  | REWRITE-PIPELINE Stage 1 canonical (year-month 分槽) |
 | `visual/`               |   111 | 214.5 MB | Visual smoke test 基線 (partial gitignored)          |
 | `archive/`              |    27 | 342.8 KB | 歸檔位置 (per audit Layer 4)                         |
 | `weekly/`               |    10 | 2.3 MB   | Self-evolve weekly digest                            |
@@ -35,8 +35,9 @@ type: auto-index
 
 9 type bucket 從現有 corpus 萃取 (per [audit §2.3 + §4 Layer 2](reports-archival-audit-2026-05-27.md))，未來新加 report 建議遵循 `{type}-{topic}-{YYYY-MM-DD}.md` 命名。
 
-### design (16)
+### design (17)
 
+- `2026-06-09` [latest-articles-discoverability-design-2026-06-09](latest-articles-discoverability-design-2026-06-09.md) — 最新文章可發現性 — 時序主軸設計與完整實作規劃
 - `2026-06-06` [article-visualization-design-2026-06-06](article-visualization-design-2026-06-06.md)
 - `2026-06-05` [analysis-pipeline-design-2026-06-05](analysis-pipeline-design-2026-06-05.md) — ANALYSIS-PIPELINE 設計報告 — 把這批分析方法論儀器化、造橋鋪路
 - `2026-06-05` [connector-remote-endpoint-design-2026-06-05](connector-remote-endpoint-design-2026-06-05.md) — Taiwan.md Connector — Phase 2 遠端 endpoint 設計
@@ -211,9 +212,10 @@ type: auto-index
 
 ## 📅 By month (descending)
 
-### 2026-06 (24 files)
+### 2026-06 (25 files)
 
-- Type breakdown: ops: 8 / design: 5 / evolution: 4 / audit-routine: 2 / plan: 2 / proposal: 2 / analysis: 1
+- Type breakdown: ops: 8 / design: 6 / evolution: 4 / audit-routine: 2 / plan: 2 / proposal: 2 / analysis: 1
+  - `2026-06-09` [latest-articles-discoverability-design-2026-06-09](latest-articles-discoverability-design-2026-06-09.md)
   - `2026-06-07` [routine-audit-2026-06-07](routine-audit-2026-06-07.md)
   - `2026-06-07` [seo-optimization-plan-2026-06-07](seo-optimization-plan-2026-06-07.md)
   - `2026-06-06` [article-visualization-design-2026-06-06](article-visualization-design-2026-06-06.md)

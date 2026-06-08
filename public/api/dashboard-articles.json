@@ -1,5 +1,67 @@
 [
   {
+    "title": "台灣嘻哈與饒舌發展：中文不該能 rap、台語上不了檯面、又不是貧民窟，他們把三個劣勢唱成一張主權聲紋",
+    "slug": "台灣嘻哈與饒舌發展",
+    "category": "music",
+    "subcategory": "獨立與搖滾",
+    "date": "2026-03-19",
+    "lastModified": "2026-06-09",
+    "lastVerified": "2026-06-09",
+    "lastHumanReview": "true",
+    "featured": true,
+    "wordCount": 12117,
+    "tagCount": 0,
+    "tags": [],
+    "translations": {
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
+    },
+    "revision": 16,
+    "commitHash": "5de488e7",
+    "commitSubject": "🧬 [semiont] rewrite: 台灣嘻哈與饒舌發展 EVOLVE — 三劣勢翻成主權聲紋 + 張冠李戴 audit",
+    "description": "2004 年，宋岳庭已經走了兩年，母親和弟弟替他上台領金曲最佳作詞。那首《Life''s a Struggle》的雙韻，把「中文不適合 rap」這個成見往前推了一步。從魔岩地下室自學美國原版，到 Leo 王、熱狗先後拿下饒舌歌王，台灣花二十年走完一段路。但這座島最動人的不是它多像美國，是它把中文聲調、台語腔、非貧民窟弱者三個先天劣勢，翻成只有這裡唱得出來的多元主權聲紋。",
+    "healthScore": 90,
+    "qualityScore": 4,
+    "formatIssues": 0,
+    "hasOverview": true,
+    "hasReading": true,
+    "fnCount": 54
+  },
+  {
+    "title": "壞特?te：醫學系讀九年的優等生，按下暫停鍵的那場休學",
+    "slug": "壞特",
+    "category": "people",
+    "subcategory": "音樂與表演",
+    "date": "2026-04-26",
+    "lastModified": "2026-06-09",
+    "lastVerified": "2026-04-26",
+    "lastHumanReview": false,
+    "featured": false,
+    "wordCount": 10262,
+    "tagCount": 0,
+    "tags": [],
+    "translations": {
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
+      "fr": true
+    },
+    "revision": 10,
+    "commitHash": "5de488e7",
+    "commitSubject": "🧬 [semiont] rewrite: 台灣嘻哈與饒舌發展 EVOLVE — 三劣勢翻成主權聲紋 + 張冠李戴 audit",
+    "description": "2021 年 8 月 21 日，戴著黑帽墨鏡的壞特?te 上台領第 32 屆金曲獎最佳新人獎。她對著鏡頭說：「請你們不要害怕。」她本名林芝儀、新竹香山人、新竹女中、國防醫學院醫學系讀了九年，含大三那年的休學一年、含延畢一年（兩年實習因沒跟診花三年完成）。她完成實習醫師訓練、取得醫學士學位，得獎時白天還在開刀房戴口罩當實習醫師。台灣最會讀書的賽道上，她按下暫停鍵的那一年。",
+    "healthScore": 50,
+    "qualityScore": 0,
+    "formatIssues": 1,
+    "hasOverview": true,
+    "hasReading": false,
+    "fnCount": 37
+  },
+  {
     "title": "台灣的五到九年級生：草莓罵了三十年換三批人，斜掉的是腳下那座扶梯",
     "slug": "台灣的年級生世代",
     "category": "society",
@@ -13,10 +75,10 @@
     "tagCount": 0,
     "tags": [],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
       "fr": false
     },
     "revision": 2,
@@ -151,8 +213,8 @@
       "海洋保護"
     ],
     "translations": {
-      "en": true,
-      "ja": true,
+      "en": false,
+      "ja": false,
       "ko": true,
       "es": true,
       "fr": true
@@ -268,10 +330,10 @@
       "世界冠軍"
     ],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
       "fr": false
     },
     "revision": 2,
@@ -331,9 +393,9 @@
     "tags": [],
     "translations": {
       "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
+      "ja": true,
+      "ko": true,
+      "es": true,
       "fr": false
     },
     "revision": 1,
@@ -397,10 +459,10 @@
     "tagCount": 0,
     "tags": [],
     "translations": {
-      "en": false,
-      "ja": false,
+      "en": true,
+      "ja": true,
       "ko": false,
-      "es": false,
+      "es": true,
       "fr": false
     },
     "revision": 5,
@@ -783,10 +845,10 @@
     "tagCount": 0,
     "tags": [],
     "translations": {
-      "en": false,
-      "ja": false,
-      "ko": false,
-      "es": false,
+      "en": true,
+      "ja": true,
+      "ko": true,
+      "es": true,
       "fr": false
     },
     "revision": 3,
@@ -915,9 +977,9 @@
     ],
     "translations": {
       "en": true,
-      "ja": true,
+      "ja": false,
       "ko": true,
-      "es": true,
+      "es": false,
       "fr": true
     },
     "revision": 4,
@@ -3188,7 +3250,7 @@
     "translations": {
       "en": true,
       "ja": true,
-      "ko": true,
+      "ko": false,
       "es": true,
       "fr": true
     },
@@ -3965,7 +4027,7 @@
     "translations": {
       "en": true,
       "ja": true,
-      "ko": true,
+      "ko": false,
       "es": true,
       "fr": true
     },
@@ -4471,7 +4533,7 @@
     "translations": {
       "en": true,
       "ja": true,
-      "ko": true,
+      "ko": false,
       "es": true,
       "fr": true
     },
@@ -4502,7 +4564,7 @@
     "translations": {
       "en": true,
       "ja": true,
-      "ko": true,
+      "ko": false,
       "es": true,
       "fr": true
     },
@@ -4651,7 +4713,7 @@
     "translations": {
       "en": true,
       "ja": true,
-      "ko": true,
+      "ko": false,
       "es": true,
       "fr": true
     },
@@ -6369,37 +6431,6 @@
     "fnCount": 24
   },
   {
-    "title": "壞特?te：醫學系讀九年的優等生，按下暫停鍵的那場休學",
-    "slug": "壞特",
-    "category": "people",
-    "subcategory": "音樂與表演",
-    "date": "2026-04-26",
-    "lastModified": "2026-05-09",
-    "lastVerified": "2026-04-26",
-    "lastHumanReview": false,
-    "featured": false,
-    "wordCount": 10224,
-    "tagCount": 0,
-    "tags": [],
-    "translations": {
-      "en": true,
-      "ja": true,
-      "ko": true,
-      "es": true,
-      "fr": true
-    },
-    "revision": 9,
-    "commitHash": "5db9f136",
-    "commitSubject": "🧬 [semiont] feat: spore SSOT cleanup — Phase 1-6 consolidated (post-#905 stacked PR recovery) (#909)",
-    "description": "2021 年 8 月 21 日，戴著黑帽墨鏡的壞特?te 上台領第 32 屆金曲獎最佳新人獎。她對著鏡頭說：「請你們不要害怕。」她本名林芝儀、新竹香山人、新竹女中、國防醫學院醫學系讀了九年，含大三那年的休學一年、含延畢一年（兩年實習因沒跟診花三年完成）。她完成實習醫師訓練、取得醫學士學位，得獎時白天還在開刀房戴口罩當實習醫師。台灣最會讀書的賽道上，她按下暫停鍵的那一年。",
-    "healthScore": 50,
-    "qualityScore": 0,
-    "formatIssues": 1,
-    "hasOverview": true,
-    "hasReading": false,
-    "fnCount": 37
-  },
-  {
     "title": "李洋",
     "slug": "李洋",
     "category": "people",
@@ -6636,8 +6667,8 @@
       "2026"
     ],
     "translations": {
-      "en": true,
-      "ja": true,
+      "en": false,
+      "ja": false,
       "ko": true,
       "es": true,
       "fr": true
@@ -9431,7 +9462,7 @@
     "translations": {
       "en": true,
       "ja": true,
-      "ko": true,
+      "ko": false,
       "es": true,
       "fr": true
     },
@@ -9619,45 +9650,6 @@
     "hasOverview": true,
     "hasReading": false,
     "fnCount": 24
-  },
-  {
-    "title": "台灣嘻哈與饒舌發展",
-    "slug": "台灣嘻哈與饒舌發展",
-    "category": "music",
-    "subcategory": "獨立與搖滾",
-    "date": "2026-03-19",
-    "lastModified": "2026-04-29",
-    "lastVerified": "2026-03-19",
-    "lastHumanReview": "true",
-    "featured": true,
-    "wordCount": 6458,
-    "tagCount": 7,
-    "tags": [
-      "音樂",
-      "嘻哈",
-      "饒舌",
-      "Hip-Hop",
-      "Rap",
-      "金曲獎",
-      "流行音樂"
-    ],
-    "translations": {
-      "en": true,
-      "ja": true,
-      "ko": true,
-      "es": true,
-      "fr": true
-    },
-    "revision": 15,
-    "commitHash": "abf94a40",
-    "commitSubject": "🧬 [semiont] heal: idlccp1984 batch 第二輪 polish + Issue #680 fact fix",
-    "description": "從大支、熱狗到頑童MJ116，蛋堡、Leo王，台灣嘻哈文化的在地化與金曲獎認可",
-    "healthScore": 95,
-    "qualityScore": 4,
-    "formatIssues": 1,
-    "hasOverview": true,
-    "hasReading": false,
-    "fnCount": 7
   },
   {
     "title": "吳百福（安藤百福）：從嘉義朴子到全球餐桌，台灣基因與日本包裝的全球傳奇",
@@ -9904,7 +9896,7 @@
     "tags": [],
     "translations": {
       "en": true,
-      "ja": true,
+      "ja": false,
       "ko": true,
       "es": true,
       "fr": true
@@ -10389,7 +10381,7 @@
       "en": true,
       "ja": true,
       "ko": true,
-      "es": true,
+      "es": false,
       "fr": true
     },
     "revision": 8,
@@ -12390,7 +12382,7 @@
     "tags": [],
     "translations": {
       "en": true,
-      "ja": true,
+      "ja": false,
       "ko": true,
       "es": true,
       "fr": true

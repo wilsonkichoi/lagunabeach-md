@@ -1,16 +1,16 @@
 {
-  "totalArticles": 4803,
+  "totalArticles": 4822,
   "totalCategories": 21,
-  "estimatedContributors": 57,
-  "totalTags": 6345,
+  "estimatedContributors": 322,
+  "totalTags": 6311,
   "categories": [
     {
       "name": "es",
-      "count": 791
+      "count": 796
     },
     {
       "name": "ko",
-      "count": 794
+      "count": 799
     },
     {
       "name": "fr",
@@ -18,11 +18,11 @@
     },
     {
       "name": "en",
-      "count": 812
+      "count": 816
     },
     {
       "name": "ja",
-      "count": 799
+      "count": 804
     },
     {
       "name": "History",
@@ -120,10 +120,6 @@
     },
     {
       "name": "金曲獎",
-      "count": 26
-    },
-    {
-      "name": "政治",
       "count": 25
     },
     {
@@ -131,15 +127,11 @@
       "count": 25
     },
     {
-      "name": "音樂",
-      "count": 25
-    },
-    {
       "name": "기업",
       "count": 25
     },
     {
-      "name": "民主化",
+      "name": "政治",
       "count": 24
     },
     {
@@ -147,7 +139,15 @@
       "count": 24
     },
     {
+      "name": "音樂",
+      "count": 24
+    },
+    {
       "name": "인물",
+      "count": 23
+    },
+    {
+      "name": "民主化",
       "count": 23
     },
     {
@@ -172,13 +172,8 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4803,
+    "zh-TW": 4822,
     "en": 0
   },
-  "lastUpdated": "2026-06-08T15:10:13.715Z",
-  "stars": 1023,
-  "forks": 150,
-  "zhPages": 3991,
-  "enPages": 812,
-  "totalPages": 4803
+  "lastUpdated": "2026-06-08T22:15:24.129Z"
 }
