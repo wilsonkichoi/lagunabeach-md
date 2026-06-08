@@ -1,48 +1,48 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-07T23:09:06+08:00",
-    "zhCommitHead": "c1403e259",
-    "totalZh": 793,
+    "lastUpdated": "2026-06-08T23:10:11+08:00",
+    "zhCommitHead": "8914bbb78",
+    "totalZh": 794,
     "activeLanguages": ["en", "ja", "ko", "es", "fr"],
     "summary": {
       "en": {
-        "total_zh": 793,
+        "total_zh": 794,
         "fresh": 777,
         "stale": 11,
         "metadata_stale": 1,
-        "missing": 4,
+        "missing": 5,
         "orphan": 0
       },
       "ja": {
-        "total_zh": 793,
+        "total_zh": 794,
         "fresh": 725,
         "stale": 63,
         "metadata_stale": 1,
-        "missing": 4,
+        "missing": 5,
         "orphan": 0
       },
       "ko": {
-        "total_zh": 793,
+        "total_zh": 794,
         "fresh": 745,
         "stale": 43,
         "metadata_stale": 1,
-        "missing": 4,
+        "missing": 5,
         "orphan": 0
       },
       "es": {
-        "total_zh": 793,
+        "total_zh": 794,
         "fresh": 739,
         "stale": 49,
         "metadata_stale": 1,
-        "missing": 4,
+        "missing": 5,
         "orphan": 0
       },
       "fr": {
-        "total_zh": 793,
+        "total_zh": 794,
         "fresh": 754,
         "stale": 34,
         "metadata_stale": 1,
-        "missing": 4,
+        "missing": 5,
         "orphan": 0
       }
     },
@@ -18807,6 +18807,31 @@
           "footnoteDefs": 5,
           "status": "fresh",
           "reason": "same-commit"
+        }
+      }
+    },
+    "Society/台灣的年級生世代.md": {
+      "zh": {
+        "lastCommit": "6447ae4d",
+        "lastModified": "2026-06-08T20:11:24+08:00",
+        "contentHash": "sha256:5c51d5a9d92bc494",
+        "bodyHash": "sha256:4bd912747122b6f9"
+      },
+      "translations": {
+        "en": {
+          "status": "missing"
+        },
+        "ja": {
+          "status": "missing"
+        },
+        "ko": {
+          "status": "missing"
+        },
+        "es": {
+          "status": "missing"
+        },
+        "fr": {
+          "status": "missing"
         }
       }
     },

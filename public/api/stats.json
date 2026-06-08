@@ -1,5 +1,5 @@
 {
-  "totalArticles": 4802,
+  "totalArticles": 4803,
   "totalCategories": 21,
   "estimatedContributors": 57,
   "totalTags": 6345,
@@ -34,7 +34,7 @@
     },
     {
       "name": "Society",
-      "count": 84
+      "count": 85
     },
     {
       "name": "Culture",
@@ -172,13 +172,13 @@
     }
   ],
   "languageDistribution": {
-    "zh-TW": 4802,
+    "zh-TW": 4803,
     "en": 0
   },
-  "lastUpdated": "2026-06-07T15:09:08.889Z",
-  "stars": 1022,
+  "lastUpdated": "2026-06-08T15:10:13.715Z",
+  "stars": 1023,
   "forks": 150,
-  "zhPages": 3990,
+  "zhPages": 3991,
   "enPages": 812,
-  "totalPages": 4802
+  "totalPages": 4803
 }
