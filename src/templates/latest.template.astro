@@ -1,0 +1,289 @@
+---
+/**
+ * /latest — the 時序主軸 destination (issue: 渤浚 reader feedback 2026-06-09).
+ *
+ * The site is architected around curation + topic (homepage halls, explore
+ * featured, category subcats, article related) — all deliberately recency-blind.
+ * That serves the "come discover Taiwan" reader but leaves the "what did the AI
+ * just write" reader with no home. /latest is that home: article-level, newest
+ * first by git ship time, with a category filter + month grouping.
+ *
+ * Server-rendered (static, single honest lastmod, indexable on purpose — this is
+ * the one canonical "latest" surface we WANT Google to crawl). The per-article
+ * rail (article.template) is client-side instead, to avoid 782×6 crawl churn.
+ *
+ * Inline per-lang strings (no new i18n keys) — same pattern as changelog.template.
+ * Design: reports/latest-articles-discoverability-design-2026-06-09.md §WS2.
+ */
+import Layout from '../layouts/Layout.astro';
+import PageHero from '../components/PageHero.astro';
+import { getLatestArticles } from '../utils/articles-index';
+import { getCategoryConfigs } from '../utils/categoryConfig';
+import { useTranslations, getLangFromUrl } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const isZh = lang === 'zh-TW';
+const langPrefix = isZh ? '' : `/${lang}`;
+const cats = getCategoryConfigs(t) as Record<string, any>;
+
+const articles = await getLatestArticles(lang, 240);
+
+// Group by YYYY-MM (articles already sorted newest-first).
+const months: string[] = [];
+const monthMap = new Map<string, typeof articles>();
+for (const a of articles) {
+  const m = a.date.slice(0, 7);
+  if (!monthMap.has(m)) {
+    monthMap.set(m, []);
+    months.push(m);
+  }
+  monthMap.get(m)!.push(a);
+}
+
+const CAT_ORDER = [
+  'history',
+  'geography',
+  'culture',
+  'food',
+  'art',
+  'music',
+  'technology',
+  'nature',
+  'people',
+  'society',
+  'economy',
+  'lifestyle',
+  'politics',
+];
+const presentCats = CAT_ORDER.filter((c) =>
+  articles.some((a) => a.category === c),
+);
+
+const localeFor = (l: string) =>
+  l === 'en' ? 'en-US' : l === 'zh-TW' ? 'zh-TW' : l;
+
+function hrefFor(a: { category: string; slug: string }) {
+  return `${langPrefix}/${a.category}/${encodeURIComponent(a.slug)}`;
+}
+function fmtDay(d: string) {
+  const dt = new Date(d);
+  if (isZh) return `${dt.getMonth() + 1}/${dt.getDate()}`;
+  return dt.toLocaleDateString(localeFor(lang), {
+    month: 'short',
+    day: 'numeric',
+  });
+}
+function fmtMonth(m: string) {
+  const [y, mo] = m.split('-');
+  const n = parseInt(mo, 10);
+  if (isZh) return `${y} 年 ${n} 月`;
+  if (lang === 'ja') return `${y}年${n}月`;
+  if (lang === 'ko') return `${y}년 ${n}월`;
+  const names = [
+    'Jan',
+    'Feb',
+    'Mar',
+    'Apr',
+    'May',
+    'Jun',
+    'Jul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec',
+  ];
+  return `${names[n - 1]} ${y}`;
+}
+
+const ui = {
+  eyebrow: isZh ? '時序探索' : 'LATEST',
+  title: isZh
+    ? '最新文章'
+    : lang === 'ja'
+      ? '最新の記事'
+      : lang === 'ko'
+        ? '최신 글'
+        : lang === 'fr'
+          ? 'Derniers articles'
+          : lang === 'es'
+            ? 'Artículos recientes'
+            : 'Latest articles',
+  subtitle: isZh
+    ? 'AI 與貢獻者最近寫好的，依完成時間排序。'
+    : lang === 'ja'
+      ? 'AIと貢献者が最近書き上げた記事を、更新順に。'
+      : lang === 'ko'
+        ? 'AI와 기여자가 최근 작성한 글을 최신순으로.'
+        : lang === 'fr'
+          ? 'Récemment écrits par l’IA et les contributeurs, du plus récent au plus ancien.'
+          : lang === 'es'
+            ? 'Escritos recientemente por la IA y los colaboradores, del más nuevo al más antiguo.'
+            : 'Recently written by the AI and contributors, newest first.',
+  all: isZh
+    ? '全部'
+    : lang === 'ja'
+      ? 'すべて'
+      : lang === 'ko'
+        ? '전체'
+        : lang === 'fr'
+          ? 'Tout'
+          : lang === 'es'
+            ? 'Todo'
+            : 'All',
+  minRead: isZh ? '分鐘' : lang === 'ja' ? '分' : lang === 'ko' ? '분' : 'min',
+  empty: isZh ? '目前還沒有資料。' : 'Nothing here yet.',
+  changelogCta: isZh
+    ? '想看 AI 完整的更新活動（翻譯、修補、進化）？→ 更新日誌'
+    : lang === 'ja'
+      ? 'AIの全更新履歴（翻訳・修正・進化）→ 変更履歴'
+      : lang === 'ko'
+        ? 'AI의 전체 업데이트 활동 → 변경 기록'
+        : lang === 'fr'
+          ? 'Toute l’activité de mise à jour → Journal des modifications'
+          : lang === 'es'
+            ? 'Toda la actividad de actualización → Registro de cambios'
+            : "The AI's full update activity → Changelog",
+};
+---
+
+<Layout lang={lang} title={`${ui.title} — Taiwan.md`} description={ui.subtitle}>
+  <PageHero
+    bgVariant="solid"
+    bgColor="#1a3c34"
+    bgTone="dark"
+    titleVariant="inherit"
+    containerWidth="wide"
+    eyebrow={ui.eyebrow}
+    title={ui.title}
+    subtitle={ui.subtitle}
+    accentColor="rgba(255,255,255,0.7)"
+  />
+
+  <div
+    class="mx-auto max-w-[860px] px-6 pb-24 pt-10 max-[768px]:px-4 max-[768px]:pt-6"
+  >
+    {/* Category filter chips */}
+    <div
+      id="latest-filters"
+      class="sticky top-[64px] z-20 -mx-4 mb-6 flex flex-wrap gap-2 border-b border-[#e2e8f0] bg-white/95 px-4 py-3 backdrop-blur-sm max-[768px]:top-[56px] max-[768px]:flex-nowrap max-[768px]:overflow-x-auto"
+    >
+      <button
+        class="latest-chip whitespace-nowrap rounded-full border border-[#10b981] bg-[#10b981] px-3 py-1.5 text-xs font-semibold text-white transition-all"
+        data-cat="all"
+      >
+        {ui.all}<span class="ml-1 opacity-70">{articles.length}</span>
+      </button>
+      {
+        presentCats.map((c) => {
+          const cfg = cats[c] || {};
+          const count = articles.filter((a) => a.category === c).length;
+          return (
+            <button
+              class="latest-chip whitespace-nowrap rounded-full border border-[#e2e8f0] bg-white px-3 py-1.5 text-xs font-semibold text-[#64748b] transition-all hover:border-[#94a3b8] hover:bg-[#f8fafc]"
+              data-cat={c}
+            >
+              {cfg.icon} {cfg.name}
+              <span class="ml-1 opacity-60">{count}</span>
+            </button>
+          );
+        })
+      }
+    </div>
+
+    {
+      articles.length === 0 && (
+        <p class="py-16 text-center text-[#94a3b8]">{ui.empty}</p>
+      )
+    }
+
+    {
+      months.map((m) => (
+        <section class="latest-month mb-8" data-month={m}>
+          <h2 class="mb-3 text-[0.78rem] font-bold uppercase tracking-[0.12em] text-[#94a3b8]">
+            {fmtMonth(m)}
+          </h2>
+          <div class="flex flex-col gap-1">
+            {monthMap.get(m)!.map((a) => {
+              const cfg = cats[a.category] || {};
+              return (
+                <a
+                  href={hrefFor(a)}
+                  class="latest-row group flex items-start gap-3 rounded-lg border border-transparent px-3 py-3 no-underline transition-all hover:border-[#e2e8f0] hover:bg-[#f8fafc]"
+                  data-cat={a.category}
+                  data-ga-section="latest_page"
+                >
+                  <span
+                    class="mt-[0.15rem] flex-shrink-0 rounded-full px-[0.55rem] py-[0.18rem] text-[0.7rem] font-semibold"
+                    style={`color:${cfg.color || '#64748b'}; background:${cfg.colorLight || '#f1f5f9'};`}
+                  >
+                    {cfg.icon} {cfg.name}
+                  </span>
+                  <span class="min-w-0 flex-1">
+                    <span class="block font-['Noto_Serif_TC',serif] text-[1.02rem] font-semibold leading-[1.45] text-[#1a3c34] transition-colors group-hover:text-[#065f46]">
+                      {a.title}
+                    </span>
+                    {a.description && (
+                      <span class="mt-0.5 line-clamp-1 block text-[0.82rem] leading-[1.5] text-[#94a3b8]">
+                        {a.description}
+                      </span>
+                    )}
+                  </span>
+                  <span class="mt-[0.15rem] flex-shrink-0 font-mono text-[0.78rem] tabular-nums text-[#94a3b8]">
+                    {fmtDay(a.date)}
+                  </span>
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      ))
+    }
+
+    <div class="mt-10 border-t border-[#f1f5f9] pt-6 text-center">
+      <a
+        href={`${langPrefix}/changelog`}
+        data-ga-section="latest_page"
+        data-ga-label="to_changelog"
+        class="text-[0.9rem] font-semibold text-[#10b981] no-underline hover:underline"
+      >
+        {ui.changelogCta}
+      </a>
+    </div>
+  </div>
+</Layout>
+
+<script is:inline>
+  (function () {
+    var chips = document.querySelectorAll('.latest-chip');
+    var rows = document.querySelectorAll('.latest-row');
+    var months = document.querySelectorAll('.latest-month');
+    function apply(cat) {
+      rows.forEach(function (r) {
+        r.style.display =
+          cat === 'all' || r.getAttribute('data-cat') === cat ? '' : 'none';
+      });
+      months.forEach(function (m) {
+        var anyVisible = m.querySelectorAll(
+          '.latest-row:not([style*="display: none"])',
+        ).length;
+        m.style.display = anyVisible ? '' : 'none';
+      });
+    }
+    chips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        chips.forEach(function (c) {
+          var active = c === chip;
+          c.classList.toggle('border-[#10b981]', active);
+          c.classList.toggle('bg-[#10b981]', active);
+          c.classList.toggle('text-white', active);
+          c.classList.toggle('border-[#e2e8f0]', !active);
+          c.classList.toggle('bg-white', !active);
+          c.classList.toggle('text-[#64748b]', !active);
+        });
+        apply(chip.getAttribute('data-cat'));
+      });
+    });
+  })();
+</script>
