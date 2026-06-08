@@ -1147,6 +1147,161 @@ const encodedTitle = encodeURIComponent(title);
       )
     }
 
+    <!-- ── 站上最新 (時序主軸 rail) ─────────────────────────────────
+         CLIENT-SIDE on purpose: the cards are injected from /api/latest.json
+         after load, so the static HTML of every article page stays stable when
+         a new article ships (no crawl churn / 不重蹈 c1403e259 freshness 反模式).
+         Wrapped <aside data-nosnippet>. Design: WS3. ── -->
+    <aside
+      id="latest-rail"
+      data-nosnippet
+      data-lang={lang}
+      data-slug={slug}
+      aria-label={lang === 'zh-TW' ? '站上最新文章' : 'Latest on the site'}
+      hidden
+      class="border-t border-[rgba(26,60,52,0.08)] bg-white px-8 py-16 max-[640px]:px-4 max-[640px]:py-12"
+    >
+      <div class="mx-auto max-w-[1280px]">
+        <div class="mb-8 text-center">
+          <p
+            class="mb-[0.6rem] font-['Inter',system-ui,sans-serif] text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#9aa89e]"
+          >
+            {lang === 'zh-TW' ? '時序探索' : 'LATEST'}
+          </p>
+          <h2
+            class="font-['Inter',serif] text-[clamp(1.4rem,3vw,1.9rem)] font-bold leading-[1.25] text-[#1a3c34]"
+          >
+            {
+              lang === 'zh-TW'
+                ? '站上最新'
+                : lang === 'ja'
+                  ? 'サイトの最新'
+                  : lang === 'ko'
+                    ? '사이트 최신'
+                    : lang === 'fr'
+                      ? 'Les plus récents'
+                      : lang === 'es'
+                        ? 'Lo más reciente'
+                        : 'Latest on the site'
+            }
+          </h2>
+        </div>
+        <div
+          id="latest-rail-cards"
+          class="grid grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-4"
+        >
+        </div>
+        <div class="mt-8 text-center">
+          <a
+            href={lang === 'zh-TW' ? '/latest' : `/${lang}/latest`}
+            data-ga-section="article_latest_rail"
+            data-ga-label="view_all"
+            class="inline-flex items-center gap-2 rounded-full border-[1.5px] border-[#10b981]/40 px-6 py-[0.6rem] font-['Inter',system-ui,sans-serif] text-[0.88rem] font-semibold text-[#065f46] no-underline transition-all hover:bg-[#ecfdf5]"
+          >
+            {
+              lang === 'zh-TW'
+                ? '看全部最新文章'
+                : lang === 'ja'
+                  ? 'すべての最新記事'
+                  : lang === 'ko'
+                    ? '모든 최신 글'
+                    : lang === 'fr'
+                      ? 'Tous les derniers articles'
+                      : lang === 'es'
+                        ? 'Todos los recientes'
+                        : 'See all latest'
+            }{' '}
+            →
+          </a>
+        </div>
+      </div>
+    </aside>
+    <script is:inline>
+      (function () {
+        var rail = document.getElementById('latest-rail');
+        if (!rail) return;
+        var lang = rail.getAttribute('data-lang') || 'zh-TW';
+        var slug = rail.getAttribute('data-slug') || '';
+        var box = document.getElementById('latest-rail-cards');
+        if (!box) return;
+        var ICONS = {
+          history: '📜',
+          geography: '🗺️',
+          culture: '🎭',
+          food: '🍜',
+          art: '🎨',
+          music: '🎵',
+          technology: '💻',
+          nature: '🌿',
+          people: '👥',
+          society: '⚖️',
+          economy: '📈',
+          lifestyle: '🏠',
+          politics: '🗳️',
+        };
+        var COLORS = {
+          history: '#92400e',
+          geography: '#065f46',
+          culture: '#7c3aed',
+          food: '#ea580c',
+          art: '#be185d',
+          music: '#0891b2',
+          technology: '#1d4ed8',
+          nature: '#15803d',
+          people: '#c2410c',
+          society: '#475569',
+          economy: '#b91c1c',
+          lifestyle: '#65a30d',
+          politics: '#7c3aed',
+        };
+        function esc(s) {
+          return String(s).replace(/[&<>"]/g, function (c) {
+            return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+          });
+        }
+        var encSlug = encodeURIComponent(slug);
+        fetch('/api/latest.json')
+          .then(function (r) {
+            return r.ok ? r.json() : null;
+          })
+          .then(function (data) {
+            if (!data || !data.byLang) return;
+            var list = (data.byLang[lang] || [])
+              .filter(function (a) {
+                return a.href.split('/').pop() !== encSlug;
+              })
+              .slice(0, 4);
+            if (!list.length) return;
+            box.innerHTML = list
+              .map(function (a) {
+                var ic = ICONS[a.category] || '📄';
+                var col = COLORS[a.category] || '#475569';
+                var dt = new Date(a.date);
+                var day = dt.getMonth() + 1 + '/' + dt.getDate();
+                return (
+                  '<a href="' +
+                  a.href +
+                  '" data-ga-section="article_latest_rail" ' +
+                  'class="group flex flex-col gap-2 rounded-2xl border border-[rgba(26,60,52,0.08)] bg-white p-5 no-underline shadow-[0_2px_8px_rgba(26,60,52,0.04)] transition-all hover:-translate-y-1 hover:shadow-[0_12px_28px_rgba(26,60,52,0.1)]">' +
+                  '<span class="inline-flex items-center gap-1.5 text-[0.72rem] font-semibold" style="color:' +
+                  col +
+                  '">' +
+                  ic +
+                  ' <span class="font-mono text-[#94a3b8]">' +
+                  day +
+                  '</span></span>' +
+                  '<span class="line-clamp-3 font-[\'Noto_Serif_TC\',serif] text-[0.98rem] font-semibold leading-[1.4] text-[#1a3c34] transition-colors group-hover:text-[#065f46]">' +
+                  esc(a.title) +
+                  '</span></a>'
+                );
+              })
+              .join('');
+            rail.hidden = false;
+          })
+          .catch(function () {});
+      })();
+    </script>
+
     <!-- ── Random explore ────────────────────────────────────────── -->
     {
       allArticles.length > 0 && (
