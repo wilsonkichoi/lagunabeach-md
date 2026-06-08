@@ -12,7 +12,8 @@
  * the one canonical "latest" surface we WANT Google to crawl). The per-article
  * rail (article.template) is client-side instead, to avoid 782×6 crawl churn.
  *
- * Inline per-lang strings (no new i18n keys) — same pattern as changelog.template.
+ * UI strings: src/i18n/latest.ts (latestUI, spread into ui.ts). Date formatting
+ * stays inline (locale logic, same pattern as changelog.template).
  * Design: reports/latest-articles-discoverability-design-2026-06-09.md §WS2.
  */
 import Layout from '../layouts/Layout.astro';
@@ -96,68 +97,22 @@ function fmtMonth(m: string) {
   ];
   return `${names[n - 1]} ${y}`;
 }
-
-const ui = {
-  eyebrow: isZh ? '時序探索' : 'LATEST',
-  title: isZh
-    ? '最新文章'
-    : lang === 'ja'
-      ? '最新の記事'
-      : lang === 'ko'
-        ? '최신 글'
-        : lang === 'fr'
-          ? 'Derniers articles'
-          : lang === 'es'
-            ? 'Artículos recientes'
-            : 'Latest articles',
-  subtitle: isZh
-    ? 'AI 與貢獻者最近寫好的，依完成時間排序。'
-    : lang === 'ja'
-      ? 'AIと貢献者が最近書き上げた記事を、更新順に。'
-      : lang === 'ko'
-        ? 'AI와 기여자가 최근 작성한 글을 최신순으로.'
-        : lang === 'fr'
-          ? 'Récemment écrits par l’IA et les contributeurs, du plus récent au plus ancien.'
-          : lang === 'es'
-            ? 'Escritos recientemente por la IA y los colaboradores, del más nuevo al más antiguo.'
-            : 'Recently written by the AI and contributors, newest first.',
-  all: isZh
-    ? '全部'
-    : lang === 'ja'
-      ? 'すべて'
-      : lang === 'ko'
-        ? '전체'
-        : lang === 'fr'
-          ? 'Tout'
-          : lang === 'es'
-            ? 'Todo'
-            : 'All',
-  minRead: isZh ? '分鐘' : lang === 'ja' ? '分' : lang === 'ko' ? '분' : 'min',
-  empty: isZh ? '目前還沒有資料。' : 'Nothing here yet.',
-  changelogCta: isZh
-    ? '想看 AI 完整的更新活動（翻譯、修補、進化）？→ 更新日誌'
-    : lang === 'ja'
-      ? 'AIの全更新履歴（翻訳・修正・進化）→ 変更履歴'
-      : lang === 'ko'
-        ? 'AI의 전체 업데이트 활동 → 변경 기록'
-        : lang === 'fr'
-          ? 'Toute l’activité de mise à jour → Journal des modifications'
-          : lang === 'es'
-            ? 'Toda la actividad de actualización → Registro de cambios'
-            : "The AI's full update activity → Changelog",
-};
 ---
 
-<Layout lang={lang} title={`${ui.title} — Taiwan.md`} description={ui.subtitle}>
+<Layout
+  lang={lang}
+  title={t('latest.meta.title')}
+  description={t('latest.meta.description')}
+>
   <PageHero
     bgVariant="solid"
     bgColor="#1a3c34"
     bgTone="dark"
     titleVariant="inherit"
     containerWidth="wide"
-    eyebrow={ui.eyebrow}
-    title={ui.title}
-    subtitle={ui.subtitle}
+    eyebrow={t('latest.eyebrow')}
+    title={t('latest.title')}
+    subtitle={t('latest.subtitle')}
     accentColor="rgba(255,255,255,0.7)"
   />
 
@@ -173,7 +128,9 @@ const ui = {
         class="latest-chip whitespace-nowrap rounded-full border border-[#10b981] bg-[#10b981] px-3 py-1.5 text-xs font-semibold text-white transition-all"
         data-cat="all"
       >
-        {ui.all}<span class="ml-1 opacity-70">{articles.length}</span>
+        {t('latest.filterAll')}<span class="ml-1 opacity-70"
+          >{articles.length}</span
+        >
       </button>
       {
         presentCats.map((c) => {
@@ -194,7 +151,7 @@ const ui = {
 
     {
       articles.length === 0 && (
-        <p class="py-16 text-center text-[#94a3b8]">{ui.empty}</p>
+        <p class="py-16 text-center text-[#94a3b8]">{t('latest.empty')}</p>
       )
     }
 
@@ -248,7 +205,7 @@ const ui = {
         data-ga-label="to_changelog"
         class="text-[0.9rem] font-semibold text-[#10b981] no-underline hover:underline"
       >
-        {ui.changelogCta}
+        {t('latest.changelogCta')}
       </a>
     </div>
   </div>

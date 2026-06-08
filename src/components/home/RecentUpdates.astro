@@ -214,18 +214,7 @@ const showStrip = organs.length > 0 || vitals.totalArticles !== undefined;
             data-ga-label="latest_articles"
             class="inline-flex items-center gap-[0.3rem] rounded-full bg-[#10b981] px-6 py-[0.6rem] text-[0.9rem] font-semibold text-white no-underline transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#059669] hover:shadow-[0_4px_12px_rgba(16,185,129,0.3)]"
           >
-            🆕{' '}
-            {lang === 'zh-TW'
-              ? '最新文章'
-              : lang === 'ja'
-                ? '最新の記事'
-                : lang === 'ko'
-                  ? '최신 글'
-                  : lang === 'fr'
-                    ? 'Derniers articles'
-                    : lang === 'es'
-                      ? 'Artículos recientes'
-                      : 'Latest articles'}
+            🆕 {t('nav.latest')}
           </a>
           <a
             href={translatePath('/changelog')}

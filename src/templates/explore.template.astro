@@ -347,30 +347,10 @@ const langPrefixesLower = [
         <div class="mb-6 flex items-end justify-between gap-4">
           <div>
             <h2 class="hero-title text-[2rem] font-black -tracking-[0.02em] text-[#1a1a2e] max-[768px]:text-[1.6rem]">
-              {isZh
-                ? '最新文章'
-                : lang === 'ja'
-                  ? '最新の記事'
-                  : lang === 'ko'
-                    ? '최신 글'
-                    : lang === 'fr'
-                      ? 'Derniers articles'
-                      : lang === 'es'
-                        ? 'Artículos recientes'
-                        : 'Latest articles'}
+              {t('latest.title')}
             </h2>
             <p class="mt-1 text-[0.95rem] text-[#64748b]">
-              {isZh
-                ? 'AI 與貢獻者最近寫好的'
-                : lang === 'ja'
-                  ? 'AIと貢献者の最新作'
-                  : lang === 'ko'
-                    ? 'AI와 기여자의 최신작'
-                    : lang === 'fr'
-                      ? 'Récemment publiés'
-                      : lang === 'es'
-                        ? 'Publicados recientemente'
-                        : 'Recently published'}
+              {t('latest.exploreSub')}
             </p>
           </div>
           <a
@@ -379,7 +359,7 @@ const langPrefixesLower = [
             data-ga-section="explore_latest"
             data-ga-label="view_all"
           >
-            {isZh ? '看全部 →' : 'See all →'}
+            {t('latest.exploreSeeAll')}
           </a>
         </div>
         <div class="flex flex-col gap-1">

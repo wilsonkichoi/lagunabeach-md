@@ -1157,7 +1157,7 @@ const encodedTitle = encodeURIComponent(title);
       data-nosnippet
       data-lang={lang}
       data-slug={slug}
-      aria-label={lang === 'zh-TW' ? '站上最新文章' : 'Latest on the site'}
+      aria-label={t('latest.railHeading')}
       hidden
       class="border-t border-[rgba(26,60,52,0.08)] bg-white px-8 py-16 max-[640px]:px-4 max-[640px]:py-12"
     >
@@ -1166,24 +1166,12 @@ const encodedTitle = encodeURIComponent(title);
           <p
             class="mb-[0.6rem] font-['Inter',system-ui,sans-serif] text-[0.72rem] font-semibold uppercase tracking-[0.2em] text-[#9aa89e]"
           >
-            {lang === 'zh-TW' ? '時序探索' : 'LATEST'}
+            {t('latest.eyebrow')}
           </p>
           <h2
             class="font-['Inter',serif] text-[clamp(1.4rem,3vw,1.9rem)] font-bold leading-[1.25] text-[#1a3c34]"
           >
-            {
-              lang === 'zh-TW'
-                ? '站上最新'
-                : lang === 'ja'
-                  ? 'サイトの最新'
-                  : lang === 'ko'
-                    ? '사이트 최신'
-                    : lang === 'fr'
-                      ? 'Les plus récents'
-                      : lang === 'es'
-                        ? 'Lo más reciente'
-                        : 'Latest on the site'
-            }
+            {t('latest.railHeading')}
           </h2>
         </div>
         <div
@@ -1198,19 +1186,7 @@ const encodedTitle = encodeURIComponent(title);
             data-ga-label="view_all"
             class="inline-flex items-center gap-2 rounded-full border-[1.5px] border-[#10b981]/40 px-6 py-[0.6rem] font-['Inter',system-ui,sans-serif] text-[0.88rem] font-semibold text-[#065f46] no-underline transition-all hover:bg-[#ecfdf5]"
           >
-            {
-              lang === 'zh-TW'
-                ? '看全部最新文章'
-                : lang === 'ja'
-                  ? 'すべての最新記事'
-                  : lang === 'ko'
-                    ? '모든 최신 글'
-                    : lang === 'fr'
-                      ? 'Tous les derniers articles'
-                      : lang === 'es'
-                        ? 'Todos los recientes'
-                        : 'See all latest'
-            }{' '}
+            {t('latest.railViewAll')}{' '}
             →
           </a>
         </div>

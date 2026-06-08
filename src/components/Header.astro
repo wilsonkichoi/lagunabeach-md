@@ -107,21 +107,6 @@ const currentLangOption =
 const normalizedPath = currentPath.replace(/\/$/, '') || '/';
 const isHome = normalizedPath === '/' || normalizedPath === '/en';
 
-// 最新文章 (時序主軸) nav label — inline per-lang (no new i18n key, same
-// pattern as the latest/changelog templates).
-const latestLabel =
-  lang === 'zh-TW'
-    ? '最新文章'
-    : lang === 'ja'
-      ? '最新の記事'
-      : lang === 'ko'
-        ? '최신 글'
-        : lang === 'fr'
-          ? 'Derniers articles'
-          : lang === 'es'
-            ? 'Artículos recientes'
-            : 'Latest';
-
 const navConfig = [
   { path: '/about', label: t('nav.about') },
   { path: '/explore', label: t('nav.explore') },
@@ -335,7 +320,7 @@ const categoryList = [
                           href={translatePath('/latest')}
                           class="dropdown-item dropdown-section-header"
                         >
-                          🆕 {latestLabel}
+                          🆕 {t('nav.latest')}
                         </a>
                         <div class="dropdown-divider" />
                         <a
@@ -701,7 +686,7 @@ const categoryList = [
                       class="nav-link nav-sub-link"
                       onclick="document.querySelector('.nav-mobile').classList.remove('open')"
                     >
-                      🆕 {latestLabel}
+                      🆕 {t('nav.latest')}
                     </a>
                     <a
                       href={translatePath('/graph')}

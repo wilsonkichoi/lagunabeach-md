@@ -75,22 +75,7 @@ const translatePath = useTranslatedPath(lang);
         <h4 class="mb-1 text-[0.85rem] uppercase tracking-[0.05em] text-white">
           {t('footer.explore')}
         </h4>
-        <a href={translatePath('/latest')}>
-          🆕{' '}
-          {
-            lang === 'zh-TW'
-              ? '最新文章'
-              : lang === 'ja'
-                ? '最新の記事'
-                : lang === 'ko'
-                  ? '최신 글'
-                  : lang === 'fr'
-                    ? 'Derniers articles'
-                    : lang === 'es'
-                      ? 'Artículos recientes'
-                      : 'Latest articles'
-          }
-        </a>
+        <a href={translatePath('/latest')}>🆕 {t('nav.latest')}</a>
         <a href={translatePath('/history')}>{t('footer.history')}</a>
         <a href={translatePath('/culture')}>{t('footer.culture')}</a>
         <a href={translatePath('/food')}>{t('footer.food')}</a>
