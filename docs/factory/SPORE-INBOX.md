@@ -218,6 +218,34 @@ news-lens P1 count == 0 → daily routine 補 3
 
 ## 📥 Pending（待發）
 
+### 台灣的年級生世代 — READY (cron 2026-06-08 article ship 同 cycle，#130/#131 blueprint 完成，DEFER 社群 post 等下次 cycle / 觀察者 manual)
+
+- **Source-Mode**: `EXISTING-ARTICLE`
+- **Article-Path**: [knowledge/Society/台灣的年級生世代.md](../../knowledge/Society/台灣的年級生世代.md)
+- **Priority**: `P0`（高 leverage — 世代論主題普世關心 + Hook tier 1b 反差 hook「現在罵草莓族的人，當年就是被罵的草莓族」）
+- **Status**: `pending-publish`（blueprint READY，pre-ship 8 hard gates 已自檢 PASS）
+- **Requested**: 2026-06-08 by `twmd-rewrite-daily` cron 18:00 fire — cycle 已超 ~130 min wall-clock 安全執行 SPORE chain 視窗
+- **Blueprint 位置**: [SPORE-BLUEPRINTS/130-台灣的年級生世代.md](SPORE-BLUEPRINTS/130-台灣的年級生世代.md)
+- **Hook anchor 候選**（blueprint 已 lock A2 首尾呼應）:
+  1. **A2 首尾呼應 hook**（已選）：「1993 年『草莓族』第一次被印出來時，罵的是現在最愛懷舊養樂多的五年級生」→ 收尾「這個詞最早罵的，很可能就是當年二十幾歲的你」
+  2. **B3 標籤遷移史 hook**（備選）：30 年 3 批被罵者 + 同一個詞戴頭上
+  3. **扶梯結構 hook**（備選）：台北房價所得比 6.4→15.41 倍 / 自購率 60%→25% — 量化結構但 hook 較弱
+- **時效**: 無強時效（article 為 evergreen 結構性題目，prime time 任何晚上 20-22 點可發）
+- **敏感度**: 低-中（純走世代標籤史 + 結構數據；blueprint 已避開政治認同/天然獨/抖音世代段降風險）
+- **必驗事實**:
+  - 1993 翁靜玉《辦公室物語》原指五年級（multi-source verbatim PASS）
+  - 高院認定貶抑詞（不掰字號）
+  - 台北房價所得比 6.4(2004) → 15.41(2025Q1) 政大不動產一手 PASS
+  - 「不吃不喝十五年」= 15.41 大白話換算 ✓
+- **預估發佈時機**: 下次觀察者 in-loop session prime time 20-22 點 — 觀察者觸發 `/twmd-spore-publish 130` 或 `/twmd-spore 台灣的年級生世代`
+- **Notes**:
+  - cron defer 社群 post 原因：本 cron cycle 已耗 ~130 min wall-clock（article BECOME + research 接力 + Stage 2-5 全跑含媒體深掃 + 5 PD/CC 圖 + cross-link + push），超 SPORE chain 安全執行視窗 → per §自主權邊界 + cron 150 min boundary defer
+  - Article 5146 CJK chars + 25 footnote + 4 富文本 box + 4 tw-\* viz + 5 圖（VOA 太陽花×4 + 野百合 1990）+ stage 4 hard=0 PASS
+  - Spore body 已校準 SPORE-VERIFY 自檢（對位 2 ≤3 / 破折號 3 / emoji 2 / hook 6 chars / 段落呼吸 4 段 / ~310 字略超 300 — 觀察者可微縮 8 字 OR 保留）
+  - 配圖建議用 article hero（VOA 太陽花立法院議場全景，square 1080² 由 `make-spore.sh` 自動 derive）
+
+<!-- routine 2026-06-08 ~19:55 twmd-rewrite-daily defer rationale: cycle wall-clock 已耗 ~130 min (article ship 全 stage + 媒體深掃 5 圖) → 超 SPORE chain 安全執行視窗. Blueprint READY, pre-ship 8 hard gates PASS. 等下次觀察者 manual 觸發 /twmd-spore-publish 130 即可 ship Threads + X dual-platform. -->
+
 ### 莫那能 — DEFER spore（routine 2026-06-03 ship article 後 conservative defer，需哲宇 manual framing）
 
 - **Source-Mode**: `EXISTING-ARTICLE`
