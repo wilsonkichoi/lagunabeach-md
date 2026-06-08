@@ -53,6 +53,13 @@ for (const commit of commits) {
   const ct = commitType(commit.message);
   typeCounts[ct] = (typeCounts[ct] || 0) + 1;
 }
+// 文章更新 pseudo-type (時序主軸 — WS5): article-facing commit types only, so
+// the changelog reads like "article updates" to a reader by default. Readers
+// who want the full organism activity click 全部.
+typeCounts.articles =
+  (typeCounts.rewrite || 0) +
+  (typeCounts.translate || 0) +
+  (typeCounts.content || 0);
 
 function formatMonth(monthStr: string): string {
   const [y, m] = monthStr.split('-');
@@ -77,6 +84,22 @@ function formatMonth(monthStr: string): string {
 }
 
 const filterTypes = [
+  {
+    key: 'articles',
+    icon: '📄',
+    label:
+      lang === 'zh-TW'
+        ? '文章更新'
+        : lang === 'ja'
+          ? '記事の更新'
+          : lang === 'ko'
+            ? '글 업데이트'
+            : lang === 'fr'
+              ? 'Articles'
+              : lang === 'es'
+                ? 'Artículos'
+                : 'Articles',
+  },
   {
     key: 'all',
     icon: '',
@@ -251,12 +274,17 @@ const searchPlaceholder =
       >
         {
           filterTypes
-            .filter((f) => f.key === 'all' || (typeCounts[f.key] || 0) > 0)
+            .filter(
+              (f) =>
+                f.key === 'all' ||
+                f.key === 'articles' ||
+                (typeCounts[f.key] || 0) > 0,
+            )
             .map((f) => (
               <button
                 class:list={[
                   'filter-pill whitespace-nowrap rounded-full border px-3 py-1.5 text-xs font-semibold transition-all',
-                  f.key === 'all'
+                  f.key === 'articles'
                     ? 'border-[#3b82f6] bg-[#3b82f6] text-white'
                     : 'border-[#e2e8f0] bg-white text-[#64748b] hover:border-[#94a3b8] hover:bg-[#f8fafc]',
                 ]}
@@ -343,7 +371,8 @@ const searchPlaceholder =
   const dateNavLinks = document.querySelectorAll('.date-nav-link');
   const filterStatus = document.getElementById('filter-status');
 
-  let activeType = 'all';
+  let activeType = 'articles';
+  var ARTICLE_TYPES = ['rewrite', 'translate', 'content'];
 
   function getItemType(item) {
     return item.getAttribute('data-type') || 'other';
@@ -362,7 +391,12 @@ const searchPlaceholder =
 
       const matchesSearch =
         !query || msg.includes(query) || author.includes(query);
-      const matchesType = activeType === 'all' || type === activeType;
+      const matchesType =
+        activeType === 'all'
+          ? true
+          : activeType === 'articles'
+            ? ARTICLE_TYPES.indexOf(type) !== -1
+            : type === activeType;
       const visible = matchesSearch && matchesType;
 
       item.style.display = visible ? '' : 'none';
@@ -443,6 +477,10 @@ const searchPlaceholder =
       applyFilters();
     });
   });
+
+  // Apply the default "文章更新" view on load (WS5) so readers see article
+  // updates first; the 全部 pill restores the full organism activity log.
+  applyFilters();
 
   // ── Active Date Tracking (IntersectionObserver) ──
   const dayElements = document.querySelectorAll(
