@@ -1,0 +1,7 @@
+⚠️  CUDA not available — using CPU (this will be slow!)
+   To enable GPU: pip install torch --index-url https://download.pytorch.org/whl/cu121
+   Or re-run: ./setup.sh
+
+Loading model: large-v3-turbo (cpu, int8)
+Transcribing: bbc-misogyny-debate--G6nAgNWFKQ.mp3
+Saved to: reports/research/2026-06/台灣嘻哈與饒舌發展-transcripts/bbc-misogyny-transcript.json
