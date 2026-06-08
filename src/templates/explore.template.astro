@@ -21,6 +21,8 @@ import Layout from '../layouts/Layout.astro';
 import PageHero from '../components/PageHero.astro';
 import CategoryGrid from '../components/CategoryGrid.astro';
 import { useTranslations, getLangFromUrl } from '../i18n/utils';
+import { getLatestArticles } from '../utils/articles-index';
+import { getCategoryConfigs } from '../utils/categoryConfig';
 import {
   ENABLED_LANGUAGE_CODES,
   LANGUAGES,
@@ -34,6 +36,20 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 const isZh = lang === 'zh-TW';
 const langUrlPrefix = isZh ? '' : `/${lang}`;
+
+// ── Latest articles strip (時序主軸 — WS6). Single hub page → server-render is
+// fine (churn bounded to one page, unlike the per-article rail). ──
+const latestForExplore = await getLatestArticles(lang, 8);
+const exploreCats = getCategoryConfigs(t) as Record<string, any>;
+const exploreLatestDay = (d: string) => {
+  const dt = new Date(d);
+  return isZh
+    ? `${dt.getMonth() + 1}/${dt.getDate()}`
+    : dt.toLocaleDateString(lang === 'en' ? 'en-US' : lang, {
+        month: 'short',
+        day: 'numeric',
+      });
+};
 
 // ── Stats ribbon: read fresh vitals from prebuilt JSON if available,
 // fall back to live count of knowledge/{Cat}/ ──
@@ -323,6 +339,77 @@ const langPrefixesLower = [
     </div>
     <CategoryGrid />
   </section>
+
+  <!-- ====== 最新文章 (時序主軸 — WS6) ====== -->
+  {
+    latestForExplore.length > 0 && (
+      <section class="mx-auto my-16 max-w-[860px] px-8 max-[768px]:my-10 max-[768px]:px-4">
+        <div class="mb-6 flex items-end justify-between gap-4">
+          <div>
+            <h2 class="hero-title text-[2rem] font-black -tracking-[0.02em] text-[#1a1a2e] max-[768px]:text-[1.6rem]">
+              {isZh
+                ? '最新文章'
+                : lang === 'ja'
+                  ? '最新の記事'
+                  : lang === 'ko'
+                    ? '최신 글'
+                    : lang === 'fr'
+                      ? 'Derniers articles'
+                      : lang === 'es'
+                        ? 'Artículos recientes'
+                        : 'Latest articles'}
+            </h2>
+            <p class="mt-1 text-[0.95rem] text-[#64748b]">
+              {isZh
+                ? 'AI 與貢獻者最近寫好的'
+                : lang === 'ja'
+                  ? 'AIと貢献者の最新作'
+                  : lang === 'ko'
+                    ? 'AI와 기여자의 최신작'
+                    : lang === 'fr'
+                      ? 'Récemment publiés'
+                      : lang === 'es'
+                        ? 'Publicados recientemente'
+                        : 'Recently published'}
+            </p>
+          </div>
+          <a
+            href={`${langUrlPrefix}/latest`}
+            class="flex-shrink-0 whitespace-nowrap text-[0.88rem] font-semibold text-[#10b981] no-underline hover:underline"
+            data-ga-section="explore_latest"
+            data-ga-label="view_all"
+          >
+            {isZh ? '看全部 →' : 'See all →'}
+          </a>
+        </div>
+        <div class="flex flex-col gap-1">
+          {latestForExplore.map((a) => {
+            const cfg = exploreCats[a.category] || {};
+            return (
+              <a
+                href={`${langUrlPrefix}/${a.category}/${encodeURIComponent(a.slug)}`}
+                class="group flex items-center gap-3 rounded-lg border border-transparent px-3 py-2.5 no-underline transition-all hover:border-[#e2e8f0] hover:bg-[#f8fafc]"
+                data-ga-section="explore_latest"
+              >
+                <span
+                  class="flex-shrink-0 rounded-full px-[0.5rem] py-[0.15rem] text-[0.68rem] font-semibold"
+                  style={`color:${cfg.color || '#64748b'}; background:${cfg.colorLight || '#f1f5f9'};`}
+                >
+                  {cfg.icon} {cfg.name}
+                </span>
+                <span class="min-w-0 flex-1 truncate font-['Noto_Serif_TC',serif] text-[0.98rem] font-semibold text-[#1a1a2e] group-hover:text-[#065f46]">
+                  {a.title}
+                </span>
+                <span class="flex-shrink-0 font-mono text-[0.76rem] tabular-nums text-[#94a3b8]">
+                  {exploreLatestDay(a.date)}
+                </span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    )
+  }
 
   <!-- ====== FEATURED DEEP-DIVES ====== -->
   {
