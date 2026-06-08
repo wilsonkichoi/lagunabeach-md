@@ -75,6 +75,22 @@ const translatePath = useTranslatedPath(lang);
         <h4 class="mb-1 text-[0.85rem] uppercase tracking-[0.05em] text-white">
           {t('footer.explore')}
         </h4>
+        <a href={translatePath('/latest')}>
+          🆕{' '}
+          {
+            lang === 'zh-TW'
+              ? '最新文章'
+              : lang === 'ja'
+                ? '最新の記事'
+                : lang === 'ko'
+                  ? '최신 글'
+                  : lang === 'fr'
+                    ? 'Derniers articles'
+                    : lang === 'es'
+                      ? 'Artículos recientes'
+                      : 'Latest articles'
+          }
+        </a>
         <a href={translatePath('/history')}>{t('footer.history')}</a>
         <a href={translatePath('/culture')}>{t('footer.culture')}</a>
         <a href={translatePath('/food')}>{t('footer.food')}</a>
@@ -100,6 +116,7 @@ const translatePath = useTranslatedPath(lang);
           target="_blank">{t('footer.contribute')}</a
         >
         <a href={translatePath('/changelog')}>{t('footer.changelog')}</a>
+        <a href="/rss.xml">{lang === 'zh-TW' ? 'RSS 訂閱' : 'RSS'}</a>
       </div>
       <div
         class="flex flex-col gap-[0.4rem] [&>a]:relative [&>a]:py-1 [&>a]:text-[0.85rem] [&>a]:text-[#94a3b8] [&>a]:no-underline [&>a]:transition-all [&>a]:duration-200 [&>a]:ease [&>a:hover]:text-[#e2e8f0] [&>a:hover]:after:absolute [&>a:hover]:after:bottom-0 [&>a:hover]:after:left-0 [&>a:hover]:after:right-0 [&>a:hover]:after:h-px [&>a:hover]:after:bg-[#a7c7a7] [&>a:hover]:after:opacity-70 [&>a:hover]:after:content-['']"

@@ -107,6 +107,21 @@ const currentLangOption =
 const normalizedPath = currentPath.replace(/\/$/, '') || '/';
 const isHome = normalizedPath === '/' || normalizedPath === '/en';
 
+// 最新文章 (時序主軸) nav label — inline per-lang (no new i18n key, same
+// pattern as the latest/changelog templates).
+const latestLabel =
+  lang === 'zh-TW'
+    ? '最新文章'
+    : lang === 'ja'
+      ? '最新の記事'
+      : lang === 'ko'
+        ? '최신 글'
+        : lang === 'fr'
+          ? 'Derniers articles'
+          : lang === 'es'
+            ? 'Artículos recientes'
+            : 'Latest';
+
 const navConfig = [
   { path: '/about', label: t('nav.about') },
   { path: '/explore', label: t('nav.explore') },
@@ -316,6 +331,12 @@ const categoryList = [
                         >
                           {t('nav.explore')}
                         </a>
+                        <a
+                          href={translatePath('/latest')}
+                          class="dropdown-item dropdown-section-header"
+                        >
+                          🆕 {latestLabel}
+                        </a>
                         <div class="dropdown-divider" />
                         <a
                           href={translatePath('/graph')}
@@ -449,10 +470,7 @@ const categoryList = [
                           {t('nav.resources')}
                         </a>
                         <div class="dropdown-divider" />
-                        <a
-                          href={translatePath('/mcp')}
-                          class="dropdown-item"
-                        >
+                        <a href={translatePath('/mcp')} class="dropdown-item">
                           🔌 {t('nav.mcp')}
                         </a>
                       </div>
@@ -651,9 +669,12 @@ const categoryList = [
       <nav class="nav-mobile" aria-label={t('nav.aria-mobile-navigation')}>
         {
           navConfig.map((item) => {
-            const hasSub = ['/explore', '/map', '/semiont', '/resources'].includes(
-              item.path,
-            );
+            const hasSub = [
+              '/explore',
+              '/map',
+              '/semiont',
+              '/resources',
+            ].includes(item.path);
             return (
               <Fragment>
                 <div class:list={['mobile-nav-item', { 'has-sub': hasSub }]}>
@@ -675,6 +696,13 @@ const categoryList = [
                 </div>
                 {item.path === '/explore' && (
                   <div class="mobile-sub-links open">
+                    <a
+                      href={translatePath('/latest')}
+                      class="nav-link nav-sub-link"
+                      onclick="document.querySelector('.nav-mobile').classList.remove('open')"
+                    >
+                      🆕 {latestLabel}
+                    </a>
                     <a
                       href={translatePath('/graph')}
                       class="nav-link nav-sub-link"
