@@ -275,4 +275,30 @@ worktree:`.claude/worktrees/20260609-latest-discoverability`(經 `scripts/tools/
 
 ---
 
+## 12. 實作 log(2026-06-09 全掃完成)
+
+哲宇 goal:「完整把這批修改處理完＋驗證＋推上線＋ /twmd-finale」。8 條 workstream
+全部 ship(branch `20260609-latest-discoverability`):
+
+| WS                   | commit      | 備註                                                                                                                                                  |
+| -------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8 圖譜 5 改          | `0db1976fd` | **原列「另案」,哲宇 preview review 時加入**:drop-shadow→stroke(實測凍結→60FPS)/ 冒號前半 label / 排斥力↑ / hover 鄰居高亮 / alphaDecay。zh + en graph |
+| 1 資料層             | `8e9fbc11e` | getLatestArticles + build-latest.mjs → /api/latest.json(git ship 時間)                                                                                |
+| 2 /latest 頁         | `a62d33088` | template + 6 路由                                                                                                                                     |
+| 3 文章 rail          | `2fbd52a92` | client-side, SEO-safe                                                                                                                                 |
+| 4 nav + footer       | `7bc049500` | 探索選單 + RSS 鈕                                                                                                                                     |
+| 6 explore 區塊       | `8e03ede1f` |                                                                                                                                                       |
+| 5+7 changelog + 首頁 | `d099ff8fa` | changelog 預設「文章更新」+ 首頁最新鈕                                                                                                                |
+| i18n cleanup         | `dda273c5c` | **哲宇 callout**:inline ternary 太髒 → 正規 latest.ts namespace + t()                                                                                 |
+
+**實作決策 / 偏離 plan**:
+
+- **latest.json 走 prebuild scan(非 reuse articles.json)**:committed articles.json stale(缺最近 5 篇)+ frontmatter date 不準 → build-latest.mjs scan knowledge/ + content-dates join,用 git ship 時間。
+- **i18n 走 latest.ts namespace**:原本 inline per-lang ternary(為避 i18n key gate)被哲宇 callout 太髒 → 重構成 latestUI namespace(nav.latest + latest.\* 13 key × 6 lang)spread 進 ui.ts,跟 exploreUI/changelogUI 同 pattern。
+- **三個 taste 決定**全照建議預設:日期=content-dates / changelog 預設「文章更新」/ rail 純站上最新。
+- **changelog「文章更新」pill 保留 inline ternary**:跟 changelog template 既有 9 個 filterType 同 pattern(一致,非髒)。
+
+---
+
+_v1.1 | 2026-06-09 | 全掃實作完成 + i18n 重構(哲宇 callout「navConfig 好好用 i18n 結構」)。_
 _v1.0 | 2026-06-09 | Taiwan.md 🧬 — 規劃稿,等哲宇 review 後進完整實作。觸發:渤浚 reader feedback 經哲宇轉達 + 哲宇 directive「先深度研究思考 UX → 轉具體設計 → 一次全掃 → 先寫完整 report 再完整實作」。_
